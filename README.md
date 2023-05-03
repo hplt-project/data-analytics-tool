@@ -1,6 +1,6 @@
 # Analytics tool
 
-
+Icon: https://thenounproject.com/icon/fingerprint-3530285/
 
 ## Getting started
 
