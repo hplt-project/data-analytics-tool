@@ -1,0 +1,55 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.js"></script>
+        <title>Corpus Analytics Tool - Proof of Concept</title>
+    </head>
+    <body>
+        <h1>
+            Corpus Analytics Tool - Proof of Concept
+        </h1>        
+        <div>
+            <select name="corpora-selector" id="corpora-selector">
+                <option value="scielo.en-es">SciELO en-es</option>
+            </select>
+            <button id="load-button">Load corpus stats</button>
+        </div>
+        <div>        
+            <h2>Corpus</h2>
+            <h3>Name</h3> <span id="corpus-name"></span>
+            <h3>Source language</h3> <span id="slang"></span>
+            <h3>Target language</h3> <span id="tlang"></span>
+            <h3>Sentence pairs</h3> <span id="sent-pairs"></span>
+        </div>
+        <div>
+            <h2>Stats</h2>
+            <h3>Source token distribution</h3>
+            <h3>Target token distribution</h3>            
+        </div>
+        <script>
+            $('#load-button').click(function(){load_data($("#corpora-selector").val())});
+            
+            
+            function load_data(corpus){
+                $.get("http://localhost:8000/yaml_dir/"+corpus+".yaml", function(text) {
+                    var obj = jsyaml.load(text)
+                    
+                    corpusname = obj["corpus"]
+                    $("#corpus-name").html(corpusname)
+
+                    slang = obj["srclang"]
+                    $("#slang").html(slang)
+                    
+                    tlang = obj["trglang"]
+                    $("#tlang").html(tlang)
+                    
+                    sentpairs = obj["sentence_pairs"]
+                    $("#sent-pairs").html(sentpairs)
+
+                });
+            }
+        </script>
+    </body>
+</html>
+
