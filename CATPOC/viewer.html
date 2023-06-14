@@ -13,8 +13,8 @@
         </h1>        
         <div>
             <select name="corpora-selector" id="corpora-selector">
-                <option value="scielo.en-es">SciELO en-es</option>
-                <option value="ted2020.de-ja">TED 2020 de-ja</option>
+                <!--<option value="scielo.en-es">SciELO en-es</option>
+                <option value="ted2020.de-ja">TED 2020 de-ja</option>-->
             </select>
             <button id="load-button">Load corpus stats</button>
         </div>
@@ -33,6 +33,29 @@
             <div id="trg_token_chart"></div>
         </div>
         <script>
+            $(document).ready(function(){
+                var select = $("#corpora-selector")
+                $.ajax({
+                    url: "http://localhost:8000/list",
+                    success: function(data) {
+                        var htmlOptions = [];
+                        if (data.length){
+                            data = JSON.parse(data)
+                            for (item in data) {
+                                html = '<option value="' + data[item] + '">' + data[item] + '</option>';
+                                htmlOptions[htmlOptions.length] = html;
+                          } 
+
+                        // here you will empty the pre-existing data from you selectbox and will append the htmlOption created in the loop result
+                        select.empty().append( htmlOptions.join('') );
+                        }
+                    },
+                    error: function(error) {
+                        alert(error.responseJSON.message);
+                    }
+                });           
+            });
+            
             $('#load-button').click(function(){load_data($("#corpora-selector").val())});
             
             google.charts.load('current', {'packages':['corechart', 'bar']});
@@ -61,7 +84,7 @@
             }           
             
             function load_data(corpus){
-                $.get("http://localhost:8000/yaml_dir/"+corpus+".yaml", function(text) {
+                $.get("http://localhost:8000/yaml_dir/"+corpus, function(text) {
                     var obj = jsyaml.load(text)
                     
                     corpusname = obj["corpus"]
