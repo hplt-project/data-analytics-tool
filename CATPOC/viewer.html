@@ -34,32 +34,30 @@
         <script>
             $('#load-button').click(function(){load_data($("#corpora-selector").val())});
             
-            google.charts.load('current', {'packages':['corechart']});
+            google.charts.load('current', {'packages':['corechart', 'bar']});
             //google.charts.setOnLoadCallback(drawChart);            
             
-            function drawChart(div_id, data_series) {
+            function drawChart(div_id, data_series, chart_title) {
                 // Create the data table.
                 var data = new google.visualization.DataTable();
-                data.addColumn('string', 'Topping');
-                data.addColumn('number', 'Slices');
-                data.addRows([
-                  ['Mushrooms', 3],
-                  ['Onions', 1],
-                  ['Olives', 1],
-                  ['Zucchini', 1],
-                  ['Pepperoni', 2]
-                ]);
-
+                data.addColumn('string', "Tokens");
+                data.addColumn('number', "Frequency");
+                data_series = JSON.parse(data_series)
+                high_values = 0
+                data_series.forEach(function(item) {
+                    if (item[0] < 100){
+                        data.addRow([item[0].toString(), item[1]]) 
+                        }
+                    else {
+                        high_values = high_values + item[1]
+                    }
+                });
+                data.addRow(["100+", high_values])
                 // Set chart options
-                var options = {'title':'How Much Pizza I Ate Last Night',
-                       'width':400,
-                       'height':300};
-
-                // Instantiate and draw our chart, passing in some options.
-                var chart = new
-                google.visualization.PieChart(document.getElementById(div_id));
-                chart.draw(data, options);
-            }            
+                var options = {'title': chart_title}
+                var materialChart = new google.charts.Bar(document.getElementById(div_id));
+                materialChart.draw(data, options);
+            }           
             
             function load_data(corpus){
                 $.get("http://localhost:8000/yaml_dir/"+corpus+".yaml", function(text) {
@@ -77,8 +75,11 @@
                     sentpairs = obj["sentence_pairs"]
                     $("#sent-pairs").html(sentpairs)
                     
-                    drawChart("src_token_chart", "")
-                    drawChart("trg_token_chart", "")
+                    src_token_distribution = obj["src_sent_tokens"]
+                    drawChart("src_token_chart", src_token_distribution, "Source sentences length (tokens)")
+                    
+                    trg_token_distribution = obj["trg_sent_tokens"]
+                    drawChart("trg_token_chart", trg_token_distribution, "Target sentences length (tokens)")
 
                 });
             }

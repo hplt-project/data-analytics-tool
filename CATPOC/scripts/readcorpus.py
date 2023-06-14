@@ -68,11 +68,21 @@ def main():
         
         
     stats["sentence_pairs"] = total_lines
-    stats["src_sent_tokens"] = str(sorted(src_sent_tokens.items()))
-    stats["trg_sent_tokens"] = str(sorted(trg_sent_tokens.items()))
 
-    write_stats(args.statsfile, stats)
+    #stats["src_sent_tokens"] = str(sorted(src_sent_tokens.items())) #This generates tuples
+    #stats["trg_sent_tokens"] = str(sorted(trg_sent_tokens.items())) #This generates tuples
     
+    src_tokens_list = []
+    for token, freq in sorted(src_sent_tokens.items()):
+        src_tokens_list.append([token, freq])
+    stats["src_sent_tokens"] = str(src_tokens_list)
+    
+    trg_tokens_list = []
+    for token, freq in sorted(trg_sent_tokens.items()):
+        trg_tokens_list.append([token, freq])
+    stats["trg_sent_tokens"] = str(trg_tokens_list)
+    
+    write_stats(args.statsfile, stats)
     logging.info("Finished")
     elapsed_time = default_timer() - time_start
     logging.info("Total: {0} rows".format(total_lines))
