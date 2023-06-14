@@ -54,11 +54,19 @@ def main():
     
     for line in args.corpus:
         total_lines = total_lines+1
+        
+        if len(line.strip()) == 0:
+            src_sent_tokens[0] += 1
+            trg_sent_tokens[0] += 1
+            continue
 
         sent_parts = line.strip().split("\t")
-        
-        src_sent = sent_parts[0].strip()
-        trg_sent = sent_parts[1].strip()
+                
+        try:
+            src_sent = sent_parts[0].strip()
+            trg_sent = sent_parts[1].strip()
+        except IndexError as ex:
+            logging.error("Missing parts in sentence: " +  line)
         
         src_tokens = count_tokens(src_sent)
         trg_tokens = count_tokens(trg_sent)
