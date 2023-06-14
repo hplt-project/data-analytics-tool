@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <script src="https://code.jquery.com/jquery-latest.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.js"></script>
+        <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+                
+        <title>Corpus Analytics Tool - Proof of Concept</title>
+    </head>
+    <body>
+        <h1>
+            Corpus Analytics Tool - Proof of Concept
+        </h1>        
+
+        <form>
+            <div>
+                <p>
+                    <label for="file">File</label><input id="corpus" type="file" />                
+                </p>
+                <p>
+                    <label for="corpusname">Name</label><input id="corpusname" type="text"></input>
+                </p>
+                <p>
+                    <label for="description">Description</label><input id="corpusdescription" type="text"></input>
+                </p>
+                <p>
+                    <label for="srclang">Source langauge</label><input id="srclang" type="text"></input>
+                    <label for="trglang">Target language</label><input id="trglang" type="text"></input>                    
+                </p>
+                <p>
+                    <label for="corpusformat">Corpus format</label>  <input type="radio" id="corpusformat" name="corpusformat" value="TSV">TSV</input>
+            </div>
+            <div>
+                <p>
+                    <button>Send</button>
+                </p>
+            </div>
+        </form>
+    </body>
+</html>
+
