@@ -15,7 +15,7 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         SimpleHTTPRequestHandler.end_headers(self)
 
     def save_file(self, file, filename):
-        outpath = os.path.join(".", "test_corpora", filename)
+        outpath = os.path.join(".", "uploaded_corpora", filename)
 
         with open(outpath, 'wb') as fout:
             #shutil.copyfileobj(file, fout, 100000)
@@ -69,7 +69,7 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         trglang = form.getvalue('trglang')
         
         saved_file_path = self.save_file(corpus, corpusname)
-        yaml_file_path = saved_file_path.replace("/test_corpora/", "/yaml_dir/") + ".yaml"
+        yaml_file_path = saved_file_path.replace("/uploaded_corpora/", "/yaml_dir/") + ".yaml"
         
         options = []
         options.append("python3")
