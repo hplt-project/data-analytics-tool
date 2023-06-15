@@ -12,6 +12,9 @@
             Corpus Analytics Tool - Proof of Concept
         </h1>        
         <div>
+            <a href="./uploader.html">Go to uploader</a>
+        </div>
+        <div>
             <select name="corpora-selector" id="corpora-selector">
                 <!--<option value="scielo.en-es">SciELO en-es</option>
                 <option value="ted2020.de-ja">TED 2020 de-ja</option>-->
@@ -84,7 +87,7 @@
             }           
             
             function load_data(corpus){
-                $.get("http://localhost:8000/yaml_dir/"+corpus, function(text) {
+                $.get("http://localhost:8000/file/"+corpus, function(text) {
                     var obj = jsyaml.load(text)
                     
                     corpusname = obj["corpus"]

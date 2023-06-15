@@ -11,28 +11,33 @@
         <h1>
             Corpus Analytics Tool - Proof of Concept
         </h1>        
+        
+        <div>
+            <a href="./viewer.html">Go to viewer</a>
+        </div>
 
-        <form>
+        <form method="POST" action="http://localhost:8000/upload"  id="upload-form" enctype="multipart/form-data">
             <div>
                 <p>
-                    <label for="file">File</label><input id="corpus" type="file" />                
+                    <label for="file">File</label><input id="corpus" name="corpus" type="file" />                
                 </p>
                 <p>
-                    <label for="corpusname">Name</label><input id="corpusname" type="text"></input>
+                    <label for="corpusname">Name</label><input id="corpusname" type="text" name="corpusname"></input>
                 </p>
-                <p>
+                <!--<p>
                     <label for="description">Description</label><input id="corpusdescription" type="text"></input>
-                </p>
+                </p>-->
                 <p>
-                    <label for="srclang">Source langauge</label><input id="srclang" type="text"></input>
-                    <label for="trglang">Target language</label><input id="trglang" type="text"></input>                    
+                    <label for="srclang">Source language</label><input id="srclang" type="text" name="srclang"></input>
+                    <label for="trglang">Target language</label><input id="trglang" type="text" name="trglang"></input>                    
                 </p>
-                <p>
+                <!--<p>
                     <label for="corpusformat">Corpus format</label>  <input type="radio" id="corpusformat" name="corpusformat" value="TSV">TSV</input>
+                </p>-->
             </div>
             <div>
                 <p>
-                    <button>Send</button>
+                    <button  type="submit" form="upload-form">Send</button>
                 </p>
             </div>
         </form>
