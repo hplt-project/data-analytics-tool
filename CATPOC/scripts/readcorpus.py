@@ -4,10 +4,12 @@ import logging
 import traceback
 import argparse
 import yaml
+import json
 
 from timeit import default_timer
 from util import logging_setup
 from collections import Counter
+from fastspell import FastSpell
 
 def initialization():
     parser = argparse.ArgumentParser()
@@ -45,12 +47,18 @@ def main():
     total_lines=0
     src_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the source sentence
     trg_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the target sentence
-    
+
+    src_langs = Counter()
+    trg_langs = Counter()
+        
     #Pure metadata could be in a different function
     stats = {}
     stats["corpus"] = os.path.basename(args.corpus.name)
     stats["srclang"] = args.srclang
     stats["trglang"] = args.trglang
+    
+    fastspell_src = FastSpell(args.srclang, mode="cons")
+    fastspell_trg = FastSpell(args.trglang, mode="cons")
     
     for line in args.corpus:
         total_lines = total_lines+1
@@ -67,12 +75,18 @@ def main():
             trg_sent = sent_parts[1].strip()
         except IndexError as ex:
             logging.error("Missing parts in sentence: " +  line)
-        
+            
+        #Counting tokens in each sentence
         src_tokens = count_tokens(src_sent)
-        trg_tokens = count_tokens(trg_sent)
-        
+        trg_tokens = count_tokens(trg_sent)    
         src_sent_tokens[src_tokens] += 1
         trg_sent_tokens[trg_tokens] += 1
+
+        #Get langid for each sent3ence
+        src_langid = fastspell_src.getlang(src_sent)
+        trg_langid = fastspell_trg.getlang(trg_sent)
+        src_langs[src_langid] += 1
+        trg_langs[trg_langid] += 1
         
         
     stats["sentence_pairs"] = total_lines
@@ -89,7 +103,17 @@ def main():
     for token, freq in sorted(trg_sent_tokens.items()):
         trg_tokens_list.append([token, freq])
     stats["trg_sent_tokens"] = str(trg_tokens_list)
-    
+
+    src_langs_list = []
+    for lang, freq in src_langs.most_common():
+        src_langs_list.append([lang, freq])
+    stats["src_langs"] = json.dumps(src_langs_list)
+
+    trg_langs_list = []
+    for lang, freq in trg_langs.most_common():
+        trg_langs_list.append([lang, freq])
+    stats["trg_langs"] = json.dumps(trg_langs_list)
+        
     write_stats(args.statsfile, stats)
     logging.info("Finished")
     elapsed_time = default_timer() - time_start
