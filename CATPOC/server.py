@@ -107,6 +107,8 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         #str(os.listdir("yaml_dir")))  
         return
     
+
+
     def do_POST(self):
         if self.path == '/upload':
             self.do_upload()
@@ -122,6 +124,12 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
             self.end_headers()
             with open("."+self.path.replace("/file/", "/yaml_dir/"), 'rb') as file: 
                 self.wfile.write(file.read()) # Read the file and send the contents 
+        elif "/download/" in self.path:
+            self.send_response(200)
+            self.send_header('Content-type', 'application/text')
+            self.end_headers()
+            with open("."+self.path.replace("/download/", "/yaml_dir/"), 'rb') as file: 
+                self.wfile.write(file.read())
         else:
             return SimpleHTTPRequestHandler.do_GET(self)
         

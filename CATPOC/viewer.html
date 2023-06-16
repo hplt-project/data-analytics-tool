@@ -39,6 +39,9 @@
             <h3>Target lang id. distribution</h3>
             <div id="trg_langs_chart"></div>
         </div>
+        <div>
+            <a class="btn btn-info" id="download-yaml" href="#">Download yaml</a>
+        </div>
         <script>
             $(document).ready(function(){
                 var select = $("#corpora-selector")
@@ -63,8 +66,12 @@
                 });           
             });
             
-            $('#load-button').click(function(){load_data($("#corpora-selector").val())});
-            
+            $('#load-button').click(function(){
+                load_data($("#corpora-selector").val());
+                document.getElementById('download-yaml').href="http://localhost:8000/download/"+$("#corpora-selector").val();
+                console.log($('#download-yaml'))
+            });
+
             google.charts.load('current', {'packages':['corechart', 'bar']});
             //google.charts.setOnLoadCallback(drawChart);            
             
@@ -137,6 +144,7 @@
                 });
             }
         </script>
+
     </body>
 </html>
 
