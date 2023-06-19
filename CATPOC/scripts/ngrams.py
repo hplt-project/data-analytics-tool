@@ -1,7 +1,7 @@
 from collections import Counter
 
-def get_common_ngrams(corpus, n):
-    tokens = corpus.split()
+def get_common_ngrams(tokens, n):
+    #tokens = corpus.split()
     ngrams = []
     for i in range(len(tokens) - n + 1):
         ngram = ' '.join(tokens[i:i+n])

@@ -49,8 +49,8 @@ def main():
     src_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the source sentence
     trg_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the target sentence
 
-    src_tokens = ""
-    trg_tokens = ""
+    src_tokens = []
+    trg_tokens = []
 
     src_langs = Counter()
     trg_langs = Counter()
@@ -93,8 +93,8 @@ def main():
         trg_langs[trg_langid] += 1        
         
         #Add tokens for each sentence
-        src_tokens=src_tokens+src_sent # Tokenization can be improved
-        trg_tokens=trg_tokens+trg_sent # Tokenization can be improved
+        src_tokens.extend(src_sent.split()) # Tokenization can be improved
+        trg_tokens.extend(trg_sent.split()) # Tokenization can be improved
         
     stats["sentence_pairs"] = total_lines
 
@@ -121,10 +121,17 @@ def main():
         trg_langs_list.append([lang, freq])
     stats["trg_langs"] = json.dumps(trg_langs_list)
 
+    # ngrams
     src_ngrams = get_common_ngrams(src_tokens, 2)
     trg_ngrams = get_common_ngrams(trg_tokens, 2)
     stats["src_ngrams"] = json.dumps(src_ngrams)
     stats["trg_ngrams"] = json.dumps(trg_ngrams)
+
+    # type token ratio
+    ttr_src = len(set(src_tokens))/ len(src_tokens)
+    ttr_trg = len(set(trg_tokens))/ len(trg_tokens)
+    stats["ttr_src"] = json.dumps(ttr_src)
+    stats["ttr_trg"] = json.dumps(ttr_trg)
 
     write_stats(args.statsfile, stats)
     logging.info("Finished")
