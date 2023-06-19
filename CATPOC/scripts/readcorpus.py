@@ -10,6 +10,7 @@ from timeit import default_timer
 from util import logging_setup
 from collections import Counter
 from fastspell import FastSpell
+from ngrams import *
 
 def initialization():
     parser = argparse.ArgumentParser()
@@ -48,6 +49,9 @@ def main():
     src_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the source sentence
     trg_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the target sentence
 
+    src_tokens = ""
+    trg_tokens = ""
+
     src_langs = Counter()
     trg_langs = Counter()
         
@@ -77,17 +81,20 @@ def main():
             logging.error("Missing parts in sentence: " +  line)
             
         #Counting tokens in each sentence
-        src_tokens = count_tokens(src_sent)
-        trg_tokens = count_tokens(trg_sent)    
-        src_sent_tokens[src_tokens] += 1
-        trg_sent_tokens[trg_tokens] += 1
+        src_tokens_count = count_tokens(src_sent)
+        trg_tokens_count = count_tokens(trg_sent)    
+        src_sent_tokens[src_tokens_count] += 1
+        trg_sent_tokens[trg_tokens_count] += 1
 
-        #Get langid for each sent3ence
+        #Get langid for each sentence
         src_langid = fastspell_src.getlang(src_sent)
         trg_langid = fastspell_trg.getlang(trg_sent)
         src_langs[src_langid] += 1
-        trg_langs[trg_langid] += 1
+        trg_langs[trg_langid] += 1        
         
+        #Add tokens for each sentence
+        src_tokens=src_tokens+src_sent # Tokenization can be improved
+        trg_tokens=trg_tokens+trg_sent # Tokenization can be improved
         
     stats["sentence_pairs"] = total_lines
 
@@ -113,7 +120,12 @@ def main():
     for lang, freq in trg_langs.most_common():
         trg_langs_list.append([lang, freq])
     stats["trg_langs"] = json.dumps(trg_langs_list)
-        
+
+    src_ngrams = get_common_ngrams(src_tokens, 2)
+    trg_ngrams = get_common_ngrams(trg_tokens, 2)
+    stats["src_ngrams"] = json.dumps(src_ngrams)
+    stats["trg_ngrams"] = json.dumps(trg_ngrams)
+
     write_stats(args.statsfile, stats)
     logging.info("Finished")
     elapsed_time = default_timer() - time_start
