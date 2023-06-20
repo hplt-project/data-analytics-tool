@@ -67,7 +67,12 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         corpusname = form.getvalue('corpusname')        
         srclang = form.getvalue('srclang')
         trglang = form.getvalue('trglang')
+        corpusformat = form.getvalue('corpus-format')
+        langformat = form.getvalue('lang-format')
         
+        print(corpusformat)
+        print(langformat)
+                
         saved_file_path = self.save_file(corpus, corpusname)
         yaml_file_path = saved_file_path.replace("/uploaded_corpora/", "/yaml_dir/") + ".yaml"
         
