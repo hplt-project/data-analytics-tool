@@ -5,6 +5,7 @@ import traceback
 import argparse
 import yaml
 import json
+import math
 
 from timeit import default_timer
 from util import logging_setup
@@ -38,7 +39,17 @@ def write_stats(statsfile, statsdict):
 #Currently a dummy
 def count_tokens(sent):
     return(len(sent.split(" ")))
-    
+
+# To convert sizes
+def convert_size(size_bytes):
+   if size_bytes == 0:
+       return "0B"
+   size_name = ("B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB")
+   i = int(math.floor(math.log(size_bytes, 1024)))
+   p = math.pow(1024, i)
+   s = round(size_bytes / p, 2)
+   return "%s %s" % (s, size_name[i])
+
 def main():
     args = initialization() # Parsing parameters
     logging_setup(args)
@@ -51,6 +62,9 @@ def main():
 
     src_tokens = []
     trg_tokens = []
+
+    src_bytes=0
+    trg_bytes=0
 
     src_langs = Counter()
     trg_langs = Counter()
@@ -95,7 +109,11 @@ def main():
         #Add tokens for each sentence
         src_tokens.extend(src_sent.split()) # Tokenization can be improved
         trg_tokens.extend(trg_sent.split()) # Tokenization can be improved
-        
+         
+        # Corpus strings
+        src_bytes += len(src_sent.encode('utf-8'))
+        trg_bytes += len(trg_sent.encode('utf-8'))
+
     stats["sentence_pairs"] = total_lines
 
     #stats["src_sent_tokens"] = str(sorted(src_sent_tokens.items())) #This generates tuples
@@ -128,10 +146,14 @@ def main():
     stats["trg_ngrams"] = json.dumps(trg_ngrams)
 
     # type token ratio
-    ttr_src = len(set(src_tokens))/ len(src_tokens)
-    ttr_trg = len(set(trg_tokens))/ len(trg_tokens)
+    ttr_src = round(len(set(src_tokens))/ len(src_tokens),2)
+    ttr_trg = round(len(set(trg_tokens))/ len(trg_tokens),2)
     stats["ttr_src"] = json.dumps(ttr_src)
     stats["ttr_trg"] = json.dumps(ttr_trg)
+
+    # bytes size
+    stats["src_bytes"] = json.dumps(convert_size(src_bytes))
+    stats["trg_bytes"] = json.dumps(convert_size(trg_bytes))
 
     write_stats(args.statsfile, stats)
     logging.info("Finished")
