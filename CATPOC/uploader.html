@@ -4,43 +4,77 @@
         <script src="https://code.jquery.com/jquery-latest.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.js"></script>
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+
+        <meta name="viewport" content="width=device-width, initial-scale=1">
                 
         <title>Corpus Analytics Tool - Proof of Concept</title>
     </head>
     <body>
-        <h1>
-            Corpus Analytics Tool - Proof of Concept
-        </h1>        
+        <div class="container-lg">
+            <div class="row">
+                <div class="col">
+                    <h1>Corpus Analytics Tool - Proof of Concept</h1>        
+                </div>
+            </div>
         
-        <div>
-            <a href="./viewer.html">Go to viewer</a>
-        </div>
+            <div class="row">
+                <div class="col">                
+                    <a  class="btn btn-light" href="./viewer.html">Go to viewer</a>
+                </div>
+            </div>
+            
+            <form method="POST" action="http://localhost:8000/upload"  id="upload-form" enctype="multipart/form-data">
+                <div class="form-group">
+                    <div class="row">
+                        <div class="col-1">
+                            <label class="form-label" for="file">File</label>
+                        </div>
+                        <div class="col-4">
+                            <input class="form-control" id="corpus" name="corpus" type="file" />                
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-1">
+                            <label class="form-label" for="corpusname">Name</label>
+                        </div>
+                        <div class="col-3">
+                            <input class="form-control" id="corpusname" type="text" name="corpusname"></input>
+                        </div>
+                    </div>
+                        <!--<p>
+                           <label for="description">Description</label><input id="corpusdescription" type="text"></input>
+                        </p>-->
+                    <div class="row">
+                        <div class="col-1">
+                            <label class="form-label" for="srclang">Source language</label>
+                        </div>
+                        <div class="col-3">
+                            <input class="form-control" id="srclang" type="text" name="srclang"></input>
+                        </div>
+                        <div class="col-1">
+                            <label class="form-label" for="trglang">Target language</label>
+                        </div>
+                        <div class="col-3">
+                            <input class="form-control" id="trglang" type="text" name="trglang"></input>                    
+                        </div>
+                    </div>
+                            <!--<p>
+                                <label for="corpusformat">Corpus format</label>  <input type="radio" id="corpusformat" name="corpusformat" value="TSV">TSV</input>
+                            </p>-->                            
 
-        <form method="POST" action="http://localhost:8000/upload"  id="upload-form" enctype="multipart/form-data">
-            <div>
-                <p>
-                    <label for="file">File</label><input id="corpus" name="corpus" type="file" />                
-                </p>
-                <p>
-                    <label for="corpusname">Name</label><input id="corpusname" type="text" name="corpusname"></input>
-                </p>
-                <!--<p>
-                    <label for="description">Description</label><input id="corpusdescription" type="text"></input>
-                </p>-->
-                <p>
-                    <label for="srclang">Source language</label><input id="srclang" type="text" name="srclang"></input>
-                    <label for="trglang">Target language</label><input id="trglang" type="text" name="trglang"></input>                    
-                </p>
-                <!--<p>
-                    <label for="corpusformat">Corpus format</label>  <input type="radio" id="corpusformat" name="corpusformat" value="TSV">TSV</input>
-                </p>-->
-            </div>
-            <div>
-                <p>
-                    <button  type="submit" form="upload-form">Send</button>
-                </p>
-            </div>
-        </form>
+                    <div class="row">                                   
+                        <div class="col-1">
+                            <button class="btn btn-primary" type="submit" form="upload-form">Upload</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </form>
+
+        </div>
     </body>
 </html>
 
