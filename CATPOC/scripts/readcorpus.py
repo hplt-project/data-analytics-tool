@@ -16,7 +16,7 @@ from ngrams import get_ngrams
 def initialization():
     parser = argparse.ArgumentParser()
     
-    parser.add_argument('corpus', type=argparse.FileType('rt'), help="Tab-separated file.")
+    parser.add_argument('corpus', type=argparse.FileType('rt'), help="Corpus name. Prefix to the source and target bitexts.")
     parser.add_argument('statsfile', type=argparse.FileType('w'), help="Output YAML stats file.") #TODO: default tmpfile
     parser.add_argument('srclang', type=str, help="Source language")
     parser.add_argument('trglang', type=str, help="Target language")
@@ -68,7 +68,7 @@ def main():
 
     src_langs = Counter()
     trg_langs = Counter()
-        
+    
     #Pure metadata could be in a different function
     stats = {}
     stats["corpus"] = os.path.basename(args.corpus.name)
@@ -78,15 +78,20 @@ def main():
     fastspell_src = FastSpell(args.srclang, mode="cons")
     fastspell_trg = FastSpell(args.trglang, mode="cons")
     
-    for line in args.corpus:
+    src_file=open(args.corpus.name+"."+args.srclang,"r").read().splitlines()
+    trg_file=open(args.corpus.name+"."+args.trglang,"r").read().splitlines()
+
+    for src_line, trg_line in zip(src_file,trg_file):
         total_lines = total_lines+1
         
-        if len(line.strip()) == 0:
+        if len(src_line.strip()) == 0:
             src_sent_tokens[0] += 1
+            continue
+        if len(trg_line.strip()) == 0:
             trg_sent_tokens[0] += 1
             continue
 
-        sent_parts = line.strip().split("\t")
+        sent_parts = (src_line,trg_line)
                 
         try:
             src_sent = sent_parts[0].strip()
