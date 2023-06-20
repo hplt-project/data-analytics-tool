@@ -10,7 +10,7 @@ from timeit import default_timer
 from util import logging_setup
 from collections import Counter
 from fastspell import FastSpell
-from ngrams import *
+from ngrams import get_ngrams
 
 def initialization():
     parser = argparse.ArgumentParser()
@@ -122,8 +122,8 @@ def main():
     stats["trg_langs"] = json.dumps(trg_langs_list)
 
     # ngrams
-    src_ngrams = get_common_ngrams(src_tokens, 2)
-    trg_ngrams = get_common_ngrams(trg_tokens, 2)
+    src_ngrams = get_ngrams(src_tokens, 2)
+    trg_ngrams = get_ngrams(trg_tokens, 2)
     stats["src_ngrams"] = json.dumps(src_ngrams)
     stats["trg_ngrams"] = json.dumps(trg_ngrams)
 
