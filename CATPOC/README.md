@@ -18,7 +18,7 @@ TEMPTATIVE ROADMAP
 8. Expand stats: providing an existing metadata yaml must result in only adding the missing fields.
 9. Support other formats (TMXs)
 10. Replace space splitting with a proper tokenizer
-11. Put it all inside a docker
+11. ~~Put it all inside a docker~~
 12. Add a proper backend to the viewer
 13. Add a proper API/DB
 14. Make async
