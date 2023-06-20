@@ -16,5 +16,5 @@ URLS:
 If you need to access docker to run stuff inside:
 * sudo docker exec -it dat-webapp /bin/bash
 
-Code and data is located in `/work`
+Code and data are located in `/work`
 
