@@ -1,0 +1,17 @@
+services:
+    dat-webapp:
+        container_name: dat-webapp
+        image: dat-webapp:latest
+        build:
+            context: .
+            dockerfile: Dockerfile
+        #environment:
+        networks:
+            - dat-network
+        #volumes:
+        ports:
+            - "8000:8000"
+#volumes:
+networks:
+    dat-network:                
+
