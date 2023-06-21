@@ -32,9 +32,7 @@
             </div>
 
 
-        <div>
-            <a href="./uploader.html">Go to uploader</a>
-        </div>
+
         <div class="row my-3">
             <div class="col-2">
                 <select name="corpora-selector" id="corpora-selector"  class="form-select"></select>
@@ -53,16 +51,12 @@
             <div class="col-3">
                 <span class="form-control-plaintext" id="corpus-name" name="corpus-name"><span>
             </div>
-        </div>
-        <div class="row mb-3">
             <div class="col-1">
                 <label class="form-label" for="slang">Source language</label>
             </div>
             <div class="col-3">
                 <span class="form-control-plaintext" id="slang" name="slang"></span>
             </div>
-        </div>
-        <div class="row mb-3">
             <div class="col-1">
                 <label class="form-label" for="tlang">Target language</label>
             </div>
@@ -83,23 +77,53 @@
             </div>
         </div>
 
+        <div class="row my-3">        
+            <h3>Sencence length distribution</h3>
+        </div>
+        <div class="row">
+            <div class="col-6 inline">
+                <h4>Source</h4>
+            </div>
+            <div class="col-6 inline">
+                <h4>Target</h4>
+           </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-6 inline">
+                <div id="src_token_chart"></div>
+            </div>
+            <div class="col-6 inline">
+                <div id="trg_token_chart"></div>
+            </div>
+        </div>    
+        <div class="row my-3">
+            <h3>Lang. id. distribution</h3>                
+        </div>
+        <div class="row">
+            <div class="col-6 inline">
+                <h4>Source</h4>                
+            </div>
+            <div class="col-6 inline">
+                <h4>Target</h4>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-6 inline">
+                <div id="src_langs_chart"></div>
+            </div>
+            <div class="col-6 inline">
+                <div id="trg_langs_chart"></div>
+            </div>
+        </div>
+        <div class="row my-3">
+            <div class="col-auto">
+                <a class="btn btn-primary" id="download-yaml" href="#">Download yaml</a>
+            </div>
+            <div class="col-auto">
+                <a class="btn btn-secondary" href="./uploader.html">Go to uploader</a>
+            </div>
+        </div>
 
-
-        <div>
-            <h2>Stats</h2>
-            <h3>Source token distribution</h3>
-            <div id="src_token_chart"></div>
-            <h3>Target token distribution</h3>            
-            <div id="trg_token_chart"></div>
-            <h3>Source lang id. distribution</h3>
-            <div id="src_langs_chart"></div>
-            <h3>Target lang id. distribution</h3>
-            <div id="trg_langs_chart"></div>
-        </div>
-        <div>
-            <a class="btn btn-info" id="download-yaml" href="#">Download yaml</a>
-        </div>
-        </div>
         <script>
             $(document).ready(function(){
                 var select = $("#corpora-selector")
@@ -127,7 +151,6 @@
             $('#load-button').click(function(){
                 load_data($("#corpora-selector").val());
                 document.getElementById('download-yaml').href="http://localhost:8000/download/"+$("#corpora-selector").val();
-                console.log($('#download-yaml'))
             });
 
             google.charts.load('current', {'packages':['corechart', 'bar']});
@@ -150,8 +173,18 @@
                 });
                 data.addRow(["100+", high_values])
                 // Set chart options
-                var options = {'title': chart_title}
-                var materialChart = new google.charts.Bar(document.getElementById(div_id));
+                var options = {
+                    //title: chart_title,
+                    hAxis: {
+                        title: data.getColumnLabel(0)
+                        },                    
+                    vAxis: {
+                        title: data.getColumnLabel(1)
+                        },
+                    legend: 'none'
+                };
+                //var materialChart = new google.charts.Bar(document.getElementById(div_id));
+                var materialChart = new google.visualization.ColumnChart(document.getElementById(div_id));
                 materialChart.draw(data, options);
             }           
             
@@ -164,7 +197,7 @@
                         data.addRow([item[0], item[1]])                    
                     });
                 
-                var options = {'title': chart_title}
+                var options = {} //'title': chart_title}
                 var materialChart = new google.visualization.PieChart(document.getElementById(div_id));
                 materialChart.draw(data, options);
 
@@ -184,7 +217,7 @@
                     $("#tlang").html(tlang)
                     
                     sentpairs = obj["sentence_pairs"]
-                    $("#sent-pairs").html(sentpairs)
+                    $("#sent-pairs").html(sentpairs.toLocaleString())
                     
                     src_token_distribution = obj["src_sent_tokens"]
                     draw_histogram("src_token_chart", src_token_distribution, "Source sentences length (tokens)")
