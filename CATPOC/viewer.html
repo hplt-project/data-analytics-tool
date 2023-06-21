@@ -112,7 +112,7 @@
             </div>
         </div>    
         <div class="row my-3">
-            <h3>Language distribution <i class="bi bi-info-circle" style="font-size: 0.7em; title="Identified by FastSpell"></i></h3>                
+            <h3>Language distribution <i class="bi bi-info-circle" style="font-size: 0.7em;" title="Identified by FastSpell"></i></h3>                
         </div>
         <div class="row">
             <div class="col-6 inline">
@@ -141,6 +141,14 @@
         </div>        
 
         <div class="row my-3">
+            <h3>Noise distribution <i class="bi bi-info-circle" style="font-size: 0.7em;" title="Identified by Bicleaner Hardrules"></i></h3>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <div id="hardrules-tags"></div>
+            </div>
+        </div>
+        <div class="row my-3">
             <div class="col-auto">
                 <a class="btn btn-primary" id="download-yaml" href="#">Download yaml</a>
             </div>
@@ -148,8 +156,8 @@
                 <a class="btn btn-secondary" href="./uploader.html">Go to uploader</a>
             </div>
         </div>
+        
 
-        </div>
         <script>
             $(document).ready(function(){
            
@@ -175,8 +183,8 @@
                 });           
             });
             
-             const languageNames = new Intl.DisplayNames(['en'], {
-                 type: 'language'
+            const languageNames = new Intl.DisplayNames(['en'], {
+                type: 'language'
             }); 
             
             $('#load-button').click(function(){
@@ -187,12 +195,30 @@
             google.charts.load('current', {'packages':['corechart', 'bar']});
             //google.charts.setOnLoadCallback(drawChart);            
             
+            function beautify_hr_labels(raw_label) {
+                switch (raw_label){
+                    case "not_too_long":
+                        return "Too long"
+                    case "not_too_short":
+                        return "Too short"
+                    case "no_urls":
+                        return "URLs"
+                    case "no_bad_encoding":
+                        return "Bad encoding"
+                    case "no_porn":
+                        return "Porn"
+                    default:
+                        return raw_label
+                }
+            }
+            
+            
             function draw_histogram(div_id, data_series, chart_title, x_axis_label, y_axis_label) {
                 // Create the data table.
                 var data = new google.visualization.DataTable();
                 data.addColumn('string', x_axis_label);
                 data.addColumn('number', y_axis_label);
-                data_series = JSON.parse(data_series)                
+                data_series = JSON.parse(data_series)                                
                 high_values = 0
                 data_series.forEach(function(item) {
                     if (item[0] < 100){
@@ -221,13 +247,37 @@
                 materialChart.draw(data, options);
             }           
             
+            function draw_horizontal_bars(div_id, data_series, chart_title, x_axis_label, y_axis_label) {
+                var data = new google.visualization.DataTable();
+                data.addColumn('string', y_axis_label);
+                data.addColumn('number', x_axis_label);
+                data_series = JSON.parse(data_series)
+
+                for (const [key, value] of Object.entries(data_series)) {
+                    data.addRow([beautify_hr_labels(key.toString()), value])
+                }
+
+                var options = {
+                    //title: chart_title,
+                    hAxis: {
+                        title: x_axis_label
+                        },
+                    vAxis: {
+                        title: y_axis_label
+                        },
+                    legend: 'none'
+                }
+                var chart = new google.visualization.BarChart(document.getElementById(div_id));
+                chart.draw(data, options);
+            }
+            
             function draw_pie(div_id, data_series, chart_title) {
                 var data = new google.visualization.DataTable();
                     data.addColumn('string', 'Language');
                     data.addColumn('number', 'Frequency');
                     data_series = JSON.parse(data_series)
                     data_series.forEach(function(item) {
-                        data.addRow([item[0], item[1]])                    
+                        data.addRow([languageNames.of(item[0]), item[1]])                    
                     });
                 
                 var options = {} //'title': chart_title}
@@ -272,6 +322,9 @@
                     
                     target_bytes = obj["trg_bytes"]
                     $("#trg-bytes").html(target_bytes)
+                    
+                    hardrules_tags = obj["bicleaner_tags"]
+                    draw_horizontal_bars("hardrules-tags", hardrules_tags,"Bicleaner hardrules",  "% of corpus", "Noise type")
                 
 
                 });
