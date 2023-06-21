@@ -90,7 +90,24 @@
                 <span class="form-control-plaintext" id="trg-bytes" name="trg-bytes"></span>
             </div>
         </div>                
-
+        
+        <div class="row my-3">
+                <h3>Type-Token Ratio</h3>
+        </div>
+        <div class="row mb-3">
+            <div class="col-1">
+                <label class="form-label" for="src-ttr">Source</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="src-ttr" name="src-ttr"></span>
+            </div>
+            <div class="col-1">
+                <label class="form-label" for="trg-ttr">Target</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="trg-ttr" name="trg-ttr"></span>
+            </div>
+        </div>
 
         <div class="row my-3">        
             <h3>Sentence length distribution</h3>
@@ -173,6 +190,8 @@
                 <div id="trg-ngrams"></div>
             </div>
         </div>
+
+
 
         <div class="row my-3">
             <div class="col-auto">
@@ -392,6 +411,12 @@
                                         
                     trg_ngrams = obj["trg_ngrams"]
                     draw_ngrams("trg-ngrams", trg_ngrams)
+                    
+                    src_ttr = obj["ttr_src"]
+                    $("#src-ttr").html(src_ttr)
+                    
+                    trg_ttr = obj["ttr_trg"]
+                    $("#trg-ttr").html(trg_ttr)
                 });
             }
         </script>
