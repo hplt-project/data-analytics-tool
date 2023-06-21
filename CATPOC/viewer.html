@@ -7,6 +7,8 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>                
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+
         <style>
             .navbar-brand
             {
@@ -78,7 +80,7 @@
         </div>
 
         <div class="row my-3">        
-            <h3>Sencence length distribution</h3>
+            <h3>Sentence length distribution</h3>
         </div>
         <div class="row">
             <div class="col-6 inline">
@@ -97,7 +99,7 @@
             </div>
         </div>    
         <div class="row my-3">
-            <h3>Lang. id. distribution</h3>                
+            <h3>Language distribution <i class="bi bi-info-circle" style="font-size: 0.7em; title="Identified by FastSpell"></i></h3>                
         </div>
         <div class="row">
             <div class="col-6 inline">
@@ -115,6 +117,16 @@
                 <div id="trg_langs_chart"></div>
             </div>
         </div>
+
+        <div class="row my-3">
+            <h3>Bicleaner score distribution</h3>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="bicleaner_scores_chart"></div>
+            </div>
+        </div>        
+
         <div class="row my-3">
             <div class="col-auto">
                 <a class="btn btn-primary" id="download-yaml" href="#">Download yaml</a>
@@ -124,8 +136,10 @@
             </div>
         </div>
 
+        </div>
         <script>
             $(document).ready(function(){
+           
                 var select = $("#corpora-selector")
                 $.ajax({
                     url: "http://localhost:8000/list",
@@ -148,6 +162,10 @@
                 });           
             });
             
+             const languageNames = new Intl.DisplayNames(['en'], {
+                 type: 'language'
+            }); 
+            
             $('#load-button').click(function(){
                 load_data($("#corpora-selector").val());
                 document.getElementById('download-yaml').href="http://localhost:8000/download/"+$("#corpora-selector").val();
@@ -156,11 +174,11 @@
             google.charts.load('current', {'packages':['corechart', 'bar']});
             //google.charts.setOnLoadCallback(drawChart);            
             
-            function draw_histogram(div_id, data_series, chart_title) {
+            function draw_histogram(div_id, data_series, chart_title, x_axis_label, y_axis_label) {
                 // Create the data table.
                 var data = new google.visualization.DataTable();
-                data.addColumn('string', "Tokens");
-                data.addColumn('number', "Frequency");
+                data.addColumn('string', x_axis_label);
+                data.addColumn('number', y_axis_label);
                 data_series = JSON.parse(data_series)                
                 high_values = 0
                 data_series.forEach(function(item) {
@@ -171,7 +189,9 @@
                         high_values = high_values + item[1]
                     }
                 });
-                data.addRow(["100+", high_values])
+                if (high_values > 0) {
+                    data.addRow(["100+", high_values])
+                }
                 // Set chart options
                 var options = {
                     //title: chart_title,
@@ -211,19 +231,19 @@
                     $("#corpus-name").html(corpusname)
 
                     slang = obj["srclang"]
-                    $("#slang").html(slang)
+                    $("#slang").html(languageNames.of(slang) + " (" + slang +")" )
                     
                     tlang = obj["trglang"]
-                    $("#tlang").html(tlang)
+                    $("#tlang").html(languageNames.of(tlang) + " (" + tlang + ")" )
                     
                     sentpairs = obj["sentence_pairs"]
                     $("#sent-pairs").html(sentpairs.toLocaleString())
                     
                     src_token_distribution = obj["src_sent_tokens"]
-                    draw_histogram("src_token_chart", src_token_distribution, "Source sentences length (tokens)")
+                    draw_histogram("src_token_chart", src_token_distribution, "Source sentences length (tokens)", "Tokens", "Frequency")
                     
                     trg_token_distribution = obj["trg_sent_tokens"]
-                    draw_histogram("trg_token_chart", trg_token_distribution, "Target sentences length (tokens)")
+                    draw_histogram("trg_token_chart", trg_token_distribution, "Target sentences length (tokens)", "Tokens", "Frequency")
                     
                     src_langs_distribution = obj["src_langs"]
                     draw_pie("src_langs_chart", src_langs_distribution, "Source sentences identified language")
@@ -231,6 +251,8 @@
                     trg_langs_distribution = obj["trg_langs"]
                     draw_pie("trg_langs_chart", trg_langs_distribution, "Target sentences identified language")
                     
+                    bicleaner_scores_distribution = obj["bicleaner_scores"]
+                    draw_histogram("bicleaner_scores_chart", bicleaner_scores_distribution, "Bicleaner scores", "Score range", "Frequency") 
 
                 });
             }
