@@ -1,3 +1,7 @@
+OpusFilter instructions:
+
+Install OpusFilter from the develop branch (it's the default branch): https://github.com/Helsinki-NLP/OpusFilter
+
 INSTRUCTIONS
 
 1. Start env: source scripts/catpoc-env/bin/activate
