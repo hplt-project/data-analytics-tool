@@ -46,5 +46,5 @@ if [ "$langformat" == "parallel" ]; then
 
     python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang
 else
-    python3 ./scripts/readcorpus_mono.py $tsv_file_path $yaml_file_path $srclang $trglang
+    python3 ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang $trglang
 fi
