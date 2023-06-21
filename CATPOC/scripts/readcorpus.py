@@ -12,12 +12,7 @@ from util import logging_setup
 from collections import Counter
 from fastspell import FastSpell
 from ngrams import get_ngrams
-from opusfilter.opusfilter import OpusFilter
-from opusfilter.autogen import ConfigurationGenerator
-from opusfilter.util import file_open
-from opusfilter.classifier import lists_to_dicts
-import pandas as pd
-from pandas import json_normalize
+from opusfilter_stats import get_opusfilter_stats
 
 def initialization():
     parser = argparse.ArgumentParser()
@@ -124,28 +119,8 @@ def main():
         # Corpus strings
         src_bytes += len(src_sent.encode('utf-8'))
         trg_bytes += len(trg_sent.encode('utf-8'))
-        
-    config_gen = ConfigurationGenerator(files=['temp.src', 'temp.trg'], workdir='uploaded_corpora', langs=[src_langid, trg_langid])
-    opusfilter_params = {
-            'AlphabetRatioFilter': {},
-            'LengthRatioFilter.char': {
-                'name': 'char',
-                'unit': 'char'},
-            'LengthRatioFilter.word': {
-                'name': 'word',
-                'unit': 'word'},
-            'NonZeroNumeralsFilter': {},
-        }
-    score_file = config_gen.add_score([{k.split('.', maxsplit=1)[0]: v} for k, v in opusfilter_params.items()])
-    config = config_gen.get_config()
-    opusf = OpusFilter(config)
-    opusf.execute_steps(overwrite=True)
 
-    with file_open('uploaded_corpora/scores.jsonl.gz', 'r') as scores:
-        df = json_normalize([lists_to_dicts(json.loads(line)) for line in scores])
-    opusfilter_stats = df.describe()
-    print(opusfilter_stats)
-    stats['opusfilter_stats'] = opusfilter_stats
+    stats["opusfilter_stats"] = str(get_opusfilter_stats(args.corpus.name, args.srclang, args.trglang))
 
     stats["sentence_pairs"] = total_lines
 
