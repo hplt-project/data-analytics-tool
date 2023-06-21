@@ -1,4 +1,4 @@
-<html>
+    <html>
     <head>
         <meta charset="UTF-8">
         <script src="https://code.jquery.com/jquery-latest.js"></script>
@@ -7,33 +7,84 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>                
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <style>
+            .navbar-brand
+            {
+              font-size: 40px;
+            }
+        </style>
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <title>Corpus Analytics Tool - Proof of Concept</title>
+        <title>Data Analytics Tool - Viewer</title>
     </head>
-    <body>
-    <div class="container">
-        <h1>
-            Corpus Analytics Tool - Proof of Concept
-        </h1>        
+    <body>    
+        <div class="container-lg">
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand">
+                    <img src="logo.png" height="50px"/> Data Analytics Tool
+                </a>
+            </nav>
+            <div class="row my-3">
+                <div class="col">
+                    <h2>Data Analytics Viewer</h2>        
+                </div>
+            </div>
+
 
         <div>
             <a href="./uploader.html">Go to uploader</a>
         </div>
-        <div>
-            <select name="corpora-selector" id="corpora-selector">
-                <!--<option value="scielo.en-es">SciELO en-es</option>
-                <option value="ted2020.de-ja">TED 2020 de-ja</option>-->
-            </select>
-            <button id="load-button">Load corpus stats</button>
+        <div class="row my-3">
+            <div class="col-2">
+                <select name="corpora-selector" id="corpora-selector"  class="form-select"></select>
+            </div>
+            <div class="col-2">
+                <button id="load-button" class="btn btn-primary">Load corpus stats</button>
+            </div>
         </div>
-        <div>        
-            <h2>Corpus</h2>
-            <h3>Name</h3> <span id="corpus-name"></span>
-            <h3>Source language</h3> <span id="slang"></span>
-            <h3>Target language</h3> <span id="tlang"></span>
-            <h3>Sentence pairs</h3> <span id="sent-pairs"></span>
+        <div class="row my-3">
+            <h3>Corpus</h3>
         </div>
+        <div class="row mb-3">        
+            <div class="col-1">
+                <label class="form-label" for="corpus-name">Name</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="corpus-name" name="corpus-name"><span>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-1">
+                <label class="form-label" for="slang">Source language</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="slang" name="slang"></span>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-1">
+                <label class="form-label" for="tlang">Target language</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="tlang" name="tlang"></span>
+            </div>
+        </div>
+        
+        <div class="row my-3">
+            <h3>Volumes</h3>
+        </div>
+        <div class="row mb-3">
+            <div class="col-1">
+                <label clasS="form-label" for="sent-pairs">Sentence pairs</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="sent-pairs" name="sent-pairs"></span>
+            </div>
+        </div>
+
+
+
         <div>
             <h2>Stats</h2>
             <h3>Source token distribution</h3>
