@@ -69,7 +69,6 @@ def read_bicleanerscores(corpusname):
     src, tgt, scores = zip(*(line.split("\t") for line in open(bicleanerscores, "r").read().splitlines()))
 
     buckets = [[] for _ in range(10)]
-    print(buckets)
     for item in scores:
         bucket_index = int(float(item) * 10)
         buckets[bucket_index].append(item)
