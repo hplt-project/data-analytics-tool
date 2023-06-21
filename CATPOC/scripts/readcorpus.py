@@ -79,8 +79,12 @@ def main():
     fastspell_src = FastSpell(args.srclang, mode="cons")
     fastspell_trg = FastSpell(args.trglang, mode="cons")
     
-    src_file=open(args.corpus.name+"."+args.srclang,"r").read().splitlines()
-    trg_file=open(args.corpus.name+"."+args.trglang,"r").read().splitlines()
+    if "tsv" in args.corpus.name:
+        filename=args.corpus.name.replace(".tsv","")
+    else:
+        filename=args.corpus.name
+    src_file=open(filename+"."+args.srclang,"r").read().splitlines()
+    trg_file=open(filename+"."+args.trglang,"r").read().splitlines()
 
     for src_line, trg_line in zip(src_file,trg_file):
         total_lines = total_lines+1
@@ -162,10 +166,10 @@ def main():
     stats["trg_bytes"] = json.dumps(convert_size(trg_bytes))
 
     # bicleaner-hardrules tags
-    bicleaner_tags = read_bicleanertags("./uploaded_corpora/"+os.path.basename(args.corpus.name), args.srclang, args.trglang)
+    bicleaner_tags = read_bicleanertags(filename, args.srclang, args.trglang)
     stats["bicleaner_tags"] = json.dumps(bicleaner_tags)
     # bicleaner-classify scores
-    bicleaner_scores = read_bicleanerscores("./uploaded_corpora/"+os.path.basename(args.corpus.name))
+    bicleaner_scores = read_bicleanerscores(filename)
     stats["bicleaner_scores"] = json.dumps(bicleaner_scores)
 
     write_stats(args.statsfile, stats)
