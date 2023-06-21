@@ -12,6 +12,7 @@ from util import logging_setup
 from collections import Counter
 from fastspell import FastSpell
 from ngrams import get_ngrams
+from bicleanerscorer import read_bicleanertags, read_bicleanerscores
 
 def initialization():
     parser = argparse.ArgumentParser()
@@ -159,6 +160,13 @@ def main():
     # bytes size
     stats["src_bytes"] = json.dumps(convert_size(src_bytes))
     stats["trg_bytes"] = json.dumps(convert_size(trg_bytes))
+
+    # bicleaner-hardrules tags
+    bicleaner_tags = read_bicleanertags("./uploaded_corpora/"+os.path.basename(args.corpus.name))
+    stats["bicleaner_tags"] = json.dumps(bicleaner_tags)
+    # bicleaner-classify scores
+    bicleaner_scores = read_bicleanerscores("./uploaded_corpora/"+os.path.basename(args.corpus.name))
+    stats["bicleaner_scores"] = json.dumps(bicleaner_scores)
 
     write_stats(args.statsfile, stats)
     logging.info("Finished")
