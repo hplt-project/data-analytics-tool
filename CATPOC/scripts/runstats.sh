@@ -14,7 +14,7 @@ if [ "$format" == "tmx" ]; then
     filename=$(basename "$saved_file_path" .tmx)
     # Create the new file path with the "tsv" extension
     tsv_file_path="$dir_path/$filename.tsv"
-    python3 ./scripts/tmxt.py --codelist=$srclang,$trglang $saved_file_path $tsv_file_path
+    python3 ./tmxt/tmxt.py --codelist=$srclang,$trglang $saved_file_path $tsv_file_path
     # Save into two separate files
     cut -f1 $tsv_file_path > $saved_file_path.$srclang
     cut -f2 $tsv_file_path > $saved_file_path.$trglang
