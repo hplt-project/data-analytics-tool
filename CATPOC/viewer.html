@@ -45,6 +45,9 @@
             <h3>Target lang id. distribution</h3>
             <div id="trg_langs_chart"></div>
         </div>
+        <div id="opusfilter_stats">
+            <h2>OpusFilter stats</h2>
+        </div>
         <div>
             <a class="btn btn-info" id="download-yaml" href="#">Download yaml</a>
         </div>
@@ -146,6 +149,31 @@
                     
                     trg_langs_distribution = obj["trg_langs"]
                     draw_pie("trg_langs_chart", trg_langs_distribution, "Target sentences identified language")
+
+                    f_names = JSON.parse(obj["opusfilter_names"]);
+                    var opusdiv = document.getElementById("opusfilter_stats");
+                    f_names.forEach(function(item) {
+                        var header = document.createElement("h3");
+                        var textnode = document.createTextNode(item);
+                        header.appendChild(textnode);
+                        opusdiv.appendChild(header);
+                        var chart_div = document.createElement("div");
+                        opusdiv.appendChild(chart_div);
+
+                        filter_data = obj[item];
+                        var data = new google.visualization.DataTable();
+                        data.addColumn('string', "Intervals");
+                        data.addColumn('number', "Frequency");
+                        data_series = JSON.parse(filter_data);
+                        data_series.forEach(function(item) {
+                            data.addRow([item[0].toString(), item[1]]);
+                        });
+                        // Set chart options
+                        var options = {'title': item};
+                        var materialChart = new google.charts.Bar(chart_div);
+                        materialChart.draw(data, options);
+                    });
+
                     
 
                 });

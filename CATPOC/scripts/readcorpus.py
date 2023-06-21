@@ -120,7 +120,10 @@ def main():
         src_bytes += len(src_sent.encode('utf-8'))
         trg_bytes += len(trg_sent.encode('utf-8'))
 
-    stats["opusfilter_stats"] = str(get_opusfilter_stats(args.corpus.name, args.srclang, args.trglang))
+    opusfilter_stats = get_opusfilter_stats(args.corpus.name, args.srclang, args.trglang)
+    stats["opusfilter_names"] = str(list(opusfilter_stats.keys())).replace("'",'"')
+    for k in opusfilter_stats.keys():
+        stats[k] = str(opusfilter_stats[k]).replace("'",'"')
 
     stats["sentence_pairs"] = total_lines
 
