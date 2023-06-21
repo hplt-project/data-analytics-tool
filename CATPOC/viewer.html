@@ -72,12 +72,25 @@
         </div>
         <div class="row mb-3">
             <div class="col-1">
-                <label clasS="form-label" for="sent-pairs">Sentence pairs</label>
+                <label class="form-label" for="sent-pairs">Sentence pairs</label>
             </div>
             <div class="col-3">
                 <span class="form-control-plaintext" id="sent-pairs" name="sent-pairs"></span>
             </div>
-        </div>
+            <div class="col-1">
+                <label class="form-label" for="src-bytes">Source size</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="src-bytes" name="src-bytes"></span>
+            </div>
+            <div class="col-1">
+                <label class="form-label" for="trg-bytes">Target size</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="trg-bytes" name="trg-bytes"></span>
+            </div>
+        </div>                
+
 
         <div class="row my-3">        
             <h3>Sentence length distribution</h3>
@@ -253,6 +266,13 @@
                     
                     bicleaner_scores_distribution = obj["bicleaner_scores"]
                     draw_histogram("bicleaner_scores_chart", bicleaner_scores_distribution, "Bicleaner scores", "Score range", "Frequency") 
+                    
+                    source_bytes = obj["src_bytes"]
+                    $("#src-bytes").html(source_bytes)
+                    
+                    target_bytes = obj["trg_bytes"]
+                    $("#trg-bytes").html(target_bytes)
+                
 
                 });
             }
