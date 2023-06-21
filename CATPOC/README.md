@@ -13,10 +13,10 @@ TEMPTATIVE ROADMAP
 3. ~~Add fancy graphs/charts to the viewer.~~
 4. ~~Basic frontend to process a corpus (upload corpus, provide some metadata)~~
 5. ~~Add lang identifier to the stats and the viewer.~~
-6. Add bicleaner score to the stats and the viewer.
+6. ~~Add bicleaner score to the stats and the viewer.~~
 7. Add some CSS
 8. Expand stats: providing an existing metadata yaml must result in only adding the missing fields.
-9. Support other formats (TMXs)
+9. ~~Support other formats (TMXs)~~
 10. Replace space splitting with a proper tokenizer
 11. ~~Put it all inside a docker~~
 12. Add a proper backend to the viewer
