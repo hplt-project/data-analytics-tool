@@ -16,6 +16,9 @@ if [ "$langformat" == "parallel" ]; then
     if [ -f "$bicleanermetadata" ]; then
         echo "Bicleaner model already downloaded."
     else
+        if [ ! -d "bicleaner" ]; then
+            mkdir "bicleaner"
+        fi
         echo "Downloading bicleaner model..."
         wget https://github.com/bitextor/bicleaner-data/releases/download/v1.6/$srclang-$trglang.tar.gz -O bicleaner/tmp.tar.gz
         tar -xvf bicleaner/tmp.tar.gz -C bicleaner/
@@ -51,6 +54,9 @@ else
     if [ -f "$monocleanermetadata" ]; then
         echo "Monocleaner model already downloaded."
     else
+        if [ ! -d "monocleaner" ]; then
+            mkdir "monocleaner"
+        fi
         echo "Downloading monocleaner model..."
         monocleaner-download fi monocleaner/
     fi
