@@ -67,22 +67,21 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         corpusname = form.getvalue('corpusname')        
         srclang = form.getvalue('srclang')
         trglang = form.getvalue('trglang')
-        corpusformat = form.getvalue('corpus-format')
+
+        format = form.getvalue('corpus-format')
         langformat = form.getvalue('lang-format')
-        
-        print(corpusformat)
-        print(langformat)
-                
+                   
         saved_file_path = self.save_file(corpus, corpusname)
         yaml_file_path = saved_file_path.replace("/uploaded_corpora/", "/yaml_dir/") + ".yaml"
         
         options = []
-        options.append("python3")
-        options.append("./scripts/readcorpus.py")
+        options.append("bash")
+        options.append("./scripts/runstats.sh")
         options.append(saved_file_path)
         options.append(yaml_file_path)
         options.append(srclang)
         options.append(trglang)
+        options.append(format)
         print(" ".join(options))
         subprocess.Popen(options)
 
