@@ -18,30 +18,27 @@ else
     rm bicleaner/tmp.tar.gz
 fi
 
-
-# Check if the format is "tmx" and extract sentences
-if [ "$format" == "tmx" ]; then
-    # Get the directory path and filename without extension
-    dir_path=$(dirname "$saved_file_path")
-    filename=$(basename "$saved_file_path" .tmx)
-    # Create the new file path with the "tsv" extension
-    tsv_file_path="$dir_path/$filename.tsv"
-    python3 ./tmxt/tmxt.py --codelist=$srclang,$trglang $saved_file_path $tsv_file_path
+# Check the format and preprocess the data
+if [ "$format" == "bitext" ]; then
+    tsv_file_path=$saved_file_path.tsv
+    paste $saved_file_path.$srclang  $saved_file_path.$trglang > $tsv_file_path
+else # if format is tmx or tsv
+    if [ "$format" == "tmx" ]; then
+        # Get the directory path and filename without extension
+        dir_path=$(dirname "$saved_file_path")
+        filename=$(basename "$saved_file_path" .tmx)
+        # Create the new file path with the "tsv" extension
+        tsv_file_path="$dir_path/$filename.tsv"
+        python3 ./tmxt/tmxt.py --codelist=$srclang,$trglang $saved_file_path $tsv_file_path
+    else
+        tsv_file_path=$saved_file_path #if the input file is in tsv format
+    fi
     # Save into two separate files
     cut -f1 $tsv_file_path > $saved_file_path.$srclang
     cut -f2 $tsv_file_path > $saved_file_path.$trglang
-    bicleaner-hardrules --annotated_output --run_all -s $srclang -t $trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleanermetadata
-    bicleaner-classify --scol 1 --tcol 2 $tsv_file_path $saved_file_path.bicleaner-classify $bicleanermetadata
-elif [ "$format" == "tsv" ]; then # For now, we will assume it is the first two columns
-    # Save into two separate files
-    cut -f1 $saved_file_path > $saved_file_path.$srclang
-    cut -f2 $saved_file_path > $saved_file_path.$trglang
-    bicleaner-hardrules --annotated_output --run_all -s $srclang -t $trglang $saved_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleanermetadata
-    bicleaner-classify --scol 1 --tcol 2 $saved_file_path $saved_file_path.bicleaner-classify $bicleanermetadata
-elif [ "$format" == "bitext" ]; then
-    paste $saved_file_path.$srclang  $saved_file_path.$trglang > $saved_file_path.tsv
-    bicleaner-hardrules --annotated_output --run_all -s $srclang -t $trglang $saved_file_path.tsv $saved_file_path.bicleaner-hardrules --metadata $bicleanermetadata
-    bicleaner-classify --scol 1 --tcol 2 $saved_file_path.tsv $saved_file_path.bicleaner-classify $bicleanermetadata
 fi
 
-python3 ./scripts/readcorpus.py $saved_file_path $yaml_file_path $srclang $trglang
+#bicleaner-hardrules --annotated_output --run_all -s $srclang -t $trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleanermetadata
+#bicleaner-classify --scol 1 --tcol 2 $tsv_file_path $saved_file_path.bicleaner-classify $bicleanermetadata
+
+python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang
