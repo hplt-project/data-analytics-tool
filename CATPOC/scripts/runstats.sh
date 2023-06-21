@@ -8,6 +8,7 @@ trglang=$4
 format=$5
 langformat=$6
 bicleanermetadata=bicleaner/$srclang-$trglang/$srclang-$trglang.yaml
+monocleanermetadata=monocleaner/$srclang/metadata.yaml
 
 # Check if its monolingual or bilingual corpus
 if [ "$langformat" == "parallel" ]; then
@@ -46,5 +47,13 @@ if [ "$langformat" == "parallel" ]; then
 
     python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang
 else
+    # Check if monocleaner model is downloaded, otherwise download
+    if [ -f "$monocleanermetadata" ]; then
+        echo "Monocleaner model already downloaded."
+    else
+        echo "Downloading monocleaner model..."
+        monocleaner-download fi monocleaner/
+    fi
+    monocleaner monocleaner/$srclang $saved_file_path $saved_file_path.monocleaner-classify
     python3 ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang $trglang
 fi
