@@ -162,7 +162,7 @@ def main():
     stats["trg_bytes"] = json.dumps(convert_size(trg_bytes))
 
     # bicleaner-hardrules tags
-    bicleaner_tags = read_bicleanertags("./uploaded_corpora/"+os.path.basename(args.corpus.name))
+    bicleaner_tags = read_bicleanertags("./uploaded_corpora/"+os.path.basename(args.corpus.name), args.srclang, args.trglang)
     stats["bicleaner_tags"] = json.dumps(bicleaner_tags)
     # bicleaner-classify scores
     bicleaner_scores = read_bicleanerscores("./uploaded_corpora/"+os.path.basename(args.corpus.name))

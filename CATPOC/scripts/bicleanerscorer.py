@@ -1,4 +1,4 @@
-from collections import Counter
+import yaml
 
 tag_types = [
     #"no_empty",                    # Sentence is empty (already in histogram)
@@ -26,7 +26,20 @@ tag_types = [
     #"lm_filter"                    # The sentence pair has low fluency score from the language model
 ]
 
-def read_bicleanertags(corpusname):
+def remove_porntag(corpusname, srclang, trglang):
+    # Check if there is porn file, otherwise remove it:
+    yaml_file_path = "bicleaner/"+srclang+"-"+trglang+"/"+srclang+"-"+trglang+".yaml"
+    # Open the YAML file
+    with open(yaml_file_path, "r") as yaml_file:
+        # Load the YAML content
+        yaml_data = yaml.safe_load(yaml_file)
+
+        # Check if "porn_removal_file" key exists
+        if "porn_removal_file" not in yaml_data:
+            tag_types.remove("no_porn")
+    return tag_types
+
+def read_bicleanertags(corpusname,srclang, trglang):
     bicleaneroutput = corpusname+".bicleaner-hardrules"
     src, tgt, keep, tags = zip(*(line.split("\t") for line in open(bicleaneroutput, "r").read().splitlines()))
     
@@ -41,6 +54,8 @@ def read_bicleanertags(corpusname):
         else:
             tag = tag.replace("(right)","").replace("(left)","").replace("(left,right)","")
             clean_tags.extend([tag])
+    
+    tag_types = remove_porntag(corpusname, srclang, trglang)
 
     tags_percent = {}
     for tag in tag_types:
@@ -64,5 +79,5 @@ def read_bicleanerscores(corpusname):
     return(bucket_counts)
 
 
-#tags = read_bicleanertags("uploaded_corpora/edu")
+#tags = read_bicleanertags("uploaded_corpora/xx","en","ca")
 #scores = read_bicleanerscores("uploaded_corpora/edu")
