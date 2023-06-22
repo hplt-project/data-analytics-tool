@@ -73,7 +73,7 @@ def main():
     
     fastspell_src = FastSpell(args.srclang, mode="cons")
     
-    src_file=open(args.corpus.name+"."+args.srclang,"r").read().splitlines()
+    src_file=open(args.corpus.name,"r").read().splitlines()
 
     for src_line in src_file:
         total_lines = total_lines+1

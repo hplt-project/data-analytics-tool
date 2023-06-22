@@ -63,9 +63,9 @@ else
             mkdir "monocleaner"
         fi
         echo "Downloading monocleaner model..."
-        monocleaner-download fi monocleaner/
+        monocleaner-download en monocleaner/
     fi
     monocleaner monocleaner/$srclang $saved_file_path $saved_file_path.monocleaner-classify
     deactivate
-    python3 ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang $trglang
+    python3 ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
 fi
