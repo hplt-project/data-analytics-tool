@@ -44,12 +44,17 @@ if [ "$langformat" == "parallel" ]; then
         cut -f1 $tsv_file_path > $saved_file_path.$srclang
         cut -f2 $tsv_file_path > $saved_file_path.$trglang
     fi
-
+    source /work/venvs/venv-bhr/bin/activate
     bicleaner-hardrules --annotated_output --run_all -s $srclang -t $trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleanermetadata
+    deactivate
+    
+    source /work/venvs/venv-bc/bin/activate
     bicleaner-classify --scol 1 --tcol 2 $tsv_file_path $saved_file_path.bicleaner-classify $bicleanermetadata
-
+    deactivate
+    
     python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang
 else
+    source /work/venvs/venv-mc/bin/activate
     # Check if monocleaner model is downloaded, otherwise download
     if [ -f "$monocleanermetadata" ]; then
         echo "Monocleaner model already downloaded."
@@ -61,5 +66,6 @@ else
         monocleaner-download fi monocleaner/
     fi
     monocleaner monocleaner/$srclang $saved_file_path $saved_file_path.monocleaner-classify
+    deactivate
     python3 ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang $trglang
 fi
