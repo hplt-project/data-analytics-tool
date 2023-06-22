@@ -5,6 +5,7 @@ import os
 import json
 import cgi
 import shutil 
+import urllib.request
 
 class CORSRequestHandler (SimpleHTTPRequestHandler):
     def end_headers (self):
@@ -24,8 +25,7 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         
             
     def do_upload(self):
-        print ("in post method")
-       
+
         #self.data_string = self.rfile.read(int(self.headers['Content-Length']))
         self.send_response(200)
         self.end_headers()
@@ -137,6 +137,17 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
             self.end_headers()
             with open("."+self.path.replace("/download/", "/yaml_dir/"), 'rb') as file: 
                 self.wfile.write(file.read())
+        elif "/opus_langs" in self.path:
+            self.send_response(200)
+            self.send_header('Content-type', 'application/text')
+            self.end_headers()
+            resp = urllib.request.urlopen("https://opus.nlpl.eu/opusapi/?languages=True")
+            content = resp.read()
+            content_text = content.decode("utf-8")
+
+            #print(bytes(json.dumps(content_text, ensure_ascii=False), "utf-8"))            
+            self.wfile.write(bytes(content_text, 'utf-8'))
+            #self.wfile.write(bytes(json.dumps(content_text, ensure_ascii=False), "utf-8"))
         else:
             return SimpleHTTPRequestHandler.do_GET(self)
         

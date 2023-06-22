@@ -89,13 +89,16 @@
                             <label class="form-label" for="srclang">Source language</label>
                         </div>
                         <div class="col-3">
-                            <input class="form-control" id="srclang" type="text" name="srclang"></input>
+                            <select name="srclang" id="srclang"  class="form-select"></select>
+
                         </div>
                         <div class="col-1">
                             <label class="form-label" for="trglang">Target language</label>
                         </div>
                         <div class="col-3">
-                            <input class="form-control" id="trglang" type="text" name="trglang"></input>                    
+
+                            <select name="trglang" id="trglang"  class="form-select"></select>
+
                         </div>
                     </div>
                     <!--
@@ -123,6 +126,52 @@
         </div>
         
         <script>
+            const languageNames = new Intl.DisplayNames(['en'], {
+                type: 'language'
+            }); 
+
+            $(document).ready(function(){
+
+                var srclang_select = $("#srclang")
+                var trglang_select = $("#trglang")
+
+
+                $.ajax({
+                    url: "http://localhost:8000/opus_langs", 
+                    success: function(data) {
+                        var htmlOptions = [];
+                        if (data.length){                          
+                            data = JSON.parse(data)
+                            //console.log(data)
+                            //console.log(data["languages"])
+                            for (item in data["languages"]) {
+                                //langs = JSON.parse(item)
+                                langcode=data["languages"][item]                                
+                                if (isNaN(langcode)) {
+                                    try {
+                                        langname = languageNames.of(langcode)
+                                    } catch (err) {
+                                        langname = langcode
+                                    }
+                                    html = '<option value="' + langcode + '">' + langname + " (" + langcode + ")"+ '</option>';
+                                    htmlOptions[htmlOptions.length] = html;
+                                }
+                          } 
+
+                        // here you will empty the pre-existing data from you selectbox and will append the htmlOption created in the loop result
+                        srclang_select.empty().append( htmlOptions.join(''))
+                        trglang_select.empty().append(htmlOptions.join(''))
+                        }
+                    },
+                    error: function(error) {
+                        console.log("ERROR")                    
+                        console.log(error)
+                        //alert(error);
+                    }
+                });
+            });  
+        
+        
             $("input[type='radio'][name='lang-format']").change(function() {
                 //Disable target lang when mono is selected
                 if ( $("input[type='radio'][name='lang-format']:checked").val() == "mono") {
@@ -130,8 +179,7 @@
                     $("#trglang").prop("disabled", true);
                 }
                 else {
-                    console.log("PARALLEL")
-                    $("#trglang").prop("disabled", false);
+                     $("#trglang").prop("disabled", false);
                 }
             });
 
