@@ -12,7 +12,7 @@ from util import logging_setup
 from collections import Counter
 from fastspell import FastSpell
 from ngrams import get_ngrams
-from bicleanerscorer import read_bicleanertags, read_bicleanerscores
+from monocleanerscorer import read_monocleanerscores
 
 def initialization():
     parser = argparse.ArgumentParser()
@@ -20,7 +20,6 @@ def initialization():
     parser.add_argument('corpus', type=argparse.FileType('rt'), help="Corpus name. Prefix to the source and target bitexts.")
     parser.add_argument('statsfile', type=argparse.FileType('w'), help="Output YAML stats file.") #TODO: default tmpfile
     parser.add_argument('srclang', type=str, help="Source language")
-    parser.add_argument('trglang', type=str, help="Target language")
 
     # Logging group
     groupL = parser.add_argument_group('Logging')
@@ -59,118 +58,66 @@ def main():
 
     total_lines=0
     src_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the source sentence
-    trg_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the target sentence
 
     src_tokens = []
-    trg_tokens = []
 
     src_bytes=0
-    trg_bytes=0
 
     src_langs = Counter()
-    trg_langs = Counter()
     
     #Pure metadata could be in a different function
     stats = {}
     stats["corpus"] = os.path.basename(args.corpus.name)
     stats["srclang"] = args.srclang
-    stats["trglang"] = args.trglang
+    filename = os.path.basename(args.corpus.name)
     
     fastspell_src = FastSpell(args.srclang, mode="cons")
-    fastspell_trg = FastSpell(args.trglang, mode="cons")
     
-    if "tsv" in args.corpus.name:
-        filename=args.corpus.name.replace(".tsv","")
-    else:
-        filename=args.corpus.name
-    src_file=open(filename+"."+args.srclang,"r").read().splitlines()
-    trg_file=open(filename+"."+args.trglang,"r").read().splitlines()
+    src_file=open(args.corpus.name+"."+args.srclang,"r").read().splitlines()
 
-    for src_line, trg_line in zip(src_file,trg_file):
+    for src_line in src_file:
         total_lines = total_lines+1
         
-        if len(src_line.strip()) == 0:
-            src_sent_tokens[0] += 1
-            continue
-        if len(trg_line.strip()) == 0:
-            trg_sent_tokens[0] += 1
-            continue
-
-        sent_parts = (src_line,trg_line)
-                
-        try:
-            src_sent = sent_parts[0].strip()
-            trg_sent = sent_parts[1].strip()
-        except IndexError as ex:
-            logging.error("Missing parts in sentence: " +  line)
-            
         #Counting tokens in each sentence
-        src_tokens_count = count_tokens(src_sent)
-        trg_tokens_count = count_tokens(trg_sent)    
+        src_tokens_count = count_tokens(src_line)
         src_sent_tokens[src_tokens_count] += 1
-        trg_sent_tokens[trg_tokens_count] += 1
 
         #Get langid for each sentence
-        src_langid = fastspell_src.getlang(src_sent)
-        trg_langid = fastspell_trg.getlang(trg_sent)
+        src_langid = fastspell_src.getlang(src_line)
         src_langs[src_langid] += 1
-        trg_langs[trg_langid] += 1        
         
         #Add tokens for each sentence
-        src_tokens.extend(src_sent.split()) # Tokenization can be improved
-        trg_tokens.extend(trg_sent.split()) # Tokenization can be improved
-         
+        src_tokens.extend(src_line.split()) # Tokenization can be improved
+        
         # Corpus strings
-        src_bytes += len(src_sent.encode('utf-8'))
-        trg_bytes += len(trg_sent.encode('utf-8'))
+        src_bytes += len(src_line.encode('utf-8'))
 
     stats["sentence_pairs"] = total_lines
-
-    #stats["src_sent_tokens"] = str(sorted(src_sent_tokens.items())) #This generates tuples
-    #stats["trg_sent_tokens"] = str(sorted(trg_sent_tokens.items())) #This generates tuples
     
     src_tokens_list = []
     for token, freq in sorted(src_sent_tokens.items()):
         src_tokens_list.append([token, freq])
     stats["src_sent_tokens"] = str(src_tokens_list)
-    
-    trg_tokens_list = []
-    for token, freq in sorted(trg_sent_tokens.items()):
-        trg_tokens_list.append([token, freq])
-    stats["trg_sent_tokens"] = str(trg_tokens_list)
 
     src_langs_list = []
     for lang, freq in src_langs.most_common():
         src_langs_list.append([lang, freq])
     stats["src_langs"] = json.dumps(src_langs_list)
 
-    trg_langs_list = []
-    for lang, freq in trg_langs.most_common():
-        trg_langs_list.append([lang, freq])
-    stats["trg_langs"] = json.dumps(trg_langs_list)
-
     # ngrams
     src_ngrams = get_ngrams(src_tokens, 2)
-    trg_ngrams = get_ngrams(trg_tokens, 2)
     stats["src_ngrams"] = json.dumps(src_ngrams)
-    stats["trg_ngrams"] = json.dumps(trg_ngrams)
 
     # type token ratio
     ttr_src = round(len(set(src_tokens))/ len(src_tokens),2)
-    ttr_trg = round(len(set(trg_tokens))/ len(trg_tokens),2)
     stats["ttr_src"] = json.dumps(ttr_src)
-    stats["ttr_trg"] = json.dumps(ttr_trg)
 
     # bytes size
     stats["src_bytes"] = json.dumps(convert_size(src_bytes))
-    stats["trg_bytes"] = json.dumps(convert_size(trg_bytes))
 
-    # bicleaner-hardrules tags
-    bicleaner_tags = read_bicleanertags(filename, args.srclang, args.trglang)
-    stats["bicleaner_tags"] = json.dumps(bicleaner_tags)
-    # bicleaner-classify scores
-    bicleaner_scores = read_bicleanerscores(filename)
-    stats["bicleaner_scores"] = json.dumps(bicleaner_scores)
+    # monocleaner scores
+    monocleaner_scores = read_monocleanerscores(filename)
+    stats["monocleaner_scores"] = json.dumps(monocleaner_scores)
 
     write_stats(args.statsfile, stats)
     logging.info("Finished")

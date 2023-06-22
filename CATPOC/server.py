@@ -82,6 +82,7 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         options.append(srclang)
         options.append(trglang)
         options.append(format)
+        options.append(langformat)
         print(" ".join(options))
         subprocess.Popen(options)
 
