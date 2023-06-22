@@ -19,15 +19,15 @@ RUN apt-get update && \
     
 RUN python3.10 -m pip install -U pip  && \
     python3.10 -m pip install -U wheel && \
-    python3.10 -m pip install -U setuptools && \
+    python3.10 -m pip install -U setuptools && \    
     python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 && \
+    python3.10 -m pip install --config-settings="--build-option=--max_order=7" https://github.com/kpu/kenlm/archive/master.zip && \    
     python3.10 -m pip install -r /work/deployment/requirements.txt
-   
+
 RUN apt-get purge -y gcc  python3-dev && \
     apt-get autoremove -y && \
     rm -rf /var/lib/apt/lists/* && \
     rm -rf ~/.cache/pip/*
-
 
 COPY CATPOC/* /work/
 COPY CATPOC/scripts/* /work/scripts/

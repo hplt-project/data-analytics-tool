@@ -1,4 +1,4 @@
-<html>
+    <html>
     <head>
         <meta charset="UTF-8">
         <script src="https://code.jquery.com/jquery-latest.js"></script>
@@ -7,50 +7,205 @@
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>                
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css" rel="stylesheet">
+
+        <style>
+            .navbar-brand
+            {
+              font-size: 40px;
+            }
+        </style>
+
         <meta name="viewport" content="width=device-width, initial-scale=1">
         
-        <title>Corpus Analytics Tool - Proof of Concept</title>
+        <title>Data Analytics Tool - Viewer</title>
     </head>
-    <body>
-    <div class="container">
-        <h1>
-            Corpus Analytics Tool - Proof of Concept
-        </h1>        
+    <body>    
+        <div class="container-lg">
+            <nav class="navbar navbar-light bg-light">
+                <a class="navbar-brand">
+                    <img src="logo.png" height="50px"/> Data Analytics Tool
+                </a>
+            </nav>
+            <div class="row my-3">
+                <div class="col">
+                    <h2>Data Analytics Viewer</h2>        
+                </div>
+            </div>
 
-        <div>
-            <a href="./uploader.html">Go to uploader</a>
+
+
+        <div class="row my-3">
+            <div class="col-2">
+                <select name="corpora-selector" id="corpora-selector"  class="form-select"></select>
+            </div>
+            <div class="col-2">
+                <button id="load-button" class="btn btn-primary">Load corpus stats</button>
+            </div>
         </div>
-        <div>
-            <select name="corpora-selector" id="corpora-selector">
-                <!--<option value="scielo.en-es">SciELO en-es</option>
-                <option value="ted2020.de-ja">TED 2020 de-ja</option>-->
-            </select>
-            <button id="load-button">Load corpus stats</button>
+        <div class="row my-3">
+            <h3>Corpus</h3>
         </div>
-        <div>        
-            <h2>Corpus</h2>
-            <h3>Name</h3> <span id="corpus-name"></span>
-            <h3>Source language</h3> <span id="slang"></span>
-            <h3>Target language</h3> <span id="tlang"></span>
-            <h3>Sentence pairs</h3> <span id="sent-pairs"></span>
+        <div class="row mb-3">        
+            <div class="col-1">
+                <label class="form-label" for="corpus-name">Name</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="corpus-name" name="corpus-name"><span>
+            </div>
+            <div class="col-1">
+                <label class="form-label" for="slang">Source language</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="slang" name="slang"></span>
+            </div>
+            <div class="col-1">
+                <label class="form-label" for="tlang">Target language</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="tlang" name="tlang"></span>
+            </div>
         </div>
-        <div>
-            <h2>Stats</h2>
-            <h3>Source token distribution</h3>
-            <div id="src_token_chart"></div>
-            <h3>Target token distribution</h3>            
-            <div id="trg_token_chart"></div>
-            <h3>Source lang id. distribution</h3>
-            <div id="src_langs_chart"></div>
-            <h3>Target lang id. distribution</h3>
-            <div id="trg_langs_chart"></div>
+        
+        <div class="row my-3">
+            <h3>Volumes</h3>
         </div>
-        <div>
-            <a class="btn btn-info" id="download-yaml" href="#">Download yaml</a>
+        <div class="row mb-3">
+            <div class="col-1">
+                <label class="form-label" for="sent-pairs">Sentence pairs</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="sent-pairs" name="sent-pairs"></span>
+            </div>
+            <div class="col-1">
+                <label class="form-label" for="src-bytes">Source size</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="src-bytes" name="src-bytes"></span>
+            </div>
+            <div class="col-1">
+                <label class="form-label" for="trg-bytes">Target size</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="trg-bytes" name="trg-bytes"></span>
+            </div>
+        </div>                
+        
+        <div class="row my-3">
+                <h3>Type-Token Ratio</h3>
         </div>
+        <div class="row mb-3">
+            <div class="col-1">
+                <label class="form-label" for="src-ttr">Source</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="src-ttr" name="src-ttr"></span>
+            </div>
+            <div class="col-1">
+                <label class="form-label" for="trg-ttr">Target</label>
+            </div>
+            <div class="col-3">
+                <span class="form-control-plaintext" id="trg-ttr" name="trg-ttr"></span>
+            </div>
         </div>
+
+        <div class="row my-3">        
+            <h3>Sentence length distribution</h3>
+        </div>
+        <div class="row">
+            <div class="col-6 inline">
+                <h4>Source</h4>
+            </div>
+            <div class="col-6 inline">
+                <h4>Target</h4>
+           </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-6 inline">
+                <div id="src_token_chart"></div>
+            </div>
+            <div class="col-6 inline">
+                <div id="trg_token_chart"></div>
+            </div>
+        </div>    
+        <div class="row my-3">
+            <h3>Language distribution <i class="bi bi-info-circle" style="font-size: 0.7em;" title="Identified by FastSpell"></i></h3>                
+        </div>
+        <div class="row">
+            <div class="col-6 inline">
+                <h4>Source</h4>                
+            </div>
+            <div class="col-6 inline">
+                <h4>Target</h4>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-6 inline">
+                <div id="src_langs_chart"></div>
+            </div>
+            <div class="col-6 inline">
+                <div id="trg_langs_chart"></div>
+            </div>
+        </div>
+
+        <div class="row my-3">
+            <h3>Bicleaner score distribution</h3>
+        </div>
+        <div class="row">
+            <div class="col">
+                <div id="bicleaner_scores_chart"></div>
+            </div>
+        </div>        
+
+        <div class="row my-3">
+            <h3>Noise distribution <i class="bi bi-info-circle" style="font-size: 0.7em;" title="Identified by Bicleaner Hardrules"></i></h3>
+        </div>
+        <div class="row mb-3">
+            <div class="col">
+                <div id="hardrules-tags"></div>
+            </div>
+        </div>
+        
+        <div class="row my-3">
+            <h3>Common n-grams</h3>
+        </div>        
+        <div class="row mb-3">
+            <div class="col">
+                <h4>Source</h4>
+            </div> 
+        </div>
+        <div class="row mb-3">
+            <div class="col-12">
+                <div id="src-ngrams"></div>
+            </div>
+        </div>
+        
+        <div class="row mb-3">            
+            <div clasS="col">
+                <h4>Target</h4>
+            </div>
+        </div>
+        <div class="row mb-3">
+            <div class="col-12">
+                <div id="trg-ngrams"></div>
+            </div>
+        </div>
+
+
+
+        <div class="row my-3">
+            <div class="col-auto">
+                <a class="btn btn-primary" id="download-yaml" href="#">Download yaml</a>
+            </div>
+            <div class="col-auto">
+                <a class="btn btn-secondary" href="./uploader.html">Go to uploader</a>
+            </div>
+        </div>
+        
+
         <script>
             $(document).ready(function(){
+           
                 var select = $("#corpora-selector")
                 $.ajax({
                     url: "http://localhost:8000/list",
@@ -73,21 +228,42 @@
                 });           
             });
             
+            const languageNames = new Intl.DisplayNames(['en'], {
+                type: 'language'
+            }); 
+            
             $('#load-button').click(function(){
                 load_data($("#corpora-selector").val());
                 document.getElementById('download-yaml').href="http://localhost:8000/download/"+$("#corpora-selector").val();
-                console.log($('#download-yaml'))
             });
 
             google.charts.load('current', {'packages':['corechart', 'bar']});
             //google.charts.setOnLoadCallback(drawChart);            
             
-            function draw_histogram(div_id, data_series, chart_title) {
+            function beautify_hr_labels(raw_label) {
+                switch (raw_label){
+                    case "not_too_long":
+                        return "Too long"
+                    case "not_too_short":
+                        return "Too short"
+                    case "no_urls":
+                        return "URLs"
+                    case "no_bad_encoding":
+                        return "Bad encoding"
+                    case "no_porn":
+                        return "Porn"
+                    default:
+                        return raw_label
+                }
+            }
+            
+            
+            function draw_histogram(div_id, data_series, chart_title, x_axis_label, y_axis_label) {
                 // Create the data table.
                 var data = new google.visualization.DataTable();
-                data.addColumn('string', "Tokens");
-                data.addColumn('number', "Frequency");
-                data_series = JSON.parse(data_series)                
+                data.addColumn('string', x_axis_label);
+                data.addColumn('number', y_axis_label);
+                data_series = JSON.parse(data_series)                                
                 high_values = 0
                 data_series.forEach(function(item) {
                     if (item[0] < 100){
@@ -97,12 +273,48 @@
                         high_values = high_values + item[1]
                     }
                 });
-                data.addRow(["100+", high_values])
+                if (high_values > 0) {
+                    data.addRow(["100+", high_values])
+                }
                 // Set chart options
-                var options = {'title': chart_title}
-                var materialChart = new google.charts.Bar(document.getElementById(div_id));
+                var options = {
+                    //title: chart_title,
+                    hAxis: {
+                        title: data.getColumnLabel(0)
+                        },                    
+                    vAxis: {
+                        title: data.getColumnLabel(1)
+                        },
+                    legend: 'none'
+                };
+                //var materialChart = new google.charts.Bar(document.getElementById(div_id));
+                var materialChart = new google.visualization.ColumnChart(document.getElementById(div_id));
                 materialChart.draw(data, options);
             }           
+            
+            function draw_horizontal_bars(div_id, data_series, chart_title, x_axis_label, y_axis_label) {
+                var data = new google.visualization.DataTable();
+                data.addColumn('string', y_axis_label);
+                data.addColumn('number', x_axis_label);
+                data_series = JSON.parse(data_series)
+
+                for (const [key, value] of Object.entries(data_series)) {
+                    data.addRow([beautify_hr_labels(key.toString()), value])
+                }
+
+                var options = {
+                    //title: chart_title,
+                    hAxis: {
+                        title: x_axis_label
+                        },
+                    vAxis: {
+                        title: y_axis_label
+                        },
+                    legend: 'none'
+                }
+                var chart = new google.visualization.BarChart(document.getElementById(div_id));
+                chart.draw(data, options);
+            }
             
             function draw_pie(div_id, data_series, chart_title) {
                 var data = new google.visualization.DataTable();
@@ -110,13 +322,48 @@
                     data.addColumn('number', 'Frequency');
                     data_series = JSON.parse(data_series)
                     data_series.forEach(function(item) {
-                        data.addRow([item[0], item[1]])                    
+                        data.addRow([languageNames.of(item[0]), item[1]])                    
                     });
                 
-                var options = {'title': chart_title}
+                var options = {} //'title': chart_title}
                 var materialChart = new google.visualization.PieChart(document.getElementById(div_id));
                 materialChart.draw(data, options);
 
+            }
+            
+            function draw_ngrams(div_id, data_series) {
+                var data = new google.visualization.DataTable();
+                data.addColumn("string", "ngram")
+                data.addColumn("number", "ngram length") //x axis
+                data.addColumn("number", "Frequency") //y axis
+                //data.addColumn("string", "ngram")
+
+                data_series = JSON.parse(data_series)
+                for (const [key, value] of Object.entries(data_series)) {
+                    //key: ngram length
+                    ngram_length = parseInt(key)
+                    value.forEach(function(item) {                    
+                        ngram_text = item[0].join(" ")
+                        ngram_freq = parseInt(item[1])
+                        //data.addRow([ngram_length, ngram_freq])
+                        data.addRow([ngram_text, ngram_freq, ngram_length])
+                    });
+                    //data.addRow([beautify_hr_labels(key.toString()), value])
+                }
+                options = {
+                    vAxis: {
+                        title: 'ngram length',
+                        minValue: 0,
+                        maxValue: 3
+                    },
+                    hAxis: {
+                        title: 'Frequency'
+                    },
+                    legend: 'none'
+                }
+                                
+                var chart = new google.visualization.BubbleChart(document.getElementById(div_id));
+                chart.draw(data, options);
             }
             
             function load_data(corpus){
@@ -127,19 +374,19 @@
                     $("#corpus-name").html(corpusname)
 
                     slang = obj["srclang"]
-                    $("#slang").html(slang)
+                    $("#slang").html(languageNames.of(slang) + " (" + slang +")" )
                     
                     tlang = obj["trglang"]
-                    $("#tlang").html(tlang)
+                    $("#tlang").html(languageNames.of(tlang) + " (" + tlang + ")" )
                     
                     sentpairs = obj["sentence_pairs"]
-                    $("#sent-pairs").html(sentpairs)
+                    $("#sent-pairs").html(sentpairs.toLocaleString())
                     
                     src_token_distribution = obj["src_sent_tokens"]
-                    draw_histogram("src_token_chart", src_token_distribution, "Source sentences length (tokens)")
+                    draw_histogram("src_token_chart", src_token_distribution, "Source sentences length (tokens)", "Tokens", "Frequency")
                     
                     trg_token_distribution = obj["trg_sent_tokens"]
-                    draw_histogram("trg_token_chart", trg_token_distribution, "Target sentences length (tokens)")
+                    draw_histogram("trg_token_chart", trg_token_distribution, "Target sentences length (tokens)", "Tokens", "Frequency")
                     
                     src_langs_distribution = obj["src_langs"]
                     draw_pie("src_langs_chart", src_langs_distribution, "Source sentences identified language")
@@ -147,7 +394,29 @@
                     trg_langs_distribution = obj["trg_langs"]
                     draw_pie("trg_langs_chart", trg_langs_distribution, "Target sentences identified language")
                     
-
+                    bicleaner_scores_distribution = obj["bicleaner_scores"]
+                    draw_histogram("bicleaner_scores_chart", bicleaner_scores_distribution, "Bicleaner scores", "Score range", "Frequency") 
+                    
+                    source_bytes = obj["src_bytes"]
+                    $("#src-bytes").html(source_bytes)
+                    
+                    target_bytes = obj["trg_bytes"]
+                    $("#trg-bytes").html(target_bytes)
+                    
+                    hardrules_tags = obj["bicleaner_tags"]
+                    draw_horizontal_bars("hardrules-tags", hardrules_tags,"Bicleaner hardrules",  "% of corpus", "Noise type")
+                
+                    src_ngrams = obj["src_ngrams"]
+                    draw_ngrams("src-ngrams", src_ngrams)                    
+                                        
+                    trg_ngrams = obj["trg_ngrams"]
+                    draw_ngrams("trg-ngrams", trg_ngrams)
+                    
+                    src_ttr = obj["ttr_src"]
+                    $("#src-ttr").html(src_ttr)
+                    
+                    trg_ttr = obj["ttr_trg"]
+                    $("#trg-ttr").html(trg_ttr)
                 });
             }
         </script>
