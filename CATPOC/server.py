@@ -67,7 +67,9 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         corpusname = form.getvalue('corpusname')        
         srclang = form.getvalue('srclang')
         trglang = form.getvalue('trglang')
-
+        if not trglang:
+            trglang=""
+            
         format = form.getvalue('corpus-format')
         langformat = form.getvalue('lang-format')
                    

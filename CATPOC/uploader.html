@@ -60,12 +60,12 @@
                             <label class="form-label" for="corpus-format">Corpus format</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="corpus-format" id="corpus-format" value="tsv" checked>
-                            <label class="form-check-label" for="corpus-format">TSV</label>
+                            <input class="form-check-input" type="radio" name="corpus-format" id="corpus-format-tsv" value="tsv" checked>
+                            <label class="form-check-label" for="corpus-format-tsv">TSV</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="corpus-format" id="corpus-format" value="tmx">
-                            <label class="form-check-label" for="corpus-format">TMX</label>
+                            <input class="form-check-input" type="radio" name="corpus-format" id="corpus-format-tmx" value="tmx">
+                            <label class="form-check-label" for="corpus-format-tmx">TMX</label>
                         </div>        
                     </div>
 
@@ -76,12 +76,12 @@
                             <label class="form-label" for="lang-format">Language</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="lang-format" id="lang-format" value="mono">
-                            <label class="form-check-label" for="lang-format">Mono</label>
+                            <input class="form-check-input" type="radio" name="lang-format" id="lang-format-mono" value="mono">
+                            <label class="form-check-label" for="lang-format-mono">Mono</label>
                         </div>
                         <div class="form-check form-check-inline">
-                            <input class="form-check-input" type="radio" name="lang-format" id="lang-format" value="parallel" checked>
-                            <label class="form-check-label" for="lang-format">Parallel</label>
+                            <input class="form-check-input" type="radio" name="lang-format" id="lang-format-parallel" value="parallel" checked>
+                            <label class="form-check-label" for="lang-format-parallel">Parallel</label>
                         </div> 
                     </div>
                     <div class="row my-3">
@@ -121,6 +121,21 @@
             </form>
 
         </div>
+        
+        <script>
+            $("input[type='radio'][name='lang-format']").change(function() {
+                //Disable target lang when mono is selected
+                if ( $("input[type='radio'][name='lang-format']:checked").val() == "mono") {
+                    $("#trglang").val("");
+                    $("#trglang").prop("disabled", true);
+                }
+                else {
+                    console.log("PARALLEL")
+                    $("#trglang").prop("disabled", false);
+                }
+            });
+
+        </script>
     </body>
 </html>
 
