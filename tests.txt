@@ -1,0 +1,14 @@
+To be run inside the docker
+
+TSV:
+cd /work/uploaded_corpora && wget https://object.pouta.csc.fi/OPUS-ELRC-3612-presscorner_covid/v1/moses/en-es.txt.zip && unzip en-es.txt.zip && rm README LICENSE  ELRC-3612-presscorner_covid.en-es.xml en-es.txt.zip && paste ELRC-3612-presscorner_covid.en-es.en ELRC-3612-presscorner_covid.en-es.es > covid && rm ELRC-3612-presscorner_covid.en-es.e* && /work
+bash ./scripts/runstats.sh ./uploaded_corpora/covid ./yaml_dir/covid.yaml en es tsv parallel
+
+TMX:
+cd /work/uploaded_corpora && wget https://object.pouta.csc.fi/OPUS-ELRC-2638-monumentos_2007/v1/tmx/en-es.tmx.gz && zcat en-es.tmx.gz > monumentos && rm en-es.tmx.gz && cd /work
+bash ./scripts/runstats.sh ./uploaded_corpora/monumentos ./yaml_dir/monumentos.yaml en es tmx parallel
+
+MONO:
+cd /work/uploaded_corpora/ && wget https://object.pouta.csc.fi/OPUS-ELRC-3077-wikipedia_health/v1/mono/en.txt.gz && zcat en.txt.gz  > health && rm en.txt.gz  && cd /work
+bash ./scripts/runstats.sh ./uploaded_corpora/health ./yaml_dir/health.yaml en  tsv mono
+
