@@ -158,12 +158,12 @@ def main():
     # type token ratio
     ttr_src = round(len(set(src_tokens))/ len(src_tokens),2)
     ttr_trg = round(len(set(trg_tokens))/ len(trg_tokens),2)
-    stats["ttr_src"] = json.dumps(ttr_src)
-    stats["ttr_trg"] = json.dumps(ttr_trg)
+    stats["ttr_src"] = ttr_src
+    stats["ttr_trg"] = ttr_trg
 
     # bytes size
-    stats["src_bytes"] = json.dumps(convert_size(src_bytes))
-    stats["trg_bytes"] = json.dumps(convert_size(trg_bytes))
+    stats["src_bytes"] = convert_size(src_bytes)
+    stats["trg_bytes"] = convert_size(trg_bytes)
 
     # bicleaner-hardrules tags
     bicleaner_tags = read_bicleanertags(filename, args.srclang, args.trglang)

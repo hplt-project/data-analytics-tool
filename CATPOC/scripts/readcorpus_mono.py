@@ -110,10 +110,10 @@ def main():
 
     # type token ratio
     ttr_src = round(len(set(src_tokens))/ len(src_tokens),2)
-    stats["ttr_src"] = json.dumps(ttr_src)
+    stats["ttr_src"] = ttr_src
 
     # bytes size
-    stats["src_bytes"] = json.dumps(convert_size(src_bytes))
+    stats["src_bytes"] = convert_size(src_bytes)
 
     # monocleaner scores
     monocleaner_scores = read_monocleanerscores(filename)
