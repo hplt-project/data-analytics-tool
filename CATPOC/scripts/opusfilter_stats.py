@@ -6,6 +6,7 @@ from opusfilter.util import file_open
 from opusfilter.classifier import lists_to_dicts
 import pandas as pd
 from pandas import json_normalize
+import numpy as np
 
 def get_opusfilter_stats(file_name, src, trg):
     config_gen = ConfigurationGenerator(files=[file_name+'.'+src, file_name+'.'+trg], workdir='.', langs=[src, trg])
@@ -26,6 +27,8 @@ def get_opusfilter_stats(file_name, src, trg):
 
     with file_open('scores.jsonl.gz', 'r') as scores:
         df = json_normalize([lists_to_dicts(json.loads(line)) for line in scores])
+
+    df.replace([np.inf, -np.inf], np.nan, inplace=True)
 
     opusfilter_stats = {}
 
