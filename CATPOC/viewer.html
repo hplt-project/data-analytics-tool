@@ -46,156 +46,178 @@
                 <button id="load-button" class="btn btn-primary">Load corpus stats</button>
             </div>
         </div>
-        <div class="row my-3">
-            <h3>Corpus</h3>
-        </div>
-        <div class="row mb-3">        
-            <div class="col-1">
-                <label class="form-label" for="corpus-name">Name</label>
-            </div>
-            <div class="col-3">
-                <span class="form-control-plaintext" id="corpus-name" name="corpus-name"><span>
-            </div>
-            <div class="col-1">
-                <label class="form-label" for="slang">Source language</label>
-            </div>
-            <div class="col-3">
-                <span class="form-control-plaintext" id="slang" name="slang"></span>
-            </div>
-            <div class="col-1">
-                <label class="form-label" for="tlang">Target language</label>
-            </div>
-            <div class="col-3">
-                <span class="form-control-plaintext" id="tlang" name="tlang"></span>
-            </div>
-        </div>
         
-        <div class="row my-3">
-            <h3>Volumes</h3>
-        </div>
-        <div class="row mb-3">
-            <div class="col-1">
-                <label class="form-label" for="sent-pairs">Sentence pairs</label>
+        <div id="the-content">
+            <!-- NAME AND LANGUAGES -->
+            <div class="row my-3">
+                <h3>Corpus</h3>
+            </div>            
+            <div class="row mb-3">        
+                <div class="col-1">
+                    <label class="form-label" for="corpus-name">Name</label>
+                </div>
+                <div class="col-3">
+                    <span class="form-control-plaintext" id="corpus-name" name="corpus-name"><span>
+                </div>
+                <div class="col-1">
+                    <label class="form-label" for="slang">Source language</label>
+                </div>
+                <div class="col-3">
+                    <span class="form-control-plaintext" id="slang" name="slang"></span>
+                </div>
+                <div class="col-1">
+                    <label class="form-label" for="tlang">Target language</label>
+                </div>
+                <div class="col-3">
+                    <span class="form-control-plaintext" id="tlang" name="tlang"></span>
+                </div>
             </div>
-            <div class="col-3">
-                <span class="form-control-plaintext" id="sent-pairs" name="sent-pairs"></span>
-            </div>
-            <div class="col-1">
-                <label class="form-label" for="src-bytes">Source size</label>
-            </div>
-            <div class="col-3">
-                <span class="form-control-plaintext" id="src-bytes" name="src-bytes"></span>
-            </div>
-            <div class="col-1">
-                <label class="form-label" for="trg-bytes">Target size</label>
-            </div>
-            <div class="col-3">
-                <span class="form-control-plaintext" id="trg-bytes" name="trg-bytes"></span>
-            </div>
-        </div>                
         
-        <div class="row my-3">
+            <!-- VOLUMES -->
+            <div class="row my-3">
+                <h3>Volumes</h3>
+            </div>
+            <div class="row mb-3">
+                <div class="col-1">
+                    <label class="form-label" for="sent-pairs">Sentence pairs</label>
+                </div>
+                <div class="col-3">
+                    <span class="form-control-plaintext" id="sent-pairs" name="sent-pairs"></span>
+                </div>
+                <div class="col-1">
+                    <label class="form-label" for="src-bytes">Source size</label>
+                </div>
+                <div class="col-3">
+                    <span class="form-control-plaintext" id="src-bytes" name="src-bytes"></span>
+                </div>
+                <div class="col-1">
+                    <label class="form-label" for="trg-bytes">Target size</label>
+                </div>
+                <div class="col-3">
+                    <span class="form-control-plaintext" id="trg-bytes" name="trg-bytes"></span>
+                </div>
+            </div>                
+        
+            <!-- TTR -->
+            <div class="row my-3">
                 <h3>Type-Token Ratio</h3>
-        </div>
-        <div class="row mb-3">
-            <div class="col-1">
-                <label class="form-label" for="src-ttr">Source</label>
             </div>
-            <div class="col-3">
-                <span class="form-control-plaintext" id="src-ttr" name="src-ttr"></span>
+            <div class="row mb-3">
+                <div class="col-1">
+                    <label class="form-label" for="src-ttr">Source</label>
+                </div>
+                <div class="col-3">
+                    <span class="form-control-plaintext" id="src-ttr" name="src-ttr"></span>
+                </div>
+                <div class="col-1">
+                    <label class="form-label" for="trg-ttr">Target</label>
+                </div>
+                <div class="col-3">
+                    <span class="form-control-plaintext" id="trg-ttr" name="trg-ttr"></span>
+                </div>
             </div>
-            <div class="col-1">
-                <label class="form-label" for="trg-ttr">Target</label>
-            </div>
-            <div class="col-3">
-                <span class="form-control-plaintext" id="trg-ttr" name="trg-ttr"></span>
-            </div>
-        </div>
 
-        <div class="row my-3">        
-            <h3>Sentence length distribution</h3>
-        </div>
-        <div class="row">
-            <div class="col-6 inline">
-                <h4>Source</h4>
+            <!-- SENTENCE LENGHT HISTOGRAM -->
+            <div class="row my-3">        
+                <h3>Sentence length distribution</h3>
             </div>
-            <div class="col-6 inline">
-                <h4>Target</h4>
-           </div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-6 inline">
-                <div id="src_token_chart"></div>
+            <div class="row">
+                <div class="col-6 inline">
+                    <h4>Source</h4>
+                </div>
+                <div class="col-6 inline">
+                    <h4>Target</h4>
+               </div>
             </div>
-            <div class="col-6 inline">
-                <div id="trg_token_chart"></div>
+            <div class="row mb-3">
+                <div class="col-6 inline">
+                    <div id="src_token_chart_na">n/a</div>
+                    <div id="src_token_chart"></div>
+                </div>
+                <div class="col-6 inline">
+                    <div id="trg_token_chart_na">n/a</div>
+                    <div id="trg_token_chart"></div>
+                </div>
+            </div>    
+        
+            <!-- LANGUAGE IDS CHARTS -->
+            <div class="row my-3">
+                <h3>Language distribution <i class="bi bi-info-circle" style="font-size: 0.7em;" title="Identified by FastSpell"></i></h3>                
             </div>
-        </div>    
-        <div class="row my-3">
-            <h3>Language distribution <i class="bi bi-info-circle" style="font-size: 0.7em;" title="Identified by FastSpell"></i></h3>                
-        </div>
-        <div class="row">
-            <div class="col-6 inline">
-                <h4>Source</h4>                
+            <div class="row">
+                <div class="col-6 inline">
+                    <h4>Source</h4>                
+                </div>
+                <div class="col-6 inline">
+                    <h4>Target</h4>
+                </div>
             </div>
-            <div class="col-6 inline">
-                <h4>Target</h4>
+            <div class="row mb-3">
+                <div class="col-6 inline">
+                    <div id="src_langs_chart_na">n/a</div>
+                    <div id="src_langs_chart"></div>
+                </div>
+                <div class="col-6 inline">
+                    <div id="trg_langs_chart_na">n/a</div>
+                    <div id="trg_langs_chart"></div>
+                </div>
             </div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-6 inline">
-                <div id="src_langs_chart"></div>
-            </div>
-            <div class="col-6 inline">
-                <div id="trg_langs_chart"></div>
-            </div>
-        </div>
 
-        <div class="row my-3">
-            <h3>Bicleaner score distribution</h3>
-        </div>
-        <div class="row">
-            <div class="col">
-                <div id="bicleaner_scores_chart"></div>
+        
+            <!-- BICLEANER SCORE HISTOGRAM -->
+            <div class="row my-3">
+                <h3>Bicleaner score distribution</h3>
             </div>
-        </div>        
+            <div id="bicleaner_content">        
+                <div class="row">
+                    <div class="col">
+                        <div id="bicleaner_scores_chart_na">n/a</div>
+                        <div id="bicleaner_scores_chart"></div>
+                    </div>
+                </div>
+            </div>        
 
-        <div class="row my-3">
-            <h3>Noise distribution <i class="bi bi-info-circle" style="font-size: 0.7em;" title="Identified by Bicleaner Hardrules"></i></h3>
-        </div>
-        <div class="row mb-3">
-            <div class="col">
-                <div id="hardrules-tags"></div>
+            <!-- BICLEANER HARDRULES NOISE CHART -->
+            <div class="row my-3">
+                <h3>Noise distribution <i class="bi bi-info-circle" style="font-size: 0.7em;" title="Identified by Bicleaner Hardrules"></i></h3>
+            </div>
+            <div class="row mb-3">
+                <div class="col">
+                    <div id="hardrules-tags-na">n/a</div>
+                    <div id="hardrules-tags"></div>
+                </div>
+            </div>
+            
+            
+            <!-- NGRAMS -->
+            <div class="row my-3">
+                <h3>Common n-grams</h3>
+            </div>        
+            <div class="row mb-3">
+                <div class="col">
+                    <h4>Source</h4>
+                </div> 
+            </div>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <div id="src-ngrams-na">n/a</div>
+                    <div id="src-ngrams"></div>
+                </div>
+            </div>
+        
+            <div class="row mb-3">            
+                <div class="col">
+                    <h4>Target</h4>
+                </div>
+            </div>
+            <div class="row mb-3">
+                <div class="col-12">
+                    <div id="trg-ngrams-na">n/a</div>
+                    <div id="trg-ngrams"></div>
+                </div>
             </div>
         </div>
         
-        <div class="row my-3">
-            <h3>Common n-grams</h3>
-        </div>        
-        <div class="row mb-3">
-            <div class="col">
-                <h4>Source</h4>
-            </div> 
-        </div>
-        <div class="row mb-3">
-            <div class="col-12">
-                <div id="src-ngrams"></div>
-            </div>
-        </div>
-        
-        <div class="row mb-3">            
-            <div clasS="col">
-                <h4>Target</h4>
-            </div>
-        </div>
-        <div class="row mb-3">
-            <div class="col-12">
-                <div id="trg-ngrams"></div>
-            </div>
-        </div>
-
-
-
         <div class="row my-3">
             <div class="col-auto">
                 <a class="btn btn-primary" id="download-yaml" href="#">Download yaml</a>
@@ -208,7 +230,8 @@
 
         <script>
             $(document).ready(function(){
-           
+                $("#the-content").css("display", "None")
+
                 var select = $("#corpora-selector")
                 $.ajax({
                     url: "/list",
@@ -372,54 +395,161 @@
             function load_data(corpus){
                 $.get("/file/"+corpus, function(text) {
                     var obj = jsyaml.load(text)
+                    $("#the-content").css("display", "block")
                     
-                    corpusname = obj["corpus"]
-                    $("#corpus-name").html(corpusname)
-
-                    slang = obj["srclang"]
-                    $("#slang").html(languageNames.of(slang) + " (" + slang +")" )
+                    if ("corpus" in obj) {                        
+                        corpusname = obj["corpus"]
+                        $("#corpus-name").html(corpusname)
+                    }
+                    else {
+                        $("#corpus-name").html("n/a")
+                    }
                     
-                    tlang = obj["trglang"]
-                    $("#tlang").html(languageNames.of(tlang) + " (" + tlang + ")" )
+                    if ("srclang" in obj) {
+                        slang = obj["srclang"]
+                        $("#slang").html(languageNames.of(slang) + " (" + slang +")" )
+                    }
+                    else {
+                         $("#slang").html("n/a")
+                    }
                     
-                    sentpairs = obj["sentence_pairs"]
-                    $("#sent-pairs").html(sentpairs.toLocaleString())
+                    if ("trglang" in obj) {
+                        tlang = obj["trglang"]
+                        $("#tlang").html(languageNames.of(tlang) + " (" + tlang + ")" )
+                    }
+                    else {
+                         $("#tlang").html("n/a")
+                    }
+                    if ("sentence_pairs" in obj) {
+                        sentpairs = obj["sentence_pairs"]
+                        $("#sent-pairs").html(sentpairs.toLocaleString())
+                    }
+                    else {
+                        $("#sent-pairs").html("n/a")
+                    }
                     
-                    src_token_distribution = obj["src_sent_tokens"]
-                    draw_histogram("src_token_chart", src_token_distribution, "Source sentences length (tokens)", "Tokens", "Frequency")
+                    if ("src_sent_tokens" in obj){
+                        src_token_distribution = obj["src_sent_tokens"]
+                        draw_histogram("src_token_chart", src_token_distribution, "Source sentences length (tokens)", "Tokens", "Frequency")
+                        $("#src_token_chart_na").css("display" , "none")
+                        $("#src_token_chart").css("visibility", "visible")
+                    }
+                    else {
+                        $("#src_token_chart_na").css("display" , "block")
+                        $("#src_token_chart").css("visibility", "collapse")
+                    }
                     
-                    trg_token_distribution = obj["trg_sent_tokens"]
-                    draw_histogram("trg_token_chart", trg_token_distribution, "Target sentences length (tokens)", "Tokens", "Frequency")
+                    if ("trg_sent_tokens" in obj) {
+                        trg_token_distribution = obj["trg_sent_tokens"]
+                        draw_histogram("trg_token_chart", trg_token_distribution, "Target sentences length (tokens)", "Tokens", "Frequency")
+                        $("#trg_token_chart_na").css("display" , "none")
+                        $("#trg_token_chart").css("visibility", "visible")
+                    }
+                    else {
+                        $("#trg_token_chart_na").css("display" , "block")
+                        $("#trg_token_chart").css("visibility", "collapse")
+                    }
                     
-                    src_langs_distribution = obj["src_langs"]
-                    draw_pie("src_langs_chart", src_langs_distribution, "Source sentences identified language")
+                    if ("src_langs" in obj) {
+                        src_langs_distribution = obj["src_langs"]
+                        draw_pie("src_langs_chart", src_langs_distribution, "Source sentences identified language")
+                        $("#src_langs_chart_na").css("display" , "none")
+                        $("#src_langs_chart").css("visibility", "visible")
+                    }
+                    else {
+                        $("#src_langs_chart_na").css("display" , "block")
+                        $("#src_langs_chart").css("visibility", "collapse")
+                    }
                     
-                    trg_langs_distribution = obj["trg_langs"]
-                    draw_pie("trg_langs_chart", trg_langs_distribution, "Target sentences identified language")
+                    if ("trg_langs" in obj) {
+                        trg_langs_distribution = obj["trg_langs"]
+                        draw_pie("trg_langs_chart", trg_langs_distribution, "Target sentences identified language")
+                        $("#trg_langs_chart_na").css("display" , "none")
+                        $("#trg_langs_chart").css("visibility", "visible")
+                    }
+                    else {
+                        $("#trg_langs_chart_na").css("display" , "block")
+                        $("#trg_langs_chart").css("visibility", "collapse")
+                    }
                     
-                    bicleaner_scores_distribution = obj["bicleaner_scores"]
-                    draw_histogram("bicleaner_scores_chart", bicleaner_scores_distribution, "Bicleaner scores", "Score range", "Frequency") 
+                    if ("bicleaner_scores" in obj) {
+                        bicleaner_scores_distribution = obj["bicleaner_scores"]
+                        draw_histogram("bicleaner_scores_chart", bicleaner_scores_distribution, "Bicleaner scores", "Score range", "Frequency") 
+                        $("#bicleaner_scores_chart").css("visibility", "visible")
+                        $("#bicleaner_scores_chart_na").css("display", "none")
+                    }
+                    else {
+                        $("#bicleaner_scores_chart").css("visibility", "collapse")
+                        $("#bicleaner_scores_chart_na").css("display", "block")
+                    }
                     
-                    source_bytes = obj["src_bytes"]
-                    $("#src-bytes").html(source_bytes)
+                    if ("src_bytes" in obj) {
+                        source_bytes = obj["src_bytes"]
+                        $("#src-bytes").html(source_bytes)
+                    }
+                    else {
+                        $("#src-bytes").html("n/a")
+                    }
                     
-                    target_bytes = obj["trg_bytes"]
-                    $("#trg-bytes").html(target_bytes)
+                    if ("trg_bytes" in obj) {
+                        target_bytes = obj["trg_bytes"]
+                        $("#trg-bytes").html(target_bytes)
+                    }
+                    else {
+                        $("#trg-bytes").html("n/a")
+                    }
                     
-                    hardrules_tags = obj["bicleaner_tags"]
-                    draw_horizontal_bars("hardrules-tags", hardrules_tags,"Bicleaner hardrules",  "% of corpus", "Noise type")
-                
-                    src_ngrams = obj["src_ngrams"]
-                    draw_ngrams("src-ngrams", src_ngrams)                    
-                                        
-                    trg_ngrams = obj["trg_ngrams"]
-                    draw_ngrams("trg-ngrams", trg_ngrams)
+                    if ("bicleaner_tags" in obj) {
+                        hardrules_tags = obj["bicleaner_tags"]
+                        draw_horizontal_bars("hardrules-tags", hardrules_tags,"Bicleaner hardrules",  "% of corpus", "Noise type")
+                        $("#hardrules-tags-na").css("display" , "none")
+                        $("#hardrules-tags").css("visibility", "visible")
+                    }
+                    else {
+                        $("#hardrules-tags-na").css("display" , "block")
+                        $("#hardrules-tags").css("visibility", "collapse")
+                    }
                     
-                    src_ttr = obj["ttr_src"]
-                    $("#src-ttr").html(src_ttr)
+                    if ("src_ngrams" in obj) {
+                        console.log("got it")
+                        src_ngrams = obj["src_ngrams"]
+                        draw_ngrams("src-ngrams", src_ngrams)           
+                        $("#src-ngrams-na").css("display" , "none")
+                        $("#src-ngrams").css("visibility", "visible")         
+                    }
+                    else {
+                        console.log("not here")
+                        $("#src-ngrams-na").css("display" , "block")
+                        $("#src-ngrams").css("visibility", "collapse")
+                    }
                     
-                    trg_ttr = obj["ttr_trg"]
-                    $("#trg-ttr").html(trg_ttr)
+                    if ("trg_ngrams" in obj) {
+                        trg_ngrams = obj["trg_ngrams"]
+                        draw_ngrams("trg-ngrams", trg_ngrams)
+                        $("#trg-ngrams-na").css("display" , "none")
+                        $("#trg-ngrams").css("visibility", "visible")
+                        
+                    }
+                    else {
+                        $("#trg-ngrams-na").css("display" , "block")
+                        $("#trg-ngrams").css("visibility", "collapse")
+                    }
+                    
+                    if ("ttr_src" in obj) {
+                        src_ttr = obj["ttr_src"]
+                        $("#src-ttr").html(src_ttr)
+                    }
+                    else {
+                        $("#src-ttr").html("n/a")
+                    }
+                    
+                    if ("ttr_trg" in obj) {
+                        trg_ttr = obj["ttr_trg"]
+                        $("#trg-ttr").html(trg_ttr)
+                    }
+                    else {
+                        $("#trg-ttr").html("n/a")
+                    }
                 });
             }
         </script>
