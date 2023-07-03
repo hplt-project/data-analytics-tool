@@ -265,6 +265,13 @@
 
             google.charts.load('current', {'packages':['corechart', 'bar']});
             //google.charts.setOnLoadCallback(drawChart);            
+
+            function getColor(value){
+                //value from 0 to 1
+                var hue=((value)*120).toString(10);
+                return ["hsl(",hue,",100%,50%)"].join("");
+            }            
+            
             
             function beautify_hr_labels(raw_label) {
                 switch (raw_label){
@@ -538,17 +545,22 @@
                     if ("ttr_src" in obj) {
                         src_ttr = obj["ttr_src"]
                         $("#src-ttr").html(src_ttr)
+                        $('#src-ttr').css("color", getColor(src_ttr))
                     }
                     else {
                         $("#src-ttr").html("n/a")
+                        $("#src-ttr").css("color", "inherit")
+
                     }
                     
                     if ("ttr_trg" in obj) {
                         trg_ttr = obj["ttr_trg"]
                         $("#trg-ttr").html(trg_ttr)
+                        $("#trg-ttr").css("color", getColor(trg_ttr))
                     }
                     else {
                         $("#trg-ttr").html("n/a")
+                        $("#trg-ttr").css("color", "inherit")
                     }
                 });
             }
