@@ -381,8 +381,8 @@
             function draw_ngrams(div_id, data_series) {
                 var data = new google.visualization.DataTable();
                 data.addColumn("string", "ngram")
-                data.addColumn("number", "ngram length") //x axis
-                data.addColumn("number", "Frequency") //y axis
+                data.addColumn("number", "Frequency") //x axis
+                data.addColumn("number", "ngram length") //y axis
                 //data.addColumn("string", "ngram")
 
                 data_series = JSON.parse(data_series)
