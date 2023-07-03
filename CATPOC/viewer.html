@@ -278,7 +278,7 @@
             });
 
             google.charts.load('current', {'packages':['corechart', 'bar']});
-            //google.charts.setOnLoadCallback(drawChart);            
+//            google.charts.setOnLoadCallback(draw_ngrams);            
 
             function getColor(value){
                 //value from 0 to 1
@@ -380,10 +380,11 @@
             
             function draw_ngrams(div_id, data_series) {
                 var data = new google.visualization.DataTable();
-                data.addColumn("string", "ngram")
-                data.addColumn("number", "Frequency") //x axis
-                data.addColumn("number", "ngram length") //y axis
                 //data.addColumn("string", "ngram")
+                data.addColumn({type: "number", label:"Frequency"}) //x axis
+                data.addColumn({type: "number", label: "ngram length"}) //y axis
+                data.addColumn({type: "string", label:"ngram_1", role: "annotation"})
+                data.addColumn({type: "string", label: "ngram_2", role: "annotationText"})
 
                 data_series = JSON.parse(data_series)
                 for (const [key, value] of Object.entries(data_series)) {
@@ -393,7 +394,7 @@
                         ngram_text = item[0].join(" ")
                         ngram_freq = parseInt(item[1])
                         //data.addRow([ngram_length, ngram_freq])
-                        data.addRow([ngram_text, ngram_freq, ngram_length])
+                        data.addRow([ngram_freq, ngram_length, ngram_text, ngram_text]);
                     });
                     //data.addRow([beautify_hr_labels(key.toString()), value])
                 }
@@ -406,11 +407,22 @@
                     hAxis: {
                         title: 'Frequency'
                     },
-                    legend: 'none'
+                    legend: 'none',
+                    annotations: {
+                        'ngram_1': {
+                            style:'line'
+                        }
+                    }
                 }
                                 
-                var chart = new google.visualization.BubbleChart(document.getElementById(div_id));
+                //var chart = new google.visualization.BubbleChart(document.getElementById(div_id));
+                //chart.draw(data, options);
+                
+                console.log(data)
+                                
+                var chart = new google.visualization.ScatterChart(document.getElementById(div_id));
                 chart.draw(data, options);
+
             }
             
             function load_data(corpus){
@@ -532,14 +544,12 @@
                     }
                     
                     if ("src_ngrams" in obj) {
-                        console.log("got it")
                         src_ngrams = obj["src_ngrams"]
                         draw_ngrams("src-ngrams", src_ngrams)           
                         $("#src-ngrams-na").css("display" , "none")
                         $("#src-ngrams").css("visibility", "visible")         
                     }
                     else {
-                        console.log("not here")
                         $("#src-ngrams-na").css("display" , "block")
                         $("#src-ngrams").css("visibility", "collapse")
                     }
