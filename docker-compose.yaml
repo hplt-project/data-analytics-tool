@@ -8,7 +8,9 @@ services:
         #environment:
         networks:
             - dat-network
-        #volumes:
+        volumes:
+            - ./yaml_dir:/work/yaml_dir
+            - ./uploaded_corpora:/work/uploaded_corpora
         ports:
             - "8000:8000"
 #volumes:
