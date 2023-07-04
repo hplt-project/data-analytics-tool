@@ -27,40 +27,9 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
     def do_upload(self):
 
         #self.data_string = self.rfile.read(int(self.headers['Content-Length']))
-        self.send_response(200)
-        self.end_headers()
+        #self.send_response(200)
+
                 
-        '''
-        self.send_response(200)
-        self.send_header('Content-type', 'text/html')
-        self.end_headers()
-        ctype, pdict = cgi.parse_header(self.headers['Content-Type'])
-        print(ctype)
-        print(pdict)
-        if ctype == 'multipart/form-data':
-            pdict['boundary'] = bytes(pdict['boundary'], 'utf-8')
-            fields = cgi.parse_multipart(self.rfile, pdict)
-            messagecontent = fields.get('message')[0].decode('utf-8')
-        else:
-            print("WHAT")
-        output = ''
-        output += '<html><body>'
-        output += '<h2> Okay, how about this: </h2>'
-        output += '<h1> %s </h1>' % messagecontent
-        output += "<form method='POST' enctype='multipart/form-data' action='/hello'><h2>What would you like me to say?</h2><input name='message' type='text'><input type='submit' value='Submit'></form>"
-        output += '</html></body>'
-        self.wfile.write(output.encode('utf-8'))
-        print(output)
-        '''
-        '''
-        form = cgi.FieldStorage(
-            fp=self.rfile,
-            headers=self.headers,
-            environ={
-                'REQUEST_METHOD': 'POST',
-                'CONTENT_TYPE': self.headers['Content-Type'],
-            })
-        '''
         form=cgi.FieldStorage(fp=self.rfile, headers=self.headers,environ={'REQUEST_METHOD':'POST'})
         
         corpus = form.getvalue('corpus')
@@ -89,7 +58,6 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         subprocess.Popen(options)
 
 
-        
         replyhtml = """
         <html>
         <body>
@@ -102,7 +70,13 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         </body>
         </html>
         """
-        self.wfile.write(bytes(replyhtml, 'utf-8'))
+        #self.wfile.write(bytes(replyhtml, 'utf-8'))
+        self.send_response(302)
+        #new_path = '%s%s'%('http://newserver.com', self.path)
+        self.send_header('Location', self.path.replace("upload", "uploader.html?fromupload=yes"))
+        self.send_header("Redirect-From", "upload")
+        self.end_headers()
+        return 
         
 
     def do_list(self):
@@ -119,6 +93,7 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
     def do_POST(self):
         if self.path == '/upload':
             self.do_upload()
+
 
     def do_GET(self):
         #if self.path == '/uploader.html':

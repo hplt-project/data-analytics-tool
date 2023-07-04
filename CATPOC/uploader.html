@@ -4,8 +4,9 @@
         <script src="https://code.jquery.com/jquery-latest.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.js"></script>
         <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">        
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css"   rel="stylesheet">
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
         <script type="text/javascript">
             document.write("<base href='" + window.location.origin + "' />");
@@ -124,7 +125,48 @@
                     </div>
                 </div>
             </form>
+            <div class="toast-container position-fixed top-0 end-0 p-3">
+                <div id="uploadToast" class="toast"  data-bs-autohide="false" role="alert" aria-live="assertive" aria-atomic="true">
+                    <div class="toast-header">
+                        <strong><i class="bi bi-hand-thumbs-up"></i></strong>
+                        <strong class="me-auto">Corpus upload</strong>
+        
+                        <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                    </div>
+                    <div class="toast-body">
+                        Corpus uploaded. Processing might take some time.
+                    </div>
+                </div>
+            </div>
+            <!--
+            <div id="toast-container" class="toast-container" style="position: absolute; top: 10px; right: 10px;">
+                <div class="toast hide" id="toast">
+                    <div class="toast-header">
+                        <strong class="me-auto"><i class="bi
+                        bi-hand-thumbs-up"></i>Corpus upload</strong>
+                        <button type="button" class="btn-close" data-dismiss="toast"></button>
+                    </div>
+                    <div class="toast-body">
+                        Corpus uploaded. Processing might take some time.
+                    </div>
+                </div>    
+            </div>
+            -->
 
+            <!--
+            <div class="toast" role="alert" aria-live="assertive" aria-atomic="true" style="position: absolute; top: 10px; right: 10px;">
+                <div class="toast-header">
+                    <i class="bi bi-hand-thumbs-up"></i>
+                    <strong class="mr-auto">Corpus upload</strong>
+                    <button type="button" class="ml-2 mb-1 close" data-dismiss="toast" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="toast-body">
+                    Corpus uploaded. Processing might take some time.
+               </div>
+            </div>
+            -->
         </div>
         
         <script>
@@ -133,6 +175,16 @@
             }); 
 
             $(document).ready(function(){
+
+                var cur_url = new URL(window.location.href)
+                
+                if (cur_url.searchParams.get("fromupload") == "yes") {
+                    //show toast
+                    const toastUpload = document.getElementById('uploadToast')
+                    const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastUpload)
+                     toastBootstrap.show()                                        
+                }
+
 
                 var srclang_select = $("#srclang")
                 var trglang_select = $("#trglang")
