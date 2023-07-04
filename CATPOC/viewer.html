@@ -385,6 +385,7 @@
                 data.addColumn({type: "number", label: "ngram length"}) //y axis
                 data.addColumn({type: "string", label:"ngram_1", role: "annotation"})
                 data.addColumn({type: "string", label: "ngram_2", role: "annotationText"})
+                data.addColumn({type: "string", label: "ngram_3", role: "tooltip"})
 
                 data_series = JSON.parse(data_series)
                 for (const [key, value] of Object.entries(data_series)) {
@@ -394,9 +395,9 @@
                         ngram_text = item[0].join(" ")
                         ngram_freq = parseInt(item[1])
                         //data.addRow([ngram_length, ngram_freq])
-                        data.addRow([ngram_freq, ngram_length, ngram_text, ngram_text]);
+                        data.addRow([ngram_freq, ngram_length, ngram_text,
+                        ngram_text, ngram_text]);
                     });
-                    //data.addRow([beautify_hr_labels(key.toString()), value])
                 }
                 options = {
                     vAxis: {
