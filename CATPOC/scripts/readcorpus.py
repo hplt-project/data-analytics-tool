@@ -10,6 +10,7 @@ import math
 from timeit import default_timer
 from util import logging_setup
 from collections import Counter
+from xxhash import xxh64
 from fastspell import FastSpell
 from ngrams import get_ngrams
 from bicleanerscorer import read_bicleanertags, read_bicleanerscores
@@ -69,7 +70,11 @@ def main():
 
     src_langs = Counter()
     trg_langs = Counter()
-    
+
+    src_hashes = {}
+    trg_hashes = {}
+    sent_hashes = set()
+        
     #Pure metadata could be in a different function
     stats = {}
     stats["corpus"] = os.path.basename(args.corpus.name)
@@ -96,13 +101,14 @@ def main():
             trg_sent_tokens[0] += 1
             continue
 
-        sent_parts = (src_line,trg_line)
+        sent_parts = (src_line, trg_line)
                 
         try:
             src_sent = sent_parts[0].strip()
             trg_sent = sent_parts[1].strip()
         except IndexError as ex:
             logging.error("Missing parts in sentence: " +  line)
+            continue
             
         #Counting tokens in each sentence
         src_tokens_count = count_tokens(src_sent)
@@ -110,6 +116,25 @@ def main():
         src_sent_tokens[src_tokens_count] += 1
         trg_sent_tokens[trg_tokens_count] += 1
 
+        #Get hashes in each sentence 
+        src_hash = xxh64(src_sent).hexdigest()
+        trg_hash = xxh64(trg_sent).hexdigest()
+        sent_hash = xxh64(src_sent + "\t" + trg_sent).hexdigest()
+        
+        try:
+            src_hashes[src_tokens_count].add(src_hash)
+        except KeyError:
+            src_hashes[src_tokens_count] = set()
+            src_hashes[src_tokens_count].add(src_hash)
+            
+        try:
+            trg_hashes[trg_tokens_count].add(trg_hash)
+        except KeyError:
+            trg_hashes[trg_tokens_count] = set()
+            trg_hashes[trg_tokens_count].add(trg_hash)
+            
+        sent_hashes.add(sent_hash)
+            
         #Get langid for each sentence
         src_langid = fastspell_src.getlang(src_sent)
         trg_langid = fastspell_trg.getlang(trg_sent)
@@ -126,6 +151,8 @@ def main():
 
     stats["sentence_pairs"] = total_lines
 
+    stats["unique_sents"] = len(sent_hashes)
+    
     #stats["src_sent_tokens"] = str(sorted(src_sent_tokens.items())) #This generates tuples
     #stats["trg_sent_tokens"] = str(sorted(trg_sent_tokens.items())) #This generates tuples
     
@@ -138,6 +165,17 @@ def main():
     for token, freq in sorted(trg_sent_tokens.items()):
         trg_tokens_list.append([token, freq])
     stats["trg_sent_tokens"] = str(trg_tokens_list)
+
+    src_hashes_list = []
+    for sent_length in sorted(src_hashes.keys()):
+        src_hashes_list.append([sent_length, len(src_hashes[sent_length])])
+    stats["src_unique_sents"] = str(src_hashes_list)
+    
+    trg_hashes_list = []
+    for sent_length in sorted(trg_hashes.keys()):
+        trg_hashes_list.append([sent_length, len(trg_hashes[sent_length])])
+    stats["trg_unique_sents"] = str(trg_hashes_list)
+        
 
     src_langs_list = []
     for lang, freq in src_langs.most_common():

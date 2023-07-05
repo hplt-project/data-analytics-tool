@@ -20,7 +20,7 @@ if [ "$langformat" == "parallel" ]; then
             mkdir "bicleaner"
         fi
         echo "Downloading bicleaner model..."
-        wget https://github.com/bitextor/bicleaner-data/releases/download/v1.6/$srclang-$trglang.tar.gz -O bicleaner/tmp.tar.gz
+        wget https://github.com/bitextor/bicleaner-data/releases/download/v1.6/$srclang-$trglang.tar.gz -O bicleaner/tmp.tar.gz -q
         tar -xvf bicleaner/tmp.tar.gz -C bicleaner/
         rm bicleaner/tmp.tar.gz
     fi
