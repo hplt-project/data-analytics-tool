@@ -1,3 +1,4 @@
+import logging
 import yaml
 
 tag_types = [
@@ -41,11 +42,30 @@ def remove_porntag(corpusname, srclang, trglang):
 
 def read_bicleanertags(corpusname,srclang, trglang):
     bicleaneroutput = corpusname+".bicleaner-hardrules"
-    src, tgt, keep, tags = zip(*(line.split("\t") for line in open(bicleaneroutput, "r").read().splitlines()))
+    srcs = []
+    tgts = []
+    keeps = []
+    tagss = []
+    for line in open(bicleaneroutput, "r"):
+        try:
+            src, tgt, keep, tags = line.split("\t")
+            srcs.append(src)
+            tgts.append(tgt)
+            keeps.append(keep)
+            tagss.append(tags)
+            
+        except ValueError as ex:
+            logging.error("Error in 'read_bicleanertags': Missing parts")
+            logging.error(ex)
+            logging.error(line)
+            srcs.append("")
+            tgts.append("")
+            keeps.append("0")
+            tagss.append("wrong_cols")
     
     # tags (we can modify tag selection above)
     clean_tags = []
-    for tag in tags:
+    for tag in tagss:
         if "+" in tag:
             moretags = list(set(tag.split("+"))) # when there is more than one tag in the same sentence, just count the different type of tags
             for tag in moretags:
@@ -60,13 +80,24 @@ def read_bicleanertags(corpusname,srclang, trglang):
     tags_percent = {}
     for tag in tag_types:
         count = clean_tags.count(tag)
-        percentage = round(count*100/(len(src)),2)
+        percentage = round(count*100/(len(srcs)),2)
         tags_percent[tag]=percentage
     return(tags_percent)
 
 def read_bicleanerscores(corpusname):
     bicleanerscores = corpusname+".bicleaner-classify"
-    src, tgt, scores = zip(*(line.split("\t") for line in open(bicleanerscores, "r").read().splitlines()))
+    
+    scores = []
+    for line in open(bicleanerscores, "r"):
+        try:
+            src, trg, score = line.split("\t")
+            scores.append(score)
+        except ValueError as ex:
+            logging.error("Error in 'read_bicleanerscores': Missing parts")
+            logging.error(ex)
+            logging.error(line)
+            scores.append("0")
+            
 
     buckets = [[] for _ in range(10)]
     for item in scores:

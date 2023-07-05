@@ -96,10 +96,10 @@ def main():
         
         if len(src_line.strip()) == 0:
             src_sent_tokens[0] += 1
-            continue
+            #continue
         if len(trg_line.strip()) == 0:
             trg_sent_tokens[0] += 1
-            continue
+            #continue
 
         sent_parts = (src_line, trg_line)
                 
@@ -108,7 +108,9 @@ def main():
             trg_sent = sent_parts[1].strip()
         except IndexError as ex:
             logging.error("Missing parts in sentence: " +  line)
-            continue
+            src_sent = ""
+            trg_sent = ""
+            #continue
             
         #Counting tokens in each sentence
         src_tokens_count = count_tokens(src_sent)
@@ -150,7 +152,6 @@ def main():
         trg_bytes += len(trg_sent.encode('utf-8'))
 
     stats["sentence_pairs"] = total_lines
-
     stats["unique_sents"] = len(sent_hashes)
     
     #stats["src_sent_tokens"] = str(sorted(src_sent_tokens.items())) #This generates tuples
@@ -163,17 +164,23 @@ def main():
     
     trg_tokens_list = []
     for token, freq in sorted(trg_sent_tokens.items()):
-        trg_tokens_list.append([token, freq])
+        trg_tokens_list.append([token, freq])        
     stats["trg_sent_tokens"] = str(trg_tokens_list)
 
     src_hashes_list = []
     for sent_length in sorted(src_hashes.keys()):
         src_hashes_list.append([sent_length, len(src_hashes[sent_length])])
+    #lil' ñapa
+    if 0 in  src_sent_tokens.keys() and 0 not in src_hashes.keys():
+        src_hashes_list.insert(0, [0, 1])
     stats["src_unique_sents"] = str(src_hashes_list)
     
     trg_hashes_list = []
     for sent_length in sorted(trg_hashes.keys()):
         trg_hashes_list.append([sent_length, len(trg_hashes[sent_length])])
+    #lil' ñapa
+    if 0 in trg_sent_tokens.keys() and 0 not in trg_hashes.keys():
+        trg_hashes_list.insert(0, [0, 1])
     stats["trg_unique_sents"] = str(trg_hashes_list)
         
 

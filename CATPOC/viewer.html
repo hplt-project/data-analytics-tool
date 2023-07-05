@@ -97,7 +97,15 @@
                 <div class="col-3">
                     <span class="form-control-plaintext" id="trg-bytes" name="trg-bytes"></span>
                 </div>
-            </div>                
+            </div>  
+            <div class="row mb-3">
+                <div class="col-1">
+                    <label class="form-label" for="sent-unique">Unique sentence pairs</label>
+                </div>
+                <div class="col-3">
+                    <span class="form-control-plaintext" id="sent-unique" name="sent-unique"></span>
+                </div>
+            </div>
         
             <!-- TTR -->
             <div class="row my-3">
@@ -339,6 +347,72 @@
                 materialChart.draw(data, options);
             }           
             
+            
+            function draw_stacked_histogram(div_id, data_series_totals, data_series_unique,  chart_title, x_axis_label, y_axis_label) {
+                // Create the data table.
+                var data = new google.visualization.DataTable();
+                data.addColumn('string', "Token length");
+                data.addColumn('number', "Unique sentences");
+                data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
+                data.addColumn('number', "Duplicated sentences");
+                data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
+                
+                data_series_totals = JSON.parse(data_series_totals)
+                data_series_unique = JSON.parse(data_series_unique)
+                high_values_total = 0
+                high_values_uniq = 0
+                high_values_dupes = 0
+                data_series_totals.forEach(function(item, index) {
+                    token_length = item[0]
+                    total =  item[1]
+                    uniq_full_item = data_series_unique[index];
+                    uniq = 0
+                    if (uniq_full_item) {
+                        uniq = uniq_full_item[1]
+                    }
+                        
+                    dupes = total - uniq
+                    
+                    if (token_length < 100){
+                        data.addRow([token_length.toString(),
+                        uniq,
+                        "<b>Length:</b> " + token_length + " tokens<br>" + "<b>Total:</b> " +  total.toLocaleString() + "<br><b>Unique:</b> " + uniq.toLocaleString()  + "<br><b>Duplicates:</b> " + dupes.toLocaleString(),
+                        dupes,
+                        "<b>Length:</b> " + token_length + " tokens<br>" + "<b>Total:</b> " +  total.toLocaleString() + "<br><b>Unique:</b> " + uniq.toLocaleString()  + "<br><b>Duplicates:</b> " + dupes.toLocaleString()]) 
+                        }
+                    else {
+                        high_values_total = high_values_total + total
+                        high_values_uniq = high_values_uniq + uniq
+                        high_values_dupes = high_values_dupes + dupes
+                    }
+                });
+                if (high_values_total > 0) {
+                    data.addRow(["100+", 
+                    high_values_uniq,
+                    "<b>Length:</b> 100+ tokens<br>" + "<b>Total:</b> " +  high_values_total.toLocaleString() + "<br><b>Unique:</b> "+  high_values_uniq.toLocaleString() + "<br><b>Duplicates:</b> " + high_values_dupes.toLocaleString(), 
+                    high_values_dupes,
+                    "<b>Length:</b> 100+ tokens<br>" + "<b>Total:</b> " +  high_values_total.toLocaleString() + "<br><b>Unique:</b> "+  high_values_uniq.toLocaleString() +  "<br><b>Duplicates:</b> "+ high_values_dupes.toLocaleString()]) 
+
+                }
+                // Set chart options
+                var options = {
+                    //title: chart_title,
+                    hAxis: {
+                        title: "Token length"
+                         },     
+                    vAxis: {
+                        title: data.getColumnLabel(1)
+                        },
+                    tooltip: {
+                        isHtml: true
+                    },
+                    isStacked: true,
+                    legend: 'none'
+                };
+                var materialChart = new google.visualization.ColumnChart(document.getElementById(div_id));
+                materialChart.draw(data, options);
+            }
+            
             function draw_horizontal_bars(div_id, data_series, chart_title, x_axis_label, y_axis_label) {
                 var data = new google.visualization.DataTable();
                 data.addColumn('string', y_axis_label);
@@ -419,8 +493,6 @@
                 //var chart = new google.visualization.BubbleChart(document.getElementById(div_id));
                 //chart.draw(data, options);
                 
-                console.log(data)
-                                
                 var chart = new google.visualization.ScatterChart(document.getElementById(div_id));
                 chart.draw(data, options);
 
@@ -462,9 +534,23 @@
                         $("#sent-pairs").html("n/a")
                     }
                     
+                    if ("unique_sents" in obj) {
+                        unique_sents = obj["unique_sents"]
+                        $("#sent-unique").html(unique_sents.toLocaleString())
+                    }
+                    else {
+                        $("#sent-unique").html("n/a")
+                    }
+                    
                     if ("src_sent_tokens" in obj){
                         src_token_distribution = obj["src_sent_tokens"]
-                        draw_histogram("src_token_chart", src_token_distribution, "Source sentences length (tokens)", "Tokens", "Frequency")
+                        if ("src_unique_sents" in obj) {
+                            src_unique_distribution = obj["src_unique_sents"]
+                            draw_stacked_histogram("src_token_chart", src_token_distribution, src_unique_distribution, "Total and unique source sentences per length (tokens)", "Tokens", "Frequency")
+                        }
+                        else {
+                            draw_histogram("src_token_chart", src_token_distribution, "Source sentences length (tokens)", "Tokens", "Frequency")
+                        }
                         $("#src_token_chart_na").css("display" , "none")
                         $("#src_token_chart").css("visibility", "visible")
                     }
@@ -475,7 +561,13 @@
                     
                     if ("trg_sent_tokens" in obj) {
                         trg_token_distribution = obj["trg_sent_tokens"]
-                        draw_histogram("trg_token_chart", trg_token_distribution, "Target sentences length (tokens)", "Tokens", "Frequency")
+                        if ("trg_unique_sents" in obj) {
+                            trg_unique_distribution =  obj["trg_unique_sents"]
+                            draw_stacked_histogram("trg_token_chart", trg_token_distribution, trg_unique_distribution, "Total and unique target sentences per length (tokens)", "Tokens", "Frequency")
+                        }
+                        else{
+                            draw_histogram("trg_token_chart", trg_token_distribution, "Target sentences length (tokens)", "Tokens", "Frequency")
+                        }
                         $("#trg_token_chart_na").css("display" , "none")
                         $("#trg_token_chart").css("visibility", "visible")
                     }
