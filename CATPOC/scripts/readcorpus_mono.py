@@ -12,6 +12,7 @@ from util import logging_setup
 from collections import Counter
 from fastspell import FastSpell
 from ngrams import get_ngrams
+from xxhash import xxh64
 from monocleanerscorer import read_monocleanerscores
 
 def initialization():
@@ -60,7 +61,9 @@ def main():
     src_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the source sentence
 
     src_tokens = []
-
+    src_hashes =  {}
+    sent_hashes = set()
+    
     src_bytes=0
 
     src_langs = Counter()
@@ -89,15 +92,32 @@ def main():
         #Add tokens for each sentence
         src_tokens.extend(src_line.split()) # Tokenization can be improved
         
+        #src hashes
+        src_hash = xxh64(src_line).hexdigest()        
+        try:
+             src_hashes[src_tokens_count].add(src_hash)
+        except KeyError:
+             src_hashes[src_tokens_count]=set()
+             src_hashes[src_tokens_count].add(src_hash)
+        
+        sent_hashes.add(src_hash)
+             
         # Corpus strings
         src_bytes += len(src_line.encode('utf-8'))
 
     stats["sentence_pairs"] = total_lines
+    stats["unique_sents"] = len(sent_hashes)
     
     src_tokens_list = []
+    src_hashes_list = []
     for token, freq in sorted(src_sent_tokens.items()):
         src_tokens_list.append([token, freq])
+        try:
+            src_hashes_list.append([token, len(src_hashes[token])])
+        except KeyError:
+            src_hashes_list.append([token, 0])
     stats["src_sent_tokens"] = str(src_tokens_list)
+    stats["src_unique_sents"] = str(src_hashes_list)
 
     src_langs_list = []
     for lang, freq in src_langs.most_common():
