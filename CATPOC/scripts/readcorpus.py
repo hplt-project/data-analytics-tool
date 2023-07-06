@@ -157,32 +157,30 @@ def main():
     #stats["src_sent_tokens"] = str(sorted(src_sent_tokens.items())) #This generates tuples
     #stats["trg_sent_tokens"] = str(sorted(trg_sent_tokens.items())) #This generates tuples
     
+    #Process together token length and hashes list per token to avoid issues with different items in list
+    # (shouldn't happen but who knows)
     src_tokens_list = []
+    src_hashes_list = []
     for token, freq in sorted(src_sent_tokens.items()):
         src_tokens_list.append([token, freq])
+        try:
+            src_hashes_list.append([token, len(src_hashes[token])])
+        except KeyError:
+            src_hashes_list.append([token, 0])
     stats["src_sent_tokens"] = str(src_tokens_list)
-    
-    trg_tokens_list = []
-    for token, freq in sorted(trg_sent_tokens.items()):
-        trg_tokens_list.append([token, freq])        
-    stats["trg_sent_tokens"] = str(trg_tokens_list)
-
-    src_hashes_list = []
-    for sent_length in sorted(src_hashes.keys()):
-        src_hashes_list.append([sent_length, len(src_hashes[sent_length])])
-    #lil' ñapa
-    if 0 in  src_sent_tokens.keys() and 0 not in src_hashes.keys():
-        src_hashes_list.insert(0, [0, 1])
     stats["src_unique_sents"] = str(src_hashes_list)
     
+    trg_tokens_list = []
     trg_hashes_list = []
-    for sent_length in sorted(trg_hashes.keys()):
-        trg_hashes_list.append([sent_length, len(trg_hashes[sent_length])])
-    #lil' ñapa
-    if 0 in trg_sent_tokens.keys() and 0 not in trg_hashes.keys():
-        trg_hashes_list.insert(0, [0, 1])
+    for token, freq in sorted(trg_sent_tokens.items()):
+        trg_tokens_list.append([token, freq])        
+        try:
+            trg_hashes_list.append([token, len(trg_hashes[token])])
+        except KeyError:
+            trg_hashes_list.append([token, 0])
+    stats["trg_sent_tokens"] = str(trg_tokens_list)
     stats["trg_unique_sents"] = str(trg_hashes_list)
-        
+
 
     src_langs_list = []
     for lang, freq in src_langs.most_common():
