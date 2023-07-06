@@ -204,7 +204,7 @@
                             for (item in data["languages"]) {
                                 //langs = JSON.parse(item)
                                 langcode=data["languages"][item]                                
-                                if (isNaN(langcode)) {
+                                if (isNaN(langcode) && langcode.length == 2) {
                                     try {
                                         langname = languageNames.of(langcode)
                                     } catch (err) {
