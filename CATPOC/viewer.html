@@ -234,13 +234,13 @@
         
         <div class="row my-3">
             <div class="col-auto">
-                <a class="btn btn-primary" id="download-yaml" href="#">Download yaml</a>
+                <a class="btn btn-primary disabled" id="download-yaml" href="#">Download yaml</a>
             </div>
             <div class="col-auto">
-                <a class="btn btn-primary" id="download-pdf">Export as PDF</a>
+                <a class="btn btn-primary disabled" id="download-pdf">Export as PDF</a>
             </div>
             <div class="col-auto">
-                <a class="btn btn-secondary" href="./uploader.html">Go to uploader</a>
+                <a class="btn btn-dark" href="./uploader.html">Go to uploader</a>
             </div>
         </div>
         
@@ -507,6 +507,8 @@
                 $.get("/file/"+corpus, function(text) {
                     var obj = jsyaml.load(text)
                     $("#the-content").css("display", "block")
+                    $("#download-yaml").removeClass("disabled")
+                    $("#download-pdf").removeClass("disabled")
                     
                     if ("corpus" in obj) {                        
                         corpusname = obj["corpus"]
