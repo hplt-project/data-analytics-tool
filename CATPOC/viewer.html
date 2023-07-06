@@ -598,9 +598,14 @@
                         $("#trg_langs_chart").css("visibility", "collapse")
                     }
                     
-                    if ("bicleaner_scores" in obj) {
-                        bicleaner_scores_distribution = obj["bicleaner_scores"]
-                        draw_histogram("bicleaner_scores_chart", bicleaner_scores_distribution, "Bicleaner scores", "Score range", "Frequency") 
+                    if ("bicleaner_scores" in obj || "monocleaner_scores" in obj) {
+                        if ("bicleaner_scores" in obj) {
+                            scores_distribution = obj["bicleaner_scores"]
+                        }
+                        else {
+                            scores_distribution = obj["monocleaner_scores"]
+                        }
+                        draw_histogram("bicleaner_scores_chart", scores_distribution, "Bicleaner scores", "Score range", "Frequency") 
                         $("#bicleaner_scores_chart").css("visibility", "visible")
                         $("#bicleaner_scores_chart_na").css("display", "none")
                     }
