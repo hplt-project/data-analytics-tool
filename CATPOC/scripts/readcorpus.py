@@ -7,6 +7,7 @@ import yaml
 import json
 import math
 
+from sacremoses import MosesTokenizer
 from timeit import default_timer
 from util import logging_setup
 from collections import Counter
@@ -39,8 +40,8 @@ def write_stats(statsfile, statsdict):
     yaml.dump(statsdict, statsfile)    
 
 #Currently a dummy
-def count_tokens(sent):
-    return(len(sent.split(" ")))
+#def count_tokens(sent):
+#    return(len(sent.))
 
 # To convert sizes
 def convert_size(size_bytes):
@@ -61,6 +62,9 @@ def main():
     total_lines=0
     src_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the source sentence
     trg_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the target sentence
+    
+    src_tokenizer = MosesTokenizer(args.srclang)
+    trg_tokenizer = MosesTokenizer(args.trglang)
 
     src_tokens = []
     trg_tokens = []
@@ -113,8 +117,8 @@ def main():
             #continue
             
         #Counting tokens in each sentence
-        src_tokens_count = count_tokens(src_sent)
-        trg_tokens_count = count_tokens(trg_sent)    
+        src_tokens_count = len(src_tokenizer.tokenize(src_sent))
+        trg_tokens_count = len(trg_tokenizer.tokenize(trg_sent))
         src_sent_tokens[src_tokens_count] += 1
         trg_sent_tokens[trg_tokens_count] += 1
 
@@ -144,8 +148,8 @@ def main():
         trg_langs[trg_langid] += 1        
         
         #Add tokens for each sentence
-        src_tokens.extend(src_sent.split()) # Tokenization can be improved
-        trg_tokens.extend(trg_sent.split()) # Tokenization can be improved
+        src_tokens.extend(src_tokenizer.tokenize(src_sent)) # Tokenization can be improved
+        trg_tokens.extend(trg_tokenizer.tokenize(trg_sent)) # Tokenization can be improved
          
         # Corpus strings
         src_bytes += len(src_sent.encode('utf-8'))
