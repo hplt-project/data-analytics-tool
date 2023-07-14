@@ -356,8 +356,8 @@
             function draw_stacked_histogram(div_id, data_series_totals, data_series_unique,  chart_title, x_axis_label, y_axis_label) {
                 // Create the data table.
                 var data = new google.visualization.DataTable();
-                data.addColumn('string', "Token length");
-                data.addColumn('number', "Unique sentences");
+                data.addColumn('string', "Sentence length (tokens)");
+                data.addColumn('number', "Sentences");
                 data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
                 data.addColumn('number', "Duplicated sentences");
                 data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
@@ -403,7 +403,7 @@
                 var options = {
                     //title: chart_title,
                     hAxis: {
-                        title: "Token length"
+                        title: "Sentence length (tokens)"
                          },     
                     vAxis: {
                         title: data.getColumnLabel(1)

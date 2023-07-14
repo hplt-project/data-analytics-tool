@@ -5,7 +5,8 @@ services:
         build:
             context: .
             dockerfile: Dockerfile
-        #environment:
+        environment:
+            - datapath=/work/models
         networks:
             - dat-network
         volumes:

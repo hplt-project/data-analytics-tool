@@ -1,3 +1,4 @@
+import os
 import logging
 import yaml
 
@@ -29,7 +30,20 @@ tag_types = [
 
 def remove_porntag(corpusname, srclang, trglang):
     # Check if there is porn file, otherwise remove it:
-    yaml_file_path = "bicleaner/"+srclang+"-"+trglang+"/"+srclang+"-"+trglang+".yaml"
+    datapath = os.environ["datapath"]
+    #very nasty fix...
+    #Check if exists in bicleaner classic...
+    yaml_file_path = datapath + "/bicleaner/"+srclang+"-"+trglang+"/"+srclang+"-"+trglang+".yaml"
+    if not os.path.exists(yaml_file_path):
+        yaml_file_path = datapath + "/bicleaner-ai/"+srclang+"-"+trglang+"/metadata.yaml"
+    if not os.path.exists(yaml_file_path):
+        yaml_file_path = datapath + "/bicleaner-ai/"+srclang+"-"+"xx"+"/metadata.yaml"
+    if not os.path.exists(yaml_file_path):
+        #No bicleaner
+        tag_types.remove("no_porn")
+        return tag_types
+
+        
     # Open the YAML file
     with open(yaml_file_path, "r") as yaml_file:
         # Load the YAML content
@@ -42,6 +56,8 @@ def remove_porntag(corpusname, srclang, trglang):
 
 def read_bicleanertags(corpusname,srclang, trglang):
     bicleaneroutput = corpusname+".bicleaner-hardrules"
+    if not os.path.exists(bicleaneroutput):
+        return {}
     srcs = []
     tgts = []
     keeps = []
@@ -86,7 +102,8 @@ def read_bicleanertags(corpusname,srclang, trglang):
 
 def read_bicleanerscores(corpusname):
     bicleanerscores = corpusname+".bicleaner-classify"
-    
+    if not os.path.exists(bicleanerscores):
+        return {}
     scores = []
     for line in open(bicleanerscores, "r"):
         try:
@@ -101,8 +118,15 @@ def read_bicleanerscores(corpusname):
 
     buckets = [[] for _ in range(10)]
     for item in scores:
-        bucket_index = int(float(item) * 10)
-        buckets[bucket_index].append(item)
+        try:
+            bucket_index = int(float(item.strip()) * 10)
+            buckets[bucket_index].append(item.strip())
+        except IndexError as ex:
+            if bucket_index == 10:
+                buckets[9].append(item.strip()) #score was 1.000, add to last bucket
+            else:
+                logging.error(ex)
+                
 
     bucket_counts = [[i / 10, len(bucket)] for i, bucket in enumerate(buckets)]
 

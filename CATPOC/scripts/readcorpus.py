@@ -220,7 +220,7 @@ def main():
     stats["bicleaner_scores"] = json.dumps(bicleaner_scores)
 
     write_stats(args.statsfile, stats)
-    logging.info("Finished")
+    logging.info("Finished stats for " + args.statsfile.name )
     elapsed_time = default_timer() - time_start
     logging.info("Total: {0} rows".format(total_lines))
     logging.info("Elapsed time {0:.2f} s".format(elapsed_time))

@@ -8,7 +8,6 @@ trglang=$4
 format=$5
 langformat=$6
 
-datapath=/work/models
 #bicleanermetadata=bicleaner/$srclang-$trglang/$srclang-$trglang.yaml
 #monocleanermetadata=monocleaner/$srclang/metadata.yaml
 
@@ -32,12 +31,12 @@ if [ "$langformat" == "parallel" ]; then
 			#en-trg not supported by classic bicleaner
 	   		if [[ " ${bicleaner_ai_langs_en[*]} " =~ " $trglang " ]]; then
    				#en-trg is supported by bicleaner ai
-   				bicleaner_ai_metadata=$datapath/bicleaner-ai/$srclang-$trglang/$srclang-$trglang.yaml
+   				bicleaner_ai_metadata=$datapath/bicleaner-ai/$srclang-$trglang/metadata.yaml
    				bcai_trglang=$trglang
 	   		else
    				#en-trg not supported by bicleaner ai, but falling back to en-xx
    				echo "Falling back to bicleaner-ai en-xx"
-   				bicleaner_ai_metadata=$datapath/bicleaner-ai/en-xx/en-xx.yaml
+   				bicleaner_ai_metadata=$datapath/bicleaner-ai/en-xx/metadata.yaml
    				bcai_trglang=xx
 	   		fi
    		fi
@@ -49,7 +48,7 @@ if [ "$langformat" == "parallel" ]; then
         		#es-trg not supported by classic bicleaner
             		if [[ " ${bicleaner_ai_langs_es[*]} " =~ " $trglang " ]]; then
                         	#es-trg is supported by bicleaner ai
-	                        bicleaner_ai_metadata=$datapath/bicleaner-ai/$srclang-$trglang/$srclang-$trglang.yaml
+	                        bicleaner_ai_metadata=$datapath/bicleaner-ai/$srclang-$trglang/metadata.yaml
 	                        bcai_trglang=$trglang
         	        else
                 	        #es-trg not supported by  any bicleaner
@@ -148,7 +147,7 @@ else
 	        	echo "Monocleaner model already downloaded."
 	        else
 		        echo "Downloading monocleaner model..."
-		        monocleaner-download $srclang $datapath/monocleaner/
+		        monocleaner-download $srclang $datapath/monocleaner/ -q
 		fi	
 
 		monocleaner $datapath/monocleaner/$srclang $saved_file_path $saved_file_path.monocleaner-classify
