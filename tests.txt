@@ -1,14 +1,56 @@
 To be run inside the docker
 
-TSV:
-cd /work/uploaded_corpora && wget https://object.pouta.csc.fi/OPUS-ELRC-3612-presscorner_covid/v1/moses/en-es.txt.zip && unzip en-es.txt.zip && rm README LICENSE  ELRC-3612-presscorner_covid.en-es.xml en-es.txt.zip && paste ELRC-3612-presscorner_covid.en-es.en ELRC-3612-presscorner_covid.en-es.es > covid && rm ELRC-3612-presscorner_covid.en-es.e* && cd /work
-bash ./scripts/runstats.sh ./uploaded_corpora/covid ./yaml_dir/covid.yaml en es tsv parallel
+** FORMAT TESTS **
 
-TMX:
-cd /work/uploaded_corpora && wget https://object.pouta.csc.fi/OPUS-ELRC-2638-monumentos_2007/v1/tmx/en-es.tmx.gz && zcat en-es.tmx.gz > monumentos && rm en-es.tmx.gz && cd /work
-bash ./scripts/runstats.sh ./uploaded_corpora/monumentos ./yaml_dir/monumentos.yaml en es tmx parallel
+* TSV:
+cd /work/uploaded_corpora && wget https://object.pouta.csc.fi/OPUS-ELRC-3612-presscorner_covid/v1/moses/en-es.txt.zip && unzip en-es.txt.zip && rm README LICENSE  ELRC-3612-presscorner_covid.en-es.xml en-es.txt.zip && paste ELRC-3612-presscorner_covid.en-es.en ELRC-3612-presscorner_covid.en-es.es > ELRC.covid.en-es && rm ELRC-3612-presscorner_covid.en-es.en  ELRC-3612-presscorner_covid.en-es.es && cd /work
+bash ./scripts/runstats.sh ./uploaded_corpora/ELRC.covid.en-es ./yaml_dir/ELRC.covid.en-es.yaml en es tsv parallel
 
-MONO:
-cd /work/uploaded_corpora/ && wget https://object.pouta.csc.fi/OPUS-ELRC-3077-wikipedia_health/v1/mono/en.txt.gz && zcat en.txt.gz  > health && rm en.txt.gz  && cd /work
-bash ./scripts/runstats.sh ./uploaded_corpora/health ./yaml_dir/health.yaml en  tsv mono
+* TMX:
+cd /work/uploaded_corpora && wget https://object.pouta.csc.fi/OPUS-ELRC-2638-monumentos_2007/v1/tmx/en-es.tmx.gz && zcat en-es.tmx.gz > ELRC.monumentos.en-es && rm en-es.tmx.gz && cd /work
+bash ./scripts/runstats.sh ./uploaded_corpora/ELRC.monumentos.en-es ./yaml_dir/ELRC.monumentos.en-es.yaml en es tmx parallel
+
+* BITEXTS
+//Coming soon...
+
+* MONO:
+cd /work/uploaded_corpora/ && wget https://object.pouta.csc.fi/OPUS-ELRC-3077-wikipedia_health/v1/mono/en.txt.gz && zcat en.txt.gz  > ELRC.health.en && rm en.txt.gz  && cd /work
+bash ./scripts/runstats.sh ./uploaded_corpora/ELRC.health.en ./yaml_dir/ELRC.health.en.yaml en  tsv mono
+
+** LANGUAGE COMBINATION TESTS (RESULTING IN DIFFERENT BICLEANER STRATEGIES) **
+
+* CLASSIC BICLEANER WITH EN (en-it)
+cd /work/uploaded_corpora && wget https://object.pouta.csc.fi/OPUS-ELRC-vaccination/v1/tmx/en-it.tmx.gz && zcat en-it.tmx.gz > ELRC.vaccination.en-it && rm en-it.tmx.gz && cd /work
+bash ./scripts/runstats.sh ./uploaded_corpora/ELRC.vaccination.en-it ./yaml_dir/ELRC.vaccination.en-it.yaml en it tmx parallel
+
+* CLASSIC BICLEANER WITH ES (es-ca)
+cd /work/uploaded_corpora && wget https://object.pouta.csc.fi/OPUS-ELRC-5190-Cyber_MT_Test/v1/tmx/ca-es.tmx.gz && zcat ca-es.tmx.gz > ELRC.cyber.es-ca && rm ca-es.tmx.gz && cd /work
+bash ./scripts/runstats.sh ./uploaded_corpora/ELRC.cyber.es-ca ./yaml_dir/ELRC.cyber.es-ca.yaml es ca tmx parallel
+
+* BICLEANER AI WITH EN (en-eu)
+cd /work/uploaded_corpora && wget https://object.pouta.csc.fi/OPUS-ELRC-4993-Basque_Wikinews_MT/v1/tmx/en-eu.tmx.gz && zcat en-eu.tmx.gz > ELRC.wikinews.en-eu && rm en-eu.tmx.gz && cd /work
+bash ./scripts/runstats.sh ./uploaded_corpora/ELRC.wikinews.en-eu ./yaml_dir/ELRC.wikinews.en-eu.yaml en eu tmx parallel
+
+* BICLEANER AI WITH ES (es-zh) -
+cd /work/uploaded_corpora && wget https://object.pouta.csc.fi/OPUS-tico-19/v2020-10-28/tmx/es-zh.tmx.gz && zcat es-zh.tmx.gz > tico19.es-zh && rm es-zh.tmx.gz && cd /work
+bash ./scripts/runstats.sh ./uploaded_corpora/tico19.es-zh ./yaml_dir/tico19.es-zh.yaml es zh tmx parallel
+
+* BICLEANER AI MULTILINGUAL EN-XX (en-eo)
+cd /work/uploaded_corpora && wget https://object.pouta.csc.fi/OPUS-Books/v1/tmx/en-eo.tmx.gz && zcat en-eo.tmx.gz > books.en-eo && rm en-eo.tmx.gz && cd /work
+bash ./scripts/runstats.sh ./uploaded_corpora/books.en-eo ./yaml_dir/books.en-eo.yaml en eo tmx parallel
+
+?? REVERSED LANGUAGE PAIRS?
+
+* NO BICLEANER (de-ru)
+cd /work/uploaded_corpora && wget https://object.pouta.csc.fi/OPUS-KDEdoc/v1/tmx/de-ru.tmx.gz && zcat de-ru.tmx.gz > kde.de-ru && rm de-ru.tmx.gz && cd /work
+bash ./scripts/runstats.sh ./uploaded_corpora/kde.de-ru ./yaml_dir/kde.de-ru.yaml de ru tmx parallel
+
+* NO BICLEANER (es-ru) -  untested
+cd /work/uploaded_corpora && wget https://object.pouta.csc.fi/OPUS-TildeMODEL/v2018/tmx/es-ru.tmx.gz && zcat es-ru.tmx.gz > tilde.es-ru && rm es-ru.tmx.gz && cd /work
+bash ./scripts/runstats.sh ./uploaded_corpora/tilde.es-ru ./yaml_dir/tilde.es-ru.yaml es ru tmx parallel
+
+* MONOCLEANER (en) - untested
+
+
+* NO MONOCLEANER (eo) - untested
 
