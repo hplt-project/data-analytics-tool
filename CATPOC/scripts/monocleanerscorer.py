@@ -1,5 +1,9 @@
+import os
 def read_monocleanerscores(corpusname):
     monocleanerscores = "uploaded_corpora/"+corpusname+".monocleaner-classify"
+    if not os.path.exists(monocleanerscores):
+        return {}
+
     src, scores = zip(*(line.split("\t") for line in open(monocleanerscores, "r").read().splitlines()))
 
     buckets = [[] for _ in range(11)]

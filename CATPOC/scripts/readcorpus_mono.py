@@ -116,17 +116,21 @@ def main():
             src_hashes_list.append([token, len(src_hashes[token])])
         except KeyError:
             src_hashes_list.append([token, 0])
-    stats["src_sent_tokens"] = str(src_tokens_list)
-    stats["src_unique_sents"] = str(src_hashes_list)
+    if len(src_tokens_list) > 0:
+        stats["src_sent_tokens"] = str(src_tokens_list)
+    if len(src_hashes_list) > 0:
+        stats["src_unique_sents"] = str(src_hashes_list)
 
     src_langs_list = []
     for lang, freq in src_langs.most_common():
         src_langs_list.append([lang, freq])
-    stats["src_langs"] = json.dumps(src_langs_list)
+    if len(src_langs_list) > 0:
+        stats["src_langs"] = json.dumps(src_langs_list)
 
     # ngrams
     src_ngrams = get_ngrams(src_tokens, 2)
-    stats["src_ngrams"] = json.dumps(src_ngrams)
+    if len(src_ngrams) > 0 :
+        stats["src_ngrams"] = json.dumps(src_ngrams)
 
     # type token ratio
     ttr_src = round(len(set(src_tokens))/ len(src_tokens),2)
@@ -135,9 +139,10 @@ def main():
     # bytes size
     stats["src_bytes"] = convert_size(src_bytes)
 
-    # monocleaner scores
+    # monocleaner scores    
     monocleaner_scores = read_monocleanerscores(filename)
-    stats["monocleaner_scores"] = json.dumps(monocleaner_scores)
+    if len(monocleaner_scores) > 0 :
+        stats["monocleaner_scores"] = json.dumps(monocleaner_scores)
 
     write_stats(args.statsfile, stats)
     logging.info("Finished stats for "+ args.statsfile.name)

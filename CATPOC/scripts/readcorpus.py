@@ -171,8 +171,10 @@ def main():
             src_hashes_list.append([token, len(src_hashes[token])])
         except KeyError:
             src_hashes_list.append([token, 0])
-    stats["src_sent_tokens"] = str(src_tokens_list)
-    stats["src_unique_sents"] = str(src_hashes_list)
+    if len(src_tokens_list) > 0:
+        stats["src_sent_tokens"] = str(src_tokens_list)
+    if len(src_hashes_list) > 0:
+        stats["src_unique_sents"] = str(src_hashes_list)
     
     trg_tokens_list = []
     trg_hashes_list = []
@@ -182,25 +184,31 @@ def main():
             trg_hashes_list.append([token, len(trg_hashes[token])])
         except KeyError:
             trg_hashes_list.append([token, 0])
-    stats["trg_sent_tokens"] = str(trg_tokens_list)
-    stats["trg_unique_sents"] = str(trg_hashes_list)
+    if len(trg_tokens_list) > 0:
+        stats["trg_sent_tokens"] = str(trg_tokens_list)
+    if len(trg_hashes_list) > 0:
+        stats["trg_unique_sents"] = str(trg_hashes_list)
 
 
     src_langs_list = []
     for lang, freq in src_langs.most_common():
         src_langs_list.append([lang, freq])
-    stats["src_langs"] = json.dumps(src_langs_list)
+    if len(src_langs_list) > 0:
+        stats["src_langs"] = json.dumps(src_langs_list)
 
     trg_langs_list = []
     for lang, freq in trg_langs.most_common():
         trg_langs_list.append([lang, freq])
-    stats["trg_langs"] = json.dumps(trg_langs_list)
+    if len(trg_langs_list) > 0 :
+        stats["trg_langs"] = json.dumps(trg_langs_list)
 
     # ngrams
     src_ngrams = get_ngrams(src_tokens, 2)
     trg_ngrams = get_ngrams(trg_tokens, 2)
-    stats["src_ngrams"] = json.dumps(src_ngrams)
-    stats["trg_ngrams"] = json.dumps(trg_ngrams)
+    if len(src_ngrams) > 0:
+        stats["src_ngrams"] = json.dumps(src_ngrams)
+    if len(trg_ngrams) > 0:
+        stats["trg_ngrams"] = json.dumps(trg_ngrams)
 
     # type token ratio
     ttr_src = round(len(set(src_tokens))/ len(src_tokens),2)
@@ -214,10 +222,12 @@ def main():
 
     # bicleaner-hardrules tags
     bicleaner_tags = read_bicleanertags(filename, args.srclang, args.trglang)
-    stats["bicleaner_tags"] = json.dumps(bicleaner_tags)
+    if len(bicleaner_tags) > 0 :
+        stats["bicleaner_tags"] = json.dumps(bicleaner_tags)
     # bicleaner-classify scores
     bicleaner_scores = read_bicleanerscores(filename)
-    stats["bicleaner_scores"] = json.dumps(bicleaner_scores)
+    if len(bicleaner_scores) > 0:
+        stats["bicleaner_scores"] = json.dumps(bicleaner_scores)
 
     write_stats(args.statsfile, stats)
     logging.info("Finished stats for " + args.statsfile.name )
