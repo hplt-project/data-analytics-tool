@@ -23,6 +23,12 @@
             {
               font-size: 40px;
             }
+            
+            .treemaptooltip {
+                background: white;
+                z-index: 10;
+                position: sticky;
+            }
         </style>
 
         <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -290,7 +296,7 @@
                 href=html2pdf(content, opt);
             });
 
-            google.charts.load('current', {'packages':['corechart', 'bar']});
+            google.charts.load('current', {'packages':['corechart', 'bar', 'treemap']});
 //            google.charts.setOnLoadCallback(draw_ngrams);            
 
             function getColor(value){
@@ -500,9 +506,54 @@
                 
                 var chart = new google.visualization.ScatterChart(document.getElementById(div_id));
                 chart.draw(data, options);
-
             }
             
+            function draw_treemap(div_id, data_series) {
+                var data = new google.visualization.DataTable();
+                data.addColumn({type: "string", label: "ngram"}); //id
+                data.addColumn({type: "string", label: "group"}); //parent
+                data.addColumn({type: "number", label: "frequency"}); //node size
+                //data.addColumn({type: "number", label: "group"}); //color config
+
+                
+                data_series = JSON.parse(data_series)
+                data.addRow(["ngrams", null, 0])
+                data.addRow(["1", "ngrams", 0])
+                data.addRow(["2", "ngrams", 0])
+                for (const [key, value] of Object.entries(data_series)) {
+                    ngram_length = parseInt(key)
+                    value.forEach(function(item) {
+                        ngram_text = item[0].join(" ")
+                        ngram_freq = parseInt(item[1])                    
+                        data.addRow([ngram_text, ngram_length.toString(), ngram_freq])
+        
+                    });
+                }
+                options = {
+                    maxDepth: 2,
+                    generateTooltip: showTreemapTooltip,
+                    allowHtml: true,
+                    minColor: 'thistle',
+                    midColor: 'mediumslateblue',
+                    maxColor: 'darkslateblue'
+//                    minColor: 'powderblue',
+//                    minColor: 'orangered',                        
+//                    midColor: 'dodgerblue',
+ //                    midColor: 'gold',
+//                   maxColor: 'mediumblue'
+ //                     maxColor: 'green'
+                }
+                var chart = new google.visualization.TreeMap(document.getElementById(div_id));
+                chart.draw(data, options);
+                
+                function showTreemapTooltip(row, size, value){
+                    return "<div class=\"treemaptooltip\">"+data.getValue(row, 0)+"<br>"+ "Frequency: " +
+                    data.getValue(row, 2)+"</div>"
+                }
+                
+            }
+            
+
             function load_data(corpus){
                 $.get("/file/"+corpus, function(text) {
                     var obj = jsyaml.load(text)
@@ -650,7 +701,8 @@
                     
                     if ("src_ngrams" in obj) {
                         src_ngrams = obj["src_ngrams"]
-                        draw_ngrams("src-ngrams", src_ngrams)           
+                        //draw_ngrams("src-ngrams", src_ngrams)           
+                        draw_treemap("src-ngrams", src_ngrams)
                         $("#src-ngrams-na").css("display" , "none")
                         $("#src-ngrams").css("visibility", "visible")         
                     }
@@ -661,7 +713,8 @@
                     
                     if ("trg_ngrams" in obj) {
                         trg_ngrams = obj["trg_ngrams"]
-                        draw_ngrams("trg-ngrams", trg_ngrams)
+                        //draw_ngrams("trg-ngrams", trg_ngrams)
+                        draw_treemap("trg-ngrams", trg_ngrams)
                         $("#trg-ngrams-na").css("display" , "none")
                         $("#trg-ngrams").css("visibility", "visible")
                         
