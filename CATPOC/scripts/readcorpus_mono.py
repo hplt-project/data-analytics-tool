@@ -6,7 +6,9 @@ import argparse
 import yaml
 import json
 import math
+import cProfile
 
+from sacremoses import MosesTokenizer
 from timeit import default_timer
 from util import logging_setup
 from collections import Counter
@@ -38,8 +40,8 @@ def write_stats(statsfile, statsdict):
     yaml.dump(statsdict, statsfile)    
 
 #Currently a dummy
-def count_tokens(sent):
-    return(len(sent.split(" ")))
+#def count_tokens(sent):
+#    return(len(sent.split(" ")))
 
 # To convert sizes
 def convert_size(size_bytes):
@@ -75,14 +77,16 @@ def main():
     filename = os.path.basename(args.corpus.name)
     
     fastspell_src = FastSpell(args.srclang, mode="cons")
+    src_tokenizer = MosesTokenizer(args.srclang)
     
     src_file=open(args.corpus.name,"r").read().splitlines()
 
     for src_line in src_file:
         total_lines = total_lines+1
+        src_line = src_line.strip()
         
-        #Counting tokens in each sentence
-        src_tokens_count = count_tokens(src_line)
+        #Counting tokens in each sentence        
+        src_tokens_count = len(src_tokenizer.tokenize(src_line))
         src_sent_tokens[src_tokens_count] += 1
 
         #Get langid for each sentence

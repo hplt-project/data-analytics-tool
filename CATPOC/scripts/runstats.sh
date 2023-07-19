@@ -88,7 +88,8 @@ if [ "$langformat" == "parallel" ]; then
 	# Check the format and preprocess the data
 	if [ "$format" == "bitext" ]; then
         	tsv_file_path=$saved_file_path.tsv
-	        paste $saved_file_path.$srclang  $saved_file_path.$trglang > $tsv_file_path
+        	echo "PASTE"
+	        time paste $saved_file_path.$srclang  $saved_file_path.$trglang > $tsv_file_path
     	else # if format is tmx or tsv
         	if [ "$format" == "tmx" ]; then
 	            # Get the directory path and filename without extension
@@ -96,21 +97,26 @@ if [ "$langformat" == "parallel" ]; then
 	            filename=$(basename "$saved_file_path" .tmx)
 	            # Create the new file path with the "tsv" extension
 	            tsv_file_path="$dir_path/$filename.tsv"
-	            python3 ./tmxt/tmxt.py --codelist=$srclang,$trglang $saved_file_path $tsv_file_path
+	            echo "TMXT"
+	            time python3 ./tmxt/tmxt.py --codelist=$srclang,$trglang $saved_file_path $tsv_file_path
 	        else
         	    tsv_file_path=$saved_file_path #if the input file is in tsv format
 	        fi
         	# Save into two separate files
-	        cut -f1 $tsv_file_path > $saved_file_path.$srclang
-	        cut -f2 $tsv_file_path > $saved_file_path.$trglang
+        	echo "CUT"
+	        time cut -f1 $tsv_file_path > $saved_file_path.$srclang
+	        echo "CUT"
+	        time cut -f2 $tsv_file_path > $saved_file_path.$trglang
 	fi
     
 	#Bicleaner Hardrules
     	source /work/venvs/venv-bhr/bin/activate
 	if [ "$bicleaner_metadata" ]; then
-		bicleaner-hardrules --annotated_output --run_all -s $srclang -t $trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_metadata
+		echo "BICLEANER HARDRULES"
+		time bicleaner-hardrules --annotated_output --run_all -s $srclang -t $trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_metadata
 	elif [ "$bicleaner_ai_metadata" ]; then
-		bicleaner-hardrules --annotated_output --run_all -s $srclang -t $bcai_trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_ai_metadata
+		echo "BICLEANER HARDRULES"
+		time bicleaner-hardrules --annotated_output --run_all -s $srclang -t $bcai_trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_ai_metadata
 	else
 		echo "Language pair not supported by Bicleaner Hardrules"
     	fi
@@ -119,18 +125,23 @@ if [ "$langformat" == "parallel" ]; then
     	#Run Bicleaner/BicleanerAI
     	if [ "$bicleaner_metadata" ]; then
 	    	source /work/venvs/venv-bc/bin/activate
-		bicleaner-classify --scol 1 --tcol 2 $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_metadata
+	    	echo "BICLEANER CLASSIFY"
+		time bicleaner-classify --scol 1 --tcol 2 $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_metadata
 		deactivate
 	elif [ "$bicleaner_ai_metadata" ]; then
 		source /work/venvs/venv-bcai/bin/activate
-		bicleaner-ai-classify --scol 1 --tcol 2 $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_ai_metadata
+		echo "BICLEANER AI CLASSIFY"
+		time bicleaner-ai-classify --scol 1 --tcol 2 $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_ai_metadata
 		deactivate
     	else
     		echo "Language pair not supported by Bicleaner/BicleanerAI"
     	fi
     	
     	#Stats from readcorpus
-	python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang
+    	echo "READ CORPUS"
+    	#mkdir -p profiling
+	#time  python3 -m cProfile  -s cumtime ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang > profiling/profile.text 2>&1
+	time  python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang
 else
 	#Monolingual
 	if [[ " ${monocleaner_langs[*]} " =~ " $srclang " ]]; then
@@ -146,12 +157,14 @@ else
 		if [ -f "$monocleaner_metadata" ]; then
 	        	echo "Monocleaner model already downloaded."
 	        else
-		        echo "Downloading monocleaner model..."
+		        echo "Downloading monocleaner model..."		       
 		        monocleaner-download $srclang $datapath/monocleaner/ -q
 		fi	
-
-		monocleaner $datapath/monocleaner/$srclang $saved_file_path $saved_file_path.monocleaner-classify
+		echo "MONOCLEANER"
+		time monocleaner $datapath/monocleaner/$srclang $saved_file_path $saved_file_path.monocleaner-classify
 		deactivate
 	fi
-	python3 ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
+	echo "READ CORPUS MONO"
+	#time python3 -m cProfile ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
+	time  ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
 fi
