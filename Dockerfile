@@ -19,7 +19,7 @@ COPY deployment/requirements.txt /work/deployment/requirements.txt
 RUN apt-get update && \
     apt-get install -y wget unzip joe gcc && \ 
     apt-get install -y python3.10 python3-dev python3.10-dev  python3-pip  python3.10-venv && \
-    apt-get install -y git build-essential autoconf autopoint libtool &&\
+    apt-get install -y git build-essential autoconf autopoint libtool parallel &&\
     apt-get install -y hunspell libhunspell-dev
     
 RUN python3.10 -m pip install -U pip  && \

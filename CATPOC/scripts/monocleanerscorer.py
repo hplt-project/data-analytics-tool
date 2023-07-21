@@ -1,15 +1,22 @@
 import os
 def read_monocleanerscores(corpusname):
-    monocleanerscores = "uploaded_corpora/"+corpusname+".monocleaner-classify"
+    monocleanerscores = corpusname+".monocleaner-classify"
     if not os.path.exists(monocleanerscores):
         return {}
 
-    src, scores = zip(*(line.split("\t") for line in open(monocleanerscores, "r").read().splitlines()))
+    buckets = [[] for _ in range(10)]
 
-    buckets = [[] for _ in range(11)]
-    for item in scores:
-        bucket_index = int(float(item) * 10)
-        buckets[bucket_index].append(item)
+    for line in open(monocleanerscores, "r"):
+
+        score = line.strip()
+        try:
+            bucket_index = int(float(score) * 10)
+            buckets[bucket_index].append(score)
+        except IndexError as ex:
+            if bucket_index == 10:
+                buckets[9].append(score) #score was 1.000, add to last bucket
+            else:
+                logging.error(ex)
 
     bucket_counts = [[i / 10, len(bucket)] for i, bucket in enumerate(buckets)]
 

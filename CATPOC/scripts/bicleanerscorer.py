@@ -28,7 +28,7 @@ tag_types = [
     #"lm_filter"                    # The sentence pair has low fluency score from the language model
 ]
 
-def remove_porntag(corpusname, srclang, trglang):
+def remove_porntag(srclang, trglang):
     # Check if there is porn file, otherwise remove it:
     datapath = os.environ["datapath"]
     #very nasty fix...
@@ -91,7 +91,7 @@ def read_bicleanertags(corpusname,srclang, trglang):
             tag = tag.replace("(right)","").replace("(left)","").replace("(left,right)","")
             clean_tags.extend([tag])
     
-    tag_types = remove_porntag(corpusname, srclang, trglang)
+    tag_types = remove_porntag(srclang, trglang)
 
     tags_percent = {}
     for tag in tag_types:
@@ -104,26 +104,17 @@ def read_bicleanerscores(corpusname):
     bicleanerscores = corpusname+".bicleaner-classify"
     if not os.path.exists(bicleanerscores):
         return {}
-    scores = []
-    for line in open(bicleanerscores, "r"):
-        try:
-            src, trg, score = line.split("\t")
-            scores.append(score)
-        except ValueError as ex:
-            logging.error("Error in 'read_bicleanerscores': Missing parts")
-            logging.error(ex)
-            logging.error(line)
-            scores.append("0")
-            
 
-    buckets = [[] for _ in range(10)]
-    for item in scores:
+    buckets = [[] for _ in range(10)]        
+
+    for line in open(bicleanerscores, "r"):
+        score = line.strip()
         try:
-            bucket_index = int(float(item.strip()) * 10)
-            buckets[bucket_index].append(item.strip())
+            bucket_index = int(float(score) * 10)
+            buckets[bucket_index].append(score)
         except IndexError as ex:
             if bucket_index == 10:
-                buckets[9].append(item.strip()) #score was 1.000, add to last bucket
+                buckets[9].append(score) #score was 1.000, add to last bucket
             else:
                 logging.error(ex)
                 

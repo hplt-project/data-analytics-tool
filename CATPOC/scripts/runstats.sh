@@ -8,6 +8,9 @@ trglang=$4
 format=$5
 langformat=$6
 
+JOBS=$(($(nproc)-2))
+JOBS=$(($JOBS>1 ? $JOBS : 1))
+
 #bicleanermetadata=bicleaner/$srclang-$trglang/$srclang-$trglang.yaml
 #monocleanermetadata=monocleaner/$srclang/metadata.yaml
 
@@ -89,7 +92,7 @@ if [ "$langformat" == "parallel" ]; then
 	if [ "$format" == "bitext" ]; then
         	tsv_file_path=$saved_file_path.tsv
         	echo "PASTE"
-	        time paste $saved_file_path.$srclang  $saved_file_path.$trglang > $tsv_file_path
+	        time parallel -j $JOBS paste $saved_file_path.$srclang  $saved_file_path.$trglang > $tsv_file_path
     	else # if format is tmx or tsv
         	if [ "$format" == "tmx" ]; then
 	            # Get the directory path and filename without extension
@@ -103,20 +106,24 @@ if [ "$langformat" == "parallel" ]; then
         	    tsv_file_path=$saved_file_path #if the input file is in tsv format
 	        fi
         	# Save into two separate files
-        	echo "CUT"
-	        time cut -f1 $tsv_file_path > $saved_file_path.$srclang
-	        echo "CUT"
-	        time cut -f2 $tsv_file_path > $saved_file_path.$trglang
+        	echo "AWK CUT"        	
+        	rm -f $saved_file_path.$srclang
+        	rm -f $saved_file_path.$trglang
+        	time  awk -F '\t' -v file1=$saved_file_path.$srclang -v file2=$saved_file_path.$trglang '{print $1 >> file1; print $2 >> file2}' $tsv_file_path
+        	#cat  $tsv_file_path | awk -F '\t' -v file1=$saved_file_path.$srclang  -v file2=$saved_file_path.$trglang '{print $1 >> file1; print $2 >> file2}
+	        #time parallel -j $JOBS -k cut -f1 $tsv_file_path > $saved_file_path.$srclang
+	        #echo "CUT"
+	        #time parallel -j $JOBS -k cut -f2 $tsv_file_path > $saved_file_path.$trglang
 	fi
     
 	#Bicleaner Hardrules
     	source /work/venvs/venv-bhr/bin/activate
 	if [ "$bicleaner_metadata" ]; then
 		echo "BICLEANER HARDRULES"
-		time bicleaner-hardrules --annotated_output --run_all -s $srclang -t $trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_metadata
+		time bicleaner-hardrules --annotated_output --run_all -p $JOBS -s $srclang -t $trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_metadata
 	elif [ "$bicleaner_ai_metadata" ]; then
 		echo "BICLEANER HARDRULES"
-		time bicleaner-hardrules --annotated_output --run_all -s $srclang -t $bcai_trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_ai_metadata
+		time bicleaner-hardrules --annotated_output --run_all -p $JOBS -s $srclang -t $bcai_trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_ai_metadata
 	else
 		echo "Language pair not supported by Bicleaner Hardrules"
     	fi
@@ -126,12 +133,12 @@ if [ "$langformat" == "parallel" ]; then
     	if [ "$bicleaner_metadata" ]; then
 	    	source /work/venvs/venv-bc/bin/activate
 	    	echo "BICLEANER CLASSIFY"
-		time bicleaner-classify --scol 1 --tcol 2 $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_metadata
+		time bicleaner-classify -p $JOBS --score_only --scol 1 --tcol 2 $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_metadata
 		deactivate
 	elif [ "$bicleaner_ai_metadata" ]; then
 		source /work/venvs/venv-bcai/bin/activate
 		echo "BICLEANER AI CLASSIFY"
-		time bicleaner-ai-classify --scol 1 --tcol 2 $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_ai_metadata
+		time BICLEANER_AI_THREADS=$JOBS bicleaner-ai-classify --score_only --scol 1 --tcol 2 $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_ai_metadata
 		deactivate
     	else
     		echo "Language pair not supported by Bicleaner/BicleanerAI"
@@ -161,10 +168,12 @@ else
 		        monocleaner-download $srclang $datapath/monocleaner/ -q
 		fi	
 		echo "MONOCLEANER"
-		time monocleaner $datapath/monocleaner/$srclang $saved_file_path $saved_file_path.monocleaner-classify
+		#cat $datapath/monocleaner/$srclang $saved_file_path | parallel -j $JOBS --pipe parallel-monocleaner.sh > $saved_file_path.monocleaner-classify
+		time ./scripts/parallel-monocleaner.sh $JOBS  $datapath/monocleaner/$srclang $saved_file_path  $saved_file_path.monocleaner-classify
+		# time monocleaner $datapath/monocleaner/$srclang $saved_file_path $saved_file_path.monocleaner-classify
 		deactivate
 	fi
 	echo "READ CORPUS MONO"
 	#time python3 -m cProfile ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
-	time  ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
+	time  python3 ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
 fi

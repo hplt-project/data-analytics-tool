@@ -74,7 +74,7 @@ def main():
     stats = {}
     stats["corpus"] = os.path.basename(args.corpus.name)
     stats["srclang"] = args.srclang
-    filename = os.path.basename(args.corpus.name)
+    filename = args.corpus.name
     
     fastspell_src = FastSpell(args.srclang, mode="cons")
     src_tokenizer = MosesTokenizer(args.srclang)
