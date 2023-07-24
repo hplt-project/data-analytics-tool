@@ -165,7 +165,7 @@ else
 	        	echo "Monocleaner model already downloaded."
 	        else
 		        echo "Downloading monocleaner model..."		       
-		        monocleaner-download $srclang $datapath/monocleaner/ -q
+		        monocleaner-download -q $srclang $datapath/monocleaner/
 		fi	
 		echo "MONOCLEANER"
 		#cat $datapath/monocleaner/$srclang $saved_file_path | parallel -j $JOBS --pipe parallel-monocleaner.sh > $saved_file_path.monocleaner-classify
