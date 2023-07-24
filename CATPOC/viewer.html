@@ -69,8 +69,16 @@
                     <label class="form-label" for="corpus-name">Name</label>
                 </div>
                 <div class="col-3">
-                    <span class="form-control-plaintext" id="corpus-name" name="corpus-name"><span>
+                    <span class="form-control-plaintext" id="corpus-name" name="corpus-name"></span>
                 </div>
+                <div class="col-1">
+                    <label class="form-label" for="timestamp">Analytics date</label>
+                </div>
+                <div class="col-3">
+                    <span class="form-control-plaintext" id="timestamp" name="timestamp"></span>
+                </div>
+            </div>
+            <div class="row my-3">
                 <div class="col-1">
                     <label class="form-label" for="slang">Source language</label>
                 </div>
@@ -570,6 +578,17 @@
                     }
                     else {
                         $("#corpus-name").html("n/a")
+                    }
+                    
+                    if ("timestamp" in obj) {
+                        timestamp_ms = obj["timestamp"]
+                        timestamp_secs = timestamp_ms*1000
+                        d = new Date(timestamp_secs)
+                        
+                        $("#timestamp").html(d.toLocaleString())
+                    }
+                    else {
+                        $("#timestamp").html("n/a")
                     }
                     
                     if ("srclang" in obj) {
