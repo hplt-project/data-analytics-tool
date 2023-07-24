@@ -1,3 +1,4 @@
+import time
 import os
 import sys
 import logging
@@ -38,10 +39,6 @@ def initialization():
 #Probably more fanciness needed here
 def write_stats(statsfile, statsdict):
     yaml.dump(statsdict, statsfile)    
-
-#Currently a dummy
-#def count_tokens(sent):
-#    return(len(sent.))
 
 # To convert sizes
 def convert_size(size_bytes):
@@ -203,8 +200,8 @@ def main():
         stats["trg_langs"] = json.dumps(trg_langs_list)
 
     # ngrams
-    src_ngrams = get_ngrams(src_tokens, 2)
-    trg_ngrams = get_ngrams(trg_tokens, 2)
+    src_ngrams = get_ngrams(src_tokens, 5)
+    trg_ngrams = get_ngrams(trg_tokens, 5)
     if len(src_ngrams) > 0:
         stats["src_ngrams"] = json.dumps(src_ngrams)
     if len(trg_ngrams) > 0:
@@ -228,7 +225,9 @@ def main():
     bicleaner_scores = read_bicleanerscores(filename)
     if len(bicleaner_scores) > 0:
         stats["bicleaner_scores"] = json.dumps(bicleaner_scores)
-
+    
+    stats["timestamp"]=time.time()
+    
     write_stats(args.statsfile, stats)
     logging.info("Finished stats for " + args.statsfile.name )
     elapsed_time = default_timer() - time_start

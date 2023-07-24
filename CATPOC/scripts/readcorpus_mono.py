@@ -1,3 +1,4 @@
+import time 
 import os
 import sys
 import logging
@@ -132,7 +133,7 @@ def main():
         stats["src_langs"] = json.dumps(src_langs_list)
 
     # ngrams
-    src_ngrams = get_ngrams(src_tokens, 2)
+    src_ngrams = get_ngrams(src_tokens, 5)
     if len(src_ngrams) > 0 :
         stats["src_ngrams"] = json.dumps(src_ngrams)
 
@@ -147,6 +148,8 @@ def main():
     monocleaner_scores = read_monocleanerscores(filename)
     if len(monocleaner_scores) > 0 :
         stats["monocleaner_scores"] = json.dumps(monocleaner_scores)
+
+    stats["timestamp"]=time.time()
 
     write_stats(args.statsfile, stats)
     logging.info("Finished stats for "+ args.statsfile.name)

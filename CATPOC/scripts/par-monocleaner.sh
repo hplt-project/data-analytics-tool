@@ -6,7 +6,7 @@ INPUT_FILE=$(mktemp)
 
 cat > $INPUT_FILE
 
-monocleaner --score_only $langpath ${INPUT_FILE} ${INPUT_FILE}.o &>mono.log
+monocleaner --score_only --disable_hardrules $langpath ${INPUT_FILE} ${INPUT_FILE}.o &>mono.log
 
 cat ${INPUT_FILE}.o
 

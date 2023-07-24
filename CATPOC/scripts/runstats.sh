@@ -133,12 +133,12 @@ if [ "$langformat" == "parallel" ]; then
     	if [ "$bicleaner_metadata" ]; then
 	    	source /work/venvs/venv-bc/bin/activate
 	    	echo "BICLEANER CLASSIFY"
-		time bicleaner-classify -p $JOBS --score_only --scol 1 --tcol 2 $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_metadata
+		time bicleaner-classify -p $JOBS --score_only --scol 1 --tcol 2 --disable_hardrules $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_metadata
 		deactivate
 	elif [ "$bicleaner_ai_metadata" ]; then
 		source /work/venvs/venv-bcai/bin/activate
 		echo "BICLEANER AI CLASSIFY"
-		time BICLEANER_AI_THREADS=$JOBS bicleaner-ai-classify --score_only --scol 1 --tcol 2 $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_ai_metadata
+		time BICLEANER_AI_THREADS=$JOBS bicleaner-ai-classify --score_only --scol 1 --tcol 2 --disable_hardrules $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_ai_metadata
 		deactivate
     	else
     		echo "Language pair not supported by Bicleaner/BicleanerAI"
@@ -169,7 +169,7 @@ else
 		fi	
 		echo "MONOCLEANER"
 		#cat $datapath/monocleaner/$srclang $saved_file_path | parallel -j $JOBS --pipe parallel-monocleaner.sh > $saved_file_path.monocleaner-classify
-		time ./scripts/parallel-monocleaner.sh $JOBS  $datapath/monocleaner/$srclang $saved_file_path  $saved_file_path.monocleaner-classify
+		time ./scripts/parallel-monocleaner.sh $JOBS $datapath/monocleaner/$srclang $saved_file_path  $saved_file_path.monocleaner-classify
 		# time monocleaner $datapath/monocleaner/$srclang $saved_file_path $saved_file_path.monocleaner-classify
 		deactivate
 	fi
