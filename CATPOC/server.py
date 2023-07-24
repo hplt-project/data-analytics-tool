@@ -6,6 +6,7 @@ import json
 import cgi
 import shutil 
 import urllib.request
+from pathlib import Path
 
 class CORSRequestHandler (SimpleHTTPRequestHandler):
     def end_headers (self):
@@ -84,7 +85,9 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         self.send_header('Content-type','text/html')
         self.end_headers()
         # Send the html message
-        self.wfile.write(bytes(json.dumps(os.listdir("yaml_dir"), ensure_ascii=False), 'utf-8'))
+        files = sorted(Path("yaml_dir").iterdir(), key=os.path.getmtime, reverse=True)
+        str_files = [str(file).lstrip("yaml_dir/") for file in files]
+        self.wfile.write(bytes(json.dumps(str_files, ensure_ascii=False), 'utf-8'))
         #str(os.listdir("yaml_dir")))  
         return
     
