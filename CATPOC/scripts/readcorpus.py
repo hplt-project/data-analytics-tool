@@ -24,6 +24,8 @@ def initialization():
     parser.add_argument('statsfile', type=argparse.FileType('w'), help="Output YAML stats file.") #TODO: default tmpfile
     parser.add_argument('srclang', type=str, help="Source language")
     parser.add_argument('trglang', type=str, help="Target language")
+    
+    parser.add_argument('-r', '--is_reversed', action="store_true", help="True if the language pair was reversed for bicleaner")
 
     # Logging group
     groupL = parser.add_argument_group('Logging')
@@ -218,7 +220,10 @@ def main():
     stats["trg_bytes"] = convert_size(trg_bytes)
 
     # bicleaner-hardrules tags
-    bicleaner_tags = read_bicleanertags(filename, args.srclang, args.trglang)
+    if args.is_reversed:
+        bicleaner_tags = read_bicleanertags(filename, args.trglang, args.srclang)
+    else:
+        bicleaner_tags = read_bicleanertags(filename, args.srclang, args.trglang)
     if len(bicleaner_tags) > 0 :
         stats["bicleaner_tags"] = json.dumps(bicleaner_tags)
     # bicleaner-classify scores
