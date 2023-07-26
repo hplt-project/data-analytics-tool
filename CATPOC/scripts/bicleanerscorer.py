@@ -58,15 +58,14 @@ def read_bicleanertags(corpusname,srclang, trglang):
     bicleaneroutput = corpusname+".bicleaner-hardrules"
     if not os.path.exists(bicleaneroutput):
         return {}
-    srcs = []
-    tgts = []
+    
     keeps = []
     tagss = []
+    lines = 0
     for line in open(bicleaneroutput, "r"):
+        lines =  lines+1
         try:
-            src, tgt, keep, tags = line.split("\t")
-            srcs.append(src)
-            tgts.append(tgt)
+            keep, tags = line.split("\t")
             keeps.append(keep)
             tagss.append(tags)
             
@@ -74,8 +73,6 @@ def read_bicleanertags(corpusname,srclang, trglang):
             logging.error("Error in 'read_bicleanertags': Missing parts")
             logging.error(ex)
             logging.error(line)
-            srcs.append("")
-            tgts.append("")
             keeps.append("0")
             tagss.append("wrong_cols")
     
@@ -96,7 +93,7 @@ def read_bicleanertags(corpusname,srclang, trglang):
     tags_percent = {}
     for tag in tag_types:
         count = clean_tags.count(tag)
-        percentage = round(count*100/(len(srcs)),2)
+        percentage = round(count*100/(lines),2)
         tags_percent[tag]=percentage
     return(tags_percent)
 

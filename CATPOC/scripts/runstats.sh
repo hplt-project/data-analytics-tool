@@ -175,15 +175,15 @@ if [ "$langformat" == "parallel" ]; then
     	source /work/venvs/venv-bhr/bin/activate
 	if [ "$bicleaner_metadata" ]; then
 		if [ "$is_reversed" = true ]; then
-			bicleaner-hardrules --annotated_output --run_all -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2  --tcol 1 $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_metadata		
+			bicleaner-hardrules --score_only --annotated_output --run_all -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2  --tcol 1 $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_metadata		
 		else
-			bicleaner-hardrules --annotated_output --run_all -p $JOBS -s $bc_srclang -t $bc_trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_metadata
+			bicleaner-hardrules --score_only --annotated_output --run_all -p $JOBS -s $bc_srclang -t $bc_trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_metadata
 		fi
 	elif [ "$bicleaner_ai_metadata" ]; then
 		if [ "$is_reversed" = true ]; then
-			bicleaner-hardrules --annotated_output --run_all -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2 --tcol 1 $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_ai_metadata
+			bicleaner-hardrules --score_only --annotated_output --run_all -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2 --tcol 1 $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_ai_metadata
 		else
-			bicleaner-hardrules --annotated_output --run_all -p $JOBS -s $bc_srclang -t $bc_trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_ai_metadata
+			bicleaner-hardrules --score_only --annotated_output --run_all -p $JOBS -s $bc_srclang -t $bc_trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_ai_metadata
 		fi
 	else
 		echo "Language pair not supported by Bicleaner Hardrules"
