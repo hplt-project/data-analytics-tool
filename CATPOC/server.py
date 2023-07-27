@@ -24,60 +24,60 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
             fout.write(file)
         return outpath
         
-            
-    def do_upload(self):
+    
+    def get_command(self, form, saved_file_path, yaml_file_path):
 
-        #self.data_string = self.rfile.read(int(self.headers['Content-Length']))
-        #self.send_response(200)
-
-                
-        form=cgi.FieldStorage(fp=self.rfile, headers=self.headers,environ={'REQUEST_METHOD':'POST'})
-        
-        corpus = form.getvalue('corpus')
-        corpusname = form.getvalue('corpusname')        
         srclang = form.getvalue('srclang')
         trglang = form.getvalue('trglang')
         if not trglang:
             trglang=""
-            
         format = form.getvalue('corpus-format')
         langformat = form.getvalue('lang-format')
+                
+        command = []
+        command.append("bash")
+        command.append("./scripts/runstats.sh")
+        command.append(saved_file_path)
+        command.append(yaml_file_path)
+        command.append(srclang)
+        command.append(trglang)
+        command.append(format)
+        command.append(langformat)
+        
+        return(command)
+    
+            
+    def do_upload(self):
+
+        form=cgi.FieldStorage(fp=self.rfile, headers=self.headers,environ={'REQUEST_METHOD':'POST'})        
                    
-        saved_file_path = self.save_file(corpus, corpusname)
+        saved_file_path = self.save_file(form.getvalue('corpus'), form.getvalue('corpusname'))
         yaml_file_path = saved_file_path.replace("/uploaded_corpora/", "/yaml_dir/") + ".yaml"
         
-        options = []
-        options.append("bash")
-        options.append("./scripts/runstats.sh")
-        options.append(saved_file_path)
-        options.append(yaml_file_path)
-        options.append(srclang)
-        options.append(trglang)
-        options.append(format)
-        options.append(langformat)
-        print(" ".join(options))
-        subprocess.Popen(options)
+        command = self.get_command(form, saved_file_path, yaml_file_path)
+        subprocess.Popen(command)
 
-
-        replyhtml = """
-        <html>
-        <body>
-        <div>
-        Processing! This might take some time.
-        </div>
-        <div>
-        <a href="viewer.html">Go to viewer</a>
-        </div>
-        </body>
-        </html>
-        """
-        #self.wfile.write(bytes(replyhtml, 'utf-8'))
         self.send_response(302)
-        #new_path = '%s%s'%('http://newserver.com', self.path)
         self.send_header('Location', self.path.replace("upload", "uploader.html?fromupload=yes"))
         self.send_header("Redirect-From", "upload")
         self.end_headers()
         return 
+        
+
+    def do_getcmd(self):
+
+        form=cgi.FieldStorage(fp=self.rfile, headers=self.headers,environ={'REQUEST_METHOD':'POST'})
+        
+        saved_file_path = "LOCAL/PATH/TO/CORPUS"
+        yaml_file_path = os.path.join(".", "yaml_dir", form.getvalue('corpusname')) + ".yaml"
+        
+        command = self.get_command(form, saved_file_path, yaml_file_path)
+        
+        self.send_response(200)
+        self.send_header('Content-type', 'text/html')
+        self.end_headers()
+        self.wfile.write(bytes(json.dumps(" ".join(command), ensure_ascii=False), 'utf-8'))
+        return
         
 
     def do_list(self):
@@ -96,6 +96,8 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
     def do_POST(self):
         if self.path == '/upload':
             self.do_upload()
+        elif self.path == '/getcmd':
+            self.do_getcmd()
 
 
     def do_GET(self):
