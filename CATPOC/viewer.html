@@ -710,8 +710,8 @@
                         $("#trg-bytes").html("n/a")
                     }
                     
-                    if ("bicleaner_tags" in obj) {
-                        hardrules_tags = obj["bicleaner_tags"]
+                    if ("hardrules_tags" in obj) {
+                        hardrules_tags = obj["hardrules_tags"]
                         draw_horizontal_bars("hardrules-tags", hardrules_tags,"Bicleaner hardrules",  "% of corpus", "Noise type")
                         $("#hardrules-tags-na").css("display" , "none")
                         $("#hardrules-tags").css("visibility", "visible")

@@ -15,7 +15,7 @@ from collections import Counter
 from xxhash import xxh64
 from fastspell import FastSpell
 from ngrams import get_ngrams
-from bicleanerscorer import read_bicleanertags, read_bicleanerscores
+from bicleanerscorer import read_hardrulestags, read_scores
 
 def initialization():
     parser = argparse.ArgumentParser()
@@ -221,13 +221,13 @@ def main():
 
     # bicleaner-hardrules tags
     if args.is_reversed:
-        bicleaner_tags = read_bicleanertags(filename, args.trglang, args.srclang)
+        bicleaner_tags = read_hardrulestags(filename, args.trglang, args.srclang)
     else:
-        bicleaner_tags = read_bicleanertags(filename, args.srclang, args.trglang)
+        bicleaner_tags = read_hardrulestags(filename, args.srclang, args.trglang)
     if len(bicleaner_tags) > 0 :
-        stats["bicleaner_tags"] = json.dumps(bicleaner_tags)
+        stats["hardrules_tags"] = json.dumps(bicleaner_tags)
     # bicleaner-classify scores
-    bicleaner_scores = read_bicleanerscores(filename)
+    bicleaner_scores = read_scores(filename)
     if len(bicleaner_scores) > 0:
         stats["bicleaner_scores"] = json.dumps(bicleaner_scores)
     

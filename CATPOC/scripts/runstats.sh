@@ -175,15 +175,15 @@ if [ "$langformat" == "parallel" ]; then
     	source /work/venvs/venv-bhr/bin/activate
 	if [ "$bicleaner_metadata" ]; then
 		if [ "$is_reversed" = true ]; then
-			bicleaner-hardrules --score_only --annotated_output --run_all -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2  --tcol 1 $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_metadata		
+			bicleaner-hardrules --score_only --annotated_output --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2  --tcol 1 $tsv_file_path $saved_file_path.hardrules --metadata $bicleaner_metadata		
 		else
-			bicleaner-hardrules --score_only --annotated_output --run_all -p $JOBS -s $bc_srclang -t $bc_trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_metadata
+			bicleaner-hardrules --score_only --annotated_output --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang $tsv_file_path $saved_file_path.hardrules --metadata $bicleaner_metadata
 		fi
 	elif [ "$bicleaner_ai_metadata" ]; then
 		if [ "$is_reversed" = true ]; then
-			bicleaner-hardrules --score_only --annotated_output --run_all -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2 --tcol 1 $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_ai_metadata
+			bicleaner-hardrules --score_only --annotated_output --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2 --tcol 1 $tsv_file_path $saved_file_path.hardrules --metadata $bicleaner_ai_metadata
 		else
-			bicleaner-hardrules --score_only --annotated_output --run_all -p $JOBS -s $bc_srclang -t $bc_trglang $tsv_file_path $saved_file_path.bicleaner-hardrules --metadata $bicleaner_ai_metadata
+			bicleaner-hardrules --score_only --annotated_output --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang $tsv_file_path $saved_file_path.hardrules --metadata $bicleaner_ai_metadata
 		fi
 	else
 		echo "Language pair not supported by Bicleaner Hardrules"
@@ -194,17 +194,17 @@ if [ "$langformat" == "parallel" ]; then
     	if [ "$bicleaner_metadata" ]; then
 	    	source /work/venvs/venv-bc/bin/activate
 	    	if [ "$is_reversed" = true ]; then
-		    	bicleaner-classify -p $JOBS --score_only --scol 2 --tcol 1 --disable_hardrules $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_metadata
+		    	bicleaner-classify -p $JOBS --score_only --scol 2 --tcol 1 --disable_hardrules $tsv_file_path $saved_file_path.classify $bicleaner_metadata
 	    	else
-			bicleaner-classify -p $JOBS --score_only --scol 1 --tcol 2 --disable_hardrules $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_metadata
+			bicleaner-classify -p $JOBS --score_only --scol 1 --tcol 2 --disable_hardrules $tsv_file_path $saved_file_path.classify $bicleaner_metadata
 		fi
 		deactivate
 	elif [ "$bicleaner_ai_metadata" ]; then
 		source /work/venvs/venv-bcai/bin/activate
 		if [ "$is_reversed" = true ]; then
-			BICLEANER_AI_THREADS=$JOBS bicleaner-ai-classify --score_only --scol 2 --tcol 1 --disable_hardrules $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_ai_metadata
+			BICLEANER_AI_THREADS=$JOBS bicleaner-ai-classify --score_only --scol 2 --tcol 1 --disable_hardrules $tsv_file_path $saved_file_path.classify $bicleaner_ai_metadata
 		else	
-			BICLEANER_AI_THREADS=$JOBS bicleaner-ai-classify --score_only --scol 1 --tcol 2 --disable_hardrules $tsv_file_path $saved_file_path.bicleaner-classify $bicleaner_ai_metadata
+			BICLEANER_AI_THREADS=$JOBS bicleaner-ai-classify --score_only --scol 1 --tcol 2 --disable_hardrules $tsv_file_path $saved_file_path.classify $bicleaner_ai_metadata
 		fi
 		deactivate
     	else
@@ -238,9 +238,10 @@ else
 		        echo "Downloading monocleaner model..."		       
 		        monocleaner-download -q $srclang $datapath/monocleaner/
 		fi	
-		#cat $datapath/monocleaner/$srclang $saved_file_path | parallel -j $JOBS --pipe parallel-monocleaner.sh > $saved_file_path.monocleaner-classify
-		./scripts/parallel-monocleaner.sh $JOBS $datapath/monocleaner/$srclang $saved_file_path  $saved_file_path.monocleaner-classify
-		# time monocleaner $datapath/monocleaner/$srclang $saved_file_path $saved_file_path.monocleaner-classify
+
+		./scripts/parallel-monohardrules.sh $JOBS $srclang $saved_file_path $saved_file_path.hardrules 		
+		./scripts/parallel-monocleaner.sh $JOBS $datapath/monocleaner/$srclang $saved_file_path  $saved_file_path.classify
+
 		deactivate
 	fi
 	#time python3 -m cProfile ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang

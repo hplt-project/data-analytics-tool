@@ -16,7 +16,7 @@ from collections import Counter
 from fastspell import FastSpell
 from ngrams import get_ngrams
 from xxhash import xxh64
-from monocleanerscorer import read_monocleanerscores
+from bicleanerscorer import read_hardrulestags, read_scores
 
 def initialization():
     parser = argparse.ArgumentParser()
@@ -144,8 +144,13 @@ def main():
     # bytes size
     stats["src_bytes"] = convert_size(src_bytes)
 
+    #hardrules annotations
+    monocleaner_tags = read_hardrulestags(filename, args.srclang)
+    if len(monocleaner_tags) > 0 :
+        stats["hardrules_tags"] = json.dumps(monocleaner_tags)
+
     # monocleaner scores    
-    monocleaner_scores = read_monocleanerscores(filename)
+    monocleaner_scores = read_scores(filename)
     if len(monocleaner_scores) > 0 :
         stats["monocleaner_scores"] = json.dumps(monocleaner_scores)
 

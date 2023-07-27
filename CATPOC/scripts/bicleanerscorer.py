@@ -28,20 +28,26 @@ tag_types = [
     #"lm_filter"                    # The sentence pair has low fluency score from the language model
 ]
 
-def remove_porntag(srclang, trglang):
+def remove_porntag(srclang, trglang=None):
     # Check if there is porn file, otherwise remove it:
     datapath = os.environ["datapath"]
     #very nasty fix...
     #Check if exists in bicleaner classic...
-    yaml_file_path = datapath + "/bicleaner/"+srclang+"-"+trglang+"/"+srclang+"-"+trglang+".yaml"
-    if not os.path.exists(yaml_file_path):
-        yaml_file_path = datapath + "/bicleaner-ai/"+srclang+"-"+trglang+"/metadata.yaml"
-    if not os.path.exists(yaml_file_path):
-        yaml_file_path = datapath + "/bicleaner-ai/"+srclang+"-"+"xx"+"/metadata.yaml"
-    if not os.path.exists(yaml_file_path):
-        #No bicleaner
-        tag_types.remove("no_porn")
-        return tag_types
+    if trglang: #parallel
+        yaml_file_path = datapath + "/bicleaner/"+srclang+"-"+trglang+"/"+srclang+"-"+trglang+".yaml"
+        if not os.path.exists(yaml_file_path):
+            yaml_file_path = datapath + "/bicleaner-ai/"+srclang+"-"+trglang+"/metadata.yaml"
+        if not os.path.exists(yaml_file_path):
+            yaml_file_path = datapath + "/bicleaner-ai/"+srclang+"-"+"xx"+"/metadata.yaml"
+        if not os.path.exists(yaml_file_path):
+            #No bicleaner
+            tag_types.remove("no_porn")
+            return tag_types
+    else: #mono
+        yaml_file_path = datapath + "/monocleaner/" + srclang + "/metadata.yaml"
+        if not os.path.exists(yaml_file_path):
+            tag_types.remove("no_porn")
+            return tag_types
 
         
     # Open the YAML file
@@ -54,15 +60,15 @@ def remove_porntag(srclang, trglang):
             tag_types.remove("no_porn")
     return tag_types
 
-def read_bicleanertags(corpusname,srclang, trglang):
-    bicleaneroutput = corpusname+".bicleaner-hardrules"
-    if not os.path.exists(bicleaneroutput):
+def read_hardrulestags(corpusname,srclang, trglang=None):
+    hardrules_output = corpusname+".hardrules"
+    if not os.path.exists(hardrules_output):
         return {}
     
     keeps = []
     tagss = []
     lines = 0
-    for line in open(bicleaneroutput, "r"):
+    for line in open(hardrules_output, "r"):
         lines =  lines+1
         try:
             keep, tags = line.split("\t")
@@ -70,7 +76,7 @@ def read_bicleanertags(corpusname,srclang, trglang):
             tagss.append(tags)
             
         except ValueError as ex:
-            logging.error("Error in 'read_bicleanertags': Missing parts")
+            logging.error("Error in 'read_hardrulestags': Missing parts")
             logging.error(ex)
             logging.error(line)
             keeps.append("0")
@@ -97,14 +103,14 @@ def read_bicleanertags(corpusname,srclang, trglang):
         tags_percent[tag]=percentage
     return(tags_percent)
 
-def read_bicleanerscores(corpusname):
-    bicleanerscores = corpusname+".bicleaner-classify"
-    if not os.path.exists(bicleanerscores):
+def read_scores(corpusname):
+    scoresfile = corpusname+".classify"
+    if not os.path.exists(scoresfile):
         return {}
 
     buckets = [[] for _ in range(10)]        
 
-    for line in open(bicleanerscores, "r"):
+    for line in open(scoresfile, "r"):
         score = line.strip()
         try:
             bucket_index = int(float(score) * 10)
@@ -119,7 +125,3 @@ def read_bicleanerscores(corpusname):
     bucket_counts = [[i / 10, len(bucket)] for i, bucket in enumerate(buckets)]
 
     return(bucket_counts)
-
-
-#tags = read_bicleanertags("uploaded_corpora/xx","en","ca")
-#scores = read_bicleanerscores("uploaded_corpora/edu")
