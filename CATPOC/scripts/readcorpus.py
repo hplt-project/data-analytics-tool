@@ -21,7 +21,7 @@ def initialization():
     parser = argparse.ArgumentParser()
     
     parser.add_argument('corpus', type=argparse.FileType('rt'), help="Corpus name. Prefix to the source and target bitexts.")
-    parser.add_argument('statsfile', type=argparse.FileType('w'), help="Output YAML stats file.") #TODO: default tmpfile
+    parser.add_argument('statsfile', type=str, help="Output YAML stats file.") #TODO: default tmpfile #type=argparse.FileType('w'),
     parser.add_argument('srclang', type=str, help="Source language")
     parser.add_argument('trglang', type=str, help="Target language")
     
@@ -40,7 +40,8 @@ def initialization():
 
 #Probably more fanciness needed here
 def write_stats(statsfile, statsdict):
-    yaml.dump(statsdict, statsfile)    
+    with open(statsfile, "w") as f:
+        yaml.dump(statsdict, f)    
 
 # To convert sizes
 def convert_size(size_bytes):
@@ -248,7 +249,7 @@ def main():
     stats["timestamp"]=time.time()
     
     write_stats(args.statsfile, stats)
-    logging.info("Finished stats for " + args.statsfile.name )
+    logging.info("Finished stats for " + args.statsfile)
     elapsed_time = default_timer() - time_start
     logging.info("Total: {0} rows".format(total_lines))
     logging.info("Elapsed time {0:.2f} s".format(elapsed_time))
