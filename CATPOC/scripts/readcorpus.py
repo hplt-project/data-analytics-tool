@@ -210,10 +210,24 @@ def main():
         stats["trg_ngrams"] = json.dumps(trg_ngrams)
 
     # type token ratio
-    ttr_src = round(len(set(src_tokens))/ len(src_tokens),2)
-    ttr_trg = round(len(set(trg_tokens))/ len(trg_tokens),2)
-    stats["ttr_src"] = ttr_src
-    stats["ttr_trg"] = ttr_trg
+    try:
+        ttr_src = round(len(set(src_tokens))/ len(src_tokens),2)
+    except ZeroDivisionError:
+        ttr_src = None
+    try:
+        ttr_trg = round(len(set(trg_tokens))/ len(trg_tokens),2)
+    except ZeroDivisionError:
+        ttr_trg = None
+    
+    if ttr_src:
+        stats["ttr_src"] = ttr_src
+    if ttr_trg:
+        stats["ttr_trg"] = ttr_trg
+    
+    if len(src_tokens)>0:
+        stats["src_tokens"] = len(src_tokens)
+    if len(trg_tokens)>0:
+        stats["trg_tokens"] = len(trg_tokens)
 
     # bytes size
     stats["src_bytes"] = convert_size(src_bytes)

@@ -124,6 +124,19 @@
                 <div class="col-3">
                     <span class="form-control-plaintext" id="sent-unique" name="sent-unique"></span>
                 </div>
+                <div class="col-1">
+                    <label class="form-label" for="src-tokens">Source tokens</label>
+                </div>
+                <div class="col-3">
+                    <span class="form-control-plaintext" id="src-tokens" name="src-tokens"></span>
+                </div>
+                <div class="col-1">
+                    <label class="form-label" for="trg-tokens">Target tokens</label>
+                </div>
+                <div class="col-3">
+                    <span class="form-control-plaintext" id="trg-tokens" name="trg-tokens"></span>
+                </div>
+
             </div>
         
             <!-- TTR -->
@@ -621,6 +634,22 @@
                     else {
                         $("#sent-unique").html("n/a")
                     }
+                    
+                    if ("src_tokens" in obj) {
+                        src_tokens = obj["src_tokens"]
+                        $("#src-tokens").html(src_tokens.toLocaleString())
+                    }
+                    else {
+                        $("#src-tokens").html("n/a")
+                    }
+                    
+                    if ("trg_tokens" in obj) {
+                        trg_tokens = obj["trg_tokens"]
+                        $("#trg-tokens").html(trg_tokens.toLocaleString())
+                    }
+                    else {
+                        $("#trg-tokens").html("n/a")
+                    }                   
                     
                     if ("src_sent_tokens" in obj){
                         src_token_distribution = obj["src_sent_tokens"]

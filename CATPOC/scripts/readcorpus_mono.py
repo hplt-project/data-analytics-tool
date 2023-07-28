@@ -86,8 +86,9 @@ def main():
         total_lines = total_lines+1
         src_line = src_line.strip()
         
+        tokenized_src = src_tokenizer.tokenize(src_line)
         #Counting tokens in each sentence        
-        src_tokens_count = len(src_tokenizer.tokenize(src_line))
+        src_tokens_count = len(tokenized_src)
         src_sent_tokens[src_tokens_count] += 1
 
         #Get langid for each sentence
@@ -95,7 +96,7 @@ def main():
         src_langs[src_langid] += 1
         
         #Add tokens for each sentence
-        src_tokens.extend(src_line.split()) # Tokenization can be improved
+        src_tokens.extend(tokenized_src)
         
         #src hashes
         src_hash = xxh64(src_line).hexdigest()        
@@ -137,10 +138,14 @@ def main():
     if len(src_ngrams) > 0 :
         stats["src_ngrams"] = json.dumps(src_ngrams)
 
+    #source tokens
+    stats["src_tokens"] = len(src_tokens)
+
     # type token ratio
     ttr_src = round(len(set(src_tokens))/ len(src_tokens),2)
     stats["ttr_src"] = ttr_src
 
+    
     # bytes size
     stats["src_bytes"] = convert_size(src_bytes)
 
