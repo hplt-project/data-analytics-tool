@@ -46,7 +46,7 @@
                             <label class="form-label" for="file">File</label>
                         </div>
                         <div class="col-4">
-                            <input class="form-control" id="corpus" name="corpus" type="file" />                
+                            <input class="form-control" id="corpus" name="corpus" type="file" required />
                         </div>
                     </div>
                     <div class="row my-3">
@@ -54,7 +54,7 @@
                             <label class="form-label" for="corpusname">Name</label>
                         </div>
                         <div class="col-3">
-                            <input class="form-control" id="corpusname" type="text" name="corpusname"></input>
+                            <input class="form-control" id="corpusname" type="text" name="corpusname" required></input>
                         </div>
                     </div>
                         <!--<p>
@@ -95,7 +95,7 @@
                             <label class="form-label" for="srclang">Source language</label>
                         </div>
                         <div class="col-3">
-                            <select name="srclang" id="srclang"  class="form-select"></select>
+                            <select name="srclang" id="srclang"  class="form-select" required></select>
 
                         </div>
                         <div class="col-1">
@@ -243,26 +243,29 @@
             });
             
             $("#getcmd-button").click(function(e) {
-                var formdata = $("#upload-form")
-                $.ajax( {
-                    type:"POST",                
-                    url:"/getcmd",
-                    data:formdata.serialize(),
-                    success:
-                        function(command){                            
-                            cmdModal = document.getElementById('cmd-modal')
-                            if (cmdModal) {
-                                // Update the modal's content.
-                                $('#command-text').html(JSON.parse(command))
-                                $('#cmd-modal').modal("show")
-                            }
-                        },
-                    error:
-                        function(err) {
-                            console.log(err)
-                        }                     
-                })
+                if (document.forms["upload-form"].reportValidity()){
+                    var formdata = $("#upload-form")
+                    $.ajax( {
+                        type:"POST",                
+                        url:"/getcmd",
+                        data:formdata.serialize(),
+                        success:
+                            function(command){                            
+                                cmdModal = document.getElementById('cmd-modal')
+                                if (cmdModal) {
+                                    // Update the modal's content.
+                                    $('#command-text').html(JSON.parse(command))
+                                    $('#cmd-modal').modal("show")
+                                }
+                            },
+                        error:
+                            function(err) {
+                                console.log(err)
+                            }                     
+                    })
+                }
             });
+           
             
             $("#command-copy").click(function(e) {
                   var copyText = document.getElementById("command-text");
