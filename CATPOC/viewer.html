@@ -352,11 +352,18 @@
                 data.addColumn('number', y_axis_label);
                 data_series = JSON.parse(data_series)                                
                 high_values = 0
+                max_v_value = 10
                 data_series.forEach(function(item) {
                     if (item[0] < 100){
+                        if (item[1] > max_v_value){
+                            max_v_value = item[1]
+                        }
                         data.addRow([item[0].toString(), item[1]]) 
                         }
                     else {
+                        if (item[1] > max_v_value){
+                            max_v_value = item[1]
+                        }
                         high_values = high_values + item[1]
                     }
                 });
@@ -370,8 +377,13 @@
                         title: data.getColumnLabel(0)
                         },                    
                     vAxis: {
-                        title: data.getColumnLabel(1)
-                        },
+                        title: data.getColumnLabel(1),
+                        viewWindowMode: "explicit",   
+                        viewWindow: {
+                            max: max_v_value,
+                            min:0  
+                        }
+                    },
                     legend: 'none'
                 };
                 //var materialChart = new google.charts.Bar(document.getElementById(div_id));
