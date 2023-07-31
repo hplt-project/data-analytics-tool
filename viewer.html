@@ -470,7 +470,12 @@
                 var options = {
                     //title: chart_title,
                     hAxis: {
-                        title: x_axis_label
+                        title: x_axis_label,
+                        viewWindowMode:'explicit',
+                        viewWindow:{
+                            max:0.0,
+                            min:100
+                            }                        
                         },
                     vAxis: {
                         title: y_axis_label
