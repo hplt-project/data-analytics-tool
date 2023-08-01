@@ -40,7 +40,7 @@
     </head>
     <body>    
         <div class="container-lg">
-            <nav class="navbar navbar-light bg-light">
+            <nav class="navbar navbar-light bg-light" id="dat-header">
                 <a class="navbar-brand" href="/">
                     <img src="img/logo.png" height="50px"/> Data Analytics Tool
                 </a>
@@ -164,14 +164,14 @@
         </div> 
         <div>
             <!-- SENTENCE LENGHT HISTOGRAM -->
-            <div class="row my-3" id="sentence_length_distribution_h3">        
+            <div class="row my-3" id="sentence-length-header">        
                 <h3>Sentence length distribution</h3>
             </div>
             <div class="row">
-                <div class="col-6 inline">
+                <div class="col-6 inline" id="src-sentence-length-header">
                     <h4>Source</h4>
                 </div>
-                <div class="col-6 inline">
+                <div class="col-6 inline" id="trg-sentence-length-header">
                     <h4>Target</h4>
                </div>
             </div>
@@ -187,14 +187,14 @@
             </div>    
         
             <!-- LANGUAGE IDS CHARTS -->
-            <div class="row my-3">
+            <div class="row my-3" id="language-distribution-header">
                 <h3>Language distribution <i class="bi bi-info-circle" style="font-size: 0.7em;" title="Identified by FastSpell"></i></h3>                
             </div>
             <div class="row">
-                <div class="col-6 inline">
+                <div class="col-6 inline" id="src-language-distribution-header">
                     <h4>Source</h4>                
                 </div>
-                <div class="col-6 inline">
+                <div class="col-6 inline" id="trg-language-distribution-header">
                     <h4>Target</h4>
                 </div>
             </div>
@@ -211,7 +211,7 @@
 
         
             <!-- BICLEANER SCORE HISTOGRAM -->
-            <div class="row my-3">
+            <div class="row my-3" id="bicleaner-score-header">
                 <h3>Bicleaner score distribution <i class="bi bi-info-circle" style="font-size: 0.7em;" title="Scores from 0 (lower quality sentences) to 1 (higher quality sentences)"></i></h3>
             </div>
             <div id="bicleaner_content">        
@@ -224,7 +224,7 @@
             </div>        
 
             <!-- BICLEANER HARDRULES NOISE CHART -->
-            <div class="row my-3">
+            <div class="row my-3" id="noise-distribution-header">
                 <h3>Noise distribution <i class="bi bi-info-circle" style="font-size: 0.7em;" title="Identified by Bicleaner Hardrules"></i></h3>
             </div>
             <div class="row mb-3">
@@ -236,11 +236,11 @@
             
             
             <!-- NGRAMS -->
-            <div class="row my-3">
+            <div class="row my-3" id="common-ngrams-header">
                 <h3>Common n-grams</h3>
             </div>        
             <div class="row mb-3">
-                <div class="col">
+                <div class="col" id="src-common-ngrams-header">
                     <h4>Source</h4>
                 </div> 
             </div>
@@ -252,7 +252,7 @@
             </div>
         
             <div class="row mb-3">            
-                <div class="col">
+                <div class="col" id="trg-common-ngrams-header">
                     <h4>Target</h4>
                 </div>
             </div>
@@ -286,16 +286,14 @@
                 trg_langid_img: "",
                 score_distribution_img: "",
                 noise_distribution_img: "",
-                src_ngrams_img: "",
-                trg_ngrams_img : ""
+                src_ngrams_obj: "",
+                trg_ngrams_obj: ""
             }
             
             
             $(document).ready(function(){
                 $("#the-content").css("display", "None")
-                
-                
-                
+
 
                 var select = $("#corpora-selector")
                 $.ajax({
@@ -335,56 +333,266 @@
             }
             
             $('#download-pdf').click(function(){
-            /*
-                var content=document.getElementById("the-content").innerHTML
-                var opt = { 
-                    margin: 10,
-                    filename: $("#corpus-name").html()+".pdf"
-                };
-                
-                href=html2pdf(content, opt);
-             */
-                //var doc = new jsPDF('p', 'px', [794, 1123]); //A4 in pixels
-                //var y_
+                dopdf_wrapper()                
+            })
+            
+            async function dopdf_wrapper() {
+                $("#download-pdf").addClass("disabled").prop("disabled", true);
+                $("#download-pdf").html(
+                    '<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Building PDF...'
+                );
+                //console.log("in")
+                await dopdf()
+                $("#download-pdf").removeClass("disabled").prop("disabled", false);
+                $("#download-pdf").html(
+                    'Export as PDF'
+                );
+            };
+            
+            async function dopdf() {
                 window.html2canvas = html2canvas;
+
                 var margin_left = 30;
-                var margin_top = 30;
+                var margin_top = 50;
+
                 var current_y = margin_top;
+                var cur_page = 1 
                 
                 var doc = new jsPDF('p', 'pt', 'a4'); //orientation, units, format
+                var pageHeight = doc.internal.pageSize.getHeight();
+                doc.setFont("Helvetica")
+                //Header
+                await doc.html(document.getElementById("dat-header"), {
+                     html2canvas: {
+                        scale: 0.5
+                    },
+                    callback: function (doc) {
+                        current_y = current_y + 50
+                        return doc
+                    },
+                    x: margin_left,
+                    y: pixels_to_points(current_y)
+                });
                 
-                doc.html(document.getElementById("text-content"), {
+                //Corpus, Volumes & TTR
+                await doc.html(document.getElementById("text-content"),  {
                     html2canvas: {
                         scale: 0.5
                     },
-                    callback: function (doc) {                                                
-                        current_y = current_y + 400;
-                        if (chart_images["src_length_histogram_img"] != "") {
-                            console.log("YES")
-                            console.log(current_y)
-                            doc.addImage(chart_images["src_length_histogram_img"], 'png', margin_left, pixels_to_points(current_y), pixels_to_points(600), pixels_to_points(200), "src_histogram");
-                            current_y = current_y + 600;
-                        }
-                        
-                        if (chart_images["trg_length_histogram_img"] != "") {
-                            console.log("YES")
-                            console.log(current_y)
-                            doc.addImage(chart_images["trg_length_histogram_img"], 'png', margin_left, pixels_to_points(current_y), pixels_to_points(600), pixels_to_points(200), "trg_histogram");
-                            current_y = current_y + 600;
-                        }
-                        
-                        doc.save()
+                    callback: function (doc) { 
+                        current_y = current_y + 400
+                        return doc
                     },                    
                    x: margin_left,
-                   y: margin_top
-                  });
+                   y: pixels_to_points(current_y)
+                });
+                  
+                //Length histograms
+                if (chart_images["src_length_histogram_img"] != "" || chart_images["trg_length_histogram_img"] != "" ) {
 
+                    await doc.html(document.getElementById("sentence-length-header"), {
+                        html2canvas: {
+                            scale: 0.5
+                        },
+                        callback: function (doc) {
+                            current_y = current_y + 50
+                            return doc
+                        },
+                        x: margin_left,
+                        y: pixels_to_points(current_y),
+                    });
+                    if (chart_images["src_length_histogram_img"] != "") {
+                        await doc.html(document.getElementById("src-sentence-length-header"), {
+                            html2canvas: {
+                                scale: 0.5
+                            },
+                            callback: function (doc) {
+                                current_y = current_y + 50
+                                doc.addImage(chart_images["src_length_histogram_img"], 'png', margin_left, pixels_to_points(current_y), pixels_to_points(700), pixels_to_points(200), "src_histogram");
+                                current_y = current_y + 200;
+                                return doc
+                            },
+                            x: margin_left,
+                            y: pixels_to_points(current_y)
+                        });
+                    }                
+                    
+                    if (chart_images["trg_length_histogram_img"] != "") {
+                        await doc.html(document.getElementById("trg-sentence-length-header"), {
+                            html2canvas: {
+                                scale: 0.5
+                            },
+                            callback: function (doc) {
+                                current_y = current_y + 30
+                                doc.addImage(chart_images["trg_length_histogram_img"], 'png', margin_left, pixels_to_points(current_y), pixels_to_points(700), pixels_to_points(200), "trg_histogram");
+                                current_y = current_y + 200;
+                                return doc
+                            },
+                            x: margin_left,
+                            y: pixels_to_points(current_y)
+                        });
+                    }                    
+                    current_y = current_y + 50
+                }
 
+                //Langid graphs
+                if (chart_images["src_langid_img"] != "" || chart_images["trg_langid_img"] != "" ) {
+                    if (pixels_to_points(current_y+300) > pageHeight) {
+                        doc.addPage();
+                        cur_page = cur_page +1
+                        doc.setPage(cur_page)
+                        current_y = margin_top // Restart height position
+                    }
+                    doc.setFontSize(18)
+                    doc.text("Language distribution", margin_left, pixels_to_points(current_y))
+                    current_y = current_y + 50
+                                    
+                    if (chart_images["src_langid_img"] != "") {
+                        doc.setFontSize(16)
+                        doc.text("Source", margin_left, pixels_to_points(current_y))
+                        current_y = current_y + 30
+                        doc.addImage(chart_images["src_langid_img"], 'png', margin_left, pixels_to_points(current_y), pixels_to_points(700), pixels_to_points(200), "src_langid");
+                        current_y = current_y + 200;                    
+                    }
+                    if (pixels_to_points(current_y+300) > pageHeight) {
+                        doc.addPage();
+                        cur_page = cur_page +1
+                        doc.setPage(cur_page)
+                        current_y = margin_top // Restart height position
+                    }
+                    if (chart_images["trg_langid_img"] != "") {
+                        doc.setFontSize(16)
+                        doc.text("Target", margin_left, pixels_to_points(current_y))
+                        current_y = current_y + 30
+                        doc.addImage(chart_images["trg_langid_img"], 'png', margin_left, pixels_to_points(current_y), pixels_to_points(700), pixels_to_points(200), "trg_langid");
+                        current_y = current_y + 200;                    
+                    }                
+                    current_y = current_y + 50
+                }
+                
+                //{bi,mono}cleaner scores
+                if (chart_images["score_distribution_img"] != "")  {
+                    if (pixels_to_points(current_y+300) > pageHeight) {
+                        doc.addPage();
+                        cur_page = cur_page +1
+                        doc.setPage(cur_page)
+                        current_y = margin_top // Restart height position
+                    }
+                    doc.setFontSize(18)
+                    doc.text("Bicleaner score distribution", margin_left, pixels_to_points(current_y))
+                    current_y = current_y + 30                    
+                    doc.addImage(chart_images["score_distribution_img"], 'png', margin_left, pixels_to_points(current_y), pixels_to_points(700), pixels_to_points(150), "scores"); 
+                    current_y = current_y + 200;
+                }
+                
+                //Hardrules
+                if (chart_images["noise_distribution_img"] != "")  {
+                    if (pixels_to_points(current_y+300) > pageHeight) {
+                        doc.addPage();
+                        cur_page = cur_page +1
+                        doc.setPage(cur_page)
+                        current_y = margin_top // Restart height position
+                    }
+                    doc.setFontSize(18)
+                    doc.text("Noise distribution", margin_left, pixels_to_points(current_y))
+                    current_y = current_y + 30 
+                    doc.addImage(chart_images["noise_distribution_img"], 'png', margin_left, pixels_to_points(current_y), pixels_to_points(700), pixels_to_points(150), "noise"); 
+                    current_y = current_y + 200;
+                }
+                
+                if (pixels_to_points(current_y+200) > pageHeight) {
+                   doc.addPage();
+                   cur_page = cur_page +1
+                   doc.setPage(cur_page)
+                   current_y = margin_top // Restart height position
+                }
+                //ngrams
+                if (chart_images["src_ngrams_obj"] != "" || chart_images["trg_ngrams_obj"] != "" ) {
 
-            });
+                    doc.setFontSize(18)
+                    doc.text("Common n-grams", margin_left, pixels_to_points(current_y))
+                    current_y = current_y + 50
+
+                    if (chart_images["src_ngrams_obj"] != "") {
+                        doc.setFontSize(16)
+                        doc.text("Source", margin_left, pixels_to_points(current_y))
+                        current_y = current_y + 30
+                        data_series = chart_images["src_ngrams_obj"] 
+                        var last_key = 0;
+
+                        for (const [key, value] of Object.entries(data_series)) {
+                            if (pixels_to_points(current_y+200) > pageHeight) {
+                                doc.addPage();
+                                cur_page = cur_page +1
+                                doc.setPage(cur_page)
+                                current_y = margin_top // Restart height position
+                            }
+                            //key: ngram length
+                            if (key != last_key){
+                                doc.setFontSize(14)
+                                doc.text("Length: " + key + " tokens", margin_left*2, pixels_to_points(current_y))
+                                current_y = current_y + 30
+                                last_key = key
+                            }
+                            //ngram_length = parseInt(key)
+                            value.forEach(function(item) {
+                                ngram_text = item[0].join(" ")
+                                ngram_freq = parseInt(item[1])
+                                doc.setFontSize(12)
+                                doc.text(ngram_text + " (Freq: " + ngram_freq + ")", margin_left*3, pixels_to_points(current_y))
+                                current_y = current_y + 20
+                            });
+                            current_y = current_y + 30
+                        }
+                        current_y = current_y + 50;
+                    }
+                    
+                    if (pixels_to_points(current_y+200) > pageHeight) {
+                        doc.addPage();
+                        cur_page = cur_page +1
+                        doc.setPage(cur_page)
+                        current_y = margin_top // Restart height position
+                    }
+                    
+                    if (chart_images["trg_ngrams_obj"] != "") {
+                        doc.setFontSize(16)
+                        doc.text("Target", margin_left, pixels_to_points(current_y))
+                        current_y = current_y + 30
+                        data_series = chart_images["trg_ngrams_obj"] 
+                        var last_key = 0;
+                        for (const [key, value] of Object.entries(data_series)) {
+                            if (pixels_to_points(current_y+200) > pageHeight) {
+                                doc.addPage();
+                                cur_page = cur_page +1
+                                doc.setPage(cur_page)
+                                current_y = margin_top // Restart height position
+                            }
+                            //key: ngram length
+                            if (key != last_key){
+                                doc.setFontSize(14)
+                                doc.text("Length: " + key + " tokens", margin_left*2, pixels_to_points(current_y))
+                                current_y = current_y + 30
+                                last_key = key
+                            }
+                            //ngram_length = parseInt(key)
+                            value.forEach(function(item) {
+                                ngram_text = item[0].join(" ")
+                                ngram_freq = parseInt(item[1])
+                                doc.setFontSize(12)
+                                doc.text(ngram_text + " (Freq: " + ngram_freq + ")", margin_left*3, pixels_to_points(current_y))
+                                current_y = current_y + 20
+                            });
+                            current_y = current_y + 30
+                        }
+                        current_y = current_y + 50;
+                    }
+
+                }             
+            doc.save($("#corpus-name").text()+".pdf")
+            //window.open(doc.output('bloburl'));
+            }
 
             google.charts.load('current', {'packages':['corechart', 'bar', 'treemap']});
-//            google.charts.setOnLoadCallback(draw_ngrams);            
 
             function getColor(value){
                 //value from 0 to 1
@@ -592,6 +800,7 @@
                         ngram_text, ngram_text]);
                     });
                 }
+                chart_images[img] = data_series
                 options = {
                     vAxis: {
                         title: 'ngram length',
@@ -626,6 +835,7 @@
 
                 
                 data_series = JSON.parse(data_series)
+                chart_images[img] = data_series
                 data.addRow(["ngrams", null, 0])
                 data.addRow(["1", "ngrams", 0])
                 data.addRow(["2", "ngrams", 0])
@@ -670,6 +880,16 @@
             function load_data(corpus){
                 $.get("/file/"+corpus, function(text) {
                     var obj = jsyaml.load(text)
+                    chart_images = {
+                        src_length_histogram_img: "",
+                        trg_length_histogram_img: "",
+                        src_langid_img: "",
+                        trg_langid_img: "",
+                        score_distribution_img: "",
+                        noise_distribution_img: "",
+                        src_ngrams_obj: "",
+                        trg_ngrams_obj : ""
+                    }
                     $("#the-content").css("display", "block")
                     $("#download-yaml").removeClass("disabled")
                     $("#download-pdf").removeClass("disabled")
@@ -842,7 +1062,7 @@
                     if ("src_ngrams" in obj) {
                         src_ngrams = obj["src_ngrams"]
                         //draw_ngrams("src-ngrams", src_ngrams)           
-                        draw_treemap("src-ngrams", src_ngrams, "src_ngrams_img")
+                        draw_treemap("src-ngrams", src_ngrams, "src_ngrams_obj")  
                         $("#src-ngrams-na").css("display" , "none")
                         $("#src-ngrams").css("visibility", "visible")         
                     }
@@ -854,7 +1074,7 @@
                     if ("trg_ngrams" in obj) {
                         trg_ngrams = obj["trg_ngrams"]
                         //draw_ngrams("trg-ngrams", trg_ngrams)
-                        draw_treemap("trg-ngrams", trg_ngrams, "trg_ngrams_img")
+                        draw_treemap("trg-ngrams", trg_ngrams, "trg_ngrams_obj")
                         $("#trg-ngrams-na").css("display" , "none")
                         $("#trg-ngrams").css("visibility", "visible")
                         
