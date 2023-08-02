@@ -218,8 +218,11 @@
                 <div class="row">
                     <div class="col">
                         <div id="bicleaner_scores_chart_na">n/a</div>
-                        <div id="bicleaner_scores_chart"></div>
+                        <div id="bicleaner_scores_chart"></div>                        
                     </div>
+                </div>
+                <div class="row my-3  alert alert-warning" role="alert" id="bicleaner-xx-warning">
+                    <i class="bi bi-exclamation-triangle"></i> Scores obtained with Bicleaner multilingual model (en-xx), might not be accurate.
                 </div>
             </div>        
 
@@ -1017,6 +1020,13 @@
                     }
                     
                     if ("bicleaner_scores" in obj || "monocleaner_scores" in obj) {
+                        $("#bicleaner-xx-warning").css("display", "none")
+                        if ("warnings" in obj) {
+                            if (obj["warnings"].includes("bicleaner_xx")) {
+                                $("#bicleaner-xx-warning").css("display", "block")
+                            }
+                        }
+                        
                         if ("bicleaner_scores" in obj) {
                             scores_distribution = obj["bicleaner_scores"]
                         }
@@ -1030,6 +1040,7 @@
                     else {
                         $("#bicleaner_scores_chart").css("visibility", "collapse")
                         $("#bicleaner_scores_chart_na").css("display", "block")
+                        $("#bicleaner-xx-warning").css("display", "none")
                     }
                     
                     if ("src_bytes" in obj) {
