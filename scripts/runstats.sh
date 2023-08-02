@@ -189,7 +189,9 @@ if [ "$langformat" == "parallel" ]; then
 		echo "Language pair not supported by Bicleaner Hardrules"
     	fi
     	deactivate
-    
+    	
+    	metadata_file=""
+    	
     	#Run Bicleaner/BicleanerAI
     	if [ "$bicleaner_metadata" ]; then
 	    	source /work/venvs/venv-bc/bin/activate
@@ -198,6 +200,7 @@ if [ "$langformat" == "parallel" ]; then
 	    	else
 			bicleaner-classify -p $JOBS --score_only --scol 1 --tcol 2 --disable_hardrules $tsv_file_path $saved_file_path.classify $bicleaner_metadata
 		fi
+		metadata_file="-y "$bicleaner_metadata
 		deactivate
 	elif [ "$bicleaner_ai_metadata" ]; then
 		source /work/venvs/venv-bcai/bin/activate
@@ -206,18 +209,20 @@ if [ "$langformat" == "parallel" ]; then
 		else	
 			BICLEANER_AI_THREADS=$JOBS bicleaner-ai-classify --score_only --scol 1 --tcol 2 --disable_hardrules $tsv_file_path $saved_file_path.classify $bicleaner_ai_metadata
 		fi
+		metadata_file="-y "$bicleaner_ai_metadata
 		deactivate
     	else
     		echo "Language pair not supported by Bicleaner/BicleanerAI"
     	fi
     	
+
     	#Stats from readcorpus
     	#mkdir -p profiling
 	#time  python3 -m cProfile  -s cumtime ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang > profiling/profile.text 2>&1
 	if [ "$is_reversed" = true ]; then
-		python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang --is_reversed
+		python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang $metadata_file --is_reversed
 	else
-		python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang 
+		python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang $metadata_file
 	fi
 
 else

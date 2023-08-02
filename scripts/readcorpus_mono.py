@@ -24,7 +24,7 @@ def initialization():
     parser.add_argument('corpus', type=argparse.FileType('rt'), help="Corpus name. Prefix to the source and target bitexts.")
     parser.add_argument('statsfile', type=str, help="Output YAML stats file.") #TODO: default tmpfile
     parser.add_argument('srclang', type=str, help="Source language")
-
+    
     # Logging group
     groupL = parser.add_argument_group('Logging')
     groupL.add_argument('-q', '--quiet', action='store_true', help='Silent logging mode')
@@ -151,7 +151,7 @@ def main():
     stats["src_bytes"] = convert_size(src_bytes)
 
     #hardrules annotations
-    monocleaner_tags = read_hardrulestags(filename, args.srclang)
+    monocleaner_tags = read_hardrulestags(filename, "",  args.srclang)
     if len(monocleaner_tags) > 0 :
         stats["hardrules_tags"] = json.dumps(monocleaner_tags)
 

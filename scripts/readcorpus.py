@@ -21,10 +21,11 @@ def initialization():
     parser = argparse.ArgumentParser()
     
     parser.add_argument('corpus', type=argparse.FileType('rt'), help="Corpus name. Prefix to the source and target bitexts.")
-    parser.add_argument('statsfile', type=str, help="Output YAML stats file.") #TODO: default tmpfile #type=argparse.FileType('w'),
+    parser.add_argument('statsfile', type=str, help="Output YAML stats file.") #TODO: default tmpfile #type=argparse.FileType('w'),    
     parser.add_argument('srclang', type=str, help="Source language")
     parser.add_argument('trglang', type=str, help="Target language")
-    
+
+    parser.add_argument('-y', '--yamlfile', type=str, default="", help="Path to bicleaner model yaml file")  
     parser.add_argument('-r', '--is_reversed', action="store_true", help="True if the language pair was reversed for bicleaner")
 
     # Logging group
@@ -78,6 +79,8 @@ def main():
     src_hashes = {}
     trg_hashes = {}
     sent_hashes = set()
+    
+    warnings = []
         
     #Pure metadata could be in a different function
     stats = {}
@@ -236,9 +239,9 @@ def main():
 
     # bicleaner-hardrules tags
     if args.is_reversed:
-        bicleaner_tags = read_hardrulestags(filename, args.trglang, args.srclang)
+        bicleaner_tags = read_hardrulestags(filename, args.yamlfile, args.trglang, args.srclang)
     else:
-        bicleaner_tags = read_hardrulestags(filename, args.srclang, args.trglang)
+        bicleaner_tags = read_hardrulestags(filename, args.yamlfile, args.srclang, args.trglang)
     if len(bicleaner_tags) > 0 :
         stats["hardrules_tags"] = json.dumps(bicleaner_tags)
     # bicleaner-classify scores
@@ -246,9 +249,17 @@ def main():
     if len(bicleaner_scores) > 0:
         stats["bicleaner_scores"] = json.dumps(bicleaner_scores)
     
+    if os.path.exists(args.yamlfile):
+        with open(args.yamlfile, 'r') as  yamlfile:
+            yaml_data = yaml.safe_load(yamlfile)
+            if ("source_lang" in yaml_data  and yaml_data["source_lang"] == "xx")  or  ("target_lang" in yaml_data and yaml_data["target_lang"] == "xx"):
+                warnings.append("bicleaner_xx")
+    
+    stats["warnings"] = warnings
     stats["timestamp"]=time.time()
     
     write_stats(args.statsfile, stats)
+    
     logging.info("Finished stats for " + args.statsfile)
     elapsed_time = default_timer() - time_start
     logging.info("Total: {0} rows".format(total_lines))

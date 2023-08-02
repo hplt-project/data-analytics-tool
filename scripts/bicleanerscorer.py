@@ -28,39 +28,23 @@ tag_types = [
     #"lm_filter"                    # The sentence pair has low fluency score from the language model
 ]
 
-def remove_porntag(srclang, trglang=None):
+def remove_porntag(yamlfile):
     # Check if there is porn file, otherwise remove it:
-    datapath = os.environ["datapath"]
-    #very nasty fix...
-    #Check if exists in bicleaner classic...
-    if trglang: #parallel
-        yaml_file_path = datapath + "/bicleaner/"+srclang+"-"+trglang+"/"+srclang+"-"+trglang+".yaml"
-        if not os.path.exists(yaml_file_path):
-            yaml_file_path = datapath + "/bicleaner-ai/"+srclang+"-"+trglang+"/metadata.yaml"
-        if not os.path.exists(yaml_file_path):
-            yaml_file_path = datapath + "/bicleaner-ai/"+srclang+"-"+"xx"+"/metadata.yaml"
-        if not os.path.exists(yaml_file_path):
-            #No bicleaner
-            tag_types.remove("no_porn")
-            return tag_types
-    else: #mono
-        yaml_file_path = datapath + "/monocleaner/" + srclang + "/metadata.yaml"
-        if not os.path.exists(yaml_file_path):
-            tag_types.remove("no_porn")
-            return tag_types
 
+    if not os.path.exists(yamlfile):
+        tag_types.remove("no_porn")
+        return tag_types
+            
+     # Load the YAML content
+    with open(yamlfile, 'r') as yf:
+        yaml_data = yaml.safe_load(yf)
         
-    # Open the YAML file
-    with open(yaml_file_path, "r") as yaml_file:
-        # Load the YAML content
-        yaml_data = yaml.safe_load(yaml_file)
-
         # Check if "porn_removal_file" key exists
         if "porn_removal_file" not in yaml_data:
             tag_types.remove("no_porn")
     return tag_types
 
-def read_hardrulestags(corpusname,srclang, trglang=None):
+def read_hardrulestags(corpusname, yamlfile, srclang, trglang=None):
     hardrules_output = corpusname+".hardrules"
     if not os.path.exists(hardrules_output):
         return {}
@@ -94,7 +78,7 @@ def read_hardrulestags(corpusname,srclang, trglang=None):
             tag = tag.replace("(right)","").replace("(left)","").replace("(left,right)","")
             clean_tags.extend([tag])
     
-    tag_types = remove_porntag(srclang, trglang)
+    tag_types = remove_porntag(yamlfile)
 
     tags_percent = {}
     for tag in tag_types:
