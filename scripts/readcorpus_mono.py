@@ -87,7 +87,7 @@ def main():
         total_lines = total_lines+1
         src_line = src_line.strip()
         
-        tokenized_src = src_tokenizer.tokenize(src_line)
+        tokenized_src = src_tokenizer.tokenize(src_line, escape=False)
         #Counting tokens in each sentence        
         src_tokens_count = len(tokenized_src)
         src_sent_tokens[src_tokens_count] += 1

@@ -120,8 +120,12 @@ def main():
             #continue
             
         #Counting tokens in each sentence
-        src_tokens_count = len(src_tokenizer.tokenize(src_sent))
-        trg_tokens_count = len(trg_tokenizer.tokenize(trg_sent))
+        tokenized_src = src_tokenizer.tokenize(src_sent, escape=False)
+        tokenized_trg = trg_tokenizer.tokenize(trg_sent, escape=False)
+
+        src_tokens_count = len(tokenized_src)
+        trg_tokens_count = len(tokenized_trg)
+        
         src_sent_tokens[src_tokens_count] += 1
         trg_sent_tokens[trg_tokens_count] += 1
 
@@ -151,8 +155,8 @@ def main():
         trg_langs[trg_langid] += 1        
         
         #Add tokens for each sentence
-        src_tokens.extend(src_tokenizer.tokenize(src_sent)) # Tokenization can be improved
-        trg_tokens.extend(trg_tokenizer.tokenize(trg_sent)) # Tokenization can be improved
+        src_tokens.extend(tokenized_src)
+        trg_tokens.extend(tokenized_trg)
          
         # Corpus strings
         src_bytes += len(src_sent.encode('utf-8'))
@@ -206,9 +210,15 @@ def main():
         stats["trg_langs"] = json.dumps(trg_langs_list)
 
     # ngrams
+    '''
+    with open("src_tokens.txt", "w") as f:
+        f.write(str(src_tokens))
+    with open("trg_tokens.txt", "w") as f:
+        f.write(str(trg_tokens))
+    '''    
     src_ngrams = get_ngrams(src_tokens, 5)
     trg_ngrams = get_ngrams(trg_tokens, 5)
-    if len(src_ngrams) > 0:
+    if len(src_ngrams) > 0:        
         stats["src_ngrams"] = json.dumps(src_ngrams)
     if len(trg_ngrams) > 0:
         stats["trg_ngrams"] = json.dumps(trg_ngrams)
