@@ -40,7 +40,7 @@ RUN . /work/venvs/venv-mc/bin/activate && \
     python3.10 -m pip install -U setuptools && \
     python3.10 -m pip install --config-settings="--build-option=--max_order=7" https://github.com/kpu/kenlm/archive/master.zip && \
     python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\
-    python3.10 -m pip install monocleaner==1.6 && deactivate
+    python3.10 -m pip install monocleaner==1.6.1 && deactivate
 
 RUN . /work/venvs/venv-bhr/bin/activate && \
     python3.10 -m pip install -U pip  && \
