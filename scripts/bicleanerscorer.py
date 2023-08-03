@@ -73,10 +73,10 @@ def read_hardrulestags(corpusname, yamlfile, srclang, trglang=None):
             moretags = list(set(tag.split("+"))) # when there is more than one tag in the same sentence, just count the different type of tags
             for tag in moretags:
                 tag = tag.replace("(right)","").replace("(left)","").replace("(left,right)","")
-                clean_tags.extend([tag])
+                clean_tags.extend([tag.strip()])
         else:
             tag = tag.replace("(right)","").replace("(left)","").replace("(left,right)","")
-            clean_tags.extend([tag])
+            clean_tags.extend([tag.strip()])
     
     tag_types = remove_porntag(yamlfile)
 
