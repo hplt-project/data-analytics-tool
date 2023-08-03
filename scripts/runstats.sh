@@ -150,26 +150,28 @@ if [ "$langformat" == "parallel" ]; then
 	if [ "$format" == "bitext" ]; then
         	tsv_file_path=$saved_file_path.tsv
 	        parallel -j $JOBS paste $saved_file_path.$srclang  $saved_file_path.$trglang > $tsv_file_path
-    	else # if format is tmx or tsv
-        	if [ "$format" == "tmx" ]; then
-	            # Get the directory path and filename without extension
-	            dir_path=$(dirname "$saved_file_path")
-	            filename=$(basename "$saved_file_path" .tmx)
-	            # Create the new file path with the "tsv" extension
-	            tsv_file_path="$dir_path/$filename.tsv"
-	            python3 ./tmxt/tmxt.py --codelist=$srclang,$trglang $saved_file_path $tsv_file_path
-	        else
+    	elif [ "$format" == "tmx" ]; then
+    		# Get the directory path and filename without extension
+	        dir_path=$(dirname "$saved_file_path")
+	        filename=$(basename "$saved_file_path" .tmx)
+	        # Create the new file path with the "tsv" extension
+	        tsv_file_path="$dir_path/$filename.tsv"
+	        python3 ./tmxt/tmxt.py --codelist=$srclang,$trglang $saved_file_path $tsv_file_path
+	elif [ "$format" == "tsv" ]; then
         	    tsv_file_path=$saved_file_path #if the input file is in tsv format
-	        fi
-        	# Save into two separate files
-        	rm -f $saved_file_path.$srclang
-        	rm -f $saved_file_path.$trglang
-        	awk -F '\t' -v file1=$saved_file_path.$srclang -v file2=$saved_file_path.$trglang '{print $1 >> file1; print $2 >> file2}' $tsv_file_path
-        	#cat  $tsv_file_path | awk -F '\t' -v file1=$saved_file_path.$srclang  -v file2=$saved_file_path.$trglang '{print $1 >> file1; print $2 >> file2}
-	        #time parallel -j $JOBS -k cut -f1 $tsv_file_path > $saved_file_path.$srclang
-	        #echo "CUT"
-	        #time parallel -j $JOBS -k cut -f2 $tsv_file_path > $saved_file_path.$trglang
-	fi
+	else
+		echo "Unsupported format \"$format\""
+		exit 1
+        fi
+       	# Save into two separate files
+       	rm -f $saved_file_path.$srclang
+       	rm -f $saved_file_path.$trglang
+       	awk -F '\t' -v file1=$saved_file_path.$srclang -v file2=$saved_file_path.$trglang '{print $1 >> file1; print $2 >> file2}' $tsv_file_path
+       	#cat  $tsv_file_path | awk -F '\t' -v file1=$saved_file_path.$srclang  -v file2=$saved_file_path.$trglang '{print $1 >> file1; print $2 >> file2}
+        #time parallel -j $JOBS -k cut -f1 $tsv_file_path > $saved_file_path.$srclang
+        #echo "CUT"
+        #time parallel -j $JOBS -k cut -f2 $tsv_file_path > $saved_file_path.$trglang
+
     
 	#Bicleaner Hardrules
     	source /work/venvs/venv-bhr/bin/activate
@@ -225,7 +227,8 @@ if [ "$langformat" == "parallel" ]; then
 		python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang $metadata_file
 	fi
 
-else
+elif [ "$langformat" == "mono" ]; then
+
 	#Monolingual
 	if [[ " ${monocleaner_langs[*]} " =~ " $srclang " ]]; then
 		#Lang supported by monocleaner
@@ -251,4 +254,7 @@ else
 	fi
 	#time python3 -m cProfile ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
 	python3 ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
+else
+	echo "Unsupported langformat \"$langformat\""
+	exit 1
 fi

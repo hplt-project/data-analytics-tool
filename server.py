@@ -30,7 +30,7 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         srclang = form.getvalue('srclang')
         trglang = form.getvalue('trglang')
         if not trglang:
-            trglang=""
+            trglang="-"
         format = form.getvalue('corpus-format')
         langformat = form.getvalue('lang-format')
                 
@@ -86,7 +86,7 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         self.end_headers()
         # Send the html message
         files = sorted(Path("yaml_dir").iterdir(), key=os.path.getmtime, reverse=True)
-        str_files = [str(file).lstrip("yaml_dir/") for file in files]
+        str_files = [str(file).replace("yaml_dir/", "") for file in files]
         self.wfile.write(bytes(json.dumps(str_files, ensure_ascii=False), 'utf-8'))
         #str(os.listdir("yaml_dir")))  
         return
