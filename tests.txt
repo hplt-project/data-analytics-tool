@@ -19,7 +19,7 @@ bash ./scripts/runstats.sh ./uploaded_corpora/ELRC.monumentos.en-es ./yaml_dir/E
 
 * MONO:
 cd /work/uploaded_corpora/ && wget https://object.pouta.csc.fi/OPUS-ELRC-3077-wikipedia_health/v1/mono/en.txt.gz && zcat en.txt.gz  > ELRC.health.en && rm en.txt.gz  && cd /work
-bash ./scripts/runstats.sh ./uploaded_corpora/ELRC.health.en ./yaml_dir/ELRC.health.en.yaml en  tsv mono
+bash ./scripts/runstats.sh ./uploaded_corpora/ELRC.health.en ./yaml_dir/ELRC.health.en.yaml en - tsv mono
 
 ** LANGUAGE COMBINATION TESTS (RESULTING IN DIFFERENT BICLEANER STRATEGIES) **
 
@@ -73,12 +73,12 @@ bash ./scripts/runstats.sh ./uploaded_corpora/tilde.es-ru ./yaml_dir/tilde.es-ru
 
 * MONOCLEANER (en)
 cd /work/uploaded_corpora/ && wget https://object.pouta.csc.fi/OPUS-ELRC-3077-wikipedia_health/v1/mono/en.txt.gz && zcat en.txt.gz  > ELRC.health.en && rm en.txt.gz  && cd /work
-bash ./scripts/runstats.sh ./uploaded_corpora/ELRC.health.en ./yaml_dir/ELRC.health.en.yaml en  tsv mono
+bash ./scripts/runstats.sh ./uploaded_corpora/ELRC.health.en ./yaml_dir/ELRC.health.en.yaml en - tsv mono
 
 * MONOCLEANER (es)
 cd /work/uploaded_corpora && wget https://object.pouta.csc.fi/OPUS-Ubuntu/v14.10/mono/es.txt.gz && zcat es.txt.gz > ubuntu.es && rm es.txt.gz && cd /work
-bash ./scripts/runstats.sh ./uploaded_corpora/ubuntu.es ./yaml_dir/ubuntu.es.yaml es  tsv mono
+bash ./scripts/runstats.sh ./uploaded_corpora/ubuntu.es ./yaml_dir/ubuntu.es.yaml es - tsv mono
 
 * NO MONOCLEANER (eo) 
 cd /work/uploaded_corpora && wget https://object.pouta.csc.fi/OPUS-Books/v1/mono/eo.txt.gz && zcat eo.txt.gz > books.eo && rm eo.txt.gz && cd /work
-bash ./scripts/runstats.sh ./uploaded_corpora/books.eo ./yaml_dir/books.eo.yaml eo  tsv mono
+bash ./scripts/runstats.sh ./uploaded_corpora/books.eo ./yaml_dir/books.eo.yaml eo - tsv mono
