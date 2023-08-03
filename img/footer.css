@@ -1,0 +1,80 @@
+.footer {
+  display: flex;
+  margin: 12vh 0 30px 0;
+  background-color: var(--background-main);
+}
+.eu-flag {
+  width: 50px;
+  margin: 53px 0 10px 0;
+}
+.horizon-logo {
+  width: 50px;
+  margin: 20px 0 10px 0;
+}
+.twitter-icon-footer {
+  width: 30px;
+  margin-bottom: 5px;
+}
+.footer-text-left,
+.footer-text-middle {
+  max-width: 40%;
+  font-size: 14px;
+  line-height: 1.4;
+}
+.footer-text-left {
+  max-width: 31%;
+  margin-right: 30px;
+}
+.footer-text-middle {
+  margin-right: auto;
+}
+.footer-info {
+  color: var(--footer-info);
+}
+.hplt-copyright {
+  font-weight: 500;
+  margin-left: -3px;
+}
+.footer-text-right {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-top: 60px;
+}
+.contact-email {
+  color: gray;
+  font-size: 14px;
+  text-decoration: none;
+}
+.horizon-link {
+  text-decoration: none;
+  color: inherit;
+}
+.ukri-logo {
+  width: 140px;
+  margin: 0 0 10px 15px;
+}
+
+.visitor-count p {
+  font-weight: var(--subtitle-font-weight);
+}
+@media (max-width: 768px) {
+  .footer {
+    display: block;
+  }
+  .footer-text-right {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 60px;
+  }
+  .footer-text-left,
+  .footer-text-middle,
+  .footer-text-right {
+    max-width: 100%;
+    margin-top: 30px;
+  }
+  .eu-flag {
+    margin-top: 0px;
+  }
+}
