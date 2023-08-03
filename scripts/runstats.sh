@@ -228,7 +228,21 @@ if [ "$langformat" == "parallel" ]; then
 	fi
 
 elif [ "$langformat" == "mono" ]; then
-
+	if [ "$format" == "tmx" ]; then
+                # Get the directory path and filename without extension
+                dir_path=$(dirname "$saved_file_path")
+                filename=$(basename "$saved_file_path" .tmx)
+                # Create the new file path with the "tsv" extension
+                tsv_file_path="$dir_path/$filename.tsv"
+                python3 ./tmxt/tmxt.py --codelist=$srclang $saved_file_path $tsv_file_path
+        elif [ "$format" == "tsv" ]; then
+                    tsv_file_path=$saved_file_path #if the input file is in tsv format
+        else
+                echo "Unsupported format \"$format\""
+                exit 1
+	fi
+	
+	
 	#Monolingual
 	if [[ " ${monocleaner_langs[*]} " =~ " $srclang " ]]; then
 		#Lang supported by monocleaner
@@ -247,13 +261,13 @@ elif [ "$langformat" == "mono" ]; then
 		        monocleaner-download -q $srclang $datapath/monocleaner/
 		fi	
 
-		./scripts/parallel-monohardrules.sh $JOBS $srclang $saved_file_path $saved_file_path.hardrules 		
-		./scripts/parallel-monocleaner.sh $JOBS $datapath/monocleaner/$srclang $saved_file_path  $saved_file_path.classify
+		./scripts/parallel-monohardrules.sh $JOBS $srclang $tsv_file_path $tsv_file_path.hardrules 		
+		./scripts/parallel-monocleaner.sh $JOBS $datapath/monocleaner/$srclang $tsv_file_path  $tsv_file_path.classify
 
 		deactivate
 	fi
 	#time python3 -m cProfile ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
-	python3 ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
+	python3 ./scripts/readcorpus_mono.py $tsv_file_path $yaml_file_path $srclang
 else
 	echo "Unsupported langformat \"$langformat\""
 	exit 1
