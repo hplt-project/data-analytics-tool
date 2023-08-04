@@ -8,7 +8,6 @@ import yaml
 import json
 import math
 
-from sacremoses import MosesTokenizer
 from timeit import default_timer
 from util import logging_setup
 from collections import Counter
@@ -16,6 +15,7 @@ from xxhash import xxh64
 from fastspell import FastSpell
 from ngrams import get_ngrams
 from bicleanerscorer import read_hardrulestags, read_scores
+from tokenizer  import CustomTokenizer
 
 def initialization():
     parser = argparse.ArgumentParser()
@@ -64,8 +64,8 @@ def main():
     src_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the source sentence
     trg_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the target sentence
     
-    src_tokenizer = MosesTokenizer(args.srclang)
-    trg_tokenizer = MosesTokenizer(args.trglang)
+    src_tokenizer = CustomTokenizer(args.srclang)
+    trg_tokenizer = CustomTokenizer(args.trglang)
 
     src_tokens = []
     trg_tokens = []
@@ -120,8 +120,8 @@ def main():
             #continue
             
         #Counting tokens in each sentence
-        tokenized_src = src_tokenizer.tokenize(src_sent, escape=False)
-        tokenized_trg = trg_tokenizer.tokenize(trg_sent, escape=False)
+        tokenized_src = src_tokenizer.tokenize(src_sent)
+        tokenized_trg = trg_tokenizer.tokenize(trg_sent)
 
         src_tokens_count = len(tokenized_src)
         trg_tokens_count = len(tokenized_trg)
