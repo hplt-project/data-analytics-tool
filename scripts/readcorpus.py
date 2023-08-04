@@ -66,7 +66,7 @@ def main():
     
     src_tokenizer = CustomTokenizer(args.srclang)
     trg_tokenizer = CustomTokenizer(args.trglang)
-
+    
     src_tokens = []
     trg_tokens = []
 
@@ -81,6 +81,9 @@ def main():
     sent_hashes = set()
     
     warnings = []
+    
+    warnings.extend(src_tokenizer.getWarnings())
+    warnings.extend(trg_tokenizer.getWarnings())
         
     #Pure metadata could be in a different function
     stats = {}

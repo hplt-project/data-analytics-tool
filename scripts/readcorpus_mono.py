@@ -80,7 +80,11 @@ def main():
     
     fastspell_src = FastSpell(args.srclang, mode="cons")
     src_tokenizer = CustomTokenizer(args.srclang)
-    
+
+    warnings = []
+
+    warnings.extend(src_tokenizer.getWarnings())
+        
     src_file=open(args.corpus.name,"r").read().splitlines()
 
     for src_line in src_file:
@@ -159,6 +163,8 @@ def main():
     monocleaner_scores = read_scores(filename)
     if len(monocleaner_scores) > 0 :
         stats["monocleaner_scores"] = json.dumps(monocleaner_scores)
+
+    stats["warnings"] = warnings
 
     stats["timestamp"]=time.time()
 

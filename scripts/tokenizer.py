@@ -1,26 +1,51 @@
 from sacremoses import MosesTokenizer
+from nltk.tokenize import word_tokenize
 
 MOSES_LANGS = ["ca", "cs", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
+NLTK_WORD_LANGS = ["ar"]
+
+MOSES_NL = ["af"]
 
 class CustomTokenizer:
 
 
     def  __init__(self, lang):
+        self.lang = None
+        self.tokenizer = None
+        self.toktype = None
+        self.warnings = []
+        
         self.lang = lang
-        self.tokenizer, self.toktype, self.warnings = self.setTokenizer(lang)
+        self.setTokenizer(lang)
     
 
     def setTokenizer(self, lang):
         if lang in MOSES_LANGS:
-            return MosesTokenizer(lang), "moses", None
+            self.tokenizer =  MosesTokenizer(lang).tokenize
+            self.toktype = "moses"
+        elif lang in NLTK_WORD_LANGS:
+            self.tokenizer = word_tokenize
+            self.toktype = "nltk_word"
+            self.warnings.append("warning_tok_nltk_word")
+        elif lang in MOSES_NL:
+            self.tokenizer = MosesTokenizer(lang)
+            self.toktype =  "moses"
+            self.warnings.append("warning_tok_moses_nl")
         else:
-            return MosesTokenizer("en"), "moses", "warning_tok_default_moses_en"        
+            self.tokenizer =  MosesTokenizer("en")
+            self.toktype = "moses"
+            self.warnings.append("warning_tok_moses_en")
 
 
     def tokenize(self, sent):
         if self.toktype == "moses":
-            return self.tokenizer.tokenize(sent, escape=False)
+            return self.tokenizer(sent, escape=False)
+        elif self.toktype == "nltk_word":
+            return self.tokenizer(sent)
         else:
-            return "oops"
+            return None #TO DO Do something better here
+         
     
 
+    def getWarnings(self):
+        return self.warnings
