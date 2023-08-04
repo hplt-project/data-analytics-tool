@@ -5,6 +5,7 @@ MOSES_LANGS = ["ca", "cs", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it",
 NLTK_WORD_LANGS = ["ar"]
 
 MOSES_NL = ["af"]
+MOSES_EN = ["eo"]
 
 class CustomTokenizer:
 
@@ -28,9 +29,13 @@ class CustomTokenizer:
             self.toktype = "nltk_word"
             self.warnings.append("warning_tok_nltk_word")
         elif lang in MOSES_NL:
-            self.tokenizer = MosesTokenizer(lang)
+            self.tokenizer = MosesTokenizer("nl").tokenize
             self.toktype =  "moses"
             self.warnings.append("warning_tok_moses_nl")
+        elif lang in MOSES_EN:
+            self.tokenizer = MosesTokenizer("en").tokenize
+            self.toktype = "moses"
+            self.warnings.append("warning_tok_moses_en")
         else:
             self.tokenizer =  MosesTokenizer("en")
             self.toktype = "moses"
