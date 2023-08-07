@@ -8,6 +8,7 @@ import yaml
 import json
 import math
 
+from sacremoses import MosesTokenizer
 from timeit import default_timer
 from util import logging_setup
 from collections import Counter
@@ -15,7 +16,6 @@ from xxhash import xxh64
 from fastspell import FastSpell
 from ngrams import get_ngrams
 from bicleanerscorer import read_hardrulestags, read_scores
-from tokenizer  import CustomTokenizer
 
 def initialization():
     parser = argparse.ArgumentParser()
@@ -64,9 +64,9 @@ def main():
     src_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the source sentence
     trg_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the target sentence
     
-    src_tokenizer = CustomTokenizer(args.srclang)
-    trg_tokenizer = CustomTokenizer(args.trglang)
-    
+    src_tokenizer = MosesTokenizer(args.srclang)
+    trg_tokenizer = MosesTokenizer(args.trglang)
+
     src_tokens = []
     trg_tokens = []
 
@@ -81,9 +81,6 @@ def main():
     sent_hashes = set()
     
     warnings = []
-    
-    warnings.extend(src_tokenizer.getWarnings())
-    warnings.extend(trg_tokenizer.getWarnings())
         
     #Pure metadata could be in a different function
     stats = {}
@@ -123,12 +120,8 @@ def main():
             #continue
             
         #Counting tokens in each sentence
-        tokenized_src = src_tokenizer.tokenize(src_sent)
-        tokenized_trg = trg_tokenizer.tokenize(trg_sent)
-
-        src_tokens_count = len(tokenized_src)
-        trg_tokens_count = len(tokenized_trg)
-        
+        src_tokens_count = len(src_tokenizer.tokenize(src_sent))
+        trg_tokens_count = len(trg_tokenizer.tokenize(trg_sent))
         src_sent_tokens[src_tokens_count] += 1
         trg_sent_tokens[trg_tokens_count] += 1
 
@@ -158,8 +151,8 @@ def main():
         trg_langs[trg_langid] += 1        
         
         #Add tokens for each sentence
-        src_tokens.extend(tokenized_src)
-        trg_tokens.extend(tokenized_trg)
+        src_tokens.extend(src_tokenizer.tokenize(src_sent)) # Tokenization can be improved
+        trg_tokens.extend(trg_tokenizer.tokenize(trg_sent)) # Tokenization can be improved
          
         # Corpus strings
         src_bytes += len(src_sent.encode('utf-8'))
@@ -213,15 +206,9 @@ def main():
         stats["trg_langs"] = json.dumps(trg_langs_list)
 
     # ngrams
-    '''
-    with open("src_tokens.txt", "w") as f:
-        f.write(str(src_tokens))
-    with open("trg_tokens.txt", "w") as f:
-        f.write(str(trg_tokens))
-    '''    
     src_ngrams = get_ngrams(src_tokens, 5)
     trg_ngrams = get_ngrams(trg_tokens, 5)
-    if len(src_ngrams) > 0:        
+    if len(src_ngrams) > 0:
         stats["src_ngrams"] = json.dumps(src_ngrams)
     if len(trg_ngrams) > 0:
         stats["trg_ngrams"] = json.dumps(trg_ngrams)

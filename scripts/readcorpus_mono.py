@@ -9,6 +9,7 @@ import json
 import math
 import cProfile
 
+from sacremoses import MosesTokenizer
 from timeit import default_timer
 from util import logging_setup
 from collections import Counter
@@ -16,7 +17,6 @@ from fastspell import FastSpell
 from ngrams import get_ngrams
 from xxhash import xxh64
 from bicleanerscorer import read_hardrulestags, read_scores
-from tokenizer import CustomTokenizer
 
 def initialization():
     parser = argparse.ArgumentParser()
@@ -79,15 +79,11 @@ def main():
     filename = args.corpus.name
     
     fastspell_src = FastSpell(args.srclang, mode="cons")
-    src_tokenizer = CustomTokenizer(args.srclang)
+    src_tokenizer = MosesTokenizer(args.srclang)
+    
+    src_file=open(args.corpus.name,"r").read().splitlines()
 
-    warnings = []
-
-    warnings.extend(src_tokenizer.getWarnings())
-        
-    #src_file=open(args.corpus.name,"r").read().splitlines()
-
-    for src_line in args.corpus:
+    for src_line in src_file:
         total_lines = total_lines+1
         src_line = src_line.strip()
         
@@ -163,8 +159,6 @@ def main():
     monocleaner_scores = read_scores(filename)
     if len(monocleaner_scores) > 0 :
         stats["monocleaner_scores"] = json.dumps(monocleaner_scores)
-
-    stats["warnings"] = warnings
 
     stats["timestamp"]=time.time()
 
