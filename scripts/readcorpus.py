@@ -66,6 +66,9 @@ def main():
     
     src_tokenizer = CustomTokenizer(args.srclang)
     trg_tokenizer = CustomTokenizer(args.trglang)
+
+    logging.info("Tokenizing " + args.srclang + " with " +src_tokenizer.toktype + " (" + str(src_tokenizer.getWarnings()) +")") 
+    logging.info("Tokenizing " + args.trglang + " with " +trg_tokenizer.toktype + " (" + str(src_tokenizer.getWarnings()) +")") 
     
     src_tokens = []
     trg_tokens = []

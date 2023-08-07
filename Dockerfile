@@ -67,8 +67,11 @@ RUN . /work/venvs/venv-bcai/bin/activate && \
     python3.10 -m pip install bicleaner-ai==2.3 && deactivate
 
 RUN python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\
-    python3.10 -m pip install -r /work/deployment/requirements.txt &&\   
+    python3.10 -m pip install -r /work/deployment/requirements.txt &&\
     echo "import nltk; nltk.download('punkt')" | python3.10
+
+#RUN  python3.10 -m pip install keras tensorflow tensorrt &&\ 
+#    echo "import nlpashto; nlpashto.download('word_segment')|python3.10"
 
 
 

@@ -1,16 +1,24 @@
 import mecab_ko
-
+import reldi_tokeniser
+#from nlpashto import word_segment
 from sacremoses import MosesTokenizer
 from nltk.tokenize import word_tokenize
 
 MOSES_LANGS = ["ca", "cs", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
+
 NLTK_WORD_LANGS = ["ar"]
 NLTK_PUNKT_LANGS = {"no": "norwegian"}
 
-MOSES_NL = ["af"]
-MOSES_EN = ["eo"]
+RELDI_LANGS  = ["sr"]
+
+MOSES_FALLBACK = {"af": "nl",
+                 "eo": "en"}
+
+NLTK_FALLBACK = {"nb": "no"}
 
 MECAB_KO = ["ko"]
+
+#NLPASHTO_LANGS = ["ps"]
 
 class CustomTokenizer:
 
@@ -29,14 +37,12 @@ class CustomTokenizer:
         if lang in MOSES_LANGS:
             self.tokenizer =  MosesTokenizer(lang).tokenize
             self.toktype = "moses"
-        elif lang in MOSES_NL:
-            self.tokenizer = MosesTokenizer("nl").tokenize
+        elif lang in MOSES_FALLBACK.keys():
+            moses_lang = MOSES_FALLBACK.get(lang)
+            self.tokenizer = MosesTokenizer(moses_lang).tokenize
             self.toktype =  "moses"
-            self.warnings.append("warning_tok_moses_nl")
-        elif lang in MOSES_EN:
-            self.tokenizer = MosesTokenizer("en").tokenize
-            self.toktype = "moses"
-            self.warnings.append("warning_tok_moses_en")
+            self.warnings.append("warning_tok_moses_"+moses_lang)
+
         elif lang in NLTK_WORD_LANGS:
             self.tokenizer = word_tokenize
             self.toktype = "nltk_word"
@@ -44,9 +50,22 @@ class CustomTokenizer:
         elif lang in NLTK_PUNKT_LANGS.keys():
             self.tokenizer = word_tokenize
             self.toktype = "nltk_punkt_" + NLTK_PUNKT_LANGS.get(lang)
+        elif lang in NLTK_FALLBACK.keys():
+            nltk_langcode = NLTK_FALLBACK.get(lang)
+            nltk_langname = NLTK_PUNKT_LANGS.get(nltk_langcode)
+            self.tokenizer = word_tokenize
+            self.toktype = "nltk_punkt_" + nltk_langname
+            self.warnings.append("warning_tok_nltk_punkt_"+nltk_langcode)           
+
         elif lang in MECAB_KO:
             self.tokenizer = mecab_ko.Tagger("-Owakati")
             self.toktype = "mecab"            
+#        elif lang in NLPASHTO_LANGS:
+#            self.tokenizer = word_segment(sent)
+#            self.toktype = "nlpashto"
+        elif lang in RELDI_LANGS:
+            self.tokenizer = reldi_tokeniser
+            self.toktype = "reldi"
         else:
             self.tokenizer =  MosesTokenizer("en")
             self.toktype = "moses"
@@ -63,6 +82,17 @@ class CustomTokenizer:
             return self.tokenizer(sent, language=nltk_lang)
         elif self.toktype == "mecab":
             return self.tokenizer.parse(sent).split()
+        elif self.toktype == "reldi":
+            #tokstring looks like "'1.1.1.1-5\tHello\n1.1.2.6-6\t,\n1.1.3.8-11\tgood\n1.1.4.13-19\tmorning\n\n'"
+            tokstring =  self.tokenizer.run(lang=self.lang, text=sent)
+            tokens = []
+            for token in tokstring.split("\t"):
+                if "\n" in  token:
+                    tokens.append(token.split("\n")[0])
+            return tokens        
+
+#        elif self.toktype == "nlpashto":
+#            return self.tokenizer(sent)
         else:
             return None #TO DO Do something better here
          

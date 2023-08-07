@@ -80,6 +80,7 @@ def main():
     
     fastspell_src = FastSpell(args.srclang, mode="cons")
     src_tokenizer = CustomTokenizer(args.srclang)
+    logging.info("Tokenizing " + args.srclang + " with " +src_tokenizer.toktype + " (" + str(src_tokenizer.getWarnings()) +")" )
 
     warnings = []
 
