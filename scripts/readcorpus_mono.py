@@ -85,9 +85,9 @@ def main():
 
     warnings.extend(src_tokenizer.getWarnings())
         
-    src_file=open(args.corpus.name,"r").read().splitlines()
+    #src_file=open(args.corpus.name,"r").read().splitlines()
 
-    for src_line in src_file:
+    for src_line in args.corpus:
         total_lines = total_lines+1
         src_line = src_line.strip()
         
