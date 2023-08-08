@@ -1,8 +1,10 @@
 import mecab_ko
 import reldi_tokeniser
+import pyidaungsu
 #from nlpashto import word_segment
 from sacremoses import MosesTokenizer
 from nltk.tokenize import word_tokenize
+
 
 MOSES_LANGS = ["ca", "cs", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
@@ -12,12 +14,15 @@ NLTK_PUNKT_LANGS = {"no": "norwegian"}
 RELDI_LANGS  = ["sr"]
 
 MOSES_FALLBACK = {"af": "nl",
-                 "eo": "en"}
+                 "eo": "en",
+                 "ga": "en"}
 
-NLTK_FALLBACK = {"nb": "no"}
+NLTK_FALLBACK = {"nb": "no",
+                "nn": "no"}
 
 MECAB_KO = ["ko"]
 
+PDS_LANGS = ["my"]
 #NLPASHTO_LANGS = ["ps"]
 
 class CustomTokenizer:
@@ -60,12 +65,19 @@ class CustomTokenizer:
         elif lang in MECAB_KO:
             self.tokenizer = mecab_ko.Tagger("-Owakati")
             self.toktype = "mecab"            
+
 #        elif lang in NLPASHTO_LANGS:
 #            self.tokenizer = word_segment(sent)
 #            self.toktype = "nlpashto"
+        
         elif lang in RELDI_LANGS:
             self.tokenizer = reldi_tokeniser
             self.toktype = "reldi"
+        
+        elif lang in PDS_LANGS:
+            self.tokenizer = pyidaungsu.tokenize
+            self.toktype = "pds"
+        
         else:
             self.tokenizer =  MosesTokenizer("en")
             self.toktype = "moses"
@@ -90,7 +102,8 @@ class CustomTokenizer:
                 if "\n" in  token:
                     tokens.append(token.split("\n")[0])
             return tokens        
-
+        elif self.toktype == "pds":
+            return self.tokenizer(sent, lang="mm", form="word")
 #        elif self.toktype == "nlpashto":
 #            return self.tokenizer(sent)
         else:
