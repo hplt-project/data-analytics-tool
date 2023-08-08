@@ -4,6 +4,7 @@ import pyidaungsu
 #from nlpashto import word_segment
 from sacremoses import MosesTokenizer
 from nltk.tokenize import word_tokenize
+from sinling import SinhalaTokenizer
 
 
 MOSES_LANGS = ["ca", "cs", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
@@ -24,7 +25,7 @@ MECAB_KO = ["ko"]
 
 PDS_LANGS = ["my"]
 
-
+SINLING_LANGS = ["si"]
 
 #NLPASHTO_LANGS = ["ps"]
 
@@ -80,6 +81,10 @@ class CustomTokenizer:
         elif lang in PDS_LANGS:
             self.tokenizer = pyidaungsu.tokenize
             self.toktype = "pds"
+            
+        elif lang in SINLING_LANGS:
+            self.tokenizer = SinhalaTokenizer()
+            self.toktype = "sinling"
         
         else:
             self.tokenizer =  MosesTokenizer("en")
@@ -88,15 +93,20 @@ class CustomTokenizer:
 
 
     def tokenize(self, sent):
+    
         if self.toktype == "moses":
             return self.tokenizer(sent, escape=False)
-        elif self.toktype == "nltk_word":
+            
+        elif self.toktype == "nltk_word" :
             return self.tokenizer(sent)
+   
         elif self.toktype.startswith("nltk_punkt_"):
             nltk_lang = self.toktype.split("_")[2]
             return self.tokenizer(sent, language=nltk_lang)
+   
         elif self.toktype == "mecab":
             return self.tokenizer.parse(sent).split()
+   
         elif self.toktype == "reldi":
             #tokstring looks like "'1.1.1.1-5\tHello\n1.1.2.6-6\t,\n1.1.3.8-11\tgood\n1.1.4.13-19\tmorning\n\n'"
             tokstring =  self.tokenizer.run(lang=self.lang, text=sent)
@@ -105,10 +115,16 @@ class CustomTokenizer:
                 if "\n" in  token:
                     tokens.append(token.split("\n")[0])
             return tokens        
+   
         elif self.toktype == "pds":
             return self.tokenizer(sent, lang="mm", form="word")
+
 #        elif self.toktype == "nlpashto":
 #            return self.tokenizer(sent)
+    
+        elif self.toktype == "sinling":
+            return self.tokenizer.tokenize(sent)
+            
         else:
             return None #TO DO Do something better here
          
