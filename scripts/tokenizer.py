@@ -10,9 +10,13 @@ from sinling import SinhalaTokenizer
 MOSES_LANGS = ["ca", "cs", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
 NLTK_WORD_LANGS = ["ar"]
-NLTK_PUNKT_LANGS = {"no": "norwegian"}
+NLTK_PUNKT_LANGS = {"no": "norwegian",
+                    "et": "estonian",
+                    "da": "danish",
+                    "tr": "turkish",
+                    "ml": "malayalam"}
 
-RELDI_LANGS  = ["sr", "mk"]
+RELDI_LANGS  = ["sr", "mk", "bg", "hr"]
 
 MOSES_FALLBACK = {"af": "nl",
                  "eo": "en",
