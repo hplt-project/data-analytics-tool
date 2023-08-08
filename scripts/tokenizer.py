@@ -11,7 +11,7 @@ MOSES_LANGS = ["ca", "cs", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it",
 NLTK_WORD_LANGS = ["ar"]
 NLTK_PUNKT_LANGS = {"no": "norwegian"}
 
-RELDI_LANGS  = ["sr"]
+RELDI_LANGS  = ["sr", "mk"]
 
 MOSES_FALLBACK = {"af": "nl",
                  "eo": "en",
@@ -23,6 +23,9 @@ NLTK_FALLBACK = {"nb": "no",
 MECAB_KO = ["ko"]
 
 PDS_LANGS = ["my"]
+
+
+
 #NLPASHTO_LANGS = ["ps"]
 
 class CustomTokenizer:
