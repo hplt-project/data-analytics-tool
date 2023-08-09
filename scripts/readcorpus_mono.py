@@ -79,11 +79,13 @@ def main():
     filename = args.corpus.name
     
     fastspell_src = FastSpell(args.srclang, mode="cons")
+    
+    
     src_tokenizer = CustomTokenizer(args.srclang)
+    
     logging.info("Tokenizing " + args.srclang + " with " +src_tokenizer.toktype + " (" + str(src_tokenizer.getWarnings()) +")" )
 
     warnings = []
-
     warnings.extend(src_tokenizer.getWarnings())
         
     #src_file=open(args.corpus.name,"r").read().splitlines()
