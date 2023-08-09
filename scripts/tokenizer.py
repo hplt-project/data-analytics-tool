@@ -11,6 +11,7 @@ from sinling import SinhalaTokenizer
 #from anbani.nlp.preprocessing import sentence_tokenize
 from fitrat import word_tokenize as fitrat_word_tokenize
 from mahaNLP.tokenizer import Tokenize as MahaTokenizer
+from bnlp import NLTKTokenizer
 
 #Apparently mahaNLP overwrites the logging level to quiet-er than desired
 logging.disable(logging.NOTSET)
@@ -44,6 +45,8 @@ SINLING_LANGS = ["si"]
 FITRAT_LANGS = ["uz"]
 
 MAHANLP_LANGS = ["mr"]
+
+BNLP_LANGS = ["bn"]
 
 #ANBANI_LANGS = ["ka"]
 
@@ -114,6 +117,10 @@ class CustomTokenizer:
             self.tokenizer = MahaTokenizer()
             self.toktype = "mahanlp"
             
+        elif lang in BNLP_LANGS:
+            self.tokenizer = NLTKTokenizer()
+            self.toktype = "bnlp"
+            
 #        elif lang in ANBANI_LANGS:
 #            self.tokenizer = sentence_tokenize
 #            self.toktype = "anbani"
@@ -162,6 +169,10 @@ class CustomTokenizer:
         
         elif self.toktype == "mahanlp":
             return self.tokenizer.word_tokenize(sent, punctuation=True)                
+            
+        elif self.toktype == "bnlp":
+            return self.tokenizer.word_tokenize(text=sent)
+            
 #        elif self.toktype == "anbani":
 #            tokens = []
 #            sents = self.tokenizer(sent)            
