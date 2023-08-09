@@ -4,7 +4,7 @@ import pyidaungsu
 
 #from nlpashto import word_segment
 from sacremoses import MosesTokenizer
-from nltk.tokenize import word_tokenize
+from nltk.tokenize import WordPunctTokenizer
 from sinling import SinhalaTokenizer
 #from anbani.nlp.preprocessing import sentence_tokenize
 from fitrat import word_tokenize as fitrat_word_tokenize
@@ -65,9 +65,9 @@ class CustomTokenizer:
             self.warnings.append("warning_tok_moses_"+moses_lang)
 
         elif lang in NLTK_WORD_LANGS:
-            self.tokenizer = word_tokenize
-            self.toktype = "nltk_word"
-            self.warnings.append("warning_tok_nltk_word")
+            self.tokenizer = WordPunctTokenizer()
+            self.toktype = "nltk_wordpunct"
+            self.warnings.append("warning_tok_nltk_wordpunct")
         elif lang in NLTK_PUNKT_LANGS.keys():
             self.tokenizer = word_tokenize
             self.toktype = "nltk_punkt_" + NLTK_PUNKT_LANGS.get(lang)
@@ -117,8 +117,8 @@ class CustomTokenizer:
         if self.toktype == "moses":
             return self.tokenizer(sent, escape=False)
             
-        elif self.toktype == "nltk_word" :
-            return self.tokenizer(sent)
+        elif self.toktype == "nltk_wordpunct" :
+            return self.tokenizer.tokenize(sent)
    
         elif self.toktype.startswith("nltk_punkt_"):
             nltk_lang = self.toktype.split("_")[2]
