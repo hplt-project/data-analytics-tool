@@ -4,7 +4,7 @@ import pyidaungsu
 
 #from nlpashto import word_segment
 from sacremoses import MosesTokenizer
-from nltk.tokenize import WordPunctTokenizer
+from nltk.tokenize import WordPunctTokenizer, word_tokenize
 from sinling import SinhalaTokenizer
 #from anbani.nlp.preprocessing import sentence_tokenize
 from fitrat import word_tokenize as fitrat_word_tokenize
