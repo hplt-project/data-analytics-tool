@@ -1,11 +1,13 @@
 import mecab_ko
 import reldi_tokeniser
 import pyidaungsu
+
 #from nlpashto import word_segment
 from sacremoses import MosesTokenizer
 from nltk.tokenize import word_tokenize
 from sinling import SinhalaTokenizer
-
+#from anbani.nlp.preprocessing import sentence_tokenize
+from fitrat import word_tokenize as fitrat_word_tokenize
 
 MOSES_LANGS = ["ca", "cs", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
@@ -20,7 +22,9 @@ RELDI_LANGS  = ["sr", "mk", "bg", "hr"]
 
 MOSES_FALLBACK = {"af": "nl",
                  "eo": "en",
-                 "ga": "en"}
+                 "ga": "en",
+                 "ka": "en",
+                 "so": "en"}
 
 NLTK_FALLBACK = {"nb": "no",
                 "nn": "no"}
@@ -30,6 +34,10 @@ MECAB_KO = ["ko"]
 PDS_LANGS = ["my"]
 
 SINLING_LANGS = ["si"]
+
+FITRAT_LANGS = ["uz"]
+
+#ANBANI_LANGS = ["ka"]
 
 #NLPASHTO_LANGS = ["ps"]
 
@@ -89,7 +97,15 @@ class CustomTokenizer:
         elif lang in SINLING_LANGS:
             self.tokenizer = SinhalaTokenizer()
             self.toktype = "sinling"
-        
+
+        elif lang in FITRAT_LANGS:
+            self.tokenizer = fitrat_word_tokenize
+            self.toktype = "fitrat"        
+            
+#        elif lang in ANBANI_LANGS:
+#            self.tokenizer = sentence_tokenize
+#            self.toktype = "anbani"
+#            self.warnings.append("warning_tok_anbani_punct")
         else:
             self.tokenizer =  MosesTokenizer("en")
             self.toktype = "moses"
@@ -128,7 +144,18 @@ class CustomTokenizer:
     
         elif self.toktype == "sinling":
             return self.tokenizer.tokenize(sent)
-            
+
+        elif self.toktype == "fitrat":
+            return self.tokenizer(sent)
+                        
+#        elif self.toktype == "anbani":
+#            tokens = []
+#            sents = self.tokenizer(sent)            
+#            for s in sents:
+#                for t in s:
+#                    tokens.append(t)
+#                tokens.append(".")
+#            return tokens
         else:
             return None #TO DO Do something better here
          
