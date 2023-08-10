@@ -4,9 +4,11 @@ from nltk import ngrams
 from nltk.corpus import stopwords
 from collections import Counter
 
-NLTK_STOPWORDS_LANGS =  {"nb": "norwegian",
-                            "nn": "norwegian",
-                            "no": "norwegian"}
+NLTK_STOPWORDS_LANGS =  {"fr": "french",
+                        "nb": "norwegian",
+                        "nn": "norwegian",
+                        "no": "norwegian",
+                        "ro": "romanian"}
 
 
 def get_ngrams(lang, tokenized_sentences, max_order):

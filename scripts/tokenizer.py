@@ -12,13 +12,14 @@ from sinling import SinhalaTokenizer
 from fitrat import word_tokenize as fitrat_word_tokenize
 from mahaNLP.tokenizer import Tokenize as MahaTokenizer
 from bnlp import NLTKTokenizer
+from thai_segmenter import tokenize as thai_tokenize
 
 #Apparently mahaNLP overwrites the logging level to quiet-er than desired
 logging.disable(logging.NOTSET)
 
 MOSES_LANGS = ["ca", "cs", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
-NLTK_WORD_LANGS = ["ar"]
+NLTK_WORD_LANGS = ["ar", "ky"]
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
                     "da": "danish",
@@ -48,6 +49,8 @@ FITRAT_LANGS = ["uz"]
 MAHANLP_LANGS = ["mr"]
 
 BNLP_LANGS = ["bn"]
+
+THAI_LANGS = ["th"]
 
 #ANBANI_LANGS = ["ka"]
 
@@ -121,7 +124,11 @@ class CustomTokenizer:
         elif lang in BNLP_LANGS:
             self.tokenizer = NLTKTokenizer()
             self.toktype = "bnlp"
-            
+
+        elif lang in THAI_LANGS:
+            self.tokenizer = thai_tokenize
+            self.toktype = "thai"
+                        
 #        elif lang in ANBANI_LANGS:
 #            self.tokenizer = sentence_tokenize
 #            self.toktype = "anbani"
@@ -173,6 +180,9 @@ class CustomTokenizer:
             
         elif self.toktype == "bnlp":
             return self.tokenizer.word_tokenize(text=sent)
+        
+        elif self.toktype == "thai": 
+            return [t for t in self.tokenizer(sent) if t != " "] #This tokenizer returns empty spaces too
             
 #        elif self.toktype == "anbani":
 #            tokens = []
