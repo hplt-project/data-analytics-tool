@@ -31,7 +31,8 @@ MOSES_FALLBACK = {"af": "nl",
                  "eo": "en",
                  "ga": "en",
                  "ka": "en",
-                 "so": "en"}
+                 "so": "en",
+                 "tl": "en"}
 
 NLTK_FALLBACK = {"nb": "no",
                 "nn": "no"}

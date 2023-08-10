@@ -222,12 +222,15 @@ def main():
     with open("trg_tokens.txt", "w") as f:
         f.write(str(trg_tokens))
     '''    
-    src_ngrams = get_ngrams(src_tokens, 5)
-    trg_ngrams = get_ngrams(trg_tokens, 5)
+    src_ngrams, src_ngrams_warnings  = get_ngrams(args.srclang, src_tokens, 5)
+    trg_ngrams, trg_ngrams_warnings = get_ngrams(args.trglang, trg_tokens, 5)
     if len(src_ngrams) > 0:        
         stats["src_ngrams"] = json.dumps(src_ngrams)
     if len(trg_ngrams) > 0:
         stats["trg_ngrams"] = json.dumps(trg_ngrams)
+    warnings.extend(src_ngrams_warnings)
+    warnings.extend(trg_ngrams_warnings)
+    
 
     # type token ratio
     try:

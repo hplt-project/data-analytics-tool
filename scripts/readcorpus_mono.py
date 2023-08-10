@@ -142,9 +142,10 @@ def main():
         stats["src_langs"] = json.dumps(src_langs_list)
 
     # ngrams
-    src_ngrams = get_ngrams(src_tokens, 5)
+    src_ngrams, ngrams_warnings = get_ngrams(args.srclang, src_tokens, 5)
     if len(src_ngrams) > 0 :
         stats["src_ngrams"] = json.dumps(src_ngrams)
+    warnings.extend(ngrams_warnings)
 
     #source tokens
     stats["src_tokens"] = len(src_tokens)
