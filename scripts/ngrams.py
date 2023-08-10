@@ -48,7 +48,9 @@ def get_ngrams(lang, tokenized_sentences, max_order):
                 #print("Removed: " + str(candidate))
                 continue
             #There is at least a token that is not a stopword
-            if any(token.lower() not in stop_words for token in candidate): # this can be improved
+            #First and last tokens cannot be stopwords
+            #Not using .lower() becase all tokens were lowerized at the beginning
+            if(candidate[0] not in stop_words) and (candidate[-1] not in stop_words) and any(token not in stop_words for token in candidate):
                 candidates[order].append(candidate)
                 
     final_ngrams = {}
