@@ -13,6 +13,7 @@ from fitrat import word_tokenize as fitrat_word_tokenize
 from mahaNLP.tokenizer import Tokenize as MahaTokenizer
 from bnlp import NLTKTokenizer
 from thai_segmenter import tokenize as thai_tokenize
+from indicnlp.tokenize import indic_tokenize
 
 #Apparently mahaNLP overwrites the logging level to quiet-er than desired
 logging.disable(logging.NOTSET)
@@ -52,6 +53,7 @@ BNLP_LANGS = ["bn"]
 
 THAI_LANGS = ["th"]
 
+INDIC_LANGS = ["kn"]
 #ANBANI_LANGS = ["ka"]
 
 #NLPASHTO_LANGS = ["ps"]
@@ -128,7 +130,11 @@ class CustomTokenizer:
         elif lang in THAI_LANGS:
             self.tokenizer = thai_tokenize
             self.toktype = "thai"
-                        
+
+        elif lang in INDIC_LANGS:
+            self.tokenizer = indic_tokenize
+            self.toktype = "indic_" + lang
+            
 #        elif lang in ANBANI_LANGS:
 #            self.tokenizer = sentence_tokenize
 #            self.toktype = "anbani"
@@ -183,6 +189,10 @@ class CustomTokenizer:
         
         elif self.toktype == "thai": 
             return [t for t in self.tokenizer(sent) if t != " "] #This tokenizer returns empty spaces too
+     
+        elif self.toktype.startswith("indic_"):
+            indic_lang = self.toktype.split("_")[1]
+            return self.tokenizer.trivial_tokenize(sent, lang=indic_lang)
             
 #        elif self.toktype == "anbani":
 #            tokens = []

@@ -1,7 +1,8 @@
 import logging
 
+import stopwords as astuana_stopwords
 from nltk import ngrams
-from nltk.corpus import stopwords
+from nltk.corpus import stopwords as nltk_stopwords
 from collections import Counter
 
 NLTK_STOPWORDS_LANGS =  {"fr": "french",
@@ -10,6 +11,7 @@ NLTK_STOPWORDS_LANGS =  {"fr": "french",
                         "no": "norwegian",
                         "ro": "romanian"}
 
+ASTUANA_STOPWORDS_LANGS =  ["ko"]                        
 
 def get_ngrams(lang, tokenized_sentences, max_order):
     warnings=[]
@@ -23,7 +25,12 @@ def get_ngrams(lang, tokenized_sentences, max_order):
     if lang in NLTK_STOPWORDS_LANGS.keys():        
         logging.info("Stopwords from NLTK")
         langname = NLTK_STOPWORDS_LANGS.get(lang)
-        stop_words = stopwords.words(langname)
+        stop_words = nltk_stopwords.words(langname)
+        
+    elif lang in ASTUANA_STOPWORDS_LANGS:
+        logging.info("Stopwords from Astuana")
+        stop_words = astuana_stopwords.get_stopwords(lang)
+        
     else:    
         logging.info("Stopwords on the fly")
         # Count the frequencies of each token

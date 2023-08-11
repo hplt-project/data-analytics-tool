@@ -9,6 +9,7 @@ RUN mkdir -p /work/
 RUN mkdir -p /work/img/
 RUN mkdir -p /work/css/
 RUN mkdir -p /work/scripts/
+RUN mkdir -p /work/js/
 RUN mkdir -p /work/uploaded_corpora/  
 RUN mkdir -p /work/yaml_dir/
 
@@ -79,6 +80,7 @@ COPY *.html /work/
 COPY favicon.ico /work/
 COPY img/* /work/img/
 COPY css/* /work/css/
+COPY js/* /work/js/
 COPY server.py /work/
 COPY scripts/* /work/scripts/
 
