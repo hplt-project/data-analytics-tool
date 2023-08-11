@@ -1,17 +1,42 @@
+import os
 import logging
 
 import stopwords as astuana_stopwords
 from nltk import ngrams
 from nltk.corpus import stopwords as nltk_stopwords
+from stopwordsiso import stopwords as iso_stopwords
 from collections import Counter
 
-NLTK_STOPWORDS_LANGS =  {"fr": "french",
+NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
+                        "bn": "bengali",
+                        "ca": "catalan",
+                        "fr": "french",
+                        "it": "italian",
                         "nb": "norwegian",
                         "nn": "norwegian",
                         "no": "norwegian",
+                        "pt": "portuguese",
                         "ro": "romanian"}
 
-ASTUANA_STOPWORDS_LANGS =  ["ko"]                        
+ASTUANA_STOPWORDS_LANGS = ["bg", "fa", "gl", "hi", "ko", "mr"]
+
+ISO_STOPWORDS_LANGS =  ["af"]
+
+TXT_STOPWORDS_LANGS =  ["is", "my", "pa", "ta"] 
+
+def fix_stopwords(stopwords, lang):
+    if lang == "af":
+        stopwords.extend(["u", "n", "s", "dis", "ja"])
+    elif lang == "ca":
+        stopwords.extend(["l", "l'", "d", "d'", "s", "s'"])
+    elif lang == "fr":
+        stopwords.extend(["c'", "d'", "j'", "l'", "m'", "n'", "s'", "t'", "qu'"]) #These are missing in nltk when with apostrophe
+    elif lang == "gl":
+        stopwords.extend(["como", "máis", "si", "són", "todo", "outra", "ás", "moito", "xa", "todos", "nada", "cal", "son", "só", "agora", "onde", "quen", "cada", "algo", "porque", "sei", "vai", "algunha", "toda" ])    
+    elif lang == "it":
+        stopwords.extend(["l'", "un'", "qualcun'","nessun'", "qualcos'", "dov'", "po'", "va'", "fa'", "dell'", "all'" ]) #same as french
+
+    return stopwords
 
 def get_ngrams(lang, tokenized_sentences, max_order):
     warnings=[]
@@ -25,11 +50,24 @@ def get_ngrams(lang, tokenized_sentences, max_order):
     if lang in NLTK_STOPWORDS_LANGS.keys():        
         logging.info("Stopwords from NLTK")
         langname = NLTK_STOPWORDS_LANGS.get(lang)
-        stop_words = nltk_stopwords.words(langname)
-        
+        stop_words = nltk_stopwords.words(langname)        
+        stop_words = fix_stopwords(stop_words, lang)
+                
     elif lang in ASTUANA_STOPWORDS_LANGS:
         logging.info("Stopwords from Astuana")
         stop_words = astuana_stopwords.get_stopwords(lang)
+        stop_words = fix_stopwords(stop_words, lang)
+        
+    elif lang in ISO_STOPWORDS_LANGS:
+        logging.info("Stopwords from ISO")
+        stop_words = list(iso_stopwords(lang))
+        stop_words = fix_stopwords(stop_words, lang)
+
+    elif lang in TXT_STOPWORDS_LANGS:        
+        logging.info("Stopwords from list")
+        with open(os.path.dirname(os.path.abspath(__file__))+"/resources/stopwords."+lang, "r") as swf:
+            for sw in swf:
+                stop_words.append(sw.strip()) 
         
     else:    
         logging.info("Stopwords on the fly")
@@ -41,7 +79,8 @@ def get_ngrams(lang, tokenized_sentences, max_order):
         stop_words = [token for token, freq in token_freq.most_common(num_tokens_to_keep)]
         warnings = ["ngrams_" + lang + "_freq"]
 
-    #logging.info("Stopwords: " + str(stop_words))
+    
+    logging.info("Stopwords: " + str(stop_words))
             
     # Get ngrams
     candidates = {}

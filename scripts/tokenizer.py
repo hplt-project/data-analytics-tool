@@ -20,7 +20,7 @@ logging.disable(logging.NOTSET)
 
 MOSES_LANGS = ["ca", "cs", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
-NLTK_WORD_LANGS = ["ar", "ky"]
+NLTK_WORD_LANGS = ["ar", "fa", "ky", "tt"]
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
                     "da": "danish",
@@ -32,8 +32,12 @@ RELDI_LANGS  = ["sr", "mk", "bg", "hr"]
 MOSES_FALLBACK = {"af": "nl",
                  "eo": "en",
                  "ga": "en",
+                 "gl": "es",
                  "ka": "en",
+                 "lt": "en",
                  "so": "en",
+                 "sq": "en",
+                 "sw": "en",
                  "tl": "en"}
 
 NLTK_FALLBACK = {"nb": "no",
@@ -53,7 +57,9 @@ BNLP_LANGS = ["bn"]
 
 THAI_LANGS = ["th"]
 
-INDIC_LANGS = ["kn"]
+INDIC_LANGS = ["gu" ,"hi", "kn", "pa", "te", "ur"]
+
+
 #ANBANI_LANGS = ["ka"]
 
 #NLPASHTO_LANGS = ["ps"]
