@@ -78,7 +78,7 @@ def main():
     stats["srclang"] = args.srclang
     filename = args.corpus.name
     
-    fastspell_src = FastSpell(args.srclang, mode="cons")
+    fastspell_src = FastSpell(args.srclang, mode="aggr")
     
     
     src_tokenizer = CustomTokenizer(args.srclang)

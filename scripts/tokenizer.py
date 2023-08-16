@@ -22,7 +22,7 @@ logging.disable(logging.NOTSET)
 
 MOSES_LANGS = ["ca", "cs", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
-NLTK_WORD_LANGS = ["ar", "az", "fa", "ky", "tt"]
+NLTK_WORD_LANGS = ["ar", "az", "fa", "hy", "kk", "ky", "tt", "uk"]
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
                     "da": "danish",
@@ -30,6 +30,7 @@ NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "ml": "malayalam"}
 
 RELDI_LANGS  = ["sr", "mk", "bg", "hr"]
+RELDI_FALLBACK = {"bs": "sr"}
 
 MOSES_FALLBACK = {"af": "nl",
                  "eo": "en",
@@ -59,7 +60,7 @@ BNLP_LANGS = ["bn"]
 
 THAI_LANGS = ["th"]
 
-INDIC_LANGS = ["gu" ,"hi", "kn", "pa", "te", "ur"]
+INDIC_LANGS = ["gu" ,"hi", "kn", "ne", "pa", "te", "ur"]
 
 PKUSEG_LANGS = ["zh"]
 
@@ -116,7 +117,12 @@ class CustomTokenizer:
         
         elif lang in RELDI_LANGS:
             self.tokenizer = reldi_tokeniser
-            self.toktype = "reldi"
+            self.toktype = "reldi_" + lang        
+        elif lang in RELDI_FALLBACK.keys():
+            self.tokenizer = reldi_tokeniser
+            reldilang = RELDI_FALLBACK.get(lang)
+            self.toktype = "reldi_" + reldilang 
+            self.warnings.append("warning_tok_reldi_"+reldilang)          
         
         elif lang in PDS_LANGS:
             self.tokenizer = pyidaungsu.tokenize
@@ -179,9 +185,10 @@ class CustomTokenizer:
         elif self.toktype == "mecab":
             return self.tokenizer.parse(sent).split()
    
-        elif self.toktype == "reldi":
+        elif self.toktype.startswith("reldi_"):
             #tokstring looks like "'1.1.1.1-5\tHello\n1.1.2.6-6\t,\n1.1.3.8-11\tgood\n1.1.4.13-19\tmorning\n\n'"
-            tokstring =  self.tokenizer.run(lang=self.lang, text=sent)
+            reldi_lang = self.toktype.split("_")[1]
+            tokstring =  self.tokenizer.run(lang=reldi_lang, text=sent)
             tokens = []
             for token in tokstring.split("\t"):
                 if "\n" in  token:

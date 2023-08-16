@@ -94,8 +94,8 @@ def main():
     stats["srclang"] = args.srclang
     stats["trglang"] = args.trglang
     
-    fastspell_src = FastSpell(args.srclang, mode="cons")
-    fastspell_trg = FastSpell(args.trglang, mode="cons")
+    fastspell_src = FastSpell(args.srclang, mode="aggr")
+    fastspell_trg = FastSpell(args.trglang, mode="aggr")
     
     if "tsv" in args.corpus.name:
         filename=args.corpus.name.replace(".tsv","")

@@ -11,22 +11,30 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
                         "az": "azerbaijani",
                         "bn": "bengali",
                         "ca": "catalan",
+                        "da": "danish",
+                        "el": "greek",
+                        "en": "english",
+                        "es": "spanish",
                         "fi": "finnish",
                         "fr": "french",
                         "he": "hebrew",
                         "it": "italian",
                         "iw": "hebrew",
+                        "kk": "kazakh",
                         "nb": "norwegian",
+                        "ne": "nepali",
+                        "nl": "dutch",
                         "nn": "norwegian",
                         "no": "norwegian",
                         "pt": "portuguese",
                         "ro": "romanian",
+                        "sl": "slovene",
                         "sv": "swedish",
                         "zh": "chinese"}
 
-ASTUANA_STOPWORDS_LANGS = ["bg", "fa", "gl", "hi", "ko", "mr", "pl", "th"]
+ASTUANA_STOPWORDS_LANGS = ["bg","fa", "ga", "gl", "hi", "hy", "ko", "lv", "mr", "pl", "th", "uk"]
 
-ISO_STOPWORDS_LANGS =  ["af", "gu", "tl"]
+ISO_STOPWORDS_LANGS =  ["af", "et", "gu", "so", "tl"]
 
 TXT_STOPWORDS_LANGS =  ["is", "ky", "my", "pa", "sq", "sr", "ta", "uz"] 
 
@@ -35,6 +43,10 @@ def fix_stopwords(stopwords, lang):
         stopwords.extend(["u", "n", "s", "dis", "ja"])
     elif lang == "ca":
         stopwords.extend(["l", "l'", "d", "d'", "s", "s'"])
+    elif lang == "es":
+        stopwords.extend(["si", "quiero", "alguna", "cada", "puede", "cuándo", "casi", "creo", "aquí", "tal", "toda", "cuánto"])
+    elif lang == "en":
+        stopwords.extend(["shall", "unto", "thou", "thus", "'s",  "every", "among", "therefore", "let", "us"])
     elif lang == "fr":
         stopwords.extend(["c'", "d'", "j'", "l'", "m'", "n'", "s'", "t'", "qu'"]) #These are missing in nltk when with apostrophe
     elif lang == "gl":
@@ -43,6 +55,8 @@ def fix_stopwords(stopwords, lang):
         stopwords.extend(["l'", "un'", "qualcun'","nessun'", "qualcos'", "dov'", "po'", "va'", "fa'", "dell'", "all'" ]) #same as french
     elif lang == "pl":
         stopwords.extend(["w", "i", "z", "ze", "oraz", "a", "o"])
+    elif lang == "uk":
+        stopwords.extend(["я", "не", "i", "на", "в", "по", "у", "і", "до", "для", "є", "а", "за", "так", "все" ])
     return stopwords
 
 def get_ngrams(lang, tokenized_sentences, max_order):
