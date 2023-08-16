@@ -3,6 +3,8 @@ import logging
 import mecab_ko
 import reldi_tokeniser
 import pyidaungsu
+import pkuseg
+import hebrew_tokenizer
 
 #from nlpashto import word_segment
 from sacremoses import MosesTokenizer
@@ -20,7 +22,7 @@ logging.disable(logging.NOTSET)
 
 MOSES_LANGS = ["ca", "cs", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
-NLTK_WORD_LANGS = ["ar", "fa", "ky", "tt"]
+NLTK_WORD_LANGS = ["ar", "az", "fa", "ky", "tt"]
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
                     "da": "danish",
@@ -59,6 +61,9 @@ THAI_LANGS = ["th"]
 
 INDIC_LANGS = ["gu" ,"hi", "kn", "pa", "te", "ur"]
 
+PKUSEG_LANGS = ["zh"]
+
+HEBREW_LANGS = ["he", "iw"]
 
 #ANBANI_LANGS = ["ka"]
 
@@ -140,6 +145,14 @@ class CustomTokenizer:
         elif lang in INDIC_LANGS:
             self.tokenizer = indic_tokenize
             self.toktype = "indic_" + lang
+           
+        elif lang in PKUSEG_LANGS:           
+            self.tokenizer = pkuseg.pkuseg()
+            self.toktype = "pkuseg"        
+                
+        elif lang in HEBREW_LANGS:
+            self.tokenizer = hebrew_tokenizer
+            self.toktype = "hebrew"
             
 #        elif lang in ANBANI_LANGS:
 #            self.tokenizer = sentence_tokenize
@@ -199,6 +212,17 @@ class CustomTokenizer:
         elif self.toktype.startswith("indic_"):
             indic_lang = self.toktype.split("_")[1]
             return self.tokenizer.trivial_tokenize(sent, lang=indic_lang)
+        
+        elif self.toktype == "pkuseg":
+            return self.tokenizer.cut(sent)
+        
+        elif self.toktype == "hebrew":            
+            objs = self.tokenizer.tokenize(sent) #this is a generator of objects: ('HEBREW', 'למכולת', 9, (41, 47))  (The hebrew word is in index 1, but RTL languages messing it all)
+            tokens = []
+            for obj in objs:
+                tokens.append(obj[1])
+            return tokens
+
             
 #        elif self.toktype == "anbani":
 #            tokens = []

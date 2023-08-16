@@ -8,21 +8,27 @@ from stopwordsiso import stopwords as iso_stopwords
 from collections import Counter
 
 NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
+                        "az": "azerbaijani",
                         "bn": "bengali",
                         "ca": "catalan",
+                        "fi": "finnish",
                         "fr": "french",
+                        "he": "hebrew",
                         "it": "italian",
+                        "iw": "hebrew",
                         "nb": "norwegian",
                         "nn": "norwegian",
                         "no": "norwegian",
                         "pt": "portuguese",
-                        "ro": "romanian"}
+                        "ro": "romanian",
+                        "sv": "swedish",
+                        "zh": "chinese"}
 
-ASTUANA_STOPWORDS_LANGS = ["bg", "fa", "gl", "hi", "ko", "mr"]
+ASTUANA_STOPWORDS_LANGS = ["bg", "fa", "gl", "hi", "ko", "mr", "pl", "th"]
 
-ISO_STOPWORDS_LANGS =  ["af"]
+ISO_STOPWORDS_LANGS =  ["af", "gu", "tl"]
 
-TXT_STOPWORDS_LANGS =  ["is", "my", "pa", "ta"] 
+TXT_STOPWORDS_LANGS =  ["is", "ky", "my", "pa", "sq", "sr", "ta", "uz"] 
 
 def fix_stopwords(stopwords, lang):
     if lang == "af":
@@ -35,7 +41,8 @@ def fix_stopwords(stopwords, lang):
         stopwords.extend(["como", "máis", "si", "són", "todo", "outra", "ás", "moito", "xa", "todos", "nada", "cal", "son", "só", "agora", "onde", "quen", "cada", "algo", "porque", "sei", "vai", "algunha", "toda" ])    
     elif lang == "it":
         stopwords.extend(["l'", "un'", "qualcun'","nessun'", "qualcos'", "dov'", "po'", "va'", "fa'", "dell'", "all'" ]) #same as french
-
+    elif lang == "pl":
+        stopwords.extend(["w", "i", "z", "ze", "oraz", "a", "o"])
     return stopwords
 
 def get_ngrams(lang, tokenized_sentences, max_order):
