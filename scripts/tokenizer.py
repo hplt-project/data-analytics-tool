@@ -6,16 +6,15 @@ import pyidaungsu
 import pkuseg
 import hebrew_tokenizer
 
-#from nlpashto import word_segment
 from sacremoses import MosesTokenizer
 from nltk.tokenize import WordPunctTokenizer, word_tokenize
 from sinling import SinhalaTokenizer
-#from anbani.nlp.preprocessing import sentence_tokenize
 from fitrat import word_tokenize as fitrat_word_tokenize
 from mahaNLP.tokenizer import Tokenize as MahaTokenizer
 from bnlp import NLTKTokenizer
 from thai_segmenter import tokenize as thai_tokenize
 from indicnlp.tokenize import indic_tokenize
+from nlp_id.tokenizer import Tokenizer as IndonesianTokenizer
 
 #Apparently mahaNLP overwrites the logging level to quiet-er than desired
 logging.disable(logging.NOTSET)
@@ -69,9 +68,7 @@ PKUSEG_LANGS = ["zh"]
 
 HEBREW_LANGS = ["he", "iw"]
 
-#ANBANI_LANGS = ["ka"]
-
-#NLPASHTO_LANGS = ["ps"]
+NLPID_LANGS =  ["id"]
 
 class CustomTokenizer:
 
@@ -163,10 +160,10 @@ class CustomTokenizer:
             self.tokenizer = hebrew_tokenizer
             self.toktype = "hebrew"
             
-#        elif lang in ANBANI_LANGS:
-#            self.tokenizer = sentence_tokenize
-#            self.toktype = "anbani"
-#            self.warnings.append("warning_tok_anbani_punct")
+        elif lang in NLPID_LANGS:
+            self.tokenizer = IndonesianTokenizer()
+            self.toktype = "nlpid"
+              
         else:
             self.tokenizer =  MosesTokenizer("en")
             self.toktype = "moses"
@@ -201,9 +198,7 @@ class CustomTokenizer:
         elif self.toktype == "pds":
             return self.tokenizer(sent, lang="mm", form="word")
 
-#        elif self.toktype == "nlpashto":
-#            return self.tokenizer(sent)
-    
+
         elif self.toktype == "sinling":
             return self.tokenizer.tokenize(sent)
 
@@ -232,16 +227,10 @@ class CustomTokenizer:
             for obj in objs:
                 tokens.append(obj[1])
             return tokens
-
             
-#        elif self.toktype == "anbani":
-#            tokens = []
-#            sents = self.tokenizer(sent)            
-#            for s in sents:
-#                for t in s:
-#                    tokens.append(t)
-#                tokens.append(".")
-#            return tokens
+        elif self.toktype == "nlpid":
+           return self.tokenizer.tokenize(sent)    
+        
         else:
             return None #TO DO Do something better here
          
