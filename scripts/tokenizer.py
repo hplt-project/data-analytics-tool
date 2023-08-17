@@ -34,10 +34,13 @@ RELDI_FALLBACK = {"bs": "sr"}
 
 MOSES_FALLBACK = {"af": "nl",
                  "eo": "en",
+                 "eu": "es",
                  "ga": "en",
                  "gl": "es",
                  "ka": "en",
+                 "la": "en",
                  "lt": "en",
+                 "mt": "en",
                  "so": "en",
                  "sq": "en",
                  "sw": "en",

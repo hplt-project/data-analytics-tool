@@ -7,4 +7,5 @@ Resources from various sources:
 * stopwords.sq: https://github.com/andrixh/index-albanian/blob/master/src/Stemmer.php
 * stopwords.sr: https://github.com/Xangis/extra-stopwords/blob/master/serbian + https://github.com/Xangis/extra-stopwords/blob/master/serbian-cyrillic
 * stopwords.ta: https://github.com/AshokR/TamilNLP/blob/master/tamilnlp/Resources/TamilStopWords.txt
+* stopwords.te:  https://github.com/Xangis/extra-stopwords/blob/master/telugu
 * stopwords.uz: https://github.com/ilyosrabbimov/uzbek-stop-words/blob/master/uz.txt

@@ -15,6 +15,7 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
                         "el": "greek",
                         "en": "english",
                         "es": "spanish",
+                        "eu": "basque",
                         "fi": "finnish",
                         "fr": "french",
                         "he": "hebrew",
@@ -32,11 +33,11 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
                         "sv": "swedish",
                         "zh": "chinese"}
 
-ASTUANA_STOPWORDS_LANGS = ["bg","fa", "ga", "gl", "hi", "hy", "ko", "lv", "mr", "pl", "th", "uk"]
+ASTUANA_STOPWORDS_LANGS = ["bg","fa", "ga", "gl", "hi", "hy", "ko", "la", "lv", "mr", "pl", "th", "uk"]
 
 ISO_STOPWORDS_LANGS =  ["af", "et", "gu", "so", "tl"]
 
-TXT_STOPWORDS_LANGS =  ["is", "ky", "my", "pa", "sq", "sr", "ta", "uz"] 
+TXT_STOPWORDS_LANGS =  ["is", "ky", "my", "pa", "sq", "sr", "ta", "te", "uz"] 
 
 def fix_stopwords(stopwords, lang):
     if lang == "af":
