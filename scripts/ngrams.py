@@ -43,6 +43,8 @@ TXT_STOPWORDS_LANGS =  ["be", "is", "ky", "my", "pa", "sq", "sr", "ta", "te", "u
 def fix_stopwords(stopwords, lang):
     if lang == "af":
         stopwords.extend(["u", "n", "s", "dis", "ja"])
+    elif lang == "be":
+        stopwords.extend(["я", "не", "i", "на", "в", "по", "у", "і", "до", "для", "є", "а", "за", "так", "все",  "што", "з", "таму", "мы", "па", "вы"])
     elif lang == "ca":
         stopwords.extend(["l", "l'", "d", "d'", "s", "s'"])
     elif lang == "es":
@@ -91,6 +93,7 @@ def get_ngrams(lang, tokenized_sentences, max_order):
         with open(os.path.dirname(os.path.abspath(__file__))+"/resources/stopwords."+lang, "r") as swf:
             for sw in swf:
                 stop_words.append(sw.strip()) 
+        stop_words = fix_stopwords(stop_words, lang)
         
     else:    
         logging.info("Stopwords on the fly")
