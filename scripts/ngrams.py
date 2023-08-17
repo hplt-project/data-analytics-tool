@@ -38,7 +38,7 @@ ASTUANA_STOPWORDS_LANGS = ["bg","fa", "ga", "gl", "hi", "hy", "ja",  "ko", "la",
 
 ISO_STOPWORDS_LANGS =  ["af", "et", "gu", "so", "sw","tl"]
 
-TXT_STOPWORDS_LANGS =  ["be", "is", "ky", "my", "pa", "sq", "sr", "ta", "te", "uz"] 
+TXT_STOPWORDS_LANGS =  ["be", "is", "ka", "ky", "my", "pa", "sq", "sr", "ta", "te", "tt",  "uz"] 
 
 def fix_stopwords(stopwords, lang):
     if lang == "af":
