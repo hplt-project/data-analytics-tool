@@ -1,6 +1,7 @@
 import logging
 
 import mecab_ko
+import MeCab
 import reldi_tokeniser
 import pyidaungsu
 import pkuseg
@@ -47,6 +48,8 @@ MOSES_FALLBACK = {"af": "nl",
 
 NLTK_FALLBACK = {"nb": "no",
                 "nn": "no"}
+
+MECAB_JA = ["ja"]
 
 MECAB_KO = ["ko"]
 
@@ -106,6 +109,10 @@ class CustomTokenizer:
             self.tokenizer = word_tokenize
             self.toktype = "nltk_punkt_" + nltk_langname
             self.warnings.append("warning_tok_nltk_punkt_"+nltk_langcode)           
+
+        elif lang in MECAB_JA:
+            self.tokenizer = MeCab.Tagger("-Owakati")
+            self.toktype = "mecab"
 
         elif lang in MECAB_KO:
             self.tokenizer = mecab_ko.Tagger("-Owakati")
