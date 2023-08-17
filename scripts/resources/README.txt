@@ -1,5 +1,6 @@
 Resources from various sources:
 
+* stopwords.be:  https://github.com/Xangis/extra-stopwords/blob/master/belorusian
 * stopwords.is: https://github.com/atlijas/icelandic-stop-words/blob/master/all_stop_words.txt
 * stopwords.ky: https://github.com/explosion/spaCy/blob/master/spacy/lang/ky/stop_words.py
 * stopwords.my: https://github.com/fergiemcdowall/stopword/blob/main/src/stopwords_mya.js

@@ -21,7 +21,7 @@ logging.disable(logging.NOTSET)
 
 MOSES_LANGS = ["ca", "cs", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
-NLTK_WORD_LANGS = ["ar", "az", "fa", "hy", "kk", "ky", "tt", "uk"]
+NLTK_WORD_LANGS = ["ar", "az", "be", "fa", "hy", "kk", "ky", "tt", "uk"]
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
                     "da": "danish",
