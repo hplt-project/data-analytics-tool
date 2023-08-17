@@ -8,6 +8,7 @@ import yaml
 import json
 import math
 import cProfile
+import statistics
 
 from timeit import default_timer
 from util import logging_setup
@@ -132,6 +133,9 @@ def main():
             src_hashes_list.append([token, 0])
     if len(src_tokens_list) > 0:
         stats["src_sent_tokens"] = str(src_tokens_list)
+        src_tokens_elements = sorted(src_sent_tokens.elements())
+        stats["src_sent_tokens_mean"] = round(statistics.mean(src_tokens_elements))
+        stats["src_sent_tokens_median"] = round(statistics.median(src_tokens_elements))
     if len(src_hashes_list) > 0:
         stats["src_unique_sents"] = str(src_hashes_list)
 

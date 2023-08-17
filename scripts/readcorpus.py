@@ -7,6 +7,7 @@ import argparse
 import yaml
 import json
 import math
+import statistics
 
 from timeit import default_timer
 from util import logging_setup
@@ -186,8 +187,12 @@ def main():
             src_hashes_list.append([token, 0])
     if len(src_tokens_list) > 0:
         stats["src_sent_tokens"] = str(src_tokens_list)
+        src_tokens_elements = sorted(src_sent_tokens.elements())
+        stats["src_sent_tokens_mean"] = round(statistics.mean(src_tokens_elements))
+        stats["src_sent_tokens_median"] = round(statistics.median(src_tokens_elements))
     if len(src_hashes_list) > 0:
         stats["src_unique_sents"] = str(src_hashes_list)
+        
     
     trg_tokens_list = []
     trg_hashes_list = []
@@ -199,6 +204,9 @@ def main():
             trg_hashes_list.append([token, 0])
     if len(trg_tokens_list) > 0:
         stats["trg_sent_tokens"] = str(trg_tokens_list)
+        trg_tokens_elements = sorted(trg_sent_tokens.elements())
+        stats["trg_sent_tokens_mean"] = round(statistics.mean(trg_tokens_elements))
+        stats["trg_sent_tokens_median"] = round(statistics.median(trg_tokens_elements))
     if len(trg_hashes_list) > 0:
         stats["trg_unique_sents"] = str(trg_hashes_list)
 
