@@ -12,6 +12,7 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
                         "bn": "bengali",
                         "ca": "catalan",
                         "da": "danish",
+                        "de": "german",
                         "el": "greek",
                         "en": "english",
                         "es": "spanish",
@@ -19,6 +20,7 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
                         "fi": "finnish",
                         "fr": "french",
                         "he": "hebrew",
+                        "hu": "hungarian",
                         "id": "indonesian",
                         "it": "italian",
                         "iw": "hebrew",
@@ -30,15 +32,18 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
                         "no": "norwegian",
                         "pt": "portuguese",
                         "ro": "romanian",
+                        "ru": "russian",
                         "sl": "slovene",
                         "sv": "swedish",
-                        "zh": "chinese"}
+                        "tr": "turkish",
+                        "zh": "chinese",
+                        "zh-Hant": "chinese"}
 
-ASTUANA_STOPWORDS_LANGS = ["bg","fa", "ga", "gl", "hi", "hy", "ja",  "ko", "la", "lt",  "lv", "mr", "pl", "th", "uk", "ur"]
+ASTUANA_STOPWORDS_LANGS = ["bg","cs", "fa", "ga", "gl", "hi", "hy", "ja",  "ko", "la", "lt",  "lv", "mr", "pl", "sk", "th", "uk", "ur"]
 
-ISO_STOPWORDS_LANGS =  ["af", "et", "gu", "so", "sw","tl"]
+ISO_STOPWORDS_LANGS =  ["af", "eo", "et", "gu", "hr", "ms", "so", "sw","tl", "vi"]
 
-TXT_STOPWORDS_LANGS =  ["be", "is", "ka", "ky", "my", "pa", "si", "sq", "sr", "ta", "te", "tt",  "uz"] 
+TXT_STOPWORDS_LANGS =  ["be", "cy", "is", "ka", "kn", "ky", "mk", "mn",  "my", "pa", "ps", "si", "sq", "sr", "ta", "te", "tt",  "uz"] 
 
 def fix_stopwords(stopwords, lang):
     if lang == "af":
@@ -47,6 +52,8 @@ def fix_stopwords(stopwords, lang):
         stopwords.extend(["я", "не", "i", "на", "в", "по", "у", "і", "до", "для", "є", "а", "за", "так", "все",  "што", "з", "таму", "мы", "па", "вы"])
     elif lang == "ca":
         stopwords.extend(["l", "l'", "d", "d'", "s", "s'"])
+    elif lang == "de":
+        stopwords.extend(["wurde", "wurden", "mehr", "viele"])
     elif lang == "es":
         stopwords.extend(["si", "quiero", "alguna", "cada", "puede", "cuándo", "casi", "creo", "aquí", "tal", "toda", "cuánto"])
     elif lang == "en":
@@ -59,6 +66,8 @@ def fix_stopwords(stopwords, lang):
         stopwords.extend(["l'", "un'", "qualcun'","nessun'", "qualcos'", "dov'", "po'", "va'", "fa'", "dell'", "all'" ]) #same as french
     elif lang == "pl":
         stopwords.extend(["w", "i", "z", "ze", "oraz", "a", "o"])
+    elif lang == "ru":
+        stopwords.extend(["з", "это", "т", "н"])
     elif lang == "uk":
         stopwords.extend(["я", "не", "i", "на", "в", "по", "у", "і", "до", "для", "є", "а", "за", "так", "все" ])
     return stopwords
