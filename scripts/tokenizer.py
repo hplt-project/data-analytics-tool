@@ -4,7 +4,7 @@ import mecab_ko
 import MeCab
 import reldi_tokeniser
 import pyidaungsu
-import pkuseg
+import spacy_pkuseg as pkuseg
 import hebrew_tokenizer
 
 from sacremoses import MosesTokenizer
@@ -172,10 +172,14 @@ class CustomTokenizer:
             self.toktype = "nlpid"
               
         else:
+            '''
             self.tokenizer =  MosesTokenizer("en")
             self.toktype = "moses"
             self.warnings.append("warning_tok_moses_en")
-
+            '''
+            self.tokenizer = WordPunctTokenizer()
+            self.toktype = "nltk_wordpunct"
+            self.warnings.append("warning_tok_nltk_wordpunct")
 
     def tokenize(self, sent):
     
