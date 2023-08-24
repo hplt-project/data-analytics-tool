@@ -72,8 +72,11 @@ def main():
     logging.info("Tokenizing " + args.trglang + " with " +trg_tokenizer.toktype + " (" + str(src_tokenizer.getWarnings()) +")") 
     
     src_tokens = []
+    src_alpha_tokens = []
+    
     trg_tokens = []
-
+    trg_alpha_tokens = [] 
+    
     src_bytes=0
     trg_bytes=0
 
@@ -163,7 +166,15 @@ def main():
         
         #Add tokens for each sentence
         src_tokens.extend(tokenized_src)
+        for token in tokenized_src:
+            if any(c.isalpha() for c in token):
+                src_alpha_tokens.append(token)
+
         trg_tokens.extend(tokenized_trg)
+        for token in tokenized_trg:
+            if any(c.isalpha() for c in token):
+                trg_alpha_tokens.append(token)
+
          
         # Corpus strings
         src_bytes += len(src_sent.encode('utf-8'))
@@ -240,13 +251,14 @@ def main():
     warnings.extend(trg_ngrams_warnings)
     
 
+
     # type token ratio
     try:
-        ttr_src = round(len(set(src_tokens))/ len(src_tokens),2)
+        ttr_src = round(len(set(src_alpha_tokens))/ len(src_alpha_tokens),2)
     except ZeroDivisionError:
         ttr_src = None
     try:
-        ttr_trg = round(len(set(trg_tokens))/ len(trg_tokens),2)
+        ttr_trg = round(len(set(trg_alpha_tokens))/ len(trg_alpha_tokens),2)
     except ZeroDivisionError:
         ttr_trg = None
     

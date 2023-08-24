@@ -1,12 +1,10 @@
-fastspell==0.9.1
+fastspell==0.10
 nltk==3.8.1
 docopt
 xxhash>=2.0.0
 sacremoses==0.0.53
 mecab-ko==1.0.1
-#nlpashto
 reldi-tokeniser==1.0.3
-#icu-tokenizer
 pyidaungsu==0.1.4
 sinling==0.3.6
 fitrat==0.0.9
@@ -16,7 +14,7 @@ thai-segmenter==0.4.1
 stopwords==1.0.0
 indic-nlp-library==0.92
 stopwordsiso==0.6.1
-pkuseg==0.0.25
+spacy-pkuseg==0.0.32
 hebrew-tokenizer==2.3.0
 nlp-id==0.1.15.0
 mecab-python3==1.0.6

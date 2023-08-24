@@ -66,6 +66,7 @@ def main():
     src_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the source sentence
 
     src_tokens = []
+    src_alpha_tokens = []
     src_hashes =  {}
     sent_hashes = set()
     
@@ -106,6 +107,9 @@ def main():
         
         #Add tokens for each sentence
         src_tokens.extend(tokenized_src)
+        for token in tokenized_src:
+            if any(c.isalpha() for c in token):
+                src_alpha_tokens.append(token)
         
         #src hashes
         src_hash = xxh64(src_line).hexdigest()        
@@ -155,7 +159,9 @@ def main():
     stats["src_tokens"] = len(src_tokens)
 
     # type token ratio
-    ttr_src = round(len(set(src_tokens))/ len(src_tokens),2)
+    #logging.info(str(len(src_alpha_tokens)))
+    #logging.info(str(len(set(src_alpha_tokens))))
+    ttr_src = round(len(set(src_alpha_tokens))/ len(src_alpha_tokens),2)
     stats["ttr_src"] = ttr_src
 
     
