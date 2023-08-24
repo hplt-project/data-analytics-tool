@@ -148,10 +148,12 @@ if [ "$langformat" == "parallel" ]; then
 
 	# Check the format and preprocess the data
 	if [ "$format" == "bitext" ]; then
-        	tsv_file_path=$saved_file_path.tsv
+		echo "Converting to TSV..."		
+        	tsv_file_path=$saved_file_path.tsv        	
 	        parallel -j $JOBS paste $saved_file_path.$srclang  $saved_file_path.$trglang > $tsv_file_path
     	elif [ "$format" == "tmx" ]; then
     		# Get the directory path and filename without extension
+    		echo "Converting to TSV..."
 	        dir_path=$(dirname "$saved_file_path")
 	        filename=$(basename "$saved_file_path" .tmx)
 	        # Create the new file path with the "tsv" extension
@@ -176,12 +178,14 @@ if [ "$langformat" == "parallel" ]; then
 	#Bicleaner Hardrules
     	source /work/venvs/venv-bhr/bin/activate
 	if [ "$bicleaner_metadata" ]; then
+		echo "Running Bicleaner Hardrules..."
 		if [ "$is_reversed" = true ]; then
 			bicleaner-hardrules --score_only --annotated_output --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2  --tcol 1 $tsv_file_path $saved_file_path.hardrules --metadata $bicleaner_metadata		
 		else
 			bicleaner-hardrules --score_only --annotated_output --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang $tsv_file_path $saved_file_path.hardrules --metadata $bicleaner_metadata
 		fi
 	elif [ "$bicleaner_ai_metadata" ]; then
+		echo "Running Bicleaner Hardrules..."
 		if [ "$is_reversed" = true ]; then
 			bicleaner-hardrules --score_only --annotated_output --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2 --tcol 1 $tsv_file_path $saved_file_path.hardrules --metadata $bicleaner_ai_metadata
 		else
@@ -196,6 +200,7 @@ if [ "$langformat" == "parallel" ]; then
     	
     	#Run Bicleaner/BicleanerAI
     	if [ "$bicleaner_metadata" ]; then
+    		echo "Running Bicleaner..."
 	    	source /work/venvs/venv-bc/bin/activate
 	    	if [ "$is_reversed" = true ]; then
 		    	bicleaner-classify -p $JOBS --score_only --scol 2 --tcol 1 --disable_hardrules $tsv_file_path $saved_file_path.classify $bicleaner_metadata
@@ -205,6 +210,7 @@ if [ "$langformat" == "parallel" ]; then
 		metadata_file="-y "$bicleaner_metadata
 		deactivate
 	elif [ "$bicleaner_ai_metadata" ]; then
+		echo "Running Bicleaner AI..."
 		source /work/venvs/venv-bcai/bin/activate
 		if [ "$is_reversed" = true ]; then
 			BICLEANER_AI_THREADS=$JOBS bicleaner-ai-classify --score_only --scol 2 --tcol 1 --disable_hardrules $tsv_file_path $saved_file_path.classify $bicleaner_ai_metadata
@@ -221,6 +227,7 @@ if [ "$langformat" == "parallel" ]; then
     	#Stats from readcorpus
     	#mkdir -p profiling
 	#time  python3 -m cProfile  -s cumtime ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang > profiling/profile.text 2>&1
+	echo "Running ReadCorpus..."
 	if [ "$is_reversed" = true ]; then
 		python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang $metadata_file --is_reversed
 	else
@@ -229,6 +236,7 @@ if [ "$langformat" == "parallel" ]; then
 
 elif [ "$langformat" == "mono" ]; then
 	if [ "$format" == "tmx" ]; then
+		echo "Extracting from TMX..."
                 # Get the directory path and filename without extension
                 dir_path=$(dirname "$saved_file_path")
                 filename=$(basename "$saved_file_path" .tmx)
@@ -260,13 +268,15 @@ elif [ "$langformat" == "mono" ]; then
 		        echo "Downloading monocleaner model..."		       
 		        monocleaner-download -q $srclang $datapath/monocleaner/
 		fi	
-
+		echo "Running Monocleaner  Hardrules..."
 		./scripts/parallel-monohardrules.sh $JOBS $srclang $tsv_file_path $tsv_file_path.hardrules 		
+		echo "Running Monocleaner..."
 		./scripts/parallel-monocleaner.sh $JOBS $datapath/monocleaner/$srclang $tsv_file_path  $tsv_file_path.classify
 
 		deactivate
 	fi
 	#time python3 -m cProfile ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
+	echo "Running ReadCorpus Mono..."
 	python3 ./scripts/readcorpus_mono.py $tsv_file_path $yaml_file_path $srclang
 else
 	echo "Unsupported langformat \"$langformat\""
