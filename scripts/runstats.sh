@@ -222,7 +222,15 @@ if [ "$langformat" == "parallel" ]; then
     	else
     		echo "Language pair not supported by Bicleaner/BicleanerAI"
     	fi
-    	
+
+	#Fastspell
+	echo "Running FastSpell..."
+	./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $saved_file_path.$srclang.langids 1 
+	./scripts/parallel-fastspell.sh $JOBS $trglang $tsv_file_path $saved_file_path.$trglang.langids 2
+	
+	cat $saved_file_path.$srclang.langids | sort | uniq -c | sort -nr  >  $saved_file_path.$srclang.langcounts
+	cat $saved_file_path.$trglang.langids | sort | uniq -c | sort -nr  >  $saved_file_path.$trglang.langcounts
+
 
     	#Stats from readcorpus
     	#mkdir -p profiling
@@ -275,6 +283,13 @@ elif [ "$langformat" == "mono" ]; then
 
 		deactivate
 	fi
+	
+        #Fastspell
+        echo "Running FastSpell..."
+        ./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $saved_file_path.$srclang.langids 1 
+        cat $saved_file_path.$srclang.langids | sort | uniq -c | sort -nr  >  $saved_file_path.$srclang.langcounts
+	
+
 	#time python3 -m cProfile ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
 	echo "Running ReadCorpus Mono..."
 	python3 ./scripts/readcorpus_mono.py $tsv_file_path $yaml_file_path $srclang

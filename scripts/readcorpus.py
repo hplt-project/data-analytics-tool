@@ -13,7 +13,6 @@ from timeit import default_timer
 from util import logging_setup
 from collections import Counter
 from xxhash import xxh64
-from fastspell import FastSpell
 from ngrams import get_ngrams
 from bicleanerscorer import read_hardrulestags, read_scores
 from tokenizer  import CustomTokenizer
@@ -98,8 +97,8 @@ def main():
     stats["srclang"] = args.srclang
     stats["trglang"] = args.trglang
     
-    fastspell_src = FastSpell(args.srclang, mode="aggr")
-    fastspell_trg = FastSpell(args.trglang, mode="aggr")
+    #fastspell_src = FastSpell(args.srclang, mode="aggr")
+    #fastspell_trg = FastSpell(args.trglang, mode="aggr")
     
     if "tsv" in args.corpus.name:
         filename=args.corpus.name.replace(".tsv","")
@@ -159,10 +158,12 @@ def main():
         sent_hashes.add(sent_hash)
             
         #Get langid for each sentence
+        '''
         src_langid = fastspell_src.getlang(src_sent)
         trg_langid = fastspell_trg.getlang(trg_sent)
         src_langs[src_langid] += 1
         trg_langs[trg_langid] += 1        
+        '''
         
         #Add tokens for each sentence
         src_tokens.extend(tokenized_src)
@@ -222,25 +223,38 @@ def main():
         stats["trg_unique_sents"] = str(trg_hashes_list)
 
 
+    #Language ID
     src_langs_list = []
-    for lang, freq in src_langs.most_common():
-        src_langs_list.append([lang, freq])
+    trg_langs_list = []
+    src_langs_file = filename+"."+args.srclang+".langcounts"
+    trg_langs_file = filename+"."+args.trglang+".langcounts"
+    
+    if not os.path.exists(src_langs_file):
+         logging.warning("Language file " + src_langs_file  + " not found")
+    else:
+        for line in open(src_langs_file, "r"):
+            lineparts = line.split()
+            id_lang = lineparts[1].strip()
+            count_lang = int(lineparts[0].strip())
+            src_langs_list.append([id_lang, count_lang])
+            
+    if not os.path.exists(trg_langs_file):
+         logging.warning("Language file " + trg_langs_file  + " not found")
+    else:
+        for line in open(trg_langs_file, "r"):
+            lineparts = line.split()
+            id_lang = lineparts[1].strip()
+            count_lang = int(lineparts[0].strip())
+            trg_langs_list.append([id_lang, count_lang])
+
+            
     if len(src_langs_list) > 0:
         stats["src_langs"] = json.dumps(src_langs_list)
-
-    trg_langs_list = []
-    for lang, freq in trg_langs.most_common():
-        trg_langs_list.append([lang, freq])
-    if len(trg_langs_list) > 0 :
+    if len(trg_langs_list) > 0:
         stats["trg_langs"] = json.dumps(trg_langs_list)
 
-    # ngrams
-    '''
-    with open("src_tokens.txt", "w") as f:
-        f.write(str(src_tokens))
-    with open("trg_tokens.txt", "w") as f:
-        f.write(str(trg_tokens))
-    '''    
+
+    #ngrams
     src_ngrams, src_ngrams_warnings  = get_ngrams(args.srclang, src_tokens, 5)
     trg_ngrams, trg_ngrams_warnings = get_ngrams(args.trglang, trg_tokens, 5)
     if len(src_ngrams) > 0:        

@@ -13,7 +13,6 @@ import statistics
 from timeit import default_timer
 from util import logging_setup
 from collections import Counter
-from fastspell import FastSpell
 from ngrams import get_ngrams
 from xxhash import xxh64
 from bicleanerscorer import read_hardrulestags, read_scores
@@ -72,17 +71,14 @@ def main():
     
     src_bytes=0
 
-    src_langs = Counter()
-    
+
     #Pure metadata could be in a different function
     stats = {}
     stats["corpus"] = os.path.basename(args.corpus.name)
     stats["srclang"] = args.srclang
     filename = args.corpus.name
     
-    fastspell_src = FastSpell(args.srclang, mode="aggr")
-    
-    
+
     src_tokenizer = CustomTokenizer(args.srclang)
     
     logging.info("Tokenizing " + args.srclang + " with " +src_tokenizer.toktype + " (" + str(src_tokenizer.getWarnings()) +")" )
@@ -101,9 +97,6 @@ def main():
         src_tokens_count = len(tokenized_src)
         src_sent_tokens[src_tokens_count] += 1
 
-        #Get langid for each sentence
-        src_langid = fastspell_src.getlang(src_line)
-        src_langs[src_langid] += 1
         
         #Add tokens for each sentence
         src_tokens.extend(tokenized_src)
@@ -144,8 +137,20 @@ def main():
         stats["src_unique_sents"] = str(src_hashes_list)
 
     src_langs_list = []
-    for lang, freq in src_langs.most_common():
-        src_langs_list.append([lang, freq])
+    langs_file = filename+"."+args.srclang+".langcounts"
+    
+    if not os.path.exists(langs_file):
+         logging.warning("Language file " + langs_file  + " not found")
+    else:
+        for line in open(langs_file, "r"):
+            lineparts = line.split()
+            id_lang = lineparts[1].strip()
+            count_lang = int(lineparts[0].strip())
+            src_langs_list.append([id_lang, count_lang])
+    
+    
+   # for lang, freq in src_langs.most_common():
+   #     src_langs_list.append([lang, freq])
     if len(src_langs_list) > 0:
         stats["src_langs"] = json.dumps(src_langs_list)
 
@@ -164,7 +169,6 @@ def main():
     ttr_src = round(len(set(src_alpha_tokens))/ len(src_alpha_tokens),2)
     stats["ttr_src"] = ttr_src
 
-    
     # bytes size
     stats["src_bytes"] = convert_size(src_bytes)
 
