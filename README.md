@@ -24,5 +24,5 @@ Code and data are located in `/work`
 
 # Output examples: 
 
-- [parallel English-Norwegian HPLT corpus from initial data release]([img/](https://github.com/hplt-project/data-analytics-tool/blob/main/img/en-nn.pdf): it shows that deduplication needs to be addressed as one of the most important issues.
+- [parallel English-Norwegian HPLT corpus from initial data release](https://github.com/hplt-project/data-analytics-tool/blob/main/img/en-nn.pdf): it shows that deduplication needs to be addressed as one of the most important issues.
 - [monolingual Turkish corpus from Bianet](https://github.com/hplt-project/data-analytics-tool/blob/main/img/tr.bianet.tr.pdf): it shows that at least a 12% of the corpus is not in Turkish.  
