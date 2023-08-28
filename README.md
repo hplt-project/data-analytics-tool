@@ -1,7 +1,12 @@
 # Analytics tool
 
-Icon: https://thenounproject.com/icon/fingerprint-3530285/
+This tool provide a full range of analytics automatically computed on either monolingual or bilingual data sets to help making informed decisions about them. 
 
+It shows statistics,  language, length, noise and quality score distributions, common n-grams and others in the spirit of the work carried out by https://www.semanticscholar.org/paper/Documenting-the-English-Colossal-Clean-Crawled-Dodge-Sap/40c3327a6ddb0603b6892344509c7f428ab43d81. 
+
+Automated reports generated out of the tool that is actioned from a web application to which a corpus can be uploaded.
+
+Icon: https://thenounproject.com/icon/fingerprint-3530285/
 
 Running the docker:
 
@@ -17,3 +22,7 @@ If you need to access docker to run stuff inside:
 
 Code and data are located in `/work`
 
+# Output examples: 
+
+- parallel English-Norwegian HPLT corpus from initial data release: 
+- monolingual Turkish corpus from Bianet: 
