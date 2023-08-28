@@ -6,6 +6,8 @@ It shows statistics,  language, length, noise and quality score distributions, c
 
 Automated reports generated out of the tool that is actioned from a web application to which a corpus can be uploaded.
 
+<img alt="Data Analytics Viewer" src="https://github.com/hplt-project/data-analytics-tool/blob/main/img/data-viewer.png" width=600 />
+
 Icon: https://thenounproject.com/icon/fingerprint-3530285/
 
 Running the docker:
