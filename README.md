@@ -1,6 +1,6 @@
 # HPLT Analytics
 
-This tool provide a full range of analytics automatically computed on either monolingual or bilingual data sets to help making informed decisions about them. 
+This tool provides a full range of analytics automatically computed on either monolingual or bilingual data sets to help making informed decisions about them. 
 
 It shows corpora details, volumes, language, length, noise and quality score distributions, common n-grams and others in the spirit of the work carried out by https://www.semanticscholar.org/paper/Documenting-the-English-Colossal-Clean-Crawled-Dodge-Sap/40c3327a6ddb0603b6892344509c7f428ab43d81. 
 
