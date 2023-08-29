@@ -26,6 +26,20 @@ If you need to access docker to run stuff inside:
 
 Code and data are located in `/work`
 
+
+# Current info: 
+
+- Corpus: name, language(s), date on which the analysis was performed
+- Volumes: sentences, unique sentences, size in tokens, file size
+- Type Token Ratio: lexical variation indicator. The ratio is obtained by dividing the total number of different words (called types) by the total number of words (called tokens). The higher, the better as high TTR indicates a high degree of lexical variation while low TTR indicates the opposite. 
+- Sentence length distribution: tokens per sentence for each language, showing total, unique and duplicate sentences.
+- Language distribution: shows percentage of automatically identified languages.
+- Quality Score distribution: as per language models (monolingual) or bicleaner scores (tool that computes the likelihood of two sentences of being mutual translations)
+- Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences being URLs, sentences containing poor language, etc.)
+- Common n-grams: 1-5 more frequent n-grams
+
+- MORE TO BE ADDED, SUGGESTIONS WELCOME!
+
 # Output examples: 
 
 - Parallel English-Norwegian HPLT corpus from initial data release: it shows that deduplication needs to be addressed as one of the most important issues.
