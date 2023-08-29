@@ -35,7 +35,7 @@ Code and data are located in `/work`
 - Sentence length distribution: tokens per sentence for each language, showing total, unique and duplicate sentences.
 - Language distribution: shows percentage of automatically identified languages.
 - Quality Score distribution: as per language models (monolingual) or bicleaner scores (tool that computes the likelihood of two sentences of being mutual translations)
-- Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences being URLs, sentences containing poor language, etc.)
+- Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences being URLs, bad encoding, sentences containing poor language, etc.)
 - Common n-grams: 1-5 more frequent n-grams
 
 - MORE TO BE ADDED, SUGGESTIONS WELCOME!
