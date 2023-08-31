@@ -1,5 +1,7 @@
 #No GPU support needed by now...
-FROM ubuntu:22.04
+from nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
+
+
 
 ENV BINPATH=/opt/bin
 ENV LANG=C.UTF-8
