@@ -23,7 +23,7 @@ RUN mkdir -p /work/venvs/
 COPY deployment/requirements.txt /work/deployment/requirements.txt
 
 RUN apt-get update && \
-    apt-get install -y wget unzip joe gcc && \ 
+    apt-get install -y wget unzip joe gcc libboost-all-dev cmake && \ 
     apt-get install -y python3.10 python3-dev python3.10-dev  python3-pip  python3.10-venv && \
     apt-get install -y git build-essential autoconf autopoint libtool parallel &&\
     apt-get install -y hunspell libhunspell-dev
@@ -37,13 +37,14 @@ RUN python3.10 -m venv /work/venvs/venv-bhr
 RUN python3.10 -m venv /work/venvs/venv-bc
 RUN python3.10 -m venv /work/venvs/venv-bcai
 
-RUN cd /work && git clone https://github.com/ZJaume/tmxt && cd
+RUN cd /work && git clone https://github.com/ZJaume/tmxt && git clone https://github.com/kpu/preprocess && cd
+RUN cd /work/preprocess &&  rm -fr build &&  mkdir build && cd build  && cmake .. && make && cd
 
 RUN . /work/venvs/venv-mc/bin/activate && \
     python3.10 -m pip install -U pip  && \
     python3.10 -m pip install -U wheel && \
     python3.10 -m pip install -U setuptools && \
-    python3.10 -m pip install --config-settings="--build-option=--max_order=7" https://github.com/kpu/kenlm/archive/master.zip && \
+    python3.10 -m pip install --config-settings="--build-option=--max_order=7" https://github.com/kpu/kenlm/archive/master.zip && \    
     python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\
     python3.10 -m pip install monocleaner==1.6.1 && deactivate
 

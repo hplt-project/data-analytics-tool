@@ -11,6 +11,8 @@ langformat=$6
 JOBS=$(($(nproc)-2))
 JOBS=$(($JOBS>1 ? $JOBS : 1))
 
+
+
 #bicleanermetadata=bicleaner/$srclang-$trglang/$srclang-$trglang.yaml
 #monocleanermetadata=monocleaner/$srclang/metadata.yaml
 
@@ -267,22 +269,24 @@ elif [ "$langformat" == "mono" ]; then
 	else
 		echo "Language not supported by Monocleaner"
 	fi
+	source /work/venvs/venv-mc/bin/activate
+	echo "Running Monocleaner  Hardrules..."
+	./scripts/parallel-monohardrules.sh $JOBS $srclang $tsv_file_path $tsv_file_path.hardrules 		
 
 	if [ "$monocleaner_metadata" ]; then
-		source /work/venvs/venv-mc/bin/activate
+
 		if [ -f "$monocleaner_metadata" ]; then
 	        	echo "Monocleaner model already downloaded."
 	        else
 		        echo "Downloading monocleaner model..."		       
 		        monocleaner-download -q $srclang $datapath/monocleaner/
 		fi	
-		echo "Running Monocleaner  Hardrules..."
-		./scripts/parallel-monohardrules.sh $JOBS $srclang $tsv_file_path $tsv_file_path.hardrules 		
+	
 		echo "Running Monocleaner..."
 		./scripts/parallel-monocleaner.sh $JOBS $datapath/monocleaner/$srclang $tsv_file_path  $tsv_file_path.classify
-
-		deactivate
 	fi
+	deactivate
+
 	
         #Fastspell
         echo "Running FastSpell..."
