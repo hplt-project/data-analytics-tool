@@ -43,7 +43,7 @@ ASTUANA_STOPWORDS_LANGS = ["bg","cs", "fa", "ga", "gl", "hi", "hy", "ja",  "ko",
 
 ISO_STOPWORDS_LANGS =  ["af", "eo", "et", "gu", "hr", "ms", "so", "sw","tl", "vi"]
 
-TXT_STOPWORDS_LANGS =  ["be", "cy", "is", "ka", "kn", "ky", "mk", "mn",  "my", "pa", "ps", "si", "sq", "sr", "ta", "te", "tt",  "uz"] 
+TXT_STOPWORDS_LANGS =  ["be", "bs", "cy", "is", "ka", "kn", "ky", "mk", "mn",  "my", "pa", "ps", "si", "sq", "sr", "ta", "te", "tt",  "uz"] 
 
 
 
@@ -52,6 +52,8 @@ def fix_stopwords(stopwords, lang):
         stopwords.extend(["u", "n", "s", "dis", "ja"])
     elif lang == "be":
         stopwords.extend(["я", "не", "i", "на", "в", "по", "у", "і", "до", "для", "є", "а", "за", "так", "все",  "што", "з", "таму", "мы", "па", "вы"])
+    elif lang == "bs":
+        stopwords.extend(["čiju"])
     elif lang == "ca":
         stopwords.extend(["l", "l'", "d", "d'", "s", "s'"])
     elif lang == "de":
@@ -62,10 +64,16 @@ def fix_stopwords(stopwords, lang):
         stopwords.extend(["shall", "unto", "thou", "thus", "'s",  "every", "among", "therefore", "let", "us"])
     elif lang == "fr":
         stopwords.extend(["c'", "d'", "j'", "l'", "m'", "n'", "s'", "t'", "qu'"]) #These are missing in nltk when with apostrophe
+    elif lang == "ga":
+        stopwords.extend(["tá", "seo", "má"])
     elif lang == "gl":
         stopwords.extend(["como", "máis", "si", "són", "todo", "outra", "ás", "moito", "xa", "todos", "nada", "cal", "son", "só", "agora", "onde", "quen", "cada", "algo", "porque", "sei", "vai", "algunha", "toda" ])    
+    elif lang == "is":
+        stopwords.extend(["ekki", "hefur", "eru"])
     elif lang == "it":
         stopwords.extend(["l'", "un'", "qualcun'","nessun'", "qualcos'", "dov'", "po'", "va'", "fa'", "dell'", "all'" ]) #same as french
+    elif lang == "nn":
+        stopwords.extend(["frå", "ei", "meir", "andre"]) 
     elif lang == "pl":
         stopwords.extend(["w", "i", "z", "ze", "oraz", "a", "o"])
     elif lang == "ru":
