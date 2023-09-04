@@ -60,6 +60,8 @@ def fix_stopwords(stopwords, lang):
         stopwords.extend(["shall", "unto", "thou", "thus", "'s",  "every", "among", "therefore", "let", "us"])
     elif lang == "fr":
         stopwords.extend(["c'", "d'", "j'", "l'", "m'", "n'", "s'", "t'", "qu'"]) #These are missing in nltk when with apostrophe
+    elif lang == "ga":
+        stopwords.extend(["tá", "seo", "má"])
     elif lang == "gl":
         stopwords.extend(["como", "máis", "si", "són", "todo", "outra", "ás", "moito", "xa", "todos", "nada", "cal", "son", "só", "agora", "onde", "quen", "cada", "algo", "porque", "sei", "vai", "algunha", "toda" ])    
     elif lang == "it":
