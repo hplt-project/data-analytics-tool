@@ -18,3 +18,4 @@ Resources from various sources:
 * stopwords.te: https://github.com/Xangis/extra-stopwords/blob/master/telugu
 * stopwords.tt: https://github.com/aliiae/stopwords-tt/blob/master/stopwords_tt.txt
 * stopwords.uz: https://github.com/ilyosrabbimov/uzbek-stop-words/blob/master/uz.txt
+* stopwords.bs: https://github.com/Xangis/extra-stopwords/blob/master/serbian
