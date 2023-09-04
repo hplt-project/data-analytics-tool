@@ -64,6 +64,8 @@ def fix_stopwords(stopwords, lang):
         stopwords.extend(["como", "máis", "si", "són", "todo", "outra", "ás", "moito", "xa", "todos", "nada", "cal", "son", "só", "agora", "onde", "quen", "cada", "algo", "porque", "sei", "vai", "algunha", "toda" ])    
     elif lang == "it":
         stopwords.extend(["l'", "un'", "qualcun'","nessun'", "qualcos'", "dov'", "po'", "va'", "fa'", "dell'", "all'" ]) #same as french
+    elif lang == "nn":
+        stopwords.extend(["frå", "ei", "meir", "andre"]) 
     elif lang == "pl":
         stopwords.extend(["w", "i", "z", "ze", "oraz", "a", "o"])
     elif lang == "ru":
