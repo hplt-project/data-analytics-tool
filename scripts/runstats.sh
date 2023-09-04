@@ -297,6 +297,15 @@ elif [ "$langformat" == "mono" ]; then
 	#time python3 -m cProfile ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
 	echo "Running ReadCorpus Mono..."
 	python3 ./scripts/readcorpus_mono.py $tsv_file_path $yaml_file_path $srclang
+	
+	for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
+	do
+		SUFFIX=$(echo $SUFFIX_ORDER  | cut -d "_" -f 1)
+		ORDER=$(echo $SUFFIX_ORDER | cut -d "_" -f 2)
+		sort $tsv_file_path.$SUFFIX | uniq -c | sort -nr | head -n 5 |   awk -v ORDER=$ORDER '{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path".ngrams"
+	done
+	python3 ./scripts/addngrams.py $tsv_file_path".ngrams"  $yaml_file_path 
+	
 else
 	echo "Unsupported langformat \"$langformat\""
 	exit 1

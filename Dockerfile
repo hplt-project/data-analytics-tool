@@ -96,5 +96,7 @@ EXPOSE 8000
 RUN chmod +x /work/deployment/*.sh
 RUN chmod +x /work/scripts/*.sh
 
+WORKDIR /work
+
 #CMD ["tail", "-f",  "/dev/null"]
 CMD /work/deployment/docker-entrypoint.sh

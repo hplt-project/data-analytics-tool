@@ -13,7 +13,7 @@ import statistics
 from timeit import default_timer
 from util import logging_setup
 from collections import Counter
-from ngrams import get_ngrams
+from ngrams import get_line_ngrams, get_stopwords
 from xxhash import xxh64
 from bicleanerscorer import read_hardrulestags, read_scores
 from tokenizer import CustomTokenizer
@@ -88,6 +88,17 @@ def main():
         
     #src_file=open(args.corpus.name,"r").read().splitlines()
 
+    #ngrams files
+    onegrams_file = open(args.corpus.name + ".one", "w")
+    twograms_file = open(args.corpus.name + ".two", "w")
+    threegrams_file = open(args.corpus.name + ".three", "w")
+    fourgrams_file = open(args.corpus.name + ".four", "w")
+    fivegrams_file = open(args.corpus.name + ".five", "w")
+
+    ngrams_warnings = set()    
+    stopwords, nwarnings = get_stopwords(args.srclang)
+    ngrams_warnings.update(nwarnings)
+
     for src_line in args.corpus:
         total_lines = total_lines+1
         src_line = src_line.strip()
@@ -99,11 +110,31 @@ def main():
 
         
         #Add tokens for each sentence
-        src_tokens.extend(tokenized_src)
+        src_tokens.extend(tokenized_src) 
         for token in tokenized_src:
             if any(c.isalpha() for c in token):
                 src_alpha_tokens.append(token)
+                
         
+        #ngrams
+
+        ngrams_dict, nwarning = get_line_ngrams(args.srclang, tokenized_src, 5, stopwords)
+        
+        ngrams_warnings.update(nwarning)
+        
+
+        for g in ngrams_dict.get(1):
+            onegrams_file.write(" ".join(g)+"\n")
+        for g in ngrams_dict.get(2):
+            twograms_file.write(" ".join(g)+"\n")
+        for g in ngrams_dict.get(3):
+            threegrams_file.write(" ".join(g)+"\n")
+        for g in ngrams_dict.get(4): 
+            fourgrams_file.write(" ".join(g)+"\n")
+        for g in ngrams_dict.get(5):
+            fivegrams_file.write(" ".join(g)+"\n")
+            
+
         #src hashes
         src_hash = xxh64(src_line).hexdigest()        
         try:
@@ -155,11 +186,13 @@ def main():
         stats["src_langs"] = json.dumps(src_langs_list)
 
     # ngrams
+    '''
     src_ngrams, ngrams_warnings = get_ngrams(args.srclang, src_tokens, 5)
     if len(src_ngrams) > 0 :
         stats["src_ngrams"] = json.dumps(src_ngrams)
+    '''
     warnings.extend(ngrams_warnings)
-
+    
     #source tokens
     stats["src_tokens"] = len(src_tokens)
 

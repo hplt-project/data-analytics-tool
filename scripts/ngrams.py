@@ -45,6 +45,8 @@ ISO_STOPWORDS_LANGS =  ["af", "eo", "et", "gu", "hr", "ms", "so", "sw","tl", "vi
 
 TXT_STOPWORDS_LANGS =  ["be", "cy", "is", "ka", "kn", "ky", "mk", "mn",  "my", "pa", "ps", "si", "sq", "sr", "ta", "te", "tt",  "uz"] 
 
+
+
 def fix_stopwords(stopwords, lang):
     if lang == "af":
         stopwords.extend(["u", "n", "s", "dis", "ja"])
@@ -72,15 +74,10 @@ def fix_stopwords(stopwords, lang):
         stopwords.extend(["я", "не", "i", "на", "в", "по", "у", "і", "до", "для", "є", "а", "за", "так", "все" ])
     return stopwords
 
-def get_ngrams(lang, tokenized_sentences, max_order):
-    warnings=[]
-    
-    # Lowercase everything    
-    tokens = [token.lower() for token in tokenized_sentences]
-
+def get_stopwords(lang):
     # Language-agnostic strategy for stopwords, can be improved
     stop_words = []
-    
+    warnings =   []    
     if lang in NLTK_STOPWORDS_LANGS.keys():        
         logging.info("Stopwords from NLTK")
         langname = NLTK_STOPWORDS_LANGS.get(lang)
@@ -112,10 +109,38 @@ def get_ngrams(lang, tokenized_sentences, max_order):
         num_tokens_to_keep = int(len(token_freq) * 0.01)
         # Get the top tokens with the highest frequency
         stop_words = [token for token, freq in token_freq.most_common(num_tokens_to_keep)]
-        warnings = ["ngrams_" + lang + "_freq"]
-
+        warnings = ["ngrams_" + lang + "_freq"]        
     
     logging.info("Stopwords: " + str(stop_words))
+    return stop_words, warnings
+
+def get_line_ngrams(lang, tokenized_line, max_order, stop_words):
+    warnings = []
+    if not stop_words:
+        stop_words, warnings = get_stopwords(lang)
+    tokens = [token.lower() for token in tokenized_line]
+    candidates = {}
+    for order in range(max_order, 0, -1):
+        candidates[order] = [] #initialize map
+        corpus_ngrams = list(ngrams(tokens,order))
+        for candidate in corpus_ngrams:
+            if not (all(any(c.isalpha() for c in word) for word in candidate)):
+                #Remove any token that not contains alphabetic
+                #if token contains punctuation, we don't want it
+                continue
+            #There is at least a token that is not a stopword
+            #First and last tokens cannot be stopwords 
+            #Not using .lower() becase all tokens were lowerized at the beginning
+            if(candidate[0] not in stop_words) and (candidate[-1] not in stop_words) and any(token not in stop_words for token in candidate):
+                candidates[order].append(candidate)
+    return candidates, warnings
+    
+
+def get_ngrams(lang, tokenized_sentences, max_order):
+    stop_words, warnings = get_stopwords(lang)
+    
+    # Lowercase everything    
+    tokens = [token.lower() for token in tokenized_sentences]
             
     # Get ngrams
     candidates = {}
