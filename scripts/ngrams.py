@@ -50,6 +50,8 @@ def fix_stopwords(stopwords, lang):
         stopwords.extend(["u", "n", "s", "dis", "ja"])
     elif lang == "be":
         stopwords.extend(["я", "не", "i", "на", "в", "по", "у", "і", "до", "для", "є", "а", "за", "так", "все",  "што", "з", "таму", "мы", "па", "вы"])
+    elif lang == "bs":
+        stopwords.extend(["čiju"])
     elif lang == "ca":
         stopwords.extend(["l", "l'", "d", "d'", "s", "s'"])
     elif lang == "de":
