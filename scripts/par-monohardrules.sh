@@ -6,7 +6,7 @@ INPUT_FILE=$(mktemp)
 
 cat > $INPUT_FILE
 
-monocleaner-hardrules --score_only --annotated_output --run_all_rules  $lang ${INPUT_FILE} ${INPUT_FILE}.o &>monohr.log
+monocleaner-hardrules --score_only --annotated_output --run_all_rules  $lang ${INPUT_FILE} - > ${INPUT_FILE}.o 2>monohr.log
 
 cat ${INPUT_FILE}.o
 
