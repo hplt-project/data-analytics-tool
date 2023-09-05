@@ -45,8 +45,6 @@ ISO_STOPWORDS_LANGS =  ["af", "eo", "et", "gu", "hr", "ms", "so", "sw","tl", "vi
 
 TXT_STOPWORDS_LANGS =  ["be", "bs", "cy", "is", "ka", "kn", "ky", "mk", "mn",  "my", "pa", "ps", "si", "sq", "sr", "ta", "te", "tt",  "uz"] 
 
-
-
 def fix_stopwords(stopwords, lang):
     if lang == "af":
         stopwords.extend(["u", "n", "s", "dis", "ja"])
@@ -56,12 +54,16 @@ def fix_stopwords(stopwords, lang):
         stopwords.extend(["čiju"])
     elif lang == "ca":
         stopwords.extend(["l", "l'", "d", "d'", "s", "s'"])
+      elif lang == "cy":
+        stopwords.extend(["'r", "'n", "'i", "'w","'y", "'m", "'u", "'th"])
     elif lang == "de":
         stopwords.extend(["wurde", "wurden", "mehr", "viele"])
     elif lang == "es":
         stopwords.extend(["si", "quiero", "alguna", "cada", "puede", "cuándo", "casi", "creo", "aquí", "tal", "toda", "cuánto"])
     elif lang == "en":
         stopwords.extend(["shall", "unto", "thou", "thus", "'s",  "every", "among", "therefore", "let", "us"])
+    elif lang == "eu":
+        stopwords.extend(["zure", "gure", "duzu", "guztiak"])
     elif lang == "fr":
         stopwords.extend(["c'", "d'", "j'", "l'", "m'", "n'", "s'", "t'", "qu'"]) #These are missing in nltk when with apostrophe
     elif lang == "ga":
