@@ -135,23 +135,23 @@ def main():
         ngrams_warnings.update(nwarning)
         
         for g in ngrams_dict.get(1):
-            onegrams_buffer.add(" ".join(g))
+            onegrams_buffer.append(" ".join(g))
             onegrams_counter += 1
             #onegrams_file.write(" ".join(g)+"\n")
         for g in ngrams_dict.get(2):
-            twograms_buffer.add(" ".join(g))
+            twograms_buffer.append(" ".join(g))
             twograms_counter += 1
             #twograms_file.write(" ".join(g)+"\n")
         for g in ngrams_dict.get(3):
-            threegrams_buffer.add(" ".join(g))
+            threegrams_buffer.append(" ".join(g))
             threegrams_counter += 1
             #threegrams_file.write(" ".join(g)+"\n")
         for g in ngrams_dict.get(4): 
-            fourgrams_buffer.add(" ".join(g))
+            fourgrams_buffer.append(" ".join(g))
             fourgrams_counter += 1
             #fourgrams_file.write(" ".join(g)+"\n")
         for g in ngrams_dict.get(5):
-            fivegrams_buffer.add(" ".join(g))
+            fivegrams_buffer.append(" ".join(g))
             fivegrams_counter += 1
             #fivegrams_file.write(" ".join(g)+"\n")
             
