@@ -135,46 +135,46 @@ def main():
         ngrams_warnings.update(nwarning)
         
         for g in ngrams_dict.get(1):
-            onegrams_buffer.add(g)
+            onegrams_buffer.add(" ".join(g))
             onegrams_counter += 1
             #onegrams_file.write(" ".join(g)+"\n")
         for g in ngrams_dict.get(2):
-            twograms_buffer.add(g)
+            twograms_buffer.add(" ".join(g))
             twograms_counter += 1
             #twograms_file.write(" ".join(g)+"\n")
         for g in ngrams_dict.get(3):
-            threegrams_buffer.add(g)
+            threegrams_buffer.add(" ".join(g))
             threegrams_counter += 1
             #threegrams_file.write(" ".join(g)+"\n")
         for g in ngrams_dict.get(4): 
-            fourgrams_buffer.add(g)
+            fourgrams_buffer.add(" ".join(g))
             fourgrams_counter += 1
             #fourgrams_file.write(" ".join(g)+"\n")
         for g in ngrams_dict.get(5):
-            fivegrams_buffer.add(g)
+            fivegrams_buffer.add(" ".join(g))
             fivegrams_counter += 1
             #fivegrams_file.write(" ".join(g)+"\n")
             
         #If any of the buffers has more than a million ngrams, put all in files
         if onegrams_counter > 1000000 or twograms_counter > 1000000 or threegrams_counter > 1000000 or fourgrams_counter > 1000000 or fivegrams_counter > 1000000:
             for g in onegrams_buffer:
-                onegrams_file.write(" ".join(g)+"\n")
+                onegrams_file.write(g+"\n")
             onegrams_buffer = []
             onegrams_counter = 0
             for g in twograms_buffer:
-                twograms_file.write(" ".join(g)+"\n")
+                twograms_file.write(g+"\n")
             twograms_buffer = []
             twograms_counter = 0
             for g in threegrams_buffer:
-                threegrams_file.write(" ".join(g)+"\n")
+                threegrams_file.write(g+"\n")
             threegrams_buffer = []
             threegrams_counter = 0
             for g in fourgrams_buffer:
-                fourgrams_file.write(" ".join(g)+"\n")
+                fourgrams_file.write(g+"\n")
             fourgrams_buffer = []
             fourgrams_counter = 0
             for g in fivegrams_buffer:
-                fivegrams_file.write(" ".join(g)+"\n")
+                fivegrams_file.write(g+"\n")
             fivegrams_buffer = []
             fivegrams_counter = 0
             
