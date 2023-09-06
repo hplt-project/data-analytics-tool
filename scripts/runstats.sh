@@ -182,16 +182,16 @@ if [ "$langformat" == "parallel" ]; then
 	if [ "$bicleaner_metadata" ]; then
 		echo "Running Bicleaner Hardrules..."
 		if [ "$is_reversed" = true ]; then
-			cat  $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2  bicleaner-hardrules --score_only --annotated_output --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2  --tcol 1 - - --metadata $bicleaner_metadata > $saved_file_path.hardrules 
+			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2  --tcol 1 - - --metadata $bicleaner_metadata > $saved_file_path.hardrules 
 		else
-			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2  bicleaner-hardrules --score_only --annotated_output --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_metadata > $saved_file_path.hardrules
+			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_metadata > $saved_file_path.hardrules
 		fi
 	elif [ "$bicleaner_ai_metadata" ]; then
 		echo "Running Bicleaner Hardrules..."
 		if [ "$is_reversed" = true ]; then
-			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2 --tcol 1 - - --metadata $bicleaner_ai_metadata > $saved_file_path.hardrules
+			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2 --tcol 1 - - --metadata $bicleaner_ai_metadata > $saved_file_path.hardrules
 		else
-			cat $tsv_file_path  | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_ai_metadata > $saved_file_path.hardrules
+			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_ai_metadata > $saved_file_path.hardrules
 		fi
 	else
 		echo "Language pair not supported by Bicleaner Hardrules"
@@ -288,7 +288,7 @@ elif [ "$langformat" == "mono" ]; then
 	source /work/venvs/venv-mc/bin/activate
 	echo "Running Monocleaner  Hardrules..."
 	#./scripts/parallel-monohardrules.sh $JOBS $srclang $tsv_file_path $tsv_file_path.hardrules 		
-        cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1  parallel -k -j $JOBS --pipe monocleaner-hardrules --score_only --annotated_output --run_all_rules $srclang - - > $tsv_file_path.hardrules 2> hr.log
+        cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1  parallel -k -j $JOBS --pipe monocleaner-hardrules --score_only --annotated_output --run_all_rules --disable_lang_ident  $srclang - - > $tsv_file_path.hardrules 2> hr.log
 
 
 	if [ "$monocleaner_metadata" ]; then
