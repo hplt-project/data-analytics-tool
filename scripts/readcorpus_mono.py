@@ -95,6 +95,19 @@ def main():
     fourgrams_file = open(args.corpus.name + ".four", "w")
     fivegrams_file = open(args.corpus.name + ".five", "w")
 
+
+    onegrams_buffer = []
+    twograms_buffer = []
+    threegrams_buffer = []
+    fourgrams_buffer =  []
+    fivegrams_buffer = []
+    
+    onegrams_counter = 0
+    twograms_counter = 0
+    threegrams_counter = 0
+    fourgrams_counter = 0
+    fivegrams_counter = 0
+    
     ngrams_warnings = set()    
     stopwords, nwarnings = get_stopwords(args.srclang)
     ngrams_warnings.update(nwarnings)
@@ -118,23 +131,53 @@ def main():
         
         #ngrams
 
-        ngrams_dict, nwarning = get_line_ngrams(args.srclang, tokenized_src, 5, stopwords)
-        
+        ngrams_dict, nwarning = get_line_ngrams(args.srclang, tokenized_src, 5, stopwords)        
         ngrams_warnings.update(nwarning)
         
-
         for g in ngrams_dict.get(1):
-            onegrams_file.write(" ".join(g)+"\n")
+            onegrams_buffer.add(g)
+            onegrams_counter += 1
+            #onegrams_file.write(" ".join(g)+"\n")
         for g in ngrams_dict.get(2):
-            twograms_file.write(" ".join(g)+"\n")
+            twograms_buffer.add(g)
+            twograms_counter += 1
+            #twograms_file.write(" ".join(g)+"\n")
         for g in ngrams_dict.get(3):
-            threegrams_file.write(" ".join(g)+"\n")
+            threegrams_buffer.add(g)
+            threegrams_counter += 1
+            #threegrams_file.write(" ".join(g)+"\n")
         for g in ngrams_dict.get(4): 
-            fourgrams_file.write(" ".join(g)+"\n")
+            fourgrams_buffer.add(g)
+            fourgrams_counter += 1
+            #fourgrams_file.write(" ".join(g)+"\n")
         for g in ngrams_dict.get(5):
-            fivegrams_file.write(" ".join(g)+"\n")
+            fivegrams_buffer.add(g)
+            fivegrams_counter += 1
+            #fivegrams_file.write(" ".join(g)+"\n")
             
-
+        #If any of the buffers has more than a million ngrams, put all in files
+        if onegrams_counter > 1000000 or twograms_counter > 1000000 or threegrams_counter > 1000000 or fourgrams_counter > 1000000 or fivegrams_counter > 1000000:
+            for g in onegrams_buffer:
+                onegrams_file.write(" ".join(g)+"\n")
+            onegrams_buffer = []
+            onegrams_counter = 0
+            for g in twograms_buffer:
+                twograms_file.write(" ".join(g)+"\n")
+            twograms_buffer = []
+            twograms_counter = 0
+            for g in threegrams_buffer:
+                threegrams_file.write(" ".join(g)+"\n")
+            threegrams_buffer = []
+            threegrams_counter = 0
+            for g in fourgrams_buffer:
+                fourgrams_file.write(" ".join(g)+"\n")
+            fourgrams_buffer = []
+            fourgrams_counter = 0
+            for g in fivegrams_buffer:
+                fivegrams_file.write(" ".join(g)+"\n")
+            fivegrams_buffer = []
+            fivegrams_counter = 0
+            
         #src hashes
         src_hash = xxh64(src_line).hexdigest()        
         try:
@@ -148,6 +191,18 @@ def main():
         # Corpus strings
         src_bytes += len(src_line.encode('utf-8'))
 
+    #Write remaining ngrams in buffers
+    for g in onegrams_buffer:
+        onegrams_file.write(" ".join(g)+"\n")
+    for g in twograms_buffer:
+        twograms_file.write(" ".join(g)+"\n")
+    for g in threegrams_buffer:
+        threegrams_file.write(" ".join(g)+"\n")
+    for g in fourgrams_buffer:
+        fourgrams_file.write(" ".join(g)+"\n")
+    for g in fivegrams_buffer:
+        fivegrams_file.write(" ".join(g)+"\n")
+      
     stats["sentence_pairs"] = total_lines
     stats["unique_sents"] = len(sent_hashes)
     

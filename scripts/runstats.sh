@@ -287,7 +287,9 @@ elif [ "$langformat" == "mono" ]; then
 	fi
 	source /work/venvs/venv-mc/bin/activate
 	echo "Running Monocleaner  Hardrules..."
-	./scripts/parallel-monohardrules.sh $JOBS $srclang $tsv_file_path $tsv_file_path.hardrules 		
+	#./scripts/parallel-monohardrules.sh $JOBS $srclang $tsv_file_path $tsv_file_path.hardrules 		
+        cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1  parallel -k -j $JOBS --pipe monocleaner-hardrules --score_only --annotated_output --run_all_rules $srclang - - > $tsv_file_path.hardrules 2> hr.log
+
 
 	if [ "$monocleaner_metadata" ]; then
 
