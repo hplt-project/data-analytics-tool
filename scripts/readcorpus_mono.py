@@ -10,13 +10,13 @@ import math
 import cProfile
 import statistics
 
-from sacremoses import MosesTokenizer
 from timeit import default_timer
 from util import logging_setup
 from collections import Counter
 from ngrams import get_line_ngrams, get_stopwords
 from xxhash import xxh64
 from bicleanerscorer import read_hardrulestags, read_scores
+from tokenizer import CustomTokenizer
 
 def initialization():
     parser = argparse.ArgumentParser()
@@ -78,6 +78,7 @@ def main():
     stats["srclang"] = args.srclang
     filename = args.corpus.name
     
+
     src_tokenizer = CustomTokenizer(args.srclang)
     
     logging.info("Tokenizing " + args.srclang + " with " +src_tokenizer.toktype + " (" + str(src_tokenizer.getWarnings()) +")" )
@@ -274,6 +275,8 @@ def main():
     monocleaner_scores = read_scores(filename)
     if len(monocleaner_scores) > 0 :
         stats["monocleaner_scores"] = json.dumps(monocleaner_scores)
+
+    stats["warnings"] = warnings
 
     stats["timestamp"]=time.time()
 
