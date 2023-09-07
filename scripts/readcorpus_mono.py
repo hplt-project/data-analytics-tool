@@ -173,8 +173,8 @@ def main():
                 threegrams_file.write(g+"\n")
             threegrams_buffer = []
             threegrams_counter = 0
+        if fourgrams_counter > 1000000:        
             for g in fourgrams_buffer:
-        if fourgrams_counter > 1000000:
                 fourgrams_file.write(g+"\n")
             fourgrams_buffer = []
             fourgrams_counter = 0
