@@ -84,7 +84,9 @@ def main():
     logging.info("Tokenizing " + args.srclang + " with " +src_tokenizer.toktype + " (" + str(src_tokenizer.getWarnings()) +")" )
 
     warnings = []
-    warnings.extend(src_tokenizer.getWarnings())
+    nwarnings = src_tokenizer.getWarnings()
+    for w in nwarnings:
+        warnings.append("src_"+w)
         
     #src_file=open(args.corpus.name,"r").read().splitlines()
 
@@ -110,7 +112,8 @@ def main():
     
     ngrams_warnings = set()    
     stopwords, nwarnings = get_stopwords(args.srclang)
-    ngrams_warnings.update(nwarnings)
+    for w in nwarnings:
+        ngrams_warnings.add("src_"+w)
 
     for src_line in args.corpus:
         total_lines = total_lines+1
@@ -132,7 +135,8 @@ def main():
         #ngrams
 
         ngrams_dict, nwarning = get_line_ngrams(args.srclang, tokenized_src, 5, stopwords)        
-        ngrams_warnings.update(nwarning)
+        for w in nwarning:
+            ngrams_warnings.add("src_"+w)
         
         for g in ngrams_dict.get(1):
             onegrams_buffer.append(" ".join(g))

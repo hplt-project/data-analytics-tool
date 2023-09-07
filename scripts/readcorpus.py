@@ -88,8 +88,11 @@ def main():
     
     warnings = []
     
-    warnings.extend(src_tokenizer.getWarnings())
-    warnings.extend(trg_tokenizer.getWarnings())
+
+    for w in src_tokenizer.getWarnings():
+        warnings.append("src_"+w)
+    for w in trg_tokenizer.getWarnings():
+        warnings.append("trg_"+w)
         
         
     #ngrams files
@@ -129,11 +132,16 @@ def main():
     trg_fourgrams_counter = 0
     trg_fivegrams_counter = 0
        
-    ngrams_warnings = set()    
+    src_ngrams_warnings = set()    
+    trg_ngrams_warnings = set()
+    
     src_stopwords, nwarnings = get_stopwords(args.srclang)
-    ngrams_warnings.update(nwarnings)  
+    for w in nwarnings:
+        src_ngrams_warnings.add("src_"+w)
     trg_stopwords, nwarnings = get_stopwords(args.trglang)
-    ngrams_warnings.update(nwarnings)
+    for w in nwarnings:
+        trg_ngrams_warnings.add("trg_"+w)
+    
           
     #Pure metadata could be in a different function
     stats = {}
@@ -212,9 +220,11 @@ def main():
 
         #ngrams
         src_ngrams_dict, nwarning = get_line_ngrams(args.srclang, tokenized_src, 5, src_stopwords)        
-        ngrams_warnings.update(nwarning)
+        for w in nwarning:
+            src_ngrams_warnings.add("src_"+w)        
         trg_ngrams_dict, nwarning = get_line_ngrams(args.trglang, tokenized_trg, 5, trg_stopwords)        
-        ngrams_warnings.update(nwarning)
+        for w in nwarning:
+            trg_ngrams_warnings,add("trg_"+w)
 
 
         for g in src_ngrams_dict.get(1):
@@ -406,18 +416,6 @@ def main():
         stats["trg_langs"] = json.dumps(trg_langs_list)
 
 
-    #ngrams
-    src_ngrams, src_ngrams_warnings  = get_ngrams(args.srclang, src_tokens, 5)
-    trg_ngrams, trg_ngrams_warnings = get_ngrams(args.trglang, trg_tokens, 5)
-    if len(src_ngrams) > 0:        
-        stats["src_ngrams"] = json.dumps(src_ngrams)
-    if len(trg_ngrams) > 0:
-        stats["trg_ngrams"] = json.dumps(trg_ngrams)
-    warnings.extend(src_ngrams_warnings)
-    warnings.extend(trg_ngrams_warnings)
-    
-
-
     # type token ratio
     try:
         ttr_src = round(len(set(src_alpha_tokens))/ len(src_alpha_tokens),2)
@@ -460,6 +458,9 @@ def main():
             if ("source_lang" in yaml_data  and yaml_data["source_lang"] == "xx")  or  ("target_lang" in yaml_data and yaml_data["target_lang"] == "xx"):
                 warnings.append("bicleaner_xx")
     
+    warnings.extend(src_ngrams_warnings)
+    warnings.extend(trg_ngrams_warnings)
+
     stats["warnings"] = warnings
     stats["timestamp"]=time.time()
     
