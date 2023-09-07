@@ -82,6 +82,8 @@ def fix_stopwords(stopwords, lang):
         stopwords.extend(["з", "это", "т", "н"])
     elif lang == "uk":
         stopwords.extend(["я", "не", "i", "на", "в", "по", "у", "і", "до", "для", "є", "а", "за", "так", "все" ])
+    elif lang == "uz":
+        stopwords.extend(["ва", "билан", "учун", "бу"])  
     return stopwords
 
 def get_stopwords(lang):
