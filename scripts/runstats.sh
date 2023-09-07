@@ -305,6 +305,7 @@ elif [ "$langformat" == "mono" ]; then
 	
 		echo "Running Monocleaner..."
 		#./scripts/parallel-monocleaner.sh $JOBS $datapath/monocleaner/$srclang $tsv_file_path  $tsv_file_path.classify
+		#monocleaner --score_only --disable_hardrules $langpath ${INPUT_FILE} - > ${INPUT_FILE}.o 2>mono.log
 		cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1  parallel -k  -j $JOBS --pipe monocleaner --score_only --disable_hardrules $datapath/monocleaner/$srclang - - > $tsv_file_path.classify 2> mono.log
 
 	fi
