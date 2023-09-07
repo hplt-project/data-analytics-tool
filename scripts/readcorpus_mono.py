@@ -155,9 +155,7 @@ def main():
             fivegrams_counter += 1
             #fivegrams_file.write(" ".join(g)+"\n")
             
-        #If any of the buffers has more than a million ngrams, put all in files
-        if onegrams_counter > 10000000 or twograms_counter > 10000000 or threegrams_counter > 1000000 or fourgrams_counter > 1000000 or fivegrams_counter > 1000000:
-            logging.info("WRITING TO DISK")
+        #Write buffers to files:
         if onegrams_counter > 10000000:
             for g in onegrams_buffer:
                 onegrams_file.write(g+"\n")

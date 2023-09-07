@@ -251,11 +251,7 @@ def main():
             trg_fivegrams_counter += 1
 
 
-     #If any of the buffers has more than a million ngrams, put all in files
-        if src_onegrams_counter > 10000000 or src_twograms_counter > 10000000 or src_threegrams_counter > 10000000 or src_fourgrams_counter > 10000000 or src_fivegrams_counter > 10000000 or \
-            trg_onegrams_counter > 10000000 or trg_twograms_counter > 10000000 or trg_threegrams_counter > 10000000 or trg_fourgrams_counter > 10000000 or trg_fivegrams_counter > 10000000:
-            logging.debug("PRINTING TO FILE")
-            
+        #Write buffers to files:
         if src_onegrams_counter > 10000000:
             for g in src_onegrams_buffer:
                 src_onegrams_file.write(g+"\n")
@@ -271,16 +267,17 @@ def main():
                 src_threegrams_file.write(g+"\n")
             src_threegrams_buffer = []
             src_threegrams_counter = 0
-        if src_fourgrams_counter > 10000000:
+        if src_fourgrams_counter > 1000000:
             for g in src_fourgrams_buffer:
                 src_fourgrams_file.write(g+"\n")
             src_fourgrams_buffer = []
             src_fourgrams_counter = 0
-        if src_fivegrams_counter > 10000000:
+        if src_fivegrams_counter > 1000000:
             for g in src_fivegrams_buffer:
                 src_fivegrams_file.write(g+"\n")
             src_fivegrams_buffer = []
-            src_fivegrams_counter = 0      
+            src_fivegrams_counter = 0  
+                
         if trg_onegrams_counter > 10000000:
             for g in trg_onegrams_buffer:
                 trg_onegrams_file.write(g+"\n")
@@ -296,12 +293,12 @@ def main():
                 trg_threegrams_file.write(g+"\n")
             trg_threegrams_buffer = []
             trg_threegrams_counter = 0
-        if trg_fourgrams_counter > 10000000:
+        if trg_fourgrams_counter > 1000000:
             for g in trg_fourgrams_buffer:
                 trg_fourgrams_file.write(g+"\n")
             trg_fourgrams_buffer = []
             trg_fourgrams_counter = 0
-        if trg_fivegrams_counter > 10000000:
+        if trg_fivegrams_counter > 1000000:
             for g in trg_fivegrams_buffer:
                 trg_fivegrams_file.write(g+"\n")
             trg_fivegrams_buffer = []
