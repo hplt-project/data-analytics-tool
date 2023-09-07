@@ -9,13 +9,13 @@ import json
 import math
 import statistics
 
-from sacremoses import MosesTokenizer
 from timeit import default_timer
 from util import logging_setup
 from collections import Counter
 from xxhash import xxh64
 from ngrams import get_line_ngrams, get_stopwords
 from bicleanerscorer import read_hardrulestags, read_scores
+from tokenizer  import CustomTokenizer
 
 def initialization():
     parser = argparse.ArgumentParser()
@@ -87,6 +87,9 @@ def main():
     sent_hashes = set()
     
     warnings = []
+    
+    warnings.extend(src_tokenizer.getWarnings())
+    warnings.extend(trg_tokenizer.getWarnings())
         
         
     #ngrams files
@@ -168,8 +171,12 @@ def main():
             #continue
             
         #Counting tokens in each sentence
-        src_tokens_count = len(src_tokenizer.tokenize(src_sent))
-        trg_tokens_count = len(trg_tokenizer.tokenize(trg_sent))
+        tokenized_src = src_tokenizer.tokenize(src_sent)
+        tokenized_trg = trg_tokenizer.tokenize(trg_sent)
+
+        src_tokens_count = len(tokenized_src)
+        trg_tokens_count = len(tokenized_trg)
+        
         src_sent_tokens[src_tokens_count] += 1
         trg_sent_tokens[trg_tokens_count] += 1
 
@@ -400,6 +407,7 @@ def main():
         stats["src_langs"] = json.dumps(src_langs_list)
     if len(trg_langs_list) > 0:
         stats["trg_langs"] = json.dumps(trg_langs_list)
+
 
     #ngrams
     src_ngrams, src_ngrams_warnings  = get_ngrams(args.srclang, src_tokens, 5)
