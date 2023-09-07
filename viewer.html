@@ -17,6 +17,7 @@
         <!-- jsPF -->
         <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js" integrity="sha512-qZvrmS2ekKPF2mSznTQsxqPgnpkI4DNTlrdUmTzrDgektczlKNRRhy5X5AAOnx5S09ydFYWWNSfcEqDTTHgtNA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js" integrity="sha512-BNaRQnYJYiPSqHHDb58B0yaPfCu+Wgds8Gp/gU33kqBtgNS4tSPHuGibyoeqMV/TJlSKda6FXzoEyYGjTe+vXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+        <script src="js/OpenSans-Regular-normal.js"></script>
         <script type="text/javascript">
             document.write("<base href='" + window.location.origin + "' />");
         </script>
@@ -104,7 +105,7 @@
             </div>
             <div class="row mb-3">
                 <div class="label-holder bold">
-                    <label class="form-label" for="sent-pairs">Sentence pairs</label>
+                    <label class="form-label" for="sent-pairs">Segment pairs</label>
                 </div>
                 <div class="col-3">
                     <span class="form-control-plaintext" id="sent-pairs" name="sent-pairs"></span>
@@ -126,7 +127,7 @@
             </div>  
             <div class="row mb-3">
                 <div class="label-holder bold">
-                    <label class="form-label" for="sent-unique">Unique sentence pairs</label>
+                    <label class="form-label" for="sent-unique">Unique segment pairs</label>
                 </div>
                 <div class="col-3">
                     <span class="form-control-plaintext" id="sent-unique" name="sent-unique"></span>
@@ -170,7 +171,7 @@
         <div>
             <!-- SENTENCE LENGHT HISTOGRAM -->
             <div class="row my-3" id="sentence-length-header">        
-                <h3>Sentence length distribution</h3>
+                <h3>Segment length distribution</h3>
             </div>
             <div class="row">
                 <div class="col-6 inline" id="src-sentence-length-header">
@@ -217,7 +218,7 @@
         
             <!-- BICLEANER SCORE HISTOGRAM -->
             <div class="row my-3" id="bicleaner-score-header">
-                <h3>Bicleaner score distribution <i class="bi bi-info-circle" style="font-size: 0.7em;" title="Scores from 0 (lower quality sentences) to 1 (higher quality sentences)"></i></h3>
+                <h3>Bicleaner score distribution <i class="bi bi-info-circle" style="font-size: 0.7em;" title="Scores from 0 (lower quality segments) to 1 (higher quality segments)"></i></h3>
             </div>
             <div id="bicleaner_content">        
                 <div class="row">
@@ -369,7 +370,6 @@
                 });           
             });
             
-            const { jsPDF } = window.jspdf;
             
             const languageNames = new Intl.DisplayNames(['en'], {
                 type: 'language'
@@ -410,9 +410,16 @@
                 var current_y = margin_top;
                 var cur_page = 1 
                 
+                //const { jsPDF } = window.jspdf;
+
                 var doc = new jsPDF('p', 'pt', 'a4'); //orientation, units, format
+                
+                console.log('Show all font in jsPDF',doc.getFontList());
+
                 var pageHeight = doc.internal.pageSize.getHeight();
-                doc.setFont("Helvetica")
+                //doc.setFont("Helvetica")
+                doc.setFont('OpenSans-Regular', 'normal');
+                //doc.setFontType('normal');
                 //Header
                 await doc.html(document.getElementById("dat-header"), {
                      html2canvas: {
@@ -723,10 +730,10 @@
             function draw_stacked_histogram(div_id, data_series_totals, data_series_unique,  chart_title, x_axis_label, y_axis_label, img) {
                 // Create the data table.
                 var data = new google.visualization.DataTable();
-                data.addColumn('string', "Sentence length (tokens)");
-                data.addColumn('number', "Sentences");
+                data.addColumn('string', "Segment length (tokens)");
+                data.addColumn('number', "Segments");
                 data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
-                data.addColumn('number', "Duplicated sentences");
+                data.addColumn('number', "Duplicated segments");
                 data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
                 
                 data_series_totals = JSON.parse(data_series_totals)
@@ -770,7 +777,7 @@
                 var options = {
                     //title: chart_title,
                     hAxis: {
-                        title: "Sentence length (tokens)"
+                        title: "Segment length (tokens)"
                          },     
                     vAxis: {
                         title: data.getColumnLabel(1)
@@ -1017,10 +1024,10 @@
                         src_token_distribution = obj["src_sent_tokens"]
                         if ("src_unique_sents" in obj) {
                             src_unique_distribution = obj["src_unique_sents"]
-                            draw_stacked_histogram("src_token_chart", src_token_distribution, src_unique_distribution, "Total and unique source sentences per length (tokens)", "Tokens", "Frequency", "src_length_histogram_img")
+                            draw_stacked_histogram("src_token_chart", src_token_distribution, src_unique_distribution, "Total and unique source segments per length (tokens)", "Tokens", "Frequency", "src_length_histogram_img")
                         }
                         else {
-                            draw_histogram("src_token_chart", src_token_distribution, "Source sentences length (tokens)", "Tokens", "Frequency", "src_length_histogram_img")
+                            draw_histogram("src_token_chart", src_token_distribution, "Source segments length (tokens)", "Tokens", "Frequency", "src_length_histogram_img")
                         }
                         $("#src_token_chart_na").css("display" , "none")
                         $("#src_token_chart").css("visibility", "visible")
@@ -1034,10 +1041,10 @@
                         trg_token_distribution = obj["trg_sent_tokens"]
                         if ("trg_unique_sents" in obj) {
                             trg_unique_distribution =  obj["trg_unique_sents"]
-                            draw_stacked_histogram("trg_token_chart", trg_token_distribution, trg_unique_distribution, "Total and unique target sentences per length (tokens)", "Tokens", "Frequency", "trg_length_histogram_img")
+                            draw_stacked_histogram("trg_token_chart", trg_token_distribution, trg_unique_distribution, "Total and unique target segments per length (tokens)", "Tokens", "Frequency", "trg_length_histogram_img")
                         }
                         else{
-                            draw_histogram("trg_token_chart", trg_token_distribution, "Target sentences length (tokens)", "Tokens", "Frequency", "trg_length_histogram_img")
+                            draw_histogram("trg_token_chart", trg_token_distribution, "Target segments length (tokens)", "Tokens", "Frequency", "trg_length_histogram_img")
                         }
                         $("#trg_token_chart_na").css("display" , "none")
                         $("#trg_token_chart").css("visibility", "visible")
@@ -1049,7 +1056,7 @@
                     
                     if ("src_langs" in obj) {
                         src_langs_distribution = obj["src_langs"]
-                        draw_pie("src_langs_chart", src_langs_distribution, "Source sentences identified language", "src_langid_img")
+                        draw_pie("src_langs_chart", src_langs_distribution, "Source segments identified language", "src_langid_img")
                         $("#src_langs_chart_na").css("display" , "none")
                         $("#src_langs_chart").css("visibility", "visible")
                     }
@@ -1060,7 +1067,7 @@
                     
                     if ("trg_langs" in obj) {
                         trg_langs_distribution = obj["trg_langs"]
-                        draw_pie("trg_langs_chart", trg_langs_distribution, "Target sentences identified language", "trg_langid_img")
+                        draw_pie("trg_langs_chart", trg_langs_distribution, "Target segments identified language", "trg_langid_img")
                         $("#trg_langs_chart_na").css("display" , "none")
                         $("#trg_langs_chart").css("visibility", "visible")
                     }

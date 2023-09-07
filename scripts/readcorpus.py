@@ -7,14 +7,14 @@ import argparse
 import yaml
 import json
 import math
+import statistics
 
 from sacremoses import MosesTokenizer
 from timeit import default_timer
 from util import logging_setup
 from collections import Counter
 from xxhash import xxh64
-from fastspell import FastSpell
-from ngrams import get_ngrams
+from ngrams import get_line_ngrams, get_stopwords
 from bicleanerscorer import read_hardrulestags, read_scores
 
 def initialization():
@@ -64,12 +64,18 @@ def main():
     src_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the source sentence
     trg_sent_tokens = Counter() #defaultdict(int) #Amount of tokens in the target sentence
     
-    src_tokenizer = MosesTokenizer(args.srclang)
-    trg_tokenizer = MosesTokenizer(args.trglang)
+    src_tokenizer = CustomTokenizer(args.srclang)
+    trg_tokenizer = CustomTokenizer(args.trglang)
 
+    logging.info("Tokenizing " + args.srclang + " with " +src_tokenizer.toktype + " (" + str(src_tokenizer.getWarnings()) +")") 
+    logging.info("Tokenizing " + args.trglang + " with " +trg_tokenizer.toktype + " (" + str(src_tokenizer.getWarnings()) +")") 
+    
     src_tokens = []
+    src_alpha_tokens = []
+    
     trg_tokens = []
-
+    trg_alpha_tokens = [] 
+    
     src_bytes=0
     trg_bytes=0
 
@@ -82,14 +88,56 @@ def main():
     
     warnings = []
         
+        
+    #ngrams files
+    src_onegrams_file = open(args.corpus.name + "." + args.srclang + ".one", "w")
+    src_twograms_file = open(args.corpus.name +  "." + args.srclang + ".two", "w")
+    src_threegrams_file = open(args.corpus.name + "." + args.srclang +  ".three", "w")
+    src_fourgrams_file = open(args.corpus.name + "." + args.srclang + ".four", "w")
+    src_fivegrams_file = open(args.corpus.name + "." + args.srclang +".five", "w")        
+
+    trg_onegrams_file = open(args.corpus.name + "." + args.trglang + ".one", "w")
+    trg_twograms_file = open(args.corpus.name +  "." + args.trglang + ".two", "w")
+    trg_threegrams_file = open(args.corpus.name + "." + args.trglang +  ".three", "w")
+    trg_fourgrams_file = open(args.corpus.name + "." + args.trglang + ".four", "w")
+    trg_fivegrams_file = open(args.corpus.name + "." + args.trglang +".five", "w")
+
+    src_onegrams_buffer = []
+    src_twograms_buffer = []
+    src_threegrams_buffer = []
+    src_fourgrams_buffer =  []
+    src_fivegrams_buffer = []
+    
+    trg_onegrams_buffer = []
+    trg_twograms_buffer = []
+    trg_threegrams_buffer = []
+    trg_fourgrams_buffer =  []
+    trg_fivegrams_buffer = []
+
+    src_onegrams_counter = 0
+    src_twograms_counter = 0
+    src_threegrams_counter = 0
+    src_fourgrams_counter = 0
+    src_fivegrams_counter = 0
+    
+    trg_onegrams_counter = 0
+    trg_twograms_counter = 0
+    trg_threegrams_counter = 0
+    trg_fourgrams_counter = 0
+    trg_fivegrams_counter = 0
+       
+    ngrams_warnings = set()    
+    src_stopwords, nwarnings = get_stopwords(args.srclang)
+    ngrams_warnings.update(nwarnings)  
+    trg_stopwords, nwarnings = get_stopwords(args.trglang)
+    ngrams_warnings.update(nwarnings)
+          
     #Pure metadata could be in a different function
     stats = {}
     stats["corpus"] = os.path.basename(args.corpus.name)
     stats["srclang"] = args.srclang
     stats["trglang"] = args.trglang
     
-    fastspell_src = FastSpell(args.srclang, mode="cons")
-    fastspell_trg = FastSpell(args.trglang, mode="cons")
     
     if "tsv" in args.corpus.name:
         filename=args.corpus.name.replace(".tsv","")
@@ -143,21 +191,144 @@ def main():
             trg_hashes[trg_tokens_count].add(trg_hash)
             
         sent_hashes.add(sent_hash)
-            
-        #Get langid for each sentence
-        src_langid = fastspell_src.getlang(src_sent)
-        trg_langid = fastspell_trg.getlang(trg_sent)
-        src_langs[src_langid] += 1
-        trg_langs[trg_langid] += 1        
-        
+                    
         #Add tokens for each sentence
-        src_tokens.extend(src_tokenizer.tokenize(src_sent)) # Tokenization can be improved
-        trg_tokens.extend(trg_tokenizer.tokenize(trg_sent)) # Tokenization can be improved
-         
+        src_tokens.extend(tokenized_src)
+        for token in tokenized_src:
+            if any(c.isalpha() for c in token):
+                src_alpha_tokens.append(token)
+
+        trg_tokens.extend(tokenized_trg)
+        for token in tokenized_trg:
+            if any(c.isalpha() for c in token):
+                trg_alpha_tokens.append(token)
+
+        #ngrams
+        src_ngrams_dict, nwarning = get_line_ngrams(args.srclang, tokenized_src, 5, src_stopwords)        
+        ngrams_warnings.update(nwarning)
+        trg_ngrams_dict, nwarning = get_line_ngrams(args.trglang, tokenized_trg, 5, trg_stopwords)        
+        ngrams_warnings.update(nwarning)
+
+
+        for g in src_ngrams_dict.get(1):
+            src_onegrams_buffer.append(" ".join(g))
+            src_onegrams_counter += 1
+        for g in src_ngrams_dict.get(2):
+            src_twograms_buffer.append(" ".join(g))
+            src_twograms_counter += 1
+        for g in src_ngrams_dict.get(3):
+            src_threegrams_buffer.append(" ".join(g))
+            src_threegrams_counter += 1
+        for g in src_ngrams_dict.get(4): 
+            src_fourgrams_buffer.append(" ".join(g))
+            src_fourgrams_counter += 1
+        for g in src_ngrams_dict.get(5):
+            src_fivegrams_buffer.append(" ".join(g))
+            src_fivegrams_counter += 1
+        
+        
+        for g in trg_ngrams_dict.get(1):
+            trg_onegrams_buffer.append(" ".join(g))
+            trg_onegrams_counter += 1
+        for g in trg_ngrams_dict.get(2):
+            trg_twograms_buffer.append(" ".join(g))
+            trg_twograms_counter += 1
+        for g in trg_ngrams_dict.get(3):
+            trg_threegrams_buffer.append(" ".join(g))
+            trg_threegrams_counter += 1
+        for g in trg_ngrams_dict.get(4): 
+            trg_fourgrams_buffer.append(" ".join(g))
+            trg_fourgrams_counter += 1
+        for g in trg_ngrams_dict.get(5):
+            trg_fivegrams_buffer.append(" ".join(g))
+            trg_fivegrams_counter += 1
+
+
+     #If any of the buffers has more than a million ngrams, put all in files
+        if src_onegrams_counter > 10000000 or src_twograms_counter > 10000000 or src_threegrams_counter > 10000000 or src_fourgrams_counter > 10000000 or src_fivegrams_counter > 10000000 or \
+            trg_onegrams_counter > 10000000 or trg_twograms_counter > 10000000 or trg_threegrams_counter > 10000000 or trg_fourgrams_counter > 10000000 or trg_fivegrams_counter > 10000000:
+            logging.debug("PRINTING TO FILE")
+            
+        if src_onegrams_counter > 10000000:
+            for g in src_onegrams_buffer:
+                src_onegrams_file.write(g+"\n")
+            src_onegrams_buffer = []
+            src_onegrams_counter = 0
+        if src_twograms_counter > 10000000:
+            for g in src_twograms_buffer:
+                src_twograms_file.write(g+"\n")
+            src_twograms_buffer = []
+            src_twograms_counter = 0
+        if src_threegrams_counter > 10000000:
+            for g in src_threegrams_buffer:
+                src_threegrams_file.write(g+"\n")
+            src_threegrams_buffer = []
+            src_threegrams_counter = 0
+        if src_fourgrams_counter > 10000000:
+            for g in src_fourgrams_buffer:
+                src_fourgrams_file.write(g+"\n")
+            src_fourgrams_buffer = []
+            src_fourgrams_counter = 0
+        if src_fivegrams_counter > 10000000:
+            for g in src_fivegrams_buffer:
+                src_fivegrams_file.write(g+"\n")
+            src_fivegrams_buffer = []
+            src_fivegrams_counter = 0      
+        if trg_onegrams_counter > 10000000:
+            for g in trg_onegrams_buffer:
+                trg_onegrams_file.write(g+"\n")
+            trg_onegrams_buffer = []
+            trg_onegrams_counter = 0
+        if trg_twograms_counter > 10000000:
+            for g in trg_twograms_buffer:
+                trg_twograms_file.write(g+"\n")
+            trg_twograms_buffer = []
+            trg_twograms_counter = 0
+        if trg_threegrams_counter > 10000000:
+            for g in trg_threegrams_buffer:
+                trg_threegrams_file.write(g+"\n")
+            trg_threegrams_buffer = []
+            trg_threegrams_counter = 0
+        if trg_fourgrams_counter > 10000000:
+            for g in trg_fourgrams_buffer:
+                trg_fourgrams_file.write(g+"\n")
+            trg_fourgrams_buffer = []
+            trg_fourgrams_counter = 0
+        if trg_fivegrams_counter > 10000000:
+            for g in trg_fivegrams_buffer:
+                trg_fivegrams_file.write(g+"\n")
+            trg_fivegrams_buffer = []
+            trg_fivegrams_counter = 0        
+            
         # Corpus strings
         src_bytes += len(src_sent.encode('utf-8'))
         trg_bytes += len(trg_sent.encode('utf-8'))
 
+    
+    
+    #Write remaining ngrams in buffers
+    for g in src_onegrams_buffer:
+        src_onegrams_file.write(g+"\n")
+    for g in src_twograms_buffer:
+        src_twograms_file.write(g+"\n")
+    for g in src_threegrams_buffer:
+        src_threegrams_file.write(g+"\n")
+    for g in src_fourgrams_buffer:
+        src_fourgrams_file.write(g+"\n")
+    for g in src_fivegrams_buffer:
+        src_fivegrams_file.write(g+"\n")
+    for g in trg_onegrams_buffer:
+        trg_onegrams_file.write(g+"\n")
+    for g in trg_twograms_buffer:
+        trg_twograms_file.write(g+"\n")
+    for g in trg_threegrams_buffer:
+        trg_threegrams_file.write(g+"\n")
+    for g in trg_fourgrams_buffer:
+        trg_fourgrams_file.write(g+"\n")
+    for g in trg_fivegrams_buffer:
+        trg_fivegrams_file.write(g+"\n")
+
+    
     stats["sentence_pairs"] = total_lines
     stats["unique_sents"] = len(sent_hashes)
     
@@ -176,8 +347,12 @@ def main():
             src_hashes_list.append([token, 0])
     if len(src_tokens_list) > 0:
         stats["src_sent_tokens"] = str(src_tokens_list)
+        src_tokens_elements = sorted(src_sent_tokens.elements())
+        stats["src_sent_tokens_mean"] = round(statistics.mean(src_tokens_elements))
+        stats["src_sent_tokens_median"] = round(statistics.median(src_tokens_elements))
     if len(src_hashes_list) > 0:
         stats["src_unique_sents"] = str(src_hashes_list)
+        
     
     trg_tokens_list = []
     trg_hashes_list = []
@@ -189,37 +364,62 @@ def main():
             trg_hashes_list.append([token, 0])
     if len(trg_tokens_list) > 0:
         stats["trg_sent_tokens"] = str(trg_tokens_list)
+        trg_tokens_elements = sorted(trg_sent_tokens.elements())
+        stats["trg_sent_tokens_mean"] = round(statistics.mean(trg_tokens_elements))
+        stats["trg_sent_tokens_median"] = round(statistics.median(trg_tokens_elements))
     if len(trg_hashes_list) > 0:
         stats["trg_unique_sents"] = str(trg_hashes_list)
 
 
+    #Language ID
     src_langs_list = []
-    for lang, freq in src_langs.most_common():
-        src_langs_list.append([lang, freq])
+    trg_langs_list = []
+    src_langs_file = filename+"."+args.srclang+".langcounts"
+    trg_langs_file = filename+"."+args.trglang+".langcounts"
+    
+    if not os.path.exists(src_langs_file):
+         logging.warning("Language file " + src_langs_file  + " not found")
+    else:
+        for line in open(src_langs_file, "r"):
+            lineparts = line.split()
+            id_lang = lineparts[1].strip()
+            count_lang = int(lineparts[0].strip())
+            src_langs_list.append([id_lang, count_lang])
+            
+    if not os.path.exists(trg_langs_file):
+         logging.warning("Language file " + trg_langs_file  + " not found")
+    else:
+        for line in open(trg_langs_file, "r"):
+            lineparts = line.split()
+            id_lang = lineparts[1].strip()
+            count_lang = int(lineparts[0].strip())
+            trg_langs_list.append([id_lang, count_lang])
+
+            
     if len(src_langs_list) > 0:
         stats["src_langs"] = json.dumps(src_langs_list)
-
-    trg_langs_list = []
-    for lang, freq in trg_langs.most_common():
-        trg_langs_list.append([lang, freq])
-    if len(trg_langs_list) > 0 :
+    if len(trg_langs_list) > 0:
         stats["trg_langs"] = json.dumps(trg_langs_list)
 
-    # ngrams
-    src_ngrams = get_ngrams(src_tokens, 5)
-    trg_ngrams = get_ngrams(trg_tokens, 5)
-    if len(src_ngrams) > 0:
+    #ngrams
+    src_ngrams, src_ngrams_warnings  = get_ngrams(args.srclang, src_tokens, 5)
+    trg_ngrams, trg_ngrams_warnings = get_ngrams(args.trglang, trg_tokens, 5)
+    if len(src_ngrams) > 0:        
         stats["src_ngrams"] = json.dumps(src_ngrams)
     if len(trg_ngrams) > 0:
         stats["trg_ngrams"] = json.dumps(trg_ngrams)
+    warnings.extend(src_ngrams_warnings)
+    warnings.extend(trg_ngrams_warnings)
+    
+
 
     # type token ratio
     try:
-        ttr_src = round(len(set(src_tokens))/ len(src_tokens),2)
+        ttr_src = round(len(set(src_alpha_tokens))/ len(src_alpha_tokens),2)
     except ZeroDivisionError:
         ttr_src = None
     try:
-        ttr_trg = round(len(set(trg_tokens))/ len(trg_tokens),2)
+        ttr_trg = round(len(set(trg_alpha_tokens))/ len(trg_alpha_tokens),2)
     except ZeroDivisionError:
         ttr_trg = None
     
