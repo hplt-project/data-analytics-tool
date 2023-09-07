@@ -218,36 +218,36 @@ def main():
 
 
         for g in src_ngrams_dict.get(1):
-            src_onegrams_buffer.add(g)
+            src_onegrams_buffer.append(" ".join(g))
             src_onegrams_counter += 1
         for g in src_ngrams_dict.get(2):
-            src_twograms_buffer.add(g)
+            src_twograms_buffer.append(" ".join(g))
             src_twograms_counter += 1
         for g in src_ngrams_dict.get(3):
-            src_threegrams_buffer.add(g)
+            src_threegrams_buffer.append(" ".join(g))
             src_threegrams_counter += 1
         for g in src_ngrams_dict.get(4): 
-            src_fourgrams_buffer.add(g)
+            src_fourgrams_buffer.append(" ".join(g))
             src_fourgrams_counter += 1
         for g in src_ngrams_dict.get(5):
-            src_fivegrams_buffer.add(g)
+            src_fivegrams_buffer.append(" ".join(g))
             src_fivegrams_counter += 1
         
         
         for g in trg_ngrams_dict.get(1):
-            trg_onegrams_buffer.add(g)
+            trg_onegrams_buffer.append(" ".join(g))
             trg_onegrams_counter += 1
         for g in trg_ngrams_dict.get(2):
-            trg_twograms_buffer.add(g)
+            trg_twograms_buffer.append(" ".join(g))
             trg_twograms_counter += 1
         for g in trg_ngrams_dict.get(3):
-            trg_threegrams_buffer.add(g)
+            trg_threegrams_buffer.append(" ".join(g))
             trg_threegrams_counter += 1
         for g in trg_ngrams_dict.get(4): 
-            trg_fourgrams_buffer.add(g)
+            trg_fourgrams_buffer.append(" ".join(g))
             trg_fourgrams_counter += 1
         for g in trg_ngrams_dict.get(5):
-            trg_fivegrams_buffer.add(g)
+            trg_fivegrams_buffer.append(" ".join(g))
             trg_fivegrams_counter += 1
 
 
@@ -258,52 +258,52 @@ def main():
             
         if src_onegrams_counter > 10000000:
             for g in src_onegrams_buffer:
-                src_onegrams_file.write(" ".join(g)+"\n")
+                src_onegrams_file.write(g+"\n")
             src_onegrams_buffer = []
             src_onegrams_counter = 0
         if src_twograms_counter > 10000000:
             for g in src_twograms_buffer:
-                src_twograms_file.write(" ".join(g)+"\n")
+                src_twograms_file.write(g+"\n")
             src_twograms_buffer = []
             src_twograms_counter = 0
         if src_threegrams_counter > 10000000:
             for g in src_threegrams_buffer:
-                src_threegrams_file.write(" ".join(g)+"\n")
+                src_threegrams_file.write(g+"\n")
             src_threegrams_buffer = []
             src_threegrams_counter = 0
         if src_fourgrams_counter > 10000000:
             for g in src_fourgrams_buffer:
-                src_fourgrams_file.write(" ".join(g)+"\n")
+                src_fourgrams_file.write(g+"\n")
             src_fourgrams_buffer = []
             src_fourgrams_counter = 0
         if src_fivegrams_counter > 10000000:
             for g in src_fivegrams_buffer:
-                src_fivegrams_file.write(" ".join(g)+"\n")
+                src_fivegrams_file.write(g+"\n")
             src_fivegrams_buffer = []
             src_fivegrams_counter = 0      
         if trg_onegrams_counter > 10000000:
             for g in trg_onegrams_buffer:
-                trg_onegrams_file.write(" ".join(g)+"\n")
+                trg_onegrams_file.write(g+"\n")
             trg_onegrams_buffer = []
             trg_onegrams_counter = 0
         if trg_twograms_counter > 10000000:
             for g in trg_twograms_buffer:
-                trg_twograms_file.write(" ".join(g)+"\n")
+                trg_twograms_file.write(g+"\n")
             trg_twograms_buffer = []
             trg_twograms_counter = 0
         if trg_threegrams_counter > 10000000:
             for g in trg_threegrams_buffer:
-                trg_threegrams_file.write(" ".join(g)+"\n")
+                trg_threegrams_file.write(g+"\n")
             trg_threegrams_buffer = []
             trg_threegrams_counter = 0
         if trg_fourgrams_counter > 10000000:
             for g in trg_fourgrams_buffer:
-                trg_fourgrams_file.write(" ".join(g)+"\n")
+                trg_fourgrams_file.write(g+"\n")
             trg_fourgrams_buffer = []
             trg_fourgrams_counter = 0
         if trg_fivegrams_counter > 10000000:
             for g in trg_fivegrams_buffer:
-                trg_fivegrams_file.write(" ".join(g)+"\n")
+                trg_fivegrams_file.write(g+"\n")
             trg_fivegrams_buffer = []
             trg_fivegrams_counter = 0        
             
@@ -315,25 +315,25 @@ def main():
     
     #Write remaining ngrams in buffers
     for g in src_onegrams_buffer:
-        src_onegrams_file.write(" ".join(g)+"\n")
+        src_onegrams_file.write(g+"\n")
     for g in src_twograms_buffer:
-        src_twograms_file.write(" ".join(g)+"\n")
+        src_twograms_file.write(g+"\n")
     for g in src_threegrams_buffer:
-        src_threegrams_file.write(" ".join(g)+"\n")
+        src_threegrams_file.write(g+"\n")
     for g in src_fourgrams_buffer:
-        src_fourgrams_file.write(" ".join(g)+"\n")
+        src_fourgrams_file.write(g+"\n")
     for g in src_fivegrams_buffer:
-        src_fivegrams_file.write(" ".join(g)+"\n")
+        src_fivegrams_file.write(g+"\n")
     for g in trg_onegrams_buffer:
-        trg_onegrams_file.write(" ".join(g)+"\n")
+        trg_onegrams_file.write(g+"\n")
     for g in trg_twograms_buffer:
-        trg_twograms_file.write(" ".join(g)+"\n")
+        trg_twograms_file.write(g+"\n")
     for g in trg_threegrams_buffer:
-        trg_threegrams_file.write(" ".join(g)+"\n")
+        trg_threegrams_file.write(g+"\n")
     for g in trg_fourgrams_buffer:
-        trg_fourgrams_file.write(" ".join(g)+"\n")
+        trg_fourgrams_file.write(g+"\n")
     for g in trg_fivegrams_buffer:
-        trg_fivegrams_file.write(" ".join(g)+"\n")
+        trg_fivegrams_file.write(g+"\n")
 
     
     stats["sentence_pairs"] = total_lines
