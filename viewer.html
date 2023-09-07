@@ -21,7 +21,8 @@
         <script type="text/javascript">
             document.write("<base href='" + window.location.origin + "' />");
         </script>
-
+    <link href="/css/footer-viewer.css" rel="stylesheet" />
+    <link href="/css/index.css" rel="stylesheet" />
         <style>
             .navbar-brand
             {
@@ -40,8 +41,8 @@
         <title>Data Analytics Tool - Viewer</title>
     </head>
     <body>    
-        <div class="container-lg">
-            <nav class="navbar navbar-light bg-light" id="dat-header">
+        <div class="container-fluid main-container">
+            <nav class="navbar navbar-light" id="dat-header">
                 <a class="navbar-brand" href="/">
                     <img src="img/logo.png" height="50px"/> Data Analytics Tool
                 </a>
@@ -55,10 +56,10 @@
 
 
         <div class="row my-3">
-            <div class="col-2">
+            <div class="input-holder">
                 <select name="corpora-selector" id="corpora-selector"  class="form-select"></select>
             </div>
-            <div class="col-2">
+            <div class="input-holder">
                 <button id="load-button" class="btn btn-primary">Load corpus stats</button>
             </div>
         </div>
@@ -70,13 +71,13 @@
                 <h3>Corpus</h3>
             </div>            
             <div class="row mb-3">        
-                <div class="col-1">
+                <div class="label-holder bold">
                     <label class="form-label" for="corpus-name">Name</label>
                 </div>
                 <div class="col-3">
                     <span class="form-control-plaintext" id="corpus-name" name="corpus-name"></span>
                 </div>
-                <div class="col-1">
+                <div class="label-holder bold">
                     <label class="form-label" for="timestamp">Analytics date</label>
                 </div>
                 <div class="col-3">
@@ -84,13 +85,13 @@
                 </div>
             </div>
             <div class="row my-3">
-                <div class="col-1">
+                <div class="label-holder bold">
                     <label class="form-label" for="slang">Source language</label>
                 </div>
                 <div class="col-3">
                     <span class="form-control-plaintext" id="slang" name="slang"></span>
                 </div>
-                <div class="col-1">
+                <div class="label-holder bold">
                     <label class="form-label" for="tlang">Target language</label>
                 </div>
                 <div class="col-3">
@@ -103,44 +104,48 @@
                 <h3>Volumes</h3>
             </div>
             <div class="row mb-3">
-                <div class="col-1">
+                <div class="label-holder bold">
                     <label class="form-label" for="sent-pairs">Segment pairs</label>
                 </div>
                 <div class="col-3">
                     <span class="form-control-plaintext" id="sent-pairs" name="sent-pairs"></span>
                 </div>
-                <div class="col-1">
+                <div class="label-holder bold">
                     <label class="form-label" for="src-bytes">Source size</label>
                 </div>
                 <div class="col-3">
                     <span class="form-control-plaintext" id="src-bytes" name="src-bytes"></span>
                 </div>
-                <div class="col-1">
+                <div class="parent-holder">
+                <div class="label-holder bold">
                     <label class="form-label" for="trg-bytes">Target size</label>
                 </div>
                 <div class="col-3">
                     <span class="form-control-plaintext" id="trg-bytes" name="trg-bytes"></span>
                 </div>
+            </div>
             </div>  
             <div class="row mb-3">
-                <div class="col-1">
+                <div class="label-holder bold">
                     <label class="form-label" for="sent-unique">Unique segment pairs</label>
                 </div>
                 <div class="col-3">
                     <span class="form-control-plaintext" id="sent-unique" name="sent-unique"></span>
                 </div>
-                <div class="col-1">
+                <div class="label-holder bold">
                     <label class="form-label" for="src-tokens">Source tokens</label>
                 </div>
                 <div class="col-3">
                     <span class="form-control-plaintext" id="src-tokens" name="src-tokens"></span>
                 </div>
-                <div class="col-1">
+                <div class="parent-holder">
+                <div class="label-holder bold">
                     <label class="form-label" for="trg-tokens">Target tokens</label>
                 </div>
                 <div class="col-3">
                     <span class="form-control-plaintext" id="trg-tokens" name="trg-tokens"></span>
                 </div>
+            </div>
 
             </div>
         
@@ -149,13 +154,13 @@
                 <h3>Type-Token Ratio</h3>
             </div>
             <div class="row mb-3">
-                <div class="col-1">
+                <div class="label-holder bold">
                     <label class="form-label" for="src-ttr">Source</label>
                 </div>
                 <div class="col-3">
                     <span class="form-control-plaintext" id="src-ttr" name="src-ttr"></span>
                 </div>
-                <div class="col-1">
+                <div class="label-holder bold">
                     <label class="form-label" for="trg-ttr">Target</label>
                 </div>
                 <div class="col-3">
@@ -279,6 +284,50 @@
                 <a class="btn btn-dark" href="./uploader.html">Go to uploader</a>
             </div>
         </div>
+        <div class="footer">
+            <div class="footer-text-left">
+              <p class="hplt-copyright">Ⓒ HPLT 2023</p>
+              <a
+                href="https://cordis.europa.eu/project/id/101070350"
+                class="horizon-link"
+                target="_blank"
+              >
+                <img
+                  src="img/horizon.svg"
+                  alt="european-union-flag"
+                  class="horizon-logo"
+                />
+              </a>
+        
+              <a href="https://www.ukri.org" class="ukri-link" target="_blank">
+                <img src="/img/UKRIlogo.png" alt="ukri-logo" class="ukri-logo" />
+              </a>
+        
+              <p class="footer-info">
+                This project has received funding from the European Union’s Horizon
+                Europe research and innovation programme under grant agreement No
+                101070350 and from UK Research and Innovation (UKRI) under the UK
+                government’s Horizon Europe funding guarantee [grant number 10052546]
+              </p>
+            </div>
+            <div class="footer-text-middle">
+              <img src="/img/eu-flag.png" alt="" class="eu-flag" />
+              <p class="footer-info">
+                The contents of this publication are the sole responsibility of the
+                HPLT consortium and do not necessarily reflect the opinion of the
+                European Union.
+              </p>
+            </div>
+            <div class="footer-text-right">
+              <a href="https://twitter.com/hplt_eu" target="_blank" rel="noreferrer">
+                <img
+                  src="/img/twitter.svg"
+                  alt="twitter-icon"
+                  class="twitter-icon-footer"
+                />
+              </a>
+            </div>
+          </div>
         
 
         <script>
@@ -675,7 +724,8 @@
                 materialChart.draw(data, options);
                 chart_images[img] = materialChart.getImageURI();
             }           
-            
+  
+
             
             function draw_stacked_histogram(div_id, data_series_totals, data_series_unique,  chart_title, x_axis_label, y_axis_label, img) {
                 // Create the data table.
@@ -1123,9 +1173,20 @@
                         $("#trg-ttr").css("color", "inherit")
                     }
                 });
+
+
+//                $(window).resize(function(){
+//     const width = $(window).width();
+//    if(width%10 == 0 ) {
+//     load_data($("#corpora-selector").val());
+//                     document.getElementById('download-yaml').href="/download/"+$("#corpora-selector").val();
+
+//    }
+                
+// });
             }
         </script>
-
+ 
     </body>
 </html>
 
