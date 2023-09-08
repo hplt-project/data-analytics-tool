@@ -4,8 +4,9 @@ from nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
 
 
 ENV BINPATH=/opt/bin
-ENV LANG=C.UTF-8
+#ENV LANG=C.UTF-8
 ENV DEBIAN_FRONTEND=noninteractive
+ENV LC_ALL=C 
 
 RUN mkdir -p /work/
 RUN mkdir -p /work/img/
