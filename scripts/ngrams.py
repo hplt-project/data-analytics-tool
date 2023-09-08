@@ -114,6 +114,10 @@ def get_stopwords(lang):
         stop_words = fix_stopwords(stop_words, lang)
         
     else:    
+        stop_words = []
+        warnings = ["ngrams_"+lang+"_nostopwords"]
+        
+        '''
         logging.info("Stopwords on the fly")
         # Count the frequencies of each token
         token_freq = Counter(tokens)
@@ -122,7 +126,7 @@ def get_stopwords(lang):
         # Get the top tokens with the highest frequency
         stop_words = [token for token, freq in token_freq.most_common(num_tokens_to_keep)]
         warnings = ["ngrams_" + lang + "_freq"]        
-    
+        '''
     logging.info("Stopwords: " + str(stop_words))
     return stop_words, warnings
 

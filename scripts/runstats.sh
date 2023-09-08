@@ -176,7 +176,10 @@ if [ "$langformat" == "parallel" ]; then
         #echo "CUT"
         #time parallel -j $JOBS -k cut -f2 $tsv_file_path > $saved_file_path.$trglang
 
-    
+	#Force FastSpell FastText download
+	python3 ./scripts/force-fasttext-download.py $srclang
+        python3 ./scripts/force-fasttext-download.py $trglang
+
 	#Bicleaner Hardrules
     	source /work/venvs/venv-bhr/bin/activate
 	if [ "$bicleaner_metadata" ]; then
@@ -227,9 +230,6 @@ if [ "$langformat" == "parallel" ]; then
 
 	#Fastspell
 	echo "Running FastSpell..."
-	#Ðownload Fasttext model in case it does not exist, before running in parallel
-	python3 ./scripts/force-fasttext-download.py $srclang
-	python3 ./scripts/force-fasttext-download.py $trglang
 	./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $saved_file_path.$srclang.langids 1 
 	./scripts/parallel-fastspell.sh $JOBS $trglang $tsv_file_path $saved_file_path.$trglang.langids 2
 	
@@ -247,8 +247,8 @@ if [ "$langformat" == "parallel" ]; then
 		python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang $metadata_file
 	fi
 	
-        rm $tsv_file_path.$srclang".ngrams"
-        rm $tsv_file_path.$trglang".ngrams"
+        rm -f $tsv_file_path.$srclang".ngrams"
+        rm -f $tsv_file_path.$trglang".ngrams"
 
         for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
         do
@@ -279,6 +279,8 @@ elif [ "$langformat" == "mono" ]; then
                 exit 1
 	fi
 	
+	#Force Fasttext download, in case it does exist, to avoid doing it in parallel
+        python3 ./scripts/force-fasttext-download.py $srclang
 	
 	#Monolingual
 	if [[ " ${monocleaner_langs[*]} " =~ " $srclang " ]]; then
@@ -314,8 +316,7 @@ elif [ "$langformat" == "mono" ]; then
 	
         #Fastspell
         echo "Running FastSpell..."
-        #Force Fasttext download, in case it does exist, to avoid doing it in parallel
-        python3 ./scripts/force-fasttext-download.py $srclang
+
         ./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $saved_file_path.$srclang.langids 1 
         cat $saved_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $saved_file_path.$srclang.langcounts
 	
