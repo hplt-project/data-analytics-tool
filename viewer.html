@@ -258,6 +258,9 @@
                     <div id="src-ngrams-na">n/a</div>
                     <div id="src-ngrams"></div>
                 </div>
+                <div class="row my-3  alert alert-warning" role="alert" id="src-tokenizer-warning">
+                    <i class="bi bi-exclamation-triangle"></i>
+                </div>
             </div>
         
             <div class="row mb-3">            
@@ -271,6 +274,9 @@
                     <div id="trg-ngrams"></div>
                 </div>
             </div>
+            <div class="row my-3  alert alert-warning" role="alert" id="trg-tokenizer-warning">
+                <i class="bi bi-exclamation-triangle"></i>
+           </div>
         </div>
         
         <div class="row my-3">
@@ -917,7 +923,7 @@
                     allowHtml: true,
                     minColor: 'thistle',
                     midColor: 'mediumslateblue',
-                    maxColor: 'darkslateblue'
+                    maxColor: 'slateblue'
 //                    minColor: 'powderblue',
 //                    minColor: 'orangered',                        
 //                    midColor: 'dodgerblue',
@@ -1128,28 +1134,39 @@
                     }
                     
                     if ("src_ngrams" in obj) {
+                        /*if ("warnings" in obj) {
+                            for w in obj["warnings"]{
+                                if (w.startsWith("tok_")
+                                    $("#src-tok-warning").css("display", "block")
+                                }
+                            }
+                        }*/
                         src_ngrams = obj["src_ngrams"]
-                        //draw_ngrams("src-ngrams", src_ngrams)           
                         draw_treemap("src-ngrams", src_ngrams, "src_ngrams_obj")  
                         $("#src-ngrams-na").css("display" , "none")
                         $("#src-ngrams").css("visibility", "visible")         
+                        $("#src-tokenizer-warning").css("display", "none")
                     }
                     else {
                         $("#src-ngrams-na").css("display" , "block")
                         $("#src-ngrams").css("visibility", "collapse")
+                        $("#src-tokenizer-warning").css("display", "none")
+
                     }
                     
                     if ("trg_ngrams" in obj) {
                         trg_ngrams = obj["trg_ngrams"]
-                        //draw_ngrams("trg-ngrams", trg_ngrams)
-                        draw_treemap("trg-ngrams", trg_ngrams, "trg_ngrams_obj")
+                         draw_treemap("trg-ngrams", trg_ngrams, "trg_ngrams_obj")
                         $("#trg-ngrams-na").css("display" , "none")
                         $("#trg-ngrams").css("visibility", "visible")
+                        $("#trg-tokenizer-warning").css("display", "none")
                         
                     }
                     else {
                         $("#trg-ngrams-na").css("display" , "block")
                         $("#trg-ngrams").css("visibility", "collapse")
+                        $("#trg-tokenizer-warning").css("display", "none")
+
                     }
                     
                     if ("ttr_src" in obj) {
