@@ -78,12 +78,12 @@ RUN python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3
 
 COPY *.html /work/
 COPY favicon.ico /work/
-COPY img/* /work/img/
-COPY css/* /work/css/
-COPY js/* /work/js/
+COPY img/ /work/img/
+COPY css/ /work/css/
+COPY js/ /work/js/
 COPY server.py /work/
-COPY scripts/* /work/scripts/
-COPY scripts/resources/* /work/scripts/resources/
+COPY scripts/ /work/scripts/
+#COPY scripts/resources/* /work/scripts/resources/
 
 COPY deployment/docker-entrypoint.sh /work/deployment/docker-entrypoint.sh
 
