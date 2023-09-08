@@ -258,8 +258,8 @@ if [ "$langformat" == "parallel" ]; then
                 sort $tsv_file_path.$trglang.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 5 |   awk -v ORDER=$ORDER '{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$trglang".ngrams"
 
         done
-        python3 ./scripts/addngrams.py $tsv_file_path".ngrams"  $yaml_file_path "src"
-        python3 ./scripts/addngrams.py $tsv_file_path".ngrams"  $yaml_file_path "trg"
+        python3 ./scripts/addngrams.py $tsv_file_path.$srclang".ngrams"  $yaml_file_path "src"
+        python3 ./scripts/addngrams.py $tsv_file_path.$trglang".ngrams"  $yaml_file_path "trg"
 
 
 
