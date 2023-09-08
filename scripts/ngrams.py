@@ -89,7 +89,7 @@ def fix_stopwords(stopwords, lang):
 def get_stopwords(lang):
     # Language-agnostic strategy for stopwords, can be improved
     stop_words = []
-    warnings =   []    
+    warnings = []    
     if lang in NLTK_STOPWORDS_LANGS.keys():        
         logging.info("Stopwords from NLTK")
         langname = NLTK_STOPWORDS_LANGS.get(lang)
@@ -114,7 +114,7 @@ def get_stopwords(lang):
         stop_words = fix_stopwords(stop_words, lang)
         
     else:    
-        stop_words = []
+        stop_words = [""] #ñapa to avoid it crashing
         warnings = ["ngrams_"+lang+"_nostopwords"]
         
         '''
