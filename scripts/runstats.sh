@@ -325,7 +325,7 @@ elif [ "$langformat" == "mono" ]; then
 	echo "Running ReadCorpus Mono..."
 	python3 ./scripts/readcorpus_mono.py $tsv_file_path $yaml_file_path $srclang
 	
-	rm $tsv_file_path".ngrams"
+	rm -f  $tsv_file_path".ngrams"
 	
 	for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
 	do
