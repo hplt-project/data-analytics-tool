@@ -733,7 +733,7 @@
   
 
             
-            function draw_stacked_histogram(div_id, data_series_totals, data_series_unique,  chart_title, x_axis_label, y_axis_label, img) {
+            function draw_stacked_histogram(div_id, data_series_totals, data_series_unique,  chart_title, x_axis_label, y_axis_label, img, mean, median) {
                 // Create the data table.
                 var data = new google.visualization.DataTable();
                 data.addColumn('string', "Segment length (tokens)");
@@ -741,44 +741,75 @@
                 data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
                 data.addColumn('number', "Duplicated segments");
                 data.addColumn({type: 'string', role: 'tooltip', 'p': {'html': true}});
+                data.addColumn({role: 'annotation', type: 'string'})
+                data.addColumn({role: 'annotation', type: 'string'})
                 
+                //data.addColumn("number", "Mean")
+                //data.addColumn("number", "Median")
+
+                                
                 data_series_totals = JSON.parse(data_series_totals)
                 data_series_unique = JSON.parse(data_series_unique)
                 high_values_total = 0
                 high_values_uniq = 0
                 high_values_dupes = 0
+                max_x = 0
                 data_series_totals.forEach(function(item, index) {
                     token_length = item[0]
                     total =  item[1]
+                    if (total >= max_x) {
+                        max_x = total
+                    }
                     uniq_full_item = data_series_unique[index];
                     uniq = 0
+                    
                     if (uniq_full_item) {
                         uniq = uniq_full_item[1]
                     }
                         
                     dupes = total - uniq
                     
-                    if (token_length < 100){
-                        data.addRow([token_length.toString(),
-                        uniq,
-                        "<b>Length:</b> " + token_length + " tokens<br>" + "<b>Total:</b> " +  total.toLocaleString() + "<br><b>Unique:</b> " + uniq.toLocaleString()  + "<br><b>Duplicates:</b> " + dupes.toLocaleString(),
-                        dupes,
-                        "<b>Length:</b> " + token_length + " tokens<br>" + "<b>Total:</b> " +  total.toLocaleString() + "<br><b>Unique:</b> " + uniq.toLocaleString()  + "<br><b>Duplicates:</b> " + dupes.toLocaleString()]) 
-                        }
+                    mean_here = null
+                    median_here = null
+                    
+                    if (token_length == mean){
+                        //mean_here = max_x
+                        mean_here = "MEAN"
+                    }
+                    if (token_length == median){
+                        //median_here = max_x
+                        median_here = "MEDIAN"
+                    }
+                        
+                    if (token_length < 100){                   
+                        
+                            data.addRow([token_length.toString(),
+                            uniq,
+                            "<b>Length:</b> " + token_length + " tokens<br>" + "<b>Total:</b> " +  total.toLocaleString() + "<br><b>Unique:</b> " + uniq.toLocaleString()  + "<br><b>Duplicates:</b> " + dupes.toLocaleString(),
+                            dupes,
+                            "<b>Length:</b> " + token_length + " tokens<br>" + "<b>Total:</b> " +  total.toLocaleString() + "<br><b>Unique:</b> " + uniq.toLocaleString()  + "<br><b>Duplicates:</b> " + dupes.toLocaleString(),
+                            mean_here,
+                            median_here]) 
+                    }                    
                     else {
                         high_values_total = high_values_total + total
                         high_values_uniq = high_values_uniq + uniq
                         high_values_dupes = high_values_dupes + dupes
                     }
                 });
+                
                 if (high_values_total > 0) {
                     data.addRow(["100+", 
                     high_values_uniq,
                     "<b>Length:</b> 100+ tokens<br>" + "<b>Total:</b> " +  high_values_total.toLocaleString() + "<br><b>Unique:</b> "+  high_values_uniq.toLocaleString() + "<br><b>Duplicates:</b> " + high_values_dupes.toLocaleString(), 
                     high_values_dupes,
-                    "<b>Length:</b> 100+ tokens<br>" + "<b>Total:</b> " +  high_values_total.toLocaleString() + "<br><b>Unique:</b> "+  high_values_uniq.toLocaleString() +  "<br><b>Duplicates:</b> "+ high_values_dupes.toLocaleString()]) 
+                    "<b>Length:</b> 100+ tokens<br>" + "<b>Total:</b> " +  high_values_total.toLocaleString() + "<br><b>Unique:</b> "+  high_values_uniq.toLocaleString() +  "<br><b>Duplicates:</b> "+ high_values_dupes.toLocaleString(), null, null]) 
 
                 }
+                
+                //data.addRow(["30", max_x, null, null, null, "MEDIAN"])
+                
+                
                 // Set chart options
                 var options = {
                     //title: chart_title,
@@ -791,10 +822,29 @@
                     tooltip: {
                         isHtml: true
                     },
+                    seriesType:'bars',
                     isStacked: true,
-                    legend: 'none'
+                    legend: 'none',
+                    /*
+                    series: {
+                       2 : {
+                            color: 'green',
+                            type: 'line'                
+                        },
+                        3: {
+                            color: 'pink',
+                            type: 'line'
+                        }            
+                    },
+                    */
+                    annotations: {
+                        stem: {
+                            color: 'green'
+                        },
+                      style: 'line'
+                    },
                 };
-                var materialChart = new google.visualization.ColumnChart(document.getElementById(div_id));
+                var materialChart = new google.visualization.ComboChart(document.getElementById(div_id));
                 materialChart.draw(data, options);
                 chart_images[img] = materialChart.getImageURI();
             }
@@ -1030,7 +1080,16 @@
                         src_token_distribution = obj["src_sent_tokens"]
                         if ("src_unique_sents" in obj) {
                             src_unique_distribution = obj["src_unique_sents"]
-                            draw_stacked_histogram("src_token_chart", src_token_distribution, src_unique_distribution, "Total and unique source segments per length (tokens)", "Tokens", "Frequency", "src_length_histogram_img")
+                            src_mean = null
+                            src_median = null
+                            if ("src_sent_tokens_mean" in obj) {
+                                src_mean = obj["src_sent_tokens_mean"]
+                            }
+                            if ("src_sent_tokens_median" in obj) {
+                                src_median = obj["src_sent_tokens_median"]
+                            }
+                            
+                            draw_stacked_histogram("src_token_chart", src_token_distribution, src_unique_distribution, "Total and unique source segments per length (tokens)", "Tokens", "Frequency", "src_length_histogram_img", src_mean, src_median)
                         }
                         else {
                             draw_histogram("src_token_chart", src_token_distribution, "Source segments length (tokens)", "Tokens", "Frequency", "src_length_histogram_img")
@@ -1047,7 +1106,15 @@
                         trg_token_distribution = obj["trg_sent_tokens"]
                         if ("trg_unique_sents" in obj) {
                             trg_unique_distribution =  obj["trg_unique_sents"]
-                            draw_stacked_histogram("trg_token_chart", trg_token_distribution, trg_unique_distribution, "Total and unique target segments per length (tokens)", "Tokens", "Frequency", "trg_length_histogram_img")
+                            trg_mean = null
+                            trg_median = null
+                            if ("trg_sent_tokens_mean" in obj) {
+                                trg_mean = obj["trg_sent_tokens_mean"]
+                            }
+                            if ("trg_sent_tokens_median" in obj){
+                                trg_median = obj["trg_sent_tokens_median"]
+                            }
+                            draw_stacked_histogram("trg_token_chart", trg_token_distribution, trg_unique_distribution, "Total and unique target segments per length (tokens)", "Tokens", "Frequency", "trg_length_histogram_img", trg_mean, trg_median)
                         }
                         else{
                             draw_histogram("trg_token_chart", trg_token_distribution, "Target segments length (tokens)", "Tokens", "Frequency", "trg_length_histogram_img")
