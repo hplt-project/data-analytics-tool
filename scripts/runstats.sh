@@ -176,10 +176,6 @@ if [ "$langformat" == "parallel" ]; then
         #echo "CUT"
         #time parallel -j $JOBS -k cut -f2 $tsv_file_path > $saved_file_path.$trglang
 
-	#Force FastSpell FastText download
-	python3 ./scripts/force-fasttext-download.py $srclang
-        python3 ./scripts/force-fasttext-download.py $trglang
-
 	#Bicleaner Hardrules
     	source /work/venvs/venv-bhr/bin/activate
 	if [ "$bicleaner_metadata" ]; then
@@ -207,6 +203,10 @@ if [ "$langformat" == "parallel" ]; then
     	if [ "$bicleaner_metadata" ]; then
     		echo "Running Bicleaner..."
 	    	source /work/venvs/venv-bc/bin/activate
+	
+		#Force FastSpell FastText download in this env
+		python3 ./scripts/force-fasttext-download.py $srclang
+	        python3 ./scripts/force-fasttext-download.py $trglang	    	
 	    	if [ "$is_reversed" = true ]; then
 			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-classify -p $JOBS --score_only --scol 2 --tcol 1 --disable_hardrules - - $bicleaner_metadata > $saved_file_path.classify
 	    	else
@@ -216,7 +216,10 @@ if [ "$langformat" == "parallel" ]; then
 		deactivate
 	elif [ "$bicleaner_ai_metadata" ]; then
 		echo "Running Bicleaner AI..."
-		source /work/venvs/venv-bcai/bin/activate
+		source /work/venvs/venv-bcai/bin/activate	
+		#Force FastSpell FastText download in this env
+		python3 ./scripts/force-fasttext-download.py $srclang
+	        python3 ./scripts/force-fasttext-download.py $trglang		
 		if [ "$is_reversed" = true ]; then
 			cat $tsv_file_path | BICLEANER_AI_THREADS=$JOBS  /work/preprocess/build/bin/cache -k 1,2 bicleaner-ai-classify --score_only --scol 2 --tcol 1 --disable_hardrules - - $bicleaner_ai_metadata > $saved_file_path.classify
 		else	
@@ -229,6 +232,9 @@ if [ "$langformat" == "parallel" ]; then
     	fi
 
 	#Fastspell
+	#Force FastSpell FastText download in this env
+	python3 ./scripts/force-fasttext-download.py $srclang
+        python3 ./scripts/force-fasttext-download.py $trglang	
 	echo "Running FastSpell..."
 	./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $saved_file_path.$srclang.langids 1 
 	./scripts/parallel-fastspell.sh $JOBS $trglang $tsv_file_path $saved_file_path.$trglang.langids 2
@@ -279,8 +285,7 @@ elif [ "$langformat" == "mono" ]; then
                 exit 1
 	fi
 	
-	#Force Fasttext download, in case it does exist, to avoid doing it in parallel
-        python3 ./scripts/force-fasttext-download.py $srclang
+
 	
 	#Monolingual
 	if [[ " ${monocleaner_langs[*]} " =~ " $srclang " ]]; then
@@ -308,6 +313,8 @@ elif [ "$langformat" == "mono" ]; then
 		echo "Running Monocleaner..."
 		#./scripts/parallel-monocleaner.sh $JOBS $datapath/monocleaner/$srclang $tsv_file_path  $tsv_file_path.classify
 		#monocleaner --score_only --disable_hardrules $langpath ${INPUT_FILE} - > ${INPUT_FILE}.o 2>mono.log
+		#Force Fasttext download, in case it does not exist in this environment, to avoid doing it in parallel
+	        python3 ./scripts/force-fasttext-download.py $srclang
 		cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1  parallel -k  -j $JOBS --pipe monocleaner --score_only --disable_hardrules $datapath/monocleaner/$srclang - - > $tsv_file_path.classify 2> mono.log
 
 	fi
@@ -316,7 +323,8 @@ elif [ "$langformat" == "mono" ]; then
 	
         #Fastspell
         echo "Running FastSpell..."
-
+	#Force Fasttext download, in case it does not exist in this environment, to avoid doing it in parallel
+	python3 ./scripts/force-fasttext-download.py $srclang        
         ./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $saved_file_path.$srclang.langids 1 
         cat $saved_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $saved_file_path.$srclang.langcounts
 	
@@ -325,7 +333,7 @@ elif [ "$langformat" == "mono" ]; then
 	echo "Running ReadCorpus Mono..."
 	python3 ./scripts/readcorpus_mono.py $tsv_file_path $yaml_file_path $srclang
 	
-	rm $tsv_file_path".ngrams"
+	rm -f  $tsv_file_path".ngrams"
 	
 	for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
 	do
