@@ -353,7 +353,6 @@
             $(document).ready(function(){
                 $("#the-content").css("display", "None")
 
-
                 var select = $("#corpora-selector")
                 $.ajax({
                     url: "/list",
@@ -369,11 +368,25 @@
                         // here you will empty the pre-existing data from you selectbox and will append the htmlOption created in the loop result
                         select.empty().append( htmlOptions.join('') );
                         }
+                        url = new URL(window.location.href);
+                        if (url.searchParams.has('file')) {
+                            file=url.searchParams.get("file")                            
+                            document.getElementById('corpora-selector').value=file
+                            if (document.getElementById('corpora-selector').value != file) {
+                                //It was not properly set
+                                alert("Could not load " + file + " corpus stats")
+                            }
+                            else {
+                                document.getElementById("load-button").click()
+                            }
+                            
+                        }
                     },
                     error: function(error) {
                         alert(error.responseJSON.message);
                     }
                 });           
+
             });
             
             
