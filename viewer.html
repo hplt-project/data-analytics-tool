@@ -41,6 +41,20 @@
         <title>Data Analytics Tool - Viewer</title>
     </head>
     <body>    
+    
+        <!-- LOADING FAIL TOAST -->
+        <div class="toast-container position-fixed top-0 end-0 p-3">
+             <div id="getFailToast" class="toast"  data-bs-autohide="false" role="alert" aria-live="assertive" aria-atomic="true">
+                 <div class="toast-header">
+                     <strong><i class="bi bi-exclamation-triangle"></i></strong>
+                     <strong class="me-auto">Load metadata</strong>
+                     <button id="getFailToastButton" type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+                 </div>
+                 <div class="toast-body">
+                     Cannot load the requested Data Analytics.
+                 </div>
+              </div>
+        </div>
         <div class="container-fluid main-container">
             <nav class="navbar navbar-light" id="dat-header">
                 <a class="navbar-brand" href="/">
@@ -287,6 +301,9 @@
                 <a class="btn btn-primary disabled" id="download-pdf">Export as PDF</a>
             </div>
             <div class="col-auto">
+                <a class="btn btn-primary disabled" id="share">Copy link</a>
+            </div>
+            <div class="col-auto">
                 <a class="btn btn-dark" href="./uploader.html">Go to uploader</a>
             </div>
         </div>
@@ -334,6 +351,7 @@
               </a>
             </div>
           </div>
+
         
 
         <script>
@@ -374,7 +392,9 @@
                             document.getElementById('corpora-selector').value=file
                             if (document.getElementById('corpora-selector').value != file) {
                                 //It was not properly set
-                                alert("Could not load " + file + " corpus stats")
+                                const toastGetError = document.getElementById("getFailToast")
+                                const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastGetError)
+                                toastBootstrap.show()
                             }
                             else {
                                 document.getElementById("load-button").click()
@@ -395,8 +415,31 @@
             }); 
             
             $('#load-button').click(function(){
-                load_data($("#corpora-selector").val());
-                document.getElementById('download-yaml').href="/download/"+$("#corpora-selector").val();
+                file = null
+                if (url.searchParams.has('file')) {
+                    file=url.searchParams.get("file")
+                }
+                if (file && document.getElementById('corpora-selector').value != file){
+                    window.location.href="/viewer.html?file="+$("#corpora-selector").val();                    
+                }
+                else {
+                    load_data($("#corpora-selector").val());
+                    document.getElementById('download-yaml').href="/download/"+$("#corpora-selector").val();
+                    document.getElementById("share").innerHTML="Copy link";
+                }
+
+            });
+            
+            $("#share").click(function(){                
+                var copyText = window.location.origin +"/viewer.html?file="+$("#corpora-selector").val();
+                navigator.clipboard.writeText(copyText);
+                document.getElementById("share").innerHTML="Copied!"
+                //document.getSelection().removeAllRanges();                
+            });
+            
+            
+            $("#getFailToastButton").click(function() {
+                window.location.href = "/viewer.html"
             });
             
             function pixels_to_points(pixels) {
@@ -1022,6 +1065,7 @@
                     $("#the-content").css("display", "block")
                     $("#download-yaml").removeClass("disabled")
                     $("#download-pdf").removeClass("disabled")
+                    $("#share").removeClass("disabled")
                     
                     if ("corpus" in obj) {                        
                         corpusname = obj["corpus"]
