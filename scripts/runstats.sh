@@ -193,7 +193,9 @@ if [ "$langformat" == "parallel" ]; then
 			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_ai_metadata > $saved_file_path.hardrules
 		fi
 	else
-		echo "Language pair not supported by Bicleaner Hardrules"
+		#echo "Language pair not supported by Bicleaner Hardrules"
+		echo "Running Bicleaner Hardrules..."
+		cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --disable_lm_filter --disable_porn_removal --run_all_rules -p $JOBS -s $srclang -t $trglang  > $saved_file_path.hardrules
     	fi
     	deactivate
     	
