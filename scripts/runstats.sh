@@ -16,13 +16,15 @@ JOBS=$(($JOBS>1 ? $JOBS : 1))
 #bicleanermetadata=bicleaner/$srclang-$trglang/$srclang-$trglang.yaml
 #monocleanermetadata=monocleaner/$srclang/metadata.yaml
 
-bicleaner_langs_en=(bg ca cs da de el es et fi fr ga hr hu is it lt lv mt nb nl nn pl pt ro ru sk sl sv uk)
+#bicleaner_langs_en=(bg ca cs da de el es et fi fr ga hr hu is it lt lv mt nb nl nn pl pt ro ru sk sl sv uk)
 bicleaner_langs_es=(ca de gl eu)
 
-bicleaner_ai_langs_en=(ar bg ca cs da de el es et eu fi fr ga gl hbs he hi hu is it ja lt lv mk mt nb nl nn pl pt ro sk sl sq sv sw tr uk vi zh)
+bicleaner_ai_langs_en=(ar bg ca cs da de el es et eu fi fr ga gl hbs he hi hu is it ja lt lv mk mt nb nl nn pl pt ro sk sl sq sv sw tr uk vi zh sr bs hr me)
 bicleaner_ai_langs_es=(ca de gl eu zh)
 
 monocleaner_langs=(ar az bg bs ca cnr cs da de el en es et eu fa fi fr ga gl hbs he hi hr hu is it ja ko lt lt lv mk ms mt nb nl nn pl pt ro ru sk sl sq sr sv sw th tr uk vi)
+
+hbs_langs=(hr sr bs me)
 
 mkdir -p $datapath
 
@@ -38,9 +40,16 @@ if [ "$langformat" == "parallel" ]; then
 			#en-trg not supported by classic bicleaner
 	   		if [[ " ${bicleaner_ai_langs_en[*]} " =~ " $trglang " ]]; then
    				#en-trg is supported by bicleaner ai
-   				bicleaner_ai_metadata=$datapath/bicleaner-ai/$srclang-$trglang/metadata.yaml
-   				bc_srclang=$srclang
-   				bc_trglang=$trglang
+
+   				if [[ " ${hbs_langs[*]} " =~ " $trglang " ]]; then
+					bc_srclang=$srclang
+					bc_trglang=hbs
+					bicleaner_ai_metadata=$datapath/bicleaner-ai/$srclang-$bc_trglang/metadata.yaml
+				else
+	  				bc_srclang=$srclang
+   					bc_trglang=$trglang
+   					bicleaner_ai_metadata=$datapath/bicleaner-ai/$srclang-$trglang/metadata.yaml   				
+   				fi
 	   		else
    				#en-trg not supported by bicleaner ai, but falling back to en-xx
    				echo "Falling back to bicleaner-ai en-xx"
