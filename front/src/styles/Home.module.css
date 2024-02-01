@@ -1,0 +1,424 @@
+.viewerContainer {
+  padding: 20px 140px 100px 140px;
+  background-color: var(--main-background);
+  color: var(--main-copy);
+}
+.corpusPreview h1 {
+  margin-bottom: 10px;
+}
+.corpusPreviewTitle {
+  margin-bottom: 3px;
+}
+.languagesTitle {
+  margin-bottom: 5px;
+  color: red;
+}
+.corpusDetailsTable {
+  margin-top: 20px;
+}
+.corpusDownloadTitle {
+  margin-top: 20px;
+}
+.languageGraphContainer {
+  margin: 20px 0 0px 0;
+  max-height: 760px;
+  min-height: 360px;
+}
+.test {
+  height: 300px;
+}
+.firstGraphTest {
+  margin-left: -18px;
+}
+.languageGraphContainer h2 {
+  margin-bottom: 5px;
+}
+.languageGraphContainer p {
+  margin-bottom: 10px;
+}
+.graphContainer {
+  height: 300px;
+}
+.graphContainer .firstLanguageGraphP {
+  margin-bottom: 10px;
+}
+.secondGraph {
+  height: 300px;
+}
+.secondGraphTest {
+  margin-left: -30px;
+}
+.secondGraphTitle {
+  margin-top: 30px;
+}
+.repsonsiveContainer {
+  width: 100% !important;
+}
+.tableHead {
+  display: flex;
+  align-items: center;
+  background-color: #eee8ff;
+  padding: 4px 10px;
+  border: solid 0.03px #596582;
+  margin-top: -3px;
+}
+.tHeadIconName {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.tHeadIconName p {
+  margin-left: 5px;
+}
+.tableRow {
+  display: flex;
+  padding: 10px;
+  border: solid 0.03px #596582;
+  margin-top: -1.5px;
+}
+.rowP {
+  width: 50%;
+  font-weight: 600;
+  margin-left: 28px;
+}
+
+.responsiveBar {
+  height: 500px;
+}
+
+.resultCorpusSingleTitle {
+  margin-top: 10px;
+}
+.tHeadIconName p {
+  line-height: 1.7;
+}
+.copyBibtexButton {
+  display: flex;
+  align-items: center;
+  padding: 7px 15px;
+  background-color: var(--corpus-link);
+  border-radius: 3px;
+  border: none;
+  color: white;
+  cursor: pointer;
+  margin-top: 20px;
+}
+.copyIcon {
+  margin-left: 5px;
+}
+.corpusTitle {
+  display: inline-block;
+  word-break: break-word;
+}
+.corpusTitle span {
+  font-size: 16px;
+  color: var(--secondary-copy);
+  font-weight: 500;
+}
+.firstLaguageGraphP {
+  margin-bottom: 20px;
+}
+
+/* YAML STUFF */
+.corpusCitation a {
+  text-decoration: none;
+  cursor: pointer;
+  color: rgb(36, 170, 247);
+}
+.corpusCitation a:hover {
+  color: rgb(112, 203, 255);
+}
+.yamlLicense {
+  display: flex;
+  margin-bottom: 10px;
+}
+.yamlLicense div {
+  margin-left: 5px;
+}
+.corpusDescription {
+  margin-top: 20px;
+  line-height: 1.5;
+  word-break: break-word;
+}
+.corpusCitation {
+  margin-bottom: 20px;
+  line-height: 1.5;
+  word-break: break-word;
+}
+.downloadButton {
+  background-color: var(--corpus-link);
+  display: flex;
+  border-radius: 4px;
+  align-items: center;
+  text-decoration: none;
+  width: fit-content;
+  color: #e7e7e7;
+  padding: 6px 12px;
+  margin-left: auto;
+}
+.downloadIcon {
+  margin-left: 7px;
+}
+/* TABLE STYLING */
+
+.resultsTable {
+  width: 100% !important;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 10px 0 30px 0;
+  min-width: 100%;
+  text-align: left;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  background-color: var(--table-main);
+  border: 1px solid black;
+  margin-top: 30px;
+}
+
+.resultsTable thead {
+  border: 1px solid rgb(182, 182, 182);
+  background-color: var(--banner-background);
+}
+
+.resultsTable tr:nth-of-type(even) {
+  background-color: #eeeeee;
+}
+.resultsTable th {
+  padding: 12px 15px;
+}
+.resultsTable td {
+  padding: 5px 15px;
+}
+
+.dropdownCell {
+  display: flex;
+  align-items: center;
+}
+
+.corpusColumn {
+  font-weight: 600;
+}
+.corpusPreviewLink {
+  text-decoration: none;
+}
+.corpusPreviewLink:hover {
+  text-decoration: none;
+  color: var(--corpora-link-hover-color);
+  cursor: pointer;
+}
+.rightAlign {
+  text-align: right;
+}
+
+.centerAlign {
+  text-align: center;
+}
+
+/* SEARCH INPUTS CSS */
+
+.bannerSearchInputs {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 20px;
+}
+.findCorporaTitle {
+  margin-top: 20px;
+}
+.mobileLanguagePairTreemap {
+  display: none;
+}
+
+.bannerSingleInput label {
+  margin-bottom: 5px;
+  width: 220px;
+}
+
+.searchButtonBanner {
+  display: flex;
+  align-items: center;
+  height: 38px;
+  color: white;
+  background-color: #612ef8;
+  padding: 2px 15px;
+  border: none;
+  font-size: 16px;
+  border-radius: 5px;
+}
+
+.searchIcon {
+  margin-right: 5px;
+}
+.pieChart {
+  margin: 0 -2px -5.5px 5px;
+}
+.resultSingleCorpusTitle {
+  margin-top: 20px;
+}
+
+.pleaseSelect {
+  margin: 30px 0;
+  font-size: 20px;
+}
+
+/* YAML */
+.previewPageParagraph {
+  line-height: 1.6;
+}
+.previewPageParagraph a,
+.copyright a,
+.yamlLicense a {
+  text-decoration: none;
+  color: var(--desc-link-color);
+}
+.previewPageParagraph a:hover,
+.copyright a:hover,
+.yamlLicense a:hover {
+  color: rgb(112, 203, 255);
+}
+.previewPageParagraph ul {
+  margin: 20px 40px 0 40px;
+}
+.previewPageParagraph ul li {
+  margin: 5px 0;
+}
+
+.yamlCopyright {
+  display: flex;
+  margin-bottom: 20px;
+  line-height: 1.6;
+  word-break: break-word;
+}
+.copyright {
+  margin-left: 5px;
+  line-height: 1.6;
+}
+.copyright ul {
+  margin: 10px 0;
+}
+.copyright ul li {
+  margin: 5px 0;
+}
+/* OVERLAP CHART CONTAINER */
+.overlapTitle {
+  margin-top: 30px;
+}
+.overlapChartContainer {
+  padding: 20px 0 0 0;
+  margin-left: -30px;
+}
+.corpusPreview .bold {
+  font-weight: 500;
+}
+
+/* LANGUAGE GRAPH TOOLTIP STYLES */
+.tooltip {
+  background-color: var(--main-background);
+  padding: 20px;
+}
+.desc {
+  margin: 7px 0;
+}
+.desc span {
+  font-weight: bold;
+}
+.label {
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+.pairContainer {
+  height: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/**/
+/* OVERLAP GRAPH TOOLTIP STYLES */
+.tooltipOverlap {
+  background-color: var(--main-background);
+  padding: 20px;
+}
+/**/
+@media only screen and (max-width: 1200px) {
+  .corpusPreview {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .languageGraphContainer {
+    max-height: 780px;
+    min-height: 370px;
+  }
+}
+@media only screen and (max-width: 860px) {
+  .languageGraphContainer {
+    max-height: 780px;
+    min-height: 390px;
+  }
+}
+@media only screen and (max-width: 710px) {
+  .corpusPreview {
+    padding: 20px;
+  }
+
+  .downloadButton {
+    margin-bottom: 10px;
+  }
+  .corpusPreview h2 {
+    font-size: 20px;
+  }
+  .corpusTitle {
+    font-size: 24px;
+  }
+}
+@media only screen and (max-width: 670px) {
+  .languageGraphContainer {
+    max-height: 720px;
+    min-height: 330px;
+  }
+}
+@media only screen and (max-width: 546px) {
+  .languageGraphContainer {
+    max-height: 700px;
+    min-height: 280px;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .contactPage {
+    padding: 30px;
+  }
+  .corpusPreview {
+    padding: 12px;
+  }
+  .languageGraphContainer {
+    max-height: 720px;
+    min-height: 320px;
+  }
+}
+@media only screen and (max-width: 421px) {
+  .contactPage {
+    padding: 30px;
+  }
+  .corpusPreview {
+    padding: 12px;
+  }
+  .languageGraphContainer {
+    max-height: 730px;
+    min-height: 320px;
+  }
+}
+@media only screen and (max-width: 387px) {
+  .contactPage {
+    padding: 30px;
+  }
+  .corpusPreview {
+    padding: 12px;
+  }
+  .languageGraphContainer {
+    max-height: 750px;
+    min-height: 320px;
+  }
+}

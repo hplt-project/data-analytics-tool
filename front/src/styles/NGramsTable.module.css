@@ -1,0 +1,65 @@
+.nGramsTableContainer {
+  margin-bottom: 20px;
+}
+.nGramsTableContainer table {
+  width: 100% !important;
+  overflow-x: auto;
+  border-collapse: collapse;
+  margin: 5px 0 10px 0;
+  min-width: 100%;
+  text-align: left;
+  border-radius: 5px 5px 0 0;
+  box-shadow: 0 0 20px rgba(50, 50, 50, 0.043);
+  background-color: var(--table-main);
+}
+.nGramsTableContainer table thead {
+  border: 0.06px solid rgb(222, 232, 255);
+}
+.nGramsTableContainer table thead th {
+  padding: 10px 9px;
+  font-size: 16px;
+}
+.nGramsTableContainer table tbody tr td {
+  padding: 8px 9px 0px 9px;
+  border: 0.06px solid rgb(222, 232, 255);
+}
+.nunberHeader {
+  width: 30px;
+}
+.oneNGramTag,
+.twoNGramTag,
+.threeNGramTag,
+.fourNGramTag,
+.fiveNGramTag {
+  border: 0.5px solid;
+  width: fit-content;
+  border-radius: 52px;
+  padding: 4px 12px;
+  margin: 0px 6px 7px 0px;
+  font-family: monospace;
+  display: flex;
+  align-items: center;
+  font-weight: var(--ngram-weight);
+  font-size: 14px;
+}
+.nGramsTableContainer table tbody tr td:nth-of-type(even) {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.oneNGramTag {
+  color: var(--one-ngram-light);
+}
+.twoNGramTag {
+  color: var(--two-ngram-light);
+}
+.threeNGramTag {
+  color: var(--three-ngram-light);
+}
+.fourNGramTag {
+  color: var(--four-ngram-light);
+}
+
+.fiveNGramTag {
+  color: var(--five-ngram-light);
+}
