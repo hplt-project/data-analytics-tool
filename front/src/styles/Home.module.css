@@ -1,7 +1,15 @@
 .viewerContainer {
-  padding: 20px 140px 100px 140px;
-  background-color: var(--main-background);
-  color: var(--main-copy);
+  padding: 10px 80px;
+}
+.dropdownContainer {
+  width: 300px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+.dropdownContainer p {
+  font-size: 18px;
+  margin-bottom: 5px;
 }
 .corpusPreview h1 {
   margin-bottom: 10px;

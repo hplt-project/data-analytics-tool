@@ -1,21 +1,30 @@
 import styles from "@/styles/Home.module.css";
-import DataAnalyticsReport from "../../components/DataAnalyticsReport";
+import DataAnalyticsReport from "../../../components/DataAnalyticsReport";
 import { DropdownList } from "react-widgets";
 import { readdir } from "fs/promises";
 import { useState } from "react";
+import { useRouter } from "next/router";
 
 import "react-widgets/styles.css";
-import Navbar from "../../components/Navbar";
+import Navbar from "../../../components/Navbar";
 
-export default function Home({ fileNames, stats }) {
-  let colors = [
-    { id: 0, name: "orange" },
-    { id: 1, name: "purple" },
-    { id: 2, name: "red" },
-    { id: 3, name: "blue" },
-  ];
+export default function Home({ fileNames, stats, doc }) {
+  const router = useRouter();
+  // Call this function whenever you want to
+  // refresh props!
+  const refreshData = () => {
+    router.replace(router.asPath);
+  };
+  function redirect() {
+    router.push(
+      {
+        pathname: `/${corpusName}/${origin}&${target}/${latestVersion}/${corpusName}`,
+      },
+      undefined,
+      { shallow: true }
+    );
+  }
 
-  const [selectedDataset, setSelectedDataset] = useState("");
   return (
     <div className={styles.viewerContainer}>
       <Navbar />
@@ -25,11 +34,17 @@ export default function Home({ fileNames, stats }) {
           data={fileNames}
           textField="name"
           placeholder="HPLT.en-es"
+          onChange={(value) => {
+            router.push(
+              {
+                pathname: `/viewer/${value}`,
+              },
+              undefined
+            );
+          }}
         />
       </div>
-      {/* <div className={styles.viewerContainer}>
-        {doc && <DataAnalyticsReport reportData={doc} />}
-      </div> */}
+      {doc && <DataAnalyticsReport reportData={doc} />}
     </div>
   );
 }
@@ -41,8 +56,14 @@ export async function getServerSideProps(context) {
 
   let doc = "";
 
-  console.log(context, "HELOCHIS");
-
+  console.log(context, "HELOCHISsdsfddsds");
+  if (context.query.name != "name") {
+    doc = yaml.load(
+      fs.readFileSync(
+        path.join(process.cwd(), `../yaml_dir/${context.query.name}.yaml`)
+      )
+    );
+  }
   // const doc = yaml.load(
   //   fs.readFileSync(path.join(process.cwd(), "../yaml_dir/EN-ES.yaml"))
   // );
@@ -59,6 +80,6 @@ export async function getServerSideProps(context) {
     console.log("Unable to scan directory: " + err);
   }
   return {
-    props: { fileNames: fileNames, stats: stats },
+    props: { fileNames: fileNames, stats: stats, doc: doc },
   };
 }

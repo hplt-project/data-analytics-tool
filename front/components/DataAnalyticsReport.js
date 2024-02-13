@@ -6,8 +6,6 @@ import ReportScores from "./ReportScores";
 import LanguagePieChart from "./LanguagePieChart";
 import { randDarkColor } from "../hooks/hooks";
 import NGramsTable from "./NGramsTable";
-import AnalyticsLogoDark from "./../public/logos/logo-hplt-analytics-dark.png";
-import AnalyticsLogoLight from "./../public/logos/logo-hplt-analytics-light.png";
 import SegmentDistribution from "./SegmentDistribution";
 import Image from "next/image";
 import { useTheme } from "next-themes";
@@ -15,7 +13,7 @@ import { exportMultipleChartsToPdf } from "./utils";
 import NoiseDistributionGraph from "./NoiseDistributionGraph";
 import { Oval } from "react-loader-spinner";
 
-export default function DataAnalyticsReport({ reportData }) {
+export default function DataAnalyticsReport({ reportData, reportName }) {
   const [colorTheme, setColorTheme] = useState();
 
   const [loadingPdf, setLoadingPdf] = useState(false);
@@ -160,30 +158,6 @@ export default function DataAnalyticsReport({ reportData }) {
   return (
     <div className={styles.dataReportContainer}>
       <div className="custom-chart">
-        {languageNames && (
-          <div className={styles.titleContainer}>
-            <h2 className={styles.reportMainTitle}>
-              HPLT Analytics Report for {corpusName} {languageNames[0].label} -{" "}
-              {languageNames[1].label}
-            </h2>
-            <h2 className={styles.analyticsMention}>
-              <span>powered by</span>
-              <Image
-                src={
-                  colorTheme == "dark" ? AnalyticsLogoDark : AnalyticsLogoLight
-                }
-                height={30}
-                width={30}
-                className={styles.hpltAnalyticsLogo}
-              />
-              <p className={styles.hpltAnalyticsTitle}>
-                <span className={styles.analyticsTitleSpan}>HPLT</span>Analytics
-              </p>
-            </h2>
-          </div>
-        )}
-      </div>
-      <div className="custom-chart">
         <div className={styles.reportMainStats}>
           <div className={styles.typeTokens}>
             <h3>Type-Token Ratio</h3>
@@ -281,7 +255,7 @@ export default function DataAnalyticsReport({ reportData }) {
         className={styles.exportToPDFButton}
         onClick={() => {
           setLoadingPdf(true);
-          exportMultipleChartsToPdf(reportName, offLoading);
+          exportMultipleChartsToPdf("report", offLoading);
         }}
       >
         {!loadingPdf && <p> Export to PDF</p>}
