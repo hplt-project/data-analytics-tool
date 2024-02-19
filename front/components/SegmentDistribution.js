@@ -86,9 +86,9 @@ export default function SegmentDistribution({ data, which }) {
         ""
       )}
     >
-      <h2 className={styles.segmentHeader}>
+      <h3 className={styles.segmentHeader}>
         {which} segment lenght distribution
-      </h2>
+      </h3>
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           width={500}

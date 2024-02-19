@@ -1,17 +1,16 @@
 import { useState, useEffect } from "react";
-import { useRouter } from "next/router";
 import { languagePairName } from "../hooks/hooks";
-import styles from "./../src/styles/DataAnalyticsReport.module.css";
 import ReportScores from "./ReportScores";
 import LanguagePieChart from "./LanguagePieChart";
 import { randDarkColor } from "../hooks/hooks";
 import NGramsTable from "./NGramsTable";
 import SegmentDistribution from "./SegmentDistribution";
-import Image from "next/image";
 import { useTheme } from "next-themes";
 import { exportMultipleChartsToPdf } from "./utils";
 import NoiseDistributionGraph from "./NoiseDistributionGraph";
 import { Oval } from "react-loader-spinner";
+
+import styles from "./../src/styles/DataAnalyticsReport.module.css";
 
 export default function DataAnalyticsReport({ reportData, reportName }) {
   const [colorTheme, setColorTheme] = useState();
@@ -23,16 +22,15 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
     setColorTheme(theme.resolvedTheme);
   }, [theme]);
 
-  const router = useRouter();
+  if (!reportData) return;
 
-  const corpusName = router.query.corpusName;
-  const languagePair = router.query.id;
-
-  const scores = !reportData
-    ? ""
-    : JSON.parse(reportData.bicleaner_scores).map((s) => {
-        return { token: s[0], freq: s[1], fill: "#8864FC" };
-      });
+  const scores = JSON.parse(
+    !reportData.trglang
+      ? reportData.monocleaner_scores
+      : reportData.bicleaner_scores
+  ).map((s) => {
+    return { token: +s[0], freq: +s[1], fill: "#8864FC" };
+  });
 
   const srcSentTokens = !reportData
     ? ""
@@ -71,7 +69,7 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
     });
   }
 
-  const trgSentTokens = !reportData
+  const trgSentTokens = !reportData.trglang
     ? ""
     : JSON.parse(reportData.trg_sent_tokens).map((s) => {
         return {
@@ -84,12 +82,12 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
         };
       });
 
-  const trgUniqueTokens = !reportData
+  const trgUniqueTokens = reportData.trglang
     ? ""
     : JSON.parse(reportData.src_unique_sents).map((s) => {
         return {
-          token: s[0],
-          freq: s[1],
+          token: +s[0],
+          freq: +s[1],
           freqUnique: 0,
           duplicates: 0,
           freqFormatted: 0,
@@ -122,7 +120,7 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
         };
       });
 
-  const trgLangs = !reportData
+  const trgLangs = !reportData.trglang
     ? ""
     : JSON.parse(reportData.trg_langs).map((s) => {
         const readableLanguageName = languagePairName([s[0]]);
@@ -135,12 +133,23 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
         };
       });
 
+  // NGRAMS
   const srcNGrams = !reportData ? "" : JSON.parse(reportData.src_ngrams);
-  const trgNGrams = !reportData ? "" : JSON.parse(reportData.trg_ngrams);
+  const trgNGrams = !reportData.trglang
+    ? ""
+    : JSON.parse(reportData.trg_ngrams);
 
-  const languageNames = languagePair
-    ? languagePairName(languagePair.split("&"))
+  /// language names
+
+  const srclang = reportData.srclang
+    ? languagePairName([reportData.srclang])
     : "";
+
+  const trglang = reportData.trglang
+    ? languagePairName([reportData.trglang])
+    : "";
+
+  // noise distribution
 
   const noiseDistribution =
     reportData && reportData.hardrules_tags
@@ -149,55 +158,134 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
         })
       : "";
 
-  if (!reportData) return;
-
   const offLoading = () => {
     setLoadingPdf(false);
   };
+
+  // DATE
+
+  let d;
+
+  if ("timestamp" in reportData) {
+    const timestamp_ms = reportData["timestamp"];
+    const timestamp_secs = timestamp_ms * 1000;
+    d = new Date(timestamp_secs).toLocaleString();
+  } else {
+    d = "n/a;";
+  }
 
   return (
     <div className={styles.dataReportContainer}>
       <div className="custom-chart">
         <div className={styles.reportMainStats}>
+          <div className={styles.corpusDetails}>
+            <h1 className={styles.analyticsTitle}>HPLT Analytics report</h1>
+          </div>
+          <div className={styles.generalOverview}>
+            <h3>General overview</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Corpus</th>
+                  <th>Analytics date</th>
+                  {trglang ? (
+                    <>
+                      {" "}
+                      <th>Source language</th>
+                      <th>Target language</th>{" "}
+                    </>
+                  ) : (
+                    <th>Language</th>
+                  )}
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>{reportData.corpus}</td>
+                  <td>{d}</td>
+                  <td>{srclang[0].label}</td>
+                  {trglang && <td>{trglang[0].label}</td>}
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          <div className={styles.volumes}>
+            <h3>Volumes</h3>
+            <table>
+              <thead>
+                <tr>
+                  <th>Segment pairs</th>
+                  <th>Src size</th>
+                  {trglang && <th>Trg size</th>}
+                  <th>Unique segment pairs</th>
+                  <th>Src tokens</th>
+                  {trglang && <th>Trg tokens</th>}
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>{reportData.sentence_pairs}</td>
+                  <td>{reportData.src_bytes}</td>
+                  {trglang && <td>{reportData.trg_bytes}</td>}
+                  <td>{reportData.src_unique_sents.length}</td>
+                  <td>{reportData.src_tokens}</td>
+                  {trglang && <td>{reportData.trg_tokens}</td>}
+                </tr>
+              </tbody>
+            </table>
+          </div>
           <div className={styles.typeTokens}>
             <h3>Type-Token Ratio</h3>
-            <div className={styles.typeContainer}>
-              <p className={styles.sourceType}>
-                Source tokens:
-                <span
-                  className={
-                    +reportData.ttr_src < 0.3
-                      ? styles.lowestType
-                      : +reportData.ttr_src < 0.5
-                      ? styles.lowestType
-                      : styles.goodType
-                  }
-                >
-                  {reportData.ttr_src}
-                </span>
-              </p>
-              <p className={styles.sourceType}>
-                Target tokens:
-                <span
-                  className={
-                    +reportData.ttr_trg < 0.3
-                      ? styles.lowestType
-                      : +reportData.ttr_trg < 0.5
-                      ? styles.lowestType
-                      : styles.goodType
-                  }
-                >
-                  {" "}
-                  {reportData.ttr_trg}{" "}
-                </span>
-              </p>
-            </div>
+            <table>
+              <thead>
+                <tr>
+                  {!trglang && <th>{srclang[0].label}</th>}
+                  {trglang && <th>Target</th>}
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    {" "}
+                    <span
+                      className={
+                        +reportData.ttr_src < 0.3
+                          ? styles.lowestType
+                          : +reportData.ttr_src < 0.5
+                          ? styles.lowestType
+                          : styles.goodType
+                      }
+                    >
+                      {reportData.ttr_src}
+                    </span>
+                  </td>
+                  {trglang && (
+                    <td>
+                      {" "}
+                      <span
+                        className={
+                          +reportData.ttr_src < 0.3
+                            ? styles.lowestType
+                            : +reportData.ttr_src < 0.5
+                            ? styles.lowestType
+                            : styles.goodType
+                        }
+                      >
+                        {reportData.ttr_trg}
+                      </span>
+                    </td>
+                  )}
+                </tr>
+              </tbody>
+            </table>
           </div>
         </div>
       </div>
       <div className="custom-chart">
         <div className={styles.bicleanerScores}>
-          <h2>Bicleaner scores</h2>
+          <h3>
+            {!reportData.trglang ? "Monocleaner scores" : "Bicleaner scores"}
+          </h3>
           <ReportScores
             scores={scores}
             xLabel={"Score range"}
@@ -207,47 +295,50 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
       </div>
       <div className="custom-chart">
         <div className={styles.languagesPieReportsContainer}>
-          <h2>Language Distribution</h2>
+          <h3>Language Distribution</h3>
           <div className={styles.languagesPieReports}>
             <div className={styles.singleLanguageReport}>
-              <h3>Source</h3>
+              {reportData.trglang && <h3>Source</h3>}
               <LanguagePieChart langs={srcLangs} id="image" />
             </div>
-            <div className={styles.singleLanguageReport}>
-              <h3>Target</h3>
-              <LanguagePieChart langs={trgLangs} id="image" />
-            </div>
+            {reportData.trglang && (
+              <div className={styles.singleLanguageReport}>
+                <h3>Target</h3>
+                <LanguagePieChart langs={trgLangs} id="image" />
+              </div>
+            )}
           </div>
         </div>
       </div>
-
       <div className={styles.languageDistributionContainer}>
-        <h2 className={styles.marginTop}></h2>
         <div className={styles.singleDistribution}>
           <SegmentDistribution data={srcSentTokens} which={"Source"} />
         </div>
-
-        <div className={styles.singleDistribution}>
-          <SegmentDistribution data={trgSentTokens} which={"Target"} />
-        </div>
+        {reportData.trglang && (
+          <div className={styles.singleDistribution}>
+            <SegmentDistribution data={trgSentTokens} which={"Target"} />
+          </div>
+        )}
       </div>
       {noiseDistribution && (
         <div className="custom-chart">
-          <h2>Noise Distribution</h2>
+          <h3>Noise Distribution</h3>
           <NoiseDistributionGraph noiseData={noiseDistribution} />
         </div>
       )}
       <div className="custom-chart">
         <div className={styles.nGramContainer}>
-          <h2 className={styles.marginTop}>Common n-grams</h2>
+          <h3 className={styles.marginTop}>Common n-grams</h3>
           <div className={styles.singleNGramContainer}>
-            <h3>Source</h3>
+            {reportData.trglang && <h3>Source</h3>}
             <NGramsTable NGrams={srcNGrams} />
           </div>
-          <div className={styles.singleNGramContainer}>
-            <h3>Target</h3>
-            <NGramsTable NGrams={trgNGrams} />
-          </div>
+          {reportData.trglang && (
+            <div className={styles.singleNGramContainer}>
+              <h3>Target</h3>
+              <NGramsTable NGrams={trgNGrams} />
+            </div>
+          )}
         </div>
         <div className={styles.blank}></div>
       </div>
@@ -255,7 +346,7 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
         className={styles.exportToPDFButton}
         onClick={() => {
           setLoadingPdf(true);
-          exportMultipleChartsToPdf("report", offLoading);
+          exportMultipleChartsToPdf(reportData.corpus, offLoading);
         }}
       >
         {!loadingPdf && <p> Export to PDF</p>}

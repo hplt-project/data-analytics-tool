@@ -1,5 +1,44 @@
 .viewerContainer {
-  padding: 10px 80px;
+  padding: 10px 120px 40px 120px;
+  color: var(--main-copy);
+}
+.docContainer {
+  margin-bottom: 60px;
+  min-height: 30vh;
+}
+.mainContainerHome h1 {
+  margin: 30px 0 10px 0;
+}
+.introParagraph {
+  width: 90%;
+  line-height: 1.45;
+  font-size: 18px;
+}
+
+.cardsContainer {
+  display: flex;
+  margin-top: 30px;
+}
+.singleCard {
+  display: flex;
+  flex-direction: column;
+  width: 320px;
+  border: 1px solid rgb(197, 211, 237);
+  align-items: center;
+  margin-right: 20px;
+  border-radius: 5px;
+  padding: 40px 20px 20px 20px;
+}
+.cardDetails {
+  margin-top: 20px;
+}
+.cardDetails p {
+  margin: 7px 0 15px 0;
+  line-height: 1.4;
+}
+.cardButton {
+  margin-top: auto;
+  text-decoration: none;
 }
 .dropdownContainer {
   width: 300px;
@@ -220,6 +259,49 @@
 
 .centerAlign {
   text-align: center;
+}
+/* Buttons */
+.uploadBtn {
+  margin-top: auto;
+  appearance: button;
+  background-color: #1652f0;
+  border: 1px solid #1652f0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 16px;
+  line-height: 1.15;
+  overflow: visible;
+  padding: 12px 16px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transition: all 80ms ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+  margin-right: 10px;
+  text-decoration: none;
+}
+
+.uploadBtn:disabled {
+  opacity: 0.5;
+}
+
+.uploadBtn:focus {
+  outline: 0;
+}
+
+.uploadBtn:hover {
+  background-color: #0a46e4;
+  border-color: #0a46e4;
+}
+
+.uploadBtn:active {
+  background-color: #0039d7;
+  border-color: #0039d7;
 }
 
 /* SEARCH INPUTS CSS */

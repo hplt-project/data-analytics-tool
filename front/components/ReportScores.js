@@ -65,7 +65,7 @@ export default function ReportScores({ scores, xLabel, yLabel }) {
           height={300}
           data={processedScores}
           margin={{
-            top: 5,
+            top: 30,
             right: 0,
             left: 3,
             bottom: 40,

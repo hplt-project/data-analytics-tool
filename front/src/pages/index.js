@@ -1,64 +1,51 @@
-import styles from "@/styles/Home.module.css";
-import DataAnalyticsReport from "../../components/DataAnalyticsReport";
-import { DropdownList } from "react-widgets";
-import { readdir } from "fs/promises";
-import { useState } from "react";
-
 import "react-widgets/styles.css";
+import styles from "@/styles/Home.module.css";
+import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
+import { BarChart3, HardDriveUpload } from "lucide-react";
+import Link from "next/link";
 
-export default function Home({ fileNames, stats }) {
-  let colors = [
-    { id: 0, name: "orange" },
-    { id: 1, name: "purple" },
-    { id: 2, name: "red" },
-    { id: 3, name: "blue" },
-  ];
-
-  const [selectedDataset, setSelectedDataset] = useState("");
+export default function Home() {
   return (
     <div className={styles.viewerContainer}>
       <Navbar />
-      <div className={styles.dropdownContainer}>
-        <p>Select a file</p>
-        <DropdownList
-          data={fileNames}
-          textField="name"
-          placeholder="HPLT.en-es"
-        />
+      <div className={styles.mainContainerHome}>
+        <h1>HPLT Analytics Tool</h1>
+        <p className={styles.introParagraph}>
+          This tool provides a full range of analytics automatically computed on
+          either monolingual or bilingual data sets to help making informed
+          decisions about them.
+        </p>
+        <div className={styles.cardsContainer}>
+          <div className={styles.singleCard}>
+            <HardDriveUpload size={88} />
+            <div className={styles.cardDetails}>
+              <h2>Upload</h2>
+              <p>
+                Upload your corpus, get it analyzed. Reports are available at
+                the Viewer as soon as they are ready.{" "}
+              </p>
+            </div>
+            <Link
+              className={styles.uploadBtn}
+              href="http://localhost:8000/uploader.html"
+            >
+              Upload
+            </Link>
+          </div>
+          <div className={styles.singleCard}>
+            <BarChart3 size={88} />
+            <div className={styles.cardDetails}>
+              <h2>View</h2>
+              <p>Navigate, view and download your available reports.</p>
+            </div>
+            <Link className={styles.uploadBtn} href="/viewer/name">
+              Viewer
+            </Link>
+          </div>
+        </div>
       </div>
-      {/* <div className={styles.viewerContainer}>
-        {doc && <DataAnalyticsReport reportData={doc} />}
-      </div> */}
+      <Footer />
     </div>
   );
-}
-
-export async function getServerSideProps(context) {
-  const yaml = require("js-yaml");
-  const fs = require("fs");
-  const path = require("path");
-
-  let doc = "";
-
-  console.log(context, "HELOCHIS");
-
-  // const doc = yaml.load(
-  //   fs.readFileSync(path.join(process.cwd(), "../yaml_dir/EN-ES.yaml"))
-  // );
-
-  const directoryPath = path.join(process.cwd(), "../yaml_dir");
-  const fileNames = [];
-  let stats = "";
-  try {
-    const files = await readdir(directoryPath);
-    files.forEach(function (file) {
-      fileNames.push(file.substring(0, file.indexOf(".")));
-    });
-  } catch (err) {
-    console.log("Unable to scan directory: " + err);
-  }
-  return {
-    props: { fileNames: fileNames, stats: stats },
-  };
 }

@@ -2,28 +2,15 @@ import styles from "@/styles/Home.module.css";
 import DataAnalyticsReport from "../../../components/DataAnalyticsReport";
 import { DropdownList } from "react-widgets";
 import { readdir } from "fs/promises";
-import { useState } from "react";
 import { useRouter } from "next/router";
 
-import "react-widgets/styles.css";
 import Navbar from "../../../components/Navbar";
+import Footer from "../../../components/Footer";
+
+import "react-widgets/styles.css";
 
 export default function Home({ fileNames, stats, doc }) {
   const router = useRouter();
-  // Call this function whenever you want to
-  // refresh props!
-  const refreshData = () => {
-    router.replace(router.asPath);
-  };
-  function redirect() {
-    router.push(
-      {
-        pathname: `/${corpusName}/${origin}&${target}/${latestVersion}/${corpusName}`,
-      },
-      undefined,
-      { shallow: true }
-    );
-  }
 
   return (
     <div className={styles.viewerContainer}>
@@ -44,7 +31,10 @@ export default function Home({ fileNames, stats, doc }) {
           }}
         />
       </div>
-      {doc && <DataAnalyticsReport reportData={doc} />}
+      <div className={styles.docContainer}>
+        {doc && <DataAnalyticsReport reportData={doc} />}
+      </div>
+      <Footer />
     </div>
   );
 }
@@ -56,7 +46,6 @@ export async function getServerSideProps(context) {
 
   let doc = "";
 
-  console.log(context, "HELOCHISsdsfddsds");
   if (context.query.name != "name") {
     doc = yaml.load(
       fs.readFileSync(
@@ -64,9 +53,6 @@ export async function getServerSideProps(context) {
       )
     );
   }
-  // const doc = yaml.load(
-  //   fs.readFileSync(path.join(process.cwd(), "../yaml_dir/EN-ES.yaml"))
-  // );
 
   const directoryPath = path.join(process.cwd(), "../yaml_dir");
   const fileNames = [];
