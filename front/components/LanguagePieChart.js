@@ -14,6 +14,17 @@ const CustomTooltip = ({ active, payload, label }) => {
 };
 
 export default function LanguagePieChart({ langs }) {
+  if (langs.length > 10) {
+    const others = langs.slice(10, langs.length);
+
+    const final = others.reduce((a, b) => {
+      return a + +b.perc;
+    }, 0);
+
+    langs.splice(10);
+
+    langs.push({ name: `Others - ${final}`, perc: final, fill: "gray" });
+  }
   return (
     <div className={styles.languagePieChartContainer}>
       <ResponsiveContainer width="100%" height="100%" aspect={1.6}>

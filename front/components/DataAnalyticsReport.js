@@ -1,26 +1,19 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
 import { languagePairName } from "../hooks/hooks";
 import ReportScores from "./ReportScores";
 import LanguagePieChart from "./LanguagePieChart";
 import { randDarkColor } from "../hooks/hooks";
 import NGramsTable from "./NGramsTable";
 import SegmentDistribution from "./SegmentDistribution";
-import { useTheme } from "next-themes";
 import { exportMultipleChartsToPdf } from "./utils";
 import NoiseDistributionGraph from "./NoiseDistributionGraph";
 import { Oval } from "react-loader-spinner";
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
+import Link from "next/link";
 
 export default function DataAnalyticsReport({ reportData, reportName }) {
-  const [colorTheme, setColorTheme] = useState();
-
   const [loadingPdf, setLoadingPdf] = useState(false);
-
-  const theme = useTheme();
-  useEffect(() => {
-    setColorTheme(theme.resolvedTheme);
-  }, [theme]);
 
   if (!reportData) return;
 
@@ -240,7 +233,12 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
               <thead>
                 <tr>
                   {!trglang && <th>{srclang[0].label}</th>}
-                  {trglang && <th>Target</th>}
+                  {trglang && (
+                    <>
+                      <th>Source</th>
+                      <th>Target</th>
+                    </>
+                  )}
                 </tr>
               </thead>
               <tbody>
