@@ -1,0 +1,159 @@
+.analyticsMention {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.dataReportContainer {
+  margin-top: 60px;
+  color: var(--main-copy);
+}
+.dataReportContainer h2 span {
+  color: var(--graph-axis-text);
+  font-size: 16px;
+  font-weight: 400;
+  font-style: italic;
+}
+.dataReportContainer h3 {
+  margin-top: 30px;
+}
+.hpltAnalyticsTitle span.analyticsTitleSpan {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  color: #a50000;
+}
+.hpltAnalyticsTitle {
+  font-weight: 500;
+}
+.analyticsTitle {
+  line-height: 1.45;
+  width: 80%;
+  margin-bottom: 30px;
+}
+.hpltAnalyticsLogo {
+  margin-left: 7px;
+}
+.titleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-top: 30px;
+}
+.reportMainTitle {
+  font-size: 32px;
+  line-height: 1.4;
+  margin-bottom: 40px;
+  width: 60%;
+}
+.dataReportContainer h3 {
+  font-weight: 600;
+  font-size: 20px;
+}
+.marginTop {
+  margin-top: 40px;
+}
+.typeContainer {
+  display: flex;
+  margin: 20px 0 60px 0;
+}
+.typeContainer p {
+  font-size: 18px;
+  margin-right: 60px;
+}
+.typeContainer p {
+  font-weight: 600;
+}
+.typeContainer p span {
+  margin-left: 5px;
+}
+.lowestType {
+  color: #a50000;
+}
+.mediumType {
+  color: #ffef11;
+}
+.goodType {
+  color: #12db00;
+}
+.bicleanerScores {
+  margin-bottom: 40px;
+}
+.bicleanerScores h2 {
+  margin-bottom: 30px;
+}
+.languagesPieReports {
+  display: flex;
+}
+.languagesPieReportsContainer {
+  margin-bottom: 70px;
+}
+.languagesPieReportsContainer h2 {
+  margin-bottom: 30px;
+}
+.singleLanguageReport {
+  margin-bottom: 20px;
+}
+.singleLanguageReport h3 {
+  margin-bottom: 10px;
+}
+.singleDistribution {
+  margin-bottom: 30px;
+}
+.languageDistributionContainer {
+  margin-bottom: 20px;
+}
+.languageDistributionContainer h2 {
+  margin-bottom: 20px;
+}
+
+.nGramContainer h2 {
+  margin-bottom: 20px;
+}
+.singleNGramContainer {
+  margin-top: 20px;
+}
+.singleNGramContainer h3 {
+  margin: 30px 0 5px 0;
+  font-size: 18px;
+}
+.blank {
+  height: 30px;
+}
+.exportToPDFButton {
+  border: none;
+  font-size: 16px;
+  padding: 7px 18px;
+  background-color: rgb(45, 45, 45);
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+.ovalP {
+  margin-right: 10px;
+}
+
+/* NGRMS*/
+
+/******** volumes table ****/
+
+.dataReportContainer table {
+  text-align: left;
+  border-collapse: collapse;
+  margin: 5px 0 20px 0;
+}
+.dataReportContainer table thead tr {
+  border: 1px solid rgb(197, 211, 237);
+}
+.dataReportContainer table thead th,
+.dataReportContainer table tr td {
+  padding: 8px 30px 8px 8px;
+  font-size: 14px;
+  min-width: 120px;
+}
+.dataReportContainer table thead th {
+  font-weight: 500;
+}
+.bicleanerScores h2 {
+  margin-top: 30px;
+}

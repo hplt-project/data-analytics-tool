@@ -1,0 +1,149 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  transition: all 0.25s;
+}
+
+:root {
+  --main-background: white;
+  --navbar-background: white;
+  --banner-background: #eee8ff;
+  --dropdown-background: white;
+  --navbar-shadow: 0px 4px 7px rgba(0, 0, 0, 0.084);
+  --main-copy: #1a253e;
+  --secondary-copy: #5c6977;
+  --main-button-background-color: #3b0cc9;
+  --navlink-hover-color: #9c7cfc;
+  --input-background-color: rgb(246, 246, 246);
+  --news-background-color: #f2f2f2;
+  --submit-button-background: black;
+  --corpora-link-hover-color: #635ec2;
+  --publication-pdf-button-background: #d3c3ff;
+  --publication-button-border: #0b101b;
+  --subtitle-gray: #686d87;
+  --table-border: rgb(182, 182, 182);
+  --table-even-row: #f3f3f3;
+  --download-button-hover-color: #c5b3fa;
+  --list-option-hover: #d4d5d8;
+  --sample-box: #f4f5f7;
+  --sample-copy: #43467a;
+  --paragraph-copy-weight: 400;
+  --secondary-button-background: #f4f5f7;
+  --corpus-link: #363ecd;
+  --slider: rgb(79, 69, 140);
+  --graph-axis-text: #43467a;
+  --desc-link-color: rgb(27, 117, 168);
+  --one-ngram-light: #37610eb8;
+  --two-ngram-light: #7d1d1de2;
+  --three-ngram-light: #0079a9ed;
+  --four-ngram-light: #796d00e2;
+  --five-ngram-light: #1e1a36e6;
+  --ngram-weight: 500;
+  --language-pie-chart-bg: rgb(244, 244, 244);
+  --corpora-table-uneven-row: #eeeeee;
+  --dashboard-btn-bg: #fafbfc;
+  --dashboard-btn-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+    rgba(255, 255, 255, 0.25) 0 1px 0 inset;
+  --dashboard-btn-active: #6341cc;
+  --dashboard-btn-hover: #c4b9dc;
+  --sample-box-compare: #f4f5f7;
+  --compare-border: 1px solid rgb(241, 238, 243);
+  --dropdown-border: 1px solid #d4caf4;
+}
+[data-theme="dark"] {
+  --main-background: #1d1f28;
+  --navbar-background: #17181a;
+  --banner-background: #2a2538;
+  --dropdown-background: #322d2d;
+  --main-copy: #e0e7ee;
+  --secondary-copy: #8d9cab;
+  --main-button-background-color: #3b0cc9;
+  --navlink-hover-color: #9c7cfc;
+  --input-background-color: #2c2a39;
+  --news-background-color: #ebebeb;
+  --submit-button-background: black;
+  --corpora-link-hover-color: #635ec2;
+  --publication-pdf-button-background: #795dc6;
+  --publication-button-border: #8d9cab;
+  --subtitle-gray: #686d87;
+  --table-border: #444954;
+  --table-even-row: #242235;
+  --download-button-hover-color: #c5b3fa;
+  --list-option-hover: #403e45;
+  --sample-box: #1e282d;
+  --sample-copy: #dee5ec;
+  --paragraph-copy-weight: 300;
+  --secondary-button-background: #43467a;
+  --corpus-link: #545bd6;
+  --slider: white;
+  --graph-axis-text: #c2c5ff;
+  --desc-link-color: rgb(36, 170, 247);
+  --one-ngram-light: #e1ffc2b8;
+  --two-ngram-light: #fdb6b6e2;
+  --three-ngram-light: #cbf0ffed;
+  --four-ngram-light: #fffbd4e2;
+  --five-ngram-light: #ffffffdf;
+  --ngram-weight: 500;
+  --language-pie-chart-bg: rgba(255, 255, 255, 0.077);
+  --corpora-table-uneven-row: #2a2538;
+  --dashboard-btn-bg: #242235;
+  --dashboard-btn-shadow: rgba(27, 31, 35, 0.04) 0 1px 0,
+    rgba(255, 255, 255, 0.079) 0 1px 0 inset;
+  --dashboard-btn-active: #5e44ac;
+  --dashboard-btn-hover: #8d7fa9;
+  --sample-box-compare: #20222d;
+  --compare-border: 1px solid #2b2d35;
+  --dropdown-border: 1px solid #413761;
+}
+
+/* React widtgets dropdownlist customisation */
+
+.rw-widget-input,
+.rw-popup {
+  background-color: var(--input-background-color);
+  color: var(--main-copy);
+  border: var(--dropdown-border);
+}
+.rw-list-option {
+  color: var(--main-copy);
+  border: none;
+}
+.rw-state-focus .rw-widget-picker {
+  border-color: var(--dropdown-border);
+}
+
+.rw-list-option:hover {
+  background-color: var(--list-option-hover);
+  color: var(--main-copy);
+  border: none;
+}
+.rw-picker-caret {
+  color: var(--main-copy);
+}
+.rw-widget-picker {
+  border: var(--dropdown-border);
+}
+/* Languahe graph brush styling */
+.recharts-brush rect {
+  fill: var(--input-background-color);
+}
+
+.weirdTest .recharts-brush rect {
+  fill: red;
+}
+
+.recharts-brush .recharts-brush-slide {
+  fill: var(--slider);
+}
+.recharts-yAxis text,
+.recharts-xAxis text {
+  fill: var(--graph-axis-text);
+}
+
+.recharts-default-legend li {
+  margin: 4px 0;
+  width: 200px;
+  line-height: 1.2;
+}
