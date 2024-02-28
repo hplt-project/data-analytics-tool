@@ -1,5 +1,6 @@
 FROM node:18-alpine AS runner
 WORKDIR /app
+RUN mkdir -p /work/yaml_dir/
 COPY package.json ./
 RUN npm install
 COPY . .
