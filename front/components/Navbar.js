@@ -5,7 +5,7 @@ import Link from "next/link";
 export default function Navbar() {
   return (
     <div className={styles.navbar}>
-      <Link href="http://localhost:3000/">
+      <Link href="/">
         <Image
           src={AnalyticsLogo}
           width={240}
@@ -15,13 +15,13 @@ export default function Navbar() {
       </Link>
       <div className={styles.navLinks}>
         <Link
-          href="http://localhost:8000/uploader.html"
+          href="/uploader.html"
           className={styles.singleNavLink}
         >
           Uploader
         </Link>
         <Link
-          href="http://localhost:3000/viewer/name"
+          href="/viewer/name"
           className={styles.singleNavLink}
         >
           Viewer

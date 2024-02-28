@@ -28,7 +28,7 @@ export default function Home() {
             </div>
             <Link
               className={styles.uploadBtn}
-              href="http://localhost:8000/uploader.html"
+              href="uploader.html"
             >
               Upload
             </Link>
