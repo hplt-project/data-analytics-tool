@@ -1,7 +1,6 @@
 import styles from "@/styles/Home.module.css";
 import DataAnalyticsReport from "../../../components/DataAnalyticsReport";
 import { DropdownList } from "react-widgets";
-import { readdir } from "fs/promises";
 import { useRouter } from "next/router";
 
 import Navbar from "../../../components/Navbar";
@@ -9,7 +8,7 @@ import Footer from "../../../components/Footer";
 
 import "react-widgets/styles.css";
 
-export default function Home({ fileNames, stats, doc }) {
+export default function Home({ fileNames, doc }) {
   const router = useRouter();
 
   return (
@@ -41,31 +40,30 @@ export default function Home({ fileNames, stats, doc }) {
 
 export async function getServerSideProps(context) {
   const yaml = require("js-yaml");
-  const fs = require("fs");
-  const path = require("path");
+  const axios = require("axios");
+
+  const apiList = await axios.get("http://dat-webapp:8000/list");
+
+  const list = apiList.data;
+  if (list.length) {
+    list.pop();
+  }
+
+  const listNames = list.length ? list.map((a) => a.replace(".yaml", "")) : "";
 
   let doc = "";
 
   if (context.query.name != "name") {
-    doc = yaml.load(
-      fs.readFileSync(
-        path.join(process.cwd(), `../yaml_dir/${context.query.name}.yaml`)
-      )
+    const stats = await axios.get(
+      `http://dat-webapp:8000/file/${context.query.name}.yaml`
     );
+
+    const statsData = stats.data;
+
+    doc = yaml.load(statsData);
   }
 
-  const directoryPath = path.join(process.cwd(), "../yaml_dir");
-  const fileNames = [];
-  let stats = "";
-  try {
-    const files = await readdir(directoryPath);
-    files.forEach(function (file) {
-      fileNames.push(file.substring(0, file.indexOf(".")));
-    });
-  } catch (err) {
-    console.log("Unable to scan directory: " + err);
-  }
   return {
-    props: { fileNames: fileNames, stats: stats, doc: doc },
+    props: { fileNames: listNames, doc: doc },
   };
 }

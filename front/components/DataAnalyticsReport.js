@@ -10,7 +10,6 @@ import NoiseDistributionGraph from "./NoiseDistributionGraph";
 import { Oval } from "react-loader-spinner";
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
-import Link from "next/link";
 
 export default function DataAnalyticsReport({ reportData, reportName }) {
   const [loadingPdf, setLoadingPdf] = useState(false);
@@ -295,11 +294,14 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
         <div className={styles.languagesPieReportsContainer}>
           <h3>Language Distribution</h3>
           <div className={styles.languagesPieReports}>
-            <div className={styles.singleLanguageReport}>
-              {reportData.trglang && <h3>Source</h3>}
-              <LanguagePieChart langs={srcLangs} id="image" />
-            </div>
-            {reportData.trglang && (
+            {srcLangs && (
+              <div className={styles.singleLanguageReport}>
+                {reportData.trglang && <h3>Source</h3>}
+                <LanguagePieChart langs={srcLangs} id="image" />
+              </div>
+            )}
+
+            {trgLangs && (
               <div className={styles.singleLanguageReport}>
                 <h3>Target</h3>
                 <LanguagePieChart langs={trgLangs} id="image" />
@@ -309,10 +311,13 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
         </div>
       </div>
       <div className={styles.languageDistributionContainer}>
-        <div className={styles.singleDistribution}>
-          <SegmentDistribution data={srcSentTokens} which={"Source"} />
-        </div>
-        {reportData.trglang && (
+        {srcSentTokens && (
+          <div className={styles.singleDistribution}>
+            <SegmentDistribution data={srcSentTokens} which={"Source"} />
+          </div>
+        )}
+
+        {reportData.trglang && trgSentTokens && (
           <div className={styles.singleDistribution}>
             <SegmentDistribution data={trgSentTokens} which={"Target"} />
           </div>
@@ -327,11 +332,14 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
       <div className="custom-chart">
         <div className={styles.nGramContainer}>
           <h3 className={styles.marginTop}>Common n-grams</h3>
-          <div className={styles.singleNGramContainer}>
-            {reportData.trglang && <h3>Source</h3>}
-            <NGramsTable NGrams={srcNGrams} />
-          </div>
-          {reportData.trglang && (
+          {srcNGrams && (
+            <div className={styles.singleNGramContainer}>
+              {reportData.trglang && <h3>Source</h3>}
+              <NGramsTable NGrams={srcNGrams} />
+            </div>
+          )}
+
+          {reportData.trglang && trgNGrams && (
             <div className={styles.singleNGramContainer}>
               <h3>Target</h3>
               <NGramsTable NGrams={trgNGrams} />

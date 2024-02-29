@@ -18,7 +18,7 @@ export default function Home() {
         </p>
         <div className={styles.cardsContainer}>
           <div className={styles.singleCard}>
-            <HardDriveUpload size={88} strokeWidth={1.5}/>
+            <HardDriveUpload size={88} strokeWidth={1.5} />
             <div className={styles.cardDetails}>
               <h2>Upload</h2>
               <p>
@@ -28,13 +28,13 @@ export default function Home() {
             </div>
             <Link
               className={styles.uploadBtn}
-              href="uploader.html"
+              href="http://localhost:5000/uploader.html"
             >
               Upload
             </Link>
           </div>
           <div className={styles.singleCard}>
-            <BarChart3 size={88} strokeWidth={1.5}/>
+            <BarChart3 size={88} strokeWidth={1.5} />
             <div className={styles.cardDetails}>
               <h2>View</h2>
               <p>Navigate, view and download your available reports.</p>

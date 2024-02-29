@@ -15,15 +15,12 @@ export default function Navbar() {
       </Link>
       <div className={styles.navLinks}>
         <Link
-          href="/uploader.html"
+          href="http://localhost:5000/uploader.html"
           className={styles.singleNavLink}
         >
           Uploader
         </Link>
-        <Link
-          href="/viewer/name"
-          className={styles.singleNavLink}
-        >
+        <Link href="/viewer/name" className={styles.singleNavLink}>
           Viewer
         </Link>{" "}
       </div>
