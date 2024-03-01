@@ -290,7 +290,16 @@ elif [ "$langformat" == "mono" ]; then
                 tsv_file_path="$dir_path/$filename.tsv"
                 python3 ./tmxt/tmxt.py --codelist=$srclang $saved_file_path $tsv_file_path
         elif [ "$format" == "tsv" ]; then
-                    tsv_file_path=$saved_file_path #if the input file is in tsv format
+                tsv_file_path=$saved_file_path #if the input file is in tsv format
+	elif [ "$format" == "docs" ]; then
+		echo "Extracting documents..."
+                # Get the directory path and filename without extension
+                dir_path=$(dirname "$saved_file_path")
+                filename=$(basename "$saved_file_path" .jsonl.zst )
+                # Create the new file path with the "tsv" extension
+                tsv_file_path="$dir_path/$filename.tsv"
+		zstdcat $saved_file_path | jq -r .text > $tsv_file_path #sentences, splitted by /n		
+
         else
                 echo "Unsupported format \"$format\""
                 exit 1
@@ -325,7 +334,7 @@ elif [ "$langformat" == "mono" ]; then
 		#./scripts/parallel-monocleaner.sh $JOBS $datapath/monocleaner/$srclang $tsv_file_path  $tsv_file_path.classify
 		#monocleaner --score_only --disable_hardrules $langpath ${INPUT_FILE} - > ${INPUT_FILE}.o 2>mono.log
 		#Force Fasttext download, in case it does not exist in this environment, to avoid doing it in parallel
-	        python3 ./scripts/force-fasttext-download.py $srclang
+	        python3 /work/scripts/force-fasttext-download.py $srclang
 		cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1  parallel -k  -j $JOBS --pipe monocleaner --score_only --disable_hardrules $datapath/monocleaner/$srclang - - > $tsv_file_path.classify 2> mono.log
 
 	fi
@@ -335,7 +344,7 @@ elif [ "$langformat" == "mono" ]; then
         #Fastspell
         echo "Running FastSpell..."
 	#Force Fasttext download, in case it does not exist in this environment, to avoid doing it in parallel
-	python3 ./scripts/force-fasttext-download.py $srclang        
+	python3 /work/scripts/force-fasttext-download.py $srclang        
         ./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $saved_file_path.$srclang.langids 1 
         cat $saved_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $saved_file_path.$srclang.langcounts
 	
