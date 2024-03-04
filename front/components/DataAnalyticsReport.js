@@ -11,7 +11,7 @@ import { Oval } from "react-loader-spinner";
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
 
-export default function DataAnalyticsReport({ reportData, reportName }) {
+export default function DataAnalyticsReport({ reportData, date }) {
   const [loadingPdf, setLoadingPdf] = useState(false);
 
   if (!reportData) return;
@@ -126,10 +126,14 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
       });
 
   // NGRAMS
-  const srcNGrams = !reportData ? "" : JSON.parse(reportData.src_ngrams);
-  const trgNGrams = !reportData.trglang
-    ? ""
-    : JSON.parse(reportData.trg_ngrams);
+  const srcNGrams =
+    !reportData && Object.keys(JSON.parse(reportData.src_ngrams)).length
+      ? ""
+      : JSON.parse(reportData.src_ngrams);
+  const trgNGrams =
+    !reportData && Object.keys(JSON.parse(reportData.trg_ngrams)).length
+      ? ""
+      : JSON.parse(reportData.trg_ngrams);
 
   /// language names
 
@@ -156,15 +160,15 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
 
   // DATE
 
-  let d;
+  // let d;
 
-  if ("timestamp" in reportData) {
-    const timestamp_ms = reportData["timestamp"];
-    const timestamp_secs = timestamp_ms * 1000;
-    d = new Date(timestamp_secs).toLocaleString();
-  } else {
-    d = "n/a;";
-  }
+  // if ("timestamp" in reportData) {
+  //   const timestamp_ms = reportData["timestamp"];
+  //   const timestamp_secs = timestamp_ms * 1000;
+  //   d = new Date(timestamp_secs).toLocaleString();
+  // } else {
+  //   d = "n/a;";
+  // }
 
   return (
     <div className={styles.dataReportContainer}>
@@ -194,7 +198,7 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
               <tbody>
                 <tr>
                   <td>{reportData.corpus}</td>
-                  <td>{d}</td>
+                  <td>{date && date}</td>
                   <td>{srclang[0].label}</td>
                   {trglang && <td>{trglang[0].label}</td>}
                 </tr>
@@ -348,32 +352,41 @@ export default function DataAnalyticsReport({ reportData, reportName }) {
         </div>
         <div className={styles.blank}></div>
       </div>
-      <button
-        className={styles.exportToPDFButton}
-        onClick={() => {
-          setLoadingPdf(true);
-          exportMultipleChartsToPdf(reportData.corpus, offLoading);
-        }}
-      >
-        {!loadingPdf && <p> Export to PDF</p>}
-        {loadingPdf && (
-          <>
-            <p className={styles.ovalP}>Preparing PDF</p>
-            <Oval
-              visible={true}
-              height="16"
-              width="16"
-              color="#ffffff"
-              ariaLabel="oval-loading"
-              wrapperStyle={{}}
-              wrapperClass="wrapper"
-              secondaryColor="white"
-              strokeWidth={4}
-              strokeWidthSecondary={4}
-            />
-          </>
-        )}
-      </button>
+      <div className={styles.reportButtons}>
+        <a
+          className={styles.downloadButton}
+          href={`http://dat-webapp:5000/download/${reportData.corpus}.yaml`}
+          target="_blank"
+        >
+          Download yaml
+        </a>
+        <button
+          className={styles.exportToPDFButton}
+          onClick={() => {
+            setLoadingPdf(true);
+            exportMultipleChartsToPdf(reportData.corpus, offLoading);
+          }}
+        >
+          {!loadingPdf && <p> Export to PDF</p>}
+          {loadingPdf && (
+            <>
+              <p className={styles.ovalP}>Preparing PDF</p>
+              <Oval
+                visible={true}
+                height="16"
+                width="16"
+                color="#ffffff"
+                ariaLabel="oval-loading"
+                wrapperStyle={{}}
+                wrapperClass="wrapper"
+                secondaryColor="white"
+                strokeWidth={4}
+                strokeWidthSecondary={4}
+              />
+            </>
+          )}
+        </button>
+      </div>
     </div>
   );
 }

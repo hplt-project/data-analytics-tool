@@ -21,7 +21,8 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
 
         with open(outpath, 'wb') as fout:
             #shutil.copyfileobj(file, fout, 100000)
-            fout.write(file)
+            
+            fout.write(bytes(file, 'utf8'))
         return outpath
         
     

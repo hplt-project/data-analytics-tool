@@ -14,10 +14,7 @@ export default function Navbar() {
         />
       </Link>
       <div className={styles.navLinks}>
-        <Link
-          href="http://localhost:5000/uploader.html"
-          className={styles.singleNavLink}
-        >
+        <Link href="/uploader" className={styles.singleNavLink}>
           Uploader
         </Link>
         <Link href="/viewer/name" className={styles.singleNavLink}>

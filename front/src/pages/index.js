@@ -26,10 +26,7 @@ export default function Home() {
                 the Viewer as soon as they are ready.{" "}
               </p>
             </div>
-            <Link
-              className={styles.uploadBtn}
-              href="http://localhost:5000/uploader.html"
-            >
+            <Link className={styles.uploadBtn} href="/uploader">
               Upload
             </Link>
           </div>

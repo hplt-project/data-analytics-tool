@@ -16,9 +16,9 @@ export default function NGramsTable({ NGrams }) {
           <tr>
             <td>1</td>
             <td>
-              {Object.entries(NGrams)[0][1].map((n) => {
+              {Object.entries(NGrams)[0][1].map((n, i) => {
                 return (
-                  <div className={styles.oneNGramTag}>
+                  <div className={styles.oneNGramTag} key={i}>
                     {unEscape(n[0].join(""))} | {n[1]}
                   </div>
                 );
@@ -29,9 +29,9 @@ export default function NGramsTable({ NGrams }) {
             <td>2</td>
             <td>
               {" "}
-              {Object.entries(NGrams)[1][1].map((n) => {
+              {Object.entries(NGrams)[1][1].map((n, i) => {
                 return (
-                  <div className={styles.twoNGramTag}>
+                  <div className={styles.twoNGramTag} key={i}>
                     {unEscape(n[0].join(" "))} | {n[1]}
                   </div>
                 );
@@ -42,9 +42,9 @@ export default function NGramsTable({ NGrams }) {
             <td>3</td>
             <td>
               {" "}
-              {Object.entries(NGrams)[2][1].map((n) => {
+              {Object.entries(NGrams)[2][1].map((n, i) => {
                 return (
-                  <div className={styles.threeNGramTag}>
+                  <div className={styles.threeNGramTag} key={i}>
                     {unEscape(n[0].join(" "))} | {n[1]}
                   </div>
                 );
@@ -55,9 +55,9 @@ export default function NGramsTable({ NGrams }) {
             <td>4</td>
             <td>
               {" "}
-              {Object.entries(NGrams)[3][1].map((n) => {
+              {Object.entries(NGrams)[3][1].map((n, i) => {
                 return (
-                  <div className={styles.fourNGramTag}>
+                  <div className={styles.fourNGramTag} key={i}>
                     {unEscape(n[0].join(" "))} | {n[1]}
                   </div>
                 );
@@ -68,9 +68,9 @@ export default function NGramsTable({ NGrams }) {
             <td>5</td>
             <td>
               {" "}
-              {Object.entries(NGrams)[4][1].map((n) => {
+              {Object.entries(NGrams)[4][1].map((n, i) => {
                 return (
-                  <div className={styles.fiveNGramTag}>
+                  <div className={styles.fiveNGramTag} key={i}>
                     {unEscape(n[0].join(" "))} | {n[1]}
                   </div>
                 );

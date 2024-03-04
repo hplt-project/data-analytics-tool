@@ -119,7 +119,8 @@
 .blank {
   height: 30px;
 }
-.exportToPDFButton {
+.exportToPDFButton,
+.downloadButton {
   border: none;
   font-size: 16px;
   padding: 7px 18px;
@@ -127,7 +128,14 @@
   color: whitesmoke;
   display: flex;
   align-items: center;
-  margin-left: auto;
+  border-radius: 3px;
+}
+.downloadButton {
+  border: 1px solid black;
+  color: black;
+  background-color: transparent;
+  margin-right: 15px;
+  text-decoration: none;
 }
 .ovalP {
   margin-right: 10px;
@@ -156,4 +164,9 @@
 }
 .bicleanerScores h2 {
   margin-top: 30px;
+}
+
+.reportButtons {
+  display: flex;
+  justify-content: flex-end;
 }
