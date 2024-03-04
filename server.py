@@ -86,7 +86,7 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         self.send_header('Content-type','text/html')
         self.end_headers()
         # Send the html message
-        files = sorted(Path("yaml_dir").iterdir(), key=os.path.getmtime, reverse=True)
+        files = sorted((file for file in Path("yaml_dir").iterdir() if not file.name.startswith(".")), key=os.path.getmtime, reverse=True)
         str_files = [str(file).replace("yaml_dir/", "") for file in files]
         self.wfile.write(bytes(json.dumps(str_files, ensure_ascii=False), 'utf-8'))
         #str(os.listdir("yaml_dir")))  
