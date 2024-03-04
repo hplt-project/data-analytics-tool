@@ -281,6 +281,7 @@ if [ "$langformat" == "parallel" ]; then
 
 
 elif [ "$langformat" == "mono" ]; then
+	rm $yaml_file_path
 	if [ "$format" == "tmx" ]; then
 		echo "Extracting from TMX..."
                 # Get the directory path and filename without extension
@@ -294,11 +295,24 @@ elif [ "$langformat" == "mono" ]; then
 	elif [ "$format" == "docs" ]; then
 		echo "Extracting documents..."
                 # Get the directory path and filename without extension
+                original_filename=$(basename -- "$saved_file_path")
+                extension="${original_filename##*.}"
+                
                 dir_path=$(dirname "$saved_file_path")
-                filename=$(basename "$saved_file_path" .jsonl.zst )
-                # Create the new file path with the "tsv" extension
+		filename=$(basename  "$original_filename" ."$extension")
+
+                # Create the new file path with the "tsv" extension                
                 tsv_file_path="$dir_path/$filename.tsv"
-		zstdcat $saved_file_path | jq -r .text > $tsv_file_path #sentences, splitted by /n		
+
+
+                if [ "$extension" == "zst" ]; then
+                	zstdcat $saved_file_path | python3 ./scripts/readdocuments.py - $tsv_file_path $yaml_file_path $srclang
+		else
+			python3 ./scripts/readdocuments.py $saved_file_path $tsv_file_path $yaml_file_path $srclang
+		fi		
+
+		#zstdcat $saved_file_path | jq -r .text > $tsv_file_path #sentences, splitted by /n		
+		
 
         else
                 echo "Unsupported format \"$format\""

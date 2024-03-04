@@ -1,0 +1,117 @@
+import time 
+#import os
+import sys
+import logging
+import traceback
+import argparse
+import yaml
+import json
+#import math
+#import cProfile
+#import statistics
+
+from timeit import default_timer
+from util import logging_setup
+from collections import Counter
+#from ngrams import get_line_ngrams, get_stopwords
+#from xxhash import xxh64
+#from bicleanerscorer import read_hardrulestags, read_scores
+#from tokenizer import CustomTokenizer
+
+def initialization():
+    parser = argparse.ArgumentParser()
+    
+    parser.add_argument('corpus', type=argparse.FileType('rt'), help="Corpus")
+    parser.add_argument('tsvfile', type=argparse.FileType('wt'), help="TSV file")
+    parser.add_argument('statsfile', type=str, help="Output YAML stats file.") #TODO: default tmpfile
+    parser.add_argument('srclang', type=str, help="Source language")
+    
+    # Logging group
+    groupL = parser.add_argument_group('Logging')
+    groupL.add_argument('-q', '--quiet', action='store_true', help='Silent logging mode')
+    groupL.add_argument('--debug', action='store_true', help='Debug logging mode')
+    groupL.add_argument('--logfile', type=argparse.FileType('a'), default=sys.stderr, help="Store log to a file")
+    #groupL.add_argument('-v', '--version', action='version', version="%(prog)s " + __version__, help="show version of this script and exit")
+
+    args = parser.parse_args()
+    return args
+
+#Probably more fanciness needed here
+def write_stats(statsfile, statsdict):
+    with open(statsfile, "w") as f:
+        yaml.dump(statsdict,f)
+'''
+# To convert sizes
+def convert_size(size_bytes):
+   if size_bytes == 0:
+       return "0B"
+   size_name = ("B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB")
+   i = int(math.floor(math.log(size_bytes, 1024)))
+   p = math.pow(1024, i)
+   s = round(size_bytes / p, 2)
+   return "%s %s" % (s, size_name[i])
+'''
+
+def main():
+    args = initialization() # Parsing parameters
+    logging_setup(args)
+    logging.info("Starting process")
+    time_start = default_timer()
+    
+    total_docs=0
+    unmatching_docs=0
+
+    #Pure metadata could be in a different function
+    stats = {}
+    #stats["srclang"] = args.srclang
+    filename = args.corpus.name    
+    
+    warnings = []
+
+    doc_length = Counter()
+    
+    for json_line in args.corpus :
+        total_docs+=1
+        doc = json.loads(json_line)
+        scores = doc.get("scores")
+        langs = doc.get("langs")
+        sents = doc.get("text").split("\n")
+        url = doc.get("url")
+        
+        if (len(scores) != len(sents)) or (len(langs) != len(sents)):
+            logging.debug("Scores: " + str(len(scores)) + "; Langs: " + str(len(langs)) + "; Segments: " + str(len(sents)) + "; Skipping")
+            unmatching_docs+=1
+            continue
+         
+        doc_length[len(scores)] += 1
+        
+        for sent in sents:
+            args.tsvfile.write(sent.strip()+"\n")
+            
+    if unmatching_docs != 0:
+        warning.append("docs_unmatching_"+str(unmatching_docs))
+        
+    stats["docs_total"] = total_docs
+    
+    doc_length_list=[]   
+    for segments, freq in sorted(doc_length.items()):
+        doc_length_list.append([segments, freq])
+    
+    stats["docs_segments"] = str(doc_length_list)
+    stats["docs_warnings"] = warnings
+    stats["docs_timestamp"]=time.time()
+
+    write_stats(args.statsfile, stats)
+    logging.info("Finished stats for "+ args.statsfile)
+    elapsed_time = default_timer() - time_start
+    logging.info("Total: {0} rows".format(total_docs))
+    logging.info("Elapsed time {0:.2f} s".format(elapsed_time))
+    logging.info("Troughput: {0} rows/s".format(int((total_docs*1.0)/elapsed_time)))
+        
+if __name__ == '__main__':
+    try:
+        main()  # Running main program
+    except Exception as ex:
+        tb = traceback.format_exc()
+        logging.error(tb)
+        sys.exit(1)
