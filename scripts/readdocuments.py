@@ -69,6 +69,7 @@ def main():
     warnings = []
 
     doc_length = Counter()
+    doc_collections = Counter()
     
     for json_line in args.corpus :
         total_docs+=1
@@ -77,6 +78,7 @@ def main():
         langs = doc.get("langs")
         sents = doc.get("text").split("\n")
         url = doc.get("url")
+        collection = doc.get("collection")
         
         if (len(scores) != len(sents)) or (len(langs) != len(sents)):
             logging.debug("Scores: " + str(len(scores)) + "; Langs: " + str(len(langs)) + "; Segments: " + str(len(sents)) + "; Skipping")
@@ -84,6 +86,7 @@ def main():
             continue
          
         doc_length[len(scores)] += 1
+        doc_collections[collection] += 1
         
         for sent in sents:
             args.tsvfile.write(sent.strip()+"\n")
@@ -97,9 +100,14 @@ def main():
     for segments, freq in sorted(doc_length.items()):
         doc_length_list.append([segments, freq])
     
-    stats["docs_segments"] = str(doc_length_list)
+    collections_list=[]
+    for collection, freq in sorted(doc_collections.items()):
+        collections_list.append([collection, freq])
+    
+    stats["docs_segments"] = json.dumps(doc_length_list)
+    stats["docs_collections"] = json.dumps(collections_list)
     stats["docs_warnings"] = warnings
-    stats["docs_timestamp"]=time.time()
+    stats["docs_timestamp"] = time.time()
 
     write_stats(args.statsfile, stats)
     logging.info("Finished stats for "+ args.statsfile)
