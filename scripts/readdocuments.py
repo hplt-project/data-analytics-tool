@@ -70,6 +70,7 @@ def main():
 
     doc_length = Counter()
     doc_collections = Counter()
+    doc_langs = Counter()
     
     for json_line in args.corpus :
         total_docs+=1
@@ -84,10 +85,19 @@ def main():
             logging.debug("Scores: " + str(len(scores)) + "; Langs: " + str(len(langs)) + "; Segments: " + str(len(sents)) + "; Skipping")
             unmatching_docs+=1
             continue
-         
+
+        #Segments per document (docs_segments)         
         doc_length[len(scores)] += 1
+
+        #Documents per collection (docs_collection)
         doc_collections[collection] += 1
         
+        #Segments in the document language (docs_lang)
+        lang_matches = langs.count(args.srclang)
+        lang_matches_rate = round((lang_matches/len(langs)), 1)
+        doc_langs[lang_matches_rate] += 1
+        
+        #Extract segmenmt for further segment processing
         for sent in sents:
             args.tsvfile.write(sent.strip()+"\n")
             
@@ -95,7 +105,9 @@ def main():
         warning.append("docs_unmatching_"+str(unmatching_docs))
         
     stats["docs_total"] = total_docs
-    
+
+
+
     doc_length_list=[]   
     for segments, freq in sorted(doc_length.items()):
         doc_length_list.append([segments, freq])
@@ -104,8 +116,13 @@ def main():
     for collection, freq in sorted(doc_collections.items()):
         collections_list.append([collection, freq])
     
+    langs_list = []
+    for rate, freq in sorted(doc_langs.items()):
+        langs_list.append([rate, freq])
+    
     stats["docs_segments"] = json.dumps(doc_length_list)
     stats["docs_collections"] = json.dumps(collections_list)
+    stats["docs_langs"] = json.dumps(langs_list)
     stats["docs_warnings"] = warnings
     stats["docs_timestamp"] = time.time()
 
