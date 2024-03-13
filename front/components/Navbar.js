@@ -17,9 +17,9 @@ export default function Navbar() {
         <Link href="/uploader" className={styles.singleNavLink}>
           Uploader
         </Link>
-        <Link href="/viewer/name" className={styles.singleNavLink}>
+        <Link href="/viewer" className={styles.singleNavLink}>
           Viewer
-        </Link>{" "}
+        </Link>
       </div>
     </div>
   );

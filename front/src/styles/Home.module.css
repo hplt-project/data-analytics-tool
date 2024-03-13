@@ -14,6 +14,9 @@
   line-height: 1.45;
   font-size: 18px;
 }
+.flex select {
+  font-size: 16px;
+}
 
 .cardsContainer {
   display: flex;
@@ -421,7 +424,8 @@
   align-items: center;
   justify-content: center;
 }
-.loadStatsBtn {
+.loadStatsBtn,
+.disabledStatsBtn {
   border: none;
   font-size: 16px;
   padding: 7px 18px;
@@ -429,6 +433,11 @@
   color: whitesmoke;
   border-radius: 3px;
   height: 38px;
+  cursor: pointer;
+}
+.disabledStatsBtn {
+  cursor: not-allowed;
+  background-color: gray;
 }
 .flex {
   display: flex;

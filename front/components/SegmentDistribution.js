@@ -1,3 +1,4 @@
+import { DataFormater } from "../hooks/hooks";
 import styles from "./../src/styles/SegmentDistribution.module.css";
 
 import {
@@ -38,18 +39,6 @@ const CustomTooltip = ({ active, payload, label }) => {
 };
 
 export default function SegmentDistribution({ data, which }) {
-  const DataFormater = (number) => {
-    if (number > 1000000000) {
-      return (number / 1000000000).toString() + "B";
-    } else if (number > 1000000) {
-      return (number / 1000000).toString() + "M";
-    } else if (number > 1000) {
-      return (number / 1000).toString() + "K";
-    } else {
-      return number.toString();
-    }
-  };
-
   data.forEach((item) => {
     (item.freqFormatted = Intl.NumberFormat("en", {
       notation: "compact",

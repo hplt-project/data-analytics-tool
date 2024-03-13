@@ -39,7 +39,8 @@
 }
 
 .dropdown-cont {
-  margin-right: 20px;
+  width: 260px;
+  margin-right: 10px;
 }
 .inputs label {
   margin-right: 20px;
@@ -94,7 +95,27 @@
   display: flex;
   width: 30%;
 }
-
+.uploadToast {
+  position: absolute;
+  z-index: 10;
+  border: 0.5px solid rgb(193, 217, 235);
+  padding: 20px;
+  border-radius: 7px;
+  top: 20px;
+  right: 20px;
+  background-color: white;
+  width: 32vw;
+}
+.uploadToast h2 {
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+.partiIcon {
+  margin-left: 15px;
+}
+.dropdown-cont select {
+  font-size: 16px;
+}
 @media (max-width: 935px) {
   .parent-holder {
     margin-top: 30px;
@@ -230,10 +251,7 @@
 .uploader-buttons {
   margin-top: 30px;
 }
-.dropdown-cont {
-  width: 220px;
-  margin-right: 10px;
-}
+
 .lang-inputs {
   display: flex;
 }

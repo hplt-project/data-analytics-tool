@@ -8,6 +8,7 @@ import SegmentDistribution from "./SegmentDistribution";
 import { exportMultipleChartsToPdf } from "./utils";
 import NoiseDistributionGraph from "./NoiseDistributionGraph";
 import { Oval } from "react-loader-spinner";
+import axios from "axios";
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
 
@@ -15,6 +16,23 @@ export default function DataAnalyticsReport({ reportData, date }) {
   const [loadingPdf, setLoadingPdf] = useState(false);
 
   if (!reportData) return;
+
+  const handleDownload = async () => {
+    const filename = reportData.corpus.replace(".tsv", "");
+
+    const response = await axios.get(`/api/download/${filename}`);
+
+    if (response.status !== 200) {
+      console.error(response.status, response.statusText);
+    }
+    const blob = response.data;
+    const test = new File([blob], `${filename}.yaml`);
+    const url = window.URL.createObjectURL(test);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `${filename}.yaml`;
+    link.click();
+  };
 
   const scores = JSON.parse(
     !reportData.trglang
@@ -74,12 +92,12 @@ export default function DataAnalyticsReport({ reportData, date }) {
         };
       });
 
-  const trgUniqueTokens = reportData.trglang
+  const trgUniqueTokens = !reportData.trglang
     ? ""
-    : JSON.parse(reportData.src_unique_sents).map((s) => {
+    : JSON.parse(reportData.trg_unique_sents).map((s) => {
         return {
-          token: +s[0],
-          freq: +s[1],
+          token: s[0],
+          freq: s[1],
           freqUnique: 0,
           duplicates: 0,
           freqFormatted: 0,
@@ -98,7 +116,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
     });
   }
 
-  const srcLangs = !reportData
+  const srcLangs = !reportData.src_langs
     ? ""
     : JSON.parse(reportData.src_langs).map((s) => {
         const readableLanguageName = languagePairName([s[0]]);
@@ -112,7 +130,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
         };
       });
 
-  const trgLangs = !reportData.trglang
+  const trgLangs = !reportData.trg_langs
     ? ""
     : JSON.parse(reportData.trg_langs).map((s) => {
         const readableLanguageName = languagePairName([s[0]]);
@@ -158,18 +176,6 @@ export default function DataAnalyticsReport({ reportData, date }) {
     setLoadingPdf(false);
   };
 
-  // DATE
-
-  // let d;
-
-  // if ("timestamp" in reportData) {
-  //   const timestamp_ms = reportData["timestamp"];
-  //   const timestamp_secs = timestamp_ms * 1000;
-  //   d = new Date(timestamp_secs).toLocaleString();
-  // } else {
-  //   d = "n/a;";
-  // }
-
   return (
     <div className={styles.dataReportContainer}>
       <div className="custom-chart">
@@ -197,7 +203,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
               </thead>
               <tbody>
                 <tr>
-                  <td>{reportData.corpus}</td>
+                  <td>{reportData.corpus.replace(".tsv", "")}</td>
                   <td>{date && date}</td>
                   <td>{srclang[0].label}</td>
                   {trglang && <td>{trglang[0].label}</td>}
@@ -211,21 +217,33 @@ export default function DataAnalyticsReport({ reportData, date }) {
               <thead>
                 <tr>
                   <th>Segment pairs</th>
+                  <th>Unique segment pairs</th>
                   <th>Src size</th>
                   {trglang && <th>Trg size</th>}
-                  <th>Unique segment pairs</th>
                   <th>Src tokens</th>
                   {trglang && <th>Trg tokens</th>}
                 </tr>
               </thead>
               <tbody>
                 <tr>
-                  <td>{reportData.sentence_pairs}</td>
+                  <td>{reportData.sentence_pairs.toLocaleString()}</td>
+                  <td>{reportData.src_unique_sents.length}</td>
                   <td>{reportData.src_bytes}</td>
                   {trglang && <td>{reportData.trg_bytes}</td>}
-                  <td>{reportData.src_unique_sents.length}</td>
-                  <td>{reportData.src_tokens}</td>
-                  {trglang && <td>{reportData.trg_tokens}</td>}
+
+                  <td>
+                    {" "}
+                    {Intl.NumberFormat("en", { notation: "compact" }).format(
+                      reportData.src_tokens
+                    )}
+                  </td>
+                  {trglang && (
+                    <td>
+                      {Intl.NumberFormat("en", { notation: "compact" }).format(
+                        reportData.trg_tokens
+                      )}
+                    </td>
+                  )}
                 </tr>
               </tbody>
             </table>
@@ -353,13 +371,13 @@ export default function DataAnalyticsReport({ reportData, date }) {
         <div className={styles.blank}></div>
       </div>
       <div className={styles.reportButtons}>
-        <a
+        <button
           className={styles.downloadButton}
-          href={`http://dat-webapp:5000/download/${reportData.corpus}.yaml`}
-          target="_blank"
+          onClick={handleDownload}
+          type="button"
         >
           Download yaml
-        </a>
+        </button>
         <button
           className={styles.exportToPDFButton}
           onClick={() => {

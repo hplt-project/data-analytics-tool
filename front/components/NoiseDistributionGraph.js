@@ -9,7 +9,6 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
-  LabelList,
 } from "recharts";
 
 export default function NoiseDistributionGraph({ noiseData }) {
@@ -24,7 +23,7 @@ export default function NoiseDistributionGraph({ noiseData }) {
           margin={{
             top: 5,
             right: 30,
-            left: 30,
+            left: 60,
             bottom: 5,
           }}
         >

@@ -8,8 +8,8 @@ export default function NGramsTable({ NGrams }) {
       <table>
         <thead>
           <tr className={styles.firstRow}>
-            <th className={styles.nunberHeader}>Nº</th>
-            <th>NGram</th>
+            <th className={styles.nunberHeader}>Size</th>
+            <th>n-grams</th>
           </tr>
         </thead>
         <tbody>

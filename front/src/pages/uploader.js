@@ -1,14 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import Footer from "../../components/Footer";
 
 import Navbar from "../../components/Navbar";
 import { languagePairName } from "../../hooks/hooks";
+import { PartyPopper } from "lucide-react";
 
 import styles from "@/styles/Uploader.module.css";
-
-let messageSent = false;
 
 export default function Uploader({ languageList }) {
   const {
@@ -18,6 +17,14 @@ export default function Uploader({ languageList }) {
     setValue,
     reset,
   } = useForm();
+
+  const [upload, setUpload] = useState(false);
+
+  const afterUpload = () => {
+    setTimeout(() => {
+      setUpload(false);
+    }, 3000);
+  };
 
   async function onSubmitForm(data) {
     const formdata = new FormData();
@@ -30,8 +37,6 @@ export default function Uploader({ languageList }) {
       }
     });
 
-    console.log(formdata, "did I mess up?");
-
     let config = {
       method: "POST",
       url: "/api/upload",
@@ -42,8 +47,8 @@ export default function Uploader({ languageList }) {
     try {
       const res = await axios(config);
       if (res.status === 200) {
-        console.log("Dataset uploaded Successfully");
-        messageSent = true;
+        setUpload(true);
+        afterUpload();
         reset();
       }
     } catch (err) {
@@ -51,9 +56,21 @@ export default function Uploader({ languageList }) {
     }
   }
 
+  const [status, setStatus] = useState(false);
+
   return (
     <div className={styles["main-container"]}>
       <Navbar />
+      {upload && (
+        <div className={styles.uploadToast}>
+          <h2>
+            Your dataset was successfully uploaded!
+            <PartyPopper className={styles.partyIcon} size={22} />
+          </h2>
+          <p>Have some patience. Processing might take some time.</p>
+        </div>
+      )}
+
       <form
         onSubmit={handleSubmit(onSubmitForm)}
         id="upload-form"
@@ -110,7 +127,7 @@ export default function Uploader({ languageList }) {
                 name="corpus-format"
                 id="corpus-format-tsv"
                 value="tsv"
-                checked
+                defaultChecked
                 {...register("corpus-format")}
               />
               <label
@@ -156,9 +173,11 @@ export default function Uploader({ languageList }) {
                 name="lang-format"
                 id="lang-format-mono"
                 value="mono"
+                onClick={(e) => {
+                  e.target.checked ? setStatus(true) : "";
+                }}
                 {...register("lang-format")}
               />
-
               <label
                 className={styles["form-check-label"]}
                 htmlFor="lang-format-mono"
@@ -178,9 +197,13 @@ export default function Uploader({ languageList }) {
                 name="lang-format"
                 id="lang-format-parallel"
                 value="parallel"
-                checked
+                onClick={(e) => {
+                  e.target.checked ? setStatus(false) : "";
+                }}
+                defaultChecked
                 {...register("lang-format")}
               />
+
               <label
                 className={styles["form-check-label"]}
                 htmlFor="lang-format-parallel"
@@ -211,26 +234,28 @@ export default function Uploader({ languageList }) {
                 })}
               </select>
             </div>
-            <div className={styles["dropdown-cont"]}>
-              <label className={styles["form-label"]} htmlFor="trglang">
-                Target language
-              </label>
-              <select
-                name="trglang"
-                id="trglang"
-                className={styles["form-select"]}
-                {...register("trglang")}
-              >
-                {languageList.map((lang, idx) => {
-                  const { value, label } = lang;
-                  return (
-                    <option value={value} className="option" key={idx}>
-                      {label}
-                    </option>
-                  );
-                })}
-              </select>
-            </div>
+            {!status && (
+              <div className={styles["dropdown-cont"]}>
+                <label className={styles["form-label"]} htmlFor="trglang">
+                  Target language
+                </label>
+                <select
+                  name="trglang"
+                  id="trglang"
+                  className={styles["form-select"]}
+                  {...register("trglang")}
+                >
+                  {languageList.map((lang, idx) => {
+                    const { value, label } = lang;
+                    return (
+                      <option value={value} className="option" key={idx}>
+                        {label}
+                      </option>
+                    );
+                  })}
+                </select>
+              </div>
+            )}
           </div>
         </div>
 
@@ -260,7 +285,7 @@ export default function Uploader({ languageList }) {
   );
 }
 
-export async function getServerSideProps(context) {
+export async function getServerSideProps() {
   const axios = require("axios");
 
   const apiList = await axios.get("http://dat-webapp:8000/opus_langs");

@@ -36,7 +36,7 @@ export default function Home() {
               <h2>View</h2>
               <p>Navigate, view and download your available reports.</p>
             </div>
-            <Link className={styles.uploadBtn} href="/viewer/name">
+            <Link className={styles.uploadBtn} href="/viewer">
               Viewer
             </Link>
           </div>
