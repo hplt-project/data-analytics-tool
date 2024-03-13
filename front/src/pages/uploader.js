@@ -20,6 +20,8 @@ export default function Uploader({ languageList }) {
 
   const [upload, setUpload] = useState(false);
 
+  const [status, setStatus] = useState(false);
+
   const afterUpload = () => {
     setTimeout(() => {
       setUpload(false);
@@ -50,13 +52,41 @@ export default function Uploader({ languageList }) {
         setUpload(true);
         afterUpload();
         reset();
+        setStatus(false);
       }
     } catch (err) {
       console.error(err, "Request failed ");
     }
   }
+  // async function getCmd(data) {
+  //   const formdata = new FormData();
 
-  const [status, setStatus] = useState(false);
+  //   Object.entries(data).forEach(([key, value]) => {
+  //     if (key === "corpus") {
+  //       formdata.set(key, value[0]);
+  //     } else {
+  //       formdata.set(key, value);
+  //     }
+  //   });
+
+  //   let config = {
+  //     method: "POST",
+  //     url: "/api/getcmd/cmd",
+  //     data: formdata,
+  //     headers: { "Content-Type": "multipart/form-data" },
+  //   };
+
+  //   try {
+  //     const res = await axios(config);
+  //     if (res.status === 200) {
+  //       console.log(res.data, "************************");
+  //       reset();
+  //       setStatus(false);
+  //     }
+  //   } catch (err) {
+  //     console.error(err, "Request failed ");
+  //   }
+  // }
 
   return (
     <div className={styles["main-container"]}>

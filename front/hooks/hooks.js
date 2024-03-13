@@ -145,6 +145,7 @@ export function randDarkColor() {
   }
   return rgb;
 }
+
 export function unEscape(htmlStr) {
   htmlStr = htmlStr.replace(/&lt;/g, "<");
   htmlStr = htmlStr.replace(/&gt;/g, ">");

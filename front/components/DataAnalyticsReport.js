@@ -13,9 +13,8 @@ import axios from "axios";
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
 
 export default function DataAnalyticsReport({ reportData, date }) {
-  const [loadingPdf, setLoadingPdf] = useState(false);
-
   if (!reportData) return;
+  const [loadingPdf, setLoadingPdf] = useState(false);
 
   const handleDownload = async () => {
     const filename = reportData.corpus.replace(".tsv", "");
@@ -42,7 +41,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
     return { token: +s[0], freq: +s[1], fill: "#8864FC" };
   });
 
-  const srcSentTokens = !reportData
+  const srcSentTokens = !reportData.src_sent_tokens
     ? ""
     : JSON.parse(reportData.src_sent_tokens).map((s) => {
         return {
@@ -55,7 +54,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
         };
       });
 
-  const srcUniqueTokens = !reportData
+  const srcUniqueTokens = !reportData.src_unique_sents
     ? ""
     : JSON.parse(reportData.src_unique_sents).map((s) => {
         return {
@@ -148,10 +147,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
     !reportData && Object.keys(JSON.parse(reportData.src_ngrams)).length
       ? ""
       : JSON.parse(reportData.src_ngrams);
-  const trgNGrams =
-    !reportData && Object.keys(JSON.parse(reportData.trg_ngrams)).length
-      ? ""
-      : JSON.parse(reportData.trg_ngrams);
+
+  const trgNGrams = !reportData.trg_ngrams
+    ? ""
+    : JSON.parse(reportData.trg_ngrams);
 
   /// language names
 
