@@ -13,6 +13,7 @@ import json
 from timeit import default_timer
 from util import logging_setup
 from collections import Counter
+from statistics import mean
 #from ngrams import get_line_ngrams, get_stopwords
 #from xxhash import xxh64
 #from bicleanerscorer import read_hardrulestags, read_scores
@@ -71,6 +72,7 @@ def main():
     doc_length = Counter()
     doc_collections = Counter()
     doc_langs = Counter()
+    docs_lm_avg = Counter()
     
     for json_line in args.corpus :
         total_docs+=1
@@ -96,6 +98,10 @@ def main():
         lang_matches = langs.count(args.srclang)
         lang_matches_rate = round((lang_matches/len(langs)), 1)
         doc_langs[lang_matches_rate] += 1
+
+        #Average LM score per document (docs_lm_avg)        
+        lm_mean = round(mean(scores), 1)
+        docs_lm_avg[lm_mean] += 1
         
         #Extract segmenmt for further segment processing
         for sent in sents:
@@ -119,10 +125,15 @@ def main():
     langs_list = []
     for rate, freq in sorted(doc_langs.items()):
         langs_list.append([rate, freq])
+        
+    lm_avg_list = []
+    for lm, freq in sorted(docs_lm_avg.items()):
+        lm_avg_list.append([lm, freq])
     
     stats["docs_segments"] = json.dumps(doc_length_list)
     stats["docs_collections"] = json.dumps(collections_list)
     stats["docs_langs"] = json.dumps(langs_list)
+    stats["docs_avg_lm"] = json.dumps(lm_avg_list)
     stats["docs_warnings"] = warnings
     stats["docs_timestamp"] = time.time()
 
