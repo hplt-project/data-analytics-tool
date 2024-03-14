@@ -62,8 +62,6 @@ export default async function handler(req, res) {
       fileWriteStreamHandler: () => fileConsumer(chunks),
     });
 
-    console.log("*******being called over here*********");
-
     const fileData = Buffer.concat(chunks);
 
     const attachments = {
@@ -84,13 +82,8 @@ export default async function handler(req, res) {
         },
       }
     );
-    if (response.status === 200) {
-      console.log("Dataset uploaded Successfully");
-    } else {
-      console.log(response.status, "this went wrong");
-    }
 
-    return res.status(200).end();
+    return res.json(response.data);
   } catch (err) {
     return res.status(500).json({ error: "Internal Server Error" });
   }

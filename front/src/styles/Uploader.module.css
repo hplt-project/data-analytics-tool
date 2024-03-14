@@ -116,6 +116,36 @@
 .dropdown-cont select {
   font-size: 16px;
 }
+.cmd {
+  position: absolute;
+  background-color: white;
+  border-radius: 10px;
+  z-index: 20;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.cmdContainer {
+  background-color: rgb(25, 27, 25);
+  border-radius: 10px;
+  padding: 20px;
+}
+.cmdContainer p {
+  color: rgb(25, 221, 221);
+  line-height: 1.6;
+}
+.copyIcon {
+  margin-left: 10px;
+}
+.cmd button {
+  margin-top: 10px;
+  margin-left: auto;
+  display: flex;
+  cursor: pointer;
+}
+
 @media (max-width: 935px) {
   .parent-holder {
     margin-top: 30px;
@@ -142,7 +172,8 @@
 
 .button-26,
 .button-27,
-.button-28 {
+.button-28,
+.cmd button {
   appearance: button;
   background-color: #1652f0;
   border: 1px solid #1652f0;
@@ -165,7 +196,8 @@
   margin-right: 10px;
   text-decoration: none;
 }
-.button-27 {
+.button-27,
+.cmd button {
   background-color: transparent;
   color: #1652f0;
 }
@@ -257,4 +289,18 @@
 }
 .inputs {
   margin: 25px 0;
+}
+.cmd button.closeCmd {
+  display: flex;
+  background-color: transparent;
+  border: none;
+  padding: 10px;
+  margin: 10px 0;
+  color: rgb(21, 22, 19);
+  align-items: center;
+  margin-left: auto;
+  font-weight: 500;
+}
+.closeIcon {
+  margin-left: 10px;
 }

@@ -2,12 +2,16 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import Footer from "../../components/Footer";
+import { Copy, XCircle } from "lucide-react";
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 import Navbar from "../../components/Navbar";
 import { languagePairName } from "../../hooks/hooks";
 import { PartyPopper } from "lucide-react";
 
 import styles from "@/styles/Uploader.module.css";
+import CopyToClipboard from "react-copy-to-clipboard";
 
 export default function Uploader({ languageList }) {
   const {
@@ -21,6 +25,8 @@ export default function Uploader({ languageList }) {
   const [upload, setUpload] = useState(false);
 
   const [status, setStatus] = useState(false);
+
+  const [cmd, setCmd] = useState("");
 
   const afterUpload = () => {
     setTimeout(() => {
@@ -58,35 +64,37 @@ export default function Uploader({ languageList }) {
       console.error(err, "Request failed ");
     }
   }
-  // async function getCmd(data) {
-  //   const formdata = new FormData();
+  async function getCmd(data) {
+    const formdata = new FormData();
 
-  //   Object.entries(data).forEach(([key, value]) => {
-  //     if (key === "corpus") {
-  //       formdata.set(key, value[0]);
-  //     } else {
-  //       formdata.set(key, value);
-  //     }
-  //   });
+    Object.entries(data).forEach(([key, value]) => {
+      if (key === "corpus") {
+        formdata.set(key, value[0]);
+      } else {
+        formdata.set(key, value);
+      }
+    });
 
-  //   let config = {
-  //     method: "POST",
-  //     url: "/api/getcmd/cmd",
-  //     data: formdata,
-  //     headers: { "Content-Type": "multipart/form-data" },
-  //   };
+    let config = {
+      method: "POST",
+      url: "/api/getcmd/cmd",
+      data: formdata,
+      headers: { "Content-Type": "multipart/form-data" },
+    };
 
-  //   try {
-  //     const res = await axios(config);
-  //     if (res.status === 200) {
-  //       console.log(res.data, "************************");
-  //       reset();
-  //       setStatus(false);
-  //     }
-  //   } catch (err) {
-  //     console.error(err, "Request failed ");
-  //   }
-  // }
+    try {
+      const res = await axios(config);
+      if (res.status === 200) {
+        setCmd(res.data);
+        reset();
+        setStatus(false);
+      }
+    } catch (err) {
+      console.error(err, "Request failed ");
+    }
+  }
+
+  const notify = () => toast("CMD copied to clipboard");
 
   return (
     <div className={styles["main-container"]}>
@@ -98,6 +106,23 @@ export default function Uploader({ languageList }) {
             <PartyPopper className={styles.partyIcon} size={22} />
           </h2>
           <p>Have some patience. Processing might take some time.</p>
+        </div>
+      )}
+      {cmd && (
+        <div className={styles.cmd}>
+          <button className={styles.closeCmd} onClick={() => setCmd("")}>
+            Close <XCircle strokeWidth={1.5} className={styles.closeIcon} />
+          </button>
+          <div className={styles.cmdContainer}>
+            <p>{cmd}</p>
+          </div>
+          <CopyToClipboard text={cmd}>
+            <button onClick={notify}>
+              Copy CMD
+              <Copy className={styles.copyIcon} strokeWidth={1.3} />
+            </button>
+          </CopyToClipboard>
+          <ToastContainer />
         </div>
       )}
 
@@ -302,10 +327,11 @@ export default function Uploader({ languageList }) {
             className={styles["button-27"]}
             type="button"
             form="upload-form"
+            onClick={handleSubmit(getCmd)}
           >
             Get cmd
           </button>
-          <a className={styles["button-28"]} href="/viewer/name">
+          <a className={styles["button-28"]} href="/viewer">
             Go to viewer
           </a>
         </div>
