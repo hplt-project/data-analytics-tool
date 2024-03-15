@@ -135,10 +135,9 @@ def main():
         doc_length_list.append([segments, freq])
     
     collections_list=[]
-    for collection, freq in sorted(doc_collections.most_common(), reverse=True):
+    for collection, freq in sorted(doc_collections.items(), key=lambda pair:pair[1], reverse=True):
         collections_list.append([collection, freq])
-
-    
+        
     langs_list = []
     for rate, freq in sorted(doc_langs.items()):
         langs_list.append([rate, freq])
@@ -148,11 +147,11 @@ def main():
         lm_avg_list.append([lm, freq])
         
     tld_list = []
-    for tld, freq in sorted(docs_tld.most_common(), reverse=True):
+    for tld, freq in sorted(docs_tld.items(), key=lambda pair:pair[1], reverse=True):
         tld_list.append([tld, freq])
         
     domains_list = []
-    for domain, freq in sorted(docs_domains.most_common(100), reverse=True):
+    for domain, freq in sorted(docs_domains.most_common(100), key=lambda pair: pair[1], reverse=True):
         domains_list.append([domain, freq])
     
     stats["docs_segments"] = json.dumps(doc_length_list)
