@@ -147,7 +147,7 @@ def main():
         lm_avg_list.append([lm, freq])
         
     tld_list = []
-    for tld, freq in sorted(docs_tld.items(), key=lambda pair:pair[1], reverse=True):
+    for tld, freq in sorted(docs_tld.most_common(100), key=lambda pair:pair[1], reverse=True):
         tld_list.append([tld, freq])
         
     domains_list = []
@@ -158,8 +158,8 @@ def main():
     stats["docs_collections"] = json.dumps(collections_list)
     stats["docs_langs"] = json.dumps(langs_list)
     stats["docs_avg_lm"] = json.dumps(lm_avg_list)
-    stats["docs_domains"] = json.dumps(domains_list)
-    stats["docs_tld"] = json.dumps(tld_list)    
+    stats["docs_top100_domains"] = json.dumps(domains_list)
+    stats["docs_top100_tld"] = json.dumps(tld_list)    
     stats["docs_warnings"] = warnings
     stats["docs_timestamp"] = time.time()
 
