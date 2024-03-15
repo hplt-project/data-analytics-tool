@@ -76,6 +76,7 @@ def main():
     doc_langs = Counter()
     docs_lm_avg = Counter()
     docs_tld = Counter()
+    docs_domains = Counter()
     
     for json_line in args.corpus :
         total_docs+=1
@@ -106,21 +107,23 @@ def main():
         lm_mean = round(mean(scores), 1)
         docs_lm_avg[lm_mean] += 1
         
-        #Top-level domain
+        #Top-level domain and domain
         try:
             #domain = url.replace("http://", "").replace("https://", "").replace("www.", "").split("/")[0]
             #tld = domain.split["."][-1]
-            domain = urlparse(url).netloc
-            tld = tldextract.extract(domain).suffix            
+            fulldomain = urlparse(url).netloc #This includes subdomain
+            domain = tldextract.extract(fulldomain).domain #This does not include subdomain
+            tld = tldextract.extract(fulldomain).suffix #This is the TDL removing the preceeding dot
+            
             docs_tld[tld] += 1
+            docs_domains[domain+"."+tld] += 1
         except Exception as ex:            
             logging.error("Bad url: " + url)
             logging.error(ex)
 
         #Extract segmenmt for further segment processing
         for sent in sents:
-            args.tsvfile.write(sent.strip()+"\n")
-            
+            args.tsvfile.write(sent.strip()+"\n")            
             
     if unmatching_docs != 0:
         warning.append("docs_unmatching_"+str(unmatching_docs))
@@ -132,8 +135,9 @@ def main():
         doc_length_list.append([segments, freq])
     
     collections_list=[]
-    for collection, freq in sorted(doc_collections.items()):
+    for collection, freq in sorted(doc_collections.most_common(), reverse=True):
         collections_list.append([collection, freq])
+
     
     langs_list = []
     for rate, freq in sorted(doc_langs.items()):
@@ -144,14 +148,19 @@ def main():
         lm_avg_list.append([lm, freq])
         
     tld_list = []
-    for tld, freq in sorted(docs_tld.items()):
+    for tld, freq in sorted(docs_tld.most_common(), reverse=True):
         tld_list.append([tld, freq])
+        
+    domains_list = []
+    for domain, freq in sorted(docs_domains.most_common(100), reverse=True):
+        domains_list.append([domain, freq])
     
     stats["docs_segments"] = json.dumps(doc_length_list)
     stats["docs_collections"] = json.dumps(collections_list)
     stats["docs_langs"] = json.dumps(langs_list)
     stats["docs_avg_lm"] = json.dumps(lm_avg_list)
-    stats["docs_tld"] = json.dumps(tld_list)
+    stats["docs_domains"] = json.dumps(domains_list)
+    stats["docs_tld"] = json.dumps(tld_list)    
     stats["docs_warnings"] = warnings
     stats["docs_timestamp"] = time.time()
 
