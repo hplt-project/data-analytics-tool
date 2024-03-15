@@ -22,7 +22,8 @@ bicleaner_langs_es=(ca de gl eu)
 bicleaner_ai_langs_en=(ar bg ca cs da de el es et eu fi fr ga gl hbs he hi hu is it ja lt lv mk mt nb nl nn pl pt ro sk sl sq sv sw tr uk vi zh sr bs hr me)
 bicleaner_ai_langs_es=(ca de gl eu zh)
 
-monocleaner_langs=(ar az bg bs ca cnr cs da de el en es et eu fa fi fr ga gl hbs he hi hr hu is it ja ko lt lt lv mk ms mt nb nl nn pl pt ro ru sk sl sq sr sv sw th tr uk vi)
+monocleaner_langs=(ab af am ar as  az ba be bg bh bn bo br bs ca ceb chr cnr co cs cy da de dv dz el en eo es et eu fa fi fr ga gl gu hbs he hi hr hu hy id \
+	is it ja ka kk kn ko ky la lt lt lv mk ml mn mr ms mt my nb ne nl nn pa pl ps pt ro ru si sk sl so sq sr sv sw ta te th tl tr tt uk ur uz vi zh)
 
 hbs_langs=(hr sr bs me)
 
