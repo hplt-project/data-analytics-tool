@@ -126,7 +126,7 @@ def main():
             args.tsvfile.write(sent.strip()+"\n")            
             
     if unmatching_docs != 0:
-        warning.append("docs_unmatching_"+str(unmatching_docs))
+        warnings.append("docs_unmatching_"+str(unmatching_docs))
         
     stats["docs_total"] = total_docs
 
