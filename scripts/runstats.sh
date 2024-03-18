@@ -362,7 +362,8 @@ elif [ "$langformat" == "mono" ]; then
 	python3 /work/scripts/force-fasttext-download.py $srclang        
         ./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $saved_file_path.$srclang.langids 1 
         cat $saved_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $saved_file_path.$srclang.langcounts
-	
+	#nyapa
+        cp $saved_file_path.$srclang.langcounts $tsv_file_path.$srclang.langcounts	
 
 	#time python3 -m cProfile ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
 	echo "Running ReadCorpus Mono..."
