@@ -13,7 +13,7 @@ RUN mkdir -p /work/img/
 RUN mkdir -p /work/css/
 RUN mkdir -p /work/scripts/
 RUN mkdir -p /work/scripts/resources/
-RUN mkdir -p /work/js/
+#RUN mkdir -p /work/js/
 RUN mkdir -p /work/uploaded_corpora/  
 RUN mkdir -p /work/yaml_dir/
 
@@ -27,7 +27,7 @@ RUN apt-get update && \
     apt-get install -y wget unzip joe gcc libboost-all-dev cmake && \ 
     apt-get install -y python3.10 python3-dev python3.10-dev  python3-pip  python3.10-venv && \
     apt-get install -y git build-essential autoconf autopoint libtool parallel &&\
-    apt-get install -y hunspell libhunspell-dev
+    apt-get install -y hunspell libhunspell-dev jq zstd
     
 RUN python3.10 -m pip install -U pip  && \
     python3.10 -m pip install -U wheel && \
@@ -81,7 +81,7 @@ COPY *.html /work/
 COPY favicon.ico /work/
 COPY img/ /work/img/
 COPY css/ /work/css/
-COPY js/ /work/js/
+#COPY js/ /work/js/
 COPY server.py /work/
 COPY scripts/ /work/scripts/
 #COPY scripts/resources/* /work/scripts/resources/
