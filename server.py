@@ -30,7 +30,7 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         srclang = form.getvalue('srclang')
         trglang = form.getvalue('trglang')
         if not trglang:
-            trglang="-"
+            trglang="None"
         format = form.getvalue('corpus-format')
         langformat = form.getvalue('lang-format')
                 
