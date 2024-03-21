@@ -12,7 +12,7 @@ Resources from various sources:
 * stopwords.pa: https://github.com/fergiemcdowall/stopword/blob/main/src/stopwords_panGu.js
 * stopwords.ps: https://github.com/mohbadar/pashto-stopwords/blob/master/data/pashto-stopwords.txt
 * stopwords.si: https://raw.githubusercontent.com/nlpcuom/Sinhala-Stopword-list/master/stop%20words.txt
-* stopwords.sq: https://github.com/andrixh/index-albanian/blob/master/src/Stemmer.php
+* stopwords.sq: https://github.com/andrixh/index-albanian/blob/master/src/Stemmer.php + https://betimdrenica.wordpress.com/2012/05/21/albanian-stop-words/
 * stopwords.sr: https://github.com/Xangis/extra-stopwords/blob/master/serbian + https://github.com/Xangis/extra-stopwords/blob/master/serbian-cyrillic
 * stopwords.ta: https://github.com/AshokR/TamilNLP/blob/master/tamilnlp/Resources/TamilStopWords.txt
 * stopwords.te: https://github.com/Xangis/extra-stopwords/blob/master/telugu

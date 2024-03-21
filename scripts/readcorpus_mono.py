@@ -38,7 +38,7 @@ def initialization():
 
 #Probably more fanciness needed here
 def write_stats(statsfile, statsdict):
-    with open(statsfile, "w") as f:
+    with open(statsfile, "a") as f:
         yaml.dump(statsdict,f)
 
 #Currently a dummy
@@ -139,7 +139,7 @@ def main():
             ngrams_warnings.add("src_"+w)
         
         for g in ngrams_dict.get(1):
-            onegrams_buffer.append(" ".join(g))
+            onegrams_buffer.append("".join(g))
             onegrams_counter += 1
             #onegrams_file.write(" ".join(g)+"\n")
         for g in ngrams_dict.get(2):
@@ -201,15 +201,15 @@ def main():
 
     #Write remaining ngrams in buffers
     for g in onegrams_buffer:
-        onegrams_file.write(" ".join(g)+"\n")
+        onegrams_file.write(g+"\n")
     for g in twograms_buffer:
-        twograms_file.write(" ".join(g)+"\n")
+        twograms_file.write(g+"\n")
     for g in threegrams_buffer:
-        threegrams_file.write(" ".join(g)+"\n")
+        threegrams_file.write(g+"\n")
     for g in fourgrams_buffer:
-        fourgrams_file.write(" ".join(g)+"\n")
+        fourgrams_file.write(g+"\n")
     for g in fivegrams_buffer:
-        fivegrams_file.write(" ".join(g)+"\n")
+        fivegrams_file.write(g+"\n")
       
     stats["sentence_pairs"] = total_lines
     stats["unique_sents"] = len(sent_hashes)

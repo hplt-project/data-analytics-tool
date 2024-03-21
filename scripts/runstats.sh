@@ -22,7 +22,8 @@ bicleaner_langs_es=(ca de gl eu)
 bicleaner_ai_langs_en=(ar bg ca cs da de el es et eu fi fr ga gl hbs he hi hu is it ja lt lv mk mt nb nl nn pl pt ro sk sl sq sv sw tr uk vi zh sr bs hr me)
 bicleaner_ai_langs_es=(ca de gl eu zh)
 
-monocleaner_langs=(ar az bg bs ca cnr cs da de el en es et eu fa fi fr ga gl hbs he hi hr hu is it ja ko lt lt lv mk ms mt nb nl nn pl pt ro ru sk sl sq sr sv sw th tr uk vi)
+monocleaner_langs=(ab af am ar as  az ba be bg bh bn bo br bs ca ceb chr cnr co cs cy da de dv dz el en eo es et eu fa fi fr ga gl gu hbs he hi hr hu hy id \
+	is it ja ka kk kn ko ky la lt lt lv mk ml mn mr ms mt my nb ne nl nn pa pl ps pt ro ru si sk sl so sq sr sv sw ta te th tl tr tt uk ur uz vi zh)
 
 hbs_langs=(hr sr bs me)
 
@@ -281,6 +282,7 @@ if [ "$langformat" == "parallel" ]; then
 
 
 elif [ "$langformat" == "mono" ]; then
+	rm $yaml_file_path
 	if [ "$format" == "tmx" ]; then
 		echo "Extracting from TMX..."
                 # Get the directory path and filename without extension
@@ -290,7 +292,29 @@ elif [ "$langformat" == "mono" ]; then
                 tsv_file_path="$dir_path/$filename.tsv"
                 python3 ./tmxt/tmxt.py --codelist=$srclang $saved_file_path $tsv_file_path
         elif [ "$format" == "tsv" ]; then
-                    tsv_file_path=$saved_file_path #if the input file is in tsv format
+                tsv_file_path=$saved_file_path #if the input file is in tsv format
+	elif [ "$format" == "docs" ]; then
+		echo "Extracting documents..."
+                # Get the directory path and filename without extension
+                original_filename=$(basename -- "$saved_file_path")
+                extension="${original_filename##*.}"
+                
+                dir_path=$(dirname "$saved_file_path")
+		filename=$(basename  "$original_filename" ."$extension")
+
+                # Create the new file path with the "tsv" extension                
+                tsv_file_path="$dir_path/$filename.tsv"
+
+
+                if [ "$extension" == "zst" ]; then
+                	zstdcat $saved_file_path | python3 ./scripts/readdocuments.py - $tsv_file_path $yaml_file_path $srclang
+		else
+			python3 ./scripts/readdocuments.py $saved_file_path $tsv_file_path $yaml_file_path $srclang
+		fi		
+
+		#zstdcat $saved_file_path | jq -r .text > $tsv_file_path #sentences, splitted by /n		
+		
+
         else
                 echo "Unsupported format \"$format\""
                 exit 1
@@ -325,7 +349,7 @@ elif [ "$langformat" == "mono" ]; then
 		#./scripts/parallel-monocleaner.sh $JOBS $datapath/monocleaner/$srclang $tsv_file_path  $tsv_file_path.classify
 		#monocleaner --score_only --disable_hardrules $langpath ${INPUT_FILE} - > ${INPUT_FILE}.o 2>mono.log
 		#Force Fasttext download, in case it does not exist in this environment, to avoid doing it in parallel
-	        python3 ./scripts/force-fasttext-download.py $srclang
+	        python3 /work/scripts/force-fasttext-download.py $srclang
 		cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1  parallel -k  -j $JOBS --pipe monocleaner --score_only --disable_hardrules $datapath/monocleaner/$srclang - - > $tsv_file_path.classify 2> mono.log
 
 	fi
@@ -335,10 +359,11 @@ elif [ "$langformat" == "mono" ]; then
         #Fastspell
         echo "Running FastSpell..."
 	#Force Fasttext download, in case it does not exist in this environment, to avoid doing it in parallel
-	python3 ./scripts/force-fasttext-download.py $srclang        
+	python3 /work/scripts/force-fasttext-download.py $srclang        
         ./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $saved_file_path.$srclang.langids 1 
         cat $saved_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $saved_file_path.$srclang.langcounts
-	
+	#nyapa
+        cp $saved_file_path.$srclang.langcounts $tsv_file_path.$srclang.langcounts	
 
 	#time python3 -m cProfile ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
 	echo "Running ReadCorpus Mono..."
