@@ -13,27 +13,29 @@
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
     <link href="/css/footer.css" rel="stylesheet" />
     <link href="/css/index.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    
         
         <script type="text/javascript">
             document.write("<base href='" + window.location.origin + "' />");
         </script>
 
-        <style>
-            .navbar-brand
-            {
-              font-size: 40px;
-            }
-        </style>
         <meta name="viewport" content="width=device-width, initial-scale=1">
                 
-        <title>Data Analytics Tool - Uploader</title>
+        <title>HPLTAnalytics Tool - Uploader</title>
     </head>
     <body>
         <div class="container-fluid main-container">
-            <nav class="navbar navbar-light ">
-                <a class="navbar-brand" href="/">
-                    <img src="img/logo.png" height="50px"/> Data Analytics Tool
-                </a>                
+            <nav class="navbar">
+                <a class="navbar-brand" href="http://localhost:8000/">
+                    <img src="img/HPLTAnalytics-light.svg" height="50px" width="240px"/> 
+                </a>    
+                <div class="nav-links">
+                <a href="/uploader.html" class="single-nav-link">Uploader</a>
+                <a href="http://localhost:8000/viewer/name" class="single-nav-link">Viewer</a>   
+            </div>         
             </nav>
             <div class="row my-3">
                 <div class="col">                   
@@ -44,27 +46,18 @@
 
             <form method="POST" action="/upload"  id="upload-form" enctype="multipart/form-data">
                 <div class="form-group">
-                    <div class="row my-3">
-                        <div class="col-1">
-                            <label class="form-label" for="file">File</label>
-                        </div>
-                        <div class="col-4">
-                            <input class="form-control" id="corpus" name="corpus" type="file" required />
-                        </div>
-                    </div>
-                    <div class="row my-3">
-                        <div class="col-1">
+                    <div class="input-group">
+                  
+                    <div class="name-cont">
                             <label class="form-label" for="corpusname">Name</label>
-                        </div>
-                        <div class="col-3">
                             <input class="form-control" id="corpusname" type="text" name="corpusname" required></input>
-                        </div>
                     </div>
-                        <!--<p>
-                           <label for="description">Description</label><input id="corpusdescription" type="text"></input>
-                        </p>-->
-
-                    <div class="my-3">
+                    <div class="file-cont">
+                        <label class="form-label" for="file">File</label>
+                        <input class="form-control file-input" id="corpus" name="corpus" type="file" required />
+                </div>
+                </div>
+                    <div class="inputs">
                         <div class="form-check-inline">
                             <label class="form-label" for="corpus-format">Corpus format</label>
                         </div>
@@ -80,7 +73,7 @@
 
 
 
-                    <div class="my-3">
+                    <div class="inputs">
                         <div class="form-check-inline">
                             <label class="form-label" for="lang-format">Language</label>
                         </div>
@@ -93,20 +86,15 @@
                             <label class="form-check-label" for="lang-format-parallel">Parallel</label>
                         </div> 
                     </div>
-                    <div class="row my-3">
-                        <div class="label-holder">
+                    <div class="lang-inputs">
+                        <div class="dropdown-cont">
                             <label class="form-label" for="srclang">Source language</label>
-                        </div>
-                        <div class="input-holder">
                             <select name="srclang" id="srclang"  class="form-select" required></select>
-
                         </div>
-                        <div class="label-holder">
+                        <div class="dropdown-cont">
                             <label class="form-label" for="trglang">Target language</label>
-                        </div>
-                        <div class="input-holder">
-
                             <select name="trglang" id="trglang"  class="form-select"></select>
+                        </div>
 
                         </div>
                     </div>
@@ -121,16 +109,10 @@
                             <!--<p>
                                 <label for="corpusformat">Corpus format</label>  <input type="radio" id="corpusformat" name="corpusformat" value="TSV">TSV</input>
                             </p>-->                            
-                    <div class="row my-3">                                   
-                        <div class="button-holder">
-                            <button class="btn btn-primary" type="submit" form="upload-form">Upload</button>
-                        </div>
-                        <div class="button-holder-2">
-                            <button id="getcmd-button" class="btn btn-secondary" type="button" form="upload-form">Get cmd</button>
-                        </div>
-                        <div class="button-holder-3">                
-                            <a  class="btn btn-dark" href="./viewer.html">Go to viewer</a>
-                        </div>
+                    <div class="uploader-buttons">                                   
+                            <button class="button-26" type="submit" form="upload-form">Upload</button>
+                            <button id="getcmd-button" class="button-27" type="button" form="upload-form">Get cmd</button>
+                            <a  class="button-28" href="/viewer/name">Go to viewer</a>
                     </div>
                     
                 </div>
@@ -140,7 +122,7 @@
                 <div id="uploadToast" class="toast"  data-bs-autohide="false" role="alert" aria-live="assertive" aria-atomic="true">
                     <div class="toast-header">
                         <strong><i class="bi bi-hand-thumbs-up"></i></strong>
-                        <strong class="me-auto">Corpus upload</strong>
+                        <strong class="me-auto"> Corpus uploaded</strong>
         
                         <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
                     </div>
@@ -190,7 +172,11 @@
                     //show toast
                     const toastUpload = document.getElementById('uploadToast')
                     const toastBootstrap = bootstrap.Toast.getOrCreateInstance(toastUpload)
-                     toastBootstrap.show()                                        
+                     toastBootstrap.show()    
+                     
+                     setTimeout(() => {
+                        toastBootstrap.hide()
+                     }, 4000);
                 }
 
 
@@ -322,7 +308,7 @@
             <div class="footer-text-right">
               <a href="https://twitter.com/hplt_eu" target="_blank" rel="noreferrer">
                 <img
-                  src="/img/twitter.svg"
+                  src="/img/logo-black.png"
                   alt="twitter-icon"
                   class="twitter-icon-footer"
                 />

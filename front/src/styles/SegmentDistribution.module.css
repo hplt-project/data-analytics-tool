@@ -1,0 +1,23 @@
+.segmentDistributionContainer {
+  height: 350px;
+}
+.tooltipOverlap {
+  background-color: var(--main-background);
+  padding: 15px;
+}
+.tooltipOverlap .labelOverlap {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.tooltipOverlap p {
+  margin-bottom: 7px;
+}
+.segmentTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.segmentTitle p {
+  margin-top: 10px;
+}

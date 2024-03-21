@@ -1,0 +1,8 @@
+.noiseDistributionGraphContainer {
+  height: 300px;
+  z-index: 300;
+}
+
+.recharts-brush rect {
+  fill: red;
+}

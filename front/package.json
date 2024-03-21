@@ -1,0 +1,34 @@
+{
+  "name": "front",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "all-iso-language-codes": "^1.0.12",
+    "axios": "^1.6.7",
+    "formidable": "^3.5.1",
+    "fs": "0.0.1-security",
+    "html-to-image": "^1.11.11",
+    "js-yaml": "^4.1.0",
+    "jspdf": "^2.5.1",
+    "lucide-react": "^0.334.0",
+    "next": "14.0.1",
+    "next-themes": "^0.2.1",
+    "next-yaml": "^1.0.1",
+    "node": "^18.14.0",
+    "react": "^18",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18",
+    "react-hook-form": "^7.50.1",
+    "react-loader-spinner": "^6.1.6",
+    "react-toastify": "^10.0.4",
+    "react-widgets": "^5.8.4",
+    "recharts": "^2.9.3",
+    "stream": "^0.0.2"
+  }
+}

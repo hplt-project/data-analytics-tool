@@ -1,0 +1,32 @@
+.reportScoresContainer {
+  height: 300px;
+}
+.tooltipOverlap {
+  background-color: var(--main-background);
+  padding: 15px;
+}
+.tooltipOverlap .labelOverlap {
+  margin-bottom: 15px;
+  font-weight: 600;
+  font-size: 18px;
+}
+.label {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.desc {
+  margin-bottom: 7px;
+}
+.overlapTitle {
+  margin: 40px 0 20px 0;
+}
+.graphContainer {
+  margin: 15px 0 0 -40px;
+}
+.overlapGraph h2 {
+  margin-bottom: 2px;
+}
+
+.overlapGraph p {
+  margin-bottom: 0px;
+}
