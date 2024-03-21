@@ -13,6 +13,8 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
+import { DataFormatter } from "../hooks/hooks";
+
 const CustomTooltip = ({ active, payload, label }) => {
   if (active && payload && payload.length && label) {
     return (
@@ -33,7 +35,7 @@ const CustomTooltip = ({ active, payload, label }) => {
   }
 };
 
-export default function ReportScores({ scores, xLabel, yLabel }) {
+export default function ReportScores({ scores, xLabel, yLabel, graph }) {
   const processedScores = scores.map((item) => {
     return {
       token: item.token,
@@ -45,18 +47,6 @@ export default function ReportScores({ scores, xLabel, yLabel }) {
     };
   });
 
-  const DataFormater = (number) => {
-    if (number > 1000000000) {
-      return (number / 1000000000).toString() + "B";
-    } else if (number > 1000000) {
-      return (number / 1000000).toString() + "M";
-    } else if (number > 1000) {
-      return (number / 1000).toString() + "K";
-    } else {
-      return number.toString();
-    }
-  };
-
   return (
     <div className={styles.reportScoresContainer}>
       <ResponsiveContainer width="95%" height="100%">
@@ -67,7 +57,7 @@ export default function ReportScores({ scores, xLabel, yLabel }) {
           margin={{
             top: 30,
             right: 0,
-            left: 3,
+            left: 20,
             bottom: 40,
           }}
         >
@@ -82,10 +72,10 @@ export default function ReportScores({ scores, xLabel, yLabel }) {
               value: `${yLabel}`,
               angle: -90,
               position: "insideLeft",
-              offset: 5,
+              offset: -8,
               fontSize: 16,
             }}
-            tickFormatter={DataFormater}
+            tickFormatter={DataFormatter}
           />
           <Tooltip
             content={<CustomTooltip />}

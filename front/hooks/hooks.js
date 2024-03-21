@@ -163,7 +163,10 @@ export function unEscape(htmlStr) {
   return htmlStr;
 }
 
-export const DataFormater = (number) => {
+export const DataFormatter = (number) => {
+  if (typeof number !== "number") {
+    return number;
+  }
   if (number > 1000000000) {
     return (number / 1000000000).toString() + "B";
   } else if (number > 1000000) {
@@ -173,4 +176,25 @@ export const DataFormater = (number) => {
   } else {
     return number.toString();
   }
+};
+
+export const percFormatter = (number) => {
+  return number.toString() + "%";
+};
+
+export const handleDownload = async () => {
+  const filename = reportData.corpus;
+
+  const response = await axios.get(`/api/download/${filename}`);
+
+  if (response.status !== 200) {
+    console.error(response.status, response.statusText);
+  }
+  const blob = response.data;
+  const test = new File([blob], `${filename}.yaml`);
+  const url = window.URL.createObjectURL(test);
+  const link = document.createElement("a");
+  link.href = url;
+  link.download = `${filename}`;
+  link.click();
 };

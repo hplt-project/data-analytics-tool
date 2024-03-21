@@ -7,9 +7,10 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
+  LabelList,
 } from "recharts";
+import { percFormatter } from "../hooks/hooks";
 
 export default function NoiseDistributionGraph({ noiseData }) {
   return (
@@ -28,11 +29,18 @@ export default function NoiseDistributionGraph({ noiseData }) {
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis type="number" />
+          <XAxis tickFormatter={percFormatter} />
           <YAxis dataKey="label" type="category" fontSize={12} />
           <Tooltip />
-          <Legend />
-          <Bar dataKey="value" fill="#D99002" name="% of corpus" />
+          <Bar dataKey="value" fill="#D99002">
+            {" "}
+            <LabelList
+              dataKey="perc"
+              position="right"
+              fontWeight={600}
+              fill="#8F5F00"
+            />
+          </Bar>
         </BarChart>
       </ResponsiveContainer>
     </div>

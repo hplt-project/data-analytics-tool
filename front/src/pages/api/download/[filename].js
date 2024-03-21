@@ -9,13 +9,11 @@ export default async function handler(request, response) {
   try {
     response.setHeader(
       "Content-Disposition",
-      `attachment; filename=${filename}.yaml`
+      `attachment; filename=${filename}`
     );
     response.setHeader("Content-Type", "application/text/yaml");
 
-    const stats = await axios.get(
-      `http://dat-webapp:8000/file/${filename}.yaml`
-    );
+    const stats = await axios.get(`http://dat-webapp:8000/file/${filename}`);
 
     const statsData = stats.data;
 

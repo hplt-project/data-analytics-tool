@@ -86,8 +86,6 @@ export default function Uploader({ languageList }) {
       const res = await axios(config);
       if (res.status === 200) {
         setCmd(res.data);
-        reset();
-        setStatus(false);
       }
     } catch (err) {
       console.error(err, "Request failed ");

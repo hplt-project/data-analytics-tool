@@ -6,8 +6,6 @@ export async function exportMultipleChartsToPdf(pdfName, offLoading) {
 
   const elements = document.getElementsByClassName("custom-chart"); // (2)
 
-  console.log(elements.length, "HIEEEEER");
-
   await creatPdf({ doc, elements }); // (3-5)
 
   offLoading();

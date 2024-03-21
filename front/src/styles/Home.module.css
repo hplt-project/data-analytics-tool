@@ -47,7 +47,9 @@
   margin-top: 50px;
   display: flex;
   flex-direction: column;
+  width: 320px;
 }
+
 .dropdownContainer p {
   font-size: 18px;
   margin-bottom: 5px;

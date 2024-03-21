@@ -1,4 +1,4 @@
-import { DataFormater } from "../hooks/hooks";
+import { DataFormatter } from "../hooks/hooks";
 import styles from "./../src/styles/SegmentDistribution.module.css";
 
 import {
@@ -50,24 +50,32 @@ export default function SegmentDistribution({ data, which }) {
 
   const filteredData = data.filter((item) => item.token < 50);
 
-  const finalBar = data.reduce((a, b) => (b.token >= 50 ? +a + +b.token : ""));
+  const finalBar = data.reduce((a, b) => (b.token >= 50 ? +a + +b.freq : ""));
 
   const finalBarDupes = data.reduce((a, b) =>
-    b.token >= 50 ? +a + +b.token : ""
+    b.token >= 50 ? +a + +b.duplicates : ""
   );
 
-  filteredData.push({
-    token: "50 + ",
-    freq: finalBar,
-    freqUnique: finalBar,
-    freqFormatted: Intl.NumberFormat("en", {
-      notation: "compact",
-    }).format(finalBar),
-    duplicates: finalBarDupes,
-    duplicatesFormatted: Intl.NumberFormat("en", {
-      notation: "compact",
-    }).format(finalBarDupes),
-  });
+  const fiftyPlusFormatted = Intl.NumberFormat("en", {
+    notation: "compact",
+  }).format(finalBar);
+
+  const fiftyPlusDupesFormatted = Intl.NumberFormat("en", {
+    notation: "compact",
+  }).format(finalBarDupes);
+
+  // filteredData.push({
+  //   token: "50 + ",
+  //   freq: finalBar,
+  //   freqUnique: finalBar,
+  //   freqFormatted: Intl.NumberFormat("en", {
+  //     notation: "compact",
+  //   }).format(finalBar),
+  //   duplicates: finalBarDupes,
+  //   duplicatesFormatted: Intl.NumberFormat("en", {
+  //     notation: "compact",
+  //   }).format(finalBarDupes),
+  // });
 
   return (
     <div
@@ -75,13 +83,20 @@ export default function SegmentDistribution({ data, which }) {
         ""
       )}
     >
-      <h3 className={styles.segmentHeader}>
-        {which} segment lenght distribution
-      </h3>
+      <div className={styles.segmentTitle}>
+        <h3 className={styles.segmentHeader}>
+          {which} segment lenght distribution
+        </h3>
+        <p>
+          There are <strong>{fiftyPlusFormatted}</strong> segments over 50 as
+          well as <strong>{fiftyPlusDupesFormatted} </strong> duplicates over
+          50.
+        </p>
+      </div>
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           width={500}
-          height={280}
+          height={340}
           data={filteredData}
           margin={{
             top: 20,
@@ -92,7 +107,7 @@ export default function SegmentDistribution({ data, which }) {
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis dataKey="token" fontSize={12} tickMargin={5} />
-          <YAxis tickFormatter={DataFormater} />
+          <YAxis tickFormatter={DataFormatter} />
           <Tooltip
             content={<CustomTooltip />}
             wrapperStyle={{ outline: "none" }}
@@ -115,15 +130,7 @@ export default function SegmentDistribution({ data, which }) {
               left: 0,
               bottom: 0,
             }}
-          >
-            {" "}
-            {/* <LabelList
-              dataKey="duplicatesFormatted"
-              position="top"
-              fontWeight={400}
-              fontSize={10}
-            /> */}
-          </Bar>
+          ></Bar>
         </BarChart>
       </ResponsiveContainer>
     </div>

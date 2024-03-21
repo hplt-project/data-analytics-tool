@@ -1,10 +1,14 @@
-import styles from "@/styles/Home.module.css";
 import DataAnalyticsReport from "../../../components/DataAnalyticsReport";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useRouter } from "next/router";
+import { DropdownList } from "react-widgets";
 import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
+
+import styles from "@/styles/Home.module.css";
+
+import "react-widgets/styles.css";
 
 export default function Home({ fileNames }) {
   const [report, setReport] = useState("");
@@ -35,7 +39,7 @@ export default function Home({ fileNames }) {
       <div className={styles.dropdownContainer}>
         <p>Select a file</p>
         <div className={styles.flex}>
-          <select
+          {/* <select
             className={styles["form-select"]}
             defaultValue=""
             onChange={(e) => router.push(`/viewer/${e.target.value}`)}
@@ -51,7 +55,12 @@ export default function Home({ fileNames }) {
                 </option>
               );
             })}
-          </select>
+          </select> */}
+          <DropdownList
+            data={fileNames}
+            placeholder="CCMatrix"
+            onChange={(e) => router.push(`/viewer/${e}`)}
+          />
         </div>
       </div>
       <div className={styles.docContainer}>

@@ -4,6 +4,7 @@ import { useState, useEffect } from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import { useRouter } from "next/router";
+import { DropdownList } from "react-widgets";
 
 export default function Home({ fileNames }) {
   const [selected, setSelected] = useState("");
@@ -24,7 +25,7 @@ export default function Home({ fileNames }) {
       <div className={styles.dropdownContainer}>
         <p>Select a file</p>
         <div className={styles.flex}>
-          <select
+          {/* <select
             className={styles["form-select"]}
             defaultValue=""
             onChange={(e) => setSelected(e.target.value)}
@@ -40,7 +41,12 @@ export default function Home({ fileNames }) {
                 </option>
               );
             })}
-          </select>
+          </select> */}
+          <DropdownList
+            data={fileNames}
+            onChange={(e) => setSelected(e)}
+            placeholder="CCMatrix"
+          />
         </div>
       </div>
       <div className={styles.docContainer}>

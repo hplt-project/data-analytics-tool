@@ -23,7 +23,13 @@ export default function LanguagePieChart({ langs }) {
 
     langs.splice(10);
 
-    langs.push({ name: `Others - ${final}`, perc: final, fill: "gray" });
+    langs.push({
+      name: `Others - ${Intl.NumberFormat("en", { notation: "compact" }).format(
+        final
+      )}`,
+      perc: final,
+      fill: "gray",
+    });
   }
   return (
     <div className={styles.languagePieChartContainer}>

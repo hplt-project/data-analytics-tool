@@ -5,6 +5,8 @@ import Navbar from "../../components/Navbar";
 import { BarChart3, HardDriveUpload } from "lucide-react";
 import Link from "next/link";
 
+import "react-widgets/styles.css";
+
 export default function Home() {
   return (
     <div className={styles.viewerContainer}>

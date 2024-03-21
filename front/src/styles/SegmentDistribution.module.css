@@ -1,5 +1,5 @@
 .segmentDistributionContainer {
-  height: 330px;
+  height: 350px;
 }
 .tooltipOverlap {
   background-color: var(--main-background);
@@ -12,4 +12,7 @@
 }
 .tooltipOverlap p {
   margin-bottom: 7px;
+}
+.segmentTitle p {
+  margin-top: 10px;
 }

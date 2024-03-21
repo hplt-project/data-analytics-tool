@@ -13,8 +13,26 @@
   font-weight: 400;
   font-style: italic;
 }
+.tables {
+  display: flex;
+}
+.overviewTables {
+  margin-right: 60px;
+}
 .dataReportContainer h3 {
   margin-top: 30px;
+  width: fit-content;
+}
+.analyticsTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 15px;
+}
+.analyticsTitleContainer h2 {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 3px;
 }
 .hpltAnalyticsTitle span.analyticsTitleSpan {
   font-size: 24px;
@@ -28,7 +46,6 @@
 .analyticsTitle {
   line-height: 1.45;
   width: 80%;
-  margin-bottom: 30px;
 }
 .hpltAnalyticsLogo {
   margin-left: 7px;
@@ -96,6 +113,9 @@
 .singleLanguageReport h3 {
   margin-bottom: 10px;
 }
+.docsLangsReport {
+  width: 50%;
+}
 .singleDistribution {
   margin-bottom: 30px;
 }
@@ -144,7 +164,9 @@
 /* NGRMS*/
 
 /******** volumes table ****/
-
+.topDomains {
+  margin-right: 30px;
+}
 .dataReportContainer table {
   text-align: left;
   border-collapse: collapse;
@@ -159,6 +181,22 @@
   font-size: 14px;
   min-width: 120px;
 }
+.dataReportContainer .topDomains table thead th,
+.dataReportContainer .topDomains table tr td {
+  padding: 5px 30px 5px 8px;
+  font-size: 14px;
+}
+.dataReportContainer .topDomains table thead th:first-of-type,
+.dataReportContainer .topDomains table tr td:first-of-type {
+  min-width: 180px;
+}
+
+.dataReportContainer .topTLDs table thead th,
+.dataReportContainer .topTLDs table tr td {
+  padding: 5px 30px 5px 8px;
+  font-size: 14px;
+}
+
 .dataReportContainer table thead th {
   font-weight: 500;
 }
