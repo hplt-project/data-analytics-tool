@@ -169,7 +169,15 @@
 .firstLaguageGraphP {
   margin-bottom: 20px;
 }
-
+.loader {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.loader h1 {
+  margin: 20px 0 60px 0;
+}
 /* YAML STUFF */
 .corpusCitation a {
   text-decoration: none;

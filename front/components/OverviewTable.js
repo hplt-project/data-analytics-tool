@@ -162,6 +162,7 @@ export default function OverviewTable({
                 <tr>
                   <th>Domain</th>
                   <th>Docs</th>
+                  {docsTopTenDomains[0].perc && <th>% of total</th>}
                 </tr>
               </thead>
               <tbody>
@@ -170,6 +171,7 @@ export default function OverviewTable({
                     <tr>
                       <td>{doc.token}</td>
                       <td>{doc.freq}</td>
+                      <td>{doc.perc.toFixed(2)}</td>
                     </tr>
                   );
                 })}
@@ -185,6 +187,7 @@ export default function OverviewTable({
                 <tr>
                   <th>Domain</th>
                   <th>Docs</th>
+                  {docsTopTenTLDs[0].perc && <th>% of total</th>}
                 </tr>
               </thead>
               <tbody>
@@ -193,6 +196,7 @@ export default function OverviewTable({
                     <tr>
                       <td>{doc.token}</td>
                       <td>{doc.freq}</td>
+                      <td>{doc.perc.toFixed(2)}</td>
                     </tr>
                   );
                 })}

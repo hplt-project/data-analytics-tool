@@ -4,22 +4,9 @@ export default async function handler(req, res) {
   const dataset = req.query.dataset;
 
   try {
-    const apiList = await axios.get("http://dat-webapp:8000/list");
-
-    const list = apiList.data;
-    if (list.length) {
-      list.pop();
-    }
-
-    const listNames = list.length
-      ? list.map((a) => a.replace(".yaml", ""))
-      : "";
-
     let doc = "";
 
-    const stats = await axios.get(
-      `http://dat-webapp:8000/file/${dataset}.yaml`
-    );
+    const stats = await axios.get(`http://dat-webapp:8000/file/${dataset}`);
 
     const statsData = stats.data;
 
@@ -29,7 +16,7 @@ export default async function handler(req, res) {
 
     let d;
 
-    if ("timestamp" in doc) {
+    if (doc) {
       const timestamp_ms = doc["timestamp"];
       const timestamp_secs = timestamp_ms * 1000;
       d = new Date(timestamp_secs).toLocaleDateString();
@@ -37,7 +24,7 @@ export default async function handler(req, res) {
       d = "n/a;";
     }
 
-    res.send({ files: listNames, stats: doc, date: d });
+    res.send({ stats: doc, date: d });
   } catch (error) {
     console.log(error, "Something went sideways");
   }

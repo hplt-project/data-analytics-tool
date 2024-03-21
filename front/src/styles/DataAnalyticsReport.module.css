@@ -179,7 +179,7 @@
 .dataReportContainer table tr td {
   padding: 8px 30px 8px 8px;
   font-size: 14px;
-  min-width: 120px;
+  min-width: 60px;
 }
 .dataReportContainer .topDomains table thead th,
 .dataReportContainer .topDomains table tr td {
@@ -188,7 +188,7 @@
 }
 .dataReportContainer .topDomains table thead th:first-of-type,
 .dataReportContainer .topDomains table tr td:first-of-type {
-  min-width: 180px;
+  min-width: 60px;
 }
 
 .dataReportContainer .topTLDs table thead th,

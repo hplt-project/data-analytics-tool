@@ -5,6 +5,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import { useRouter } from "next/router";
 import { DropdownList } from "react-widgets";
+import "react-widgets/styles.css";
 
 export default function Home({ fileNames }) {
   const [selected, setSelected] = useState("");
@@ -25,23 +26,6 @@ export default function Home({ fileNames }) {
       <div className={styles.dropdownContainer}>
         <p>Select a file</p>
         <div className={styles.flex}>
-          {/* <select
-            className={styles["form-select"]}
-            defaultValue=""
-            onChange={(e) => setSelected(e.target.value)}
-          >
-            {" "}
-            <option value="" disabled>
-              Select your option
-            </option>
-            {fileNames.map((file, idx) => {
-              return (
-                <option value={file} key={idx}>
-                  {file}
-                </option>
-              );
-            })}
-          </select> */}
           <DropdownList
             data={fileNames}
             onChange={(e) => setSelected(e)}
@@ -67,9 +51,7 @@ export async function getServerSideProps() {
     list.pop();
   }
 
-  const listNames = list.length ? list.map((a) => a.replace(".yaml", "")) : "";
-
   return {
-    props: { fileNames: listNames },
+    props: { fileNames: list },
   };
 }

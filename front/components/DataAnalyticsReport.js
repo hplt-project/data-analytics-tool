@@ -8,14 +8,38 @@ import SegmentDistribution from "./SegmentDistribution";
 import { exportMultipleChartsToPdf } from "./utils";
 import NoiseDistributionGraph from "./NoiseDistributionGraph";
 import { Oval } from "react-loader-spinner";
-import { handleDownload } from "../hooks/hooks";
 import LangDocs from "./langDocs";
+import axios from "axios";
+import { useRouter } from "next/router";
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
 import OverviewTable from "./OverviewTable";
 
 export default function DataAnalyticsReport({ reportData, date }) {
   if (!reportData) return;
+
+  const router = useRouter();
+
+  const handleDownload = async () => {
+    const filename = router.query.file;
+
+    try {
+      const response = await axios.get(`/api/download/${filename}`);
+
+      if (response.status !== 200) {
+        console.error(response.status, response.statusText);
+      }
+      const blob = response.data;
+      const test = new File([blob], `${filename}.yaml`);
+      const url = window.URL.createObjectURL(test);
+      const link = document.createElement("a");
+      link.href = url;
+      link.download = `${filename}`;
+      link.click();
+    } catch (error) {
+      console.log(error, "andale wey");
+    }
+  };
 
   const [loadingPdf, setLoadingPdf] = useState(false);
 
@@ -206,7 +230,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
           freq: Intl.NumberFormat("en", {
             notation: "compact",
           }).format(doc[1]),
-          fill: "#f5ac72",
+          perc: reportData.docs_total
+            ? (doc[1] * 100) / reportData.docs_total
+            : "",
         };
       })
     : "";
@@ -222,7 +248,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
           freq: Intl.NumberFormat("en", {
             notation: "compact",
           }).format(doc[1]),
-          fill: "#6a381f",
+          perc: reportData.docs_total
+            ? (doc[1] * 100) / reportData.docs_total
+            : "",
         };
       })
     : "";
@@ -371,7 +399,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
       <div className={styles.reportButtons}>
         <button
           className={styles.downloadButton}
-          onClick={handleDownload}
+          onClick={() => handleDownload(reportData.corpus)}
           type="button"
         >
           Download yaml

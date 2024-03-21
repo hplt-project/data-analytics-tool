@@ -13,6 +13,11 @@
 .tooltipOverlap p {
   margin-bottom: 7px;
 }
+.segmentTitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
 .segmentTitle p {
   margin-top: 10px;
 }

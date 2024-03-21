@@ -88,9 +88,8 @@ export default function SegmentDistribution({ data, which }) {
           {which} segment lenght distribution
         </h3>
         <p>
-          There are <strong>{fiftyPlusFormatted}</strong> segments over 50 as
-          well as <strong>{fiftyPlusDupesFormatted} </strong> duplicates over
-          50.
+          <strong>50</strong> | <strong>{fiftyPlusFormatted}</strong> segments{" "}
+          <strong>{fiftyPlusDupesFormatted} </strong>duplicates.
         </p>
       </div>
       <ResponsiveContainer width="100%" height="100%">

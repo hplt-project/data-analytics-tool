@@ -5,6 +5,7 @@ import Footer from "../../components/Footer";
 import { Copy, XCircle } from "lucide-react";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
+import "react-widgets/styles.css";
 
 import Navbar from "../../components/Navbar";
 import { languagePairName } from "../../hooks/hooks";
@@ -12,6 +13,7 @@ import { PartyPopper } from "lucide-react";
 
 import styles from "@/styles/Uploader.module.css";
 import CopyToClipboard from "react-copy-to-clipboard";
+import { DropdownList } from "react-widgets/cjs";
 
 export default function Uploader({ languageList }) {
   const {
@@ -25,6 +27,8 @@ export default function Uploader({ languageList }) {
   const [upload, setUpload] = useState(false);
 
   const [status, setStatus] = useState(false);
+
+  const [docs, setDocs] = useState(false);
 
   const [cmd, setCmd] = useState("");
 
@@ -45,9 +49,12 @@ export default function Uploader({ languageList }) {
       }
     });
 
+    if (!formdata.trglang) {
+      formdata.set("trglang", "en");
+    }
     let config = {
       method: "POST",
-      url: "/api/upload",
+      url: "/api/upload/upload",
       data: formdata,
       headers: { "Content-Type": "multipart/form-data" },
     };
@@ -74,6 +81,10 @@ export default function Uploader({ languageList }) {
         formdata.set(key, value);
       }
     });
+
+    if (!formdata.trglang) {
+      formdata.set("trglang", "en");
+    }
 
     let config = {
       method: "POST",
@@ -124,11 +135,7 @@ export default function Uploader({ languageList }) {
         </div>
       )}
 
-      <form
-        onSubmit={handleSubmit(onSubmitForm)}
-        id="upload-form"
-        encType="multipart/form-data"
-      >
+      <form id="upload-form" encType="multipart/form-data">
         <div className={styles["form-group"]}>
           <div className={styles["input-group"]}>
             <div className={styles["name-cont"]}>
@@ -181,6 +188,12 @@ export default function Uploader({ languageList }) {
                 id="corpus-format-tsv"
                 value="tsv"
                 defaultChecked
+                onClick={(e) => {
+                  if (e.target.checked) {
+                    setStatus(false);
+                    setDocs(false);
+                  }
+                }}
                 {...register("corpus-format")}
               />
               <label
@@ -202,6 +215,12 @@ export default function Uploader({ languageList }) {
                 name="corpus-format"
                 id="corpus-format-tmx"
                 value="tmx"
+                onClick={(e) => {
+                  if (e.target.checked) {
+                    setStatus(false);
+                    setDocs(false);
+                  }
+                }}
                 {...register("corpus-format")}
               />
               <label
@@ -209,6 +228,33 @@ export default function Uploader({ languageList }) {
                 htmlFor="corpus-format-tmx"
               >
                 TMX
+              </label>
+            </div>
+            <div
+              className={[
+                styles["form-check"],
+                styles["form-check-inline"],
+              ].join(" ")}
+            >
+              <input
+                className={styles["form-check-input"]}
+                type="radio"
+                name="corpus-format"
+                id="corpus-format-tmx"
+                value="docs"
+                onClick={(e) => {
+                  if (e.target.checked) {
+                    setStatus(true);
+                    setDocs(true);
+                  }
+                }}
+                {...register("corpus-format")}
+              />
+              <label
+                className={styles["form-check-label"]}
+                htmlFor="corpus-format-tmx"
+              >
+                Documents
               </label>
             </div>
           </div>
@@ -238,75 +284,64 @@ export default function Uploader({ languageList }) {
                 Mono
               </label>
             </div>
-            <div
-              className={[
-                styles["form-check"],
-                styles["form-check-inline"],
-              ].join(" ")}
-            >
-              <input
-                className={styles["form-check-input"]}
-                type="radio"
-                name="lang-format"
-                id="lang-format-parallel"
-                value="parallel"
-                onClick={(e) => {
-                  e.target.checked ? setStatus(false) : "";
-                }}
-                defaultChecked
-                {...register("lang-format")}
-              />
-
-              <label
-                className={styles["form-check-label"]}
-                htmlFor="lang-format-parallel"
+            {!docs && (
+              <div
+                className={[
+                  styles["form-check"],
+                  styles["form-check-inline"],
+                ].join(" ")}
               >
-                Parallel
-              </label>
-            </div>
+                <input
+                  className={styles["form-check-input"]}
+                  type="radio"
+                  name="lang-format"
+                  id="lang-format-parallel"
+                  value="parallel"
+                  onClick={(e) => {
+                    e.target.checked ? setStatus(false) : "";
+                  }}
+                  defaultChecked
+                  {...register("lang-format")}
+                />
+
+                <label
+                  className={styles["form-check-label"]}
+                  htmlFor="lang-format-parallel"
+                >
+                  Parallel
+                </label>
+              </div>
+            )}
           </div>
           <div className={styles["lang-inputs"]}>
             <div className={styles["dropdown-cont"]}>
               <label className={styles["form-label"]} htmlFor="srclang">
                 Source language
               </label>
-              <select
+              <DropdownList
                 name="srclang"
+                placeholder="Polish (pl)"
                 id="srclang"
-                className={styles["form-select"]}
-                required
-                {...register("srclang")}
-              >
-                {languageList.map((lang, idx) => {
-                  const { value, label } = lang;
-                  return (
-                    <option value={value} className="option" key={idx}>
-                      {label}
-                    </option>
-                  );
-                })}
-              </select>
+                data={languageList}
+                dataKey="value"
+                textField="label"
+                onChange={(value) => setValue("srclang", value.value)}
+              />
             </div>
             {!status && (
               <div className={styles["dropdown-cont"]}>
                 <label className={styles["form-label"]} htmlFor="trglang">
                   Target language
                 </label>
-                <select
+                <DropdownList
                   name="trglang"
+                  placeholder="Bosnian (bs)"
                   id="trglang"
-                  className={styles["form-select"]}
-                  {...register("trglang")}
-                >
-                  {languageList.map((lang, idx) => {
-                    const { value, label } = lang;
-                    return (
-                      <option value={value} className="option" key={idx}>
-                        {label}
-                      </option>
-                    );
-                  })}
-                </select>
+                  data={languageList}
+                  dataKey="value"
+                  textField="label"
+                  onChange={(value) => setValue("trglang", value.value)}
+                />
               </div>
             )}
           </div>
@@ -314,9 +349,11 @@ export default function Uploader({ languageList }) {
 
         <div className={styles["uploader-buttons"]}>
           <button
+            id="submit-button"
             className={styles["button-26"]}
-            type="submit"
+            type="button"
             form="upload-form"
+            onClick={handleSubmit(onSubmitForm)}
           >
             Upload
           </button>

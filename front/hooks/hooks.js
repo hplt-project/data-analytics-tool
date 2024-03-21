@@ -61,24 +61,6 @@ export function codeToLangTransformer(languagesArray) {
     "Zaza",
   ];
 
-  const removeLanguage = [
-    "zh_tw",
-    "zh_hk",
-    "zh_cn",
-    "pt_br",
-    "nn_no",
-    "nb_no",
-    "hi_in",
-    "fr_ca",
-    "es_mx",
-    "es_cl",
-    "es_ar",
-    "en_za",
-    "en_gb",
-    "en_ca",
-    "bn_in",
-  ];
-
   let codeToLang = languagesArray.map((lang, idx) => {
     let correctCode = lang.replace("_", "-");
     try {
@@ -180,21 +162,4 @@ export const DataFormatter = (number) => {
 
 export const percFormatter = (number) => {
   return number.toString() + "%";
-};
-
-export const handleDownload = async () => {
-  const filename = reportData.corpus;
-
-  const response = await axios.get(`/api/download/${filename}`);
-
-  if (response.status !== 200) {
-    console.error(response.status, response.statusText);
-  }
-  const blob = response.data;
-  const test = new File([blob], `${filename}.yaml`);
-  const url = window.URL.createObjectURL(test);
-  const link = document.createElement("a");
-  link.href = url;
-  link.download = `${filename}`;
-  link.click();
 };

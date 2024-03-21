@@ -5,6 +5,7 @@ import { useRouter } from "next/router";
 import { DropdownList } from "react-widgets";
 import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
+import { Oval } from "react-loader-spinner";
 
 import styles from "@/styles/Home.module.css";
 
@@ -14,15 +15,25 @@ export default function Home({ fileNames }) {
   const [report, setReport] = useState("");
   const [date, setDate] = useState("");
 
+  const [status, setStatus] = useState("IDLE");
+
   const router = useRouter();
 
   async function getStats() {
-    const stats = await axios.get(`/api/getstats/${router.query.file}`);
+    setStatus("LOADING");
+    try {
+      const stats = await axios.get(`/api/getstats/${router.query.file}`);
 
-    const statsData = stats.data;
+      const statsData = stats.data;
 
-    setReport(statsData.stats);
-    setDate(statsData.date);
+      setStatus("IDLE");
+
+      setReport(statsData.stats);
+      setDate(statsData.date);
+    } catch (error) {
+      setStatus("FAILED");
+      console.log(error);
+    }
   }
 
   useEffect(() => {
@@ -39,23 +50,6 @@ export default function Home({ fileNames }) {
       <div className={styles.dropdownContainer}>
         <p>Select a file</p>
         <div className={styles.flex}>
-          {/* <select
-            className={styles["form-select"]}
-            defaultValue=""
-            onChange={(e) => router.push(`/viewer/${e.target.value}`)}
-          >
-            {" "}
-            <option value="" disabled>
-              Select your option
-            </option>
-            {fileNames.map((file, idx) => {
-              return (
-                <option value={file} key={idx}>
-                  {file}
-                </option>
-              );
-            })}
-          </select> */}
           <DropdownList
             data={fileNames}
             placeholder="CCMatrix"
@@ -64,7 +58,28 @@ export default function Home({ fileNames }) {
         </div>
       </div>
       <div className={styles.docContainer}>
-        {report && <DataAnalyticsReport reportData={report} date={date} />}
+        {status === "LOADING" && (
+          <div className={styles.loader}>
+            <h1>Loading stats...</h1>
+            <Oval
+              visible={true}
+              height="100"
+              width="100"
+              color="#4fa94d"
+              ariaLabel="oval-loading"
+              wrapperStyle={{}}
+              wrapperClass=""
+            />
+          </div>
+        )}
+        {status === "FAILED" && (
+          <div>
+            Something went wrong with the requested file, please try again.
+          </div>
+        )}
+        {report && status !== "LOADING" && (
+          <DataAnalyticsReport reportData={report} date={date} />
+        )}
       </div>
       <Footer />
     </div>
@@ -81,9 +96,7 @@ export async function getServerSideProps() {
     list.pop();
   }
 
-  const listNames = list.length ? list.map((a) => a.replace(".yaml", "")) : "";
-
   return {
-    props: { fileNames: listNames },
+    props: { fileNames: list },
   };
 }
