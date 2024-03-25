@@ -379,20 +379,16 @@ export default function DataAnalyticsReport({ reportData, date }) {
       )}
       <div className="custom-chart">
         <div className={styles.nGramContainer}>
-          {reportData.src_ngrams ||
-            (reportData.trg_ngrams && (
-              <h3 className={styles.marginTop}>Common n-grams</h3>
-            ))}
-          {srcNGrams && (
+          {Object.entries(srcNGrams).length && (
             <div className={styles.singleNGramContainer}>
-              {reportData.trglang && <h3>Source</h3>}
+              <h3>Source n-grams</h3>
               <NGramsTable NGrams={srcNGrams} />
             </div>
           )}
 
-          {reportData.trglang && trgNGrams && (
+          {reportData.trglang && Object.entries(trgNGrams).length && (
             <div className={styles.singleNGramContainer}>
-              <h3>Target</h3>
+              <h3>Target n-grams</h3>
               <NGramsTable NGrams={trgNGrams} />
             </div>
           )}
