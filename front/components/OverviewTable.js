@@ -4,6 +4,7 @@ import Logo from "../public/logos/logo.png";
 import Image from "next/image";
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
+import { report } from "process";
 
 export default function OverviewTable({
   reportData,
@@ -11,6 +12,8 @@ export default function OverviewTable({
   docsTopTenDomains,
   docsTopTenTLDs,
 }) {
+  const datasetName = reportData.corpus ? reportData.corpus : "Not specified";
+
   const totalDocs = reportData.docs_total ? reportData.docs_total : "";
 
   /// language names
@@ -21,6 +24,34 @@ export default function OverviewTable({
 
   const trglang = reportData.trglang
     ? languagePairName([reportData.trglang])
+    : "";
+
+  const srcSize = reportData.src_bytes
+    ? reportData.src_bytes.toLocaleString()
+    : "";
+
+  const trgSize = reportData.trg_bytes
+    ? reportData.trg_bytes.toLocaleString()
+    : "";
+
+  const sentences = reportData.sentence_pairs
+    ? reportData.sentence_pairs.toLocaleString()
+    : "";
+
+  const uniqueSegments = reportData.src_unique_sents
+    ? reportData.src_unique_sents.length
+    : "";
+
+  const srcTokens = reportData.src_tokens
+    ? Intl.NumberFormat("en", { notation: "compact" }).format(
+        reportData.src_tokens
+      )
+    : "";
+
+  const trgTokens = reportData.trg_tokens
+    ? Intl.NumberFormat("en", { notation: "compact" }).format(
+        reportData.trg_tokens
+      )
     : "";
 
   return (
@@ -45,7 +76,6 @@ export default function OverviewTable({
                   <th>Analytics date</th>
                   {trglang ? (
                     <>
-                      {" "}
                       <th>Source language</th>
                       <th>Target language</th>{" "}
                     </>
@@ -57,9 +87,9 @@ export default function OverviewTable({
               </thead>
               <tbody>
                 <tr>
-                  <td>{reportData.corpus.replace(".tsv", "")}</td>
-                  <td>{date && date}</td>
-                  <td>{srclang[0].label}</td>
+                  <td>{datasetName}</td>
+                  <td>{date === "Invalid Date" ? "Not specified" : date}</td>
+                  <td>{srclang && srclang[0].label}</td>
                   {trglang && <td>{trglang[0].label}</td>}
                   {totalDocs && <td>{totalDocs.toLocaleString()}</td>}
                 </tr>
@@ -81,78 +111,70 @@ export default function OverviewTable({
               </thead>
               <tbody>
                 <tr>
-                  <td>{reportData.sentence_pairs.toLocaleString()}</td>
-                  <td>{reportData.src_unique_sents.length}</td>
-                  <td>{reportData.src_bytes}</td>
-                  {trglang && <td>{reportData.trg_bytes}</td>}
+                  <td>{sentences}</td>
+                  <td>{uniqueSegments}</td>
+                  <td>{srcSize && srcSize}</td>
+                  {trgSize && <td>{trgSize}</td>}
 
-                  <td>
-                    {" "}
-                    {Intl.NumberFormat("en", { notation: "compact" }).format(
-                      reportData.src_tokens
-                    )}
-                  </td>
-                  {trglang && (
-                    <td>
-                      {Intl.NumberFormat("en", { notation: "compact" }).format(
-                        reportData.trg_tokens
+                  <td>{srcTokens}</td>
+                  {trglang && <td>{trgTokens}</td>}
+                </tr>
+              </tbody>
+            </table>
+          </div>
+          {reportData.ttr_src ||
+            (reportData.ttr_trg && (
+              <div className={styles.typeTokens}>
+                <h3>Type-Token Ratio</h3>
+                <table>
+                  <thead>
+                    <tr>
+                      {!trglang && srclang && <th>{srclang[0].label}</th>}
+                      {trglang && (
+                        <>
+                          <th>Source</th>
+                          <th>Target</th>
+                        </>
                       )}
-                    </td>
-                  )}
-                </tr>
-              </tbody>
-            </table>
-          </div>
-          <div className={styles.typeTokens}>
-            <h3>Type-Token Ratio</h3>
-            <table>
-              <thead>
-                <tr>
-                  {!trglang && <th>{srclang[0].label}</th>}
-                  {trglang && (
-                    <>
-                      <th>Source</th>
-                      <th>Target</th>
-                    </>
-                  )}
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <td>
-                    {" "}
-                    <span
-                      className={
-                        +reportData.ttr_src < 0.3
-                          ? styles.lowestType
-                          : +reportData.ttr_src < 0.5
-                          ? styles.lowestType
-                          : styles.goodType
-                      }
-                    >
-                      {reportData.ttr_src}
-                    </span>
-                  </td>
-                  {trglang && (
-                    <td>
-                      {" "}
-                      <span
-                        className={
-                          +reportData.ttr_src < 0.3
-                            ? styles.lowestType
-                            : +reportData.ttr_src < 0.5
-                            ? styles.lowestType
-                            : styles.goodType
-                        }
-                      >
-                        {reportData.ttr_trg}
-                      </span>
-                    </td>
-                  )}
-                </tr>
-              </tbody>
-            </table>
-          </div>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      <td>
+                        {" "}
+                        <span
+                          className={
+                            +reportData.ttr_src < 0.3
+                              ? styles.lowestType
+                              : +reportData.ttr_src < 0.5
+                              ? styles.lowestType
+                              : styles.goodType
+                          }
+                        >
+                          {reportData.ttr_src}
+                        </span>
+                      </td>
+                      {trglang && (
+                        <td>
+                          {" "}
+                          <span
+                            className={
+                              +reportData.ttr_trg < 0.3
+                                ? styles.lowestType
+                                : +reportData.ttr_trg < 0.5
+                                ? styles.lowestType
+                                : styles.goodType
+                            }
+                          >
+                            {reportData.ttr_trg}
+                          </span>
+                        </td>
+                      )}
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+            ))}
         </div>
         {docsTopTenDomains && (
           <div className={styles.topDomains}>
