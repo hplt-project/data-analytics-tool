@@ -122,60 +122,57 @@ export default function OverviewTable({
               </tbody>
             </table>
           </div>
-          {reportData.ttr_src ||
-            (reportData.ttr_trg && (
-              <div className={styles.typeTokens}>
-                <h3>Type-Token Ratio</h3>
-                <table>
-                  <thead>
-                    <tr>
-                      {!trglang && srclang && <th>{srclang[0].label}</th>}
-                      {trglang &&
-                        reportData.ttr_trg(
-                          <>
-                            <th>Source</th>
-                            <th>Target</th>
-                          </>
-                        )}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>
-                        {" "}
-                        <span
-                          className={
-                            +reportData.ttr_src < 0.3
-                              ? styles.lowestType
-                              : +reportData.ttr_src < 0.5
-                              ? styles.lowestType
-                              : styles.goodType
-                          }
-                        >
-                          {reportData.ttr_src}
-                        </span>
-                      </td>
-                      {trglang && (
-                        <td>
-                          {" "}
-                          <span
-                            className={
-                              +reportData.ttr_trg < 0.3
-                                ? styles.lowestType
-                                : +reportData.ttr_trg < 0.5
-                                ? styles.lowestType
-                                : styles.goodType
-                            }
-                          >
-                            {reportData.ttr_trg}
-                          </span>
-                        </td>
-                      )}
-                    </tr>
-                  </tbody>
-                </table>
-              </div>
-            ))}
+          <div className={styles.typeTokens}>
+            <h3>Type-Token Ratio</h3>
+            <table>
+              <thead>
+                <tr>
+                  {!trglang && srclang && <th>{srclang[0].label}</th>}
+                  {trglang &&
+                    reportData.ttr_trg(
+                      <>
+                        <th>Source</th>
+                        <th>Target</th>
+                      </>
+                    )}
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>
+                    {" "}
+                    <span
+                      className={
+                        +reportData.ttr_src < 0.3
+                          ? styles.lowestType
+                          : +reportData.ttr_src < 0.5
+                          ? styles.lowestType
+                          : styles.goodType
+                      }
+                    >
+                      {reportData.ttr_src}
+                    </span>
+                  </td>
+                  {trglang && (
+                    <td>
+                      {" "}
+                      <span
+                        className={
+                          +reportData.ttr_trg < 0.3
+                            ? styles.lowestType
+                            : +reportData.ttr_trg < 0.5
+                            ? styles.lowestType
+                            : styles.goodType
+                        }
+                      >
+                        {reportData.ttr_trg}
+                      </span>
+                    </td>
+                  )}
+                </tr>
+              </tbody>
+            </table>
+          </div>
         </div>
         {docsTopTenDomains && (
           <div className={styles.topDomains}>

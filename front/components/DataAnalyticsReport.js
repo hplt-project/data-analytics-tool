@@ -14,6 +14,7 @@ import { useRouter } from "next/router";
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
 import OverviewTable from "./OverviewTable";
+import CollectionsGraph from "./collectionsGraphs";
 
 export default function DataAnalyticsReport({ reportData, date }) {
   if (!reportData) return;
@@ -170,7 +171,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
   const noiseDistribution =
     reportData && reportData.hardrules_tags
       ? Object.entries(JSON.parse(reportData.hardrules_tags)).map((v) => {
-          return { label: v[0], value: v[1], perc: `${v[1]} %` };
+          return { label: v[0], value: parseFloat(v[1]), perc: `${v[1]} %` };
         })
       : "";
 
@@ -323,12 +324,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
         <div className="custom-chart">
           <div className={styles.bicleanerScores}>
             <h3>Docs collections</h3>
-            <ReportScores
-              scores={docsCollections}
-              xLabel={"Score range"}
-              yLabel={"Frequency"}
-              graph={"docsCollections"}
-            />
+            <CollectionsGraph collection={docsCollections} />
           </div>
         </div>
       )}
