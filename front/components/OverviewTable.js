@@ -130,12 +130,13 @@ export default function OverviewTable({
                   <thead>
                     <tr>
                       {!trglang && srclang && <th>{srclang[0].label}</th>}
-                      {trglang && (
-                        <>
-                          <th>Source</th>
-                          <th>Target</th>
-                        </>
-                      )}
+                      {trglang &&
+                        reportData.ttr_trg(
+                          <>
+                            <th>Source</th>
+                            <th>Target</th>
+                          </>
+                        )}
                     </tr>
                   </thead>
                   <tbody>

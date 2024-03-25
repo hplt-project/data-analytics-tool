@@ -91,7 +91,7 @@ export async function getServerSideProps() {
 
   const apiList = await axios.get("http://dat-webapp:8000/list");
 
-  const list = apiList.data;
+  const list = await apiList.data;
 
   return {
     props: { fileNames: list },

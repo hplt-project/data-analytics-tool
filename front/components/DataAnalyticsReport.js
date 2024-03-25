@@ -379,8 +379,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
       )}
       <div className="custom-chart">
         <div className={styles.nGramContainer}>
-          {srcNGrams ||
-            (trgNGrams && <h3 className={styles.marginTop}>Common n-grams</h3>)}
+          {reportData.src_ngrams ||
+            (reportData.trg_ngrams && (
+              <h3 className={styles.marginTop}>Common n-grams</h3>
+            ))}
           {srcNGrams && (
             <div className={styles.singleNGramContainer}>
               {reportData.trglang && <h3>Source</h3>}
