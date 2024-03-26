@@ -252,10 +252,10 @@ class CustomTokenizer:
         elif self.toktype == "nlpid":
            return self.tokenizer.tokenize(sent)    
         
-        elif self.toktype = "botok":
-            objects = self.tokenizer(sent)
+        elif self.toktype == "botok":
+            objects = self.tokenizer.tokenize(sent)
             tokens = []
-            for obj in objs:
+            for obj in objects:
                 tokens.append(obj.text)
             return tokens
         else:
