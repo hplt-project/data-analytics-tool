@@ -11,6 +11,7 @@ import {
   Legend,
   ResponsiveContainer,
   LabelList,
+  Label,
 } from "recharts";
 
 const CustomTooltip = ({ active, payload, label }) => {
@@ -64,19 +65,6 @@ export default function SegmentDistribution({ data, which }) {
     notation: "compact",
   }).format(finalBarDupes);
 
-  // filteredData.push({
-  //   token: "50 + ",
-  //   freq: finalBar,
-  //   freqUnique: finalBar,
-  //   freqFormatted: Intl.NumberFormat("en", {
-  //     notation: "compact",
-  //   }).format(finalBar),
-  //   duplicates: finalBarDupes,
-  //   duplicatesFormatted: Intl.NumberFormat("en", {
-  //     notation: "compact",
-  //   }).format(finalBarDupes),
-  // });
-
   return (
     <div
       className={[styles.segmentDistributionContainer, " custom-chart"].join(
@@ -84,12 +72,9 @@ export default function SegmentDistribution({ data, which }) {
       )}
     >
       <div className={styles.segmentTitle}>
-        <h3 className={styles.segmentHeader}>
-          {which} segment lenght distribution
-        </h3>
         <p>
-          <strong>50</strong> | <strong>{fiftyPlusFormatted}</strong> segments{" "}
-          <strong>{fiftyPlusDupesFormatted} </strong>duplicates.
+          <strong> {">"} 50</strong> | <strong>{fiftyPlusFormatted}</strong>{" "}
+          segments <strong>{fiftyPlusDupesFormatted} </strong>duplicates.
         </p>
       </div>
       <ResponsiveContainer width="100%" height="100%">
@@ -100,13 +85,22 @@ export default function SegmentDistribution({ data, which }) {
           margin={{
             top: 20,
             right: 30,
-            left: 0,
+            left: 20,
             bottom: 55,
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="token" fontSize={12} tickMargin={5} />
-          <YAxis tickFormatter={DataFormatter} />
+          <XAxis dataKey="token" fontSize={12} tickMargin={5}></XAxis>
+          <YAxis
+            tickFormatter={DataFormatter}
+            label={{
+              value: "Segments",
+              angle: -90,
+              position: "insideLeft",
+              offset: -8,
+              fontSize: 16,
+            }}
+          />
           <Tooltip
             content={<CustomTooltip />}
             wrapperStyle={{ outline: "none" }}

@@ -37,7 +37,12 @@ export default function NoiseDistributionGraph({ noiseData }) {
           <Legend />
           <Bar dataKey="value" fill="#D99002" name="% of corpus">
             {" "}
-            <LabelList dataKey="perc" position="insideRight" fontWeight={600} />
+            <LabelList
+              dataKey="perc"
+              position="right"
+              fontWeight={600}
+              fill="#D99002"
+            />
           </Bar>
         </BarChart>
       </ResponsiveContainer>

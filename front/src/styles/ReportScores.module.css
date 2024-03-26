@@ -30,3 +30,7 @@
 .overlapGraph p {
   margin-bottom: 0px;
 }
+.reportTitle {
+  display: flex;
+  justify-content: flex-end;
+}

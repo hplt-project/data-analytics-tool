@@ -12,9 +12,11 @@ import LangDocs from "./langDocs";
 import axios from "axios";
 import { useRouter } from "next/router";
 
-import styles from "./../src/styles/DataAnalyticsReport.module.css";
 import OverviewTable from "./OverviewTable";
 import CollectionsGraph from "./collectionsGraphs";
+
+import styles from "./../src/styles/DataAnalyticsReport.module.css";
+import buttonStyles from "@/styles/Uploader.module.css";
 
 export default function DataAnalyticsReport({ reportData, date }) {
   if (!reportData) return;
@@ -195,6 +197,24 @@ export default function DataAnalyticsReport({ reportData, date }) {
     ? JSON.parse(reportData.docs_segments).slice(0, 25)
     : "";
 
+  const totalDocs = reportData.docs_segments
+    ? JSON.parse(reportData.docs_segments)
+        .slice(0, 25)
+        .reduce((a, b) => a + b[1], 0)
+    : "";
+  const docsSegmentsTotal = reportData.docs_segments
+    ? JSON.parse(reportData.docs_segments).reduce((a, b) => a + b[1], 0)
+    : "";
+
+  const rest =
+    reportData.docs_segments && JSON.parse(reportData.docs_segments).length > 25
+      ? JSON.parse(reportData.docs_segments)
+          .slice(25, JSON.parse(reportData.docs_segments).length - 1)
+          .reduce((a, b) => a + b[1], 0)
+      : "";
+
+  const docsSegmentsPercOfTotal = (totalDocs * 100) / docsSegmentsTotal;
+
   let docsSegmentsTop = docsSegments
     ? docsSegments.map((doc) => {
         return {
@@ -266,6 +286,91 @@ export default function DataAnalyticsReport({ reportData, date }) {
           docsTopTenTLDs={docsTopTenTLDs}
         />
       </div>
+      {docsSegmentsTop && (
+        <div className="custom-chart">
+          <div className={styles.bicleanerScores}>
+            <h3>Documents size (in segments)</h3>
+            <ReportScores
+              scores={docsSegmentsTop}
+              xLabel={"Score range"}
+              yLabel={"Frequency"}
+              graph={"docsCollections"}
+              partOfTotal={docsSegmentsPercOfTotal}
+              rest={rest}
+            />
+          </div>
+        </div>
+      )}
+      {docsCollections && (
+        <div className="custom-chart">
+          <div className={styles.bicleanerScores}>
+            <h3>Documents by collection</h3>
+            <CollectionsGraph collection={docsCollections} />
+          </div>
+        </div>
+      )}
+      {!reportData.trglang && (
+        <div className="custom-chart">
+          <div className={styles.languagesPieReportsContainer}>
+            <h3>Language Distribution</h3>
+            <div className={styles.languagesPieReports}>
+              {srcLangs && (
+                <div className={styles.singleLanguageReport}>
+                  {!reportData.trglang ? (
+                    <h3>Number of segments</h3>
+                  ) : (
+                    <h3>Source</h3>
+                  )}
+                  <LanguagePieChart langs={srcLangs} id="image" />
+                </div>
+              )}
+              {langDocs && (
+                <div className={styles.singleLanguageReport}>
+                  {" "}
+                  <h3>Percentage of segments in $lang inside documents</h3>
+                  <LangDocs langDocs={langDocs} />
+                </div>
+              )}
+              {trgLangs && (
+                <div className={styles.singleLanguageReport}>
+                  <h3>Target</h3>
+                  <LanguagePieChart langs={trgLangs} id="image" />
+                </div>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+      {monocleanerScores && (
+        <div className="custom-chart">
+          <div className={styles.bicleanerScores}>
+            <h3>Distribution of segments by fluency score</h3>
+            <ReportScores
+              scores={monocleanerScores}
+              xLabel={"Score"}
+              yLabel={"Segments"}
+              graph={"another"}
+            />
+          </div>
+        </div>
+      )}
+      {docsAvgLM && (
+        <div className="custom-chart">
+          <div className={styles.bicleanerScores}>
+            <h3>
+              {!reportData.trglang && docsAvgLM
+                ? "Distribution of documents by average fluency score"
+                : ""}
+            </h3>
+            <ReportScores
+              scores={docsAvgLM}
+              xLabel={"Segments"}
+              yLabel={"Documents"}
+              graph={"another"}
+            />
+          </div>
+        </div>
+      )}
       {bicleanerScores && (
         <div className="custom-chart">
           <div className={styles.bicleanerScores}>
@@ -279,97 +384,61 @@ export default function DataAnalyticsReport({ reportData, date }) {
           </div>
         </div>
       )}
-      {monocleanerScores && (
+
+      {reportData.trglang && (
         <div className="custom-chart">
-          <div className={styles.bicleanerScores}>
-            <h3>Monocleaner scores</h3>
-            <ReportScores
-              scores={monocleanerScores}
-              xLabel={"Score range"}
-              yLabel={"Frequency"}
-              graph={"another"}
-            />
+          <div className={styles.languagesPieReportsContainer}>
+            <h3>Language Distribution</h3>
+            <div className={styles.languagesPieReports}>
+              {srcLangs && (
+                <div className={styles.singleLanguageReport}>
+                  {!reportData.trglang ? (
+                    <h3>Number of segments</h3>
+                  ) : (
+                    <h3>Source</h3>
+                  )}
+                  <LanguagePieChart langs={srcLangs} id="image" />
+                </div>
+              )}
+              {langDocs && (
+                <div className={styles.singleLanguageReport}>
+                  {" "}
+                  <h3>Percentage of segments in $lang inside documents</h3>
+                  <LangDocs langDocs={langDocs} />
+                </div>
+              )}
+              {trgLangs && (
+                <div className={styles.singleLanguageReport}>
+                  <h3>Target</h3>
+                  <LanguagePieChart langs={trgLangs} id="image" />
+                </div>
+              )}
+            </div>
           </div>
         </div>
       )}
-      {docsAvgLM && (
-        <div className="custom-chart">
-          <div className={styles.bicleanerScores}>
-            <h3>
-              {!reportData.trglang && docsAvgLM ? "Documents Average LM" : ""}
-            </h3>
-            <ReportScores
-              scores={docsAvgLM}
-              xLabel={"Score range"}
-              yLabel={"Frequency"}
-              graph={"another"}
-            />
-          </div>
-        </div>
-      )}
-      {docsSegmentsTop && (
-        <div className="custom-chart">
-          <div className={styles.bicleanerScores}>
-            <h3>Docs segments</h3>
-            <ReportScores
-              scores={docsSegmentsTop}
-              xLabel={"Score range"}
-              yLabel={"Frequency"}
-              graph={"docsCollections"}
-            />
-          </div>
-        </div>
-      )}
-      {docsCollections && (
-        <div className="custom-chart">
-          <div className={styles.bicleanerScores}>
-            <h3>Docs collections</h3>
-            <CollectionsGraph collection={docsCollections} />
-          </div>
-        </div>
-      )}
-      <div className="custom-chart">
-        <div className={styles.languagesPieReportsContainer}>
-          <h3>Language Distribution</h3>
-          <div className={styles.languagesPieReports}>
-            {srcLangs && (
-              <div className={styles.singleLanguageReport}>
-                {reportData.srclang && <h3>Source</h3>}
-                <LanguagePieChart langs={srcLangs} id="image" />
-              </div>
-            )}
-            {langDocs && (
-              <div className={styles.singleLanguageReport}>
-                {" "}
-                <h3>Language Documents</h3>
-                <LangDocs langDocs={langDocs} />
-              </div>
-            )}
-            {trgLangs && (
-              <div className={styles.singleLanguageReport}>
-                <h3>Target</h3>
-                <LanguagePieChart langs={trgLangs} id="image" />
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
       <div className={styles.languageDistributionContainer}>
         {srcSentTokens && (
           <div className={styles.singleDistribution}>
+            <h3>
+              {!reportData.trglang
+                ? "Segment length distribution"
+                : "Source segment length distribution"}
+            </h3>
             <SegmentDistribution data={srcSentTokens} which={"Source"} />
           </div>
         )}
 
         {reportData.trglang && trgSentTokens && (
           <div className={styles.singleDistribution}>
+            <h3>Target segment length distribution</h3>
             <SegmentDistribution data={trgSentTokens} which={"Target"} />
           </div>
         )}
       </div>
       {noiseDistribution && (
         <div className="custom-chart">
-          <h3>Noise Distribution</h3>
+          <h3>Segment noise Distribution</h3>
           <NoiseDistributionGraph noiseData={noiseDistribution} />
         </div>
       )}
@@ -377,7 +446,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
         <div className={styles.nGramContainer}>
           {Object.entries(srcNGrams).length && (
             <div className={styles.singleNGramContainer}>
-              <h3>Source n-grams</h3>
+              {reportData.trglang ? (
+                <h3>Source n-grams</h3>
+              ) : (
+                <h3>Frequent n-grams</h3>
+              )}
               <NGramsTable NGrams={srcNGrams} />
             </div>
           )}
@@ -393,14 +466,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
       </div>
       <div className={styles.reportButtons}>
         <button
-          className={styles.downloadButton}
+          className={buttonStyles["button-27"]}
           onClick={() => handleDownload(reportData.corpus)}
           type="button"
         >
           Download yaml
         </button>
         <button
-          className={styles.exportToPDFButton}
+          className={buttonStyles["button-26"]}
           onClick={() => {
             setLoadingPdf(true);
             exportMultipleChartsToPdf(reportData.corpus, offLoading);

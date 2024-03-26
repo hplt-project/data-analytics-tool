@@ -35,7 +35,14 @@ const CustomTooltip = ({ active, payload, label }) => {
   }
 };
 
-export default function ReportScores({ scores, xLabel, yLabel, graph }) {
+export default function ReportScores({
+  scores,
+  xLabel,
+  yLabel,
+  graph,
+  partOfTotal,
+  rest,
+}) {
   const processedScores = scores.map((item) => {
     return {
       token: item.token,
@@ -49,6 +56,15 @@ export default function ReportScores({ scores, xLabel, yLabel, graph }) {
 
   return (
     <div className={styles.reportScoresContainer}>
+      {partOfTotal && rest && (
+        <div className={styles.reportTitle}>
+          <p>
+            Top 25 make up{" "}
+            <strong>{+partOfTotal.toFixed(2)} % of total </strong> and{" "}
+            <strong>{rest.toLocaleString()}</strong> {">"} 25.
+          </p>
+        </div>
+      )}
       <ResponsiveContainer width="95%" height="100%">
         <BarChart
           width={500}

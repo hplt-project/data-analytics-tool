@@ -4,7 +4,6 @@ import Logo from "../public/logos/logo.png";
 import Image from "next/image";
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
-import { report } from "process";
 
 export default function OverviewTable({
   reportData,
@@ -15,8 +14,6 @@ export default function OverviewTable({
   const datasetName = reportData.corpus ? reportData.corpus : "Not specified";
 
   const totalDocs = reportData.docs_total ? reportData.docs_total : "";
-
-  /// language names
 
   const srclang = reportData.srclang
     ? languagePairName([reportData.srclang])
@@ -82,7 +79,6 @@ export default function OverviewTable({
                   ) : (
                     <th>Language</th>
                   )}
-                  {totalDocs && <th>Total Docs</th>}
                 </tr>
               </thead>
               <tbody>
@@ -91,7 +87,6 @@ export default function OverviewTable({
                   <td>{date === "Invalid Date" ? "Not specified" : date}</td>
                   <td>{srclang && srclang[0].label}</td>
                   {trglang && <td>{trglang[0].label}</td>}
-                  {totalDocs && <td>{totalDocs.toLocaleString()}</td>}
                 </tr>
               </tbody>
             </table>
@@ -101,12 +96,15 @@ export default function OverviewTable({
             <table>
               <thead>
                 <tr>
-                  <th>Segment pairs</th>
-                  <th>Unique segment pairs</th>
-                  <th>Src size</th>
+                  <th>Segments</th>
+                  <th>Unique segments</th>
+                  {!trglang && <th>Size</th>}
+                  {trglang && <th>Src size</th>}
                   {trglang && <th>Trg size</th>}
-                  <th>Src tokens</th>
+                  {!trglang && <th>Tokens</th>}
+                  {trglang && <th>Src tokens</th>}
                   {trglang && <th>Trg tokens</th>}
+                  {totalDocs && <th>Total Docs</th>}
                 </tr>
               </thead>
               <tbody>
@@ -118,6 +116,7 @@ export default function OverviewTable({
 
                   <td>{srcTokens}</td>
                   {trglang && <td>{trgTokens}</td>}
+                  {totalDocs && <td>{totalDocs.toLocaleString()}</td>}
                 </tr>
               </tbody>
             </table>
@@ -128,13 +127,12 @@ export default function OverviewTable({
               <thead>
                 <tr>
                   {!trglang && srclang && <th>{srclang[0].label}</th>}
-                  {trglang &&
-                    reportData.ttr_trg(
-                      <>
-                        <th>Source</th>
-                        <th>Target</th>
-                      </>
-                    )}
+                  {trglang && reportData.ttr_trg && (
+                    <>
+                      <th>Source</th>
+                      <th>Target</th>
+                    </>
+                  )}
                 </tr>
               </thead>
               <tbody>
