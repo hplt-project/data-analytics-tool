@@ -39,13 +39,12 @@ export default function LanguagePieChart({ langs }) {
             dataKey="perc"
             isAnimationActive={false}
             data={langs}
-            cx={140}
+            cx={100}
             cy={140}
             outerRadius={120}
             strokeWidth={0.7}
           />
           <Legend
-            margin={10}
             layout="vertical"
             verticalAlign="top"
             align="right"

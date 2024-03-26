@@ -15,31 +15,6 @@ import { percFormatter } from "../hooks/hooks";
 
 import styles from "@/styles/LangDocs.module.css";
 
-const CustomTooltip = ({ active, payload, label }) => {
-  if (active && payload && payload.length && label) {
-    return (
-      <div className={styles.tooltipOverlap}>
-        <p className={styles.labelOverlap}>{label}</p>
-
-        <p>
-          {" "}
-          Unique sentence frequency:{" "}
-          {Intl.NumberFormat("en", {
-            notation: "compact",
-          }).format(payload[0].value)}
-        </p>
-        <p>
-          {" "}
-          Duplicate sentence frequency:{" "}
-          {Intl.NumberFormat("en", {
-            notation: "compact",
-          }).format(payload[1].value)}
-        </p>
-      </div>
-    );
-  }
-};
-
 export default function LangDocs({ langDocs }) {
   return (
     <div className={styles.langDocs}>
@@ -49,9 +24,9 @@ export default function LangDocs({ langDocs }) {
           height={300}
           data={langDocs}
           margin={{
-            top: 5,
-            right: 30,
-            left: 20,
+            top: 30,
+            right: 0,
+            left: 0,
             bottom: 5,
           }}
         >
@@ -59,7 +34,6 @@ export default function LangDocs({ langDocs }) {
           <XAxis dataKey="perc" tickFormatter={percFormatter} />
           <YAxis tickFormatter={DataFormatter} />
           <Tooltip />
-          <Legend />
           <Bar dataKey="freq" fill="#6d466b">
             <LabelList
               dataKey="freqFormatted"

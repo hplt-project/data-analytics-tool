@@ -65,7 +65,7 @@ export default function ReportScores({
           </p>
         </div>
       )}
-      <ResponsiveContainer width="95%" height="100%">
+      <ResponsiveContainer width="100%" height="100%">
         <BarChart
           width={500}
           height={300}
@@ -78,7 +78,11 @@ export default function ReportScores({
           }}
         >
           <CartesianGrid strokeDasharray="2 1" />
-          <XAxis dataKey="token" fontSize={14} tickMargin={5}>
+          <XAxis
+            dataKey="token"
+            fontSize={graph === "docsCollections" ? 12 : 14}
+            tickMargin={5}
+          >
             {" "}
             <Label value={xLabel} offset={10} position="bottom" fontSize={16} />
           </XAxis>
@@ -104,6 +108,7 @@ export default function ReportScores({
               dataKey="freqFormatted"
               position="top"
               fontWeight={600}
+              fontSize={graph === "docsCollections" ? 10 : 16}
             />
           </Bar>
         </BarChart>

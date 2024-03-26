@@ -34,3 +34,7 @@
   display: flex;
   justify-content: flex-end;
 }
+.reportTitle p {
+  margin-bottom: -22px;
+  margin-top: 10px;
+}

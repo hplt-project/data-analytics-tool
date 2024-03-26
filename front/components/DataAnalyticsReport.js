@@ -11,6 +11,8 @@ import { Oval } from "react-loader-spinner";
 import LangDocs from "./langDocs";
 import axios from "axios";
 import { useRouter } from "next/router";
+import { Info } from "lucide-react";
+import { Tooltip } from "react-tooltip";
 
 import OverviewTable from "./OverviewTable";
 import CollectionsGraph from "./collectionsGraphs";
@@ -43,6 +45,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
       console.log(error, "andale wey");
     }
   };
+
+  const srclang = reportData.srclang
+    ? languagePairName([reportData.srclang])
+    : "";
 
   const [loadingPdf, setLoadingPdf] = useState(false);
 
@@ -236,7 +242,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const docsCollections = reportData.docs_collections
     ? JSON.parse(reportData.docs_collections).map((s) => {
-        return { token: s[0], freq: s[1], fill: "#8879FC" };
+        return { token: s[0], freq: s[1], fill: randDarkColor() };
       })
     : "";
 
@@ -286,29 +292,41 @@ export default function DataAnalyticsReport({ reportData, date }) {
           docsTopTenTLDs={docsTopTenTLDs}
         />
       </div>
-      {docsSegmentsTop && (
-        <div className="custom-chart">
-          <div className={styles.bicleanerScores}>
-            <h3>Documents size (in segments)</h3>
-            <ReportScores
-              scores={docsSegmentsTop}
-              xLabel={"Score range"}
-              yLabel={"Frequency"}
-              graph={"docsCollections"}
-              partOfTotal={docsSegmentsPercOfTotal}
-              rest={rest}
-            />
-          </div>
+      <div className="custom-chart">
+        <div className={styles.langDocsContainer}>
+          {docsSegmentsTop && (
+            <div className={styles.docsCollectionsGraph}>
+              <div className={styles.title}>
+                <h3>Documents size (in segments) </h3>
+                <a className="my-anchor-element">
+                  <Info
+                    className={styles.helpCircle}
+                    strokeWidth={1.4}
+                    color="#2C2E35"
+                  />
+                </a>
+                <Tooltip anchorSelect=".my-anchor-element" place="top">
+                  Hello world!
+                </Tooltip>
+              </div>
+              <ReportScores
+                scores={docsSegmentsTop}
+                xLabel={"Segments"}
+                yLabel={"Documents"}
+                graph={"docsCollections"}
+                partOfTotal={docsSegmentsPercOfTotal}
+                rest={rest}
+              />
+            </div>
+          )}
+          {docsCollections && (
+            <div className={styles.collectionsGraphPie}>
+              <h3>Documents by collection</h3>
+              <CollectionsGraph collection={docsCollections} />
+            </div>
+          )}
         </div>
-      )}
-      {docsCollections && (
-        <div className="custom-chart">
-          <div className={styles.bicleanerScores}>
-            <h3>Documents by collection</h3>
-            <CollectionsGraph collection={docsCollections} />
-          </div>
-        </div>
-      )}
+      </div>
       {!reportData.trglang && (
         <div className="custom-chart">
           <div className={styles.languagesPieReportsContainer}>
@@ -327,7 +345,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
               {langDocs && (
                 <div className={styles.singleLanguageReport}>
                   {" "}
-                  <h3>Percentage of segments in $lang inside documents</h3>
+                  <h3>
+                    Percentage of segments in {srclang[0].label} inside
+                    documents
+                  </h3>
                   <LangDocs langDocs={langDocs} />
                 </div>
               )}

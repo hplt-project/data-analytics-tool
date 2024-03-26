@@ -110,7 +110,7 @@ export default function OverviewTable({
               <tbody>
                 <tr>
                   <td>{sentences}</td>
-                  <td>{uniqueSegments}</td>
+                  <td>{uniqueSegments.toLocaleString()}</td>
                   <td>{srcSize && srcSize}</td>
                   {trgSize && <td>{trgSize}</td>}
 

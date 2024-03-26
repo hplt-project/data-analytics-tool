@@ -211,3 +211,19 @@
 .reportButtons button {
   cursor: pointer;
 }
+
+.title {
+  display: flex;
+  align-items: flex-end;
+}
+.helpCircle {
+  margin-left: 10px;
+  margin-bottom: -3px;
+}
+.langDocsContainer {
+  display: flex;
+}
+.docsCollectionsGraph {
+  width: 65%;
+  margin-right: 30px;
+}
