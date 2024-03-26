@@ -20,7 +20,7 @@ from nlp_id.tokenizer import Tokenizer as IndonesianTokenizer
 #Apparently mahaNLP overwrites the logging level to quiet-er than desired
 logging.disable(logging.NOTSET)
 
-MOSES_LANGS = ["br", "ca", "cs", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
+MOSES_LANGS = ["br", "ca", "cs", "co", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
 NLTK_WORD_LANGS = ["ar", "az", "be", "fa", "hy", "ka", "kk", "ky", "mn", "ms", "ps", "tt", "uk", "vi"]
 NLTK_PUNKT_LANGS = {"no": "norwegian",
@@ -34,6 +34,7 @@ RELDI_FALLBACK = {"bs": "sr"}
 
 MOSES_FALLBACK = {"af": "nl",
                  "br": "fr",
+                 "co": "it",
                  "cy": "en",
                  "eo": "en",
                  "eu": "es",
