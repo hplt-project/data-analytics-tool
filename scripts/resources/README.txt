@@ -1,6 +1,6 @@
 Resources from various sources:
 
-* stopwords.be: https://github.com/Xangis/extra-stopwords/blob/master/belorusian
+* stopwords.be: https://github.com/Xangis/extra-stopwords/blob/master/belarusian
 * stopwords.cy: https://github.com/techiaith/ataleiriau/blob/main/cy_ataleiriau_stopwords.txt
 * stopwords.is: https://github.com/atlijas/icelandic-stop-words/blob/master/all_stop_words.txt
 * stopwords.ka: https://github.com/voku/stop-words/blob/master/src/voku/helper/stopwords/ka.php
