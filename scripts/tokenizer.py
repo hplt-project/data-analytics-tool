@@ -6,6 +6,7 @@ import reldi_tokeniser
 import pyidaungsu
 import spacy_pkuseg as pkuseg
 import hebrew_tokenizer
+import botok
 
 from sacremoses import MosesTokenizer
 from nltk.tokenize import WordPunctTokenizer, word_tokenize
@@ -33,7 +34,7 @@ RELDI_LANGS  = ["sr", "mk", "bg", "hr"]
 RELDI_FALLBACK = {"bs": "sr"}
 
 MOSES_FALLBACK = {"af": "nl",
-                 "ba", "ru",
+                 "ba": "ru",
                  "br": "fr",
                  "co": "it",
                  "cy": "en",
@@ -75,6 +76,8 @@ PKUSEG_LANGS = ["zh", "zh-Hant"]
 HEBREW_LANGS = ["he", "iw"]
 
 NLPID_LANGS =  ["id"]
+
+BOTOK_LANGS = ["bo"]
 
 class CustomTokenizer:
 
@@ -173,7 +176,11 @@ class CustomTokenizer:
         elif lang in NLPID_LANGS:
             self.tokenizer = IndonesianTokenizer()
             self.toktype = "nlpid"
-              
+
+        elif lang in BOTOK_LANGS:
+            config=botok.config.Config(dialect_name="general")
+            self.tokenizer = botok.WordTokenizer(config)                          
+            self.toktype = "botok"
         else:
             '''
             self.tokenizer =  MosesTokenizer("en")
@@ -245,6 +252,12 @@ class CustomTokenizer:
         elif self.toktype == "nlpid":
            return self.tokenizer.tokenize(sent)    
         
+        elif self.toktype = "botok":
+            objects = self.tokenizer(sent)
+            tokens = []
+            for obj in objs:
+                tokens.append(obj.text)
+            return tokens
         else:
             return None #TO DO Do something better here
          
