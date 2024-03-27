@@ -9,7 +9,7 @@ import json
 import tldextract
 #import math
 #import cProfile
-#import statistics
+import statistics
 
 from timeit import default_timer
 from util import logging_setup
@@ -133,6 +133,10 @@ def main():
     doc_length_list=[]   
     for segments, freq in sorted(doc_length.items()):
         doc_length_list.append([segments, freq])
+    if len(doc_length_list)>0:
+        doc_length_elements = sorted(doc_length.elements())
+        stats["docs_segments_mean"] = round(statistics.mean(doc_length_elements))
+        stats["docs_segments_median"] = round(statistics.median(doc_length_elements))
     
     collections_list=[]
     for collection, freq in sorted(doc_collections.items(), key=lambda pair:pair[1], reverse=True):
