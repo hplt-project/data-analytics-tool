@@ -179,7 +179,20 @@ export default function DataAnalyticsReport({ reportData, date }) {
   const noiseDistribution =
     reportData && reportData.hardrules_tags
       ? Object.entries(JSON.parse(reportData.hardrules_tags)).map((v) => {
-          return { label: v[0], value: parseFloat(v[1]), perc: `${v[1]} %` };
+          return {
+            label:
+              v[0] === "not_too_long"
+                ? "Too long"
+                : v[0] === "not_too_short"
+                ? "Too short"
+                : v[0] === "no_urls"
+                ? "URLs"
+                : v[0] === "no_bad_encoding"
+                ? "Bad encoding"
+                : "Contains porn",
+            value: parseFloat(v[1]),
+            perc: `${v[1]} %`,
+          };
         })
       : "";
 
@@ -220,6 +233,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
       : "";
 
   const docsSegmentsPercOfTotal = (totalDocs * 100) / docsSegmentsTotal;
+
+  const restPerc = ((docsSegmentsTotal - totalDocs) * 100) / docsSegmentsTotal;
 
   let docsSegmentsTop = docsSegments
     ? docsSegments.map((doc) => {
@@ -292,41 +307,45 @@ export default function DataAnalyticsReport({ reportData, date }) {
           docsTopTenTLDs={docsTopTenTLDs}
         />
       </div>
-      <div className="custom-chart">
-        <div className={styles.langDocsContainer}>
-          {docsSegmentsTop && (
-            <div className={styles.docsCollectionsGraph}>
-              <div className={styles.title}>
-                <h3>Documents size (in segments) </h3>
-                <a className="my-anchor-element">
-                  <Info
-                    className={styles.helpCircle}
-                    strokeWidth={1.4}
-                    color="#2C2E35"
-                  />
-                </a>
-                <Tooltip anchorSelect=".my-anchor-element" place="top">
-                  Hello world!
-                </Tooltip>
+      {docsSegmentsTop && (
+        <div className="custom-chart">
+          <div className={styles.langDocsContainer}>
+            {docsSegmentsTop && (
+              <div className={styles.docsCollectionsGraph}>
+                <div className={styles.title}>
+                  <h3>Documents size (in segments) </h3>
+                  <a className="my-anchor-element">
+                    <Info
+                      className={styles.helpCircle}
+                      strokeWidth={1.4}
+                      color="#2C2E35"
+                    />
+                  </a>
+                  <Tooltip anchorSelect=".my-anchor-element" place="top">
+                    Hello world!
+                  </Tooltip>
+                </div>
+                <ReportScores
+                  scores={docsSegmentsTop}
+                  xLabel={"Segments"}
+                  yLabel={"Documents"}
+                  graph={"docsCollections"}
+                  partOfTotal={docsSegmentsPercOfTotal}
+                  totalDocs={totalDocs}
+                  restPerc={restPerc}
+                  restDocs={rest}
+                />
               </div>
-              <ReportScores
-                scores={docsSegmentsTop}
-                xLabel={"Segments"}
-                yLabel={"Documents"}
-                graph={"docsCollections"}
-                partOfTotal={docsSegmentsPercOfTotal}
-                rest={rest}
-              />
-            </div>
-          )}
-          {docsCollections && (
-            <div className={styles.collectionsGraphPie}>
-              <h3>Documents by collection</h3>
-              <CollectionsGraph collection={docsCollections} />
-            </div>
-          )}
+            )}
+            {docsCollections && (
+              <div className={styles.collectionsGraphPie}>
+                <h3>Documents by collection</h3>
+                <CollectionsGraph collection={docsCollections} />
+              </div>
+            )}
+          </div>
         </div>
-      </div>
+      )}
       {!reportData.trglang && (
         <div className="custom-chart">
           <div className={styles.languagesPieReportsContainer}>
@@ -343,11 +362,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
                 </div>
               )}
               {langDocs && (
-                <div className={styles.singleLanguageReport}>
+                <div className={styles.singleLanguageReportDocs}>
                   {" "}
                   <h3>
-                    Percentage of segments in {srclang[0].label} inside
-                    documents
+                    Percentage of segments {srclang && `in ${srclang[0].label}`}{" "}
+                    inside documents
                   </h3>
                   <LangDocs langDocs={langDocs} />
                 </div>
@@ -398,7 +417,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
             <h3>Bicleaner scores </h3>
             <ReportScores
               scores={bicleanerScores}
-              xLabel={"Score range"}
+              xLabel={"Segments per document"}
               yLabel={"Frequency"}
               graph={"another"}
             />
@@ -443,8 +462,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
           <div className={styles.singleDistribution}>
             <h3>
               {!reportData.trglang
-                ? "Segment length distribution"
-                : "Source segment length distribution"}
+                ? "Segment length distribution by token"
+                : "Source segment length distribution by token"}
             </h3>
             <SegmentDistribution data={srcSentTokens} which={"Source"} />
           </div>
@@ -452,14 +471,16 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
         {reportData.trglang && trgSentTokens && (
           <div className={styles.singleDistribution}>
-            <h3>Target segment length distribution</h3>
+            <h3>Target segment length distribution by token</h3>
             <SegmentDistribution data={trgSentTokens} which={"Target"} />
           </div>
         )}
       </div>
       {noiseDistribution && (
         <div className="custom-chart">
-          <h3>Segment noise Distribution</h3>
+          <h3 className={styles.noiseDistributionTitle}>
+            Segment {reportData.trglang && "pair"} noise distribution
+          </h3>
           <NoiseDistributionGraph noiseData={noiseDistribution} />
         </div>
       )}

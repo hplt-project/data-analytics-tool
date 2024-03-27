@@ -23,6 +23,13 @@
   margin-top: 30px;
   width: fit-content;
 }
+.noiseDistributionTitle {
+  margin-bottom: 10px;
+}
+.dataReportContainer .singleLanguageReportDocs h3 {
+  margin-top: 18px;
+  width: 90%;
+}
 .analyticsTitleContainer {
   display: flex;
   justify-content: space-between;
@@ -159,6 +166,9 @@
 }
 .ovalP {
   margin-right: 10px;
+}
+.percSpan {
+  color: rgb(29, 89, 62);
 }
 
 /* NGRMS*/

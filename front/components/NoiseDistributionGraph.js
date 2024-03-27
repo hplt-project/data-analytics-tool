@@ -25,14 +25,21 @@ export default function NoiseDistributionGraph({ noiseData }) {
           margin={{
             top: 5,
             right: 30,
-            left: 60,
+            left: 50,
             bottom: 5,
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
 
           <XAxis type="number" tickFormatter={percFormatter} />
-          <YAxis dataKey="label" type="category" fontSize={12} />
+          <YAxis
+            dataKey="label"
+            type="category"
+            fontSize={12}
+            tickFormatter={(value) =>
+              value.toLocaleString().replace(/ /g, "\u00A0")
+            }
+          />
           <Tooltip />
           <Legend />
           <Bar dataKey="value" fill="#D99002" name="% of corpus">
@@ -42,6 +49,9 @@ export default function NoiseDistributionGraph({ noiseData }) {
               position="right"
               fontWeight={600}
               fill="#D99002"
+              tickFormatter={(value) =>
+                value.toLocaleString().replace(/ /g, "\u00A0")
+              }
             />
           </Bar>
         </BarChart>

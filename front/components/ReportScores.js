@@ -15,8 +15,8 @@ import {
 
 import { DataFormatter } from "../hooks/hooks";
 
-const CustomTooltip = ({ active, payload, label }) => {
-  if (active && payload && payload.length && label) {
+const CustomTooltip = ({ active, payload, label, measurement }) => {
+  if (active && payload && payload.length) {
     return (
       <div className={styles.tooltipOverlap}>
         <p className={styles.labelOverlap}>{label}</p>
@@ -24,7 +24,7 @@ const CustomTooltip = ({ active, payload, label }) => {
           return (
             <>
               {" "}
-              <p key={idx}>{`Frequency:   ${Intl.NumberFormat("en", {
+              <p key={idx}>{`${measurement}:   ${Intl.NumberFormat("en", {
                 notation: "compact",
               }).format(item.value)}`}</p>
             </>
@@ -41,7 +41,9 @@ export default function ReportScores({
   yLabel,
   graph,
   partOfTotal,
-  rest,
+  totalDocs,
+  restPerc,
+  restDocs,
 }) {
   const processedScores = scores.map((item) => {
     return {
@@ -56,12 +58,23 @@ export default function ReportScores({
 
   return (
     <div className={styles.reportScoresContainer}>
-      {partOfTotal && rest && (
+      {partOfTotal && restDocs && (
         <div className={styles.reportTitle}>
           <p>
-            Top 25 make up{" "}
-            <strong>{+partOfTotal.toFixed(2)} % of total </strong> and{" "}
-            <strong>{rest.toLocaleString()}</strong> {">"} 25.
+            <strong>{"<="} 25</strong> segments{" "}
+            <strong>{+partOfTotal.toFixed(2)}%</strong> (
+            {Intl.NumberFormat("en", {
+              notation: "compact",
+            }).format(totalDocs)}{" "}
+            documents)
+          </p>
+          <p>
+            <strong>{">"} 25</strong> segments{" "}
+            <strong>{+restPerc.toFixed(2)}%</strong> (
+            {Intl.NumberFormat("en", {
+              notation: "compact",
+            }).format(restDocs)}{" "}
+            documents)
           </p>
         </div>
       )}
@@ -71,7 +84,7 @@ export default function ReportScores({
           height={300}
           data={processedScores}
           margin={{
-            top: 30,
+            top: 20,
             right: 0,
             left: 20,
             bottom: 40,
@@ -98,7 +111,7 @@ export default function ReportScores({
             tickFormatter={DataFormatter}
           />
           <Tooltip
-            content={<CustomTooltip />}
+            content={<CustomTooltip measurement={yLabel} />}
             wrapperStyle={{ outline: "none" }}
           />
           <ReferenceLine y={0} stroke="#000" />

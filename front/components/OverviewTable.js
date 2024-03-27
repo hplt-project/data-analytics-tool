@@ -96,27 +96,38 @@ export default function OverviewTable({
             <table>
               <thead>
                 <tr>
+                  {totalDocs && <th>Docs</th>}
                   <th>Segments</th>
                   <th>Unique segments</th>
-                  {!trglang && <th>Size</th>}
-                  {trglang && <th>Src size</th>}
-                  {trglang && <th>Trg size</th>}
                   {!trglang && <th>Tokens</th>}
                   {trglang && <th>Src tokens</th>}
                   {trglang && <th>Trg tokens</th>}
-                  {totalDocs && <th>Total Docs</th>}
+                  {!trglang && <th>Size</th>}
+                  {trglang && <th>Src size</th>}
+                  {trglang && <th>Trg size</th>}
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  {totalDocs && <td>{totalDocs.toLocaleString()}</td>}
                   <td>{sentences}</td>
-                  <td>{uniqueSegments.toLocaleString()}</td>
-                  <td>{srcSize && srcSize}</td>
-                  {trgSize && <td>{trgSize}</td>}
-
+                  <td>
+                    {uniqueSegments.toLocaleString()}
+                    {uniqueSegments && sentences && (
+                      <span className={styles.percSpan}>
+                        {" ("}
+                        {(
+                          (reportData.src_unique_sents.length * 100) /
+                          reportData.sentence_pairs
+                        ).toFixed(2)}{" "}
+                        %)
+                      </span>
+                    )}
+                  </td>
                   <td>{srcTokens}</td>
                   {trglang && <td>{trgTokens}</td>}
-                  {totalDocs && <td>{totalDocs.toLocaleString()}</td>}
+                  <td>{srcSize && srcSize}</td>
+                  {trgSize && <td>{trgSize}</td>}
                 </tr>
               </tbody>
             </table>
