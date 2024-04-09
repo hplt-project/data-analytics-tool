@@ -720,6 +720,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
               )}
             </div>
           </div>
+          <div className={styles.blank}></div>
         </div>
       )}
       {monocleanerScores && (
@@ -853,6 +854,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
               )}
             </div>
           </div>
+          <div className={styles.blank}></div>
         </div>
       )}
       <div className={styles.languageDistributionContainer}>
