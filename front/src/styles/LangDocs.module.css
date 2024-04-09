@@ -1,6 +1,6 @@
 .langDocs {
-  height: 320px;
-  min-width: 550px;
+  height: 340px;
+  min-width: 570px;
   border-radius: 5px;
   background-color: var(--language-pie-chart-bg);
   backdrop-filter: blur(5px);

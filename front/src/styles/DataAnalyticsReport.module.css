@@ -20,11 +20,10 @@
   margin-right: 60px;
 }
 .dataReportContainer h3 {
-  margin-top: 30px;
   width: fit-content;
 }
-.noiseDistributionTitle {
-  margin-bottom: 10px;
+.noiseTitleCont {
+  margin-bottom: 20px;
 }
 .dataReportContainer .singleLanguageReportDocs h3 {
   margin-top: 18px;
@@ -34,7 +33,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 .analyticsTitleContainer h2 {
   display: flex;
@@ -49,6 +48,28 @@
 }
 .hpltAnalyticsTitle {
   font-weight: 500;
+}
+.overlay {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #222;
+}
+.overlayText {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.overlayText h1 {
+  color: white;
+  margin-right: 15px;
+}
+.hidden {
+  display: none;
 }
 .analyticsTitle {
   line-height: 1.45;
@@ -107,13 +128,13 @@
 }
 .languagesPieReports {
   display: flex;
+  align-items: flex-end;
 }
 .languagesPieReportsContainer {
   margin-bottom: 70px;
+  margin-top: 30px;
 }
-.languagesPieReportsContainer h2 {
-  margin-bottom: 30px;
-}
+
 .singleLanguageReport {
   margin-bottom: 20px;
 }
@@ -139,12 +160,17 @@
 .singleNGramContainer {
   margin-top: 20px;
 }
-.singleNGramContainer h3 {
-  margin: 30px 0 5px 0;
-  font-size: 18px;
-}
+
 .blank {
   height: 30px;
+}
+.testing {
+  position: relative;
+  z-index: -100000;
+}
+.tooltipLink {
+  color: var(--tooltip-link);
+  text-decoration: none;
 }
 .exportToPDFButton,
 .downloadButton {
@@ -170,7 +196,20 @@
 .percSpan {
   color: rgb(29, 89, 62);
 }
-
+.dataReportContainer h3.smaller {
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.domainLink {
+  text-decoration: none;
+  color: var(--desc-link-color);
+}
+.containsTooltip {
+  display: flex;
+  align-items: center;
+}
 /* NGRMS*/
 
 /******** volumes table ****/
@@ -224,7 +263,7 @@
 
 .title {
   display: flex;
-  align-items: flex-end;
+  align-items: center;
 }
 .helpCircle {
   margin-left: 10px;

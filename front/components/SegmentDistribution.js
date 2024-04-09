@@ -79,11 +79,7 @@ export default function SegmentDistribution({ data, which }) {
   }).format(finalBarDupes);
 
   return (
-    <div
-      className={[styles.segmentDistributionContainer, " custom-chart"].join(
-        ""
-      )}
-    >
+    <div className={styles.segmentDistributionContainer}>
       <div className={styles.segmentTitle}>
         <p>
           <strong> {"<= 49"} </strong> tokens ={" "}

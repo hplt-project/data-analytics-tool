@@ -1,0 +1,11 @@
+.footNotes {
+  margin-top: 30px;
+  margin-bottom: 60px;
+}
+.singleNote {
+  margin: 10px 0 5px 0;
+}
+.singleNote ul li {
+  margin: 5px 0;
+  line-height: 1.4;
+}
