@@ -1,4 +1,12 @@
-Resources from various sources:
+Stopwords obtained from various sources. Some of the pairs had extra words added by hand:
+
+
+
+* ar, az, bn, ca, da, de, el, en, es, eu, fi, fr, he, hu, id, it, iw, kk, nb,ne, nl, nn, no, pt, ro, ru, sl, sv, tr, zh, zh-Hant: NLTK stopwords (https://www.nltk.org/howto/corpus.html?highlight=stopwords#word-lists-and-lexicons)
+* bg, cs, fa, ga, gl, hi, hy, ja, ko, la, lt, lv, mr, pl, sk, th, uk, ur: https://github.com/astuanax/stopwords
+* af, br, eo, et, gu, hr, ms, so, sw, tl, vi: https://github.com/stopwords-iso/stopwords-iso
+* be, mn, sr, te, bs : https://github.com/Xangis/extra-stopwords
+* my, pa:  https://github.com/fergiemcdowall/stopword
 
 * stopwords.be: https://github.com/Xangis/extra-stopwords/blob/master/belarusian
 * stopwords.cy: https://github.com/techiaith/ataleiriau/blob/main/cy_ataleiriau_stopwords.txt
