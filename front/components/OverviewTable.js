@@ -1,5 +1,7 @@
 import { languagePairName } from "../hooks/hooks";
 import Logo from "../public/logos/logo.png";
+import { Info } from "lucide-react";
+import { Tooltip } from "react-tooltip";
 
 import Image from "next/image";
 
@@ -24,15 +26,15 @@ export default function OverviewTable({
     : "";
 
   const srcSize = reportData.src_bytes
-    ? reportData.src_bytes.toLocaleString()
+    ? reportData.src_bytes.toLocaleString("en-US")
     : "";
 
   const trgSize = reportData.trg_bytes
-    ? reportData.trg_bytes.toLocaleString()
+    ? reportData.trg_bytes.toLocaleString("en-US")
     : "";
 
   const sentences = reportData.sentence_pairs
-    ? reportData.sentence_pairs.toLocaleString()
+    ? reportData.sentence_pairs.toLocaleString("en-US")
     : "";
 
   const uniqueSegments = reportData.src_unique_sents
@@ -96,33 +98,99 @@ export default function OverviewTable({
             <table>
               <thead>
                 <tr>
-                  <th>Segments</th>
+                  {totalDocs && <th>Docs</th>}
+                  <th>
+                    <div className={styles.containsTooltip}>
+                      Segments{" "}
+                      <a className="segments-info">
+                        <Info
+                          className={styles.helpCircle}
+                          strokeWidth={1.4}
+                          color="#2C2E35"
+                        />
+                      </a>
+                      <Tooltip anchorSelect=".segments-info" place="top">
+                        Segments correspond to paragraph and list boundaries as
+                        defined by HTML elements{" "}
+                        <code>
+                          ({"<"}p{">"}, {"<"}ul{">"}, {"<"}ol{">"}, etc.)
+                        </code>{" "}
+                        replaced by newlines.
+                      </Tooltip>
+                    </div>
+                  </th>
                   <th>Unique segments</th>
+                  {!trglang && (
+                    <th>
+                      <div className={styles.containsTooltip}>
+                        Tokens{" "}
+                        <a className="tokens-info">
+                          <Info
+                            className={styles.helpCircle}
+                            strokeWidth={1.4}
+                            color="#2C2E35"
+                          />
+                        </a>
+                        <Tooltip anchorSelect=".tokens-info" place="top">
+                          Tokenized with {"<"}loquesea{">"}.
+                        </Tooltip>
+                      </div>
+                    </th>
+                  )}
+                  {trglang && <th>Src tokens</th>}
+                  {trglang && <th>Trg tokens</th>}
                   {!trglang && <th>Size</th>}
                   {trglang && <th>Src size</th>}
                   {trglang && <th>Trg size</th>}
-                  {!trglang && <th>Tokens</th>}
-                  {trglang && <th>Src tokens</th>}
-                  {trglang && <th>Trg tokens</th>}
-                  {totalDocs && <th>Total Docs</th>}
                 </tr>
               </thead>
               <tbody>
                 <tr>
+                  {totalDocs && <td>{totalDocs.toLocaleString("en-US")}</td>}
                   <td>{sentences}</td>
-                  <td>{uniqueSegments}</td>
-                  <td>{srcSize && srcSize}</td>
-                  {trgSize && <td>{trgSize}</td>}
-
+                  <td>
+                    {uniqueSegments.toLocaleString("en-US")}
+                    {uniqueSegments && sentences && (
+                      <span className={styles.percSpan}>
+                        {" ("}
+                        {(
+                          (reportData.src_unique_sents.length * 100) /
+                          reportData.sentence_pairs
+                        ).toFixed(2)}{" "}
+                        %)
+                      </span>
+                    )}
+                  </td>
                   <td>{srcTokens}</td>
                   {trglang && <td>{trgTokens}</td>}
-                  {totalDocs && <td>{totalDocs.toLocaleString()}</td>}
+                  <td>{srcSize && srcSize}</td>
+                  {trgSize && <td>{trgSize}</td>}
                 </tr>
               </tbody>
             </table>
           </div>
           <div className={styles.typeTokens}>
-            <h3>Type-Token Ratio</h3>
+            <div className={styles.containsTooltip}>
+              <h3>Type-Token Ratio</h3>
+              <a className="type-token-info">
+                <Info
+                  className={styles.helpCircle}
+                  strokeWidth={1.4}
+                  color="#2C2E35"
+                />
+              </a>
+              <Tooltip anchorSelect=".type-token-info" place="top" clickable>
+                Lexical variety computed as *number or types (uniques)/number of
+                tokens*, after removing punctuation (
+                <a
+                  href="https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf"
+                  target="_blank"
+                >
+                  https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf
+                </a>
+                ).
+              </Tooltip>
+            </div>
             <table>
               <thead>
                 <tr>
@@ -187,7 +255,15 @@ export default function OverviewTable({
                 {docsTopTenDomains.map((doc) => {
                   return (
                     <tr>
-                      <td>{doc.token}</td>
+                      <td>
+                        <a
+                          href={`http://www.${doc.token}`}
+                          target="_blank"
+                          className={styles.domainLink}
+                        >
+                          {doc.token}
+                        </a>
+                      </td>
                       <td>{doc.freq}</td>
                       <td>{doc.perc.toFixed(2)}</td>
                     </tr>

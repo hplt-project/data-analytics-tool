@@ -10,12 +10,10 @@ import {
   Tooltip,
   Legend,
   ResponsiveContainer,
-  LabelList,
-  Label,
 } from "recharts";
 
 const CustomTooltip = ({ active, payload, label }) => {
-  if (active && payload && payload.length && label) {
+  if (active && payload && payload.length) {
     return (
       <div className={styles.tooltipOverlap}>
         <p className={styles.labelOverlap}>{label}</p>
@@ -51,6 +49,21 @@ export default function SegmentDistribution({ data, which }) {
 
   const filteredData = data.filter((item) => item.token < 50);
 
+  const filteredDataTotal = filteredData.reduce((a, b) => a + b.freqUnique, 0);
+
+  const filteredDataTotalDupes = filteredData.reduce(
+    (a, b) => a + b.duplicates,
+    0
+  );
+
+  const filteredDataTotalFormatted = Intl.NumberFormat("en", {
+    notation: "compact",
+  }).format(filteredDataTotal);
+
+  const filteredDataTotalDupesFormatted = Intl.NumberFormat("en", {
+    notation: "compact",
+  }).format(filteredDataTotalDupes);
+
   const finalBar = data.reduce((a, b) => (b.token >= 50 ? +a + +b.freq : ""));
 
   const finalBarDupes = data.reduce((a, b) =>
@@ -66,15 +79,17 @@ export default function SegmentDistribution({ data, which }) {
   }).format(finalBarDupes);
 
   return (
-    <div
-      className={[styles.segmentDistributionContainer, " custom-chart"].join(
-        ""
-      )}
-    >
+    <div className={styles.segmentDistributionContainer}>
       <div className={styles.segmentTitle}>
         <p>
-          <strong> {">"} 50</strong> | <strong>{fiftyPlusFormatted}</strong>{" "}
-          segments <strong>{fiftyPlusDupesFormatted} </strong>duplicates.
+          <strong> {"<= 49"} </strong> tokens ={" "}
+          <strong>{filteredDataTotalFormatted}</strong> segments |{" "}
+          <strong>{filteredDataTotalDupesFormatted}</strong> duplicates
+        </p>
+        <p>
+          <strong> {"> 50"} </strong> tokens ={" "}
+          <strong>{fiftyPlusFormatted}</strong> segments |{" "}
+          <strong>{fiftyPlusDupesFormatted}</strong> duplicates
         </p>
       </div>
       <ResponsiveContainer width="100%" height="100%">
@@ -90,7 +105,18 @@ export default function SegmentDistribution({ data, which }) {
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
-          <XAxis dataKey="token" fontSize={12} tickMargin={5}></XAxis>
+          <XAxis
+            dataKey="token"
+            fontSize={12}
+            tickMargin={5}
+            label={{
+              value: "Number of tokens in the segment",
+              angle: 0,
+              position: "bottom",
+              offset: 0,
+              fontSize: 16,
+            }}
+          />
           <YAxis
             tickFormatter={DataFormatter}
             label={{
@@ -105,18 +131,22 @@ export default function SegmentDistribution({ data, which }) {
             content={<CustomTooltip />}
             wrapperStyle={{ outline: "none" }}
           />
-          <Legend />
+          <Legend
+            wrapperStyle={{
+              paddingTop: "20px",
+            }}
+          />
           <Bar
             dataKey="freqUnique"
             stackId="a"
             fill="#82ca9d"
-            name="Unique sentence frequency"
+            name="Unique segments"
           />
           <Bar
             dataKey="duplicates"
             stackId="a"
             fill="#0099DB"
-            name="Duplicates"
+            name="Duplicated segments"
             margin={{
               top: 0,
               right: 10,

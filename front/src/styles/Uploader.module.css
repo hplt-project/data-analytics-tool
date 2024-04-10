@@ -195,6 +195,7 @@
   width: fit-content;
   margin-right: 10px;
   text-decoration: none;
+  display: flex;
 }
 .button-27,
 .cmd button {

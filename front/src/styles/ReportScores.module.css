@@ -32,5 +32,11 @@
 }
 .reportTitle {
   display: flex;
+  flex-direction: column;
   justify-content: flex-end;
+}
+.reportTitle p {
+  width: fit-content;
+  margin-left: auto;
+  margin-bottom: 5px;
 }

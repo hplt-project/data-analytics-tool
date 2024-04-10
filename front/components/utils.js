@@ -36,7 +36,7 @@ async function creatPdf({ doc, elements }) {
 
     const pageHeight = doc.internal.pageSize.getHeight();
 
-    if (top + elHeight > pageHeight - 40) {
+    if (top + elHeight > pageHeight - 30) {
       doc.addPage();
       top = marginTop;
     }
@@ -58,6 +58,16 @@ async function creatPdf({ doc, elements }) {
         top - 15,
         elWidth,
         elHeight + 38,
+        `image${i}`
+      );
+    } else if (i == elements.length - 1) {
+      doc.addImage(
+        imgData,
+        "PNG",
+        padding,
+        top - 15,
+        elWidth,
+        elHeight + 28,
         `image${i}`
       );
     } else {
