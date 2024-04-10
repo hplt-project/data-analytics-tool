@@ -435,8 +435,19 @@ export default function DataAnalyticsReport({ reportData, date }) {
                                 />
                               )}
                             </a>
-                            <Tooltip anchorSelect=".tokens-info" place="top">
-                              Tokenized with {"<"}loquesea{">"}.
+                            <Tooltip
+                              anchorSelect=".tokens-info"
+                              place="top"
+                              clickable
+                            >
+                              Tokenized with{" "}
+                              <a
+                                href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
+                                target="_blank"
+                                className={styles.tooltipLink}
+                              >
+                                https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
+                              </a>
                             </Tooltip>
                           </div>
                         </th>
@@ -878,8 +889,19 @@ export default function DataAnalyticsReport({ reportData, date }) {
                   />
                 )}
               </a>
-              <Tooltip anchorSelect=".segment-length-info" place="top">
-                Tokenized with loquesea
+              <Tooltip
+                anchorSelect=".segment-length-info"
+                place="top"
+                clickable
+              >
+                Tokenized with{" "}
+                <a
+                  href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
+                  target="_blank"
+                  className={styles.tooltipLink}
+                >
+                  https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
+                </a>
               </Tooltip>
             </div>
             <SegmentDistribution data={srcSentTokens} which={"Source"} />
@@ -941,8 +963,16 @@ export default function DataAnalyticsReport({ reportData, date }) {
                   )}
                 </a>
                 <Tooltip anchorSelect=".ngrams-info" place="top" clickable>
-                  Tokenized with loquesea, after removing n-grams starting or
-                  ending in a stopword. Stopwords from
+                  Tokenized with{" "}
+                  <a
+                    href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
+                    target="_blank"
+                    className={styles.tooltipLink}
+                  >
+                    https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
+                  </a>
+                  , after removing n-grams starting or ending in a stopword.
+                  Stopwords from
                   <a
                     className={styles.tooltipLink}
                     href="https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt"
@@ -974,8 +1004,16 @@ export default function DataAnalyticsReport({ reportData, date }) {
                 )}
               </a>
               <Tooltip anchorSelect=".ngrams-info" place="top" clickable>
-                Tokenized with loquesea, after removing n-grams starting or
-                ending in a stopword. Stopwords from
+                Tokenized with{" "}
+                <a
+                  href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
+                  target="_blank"
+                  className={styles.tooltipLink}
+                >
+                  https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
+                </a>
+                , after removing n-grams starting or ending in a stopword.
+                Stopwords from
                 <a
                   className={styles.tooltipLink}
                   href="https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt"

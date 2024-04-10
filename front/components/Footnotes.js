@@ -18,7 +18,8 @@ export default function Footnotes() {
         <h4>Volumes - Tokens</h4>
         <ul>
           <li>
-            Tokenized with {"<"}loquesea{">"}
+            Tokenized with
+            https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
           </li>
         </ul>
       </div>
@@ -71,7 +72,8 @@ export default function Footnotes() {
         <h4>Segment length distribution by token</h4>
         <ul>
           <li>
-            Tokenized with {"<"}loquesea{">"}.
+            Tokenized with
+            https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
           </li>
         </ul>
       </div>
@@ -85,8 +87,10 @@ export default function Footnotes() {
         <h4>Frequent n-grams</h4>
         <ul>
           <li>
-            Tokenized with {"<"}loquesea{">"}, after removing n-grams starting
-            or ending in a stopword. Stopwords from
+            Tokenized with
+            https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md,
+            after removing n-grams starting or ending in a stopword. Stopwords
+            from
             https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt
           </li>
         </ul>
