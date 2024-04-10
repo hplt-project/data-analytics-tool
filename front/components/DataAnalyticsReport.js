@@ -497,6 +497,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     <a
                       href="https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf"
                       target="_blank"
+                      className={styles.tooltipLink}
                     >
                       https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf
                     </a>
@@ -939,9 +940,16 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     />
                   )}
                 </a>
-                <Tooltip anchorSelect=".ngrams-info" place="top">
+                <Tooltip anchorSelect=".ngrams-info" place="top" clickable>
                   Tokenized with loquesea, after removing n-grams starting or
-                  ending in a stopword. Stopwords from dondesea
+                  ending in a stopword. Stopwords from
+                  <a
+                    className={styles.tooltipLink}
+                    href="https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt"
+                    target="_blank"
+                  >
+                    https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt
+                  </a>
                 </Tooltip>
               </div>
               <NGramsTable NGrams={srcNGrams} />
@@ -965,9 +973,17 @@ export default function DataAnalyticsReport({ reportData, date }) {
                   />
                 )}
               </a>
-              <Tooltip anchorSelect=".ngrams-info" place="top">
+              <Tooltip anchorSelect=".ngrams-info" place="top" clickable>
                 Tokenized with loquesea, after removing n-grams starting or
-                ending in a stopword. Stopwords from dondesea
+                ending in a stopword. Stopwords from
+                <a
+                  className={styles.tooltipLink}
+                  href="https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt"
+                  target="_blank"
+                >
+                  {" "}
+                  https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt
+                </a>
               </Tooltip>
             </div>
             <NGramsTable NGrams={trgNGrams} />

@@ -24,7 +24,7 @@ export default function NoiseDistributionGraph({ noiseData }) {
           data={noiseData}
           margin={{
             top: 5,
-            right: 30,
+            right: 50,
             left: 50,
             bottom: 5,
           }}

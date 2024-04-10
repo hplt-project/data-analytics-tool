@@ -86,7 +86,8 @@ export default function Footnotes() {
         <ul>
           <li>
             Tokenized with {"<"}loquesea{">"}, after removing n-grams starting
-            or ending in a stopword. Stopwords from {"<"}dondesea{">"}
+            or ending in a stopword. Stopwords from
+            https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt
           </li>
         </ul>
       </div>
