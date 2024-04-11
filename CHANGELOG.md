@@ -1,12 +1,9 @@
-v0.3:
+v0.2-ALPHA:
 
 * Support for more languages
 * Support for HPLT document format
 * New interface
 * Added documentation
-
-v0.2
-
 * Performance improvements
 	* GPU support
 	* ngrams extraction using files instead of memory 
