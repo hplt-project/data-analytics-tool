@@ -1,9 +1,0 @@
-  if (i !== elements.length -1 && top + elHeight > pageHeight - 40) {
-      doc.addPage();
-      top = marginTop;
-    }
-
-    if (i === elements.length -1 && top + elHeight > pageHeight - 40) {
-      doc.addPage();
-      top = marginTop;
-    }
