@@ -84,14 +84,30 @@ The stats generated with this tool come in a handy yaml format with the followin
 
 HPLTAnalytics comes with a webapp that is able to display the generated yaml files in a friendlier, more confortable interface. It has the following sections:
 
-- Corpus: name, language(s), date on which the analysis was performed
-- Volumes: sentences, unique sentences, size in tokens, file size
-- Type Token Ratio: lexical variation indicator. The ratio is obtained by dividing the total number of different words (called types) by the total number of words (called tokens). The higher, the better as high TTR indicates a high degree of lexical variation while low TTR indicates the opposite. 
-- Sentence length distribution: tokens per sentence for each language, showing total, unique and duplicate sentences.
-- Language distribution: shows percentage of automatically identified languages.
+- General overview:
+  - Corpus name
+  - Date on which the analysis was performed
+  - Language(s)  
+- Volumes
+  - Documents (only for monolingual documents)
+  - Segments
+  - Unique segments
+  - Size in tokens
+  - File size
+- Type Token Ratio
+  - Lexical variation indicator. The ratio is obtained by dividing the total number of different words (called types) by the total number of words (called tokens). The higher, the better as high TTR indicates a high degree of lexical variation while low TTR indicates the opposite.
+- Top 10 domains (excluding subdomains) (only for monolingual documents)
+- Top 10 TLDs (only for monolingual documents)
+- Document size (in segments). Histogram showing the distribution of document sizes (only for monolingual documents)
+- Documents by collection (only for monolingual documents)
+- Language distribution.
+    - Number of segments: Shows percentage of automatically identified languages.
+    - Percentage of segments in the declared languge, inside documents (only for monolingual documents)
 - Quality Score distribution: as per language models (monolingual) or bicleaner scores (tool that computes the likelihood of two sentences of being mutual translations)
+- Quality Score average distribution: Histogram displaying the distribution of the average fluency score of segments in documents (only for monolingual documents)
+- Segment length distribution: tokens per segment for each language, showing total, unique and duplicate segments or segment pairs.
 - Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences being URLs, bad encoding, sentences containing poor language, etc.)
-- Common n-grams: 1-5 more frequent n-grams
+- Frequent n-grams: 1-5 more frequent n-grams
 
 
 # Output examples: 
