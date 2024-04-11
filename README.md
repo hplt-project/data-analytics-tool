@@ -19,8 +19,8 @@ Running the docker:
 
 
 URLS to upload and view a dataset: 
-* Uploader: localhost:8000/uploader.html
-* Viewer: localhost:8000/viewer.html
+* Uploader: localhost:8000/uploader
+* Viewer: localhost:8000/viewer
 
 If you need to access docker to run stuff inside:
 * sudo docker exec -it dat-webapp /bin/bash
@@ -28,7 +28,61 @@ If you need to access docker to run stuff inside:
 Code and data are located in `/work`
 
 
-# Current info: 
+## Current info in the generated yaml files: 
+
+The stats generated with this tool come in a handy yaml format with the following fields:
+
+- `bicleaner_scores`: Distribution of segments pairs with certain [Bicleaner AI](https://github.com/bitextor/bicleaner-ai) scores (only for parallel corpora)
+- `corpus`: Corpus filename
+- `docs_avg_lm`: Distribution of documents having a certain [Monocleaner](https://github.com/bitextor/monocleaner) average fluency score, of its segments (only for monolingual documents)
+- `docs_collections`: Distribution of documents per origin collection (only for monoligual documents)
+- `docs_langs`: Distribution of documents having a certain percentage of its segments in the declared document language (only for monolingual documents)
+- `docs_segments`: Distribution of documents having a certain amount of segments (only for monolingual documents)
+- `docs_timestamp`: Unix timestamp indicating when were the documents part of the stats obtained (only for monolingual documents)
+- `docs_top100_domains`: 100 most common domains, and the amount of documents for each one (only for monolingual documents)
+- `docs_top100_tld`: 100 most common top level domains (not including subdomains), and the amount of document for each one (only for monolingual documents)
+- `docs_total`: Total amount of documents in the corpus (only for monolingual documents)
+- `docs_warning`: List of issues encountered while processing documents (only for monolingual documents)
+  - `docs_unmatching_xxx`: Some documents (a total of xxx) in the corpus had a different amount of segments and LM scores or language identification, so they were discarded.
+- `hardrules_tags`: List of possible issues in the segments, detected by [Hardrules](https://github.com/bitextor/bicleaner-hardrules)
+  -  `not_too_long`: Percentage of segments being larger than 1024 characters.
+  -  `not_too_short`: Percentage of segments being shorter than 3 tokens.
+  -  `no_urls`: Percentage of segments containing URLs.
+  -  `no_bad_encoding`: Percentage of bad encoded segments.
+  -  `no_porn`: Percentage of segments having porn content (not available for all languages)
+- `monocleaner_scores`: Distribution of segments with a certain [Monocleaner](https://github.com/bitextor/monocleaner) score (only for monolingual corpora)
+- `sentence_pairs`: Total amount of segments (in the case of monolingual corpora) or segment pairs (in the case of parallel corpora)
+- `src_bytes`: Total size of source segments, uncompressed.
+- `srclang`: Source language.
+- `src_langs`: Distribution of source segments languages, as identified by [FastSpell](https://github.com/mbanon/fastspell)
+- `src_ngrams`: Distribution of the 5 most common n-grams of each order (1-grams to 5-grams) in source segments.
+- `src_sent_tokens`: Distribution of source segments having a certain amount of tokens (more info on tokenization tools [here](tokenizers-info.md))
+- `src_sent_tokens_mean`: Mean value of `src_sent_tokens`.
+- `src_sent_tokens_median`: Median value of `src_sent_tokens`.
+- `src_tokens`: Total amount of tokens in source segments.
+- `src_unique_sents`: Distribution of source segments having a certain amount of tokens, after removing duplicated segments.
+- `timestamp`: Unix timestamp indicating when were the stats obtained.
+- `trg_bytes`: Total size of target segments, uncompressed (only for parallel corpora)
+- `trglang`: Target language.
+- `trg_langs`: Distribution of target segments languages, as identified by [FastSpell](https://github.com/mbanon/fastspell) (only for parallel corpora)
+- `trg_ngrams`:  Distribution of the 5 most common n-grams of each order (1-grams to 5-grams) in target segments (only for parallel corpora)
+- `trg_sent_tokens`: Distribution of target segments having a certain amount of tokens (more info on tokenization tools [here](tokenizers-info.md)) (only for parallel corpora)
+- `trg_sent_tokens_mean`: Mean value of `trg_sent_tokens` (only for parallel corpora)
+- `trg_sent_tokens_median`: Median value of `trg_sent_tokens` (only for parallel corpora)
+- `trg_tokens`: Total amount of tokens in target segments (only for parallel corpora)
+- `trg_unique_sents`: Distribution of target segments having a certain amount of tokens, after removing duplicated segments (only for parallel corpora)
+- `ttr_src`: [Type-Token Ratio](https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf) of the source segments.
+- `ttr_trg`: [Type-Token Ratio](https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf) of the target segments.
+- `unique_sents`: Total amount of segments (for monolingual corpora) or segment pairs (for parallel corpora), after removing duplicated segments or segment pairs.
+- `warnings`: List of issues encountered while processing the corpus.
+  - `src_warning_tok_xxx_yyy`: The source language is not supported by a dedicated tokenizer, so it fallbacks to the xxx tokenizer with the yyy language (only for parallel corpora).
+  - `trg_warning_tok_xxx_yyy`: Same as the above but for the target language (only for parallel corpora).
+  - `ngrams_xxx_nostopwords`: No stopwords available for the xxx language (the language being processed)
+  - `ngrams_xxx_freq`: The stopwords used for the xxx language were simply obtained by frequency (top 1% of the corpus)
+
+## Viewer : 
+
+HPLTAnalytics comes with a webapp that is able to display the generated yaml files in a friendlier, more confortable interface. It has the following sections:
 
 - Corpus: name, language(s), date on which the analysis was performed
 - Volumes: sentences, unique sentences, size in tokens, file size
@@ -39,7 +93,6 @@ Code and data are located in `/work`
 - Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences being URLs, bad encoding, sentences containing poor language, etc.)
 - Common n-grams: 1-5 more frequent n-grams
 
-- MORE TO BE ADDED, SUGGESTIONS WELCOME!
 
 # Output examples: 
 
