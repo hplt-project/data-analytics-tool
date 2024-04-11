@@ -12,11 +12,10 @@ Automated reports generated out of the tool that is actioned from a web applicat
 
 Icon: https://thenounproject.com/icon/fingerprint-3530285/
 
-Running the docker:
+## Running the docker:
 
 * sudo docker-compose build
 * sudo docker-compose up
-
 
 URLS to upload and view a dataset: 
 * Uploader: localhost:8000/uploader
@@ -112,11 +111,14 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
 
 # Output examples: 
 
+- HPLT monolingual documents for Afrikaans: it shows that more than a half of the documents come from the same domain, and that a large amount of documents contain less than a 30% of segments in Afrikaans. It also contains a lot of short segments.
+
+<img alt="Data Analytics Viewer" src="https://github.com/hplt-project/data-analytics-tool/blob/main/img/HPLT-af.png" width=600 />
+
 - Parallel English-Norwegian HPLT corpus from initial data release: it shows that deduplication needs to be addressed as one of the most important issues.
 
-<img alt="Data Analytics Viewer" src="https://github.com/hplt-project/data-analytics-tool/blob/main/img/monolingual.png" width=600 />
-
+<img alt="Data Analytics Viewer" src="https://github.com/hplt-project/data-analytics-tool/blob/main/img/HPLT-en-nn.png" width=600 />
   
-- Monolingual Turkish corpus from Bianet: it shows that at least a 12% of the corpus is not in Turkish.
+- Monolingual Basque corpus from HPLT: it shows that at least 3/4 of the corpus is not in Basque, and that a very high percentage of segments are very short.
 
-<img alt="Data Analytics Viewer" src="https://github.com/hplt-project/data-analytics-tool/blob/main/img/bianet.tr.png" width=600 />
+<img alt="Data Analytics Viewer" src="https://github.com/hplt-project/data-analytics-tool/blob/main/img/HPLT-eu.png" width=600 />
