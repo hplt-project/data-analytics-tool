@@ -9,9 +9,10 @@ pyidaungsu==0.1.4
 sinling==0.3.6
 fitrat==0.0.9
 mahaNLP==0.9
-bnlp-toolkit==3.3.2
+bnlp-toolkit==4.0.1
 thai-segmenter==0.4.1
-stopwords==1.0.0
+#stopwords==1.0.0  --> Using fork (below)
+stopwords @ git+https://github.com/mbanon/stopwords@master
 indic-nlp-library==0.92
 stopwordsiso==0.6.1
 spacy-pkuseg==0.0.32
