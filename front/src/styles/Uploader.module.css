@@ -283,6 +283,7 @@
 }
 .uploader-buttons {
   margin-top: 30px;
+  display: flex;
 }
 
 .lang-inputs {

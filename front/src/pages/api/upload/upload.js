@@ -73,20 +73,18 @@ export default async function handler(req, res) {
       trglang: fields["trglang"][0],
     };
 
-    const response = await axios.post(
-      "http://dat-webapp:8000/upload",
-      attachments,
-      {
+    await axios
+      .post("http://dat-webapp:8000/upload", attachments, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
-      }
-    );
-    if (response.status === 200) {
-      console.log("Dataset uploaded Successfully");
-    } else {
-      console.log(response.status, "this went wrong");
-    }
+      })
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log("Again");
+      });
 
     return res.status(200).end();
   } catch (err) {
