@@ -35,7 +35,7 @@ const CustomTooltip = ({ active, payload, label, measurement }) => {
   }
 };
 
-export default function ReportScores({
+export default function DocumentSizes({
   scores,
   xLabel,
   yLabel,
@@ -55,8 +55,6 @@ export default function ReportScores({
       fill: item.fill,
     };
   });
-
-  const numbers = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
 
   return (
     <div className={styles.reportScoresContainer}>
@@ -82,6 +80,7 @@ export default function ReportScores({
       )}
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
+          width={500}
           height={300}
           data={processedScores}
           margin={{
@@ -96,9 +95,6 @@ export default function ReportScores({
             dataKey="token"
             fontSize={graph === "docsCollections" ? 12 : 14}
             tickMargin={5}
-            ticks={numbers}
-            type="number"
-            padding={{ left: 60, right: 60 }}
           >
             {" "}
             <Label value={xLabel} offset={10} position="bottom" fontSize={16} />

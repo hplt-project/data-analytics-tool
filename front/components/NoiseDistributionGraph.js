@@ -14,6 +14,7 @@ import {
 import { percFormatter } from "../hooks/hooks";
 
 export default function NoiseDistributionGraph({ noiseData }) {
+  const numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
   return (
     <div className={styles.noiseDistributionGraphContainer}>
       <ResponsiveContainer width="100%" height="100%">
@@ -31,7 +32,7 @@ export default function NoiseDistributionGraph({ noiseData }) {
         >
           <CartesianGrid strokeDasharray="3 3" />
 
-          <XAxis type="number" tickFormatter={percFormatter} />
+          <XAxis type="number" tickFormatter={percFormatter} ticks={numbers} />
           <YAxis
             dataKey="label"
             type="category"

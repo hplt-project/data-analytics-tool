@@ -5,7 +5,6 @@ import {
   YAxis,
   CartesianGrid,
   Tooltip,
-  Legend,
   ResponsiveContainer,
   LabelList,
 } from "recharts";
@@ -15,18 +14,40 @@ import { percFormatter } from "../hooks/hooks";
 
 import styles from "@/styles/LangDocs.module.css";
 
+const CustomTooltip = ({ active, payload, label }) => {
+  if (active && payload && payload.length) {
+    return (
+      <div className={styles.tooltip}>
+        <p className={styles.label}>{`Segments in ${label}%`}</p>
+        {payload.map((item, idx) => {
+          return (
+            <p
+              key={idx}
+              className={styles.desc}
+              style={{ color: item.fill }}
+            >{`Frequency: ${item.payload.freq.toLocaleString("en-US")} `}</p>
+          );
+        })}
+      </div>
+    );
+  }
+
+  return null;
+};
+
 export default function LangDocs({ langDocs }) {
+  const numbers = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
   return (
     <div className={styles.langDocs}>
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
-          width={530}
-          height={280}
+          width={550}
+          height={260}
           data={langDocs}
           margin={{
-            top: 10,
-            right: 0,
-            left: 20,
+            top: 32,
+            right: 20,
+            left: 10,
             bottom: 15,
           }}
         >
@@ -41,18 +62,26 @@ export default function LangDocs({ langDocs }) {
               offset: 0,
               fontSize: 14,
             }}
+            ticks={numbers}
+            type="number"
+            fontSize={12}
+            padding={{ left: 30, right: 30 }}
           />
           <YAxis
             tickFormatter={DataFormatter}
             label={{
               value: "Documents",
-              angle: -90,
-              position: "insideLeft",
-              offset: -8,
+              angle: 0,
+              position: "top",
+              offset: 12,
               fontSize: 14,
             }}
+            fontSize={12}
           />
-          <Tooltip />
+          <Tooltip
+            content={<CustomTooltip />}
+            wrapperStyle={{ outline: "none" }}
+          />
           <Bar dataKey="freq" fill="#6d466b">
             <LabelList
               dataKey="freqFormatted"

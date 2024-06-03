@@ -15,8 +15,8 @@ import { Tooltip } from "react-tooltip";
 import { languagePairName } from "../hooks/hooks";
 import Image from "next/image";
 import Logo from "../public/logos/logo.png";
-import OverviewTable from "./OverviewTable";
 import CollectionsGraph from "./collectionsGraphs";
+import DocumentSizes from "./DocumentSizes";
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
 import buttonStyles from "@/styles/Uploader.module.css";
@@ -55,6 +55,12 @@ export default function DataAnalyticsReport({ reportData, date }) {
   const monocleanerScores = reportData.monocleaner_scores
     ? JSON.parse(reportData.monocleaner_scores).map((s) => {
         return { token: +s[0], freq: +s[1], fill: "#8864FC" };
+      })
+    : "";
+
+  const documentScore = reportData.document_score
+    ? JSON.parse(reportData.document_score).map((s) => {
+        return { token: +s[0], freq: +s[1], fill: "#E9C46A" };
       })
     : "";
 
@@ -650,7 +656,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     replaced by newlines.
                   </Tooltip>
                 </div>
-                <ReportScores
+                <DocumentSizes
                   scores={docsSegmentsTop}
                   xLabel={"Segments"}
                   yLabel={"Documents"}
@@ -836,6 +842,19 @@ export default function DataAnalyticsReport({ reportData, date }) {
         </div>
       )}
 
+      {documentScore && (
+        <div className="custom-chart">
+          <div className={styles.bicleanerScores}>
+            <h3>Document scores</h3>
+            <ReportScores
+              scores={documentScore}
+              xLabel={"Segments per document"}
+              yLabel={"Frequency"}
+              graph={"another"}
+            />
+          </div>
+        </div>
+      )}
       {reportData.trglang && (
         <div className="custom-chart">
           <div className={styles.languagesPieReportsContainer}>
