@@ -58,6 +58,8 @@ export default function ReportScores({
 
   const numbers = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
 
+  const docScoresNums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
   return (
     <div className={styles.reportScoresContainer}>
       {partOfTotal && restDocs && (
@@ -96,7 +98,7 @@ export default function ReportScores({
             dataKey="token"
             fontSize={graph === "docsCollections" ? 12 : 14}
             tickMargin={5}
-            ticks={numbers}
+            ticks={graph === "docscores" ? docScoresNums : numbers}
             type="number"
             padding={{ left: 60, right: 60 }}
           >

@@ -850,7 +850,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
               scores={documentScore}
               xLabel={"Segments per document"}
               yLabel={"Frequency"}
-              graph={"another"}
+              graph={"docscores"}
             />
           </div>
         </div>
