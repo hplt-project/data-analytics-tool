@@ -58,8 +58,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
       })
     : "";
 
-  const documentScore = reportData.document_score
-    ? JSON.parse(reportData.document_score).map((s) => {
+  const documentScore = reportData.docs_wds
+    ? JSON.parse(reportData.docs_wds).map((s) => {
         return { token: +s[0], freq: +s[1], fill: "#E9C46A" };
       })
     : "";
