@@ -75,12 +75,14 @@ RUN python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3
     echo "import nltk; nltk.download('punkt'); nltk.download('stopwords');" | python3.10
 
 
+
 COPY *.html /work/
 COPY favicon.ico /work/
 COPY img/ /work/img/
 COPY server.py /work/
 COPY scripts/ /work/scripts/
-#COPY scripts/resources/* /work/scripts/resources/
+
+RUN cd /work && git clone https://github.com/pablop16n/web-docs-scorer && cd web-docs-scorer && python3.10 -m pip install .
 
 COPY deployment/docker-entrypoint.sh /work/deployment/docker-entrypoint.sh
 
