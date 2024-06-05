@@ -11,6 +11,8 @@ import tldextract
 #import cProfile
 import statistics
 
+import docscorer
+
 from timeit import default_timer
 from util import logging_setup
 from collections import Counter
@@ -77,7 +79,10 @@ def main():
     docs_lm_avg = Counter()
     docs_tld = Counter()
     docs_domains = Counter()
+    docs_scores = Counter() #docscorer aka Web Docs Scorer
     
+    ds = docscorer.DocumentScorer()
+        
     for json_line in args.corpus :
         total_docs+=1
         doc = json.loads(json_line)
@@ -91,6 +96,10 @@ def main():
             logging.debug("Scores: " + str(len(scores)) + "; Langs: " + str(len(langs)) + "; Segments: " + str(len(sents)) + "; Skipping")
             unmatching_docs+=1
             continue
+
+        #Document Score (Web Docs Scorer)        
+        document_score = ds.score_document(json_line, only_final_score=True)
+        docs_scores[document_score]+=1
 
         #Segments per document (docs_segments)         
         doc_length[len(scores)] += 1
@@ -157,6 +166,10 @@ def main():
     domains_list = []
     for domain, freq in sorted(docs_domains.most_common(100), key=lambda pair: pair[1], reverse=True):
         domains_list.append([domain, freq])
+        
+    docscores_list=[]
+    for docscore, freq in sorted(docs_scores.items()):
+        docscores_list.append([docscore, freq])
     
     stats["docs_segments"] = json.dumps(doc_length_list)
     stats["docs_collections"] = json.dumps(collections_list)
@@ -164,6 +177,7 @@ def main():
     stats["docs_avg_lm"] = json.dumps(lm_avg_list)
     stats["docs_top100_domains"] = json.dumps(domains_list)
     stats["docs_top100_tld"] = json.dumps(tld_list)    
+    stats["docs_wds"] = json.dumps(docscores_list)
     stats["docs_warnings"] = warnings
     stats["docs_timestamp"] = time.time()
 
