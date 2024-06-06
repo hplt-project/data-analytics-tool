@@ -847,9 +847,18 @@ export default function DataAnalyticsReport({ reportData, date }) {
           <div className={styles.bicleanerScores}>
             <div className={styles.title}>
             <h3>Distribution of documents by document score</h3>
-            
+            <a className="doc-scores-distribution-info">
+                {" "}
+                {!footNote && (
+                  <Info
+                    className={styles.helpCircle}
+                    strokeWidth={1.4}
+                    color="#2C2E35"
+                  />
+                )}
+              </a>
             <Tooltip
-                anchorSelect=".doc-fluency-distribution-info"
+                anchorSelect=".doc-scores-distribution-info"
                 place="top"
                 clickable
               >
