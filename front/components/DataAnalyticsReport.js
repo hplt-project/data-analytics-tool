@@ -807,15 +807,15 @@ export default function DataAnalyticsReport({ reportData, date }) {
                 place="top"
                 clickable
               >
-                Obtained with Monocleaner 
+                Obtained with Monocleaner (
                 <a
                   className={styles.tooltipLink}
                   href="https://github.com/bitextor/monocleaner"
                   target="_blank"
                 >
-                  ( https://github.com/bitextor/monocleaner )
+                  https://github.com/bitextor/monocleaner
                 </a>
-                
+                )                
               </Tooltip>
             </div>
 
@@ -863,14 +863,15 @@ export default function DataAnalyticsReport({ reportData, date }) {
                 clickable
               >
               <div style={{ display: 'flex', flexDirection: 'column' }}>
-           <span>Obtained with Web Docs Scorer 
+           <span>Obtained with Web Docs Scorer (
                 <a
                   className={styles.tooltipLink}
                   href="https://github.com/pablop16n/web-docs-scorer/"
                   target="_blank"
                 >
-                  (https://github.com/pablop16n/web-docs-scorer/)
+                  https://github.com/pablop16n/web-docs-scorer/
                 </a>
+                )
                 </span></div>
               </Tooltip></div>
             <ReportScores
@@ -983,13 +984,15 @@ export default function DataAnalyticsReport({ reportData, date }) {
               )}
             </a>
             <Tooltip anchorSelect=".noise-info" place="top">
-              Obtained with Bicleaner Hardrules <a
+              Obtained with Bicleaner Hardrules (
+                  <a
                   className={styles.tooltipLink}
                   href="https://github.com/bitextor/bicleaner-hardrules/"
                   target="_blank"
                 >
-                  (https://github.com/bitextor/bicleaner-hardrules/)
+                  https://github.com/bitextor/bicleaner-hardrules/
                 </a>
+                )
             </Tooltip>
           </div>
           <NoiseDistributionGraph noiseData={noiseDistribution} />
