@@ -775,7 +775,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
             </div>
             <ReportScores
               scores={monocleanerScores}
-              xLabel={"Score"}
+              xLabel={"Segments"}
               yLabel={"Scores"}
               graph={"another"}
             />
@@ -821,7 +821,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
             <ReportScores
               scores={docsAvgLM}
-              xLabel={"Segments"}
+              xLabel={"Scores"}
               yLabel={"Documents"}
               graph={"another"}
             />
@@ -875,7 +875,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
               </Tooltip></div>
             <ReportScores
               scores={documentScore}
-              xLabel={"Score"}
+              xLabel={"Scores"}
               yLabel={"Documents"}
               graph={"docscores"}
             />
