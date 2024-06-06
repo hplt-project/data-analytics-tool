@@ -775,8 +775,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
             </div>
             <ReportScores
               scores={monocleanerScores}
-              xLabel={"Segments"}
-              yLabel={"Scores"}
+              xLabel={"Scores"}
+              yLabel={"Segments"}
               graph={"another"}
             />
           </div>
