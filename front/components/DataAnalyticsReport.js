@@ -46,7 +46,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
       link.download = `${filename}`;
       link.click();
     } catch (error) {
-      console.log(error, "andale wey");
+      console.log(error, "Something went wrong with the download.");
     }
   };
 
