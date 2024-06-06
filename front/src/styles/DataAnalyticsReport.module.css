@@ -23,7 +23,8 @@
   width: fit-content;
 }
 .noiseTitleCont {
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+  margin-top: 45px;
 }
 .dataReportContainer .singleLanguageReportDocs h3 {
   margin-top: 18px;
@@ -71,6 +72,7 @@
 .hidden {
   display: none;
 }
+
 .analyticsTitle {
   line-height: 1.45;
   width: 80%;

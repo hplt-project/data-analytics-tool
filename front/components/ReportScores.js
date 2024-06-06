@@ -55,7 +55,6 @@ export default function ReportScores({
       fill: item.fill,
     };
   });
-
   const numbers = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
 
   const docScoresNums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -98,11 +97,12 @@ export default function ReportScores({
             dataKey="token"
             fontSize={graph === "docsCollections" ? 12 : 14}
             tickMargin={5}
-            ticks={graph === "docscores" ? docScoresNums : numbers}
             type="number"
-            padding={{ left: 60, right: 60 }}
+            allowDecimals
+            domain={graph === "docscores" ? [0, 10]: "  "} 
+            ticks={graph === "docscores" ? docScoresNums : numbers}
+            padding={graph === "docscores" ? { left: 15, right: 5 }: { left: 60, right: 60 }}
           >
-            {" "}
             <Label value={xLabel} offset={10} position="bottom" fontSize={16} />
           </XAxis>
           <YAxis
@@ -123,12 +123,12 @@ export default function ReportScores({
           <ReferenceLine y={0} stroke="#000" />
           <Bar dataKey="freq">
             {" "}
-            <LabelList
+         {graph !== "docscores" &&  <LabelList
               dataKey="freqFormatted"
               position="top"
               fontWeight={600}
               fontSize={graph === "docsCollections" ? 10 : 16}
-            />
+            />}  
           </Bar>
         </BarChart>
       </ResponsiveContainer>

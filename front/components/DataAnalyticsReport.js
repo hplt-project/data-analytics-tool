@@ -508,17 +508,17 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     anchorSelect=".type-token-info"
                     place="top"
                     clickable
-                  >
+                  ><div style={{ display: 'flex', flexDirection: 'column' }}>
                     Lexical variety computed as *number or types
-                    (uniques)/number of tokens*, after removing punctuation (
-                    <a
+                   <span>(uniques)/number of tokens*, after removing punctuation</span> 
+                   <span>(<a
                       href="https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf"
                       target="_blank"
                       className={styles.tooltipLink}
                     >
                       https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf
-                    </a>
-                    ).
+                    </a>).</span>
+                    </div>
                   </Tooltip>
                 </div>
                 <table>
@@ -845,11 +845,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
       {documentScore && (
         <div className="custom-chart">
           <div className={styles.bicleanerScores}>
-            <h3>Document scores</h3>
+            <h3>Distribution of documents by average fluency score</h3>
             <ReportScores
               scores={documentScore}
-              xLabel={"Segments per document"}
-              yLabel={"Frequency"}
+              xLabel={"Score"}
+              yLabel={"Documents"}
               graph={"docscores"}
             />
           </div>
@@ -982,6 +982,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                   )}
                 </a>
                 <Tooltip anchorSelect=".ngrams-info" place="top" clickable>
+                <div style={{ display: 'flex', flexDirection: 'column' }}>
                   Tokenized with{" "}
                   <a
                     href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
@@ -999,6 +1000,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                   >
                     https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt
                   </a>
+                  </div>
                 </Tooltip>
               </div>
               <NGramsTable NGrams={srcNGrams} />
