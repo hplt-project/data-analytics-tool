@@ -845,7 +845,25 @@ export default function DataAnalyticsReport({ reportData, date }) {
       {documentScore && (
         <div className="custom-chart">
           <div className={styles.bicleanerScores}>
-            <h3>Distribution of documents by average fluency score</h3>
+            <div className={styles.title}>
+            <h3>Distribution of documents by document score</h3>
+            
+            <Tooltip
+                anchorSelect=".doc-fluency-distribution-info"
+                place="top"
+                clickable
+              >
+              <div style={{ display: 'flex', flexDirection: 'column' }}>
+           <span>Obtained with Web Docs Scorer (
+                <a
+                  className={styles.tooltipLink}
+                  href="https://github.com/pablop16n/web-docs-scorer/"
+                  target="_blank"
+                >
+                  (https://github.com/pablop16n/web-docs-scorer/)
+                </a>
+                )</span></div>
+              </Tooltip></div>
             <ReportScores
               scores={documentScore}
               xLabel={"Score"}

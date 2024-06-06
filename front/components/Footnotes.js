@@ -69,6 +69,14 @@ export default function Footnotes() {
         </ul>
       </div>
       <div className={styles.singleNote}>
+        <h4>Distribution of documents by document score</h4>
+        <ul>
+          <li>
+          Obtained with Web Docs Scorer (https://github.com/pablop16n/web-docs-scorer/).
+          </li>
+        </ul>
+      </div>
+      <div className={styles.singleNote}>
         <h4>Segment length distribution by token</h4>
         <ul>
           <li>
