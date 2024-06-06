@@ -88,7 +88,7 @@ export default function Footnotes() {
       <div className={styles.singleNote}>
         <h4>Segment noise distribution</h4>
         <ul>
-          <li>Obtained with Bicleaner Hardrules.</li>
+          <li>Obtained with Bicleaner Hardrules (https://github.com/bitextor/bicleaner-hardrules/).</li>
         </ul>
       </div>
       <div className={styles.singleNote}>
