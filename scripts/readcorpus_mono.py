@@ -25,7 +25,11 @@ def initialization():
     parser.add_argument('statsfile', type=str, help="Output YAML stats file.") #TODO: default tmpfile
     parser.add_argument('srclang', type=str, help="Source language")
     
-    # Logging group
+    # Optionals
+    groupO = parser.add_argument_group("Optional")
+    groupO.add_argument('--lite', action="store_true", help="Process only lightweight stats")
+    
+    # Logging group    
     groupL = parser.add_argument_group('Logging')
     groupL.add_argument('-q', '--quiet', action='store_true', help='Silent logging mode')
     groupL.add_argument('--debug', action='store_true', help='Debug logging mode')
@@ -34,6 +38,8 @@ def initialization():
 
 
     args = parser.parse_args()
+
+
     return args
 
 #Probably more fanciness needed here
@@ -116,75 +122,79 @@ def main():
         ngrams_warnings.add("src_"+w)
 
     for src_line in args.corpus:
+
         total_lines = total_lines+1
         src_line = src_line.strip()
-        
+
+
         tokenized_src = src_tokenizer.tokenize(src_line)
         #Counting tokens in each sentence        
         src_tokens_count = len(tokenized_src)
         src_sent_tokens[src_tokens_count] += 1
 
-        
-        #Add tokens for each sentence
-        src_tokens.extend(tokenized_src) 
-        for token in tokenized_src:
-            if any(c.isalpha() for c in token):
-                src_alpha_tokens.append(token)
+        if not args.lite:               
+            #Add tokens for each sentence
+            src_tokens.extend(tokenized_src) 
+            for token in tokenized_src:
+                if any(c.isalpha() for c in token):
+                    src_alpha_tokens.append(token)
                 
         
-        #ngrams
+            #ngrams
 
-        ngrams_dict, nwarning = get_line_ngrams(args.srclang, tokenized_src, 5, stopwords)        
-        for w in nwarning:
-            ngrams_warnings.add("src_"+w)
+            ngrams_dict, nwarning = get_line_ngrams(args.srclang, tokenized_src, 5, stopwords)        
+            for w in nwarning:
+                ngrams_warnings.add("src_"+w)
         
-        for g in ngrams_dict.get(1):
-            onegrams_buffer.append("".join(g))
-            onegrams_counter += 1
-            #onegrams_file.write(" ".join(g)+"\n")
-        for g in ngrams_dict.get(2):
-            twograms_buffer.append(" ".join(g))
-            twograms_counter += 1
-            #twograms_file.write(" ".join(g)+"\n")
-        for g in ngrams_dict.get(3):
-            threegrams_buffer.append(" ".join(g))
-            threegrams_counter += 1
-            #threegrams_file.write(" ".join(g)+"\n")
-        for g in ngrams_dict.get(4): 
-            fourgrams_buffer.append(" ".join(g))
-            fourgrams_counter += 1
-            #fourgrams_file.write(" ".join(g)+"\n")
-        for g in ngrams_dict.get(5):
-            fivegrams_buffer.append(" ".join(g))
-            fivegrams_counter += 1
-            #fivegrams_file.write(" ".join(g)+"\n")
-            
-        #Write buffers to files:
-        if onegrams_counter > 10000000:
-            for g in onegrams_buffer:
-                onegrams_file.write(g+"\n")
-            onegrams_buffer = []
-            onegrams_counter = 0
-        if twograms_counter > 10000000:
-            for g in twograms_buffer:
-                twograms_file.write(g+"\n")
-            twograms_buffer = []
-            twograms_counter = 0
-        if threegrams_counter > 1000000:
-            for g in threegrams_buffer:
-                threegrams_file.write(g+"\n")
-            threegrams_buffer = []
-            threegrams_counter = 0
-        if fourgrams_counter > 1000000:        
-            for g in fourgrams_buffer:
-                fourgrams_file.write(g+"\n")
-            fourgrams_buffer = []
-            fourgrams_counter = 0
-        if fivegrams_counter > 1000000:
-            for g in fivegrams_buffer:
-                fivegrams_file.write(g+"\n")
-            fivegrams_buffer = []
-            fivegrams_counter = 0
+            for g in ngrams_dict.get(1):
+                onegrams_buffer.append("".join(g))
+                onegrams_counter += 1
+                #onegrams_file.write(" ".join(g)+"\n")
+            for g in ngrams_dict.get(2):
+                twograms_buffer.append(" ".join(g))
+                twograms_counter += 1
+                #twograms_file.write(" ".join(g)+"\n")
+            for g in ngrams_dict.get(3):
+                threegrams_buffer.append(" ".join(g))
+                threegrams_counter += 1
+                #threegrams_file.write(" ".join(g)+"\n")
+            for g in ngrams_dict.get(4): 
+                fourgrams_buffer.append(" ".join(g))
+                fourgrams_counter += 1
+                #fourgrams_file.write(" ".join(g)+"\n")
+            for g in ngrams_dict.get(5):
+                fivegrams_buffer.append(" ".join(g))
+                fivegrams_counter += 1
+                #fivegrams_file.write(" ".join(g)+"\n")
+                
+            #Write buffers to files:
+            if onegrams_counter > 10000000:
+                for g in onegrams_buffer:
+                    onegrams_file.write(g+"\n")
+                onegrams_buffer = []
+                onegrams_counter = 0
+            if twograms_counter > 10000000:
+                for g in twograms_buffer:
+                    twograms_file.write(g+"\n")
+                twograms_buffer = []
+                twograms_counter = 0
+            if threegrams_counter > 1000000:
+                for g in threegrams_buffer:
+                    threegrams_file.write(g+"\n")
+                threegrams_buffer = []
+                threegrams_counter = 0
+            if fourgrams_counter > 1000000:        
+                for g in fourgrams_buffer:
+                    fourgrams_file.write(g+"\n")
+                fourgrams_buffer = []
+                fourgrams_counter = 0
+            if fivegrams_counter > 1000000:
+                for g in fivegrams_buffer:
+                    fivegrams_file.write(g+"\n")
+                fivegrams_buffer = []
+                fivegrams_counter = 0
+
+        #End of non-lite stats
             
         #src hashes
         src_hash = xxh64(src_line).hexdigest()        
@@ -195,24 +205,25 @@ def main():
              src_hashes[src_tokens_count].add(src_hash)
         
         sent_hashes.add(src_hash)
-             
+               
         # Corpus strings
         src_bytes += len(src_line.encode('utf-8'))
-
-    #Write remaining ngrams in buffers
-    for g in onegrams_buffer:
-        onegrams_file.write(g+"\n")
-    for g in twograms_buffer:
-        twograms_file.write(g+"\n")
-    for g in threegrams_buffer:
-        threegrams_file.write(g+"\n")
-    for g in fourgrams_buffer:
-        fourgrams_file.write(g+"\n")
-    for g in fivegrams_buffer:
-        fivegrams_file.write(g+"\n")
-      
+            
+        #Write remaining ngrams in buffers
+        for g in onegrams_buffer:
+            onegrams_file.write(g+"\n")
+        for g in twograms_buffer:
+            twograms_file.write(g+"\n")
+        for g in threegrams_buffer:
+            threegrams_file.write(g+"\n")
+        for g in fourgrams_buffer:
+            fourgrams_file.write(g+"\n")
+        for g in fivegrams_buffer:
+            fivegrams_file.write(g+"\n")
+          
     stats["sentence_pairs"] = total_lines
     stats["unique_sents"] = len(sent_hashes)
+    
     
     src_tokens_list = []
     src_hashes_list = []
@@ -262,8 +273,9 @@ def main():
     # type token ratio
     #logging.info(str(len(src_alpha_tokens)))
     #logging.info(str(len(set(src_alpha_tokens))))
-    ttr_src = round(len(set(src_alpha_tokens))/ len(src_alpha_tokens),2)
-    stats["ttr_src"] = ttr_src
+    if not args.lite:
+        ttr_src = round(len(set(src_alpha_tokens))/ len(src_alpha_tokens),2)
+        stats["ttr_src"] = ttr_src
 
     # bytes size
     stats["src_bytes"] = convert_size(src_bytes)
