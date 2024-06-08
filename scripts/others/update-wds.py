@@ -1,5 +1,5 @@
 '''
-L=hy; wget -i https://data.hplt-project.org/one/monotext/cleaned/$L"_map".txt && zstdcat $L"_1".jsonl.zst  | python3.10 update-wds.py  >> yaml_dir/HPLT-docs.$L.yaml
+L=hy; wget -i https://data.hplt-project.org/one/monotext/cleaned/$L"_map".txt && zstdcat $L"_"*.jsonl.zst  | python3.10 update-wds.py  >> yaml_dir/HPLT-docs.$L.yaml
 '''
 
 
