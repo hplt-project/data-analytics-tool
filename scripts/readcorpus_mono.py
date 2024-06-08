@@ -268,7 +268,15 @@ def main():
     warnings.extend(ngrams_warnings)
     
     #source tokens
-    stats["src_tokens"] = len(src_tokens)
+
+    if len(src_tokens) > 0:
+        stats["src_tokens"] = len(src_tokens)
+    else: 
+        total = 0
+        for l in src_sent_tokens:
+            total += l * src_sent_tokens[l]
+        stats["src_tokens"] = total
+
 
     # type token ratio
     #logging.info(str(len(src_alpha_tokens)))
