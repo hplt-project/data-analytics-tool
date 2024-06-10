@@ -492,6 +492,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                   </tbody>
                 </table>
               </div>
+            { reportData.ttr_src || reportData.ttr_trg &&
               <div className={styles.typeTokens}>
                 <div className={styles.containsTooltip}>
                   <h3>Type-Token Ratio</h3>
@@ -568,7 +569,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     </tr>
                   </tbody>
                 </table>
-              </div>
+              </div>}
             </div>
             {docsTopTenDomains && (
               <div className={styles.topDomains}>
