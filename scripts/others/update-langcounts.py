@@ -1,5 +1,5 @@
 '''
-L=az; wget -i https://data.hplt-project.org/one/monotext/cleaned/$L"_map".txt &&  zstdcat $L"_"*.jsonl.zst | jq .langs -r | grep -Ev  "\[|\]" | tr -d '",'   | sort  --parallel $JOBS  | uniq -c | sort -nr | python3.10 update-langcount.py - /work/yaml_dir/HPLT-docslite.$L.yaml
+JOBS=30; L=az; wget -i https://data.hplt-project.org/one/monotext/cleaned/$L"_map".txt &&  zstdcat $L"_"*.jsonl.zst | jq .langs -r | grep -Ev  "\[|\]" | tr -d '",'   | sort  --parallel $JOBS  | uniq -c | sort -nr | python3.10 /work/scripts/others/update-langcounts.py /work/yaml_dir/HPLT-docslite.$L.yaml
 '''
 
 
