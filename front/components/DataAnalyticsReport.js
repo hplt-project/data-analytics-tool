@@ -17,10 +17,10 @@ import Image from "next/image";
 import Logo from "../public/logos/logo.png";
 import CollectionsGraph from "./collectionsGraphs";
 import DocumentSizes from "./DocumentSizes";
-
-import styles from "./../src/styles/DataAnalyticsReport.module.css";
 import buttonStyles from "@/styles/Uploader.module.css";
 import Footnotes from "./Footnotes";
+
+import styles from "./../src/styles/DataAnalyticsReport.module.css";
 
 export default function DataAnalyticsReport({ reportData, date }) {
   if (!reportData) return;
@@ -492,8 +492,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
                   </tbody>
                 </table>
               </div>
-            { reportData.ttr_src || reportData.ttr_trg &&
               <div className={styles.typeTokens}>
+               {reportData.ttr_src &&  <>
                 <div className={styles.containsTooltip}>
                   <h3>Type-Token Ratio</h3>
                   <a className="type-token-info">
@@ -569,7 +569,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     </tr>
                   </tbody>
                 </table>
-              </div>}
+                </>}
+              </div>
             </div>
             {docsTopTenDomains && (
               <div className={styles.topDomains}>
