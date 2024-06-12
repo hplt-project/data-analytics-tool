@@ -30,6 +30,11 @@ def initialization():
     parser.add_argument('tsvfile', type=argparse.FileType('wt'), help="TSV file")
     parser.add_argument('statsfile', type=str, help="Output YAML stats file.") #TODO: default tmpfile
     parser.add_argument('srclang', type=str, help="Source language")
+
+    # Optionals
+    groupO = parser.add_argument_group("Optional")
+    groupO.add_argument('--langs', type=argparse.FileType('wt'), help="Save sentence languages in this file.")
+    groupO.add_argument('--fluency', type=argparse.FileType('wt'), help="Save sentence fluency scores in this file.")
     
     # Logging group
     groupL = parser.add_argument_group('Logging')
@@ -97,6 +102,15 @@ def main():
             unmatching_docs+=1
             continue
 
+
+        if args.langs:
+            for l in langs:
+                args.langs.write(l+"\n")
+
+        if args.fluency:
+            for f in scores:
+                args.fluency.write(str(f)+"\n")
+                
         #Document Score (Web Docs Scorer)        
         document_score = ds.score_document(json_line, only_final_score=True)
         docs_scores[document_score]+=1
@@ -139,6 +153,7 @@ def main():
         
     stats["docs_total"] = total_docs
 
+    
     doc_length_list=[]   
     for segments, freq in sorted(doc_length.items()):
         doc_length_list.append([segments, freq])
