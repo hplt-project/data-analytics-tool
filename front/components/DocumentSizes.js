@@ -115,7 +115,7 @@ export default function DocumentSizes({
             wrapperStyle={{ outline: "none" }}
           />
           <ReferenceLine y={0} stroke="#000" />
-          <Bar dataKey="freq">
+          <Bar dataKey="freq" maxBarSize={30}>
             {" "}
             <LabelList
               dataKey="freqFormatted"
