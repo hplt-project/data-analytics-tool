@@ -121,7 +121,7 @@ export default function ReportScores({
             wrapperStyle={{ outline: "none" }}
           />
           <ReferenceLine y={0} stroke="#000" />
-          <Bar dataKey="freq">
+          <Bar dataKey="freq" maxBarSize={graph === "docscores" ? 20 : 100}>
             {" "}
          {graph !== "docscores" &&  <LabelList
               dataKey="freqFormatted"

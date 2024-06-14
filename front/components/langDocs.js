@@ -37,6 +37,8 @@ const CustomTooltip = ({ active, payload, label }) => {
 
 export default function LangDocs({ langDocs }) {
   const numbers = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+
+  console.log(langDocs)
   return (
     <div className={styles.langDocs}>
       <ResponsiveContainer width="100%" height="100%">
@@ -66,6 +68,8 @@ export default function LangDocs({ langDocs }) {
             type="number"
             fontSize={12}
             padding={{ left: 30, right: 30 }}
+            allowDecimals
+          
           />
           <YAxis
             tickFormatter={DataFormatter}
@@ -82,7 +86,7 @@ export default function LangDocs({ langDocs }) {
             content={<CustomTooltip />}
             wrapperStyle={{ outline: "none" }}
           />
-          <Bar dataKey="freq" fill="#6d466b">
+          <Bar dataKey="freq" fill="#6d466b" maxBarSize={50}>
             <LabelList
               dataKey="freqFormatted"
               fill="#6d466b"
