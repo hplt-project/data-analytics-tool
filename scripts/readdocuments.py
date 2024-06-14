@@ -122,7 +122,8 @@ def main():
         doc_collections[collection] += 1
         
         #Segments in the document language (docs_lang)
-        lang_matches = langs.count(args.srclang)
+        #lang_matches = langs.count(args.srclang)
+        lang_matches = sum(1 for item in langs if item.split("_")[0] == args.srclang) #this accepts both "hbs_cyr" and "hbs_lat" when target language is "hbs", for example
         lang_matches_rate = round((lang_matches/len(langs)), 1)
         doc_langs[lang_matches_rate] += 1
 
