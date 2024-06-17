@@ -1,4 +1,3 @@
-import styles from "@/styles/Home.module.css";
 import DataAnalyticsReport from "../../components/DataAnalyticsReport";
 import { useState, useEffect } from "react";
 import Navbar from "../../components/Navbar";
@@ -6,6 +5,9 @@ import Footer from "../../components/Footer";
 import { useRouter } from "next/router";
 import { DropdownList } from "react-widgets";
 import "react-widgets/styles.css";
+
+import styles from "@/styles/Home.module.css";
+
 
 export default function Home({ fileNames }) {
   const [selected, setSelected] = useState("");

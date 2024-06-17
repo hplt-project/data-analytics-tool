@@ -1,9 +1,10 @@
-import { PieChart, Pie, Tooltip } from "recharts";
+import { PieChart, Pie, Tooltip, ResponsiveContainer } from "recharts";
 import styles from "@/styles/CollectionsGraph.module.css";
 
 export default function CollectionsGraph({ collection }) {
   return (
-    <div className={styles.collectionsGrapg}>
+    <div className={styles.collectionsGraph}>
+      <ResponsiveContainer width="100%" height="100%" aspect={1.6}>
       <PieChart width={400} height={330}>
         <Pie
           dataKey="freq"
@@ -51,6 +52,7 @@ export default function CollectionsGraph({ collection }) {
         />
         <Tooltip />
       </PieChart>
+      </ResponsiveContainer>
     </div>
   );
 }

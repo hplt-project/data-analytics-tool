@@ -98,9 +98,9 @@ export default function SegmentDistribution({ data, which }) {
           height={340}
           data={filteredData}
           margin={{
-            top: 20,
-            right: 30,
-            left: 20,
+            top: 30,
+            right: 0,
+            left: 10,
             bottom: 55,
           }}
         >
@@ -114,17 +114,17 @@ export default function SegmentDistribution({ data, which }) {
               angle: 0,
               position: "bottom",
               offset: 0,
-              fontSize: 16,
+              fontSize: 14,
             }}
           />
           <YAxis
             tickFormatter={DataFormatter}
             label={{
               value: "Segments",
-              angle: -90,
-              position: "insideLeft",
-              offset: -8,
-              fontSize: 16,
+              angle: 0,
+							position: "top",
+							offset: 12,
+							fontSize: 14,
             }}
           />
           <Tooltip

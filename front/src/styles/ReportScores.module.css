@@ -30,13 +30,48 @@
 .overlapGraph p {
   margin-bottom: 0px;
 }
-.reportTitle {
+.reportTitle, .reportTitleDocsSizes {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
+  margin-bottom: -30px;
 }
-.reportTitle p {
+.reportTitleDocsSizes{
+  margin-bottom: 0;
+}
+.reportTitle p, .reportTitleDocsSizes p {
   width: fit-content;
   margin-left: auto;
   margin-bottom: 5px;
+}
+
+
+/* - Docs sizes tooltip - ****/
+
+.tooltip {
+  background-color: white;
+  border: solid 1px rgb(199, 199, 199);
+  padding: 15px 35px 15px 15px;
+  border-radius: 5px;
+}
+.label {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+.desc {
+  margin-bottom: 7px;
+}
+@media (max-width: 768px) {
+  .reportScoresContainer{
+    height:270px;
+  }
+  .reportTitle p, .reportTitleDocsSizes p{
+    font-size: 13px;
+  }
+  .title{
+    font-size: 18px;
+  }
+  .containsTooltip h3{
+    font-size: 18px;
+  }
 }

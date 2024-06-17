@@ -1,11 +1,12 @@
-import "react-widgets/styles.css";
-import styles from "@/styles/Home.module.css";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import { BarChart3, HardDriveUpload } from "lucide-react";
 import Link from "next/link";
 
 import "react-widgets/styles.css";
+
+import styles from "@/styles/Home.module.css";
+
 
 export default function Home() {
   return (
@@ -20,7 +21,7 @@ export default function Home() {
         </p>
         <div className={styles.cardsContainer}>
           <div className={styles.singleCard}>
-            <HardDriveUpload size={88} strokeWidth={1.5} />
+            <HardDriveUpload size={88} strokeWidth={1.5} className={styles.uploadIcon}/>
             <div className={styles.cardDetails}>
               <h2>Upload</h2>
               <p>
@@ -33,7 +34,7 @@ export default function Home() {
             </Link>
           </div>
           <div className={styles.singleCard}>
-            <BarChart3 size={88} strokeWidth={1.5} />
+            <BarChart3 size={88} strokeWidth={1.5} className={styles.viewIcon}/>
             <div className={styles.cardDetails}>
               <h2>View</h2>
               <p>Navigate, view and download your available reports.</p>

@@ -1,22 +1,38 @@
 .langDocs {
   height: 340px;
-  min-width: 570px;
+  width: 100%;
   border-radius: 5px;
   background-color: var(--language-pie-chart-bg);
   backdrop-filter: blur(5px);
   padding: 10px 30px 10px 10px;
-  margin-bottom: 20px;
 }
+
 .tooltip {
   background-color: white;
   border: solid 1px rgb(199, 199, 199);
   padding: 15px 35px 15px 15px;
   border-radius: 5px;
 }
+
 .label {
   font-weight: 600;
   margin-bottom: 12px;
 }
+
 .desc {
   margin-bottom: 7px;
+}
+
+@media (max-width: 1100px) {
+  .langDocs {
+    margin-right: 0;
+    height: 300px;
+  }
+}
+
+@media (max-width: 768px) {
+  .langDocs {
+    height: 260px;
+  }
+
 }
