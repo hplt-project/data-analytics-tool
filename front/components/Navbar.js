@@ -14,9 +14,6 @@ export default function Navbar() {
         />
       </Link>
       <div className={styles.navLinks}>
-        <Link href="/uploader" className={styles.singleNavLink}>
-          Uploader
-        </Link>
         <Link href="/viewer" className={styles.singleNavLink}>
           Viewer
         </Link>
