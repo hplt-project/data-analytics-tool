@@ -6,3 +6,9 @@
 .recharts-brush rect {
   fill: red;
 }
+
+@media (max-width: 768px) {
+  .noiseDistributionGraphContainer {
+    height: 260px;
+  }
+}

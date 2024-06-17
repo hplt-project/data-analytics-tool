@@ -63,3 +63,21 @@
 .fiveNGramTag {
   color: var(--five-ngram-light);
 }
+@media (max-width: 1100px) {
+  .oneNGramTag,
+  .twoNGramTag,
+  .threeNGramTag,
+  .fourNGramTag,
+  .fiveNGramTag {
+    font-size: 13px;
+  }
+}
+@media (max-width: 768px) {
+  .oneNGramTag,
+  .twoNGramTag,
+  .threeNGramTag,
+  .fourNGramTag,
+  .fiveNGramTag {
+    font-size: 10px;
+  }
+}

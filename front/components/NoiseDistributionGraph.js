@@ -27,16 +27,16 @@ export default function NoiseDistributionGraph({ noiseData }) {
             top: 5,
             right: 50,
             left: 50,
-            bottom: 5,
+            bottom: 15,
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
 
-          <XAxis type="number" tickFormatter={percFormatter} ticks={numbers} />
+          <XAxis type="number" tickFormatter={percFormatter} ticks={numbers}  fontSize={12}/>
           <YAxis
             dataKey="label"
             type="category"
-            fontSize={12}
+            fontSize={10}
             tickFormatter={(value) =>
               value.toLocaleString().replace(/ /g, "\u00A0")
             }
@@ -48,7 +48,7 @@ export default function NoiseDistributionGraph({ noiseData }) {
             <LabelList
               dataKey="perc"
               position="right"
-              fontWeight={600}
+              fontWeight={500}
               fill="#D99002"
               tickFormatter={(value) =>
                 value.toLocaleString().replace(/ /g, "\u00A0")

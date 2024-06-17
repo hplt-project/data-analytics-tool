@@ -3,56 +3,68 @@
   justify-content: flex-end;
   align-items: flex-end;
 }
+
 .dataReportContainer {
-  margin-top: 60px;
+  margin-top: 40px;
   color: var(--main-copy);
 }
+
 .dataReportContainer h2 span {
   color: var(--graph-axis-text);
   font-size: 16px;
   font-weight: 400;
   font-style: italic;
 }
-.tables {
+
+.tables,
+.tablesLeft {
   display: flex;
 }
+
 .overviewTables {
-  margin-right: 60px;
+  margin-right: 50px;
 }
+
 .dataReportContainer h3 {
   width: fit-content;
+  font-weight: 600;
+  font-size: 20px;
 }
+
 .noiseTitleCont {
   margin-bottom: 10px;
   margin-top: 45px;
 }
-.typeTokens{
-  height: 110px;
-}
+
 .dataReportContainer .singleLanguageReportDocs h3 {
   margin-top: 18px;
   width: 90%;
 }
+
 .analyticsTitleContainer {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
 }
+
 .analyticsTitleContainer h2 {
   display: flex;
   align-items: flex-end;
   padding-bottom: 3px;
 }
+
 .hpltAnalyticsTitle span.analyticsTitleSpan {
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
   color: #a50000;
 }
+
 .hpltAnalyticsTitle {
   font-weight: 500;
 }
+
 .overlay {
   left: 0;
   top: 0;
@@ -60,7 +72,9 @@
   height: 100%;
   position: fixed;
   background: #222;
+  padding: 20px;
 }
+
 .overlayText {
   display: flex;
   width: 100vw;
@@ -68,10 +82,12 @@
   justify-content: center;
   align-items: center;
 }
+
 .overlayText h1 {
   color: white;
   margin-right: 15px;
 }
+
 .hidden {
   display: none;
 }
@@ -80,81 +96,101 @@
   line-height: 1.45;
   width: 80%;
 }
+
 .hpltAnalyticsLogo {
   margin-left: 7px;
 }
+
 .titleContainer {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   margin-top: 30px;
 }
+
 .reportMainTitle {
   font-size: 32px;
   line-height: 1.4;
   margin-bottom: 40px;
   width: 60%;
 }
-.dataReportContainer h3 {
-  font-weight: 600;
-  font-size: 20px;
-}
+
+
+
 .marginTop {
   margin-top: 40px;
 }
+
 .typeContainer {
   display: flex;
   margin: 20px 0 60px 0;
 }
+
 .typeContainer p {
   font-size: 18px;
   margin-right: 60px;
 }
+
 .typeContainer p {
   font-weight: 600;
 }
+
 .typeContainer p span {
   margin-left: 5px;
 }
+
 .lowestType {
   color: #a50000;
 }
+
 .mediumType {
   color: #ffef11;
 }
+
 .goodType {
   color: #12db00;
 }
+
 .bicleanerScores {
   margin-bottom: 40px;
 }
+
 .bicleanerScores h2 {
   margin-bottom: 30px;
 }
+
 .languagesPieReports {
   display: flex;
   align-items: flex-end;
 }
+
 .languagesPieReportsContainer {
-  margin-bottom: 70px;
+  margin-bottom: 15px;
   margin-top: 30px;
 }
 
-.singleLanguageReport {
-  margin-bottom: 20px;
+.singleLanguageReport,
+.singleLanguageReportDocs {
+  width: 50%;
+  margin-right: 20px;
 }
+
 .singleLanguageReport h3 {
   margin-bottom: 10px;
 }
+
 .docsLangsReport {
   width: 50%;
 }
+
 .singleDistribution {
   margin-bottom: 30px;
 }
+
 .languageDistributionContainer {
   margin-bottom: 20px;
 }
+
 .languageDistributionContainer h2 {
   margin-bottom: 20px;
 }
@@ -162,6 +198,7 @@
 .nGramContainer h2 {
   margin-bottom: 20px;
 }
+
 .singleNGramContainer {
   margin-top: 20px;
 }
@@ -169,14 +206,17 @@
 .blank {
   height: 30px;
 }
+
 .testing {
   position: relative;
   z-index: -100000;
 }
+
 .tooltipLink {
   color: var(--tooltip-link);
   text-decoration: none;
 }
+
 .exportToPDFButton,
 .downloadButton {
   border: none;
@@ -188,6 +228,7 @@
   align-items: center;
   border-radius: 3px;
 }
+
 .downloadButton {
   border: 1px solid black;
   color: black;
@@ -195,51 +236,62 @@
   margin-right: 15px;
   text-decoration: none;
 }
+
 .ovalP {
   margin-right: 10px;
 }
+
 .percSpan {
   color: rgb(29, 89, 62);
 }
+
 .dataReportContainer h3.smaller {
   font-size: 16px;
   font-weight: 600;
   margin-top: 30px;
   margin-bottom: 10px;
 }
+
 .domainLink {
   text-decoration: none;
   color: var(--desc-link-color);
 }
+
 .containsTooltip {
   display: flex;
   align-items: center;
 }
+
 /* NGRMS*/
 
 /******** volumes table ****/
 .topDomains {
   margin-right: 30px;
 }
+
 .dataReportContainer table {
   text-align: left;
   border-collapse: collapse;
   margin: 5px 0 20px 0;
 }
+
 .dataReportContainer table thead tr {
   border: 1px solid rgb(197, 211, 237);
 }
+
 .dataReportContainer table thead th,
 .dataReportContainer table tr td {
   padding: 8px 30px 8px 8px;
   font-size: 14px;
   min-width: 60px;
 }
+
 .dataReportContainer .topDomains table thead th,
 .dataReportContainer .topDomains table tr td {
   padding: 5px 30px 5px 8px;
   font-size: 14px;
 }
+
 .dataReportContainer .topDomains table thead th:first-of-type,
 .dataReportContainer .topDomains table tr td:first-of-type {
   min-width: 60px;
@@ -254,6 +306,7 @@
 .dataReportContainer table thead th {
   font-weight: 500;
 }
+
 .bicleanerScores h2 {
   margin-top: 30px;
 }
@@ -262,6 +315,7 @@
   display: flex;
   justify-content: flex-end;
 }
+
 .reportButtons button {
   cursor: pointer;
 }
@@ -269,15 +323,92 @@
 .title {
   display: flex;
   align-items: center;
+  margin-bottom:10px;
 }
+
 .helpCircle {
   margin-left: 10px;
   margin-bottom: -3px;
 }
+
 .langDocsContainer {
   display: flex;
 }
+
 .docsCollectionsGraph {
   width: 65%;
   margin-right: 30px;
+}
+
+@media (max-width: 1260px) {
+  .tables {
+    flex-direction: column;
+  }
+
+  .tablesLeft {
+    margin-bottom: 20px;
+  }
+}
+
+
+@media (max-width: 1100px) {
+  .languagesPieReports {
+    flex-direction: column;
+  }
+
+  .singleLanguageReport,
+  .singleLanguageReportDocs {
+    width: 100%;
+    margin-right: 0;
+  }
+  .langDocsContainer{
+    flex-direction: column;
+    justify-content: center;
+
+  }
+  .docsCollectionsGraph {
+    width: 100%;
+    margin-right: 0;
+  }
+  .collectionsGraphPie{
+    margin-top: 60px;
+  }
+
+}
+
+@media (max-width: 768px) {
+  .analyticsTitleContainer{
+    margin-bottom: 20px;
+  }
+  .analyticsTitle{
+    font-size: 26px;
+  }
+  .hpltAnalyticsTitle  {
+    font-size: 18px;
+  }
+  .hpltAnalyticsTitle span.analyticsTitleSpan {
+    font-size: 18px;
+  }
+  .analyticsTitleContainer img{
+    width: 25px;
+    height: 25px;
+  }
+  .tables h3{
+    font-size: 18px;
+  }
+  .overviewTables {
+    margin-right: 0px;
+  }
+  .dataReportContainer table {
+    margin: 5px 0 15px 0;
+  }
+  .dataReportContainer h3 {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 640px) {
+  .tablesLeft{
+    flex-direction: column;
+  }
 }

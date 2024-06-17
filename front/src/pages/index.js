@@ -1,11 +1,12 @@
-import "react-widgets/styles.css";
-import styles from "@/styles/Home.module.css";
 import Footer from "../../components/Footer";
 import Navbar from "../../components/Navbar";
 import { BarChart3, HardDriveUpload } from "lucide-react";
 import Link from "next/link";
 
 import "react-widgets/styles.css";
+
+import styles from "@/styles/Home.module.css";
+
 
 export default function Home() {
   return (

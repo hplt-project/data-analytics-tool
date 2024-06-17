@@ -60,14 +60,14 @@
 
 @media (max-width: 930px) {
   .footer {
-    margin: 60px 60px 30px 60px;
+    margin: 60px 0 30px 0;
   }
 }
 
 @media (max-width: 768px) {
   .footer {
     display: block;
-    margin: 40px;
+    margin: 30px 0;
   }
   .footer-text-right {
     display: flex;
@@ -88,6 +88,6 @@
 
 @media (max-width: 541px) {
   .footer {
-    margin: 30px;
+    margin: 30px 0;
   }
 }

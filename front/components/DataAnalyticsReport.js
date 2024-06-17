@@ -58,12 +58,6 @@ export default function DataAnalyticsReport({ reportData, date }) {
       })
     : "";
 
-  const documentScore = reportData.docs_wds
-    ? JSON.parse(reportData.docs_wds).map((s) => {
-        return { token: +s[0], freq: +s[1], fill: "#E9C46A" };
-      })
-    : "";
-
   const bicleanerScores = reportData.bicleaner_scores
     ? JSON.parse(reportData.bicleaner_scores).map((s) => {
         return { token: +s[0], freq: +s[1], fill: "#8864FC" };
@@ -242,6 +236,33 @@ export default function DataAnalyticsReport({ reportData, date }) {
   const docsSegmentsPercOfTotal = (totalDocs * 100) / docsSegmentsTotal;
 
   const restPerc = ((docsSegmentsTotal - totalDocs) * 100) / docsSegmentsTotal;
+
+
+
+  const documentScore = reportData.docs_wds
+    ? JSON.parse(reportData.docs_wds).map((s) => {
+        return { token: +s[0], freq: +s[1], fill: "#E9C46A" };
+      })
+    : "";
+
+ const docsScoreLessThanFive =    reportData.docs_wds
+ ? JSON.parse(reportData.docs_wds).slice(0, 5)
+ .reduce((a, b) => a + +b[1], 0)
+: "";
+
+const docsScoreOverFive =    reportData.docs_wds && JSON.parse(reportData.docs_wds).length> 5 
+? JSON.parse(reportData.docs_wds).slice(5, JSON.parse(reportData.docs_wds).length)
+.reduce((a, b) => a + +b[1], 0)
+: "";
+
+const totalDocsScore =  reportData.docs_wds? JSON.parse(reportData.docs_wds)
+.reduce((a, b) => a + +b[1], 0)
+: "";
+
+const docsScoresPercUnderFive = docsScoreLessThanFive ? (docsScoreLessThanFive * 100) / totalDocsScore : "";
+
+const docsScoresPercOverFive = docsScoreOverFive ? ((docsScoreOverFive) * 100) / totalDocsScore: "";
+
 
   let docsSegmentsTop = docsSegments
     ? docsSegments.map((doc) => {
@@ -572,6 +593,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                 </>}
               </div>
             </div>
+            <div className={styles.tablesLeft}>
             {docsTopTenDomains && (
               <div className={styles.topDomains}>
                 <h3>Top 10 domains </h3>
@@ -630,6 +652,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                 </table>
               </div>
             )}
+            </div>
           </div>
         </div>
       </div>
@@ -881,6 +904,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
               xLabel={"Scores"}
               yLabel={"Documents"}
               graph={"docscores"}
+              firstHalf={docsScoreLessThanFive}
+              secondHalf={docsScoreOverFive}
+              firstHalfPerc={docsScoresPercUnderFive}
+              secondHalfPerc={docsScoresPercOverFive}
             />
           </div>
         </div>
@@ -966,7 +993,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
           </div>
         )}
       </div>
-      {noiseDistribution && (
+      {reportData.hardrules_tags && noiseDistribution && (
         <div className="custom-chart">
           <div
             className={[styles.containsTooltip, styles.noiseTitleCont].join(
@@ -1000,7 +1027,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
           <NoiseDistributionGraph noiseData={noiseDistribution} />
         </div>
       )}
-      {Object.entries(srcNGrams).length && (
+      {reportData.src_ngrams && Object.entries(srcNGrams).length && (
         <div className="custom-chart">
           <div className={styles.nGramContainer}>
             <div className={styles.singleNGramContainer}>

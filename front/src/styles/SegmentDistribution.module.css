@@ -1,24 +1,43 @@
 .segmentDistributionContainer {
   height: 350px;
 }
+
 .tooltipOverlap {
   background-color: var(--main-background);
   padding: 15px;
 }
+
 .tooltipOverlap .labelOverlap {
   margin-bottom: 15px;
   font-weight: 600;
   font-size: 18px;
 }
+
 .tooltipOverlap p {
   margin-bottom: 7px;
 }
+
 .segmentTitle {
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
   align-items: flex-end;
 }
+
 .segmentTitle p {
   margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .segmentDistributionContainer {
+    height: 300px;
+  }
+
+  .segmentTitle {
+    font-size: 13px;
+  }
+  .segmentTitle p {
+    margin-top: 5px;
+  }
+
 }
