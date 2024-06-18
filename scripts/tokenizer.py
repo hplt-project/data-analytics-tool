@@ -194,75 +194,78 @@ class CustomTokenizer:
             self.warnings.append("warning_tok_nltk_wordpunct")
 
     def tokenize(self, sent):
-    
-        if self.toktype == "moses":
-            return self.tokenizer(sent, escape=False)
+        try:    
+            if self.toktype == "moses":
+                return self.tokenizer(sent, escape=False)
             
-        elif self.toktype == "nltk_wordpunct" :
-            return self.tokenizer.tokenize(sent)
+            elif self.toktype == "nltk_wordpunct" :
+                return self.tokenizer.tokenize(sent)
    
-        elif self.toktype.startswith("nltk_punkt_"):
-            nltk_lang = self.toktype.split("_")[2]
-            return self.tokenizer(sent, language=nltk_lang)
+            elif self.toktype.startswith("nltk_punkt_"):
+                nltk_lang = self.toktype.split("_")[2]
+                return self.tokenizer(sent, language=nltk_lang)
    
-        elif self.toktype == "mecab":
-            return self.tokenizer.parse(sent).split()
+            elif self.toktype == "mecab":
+                return self.tokenizer.parse(sent).split()
    
-        elif self.toktype.startswith("reldi_"):
-            #tokstring looks like "'1.1.1.1-5\tHello\n1.1.2.6-6\t,\n1.1.3.8-11\tgood\n1.1.4.13-19\tmorning\n\n'"
-            reldi_lang = self.toktype.split("_")[1]
-            tokstring =  self.tokenizer.run(lang=reldi_lang, text=sent)
-            tokens = []
-            for token in tokstring.split("\t"):
-                if "\n" in  token:
-                    tokens.append(token.split("\n")[0])
-            return tokens        
+            elif self.toktype.startswith("reldi_"):
+                #tokstring looks like "'1.1.1.1-5\tHello\n1.1.2.6-6\t,\n1.1.3.8-11\tgood\n1.1.4.13-19\tmorning\n\n'"
+                reldi_lang = self.toktype.split("_")[1]
+                tokstring =  self.tokenizer.run(lang=reldi_lang, text=sent)
+                tokens = []
+                for token in tokstring.split("\t"):
+                    if "\n" in  token:
+                        tokens.append(token.split("\n")[0])
+                return tokens        
    
-        elif self.toktype == "pds":
-            return self.tokenizer(sent, lang="mm", form="word")
+            elif self.toktype == "pds":
+                return self.tokenizer(sent, lang="mm", form="word")
 
 
-        elif self.toktype == "sinling":
-            return self.tokenizer.tokenize(sent)
+            elif self.toktype == "sinling":
+                return self.tokenizer.tokenize(sent)
 
-        elif self.toktype == "fitrat":
-            return self.tokenizer(sent)
+            elif self.toktype == "fitrat":
+                return self.tokenizer(sent)
         
-        elif self.toktype == "mahanlp":
-            return self.tokenizer.word_tokenize(sent, punctuation=True)                
+            elif self.toktype == "mahanlp":
+                return self.tokenizer.word_tokenize(sent, punctuation=True)                
             
-        elif self.toktype == "bnlp":
-            return self.tokenizer.word_tokenize(text=sent)
+            elif self.toktype == "bnlp":
+                return self.tokenizer.word_tokenize(text=sent)
         
-        elif self.toktype == "thai": 
-            return [t for t in self.tokenizer(sent) if t != " "] #This tokenizer returns empty spaces too
+            elif self.toktype == "thai": 
+                return [t for t in self.tokenizer(sent) if t != " "] #This tokenizer returns empty spaces too
      
-        elif self.toktype.startswith("indic_"):
-            indic_lang = self.toktype.split("_")[1]
-            return self.tokenizer.trivial_tokenize(sent, lang=indic_lang)
+            elif self.toktype.startswith("indic_"):
+                indic_lang = self.toktype.split("_")[1]
+                return self.tokenizer.trivial_tokenize(sent, lang=indic_lang)
         
-        elif self.toktype == "pkuseg":
-            return self.tokenizer.cut(sent)
+            elif self.toktype == "pkuseg":
+                return self.tokenizer.cut(sent)
         
-        elif self.toktype == "hebrew":            
-            objs = self.tokenizer.tokenize(sent) #this is a generator of objects: ('HEBREW', 'למכולת', 9, (41, 47))  (The hebrew word is in index 1, but RTL languages messing it all)
-            tokens = []
-            for obj in objs:
-                tokens.append(obj[1])
-            return tokens
+            elif self.toktype == "hebrew":            
+                objs = self.tokenizer.tokenize(sent) #this is a generator of objects: ('HEBREW', 'למכולת', 9, (41, 47))  (The hebrew word is in index 1, but RTL languages messing it all)
+                tokens = []
+                for obj in objs:
+                    tokens.append(obj[1])
+                return tokens
             
-        elif self.toktype == "nlpid":
-           return self.tokenizer.tokenize(sent)    
+            elif self.toktype == "nlpid":
+                return self.tokenizer.tokenize(sent)    
         
-        elif self.toktype == "botok":
-            objects = self.tokenizer.tokenize(sent)
-            tokens = []
-            for obj in objects:
-                tokens.append(obj.text)
-            return tokens
-        else:
-            return None #TO DO Do something better here
-         
+            elif self.toktype == "botok":
+                objects = self.tokenizer.tokenize(sent)
+                tokens = []
+                for obj in objects:
+                    tokens.append(obj.text)
+                return tokens
+            else:
+                return None #TO DO Do something better here
+        except Exception as ex:
+            logging.error("Failed at tokenizing: " + sent)
+            logging.error(ex)
+            return None 
     
 
     def getWarnings(self):
