@@ -29,9 +29,9 @@ export default function Navbar() {
         <Hamburger toggled={isOpen} toggle={setOpen} />
       </div>
       <div className={isOpen ? styles.navbarDropdown : styles.hidden}>
-      <Link href="/uploader" className={styles.singleNavLink}>
+      {/* <Link href="/uploader" className={styles.singleNavLink}>
           Uploader
-        </Link>
+        </Link> */}
         <Link href="/viewer" className={styles.singleNavLink}>
           Viewer
         </Link>
