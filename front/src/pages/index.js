@@ -21,20 +21,7 @@ export default function Home() {
         </p>
         <div className={styles.cardsContainer}>
           <div className={styles.singleCard}>
-            <HardDriveUpload size={88} strokeWidth={1.5} className={styles.uploadIcon}/>
-            <div className={styles.cardDetails}>
-              <h2>Upload</h2>
-              <p>
-                Upload your corpus, get it analyzed. Reports are available at
-                the Viewer as soon as they are ready.{" "}
-              </p>
-            </div>
-            <Link className={styles.uploadBtn} href="/uploader">
-              Upload
-            </Link>
-          </div>
-          <div className={styles.singleCard}>
-            <BarChart3 size={88} strokeWidth={1.5} className={styles.viewIcon}/>
+            <BarChart3 size={88} strokeWidth={1.5} />
             <div className={styles.cardDetails}>
               <h2>View</h2>
               <p>Navigate, view and download your available reports.</p>
@@ -49,3 +36,21 @@ export default function Home() {
     </div>
   );
 }
+
+
+/*
+          <div className={styles.singleCard}>
+            <HardDriveUpload size={88} strokeWidth={1.5} />
+            <div className={styles.cardDetails}>
+              <h2>Upload</h2>
+              <p>
+                Upload your corpus, get it analyzed. Reports are available at
+                the Viewer as soon as they are ready.{" "}
+              </p>
+            </div>
+            <Link className={styles.uploadBtn} href="/uploader">
+              Upload
+            </Link>
+          </div>
+
+*/
