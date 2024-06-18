@@ -242,14 +242,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
 	const docsScoreLessThanFive = reportData.docs_wds
 		? JSON.parse(reportData.docs_wds)
-				.slice(0, 5)
+				.slice(0, 50)
 				.reduce((a, b) => a + +b[1], 0)
 		: "";
 
 	const docsScoreOverFive =
-		reportData.docs_wds && JSON.parse(reportData.docs_wds).length > 5
+		reportData.docs_wds && JSON.parse(reportData.docs_wds).length > 50
 			? JSON.parse(reportData.docs_wds)
-					.slice(5, JSON.parse(reportData.docs_wds).length)
+					.slice(50, JSON.parse(reportData.docs_wds).length)
 					.reduce((a, b) => a + +b[1], 0)
 			: "";
 
