@@ -37,7 +37,7 @@ const CustomTooltip = ({ active, payload, label }) => {
   }
 };
 
-export default function SegmentDistribution({ data, which }) {
+export default function SegmentDistribution({ data, which, fontSize }) {
   data.forEach((item) => {
     (item.freqFormatted = Intl.NumberFormat("en", {
       notation: "compact",
@@ -94,8 +94,6 @@ export default function SegmentDistribution({ data, which }) {
       </div>
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
-          width={500}
-          height={340}
           data={filteredData}
           margin={{
             top: 30,
@@ -107,24 +105,25 @@ export default function SegmentDistribution({ data, which }) {
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis
             dataKey="token"
-            fontSize={12}
+            fontSize={fontSize}
             tickMargin={5}
             label={{
               value: "Number of tokens in the segment",
               angle: 0,
               position: "bottom",
               offset: 0,
-              fontSize: 14,
+              fontSize: fontSize,
             }}
           />
           <YAxis
             tickFormatter={DataFormatter}
+            fontSize={fontSize}
             label={{
               value: "Segments",
               angle: 0,
 							position: "top",
 							offset: 12,
-							fontSize: 14,
+							fontSize: fontSize,
             }}
           />
           <Tooltip

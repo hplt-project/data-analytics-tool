@@ -323,7 +323,7 @@
 .title {
   display: flex;
   align-items: center;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 
 .helpCircle {
@@ -338,6 +338,11 @@
 .docsCollectionsGraph {
   width: 65%;
   margin-right: 30px;
+}
+
+.mobileNum,
+.mobileData {
+  display: none;
 }
 
 @media (max-width: 1260px) {
@@ -361,54 +366,89 @@
     width: 100%;
     margin-right: 0;
   }
-  .langDocsContainer{
+
+  .langDocsContainer {
     flex-direction: column;
     justify-content: center;
 
   }
+
   .docsCollectionsGraph {
     width: 100%;
     margin-right: 0;
   }
-  .collectionsGraphPie{
+
+  .collectionsGraphPie {
     margin-top: 60px;
   }
 
 }
 
 @media (max-width: 768px) {
-  .analyticsTitleContainer{
+  .analyticsTitleContainer {
     margin-bottom: 20px;
   }
-  .analyticsTitle{
+
+  .analyticsTitle {
     font-size: 26px;
   }
-  .hpltAnalyticsTitle  {
+
+  .hpltAnalyticsTitle {
     font-size: 18px;
   }
+
   .hpltAnalyticsTitle span.analyticsTitleSpan {
     font-size: 18px;
   }
-  .analyticsTitleContainer img{
+
+  .analyticsTitleContainer img {
     width: 25px;
     height: 25px;
   }
-  .tables h3{
+
+  .tables h3 {
     font-size: 18px;
   }
+
   .overviewTables {
     margin-right: 0px;
   }
+
   .dataReportContainer table {
     margin: 5px 0 15px 0;
   }
+
   .dataReportContainer h3 {
     font-size: 18px;
+  }
+
+  .desktopNum {
+    display: none;
+  }
+
+  .mobileNum {
+    display: block;
   }
 }
 
 @media (max-width: 640px) {
-  .tablesLeft{
+  .tablesLeft {
     flex-direction: column;
+  }
+
+  .desktopData {
+    display: none;
+  }
+
+  .mobileData {
+    display: block;
+    margin: 10px 0 20px 0;
+  }
+
+  .mobileData p {
+    margin: 5px 0;
+  }
+  .analyticsTitle {
+    font-size: 22px;
   }
 }

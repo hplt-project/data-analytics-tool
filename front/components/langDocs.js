@@ -40,8 +40,9 @@ export default function LangDocs({ langDocs }) {
 
 	return (
 		<div className={styles.langDocs}>
-			<ResponsiveContainer width="100%" height="100%" aspect={1.6}>
+			<ResponsiveContainer width="100%" height="100%" >
 				<BarChart
+					height={300}
 					data={langDocs}
 					margin={{
 						top: 32,

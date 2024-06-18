@@ -48,6 +48,9 @@ export default function ReportScores({
 	secondHalf,
 	firstHalfPerc,
 	secondHalfPerc,
+	padding,
+	labellist,
+	fontSize
 }) {
 	const processedScores = scores.map((item) => {
 		return {
@@ -62,6 +65,8 @@ export default function ReportScores({
 	const numbers = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
 
 	const docScoresNums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+	console.log(firstHalf, secondHalf, "fkso")
 
 	return (
 		<div className={styles.reportScoresContainer}>
@@ -108,13 +113,14 @@ export default function ReportScores({
 						padding={
 							graph === "docscores"
 								? { left: 15, right: 5 }
-								: { left: 60, right: 60 }
+								: { left: padding, right: padding }
 						}
 					>
 						<Label value={xLabel} offset={10} position="bottom" fontSize={16} />
 					</XAxis>
+					
 					<YAxis
-						fontSize={14}
+						fontSize={fontSize}
 						label={{
 							value: `${yLabel}`,
 							angle: 0,
@@ -131,12 +137,12 @@ export default function ReportScores({
 					<ReferenceLine y={0} stroke="#000" />
 					<Bar dataKey="freq" maxBarSize={graph === "docscores" ? 20 : 100}>
 						{" "}
-						{graph !== "docscores" && (
+						{graph !== "docscores" && labellist && (
 							<LabelList
 								dataKey="freqFormatted"
 								position="top"
 								fontWeight={600}
-								fontSize={graph === "docsCollections" ? 10 : 16}
+								fontSize={graph === "docsCollections" ? 10 : fontSize}
 							/>
 						)}
 					</Bar>

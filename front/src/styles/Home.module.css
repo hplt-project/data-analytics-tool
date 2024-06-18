@@ -153,7 +153,11 @@
   .viewerContainer {
     padding: 10px 30px 30px 30px;
   }
-
+  .loader h1 {
+    margin: 20px 0 60px 0;
+    font-size: 26px;
+  }
+  
   .mainContainerHome h1 {
     margin: 20px 0 10px 0;
     font-size: 30px;
