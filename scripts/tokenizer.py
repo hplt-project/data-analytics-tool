@@ -261,11 +261,11 @@ class CustomTokenizer:
                     tokens.append(obj.text)
                 return tokens
             else:
-                return None #TO DO Do something better here
+                return None #TO DO Do something better here --> Because THIS CRASHES
         except Exception as ex:
             logging.error("Failed at tokenizing: " + sent)
             logging.error(ex)
-            return None 
+            return []
     
 
     def getWarnings(self):
