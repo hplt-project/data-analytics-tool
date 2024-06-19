@@ -54,6 +54,7 @@ export default function Home({ fileNames }) {
             data={fileNames}
             placeholder="CCMatrix"
             onChange={(e) => router.push(`/viewer/${e}`)}
+            filter='contains'
           />
         </div>
       </div>

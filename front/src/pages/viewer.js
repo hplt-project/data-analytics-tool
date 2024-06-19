@@ -4,6 +4,7 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import { useRouter } from "next/router";
 import { DropdownList } from "react-widgets";
+
 import "react-widgets/styles.css";
 
 import styles from "@/styles/Home.module.css";
@@ -32,6 +33,7 @@ export default function Home({ fileNames }) {
             data={fileNames}
             onChange={(e) => setSelected(e)}
             placeholder="CCMatrix"
+            filter='contains'
           />
         </div>
       </div>
