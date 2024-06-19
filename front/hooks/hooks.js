@@ -163,3 +163,11 @@ export const DataFormatter = (number) => {
 export const percFormatter = (number) => {
   return number.toString() + "%";
 };
+
+
+export const numberFormatter = (num) => {
+  const formatted = Intl.NumberFormat("en", {
+    notation: "compact",
+  }).format(num);
+  return formatted;
+}

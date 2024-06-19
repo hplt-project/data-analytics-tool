@@ -1,28 +1,35 @@
 .reportScoresContainer {
   height: 300px;
 }
+
 .tooltipOverlap {
   background-color: var(--main-background);
   padding: 15px;
 }
+
 .tooltipOverlap .labelOverlap {
   margin-bottom: 15px;
   font-weight: 600;
   font-size: 18px;
 }
+
 .label {
   font-weight: 600;
   margin-bottom: 12px;
 }
+
 .desc {
   margin-bottom: 7px;
 }
+
 .overlapTitle {
   margin: 40px 0 20px 0;
 }
+
 .graphContainer {
   margin: 15px 0 0 -40px;
 }
+
 .overlapGraph h2 {
   margin-bottom: 2px;
 }
@@ -30,16 +37,21 @@
 .overlapGraph p {
   margin-bottom: 0px;
 }
-.reportTitle, .reportTitleDocsSizes {
+
+.reportTitle,
+.reportTitleDocsSizes {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  margin-bottom: -30px;
+  margin-bottom: -10px;
 }
-.reportTitleDocsSizes{
+
+.reportTitleDocsSizes {
   margin-bottom: 0;
 }
-.reportTitle p, .reportTitleDocsSizes p {
+
+.reportTitle p,
+.reportTitleDocsSizes p {
   width: fit-content;
   margin-left: auto;
   margin-bottom: 5px;
@@ -54,24 +66,31 @@
   padding: 15px 35px 15px 15px;
   border-radius: 5px;
 }
+
 .label {
   font-weight: 600;
   margin-bottom: 12px;
 }
+
 .desc {
   margin-bottom: 7px;
 }
+
 @media (max-width: 768px) {
-  .reportScoresContainer{
-    height:270px;
+  .reportScoresContainer {
+    height: 270px;
   }
-  .reportTitle p, .reportTitleDocsSizes p{
+
+  .reportTitle p,
+  .reportTitleDocsSizes p {
     font-size: 13px;
   }
-  .title{
+
+  .title {
     font-size: 18px;
   }
-  .containsTooltip h3{
+
+  .containsTooltip h3 {
     font-size: 18px;
   }
 }

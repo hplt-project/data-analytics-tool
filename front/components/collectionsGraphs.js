@@ -5,7 +5,7 @@ export default function CollectionsGraph({ collection }) {
   return (
     <div className={styles.collectionsGraph}>
       <ResponsiveContainer width="100%" height="100%" aspect={1.6}>
-      <PieChart width={400} height={330}>
+      <PieChart width={400} height={300} >
         <Pie
           dataKey="freq"
           isAnimationActive={false}

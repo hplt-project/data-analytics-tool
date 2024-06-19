@@ -27,6 +27,9 @@
   .langDocs {
     margin-right: 0;
     height: 300px;
+    width: none;
+    padding: 0;
+    background-color: transparent;
   }
 }
 
@@ -34,5 +37,5 @@
   .langDocs {
     height: 260px;
   }
-
+ 
 }
