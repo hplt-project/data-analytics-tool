@@ -442,7 +442,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 													<a className="segments-info">
 														{!footNote && (
 															<Info
-																className={styles.helpCircle}
+																className={[styles.helpCircle, styles.desktopData].join(" ")}
 																strokeWidth={1.2}
 																color="#2C2E35"
 																width={20}
@@ -467,7 +467,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 														<a className="tokens-info">
 															{!footNote && (
 																<Info
-																	className={styles.helpCircle}
+																	className={[styles.helpCircle, styles.desktopData].join(" ")}
 																	strokeWidth={1.2}
 																	color="#2C2E35"
 																	width={20}
@@ -585,7 +585,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 											<a className="type-token-info">
 												{!footNote && (
 													<Info
-														className={styles.helpCircle}
+														className={[styles.helpCircle, styles.desktopData].join(" ")}
 														strokeWidth={1.4}
 														color="#2C2E35"
 													/>
@@ -742,7 +742,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 									<a className="segments-info-graph">
 										{!footNote && (
 											<Info
-												className={styles.helpCircle}
+												className={[styles.helpCircle, styles.desktopData].join(" ")}
 												strokeWidth={1.2}
 												color="#2C2E35"
 												width={20}
@@ -789,7 +789,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								{" "}
 								{!footNote && (
 									<Info
-										className={styles.helpCircle}
+										className={[styles.helpCircle, styles.desktopData].join(" ")}
 										strokeWidth={1.2}
 										color="#2C2E35"
 										width={20}
@@ -854,7 +854,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								{" "}
 								{!footNote && (
 									<Info
-										className={styles.helpCircle}
+										className={[styles.helpCircle, styles.desktopData].join(" ")}
 										strokeWidth={1.2}
 										color="#2C2E35"
 										width={20}
@@ -916,7 +916,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								{" "}
 								{!footNote && (
 									<Info
-										className={styles.helpCircle}
+										className={[styles.helpCircle, styles.desktopData].join(" ")}
 										strokeWidth={1.2}
 										color="#2C2E35"
 										width={20}
@@ -1003,7 +1003,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								{" "}
 								{!footNote && (
 									<Info
-										className={styles.helpCircle}
+										className={[styles.helpCircle, styles.desktopData].join(" ")}
 										strokeWidth={1.2}
 										color="#2C2E35"
 										width={20}
@@ -1107,7 +1107,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 							<a className="segment-length-info">
 								{!footNote && (
 									<Info
-										className={styles.helpCircle}
+										className={[styles.helpCircle, styles.desktopData].join(" ")}
 										strokeWidth={1.2}
 										color="#2C2E35"
 										width={20}
@@ -1181,7 +1181,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 						<a className="noise-info">
 							{!footNote && (
 								<Info
-									className={styles.helpCircle}
+									className={[styles.helpCircle, styles.desktopData].join(" ")}
 									strokeWidth={1.2}
 									color="#2C2E35"
 									width={20}
@@ -1216,7 +1216,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								<a className="ngrams-info">
 									{!footNote && (
 										<Info
-											className={styles.helpCircle}
+											className={[styles.helpCircle, styles.desktopData].join(" ")}
 											strokeWidth={1.2}
 											color="#2C2E35"
 											width={20}
@@ -1260,7 +1260,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 							<a className="ngrams-info">
 								{!footNote && (
 									<Info
-										className={styles.helpCircle}
+										className={[styles.helpCircle, styles.desktopData].join(" ")}
 										strokeWidth={1.2}
 										color="#2C2E35"
 										width={20}
