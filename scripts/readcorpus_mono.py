@@ -127,12 +127,13 @@ def main():
         src_line = src_line.strip()
 
 
-        tokenized_src = src_tokenizer.tokenize(src_line)
-        #Counting tokens in each sentence        
-        src_tokens_count = len(tokenized_src)
-        src_sent_tokens[src_tokens_count] += 1
-
         if not args.lite:               
+            tokenized_src = src_tokenizer.tokenize(src_line)
+            #Counting tokens in each sentence        
+            src_tokens_count = len(tokenized_src)
+            src_sent_tokens[src_tokens_count] += 1
+
+        
             #Add tokens for each sentence
             src_tokens.extend(tokenized_src) 
             for token in tokenized_src:
@@ -198,11 +199,12 @@ def main():
             
         #src hashes
         src_hash = xxh64(src_line).hexdigest()        
-        try:
-             src_hashes[src_tokens_count].add(src_hash)
-        except KeyError:
-             src_hashes[src_tokens_count]=set()
-             src_hashes[src_tokens_count].add(src_hash)
+        if not args.lite:
+            try:	
+                 src_hashes[src_tokens_count].add(src_hash)
+            except KeyError:
+                 src_hashes[src_tokens_count]=set()
+                 src_hashes[src_tokens_count].add(src_hash)
         
         sent_hashes.add(src_hash)
                
