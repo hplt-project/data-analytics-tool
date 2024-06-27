@@ -195,19 +195,21 @@ def main():
                 fivegrams_buffer = []
                 fivegrams_counter = 0
 
-        #End of non-lite stats
+
             
-        #src hashes
-        src_hash = xxh64(src_line).hexdigest()        
+        #src hashes        
         if not args.lite:
+            src_hash = xxh64(src_line).hexdigest()        
             try:	
                  src_hashes[src_tokens_count].add(src_hash)
             except KeyError:
                  src_hashes[src_tokens_count]=set()
                  src_hashes[src_tokens_count].add(src_hash)
         
-        sent_hashes.add(src_hash)
-               
+            sent_hashes.add(src_hash)
+        #End of non-lite stats               
+        
+        
         # Corpus strings
         src_bytes += len(src_line.encode('utf-8'))
             
