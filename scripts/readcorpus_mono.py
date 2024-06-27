@@ -121,6 +121,7 @@ def main():
     for w in nwarnings:
         ngrams_warnings.add("src_"+w)
 
+    logging.debug("Starting reading corpus")
     for src_line in args.corpus:
 
         total_lines = total_lines+1
@@ -224,21 +225,27 @@ def main():
             fourgrams_file.write(g+"\n")
         for g in fivegrams_buffer:
             fivegrams_file.write(g+"\n")
+    
+    logging.debug("Done reading corpus")
           
     stats["sentence_pairs"] = total_lines
     stats["unique_sents"] = len(sent_hashes)
     
-    
+        
     src_tokens_list = []
     src_hashes_list = []
+    
+    logging.debug("Sorting token frequencies")
     for token, freq in sorted(src_sent_tokens.items()):
         src_tokens_list.append([token, freq])
         try:
             src_hashes_list.append([token, len(src_hashes[token])])
         except KeyError:
             src_hashes_list.append([token, 0])
+            
     if len(src_tokens_list) > 0:
         stats["src_sent_tokens"] = str(src_tokens_list)
+        logging.debug("Sorting src sent tokens")
         src_tokens_elements = sorted(src_sent_tokens.elements())
         stats["src_sent_tokens_mean"] = round(statistics.mean(src_tokens_elements))
         stats["src_sent_tokens_median"] = round(statistics.median(src_tokens_elements))
@@ -251,6 +258,7 @@ def main():
     if not os.path.exists(langs_file):
          logging.warning("Language file " + langs_file  + " not found")
     else:
+        logging.debug("Reading language file")
         for line in open(langs_file, "r"):
             lineparts = line.split()
             id_lang = lineparts[1].strip()
@@ -293,11 +301,13 @@ def main():
     stats["src_bytes"] = convert_size(src_bytes)
 
     #hardrules annotations
+    logging.debug("Reading hardrules tags")
     monocleaner_tags = read_hardrulestags(filename, "",  args.srclang)
     if len(monocleaner_tags) > 0 :
         stats["hardrules_tags"] = json.dumps(monocleaner_tags)
 
     # monocleaner scores    
+    logging.debug("Reading monocleaner scores")
     monocleaner_scores = read_scores(filename)
     if len(monocleaner_scores) > 0 :
         stats["monocleaner_scores"] = json.dumps(monocleaner_scores)
@@ -306,6 +316,7 @@ def main():
 
     stats["timestamp"]=time.time()
 
+    logging.debug("Writing stats")
     write_stats(args.statsfile, stats)
     logging.info("Finished stats for "+ args.statsfile)
     elapsed_time = default_timer() - time_start
