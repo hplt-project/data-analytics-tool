@@ -2,6 +2,7 @@ import os
 import logging
 import yaml
 
+
 tag_types = [
     #"no_empty",                    # Sentence is empty (already in histogram)
     "not_too_long",                # Sentence is more than 1024 characters long
@@ -92,20 +93,21 @@ def read_scores(corpusname):
     if not os.path.exists(scoresfile):
         return {}
 
-    buckets = [[] for _ in range(10)]        
+    buckets = [0 for _ in range(10)]        
+    
 
     for line in open(scoresfile, "r"):
         score = line.strip()
         try:
             bucket_index = int(float(score) * 10)
-            buckets[bucket_index].append(score)
+            buckets[bucket_index]+=1
         except IndexError as ex:
             if bucket_index == 10:
-                buckets[9].append(score) #score was 1.000, add to last bucket
+                buckets[9]+=1 #score was 1.000, add to last bucket
             else:
                 logging.error(ex)
                 
 
-    bucket_counts = [[i / 10, len(bucket)] for i, bucket in enumerate(buckets)]
+    bucket_counts = [[i / 10, bucket] for i, bucket in enumerate(buckets)]
 
     return(bucket_counts)
