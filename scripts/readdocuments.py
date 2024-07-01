@@ -109,7 +109,9 @@ def main():
 
         if args.fluency:
             for f in scores:
-                args.fluency.write(str(f)+"\n")
+                #args.fluency.write(str(f)+"\n")
+                args.fluency.write(math.floor(f*10)/10+"\n") #Storing only one decimal point for disk space reasons
+
                 
         #Document Score (Web Docs Scorer)        
         document_score = ds.score_document(json_line, only_final_score=True)
