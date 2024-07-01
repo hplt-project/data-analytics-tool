@@ -7,7 +7,7 @@ import argparse
 import yaml
 import json
 import tldextract
-#import math
+import math
 #import cProfile
 import statistics
 
@@ -110,7 +110,7 @@ def main():
         if args.fluency:
             for f in scores:
                 #args.fluency.write(str(f)+"\n")
-                args.fluency.write(math.floor(f*10)/10+"\n") #Storing only one decimal point for disk space reasons
+                args.fluency.write(str(math.floor(f*10)/10)+"\n") #Storing only one decimal point for disk space reasons
 
                 
         #Document Score (Web Docs Scorer)        
