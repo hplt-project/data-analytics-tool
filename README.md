@@ -113,7 +113,7 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
 
 # Output examples: 
 
-- HPLT monolingual documents for Afrikaans: it shows that more than a half of the documents come from the same domain, and that a large amount of documents contain less than a 30% of segments in Afrikaans. It also contains a lot of short segments.
+- HPLT monolingual documents for Afrikaans: it shows that more than a half of the documents come from the same domain, and that a large amount of documents contain less than a 30% of segments in Afrikaans. It also contains a lot of short segments. The general low quality of this corpus is confirmed also by its Document Scores.
 
 <img alt="Data Analytics Viewer" src="https://github.com/hplt-project/data-analytics-tool/blob/main/img/HPLT-af.png" width=600 />
 
@@ -121,6 +121,6 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
 
 <img alt="Data Analytics Viewer" src="https://github.com/hplt-project/data-analytics-tool/blob/main/img/HPLT-en-nn.png" width=600 />
   
-- Monolingual Basque corpus from HPLT: it shows that at least 3/4 of the corpus is not in Basque, and that a very high percentage of segments are very short.
+- Monolingual Basque corpus from HPLT: it shows that at least half of the corpus is not in Basque, and that a very high percentage of segments are very short.
 
 <img alt="Data Analytics Viewer" src="https://github.com/hplt-project/data-analytics-tool/blob/main/img/HPLT-eu.png" width=600 />
