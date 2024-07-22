@@ -6,7 +6,7 @@ It shows corpora details, volumes, language, length, noise and quality score dis
 
 Support for language-dependent components has been added for dozens of languages. 
 
-Automated reports generated out of the tool that is actioned from a web application to which a corpus can be uploaded. Once processed, the viewer will plot the analysis and automatically generate a PDF report containing the same information. 
+Automated reports are generated out of the tool, actioned from a web application to which a corpus can be uploaded. Once processed, the viewer will plot the analysis and automatically generate a PDF report containing the same information. 
 
 Icon: https://thenounproject.com/icon/fingerprint-3530285/
 
@@ -35,12 +35,15 @@ The stats generated with this tool come in a handy yaml format with the followin
 - `docs_collections`: Distribution of documents per origin collection (only for monoligual documents)
 - `docs_langs`: Distribution of documents having a certain percentage of its segments in the declared document language (only for monolingual documents)
 - `docs_segments`: Distribution of documents having a certain amount of segments (only for monolingual documents)
+- `docs_segments_mean`: Mean value of `docs_segments` (only for monolingual documents)
+- `docs_segments_median`: Median value of `docs_segments` (only for monolingual documents)
 - `docs_timestamp`: Unix timestamp indicating when were the documents part of the stats obtained (only for monolingual documents)
 - `docs_top100_domains`: 100 most common domains, and the amount of documents for each one (only for monolingual documents)
 - `docs_top100_tld`: 100 most common top level domains (not including subdomains), and the amount of document for each one (only for monolingual documents)
 - `docs_total`: Total amount of documents in the corpus (only for monolingual documents)
 - `docs_warning`: List of issues encountered while processing documents (only for monolingual documents)
   - `docs_unmatching_xxx`: Some documents (a total of xxx) in the corpus had a different amount of segments and LM scores or language identification, so they were discarded.
+- `docs_wds`: Distribution of documents having a certain [Document Score](https://github.com/pablop16n/web-docs-scorer/) (only for monolingual documents)
 - `hardrules_tags`: List of possible issues in the segments, detected by [Hardrules](https://github.com/bitextor/bicleaner-hardrules)
   -  `not_too_long`: Percentage of segments being larger than 1024 characters.
   -  `not_too_short`: Percentage of segments being shorter than 3 tokens.
@@ -52,15 +55,15 @@ The stats generated with this tool come in a handy yaml format with the followin
 - `src_bytes`: Total size of source segments, uncompressed.
 - `srclang`: Source language.
 - `src_langs`: Distribution of source segments languages, as identified by [FastSpell](https://github.com/mbanon/fastspell)
-- `src_ngrams`: Distribution of the 5 most common n-grams of each order (1-grams to 5-grams) in source segments.
-- `src_sent_tokens`: Distribution of source segments having a certain amount of tokens (more info on tokenization tools [here](tokenizers-info.md))
-- `src_sent_tokens_mean`: Mean value of `src_sent_tokens`.
-- `src_sent_tokens_median`: Median value of `src_sent_tokens`.
-- `src_tokens`: Total amount of tokens in source segments.
-- `src_unique_sents`: Distribution of source segments having a certain amount of tokens, after removing duplicated segments.
+- `src_ngrams`: Distribution of the 5 most common n-grams of each order (1-grams to 5-grams) in source segments (not computed in monolingual lite stats mode)
+- `src_sent_tokens`: Distribution of source segments having a certain amount of tokens (more info on tokenization tools [here](tokenizers-info.md)) (not computed in monolingual lite stats mode)
+- `src_sent_tokens_mean`: Mean value of `src_sent_tokens` (not computed in monolingual lite stats mode)
+- `src_sent_tokens_median`: Median value of `src_sent_tokens` (not computed in monolingual lite stats mode)
+- `src_tokens`: Total amount of tokens in source segments (not computed in monolingual lite stats mode)
+- `src_unique_sents`: Distribution of source segments having a certain amount of tokens, after removing duplicated segments (not computed in monolingual lite stats mode)
 - `timestamp`: Unix timestamp indicating when were the stats obtained.
 - `trg_bytes`: Total size of target segments, uncompressed (only for parallel corpora)
-- `trglang`: Target language.
+- `trglang`: Target language (only for parallel corpora)
 - `trg_langs`: Distribution of target segments languages, as identified by [FastSpell](https://github.com/mbanon/fastspell) (only for parallel corpora)
 - `trg_ngrams`:  Distribution of the 5 most common n-grams of each order (1-grams to 5-grams) in target segments (only for parallel corpora)
 - `trg_sent_tokens`: Distribution of target segments having a certain amount of tokens (more info on tokenization tools [here](tokenizers-info.md)) (only for parallel corpora)
@@ -68,9 +71,9 @@ The stats generated with this tool come in a handy yaml format with the followin
 - `trg_sent_tokens_median`: Median value of `trg_sent_tokens` (only for parallel corpora)
 - `trg_tokens`: Total amount of tokens in target segments (only for parallel corpora)
 - `trg_unique_sents`: Distribution of target segments having a certain amount of tokens, after removing duplicated segments (only for parallel corpora)
-- `ttr_src`: [Type-Token Ratio](https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf) of the source segments.
-- `ttr_trg`: [Type-Token Ratio](https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf) of the target segments.
-- `unique_sents`: Total amount of segments (for monolingual corpora) or segment pairs (for parallel corpora), after removing duplicated segments or segment pairs.
+- `ttr_src`: [Type-Token Ratio](https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf) of the source segments (not computed in monolingual lite stats mode)
+- `ttr_trg`: [Type-Token Ratio](https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf) of the target segments (only for parallel corpora)
+- `unique_sents`: Total amount of segments (for monolingual corpora) or segment pairs (for parallel corpora), after removing duplicated segments or segment pairs (not computed in monolingual lite stats mode)
 - `warnings`: List of issues encountered while processing the corpus.
   - `src_warning_tok_xxx_yyy`: The source language is not supported by a dedicated tokenizer, so it fallbacks to the xxx tokenizer with the yyy language (only for parallel corpora).
   - `trg_warning_tok_xxx_yyy`: Same as the above but for the target language (only for parallel corpora).
