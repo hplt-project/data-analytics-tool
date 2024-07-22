@@ -24,6 +24,21 @@ If you need to access docker to run stuff inside:
 
 Code and data are located in `/work`
 
+## Generating stats
+
+Aside from uploading from the webapp interface, the `runstats.sh` (located in  `/work/scripts/`) can be used for generating stats, running it with parameters as follows:
+```
+bash /work/scripts/runstats.sh {CORPUS_PATH} {YAML_FILENAME} {SOURCE_LANGUAGE} {TARGET_LANGUAGE} {FORMAT} {LANGUAGE_FORMAT}
+```
+Being:
+* CORPUS_PATH: The path to the corpus to be analyzed.
+* YAML_FILENAME: The path and filename the resulting stats yaml will have.
+* SOURCE_LANGUAGE: Source language code (2-letters, ISO 639-1)
+* TARGET_LANGUAGE: Target language code (2-letters, ISO 639-1), or `-` for monolingual.
+* FORMAT: File format. Currently accepted values are `bitext`, `tmx`, `tsv` and `docs`.
+* LANGUAGE_FORMAT: Currently accepted values are `parallel` and `mono`.
+
+Even though is not possible to run it by default, it's easy to adapt the scripts to generate only "lite" stats (this is, skipping those that are computationally heavy-weighted: ngrams, duplicates...). This mode is useful when processing huge corpora (currently only monolingual is supported).  In order to generate the lite stats, modify the call to `readcorpus_mono.py` in `runstats.sh` so it includes the `--lite` flag.
 
 ## Current info in the generated yaml files: 
 
