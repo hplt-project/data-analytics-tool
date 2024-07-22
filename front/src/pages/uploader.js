@@ -50,7 +50,7 @@ export default function Uploader({ languageList }) {
     });
 
     if (!formdata.trglang) {
-      formdata.set("trglang", "en");
+      formdata.set("trglang", "-");
     }
     let config = {
       method: "POST",
@@ -83,7 +83,7 @@ export default function Uploader({ languageList }) {
     });
 
     if (!formdata.trglang) {
-      formdata.set("trglang", "en");
+      formdata.set("trglang", "-");
     }
 
     let config = {
