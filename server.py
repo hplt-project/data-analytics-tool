@@ -7,6 +7,7 @@ import cgi
 import shutil 
 import urllib.request
 from pathlib import Path
+from urllib.parse import unquote
 
 class CORSRequestHandler (SimpleHTTPRequestHandler):
     def end_headers (self):
@@ -110,13 +111,13 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
             self.send_response(200)
             self.send_header('Content-type', 'application/text')
             self.end_headers()
-            with open("."+self.path.replace("/file/", "/yaml_dir/"), 'rb') as file: 
+            with open("."+unquote(self.path).replace("/file/", "/yaml_dir/"), 'rb') as file: 
                 self.wfile.write(file.read()) # Read the file and send the contents 
         elif "/download/" in self.path:
             self.send_response(200)
             self.send_header('Content-type', 'application/text')
             self.end_headers()
-            with open("."+self.path.replace("/download/", "/yaml_dir/"), 'rb') as file: 
+            with open("."+self.path.replace("/download/", "/yaml_dir/"), 'rb') as file:                 
                 self.wfile.write(file.read())
         elif "/opus_langs" in self.path:
             self.send_response(200)
@@ -125,8 +126,6 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
             resp = urllib.request.urlopen("https://opus.nlpl.eu/opusapi/?languages=True")
             content = resp.read()
             content_text = content.decode("utf-8")
-
-            #print(bytes(json.dumps(content_text, ensure_ascii=False), "utf-8"))            
             self.wfile.write(bytes(content_text, 'utf-8'))
             #self.wfile.write(bytes(json.dumps(content_text, ensure_ascii=False), "utf-8"))
         else:
