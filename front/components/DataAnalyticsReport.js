@@ -346,8 +346,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
 		? reportData.sentence_pairs.toLocaleString("en-US")
 		: "";
 
-	const uniqueSegments = reportData.src_unique_sents
-		? reportData.src_unique_sents.length
+	const uniqueSegments = reportData.unique_sents
+		? reportData.unique_sents
 		: "";
 
 	const srcTokens = reportData.src_tokens

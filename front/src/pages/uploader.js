@@ -49,7 +49,7 @@ export default function Uploader({ languageList }) {
       }
     });
 
-    if (!formdata.trglang) {
+    if (!data.trglang) {
       formdata.set("trglang", "-");
     }
     let config = {
@@ -82,7 +82,7 @@ export default function Uploader({ languageList }) {
       }
     });
 
-    if (!formdata.trglang) {
+    if (!data.trglang) {
       formdata.set("trglang", "-");
     }
 

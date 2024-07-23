@@ -83,7 +83,7 @@ export default async function handler(req, res) {
         console.log(response);
       })
       .catch(function (error) {
-        console.log("Again");
+        console.log("-");
       });
 
     return res.status(200).end();
