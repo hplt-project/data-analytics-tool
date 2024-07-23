@@ -78,6 +78,10 @@ export default function SegmentDistribution({ data, which, fontSize }) {
     notation: "compact",
   }).format(finalBarDupes);
 
+  const numbers  = Array.from(Array(50).fill(0), (_, index)=> index);
+
+  console.log(numbers, "Nunemros")
+
   return (
     <div className={styles.segmentDistributionContainer}>
       <div className={styles.segmentTitle}>
@@ -107,6 +111,9 @@ export default function SegmentDistribution({ data, which, fontSize }) {
             dataKey="token"
             fontSize={fontSize}
             tickMargin={5}
+            type="number"
+            domain={[0, 50]}
+            ticks={numbers}
             label={{
               value: "Number of tokens in the segment",
               angle: 0,
@@ -114,6 +121,7 @@ export default function SegmentDistribution({ data, which, fontSize }) {
               offset: 0,
               fontSize: fontSize,
             }}
+            padding={{ left: 10, right: 10 }}
           />
           <YAxis
             tickFormatter={DataFormatter}

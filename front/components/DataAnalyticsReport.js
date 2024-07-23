@@ -346,9 +346,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 		? reportData.sentence_pairs.toLocaleString("en-US")
 		: "";
 
-	const uniqueSegments = reportData.unique_sents
-		? reportData.unique_sents
-		: "";
+	const uniqueSegments = reportData.unique_sents ? reportData.unique_sents : "";
 
 	const srcTokens = reportData.src_tokens
 		? numberFormatter(reportData.src_tokens)
@@ -442,7 +440,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
 													<a className="segments-info">
 														{!footNote && (
 															<Info
-																className={[styles.helpCircle, styles.desktopData].join(" ")}
+																className={[
+																	styles.helpCircle,
+																	styles.desktopData,
+																].join(" ")}
 																strokeWidth={1.2}
 																color="#2C2E35"
 																width={20}
@@ -467,7 +468,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
 														<a className="tokens-info">
 															{!footNote && (
 																<Info
-																	className={[styles.helpCircle, styles.desktopData].join(" ")}
+																	className={[
+																		styles.helpCircle,
+																		styles.desktopData,
+																	].join(" ")}
 																	strokeWidth={1.2}
 																	color="#2C2E35"
 																	width={20}
@@ -535,7 +539,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 													<span className={styles.percSpan}>
 														{" ("}
 														{(
-															(reportData.src_unique_sents.length * 100) /
+															(reportData.unique_sents * 100) /
 															reportData.sentence_pairs
 														).toFixed(2)}{" "}
 														%)
@@ -557,7 +561,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								</table>
 								<div className={styles.mobileData}>
 									<p className={styles.mobileNum}>
-										Unique segments -  {numberFormatter(+uniqueSegments)}
+										Unique segments - {numberFormatter(+uniqueSegments)}
 										{uniqueSegments && sentences && (
 											<span className={styles.percSpan}>
 												{" ("}
@@ -585,7 +589,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
 											<a className="type-token-info">
 												{!footNote && (
 													<Info
-														className={[styles.helpCircle, styles.desktopData].join(" ")}
+														className={[
+															styles.helpCircle,
+															styles.desktopData,
+														].join(" ")}
 														strokeWidth={1.4}
 														color="#2C2E35"
 													/>
@@ -742,7 +749,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
 									<a className="segments-info-graph">
 										{!footNote && (
 											<Info
-												className={[styles.helpCircle, styles.desktopData].join(" ")}
+												className={[styles.helpCircle, styles.desktopData].join(
+													" "
+												)}
 												strokeWidth={1.2}
 												color="#2C2E35"
 												width={20}
@@ -789,7 +798,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								{" "}
 								{!footNote && (
 									<Info
-										className={[styles.helpCircle, styles.desktopData].join(" ")}
+										className={[styles.helpCircle, styles.desktopData].join(
+											" "
+										)}
 										strokeWidth={1.2}
 										color="#2C2E35"
 										width={20}
@@ -854,7 +865,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								{" "}
 								{!footNote && (
 									<Info
-										className={[styles.helpCircle, styles.desktopData].join(" ")}
+										className={[styles.helpCircle, styles.desktopData].join(
+											" "
+										)}
 										strokeWidth={1.2}
 										color="#2C2E35"
 										width={20}
@@ -916,7 +929,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								{" "}
 								{!footNote && (
 									<Info
-										className={[styles.helpCircle, styles.desktopData].join(" ")}
+										className={[styles.helpCircle, styles.desktopData].join(
+											" "
+										)}
 										strokeWidth={1.2}
 										color="#2C2E35"
 										width={20}
@@ -1003,7 +1018,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								{" "}
 								{!footNote && (
 									<Info
-										className={[styles.helpCircle, styles.desktopData].join(" ")}
+										className={[styles.helpCircle, styles.desktopData].join(
+											" "
+										)}
 										strokeWidth={1.2}
 										color="#2C2E35"
 										width={20}
@@ -1107,7 +1124,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
 							<a className="segment-length-info">
 								{!footNote && (
 									<Info
-										className={[styles.helpCircle, styles.desktopData].join(" ")}
+										className={[styles.helpCircle, styles.desktopData].join(
+											" "
+										)}
 										strokeWidth={1.2}
 										color="#2C2E35"
 										width={20}
@@ -1216,7 +1235,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								<a className="ngrams-info">
 									{!footNote && (
 										<Info
-											className={[styles.helpCircle, styles.desktopData].join(" ")}
+											className={[styles.helpCircle, styles.desktopData].join(
+												" "
+											)}
 											strokeWidth={1.2}
 											color="#2C2E35"
 											width={20}
@@ -1260,7 +1281,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
 							<a className="ngrams-info">
 								{!footNote && (
 									<Info
-										className={[styles.helpCircle, styles.desktopData].join(" ")}
+										className={[styles.helpCircle, styles.desktopData].join(
+											" "
+										)}
 										strokeWidth={1.2}
 										color="#2C2E35"
 										width={20}
