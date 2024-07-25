@@ -213,7 +213,8 @@ def main():
         
         # Corpus strings
         src_bytes += len(src_line.encode('utf-8'))
-            
+
+    if not args.lite:
         #Write remaining ngrams in buffers
         for g in onegrams_buffer:
             onegrams_file.write(g+"\n")

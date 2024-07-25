@@ -282,7 +282,7 @@ if [ "$langformat" == "parallel" ]; then
 
 
 elif [ "$langformat" == "mono" ]; then
-	rm $yaml_file_path
+	rm -rf $yaml_file_path
 	if [ "$format" == "tmx" ]; then
 		echo "Extracting from TMX..."
                 # Get the directory path and filename without extension
