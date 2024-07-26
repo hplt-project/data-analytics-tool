@@ -8,6 +8,7 @@ import shutil
 import urllib.request
 from pathlib import Path
 from urllib.parse import unquote
+from pathvalidate import sanitize_filename
 
 class CORSRequestHandler (SimpleHTTPRequestHandler):
     def end_headers (self):
@@ -18,7 +19,8 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         SimpleHTTPRequestHandler.end_headers(self)
 
     def save_file(self, file, filename):
-        outpath = os.path.join("/", "work", "uploaded_corpora", filename)
+        sanitized_filename = sanitize_filename(filename.replace(" ", "-"))
+        outpath = os.path.join("/", "work", "uploaded_corpora", sanitized_filename)
 
         with open(outpath, 'wb') as fout:
             #shutil.copyfileobj(file, fout, 100000)
@@ -71,7 +73,7 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         form=cgi.FieldStorage(fp=self.rfile, headers=self.headers,environ={'REQUEST_METHOD':'POST'})
         
         saved_file_path = "LOCAL/PATH/TO/CORPUS"
-        yaml_file_path = os.path.join("/", "work",  "yaml_dir", form.getvalue('corpusname')) + ".yaml"
+        yaml_file_path = os.path.join("/", "work",  "yaml_dir", sanitize_filename(form.getvalue('corpusname')).replace(" ", "-") + ".yaml")
         
         command = self.get_command(form, saved_file_path, yaml_file_path)
         

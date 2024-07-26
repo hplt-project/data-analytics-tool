@@ -152,7 +152,7 @@ if [ "$langformat" == "parallel" ]; then
                 	echo "Downloading bicleanerAI model..."
 	                mkdir -p $datapath/bicleaner-ai/$bc_srclang-$bc_trglang
 	                source /work/venvs/venv-bcai/bin/activate
-	                bicleaner-ai-download $bc_srclang $bc_trglang full $datapath/bicleaner-ai
+	                bicleaner-ai-download $bc_srclang $bc_trglang full $datapath/bicleaner-ai/$bc_srclang-$bc_trglang/
 	                deactivate
 		fi
 	fi
@@ -282,7 +282,7 @@ if [ "$langformat" == "parallel" ]; then
 
 
 elif [ "$langformat" == "mono" ]; then
-	rm $yaml_file_path
+	rm -rf $yaml_file_path
 	if [ "$format" == "tmx" ]; then
 		echo "Extracting from TMX..."
                 # Get the directory path and filename without extension
