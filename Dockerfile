@@ -53,7 +53,8 @@ RUN . /work/venvs/venv-bhr/bin/activate && \
     python3.10 -m pip install -U setuptools && \
     python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\
     python3.10 -m pip install --config-settings="--build-option=--max_order=7" https://github.com/kpu/kenlm/archive/master.zip && \
-    python3.10 -m pip install bicleaner-hardrules==2.9.1 && deactivate
+    python3.10 -m pip install bicleaner-hardrules==2.9.1 &&\
+    python3.10 -m pip install "numpy<2" && deactivate
 
 RUN . /work/venvs/venv-bc/bin/activate && \
     python3.10 -m pip install -U pip  && \
@@ -68,7 +69,7 @@ RUN . /work/venvs/venv-bcai/bin/activate && \
     python3.10 -m pip install -U setuptools && \
     python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\   
     python3.10 -m pip install --config-settings="--build-option=--max_order=7" https://github.com/kpu/kenlm/archive/master.zip && \
-    python3.10 -m pip install bicleaner-ai==2.3 && deactivate
+    python3.10 -m pip install bicleaner-ai==3.1.0 && deactivate
 
 RUN python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\
     python3.10 -m pip install -r /work/deployment/requirements.txt &&\

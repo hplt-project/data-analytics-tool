@@ -152,7 +152,7 @@ if [ "$langformat" == "parallel" ]; then
                 	echo "Downloading bicleanerAI model..."
 	                mkdir -p $datapath/bicleaner-ai/$bc_srclang-$bc_trglang
 	                source /work/venvs/venv-bcai/bin/activate
-	                bicleaner-ai-download $bc_srclang $bc_trglang full $datapath/bicleaner-ai
+	                bicleaner-ai-download $bc_srclang $bc_trglang full $datapath/bicleaner-ai/$bc_srclang-$bc_trglang/
 	                deactivate
 		fi
 	fi

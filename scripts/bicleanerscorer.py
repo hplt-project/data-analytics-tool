@@ -84,7 +84,10 @@ def read_hardrulestags(corpusname, yamlfile, srclang, trglang=None):
     tags_percent = {}
     for tag in tag_types:
         count = clean_tags.count(tag)
-        percentage = round(count*100/(lines),2)
+        if lines > 0:
+            percentage = round(count*100/(lines),2)	
+        else:
+            percentage = 0
         tags_percent[tag]=percentage
     return(tags_percent)
 
