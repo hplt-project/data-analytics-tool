@@ -75,6 +75,11 @@
 .desc {
   margin-bottom: 7px;
 }
+.perc{
+  margin-bottom: 7px;
+  font-weight: 600;
+
+}
 
 @media (max-width: 768px) {
   .reportScoresContainer {

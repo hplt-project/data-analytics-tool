@@ -55,9 +55,21 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
 	const [loadingPdf, setLoadingPdf] = useState(false);
 
+	const totalMonocleanerScores = reportData.monocleaner_scores
+		? JSON.parse(reportData.monocleaner_scores).reduce(
+				(a, b) => a + parseFloat(b[1]),
+				0
+		  )
+		: "";
+
 	const monocleanerScores = reportData.monocleaner_scores
 		? JSON.parse(reportData.monocleaner_scores).map((s) => {
-				return { token: +s[0], freq: +s[1], fill: "#8864FC" };
+				return {
+					token: +s[0],
+					freq: +s[1],
+					perc: parseFloat((+s[1] * 100) / totalMonocleanerScores).toFixed(2),
+					fill: "#8864FC",
+				};
 		  })
 		: "";
 
@@ -275,11 +287,19 @@ export default function DataAnalyticsReport({ reportData, date }) {
 		  })
 		: "";
 
+	const totalDocsAvgLM = reportData.docs_avg_lm
+		? JSON.parse(reportData.docs_avg_lm).reduce(
+				(a, b) => a + parseFloat(b[1]),
+				0
+		  )
+		: "";
+
 	const docsAvgLM = reportData.docs_avg_lm
 		? JSON.parse(reportData.docs_avg_lm).map((doc) => {
 				return {
 					token: doc[0],
 					freq: doc[1],
+					perc: parseFloat((+doc[1] * 100) / totalDocsAvgLM).toFixed(2),
 				};
 		  })
 		: "";
@@ -340,6 +360,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
 	const trgSize = reportData.trg_bytes
 		? reportData.trg_bytes.toLocaleString("en-US")
+		: "";
+
+	const srcChars = reportData.src_chars
+		? reportData.src_chars.toLocaleString("en-US")
+		: "";
+
+	const trgChars = reportData.trg_chars
+		? reportData.trg_chars.toLocaleString("en-US")
 		: "";
 
 	const sentences = reportData.sentence_pairs
@@ -502,11 +530,20 @@ export default function DataAnalyticsReport({ reportData, date }) {
 												<th className={styles.desktopData}>Trg tokens</th>
 											)}
 											{!trglang && <th className={styles.desktopData}>Size</th>}
+											{!trglang && (
+												<th className={styles.desktopData}>Characters</th>
+											)}
 											{trglang && (
 												<th className={styles.desktopData}>Src size</th>
 											)}
 											{trglang && (
 												<th className={styles.desktopData}>Trg size</th>
+											)}
+											{trglang && (
+												<th className={styles.desktopData}>Src character</th>
+											)}
+											{trglang && (
+												<th className={styles.desktopData}>Trg characters</th>
 											)}
 										</tr>
 									</thead>
@@ -556,6 +593,12 @@ export default function DataAnalyticsReport({ reportData, date }) {
 											{trgSize && (
 												<td className={styles.desktopData}>{trgSize}</td>
 											)}
+											<td className={styles.desktopData}>
+												{srcChars && srcChars}
+											</td>
+											{trgChars && (
+												<td className={styles.desktopData}>{trgChars}</td>
+											)}
 										</tr>
 									</tbody>
 								</table>
@@ -581,7 +624,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 									{trglang && <p>Trg size - {trgSize}</p>}
 								</div>
 							</div>
-							<div className={styles.typeTokens}>
+							{/* <div className={styles.typeTokens}>
 								{reportData.ttr_src && (
 									<>
 										<div className={styles.containsTooltip}>
@@ -674,7 +717,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 										</table>
 									</>
 								)}
-							</div>
+							</div> */}
 						</div>
 						<div className={styles.tablesLeft}>
 							{docsTopTenDomains && (

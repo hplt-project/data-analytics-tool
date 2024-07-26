@@ -2,7 +2,7 @@ import jsPDF from "jspdf";
 import * as htmlToImage from "html-to-image";
 
 export async function exportMultipleChartsToPdf(pdfName, offLoading) {
-  const doc = new jsPDF("p", "px"); // (1)
+  const doc = new jsPDF("p", "px", "a4", true); // (1)
 
   const elements = document.getElementsByClassName("custom-chart"); // (2)
 
@@ -48,7 +48,8 @@ async function creatPdf({ doc, elements }) {
         10,
         elWidth,
         elHeight + 38,
-        `image${i}`
+        `image${i}`,
+        'FAST'
       );
     } else if (i == 1) {
       doc.addImage(
@@ -58,7 +59,8 @@ async function creatPdf({ doc, elements }) {
         top - 15,
         elWidth,
         elHeight + 38,
-        `image${i}`
+        `image${i}`, 
+        'FAST'
       );
     } else if (i == elements.length - 1) {
       doc.addImage(
@@ -68,7 +70,8 @@ async function creatPdf({ doc, elements }) {
         top - 15,
         elWidth,
         elHeight + 28,
-        `image${i}`
+        `image${i}`,
+        'FAST'
       );
     } else {
       doc.addImage(
@@ -78,7 +81,8 @@ async function creatPdf({ doc, elements }) {
         top - 5,
         elWidth,
         elHeight + 30,
-        `image${i}`
+        `image${i}`,
+        'FAST'
       );
     }
 

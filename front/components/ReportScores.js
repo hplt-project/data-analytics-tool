@@ -1,5 +1,3 @@
-import styles from "../src/styles/ReportScores.module.css";
-
 import {
 	BarChart,
 	Bar,
@@ -12,8 +10,10 @@ import {
 	LabelList,
 	ResponsiveContainer,
 } from "recharts";
-
+import { numberFormatter } from "../hooks/hooks";
 import { DataFormatter } from "../hooks/hooks";
+
+import styles from "../src/styles/ReportScores.module.css";
 
 const CustomTooltip = ({ active, payload, label, measurement }) => {
 	if (active && payload && payload.length) {
@@ -23,14 +23,16 @@ const CustomTooltip = ({ active, payload, label, measurement }) => {
 				{payload.map((item, idx) => {
 					return (
 						<>
-							{" "}
 							<p
 								key={idx}
 								className={styles.desc}
 								style={{ color: item.fill }}
-							>{`${measurement}:   ${Intl.NumberFormat("en", {
-								notation: "compact",
-							}).format(item.value)}`}</p>
+							>{`${measurement}:   ${numberFormatter(item.value)}`}</p>
+							<p
+								key={idx}
+								className={styles.perc}
+								style={{ color: item.fill }}
+							>{`% of total:   ${item.payload.perc} %`}</p>
 						</>
 					);
 				})}
@@ -50,12 +52,13 @@ export default function ReportScores({
 	secondHalfPerc,
 	padding,
 	labellist,
-	fontSize
+	fontSize,
 }) {
 	const processedScores = scores.map((item) => {
 		return {
 			token: item.token,
 			freq: item.freq,
+			perc: item.perc ? item.perc : "",
 			freqFormatted: Intl.NumberFormat("en", {
 				notation: "compact",
 			}).format(item.freq),
@@ -71,16 +74,14 @@ export default function ReportScores({
 			{firstHalf && secondHalf && (
 				<div className={styles.reportTitle}>
 					<p>
-						score {"<="} 5 - {" "}
-						<strong>{+firstHalfPerc.toFixed(2)}%</strong> (
+						score {"<="} 5 - <strong>{+firstHalfPerc.toFixed(2)}%</strong> (
 						{Intl.NumberFormat("en", {
 							notation: "compact",
 						}).format(firstHalf)}{" "}
 						documents)
 					</p>
 					<p>
-						score {">"} 5 - {" "}
-						<strong>{+secondHalfPerc.toFixed(2)}%</strong> (
+						score {">"} 5 - <strong>{+secondHalfPerc.toFixed(2)}%</strong> (
 						{Intl.NumberFormat("en", {
 							notation: "compact",
 						}).format(secondHalf)}{" "}
@@ -116,7 +117,7 @@ export default function ReportScores({
 					>
 						<Label value={xLabel} offset={10} position="bottom" fontSize={16} />
 					</XAxis>
-					
+
 					<YAxis
 						fontSize={fontSize}
 						label={{
