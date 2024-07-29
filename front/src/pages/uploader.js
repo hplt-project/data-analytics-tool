@@ -164,12 +164,7 @@ export default function Uploader({ languageList }) {
 								name="corpus"
 								type="file"
 								multiple
-								{...register("corpus", {
-									required: {
-										value: true,
-										message: "Your dataset is required",
-									},
-								})}
+								{...register("corpus")}
 							/>
 						</div>
 					</div>

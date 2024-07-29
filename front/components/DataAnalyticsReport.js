@@ -1289,23 +1289,30 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								</a>
 								<Tooltip anchorSelect=".ngrams-info" place="top" clickable>
 									<div style={{ display: "flex", flexDirection: "column" }}>
-										Tokenized with{" "}
-										<a
-											href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
-											target="_blank"
-											className={styles.tooltipLink}
-										>
-											https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
-										</a>
-										, after removing n-grams starting or ending in a stopword.
-										Stopwords from
-										<a
-											className={styles.tooltipLink}
-											href="https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt"
-											target="_blank"
-										>
-											https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt
-										</a>
+										<span>
+											Tokenized with{" "}
+											<a
+												href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
+												target="_blank"
+												className={styles.tooltipLink}
+											>
+												https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
+											</a>
+											,
+										</span>
+										<span>
+											after removing n-grams starting or ending in a stopword.
+											Stopwords from
+										</span>
+										<span>
+											<a
+												className={styles.tooltipLink}
+												href="https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt"
+												target="_blank"
+											>
+												https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt
+											</a>
+										</span>
 									</div>
 								</Tooltip>
 							</div>
@@ -1321,7 +1328,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 					<div className={styles.singleNGramContainer}>
 						<div className={styles.containsTooltip}>
 							<h3>Target n-grams</h3>
-							<a className="ngrams-info">
+							<a className="ngrams-info-trg">
 								{!footNote && (
 									<Info
 										className={[styles.helpCircle, styles.desktopData].join(
@@ -1333,26 +1340,34 @@ export default function DataAnalyticsReport({ reportData, date }) {
 									/>
 								)}
 							</a>
-							<Tooltip anchorSelect=".ngrams-info" place="top" clickable>
-								Tokenized with{" "}
-								<a
-									href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
-									target="_blank"
-									className={styles.tooltipLink}
-								>
-									https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
-								</a>
-								, after removing n-grams starting or ending in a stopword.
-								Stopwords from
-								<a
-									className={styles.tooltipLink}
-									href="https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt"
-									target="_blank"
-								>
-									{" "}
-									https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt
-								</a>
-							</Tooltip>
+							<Tooltip anchorSelect=".ngrams-info-trg" place="top" clickable>
+									<div style={{ display: "flex", flexDirection: "column" }}>
+										<span>
+											Tokenized with{" "}
+											<a
+												href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
+												target="_blank"
+												className={styles.tooltipLink}
+											>
+												https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
+											</a>
+											,
+										</span>
+										<span>
+											after removing n-grams starting or ending in a stopword.
+											Stopwords from
+										</span>
+										<span>
+											<a
+												className={styles.tooltipLink}
+												href="https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt"
+												target="_blank"
+											>
+												https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt
+											</a>
+										</span>
+									</div>
+								</Tooltip>
 						</div>
 						<NGramsTable NGrams={trgNGrams} />
 					</div>
