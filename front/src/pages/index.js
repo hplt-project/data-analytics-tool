@@ -12,7 +12,9 @@ import { useRouter } from "next/navigation";
 export default function Home() {
 	const router = useRouter();
 
-	router.push("/viewer");
+	useEffect(() => {
+		router.push("/viewer");
+	}, []);
 
 	return (
 		<div className={styles.viewerContainer}>

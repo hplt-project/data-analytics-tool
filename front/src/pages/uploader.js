@@ -94,11 +94,10 @@ export default function Uploader({ languageList }) {
 	async function getCmd(data) {
 		const formdata = new FormData();
 
-		setCmdStatus("UPLOADING");
 
 		Object.entries(data).forEach(([key, value]) => {
 			if (key === "corpus" && value) {
-				formdata.set(key, value[0]);
+				formdata.set(key, "");
 			} else {
 				formdata.set(key, value);
 			}
@@ -412,7 +411,7 @@ export default function Uploader({ languageList }) {
 									textField="label"
 									onChange={(value) => setValue("trglang", value.value)}
 									style={
-										cmdStatus === "UPLOADING" ? { position: "static" } : {}
+										uploadStatus === "UPLOADING" ? { position: "static" } : {}
 									}
 								/>
 							</div>
