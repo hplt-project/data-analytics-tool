@@ -2,16 +2,15 @@ import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
 import Footer from "../../components/Footer";
-import { Copy, XCircle } from "lucide-react";
-import { ToastContainer, toast } from "react-toastify";
+import { CheckSquare2, Copy, XCircle } from "lucide-react";
 import Navbar from "../../components/Navbar";
 import { languagePairName } from "../../hooks/hooks";
-import { PartyPopper } from "lucide-react";
 import CopyToClipboard from "react-copy-to-clipboard";
 import { DropdownList } from "react-widgets/cjs";
+import { ColorRing } from "react-loader-spinner";
+import toast, { Toaster } from "react-hot-toast";
 
 import styles from "@/styles/Uploader.module.css";
-import "react-toastify/dist/ReactToastify.css";
 import "react-widgets/styles.css";
 
 export default function Uploader({ languageList }) {
@@ -31,50 +30,74 @@ export default function Uploader({ languageList }) {
 
 	const [cmd, setCmd] = useState("");
 
-	const afterUpload = () => {
+	const [failedCMD, setFailedCMD] = useState("");
+
+	const [uploadStatus, setUploadStatus] = useState("");
+
+	const [cmdStatus, setCmdStatus] = useState("");
+	const [missingFile, setMissingFile] = useState(false);
+
+	const toastMessage = (alert) => {
 		setTimeout(() => {
-			setUpload(false);
+			if (alert === "upload") {
+				setUpload(false);
+			}
+			if (alert === "file") {
+				setMissingFile(false);
+			}
+			if (alert === "cmd") {
+				setFailedCMD(false);
+			}
 		}, 3000);
 	};
 
 	async function onSubmitForm(data) {
-		const formdata = new FormData();
+		if (Object.entries(data)[1][1][0]) {
+			setUploadStatus("UPLOADING");
+			const formdata = new FormData();
 
-		Object.entries(data).forEach(([key, value]) => {
-			if (key === "corpus") {
-				formdata.set(key, value[0]);
-			} else {
-				formdata.set(key, value);
+			Object.entries(data).forEach(([key, value]) => {
+				if (key === "corpus") {
+					formdata.set(key, value[0]);
+				} else {
+					formdata.set(key, value);
+				}
+			});
+
+			if (!data.trglang) {
+				formdata.set("trglang", "-");
 			}
-		});
+			let config = {
+				method: "POST",
+				url: "/api/upload/upload",
+				data: formdata,
+				headers: { "Content-Type": "multipart/form-data" },
+			};
 
-		if (!data.trglang) {
-			formdata.set("trglang", "-");
-		}
-		let config = {
-			method: "POST",
-			url: "/api/upload/upload",
-			data: formdata,
-			headers: { "Content-Type": "multipart/form-data" },
-		};
-
-		try {
-			const res = await axios(config);
-			if (res.status === 200) {
-				setUpload(true);
-				afterUpload();
-				reset();
-				setStatus(false);
+			try {
+				const res = await axios(config);
+				if (res.status === 200) {
+					setUploadStatus("");
+					setUpload(true);
+					toastMessage("upload");
+					reset();
+					setStatus(false);
+				}
+			} catch (err) {
+				console.error(err, "Request failed ");
 			}
-		} catch (err) {
-			console.error(err, "Request failed ");
+		} else {
+			setMissingFile(true);
+			toastMessage("file");
 		}
 	}
 	async function getCmd(data) {
 		const formdata = new FormData();
 
+		setCmdStatus("UPLOADING");
+
 		Object.entries(data).forEach(([key, value]) => {
-			if (key === "corpus") {
+			if (key === "corpus" && value) {
 				formdata.set(key, value[0]);
 			} else {
 				formdata.set(key, value);
@@ -96,22 +119,40 @@ export default function Uploader({ languageList }) {
 			const res = await axios(config);
 			if (res.status === 200) {
 				setCmd(res.data);
+				setCmdStatus("");
 			}
 		} catch (err) {
+			setFailedCMD(true);
+			setCmdStatus("");
+			toastMessage("cmd");
 			console.error(err, "Request failed ");
 		}
 	}
 
-	const notify = () => toast("CMD copied to clipboard");
-
 	return (
 		<div className={styles["main-container"]}>
+			{missingFile && (
+				<div className={styles.toaster}>
+					Please select a file to upload.{" "}
+					<XCircle strokeWidth={1.5} width={26} className={styles.xCircle} />
+				</div>
+			)}
+			{failedCMD && (
+				<div className={styles.toaster}>
+					Something went wrong getting CMD{" "}
+					<XCircle strokeWidth={1.5} width={26} className={styles.xCircle} />
+				</div>
+			)}
 			<Navbar />
 			{upload && (
 				<div className={styles.uploadToast}>
 					<h2>
 						Your dataset was successfully uploaded!
-						<PartyPopper className={styles.partyIcon} size={22} />
+						<CheckSquare2
+							className={styles.partyIcon}
+							size={24}
+							strokeWidth={1.5}
+						/>
 					</h2>
 					<p>Have some patience. Processing might take some time.</p>
 				</div>
@@ -125,15 +166,47 @@ export default function Uploader({ languageList }) {
 						<p>{cmd}</p>
 					</div>
 					<CopyToClipboard text={cmd}>
-						<button onClick={notify}>
+						<button onClick={() => toast.success("CMD Copied to clipboard!")}>
 							Copy CMD
 							<Copy className={styles.copyIcon} strokeWidth={1.3} />
 						</button>
 					</CopyToClipboard>
-					<ToastContainer />
+					<Toaster />
 				</div>
 			)}
 
+			{uploadStatus === "UPLOADING" && (
+				<div className={styles.loaderContainer}>
+					<div className={styles.loader}>
+						<h1>Your dataset is being uploaded...</h1>
+						<ColorRing
+							visible={true}
+							height="100"
+							width="100"
+							color="#4fa94d"
+							ariaLabel="oval-loading"
+							wrapperStyle={{}}
+							wrapperClass=""
+						/>
+					</div>
+				</div>
+			)}
+				{cmdStatus === "UPLOADING" && (
+				<div className={styles.loaderContainer}>
+					<div className={styles.loader}>
+						<h1>Processing file and generating CMD...</h1>
+						<ColorRing
+							visible={true}
+							height="100"
+							width="100"
+							color="#4fa94d"
+							ariaLabel="oval-loading"
+							wrapperStyle={{}}
+							wrapperClass=""
+						/>
+					</div>
+				</div>
+			)}
 			<form id="upload-form" encType="multipart/form-data">
 				<div className={styles["form-group"]}>
 					<div className={styles["input-group"]}>
@@ -320,6 +393,9 @@ export default function Uploader({ languageList }) {
 								dataKey="value"
 								textField="label"
 								onChange={(value) => setValue("srclang", value.value)}
+								style={
+									uploadStatus === "UPLOADING" ? { position: "static" } : {}
+								}
 							/>
 						</div>
 						{!status && (
@@ -335,6 +411,9 @@ export default function Uploader({ languageList }) {
 									dataKey="value"
 									textField="label"
 									onChange={(value) => setValue("trglang", value.value)}
+									style={
+										cmdStatus === "UPLOADING" ? { position: "static" } : {}
+									}
 								/>
 							</div>
 						)}

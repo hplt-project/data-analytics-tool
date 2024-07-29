@@ -107,6 +107,10 @@
   color: var(--main-copy);
   border: var(--dropdown-border);
 }
+/* .rw-dropdown, .rw-widget{
+  position: static !important;
+
+} */
 .rw-list-option {
   color: var(--main-copy);
   border: none;
@@ -126,7 +130,7 @@
 .rw-widget-picker {
   border: var(--dropdown-border);
 }
-/* Languahe graph brush styling */
+/* Language graph brush styling */
 .recharts-brush rect {
   fill: var(--input-background-color);
 }

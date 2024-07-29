@@ -1123,7 +1123,38 @@ export default function DataAnalyticsReport({ reportData, date }) {
 			{reportData.trglang && (
 				<div className="custom-chart">
 					<div className={styles.languagesPieReportsContainer}>
-						<h3>Language Distribution</h3>
+						<div className={styles.title}>
+							{" "}
+							<h3>Language Distribution</h3>{" "}
+							<a className="lang-distribution-info">
+								{" "}
+								{!footNote && (
+									<Info
+										className={[styles.helpCircle, styles.desktopData].join(
+											" "
+										)}
+										strokeWidth={1.2}
+										color="#2C2E35"
+										width={20}
+									/>
+								)}
+							</a>
+							<Tooltip
+								anchorSelect=".lang-distribution-info"
+								place="top"
+								clickable
+							>
+								Language identified with FastSpell (
+								<a
+									href="https://github.com/mbanon/fastspell"
+									target="_blank"
+									className={styles.tooltipLink}
+								>
+									https://github.com/mbanon/fastspell
+								</a>
+								)
+							</Tooltip>
+						</div>
 						<div className={styles.languagesPieReports}>
 							{srcLangs && (
 								<div className={styles.singleLanguageReport}>
@@ -1341,33 +1372,33 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								)}
 							</a>
 							<Tooltip anchorSelect=".ngrams-info-trg" place="top" clickable>
-									<div style={{ display: "flex", flexDirection: "column" }}>
-										<span>
-											Tokenized with{" "}
-											<a
-												href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
-												target="_blank"
-												className={styles.tooltipLink}
-											>
-												https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
-											</a>
-											,
-										</span>
-										<span>
-											after removing n-grams starting or ending in a stopword.
-											Stopwords from
-										</span>
-										<span>
-											<a
-												className={styles.tooltipLink}
-												href="https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt"
-												target="_blank"
-											>
-												https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt
-											</a>
-										</span>
-									</div>
-								</Tooltip>
+								<div style={{ display: "flex", flexDirection: "column" }}>
+									<span>
+										Tokenized with{" "}
+										<a
+											href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
+											target="_blank"
+											className={styles.tooltipLink}
+										>
+											https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
+										</a>
+										,
+									</span>
+									<span>
+										after removing n-grams starting or ending in a stopword.
+										Stopwords from
+									</span>
+									<span>
+										<a
+											className={styles.tooltipLink}
+											href="https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt"
+											target="_blank"
+										>
+											https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt
+										</a>
+									</span>
+								</div>
+							</Tooltip>
 						</div>
 						<NGramsTable NGrams={trgNGrams} />
 					</div>

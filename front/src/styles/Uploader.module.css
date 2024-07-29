@@ -36,6 +36,38 @@
   margin-right: 15px;
 }
 
+.loaderContainer {
+  height: 100%;
+  width: 100%;
+  position: relative;
+  backdrop-filter: blur(3px);
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.loader {
+  position: absolute;
+  background: color;
+  background-color: white;
+  border: 1px solid #f3f1f5;
+  z-index: 10000;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  width: 810px;
+  height: 280px;
+  top: 0;
+  bottom: 0;
+  padding-top: 30px;
+  left: 0;
+  right: 0;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 .flex,
 .input-group,
 .inputs {
@@ -45,6 +77,7 @@
 .dropdown-cont {
   width: 260px;
   margin-right: 10px;
+  position: static !important;
 }
 
 .inputs label {
@@ -119,26 +152,61 @@
 .uploadToast {
   position: absolute;
   z-index: 10;
-  border: 0.5px solid rgb(193, 217, 235);
   padding: 20px;
   border-radius: 7px;
   top: 20px;
   right: 20px;
   background-color: white;
   width: 32vw;
+  box-shadow: rgba(0, 0, 0, 0.118) 0px 3px 8px;
 }
 
 .uploadToast h2 {
-  margin-bottom: 20px;
-  font-size: 22px;
+  margin-bottom: 15px;
+  font-size: 26px;
+}
+
+.uploadToast p {
+  width: 80%;
+  font-size: 18px;
+  line-height: 1.4;
 }
 
 .partiIcon {
-  margin-left: 15px;
+  margin: 0 0 -2px 6px;
+}
+
+.toaster {
+    width: -moz-fit-content;
+    width: fit-content;
+    position: absolute;
+    background-color: white;
+    border-radius: 4px;
+    padding: 10px 20px;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    border: 0.5px solid #de0000;
+    margin: 30px auto;
+    height: -moz-fit-content;
+    height: fit-content;
+    margin: auto;
+    margin-top: 45px;
+    left: 0;
+    right: 0;
+    font-size: 18px;
+}
+
+.xCircle {
+  margin-left: 10px;
 }
 
 .dropdown-cont select {
   font-size: 16px;
+}
+
+.dropdown-cont {
+  position: static;
 }
 
 .cmd {
@@ -192,7 +260,7 @@
   line-height: 1.15;
   overflow: visible;
   padding: 12px 16px;
-  position: relative;
+  /* position: relative; */
   text-align: center;
   text-transform: none;
   transition: all 80ms ease-in-out;
@@ -375,9 +443,13 @@
   .main-container {
     padding: 10px 15px 40px 15px;
   }
-  .dropdown-cont, .name-cont, .file-cont {
-  margin-top: 10px;
+
+  .dropdown-cont,
+  .name-cont,
+  .file-cont {
+    margin-top: 10px;
   }
+
   .input-group {
     flex-direction: column;
   }
@@ -385,13 +457,15 @@
   .uploader-buttons {
     flex-direction: column;
   }
+
   .inputs {
     margin: 15px 0;
   }
-  
-  .lang-inputs{
+
+  .lang-inputs {
     flex-direction: column;
   }
+
   .form-control {
     width: 100%;
   }
@@ -403,13 +477,18 @@
   .dropdown-cont {
     width: 100%;
   }
-  .name-cont{
+
+  .name-cont {
     margin-right: 0;
   }
+
   .inputs label {
     margin-bottom: 0px;
   }
-  .button-26, .button-27, .button-28{
+
+  .button-26,
+  .button-27,
+  .button-28 {
     width: 100%;
     margin-bottom: 10px;
     justify-content: center;
