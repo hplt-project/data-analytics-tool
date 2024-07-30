@@ -185,13 +185,12 @@ export default function DataAnalyticsReport({ reportData, date }) {
 				};
 		  });
 
-
 	const trgLangsTotal = !reportData.trg_langs
-	? ""
-	: JSON.parse(reportData.trg_langs).reduce(
-			(a, b) => a + parseFloat(b[1]),
-			0
-	  );
+		? ""
+		: JSON.parse(reportData.trg_langs).reduce(
+				(a, b) => a + parseFloat(b[1]),
+				0
+		  );
 
 	const trgLangs = !reportData.trg_langs
 		? ""
@@ -200,7 +199,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 				return {
 					name: `${readableLanguageName[0].label} - ${numberFormatter(s[1])}`,
 					freq: s[1],
-					perc: parseFloat((s[1] * 100) / srcLangsTotal).toFixed(2),
+					perc: parseFloat((s[1] * 100) / trgLangsTotal).toFixed(2),
 					fill: randDarkColor(),
 				};
 		  });
@@ -229,7 +228,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								? "URLs"
 								: v[0] === "no_bad_encoding"
 								? "Bad encoding"
-								: v[0] === "length_ratio"
+								: v[0] === "length_ratio" && reportData.trglang
 								? "Length ratio"
 								: v[0] === "PII"
 								? "PII"
@@ -245,19 +244,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
 		setLoadingPdf(false);
 	};
 
-	const langDocsTotal = reportData.docs_langs
-		? JSON.parse(reportData.docs_langs).reduce(
-				(a, b) => a + parseFloat(b[1]),
-				0
-		  )
-		: "";
-
 	const langDocs = reportData.docs_langs
 		? JSON.parse(reportData.docs_langs).map((doc) => {
 				return {
 					perc: doc[0] * 100,
 					freq: doc[1],
-					perc: parseFloat((doc[1] * 100) / langDocsTotal),
 					freqFormatted: numberFormatter(doc[1]),
 				};
 		  })

@@ -36,6 +36,7 @@ export default function Uploader({ languageList }) {
 
 	const [cmdStatus, setCmdStatus] = useState("");
 	const [missingFile, setMissingFile] = useState(false);
+	const [missingLanguage, setMissingLanguage] = useState(false);
 
 	const toastMessage = (alert) => {
 		setTimeout(() => {
@@ -47,6 +48,9 @@ export default function Uploader({ languageList }) {
 			}
 			if (alert === "cmd") {
 				setFailedCMD(false);
+			}
+			if (alert === "language") {
+				setMissingLanguage(false);
 			}
 		}, 3000);
 	};
@@ -84,6 +88,7 @@ export default function Uploader({ languageList }) {
 					setStatus(false);
 				}
 			} catch (err) {
+				setUploadStatus("");
 				console.error(err, "Request failed ");
 			}
 		} else {
@@ -93,38 +98,47 @@ export default function Uploader({ languageList }) {
 	}
 	async function getCmd(data) {
 		const formdata = new FormData();
+		const dataFields = Object.entries(data);
 
+		if (
+			(status && dataFields[4]) ||
+			(!status && dataFields[4] && dataFields[5])
+		) {
+			Object.entries(data).forEach(([key, value]) => {
+				if (key === "corpus" && value) {
+					formdata.set(key, "");
+				}
+				 else {
+					formdata.set(key, value);
+				}
+			});
 
-		Object.entries(data).forEach(([key, value]) => {
-			if (key === "corpus" && value) {
-				formdata.set(key, "");
-			} else {
-				formdata.set(key, value);
+			if (!data.trglang || status) {
+				formdata.set("trglang", "-");
 			}
-		});
 
-		if (!data.trglang) {
-			formdata.set("trglang", "-");
-		}
+			let config = {
+				method: "POST",
+				url: "/api/getcmd/cmd",
+				data: formdata,
+				headers: { "Content-Type": "multipart/form-data" },
+			};
 
-		let config = {
-			method: "POST",
-			url: "/api/getcmd/cmd",
-			data: formdata,
-			headers: { "Content-Type": "multipart/form-data" },
-		};
-
-		try {
-			const res = await axios(config);
-			if (res.status === 200) {
-				setCmd(res.data);
+			try {
+				const res = await axios(config);
+				if (res.status === 200) {
+					setCmd(res.data);
+					setCmdStatus("");
+				}
+			} catch (err) {
+				setFailedCMD(true);
 				setCmdStatus("");
+				toastMessage("cmd");
+				console.error(err, "Request failed ");
 			}
-		} catch (err) {
-			setFailedCMD(true);
-			setCmdStatus("");
-			toastMessage("cmd");
-			console.error(err, "Request failed ");
+		} else {
+			setMissingLanguage(true);
+			toastMessage("language");
 		}
 	}
 
@@ -139,6 +153,12 @@ export default function Uploader({ languageList }) {
 			{failedCMD && (
 				<div className={styles.toaster}>
 					Something went wrong getting CMD{" "}
+					<XCircle strokeWidth={1.5} width={26} className={styles.xCircle} />
+				</div>
+			)}
+			{missingLanguage && (
+				<div className={styles.toaster}>
+					Please select a language
 					<XCircle strokeWidth={1.5} width={26} className={styles.xCircle} />
 				</div>
 			)}
@@ -190,7 +210,7 @@ export default function Uploader({ languageList }) {
 					</div>
 				</div>
 			)}
-				{cmdStatus === "UPLOADING" && (
+			{cmdStatus === "UPLOADING" && (
 				<div className={styles.loaderContainer}>
 					<div className={styles.loader}>
 						<h1>Processing file and generating CMD...</h1>

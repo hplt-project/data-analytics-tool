@@ -17,6 +17,8 @@ export default function Home({ fileNames }) {
 
   const [status, setStatus] = useState("IDLE");
 
+  const [fileName, setFileName] = useState("")
+
   const router = useRouter();
 
   async function getStats() {
@@ -41,6 +43,7 @@ export default function Home({ fileNames }) {
 
     if (file !== "file") {
       getStats();
+      setFileName(file)
     }
   }, [router.query]);
 
@@ -52,7 +55,8 @@ export default function Home({ fileNames }) {
         <div className={styles.flex}>
           <DropdownList
             data={fileNames}
-            placeholder="CCMatrix"
+            placeholder={"CCMatrix"}
+            value={fileName}
             onChange={(e) => router.push(`/viewer/${e}`)}
             filter='contains'
           />
