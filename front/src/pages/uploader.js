@@ -60,6 +60,9 @@ export default function Uploader({ languageList }) {
 	};
 
 	async function onSubmitForm(data) {
+
+		const dataFields = Object.entries(data);
+
 		if (
 			(status && dataFields[4]) ||
 			(!status && dataFields[4] && dataFields[5])
