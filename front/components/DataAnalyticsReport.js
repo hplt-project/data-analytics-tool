@@ -55,27 +55,39 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
 	const [loadingPdf, setLoadingPdf] = useState(false);
 
-	const totalMonocleanerScores = reportData.monocleaner_scores
-		? JSON.parse(reportData.monocleaner_scores).reduce(
+	// const totalMonocleanerScores = reportData.monocleaner_scores
+	// 	? JSON.parse(reportData.monocleaner_scores).reduce(
+	// 			(a, b) => a + parseFloat(b[1]),
+	// 			0
+	// 	  )
+	// 	: "";
+
+	// const monocleanerScores = reportData.monocleaner_scores
+	// 	? JSON.parse(reportData.monocleaner_scores).map((s) => {
+	// 			return {
+	// 				token: +s[0],
+	// 				freq: +s[1],
+	// 				perc: parseFloat((+s[1] * 100) / totalMonocleanerScores).toFixed(2),
+	// 				fill: "#8864FC",
+	// 			};
+	// 	  })
+	// 	: "";
+
+	const totalBicleanerScores = reportData.bicleaner_scores
+		? JSON.parse(reportData.bicleaner_scores).reduce(
 				(a, b) => a + parseFloat(b[1]),
 				0
 		  )
 		: "";
 
-	const monocleanerScores = reportData.monocleaner_scores
-		? JSON.parse(reportData.monocleaner_scores).map((s) => {
+	const bicleanerScores = reportData.bicleaner_scores
+		? JSON.parse(reportData.bicleaner_scores).map((s) => {
 				return {
 					token: +s[0],
 					freq: +s[1],
-					perc: parseFloat((+s[1] * 100) / totalMonocleanerScores).toFixed(2),
+					perc: parseFloat((+s[1] * 100) / totalBicleanerScores).toFixed(2),
 					fill: "#8864FC",
 				};
-		  })
-		: "";
-
-	const bicleanerScores = reportData.bicleaner_scores
-		? JSON.parse(reportData.bicleaner_scores).map((s) => {
-				return { token: +s[0], freq: +s[1], fill: "#8864FC" };
 		  })
 		: "";
 
@@ -153,6 +165,13 @@ export default function DataAnalyticsReport({ reportData, date }) {
 		});
 	}
 
+	const srcLangsTotal = !reportData.src_langs
+		? ""
+		: JSON.parse(reportData.src_langs).reduce(
+				(a, b) => a + parseFloat(b[1]),
+				0
+		  );
+
 	const srcLangs = !reportData.src_langs
 		? ""
 		: JSON.parse(reportData.src_langs).map((s) => {
@@ -160,10 +179,19 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
 				return {
 					name: `${readableLanguageName[0].label} - ${numberFormatter(s[1])}`,
-					perc: s[1],
+					freq: s[1],
+					perc: parseFloat((s[1] * 100) / srcLangsTotal).toFixed(2),
 					fill: randDarkColor(),
 				};
 		  });
+
+
+	const trgLangsTotal = !reportData.trg_langs
+	? ""
+	: JSON.parse(reportData.trg_langs).reduce(
+			(a, b) => a + parseFloat(b[1]),
+			0
+	  );
 
 	const trgLangs = !reportData.trg_langs
 		? ""
@@ -171,7 +199,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
 				const readableLanguageName = languagePairName([s[0]]);
 				return {
 					name: `${readableLanguageName[0].label} - ${numberFormatter(s[1])}`,
-					perc: s[1],
+					freq: s[1],
+					perc: parseFloat((s[1] * 100) / srcLangsTotal).toFixed(2),
 					fill: randDarkColor(),
 				};
 		  });
@@ -200,6 +229,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								? "URLs"
 								: v[0] === "no_bad_encoding"
 								? "Bad encoding"
+								: v[0] === "length_ratio"
+								? "Length ratio"
+								: v[0] === "PII"
+								? "PII"
 								: "Contains porn",
 						value: parseFloat(v[1]),
 						perc: `${v[1]} %`,
@@ -212,11 +245,19 @@ export default function DataAnalyticsReport({ reportData, date }) {
 		setLoadingPdf(false);
 	};
 
+	const langDocsTotal = reportData.docs_langs
+		? JSON.parse(reportData.docs_langs).reduce(
+				(a, b) => a + parseFloat(b[1]),
+				0
+		  )
+		: "";
+
 	const langDocs = reportData.docs_langs
 		? JSON.parse(reportData.docs_langs).map((doc) => {
 				return {
 					perc: doc[0] * 100,
 					freq: doc[1],
+					perc: parseFloat((doc[1] * 100) / langDocsTotal),
 					freqFormatted: numberFormatter(doc[1]),
 				};
 		  })
@@ -287,22 +328,22 @@ export default function DataAnalyticsReport({ reportData, date }) {
 		  })
 		: "";
 
-	const totalDocsAvgLM = reportData.docs_avg_lm
-		? JSON.parse(reportData.docs_avg_lm).reduce(
-				(a, b) => a + parseFloat(b[1]),
-				0
-		  )
-		: "";
+	// const totalDocsAvgLM = reportData.docs_avg_lm
+	// 	? JSON.parse(reportData.docs_avg_lm).reduce(
+	// 			(a, b) => a + parseFloat(b[1]),
+	// 			0
+	// 	  )
+	// 	: "";
 
-	const docsAvgLM = reportData.docs_avg_lm
-		? JSON.parse(reportData.docs_avg_lm).map((doc) => {
-				return {
-					token: doc[0],
-					freq: doc[1],
-					perc: parseFloat((+doc[1] * 100) / totalDocsAvgLM).toFixed(2),
-				};
-		  })
-		: "";
+	// const docsAvgLM = reportData.docs_avg_lm
+	// 	? JSON.parse(reportData.docs_avg_lm).map((doc) => {
+	// 			return {
+	// 				token: doc[0],
+	// 				freq: doc[1],
+	// 				perc: parseFloat((+doc[1] * 100) / totalDocsAvgLM).toFixed(2),
+	// 			};
+	// 	  })
+	// 	: "";
 
 	const docsCollections = reportData.docs_collections
 		? JSON.parse(reportData.docs_collections).map((s) => {
@@ -540,7 +581,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 												<th className={styles.desktopData}>Trg size</th>
 											)}
 											{trglang && (
-												<th className={styles.desktopData}>Src character</th>
+												<th className={styles.desktopData}>Src characters</th>
 											)}
 											{trglang && (
 												<th className={styles.desktopData}>Trg characters</th>
@@ -898,7 +939,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 					<div className={styles.blank}></div>
 				</div>
 			)}
-			{monocleanerScores && (
+			{/* {monocleanerScores && (
 				<div className="custom-chart">
 					<div className={styles.bicleanerScores}>
 						<div className={styles.title}>
@@ -957,8 +998,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
 						</div>
 					</div>
 				</div>
-			)}
-			{docsAvgLM && (
+			)} */}
+			{/* {docsAvgLM && (
 				<div className="custom-chart">
 					<div className={styles.bicleanerScores}>
 						<div className={styles.title}>
@@ -1021,7 +1062,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 						</div>
 					</div>
 				</div>
-			)}
+			)} */}
 			{bicleanerScores && (
 				<div className="custom-chart">
 					<div className={styles.bicleanerScores}>

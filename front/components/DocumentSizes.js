@@ -30,6 +30,13 @@ const CustomTooltip = ({ active, payload, label, measurement }) => {
 							>{`${measurement}:   ${Intl.NumberFormat("en", {
 								notation: "compact",
 							}).format(item.value)}`}</p>
+								{item.payload.perc && (
+								<p
+									key={idx}
+									className={styles.perc}
+									style={{ color: item.fill }}
+								>{`% of total:   ${item.payload.perc} %`}</p>
+							)}
 						</>
 					);
 				})}

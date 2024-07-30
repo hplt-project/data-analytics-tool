@@ -6,6 +6,12 @@ const CustomTooltip = ({ active, payload, label }) => {
 		return (
 			<div className={styles.tooltipPie}>
 				<p className={styles.pieLabel}>{`${payload[0].name}`}</p>
+				{payload[0].payload.perc && (
+					<p
+				
+						className={styles.perc}
+					>{`% of total:   ${payload[0].payload.perc} %`}</p>
+				)}
 			</div>
 		);
 	}
@@ -18,7 +24,7 @@ export default function LanguagePieChart({ langs }) {
 		const others = langs.slice(10, langs.length);
 
 		const final = others.reduce((a, b) => {
-			return a + +b.perc;
+			return a + +b.freq;
 		}, 0);
 
 		langs.splice(10);
@@ -27,7 +33,7 @@ export default function LanguagePieChart({ langs }) {
 			name: `Others - ${Intl.NumberFormat("en", { notation: "compact" }).format(
 				final
 			)}`,
-			perc: final,
+			freq: final,
 			fill: "gray",
 		});
 	}
@@ -36,7 +42,7 @@ export default function LanguagePieChart({ langs }) {
 			<ResponsiveContainer width="100%" height="100%" aspect={1.6}>
 				<PieChart width={570} height={400}>
 					<Pie
-						dataKey="perc"
+						dataKey="freq"
 						isAnimationActive={false}
 						data={langs}
 						cx="40%"

@@ -28,11 +28,13 @@ const CustomTooltip = ({ active, payload, label, measurement }) => {
 								className={styles.desc}
 								style={{ color: item.fill }}
 							>{`${measurement}:   ${numberFormatter(item.value)}`}</p>
-							<p
-								key={idx}
-								className={styles.perc}
-								style={{ color: item.fill }}
-							>{`% of total:   ${item.payload.perc} %`}</p>
+							{item.payload.perc && (
+								<p
+									key={idx}
+									className={styles.perc}
+									style={{ color: item.fill }}
+								>{`% of total:   ${item.payload.perc} %`}</p>
+							)}
 						</>
 					);
 				})}
