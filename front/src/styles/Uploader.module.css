@@ -177,24 +177,25 @@
 }
 
 .toaster {
-    width: -moz-fit-content;
-    width: fit-content;
-    position: absolute;
-    background-color: white;
-    border-radius: 4px;
-    padding: 10px 20px;
-    display: flex;
-    align-content: center;
-    align-items: center;
-    border: 0.5px solid #de0000;
-    margin: 30px auto;
-    height: -moz-fit-content;
-    height: fit-content;
-    margin: auto;
-    margin-top: 45px;
-    left: 0;
-    right: 0;
-    font-size: 18px;
+  width: -moz-fit-content;
+  width: fit-content;
+  position: absolute;
+  background-color: white;
+  border-radius: 4px;
+  padding: 10px 20px;
+  display: flex;
+  align-content: center;
+  align-items: center;
+  border: 0.5px solid #de0000;
+  margin: 30px auto;
+  height: -moz-fit-content;
+  height: fit-content;
+  margin: auto;
+  margin-top: 45px;
+  left: 0;
+  right: 0;
+  font-size: 18px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .xCircle {

@@ -31,6 +31,7 @@ export default function Uploader({ languageList }) {
 	const [cmd, setCmd] = useState("");
 
 	const [failedCMD, setFailedCMD] = useState("");
+	const [failedUpload, setFailedUpload] = useState("");
 
 	const [uploadStatus, setUploadStatus] = useState("");
 
@@ -52,48 +53,61 @@ export default function Uploader({ languageList }) {
 			if (alert === "language") {
 				setMissingLanguage(false);
 			}
+			if (alert === "failed-upload") {
+				setFailedUpload(false);
+			}
 		}, 3000);
 	};
 
 	async function onSubmitForm(data) {
-		if (Object.entries(data)[1][1][0]) {
-			setUploadStatus("UPLOADING");
-			const formdata = new FormData();
+		if (
+			(status && dataFields[4]) ||
+			(!status && dataFields[4] && dataFields[5])
+		) {
+			if (Object.entries(data)[1][1][0]) {
+				setUploadStatus("UPLOADING");
+				const formdata = new FormData();
 
-			Object.entries(data).forEach(([key, value]) => {
-				if (key === "corpus") {
-					formdata.set(key, value[0]);
-				} else {
-					formdata.set(key, value);
+				Object.entries(data).forEach(([key, value]) => {
+					if (key === "corpus") {
+						formdata.set(key, value[0]);
+					} else {
+						formdata.set(key, value);
+					}
+				});
+
+				if (!data.trglang) {
+					formdata.set("trglang", "-");
 				}
-			});
+				let config = {
+					method: "POST",
+					url: "/api/upload/upload",
+					data: formdata,
+					headers: { "Content-Type": "multipart/form-data" },
+				};
 
-			if (!data.trglang) {
-				formdata.set("trglang", "-");
-			}
-			let config = {
-				method: "POST",
-				url: "/api/upload/upload",
-				data: formdata,
-				headers: { "Content-Type": "multipart/form-data" },
-			};
-
-			try {
-				const res = await axios(config);
-				if (res.status === 200) {
+				try {
+					const res = await axios(config);
+					if (res.status === 200) {
+						setUploadStatus("");
+						setUpload(true);
+						toastMessage("upload");
+						reset();
+						setStatus(false);
+					}
+				} catch (err) {
+					setFailedUpload(true);
+					toastMessage("failed-upload");
 					setUploadStatus("");
-					setUpload(true);
-					toastMessage("upload");
-					reset();
-					setStatus(false);
+					console.error(err, "Request failed ");
 				}
-			} catch (err) {
-				setUploadStatus("");
-				console.error(err, "Request failed ");
+			} else {
+				setMissingFile(true);
+				toastMessage("file");
 			}
 		} else {
-			setMissingFile(true);
-			toastMessage("file");
+			setMissingLanguage(true);
+			toastMessage("language");
 		}
 	}
 	async function getCmd(data) {
@@ -107,8 +121,7 @@ export default function Uploader({ languageList }) {
 			Object.entries(data).forEach(([key, value]) => {
 				if (key === "corpus" && value) {
 					formdata.set(key, "");
-				}
-				 else {
+				} else {
 					formdata.set(key, value);
 				}
 			});
@@ -174,6 +187,13 @@ export default function Uploader({ languageList }) {
 						/>
 					</h2>
 					<p>Have some patience. Processing might take some time.</p>
+				</div>
+			)}
+
+			{failedUpload && (
+				<div className={styles.toaster}>
+					Your dataset failed to upload!
+					<XCircle strokeWidth={1.5} width={26} className={styles.xCircle} />
 				</div>
 			)}
 			{cmd && (
