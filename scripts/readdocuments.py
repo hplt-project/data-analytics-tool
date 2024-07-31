@@ -107,10 +107,10 @@ def main():
             for l in langs:
                 args.langs.write(l+"\n")
 
-        if args.fluency:
-            for f in scores:
-                #args.fluency.write(str(f)+"\n")
-                args.fluency.write(str(math.floor(f*10)/10)+"\n") #Storing only one decimal point for disk space reasons
+        #if args.fluency:
+        #    for f in scores:
+        #        #args.fluency.write(str(f)+"\n")
+        #        args.fluency.write(str(math.floor(f*10)/10)+"\n") #Storing only one decimal point for disk space reasons
 
                 
         #Document Score (Web Docs Scorer)        

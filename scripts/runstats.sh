@@ -336,23 +336,23 @@ elif [ "$langformat" == "mono" ]; then
         cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1  parallel -k -j $JOBS --pipe monocleaner-hardrules --score_only --annotated_output --run_all_rules --disable_lang_ident  $srclang - - > $tsv_file_path.hardrules 2> hr.log
 
 
-	if [ "$monocleaner_metadata" ]; then
-
-		if [ -f "$monocleaner_metadata" ]; then
-	        	echo "Monocleaner model already downloaded."
-	        else
-		        echo "Downloading monocleaner model..."		       
-		        monocleaner-download -q $srclang $datapath/monocleaner/
-		fi	
-	
-		echo "Running Monocleaner..."
-		#./scripts/parallel-monocleaner.sh $JOBS $datapath/monocleaner/$srclang $tsv_file_path  $tsv_file_path.classify
-		#monocleaner --score_only --disable_hardrules $langpath ${INPUT_FILE} - > ${INPUT_FILE}.o 2>mono.log
-		#Force Fasttext download, in case it does not exist in this environment, to avoid doing it in parallel
-	        python3 /work/scripts/force-fasttext-download.py $srclang
-		cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1  parallel -k  -j $JOBS --pipe monocleaner --score_only --disable_hardrules $datapath/monocleaner/$srclang - - > $tsv_file_path.classify 2> mono.log
-
-	fi
+	#if [ "$monocleaner_metadata" ]; then
+	#
+	#	if [ -f "$monocleaner_metadata" ]; then
+	#        	echo "Monocleaner model already downloaded."
+	#        else
+	#	        echo "Downloading monocleaner model..."		       
+	#	        monocleaner-download -q $srclang $datapath/monocleaner/
+	#	fi	
+	#
+	#	echo "Running Monocleaner..."
+	#	#./scripts/parallel-monocleaner.sh $JOBS $datapath/monocleaner/$srclang $tsv_file_path  $tsv_file_path.classify
+	#	#monocleaner --score_only --disable_hardrules $langpath ${INPUT_FILE} - > ${INPUT_FILE}.o 2>mono.log
+	#	#Force Fasttext download, in case it does not exist in this environment, to avoid doing it in parallel
+	#        python3 /work/scripts/force-fasttext-download.py $srclang
+	#	cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1  parallel -k  -j $JOBS --pipe monocleaner --score_only --disable_hardrules $datapath/monocleaner/$srclang - - > $tsv_file_path.classify 2> mono.log
+	#
+	#fi
 	deactivate
 
 	

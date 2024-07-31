@@ -308,10 +308,10 @@ def main():
         stats["hardrules_tags"] = json.dumps(monocleaner_tags)
 
     # monocleaner scores    
-    logging.debug("Reading monocleaner scores")
-    monocleaner_scores = read_scores(filename)
-    if len(monocleaner_scores) > 0 :
-        stats["monocleaner_scores"] = json.dumps(monocleaner_scores)
+    #logging.debug("Reading monocleaner scores")
+    #monocleaner_scores = read_scores(filename)
+    #if len(monocleaner_scores) > 0 :
+    #    stats["monocleaner_scores"] = json.dumps(monocleaner_scores)
 
     stats["warnings"] = warnings
 
