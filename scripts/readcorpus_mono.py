@@ -76,6 +76,8 @@ def main():
     sent_hashes = set()
     
     src_bytes=0
+    
+    src_chars=0
 
 
     #Pure metadata could be in a different function
@@ -213,6 +215,8 @@ def main():
         
         # Corpus strings
         src_bytes += len(src_line.encode('utf-8'))
+        
+        src_chars += len(src_line)
 
     if not args.lite:
         #Write remaining ngrams in buffers
@@ -301,6 +305,8 @@ def main():
     # bytes size
     stats["src_bytes"] = convert_size(src_bytes)
 
+    stats["src_chars"] = src_chars
+    
     #hardrules annotations
     logging.debug("Reading hardrules tags")
     monocleaner_tags = read_hardrulestags(filename, "",  args.srclang)

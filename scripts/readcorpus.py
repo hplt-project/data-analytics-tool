@@ -79,6 +79,9 @@ def main():
     src_bytes=0
     trg_bytes=0
 
+    src_chars = 0
+    trg_chars = 0
+    
     src_langs = Counter()
     trg_langs = Counter()
 
@@ -317,7 +320,9 @@ def main():
         # Corpus strings
         src_bytes += len(src_sent.encode('utf-8'))
         trg_bytes += len(trg_sent.encode('utf-8'))
-
+        
+        src_chars += len(src_sent)
+        trg_chars += len(trg_sent)
     
     
     #Write remaining ngrams in buffers
@@ -439,6 +444,9 @@ def main():
     # bytes size
     stats["src_bytes"] = convert_size(src_bytes)
     stats["trg_bytes"] = convert_size(trg_bytes)
+    
+    stats["src_chars"] = src_chars
+    stats["trg_chars"] = trg_chars
 
     # bicleaner-hardrules tags
     if args.is_reversed:
