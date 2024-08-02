@@ -8,6 +8,12 @@ import yaml
 import json
 import math
 import statistics
+from iso639 import Lang
+
+
+from pii_manager import PiiEnum
+from pii_manager.api import PiiManager
+from pii_manager.lang import COUNTRY_ANY
 
 from timeit import default_timer
 from util import logging_setup
@@ -88,6 +94,32 @@ def main():
     src_hashes = {}
     trg_hashes = {}
     sent_hashes = set()
+        
+    src_pii=0
+    trg_pii=0
+    
+    #PII
+    src_pii_isolang = Lang(args.srclang.split('_')[0])
+    trg_pii_isolang = Lang(args.trglang.split('_')[0])
+    
+    if src_pii_isolang.pt3 == 'hbs':
+        src_pii_lang = 'hbs'
+    elif not src_pii_isolang.pt1:
+        src_pii_lang = 'any'
+    else:
+        src_pii_lang = src_pii_isolang.pt1
+
+    if trg_pii_isolang.pt3 == 'hbs':
+        trg_pii_lang = 'hbs'
+    elif not trg_pii_isolang.pt1:
+        trg_pii_lang = 'any'
+    else:
+        trg_pii_lang = trg_pii_isolang.pt1
+
+    pii_country = COUNTRY_ANY
+    pii_tasklist = (PiiEnum.IP_ADDRESS, PiiEnum.EMAIL_ADDRESS, PiiEnum.PHONE_NUMBER)
+    src_pii_proc = PiiManager(src_pii_lang, pii_country, tasks=pii_tasklist, mode="extract")    
+    trg_pii_proc = PiiManager(trg_pii_lang, pii_country, tasks=pii_tasklist, mode="extract")   
     
     warnings = []
     
@@ -181,6 +213,22 @@ def main():
             trg_sent = ""
             #continue
             
+        #PII
+        src_pii_matches = src_pii_proc(src_sent)
+        try:
+            next(src_pii_matches)
+            src_pii += 1            
+        except StopIteration:
+            pass
+            
+        trg_pii_matches = trg_pii_proc(trg_sent)
+        try:
+            next(trg_pii_matches)
+            trg_pii += 1
+        except StopIteration:
+            pass
+
+    
         #Counting tokens in each sentence
         tokenized_src = src_tokenizer.tokenize(src_sent)
         tokenized_trg = trg_tokenizer.tokenize(trg_sent)
@@ -453,10 +501,15 @@ def main():
         bicleaner_tags = read_hardrulestags(filename, args.yamlfile, args.trglang, args.srclang)
     else:
         bicleaner_tags = read_hardrulestags(filename, args.yamlfile, args.srclang, args.trglang)
+    if total_lines > 0 :
+        bicleaner_tags["src_pii"] = round((src_pii+trg_pii)*100/(total_lines),2)
+    
     if len(bicleaner_tags) > 0 :
         stats["hardrules_tags"] = json.dumps(bicleaner_tags)
     # bicleaner-classify scores
     bicleaner_scores = read_scores(filename)
+
+    
     if len(bicleaner_scores) > 0:
         stats["bicleaner_scores"] = json.dumps(bicleaner_scores)
     

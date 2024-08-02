@@ -9,6 +9,12 @@ import json
 import math
 import cProfile
 import statistics
+from iso639 import Lang
+
+
+from pii_manager import PiiEnum
+from pii_manager.api import PiiManager
+from pii_manager.lang import COUNTRY_ANY
 
 from timeit import default_timer
 from util import logging_setup
@@ -47,6 +53,8 @@ def write_stats(statsfile, statsdict):
     with open(statsfile, "a") as f:
         yaml.dump(statsdict,f)
 
+
+
 #Currently a dummy
 #def count_tokens(sent):
 #    return(len(sent.split(" ")))
@@ -79,7 +87,20 @@ def main():
     
     src_chars=0
 
-
+    src_pii=0
+    
+    #PII
+    pii_isolang = Lang(args.srclang.split('_')[0])
+    if pii_isolang.pt3 == 'hbs':
+        pii_lang = 'hbs'
+    elif not pii_isolang.pt1:
+        pii_lang = 'any'
+    else:
+        pii_lang = pii_isolang.pt1
+    pii_country = COUNTRY_ANY
+    pii_tasklist = (PiiEnum.IP_ADDRESS, PiiEnum.EMAIL_ADDRESS, PiiEnum.PHONE_NUMBER)
+    pii_proc = PiiManager(pii_lang, pii_country, tasks=pii_tasklist, mode="extract")
+    
     #Pure metadata could be in a different function
     stats = {}
     stats["corpus"] = os.path.basename(args.corpus.name)
@@ -129,6 +150,12 @@ def main():
         total_lines = total_lines+1
         src_line = src_line.strip()
 
+        pii_matches = pii_proc(src_line)
+        try:
+            next(pii_matches)
+            src_pii += 1            
+        except StopIteration:
+            pass
 
         if not args.lite:               
             tokenized_src = src_tokenizer.tokenize(src_line)
@@ -310,9 +337,12 @@ def main():
     #hardrules annotations
     logging.debug("Reading hardrules tags")
     monocleaner_tags = read_hardrulestags(filename, "",  args.srclang)
+    if total_lines > 0 :
+        monocleaner_tags["src_pii"] = round(src_pii*100/(total_lines),2)
+        
     if len(monocleaner_tags) > 0 :
         stats["hardrules_tags"] = json.dumps(monocleaner_tags)
-
+    
     # monocleaner scores    
     #logging.debug("Reading monocleaner scores")
     #monocleaner_scores = read_scores(filename)

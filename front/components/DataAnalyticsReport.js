@@ -232,7 +232,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 								? "Length ratio"
 								: v[0] === "PII"
 								? "PII"
-								: "Contains porn",
+								: "Contains PII",
 						value: parseFloat(v[1]),
 						perc: `${v[1]} %`,
 					};
