@@ -39,6 +39,9 @@ export default function Uploader({ languageList }) {
 	const [missingFile, setMissingFile] = useState(false);
 	const [missingLanguage, setMissingLanguage] = useState(false);
 
+	const [origin, setOrigin] = useState("");
+	const [target, setTarget] = useState("");
+
 	const toastMessage = (alert) => {
 		setTimeout(() => {
 			if (alert === "upload") {
@@ -60,7 +63,6 @@ export default function Uploader({ languageList }) {
 	};
 
 	async function onSubmitForm(data) {
-
 		const dataFields = Object.entries(data);
 
 		if (
@@ -96,6 +98,8 @@ export default function Uploader({ languageList }) {
 						setUpload(true);
 						toastMessage("upload");
 						reset();
+						setOrigin("");
+						setTarget("");
 						setStatus(false);
 					}
 				} catch (err) {
@@ -433,8 +437,12 @@ export default function Uploader({ languageList }) {
 								id="srclang"
 								data={languageList}
 								dataKey="value"
+								value={origin}
 								textField="label"
-								onChange={(value) => setValue("srclang", value.value)}
+								onChange={(value) => {
+									setOrigin(value.value);
+									setValue("srclang", value.value);
+								}}
 								style={
 									uploadStatus === "UPLOADING" ? { position: "static" } : {}
 								}
@@ -451,8 +459,12 @@ export default function Uploader({ languageList }) {
 									id="trglang"
 									data={languageList}
 									dataKey="value"
+									value={target}
 									textField="label"
-									onChange={(value) => setValue("trglang", value.value)}
+									onChange={(value) => {
+										setTarget(value.value)
+										setValue("trglang", value.value);
+									}}
 									style={
 										uploadStatus === "UPLOADING" ? { position: "static" } : {}
 									}
