@@ -218,7 +218,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 	const noiseDistribution =
 		reportData && reportData.hardrules_tags
 			? Object.entries(JSON.parse(reportData.hardrules_tags))
-					.filter((el) => (!reportData.trglang ?  el[0] !== "length_ratio" : el ))
+					.filter((el) => (!reportData.trglang ? el[0] !== "length_ratio" : el))
 					.map((v) => {
 						return {
 							label:
@@ -234,6 +234,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
 									? "Length ratio"
 									: v[0] === "pii"
 									? "Contains PII"
+									: v[0] === "no_porn"
+									? "No porn"
 									: "",
 							value: parseFloat(v[1]),
 							perc: `${v[1]} %`,
