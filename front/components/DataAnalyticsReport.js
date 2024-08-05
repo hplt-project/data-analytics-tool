@@ -217,26 +217,28 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
 	const noiseDistribution =
 		reportData && reportData.hardrules_tags
-			? Object.entries(JSON.parse(reportData.hardrules_tags)).map((v) => {
-					return {
-						label:
-							v[0] === "not_too_long"
-								? "Too long"
-								: v[0] === "not_too_short"
-								? "Too short"
-								: v[0] === "no_urls"
-								? "URLs"
-								: v[0] === "no_bad_encoding"
-								? "Bad encoding"
-								: v[0] === "length_ratio" && reportData.trglang
-								? "Length ratio"
-								: v[0] === "PII"
-								? "PII"
-								: "Contains PII",
-						value: parseFloat(v[1]),
-						perc: `${v[1]} %`,
-					};
-			  })
+			? Object.entries(JSON.parse(reportData.hardrules_tags))
+					.filter((el) => (!reportData.trglang ?  el[0] !== "length_ratio" : el ))
+					.map((v) => {
+						return {
+							label:
+								v[0] === "not_too_long"
+									? "Too long"
+									: v[0] === "not_too_short"
+									? "Too short"
+									: v[0] === "no_urls"
+									? "URLs"
+									: v[0] === "no_bad_encoding"
+									? "Bad encoding"
+									: v[0] === "length_ratio"
+									? "Length ratio"
+									: v[0] === "pii"
+									? "Contains PII"
+									: "",
+							value: parseFloat(v[1]),
+							perc: `${v[1]} %`,
+						};
+					})
 			: "";
 
 	const offLoading = () => {
