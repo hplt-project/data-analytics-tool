@@ -69,6 +69,8 @@ def read_hardrulestags(corpusname, yamlfile, srclang, trglang=None):
     
     # tags (we can modify tag selection above)
     clean_tags = []
+
+    
     for tag in tagss:
         if "+" in tag:
             moretags = list(set(tag.split("+"))) # when there is more than one tag in the same sentence, just count the different type of tags
@@ -80,7 +82,9 @@ def read_hardrulestags(corpusname, yamlfile, srclang, trglang=None):
             clean_tags.extend([tag.strip()])
     
     tag_types = remove_porntag(yamlfile)
-
+    if trglang==None:
+        tag_types.remove("length_ratio")
+        
     tags_percent = {}
     for tag in tag_types:
         count = clean_tags.count(tag)

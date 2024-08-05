@@ -97,6 +97,7 @@ def main():
         pii_lang = 'any'
     else:
         pii_lang = pii_isolang.pt1
+
     pii_country = COUNTRY_ANY
     pii_tasklist = (PiiEnum.IP_ADDRESS, PiiEnum.EMAIL_ADDRESS, PiiEnum.PHONE_NUMBER)
     pii_proc = PiiManager(pii_lang, pii_country, tasks=pii_tasklist, mode="extract")
@@ -338,7 +339,7 @@ def main():
     logging.debug("Reading hardrules tags")
     monocleaner_tags = read_hardrulestags(filename, "",  args.srclang)
     if total_lines > 0 :
-        monocleaner_tags["src_pii"] = round(src_pii*100/(total_lines),2)
+        monocleaner_tags["pii"] = round(src_pii*100/(total_lines),2)
         
     if len(monocleaner_tags) > 0 :
         stats["hardrules_tags"] = json.dumps(monocleaner_tags)
