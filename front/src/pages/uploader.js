@@ -335,7 +335,6 @@ export default function Uploader({ languageList }) {
 								value="tmx"
 								onClick={(e) => {
 									if (e.target.checked) {
-										setStatus(false);
 										setDocs(false);
 									}
 								}}
@@ -362,8 +361,8 @@ export default function Uploader({ languageList }) {
 								value="docs"
 								onClick={(e) => {
 									if (e.target.checked) {
-										setStatus(true);
 										setDocs(true);
+										setStatus(true)
 									}
 								}}
 								{...register("corpus-format")}
