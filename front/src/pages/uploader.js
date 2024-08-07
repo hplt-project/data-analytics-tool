@@ -133,9 +133,14 @@ export default function Uploader({ languageList }) {
 				}
 			});
 
-			if (!data.trglang || status) {
+			if (!data.trglang || status || docs) {
 				formdata.set("trglang", "-");
 			}
+
+			if( status || docs){
+				formdata.set("lang-format", "mono")
+			}
+
 
 			let config = {
 				method: "POST",
@@ -353,7 +358,7 @@ export default function Uploader({ languageList }) {
 								className={styles["form-check-input"]}
 								type="radio"
 								name="corpus-format"
-								id="corpus-format-tmx"
+								id="corpus-format-docs"
 								value="docs"
 								onClick={(e) => {
 									if (e.target.checked) {
@@ -365,7 +370,7 @@ export default function Uploader({ languageList }) {
 							/>
 							<label
 								className={styles["form-check-label"]}
-								htmlFor="corpus-format-tmx"
+								htmlFor="corpus-format-docs"
 							>
 								Documents
 							</label>
@@ -385,6 +390,7 @@ export default function Uploader({ languageList }) {
 								name="lang-format"
 								id="lang-format-mono"
 								value="mono"
+								defaultChecked={status? true : false}
 								onClick={(e) => {
 									e.target.checked ? setStatus(true) : "";
 								}}
@@ -413,7 +419,7 @@ export default function Uploader({ languageList }) {
 									onClick={(e) => {
 										e.target.checked ? setStatus(false) : "";
 									}}
-									defaultChecked
+									defaultChecked={status? false : true}
 									{...register("lang-format")}
 								/>
 

@@ -55,6 +55,18 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
 	const [loadingPdf, setLoadingPdf] = useState(false);
 
+
+	const sentences = reportData.sentence_pairs
+	? reportData.sentence_pairs.toLocaleString("en-US")
+	: "";
+
+
+	const sentenceCount = reportData.sentence_pairs
+	? parseFloat(reportData.sentence_pairs)
+	: "";
+
+
+
 	// const totalMonocleanerScores = reportData.monocleaner_scores
 	// 	? JSON.parse(reportData.monocleaner_scores).reduce(
 	// 			(a, b) => a + parseFloat(b[1]),
@@ -205,6 +217,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 		  });
 
 	// NGRAMS
+
 	const srcNGrams = !reportData.src_ngrams
 		? ""
 		: JSON.parse(reportData.src_ngrams);
@@ -237,8 +250,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
 									: v[0] === "no_porn"
 									? "No porn"
 									: "",
-							value: parseFloat(v[1]),
-							perc: `${v[1]} %`,
+							value: parseFloat((v[1] * 100) /  sentenceCount),
+							perc: `${((v[1] * 100) /  sentenceCount).toFixed(2)} %`,
 						};
 					})
 			: "";
@@ -406,9 +419,6 @@ export default function DataAnalyticsReport({ reportData, date }) {
 		? reportData.trg_chars.toLocaleString("en-US")
 		: "";
 
-	const sentences = reportData.sentence_pairs
-		? reportData.sentence_pairs.toLocaleString("en-US")
-		: "";
 
 	const uniqueSegments = reportData.unique_sents ? reportData.unique_sents : "";
 
