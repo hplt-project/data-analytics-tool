@@ -502,7 +502,7 @@ def main():
     else:
         bicleaner_tags = read_hardrulestags(filename, args.yamlfile, args.srclang, args.trglang)
     if total_lines > 0 :
-        bicleaner_tags["pii"] = round((src_pii+trg_pii)*100/(total_lines),2)
+        bicleaner_tags["pii"] = src_pii+trg_pii
     
     if len(bicleaner_tags) > 0 :
         stats["hardrules_tags"] = json.dumps(bicleaner_tags)

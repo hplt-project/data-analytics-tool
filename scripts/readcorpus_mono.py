@@ -339,7 +339,7 @@ def main():
     logging.debug("Reading hardrules tags")
     monocleaner_tags = read_hardrulestags(filename, "",  args.srclang)
     if total_lines > 0 :
-        monocleaner_tags["pii"] = round(src_pii*100/(total_lines),2)
+        monocleaner_tags["pii"] = src_pii
         
     if len(monocleaner_tags) > 0 :
         stats["hardrules_tags"] = json.dumps(monocleaner_tags)
