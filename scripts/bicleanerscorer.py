@@ -60,7 +60,7 @@ def read_hardrulestags(corpusname, yamlfile, srclang, trglang=None):
     tags_count = {}
     
     for t in tag_types:
-        tags_count[t]=0.0
+        tags_count[t]=0
 
     '''
     for tag in tag_types:
