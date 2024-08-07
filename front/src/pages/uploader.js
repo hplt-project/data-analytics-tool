@@ -308,7 +308,6 @@ export default function Uploader({ languageList }) {
 								defaultChecked
 								onClick={(e) => {
 									if (e.target.checked) {
-										setStatus(false);
 										setDocs(false);
 									}
 								}}
