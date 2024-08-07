@@ -50,46 +50,59 @@ def read_hardrulestags(corpusname, yamlfile, srclang, trglang=None):
     if not os.path.exists(hardrules_output):
         return {}
     
-    keeps = []
-    tagss = []
+
     lines = 0
+    
+    tag_types = remove_porntag(yamlfile)
+    if trglang==None:
+        tag_types.remove("length_ratio")
+        
+    tags_count = {}
+    
+    for t in tag_types:
+        tags_count[t]=0
+
+    '''
+    for tag in tag_types:
+        count = clean_tags.count(tag)
+        if lines > 0:
+            percentage = round(count*100/(lines),2)     
+        else:
+            percentage = 0
+        tags_percent[tag]=percentage
+    '''
+
     for line in open(hardrules_output, "r"):
         lines =  lines+1
         try:
-            keep, tags = line.split("\t")
-            keeps.append(keep)
-            tagss.append(tags)
+            hr_score, tags = line.split("\t")                    
+            if tags.strip() == "keep":
+                continue
+                
+            if "+" in tags:
+                moretags = list(set(tags.split("+"))) # when there is more than one tag in the same sentence, just count the different type of tags
+                for tag in moretags:
+                    tag = tag.replace("(right)","").replace("(left)","").replace("(left,right)","")
+                    tags_count[tag.strip()]+=1
+            else:
+                tag = tags.replace("(right)","").replace("(left)","").replace("(left,right)","")
+                tags_count[tag.strip()]+=1           
+
+            
+            #tagss.append(tags)
             
         except ValueError as ex:
             logging.error("Error in 'read_hardrulestags': Missing parts")
             logging.error(ex)
             logging.error(line)
-            keeps.append("0")
-            tagss.append("wrong_cols")
-    
-    # tags (we can modify tag selection above)
-    clean_tags = []
-    for tag in tagss:
-        if "+" in tag:
-            moretags = list(set(tag.split("+"))) # when there is more than one tag in the same sentence, just count the different type of tags
-            for tag in moretags:
-                tag = tag.replace("(right)","").replace("(left)","").replace("(left,right)","")
-                clean_tags.extend([tag.strip()])
-        else:
-            tag = tag.replace("(right)","").replace("(left)","").replace("(left,right)","")
-            clean_tags.extend([tag.strip()])
-    
-    tag_types = remove_porntag(yamlfile)
-
-    tags_percent = {}
-    for tag in tag_types:
-        count = clean_tags.count(tag)
-        if lines > 0:
-            percentage = round(count*100/(lines),2)	
-        else:
-            percentage = 0
-        tags_percent[tag]=percentage
-    return(tags_percent)
+            #keeps.append("0")
+            #tagss.append("wrong_cols")
+            continue
+        except KeyError as ex:
+            #A tag we don't care about
+            continue
+            
+    return(tags_count)
 
 def read_scores(corpusname):
     scoresfile = corpusname+".classify"
