@@ -12,7 +12,11 @@ with open(args.yaml_file, "r") as file:
     data =  yaml.load(file, Loader=yaml.FullLoader)
     
     total_sents = data.get("sentence_pairs")
-    hardrules = json.loads(data.get("hardrules_tags"))
+    raw_hardrules = data.get("hardrules_tags")
+    if raw_hardrules == None:
+        exit(0)
+        
+    hardrules = json.loads(raw_hardrules)
     new_hardrules =  {}
         
     for tag in hardrules:

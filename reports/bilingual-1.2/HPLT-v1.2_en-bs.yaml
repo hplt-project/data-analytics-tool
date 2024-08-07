@@ -1,11 +1,24 @@
 bicleaner_scores: '[[0.0, 119], [0.1, 89], [0.2, 16], [0.3, 13], [0.4, 41], [0.5,
   20624], [0.6, 22995], [0.7, 29355], [0.8, 46838], [0.9, 119925]]'
 corpus: HPLT.en-bs
-hardrules_tags: '{"not_too_long": 0.0, "not_too_short": 0.0, "no_urls": 0.0, "no_bad_encoding":
-  0.0, "no_porn": 0.0}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 0, "no_urls": 0, "no_bad_encoding":
+  0, "no_porn": 0}'
 sentence_pairs: 240015
 src_bytes: 16.89 MB
 src_langs: '[["en", 240015]]'
+src_ngrams: '{"1": [[["international"], 22926], [["climate"], 15856], [["used"], 13578],
+  [["united"], 12963], [["usa"], 12768]], "2": [[["international loads"], 6858], [["international
+  transportation"], 6338], [["subtropical climate"], 6037], [["humid subtropical"],
+  6037], [["postal address"], 5181]], "3": [[["humid subtropical climate"], 6037],
+  [["condition not indicated"], 4584], [["cities and villages"], 4473], [["climate
+  humid subtropical"], 4023], [["k\u00f6ppen climate classification"], 4020]], "4":
+  [[["nearby cities and villages"], 4464], [["climate humid subtropical climate"],
+  4023], [["transport cargoagent.net freight offers"], 3609], [["cargoagent.net freight
+  offers summary"], 3609], [["offers summary international loads"], 3531]], "5": [[["transport
+  cargoagent.net freight offers summary"], 3609], [["freight offers summary international
+  loads"], 3531], [["cargoagent.net freight offers summary international"], 3531],
+  [["get full analysis of name"], 2635], [["exchange- international transportation
+  and spedition"], 1687]]}'
 src_sent_tokens: '[[0, 6], [3, 14657], [4, 17944], [5, 12897], [6, 22401], [7, 16001],
   [8, 11469], [9, 13203], [10, 11704], [11, 13689], [12, 15958], [13, 9492], [14,
   8283], [15, 7326], [16, 6102], [17, 5201], [18, 5545], [19, 3560], [20, 3536], [21,
@@ -53,6 +66,19 @@ srclang: en
 timestamp: 1698311607.250022
 trg_bytes: 17.76 MB
 trg_langs: '[["bs", 222510], ["sr", 16557], ["hr", 880], ["sl", 65], ["en", 3]]'
+trg_ngrams: '{"1": [[["dr\u017eave"], 29219], [["sjedinjene"], 28318], [["ameri\u010dke"],
+  27756], [["me\u0111unarodni"], 20832], [["prevoz"], 14905]], "2": [[["ameri\u010dke
+  dr\u017eave"], 27600], [["sjedinjene ameri\u010dke"], 27576], [["me\u0111unarodni
+  transport"], 9971], [["me\u0111unarodni prevoz"], 9282], [["nije navedeno"], 7062]],
+  "3": [[["sjedinjene ameri\u010dke dr\u017eave"], 27566], [["vru\u0107im ljetnim
+  mjesecima"], 6959], [["vla\u017ena suptropska klima"], 6959], [["klima s vru\u0107im"],
+  6959], [["tereti za me\u0111unarodni"], 6917]], "4": [[["suptropska klima s vru\u0107im"],
+  6959], [["klima s vru\u0107im ljetnim"], 6959], [["okolnih gradova i sela"], 4470],
+  [["tereti za me\u0111unarodni transport"], 3090], [["tereti za me\u0111unarodni
+  prevoz"], 2983]], "5": [[["vla\u017ena suptropska klima s vru\u0107im"], 6959],
+  [["suptropska klima s vru\u0107im ljetnim"], 6959], [["klima s vru\u0107im ljetnim
+  mjesecima"], 6959], [["berza za me\u0111unarodni transport robe"], 2056], [["kamiona
+  za me\u0111unarodni prevoz robe"], 1630]]}'
 trg_sent_tokens: '[[0, 6], [3, 13899], [4, 16695], [5, 17486], [6, 13393], [7, 11200],
   [8, 13027], [9, 11134], [10, 9327], [11, 21523], [12, 11012], [13, 10370], [14,
   14828], [15, 13012], [16, 7268], [17, 5365], [18, 4325], [19, 4632], [20, 3460],
@@ -102,29 +128,3 @@ ttr_trg: 0.05
 unique_sents: 240013
 warnings:
 - trg_warning_tok_reldi_sr
-src_ngrams: '{"1": [[["international"], 22926], [["climate"], 15856], [["used"], 13578],
-  [["united"], 12963], [["usa"], 12768]], "2": [[["international loads"], 6858], [["international
-  transportation"], 6338], [["subtropical climate"], 6037], [["humid subtropical"],
-  6037], [["postal address"], 5181]], "3": [[["humid subtropical climate"], 6037],
-  [["condition not indicated"], 4584], [["cities and villages"], 4473], [["climate
-  humid subtropical"], 4023], [["k\u00f6ppen climate classification"], 4020]], "4":
-  [[["nearby cities and villages"], 4464], [["climate humid subtropical climate"],
-  4023], [["transport cargoagent.net freight offers"], 3609], [["cargoagent.net freight
-  offers summary"], 3609], [["offers summary international loads"], 3531]], "5": [[["transport
-  cargoagent.net freight offers summary"], 3609], [["freight offers summary international
-  loads"], 3531], [["cargoagent.net freight offers summary international"], 3531],
-  [["get full analysis of name"], 2635], [["exchange- international transportation
-  and spedition"], 1687]]}'
-trg_ngrams: '{"1": [[["dr\u017eave"], 29219], [["sjedinjene"], 28318], [["ameri\u010dke"],
-  27756], [["me\u0111unarodni"], 20832], [["prevoz"], 14905]], "2": [[["ameri\u010dke
-  dr\u017eave"], 27600], [["sjedinjene ameri\u010dke"], 27576], [["me\u0111unarodni
-  transport"], 9971], [["me\u0111unarodni prevoz"], 9282], [["nije navedeno"], 7062]],
-  "3": [[["sjedinjene ameri\u010dke dr\u017eave"], 27566], [["vru\u0107im ljetnim
-  mjesecima"], 6959], [["vla\u017ena suptropska klima"], 6959], [["klima s vru\u0107im"],
-  6959], [["tereti za me\u0111unarodni"], 6917]], "4": [[["suptropska klima s vru\u0107im"],
-  6959], [["klima s vru\u0107im ljetnim"], 6959], [["okolnih gradova i sela"], 4470],
-  [["tereti za me\u0111unarodni transport"], 3090], [["tereti za me\u0111unarodni
-  prevoz"], 2983]], "5": [[["vla\u017ena suptropska klima s vru\u0107im"], 6959],
-  [["suptropska klima s vru\u0107im ljetnim"], 6959], [["klima s vru\u0107im ljetnim
-  mjesecima"], 6959], [["berza za me\u0111unarodni transport robe"], 2056], [["kamiona
-  za me\u0111unarodni prevoz robe"], 1630]]}'

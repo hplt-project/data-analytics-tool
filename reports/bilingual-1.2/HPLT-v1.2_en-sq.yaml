@@ -1,11 +1,21 @@
 bicleaner_scores: '[[0.0, 17], [0.1, 0], [0.2, 0], [0.3, 0], [0.4, 1], [0.5, 128737],
   [0.6, 147712], [0.7, 185440], [0.8, 287588], [0.9, 906480]]'
 corpus: HPLT.en-sq
-hardrules_tags: '{"not_too_long": 0.0, "not_too_short": 0.0, "no_urls": 0.0, "no_bad_encoding":
-  0.0, "no_porn": 0.0}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 0, "no_urls": 0, "no_bad_encoding":
+  0, "no_porn": 0}'
 sentence_pairs: 1655975
 src_bytes: 147.06 MB
 src_langs: '[["en", 1655975]]'
+src_ngrams: '{"1": [[["porn"], 135689], [["free"], 106398], [["quality"], 91707],
+  [["video"], 84257], [["hd"], 82912]], "2": [[["good quality"], 24513], [["excellent
+  quality"], 24050], [["hd excellent"], 22821], [["quality hd"], 18660], [["porn video"],
+  16502]], "3": [[["hd excellent quality"], 22798], [["video in good"], 20806], [["good
+  quality hd"], 11911], [["hd great quality"], 10918], [["site porno365.mobi close"],
+  10755]], "4": [[["video in good quality"], 20795], [["name of this movie"], 16291],
+  [["site porno365.mobi close category"], 10670], [["eyes of the operator"], 7921],
+  [["hd quality for free"], 7866]], "5": [[["video in good quality hd"], 11615], [["video
+  is in the categories"], 9310], [["original name of this movie"], 9310], [["watch
+  and download in hd"], 7833], [["look free and without registration"], 6480]]}'
 src_sent_tokens: '[[0, 34], [3, 23397], [4, 41278], [5, 64213], [6, 77396], [7, 91166],
   [8, 90819], [9, 91411], [10, 88807], [11, 91282], [12, 82481], [13, 73228], [14,
   65064], [15, 58235], [16, 50235], [17, 48624], [18, 45181], [19, 41607], [20, 39646],
@@ -73,6 +83,18 @@ srclang: en
 timestamp: 1698280132.8458314
 trg_bytes: 168.64 MB
 trg_langs: '[["sq", 1655958], ["en", 17]]'
+trg_ngrams: '{"1": [[["t\u00eb"], 2022829], [["n\u00eb"], 949203], [["p\u00ebr"],
+  538651], [["nj\u00eb"], 412997], [["q\u00eb"], 255314]], "2": [[["p\u00ebr t\u00eb"],
+  161195], [["m\u00eb t\u00eb"], 72291], [["cil\u00ebsi t\u00eb"], 64223], [["t\u00eb
+  mir\u00eb"], 45392], [["n\u00eb nj\u00eb"], 45124]], "3": [[["hd me cil\u00ebsi"],
+  34564], [["cil\u00ebsi t\u00eb shk\u00eblqyer"], 23296], [["cil\u00ebsi t\u00eb
+  mir\u00eb"], 21788], [["p\u00ebr t\u00eb lira"], 21087], [["video me cil\u00ebsi"],
+  14770]], "4": [[["hd me cil\u00ebsi t\u00eb"], 34562], [["video me cil\u00ebsi t\u00eb"],
+  14759], [["n\u00eb hd me cil\u00ebsi"], 11669], [["faqja porno365.mobi af\u00ebr
+  kategoria"], 10670], [["falas dhe pa regjistrim"], 10045]], "5": [[["hd me cil\u00ebsi
+  t\u00eb shk\u00eblqyer"], 22818], [["hd me cil\u00ebsi t\u00eb mir\u00eb"], 11732],
+  [["n\u00eb hd me cil\u00ebsi t\u00eb"], 11669], [["video n\u00eb hd me cil\u00ebsi"],
+  11392], [["emri origjinal i k\u00ebtij filmi"], 9310]]}'
 trg_sent_tokens: '[[0, 34], [3, 18261], [4, 28404], [5, 50376], [6, 63537], [7, 76618],
   [8, 81867], [9, 88335], [10, 84788], [11, 88232], [12, 83099], [13, 75713], [14,
   71894], [15, 65321], [16, 53487], [17, 49524], [18, 45416], [19, 44177], [20, 39958],
@@ -142,25 +164,3 @@ ttr_trg: 0.02
 unique_sents: 1655959
 warnings:
 - trg_warning_tok_moses_en
-src_ngrams: '{"1": [[["porn"], 135689], [["free"], 106398], [["quality"], 91707],
-  [["video"], 84257], [["hd"], 82912]], "2": [[["good quality"], 24513], [["excellent
-  quality"], 24050], [["hd excellent"], 22821], [["quality hd"], 18660], [["porn video"],
-  16502]], "3": [[["hd excellent quality"], 22798], [["video in good"], 20806], [["good
-  quality hd"], 11911], [["hd great quality"], 10918], [["site porno365.mobi close"],
-  10755]], "4": [[["video in good quality"], 20795], [["name of this movie"], 16291],
-  [["site porno365.mobi close category"], 10670], [["eyes of the operator"], 7921],
-  [["hd quality for free"], 7866]], "5": [[["video in good quality hd"], 11615], [["video
-  is in the categories"], 9310], [["original name of this movie"], 9310], [["watch
-  and download in hd"], 7833], [["look free and without registration"], 6480]]}'
-trg_ngrams: '{"1": [[["t\u00eb"], 2022829], [["n\u00eb"], 949203], [["p\u00ebr"],
-  538651], [["nj\u00eb"], 412997], [["q\u00eb"], 255314]], "2": [[["p\u00ebr t\u00eb"],
-  161195], [["m\u00eb t\u00eb"], 72291], [["cil\u00ebsi t\u00eb"], 64223], [["t\u00eb
-  mir\u00eb"], 45392], [["n\u00eb nj\u00eb"], 45124]], "3": [[["hd me cil\u00ebsi"],
-  34564], [["cil\u00ebsi t\u00eb shk\u00eblqyer"], 23296], [["cil\u00ebsi t\u00eb
-  mir\u00eb"], 21788], [["p\u00ebr t\u00eb lira"], 21087], [["video me cil\u00ebsi"],
-  14770]], "4": [[["hd me cil\u00ebsi t\u00eb"], 34562], [["video me cil\u00ebsi t\u00eb"],
-  14759], [["n\u00eb hd me cil\u00ebsi"], 11669], [["faqja porno365.mobi af\u00ebr
-  kategoria"], 10670], [["falas dhe pa regjistrim"], 10045]], "5": [[["hd me cil\u00ebsi
-  t\u00eb shk\u00eblqyer"], 22818], [["hd me cil\u00ebsi t\u00eb mir\u00eb"], 11732],
-  [["n\u00eb hd me cil\u00ebsi t\u00eb"], 11669], [["video n\u00eb hd me cil\u00ebsi"],
-  11392], [["emri origjinal i k\u00ebtij filmi"], 9310]]}'

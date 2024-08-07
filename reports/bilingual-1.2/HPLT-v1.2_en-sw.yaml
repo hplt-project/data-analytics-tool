@@ -1,11 +1,21 @@
 bicleaner_scores: '[[0.0, 18], [0.1, 0], [0.2, 0], [0.3, 0], [0.4, 4], [0.5, 184460],
   [0.6, 146366], [0.7, 205018], [0.8, 403858], [0.9, 770499]]'
 corpus: HPLT.en-sw
-hardrules_tags: '{"not_too_long": 0.0, "not_too_short": 0.0, "no_urls": 0.0, "no_bad_encoding":
-  0.0, "no_porn": 0.0}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 0, "no_urls": 0, "no_bad_encoding":
+  0, "no_porn": 0}'
 sentence_pairs: 1710223
 src_bytes: 112.98 MB
 src_langs: '[["en", 1710223]]'
+src_ngrams: '{"1": [[["english"], 545088], [["used"], 408366], [["books"], 318411],
+  [["year"], 295517], [["ago"], 293229]], "2": [[["year ago"], 290486], [["rare books"],
+  84158], [["used books"], 84146], [["second hand"], 84140], [["hand books"], 84121]],
+  "3": [[["second hand books"], 84121], [["books and second"], 84121], [["available
+  rare books"], 84121], [["apps on google"], 12118], [["visit website email"], 10151]],
+  "4": [[["posted over a year"], 96028], [["used books and second"], 84121], [["books
+  of the title"], 84121], [["books and second hand"], 84121], [["posts have been made"],
+  14153]], "5": [[["posted over a year ago"], 95793], [["used books and second hand"],
+  84121], [["hand books of the title"], 84121], [["books and second hand books"],
+  84121], [["android apps on google play"], 12116]]}'
 src_sent_tokens: '[[0, 36], [3, 9320], [4, 17285], [5, 26625], [6, 101322], [7, 95950],
   [8, 100725], [9, 126258], [10, 159607], [11, 143313], [12, 122100], [13, 119572],
   [14, 95972], [15, 79639], [16, 62288], [17, 54258], [18, 48755], [19, 38113], [20,
@@ -66,6 +76,17 @@ srclang: en
 timestamp: 1698076648.9276636
 trg_bytes: 130.75 MB
 trg_langs: '[["sw", 1710205], ["en", 18]]'
+trg_ngrams: '{"1": [[["lugha"], 594814], [["kiingereza"], 568720], [["kutumika"],
+  401071], [["mwaka"], 313639], [["uliopita"], 304802]], "2": [[["zimeorodheshwa kabisa"],
+  85837], [["vitabu vya"], 84577], [["vya kichwa"], 84144], [["vitabu kutumika"],
+  84126], [["pili vitabu"], 84126]], "3": [[["lugha ya kiingereza"], 566170], [["mwaka
+  mmoja uliopita"], 304319], [["mkono wa pili"], 84135], [["kutumika na mkono"], 84127],
+  [["vitabu vya kichwa"], 84126]], "4": [[["ilitumwa zaidi ya mwaka"], 86552], [["vitabu
+  kutumika na mkono"], 84126], [["pili vitabu vya kichwa"], 84126], [["mkono wa pili
+  vitabu"], 84126], [["mwaka mmoja uliopita by"], 53485]], "5": [[["kutumika na mkono
+  wa pili"], 84127], [["mkono wa pili vitabu vya"], 84126], [["hakuna chapisho zilizowekwa
+  kwa ukuta"], 14368], [["programu za android kwenye google"], 12125], [["tembelea
+  tovuti tuma barua pepe"], 10242]]}'
 trg_sent_tokens: '[[0, 36], [3, 4629], [4, 11450], [5, 22377], [6, 33315], [7, 111455],
   [8, 94713], [9, 103312], [10, 108821], [11, 127028], [12, 156384], [13, 135975],
   [14, 111867], [15, 102714], [16, 82250], [17, 62455], [18, 55768], [19, 53753],
@@ -123,24 +144,3 @@ ttr_trg: 0.03
 unique_sents: 1710206
 warnings:
 - trg_warning_tok_moses_en
-src_ngrams: '{"1": [[["english"], 545088], [["used"], 408366], [["books"], 318411],
-  [["year"], 295517], [["ago"], 293229]], "2": [[["year ago"], 290486], [["rare books"],
-  84158], [["used books"], 84146], [["second hand"], 84140], [["hand books"], 84121]],
-  "3": [[["second hand books"], 84121], [["books and second"], 84121], [["available
-  rare books"], 84121], [["apps on google"], 12118], [["visit website email"], 10151]],
-  "4": [[["posted over a year"], 96028], [["used books and second"], 84121], [["books
-  of the title"], 84121], [["books and second hand"], 84121], [["posts have been made"],
-  14153]], "5": [[["posted over a year ago"], 95793], [["used books and second hand"],
-  84121], [["hand books of the title"], 84121], [["books and second hand books"],
-  84121], [["android apps on google play"], 12116]]}'
-trg_ngrams: '{"1": [[["lugha"], 594814], [["kiingereza"], 568720], [["kutumika"],
-  401071], [["mwaka"], 313639], [["uliopita"], 304802]], "2": [[["zimeorodheshwa kabisa"],
-  85837], [["vitabu vya"], 84577], [["vya kichwa"], 84144], [["vitabu kutumika"],
-  84126], [["pili vitabu"], 84126]], "3": [[["lugha ya kiingereza"], 566170], [["mwaka
-  mmoja uliopita"], 304319], [["mkono wa pili"], 84135], [["kutumika na mkono"], 84127],
-  [["vitabu vya kichwa"], 84126]], "4": [[["ilitumwa zaidi ya mwaka"], 86552], [["vitabu
-  kutumika na mkono"], 84126], [["pili vitabu vya kichwa"], 84126], [["mkono wa pili
-  vitabu"], 84126], [["mwaka mmoja uliopita by"], 53485]], "5": [[["kutumika na mkono
-  wa pili"], 84127], [["mkono wa pili vitabu vya"], 84126], [["hakuna chapisho zilizowekwa
-  kwa ukuta"], 14368], [["programu za android kwenye google"], 12125], [["tembelea
-  tovuti tuma barua pepe"], 10242]]}'

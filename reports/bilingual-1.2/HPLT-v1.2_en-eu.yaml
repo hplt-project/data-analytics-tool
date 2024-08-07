@@ -1,11 +1,21 @@
 bicleaner_scores: '[[0.0, 7], [0.1, 0], [0.2, 0], [0.3, 0], [0.4, 1], [0.5, 49207],
   [0.6, 59342], [0.7, 85739], [0.8, 156300], [0.9, 260098]]'
 corpus: HPLT.en-eu
-hardrules_tags: '{"not_too_long": 0.0, "not_too_short": 0.0, "no_urls": 0.0, "no_bad_encoding":
-  0.0, "no_porn": 0.0}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 0, "no_urls": 0, "no_bad_encoding":
+  0, "no_porn": 0}'
 sentence_pairs: 610694
 src_bytes: 59.02 MB
 src_langs: '[["en", 610694]]'
+src_ngrams: '{"1": [[["information"], 18854], [["one"], 18626], [["basque"], 17897],
+  [["use"], 16812], [["new"], 16674]], "2": [[["built surface"], 6667], [["basque
+  country"], 5721], [["united states"], 4209], [["personal data"], 4072], [["get full"],
+  3546]], "3": [[["get full analysis"], 3544], [["analysis of surname"], 2437], [["name
+  and surname"], 1610], [["analysis of name"], 1103], [["time genie timegenie"], 1020]],
+  "4": [[["full analysis of surname"], 2437], [["distance to the sea"], 1555], [["full
+  analysis of name"], 1103], [["registered on our database"], 895], [["male get full
+  analysis"], 874]], "5": [[["get full analysis of surname"], 2437], [["get full analysis
+  of name"], 1103], [["university of the basque country"], 544], [["try one of these
+  games"], 526], [["wikimedia commons has media related"], 486]]}'
 src_sent_tokens: '[[0, 14], [3, 11562], [4, 21575], [5, 24930], [6, 29787], [7, 30585],
   [8, 27421], [9, 27231], [10, 27438], [11, 26488], [12, 24671], [13, 22618], [14,
   20509], [15, 19801], [16, 18779], [17, 18450], [18, 16918], [19, 15714], [20, 15000],
@@ -65,6 +75,18 @@ srclang: en
 timestamp: 1698270789.3899953
 trg_bytes: 61.91 MB
 trg_langs: '[["eu", 610687], ["en", 7]]'
+trg_ngrams: '{"1": [[["behar"], 21573], [["izango"], 18744], [["egiten"], 17726],
+  [["nahi"], 16767], [["duen"], 15944]], "2": [[["eraikitako azalera"], 6694], [["ibilbide
+  en"], 5812], [["ahal izango"], 4916], [["estatu batuak"], 3221], [["entziklopedia
+  askea"], 3131]], "3": [[["lortu abizenaren analisi"], 2445], [["abizenaren analisi
+  osoa"], 2441], [["ameriketako estatu batuak"], 1895], [["atzeko plano pertsonalizatua"],
+  1569], [["bilaketarekin bat datozen"], 1349]], "4": [[["lortu abizenaren analisi
+  osoa"], 2441], [["bilaketarekin bat datozen emaitzak"], 1348], [["bilatu filtros
+  zure bilaketarekin"], 1342], [["commonsen badira fitxategi gehiago"], 1105], [["wikimedia
+  commonsen badira fitxategi"], 1101]], "5": [[["filtros zure bilaketarekin bat datozen"],
+  1342], [["wikimedia commonsen badira fitxategi gehiago"], 1101], [["ohikoena eta
+  ezohikoena den abizena"], 800], [["gizonezkoa talde izenaren azterketa osoa"], 559],
+  [["artisten eta kultur arloko eragileen"], 450]]}'
 trg_sent_tokens: '[[0, 14], [3, 18124], [4, 26613], [5, 31182], [6, 33659], [7, 35173],
   [8, 33044], [9, 29929], [10, 30967], [11, 30004], [12, 27965], [13, 26031], [14,
   23390], [15, 22116], [16, 20170], [17, 19670], [18, 17289], [19, 16397], [20, 15632],
@@ -124,25 +146,3 @@ ttr_trg: 0.06
 unique_sents: 610688
 warnings:
 - trg_warning_tok_moses_es
-src_ngrams: '{"1": [[["information"], 18854], [["one"], 18626], [["basque"], 17897],
-  [["use"], 16812], [["new"], 16674]], "2": [[["built surface"], 6667], [["basque
-  country"], 5721], [["united states"], 4209], [["personal data"], 4072], [["get full"],
-  3546]], "3": [[["get full analysis"], 3544], [["analysis of surname"], 2437], [["name
-  and surname"], 1610], [["analysis of name"], 1103], [["time genie timegenie"], 1020]],
-  "4": [[["full analysis of surname"], 2437], [["distance to the sea"], 1555], [["full
-  analysis of name"], 1103], [["registered on our database"], 895], [["male get full
-  analysis"], 874]], "5": [[["get full analysis of surname"], 2437], [["get full analysis
-  of name"], 1103], [["university of the basque country"], 544], [["try one of these
-  games"], 526], [["wikimedia commons has media related"], 486]]}'
-trg_ngrams: '{"1": [[["behar"], 21573], [["izango"], 18744], [["egiten"], 17726],
-  [["nahi"], 16767], [["duen"], 15944]], "2": [[["eraikitako azalera"], 6694], [["ibilbide
-  en"], 5812], [["ahal izango"], 4916], [["estatu batuak"], 3221], [["entziklopedia
-  askea"], 3131]], "3": [[["lortu abizenaren analisi"], 2445], [["abizenaren analisi
-  osoa"], 2441], [["ameriketako estatu batuak"], 1895], [["atzeko plano pertsonalizatua"],
-  1569], [["bilaketarekin bat datozen"], 1349]], "4": [[["lortu abizenaren analisi
-  osoa"], 2441], [["bilaketarekin bat datozen emaitzak"], 1348], [["bilatu filtros
-  zure bilaketarekin"], 1342], [["commonsen badira fitxategi gehiago"], 1105], [["wikimedia
-  commonsen badira fitxategi"], 1101]], "5": [[["filtros zure bilaketarekin bat datozen"],
-  1342], [["wikimedia commonsen badira fitxategi gehiago"], 1101], [["ohikoena eta
-  ezohikoena den abizena"], 800], [["gizonezkoa talde izenaren azterketa osoa"], 559],
-  [["artisten eta kultur arloko eragileen"], 450]]}'

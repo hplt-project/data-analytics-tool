@@ -1,11 +1,21 @@
 bicleaner_scores: '[[0.0, 61], [0.1, 0], [0.2, 0], [0.3, 0], [0.4, 4], [0.5, 428128],
   [0.6, 469935], [0.7, 612775], [0.8, 1040081], [0.9, 3538868]]'
 corpus: HPLT.en-et
-hardrules_tags: '{"not_too_long": 0.0, "not_too_short": 0.0, "no_urls": 0.0, "no_bad_encoding":
-  0.0, "no_porn": 0.0}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 0, "no_urls": 0, "no_bad_encoding":
+  0, "no_porn": 0}'
 sentence_pairs: 6089852
 src_bytes: 564.07 MB
 src_langs: '[["en", 6089852]]'
+src_ngrams: '{"1": [[["best"], 319870], [["airport"], 299809], [["books"], 285365],
+  [["hotel"], 276390], [["car"], 275518]], "2": [[["car hire"], 118255], [["best prices"],
+  103370], [["best price"], 88195], [["second hand"], 87976], [["rare books"], 87927]],
+  "3": [[["year of manufacture"], 142172], [["second hand books"], 87908], [["books
+  and second"], 87908], [["available rare books"], 87908], [["amend your booking"],
+  63983]], "4": [[["used books and second"], 87908], [["books of the title"], 87908],
+  [["books and second hand"], 87908], [["find you the best"], 58984], [["get the best
+  price"], 58956]], "5": [[["used books and second hand"], 87908], [["hand books of
+  the title"], 87908], [["books and second hand books"], 87908], [["amend your booking
+  for free"], 63978], [["rentalcars.com and you can amend"], 63977]]}'
 src_sent_tokens: '[[0, 122], [3, 58659], [4, 159851], [5, 244389], [6, 310598], [7,
   310061], [8, 315629], [9, 312040], [10, 290950], [11, 277708], [12, 263368], [13,
   246247], [14, 236230], [15, 231812], [16, 199905], [17, 200114], [18, 194441], [19,
@@ -85,6 +95,18 @@ srclang: en
 timestamp: 1698250405.2327938
 trg_bytes: 579.75 MB
 trg_langs: '[["et", 6089791], ["en", 61]]'
+trg_ngrams: '{"1": [[["v\u00f5i"], 503390], [["ning"], 343835], [["kasutatud"], 234275],
+  [["asukohas"], 217472], [["tasuta"], 212514]], "2": [[["kasutatud raamatute"], 176436],
+  [["haruldased raamatud"], 88219], [["saadaval haruldased"], 88218], [["raamatute
+  pealkiri"], 88218], [["t\u00e4ielikult loetletud"], 85807]], "3": [[["saadaval haruldased
+  raamatud"], 88218], [["raamatute ja kasutatud"], 88218], [["kasutatud raamatute
+  pealkiri"], 88218], [["saate oma broneeringut"], 63981], [["broneeringut tasuta
+  muuta"], 63979]], "4": [[["raamatute ja kasutatud raamatute"], 88218], [["kasutatud
+  raamatute ja kasutatud"], 88218], [["saate oma broneeringut tasuta"], 63980], [["kaudu
+  ja te saate"], 63880], [["leida teile parimad hinnapakkumised"], 58944]], "5": [[["raamatute
+  ja kasutatud raamatute pealkiri"], 88218], [["kasutatud raamatute ja kasutatud raamatute"],
+  88218], [["saate oma broneeringut tasuta muuta"], 63979], [["veebilehe kaudu ja
+  te saate"], 63880], [["meie juures ja me garanteerime"], 58844]]}'
 trg_sent_tokens: '[[0, 122], [3, 122418], [4, 228475], [5, 336585], [6, 355925], [7,
   418322], [8, 385576], [9, 354669], [10, 353231], [11, 314963], [12, 280300], [13,
   266276], [14, 246609], [15, 245428], [16, 216446], [17, 195485], [18, 185530], [19,
@@ -157,25 +179,3 @@ ttr_src: 0.01
 ttr_trg: 0.03
 unique_sents: 6089792
 warnings: []
-src_ngrams: '{"1": [[["best"], 319870], [["airport"], 299809], [["books"], 285365],
-  [["hotel"], 276390], [["car"], 275518]], "2": [[["car hire"], 118255], [["best prices"],
-  103370], [["best price"], 88195], [["second hand"], 87976], [["rare books"], 87927]],
-  "3": [[["year of manufacture"], 142172], [["second hand books"], 87908], [["books
-  and second"], 87908], [["available rare books"], 87908], [["amend your booking"],
-  63983]], "4": [[["used books and second"], 87908], [["books of the title"], 87908],
-  [["books and second hand"], 87908], [["find you the best"], 58984], [["get the best
-  price"], 58956]], "5": [[["used books and second hand"], 87908], [["hand books of
-  the title"], 87908], [["books and second hand books"], 87908], [["amend your booking
-  for free"], 63978], [["rentalcars.com and you can amend"], 63977]]}'
-trg_ngrams: '{"1": [[["v\u00f5i"], 503390], [["ning"], 343835], [["kasutatud"], 234275],
-  [["asukohas"], 217472], [["tasuta"], 212514]], "2": [[["kasutatud raamatute"], 176436],
-  [["haruldased raamatud"], 88219], [["saadaval haruldased"], 88218], [["raamatute
-  pealkiri"], 88218], [["t\u00e4ielikult loetletud"], 85807]], "3": [[["saadaval haruldased
-  raamatud"], 88218], [["raamatute ja kasutatud"], 88218], [["kasutatud raamatute
-  pealkiri"], 88218], [["saate oma broneeringut"], 63981], [["broneeringut tasuta
-  muuta"], 63979]], "4": [[["raamatute ja kasutatud raamatute"], 88218], [["kasutatud
-  raamatute ja kasutatud"], 88218], [["saate oma broneeringut tasuta"], 63980], [["kaudu
-  ja te saate"], 63880], [["leida teile parimad hinnapakkumised"], 58944]], "5": [[["raamatute
-  ja kasutatud raamatute pealkiri"], 88218], [["kasutatud raamatute ja kasutatud raamatute"],
-  88218], [["saate oma broneeringut tasuta muuta"], 63979], [["veebilehe kaudu ja
-  te saate"], 63880], [["meie juures ja me garanteerime"], 58844]]}'

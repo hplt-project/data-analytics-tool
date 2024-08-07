@@ -1,11 +1,21 @@
 bicleaner_scores: '[[0.0, 90], [0.1, 0], [0.2, 0], [0.3, 0], [0.4, 0], [0.5, 377678],
   [0.6, 464289], [0.7, 647067], [0.8, 1100795], [0.9, 6316060]]'
 corpus: HPLT.en-ca
-hardrules_tags: '{"not_too_long": 0.0, "not_too_short": 0.0, "no_urls": 0.0, "no_bad_encoding":
-  0.0, "no_porn": 0.0}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 0, "no_urls": 0, "no_bad_encoding":
+  0, "no_porn": 0}'
 sentence_pairs: 8905979
 src_bytes: 834.16 MB
 src_langs: '[["en", 8905979]]'
+src_ngrams: '{"1": [[["hotel"], 576694], [["car"], 509062], [["best"], 474642], [["airport"],
+  384841], [["see"], 360587]], "2": [[["car hire"], 259758], [["remote control"],
+  183445], [["best price"], 166453], [["vat included"], 135162], [["universal remote"],
+  98705]], "3": [[["universal remote control"], 97614], [["see available equivalences"],
+  90547], [["rent a car"], 83577], [["quickly and easily"], 79182], [["see customer
+  ratings"], 78522]], "4": [[["models universal remote control"], 71234], [["get the
+  best price"], 61101], [["find you the best"], 60968], [["work hard to find"], 60954],
+  [["rent a car car"], 34191]], "5": [[["amend your booking for free"], 65914], [["rentalcars.com
+  and you can amend"], 65913], [["find you the best prices"], 60950], [["book with
+  us and get"], 60950], [["android apps on google play"], 30939]]}'
 src_sent_tokens: '[[0, 180], [3, 126245], [4, 233032], [5, 356056], [6, 442074], [7,
   455279], [8, 443965], [9, 457942], [10, 437711], [11, 397857], [12, 380726], [13,
   371139], [14, 348040], [15, 318894], [16, 294450], [17, 266521], [18, 254146], [19,
@@ -111,6 +121,19 @@ srclang: en
 timestamp: 1698204766.8704283
 trg_bytes: 913.2 MB
 trg_langs: '[["ca", 8882738], ["oc", 15263], ["es", 7888], ["en", 90]]'
+trg_ngrams: '{"1": [[["hotel"], 550673], [["lloguer"], 487274], [["hotels"], 468082],
+  [["millors"], 362903], [["preus"], 297181]], "2": [[["millors preus"], 146450],
+  [["millors descomptes"], 103549], [["dist\u00e0ncia universal"], 96361], [["lloc
+  web"], 96255], [["veure equival\u00e8ncies"], 90532]], "3": [[["lloguer de cotxes"],
+  198059], [["comandament a dist\u00e0ncia"], 156846], [["descomptes en l\u00ednia"],
+  103482], [["veure equival\u00e8ncies disponibles"], 90532], [["cotxe de lloguer"],
+  76050]], "4": [[["millors descomptes en l\u00ednia"], 103480], [["hotels amb els
+  millors"], 103480], [["comandament a dist\u00e0ncia universal"], 96354], [["models
+  comandament a dist\u00e0ncia"], 71243], [["forma f\u00e0cil i r\u00e0pida"], 71158]],
+  "5": [[["hotels amb els millors descomptes"], 103480], [["models comandament a dist\u00e0ncia
+  universal"], 71240], [["reserveu online de forma f\u00e0cil"], 71114], [["qualificacions
+  dels clients i reserveu"], 71114], [["consulteu les qualificacions dels clients"],
+  71114]]}'
 trg_sent_tokens: '[[0, 180], [3, 68314], [4, 148501], [5, 268157], [6, 348273], [7,
   394325], [8, 460314], [9, 417387], [10, 397562], [11, 382787], [12, 344644], [13,
   337686], [14, 317546], [15, 298125], [16, 296931], [17, 283999], [18, 268502], [19,
@@ -217,26 +240,3 @@ ttr_src: 0.01
 ttr_trg: 0.01
 unique_sents: 8905890
 warnings: []
-src_ngrams: '{"1": [[["hotel"], 576694], [["car"], 509062], [["best"], 474642], [["airport"],
-  384841], [["see"], 360587]], "2": [[["car hire"], 259758], [["remote control"],
-  183445], [["best price"], 166453], [["vat included"], 135162], [["universal remote"],
-  98705]], "3": [[["universal remote control"], 97614], [["see available equivalences"],
-  90547], [["rent a car"], 83577], [["quickly and easily"], 79182], [["see customer
-  ratings"], 78522]], "4": [[["models universal remote control"], 71234], [["get the
-  best price"], 61101], [["find you the best"], 60968], [["work hard to find"], 60954],
-  [["rent a car car"], 34191]], "5": [[["amend your booking for free"], 65914], [["rentalcars.com
-  and you can amend"], 65913], [["find you the best prices"], 60950], [["book with
-  us and get"], 60950], [["android apps on google play"], 30939]]}'
-trg_ngrams: '{"1": [[["hotel"], 550673], [["lloguer"], 487274], [["hotels"], 468082],
-  [["millors"], 362903], [["preus"], 297181]], "2": [[["millors preus"], 146450],
-  [["millors descomptes"], 103549], [["dist\u00e0ncia universal"], 96361], [["lloc
-  web"], 96255], [["veure equival\u00e8ncies"], 90532]], "3": [[["lloguer de cotxes"],
-  198059], [["comandament a dist\u00e0ncia"], 156846], [["descomptes en l\u00ednia"],
-  103482], [["veure equival\u00e8ncies disponibles"], 90532], [["cotxe de lloguer"],
-  76050]], "4": [[["millors descomptes en l\u00ednia"], 103480], [["hotels amb els
-  millors"], 103480], [["comandament a dist\u00e0ncia universal"], 96354], [["models
-  comandament a dist\u00e0ncia"], 71243], [["forma f\u00e0cil i r\u00e0pida"], 71158]],
-  "5": [[["hotels amb els millors descomptes"], 103480], [["models comandament a dist\u00e0ncia
-  universal"], 71240], [["reserveu online de forma f\u00e0cil"], 71114], [["qualificacions
-  dels clients i reserveu"], 71114], [["consulteu les qualificacions dels clients"],
-  71114]]}'

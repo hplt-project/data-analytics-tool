@@ -1,11 +1,22 @@
 bicleaner_scores: '[[0.0, 10], [0.1, 0], [0.2, 0], [0.3, 0], [0.4, 0], [0.5, 119420],
   [0.6, 154088], [0.7, 196223], [0.8, 267256], [0.9, 257759]]'
 corpus: HPLT.en-ga
-hardrules_tags: '{"not_too_long": 0.0, "not_too_short": 0.0, "no_urls": 0.0, "no_bad_encoding":
-  0.0, "no_porn": 0.0}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 0, "no_urls": 0, "no_bad_encoding":
+  0, "no_porn": 0}'
 sentence_pairs: 994756
 src_bytes: 94.79 MB
 src_langs: '[["en", 994756]]'
+src_ngrams: '{"1": [[["porn"], 168845], [["free"], 137838], [["quality"], 119879],
+  [["hd"], 108388], [["site"], 103134]], "2": [[["excellent quality"], 38113], [["hd
+  excellent"], 36807], [["good quality"], 35092], [["quality hd"], 34752], [["without
+  registration"], 29869]], "3": [[["hd excellent quality"], 36779], [["video in good"],
+  29731], [["good quality hd"], 22720], [["free and without"], 17869], [["hd great
+  quality"], 12000]], "4": [[["video in good quality"], 29727], [["name of this movie"],
+  25821], [["free and without registration"], 17454], [["look free and without"],
+  16169], [["eyes of the operator"], 11834]], "5": [[["video in good quality hd"],
+  22412], [["look free and without registration"], 16169], [["video in high quality
+  hd"], 11008], [["video is in the categories"], 8618], [["original name of this movie"],
+  8618]]}'
 src_sent_tokens: '[[0, 20], [3, 10036], [4, 22381], [5, 27741], [6, 47195], [7, 46559],
   [8, 51073], [9, 56388], [10, 57906], [11, 57867], [12, 66048], [13, 52459], [14,
   42920], [15, 35821], [16, 28921], [17, 26583], [18, 24269], [19, 22032], [20, 19751],
@@ -67,6 +78,18 @@ srclang: en
 timestamp: 1698089613.2454715
 trg_bytes: 113.35 MB
 trg_langs: '[["ga", 987438], ["en", 6853], ["cy", 465]]'
+trg_ngrams: '{"1": [[["porn"], 177398], [["saor"], 137800], [["aisce"], 135445], [["hd"],
+  108810], [["su\u00edomh"], 105501]], "2": [[["f\u00e9idir leat"], 36056], [["caighde\u00e1n
+  maith"], 34370], [["hd c\u00e1il\u00edochta"], 26015], [["maith hd"], 22398], [["porn
+  saor"], 22056]], "3": [[["saor in aisce"], 134561], [["f\u00edse\u00e1n i caighde\u00e1n"],
+  30133], [["caighde\u00e1n maith hd"], 22396], [["chaighde\u00e1n den scoth"], 22242],
+  [["c\u00e1il\u00edochta den scoth"], 15817]], "4": [[["f\u00edse\u00e1n i caighde\u00e1n
+  maith"], 29987], [["aisce agus gan chl\u00e1r\u00fa"], 22824], [["porn saor in aisce"],
+  21962], [["hd chaighde\u00e1n den scoth"], 21563], [["t-ainm ar an scann\u00e1n"],
+  17310]], "5": [[["f\u00edse\u00e1n i caighde\u00e1n maith hd"], 22342], [["f\u00edse\u00e1n
+  i chaighde\u00e1n ard hd"], 10683], [["aisce agus gan chl\u00e1r\u00fa catag\u00f3ir"],
+  10305], [["f\u00e9ach ar saor in aisce"], 9290], [["f\u00e9ach ar agus a \u00edosl\u00f3d\u00e1il"],
+  8555]]}'
 trg_sent_tokens: '[[0, 20], [3, 7178], [4, 19150], [5, 24701], [6, 30615], [7, 32926],
   [8, 41279], [9, 48598], [10, 50599], [11, 52039], [12, 57571], [13, 47252], [14,
   44107], [15, 52656], [16, 34650], [17, 29622], [18, 26279], [19, 25921], [20, 21876],
@@ -134,26 +157,3 @@ ttr_trg: 0.02
 unique_sents: 994747
 warnings:
 - trg_warning_tok_moses_en
-src_ngrams: '{"1": [[["porn"], 168845], [["free"], 137838], [["quality"], 119879],
-  [["hd"], 108388], [["site"], 103134]], "2": [[["excellent quality"], 38113], [["hd
-  excellent"], 36807], [["good quality"], 35092], [["quality hd"], 34752], [["without
-  registration"], 29869]], "3": [[["hd excellent quality"], 36779], [["video in good"],
-  29731], [["good quality hd"], 22720], [["free and without"], 17869], [["hd great
-  quality"], 12000]], "4": [[["video in good quality"], 29727], [["name of this movie"],
-  25821], [["free and without registration"], 17454], [["look free and without"],
-  16169], [["eyes of the operator"], 11834]], "5": [[["video in good quality hd"],
-  22412], [["look free and without registration"], 16169], [["video in high quality
-  hd"], 11008], [["video is in the categories"], 8618], [["original name of this movie"],
-  8618]]}'
-trg_ngrams: '{"1": [[["porn"], 177398], [["saor"], 137800], [["aisce"], 135445], [["hd"],
-  108810], [["su\u00edomh"], 105501]], "2": [[["f\u00e9idir leat"], 36056], [["caighde\u00e1n
-  maith"], 34370], [["hd c\u00e1il\u00edochta"], 26015], [["maith hd"], 22398], [["porn
-  saor"], 22056]], "3": [[["saor in aisce"], 134561], [["f\u00edse\u00e1n i caighde\u00e1n"],
-  30133], [["caighde\u00e1n maith hd"], 22396], [["chaighde\u00e1n den scoth"], 22242],
-  [["c\u00e1il\u00edochta den scoth"], 15817]], "4": [[["f\u00edse\u00e1n i caighde\u00e1n
-  maith"], 29987], [["aisce agus gan chl\u00e1r\u00fa"], 22824], [["porn saor in aisce"],
-  21962], [["hd chaighde\u00e1n den scoth"], 21563], [["t-ainm ar an scann\u00e1n"],
-  17310]], "5": [[["f\u00edse\u00e1n i caighde\u00e1n maith hd"], 22342], [["f\u00edse\u00e1n
-  i chaighde\u00e1n ard hd"], 10683], [["aisce agus gan chl\u00e1r\u00fa catag\u00f3ir"],
-  10305], [["f\u00e9ach ar saor in aisce"], 9290], [["f\u00e9ach ar agus a \u00edosl\u00f3d\u00e1il"],
-  8555]]}'

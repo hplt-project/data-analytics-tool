@@ -1,11 +1,21 @@
 bicleaner_scores: '[[0.0, 22], [0.1, 0], [0.2, 0], [0.3, 0], [0.4, 2], [0.5, 163659],
   [0.6, 185293], [0.7, 234836], [0.8, 366038], [0.9, 1199026]]'
 corpus: HPLT.en-is
-hardrules_tags: '{"not_too_long": 0.0, "not_too_short": 0.0, "no_urls": 0.0, "no_bad_encoding":
-  0.0, "no_porn": 0.0}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 0, "no_urls": 0, "no_bad_encoding":
+  0, "no_porn": 0}'
 sentence_pairs: 2148876
 src_bytes: 167.14 MB
 src_langs: '[["en", 2148876]]'
+src_ngrams: '{"1": [[["car"], 263826], [["airport"], 260383], [["book"], 241892],
+  [["best"], 227192], [["prices"], 198555]], "2": [[["car hire"], 148479], [["best
+  prices"], 81098], [["best price"], 78228], [["find great"], 77495], [["great prices"],
+  77359]], "3": [[["quickly and easily"], 77351], [["find great prices"], 77285],
+  [["see customer ratings"], 77284], [["booking for free"], 76364], [["amend your
+  booking"], 76364]], "4": [[["find you the best"], 75885], [["get the best price"],
+  75857], [["work hard to find"], 75854], [["opens in new window"], 40326], [["welcoming
+  booking.com guests since"], 22128]], "5": [[["amend your booking for free"], 76362],
+  [["rentalcars.com and you can amend"], 76361], [["find you the best prices"], 75854],
+  [["book with us and get"], 75854], [["rent a car car hire"], 19334]]}'
 src_sent_tokens: '[[0, 44], [3, 33864], [4, 91073], [5, 110076], [6, 116640], [7,
   127572], [8, 112428], [9, 107336], [10, 114710], [11, 112504], [12, 120862], [13,
   103653], [14, 78986], [15, 77840], [16, 64837], [17, 66862], [18, 81300], [19, 75407],
@@ -70,6 +80,21 @@ timestamp: 1698329653.746213
 trg_bytes: 195.03 MB
 trg_langs: '[["is", 2120992], ["de", 9472], ["et", 9417], ["hu", 5103], ["da", 2974],
   ["nb", 341], ["sv", 295], ["nn", 260], ["en", 22]]'
+trg_ngrams: '{"1": [[["b\u00f3ka\u00f0u"], 235024], [["b\u00edlaleigub\u00edl"], 177800],
+  [["airport"], 141736], [["hotel"], 128558], [["ver\u00f0"], 119887]], "2": [[["besta
+  ver\u00f0i\u00f0"], 78427], [["finndu fr\u00e1b\u00e6r"], 77517], [["fr\u00e1b\u00e6r
+  ver\u00f0"], 77376], [["getur breytt"], 77002], [["breytt b\u00f3kun"], 76871]],
+  "3": [[["b\u00f3ka\u00f0u \u00e1 netinu"], 77347], [["finndu fr\u00e1b\u00e6r ver\u00f0"],
+  77338], [["ver\u00f0i\u00f0 \u00e1 b\u00edlaleigub\u00edl"], 76935], [["getur breytt
+  b\u00f3kun"], 76870], [["f\u00e1\u00f0u besta ver\u00f0i\u00f0"], 75875]], "4":
+  [[["besta ver\u00f0i\u00f0 \u00e1 b\u00edlaleigub\u00edl"], 76935], [["rentalcars.com
+  og \u00fe\u00fa getur"], 76870], [["b\u00f3kun \u00feinni \u00e1n endurgjalds"],
+  76870], [["airport \u00ed gegnum rentalcars.com"], 62591], [["opnast \u00ed n\u00fdjum
+  glugga"], 40047]], "5": [[["rentalcars.com og \u00fe\u00fa getur breytt"], 76870],
+  [["breytt b\u00f3kun \u00feinni \u00e1n endurgjalds"], 76870], [["f\u00e1\u00f0u
+  besta ver\u00f0i\u00f0 \u00e1 b\u00edlaleigub\u00edl"], 75873], [["teki\u00f0 \u00e1
+  m\u00f3ti gestum booking.com"], 22128], [["ver\u00f0s ef liti\u00f0 er tilhlutfallsins"],
+  18199]]}'
 trg_sent_tokens: '[[0, 44], [3, 47125], [4, 67849], [5, 117779], [6, 105186], [7,
   134175], [8, 122034], [9, 124140], [10, 120505], [11, 105443], [12, 113940], [13,
   99925], [14, 91083], [15, 71019], [16, 73010], [17, 54793], [18, 59350], [19, 67299],
@@ -130,28 +155,3 @@ ttr_src: 0.01
 ttr_trg: 0.02
 unique_sents: 2148855
 warnings: []
-src_ngrams: '{"1": [[["car"], 263826], [["airport"], 260383], [["book"], 241892],
-  [["best"], 227192], [["prices"], 198555]], "2": [[["car hire"], 148479], [["best
-  prices"], 81098], [["best price"], 78228], [["find great"], 77495], [["great prices"],
-  77359]], "3": [[["quickly and easily"], 77351], [["find great prices"], 77285],
-  [["see customer ratings"], 77284], [["booking for free"], 76364], [["amend your
-  booking"], 76364]], "4": [[["find you the best"], 75885], [["get the best price"],
-  75857], [["work hard to find"], 75854], [["opens in new window"], 40326], [["welcoming
-  booking.com guests since"], 22128]], "5": [[["amend your booking for free"], 76362],
-  [["rentalcars.com and you can amend"], 76361], [["find you the best prices"], 75854],
-  [["book with us and get"], 75854], [["rent a car car hire"], 19334]]}'
-trg_ngrams: '{"1": [[["b\u00f3ka\u00f0u"], 235024], [["b\u00edlaleigub\u00edl"], 177800],
-  [["airport"], 141736], [["hotel"], 128558], [["ver\u00f0"], 119887]], "2": [[["besta
-  ver\u00f0i\u00f0"], 78427], [["finndu fr\u00e1b\u00e6r"], 77517], [["fr\u00e1b\u00e6r
-  ver\u00f0"], 77376], [["getur breytt"], 77002], [["breytt b\u00f3kun"], 76871]],
-  "3": [[["b\u00f3ka\u00f0u \u00e1 netinu"], 77347], [["finndu fr\u00e1b\u00e6r ver\u00f0"],
-  77338], [["ver\u00f0i\u00f0 \u00e1 b\u00edlaleigub\u00edl"], 76935], [["getur breytt
-  b\u00f3kun"], 76870], [["f\u00e1\u00f0u besta ver\u00f0i\u00f0"], 75875]], "4":
-  [[["besta ver\u00f0i\u00f0 \u00e1 b\u00edlaleigub\u00edl"], 76935], [["rentalcars.com
-  og \u00fe\u00fa getur"], 76870], [["b\u00f3kun \u00feinni \u00e1n endurgjalds"],
-  76870], [["airport \u00ed gegnum rentalcars.com"], 62591], [["opnast \u00ed n\u00fdjum
-  glugga"], 40047]], "5": [[["rentalcars.com og \u00fe\u00fa getur breytt"], 76870],
-  [["breytt b\u00f3kun \u00feinni \u00e1n endurgjalds"], 76870], [["f\u00e1\u00f0u
-  besta ver\u00f0i\u00f0 \u00e1 b\u00edlaleigub\u00edl"], 75873], [["teki\u00f0 \u00e1
-  m\u00f3ti gestum booking.com"], 22128], [["ver\u00f0s ef liti\u00f0 er tilhlutfallsins"],
-  18199]]}'

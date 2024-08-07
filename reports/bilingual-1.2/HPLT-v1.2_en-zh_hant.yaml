@@ -1,11 +1,22 @@
 bicleaner_scores: '[[0.0, 54], [0.1, 0], [0.2, 0], [0.3, 0], [0.4, 1], [0.5, 162851],
   [0.6, 199638], [0.7, 275774], [0.8, 435761], [0.9, 4232545]]'
 corpus: HPLT.en-zh_hant
-hardrules_tags: '{"not_too_long": 0.0, "not_too_short": 0.0, "no_urls": 0.0, "no_bad_encoding":
-  0.0, "no_porn": 0.0}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 0, "no_urls": 0, "no_bad_encoding":
+  0, "no_porn": 0}'
 sentence_pairs: 5306624
 src_bytes: 508.07 MB
 src_langs: '[["en", 5306624]]'
+src_ngrams: '{"1": [[["books"], 382909], [["hotels"], 330601], [["near"], 268940],
+  [["hotel"], 243874], [["used"], 226419]], "2": [[["hotels near"], 174165], [["completely
+  listed"], 119599], [["second hand"], 115336], [["rare books"], 115234], [["used
+  books"], 115232]], "3": [[["second hand books"], 115220], [["books and second"],
+  115219], [["available rare books"], 115219], [["ean or isbn"], 44036], [["proud
+  to partner"], 40723]], "4": [[["used books and second"], 115219], [["books of the
+  title"], 115219], [["books and second hand"], 115219], [["find the perfect hotel"],
+  29277], [["discounts and special offers"], 28754]], "5": [[["used books and second
+  hand"], 115219], [["hand books of the title"], 115219], [["books and second hand
+  books"], 115219], [["tripadvisor is proud to partner"], 40700], [["month to find
+  the perfect"], 28751]]}'
 src_sent_tokens: '[[0, 108], [2, 1], [3, 148344], [4, 238483], [5, 288638], [6, 291444],
   [7, 283539], [8, 288220], [9, 292488], [10, 272410], [11, 259718], [12, 238318],
   [13, 224641], [14, 202375], [15, 178821], [16, 149883], [17, 144026], [18, 132901],
@@ -87,6 +98,19 @@ srclang: en
 timestamp: 1698529319.7051275
 trg_bytes: 480.78 MB
 trg_langs: '[["zh", 5306570], ["en", 54]]'
+trg_ngrams: '{"1": [[["\u5011"], 447562], [["\u4e2d"], 434401], [["\u9152\u5e97"],
+  360384], [["\u500b"], 352444], [["\u63d0\u4f9b"], 322665]], "2": [[["\u82f1\u8a9e
+  \u4e2d"], 125681], [["\u61c9\u7528 \u7a0b\u5f0f"], 78280], [["of t"], 74041], [["micros
+  of"], 72168], [["\u570b\u969b \u6a19\u6e96"], 68766]], "3": [[["\u7528\u904e \u7684
+  \u66f8"], 115275], [["\u66f8 \u548c \u4e8c\u624b\u66f8"], 115275], [["\u53ef\u7528
+  \u7684 \u5584\u672c"], 115275], [["\u4e8c\u624b\u66f8 \u7684 \u6a19\u984c"], 115275],
+  [["micros of t"], 71090]], "4": [[["ean \u6216 \u570b\u969b \u6a19\u6e96"], 67834],
+  [["\u500b \u6708 \u90fd \u6703"], 40753], [["\u5011 \u6bcf \u500b \u6708"], 40745],
+  [["\u8b93 \u60a8 \u53ef\u4ee5 \u4fdd\u8b49"], 40734], [["\u96a8\u6642 \u63d0\u4f9b
+  \u6700 \u512a\u60e0"], 40730]], "5": [[["\u7528\u904e \u7684 \u66f8 \u548c \u4e8c\u624b\u66f8"],
+  115275], [["\u66f8 \u548c \u4e8c\u624b\u66f8 \u7684 \u6a19\u984c"], 115275], [["ean
+  \u6216 \u570b\u969b \u6a19\u6e96 \u66f8\u865f"], 67834], [["tripadvisor \u975e\u5e38
+  \u69ae\u5e78 \u80fd \u8207"], 40744], [["\u5011 \u6bcf \u500b \u6708 \u90fd"], 40737]]}'
 trg_sent_tokens: '[[0, 108], [1, 348], [2, 12227], [3, 97134], [4, 190679], [5, 252655],
   [6, 263258], [7, 273867], [8, 268514], [9, 280230], [10, 260233], [11, 233872],
   [12, 222045], [13, 212665], [14, 203326], [15, 185303], [16, 170983], [17, 152795],
@@ -185,27 +209,3 @@ ttr_src: 0.01
 ttr_trg: 0.02
 unique_sents: 5306571
 warnings: []
-src_ngrams: '{"1": [[["books"], 382909], [["hotels"], 330601], [["near"], 268940],
-  [["hotel"], 243874], [["used"], 226419]], "2": [[["hotels near"], 174165], [["completely
-  listed"], 119599], [["second hand"], 115336], [["rare books"], 115234], [["used
-  books"], 115232]], "3": [[["second hand books"], 115220], [["books and second"],
-  115219], [["available rare books"], 115219], [["ean or isbn"], 44036], [["proud
-  to partner"], 40723]], "4": [[["used books and second"], 115219], [["books of the
-  title"], 115219], [["books and second hand"], 115219], [["find the perfect hotel"],
-  29277], [["discounts and special offers"], 28754]], "5": [[["used books and second
-  hand"], 115219], [["hand books of the title"], 115219], [["books and second hand
-  books"], 115219], [["tripadvisor is proud to partner"], 40700], [["month to find
-  the perfect"], 28751]]}'
-trg_ngrams: '{"1": [[["\u5011"], 447562], [["\u4e2d"], 434401], [["\u9152\u5e97"],
-  360384], [["\u500b"], 352444], [["\u63d0\u4f9b"], 322665]], "2": [[["\u82f1\u8a9e
-  \u4e2d"], 125681], [["\u61c9\u7528 \u7a0b\u5f0f"], 78280], [["of t"], 74041], [["micros
-  of"], 72168], [["\u570b\u969b \u6a19\u6e96"], 68766]], "3": [[["\u7528\u904e \u7684
-  \u66f8"], 115275], [["\u66f8 \u548c \u4e8c\u624b\u66f8"], 115275], [["\u53ef\u7528
-  \u7684 \u5584\u672c"], 115275], [["\u4e8c\u624b\u66f8 \u7684 \u6a19\u984c"], 115275],
-  [["micros of t"], 71090]], "4": [[["ean \u6216 \u570b\u969b \u6a19\u6e96"], 67834],
-  [["\u500b \u6708 \u90fd \u6703"], 40753], [["\u5011 \u6bcf \u500b \u6708"], 40745],
-  [["\u8b93 \u60a8 \u53ef\u4ee5 \u4fdd\u8b49"], 40734], [["\u96a8\u6642 \u63d0\u4f9b
-  \u6700 \u512a\u60e0"], 40730]], "5": [[["\u7528\u904e \u7684 \u66f8 \u548c \u4e8c\u624b\u66f8"],
-  115275], [["\u66f8 \u548c \u4e8c\u624b\u66f8 \u7684 \u6a19\u984c"], 115275], [["ean
-  \u6216 \u570b\u969b \u6a19\u6e96 \u66f8\u865f"], 67834], [["tripadvisor \u975e\u5e38
-  \u69ae\u5e78 \u80fd \u8207"], 40744], [["\u5011 \u6bcf \u500b \u6708 \u90fd"], 40737]]}'

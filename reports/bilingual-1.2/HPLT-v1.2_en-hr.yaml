@@ -1,11 +1,22 @@
 bicleaner_scores: '[[0.0, 152], [0.1, 113], [0.2, 206], [0.3, 396], [0.4, 869], [0.5,
   640929], [0.6, 727795], [0.7, 937963], [0.8, 1511598], [0.9, 5490348]]'
 corpus: HPLT.en-hr
-hardrules_tags: '{"not_too_long": 0.0, "not_too_short": 0.0, "no_urls": 0.0, "no_bad_encoding":
-  0.0, "no_porn": 0.0}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 0, "no_urls": 0, "no_bad_encoding":
+  0, "no_porn": 0}'
 sentence_pairs: 9310369
 src_bytes: 815.9 MB
 src_langs: '[["en", 9310369]]'
+src_ngrams: '{"1": [[["hotel"], 370035], [["weather"], 326122], [["new"], 306112],
+  [["free"], 288669], [["used"], 285819]], "2": [[["personal data"], 74918], [["local
+  time"], 71682], [["best prices"], 71369], [["buy used"], 68441], [["operating hours"],
+  68097]], "3": [[["year of manufacture"], 153819], [["prices from either"], 58907],
+  [["either machinery dealers"], 58907], [["dealers or private"], 58907], [["freemeteo
+  hotel bookings"], 44971]], "4": [[["prices from either machinery"], 58907], [["machinery
+  dealers or private"], 58907], [["dealers or private sellers"], 58907], [["best prices
+  from either"], 58907], [["clouds freemeteo hotel bookings"], 44597]], "5": [[["prices
+  from either machinery dealers"], 58907], [["machinery dealers or private sellers"],
+  58907], [["either machinery dealers or private"], 58907], [["best prices from either
+  machinery"], 58907], [["snow clouds freemeteo hotel bookings"], 44570]]}'
 src_sent_tokens: '[[0, 188], [3, 173260], [4, 313389], [5, 399429], [6, 507064], [7,
   533958], [8, 514165], [9, 542090], [10, 489664], [11, 433869], [12, 401054], [13,
   375379], [14, 343195], [15, 338203], [16, 293900], [17, 281344], [18, 279324], [19,
@@ -102,6 +113,19 @@ timestamp: 1698380467.2091405
 trg_bytes: 852.71 MB
 trg_langs: '[["hr", 9062014], ["sr", 223491], ["bs", 21508], ["sl", 3262], ["en",
   94]]'
+trg_ngrams: '{"1": [[["vrijeme"], 350121], [["vi\u0161e"], 286272], [["hotel"], 269926],
+  [["godina"], 223323], [["mo\u017ee"], 182135]], "2": [[["godina proizvodnje"], 156248],
+  [["zra\u010dna luka"], 90361], [["vremenska prognoza"], 86402], [["engleskom jeziku"],
+  85952], [["radni sati"], 80648]], "3": [[["dugoro\u010dna vremenska prognoza"],
+  66747], [["freemeteo rezervacije hotela"], 44967], [["vi\u0161e o smje\u0161tajnom"],
+  44879], [["oblaci freemeteo rezervacije"], 44574], [["snijeg oblaci freemeteo"],
+  44537]], "4": [[["strojeva bilo od privatnih"], 51508], [["cijenama bilo od distributera"],
+  51508], [["vi\u0161e o smje\u0161tajnom objektu"], 44879], [["oblaci freemeteo rezervacije
+  hotela"], 44574], [["snijeg oblaci freemeteo rezervacije"], 44537]], "5": [[["strojeva
+  bilo od privatnih prodava\u010da"], 51508], [["najboljim cijenama bilo od distributera"],
+  51508], [["distributera strojeva bilo od privatnih"], 51508], [["cijenama bilo od
+  distributera strojeva"], 51508], [["snijeg oblaci freemeteo rezervacije hotela"],
+  44537]]}'
 trg_sent_tokens: '[[0, 188], [3, 175010], [4, 297183], [5, 389026], [6, 495051], [7,
   556505], [8, 604884], [9, 566261], [10, 503946], [11, 476217], [12, 446975], [13,
   403517], [14, 380381], [15, 358696], [16, 335469], [17, 295565], [18, 262734], [19,
@@ -196,27 +220,3 @@ ttr_src: 0.01
 ttr_trg: 0.01
 unique_sents: 9310276
 warnings: []
-src_ngrams: '{"1": [[["hotel"], 370035], [["weather"], 326122], [["new"], 306112],
-  [["free"], 288669], [["used"], 285819]], "2": [[["personal data"], 74918], [["local
-  time"], 71682], [["best prices"], 71369], [["buy used"], 68441], [["operating hours"],
-  68097]], "3": [[["year of manufacture"], 153819], [["prices from either"], 58907],
-  [["either machinery dealers"], 58907], [["dealers or private"], 58907], [["freemeteo
-  hotel bookings"], 44971]], "4": [[["prices from either machinery"], 58907], [["machinery
-  dealers or private"], 58907], [["dealers or private sellers"], 58907], [["best prices
-  from either"], 58907], [["clouds freemeteo hotel bookings"], 44597]], "5": [[["prices
-  from either machinery dealers"], 58907], [["machinery dealers or private sellers"],
-  58907], [["either machinery dealers or private"], 58907], [["best prices from either
-  machinery"], 58907], [["snow clouds freemeteo hotel bookings"], 44570]]}'
-trg_ngrams: '{"1": [[["vrijeme"], 350121], [["vi\u0161e"], 286272], [["hotel"], 269926],
-  [["godina"], 223323], [["mo\u017ee"], 182135]], "2": [[["godina proizvodnje"], 156248],
-  [["zra\u010dna luka"], 90361], [["vremenska prognoza"], 86402], [["engleskom jeziku"],
-  85952], [["radni sati"], 80648]], "3": [[["dugoro\u010dna vremenska prognoza"],
-  66747], [["freemeteo rezervacije hotela"], 44967], [["vi\u0161e o smje\u0161tajnom"],
-  44879], [["oblaci freemeteo rezervacije"], 44574], [["snijeg oblaci freemeteo"],
-  44537]], "4": [[["strojeva bilo od privatnih"], 51508], [["cijenama bilo od distributera"],
-  51508], [["vi\u0161e o smje\u0161tajnom objektu"], 44879], [["oblaci freemeteo rezervacije
-  hotela"], 44574], [["snijeg oblaci freemeteo rezervacije"], 44537]], "5": [[["strojeva
-  bilo od privatnih prodava\u010da"], 51508], [["najboljim cijenama bilo od distributera"],
-  51508], [["distributera strojeva bilo od privatnih"], 51508], [["cijenama bilo od
-  distributera strojeva"], 51508], [["snijeg oblaci freemeteo rezervacije hotela"],
-  44537]]}'

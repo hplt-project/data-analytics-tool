@@ -1,11 +1,22 @@
 bicleaner_scores: '[[0.0, 9], [0.1, 0], [0.2, 0], [0.3, 0], [0.4, 0], [0.5, 61388],
   [0.6, 51451], [0.7, 46537], [0.8, 45033], [0.9, 650411]]'
 corpus: HPLT.en-mt
-hardrules_tags: '{"not_too_long": 0.0, "not_too_short": 0.0, "no_urls": 0.0, "no_bad_encoding":
-  0.0, "no_porn": 0.0}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 0, "no_urls": 0, "no_bad_encoding":
+  0, "no_porn": 0}'
 sentence_pairs: 854829
 src_bytes: 112.91 MB
 src_langs: '[["en", 854829]]'
+src_ngrams: '{"1": [[["article"], 63918], [["european"], 59923], [["member"], 53497],
+  [["eu"], 53095], [["commission"], 46273]], "2": [[["archive entry"], 34547], [["member
+  states"], 30631], [["member state"], 19597], [["european parliament"], 15416], [["offer
+  archive"], 15234]], "3": [[["compare every offer"], 15260], [["offer archive entry"],
+  15234], [["add to cart"], 11166], [["call new offers"], 7569], [["accordance with
+  article"], 5941]], "4": [[["compare every offer archive"], 15234], [["referred to
+  in article"], 7423], [["referred to in paragraph"], 3807], [["price not including
+  vat"], 2509], [["starting price not including"], 2365]], "5": [[["compare every
+  offer archive entry"], 15234], [["parliament and of the council"], 8018], [["starting
+  price not including vat"], 2365], [["ec of the european parliament"], 2089], [["rated
+  hosts who are committed"], 1738]]}'
 src_sent_tokens: '[[0, 18], [3, 6369], [4, 12554], [5, 17209], [6, 20417], [7, 25647],
   [8, 27161], [9, 30079], [10, 29824], [11, 32100], [12, 31222], [13, 27392], [14,
   23967], [15, 23759], [16, 24328], [17, 30758], [18, 29725], [19, 26956], [20, 23042],
@@ -77,6 +88,18 @@ srclang: en
 timestamp: 1698096901.9135926
 trg_bytes: 128.36 MB
 trg_langs: '[["mt", 854820], ["en", 9]]'
+trg_ngrams: '{"1": [[["ta"], 809041], [["u"], 527492], [["li"], 472797], [["jew"],
+  149785], [["b"], 139257]], "2": [[["b ''mod"], 37841], [["id-d\u0127ul ta"], 35589],
+  [["u li"], 16234], [["kull offerta"], 15283], [["kotba kollha"], 15268]], "3": [[["qabbel
+  kull offerta"], 15266], [["offerta id-d\u0127ul ta"], 15265], [["kull offerta id-d\u0127ul"],
+  15265], [["b ''mod partikolari"], 12250], [["offerti \u0121odda g\u0127al"], 8432]],
+  "4": [[["qabbel kull offerta id-d\u0127ul"], 15265], [["kull offerta id-d\u0127ul
+  ta"], 15265], [["tal-parlament ewropew u tal-kunsill"], 8140], [["is-sej\u0127a
+  offerti \u0121odda g\u0127al"], 7556], [["tat-tluq mhux inklu\u017ca l-vat"], 2410]],
+  "5": [[["qabbel kull offerta id-d\u0127ul ta"], 15265], [["prezz tat-tluq mhux inklu\u017ca
+  l-vat"], 2410], [["ke tal-parlament ewropew u tal-kunsill"], 1971], [["talba is-sej\u0127a
+  offerti \u0121odda g\u0127al"], 1889], [["huma impenjati li jipprovdu l-aqwa"],
+  1738]]}'
 trg_sent_tokens: '[[0, 18], [3, 6060], [4, 12119], [5, 17732], [6, 22358], [7, 24843],
   [8, 28211], [9, 30868], [10, 32678], [11, 33682], [12, 30426], [13, 28941], [14,
   27610], [15, 27536], [16, 26166], [17, 27855], [18, 32676], [19, 28333], [20, 25928],
@@ -149,26 +172,3 @@ unique_sents: 854821
 warnings:
 - trg_warning_tok_moses_en
 - trg_ngrams_mt_nostopwords
-src_ngrams: '{"1": [[["article"], 63918], [["european"], 59923], [["member"], 53497],
-  [["eu"], 53095], [["commission"], 46273]], "2": [[["archive entry"], 34547], [["member
-  states"], 30631], [["member state"], 19597], [["european parliament"], 15416], [["offer
-  archive"], 15234]], "3": [[["compare every offer"], 15260], [["offer archive entry"],
-  15234], [["add to cart"], 11166], [["call new offers"], 7569], [["accordance with
-  article"], 5941]], "4": [[["compare every offer archive"], 15234], [["referred to
-  in article"], 7423], [["referred to in paragraph"], 3807], [["price not including
-  vat"], 2509], [["starting price not including"], 2365]], "5": [[["compare every
-  offer archive entry"], 15234], [["parliament and of the council"], 8018], [["starting
-  price not including vat"], 2365], [["ec of the european parliament"], 2089], [["rated
-  hosts who are committed"], 1738]]}'
-trg_ngrams: '{"1": [[["ta"], 809041], [["u"], 527492], [["li"], 472797], [["jew"],
-  149785], [["b"], 139257]], "2": [[["b ''mod"], 37841], [["id-d\u0127ul ta"], 35589],
-  [["u li"], 16234], [["kull offerta"], 15283], [["kotba kollha"], 15268]], "3": [[["qabbel
-  kull offerta"], 15266], [["offerta id-d\u0127ul ta"], 15265], [["kull offerta id-d\u0127ul"],
-  15265], [["b ''mod partikolari"], 12250], [["offerti \u0121odda g\u0127al"], 8432]],
-  "4": [[["qabbel kull offerta id-d\u0127ul"], 15265], [["kull offerta id-d\u0127ul
-  ta"], 15265], [["tal-parlament ewropew u tal-kunsill"], 8140], [["is-sej\u0127a
-  offerti \u0121odda g\u0127al"], 7556], [["tat-tluq mhux inklu\u017ca l-vat"], 2410]],
-  "5": [[["qabbel kull offerta id-d\u0127ul ta"], 15265], [["prezz tat-tluq mhux inklu\u017ca
-  l-vat"], 2410], [["ke tal-parlament ewropew u tal-kunsill"], 1971], [["talba is-sej\u0127a
-  offerti \u0121odda g\u0127al"], 1889], [["huma impenjati li jipprovdu l-aqwa"],
-  1738]]}'

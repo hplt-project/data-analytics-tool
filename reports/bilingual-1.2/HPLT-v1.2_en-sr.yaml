@@ -1,11 +1,22 @@
 bicleaner_scores: '[[0.0, 274], [0.1, 384], [0.2, 549], [0.3, 850], [0.4, 1514], [0.5,
   267577], [0.6, 304361], [0.7, 395932], [0.8, 699294], [0.9, 2233688]]'
 corpus: HPLT.en-sr
-hardrules_tags: '{"not_too_long": 0.0, "not_too_short": 0.0, "no_urls": 0.0, "no_bad_encoding":
-  0.0, "no_porn": 0.0}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 0, "no_urls": 0, "no_bad_encoding":
+  0, "no_porn": 0}'
 sentence_pairs: 3904423
 src_bytes: 325.13 MB
 src_langs: '[["en", 3904423]]'
+src_ngrams: '{"1": [[["hotels"], 429345], [["hotel"], 314216], [["best"], 213308],
+  [["near"], 168628], [["new"], 142956]], "2": [[["hotels near"], 98205], [["traveller
+  rating"], 58694], [["see availability"], 39633], [["best hotels"], 39523], [["personal
+  data"], 36686]], "3": [[["opens in new"], 33796], [["reservations with confidence"],
+  33545], [["proud to partner"], 33275], [["tripadvisor is proud"], 33272], [["reserves
+  the right"], 27892]], "4": [[["opens in new window"], 33780], [["temporarily hold
+  an amount"], 25831], [["right to temporarily hold"], 25831], [["hold an amount prior"],
+  25831], [["amount prior to arrival"], 25831]], "5": [[["tripadvisor is proud to
+  partner"], 33272], [["reserves the right to temporarily"], 25835], [["temporarily
+  hold an amount prior"], 25831], [["cards and reserves the right"], 25830], [["accepts
+  these cards and reserves"], 25830]]}'
 src_sent_tokens: '[[0, 80], [3, 54817], [4, 178617], [5, 215161], [6, 224413], [7,
   225980], [8, 223075], [9, 235364], [10, 212108], [11, 200120], [12, 190750], [13,
   169629], [14, 150424], [15, 148262], [16, 120602], [17, 110578], [18, 100541], [19,
@@ -75,6 +86,17 @@ srclang: en
 timestamp: 1698156479.16995
 trg_bytes: 343.9 MB
 trg_langs: '[["sr", 3904383], ["en", 40]]'
+trg_ngrams: '{"1": [[["u"], 1727729], [["i"], 1605161], [["za"], 982618], [["na"],
+  837510], [["da"], 804972]], "2": [[["u blizini"], 203397], [["hoteli u"], 179046],
+  [["u mestu"], 122558], [["u gradu"], 82214], [["da li"], 75543]], "3": [[["hoteli
+  u blizini"], 89365], [["u blizini znamenitosti"], 70223], [["porodi\u010dni hoteli
+  u"], 37051], [["u novom prozoru"], 33818], [["se u novom"], 33683]], "4": [[["hoteli
+  u blizini znamenitosti"], 63477], [["se u novom prozoru"], 33655], [["otvara se
+  u novom"], 33655], [["pravite bezbedne rezervacije za"], 33642], [["mo\u017eete
+  da pravite bezbedne"], 33642]], "5": [[["otvara se u novom prozoru"], 33655], [["mo\u017eete
+  da pravite bezbedne rezervacije"], 33642], [["jer mo\u017eete da pravite bezbedne"],
+  33642], [["da pravite bezbedne rezervacije za"], 33642], [["tripadvisor je ponosan
+  na partnerstvo"], 33273]]}'
 trg_sent_tokens: '[[0, 80], [3, 47423], [4, 147624], [5, 179087], [6, 218841], [7,
   239071], [8, 248606], [9, 223504], [10, 221289], [11, 215016], [12, 211235], [13,
   180899], [14, 174878], [15, 152936], [16, 133322], [17, 119899], [18, 103139], [19,
@@ -143,25 +165,3 @@ ttr_src: 0.01
 ttr_trg: 0.02
 unique_sents: 3904384
 warnings: []
-src_ngrams: '{"1": [[["hotels"], 429345], [["hotel"], 314216], [["best"], 213308],
-  [["near"], 168628], [["new"], 142956]], "2": [[["hotels near"], 98205], [["traveller
-  rating"], 58694], [["see availability"], 39633], [["best hotels"], 39523], [["personal
-  data"], 36686]], "3": [[["opens in new"], 33796], [["reservations with confidence"],
-  33545], [["proud to partner"], 33275], [["tripadvisor is proud"], 33272], [["reserves
-  the right"], 27892]], "4": [[["opens in new window"], 33780], [["temporarily hold
-  an amount"], 25831], [["right to temporarily hold"], 25831], [["hold an amount prior"],
-  25831], [["amount prior to arrival"], 25831]], "5": [[["tripadvisor is proud to
-  partner"], 33272], [["reserves the right to temporarily"], 25835], [["temporarily
-  hold an amount prior"], 25831], [["cards and reserves the right"], 25830], [["accepts
-  these cards and reserves"], 25830]]}'
-trg_ngrams: '{"1": [[["u"], 1727729], [["i"], 1605161], [["za"], 982618], [["na"],
-  837510], [["da"], 804972]], "2": [[["u blizini"], 203397], [["hoteli u"], 179046],
-  [["u mestu"], 122558], [["u gradu"], 82214], [["da li"], 75543]], "3": [[["hoteli
-  u blizini"], 89365], [["u blizini znamenitosti"], 70223], [["porodi\u010dni hoteli
-  u"], 37051], [["u novom prozoru"], 33818], [["se u novom"], 33683]], "4": [[["hoteli
-  u blizini znamenitosti"], 63477], [["se u novom prozoru"], 33655], [["otvara se
-  u novom"], 33655], [["pravite bezbedne rezervacije za"], 33642], [["mo\u017eete
-  da pravite bezbedne"], 33642]], "5": [[["otvara se u novom prozoru"], 33655], [["mo\u017eete
-  da pravite bezbedne rezervacije"], 33642], [["jer mo\u017eete da pravite bezbedne"],
-  33642], [["da pravite bezbedne rezervacije za"], 33642], [["tripadvisor je ponosan
-  na partnerstvo"], 33273]]}'
