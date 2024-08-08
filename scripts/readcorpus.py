@@ -1,5 +1,6 @@
 import time
 import os
+import re
 import sys
 import logging
 import traceback
@@ -185,8 +186,10 @@ def main():
     stats["trglang"] = args.trglang
     
     
-    if "tsv" in args.corpus.name:
-        filename=args.corpus.name.replace(".tsv","")
+    if args.corpus.name.endswith(".tsv"):
+        filename = re.sub("\.tsv$", "", args.corpus.name)
+        
+        #filename=args.corpus.name.replace(".tsv","")
     else:
         filename=args.corpus.name
     src_file=open(filename+"."+args.srclang,"r").read().splitlines()

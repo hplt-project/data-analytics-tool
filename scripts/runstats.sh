@@ -12,6 +12,7 @@ JOBS=$(($(nproc)-2))
 JOBS=$(($JOBS>1 ? $JOBS : 1))
 
 
+for param in "$@"; do echo "$param"; done
 
 #bicleanermetadata=bicleaner/$srclang-$trglang/$srclang-$trglang.yaml
 #monocleanermetadata=monocleaner/$srclang/metadata.yaml
@@ -304,8 +305,6 @@ elif [ "$langformat" == "mono" ]; then
 
                 # Create the new file path with the "tsv" extension                
                 tsv_file_path="$dir_path/$filename.tsv"
-
-
                 if [ "$extension" == "zst" ]; then
                 	zstdcat $saved_file_path | python3 ./scripts/readdocuments.py - $tsv_file_path $yaml_file_path $srclang
 		else
