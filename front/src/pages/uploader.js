@@ -28,6 +28,8 @@ export default function Uploader({ languageList }) {
 
 	const [docs, setDocs] = useState(false);
 
+	const [formatValue, setFormatValue] = useState("parallel");
+
 	const [cmd, setCmd] = useState("");
 
 	const [failedCMD, setFailedCMD] = useState("");
@@ -166,6 +168,7 @@ export default function Uploader({ languageList }) {
 			toastMessage("language");
 		}
 	}
+	
 
 	return (
 		<div className={styles["main-container"]}>
@@ -309,6 +312,12 @@ export default function Uploader({ languageList }) {
 								onClick={(e) => {
 									if (e.target.checked) {
 										setDocs(false);
+										if(formatValue === "mono"){
+											setFormatValue("mono")
+										}
+										if(formatValue === "parallel"){
+											setFormatValue("parallel")
+										}
 									}
 								}}
 								{...register("corpus-format")}
@@ -335,6 +344,12 @@ export default function Uploader({ languageList }) {
 								onClick={(e) => {
 									if (e.target.checked) {
 										setDocs(false);
+										if(formatValue === "mono"){
+											setFormatValue("mono")
+										}
+										if(formatValue === "parallel"){
+											setFormatValue("parallel")
+										}
 									}
 								}}
 								{...register("corpus-format")}
@@ -362,6 +377,7 @@ export default function Uploader({ languageList }) {
 									if (e.target.checked) {
 										setDocs(true);
 										setStatus(true)
+										setFormatValue("mono")
 									}
 								}}
 								{...register("corpus-format")}
@@ -377,7 +393,7 @@ export default function Uploader({ languageList }) {
 
 					<div className={styles["inputs"]}>
 						<div className={styles["form-check-inline"]}>
-							<label className={styles["form-label"]} htmlFor="lang-format">
+							<label className={styles["form-label"]} htmlFor="lang-format-mono">
 								Language
 							</label>
 						</div>
@@ -385,12 +401,15 @@ export default function Uploader({ languageList }) {
 							<input
 								className={styles["form-check-input"]}
 								type="radio"
-								name="lang-format"
+								name="lang-format-mono"
 								id="lang-format-mono"
 								value="mono"
-								defaultChecked={status? true : false}
+								checked={formatValue === "mono"}
 								onClick={(e) => {
-									e.target.checked ? setStatus(true) : "";
+									if(e.target.checked){
+										setStatus(true)
+										setFormatValue("mono")
+									} 
 								}}
 								{...register("lang-format")}
 							/>
@@ -401,23 +420,26 @@ export default function Uploader({ languageList }) {
 								Mono
 							</label>
 						</div>
-						{!docs && (
 							<div
 								className={[
 									styles["form-check"],
 									styles["form-check-inline"],
+									styles[docs? "hidden" : ""]
 								].join(" ")}
 							>
 								<input
 									className={styles["form-check-input"]}
 									type="radio"
-									name="lang-format"
+									name="lang-format-parallel"
 									id="lang-format-parallel"
 									value="parallel"
 									onClick={(e) => {
-										e.target.checked ? setStatus(false) : "";
+										if(e.target.checked){
+											setStatus(false)
+											setFormatValue("parallel")
+										} 
 									}}
-									defaultChecked={status? false : true}
+									checked={formatValue === "parallel"}
 									{...register("lang-format")}
 								/>
 
@@ -428,7 +450,6 @@ export default function Uploader({ languageList }) {
 									Parallel
 								</label>
 							</div>
-						)}
 					</div>
 					<div className={styles["lang-inputs"]}>
 						<div className={styles["dropdown-cont"]}>
@@ -452,7 +473,7 @@ export default function Uploader({ languageList }) {
 								}
 							/>
 						</div>
-						{!status && (
+						{!docs && formatValue !== "mono" ? (
 							<div className={styles["dropdown-cont"]}>
 								<label className={styles["form-label"]} htmlFor="trglang">
 									Target language
@@ -474,7 +495,7 @@ export default function Uploader({ languageList }) {
 									}
 								/>
 							</div>
-						)}
+						) : ""}
 					</div>
 				</div>
 

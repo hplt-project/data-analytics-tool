@@ -243,7 +243,9 @@
   display: flex;
   cursor: pointer;
 }
-
+.hidden{
+  display: none;
+}
 
 
 .button-26,
