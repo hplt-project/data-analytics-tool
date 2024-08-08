@@ -250,7 +250,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 									: v[0] === "no_porn"
 									? "No porn"
 									: "",
-							value: parseFloat((v[1] * 100) /  sentenceCount),
+							value: +parseFloat((v[1] * 100) /  sentenceCount).toFixed(2),
 							perc: `${((v[1] * 100) /  sentenceCount).toFixed(2)} %`,
 						};
 					})

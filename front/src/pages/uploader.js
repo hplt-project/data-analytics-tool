@@ -76,10 +76,11 @@ export default function Uploader({ languageList }) {
 				const formdata = new FormData();
 
 				Object.entries(data).forEach(([key, value]) => {
+			
 					if (key === "corpus") {
 						formdata.set(key, value[0]);
 					} else {
-						formdata.set(key, value);
+						formdata.set(key, value.replaceAll(".", "-"));
 					}
 				});
 
@@ -127,13 +128,16 @@ export default function Uploader({ languageList }) {
 			(status && dataFields[4]) ||
 			(!status && dataFields[4] && dataFields[5])
 		) {
+
 			Object.entries(data).forEach(([key, value]) => {
+
 				if (key === "corpus" && value) {
 					formdata.set(key, "");
 				} else {
-					formdata.set(key, value);
+					formdata.set(key, value.replaceAll(".", "-"));
 				}
 			});
+
 
 			if (!data.trglang || status || docs) {
 				formdata.set("trglang", "-");
@@ -212,6 +216,7 @@ export default function Uploader({ languageList }) {
 				</div>
 			)}
 			{cmd && (
+				<div className={styles.loaderContainer}>
 				<div className={styles.cmd}>
 					<button className={styles.closeCmd} onClick={() => setCmd("")}>
 						Close <XCircle strokeWidth={1.5} className={styles.closeIcon} />
@@ -226,6 +231,7 @@ export default function Uploader({ languageList }) {
 						</button>
 					</CopyToClipboard>
 					<Toaster />
+				</div>
 				</div>
 			)}
 
@@ -245,7 +251,7 @@ export default function Uploader({ languageList }) {
 					</div>
 				</div>
 			)}
-			{cmdStatus === "UPLOADING" && (
+			{/* {cmdStatus === "UPLOADING" && (
 				<div className={styles.loaderContainer}>
 					<div className={styles.loader}>
 						<h1>Processing file and generating CMD...</h1>
@@ -260,7 +266,7 @@ export default function Uploader({ languageList }) {
 						/>
 					</div>
 				</div>
-			)}
+			)} */}
 			<form id="upload-form" encType="multipart/form-data">
 				<div className={styles["form-group"]}>
 					<div className={styles["input-group"]}>
@@ -469,7 +475,7 @@ export default function Uploader({ languageList }) {
 									setValue("srclang", value.value);
 								}}
 								style={
-									uploadStatus === "UPLOADING" ? { position: "static" } : {}
+									uploadStatus === "UPLOADING" || cmd? { position: "static" } : {}
 								}
 							/>
 						</div>
@@ -491,7 +497,7 @@ export default function Uploader({ languageList }) {
 										setValue("trglang", value.value);
 									}}
 									style={
-										uploadStatus === "UPLOADING" ? { position: "static" } : {}
+										uploadStatus === "UPLOADING"  || cmd? { position: "static" } : {}
 									}
 								/>
 							</div>
