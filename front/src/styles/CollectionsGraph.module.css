@@ -3,6 +3,25 @@
   width: fit-content
 }
 
+.tooltip {
+  background-color: white;
+  border: solid 1px rgb(199, 199, 199);
+  padding: 15px 35px 15px 15px;
+  border-radius: 5px;
+}
+
+.label {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+
+.perc{
+  margin-top: 5px;
+  margin-bottom: 7px;
+  font-weight: 600;
+
+}
 
 @media (max-width: 768px) {
 

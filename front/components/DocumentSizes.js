@@ -30,6 +30,11 @@ const CustomTooltip = ({ active, payload, label, measurement }) => {
 							>{`${measurement}:   ${Intl.NumberFormat("en", {
 								notation: "compact",
 							}).format(item.value)}`}</p>
+							{payload[0].payload.perc && (
+								<p
+									className={styles.perc}
+								>{`% of total:   ${payload[0].payload.perc} %`}</p>
+							)}
 						</>
 					);
 				})}
@@ -52,6 +57,7 @@ export default function DocumentSizes({
 		return {
 			token: item.token,
 			freq: item.freq,
+			perc: item.perc,
 			freqFormatted: Intl.NumberFormat("en", {
 				notation: "compact",
 			}).format(item.freq),

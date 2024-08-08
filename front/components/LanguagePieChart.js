@@ -19,7 +19,7 @@ const CustomTooltip = ({ active, payload, label }) => {
 	return null;
 };
 
-export default function LanguagePieChart({ langs }) {
+export default function LanguagePieChart({ langs, total }) {
 	if (langs.length > 10) {
 		const others = langs.slice(10, langs.length);
 
@@ -34,6 +34,7 @@ export default function LanguagePieChart({ langs }) {
 				final
 			)}`,
 			freq: final,
+			perc: parseFloat((final * 100) / total).toFixed(2),
 			fill: "gray",
 		});
 	}

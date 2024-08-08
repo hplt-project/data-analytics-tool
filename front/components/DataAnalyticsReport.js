@@ -55,17 +55,13 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
 	const [loadingPdf, setLoadingPdf] = useState(false);
 
-
 	const sentences = reportData.sentence_pairs
-	? reportData.sentence_pairs.toLocaleString("en-US")
-	: "";
-
+		? reportData.sentence_pairs.toLocaleString("en-US")
+		: "";
 
 	const sentenceCount = reportData.sentence_pairs
-	? parseFloat(reportData.sentence_pairs)
-	: "";
-
-
+		? parseFloat(reportData.sentence_pairs)
+		: "";
 
 	// const totalMonocleanerScores = reportData.monocleaner_scores
 	// 	? JSON.parse(reportData.monocleaner_scores).reduce(
@@ -250,8 +246,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
 									: v[0] === "no_porn"
 									? "No porn"
 									: "",
-							value: +parseFloat((v[1] * 100) /  sentenceCount).toFixed(2),
-							perc: `${((v[1] * 100) /  sentenceCount).toFixed(2)} %`,
+							value: +parseFloat((v[1] * 100) / sentenceCount).toFixed(2),
+							perc: `${((v[1] * 100) / sentenceCount).toFixed(2)} %`,
 						};
 					})
 			: "";
@@ -295,9 +291,18 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
 	const restPerc = ((docsSegmentsTotal - totalDocs) * 100) / docsSegmentsTotal;
 
+	const documentScoreTotal = reportData.docs_wds
+		? JSON.parse(reportData.docs_wds).reduce((a, b) => a + +b[1], 0)
+		: "";
+
 	const documentScore = reportData.docs_wds
 		? JSON.parse(reportData.docs_wds).map((s) => {
-				return { token: +s[0], freq: +s[1], fill: "#E9C46A" };
+				return {
+					token: +s[0],
+					freq: +s[1],
+					perc: parseFloat((+s[1] * 100) / documentScoreTotal).toFixed(2),
+					fill: "#E9C46A",
+				};
 		  })
 		: "";
 
@@ -331,6 +336,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 				return {
 					token: doc[0],
 					freq: doc[1],
+					perc: parseFloat((+doc[1] * 100) / totalDocsScore).toFixed(2),
 					fill: "#38686a",
 				};
 		  })
@@ -353,9 +359,18 @@ export default function DataAnalyticsReport({ reportData, date }) {
 	// 	  })
 	// 	: "";
 
+	const docsCollectionsTotal = reportData.docs_collections
+		? JSON.parse(reportData.docs_collections).reduce((a, b) => a + b[1], 0)
+		: "";
+
 	const docsCollections = reportData.docs_collections
 		? JSON.parse(reportData.docs_collections).map((s) => {
-				return { token: s[0], freq: s[1], fill: randDarkColor() };
+				return {
+					token: s[0],
+					freq: s[1],
+					perc: parseFloat((s[1] * 100) / docsCollectionsTotal).toFixed(2),
+					fill: randDarkColor(),
+				};
 		  })
 		: "";
 
@@ -418,7 +433,6 @@ export default function DataAnalyticsReport({ reportData, date }) {
 	const trgChars = reportData.trg_chars
 		? reportData.trg_chars.toLocaleString("en-US")
 		: "";
-
 
 	const uniqueSegments = reportData.unique_sents ? reportData.unique_sents : "";
 
@@ -920,7 +934,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
 									) : (
 										<h3>Source</h3>
 									)}
-									<LanguagePieChart langs={srcLangs} id="image" />
+									<LanguagePieChart
+										langs={srcLangs}
+										total={srcLangsTotal}
+										id="image"
+									/>
 								</div>
 							)}
 							{langDocs && (
@@ -936,7 +954,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
 							{trgLangs && (
 								<div className={styles.singleLanguageReport}>
 									<h3 className={styles.smaller}>Target</h3>
-									<LanguagePieChart langs={trgLangs} id="image" />
+									<LanguagePieChart
+										langs={trgLangs}
+										total={trgLangsTotal}
+										id="image"
+									/>
 								</div>
 							)}
 						</div>
@@ -1209,7 +1231,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
 									) : (
 										<h3>Source</h3>
 									)}
-									<LanguagePieChart langs={srcLangs} id="image" />
+									<LanguagePieChart
+										langs={srcLangs}
+										total={srcLangsTotal}
+										id="image"
+									/>
 								</div>
 							)}
 							{langDocs && (
@@ -1222,7 +1248,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
 							{trgLangs && (
 								<div className={styles.singleLanguageReport}>
 									<h3>Target</h3>
-									<LanguagePieChart langs={trgLangs} id="image" />
+									<LanguagePieChart
+										langs={trgLangs}
+										total={trgLangsTotal}
+										id="image"
+									/>
 								</div>
 							)}
 						</div>
