@@ -1,5 +1,5 @@
 fastspell==0.11
-nltk==3.8.1
+nltk==3.9.1
 docopt
 xxhash>=2.0.0
 sacremoses==0.0.53
@@ -8,8 +8,8 @@ reldi-tokeniser==1.0.3
 pyidaungsu==0.1.4
 sinling==0.3.6
 fitrat==0.0.9
-mahaNLP==0.9
-bnlp-toolkit==4.0.1
+#mahaNLP==0.9 --> Version not compatible because of hunggingface version
+#bnlp-toolkit==4.0.2 #--> Version not compatible with other libs because of scipy version and nltk
 thai-segmenter==0.4.1
 #stopwords==1.0.0  --> Using fork (below)
 stopwords @ git+https://github.com/mbanon/stopwords@master
@@ -17,7 +17,7 @@ indic-nlp-library==0.92
 stopwordsiso==0.6.1
 spacy-pkuseg==0.0.32
 hebrew-tokenizer==2.3.0
-nlp-id==0.1.15.0
+nlp-id==0.1.18.0 
 mecab-python3==1.0.6
 unidic-lite==1.0.8
 tldextract

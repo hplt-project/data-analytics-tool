@@ -10,8 +10,8 @@ import tldextract
 import math
 #import cProfile
 import statistics
+
 import docscorer
-import iso639
 
 from timeit import default_timer
 from util import logging_setup
@@ -43,7 +43,7 @@ def initialization():
     groupL.add_argument('--logfile', type=argparse.FileType('a'), default=sys.stderr, help="Store log to a file")
     #groupL.add_argument('-v', '--version', action='version', version="%(prog)s " + __version__, help="show version of this script and exit")
 
-    args = parser.parse_args() 
+    args = parser.parse_args()
     return args
 
 #Probably more fanciness needed here
@@ -90,15 +90,15 @@ def main():
         
     for json_line in args.corpus :
         total_docs+=1
-        doc = json.loads(json_line)        
-        langs = doc.get("seg_langs")
+        doc = json.loads(json_line)
+        scores = doc.get("scores")
+        langs = doc.get("langs")
         sents = doc.get("text").split("\n")
-        url = doc.get("u")
+        url = doc.get("url")
         collection = doc.get("collection")
-        docscores = doc.get("doc_scores")
         
-        if len(langs) != len(sents):
-            logging.debug("Langs: " + str(len(langs)) + "; Segments: " + str(len(sents)) + "; Skipping")
+        if (len(scores) != len(sents)) or (len(langs) != len(sents)):
+            logging.debug("Scores: " + str(len(scores)) + "; Langs: " + str(len(langs)) + "; Segments: " + str(len(sents)) + "; Skipping")
             unmatching_docs+=1
             continue
 
@@ -113,32 +113,26 @@ def main():
         #        args.fluency.write(str(math.floor(f*10)/10)+"\n") #Storing only one decimal point for disk space reasons
 
                 
-        #Document Score (Web Docs Scorer)
-        if docscores == None:        
-            document_score = ds.score_document(json_line, only_final_score=True)
-        else:
-            document_score = docscores[0]
+        #Document Score (Web Docs Scorer)        
+        document_score = ds.score_document(json_line, only_final_score=True)
         docs_scores[document_score]+=1
 
         #Segments per document (docs_segments)         
-        doc_length[len(sents)] += 1
+        doc_length[len(scores)] += 1
 
         #Documents per collection (docs_collection)
         doc_collections[collection] += 1
         
         #Segments in the document language (docs_lang)
         #lang_matches = langs.count(args.srclang)
-        if len(args.srclang) == 2:
-            #The documents have 3-letter langcodes
-            langobj = iso639.Lang(args.srclang)
-            lang3 = langobj.pt3
-        else:
-            lang3 = args.srclang
-        lang_matches = sum(1 for item in langs if item.split("_")[0] == lang3) #this accepts both "hbs_cyr" and "hbs_lat" when target language is "hbs", for example
+        lang_matches = sum(1 for item in langs if item.split("_")[0] == args.srclang) #this accepts both "hbs_cyr" and "hbs_lat" when target language is "hbs", for example
         lang_matches_rate = round((lang_matches/len(langs)), 1)
         doc_langs[lang_matches_rate] += 1
 
-
+        #Average LM score per document (docs_lm_avg)        
+        lm_mean = round(mean(scores), 1)
+        docs_lm_avg[lm_mean] += 1
+        
         #Top-level domain and domain
         try:
             #domain = url.replace("http://", "").replace("https://", "").replace("www.", "").split("/")[0]
@@ -179,7 +173,10 @@ def main():
     for rate, freq in sorted(doc_langs.items()):
         langs_list.append([rate, freq])
         
-
+    lm_avg_list = []
+    for lm, freq in sorted(docs_lm_avg.items()):
+        lm_avg_list.append([lm, freq])
+        
     tld_list = []
     for tld, freq in sorted(docs_tld.most_common(100), key=lambda pair:pair[1], reverse=True):
         tld_list.append([tld, freq])
@@ -195,6 +192,7 @@ def main():
     stats["docs_segments"] = json.dumps(doc_length_list)
     stats["docs_collections"] = json.dumps(collections_list)
     stats["docs_langs"] = json.dumps(langs_list)
+    stats["docs_avg_lm"] = json.dumps(lm_avg_list)
     stats["docs_top100_domains"] = json.dumps(domains_list)
     stats["docs_top100_tld"] = json.dumps(tld_list)    
     stats["docs_wds"] = json.dumps(docscores_list)

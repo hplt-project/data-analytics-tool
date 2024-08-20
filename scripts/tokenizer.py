@@ -12,8 +12,8 @@ from sacremoses import MosesTokenizer
 from nltk.tokenize import WordPunctTokenizer, word_tokenize
 from sinling import SinhalaTokenizer
 from fitrat import word_tokenize as fitrat_word_tokenize
-from mahaNLP.tokenizer import Tokenize as MahaTokenizer
-from bnlp import NLTKTokenizer
+#from mahaNLP.tokenizer import Tokenize as MahaTokenizer
+#from bnlp import NLTKTokenizer
 from thai_segmenter import tokenize as thai_tokenize
 from indicnlp.tokenize import indic_tokenize
 from nlp_id.tokenizer import Tokenizer as IndonesianTokenizer
