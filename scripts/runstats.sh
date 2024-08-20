@@ -326,8 +326,8 @@ elif [ "$langformat" == "mono" ]; then
 		#Lang supported by monocleaner
 		monocleaner_metadata=$datapath/monocleaner/$srclang/metadata.yaml
 		mkdir -p $datapath/monocleaner
-	else
-		echo "Language not supported by Monocleaner"
+	#else
+		#echo "Language not supported by Monocleaner"
 	fi
 	source /work/venvs/venv-mc/bin/activate
 	echo "Running Monocleaner  Hardrules..."

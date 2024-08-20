@@ -6,6 +6,7 @@ from nltk import ngrams
 from nltk.corpus import stopwords as nltk_stopwords
 from stopwordsiso import stopwords as iso_stopwords
 from collections import Counter
+from klpt.preprocess import Preprocess as KurdishPreprocess
 
 NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
                         "az": "azerbaijani",
@@ -44,6 +45,8 @@ ASTUANA_STOPWORDS_LANGS = ["bg","cs", "fa", "ga", "gl", "hi", "hy", "ja",  "ko",
 ISO_STOPWORDS_LANGS =  ["af", "br", "eo", "et", "gu", "hr", "ms", "so", "sw","tl", "vi"]
 
 TXT_STOPWORDS_LANGS =  ["be", "bs", "cy", "is", "ka", "kn", "ky", "me", "mk", "ml", "mn",  "my", "pa", "ps", "si", "sq", "sr", "ta", "te", "tt",  "uz"] 
+
+KLPT_STOPWORDS_LANGS = ["kmr", "ckb"]
 
 def fix_stopwords(stopwords, lang):
     if lang == "af":
@@ -112,6 +115,16 @@ def get_stopwords(lang):
             for sw in swf:
                 stop_words.append(sw.strip()) 
         stop_words = fix_stopwords(stop_words, lang)
+        
+    elif lang in KLPT_STOPWORDS_LANGS:
+        logging.info("Stopwords from KLPT")
+        if lang == "kmr":
+            kp = KurdishPreprocess("Kurmanji", "Latin")
+        elif lang == "ckb":
+            kp = KurdishPreprocess("Sorani", "Arabic")
+        stop_words = kp.stopwords
+        stop_words = fix_stopwords(stop_words, lang)
+        
         
     else:    
         stop_words = [""] #ñapa to avoid it crashing

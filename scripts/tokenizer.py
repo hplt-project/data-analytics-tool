@@ -17,13 +17,14 @@ from fitrat import word_tokenize as fitrat_word_tokenize
 from thai_segmenter import tokenize as thai_tokenize
 from indicnlp.tokenize import indic_tokenize
 from nlp_id.tokenizer import Tokenizer as IndonesianTokenizer
+from klpt.tokenize import Tokenize as KurdishTokenizer
 
 #Apparently mahaNLP overwrites the logging level to quiet-er than desired
 logging.disable(logging.NOTSET)
 
 MOSES_LANGS = ["ba", "br", "ca", "cs", "co", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
-NLTK_WORD_LANGS = ["ar", "az", "be", "fa", "hy", "ka", "kk", "ky", "mn", "ms", "ps", "tt", "uk", "vi", "xh"]
+NLTK_WORD_LANGS = ["ar", "az", "be", "fa", "hy", "jv","ka", "kbp", "kk", "ky", "mn", "ms", "ps", "tt", "uk", "ug",  "vi", "xh"]
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
                     "da": "danish",
@@ -80,6 +81,8 @@ HEBREW_LANGS = ["he", "iw"]
 NLPID_LANGS =  ["id"]
 
 BOTOK_LANGS = ["bo"]
+
+KLPT_LANGS = ["kmr"]
 
 class CustomTokenizer:
 
@@ -183,6 +186,12 @@ class CustomTokenizer:
             config=botok.config.Config(dialect_name="general")
             self.tokenizer = botok.WordTokenizer(config)                          
             self.toktype = "botok"
+        elif lang in KLPT_LANGS:
+            if lang == "kmr":
+                self.tokenizer=KurdishTokenizer("Kurmanji", "Latin")
+            elif lang =="ckb":
+                self.tokenizer=KurdishTokenizer("Sorani", "Arabic")
+            self.toktype = "klpt"
         else:
             '''
             self.tokenizer =  MosesTokenizer("en")
@@ -260,6 +269,11 @@ class CustomTokenizer:
                 for obj in objects:
                     tokens.append(obj.text)
                 return tokens
+                
+            elif self.toktype == "klpt":
+                tokens = self.tokenizer.word_tokenize(sent, keep_form=True, separator= " ")
+                return tokens
+            
             else:
                 return None #TO DO Do something better here --> Because THIS CRASHES
         except Exception as ex:
