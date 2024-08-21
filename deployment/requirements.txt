@@ -9,7 +9,8 @@ pyidaungsu==0.1.4
 sinling==0.3.6
 fitrat==0.0.9
 #mahaNLP==0.9 --> Version not compatible because of hunggingface version
-#bnlp-toolkit==4.0.2 #--> Version not compatible with other libs because of scipy version and nltk
+#bnlp-toolkit==4.0.3 --> Moved to its own env 
+#bnlp-toolkit @ git+https://github.com/mbanon/bnlp@main
 thai-segmenter==0.4.1
 #stopwords==1.0.0  --> Using fork (below)
 stopwords @ git+https://github.com/mbanon/stopwords@master
@@ -25,4 +26,4 @@ botok==0.8.12
 pathvalidate
 pii-manager @ git+https://github.com/mmanteli/multilingual-PII-tool@db59603
 iso639-lang==2.2.3
-klpt
+klpt==0.1.6

@@ -35,6 +35,7 @@ RUN python3.10 -m venv /work/venvs/venv-mc
 RUN python3.10 -m venv /work/venvs/venv-bhr
 RUN python3.10 -m venv /work/venvs/venv-bc
 RUN python3.10 -m venv /work/venvs/venv-bcai
+RUN python3.10 -m venv /work/venvs/venv-bnlp
 
 RUN cd /work && git clone https://github.com/ZJaume/tmxt && git clone https://github.com/kpu/preprocess && cd
 RUN cd /work/preprocess &&  rm -fr build &&  mkdir build && cd build  && cmake .. && make && cd
@@ -71,10 +72,20 @@ RUN . /work/venvs/venv-bcai/bin/activate && \
     python3.10 -m pip install --config-settings="--build-option=--max_order=7" https://github.com/kpu/kenlm/archive/master.zip && \
     python3.10 -m pip install bicleaner-ai==3.1.0 && deactivate
 
+RUN . /work/venvs/venv-bnlp/bin/activate && \
+    python3.10 -m pip install -U pip && \
+    python3.10 -m pip install -U wheel && \ 
+    python3.10 -m pip install -U setuptools && \
+    python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\
+    python3.10 -m pip install -r /work/deployment/requirements.txt &&\
+    python3.10 -m pip install bnlp-toolkit==4.0.3 &&\
+    echo "import nltk; nltk.download('punkt'); nltk.download('punkt_tab'); nltk.download('stopwords');" | python3.10
+
+
 RUN python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\
     python3.10 -m pip install -r /work/deployment/requirements.txt &&\
     echo "import nltk; nltk.download('punkt'); nltk.download('stopwords');" | python3.10
-
+  
 
 
 COPY *.html /work/

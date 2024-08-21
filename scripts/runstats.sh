@@ -260,10 +260,16 @@ if [ "$langformat" == "parallel" ]; then
     	#mkdir -p profiling
 	#time  python3 -m cProfile  -s cumtime ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang > profiling/profile.text 2>&1
 	echo "Running ReadCorpus..."
+	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
+		source /work/venvs/venv-bnlp/bin/activate	
+	fi
 	if [ "$is_reversed" = true ]; then
 		python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang $metadata_file --is_reversed
 	else
 		python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang $metadata_file
+	fi
+        if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
+		deactivate
 	fi
 	
         rm -f $tsv_file_path.$srclang".ngrams"
@@ -366,8 +372,13 @@ elif [ "$langformat" == "mono" ]; then
 
 	#time python3 -m cProfile ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
 	echo "Running ReadCorpus Mono..."
+	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
+                source /work/venvs/venv-bnlp/bin/activate
+        fi
 	python3 ./scripts/readcorpus_mono.py $tsv_file_path $yaml_file_path $srclang
-	
+	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
+		deactivate
+	fi
 	rm -f  $tsv_file_path".ngrams"
 	
 	for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5

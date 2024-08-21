@@ -13,18 +13,23 @@ from nltk.tokenize import WordPunctTokenizer, word_tokenize
 from sinling import SinhalaTokenizer
 from fitrat import word_tokenize as fitrat_word_tokenize
 #from mahaNLP.tokenizer import Tokenize as MahaTokenizer
-#from bnlp import NLTKTokenizer
 from thai_segmenter import tokenize as thai_tokenize
 from indicnlp.tokenize import indic_tokenize
 from nlp_id.tokenizer import Tokenizer as IndonesianTokenizer
 from klpt.tokenize import Tokenize as KurdishTokenizer
+
+try:
+    from bnlp import NLTKTokenizer
+except:
+    pass
+
 
 #Apparently mahaNLP overwrites the logging level to quiet-er than desired
 logging.disable(logging.NOTSET)
 
 MOSES_LANGS = ["ba", "br", "ca", "cs", "co", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
-NLTK_WORD_LANGS = ["ar", "az", "be", "fa", "hy", "jv","ka", "kbp", "kk", "ky", "mn", "ms", "plt", "ps", "tt", "uk", "ug",  "vi", "xh"]
+NLTK_WORD_LANGS = ["ar", "az", "be", "fa", "ht", "hy", "jv", "ka", "kbp", "kk", "ky", "mn", "ms", "plt", "ps", "tt", "uk", "ug",  "vi", "xh"]
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
                     "da": "danish",
