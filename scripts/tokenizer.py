@@ -17,6 +17,7 @@ from thai_segmenter import tokenize as thai_tokenize
 from indicnlp.tokenize import indic_tokenize
 from nlp_id.tokenizer import Tokenizer as IndonesianTokenizer
 from klpt.tokenize import Tokenize as KurdishTokenizer
+from pycantonese.word_segmentation import segment as cantonese_segment
 
 try:
     from bnlp import NLTKTokenizer
@@ -79,7 +80,7 @@ THAI_LANGS = ["th"]
 
 INDIC_LANGS = ["gu" ,"hi", "kn", "ne", "pa", "te", "ur"]
 
-PKUSEG_LANGS = ["zh", "zh-Hant", "yue"]
+PKUSEG_LANGS = ["zh", "zh-Hant"]
 
 HEBREW_LANGS = ["he", "iw"]
 
@@ -88,6 +89,8 @@ NLPID_LANGS =  ["id"]
 BOTOK_LANGS = ["bo"]
 
 KLPT_LANGS = ["kmr"]
+
+CANTONESE_LANGS = ["yue"]
 
 class CustomTokenizer:
 
@@ -187,16 +190,22 @@ class CustomTokenizer:
             self.tokenizer = IndonesianTokenizer()
             self.toktype = "nlpid"
 
-        elif lang in BOTOK_LANGS:
+        elif lang in BOTOK_LANGS:  #This is a little bit slow...
             config=botok.config.Config(dialect_name="general")
             self.tokenizer = botok.WordTokenizer(config)                          
             self.toktype = "botok"
+
         elif lang in KLPT_LANGS:
             if lang == "kmr":
                 self.tokenizer=KurdishTokenizer("Kurmanji", "Latin")
             elif lang =="ckb":
                 self.tokenizer=KurdishTokenizer("Sorani", "Arabic")
             self.toktype = "klpt"
+        
+        elif lang in CANTONESE_LANGS:
+            self.tokenizer  = cantonese_segment
+            self.toktype = "pycantonese"
+            
         else:
             '''
             self.tokenizer =  MosesTokenizer("en")
@@ -277,6 +286,10 @@ class CustomTokenizer:
                 
             elif self.toktype == "klpt":
                 tokens = self.tokenizer.word_tokenize(sent, keep_form=True, separator= " ")
+                return tokens
+                
+            elif self.toktype == "pycantonese":
+                tokens = self.tokenizer(sent)
                 return tokens
             
             else:
