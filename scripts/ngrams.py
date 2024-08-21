@@ -45,7 +45,7 @@ ASTUANA_STOPWORDS_LANGS = ["bg","cs", "fa", "ga", "gl", "hi", "hy", "ja",  "ko",
 
 ISO_STOPWORDS_LANGS =  ["af", "br", "eo", "et", "gu", "hr", "ms", "so", "sw","tl", "vi"]
 
-TXT_STOPWORDS_LANGS =  ["be", "bo", "bs", "cy", "is", "ka", "kn", "ky", "me", "mk", "ml", "mn",  "my", "pa", "ps", "si", "sq", "sr", "ta", "te", "tt",  "uz"] 
+TXT_STOPWORDS_LANGS =  ["be", "bo", "bs", "ceb", "cy", "is", "ka", "kn", "ky", "me", "mk", "ml", "mn",  "my", "pa", "ps", "si", "sq", "sr", "ta", "te", "tt",  "uz"] 
 
 KLPT_STOPWORDS_LANGS = ["kmr", "ckb"]
 
