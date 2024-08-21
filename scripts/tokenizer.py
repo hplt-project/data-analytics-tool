@@ -79,7 +79,7 @@ THAI_LANGS = ["th"]
 
 INDIC_LANGS = ["gu" ,"hi", "kn", "ne", "pa", "te", "ur"]
 
-PKUSEG_LANGS = ["zh", "zh-Hant"]
+PKUSEG_LANGS = ["zh", "zh-Hant", "yue"]
 
 HEBREW_LANGS = ["he", "iw"]
 
