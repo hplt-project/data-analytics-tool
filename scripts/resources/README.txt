@@ -16,6 +16,7 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * stopwords.ka: https://github.com/voku/stop-words/blob/master/src/voku/helper/stopwords/ka.php
 * stopwords.kn: https://gist.github.com/MSDarshan91/f97c73435a3ab32a6638436231bf5616
 * stopwords.ky: https://github.com/explosion/spaCy/blob/master/spacy/lang/ky/stop_words.py
+* stopwords.lb: https://github.com/Deadlyelder/luxembourgish-stop-words/blob/main/luxembourgish-stop-words.txt
 * stopwords.mk: https://github.com/petrushev/nlmk/blob/master/nlmk/_stopwords.py
 * stopwrods.mn: https://github.com/Xangis/extra-stopwords/blob/master/mongolian
 * stopwords.my: https://github.com/fergiemcdowall/stopword/blob/main/src/stopwords_mya.js

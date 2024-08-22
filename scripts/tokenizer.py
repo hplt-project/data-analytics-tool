@@ -30,7 +30,7 @@ logging.disable(logging.NOTSET)
 
 MOSES_LANGS = ["ba", "br", "ca", "cs", "co", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
-NLTK_WORD_LANGS = ["ar", "az", "be", "ceb", "fa", "ht", "hy", "jv", "ka", "kbp", "kk", "ky", "mn", "ms", "plt", "ps", "tt", "tw", "uk", "ug",  "vi", "xh"]
+NLTK_WORD_LANGS = ["ar", "ayr", "az", "be", "ceb", "fa", "ht", "hy", "jv", "ka", "kbp", "kea", "kk", "ky", "mn", "ms", "plt", "ps", "tt", "tw", "uk", "ug",  "vi", "xh"]
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
                     "da": "danish",
@@ -43,6 +43,7 @@ RELDI_FALLBACK = {"bs": "sr"}
 MOSES_FALLBACK = {
                  "ab": "ru",
                  "af": "nl",
+                 "ast": "es",
                  "ba": "ru",
                  "br": "fr",
                  "co": "it",
@@ -52,6 +53,7 @@ MOSES_FALLBACK = {
                  "ga": "en",
                  "gl": "es",
                  "la": "en",
+                 "lb": "de",
                  "lt": "en",
                  "mt": "en",
                  "so": "en",
