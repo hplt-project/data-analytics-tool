@@ -47,7 +47,7 @@ ISO_STOPWORDS_LANGS =  ["af", "br", "eo", "et", "gu", "hr", "ms", "so", "sw","tl
 
 TXT_STOPWORDS_LANGS =  ["be", "bo", "bs", "ceb", "cy", "is", "ka", "kn", "ky", "lb", "me", "mk", "ml", "mn",  "my", "pa", "ps", "si", "sq", "sr", "ta", "te", "tt",  "uz"] 
 
-KLPT_STOPWORDS_LANGS = ["kmr", "ckb"]
+KLPT_STOPWORDS_LANGS = ["ckb", "kmr"]
 
 CANTONESE_LANGS = ["yue"]
 

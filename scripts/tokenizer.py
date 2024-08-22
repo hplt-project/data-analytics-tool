@@ -90,7 +90,7 @@ NLPID_LANGS =  ["id"]
 
 BOTOK_LANGS = ["bo"]
 
-KLPT_LANGS = ["kmr"]
+KLPT_LANGS = ["ckb", "kmr"]
 
 CANTONESE_LANGS = ["yue"]
 
