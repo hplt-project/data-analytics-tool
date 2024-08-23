@@ -15,6 +15,7 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * stopwords.cy: https://github.com/techiaith/ataleiriau/blob/main/cy_ataleiriau_stopwords.txt
 * stopwords.is: https://github.com/atlijas/icelandic-stop-words/blob/master/all_stop_words.txt
 * stopwords.ka: https://github.com/voku/stop-words/blob/master/src/voku/helper/stopwords/ka.php
+* stopwords.kab: https://raw.githubusercontent.com/YazidIflis/KabyleNLP
 * stopwords.kn: https://gist.github.com/MSDarshan91/f97c73435a3ab32a6638436231bf5616
 * stopwords.ky: https://github.com/explosion/spaCy/blob/master/spacy/lang/ky/stop_words.py
 * stopwords.lb: https://github.com/Deadlyelder/luxembourgish-stop-words/blob/main/luxembourgish-stop-words.txt
