@@ -18,7 +18,7 @@ from indicnlp.tokenize import indic_tokenize
 from nlp_id.tokenizer import Tokenizer as IndonesianTokenizer
 from klpt.tokenize import Tokenize as KurdishTokenizer
 from pycantonese.word_segmentation import segment as cantonese_segment
-
+from laonlp.tokenize import word_tokenize as lao_tokenize
 try:
     from bnlp import NLTKTokenizer
 except:
@@ -94,6 +94,8 @@ BOTOK_LANGS = ["bo"]
 KLPT_LANGS = ["ckb", "kmr"]
 
 CANTONESE_LANGS = ["yue"]
+
+LAONLP_LANGS = ["lo"]
 
 class CustomTokenizer:
 
@@ -208,6 +210,10 @@ class CustomTokenizer:
         elif lang in CANTONESE_LANGS:
             self.tokenizer  = cantonese_segment
             self.toktype = "pycantonese"
+        
+        elif lang in LAONLP_LANGS:
+            self.tokenizer = lao_tokenize
+            self.toktype = "laonlp"
             
         else:
             '''
@@ -292,6 +298,10 @@ class CustomTokenizer:
                 return tokens
                 
             elif self.toktype == "pycantonese":
+                tokens = self.tokenizer(sent)
+                return tokens
+                
+            elif self.toktype == "laonlp":
                 tokens = self.tokenizer(sent)
                 return tokens
             

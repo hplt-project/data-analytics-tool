@@ -7,6 +7,7 @@ from nltk.corpus import stopwords as nltk_stopwords
 from stopwordsiso import stopwords as iso_stopwords
 from collections import Counter
 from klpt.preprocess import Preprocess as KurdishPreprocess
+from laonlp.corpus.lao_words import lao_stopwords
 import pycantonese
 
 NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
@@ -51,6 +52,8 @@ TXT_STOPWORDS_LANGS =  ["be", "bo", "bs", "ceb", "cy", "is", "ka", "kn", "ky", "
 KLPT_STOPWORDS_LANGS = ["ckb", "kmr"]
 
 CANTONESE_LANGS = ["yue"]
+
+LAONLP_LANGS = ["lo"]
 
 def fix_stopwords(stopwords, lang):
     if lang == "af":
@@ -131,8 +134,13 @@ def get_stopwords(lang):
     
     elif lang in CANTONESE_LANGS:
         logging.info("Stopwords from pycantonese")
-        stopwords = pycantonese.stop_words()
+        stopwords = list(pycantonese.stop_words())
         stop_words = fix_stopwords(stopwords, lang)    
+    
+    elif lang in LAONLP_LANGS:
+        logging.info("Stopwords from LaoNLP")
+        stopwords = list(lao_stopwords())
+        stop_words = fix_stopwords(stopwords, lang)
         
     else:    
         stop_words = [""] #ñapa to avoid it crashing
