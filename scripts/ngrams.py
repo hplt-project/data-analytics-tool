@@ -8,6 +8,7 @@ from stopwordsiso import stopwords as iso_stopwords
 from collections import Counter
 from klpt.preprocess import Preprocess as KurdishPreprocess
 from laonlp.corpus.lao_words import lao_stopwords
+from openodia.common.constants import STOPWORDS as odia_stopwords
 import pycantonese
 
 NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
@@ -54,6 +55,8 @@ KLPT_STOPWORDS_LANGS = ["ckb", "kmr"]
 CANTONESE_LANGS = ["yue"]
 
 LAONLP_LANGS = ["lo"]
+
+OPENODIA_LANGS = ["ory"]
 
 def fix_stopwords(stopwords, lang):
     if lang == "af":
@@ -142,6 +145,11 @@ def get_stopwords(lang):
         stopwords = list(lao_stopwords())
         stop_words = fix_stopwords(stopwords, lang)
         
+    elif lang in OPENODIA_LANGS:
+        logging.info("Stopwords from OpenOdia")
+        stopwords = odia_stopwords
+        stop_words = fix_stopwords(stopwords, lang)
+
     else:    
         stop_words = [""] #ñapa to avoid it crashing
         warnings = ["ngrams_"+lang+"_nostopwords"]

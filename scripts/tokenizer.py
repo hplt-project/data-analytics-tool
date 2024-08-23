@@ -19,6 +19,7 @@ from nlp_id.tokenizer import Tokenizer as IndonesianTokenizer
 from klpt.tokenize import Tokenize as KurdishTokenizer
 from pycantonese.word_segmentation import segment as cantonese_segment
 from laonlp.tokenize import word_tokenize as lao_tokenize
+from openodia import ud as openodia_tokenize
 try:
     from bnlp import NLTKTokenizer
 except:
@@ -96,6 +97,8 @@ KLPT_LANGS = ["ckb", "kmr"]
 CANTONESE_LANGS = ["yue"]
 
 LAONLP_LANGS = ["lo"]
+
+OPENODIA_LANGS = ["ory"]
 
 class CustomTokenizer:
 
@@ -215,6 +218,10 @@ class CustomTokenizer:
             self.tokenizer = lao_tokenize
             self.toktype = "laonlp"
             
+        elif lang in OPENODIA_LANGS:
+            self.tokenizer = openodia_tokenize.word_tokenizer
+            self.toktype = "openodia"
+            
         else:
             '''
             self.tokenizer =  MosesTokenizer("en")
@@ -304,6 +311,10 @@ class CustomTokenizer:
             elif self.toktype == "laonlp":
                 tokens = self.tokenizer(sent)
                 return tokens
+            
+            elif self.toktype == "openodia":
+                tokens = self.tokenizer(sent)
+                return tokens            
             
             else:
                 return None #TO DO Do something better here --> Because THIS CRASHES
