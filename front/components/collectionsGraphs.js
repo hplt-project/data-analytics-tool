@@ -27,7 +27,24 @@ const CustomTooltip = ({ active, payload, label }) => {
 	}
 };
 
-export default function CollectionsGraph({ collection }) {
+export default function CollectionsGraph({ collection, total }) {
+
+	if (collection.length > 10) {
+		const others = collection.slice(10, collection.length);
+
+		const final = others.reduce((a, b) => {
+			return a + +b.freq;
+		}, 0);
+
+		collection.splice(10);
+
+		collection.push({
+			token: "Others",
+			freq: final,
+			perc: parseFloat((final * 100) / total).toFixed(2),
+			fill: "gray",
+		});
+	}
 	return (
 		<div className={styles.collectionsGraph}>
 			<ResponsiveContainer width="100%" height="100%" aspect={1.6}>

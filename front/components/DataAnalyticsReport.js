@@ -885,7 +885,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 						{docsCollections && (
 							<div className={styles.collectionsGraphPie}>
 								<h3>Documents by collection</h3>
-								<CollectionsGraph collection={docsCollections} />
+								<CollectionsGraph collection={docsCollections} total={docsCollectionsTotal}/>
 							</div>
 						)}
 					</div>
