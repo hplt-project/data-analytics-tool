@@ -45,7 +45,7 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
 
 ASTUANA_STOPWORDS_LANGS = ["bg","cs", "fa", "ga", "gl", "hi", "hy", "ja",  "ko", "la", "lt",  "lv", "mr", "pl", "sk", "th", "uk", "ur"]
 
-ISO_STOPWORDS_LANGS =  ["af", "br", "eo", "et", "gu", "hr", "ms", "so", "sw","tl", "vi"]
+ISO_STOPWORDS_LANGS =  ["af", "br", "eo", "et", "gu", "hr", "ms", "so", "sw","tl", "vi", "zu"]
 
 TXT_STOPWORDS_LANGS =  ["as", "be", "bo", "bs", "ceb", "cy", "is", "ka", "kab", "kn", "ky", "lb", "me", "mk", "ml", "mn",  "my", "pa", "ps",
                         "rn", "si", "sq", "sr", "ta", "te", "tt",  "uz"] 
