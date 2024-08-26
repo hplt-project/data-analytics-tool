@@ -8,6 +8,7 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * be,bs, mn, sr, te, bs : https://github.com/Xangis/extra-stopwords
 * my, pa:  https://github.com/fergiemcdowall/stopword
 * ky, tn: https://github.com/explosion/spaCy
+* rs, rw: https://github.com/masakhane-io/masakhanePreprocessor/tree/main/african-stopwords
 
 * stopwords.as: https://noixobdo.blogspot.com/2011/03/assamese-stop-word-list.html
 * stopwords.bo: https://github.com/lopenling/Bokit/blob/main/bokit/utils/create_stopword_list.py
@@ -20,7 +21,6 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * stopwords.lb: https://github.com/Deadlyelder/luxembourgish-stop-words/blob/main/luxembourgish-stop-words.txt
 * stopwords.mk: https://github.com/petrushev/nlmk/blob/master/nlmk/_stopwords.py
 * stopwords.ps: https://github.com/mohbadar/pashto-stopwords/blob/master/data/pashto-stopwords.txt
-* stopwords.rs: https://github.com/masakhane-io/masakhanePreprocessor/tree/main/african-stopwords
 * stopwords.si: https://raw.githubusercontent.com/nlpcuom/Sinhala-Stopword-list/master/stop%20words.txt
 * stopwords.sq: https://github.com/andrixh/index-albanian/blob/master/src/Stemmer.php + https://betimdrenica.wordpress.com/2012/05/21/albanian-stop-words/
 * stopwords.ta: https://github.com/AshokR/TamilNLP/blob/master/tamilnlp/Resources/TamilStopWords.txt
