@@ -19,6 +19,8 @@ from klpt.tokenize import Tokenize as KurdishTokenizer
 from pycantonese.word_segmentation import segment as cantonese_segment
 from laonlp.tokenize import word_tokenize as lao_tokenize
 from openodia import ud as openodia_tokenize
+from igbo_text import IgboText
+
 try:
     from bnlp import NLTKTokenizer
 except:
@@ -96,6 +98,8 @@ CANTONESE_LANGS = ["yue"]
 LAONLP_LANGS = ["lo"]
 
 OPENODIA_LANGS = ["ory"]
+
+IGBO_LANGS = ["ig"]
 
 class CustomTokenizer:
 
@@ -215,6 +219,10 @@ class CustomTokenizer:
             self.tokenizer = openodia_tokenize.word_tokenizer
             self.toktype = "openodia"
             
+        elif lang in IGBO_LANGS:
+            self.tokenizer = IgboText()
+            self.toktype = "igbo"
+            
         else:
             '''
             self.tokenizer =  MosesTokenizer("en")
@@ -307,6 +315,10 @@ class CustomTokenizer:
                 tokens = self.tokenizer(sent)
                 return tokens            
             
+            elif self.toktype == "igbo":
+                tokens = self.tokenizer.tokenize(sent)
+                return tokens
+                
             else:
                 return None #TO DO Do something better here --> Because THIS CRASHES
         except Exception as ex:
