@@ -32,7 +32,7 @@ logging.disable(logging.NOTSET)
 MOSES_LANGS = ["ba", "br", "ca", "cs", "co", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
 NLTK_WORD_LANGS = ["ar", "as", "ayr", "az", "be", "ceb", "fa", "fuv", "ht", "hy", "jv", "ka", "kab", "kbp", "kea", "kk", "ky", "mn", "mni",
-                    "ms", "nso", "pag", "plt", "ps","rn", "tt", "tw", "uk", "ug",  "vi", "xh", "zu"]
+                    "ms", "nso", "pag", "plt", "ps","rn", "tn", "tt", "tw", "uk", "ug",  "vi", "xh", "zu"]
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
                     "da": "danish",
@@ -82,7 +82,7 @@ BNLP_LANGS = ["bn"]
 
 THAI_LANGS = ["th"]
 
-INDIC_LANGS = ["gu" ,"hi", "kn", "ne", "pa", "te", "ur"]
+INDIC_LANGS = ["gu" ,"hi", "kn", "mag", "ne", "pa", "te", "ur"]
 
 PKUSEG_LANGS = ["zh", "zh-Hant"]
 
