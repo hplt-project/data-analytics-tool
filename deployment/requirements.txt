@@ -8,7 +8,6 @@ reldi-tokeniser==1.0.3
 pyidaungsu==0.1.4
 sinling==0.3.6
 fitrat==0.0.9
-#mahaNLP==0.9 --> Version not compatible because of hunggingface version
 #bnlp-toolkit==4.0.3 --> Moved to its own env 
 #bnlp-toolkit @ git+https://github.com/mbanon/bnlp@main
 thai-segmenter==0.4.1

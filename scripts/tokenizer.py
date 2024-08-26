@@ -12,7 +12,6 @@ from sacremoses import MosesTokenizer
 from nltk.tokenize import WordPunctTokenizer, word_tokenize
 from sinling import SinhalaTokenizer
 from fitrat import word_tokenize as fitrat_word_tokenize
-#from mahaNLP.tokenizer import Tokenize as MahaTokenizer
 from thai_segmenter import tokenize as thai_tokenize
 from indicnlp.tokenize import indic_tokenize
 from nlp_id.tokenizer import Tokenizer as IndonesianTokenizer
@@ -76,13 +75,11 @@ SINLING_LANGS = ["si"]
 
 FITRAT_LANGS = ["uz"]
 
-MAHANLP_LANGS = ["mr"]
-
 BNLP_LANGS = ["bn"]
 
 THAI_LANGS = ["th"]
 
-INDIC_LANGS = ["gu" ,"hi", "kn", "mag", "ne", "pa", "te", "ur"]
+INDIC_LANGS = ["gu" ,"hi", "kn", "mag", "mr", "ne", "pa", "te", "ur"]
 
 PKUSEG_LANGS = ["zh", "zh-Hant"]
 
@@ -169,10 +166,6 @@ class CustomTokenizer:
         elif lang in FITRAT_LANGS:
             self.tokenizer = fitrat_word_tokenize
             self.toktype = "fitrat"        
-            
-        elif lang in MAHANLP_LANGS:
-            self.tokenizer = MahaTokenizer()
-            self.toktype = "mahanlp"
             
         elif lang in BNLP_LANGS:
             self.tokenizer = NLTKTokenizer()
@@ -267,9 +260,7 @@ class CustomTokenizer:
             elif self.toktype == "fitrat":
                 return self.tokenizer(sent)
         
-            elif self.toktype == "mahanlp":
-                return self.tokenizer.word_tokenize(sent, punctuation=True)                
-            
+
             elif self.toktype == "bnlp":
                 return self.tokenizer.word_tokenize(text=sent)
         
