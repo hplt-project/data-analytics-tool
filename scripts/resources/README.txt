@@ -8,7 +8,7 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * be,bs, mn, sr, te, bs : https://github.com/Xangis/extra-stopwords
 * my, pa:  https://github.com/fergiemcdowall/stopword
 * ky, tn: https://github.com/explosion/spaCy
-* rs, rw: https://github.com/masakhane-io/masakhanePreprocessor/tree/main/african-stopwords
+* rs, rw, yo: https://github.com/masakhane-io/masakhanePreprocessor/tree/main/african-stopwords
 
 * stopwords.as: https://noixobdo.blogspot.com/2011/03/assamese-stop-word-list.html
 * stopwords.bo: https://github.com/lopenling/Bokit/blob/main/bokit/utils/create_stopword_list.py
