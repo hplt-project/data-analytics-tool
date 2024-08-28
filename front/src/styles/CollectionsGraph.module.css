@@ -8,6 +8,8 @@
   border: solid 1px rgb(199, 199, 199);
   padding: 15px 35px 15px 15px;
   border-radius: 5px;
+  z-index: 30000;
+
 }
 
 .label {
@@ -22,7 +24,11 @@
   font-weight: 600;
 
 }
-
+.singleOther{
+  font-weight: 600;
+  margin: 3px 0;
+  font-size: 13px;
+}
 @media (max-width: 768px) {
 
   .collectionsGraph {
