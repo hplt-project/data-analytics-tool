@@ -10,7 +10,7 @@ const CustomTooltip = ({ active, payload, label }) => {
 					return (
 						<>
 							<p key={idx} className={styles.desc} style={{ color: item.fill }}>
-								{`${item.name} - ${item.value.toLocaleString("en-US")}`}
+								{`${item.name} - (${item.value.toLocaleString("en-US")})`}
 							</p>
 							{item.payload.perc && (
 								<p
@@ -19,6 +19,15 @@ const CustomTooltip = ({ active, payload, label }) => {
 									style={{ color: item.fill }}
 								>{`% of total:   ${item.payload.perc} %`}</p>
 							)}
+							{item.payload.others &&
+								item.name.includes("Others") &&
+								item.payload.others.map((other) => {
+									return (
+										<div>
+											<p className={styles.singleOther}>{`${other.token} - ${other.freq} - (${other.perc}%)`}</p>
+										</div>
+									);
+								})}
 						</>
 					);
 				})}
@@ -28,23 +37,26 @@ const CustomTooltip = ({ active, payload, label }) => {
 };
 
 export default function CollectionsGraph({ collection, total }) {
+	const others = collection.filter((el) => +el.perc < 10);
 
-	if (collection.length > 10) {
-		const others = collection.slice(10, collection.length);
+	const othersCount = others.length;
 
-		const final = others.reduce((a, b) => {
-			return a + +b.freq;
-		}, 0);
+	const final = others.reduce((a, b) => {
+		return a + +b.freq;
+	}, 0);
 
-		collection.splice(10);
+	const newCollection = collection.filter((el) => +el.perc > 10);
 
-		collection.push({
-			token: "Others",
+	if (others.length) {
+		newCollection.push({
+			token: `${othersCount} Others`,
 			freq: final,
 			perc: parseFloat((final * 100) / total).toFixed(2),
 			fill: "gray",
+			others: [...others],
 		});
 	}
+
 	return (
 		<div className={styles.collectionsGraph}>
 			<ResponsiveContainer width="100%" height="100%" aspect={1.6}>
@@ -52,7 +64,7 @@ export default function CollectionsGraph({ collection, total }) {
 					<Pie
 						dataKey="freq"
 						isAnimationActive={false}
-						data={collection}
+						data={newCollection}
 						cx={180}
 						cy={130}
 						nameKey="token"
@@ -78,13 +90,13 @@ export default function CollectionsGraph({ collection, total }) {
 								<text
 									x={x}
 									y={y}
-									fill={collection[index].fill}
+									fill={newCollection[index].fill}
 									fontWeight={600}
 									fontSize={12}
 									textAnchor={x > cx ? "start" : "end"}
 									dominantBaseline="central"
 								>
-									{collection[index].token} (
+									{newCollection[index].token} (
 									{Intl.NumberFormat("en", {
 										notation: "compact",
 									}).format(value)}

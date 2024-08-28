@@ -8,7 +8,6 @@ const CustomTooltip = ({ active, payload, label }) => {
 				<p className={styles.pieLabel}>{`${payload[0].name}`}</p>
 				{payload[0].payload.perc && (
 					<p
-				
 						className={styles.perc}
 					>{`% of total:   ${payload[0].payload.perc} %`}</p>
 				)}
@@ -20,23 +19,29 @@ const CustomTooltip = ({ active, payload, label }) => {
 };
 
 export default function LanguagePieChart({ langs, total }) {
+	let finalValues;
 	if (langs.length > 10) {
 		const others = langs.slice(10, langs.length);
+
+		const othersLength = others.length;
 
 		const final = others.reduce((a, b) => {
 			return a + +b.freq;
 		}, 0);
 
-		langs.splice(10);
+		finalValues = langs.toSpliced(10);
 
-		langs.push({
-			name: `Others - ${Intl.NumberFormat("en", { notation: "compact" }).format(
-				final
-			)}`,
+		finalValues.push({
+			name: `${othersLength} Others - ${Intl.NumberFormat("en", {
+				notation: "compact",
+			}).format(final)}`,
 			freq: final,
 			perc: parseFloat((final * 100) / total).toFixed(2),
 			fill: "gray",
+			others: [...others],
 		});
+	} else {
+		finalValues = langs;
 	}
 	return (
 		<div className={styles.languagePieChartContainer}>
@@ -45,7 +50,7 @@ export default function LanguagePieChart({ langs, total }) {
 					<Pie
 						dataKey="freq"
 						isAnimationActive={false}
-						data={langs}
+						data={finalValues}
 						cx="40%"
 						cy="40%"
 						outerRadius="70%"
@@ -59,10 +64,7 @@ export default function LanguagePieChart({ langs, total }) {
 							<span className={styles.legendText}>{value}</span>
 						)}
 					/>
-					<Tooltip
-						content={<CustomTooltip />}
-						wrapperStyle={{ outline: "none" }}
-					/>
+					<Tooltip content={<CustomTooltip />} />
 				</PieChart>
 			</ResponsiveContainer>
 		</div>

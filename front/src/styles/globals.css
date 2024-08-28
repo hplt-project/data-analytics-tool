@@ -53,6 +53,7 @@
   --compare-border: 1px solid rgb(241, 238, 243);
   --dropdown-border: 1px solid #d4caf4;
 }
+
 [data-theme="dark"] {
   --main-background: #1d1f28;
   --navbar-background: #17181a;
@@ -107,6 +108,7 @@
   color: var(--main-copy);
   border: var(--dropdown-border);
 }
+
 /* .rw-dropdown, .rw-widget{
   position: static !important;
 
@@ -115,6 +117,7 @@
   color: var(--main-copy);
   border: none;
 }
+
 .rw-state-focus .rw-widget-picker {
   border-color: var(--dropdown-border);
 }
@@ -124,12 +127,15 @@
   color: var(--main-copy);
   border: none;
 }
+
 .rw-picker-caret {
   color: var(--main-copy);
 }
+
 .rw-widget-picker {
   border: var(--dropdown-border);
 }
+
 /* Language graph brush styling */
 .recharts-brush rect {
   fill: var(--input-background-color);
@@ -142,6 +148,7 @@
 .recharts-brush .recharts-brush-slide {
   fill: var(--slider);
 }
+
 .recharts-yAxis text,
 .recharts-xAxis text {
   fill: var(--graph-axis-text);
@@ -152,3 +159,4 @@
   width: 200px;
   line-height: 1.2;
 }
+

@@ -7,9 +7,17 @@
   backdrop-filter: blur(5px);
   padding: 20px 10px 20px 20px;
 }
-.perc{
+
+.singleOther {
+  font-weight: 600;
+  margin: 3px 0;
+  font-size: 13px;
+}
+
+.perc {
   margin-top: 5;
 }
+
 .languagePieChartContainer h3 {
   width: fit-content;
 }
@@ -23,8 +31,16 @@
 }
 
 .tooltipPie {
-  background-color: var(--main-background);
-  padding: 20px;
+  background-color: white;
+  border: solid 1px rgb(199, 199, 199);
+  padding: 15px 35px 15px 15px;
+  border-radius: 5px;
+  max-height: fit-content;
+}
+
+.othersContainer {
+  display: grid;
+  grid-template-columns: repeat(3, 3fr);
 }
 
 .tooltipPie .pieLabel {
@@ -33,16 +49,18 @@
 }
 
 @media (max-width: 1100px) {
-  .languagePieChartContainer{
+  .languagePieChartContainer {
     margin-right: 0;
     height: 300px;
   }
+
   .legendText {
-   font-size: 14px;
+    font-size: 14px;
   }
+
   .languagePieChartContainer {
     padding: 10px;
   }
-  
-  
+
+
 }
