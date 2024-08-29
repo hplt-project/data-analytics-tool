@@ -25,6 +25,7 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * stopwords.mk: https://github.com/petrushev/nlmk/blob/master/nlmk/_stopwords.py
 * stopwords.ps: https://github.com/mohbadar/pashto-stopwords/blob/master/data/pashto-stopwords.txt
 * stopwords.sa: https://raw.githubusercontent.com/cltk/cltk/master/src/cltk/stops/san.py
+* stopwords.sd: https://www.kaggle.com/datasets/owaisraza009/sindhi-stopwords
 * stopwords.si: https://raw.githubusercontent.com/nlpcuom/Sinhala-Stopword-list/master/stop%20words.txt
 * stopwords.sq: https://github.com/andrixh/index-albanian/blob/master/src/Stemmer.php + https://betimdrenica.wordpress.com/2012/05/21/albanian-stop-words/
 * stopwords.ta: https://github.com/AshokR/TamilNLP/blob/master/tamilnlp/Resources/TamilStopWords.txt
