@@ -9,7 +9,7 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * rs, rw, yo: https://github.com/masakhane-io/masakhanePreprocessor/tree/main/african-stopwords
 * jv, su: https://github.com/bimarakajati/Javanese-and-Sundanese-Stopwords
 * my, pa:  https://github.com/fergiemcdowall/stopword
-* ky, tn: https://github.com/explosion/spaCy
+* ky, lij, tn: https://github.com/explosion/spaCy
 
 
 * stopwords.as: https://noixobdo.blogspot.com/2011/03/assamese-stop-word-list.html
