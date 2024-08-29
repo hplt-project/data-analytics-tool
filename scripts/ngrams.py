@@ -39,6 +39,7 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
                         "ru": "russian",
                         "sl": "slovene",
                         "sv": "swedish",
+                        "tg": "tajik",
                         "tr": "turkish",
                         "zh": "chinese",
                         "zh-Hant": "chinese"}

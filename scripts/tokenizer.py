@@ -30,11 +30,11 @@ except:
 #Apparently mahaNLP overwrites the logging level to quiet-er than desired
 logging.disable(logging.NOTSET)
 
-MOSES_LANGS = ["ba", "br", "ca", "cs", "co", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
+MOSES_LANGS = ["as", "ba", "br", "ca", "cs", "co", "de", "el", "en", "es", "fi", "fr", "ga", "hu", "is", "it", "lt", "lv", "mni", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
-NLTK_WORD_LANGS = ["ar", "as", "ayr", "az", "ban", "be", "bjn", "bm", "bem", "ceb", "crh", "dik","dyu", "dz", "fa", "fuv", "gaz", "ht", "hy","ilo", "jv",
-                    "ka", "kab", "kac", "kam", "kbp", "kea", "kg", "ki", "kk", "kmb", "knc", "ky", "li", "lij", "lmo",  "ltg", "lus", "mi", "min", "mn", "mni",
-                    "ms", "nso", "ny", "oc", "pag", "pap", "plt", "ps","quy", "rn", "rw", "sc", "scn", "sd", "sg", "sm", "ss", "su", "tk","tn", "tpi", "tt", "tw", "tzm", "tum",
+NLTK_WORD_LANGS = ["ar", "ayr", "az", "ban", "be", "bjn", "bm", "bem", "ceb", "crh", "dik","dyu", "dz", "fa", "fuv", "gaz", "ht", "hy","ilo", "jv",
+                    "ka", "kab", "kac", "kam", "kbp", "kea", "kg", "ki", "kk", "kmb", "knc", "ky", "li", "lij", "lmo",  "ltg", "lus", "mi", "min", "mn", 
+                    "ms", "nso", "ny", "oc", "pag", "pap", "plt", "ps","quy", "rn", "rw", "sc", "scn", "sd", "sg", "sm", "ss", "su", "tg", "tk", "tn", "tpi", "tt", "tw", "tzm", "tum",
                     "uk", "ug", "umb", "vec", "vi", "war", "wo", "xh", "yo", "zu"]
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
@@ -55,11 +55,9 @@ MOSES_FALLBACK = {
                  "cy": "en",
                  "eo": "en",
                  "eu": "es",
-                 "ga": "en",
                  "gl": "es",
                  "la": "en",
                  "lb": "de",
-                 "lt": "en",
                  "mt": "en",
                  "so": "en",
                  "sq": "en",
