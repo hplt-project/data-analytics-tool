@@ -83,7 +83,7 @@ BNLP_LANGS = ["bn"]
 
 THAI_LANGS = ["th"]
 
-INDIC_LANGS = ["awa", "gu" ,"hi", "kn", "mag", "mai", "mr", "ne", "pa", "te", "ur"]
+INDIC_LANGS = ["awa", "gu" ,"hi", "kn", "mag", "mai", "mr", "ne", "pa", "sa", "te", "ur"]
 
 PKUSEG_LANGS = ["zh", "zh-Hant"]
 
