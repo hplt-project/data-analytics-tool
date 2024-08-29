@@ -50,7 +50,7 @@ ISO_STOPWORDS_LANGS =  ["af", "br", "eo", "et", "gu", "hr", "ms", "so", "sw","tl
 
 TXT_STOPWORDS_LANGS =  ["as", "be", "bo", "bs", "ceb", "cy", "ha", "is", "jv", "ka", "kab", "kn", "ky", "lb", "lij",
                         "me", "mk", "ml", "mn",  "my", "pa", "ps",
-                        "rn", "rw", "sa", "sd", "si", "sq", "sr", "ss", "su", "ta", "te", "ti",  "tn", "tt",  "uz", "yo"] 
+                        "rn", "rw", "sa", "sd", "si", "sq", "sr", "ss", "su", "ta", "te", "ti",  "tn", "ts", "tt",  "uz", "yo"] 
 
 KLPT_STOPWORDS_LANGS = ["ckb", "kmr"]
 

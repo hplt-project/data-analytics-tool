@@ -10,7 +10,7 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * jv, su: https://github.com/bimarakajati/Javanese-and-Sundanese-Stopwords
 * my, pa:  https://github.com/fergiemcdowall/stopword
 * ky, lij, ti,  tn: https://github.com/explosion/spaCy
-* ss: https://pypi.org/project/tokaafrika/
+* ss, ts: https://pypi.org/project/tokaafrika/
 
 
 * stopwords.as: https://noixobdo.blogspot.com/2011/03/assamese-stop-word-list.html
