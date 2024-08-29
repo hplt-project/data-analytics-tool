@@ -33,8 +33,8 @@ logging.disable(logging.NOTSET)
 MOSES_LANGS = ["ba", "br", "ca", "cs", "co", "de", "el", "en", "es", "fi", "fr", "hu", "is", "it", "lv", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
 NLTK_WORD_LANGS = ["ar", "as", "ayr", "az", "ban", "be", "bjn", "bm", "bem", "ceb", "crh", "dik","dyu", "dz", "fa", "fuv", "gaz", "ht", "hy","ilo", "jv",
-                    "ka", "kab", "kac", "kam", "kbp", "kea", "kg", "ki", "kk", "kmb", "ky", "li", "lij", "lmo",  "ltg", "lus", "min", "mn", "mni",
-                    "ms", "nso", "ny", "oc", "pag", "plt", "ps","quy", "rn", "rw", "sc", "scn", "sg", "sm", "ss", "su", "tk","tn", "tpi", "tt", "tw", "tzm", "tum",
+                    "ka", "kab", "kac", "kam", "kbp", "kea", "kg", "ki", "kk", "kmb", "knc", "ky", "li", "lij", "lmo",  "ltg", "lus", "min", "mn", "mni",
+                    "ms", "nso", "ny", "oc", "pag", "pap", "plt", "ps","quy", "rn", "rw", "sc", "scn", "sg", "sm", "ss", "su", "tk","tn", "tpi", "tt", "tw", "tzm", "tum",
                     "uk", "ug", "umb", "vec", "vi", "war", "wo", "xh", "yo", "zu"]
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
