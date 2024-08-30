@@ -7,14 +7,16 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * af, br, eo, et, gu, hr, ms, so, sw, tl, vi, zu: https://github.com/stopwords-iso/stopwords-iso
 * be, bs, mn, sr, te, bs : https://github.com/Xangis/extra-stopwords
 * ha, rs, rw, yo: https://github.com/masakhane-io/masakhanePreprocessor/tree/main/african-stopwords
+* am, ti: https://github.com/robeleq/etnltk
 * jv, su: https://github.com/bimarakajati/Javanese-and-Sundanese-Stopwords
 * my, pa:  https://github.com/fergiemcdowall/stopword
-* ky, lij, ti,  tn: https://github.com/explosion/spaCy
+* ky, lij, tn: https://github.com/explosion/spaCy
 * ss, ts: https://pypi.org/project/tokaafrika/
 * ckb, kmr: https://github.com/sinaahmadi/klpt
 * yue: https://github.com/jacksonllee/pycantonese
 * lo:  https://github.com/wannaphong/LaoNLP
 * ory: https://github.com/soumendrak/openodia
+
 
 
 * stopwords.as: https://noixobdo.blogspot.com/2011/03/assamese-stop-word-list.html

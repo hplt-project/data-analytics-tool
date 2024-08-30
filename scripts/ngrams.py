@@ -9,6 +9,9 @@ from collections import Counter
 from klpt.preprocess import Preprocess as KurdishPreprocess
 from laonlp.corpus.lao_words import lao_stopwords
 from openodia.common.constants import STOPWORDS as odia_stopwords
+from etnltk.lang.am import STOP_WORDS as amharic_stopwords
+from etnltk.lang.tg import STOP_WORDS as tigrinya_stopwords
+
 import pycantonese
 
 NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
@@ -50,7 +53,7 @@ ISO_STOPWORDS_LANGS =  ["af", "br", "eo", "et", "gu", "hr", "ms", "so", "sw","tl
 
 TXT_STOPWORDS_LANGS =  ["as", "be", "bo", "bs", "ceb", "cy", "fo", "ha", "is", "jv", "ka", "kab", "kn", "ky", "lb", "lij",
                         "me", "mk", "ml", "mn",  "my", "pa", "prs", "ps",
-                        "rn", "rw", "sa", "sd", "si", "sq", "sr", "ss", "su", "ta", "te", "ti",  "tn", "ts", "tt",  "uz", "yo"] 
+                        "rn", "rw", "sa", "sd", "si", "sq", "sr", "ss", "su", "ta", "te", "tn", "ts", "tt",  "uz", "yo"] 
 
 KLPT_STOPWORDS_LANGS = ["ckb", "kmr"]
 
@@ -59,6 +62,8 @@ CANTONESE_LANGS = ["yue"]
 LAONLP_LANGS = ["lo"]
 
 OPENODIA_LANGS = ["ory"]
+
+ETHIOPIC_LANGS = ["am", "ti"]
 
 def fix_stopwords(stopwords, lang):
     if lang == "af":
@@ -150,6 +155,13 @@ def get_stopwords(lang):
     elif lang in OPENODIA_LANGS:
         logging.info("Stopwords from OpenOdia")
         stopwords = odia_stopwords
+        stop_words = fix_stopwords(stopwords, lang)
+    
+    elif lang in ETHIOPIC_LANGS:
+        if lang == "am":
+            stopwords = amharic_stopwords
+        elif lang == "ti":
+            stopwords = tigrinya_stopwords
         stop_words = fix_stopwords(stopwords, lang)
 
     else:    

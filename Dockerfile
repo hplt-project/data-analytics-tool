@@ -95,7 +95,7 @@ COPY server.py /work/
 COPY scripts/ /work/scripts/
 
 RUN cd /work && git clone https://github.com/pablop16n/web-docs-scorer && cd web-docs-scorer && python3.10 -m pip install .
-
+RUN cd /work && git clone https://github.com/robeleq/etnltk.git && cd etnltk && python3.10 -m pip install .
 COPY deployment/docker-entrypoint.sh /work/deployment/docker-entrypoint.sh
 
 EXPOSE 8000

@@ -20,6 +20,8 @@ from pycantonese.word_segmentation import segment as cantonese_segment
 from laonlp.tokenize import word_tokenize as lao_tokenize
 from openodia import ud as openodia_tokenize
 from igbo_text import IgboText
+from etnltk.tokenize.am import word_tokenize as amharic_tokenizer
+from etnltk.tokenize.tg import word_tokenize as tigrinya_tokenizer
 
 try:
     from bnlp import NLTKTokenizer
@@ -36,7 +38,7 @@ NLTK_WORD_LANGS = ["ace", "ar", "ayr", "az", "ban", "be", "bjn", "bm", "bem", "c
                     "gaz", "gd", "gn", "ha", "ht", "hy","ilo", "jv",
                     "ka", "kab", "kac", "kam", "kbp", "kea", "kg", "ki", "kk", "kmb", "knc", "ky", "li", "lij", "lmo",  "ltg", "luo",  "lus", "mi", "min", "mn", 
                     "ms", "nso", "ny", "oc", "pag", "pap", "plt", "prs", "ps", "quy", "rn", "rw", "sc", "scn", "sd", "sg", "sm", "sn", "ss", "su",
-                    "tg", "ti", "tk", "tn", "tpi", "ts", "tt", "tw", "tzm", "tum", "uk", "ug", "umb", "vec", "vi", "war", "wo", "xh", "yo", "zu"]
+                    "tg", "tk", "tn", "tpi", "ts", "tt", "tw", "tzm", "tum", "uk", "ug", "umb", "vec", "vi", "war", "wo", "xh", "yo", "zu"]
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
                     "da": "danish",
@@ -101,6 +103,8 @@ LAONLP_LANGS = ["lo"]
 OPENODIA_LANGS = ["ory"]
 
 IGBO_LANGS = ["ig"]
+
+ETHIOPIC_LANGS = ["am", "ti"]
 
 class CustomTokenizer:
 
@@ -223,6 +227,13 @@ class CustomTokenizer:
         elif lang in IGBO_LANGS:
             self.tokenizer = IgboText()
             self.toktype = "igbo"
+        
+        elif lang in ETHIOPIC_LANGS:
+            if lang == "ti":
+                self.tokenizer = tigrinya_tokenizer
+            elif lang == "am":
+                self.tokenizer = amharic_tokenizer
+            self.toktype = "ethiopic"
             
         else:
             '''
@@ -318,6 +329,10 @@ class CustomTokenizer:
             
             elif self.toktype == "igbo":
                 tokens = self.tokenizer.tokenize(sent)
+                return tokens
+                
+            elif self.toktype == "ethiopic":
+                tokens = self.tokenizer(sent, return_word=False)
                 return tokens
                 
             else:
