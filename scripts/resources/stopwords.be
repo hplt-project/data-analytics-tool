@@ -64,15 +64,3 @@
 эта
 эти
 это
-the
-and
-you
-that
-was
-for
-are
-with
-his
-they
-have
-this
