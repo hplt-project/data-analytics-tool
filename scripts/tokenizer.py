@@ -35,7 +35,7 @@ MOSES_LANGS = ["as", "ba", "br", "ca", "cs", "co", "de", "el", "en", "es", "fi",
 NLTK_WORD_LANGS = ["ace", "ar", "ayr", "az", "ban", "be", "bjn", "bm", "bem", "ceb", "crh", "dik","dyu", "dz", "fa", "fj", "fo", "fon", "fur", "fuv",
                     "gaz", "gd", "gn", "ha", "ht", "hy","ilo", "jv",
                     "ka", "kab", "kac", "kam", "kbp", "kea", "kg", "ki", "kk", "kmb", "knc", "ky", "li", "lij", "lmo",  "ltg", "luo",  "lus", "mi", "min", "mn", 
-                    "ms", "nso", "ny", "oc", "pag", "pap", "plt", "prs", "ps", "quy", "rn", "rw", "sc", "scn", "sd", "sg", "sm", "ss", "su",
+                    "ms", "nso", "ny", "oc", "pag", "pap", "plt", "prs", "ps", "quy", "rn", "rw", "sc", "scn", "sd", "sg", "sm", "sn", "ss", "su",
                     "tg", "ti", "tk", "tn", "tpi", "ts", "tt", "tw", "tzm", "tum", "uk", "ug", "umb", "vec", "vi", "war", "wo", "xh", "yo", "zu"]
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
