@@ -30,6 +30,7 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * stopwords.kn: https://gist.github.com/MSDarshan91/f97c73435a3ab32a6638436231bf5616
 * stopwords.lb: https://github.com/Deadlyelder/luxembourgish-stop-words/blob/main/luxembourgish-stop-words.txt
 * stopwords.mk: https://github.com/petrushev/nlmk/blob/master/nlmk/_stopwords.py
+* stopwords.km: https://github.com/bbalet/stopwords/blob/master/stopwords_km.go
 * stopwords.prs: https://depositonce.tu-berlin.de/items/df6ac708-823b-45e8-9c04-fa01dfeeeb6c
 * stopwords.ps: https://github.com/mohbadar/pashto-stopwords/blob/master/data/pashto-stopwords.txt
 * stopwords.sa: https://raw.githubusercontent.com/cltk/cltk/master/src/cltk/stops/san.py
