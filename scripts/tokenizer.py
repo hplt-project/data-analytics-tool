@@ -32,7 +32,7 @@ logging.disable(logging.NOTSET)
 
 MOSES_LANGS = ["as", "ba", "br", "ca", "cs", "co", "de", "el", "en", "es", "fi", "fr", "ga", "hu", "is", "it", "lt", "lv", "mni", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
-NLTK_WORD_LANGS = ["ace", "ar", "ayr", "az", "ban", "be", "bjn", "bm", "bem", "ceb", "crh", "dik","dyu", "dz", "fa", "fo", "fon", "fuv",
+NLTK_WORD_LANGS = ["ace", "ar", "ayr", "az", "ban", "be", "bjn", "bm", "bem", "ceb", "crh", "dik","dyu", "dz", "fa", "fo", "fon", "fur", "fuv",
                     "gaz", "gd", "gn", "ha", "ht", "hy","ilo", "jv",
                     "ka", "kab", "kac", "kam", "kbp", "kea", "kg", "ki", "kk", "kmb", "knc", "ky", "li", "lij", "lmo",  "ltg", "luo",  "lus", "mi", "min", "mn", 
                     "ms", "nso", "ny", "oc", "pag", "pap", "plt", "ps","quy", "rn", "rw", "sc", "scn", "sd", "sg", "sm", "ss", "su",
