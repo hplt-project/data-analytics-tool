@@ -6,7 +6,7 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * bg, cs, fa, ga, gl, hi, hy, ja, ko, la, lt, lv, mr, pl, sk, th, uk, ur: https://github.com/mbanon/stopwords (forked from https://github.com/astuanax/stopwords with fixes)
 * af, br, eo, et, gu, hr, ms, so, sw, tl, vi, zu: https://github.com/stopwords-iso/stopwords-iso
 * be, bs, mn, sr, te, bs : https://github.com/Xangis/extra-stopwords
-* ha, rs, rw, yo: https://github.com/masakhane-io/masakhanePreprocessor/tree/main/african-stopwords
+* ha, rs, rw, st, yo: https://github.com/masakhane-io/masakhanePreprocessor/tree/main/african-stopwords
 * ky, lg, lij, tn: https://github.com/explosion/spaCy
 * am, ti: https://github.com/robeleq/etnltk
 * jv, su: https://github.com/bimarakajati/Javanese-and-Sundanese-Stopwords
