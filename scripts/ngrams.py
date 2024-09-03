@@ -15,7 +15,7 @@ from etnltk.lang.tg import STOP_WORDS as tigrinya_stopwords
 import pycantonese
 
 NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
-                        "az": "azerbaijani",
+                        "az": "azerbaijani",                        
                         "bn": "bengali",
                         "ca": "catalan",
                         "da": "danish",

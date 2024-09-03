@@ -78,6 +78,7 @@ RUN . /work/venvs/venv-bnlp/bin/activate && \
     python3.10 -m pip install -U setuptools && \
     python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\
     python3.10 -m pip install -r /work/deployment/requirements.txt &&\
+    cd /work && rm -rf etnltk && git clone https://github.com/robeleq/etnltk.git && cd etnltk && python3.10 -m pip install . &&\
     python3.10 -m pip install bnlp-toolkit==4.0.3 &&\
     echo "import nltk; nltk.download('punkt'); nltk.download('punkt_tab'); nltk.download('stopwords');" | python3.10
 
@@ -95,7 +96,7 @@ COPY server.py /work/
 COPY scripts/ /work/scripts/
 
 RUN cd /work && git clone https://github.com/pablop16n/web-docs-scorer && cd web-docs-scorer && python3.10 -m pip install .
-RUN cd /work && git clone https://github.com/robeleq/etnltk.git && cd etnltk && python3.10 -m pip install .
+RUN cd /work && cd etnltk && python3.10 -m pip install .
 COPY deployment/docker-entrypoint.sh /work/deployment/docker-entrypoint.sh
 
 EXPOSE 8000
