@@ -85,7 +85,7 @@ RUN . /work/venvs/venv-bnlp/bin/activate && \
 
 RUN python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\
     python3.10 -m pip install -r /work/deployment/requirements.txt &&\
-    echo "import nltk; nltk.download('punkt'); nltk.download('stopwords');" | python3.10
+    echo "import nltk; nltk.download('punkt'); nltk.download('punkt_tab'); nltk.download('stopwords');" | python3.10
   
 
 

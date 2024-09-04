@@ -42,8 +42,7 @@ NLTK_WORD_LANGS = ["ace", "ar", "ayr", "az", "azb", "azj",  "ban", "be", "bem", 
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
                     "da": "danish",
-                    "tr": "turkish",
-                    "ml": "malayalam"}
+                    "tr": "turkish"}
 
 RELDI_LANGS  = ["sr", "mk", "bg", "hr"]
 RELDI_FALLBACK = {"bs": "sr"}
@@ -84,7 +83,7 @@ BNLP_LANGS = ["bn"]
 
 THAI_LANGS = ["th"]
 
-INDIC_LANGS = ["awa", "bho", "gu" ,"hi", "hne", "kn", "ks", "mag", "mai", "mr", "ne", "pa", "sa", "sat", "te", "ur"]
+INDIC_LANGS = ["awa", "bho", "gu" ,"hi", "hne", "kn", "ks", "mag", "mai", "ml", "mr", "ne", "pa", "sa", "sat", "te", "ur"]
 
 PKUSEG_LANGS = ["zh", "zh-Hant"]
 
