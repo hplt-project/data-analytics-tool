@@ -34,10 +34,10 @@ logging.disable(logging.NOTSET)
 
 MOSES_LANGS = ["as", "ba", "br", "ca", "cs", "co", "de", "el", "en", "es", "fi", "fr", "ga", "hu", "is", "it", "lt", "lv", "mni", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
-NLTK_WORD_LANGS = ["ace", "ar", "ayr", "az", "azb", "azj",  "ban", "be", "bem", "bjn", "bm", "bug", "ceb", "cjk", "crh", "dik","dyu", "dz", "ee", "fa", "fj", "fo", "fon", "fur", "fuv",
+NLTK_WORD_LANGS = ["ace", "als", "ar", "ayr", "az", "azb", "azj",  "ban", "be", "bem", "bjn", "bm", "bug", "ceb", "cjk", "crh", "dik","dyu", "dz", "ee", "fa", "fj", "fo", "fon", "fur", "fuv",
                     "gaz", "gd", "gn", "ha", "ht", "hy","ilo", "jv", "ka", "kab", "kac", "kam", "kbp", "kea", "kg", "khk", "ki", "kk", "km", "kmb", "knc", "ky", "lg", 
                     "li", "lij", "ln", "lmo",  "ltg", "lua", "luo",  "lus", "mi", "min", "mn", "mos",
-                    "ms", "nso", "nus", "ny", "oc", "pag", "pap", "pbt", "pes", "plt", "prs", "ps", "quy", "rn", "rw", "sc", "scn", "sd", "sg", "sm", "sn", "ss", "st", "su", "szl",
+                    "ms", "nso", "nus", "ny", "oc", "pag", "pap", "pbt", "pes", "plt", "prs", "ps", "quy", "rn", "rw", "sc", "scn", "sd", "sg", "sm", "sn", "ss", "st", "su", "swh", "szl",
                     "taq", "tg", "tk", "tn", "tpi", "ts", "tt", "tw", "tzm", "tum", "uk", "ug", "umb", "vec", "vi", "war", "wo", "xh", "yo","zsm",  "zu"]
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
