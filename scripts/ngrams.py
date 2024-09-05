@@ -34,6 +34,7 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
                         "kk": "kazakh",
                         "nb": "norwegian",
                         "ne": "nepali",
+                        "npi": "nepali",
                         "nl": "dutch",
                         "nn": "norwegian",
                         "no": "norwegian",
@@ -50,6 +51,7 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
 ASTUANA_STOPWORDS_LANGS = ["bg","cs", "fa", "ga", "gl", "hi", "hy", "ja",  "ko", "la", "lt",  "lv", "mr", "pl", "sk", "th", "uk", "ur"]
 
 ISO_STOPWORDS_LANGS =  ["af", "br", "eo", "et", "gu", "hr", "ms", "so", "sw","tl", "vi", "zu"]
+ISO_STOPWORDS_MAPS = { "zsm": "ms" }
 
 TXT_STOPWORDS_LANGS =  ["as", "be", "bo", "bs", "ceb", "cy", "fo", "ha", "is", "jv", "ka", "kab", "km", "kn", "ky", "lb", "lg", "lij",
                         "me", "mk", "ml", "mn",  "my", "pa", "prs", "ps",
@@ -124,6 +126,12 @@ def get_stopwords(lang):
     elif lang in ISO_STOPWORDS_LANGS:
         logging.info("Stopwords from ISO")
         stop_words = list(iso_stopwords(lang))
+        stop_words = fix_stopwords(stop_words, lang)
+    
+    elif lang in ISO_STOPWORDS_MAPS.keys():
+        logging.info("Stopwords from ISO - mapped")
+        mapped = ISO_STOPWORDS_MAPS.get(lang)
+        stop_words = list(iso_stopwords(mapped))
         stop_words = fix_stopwords(stop_words, lang)
 
     elif lang in TXT_STOPWORDS_LANGS:        
