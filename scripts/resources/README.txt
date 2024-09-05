@@ -5,7 +5,7 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * ar, az, bn, ca, da, de, el, en, es, eu, fi, fr, he, hu, id, it, iw, kk, nb, ne, nl, nn, no, pt, ro, ru, sl, sv, tg, tr, zh, zh-Hant: NLTK stopwords (https://www.nltk.org/howto/corpus.html?highlight=stopwords#word-lists-and-lexicons)
 * bg, cs, fa, ga, gl, hi, hy, ja, ko, la, lt, lv, mr, pl, sk, th, uk, ur: https://github.com/mbanon/stopwords (forked from https://github.com/astuanax/stopwords with fixes)
 * af, br, eo, et, gu, hr, ms, so, sw, tl, vi, zu: https://github.com/stopwords-iso/stopwords-iso
-* be, bs, mn, sr, te, bs : https://github.com/Xangis/extra-stopwords
+* be, mn, sr, te, bs : https://github.com/Xangis/extra-stopwords
 * ha, rs, rw, st, yo: https://github.com/masakhane-io/masakhanePreprocessor/tree/main/african-stopwords
 * ky, lg, lij, tn: https://github.com/explosion/spaCy
 * am, ti: https://github.com/robeleq/etnltk
@@ -41,4 +41,4 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * stopwords.tt: https://github.com/aliiae/stopwords-tt/blob/master/stopwords_tt.txt
 * stopwords.uz: https://github.com/ilyosrabbimov/uzbek-stop-words/blob/master/uz.txt
 
-Self-built: co
+Self-built: bs, co
