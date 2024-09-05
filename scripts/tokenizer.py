@@ -77,7 +77,7 @@ PDS_LANGS = ["my", "shn"]
 
 SINLING_LANGS = ["si"]
 
-FITRAT_LANGS = ["uz"]
+FITRAT_LANGS = ["uz", "uzn"]
 
 BNLP_LANGS = ["bn"]
 
