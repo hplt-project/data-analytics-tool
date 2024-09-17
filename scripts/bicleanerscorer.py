@@ -46,10 +46,18 @@ def remove_porntag(yamlfile):
     return tag_types
 
 def read_hardrulestags(corpusname, yamlfile, srclang, trglang=None):
-    hardrules_output = corpusname+".hardrules"
-    if not os.path.exists(hardrules_output):
-        return {}
+
     
+    hardrules_output = corpusname+".hardrules"
+
+
+    if not os.path.exists(hardrules_output):
+        hardrules_output = corpusname+"."+srclang+".hardrules"
+        if not os.path.exists(hardrules_output):
+            logging.warning("Hardrules file not found")
+            return {}
+        
+    logging.debug("Reading hardrules from " +  hardrules_output)
 
     lines = 0
     
@@ -102,6 +110,7 @@ def read_hardrulestags(corpusname, yamlfile, srclang, trglang=None):
             #A tag we don't care about
             continue
             
+
     return(tags_count)
 
 def read_scores(corpusname):
