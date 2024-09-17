@@ -34,7 +34,7 @@ def initialization():
     # Optionals
     groupO = parser.add_argument_group("Optional")
     groupO.add_argument('--langs', type=argparse.FileType('wt'), help="Save sentence languages in this file.")
-    groupO.add_argument('--fluency', type=argparse.FileType('wt'), help="Save sentence fluency scores in this file.")
+    #groupO.add_argument('--fluency', type=argparse.FileType('wt'), help="Save sentence fluency scores in this file.")
     
     # Logging group
     groupL = parser.add_argument_group('Logging')
