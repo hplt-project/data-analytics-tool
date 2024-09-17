@@ -178,6 +178,12 @@ def main():
     for w in nwarnings:
         trg_ngrams_warnings.add("trg_"+w)
     
+
+    if (args.srclang not in utils.get_fasttext_langs()):
+        warnings.append("src_fasttext") 
+    
+    if (args.trglang not in utils.get_fasttext_langs()):
+        warnings.append("trg_fasttext") 
           
     #Pure metadata could be in a different function
     stats = {}
@@ -473,19 +479,19 @@ def main():
 
 
     # type token ratio
-    try:
-        ttr_src = round(len(set(src_alpha_tokens))/ len(src_alpha_tokens),2)
-    except ZeroDivisionError:
-        ttr_src = None
-    try:
-        ttr_trg = round(len(set(trg_alpha_tokens))/ len(trg_alpha_tokens),2)
-    except ZeroDivisionError:
-        ttr_trg = None
+    #try:
+    #    ttr_src = round(len(set(src_alpha_tokens))/ len(src_alpha_tokens),2)
+    #except ZeroDivisionError:
+    #    ttr_src = None
+    #try:
+    #    ttr_trg = round(len(set(trg_alpha_tokens))/ len(trg_alpha_tokens),2)
+    #except ZeroDivisionError:
+    #    ttr_trg = None
     
-    if ttr_src:
-        stats["ttr_src"] = ttr_src
-    if ttr_trg:
-        stats["ttr_trg"] = ttr_trg
+    #if ttr_src:
+    #    stats["ttr_src"] = ttr_src
+    #if ttr_trg:
+    #    stats["ttr_trg"] = ttr_trg
     
     if len(src_tokens)>0:
         stats["src_tokens"] = len(src_tokens)

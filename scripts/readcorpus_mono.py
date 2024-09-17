@@ -145,9 +145,12 @@ def main():
     for w in nwarnings:
         ngrams_warnings.add("src_"+w)
 
+
+    if (args.srclang not in utils.get_fasttext_langs()):
+        warnings.append("src_fasttext")    
+
     logging.debug("Starting reading corpus")
     for src_line in args.corpus:
-
         total_lines = total_lines+1
         src_line = src_line.strip()
 
@@ -326,9 +329,9 @@ def main():
     # type token ratio
     #logging.info(str(len(src_alpha_tokens)))
     #logging.info(str(len(set(src_alpha_tokens))))
-    if not args.lite:
-        ttr_src = round(len(set(src_alpha_tokens))/ len(src_alpha_tokens),2)
-        stats["ttr_src"] = ttr_src
+    #if not args.lite:
+    #    ttr_src = round(len(set(src_alpha_tokens))/ len(src_alpha_tokens),2)
+    #    stats["ttr_src"] = ttr_src
 
     # bytes size
     stats["src_bytes"] = convert_size(src_bytes)
