@@ -17,7 +17,7 @@ from pii_manager.api import PiiManager
 from pii_manager.lang import COUNTRY_ANY
 
 from timeit import default_timer
-from util import logging_setup
+from util import logging_setup, read_fasttext_langs
 from collections import Counter
 from xxhash import xxh64
 from ngrams import get_line_ngrams, get_stopwords
@@ -179,10 +179,10 @@ def main():
         trg_ngrams_warnings.add("trg_"+w)
     
 
-    if (args.srclang not in utils.get_fasttext_langs()):
+    if (args.srclang not in get_fasttext_langs()):
         warnings.append("src_fasttext") 
     
-    if (args.trglang not in utils.get_fasttext_langs()):
+    if (args.trglang not in get_fasttext_langs()):
         warnings.append("trg_fasttext") 
           
     #Pure metadata could be in a different function
