@@ -486,58 +486,19 @@ docs_wds: '[[5, 116872], [5.1, 117811], [5.2, 123790], [5.3, 125804], [5.4, 1403
   [9.4, 262268], [9.5, 235142], [9.6, 226328], [9.7, 164210], [9.8, 102941], [9.9,
   41098], [10, 11445]]'
 corpus: HPLT-v2-heb_Hebr.tsv
-hardrules_tags: '{"pii": 662602}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 49167069, "no_urls": 2765569, "no_bad_encoding": 4106, "pii": 662602}'
 sentence_pairs: 466627647
 src_bytes: 92.68 GB
 src_chars: 56374343947
-src_langs: '[["heb_Hebr", 433065639], ["unk", 16703116], ["eng_Latn", 6481747], ["ydd_Hebr",
-  2321243], ["zho_Hans", 560732], ["fra_Latn", 448164], ["zho_Hant", 319097], ["vec_Latn",
-  269989], ["ltz_Latn", 256677], ["nno_Latn", 247524], ["deu_Latn", 239182], ["fur_Latn",
-  233326], ["swe_Latn", 219075], ["kab_Latn", 159415], ["mlt_Latn", 157362], ["cat_Latn",
-  141819], ["srd_Latn", 131897], ["glg_Latn", 128766], ["ita_Latn", 122394], ["lim_Latn",
-  120755], ["lmo_Latn", 118299], ["zsm_Latn", 116892], ["hne_Deva", 99593], ["grn_Latn",
-  98852], ["ast_Latn", 98105], ["oci_Latn", 90810], ["gla_Latn", 82183], ["afr_Latn",
-  82070], ["kor_Hang", 79251], ["sot_Latn", 77602], ["knc_Latn", 73289], ["tha_Thai",
-  72090], ["por_Latn", 71377], ["ron_Latn", 70554], ["mos_Latn", 70508], ["wol_Latn",
-  70250], ["ilo_Latn", 69598], ["lij_Latn", 65095], ["spa_Latn", 64793], ["fao_Latn",
-  64633], ["szl_Latn", 63158], ["pol_Latn", 59076], ["taq_Latn", 58702], ["cym_Latn",
-  58478], ["sun_Latn", 56447], ["bjn_Latn", 55815], ["fin_Latn", 53768], ["slk_Latn",
-  52221], ["scn_Latn", 50373], ["swh_Latn", 48944], ["ara_Arab", 48503], ["ltg_Latn",
-  48183], ["nld_Latn", 47761], ["dan_Latn", 46633], ["min_Latn", 46450], ["shn_Mymr",
-  43313], ["rus_Cyrl", 40974], ["ces_Latn", 40733], ["hat_Latn", 40712], ["epo_Latn",
-  39131], ["lit_Latn", 38973], ["hrv_Latn", 37304], ["luo_Latn", 37286], ["hau_Latn",
-  36493], ["slv_Latn", 35748], ["tpi_Latn", 35136], ["bos_Latn", 34162], ["bam_Latn",
-  34137], ["ace_Latn", 34119], ["run_Latn", 32945], ["bug_Latn", 32761], ["nob_Latn",
-  32593], ["ind_Latn", 32281], ["pap_Latn", 31880], ["ban_Latn", 31255], ["smo_Latn",
-  31242], ["vie_Latn", 30223], ["jpn_Jpan", 29711], ["hun_Latn", 29203], ["uzn_Latn",
-  28563], ["azb_Arab", 28243], ["jav_Latn", 28105], ["yue_Hant", 27866], ["quy_Latn",
-  27554], ["lvs_Latn", 27531], ["eus_Latn", 26628], ["isl_Latn", 25538], ["dik_Latn",
-  25443], ["som_Latn", 23936], ["als_Latn", 23674], ["crh_Latn", 23240], ["lus_Latn",
-  22372], ["est_Latn", 22316], ["tgl_Latn", 21901], ["pag_Latn", 21371], ["gle_Latn",
-  20697], ["mri_Latn", 19928], ["tuk_Latn", 19197], ["ibo_Latn", 18676], ["tur_Latn",
-  18312], ["fuv_Latn", 18191], ["kac_Latn", 17952], ["tsn_Latn", 17339], ["ceb_Latn",
-  16570], ["ewe_Latn", 15934], ["nus_Latn", 15558], ["plt_Latn", 15440], ["sag_Latn",
-  15294], ["umb_Latn", 15117], ["ayr_Latn", 14458], ["war_Latn", 14327], ["sna_Latn",
-  13911], ["lin_Latn", 13732], ["kea_Latn", 13216], ["kmr_Latn", 13031], ["gaz_Latn",
-  12773], ["fij_Latn", 12547], ["lua_Latn", 12522], ["twi_Latn", 12465], ["dzo_Tibt",
-  12164], ["ell_Grek", 12156], ["azj_Latn", 11751], ["tso_Latn", 11746], ["dyu_Latn",
-  11739], ["bem_Latn", 10617], ["nso_Latn", 10480], ["nya_Latn", 9922], ["lug_Latn",
-  9916], ["yor_Latn", 9098], ["kbp_Latn", 8753], ["ssw_Latn", 8475], ["cjk_Latn",
-  8121], ["kmb_Latn", 7436], ["kik_Latn", 7006], ["bod_Tibt", 6511], ["kam_Latn",
-  6286], ["kon_Latn", 6160], ["xho_Latn", 5474], ["fon_Latn", 5432], ["kin_Latn",
-  5039], ["zul_Latn", 4796], ["knc_Arab", 4642], ["mai_Deva", 4222], ["tum_Latn",
-  4146], ["ukr_Cyrl", 4063], ["bul_Cyrl", 3811], ["pes_Arab", 3725], ["bak_Cyrl",
-  3191], ["lao_Laoo", 3170], ["prs_Arab", 2170], ["srp_Cyrl", 2158], ["awa_Deva",
-  2061], ["mkd_Cyrl", 2027], ["snd_Arab", 1834], ["bho_Deva", 1815], ["kaz_Cyrl",
-  1563], ["bel_Cyrl", 1518], ["tgk_Cyrl", 987], ["ace_Arab", 919], ["hin_Deva", 834],
-  ["pbt_Arab", 681], ["khm_Khmr", 589], ["kir_Cyrl", 556], ["urd_Arab", 503], ["bjn_Arab",
-  482], ["tat_Cyrl", 418], ["ckb_Arab", 395], ["amh_Ethi", 371], ["pan_Guru", 346],
-  ["kas_Deva", 339], ["khk_Cyrl", 317], ["kat_Geor", 315], ["mar_Deva", 262], ["san_Deva",
-  231], ["kas_Arab", 219], ["tzm_Tfng", 211], ["taq_Tfng", 195], ["tel_Telu", 180],
-  ["tam_Taml", 180], ["mag_Deva", 166], ["ben_Beng", 136], ["asm_Beng", 112], ["hye_Armn",
-  94], ["uig_Arab", 83], ["mal_Mlym", 65], ["mya_Mymr", 53], ["npi_Deva", 41], ["kan_Knda",
-  38], ["ory_Orya", 31], ["tir_Ethi", 17], ["guj_Gujr", 9], ["sat_Olck", 8], ["mni_Beng",
-  7], ["sin_Sinh", 6]]'
+src_langs: '[["he", 28270], ["en", 2075], ["it", 1791], ["fr", 348], ["yi", 258], 
+  ["es", 139], ["de", 132], ["ru", 94], ["zh", 69], ["pt", 67], ["ja", 48], ["sv", 47], 
+  ["ceb", 46], ["fa", 31], ["lt", 26], ["ko", 21], ["uk", 17], ["nl", 16], ["fi", 16], 
+  ["hu", 15], ["cs", 15], ["pl", 13], ["da", 13], ["ca", 12], ["ro", 10], ["az", 10], 
+  ["nb", 9], ["eu", 9], ["sr", 8], ["oc", 7], ["id", 7], ["af", 6], ["ur", 5], ["tr", 5],
+  ["kn", 5], ["el", 5], ["sk", 4], ["mr", 3], ["jbo", 3], ["fy", 3], ["war", 2], ["sl", 2],
+  ["sah", 2], ["ne", 2], ["mn", 2], ["la", 2], ["be", 2], ["ar", 2], ["yue", 1], ["vi", 1],
+  ["tl", 1], ["sq", 1], ["mwl", 1], ["ms", 1], ["mhr", 1], ["lv", 1], ["lb", 1], ["io", 1],
+  ["hr", 1], ["hi", 1], ["gu", 1], ["ga", 1], ["et", 1], ["cy", 1], ["azb", 1], ["arz", 1], ["an", 1]]'
 src_tokens: 0
 srclang: he
 timestamp: 1726573812.3023245
