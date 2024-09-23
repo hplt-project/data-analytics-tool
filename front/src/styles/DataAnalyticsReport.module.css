@@ -39,6 +39,7 @@
 .dataReportContainer .singleLanguageReportDocs h3 {
   margin-top: 18px;
   width: 90%;
+  display: flex;
 }
 
 .analyticsTitleContainer {
@@ -175,6 +176,7 @@
 
 .singleLanguageReport h3 {
   margin-bottom: 10px;
+  display: flex;
 }
 
 .docsLangsReport {

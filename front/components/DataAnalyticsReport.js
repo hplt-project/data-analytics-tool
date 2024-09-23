@@ -22,6 +22,7 @@ import CollectionsGraph from "./collectionsGraphs";
 import DocumentSizes from "./DocumentSizes";
 import buttonStyles from "@/styles/Uploader.module.css";
 import Footnotes from "./Footnotes";
+const punycode = require("punycode/");
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
 
@@ -386,7 +387,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
   let docsTopTenDomains = docsDomains
     ? docsDomains.map((doc) => {
         return {
-          token: doc[0],
+          token: punycode.toUnicode(doc[0]),
           freq: numberFormatter(doc[1]),
           perc: reportData.docs_total
             ? (doc[1] * 100) / reportData.docs_total
@@ -402,7 +403,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
   let docsTopTenTLDs = docsTLDs
     ? docsTLDs.map((doc) => {
         return {
-          token: doc[0],
+          token: punycode.toUnicode(doc[0]),
           freq: numberFormatter(doc[1]),
           perc: reportData.docs_total
             ? (doc[1] * 100) / reportData.docs_total
@@ -905,40 +906,43 @@ export default function DataAnalyticsReport({ reportData, date }) {
             <div className={styles.title}>
               {" "}
               <h3>Language Distribution</h3>{" "}
-              <a className="lang-distribution-info">
-                {" "}
-                {!footNote && (
-                  <Info
-                    className={[styles.helpCircle, styles.desktopData].join(
-                      " "
-                    )}
-                    strokeWidth={1.2}
-                    color="#2C2E35"
-                    width={20}
-                  />
-                )}
-              </a>
-              <Tooltip
-                anchorSelect=".lang-distribution-info"
-                place="top"
-                clickable
-              >
-                Language identified with FastSpell (
-                <a
-                  href="https://github.com/mbanon/fastspell"
-                  target="_blank"
-                  className={styles.tooltipLink}
-                >
-                  https://github.com/mbanon/fastspell
-                </a>
-                )
-              </Tooltip>
             </div>
             <div className={styles.languagesPieReports}>
               {srcLangs && (
                 <div className={styles.singleLanguageReport}>
                   {!reportData.trglang ? (
-                    <h3 className={styles.smaller}>Number of segments</h3>
+                    <h3 className={styles.smaller}>
+                      Number of segments{" "}
+                      <a className="lang-distribution-info">
+                        {" "}
+                        {!footNote && (
+                          <Info
+                            className={[
+                              styles.helpCircle,
+                              styles.desktopData,
+                            ].join(" ")}
+                            strokeWidth={1.2}
+                            color="#2C2E35"
+                            width={20}
+                          />
+                        )}
+                      </a>
+                      <Tooltip
+                        anchorSelect=".lang-distribution-info"
+                        place="top"
+                        clickable
+                      >
+                        Language identified with FastSpell (
+                        <a
+                          href="https://github.com/mbanon/fastspell"
+                          target="_blank"
+                          className={styles.tooltipLink}
+                        >
+                          https://github.com/mbanon/fastspell
+                        </a>
+                        )
+                      </Tooltip>
+                    </h3>
                   ) : (
                     <h3>Source</h3>
                   )}
@@ -956,7 +960,37 @@ export default function DataAnalyticsReport({ reportData, date }) {
                   {" "}
                   <h3 className={styles.smaller}>
                     Percentage of segments {srclang && `in ${srclang[0].label}`}{" "}
-                    inside documents
+                    inside documents{" "}
+                    <a className="lang-distribution-info-second">
+                      {" "}
+                      {!footNote && (
+                        <Info
+                          className={[
+                            styles.helpCircle,
+                            styles.desktopData,
+                          ].join(" ")}
+                          strokeWidth={1.2}
+                          color="#2C2E35"
+                          width={20}
+                        />
+                      )}
+                    </a>
+                    <Tooltip
+                      anchorSelect=".lang-distribution-info-second"
+                      place="top"
+                      clickable
+                    >
+                      Language identification at segment-level based on
+                      Heliport: (
+                      <a
+                        href="https://github.com/ZJaume/heliport"
+                        target="_blank"
+                        className={styles.tooltipLink}
+                      >
+                        https://github.com/ZJaume/heliport
+                      </a>
+                      )
+                    </Tooltip>
                   </h3>
                   <LangDocs langDocs={langDocs} />
                 </div>
