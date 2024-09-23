@@ -22,6 +22,7 @@ import CollectionsGraph from "./collectionsGraphs";
 import DocumentSizes from "./DocumentSizes";
 import buttonStyles from "@/styles/Uploader.module.css";
 import Footnotes from "./Footnotes";
+const punycode = require("punycode/");
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
 
@@ -386,7 +387,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
   let docsTopTenDomains = docsDomains
     ? docsDomains.map((doc) => {
         return {
-          token: doc[0],
+          token: punycode.toUnicode(doc[0]),
           freq: numberFormatter(doc[1]),
           perc: reportData.docs_total
             ? (doc[1] * 100) / reportData.docs_total
@@ -402,7 +403,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
   let docsTopTenTLDs = docsTLDs
     ? docsTLDs.map((doc) => {
         return {
-          token: doc[0],
+          token: punycode.toUnicode(doc[0]),
           freq: numberFormatter(doc[1]),
           perc: reportData.docs_total
             ? (doc[1] * 100) / reportData.docs_total
