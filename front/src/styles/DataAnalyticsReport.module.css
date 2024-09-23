@@ -115,8 +115,6 @@
   width: 60%;
 }
 
-
-
 .marginTop {
   margin-top: 40px;
 }
@@ -355,7 +353,6 @@
   }
 }
 
-
 @media (max-width: 1100px) {
   .languagesPieReports {
     flex-direction: column;
@@ -370,7 +367,6 @@
   .langDocsContainer {
     flex-direction: column;
     justify-content: center;
-
   }
 
   .docsCollectionsGraph {
@@ -381,7 +377,6 @@
   .collectionsGraphPie {
     margin-top: 60px;
   }
-
 }
 
 @media (max-width: 768px) {

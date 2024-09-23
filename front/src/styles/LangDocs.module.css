@@ -1,5 +1,5 @@
 .langDocs {
-  height: 340px;
+  height: 360px;
   width: 100%;
   border-radius: 5px;
   background-color: var(--language-pie-chart-bg);
@@ -37,5 +37,4 @@
   .langDocs {
     height: 260px;
   }
- 
 }

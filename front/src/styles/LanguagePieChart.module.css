@@ -1,5 +1,5 @@
 .languagePieChartContainer {
-  height: 340px;
+  height: 360px;
   width: 100%;
   border-radius: 5px;
   margin-right: 20px;
@@ -17,7 +17,12 @@
 .perc {
   margin-top: 5;
 }
-
+.warning {
+  position: absolute;
+  bottom: 12px;
+  font-size: 13px;
+  color: #ff0f0f;
+}
 .languagePieChartContainer h3 {
   width: fit-content;
 }
@@ -61,6 +66,4 @@
   .languagePieChartContainer {
     padding: 10px;
   }
-
-
 }
