@@ -946,7 +946,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     langs={srcLangs}
                     total={srcLangsTotal}
                     warning={srcLangIDWarning}
-                    warningLang={srclang.label}
+                    warningLang={srclang[0].label}
                     id="image"
                   />
                 </div>
@@ -968,7 +968,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     langs={trgLangs}
                     total={trgLangsTotal}
                     warning={trgLangIDWarning}
-                    warningLang={trglang.label}
+                    warningLang={trglang[0].label}
                     id="image"
                   />
                 </div>
@@ -1247,7 +1247,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     langs={srcLangs}
                     total={srcLangsTotal}
                     warning={srcLangIDWarning}
-                    warningLang={srclang.label}
+                    warningLang={srclang[0].label}
                     id="image"
                   />
                 </div>
@@ -1266,7 +1266,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     langs={trgLangs}
                     total={trgLangsTotal}
                     warning={trgLangIDWarning}
-                    warningLang={trglang.label}
+                    warningLang={trglang[0].label}
                     id="image"
                   />
                 </div>

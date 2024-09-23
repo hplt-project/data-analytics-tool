@@ -76,14 +76,14 @@ export default function ReportScores({
       {firstHalf && secondHalf && (
         <div className={styles.reportTitle}>
           <p>
-            score {"<="} 5 - <strong>{+firstHalfPerc.toFixed(2)}%</strong> (
+            score {"<"} 5 - <strong>{+firstHalfPerc.toFixed(2)}%</strong> (
             {Intl.NumberFormat("en", {
               notation: "compact",
             }).format(firstHalf)}{" "}
             documents)
           </p>
           <p>
-            score {"<"} 5 - <strong>{+secondHalfPerc.toFixed(2)}%</strong> (
+            score {">="} 5 - <strong>{+secondHalfPerc.toFixed(2)}%</strong> (
             {Intl.NumberFormat("en", {
               notation: "compact",
             }).format(secondHalf)}{" "}
