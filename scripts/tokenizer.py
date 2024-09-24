@@ -93,7 +93,10 @@ NLPID_LANGS =  ["id"]
 
 BOTOK_LANGS = ["bo"]
 
-KLPT_LANGS = ["ckb", "kmr"]
+#KLPT_LANGS = ["ckb", "kmr"]  # Removed because of poor performance, temporarily using NLTK
+NLTK_WORD_LANGS.append("ckb")
+NLTK_WORD_LANGS.append("kmr")
+
 
 CANTONESE_LANGS = ["yue"]
 
