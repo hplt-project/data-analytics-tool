@@ -91,9 +91,13 @@ HEBREW_LANGS = ["he", "iw", "ydd"]
 
 NLPID_LANGS =  ["id"]
 
-BOTOK_LANGS = ["bo"]
+#BOTOK_LANGS = ["bo"]	#Removed because of poor performance, temporarily using NLTK
+NLTK_WORD_LANGS.append("bo")
 
-KLPT_LANGS = ["ckb", "kmr"]
+#KLPT_LANGS = ["ckb", "kmr"]  # Removed because of poor performance, temporarily using NLTK
+NLTK_WORD_LANGS.append("ckb")
+NLTK_WORD_LANGS.append("kmr")
+
 
 CANTONESE_LANGS = ["yue"]
 

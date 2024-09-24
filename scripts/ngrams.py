@@ -47,8 +47,12 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
                         "tr": "turkish",
                         "zh": "chinese",
                         "zh-Hant": "chinese"}
+                        
+NLTK_STOPWORDS_MAPS = {"azj": "az"}
+
 
 ASTUANA_STOPWORDS_LANGS = ["bg","cs", "fa", "ga", "gl", "hi", "hy", "ja",  "ko", "la", "lt",  "lv", "mr", "pl", "sk", "th", "uk", "ur"]
+ASTUANA_STOPWORDS_MAPS = {"pes": "fa"}
 
 ISO_STOPWORDS_LANGS =  ["af", "br", "eo", "et", "gu", "hr", "ms", "so", "sw","tl", "vi", "zu"]
 ISO_STOPWORDS_MAPS = { "zsm": "ms",
@@ -58,6 +62,8 @@ TXT_STOPWORDS_LANGS =  ["als", "as", "ba", "be", "bo", "bs", "ceb", "co", "cy", 
                         "kg",  "km", "kn", "ky", "lb", "lg", "lij",
                         "me", "mk", "ml", "mn",  "my", "pa", "pbt", "prs", "ps",
                         "rn", "rw", "sa", "sd", "si", "sq", "sr", "ss", "st", "su", "ta", "te", "tn", "ts", "tt",  "uz", "uzn", "yo"] 
+TXT_STOPWORDS_MAPS = {"crh": "tt",
+                    "khk": "mn"}
 
 KLPT_STOPWORDS_LANGS = ["ckb", "kmr"]
 
@@ -119,10 +125,23 @@ def get_stopwords(lang):
         langname = NLTK_STOPWORDS_LANGS.get(lang)
         stop_words = nltk_stopwords.words(langname)        
         stop_words = fix_stopwords(stop_words, lang)
+    
+    elif lang in NLTK_STOPWORDS_MAPS.keys():
+        logging.info("Stopwords from NLTK - mapped")
+        mapped = NLTK_STOPWORDS_MAPS.get(lang)
+        langname = NLTK_STOPWORDS_LANGS.get(mapped)
+        stop_words = nltk_stopwords.words(langname)
+        stop_words = fix_stopwords(stop_words, lang)
                 
     elif lang in ASTUANA_STOPWORDS_LANGS:
         logging.info("Stopwords from Astuana")
         stop_words = astuana_stopwords.get_stopwords(lang)
+        stop_words = fix_stopwords(stop_words, lang)
+    
+    elif lang in ASTUANA_STOPWORDS_MAPS.keys():
+        logging.info("Stopwords from Astuana - mapped")
+        mapped = ASTUANA_STOPWORDS_MAPS.get(lang)
+        stop_words = astuana_stopwords.get_stopwords(mapped)
         stop_words = fix_stopwords(stop_words, lang)
         
     elif lang in ISO_STOPWORDS_LANGS:
@@ -142,6 +161,15 @@ def get_stopwords(lang):
             for sw in swf:
                 stop_words.append(sw.strip()) 
         stop_words = fix_stopwords(stop_words, lang)
+        
+    elif lang in TXT_STOPWORDS_MAPS.keys():
+        logging.info("Stopwords from list - mapped")
+        mapped = TXT_STOPWORDS_MAPS.get(lang)
+        with open(os.path.dirname(os.path.abspath(__file__))+"/resources/stopwords."+mapped, "r") as swf:
+            for sw in swf:
+                stop_words.append(sw.strip()) 
+        stop_words = fix_stopwords(stop_words, lang)
+
         
     elif lang in KLPT_STOPWORDS_LANGS:
         logging.info("Stopwords from KLPT")
