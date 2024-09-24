@@ -314,16 +314,15 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const docsScoreLessThanFive = reportData.docs_wds
     ? JSON.parse(reportData.docs_wds)
-        .slice(0, 50)
+        .filter((el) => parseFloat(el[0]) < 5)
         .reduce((a, b) => a + +b[1], 0)
     : "";
 
-  const docsScoreOverFive =
-    reportData.docs_wds && JSON.parse(reportData.docs_wds).length > 50
-      ? JSON.parse(reportData.docs_wds)
-          .slice(50, JSON.parse(reportData.docs_wds).length)
-          .reduce((a, b) => a + +b[1], 0)
-      : "";
+  const docsScoreOverFive = reportData.docs_wds
+    ? JSON.parse(reportData.docs_wds)
+        .filter((el) => parseFloat(el[0]) >= 5)
+        .reduce((a, b) => a + +b[1], 0)
+    : "";
 
   const totalDocsScore = reportData.docs_wds
     ? JSON.parse(reportData.docs_wds).reduce((a, b) => a + +b[1], 0)
@@ -331,11 +330,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const docsScoresPercUnderFive = docsScoreLessThanFive
     ? (docsScoreLessThanFive * 100) / totalDocsScore
-    : "";
+    : 0;
 
   const docsScoresPercOverFive = docsScoreOverFive
     ? (docsScoreOverFive * 100) / totalDocsScore
-    : "";
+    : 0;
 
   let docsSegmentsTop = docsSegments
     ? docsSegments.map((doc) => {
