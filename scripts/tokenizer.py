@@ -60,6 +60,7 @@ MOSES_FALLBACK = {
                  "gl": "es",
                  "la": "en",
                  "lb": "de",
+                 "lvs": "lv",
                  "mt": "en",
                  "so": "en",
                  "sq": "en",
@@ -92,9 +93,11 @@ HEBREW_LANGS = ["he", "iw", "ydd"]
 NLPID_LANGS =  ["id"]
 
 #BOTOK_LANGS = ["bo"]	#Removed because of poor performance, temporarily using NLTK
+BOTOK_LANGS=[]
 NLTK_WORD_LANGS.append("bo")
 
 #KLPT_LANGS = ["ckb", "kmr"]  # Removed because of poor performance, temporarily using NLTK
+KLPT_LANGS=[]
 NLTK_WORD_LANGS.append("ckb")
 NLTK_WORD_LANGS.append("kmr")
 
