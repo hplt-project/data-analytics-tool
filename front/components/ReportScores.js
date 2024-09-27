@@ -73,22 +73,24 @@ export default function ReportScores({
 
   return (
     <div className={styles.reportScoresContainer}>
-      <div className={styles.reportTitle}>
-        <p>
-          score {"<"} 5 - <strong>{+firstHalfPerc.toFixed(2)}%</strong> (
-          {Intl.NumberFormat("en", {
-            notation: "compact",
-          }).format(firstHalf)}{" "}
-          documents)
-        </p>
-        <p>
-          score {">="} 5 - <strong>{+secondHalfPerc.toFixed(2)}%</strong> (
-          {Intl.NumberFormat("en", {
-            notation: "compact",
-          }).format(secondHalf)}{" "}
-          documents)
-        </p>
-      </div>
+      {firstHalfPerc && secondHalfPerc && (
+        <div className={styles.reportTitle}>
+          <p>
+            score {"<"} 5 - <strong>{+firstHalfPerc.toFixed(2)}%</strong> (
+            {Intl.NumberFormat("en", {
+              notation: "compact",
+            }).format(firstHalf)}{" "}
+            documents)
+          </p>
+          <p>
+            score {">="} 5 - <strong>{+secondHalfPerc.toFixed(2)}%</strong> (
+            {Intl.NumberFormat("en", {
+              notation: "compact",
+            }).format(secondHalf)}{" "}
+            documents)
+          </p>
+        </div>
+      )}
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           height={300}
