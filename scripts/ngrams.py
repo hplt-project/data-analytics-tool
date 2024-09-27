@@ -61,7 +61,7 @@ ISO_STOPWORDS_MAPS = { "zsm": "ms",
 
 TXT_STOPWORDS_LANGS =  ["als", "as", "ast", "ba", "be", "bo", "bs", "ceb", "co", "cy", "fo", "ha", "ht", "is", "jv", "ka", "kab",
                         "kg",  "km", "kn", "ky", "lb", "lg", "lij",
-                        "me", "mk", "ml", "mn",  "my", "pa", "pbt", "prs", "ps",
+                        "me", "mk", "ml", "mn",  "mt", "my", "pa", "pbt", "prs", "ps",
                         "rn", "rw", "sa", "sd", "si", "sq", "sr", "ss", "st", "su", "ta", "te", "tn", "ts", "tt",  "uz", "uzn", "yo"] 
 TXT_STOPWORDS_MAPS = {"crh": "tt",
                     "khk": "mn"}
