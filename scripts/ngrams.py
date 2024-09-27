@@ -52,15 +52,16 @@ NLTK_STOPWORDS_MAPS = {"azj": "az"}
 
 
 ASTUANA_STOPWORDS_LANGS = ["bg","cs", "fa", "ga", "gl", "hi", "hy", "ja",  "ko", "la", "lt",  "lv", "mr", "pl", "sk", "th", "uk", "ur"]
-ASTUANA_STOPWORDS_MAPS = {"pes": "fa"}
+ASTUANA_STOPWORDS_MAPS = {"pes": "fa",
+                        "lvs": "lv"}
 
 ISO_STOPWORDS_LANGS =  ["af", "br", "eo", "et", "gu", "hr", "ms", "so", "sw","tl", "vi", "zu"]
 ISO_STOPWORDS_MAPS = { "zsm": "ms",
                         "swh": "sw" }
 
-TXT_STOPWORDS_LANGS =  ["als", "as", "ba", "be", "bo", "bs", "ceb", "co", "cy", "fo", "ha", "is", "jv", "ka", "kab",
+TXT_STOPWORDS_LANGS =  ["als", "as", "ast", "azb", "ba", "be", "bo", "bs", "ceb", "co", "cy", "fo", "ha", "ht", "is", "jv", "ka", "kab",
                         "kg",  "km", "kn", "ky", "lb", "lg", "lij",
-                        "me", "mk", "ml", "mn",  "my", "pa", "pbt", "prs", "ps",
+                        "me", "mk", "ml", "mn",  "mt", "my", "pa", "pbt", "prs", "ps",
                         "rn", "rw", "sa", "sd", "si", "sq", "sr", "ss", "st", "su", "ta", "te", "tn", "ts", "tt",  "uz", "uzn", "yo"] 
 TXT_STOPWORDS_MAPS = {"crh": "tt",
                     "khk": "mn"}
