@@ -32,7 +32,7 @@ except:
 #Apparently mahaNLP overwrites the logging level to quiet-er than desired
 logging.disable(logging.NOTSET)
 
-MOSES_LANGS = ["as", "ba", "br", "ca", "cs", "co", "de", "el", "en", "es", "fi", "fr", "ga", "hu", "is", "it", "lt", "lv", "mni", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
+MOSES_LANGS = ["as", "ca", "cs", "co", "de", "el", "en", "es", "fi", "fr", "ga", "hu", "is", "it", "lt", "lv", "mni", "nl", "pl", "pt", "ro", "ru", "sk", "sl", "sv", "ta"]
 
 NLTK_WORD_LANGS = ["ace", "als", "ar", "ayr", "az", "azb", "azj",  "ban", "be", "bem", "bjn", "bm", "bug", "ceb", "cjk", "crh", "dik","dyu", "dz", "ee", "fa", "fj", "fo", "fon", "fur", "fuv",
                     "gaz", "gd", "gn", "ha", "ht", "hy","ilo", "jv", "ka", "kab", "kac", "kam", "kbp", "kea", "kg", "khk", "ki", "kk", "km", "kmb", "knc", "ky", "lg", 
