@@ -41,4 +41,14 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * stopwords.tt: https://github.com/aliiae/stopwords-tt/blob/master/stopwords_tt.txt
 * stopwords.uz: https://github.com/ilyosrabbimov/uzbek-stop-words/blob/master/uz.txt
 
+Mapped: 
+* azj: az
+* crh: tt
+* khk: mn
+* lvs: lv
+* pes: fa
+* swh: Sw
+* zsm: ms
+
+
 Self-built: ast, azb, ba, bs, co, ht, kg, ml, mt
