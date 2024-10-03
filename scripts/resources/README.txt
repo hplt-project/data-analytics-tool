@@ -42,7 +42,7 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * stopwords.uz: https://github.com/ilyosrabbimov/uzbek-stop-words/blob/master/uz.txt
 
 
-Self-built: ace, ast, awa, azb, ba, bs, co, ht, kg, ml, mt
+Self-built: ace, ast, awa, azb, ba, ban, bs, co, ht, kg, ml, mt
 
 Mapped: 
 * azj: az
