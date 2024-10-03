@@ -73,7 +73,7 @@ export default function ReportScores({
 
   return (
     <div className={styles.reportScoresContainer}>
-      {firstHalfPerc && secondHalfPerc && (
+      {firstHalfPerc >= 0 && secondHalfPerc >= 0 && (
         <div className={styles.reportTitle}>
           <p>
             score {"<"} 5 - <strong>{+firstHalfPerc.toFixed(2)}%</strong> (
