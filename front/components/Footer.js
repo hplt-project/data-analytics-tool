@@ -66,6 +66,12 @@ export default function Footer() {
             className={styles["twitter-icon-footer"]}
           />
         </a>
+        <a href="https://clustrmaps.com/site/1c1lc" title="Visit tracker">
+          <img
+            src="//clustrmaps.com/map_v2.png?cl=f2f2f2&w=a&t=tt&d=yHys3FZwlpIkGd6beQUxCo549PZCPX0QZ1CQ9dKss-k&co=60bdff&ct=ffffff"
+            style={{ width: "250px" }}
+          />
+        </a>
       </div>
     </div>
   );
