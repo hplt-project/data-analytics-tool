@@ -1,3 +1,4 @@
+corpus: ast_Latn.jsonl.tsv
 docs_collections: '[["cc22", 64534], ["cc18", 39422], ["cc21", 30926], ["wide11",
   17166], ["wide12", 15572], ["wide6", 15477], ["wide15", 15408], ["cc17", 14380],
   ["cc14", 12722], ["cc15", 12393], ["wide16", 7006], ["wide5", 6088], ["wide17",
@@ -150,13 +151,12 @@ docs_wds: '[[5, 6509], [5.1, 6466], [5.2, 6420], [5.3, 5951], [5.4, 5898], [5.5,
   [8.2, 8031], [8.3, 6181], [8.4, 5080], [8.5, 4614], [8.6, 4484], [8.7, 4413], [8.8,
   4379], [8.9, 3990], [9, 3891], [9.1, 3781], [9.2, 2924], [9.3, 2544], [9.4, 2025],
   [9.5, 1717], [9.6, 1334], [9.7, 859], [9.8, 455], [9.9, 144], [10, 17]]'
-corpus: ast_Latn.jsonl.tsv
 hardrules_tags: '{"not_too_long": 0, "not_too_short": 481641, "no_urls": 184302, "no_bad_encoding":
   4573, "pii": 4933}'
 sentence_pairs: 7426182
 src_bytes: 1.18 GB
 src_chars: 1236934368
-src_langs: '[["es", 4181962], ["ast", 1420857], ["en", 580974], ["it", 216670], ["pt",
+src_langs: '[["ast", 4679372], ["es", 923447], ["en", 580974], ["it", 216670], ["pt",
   183572], ["ca", 175681], ["fr", 150578], ["gl", 113775], ["an", 78806], ["de", 40610],
   ["mt", 25061], ["nl", 22442], ["ro", 14971], ["pl", 14214], ["hu", 12684], ["ru",
   12139], ["cs", 11153], ["eo", 10474], ["sv", 9603], ["la", 9323], ["yo", 8864],
@@ -184,6 +184,19 @@ src_langs: '[["es", 4181962], ["ast", 1420857], ["en", 580974], ["it", 216670], 
   7], ["ba", 6], ["mzn", 5], ["arz", 5], ["ug", 4], ["mai", 4], ["vls", 3], ["myv",
   3], ["cv", 3], ["pfl", 2], ["lrc", 2], ["lez", 2], ["frr", 2], ["as", 2], ["am",
   2], ["dty", 1], ["bxr", 1]]'
+src_ngrams: '{"1": [[["editar"], 1265852], [["fonte"], 591614], [["descargar"], 347315],
+  [["the"], 315007], [["a\u00f1os"], 232857]], "2": [[["descargar reproducir"], 71070],
+  [["compartir descargar"], 71042], [["escuchar descargar"], 65407], [["of the"],
+  48663], [["enllaces esternos"], 47787]], "3": [[["editar la fonte"], 567301], [["compartir
+  descargar reproducir"], 71042], [["wikimedia commons acueye"], 23677], [["commons
+  acueye conten\u00edu"], 23673], [["acueye conten\u00edu multimedia"], 23673]], "4":
+  [[["wikimedia commons acueye conten\u00edu"], 23673], [["commons acueye conten\u00edu
+  multimedia"], 23673], [["academia de la llingua"], 17989], [["llingua de la obra"],
+  17241], [["wikimedia commons tien conten\u00edu"], 8865]], "5": [[["wikimedia commons
+  acueye conten\u00edu multimedia"], 23673], [["academia de la llingua asturiana"],
+  15925], [["wikimedia commons tien conten\u00edu multimedia"], 8865], [["commons
+  tien conten\u00edu multimedia tocante"], 8805], [["grabs grabs grabs grabs grabs"],
+  7694]]}'
 src_sent_tokens: '[[0, 608], [1, 329310], [2, 272774], [3, 258526], [4, 298627], [5,
   272227], [6, 243775], [7, 295322], [8, 510377], [9, 387682], [10, 269715], [11,
   227741], [12, 190519], [13, 159872], [14, 140996], [15, 127153], [16, 115739], [17,
@@ -587,16 +600,3 @@ timestamp: 1727391934.9103742
 unique_sents: 3418322
 warnings:
 - src_warning_tok_moses_es
-src_ngrams: '{"1": [[["editar"], 1265852], [["fonte"], 591614], [["descargar"], 347315],
-  [["the"], 315007], [["a\u00f1os"], 232857]], "2": [[["descargar reproducir"], 71070],
-  [["compartir descargar"], 71042], [["escuchar descargar"], 65407], [["of the"],
-  48663], [["enllaces esternos"], 47787]], "3": [[["editar la fonte"], 567301], [["compartir
-  descargar reproducir"], 71042], [["wikimedia commons acueye"], 23677], [["commons
-  acueye conten\u00edu"], 23673], [["acueye conten\u00edu multimedia"], 23673]], "4":
-  [[["wikimedia commons acueye conten\u00edu"], 23673], [["commons acueye conten\u00edu
-  multimedia"], 23673], [["academia de la llingua"], 17989], [["llingua de la obra"],
-  17241], [["wikimedia commons tien conten\u00edu"], 8865]], "5": [[["wikimedia commons
-  acueye conten\u00edu multimedia"], 23673], [["academia de la llingua asturiana"],
-  15925], [["wikimedia commons tien conten\u00edu multimedia"], 8865], [["commons
-  tien conten\u00edu multimedia tocante"], 8805], [["grabs grabs grabs grabs grabs"],
-  7694]]}'
