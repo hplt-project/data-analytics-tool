@@ -1,3 +1,4 @@
+corpus: ltz_Latn.jsonl.tsv
 docs_collections: '[["cc22", 78254], ["cc21", 31672], ["cc18", 27569], ["wide12",
   15706], ["wide11", 12731], ["cc17", 10956], ["wide17", 9870], ["cc15", 9738], ["wide6",
   9549], ["cc14", 9383], ["wide15", 8584], ["wide16", 5456], ["wide5", 3696], ["wide10",
@@ -127,13 +128,12 @@ docs_wds: '[[5, 3099], [5.1, 3280], [5.2, 3009], [5.3, 3056], [5.4, 3402], [5.5,
   [8.2, 9685], [8.3, 6658], [8.4, 5675], [8.5, 4473], [8.6, 4234], [8.7, 3981], [8.8,
   4035], [8.9, 3921], [9, 4179], [9.1, 2596], [9.2, 2163], [9.3, 1924], [9.4, 1612],
   [9.5, 1381], [9.6, 1257], [9.7, 854], [9.8, 390], [9.9, 174], [10, 50]]'
-corpus: ltz_Latn.jsonl.tsv
 hardrules_tags: '{"not_too_long": 0, "not_too_short": 499641, "no_urls": 81310, "no_bad_encoding":
   458, "pii": 8854}'
 sentence_pairs: 5058584
 src_bytes: 692.32 MB
 src_chars: 705589105
-src_langs: '[["lb", 2848190], ["de", 954791], ["en", 331752], ["fr", 258656], ["nl",
+src_langs: '[["lb", 3489460], ["en", 331752], ["de", 313521], ["fr", 258656], ["nl",
   101236], ["it", 92823], ["nds", 89486], ["da", 40422], ["es", 34565], ["sv", 34456],
   ["als", 33128], ["af", 27250], ["fy", 21748], ["pt", 17686], ["nb", 14805], ["oc",
   14601], ["ca", 13808], ["cs", 10426], ["pl", 9641], ["et", 9039], ["cy", 8627],
@@ -160,6 +160,18 @@ src_langs: '[["lb", 2848190], ["de", 954791], ["en", 331752], ["fr", 258656], ["
   8], ["ce", 6], ["ba", 6], ["am", 6], ["qu", 5], ["dsb", 4], ["bo", 4], ["sa", 3],
   ["mzn", 2], ["lez", 2], ["hif", 2], ["as", 2], ["xmf", 1], ["sah", 1], ["myv", 1],
   ["mrj", 1], ["lrc", 1], ["kv", 1], ["bxr", 1], ["bpy", 1], ["bh", 1]]'
+src_ngrams: '{"1": [[["d"], 2444318], [["\u00e4nneren"], 598020], [["w\u00e9i"], 495945],
+  [["quelltext"], 278694], [["joer"], 213882]], "2": [[["quelltext \u00e4nneren"],
+  278184], [["w\u00e9i d"], 32317], [["stad l\u00ebtzebuerg"], 17204], [["z. b."],
+  16733], [["well d"], 15165]], "3": [[["detailer vum foussballl\u00e4nnermatch"],
+  10296], [["w\u00e9i och \u00ebmmer"], 8743], [["l\u00ebtzebuergesch foussballnationalequipe
+  verl\u00e9iert"], 8111], [["webs\u00e4it vun european"], 6363], [["qualifikatioun
+  fir d"], 5607]], "4": [[["brandenburg an der havel"], 9905], [["kader vun der qualifikatioun"],
+  5469], [["webs\u00e4it vun european football"], 5058], [["informatioun doriwwer
+  am artikel"], 4813], [["l\u00ebscht vun de l\u00ebtzebuerger"], 4145]], "5": [[["verl\u00e9iert
+  an der stad l\u00ebtzebuerg"], 3773], [["foussballnationalequipe verl\u00e9iert
+  an der stad"], 3158], [["s\u00e4it befaasst sech mam joer"], 2926], [["d\u00e9ifsttemperaturen
+  an der n\u00e4chster nuecht"], 1750], [["n\u00e4chster nuecht leie bei ronn"], 1749]]}'
 src_sent_tokens: '[[0, 230], [1, 256332], [2, 222376], [3, 210255], [4, 203757], [5,
   202554], [6, 181202], [7, 310422], [8, 219898], [9, 257384], [10, 212819], [11,
   161581], [12, 137346], [13, 111905], [14, 100517], [15, 90688], [16, 90151], [17,
@@ -436,15 +448,3 @@ ttr_src: 0.02
 unique_sents: 2319774
 warnings:
 - src_warning_tok_moses_de
-src_ngrams: '{"1": [[["d"], 2444318], [["\u00e4nneren"], 598020], [["w\u00e9i"], 495945],
-  [["quelltext"], 278694], [["joer"], 213882]], "2": [[["quelltext \u00e4nneren"],
-  278184], [["w\u00e9i d"], 32317], [["stad l\u00ebtzebuerg"], 17204], [["z. b."],
-  16733], [["well d"], 15165]], "3": [[["detailer vum foussballl\u00e4nnermatch"],
-  10296], [["w\u00e9i och \u00ebmmer"], 8743], [["l\u00ebtzebuergesch foussballnationalequipe
-  verl\u00e9iert"], 8111], [["webs\u00e4it vun european"], 6363], [["qualifikatioun
-  fir d"], 5607]], "4": [[["brandenburg an der havel"], 9905], [["kader vun der qualifikatioun"],
-  5469], [["webs\u00e4it vun european football"], 5058], [["informatioun doriwwer
-  am artikel"], 4813], [["l\u00ebscht vun de l\u00ebtzebuerger"], 4145]], "5": [[["verl\u00e9iert
-  an der stad l\u00ebtzebuerg"], 3773], [["foussballnationalequipe verl\u00e9iert
-  an der stad"], 3158], [["s\u00e4it befaasst sech mam joer"], 2926], [["d\u00e9ifsttemperaturen
-  an der n\u00e4chster nuecht"], 1750], [["n\u00e4chster nuecht leie bei ronn"], 1749]]}'
