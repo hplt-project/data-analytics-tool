@@ -20,7 +20,12 @@
 .tablesLeft {
   display: flex;
 }
-
+.tables {
+  justify-content: space-between;
+}
+.tablesLeft {
+  justify-content: normal;
+}
 .overviewTables {
   margin-right: 50px;
 }
