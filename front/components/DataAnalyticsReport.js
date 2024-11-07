@@ -64,23 +64,6 @@ export default function DataAnalyticsReport({ reportData, date }) {
     ? parseFloat(reportData.sentence_pairs)
     : "";
 
-  // const totalMonocleanerScores = reportData.monocleaner_scores
-  // 	? JSON.parse(reportData.monocleaner_scores).reduce(
-  // 			(a, b) => a + parseFloat(b[1]),
-  // 			0
-  // 	  )
-  // 	: "";
-
-  // const monocleanerScores = reportData.monocleaner_scores
-  // 	? JSON.parse(reportData.monocleaner_scores).map((s) => {
-  // 			return {
-  // 				token: +s[0],
-  // 				freq: +s[1],
-  // 				perc: parseFloat((+s[1] * 100) / totalMonocleanerScores).toFixed(2),
-  // 				fill: "#8864FC",
-  // 			};
-  // 	  })
-  // 	: "";
   const srcLangIDWarning =
     reportData.warnings?.includes("src_fasttext") ?? true;
 
@@ -337,32 +320,17 @@ export default function DataAnalyticsReport({ reportData, date }) {
     : 0;
 
   let docsSegmentsTop = docsSegments
-    ? docsSegments.map((doc) => {
-        return {
-          token: doc[0],
-          freq: doc[1],
-          perc: parseFloat((+doc[1] * 100) / totalDocsScore).toFixed(2),
-          fill: "#38686a",
-        };
-      })
+    ? JSON.parse(reportData.docs_segments)
+        .filter((doc) => doc[0] <= 25)
+        .map((doc) => {
+          return {
+            token: doc[0],
+            freq: doc[1],
+            perc: parseFloat((+doc[1] * 100) / totalDocsScore).toFixed(2),
+            fill: "#38686a",
+          };
+        })
     : "";
-
-  // const totalDocsAvgLM = reportData.docs_avg_lm
-  // 	? JSON.parse(reportData.docs_avg_lm).reduce(
-  // 			(a, b) => a + parseFloat(b[1]),
-  // 			0
-  // 	  )
-  // 	: "";
-
-  // const docsAvgLM = reportData.docs_avg_lm
-  // 	? JSON.parse(reportData.docs_avg_lm).map((doc) => {
-  // 			return {
-  // 				token: doc[0],
-  // 				freq: doc[1],
-  // 				perc: parseFloat((+doc[1] * 100) / totalDocsAvgLM).toFixed(2),
-  // 			};
-  // 	  })
-  // 	: "";
 
   const docsCollectionsTotal = reportData.docs_collections
     ? JSON.parse(reportData.docs_collections).reduce((a, b) => a + b[1], 0)
@@ -689,100 +657,6 @@ export default function DataAnalyticsReport({ reportData, date }) {
                   {trglang && <p>Trg size - {trgSize}</p>}
                 </div>
               </div>
-              {/* <div className={styles.typeTokens}>
-								{reportData.ttr_src && (
-									<>
-										<div className={styles.containsTooltip}>
-											<h3>Type-Token Ratio</h3>
-											<a className="type-token-info">
-												{!footNote && (
-													<Info
-														className={[
-															styles.helpCircle,
-															styles.desktopData,
-														].join(" ")}
-														strokeWidth={1.4}
-														color="#2C2E35"
-													/>
-												)}
-											</a>
-											<Tooltip
-												anchorSelect=".type-token-info"
-												place="top"
-												clickable
-											>
-												<div
-													style={{ display: "flex", flexDirection: "column" }}
-												>
-													Lexical variety computed as *number or types
-													<span>
-														(uniques)/number of tokens*, after removing
-														punctuation
-													</span>
-													<span>
-														(
-														<a
-															href="https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf"
-															target="_blank"
-															className={styles.tooltipLink}
-														>
-															https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf
-														</a>
-														).
-													</span>
-												</div>
-											</Tooltip>
-										</div>
-										<table>
-											<thead>
-												<tr>
-													{!trglang && srclang && <th>{srclang[0].label}</th>}
-													{trglang && reportData.ttr_trg && (
-														<>
-															<th>Source</th>
-															<th>Target</th>
-														</>
-													)}
-												</tr>
-											</thead>
-											<tbody>
-												<tr>
-													<td>
-														{" "}
-														<span
-															className={
-																+reportData.ttr_src < 0.3
-																	? styles.lowestType
-																	: +reportData.ttr_src < 0.5
-																	? styles.lowestType
-																	: styles.goodType
-															}
-														>
-															{reportData.ttr_src}
-														</span>
-													</td>
-													{trglang && (
-														<td>
-															{" "}
-															<span
-																className={
-																	+reportData.ttr_trg < 0.3
-																		? styles.lowestType
-																		: +reportData.ttr_trg < 0.5
-																		? styles.lowestType
-																		: styles.goodType
-																}
-															>
-																{reportData.ttr_trg}
-															</span>
-														</td>
-													)}
-												</tr>
-											</tbody>
-										</table>
-									</>
-								)}
-							</div> */}
             </div>
             <div className={styles.tablesLeft}>
               {docsTopTenDomains && (
@@ -879,7 +753,6 @@ export default function DataAnalyticsReport({ reportData, date }) {
                   scores={docsSegmentsTop}
                   xLabel={"Segments"}
                   yLabel={"Documents"}
-                  graph={"docsCollections"}
                   partOfTotal={docsSegmentsPercOfTotal}
                   totalDocs={totalDocs}
                   restPerc={restPerc}
@@ -1011,130 +884,6 @@ export default function DataAnalyticsReport({ reportData, date }) {
           <div className={styles.blank}></div>
         </div>
       )}
-      {/* {monocleanerScores && (
-				<div className="custom-chart">
-					<div className={styles.bicleanerScores}>
-						<div className={styles.title}>
-							{" "}
-							<h3>Distribution of segments by fluency score</h3>{" "}
-							<a className="segment-fluency-distribution-info">
-								{" "}
-								{!footNote && (
-									<Info
-										className={[styles.helpCircle, styles.desktopData].join(
-											" "
-										)}
-										strokeWidth={1.2}
-										color="#2C2E35"
-										width={20}
-									/>
-								)}
-							</a>
-							<Tooltip
-								anchorSelect=".segment-fluency-distribution-info"
-								place="top"
-								clickable
-							>
-								Obtained with Monocleaner (
-								<a
-									className={styles.tooltipLink}
-									href="https://github.com/bitextor/monocleaner"
-									target="_blank"
-								>
-									https://github.com/bitextor/monocleaner
-								</a>
-								)
-							</Tooltip>
-						</div>
-						<div className={styles.desktopNum}>
-							<ReportScores
-								scores={monocleanerScores}
-								xLabel={"Scores"}
-								yLabel={"Segments"}
-								graph={"another"}
-								padding={60}
-								labellist={true}
-								fontSize={14}
-							/>
-						</div>
-						<div className={styles.mobileNum}>
-							<ReportScores
-								scores={monocleanerScores}
-								xLabel={"Scores"}
-								yLabel={"Segments"}
-								graph={"another"}
-								padding={20}
-								labellist={true}
-								fontSize={12}
-							/>
-						</div>
-					</div>
-				</div>
-			)} */}
-      {/* {docsAvgLM && (
-				<div className="custom-chart">
-					<div className={styles.bicleanerScores}>
-						<div className={styles.title}>
-							{" "}
-							<h3>
-								{!reportData.trglang && docsAvgLM
-									? "Distribution of documents by average fluency score"
-									: ""}
-							</h3>{" "}
-							<a className="doc-fluency-distribution-info">
-								{" "}
-								{!footNote && (
-									<Info
-										className={[styles.helpCircle, styles.desktopData].join(
-											" "
-										)}
-										strokeWidth={1.2}
-										color="#2C2E35"
-										width={20}
-									/>
-								)}
-							</a>
-							<Tooltip
-								anchorSelect=".doc-fluency-distribution-info"
-								place="top"
-								clickable
-							>
-								Obtained with Monocleaner (
-								<a
-									className={styles.tooltipLink}
-									href="https://github.com/bitextor/monocleaner"
-									target="_blank"
-								>
-									https://github.com/bitextor/monocleaner
-								</a>
-								)
-							</Tooltip>
-						</div>
-						<div className={styles.desktopNum}>
-							<ReportScores
-								scores={docsAvgLM}
-								xLabel={"Scores"}
-								yLabel={"Documents"}
-								graph={"another"}
-								padding={60}
-								labellist={true}
-								fontSize={16}
-							/>
-						</div>
-						<div className={styles.mobileNum}>
-							<ReportScores
-								scores={docsAvgLM}
-								xLabel={"Scores"}
-								yLabel={"Documents"}
-								graph={"another"}
-								padding={20}
-								labellist={true}
-								fontSize={12}
-							/>
-						</div>
-					</div>
-				</div>
-			)} */}
       {bicleanerScores && (
         <div className="custom-chart">
           <div className={styles.bicleanerScores}>
