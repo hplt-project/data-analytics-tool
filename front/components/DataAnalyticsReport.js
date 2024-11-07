@@ -256,13 +256,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
       })
     : "";
 
-  const docsSegments = reportData.docs_segments
-    ? JSON.parse(reportData.docs_segments).slice(0, 25)
-    : "";
-
   const totalDocs = reportData.docs_segments
     ? JSON.parse(reportData.docs_segments)
-        .slice(0, 25)
+        .filter((doc) => doc[0] <= 25)
         .reduce((a, b) => a + b[1], 0)
     : "";
   const docsSegmentsTotal = reportData.docs_segments
@@ -270,9 +266,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
     : "";
 
   const rest =
-    reportData.docs_segments && JSON.parse(reportData.docs_segments).length > 25
+    reportData.docs_segments &&
+    JSON.parse(reportData.docs_segments).filter((doc) => doc[0] <= 25)
       ? JSON.parse(reportData.docs_segments)
-          .slice(25, JSON.parse(reportData.docs_segments).length - 1)
+          .filter((doc) => doc[0] > 25)
           .reduce((a, b) => a + b[1], 0)
       : "";
 
@@ -319,7 +316,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
     ? (docsScoreOverFive * 100) / totalDocsScore
     : 0;
 
-  let docsSegmentsTop = docsSegments
+  let docsSegmentsTop = reportData.docs_segments
     ? JSON.parse(reportData.docs_segments)
         .filter((doc) => doc[0] <= 25)
         .map((doc) => {
