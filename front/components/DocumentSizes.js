@@ -68,7 +68,7 @@ export default function DocumentSizes({
 
   return (
     <div className={styles.reportScoresContainer}>
-      {partOfTotal && restDocs && (
+      {partOfTotal && restDocs >= 0 && (
         <div className={styles.reportTitleDocsSizes}>
           <p>
             <strong>{"<="} 25</strong> segments{" "}
