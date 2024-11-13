@@ -32,9 +32,12 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const router = useRouter();
 
+  const dName = router.query.file;
+
   const filename = router.query.file
     .replace("HPLT-v2-", "")
-    .replace(".yaml", "");
+    .replace(".yaml", "")
+    .replace(".lite", "");
 
   const sampleData = SAMPLE_DATA;
 
@@ -435,7 +438,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   return (
     <div className={styles.dataReportContainer}>
-      {sample && (
+      {sample && dName.includes("HPLT-v2") && (
         <div className={styles.sampleBtnCont}>
           <button
             className={buttonStyles["button-32"]}
