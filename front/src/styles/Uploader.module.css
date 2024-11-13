@@ -195,7 +195,8 @@
   left: 0;
   right: 0;
   font-size: 18px;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+    rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
 .xCircle {
@@ -244,14 +245,14 @@
   display: flex;
   cursor: pointer;
 }
-.hidden{
+.hidden {
   display: none;
 }
-
 
 .button-26,
 .button-27,
 .button-28,
+.button-32,
 .cmd button {
   appearance: button;
   background-color: #1652f0;
@@ -275,6 +276,11 @@
   margin-right: 10px;
   text-decoration: none;
   display: flex;
+}
+.button-32 {
+  background-color: #d30303;
+  border: 1px solid #f01616;
+  margin-right: 0;
 }
 
 .button-27,
@@ -440,7 +446,6 @@
   .dropdown-cont {
     width: 50%;
   }
-
 }
 
 @media (max-width: 541px) {

@@ -80,7 +80,85 @@
   background: #222;
   padding: 20px;
 }
+.blur {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1040;
+  width: 100vw;
+  height: 100vh;
+  backdrop-filter: blur(15px);
+}
 
+.sampleModal {
+  position: fixed;
+  z-index: 1000;
+  background-color: #fff;
+  -webkit-backdrop-filter: blur(3px);
+  backdrop-filter: blur(3px);
+  padding: 20px;
+  border: 0.5px solid #ebebeb;
+  width: 83%;
+  border-radius: 5px;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  max-height: 85vh;
+  box-shadow: 0 6px 12px -2px rgba(50, 50, 93, 0.176),
+    0 3px 7px -3px rgba(0, 0, 0, 0.137);
+  overflow-y: auto;
+}
+.sampleContent {
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 18px;
+  height: calc(100% - 140px);
+  position: aboslute;
+  overflow-y: auto;
+  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2);
+  padding: 18px;
+  max-height: calc(100% - 140px);
+  position: aboslute;
+  overflow-y: auto;
+  height: fit-content;
+}
+.modalHead {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 15px 0;
+}
+.modalHead button {
+  background-color: transparent;
+  border: none;
+}
+.sampleButtons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  bottom: 15px;
+  width: 100%;
+}
+
+.sampleButtons p {
+  margin: 0 30px;
+}
+.closeSampleBtn {
+  margin-left: auto;
+  cursor: pointer;
+}
+.closeSampleBtn:hover {
+  color: rgb(207, 13, 13);
+  transition: all 0.2s;
+}
+.sampleBtnCont {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 15px;
+  padding: 5px;
+}
 .overlayText {
   display: flex;
   width: 100vw;

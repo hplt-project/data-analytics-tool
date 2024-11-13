@@ -14,7 +14,7 @@ import { Oval } from "react-loader-spinner";
 import LangDocs from "./langDocs";
 import axios from "axios";
 import { useRouter } from "next/router";
-import { Info } from "lucide-react";
+import { ArrowLeft, ArrowRight, Info, X } from "lucide-react";
 import { Tooltip } from "react-tooltip";
 import Image from "next/image";
 import Logo from "../public/logos/logo.png";
@@ -23,6 +23,7 @@ import DocumentSizes from "./DocumentSizes";
 import buttonStyles from "@/styles/Uploader.module.css";
 import Footnotes from "./Footnotes";
 const punycode = require("punycode/");
+import { SAMPLE_DATA } from "@/assets/samples/output";
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
 
@@ -30,6 +31,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
   if (!reportData) return;
 
   const router = useRouter();
+
+  const filename = router.query.file
+    .replace("HPLT-v2-", "")
+    .replace(".yaml", "");
+
+  const sampleData = SAMPLE_DATA;
+
+  const sample = Object.entries(sampleData).find((key) => key[0] === filename);
 
   const [footNote, setFootNote] = useState(false);
 
@@ -420,8 +429,70 @@ export default function DataAnalyticsReport({ reportData, date }) {
     }
   }, [footNote]);
 
+  const [showSample, setShowSample] = useState(false);
+
+  const [currentSample, setCurrentSample] = useState(1);
+
   return (
     <div className={styles.dataReportContainer}>
+      {sample && (
+        <div className={styles.sampleBtnCont}>
+          <button
+            className={buttonStyles["button-32"]}
+            onClick={() => setShowSample((sample) => !sample)}
+          >
+            See dataset sample
+          </button>{" "}
+        </div>
+      )}
+      {showSample && (
+        <div className={styles.blur}>
+          <div className={styles.sampleModal}>
+            <div className={styles.modalHead}>
+              <h2>Random samples from the {srclang[0].label} dataset</h2>
+              <button
+                className={styles.closeSampleBtn}
+                onClick={() => setShowSample(false)}
+              >
+                <X />
+              </button>
+            </div>
+            <div className={styles.sampleContent}>
+              {sample[1][currentSample - 1]}
+            </div>
+            <div className={styles.sampleButtons}>
+              {currentSample > 1 && (
+                <button
+                  onClick={() =>
+                    setCurrentSample((currentSample) =>
+                      currentSample > 1 ? currentSample - 1 : currentSample
+                    )
+                  }
+                >
+                  <ArrowLeft />
+                </button>
+              )}
+              <p>
+                Currently showing doc number {currentSample} out of{" "}
+                {sample[1].length}
+              </p>
+              {currentSample < sample[1].length && (
+                <button
+                  onClick={() =>
+                    setCurrentSample((currentSample) =>
+                      currentSample < sample[1].length
+                        ? currentSample + 1
+                        : currentSample
+                    )
+                  }
+                >
+                  <ArrowRight />
+                </button>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
       <div className="custom-chart">
         <div className={styles.reportMainStats}>
           <div className={styles.analyticsTitleContainer}>
