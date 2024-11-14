@@ -460,9 +460,12 @@ export default function DataAnalyticsReport({ reportData, date }) {
                 <X />
               </button>
             </div>
-            <div className={styles.sampleContent}>
-              {sample[1][currentSample - 1]}
-            </div>
+            <div
+              className={styles.sampleContent}
+              dangerouslySetInnerHTML={{
+                __html: sample[1][currentSample - 1].replaceAll("\n", "<br/>"),
+              }}
+            ></div>
             <div className={styles.sampleButtons}>
               {currentSample > 1 && (
                 <button
