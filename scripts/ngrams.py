@@ -87,7 +87,7 @@ def fix_stopwords(stopwords, lang):
     elif lang == "ca":
         stopwords.extend(["l", "l'", "d", "d'", "s", "s'"])
     elif lang == "cy":
-        stopwords.extend(["'r", "'n", "'i", "'w","'y", "'m", "'u", "'th"])
+        stopwords.extend(["'r", "r", "'n", "n", "'i", "'w","'y", "'m", "'u", "'th"])
     elif lang == "de":
         stopwords.extend(["wurde", "wurden", "mehr", "viele"])
     elif lang == "es":
