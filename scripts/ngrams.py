@@ -60,7 +60,7 @@ ISO_STOPWORDS_MAPS = { "zsm": "ms",
                         "swh": "sw" }
 
 TXT_STOPWORDS_LANGS =  ["ace", "als", "as", "ast", "ayr", "awa", "azb", "ba", "ban", "bem", "be", "bho", "bm", "bo", "bs", 
-                        "ceb", "co", "cy", "fo", "ha", "ht", "is", "jv", "ka", "kab",
+                        "ceb", "co", "cy", "fo", "ha", "ht", "is", "jv", "ka", "kab", "kac",
                         "kg",  "km", "kn", "ky", "lb", "lg", "lij",
                         "me", "mk", "ml", "mn",  "mt", "my", "pa", "pbt", "prs", "ps",
                         "rn", "rw", "sa", "sd", "si", "sq", "sr", "ss", "st", "su", "ta", "te", "tn", "ts", "tt",  "uz", "uzn", "yo"] 
