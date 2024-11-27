@@ -21,7 +21,7 @@ docs_segments: '[[1, 42], [2, 299], [3, 226], [4, 187], [5, 154], [6, 226], [7, 
   [390, 3], [445, 1], [778, 1], [1426, 2], [1918, 1]]'
 docs_segments_mean: 20
 docs_segments_median: 9
-docs_timestamp: 1730824948.7930896
+docs_timestamp: 1732705466.455518
 docs_top100_domains: '[["jayjohar.com", 560], ["gurturgoth.com", 462], ["blogspot.com",
   313], ["hi-takedrivers.com", 179], ["blogspot.in", 120], ["ruralindiaonline.org",
   117], ["news18.com", 100], ["vithivichar.com", 90], ["biblica.com", 82], ["silverweed.club",
@@ -64,7 +64,7 @@ docs_wds: '[[5, 104], [5.1, 89], [5.2, 111], [5.3, 102], [5.4, 77], [5.5, 89], [
   63], [8.7, 51], [8.8, 41], [8.9, 57], [9, 42], [9.1, 41], [9.2, 30], [9.3, 19],
   [9.4, 32], [9.5, 12], [9.6, 11], [9.7, 6], [9.8, 1]]'
 corpus: hne_Deva.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 2918, "no_urls": 170, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 3936, "no_urls": 105, "no_bad_encoding":
   0, "pii": 71}'
 sentence_pairs: 54999
 src_bytes: 24.6 MB
@@ -212,8 +212,20 @@ src_unique_sents: '[[1, 382], [2, 556], [3, 960], [4, 914], [5, 1454], [6, 1186]
   1], [755, 1], [777, 1], [796, 1], [806, 1], [841, 1], [892, 1], [908, 1], [909,
   1], [939, 1], [987, 1], [1009, 1], [1031, 1], [1125, 1], [1360, 1], [1502, 1]]'
 srclang: hne
-timestamp: 1730825012.6955984
+timestamp: 1732705541.340157
 unique_sents: 40771
 warnings:
 - src_fasttext
-- src_ngrams_hne_nostopwords
+src_ngrams: '{"1": [[["\u092e\u0928"], 33111], [["\u0939"], 32170], [["\u0932\u0947"],
+  30393], [["\u0939\u0947"], 29654], [["\u0905\u0909"], 20944]], "2": [[["\u0926\u0947\u0916\u0947
+  \u0917\u090f"], 6158], [["\u092c\u093e\u0930 \u0926\u0947\u0916\u0947"], 6154],
+  [["\u0921\u094d\u0930\u093e\u0907\u0935\u0930 \u0921\u093e\u0909\u0928\u0932\u094b\u0921"],
+  6154], [["\u0935\u094b \u0939"], 3033], [["\u092e\u0928 \u0932\u093e"], 2046]],
+  "3": [[["\u092c\u093e\u0930 \u0926\u0947\u0916\u0947 \u0917\u090f"], 6154], [["keyword
+  keyword keyword"], 1930], [["name name name"], 1629], [["insert column excel"],
+  714], [["column excel shortcut"], 693]], "4": [[["keyword keyword keyword keyword"],
+  1909], [["name name name name"], 1624], [["insert column excel shortcut"], 650],
+  [["gk quiz in hindi"], 309], [["knowledge gk quiz in"], 306]], "5": [[["keyword
+  keyword keyword keyword keyword"], 1888], [["name name name name name"], 1619],
+  [["knowledge gk quiz in hindi"], 306], [["general knowledge gk quiz in"], 306],
+  [["shortcut shortcut shortcut shortcut shortcut"], 255]]}'
