@@ -23,7 +23,7 @@ docs_segments: '[[1, 536], [2, 53], [3, 121], [4, 101], [5, 70], [6, 117], [7, 1
   3], [1054, 1], [1543, 4], [1741, 3], [2239, 4], [2240, 1], [2416, 4], [2497, 4]]'
 docs_segments_mean: 38
 docs_segments_median: 14
-docs_timestamp: 1730798084.0348938
+docs_timestamp: 1732706500.0833845
 docs_top100_domains: '[["jw.org", 2886], ["wikipedia.org", 467], ["togochretien.com",
   86], ["mi-eweland.com", 45], ["bibles.org", 30], ["voltaonlinegh.com", 24], ["unicode.org",
   15], ["bible.is", 13], ["kasahorow.org", 13], ["ebible.org", 13], ["ohchr.org",
@@ -59,8 +59,8 @@ docs_wds: '[[5, 38], [5.1, 39], [5.2, 36], [5.3, 27], [5.4, 20], [5.5, 42], [5.6
   84], [8.6, 100], [8.7, 85], [8.8, 79], [8.9, 57], [9, 58], [9.1, 33], [9.2, 29],
   [9.3, 33], [9.4, 18], [9.5, 7], [9.6, 13], [9.7, 6], [9.8, 11]]'
 corpus: ewe_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 9517, "no_urls": 401, "no_bad_encoding":
-  246, "pii": 8}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 4438, "no_urls": 402, "no_bad_encoding":
+  223, "pii": 8}'
 sentence_pairs: 143401
 src_bytes: 22.14 MB
 src_chars: 21178005
@@ -332,9 +332,18 @@ src_unique_sents: '[[0, 1], [1, 658], [2, 1331], [3, 1647], [4, 1431], [5, 1742]
   5], [2005, 1], [2019, 1], [2041, 1], [2141, 1], [2268, 1], [2272, 1], [2484, 4],
   [2486, 5], [2488, 1], [2511, 1], [3041, 1]]'
 srclang: ee
-timestamp: 1730798188.0407057
+timestamp: 1732706611.968582
 unique_sents: 62285
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_ee_nostopwords
+src_ngrams: '{"1": [[["efe"], 20710], [["yehowa"], 16739], [["biblia"], 10777], [["wofe"],
+  9147], [["a\u0256eke"], 7097]], "2": [[["yehowa \u00f0asefowo"], 1665], [["gb\u0254gb\u0254
+  k\u0254k\u0254e"], 1390], [["sue sue"], 1314], [["efe nusr\u0254"], 1291], [["nenema
+  kee"], 730]], "3": [[["sue sue sue"], 1306], [["afet\u0254 yesu kristo"], 438],
+  [["adam kple xawa"], 328], [["biblia \u0256o e\u014bui"], 273], [["xexea me godoo"],
+  259]], "4": [[["siasia sia sia siasia"], 3325], [["sue sue sue sue"], 1299], [["tr\u0254
+  asi le etsofe"], 673], [["n\u0254n\u0254metata si le axa"], 406], [["twj tso kua
+  mis"], 200]], "5": [[["sue sue sue sue sue"], 1292], [["ate \u014bu akpe \u0256e
+  \u014buw\u00f2"], 291], [["tututue nye biblia fe nufiafia"], 126], [["slurry twj
+  tso kua mis"], 86], [["x\u0254asi siwo le mawu \u0192e"], 83]]}'
