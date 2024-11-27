@@ -58,7 +58,7 @@ docs_segments: '[[1, 617], [2, 1066], [3, 1636], [4, 2583], [5, 2856], [6, 2731]
   [1351, 1], [1361, 1], [1363, 1], [1374, 1]]'
 docs_segments_mean: 23
 docs_segments_median: 12
-docs_timestamp: 1730799291.3338752
+docs_timestamp: 1732733503.192973
 docs_top100_domains: '[["wikipedia.org", 32150], ["tawidnewsmag.com", 5052], ["jw.org",
   4075], ["blogspot.com", 2332], ["bomboradyo.com", 829], ["bible.is", 662], ["wordpress.com",
   379], ["blogspot.co.nz", 273], ["breakeveryyoke.com", 205], ["amiananbalitangayon.com",
@@ -107,8 +107,8 @@ docs_wds: '[[5, 615], [5.1, 569], [5.2, 555], [5.3, 666], [5.4, 742], [5.5, 770]
   [8.9, 724], [9, 769], [9.1, 877], [9.2, 471], [9.3, 280], [9.4, 273], [9.5, 289],
   [9.6, 248], [9.7, 144], [9.8, 51], [9.9, 17], [10, 7]]'
 corpus: ilo_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 121859, "no_urls": 20477, "no_bad_encoding":
-  66, "pii": 622}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 170153, "no_urls": 22385, "no_bad_encoding":
+  67, "pii": 622}'
 sentence_pairs: 1119850
 src_bytes: 149.41 MB
 src_chars: 155722432
@@ -401,8 +401,18 @@ src_unique_sents: '[[0, 1], [1, 4454], [2, 20629], [3, 13772], [4, 12883], [5, 1
   1], [2289, 1], [2459, 1], [2541, 1], [2664, 1], [2701, 1], [2735, 1], [3549, 1],
   [4076, 1], [4198, 1], [4258, 1], [4988, 1], [6266, 1], [6515, 1]]'
 srclang: ilo
-timestamp: 1730799800.6294937
+timestamp: 1732734118.5240507
 unique_sents: 364232
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_ngrams_ilo_nostopwords
+src_ngrams: '{"1": [[["urnosen"], 164544], [["taudan"], 87525], [["naala"], 62529],
+  [["the"], 47413], [["of"], 43986]], "2": [[["ilocos sur"], 14502], [["wikimedia
+  commons"], 11632], [["of the"], 9976], [["new york"], 6183], [["commission on"],
+  4235]], "3": [[["urnosen ti taudan"], 82286], [["midia a mainaig"], 11524], [["silpo
+  ti ruar"], 11138], [["naala idi hulio"], 6348], [["akinruar a silpo"], 4748]], "4":
+  [[["naiyarkibo manipud iti kasisigud"], 3115], [["napili nga artikulo ita"], 2456],
+  [["napili a ladawan ita"], 2168], [["posted by bayan ng"], 1652], [["by bayan ng
+  cabugao"], 1652]], "5": [[["pagalagadan a kodigo ti heograpia"], 4263], [["datos
+  ti populasion ti lwua"], 4263], [["opisina ti koordinasion ti nailian"], 3659],
+  [["koordinasion ti nailian nga estadistika"], 3659], [["dibision ti panagsukisok
+  ti lwua"], 3618]]}'
