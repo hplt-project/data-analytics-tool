@@ -60,13 +60,13 @@ ISO_STOPWORDS_MAPS = { "zsm": "ms",
                         "swh": "sw" }
 
 TXT_STOPWORDS_LANGS =  ["ace", "als", "as", "ast", "ayr", "awa", "azb", "ba", "ban", "bem", "be", "bho", "bjn", "bm", "bo", "bs", 
-                        "ceb", "cjk", "co", "cy", "dik", "dyu", "dz", "ee", "fj", "fo", "fur", "ha", "hne", "ht", "is", "jv", "ka", "kab", "kac",
+                        "ceb", "cjk", "co", "crh", "cy", "dik", "dyu", "dz", "ee", "fj", "fo", "fur", 
+                        "ha", "hne", "ht", "is", "jv", "ka", "kab", "kac",
                         "kg",  "km", "kn", "ky", "lb", "lg", "lij",
                         "me", "mk", "ml", "mn",  "mt", "my", "pa", "pbt", "prs", "ps",
                         "rn", "rw", "sa", "scn", "sd", "sg", "si", "sq", "sr", "ss", "st", "su", 
                         "ta", "te", "tk", "tn", "tpi", "ts", "tt", "tum", "tw", "tzm", "uz", "uzn", "ydd", "yo"] 
-TXT_STOPWORDS_MAPS = {"crh": "tt",
-                    "khk": "mn"}
+TXT_STOPWORDS_MAPS = {"khk": "mn"}
 
 KLPT_STOPWORDS_LANGS = ["ckb", "kmr"]
 
