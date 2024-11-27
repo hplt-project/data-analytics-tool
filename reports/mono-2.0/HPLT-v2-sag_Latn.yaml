@@ -19,7 +19,7 @@ docs_segments: '[[1, 711], [2, 56], [3, 387], [4, 51], [5, 57], [6, 48], [7, 85]
   1], [430, 1], [435, 1], [667, 1]]'
 docs_segments_mean: 16
 docs_segments_median: 10
-docs_timestamp: 1730885676.046858
+docs_timestamp: 1732701715.9346628
 docs_top100_domains: '[["jw.org", 1994], ["bible.is", 796], ["wikipedia.org", 66],
   ["islamhouse.com", 42], ["gotquestions.org", 26], ["icc-cpi.int", 15], ["siriri.org",
   15], ["free.fr", 11], ["wiktionary.org", 11], ["ebible.org", 11], ["over-blog.com",
@@ -60,7 +60,7 @@ docs_wds: '[[5, 19], [5.1, 25], [5.2, 27], [5.3, 22], [5.4, 29], [5.5, 29], [5.6
   [8.6, 182], [8.7, 149], [8.8, 139], [8.9, 158], [9, 186], [9.1, 160], [9.2, 45],
   [9.3, 33], [9.4, 38], [9.5, 32], [9.6, 18], [9.7, 15], [9.8, 2]]'
 corpus: sag_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 3725, "no_urls": 150, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 4132, "no_urls": 146, "no_bad_encoding":
   1417, "pii": 3}'
 sentence_pairs: 51900
 src_bytes: 16.56 MB
@@ -328,9 +328,18 @@ src_unique_sents: '[[1, 251], [2, 680], [3, 321], [4, 648], [5, 679], [6, 940], 
   [2902, 1], [2974, 1], [3044, 1], [3079, 1], [3122, 1], [3242, 1], [3247, 1], [3436,
   1], [3535, 1], [3606, 1], [3811, 1], [4005, 1], [14609, 1]]'
 srclang: sg
-timestamp: 1730885775.155331
+timestamp: 1732701810.3377886
 unique_sents: 31786
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_sg_nostopwords
+src_ngrams: '{"1": [[["ala"], 77892], [["ayeke"], 67232], [["yeke"], 51236], [["ye"],
+  50227], [["mbi"], 35944]], "2": [[["ala yeke"], 8886], [["tongana nyen"], 6043],
+  [["mbi yeke"], 5683], [["yeke sara"], 4840], [["sara ye"], 4306]], "3": [[["ngbanga
+  ti nyen"], 3107], [["ye so ayeke"], 1931], [["azo so ayeke"], 1851], [["ayeke na
+  y\u00e2"], 1811], [["tere ti ala"], 1643]], "4": [[["kobe kobe kobe kobe"], 963],
+  [["9article 9article 9article 9article"], 716], [["tour ti ba ndo"], 598], [["alingbi
+  ti m\u00fb maboko"], 575], [["ape ape ape ape"], 569]], "5": [[["kobe kobe kobe
+  kobe kobe"], 962], [["9article 9article 9article 9article 9article"], 712], [["ape
+  ape ape ape ape"], 566], [["n\u00e2r bi afvike y\u00e2 rahm\u00e2n"], 494], [["ayeke
+  na y\u00e2 ti bible"], 374]]}'
