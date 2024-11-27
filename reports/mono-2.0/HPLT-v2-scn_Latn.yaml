@@ -68,7 +68,7 @@ docs_segments: '[[1, 1629], [2, 3638], [3, 5341], [4, 6002], [5, 5512], [6, 5067
   4], [1678, 1], [1804, 2], [2009, 1], [2050, 4], [2070, 1], [2850, 1]]'
 docs_segments_mean: 20
 docs_segments_median: 10
-docs_timestamp: 1730881053.4988487
+docs_timestamp: 1732700028.9828088
 docs_top100_domains: '[["wikipedia.org", 44764], ["vsaduidoma.com", 1561], ["apiazzetta.com",
   1540], ["tempicorsica.com", 1098], ["interromania.com", 700], ["julinse.com", 679],
   ["eodishasamachar.com", 630], ["blogspot.com", 541], ["arritti.corsica", 526], ["educationbro.com",
@@ -127,8 +127,8 @@ docs_wds: '[[5, 1938], [5.1, 1836], [5.2, 1797], [5.3, 1655], [5.4, 1785], [5.5,
   837], [8.9, 873], [9, 730], [9.1, 690], [9.2, 517], [9.3, 384], [9.4, 369], [9.5,
   234], [9.6, 158], [9.7, 94], [9.8, 43], [9.9, 36], [10, 1]]'
 corpus: scn_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 181668, "no_urls": 12608, "no_bad_encoding":
-  851, "pii": 1219}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 170287, "no_urls": 12254, "no_bad_encoding":
+  1204, "pii": 1219}'
 sentence_pairs: 1650375
 src_bytes: 246.97 MB
 src_chars: 250748924
@@ -453,8 +453,18 @@ src_unique_sents: '[[0, 1], [1, 11043], [2, 21678], [3, 26378], [4, 30436], [5, 
   1], [5943, 1], [5966, 1], [6878, 1], [7147, 1], [10093, 1], [10861, 1], [11368,
   1], [16816, 1], [29564, 1], [212434, 1]]'
 srclang: scn
-timestamp: 1730881957.461994
+timestamp: 1732701207.74195
 unique_sents: 735503
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_ngrams_scn_nostopwords
+src_ngrams: '{"1": [[["\u00e0"], 619243], [["h\u00e8"], 343180], [["ch\u00ec"], 330121],
+  [["d"], 219744], [["cancia"], 145839]], "2": [[["nantu \u00e0"], 58728], [["\u00f9n
+  h\u00e8"], 20509], [["ch\u00ec h\u00e8"], 18890], [["ci\u00f2 ch\u00ec"], 16421],
+  [["h\u00e8 micca"], 16307]], "3": [[["cancia la surgenti"], 67926], [["edit\u00e0
+  a fonte"], 20671], [["\u00f9n h\u00e8 micca"], 13615], [["\u00f9n s\u00f2 micca"],
+  6030], [["\u00f9n ci h\u00e8"], 5137]], "4": [[["\u00f9n ci h\u00e8 micca"], 1820],
+  [["seminali e altru outzioni"], 1692], [["qu\u00ec ci s\u00f2 rivista"], 1692],
+  [["qualit\u00e0 e chemica seminali"], 1692], [["ordua qualit\u00e0 e chemica"],
+  1692]], "5": [[["senza un ochju \u00e8 vi"], 1692], [["outzioni per casi e cottages"],
+  1692], [["ordua qualit\u00e0 e chemica seminali"], 1692], [["ochju \u00e8 vi maravigghiate
+  cum"], 1692], [["chemica seminali e altru outzioni"], 1692]]}'
