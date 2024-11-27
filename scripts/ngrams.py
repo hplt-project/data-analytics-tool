@@ -66,7 +66,7 @@ TXT_STOPWORDS_LANGS =  ["ace", "als", "as", "ast", "ayr", "awa", "azb", "ba", "b
                         "me", "mk", "ml", "mn",  "mt", "my", "pa", "pbt", "prs", "ps",
                         "rn", "rw", "sa", "scn", "sd", "sg", "shn", "si", "sq", "sr", "ss", "st", "su", 
                         "ta", "te", "tk", "tn", "tpi", "ts", "tt", "tum", "tw", "tzm", 
-                        "uz", "uzn", "war", "xh", "ydd", "yo"] 
+                        "uz", "uzn", "war", "wo", "xh", "ydd", "yo"] 
 TXT_STOPWORDS_MAPS = {"khk": "mn"}
 
 KLPT_STOPWORDS_LANGS = ["ckb", "kmr"]
