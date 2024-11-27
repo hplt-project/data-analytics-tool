@@ -20,7 +20,7 @@ docs_segments: '[[1, 385], [3, 268], [4, 14], [5, 9], [6, 21], [7, 25], [8, 22],
   [165, 1], [169, 1], [251, 1], [347, 2]]'
 docs_segments_mean: 18
 docs_segments_median: 6
-docs_timestamp: 1730365648.5675285
+docs_timestamp: 1732706068.2354388
 docs_top100_domains: '[["bible.is", 646], ["bibles.org", 431], ["jw.org", 299], ["omniglot.com",
   4], ["bible.com", 3], ["watchtower.org", 3], ["gospelgo.com", 2], ["twr360.org",
   1], ["reunion.com", 1]]'
@@ -34,7 +34,7 @@ docs_wds: '[[5, 6], [5.1, 6], [5.2, 3], [5.3, 7], [5.4, 10], [5.5, 10], [5.6, 10
   94], [8, 115], [8.1, 107], [8.2, 78], [8.3, 93], [8.4, 40], [8.5, 38], [8.6, 31],
   [8.7, 15], [8.8, 8], [8.9, 6], [9, 10], [9.2, 1], [9.3, 1]]'
 corpus: dyu_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 1340, "no_urls": 10, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 1816, "no_urls": 11, "no_bad_encoding":
   0, "pii": 0}'
 sentence_pairs: 24558
 src_bytes: 5.7 MB
@@ -235,9 +235,17 @@ src_unique_sents: '[[1, 71], [2, 590], [3, 429], [4, 608], [5, 1073], [6, 1477],
   1], [1947, 1], [1965, 1], [1981, 1], [1987, 1], [1992, 1], [2058, 1], [2117, 1],
   [2140, 1], [2213, 1], [2456, 1], [2462, 1]]'
 srclang: dyu
-timestamp: 1730365696.2334416
+timestamp: 1732706115.9271164
 unique_sents: 20698
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_dyu_nostopwords
+src_ngrams: '{"1": [[["o"], 29654], [["u"], 26214], [["be"], 24276], [["ko"], 22739],
+  [["k"], 19305]], "2": [[["tun be"], 4211], [["tuma min"], 2018], [["o tigi"], 1861],
+  [["cogo min"], 1771], [["min be"], 1713]], "3": [[["be se k"], 824], [["u ye ko"],
+  802], [["ala ka kuma"], 789], [["ala ka masaya"], 482], [["aw ye ko"], 477]], "4":
+  [[["f\u0254ra ala ka kuma"], 267], [["ala ka m\u0254g\u0254 wolomanin"], 151], [["masaba
+  aw ka ala"], 148], [["masaba le ko ten"], 112], [["min\u025b ka taga n"], 100]],
+  "5": [[["ala ka kuma na ko"], 183], [["ala ka m\u0254g\u0254 wolomanin nin"], 99],
+  [["ne masaba le ko ten"], 55], [["aw ye ko ni m\u0254g\u0254"], 52], [["o y\u0254r\u0254
+  la ka taga"], 51]]}'
