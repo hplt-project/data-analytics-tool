@@ -63,8 +63,8 @@ TXT_STOPWORDS_LANGS =  ["ace", "als", "as", "ast", "ayr", "awa", "azb", "ba", "b
                         "ceb", "cjk", "co", "crh", "cy", "dik", "dyu", "dz", "ee", "fj", "fo", "fur", 
                         "ha", "hne", "ht", "is", "jv", "ka", "kab", "kac",
                         "kg",  "km", "kn", "ky", "lb", "lg", "lij",
-                        "me", "mk", "ml", "mn",  "mt", "my", "pa", "pbt", "prs", "ps",
-                        "rn", "rw", "sa", "sat", "scn", "sd", "sg", "shn", "si", "sm", "sn", "sq", "sr", "ss", "st", "su", 
+                        "me", "mk", "ml", "mn",  "mt", "my", "pa", "pbt", "prs", "ps", "rn", "rw", 
+                        "sa", "sat", "scn", "sd", "sg", "shn", "si", "sm", "sn", "sq", "sr", "ss", "st", "su", "szl"
                         "ta", "taq", "te", "tk", "tn", "tpi", "ts", "tt", "tum", "tw", "tzm", 
                         "uz", "uzn", "vec", "war", "wo", "xh", "ydd", "yo"] 
 TXT_STOPWORDS_MAPS = {"khk": "mn"}
