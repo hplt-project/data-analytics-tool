@@ -23,7 +23,7 @@ docs_segments: '[[1, 540], [2, 73], [3, 147], [4, 102], [5, 58], [6, 87], [7, 17
   [480, 1], [488, 1], [706, 2], [998, 1]]'
 docs_segments_mean: 23
 docs_segments_median: 15
-docs_timestamp: 1730992915.5557342
+docs_timestamp: 1732722831.3330283
 docs_top100_domains: '[["jw.org", 4034], ["wikipedia.org", 174], ["globalrecordings.net",
   40], ["nkhanimchitumbuka.com", 31], ["gpedia.com", 11], ["bible.is", 10], ["watchtower.org",
   10], ["digitallibrary.io", 8], ["bibleforchildren.org", 5], ["sciencegraph.net",
@@ -48,8 +48,8 @@ docs_wds: '[[5, 32], [5.1, 29], [5.2, 30], [5.3, 28], [5.4, 41], [5.5, 22], [5.6
   90], [8.6, 128], [8.7, 120], [8.8, 129], [8.9, 160], [9, 148], [9.1, 205], [9.2,
   98], [9.3, 85], [9.4, 112], [9.5, 79], [9.6, 67], [9.7, 49], [9.8, 22], [9.9, 4]]'
 corpus: tum_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 11440, "no_urls": 972, "no_bad_encoding":
-  1, "pii": 0}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 11342, "no_urls": 394, "no_bad_encoding":
+  0, "pii": 0}'
 sentence_pairs: 99013
 src_bytes: 20.52 MB
 src_chars: 21003570
@@ -258,9 +258,19 @@ src_unique_sents: '[[1, 423], [2, 1814], [3, 1460], [4, 2122], [5, 2416], [6, 27
   1], [1413, 1], [1416, 1], [1453, 1], [1495, 1], [1544, 1], [1567, 1], [1601, 1],
   [1634, 1], [1673, 1], [1737, 1], [2073, 1], [2279, 1]]'
 srclang: tum
-timestamp: 1730992999.6525476
+timestamp: 1732722927.7766306
 unique_sents: 65730
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_tum_nostopwords
+src_ngrams: '{"1": [[["yehova"], 27729], [["\u0175anthu"], 24888], [["chiuta"], 23684],
+  [["ndi"], 21388], [["yesu"], 20680]], "2": [[["\u0175a yehova"], 2263], [["charu
+  chapasi"], 1962], [["\u0175akaboni \u0175a"], 1822], [["nga umo"], 1620], [["\u0175anthu
+  \u0175anandi"], 1416]], "3": [[["\u0175akaboni \u0175a yehova"], 1804], [["ufumu
+  wa chiuta"], 877], [["anamuliro gha charu"], 854], [["mazgu gha chiuta"], 731],
+  [["akaboni aku yehova"], 686]], "4": [[["anamuliro gha charu chiphya"], 854], [["malemba
+  ghakupatulika mu mang"], 681], [["\u0175azgani baibolo pa intaneti"], 532], [["lero
+  lero lero lero"], 490], [["baibolo la pa intaneti"], 317]], "5": [[["lero lero lero
+  lero lero"], 482], [["\u0175anthu \u0175anthu \u0175anthu \u0175anthu \u0175anthu"],
+  98], [["ndicho fumu yikuru yehova yayowoya"], 89], [["kumbi ndi vinthu wuli vo"],
+  83], [["sambiro la baibolo la mpingo"], 65]]}'
