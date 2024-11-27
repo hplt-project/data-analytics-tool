@@ -43,7 +43,7 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 
 
 Self-built: ace, ast, awa, ayr, azb, ba, ban, bem, bho, bjn, bm, bs, cjk, co, crh, dik, dyu, dz, 
-	ee, fj, fur, hne, ht, kac, kg, ml, mt, scn, sg, shn, tk, tpi, tum, tw, tzm, war, ydd
+	ee, fj, fur, hne, ht, kac, kg, ml, mt, scn, sg, shn, tk, tpi, tum, tw, tzm, war, xh, ydd
 
 Mapped: 
 * azj: az
