@@ -17,7 +17,7 @@ docs_segments: '[[1, 18], [2, 68], [3, 50], [4, 89], [5, 47], [6, 64], [7, 75], 
   5], [342, 4], [354, 1], [365, 1], [367, 5], [406, 5], [455, 2]]'
 docs_segments_mean: 25
 docs_segments_median: 12
-docs_timestamp: 1730289229.8340497
+docs_timestamp: 1732707522.6418035
 docs_top100_domains: '[["blogspot.com", 477], ["dzkuensel.com", 429], ["libreoffice.org",
   153], ["ecb.bt", 83], ["gnhc.gov.bt", 50], ["wikipedia.org", 49], ["investigative-manual.org",
   45], ["virginia.edu", 37], ["library.gov.bt", 31], ["dzkuensel.bt", 28], ["dzongkha.gov.bt",
@@ -48,7 +48,7 @@ docs_wds: '[[5, 166], [5.1, 171], [5.2, 155], [5.3, 93], [5.4, 85], [5.5, 94], [
   [7.9, 5], [8, 7], [8.1, 15], [8.2, 11], [8.3, 5], [8.4, 6], [8.5, 8], [8.6, 10],
   [8.7, 8], [8.8, 3], [8.9, 2], [9, 1], [9.3, 5], [9.5, 1], [9.6, 3]]'
 corpus: dzo_Tibt.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 6192, "no_urls": 87, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 6181, "no_urls": 89, "no_bad_encoding":
   0, "pii": 25}'
 sentence_pairs: 39971
 src_bytes: 19.8 MB
@@ -264,9 +264,18 @@ src_unique_sents: '[[0, 1], [1, 78], [2, 72], [3, 46], [4, 126], [5, 108], [6, 1
   1], [1811, 1], [1815, 1], [1824, 1], [1881, 1], [1911, 1], [1979, 1], [2083, 1],
   [2367, 1], [2766, 1], [2838, 1], [2981, 1], [3061, 1], [4912, 1], [5700, 1]]'
 srclang: dz
-timestamp: 1730289305.0307775
+timestamp: 1732707582.899714
 unique_sents: 18450
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_dz_nostopwords
+src_ngrams: '{"1": [[["\u0f42"], 175207], [["\u0f53"], 167394], [["\u0f51"], 143180],
+  [["\u0f62"], 128471], [["\u0f44"], 78947]], "2": [[["no comments"], 4349], [["pm
+  no"], 3731], [["am no"], 618], [["read more"], 192], [["in the"], 153]], "3": [[["pm
+  no comments"], 3731], [["am no comments"], 618], [["dasho zoepoen wangchuk\u0f4f"],
+  66], [["you want to"], 21], [["posted in \u0f41"], 20]], "4": [[["text to speech
+  synthesis"], 14], [["pioneering dzongkha text to"], 14], [["dzongkha text to speech"],
+  14], [["that you want to"], 10], [["you can enter a"], 8]], "5": [[["pioneering
+  dzongkha text to speech"], 14], [["dzongkha text to speech synthesis"], 14], [["use
+  the date series type"], 8], [["type and this option to"], 8], [["the date series
+  type and"], 8]]}'
