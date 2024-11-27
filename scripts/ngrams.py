@@ -64,7 +64,7 @@ TXT_STOPWORDS_LANGS =  ["ace", "als", "as", "ast", "ayr", "awa", "azb", "ba", "b
                         "kg",  "km", "kn", "ky", "lb", "lg", "lij",
                         "me", "mk", "ml", "mn",  "mt", "my", "pa", "pbt", "prs", "ps",
                         "rn", "rw", "sa", "scn", "sd", "sg", "si", "sq", "sr", "ss", "st", "su", 
-                        "ta", "te", "tk", "tn", "ts", "tt", "tum", "tw", "tzm", "uz", "uzn", "ydd", "yo"] 
+                        "ta", "te", "tk", "tn", "tpi", "ts", "tt", "tum", "tw", "tzm", "uz", "uzn", "ydd", "yo"] 
 TXT_STOPWORDS_MAPS = {"crh": "tt",
                     "khk": "mn"}
 
