@@ -46,7 +46,7 @@ docs_segments: '[[1, 403], [2, 1639], [3, 1682], [4, 3305], [5, 1902], [6, 2062]
   1], [908, 1], [971, 2], [1363, 1], [1611, 1], [2572, 2]]'
 docs_segments_mean: 20
 docs_segments_median: 10
-docs_timestamp: 1731312333.3018699
+docs_timestamp: 1732703582.8179817
 docs_top100_domains: '[["wikipedia.org", 10617], ["lapatriedalfriul.org", 7754], ["blogspot.com",
   3315], ["blogspot.it", 2931], ["tuugo.at", 1717], ["contecurte.eu", 1393], ["wordpress.com",
   836], ["glesiefurlane.org", 791], ["blogspot.ch", 670], ["arlef.it", 413], ["folkest.com",
@@ -96,8 +96,8 @@ docs_wds: '[[5, 339], [5.1, 404], [5.2, 383], [5.3, 340], [5.4, 427], [5.5, 368]
   857], [9.1, 1012], [9.2, 680], [9.3, 553], [9.4, 371], [9.5, 295], [9.6, 216], [9.7,
   214], [9.8, 162], [9.9, 56], [10, 21]]'
 corpus: fur_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 83887, "no_urls": 9192, "no_bad_encoding":
-  5525, "pii": 1999}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 68734, "no_urls": 9221, "no_bad_encoding":
+  5619, "pii": 1999}'
 sentence_pairs: 730045
 src_bytes: 112.39 MB
 src_chars: 114043358
@@ -378,9 +378,18 @@ src_unique_sents: '[[0, 1], [1, 3980], [2, 7611], [3, 10161], [4, 10888], [5, 10
   [4471, 1], [4641, 1], [5901, 1], [7854, 1], [8173, 1], [11918, 1], [12349, 1], [27728,
   1], [147546, 1]]'
 srclang: fur
-timestamp: 1731312763.0652442
+timestamp: 1732704025.140537
 unique_sents: 266635
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_fur_nostopwords
+src_ngrams: '{"1": [[["l"], 78798], [["ai"], 70541], [["fat"], 46094], [["fri\u00fbl"],
+  45132], [["furlan"], 39870]], "2": [[["clap clap"], 24950], [["daj dajdaj"], 23820],
+  [["dajdaj daj"], 23816], [["lenghe furlane"], 13231], [["fat fat"], 12209]], "3":
+  [[["daj dajdaj daj"], 23816], [["dajdaj daj dajdaj"], 23808], [["modifiche il codi\u00e7"],
+  23347], [["clap clap clap"], 23156], [["fat fat fat"], 12190]], "4": [[["daj dajdaj
+  daj dajdaj"], 23808], [["dajdaj daj dajdaj daj"], 23804], [["clap clap clap clap"],
+  21366], [["fat fat fat fat"], 12176], [["do re mi fa"], 1886]], "5": [[["daj dajdaj
+  daj dajdaj daj"], 23804], [["dajdaj daj dajdaj daj dajdaj"], 23796], [["clap clap
+  clap clap clap"], 19725], [["fat fat fat fat fat"], 12163], [["fa so la ti do"],
+  2162]]}'
