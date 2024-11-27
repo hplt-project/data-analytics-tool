@@ -17,7 +17,7 @@ docs_segments: '[[1, 535], [2, 48], [3, 406], [4, 69], [5, 91], [6, 111], [7, 70
   3], [899, 2]]'
 docs_segments_mean: 15
 docs_segments_median: 6
-docs_timestamp: 1730391074.5075815
+docs_timestamp: 1732715620.4586563
 docs_top100_domains: '[["bible.is", 861], ["wikipedia.org", 435], ["stepbible.org",
   245], ["pngscriptures.org", 240], ["ebible.org", 97], ["png.bible", 59], ["communitydoor.org.au",
   36], ["consumer.vic.gov.au", 35], ["raizetechnical.com", 22], ["1800respect.org.au",
@@ -60,8 +60,8 @@ docs_wds: '[[5, 51], [5.1, 66], [5.2, 59], [5.3, 86], [5.4, 80], [5.5, 94], [5.6
   32], [7.9, 19], [8, 23], [8.1, 40], [8.2, 16], [8.3, 16], [8.4, 8], [8.5, 18], [8.6,
   25], [8.7, 14], [8.8, 24], [8.9, 31], [9, 44], [9.1, 151], [9.2, 5]]'
 corpus: dik_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 3920, "no_urls": 390, "no_bad_encoding":
-  11, "pii": 31}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 4693, "no_urls": 130, "no_bad_encoding":
+  26, "pii": 31}'
 sentence_pairs: 34647
 src_bytes: 12.52 MB
 src_chars: 11505568
@@ -354,9 +354,18 @@ src_unique_sents: '[[1, 281], [2, 756], [3, 500], [4, 437], [5, 420], [6, 416], 
   [2159, 2], [2170, 1], [2243, 1], [2253, 1], [2255, 1], [2269, 1], [2319, 1], [2324,
   1], [2413, 1], [2478, 1]]'
 srclang: dik
-timestamp: 1730391143.3071094
+timestamp: 1732715694.1597152
 unique_sents: 15747
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_dik_nostopwords
+src_ngrams: '{"1": [[["\u0251"], 22831], [["ka"], 20008], [["\u00eb"], 19647], [["raan"],
+  18007], [["de"], 15845]], "2": [[["\u0251 \u0251"], 2586], [["amboac tona\u014b"],
+  1068], [["ka masaala"], 994], [["wek aa"], 985], [["yen aye"], 857]], "3": [[["l\u0254c
+  ku d\u0254c"], 956], [["raan c\u00ef l\u0254c"], 925], [["aa aa aa"], 694], [["\u00eb
+  \u00eb \u00eb"], 529], [["k\u0254cken ye bu\u0254\u0254th"], 400]], "4": [[["aa
+  aa aa aa"], 626], [["\u00eb \u00eb \u00eb \u00eb"], 344], [["ath\u00f6r th\u025b\u025br
+  w\u00ebl nhialic"], 292], [["use the search box"], 246], [["the search box to"],
+  246]], "5": [[["raan c\u00ef l\u0254c ku d\u0254c"], 922], [["aa aa aa aa aa"],
+  585], [["use the search box to"], 246], [["the search box to find"], 246], [["search
+  box to find bibles"], 246]]}'
