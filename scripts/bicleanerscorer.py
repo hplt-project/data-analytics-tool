@@ -47,26 +47,25 @@ def remove_porntag(yamlfile):
 
 def read_hardrulestags(corpusname, yamlfile, srclang, trglang=None):
 
-    
     hardrules_output = corpusname+".hardrules"
-
 
     if not os.path.exists(hardrules_output):
         hardrules_output = corpusname+"."+srclang+".hardrules"
         if not os.path.exists(hardrules_output):
             logging.warning("Hardrules file not found")
             return {}
-        
+
     logging.debug("Reading hardrules from " +  hardrules_output)
+    print ("Reading hardrules from " +  hardrules_output)
 
     lines = 0
-    
+
     tag_types = remove_porntag(yamlfile)
     if trglang==None:
         tag_types.remove("length_ratio")
-        
+
     tags_count = {}
-    
+
     for t in tag_types:
         tags_count[t]=0
 
@@ -88,15 +87,16 @@ def read_hardrulestags(corpusname, yamlfile, srclang, trglang=None):
                 continue
                 
             if "+" in tags:
-                moretags = list(set(tags.split("+"))) # when there is more than one tag in the same sentence, just count the different type of tags
-                for tag in moretags:
-                    tag = tag.replace("(right)","").replace("(left)","").replace("(left,right)","")
-                    tags_count[tag.strip()]+=1
+                moretags = list(set(tags.strip().split("+"))) # when there is more than one tag in the same sentence, just count the different type of tags
+                for tag in moretags:                    
+                    tag = tag.strip().replace("(right)","").replace("(left)","").replace("(left,right)","")
+                    if tag in tags_count.keys():
+                        tags_count[tag]+=1
             else:
-                tag = tags.replace("(right)","").replace("(left)","").replace("(left,right)","")
-                tags_count[tag.strip()]+=1           
+                tag = tags.strip().replace("(right)","").replace("(left)","").replace("(left,right)","")
+                if tag in tags_count.keys():                
+                    tags_count[tag]+=1      
 
-            
             #tagss.append(tags)
             
         except ValueError as ex:
@@ -106,12 +106,11 @@ def read_hardrulestags(corpusname, yamlfile, srclang, trglang=None):
             #keeps.append("0")
             #tagss.append("wrong_cols")
             continue
-        except KeyError as ex:
-            #A tag we don't care about
-            continue
-            
+        except KeyError as ex:        
+            continue            
 
     return(tags_count)
+
 
 def read_scores(corpusname):
     scoresfile = corpusname+".classify"
