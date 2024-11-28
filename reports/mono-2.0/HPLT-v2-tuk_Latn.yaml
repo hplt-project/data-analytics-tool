@@ -90,7 +90,7 @@ docs_segments: '[[1, 2360], [2, 6370], [3, 12611], [4, 20972], [5, 16989], [6, 1
   1], [2264, 1], [2452, 2], [2627, 1], [3291, 1], [3573, 1], [4389, 2], [5704, 1]]'
 docs_segments_mean: 20
 docs_segments_median: 9
-docs_timestamp: 1730727424.0842028
+docs_timestamp: 1732717404.4321055
 docs_top100_domains: '[["azathabar.com", 55561], ["ertir.com", 6638], ["atavatan-turkmenistan.com",
   6507], ["wikipedia.org", 6452], ["turkmenportal.com", 6105], ["inform.kz", 5509],
   ["egemen.kz", 3268], ["medeniyet.gov.tm", 2928], ["business.com.tm", 2893], ["turkmenistan.gov.tm",
@@ -148,8 +148,8 @@ docs_wds: '[[5, 1144], [5.1, 1096], [5.2, 1117], [5.3, 1100], [5.4, 1181], [5.5,
   4006], [8.9, 3709], [9, 5207], [9.1, 3430], [9.2, 2561], [9.3, 2114], [9.4, 1893],
   [9.5, 1988], [9.6, 2709], [9.7, 2423], [9.8, 1295], [9.9, 457], [10, 123]]'
 corpus: tuk_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 149289, "no_urls": 31864, "no_bad_encoding":
-  508, "pii": 4785}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 350221, "no_urls": 29999, "no_bad_encoding":
+  667, "pii": 4785}'
 sentence_pairs: 3355083
 src_bytes: 594.25 MB
 src_chars: 566811877
@@ -495,8 +495,21 @@ src_unique_sents: '[[0, 1], [1, 12112], [2, 34635], [3, 47187], [4, 59067], [5, 
   [8191, 1], [8692, 1], [8822, 1], [9073, 1], [9795, 1], [18624, 1], [42995, 1], [60926,
   1]]'
 srclang: tk
-timestamp: 1730729169.3083491
+timestamp: 1732719210.7285476
 unique_sents: 1961128
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_ngrams_tk_nostopwords
+src_ngrams: '{"1": [[["we"], 1302507], [["bilen"], 755095], [["hem"], 554741], [["bu"],
+  536344], [["\u00fc\u00e7in"], 448763]], "2": [[["\u015fe\u00fdle hem"], 67810],
+  [["nji \u00fdyly\u0148"], 52851], [["nji \u00fdylda"], 52191], [["hormatly prezidentimiz"],
+  47294], [["gurbanguly berdimuhamedow"], 34061]], "3": [[["hormatly prezidentimiz
+  gurbanguly"], 29168], [["prezidentimiz gurbanguly berdimuhamedow"], 18804], [["\u015funu\u0148
+  bilen baglylykda"], 11135], [["t\u00fcrkmenistany\u0148 prezidenti gurbanguly"],
+  9286], [["ministrler kabinetini\u0148 ba\u015flygyny\u0148"], 9215]], "4": [[["hormatly
+  prezidentimiz gurbanguly berdimuhamedow"], 18721], [["hormatly prezidentimiz gurbanguly
+  berdimuhamedowy\u0148"], 8685], [["ministrler kabinetini\u0148 ba\u015flygyny\u0148
+  orunbasary"], 7009], [["\u015fol bir wagty\u0148 \u00f6z\u00fcnde"], 6190], [["t\u00fcrkmenistany\u0148
+  prezidenti gurbanguly berdimuhamedow"], 5802]], "5": [[["fmly fmly fmly fmly fmly"],
+  4902], [["binalarda we s\u00f6we\u015f sungaty bo\u00fdun\u00e7a"], 3780], [["\u00fdapyk
+  binalarda we s\u00f6we\u015f sungaty"], 3779], [["saglygy gora\u00fdy\u015f we derman
+  senagaty"], 3565], [["we s\u00f6we\u015f sungaty bo\u00fdun\u00e7a v"], 3319]]}'

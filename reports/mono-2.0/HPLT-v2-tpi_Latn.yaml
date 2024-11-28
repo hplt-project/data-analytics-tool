@@ -33,7 +33,7 @@ docs_segments: '[[1, 2316], [2, 221], [3, 1761], [4, 432], [5, 331], [6, 354], [
   1]]'
 docs_segments_mean: 20
 docs_segments_median: 10
-docs_timestamp: 1730290648.1964793
+docs_timestamp: 1732711966.3292892
 docs_top100_domains: '[["bible.is", 3556], ["jw.org", 2465], ["vbtc.vu", 1435], ["pngscriptures.org",
   1118], ["wikipedia.org", 1025], ["aboriginalbibles.org.au", 490], ["pngbibleresources.org",
   452], ["ebible.org", 246], ["png.bible", 216], ["breakeveryyoke.com", 199], ["gov.vu",
@@ -82,7 +82,7 @@ docs_wds: '[[5, 88], [5.1, 123], [5.2, 74], [5.3, 85], [5.4, 84], [5.5, 76], [5.
   [9.2, 142], [9.3, 198], [9.4, 143], [9.5, 169], [9.6, 164], [9.7, 136], [9.8, 67],
   [9.9, 31], [10, 21]]'
 corpus: tpi_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 13192, "no_urls": 974, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 13147, "no_urls": 785, "no_bad_encoding":
   0, "pii": 121}'
 sentence_pairs: 282367
 src_bytes: 61.65 MB
@@ -547,9 +547,17 @@ src_unique_sents: '[[0, 1], [1, 1329], [2, 2432], [3, 2282], [4, 2980], [5, 3760
   1], [2760, 1], [2800, 1], [2805, 1], [2836, 1], [2875, 1], [2881, 1], [2905, 1],
   [2946, 1], [2953, 1], [2958, 1], [3128, 1], [3962, 1], [8171, 1]]'
 srclang: tpi
-timestamp: 1730290919.1669874
+timestamp: 1732712231.4315479
 unique_sents: 147572
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_tpi_nostopwords
+src_ngrams: '{"1": [[["mi"], 183796], [["yu"], 159610], [["hem"], 124839], [["god"],
+  119262], [["we"], 108100]], "2": [[["we oli"], 19692], [["talem se"], 16176], [["bai
+  mi"], 12004], [["god god"], 11132], [["yu mas"], 8025]], "3": [[["god god god"],
+  11112], [["yupela i mas"], 7785], [["yufala i mas"], 2891], [["hem i talem"], 2805],
+  [["yu no ken"], 2654]], "4": [[["god god god god"], 11092], [["yupela i no ken"],
+  3039], [["bai i no inap"], 1618], [["hem i talem se"], 1518], [["feitful wok bilong
+  jisas"], 1334]], "5": [[["god god god god god"], 11072], [["we i no save finis"],
+  765], [["flap flap flap flap flap"], 738], [["ofa bilong paia i kukim"], 645], [["smok
+  i gat gutpela smel"], 501]]}'

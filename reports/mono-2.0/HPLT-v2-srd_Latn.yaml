@@ -56,7 +56,7 @@ docs_segments: '[[1, 1676], [2, 4204], [3, 4826], [4, 4945], [5, 4612], [6, 3920
   [2222, 1], [2421, 1], [3147, 1], [5557, 1], [6994, 1]]'
 docs_segments_mean: 17
 docs_segments_median: 7
-docs_timestamp: 1730733517.6228137
+docs_timestamp: 1732719835.1923795
 docs_top100_domains: '[["wikipedia.org", 18503], ["sardegnacultura.it", 2630], ["ilminuto.info",
   2065], ["nor-web.eu", 1738], ["sagazeta.info", 1094], ["blogspot.com", 989], ["wordpress.com",
   788], ["reisar.eu", 777], ["anthonymuroni.it", 600], ["istorias.it", 567], ["blogspot.it",
@@ -113,8 +113,8 @@ docs_wds: '[[5, 1533], [5.1, 1465], [5.2, 1370], [5.3, 1257], [5.4, 1285], [5.5,
   972], [8.9, 1103], [9, 863], [9.1, 844], [9.2, 565], [9.3, 419], [9.4, 341], [9.5,
   245], [9.6, 133], [9.7, 147], [9.8, 54], [9.9, 19], [10, 4]]'
 corpus: srd_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 62730, "no_urls": 13620, "no_bad_encoding":
-  133, "pii": 1528}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 144694, "no_urls": 13213, "no_bad_encoding":
+  142, "pii": 1528}'
 sentence_pairs: 917090
 src_bytes: 143.62 MB
 src_chars: 147885449
@@ -476,8 +476,18 @@ src_unique_sents: '[[0, 1], [1, 10460], [2, 19988], [3, 16574], [4, 18809], [5, 
   [7855, 1], [7895, 1], [7984, 1], [9166, 1], [9333, 1], [15020, 1], [18085, 1], [219150,
   1]]'
 srclang: sc
-timestamp: 1730734125.062503
+timestamp: 1732720346.8549333
 unique_sents: 444889
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_ngrams_sc_nostopwords
+src_ngrams: '{"1": [[["sa"], 544830], [["s"], 392867], [["est"], 259401], [["sos"],
+  168252], [["si"], 162404]], "2": [[["cun sa"], 17141], [["sa limba"], 16984], [["dae
+  sa"], 12222], [["est sa"], 11485], [["est unu"], 11280]], "3": [[["c\u00f2dighe
+  de or\u00ecgine"], 8703], [["mod\u00ecfica su c\u00f2dighe"], 8651], [["sin\u00f2nimos
+  e contr\u00e0rios"], 8422], [["scanu valerio scanu"], 7468], [["valerio scanu valerio"],
+  7435]], "4": [[["scanu valerio scanu valerio"], 7428], [["valerio scanu valerio
+  scanu"], 7361], [["milano milano milano milano"], 6866], [["carmelo lisciotto carmelo
+  lisciotto"], 3505], [["lisciotto carmelo lisciotto carmelo"], 3460]], "5": [[["mod\u00ecfica
+  su c\u00f2dighe de or\u00ecgine"], 8651], [["scanu valerio scanu valerio scanu"],
+  7354], [["valerio scanu valerio scanu valerio"], 7321], [["milano milano milano
+  milano milano"], 6850], [["lisciotto carmelo lisciotto carmelo lisciotto"], 3460]]}'

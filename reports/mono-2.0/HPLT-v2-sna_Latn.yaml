@@ -47,7 +47,7 @@ docs_segments: '[[1, 1454], [2, 1301], [3, 2096], [4, 2817], [5, 2893], [6, 3279
   1], [932, 1], [1039, 1], [1689, 1], [1998, 1], [4032, 1]]'
 docs_segments_mean: 20
 docs_segments_median: 12
-docs_timestamp: 1731320748.8950622
+docs_timestamp: 1732790036.0850909
 docs_top100_domains: '[["voashona.com", 6742], ["wikipedia.org", 5468], ["jw.org",
   5029], ["linuxadictos.com", 2346], ["eturbonews.com", 1627], ["kwayedza.co.zw",
   1568], ["martech.zone", 1002], ["actualidadiphone.com", 857], ["zimkatorike.com",
@@ -106,8 +106,8 @@ docs_wds: '[[5, 331], [5.1, 378], [5.2, 369], [5.3, 326], [5.4, 350], [5.5, 405]
   [9, 1845], [9.1, 1073], [9.2, 1033], [9.3, 815], [9.4, 703], [9.5, 744], [9.6, 791],
   [9.7, 460], [9.8, 261], [9.9, 101], [10, 41]]'
 corpus: sna_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 127276, "no_urls": 12328, "no_bad_encoding":
-  4, "pii": 1211}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 81734, "no_urls": 13430, "no_bad_encoding":
+  5, "pii": 1211}'
 sentence_pairs: 1201679
 src_bytes: 183.12 MB
 src_chars: 191477676
@@ -298,9 +298,19 @@ src_unique_sents: '[[0, 1], [1, 8887], [2, 27317], [3, 35311], [4, 38351], [5, 3
   1], [1977, 1], [2105, 1], [2141, 1], [2481, 1], [3049, 1], [5545, 1], [7033, 1],
   [7747, 1], [8316, 1], [10080, 1], [96861, 1]]'
 srclang: sn
-timestamp: 1731321355.9215486
+timestamp: 1732790729.2601728
 unique_sents: 864345
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_sn_nostopwords
+src_ngrams: '{"1": [[["kana"], 282828], [["iyo"], 138946], [["asi"], 102289], [["kubva"],
+  86647], [["iri"], 73004]], "2": [[["chirp chirp"], 15672], [["zviri nyore"], 6956],
+  [["edit source"], 6669], [["makumi maviri"], 6263], [["imwe chete"], 4739]], "3":
+  [[["chirp chirp chirp"], 15667], [["kana iwe uchida"], 4547], [["uchinge uchinge
+  uchinge"], 3636], [["kana iwe uri"], 2168], [["panguva imwe chete"], 1991]], "4":
+  [[["chirp chirp chirp chirp"], 15664], [["uchinge uchinge uchinge uchinge"], 3488],
+  [["kuverenga nyaya ino mumutauro"], 1379], [["here kuverenga nyaya ino"], 1379],
+  [["yenyika itsva yemagwaro matsvene"], 1355]], "5": [[["chirp chirp chirp chirp
+  chirp"], 15661], [["uchinge uchinge uchinge uchinge uchinge"], 3347], [["ungada
+  here kuverenga nyaya ino"], 1379], [["kuverenga nyaya ino mumutauro we"], 1379],
+  [["here kuverenga nyaya ino mumutauro"], 1379]]}'

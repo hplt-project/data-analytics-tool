@@ -24,7 +24,7 @@ docs_segments: '[[1, 498], [2, 1044], [3, 1261], [4, 1145], [5, 1082], [6, 945],
   [438, 1], [508, 5], [510, 1], [521, 1], [678, 1], [748, 1], [751, 1]]'
 docs_segments_mean: 14
 docs_segments_median: 8
-docs_timestamp: 1730364631.1406314
+docs_timestamp: 1732711515.21799
 docs_top100_domains: '[["wikipedia.org", 10287], ["bible.is", 735], ["jw.org", 537],
   ["isumat.com", 410], ["info-about.ru", 324], ["bomboradyo.com", 291], ["pia.gov.ph",
   169], ["rmn.ph", 122], ["tacloban.gov.ph", 112], ["wordpress.com", 89], ["gpedia.com",
@@ -70,7 +70,7 @@ docs_wds: '[[5, 288], [5.1, 251], [5.2, 221], [5.3, 210], [5.4, 228], [5.5, 160]
   [9.1, 460], [9.2, 83], [9.3, 38], [9.4, 35], [9.5, 8], [9.6, 17], [9.7, 3], [9.8,
   2]]'
 corpus: war_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 30011, "no_urls": 2993, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 39451, "no_urls": 3052, "no_bad_encoding":
   11, "pii": 45}'
 sentence_pairs: 200935
 src_bytes: 33.95 MB
@@ -320,8 +320,17 @@ src_unique_sents: '[[0, 1], [1, 1953], [2, 17269], [3, 2009], [4, 2155], [5, 193
   [3588, 1], [4286, 1], [4916, 1], [6832, 1], [8963, 1], [9156, 1], [10304, 1], [35280,
   1]]'
 srclang: war
-timestamp: 1730364767.6304874
+timestamp: 1732711669.9792106
 unique_sents: 87226
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_ngrams_war_nostopwords
+src_ngrams: '{"1": [[["hin"], 82442], [["ini"], 31224], [["iya"], 30155], [["hi"],
+  29813], [["hini"], 26261]], "2": [[["waray hini"], 8733], [["hini subspecies"],
+  8124], [["edit source"], 7269], [["ngadto hin"], 4016], [["hi jesus"], 2955]], "3":
+  [[["nahilalakip ha genus"], 13405], [["waray hini subspecies"], 8124], [["magnoliopsida
+  nga ginhulagway"], 7486], [["subspecies nga nakalista"], 7449], [["igliwat an wikitext"],
+  5370]], "4": [[["hini subspecies nga nakalista"], 7449], [["hi tom hi tom"], 2798],
+  [["tom hi tom hi"], 2796], [["impormasyon hini nga artikulo"], 2156], [["bersyon
+  nga angay ighubad"], 2156]], "5": [[["waray hini subspecies nga nakalista"], 7449],
+  [["tom hi tom hi tom"], 2796], [["hi tom hi tom hi"], 2674], [["mayda impormasyon
+  hini nga artikulo"], 2156], [["hini nga artikulo nga aada"], 2156]]}'
