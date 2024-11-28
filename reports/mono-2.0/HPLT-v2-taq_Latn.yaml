@@ -16,7 +16,7 @@ docs_segments: '[[1, 767], [2, 29], [3, 515], [4, 36], [5, 100], [6, 14], [7, 31
   1], [173, 1], [718, 1]]'
 docs_segments_mean: 8
 docs_segments_median: 3
-docs_timestamp: 1730827163.428987
+docs_timestamp: 1732792156.4241002
 docs_top100_domains: '[["bible.is", 1220], ["worddetector.com", 79], ["newchristianbiblestudy.org",
   60], ["ebible.org", 53], ["biblehub.com", 18], ["vanuatubibles.org", 16], ["tuspalabras.com",
   14], ["blogspot.com", 12], ["case.edu", 9], ["omniglot.com", 9], ["buenastareas.com",
@@ -58,7 +58,7 @@ docs_wds: '[[5, 44], [5.1, 28], [5.2, 41], [5.3, 35], [5.4, 54], [5.5, 51], [5.6
   [7.9, 11], [8, 14], [8.1, 10], [8.2, 11], [8.3, 7], [8.4, 26], [8.5, 31], [8.6,
   106], [8.7, 131], [8.8, 73], [8.9, 111], [9, 99], [9.1, 49], [9.2, 3], [9.4, 1]]'
 corpus: taq_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 4184, "no_urls": 41, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 993, "no_urls": 40, "no_bad_encoding":
   4, "pii": 3}'
 sentence_pairs: 13884
 src_bytes: 9.41 MB
@@ -319,9 +319,18 @@ src_unique_sents: '[[1, 207], [2, 263], [3, 237], [4, 198], [5, 328], [6, 237], 
   [2734, 1], [2748, 1], [2834, 1], [2872, 1], [2904, 1], [2927, 1], [2932, 1], [2963,
   1], [2996, 1], [3018, 3], [3696, 1], [13441, 1]]'
 srclang: taq
-timestamp: 1730827212.421783
+timestamp: 1732792206.2472742
 unique_sents: 7842
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_taq_nostopwords
+src_ngrams: '{"1": [[["n"], 29099], [["s"], 23680], [["d\u0103\u0263"], 22105], [["ahay"],
+  21633], [["s\u0259"], 20455]], "2": [[["win win"], 5792], [["ata awan"], 4379],
+  [["\u0257o ahay"], 3716], [["ata n\u00e0"], 3207], [["\u0257o s\u0259"], 3019]],
+  "3": [[["win win win"], 5787], [["mer su way"], 2029], [["an\u00e0 \u0257o ahay"],
+  1261], [["asd asd asd"], 1200], [["sdjflk asdfkas df"], 990]], "4": [[["win win
+  win win"], 5782], [["laskdj flka sdjflk asdfkas"], 990], [["flka sdjflk asdfkas
+  df"], 990], [["d faslkdfj asdlkfj as"], 990], [["asdf aasd f asdklfj"], 990]], "5":
+  [[["win win win win win"], 5777], [["laskdj flka sdjflk asdfkas df"], 990], [["asdf
+  aasd f asdklfj as"], 990], [["flsadfasdf asdf aasd f asdklfj"], 986], [["aksd flsadfasdf
+  asdf aasd f"], 986]]}'
