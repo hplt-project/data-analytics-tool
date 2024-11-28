@@ -15,7 +15,7 @@ docs_segments: '[[1, 5], [2, 57], [3, 37], [4, 78], [5, 67], [6, 101], [7, 130],
   3], [144, 1], [156, 1], [169, 1], [202, 1], [360, 1], [362, 1]]'
 docs_segments_mean: 18
 docs_segments_median: 14
-docs_timestamp: 1730366961.6563349
+docs_timestamp: 1732774981.9342387
 docs_top100_domains: '[["wikipedia.org", 2295], ["vikaspedia.in", 178], ["globalvoices.org",
   47], ["raharahla.com", 15], ["wikimedia.org", 8], ["wikiplanet.click", 5], ["wikiversity.org",
   4], ["know.cf", 3], ["santalinews.com", 3], ["mediawiki.org", 2], ["tetchallenger.com",
@@ -32,7 +32,7 @@ docs_wds: '[[5, 87], [5.1, 81], [5.2, 79], [5.3, 71], [5.4, 105], [5.5, 86], [5.
   36], [7.9, 22], [8, 27], [8.1, 13], [8.2, 17], [8.3, 2], [8.4, 8], [8.5, 7], [8.6,
   4], [8.7, 6], [8.9, 1], [9, 1]]'
 corpus: sat_Olck.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 3257, "no_urls": 713, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 3251, "no_urls": 774, "no_bad_encoding":
   0, "pii": 8}'
 sentence_pairs: 45801
 src_bytes: 14.52 MB
@@ -137,8 +137,28 @@ src_unique_sents: '[[1, 855], [2, 1734], [3, 1896], [4, 1167], [5, 998], [6, 843
   3], [350, 1], [365, 1], [367, 1], [370, 1], [372, 2], [379, 1], [381, 1], [414,
   1], [415, 2], [420, 1], [427, 1], [429, 1], [486, 1], [621, 1]]'
 srclang: sat
-timestamp: 1730367000.1411
+timestamp: 1732775020.9264925
 unique_sents: 26205
 warnings:
 - src_fasttext
-- src_ngrams_sat_nostopwords
+src_ngrams: '{"1": [[["\u1c65\u1c5f\u1c6f\u1c72\u1c5f\u1c63"], 17999], [["\u1c6f\u1c77\u1c6e\u1c70\u1c5f\u1c5b"],
+  8934], [["\u1c66\u1c5a\u1c71\u1c5a\u1c5b"], 7799], [["\u1c5c\u1c6e"], 6596], [["\u1c66\u1c5a\u1c72"],
+  6556]], "2": [[["\u1c6f\u1c77\u1c6e\u1c70\u1c5f\u1c5b \u1c65\u1c5f\u1c6f\u1c72\u1c5f\u1c63"],
+  8849], [["\u1c66\u1c5a\u1c72 \u1c5e\u1c6e\u1c60\u1c77\u1c5f"], 1134], [["\u1c62\u1c6e\u1c71\u1c5f\u1c5c
+  \u1c60\u1c5a\u1c63\u1c5f"], 922], [["\u1c5e\u1c6e\u1c6b \u1c5b\u1c5f\u1c66\u1c6e\u1c78\u1c6b"],
+  705], [["\u1c5e\u1c6e\u1c71 \u1c5b\u1c5f\u1c66\u1c6e\u1c78\u1c6b"], 665]], "3":
+  [[["wikipedia articles with"], 394], [["from the original"], 382], [["archived from
+  the"], 378], [["\u1c66\u1c5a\u1c72 \u1c5e\u1c6e\u1c60\u1c77\u1c5f \u1c5e\u1c6e\u1c60\u1c5f"],
+  368], [["\u1c65\u1c6e\u1c68\u1c62\u1c5f \u1c68\u1c6e\u1c6d\u1c5f\u1c5c \u1c66\u1c5a\u1c72"],
+  324]], "4": [[["archived from the original"], 378], [["\u1c65\u1c6e\u1c68\u1c62\u1c5f
+  \u1c68\u1c6e\u1c6d\u1c5f\u1c5c \u1c66\u1c5a\u1c72 \u1c5e\u1c6e\u1c60\u1c77\u1c5f"],
+  322], [["from the original on"], 315], [["\u1c5c\u1c5a\u1c74\u1c5f\u1c5d \u1c66\u1c5a\u1c71\u1c5a\u1c5b
+  \u1c60\u1c5a \u1c62\u1c69\u1c6b\u1c7d"], 218], [["\u1c61\u1c5f\u1c6d\u1c5c\u1c5f
+  \u1c5b\u1c6e \u1c74\u1c5a\u1c6f\u1c5f\u1c68 \u1c6e\u1c65\u1c6e\u1c6b"], 181]], "5":
+  [[["archived from the original on"], 312], [["\u1c65\u1c6e\u1c68\u1c62\u1c5f \u1c68\u1c6e\u1c6d\u1c5f\u1c5c
+  \u1c66\u1c5a\u1c72 \u1c5e\u1c6e\u1c60\u1c77\u1c5f \u1c5e\u1c6e\u1c60\u1c5f"], 277],
+  [["\u1c61\u1c5f\u1c6d\u1c5c\u1c5f \u1c5b\u1c6e \u1c74\u1c5a\u1c6f\u1c5f\u1c68 \u1c6e\u1c65\u1c6e\u1c6b
+  \u1c5f\u1c60\u1c5f\u1c71\u1c5f"], 177], [["\u1c66\u1c5a\u1c71\u1c5a\u1c5b \u1c68\u1c6e\u1c6d\u1c5f\u1c5c
+  \u1c5e\u1c6e\u1c60\u1c77\u1c5f \u1c6b\u1c5a \u1c5e\u1c6e\u1c60\u1c77\u1c5f"], 134],
+  [["\u1c65\u1c6e\u1c6a\u1c6e\u1c5c \u1c60\u1c5a\u1c63\u1c5f\u1c5c \u1c66\u1c5f\u1c68
+  \u1c6b\u1c5a \u1c66\u1c69\u1c6d\u1c69\u1c5c"], 126]]}'
