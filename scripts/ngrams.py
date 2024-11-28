@@ -90,6 +90,8 @@ def fix_stopwords(stopwords, lang):
         stopwords.extend(["l", "l'", "d", "d'", "s", "s'"])
     elif lang == "cy":
         stopwords.extend(["'r", "r", "'n", "n", "'i", "'w","'y", "'m", "'u", "'th"])
+        for sw in [ 'about', 'an', 'as', 'you', 'be', 'but', 'by', 'from', 'get', 'have', 'he', 'him', 'his', 'if', 'it', 'just', 'know', 'like', 'make', 'me', 'my', 'no', 'not', 'one', 'or', 'out', 'say', 'she', 'so', 'take', 'that', 'their', 'there', 'they', 'this', 'time', 'up', 'what', 'when', 'which', 'who', 'will', 'with', 'would']:
+            stopwords.remove(sw)
     elif lang == "de":
         stopwords.extend(["wurde", "wurden", "mehr", "viele"])
     elif lang == "es":
