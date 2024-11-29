@@ -191,8 +191,7 @@ docs_wds: '[[5, 5883], [5.1, 5529], [5.2, 5280], [5.3, 5508], [5.4, 6528], [5.5,
   19320], [9.4, 17825], [9.5, 16748], [9.6, 16325], [9.7, 14903], [9.8, 12232], [9.9,
   5989], [10, 1246]]'
 corpus: tat_Cyrl.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 722496, "no_urls": 110346, "no_bad_encoding":
-  291, "pii": 19669}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 2166739, "no_urls": 111077, "no_bad_encoding": 420, "pii": 19669}'
 sentence_pairs: 13448632
 src_bytes: 3.63 GB
 src_chars: 2143760119
