@@ -44,7 +44,7 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 
 Self-built: ace, ast, awa, ayr, azb, ba, ban, bem, bho, bjn, bm, bs, bug,
 	cjk, co, crh, dik, dyu, dz, 
-	ee, fj, fon, fur, fuv, gd, gn, hne, ht, ig, ilo, kac, kam, kg, ks,
+	ee, fj, fon, fur, fuv, gd, gn, hne, ht, ig, ilo, kac, kam, kbp, kg, ks,
 	ml, mt, 
 	sat, sc, scn, sg, shn, sm, sn, szl, taq, tk, tpi, 
 	tum, tw, tzm, ug, umb, vec, war, wo, xh, ydd
