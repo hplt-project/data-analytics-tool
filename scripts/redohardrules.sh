@@ -13,8 +13,17 @@ else
 fi
 
 
+if [[ $* == *--legacy* ]]
+then
+        LEGACYFLAG="-V1.2.py"
+else
+        LEGACYFLAG=".py"
+fi
+
+
+
 echo "Extracting documents..."
-zstdcat $TEXTFILE | python3.10 /work/scripts/readdocuments.py - $TEXTFILE.tsv /dev/null  $L2
+zstdcat $TEXTFILE | python3.10 /work/scripts/readdocuments$LEGACYFLAG - $TEXTFILE.tsv /dev/null  $L2
 
 echo "Running Hardrules..."
 
