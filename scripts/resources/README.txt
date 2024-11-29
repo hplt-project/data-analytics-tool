@@ -42,7 +42,8 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * stopwords.uz: https://github.com/ilyosrabbimov/uzbek-stop-words/blob/master/uz.txt
 
 
-Self-built: ace, ast, awa, ayr, azb, ba, ban, bem, bho, bjn, bm, bs, cjk, co, crh, dik, dyu, dz, 
+Self-built: ace, ast, awa, ayr, azb, ba, ban, bem, bho, bjn, bm, bs, bug,
+	cjk, co, crh, dik, dyu, dz, 
 	ee, fj, fur, hne, ht,  ilo, kac, kg, ml, mt, 
 	sat, sc, scn, sg, shn, sm, sn, szl, taq, tk, tpi, 
 	tum, tw, tzm, ug, umb, vec, war, wo, xh, ydd
