@@ -64,7 +64,7 @@ TXT_STOPWORDS_LANGS =  ["ace", "als", "as", "ast", "ayr", "awa", "azb", "ba", "b
                         "ha", "hne", "ht", "ig", "ilo", "is", "jv", "ka", "kab", "kac", "kam", "kbp", "kea", "ki", 
                         "kg",  "km", "kmb", "kn", "knc", "ks", "ky", "lb", "lg", "li", "lij", "lmo", "ln", "ltg", "lua", "luo", "lus",
                         "mag", "mai", "me", "mi", "min", "mk", "ml", "mn", "mni", "mos", "mt", "my", "nso", "nus", "ny", "oc",
-                        "pa", "pag", "pap", "pbt", "prs", "ps", "rn", "rw", 
+                        "pa", "pag", "pap", "pbt", "plt", "prs", "ps", "rn", "rw", 
                         "sa", "sat", "sc", "scn", "sd", "sg", "shn", "si", "sm", "sn", "sq", "sr", "ss", "st", "su", "szl",
                         "ta", "taq", "te", "tk", "tn", "tpi", "ts", "tt", "tum", "tw", "tzm", 
                         "ug", "umb", "uz", "uzn", "vec", "war", "wo", "xh", "ydd", "yo"] 
