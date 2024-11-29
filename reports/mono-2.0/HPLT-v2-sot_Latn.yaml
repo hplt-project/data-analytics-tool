@@ -113,8 +113,7 @@ docs_wds: '[[5, 271], [5.1, 249], [5.2, 254], [5.3, 275], [5.4, 268], [5.5, 285]
   [9, 1634], [9.1, 790], [9.2, 823], [9.3, 671], [9.4, 686], [9.5, 645], [9.6, 599],
   [9.7, 379], [9.8, 222], [9.9, 94], [10, 39]]'
 corpus: sot_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 41733, "no_urls": 12604, "no_bad_encoding":
-  26, "pii": 1604}'
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 107624, "no_urls": 13573, "no_bad_encoding": 28, "pii": 1604}'
 sentence_pairs: 1085450
 src_bytes: 163.42 MB
 src_chars: 170450093
