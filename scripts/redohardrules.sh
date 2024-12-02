@@ -27,7 +27,7 @@ zstdcat $TEXTFILE | python3.10 /work/scripts/readdocuments$LEGACYFLAG - $TEXTFIL
 
 echo "Running Hardrules..."
 
-source /work/venvs/venv-bhr/bin/activate
+source /work/venvs/venv-mc/bin/activate
 echo "Running Monocleaner  Hardrules..."
 if [[ $* == *--nocache* ]]
 then
