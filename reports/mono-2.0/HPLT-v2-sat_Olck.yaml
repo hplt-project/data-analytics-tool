@@ -32,8 +32,7 @@ docs_wds: '[[5, 87], [5.1, 81], [5.2, 79], [5.3, 71], [5.4, 105], [5.5, 86], [5.
   36], [7.9, 22], [8, 27], [8.1, 13], [8.2, 17], [8.3, 2], [8.4, 8], [8.5, 7], [8.6,
   4], [8.7, 6], [8.9, 1], [9, 1]]'
 corpus: sat_Olck.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 3251, "no_urls": 774, "no_bad_encoding":
-  0, "pii": 8}'
+hardrules_tags: '{"not_too_long": 340, "not_too_short": 5589, "no_urls": 782, "no_bad_encoding": 0, "pii": 8}'
 sentence_pairs: 45801
 src_bytes: 14.52 MB
 src_chars: 6222595
