@@ -92,7 +92,7 @@ docs_segments: '[[1, 3609], [2, 5044], [3, 7245], [4, 8185], [5, 9233], [6, 9016
   [4894, 2], [7732, 1], [25087, 1]]'
 docs_segments_mean: 23
 docs_segments_median: 15
-docs_timestamp: 1730301637.2771428
+docs_timestamp: 1733257933.405806
 docs_top100_domains: '[["globalvoices.org", 47047], ["globalvoicesonline.org", 18130],
   ["wikipedia.org", 11635], ["wiktionary.org", 10459], ["blaogy.com", 8728], ["katolika.org",
   6851], ["jw.org", 5774], ["mydago.com", 4243], ["serasera.org", 3899], ["tiatanindrazana.com",
@@ -150,8 +150,8 @@ docs_wds: '[[5, 2199], [5.1, 2277], [5.2, 2429], [5.3, 2406], [5.4, 2569], [5.5,
   4231], [8.9, 4095], [9, 3372], [9.1, 3180], [9.2, 2295], [9.3, 1796], [9.4, 1231],
   [9.5, 836], [9.6, 662], [9.7, 539], [9.8, 255], [9.9, 110], [10, 15]]'
 corpus: plt_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 240439, "no_urls": 73518, "no_bad_encoding":
-  575, "pii": 3415}'
+hardrules_tags: '{"not_too_long": 50463, "not_too_short": 530582, "no_urls": 83967,
+  "no_bad_encoding": 575, "pii": 3415}'
 sentence_pairs: 4736104
 src_bytes: 781.36 MB
 src_chars: 805769531
@@ -598,9 +598,18 @@ src_unique_sents: '[[0, 1], [1, 23341], [2, 49272], [3, 69929], [4, 71236], [5, 
   1], [3135, 1], [3139, 1], [3167, 1], [3258, 1], [3871, 1], [4205, 1], [4376, 1],
   [5339, 1], [6453, 1], [8628, 1], [8640, 1], [10111, 1]]'
 srclang: plt
-timestamp: 1730304251.5220988
+timestamp: 1733259628.7449389
 unique_sents: 2307265
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_plt_nostopwords
+src_ngrams: '{"1": [[["amin"], 3513070], [["dia"], 2224112], [["tsy"], 1854019], [["sy"],
+  1635454], [["ireo"], 1598717]], "2": [[["izy ireo"], 226318], [["avy amin"], 201703],
+  [["eo amin"], 165098], [["ihany koa"], 153624], [["dia tsy"], 153264]], "3": [[["izao
+  tontolo izao"], 50675], [["izao fotoana izao"], 37732], [["tsy ampy amin"], 36044],
+  [["zavatra tsy ampy"], 34284], [["hanova ny fango"], 32097]], "4": [[["fanononana
+  tsy ampy amin"], 26228], [["na inona na inona"], 20307], [["tokony homarinana avy
+  amin"], 10479], [["dikanteny tokony homarinana avy"], 10449], [["manerana izao tontolo
+  izao"], 8354]], "5": [[["dikanteny tokony homarinana avy amin"], 10449], [["araka
+  ny tokony ho izy"], 3681], [["koa ve ity lahatsoratra nivoaka"], 3466], [["tadidinao
+  koa ve ity lahatsoratra"], 3465], [["ve ity lahatsoratra nivoaka tato"], 3464]]}'
