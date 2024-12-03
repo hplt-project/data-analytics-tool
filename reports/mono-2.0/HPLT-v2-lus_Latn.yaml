@@ -96,7 +96,7 @@ docs_segments: '[[1, 3005], [2, 4884], [3, 8962], [4, 11457], [5, 12160], [6, 10
   1], [3916, 2], [4244, 1], [5222, 2], [7331, 1], [7332, 1]]'
 docs_segments_mean: 21
 docs_segments_median: 10
-docs_timestamp: 1730792654.0710833
+docs_timestamp: 1733218793.9613998
 docs_top100_domains: '[["misual.com", 19201], ["khampat.com", 7824], ["zomidaily.org",
   6890], ["blogspot.com", 6004], ["zothlifim.com", 3813], ["virthli.in", 3729], ["zonet.in",
   3630], ["mizolyric.com", 3621], ["timesofmizoram.com", 3353], ["exploremizoram.com",
@@ -155,8 +155,8 @@ docs_wds: '[[5, 1095], [5.1, 1083], [5.2, 1101], [5.3, 1009], [5.4, 1209], [5.5,
   3952], [8.9, 4172], [9, 4468], [9.1, 3566], [9.2, 2801], [9.3, 2480], [9.4, 2204],
   [9.5, 1834], [9.6, 1916], [9.7, 1461], [9.8, 912], [9.9, 322], [10, 106]]'
 corpus: lus_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 324061, "no_urls": 28112, "no_bad_encoding":
-  2837, "pii": 3147}'
+hardrules_tags: '{"not_too_long": 55318, "not_too_short": 326990, "no_urls": 39663,
+  "no_bad_encoding": 2837, "pii": 3147}'
 sentence_pairs: 3433373
 src_bytes: 624.09 MB
 src_chars: 648740211
@@ -693,9 +693,18 @@ src_unique_sents: '[[0, 1], [1, 12800], [2, 31310], [3, 55935], [4, 62503], [5, 
   1], [12560, 1], [12987, 1], [13153, 1], [14397, 1], [19237, 1], [19519, 1], [22610,
   1], [26915, 1], [31321, 1]]'
 srclang: lus
-timestamp: 1730795317.5262299
+timestamp: 1733220850.3454802
 unique_sents: 2006554
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_lus_nostopwords
+src_ngrams: '{"1": [[["hi"], 2135292], [["lo"], 1359152], [["leh"], 1319316], [["chu"],
+  1040545], [["i"], 914983]], "2": [[["uh hi"], 102534], [["ding hi"], 71853], [["em
+  em"], 52047], [["te hi"], 50118], [["te chu"], 45190]], "3": [[["thu a sawi"], 31666],
+  [["tiah a chim"], 12026], [["chi hrang hrang"], 10653], [["tiah a ti"], 10297],
+  [["ding uh hi"], 9887]], "4": [[["positive contact atanga hri"], 7227], [["thu a
+  sawi bawk"], 6934], [["contact atanga hri kai"], 6664], [["hri kaina chhui ngai"],
+  6119], [["pakhat nih a chim"], 4716]], "5": [[["positive contact atanga hri kai"],
+  6661], [["bang hang hiam cih leh"], 3068], [["paragraph paragraph paragraph paragraph
+  paragraph"], 2189], [["chu lawmawm a tih thu"], 2113], [["leh hri kaina chhui ngai"],
+  1424]]}'
