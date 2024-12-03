@@ -186,8 +186,7 @@ docs_wds: '[[5, 4500], [5.1, 4255], [5.2, 4336], [5.3, 4380], [5.4, 4853], [5.5,
   10398], [9.4, 10045], [9.5, 9440], [9.6, 9396], [9.7, 7260], [9.8, 4626], [9.9,
   2027], [10, 570]]'
 corpus: kir_Cyrl.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 918563, "no_urls": 77656, "no_bad_encoding":
-  53, "pii": 11330}'
+hardrules_tags: '{"not_too_long": 127886, "not_too_short": 1004538, "no_urls": 80023, "no_bad_encoding": 71, "pii": 11330}'
 sentence_pairs: 10041028
 src_bytes: 3.27 GB
 src_chars: 1916124485
