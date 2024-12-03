@@ -123,8 +123,7 @@ docs_wds: '[[5, 2725], [5.1, 1797], [5.2, 1073], [5.3, 1303], [5.4, 3495], [5.5,
   2709], [8.9, 3042], [9, 3111], [9.1, 4331], [9.2, 2341], [9.3, 1824], [9.4, 1727],
   [9.5, 1797], [9.6, 1712], [9.7, 1606], [9.8, 1486], [9.9, 809], [10, 195]]'
 corpus: asm_Beng.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 140872, "no_urls": 23472, "no_bad_encoding":
-  7, "pii": 1362}'
+hardrules_tags: '{"not_too_long": 43368, "not_too_short": 262707, "no_urls": 24737, "no_bad_encoding": 9,   "pii": 1362}'
 sentence_pairs: 2676868
 src_bytes: 1.15 GB
 src_chars: 473157298
