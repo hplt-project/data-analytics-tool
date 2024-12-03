@@ -14,7 +14,7 @@ docs_segments: '[[1, 6], [2, 10], [3, 21], [4, 25], [5, 19], [6, 12], [7, 22], [
   2], [69, 3], [73, 1], [86, 1], [87, 1], [89, 5], [91, 1], [99, 3], [200, 1]]'
 docs_segments_mean: 22
 docs_segments_median: 18
-docs_timestamp: 1730706821.6903949
+docs_timestamp: 1733222191.2883134
 docs_top100_domains: '[["jw.org", 423], ["zedge.net", 13], ["nudeindianbhabhiclub.com",
   9], ["unicode.org", 9], ["dramasonline.pk", 8], ["reunion.com", 7], ["contafrica.org",
   6], ["ohchr.org", 5], ["redwap.vip", 4], ["watchtower.org", 4], ["sapo.ao", 3],
@@ -40,7 +40,7 @@ docs_wds: '[[5, 10], [5.1, 1], [5.2, 10], [5.3, 3], [5.4, 11], [5.5, 6], [5.6, 1
   [8, 28], [8.1, 21], [8.2, 22], [8.3, 8], [8.4, 16], [8.5, 8], [8.6, 13], [8.7, 5],
   [8.8, 5], [8.9, 13], [9, 13], [9.1, 1], [9.2, 3], [9.4, 3], [9.5, 3]]'
 corpus: kmb_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 752, "no_urls": 82, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 49, "not_too_short": 794, "no_urls": 82, "no_bad_encoding":
   46, "pii": 0}'
 sentence_pairs: 11799
 src_bytes: 2.0 MB
@@ -131,10 +131,17 @@ src_unique_sents: '[[1, 60], [2, 169], [3, 130], [4, 169], [5, 195], [6, 274], [
   1], [333, 1], [352, 1], [354, 1], [420, 1], [502, 1], [504, 1], [509, 1], [518,
   1], [564, 1], [1607, 1], [1654, 1], [1668, 1], [1749, 1]]'
 srclang: kmb
-timestamp: 1730706854.1972919
+timestamp: 1733222214.3500283
 unique_sents: 7671
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_kmb_nostopwords
-
+src_ngrams: '{"1": [[["o"], 22093], [["mu"], 15907], [["ni"], 11946], [["ua"], 9341],
+  [["ia"], 8228]], "2": [[["o bibidia"], 1200], [["lungu ni"], 1016], [["mukonda diahi"],
+  910], [["mu\u00e9ne ua"], 842], [["ia lungu"], 782]], "3": [[["ia lungu ni"], 764],
+  [["utuminu ua nzambi"], 333], [["o bibidia i"], 307], [["longa o bibidia"], 284],
+  [["jimbangi ja jihova"], 266]], "4": [[["o utuminu ua nzambi"], 222], [["kia moring
+  kia moring"], 160], [["moring kia moring kia"], 158], [["ixi ixi ixi ixi"], 151],
+  [["o vondadi ia nzambi"], 147]], "5": [[["moring kia moring kia moring"], 158],
+  [["kia moring kia moring kia"], 158], [["ixi ixi ixi ixi ixi"], 150], [["ihi i longa
+  o bibidia"], 139], [["mutu uoso uoso uala ni"], 90]]}'
