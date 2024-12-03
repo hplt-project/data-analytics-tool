@@ -187,8 +187,7 @@ docs_wds: '[[5, 4989], [5.1, 5540], [5.2, 6069], [5.3, 5716], [5.4, 6650], [5.5,
   [9.2, 22377], [9.3, 19228], [9.4, 16334], [9.5, 15472], [9.6, 16177], [9.7, 14288],
   [9.8, 11392], [9.9, 5916], [10, 1448]]'
 corpus: kan_Knda.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 2187631, "no_urls": 259029,
-  "no_bad_encoding": 3250, "pii": 21107}'
+hardrules_tags: '{"not_too_long": 311176, "not_too_short": 3451726, "no_urls": 274077, "no_bad_encoding": 3386,   "pii": 21107}'
 sentence_pairs: 24929282
 src_bytes: 10.46 GB
 src_chars: 4274156104
