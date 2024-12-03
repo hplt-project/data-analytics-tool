@@ -2511,3 +2511,4 @@ timestamp: 1718042063.7920206
 unique_sents: 177369871
 warnings:
 - src_warning_tok_nltk_punkt_no
+hardrules_tags: '{"not_too_long": 3326578, "not_too_short": 317485388, "no_urls": 19182290, "no_bad_encoding": 21091}'
