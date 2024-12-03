@@ -232,8 +232,7 @@ docs_wds: '[[5, 16054], [5.1, 15947], [5.2, 16917], [5.3, 16531], [5.4, 18217], 
   34941], [9.2, 30869], [9.3, 27298], [9.4, 24233], [9.5, 21434], [9.6, 19191], [9.7,
   12926], [9.8, 7506], [9.9, 2758], [10, 707]]'
 corpus: eus_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 2787611, "no_urls": 685667,
-  "no_bad_encoding": 6071, "pii": 303743}'
+hardrules_tags: '{"not_too_long": 268561, "not_too_short": 5800288, "no_urls": 761926, "no_bad_encoding": 6075, "pii": 303743}'
 sentence_pairs: 37621611
 src_bytes: 5.63 GB
 src_chars: 6016518017
