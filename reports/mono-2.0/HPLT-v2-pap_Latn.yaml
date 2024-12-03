@@ -68,7 +68,7 @@ docs_segments: '[[1, 3350], [2, 4910], [3, 6416], [4, 7125], [5, 7461], [6, 6818
   4], [3569, 1], [3832, 1], [4073, 1], [4305, 1]]'
 docs_segments_mean: 15
 docs_segments_median: 8
-docs_timestamp: 1730912527.1527727
+docs_timestamp: 1733263839.0973165
 docs_top100_domains: '[["diario.aw", 4762], ["kikotapasando.com", 4257], ["wikipedia.org",
   4190], ["masnoticia.com", 4187], ["arubanative.com", 3827], ["live99fm.com", 3367],
   ["awe24.com", 3308], ["noticiacla.com", 2644], ["awemainta.com", 2163], ["1noticia.com",
@@ -126,8 +126,8 @@ docs_wds: '[[5, 531], [5.1, 472], [5.2, 460], [5.3, 451], [5.4, 579], [5.5, 574]
   [8.9, 2130], [9, 2375], [9.1, 2577], [9.2, 1623], [9.3, 1288], [9.4, 970], [9.5,
   826], [9.6, 744], [9.7, 504], [9.8, 363], [9.9, 104], [10, 30]]'
 corpus: pap_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 146485, "no_urls": 28642, "no_bad_encoding":
-  60, "pii": 6911}'
+hardrules_tags: '{"not_too_long": 16663, "not_too_short": 146763, "no_urls": 28713,
+  "no_bad_encoding": 76, "pii": 6911}'
 sentence_pairs: 1387382
 src_bytes: 244.39 MB
 src_chars: 252796043
@@ -444,9 +444,18 @@ src_unique_sents: '[[0, 1], [1, 9193], [2, 17014], [3, 23080], [4, 23988], [5, 2
   1], [3851, 1], [4978, 1], [5099, 1], [5653, 1], [5916, 1], [7940, 1], [8485, 1],
   [26085, 1]]'
 srclang: pap
-timestamp: 1730913565.7719011
+timestamp: 1733264565.9644954
 unique_sents: 814803
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_pap_nostopwords
+src_ngrams: '{"1": [[["pa"], 1117468], [["na"], 749639], [["y"], 733878], [["i"],
+  474986], [["nan"], 381363]], "2": [[["na aruba"], 35903], [["pa asina"], 23408],
+  [["pa nan"], 21416], [["su mes"], 19814], [["tur hende"], 16545]], "3": [[["na e
+  sitio"], 7627], [["el a bisa"], 6354], [["gobierno di aruba"], 5318], [["loke ta
+  trata"], 5225], [["na un manera"], 4495]], "4": [[["pa loke ta trata"], 5009], [["prueba
+  prueba prueba prueba"], 2697], [["na e momentonan aki"], 2015], [["prome minister
+  evelyn wever"], 2009], [["yegada di e patruya"], 1518]], "5": [[["prueba prueba
+  prueba prueba prueba"], 2559], [["na yegada di e patruya"], 1509], [["camara di
+  comercio y industria"], 1227], [["impuesto di vehiculo di motor"], 944], [["comercio
+  y industria di aruba"], 881]]}'
