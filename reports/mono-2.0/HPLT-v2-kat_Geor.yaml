@@ -267,8 +267,7 @@ docs_wds: '[[5, 23587], [5.1, 23357], [5.2, 24777], [5.3, 25085], [5.4, 37630], 
   [9.1, 92762], [9.2, 65347], [9.3, 57133], [9.4, 51989], [9.5, 47319], [9.6, 45663],
   [9.7, 38364], [9.8, 27530], [9.9, 12611], [10, 3204]]'
 corpus: kat_Geor.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 7254103, "no_urls": 774895,
-  "no_bad_encoding": 745, "pii": 126200}'
+hardrules_tags: '{"not_too_long": 596631, "not_too_short": 9847460, "no_urls": 780123, "no_bad_encoding": 1205, "pii": 126200}'
 sentence_pairs: 63722098
 src_bytes: 24.7 GB
 src_chars: 10095225458
