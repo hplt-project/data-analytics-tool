@@ -275,8 +275,7 @@ docs_wds: '[[5, 26734], [5.1, 25489], [5.2, 25125], [5.3, 24707], [5.4, 26036], 
   37503], [9.2, 23081], [9.3, 20120], [9.4, 18510], [9.5, 17452], [9.6, 18038], [9.7,
   13426], [9.8, 9010], [9.9, 4446], [10, 1727]]'
 corpus: tgl_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 4359927, "no_urls": 981945,
-  "no_bad_encoding": 14455, "pii": 62221}'
+hardrules_tags: '{"not_too_long": 416105, "not_too_short": 6207900, "no_urls": 1053413, "no_bad_encoding": 15626,  "pii": 62221}'
 sentence_pairs: 52879871
 src_bytes: 7.57 GB
 src_chars: 8079611643
