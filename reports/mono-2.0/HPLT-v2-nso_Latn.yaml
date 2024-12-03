@@ -28,7 +28,7 @@ docs_segments: '[[1, 31], [2, 52], [3, 111], [4, 338], [5, 144], [6, 254], [7, 2
   [507, 1], [531, 1], [599, 1], [985, 2], [1024, 1]]'
 docs_segments_mean: 24
 docs_segments_median: 16
-docs_timestamp: 1730371597.5899036
+docs_timestamp: 1733260315.0346615
 docs_top100_domains: '[["jw.org", 3952], ["biblesa.co.za", 494], ["wikipedia.org",
   315], ["southafrica.co.za", 258], ["oxforddictionaries.com", 116], ["nalibali.org",
   97], ["sars.gov.za", 63], ["indabukoyakho.com", 34], ["fundza.mobi", 30], ["hockeygods.com",
@@ -73,8 +73,8 @@ docs_wds: '[[5, 38], [5.1, 48], [5.2, 26], [5.3, 31], [5.4, 38], [5.5, 27], [5.6
   160], [9.3, 132], [9.4, 154], [9.5, 145], [9.6, 124], [9.7, 87], [9.8, 32], [9.9,
   10], [10, 2]]'
 corpus: nso_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 5245, "no_urls": 737, "no_bad_encoding":
-  5, "pii": 46}'
+hardrules_tags: '{"not_too_long": 1569, "not_too_short": 12336, "no_urls": 841, "no_bad_encoding":
+  11, "pii": 46}'
 sentence_pairs: 143306
 src_bytes: 26.86 MB
 src_chars: 27357543
@@ -273,9 +273,17 @@ src_unique_sents: '[[1, 1227], [2, 1163], [3, 2126], [4, 2254], [5, 3297], [6, 3
   1], [1920, 1], [2011, 1], [2014, 1], [2021, 1], [3520, 1], [11837, 1], [12871, 1],
   [24992, 1]]'
 srclang: nso
-timestamp: 1730371729.7947636
+timestamp: 1733260414.9601638
 unique_sents: 85222
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_nso_nostopwords
+src_ngrams: '{"1": [[["ya"], 124023], [["re"], 69684], [["wa"], 64276], [["t\u0161a"],
+  55880], [["ge"], 55289]], "2": [[["baka la"], 7434], [["yo mongwe"], 6799], [["wa
+  gagwe"], 5292], [["t\u0161e dingwe"], 5088], [["ya gagwe"], 4606]], "3": [[["dihlatse
+  t\u0161a jehofa"], 3798], [["beibele e re"], 1765], [["mongwe le yo"], 1660], [["yo
+  mongwe wa"], 1618], [["bao ba bego"], 1577]], "4": [[["lega go le bjalo"], 3706],
+  [["ge e le gabotse"], 1772], [["mongwe le yo mongwe"], 1659], [["yo mongwe le yo"],
+  1650], [["sengwe le se sengwe"], 772]], "5": [[["yo mongwe le yo mongwe"], 1649],
+  [["die go die go die"], 880], [["ithute ka mo go oket\u0161egilego"], 825], [["phetolelo
+  ya lefase le lefsa"], 591], [["bophelo bjo bo sa felego"], 554]]}'
