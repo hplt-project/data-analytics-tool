@@ -222,8 +222,7 @@ docs_wds: '[[5, 10781], [5.1, 11144], [5.2, 11959], [5.3, 12263], [5.4, 13614], 
   152100], [9.2, 87188], [9.3, 59346], [9.4, 44098], [9.5, 37497], [9.6, 35116], [9.7,
   30866], [9.8, 26962], [9.9, 15872], [10, 4158]]'
 corpus: tel_Telu.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 2964580, "no_urls": 327980,
-  "no_bad_encoding": 565, "pii": 26373}'
+hardrules_tags: '{"not_too_long": 495433, "not_too_short": 5685371, "no_urls": 368973, "no_bad_encoding": 673, "pii": 26373}'
 sentence_pairs: 39190209
 src_bytes: 15.69 GB
 src_chars: 6468174327
