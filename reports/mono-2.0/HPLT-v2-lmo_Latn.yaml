@@ -68,7 +68,7 @@ docs_segments: '[[1, 983], [2, 5195], [3, 12577], [4, 14922], [5, 13553], [6, 13
   [2746, 1], [3122, 1]]'
 docs_segments_mean: 15
 docs_segments_median: 8
-docs_timestamp: 1730821715.8068833
+docs_timestamp: 1733312188.543469
 docs_top100_domains: '[["wikipedia.org", 62264], ["rtr.ch", 53176], ["gr.ch", 1950],
   ["uslaval.it", 1366], ["provinzia.bz.it", 940], ["admin.ch", 714], ["wikisource.org",
   702], ["noeles.info", 612], ["playsuisse.ch", 607], ["blogspot.com", 603], ["srgssr.ch",
@@ -124,8 +124,8 @@ docs_wds: '[[5, 2008], [5.1, 2151], [5.2, 2320], [5.3, 2518], [5.4, 2732], [5.5,
   992], [8.9, 738], [9, 568], [9.1, 666], [9.2, 426], [9.3, 274], [9.4, 182], [9.5,
   120], [9.6, 110], [9.7, 44], [9.8, 38], [9.9, 12], [10, 3]]'
 corpus: lmo_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 116818, "no_urls": 20553, "no_bad_encoding":
-  473, "pii": 3396}'
+hardrules_tags: '{"not_too_long": 24322, "not_too_short": 248454, "no_urls": 22967,
+  "no_bad_encoding": 534, "pii": 3396}'
 sentence_pairs: 2124663
 src_bytes: 340.5 MB
 src_chars: 343386720
@@ -511,8 +511,19 @@ src_unique_sents: '[[0, 1], [1, 14247], [2, 23034], [3, 27278], [4, 31073], [5, 
   1], [5532, 1], [5837, 1], [6305, 1], [6867, 1], [7722, 1], [9013, 1], [9087, 1],
   [9945, 1], [19190, 1]]'
 srclang: lmo
-timestamp: 1730822994.2844265
+timestamp: 1733313234.3312685
 unique_sents: 841958
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_ngrams_lmo_nostopwords
+src_ngrams: '{"1": [[["l"], 1801976], [["il"], 760646], [["i"], 626798], [["en"],
+  576121], [["d"], 456446]], "2": [[["en il"], 94573], [["l sorg\u00e8nt"], 72932],
+  [["en l"], 47163], [["il code"], 34275], [["modifitgar il"], 34059]], "3": [[["modifitgar
+  il code"], 34058], [["cunt cunt cunt"], 14905], [["\u0153 \u0153 \u0153"], 11732],
+  [["s\u00f6 la popolasi\u00f9"], 8297], [["stat\u00ecstiche demogr\u00e0fiche istat"],
+  8297]], "4": [[["cunt cunt cunt cunt"], 14597], [["\u0153 \u0153 \u0153 \u0153"],
+  9328], [["stat\u00ecstiche s\u00f6 la popolasi\u00f9"], 8297], [["popolasi\u00f9
+  del istit\u00f9to nasiun\u00e0l"], 8297], [["nasiun\u00e0l de stat\u00ecstica relat\u00ecve"],
+  8297]], "5": [[["cunt cunt cunt cunt cunt"], 14369], [["s\u00f6 la popolasi\u00f9
+  del istit\u00f9to"], 8297], [["istit\u00f9to nasiun\u00e0l de stat\u00ecstica relat\u00ecve"],
+  8297], [["\u0153 \u0153 \u0153 \u0153 \u0153"], 7431], [["tuca tuca tuca tuca tuca"],
+  5392]]}'
