@@ -163,8 +163,7 @@ docs_wds: '[[5, 2319], [5.1, 2370], [5.2, 2086], [5.3, 2143], [5.4, 2469], [5.5,
   [9.4, 4158], [9.5, 3962], [9.6, 4356], [9.7, 3947], [9.8, 3071], [9.9, 1530], [10,
   413]]'
 corpus: kmr_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 384858, "no_urls": 51123, "no_bad_encoding":
-  706, "pii": 10018}'
+hardrules_tags: '{"not_too_long": 67904, "not_too_short": 834883, "no_urls": 66356, "no_bad_encoding": 884, "pii": 10018}'
 sentence_pairs: 7147414
 src_bytes: 1.15 GB
 src_chars: 1116200141
