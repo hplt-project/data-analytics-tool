@@ -50,7 +50,7 @@ docs_segments: '[[1, 808], [2, 957], [3, 1364], [4, 950], [5, 1160], [6, 816], [
   1], [2092, 1], [2353, 1], [2437, 1], [2568, 1], [3031, 2]]'
 docs_segments_mean: 24
 docs_segments_median: 12
-docs_timestamp: 1730363271.2987063
+docs_timestamp: 1733314372.1487
 docs_top100_domains: '[["wikipedia.org", 4820], ["petalokasi.org", 2874], ["wordpress.com",
   1475], ["blogspot.com", 1282], ["bible.is", 639], ["textmap.asia", 631], ["kodeposindo.xyz",
   613], ["adatnusantara.web.id", 423], ["chordtela.com", 273], ["uin-suska.ac.id",
@@ -106,8 +106,8 @@ docs_wds: '[[5, 1351], [5.1, 1260], [5.2, 1310], [5.3, 1026], [5.4, 1190], [5.5,
   [9.1, 183], [9.2, 56], [9.3, 41], [9.4, 23], [9.5, 36], [9.6, 16], [9.7, 4], [9.8,
   4], [9.9, 6], [10, 7]]'
 corpus: min_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 40786, "no_urls": 12748, "no_bad_encoding":
-  50, "pii": 714}'
+hardrules_tags: '{"not_too_long": 7360, "not_too_short": 74265, "no_urls": 13987,
+  "no_bad_encoding": 91, "pii": 714}'
 sentence_pairs: 600798
 src_bytes: 71.07 MB
 src_chars: 74198336
@@ -454,8 +454,18 @@ src_unique_sents: '[[0, 1], [1, 3364], [2, 10417], [3, 15177], [4, 17341], [5, 1
   [4165, 1], [4561, 1], [5458, 1], [7212, 1], [7364, 1], [8451, 1], [8740, 1], [9249,
   1], [11624, 1], [12342, 1], [18823, 1], [27134, 1]]'
 srclang: min
-timestamp: 1730363498.0675166
+timestamp: 1733314590.039658
 unique_sents: 302936
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_ngrams_min_nostopwords
+src_ngrams: '{"1": [[["nan"], 201712], [["di"], 169108], [["indonesia"], 113575],
+  [["jo"], 103084], [["ka"], 72589]], "2": [[["lagu daerah"], 44250], [["sumatera
+  barat"], 18121], [["program studi"], 16322], [["suntiang sumber"], 13322], [["urang
+  nan"], 12965]], "3": [[["kode pos kelurahan"], 5428], [["universitas islam negeri"],
+  5387], [["nomor kode pos"], 5379], [["informasi kode pos"], 5367], [["dj lagu daerah"],
+  4230]], "4": [[["informasi kode pos kelurahan"], 5367], [["hotel taj mansingh delhi"],
+  2920], [["provinsi sumatera utara nomor"], 2909], [["utara nomor kode pos"], 2891],
+  [["sumatera utara nomor kode"], 2891]], "5": [[["sumatera utara nomor kode pos"],
+  2891], [["provinsi sumatera utara nomor kode"], 2891], [["universitas islam negeri
+  sultan syarif"], 2041], [["islam negeri sultan syarif kasim"], 2035], [["negeri
+  sultan syarif kasim riau"], 1919]]}'
