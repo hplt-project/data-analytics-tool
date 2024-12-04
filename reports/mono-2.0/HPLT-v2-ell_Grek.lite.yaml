@@ -597,8 +597,7 @@ docs_wds: '[[5, 444804], [5.1, 430684], [5.2, 461426], [5.3, 460181], [5.4, 5391
   [9.3, 948272], [9.4, 863733], [9.5, 819197], [9.6, 874360], [9.7, 718050], [9.8,
   533026], [9.9, 249010], [10, 72202]]'
 corpus: HPLT-v2-ell_Grek.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 106349919, "no_urls": 33992427,
-  "no_bad_encoding": 133810, "pii": 14149555}'
+hardrules_tags: '{"not_too_long": 19654364, "not_too_short": 258617200, "no_urls": 35196421, "no_bad_encoding": 169281, "pii": 14149555}'
 sentence_pairs: 1849478014
 src_bytes: 468.4 GB
 src_chars: 281755294923
