@@ -206,8 +206,7 @@ docs_wds: '[[5, 16655], [5.1, 17077], [5.2, 18229], [5.3, 18116], [5.4, 20983], 
   [9.1, 46307], [9.2, 36246], [9.3, 28915], [9.4, 25490], [9.5, 22934], [9.6, 21537],
   [9.7, 16354], [9.8, 11172], [9.9, 5195], [10, 1379]]'
 corpus: mkd_Cyrl.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 6690029, "no_urls": 600627,
-  "no_bad_encoding": 746, "pii": 131358}'
+hardrules_tags: '{"not_too_long": 535570, "not_too_short": 6958258, "no_urls": 677074, "no_bad_encoding": 817, "pii": 131358}'
 sentence_pairs: 57008331
 src_bytes: 15.64 GB
 src_chars: 9386182083
