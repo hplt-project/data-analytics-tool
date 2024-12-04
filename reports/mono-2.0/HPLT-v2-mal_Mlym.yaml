@@ -233,8 +233,7 @@ docs_wds: '[[5, 15322], [5.1, 15393], [5.2, 16582], [5.3, 16362], [5.4, 17601], 
   [9.1, 126375], [9.2, 88803], [9.3, 68632], [9.4, 56111], [9.5, 50406], [9.6, 54339],
   [9.7, 52433], [9.8, 48566], [9.9, 31180], [10, 9031]]'
 corpus: mal_Mlym.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 3115177, "no_urls": 330693,
-  "no_bad_encoding": 1082, "pii": 57343}'
+hardrules_tags: '{"not_too_long": 743399, "not_too_short": 6499399, "no_urls": 405152, "no_bad_encoding": 1097,  "pii": 57343}'
 sentence_pairs: 48003517
 src_bytes: 23.7 GB
 src_chars: 9443613087
