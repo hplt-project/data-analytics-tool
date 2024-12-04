@@ -21,7 +21,7 @@ docs_segments: '[[1, 38], [2, 28], [3, 92], [4, 105], [5, 102], [6, 105], [7, 13
   [870, 2]]'
 docs_segments_mean: 22
 docs_segments_median: 11
-docs_timestamp: 1730721403.678021
+docs_timestamp: 1733347049.8340447
 docs_top100_domains: '[["dypk-portal.com", 549], ["jw.org", 292], ["dexamsabi.com",
   240], ["blogspot.com", 196], ["deltacultura.org", 89], ["blogspot.pt", 37], ["santiagomagazine.cv",
   26], ["blogspot.jp", 20], ["kriolita.com", 19], ["letras.mus.br", 18], ["sullivaninjurylaw.com",
@@ -63,8 +63,8 @@ docs_wds: '[[5, 53], [5.1, 41], [5.2, 38], [5.3, 47], [5.4, 42], [5.5, 53], [5.6
   19], [8.7, 15], [8.8, 15], [8.9, 14], [9, 14], [9.1, 20], [9.2, 3], [9.3, 5], [9.4,
   1], [9.6, 6], [9.7, 2], [9.9, 3]]'
 corpus: kea_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 2152, "no_urls": 602, "no_bad_encoding":
-  100, "pii": 377}'
+hardrules_tags: '{"not_too_long": 362, "not_too_short": 4390, "no_urls": 662, "no_bad_encoding":
+  102, "pii": 377}'
 sentence_pairs: 43911
 src_bytes: 5.96 MB
 src_chars: 6102519
@@ -184,9 +184,19 @@ src_unique_sents: '[[0, 1], [1, 308], [2, 784], [3, 842], [4, 1054], [5, 1358], 
   1], [585, 1], [592, 1], [626, 1], [657, 1], [698, 1], [703, 1], [762, 1], [790,
   1], [845, 1], [849, 1], [860, 1], [956, 1], [1254, 1], [1266, 1], [5527, 1]]'
 srclang: kea
-timestamp: 1730721450.8437152
+timestamp: 1733347084.4723048
 unique_sents: 26764
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_kea_nostopwords
+src_ngrams: '{"1": [[["ki"], 29149], [["pa"], 22796], [["ku"], 17418], [["ka"], 12613],
+  [["un"], 11721]], "2": [[["vicet\u00f3ria vicet\u00f3ria"], 5526], [["cabo verde"],
+  1369], [["ki sta"], 1289], [["ki nu"], 1250], [["fla ma"], 1152]], "3": [[["vicet\u00f3ria
+  vicet\u00f3ria vicet\u00f3ria"], 5525], [["deus \u00e9 fiel"], 499], [["lucas lucas
+  lucas"], 383], [["ke ku manda"], 200], [["un di kes"], 196]], "4": [[["vicet\u00f3ria
+  vicet\u00f3ria vicet\u00f3ria vicet\u00f3ria"], 5524], [["deus \u00e9 fiel deus"],
+  496], [["fiel deus \u00e9 fiel"], 494], [["lucas lucas lucas lucas"], 365], [["fika
+  fika fika fika"], 101]], "5": [[["vicet\u00f3ria vicet\u00f3ria vicet\u00f3ria vicet\u00f3ria
+  vicet\u00f3ria"], 5523], [["fiel deus \u00e9 fiel deus"], 492], [["lucas lucas lucas
+  lucas lucas"], 347], [["fika fika fika fika fika"], 100], [["vida ku ka ta kaba"],
+  57]]}'
