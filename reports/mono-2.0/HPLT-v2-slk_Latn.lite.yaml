@@ -392,8 +392,7 @@ docs_wds: '[[5, 235311], [5.1, 237331], [5.2, 244569], [5.3, 246927], [5.4, 2646
   [9.4, 215202], [9.5, 183385], [9.6, 155222], [9.7, 114297], [9.8, 72959], [9.9,
   26063], [10, 6001]]'
 corpus: HPLT-v2-slk_Latn.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 37112614, "no_urls": 12098711,
-  "no_bad_encoding": 23487, "pii": 3411118}'
+hardrules_tags: '{"not_too_long": 3598753, "not_too_short": 73978742, "no_urls": 12123422, "no_bad_encoding": 23499, "pii": 3411118}'
 sentence_pairs: 494276634
 src_bytes: 70.65 GB
 src_chars: 69899657544
