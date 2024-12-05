@@ -149,8 +149,7 @@ docs_wds: '[[5, 4275], [5.1, 3586], [5.2, 3400], [5.3, 3250], [5.4, 3844], [5.5,
   3694], [8.9, 3731], [9, 4589], [9.1, 4338], [9.2, 3680], [9.3, 3391], [9.4, 3257],
   [9.5, 3112], [9.6, 3282], [9.7, 3270], [9.8, 3015], [9.9, 1709], [10, 457]]'
 corpus: ckb_Arab.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 259691, "no_urls": 15384, "no_bad_encoding":
-  0, "pii": 6829}'
+hardrules_tags: '{"not_too_long": 84473, "not_too_short": 607746, "no_urls": 29205, "no_bad_encoding": 1,   "pii": 6829}'
 sentence_pairs: 5225884
 src_bytes: 1.55 GB
 src_chars: 907857638
