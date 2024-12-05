@@ -212,8 +212,7 @@ docs_wds: '[[5, 8113], [5.1, 7835], [5.2, 7101], [5.3, 7147], [5.4, 10545], [5.5
   [9.2, 27950], [9.3, 25805], [9.4, 25554], [9.5, 27454], [9.6, 34009], [9.7, 33232],
   [9.8, 29012], [9.9, 15328], [10, 3749]]'
 corpus: sin_Sinh.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 3672249, "no_urls": 344176,
-  "no_bad_encoding": 71, "pii": 29408}'
+hardrules_tags: '{"not_too_long": 244055, "not_too_short": 3759692, "no_urls": 356789, "no_bad_encoding": 83 , "pii": 29408}'
 sentence_pairs: 33707009
 src_bytes: 11.71 GB
 src_chars: 4948668861
