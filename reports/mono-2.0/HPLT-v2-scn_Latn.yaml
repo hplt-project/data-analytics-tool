@@ -127,8 +127,7 @@ docs_wds: '[[5, 1938], [5.1, 1836], [5.2, 1797], [5.3, 1655], [5.4, 1785], [5.5,
   837], [8.9, 873], [9, 730], [9.1, 690], [9.2, 517], [9.3, 384], [9.4, 369], [9.5,
   234], [9.6, 158], [9.7, 94], [9.8, 43], [9.9, 36], [10, 1]]'
 corpus: scn_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 170287, "no_urls": 12254, "no_bad_encoding":
-  1204, "pii": 1219}'
+hardrules_tags: '{"not_too_long": 17522, "not_too_short": 190891, "no_urls": 14206, "no_bad_encoding": 1226,   "pii": 1219}'
 sentence_pairs: 1650375
 src_bytes: 246.97 MB
 src_chars: 250748924
