@@ -34,8 +34,7 @@ docs_wds: '[[5, 6], [5.1, 6], [5.2, 3], [5.3, 7], [5.4, 10], [5.5, 10], [5.6, 10
   94], [8, 115], [8.1, 107], [8.2, 78], [8.3, 93], [8.4, 40], [8.5, 38], [8.6, 31],
   [8.7, 15], [8.8, 8], [8.9, 6], [9, 10], [9.2, 1], [9.3, 1]]'
 corpus: dyu_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 1816, "no_urls": 11, "no_bad_encoding":
-  0, "pii": 0}'
+hardrules_tags: '{"not_too_long": 941, "not_too_short": 1850, "no_urls": 11, "no_bad_encoding": 0,   "pii": 0}'
 sentence_pairs: 24558
 src_bytes: 5.7 MB
 src_chars: 5529102

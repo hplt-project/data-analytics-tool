@@ -25,7 +25,7 @@ docs_segments: '[[1, 2019], [2, 114], [3, 1365], [4, 190], [5, 252], [6, 216], [
   [438, 1], [452, 1], [521, 1], [541, 1], [571, 1], [578, 1], [753, 1]]'
 docs_segments_mean: 12
 docs_segments_median: 3
-docs_timestamp: 1730376340.5040548
+docs_timestamp: 1733255844.1309233
 docs_top100_domains: '[["bible.is", 3012], ["jw.org", 1886], ["wikipedia.org", 424],
   ["bomboradyo.com", 338], ["blogspot.jp", 137], ["ebible.org", 120], ["blogspot.com",
   84], ["wordpress.com", 76], ["online.pk", 60], ["tuugo.ph", 50], ["alkhutbah.com",
@@ -72,7 +72,7 @@ docs_wds: '[[5, 58], [5.1, 106], [5.2, 66], [5.3, 54], [5.4, 39], [5.5, 50], [5.
   [8.6, 560], [8.7, 356], [8.8, 311], [8.9, 468], [9, 408], [9.1, 817], [9.2, 72],
   [9.3, 53], [9.4, 48], [9.5, 38], [9.6, 28], [9.7, 18], [9.8, 4], [9.9, 1]]'
 corpus: pag_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 6468, "no_urls": 333, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 4664, "not_too_short": 10520, "no_urls": 372, "no_bad_encoding":
   0, "pii": 27}'
 sentence_pairs: 85832
 src_bytes: 32.28 MB
@@ -484,9 +484,17 @@ src_unique_sents: '[[1, 556], [2, 1795], [3, 1387], [4, 1555], [5, 1785], [6, 21
   [2337, 1], [2377, 1], [2385, 1], [2398, 1], [2402, 1], [2410, 1], [2470, 1], [2504,
   1], [2544, 1], [2577, 1], [2648, 1], [2819, 1], [4022, 1]]'
 srclang: pag
-timestamp: 1730376471.8113897
+timestamp: 1733255949.0198917
 unique_sents: 56530
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_pag_nostopwords
+src_ngrams: '{"1": [[["ya"], 239660], [["ed"], 104934], [["so"], 101201], [["tan"],
+  68452], [["et"], 56673]], "2": [[["ed saray"], 10221], [["nen jehova"], 7788], [["nen
+  jesus"], 7469], [["nin diyos"], 6636], [["apu dios"], 5687]], "3": [[["y afu dios"],
+  3211], [["iran iran iran"], 2102], [["ed si jehova"], 2040], [["hi apo hisos"],
+  1762], [["ibabaga na biblia"], 1208]], "4": [[["iran iran iran iran"], 2094], [["saray
+  tasi nen jehova"], 668], [["ya innia laman nga"], 566], [["manga oripn o all\u0101h"],
+  530], [["y afu dios nga"], 504]], "5": [[["iran iran iran iran iran"], 2086], [["so
+  so so so so"], 399], [["pinili ni apo namalyari h\u00ean"], 286], [["m\u00e1noron
+  kautuhan ni apo moises"], 196], [["ya panakallan ira kan ya"], 185]]}'

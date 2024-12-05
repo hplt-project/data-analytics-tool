@@ -79,8 +79,7 @@ docs_wds: '[[5, 183], [5.1, 147], [5.2, 173], [5.3, 168], [5.4, 175], [5.5, 153]
   [9.1, 80], [9.2, 16], [9.3, 34], [9.4, 11], [9.5, 3], [9.6, 8], [9.7, 10], [9.8,
   1], [9.9, 1]]'
 corpus: lij_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 10361, "no_urls": 3112, "no_bad_encoding":
-  6155, "pii": 108}'
+hardrules_tags: '{"not_too_long": 5122, "not_too_short": 18244, "no_urls": 3463, "no_bad_encoding": 6289,   "pii": 108}'
 sentence_pairs: 157715
 src_bytes: 33.67 MB
 src_chars: 31311759

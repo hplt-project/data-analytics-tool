@@ -239,8 +239,7 @@ docs_wds: '[[5, 8388], [5.1, 8362], [5.2, 8884], [5.3, 9033], [5.4, 9365], [5.5,
   [9.2, 14275], [9.3, 11925], [9.4, 10178], [9.5, 8895], [9.6, 8609], [9.7, 7213],
   [9.8, 5077], [9.9, 2303], [10, 565]]'
 corpus: epo_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 2195637, "no_urls": 294138,
-  "no_bad_encoding": 3202, "pii": 28181}'
+hardrules_tags: '{"not_too_long": 169258, "not_too_short": 2537818, "no_urls": 299938, "no_bad_encoding": 3288,  "pii": 28181}'
 sentence_pairs: 20353314
 src_bytes: 2.81 GB
 src_chars: 2956534128

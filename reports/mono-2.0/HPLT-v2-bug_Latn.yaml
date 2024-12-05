@@ -20,7 +20,7 @@ docs_segments: '[[1, 438], [2, 58], [3, 316], [4, 99], [5, 52], [6, 40], [7, 65]
   3], [350, 1], [371, 1], [389, 1], [430, 1], [521, 5]]'
 docs_segments_mean: 19
 docs_segments_median: 7
-docs_timestamp: 1730375003.0228086
+docs_timestamp: 1733222461.749232
 docs_top100_domains: '[["bible.is", 657], ["alkitab.mobi", 357], ["blogspot.com",
   111], ["wikipedia.org", 77], ["teluguserialonline.com", 58], ["petalokasi.org",
   52], ["alkitab.pw", 49], ["wordpress.com", 25], ["scribd.com", 23], ["blogspot.co.id",
@@ -66,7 +66,7 @@ docs_wds: '[[5, 73], [5.1, 57], [5.2, 44], [5.3, 41], [5.4, 30], [5.5, 34], [5.6
   18], [8.7, 6], [8.8, 2], [8.9, 3], [9, 5], [9.1, 13], [9.3, 1], [9.4, 3], [9.5,
   1], [9.7, 1], [9.8, 2], [9.9, 7]]'
 corpus: bug_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 3211, "no_urls": 230, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 3355, "not_too_short": 5170, "no_urls": 392, "no_bad_encoding":
   0, "pii": 6}'
 sentence_pairs: 38551
 src_bytes: 18.7 MB
@@ -459,9 +459,19 @@ src_unique_sents: '[[1, 259], [2, 906], [3, 874], [4, 590], [5, 823], [6, 1139],
   1], [2443, 1], [2466, 1], [2479, 1], [2503, 1], [2514, 1], [3867, 1], [4885, 1],
   [6492, 1], [9724, 1], [10596, 1], [12089, 1], [12533, 1]]'
 srclang: bug
-timestamp: 1730375072.429534
+timestamp: 1733222518.1905096
 unique_sents: 24329
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_bug_nostopwords
+src_ngrams: '{"1": [[["i"], 40616], [["anna"], 22670], [["lako"], 16997], [["allataala"],
+  15988], [["yesus"], 15721]], "2": [[["masser masser"], 5719], [["i yesus"], 5497],
+  [["nu alatala"], 4350], [["kodala kodala"], 1850], [["kodala koduku"], 1828]], "3":
+  [[["masser masser masser"], 5718], [["kodala kodala koduku"], 1820], [["kodala koduku
+  pellama"], 1719], [["wedding wedding wedding"], 1524], [["sampe ri kasae"], 648]],
+  "4": [[["masser masser masser masser"], 5717], [["kodala kodala koduku pellama"],
+  1711], [["wedding wedding wedding wedding"], 1518], [["episode kodala kodala koduku"],
+  475], [["nosa gasa nu alatala"], 263]], "5": [[["masser masser masser masser masser"],
+  5716], [["wedding wedding wedding wedding wedding"], 1512], [["episode kodala kodala
+  koduku pellama"], 475], [["kodala kodala koduku pellama episode"], 261], [["lomba
+  guru memperingati hut pgri"], 240]]}'

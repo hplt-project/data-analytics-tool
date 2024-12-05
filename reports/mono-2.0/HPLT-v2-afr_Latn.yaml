@@ -241,8 +241,7 @@ docs_wds: '[[5, 15054], [5.1, 15692], [5.2, 15052], [5.3, 14509], [5.4, 14007], 
   44370], [9.2, 30484], [9.3, 27015], [9.4, 26119], [9.5, 26581], [9.6, 27331], [9.7,
   21842], [9.8, 15039], [9.9, 6654], [10, 1374]]'
 corpus: afr_Latn.json.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 2193310, "no_urls": 504198,
-  "no_bad_encoding": 1464, "pii": 89358}'
+hardrules_tags: '{"not_too_long": 383379, "not_too_short": 4930782, "no_urls": 593233, "no_bad_encoding": 2020,   "pii": 89358}'
 sentence_pairs: 37737319
 src_bytes: 5.56 GB
 src_chars: 5910906748

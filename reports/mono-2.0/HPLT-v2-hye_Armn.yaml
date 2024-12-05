@@ -292,8 +292,7 @@ docs_wds: '[[5, 14331], [5.1, 14193], [5.2, 15956], [5.3, 15520], [5.4, 19296], 
   [9.1, 89790], [9.2, 69425], [9.3, 55004], [9.4, 45294], [9.5, 38422], [9.6, 36597],
   [9.7, 28902], [9.8, 22152], [9.9, 10266], [10, 4500]]'
 corpus: hye_Armn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 3578098, "no_urls": 1175529,
-  "no_bad_encoding": 387, "pii": 66731}'
+hardrules_tags: '{"not_too_long": 660810, "not_too_short": 8265895, "no_urls": 1335200, "no_bad_encoding": 1167, "pii": 66731}'
 sentence_pairs: 65242460
 src_bytes: 17.99 GB
 src_chars: 10657868503

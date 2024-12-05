@@ -288,8 +288,7 @@ docs_wds: '[[5, 14362], [5.1, 13982], [5.2, 15342], [5.3, 15620], [5.4, 20017], 
   [9.1, 128808], [9.2, 47069], [9.3, 32598], [9.4, 25480], [9.5, 19787], [9.6, 15591],
   [9.7, 11251], [9.8, 7751], [9.9, 3509], [10, 960]]'
 corpus: urd_Arab.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 2002293, "no_urls": 195104,
-  "no_bad_encoding": 695, "pii": 35772}'
+hardrules_tags: '{"not_too_long": 1159432, "not_too_short": 4266305, "no_urls": 265461, "no_bad_encoding": 936,   "pii": 35772}'
 sentence_pairs: 50629940
 src_bytes: 16.4 GB
 src_chars: 9958862188

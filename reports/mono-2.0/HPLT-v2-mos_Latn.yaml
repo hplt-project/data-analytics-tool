@@ -15,7 +15,7 @@ docs_segments: '[[1, 156], [2, 7], [3, 80], [4, 32], [5, 3], [6, 23], [7, 25], [
   1], [93, 2], [106, 1], [108, 1], [116, 3], [212, 3], [300, 3], [348, 1], [629, 1]]'
 docs_segments_mean: 21
 docs_segments_median: 13
-docs_timestamp: 1731327058.4952252
+docs_timestamp: 1733256790.2113912
 docs_top100_domains: '[["jw.org", 464], ["bible.is", 206], ["raamde-bf.com", 71],
   ["player.fm", 14], ["writework.com", 13], ["kanhgag.org", 12], ["omniglot.com",
   10], ["islamhouse.com", 10], ["gotquestions.org", 9], ["lgw.in", 7], ["catholique.bf",
@@ -45,8 +45,8 @@ docs_wds: '[[5, 19], [5.1, 28], [5.2, 13], [5.3, 9], [5.4, 9], [5.5, 10], [5.6, 
   22], [8, 21], [8.1, 32], [8.2, 22], [8.3, 33], [8.4, 13], [8.5, 15], [8.6, 5], [8.7,
   7], [8.8, 1], [8.9, 3], [9, 5], [9.1, 4], [9.2, 1], [9.4, 1]]'
 corpus: mos_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 727, "no_urls": 38, "no_bad_encoding":
-  1038, "pii": 1}'
+hardrules_tags: '{"not_too_long": 375, "not_too_short": 1512, "no_urls": 38, "no_bad_encoding":
+  1181, "pii": 1}'
 sentence_pairs: 19104
 src_bytes: 4.14 MB
 src_chars: 3845510
@@ -186,9 +186,21 @@ src_unique_sents: '[[1, 89], [2, 225], [3, 218], [4, 289], [5, 334], [6, 368], [
   [1551, 1], [1628, 1], [1634, 1], [1699, 1], [1715, 1], [1933, 1], [1990, 1], [2095,
   1], [2106, 1], [2208, 1], [2233, 1], [6412, 1]]'
 srclang: mos
-timestamp: 1731327101.717097
+timestamp: 1733256820.785218
 unique_sents: 11961
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_mos_nostopwords
+src_ngrams: '{"1": [[["n"], 49697], [["s\u1ebdn"], 22776], [["t\u0269"], 17899], [["lame"],
+  15310], [["b"], 14632]], "2": [[["lame lame"], 13270], [["\u00e3\u00e2\u00e3 \u00e3\u00e2\u00e3"],
+  4280], [["s\u00e3 n"], 3807], [["t\u00f5e n"], 3774], [["t\u0269 b"], 3098]], "3":
+  [[["lame lame lame"], 12421], [["\u00e3\u00e2\u00e3 \u00e3\u00e2\u00e3 \u00e3\u00e2\u00e3"],
+  3888], [["n na n"], 1334], [["s\u1ebdn na n"], 1116], [["\u00e3\u00e2\u00e0 \u00e3\u00e2\u00e0
+  \u00e3\u00e2\u00e0"], 960]], "4": [[["lame lame lame lame"], 11572], [["\u00e3\u00e2\u00e3
+  \u00e3\u00e2\u00e3 \u00e3\u00e2\u00e3 \u00e3\u00e2\u00e3"], 3496], [["\u00e3\u00e2\u00e0
+  \u00e3\u00e2\u00e0 \u00e3\u00e2\u00e0 \u00e3\u00e2\u00e0"], 892], [["lamelame lame
+  lame lame"], 812], [["lame lamelame lame lame"], 812]], "5": [[["lame lame lame
+  lame lame"], 10842], [["\u00e3\u00e2\u00e3 \u00e3\u00e2\u00e3 \u00e3\u00e2\u00e3
+  \u00e3\u00e2\u00e3 \u00e3\u00e2\u00e3"], 3104], [["\u00e3\u00e2\u00e0 \u00e3\u00e2\u00e0
+  \u00e3\u00e2\u00e0 \u00e3\u00e2\u00e0 \u00e3\u00e2\u00e0"], 824], [["lame lamelame
+  lame lame lame"], 812], [["lame lame lamelame lame lame"], 812]]}'

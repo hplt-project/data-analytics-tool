@@ -45,7 +45,7 @@ docs_segments: '[[1, 1294], [2, 1781], [3, 1465], [4, 1704], [5, 1651], [6, 1751
   [1015, 1], [1071, 1], [1343, 2], [2182, 1], [2278, 1]]'
 docs_segments_mean: 22
 docs_segments_median: 14
-docs_timestamp: 1730828589.0486457
+docs_timestamp: 1733345165.1142604
 docs_top100_domains: '[["samoanews.com", 2642], ["jw.org", 2200], ["samoaobserver.ws",
   1696], ["wikipedia.org", 1219], ["martech.zone", 1044], ["sobserver.ws", 900], ["eturbonews.com",
   828], ["samoatimes.co.nz", 742], ["recursosdeautoayuda.com", 734], ["lds.org", 725],
@@ -104,8 +104,8 @@ docs_wds: '[[5, 999], [5.1, 1084], [5.2, 1093], [5.3, 1262], [5.4, 1245], [5.5, 
   [8.9, 422], [9, 467], [9.1, 302], [9.2, 192], [9.3, 175], [9.4, 204], [9.5, 168],
   [9.6, 160], [9.7, 135], [9.8, 74], [9.9, 34], [10, 7]]'
 corpus: smo_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 81099, "no_urls": 10761, "no_bad_encoding":
-  10, "pii": 2001}'
+hardrules_tags: '{"not_too_long": 8755, "not_too_short": 98568, "no_urls": 10850,
+  "no_bad_encoding": 14, "pii": 2001}'
 sentence_pairs: 1012457
 src_bytes: 180.02 MB
 src_chars: 185180583
@@ -432,9 +432,17 @@ src_unique_sents: '[[0, 1], [1, 5653], [2, 16483], [3, 19244], [4, 21851], [5, 2
   1], [8291, 1], [9992, 1], [10532, 1], [12610, 1], [15492, 1], [15520, 1], [16270,
   1], [22659, 1], [26047, 1], [28301, 1], [88887, 1]]'
 srclang: sm
-timestamp: 1730829386.9385884
+timestamp: 1733345662.7616928
 unique_sents: 733868
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_sm_nostopwords
+src_ngrams: '{"1": [[["te"], 318553], [["mafai"], 193269], [["tatou"], 152542], [["pe"],
+  135788], [["lelei"], 120905]], "2": [[["ou te"], 36659], [["matou te"], 27474],
+  [["te oe"], 26962], [["nai lo"], 20844], [["tatou te"], 19230]], "3": [[["afai e
+  te"], 13823], [["mafai ona tatou"], 6941], [["pito i luga"], 6000], [["tatau ona
+  tatou"], 5522], [["mafai ona maua"], 4631]], "4": [[["fesoasoani ia te oe"], 4068],
+  [["luga o le initaneti"], 2692], [["afai e te mana\u02bbo"], 2308], [["pe afai e
+  te"], 2277], [["luga o le upega"], 2258]], "5": [[["te fai atu ia te"], 1289], [["luga
+  o le upega tafa\u02bbilagi"], 1201], [["tu\u02bbuina atu ia te oe"], 1196], [["pe
+  a fai e te"], 967], [["ta\u02bbu atu ia te oe"], 933]]}'

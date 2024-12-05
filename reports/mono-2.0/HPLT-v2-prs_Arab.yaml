@@ -216,8 +216,7 @@ docs_wds: '[[5, 84125], [5.1, 82237], [5.2, 79808], [5.3, 76502], [5.4, 84631], 
   32366], [9.2, 13943], [9.3, 9378], [9.4, 7137], [9.5, 5541], [9.6, 4100], [9.7,
   2628], [9.8, 1691], [9.9, 696], [10, 195]]'
 corpus: prs_Arab.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 6493594, "no_urls": 412204,
-  "no_bad_encoding": 499, "pii": 43442}'
+hardrules_tags: '{"not_too_long": 543530, "not_too_short": 8001643, "no_urls": 441114, "no_bad_encoding": 696,   "pii": 43442}'
 sentence_pairs: 69003437
 src_bytes: 15.54 GB
 src_chars: 9501028791

@@ -230,8 +230,7 @@ docs_wds: '[[5, 8685], [5.1, 8648], [5.2, 8866], [5.3, 9193], [5.4, 13138], [5.5
   [9.2, 10472], [9.3, 8328], [9.4, 7377], [9.5, 8226], [9.6, 9406], [9.7, 6563], [9.8,
   4053], [9.9, 1809], [10, 817]]'
 corpus: swh_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 1654585, "no_urls": 428546,
-  "no_bad_encoding": 1506, "pii": 75290}'
+hardrules_tags: '{"not_too_long": 147593, "not_too_short": 4760080, "no_urls": 461987, "no_bad_encoding": 2532, "pii": 75290}'
 sentence_pairs: 34308768
 src_bytes: 4.34 GB
 src_chars: 4631243067

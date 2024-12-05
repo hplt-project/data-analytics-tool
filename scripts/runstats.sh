@@ -335,7 +335,7 @@ elif [ "$langformat" == "mono" ]; then
 	#else
 		#echo "Language not supported by Monocleaner"
 	fi
-	source /work/venvs/venv-bhr/bin/activate
+	source /work/venvs/venv-mc/bin/activate
 	echo "Running Monocleaner  Hardrules..."
 	#./scripts/parallel-monohardrules.sh $JOBS $srclang $tsv_file_path $tsv_file_path.hardrules 		
         cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1  parallel -k -j $JOBS --pipe monocleaner-hardrules --score_only --annotated_output --run_all_rules --disable_lang_ident  $srclang - - > $tsv_file_path.hardrules 2> hr.log
