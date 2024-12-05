@@ -496,8 +496,7 @@ docs_wds: '[[5, 374745], [5.1, 383536], [5.2, 396505], [5.3, 403033], [5.4, 4338
   [9.4, 213427], [9.5, 176917], [9.6, 143918], [9.7, 94830], [9.8, 53130], [9.9, 20547],
   [10, 4973]]'
 corpus: HPLT-v2-dan_Latn.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 100949112, "no_urls": 25806636,
-  "no_bad_encoding": 70462, "pii": 10040732}'
+hardrules_tags: '{"not_too_long": 8983859, "not_too_short": 125503763, "no_urls": 26089530, "no_bad_encoding": 71443 , "pii": 10040732}'
 sentence_pairs: 873018899
 src_bytes: 126.49 GB
 src_chars: 132541320753
