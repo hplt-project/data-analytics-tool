@@ -70,7 +70,7 @@ docs_segments: '[[1, 7350], [2, 4623], [3, 5398], [4, 7691], [5, 8085], [6, 7928
   1]]'
 docs_segments_mean: 23
 docs_segments_median: 10
-docs_timestamp: 1730208523.1444266
+docs_timestamp: 1733427670.2233841
 docs_top100_domains: '[["wikipedia.org", 44597], ["kaveshtiebel.com", 14736], ["ivelt.com",
   10333], ["yiddish.news", 4134], ["soft-free-download.com", 3680], ["sgames.org",
   2481], ["freeplayonlinegame.net", 1811], ["actualidadgadget.com", 1441], ["itsmygame.org",
@@ -128,8 +128,8 @@ docs_wds: '[[5, 5972], [5.1, 5647], [5.2, 5751], [5.3, 5774], [5.4, 5509], [5.5,
   783], [8.9, 820], [9, 708], [9.1, 430], [9.2, 439], [9.3, 392], [9.4, 386], [9.5,
   425], [9.6, 748], [9.7, 506], [9.8, 357], [9.9, 186], [10, 53]]'
 corpus: ydd_Hebr.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 248575, "no_urls": 25208, "no_bad_encoding":
-  24, "pii": 3493}'
+hardrules_tags: '{"not_too_long": 27533, "not_too_short": 313392, "no_urls": 26360,
+  "no_bad_encoding": 26, "pii": 3493}'
 sentence_pairs: 2940163
 src_bytes: 774.19 MB
 src_chars: 455684296
@@ -397,8 +397,33 @@ src_unique_sents: '[[0, 639], [1, 18083], [2, 36155], [3, 44192], [4, 54381], [5
   1], [2625, 1], [2809, 1], [2861, 1], [3501, 1], [3502, 1], [4209, 1], [4395, 1],
   [5827, 1]]'
 srclang: ydd
-timestamp: 1730210659.248524
+timestamp: 1733429304.5770075
 unique_sents: 1420745
 warnings:
 - src_fasttext
-- src_ngrams_ydd_nostopwords
+src_ngrams: '{"1": [[["\u05e4\u05d5\u05df"], 1847266], [["\u05d0\u05d9\u05d6"], 1600808],
+  [["\u05e6\u05d5"], 1355274], [["\u05d4\u05d0\u05d8"], 853755], [["\u05e0\u05d9\u05e9\u05d8"],
+  680390]], "2": [[["\u05e2\u05e1 \u05d0\u05d9\u05d6"], 206425], [["\u05d0\u05d9\u05d6
+  \u05d2\u05e2\u05d5\u05d5\u05e2\u05df"], 129219], [["\u05d4\u05d0\u05d8 \u05d2\u05e2\u05e9\u05e8\u05d9\u05d1\u05df"],
+  127409], [["\u05e2\u05e8 \u05d4\u05d0\u05d8"], 96478], [["\u05d5\u05d5\u05d0\u05e1
+  \u05d0\u05d9\u05d6"], 72789]], "3": [[["\u05d6\u05d9\u05da \u05d0\u05d9\u05d9\u05e0\u05d2\u05e2\u05e9\u05e8\u05d9\u05d1\u05e2\u05df
+  \u05d0\u05d5\u05dd"], 63357], [["\u05e2\u05e1 \u05d0\u05d9\u05d6 \u05e0\u05d9\u05e9\u05d8"],
+  15325], [["\u05e2\u05e1 \u05d0\u05d9\u05d6 \u05d0\u05b7"], 15249], [["\u05e2\u05e1
+  \u05d0\u05d9\u05d6 \u05d2\u05e2\u05d5\u05d5\u05e2\u05df"], 15004], [["\u05d0\u05d6
+  \u05e2\u05e1 \u05d0\u05d9\u05d6"], 14271]], "4": [[["\u05d1\u05d0\u05e0\u05d5\u05e6\u05e2\u05e8\u05e1
+  \u05d5\u05d5\u05d0\u05e1 \u05d3\u05e8\u05d9\u05d9\u05e2\u05df \u05d6\u05d9\u05da"],
+  6270], [["\u05d5\u05d5\u05d0\u05e1 \u05dc\u05d9\u05d9\u05e2\u05e0\u05e2\u05df \u05d3\u05e2\u05dd
+  \u05e4\u05d0\u05e8\u05d5\u05dd"], 6176], [["\u05d5\u05d5\u05d0\u05e1 \u05d3\u05e8\u05d9\u05d9\u05e2\u05df
+  \u05d6\u05d9\u05da \u05d3\u05d0"], 5839], [["\u05d0\u05d9\u05d9\u05e0\u05e2\u05e8
+  \u05e4\u05d5\u05df \u05d3\u05d9 \u05de\u05e2\u05e8\u05e1\u05d8"], 5468], [["\u05e0\u05d9\u05e9\u05d8\u05d0
+  \u05e7\u05d9\u05d9\u05df \u05d0\u05e0\u05dc\u05d9\u05d9\u05df \u05d1\u05d0\u05e0\u05d9\u05e6\u05e2\u05e8"],
+  5110]], "5": [[["\u05d1\u05d0\u05e0\u05d9\u05e6\u05e2\u05e8 \u05d5\u05d5\u05d0\u05e1
+  \u05dc\u05d9\u05d9\u05e2\u05e0\u05e2\u05df \u05d3\u05e2\u05dd \u05e4\u05d0\u05e8\u05d5\u05dd"],
+  6176], [["\u05d1\u05d0\u05e0\u05d5\u05e6\u05e2\u05e8\u05e1 \u05d5\u05d5\u05d0\u05e1
+  \u05d3\u05e8\u05d9\u05d9\u05e2\u05df \u05d6\u05d9\u05da \u05d3\u05d0"], 5814], [["\u05d8\u05df
+  \u05d9\u05d0\u05e0\u05d5\u05d0\u05e8 \u05dc\u05d5\u05d9\u05d8\u05df \u05d9\u05d5\u05dc\u05d9\u05d0\u05e0\u05d9\u05e9\u05df
+  \u05e7\u05d0\u05dc\u05e2\u05e0\u05d3\u05d0\u05e8"], 2529], [["\u05d9\u05d0\u05e0\u05d5\u05d0\u05e8
+  \u05dc\u05d5\u05d9\u05d8\u05df \u05d9\u05d5\u05dc\u05d9\u05d0\u05e0\u05d9\u05e9\u05df
+  \u05e7\u05d0\u05dc\u05e2\u05e0\u05d3\u05d0\u05e8 \u05de\u05d9\u05d8"], 2527], [["\u05d3\u05d0\u05d8\u05e2\u05e1
+  \u05d3\u05d0 \u05d6\u05e2\u05e0\u05e2\u05df \u05dc\u05d5\u05d9\u05d8\u05df \u05d2\u05e8\u05e2\u05d2\u05d0\u05e8\u05d9\u05d0\u05e0\u05d9\u05e9\u05df"],
+  2527]]}'
