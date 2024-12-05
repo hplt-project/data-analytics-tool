@@ -64,7 +64,7 @@ docs_segments: '[[1, 3243], [2, 4141], [3, 4885], [4, 4054], [5, 3111], [6, 3218
   [2011, 1], [2037, 1], [2276, 1], [2404, 1], [2460, 1]]'
 docs_segments_mean: 23
 docs_segments_median: 12
-docs_timestamp: 1730305423.7189004
+docs_timestamp: 1733380125.9497292
 docs_top100_domains: '[["wikipedia.org", 5284], ["blogspot.com", 3048], ["doctoralia.es",
   2883], ["uma.es", 2288], ["arqa.com", 1546], ["bible.is", 1508], ["blogspot.com.ar",
   1141], ["jw.org", 1133], ["acceder.gov.ar", 759], ["wordpress.com", 629], ["ideasnopalabras.com",
@@ -122,8 +122,8 @@ docs_wds: '[[5, 4630], [5.1, 4554], [5.2, 4248], [5.3, 3723], [5.4, 3901], [5.5,
   196], [9, 183], [9.1, 459], [9.2, 20], [9.3, 14], [9.5, 3], [9.6, 4], [9.8, 2],
   [10, 1]]'
 corpus: grn_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 274381, "no_urls": 22524, "no_bad_encoding":
-  2727, "pii": 8458}'
+hardrules_tags: '{"not_too_long": 15084, "not_too_short": 287584, "no_urls": 23788,
+  "no_bad_encoding": 2900, "pii": 8458}'
 sentence_pairs: 1712841
 src_bytes: 215.19 MB
 src_chars: 216984692
@@ -596,8 +596,18 @@ src_unique_sents: '[[0, 1], [1, 8294], [2, 21713], [3, 32711], [4, 35871], [5, 4
   1], [49807, 1], [88691, 1], [108808, 1], [184222, 1], [194731, 1], [199664, 1],
   [201513, 1]]'
 srclang: gn
-timestamp: 1730306046.8836515
+timestamp: 1733380613.6462934
 unique_sents: 830361
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_ngrams_gn_nostopwords
+src_ngrams: '{"1": [[["de"], 1834124], [["y"], 580839], [["la"], 489353], [["en"],
+  411090], [["del"], 371574]], "2": [[["de la"], 267313], [["buenos aires"], 74758],
+  [["universidad de"], 71576], [["nacional de"], 69920], [["universidad nacional"],
+  62773]], "3": [[["universidad nacional de"], 40143], [["de buenos aires"], 33131],
+  [["de la universidad"], 25958], [["ur\u00f3logo ver m\u00e1s"], 25612], [["rep\u00fablica
+  bolivariana de"], 22750]], "4": [[["jurado de ingl\u00fas en"], 21711], [["traductor
+  jurado de ingl\u00fas"], 21710], [["angi\u00f3logo y cirujano vascular"], 15721],
+  [["medicina familiar y comunitaria"], 14912], [["del ministerio de defensa"], 14528]],
+  "5": [[["traductor jurado de ingl\u00fas en"], 21710], [["oficial del ministerio
+  de defensa"], 14473], [["diario oficial del ministerio de"], 14473], [["de medicina
+  familiar y comunitaria"], 14145], [["ciudad aut\u00f3noma de buenos aires"], 10875]]}'
