@@ -1,3 +1,4 @@
+
 docs_collections: '[["cc22", 507485], ["cc21", 165486], ["cc18", 141875], ["wide11",
   45057], ["wide16", 40618], ["wide15", 37841], ["wide12", 37532], ["wide17", 32397],
   ["wide5", 25828], ["cc17", 22661], ["wide6", 15794], ["wide10", 13509], ["cc19",
@@ -189,8 +190,7 @@ docs_wds: '[[5, 6609], [5.1, 6469], [5.2, 7065], [5.3, 6748], [5.4, 8224], [5.5,
   13767], [9.3, 10226], [9.4, 8590], [9.5, 6674], [9.6, 5820], [9.7, 3943], [9.8,
   2433], [9.9, 958], [10, 255]]'
 corpus: guj_Gujr.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 2208265, "no_urls": 204109,
-  "no_bad_encoding": 1136, "pii": 29547}'
+hardrules_tags: '{"not_too_long": 203061, "not_too_short": 2255027, "no_urls": 220234, "no_bad_encoding": 1240 , "pii": 29547}'
 sentence_pairs: 20639718
 src_bytes: 7.99 GB
 src_chars: 3366421654
