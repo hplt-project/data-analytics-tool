@@ -86,8 +86,7 @@ docs_wds: '[[5, 204], [5.1, 185], [5.2, 182], [5.3, 183], [5.4, 199], [5.5, 142]
   [9.1, 2611], [9.2, 37], [9.3, 22], [9.4, 23], [9.5, 21], [9.6, 15], [9.7, 24], [9.8,
   10], [9.9, 6], [10, 2]]'
 corpus: ace_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 13410, "no_urls": 2402, "no_bad_encoding":
-  4, "pii": 50}'
+hardrules_tags: '{"not_too_long": 7431, "not_too_short": 23321, "no_urls": 2402, "no_bad_encoding": 4,   "pii": 50}'
 sentence_pairs: 206187
 src_bytes: 49.23 MB
 src_chars: 50639739
