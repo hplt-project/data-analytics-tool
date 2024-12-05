@@ -52,8 +52,7 @@ docs_wds: '[[5, 30], [5.1, 23], [5.2, 25], [5.3, 19], [5.4, 36], [5.5, 19], [5.6
   70], [8.7, 57], [8.8, 58], [8.9, 80], [9, 75], [9.1, 115], [9.2, 31], [9.3, 15],
   [9.4, 12], [9.5, 12], [9.6, 22], [9.7, 8], [9.8, 6]]'
 corpus: kon_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 3201, "no_urls": 134, "no_bad_encoding":
-  7, "pii": 10}'
+hardrules_tags: '{"not_too_long": 1159, "not_too_short": 3957, "no_urls": 137, "no_bad_encoding": 8,   "pii": 10}'
 sentence_pairs: 47477
 src_bytes: 10.82 MB
 src_chars: 11229852
