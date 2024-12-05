@@ -549,7 +549,7 @@ docs_wds: '[[5, 231303], [5.1, 233518], [5.2, 246867], [5.3, 247975], [5.4, 2660
   [9.4, 415956], [9.5, 394665], [9.6, 380976], [9.7, 295325], [9.8, 204035], [9.9,
   92276], [10, 22796]]'
 corpus: HPLT-v2-bul_Cyrl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 45421898, "no_urls": 9052203, "no_bad_encoding": 6936, "pii": 5052863}'
+hardrules_tags: '{"not_too_long": 5090552, "not_too_short": 99713756, "no_urls": 10746004, "no_bad_encoding": 6940, "pii": 5052863}'
 sentence_pairs: 681405632
 src_bytes: 159.9 GB
 src_chars: 96280932664
