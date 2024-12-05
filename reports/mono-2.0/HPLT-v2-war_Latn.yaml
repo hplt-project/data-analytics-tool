@@ -70,8 +70,7 @@ docs_wds: '[[5, 288], [5.1, 251], [5.2, 221], [5.3, 210], [5.4, 228], [5.5, 160]
   [9.1, 460], [9.2, 83], [9.3, 38], [9.4, 35], [9.5, 8], [9.6, 17], [9.7, 3], [9.8,
   2]]'
 corpus: war_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 39451, "no_urls": 3052, "no_bad_encoding":
-  11, "pii": 45}'
+hardrules_tags: '{"not_too_long": 2949, "not_too_short": 40596, "no_urls": 3133, "no_bad_encoding": 11, "pii": 45}'
 sentence_pairs: 200935
 src_bytes: 33.95 MB
 src_chars: 35387743
