@@ -464,8 +464,7 @@ docs_wds: '[[5, 82701], [5.1, 83208], [5.2, 87928], [5.3, 91245], [5.4, 98977], 
   [9.4, 142442], [9.5, 122494], [9.6, 106590], [9.7, 81698], [9.8, 56148], [9.9, 22095],
   [10, 4733]]'
 corpus: HPLT-v2-slv_Latn.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 28427036, "no_urls": 4308953,
-  "no_bad_encoding": 5396, "pii": 1652101}'
+hardrules_tags: '{"not_too_long": 2098419, "not_too_short": 37447758, "no_urls": 4438831, "no_bad_encoding": 5936,   "pii": 1652101}'
 sentence_pairs: 238644641
 src_bytes: 33.47 GB
 src_chars: 35029805659
