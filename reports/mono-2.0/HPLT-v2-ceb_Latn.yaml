@@ -129,8 +129,7 @@ docs_wds: '[[5, 1575], [5.1, 1505], [5.2, 1527], [5.3, 1411], [5.4, 1556], [5.5,
   3323], [8.9, 3838], [9, 5073], [9.1, 5178], [9.2, 2424], [9.3, 2261], [9.4, 1850],
   [9.5, 1804], [9.6, 1662], [9.7, 1170], [9.8, 752], [9.9, 348], [10, 84]]'
 corpus: ceb_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 250701, "no_urls": 30851, "no_bad_encoding":
-  165, "pii": 7642}'
+hardrules_tags: '{"not_too_long": 38239, "not_too_short": 303212, "no_urls": 35171, "no_bad_encoding": 165, "pii": 7642}'
 sentence_pairs: 2864543
 src_bytes: 493.16 MB
 src_chars: 512962319
