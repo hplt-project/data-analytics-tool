@@ -21,7 +21,7 @@ docs_segments: '[[1, 187], [2, 158], [3, 449], [4, 449], [5, 545], [6, 318], [7,
   1], [428, 1], [801, 1]]'
 docs_segments_mean: 13
 docs_segments_median: 6
-docs_timestamp: 1730796234.7799685
+docs_timestamp: 1733428929.3537352
 docs_top100_domains: '[["mediamaxnetwork.co.ke", 1617], ["jw.org", 713], ["wikipedia.org",
   355], ["bible.is", 224], ["biblica.com", 191], ["blogspot.jp", 91], ["thekenyatoday.com",
   69], ["blogspot.com", 66], ["radiokimuri.co.ke", 64], ["blogspot.fr", 38], ["njatatv.co.ke",
@@ -62,7 +62,7 @@ docs_wds: '[[5, 56], [5.1, 42], [5.2, 36], [5.3, 46], [5.4, 54], [5.5, 53], [5.6
   43], [8.6, 50], [8.7, 91], [8.8, 50], [8.9, 59], [9, 85], [9.1, 62], [9.2, 21],
   [9.3, 22], [9.4, 28], [9.5, 11], [9.6, 11], [9.7, 11], [9.9, 1]]'
 corpus: kik_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 4851, "no_urls": 218, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 550, "not_too_short": 4851, "no_urls": 263, "no_bad_encoding":
   0, "pii": 10}'
 sentence_pairs: 51931
 src_bytes: 9.92 MB
@@ -205,9 +205,18 @@ src_unique_sents: '[[0, 1], [1, 459], [2, 631], [3, 1171], [4, 1139], [5, 1211],
   [1284, 1], [1287, 1], [1288, 1], [1302, 1], [1323, 1], [1332, 1], [1340, 1], [1386,
   1], [1421, 1], [1730, 1], [1734, 1], [2186, 1]]'
 srclang: ki
-timestamp: 1730796289.252043
+timestamp: 1733428986.0249782
 unique_sents: 33013
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_ki_nostopwords
+src_ngrams: '{"1": [[["wa"], 44242], [["cia"], 9859], [["ngai"], 9073], [["in\u0129"],
+  7379], [["and\u0169"], 7227]], "2": [[["th\u0129in\u0129 wa"], 2380], [["\u0169nd\u0169
+  wa"], 1827], [["thutha wa"], 1790], [["wa ngai"], 1457], [["\u0169nd\u0169 \u0169cio"],
+  1396]], "3": [[["kameme fmkameme fm"], 1146], [["fmkameme fm news"], 979], [["mutongoria
+  wa bururi"], 521], [["tene na tene"], 492], [["aira a jehova"], 405]], "4": [[["kameme
+  fmkameme fm news"], 979], [["mutongoria wa bururi uhuru"], 295], [["wa bururi uhuru
+  kenyatta"], 261], [["wa tene na tene"], 202], [["kameme fmkameme fm newskameme"],
+  164]], "5": [[["mutongoria wa bururi uhuru kenyatta"], 257], [["kameme fmkameme
+  fm newskameme news"], 162], [["muoyo wa tene na tene"], 134], [["ari\u0169 na aar\u0129
+  a ithe"], 87], [["first on mediamax network limited"], 85]]}'
