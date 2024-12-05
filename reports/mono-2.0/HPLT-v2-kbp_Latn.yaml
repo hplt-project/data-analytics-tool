@@ -17,7 +17,7 @@ docs_segments: '[[1, 1447], [2, 79], [3, 1275], [4, 759], [5, 1134], [6, 807], [
   [352, 1], [521, 1], [901, 1]]'
 docs_segments_mean: 7
 docs_segments_median: 4
-docs_timestamp: 1730374141.11272
+docs_timestamp: 1733417201.4992397
 docs_top100_domains: '[["wikipedia.org", 3811], ["bible.is", 2446], ["jw.org", 488],
   ["ebible.org", 89], ["bibles.org", 84], ["breakeveryyoke.com", 33], ["wikiplanet.click",
   28], ["bywiki.com", 12], ["revue-gugu.org", 9], ["unicode.org", 6], ["know.cf",
@@ -41,8 +41,8 @@ docs_wds: '[[5, 28], [5.1, 49], [5.2, 36], [5.3, 22], [5.4, 30], [5.5, 48], [5.6
   196], [8.6, 267], [8.7, 152], [8.8, 107], [8.9, 135], [9, 149], [9.1, 234], [9.2,
   6], [9.3, 1], [9.4, 2], [9.5, 1]]'
 corpus: kbp_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 6841, "no_urls": 132, "no_bad_encoding":
-  9, "pii": 0}'
+hardrules_tags: '{"not_too_long": 3011, "not_too_short": 7192, "no_urls": 134, "no_bad_encoding":
+  10, "pii": 0}'
 sentence_pairs: 46792
 src_bytes: 24.47 MB
 src_chars: 20864671
@@ -422,9 +422,19 @@ src_unique_sents: '[[0, 1], [1, 909], [2, 1161], [3, 585], [4, 458], [5, 440], [
   1], [2686, 1], [2699, 1], [2729, 1], [2731, 1], [2762, 1], [2771, 1], [2783, 1],
   [2799, 1], [2890, 1], [3022, 1], [3114, 1]]'
 srclang: kbp
-timestamp: 1730374244.5452166
+timestamp: 1733417316.6952841
 unique_sents: 26333
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_kbp_nostopwords
+src_ngrams: '{"1": [[["\u0269"], 91417], [["taa"], 78909], [["ba"], 64121], [["s\u0269"],
+  53301], [["ma"], 53182]], "2": [[["h\u028b aa"], 5303], [["d\u0269 ba"], 4766],
+  [["d\u0269 \u028b"], 3980], [["\u025bja\u0256\u025b taa"], 3948], [["te t\u0269n"],
+  3921]], "3": [[["nala h\u028b aa"], 1545], [["p\u0259 ta\u0263a p\u028bl\u028b"],
+  1492], [["\u025bja\u0256\u025b \u0256\u0269n\u025b \u0256\u0269"], 1242], [["h\u028b
+  bulo\u014b aa"], 1062], [["\u028b a baa"], 956]], "4": [[["t\u0269ya ba a baa"],
+  687], [["p\u0259 ta\u0263a p\u028bl\u028b t\u0254\u0254"], 687], [["t\u0269ya \u028b
+  a baa"], 608], [["yee yee yee yee"], 570], [["r\u025b yesu bas\u0269 t\u0269ya"],
+  432]], "5": [[["bas\u0269 t\u0269ya ba a baa"], 639], [["bas\u0269 t\u0269ya \u028b
+  a baa"], 604], [["yee yee yee yee yee"], 568], [["kal\u028b na ba ti t\u0269n"],
+  327], [["avr mai juin juil ao\u00fbt"], 311]]}'
