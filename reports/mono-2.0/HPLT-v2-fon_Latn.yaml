@@ -14,7 +14,7 @@ docs_segments: '[[1, 393], [2, 3], [3, 251], [4, 8], [5, 17], [6, 21], [7, 32], 
   [86, 2], [90, 6], [91, 1], [125, 1], [142, 1], [313, 1]]'
 docs_segments_mean: 12
 docs_segments_median: 3
-docs_timestamp: 1730883498.4123302
+docs_timestamp: 1733386828.7554505
 docs_top100_domains: '[["jw.org", 602], ["bible.is", 573], ["saxwe.net", 19], ["spip.net",
   10], ["unicode.org", 6], ["wikimedia.org", 4], ["ohchr.org", 2], ["mp3songspk.info",
   2], ["3songspk.com", 1], ["songspkking.com", 1], ["worldpeaceelite.org", 1], ["ipsapps.org",
@@ -30,8 +30,8 @@ docs_wds: '[[5, 39], [5.1, 62], [5.2, 52], [5.3, 77], [5.4, 66], [5.5, 77], [5.6
   [8, 9], [8.1, 11], [8.2, 16], [8.3, 21], [8.4, 25], [8.5, 17], [8.6, 18], [8.7,
   7], [8.8, 12], [8.9, 1], [9, 4], [9.1, 3]]'
 corpus: fon_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 1393, "no_urls": 39, "no_bad_encoding":
-  13, "pii": 3}'
+hardrules_tags: '{"not_too_long": 698, "not_too_short": 1393, "no_urls": 61, "no_bad_encoding":
+  16, "pii": 3}'
 sentence_pairs: 14764
 src_bytes: 6.21 MB
 src_chars: 5321478
@@ -213,9 +213,19 @@ src_unique_sents: '[[1, 51], [2, 317], [3, 121], [4, 152], [5, 177], [6, 269], [
   1], [2502, 1], [2526, 1], [2530, 1], [2532, 1], [2601, 1], [2624, 1], [2653, 1],
   [2776, 1], [2782, 1], [2868, 1], [2962, 1], [3003, 1]]'
 srclang: fon
-timestamp: 1730883545.70514
+timestamp: 1733386864.4101357
 unique_sents: 9689
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_fon_nostopwords
+src_ngrams: '{"1": [[["l\u025b"], 32423], [["\u025b"], 17979], [["na"], 17871], [["m\u025b"],
+  15998], [["t\u0254n"], 12563]], "2": [[["t\u0254n l\u025b"], 2367], [["k\u0254n
+  t\u00e8"], 1830], [["\u0256\u00f3 na"], 1489], [["u je"], 1243], [["mawu t\u0254n"],
+  1243]], "3": [[["je \u0254 je"], 889], [["di \u025b\u025b numa"], 870], [["n\u00ec
+  k\u0254n t\u00e8"], 731], [["k\u011b \u0254 d\u025b"], 700], [["t\u00e8 wl\u00f2
+  popo\u025b"], 538]], "4": [[["u je \u0254 je"], 308], [["t\u00e8\u01d2 n\u00ec k\u0254n
+  t\u00e8"], 308], [["n t\u00e8\u01d2 joo n\u025b"], 242], [["ngm\u00e0 je ne s\u00f9su"],
+  219], [["t\u01d0i doo t\u01d0 jle\u011b"], 187]], "5": [[["b\u01d0\u00ec tent\u01cen
+  j\u01d4u w\u01cen ane"], 131], [["\u025b m\u01d0 \u025b kpa kpa"], 121], [["s\u00e0
+  \u0254\u0254 wl\u00f2 k\u01d4 m\u01d2"], 110], [["al\u0254 m\u01d0 b\u0254 m\u01d0
+  na"], 101], [["ke \u025b toon jle\u011b m\u01d2"], 99]]}'
