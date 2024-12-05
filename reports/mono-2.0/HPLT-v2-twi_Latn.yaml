@@ -27,7 +27,7 @@ docs_segments: '[[1, 705], [2, 141], [3, 255], [4, 383], [5, 143], [6, 157], [7,
   1]]'
 docs_segments_mean: 21
 docs_segments_median: 12
-docs_timestamp: 1730982578.8140376
+docs_timestamp: 1733389327.790942
 docs_top100_domains: '[["jw.org", 2648], ["biblica.com", 955], ["biblegateway.com",
   594], ["wikipedia.org", 298], ["bible.is", 225], ["4jehovah.org", 168], ["amoafowaa.com",
   141], ["4mormon.org", 44], ["kasahorow.org", 42], ["vanipedia.org", 31], ["4witness.org",
@@ -74,8 +74,8 @@ docs_wds: '[[5, 145], [5.1, 136], [5.2, 133], [5.3, 121], [5.4, 124], [5.5, 136]
   62], [9.2, 33], [9.3, 24], [9.4, 10], [9.5, 6], [9.6, 5], [9.8, 1], [9.9, 1], [10,
   9]]'
 corpus: twi_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 11140, "no_urls": 407, "no_bad_encoding":
-  93, "pii": 20}'
+hardrules_tags: '{"not_too_long": 1824, "not_too_short": 12051, "no_urls": 525, "no_bad_encoding":
+  98, "pii": 20}'
 sentence_pairs: 125611
 src_bytes: 25.97 MB
 src_chars: 24057642
@@ -386,9 +386,18 @@ src_unique_sents: '[[1, 914], [2, 2204], [3, 2023], [4, 2996], [5, 3422], [6, 39
   1], [2396, 1], [2403, 1], [2417, 1], [2442, 1], [2453, 1], [2458, 1], [2658, 1],
   [3619, 1], [4669, 1], [6462, 1], [7077, 1]]'
 srclang: tw
-timestamp: 1730982693.6654086
+timestamp: 1733389408.2990284
 unique_sents: 71959
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_tw_nostopwords
+src_ngrams: '{"1": [[["mu"], 64457], [["w\u0254"], 57424], [["w\u0254n"], 48169],
+  [["wo"], 31925], [["ma"], 24027]], "2": [[["yesu kristo"], 2100], [["yi mu"], 2056],
+  [["yehowa adansefo"], 1945], [["saa ara"], 1865], [["\u0254w\u0254 k\u025b"], 1720]],
+  "3": [[["koma no page"], 1179], [["saa as\u025bm yi"], 877], [["ase ase ase"], 832],
+  [["kyer\u025b\u025b no se"], 557], [["w\u0254 mek\u025b m\u0254\u0254"], 525]],
+  "4": [[["koma no page desu"], 1179], [["amoros koma no page"], 1179], [["ase ase
+  ase ase"], 828], [["boa boa boa boa"], 312], [["saa as\u025bm yi w\u0254"], 287]],
+  "5": [[["amoros koma no page desu"], 1179], [["ase ase ase ase ase"], 824], [["boa
+  boa boa boa boa"], 302], [["wop\u025b s\u025b wokenkan saa as\u025bm"], 277], [["wokenkan
+  saa as\u025bm yi w\u0254"], 277]]}'
