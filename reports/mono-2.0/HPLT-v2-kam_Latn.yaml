@@ -14,7 +14,7 @@ docs_segments: '[[1, 364], [2, 6], [3, 252], [4, 20], [5, 12], [6, 15], [7, 26],
   1], [67, 1], [73, 1], [86, 1], [87, 3], [97, 1], [112, 2]]'
 docs_segments_mean: 12
 docs_segments_median: 3
-docs_timestamp: 1730904009.4687095
+docs_timestamp: 1733427578.019441
 docs_top100_domains: '[["bible.is", 583], ["jw.org", 510], ["sangufm.co.ke", 32],
   ["kituionline.com", 9], ["gospelgo.com", 6], ["jaladaafrica.org", 5], ["watchtower.org",
   5], ["graduates.com", 4], ["rmsradio.co.ke", 4], ["4laws.com", 3], ["vincentianministrieskenya.org",
@@ -35,7 +35,7 @@ docs_wds: '[[5, 5], [5.1, 6], [5.2, 9], [5.3, 1], [5.4, 16], [5.5, 3], [5.6, 5],
   [8.8, 66], [8.9, 71], [9, 111], [9.1, 144], [9.2, 4], [9.3, 6], [9.4, 5], [9.5,
   6], [9.7, 2]]'
 corpus: kam_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 635, "no_urls": 65, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 671, "not_too_short": 1278, "no_urls": 78, "no_bad_encoding":
   0, "pii": 0}'
 sentence_pairs: 14259
 src_bytes: 4.9 MB
@@ -174,9 +174,19 @@ src_unique_sents: '[[1, 80], [2, 147], [3, 213], [4, 238], [5, 282], [6, 290], [
   [1127, 2], [1132, 1], [1144, 1], [1207, 1], [1221, 1], [1279, 1], [1291, 1], [4004,
   1]]'
 srclang: kam
-timestamp: 1730904047.9278026
+timestamp: 1733427605.0408938
 unique_sents: 9563
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_kam_nostopwords
+src_ngrams: '{"1": [[["kwa"], 4012], [["al\u0129"], 3916], [["and\u0169"], 3849],
+  [["yeova"], 3785], [["sika"], 3780]], "2": [[["p\u0129na al\u0129"], 424], [["sya
+  yeova"], 408], [["ng\u0169s\u0129 sya"], 397], [["k\u0169\u0169 nth\u0129"], 372],
+  [["sika al\u0129"], 362]], "3": [[["ng\u0169s\u0129 sya yeova"], 393], [["\u0129\u0169l\u0169
+  wa nth\u0129"], 320], [["tene na tene"], 261], [["atamu na eva"], 181], [["munumba
+  ya k\u0129nzua"], 177]], "4": [[["k\u0129shekulu w\u0129\u0129tu yesu kilisito"],
+  93], [["ma\u0169nd\u0169 ma vata kuma"], 56], [["asu asu asu asu"], 49], [["\u0169u
+  w\u0129 o vo"], 46], [["\u0169voo m\u0169seo wa \u0169sumb\u0129"], 42]], "5": [[["ma\u0169nd\u0169
+  ma vata kuma ndeton\u0129"], 53], [["asu asu asu asu asu"], 36], [["\u0129nd\u0129
+  o na \u0169u w\u0129"], 35], [["soma maelesyo ma m\u0169thya namba"], 35], [["\u0169sumb\u0129
+  wa ngai n\u0129 kya\u0169"], 34]]}'
