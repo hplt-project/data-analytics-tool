@@ -107,7 +107,7 @@ docs_segments: '[[1, 6161], [2, 17608], [3, 24565], [4, 28420], [5, 25804], [6, 
   [5328, 1], [5865, 1], [28948, 1]]'
 docs_segments_mean: 19
 docs_segments_median: 10
-docs_timestamp: 1731339637.8278463
+docs_timestamp: 1733389614.5179758
 docs_top100_domains: '[["wikipedia.org", 198169], ["omropfryslan.nl", 23575], ["vv-sds.nl",
   5149], ["itnijs.frl", 3005], ["demoanne.nl", 2198], ["sirkwy.frl", 2164], ["dbnl.org",
   1894], ["limburgslied.nl", 1427], ["vsaduidoma.com", 1287], ["stuft.nl", 1255],
@@ -165,8 +165,8 @@ docs_wds: '[[5, 7655], [5.1, 7632], [5.2, 7529], [5.3, 7266], [5.4, 7942], [5.5,
   1612], [9.4, 1033], [9.5, 703], [9.6, 511], [9.7, 235], [9.8, 125], [9.9, 36], [10,
   6]]'
 corpus: lim_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 968799, "no_urls": 67542, "no_bad_encoding":
-  1366, "pii": 8932}'
+hardrules_tags: '{"not_too_long": 78520, "not_too_short": 972812, "no_urls": 67557,
+  "no_bad_encoding": 1517, "pii": 8932}'
 sentence_pairs: 7139712
 src_bytes: 1.06 GB
 src_chars: 1118709976
@@ -924,8 +924,17 @@ src_unique_sents: '[[0, 1], [1, 56129], [2, 86926], [3, 101908], [4, 120901], [5
   1], [43521, 1], [44293, 1], [44556, 1], [47404, 1], [50009, 1], [56743, 1], [59792,
   1], [152774, 1], [191846, 1]]'
 srclang: li
-timestamp: 1731343450.7243285
+timestamp: 1733392551.6692107
 unique_sents: 2734723
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_ngrams_li_nostopwords
+src_ngrams: '{"1": [[["in"], 4255962], [["fan"], 2952713], [["it"], 2794728], [["t"],
+  2753873], [["van"], 2552892]], "2": [[["yn it"], 307308], [["fan it"], 295853],
+  [["bewurkje seksje"], 235340], [["van der"], 152569], [["boarne bewurkje"], 148729]],
+  "3": [[["dit artikel is"], 56055], [["artikel is gesjreve"], 47812], [["is gesjreve
+  in"], 33063], [["aan te gaeve"], 30573], [["aan te hauwe"], 30471]], "4": [[["dit
+  artikel is gesjreve"], 47805], [["artikel is gesjreve in"], 33024], [["t weurt gewaardeerd
+  \u00f3m"], 30110], [["of aan te gaeve"], 30104], [["gaeve welk anger dialek"], 30104]],
+  "5": [[["dit artikel is gesjreve in"], 33021], [["of aan te gaeve welk"], 30104],
+  [["aan te gaeve welk anger"], 30104], [["hauwe of aan te gaeve"], 30102], [["aan
+  te hauwe of aan"], 30102]]}'
