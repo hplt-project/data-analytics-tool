@@ -286,8 +286,7 @@ docs_wds: '[[5, 16713], [5.1, 16799], [5.2, 17694], [5.3, 18002], [5.4, 19399], 
   [9.1, 65923], [9.2, 53053], [9.3, 48005], [9.4, 43933], [9.5, 39871], [9.6, 36396],
   [9.7, 26397], [9.8, 16057], [9.9, 5932], [10, 1537]]'
 corpus: bel_Cyrl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 4167349, "no_urls": 705328,
-  "no_bad_encoding": 1042, "pii": 212120}'
+hardrules_tags: '{"not_too_long": 509618, "not_too_short": 5208108, "no_urls": 731368, "no_bad_encoding": 1085,  "pii": 212120}'
 sentence_pairs: 48844196
 src_bytes: 14.23 GB
 src_chars: 8493165091
