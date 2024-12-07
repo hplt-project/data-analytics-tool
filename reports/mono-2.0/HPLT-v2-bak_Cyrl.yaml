@@ -128,8 +128,7 @@ docs_wds: '[[5, 1709], [5.1, 1878], [5.2, 1873], [5.3, 1992], [5.4, 2283], [5.5,
   3414], [8.9, 3391], [9, 3212], [9.1, 3031], [9.2, 2405], [9.3, 1894], [9.4, 1562],
   [9.5, 1233], [9.6, 883], [9.7, 628], [9.8, 388], [9.9, 133], [10, 70]]'
 corpus: bak_Cyrl.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 280507, "no_urls": 25444, "no_bad_encoding":
-  54, "pii": 1146}'
+hardrules_tags: '{"not_too_long": 39538, "not_too_short": 302330, "no_urls": 26853, "no_bad_encoding": 76,   "pii": 1146}'
 sentence_pairs: 3138502
 src_bytes: 957.58 MB
 src_chars: 555532259
