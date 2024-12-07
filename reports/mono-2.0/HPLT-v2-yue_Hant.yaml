@@ -101,8 +101,7 @@ docs_wds: '[[5, 5293], [5.1, 4554], [5.2, 4719], [5.3, 4315], [5.4, 4873], [5.5,
   18], [8.4, 26], [8.5, 14], [8.6, 7], [8.7, 8], [8.8, 7], [8.9, 5], [9, 4], [9.1,
   9], [9.2, 1]]'
 corpus: yue_Hant.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 186917, "no_urls": 3657, "no_bad_encoding":
-  6, "pii": 734}'
+hardrules_tags: '{"not_too_long": 1149, "not_too_short": 948540, "no_urls": 5927, "no_bad_encoding": 6 , "pii": 734}'
 sentence_pairs: 1235188
 src_bytes: 179.89 MB
 src_chars: 73128238
