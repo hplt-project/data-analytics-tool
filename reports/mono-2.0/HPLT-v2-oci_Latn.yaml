@@ -78,7 +78,7 @@ docs_segments: '[[1, 3444], [2, 8264], [3, 10769], [4, 10009], [5, 8630], [6, 90
   1], [1755, 1], [2156, 1], [2908, 5]]'
 docs_segments_mean: 22
 docs_segments_median: 12
-docs_timestamp: 1730387994.710216
+docs_timestamp: 1733430052.6001406
 docs_top100_domains: '[["wikipedia.org", 118223], ["jornalet.com", 11701], ["blogspot.com",
   4062], ["vincent-lefrancois.com", 3074], ["occitanparis.com", 2293], ["aquodaqui.info",
   1788], ["blogspot.be", 1552], ["sudouest.fr", 1542], ["dordognelibre.fr", 1196],
@@ -135,8 +135,8 @@ docs_wds: '[[5, 5339], [5.1, 5155], [5.2, 4676], [5.3, 4523], [5.4, 4272], [5.5,
   2344], [8.9, 2232], [9, 1743], [9.1, 1761], [9.2, 1238], [9.3, 1103], [9.4, 818],
   [9.5, 485], [9.6, 384], [9.7, 243], [9.8, 90], [9.9, 12], [10, 15]]'
 corpus: oci_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 191075, "no_urls": 36200, "no_bad_encoding":
-  2386, "pii": 3156}'
+hardrules_tags: '{"not_too_long": 43911, "not_too_short": 464872, "no_urls": 43317,
+  "no_bad_encoding": 2386, "pii": 3156}'
 sentence_pairs: 4194906
 src_bytes: 621.05 MB
 src_chars: 631394992
@@ -479,8 +479,17 @@ src_unique_sents: '[[0, 1], [1, 29496], [2, 31772], [3, 39985], [4, 42643], [5, 
   [20383, 1], [20727, 1], [38352, 1], [98381, 1], [113854, 1], [117054, 1], [206179,
   1]]'
 srclang: oc
-timestamp: 1730390110.4282355
+timestamp: 1733431530.7612453
 unique_sents: 1267789
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_ngrams_oc_nostopwords
+src_ngrams: '{"1": [[["e"], 2490409], [["l"], 2036095], [["d"], 1965628], [["en"],
+  1652824], [["modificar"], 1171034]], "2": [[["e l"], 65497], [["e d"], 61088], [["en
+  franc\u00e9s"], 35377], [["e en"], 31816], [["en occitan"], 30570]], "3": [[["modificar
+  la font"], 568442], [["e la region"], 26962], [["lu\u00f2cs e monuments"], 15517],
+  [["e de l"], 14941], [["amb la comuna"], 14525]], "4": [[["situada dins lo departament"],
+  22448], [["ligadas amb la comuna"], 14392], [["mail et un site"], 10245], [["et
+  un site internet"], 10245], [["aquesta pagina concern\u00eds l"], 8190]], "5": [[["personalitats
+  ligadas amb la comuna"], 14381], [["mail et un site internet"], 10245], [["situada
+  dins lo departament d"], 5805], [["des noms de lieux en"], 5259], [["noms de lieux
+  en france"], 5255]]}'
