@@ -45,7 +45,7 @@ docs_segments: '[[1, 1359], [2, 4910], [3, 4378], [4, 4279], [5, 2670], [6, 2697
   1], [6709, 2]]'
 docs_segments_mean: 16
 docs_segments_median: 7
-docs_timestamp: 1730908956.5067475
+docs_timestamp: 1733496986.795261
 docs_top100_domains: '[["wikipedia.org", 15567], ["serbske-nowiny.de", 5373], ["slonskogodka.com",
   3360], ["mapa-kodow-pocztowych.pl", 1781], ["wachtyrz.eu", 1239], ["chopwkuchni.pl",
   1009], ["rozhlad.de", 938], ["rymy.eu", 680], ["domowina-verlag.de", 449], ["gryfnie.com",
@@ -102,8 +102,8 @@ docs_wds: '[[5, 1167], [5.1, 966], [5.2, 811], [5.3, 761], [5.4, 804], [5.5, 840
   [9, 455], [9.1, 394], [9.2, 204], [9.3, 111], [9.4, 68], [9.5, 50], [9.6, 44], [9.7,
   21], [9.8, 16], [9.9, 8], [10, 4]]'
 corpus: szl_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 49128, "no_urls": 4932, "no_bad_encoding":
-  100, "pii": 379}'
+hardrules_tags: '{"not_too_long": 9121, "not_too_short": 119550, "no_urls": 5650,
+  "no_bad_encoding": 102, "pii": 379}'
 sentence_pairs: 636571
 src_bytes: 104.72 MB
 src_chars: 103242084
@@ -397,9 +397,19 @@ src_unique_sents: '[[0, 1], [1, 8465], [2, 8767], [3, 12963], [4, 13867], [5, 14
   1], [5651, 1], [5995, 1], [5999, 53], [6272, 1], [6647, 1], [6681, 1], [7272, 1],
   [9477, 1], [9658, 1], [11501, 1], [103151, 1]]'
 srclang: szl
-timestamp: 1730909269.609629
+timestamp: 1733497324.7385247
 unique_sents: 283641
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_szl_nostopwords
+src_ngrams: '{"1": [[["warszawa"], 87038], [["kod"], 77441], [["pocztowy"], 76999],
+  [["so"], 66013], [["jo"], 46665]], "2": [[["kod pocztowy"], 76941], [["warszawa
+  kod"], 23807], [["warszawa warszawa"], 11667], [["ruda \u015bl\u0105ska"], 9550],
+  [["\u015bl\u0105ska kod"], 8043]], "3": [[["warszawa kod pocztowy"], 23807], [["\u015bl\u0105ska
+  kod pocztowy"], 8043], [["ruda \u015bl\u0105ska kod"], 8040], [["warszawa mazowieckie
+  m"], 6338], [["bydgoszcz kod pocztowy"], 5684]], "4": [[["ruda \u015bl\u0105ska
+  kod pocztowy"], 8040], [["tynf tynf tynf tynf"], 5373], [["cycki cycki cycki cycki"],
+  3444], [["grodzisk mazowiecki kod pocztowy"], 1499], [["pocztowe w innych miejscowo\u015bciach"],
+  1047]], "5": [[["tynf tynf tynf tynf tynf"], 5372], [["cycki cycki cycki cycki cycki"],
+  3431], [["kody pocztowe w innych miejscowo\u015bciach"], 1047], [["k stawiznam a
+  kulturje serbow"], 460], [["wojtek jagielski na \u017cywowojtek jagielski"], 447]]}'
