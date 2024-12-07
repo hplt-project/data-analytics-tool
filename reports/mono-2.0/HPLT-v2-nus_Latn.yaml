@@ -11,7 +11,7 @@ docs_segments: '[[1, 65], [2, 10], [3, 58], [4, 10], [5, 3], [6, 2], [7, 3], [8,
   [93, 5], [95, 5], [111, 5], [162, 2], [521, 1]]'
 docs_segments_mean: 31
 docs_segments_median: 4
-docs_timestamp: 1730801890.790342
+docs_timestamp: 1733499358.3924637
 docs_top100_domains: '[["bible.is", 115], ["indiana.edu", 65], ["consumer.vic.gov.au",
   27], ["jw.org", 25], ["nanetya-foundation.org", 9], ["ironchariots.org", 7], ["triquidechicahuaxtla.org",
   5], ["multicultural.vic.gov.au", 3], ["4laws.com", 3], ["nueronline.com", 2], ["blogspot.com",
@@ -25,7 +25,7 @@ docs_wds: '[[5, 75], [5.1, 57], [5.2, 50], [5.3, 20], [5.4, 16], [5.5, 18], [5.6
   8], [5.7, 8], [6.1, 4], [6.6, 2], [6.7, 1], [6.8, 3], [7.9, 1], [8, 1], [8.1, 6],
   [8.6, 2]]'
 corpus: nus_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 653, "no_urls": 9, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 394, "not_too_short": 755, "no_urls": 9, "no_bad_encoding":
   5, "pii": 3}'
 sentence_pairs: 8514
 src_bytes: 2.13 MB
@@ -167,9 +167,20 @@ src_unique_sents: '[[1, 12], [2, 129], [3, 18], [4, 107], [5, 70], [6, 109], [7,
   [2296, 1], [2337, 1], [2357, 1], [2393, 1], [2395, 1], [2449, 1], [2696, 1], [2782,
   1]]'
 srclang: nus
-timestamp: 1730801910.473203
+timestamp: 1733499379.9298453
 unique_sents: 2720
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_nus_nostopwords
+src_ngrams: '{"1": [[["k\u025b"], 18498], [["k\u00e4"], 16475], [["\u0263\u00f6\u00f6"],
+  5735], [["ji"], 5551], [["\u025b"], 5545]], "2": [[["k\u025b \u0263\u00f6\u00f6"],
+  3025], [["k\u025b kui"], 1751], [["k\u00e4 cu"], 1364], [["\u025bn \u0263\u00f6\u00f6"],
+  1360], [["k\u00e4 cu\u025b"], 1327]], "3": [[["k\u00e4 duund\u025b \u0263\u00f6\u00f6"],
+  257], [["k\u025b \u0263\u00f6\u00f6 b\u025b"], 256], [["k\u00e4 cu\u025b j\u025b"],
+  234], [["k\u00e4 cu\u025b k\u025b"], 206], [["ir\u00e4 jiye kuna"], 204]], "4":
+  [[["g\u0254aa in r\u025bl r\u0254"], 92], [["k\u00e4 cu\u025b k\u025b ji\u00f6k"],
+  83], [["k\u025b run ti kur"], 71], [["cu yecu j\u025b ji\u00f6k"], 62], [["cu yecu
+  k\u025b ji\u00f6k"], 56]], "5": [[["yi\u00eb\u00eb in g\u0254aa in r\u025bl"], 76],
+  [["l\u025b te k\u025b run ti"], 40], [["k\u00e4 ni \u025bn gu\u00e4th \u025bm\u0254"],
+  34], [["tin ci kuoth k\u025b l\u025by"], 33], [["jes\u00fas ktei bata sh\u00e4k
+  wa"], 33]]}'
