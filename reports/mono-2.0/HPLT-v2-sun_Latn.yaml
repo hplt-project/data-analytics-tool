@@ -139,8 +139,7 @@ docs_wds: '[[5, 1433], [5.1, 1354], [5.2, 1434], [5.3, 1358], [5.4, 1487], [5.5,
   2564], [8.9, 2758], [9, 2860], [9.1, 1891], [9.2, 1592], [9.3, 1670], [9.4, 1507],
   [9.5, 1380], [9.6, 1321], [9.7, 873], [9.8, 532], [9.9, 227], [10, 71]]'
 corpus: sun_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 366550, "no_urls": 45979, "no_bad_encoding":
-  624, "pii": 2571}'
+hardrules_tags: '{"not_too_long": 28987, "not_too_short": 366550, "no_urls": 50489, "no_bad_encoding": 624,   "pii": 2571}'
 sentence_pairs: 3237757
 src_bytes: 457.68 MB
 src_chars: 472202737
