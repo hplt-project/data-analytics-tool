@@ -62,7 +62,7 @@ docs_segments: '[[1, 1636], [2, 1226], [3, 2007], [4, 2550], [5, 1992], [6, 2374
   [1071, 1], [1113, 1], [1117, 1], [1328, 1], [1570, 1]]'
 docs_segments_mean: 25
 docs_segments_median: 15
-docs_timestamp: 1730994370.183535
+docs_timestamp: 1733490835.6334956
 docs_top100_domains: '[["jw.org", 6031], ["vessoft.com", 2849], ["martech.zone", 1917],
   ["wikipedia.org", 1001], ["bbc.com", 744], ["kaoditaa.com", 712], ["igboradio.com",
   626], ["actualidadviajes.com", 623], ["androidsis.com", 606], ["eturbonews.com",
@@ -121,8 +121,8 @@ docs_wds: '[[5, 820], [5.1, 818], [5.2, 872], [5.3, 807], [5.4, 742], [5.5, 691]
   [8.9, 393], [9, 289], [9.1, 270], [9.2, 188], [9.3, 138], [9.4, 89], [9.5, 58],
   [9.6, 37], [9.7, 9], [9.8, 7], [9.9, 1]]'
 corpus: ibo_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 175247, "no_urls": 16727, "no_bad_encoding":
-  20, "pii": 1594}'
+hardrules_tags: '{"not_too_long": 7701, "not_too_short": 180358, "no_urls": 16846,
+  "no_bad_encoding": 29, "pii": 1594}'
 sentence_pairs: 1411417
 src_bytes: 229.43 MB
 src_chars: 203796797
@@ -534,8 +534,18 @@ src_unique_sents: '[[0, 9], [1, 8749], [2, 23913], [3, 34185], [4, 38599], [5, 4
   [3250, 1], [3375, 1], [3593, 1], [3666, 1], [3725, 1], [4105, 1], [11505, 1], [11506,
   1]]'
 srclang: ig
-timestamp: 1730995367.5055199
+timestamp: 1733492017.8990128
 unique_sents: 971706
 warnings:
 - src_fasttext
-- src_ngrams_ig_nostopwords
+src_ngrams: '{"1": [[["na-"], 1266269], [["n''"], 692489], [["nd\u1ecb"], 631747],
+  [["ya"], 493217], [["ike"], 384300]], "2": [[["nwere ike"], 161924], [["na- eme"],
+  76694], [["nd\u1ecb na-"], 76423], [["nd\u1ecb \u1ecdz\u1ecd"], 75476], [["iche
+  iche"], 72694]], "3": [[["na- ar\u1ee5 \u1ecdr\u1ee5"], 33096], [["onye \u1ecd b\u1ee5la"],
+  18490], [["enye g\u1ecb ohere"], 15128], [["any\u1ecb nwere ike"], 13358], [["ole
+  na ole"], 12394]], "4": [[["b\u1ee5r\u1ee5 na \u1ecb na-"], 10227], [["ak\u1ee5k\u1ecd
+  ihe mere eme"], 6750], [["na- aga n'' ihu"], 6743], [["nwa nwa nwa nwa"], 5855],
+  [["na- enye g\u1ecb ohere"], 5458]], "5": [[["nwa nwa nwa nwa nwa"], 5680], [["the
+  software- enye g\u1ecb ohere"], 5009], [["na- ar\u1ee5 \u1ecdr\u1ee5 nke \u1ecdma"],
+  1940], [["na- eme ka \u1ecd b\u1ee5r\u1ee5"], 1566], [["nd\u1ecb na- eso \u1ee5z\u1ecd
+  ya"], 1553]]}'
