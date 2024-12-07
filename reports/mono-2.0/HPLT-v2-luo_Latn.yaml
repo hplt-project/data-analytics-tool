@@ -23,7 +23,7 @@ docs_segments: '[[1, 869], [2, 25], [3, 571], [4, 78], [5, 77], [6, 106], [7, 18
   [987, 1], [1170, 3], [1454, 4], [1486, 3], [2157, 1]]'
 docs_segments_mean: 20
 docs_segments_median: 9
-docs_timestamp: 1730384959.5694299
+docs_timestamp: 1733488561.404777
 docs_top100_domains: '[["bible.is", 1299], ["jw.org", 1080], ["bibles.org", 970],
   ["jaluo.com", 116], ["blogspot.com", 59], ["skyfm.co.ke", 53], ["blogspot.co.ke",
   40], ["egwwritings.org", 39], ["ebible.org", 31], ["dwonlwak.com", 31], ["pngscriptures.org",
@@ -65,8 +65,8 @@ docs_wds: '[[5, 58], [5.1, 51], [5.2, 50], [5.3, 62], [5.4, 58], [5.5, 49], [5.6
   117], [8.6, 163], [8.7, 126], [8.8, 152], [8.9, 122], [9, 113], [9.1, 82], [9.2,
   28], [9.3, 21], [9.4, 12], [9.5, 13], [9.6, 9], [9.8, 3]]'
 corpus: luo_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 4800, "no_urls": 504, "no_bad_encoding":
-  4, "pii": 182}'
+hardrules_tags: '{"not_too_long": 2849, "not_too_short": 10727, "no_urls": 553, "no_bad_encoding":
+  18, "pii": 182}'
 sentence_pairs: 84116
 src_bytes: 19.67 MB
 src_chars: 20245474
@@ -342,9 +342,18 @@ src_unique_sents: '[[1, 433], [2, 1897], [3, 1943], [4, 2244], [5, 2372], [6, 21
   1], [3852, 1], [4548, 1], [8526, 1], [12224, 1], [24289, 1], [36280, 1], [210868,
   1]]'
 srclang: luo
-timestamp: 1730385055.4856682
+timestamp: 1733488685.0130165
 unique_sents: 52703
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_luo_nostopwords
+src_ngrams: '{"1": [[["morite"], 181169], [["i"], 84822], [["ni"], 70848], [["ki"],
+  53027], [["e"], 46982]], "2": [[["morite morite"], 180621], [["ok ok"], 12787],
+  [["i kom"], 8591], [["ki i"], 7545], [["nono nono"], 4364]], "3": [[["morite morite
+  morite"], 180075], [["ok ok ok"], 12529], [["nono nono nono"], 4184], [["woko ki
+  i"], 1520], [["i ot pa"], 908]], "4": [[["morite morite morite morite"], 179529],
+  [["ok ok ok ok"], 12327], [["nono nono nono nono"], 4091], [["moritemorite morite
+  morite morite"], 540], [["morite moritemorite morite morite"], 540]], "5": [[["morite
+  morite morite morite morite"], 178983], [["ok ok ok ok ok"], 12148], [["nono nono
+  nono nono nono"], 4052], [["moritemorite morite morite morite morite"], 540], [["morite
+  moritemorite morite morite morite"], 540]]}'
