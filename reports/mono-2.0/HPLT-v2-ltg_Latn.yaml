@@ -26,7 +26,7 @@ docs_segments: '[[1, 154], [2, 270], [3, 632], [4, 683], [5, 860], [6, 736], [7,
   [270, 1], [307, 1], [319, 1], [630, 1], [714, 5], [889, 1], [1292, 1]]'
 docs_segments_mean: 16
 docs_segments_median: 9
-docs_timestamp: 1730796873.63902
+docs_timestamp: 1733496171.3820405
 docs_top100_domains: '[["lakuga.lv", 3336], ["wikipedia.org", 1789], ["lgsc.lv", 1314],
   ["naktineica.lv", 352], ["bonuks.lv", 295], ["cyxob.lv", 268], ["lsm.lv", 191],
   ["rezeknesbiblioteka.lv", 96], ["sciencegraph.net", 89], ["jw.org", 80], ["newfuels.eu",
@@ -68,7 +68,7 @@ docs_wds: '[[5, 106], [5.1, 97], [5.2, 77], [5.3, 92], [5.4, 99], [5.5, 96], [5.
   173], [9.2, 165], [9.3, 120], [9.4, 99], [9.5, 97], [9.6, 81], [9.7, 32], [9.8,
   20], [9.9, 1], [10, 2]]'
 corpus: ltg_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 16276, "no_urls": 5599, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 1465, "not_too_short": 16300, "no_urls": 5828, "no_bad_encoding":
   0, "pii": 730}'
 sentence_pairs: 151382
 src_bytes: 27.41 MB
@@ -211,9 +211,19 @@ src_unique_sents: '[[0, 1], [1, 944], [2, 1936], [3, 2558], [4, 3077], [5, 3244]
   1], [829, 1], [906, 1], [965, 1], [1074, 1], [1100, 1], [1124, 1], [1201, 1], [1228,
   1], [1794, 1], [2113, 1], [3491, 1]]'
 srclang: ltg
-timestamp: 1730796972.1994805
+timestamp: 1733496277.087237
 unique_sents: 77506
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_ltg_nostopwords
+src_ngrams: '{"1": [[["i"], 118799], [["ir"], 55420], [["nu"], 38709], [["par"], 38067],
+  [["kai"], 28443]], "2": [[["labot pirmkodu"], 2730], [["tys ir"], 2658], [["latgolys
+  studentu"], 2636], [["par t\u016b"], 2421], [["latgal\u012b\u0161u rokstu"], 2093]],
+  "3": [[["latgolys studentu centrs"], 1875], [["latgal\u012b\u0161u rokstu vol\u016bdys"],
+  1133], [["latgal\u012b\u0161u kulturys goda"], 706], [["pi myusim latgol\u0101"],
+  637], [["fikys fikys fikys"], 579]], "4": [[["fikys fikys fikys fikys"], 578], [["latgal\u012b\u0161u
+  kulturys goda bolvys"], 356], [["n\u016bvoda teritoriskais padal\u012b\u0146s latgol\u0101"],
+  235], [["kyskys kys kyskys kys"], 232], [["kys kyskys kys kyskys"], 232]], "5":
+  [[["fikys fikys fikys fikys fikys"], 577], [["kys kyskys kys kyskys kys"], 232],
+  [["kyskys kys kyskys kys kyskys"], 224], [["latgal\u012b\u0161u kulturys zi\u0146u
+  portals lakuga"], 206], [["god\u0101 solu reorganizej kai pogostu"], 184]]}'
