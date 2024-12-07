@@ -21,7 +21,7 @@ docs_segments: '[[1, 54], [2, 101], [3, 125], [4, 152], [5, 130], [6, 94], [7, 1
   [193, 2], [221, 2], [248, 1], [329, 2], [330, 1], [463, 2]]'
 docs_segments_mean: 22
 docs_segments_median: 14
-docs_timestamp: 1730979395.28018
+docs_timestamp: 1733501175.9220326
 docs_top100_domains: '[["pib.gov.in", 748], ["narendramodi.in", 642], ["lakhipuronline.in",
   535], ["vikaspedia.in", 348], ["manipurimirror.com", 151], ["naharolgithoudang.in",
   69], ["jw.org", 65], ["gotquestions.org", 53], ["bahai.in", 40], ["pmindia.gov.in",
@@ -48,7 +48,7 @@ docs_wds: '[[5, 46], [5.1, 29], [5.2, 28], [5.3, 29], [5.4, 24], [5.5, 28], [5.6
   [8.6, 80], [8.7, 70], [8.8, 56], [8.9, 81], [9, 86], [9.1, 65], [9.2, 57], [9.3,
   57], [9.4, 56], [9.5, 42], [9.6, 77], [9.7, 65], [9.8, 58], [9.9, 34], [10, 14]]'
 corpus: mni_Beng.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 3023, "no_urls": 768, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 954, "not_too_short": 14189, "no_urls": 768, "no_bad_encoding":
   0, "pii": 25}'
 sentence_pairs: 65762
 src_bytes: 29.36 MB
@@ -164,8 +164,32 @@ src_unique_sents: '[[0, 1], [1, 360], [2, 873], [3, 1013], [4, 1292], [5, 1076],
   1], [541, 1], [558, 1], [565, 1], [585, 1], [587, 1], [611, 1], [613, 1], [653,
   1], [678, 1], [696, 2], [698, 1], [826, 1], [1110, 1]]'
 srclang: mni
-timestamp: 1730979459.2499924
+timestamp: 1733501245.5006986
 unique_sents: 40126
 warnings:
 - src_fasttext
-- src_ngrams_mni_nostopwords
+src_ngrams: '{"1": [[["\u0985\u09ae\u09b8\u09c1\u0982"], 40811], [["\u0985\u09b8\u09bf"],
+  20441], [["\u0985\u09ae\u09be"], 12021], [["\u0985\u09b8\u09bf\u09a6\u09be"], 8575],
+  [["\u0985\u09b8\u09bf\u09a8\u09be"], 8013]], "2": [[["\u09aa\u09cd\u09b0\u09a7\u09be\u09a8
+  \u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0\u09a8\u09be"], 2777], [["\u09b2\u09c8\u09ac\u09be\u0995
+  \u0985\u09b8\u09bf\u0997\u09c0"], 1652], [["pmo india"], 1496], [["\u09b2\u09c8\u09ac\u09be\u0995
+  \u0985\u09b8\u09bf\u09a6\u09be"], 1091], [["\u09ae\u09b0\u09c1 \u0993\u0987\u09ac\u09be"],
+  1088]], "3": [[["by pib imphal"], 748], [["\u09aa\u09cd\u09b0\u09a7\u09be\u09a8
+  \u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0\u09a8\u09be \u09b9\u09be\u09af\u09bc\u0996\u09bf"],
+  559], [["\u09b6\u09cd\u09b0\u09c0 \u09a8\u09b0\u09c7\u09a8\u09cd\u09a6\u09cd\u09b0
+  \u09ae\u09cb\u09a6\u09c0\u09a8\u09be"], 558], [["\u09b9\u09be\u09af\u09bc\u09a8\u09be
+  \u09aa\u09cd\u09b0\u09a7\u09be\u09a8 \u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0\u09a8\u09be"],
+  528], [["\u09aa\u09cd\u09b0\u09a7\u09be\u09a8 \u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0
+  \u09b6\u09cd\u09b0\u09c0"], 443]], "4": [[["\u09aa\u09cd\u09b0\u09a7\u09be\u09a8
+  \u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0 \u09b6\u09cd\u09b0\u09c0 \u09a8\u09b0\u09c7\u09a8\u09cd\u09a6\u09cd\u09b0"],
+  404], [["read this release in"], 306], [["\u09ac\u09b0\u09be\u0995 \u09a4\u09ae\u09cd\u09aa\u09be\u0995\u09cd\u0995\u09c0
+  \u0996\u09cb\u09ae\u099c\u09bf\u09a8\u09ac\u09be \u09aa\u09be\u0989"], 169], [["\u09aa\u09cd\u09b0\u09a7\u09be\u09a8
+  \u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0\u09a8\u09be \u09b9\u09be\u09af\u09bc\u0996\u09bf
+  \u09ae\u09a6\u09c1\u09a6\u09bf"], 167], [["\u09b9\u0995\u09b6\u09c7\u09b2 \u0985\u09ae\u09b8\u09c1\u0982
+  \u09af\u09bc\u09be\u0987\u09ab-\u09af\u09bc\u09c1\u09ae\u09cd\u09ac\u09be\u09b2
+  \u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09be\u09b2\u09af\u09bc"], 154]], "5": [[["\u09aa\u09cd\u09b0\u09a7\u09be\u09a8
+  \u09ae\u09a8\u09cd\u09a4\u09cd\u09b0\u09c0 \u09b6\u09cd\u09b0\u09c0 \u09a8\u09b0\u09c7\u09a8\u09cd\u09a6\u09cd\u09b0
+  \u09ae\u09cb\u09a6\u09c0\u09a8\u09be"], 329], [["\u09b9\u09cc\u0996\u09bf\u09ac\u09be
+  \u09aa\u09c1\u0982 \u09e8\u09ea\u09a6\u09be \u0985\u09a8\u09cc\u09ac\u09be \u0995\u09c7\u09b8"],
+  75], [["asi ga loinana atei e-pao"], 74], [["sing asi ga loinana atei"], 72], [["pao
+  sing asi ga loinana"], 72]]}'
