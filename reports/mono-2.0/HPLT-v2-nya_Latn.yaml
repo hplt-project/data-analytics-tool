@@ -60,7 +60,7 @@ docs_segments: '[[1, 1613], [2, 1119], [3, 1552], [4, 1586], [5, 1816], [6, 1906
   [2462, 2]]'
 docs_segments_mean: 25
 docs_segments_median: 16
-docs_timestamp: 1731332631.8926594
+docs_timestamp: 1733497924.4413207
 docs_top100_domains: '[["jw.org", 5833], ["wondershare.com", 4287], ["recetin.com",
   1560], ["eturbonews.com", 1028], ["mwnation.com", 994], ["martech.zone", 930], ["androidsis.com",
   903], ["heartsandlaserbeams.com", 792], ["wikipedia.org", 607], ["biblica.com",
@@ -119,8 +119,8 @@ docs_wds: '[[5, 388], [5.1, 345], [5.2, 324], [5.3, 350], [5.4, 372], [5.5, 374]
   [9, 2033], [9.1, 1037], [9.2, 928], [9.3, 724], [9.4, 732], [9.5, 814], [9.6, 799],
   [9.7, 543], [9.8, 340], [9.9, 133], [10, 48]]'
 corpus: nya_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 150462, "no_urls": 15689, "no_bad_encoding":
-  51, "pii": 1602}'
+hardrules_tags: '{"not_too_long": 7449, "not_too_short": 157851, "no_urls": 18478,
+  "no_bad_encoding": 58, "pii": 1602}'
 sentence_pairs: 1343861
 src_bytes: 193.85 MB
 src_chars: 201626613
@@ -363,9 +363,19 @@ src_unique_sents: '[[0, 1], [1, 7332], [2, 23784], [3, 35138], [4, 40734], [5, 4
   [2101, 1], [2104, 1], [2214, 1], [2352, 1], [2391, 1], [3023, 1], [3278, 1], [5569,
   1], [6469, 1], [9266, 1], [9267, 1], [151009, 1], [151048, 1]]'
 srclang: ny
-timestamp: 1731333317.6332152
+timestamp: 1733498668.5576253
 unique_sents: 929671
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_ny_nostopwords
+src_ngrams: '{"1": [[["ndi"], 1159321], [["ku"], 226053], [["m"], 199500], [["ndipo"],
+  184270], [["ya"], 170552]], "2": [[["ali ndi"], 27176], [["akaunti yakubanki"],
+  16677], [["nthawi zonse"], 16061], [["nthawi zambiri"], 15304], [["ndi zina"], 14376]],
+  "3": [[["padziko lonse lapansi"], 7861], [["omwe ali ndi"], 7361], [["mboni za yehova"],
+  4847], [["ndi zina zambiri"], 4494], [["tsiku ndi tsiku"], 3129]], "4": [[["kayendetsedwe
+  ka kayendetsedwe ka"], 2212], [["ka kayendetsedwe ka kayendetsedwe"], 2153], [["akaunti
+  yakubanki yamabizinesi ang"], 1791], [["wolankhula wathu support team"], 1741],
+  [["otsegulira maakaunti aku banki"], 1653]], "5": [[["kayendetsedwe ka kayendetsedwe
+  ka kayendetsedwe"], 2146], [["ka kayendetsedwe ka kayendetsedwe ka"], 2076], [["zomwe
+  zimagwiritsidwa ntchito pa nthawi"], 1100], [["zokhudza nkhaniyi zilipo pa amazon"],
+  1100], [["zimagwiritsidwa ntchito pa nthawi yogula"], 1100]]}'
