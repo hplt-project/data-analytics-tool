@@ -34,10 +34,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const dName = router.query.file;
 
-  const filename = router.query.file
-    .replace("HPLT-v2-", "")
-    .replace(".yaml", "")
-    .replace(".lite", "");
+  const filename = router.query.file.replace(".yaml", "");
 
   const sampleData = SAMPLE_DATA;
 
@@ -428,7 +425,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   useEffect(() => {
     if (footNote) {
-      exportMultipleChartsToPdf(reportData.corpus, offLoading);
+      exportMultipleChartsToPdf(filename, offLoading);
     }
   }, [footNote]);
 
@@ -1377,7 +1374,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
             setFootNote(true);
             setLoadingPdf(true);
             if (footNote) {
-              exportMultipleChartsToPdf(reportData.corpus, offLoading);
+              exportMultipleChartsToPdf(filename, offLoading);
             }
           }}
         >
