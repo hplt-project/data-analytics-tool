@@ -82,8 +82,7 @@ docs_wds: '[[5, 88], [5.1, 123], [5.2, 74], [5.3, 85], [5.4, 84], [5.5, 76], [5.
   [9.2, 142], [9.3, 198], [9.4, 143], [9.5, 169], [9.6, 164], [9.7, 136], [9.8, 67],
   [9.9, 31], [10, 21]]'
 corpus: tpi_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 13147, "no_urls": 785, "no_bad_encoding":
-  0, "pii": 121}'
+hardrules_tags: '{"not_too_long": 6316, "not_too_short": 51742, "no_urls": 974, "no_bad_encoding": 0,   "pii": 121}'
 sentence_pairs: 282367
 src_bytes: 61.65 MB
 src_chars: 64257063
