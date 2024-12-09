@@ -715,8 +715,7 @@ docs_wds: '[[5, 1189841], [5.1, 1201377], [5.2, 1250264], [5.3, 1282652], [5.4, 
   [9.2, 1217060], [9.3, 979476], [9.4, 815368], [9.5, 703784], [9.6, 618661], [9.7,
   427404], [9.8, 345716], [9.9, 119281], [10, 25381]]'
 corpus: HPLT-v2-nld_Latn.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 241387217, "no_urls": 69411384,
-  "no_bad_encoding": 223303, "pii": 32659379}'
+hardrules_tags: '{"not_too_long": 25363058, "not_too_short": 547453039, "no_urls": 71042308, "no_bad_encoding": 300701,   "pii": 32659379}'
 sentence_pairs: 3074576227
 src_bytes: 419.09 GB
 src_chars: 448140483636
