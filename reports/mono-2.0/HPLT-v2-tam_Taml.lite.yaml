@@ -360,8 +360,7 @@ docs_wds: '[[5, 37484], [5.1, 38524], [5.2, 42192], [5.3, 39158], [5.4, 41547], 
   [9.1, 123220], [9.2, 99955], [9.3, 86030], [9.4, 83222], [9.5, 92356], [9.6, 117299],
   [9.7, 102358], [9.8, 78265], [9.9, 35359], [10, 8964]]'
 corpus: HPLT-v2-tam_Taml.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 11413488, "no_urls": 1010376,
-  "no_bad_encoding": 2974, "pii": 148404}'
+hardrules_tags: '{"not_too_long": 1287709, "not_too_short": 24676912, "no_urls": 1441168, "no_bad_encoding": 5331,   "pii": 148404}'
 sentence_pairs: 168591779
 src_bytes: 64.51 GB
 src_chars: 26076202009
