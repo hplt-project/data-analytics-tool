@@ -39,7 +39,7 @@ docs_segments: '[[1, 8274], [2, 163], [3, 4875], [4, 887], [5, 992], [6, 1125], 
   2], [1359, 1], [1368, 1], [1601, 1], [2020, 2], [2399, 1]]'
 docs_segments_mean: 13
 docs_segments_median: 8
-docs_timestamp: 1730975875.4929595
+docs_timestamp: 1733728662.5717332
 docs_top100_domains: '[["wikipedia.org", 14284], ["bible.is", 12596], ["jw.org", 3639],
   ["mndigital.org", 1321], ["ebible.org", 667], ["bibles.org", 415], ["biblegateway.com",
   388], ["wikimedia.org", 291], ["bible.com", 172], ["biblica.com", 169], ["wol-children.net",
@@ -88,8 +88,8 @@ docs_wds: '[[5, 729], [5.1, 624], [5.2, 754], [5.3, 632], [5.4, 740], [5.5, 611]
   2070], [9.1, 5529], [9.2, 177], [9.3, 144], [9.4, 124], [9.5, 108], [9.6, 75], [9.7,
   56], [9.8, 28], [9.9, 7], [10, 12]]'
 corpus: quy_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 69681, "no_urls": 4045, "no_bad_encoding":
-  32, "pii": 137}'
+hardrules_tags: '{"not_too_long": 18624, "not_too_short": 76085, "no_urls": 4601,
+  "no_bad_encoding": 32, "pii": 137}'
 sentence_pairs: 494253
 src_bytes: 138.87 MB
 src_chars: 142953215
@@ -620,9 +620,21 @@ src_unique_sents: '[[0, 1], [1, 1939], [2, 8287], [3, 9524], [4, 8947], [5, 9141
   1], [5443, 1], [5558, 1], [5634, 1], [5804, 1], [6094, 1], [6119, 1], [8253, 1],
   [37444, 1], [37618, 1]]'
 srclang: quy
-timestamp: 1730976235.5094767
+timestamp: 1733729075.27812
 unique_sents: 213654
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_quy_nostopwords
+src_ngrams: '{"1": [[["pi"], 111878], [["llamk"], 92886], [["apuy"], 90929], [["kin"],
+  88290], [["ra"], 77059]], "2": [[["pukyuta llamk"], 43849], [["mi manchi"], 12481],
+  [["pikachu pikachu"], 11594], [["kin he"], 11424], [["pi pi"], 11381]], "3": [[["pikachu
+  pikachu pikachu"], 10946], [["hinata hinata hinata"], 5710], [["nisqaqa multimidya
+  kapuyninkunayuqmi"], 5408], [["kapuyninkunayuqmi kay hawa"], 5408], [["commons nisqaqa
+  multimidya"], 5408]], "4": [[["pikachu pikachu pikachu pikachu"], 10869], [["hinata
+  hinata hinata hinata"], 5705], [["multimidya kapuyninkunayuqmi kay hawa"], 5408],
+  [["commons nisqaqa multimidya kapuyninkunayuqmi"], 5408], [["spamspamspamspamspam
+  spamspamspamspamspam spamspamspamspamspam spamspamspamspamspam"], 2930]], "5": [[["pikachu
+  pikachu pikachu pikachu pikachu"], 10827], [["hinata hinata hinata hinata hinata"],
+  5700], [["nisqaqa multimidya kapuyninkunayuqmi kay hawa"], 5408], [["spamspamspamspamspam
+  spamspamspamspamspam spamspamspamspamspam spamspamspamspamspam spamspamspamspamspam"],
+  2921], [["nisqapi suyukunata uyarinakunatapas tarinki kaymantam"], 2681]]}'
