@@ -31,7 +31,7 @@ docs_segments: '[[1, 672], [2, 170], [3, 695], [4, 309], [5, 301], [6, 283], [7,
   [877, 5], [892, 1], [1003, 5], [1067, 5], [1080, 3], [1146, 4], [2408, 1]]'
 docs_segments_mean: 28
 docs_segments_median: 8
-docs_timestamp: 1730370225.5688243
+docs_timestamp: 1733819787.9032712
 docs_top100_domains: '[["wikipedia.org", 2481], ["bible.is", 1002], ["jw.org", 298],
   ["iqna.ir", 181], ["wolof-online.com", 170], ["jangwolof.com", 134], ["sacred-texts.com",
   111], ["sciencegraph.net", 102], ["senegalhit.com", 62], ["osad-sn.com", 52], ["defuwaxu.com",
@@ -74,8 +74,8 @@ docs_wds: '[[5, 126], [5.1, 96], [5.2, 79], [5.3, 71], [5.4, 80], [5.5, 38], [5.
   99], [8.6, 174], [8.7, 125], [8.8, 109], [8.9, 114], [9, 132], [9.1, 124], [9.2,
   33], [9.3, 25], [9.4, 36], [9.5, 17], [9.6, 33], [9.7, 35], [9.8, 8], [9.9, 5]]'
 corpus: wol_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 10714, "no_urls": 972, "no_bad_encoding":
-  30, "pii": 83}'
+hardrules_tags: '{"not_too_long": 2637, "not_too_short": 13394, "no_urls": 1056, "no_bad_encoding":
+  32, "pii": 83}'
 sentence_pairs: 161474
 src_bytes: 27.2 MB
 src_chars: 27386737
@@ -362,9 +362,18 @@ src_unique_sents: '[[0, 1], [1, 802], [2, 1272], [3, 1364], [4, 2048], [5, 2589]
   1], [2477, 1], [2518, 1], [2524, 1], [2558, 1], [2568, 1], [2607, 1], [2643, 1],
   [2696, 1], [2795, 1], [2982, 1], [3097, 1]]'
 srclang: wo
-timestamp: 1730370349.8174894
+timestamp: 1733819944.3816168
 unique_sents: 57857
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_wo_nostopwords
+src_ngrams: '{"1": [[["lo"], 13720], [["soppi"], 13333], [["yeesu"], 12878], [["nii"],
+  12146], [["xaa"], 11426]], "2": [[["soppi gongikuwaay"], 3713], [["l\u00eb\u00eb
+  xaa"], 2429], [["xaa nii"], 1712], [["doom doom"], 1674], [["votez mankoo"], 1664]],
+  "3": [[["votez mankoo taxawu"], 1664], [["taxawu senegaal votez"], 1651], [["doom
+  doom doom"], 1355], [["abc def abc"], 726], [["benno bok yaakaar"], 721]], "4":
+  [[["taxawu senegaal votez mankoo"], 1651], [["mankoo taxawu senegaal votez"], 1651],
+  [["doom doom doom doom"], 1158], [["dund gu dul jeex"], 341], [["sunu boroom subhaanahu
+  wa"], 318]], "5": [[["votez mankoo taxawu senegaal votez"], 1651], [["taxawu senegaal
+  votez mankoo taxawu"], 1651], [["mankoo taxawu senegaal votez mankoo"], 1651], [["doom
+  doom doom doom doom"], 1131], [["abc def abc def abc"], 716]]}'
