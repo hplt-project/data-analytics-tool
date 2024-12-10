@@ -679,7 +679,7 @@ docs_wds: '[[5, 1592582], [5.1, 1614722], [5.2, 1700596], [5.3, 1745296], [5.4, 
   [9.2, 3140468], [9.3, 2575435], [9.4, 2021509], [9.5, 1756930], [9.6, 1473104],
   [9.7, 1046619], [9.8, 686455], [9.9, 312631], [10, 107079]]'
 corpus: HPLT-v2-pol_Latn.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 556447024, "no_urls": 120496066, "no_bad_encoding": 126234, "pii": 25132501}'
+hardrules_tags: '{"not_too_long": 43081132, "not_too_short": 817567811, "no_urls": 125126541, "no_bad_encoding": 140633, "pii": 25132501}'
 sentence_pairs: 4460824697
 src_bytes: 615.5 GB
 src_chars: 627308403809
