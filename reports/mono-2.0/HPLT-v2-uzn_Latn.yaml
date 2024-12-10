@@ -193,8 +193,7 @@ docs_wds: '[[5, 13900], [5.1, 14327], [5.2, 14836], [5.3, 14555], [5.4, 14696], 
   [9.2, 4466], [9.3, 3706], [9.4, 3060], [9.5, 2305], [9.6, 1634], [9.7, 1062], [9.8,
   650], [9.9, 336], [10, 68]]'
 corpus: uzn_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 1363287, "no_urls": 266769,
-  "no_bad_encoding": 561, "pii": 24663}'
+hardrules_tags: '{"not_too_long": 270082, "not_too_short": 1746408, "no_urls": 277454, "no_bad_encoding": 632, "pii": 24663}'
 sentence_pairs: 14800770
 src_bytes: 2.72 GB
 src_chars: 2831493777
