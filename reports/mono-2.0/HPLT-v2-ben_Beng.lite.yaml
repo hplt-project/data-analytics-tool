@@ -305,8 +305,7 @@ docs_wds: '[[5, 68892], [5.1, 46094], [5.2, 45127], [5.3, 49055], [5.4, 54974], 
   96444], [9, 89541], [9.1, 73492], [9.2, 40410], [9.3, 32000], [9.4, 27180], [9.5,
   23156], [9.6, 18201], [9.7, 12051], [9.8, 6692], [9.9, 2389], [10, 509]]'
 corpus: HPLT-v2-ben_Beng.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 12410894, "no_urls": 1155831,
-  "no_bad_encoding": 4895, "pii": 184487}'
+hardrules_tags: '{"not_too_long": 1849097, "not_too_short": 16228532, "no_urls": 1245474, "no_bad_encoding": 5231,   "pii": 184487}'
 sentence_pairs: 176013069
 src_bytes: 73.69 GB
 src_chars: 29990290840
