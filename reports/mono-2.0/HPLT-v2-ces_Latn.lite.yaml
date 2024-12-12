@@ -559,8 +559,7 @@ docs_wds: '[[5, 787323], [5.1, 799300], [5.2, 829392], [5.3, 853839], [5.4, 9138
   [9.2, 1141284], [9.3, 960471], [9.4, 847644], [9.5, 764588], [9.6, 690932], [9.7,
   504517], [9.8, 323901], [9.9, 128807], [10, 30009]]'
 corpus: HPLT-v2-ces_Latn.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 153232299, "no_urls": 45854885,
-  "no_bad_encoding": 58415, "pii": 16784201}'
+hardrules_tags: '{"not_too_long": 17496901, "not_too_short": 297398668, "no_urls": 52669098, "no_bad_encoding": 69335,   "pii": 16784201}'
 sentence_pairs: 1926496581
 src_bytes: 280.95 GB
 src_chars: 272085196889
