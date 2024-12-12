@@ -426,8 +426,7 @@ docs_wds: '[[5, 277142], [5.1, 276020], [5.2, 272288], [5.3, 270231], [5.4, 2890
   [9.4, 63931], [9.5, 49588], [9.6, 38429], [9.7, 26424], [9.8, 16136], [9.9, 6427],
   [10, 1769]]'
 corpus: HPLT-v2-hrv_Latn.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 41524322, "no_urls": 4705632,
-  "no_bad_encoding": 9353, "pii": 1218476}'
+hardrules_tags: '{"not_too_long": 3138356, "not_too_short": 45277014, "no_urls": 5394984, "no_bad_encoding": 9673 , "pii": 1218476}'
 sentence_pairs: 297130317
 src_bytes: 45.7 GB
 src_chars: 47710541358

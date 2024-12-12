@@ -710,8 +710,7 @@ docs_wds: '[[5, 1134766], [5.1, 1145455], [5.2, 1175660], [5.3, 1187111], [5.4, 
   [9.2, 914515], [9.3, 758765], [9.4, 651962], [9.5, 573913], [9.6, 463296], [9.7,
   288171], [9.8, 155089], [9.9, 59092], [10, 21298]]'
 corpus: HPLT-v2-ind_Latn.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 126108341, "no_urls": 63741417,
-  "no_bad_encoding": 318720, "pii": 3483544}'
+hardrules_tags: '{"not_too_long": 16004572, "not_too_short": 265961757, "no_urls": 68423703, "no_bad_encoding": 438520 , "pii": 3483544}'
 sentence_pairs: 2388663752
 src_bytes: 357.31 GB
 src_chars: 381930808361

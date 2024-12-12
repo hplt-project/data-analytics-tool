@@ -652,8 +652,7 @@ docs_wds: '[[5, 296170], [5.1, 299672], [5.2, 314310], [5.3, 324543], [5.4, 3526
   853895], [9.4, 808570], [9.5, 771677], [9.6, 748037], [9.7, 586449], [9.8, 395042],
   [9.9, 153470], [10, 36461]]'
 corpus: HPLT-v2-ukr_Cyrl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 128462876, "no_urls": 9069190,
-  "no_bad_encoding": 14247, "pii": 1660414}'
+hardrules_tags: '{"not_too_long": 8577446, "not_too_short": 144521992, "no_urls": 10671780, "no_bad_encoding": 15537,   "pii": 1660414}'
 sentence_pairs: 1169038099
 src_bytes: 306.5 GB
 src_chars: 181746006077
