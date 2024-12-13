@@ -274,8 +274,7 @@ docs_wds: '[[5, 40960], [5.1, 37882], [5.2, 39152], [5.3, 38029], [5.4, 43198], 
   [9.1, 180419], [9.2, 140423], [9.3, 118094], [9.4, 99590], [9.5, 89874], [9.6, 85273],
   [9.7, 74040], [9.8, 64547], [9.9, 33739], [10, 8201]]'
 corpus: HPLT-v2-azj_Latn.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 18534338, "no_urls": 3299068,
-  "no_bad_encoding": 4734, "pii": 131208}'
+hardrules_tags: '{"not_too_long": 1387106, "not_too_short": 18591579, "no_urls": 3708806, "no_bad_encoding": 5032,   "pii": 131208}'
 sentence_pairs: 126612778
 src_bytes: 21.06 GB
 src_chars: 19502117097
