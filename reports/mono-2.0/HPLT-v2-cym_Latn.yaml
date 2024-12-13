@@ -119,7 +119,7 @@ docs_segments: '[[1, 18582], [2, 18209], [3, 28847], [4, 44404], [5, 40073], [6,
   1], [24732, 1]]'
 docs_segments_mean: 21
 docs_segments_median: 12
-docs_timestamp: 1726477024.4791777
+docs_timestamp: 1734073477.8256536
 docs_top100_domains: '[["wikipedia.org", 125557], ["bbc.co.uk", 25245], ["bbc.com",
   18851], ["testunau.org", 14083], ["cardiff.ac.uk", 9892], ["llyw.cymru", 9872],
   ["blogspot.com", 9481], ["aber.ac.uk", 9007], ["soft-free-download.com", 7885],
@@ -183,8 +183,8 @@ docs_wds: '[[5, 6069], [5.1, 5965], [5.2, 6441], [5.3, 6318], [5.4, 6779], [5.5,
   7208], [9.3, 5515], [9.4, 4654], [9.5, 3939], [9.6, 3119], [9.7, 1846], [9.8, 1004],
   [9.9, 325], [10, 83]]'
 corpus: cym_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 981633, "no_urls": 265336, "no_bad_encoding":
-  158, "pii": 86341}'
+hardrules_tags: '{"not_too_long": 143540, "not_too_short": 1912720, "no_urls": 272455,
+  "no_bad_encoding": 268, "pii": 86341}'
 sentence_pairs: 15568883
 src_bytes: 2.25 GB
 src_chars: 2387082330
@@ -1082,16 +1082,15 @@ src_unique_sents: '[[0, 1], [1, 59567], [2, 196778], [3, 275472], [4, 287049], [
   [20102, 1], [25952, 1], [26732, 1], [110085, 1], [114696, 1], [135202, 1], [139413,
   1], [148817, 1], [150058, 1]]'
 srclang: cy
-timestamp: 1726493297.3117824
-ttr_src: 0.01
+timestamp: 1734088936.389032
 unique_sents: 7875808
 warnings:
 - src_warning_tok_moses_en
-src_ngrams: '{"1": [[["r"], 4049653], [["n"], 2517313], [["cymru"], 1146027], [["newydd"],
-  675258], [["golygu"], 512099]], "2": [[["golygu cod"], 147766], [["llywodraeth cymru"],
-  109475], [["plaid cymru"], 44567], [["unol daleithiau"], 42895], [["iechyd meddwl"],
-  38558]], "3": [[["cod y dudalen"], 147345], [["rhagor o wybodaeth"], 32955], [["ragor
-  o wybodaeth"], 19505], [["llywodraeth y du"], 17851], [["peidiwch ag anghofio"],
+src_ngrams: '{"1": [[["cymru"], 1146027], [["newydd"], 675258], [["golygu"], 512099],
+  [["gwaith"], 495576], [["cynnwys"], 456748]], "2": [[["golygu cod"], 147766], [["llywodraeth
+  cymru"], 109475], [["plaid cymru"], 44567], [["unol daleithiau"], 42895], [["iechyd
+  meddwl"], 38558]], "3": [[["cod y dudalen"], 147345], [["rhagor o wybodaeth"], 32955],
+  [["ragor o wybodaeth"], 19505], [["llywodraeth y du"], 17851], [["peidiwch ag anghofio"],
   17208]], "4": [[["golygu cod y dudalen"], 147331], [["g\u00eam hon gyda ''ch"],
   13000], [["plant a phobl ifanc"], 12447], [["barn am y g\u00eam"], 10073], [["peidiwch
   ag anghofio barn"], 10062]], "5": [[["rhannu g\u00eam hon gyda ''ch"], 12984], [["g\u00eam
