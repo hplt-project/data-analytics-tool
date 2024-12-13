@@ -13,7 +13,7 @@ docs_segments: '[[1, 1286], [2, 26], [3, 817], [4, 30], [5, 12], [6, 16], [7, 16
   2], [123, 1], [240, 2]]'
 docs_segments_mean: 4
 docs_segments_median: 1
-docs_timestamp: 1730991038.2033987
+docs_timestamp: 1734075016.6864502
 docs_top100_domains: '[["bible.is", 2105], ["bibles.org", 78], ["dandalkura.com",
   70], ["fivecowries.online", 41], ["ngbible.com", 38], ["ebible.org", 32], ["wikimedia.org",
   8], ["mp3songspk.info", 6], ["unicode.org", 5], ["blogspot.com", 5], ["philosophatekandy.org",
@@ -47,7 +47,7 @@ docs_wds: '[[5, 13], [5.1, 3], [5.2, 18], [5.3, 11], [5.4, 8], [5.5, 6], [5.6, 9
   [8, 121], [8.1, 140], [8.2, 183], [8.3, 136], [8.4, 136], [8.5, 112], [8.6, 333],
   [8.7, 104], [8.8, 75], [8.9, 132], [9, 81], [9.1, 122], [9.3, 1], [9.4, 1]]'
 corpus: knc_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 3136, "no_urls": 51, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 2355, "not_too_short": 3136, "no_urls": 51, "no_bad_encoding":
   0, "pii": 3}'
 sentence_pairs: 10521
 src_bytes: 13.01 MB
@@ -347,9 +347,18 @@ src_unique_sents: '[[1, 150], [2, 163], [3, 127], [4, 123], [5, 208], [6, 164], 
   1], [2701, 1], [2741, 1], [2770, 1], [2820, 1], [2853, 1], [3007, 1], [3025, 1],
   [3039, 1]]'
 srclang: knc
-timestamp: 1730991100.501903
+timestamp: 1734075107.084591
 unique_sents: 5151
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_knc_nostopwords
+src_ngrams: '{"1": [[["ka"], 59234], [["k\u0268"], 56711], [["na"], 50316], [["t\u0268"],
+  38743], [["t\u0259"], 33073]], "2": [[["t\u0268 k\u0268"], 5600], [["\u0259 n\u0259"],
+  4937], [["je k\u0268"], 4896], [["aye na"], 4564], [["ndo hay"], 3851]], "3": [[["ane
+  tuk na"], 1837], [["andza niye na"], 1194], [["bazlam i mb\u0259lom"], 1141], [["nj\u00e9
+  ndo je"], 972], [["de \u0259 n\u0259"], 899]], "4": [[["kate t kate t"], 896], [["t
+  kate t kate"], 894], [["k\u0268 ta luw\u0259 t\u0268"], 559], [["ndo m\u0259pe m\u0259dzal
+  g\u0259r"], 549], [["m\u0259pe m\u0259dzal g\u0259r hay"], 518]], "5": [[["t kate
+  t kate t"], 894], [["kate t kate t kate"], 893], [["ndo m\u0259pe m\u0259dzal g\u0259r
+  hay"], 495], [["m\u0259pe m\u0259dzal g\u0259r hay ka"], 489], [["m\u0259dzal g\u0259r
+  hay ka yesu"], 479]]}'

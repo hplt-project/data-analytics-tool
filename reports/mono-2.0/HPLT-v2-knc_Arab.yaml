@@ -14,7 +14,7 @@ docs_segments: '[[1, 4], [2, 2], [3, 5], [5, 5], [6, 6], [7, 7], [8, 3], [9, 7],
   [582, 2], [2004, 1]]'
 docs_segments_mean: 44
 docs_segments_median: 19
-docs_timestamp: 1730990874.6630363
+docs_timestamp: 1734074184.9416096
 docs_top100_domains: '[["ebible.org", 49], ["girlscoool.com", 18], ["breakeveryyoke.com",
   14], ["blogfa.com", 12], ["scribd.com", 10], ["fiisci-saafi.com", 8], ["7olm.org",
   7], ["mam9.com", 6], ["hackps.com", 5], ["blogspot.com", 5], ["forgottenlanguages.org",
@@ -50,7 +50,7 @@ docs_wds: '[[5, 3], [5.1, 2], [5.2, 2], [5.3, 5], [5.4, 3], [5.5, 1], [5.6, 4], 
   [8.2, 4], [8.3, 2], [8.4, 2], [8.6, 1], [8.7, 1], [8.8, 4], [8.9, 4], [9, 2], [9.1,
   4], [9.2, 3], [9.3, 6], [9.4, 4], [9.5, 1], [9.6, 2], [9.9, 1]]'
 corpus: knc_Arab.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 762, "no_urls": 15, "no_bad_encoding":
+hardrules_tags: '{"not_too_long": 29, "not_too_short": 1829, "no_urls": 15, "no_bad_encoding":
   0, "pii": 2}'
 sentence_pairs: 10828
 src_bytes: 2.22 MB
@@ -184,9 +184,26 @@ src_unique_sents: '[[1, 288], [2, 94], [3, 170], [4, 103], [5, 94], [6, 83], [7,
   1], [1114, 1], [1190, 1], [1332, 1], [1357, 1], [2552, 1], [2990, 1], [4137, 1],
   [12771, 1], [17273, 1], [127824, 1]]'
 srclang: knc
-timestamp: 1730990897.1392884
+timestamp: 1734074208.4726975
 unique_sents: 7799
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_knc_nostopwords
+src_ngrams: '{"1": [[["\u064a"], 17331], [["\u0647"], 7551], [["\u06a0"], 7495], [["\u0649"],
+  4888], [["\ufb6a"], 4321]], "2": [[["\u067c \u0685"], 148], [["\u06ba \u067e"],
+  143], [["\u0677 \u067d"], 131], [["\u0649 \ufb6a"], 88], [["\u0678 \u067d"], 87]],
+  "3": [[["\ufe9f\ufe8e\ufee3\ufeca \ufe8d\ufedf\ufee4\ufe98\ufeee\ufee5 \ufedf\ufee0\ufea4\ufed4\ufec6"],
+  18], [["\u0683 \u0649\u0646 \u0679"], 10], [["\u0680 \u0637 \u0682"], 10], [["\u0640
+  \ufdfa \u0640"], 10], [["\ufeec \ufc60\ufee2 \u0625"], 9]], "4": [[["\ufc60\ufe92\ufef2
+  \u0640 \ufdfa \u0640"], 5], [["\u0648\u0646\u0628\u0636\u064a \u062d\u062a\u0649
+  \u0641\u064a \u0648\u0642\u062a"], 5], [["\u0648\u0642\u062a \u0639\u0630\u0627\u0628\u064a
+  \u0645\u0639 \u0642\u0644\u0628\u064a"], 5], [["\u067a \u0637 \u0631 \u067d"], 4],
+  [["\u0644\u0633\u062a \u0634\u0627\u0639\u0631 \u0648\u0644\u0633\u062a \u0644\u0644\u062d\u0632\u0646"],
+  4]], "5": [[["\u0648\u0646\u0628\u0636\u064a \u062d\u062a\u0649 \u0641\u064a \u0648\u0642\u062a
+  \u0639\u0630\u0627\u0628\u064a"], 5], [["\u0645\u0634\u0627\u0639\u0631\u064a \u0648\u0646\u0628\u0636\u064a
+  \u062d\u062a\u0649 \u0641\u064a \u0648\u0642\u062a"], 5], [["\u063a\u0631\u0641\u062a\u064a
+  \u0647\u064a \u0625\u062d\u062f\u0649 \u063a\u0631\u0641 \u0627\u0644\u0645\u0634\u0641\u0649"],
+  4], [["\u063a\u0631\u0641 \u0627\u0644\u0645\u0634\u0641\u0649 \u0627\u0644\u0630\u064a
+  \u0643\u0646\u062a \u0628\u0647"], 4], [["\u0623\u0646\u0627 \u0644\u0633\u062a
+  \u0634\u0627\u0639\u0631 \u0648\u0644\u0633\u062a \u0644\u0644\u062d\u0632\u0646"],
+  4]]}'
