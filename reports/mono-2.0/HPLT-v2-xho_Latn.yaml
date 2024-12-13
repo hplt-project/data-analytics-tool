@@ -57,7 +57,7 @@ docs_segments: '[[1, 1496], [2, 1147], [3, 1662], [4, 1966], [5, 2078], [6, 2499
   1]]'
 docs_segments_mean: 29
 docs_segments_median: 17
-docs_timestamp: 1731336864.9341764
+docs_timestamp: 1734109872.6578083
 docs_top100_domains: '[["airbnb.com", 7076], ["jw.org", 4496], ["isolezwelesixhosa.co.za",
   4334], ["wordplanet.org", 2589], ["wikipedia.org", 1368], ["creativosonline.org",
   1324], ["martech.zone", 1073], ["actualidadgadget.com", 766], ["recetin.com", 725],
@@ -116,8 +116,8 @@ docs_wds: '[[5, 805], [5.1, 822], [5.2, 620], [5.3, 664], [5.4, 760], [5.5, 679]
   1765], [9, 1731], [9.1, 1085], [9.2, 1040], [9.3, 1034], [9.4, 903], [9.5, 925],
   [9.6, 806], [9.7, 475], [9.8, 249], [9.9, 102], [10, 19]]'
 corpus: xho_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 227531, "no_urls": 14502, "no_bad_encoding":
-  37, "pii": 1785}'
+hardrules_tags: '{"not_too_long": 12010, "not_too_short": 245939, "no_urls": 16816,
+  "no_bad_encoding": 39, "pii": 1785}'
 sentence_pairs: 1820800
 src_bytes: 245.75 MB
 src_chars: 256905047
@@ -399,9 +399,21 @@ src_unique_sents: '[[0, 1], [1, 9258], [2, 30070], [3, 38633], [4, 45157], [5, 4
   [1914, 1], [1945, 1], [2044, 1], [2331, 1], [2338, 1], [5059, 1], [5401, 1], [5448,
   1], [6212, 1]]'
 srclang: xh
-timestamp: 1731337636.393562
+timestamp: 1734110972.6016927
 unique_sents: 1056230
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_xh_nostopwords
+src_ngrams: '{"1": [[["i"], 320796], [["uyehova"], 47227], [["e"], 39367], [["of"],
+  36583], [["nge"], 33611]], "2": [[["ialam yomsi"], 10916], [["igumbi lokulala"],
+  9094], [["iindwendwe eziyi"], 8747], [["izilwanyana zasekhaya"], 8330], [["bonisa
+  okungakumbi"], 7092]], "3": [[["uthethe nabantu ungasebenzisi"], 5956], [["ukhusele
+  ukubhatala kwakho"], 5956], [["nabantu ungasebenzisi iwebhsayithi"], 5956], [["iwebhsayithi
+  okanye i"], 5956], [["lokubhalisa xa ufika"], 5618]], "4": [[["uthumele imali okanye
+  uthethe"], 5956], [["uthethe nabantu ungasebenzisi iwebhsayithi"], 5956], [["ungasebenzisi
+  iwebhsayithi okanye i"], 5956], [["ayivumelekanga imisitho okanye amatheko"], 4521],
+  [["uzibophelele kwinkqubo yokucoca ephuculiweyo"], 4269]], "5": [[["uthumele imali
+  okanye uthethe nabantu"], 5956], [["ungaze uthumele imali okanye uthethe"], 5956],
+  [["nabantu ungasebenzisi iwebhsayithi okanye i"], 5956], [["ukukhuselwa kwasimahla
+  xa umbuki zindwendwe"], 3688], [["ukubhukisha ngakunye kuquka ukukhuselwa kwasimahla"],
+  3688]]}'
