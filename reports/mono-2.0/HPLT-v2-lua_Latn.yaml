@@ -21,7 +21,7 @@ docs_segments: '[[1, 103], [2, 33], [3, 48], [4, 34], [5, 18], [6, 14], [7, 42],
   [582, 1], [593, 1], [611, 1], [718, 1], [776, 1], [782, 1]]'
 docs_segments_mean: 36
 docs_segments_median: 18
-docs_timestamp: 1730911296.7461288
+docs_timestamp: 1734112647.0814612
 docs_top100_domains: '[["jw.org", 871], ["biblafrique.net", 30], ["biblecentre.org",
   29], ["canalblog.com", 15], ["biblafrique.org", 11], ["lerythme.ca", 8], ["mineraiferquebec.com",
   8], ["amq-inc.com", 6], ["faq-bible.org", 6], ["distance2.com", 6], ["radiookapi.net",
@@ -52,8 +52,8 @@ docs_wds: '[[5, 9], [5.1, 12], [5.2, 6], [5.3, 14], [5.4, 15], [5.5, 13], [5.6, 
   20], [8.8, 28], [8.9, 38], [9, 44], [9.1, 51], [9.2, 18], [9.3, 16], [9.4, 26],
   [9.5, 24], [9.6, 17], [9.7, 17], [9.8, 7], [9.9, 2]]'
 corpus: lua_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 1177, "no_urls": 166, "no_bad_encoding":
-  30, "pii": 9}'
+hardrules_tags: '{"not_too_long": 810, "not_too_short": 2517, "no_urls": 181, "no_bad_encoding":
+  35, "pii": 9}'
 sentence_pairs: 38690
 src_bytes: 8.63 MB
 src_chars: 8967860
@@ -210,9 +210,17 @@ src_unique_sents: '[[1, 183], [2, 578], [3, 550], [4, 697], [5, 832], [6, 818], 
   1], [1225, 1], [1226, 1], [1268, 1], [1287, 1], [1343, 1], [1352, 1], [1413, 1],
   [1479, 1], [1577, 1], [1742, 1], [1824, 1], [2933, 1], [3030, 1]]'
 srclang: lua
-timestamp: 1730911349.1710696
+timestamp: 1734112705.3394127
 unique_sents: 27830
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_lua_nostopwords
+src_ngrams: '{"1": [[["ne"], 74549], [["bua"], 35764], [["mu"], 32103], [["wa"], 25117],
+  [["udi"], 18765]], "2": [[["bualu bua"], 4225], [["ne bua"], 3617], [["udi ne"],
+  2150], [["wa nzambi"], 2110], [["pa buloba"], 2032]], "3": [[["udi wamba ne"], 957],
+  [["bantu ba bungi"], 606], [["ba pa buloba"], 527], [["mua mua mua"], 492], [["tudi
+  ne bua"], 489]], "4": [[["mua mua mua mua"], 491], [["ne ne ne ne"], 458], [["nkudimuinu
+  wa bulongolodi bupiabupia"], 276], [["meme meme meme meme"], 253], [["wa nzambi
+  udi wamba"], 245]], "5": [[["mua mua mua mua mua"], 490], [["ne ne ne ne ne"], 456],
+  [["meme meme meme meme meme"], 252], [["wa nzambi udi wamba ne"], 192], [["yonsu
+  udi ne bukenji bwa"], 95]]}'
