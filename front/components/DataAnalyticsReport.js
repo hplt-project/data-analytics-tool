@@ -37,8 +37,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
   const filename = router.query.file.replace(".yaml", "");
 
   const sampleData = SAMPLE_DATA;
+  const sampleFilename = router.query.file
+    .replace("HPLT-v2-", "")
+    .replace(".yaml", "")
+    .replace(".lite", "");
 
-  const sample = Object.entries(sampleData).find((key) => key[0] === filename);
+  const sample = Object.entries(sampleData).find(
+    (key) => key[0] === sampleFilename
+  );
 
   const [footNote, setFootNote] = useState(false);
 
@@ -449,7 +455,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
         <div className={styles.blur}>
           <div className={styles.sampleModal}>
             <div className={styles.modalHead}>
-              <h2>Random samples from the {srclang[0].label} dataset</h2>
+              <h2>
+                Random samples from the {srclang && srclang[0].label} dataset
+              </h2>
               <button
                 className={styles.closeSampleBtn}
                 onClick={() => setShowSample(false)}
