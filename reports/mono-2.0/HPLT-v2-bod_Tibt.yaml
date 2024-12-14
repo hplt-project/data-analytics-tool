@@ -88,8 +88,7 @@ docs_wds: '[[5, 3774], [5.1, 1668], [5.2, 1643], [5.3, 3458], [5.4, 1553], [5.5,
   [9.1, 163], [9.2, 89], [9.3, 51], [9.4, 53], [9.5, 62], [9.6, 36], [9.7, 32], [9.8,
   56], [9.9, 54], [10, 30]]'
 corpus: bod_Tibt.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 131835, "no_urls": 1860, "no_bad_encoding":
-  3, "pii": 381}'
+hardrules_tags: '{"not_too_long": 69640, "not_too_short": 134930, "no_urls": 1929, "no_bad_encoding": 3,   "pii": 381}'
 sentence_pairs: 464993
 src_bytes: 752.19 MB
 src_chars: 268092556
