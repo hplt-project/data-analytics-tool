@@ -210,8 +210,7 @@ docs_wds: '[[5, 10691], [5.1, 10689], [5.2, 11225], [5.3, 11463], [5.4, 15130], 
   [9.2, 922], [9.3, 801], [9.4, 605], [9.5, 511], [9.6, 491], [9.7, 388], [9.8, 319],
   [9.9, 226], [10, 107]]'
 corpus: mya_Mymr.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 2181771, "no_urls": 170927,
-  "no_bad_encoding": 146, "pii": 20372}'
+hardrules_tags: '{"not_too_long": 338074, "not_too_short": 5221566, "no_urls": 331272, "no_bad_encoding": 146, "pii": 20372}'
 sentence_pairs: 30504078
 src_bytes: 14.9 GB
 src_chars: 5790170855
