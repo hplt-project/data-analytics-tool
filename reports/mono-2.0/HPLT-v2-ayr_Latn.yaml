@@ -70,7 +70,7 @@ docs_wds: '[[5, 259], [5.1, 240], [5.2, 202], [5.3, 217], [5.4, 174], [5.5, 226]
   44], [9.2, 25], [9.3, 28], [9.4, 29], [9.5, 11], [9.6, 22], [9.7, 6], [9.8, 6],
   [9.9, 2]]'
 corpus: ayr_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 12271, "no_urls": 1290, "no_bad_encoding": 10, "pii": 44}'
+hardrules_tags: '{"not_too_long": 861, "not_too_short": 12271, "no_urls": 1290, "no_bad_encoding": 10, "pii": 44}'
 sentence_pairs: 188527
 src_bytes: 24.66 MB
 src_chars: 24900277
