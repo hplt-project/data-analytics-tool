@@ -143,8 +143,7 @@ docs_wds: '[[5, 844], [5.1, 857], [5.2, 894], [5.3, 902], [5.4, 968], [5.5, 927]
   [8.9, 1005], [9, 957], [9.1, 1103], [9.2, 905], [9.3, 801], [9.4, 648], [9.5, 619],
   [9.6, 554], [9.7, 510], [9.8, 504], [9.9, 229], [10, 56]]'
 corpus: azb_Arab.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 143404, "no_urls": 8975, "no_bad_encoding":
-  72, "pii": 633}'
+hardrules_tags: '{"not_too_long": 20933, "not_too_short": 271037, "no_urls": 12056, "no_bad_encoding": 78, "pii": 633}'
 sentence_pairs: 2389200
 src_bytes: 446.12 MB
 src_chars: 257866139
