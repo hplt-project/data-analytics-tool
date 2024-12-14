@@ -210,8 +210,7 @@ docs_wds: '[[5, 3447], [5.1, 3468], [5.2, 3827], [5.3, 4592], [5.4, 6267], [5.5,
   6645], [9.3, 5000], [9.4, 3900], [9.5, 3486], [9.6, 3101], [9.7, 2485], [9.8, 1792],
   [9.9, 889], [10, 218]]'
 corpus: pan_Guru.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 494844, "no_urls": 51746, "no_bad_encoding":
-  614, "pii": 12502}'
+hardrules_tags: '{"not_too_long": 190595, "not_too_short": 1228879, "no_urls": 61312, "no_bad_encoding": 687,   "pii": 12502}'
 sentence_pairs: 11743514
 src_bytes: 4.42 GB
 src_chars: 1891338690
