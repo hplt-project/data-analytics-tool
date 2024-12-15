@@ -705,8 +705,7 @@ docs_wds: '[[5, 755140], [5.1, 766227], [5.2, 801496], [5.3, 767789], [5.4, 8733
   [9.2, 1091198], [9.3, 928778], [9.4, 843507], [9.5, 786025], [9.6, 732536], [9.7,
   487995], [9.8, 300070], [9.9, 126514], [10, 45059]]'
 corpus: HPLT-v2-vie_Latn.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 247297333, "no_urls": 49417537,
-  "no_bad_encoding": 3234468, "pii": 7725133}'
+hardrules_tags: '{"not_too_long": 11224963, "not_too_short": 288580598, "no_urls": 54895935, "no_bad_encoding": 3234634  , "pii": 7725133}'
 sentence_pairs: 3019551654
 src_bytes: 457.87 GB
 src_chars: 376569396268
