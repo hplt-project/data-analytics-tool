@@ -107,8 +107,7 @@ docs_wds: '[[5, 615], [5.1, 569], [5.2, 555], [5.3, 666], [5.4, 742], [5.5, 770]
   [8.9, 724], [9, 769], [9.1, 877], [9.2, 471], [9.3, 280], [9.4, 273], [9.5, 289],
   [9.6, 248], [9.7, 144], [9.8, 51], [9.9, 17], [10, 7]]'
 corpus: ilo_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 170153, "no_urls": 22385, "no_bad_encoding":
-  67, "pii": 622}'
+hardrules_tags: '{"not_too_long": 11283, "not_too_short": 171538, "no_urls": 22662, "no_bad_encoding": 67 , "pii": 622}'
 sentence_pairs: 1119850
 src_bytes: 149.41 MB
 src_chars: 155722432
