@@ -59,8 +59,8 @@ ISO_STOPWORDS_LANGS =  ["af", "br", "eo", "et", "gu", "hr", "ms", "so", "sw","tl
 ISO_STOPWORDS_MAPS = { "zsm": "ms",
                         "swh": "sw" }
 
-TXT_STOPWORDS_LANGS =  ["ace", "als", "as", "ast", "ayr", "awa", "azb", "ba", "ban", "bem", "be", "bho", "bjn", "bm", "bo", "bs", "bug",  
-                        "ceb", "cjk", "co", "crh", "cy", "dik", "dyu", "dz", "ee", "fj", "fo", "fon", "fur", "fuv", "gd", "gn",
+TXT_STOPWORDS_LANGS =  ["ab", "ace", "als", "as", "ast", "ayr", "awa", "azb", "ba", "ban", "bem", "be", "bho", "bjn", "bm", "bo", "bs", "bug",  
+                        "ceb", "cjk", "co", "crh", "cy", "dik", "dyu", "dz", "ee", "fj", "fo", "fon", "fur", "fuv", "gaz", "gd", "gn",
                         "ha", "hne", "ht", "ig", "ilo", "is", "jv", "ka", "kab", "kac", "kam", "kbp", "kea", "ki", 
                         "kg",  "km", "kmb", "kn", "knc", "ks", "ky", "lb", "lg", "li", "lij", "lmo", "ln", "ltg", "lua", "luo", "lus",
                         "mag", "mai", "me", "mi", "min", "mk", "ml", "mn", "mni", "mos", "mt", "my", "nso", "nus", "ny", "oc",

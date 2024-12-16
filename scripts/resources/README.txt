@@ -42,9 +42,9 @@ Stopwords obtained from various sources. Some of the pairs had extra words added
 * stopwords.uz: https://github.com/ilyosrabbimov/uzbek-stop-words/blob/master/uz.txt
 
 
-Self-built: ace, ast, awa, ayr, azb, ba, ban, bem, bho, bjn, bm, bs, bug,
+Self-built: ab, ace, ast, awa, ayr, azb, ba, ban, bem, bho, bjn, bm, bs, bug,
 	cjk, co, crh, dik, dyu, dz, 
-	ee, fj, fon, fur, fuv, gd, gn, hne, ht, ig, ilo, kac, kam, kbp, kea, kg, ki, kmb, knc, ks,
+	ee, fj, fon, fur, fuv, gaz, gd, gn, hne, ht, ig, ilo, kac, kam, kbp, kea, kg, ki, kmb, knc, ks,
 	li, lmo, ln, ltg, lua, luo, lus, mag, mai, mi, min, ml, mni, mos, mt, nso, nus, ny, oc, pag, pap, plt,
 	quy, sat, sc, scn, sg, shn, sm, sn, szl, taq, tk, tpi, 
 	tum, tw, tzm, ug, umb, vec, war, wo, xh, ydd

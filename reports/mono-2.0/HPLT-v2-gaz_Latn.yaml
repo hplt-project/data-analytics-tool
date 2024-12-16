@@ -60,7 +60,7 @@ docs_segments: '[[1, 2437], [2, 2004], [3, 4948], [4, 4197], [5, 3536], [6, 2711
   [2678, 1], [2921, 2], [2924, 2], [3094, 2], [3096, 2], [3285, 1], [3471, 1]]'
 docs_segments_mean: 20
 docs_segments_median: 9
-docs_timestamp: 1731334943.802913
+docs_timestamp: 1734358010.8681707
 docs_top100_domains: '[["voaafaanoromoo.com", 11003], ["bible.is", 3251], ["qeerroo.org",
   2734], ["bilisummaa.com", 2708], ["nuuralhudaa.com", 1890], ["gadaa.com", 1707],
   ["wikipedia.org", 1565], ["sammubani.com", 1450], ["kichuu.com", 1370], ["ayyaantuu.org",
@@ -118,8 +118,8 @@ docs_wds: '[[5, 330], [5.1, 331], [5.2, 295], [5.3, 328], [5.4, 340], [5.5, 271]
   [9, 1478], [9.1, 1321], [9.2, 931], [9.3, 751], [9.4, 776], [9.5, 739], [9.6, 869],
   [9.7, 841], [9.8, 788], [9.9, 434], [10, 90]]'
 corpus: gaz_Latn.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 52704, "no_urls": 14680, "no_bad_encoding":
-  55, "pii": 2141}'
+hardrules_tags: '{"not_too_long": 25910, "not_too_short": 110785, "no_urls": 18552,
+  "no_bad_encoding": 55, "pii": 2141}'
 sentence_pairs: 973633
 src_bytes: 212.25 MB
 src_chars: 218282982
@@ -483,9 +483,19 @@ src_unique_sents: '[[0, 1], [1, 4681], [2, 12407], [3, 17228], [4, 21392], [5, 2
   [7285, 1], [8433, 1], [8495, 1], [8930, 1], [9408, 1], [9497, 1], [9502, 1], [9770,
   1], [10530, 1], [11310, 1], [12365, 1]]'
 srclang: gaz
-timestamp: 1731335619.704377
+timestamp: 1734358811.3173099
 unique_sents: 525017
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fasttext
-- src_ngrams_gaz_nostopwords
+src_ngrams: '{"1": [[["ta"], 266637], [["oromoo"], 206247], [["irratti"], 136717],
+  [["keessatti"], 135879], [["irraa"], 134479]], "2": [[["of the"], 17118], [["bilisummaa
+  oromoo"], 16589], [["adda addaa"], 14969], [["ummata oromoo"], 13337], [["ilmaan
+  oromoo"], 12954]], "3": [[["osoo hin taane"], 5083], [["baaa baaa baaa"], 2844],
+  [["subhaanahu wa ta"], 2696], [["qeerroo bilisummaa oromoo"], 2629], [["adda bilisummaa
+  oromoo"], 2587]], "4": [[["baaa baaa baaa baaa"], 2841], [["rabbiin subhaanahu wa
+  ta"], 2165], [["qofa osoo hin taane"], 1372], [["reserves the right to"], 583],
+  [["do not follow the"], 580]], "5": [[["baaa baaa baaa baaa baaa"], 2838], [["you
+  take all the responsibility"], 578], [["unsubstantiated allegations are not allowed"],
+  578], [["to remove comments that do"], 578], [["the right to remove comments"],
+  578]]}'
