@@ -189,8 +189,7 @@ docs_wds: '[[5, 568], [5.1, 549], [5.2, 521], [5.3, 578], [5.4, 700], [5.5, 596]
   [8.9, 2960], [9, 3312], [9.1, 6664], [9.2, 1420], [9.3, 941], [9.4, 888], [9.5,
   761], [9.6, 729], [9.7, 566], [9.8, 543], [9.9, 325], [10, 116]]'
 corpus: snd_Arab.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 116687, "no_urls": 11421, "no_bad_encoding":
-  9, "pii": 3049}'
+hardrules_tags: '{"not_too_long": 49676, "not_too_short": 269965, "no_urls": 15616, "no_bad_encoding": 10,   "pii": 3049}'
 sentence_pairs: 2825658
 src_bytes: 719.43 MB
 src_chars: 425901658
