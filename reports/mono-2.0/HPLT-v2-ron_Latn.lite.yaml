@@ -694,7 +694,7 @@ docs_wds: '[[5, 508466], [5.1, 513444], [5.2, 537451], [5.3, 546693], [5.4, 6053
   [9.3, 1105712], [9.4, 976747], [9.5, 901835], [9.6, 854403], [9.7, 633541], [9.8,
   421016], [9.9, 198082], [10, 67659]]'
 corpus: HPLT-v2-ron_Latn.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 243349946, "no_urls": 39072052, "no_bad_encoding": 2167474,  "pii": 6505199}'
+hardrules_tags: '{"not_too_long": 15749497, "not_too_short": 271035194, "no_urls": 40887576, "no_bad_encoding": 2167528,  "pii": 6505199}'
 sentence_pairs: 1696967645
 src_bytes: 239.79 GB
 src_chars: 249026904418
