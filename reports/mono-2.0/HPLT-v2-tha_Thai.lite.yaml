@@ -300,8 +300,7 @@ docs_wds: '[[5, 233168], [5.1, 232042], [5.2, 246422], [5.3, 282972], [5.4, 7688
   [8.9, 58302], [9, 63694], [9.1, 64643], [9.2, 29685], [9.3, 18745], [9.4, 15754],
   [9.5, 14683], [9.6, 16238], [9.7, 11783], [9.8, 8096], [9.9, 4496], [10, 2586]]'
 corpus: HPLT-v2-tha_Thai.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 58840808, "no_urls": 6356458,
-  "no_bad_encoding": 4285, "pii": 649890}'
+hardrules_tags: '{"not_too_long": 3317550, "not_too_short": 65862149, "no_urls": 6366221, "no_bad_encoding": 5278 , "pii": 649890}'
 sentence_pairs: 339050942
 src_bytes: 152.12 GB
 src_chars: 59655264386
