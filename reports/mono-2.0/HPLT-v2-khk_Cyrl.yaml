@@ -221,8 +221,7 @@ docs_wds: '[[5, 17154], [5.1, 17491], [5.2, 19398], [5.3, 20768], [5.4, 21027], 
   63714], [9.2, 45721], [9.3, 40201], [9.4, 37762], [9.5, 36749], [9.6, 39403], [9.7,
   36060], [9.8, 32198], [9.9, 19331], [10, 5552]]'
 corpus: khk_Cyrl.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 2294005, "no_urls": 945917,
-  "no_bad_encoding": 677, "pii": 65966}'
+hardrules_tags: '{"not_too_long": 469953, "not_too_short": 6843867, "no_urls": 961941, "no_bad_encoding": 11659,   "pii": 65966}'
 sentence_pairs: 53467285
 src_bytes: 11.45 GB
 src_chars: 9275953976
