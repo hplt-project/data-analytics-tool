@@ -409,8 +409,7 @@ docs_wds: '[[5, 56043], [5.1, 57638], [5.2, 61832], [5.3, 63894], [5.4, 68413], 
   172119], [9, 177675], [9.1, 156721], [9.2, 134379], [9.3, 120416], [9.4, 111069],
   [9.5, 102893], [9.6, 97059], [9.7, 71890], [9.8, 46781], [9.9, 20314], [10, 4312]]'
 corpus: HPLT-v2-lvs_Latn.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 11925244, "no_urls": 6434788,
-  "no_bad_encoding": 3469, "pii": 636777}'
+hardrules_tags: '{"not_too_long": 1137212, "not_too_short": 26836060, "no_urls": 6641911, "no_bad_encoding": 4189,   "pii": 636777}'
 sentence_pairs: 173807290
 src_bytes: 25.39 GB
 src_chars: 25015494704
