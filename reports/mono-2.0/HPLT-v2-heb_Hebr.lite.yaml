@@ -486,7 +486,7 @@ docs_wds: '[[5, 116872], [5.1, 117811], [5.2, 123790], [5.3, 125804], [5.4, 1403
   [9.4, 262268], [9.5, 235142], [9.6, 226328], [9.7, 164210], [9.8, 102941], [9.9,
   41098], [10, 11445]]'
 corpus: HPLT-v2-heb_Hebr.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 49167069, "no_urls": 2765569, "no_bad_encoding": 4106, "pii": 662602}'
+hardrules_tags: '{"not_too_long": 1746023, "not_too_short": 65574119, "no_urls": 3548751, "no_bad_encoding": 4985, "pii": 662602}'
 sentence_pairs: 466627647
 src_bytes: 92.68 GB
 src_chars: 56374343947
