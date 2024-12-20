@@ -183,7 +183,7 @@ docs_wds: '[[5, 82092], [5.1, 15454], [5.2, 11786], [5.3, 12798], [5.4, 14901], 
   [9.1, 10914], [9.2, 5809], [9.3, 4630], [9.4, 4196], [9.5, 4030], [9.6, 4139], [9.7,
   2866], [9.8, 1747], [9.9, 664], [10, 268]]'
 corpus: npi_Deva.jsonl.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 3177666, "no_urls": 134431, "no_bad_encoding": 295, "pii": 37605}'
+hardrules_tags: '{"not_too_long": 323254, "not_too_short": 3177559, "no_urls": 134426, "no_bad_encoding": 295, "pii": 37605}'
 sentence_pairs: 37138196
 src_bytes: 17.88 GB
 src_chars: 7221503597
