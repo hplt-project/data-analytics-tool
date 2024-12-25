@@ -696,8 +696,7 @@ docs_wds: '[[5, 1333438], [5.1, 1352774], [5.2, 1371103], [5.3, 1352147], [5.4, 
   [9.2, 639961], [9.3, 523622], [9.4, 466997], [9.5, 439251], [9.6, 414345], [9.7,
   322513], [9.8, 239112], [9.9, 116674], [10, 39198]]'
 corpus: HPLT-v2-pes_Arab.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 512525698, "no_urls": 13827478,
-  "no_bad_encoding": 72962, "pii": 1954962}'
+hardrules_tags: '{"not_too_long": 20450846, "not_too_short": 517146301, "no_urls": 19540601, "no_bad_encoding": 73018 , "pii": 1954962}'
 sentence_pairs: 3963188468
 src_bytes: 740.98 GB
 src_chars: 451189565359
