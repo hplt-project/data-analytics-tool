@@ -576,8 +576,7 @@ docs_wds: '[[5, 313067], [5.1, 306843], [5.2, 310705], [5.3, 306469], [5.4, 3383
   598527], [9.4, 572411], [9.5, 648066], [9.6, 789608], [9.7, 580494], [9.8, 409557],
   [9.9, 187133], [10, 100454]]'
 corpus: HPLT-v2-kor_Hang.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 5256968, "no_urls": 20461497,
-  "no_bad_encoding": 5145, "pii": 5961372}'
+hardrules_tags: '{"not_too_long": 2333614, "not_too_short": 87041704, "no_urls": 20700700, "no_bad_encoding": 42593,  "pii": 5961372}'
 sentence_pairs: 1357494834
 src_bytes: 186.76 GB
 src_chars: 87907627245
