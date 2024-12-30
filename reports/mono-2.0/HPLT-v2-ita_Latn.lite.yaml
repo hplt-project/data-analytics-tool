@@ -849,8 +849,7 @@ docs_wds: '[[5, 1608668], [5.1, 1647728], [5.2, 1727381], [5.3, 1765742], [5.4, 
   [9.2, 4975636], [9.3, 3981930], [9.4, 3262368], [9.5, 2803518], [9.6, 2569692],
   [9.7, 1926792], [9.8, 1316761], [9.9, 622049], [10, 157837]]'
 corpus: HPLT-v2-ita_Latn.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 741060227, "no_urls": 109002673,
-  "no_bad_encoding": 218910, "pii": 46318185}'
+hardrules_tags: '{"not_too_long": 69354612, "not_too_short": 826471065, "no_urls": 114030513, "no_bad_encoding": 232614 , "pii": 46318185}'
 sentence_pairs: 5127273785
 src_bytes: 769.93 GB
 src_chars: 815696448525
