@@ -1156,8 +1156,7 @@ docs_wds: '[[5, 4561691], [5.1, 4596361], [5.2, 4690478], [5.3, 4762788], [5.4, 
   5434107], [9.2, 3790130], [9.3, 2784086], [9.4, 2464925], [9.5, 2104195], [9.6,
   1898753], [9.7, 1270174], [9.8, 804483], [9.9, 337077], [10, 171578]]'
 corpus: HPLT-v2-jpn_Jpan.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 1094080697, "no_urls": 79505281,
-  "no_bad_encoding": 30492, "pii": 12940814}'
+hardrules_tags: '{"not_too_long": 10955668, "not_too_short": 1094067165, "no_urls": 203382399, "no_bad_encoding": 30744  , "pii": 12940814}'
 sentence_pairs: 23273184719
 src_bytes: 2.16 TB
 src_chars: 878259157005
