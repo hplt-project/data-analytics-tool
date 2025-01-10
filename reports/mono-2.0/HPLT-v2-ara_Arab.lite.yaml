@@ -861,8 +861,7 @@ docs_wds: '[[5, 830367], [5.1, 802556], [5.2, 829900], [5.3, 855099], [5.4, 1123
   [9.2, 571495], [9.3, 473302], [9.4, 404569], [9.5, 369517], [9.6, 374914], [9.7,
   299361], [9.8, 184028], [9.9, 83195], [10, 35764]]'
 corpus: HPLT-v2-ara_Arab.tsv
-hardrules_tags: '{"not_too_long": 0, "not_too_short": 112263353, "no_urls": 13275873,
-  "no_bad_encoding": 27563, "pii": 1792098}'
+hardrules_tags: '{"not_too_long": 11343547, "not_too_short": 259713511, "no_urls": 18912850, "no_bad_encoding": 30909,  "pii": 1792098}'
 sentence_pairs: 2200259820
 src_bytes: 460.13 GB
 src_chars: 277388083983
