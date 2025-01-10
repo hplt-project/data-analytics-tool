@@ -17,7 +17,7 @@ export default function Home({ fileNames }) {
 
   const [status, setStatus] = useState("IDLE");
 
-  const [fileName, setFileName] = useState("")
+  const [fileName, setFileName] = useState("");
 
   const router = useRouter();
 
@@ -27,8 +27,13 @@ export default function Home({ fileNames }) {
       const stats = await axios.get(`/api/getstats/${router.query.file}`);
 
       const statsData = stats.data;
-
-      setStatus("IDLE");
+      console.log(stats.data, "checking***");
+      if (!statsData) {
+        setStatus("FAILED");
+      }
+      if (statsData) {
+        setStatus("IDLE");
+      }
 
       setReport(statsData.stats);
       setDate(statsData.date);
@@ -43,7 +48,7 @@ export default function Home({ fileNames }) {
 
     if (file !== "file") {
       getStats();
-      setFileName(file)
+      setFileName(file);
     }
   }, [router.query]);
 
@@ -58,7 +63,7 @@ export default function Home({ fileNames }) {
             placeholder={"CCMatrix"}
             value={fileName}
             onChange={(e) => router.push(`/viewer/${e}`)}
-            filter='contains'
+            filter="contains"
           />
         </div>
       </div>
@@ -78,7 +83,7 @@ export default function Home({ fileNames }) {
           </div>
         )}
         {status === "FAILED" && (
-          <div>
+          <div className={styles.failedWarning}>
             Something went wrong with the requested file, please try again.
           </div>
         )}
