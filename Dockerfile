@@ -26,7 +26,7 @@ RUN apt-get update && \
     apt-get install -y wget unzip joe gcc libboost-all-dev cmake && \ 
     apt-get install -y python3.10 python3-dev python3.10-dev  python3-pip  python3.10-venv && \
     apt-get install -y git build-essential autoconf autopoint libtool parallel &&\
-    apt-get install -y hunspell libhunspell-dev jq zstd
+    apt-get install -y hunspell libhunspell-dev jq zstd 
     
 RUN python3.10 -m pip install -U pip  && \
     python3.10 -m pip install -U wheel && \
@@ -89,7 +89,7 @@ RUN . /work/venvs/venv-hf/bin/activate && \
     python3.10 -m pip install -U wheel && \
     python3.10 -m pip install -U setuptools && \
     python3.10 -m pip install -r /work/deployment/requirements-hf.txt && \
-    cd /work && git clone https://github.com/pablop16n/web-docs-scorer && cd web-docs-scorer && git checkout tags/1.1.1 && python3.10 -m pip install .
+    cd /work && git clone https://github.com/pablop16n/web-docs-scorer && cd web-docs-scorer && git checkout tags/1.1.1 && python3.10 -m pip install . 
 
 RUN python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\
     python3.10 -m pip install -r /work/deployment/requirements.txt &&\

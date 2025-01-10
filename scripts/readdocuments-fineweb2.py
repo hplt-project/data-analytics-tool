@@ -12,6 +12,7 @@ import math
 import statistics
 import docscorer
 import iso639
+import heliport
 
 from timeit import default_timer
 from util import logging_setup
@@ -92,8 +93,9 @@ def main():
     docs_domains = Counter()
     docs_scores = Counter() #docscorer aka Web Docs Scorer
     
-    ds = docscorer.DocumentScorer()
+    langident = heliport.Identifier()
     
+    ds = docscorer.DocumentScorer()    
     dataset = load_dataset("HuggingFaceFW/fineweb-2", args.subset,  split="train",  streaming=True)        
  
     for doc in dataset :
@@ -115,24 +117,28 @@ def main():
         total_docs+=1
         #doc = json.load(json_line)  
               
-        #langs = doc.get("seg_langs")  #There's no equivalent to this in FineWeb
+        
         
         sents = doc.get("text").split("\n")
         url = doc.get("url")        #url = doc.get("u")
         collection = doc.get("dump")	#collection = doc.get("collection")
         docscores = None 	#docscores = doc.get("doc_scores") #There's no equivalent to this in FineWeb
         doc_lang = doc.get("language")
-        
-        '''
-        if len(langs) != len(sents):
-            logging.debug("Langs: " + str(len(langs)) + "; Segments: " + str(len(sents)) + "; Skipping")
+        #langs = doc.get("seg_langs")  #There's no equivalent to this in FineWeb
+        seg_langs = []
+        for s in sents:
+            l = langident.identify(s)
+            seg_langs.append(l)
+             
+                     
+        if len(seg_langs) != len(sents):
+            logging.debug("Langs: " + str(len(seg_langs)) + "; Segments: " + str(len(sents)) + "; Skipping")
             unmatching_docs+=1
             continue
 
         if args.langs:
-            for l in langs:
+            for l in seg_langs:
                 args.langs.write(l+"\n")
-        '''
 
         #if args.fluency:
         #    for f in scores:
@@ -144,7 +150,8 @@ def main():
         if docscores == None:        
             ds_doc = {}
             ds_doc["document_lang"] = doc_lang
-            ds_doc["langs"] = [doc_lang for x in range(len(sents))]
+            #ds_doc["langs"] = [doc_lang for x in range(len(sents))]
+            ds_doc["langs"] = seg_langs
             ds_doc["text"] = doc.get("text")
             ds_doc["script"] = doc.get("language_script")
             document_score = ds.score_document(ds_doc, only_final_score=True)
@@ -161,17 +168,17 @@ def main():
         #Segments in the document language (docs_lang)
         #lang_matches = langs.count(args.srclang)
         
-        '''
+
         if len(args.srclang) == 2:
             #The documents have 3-letter langcodes
             langobj = iso639.Lang(args.srclang)
             lang3 = langobj.pt3
         else:
             lang3 = args.srclang
-        lang_matches = sum(1 for item in langs if item.split("_")[0] == lang3) #this accepts both "hbs_cyr" and "hbs_lat" when target language is "hbs", for example
-        lang_matches_rate = round((lang_matches/len(langs)), 1)
+        lang_matches = sum(1 for item in seg_langs if item.split("_")[0] == lang3) #this accepts both "hbs_cyr" and "hbs_lat" when target language is "hbs", for example
+        lang_matches_rate = round((lang_matches/len(seg_langs)), 1)
         doc_langs[lang_matches_rate] += 1
-        '''
+
 
         #Top-level domain and domain
         try:
