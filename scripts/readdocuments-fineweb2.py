@@ -12,7 +12,7 @@ import math
 import statistics
 import docscorer
 import iso639
-import heliport
+import heli_otr
 
 from timeit import default_timer
 from util import logging_setup
@@ -93,7 +93,7 @@ def main():
     docs_domains = Counter()
     docs_scores = Counter() #docscorer aka Web Docs Scorer
     
-    langident = heliport.Identifier()
+    langident = heli_otr.Identifier()
     
     ds = docscorer.DocumentScorer()    
     dataset = load_dataset("HuggingFaceFW/fineweb-2", args.subset,  split="train",  streaming=True)        
