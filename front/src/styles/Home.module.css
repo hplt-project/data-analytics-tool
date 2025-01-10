@@ -2,7 +2,13 @@
   padding: 10px 120px 40px 120px;
   color: var(--main-copy);
 }
-
+.failedWarning {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 26px;
+}
 .docContainer {
   margin-bottom: 60px;
   min-height: 30vh;
@@ -157,7 +163,7 @@
     margin: 20px 0 60px 0;
     font-size: 26px;
   }
-  
+
   .mainContainerHome h1 {
     margin: 20px 0 10px 0;
     font-size: 30px;
@@ -178,18 +184,18 @@
   .cardDetails h2 {
     font-size: 22px;
   }
-  
+
   .cardDetails p {
     margin: 5px 0 10px 0;
     font-size: 14px;
   }
-  .viewIcon, .uploadIcon {
+  .viewIcon,
+  .uploadIcon {
     width: 80px;
   }
   .uploadBtn {
     padding: 10px 16px;
   }
-
 }
 
 @media (max-width: 768px) {
@@ -200,7 +206,7 @@
     margin: 20px 0 5px 0;
     font-size: 26px;
   }
-  .introParagraph{
+  .introParagraph {
     line-height: 1.35;
   }
   .cardsContainer {
@@ -218,13 +224,12 @@
   .cardDetails h2 {
     font-size: 18px;
   }
-  
+
   .cardDetails p {
     margin: 5px 0 10px 0;
     font-size: 14px;
     line-height: 1.35;
   }
-
 }
 
 @media (max-width: 541px) {

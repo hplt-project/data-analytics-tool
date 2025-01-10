@@ -26,6 +26,7 @@ export default async function handler(req, res) {
 
     res.send({ stats: doc, date: d });
   } catch (error) {
+    res.send(false);
     console.log(error, "Something went sideways");
   }
 }
