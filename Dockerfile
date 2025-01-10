@@ -20,6 +20,7 @@ RUN mkdir -p /work/venvs/
 #TO DO: uploaded_corpora and yaml_dir should be volumes
 
 COPY deployment/requirements.txt /work/deployment/requirements.txt
+COPY deployment/requirements-hf.txt /work/deployment/requirements-hf.txt
 
 RUN apt-get update && \
     apt-get install -y wget unzip joe gcc libboost-all-dev cmake && \ 
@@ -36,6 +37,7 @@ RUN python3.10 -m venv /work/venvs/venv-bhr
 RUN python3.10 -m venv /work/venvs/venv-bc
 RUN python3.10 -m venv /work/venvs/venv-bcai
 RUN python3.10 -m venv /work/venvs/venv-bnlp
+RUN python3.10 -m venv /work/venvs/venv-hf
 
 RUN cd /work && git clone https://github.com/ZJaume/tmxt && git clone https://github.com/kpu/preprocess && cd
 RUN cd /work/preprocess &&  rm -fr build &&  mkdir build && cd build  && cmake .. && make && cd
@@ -81,7 +83,13 @@ RUN . /work/venvs/venv-bnlp/bin/activate && \
     cd /work && rm -rf etnltk && git clone https://github.com/robeleq/etnltk.git && cd etnltk && python3.10 -m pip install . &&\
     python3.10 -m pip install bnlp-toolkit==4.0.3 &&\
     echo "import nltk; nltk.download('punkt'); nltk.download('punkt_tab'); nltk.download('stopwords');" | python3.10
-
+    
+RUN . /work/venvs/venv-hf/bin/activate && \
+    python3.10 -m pip install -U pip  && \
+    python3.10 -m pip install -U wheel && \
+    python3.10 -m pip install -U setuptools && \
+    python3.10 -m pip install -r /work/deployment/requirements-hf.txt && \
+    cd /work && git clone https://github.com/pablop16n/web-docs-scorer && cd web-docs-scorer && git checkout tags/1.1.0 && python3.10 -m pip install .
 
 RUN python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\
     python3.10 -m pip install -r /work/deployment/requirements.txt &&\
@@ -95,7 +103,7 @@ COPY img/ /work/img/
 COPY server.py /work/
 COPY scripts/ /work/scripts/
 
-RUN cd /work && git clone https://github.com/pablop16n/web-docs-scorer && cd web-docs-scorer && git checkout tags/1.0.0 && python3.10 -m pip install .
+RUN cd /work/web-docs-scorer && git checkout tags/1.0.0 && python3.10 -m pip install .
 RUN cd /work && cd etnltk && python3.10 -m pip install .
 COPY deployment/docker-entrypoint.sh /work/deployment/docker-entrypoint.sh
 

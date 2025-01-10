@@ -20,7 +20,6 @@ hebrew-tokenizer==2.3.0
 nlp-id==0.1.18.0 
 mecab-python3==1.0.6
 unidic-lite==1.0.8
-tldextract
 botok==0.8.12
 pathvalidate
 pii-manager @ git+https://github.com/mmanteli/multilingual-PII-tool@db59603
