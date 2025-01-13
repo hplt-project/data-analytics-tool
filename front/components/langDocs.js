@@ -18,14 +18,14 @@ const CustomTooltip = ({ active, payload, label }) => {
 	if (active && payload && payload.length) {
 		return (
 			<div className={styles.tooltip}>
-				<p className={styles.label}>{`Segments in ${label}%`}</p>
+				<p className={styles.label}>{`${label}% of segments in ${srclang}</p>
 				{payload.map((item, idx) => {
 					return (
 						<p
 							key={idx}
 							className={styles.desc}
 							style={{ color: item.fill }}
-						>{`Frequency: ${item.payload.freq.toLocaleString("en-US")} `}</p>
+						>{`Documents: ${item.payload.freq.toLocaleString("en-US")} `}</p>
 					);
 				})}
 			</div>
