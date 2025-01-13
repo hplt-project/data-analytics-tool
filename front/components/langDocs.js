@@ -18,7 +18,7 @@ const CustomTooltip = ({ active, payload, label }) => {
 	if (active && payload && payload.length) {
 		return (
 			<div className={styles.tooltip}>
-				<p className={styles.label}>{`${label}% of segments in ${srclang}</p>
+				<p className={styles.label}>{`${label}% of segments in ${srclang}}</p>
 				{payload.map((item, idx) => {
 					return (
 						<p
