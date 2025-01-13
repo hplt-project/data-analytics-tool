@@ -154,7 +154,8 @@ def main():
             ds_doc["langs"] = seg_langs
             ds_doc["text"] = doc.get("text")
             ds_doc["script"] = doc.get("language_script")
-            document_score = ds.score_document(ds_doc, only_final_score=True)
+            ds_doc["id"] = None
+            document_score = ds.score_document(ds_doc, logging=logging,  only_final_score=True)	
         else:
             document_score = docscores[0]
         docs_scores[document_score]+=1
