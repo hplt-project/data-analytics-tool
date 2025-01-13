@@ -149,7 +149,7 @@ def main():
         #Document Score (Web Docs Scorer)
         if docscores == None:        
             ds_doc = {}
-            ds_doc["document_lang"] = doc_lang + "_" + doc.get("language_script")
+            ds_doc["document_lang"] = doc_lang + "_" + doc.get("language_script").lower()
             #ds_doc["langs"] = [doc_lang for x in range(len(sents))]
             ds_doc["langs"] = seg_langs
             ds_doc["text"] = doc.get("text")
