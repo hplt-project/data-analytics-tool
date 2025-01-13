@@ -52,7 +52,7 @@ export default function LanguagePieChart({
     <div className={styles.languagePieChartContainer}>
       {warning && (
         <p className={styles.warning}>
-          {`*${warningLang} identification might be inaccurate because language is not
+          {`*${warningLang} identification might be inaccurate because it is not
           supported by Fasttext`}
         </p>
       )}
