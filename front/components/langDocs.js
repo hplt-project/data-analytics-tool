@@ -14,7 +14,7 @@ import { percFormatter } from "../hooks/hooks";
 
 import styles from "@/styles/LangDocs.module.css";
 
-const CustomTooltip = ({ active, payload, label }) => {
+const CustomTooltip = ({ active, payload, label, srclang }) => {
   if (active && payload && payload.length) {
     return (
       <div className={styles.tooltip}>
@@ -35,7 +35,7 @@ const CustomTooltip = ({ active, payload, label }) => {
   return null;
 };
 
-export default function LangDocs({ langDocs }) {
+export default function LangDocs({ langDocs, srclang }) {
   const numbers = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 
   return (
@@ -80,7 +80,7 @@ export default function LangDocs({ langDocs }) {
             fontSize={12}
           />
           <Tooltip
-            content={<CustomTooltip />}
+            content={<CustomTooltip srclang={srclang} />}
             wrapperStyle={{ outline: "none" }}
           />
           <Bar dataKey="freq" fill="#6d466b" maxBarSize={50}>

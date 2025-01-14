@@ -863,7 +863,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
                 <div className={styles.singleLanguageReport}>
                   {!reportData.trglang ? (
                     <h3 className={styles.smaller}>
-                      Number of segments{" "}
+                      Number of segments in the {srclang && srclang[0].label}{" "}
+                      corpus
                       <a className="lang-distribution-info">
                         {" "}
                         {!footNote && (
@@ -943,7 +944,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                       )
                     </Tooltip>
                   </h3>
-                  <LangDocs langDocs={langDocs} />
+                  <LangDocs langDocs={langDocs} srclang={srclang[0].label} />
                 </div>
               )}
               {trgLangs && (
@@ -1100,7 +1101,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
               {srcLangs && (
                 <div className={styles.singleLanguageReport}>
                   {!reportData.trglang ? (
-                    <h3>Number of segments</h3>
+                    <h3>
+                      Number of segments in the {srclang && srclang[0].label}{" "}
+                      corpus
+                    </h3>
                   ) : (
                     <h3>Source</h3>
                   )}
@@ -1117,7 +1121,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                 <div className={styles.singleLanguageReport}>
                   {" "}
                   <h3>Percentage of segments in $lang inside documents</h3>
-                  <LangDocs langDocs={langDocs} />
+                  <LangDocs langDocs={langDocs} srclang={srclang[0].label} />
                 </div>
               )}
               {trgLangs && (

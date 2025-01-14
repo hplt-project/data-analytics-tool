@@ -27,7 +27,6 @@ export default function Home({ fileNames }) {
       const stats = await axios.get(`/api/getstats/${router.query.file}`);
 
       const statsData = stats.data;
-      console.log(stats.data, "checking***");
       if (!statsData) {
         setStatus("FAILED");
       }
