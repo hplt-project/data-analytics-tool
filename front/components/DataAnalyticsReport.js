@@ -944,7 +944,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
                       )
                     </Tooltip>
                   </h3>
-                  <LangDocs langDocs={langDocs} srclang={srclang[0].label} />
+                  <LangDocs
+                    langDocs={langDocs}
+                    srclang={srclang ? srclang[0].label : ""}
+                  />
                 </div>
               )}
               {trgLangs && (
