@@ -40,12 +40,11 @@ date
 cat $TSVFILE.$SRCLANG.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $TSVFILE.$SRCLANG.langcounts
 cat $TSVFILE.$TRGLANG.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $TSVFILE.$TRGLANG.langcounts
 
-exit
-
 echo "Reading corpus..."
 date
-python3.10 /work/scripts/readcorpus_mono.py /work/uploaded_corpora/fineweb2-"$L3".tsv /work/yaml_dir/fineweb2-"$L3".yaml $L2 --debug
-python3 ./scripts/readcorpus.py $TSVFILE $YAMLFILE $SRCLANG $TRGLANG $METADATAFILE
+python3 ./scripts/readcorpus_hpltv2.py $TSVFILE $YAMLFILE $SRCLANG $TRGLANG $METADATAFILE
+
+exit
 
 rm -f $TSVFILE.$SRCLANG".ngrams"
 rm -f $TSVFILE.$TRGLANG".ngrams"

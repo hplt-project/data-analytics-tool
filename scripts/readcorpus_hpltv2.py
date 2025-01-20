@@ -10,7 +10,8 @@ import json
 import math
 import statistics
 from iso639 import Lang
-
+from urllib.parse import urlparse
+import tldextract
 
 from pii_manager import PiiEnum
 from pii_manager.api import PiiManager
@@ -92,6 +93,14 @@ def main():
     src_langs = Counter()
     trg_langs = Counter()
 
+    collections = Counter()
+    src_domains = Counter()
+    trg_domains = Counter()
+    src_tld = Counter()
+    trg_tld = Counter()
+    
+    bicleaner_scores =  [0 for _ in range(10)]
+    
     src_hashes = {}
     trg_hashes = {}
     sent_hashes = set()
@@ -192,34 +201,32 @@ def main():
     stats["trglang"] = args.trglang
     
     
-    if args.corpus.name.endswith(".tsv"):
-        filename = re.sub("\.tsv$", "", args.corpus.name)
+    filename = re.sub("\.tsv$", "", args.corpus.name)
         
-        #filename=args.corpus.name.replace(".tsv","")
-    else:
-        filename=args.corpus.name
-    src_file=open(filename+"."+args.srclang,"r").read().splitlines()
-    trg_file=open(filename+"."+args.trglang,"r").read().splitlines()
-
-    for src_line, trg_line in zip(src_file,trg_file):
+ 
+    for line  in args.corpus:
+        
         total_lines = total_lines+1
         
-        if len(src_line.strip()) == 0:
-            src_sent_tokens[0] += 1
-            #continue
-        if len(trg_line.strip()) == 0:
-            trg_sent_tokens[0] += 1
-            #continue
-
-        sent_parts = (src_line, trg_line)
-                
-        try:
-            src_sent = sent_parts[0].strip()
-            trg_sent = sent_parts[1].strip()
+        parts = line.split("\t")
+        
+        try:        
+            src_sent = parts[0].strip()
+            trg_sent = parts[1].strip()
+            src_urls_arr = json.loads(parts[2].strip())
+            trg_urls_arr = json.loads(parts[3].strip())
+            collections_arr = json.loads(parts[4].strip())
+            score_arr = json.loads(parts[5].strip())
         except IndexError as ex:
             logging.error("Missing parts in sentence: " +  line)
             src_sent = ""
             trg_sent = ""
+                
+        if len(src_sent) == 0:
+            src_sent_tokens[0] += 1
+            #continue
+        if len(trg_sent) == 0:
+            trg_sent_tokens[0] += 1
             #continue
             
         #PII
@@ -236,6 +243,50 @@ def main():
             trg_pii += 1
         except StopIteration:
             pass
+
+        #Top-level domain and domain
+        for url in src_urls_arr:
+            try:
+                #domain = url.replace("http://", "").replace("https://", "").replace("www.", "").split("/")[0]
+                #tld = domain.split["."][-1]
+                fulldomain = urlparse(url).netloc #This includes subdomain
+                domain = tldextract.extract(fulldomain).domain #This does not include subdomain
+                tld = tldextract.extract(fulldomain).suffix #This is the TDL removing the preceeding dot
+
+                src_tld[tld] += 1
+                src_domains[domain+"."+tld] += 1
+            except Exception as ex:
+                logging.error("Bad url: " + url)
+                logging.error(ex)
+        
+        for url in trg_urls_arr:
+            try:
+                #domain = url.replace("http://", "").replace("https://", "").replace("www.", "").split("/")[0]
+                #tld = domain.split["."][-1]
+                fulldomain = urlparse(url).netloc #This includes subdomain
+                domain = tldextract.extract(fulldomain).domain #This does not include subdomain
+                tld = tldextract.extract(fulldomain).suffix #This is the TDL removing the preceeding dot
+
+                trg_tld[tld] += 1
+                trg_domains[domain+"."+tld] += 1
+            except Exception as ex:
+                logging.error("Bad url: " + url)
+                logging.error(ex)
+        
+        for collection in collections_arr:
+            collections[collection]+=1
+        
+        score = score_arr[0]            
+        try:
+            bucket_index = int(float(score) * 10)
+            bicleaner_scores[bucket_index]+=1
+        except IndexError as ex:
+            if bucket_index == 10:
+                bicleaner_scores[9] += 1
+            else:
+                logging.error(ex)
+                
+
 
     
         #Counting tokens in each sentence
@@ -515,12 +566,40 @@ def main():
     
     if len(bicleaner_tags) > 0 :
         stats["hardrules_tags"] = json.dumps(bicleaner_tags)
+  
     # bicleaner-classify scores
-    bicleaner_scores = read_scores(filename)
-
+    final_bicleaner_scores = [[ i/10, bucket] for i, bucket in enumerate(bicleaner_scores)]
+    stats["bicleaner_scores"] = json.dumps(final_bicleaner_scores)
     
-    if len(bicleaner_scores) > 0:
-        stats["bicleaner_scores"] = json.dumps(bicleaner_scores)
+    
+    
+    src_tld_list = []
+    for tld, freq in sorted(src_tld.most_common(100), key=lambda pair:pair[1], reverse=True):
+        src_tld_list.append([tld, freq])
+
+    src_domains_list = []
+    for domain, freq in sorted(src_domains.most_common(100), key=lambda pair: pair[1], reverse=True):
+        src_domains_list.append([domain, freq])
+        
+    trg_tld_list = []
+    for tld, freq in sorted(trg_tld.most_common(100), key=lambda pair:pair[1], reverse=True):
+        trg_tld_list.append([tld, freq])
+
+    trg_domains_list = []
+    for domain, freq in sorted(trg_domains.most_common(100), key=lambda pair: pair[1], reverse=True):
+        trg_domains_list.append([domain, freq])
+
+
+    collections_list=[]
+    for collection, freq in sorted(collections.items(), key=lambda pair:pair[1], reverse=True):
+        collections_list.append([collection, freq])
+        
+    stats["collections"] = json.dumps(collections_list)
+    stats["src_top100_domains"] = json.dumps(src_domains_list)
+    stats["src_top100_tld"] = json.dumps(src_tld_list)
+    stats["trg_top100_domains"] = json.dumps(trg_domains_list)
+    stats["trg_top100_tld"] = json.dumps(trg_tld_list)
+    
     
     if os.path.exists(args.yamlfile):
         with open(args.yamlfile, 'r') as  yamlfile:
@@ -530,6 +609,7 @@ def main():
     
     warnings.extend(src_ngrams_warnings)
     warnings.extend(trg_ngrams_warnings)
+
 
     stats["warnings"] = warnings
     stats["timestamp"]=time.time()
