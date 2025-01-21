@@ -14,7 +14,40 @@ else
 fi
 
 
-# TO DO: BICLEANER MODEL STUFF HERE...
+#all language are paired with EN in this release
+bicleaner_ai_langs_en=(ar bg ca cs da de el es et eu fi fr ga gl hbs he hi hu is it ja lt lv mk mt nb nl nn pl pt ro sk sl sq sv sw tr uk vi zh sr bs hr me)
+hbs_langs=(hr sr bs me)
+
+if [[ " ${bicleaner_ai_langs_en[*]} " =~ " $TRGLANG " ]]; then
+	#en-trg not supported by classic bicleaner
+	if [[ " ${hbs_langs[*]} " =~ " $TRGLANG " ]]; then
+		bc_srclang=$SRCLANG
+		bc_trglang=hbs
+		bicleaner_ai_metadata=$datapath/bicleaner-ai/$SRCLANG-$bc_trglang/metadata.yaml
+	else
+		bc_srclang=$SRCLANG
+   		bc_trglang=$TRGLANG
+   		bicleaner_ai_metadata=$datapath/bicleaner-ai/$SRCLANG-$TRGLANG/metadata.yaml   				
+   	fi
+else
+	#en-trg not supported by bicleaner ai, but falling back to en-xx
+	echo "Falling back to bicleaner-ai en-xx"
+	bicleaner_ai_metadata=$datapath/bicleaner-ai/en-xx/metadata.yaml
+   	bc_srclang=$SRCLANG
+   	bc_trglang=xx
+fi
+
+#Download models
+if [ -f "$bicleaner_ai_metadata" ]; then
+	echo "BicleanerAI model already downloaded."
+else
+       	mkdir -p $datapath/bicleaner-ai
+      	echo "Downloading bicleanerAI model..."
+        mkdir -p $datapath/bicleaner-ai/$bc_srclang-$bc_trglang
+        source /work/venvs/venv-bcai/bin/activate
+        bicleaner-ai-download $bc_srclang $bc_trglang full $datapath/bicleaner-ai/$bc_srclang-$bc_trglang/
+        deactivate
+fi
 
 echo "Extracting TMX..."
 dir_path=$(dirname "$GZFILE")
@@ -22,10 +55,18 @@ filename=$(basename "$GZFILE" .gz)
 # Create the new file path with the "tmx" and "tsv" extension
 TMXFILE="$dir_path/$filename"
 TSVFILE="$dir_path/$filename.tsv"
+HRFILE="$dir_path/$filename.hardrules"
 YAMLFILE="yaml_dir/$filename.yaml"
 
 zcat $GZFILE > $TMXFILE 
 python3 ./tmxt/tmxt.py --codelist=$SRCLANG,$TRGLANG,$SRCLANG-source-document,$TRGLANG-source-document,collection,score-bicleaner  $TMXFILE $TSVFILE --multiprops
+
+echo "Running Hardrules..."
+date
+source /work/venvs/venv-bhr/bin/activate
+cat $TSVFILE | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_ai_metadata > $HRFILE
+deactivate
+
 
 echo "Running FastSpell..."
 date
@@ -37,14 +78,13 @@ python3.10 /work/scripts/force-fasttext-download.py $TRGLANG
 
 echo "Generating langcounts..."
 date
-cat $TSVFILE.$SRCLANG.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $TSVFILE.$SRCLANG.langcounts
-cat $TSVFILE.$TRGLANG.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $TSVFILE.$TRGLANG.langcounts
+cat $TSVFILE.$SRCLANG.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $TMXFILE.$SRCLANG.langcounts
+cat $TSVFILE.$TRGLANG.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $TMXFILE.$TRGLANG.langcounts
 
 echo "Reading corpus..."
 date
 python3 ./scripts/readcorpus_hpltv2.py $TSVFILE $YAMLFILE $SRCLANG $TRGLANG $METADATAFILE
 
-exit
 
 rm -f $TSVFILE.$SRCLANG".ngrams"
 rm -f $TSVFILE.$TRGLANG".ngrams"
