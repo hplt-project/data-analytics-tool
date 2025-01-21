@@ -23,7 +23,7 @@ import DocumentSizes from "./DocumentSizes";
 import buttonStyles from "@/styles/Uploader.module.css";
 import Footnotes from "./Footnotes";
 const punycode = require("punycode/");
-import { SAMPLE_DATA } from "@/assets/samples/output";
+import { SAMPLE_DATA } from "@/assets/samples/hplt-mono-v2";
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
 
