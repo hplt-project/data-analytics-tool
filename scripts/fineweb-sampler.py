@@ -26,7 +26,9 @@ for l in langs:
     samples[langcode] = docs
         
 
-with open("fineweb.js", "w") as samplesfile:
-    json.dump(samples, samplesfile, indent=4)
+
+with open("fineweb.js", "w", encoding="utf-8") as samplesfile:
+    json.dump(samples, samplesfile, indent=4, ensure_ascii=False)
+
 
     
