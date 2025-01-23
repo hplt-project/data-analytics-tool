@@ -600,7 +600,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
                           </Tooltip>
                         </div>
                       </th>
-                      <th className={styles.desktopData}>Unique segments</th>
+                      {!trglang && (
+                        <th className={styles.desktopData}>Unique segments</th>
+                      )}
                       {!trglang && (
                         <th className={styles.desktopData}>
                           <div className={styles.containsTooltip}>
@@ -677,24 +679,26 @@ export default function DataAnalyticsReport({ reportData, date }) {
                           {numberFormatter(+reportData.sentence_pairs)}
                         </p>
                       </td>
-                      <td className={styles.desktopData}>
-                        <p className={styles.desktopNum}>
-                          {uniqueSegments.toLocaleString("en-US")}
-                        </p>
-                        <p className={styles.mobileNum}>
-                          {numberFormatter(+uniqueSegments)}
-                        </p>
-                        {uniqueSegments && sentences && (
-                          <span className={styles.percSpan}>
-                            {" ("}
-                            {(
-                              (reportData.unique_sents * 100) /
-                              reportData.sentence_pairs
-                            ).toFixed(2)}{" "}
-                            %)
-                          </span>
-                        )}
-                      </td>
+                      {!trglang && (
+                        <td className={styles.desktopData}>
+                          <p className={styles.desktopNum}>
+                            {uniqueSegments.toLocaleString("en-US")}
+                          </p>
+                          <p className={styles.mobileNum}>
+                            {numberFormatter(+uniqueSegments)}
+                          </p>
+                          {uniqueSegments && sentences && (
+                            <span className={styles.percSpan}>
+                              {" ("}
+                              {(
+                                (reportData.unique_sents * 100) /
+                                reportData.sentence_pairs
+                              ).toFixed(2)}{" "}
+                              %)
+                            </span>
+                          )}
+                        </td>
+                      )}
                       <td className={styles.desktopData}>{srcTokens}</td>
                       {trglang && (
                         <td className={styles.desktopData}>{trgTokens}</td>
@@ -715,19 +719,21 @@ export default function DataAnalyticsReport({ reportData, date }) {
                   </tbody>
                 </table>
                 <div className={styles.mobileData}>
-                  <p className={styles.mobileNum}>
-                    Unique segments - {numberFormatter(+uniqueSegments)}
-                    {uniqueSegments && sentences && (
-                      <span className={styles.percSpan}>
-                        {" ("}
-                        {(
-                          (reportData.src_unique_sents.length * 100) /
-                          reportData.sentence_pairs
-                        ).toFixed(2)}{" "}
-                        %)
-                      </span>
-                    )}
-                  </p>
+                  {!trglang && (
+                    <p className={styles.mobileNum}>
+                      Unique segments - {numberFormatter(+uniqueSegments)}
+                      {uniqueSegments && sentences && (
+                        <span className={styles.percSpan}>
+                          {" ("}
+                          {(
+                            (reportData.src_unique_sents.length * 100) /
+                            reportData.sentence_pairs
+                          ).toFixed(2)}{" "}
+                          %)
+                        </span>
+                      )}
+                    </p>
+                  )}
                   {!trglang && <p>Tokens - {srcTokens}</p>}
                   {trglang && <p>Src tokens - {srcTokens}</p>}
                   {trglang && <p>Trg tokens - {trgTokens}</p>}

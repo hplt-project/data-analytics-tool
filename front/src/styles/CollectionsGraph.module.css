@@ -1,15 +1,25 @@
 .collectionsGraph {
   height: 320px;
-  width: fit-content
+  width: fit-content;
 }
-
+.collectionsContainer {
+  width: fit-content;
+}
+.collectionsPercCont {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  width: 27vw;
+}
+.collectionsPercCont p {
+  font-weight: 600;
+}
 .tooltip {
   background-color: white;
   border: solid 1px rgb(199, 199, 199);
   padding: 15px 35px 15px 15px;
   border-radius: 5px;
   z-index: 30000;
-
 }
 
 .label {
@@ -17,22 +27,18 @@
   margin-bottom: 12px;
 }
 
-
-.perc{
+.perc {
   margin-top: 5px;
   margin-bottom: 7px;
   font-weight: 600;
-
 }
-.singleOther{
+.singleOther {
   font-weight: 600;
   margin: 3px 0;
   font-size: 13px;
 }
 @media (max-width: 768px) {
-
   .collectionsGraph {
     height: 300px;
   }
-  
 }
