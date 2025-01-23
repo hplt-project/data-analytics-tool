@@ -164,10 +164,30 @@ export const percFormatter = (number) => {
   return number.toString() + "%";
 };
 
-
 export const numberFormatter = (num) => {
   const formatted = Intl.NumberFormat("en", {
     notation: "compact",
   }).format(num);
   return formatted;
-}
+};
+
+import axios from "axios";
+
+export const handleDownload = async (filename) => {
+  try {
+    const response = await axios.get(`/api/download/${filename}`);
+
+    if (response.status !== 200) {
+      console.error(response.status, response.statusText);
+    }
+    const blob = response.data;
+    const test = new File([blob], `${filename}.yaml`);
+    const url = window.URL.createObjectURL(test);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = `${filename}`;
+    link.click();
+  } catch (error) {
+    console.log(error, "Something went wrong with the download.");
+  }
+};

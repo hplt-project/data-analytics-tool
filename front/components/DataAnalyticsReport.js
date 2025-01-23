@@ -5,6 +5,7 @@ import {
   randDarkColor,
   numberFormatter,
   languagePairName,
+  handleDownload,
 } from "../hooks/hooks";
 import NGramsTable from "./NGramsTable";
 import SegmentDistribution from "./SegmentDistribution";
@@ -12,18 +13,22 @@ import { exportMultipleChartsToPdf } from "./utils";
 import NoiseDistributionGraph from "./NoiseDistributionGraph";
 import { Oval } from "react-loader-spinner";
 import LangDocs from "./langDocs";
-import axios from "axios";
 import { useRouter } from "next/router";
-import { ArrowLeft, ArrowRight, Info, X } from "lucide-react";
+import { Info } from "lucide-react";
 import { Tooltip } from "react-tooltip";
-import Image from "next/image";
-import Logo from "../public/logos/logo.png";
 import CollectionsGraph from "./collectionsGraphs";
 import DocumentSizes from "./DocumentSizes";
 import buttonStyles from "@/styles/Uploader.module.css";
 import Footnotes from "./Footnotes";
 const punycode = require("punycode/");
 import { SAMPLE_DATA } from "@/assets/samples/hplt-mono-v2";
+import { SAMPLE_DATA_FINEWEB } from "@/assets/samples/fineweb";
+import DomainTable from "./DomainTable";
+import TLDTable from "./TLDTable";
+import Sample from "./Sample";
+import SampleButton from "./SampleButton";
+import Loader from "./Loader";
+import ReportTitle from "./ReportTitle";
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
 
@@ -36,38 +41,21 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const filename = router.query.file.replace(".yaml", "");
 
-  const sampleData = SAMPLE_DATA;
+  const sampleData = dName.includes("fineweb")
+    ? SAMPLE_DATA_FINEWEB
+    : SAMPLE_DATA;
+
   const sampleFilename = router.query.file
     .replace("HPLT-v2-", "")
     .replace(".yaml", "")
-    .replace(".lite", "");
+    .replace(".lite", "")
+    .replace("fineweb2-", "");
 
   const sample = Object.entries(sampleData).find(
     (key) => key[0] === sampleFilename
   );
 
   const [footNote, setFootNote] = useState(false);
-
-  const handleDownload = async () => {
-    const filename = router.query.file;
-
-    try {
-      const response = await axios.get(`/api/download/${filename}`);
-
-      if (response.status !== 200) {
-        console.error(response.status, response.statusText);
-      }
-      const blob = response.data;
-      const test = new File([blob], `${filename}.yaml`);
-      const url = window.URL.createObjectURL(test);
-      const link = document.createElement("a");
-      link.href = url;
-      link.download = `${filename}`;
-      link.click();
-    } catch (error) {
-      console.log(error, "Something went wrong with the download.");
-    }
-  };
 
   const [loadingPdf, setLoadingPdf] = useState(false);
 
@@ -359,12 +347,59 @@ export default function DataAnalyticsReport({ reportData, date }) {
       })
     : "";
 
+  const collectionsTotal = reportData.collections
+    ? JSON.parse(reportData.collections).reduce((a, b) => a + b[1], 0)
+    : "";
+
+  const collections = reportData.collections
+    ? JSON.parse(reportData.collections).map((s) => {
+        return {
+          token: s[0],
+          freq: s[1],
+          perc: parseFloat((s[1] * 100) / collectionsTotal).toFixed(2),
+          fill: randDarkColor(),
+        };
+      })
+    : "";
+
   const docsDomains = reportData.docs_top100_domains
     ? JSON.parse(reportData.docs_top100_domains).slice(0, 10)
     : "";
 
   let docsTopTenDomains = docsDomains
     ? docsDomains.map((doc) => {
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.docs_total
+            ? (doc[1] * 100) / reportData.docs_total
+            : "",
+        };
+      })
+    : "";
+
+  const srcDomains = reportData.src_top100_domains
+    ? JSON.parse(reportData.src_top100_domains).slice(0, 10)
+    : "";
+
+  let srcTopTenDomains = srcDomains
+    ? srcDomains.map((doc) => {
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.docs_total
+            ? (doc[1] * 100) / reportData.docs_total
+            : "",
+        };
+      })
+    : "";
+
+  const trgDomains = reportData.trg_top100_domains
+    ? JSON.parse(reportData.trg_top100_domains).slice(0, 10)
+    : "";
+
+  let trgTopTenDomains = trgDomains
+    ? trgDomains.map((doc) => {
         return {
           token: punycode.toUnicode(doc[0]),
           freq: numberFormatter(doc[1]),
@@ -391,6 +426,37 @@ export default function DataAnalyticsReport({ reportData, date }) {
       })
     : "";
 
+  const srcTLDs = reportData.src_top100_tld
+    ? JSON.parse(reportData.src_top100_tld).slice(0, 10)
+    : "";
+
+  let srcTopTenTLDs = srcTLDs
+    ? srcTLDs.map((doc) => {
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.src_tokens
+            ? (doc[1] * 100) / reportData.src_tokens
+            : "",
+        };
+      })
+    : "";
+
+  const trgTLDs = reportData.trg_top100_tld
+    ? JSON.parse(reportData.trg_top100_tld).slice(0, 10)
+    : "";
+
+  let trgTopTenTLDs = trgTLDs
+    ? trgTLDs.map((doc) => {
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.trg_tokens
+            ? (doc[1] * 100) / reportData.trg_tokens
+            : "",
+        };
+      })
+    : "";
   const datasetName = reportData.corpus ? reportData.corpus : "Not specified";
 
   const totalDocsOverview = reportData.docs_total ? reportData.docs_total : "";
@@ -437,89 +503,23 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const [showSample, setShowSample] = useState(false);
 
-  const [currentSample, setCurrentSample] = useState(1);
-
   return (
     <div className={styles.dataReportContainer}>
-      {sample && dName.includes("HPLT-v2") && (
-        <div className={styles.sampleBtnCont}>
-          <button
-            className={buttonStyles["button-32"]}
-            onClick={() => setShowSample((sample) => !sample)}
-          >
-            See dataset sample
-          </button>{" "}
-        </div>
-      )}
+      <SampleButton
+        sample={sample}
+        setShowSample={setShowSample}
+        dName={dName}
+      />
       {showSample && (
-        <div className={styles.blur}>
-          <div className={styles.sampleModal}>
-            <div className={styles.modalHead}>
-              <h2>
-                Random samples from the {srclang && srclang[0].label} dataset
-              </h2>
-              <button
-                className={styles.closeSampleBtn}
-                onClick={() => setShowSample(false)}
-              >
-                <X />
-              </button>
-            </div>
-            <div
-              className={styles.sampleContent}
-              dangerouslySetInnerHTML={{
-                __html: sample[1][currentSample - 1].replaceAll("\n", "<br/>"),
-              }}
-            ></div>
-            <div className={styles.sampleButtons}>
-              {currentSample > 1 && (
-                <button
-                  onClick={() =>
-                    setCurrentSample((currentSample) =>
-                      currentSample > 1 ? currentSample - 1 : currentSample
-                    )
-                  }
-                >
-                  <ArrowLeft />
-                </button>
-              )}
-              <p>
-                Currently showing doc number {currentSample} out of{" "}
-                {sample[1].length}
-              </p>
-              {currentSample < sample[1].length && (
-                <button
-                  onClick={() =>
-                    setCurrentSample((currentSample) =>
-                      currentSample < sample[1].length
-                        ? currentSample + 1
-                        : currentSample
-                    )
-                  }
-                >
-                  <ArrowRight />
-                </button>
-              )}
-            </div>
-          </div>
-        </div>
+        <Sample
+          srclang={srclang}
+          sample={sample}
+          setShowSample={setShowSample}
+        />
       )}
       <div className="custom-chart">
         <div className={styles.reportMainStats}>
-          <div className={styles.analyticsTitleContainer}>
-            <h1 className={styles.analyticsTitle}>HPLT Analytics report</h1>
-            <h2>
-              <Image
-                src={Logo}
-                width={30}
-                height={30}
-                className={styles.logo}
-              />
-              <p className={styles.hpltAnalyticsTitle}>
-                <span className={styles.analyticsTitleSpan}>HPLT</span>Analytics
-              </p>
-            </h2>
-          </div>
+          <ReportTitle />
           <div className={styles.tables}>
             <div className={styles.overviewTables}>
               <div className={styles.generalOverview}>
@@ -739,64 +739,23 @@ export default function DataAnalyticsReport({ reportData, date }) {
             </div>
             <div className={styles.tablesLeft}>
               {docsTopTenDomains && (
-                <div className={styles.topDomains}>
-                  <h3>Top 10 domains </h3>
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Domain</th>
-                        <th>Docs</th>
-                        {docsTopTenDomains[0].perc && <th>% of total</th>}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {docsTopTenDomains.map((doc) => {
-                        return (
-                          <tr>
-                            <td>
-                              <a
-                                href={`http://www.${doc.token}`}
-                                target="_blank"
-                                className={styles.domainLink}
-                              >
-                                {doc.token}
-                              </a>
-                            </td>
-                            <td>{doc.freq}</td>
-                            <td>{doc.perc.toFixed(2)}</td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                  </table>
-                </div>
+                <DomainTable topDomains={docsTopTenDomains} type={"docs"} />
               )}
+
               {docsTopTenTLDs && (
-                <div className={styles.topTLDs}>
-                  <h3>Top 10 TLDs </h3>
-                  <table>
-                    <thead>
-                      <tr>
-                        <th>Domain</th>
-                        <th>Docs</th>
-                        {docsTopTenTLDs[0].perc && <th>% of total</th>}
-                      </tr>
-                    </thead>
-                    <tbody>
-                      {docsTopTenTLDs.map((doc) => {
-                        return (
-                          <tr>
-                            <td>{doc.token}</td>
-                            <td>{doc.freq}</td>
-                            <td>{doc.perc.toFixed(2)}</td>
-                          </tr>
-                        );
-                      })}
-                    </tbody>
-                  </table>
-                </div>
+                <TLDTable topTLDs={docsTopTenTLDs} type={"docs"} />
               )}
             </div>
+          </div>
+          <div className={styles.bilingualTables}>
+            {srcTopTenDomains && (
+              <DomainTable topDomains={srcTopTenDomains} type={"src"} />
+            )}
+            {trgTopTenDomains && (
+              <DomainTable topDomains={srcTopTenDomains} type={"trg"} />
+            )}
+            {srcTopTenTLDs && <TLDTable topTLDs={srcTopTenTLDs} type={"src"} />}
+            {trgTopTenTLDs && <TLDTable topTLDs={trgTopTenTLDs} type={"trg"} />}
           </div>
         </div>
       </div>
@@ -849,6 +808,13 @@ export default function DataAnalyticsReport({ reportData, date }) {
               </div>
             )}
           </div>
+        </div>
+      )}
+
+      {collections && (
+        <div className={styles.collectionsGraphPie}>
+          <h3>Collections</h3>
+          <CollectionsGraph collection={collections} total={collectionsTotal} />
         </div>
       )}
       {!reportData.trglang && (
@@ -1256,7 +1222,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
           <NoiseDistributionGraph noiseData={noiseDistribution} />
         </div>
       )}
-      {reportData.src_ngrams && Object.entries(srcNGrams).length && (
+      {reportData.src_ngrams && Object.entries(srcNGrams).length > 0 && (
         <div className="custom-chart">
           <div className={styles.nGramContainer}>
             <div className={styles.singleNGramContainer}>
@@ -1314,7 +1280,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
           </div>
         </div>
       )}
-      {reportData.trglang && Object.entries(trgNGrams).length && (
+      {reportData.trglang && Object.entries(trgNGrams).length > 0 && (
         <div className="custom-chart">
           <div className={styles.singleNGramContainer}>
             <div className={styles.containsTooltip}>
@@ -1378,7 +1344,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
       <div className={[styles.reportButtons, styles.desktopNum].join(" ")}>
         <button
           className={buttonStyles["button-27"]}
-          onClick={() => handleDownload(reportData.corpus)}
+          onClick={() => handleDownload(dName)}
           type="button"
         >
           Download yaml
@@ -1413,26 +1379,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
           )}
         </button>
       </div>
-      {footNote && (
-        <div className={styles.overlay}>
-          <div className={styles.overlayText}>
-            {" "}
-            <h1>Please wait. Your report is being generated</h1>{" "}
-            <Oval
-              visible={true}
-              height="46"
-              width="46"
-              color="#ffffff"
-              ariaLabel="oval-loading"
-              wrapperStyle={{}}
-              wrapperClass="wrapper"
-              secondaryColor="white"
-              strokeWidth={4}
-              strokeWidthSecondary={4}
-            />
-          </div>
-        </div>
-      )}
+      {footNote && <Loader />}
     </div>
   );
 }

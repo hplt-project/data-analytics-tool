@@ -1,0 +1,17 @@
+.topDomains {
+  margin-right: 30px;
+}
+.dataReportContainer .topDomains table thead th,
+.dataReportContainer .topDomains table tr td {
+  padding: 5px 30px 5px 8px;
+  font-size: 14px;
+}
+
+.dataReportContainer .topDomains table thead th:first-of-type,
+.dataReportContainer .topDomains table tr td:first-of-type {
+  min-width: 60px;
+}
+.domainLink {
+  text-decoration: none;
+  color: var(--desc-link-color);
+}

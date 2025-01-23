@@ -1,0 +1,45 @@
+.analyticsTitleContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
+.analyticsTitleContainer h2 {
+  display: flex;
+  align-items: flex-end;
+  padding-bottom: 3px;
+}
+.hpltAnalyticsTitle span.analyticsTitleSpan {
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  color: #a50000;
+}
+
+.hpltAnalyticsTitle {
+  font-weight: 500;
+}
+
+@media (max-width: 768px) {
+  .analyticsTitleContainer {
+    margin-bottom: 20px;
+  }
+
+  .analyticsTitle {
+    font-size: 26px;
+  }
+
+  .hpltAnalyticsTitle {
+    font-size: 18px;
+  }
+
+  .hpltAnalyticsTitle span.analyticsTitleSpan {
+    font-size: 18px;
+  }
+
+  .analyticsTitleContainer img {
+    width: 25px;
+    height: 25px;
+  }
+}

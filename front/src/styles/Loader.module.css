@@ -1,0 +1,22 @@
+.overlay {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: #222;
+  padding: 20px;
+}
+
+.overlayText {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlayText h1 {
+  color: white;
+  margin-right: 15px;
+}
