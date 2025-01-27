@@ -972,12 +972,42 @@ export default function DataAnalyticsReport({ reportData, date }) {
       {bicleanerScores && (
         <div className="custom-chart">
           <div className={styles.bicleanerScores}>
-            <h3>Translation likelihood</h3>
+            <h3>
+              Translation likelihood{" "}
+              <a className="bicleaner-info-second">
+                {" "}
+                {!footNote && (
+                  <Info
+                    className={[styles.helpCircle, styles.desktopData].join(
+                      " "
+                    )}
+                    strokeWidth={1.2}
+                    color="#2C2E35"
+                    width={20}
+                  />
+                )}
+              </a>
+              <Tooltip
+                anchorSelect=".bicleaner-info-second"
+                place="top"
+                clickable
+              >
+                Scores computed by Bicleaner-AI: (
+                <a
+                  href="https://github.com/bitextor/bicleaner-ai"
+                  target="_blank"
+                  className={styles.tooltipLink}
+                >
+                  https://github.com/bitextor/bicleaner-ai
+                </a>
+                )
+              </Tooltip>
+            </h3>
             <div className={styles.desktopNum}>
               <ReportScores
                 scores={bicleanerScores}
-                xLabel={"Segments per document"}
-                yLabel={"Frequency"}
+                xLabel={"Scores"}
+                yLabel={"Segments"}
                 graph={"another"}
                 padding={60}
                 labellist={true}
@@ -987,8 +1017,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
             <div className={styles.mobileNum}>
               <ReportScores
                 scores={bicleanerScores}
-                xLabel={"Segments per document"}
-                yLabel={"Frequency"}
+                xLabel={"Scores"}
+                yLabel={"Segments"}
                 graph={"another"}
                 padding={20}
                 labellist={true}
