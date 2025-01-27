@@ -21,7 +21,7 @@ async function creatPdf({ doc, elements }) {
   for (let i = 0; i < elements.length; i++) {
     const el = elements.item(i);
 
-    const imgData = await htmlToImage.toPng(el);
+    const imgData = await htmlToImage.toPng(el, { pixelRatio: 5 });
 
     let elHeight = el.offsetHeight;
     let elWidth = el.offsetWidth;
@@ -49,7 +49,7 @@ async function creatPdf({ doc, elements }) {
         elWidth,
         elHeight + 38,
         `image${i}`,
-        'FAST'
+        "FAST"
       );
     } else if (i == 1) {
       doc.addImage(
@@ -59,8 +59,8 @@ async function creatPdf({ doc, elements }) {
         top - 15,
         elWidth,
         elHeight + 38,
-        `image${i}`, 
-        'FAST'
+        `image${i}`,
+        "FAST"
       );
     } else if (i == elements.length - 1) {
       doc.addImage(
@@ -71,7 +71,7 @@ async function creatPdf({ doc, elements }) {
         elWidth,
         elHeight + 28,
         `image${i}`,
-        'FAST'
+        "FAST"
       );
     } else {
       doc.addImage(
@@ -82,7 +82,7 @@ async function creatPdf({ doc, elements }) {
         elWidth,
         elHeight + 30,
         `image${i}`,
-        'FAST'
+        "FAST"
       );
     }
 

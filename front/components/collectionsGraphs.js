@@ -69,8 +69,6 @@ export default function CollectionsGraph({ collection, total }) {
   const ccPerc = (ccOnly / total) * 100;
   const iaPerc = (iaOnly / total) * 100;
 
-  console.log(ccPerc, iaPerc, "PERCINOS");
-
   return (
     <div className={styles.collectionsContainer}>
       <div className={styles.collectionsPercCont}>

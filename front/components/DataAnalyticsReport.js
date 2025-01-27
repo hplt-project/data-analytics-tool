@@ -29,6 +29,7 @@ import Sample from "./Sample";
 import SampleButton from "./SampleButton";
 import Loader from "./Loader";
 import ReportTitle from "./ReportTitle";
+import BilingualTable from "./BilingualTable";
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
 
@@ -387,8 +388,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
         return {
           token: punycode.toUnicode(doc[0]),
           freq: numberFormatter(doc[1]),
-          perc: reportData.docs_total
-            ? (doc[1] * 100) / reportData.docs_total
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
             : "",
         };
       })
@@ -403,12 +404,26 @@ export default function DataAnalyticsReport({ reportData, date }) {
         return {
           token: punycode.toUnicode(doc[0]),
           freq: numberFormatter(doc[1]),
-          perc: reportData.docs_total
-            ? (doc[1] * 100) / reportData.docs_total
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
             : "",
         };
       })
     : "";
+
+  const bilingualDomains =
+    srcTopTenDomains && trgTopTenDomains
+      ? srcTopTenDomains.map((el, idx) => {
+          return {
+            src_domain: { token: el.token, freq: el.freq, perc: el.perc },
+            trg_domain: {
+              token: trgTopTenDomains[idx].token,
+              freq: trgTopTenDomains[idx].freq,
+              perc: trgTopTenDomains[idx].perc,
+            },
+          };
+        })
+      : "";
 
   const docsTLDs = reportData.docs_top100_tld
     ? JSON.parse(reportData.docs_top100_tld).slice(0, 10)
@@ -435,8 +450,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
         return {
           token: punycode.toUnicode(doc[0]),
           freq: numberFormatter(doc[1]),
-          perc: reportData.src_tokens
-            ? (doc[1] * 100) / reportData.src_tokens
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
             : "",
         };
       })
@@ -451,12 +466,27 @@ export default function DataAnalyticsReport({ reportData, date }) {
         return {
           token: punycode.toUnicode(doc[0]),
           freq: numberFormatter(doc[1]),
-          perc: reportData.trg_tokens
-            ? (doc[1] * 100) / reportData.trg_tokens
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
             : "",
         };
       })
     : "";
+
+  const bilingualTLDs =
+    srcTopTenTLDs && trgTopTenTLDs
+      ? srcTopTenTLDs.map((el, idx) => {
+          return {
+            src_domain: { token: el.token, freq: el.freq, perc: el.perc },
+            trg_domain: {
+              token: trgTopTenTLDs[idx].token,
+              freq: trgTopTenTLDs[idx].freq,
+              perc: trgTopTenTLDs[idx].perc,
+            },
+          };
+        })
+      : "";
+
   const datasetName = reportData.corpus ? reportData.corpus : "Not specified";
 
   const totalDocsOverview = reportData.docs_total ? reportData.docs_total : "";
@@ -600,10 +630,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
                           </Tooltip>
                         </div>
                       </th>
-                      {!trglang && (
+                      {!trglang && uniqueSegments && (
                         <th className={styles.desktopData}>Unique segments</th>
                       )}
-                      {!trglang && (
+                      {!trglang && srcTokens && (
                         <th className={styles.desktopData}>
                           <div className={styles.containsTooltip}>
                             Tokens{" "}
@@ -679,7 +709,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                           {numberFormatter(+reportData.sentence_pairs)}
                         </p>
                       </td>
-                      {!trglang && (
+                      {!trglang && uniqueSegments && (
                         <td className={styles.desktopData}>
                           <p className={styles.desktopNum}>
                             {uniqueSegments.toLocaleString("en-US")}
@@ -699,7 +729,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
                           )}
                         </td>
                       )}
-                      <td className={styles.desktopData}>{srcTokens}</td>
+                      {srcTokens && (
+                        <td className={styles.desktopData}>{srcTokens}</td>
+                      )}
                       {trglang && (
                         <td className={styles.desktopData}>{trgTokens}</td>
                       )}
@@ -719,7 +751,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                   </tbody>
                 </table>
                 <div className={styles.mobileData}>
-                  {!trglang && (
+                  {!trglang && uniqueSegments && (
                     <p className={styles.mobileNum}>
                       Unique segments - {numberFormatter(+uniqueSegments)}
                       {uniqueSegments && sentences && (
@@ -734,7 +766,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                       )}
                     </p>
                   )}
-                  {!trglang && <p>Tokens - {srcTokens}</p>}
+                  {!trglang && srcTokens && <p>Tokens - {srcTokens}</p>}
                   {trglang && <p>Src tokens - {srcTokens}</p>}
                   {trglang && <p>Trg tokens - {trgTokens}</p>}
                   {!trglang && srcSize && <p>Size -{srcSize}</p>}
@@ -754,14 +786,12 @@ export default function DataAnalyticsReport({ reportData, date }) {
             </div>
           </div>
           <div className={styles.bilingualTables}>
-            {srcTopTenDomains && (
-              <DomainTable topDomains={srcTopTenDomains} type={"src"} />
+            {bilingualDomains && (
+              <BilingualTable list={bilingualDomains} type={"domains"} />
             )}
-            {trgTopTenDomains && (
-              <DomainTable topDomains={srcTopTenDomains} type={"trg"} />
+            {bilingualTLDs && (
+              <BilingualTable list={bilingualTLDs} type={"TLDs"} />
             )}
-            {srcTopTenTLDs && <TLDTable topTLDs={srcTopTenTLDs} type={"src"} />}
-            {trgTopTenTLDs && <TLDTable topTLDs={trgTopTenTLDs} type={"trg"} />}
           </div>
         </div>
       </div>

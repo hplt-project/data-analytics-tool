@@ -15,3 +15,17 @@
   text-decoration: none;
   color: var(--desc-link-color);
 }
+.bilingualTable {
+  margin-right: 30px;
+  margin-bottom: 20px;
+}
+
+.bilingualTable table th,
+.bilingualTable table td {
+  padding: 3px 10px;
+}
+
+.bilingualTable table th span,
+.bilingualTable table td span {
+  font-weight: 600;
+}
