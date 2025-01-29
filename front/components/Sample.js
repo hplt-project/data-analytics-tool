@@ -4,6 +4,53 @@ import styles from "@/styles/Sample.module.css";
 
 function Sample({ srclang, sample, setShowSample }) {
   const [currentSample, setCurrentSample] = useState(1);
+
+  const rtlLanguages = [
+    "ar",
+    "ar-AE",
+    "ar-BH",
+    "ar-DJ",
+    "ar-DZ",
+    "ar-EG",
+    "ar-IQ",
+    "ar-JO",
+    "ar-KW",
+    "ar-LB",
+    "ar-LY",
+    "ar-MA",
+    "ar-OM",
+    "ar-QA",
+    "ar-SA",
+    "ar-SD",
+    "ar-SY",
+    "ar-TN",
+    "ar-YE",
+    "fa-AF",
+    "fa-IR",
+    "fa",
+    "he",
+    "he-IL",
+    "iw",
+    "kd",
+    "pk-PK",
+    "ps",
+    "ug",
+    "ur",
+    "ur-IN",
+    "ur-PK",
+    "yi",
+    "yi-US",
+    "ara",
+    "pes",
+    "fas",
+    "heb",
+    "pus",
+    "pbt",
+    "uig",
+    "urd",
+    "ydd",
+  ];
+
   return (
     <div className={styles.blur}>
       <div className={styles.sampleModal}>
@@ -17,7 +64,11 @@ function Sample({ srclang, sample, setShowSample }) {
           </button>
         </div>
         <div
-          className={styles.sampleContent}
+          className={
+            srclang && rtlLanguages.some((el) => el.includes(srclang[0].value))
+              ? styles.sampleContentRTL
+              : styles.sampleContent
+          }
           dangerouslySetInnerHTML={{
             __html: sample[1][currentSample - 1].replaceAll("\n", "<br/>"),
           }}

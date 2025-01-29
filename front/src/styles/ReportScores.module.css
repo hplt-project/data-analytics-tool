@@ -39,6 +39,7 @@
 }
 
 .reportTitle,
+.reportTitleSmall,
 .reportTitleDocsSizes {
   display: flex;
   flex-direction: column;
@@ -51,12 +52,15 @@
 }
 
 .reportTitle p,
+.reportTitleSmall p,
 .reportTitleDocsSizes p {
   width: fit-content;
   margin-left: auto;
   margin-bottom: 5px;
 }
-
+.reportTitleSmall {
+  width: 98%;
+}
 
 /* - Docs sizes tooltip - ****/
 
@@ -72,12 +76,10 @@
   margin-bottom: 12px;
 }
 
-
-.perc{
+.perc {
   margin-top: 5px;
   margin-bottom: 7px;
   font-weight: 600;
-
 }
 
 @media (max-width: 768px) {

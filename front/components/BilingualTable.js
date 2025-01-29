@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "@/styles/DomainTable.module.css";
 
 function BilingualTable({ list, type }) {
@@ -17,15 +18,37 @@ function BilingualTable({ list, type }) {
           {list.map((el) => {
             return (
               <tr>
-                <th scope="row">{el.src_domain.token}</th>
+                {type === "domains" && (
+                  <td>
+                    <Link
+                      href={`/${el.src_domain.token}`}
+                      target="_blank"
+                      className={styles.domainLink}
+                    >
+                      {el.src_domain.token}
+                    </Link>
+                  </td>
+                )}
+                {type === "TLDs" && <td>{el.src_domain.token}</td>}
                 <td>
-                  {el.src_domain.freq}{" "}
-                  <span>( {el.src_domain.perc.toFixed(1)}%)</span>
+                  {el.src_domain.freq}|{el.src_domain.perc.toFixed(1)}%
                 </td>
-                <th scope="row">{el.trg_domain.token}</th>
                 <td>
-                  {el.trg_domain.freq}{" "}
-                  <span>({el.trg_domain.perc.toFixed(1)}%)</span>
+                  {type === "domains" && (
+                    <td>
+                      <Link
+                        href={`/${el.trg_domain.token}`}
+                        target="_blank"
+                        className={styles.domainLink}
+                      >
+                        {el.src_domain.token}
+                      </Link>
+                    </td>
+                  )}
+                  {type === "TLDs" && <td>{el.trg_domain.token}</td>}
+                </td>
+                <td>
+                  {el.trg_domain.freq}|{el.trg_domain.perc.toFixed(1)}%
                 </td>
               </tr>
             );

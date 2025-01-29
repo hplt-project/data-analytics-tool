@@ -105,34 +105,43 @@ export default function ReportScores({
           </p>
         </div>
       )}
-      {!firstHalfPerc >= 0 && !secondHalfPerc >= 0 && graph === "another" && (
-        <div className={styles.reportTitle}>
-          <p>
-            {"≥"} 5 ={" "}
-            {Intl.NumberFormat("en", {
-              notation: "compact",
-            }).format(overEqualFive)}{" "}
-            segments |{" "}
-            <strong>{((overEqualFive / total) * 100).toFixed(1)}%</strong>
-          </p>
-          <p>
-            {"≥"} 8 ={" "}
-            {Intl.NumberFormat("en", {
-              notation: "compact",
-            }).format(overEqualEight)}{" "}
-            segments |{" "}
-            <strong>{((overEqualEight / total) * 100).toFixed(1)}%</strong>
-          </p>{" "}
-          <p>
-            {"<"} 5 ={" "}
-            {Intl.NumberFormat("en", {
-              notation: "compact",
-            }).format(underFive)}{" "}
-            segments |{" "}
-            <strong>{((underFive / total) * 100).toFixed(1)}%</strong>
-          </p>
-        </div>
-      )}
+      {!firstHalfPerc >= 0 &&
+        !secondHalfPerc >= 0 &&
+        (graph === "another" || graph === "bicleaner") && (
+          <div
+            className={
+              graph === "bicleaner"
+                ? styles.reportTitleSmall
+                : styles.reportTitle
+            }
+            style={{ width: graph === "another" ? "width: 69%;" : "" }}
+          >
+            <p>
+              {"≥"} 5 ={" "}
+              {Intl.NumberFormat("en", {
+                notation: "compact",
+              }).format(overEqualFive)}{" "}
+              segments |{" "}
+              <strong>{((overEqualFive / total) * 100).toFixed(1)}%</strong>
+            </p>
+            <p>
+              {"≥"} 8 ={" "}
+              {Intl.NumberFormat("en", {
+                notation: "compact",
+              }).format(overEqualEight)}{" "}
+              segments |{" "}
+              <strong>{((overEqualEight / total) * 100).toFixed(1)}%</strong>
+            </p>{" "}
+            <p>
+              {"<"} 5 ={" "}
+              {Intl.NumberFormat("en", {
+                notation: "compact",
+              }).format(underFive)}{" "}
+              segments |{" "}
+              <strong>{((underFive / total) * 100).toFixed(1)}%</strong>
+            </p>
+          </div>
+        )}
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           height={300}

@@ -113,6 +113,11 @@
 
 .bicleanerScores {
   margin-bottom: 40px;
+  margin-right: 20px;
+  width: 100%;
+}
+.anotherContainer {
+  display: flex;
 }
 
 .bicleanerScores h2 {

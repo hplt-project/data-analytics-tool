@@ -28,7 +28,8 @@
     0 3px 7px -3px rgba(0, 0, 0, 0.137);
   overflow-y: auto;
 }
-.sampleContent {
+.sampleContent,
+.sampleContentRTL {
   box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.2);
   padding: 18px;
   height: calc(100% - 140px);
@@ -40,6 +41,9 @@
   position: aboslute;
   overflow-y: auto;
   height: fit-content;
+}
+.sampleContentRTL {
+  direction: rtl;
 }
 .modalHead {
   display: flex;
