@@ -666,14 +666,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
                         </th>
                       )}
                       {trglang && (
-                        <th className={styles.desktopData}>Src tokens</th>
+                        <th className={styles.desktopData}>SL tokens</th>
                       )}
                       {trglang && (
-                        <th className={styles.desktopData}>Src characters</th>
+                        <th className={styles.desktopData}>SL characters</th>
                       )}
 
                       {trglang && (
-                        <th className={styles.desktopData}>Src size</th>
+                        <th className={styles.desktopData}>SL size</th>
                       )}
                       {!trglang && <th className={styles.desktopData}>Size</th>}
                       {!trglang && (
@@ -736,27 +736,26 @@ export default function DataAnalyticsReport({ reportData, date }) {
                   <thead>
                     <tr>
                       {trglang && (
-                        <th className={styles.desktopData}>Trg size</th>
+                        <th className={styles.desktopData}>TL tokens</th>
                       )}
                       {trglang && (
-                        <th className={styles.desktopData}>Trg tokens</th>
+                        <th className={styles.desktopData}>TL characters</th>
                       )}
                       {trglang && (
-                        <th className={styles.desktopData}>Trg characters</th>
+                        <th className={styles.desktopData}>TL size</th>
                       )}
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      {trgSize && (
-                        <td className={styles.desktopData}>{trgSize}</td>
-                      )}
-
                       {trglang && (
                         <td className={styles.desktopData}>{trgTokens}</td>
                       )}
                       {trgChars && (
                         <td className={styles.desktopData}>{trgChars}</td>
+                      )}
+                      {trgSize && (
+                        <td className={styles.desktopData}>{trgSize}</td>
                       )}
                     </tr>
                   </tbody>
@@ -778,11 +777,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     </p>
                   )}
                   {!trglang && srcTokens && <p>Tokens - {srcTokens}</p>}
-                  {trglang && <p>Src tokens - {srcTokens}</p>}
-                  {trglang && <p>Trg tokens - {trgTokens}</p>}
+                  {trglang && <p>SL tokens - {srcTokens}</p>}
+                  {trglang && <p>TL tokens - {trgTokens}</p>}
                   {!trglang && srcSize && <p>Size -{srcSize}</p>}
-                  {trglang && <p>Src size - {srcSize}</p>}
-                  {trglang && <p>Trg size - {trgSize}</p>}
+                  {trglang && <p>SL size - {srcSize}</p>}
+                  {trglang && <p>TL size - {trgSize}</p>}
                 </div>
               </div>
             </div>
