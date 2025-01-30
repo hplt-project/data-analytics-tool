@@ -322,7 +322,7 @@ timestamp: 1732792206.2472742
 unique_sents: 7842
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["n"], 29099], [["s"], 23680], [["d\u0103\u0263"], 22105], [["ahay"],
   21633], [["s\u0259"], 20455]], "2": [[["win win"], 5792], [["ata awan"], 4379],
   [["\u0257o ahay"], 3716], [["ata n\u00e0"], 3207], [["\u0257o s\u0259"], 3019]],

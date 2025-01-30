@@ -353,7 +353,7 @@ timestamp: 1726812510.1177151
 unique_sents: 77616
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["a"], 225859], [["ya"], 123090], [["wa"], 52375], [["tse"],
   46028], [["mme"], 42568]], "2": [[["a a"], 10824], [["boing boing"], 7724], [["jo
   bo"], 5198], [["neng a"], 4639], [["tse dingwe"], 4146]], "3": [[["boing boing boing"],

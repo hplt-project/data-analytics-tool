@@ -537,7 +537,7 @@ srclang: ig
 timestamp: 1733492017.8990128
 unique_sents: 971706
 warnings:
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["na-"], 1266269], [["n''"], 692489], [["nd\u1ecb"], 631747],
   [["ya"], 493217], [["ike"], 384300]], "2": [[["nwere ike"], 161924], [["na- eme"],
   76694], [["nd\u1ecb na-"], 76423], [["nd\u1ecb \u1ecdz\u1ecd"], 75476], [["iche

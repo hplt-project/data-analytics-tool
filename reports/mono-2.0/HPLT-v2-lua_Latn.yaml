@@ -214,7 +214,7 @@ timestamp: 1734112705.3394127
 unique_sents: 27830
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["ne"], 74549], [["bua"], 35764], [["mu"], 32103], [["wa"], 25117],
   [["udi"], 18765]], "2": [[["bualu bua"], 4225], [["ne bua"], 3617], [["udi ne"],
   2150], [["wa nzambi"], 2110], [["pa buloba"], 2032]], "3": [[["udi wamba ne"], 957],

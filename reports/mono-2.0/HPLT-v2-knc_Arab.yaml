@@ -188,7 +188,7 @@ timestamp: 1734074208.4726975
 unique_sents: 7799
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["\u064a"], 17331], [["\u0647"], 7551], [["\u06a0"], 7495], [["\u0649"],
   4888], [["\ufb6a"], 4321]], "2": [[["\u067c \u0685"], 148], [["\u06ba \u067e"],
   143], [["\u0677 \u067d"], 131], [["\u0649 \ufb6a"], 88], [["\u0678 \u067d"], 87]],

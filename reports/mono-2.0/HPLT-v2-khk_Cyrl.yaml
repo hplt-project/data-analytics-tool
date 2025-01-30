@@ -922,7 +922,7 @@ timestamp: 1727376499.548578
 unique_sents: 24830052
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["hb"], 23447199], [["\u0431yt\u043byyp"], 17520513], [["\u0447y\u043byy"],
   9467368], [["\u0431a\u0439ha"], 7938528], [["ma\u0448\u0438h"], 7280864]], "2":
   [[["\u0447y\u043byy \u0431yt\u043byyp"], 3344143], [["tohor t\u04e9x\u04e9\u04e9p\u04e9m\u0436"],

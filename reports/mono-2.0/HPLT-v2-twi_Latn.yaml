@@ -390,7 +390,7 @@ timestamp: 1733389408.2990284
 unique_sents: 71959
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["mu"], 64457], [["w\u0254"], 57424], [["w\u0254n"], 48169],
   [["wo"], 31925], [["ma"], 24027]], "2": [[["yesu kristo"], 2100], [["yi mu"], 2056],
   [["yehowa adansefo"], 1945], [["saa ara"], 1865], [["\u0254w\u0254 k\u025b"], 1720]],

@@ -406,7 +406,7 @@ timestamp: 1727951677.9549897
 unique_sents: 161172
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["in"], 303017], [["balinese"], 99435], [["indonesian"], 97372],
   [["english"], 97267], [["bali"], 80618]], "2": [[["in balinese"], 97070], [["in
   english"], 96934], [["in indonesian"], 96516], [["hyang widi"], 12563], [["widi

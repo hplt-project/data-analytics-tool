@@ -436,7 +436,7 @@ timestamp: 1733345662.7616928
 unique_sents: 733868
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["te"], 318553], [["mafai"], 193269], [["tatou"], 152542], [["pe"],
   135788], [["lelei"], 120905]], "2": [[["ou te"], 36659], [["matou te"], 27474],
   [["te oe"], 26962], [["nai lo"], 20844], [["tatou te"], 19230]], "3": [[["afai e

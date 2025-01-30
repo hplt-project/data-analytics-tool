@@ -901,7 +901,7 @@ timestamp: 1727024675.7686822
 unique_sents: 14568570
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["hii"], 2122035], [["au"], 2046121], [["vya"], 1750493], [["\u03c0"],
   1693235], [["mwaka"], 1437946]], "2": [[["dar es"], 545049], [["es salaam"], 535678],
   [["mwaka huu"], 267434], [["jijini dar"], 257086], [["mwenyezi mungu"], 220984]],

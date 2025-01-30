@@ -416,7 +416,7 @@ timestamp: 1727089598.0697844
 unique_sents: 1163101
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["n"], 1103217], [["y"], 455189], [["kandi"], 364482], [["imana"],
   319325], [["w"], 249241]], "2": [[["u rwanda"], 56569], [["ndetse n"], 41497], [["nyuma
   y"], 26384], [["cyangwa se"], 25683], [["cyane cyane"], 21242]], "3": [[["kanda

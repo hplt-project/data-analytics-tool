@@ -402,7 +402,7 @@ timestamp: 1732703166.8541076
 unique_sents: 117544
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["ena"], 145862], [["mai"], 80863], [["ga"], 73762], [["kina"],
   72439], [["ira"], 68035]], "2": [[["tale ga"], 16686], [["ena gauna"], 8373], [["i
   jiova"], 6024], [["sara ga"], 5826], [["ena dua"], 5286]], "3": [[["ira na tamata"],

@@ -341,7 +341,7 @@ timestamp: 1733263280.4443426
 unique_sents: 70149
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["ki"], 37412], [["\u0257i"], 33858], [["ina"], 32566], [["mum"],
   31492], [["nder"], 26945]], "2": [[["so tawii"], 4027], [["leydi ndii"], 3485],
   [["mbii \u0257i"], 2625], [["\u0257i wuri"], 2380], [["nyem \u0257i"], 2223]], "3":

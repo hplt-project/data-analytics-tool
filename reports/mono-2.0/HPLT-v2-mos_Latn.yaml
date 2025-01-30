@@ -190,7 +190,7 @@ timestamp: 1733256820.785218
 unique_sents: 11961
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["n"], 49697], [["s\u1ebdn"], 22776], [["t\u0269"], 17899], [["lame"],
   15310], [["b"], 14632]], "2": [[["lame lame"], 13270], [["\u00e3\u00e2\u00e3 \u00e3\u00e2\u00e3"],
   4280], [["s\u00e3 n"], 3807], [["t\u00f5e n"], 3774], [["t\u0269 b"], 3098]], "3":

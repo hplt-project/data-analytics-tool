@@ -381,7 +381,7 @@ timestamp: 1732704025.140537
 unique_sents: 266635
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["l"], 78798], [["ai"], 70541], [["fat"], 46094], [["fri\u00fbl"],
   45132], [["furlan"], 39870]], "2": [[["clap clap"], 24950], [["daj dajdaj"], 23820],
   [["dajdaj daj"], 23816], [["lenghe furlane"], 13231], [["fat fat"], 12209]], "3":

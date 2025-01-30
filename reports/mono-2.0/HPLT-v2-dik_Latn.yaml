@@ -357,7 +357,7 @@ timestamp: 1732715694.1597152
 unique_sents: 15747
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["\u0251"], 22831], [["ka"], 20008], [["\u00eb"], 19647], [["raan"],
   18007], [["de"], 15845]], "2": [[["\u0251 \u0251"], 2586], [["amboac tona\u014b"],
   1068], [["ka masaala"], 994], [["wek aa"], 985], [["yen aye"], 857]], "3": [[["l\u0254c

@@ -448,7 +448,7 @@ timestamp: 1733264565.9644954
 unique_sents: 814803
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["pa"], 1117468], [["na"], 749639], [["y"], 733878], [["i"],
   474986], [["nan"], 381363]], "2": [[["na aruba"], 35903], [["pa asina"], 23408],
   [["pa nan"], 21416], [["su mes"], 19814], [["tur hende"], 16545]], "3": [[["na e
