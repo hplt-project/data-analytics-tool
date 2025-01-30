@@ -602,7 +602,7 @@ timestamp: 1733259628.7449389
 unique_sents: 2307265
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["amin"], 3513070], [["dia"], 2224112], [["tsy"], 1854019], [["sy"],
   1635454], [["ireo"], 1598717]], "2": [[["izy ireo"], 226318], [["avy amin"], 201703],
   [["eo amin"], 165098], [["ihany koa"], 153624], [["dia tsy"], 153264]], "3": [[["izao

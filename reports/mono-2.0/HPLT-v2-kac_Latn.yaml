@@ -330,7 +330,7 @@ timestamp: 1732699173.9427571
 unique_sents: 85544
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["ai"], 428859], [["ni"], 160002], [["nga"], 141790], [["hpe"],
   139812], [["gaw"], 97684]], "2": [[["nga ai"], 73792], [["ai lam"], 36289], [["ni
   hpe"], 28241], [["rai nga"], 26200], [["ra ai"], 15982]], "3": [[["rai nga ai"],

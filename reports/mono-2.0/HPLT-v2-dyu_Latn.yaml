@@ -238,7 +238,7 @@ timestamp: 1732706115.9271164
 unique_sents: 20698
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["o"], 29654], [["u"], 26214], [["be"], 24276], [["ko"], 22739],
   [["k"], 19305]], "2": [[["tun be"], 4211], [["tuma min"], 2018], [["o tigi"], 1861],
   [["cogo min"], 1771], [["min be"], 1713]], "3": [[["be se k"], 824], [["u ye ko"],

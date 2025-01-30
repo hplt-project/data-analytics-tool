@@ -636,7 +636,7 @@ timestamp: 1733477037.048774
 unique_sents: 1562664
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["te"], 8145406], [["o"], 2387942], [["ki"], 2297521], [["me"],
   1405939], [["nga"], 1371395]], "2": [[["ki te"], 1230834], [["o te"], 855505], [["me
   te"], 627626], [["o nga"], 203162], [["mo te"], 186438]], "3": [[["roto i te"],

@@ -135,7 +135,7 @@ timestamp: 1733222214.3500283
 unique_sents: 7671
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["o"], 22093], [["mu"], 15907], [["ni"], 11946], [["ua"], 9341],
   [["ia"], 8228]], "2": [[["o bibidia"], 1200], [["lungu ni"], 1016], [["mukonda diahi"],
   910], [["mu\u00e9ne ua"], 842], [["ia lungu"], 782]], "3": [[["ia lungu ni"], 764],

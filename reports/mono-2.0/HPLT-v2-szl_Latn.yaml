@@ -401,7 +401,7 @@ timestamp: 1733497324.7385247
 unique_sents: 283641
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["warszawa"], 87038], [["kod"], 77441], [["pocztowy"], 76999],
   [["so"], 66013], [["jo"], 46665]], "2": [[["kod pocztowy"], 76941], [["warszawa
   kod"], 23807], [["warszawa warszawa"], 11667], [["ruda \u015bl\u0105ska"], 9550],

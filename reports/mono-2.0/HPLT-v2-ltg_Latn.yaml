@@ -215,7 +215,7 @@ timestamp: 1733496277.087237
 unique_sents: 77506
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["i"], 118799], [["ir"], 55420], [["nu"], 38709], [["par"], 38067],
   [["kai"], 28443]], "2": [[["labot pirmkodu"], 2730], [["tys ir"], 2658], [["latgolys
   studentu"], 2636], [["par t\u016b"], 2421], [["latgal\u012b\u0161u rokstu"], 2093]],

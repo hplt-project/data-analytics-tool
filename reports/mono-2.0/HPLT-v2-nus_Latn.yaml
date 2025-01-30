@@ -171,7 +171,7 @@ timestamp: 1733499379.9298453
 unique_sents: 2720
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["k\u025b"], 18498], [["k\u00e4"], 16475], [["\u0263\u00f6\u00f6"],
   5735], [["ji"], 5551], [["\u025b"], 5545]], "2": [[["k\u025b \u0263\u00f6\u00f6"],
   3025], [["k\u025b kui"], 1751], [["k\u00e4 cu"], 1364], [["\u025bn \u0263\u00f6\u00f6"],

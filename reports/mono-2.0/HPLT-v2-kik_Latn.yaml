@@ -209,7 +209,7 @@ timestamp: 1733428986.0249782
 unique_sents: 33013
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["wa"], 44242], [["cia"], 9859], [["ngai"], 9073], [["in\u0129"],
   7379], [["and\u0169"], 7227]], "2": [[["th\u0129in\u0129 wa"], 2380], [["\u0169nd\u0169
   wa"], 1827], [["thutha wa"], 1790], [["wa ngai"], 1457], [["\u0169nd\u0169 \u0169cio"],

@@ -488,7 +488,7 @@ timestamp: 1733255949.0198917
 unique_sents: 56530
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["ya"], 239660], [["ed"], 104934], [["so"], 101201], [["tan"],
   68452], [["et"], 56673]], "2": [[["ed saray"], 10221], [["nen jehova"], 7788], [["nen
   jesus"], 7469], [["nin diyos"], 6636], [["apu dios"], 5687]], "3": [[["y afu dios"],

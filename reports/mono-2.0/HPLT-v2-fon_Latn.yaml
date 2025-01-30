@@ -217,7 +217,7 @@ timestamp: 1733386864.4101357
 unique_sents: 9689
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["l\u025b"], 32423], [["\u025b"], 17979], [["na"], 17871], [["m\u025b"],
   15998], [["t\u0254n"], 12563]], "2": [[["t\u0254n l\u025b"], 2367], [["k\u0254n
   t\u00e8"], 1830], [["\u0256\u00f3 na"], 1489], [["u je"], 1243], [["mawu t\u0254n"],

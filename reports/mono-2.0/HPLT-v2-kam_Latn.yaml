@@ -178,7 +178,7 @@ timestamp: 1733427605.0408938
 unique_sents: 9563
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["kwa"], 4012], [["al\u0129"], 3916], [["and\u0169"], 3849],
   [["yeova"], 3785], [["sika"], 3780]], "2": [[["p\u0129na al\u0129"], 424], [["sya
   yeova"], 408], [["ng\u0169s\u0129 sya"], 397], [["k\u0169\u0169 nth\u0129"], 372],

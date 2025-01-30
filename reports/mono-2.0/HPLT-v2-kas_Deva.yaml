@@ -76,7 +76,7 @@ srclang: ks
 timestamp: 1733223686.8407729
 unique_sents: 1072
 warnings:
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["\u0915"], 751], [["\u091c\u092f"], 615], [["\u0926\u0942\u0930\u0940"],
   544], [["\u090f\u0915\u094d\u0938"], 518], [["\u0939\u093f\u0928\u094d\u0926"],
   509]], "2": [[["\u0939\u093f\u0928\u094d\u0926 \u091c\u092f"], 501], [["\u091c\u092f

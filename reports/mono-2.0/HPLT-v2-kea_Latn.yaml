@@ -188,7 +188,7 @@ timestamp: 1733347084.4723048
 unique_sents: 26764
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["ki"], 29149], [["pa"], 22796], [["ku"], 17418], [["ka"], 12613],
   [["un"], 11721]], "2": [[["vicet\u00f3ria vicet\u00f3ria"], 5526], [["cabo verde"],
   1369], [["ki sta"], 1289], [["ki nu"], 1250], [["fla ma"], 1152]], "3": [[["vicet\u00f3ria

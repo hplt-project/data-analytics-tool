@@ -346,7 +346,7 @@ timestamp: 1733488685.0130165
 unique_sents: 52703
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["morite"], 181169], [["i"], 84822], [["ni"], 70848], [["ki"],
   53027], [["e"], 46982]], "2": [[["morite morite"], 180621], [["ok ok"], 12787],
   [["i kom"], 8591], [["ki i"], 7545], [["nono nono"], 4364]], "3": [[["morite morite

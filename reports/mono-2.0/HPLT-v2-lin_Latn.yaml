@@ -343,7 +343,7 @@ timestamp: 1733256485.0734234
 unique_sents: 111837
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["oyo"], 97488], [["ye"], 71155], [["ba"], 62874], [["ezali"],
   38830], [["yo"], 37536]], "2": [[["bisou bisou"], 11642], [["oyo ezali"], 6052],
   [["makambo oyo"], 3825], [["nyonso oyo"], 3369], [["de la"], 3299]], "3": [[["bisou

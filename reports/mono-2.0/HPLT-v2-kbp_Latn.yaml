@@ -426,7 +426,7 @@ timestamp: 1733417316.6952841
 unique_sents: 26333
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["\u0269"], 91417], [["taa"], 78909], [["ba"], 64121], [["s\u0269"],
   53301], [["ma"], 53182]], "2": [[["h\u028b aa"], 5303], [["d\u0269 ba"], 4766],
   [["d\u0269 \u028b"], 3980], [["\u025bja\u0256\u025b taa"], 3948], [["te t\u0269n"],

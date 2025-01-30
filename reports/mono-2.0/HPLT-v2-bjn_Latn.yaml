@@ -345,7 +345,7 @@ timestamp: 1732708563.6495256
 unique_sents: 154702
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["arjuna"], 28581], [["banjarmasin"], 28345], [["hotel"], 20187],
   [["je"], 19277], [["caps"], 18504]], "2": [[["warfarin arjuna"], 8435], [["caps
   arjuna"], 8399], [["sunting sumber"], 8337], [["caps warfarin"], 4921], [["warfarin

@@ -386,7 +386,7 @@ timestamp: 1726996142.601917
 unique_sents: 798020
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["u"], 273841], [["na"], 202107], [["tla"], 154364], [["kapa"],
   152701], [["bakeng"], 129172]], "2": [[["haeba u"], 25463], [["u tla"], 14698],
   [["hona joale"], 12952], [["boleng bo"], 11317], [["na u"], 10826]], "3": [[["nako

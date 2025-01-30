@@ -550,7 +550,7 @@ timestamp: 1732712231.4315479
 unique_sents: 147572
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["mi"], 183796], [["yu"], 159610], [["hem"], 124839], [["god"],
   119262], [["we"], 108100]], "2": [[["we oli"], 19692], [["talem se"], 16176], [["bai
   mi"], 12004], [["god god"], 11132], [["yu mas"], 8025]], "3": [[["god god god"],
