@@ -69,10 +69,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
     : "";
 
   const srcLangIDWarning =
-    reportData.warnings?.includes("src_fasttext") ?? true;
+    reportData.warnings?.includes("src_fastspell") ?? true;
 
   const trgLangIDWarning =
-    reportData.warnings?.includes("trg_fasttext") ?? true;
+    reportData.warnings?.includes("trg_fastspell") ?? true;
 
   const totalBicleanerScores = reportData.bicleaner_scores
     ? JSON.parse(reportData.bicleaner_scores).reduce(

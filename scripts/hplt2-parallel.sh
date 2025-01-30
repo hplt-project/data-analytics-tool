@@ -83,7 +83,19 @@ cat $TSVFILE.$TRGLANG.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $
 
 echo "Reading corpus..."
 date
+
+if [ "$SRCLANG" = "bn" ]  || [ "$SRCLANG" = "ben" ] || [ "$TRGLANG" = "bn" ] || [ "$TRGLANG" = "ben" ]; then
+	source /work/venvs/venv-bnlp/bin/activate	
+fi
+
 python3 ./scripts/readcorpus_hpltv2.py $TSVFILE $YAMLFILE $SRCLANG $TRGLANG $METADATAFILE
+
+if [ "$SRCLANG" = "bn" ]  || [ "$SRCLANG" = "ben" ] || [ "$TRGLANG" = "bn" ] || [ "$TRGLANG" = "ben" ]; then
+	deactivate
+fi
+
+
+
 
 
 rm -f $TSVFILE.$SRCLANG".ngrams"
