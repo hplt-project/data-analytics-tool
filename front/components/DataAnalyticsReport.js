@@ -68,11 +68,13 @@ export default function DataAnalyticsReport({ reportData, date }) {
     ? parseFloat(reportData.sentence_pairs)
     : "";
 
-  const srcLangIDWarning =
-    reportData.warnings?.includes("src_fastspell") ?? true;
+ const srcLangIDWarning = reportData.warnings?.includes("src_fastspell")
+    ? true
+    : false;
 
-  const trgLangIDWarning =
-    reportData.warnings?.includes("trg_fastspell") ?? true;
+  const trgLangIDWarning = reportData.warnings?.includes("trg_fastspell")
+    ? true
+    : false;
 
   const totalBicleanerScores = reportData.bicleaner_scores
     ? JSON.parse(reportData.bicleaner_scores).reduce(
