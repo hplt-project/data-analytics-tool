@@ -8,9 +8,9 @@ function BilingualTable({ list, type }) {
       <table>
         <thead>
           <tr>
-            <th>Src domain</th>
+            <th>SL domain</th>
             <th>Segments</th>
-            <th>Trg domain</th>
+            <th>TL domain</th>
             <th>Segments</th>
           </tr>
         </thead>
@@ -21,7 +21,7 @@ function BilingualTable({ list, type }) {
                 {type === "domains" && (
                   <td>
                     <Link
-                      href={`/${el.src_domain.token}`}
+                      href={`http://www.${el.src_domain.token}`}
                       target="_blank"
                       className={styles.domainLink}
                     >
@@ -30,26 +30,22 @@ function BilingualTable({ list, type }) {
                   </td>
                 )}
                 {type === "TLDs" && <td>{el.src_domain.token}</td>}
-                <td>
-                  {el.src_domain.freq}|{el.src_domain.perc.toFixed(1)}%
-                </td>
+                <td>{el.src_domain.freq}</td>
                 <td>
                   {type === "domains" && (
                     <td>
                       <Link
-                        href={`/${el.trg_domain.token}`}
+                        href={`http://www.${el.trg_domain.token}`}
                         target="_blank"
                         className={styles.domainLink}
                       >
-                        {el.src_domain.token}
+                        {el.trg_domain.token}
                       </Link>
                     </td>
                   )}
                   {type === "TLDs" && <td>{el.trg_domain.token}</td>}
                 </td>
-                <td>
-                  {el.trg_domain.freq}|{el.trg_domain.perc.toFixed(1)}%
-                </td>
+                <td>{el.trg_domain.freq}</td>
               </tr>
             );
           })}

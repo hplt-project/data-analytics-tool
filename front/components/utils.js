@@ -21,7 +21,7 @@ async function creatPdf({ doc, elements }) {
   for (let i = 0; i < elements.length; i++) {
     const el = elements.item(i);
 
-    const imgData = await htmlToImage.toPng(el, { pixelRatio: 5 });
+    const imgData = await htmlToImage.toPng(el, { pixelRatio: 1.5 });
 
     let elHeight = el.offsetHeight;
     let elWidth = el.offsetWidth;
