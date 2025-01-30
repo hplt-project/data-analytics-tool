@@ -53,7 +53,7 @@ export default function LanguagePieChart({
       {warning && (
         <p className={styles.warning}>
           {`*${warningLang} identification might be inaccurate because it is not
-          supported by Fasttext`}
+          supported by FastSpell`}
         </p>
       )}
       <ResponsiveContainer width="100%" height="100%" aspect={1.6}>
