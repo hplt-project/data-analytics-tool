@@ -47,7 +47,7 @@ async function creatPdf({ doc, elements }) {
         padding,
         10,
         elWidth,
-        elHeight + 38,
+        elHeight + 32,
         `image${i}`,
         "FAST"
       );
@@ -58,7 +58,7 @@ async function creatPdf({ doc, elements }) {
         padding,
         top - 15,
         elWidth,
-        elHeight + 38,
+        elHeight + 32,
         `image${i}`,
         "FAST"
       );
@@ -69,7 +69,7 @@ async function creatPdf({ doc, elements }) {
         padding,
         top - 15,
         elWidth,
-        elHeight + 28,
+        elHeight + 26,
         `image${i}`,
         "FAST"
       );
@@ -80,7 +80,7 @@ async function creatPdf({ doc, elements }) {
         padding,
         top - 5,
         elWidth,
-        elHeight + 30,
+        elHeight + 28,
         `image${i}`,
         "FAST"
       );
