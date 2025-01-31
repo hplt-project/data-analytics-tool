@@ -27,7 +27,7 @@
   justify-content: normal;
 }
 .overviewTables {
-  margin-right: 30px;
+  margin-right: 15px;
 }
 
 .dataReportContainer h3 {
@@ -239,9 +239,8 @@
 
 .dataReportContainer table thead th,
 .dataReportContainer table tr td {
-  padding: 8px 30px 8px 8px;
+  padding: 7px;
   font-size: 14px;
-  min-width: 60px;
 }
 
 .dataReportContainer table thead th {

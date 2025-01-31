@@ -3,7 +3,10 @@ import styles from "@/styles/DomainTable.module.css";
 
 function BilingualTable({ list, type }) {
   return (
-    <div className={styles.bilingualTable}>
+    <div
+      className={styles.bilingualTable}
+      style={type === "domains" ? { marginRight: "15px" } : {}}
+    >
       <h2>Dataset top 10 {type}</h2>
       <table>
         <thead>
@@ -30,7 +33,10 @@ function BilingualTable({ list, type }) {
                   </td>
                 )}
                 {type === "TLDs" && <td>{el.src_domain.token}</td>}
-                <td>{el.src_domain.freq}</td>
+                <td>
+                  {/* {el.src_domain.freq} |{" "} */}
+                  {el.src_domain.perc.toFixed(1)}%
+                </td>
                 <td>
                   {type === "domains" && (
                     <td>
@@ -45,7 +51,10 @@ function BilingualTable({ list, type }) {
                   )}
                   {type === "TLDs" && <td>{el.trg_domain.token}</td>}
                 </td>
-                <td>{el.trg_domain.freq}</td>
+                <td>
+                  {/* {el.trg_domain.freq} |{" "} */}
+                  {el.trg_domain.perc.toFixed(1)}%
+                </td>
               </tr>
             );
           })}

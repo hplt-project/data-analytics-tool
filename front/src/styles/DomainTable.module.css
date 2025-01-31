@@ -6,7 +6,6 @@
   color: var(--desc-link-color);
 }
 .bilingualTable {
-  margin-right: 30px;
   margin-bottom: 20px;
 }
 .bilingualTable h2 {
@@ -14,7 +13,7 @@
 }
 .bilingualTable table th,
 .bilingualTable table td {
-  padding: 5px 10px !important;
+  padding: 4px 6px !important;
 }
 
 .bilingualTable table th span,
