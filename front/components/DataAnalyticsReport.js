@@ -23,6 +23,7 @@ import Footnotes from "./Footnotes";
 const punycode = require("punycode/");
 import { SAMPLE_DATA } from "@/assets/samples/hplt-mono-v2";
 import { SAMPLE_DATA_FINEWEB } from "@/assets/samples/fineweb";
+import { BILINGUAL_SAMPLES } from "@/assets/samples/hplt-parallel-v2";
 import DomainTable from "./DomainTable";
 import TLDTable from "./TLDTable";
 import Sample from "./Sample";
@@ -30,6 +31,7 @@ import SampleButton from "./SampleButton";
 import Loader from "./Loader";
 import ReportTitle from "./ReportTitle";
 import BilingualTable from "./BilingualTable";
+import BilingualSample from "./BilingualSample";
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
 
@@ -45,6 +47,17 @@ export default function DataAnalyticsReport({ reportData, date }) {
   const sampleData = dName.includes("fineweb")
     ? SAMPLE_DATA_FINEWEB
     : SAMPLE_DATA;
+
+  const bilingualSampleData = BILINGUAL_SAMPLES;
+
+  const bilingualSample =
+    dName.toLowerCase().includes("hplt-v2") &&
+    reportData.srclang &&
+    reportData.trglang
+      ? Object.entries(bilingualSampleData).find(
+          (key) => key[0] === `${reportData.srclang}-${reportData.trglang}`
+        )
+      : "";
 
   const sampleFilename = router.query.file
     .replace("HPLT-v2-", "")
@@ -535,13 +548,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const [showSample, setShowSample] = useState(false);
 
+  const [showBilingualSample, setShowBilingualSample] = useState(false);
+
   return (
     <div className={styles.dataReportContainer}>
-      <SampleButton
-        sample={sample}
-        setShowSample={setShowSample}
-        dName={dName}
-      />
+      {sample && <SampleButton setShowSample={setShowSample} />}
+      {bilingualSample && (
+        <SampleButton setShowSample={setShowBilingualSample} />
+      )}
       {showSample && (
         <Sample
           srclang={srclang}
@@ -549,6 +563,15 @@ export default function DataAnalyticsReport({ reportData, date }) {
           setShowSample={setShowSample}
         />
       )}
+      {showBilingualSample && (
+        <BilingualSample
+          srclang={srclang}
+          trglang={trglang}
+          sample={bilingualSample[1]}
+          setShowSample={setShowBilingualSample}
+        />
+      )}
+
       <div className="custom-chart">
         <div className={styles.reportMainStats}>
           <ReportTitle />
