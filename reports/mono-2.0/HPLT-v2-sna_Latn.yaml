@@ -301,7 +301,7 @@ timestamp: 1732790729.2601728
 unique_sents: 864345
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["kana"], 282828], [["iyo"], 138946], [["asi"], 102289], [["kubva"],
   86647], [["iri"], 73004]], "2": [[["chirp chirp"], 15672], [["zviri nyore"], 6956],
   [["edit source"], 6669], [["makumi maviri"], 6263], [["imwe chete"], 4739]], "3":

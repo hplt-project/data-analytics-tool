@@ -307,7 +307,7 @@ timestamp: 1726908170.5941443
 unique_sents: 30148
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["nzambi"], 20030], [["bantu"], 15995], [["ve"], 15470], [["mambu"],
   10925], [["yehowa"], 8945]], "2": [[["kuma kia"], 1121], [["wavova kwa"], 923],
   [["s\u00e9bastien sasa"], 700], [["p\u00e8re s\u00e9bastien"], 700], [["kia nzambi"],

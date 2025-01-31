@@ -367,7 +367,7 @@ timestamp: 1733498668.5576253
 unique_sents: 929671
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["ndi"], 1159321], [["ku"], 226053], [["m"], 199500], [["ndipo"],
   184270], [["ya"], 170552]], "2": [[["ali ndi"], 27176], [["akaunti yakubanki"],
   16677], [["nthawi zonse"], 16061], [["nthawi zambiri"], 15304], [["ndi zina"], 14376]],

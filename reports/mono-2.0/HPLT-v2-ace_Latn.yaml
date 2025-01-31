@@ -533,7 +533,7 @@ timestamp: 1727892416.8375795
 unique_sents: 107160
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["blah"], 290258], [["bak"], 100221], [["ureu\u00ebng"], 74691],
   [["gata"], 72273], [["ul\u00f4n"], 63060]], "2": [[["blah blah"], 258752], [["teu
   allah"], 10208], [["zis gas"], 9104], [["meunan cit"], 8720], [["blahblah blah"],

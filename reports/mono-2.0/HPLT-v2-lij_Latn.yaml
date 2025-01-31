@@ -358,7 +358,7 @@ timestamp: 1727290277.1811526
 unique_sents: 76776
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["l"], 167155], [["d"], 45088], [["n"], 37951], [["\u00e8"],
   34758], [["u"], 32327]], "2": [[["mod\u00ecfica wikit\u00e8sto"], 8239], [["modifica
   wikitesto"], 4938], [["u l"], 3034], [["url consult\u00f2u"], 2327], [["u n"], 2272]],

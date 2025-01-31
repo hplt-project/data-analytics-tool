@@ -486,7 +486,7 @@ timestamp: 1726769680.435116
 unique_sents: 1461148
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["i"], 393442], [["noma"], 291053], [["the"], 136715], [["abantu"],
   128879], [["lokhu"], 106036]], "2": [[["kuze kube"], 15851], [["ikhasi lethu"],
   15417], [["ngolimi lwakho"], 15123], [["of the"], 14831], [["in the"], 14807]],

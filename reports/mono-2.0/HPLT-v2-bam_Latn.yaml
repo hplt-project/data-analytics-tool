@@ -377,7 +377,7 @@ timestamp: 1727968232.2741153
 unique_sents: 42851
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["na"], 70734], [["ee"], 19956], [["eee"], 18971], [["bu"], 17152],
   [["bo"], 16720]], "2": [[["ee eee"], 4065], [["bo bu"], 3157], [["eeeeeeee ee"],
   2459], [["na bu"], 2354], [["eee eeeeeeee"], 2087]], "3": [[["eeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee

@@ -443,7 +443,7 @@ timestamp: 1726858456.9374037
 unique_sents: 181035
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["d"], 561188], [["n"], 545429], [["s"], 255762], [["i"], 253451],
   [["a"], 129347]], "2": [[["s s"], 61700], [["i d"], 39676], [["d d"], 36365], [["yes
   yes"], 26700], [["sidi \u1e5bebbi"], 20990]], "3": [[["s s s"], 57631], [["d d d"],

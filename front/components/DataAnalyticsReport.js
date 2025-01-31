@@ -29,6 +29,7 @@ import Sample from "./Sample";
 import SampleButton from "./SampleButton";
 import Loader from "./Loader";
 import ReportTitle from "./ReportTitle";
+import BilingualTable from "./BilingualTable";
 
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
 
@@ -67,11 +68,13 @@ export default function DataAnalyticsReport({ reportData, date }) {
     ? parseFloat(reportData.sentence_pairs)
     : "";
 
-  const srcLangIDWarning =
-    reportData.warnings?.includes("src_fasttext") ?? true;
+  const srcLangIDWarning = reportData.warnings?.includes("src_fastspell")
+    ? true
+    : false;
 
-  const trgLangIDWarning =
-    reportData.warnings?.includes("trg_fasttext") ?? true;
+  const trgLangIDWarning = reportData.warnings?.includes("trg_fastspell")
+    ? true
+    : false;
 
   const totalBicleanerScores = reportData.bicleaner_scores
     ? JSON.parse(reportData.bicleaner_scores).reduce(
@@ -387,8 +390,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
         return {
           token: punycode.toUnicode(doc[0]),
           freq: numberFormatter(doc[1]),
-          perc: reportData.docs_total
-            ? (doc[1] * 100) / reportData.docs_total
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
             : "",
         };
       })
@@ -403,12 +406,26 @@ export default function DataAnalyticsReport({ reportData, date }) {
         return {
           token: punycode.toUnicode(doc[0]),
           freq: numberFormatter(doc[1]),
-          perc: reportData.docs_total
-            ? (doc[1] * 100) / reportData.docs_total
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
             : "",
         };
       })
     : "";
+
+  const bilingualDomains =
+    srcTopTenDomains && trgTopTenDomains
+      ? srcTopTenDomains.map((el, idx) => {
+          return {
+            src_domain: { token: el.token, freq: el.freq, perc: el.perc },
+            trg_domain: {
+              token: trgTopTenDomains[idx].token,
+              freq: trgTopTenDomains[idx].freq,
+              perc: trgTopTenDomains[idx].perc,
+            },
+          };
+        })
+      : "";
 
   const docsTLDs = reportData.docs_top100_tld
     ? JSON.parse(reportData.docs_top100_tld).slice(0, 10)
@@ -435,8 +452,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
         return {
           token: punycode.toUnicode(doc[0]),
           freq: numberFormatter(doc[1]),
-          perc: reportData.src_tokens
-            ? (doc[1] * 100) / reportData.src_tokens
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
             : "",
         };
       })
@@ -451,12 +468,27 @@ export default function DataAnalyticsReport({ reportData, date }) {
         return {
           token: punycode.toUnicode(doc[0]),
           freq: numberFormatter(doc[1]),
-          perc: reportData.trg_tokens
-            ? (doc[1] * 100) / reportData.trg_tokens
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
             : "",
         };
       })
     : "";
+
+  const bilingualTLDs =
+    srcTopTenTLDs && trgTopTenTLDs
+      ? srcTopTenTLDs.map((el, idx) => {
+          return {
+            src_domain: { token: el.token, freq: el.freq, perc: el.perc },
+            trg_domain: {
+              token: trgTopTenTLDs[idx].token,
+              freq: trgTopTenTLDs[idx].freq,
+              perc: trgTopTenTLDs[idx].perc,
+            },
+          };
+        })
+      : "";
+
   const datasetName = reportData.corpus ? reportData.corpus : "Not specified";
 
   const totalDocsOverview = reportData.docs_total ? reportData.docs_total : "";
@@ -528,15 +560,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
                   <thead>
                     <tr>
                       <th>Corpus</th>
-                      <th>Analytics date</th>
+                      <th>Date</th>
                       {trglang ? (
                         <>
-                          <th className={styles.desktopData}>
-                            Source language
-                          </th>
-                          <th className={styles.desktopData}>
-                            Target language
-                          </th>{" "}
+                          <th className={styles.desktopData}>SL</th>
+                          <th className={styles.desktopData}>TL</th>{" "}
                         </>
                       ) : (
                         <th className={styles.desktopData}>Language</th>
@@ -600,10 +628,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
                           </Tooltip>
                         </div>
                       </th>
-                      {!trglang && (
+                      {!trglang && uniqueSegments && (
                         <th className={styles.desktopData}>Unique segments</th>
                       )}
-                      {!trglang && (
+                      {!trglang && srcTokens && (
                         <th className={styles.desktopData}>
                           <div className={styles.containsTooltip}>
                             Tokens{" "}
@@ -638,26 +666,18 @@ export default function DataAnalyticsReport({ reportData, date }) {
                         </th>
                       )}
                       {trglang && (
-                        <th className={styles.desktopData}>Src tokens</th>
+                        <th className={styles.desktopData}>SL tokens</th>
                       )}
                       {trglang && (
-                        <th className={styles.desktopData}>Trg tokens</th>
+                        <th className={styles.desktopData}>SL characters</th>
+                      )}
+
+                      {trglang && (
+                        <th className={styles.desktopData}>SL size</th>
                       )}
                       {!trglang && <th className={styles.desktopData}>Size</th>}
                       {!trglang && (
                         <th className={styles.desktopData}>Characters</th>
-                      )}
-                      {trglang && (
-                        <th className={styles.desktopData}>Src size</th>
-                      )}
-                      {trglang && (
-                        <th className={styles.desktopData}>Trg size</th>
-                      )}
-                      {trglang && (
-                        <th className={styles.desktopData}>Src characters</th>
-                      )}
-                      {trglang && (
-                        <th className={styles.desktopData}>Trg characters</th>
                       )}
                     </tr>
                   </thead>
@@ -679,7 +699,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                           {numberFormatter(+reportData.sentence_pairs)}
                         </p>
                       </td>
-                      {!trglang && (
+                      {!trglang && uniqueSegments && (
                         <td className={styles.desktopData}>
                           <p className={styles.desktopNum}>
                             {uniqueSegments.toLocaleString("en-US")}
@@ -699,27 +719,49 @@ export default function DataAnalyticsReport({ reportData, date }) {
                           )}
                         </td>
                       )}
-                      <td className={styles.desktopData}>{srcTokens}</td>
-                      {trglang && (
-                        <td className={styles.desktopData}>{trgTokens}</td>
+                      {srcTokens && (
+                        <td className={styles.desktopData}>{srcTokens}</td>
                       )}
-                      <td className={styles.desktopData}>
-                        {srcSize && srcSize}
-                      </td>
-                      {trgSize && (
-                        <td className={styles.desktopData}>{trgSize}</td>
-                      )}
+
                       <td className={styles.desktopData}>
                         {srcChars && srcChars}
                       </td>
+                      <td className={styles.desktopData}>
+                        {srcSize && srcSize}
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <table>
+                  <thead>
+                    <tr>
+                      {trglang && (
+                        <th className={styles.desktopData}>TL tokens</th>
+                      )}
+                      {trglang && (
+                        <th className={styles.desktopData}>TL characters</th>
+                      )}
+                      {trglang && (
+                        <th className={styles.desktopData}>TL size</th>
+                      )}
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr>
+                      {trglang && (
+                        <td className={styles.desktopData}>{trgTokens}</td>
+                      )}
                       {trgChars && (
                         <td className={styles.desktopData}>{trgChars}</td>
+                      )}
+                      {trgSize && (
+                        <td className={styles.desktopData}>{trgSize}</td>
                       )}
                     </tr>
                   </tbody>
                 </table>
                 <div className={styles.mobileData}>
-                  {!trglang && (
+                  {!trglang && uniqueSegments && (
                     <p className={styles.mobileNum}>
                       Unique segments - {numberFormatter(+uniqueSegments)}
                       {uniqueSegments && sentences && (
@@ -734,12 +776,12 @@ export default function DataAnalyticsReport({ reportData, date }) {
                       )}
                     </p>
                   )}
-                  {!trglang && <p>Tokens - {srcTokens}</p>}
-                  {trglang && <p>Src tokens - {srcTokens}</p>}
-                  {trglang && <p>Trg tokens - {trgTokens}</p>}
+                  {!trglang && srcTokens && <p>Tokens - {srcTokens}</p>}
+                  {trglang && <p>SL tokens - {srcTokens}</p>}
+                  {trglang && <p>TL tokens - {trgTokens}</p>}
                   {!trglang && srcSize && <p>Size -{srcSize}</p>}
-                  {trglang && <p>Src size - {srcSize}</p>}
-                  {trglang && <p>Trg size - {trgSize}</p>}
+                  {trglang && <p>SL size - {srcSize}</p>}
+                  {trglang && <p>TL size - {trgSize}</p>}
                 </div>
               </div>
             </div>
@@ -752,16 +794,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
                 <TLDTable topTLDs={docsTopTenTLDs} type={"docs"} />
               )}
             </div>
-          </div>
-          <div className={styles.bilingualTables}>
-            {srcTopTenDomains && (
-              <DomainTable topDomains={srcTopTenDomains} type={"src"} />
-            )}
-            {trgTopTenDomains && (
-              <DomainTable topDomains={srcTopTenDomains} type={"trg"} />
-            )}
-            {srcTopTenTLDs && <TLDTable topTLDs={srcTopTenTLDs} type={"src"} />}
-            {trgTopTenTLDs && <TLDTable topTLDs={trgTopTenTLDs} type={"trg"} />}
+            <div className={styles.bilingualTables}>
+              {bilingualDomains && (
+                <BilingualTable list={bilingualDomains} type={"domains"} />
+              )}
+              {bilingualTLDs && (
+                <BilingualTable list={bilingualTLDs} type={"TLDs"} />
+              )}
+            </div>
           </div>
         </div>
       </div>
@@ -817,12 +857,6 @@ export default function DataAnalyticsReport({ reportData, date }) {
         </div>
       )}
 
-      {collections && (
-        <div className={styles.collectionsGraphPie}>
-          <h3>Collections</h3>
-          <CollectionsGraph collection={collections} total={collectionsTotal} />
-        </div>
-      )}
       {!reportData.trglang && (
         <div className="custom-chart">
           <div className={styles.languagesPieReportsContainer}>
@@ -939,36 +973,81 @@ export default function DataAnalyticsReport({ reportData, date }) {
           <div className={styles.blank}></div>
         </div>
       )}
-      {bicleanerScores && (
+      {bicleanerScores && collections && (
         <div className="custom-chart">
-          <div className={styles.bicleanerScores}>
-            <h3>Translation likelihood</h3>
-            <div className={styles.desktopNum}>
-              <ReportScores
-                scores={bicleanerScores}
-                xLabel={"Segments per document"}
-                yLabel={"Frequency"}
-                graph={"another"}
-                padding={60}
-                labellist={true}
-                fontSize={14}
-              />
-            </div>
-            <div className={styles.mobileNum}>
-              <ReportScores
-                scores={bicleanerScores}
-                xLabel={"Segments per document"}
-                yLabel={"Frequency"}
-                graph={"another"}
-                padding={20}
-                labellist={true}
-                fontSize={12}
-              />
-            </div>
+          <div className={styles.anotherContainer}>
+            {bicleanerScores && (
+              <div style={{ width: "70%", marginBottom: "40px" }}>
+                <div className={styles.bicleanerScores}>
+                  <h3>
+                    Translation likelihood{" "}
+                    <a className="bicleaner-info-second">
+                      {" "}
+                      {!footNote && (
+                        <Info
+                          className={[
+                            styles.helpCircle,
+                            styles.desktopData,
+                          ].join(" ")}
+                          strokeWidth={1.2}
+                          color="#2C2E35"
+                          width={20}
+                        />
+                      )}
+                    </a>
+                    <Tooltip
+                      anchorSelect=".bicleaner-info-second"
+                      place="top"
+                      clickable
+                    >
+                      Scores computed by Bicleaner-AI: (
+                      <a
+                        href="https://github.com/bitextor/bicleaner-ai"
+                        target="_blank"
+                        className={styles.tooltipLink}
+                      >
+                        https://github.com/bitextor/bicleaner-ai
+                      </a>
+                      )
+                    </Tooltip>
+                  </h3>
+                  <div className={styles.desktopNum}>
+                    <ReportScores
+                      scores={bicleanerScores}
+                      xLabel={"Scores"}
+                      yLabel={"Segments"}
+                      graph={"bicleaner"}
+                      padding={60}
+                      labellist={true}
+                      fontSize={14}
+                    />
+                  </div>
+                  <div className={styles.mobileNum}>
+                    <ReportScores
+                      scores={bicleanerScores}
+                      xLabel={"Scores"}
+                      yLabel={"Segments"}
+                      graph={"another"}
+                      padding={20}
+                      labellist={true}
+                      fontSize={12}
+                    />
+                  </div>
+                </div>
+              </div>
+            )}
+            {collections && (
+              <div className={styles.collectionsGraphPie}>
+                <h3>Collections</h3>
+                <CollectionsGraph
+                  collection={collections}
+                  total={collectionsTotal}
+                />
+              </div>
+            )}
           </div>
         </div>
       )}
-
       {documentScore && (
         <div className="custom-chart">
           <div className={styles.bicleanerScores}>

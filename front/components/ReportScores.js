@@ -67,6 +67,20 @@ export default function ReportScores({
       fill: item.fill,
     };
   });
+  const total = processedScores.reduce((a, b) => a + b.freq, 0);
+
+  const overEqualFive = processedScores
+    .filter((el) => el.token >= 0.5)
+    .reduce((a, b) => a + b.freq, 0);
+
+  const overEqualEight = processedScores
+    .filter((el) => el.token >= 0.8)
+    .reduce((a, b) => a + b.freq, 0);
+
+  const underFive = processedScores
+    .filter((el) => el.token < 0.5)
+    .reduce((a, b) => a + b.freq, 0);
+
   const numbers = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
 
   const docScoresNums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
@@ -91,6 +105,43 @@ export default function ReportScores({
           </p>
         </div>
       )}
+      {!firstHalfPerc >= 0 &&
+        !secondHalfPerc >= 0 &&
+        (graph === "another" || graph === "bicleaner") && (
+          <div
+            className={
+              graph === "bicleaner"
+                ? styles.reportTitleSmall
+                : styles.reportTitle
+            }
+            style={{ width: graph === "another" ? "width: 69%;" : "" }}
+          >
+            <p>
+              {"≥"} 5 ={" "}
+              {Intl.NumberFormat("en", {
+                notation: "compact",
+              }).format(overEqualFive)}{" "}
+              segments |{" "}
+              <strong>{((overEqualFive / total) * 100).toFixed(1)}%</strong>
+            </p>
+            <p>
+              {"≥"} 8 ={" "}
+              {Intl.NumberFormat("en", {
+                notation: "compact",
+              }).format(overEqualEight)}{" "}
+              segments |{" "}
+              <strong>{((overEqualEight / total) * 100).toFixed(1)}%</strong>
+            </p>{" "}
+            <p>
+              {"<"} 5 ={" "}
+              {Intl.NumberFormat("en", {
+                notation: "compact",
+              }).format(underFive)}{" "}
+              segments |{" "}
+              <strong>{((underFive / total) * 100).toFixed(1)}%</strong>
+            </p>
+          </div>
+        )}
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           height={300}

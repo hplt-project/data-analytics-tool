@@ -139,7 +139,7 @@ srclang: sat
 timestamp: 1732775020.9264925
 unique_sents: 26205
 warnings:
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["\u1c65\u1c5f\u1c6f\u1c72\u1c5f\u1c63"], 17999], [["\u1c6f\u1c77\u1c6e\u1c70\u1c5f\u1c5b"],
   8934], [["\u1c66\u1c5a\u1c71\u1c5a\u1c5b"], 7799], [["\u1c5c\u1c6e"], 6596], [["\u1c66\u1c5a\u1c72"],
   6556]], "2": [[["\u1c6f\u1c77\u1c6e\u1c70\u1c5f\u1c5b \u1c65\u1c5f\u1c6f\u1c72\u1c5f\u1c63"],

@@ -345,7 +345,7 @@ timestamp: 1728051947.3589027
 unique_sents: 87809
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["u"], 29843], [["a"], 28044], [["yesu"], 21515], [["i"], 19488],
   [["ng"], 17335]], "2": [[["u ng"], 2040], [["u yesu"], 1937], [["mukashi banashi"],
   1724], [["furusato saisei"], 1717], [["mambo a"], 1549]], "3": [[["fumasabomba de

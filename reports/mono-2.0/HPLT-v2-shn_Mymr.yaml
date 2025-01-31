@@ -188,7 +188,7 @@ srclang: shn
 timestamp: 1732791589.554399
 unique_sents: 61045
 warnings:
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["\u101e\u102d\u102f\u1075\u103a\u1038"], 14983], [["\u1019\u102d\u1030\u1004\u103a\u1038"],
   13657], [["\u101c\u1030\u1004\u103a"], 8215], [["\u101e\u1031"], 7888], [["\u101c\u103d\u1004\u103a"],
   6445]], "2": [[["\u1010\u1015\u103a\u1089 \u101e\u102d\u102f\u1075\u103a\u1038"],

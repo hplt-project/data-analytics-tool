@@ -697,7 +697,7 @@ timestamp: 1733220850.3454802
 unique_sents: 2006554
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["hi"], 2135292], [["lo"], 1359152], [["leh"], 1319316], [["chu"],
   1040545], [["i"], 914983]], "2": [[["uh hi"], 102534], [["ding hi"], 71853], [["em
   em"], 52047], [["te hi"], 50118], [["te chu"], 45190]], "3": [[["thu a sawi"], 31666],

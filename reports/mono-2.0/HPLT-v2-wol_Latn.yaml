@@ -366,7 +366,7 @@ timestamp: 1733819944.3816168
 unique_sents: 57857
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["lo"], 13720], [["soppi"], 13333], [["yeesu"], 12878], [["nii"],
   12146], [["xaa"], 11426]], "2": [[["soppi gongikuwaay"], 3713], [["l\u00eb\u00eb
   xaa"], 2429], [["xaa nii"], 1712], [["doom doom"], 1674], [["votez mankoo"], 1664]],

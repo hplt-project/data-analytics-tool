@@ -167,7 +167,7 @@ srclang: mni
 timestamp: 1733501245.5006986
 unique_sents: 40126
 warnings:
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["\u0985\u09ae\u09b8\u09c1\u0982"], 40811], [["\u0985\u09b8\u09bf"],
   20441], [["\u0985\u09ae\u09be"], 12021], [["\u0985\u09b8\u09bf\u09a6\u09be"], 8575],
   [["\u0985\u09b8\u09bf\u09a8\u09be"], 8013]], "2": [[["\u09aa\u09cd\u09b0\u09a7\u09be\u09a8

@@ -463,7 +463,7 @@ timestamp: 1733222518.1905096
 unique_sents: 24329
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["i"], 40616], [["anna"], 22670], [["lako"], 16997], [["allataala"],
   15988], [["yesus"], 15721]], "2": [[["masser masser"], 5719], [["i yesus"], 5497],
   [["nu alatala"], 4350], [["kodala kodala"], 1850], [["kodala koduku"], 1828]], "3":

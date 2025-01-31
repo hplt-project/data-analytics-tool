@@ -686,7 +686,7 @@ timestamp: 1726817815.3844128
 unique_sents: 3787469
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["tare"], 443713], [["haka"], 427231], [["kasar"], 414901], [["allah"],
   355204], [["jihar"], 339309]], "2": [[["ci gaba"], 139703], [["shugaban kasa"],
   79477], [["boko haram"], 41826], [["kayan aiki"], 40359], [["gwamnan jihar"], 39630]],

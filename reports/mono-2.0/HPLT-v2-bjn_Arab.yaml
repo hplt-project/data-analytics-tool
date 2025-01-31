@@ -152,7 +152,7 @@ timestamp: 1733410504.2231417
 unique_sents: 11025
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["\u064a\u06a0"], 16456], [["\u0645"], 9389], [["\u0648"], 8403],
   [["\u0646"], 8149], [["\u064a"], 7257]], "2": [[["\u0627\u0648\u0631\u06a0 \u064a\u06a0"],
   602], [["\u0647\u0627\u0631\u064a \u0627\u064a\u0646"], 515], [["\u0627\u06a4 \u064a\u06a0"],

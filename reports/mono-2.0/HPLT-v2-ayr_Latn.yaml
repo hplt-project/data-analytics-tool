@@ -232,7 +232,7 @@ timestamp: 1727952500.3143928
 unique_sents: 48021
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["jan"], 33203], [["en"], 12275], [["jach"], 12228], [["markan"],
   11886], [["t"], 11164]], "2": [[["chimp askicha\u00f1a"], 8176], [["global voices"],
   4665], [["sata qallta"], 2834], [["willka kuti"], 2818], [["mara t"], 2142]], "3":

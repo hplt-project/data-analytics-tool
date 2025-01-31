@@ -331,7 +331,7 @@ timestamp: 1732701810.3377886
 unique_sents: 31786
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["ala"], 77892], [["ayeke"], 67232], [["yeke"], 51236], [["ye"],
   50227], [["mbi"], 35944]], "2": [[["ala yeke"], 8886], [["tongana nyen"], 6043],
   [["mbi yeke"], 5683], [["yeke sara"], 4840], [["sara ye"], 4306]], "3": [[["ngbanga

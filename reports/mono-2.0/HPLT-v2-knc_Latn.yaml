@@ -351,7 +351,7 @@ timestamp: 1734075107.084591
 unique_sents: 5151
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["ka"], 59234], [["k\u0268"], 56711], [["na"], 50316], [["t\u0268"],
   38743], [["t\u0259"], 33073]], "2": [[["t\u0268 k\u0268"], 5600], [["\u0259 n\u0259"],
   4937], [["je k\u0268"], 4896], [["aye na"], 4564], [["ndo hay"], 3851]], "3": [[["ane

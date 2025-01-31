@@ -171,7 +171,7 @@ timestamp: 1732721133.4400406
 unique_sents: 41987
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["li"], 58413], [["va"], 38896], [["ka"], 27550], [["okwa"],
   25024], [["oku"], 21506]], "2": [[["okwa li"], 12853], [["ova li"], 4999], [["li
   va"], 4042], [["nosho yo"], 3530], [["ka kala"], 3162]], "3": [[["ova li va"], 2625],

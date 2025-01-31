@@ -379,7 +379,7 @@ timestamp: 1726760511.1260688
 unique_sents: 240013
 warnings:
 - src_warning_tok_nltk_wordpunct
-- src_fasttext
+- src_fastspell
 src_ngrams: '{"1": [[["n"], 268953], [["ng"], 57960], [["omu"], 50175], [["abantu"],
   38919], [["bw"], 36845]], "2": [[["mukama katonda"], 4401], [["wamu n"], 3041],
   [["yesu kristo"], 2983], [["mukama n"], 2680], [["mukama waffe"], 2457]], "3": [[["abaana
