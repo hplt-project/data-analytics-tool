@@ -694,18 +694,18 @@ export default function DataAnalyticsReport({ reportData, date }) {
                           </div>
                         </th>
                       )}
-                      {trglang && (
+                      {trglang && srcTokens && (
                         <th className={styles.desktopData}>SL tokens</th>
                       )}
-                      {trglang && (
+                      {trglang && srcChars && (
                         <th className={styles.desktopData}>SL characters</th>
                       )}
 
-                      {trglang && (
+                      {trglang && srcSize && (
                         <th className={styles.desktopData}>SL size</th>
                       )}
                       {!trglang && <th className={styles.desktopData}>Size</th>}
-                      {!trglang && (
+                      {!trglang && srcChars && (
                         <th className={styles.desktopData}>Characters</th>
                       )}
                     </tr>
@@ -752,32 +752,32 @@ export default function DataAnalyticsReport({ reportData, date }) {
                         <td className={styles.desktopData}>{srcTokens}</td>
                       )}
 
-                      <td className={styles.desktopData}>
-                        {srcChars && srcChars}
-                      </td>
-                      <td className={styles.desktopData}>
-                        {srcSize && srcSize}
-                      </td>
+                      {srcChars && (
+                        <td className={styles.desktopData}>{srcChars}</td>
+                      )}
+                      {srcSize && (
+                        <td className={styles.desktopData}>{srcSize}</td>
+                      )}
                     </tr>
                   </tbody>
                 </table>
                 <table style={{ marginLeft: "auto" }}>
                   <thead>
                     <tr>
-                      {trglang && (
+                      {trglang && trgTokens && (
                         <th className={styles.desktopData}>TL tokens</th>
                       )}
-                      {trglang && (
+                      {trglang && trgChars && (
                         <th className={styles.desktopData}>TL characters</th>
                       )}
-                      {trglang && (
+                      {trglang && trgSize && (
                         <th className={styles.desktopData}>TL size</th>
                       )}
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      {trglang && (
+                      {trglang && trgTokens && (
                         <td className={styles.desktopData}>{trgTokens}</td>
                       )}
                       {trgChars && (
