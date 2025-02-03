@@ -42,14 +42,14 @@ deactivate
 
 echo "Reading corpus..."
 date
-python3.10 /work/scripts/readcorpus_mono.py /work/uploaded_corpora/hplt100b-"$L3".tsv /work/yaml_dir/hplt100b-"$L3".yaml $L2 --debug
+python3.10 /work/scripts/readcorpus_mono.py /work/uploaded_corpora/hplt100b-"$L3".tsv /work/yaml_dir/hplt100b-"$L3".yaml $L2 --debug --lite
 
 rm -f  uploaded_corpora/hplt100b-$L3.tsv.ngrams
 
-for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
-	do
-        	SUFFIX=$(echo $SUFFIX_ORDER  | cut -d "_" -f 1)
-                ORDER=$(echo $SUFFIX_ORDER | cut -d "_" -f 2)
-                sort uploaded_corpora/hplt100b-$L3.tsv.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 5 |   awk -v ORDER=$ORDER '{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> uploaded_corpora/hplt100b-$L3.tsv.ngrams
-        done
-python3 ./scripts/addngrams.py uploaded_corpora/hplt100b-$L3.tsv".ngrams"  /work/yaml_dir/hplt100b-"$L3".yaml  "src"
+#for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
+#	do
+#        	SUFFIX=$(echo $SUFFIX_ORDER  | cut -d "_" -f 1)
+#                ORDER=$(echo $SUFFIX_ORDER | cut -d "_" -f 2)
+#                sort uploaded_corpora/hplt100b-$L3.tsv.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 5 |   awk -v ORDER=$ORDER '{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> uploaded_corpora/hplt100b-$L3.tsv.ngrams
+#        done
+#python3 ./scripts/addngrams.py uploaded_corpora/hplt100b-$L3.tsv".ngrams"  /work/yaml_dir/hplt100b-"$L3".yaml  "src"

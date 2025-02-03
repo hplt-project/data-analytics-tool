@@ -11843,4 +11843,508 @@ export const BILINGUAL_SAMPLES = {
       score: "0.990",
     },
   ],
-};
+    "en-fi": [
+        {
+            "src": "The latest Aalto ARTS Books publication, Art as We Don’t Know It, presents a richly illustrated selection of artworks along with essays and peer-reviewed articles that contribute to the academic discourse on bioart.",
+            "trg": "Uusin Aalto ARTS Booksin julkaisu, Art as We Don’t Know It, esittelee laajan ja rikkaasti kuvitetun valikoiman taideteoksia biotaiteen kentältä.",
+            "score": "0.990"
+        },
+        {
+            "src": "Without such knowledge can not be a quality plan is executed.",
+            "trg": "Ilman tällaista tietoa ei voi laatu suunnitelma on toteutettu.",
+            "score": "0.707"
+        },
+        {
+            "src": "Watch the videos below featuring some of our satisfied customers",
+            "trg": "Katso alla olevia videoita, joissa esitellään tyytyväisiä asiakkaitamme",
+            "score": "0.856"
+        },
+        {
+            "src": "We have room prices as low as GBP 9 per night. Here is a breakdown of hotels for each star rating in Hogla as well as in the surrounding area:",
+            "trg": "Voit varata sivustomme kautta hotellihuoneita niinkin halvalla, kuin 11 USD per yö, ja alla on hotellit tähtiluokituksen mukaan kohteessa Hogla ja sen lähiseudulla.",
+            "score": "0.964"
+        },
+        {
+            "src": "£9.95 (£8.47+VAT) includes free ‘Centaur Cheltenham Betting and Trading Guide 2010 – Click Here",
+            "trg": "£ 9.95 (£ 8.47 + alv) sisältää vapaa-Centaur Cheltenham Betting and Trading-opas 2010 - Klikkaa tästä",
+            "score": "0.778"
+        },
+        {
+            "src": "Applying for Pension from Abroad Did you know that you can apply for a pension even for work you did abroad in the 1960s?",
+            "trg": "Eläkkeen hakeminen ulkomailta Tiesitkö, että voit hakea eläkettä jopa 1960-luvulla ulkomailla tehdystä työstä?",
+            "score": "0.991"
+        },
+        {
+            "src": "The Class of 2017 included Dave Andreychuk, Paul Kariya, Mark Recchi, Teemu Selanne, Clare Drake, Jeremy Jacobs and Danielle Goyette. Here are some of the highlights: Selanne makes weekend memorable for lifelong fan",
+            "trg": "Selänne, hänen tutkaparinsa Anaheimista Paul Kariya, Dave Andreychuk, Mark Recchi, Danielle Goyette, Jeremy Jacobs ja Clare Drake valittiin maanantaina Hockey Hall of Fameen, ja itse seremonia järjestetään marraskuussa Torontossa.",
+            "score": "0.678"
+        },
+        {
+            "src": "There will be more legs, the sizes of the mushrooms are also different - you can put all together or separately large, separately small mushrooms in the jars.",
+            "trg": "Jalkoja on enemmän, sienien koot ovat myös erilaiset - purkkiin voi laittaa kaikki yhdessä tai erikseen suuret, erikseen pienet sienet.",
+            "score": "0.986"
+        },
+        {
+            "src": "There is great interest in the new production method among both new and existing customers who have a requirement for high-strength steel materials with good resistance to abrasion and fatigue.",
+            "trg": "Uusi tuotantomenetelmä on herättänyt paljon kiinnostusta niin uusien kuin nykyisten lujia sekä kulutusta ja väsytystä kestäviä materiaaleja tarvitsevien asiakkaiden keskuudessa.",
+            "score": "0.833"
+        },
+        {
+            "src": "Yes, we’re getting down to the wire on Mother’s Day cards and crafts. You’ve got just two more days–unless you’re sending goodies out overnight, in which case get on it stat! While we’ve got some cool DIY Mother’s Day card ideas and gifts for moms in our archives, here are just a few more that I’ve chosen because…well, they’re so easy even I could do them.",
+            "trg": "Kyllä, olemme pääsemässä alas lanka Äitienpäivä ja käsitöitä.Sinulla vain kaksi päivää-ellet lähetät herkkuja yhdessä yössä, jolloin saat siitä stat!Vaikka meillä on joitakin hienoja DIY äitienpäivä kortti ideoita ja lahjoja Moms meidän arkistot, tässä on vain muutama, että olen valinnut, koska... no, he ovat niin helppo jopa voisin tehdä niitä.",
+            "score": "0.661"
+        },
+        {
+            "src": "The hotel building is of historic importance and decorated in a slightly Moorish style.",
+            "trg": "Hotellin rakennus on historiallisen tärkeää ja sisustettu hieman maurien tyyliin.",
+            "score": "0.589"
+        },
+        {
+            "src": "To achieve the maximum therapeutic effect, before swallowing, the medication in question is held in the mouth for a short amount of time.",
+            "trg": "Ennen nielemistä maksimaalisen terapeuttisen vaikutuksen saavuttamiseksi kyseinen lääke pidetään suussa lyhyeksi ajaksi.",
+            "score": "0.994"
+        },
+        {
+            "src": "The ERA 2014 delivers crystal clear sound for much more than just phone calls.",
+            "trg": "ERA 2014 -kuuloke tuottaa kristallinkirkkaan äänen muillekin kuin vain puheluille.",
+            "score": "0.923"
+        },
+        {
+            "src": "Today, this criterion is more important than ever as customer-facing messages are sent across multiple channels from standard mail to social media.",
+            "trg": "Tämä korostuu erityisesti nykypäivänä, jolloin asiakkaisiin kohdistuu viestintää monista eri kanavista perinteisestä postista aina sosiaaliseen mediaan.",
+            "score": "0.702"
+        },
+        {
+            "src": "If you make a city bike racing as fast as possible and at the same time make sure that the various hitchhiker.",
+            "trg": "Jos teet kaupungin bike racing niin nopeasti kuin mahdollista ja samalla varmistaa, että eri liftari.",
+            "score": "0.908"
+        },
+        {
+            "src": "This continued, powerful momentum has also resulted in a number of promotions at the senior vice president and vice president level.",
+            "trg": "Tämä jatkuva ja voimakas kasvuvauhti on johtanut myös lukuisiin ylennyksiin varatoimitusjohtajien ja apulaisjohtajien tasolla.",
+            "score": "0.947"
+        },
+        {
+            "src": "When discussing populism, the topic was often clear even though consensus had not been reached concerning a definition of the concept.",
+            "trg": "Usein oli selvää mistä puhuttiin kun puhuttiin populismista, vaikkei käsitteen määritelmästä päästykään yhteisymmärrykseen.",
+            "score": "0.803"
+        },
+        {
+            "src": "morning hours over again!",
+            "trg": "Kertokaappas taas jotain!",
+            "score": "0.683"
+        },
+        {
+            "src": "That period may be extended by a maximum of one more year, where such time is necessary for EIOPA and the Commission to carry out the assessment of equivalence for the purposes of paragraph 3.",
+            "trg": "Ajanjaksoa voidaan pidentää enintään vuodella, jos se on tarpeen, jotta vakuutus- ja lisäeläkeviranomainen ja komissio voivat arvioida vastaavuuden 3 kohdan mukaisesti.",
+            "score": "0.761"
+        },
+        {
+            "src": "The protection of corners, surfaces and edges is particularly important.",
+            "trg": "Kulmien, pinnan ja reunojen suojaaminen on erityisen tärkeää.",
+            "score": "0.993"
+        },
+        {
+            "src": "The rise of a small town on a relaxed work mode, quickly became a traffic chaos state, including cars, trucks, buses, hot dogs, and many other vehicles.",
+            "trg": "ei työmatka Nousu pikkukaupunki rento työtila, tuli nopeasti liikenteen kaaos tilassa, kuten autoja, autot, bussit, makkaraa, ja monet muut ajoneuvot.",
+            "score": "0.802"
+        },
+        {
+            "src": "Williams has implied that this could be the case.",
+            "trg": "Williams on vihjannut, että näin voisi olla.",
+            "score": "0.982"
+        },
+        {
+            "src": "• Ratiolex represents a building material supplier company as a respondent in a dispute regarding sale of real estate and precautionary measures in the District Court of Helsinki, 2/2021-.",
+            "trg": "• Ratiolex edustaa vastaajana olevaa rakennustarvikkeiden toimittajayhtiötä kiinteistön kauppaa ja turvaamistoimea koskevassa riita-asiassa Helsingin käräjäoikeudessa, 2/2021-.",
+            "score": "1.000"
+        },
+        {
+            "src": "If you suggest that you will live stream content that violates our Community Guidelines, we may age-restrict or remove your live stream. YouTube also reserves the right to restrict a creator's ability to live stream at its discretion. If your live stream is restricted, you may also get a strike on your account, which will prevent you from live streaming for three months.",
+            "trg": "Kaiken striimattavan sisällön on noudatettava yhteisön sääntöjä. Jos ilmoitat striimaavasi jotain, joka rikkoo yhteisön sääntöjä, voimme asettaa striimaukselle ikärajoituksen, poistaa striimin tai antaa tilillesi varoituksen (joka estää sinua striimaamasta kolmeen kuukauteen).",
+            "score": "0.921"
+        },
+        {
+            "src": "Start listening to #Scotland Outdoors on your phone right now with Player FM's free mobile app, the best podcasting experience on both iPhone and Android.",
+            "trg": "Ala kuuntelemaan #Bear Creek Bible Church puhelimellasi nyt Player FM:n ilmaisen mobiilisovelluksen kanssa, paras podcastkokemus sekä iPhonella että Androidilla.",
+            "score": "0.999"
+        },
+        {
+            "src": "The new area seemed very suitable for our event and is guaranteed to offer a diverse and interesting te...",
+            "trg": "Uusi alue vaikutti varsin hyvältä tapahtumaamme ajatellen ja tarjoaa takuuvarmasti monipuolisen ja mielenki...",
+            "score": "0.833"
+        },
+        {
+            "src": "Situated in the middle of the Landes national park with its wild beach of 100 k m surrounded by forests and its lake of 200 hectares, busy, family-friendly bathing resort, 60 km north-west from Bordeaux, 80 km north from Arcachon.",
+            "trg": "Vilkas, perheystävällinen rantalomapaikkakunta, 60 km luoteeseen Bordeauxistä, 80 km pohjoiseen Arcachonista.",
+            "score": "0.972"
+        },
+        {
+            "src": "The person making the reservation must be of legal age (18 years and over) at the time of booking.",
+            "trg": "Varauksen tekijän on varausta tehdessään oltava täysi-ikäinen (18 vuotta täyttänyt).",
+            "score": "0.885"
+        },
+        {
+            "src": "Our flakes and grits are easy, gluten free alternatives to cooking and baking.",
+            "trg": "Foodinin hiutaleet ja suurimot ovat helppoja, gluteenittomia vaihtoehtoja ruoanlaittoon ja leivontaan.",
+            "score": "0.956"
+        },
+        {
+            "src": "The only difference is where they run.",
+            "trg": "Näiden kahden mainosmuodon ainoa ero on se, missä niitä näytetään.",
+            "score": "0.979"
+        },
+        {
+            "src": "Now we have the data we can relate it to the soccer handicap market.",
+            "trg": "Nyt, kun meillä on tiedot, voimme käyttää niitä jalkapallon tasoitusvetokohteisiin.",
+            "score": "0.953"
+        },
+        {
+            "src": "Shower, Scuba Diving, Bathroom, Snorkelling, Air Conditioning - Public Areas, Laundry Service, Non Smoking Rooms, Reception - 24 Hour",
+            "trg": "Vastaanotto - 24 tuntia, Savuttomia Huoneita, Pesulapalvelu, Matkatavarasäilytys, Pintasukellus, Ilmastointi - Yleiset Tilat, Suihku, Laitesukellus",
+            "score": "0.990"
+        },
+        {
+            "src": "through the world.",
+            "trg": "maailman kanssa.",
+            "score": "0.569"
+        },
+        {
+            "src": "Finding threats already on your PC is good, but being able to prevent them from getting there is crucial.",
+            "trg": "Tietokoneellasi jo olevien uhkien löytäminen on hyvä, mutta on tärkeää estää niitä pääsemästä sinne.",
+            "score": "0.963"
+        },
+        {
+            "src": "And behold, the Lord was passing by! And a great and strong wind was rending the mountains and breaking in pieces the rocks before the Lord; but the Lord was not in the wind.",
+            "trg": "Herra kulkee siellä ohitsesi.’ Nousi raju ja mahtava myrsky, se repi vuoria rikki ja murskasi kallioita. Mutta se kävi Herran edellä, myrskyssä Herra ei ollut.",
+            "score": "0.928"
+        },
+        {
+            "src": "Education and teaching in Espoo will be based on a positive educational approach.",
+            "trg": "Espoossa kasvatuksessa ja opetuksessa on positiivisen kasvatuksen näkökulma.",
+            "score": "0.606"
+        },
+        {
+            "src": "No deposit bonuses could be real money or other freebies such as free play or free spins.",
+            "trg": "Yleensä tällainen casino bonus sisältää joko ilmaisen pelirahan tai ilmaiskierroksia.",
+            "score": "0.963"
+        },
+        {
+            "src": "In fact, it’s one of the city’s most significant and romantic skyscrapers.",
+            "trg": "Empire State Building onkin yksi New Yorkin tärkeimmistä ja romanttisimmista pilvenpiirtäjistä.",
+            "score": "0.977"
+        },
+        {
+            "src": "Cities Show bed and breakfasts in nearby cities:",
+            "trg": "Kaupungit Näytä bed and breakfastit lähellä olevissa kaupungeissa:",
+            "score": "0.991"
+        },
+        {
+            "src": "The road wearing Midnight Burst finish gives a protective and attractively detailed coating, so you know your kit will be safe in transit and on stage.",
+            "trg": "Road, yllään Sunburst lakka viimeistely antaa suojaava ja houkutteleva pinnoite, niin tiedät setti on turvassa, kuljetuksessa ja lavalla.",
+            "score": "0.524"
+        },
+        {
+            "src": "For example: • We’ve developed in-depth resource guides and sponsored presentations by subject matter experts on issues such as human rights, working conditions and greenhouse gas emissions.",
+            "trg": "Esimerkkejä: • Olemme laatineet perusteellisia resurssioppaita ja sponsoroineet asiantuntijaesitelmiä esimerkiksi ihmisoikeuksista, työolosuhteista ja kasvihuonekaasuista.",
+            "score": "0.982"
+        },
+        {
+            "src": "The idea of creating an institute for Rosen Method was raised by Sandra Wooten in May 1982, not long after the first group of Marion Rosen’s students had committed to being trained.",
+            "trg": "Sandra Wooten oli esittänyt ajatuksen Rosen Instituutin perustamisesta toukokuussa 1982, pian Marion Rosenin ensimmäisen opiskelijaryhmän aloittamisen jälkeen.",
+            "score": "0.860"
+        },
+        {
+            "src": "Social protection forms the biggest single expenditure category of consolidated general government expenditure, and its share of total expenditure was 44.6 per cent in 2020.",
+            "trg": "Sosiaaliturvaan kohdistuneet menot kasvoivat 0,7 prosenttia eli 395 miljoonaa euroa vuodesta 2016 ja yhteensä menoja oli 55,6 miljardia euroa.",
+            "score": "0.596"
+        },
+        {
+            "src": "Anderson(i) 1 PAUL, an apostle of Jesus Christ, according to the appointment of God our Savior, and the Lord Jesus Christ our hope, 2 to Timothy, my true son in the faith; grace, mercy, peace from God our Father, and Christ Jesus our Lord.",
+            "trg": "Finnish(i) 1 Paavali, Jesuksen Kristuksen apostoli Jumalan tahdon kautta elämän lupauksen jälkeen, joka on Kristuksessa Jesuksessa: 2 Minun rakkaalle pojalleni Timoteukselle armo, laupius ja rauha Isältä Jumalalta ja Jesukselta Kristukselta meidän Herraltamme!",
+            "score": "0.683"
+        },
+        {
+            "src": "Ad agencies, creative agencies, teenage influence ninja turtles and every other “Yeah, we’re like totally threesixty” money grabbers may bill you for thousands of dollars for the three words glued to your logo.",
+            "trg": "Mainostoimistot, luovat byråt, vaikutuskonklaavit ja muut kolmekuuskytluovien kuppauslaitokset saattavat laskuttaa jopa tuhansia euroja muutamasta logosi yhteyteen liimatusta sanasta.",
+            "score": "0.860"
+        },
+        {
+            "src": "Women's Coin Purse with Zipper Closure 3D Cat/Dog Pattern Multiple Options",
+            "trg": "Naisten kukkaro ja vetoketju sulkemiseen 3D kissa/koira malli useita vaihtoehtoja",
+            "score": "0.992"
+        },
+        {
+            "src": "Workspace Fitness Vila Joya is located at Estrada da Galé in Galé, 3.6 miles from the center of Albufeira.",
+            "trg": "Hotel da Galé osoite naapurustossa Orada on Largo Dos Luisadas, ja sen etäisyys kaupungin Albufeira keskustasta on 1 km.",
+            "score": "0.612"
+        },
+        {
+            "src": "bsm bavaria strassenmarkierung kg has been awarded the contract to remove around 10,000 m² of marking on the site at munich airport.viac...",
+            "trg": "bsm bavaria strassenmarkierung kg on saanut urakan poistaa noin 10000 m² tiemerkintöjä Münchenin lentokentältä.lisää...",
+            "score": "1.000"
+        },
+        {
+            "src": "You are solely responsible for maintaining the confidentiality of any passwords that you create in connection with the Site, and are solely responsible for all activities that occur in connection with your account.",
+            "trg": "Ylläpidämme tilisi tietoja yksityisyyskäytäntömme ehtojen mukaisesti. Olet täysin vastuussa salasanasi ja muiden sisäänkirjautumistietojen luottamuksellisuuden säilyttämisestä ja kaikesta tililläsi tapahtuvasta toiminnasta.",
+            "score": "0.989"
+        },
+        {
+            "src": "Many enthusiastically report good results with this dosage: one builds a solid muscle mass, the strength gain is worthwhile seeing, the water retention is very low, and the estrogen-caused side effects are rare.",
+            "trg": "Monet kertovat innostuneesti hyvistä tuloksista tällä annoksella: yksi rakentaa kiinteän lihasmassaa, voiman kasvu on näkemisen arvoinen, vedenpidätyskyky on hyvin vähäistä ja estrogeenin aiheuttamat sivuvaikutukset ovat harvinaisia.",
+            "score": "0.907"
+        }
+    ],
+    "en-nn": [
+        {
+            "src": "- • Maine Jewish Museum",
+            "trg": "- Hotell nær Maine Jewish Museum",
+            "score": "0.737"
+        },
+        {
+            "src": "Hjelle Hotel is a charming and romantic family hotel that really makes its guests feel at home, and which has been run by the same family since 1896.",
+            "trg": "TripAdvisor Vurderinger160 Anmeldelser Hjelle Hotel er eit koselig familiehotell, som er drive av samme familie sidan 1896.",
+            "score": "0.909"
+        },
+        {
+            "src": "In some cases the history and clinical examination are unequivocal. In others",
+            "trg": "hjå oss tek vi ein samtale og grundig sjukehistorie og klinisk undersøking.",
+            "score": "0.858"
+        },
+        {
+            "src": "Job number one, a Vorobyovy Gory tower that would become Moscow State University, was awarded to Lev Rudnev, a new leader of his profession.",
+            "trg": "Jobb nummer ein, eit Vorobjovy Gory-tårn, skulle verte Moskva statsuniversitet, og oppgåva gjekk til Lev Rudnev.",
+            "score": "0.978"
+        },
+        {
+            "src": "Some of the leaders did not manage the services adequately, and they did not appoint coordinators with adequate responsibility and authority to follow up the work.",
+            "trg": "Vidare er det påvist at leiinga ikkje legg til rette for og styrer arbeidet, og at ho ikkje peiker ut koordinator med tilstrekkeleg ansvar og mynde til å følgje opp arbeidet.",
+            "score": "0.670"
+        },
+        {
+            "src": "He received a share of the Nobel Prize in Physics in 1963 \"for his contributions to the theory of the atomic nucleus and the elementary particles, particularly through the discovery and application of fundamental symmetry principles\"; the other half of the award was shared between Maria Goeppert-Mayer and J. Hans D. Jensen.",
+            "trg": "Frå 1930 til 1933 var han professor i teoretisk fysikk i Göttingen i Tyskland, og frå 1938 til 1971 ved Princeton University i USA. Han vart tildelt Nobelprisen i fysikk i 1963 «for bidraga hans til teorien om atomkjerne og elementærpartiklar, særleg gjennom oppdagainga si og bruken av grunnleggjande symmetri-prinsippa».",
+            "score": "0.962"
+        },
+        {
+            "src": "Their debut album Whatever People Say I Am, That's What I'm Not\", broke records when it beat Oasis standing record of the fast selling debut album in British history with their album Definitely Maybe.",
+            "trg": "I januar 2006 kom albumet Whatever People Say I Am, That's What I'm Not, som blei det raskast seljande debutalbumet i Storbritannia nokonsinne.",
+            "score": "0.968"
+        },
+        {
+            "src": "- Use seat belts in the buses that have them and restraint straps for prams",
+            "trg": "- Bruk setebelte i bussane som har det og festereim for barnevogn",
+            "score": "0.980"
+        },
+        {
+            "src": "- Nicolae Densușianu, Dacia Preistorică, 1913, I.4; Literary references to the island in Antiquity",
+            "trg": "Nicolae Densuşianu, Dacia Preistorică, 1913, I.4; Om øya i antikken - Cotidianul:",
+            "score": "0.927"
+        },
+        {
+            "src": "The town of Premuda has about 50 inhabitants but the population strongly varies during the summer season.",
+            "trg": "Landsbyen Premuda har 50 innbyggjarar, men dette talet aukar mykje på sommaren.",
+            "score": "0.662"
+        },
+        {
+            "src": "The County Governor also offers guidance to municipalities, organisations, business actors and farms concerning opportunities available to them in the state system.",
+            "trg": "Fylkesmannen rettleier også kommunar, organisasjonar, næringsaktørar og bønder om moglegheitene som finst i det offentlege systemet.",
+            "score": "0.984"
+        },
+        {
+            "src": "Many superb lyrebirds live in the Dandenong Ranges National Park and Kinglake National Park around Melbourne, the Royal National Park and Illawarra region south of Sydney and in many other parks along the east coast of Australia as well as non protected bushland.",
+            "trg": "Ein finn mykje praktlyrehale innanfor grensene av Dandenong Ranges nasjonalpark og Kinglake nasjonalpark ved Melbourne, Royal nasjonalpark og i Illawarra-regionen sør for Sydney og i mange andre parkar langs austkysten av Australia så vel som i ikkje-verna buskskogområde.",
+            "score": "0.815"
+        },
+        {
+            "src": "Every year the University Board awards four prizes to employees at the University: The Research Prize, The UiO Excellent Science Communication Prize, The UiO Education Award and The UiO Innovation Prize. See the Faculty's prize winners.",
+            "trg": "Kvart år deler Universitetsstyret ut fire prisar: Forskingsprisen, Formidlingsprisen, Pris for godt læringsmiljø og Innovasjonsprisen. Se kven som er MNs vinnarar.",
+            "score": "0.816"
+        },
+        {
+            "src": "There are two harbours in the Auckland urban area surrounding this isthmus: Waitemata Harbour to the north, which opens east to the Hauraki Gulf, and Manukau Harbour to the south, which opens west to the Tasman Sea.",
+            "trg": "Der er to hamner i den delen av Auckland som ligg ved denne landtunga, Waitematahamna (Waitemata Harbour) mot nord; denne opnar seg austover mot Haurakigolfen, og Manukauhamna (Manukau Harbour) mot sør som opnar seg vestover mot Tasmanhavet.",
+            "score": "0.913"
+        },
+        {
+            "src": "On 29 October 1912 Atkinson led a party, with dogs and mules[14] to begin the search for traces of the polar party.",
+            "trg": "Etter eit møte med heile gruppa valte dei å først søke etter spor av Scott.[147] Eit søkelag sette av stad 29.",
+            "score": "0.593"
+        },
+        {
+            "src": "Nabokov spent his childhood and youth in Saint Petersburg and at the country estate Vyra near Siverskaya, south of the city.",
+            "trg": "I sjølvbiografien Speak, Memory skildrar Nabokov ein privilegert, «perfekt» barndom delt mellom hovudstaden og landeigedomen Vira nær Siverskij, sør for byen.",
+            "score": "0.901"
+        },
+        {
+            "src": "Manager games are a type of game where you play the role of a manager of a sports team.",
+            "trg": "Managerspel er ein type spel der du har rolla som manager av eit idrettslag.",
+            "score": "0.964"
+        },
+        {
+            "src": "The first reference to Bexhill, or Bexelei as it was originally called, was in a charter granted by King Offa of Mercia in 772 AD.",
+            "trg": "Byen kom inn i offisiell eksistens med eit charter frå 772 der kong Offa av Mercia gav land til biskop Oswald for å byggje ei kyrkje.",
+            "score": "0.872"
+        },
+        {
+            "src": "The newly built blocks of flats provided housing for those who lost their homes during the war.",
+            "trg": "Nybygde leilegheitsblokker gav husrom til dei som mista heimane sine under krigen.",
+            "score": "0.985"
+        },
+        {
+            "src": "- ^ \"Pirates of the Caribbean: Armada of the Damned [Canceled]\". Allgame.",
+            "trg": "- Denne artikkelen bygger på «Pirates of the Caribbean» frå Wikipedia på engelsk, den 5.",
+            "score": "0.868"
+        },
+        {
+            "src": "In 1948 the BWP merged with the Bulgarian Workers' Social Democratic Party to become the Bulgarian Communist Party once again.",
+            "trg": "I 1902 vart han medlem i Det bulgarske sosialdemokratiske partiet(BSDP).",
+            "score": "0.618"
+        },
+        {
+            "src": "The Crystal Palace Barracks in London, Ontario was the site of the Provincial Exhibition in 1861.",
+            "trg": "Krystallpalasset (engelsk the Crystal Palace) var ein bygning av jern og glas i London.",
+            "score": "0.713"
+        },
+        {
+            "src": "Step 1 - Go to Office 365 in the control panel",
+            "trg": "Steg 1 - Klikk på SSH & FTP i Kontrollpanel",
+            "score": "0.822"
+        },
+        {
+            "src": "The beautiful island of Dugi Otok, with a Mediterranean climate and ancient Croatian culture, receives very few visitors. Olive oil, figs, cheese and wine accompany the seafood in the natives' diet.",
+            "trg": "Den vakre øya med middelhavsklima og italiensk kultur får få turistar. Olivenolje, fiken, ost og vin i lag med sjømat utgjer ein stor del av dietten til dei fastbuande.",
+            "score": "0.570"
+        },
+        {
+            "src": "In 2010 we launched a Scandinavian percussion festival which has since expanded to embrace all the Nordic and Baltic countries.",
+            "trg": "I 2010 starta vi ein skandinavisk slagverkfestival, som etter kvart er utvida til å omfatte alle nordiske og baltiske land.",
+            "score": "0.989"
+        },
+        {
+            "src": "3 He gives me new strength.",
+            "trg": "3 Han gjev meg nytt liv.",
+            "score": "0.946"
+        },
+        {
+            "src": "The well is to be drilled by the Leiv Eiriksson mobile drilling facility.",
+            "trg": "Brønnen skal borast med den flyttbare borinnretninga Leiv Eiriksson.",
+            "score": "0.963"
+        },
+        {
+            "src": "He lost, however, and was sentenced under the Criminal Law Amendment Act to two years’ imprisonment with hard labor. Upon his release in 1897, he settled in France, where he wrote his most powerful and enduring poem, “The Ballad of Reading Gaol” (1898). Wilde never returned to England; he died in Paris.",
+            "trg": "I 1895 vart Wilde dømt til to års tukthus for homoseksualitet, og vart utfrosen av den engelske sosieteten. Straks etter soninga drog han til Frankrike, og vende aldri tilbake til England. I Paris skreiv han Balladen om Reading fengsel, som skildrar tida i fengsel.",
+            "score": "0.702"
+        },
+        {
+            "src": "In 1916 she married Kruchenykh and joined the group of Russian avant-garde artists Supremus that was led by Kazimir Malevich. By this time her paintings, developed from the influences of Cubism and Italian Futurism, and took an entirely original departure into pure abstraction in which the composition is organised by the visual weight and relationship of colour.",
+            "trg": "I 1916 vart Rozenova med i ei gruppe av russiske avantgarde-kunstnarar, Supremus, der futuristen Kasimir Malevitsj var den leiande. Ved den tid hadde måleria hennar utvikla seg vidare frå påverknaden av kubismen og den italienske futurismen. Bileta tok eit fullstendig originalt byks over i rein abstrahering, der biletkomposisjonen er organisert av trykket på synet og med relasjonane mellom fargane.",
+            "score": "0.758"
+        },
+        {
+            "src": "It was the party's own press who printed the first three stories about Švejk in 1911 (Karikatury, Josef Lada), and their main newspaper České Slovo was one of the main promoters of the novel after the author's death.",
+            "trg": "Det var i pressa til dette partiet dei fyrste tre sogene om Švejk kom på trykk i 1911 (Karikatury, Josef Lada), og hovudorganet deira České Slovo stod i fremste linje for å gjera romamen kjend etter forfattaren sin død.",
+            "score": "0.919"
+        },
+        {
+            "src": "After a relaxing week they left Rivendell with high spirits and new supplies.",
+            "trg": "Dvergane og Bilbo fikk lappa kleda sine og fikk nye forsyningar.",
+            "score": "0.800"
+        },
+        {
+            "src": "Copy of annual accounts before year 2007",
+            "trg": "Årsrekneskap før år 2007",
+            "score": "0.778"
+        },
+        {
+            "src": "Once Customs and Excise is able to see that the taxes have been paid, the requisite endorsement will be made on the registration card (form NA-0221).",
+            "trg": "Når Tollvesenet ser at avgiftene er betalte, vil den nødvendige attestasjonen på registreringskortet (blankett NA-0221) bli gjord.",
+            "score": "0.992"
+        },
+        {
+            "src": "The river rises on the Dumlu Dağ in Erzurum Province,[1] and drains the plains around the city of Erzurum.",
+            "trg": "Elva spring ut i Dumlu Dağ i provinsen Erzurum,[1] og drenerer slettene kring byen Erzurum.",
+            "score": "0.960"
+        },
+        {
+            "src": "In some cases, triploid fish have had a higher probability of developing skeletal deformities.",
+            "trg": "Triploid fisk har i enkelte døme vist auka sannsynlegheit for å utvikle misdanningar i skjelettet.",
+            "score": "0.983"
+        },
+        {
+            "src": "Select U.S. special operations units have available the.40 S&W and.45 ACP for their pistols.",
+            "trg": "Typisk nok var mange våpensynsarar i USA imot kaliber.40 S&W til å begynne med, og ville halde på den lange og svært kraftige kaliber 10 mm Auto FBI først hadde bruka.",
+            "score": "0.655"
+        },
+        {
+            "src": "Givat Savyon wis biggit in 1972, an is considered a heich-end apartment biggin neeburheid.",
+            "trg": "Givat Savyon vart bygd i 1972 og vert rekna som eit velståande nabolag.",
+            "score": "0.907"
+        },
+        {
+            "src": "In the 13th century a Romanesque church was built in Ockelbo.",
+            "trg": "På 1200-talet vart det bygd ei kyrkje i romansk stil i Ockelbo.",
+            "score": "0.991"
+        },
+        {
+            "src": "Parents and families who wish to participate in the PMTO scheme can contact:",
+            "trg": "Kven kan foreldre og familiar som ønskjer tilbod om PMTO, kontakte?",
+            "score": "0.645"
+        },
+        {
+            "src": "- Help section",
+            "trg": "- Hjelp seksjon",
+            "score": "0.983"
+        },
+        {
+            "src": "Its centre was in the Khabur River valley, with two capitals: Taite and Washshukanni called Taidu and Ushshukana respectively in Assyrian sources.",
+            "trg": "Senteret var i elvedalen Khabur med to hovudstader, Taite og Washshukanni (kalla høvesvis Taidu og Ushshukana i assyriske kjelder).",
+            "score": "0.864"
+        },
+        {
+            "src": "Elastic potential energy is the potential energy of an elastic object (for example a bow or a catapult) that is deformed under tension or compression (or stressed in formal terminology).",
+            "trg": "Elastisk potensiell energi er den potensielle energien til ein elastisk lekam (t.d. ein boge eller ein katapult), som vert deformert under stramming eller kompresjon (ofte kalla fysisk stress).",
+            "score": "0.897"
+        },
+        {
+            "src": "The so-called \"minor arts\" were very important in Byzantine art and luxury items, including ivories carved in relief as formal presentation Consular diptychs or caskets such as the Veroli casket, hardstone carvings, enamels, glass, jewelry, metalwork, and figured silks were produced in large quantities throughout the Byzantine era.",
+            "trg": "Kunsthandverk var også svært viktige i bysantinsk kunst og luksusvarer, som utskorne konsulardiptykon eller skrin som Veroliskrinet, steinskjering, emalje, glas, smykke, metallarbeid og kunstferdig utforma silketøy.",
+            "score": "0.808"
+        },
+        {
+            "src": "With these reinforcements, as well as youth breakouts such as Aymeric Laporte and Jonás Ramalho, Athletic looked to have a bounceback-season.",
+            "trg": "Athletic Bilbao er velkjend for å ha bringa fram unge baskiske fotballspelarar, samt å ha rekruttert baskiske toppspelarar frå andre klubbar, til dømes Javi Martínez.",
+            "score": "0.812"
+        },
+        {
+            "src": "Other units of pressure, such as pounds per square inch and bar, are also in common use. The CGS unit of pressure is the barye (Ba), equal to 1 dyn·cm−2 or 0.1 Pa.",
+            "trg": "Innanfor fysikken er trykk (symbol: p) definert som kraft per areal på ei flate normalt til kraftretninga. SI-eininga for trykk er pascal Pa, men mange andre einingar finst.",
+            "score": "0.556"
+        },
+        {
+            "src": "Transparency will be used if there is no material to crop.",
+            "trg": "Dersom det ikkje finst noe å beskjere, vil dette bli gjennomsiktig.",
+            "score": "0.878"
+        },
+        {
+            "src": "The second source was the spring of Ayn Zubayda.",
+            "trg": "Den andre kjelda var Ayn Zubayda-kjelda.",
+            "score": "0.987"
+        },
+        {
+            "src": "- Alibaba Aur 40 Chor (Alibaba and 40 Thieves) is a 2004 Indian Hindi-language action adventure-drama film by Sunil Agnihotri.",
+            "trg": "- Alibaba Aur 40 Chor er ein indisk hindispråkleg action-eventyrfilm frå 2004 av Sunil Agnihotri.",
+            "score": "0.980"
+        },
+        {
+            "src": "Template:Citation Two days before the eruption began, a marine research vessel noted that the sea in the area was somewhat warmer than normal, Template:Citation and at the same time, people in the coastal town of Vík on the mainland 80 km (50 mi) away had noticed a smell of hydrogen sulphide.",
+            "trg": "To dagar før utbrotet byrja, hadde eit maritimt forskingsfartøy merka seg at havet i området var noko varmare enn normalt, og på same tidspunkt hadde folk i kystbygda Vík, 80 km unna, lagt merke til lukta av svovel eller hydrogensulfid.",
+            "score": "0.974"
+        },
+        {
+            "src": "We love it very much, but it is not luxurious, and it's constantly undergoing big and small improvements.",
+            "trg": "Vi er veldig glade i det, men det er ikkje luksuriøst, og det er under stadig utbetring.",
+            "score": "0.938"
+        }
+    ]
+}
