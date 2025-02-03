@@ -82,45 +82,139 @@ ETHIOPIC_LANGS = ["am", "ti"]
 
 def fix_stopwords(stopwords, lang):
     if lang == "af":
-        stopwords.extend(["u", "n", "s", "dis", "ja"])
+        stopwords.extend(["u", "n", "s", "dis", "ja", "word", "of", "deur", "hierdie", "ook", "tot"])
+    elif lang == "als" or lang == "sq":
+        stopwords.extend(["është", "shumë", "tė", "duhet", "gjithë"])
+    elif lang == "ar":
+        stopwords.extend(["يمكن", "خلال", ])
+    elif lang == "as":
+        stopwords.extend(["এই", "হয়"])
     elif lang == "be":
-        stopwords.extend(["я", "не", "i", "на", "в", "по", "у", "і", "до", "для", "є", "а", "за", "так", "все",  "што", "з", "таму", "мы", "па", "вы"])
+        stopwords.extend(["я", "не", "i", "на", "в", "по", "у", "і", "до", "для", "є", "а", "за", "так", "все",  "што", "з", "таму", "мы", "па", "вы", "ў", "да", "як", "ад", "калі"])
+    elif lang == "bg":
+        stopwords.extend(["можете"])
     elif lang == "bs":
         stopwords.extend(["čiju"])
     elif lang == "ca":
-        stopwords.extend(["l", "l'", "d", "d'", "s", "s'"])
+        stopwords.extend(["l", "l'", "d", "d'", "s", "s'", "pot"])
+    elif lang == "ceb":
+        stopwords.extend(["usa", "ni", "na"])
     elif lang == "cy":
         stopwords.extend(["'r", "r", "'n", "n", "'i", "'w","'y", "'m", "'u", "'th"])
         for sw in [ 'about', 'an', 'as', 'you', 'be', 'but', 'by', 'from', 'get', 'have', 'he', 'him', 'his', 'if', 'it', 'just', 'know', 'like', 'make', 'me', 'my', 'no', 'not', 'one', 'or', 'out', 'say', 'she', 'so', 'take', 'that', 'their', 'there', 'they', 'this', 'time', 'up', 'what', 'when', 'which', 'who', 'will', 'with', 'would']:
             stopwords.remove(sw)
     elif lang == "de":
         stopwords.extend(["wurde", "wurden", "mehr", "viele"])
+    elif lang == "en":
+        stopwords.extend(["shall", "unto", "thou", "thus", "'s",  "every", "among", "therefore", "let", "us", "also", "one", "may"])
     elif lang == "es":
         stopwords.extend(["si", "quiero", "alguna", "cada", "puede", "cuándo", "casi", "creo", "aquí", "tal", "toda", "cuánto"])
-    elif lang == "en":
-        stopwords.extend(["shall", "unto", "thou", "thus", "'s",  "every", "among", "therefore", "let", "us"])
+    elif lang == "et":
+        stopwords.extend(["või", "ning", "ka", "teie", "meie"])
     elif lang == "eu":
         stopwords.extend(["zure", "gure", "duzu", "guztiak"])
+    elif lang == "fa":
+        stopwords.extend(["این", "برای"])
+    elif lang == "fi":
+        stopwords.extend(["myös", "n", "kaikki"])
+    elif lang == "fj":
+        stopwords.extend(["ena", "mai", "ira"])
+    elif lang == "fo":
+        stopwords.extend(["í", "at", "er", "á"])
     elif lang == "fr":
         stopwords.extend(["c'", "d'", "j'", "l'", "m'", "n'", "s'", "t'", "qu'"]) #These are missing in nltk when with apostrophe
     elif lang == "ga":
-        stopwords.extend(["tá", "seo", "má"])
+        stopwords.extend(["tá", "seo", "má", "sin"])
     elif lang == "gl":
-        stopwords.extend(["como", "máis", "si", "són", "todo", "outra", "ás", "moito", "xa", "todos", "nada", "cal", "son", "só", "agora", "onde", "quen", "cada", "algo", "porque", "sei", "vai", "algunha", "toda" ])    
+        stopwords.extend(["como", "máis", "si", "són", "todo", "outra", "ás", "moito", "xa", "todos", "nada", "cal", "son", "só", "agora", "onde", "quen", "cada", "algo", "porque", "sei", "vai", "algunha", "toda", "entre" ])    
+    elif lang == "gu":
+        stopwords.extend(["કરવા"])
+    elif lang == "ha":
+        stopwords.extend(["haka"])
+    elif lang == "hi":
+        stopwords.extend(["भी", "हम", "आपको"])
+    elif lang == "hr":
+        stopwords.extend(["može", "možete", "više", "mogu"])
+    elif lang == "hy":
+        stopwords.extend(["մասին", "թե"])
+    elif lang == "ig":
+        stopwords.extend(["ndị", "ya"])
     elif lang == "is":
-        stopwords.extend(["ekki", "hefur", "eru"])
-    elif lang == "it":
+        stopwords.extend(["ekki", "hefur", "eru", "hafa", "einnig"])
+    elif lang == "it":    
         stopwords.extend(["l'", "un'", "qualcun'","nessun'", "qualcos'", "dov'", "po'", "va'", "fa'", "dell'", "all'" ]) #same as french
+    elif lang == "jv":
+        stopwords.extend(["kanthi"])
+    elif lang == "ka":
+        stopwords.extend(["ეს", "ის", "არის", "იყო"])
+    elif lang == "kk":
+        stopwords.extend(["да", "бір", "бойынша", "немесе"])
+    elif lang == "kn":
+        stopwords.extend(["ನಮ್ಮ", "ನಿಮ್ಮ", "ನೀವು", "ನಾನು", "ನನ್ನ", "ನಾವು"])
+    elif lang == "lo":
+        stopwords.extend(["ທ່ານ", "ລາວ", "ແມ່ນ"])
+    elif lang == "lt":
+        stopwords.extend(["į", "iš", "jūsų"])
+    elif lang == "lv":
+        stopwords.extend(["kas", "jūsu", "jūs", "jums"])
+    elif lang == "mi":
+        stopwords.extend(["te", "o", "ki", "me", "nga"])
+    elif lang == "mk":
+        stpowords.extend(["овие"])
+    elif lang == "ml":
+        stopwords.extend(["ഞാന്", "ചെയ്യുക"])
+    elif lang == "mr":
+        stopwords.extend(["किंवा", "आपण", "आम्ही"])
+    elif lang == "my":
+        stopwords.extend(["ကို", "ခဲ့"])
+    elif lang == "nb":
+        stopwords.extend(["få"])
+    elif lang == "ne" or lang == "npi":
+        stopwords.extend(["गरिएको", "वा"])
     elif lang == "nn":
-        stopwords.extend(["frå", "ei", "meir", "andre"]) 
+        stopwords.extend(["frå", "ei", "meir", "andre", "må"]) 
+    elif lang == "ny":
+        stopwords.extend(["ndi", "ku"])
     elif lang == "pl":
         stopwords.extend(["w", "i", "z", "ze", "oraz", "a", "o"])
     elif lang == "ru":
         stopwords.extend(["з", "это", "т", "н"])
+    elif lang == "sk":
+        stopwords.extend(["môžete", "ste"])
+    elif lang == "sl":
+        stopwords.extend(["več"])
+    elif lang == "so":
+        stopwords.extend(["iyo", "ee", "la"])
+    elif lang == "sr":
+        stopwords.extend(["који", "као", "које", "може"])
+    elif lang == "su":
+        stopwords.extend(["ka", "sareng", "teu", "ti"])
+    elif lang == "sw" or lang == "swh":
+        stopwords.extend(["au"])
+    elif lang == "ta":
+        stopwords.extend(["நீங்கள்", "நாங்கள்"])
+    elif lang == "te":
+        stopwords.extend(["ఈ", "ఆ", "లో", "తన", "మీరు", "యొక్క"])
+    elif lang == "th":
+        stopwords.extend(["คุณ", "สามารถ", "สำหรับ"])
+    elif lang == "tl":
+        stopwords.extend(["mo", "lang", "naman"])
+    elif lang == "tr":
+        stopwords.extend(["bir", "olarak", "olan"])
     elif lang == "uk":
-        stopwords.extend(["я", "не", "i", "на", "в", "по", "у", "і", "до", "для", "є", "а", "за", "так", "все" ])
+        stopwords.extend(["я", "не", "i", "на", "в", "по", "у", "і", "до", "для", "є", "а", "за", "так", "все", "від", "або", "щоб", "які", "також" ])
+    elif lang == "ur":
+        stopwords.extend(["میں", "سے", "کا", "کو"])
     elif lang == "uz":
         stopwords.extend(["ва", "билан", "учун", "бу"])  
+    elif lang == "ydd":
+        stopwords.extend(["פון", "צו", "נישט"])
+    elif lang == "yo":
+        stopwords.extend(["awọn", "ati", "lati", "si", "fun"])
+    elif lang == "zsm" or lang == "ms":
+        stopwords.extend(["anda"])
+    elif lang == "zu":
+        stopwords.extend(["noma", "lokhu"])
     return stopwords
 
 def get_stopwords(lang):
