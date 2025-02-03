@@ -1,0 +1,291 @@
+bicleaner_scores: '[[0.0, 0], [0.1, 0], [0.2, 0], [0.3, 0], [0.4, 0], [0.5, 66742],
+  [0.6, 79898], [0.7, 109878], [0.8, 182289], [0.9, 672664]]'
+collections: '[["cc22", 511151], ["cc18", 138349], ["cc21", 132444], ["wide16", 87026],
+  ["cc17", 67864], ["wide17", 67455], ["wide12", 65269], ["wide6", 46416], ["wide5",
+  46134], ["wide11", 41966], ["wide15", 30727], ["cc15", 22210], ["wide10", 20783],
+  ["cc14", 20126], ["survey3", 8979], ["archivebot", 5233], ["cc19", 5187], ["cc20",
+  4775], ["cc23", 2292], ["cc16", 1055], ["cc13", 115]]'
+corpus: hplt-v2-en-ta.tsv
+hardrules_tags: '{"not_too_long": 0, "not_too_short": 27045, "length_ratio": 0, "no_urls":
+  0, "no_bad_encoding": 0, "pii": 3718}'
+sentence_pairs: 1111471
+src_bytes: 145.25 MB
+src_chars: 151447074
+src_langs: '[["en", 1111471]]'
+src_sent_tokens: '[[1, 63], [2, 5413], [3, 15387], [4, 26599], [5, 34439], [6, 38387],
+  [7, 42239], [8, 39375], [9, 36772], [10, 32611], [11, 29940], [12, 28153], [13,
+  27188], [14, 27862], [15, 27610], [16, 26910], [17, 25822], [18, 25096], [19, 24350],
+  [20, 23875], [21, 23110], [22, 22422], [23, 21878], [24, 20973], [25, 20580], [26,
+  19551], [27, 19100], [28, 18335], [29, 17928], [30, 16739], [31, 16514], [32, 16018],
+  [33, 15609], [34, 14398], [35, 14348], [36, 13449], [37, 12989], [38, 12502], [39,
+  12201], [40, 11393], [41, 11053], [42, 10582], [43, 10268], [44, 9716], [45, 9136],
+  [46, 8924], [47, 8505], [48, 8105], [49, 7605], [50, 7358], [51, 6931], [52, 6603],
+  [53, 6442], [54, 5894], [55, 5555], [56, 5449], [57, 5154], [58, 4867], [59, 4682],
+  [60, 4409], [61, 4295], [62, 4085], [63, 3691], [64, 3733], [65, 3448], [66, 3231],
+  [67, 3158], [68, 3005], [69, 2760], [70, 2682], [71, 2609], [72, 2467], [73, 2376],
+  [74, 2127], [75, 2046], [76, 1973], [77, 1912], [78, 1714], [79, 1739], [80, 1533],
+  [81, 1627], [82, 1418], [83, 1485], [84, 1273], [85, 1323], [86, 1208], [87, 1211],
+  [88, 1097], [89, 1096], [90, 1019], [91, 968], [92, 865], [93, 890], [94, 822],
+  [95, 774], [96, 733], [97, 686], [98, 600], [99, 626], [100, 589], [101, 575], [102,
+  540], [103, 497], [104, 477], [105, 417], [106, 456], [107, 440], [108, 398], [109,
+  377], [110, 353], [111, 353], [112, 330], [113, 313], [114, 308], [115, 290], [116,
+  275], [117, 250], [118, 251], [119, 232], [120, 242], [121, 218], [122, 209], [123,
+  181], [124, 169], [125, 192], [126, 142], [127, 149], [128, 135], [129, 104], [130,
+  148], [131, 133], [132, 128], [133, 113], [134, 103], [135, 104], [136, 91], [137,
+  102], [138, 84], [139, 89], [140, 86], [141, 79], [142, 70], [143, 74], [144, 52],
+  [145, 59], [146, 61], [147, 47], [148, 31], [149, 42], [150, 41], [151, 35], [152,
+  31], [153, 46], [154, 32], [155, 23], [156, 34], [157, 26], [158, 20], [159, 27],
+  [160, 20], [161, 31], [162, 22], [163, 21], [164, 16], [165, 13], [166, 16], [167,
+  10], [168, 10], [169, 8], [170, 7], [171, 10], [172, 13], [173, 7], [174, 8], [175,
+  7], [176, 6], [177, 2], [178, 5], [179, 4], [180, 5], [181, 4], [182, 5], [183,
+  6], [184, 4], [185, 5], [186, 4], [187, 1], [188, 3], [189, 6], [190, 4], [191,
+  3], [192, 1], [193, 3], [194, 1], [195, 3], [196, 5], [197, 3], [198, 2], [199,
+  1], [200, 1], [201, 2], [202, 1], [203, 1], [206, 3], [207, 1], [209, 2], [210,
+  1], [213, 1], [214, 1], [215, 1], [216, 3], [217, 1], [219, 1], [226, 1], [234,
+  1]]'
+src_sent_tokens_mean: 27
+src_sent_tokens_median: 21
+src_tokens: 29971833
+src_top100_domains: '[["wikipedia.org", 120929], ["downloadastro.com", 96298], ["biblegateway.com",
+  89344], ["sermoncentral.com", 27532], ["bajajfinserv.in", 26372], ["educationbro.com",
+  25933], ["websiterating.com", 23187], ["wsws.org", 20733], ["itsmygame.org", 19019],
+  ["religion-facts.com", 17365], ["webhostingsecretrevealed.net", 13196], ["vessoft.com",
+  12870], ["vsaduidoma.com", 12290], ["indiaspend.com", 12170], ["indianexpress.com",
+  11706], ["globalrecordings.net", 10856], ["blogspot.com", 8612], ["catholicgallery.org",
+  7760], ["onlinepj.com", 7718], ["manuals.plus", 7222], ["termwiki.com", 6574], ["ustraveldocs.com",
+  6540], ["adda247.com", 6207], ["uber.com", 6134], ["diamondtamil.com", 6024], ["wordpress.com",
+  5614], ["kurangah.com", 5435], ["desiblitz.com", 5380], ["worldwidescripts.net",
+  5148], ["teesupport.com", 4803], ["samacheerkalvibook.com", 4769], ["newsfirst.lk",
+  4602], ["gizbot.com", 4185], ["bajajallianz.com", 4128], ["examsdaily.in", 4037],
+  ["nativeplanet.com", 3957], ["binaryoptions.com", 3871], ["streets-of-gold.info",
+  3787], ["transposh.org", 3702], ["fractalenlightenment.com", 3668], ["ndtv.com",
+  3632], ["jw.org", 3556], ["boldsky.com", 3554], ["worldwidethemes.net", 3518], ["jodilogik.com",
+  3478], ["cardekho.com", 3446], ["frameboxxindore.com", 3423], ["freetnbooks.com",
+  3315], ["gentoo.org", 2975], ["zhonyingli.com", 2921], ["catholicbrain.com", 2914],
+  ["godfootsteps.org", 2890], ["wikisource.org", 2880], ["dialabank.com", 2839], ["tractorjunction.com",
+  2826], ["desdelinux.net", 2780], ["schools-wikipedia.org", 2770], ["unitedwecare.com",
+  2702], ["tldm.org", 2698], ["exactspy.com", 2697], ["ruralindiaonline.org", 2665],
+  ["daily-helper.com", 2647], ["microtexindia.com", 2623], ["martech.zone", 2567],
+  ["policybazaar.com", 2494], ["thither.com", 2493], ["azurewebsites.net", 2484],
+  ["global-article.ws", 2328], ["info-all.com", 2284], ["morehacks.net", 2258], ["kleinisd.net",
+  2244], ["survivalandprosperity.com", 2210], ["thulasidas.com", 2127], ["answering-islam.org",
+  2124], ["myupchar.com", 2102], ["shopgiejo.com", 2047], ["angelone.in", 2040], ["plumamazing.com",
+  2032], ["financialexpress.com", 2031], ["saveatrain.com", 2029], ["motilaloswal.com",
+  2024], ["urdolls.com", 2001], ["gotquestions.org", 2000], ["communalnews.com", 1998],
+  ["grocare.com", 1986], ["websetnet.net", 1955], ["lapress.org", 1923], ["newsrule.com",
+  1918], ["breakeveryyoke.com", 1908], ["tamilnadurecruitment.in", 1891], ["lawyersuae.com",
+  1875], ["aboutkidshealth.ca", 1863], ["itstechschool.com", 1847], ["thetrinitymission.org",
+  1842], ["theinfinitydownlinetruth.com", 1839], ["patient.info", 1837], ["libreoffice.org",
+  1827], ["amazon.in", 1811], ["factcheck.lk", 1803], ["oneindia.com", 1802]]'
+src_top100_tld: '[["com", 979078], ["org", 284738], ["net", 78022], ["in", 76892],
+  ["lk", 24184], ["info", 13223], ["gov.lk", 11948], ["plus", 7222], ["top", 6596],
+  ["co.uk", 5711], ["ca", 4938], ["gov.in", 4857], ["co.in", 4677], ["eu", 2916],
+  ["news", 2664], ["ru", 2639], ["zone", 2568], ["de", 2558], ["ws", 2387], ["nic.in",
+  2330], ["com.au", 2231], ["cc", 2113], ["co", 1847], ["io", 1796], ["me", 1719],
+  ["kz", 1626], ["tv", 1531], ["it", 1452], ["academy", 1435], ["jp", 1284], ["xyz",
+  1259], ["us", 1231], ["fr", 1115], ["org.au", 1107], ["gov.au", 1077], ["media",
+  987], ["ie", 983], ["edu", 928], ["pk", 913], ["gov", 873], ["nl", 855], ["app",
+  832], ["no", 790], ["ae", 765], ["biz", 745], ["org.uk", 721], ["online", 720],
+  ["cn", 682], ["ch", 682], ["com.sg", 670], ["im", 648], ["blog", 617], ["ac.lk",
+  605], ["sg", 576], ["finance", 574], ["nu", 552], ["guide", 545], ["ro", 522], ["org.in",
+  508], ["com.my", 504], ["gold", 483], ["life", 423], ["center", 405], ["dk", 401],
+  ["org.sg", 398], ["team", 392], ["on.ca", 387], ["vic.gov.au", 381], ["com.br",
+  353], ["pt", 351], ["gr", 349], ["be", 348], ["my", 327], ["pro", 323], ["education",
+  322], ["com.pk", 321], ["support", 313], ["today", 308], ["co.za", 304], ["site",
+  303], ["se", 296], ["co.nz", 291], ["world", 283], ["uk", 276], ["je", 276], ["com.ng",
+  273], ["is", 270], ["live", 269], ["store", 259], ["es", 256], ["com.lk", 224],
+  ["or.jp", 222], ["com.cn", 219], ["net.au", 210], ["qa", 207], ["pl", 193], ["hk",
+  192], ["edu.lk", 191], ["church", 191], ["ai", 177]]'
+src_unique_sents: '[[1, 61], [2, 4986], [3, 14424], [4, 25302], [5, 33031], [6, 37141],
+  [7, 40946], [8, 38486], [9, 35996], [10, 31861], [11, 29319], [12, 27641], [13,
+  26679], [14, 27339], [15, 27132], [16, 26298], [17, 25310], [18, 24290], [19, 23895],
+  [20, 23291], [21, 22655], [22, 22044], [23, 21472], [24, 20621], [25, 20218], [26,
+  19193], [27, 18744], [28, 18009], [29, 17602], [30, 16482], [31, 16169], [32, 15765],
+  [33, 15201], [34, 14215], [35, 14066], [36, 13262], [37, 12792], [38, 12329], [39,
+  11905], [40, 11243], [41, 10852], [42, 10443], [43, 10139], [44, 9599], [45, 9024],
+  [46, 8795], [47, 8396], [48, 7995], [49, 7525], [50, 7271], [51, 6859], [52, 6528],
+  [53, 6357], [54, 5832], [55, 5486], [56, 5391], [57, 5080], [58, 4820], [59, 4616],
+  [60, 4365], [61, 4236], [62, 4041], [63, 3657], [64, 3692], [65, 3408], [66, 3217],
+  [67, 3133], [68, 2975], [69, 2731], [70, 2663], [71, 2581], [72, 2441], [73, 2349],
+  [74, 2109], [75, 2020], [76, 1958], [77, 1893], [78, 1695], [79, 1717], [80, 1519],
+  [81, 1612], [82, 1402], [83, 1467], [84, 1264], [85, 1310], [86, 1197], [87, 1199],
+  [88, 1089], [89, 1087], [90, 1008], [91, 953], [92, 861], [93, 881], [94, 815],
+  [95, 768], [96, 724], [97, 681], [98, 595], [99, 621], [100, 583], [101, 570], [102,
+  536], [103, 494], [104, 477], [105, 411], [106, 452], [107, 438], [108, 393], [109,
+  376], [110, 349], [111, 349], [112, 327], [113, 310], [114, 305], [115, 289], [116,
+  272], [117, 247], [118, 249], [119, 231], [120, 241], [121, 216], [122, 206], [123,
+  180], [124, 168], [125, 190], [126, 142], [127, 148], [128, 135], [129, 104], [130,
+  144], [131, 130], [132, 127], [133, 112], [134, 103], [135, 101], [136, 90], [137,
+  102], [138, 83], [139, 88], [140, 86], [141, 77], [142, 70], [143, 74], [144, 52],
+  [145, 58], [146, 61], [147, 46], [148, 31], [149, 41], [150, 41], [151, 35], [152,
+  31], [153, 45], [154, 32], [155, 23], [156, 34], [157, 26], [158, 20], [159, 27],
+  [160, 20], [161, 30], [162, 22], [163, 21], [164, 16], [165, 13], [166, 16], [167,
+  10], [168, 10], [169, 8], [170, 7], [171, 10], [172, 12], [173, 7], [174, 8], [175,
+  7], [176, 6], [177, 2], [178, 5], [179, 4], [180, 5], [181, 4], [182, 5], [183,
+  6], [184, 4], [185, 5], [186, 4], [187, 1], [188, 3], [189, 6], [190, 4], [191,
+  3], [192, 1], [193, 3], [194, 1], [195, 3], [196, 5], [197, 3], [198, 2], [199,
+  1], [200, 1], [201, 2], [202, 1], [203, 1], [206, 3], [207, 1], [209, 2], [210,
+  1], [213, 1], [214, 1], [215, 1], [216, 3], [217, 1], [219, 1], [226, 1], [234,
+  1]]'
+srclang: en
+timestamp: 1737539250.1237502
+trg_bytes: 470.48 MB
+trg_chars: 185182398
+trg_langs: '[["ta", 1111471]]'
+trg_sent_tokens: '[[1, 213], [2, 7277], [3, 17991], [4, 32799], [5, 45148], [6, 49308],
+  [7, 48213], [8, 42567], [9, 39971], [10, 39537], [11, 37736], [12, 37277], [13,
+  34926], [14, 33701], [15, 32259], [16, 31942], [17, 30063], [18, 29194], [19, 28229],
+  [20, 26346], [21, 25192], [22, 23943], [23, 22940], [24, 21657], [25, 20112], [26,
+  18859], [27, 18021], [28, 17476], [29, 16430], [30, 15659], [31, 14818], [32, 13830],
+  [33, 13354], [34, 12543], [35, 12018], [36, 11519], [37, 10644], [38, 9996], [39,
+  9552], [40, 9115], [41, 8546], [42, 8141], [43, 7449], [44, 6879], [45, 6526], [46,
+  6320], [47, 5901], [48, 5468], [49, 5303], [50, 4718], [51, 4592], [52, 4252], [53,
+  4115], [54, 3950], [55, 3674], [56, 3376], [57, 3344], [58, 3094], [59, 2900], [60,
+  2790], [61, 2739], [62, 2511], [63, 2336], [64, 2137], [65, 2127], [66, 1982], [67,
+  1860], [68, 1712], [69, 1670], [70, 1566], [71, 1547], [72, 1326], [73, 1403], [74,
+  1273], [75, 1195], [76, 1089], [77, 1003], [78, 1023], [79, 918], [80, 876], [81,
+  801], [82, 808], [83, 695], [84, 707], [85, 643], [86, 643], [87, 564], [88, 583],
+  [89, 534], [90, 490], [91, 525], [92, 439], [93, 436], [94, 455], [95, 410], [96,
+  339], [97, 379], [98, 342], [99, 367], [100, 312], [101, 282], [102, 327], [103,
+  244], [104, 268], [105, 239], [106, 232], [107, 199], [108, 213], [109, 233], [110,
+  187], [111, 166], [112, 175], [113, 173], [114, 158], [115, 111], [116, 131], [117,
+  163], [118, 123], [119, 99], [120, 117], [121, 101], [122, 82], [123, 113], [124,
+  54], [125, 56], [126, 60], [127, 58], [128, 66], [129, 53], [130, 62], [131, 36],
+  [132, 57], [133, 34], [134, 24], [135, 30], [136, 29], [137, 16], [138, 26], [139,
+  17], [140, 8], [141, 7], [142, 18], [143, 8], [144, 10], [145, 6], [146, 11], [147,
+  5], [148, 11], [149, 34], [150, 12], [151, 3], [152, 2], [153, 2], [154, 2], [155,
+  6], [156, 2], [157, 4], [158, 5], [159, 3], [160, 2], [161, 1], [163, 1], [166,
+  2], [167, 1], [168, 3], [173, 2], [177, 1], [190, 1], [192, 1], [196, 1], [203,
+  4]]'
+trg_sent_tokens_mean: 22
+trg_sent_tokens_median: 17
+trg_tokens: 24808469
+trg_top100_domains: '[["wikipedia.org", 96438], ["biblegateway.com", 78702], ["downloadastro.com",
+  76845], ["wordproject.org", 32074], ["bajajfinserv.in", 23887], ["websiterating.com",
+  23392], ["wsws.org", 21544], ["itsmygame.org", 16961], ["catholicgallery.org", 15591],
+  ["indianexpress.com", 13765], ["webhostingsecretrevealed.net", 13216], ["educationbro.com",
+  12602], ["vsaduidoma.com", 12273], ["indiaspend.com", 12082], ["diamondtamil.com",
+  11610], ["religion-facts.com", 11152], ["vessoft.in", 10220], ["blogspot.com", 9373],
+  ["onlinepj.com", 8991], ["projectmadurai.org", 7232], ["adda247.com", 6857], ["kurangah.com",
+  5879], ["desiblitz.com", 5368], ["globalrecordings.net", 5317], ["examsdaily.in",
+  5168], ["worldwidescripts.net", 4938], ["tamilbible.org", 4928], ["gizbot.com",
+  4249], ["senthamil.org", 4164], ["bajajallianz.com", 4076], ["news18.com", 3995],
+  ["nativeplanet.com", 3979], ["binaryoptions.com", 3840], ["breakeveryyoke.com",
+  3739], ["teesupport.com", 3644], ["wordplanet.org", 3641], ["manuals.plus", 3571],
+  ["newsfirst.lk", 3570], ["jodilogik.com", 3531], ["uber.com", 3468], ["worldwidethemes.net",
+  3428], ["vt.edu", 3364], ["jw.org", 3354], ["freetnbooks.com", 3329], ["vessoft.com",
+  3298], ["boldsky.com", 3078], ["unitedwecare.com", 2936], ["zhonyingli.com", 2905],
+  ["blogspot.in", 2875], ["dinamani.com", 2840], ["ndtv.com", 2829], ["samacheerkalvibook.com",
+  2803], ["ustraveldocs.com", 2773], ["ruralindiaonline.org", 2722], ["desdelinux.net",
+  2698], ["tractorjunction.com", 2683], ["dialabank.com", 2597], ["microtexindia.com",
+  2593], ["policybazaar.com", 2570], ["daily-helper.com", 2524], ["arulvakku.com",
+  2522], ["oneindia.com", 2483], ["goodreturns.in", 2481], ["martech.zone", 2427],
+  ["answering-islam.org", 2413], ["wordpress.com", 2386], ["cardekho.com", 2381],
+  ["transposh.org", 2349], ["info-all.com", 2280], ["maalaimalar.com", 2221], ["makersword.com",
+  2212], ["gentoo.org", 2190], ["godfootsteps.org", 2174], ["behindwoods.com", 2162],
+  ["bbc.com", 2109], ["websetnet.net", 2063], ["myupchar.com", 2062], ["shopgiejo.com",
+  2035], ["fractalenlightenment.com", 2035], ["thither.com", 2013], ["islamcomplex.com",
+  2005], ["lapress.org", 1948], ["angelone.in", 1937], ["motilaloswal.com", 1935],
+  ["grocare.com", 1919], ["plumamazing.com", 1917], ["frameboxxindore.com", 1896],
+  ["lawyersuae.com", 1879], ["lifeline.news", 1860], ["gotquestions.org", 1851], ["itstechschool.com",
+  1826], ["saveatrain.com", 1819], ["drvaidyas.com", 1747], ["asianetnews.com", 1717],
+  ["filmibeat.com", 1668], ["narendramodi.in", 1660], ["factcheck.lk", 1660], ["athavannews.com",
+  1657], ["exactspy.com", 1625], ["amazon.in", 1621]]'
+trg_top100_tld: '[["com", 786001], ["org", 274984], ["in", 86027], ["net", 62159],
+  ["lk", 26272], ["gov.lk", 11514], ["info", 7420], ["top", 6448], ["gov.in", 4394],
+  ["edu", 3785], ["plus", 3571], ["ca", 3528], ["news", 3352], ["co.in", 3055], ["de",
+  2627], ["co", 2550], ["zone", 2427], ["co.uk", 2315], ["nic.in", 2218], ["ru", 1550],
+  ["biz", 1456], ["ws", 1378], ["academy", 1318], ["me", 1315], ["ch", 1315], ["cc",
+  1287], ["io", 1239], ["kz", 1188], ["tv", 1184], ["eu", 1142], ["it", 1107], ["sg",
+  1065], ["media", 1006], ["jp", 993], ["fr", 969], ["xyz", 955], ["gov.au", 929],
+  ["ae", 929], ["online", 877], ["com.my", 870], ["gold", 817], ["live", 759], ["no",
+  731], ["org.au", 718], ["com.au", 713], ["gov", 692], ["nl", 655], ["pt", 616],
+  ["com.sg", 611], ["ac.lk", 591], ["guide", 539], ["nu", 492], ["es", 482], ["my",
+  482], ["page", 464], ["pk", 422], ["org.in", 412], ["team", 385], ["im", 384], ["org.sg",
+  370], ["site", 359], ["education", 325], ["life", 320], ["finance", 306], ["link",
+  295], ["org.uk", 292], ["vic.gov.au", 283], ["dk", 280], ["edu.lk", 274], ["support",
+  265], ["center", 247], ["ro", 245], ["cn", 235], ["today", 235], ["store", 233],
+  ["on.ca", 232], ["pro", 222], ["app", 221], ["qa", 217], ["or.jp", 208], ["be",
+  207], ["ie", 195], ["com.lk", 194], ["chat", 184], ["blog", 181], ["xn--xkc2dl3a5ee0h",
+  176], ["xn--xkc2al3hye2a", 166], ["co.nz", 154], ["cz", 148], ["se", 145], ["at",
+  142], ["best", 136], ["family", 131], ["com.cn", 126], ["je", 125], ["res.in", 123],
+  ["is", 123], ["website", 122], ["gratis", 116], ["va", 116]]'
+trg_unique_sents: '[[1, 211], [2, 7014], [3, 16284], [4, 28469], [5, 37887], [6, 40189],
+  [7, 38293], [8, 34142], [9, 31509], [10, 30856], [11, 29222], [12, 28650], [13,
+  26701], [14, 25923], [15, 24552], [16, 23943], [17, 22891], [18, 22261], [19, 21475],
+  [20, 20578], [21, 19518], [22, 18238], [23, 17618], [24, 16893], [25, 15777], [26,
+  14869], [27, 14247], [28, 13796], [29, 13204], [30, 12370], [31, 11908], [32, 11207],
+  [33, 10805], [34, 10328], [35, 9810], [36, 9391], [37, 8776], [38, 8286], [39, 7960],
+  [40, 7554], [41, 7083], [42, 6748], [43, 6297], [44, 5818], [45, 5511], [46, 5346],
+  [47, 4945], [48, 4565], [49, 4395], [50, 3980], [51, 3957], [52, 3612], [53, 3520],
+  [54, 3290], [55, 3055], [56, 2901], [57, 2845], [58, 2647], [59, 2447], [60, 2339],
+  [61, 2292], [62, 2128], [63, 2014], [64, 1829], [65, 1768], [66, 1687], [67, 1574],
+  [68, 1477], [69, 1416], [70, 1321], [71, 1259], [72, 1178], [73, 1160], [74, 1086],
+  [75, 975], [76, 915], [77, 878], [78, 858], [79, 803], [80, 744], [81, 690], [82,
+  692], [83, 604], [84, 610], [85, 560], [86, 560], [87, 489], [88, 490], [89, 438],
+  [90, 422], [91, 433], [92, 389], [93, 374], [94, 375], [95, 340], [96, 303], [97,
+  319], [98, 284], [99, 292], [100, 277], [101, 250], [102, 265], [103, 205], [104,
+  229], [105, 207], [106, 204], [107, 174], [108, 178], [109, 189], [110, 160], [111,
+  141], [112, 140], [113, 148], [114, 133], [115, 95], [116, 111], [117, 131], [118,
+  99], [119, 89], [120, 94], [121, 86], [122, 72], [123, 75], [124, 48], [125, 52],
+  [126, 55], [127, 47], [128, 52], [129, 38], [130, 37], [131, 32], [132, 30], [133,
+  24], [134, 24], [135, 27], [136, 25], [137, 14], [138, 22], [139, 10], [140, 8],
+  [141, 6], [142, 17], [143, 8], [144, 10], [145, 6], [146, 5], [147, 3], [148, 10],
+  [149, 6], [150, 8], [151, 2], [152, 2], [153, 2], [154, 2], [155, 2], [156, 2],
+  [157, 3], [158, 4], [159, 2], [160, 2], [161, 1], [163, 1], [166, 2], [167, 1],
+  [168, 3], [173, 2], [177, 1], [190, 1], [192, 1], [196, 1], [203, 1]]'
+trglang: ta
+unique_sents: 1111471
+warnings: []
+src_ngrams: '{"1": [[["said"], 64218], [["one"], 53527], [["also"], 52852], [["lord"],
+  52613], [["people"], 43383]], "2": [[["sri lanka"], 10540], [["prime minister"],
+  9411], [["software similar"], 6782], [["tamil nadu"], 6440], [["united states"],
+  5806]], "3": [[["happy to recommend"], 5029], [["recommend you programs"], 5027],
+  [["users who downloaded"], 4533], [["number of programs"], 2867], [["minister narendra
+  modi"], 2830]], "4": [[["recommend you programs like"], 5026], [["prime minister
+  narendra modi"], 2770], [["characteristics of the game"], 1832], [["games like the
+  game"], 1627], [["word of the lord"], 1553]], "5": [[["happy to recommend you programs"],
+  5027], [["technical characteristics of the game"], 1832], [["middle east and north
+  africa"], 855], [["latin america and the caribbean"], 803], [["word of the lord
+  came"], 609]]}'
+trg_ngrams: '{"1": [[["\u0ba8\u0bc0\u0b99\u0bcd\u0b95\u0bb3\u0bcd"], 134614], [["\u0b89\u0b99\u0bcd\u0b95\u0bb3\u0bcd"],
+  121236], [["\u0bae\u0bc2\u0bb2\u0bae\u0bcd"], 42038], [["\u0b86\u0ba9\u0bbe\u0bb2\u0bcd"],
+  41260], [["\u0ba8\u0bbe\u0b99\u0bcd\u0b95\u0bb3\u0bcd"], 36885]], "2": [[["\u0bae\u0bc6\u0ba9\u0bcd\u0baa\u0bca\u0bb0\u0bc1\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1
+  \u0b92\u0ba4\u0bcd\u0ba4"], 7519], [["\u0b92\u0ba4\u0bcd\u0ba4 \u0bae\u0bc6\u0ba9\u0bcd\u0baa\u0bca\u0bb0\u0bc1\u0b9f\u0bcd\u0b95\u0bb3\u0bcd"],
+  7519], [["\u0bb5\u0bbf\u0bb0\u0bc1\u0bae\u0bcd\u0baa\u0bbf\u0baf \u0bae\u0bc6\u0ba9\u0bcd\u0baa\u0bca\u0bb0\u0bc1\u0b9f\u0bcd\u0b95\u0bb3\u0bc8"],
+  5069], [["\u0bae\u0bc6\u0ba9\u0bcd\u0baa\u0bca\u0bb0\u0bc1\u0b9f\u0bcd\u0b95\u0bb3\u0bc8
+  \u0baa\u0bb0\u0bbf\u0ba8\u0bcd\u0ba4\u0bc1\u0bb0\u0bc8\u0baa\u0bcd\u0baa\u0ba4\u0bbf\u0bb2\u0bcd"],
+  5069], [["\u0baa\u0baf\u0ba9\u0bbe\u0bb3\u0bbf\u0b95\u0bb3\u0bcd \u0bb5\u0bbf\u0bb0\u0bc1\u0bae\u0bcd\u0baa\u0bbf\u0baf"],
+  5069]], "3": [[["\u0bae\u0bc6\u0ba9\u0bcd\u0baa\u0bca\u0bb0\u0bc1\u0bb3\u0bc1\u0b95\u0bcd\u0b95\u0bc1
+  \u0b92\u0ba4\u0bcd\u0ba4 \u0bae\u0bc6\u0ba9\u0bcd\u0baa\u0bca\u0bb0\u0bc1\u0b9f\u0bcd\u0b95\u0bb3\u0bcd"],
+  7519], [["\u0bb5\u0bbf\u0bb0\u0bc1\u0bae\u0bcd\u0baa\u0bbf\u0baf \u0bae\u0bc6\u0ba9\u0bcd\u0baa\u0bca\u0bb0\u0bc1\u0b9f\u0bcd\u0b95\u0bb3\u0bc8
+  \u0baa\u0bb0\u0bbf\u0ba8\u0bcd\u0ba4\u0bc1\u0bb0\u0bc8\u0baa\u0bcd\u0baa\u0ba4\u0bbf\u0bb2\u0bcd"],
+  5069], [["\u0baa\u0baf\u0ba9\u0bbe\u0bb3\u0bbf\u0b95\u0bb3\u0bcd \u0bb5\u0bbf\u0bb0\u0bc1\u0bae\u0bcd\u0baa\u0bbf\u0baf
+  \u0bae\u0bc6\u0ba9\u0bcd\u0baa\u0bca\u0bb0\u0bc1\u0b9f\u0bcd\u0b95\u0bb3\u0bc8"],
+  5069], [["\u0bae\u0bc6\u0ba9\u0bcd\u0baa\u0bca\u0bb0\u0bc1\u0b9f\u0bcd\u0b95\u0bb3\u0bc8
+  \u0baa\u0bb0\u0bbf\u0ba8\u0bcd\u0ba4\u0bc1\u0bb0\u0bc8\u0baa\u0bcd\u0baa\u0ba4\u0bbf\u0bb2\u0bcd
+  \u0bae\u0b95\u0bbf\u0bb4\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd"], 4828], [["\u0bae\u0bc6\u0ba9\u0bcd\u0baa\u0bca\u0bb0\u0bc1\u0bb3\u0bcd\u0b95\u0bb3\u0bc8\u0baf\u0bc1\u0bae\u0bcd
+  \u0baa\u0ba4\u0bbf\u0bb5\u0bbf\u0bb1\u0b95\u0bcd\u0b95\u0bae\u0bcd \u0b9a\u0bc6\u0baf\u0bcd\u0ba4\u0bbe\u0bb0\u0bcd\u0b95\u0bb3\u0bcd"],
+  4208]], "4": [[["\u0baa\u0baf\u0ba9\u0bbe\u0bb3\u0bbf\u0b95\u0bb3\u0bcd \u0bb5\u0bbf\u0bb0\u0bc1\u0bae\u0bcd\u0baa\u0bbf\u0baf
+  \u0bae\u0bc6\u0ba9\u0bcd\u0baa\u0bca\u0bb0\u0bc1\u0b9f\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0bb0\u0bbf\u0ba8\u0bcd\u0ba4\u0bc1\u0bb0\u0bc8\u0baa\u0bcd\u0baa\u0ba4\u0bbf\u0bb2\u0bcd"],
+  5069], [["\u0bb5\u0bbf\u0bb0\u0bc1\u0bae\u0bcd\u0baa\u0bbf\u0baf \u0bae\u0bc6\u0ba9\u0bcd\u0baa\u0bca\u0bb0\u0bc1\u0b9f\u0bcd\u0b95\u0bb3\u0bc8
+  \u0baa\u0bb0\u0bbf\u0ba8\u0bcd\u0ba4\u0bc1\u0bb0\u0bc8\u0baa\u0bcd\u0baa\u0ba4\u0bbf\u0bb2\u0bcd
+  \u0bae\u0b95\u0bbf\u0bb4\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd"], 4828], [["\u0bae\u0bc6\u0ba9\u0bcd\u0baa\u0bca\u0bb0\u0bc1\u0bb3\u0bc8\u0baa\u0bcd
+  \u0baa\u0ba4\u0bbf\u0bb5\u0bbf\u0bb1\u0b95\u0bcd\u0b95\u0bae\u0bcd \u0b9a\u0bc6\u0baf\u0bcd\u0ba4
+  \u0baa\u0baf\u0ba9\u0bbe\u0bb3\u0bbf\u0b95\u0bb3\u0bcd"], 4208], [["\u0bae\u0ba4\u0bcd\u0ba4\u0bbf\u0baf
+  \u0b95\u0bbf\u0bb4\u0b95\u0bcd\u0b95\u0bc1 \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd
+  \u0bb5\u0b9f"], 1583], [["\u0b95\u0bbf\u0bb4\u0b95\u0bcd\u0b95\u0bc1 \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd
+  \u0bb5\u0b9f \u0b86\u0baa\u0bcd\u0baa\u0bbf\u0bb0\u0bbf\u0b95\u0bcd\u0b95\u0bbe"],
+  1573]], "5": [[["\u0baa\u0baf\u0ba9\u0bbe\u0bb3\u0bbf\u0b95\u0bb3\u0bcd \u0bb5\u0bbf\u0bb0\u0bc1\u0bae\u0bcd\u0baa\u0bbf\u0baf
+  \u0bae\u0bc6\u0ba9\u0bcd\u0baa\u0bca\u0bb0\u0bc1\u0b9f\u0bcd\u0b95\u0bb3\u0bc8 \u0baa\u0bb0\u0bbf\u0ba8\u0bcd\u0ba4\u0bc1\u0bb0\u0bc8\u0baa\u0bcd\u0baa\u0ba4\u0bbf\u0bb2\u0bcd
+  \u0bae\u0b95\u0bbf\u0bb4\u0bcd\u0b95\u0bbf\u0bb1\u0bcb\u0bae\u0bcd"], 4828], [["\u0bae\u0ba4\u0bcd\u0ba4\u0bbf\u0baf
+  \u0b95\u0bbf\u0bb4\u0b95\u0bcd\u0b95\u0bc1 \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd
+  \u0bb5\u0b9f \u0b86\u0baa\u0bcd\u0baa\u0bbf\u0bb0\u0bbf\u0b95\u0bcd\u0b95\u0bbe"],
+  1573], [["\u0b95\u0bbf\u0bb4\u0b95\u0bcd\u0b95\u0bc1 \u0bae\u0bb1\u0bcd\u0bb1\u0bc1\u0bae\u0bcd
+  \u0bb5\u0b9f \u0b86\u0baa\u0bcd\u0baa\u0bbf\u0bb0\u0bbf\u0b95\u0bcd\u0b95\u0bbe
+  \u0b92\u0baa\u0bcd\u0baa\u0bbf\u0b9f\u0bc1\u0bae\u0bcd\u0baa\u0bcb\u0ba4\u0bc1"],
+  757], [["\u0b8e\u0ba3\u0bcd\u0ba3\u0bbf\u0b95\u0bcd\u0b95\u0bc8\u0baf\u0bbf\u0bb2\u0bbe\u0ba9
+  \u0bae\u0b95\u0bcd\u0b95\u0bb3\u0bcd \u0ba4\u0bca\u0b95\u0bc8 \u0b95\u0bca\u0ba3\u0bcd\u0b9f
+  \u0ba8\u0bbe\u0b9f\u0bc1\u0b95\u0bb3\u0bbf\u0bb2\u0bcd"], 711], [["\u0ba4\u0bca\u0b95\u0bc8
+  \u0b95\u0bca\u0ba3\u0bcd\u0b9f \u0ba8\u0bbe\u0b9f\u0bc1\u0b95\u0bb3\u0bbf\u0bb2\u0bcd
+  \u0b8e\u0ba8\u0bcd\u0ba4 \u0ba8\u0bbe\u0b9f\u0bc1"], 703]]}'
