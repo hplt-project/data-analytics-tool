@@ -226,7 +226,12 @@
 /* NGRMS*/
 
 /******** volumes table ****/
-
+.volumes {
+  width: fit-content;
+}
+.targetTable {
+  margin-left: auto;
+}
 .dataReportContainer table {
   text-align: left;
   border-collapse: collapse;

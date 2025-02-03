@@ -64,7 +64,7 @@ export default function CollectionsGraph({ collection, total }) {
     .reduce((a, b) => a + b.freq, 0);
 
   const iaOnly = collection
-    .filter((el) => !el.token.includes("cc"))
+    .filter((el) => !el.token.toLowerCase().includes("cc"))
     .reduce((a, b) => a + b.freq, 0);
 
   const ccPerc = (ccOnly / total) * 100;

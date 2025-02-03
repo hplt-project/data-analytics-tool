@@ -601,7 +601,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
                         {date === "Invalid Date" ? "Not specified" : date}
                       </td>
                       <td className={styles.desktopData}>
-                        {srclang && srclang[0].label}
+                        {srclang &&
+                          (srclang[0].value === "hbs"
+                            ? "Croatian-Bosnian-Serbian"
+                            : srclang[0].label)}
                       </td>
                       {trglang && (
                         <td className={styles.desktopData}>
@@ -614,7 +617,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
                 <div className={styles.mobileData}>
                   <h4>Language</h4>
                   <p>
-                    {srclang && srclang[0].label}
+                    {srclang &&
+                      (srclang[0].value === "hbs"
+                        ? "Croatian-Bosnian-Serbian"
+                        : srclang[0].label)}
                     {trglang && `-${trglang[0].label}`}
                   </p>
                 </div>
@@ -755,7 +761,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     </tr>
                   </tbody>
                 </table>
-                <table>
+                <table style={{ marginLeft: "auto" }}>
                   <thead>
                     <tr>
                       {trglang && (
