@@ -224,7 +224,7 @@ def get_stopwords(lang):
         warnings = ["ngrams_" + lang + "_freq"]        
         '''
     logging.info("Stopwords: " + str(stop_words))
-    return stop_words, warnings
+    return list(set(stop_words)), warnings
 
 def get_line_ngrams(lang, tokenized_line, max_order, stop_words):
     warnings = []
