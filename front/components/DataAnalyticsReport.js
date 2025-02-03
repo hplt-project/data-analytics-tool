@@ -694,18 +694,18 @@ export default function DataAnalyticsReport({ reportData, date }) {
                           </div>
                         </th>
                       )}
-                      {trglang && (
+                      {trglang && srcTokens && (
                         <th className={styles.desktopData}>SL tokens</th>
                       )}
-                      {trglang && (
+                      {trglang && srcChars && (
                         <th className={styles.desktopData}>SL characters</th>
                       )}
 
-                      {trglang && (
+                      {trglang && srcSize && (
                         <th className={styles.desktopData}>SL size</th>
                       )}
                       {!trglang && <th className={styles.desktopData}>Size</th>}
-                      {!trglang && (
+                      {!trglang && srcChars && (
                         <th className={styles.desktopData}>Characters</th>
                       )}
                     </tr>
@@ -752,32 +752,32 @@ export default function DataAnalyticsReport({ reportData, date }) {
                         <td className={styles.desktopData}>{srcTokens}</td>
                       )}
 
-                      <td className={styles.desktopData}>
-                        {srcChars && srcChars}
-                      </td>
-                      <td className={styles.desktopData}>
-                        {srcSize && srcSize}
-                      </td>
+                      {srcChars && (
+                        <td className={styles.desktopData}>{srcChars}</td>
+                      )}
+                      {srcSize && (
+                        <td className={styles.desktopData}>{srcSize}</td>
+                      )}
                     </tr>
                   </tbody>
                 </table>
                 <table style={{ marginLeft: "auto" }}>
                   <thead>
                     <tr>
-                      {trglang && (
+                      {trglang && trgTokens && (
                         <th className={styles.desktopData}>TL tokens</th>
                       )}
-                      {trglang && (
+                      {trglang && trgChars && (
                         <th className={styles.desktopData}>TL characters</th>
                       )}
-                      {trglang && (
+                      {trglang && trgSize && (
                         <th className={styles.desktopData}>TL size</th>
                       )}
                     </tr>
                   </thead>
                   <tbody>
                     <tr>
-                      {trglang && (
+                      {trglang && trgTokens && (
                         <td className={styles.desktopData}>{trgTokens}</td>
                       )}
                       {trgChars && (
@@ -1002,81 +1002,87 @@ export default function DataAnalyticsReport({ reportData, date }) {
           <div className={styles.blank}></div>
         </div>
       )}
-      {bicleanerScores && collections && (
-        <div className="custom-chart">
-          <div className={styles.anotherContainer}>
-            {bicleanerScores && (
-              <div style={{ width: "70%", marginBottom: "40px" }}>
-                <div className={styles.bicleanerScores}>
-                  <h3>
-                    Translation likelihood{" "}
-                    <a className="bicleaner-info-second">
-                      {" "}
-                      {!footNote && (
-                        <Info
-                          className={[
-                            styles.helpCircle,
-                            styles.desktopData,
-                          ].join(" ")}
-                          strokeWidth={1.2}
-                          color="#2C2E35"
-                          width={20}
-                        />
-                      )}
-                    </a>
-                    <Tooltip
-                      anchorSelect=".bicleaner-info-second"
-                      place="top"
-                      clickable
+      <div className={bicleanerScores || collections ? "custom-chart" : ""}>
+        <div className={styles.anotherContainer}>
+          {bicleanerScores && (
+            <div
+              style={
+                collections
+                  ? { width: "70%", marginBottom: "40px" }
+                  : { width: "100%", marginBottom: "40px" }
+              }
+            >
+              <div className={styles.bicleanerScores}>
+                <h3>
+                  Translation likelihood{" "}
+                  <a className="bicleaner-info-second">
+                    {" "}
+                    {!footNote && (
+                      <Info
+                        className={[styles.helpCircle, styles.desktopData].join(
+                          " "
+                        )}
+                        strokeWidth={1.2}
+                        color="#2C2E35"
+                        width={20}
+                      />
+                    )}
+                  </a>
+                  <Tooltip
+                    anchorSelect=".bicleaner-info-second"
+                    place="top"
+                    clickable
+                  >
+                    Scores computed by Bicleaner-AI: (
+                    <a
+                      href="https://github.com/bitextor/bicleaner-ai"
+                      target="_blank"
+                      className={styles.tooltipLink}
                     >
-                      Scores computed by Bicleaner-AI: (
-                      <a
-                        href="https://github.com/bitextor/bicleaner-ai"
-                        target="_blank"
-                        className={styles.tooltipLink}
-                      >
-                        https://github.com/bitextor/bicleaner-ai
-                      </a>
-                      )
-                    </Tooltip>
-                  </h3>
-                  <div className={styles.desktopNum}>
-                    <ReportScores
-                      scores={bicleanerScores}
-                      xLabel={"Scores"}
-                      yLabel={"Segments"}
-                      graph={"bicleaner"}
-                      padding={60}
-                      labellist={true}
-                      fontSize={14}
-                    />
-                  </div>
-                  <div className={styles.mobileNum}>
-                    <ReportScores
-                      scores={bicleanerScores}
-                      xLabel={"Scores"}
-                      yLabel={"Segments"}
-                      graph={"another"}
-                      padding={20}
-                      labellist={true}
-                      fontSize={12}
-                    />
-                  </div>
+                      https://github.com/bitextor/bicleaner-ai
+                    </a>
+                    )
+                  </Tooltip>
+                </h3>
+                <div className={styles.desktopNum}>
+                  <ReportScores
+                    scores={bicleanerScores}
+                    xLabel={"Scores"}
+                    yLabel={"Segments"}
+                    graph={"bicleaner"}
+                    padding={60}
+                    labellist={true}
+                    fontSize={14}
+                  />
+                </div>
+                <div className={styles.mobileNum}>
+                  <ReportScores
+                    scores={bicleanerScores}
+                    xLabel={"Scores"}
+                    yLabel={"Segments"}
+                    graph={"another"}
+                    padding={20}
+                    labellist={true}
+                    fontSize={12}
+                  />
                 </div>
               </div>
-            )}
-            {collections && (
-              <div className={styles.collectionsGraphPie}>
-                <h3>Collections</h3>
-                <CollectionsGraph
-                  collection={collections}
-                  total={collectionsTotal}
-                />
-              </div>
-            )}
-          </div>
+            </div>
+          )}
+          {collections && (
+            <div
+              className={styles.collectionsGraphPie}
+              style={{ width: "30%" }}
+            >
+              <h3>Collections</h3>
+              <CollectionsGraph
+                collection={collections}
+                total={collectionsTotal}
+              />
+            </div>
+          )}
         </div>
-      )}
+      </div>
       {documentScore && (
         <div className="custom-chart">
           <div className={styles.bicleanerScores}>
