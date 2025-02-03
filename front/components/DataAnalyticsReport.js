@@ -1002,81 +1002,87 @@ export default function DataAnalyticsReport({ reportData, date }) {
           <div className={styles.blank}></div>
         </div>
       )}
-      {bicleanerScores && collections && (
-        <div className="custom-chart">
-          <div className={styles.anotherContainer}>
-            {bicleanerScores && (
-              <div style={{ width: "70%", marginBottom: "40px" }}>
-                <div className={styles.bicleanerScores}>
-                  <h3>
-                    Translation likelihood{" "}
-                    <a className="bicleaner-info-second">
-                      {" "}
-                      {!footNote && (
-                        <Info
-                          className={[
-                            styles.helpCircle,
-                            styles.desktopData,
-                          ].join(" ")}
-                          strokeWidth={1.2}
-                          color="#2C2E35"
-                          width={20}
-                        />
-                      )}
-                    </a>
-                    <Tooltip
-                      anchorSelect=".bicleaner-info-second"
-                      place="top"
-                      clickable
+      <div className={bicleanerScores || collections ? "custom-chart" : ""}>
+        <div className={styles.anotherContainer}>
+          {bicleanerScores && (
+            <div
+              style={
+                collections
+                  ? { width: "70%", marginBottom: "40px" }
+                  : { width: "100%", marginBottom: "40px" }
+              }
+            >
+              <div className={styles.bicleanerScores}>
+                <h3>
+                  Translation likelihood{" "}
+                  <a className="bicleaner-info-second">
+                    {" "}
+                    {!footNote && (
+                      <Info
+                        className={[styles.helpCircle, styles.desktopData].join(
+                          " "
+                        )}
+                        strokeWidth={1.2}
+                        color="#2C2E35"
+                        width={20}
+                      />
+                    )}
+                  </a>
+                  <Tooltip
+                    anchorSelect=".bicleaner-info-second"
+                    place="top"
+                    clickable
+                  >
+                    Scores computed by Bicleaner-AI: (
+                    <a
+                      href="https://github.com/bitextor/bicleaner-ai"
+                      target="_blank"
+                      className={styles.tooltipLink}
                     >
-                      Scores computed by Bicleaner-AI: (
-                      <a
-                        href="https://github.com/bitextor/bicleaner-ai"
-                        target="_blank"
-                        className={styles.tooltipLink}
-                      >
-                        https://github.com/bitextor/bicleaner-ai
-                      </a>
-                      )
-                    </Tooltip>
-                  </h3>
-                  <div className={styles.desktopNum}>
-                    <ReportScores
-                      scores={bicleanerScores}
-                      xLabel={"Scores"}
-                      yLabel={"Segments"}
-                      graph={"bicleaner"}
-                      padding={60}
-                      labellist={true}
-                      fontSize={14}
-                    />
-                  </div>
-                  <div className={styles.mobileNum}>
-                    <ReportScores
-                      scores={bicleanerScores}
-                      xLabel={"Scores"}
-                      yLabel={"Segments"}
-                      graph={"another"}
-                      padding={20}
-                      labellist={true}
-                      fontSize={12}
-                    />
-                  </div>
+                      https://github.com/bitextor/bicleaner-ai
+                    </a>
+                    )
+                  </Tooltip>
+                </h3>
+                <div className={styles.desktopNum}>
+                  <ReportScores
+                    scores={bicleanerScores}
+                    xLabel={"Scores"}
+                    yLabel={"Segments"}
+                    graph={"bicleaner"}
+                    padding={60}
+                    labellist={true}
+                    fontSize={14}
+                  />
+                </div>
+                <div className={styles.mobileNum}>
+                  <ReportScores
+                    scores={bicleanerScores}
+                    xLabel={"Scores"}
+                    yLabel={"Segments"}
+                    graph={"another"}
+                    padding={20}
+                    labellist={true}
+                    fontSize={12}
+                  />
                 </div>
               </div>
-            )}
-            {collections && (
-              <div className={styles.collectionsGraphPie}>
-                <h3>Collections</h3>
-                <CollectionsGraph
-                  collection={collections}
-                  total={collectionsTotal}
-                />
-              </div>
-            )}
-          </div>
+            </div>
+          )}
+          {collections && (
+            <div
+              className={styles.collectionsGraphPie}
+              style={{ width: "30%" }}
+            >
+              <h3>Collections</h3>
+              <CollectionsGraph
+                collection={collections}
+                total={collectionsTotal}
+              />
+            </div>
+          )}
         </div>
-      )}
+      </div>
       {documentScore && (
         <div className="custom-chart">
           <div className={styles.bicleanerScores}>
