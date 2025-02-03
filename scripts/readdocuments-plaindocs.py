@@ -92,8 +92,7 @@ def main():
     #docs_domains = Counter()
     docs_scores = Counter() #docscorer aka Web Docs Scorer
     
-    langident = heli_otr.Identifier()
-    
+    langident = heli_otr.Identifier()    
     ds = docscorer.DocumentScorer()    
      
     for json_line in args.corpus :
