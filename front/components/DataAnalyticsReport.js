@@ -24,6 +24,7 @@ const punycode = require("punycode/");
 import { SAMPLE_DATA } from "@/assets/samples/hplt-mono-v2";
 import { SAMPLE_DATA_FINEWEB } from "@/assets/samples/fineweb";
 import { BILINGUAL_SAMPLES } from "@/assets/samples/hplt-parallel-v2";
+import { OTHER_SAMPLES } from "@/assets/samples/others";
 import DomainTable from "./DomainTable";
 import TLDTable from "./TLDTable";
 import Sample from "./Sample";
@@ -48,6 +49,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
     ? SAMPLE_DATA_FINEWEB
     : SAMPLE_DATA;
 
+  const otherSamples = OTHER_SAMPLES;
+
   const bilingualSampleData = BILINGUAL_SAMPLES;
 
   const bilingualSample =
@@ -65,9 +68,18 @@ export default function DataAnalyticsReport({ reportData, date }) {
     .replace(".lite", "")
     .replace("fineweb2-", "");
 
-  const sample = Object.entries(sampleData).find(
-    (key) => key[0] === sampleFilename
-  );
+  let sample;
+  if (
+    dName.toLowerCase().includes("hplt-v2") ||
+    dName.toLowerCase().includes("fineweb")
+  ) {
+    sample = Object.entries(sampleData).find(
+      (key) => key[0] === sampleFilename
+    );
+  }
+  if (!sample) {
+    sample = Object.entries(otherSamples).find((key) => key[0] === filename);
+  }
 
   const [footNote, setFootNote] = useState(false);
 
