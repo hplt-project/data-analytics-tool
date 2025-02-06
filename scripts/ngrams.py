@@ -46,18 +46,23 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
                         "tg": "tajik",
                         "tr": "turkish",
                         "zh": "chinese",
-                        "zh-Hant": "chinese"}
+                        "zh-hant": "chinese",
+                        "zh-hans": "chinese"}
                         
-NLTK_STOPWORDS_MAPS = {"azj": "az"}
+NLTK_STOPWORDS_MAPS = {"azj": "az",  "ara": "ar", "ben": "bn", "cat": "ca", "dan": "da", "deu": "de", "ell": "el", "eng": "en", 
+                        "spa": "es", "eus": "eu", "fin": "fi", "fra": "fr", "heb": "he", "hun": "hu", "ind": "id", "ita": "it", 
+                        "kaz": "kk", "nob": "nb", "npi": "ne", "nld": "nl", "nno": "nn", "por": "pt", "ron": "ro", "rus": "ru",
+                        "slv": "sl", "swe": "sv", "tgk": "tg", "tur": "tr"}
 
 
 ASTUANA_STOPWORDS_LANGS = ["bg","cs", "fa", "ga", "gl", "hi", "hy", "ja",  "ko", "la", "lt",  "lv", "mr", "pl", "sk", "th", "uk", "ur"]
-ASTUANA_STOPWORDS_MAPS = {"pes": "fa",
-                        "lvs": "lv"}
+ASTUANA_STOPWORDS_MAPS = {"pes": "fa", "lvs": "lv", "bul": "bg", "ces": "cs", "fas": "fa", "gle": "ga", "glg": "gl", "hin": "hi", 
+                            "hye": "hy", "jpn": "ja", "kor": "ko", "lat": "la", "lit": "lt", "lvs": "lv", "mar": "mr", "pol": "pl",
+                            "slk": "sk", "tha": "th", "ukr": "uk", "urd": "ur"}
 
 ISO_STOPWORDS_LANGS =  ["af", "br", "eo", "et", "gu", "hr", "ms", "so", "sw","tl", "vi", "zu"]
-ISO_STOPWORDS_MAPS = { "zsm": "ms",
-                        "swh": "sw" }
+ISO_STOPWORDS_MAPS = {"zsm": "ms", "swh": "sw", "afr": "af", "bre": "br", "epo": "eo", "est": "et", "guj": "gu", "hrv": "hr",
+                        "som": "so", "tgl": "tl", "vie": "vi", "zul": "zu"}
 
 TXT_STOPWORDS_LANGS =  ["ab", "ace", "als", "as", "ast", "ayr", "awa", "azb", "ba", "ban", "bem", "be", "bho", "bjn", "bm", "bo", "bs", "bug",  
                         "ceb", "cjk", "co", "crh", "cy", "dik", "dyu", "dz", "ee", "fj", "fo", "fon", "fur", "fuv", "gaz", "gd", "gn",
@@ -68,17 +73,26 @@ TXT_STOPWORDS_LANGS =  ["ab", "ace", "als", "as", "ast", "ayr", "awa", "azb", "b
                         "sa", "sat", "sc", "scn", "sd", "sg", "shn", "si", "sm", "sn", "sq", "sr", "ss", "st", "su", "szl",
                         "ta", "taq", "te", "tk", "tn", "tpi", "ts", "tt", "tum", "tw", "tzm", 
                         "ug", "umb", "uz", "uzn", "vec", "war", "wo", "xh", "ydd", "yo"] 
-TXT_STOPWORDS_MAPS = {"khk": "mn"}
+TXT_STOPWORDS_MAPS = {"khk": "mn", "abk": "ab", "bak": "ba", "bel": "be", "bam": "bm", "aym": "ayr", "bod": "bo", "bos": "bo",
+                        "cnr": "me", "cos": "co", "cym": "cy", "dzo": "dz", "ewe": "ee", "fij": "fj", "fao": "fo", "ful": "fuv",
+                        "gla": "gd", "grn": "gn", "hau": "ha", "hat": "ht", "ibo": "ig", "isl": "is", "jav": "jv", "kat": "ka",
+                        "kik": "ki", "kon": "kg", "khm": "km", "kan": "kn", "kas": "ks", "kir": "ky" , "ltz": "lb", "lug": "lg"
+                        "lim": "li", "lin": "li", "mri": "mi", "mkd": "mk", "mal": "ml", "khk": "mn", "mlt": "mt", "mya": "my",
+                        "nya": "ny", "oci": "oc", "pan": "pa", "pbt": "ps", "run": "rn", "kin": "rw", "san": "sa", "srd": "sc"
+                        "snd": "sd", "sag": "sg", "sin": "si", "smo": "sm", "sna": "sn", "als": "sq", "srp": "sr", "ssw": "ss",
+                        "sot": "st", "sun": "su", "tam": "ta", "tel": "te", "tuk": "tk", "tsn": "tn", "tso": "ts", "tat": "tt",
+                        "twi": "tw", "uig": "ug", "uzn": "uz", "wol": "wo", "xho": "xh", "yor": "yo"}
 
 KLPT_STOPWORDS_LANGS = ["ckb", "kmr"]
 
 CANTONESE_LANGS = ["yue"]
 
-LAONLP_LANGS = ["lo"]
+LAONLP_LANGS = ["lo", "lao"]
 
 OPENODIA_LANGS = ["ory"]
 
-ETHIOPIC_LANGS = ["am", "ti"]
+ETHIOPIC_LANGS = ["am", "ti", "amh", "tir"]
+
 
 def fix_stopwords(stopwords, lang):
     if lang == "af":
@@ -297,9 +311,9 @@ def get_stopwords(lang):
         stop_words = fix_stopwords(stopwords, lang)
     
     elif lang in ETHIOPIC_LANGS:
-        if lang == "am":
+        if lang == "am" or lang == "amh":
             stopwords = amharic_stopwords
-        elif lang == "ti":
+        elif lang == "ti" or lang == "tir":
             stopwords = tigrinya_stopwords
         stop_words = fix_stopwords(stopwords, lang)
 
