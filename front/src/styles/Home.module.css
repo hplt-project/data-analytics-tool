@@ -43,7 +43,44 @@
   border-radius: 5px;
   padding: 40px 20px 20px 20px;
 }
+.listItem {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+}
+.listItem .version {
+  text-transform: uppercase;
+  color: rgb(115, 128, 136);
+  font-size: 10px;
+  letter-spacing: 0.3px;
+  margin-left: 5px;
+}
+.listItem .finewebPill,
+.listItem .hpltPill {
+  padding: 1px 10px;
+  border-radius: 12px;
+}
+.listItem .tagsContainer {
+  margin-left: auto;
+}
+.listItem .finewebPill {
+  background-color: #eaf9ff;
+  color: #004978;
+  border: 1px solid #e6effa;
+}
+.listItem .hpltPill {
+  background-color: #fff2f0;
+  color: #891233;
+  border: 1px solid #f8e5e9;
+  text-transform: uppercase;
+}
 
+.rawPill {
+  font-size: 10px;
+  text-transform: uppercase;
+  color: #2d3241;
+  margin-right: 5px;
+}
 .cardDetails {
   margin-top: 20px;
 }
@@ -62,7 +99,7 @@
   margin-top: 50px;
   display: flex;
   flex-direction: column;
-  width: 320px;
+  width: 420px;
 }
 
 .corpusTitle span {

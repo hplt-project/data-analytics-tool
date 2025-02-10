@@ -4,11 +4,11 @@ import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import { useRouter } from "next/router";
 import { DropdownList } from "react-widgets";
+import { languagePairName } from "../../hooks/hooks";
 
 import "react-widgets/styles.css";
 
 import styles from "@/styles/Home.module.css";
-
 
 export default function Home({ fileNames }) {
   const [selected, setSelected] = useState("");
@@ -31,14 +31,40 @@ export default function Home({ fileNames }) {
         <div className={styles.flex}>
           <DropdownList
             data={fileNames}
-            onChange={(e) => setSelected(e)}
-            placeholder="CCMatrix"
-            filter='contains'
+            onChange={(e) => setSelected(e.originalName)}
+            renderListItem={({ item }) => (
+              <p className={styles.listItem}>
+                <strong>
+                  {item.language.length > 1
+                    ? `${item.language[0].label}-${item.language[0].label}`
+                    : item.language[0].label}{" "}
+                </strong>
+                <span className={styles.version}>
+                  {item.originalName.includes("v1.1")
+                    ? "Version 1.1"
+                    : item.originalName.includes("v1.2")
+                    ? "Version 1.2"
+                    : item.originalName.includes("v2")
+                    ? "Version 2"
+                    : ""}
+                </span>
+                <div className={styles.tagsContainer}>
+                  {item.raw && <span className={styles.rawPill}>raw</span>}
+                  <span
+                    className={
+                      item.collection === "fineweb"
+                        ? styles.finewebPill
+                        : styles.hpltPill
+                    }
+                  >
+                    {item.collection}
+                  </span>
+                </div>
+              </p>
+            )}
+            filter="contains"
           />
         </div>
-      </div>
-      <div className={styles.docContainer}>
-        {report && <DataAnalyticsReport reportData={report} date={date} />}
       </div>
       <Footer />
     </div>
@@ -52,7 +78,56 @@ export async function getServerSideProps() {
 
   const list = await apiList.data;
 
+  const removalWords = [
+    ".yaml",
+    ".lite",
+    "fineweb2-",
+    ".tsv",
+    ".tmx",
+    "fineweb100b-",
+    "hplt-v2-",
+    "hplt-v1.2-",
+    "hplt_v1.2_",
+    "hplt-v2.",
+    "hplt-v1.1.",
+    "hplt-v1.2.",
+    "hplt_v2_",
+    "hplt100b-",
+  ];
+
+  const datasetList = list.map((el) => {
+    function replaceStringsCaseInsensitive(text, stringsToReplace) {
+      let result = text;
+      for (const oldString of stringsToReplace) {
+        const regex = new RegExp(oldString, "gi");
+        result = result.replace(regex, "");
+      }
+      return result;
+    }
+
+    const cleanName = replaceStringsCaseInsensitive(el, removalWords);
+
+    const languageName = languagePairName(cleanName.split("-"));
+
+    const collectionName = el.toLowerCase().includes("fineweb")
+      ? "fineweb"
+      : "hplt";
+
+    const rawState =
+      !el.toLowerCase().includes("fineweb") &&
+      !el.toLowerCase().includes("hplt")
+        ? true
+        : false;
+
+    return {
+      originalName: el,
+      language: languageName,
+      collection: collectionName,
+      raw: rawState,
+    };
+  });
+
   return {
-    props: { fileNames: list },
+    props: { fileNames: datasetList },
   };
 }
