@@ -1,10 +1,9 @@
-import DataAnalyticsReport from "../../components/DataAnalyticsReport";
 import { useState, useEffect } from "react";
 import Navbar from "../../components/Navbar";
 import Footer from "../../components/Footer";
 import { useRouter } from "next/router";
 import { DropdownList } from "react-widgets";
-import { languagePairName } from "../../hooks/hooks";
+import { languagePairName, multipleFilter } from "../../hooks/hooks";
 
 import "react-widgets/styles.css";
 
@@ -36,7 +35,7 @@ export default function Home({ fileNames }) {
               <p className={styles.listItem}>
                 <strong>
                   {item.language.length > 1
-                    ? `${item.language[0].label}-${item.language[0].label}`
+                    ? `${item.language[0].label} - ${item.language[1].label}`
                     : item.language[0].label}{" "}
                 </strong>
                 <span className={styles.version}>
@@ -62,7 +61,7 @@ export default function Home({ fileNames }) {
                 </div>
               </p>
             )}
-            filter="contains"
+            filter={multipleFilter}
           />
         </div>
       </div>

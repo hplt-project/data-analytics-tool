@@ -7,7 +7,7 @@ import Navbar from "../../../components/Navbar";
 import Footer from "../../../components/Footer";
 import { Oval } from "react-loader-spinner";
 
-import { languagePairName } from "../../../hooks/hooks";
+import { languagePairName, multipleFilter } from "../../../hooks/hooks";
 
 import styles from "@/styles/Home.module.css";
 
@@ -67,7 +67,7 @@ export default function Home({ fileNames }) {
               <p className={styles.listItem}>
                 <strong>
                   {item.language.length > 1
-                    ? `${item.language[0].label}-${item.language[0].label}`
+                    ? `${item.language[0].label} - ${item.language[0].label}`
                     : item.language[0].label}{" "}
                 </strong>
                 <span className={styles.version}>
@@ -93,7 +93,7 @@ export default function Home({ fileNames }) {
                 </div>
               </p>
             )}
-            filter="contains"
+            filter={multipleFilter}
           />
         </div>
       </div>

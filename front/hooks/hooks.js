@@ -191,3 +191,32 @@ export const handleDownload = async (filename) => {
     console.log(error, "Something went wrong with the download.");
   }
 };
+
+export function multipleFilter(item, value) {
+  const name = item.originalName.toLowerCase();
+  const languagePair =
+    item.language.length > 1
+      ? `${item.language[0].label.toLowerCase()}-${item.language[1].label.toLowerCase()}`
+      : item.language[0].label.toLowerCase();
+  const invertedLangPair =
+    item.language.length > 1
+      ? `${item.language[1].label.toLowerCase()}-${item.language[0].label.toLowerCase()}`
+      : item.language[0].label.toLowerCase();
+  const collection = item.collection.toLowerCase();
+
+  const srcCode = item.language[0].value.toLowerCase();
+
+  const trgCode =
+    item.language.length > 1 ? item.language[1].value.toLowerCase() : "";
+
+  let search = value.toLowerCase();
+
+  return (
+    name.indexOf(search) === 0 ||
+    languagePair.indexOf(search) === 0 ||
+    collection.indexOf(search) === 0 ||
+    invertedLangPair.indexOf(search) === 0 ||
+    srcCode.indexOf(search) === 0 ||
+    trgCode.indexOf(search) === 0
+  );
+}
