@@ -3,6 +3,7 @@ import EULogo from "../public/logos/eu-flag.png";
 import UKRILogo from "../public/logos/UKRIlogo.png";
 import XLogo from "../public/logos/logo-black.png";
 import HorizonLogo from "../public/logos/horizon.svg";
+import Link from "next/link";
 
 import styles from "@/styles/Footer.module.css";
 
@@ -55,6 +56,12 @@ export default function Footer() {
           The contents of this publication are the sole responsibility of the
           HPLT consortium and do not necessarily reflect the opinion of the
           European Union.
+        </p>
+        <p style={{ marginTop: "10px" }}>
+          Icons by{" "}
+          <Link href="https://lucide.dev/" target="_blank">
+            Lucide
+          </Link>
         </p>
       </div>
       <div className={styles["footer-text-right"]}>
