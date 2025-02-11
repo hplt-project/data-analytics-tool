@@ -30,6 +30,8 @@ export default function Home({ fileNames }) {
         <div className={styles.flex}>
           <DropdownList
             data={fileNames}
+            textField="originalName"
+            placeholder="fao_Latn.yaml"
             onChange={(e) => setSelected(e.originalName)}
             renderListItem={({ item }) => (
               <p className={styles.listItem}>
