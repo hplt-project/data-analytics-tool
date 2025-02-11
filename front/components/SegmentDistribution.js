@@ -84,7 +84,7 @@ export default function SegmentDistribution({ data, which, fontSize }) {
     <div className={styles.segmentDistributionContainer}>
       <div className={styles.segmentTitle}>
         <p>
-          <strong> {"<= 49"} </strong> tokens ={" "}
+          <strong> {"≤ 49"} </strong> tokens ={" "}
           <strong>{filteredDataTotalFormatted}</strong> segments |{" "}
           <strong>{filteredDataTotalDupesFormatted}</strong> duplicates
         </p>

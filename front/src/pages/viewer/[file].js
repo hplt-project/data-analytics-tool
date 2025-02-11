@@ -62,12 +62,14 @@ export default function Home({ fileNames }) {
           <DropdownList
             data={fileNames}
             textField="originalName"
+            value={fileName}
+            placeholder="fao_Latn.yaml"
             onChange={(e) => router.push(`/viewer/${e.originalName}`)}
             renderListItem={({ item }) => (
               <p className={styles.listItem}>
                 <strong>
                   {item.language.length > 1
-                    ? `${item.language[0].label} - ${item.language[0].label}`
+                    ? `${item.language[0].label} - ${item.language[1].label}`
                     : item.language[0].label}{" "}
                 </strong>
                 <span className={styles.version}>
