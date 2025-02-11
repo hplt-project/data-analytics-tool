@@ -12346,5 +12346,258 @@ export const BILINGUAL_SAMPLES = {
             "trg": "Vi er veldig glade i det, men det er ikkje luksuriøst, og det er under stadig utbetring.",
             "score": "0.938"
         }
+    ],    
+
+    "en-eo": [
+        {
+            "src": "The 15th eagle, nicknamed \"Hope\" by the Peregrine officials in Panama, was the \"poster child\" for forest conservation in Belize, a developing country, and the importance of these activities in relation to climate change.",
+            "trg": "Tiu 15a aglo, kromnome \"Hope\" (Espero), fare de la funkciuloj de la Peregrine Fund en Panamo, estis la \"poster child\" (simbolo) por arbarkonservado en Belizo, evolulando, kaj por la gravo de tiuj aktivaĵoj rilate al Tutmonda varmiĝo kaj Klimata ŝanĝo.",
+            "score": "0.980"
+        },
+        {
+            "src": "|bodyclass = vcard and",
+            "trg": "| bodyclass = vcard kaj",
+            "score": "0.696"
+        },
+        {
+            "src": "ESF invests in the internet successes of Esperanto",
+            "trg": "ESF investas en la retaj sukcesoj de Esperanto",
+            "score": "0.982"
+        },
+        {
+            "src": "Alternative definitions[edit]",
+            "trg": "Alternativoj difinoj[redakti | redakti fonton]",
+            "score": "0.960"
+        },
+        {
+            "src": "Accessibility and affordability. As one of the leading enterprises in my country’s pharmaceutical industry, Qilu Pharmaceutical achieved sales revenue of 23 billion yuan in 2019 and exports of 615 million US dollars; in the first 11 months of 2020, its product exports increased by 14% year-on-year.",
+            "trg": "Kiel unu el la ĉefaj entreprenoj en la farmacia industrio de mia lando, Qilu Pharmaceutical atingis vendan enspezon de 23 miliardoj da juanoj en 2019 kaj eksportojn de 615 milionoj da usonaj dolaroj;en la unuaj 11 monatoj de 2020, ĝiaj produkt-eksportoj pliiĝis je 14% jaro post jaro.Nuntempe, Qilu-farmaciaj produktoj estis eksportitaj al pli ol 70 landoj kaj regionoj tra la mondo.",
+            "score": "0.987"
+        },
+        {
+            "src": "How do you feel about that?’",
+            "trg": "— Ĉu vi komprenas tion? — demandis Kuprogambulo.",
+            "score": "0.796"
+        },
+        {
+            "src": "“That’s why,” she said, “last year, Eric Pickles and I wrote to every mosque registered with the Charity Commission asking them to help to record anti-Muslim incidents.”",
+            "trg": "“Tio estas kial,” Ŝi diris, “Lasta jaro, Eric Pickles kaj mi skribis al ĉiu moskeo registrita kun la Bonfarada Komisiono demandanta ilin helpi registri anti-islamaj okazaĵoj.”",
+            "score": "0.818"
+        },
+        {
+            "src": "For you were sometimes darkness, but now are you light in the Lord: walk as children of light:",
+            "trg": "cxar iam vi estis mallumo, sed jam vi estas lumo en la Sinjoro; iru kiel infanoj de lumo",
+            "score": "0.993"
+        },
+        {
+            "src": "- f(n) = 1, if n = 0; and n·f(n-1), if n>0.",
+            "trg": "- f(n) = 1, se n = 0; kaj n·f(n-1), se n>0.",
+            "score": "0.999"
+        },
+        {
+            "src": "But his servants, together with the woman, compelled him; and he hearkened unto their voice. So he arose from the earth, and sat upon the bed. 24 And the woman had a fat calf in the house; and she hasted, and killed it, and took flour, and kneaded it, and did bake unleavened bread thereof: 25 And she brought it before Saul, and before his servants; and they did eat.",
+            "trg": "Sed kiam insistis super li liaj servantoj kaj ankaux la virino, li obeis ilian vocxon, levigxis de la tero, kaj sidigxis sur lito. 24 La virino havis en la domo grasigitan bovidon; sxi rapide gxin bucxis, kaj sxi prenis farunon, knedis gxin, kaj bakis el gxi macojn. 25 Kaj sxi alportis tion antaux Saulon kaj antaux liajn servantojn, kaj ili mangxis; kaj en la sama nokto ili levigxis kaj foriris.",
+            "score": "0.948"
+        },
+        {
+            "src": "Most of these species have a distinctive plumage, but there is no pattern as to whether the sexes are alike, even within a single genus.",
+            "trg": "Plej el tiuj specioj havas distingan plumaron, sed ne estas modelo ĉu ambaŭ seksoj estas similaj, eĉ ene de ununura genro.",
+            "score": "0.825"
+        },
+        {
+            "src": "バナナ農園を通じ, ブドウ畑, 緑の谷とヨーロッパ最古の森, every bend in the road offers unbeatable panoramic opportunities.",
+            "trg": "Tra bananaj plantejoj, Vinberejoj, Verdaj valoj kaj la plej malnova arbaro en Eŭropo, Ĉiu flekso en la vojo proponas unbeatable panoramaj ŝancoj.",
+            "score": "0.843"
+        },
+        {
+            "src": "Core ideas shared by many Druids, according to Emma Restall Orr, the founder of The Druid Network, include \"honouring of the ancestors and honouring of the land\".[9] Orr also commented that \"Druidry connects with all the other Earth-ancestor traditions around the globe, such as the Native American, the Maori and Huna, the Aboriginal, the Romany and the indigenous spiritualities of Africa and Asia\",[10] a view supported by leading British Druid Philip Carr-Gomm.[11]",
+            "trg": "Kernideoj kunpartigitaj far multaj druidoj, laŭ Emma Restall Orr, la fondintino de La Druidreto, entenas \"honoraĵon de la praavoj kaj honoraĵon de la tero\".[9] Orr ankaŭ komentas ke \"Druidismo estas kunligata kun ĉiuj aliaj terpraavaj tradicioj de la terglobo, kiel la indiana, la maoria kaj la huna, la aborigena kaj la indiĝenaj spiritecoj de Afriko kaj Azio\",[10] vido apogita far la brita ĉefdruido Philip Carr-Gomm.[11]",
+            "score": "0.884"
+        },
+        {
+            "src": "To whom he answered, I am thy first begotten son Esau.",
+            "trg": "Kaj li diris: Mi estas via unuenaskita filo Esav.",
+            "score": "0.972"
+        },
+        {
+            "src": "From a distance Pedro initially appeared to Leopoldina to be a perfect, well-educated gentleman, but the reality was very different.",
+            "trg": "El malproksime, Petro principe ekestis al Leopoldina kiel perfekta, bonedukita kaj ĝentlemana, sed la realaĵo montris sin malsama.",
+            "score": "0.879"
+        },
+        {
+            "src": "In RNA, the thymine is replaced with uracil, but otherwise the sequences are the same.",
+            "trg": "Krome, la bazoj ne estas ĉiuj la samaj kiel en RNA.",
+            "score": "0.810"
+        },
+        {
+            "src": "How are his hidden treasures sought out! 7 All the men of your confederacy (your allies) have brought you on your way, even to the border; the men who were at peace with you have deceived you and prevailed against you; they who eat your bread have laid a snare under you.",
+            "trg": "Se vinberkolektantoj venus al vi, ili restigus ja forgesitajn berojn. 6 Kiel forte Esav estas prisercxita kaj liaj kasxejoj estas traesploritaj! 7 Al la limo vin pusxis cxiuj viaj interliganoj, trompis kaj perfortis vin viaj amikoj; la mangxantoj de via pano metis sub vin kaptilon, kiun vi ecx ne rimarkis.",
+            "score": "0.865"
+        },
+        {
+            "src": "What is the reason - it is not clear.",
+            "trg": "Kio estas la kialo - ne estas certe.",
+            "score": "0.958"
+        },
+        {
+            "src": "Our lives need to be molded around our aural and spiritual vibrations and progression needs to move from person to consciousness.",
+            "trg": "Niaj vivoj devas esti muldita #?irka? nia aural kaj spiritaj vibroj kaj progresiaj bezonoj movi de persono al konscio.",
+            "score": "0.834"
+        },
+        {
+            "src": "The most common vowel system consists of the five vowels /i/, /e/, /a/, /o/, /u/.",
+            "trg": "Esperanto havas la plej komunan vokalaron, la kvin vokalojn /i/, /e/, /a/, /o/ kaj /u/, kaj 23 konsonantojn.",
+            "score": "0.996"
+        },
+        {
+            "src": "16 Tomorrow go down against them. Behold, they will come up by the ascent of Ziz. You will find them at the end of the valley, east of the wilderness of Jeruel.",
+            "trg": "Morgaux malsupreniru sur ilin:jen ili supreniras sur la altajxon de Cic, kaj vi trovos ilin en la fino de la valo, antaux la dezerto Jeruel.",
+            "score": "0.790"
+        },
+        {
+            "src": "Many of the largest content platform companies often lack customer service teams and are difficult to contact, because they cannot handle all of the requests they receive.",
+            "trg": "Multaj el la plej grandaj enhavaj platformoj ofte malhavas de klientaj servaj teamoj kaj estas malfacile kontakti, ĉar ili ne povas pritrakti ĉiujn petojn, kiujn ili ricevas.",
+            "score": "0.577"
+        },
+        {
+            "src": "10:26 And brought the statue out of Baal's temple, and burnt it,",
+            "trg": "10:26 Kaj oni elportis la statuojn el la domo de Baal kaj forbruligis ilin.",
+            "score": "0.971"
+        },
+        {
+            "src": "Of the panther it is said, that it had four wings of a fowl and four heads.",
+            "trg": "7:6 Poste mi vidis ankoraux unu beston, similan al leopardo; sur sia dorso gxi havis kvar flugilojn de birdo, kaj kvar kapojn havis tiu besto, kaj potenco estis donita al gxi.",
+            "score": "0.886"
+        },
+        {
+            "src": "12 Beloved, think it not strange concerning the fiery trial which is to try you, as though some strange thing happened to you:",
+            "trg": "12 Amataj, ne surpriziĝu pri la fajrego ĉe vi okazanta por provi vin, kvazaŭ io stranga okazus ĉe vi;",
+            "score": "0.988"
+        },
+        {
+            "src": "20:10 The disciples therefore went away again unto their own friends,",
+            "trg": "20:10 Kaj la discxiploj iris returne hejmen.",
+            "score": "0.881"
+        },
+        {
+            "src": "In some formulations of ZF, the axiom of empty set is actually repeated in the axiom of infinity.",
+            "trg": "En kelkaj formuliĝoj de ZF, la aksiomo de malplena aro estas fakte ripetata en la aksiomo de malfinio.",
+            "score": "0.990"
+        },
+        {
+            "src": "This salt mill and pepper mill set is a modern, elegant and user-friendly accessory for your kitchen.",
+            "trg": "Ĉi tiu sala muelejo kaj pipromuelilo estas moderna, eleganta kaj uzebla akcesoraĵo por via kuirejo.",
+            "score": "0.912"
+        },
+        {
+            "src": "5:8 Be sober, vigilant, because your opponent the devil, as a roaring lion, doth walk about, seeking whom he may swallow up,",
+            "trg": "5:8 Estu sobraj, vigladu; via kontrauxulo, la diablo, kiel leono blekeganta cxirkauxiras, sercxante, kiun li povos forgluti;",
+            "score": "0.924"
+        },
+        {
+            "src": "Johannes Gerardus Keulemans (J. G. Keulemans) (8 June 1842 – 29 March 1912) was a Dutch bird illustrator.",
+            "trg": "Johannes Gerardus Keulemans (J. Keulemans) (8a Junio 1842 – 29a Marto 1912) estis naderlanda ilustristo pri birdoj.",
+            "score": "0.746"
+        },
+        {
+            "src": "34 Jesus kept saying, \"Father forgive them, for they do not know what they are doing.\"",
+            "trg": "Kaj Jesuo diris:Patro, pardonu ilin; cxar ili ne scias, kion ili faras.",
+            "score": "0.825"
+        },
+        {
+            "src": "Thereafter these become null and void and do not serve players any purpose at all.",
+            "trg": "Poste tiuj fariĝis nula kaj dezerta kaj ne servas ludantojn ĉiucele ajn.",
+            "score": "0.914"
+        },
+        {
+            "src": "A short time after this the mother sent the children into the wood to collect fagots.",
+            "trg": "Post iom da tempo la patrino sendis la infanojn en la arbaron kolekti sekajn branĉetojn.",
+            "score": "0.948"
+        },
+        {
+            "src": "The up to 40% of the votes to which this restriction applies do not lead to an additional seat in the international counting: because of the subtraction of seats won by national votes in the election procedure of the international seats, in accordance with 4.1.d.",
+            "trg": "La ĝis 40% de la voĉoj, al kiuj tiu limigo aplikiĝas, ne kondukas al plua loko en la internacia nombrado: pro la depreno de lokoj venkitaj de naciaj voĉoj en la elekto-procedo de la internaciaj lokoj, laŭ 4.1.d.",
+            "score": "0.912"
+        },
+        {
+            "src": "Though she did not consider herself a philosopher, she had a significant influence on both feminist existentialism and feminist theory.[2] De Beauvoir wrote novels, essays, biographies, autobiography and monographs on philosophy, politics and social issues. She is known for her 1949 treatise The Second Sex, a detailed analysis of women's oppression and a foundational tract of contemporary feminism; her novels, including She Came to Stay and The Mandarins; and her lifelong relationship with Jean-Paul Sartre. Contents",
+            "trg": "Ŝi verkis plurajn romanojn, monografiojn pri filozofio, politiko kaj sociaj temoj, eseojn, biografiojn, kaj membiografion en pluraj volumoj. En la nuntempo ŝi estas plej konata pro siaj metafizikaj romanoj, inter kiuj elstaras L'invitée (\"La invitito\", 1943) kaj Les mandarins (\"La mandarenoj\", 1954), kaj ankaŭ pro sia eseo Le deuxième sexe (\"La dua sekso\", 1949), en kiu ŝi detale analizas la subpremon de virinoj rilate al viroj, tiel konsistigante mejloŝtonon de la nuntempa inismo. Ŝi estas ankaŭ konata pro sia vivdaŭra poliamora rilato al Jean-Paul Sartre.",
+            "score": "0.913"
+        },
+        {
+            "src": "9 Most certainly I tell you, wherever this Good News may be preached throughout the whole world, that which this woman has done will also be spoken of for a memorial of her.”",
+            "trg": "Vere mi diras al vi:Kie ajn estos predikata la evangelio en la tuta mondo, tio ankaux, kion sxi faris, estos priparolata, por memorajxo de sxi.",
+            "score": "0.804"
+        },
+        {
+            "src": "Initially a single camp at Mauthausen, it expanded over time and by the summer of 1940, the Mauthausen-Gusen had become one of the largest labour camp complexes in German-controlled Europe.[2][3] Apart from the four main sub-camps at Mauthausen and nearby Gusen, more than 50 sub-camps, located throughout Austria and southern Germany, used the inmates as slave labour.",
+            "trg": "Kvankam ĝi unue konsistis el unusola tendaro apud Mauthausen, iom post iom ĝi pli ampleksiĝis kaj ĝi fariĝis unu el la plej grandaj kompleksoj de labortendaroj en fare de Germanio kontrolata Eŭropo[1][2]. Krom kvar ĉefaj subtendaroj, kiuj nomiĝis filioj, apud Mauthausen kaj proksime de Gusen estis en Aŭstrio kaj suda Germanio pli ol 50 pluaj subkoncentrejoj, kie arestitoj estis eluzataj kiel sklavoj.",
+            "score": "0.900"
+        },
+        {
+            "src": "And they sailed to the country of the Gadarenes, which is over against Galilee.",
+            "trg": "Kaj ili sxipveturis al la lando de la Gerasenoj, kiu estas kontraux Galileo.",
+            "score": "0.980"
+        },
+        {
+            "src": "The British supervised the construction of one of the most complex irrigation networks in the world.",
+            "trg": "La Britoj superrigardis la konstruadon de unu el la plej kompleksaj irigaciaj retoj en la mondo.",
+            "score": "0.989"
+        },
+        {
+            "src": "Heat waves now cause more deaths in the United States than all other weather events (hurricanes, floods, lightning, blizzards, tornados, etc.) combined, and dramatically more than all deaths from terrorism.",
+            "trg": "Varmaj ondoj nun kaŭzo pli da mortoj en Usono ol ĉiuj aliaj veteraj okazaĵoj (uraganoj, inundoj, fulmoj, ventĉeloj, tornadoj, ktp.) kombinitaj, kaj draste pli ol ĉiuj mortoj pro terorismo.",
+            "score": "0.896"
+        },
+        {
+            "src": "Experience on the World War II Eastern FrontEdit Hans Scholl, Alexander Schmorell, Christoph Probst, and Willi Graf were medical students.",
+            "trg": "Hans Scholl kaj sia fratino Sophie gvidis la grupon, kiu enhavis la aliajn studentojn Cristoph Probst, Alexander Schmorell kaj Willi Graf.",
+            "score": "0.940"
+        },
+        {
+            "src": "The forest-savanna mosaic is a transitional zone between the grasslands and the belt of tropical moist broadleaf forests near the equator.",
+            "trg": "La arbara-savana mozaiko estas transira zono inter la herbejoj kaj la zono de tropikaj kaj subtropikaj humidaj foliarbaroj apud la ekvatoro.",
+            "score": "0.983"
+        },
+        {
+            "src": "Waxaa la aasaasay on June, 12 1930 as the Odessa Institute of Water Transport Engineers. In May 1945 the Institute was named as Odessa Institute of Marine Fleet Engineers.",
+            "trg": "Ĝi estis establita en junio, 12 1930 kiel Odesa Instituto de Akvo Transporto Inĝenieroj. en majo 1945 la Instituto estis nomita kiel Odessa Instituto de Mara Floto Inĝenieroj. en 1994 la Instituto estis renomita en la Odesa Ŝtata Mara Universitato.",
+            "score": "0.999"
+        },
+        {
+            "src": "Retrieved 13 October 2011. - ↑ FN Herstal (13 October 2011).",
+            "trg": "Alirita la 2an de aprilo 2020. - ↑ Henderson, Charles (2005).",
+            "score": "0.562"
+        },
+        {
+            "src": "9 And my soul will have joy in the Lord; it will be glad in his salvation.",
+            "trg": "35:9 Kaj mia animo gxojos pro la Eternulo, Triumfos pro Lia helpo.",
+            "score": "0.908"
+        },
+        {
+            "src": "By comparison, the autumn journey is completed in about 26 days.",
+            "trg": "Kompare la aŭtuna veturado estas kompletata en ĉirkaŭ 26 tagoj.",
+            "score": "0.550"
+        },
+        {
+            "src": "Wide use:Ideal visual aids, can be used to read books, magazines, newspapers, bills, menus or any small print.",
+            "trg": "4.Larĝa uzo: Idealaj vidaj helpiloj, povas esti uzataj por legi librojn, revuojn, gazetojn, fakturojn, menuojn aŭ ajnan malgrandan printaĵon.",
+            "score": "0.983"
+        },
+        {
+            "src": "i did some more digging and found a block with all the rotating assambly in it in good condition the shop that has it is even getting me a fresh compression reading and claims its a good engine and they said it was running before it was disassembled",
+            "trg": "mi faris iom pli da fosado kaj trovis blokon, kun kiu ĉiuj enmetiĝas al ĝi en ĝia kondiĉo, la butiko, kiu havas ĝin, eĉ atingas al mi freŝan kunpreman legadon kaj asertas, ke ĝi estas bona motoro kaj ili diris, ke ĝi kuradis antaŭ ol ĝi estis malmuntita",
+            "score": "0.994"
+        },
+        {
+            "src": "5 And the Egyptians will see that I am the Lord, when my hand is stretched out over Egypt, and I take the children of Israel out from among them.",
+            "trg": "5 Kaj la Egiptoj sciigxos, ke Mi estas la Eternulo, kiam Mi etendos Mian manon super la Egiptojn kaj elirigos la Izraelidojn el inter ili.",
+            "score": "0.987"
+        },
+        {
+            "src": "- Install the Sony Vegas Pro",
+            "trg": "- Instalu la Sony Vegas Pro",
+            "score": "0.982"
+        }
     ]
 }
