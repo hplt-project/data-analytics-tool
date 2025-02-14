@@ -22,7 +22,7 @@ python3.10 /work/scripts/force-fasttext-download.py $L2
 date
 echo "Generating langcounts..."
 cat /work/uploaded_corpora/HPLT-v2-"$L3".tsv.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  /work/uploaded_corpora/HPLT-v2-$L3.tsv.$L2.langcounts
-source /work/venvs/venv-bhr/bin/activate
+source /work/venvs/venv-mc/bin/activate
 date
 echo "Running Monocleaner  Hardrules..."
 if [[ $* == *--nocache* ]]
