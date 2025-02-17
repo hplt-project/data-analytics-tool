@@ -51,9 +51,11 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
 NLTK_STOPWORDS_MAPS = {"azj": "az"}
 
 
-ASTUANA_STOPWORDS_LANGS = ["bg","cs", "fa", "ga", "gl", "hi", "hy", "ja",  "ko", "la", "lt",  "lv", "mr", "pl", "sk", "th", "uk", "ur"]
-ASTUANA_STOPWORDS_MAPS = {"pes": "fa",
-                        "lvs": "lv"}
+
+ASTUANA_STOPWORDS_LANGS = ["bg","cs", "fa", "ga", "gl", "hi", "hy", "ja",  "ko", "la",  "lv", "mr", "pl", "sk", "th", "uk", "ur"]
+ASTUANA_STOPWORDS_MAPS = {"pes": "fa", "lvs": "lv", "bul": "bg", "ces": "cs", "fas": "fa", "gle": "ga", "glg": "gl", "hin": "hi", 
+                            "hye": "hy", "jpn": "ja", "kor": "ko", "lat": "la", "lvs": "lv", "mar": "mr", "pol": "pl",
+                            "slk": "sk", "tha": "th", "ukr": "uk", "urd": "ur"}
 
 ISO_STOPWORDS_LANGS =  ["af", "br", "eo", "et", "gu", "hr", "ms", "so", "sw","tl", "vi", "zu"]
 ISO_STOPWORDS_MAPS = { "zsm": "ms",
@@ -62,13 +64,22 @@ ISO_STOPWORDS_MAPS = { "zsm": "ms",
 TXT_STOPWORDS_LANGS =  ["ab", "ace", "als", "as", "ast", "ayr", "awa", "azb", "ba", "ban", "bem", "be", "bho", "bjn", "bm", "bo", "bs", "bug",  
                         "ceb", "cjk", "co", "crh", "cy", "dik", "dyu", "dz", "ee", "fj", "fo", "fon", "fur", "fuv", "gaz", "gd", "gn",
                         "ha", "hne", "ht", "ig", "ilo", "is", "jv", "ka", "kab", "kac", "kam", "kbp", "kea", "ki", 
-                        "kg",  "km", "kmb", "kn", "knc", "ks", "ky", "lb", "lg", "li", "lij", "lmo", "ln", "ltg", "lua", "luo", "lus",
+                        "kg",  "km", "kmb", "kn", "knc", "ks", "ky", "lb", "lg", "li", "lij", "lmo", "ln", "lt", "ltg", "lua", "luo", "lus",
                         "mag", "mai", "me", "mi", "min", "mk", "ml", "mn", "mni", "mos", "mt", "my", "nso", "nus", "ny", "oc",
                         "pa", "pag", "pap", "pbt", "plt", "prs", "ps", "quy", "rn", "rw", 
                         "sa", "sat", "sc", "scn", "sd", "sg", "shn", "si", "sm", "sn", "sq", "sr", "ss", "st", "su", "szl",
                         "ta", "taq", "te", "tk", "tn", "tpi", "ts", "tt", "tum", "tw", "tzm", 
                         "ug", "umb", "uz", "uzn", "vec", "war", "wo", "xh", "ydd", "yo"] 
-TXT_STOPWORDS_MAPS = {"khk": "mn"}
+
+TXT_STOPWORDS_MAPS = {"khk": "mn", "abk": "ab", "bak": "ba", "bel": "be", "bam": "bm", "aym": "ayr", "bod": "bo", "bos": "bo",
+                        "cnr": "me", "cos": "co", "cym": "cy", "dzo": "dz", "ewe": "ee", "fij": "fj", "fao": "fo", "ful": "fuv",
+                        "gla": "gd", "grn": "gn", "hau": "ha", "hat": "ht", "ibo": "ig", "isl": "is", "jav": "jv", "kat": "ka",
+                        "kik": "ki", "kon": "kg", "khm": "km", "kan": "kn", "kas": "ks", "kir": "ky", "lit": "lt", "ltz": "lb", "lug": "lg"
+                        "lim": "li", "lin": "li", "mri": "mi", "mkd": "mk", "mal": "ml", "khk": "mn", "mlt": "mt", "mya": "my",
+                        "nya": "ny", "oci": "oc", "pan": "pa", "pbt": "ps", "run": "rn", "kin": "rw", "san": "sa", "srd": "sc"
+                        "snd": "sd", "sag": "sg", "sin": "si", "smo": "sm", "sna": "sn", "als": "sq", "srp": "sr", "ssw": "ss",
+                        "sot": "st", "sun": "su", "tam": "ta", "tel": "te", "tuk": "tk", "tsn": "tn", "tso": "ts", "tat": "tt",
+                        "twi": "tw", "uig": "ug", "uzn": "uz", "wol": "wo", "xho": "xh", "yor": "yo"}
 
 KLPT_STOPWORDS_LANGS = ["ckb", "kmr"]
 
