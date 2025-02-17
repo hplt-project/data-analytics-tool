@@ -1,5 +1,5 @@
 import Link from "next/link";
-import styles from "@/styles/DomainTable.module.css";
+import styles from "@/styles/BilingualTable.module.css";
 
 function BilingualTable({ list, type }) {
   return (

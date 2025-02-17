@@ -47,7 +47,7 @@ async function creatPdf({ doc, elements }) {
         padding,
         10,
         elWidth,
-        elHeight + 32,
+        elHeight + 12,
         `image${i}`,
         "FAST"
       );

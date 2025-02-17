@@ -650,12 +650,12 @@ export default function DataAnalyticsReport({ reportData, date }) {
                             {!footNote && (
                               <Info
                                 className={[
-                                  styles.helpCircle,
+                                  styles.helpCircleSmall,
                                   styles.desktopData,
                                 ].join(" ")}
-                                strokeWidth={1.2}
-                                color="#2C2E35"
-                                width={20}
+                                strokeWidth={2}
+                                color="#022831"
+                                width={14}
                               />
                             )}
                           </a>
@@ -683,9 +683,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
                                     styles.helpCircle,
                                     styles.desktopData,
                                   ].join(" ")}
-                                  strokeWidth={1.2}
-                                  color="#2C2E35"
-                                  width={20}
+                                  strokeWidth={2}
+                                  color="#022831"
+                                  width={18}
                                 />
                               )}
                             </a>
@@ -859,9 +859,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
                         className={[styles.helpCircle, styles.desktopData].join(
                           " "
                         )}
-                        strokeWidth={1.2}
-                        color="#2C2E35"
-                        width={20}
+                        strokeWidth={2}
+                        color="#022831"
+                        width={18}
                       />
                     )}
                   </a>
@@ -920,9 +920,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
                               styles.helpCircle,
                               styles.desktopData,
                             ].join(" ")}
-                            strokeWidth={1.2}
-                            color="#2C2E35"
-                            width={20}
+                            strokeWidth={2}
+                            color="#022831"
+                            width={18}
                           />
                         )}
                       </a>
@@ -968,9 +968,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
                             styles.helpCircle,
                             styles.desktopData,
                           ].join(" ")}
-                          strokeWidth={1.2}
-                          color="#2C2E35"
-                          width={20}
+                          strokeWidth={2}
+                          color="#022831"
+                          width={18}
                         />
                       )}
                     </a>
@@ -1034,9 +1034,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
                         className={[styles.helpCircle, styles.desktopData].join(
                           " "
                         )}
-                        strokeWidth={1.2}
-                        color="#2C2E35"
-                        width={20}
+                        strokeWidth={2}
+                        color="#022831"
+                        width={18}
                       />
                     )}
                   </a>
@@ -1107,9 +1107,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     className={[styles.helpCircle, styles.desktopData].join(
                       " "
                     )}
-                    strokeWidth={1.2}
-                    color="#2C2E35"
-                    width={20}
+                    strokeWidth={2}
+                    color="#022831"
+                    width={18}
                   />
                 )}
               </a>
@@ -1176,9 +1176,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     className={[styles.helpCircle, styles.desktopData].join(
                       " "
                     )}
-                    strokeWidth={1.2}
-                    color="#2C2E35"
-                    width={20}
+                    strokeWidth={2}
+                    color="#022831"
+                    width={18}
                   />
                 )}
               </a>
@@ -1256,12 +1256,13 @@ export default function DataAnalyticsReport({ reportData, date }) {
               <a className="segment-length-info">
                 {!footNote && (
                   <Info
-                    className={[styles.helpCircle, styles.desktopData].join(
-                      " "
-                    )}
-                    strokeWidth={1.2}
-                    color="#2C2E35"
-                    width={20}
+                    className={[
+                      styles.helpCircleSmall,
+                      styles.desktopData,
+                    ].join(" ")}
+                    strokeWidth={2}
+                    color="#022831"
+                    width={16}
                   />
                 )}
               </a>
@@ -1333,9 +1334,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
               {!footNote && (
                 <Info
                   className={[styles.helpCircle, styles.desktopData].join(" ")}
-                  strokeWidth={1.2}
-                  color="#2C2E35"
-                  width={20}
+                  strokeWidth={2}
+                  color="#022831"
+                  width={18}
                 />
               )}
             </a>
@@ -1370,9 +1371,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
                       className={[styles.helpCircle, styles.desktopData].join(
                         " "
                       )}
-                      strokeWidth={1.2}
-                      color="#2C2E35"
-                      width={20}
+                      strokeWidth={2}
+                      color="#022831"
+                      width={18}
                     />
                   )}
                 </a>
@@ -1423,9 +1424,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     className={[styles.helpCircle, styles.desktopData].join(
                       " "
                     )}
-                    strokeWidth={1.2}
-                    color="#2C2E35"
-                    width={20}
+                    strokeWidth={2}
+                    color="#022831"
+                    width={18}
                   />
                 )}
               </a>
