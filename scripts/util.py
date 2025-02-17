@@ -37,5 +37,5 @@ def get_fastspell_langs():
                     mzn nah nap nds ne new nl nn no oc or os pa pam pfl pl pms pnb ps pt qu rm ro ru rue sa sah \
                     sc scn sco sd sh si sk sl so sq sr su sv sw ta te tg th tk tl tr tt tyv ug uk ur uz vec \
                     vep vi vls vo wa war wuu xal xmf yi yo yue zh \
-                    awa bho fo hbs_lat hbs_cyr hbs iw me me_lat me_cyr nb sr_cyr sr_lat ti zsm"
+                    awa bho fo fur hbs_lat hbs_cyr hbs iw ltg mag me me_lat me_cyr nb pap sr_cyr sr_lat szl ti zsm"
     return(fasttext_langs.split())
