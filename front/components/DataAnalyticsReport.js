@@ -18,7 +18,6 @@ import { Info } from "lucide-react";
 import { Tooltip } from "react-tooltip";
 import CollectionsGraph from "./collectionsGraphs";
 import DocumentSizes from "./DocumentSizes";
-import buttonStyles from "@/styles/Uploader.module.css";
 import Footnotes from "./Footnotes";
 const punycode = require("punycode/");
 import { SAMPLE_DATA } from "@/assets/samples/hplt-mono-v2";
@@ -34,6 +33,7 @@ import ReportTitle from "./ReportTitle";
 import BilingualTable from "./BilingualTable";
 import BilingualSample from "./BilingualSample";
 
+import buttonStyles from "@/styles/Uploader.module.css";
 import styles from "./../src/styles/DataAnalyticsReport.module.css";
 
 export default function DataAnalyticsReport({ reportData, date }) {
@@ -654,7 +654,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                                   styles.desktopData,
                                 ].join(" ")}
                                 strokeWidth={2}
-                                color="#022831"
+                                color="#ffffff"
                                 width={14}
                               />
                             )}
@@ -712,14 +712,13 @@ export default function DataAnalyticsReport({ reportData, date }) {
                       {trglang && srcChars && (
                         <th className={styles.desktopData}>SL characters</th>
                       )}
-
                       {trglang && srcSize && (
                         <th className={styles.desktopData}>SL size</th>
-                      )}
-                      {!trglang && <th className={styles.desktopData}>Size</th>}
+                      )}{" "}
                       {!trglang && srcChars && (
                         <th className={styles.desktopData}>Characters</th>
                       )}
+                      {!trglang && <th className={styles.desktopData}>Size</th>}
                     </tr>
                   </thead>
                   <tbody>
@@ -747,17 +746,17 @@ export default function DataAnalyticsReport({ reportData, date }) {
                           </p>
                           <p className={styles.mobileNum}>
                             {numberFormatter(+uniqueSegments)}
+                            {uniqueSegments && sentences && (
+                              <span className={styles.percSpan}>
+                                {" ("}
+                                {(
+                                  (reportData.unique_sents * 100) /
+                                  reportData.sentence_pairs
+                                ).toFixed(2)}{" "}
+                                %)
+                              </span>
+                            )}
                           </p>
-                          {uniqueSegments && sentences && (
-                            <span className={styles.percSpan}>
-                              {" ("}
-                              {(
-                                (reportData.unique_sents * 100) /
-                                reportData.sentence_pairs
-                              ).toFixed(2)}{" "}
-                              %)
-                            </span>
-                          )}
                         </td>
                       )}
                       {srcTokens && (

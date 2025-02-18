@@ -20,7 +20,7 @@ function TLDTable({ topTLDs, type }) {
               <tr>
                 <td>{doc.token}</td>
                 <td>{doc.freq}</td>
-                <td>{doc?.perc && doc.perc.toFixed(2)}</td>
+                <td>{doc?.perc && doc.perc.toFixed(2)}%</td>
               </tr>
             );
           })}

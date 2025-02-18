@@ -24,9 +24,7 @@ const CustomTooltip = ({ active, payload, label }) => {
                 item.payload.others.map((other) => {
                   return (
                     <div>
-                      <p
-                        className={styles.singleOther}
-                      >{`${other.token} - ${other.freq} - (${other.perc}%)`}</p>
+                      <p>{`${other.token} - ${other.freq} - (${other.perc}%)`}</p>
                     </div>
                   );
                 })}

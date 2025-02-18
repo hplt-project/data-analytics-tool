@@ -250,22 +250,42 @@
 }
 .dataReportContainer table tr td {
   font-size: 14px;
-  padding: 2.6px 8px;
+  padding: 4px 8px;
 }
 
 .dataReportContainer table tr td:first-child {
-  padding: 2.6px 8px 2.6px 10px;
+  padding: 4px 8px 4px 10px;
 }
 .dataReportContainer table thead th:last-child {
   padding: 5.5px 10px 5.5px 8px;
 }
 
 .dataReportContainer table tr td:last-child {
-  padding: 2.6px 10px 2.6px 8px;
+  padding: 4px 10px 4px 8px;
 }
 
 .dataReportContainer table thead th {
   font-weight: 500;
+}
+.dataReportContainer table {
+  border: 1px solid #eeeeee;
+}
+.dataReportContainer table thead {
+  background-color: #022831;
+  color: white;
+  border: 1px solid #dde1e2;
+}
+
+.dataReportContainer table tr td a {
+  color: rgb(1, 95, 236);
+  text-decoration: none;
+}
+
+.dataReportContainer table tr {
+  padding: 0 12px;
+}
+.dataReportContainer table tbody tr:nth-of-type(even) {
+  background-color: #e3f2f8;
 }
 
 .bicleanerScores h2 {
@@ -286,13 +306,10 @@
   align-items: center;
   margin-bottom: 10px;
 }
-.helpCircle {
-  margin-left: 4px;
-  margin-bottom: -5px;
-}
+.helpCircle,
 .helpCircleSmall {
-  margin-left: 2px;
-  margin-bottom: -4px;
+  margin-left: 5px;
+  margin-bottom: -8px;
 }
 
 .langDocsContainer {

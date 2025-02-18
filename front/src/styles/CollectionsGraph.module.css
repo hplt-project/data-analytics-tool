@@ -26,6 +26,10 @@
   font-weight: 600;
   margin-bottom: 12px;
 }
+.twoColumns {
+  display: grid;
+  grid-template-columns: repeat(2, 2fr);
+}
 
 .perc {
   margin-top: 5px;

@@ -37,20 +37,18 @@ function BilingualTable({ list, type }) {
                   {/* {el.src_domain.freq} |{" "} */}
                   {el.src_domain.perc.toFixed(1)}%
                 </td>
-                <td>
-                  {type === "domains" && (
-                    <td>
-                      <Link
-                        href={`http://www.${el.trg_domain.token}`}
-                        target="_blank"
-                        className={styles.domainLink}
-                      >
-                        {el.trg_domain.token}
-                      </Link>
-                    </td>
-                  )}
-                  {type === "TLDs" && <td>{el.trg_domain.token}</td>}
-                </td>
+                {type === "domains" && (
+                  <td>
+                    <Link
+                      href={`http://www.${el.trg_domain.token}`}
+                      target="_blank"
+                      className={styles.domainLink}
+                    >
+                      {el.trg_domain.token}
+                    </Link>
+                  </td>
+                )}
+                {type === "TLDs" && <td>{el.trg_domain.token}</td>}
                 <td>
                   {/* {el.trg_domain.freq} |{" "} */}
                   {el.trg_domain.perc.toFixed(1)}%

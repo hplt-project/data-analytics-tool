@@ -22,6 +22,7 @@
 .nGramsTableContainer table tbody tr td {
   padding: 8px 9px 0px 9px;
   border: 0.06px solid rgb(222, 232, 255);
+  background-color: white !important;
 }
 .nunberHeader {
   width: 30px;
