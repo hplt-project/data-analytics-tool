@@ -1,9 +1,9 @@
 import React, { useState } from "react";
 import { useForm } from "react-hook-form";
 import axios from "axios";
-import Footer from "../../components/Footer";
+import Footer from "@/components/Footer";
 import { CheckSquare2, Copy, XCircle } from "lucide-react";
-import Navbar from "../../components/Navbar";
+import Navbar from "@/components/Navbar";
 import { languagePairName } from "../../hooks/hooks";
 import CopyToClipboard from "react-copy-to-clipboard";
 import { DropdownList } from "react-widgets/cjs";
