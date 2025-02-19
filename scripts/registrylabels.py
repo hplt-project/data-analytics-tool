@@ -149,5 +149,6 @@ if True: #tremenda ñapa
             
         print(" =============== YOU SHOULD NOT BE READING THIS ====================")
         print(json_line)
-        
-print(classes)        
+
+
+print("register_labels: \'" + json.dumps(classes)+"\'")
