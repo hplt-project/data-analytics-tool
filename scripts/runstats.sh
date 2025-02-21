@@ -167,10 +167,10 @@ if [ "$langformat" == "parallel" ]; then
     	elif [ "$format" == "tmx" ]; then
     		# Get the directory path and filename without extension
     		echo "Converting to TSV..."
-	        dir_path=$(dirname "$saved_file_path")
-	        filename=$(basename "$saved_file_path" .tmx)
+	        #dir_path=$(dirname "$saved_file_path")
+	        #filename=$(basename "$saved_file_path" .tmx)
 	        # Create the new file path with the "tsv" extension
-	        tsv_file_path="$dir_path/$filename.tsv"
+	        tsv_file_path=$saved_file_path.tsv
 	        python3 ./tmxt/tmxt.py --codelist=$srclang,$trglang $saved_file_path $tsv_file_path
 	elif [ "$format" == "tsv" ]; then
         	    tsv_file_path=$saved_file_path #if the input file is in tsv format
@@ -179,9 +179,9 @@ if [ "$langformat" == "parallel" ]; then
 		exit 1
         fi
        	# Save into two separate files
-       	rm -f $saved_file_path.$srclang
-       	rm -f $saved_file_path.$trglang
-       	awk -F '\t' -v file1=$saved_file_path.$srclang -v file2=$saved_file_path.$trglang '{print $1 >> file1; print $2 >> file2}' $tsv_file_path
+       	rm -f $tsv_file_path.$srclang
+       	rm -f $tsv_file_path.$trglang
+       	awk -F '\t' -v file1=$tsv_file_path.$srclang -v file2=$tsv_file_path.$trglang '{print $1 >> file1; print $2 >> file2}' $tsv_file_path
        	#cat  $tsv_file_path | awk -F '\t' -v file1=$saved_file_path.$srclang  -v file2=$saved_file_path.$trglang '{print $1 >> file1; print $2 >> file2}
         #time parallel -j $JOBS -k cut -f1 $tsv_file_path > $saved_file_path.$srclang
         #echo "CUT"
@@ -194,19 +194,19 @@ if [ "$langformat" == "parallel" ]; then
 		if [ "$is_reversed" = true ]; then
 			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2  --tcol 1 - - --metadata $bicleaner_metadata > $saved_file_path.hardrules 
 		else
-			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_metadata > $saved_file_path.hardrules
+			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_metadata > $tsv_file_path.hardrules
 		fi
 	elif [ "$bicleaner_ai_metadata" ]; then
 		echo "Running Bicleaner Hardrules..."
 		if [ "$is_reversed" = true ]; then
-			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2 --tcol 1 - - --metadata $bicleaner_ai_metadata > $saved_file_path.hardrules
+			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2 --tcol 1 - - --metadata $bicleaner_ai_metadata > $tsv_file_path.hardrules
 		else
-			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_ai_metadata > $saved_file_path.hardrules
+			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_ai_metadata > $tsv_file_path.hardrules
 		fi
 	else
 		#echo "Language pair not supported by Bicleaner Hardrules"
 		echo "Running Bicleaner Hardrules..."
-		cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --disable_lm_filter --disable_porn_removal --run_all_rules -p $JOBS -s $srclang -t $trglang  > $saved_file_path.hardrules
+		cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --disable_lm_filter --disable_porn_removal --run_all_rules -p $JOBS -s $srclang -t $trglang  > $tsv_file_path.hardrules
     	fi
     	deactivate
     	
@@ -221,9 +221,9 @@ if [ "$langformat" == "parallel" ]; then
 		python3 ./scripts/force-fasttext-download.py $srclang
 	        python3 ./scripts/force-fasttext-download.py $trglang	    	
 	    	if [ "$is_reversed" = true ]; then
-			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-classify -p $JOBS --score_only --scol 2 --tcol 1 --disable_hardrules - - $bicleaner_metadata > $saved_file_path.classify
+			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-classify -p $JOBS --score_only --scol 2 --tcol 1 --disable_hardrules - - $bicleaner_metadata > $tsv_file_path.classify
 	    	else
-			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-classify -p $JOBS --score_only --scol 1 --tcol 2 --disable_hardrules - - $bicleaner_metadata > $saved_file_path.classify
+			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-classify -p $JOBS --score_only --scol 1 --tcol 2 --disable_hardrules - - $bicleaner_metadata > $tsv_file_path.classify
 		fi
 		metadata_file="-y "$bicleaner_metadata
 		deactivate
@@ -234,9 +234,9 @@ if [ "$langformat" == "parallel" ]; then
 		python3 ./scripts/force-fasttext-download.py $srclang
 	        python3 ./scripts/force-fasttext-download.py $trglang		
 		if [ "$is_reversed" = true ]; then
-			cat $tsv_file_path | BICLEANER_AI_THREADS=$JOBS  /work/preprocess/build/bin/cache -k 1,2 bicleaner-ai-classify --score_only --scol 2 --tcol 1 --disable_hardrules - - $bicleaner_ai_metadata > $saved_file_path.classify
+			cat $tsv_file_path | BICLEANER_AI_THREADS=$JOBS  /work/preprocess/build/bin/cache -k 1,2 bicleaner-ai-classify --score_only --scol 2 --tcol 1 --disable_hardrules - - $bicleaner_ai_metadata > $tsv_file_path.classify
 		else	
-			cat $tsv_file_path | BICLEANER_AI_THREADS=$JOBS   /work/preprocess/build/bin/cache -k 1,2 bicleaner-ai-classify --score_only --scol 1 --tcol 2 --disable_hardrules - - $bicleaner_ai_metadata > $saved_file_path.classify
+			cat $tsv_file_path | BICLEANER_AI_THREADS=$JOBS   /work/preprocess/build/bin/cache -k 1,2 bicleaner-ai-classify --score_only --scol 1 --tcol 2 --disable_hardrules - - $bicleaner_ai_metadata > $tsv_file_path.classify
 		fi
 		metadata_file="-y "$bicleaner_ai_metadata
 		deactivate
@@ -249,11 +249,11 @@ if [ "$langformat" == "parallel" ]; then
 	python3 ./scripts/force-fasttext-download.py $srclang
         python3 ./scripts/force-fasttext-download.py $trglang	
 	echo "Running FastSpell..."
-	./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $saved_file_path.$srclang.langids 1 
-	./scripts/parallel-fastspell.sh $JOBS $trglang $tsv_file_path $saved_file_path.$trglang.langids 2
+	./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.$srclang.langids 1 
+	./scripts/parallel-fastspell.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2
 	
-	cat $saved_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $saved_file_path.$srclang.langcounts
-	cat $saved_file_path.$trglang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $saved_file_path.$trglang.langcounts
+	cat $tsv_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$srclang.langcounts
+	cat $tsv_file_path.$trglang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$trglang.langcounts
 
 
     	#Stats from readcorpus

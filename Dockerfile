@@ -14,6 +14,7 @@ RUN mkdir -p /work/scripts/
 RUN mkdir -p /work/scripts/resources/
 RUN mkdir -p /work/uploaded_corpora/  
 RUN mkdir -p /work/yaml_dir/
+RUN mkdir -p /work/tests/
 
 RUN mkdir -p /work/venvs/
 
@@ -68,7 +69,7 @@ RUN . /work/venvs/venv-bc/bin/activate && \
     python3.10 -m pip install -U wheel && \
     python3.10 -m pip install -U setuptools && \
     python3.10 -m pip install --config-settings="--build-option=--max_order=7" https://github.com/kpu/kenlm/archive/master.zip && \    
-    python3.10 -m pip install bicleaner==0.17.2 && deactivate
+    python3.10 -m pip install bicleaner==0.17.2 && python3.10 -m pip install numpy==1.26.4 && deactivate
 
 RUN . /work/venvs/venv-bcai/bin/activate && \
     python3.10 -m pip install -U pip  && \
@@ -107,6 +108,7 @@ COPY favicon.ico /work/
 COPY img/ /work/img/
 COPY server.py /work/
 COPY scripts/ /work/scripts/
+COPY tests/ /work/tests/
 
 RUN cd /work/web-docs-scorer && git checkout tags/1.0.0 && python3.10 -m pip install .
 RUN cd /work && cd etnltk && python3.10 -m pip install .
