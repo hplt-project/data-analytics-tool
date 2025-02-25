@@ -491,3 +491,4 @@ src_ngrams: '{"1": [[["\u098f\u0987"], 600173], [["\u0995\u09f0\u09be"], 514063]
   \u09b8\u09f0\u09cd\u09ac\u09aa\u09cd\u09f0\u09a5\u09ae news18 \u0985\u09b8\u09ae\u09c0\u09af\u09bc\u09be\u09a4"],
   8891], [["\u0985\u09b8\u09ae\u09c0\u09af\u09bc\u09be \u09a8\u09bf\u0989\u099c \u09f1\u09c7\u09ac\u099b\u09be\u0987\u099f
   news18 \u0985\u09b8\u09ae\u09c0\u09af\u09bc\u09be"], 8891]]}'
+register_labels: '{"MT":796,"LY_other":1966,"SP_other":328,"SP_it":317,"ID_other":103,"NA_other":8213,"NA_ne":104420,"NA_sr":4276,"NA_nb":5580,"HI_other":484,"HI_re":399,"IP_other":1280,"IP_ds":704,"IP_ed":0,"IN_other":9466,"IN_en":11509,"IN_ra":0,"IN_dtp":4460,"IN_fi":0,"IN_lt":119,"OP_other":4199,"OP_rv":627,"OP_ob":1581,"OP_rs":1576,"OP_av":536,"MIX":1458,"UNK":12108}'

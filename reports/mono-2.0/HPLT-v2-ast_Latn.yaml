@@ -599,3 +599,4 @@ timestamp: 1727391934.9103742
 unique_sents: 3418322
 warnings:
 - src_warning_tok_moses_es
+register_labels: '{"MT":4916,"LY_other":734,"SP_other":125,"SP_it":606,"ID_other":1106,"NA_other":7713,"NA_ne":23364,"NA_sr":2472,"NA_nb":9100,"HI_other":1061,"HI_re":98,"IP_other":8637,"IP_ds":22652,"IP_ed":0,"IN_other":17449,"IN_en":136188,"IN_ra":16,"IN_dtp":14355,"IN_fi":3,"IN_lt":227,"OP_other":1097,"OP_rv":748,"OP_ob":5106,"OP_rs":240,"OP_av":1,"MIX":2980,"UNK":17159}'
