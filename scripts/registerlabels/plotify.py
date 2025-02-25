@@ -20,7 +20,7 @@ def get_subregister(reg):
 
 
 def fullname(reg):
-    if reg == "MT": return "Machine-translated)"
+    if reg == "MT": return "Machine-translated"
     if reg == "LY": return "Lyrical"
     if reg == "SP": return "Spoken"
     if reg == "it": return "Interview (SP_it)"
@@ -56,7 +56,7 @@ for lang in langs:
     raw_labels_file = raw_labels_dir + lang
     clean_labels_file = clean_labels_dir + lang + ".jsonl"
     
-    #raw and clean labels could be managed sequentially, kept zipped because of legacy reasons
+    #raw and clean labels could be handled sequentially, kept zipped because of legacy reasons
     with open(raw_labels_file, "r") as raw_labels, open(clean_labels_file, "r") as clean_labels:
         raw_labels_yaml = yaml.safe_load(raw_labels)
         clean_labels_yaml = yaml.safe_load(clean_labels)
@@ -108,7 +108,7 @@ fig = px.bar(joint_df, x="register", y="percent", color="subregister", title="HP
 fig.for_each_annotation(lambda a: a.update(text=a.text.split("=")[1])) #Display nicer titles
 fig.update_xaxes(matches=None, showticklabels=True) #Display X axes labels on all facets
 fig.update_yaxes(matches=None, showticklabels=True, range=[0,100]) #Display fixed Y axes labels on all facets
-fig.update_traces(textposition='inside', hovertemplate = "Registry:%{customdata[0]} <br>Subregister: %{customdata[1]} </br>Documents: %{customdata[2]} <br>") #custom hover info
+fig.update_traces(textposition='inside', hovertemplate = "Registry: %{customdata[0]} <br>Subregister: %{customdata[1]} </br>Documents: %{customdata[2]} <br>") #custom hover info
 
 fig.show(height=20000)
 fig.write_html("registerlabels-plots.html")
