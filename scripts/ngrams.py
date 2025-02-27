@@ -77,9 +77,9 @@ TXT_STOPWORDS_LANGS =  ["ab", "ace", "als", "as", "ast", "ayr", "awa", "azb", "b
 TXT_STOPWORDS_MAPS = {"khk": "mn", "abk": "ab", "bak": "ba", "bel": "be", "bam": "bm", "aym": "ayr", "bod": "bo", "bos": "bo",
                         "cnr": "me", "cos": "co", "cym": "cy", "dzo": "dz", "ewe": "ee", "fij": "fj", "fao": "fo", "ful": "fuv",
                         "gla": "gd", "grn": "gn", "hau": "ha", "hat": "ht", "ibo": "ig", "isl": "is", "jav": "jv", "kat": "ka",
-                        "kik": "ki", "kon": "kg", "khm": "km", "kan": "kn", "kas": "ks", "kir": "ky", "lit": "lt", "ltz": "lb", "lug": "lg"
+                        "kik": "ki", "kon": "kg", "khm": "km", "kan": "kn", "kas": "ks", "kir": "ky", "lit": "lt", "ltz": "lb", "lug": "lg",
                         "lim": "li", "lin": "li", "mri": "mi", "mkd": "mk", "mal": "ml", "khk": "mn", "mlt": "mt", "mya": "my",
-                        "nya": "ny", "oci": "oc", "pan": "pa", "pbt": "ps", "run": "rn", "kin": "rw", "san": "sa", "srd": "sc"
+                        "nya": "ny", "oci": "oc", "pan": "pa", "pbt": "ps", "run": "rn", "kin": "rw", "san": "sa", "srd": "sc",
                         "snd": "sd", "sag": "sg", "sin": "si", "smo": "sm", "sna": "sn", "als": "sq", "srp": "sr", "ssw": "ss",
                         "sot": "st", "sun": "su", "tam": "ta", "tel": "te", "tuk": "tk", "tsn": "tn", "tso": "ts", "tat": "tt",
                         "twi": "tw", "uig": "ug", "uzn": "uz", "wol": "wo", "xho": "xh", "yor": "yo"}

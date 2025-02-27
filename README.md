@@ -15,16 +15,18 @@ Icon: https://thenounproject.com/icon/fingerprint-3530285/
 * sudo docker-compose build
 * sudo docker-compose up
 
-URLS to upload and view a dataset: 
+URLs to upload and view a dataset: 
 * Uploader: localhost:8000/uploader
 * Viewer: localhost:8000/viewer
 
 If you need to access docker to run stuff inside:
 * sudo docker exec -it dat-webapp /bin/bash
 
-Code and data are located in `/work`
+Code and data are located in `/work`. Yaml files served in the frontend must be placed in `/work/yaml_dir/`.
 
 ## Generating stats
+
+### General case
 
 Aside from uploading from the webapp interface, the `runstats.sh` (located in  `/work/scripts/`) can be used for generating stats, running it with parameters as follows:
 ```
@@ -46,8 +48,8 @@ The stats generated with this tool come in a handy yaml format with the followin
 
 - `bicleaner_scores`: Distribution of segments pairs with certain [Bicleaner AI](https://github.com/bitextor/bicleaner-ai) scores (only for parallel corpora)
 - `corpus`: Corpus filename
-- `docs_avg_lm`: Distribution of documents having a certain [Monocleaner](https://github.com/bitextor/monocleaner) average fluency score, of its segments (only for monolingual documents)
-- `docs_collections`: Distribution of documents per origin collection (only for monoligual documents)
+- `docs_collections`: Distribution of documents per origin collection (only for monoligual documents and HPT parallel datasets)
+- `collections`: Distribution of segments per origin collection (only for HPLT parallel datasets)
 - `docs_langs`: Distribution of documents having a certain percentage of its segments in the declared document language (only for monolingual documents)
 - `docs_segments`: Distribution of documents having a certain amount of segments (only for monolingual documents)
 - `docs_segments_mean`: Mean value of `docs_segments` (only for monolingual documents)
@@ -75,6 +77,8 @@ The stats generated with this tool come in a handy yaml format with the followin
 - `src_sent_tokens_mean`: Mean value of `src_sent_tokens` (not computed in monolingual lite stats mode)
 - `src_sent_tokens_median`: Median value of `src_sent_tokens` (not computed in monolingual lite stats mode)
 - `src_tokens`: Total amount of tokens in source segments (not computed in monolingual lite stats mode)
+- `src_top100_domains`: 100 most common domains in source segments, and the amount of segments for each one (only for HPLT parallel corpora)
+- `src_top100_tld`: 100 most common top level domains in source segments (not including subdomains), and the amount of segments for each one (only for HPLT parallel corpora)
 - `src_unique_sents`: Distribution of source segments having a certain amount of tokens, after removing duplicated segments (not computed in monolingual lite stats mode)
 - `timestamp`: Unix timestamp indicating when were the stats obtained.
 - `trg_bytes`: Total size of target segments, uncompressed (only for parallel corpora)
@@ -85,15 +89,17 @@ The stats generated with this tool come in a handy yaml format with the followin
 - `trg_sent_tokens_mean`: Mean value of `trg_sent_tokens` (only for parallel corpora)
 - `trg_sent_tokens_median`: Median value of `trg_sent_tokens` (only for parallel corpora)
 - `trg_tokens`: Total amount of tokens in target segments (only for parallel corpora)
+- `trg_top100_domains`: 100 most common domains in target segments, and the amount of segments for each one (only for HPLT parallel corpora)
+- `trg_top100_tld`: 100 most common top level domains in target segments (not including subdomains), and the amount of segments for each one (only for HPLT parallel corpora)
 - `trg_unique_sents`: Distribution of target segments having a certain amount of tokens, after removing duplicated segments (only for parallel corpora)
-- `ttr_src`: [Type-Token Ratio](https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf) of the source segments (not computed in monolingual lite stats mode)
-- `ttr_trg`: [Type-Token Ratio](https://www.sltinfo.com/wp-content/uploads/2014/01/type-token-ratio.pdf) of the target segments (only for parallel corpora)
 - `unique_sents`: Total amount of segments (for monolingual corpora) or segment pairs (for parallel corpora), after removing duplicated segments or segment pairs (not computed in monolingual lite stats mode)
 - `warnings`: List of issues encountered while processing the corpus.
   - `src_warning_tok_xxx_yyy`: The source language is not supported by a dedicated tokenizer, so it fallbacks to the xxx tokenizer with the yyy language (only for parallel corpora).
   - `trg_warning_tok_xxx_yyy`: Same as the above but for the target language (only for parallel corpora).
   - `ngrams_xxx_nostopwords`: No stopwords available for the xxx language (the language being processed)
   - `ngrams_xxx_freq`: The stopwords used for the xxx language were simply obtained by frequency (top 1% of the corpus)
+  - `src_fastspell`: The source language is not supported by FastSpell.
+  - `trg_fastspell`: The target language is not supported by FastSpell (only for parallel corpora).
 
 ## Viewer : 
 
@@ -106,25 +112,24 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
 - Volumes
   - Documents (only for monolingual documents)
   - Segments
-  - Unique segments (not computed in monolingual lite stats mode)
-  - Size in tokens (not computed in monolingual lite stats mode)
-  - File size
-- Type Token Ratio
-  - Lexical variation indicator. The ratio is obtained by dividing the total number of different words (called types) by the total number of words (called tokens). The higher, the better as high TTR indicates a high degree of lexical variation while low TTR indicates the opposite (not computed in monolingual lite stats mode)
-- Top 10 domains (excluding subdomains) (only for monolingual documents)
-- Top 10 TLDs (only for monolingual documents)
+  - Unique segments (only for monolingual, not computed in monolingual lite stats mode)
+  - Size in tokens (not computed in monolingual lite stats mode), of source (monolingual), or source and target (parallel)
+  - Size in characters, of source (monolingual), or source and target (parallel)
+  - File size, of source (monolingual), or source and target (parallel)
+- Top 10 domains (excluding subdomains) (when available), of source (monolingual), or source and target (parallel)
+- Top 10 TLDs (when available), of source (monolingual), or source and target (parallel)
 - Document size (in segments). Histogram showing the distribution of document sizes (only for monolingual documents)
-- Documents by collection (only for monolingual documents)
+- Translation likelihood: Histogram showing the distribution of sentence pairs having a certain bicleaner score (tool that computes the likelihood of two sentences of being mutual translations) (only for parallel corpora)
+- Collections (parallel) / Documents by collection (monolingual) (when available)
 - Language distribution.
-    - Number of segments: Shows percentage of automatically identified languages.
+    - Number of segments: Shows percentage of automatically identified languages in source (monolingual) or source and target (parallel).
     - Percentage of segments in the declared languge, inside documents (only for monolingual documents)
-- Quality Score distribution: Histogram showing the distribution of segments (monolingual) or sentence pairs (parallel) having a certain language model score (monolingual) or bicleaner score (tool that computes the likelihood of two sentences of being mutual translations)
-- Quality Score average distribution: Histogram displaying the distribution of the average fluency score of segments in documents (only for monolingual documents)
 - Document Score distribution: Histogram showing the distribution of Document Score (only for monolingual documents)
-- Segment length distribution: tokens per segment for each language, showing total, unique and duplicate segments or segment pairs (not computed in monolingual lite stats mode)
+- Segment length distribution: Histogram showing the distribution of tokens per segment in source (monolingual) or source and target (parallel), showing total, unique and duplicate segments or segment pairs (not computed in monolingual lite stats mode)
 - Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences being URLs, bad encoding, sentences containing poor language, etc.). (not computed in monolingual lite stats mode)
 - Frequent n-grams: 1-5 more frequent n-grams (not computed in monolingual lite stats mode)
 
+We also display samples for some of the datasets. These are currently obtained out of the HPLTAnalytics tool and all the storage and the logic of which sample must be displayed is currently happening in Javascript. Further versions of HPLTAnalytics will properly handle this.
 
 # Output examples: 
 

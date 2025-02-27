@@ -740,3 +740,4 @@ unique_sents: 0
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fastspell
+register_labels: '{"MT":1842341,"LY_other":2260900,"SP_other":285422,"SP_it":480091,"ID_other":2409170,"NA_other":3432428,"NA_ne":24431647,"NA_sr":2302090,"NA_nb":3188631,"HI_other":1418915,"HI_re":736787,"IP_other":1748648,"IP_ds":11007201,"IP_ed":0,"IN_other":5222101,"IN_en":736570,"IN_ra":250627,"IN_dtp":2923017,"IN_fi":5740,"IN_lt":329182,"OP_other":2346498,"OP_rv":752708,"OP_ob":1427768,"OP_rs":2340339,"OP_av":1457986,"MIX":2074383,"UNK":16930136}'

@@ -192,12 +192,13 @@ def main():
     stats["trglang"] = args.trglang
     
     
-    if args.corpus.name.endswith(".tsv"):
-        filename = re.sub("\.tsv$", "", args.corpus.name)
+    #if args.corpus.name.endswith(".tsv"):
+    #    filename = re.sub("\.tsv$", "", args.corpus.name)
         
-        #filename=args.corpus.name.replace(".tsv","")
-    else:
-        filename=args.corpus.name
+    #else:
+    #    filename=args.corpus.name
+    filename = args.corpus.name
+    
     src_file=open(filename+"."+args.srclang,"r").read().splitlines()
     trg_file=open(filename+"."+args.trglang,"r").read().splitlines()
 

@@ -451,3 +451,4 @@ unique_sents: 0
 warnings:
 - src_warning_tok_moses_lv
 - src_fastspell
+register_labels: '{"MT":583921,"LY_other":5834,"SP_other":17829,"SP_it":32059,"ID_other":194341,"NA_other":241451,"NA_ne":1161435,"NA_sr":196646,"NA_nb":314349,"HI_other":106436,"HI_re":75679,"IP_other":234961,"IP_ds":1553176,"IP_ed":0,"IN_other":525029,"IN_en":265588,"IN_ra":2895,"IN_dtp":321265,"IN_fi":461,"IN_lt":127263,"OP_other":74665,"OP_rv":61820,"OP_ob":67649,"OP_rs":74300,"OP_av":64081,"MIX":296963,"UNK":755459}'
