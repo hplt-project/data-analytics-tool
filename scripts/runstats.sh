@@ -163,7 +163,7 @@ if [ "$langformat" == "parallel" ]; then
 	if [ "$format" == "bitext" ]; then
 		echo "Converting to TSV..."		
         	tsv_file_path=$saved_file_path.tsv        	
-	        parallel -j $JOBS paste $saved_file_path.$srclang  $saved_file_path.$trglang > $tsv_file_path
+	        parallel -k  -j $JOBS paste ::: $saved_file_path.$srclang ::: $saved_file_path.$trglang > $tsv_file_path
     	elif [ "$format" == "tmx" ]; then
     		# Get the directory path and filename without extension
     		echo "Converting to TSV..."
