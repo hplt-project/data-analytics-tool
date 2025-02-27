@@ -183,15 +183,13 @@ export default function RegisterLabels({ labels }) {
     },
   ];
 
-  console.log(groupedLabelsTotal, "GROUPING");
-
   return (
     <div className={styles.registerLabelsGraph}>
       <ResponsiveContainer width="100%" height="100%">
         <PieChart width={400} height={400}>
           <Pie
             label={renderCustomizedLabel}
-            data={groupedLabelsTotal}
+            data={cleanTotalLabels}
             dataKey="value"
             cx="50%"
             cy="50%"
