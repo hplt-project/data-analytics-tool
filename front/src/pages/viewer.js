@@ -50,12 +50,14 @@ export default function Home({ fileNames }) {
                     : ""}
                 </span>
                 <div className={styles.tagsContainer}>
-                  {item.raw && <span className={styles.rawPill}>raw</span>}
+                  {/* {item.raw && <span className={styles.rawPill}>raw</span>} */}
                   <span
                     className={
                       item.collection === "fineweb"
                         ? styles.finewebPill
-                        : styles.hpltPill
+                        : item.collection === "hplt"
+                        ? styles.hpltPill
+                        : ""
                     }
                   >
                     {item.collection}
@@ -112,19 +114,20 @@ export async function getServerSideProps() {
 
     const collectionName = el.toLowerCase().includes("fineweb")
       ? "fineweb"
-      : "hplt";
+      : el.toLowerCase().includes("hplt")
+      ? "hplt"
+      : "";
 
-    const rawState =
-      !el.toLowerCase().includes("fineweb") &&
-      !el.toLowerCase().includes("hplt")
-        ? true
-        : false;
+    // const rawState =
+    //   !el.toLowerCase().includes("fineweb") &&
+    //   !el.toLowerCase().includes("hplt")
+    //     ? true
+    //     : false;
 
     return {
       originalName: el,
       language: languageName,
       collection: collectionName,
-      raw: rawState,
     };
   });
 

@@ -32,6 +32,7 @@ import Loader from "./Loader";
 import ReportTitle from "./ReportTitle";
 import BilingualTable from "./BilingualTable";
 import BilingualSample from "./BilingualSample";
+import RegisterLabels from "@/components/RegisterLabels";
 
 import buttonStyles from "@/styles/Uploader.module.css";
 import styles from "@/styles/DataAnalyticsReport.module.css";
@@ -552,6 +553,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
     ? numberFormatter(reportData.trg_tokens)
     : "";
 
+  const registerLabels = reportData.register_labels
+    ? JSON.parse(reportData.register_labels)
+    : "";
+
   useEffect(() => {
     if (footNote) {
       exportMultipleChartsToPdf(filename, offLoading);
@@ -845,6 +850,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
           </div>
         </div>
       </div>
+      {/* {registerLabels && (
+        <div className="custom-chart">
+          <RegisterLabels labels={registerLabels} />
+        </div>
+      )} */}
       {docsSegmentsTop && (
         <div className="custom-chart">
           <div className={styles.langDocsContainer}>

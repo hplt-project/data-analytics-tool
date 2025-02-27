@@ -255,8 +255,8 @@
 .button-32,
 .cmd button {
   appearance: button;
-  background-color: #022831;
-  border: 1px solid #022831;
+  background-color: #2c3452;
+  border: 1px solid #2c3452;
   border-radius: 4px;
   box-sizing: border-box;
   color: #ffffff;
@@ -286,7 +286,7 @@
 .button-27,
 .cmd button {
   background-color: transparent;
-  color: #022831;
+  color: #2c3452;
 }
 
 .button-28 {

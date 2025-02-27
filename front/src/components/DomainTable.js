@@ -25,7 +25,9 @@ function DomainTable({ topDomains, type }) {
                     target="_blank"
                     className={styles.domainLink}
                   >
-                    {doc.token}
+                    {doc.token.length > 18
+                      ? `${doc.token.slice(0, 15)}...`
+                      : doc.token}
                   </a>
                 </td>
                 <td>{doc.freq}</td>

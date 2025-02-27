@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Lato", sans-serif;
+  font-family: "Roboto", sans-serif;
   transition: all 0.25s;
 }
 
@@ -159,4 +159,3 @@
   width: 200px;
   line-height: 1.2;
 }
-
