@@ -850,11 +850,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
           </div>
         </div>
       </div>
-      {/* {registerLabels && (
+      {registerLabels && (
         <div className="custom-chart">
           <RegisterLabels labels={registerLabels} />
         </div>
-      )} */}
+      )}
       {docsSegmentsTop && (
         <div className="custom-chart">
           <div className={styles.langDocsContainer}>
