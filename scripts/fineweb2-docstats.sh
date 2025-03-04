@@ -12,6 +12,12 @@ else
         NOCACHEFLAG=""
 fi
 
+if [[ $* == *--lite* ]]
+then
+        LITEFLAG="--lite"
+else
+        LITEFLAG=""
+fi
 
 echo "Reading documents..."
 date
@@ -42,7 +48,7 @@ deactivate
 
 echo "Reading corpus..."
 date
-python3.10 /work/scripts/readcorpus_mono.py /work/uploaded_corpora/fineweb2-"$L3".tsv /work/yaml_dir/fineweb2-"$L3".yaml $L2 --debug
+python3.10 /work/scripts/readcorpus_mono.py /work/uploaded_corpora/fineweb2-"$L3".tsv /work/yaml_dir/fineweb2-"$L3".yaml $L2 --debug $LITEFLAG 
 
 rm -f  uploaded_corpora/fineweb2-$L3.tsv.ngrams
 
