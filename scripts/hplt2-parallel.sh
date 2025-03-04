@@ -13,7 +13,6 @@ else
         NOCACHEFLAG=""
 fi
 
-
 #all language are paired with EN in this release
 bicleaner_ai_langs_en=(ar bg ca cs da de el es et eu fi fr ga gl hbs he hi hu is it ja lt lv mk mt nb nl nn pl pt ro sk sl sq sv sw tr uk vi zh sr bs hr me)
 hbs_langs=(hr sr bs me)

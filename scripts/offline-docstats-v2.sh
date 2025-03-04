@@ -12,6 +12,13 @@ else
 	NOCACHEFLAG=""
 fi
 
+if [[ $* == *--lite* ]]
+then
+        LITEFLAG="--lite"
+else
+        LITEFLAG=""
+fi
+
 
 #echo "Reading documents..."
 zstdcat /work/uploaded_corpora/$L3*.jsonl.zst | python3.10 /work/scripts/readdocuments.py - /work/uploaded_corpora/HPLT-v2-"$L3".tsv /work/yaml_dir/HPLT-v2-"$L3".lite.yaml $L2 #--langs /work/uploaded_corpora/HPLT-v2-$L3.tsv.$L2 
@@ -34,4 +41,4 @@ fi
 deactivate
 date
 echo "Reading corpus..."
-python3.10 /work/scripts/readcorpus_mono.py /work/uploaded_corpora/HPLT-v2-"$L3".tsv /work/yaml_dir/HPLT-v2-"$L3".lite.yaml $L2 --lite --debug
+python3.10 /work/scripts/readcorpus_mono.py /work/uploaded_corpora/HPLT-v2-"$L3".tsv /work/yaml_dir/HPLT-v2-"$L3".lite.yaml $L2 $LITEFLAG --debug
