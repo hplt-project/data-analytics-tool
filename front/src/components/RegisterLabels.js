@@ -11,30 +11,45 @@ import {
   CartesianGrid,
 } from "recharts";
 import styles from "@/styles/RegisterLabels.module.css";
-import { randDarkColor } from "../../hooks/hooks";
 import { DataFormatter } from "../../hooks/hooks";
 
 export default function RegisterLabels({ labels }) {
-  const colors = [
-    "#29054a",
-    "#2f4850",
-    "#004040",
-    "#7a0000",
-    "#D302f2e",
-    "#5d5109",
-    "#2c482c",
-    "#1b336b",
-    "#576c0f",
-    "#655649",
-    "#161449",
-    "#555c33",
-    "#7b645a",
-    "#3f4448",
-    "#440f5f",
-    "#226F54",
-    "#FF9B42",
-    "#0FA3B1",
-  ];
+  const colors = {
+    LY: "#161515",
+    LY_other: "#3C3A3A",
+    SP: "#009C5B",
+    SP_it: "#008E63",
+    SP_other: "#1E7555",
+    ID: "#6FB750",
+    ID_other: "#74A455",
+    NA: "#FEF12D",
+    NA_nb: "#D7CD4C",
+    NA_ne: "#AFA545",
+    NA_other: "#959042",
+    NA_sr: "#808043",
+    HI: "#E9A13E",
+    HI_other: "#B38442",
+    HI_re: "#A17D48",
+    IP: "#00A19C",
+    IP_ds: "#00938F",
+    IP_ed: "#027575",
+    IP_other: "#006A67",
+    IN: "#D7373D",
+    IN_dtp: "#E46564",
+    IN_en: "#E57A72",
+    IN_fi: "#BC444B",
+    IN_lt: "#953F41",
+    IN_other: "#803132",
+    IN_ra: "#732F2E",
+    OP: "#583B7C",
+    OP_av: "#6E4D89",
+    OP_ob: "#5C4473",
+    OP_other: "#493A5B",
+    OP_rs: "#3C2E4D",
+    OP_rv: "#392B45",
+    MIX: "#933D81",
+    UNK: "#F1683A",
+  };
 
   const groupedLabels = Object.entries(labels).reduce((acc, [name, value]) => {
     const langCode = name.split("_")[0];
@@ -47,16 +62,18 @@ export default function RegisterLabels({ labels }) {
     return acc;
   }, {});
 
-  const groupedLabelsTotal = Object.entries(groupedLabels).map((el, idx) => {
-    const summedValues = el[1].reduce((acc, cur) => acc + cur.value, 0);
+  const groupedLabelsTotal = Object.entries(groupedLabels)
+    .filter((el) => el[0] !== "MT")
+    .map((el, idx) => {
+      const summedValues = el[1].reduce((acc, cur) => acc + cur.value, 0);
 
-    return { name: el[0], value: summedValues, fill: colors[idx] };
-  });
+      return { name: el[0], value: summedValues, fill: colors[el[0]] };
+    });
 
   groupedLabelsTotal.sort((a, b) => b.value - a.value);
 
-  const mtLabels = groupedLabelsTotal.filter(
-    (el) => el.name.toLocaleLowerCase() === "mt"
+  const mtLabels = Object.entries(groupedLabels).filter(
+    (el) => el[0].toLocaleLowerCase() === "mt"
   );
 
   const cleanTotalLabels = groupedLabelsTotal.filter(
@@ -90,6 +107,7 @@ export default function RegisterLabels({ labels }) {
         barsArrayTest.push({
           key: key,
           value: (value / groupedLabelsSum) * 100,
+          fill: colors[key],
         });
       });
   });
@@ -99,7 +117,7 @@ export default function RegisterLabels({ labels }) {
       dataKey={`${item.key}`}
       percent={item.value}
       stackId="a"
-      fill={randDarkColor()}
+      fill={item.fill}
     />
   );
 
@@ -183,14 +201,14 @@ export default function RegisterLabels({ labels }) {
             />
           </PieChart>
         </ResponsiveContainer>
-        <ResponsiveContainer width={"100%"} height={400}>
+        <ResponsiveContainer width={"100%"} height={380}>
           <BarChart
             data={groupedLabelsTotalBarChart}
             margin={{
-              top: 20,
-              right: 30,
-              left: 0,
-              bottom: 5,
+              top: 32,
+              right: 20,
+              left: 10,
+              bottom: 25,
             }}
             style={{ stroke: "#fff", strokeWidth: 1 }}
             legendType="circle"
@@ -215,6 +233,7 @@ export default function RegisterLabels({ labels }) {
                 return renderBar(key);
               })}
           </BarChart>
+          {/* <p>MT: {mtLabels[1][0].value}</p> */}
         </ResponsiveContainer>
       </div>
     </>
