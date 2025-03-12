@@ -26,7 +26,7 @@ Code and data are located in `/work`. Yaml files served in the frontend must be 
 
 ## Generating stats
 
-### General case
+### General case: runstats.sh
 
 Aside from uploading from the webapp interface, the `runstats.sh` (located in  `/work/scripts/`) can be used for generating stats, running it with parameters as follows:
 ```
@@ -41,6 +41,15 @@ Being:
 * LANGUAGE_FORMAT: Currently accepted values are `parallel` and `mono`.
 
 Even though is not possible to run it by default, it's easy to adapt the scripts to generate only "lite" stats (this is, skipping those that are computationally heavy-weighted: ngrams, duplicates...). This mode is useful when processing huge corpora (currently only monolingual is supported).  In order to generate the lite stats, modify the call to `readcorpus_mono.py` in `runstats.sh` so it includes the `--lite` flag.
+
+### Other scripts
+
+Within the `scripts/` folder there are other scripts that can build stats in other specific cases:
+* `offline-docstats-v2.sh`: Generates stats for a [HPLT v2](https://hplt-project.org/datasets/v2.) monolingual dataset that must be already located in `/work/uploaded_corpora/` in `.jsonl.zst` format. It takes two positional arguments, the language code (i.e. `en`) and the identifier of the  dataset (i.e. `eng_Latn`). Optionally (for large datasets that do not fit in memory) , the `--nocache` and/or `--lite` flags can be used.
+* `hplt2-parallel.sh`: Generates stats for parallel [HPLT v2](https://hplt-project.org/datasets/v2.0) datasets. Positional parameters are the path to the dataset in TMX format (compressed), the source language and the target language. Optionally (for large datasets that do not fit in memory) , the `--nocache` flag can be used.
+* `fineweb2-docstats.sh` : Generates stats for [FineWeb2](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2), streaming the data from  HuggingFace. Positional parameters are language code (i.e. `en`) and FineWeb2 subset (i.e. `eng_Latn`).  Optionally (for large datasets that do not fit in memory) , the `--nocache` and/or `--lite` flags can be used.
+* `litedocstats.sh`: Downloads a [HPLT v1.2](https://hplt-project.org/datasets/v1.2) monolingual dataset and generates its lite stats. The only positional parameters is the 2-letter language code.
+
 
 ## Current info in the generated yaml files: 
 
