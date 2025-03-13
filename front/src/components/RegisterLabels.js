@@ -70,7 +70,11 @@ export default function RegisterLabels({ labels }) {
       return { name: el[0], value: summedValues, fill: colors[el[0]] };
     });
 
-  groupedLabelsTotal.sort((a, b) => b.value - a.value);
+  groupedLabelsTotal.sort(function (a, b) {
+    var textA = a.name.toUpperCase();
+    var textB = b.name.toUpperCase();
+    return textA < textB ? -1 : textA > textB ? 1 : 0;
+  });
 
   const mtLabels = Object.entries(groupedLabels).filter(
     (el) => el[0].toLowerCase() === "mt"
@@ -252,13 +256,47 @@ export default function RegisterLabels({ labels }) {
                       : labelEquivalences[item.name]
                   }:  ${numberFormatter(item.value)}`}
                 </p>
-                {item.payload.perc && (
-                  <p
-                    key={idx}
-                    className={styles.perc}
-                    style={{ color: item.fill }}
-                  >{`% of total:   ${item.payload.perc} %`}</p>
-                )}
+              </div>
+            );
+          })}
+        </div>
+      );
+    }
+  };
+
+  const CustomTooltipGroup = ({ active, payload, label }) => {
+    if (active && payload && payload.length) {
+      return (
+        <div className={styles.tooltip}>
+          <p className={styles.label}>{labelEquivalences[label]}</p>
+          {payload.map((item, idx) => {
+            return (
+              <div style={{ marginTop: "4px", marginBottom: "4px" }}>
+                <p
+                  key={idx}
+                  className={styles.desc}
+                  style={{
+                    color: "#222222",
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <div
+                    style={{
+                      height: "20px",
+                      display: "inline-block",
+                      width: "20px",
+                      backgroundColor: item.payload.fill,
+                      marginRight: "4px",
+                    }}
+                  ></div>
+                  {`${
+                    item.name.includes("other")
+                      ? "Other"
+                      : labelEquivalences[item.name]
+                  }:  ${numberFormatter(item.value)} | `}
+                  {((item.value / groupedLabelsSum) * 100).toFixed(2)}%
+                </p>
               </div>
             );
           })}
@@ -282,7 +320,7 @@ export default function RegisterLabels({ labels }) {
           alignItems: "flex-start",
         }}
       >
-        <ResponsiveContainer width={850} height={380}>
+        <ResponsiveContainer width={820} height={380}>
           <PieChart>
             <Pie
               data={groupedLabelsTotal}
@@ -295,7 +333,7 @@ export default function RegisterLabels({ labels }) {
               cx={"33%"}
               outerRadius={200}
             />
-            <Tooltip />
+            <Tooltip content={<CustomTooltipGroup />} />
             <Legend
               layout="vertical"
               verticalAlign="middle"
@@ -306,13 +344,13 @@ export default function RegisterLabels({ labels }) {
                   <span
                     className={styles.legendText}
                     style={{
-                      marginBottom: "5px",
-                      marginTop: "5px",
+                      marginBottom: "4px",
+                      marginTop: "4px",
                       display: "inline-block",
                       color: "#404376",
                     }}
                   >{`${value} - ${(entry.payload.percent * 100).toFixed(
-                    2
+                    1
                   )}%`}</span>
                 );
               }}
@@ -370,11 +408,12 @@ export default function RegisterLabels({ labels }) {
             style={{
               display: "flex",
               alignItems: "center",
-              marginTop: "-25px",
+              marginTop: "-45px",
             }}
           >
-            🤖 MT:{" "}
-            {((mtLabels[0][1][0].value / groupedLabelsSum) * 100).toFixed(1)}%{" "}
+            🤖{" "}
+            <span style={{ fontWeight: "bolder", marginLeft: "5px" }}> MT</span>
+            :{((mtLabels[0][1][0].value / groupedLabelsSum) * 100).toFixed(1)}%{" "}
             <span
               style={{
                 display: "inline-block",
