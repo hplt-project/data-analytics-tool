@@ -1,6 +1,4 @@
 .legendListStacked {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
   list-style-type: none;
   width: fit-content;
   margin-left: 30px;
@@ -8,4 +6,21 @@
 
 .legendListStacked li {
   margin: 3px 16px 7px 0;
+}
+.tooltip {
+  background-color: white;
+  border: solid 1px rgb(199, 199, 199);
+  padding: 15px 35px 15px 15px;
+  border-radius: 5px;
+}
+
+.label {
+  font-weight: 600;
+  margin-bottom: 12px;
+}
+
+.perc {
+  margin-top: 5px;
+  margin-bottom: 7px;
+  font-weight: 600;
 }

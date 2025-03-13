@@ -9,10 +9,9 @@ import {
   XAxis,
   YAxis,
   CartesianGrid,
-  Label,
 } from "recharts";
 import styles from "@/styles/RegisterLabels.module.css";
-import { DataFormatter } from "../../hooks/hooks";
+import { DataFormatter, numberFormatter } from "../../hooks/hooks";
 
 export default function RegisterLabels({ labels }) {
   const colors = {
@@ -97,6 +96,12 @@ export default function RegisterLabels({ labels }) {
       return result;
     });
 
+  groupedLabelsTotalBarChart.sort(function (a, b) {
+    var textA = a.name.toUpperCase();
+    var textB = b.name.toUpperCase();
+    return textA < textB ? -1 : textA > textB ? 1 : 0;
+  });
+
   let barsArrayTest = [];
 
   groupedLabelsTotalBarChart.forEach((date) => {
@@ -125,33 +130,141 @@ export default function RegisterLabels({ labels }) {
   const renderLegend = (props) => {
     const { payload } = props;
 
-    return (
-      <ul className={styles.legendListStacked}>
-        {payload.map((entry, index) => {
-          const color = entry.color;
+    const firstColumn = payload.slice(0, payload.length / 2);
+    const secondColumn = payload.slice(payload.length / 2, payload.length);
 
-          return (
-            <li
-              key={`item-${index}`}
-              style={{
-                display: "flex",
-                alignItems: "center",
-              }}
-            >
-              <div
+    return (
+      <div style={{ display: "flex" }}>
+        <ul className={styles.legendListStacked}>
+          {firstColumn.map((entry, index) => {
+            const color = entry.color;
+
+            return (
+              <li
+                key={`item-${index}`}
                 style={{
-                  backgroundColor: color,
-                  width: "12px",
-                  height: "12px",
-                  marginRight: "4px",
+                  display: "flex",
+                  alignItems: "center",
                 }}
-              ></div>
-              {`${entry.value} - ${entry.payload.percent.toFixed(1)}%`}
-            </li>
-          );
-        })}
-      </ul>
+              >
+                <div
+                  style={{
+                    backgroundColor: color,
+                    width: "12px",
+                    height: "12px",
+                    marginRight: "4px",
+                    borderRadius: "2px",
+                  }}
+                ></div>
+                {`${entry.value} - ${entry.payload.percent.toFixed(1)}%`}
+              </li>
+            );
+          })}
+        </ul>
+        <ul className={styles.legendListStacked}>
+          {secondColumn.map((entry, index) => {
+            const color = entry.color;
+
+            return (
+              <li
+                key={`item-${index}`}
+                style={{
+                  display: "flex",
+                  alignItems: "center",
+                }}
+              >
+                <div
+                  style={{
+                    backgroundColor: color,
+                    width: "12px",
+                    height: "12px",
+                    marginRight: "4px",
+                    borderRadius: "2px",
+                  }}
+                ></div>
+                {`${entry.value} - ${entry.payload.percent.toFixed(1)}%`}
+              </li>
+            );
+          })}
+        </ul>
+      </div>
     );
+  };
+
+  const labelEquivalences = {
+    MT: "Machine-translated",
+    LY: "Lyrical",
+    SP: "Spoken",
+    SP_it: "Interview",
+    ID: "Interactive discussion",
+    NA: "Narrative",
+    NA_ne: "News report",
+    NA_sr: "Sports report",
+    NA_nb: "Narrative blog",
+    HI: "How-to or instructions",
+    HI_re: "Recipe",
+    IP: "Informational persuasion",
+    IP_ds: "Description with intent to sell",
+    IP_ed: "News & opinion blog or editorial",
+    IN: "Informational description",
+    IN_en: "Encyclopedia article",
+    IN_ra: "Research article",
+    IN_dtp: "Description of a thing or person",
+    IN_fi: "FAQ",
+    IN_lt: "Legal terms & conditions",
+    OP: "Opinion",
+    OP_rv: "Review",
+    OP_ob: "Opinion blog",
+    OP_rs: "Denominational  religious blog or sermon",
+    OP_av: "Advice",
+    UNK: "Not identified",
+    MIX: "Mixed",
+  };
+
+  const CustomTooltip = ({ active, payload, label }) => {
+    if (active && payload && payload.length) {
+      return (
+        <div className={styles.tooltip}>
+          <p className={styles.label}>{labelEquivalences[label]}</p>
+          {payload.map((item, idx) => {
+            return (
+              <div style={{ marginTop: "4px", marginBottom: "4px" }}>
+                <p
+                  key={idx}
+                  className={styles.desc}
+                  style={{
+                    color: "#222222",
+                    display: "flex",
+                    alignItems: "center",
+                  }}
+                >
+                  <div
+                    style={{
+                      height: "12px",
+                      width: "12px",
+                      backgroundColor: item.fill,
+                      marginRight: "4px",
+                    }}
+                  ></div>
+                  {`${
+                    item.name.includes("other")
+                      ? "Other"
+                      : labelEquivalences[item.name]
+                  }:  ${numberFormatter(item.value)}`}
+                </p>
+                {item.payload.perc && (
+                  <p
+                    key={idx}
+                    className={styles.perc}
+                    style={{ color: item.fill }}
+                  >{`% of total:   ${item.payload.perc} %`}</p>
+                )}
+              </div>
+            );
+          })}
+        </div>
+      );
+    }
   };
 
   return (
@@ -215,7 +328,6 @@ export default function RegisterLabels({ labels }) {
               left: 10,
               bottom: 25,
             }}
-            // style={{ stroke: "#fff", strokeWidth: 1 }}
             legendType="circle"
           >
             <CartesianGrid strokeDasharray="3 3" />
@@ -230,7 +342,10 @@ export default function RegisterLabels({ labels }) {
                 fontSize: 14,
               }}
             />
-            <Tooltip />
+            <Tooltip
+              content={<CustomTooltip />}
+              wrapperStyle={{ outline: "none" }}
+            />
             <Legend
               content={renderLegend}
               layout="vertical"
@@ -255,19 +370,10 @@ export default function RegisterLabels({ labels }) {
             style={{
               display: "flex",
               alignItems: "center",
-              marginTop: "-15px",
+              marginTop: "-25px",
             }}
           >
-            <span
-              style={{
-                display: "inline-block",
-                height: "14px",
-                width: "14px",
-                backgroundColor: "#000068",
-                marginRight: "10px",
-              }}
-            ></span>
-            MT:{" "}
+            🤖 MT:{" "}
             {((mtLabels[0][1][0].value / groupedLabelsSum) * 100).toFixed(1)}%{" "}
             <span
               style={{
@@ -279,7 +385,7 @@ export default function RegisterLabels({ labels }) {
             >
               |
             </span>
-            {mtLabels[0][1][0].value} Documents
+            {numberFormatter(mtLabels[0][1][0].value)} Documents
           </div>
         )}
       </p>
