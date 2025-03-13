@@ -9,6 +9,7 @@ import {
   XAxis,
   YAxis,
   CartesianGrid,
+  Label,
 } from "recharts";
 import styles from "@/styles/RegisterLabels.module.css";
 import { DataFormatter } from "../../hooks/hooks";
@@ -73,7 +74,7 @@ export default function RegisterLabels({ labels }) {
   groupedLabelsTotal.sort((a, b) => b.value - a.value);
 
   const mtLabels = Object.entries(groupedLabels).filter(
-    (el) => el[0].toLocaleLowerCase() === "mt"
+    (el) => el[0].toLowerCase() === "mt"
   );
 
   const cleanTotalLabels = groupedLabelsTotal.filter(
@@ -154,18 +155,21 @@ export default function RegisterLabels({ labels }) {
   };
 
   return (
-    <>
+    <div
+      style={{
+        marginBottom: "50px",
+      }}
+    >
       <h2>Register labels</h2>
       <div
         style={{
           width: "100%",
-          height: "455px",
+          height: "405px",
           display: "flex",
           alignItems: "flex-start",
-          marginBottom: "30px",
         }}
       >
-        <ResponsiveContainer width={850} height={400}>
+        <ResponsiveContainer width={850} height={380}>
           <PieChart>
             <Pie
               data={groupedLabelsTotal}
@@ -192,6 +196,7 @@ export default function RegisterLabels({ labels }) {
                       marginBottom: "5px",
                       marginTop: "5px",
                       display: "inline-block",
+                      color: "#404376",
                     }}
                   >{`${value} - ${(entry.payload.percent * 100).toFixed(
                     2
@@ -205,17 +210,26 @@ export default function RegisterLabels({ labels }) {
           <BarChart
             data={groupedLabelsTotalBarChart}
             margin={{
-              top: 32,
+              top: 42,
               right: 20,
               left: 10,
               bottom: 25,
             }}
-            style={{ stroke: "#fff", strokeWidth: 1 }}
+            // style={{ stroke: "#fff", strokeWidth: 1 }}
             legendType="circle"
           >
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="name" />
-            <YAxis tickFormatter={DataFormatter} />
+            <YAxis
+              tickFormatter={DataFormatter}
+              label={{
+                value: "Documents",
+                angle: 0,
+                position: "top",
+                offset: 22,
+                fontSize: 14,
+              }}
+            />
             <Tooltip />
             <Legend
               content={renderLegend}
@@ -233,9 +247,42 @@ export default function RegisterLabels({ labels }) {
                 return renderBar(key);
               })}
           </BarChart>
-          {/* <p>MT: {mtLabels[1][0].value}</p> */}
         </ResponsiveContainer>
       </div>
-    </>
+      <p>
+        {mtLabels.length > 0 && (
+          <div
+            style={{
+              display: "flex",
+              alignItems: "center",
+              marginTop: "-15px",
+            }}
+          >
+            <span
+              style={{
+                display: "inline-block",
+                height: "14px",
+                width: "14px",
+                backgroundColor: "#000068",
+                marginRight: "10px",
+              }}
+            ></span>
+            MT:{" "}
+            {((mtLabels[0][1][0].value / groupedLabelsSum) * 100).toFixed(1)}%{" "}
+            <span
+              style={{
+                display: "inline-block",
+                fontWeight: "800",
+                marginLeft: "5px",
+                marginRight: "5px",
+              }}
+            >
+              |
+            </span>
+            {mtLabels[0][1][0].value} Documents
+          </div>
+        )}
+      </p>
+    </div>
   );
 }
