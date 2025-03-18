@@ -748,6 +748,16 @@ export default function DataAnalyticsReport({ reportData, date }) {
                         <td className={styles.desktopData}>
                           <p className={styles.desktopNum}>
                             {uniqueSegments.toLocaleString("en-US")}
+                            {uniqueSegments && sentences && (
+                              <span className={styles.percSpan}>
+                                {" ("}
+                                {(
+                                  (reportData.unique_sents * 100) /
+                                  reportData.sentence_pairs
+                                ).toFixed(2)}{" "}
+                                %)
+                              </span>
+                            )}
                           </p>
                           <p className={styles.mobileNum}>
                             {numberFormatter(+uniqueSegments)}
