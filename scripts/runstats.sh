@@ -28,6 +28,11 @@ monocleaner_langs=(ab af am ar as  az ba be bg bh bn bo br bs ca ceb chr cnr co 
 
 hbs_langs=(hr sr bs me)
 
+#https://github.com/facebookresearch/fairseq/tree/main/examples/xlmr#introduction
+registerlabels_langs=(af sq am ar hy as az eu be bn bs br bg my ca zh hr cs da nl en eo et tl fi fr gl ka de el gu ha he hi hu is id ga it ja jv \
+	kn kk km ko ku ky lo la lv lt mk mg ms ml mr mn ne no nn nb or om ps fa pl pt pa ro ru sa gd sr sd si sk sl so es su sw sv ta te th tr uk ur ug uz vi cy fy xh yi)
+	
+
 mkdir -p $datapath
 
 # Check if its monolingual or bilingual corpus
@@ -250,11 +255,9 @@ if [ "$langformat" == "parallel" ]; then
         python3 ./scripts/force-fasttext-download.py $trglang	
 	echo "Running FastSpell..."
 	./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.$srclang.langids 1 
-	./scripts/parallel-fastspell.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2
-	
+	./scripts/parallel-fastspell.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2	
 	cat $tsv_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$srclang.langcounts
 	cat $tsv_file_path.$trglang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$trglang.langcounts
-
 
     	#Stats from readcorpus
     	#mkdir -p profiling
@@ -319,6 +322,16 @@ elif [ "$langformat" == "mono" ]; then
 
 		#zstdcat $saved_file_path | jq -r .text > $tsv_file_path #sentences, splitted by /n		
 		
+		
+		#Register labels
+	        if [[ " ${registerlabels_lang[*]} " =~ " $srclang " ]]; then
+	        	echo "Running register labels..."   	
+	        	
+	        else
+        		echo "Register labels not supported for $srclang"
+	        fi
+
+		
 
         else
                 echo "Unsupported format \"$format\""
@@ -370,6 +383,10 @@ elif [ "$langformat" == "mono" ]; then
 	#nyapa
         cp $saved_file_path.$srclang.langcounts $tsv_file_path.$srclang.langcounts	
 
+
+
+	
+	#Read corpus mono
 	#time python3 -m cProfile ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
 	echo "Running ReadCorpus Mono..."
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
