@@ -250,11 +250,10 @@ export default function RegisterLabels({ labels }) {
                       marginRight: "4px",
                     }}
                   ></div>
-                  {`${
-                    item.name.includes("other")
+                  {`${item.name.includes("other")
                       ? "Other"
                       : labelEquivalences[item.name]
-                  }:  ${numberFormatter(item.value)}`}
+                    }:  ${numberFormatter(item.value)}`}
                 </p>
               </div>
             );
@@ -290,11 +289,10 @@ export default function RegisterLabels({ labels }) {
                       marginRight: "4px",
                     }}
                   ></div>
-                  {`${
-                    item.name.includes("other")
+                  {`${item.name.includes("other")
                       ? "Other"
                       : labelEquivalences[item.name]
-                  }:  ${numberFormatter(item.value)} | `}
+                    }:  ${numberFormatter(item.value)} | `}
                   {((item.value / groupedLabelsSum) * 100).toFixed(2)}%
                 </p>
               </div>
@@ -311,7 +309,6 @@ export default function RegisterLabels({ labels }) {
         marginBottom: "50px",
       }}
     >
-      <h2>Register labels</h2>
       <div
         style={{
           width: "100%",
