@@ -11,8 +11,16 @@ langformat=$6
 JOBS=$(($(nproc)-2))
 JOBS=$(($JOBS>1 ? $JOBS : 1))
 
+if ! [ -x "$(command -v nvidia-smi)" ]; then
+	echo 'Warning: No GPUs detected..' >&2
+	GPUS=0
+else
+	GPUS=$(nvidia-smi --list-gpus | wc -l)
+	echo "$GPUS GPUs detected"
+fi
 
-for param in "$@"; do echo "$param"; done
+
+#for param in "$@"; do echo "$param"; done
 
 #bicleanermetadata=bicleaner/$srclang-$trglang/$srclang-$trglang.yaml
 #monocleanermetadata=monocleaner/$srclang/metadata.yaml
@@ -143,7 +151,7 @@ if [ "$langformat" == "parallel" ]; then
 	if [ "$bicleaner_metadata" ]; then
     		if [ -f "$bicleaner_metadata" ]; then
     			echo "Bicleaner model already downloaded."
-    		else
+    		else	
  			mkdir -p $datapath/bicleaner
         		echo "Downloading bicleaner model..."
 		        wget https://github.com/bitextor/bicleaner-data/releases/latest/download/$bc_srclang-$bc_trglang.tar.gz -O $datapath/bicleaner/tmp.$bc_srclang-$bc_trglang.tar.gz -q
@@ -289,8 +297,6 @@ if [ "$langformat" == "parallel" ]; then
         python3 ./scripts/addngrams.py $tsv_file_path.$srclang".ngrams"  $yaml_file_path "src"
         python3 ./scripts/addngrams.py $tsv_file_path.$trglang".ngrams"  $yaml_file_path "trg"
 
-
-
 elif [ "$langformat" == "mono" ]; then
 	rm -rf $yaml_file_path
 	if [ "$format" == "tmx" ]; then
@@ -324,14 +330,23 @@ elif [ "$langformat" == "mono" ]; then
 		
 		
 		#Register labels
-	        if [[ " ${registerlabels_lang[*]} " =~ " $srclang " ]]; then
+	        if [[ " ${registerlabels_langs[*]} " =~ " $srclang " ]]; then	        
+	        	source /work/venvs/venv-rl/bin/activate
 	        	echo "Running register labels..."   	
-	        	
+	        	if [ "$extension" == "zst" ]; then
+				zstdcat $saved_file_path | python3 ./scripts/registerlabels.py  > $saved_file_path.rl
+			else
+				cat $saved_file_path | python3 ./scripts/registerlabels.py  > $saved_file_path.rl
+			fi
+			deactivate
+	        	#./scripts/parallel-registerlabels.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2 
+		        cat $saved_file_path.rl | sort --parallel $JOBS | uniq -c | sort -nr  >  $saved_file_path.rlcounts
+		        #nyapa
+		        cp $saved_file_path.rlcounts $tsv_file_path.rlcounts
+		        
 	        else
         		echo "Register labels not supported for $srclang"
 	        fi
-
-		
 
         else
                 echo "Unsupported format \"$format\""

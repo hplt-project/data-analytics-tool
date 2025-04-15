@@ -1,6 +1,6 @@
 
 cd /work/uploaded_corpora/
-wget https://data.hplt-project.org/two/cleaned/mag_Deva/1.jsonl.zst -O mag_Deva.jsonl.zst
+wget https://data.hplt-project.org/two/cleaned/gla_Latn/1.jsonl.zst -O gla_Latn.jsonl.zst
 cd ..
-bash /work/scripts/runstats.sh uploaded_corpora/mag_Deva.jsonl.zst  yaml_dir/test.mag_Deva.yaml mag - docs mono
-rm uploaded_corpora/mag_Deva.*
+bash /work/scripts/runstats.sh uploaded_corpora/gla_Latn.jsonl.zst  yaml_dir/test.gla_Latn.yaml gd - docs mono
+rm uploaded_corpora/gla_Latn.*

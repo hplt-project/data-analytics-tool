@@ -308,12 +308,28 @@ def main():
             id_lang = lineparts[1].strip()
             count_lang = int(lineparts[0].strip())
             src_langs_list.append([id_lang, count_lang])
-    
-    
-   # for lang, freq in src_langs.most_common():
-   #     src_langs_list.append([lang, freq])
+       
+    # for lang, freq in src_langs.most_common():
+    #     src_langs_list.append([lang, freq])
     if len(src_langs_list) > 0:
         stats["src_langs"] = json.dumps(src_langs_list)
+   
+    #Register labels
+    rl_dict = {}
+    rl_file = filename+".rlcounts"
+
+    if not os.path.exists(rl_file):
+         logging.warning("Register labels file " + rl_file  + " not found")
+    else:
+        logging.debug("Reading register labels file")
+        for line in open(rl_file, "r"):
+            lineparts = line.split()
+            rl_id = lineparts[1].strip()
+            rl_count = int(lineparts[0].strip())
+            rl_dict[rl_id]=rl_count
+    if len(rl_dict) > 0:
+        stats["register_labels"] = json.dumps(rl_dict)
+
 
     # ngrams
     '''
