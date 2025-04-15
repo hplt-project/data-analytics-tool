@@ -22,6 +22,7 @@ RUN mkdir -p /work/venvs/
 
 COPY deployment/requirements.txt /work/deployment/requirements.txt
 COPY deployment/requirements-hf.txt /work/deployment/requirements-hf.txt
+COPY deployment/requirements-rl.txt /work/deployment/requirements-rl.txt
 
 RUN apt-get update && \
     apt-get install -y wget unzip joe gcc libboost-all-dev cmake && \ 
@@ -43,6 +44,7 @@ RUN python3.10 -m venv /work/venvs/venv-bc
 RUN python3.10 -m venv /work/venvs/venv-bcai
 RUN python3.10 -m venv /work/venvs/venv-bnlp
 RUN python3.10 -m venv /work/venvs/venv-hf
+RUN python3.10 -m venv /work/venvs/venv-rl
 
 RUN cd /work && git clone https://github.com/ZJaume/tmxt && git clone https://github.com/kpu/preprocess && cd
 RUN cd /work/preprocess &&  rm -fr build &&  mkdir build && cd build  && cmake .. && make && cd
@@ -96,6 +98,17 @@ RUN . /work/venvs/venv-hf/bin/activate && \
     python3.10 -m pip install -r /work/deployment/requirements-hf.txt && \
     cd /work && git clone https://github.com/pablop16n/web-docs-scorer && cd web-docs-scorer && git checkout tags/1.1.2 && python3.10 -m pip install . &&\
     cd /work && git clone -b openlid193 https://github.com/zjaume/heli-otr.git && cd heli-otr  && python3 -m  pip install .  && heli-convert 
+
+RUN . /work/venvs/venv-rl/bin/activate && \
+    python3.10 -m pip install -U pip  && \
+    python3.10 -m pip install -U wheel && \
+    python3.10 -m pip install -U setuptools && \
+    python3.10 -m pip install -r /work/deployment/requirements-rl.txt
+
+RUN . /work/venvs/venv-rl/bin/activate &&   huggingface-cli download TurkuNLP/web-register-classification-multilingual
+RUN . /work/venvs/venv-rl/bin/activate &&   huggingface-cli download FacebookAI/xlm-roberta-large
+
+
 
 RUN python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\
     python3.10 -m pip install -r /work/deployment/requirements.txt &&\

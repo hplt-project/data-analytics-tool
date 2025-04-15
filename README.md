@@ -77,6 +77,7 @@ The stats generated with this tool come in a handy yaml format with the followin
   -  `no_bad_encoding`: Percentage of bad encoded segments.
   -  `no_porn`: Percentage of segments having porn content (not available for all languages)
 - `monocleaner_scores`: Distribution of segments with a certain [Monocleaner](https://github.com/bitextor/monocleaner) score (only for monolingual corpora)
+- `register_labels`: Distribution of documents identified with a given web register by [web-register-classification-multilingual](https://huggingface.co/TurkuNLP/web-register-classification-multilingual) (only for monolingual documents)
 - `sentence_pairs`: Total amount of segments (in the case of monolingual corpora) or segment pairs (in the case of parallel corpora)
 - `src_bytes`: Total size of source segments, uncompressed.
 - `srclang`: Source language.
@@ -138,7 +139,7 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
 - Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences being URLs, bad encoding, sentences containing poor language, etc.). (not computed in monolingual lite stats mode)
 - Frequent n-grams: 1-5 more frequent n-grams (not computed in monolingual lite stats mode)
 
-We also display samples and register labels distribution for some of the datasets. These are currently obtained out of the HPLTAnalytics tool and all the storage and the logic of which sample/labels must be displayed is currently happening in Javascript. Further versions of HPLTAnalytics will properly handle this.
+We also display samples for some of the datasets. These are currently obtained out of the HPLTAnalytics tool and all the storage and the logic of which sample/labels must be displayed is currently happening in Javascript. Further versions of HPLTAnalytics will properly handle this.
 
 # Output examples: 
 

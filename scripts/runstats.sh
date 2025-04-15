@@ -11,8 +11,16 @@ langformat=$6
 JOBS=$(($(nproc)-2))
 JOBS=$(($JOBS>1 ? $JOBS : 1))
 
+if ! [ -x "$(command -v nvidia-smi)" ]; then
+	echo 'Warning: No GPUs detected..' >&2
+	GPUS=0
+else
+	GPUS=$(nvidia-smi --list-gpus | wc -l)
+	echo "$GPUS GPUs detected"
+fi
 
-for param in "$@"; do echo "$param"; done
+
+#for param in "$@"; do echo "$param"; done
 
 #bicleanermetadata=bicleaner/$srclang-$trglang/$srclang-$trglang.yaml
 #monocleanermetadata=monocleaner/$srclang/metadata.yaml
@@ -27,6 +35,11 @@ monocleaner_langs=(ab af am ar as  az ba be bg bh bn bo br bs ca ceb chr cnr co 
 	is it ja ka kk kn ko ky la lt lt lv mk ml mn mr ms mt my nb ne nl nn pa pl ps pt ro ru si sk sl so sq sr sv sw ta te th tl tr tt uk ur uz vi zh)
 
 hbs_langs=(hr sr bs me)
+
+#https://github.com/facebookresearch/fairseq/tree/main/examples/xlmr#introduction
+registerlabels_langs=(af sq am ar hy as az eu be bn bs br bg my ca zh hr cs da nl en eo et tl fi fr gl ka de el gu ha he hi hu is id ga it ja jv \
+	kn kk km ko ku ky lo la lv lt mk mg ms ml mr mn ne no nn nb or om ps fa pl pt pa ro ru sa gd sr sd si sk sl so es su sw sv ta te th tr uk ur ug uz vi cy fy xh yi)
+	
 
 mkdir -p $datapath
 
@@ -138,7 +151,7 @@ if [ "$langformat" == "parallel" ]; then
 	if [ "$bicleaner_metadata" ]; then
     		if [ -f "$bicleaner_metadata" ]; then
     			echo "Bicleaner model already downloaded."
-    		else
+    		else	
  			mkdir -p $datapath/bicleaner
         		echo "Downloading bicleaner model..."
 		        wget https://github.com/bitextor/bicleaner-data/releases/latest/download/$bc_srclang-$bc_trglang.tar.gz -O $datapath/bicleaner/tmp.$bc_srclang-$bc_trglang.tar.gz -q
@@ -250,11 +263,9 @@ if [ "$langformat" == "parallel" ]; then
         python3 ./scripts/force-fasttext-download.py $trglang	
 	echo "Running FastSpell..."
 	./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.$srclang.langids 1 
-	./scripts/parallel-fastspell.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2
-	
+	./scripts/parallel-fastspell.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2	
 	cat $tsv_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$srclang.langcounts
 	cat $tsv_file_path.$trglang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$trglang.langcounts
-
 
     	#Stats from readcorpus
     	#mkdir -p profiling
@@ -285,8 +296,6 @@ if [ "$langformat" == "parallel" ]; then
         done
         python3 ./scripts/addngrams.py $tsv_file_path.$srclang".ngrams"  $yaml_file_path "src"
         python3 ./scripts/addngrams.py $tsv_file_path.$trglang".ngrams"  $yaml_file_path "trg"
-
-
 
 elif [ "$langformat" == "mono" ]; then
 	rm -rf $yaml_file_path
@@ -319,6 +328,25 @@ elif [ "$langformat" == "mono" ]; then
 
 		#zstdcat $saved_file_path | jq -r .text > $tsv_file_path #sentences, splitted by /n		
 		
+		
+		#Register labels
+	        if [[ " ${registerlabels_langs[*]} " =~ " $srclang " ]]; then	        
+	        	source /work/venvs/venv-rl/bin/activate
+	        	echo "Running register labels..."   	
+	        	if [ "$extension" == "zst" ]; then
+				zstdcat $saved_file_path | python3 ./scripts/registerlabels.py  > $saved_file_path.rl
+			else
+				cat $saved_file_path | python3 ./scripts/registerlabels.py  > $saved_file_path.rl
+			fi
+			deactivate
+	        	#./scripts/parallel-registerlabels.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2 
+		        cat $saved_file_path.rl | sort --parallel $JOBS | uniq -c | sort -nr  >  $saved_file_path.rlcounts
+		        #nyapa
+		        cp $saved_file_path.rlcounts $tsv_file_path.rlcounts
+		        
+	        else
+        		echo "Register labels not supported for $srclang"
+	        fi
 
         else
                 echo "Unsupported format \"$format\""
@@ -370,6 +398,10 @@ elif [ "$langformat" == "mono" ]; then
 	#nyapa
         cp $saved_file_path.$srclang.langcounts $tsv_file_path.$srclang.langcounts	
 
+
+
+	
+	#Read corpus mono
 	#time python3 -m cProfile ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
 	echo "Running ReadCorpus Mono..."
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
