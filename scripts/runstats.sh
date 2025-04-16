@@ -11,6 +11,33 @@ langformat=$6
 JOBS=$(($(nproc)-2))
 JOBS=$(($JOBS>1 ? $JOBS : 1))
 
+
+if [[ $* == *--no-cache* ]]
+then
+        PARALLEL_CACHE_CMD=""
+        MONO_CACHE_CMD=""
+else
+        PARALLEL_CACHE_CMD="/work/preprocess/build/bin/cache -k 1,2 "
+	MONO_CACHE_CMD="/work/preprocess/build/bin/cache -k 1 "        
+fi
+
+if [[ $* == *--lite* ]]
+then
+        LITEFLAG="--lite"
+else
+        LITEFLAG=""
+fi
+
+if [[ $* == *--skip-register-labels* ]]
+then
+        SKIPRLFLAG=true
+else
+        SKIPRLFLAG=false
+fi
+
+
+
+
 if ! [ -x "$(command -v nvidia-smi)" ]; then
 	echo 'Warning: No GPUs detected..' >&2
 	GPUS=0
@@ -18,6 +45,7 @@ else
 	GPUS=$(nvidia-smi --list-gpus | wc -l)
 	echo "$GPUS GPUs detected"
 fi
+
 
 
 #for param in "$@"; do echo "$param"; done
@@ -36,10 +64,10 @@ monocleaner_langs=(ab af am ar as  az ba be bg bh bn bo br bs ca ceb chr cnr co 
 
 hbs_langs=(hr sr bs me)
 
-#https://github.com/facebookresearch/fairseq/tree/main/examples/xlmr#introduction
+
 registerlabels_langs=(af sq am ar hy as az eu be bn bs br bg my ca zh hr cs da nl en eo et tl fi fr gl ka de el gu ha he hi hu is id ga it ja jv \
 	kn kk km ko ku ky lo la lv lt mk mg ms ml mr mn ne no nn nb or om ps fa pl pt pa ro ru sa gd sr sd si sk sl so es su sw sv ta te th tr uk ur ug uz vi cy fy xh yi)
-	
+
 
 mkdir -p $datapath
 
@@ -141,7 +169,7 @@ if [ "$langformat" == "parallel" ]; then
                                 #es-src not supported by  any bicleaner
                                 echo "Unsupported language pair in Bicleaner/BicleanerAI"
                         fi
-                fi
+               	fi
         else
 		echo "Unsupported language pair in Bicleaner/BicleanerAI"	
 	fi
@@ -205,21 +233,21 @@ if [ "$langformat" == "parallel" ]; then
 	if [ "$bicleaner_metadata" ]; then
 		echo "Running Bicleaner Hardrules..."
 		if [ "$is_reversed" = true ]; then
-			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2  --tcol 1 - - --metadata $bicleaner_metadata > $saved_file_path.hardrules 
+			cat $tsv_file_path | $PARALLEL_CACHE_CMD  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2  --tcol 1 - - --metadata $bicleaner_metadata > $saved_file_path.hardrules 
 		else
-			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_metadata > $tsv_file_path.hardrules
+			cat $tsv_file_path | $PARALLEL_CACHE_CMD  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_metadata > $tsv_file_path.hardrules
 		fi
 	elif [ "$bicleaner_ai_metadata" ]; then
 		echo "Running Bicleaner Hardrules..."
 		if [ "$is_reversed" = true ]; then
-			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2 --tcol 1 - - --metadata $bicleaner_ai_metadata > $tsv_file_path.hardrules
+			cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2 --tcol 1 - - --metadata $bicleaner_ai_metadata > $tsv_file_path.hardrules
 		else
-			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_ai_metadata > $tsv_file_path.hardrules
+			cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_ai_metadata > $tsv_file_path.hardrules
 		fi
 	else
 		#echo "Language pair not supported by Bicleaner Hardrules"
 		echo "Running Bicleaner Hardrules..."
-		cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --disable_lm_filter --disable_porn_removal --run_all_rules -p $JOBS -s $srclang -t $trglang  > $tsv_file_path.hardrules
+		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --disable_lm_filter --disable_porn_removal --run_all_rules -p $JOBS -s $srclang -t $trglang  > $tsv_file_path.hardrules
     	fi
     	deactivate
     	
@@ -234,9 +262,9 @@ if [ "$langformat" == "parallel" ]; then
 		python3 ./scripts/force-fasttext-download.py $srclang
 	        python3 ./scripts/force-fasttext-download.py $trglang	    	
 	    	if [ "$is_reversed" = true ]; then
-			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-classify -p $JOBS --score_only --scol 2 --tcol 1 --disable_hardrules - - $bicleaner_metadata > $tsv_file_path.classify
+			cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-classify -p $JOBS --score_only --scol 2 --tcol 1 --disable_hardrules - - $bicleaner_metadata > $tsv_file_path.classify
 	    	else
-			cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1,2 bicleaner-classify -p $JOBS --score_only --scol 1 --tcol 2 --disable_hardrules - - $bicleaner_metadata > $tsv_file_path.classify
+			cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-classify -p $JOBS --score_only --scol 1 --tcol 2 --disable_hardrules - - $bicleaner_metadata > $tsv_file_path.classify
 		fi
 		metadata_file="-y "$bicleaner_metadata
 		deactivate
@@ -247,9 +275,9 @@ if [ "$langformat" == "parallel" ]; then
 		python3 ./scripts/force-fasttext-download.py $srclang
 	        python3 ./scripts/force-fasttext-download.py $trglang		
 		if [ "$is_reversed" = true ]; then
-			cat $tsv_file_path | BICLEANER_AI_THREADS=$JOBS  /work/preprocess/build/bin/cache -k 1,2 bicleaner-ai-classify --score_only --scol 2 --tcol 1 --disable_hardrules - - $bicleaner_ai_metadata > $tsv_file_path.classify
+			cat $tsv_file_path | BICLEANER_AI_THREADS=$JOBS $PARALLEL_CACHE_CMD bicleaner-ai-classify --score_only --scol 2 --tcol 1 --disable_hardrules - - $bicleaner_ai_metadata > $tsv_file_path.classify
 		else	
-			cat $tsv_file_path | BICLEANER_AI_THREADS=$JOBS   /work/preprocess/build/bin/cache -k 1,2 bicleaner-ai-classify --score_only --scol 1 --tcol 2 --disable_hardrules - - $bicleaner_ai_metadata > $tsv_file_path.classify
+			cat $tsv_file_path | BICLEANER_AI_THREADS=$JOBS $PARALLEL_CACHE_CMD bicleaner-ai-classify --score_only --scol 1 --tcol 2 --disable_hardrules - - $bicleaner_ai_metadata > $tsv_file_path.classify
 		fi
 		metadata_file="-y "$bicleaner_ai_metadata
 		deactivate
@@ -330,23 +358,27 @@ elif [ "$langformat" == "mono" ]; then
 		
 		
 		#Register labels
-	        if [[ " ${registerlabels_langs[*]} " =~ " $srclang " ]]; then	        
-	        	source /work/venvs/venv-rl/bin/activate
-	        	echo "Running register labels..."   	
-	        	if [ "$extension" == "zst" ]; then
-				zstdcat $saved_file_path | python3 ./scripts/registerlabels.py  > $saved_file_path.rl
-			else
-				cat $saved_file_path | python3 ./scripts/registerlabels.py  > $saved_file_path.rl
-			fi
-			deactivate
-	        	#./scripts/parallel-registerlabels.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2 
-		        cat $saved_file_path.rl | sort --parallel $JOBS | uniq -c | sort -nr  >  $saved_file_path.rlcounts
-		        #nyapa
-		        cp $saved_file_path.rlcounts $tsv_file_path.rlcounts
-		        
-	        else
-        		echo "Register labels not supported for $srclang"
-	        fi
+		if [ "$SKIPRLFLAG" = false ]; then		
+		        if [[ " ${registerlabels_langs[*]} " =~ " $srclang " ]]; then	        
+		        	source /work/venvs/venv-rl/bin/activate
+		        	echo "Running register labels..."   	
+		        	if [ "$extension" == "zst" ]; then
+					zstdcat $saved_file_path | python3 ./scripts/registerlabels.py  > $saved_file_path.rl
+				else
+					cat $saved_file_path | python3 ./scripts/registerlabels.py  > $saved_file_path.rl
+				fi
+				deactivate
+		        	#./scripts/parallel-registerlabels.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2 
+			        cat $saved_file_path.rl | sort --parallel $JOBS | uniq -c | sort -nr  >  $saved_file_path.rlcounts
+			        #nyapa
+			        cp $saved_file_path.rlcounts $tsv_file_path.rlcounts
+			        
+		        else
+        			echo "Register labels not supported for $srclang"
+		        fi
+		else
+			echo "Skipping register labels"
+		fi
 
         else
                 echo "Unsupported format \"$format\""
@@ -366,7 +398,8 @@ elif [ "$langformat" == "mono" ]; then
 	source /work/venvs/venv-mc/bin/activate
 	echo "Running Monocleaner  Hardrules..."
 	#./scripts/parallel-monohardrules.sh $JOBS $srclang $tsv_file_path $tsv_file_path.hardrules 		
-        cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1  parallel -k -j $JOBS --pipe monocleaner-hardrules --score_only --annotated_output --run_all_rules --disable_lang_ident  $srclang - - > $tsv_file_path.hardrules 2> hr.log
+	cat $tsv_file_path | $MONO_CACHE_CMD  parallel -k -j $JOBS --pipe monocleaner-hardrules --score_only --annotated_output --run_all_rules --disable_lang_ident  $srclang - - > $tsv_file_path.hardrules 2> hr.log
+
 
 
 	#if [ "$monocleaner_metadata" ]; then
@@ -407,7 +440,7 @@ elif [ "$langformat" == "mono" ]; then
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
                 source /work/venvs/venv-bnlp/bin/activate
         fi
-	python3 ./scripts/readcorpus_mono.py $tsv_file_path $yaml_file_path $srclang
+	python3 ./scripts/readcorpus_mono.py $tsv_file_path $yaml_file_path $srclang $LITEFLAG
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
 		deactivate
 	fi
