@@ -37,6 +37,15 @@ fi
 
 
 
+if [[ $* == *--debug* ]]
+then
+        DEBUGFLAG=true
+else
+        DEBUGFLAG=false
+fi
+
+
+
 
 if ! [ -x "$(command -v nvidia-smi)" ]; then
 	echo 'Warning: No GPUs detected..' >&2
@@ -70,6 +79,10 @@ registerlabels_langs=(af sq am ar hy as az eu be bn bs br bg my ca zh hr cs da n
 
 
 mkdir -p $datapath
+mkdir -p /work/transient
+workdir=$(mktemp -d /work/transient/XXXXXX)
+#filename=$(basename "$saved_file_path")
+echo WORKDIR:  $workdir
 
 # Check if its monolingual or bilingual corpus
 if [ "$langformat" == "parallel" ]; then    
@@ -203,18 +216,23 @@ if [ "$langformat" == "parallel" ]; then
 	# Check the format and preprocess the data
 	if [ "$format" == "bitext" ]; then
 		echo "Converting to TSV..."		
-        	tsv_file_path=$saved_file_path.tsv        	
+		filename=$(basename "$saved_file_path")
+        	tsv_file_path="$workdir/$filename.tsv"        	
 	        paste $saved_file_path.$srclang $saved_file_path.$trglang > $tsv_file_path
     	elif [ "$format" == "tmx" ]; then
     		# Get the directory path and filename without extension
     		echo "Converting to TSV..."
 	        #dir_path=$(dirname "$saved_file_path")
-	        #filename=$(basename "$saved_file_path" .tmx)
+	        filename=$(basename "$saved_file_path" .tmx)
 	        # Create the new file path with the "tsv" extension
-	        tsv_file_path=$saved_file_path.tsv
+	        tsv_file_path="$workdir/$filename.tsv"
 	        python3 ./tmxt/tmxt.py --codelist=$srclang,$trglang $saved_file_path $tsv_file_path
 	elif [ "$format" == "tsv" ]; then
-        	    tsv_file_path=$saved_file_path #if the input file is in tsv format
+        	    #tsv_file_path=$saved_file_path #if the input file is in tsv format
+        	    filename=$(basename "$saved_file_path")
+        	    cp $saved_file_path $workdir
+        	    tsv_file_path="$workdir/$filename"
+
 	else
 		echo "Unsupported format \"$format\""
 		exit 1
@@ -233,7 +251,7 @@ if [ "$langformat" == "parallel" ]; then
 	if [ "$bicleaner_metadata" ]; then
 		echo "Running Bicleaner Hardrules..."
 		if [ "$is_reversed" = true ]; then
-			cat $tsv_file_path | $PARALLEL_CACHE_CMD  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2  --tcol 1 - - --metadata $bicleaner_metadata > $saved_file_path.hardrules 
+			cat $tsv_file_path | $PARALLEL_CACHE_CMD  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2  --tcol 1 - - --metadata $bicleaner_metadata > $tsv_file_path.hardrules 
 		else
 			cat $tsv_file_path | $PARALLEL_CACHE_CMD  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_metadata > $tsv_file_path.hardrules
 		fi
@@ -333,10 +351,12 @@ elif [ "$langformat" == "mono" ]; then
                 dir_path=$(dirname "$saved_file_path")
                 filename=$(basename "$saved_file_path" .tmx)
                 # Create the new file path with the "tsv" extension
-                tsv_file_path="$dir_path/$filename.tsv"
+                tsv_file_path="$workdir/$filename.tsv"
                 python3 ./tmxt/tmxt.py --codelist=$srclang $saved_file_path $tsv_file_path
-        elif [ "$format" == "tsv" ]; then
-                tsv_file_path=$saved_file_path #if the input file is in tsv format
+        elif [ "$format" == "tsv" ]; then        		
+        	cp $saved_file_path $workdir
+		filename=$(basename "$saved_file_path" )
+                tsv_file_path="$workdir/$filename" #if the input file is in tsv format
 	elif [ "$format" == "docs" ]; then
 		echo "Extracting documents..."
                 # Get the directory path and filename without extension
@@ -347,7 +367,7 @@ elif [ "$langformat" == "mono" ]; then
 		filename=$(basename  "$original_filename" ."$extension")
 
                 # Create the new file path with the "tsv" extension                
-                tsv_file_path="$dir_path/$filename.tsv"
+                tsv_file_path="$workdir/$filename.tsv"
                 if [ "$extension" == "zst" ]; then
                 	zstdcat $saved_file_path | python3 ./scripts/readdocuments.py - $tsv_file_path $yaml_file_path $srclang
 		else
@@ -363,15 +383,15 @@ elif [ "$langformat" == "mono" ]; then
 		        	source /work/venvs/venv-rl/bin/activate
 		        	echo "Running register labels..."   	
 		        	if [ "$extension" == "zst" ]; then
-					zstdcat $saved_file_path | python3 ./scripts/registerlabels.py  > $saved_file_path.rl
+					zstdcat $saved_file_path | python3 ./scripts/registerlabels.py  > $tsv_file_path.rl
 				else
-					cat $saved_file_path | python3 ./scripts/registerlabels.py  > $saved_file_path.rl
+					cat $saved_file_path | python3 ./scripts/registerlabels.py  > $tsv_file_path.rl
 				fi
 				deactivate
 		        	#./scripts/parallel-registerlabels.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2 
-			        cat $saved_file_path.rl | sort --parallel $JOBS | uniq -c | sort -nr  >  $saved_file_path.rlcounts
+			        cat $tsv_file_path.rl | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.rlcounts
 			        #nyapa
-			        cp $saved_file_path.rlcounts $tsv_file_path.rlcounts
+			        #cp $saved_file_path.rlcounts $tsv_file_path.rlcounts
 			        
 		        else
         			echo "Register labels not supported for $srclang"
@@ -426,14 +446,12 @@ elif [ "$langformat" == "mono" ]; then
         echo "Running FastSpell..."
 	#Force Fasttext download, in case it does not exist in this environment, to avoid doing it in parallel
 	python3 /work/scripts/force-fasttext-download.py $srclang        
-        ./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $saved_file_path.$srclang.langids 1 
-        cat $saved_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $saved_file_path.$srclang.langcounts
+        ./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.$srclang.langids 1 
+        cat $tsv_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$srclang.langcounts
 	#nyapa
-        cp $saved_file_path.$srclang.langcounts $tsv_file_path.$srclang.langcounts	
+        #cp $tsv_file_path.$srclang.langcounts $tsv_file_path.$srclang.langcounts	
 
 
-
-	
 	#Read corpus mono
 	#time python3 -m cProfile ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
 	echo "Running ReadCorpus Mono..."
@@ -457,4 +475,8 @@ elif [ "$langformat" == "mono" ]; then
 else
 	echo "Unsupported langformat \"$langformat\""
 	exit 1
+fi
+
+if [ "$DEBUGFLAG" = false ]; then
+	rm -rf $workdir 
 fi
