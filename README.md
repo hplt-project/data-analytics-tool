@@ -30,7 +30,7 @@ Code and data are located in `/work`. Yaml files served in the frontend must be 
 
 Aside from uploading from the webapp interface, the `runstats.sh` (located in  `/work/scripts/`) can be used for generating stats, running it with parameters as follows:
 ```
-bash /work/scripts/runstats.sh {CORPUS_PATH} {YAML_FILENAME} {SOURCE_LANGUAGE} {TARGET_LANGUAGE} {FORMAT} {LANGUAGE_FORMAT} {--no-cache} {--lite} {--no-register-labels}
+bash /work/scripts/runstats.sh {CORPUS_PATH} {YAML_FILENAME} {SOURCE_LANGUAGE} {TARGET_LANGUAGE} {FORMAT} {LANGUAGE_FORMAT} {--no-cache} {--lite} {--no-register-labels} {--debug}
 ```
 Being:
 * CORPUS_PATH: The path to the corpus to be analyzed.
@@ -44,8 +44,9 @@ With the optional flags being:
 * `--no-register-labels`: Avoids obtaining Register Labels, that is a slow part of the pipeline. Recommended for large corpora or when not running on CPU.
 * `--lite`: Avoid computationally expensive stats in the `readcorpus` step: tokenizing, obtaining unique segments & duplicates, ngrams, .... This only affects monolingual processing, it's not currently supported for parallel corpora.
 * `--no-cache`: Avoids using [cache](https://github.com/kpu/preprocess). Use this flag for very large corpora, when you consider that your unique segments (non-duplicates) won't fit in memory. This will make some parts of the pipeline slower, but it will still be able to run. This flag alone does not skip any feature.
+* `--debug`: Don't remove the workdir after finishing the run ('/work/transient/XXXXXX/`)
 
-These flags affect to the performance of the pipeline. You probably wants to start with `--no-register-labels`, then add `--lite` , and finally add `--no-cache` if needed.
+The first three flags affect to the performance of the pipeline. You probably want to start with `--no-register-labels`, then add `--lite` , and finally add `--no-cache` if needed.
 
 
 ### Other scripts
