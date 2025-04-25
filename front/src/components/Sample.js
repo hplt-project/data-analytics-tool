@@ -1,4 +1,4 @@
-import { useState } from "react";
+import { useState, useRef } from "react";
 import { X, ArrowLeft, ArrowRight } from "lucide-react";
 import styles from "@/styles/Sample.module.css";
 
@@ -50,6 +50,11 @@ function Sample({ srclang, sample, setShowSample }) {
     "urd",
     "ydd",
   ];
+  const containerRef = useRef(null);
+
+  const scrollToTop = () => {
+    containerRef.current.scrollTop = 0;
+  };
 
   return (
     <div className={styles.blur}>
@@ -58,17 +63,20 @@ function Sample({ srclang, sample, setShowSample }) {
           <h2>Random samples from the {srclang && srclang[0].label} dataset</h2>
           <button
             className={styles.closeSampleBtn}
-            onClick={() => setShowSample(false)}
+            onClick={() => {
+              setShowSample(false)
+            }}
           >
             <X />
           </button>
         </div>
         <div
           className={
-            srclang && rtlLanguages.some((el) => el.includes(srclang[0].value))
+            srclang && rtlLanguages.some((el) => el === srclang[0].value)
               ? styles.sampleContentRTL
               : styles.sampleContent
           }
+          ref={containerRef}
           dangerouslySetInnerHTML={{
             __html: sample[1][currentSample - 1].replaceAll("\n", "<br/>"),
           }}
@@ -76,10 +84,12 @@ function Sample({ srclang, sample, setShowSample }) {
         <div className={styles.sampleButtons}>
           {currentSample > 1 && (
             <button
-              onClick={() =>
+              onClick={() => {
+                scrollToTop()
                 setCurrentSample((currentSample) =>
                   currentSample > 1 ? currentSample - 1 : currentSample
                 )
+              }
               }
             >
               <ArrowLeft />
@@ -91,12 +101,14 @@ function Sample({ srclang, sample, setShowSample }) {
           </p>
           {currentSample < sample[1].length && (
             <button
-              onClick={() =>
+              onClick={() => {
+                scrollToTop()
                 setCurrentSample((currentSample) =>
                   currentSample < sample[1].length
                     ? currentSample + 1
                     : currentSample
                 )
+              }
               }
             >
               <ArrowRight />
