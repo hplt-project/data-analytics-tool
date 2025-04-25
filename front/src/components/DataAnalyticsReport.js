@@ -567,6 +567,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const [showBilingualSample, setShowBilingualSample] = useState(false);
 
+
+  useEffect(() => {
+    document.body.style.overflow = showSample ? "hidden" : "unset";
+  }, [showSample]);
+
   return (
     <div className={styles.dataReportContainer}>
       {sample && <SampleButton setShowSample={setShowSample} />}
