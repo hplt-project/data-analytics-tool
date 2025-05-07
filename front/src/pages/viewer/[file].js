@@ -68,28 +68,28 @@ export default function Home({ fileNames }) {
             renderListItem={({ item }) => (
               <p className={styles.listItem}>
                 <strong>
-                  {item.language.length > 1
+                  {Array.isArray(item.language) && item.language.length > 1
                     ? `${item.language[0].label} - ${item.language[1].label}`
-                    : item.language[0].label}{" "}
+                    : item.originalName}{" "}
                 </strong>
                 <span className={styles.version}>
                   {item.originalName.includes("v1.1")
                     ? "Version 1.1"
                     : item.originalName.includes("v1.2")
-                    ? "Version 1.2"
-                    : item.originalName.includes("v2")
-                    ? "Version 2"
-                    : ""}
+                      ? "Version 1.2"
+                      : item.originalName.includes("v2")
+                        ? "Version 2"
+                        : ""}
                 </span>
                 <div className={styles.tagsContainer}>
-                  {/* {item.raw && <span className={styles.rawPill}>raw</span>} */}
+
                   <span
                     className={
                       item.collection === "fineweb"
                         ? styles.finewebPill
                         : item.collection === "hplt"
-                        ? styles.hpltPill
-                        : ""
+                          ? styles.hpltPill
+                          : ""
                     }
                   >
                     {item.collection}
@@ -165,19 +165,15 @@ export async function getServerSideProps() {
 
     const cleanName = replaceStringsCaseInsensitive(el, removalWords);
 
-    const languageName = languagePairName(cleanName.split("-"));
+    const languageName = cleanName.split("-").length > 2 ? cleanName : languagePairName(cleanName.split("-"));
 
     const collectionName = el.toLowerCase().includes("fineweb")
       ? "fineweb"
       : el.toLowerCase().includes("hplt")
-      ? "hplt"
-      : "";
+        ? "hplt"
+        : "";
 
-    // const rawState =
-    //   !el.toLowerCase().includes("fineweb") &&
-    //   !el.toLowerCase().includes("hplt")
-    //     ? true
-    //     : false;
+
 
     return {
       originalName: el,
