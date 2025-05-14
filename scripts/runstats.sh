@@ -35,16 +35,12 @@ else
         SKIPRLFLAG=false
 fi
 
-
-
 if [[ $* == *--debug* ]]
 then
         DEBUGFLAG=true
 else
         DEBUGFLAG=false
 fi
-
-
 
 
 if ! [ -x "$(command -v nvidia-smi)" ]; then
@@ -55,12 +51,6 @@ else
 	echo "$GPUS GPUs detected"
 fi
 
-
-
-#for param in "$@"; do echo "$param"; done
-
-#bicleanermetadata=bicleaner/$srclang-$trglang/$srclang-$trglang.yaml
-#monocleanermetadata=monocleaner/$srclang/metadata.yaml
 
 #bicleaner_langs_en=(bg ca cs da de el es et fi fr ga hr hu is it lt lv mt nb nl nn pl pt ro ru sk sl sv uk)
 bicleaner_langs_es=(ca de gl eu)
@@ -187,6 +177,13 @@ if [ "$langformat" == "parallel" ]; then
 		echo "Unsupported language pair in Bicleaner/BicleanerAI"	
 	fi
 
+	if [ "$is_reversed" = true ]; then
+		COLUMNS_FLAG=" --scol 2 --tcol 1 "
+		REVERSED_FLAG="	--is_reversed "
+	else
+		COLUMNS_FLAG=" --scol 1 --tcol 2 "
+		REVERSED_FLAG=" "
+	fi		
 
 	# Check if bicleaner model is downloaded, otherwise download   
 	if [ "$bicleaner_metadata" ]; then
@@ -212,7 +209,6 @@ if [ "$langformat" == "parallel" ]; then
 		fi
 	fi
 	
-
 	# Check the format and preprocess the data
 	if [ "$format" == "bitext" ]; then
 		echo "Converting to TSV..."		
@@ -222,13 +218,11 @@ if [ "$langformat" == "parallel" ]; then
     	elif [ "$format" == "tmx" ]; then
     		# Get the directory path and filename without extension
     		echo "Converting to TSV..."
-	        #dir_path=$(dirname "$saved_file_path")
 	        filename=$(basename "$saved_file_path" .tmx)
 	        # Create the new file path with the "tsv" extension
 	        tsv_file_path="$workdir/$filename.tsv"
 	        python3 ./tmxt/tmxt.py --codelist=$srclang,$trglang $saved_file_path $tsv_file_path
 	elif [ "$format" == "tsv" ]; then
-        	    #tsv_file_path=$saved_file_path #if the input file is in tsv format
         	    filename=$(basename "$saved_file_path")
         	    cp $saved_file_path $workdir
         	    tsv_file_path="$workdir/$filename"
@@ -237,54 +231,36 @@ if [ "$langformat" == "parallel" ]; then
 		echo "Unsupported format \"$format\""
 		exit 1
         fi
+
        	# Save into two separate files
        	rm -f $tsv_file_path.$srclang
        	rm -f $tsv_file_path.$trglang
        	awk -F '\t' -v file1=$tsv_file_path.$srclang -v file2=$tsv_file_path.$trglang '{print $1 >> file1; print $2 >> file2}' $tsv_file_path
-       	#cat  $tsv_file_path | awk -F '\t' -v file1=$saved_file_path.$srclang  -v file2=$saved_file_path.$trglang '{print $1 >> file1; print $2 >> file2}
-        #time parallel -j $JOBS -k cut -f1 $tsv_file_path > $saved_file_path.$srclang
-        #echo "CUT"
-        #time parallel -j $JOBS -k cut -f2 $tsv_file_path > $saved_file_path.$trglang
 
 	#Bicleaner Hardrules
     	source /work/venvs/venv-bhr/bin/activate
 	if [ "$bicleaner_metadata" ]; then
 		echo "Running Bicleaner Hardrules..."
-		if [ "$is_reversed" = true ]; then
-			cat $tsv_file_path | $PARALLEL_CACHE_CMD  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2  --tcol 1 - - --metadata $bicleaner_metadata > $tsv_file_path.hardrules 
-		else
-			cat $tsv_file_path | $PARALLEL_CACHE_CMD  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_metadata > $tsv_file_path.hardrules
-		fi
+		cat $tsv_file_path | $PARALLEL_CACHE_CMD  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang $COLUMNS_FLAG - - --metadata $bicleaner_metadata > $tsv_file_path.hardrules 
 	elif [ "$bicleaner_ai_metadata" ]; then
 		echo "Running Bicleaner Hardrules..."
-		if [ "$is_reversed" = true ]; then
-			cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang --scol 2 --tcol 1 - - --metadata $bicleaner_ai_metadata > $tsv_file_path.hardrules
-		else
-			cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang - - --metadata $bicleaner_ai_metadata > $tsv_file_path.hardrules
-		fi
+		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang $COLUMNS_FLAG - - --metadata $bicleaner_ai_metadata > $tsv_file_path.hardrules
 	else
 		#echo "Language pair not supported by Bicleaner Hardrules"
 		echo "Running Bicleaner Hardrules..."
-		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --disable_lm_filter --disable_porn_removal --run_all_rules -p $JOBS -s $srclang -t $trglang  > $tsv_file_path.hardrules
+		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --disable_lm_filter --disable_porn_removal --run_all_rules -p $JOBS -s $srclang -t $trglang $COLUMNS_FLAG > $tsv_file_path.hardrules
     	fi
     	deactivate
-    	
-    	metadata_file=""
     	
     	#Run Bicleaner/BicleanerAI
     	if [ "$bicleaner_metadata" ]; then
     		echo "Running Bicleaner..."
-	    	source /work/venvs/venv-bc/bin/activate
-	
+	    	source /work/venvs/venv-bc/bin/activate	
 		#Force FastSpell FastText download in this env
 		python3 ./scripts/force-fasttext-download.py $srclang
 	        python3 ./scripts/force-fasttext-download.py $trglang	    	
-	    	if [ "$is_reversed" = true ]; then
-			cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-classify -p $JOBS --score_only --scol 2 --tcol 1 --disable_hardrules - - $bicleaner_metadata > $tsv_file_path.classify
-	    	else
-			cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-classify -p $JOBS --score_only --scol 1 --tcol 2 --disable_hardrules - - $bicleaner_metadata > $tsv_file_path.classify
-		fi
-		metadata_file="-y "$bicleaner_metadata
+		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-classify -p $JOBS --score_only $COLUMNS_FLAG --disable_hardrules - - $bicleaner_metadata > $tsv_file_path.classify
+		METADATA_FLAG="-y "$bicleaner_metadata
 		deactivate
 	elif [ "$bicleaner_ai_metadata" ]; then
 		echo "Running Bicleaner AI..."
@@ -292,12 +268,8 @@ if [ "$langformat" == "parallel" ]; then
 		#Force FastSpell FastText download in this env
 		python3 ./scripts/force-fasttext-download.py $srclang
 	        python3 ./scripts/force-fasttext-download.py $trglang		
-		if [ "$is_reversed" = true ]; then
-			cat $tsv_file_path | BICLEANER_AI_THREADS=$JOBS $PARALLEL_CACHE_CMD bicleaner-ai-classify --score_only --scol 2 --tcol 1 --disable_hardrules - - $bicleaner_ai_metadata > $tsv_file_path.classify
-		else	
-			cat $tsv_file_path | BICLEANER_AI_THREADS=$JOBS $PARALLEL_CACHE_CMD bicleaner-ai-classify --score_only --scol 1 --tcol 2 --disable_hardrules - - $bicleaner_ai_metadata > $tsv_file_path.classify
-		fi
-		metadata_file="-y "$bicleaner_ai_metadata
+		cat $tsv_file_path | BICLEANER_AI_THREADS=$JOBS $PARALLEL_CACHE_CMD bicleaner-ai-classify --score_only $COLUMNS_FLAG --disable_hardrules - - $bicleaner_ai_metadata > $tsv_file_path.classify
+		METADATA_FLAG="-y "$bicleaner_ai_metadata
 		deactivate
     	else
     		echo "Language pair not supported by Bicleaner/BicleanerAI"
@@ -308,40 +280,40 @@ if [ "$langformat" == "parallel" ]; then
 	python3 ./scripts/force-fasttext-download.py $srclang
         python3 ./scripts/force-fasttext-download.py $trglang	
 	echo "Running FastSpell..."
-	./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.$srclang.langids 1 
-	./scripts/parallel-fastspell.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2	
+	./scripts/map/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.$srclang.langids 1 
+	./scripts/map/parallel-fastspell.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2	
 	cat $tsv_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$srclang.langcounts
 	cat $tsv_file_path.$trglang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$trglang.langcounts
 
     	#Stats from readcorpus
-    	#mkdir -p profiling
-	#time  python3 -m cProfile  -s cumtime ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang > profiling/profile.text 2>&1
 	echo "Running ReadCorpus..."
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
 		source /work/venvs/venv-bnlp/bin/activate	
 	fi
-	if [ "$is_reversed" = true ]; then
-		python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang $metadata_file --is_reversed
-	else
-		python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang $metadata_file
-	fi
+	python3 ./scripts/readcorpus.py $tsv_file_path.$srclang $tsv_file_path.$trglang $srclang $trglang $tsv_file_path.proc
         if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
 		deactivate
 	fi
-	
+		
         rm -f $tsv_file_path.$srclang".ngrams"
         rm -f $tsv_file_path.$trglang".ngrams"
-
+		
         for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
         do
                 SUFFIX=$(echo $SUFFIX_ORDER  | cut -d "_" -f 1)
                 ORDER=$(echo $SUFFIX_ORDER | cut -d "_" -f 2)
-                sort $tsv_file_path.$srclang.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 5 |   awk -v ORDER=$ORDER '{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$srclang".ngrams"
-                sort $tsv_file_path.$trglang.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 5 |   awk -v ORDER=$ORDER '{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$trglang".ngrams"
+                SRC_COLUMN=$((11 + $ORDER)) #11 previous columns with other metadata
+                TRG_COLUMN=$((16 + $ORDER)) #11 previous columns with other metadata + 5 columns with src ngrams
+                parallel --jobs $JOBS --pipepart -a $tsv_file_path.proc cut -f $SRC_COLUMN  > $tsv_file_path.$srclang.$SUFFIX
+                parallel --jobs $JOBS --pipepart -a $tsv_file_path.proc cut -f $TRG_COLUMN  > $tsv_file_path.$trglang.$SUFFIX                
+         
+                #Taking SIX most common ngrams because probably one of them will be the empty spaces and will be removed in the awk below
+                sort $tsv_file_path.$srclang.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 6 |   awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$srclang".ngrams"
+                sort $tsv_file_path.$trglang.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 6 |   awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$trglang".ngrams"
 
         done
-        python3 ./scripts/addngrams.py $tsv_file_path.$srclang".ngrams"  $yaml_file_path "src"
-        python3 ./scripts/addngrams.py $tsv_file_path.$trglang".ngrams"  $yaml_file_path "trg"
+        python3 ./scripts/reduce/addngrams.py $tsv_file_path.$srclang".ngrams"  $yaml_file_path "src"
+        python3 ./scripts/reduce/addngrams.py $tsv_file_path.$trglang".ngrams"  $yaml_file_path "trg"
 
 elif [ "$langformat" == "mono" ]; then
 	rm -rf $yaml_file_path
@@ -374,9 +346,6 @@ elif [ "$langformat" == "mono" ]; then
 			python3 ./scripts/readdocuments.py $saved_file_path $tsv_file_path $yaml_file_path $srclang
 		fi		
 
-		#zstdcat $saved_file_path | jq -r .text > $tsv_file_path #sentences, splitted by /n		
-		
-		
 		#Register labels
 		if [ "$SKIPRLFLAG" = false ]; then		
 		        if [[ " ${registerlabels_langs[*]} " =~ " $srclang " ]]; then	        
@@ -388,11 +357,7 @@ elif [ "$langformat" == "mono" ]; then
 					cat $saved_file_path | python3 ./scripts/registerlabels.py  > $tsv_file_path.rl
 				fi
 				deactivate
-		        	#./scripts/parallel-registerlabels.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2 
 			        cat $tsv_file_path.rl | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.rlcounts
-			        #nyapa
-			        #cp $saved_file_path.rlcounts $tsv_file_path.rlcounts
-			        
 		        else
         			echo "Register labels not supported for $srclang"
 		        fi
@@ -412,48 +377,21 @@ elif [ "$langformat" == "mono" ]; then
 		#Lang supported by monocleaner
 		monocleaner_metadata=$datapath/monocleaner/$srclang/metadata.yaml
 		mkdir -p $datapath/monocleaner
-	#else
-		#echo "Language not supported by Monocleaner"
 	fi
 	source /work/venvs/venv-mc/bin/activate
 	echo "Running Monocleaner  Hardrules..."
-	#./scripts/parallel-monohardrules.sh $JOBS $srclang $tsv_file_path $tsv_file_path.hardrules 		
 	cat $tsv_file_path | $MONO_CACHE_CMD  parallel -k -j $JOBS --pipe monocleaner-hardrules --score_only --annotated_output --run_all_rules --disable_lang_ident  $srclang - - > $tsv_file_path.hardrules 2> hr.log
-
-
-
-	#if [ "$monocleaner_metadata" ]; then
-	#
-	#	if [ -f "$monocleaner_metadata" ]; then
-	#        	echo "Monocleaner model already downloaded."
-	#        else
-	#	        echo "Downloading monocleaner model..."		       
-	#	        monocleaner-download -q $srclang $datapath/monocleaner/
-	#	fi	
-	#
-	#	echo "Running Monocleaner..."
-	#	#./scripts/parallel-monocleaner.sh $JOBS $datapath/monocleaner/$srclang $tsv_file_path  $tsv_file_path.classify
-	#	#monocleaner --score_only --disable_hardrules $langpath ${INPUT_FILE} - > ${INPUT_FILE}.o 2>mono.log
-	#	#Force Fasttext download, in case it does not exist in this environment, to avoid doing it in parallel
-	#        python3 /work/scripts/force-fasttext-download.py $srclang
-	#	cat $tsv_file_path | /work/preprocess/build/bin/cache -k 1  parallel -k  -j $JOBS --pipe monocleaner --score_only --disable_hardrules $datapath/monocleaner/$srclang - - > $tsv_file_path.classify 2> mono.log
-	#
-	#fi
 	deactivate
 
-	
+
         #Fastspell
         echo "Running FastSpell..."
 	#Force Fasttext download, in case it does not exist in this environment, to avoid doing it in parallel
 	python3 /work/scripts/force-fasttext-download.py $srclang        
-        ./scripts/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.$srclang.langids 1 
+        ./scripts/map/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.$srclang.langids 1 
         cat $tsv_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$srclang.langcounts
-	#nyapa
-        #cp $tsv_file_path.$srclang.langcounts $tsv_file_path.$srclang.langcounts	
-
 
 	#Read corpus mono
-	#time python3 -m cProfile ./scripts/readcorpus_mono.py $saved_file_path $yaml_file_path $srclang
 	echo "Running ReadCorpus Mono..."
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
                 source /work/venvs/venv-bnlp/bin/activate
@@ -467,10 +405,10 @@ elif [ "$langformat" == "mono" ]; then
 	for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
 	do
 		SUFFIX=$(echo $SUFFIX_ORDER  | cut -d "_" -f 1)
-		ORDER=$(echo $SUFFIX_ORDER | cut -d "_" -f 2)
+		ORDER=$(echo $SUFFIX_ORDER | cut -d "_" -f 2)		
 		sort $tsv_file_path.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 5 |   awk -v ORDER=$ORDER '{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path".ngrams"
 	done
-	python3 ./scripts/addngrams.py $tsv_file_path".ngrams"  $yaml_file_path  "src"
+	python3 ./scripts/reduce/addngrams.py $tsv_file_path".ngrams"  $yaml_file_path  "src"
 	
 else
 	echo "Unsupported langformat \"$langformat\""
