@@ -290,22 +290,25 @@ if [ "$langformat" == "parallel" ]; then
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
 		source /work/venvs/venv-bnlp/bin/activate	
 	fi
-	#python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang $METADATA_FLAG  $REVERSED_FLAG
 	python3 ./scripts/readcorpus.py $tsv_file_path.$srclang $tsv_file_path.$trglang $srclang $trglang $tsv_file_path.proc
         if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
 		deactivate
 	fi
-	exit
-	
+		
         rm -f $tsv_file_path.$srclang".ngrams"
         rm -f $tsv_file_path.$trglang".ngrams"
-
+		
         for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
         do
                 SUFFIX=$(echo $SUFFIX_ORDER  | cut -d "_" -f 1)
                 ORDER=$(echo $SUFFIX_ORDER | cut -d "_" -f 2)
-                sort $tsv_file_path.$srclang.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 5 |   awk -v ORDER=$ORDER '{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$srclang".ngrams"
-                sort $tsv_file_path.$trglang.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 5 |   awk -v ORDER=$ORDER '{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$trglang".ngrams"
+                SRC_COLUMN=$((11 + $ORDER)) #11 previous columns with other metadata
+                TRG_COLUMN=$((16 + $ORDER)) #11 previous columns with other metadata + 5 columns with src ngrams
+                cut -f $SRC_COLUMN $tsv_file_path.proc > $tsv_file_path.$srclang.$SUFFIX
+                cut -f $TRG_COLUMN $tsv_file_path.proc > $tsv_file_path.$trglang.$SUFFIX
+                #Taking SIX most common ngrams because probably one of them will be the empty spaces
+                sort $tsv_file_path.$srclang.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 6 |   awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$srclang".ngrams"
+                sort $tsv_file_path.$trglang.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 6 |   awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$trglang".ngrams"
 
         done
         python3 ./scripts/addngrams.py $tsv_file_path.$srclang".ngrams"  $yaml_file_path "src"
@@ -401,7 +404,7 @@ elif [ "$langformat" == "mono" ]; then
 	for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
 	do
 		SUFFIX=$(echo $SUFFIX_ORDER  | cut -d "_" -f 1)
-		ORDER=$(echo $SUFFIX_ORDER | cut -d "_" -f 2)
+		ORDER=$(echo $SUFFIX_ORDER | cut -d "_" -f 2)		
 		sort $tsv_file_path.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 5 |   awk -v ORDER=$ORDER '{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path".ngrams"
 	done
 	python3 ./scripts/addngrams.py $tsv_file_path".ngrams"  $yaml_file_path  "src"
