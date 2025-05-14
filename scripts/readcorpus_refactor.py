@@ -5,6 +5,8 @@ import sys
 import logging
 import traceback
 import argparse
+import json
+
 from iso639 import Lang
 
 from pii_manager import PiiEnum
@@ -53,6 +55,12 @@ def get_pii_proc(lang):
     pii_proc = PiiManager(pii_lang, pii_country, tasks=pii_tasklist, mode="extract")
     return pii_proc
 
+def print_in_column(col, array_items, output):
+    for item in array_items:
+        for i in range(col-1):
+            output.write("\t")
+        output.write(item+"\n")
+    
 def main():
     args = initialization() # Parsing parameters
     logging_setup(args)
@@ -77,55 +85,23 @@ def main():
 #        warnings.append("trg_"+w)
         
         
-    #ngrams files
-    #src_onegrams_file = open(args.corpus.name + "." + args.srclang + ".one", "w")
-    #src_twograms_file = open(args.corpus.name +  "." + args.srclang + ".two", "w")
-    #src_threegrams_file = open(args.corpus.name + "." + args.srclang +  ".three", "w")
-    #src_fourgrams_file = open(args.corpus.name + "." + args.srclang + ".four", "w")
-    #src_fivegrams_file = open(args.corpus.name + "." + args.srclang +".five", "w")        
 
-    #trg_onegrams_file = open(args.corpus.name + "." + args.trglang + ".one", "w")
-    #trg_twograms_file = open(args.corpus.name +  "." + args.trglang + ".two", "w")
-    #trg_threegrams_file = open(args.corpus.name + "." + args.trglang +  ".three", "w")
-    #trg_fourgrams_file = open(args.corpus.name + "." + args.trglang + ".four", "w")
-    #trg_fivegrams_file = open(args.corpus.name + "." + args.trglang +".five", "w")
 
-    #src_onegrams_buffer = []
-    #src_twograms_buffer = []
-    #src_threegrams_buffer = []
-    #src_fourgrams_buffer =  []
-    #src_fivegrams_buffer = []
-    
-    #trg_onegrams_buffer = []
-    #trg_twograms_buffer = []
-    #trg_threegrams_buffer = []
-    #trg_fourgrams_buffer =  []
-    #trg_fivegrams_buffer = []
-
-    #src_onegrams_counter = 0
-    #src_twograms_counter = 0
-    #src_threegrams_counter = 0
-    #src_fourgrams_counter = 0
-    #src_fivegrams_counter = 0
-    
-    #trg_onegrams_counter = 0
-    #trg_twograms_counter = 0
-    #trg_threegrams_counter = 0
-    #trg_fourgrams_counter = 0
-    #trg_fivegrams_counter = 0
-       
+           
     #src_ngrams_warnings = set()    
     #trg_ngrams_warnings = set()
     
-    #src_stopwords, nwarnings = get_stopwords(args.srclang)
+    src_stopwords, nwarnings = get_stopwords(args.srclang)
     #for w in nwarnings:
     #    src_ngrams_warnings.add("src_"+w)
-    #trg_stopwords, nwarnings = get_stopwords(args.trglang)
+    trg_stopwords, nwarnings = get_stopwords(args.trglang)
     #for w in nwarnings:
     #    trg_ngrams_warnings.add("trg_"+w)
     
     #Output format:
-    #src trg srctoks trgtoks srctokcount trgtokcount srcbytes trgbytes  srcchars trgchars srcpii trgpii srchash trghash pairhash 
+    # srctokcount trgtokcount srcbytes trgbytes  srcchars trgchars srcpii trgpii srchash trghash pairhash
+    # src_onegrams src_twograms src_threegrams src_fourgrams src_fivegrams
+    # trg_onegrams trg_twograms trg_threegrams trg_fourgrams trg_fivegrams    
     for src_line, trg_line in zip(args.source, args.target):
         src = src_line.strip()
         trg = trg_line.strip()
@@ -142,6 +118,16 @@ def main():
         srchash = ""
         trghash = ""
         pairhash = ""
+        src_onegrams = []
+        src_twograms = []
+        src_threegrams = []
+        src_fourgrams =  []
+        src_fivegrams = []
+        trg_onegrams = []
+        trg_twograms = []
+        trg_threegrams = []
+        trg_fourgrams =  []
+        trg_fivegrams = []
         
         #PII
         src_pii_matches = src_pii_proc(src)
@@ -182,110 +168,55 @@ def main():
         
         #ngrams
         
-        src_ngrams_dict, nwarning = get_line_ngrams(args.srclang, tokenized_src, 5, src_stopwords)        
-        trg_ngrams_dict, nwarning = get_line_ngrams(args.trglang, tokenized_trg, 5, trg_stopwords)        
+        src_ngrams_dict, nwarning = get_line_ngrams(args.srclang, srctoks, 5, src_stopwords)        
+        trg_ngrams_dict, nwarning = get_line_ngrams(args.trglang, trgtoks, 5, trg_stopwords)        
 
         for g in src_ngrams_dict.get(1):
-            src_onegrams_buffer.append(" ".join(g))
+            src_onegrams.append(" ".join(g))
         for g in src_ngrams_dict.get(2):
-            src_twograms_buffer.append(" ".join(g))
+            src_twograms.append(" ".join(g))
         for g in src_ngrams_dict.get(3):
-            src_threegrams_buffer.append(" ".join(g))
+            src_threegrams.append(" ".join(g))
         for g in src_ngrams_dict.get(4): 
-            src_fourgrams_buffer.append(" ".join(g))
+            src_fourgrams.append(" ".join(g))
         for g in src_ngrams_dict.get(5):
-            src_fivegrams_buffer.append(" ".join(g))
+            src_fivegrams.append(" ".join(g))
         
         for g in trg_ngrams_dict.get(1):
-            trg_onegrams_buffer.append(" ".join(g))
+            trg_onegrams.append(" ".join(g))
         for g in trg_ngrams_dict.get(2):
-            trg_twograms_buffer.append(" ".join(g))
+            trg_twograms.append(" ".join(g))
         for g in trg_ngrams_dict.get(3):
-            trg_threegrams_buffer.append(" ".join(g))
-        slickfor g in trg_ngrams_dict.get(4): 
-            trg_fourgrams_buffer.append(" ".join(g))
+            trg_threegrams.append(" ".join(g))
+        for g in trg_ngrams_dict.get(4): 
+            trg_fourgrams.append(" ".join(g))
         for g in trg_ngrams_dict.get(5):
-            trg_fivegrams_buffer.append(" ".join(g))
+            trg_fivegrams.append(" ".join(g))
 
-        args.output.write("\t".join([src, trg, " ".join(srctoks), " ".join(trgtoks), str(srctokcount), str(trgtokcount), str(srcbytes), str(trgbytes), str(srcchars), str(trgchars), str(srcpii), str(trgpii), srchash, trghash, pairhash ])+"\n")
+        #args.output.write("\t".join([src, trg, " ".join(srctoks), " ".join(trgtoks), str(srctokcount), str(trgtokcount), str(srcbytes), str(trgbytes), str(srcchars), str(trgchars), str(srcpii), str(trgpii), srchash, trghash, pairhash ])+"\n")
+        args.output.write("\t".join([str(srctokcount), str(trgtokcount), \
+                        str(srcbytes), str(trgbytes), \
+                        str(srcchars), str(trgchars), \
+                        str(srcpii), str(trgpii), \
+                        srchash, trghash, pairhash])+"\n")
+
+        #now, this is the ugliest thing ever, but it's for the sake of the final output format... trust the process
+        print_in_column(12, src_onegrams, args.output)
+        print_in_column(13, src_twograms, args.output)
+        print_in_column(14, src_threegrams, args.output)
+        print_in_column(15, src_fourgrams, args.output)
+        print_in_column(16, src_fivegrams, args.output)
+        print_in_column(17, trg_onegrams, args.output)
+        print_in_column(18, trg_twograms, args.output)
+        print_in_column(19, trg_threegrams, args.output)
+        print_in_column(20, trg_fourgrams, args.output)
+        print_in_column(21, trg_fivegrams, args.output)
         
-
-        #Write buffers to files:
+        '''    
+        json.dumps(src_twograms), json.dumps(src_threegrams), json.dumps(src_fourgrams), json.dumps(src_fivegrams), \
+                        json.dumps(trg_onegrams), json.dumps(trg_twograms), json.dumps(trg_threegrams), json.dumps(trg_fourgrams), json.dumps(trg_fivegrams) ])+"\n")
+        
         '''
-        if src_onegrams_counter > 10000000:
-            for g in src_onegrams_buffer:
-                src_onegrams_file.write(g+"\n")
-            src_onegrams_buffer = []
-        if src_twograms_counter > 10000000:
-            for g in src_twograms_buffer:
-                src_twograms_file.write(g+"\n")
-            src_twograms_buffer = []
-        if src_threegrams_counter > 10000000:
-            for g in src_threegrams_buffer:
-                src_threegrams_file.write(g+"\n")
-            src_threegrams_buffer = []
-        if src_fourgrams_counter > 1000000:
-            for g in src_fourgrams_buffer:
-                src_fourgrams_file.write(g+"\n")
-            src_fourgrams_buffer = []
-        if src_fivegrams_counter > 1000000:
-            for g in src_fivegrams_buffer:
-                src_fivegrams_file.write(g+"\n")
-            src_fivegrams_buffer = []
-                
-        if trg_onegrams_counter > 10000000:
-            for g in trg_onegrams_buffer:
-                trg_onegrams_file.write(g+"\n")
-            trg_onegrams_buffer = []
-            trg_onegrams_counter = 0
-        if trg_twograms_counter > 10000000:
-            for g in trg_twograms_buffer:
-                trg_twograms_file.write(g+"\n")
-            trg_twograms_buffer = []
-            trg_twograms_counter = 0
-        if trg_threegrams_counter > 10000000:
-            for g in trg_threegrams_buffer:
-                trg_threegrams_file.write(g+"\n")
-            trg_threegrams_buffer = []
-            trg_threegrams_counter = 0
-        if trg_fourgrams_counter > 1000000:
-            for g in trg_fourgrams_buffer:
-                trg_fourgrams_file.write(g+"\n")
-            trg_fourgrams_buffer = []
-            trg_fourgrams_counter = 0
-        if trg_fivegrams_counter > 1000000:
-            for g in trg_fivegrams_buffer:
-                trg_fivegrams_file.write(g+"\n")
-            trg_fivegrams_buffer = []
-            trg_fivegrams_counter = 0        
-        '''         
-        
-    
-    
-    #Write remaining ngrams in buffers
-    '''
-    for g in src_onegrams_buffer:
-        src_onegrams_file.write(g+"\n")
-    for g in src_twograms_buffer:
-        src_twograms_file.write(g+"\n")
-    for g in src_threegrams_buffer:
-        src_threegrams_file.write(g+"\n")
-    for g in src_fourgrams_buffer:
-        src_fourgrams_file.write(g+"\n")
-    for g in src_fivegrams_buffer:
-        src_fivegrams_file.write(g+"\n")
-    for g in trg_onegrams_buffer:
-        trg_onegrams_file.write(g+"\n")
-    for g in trg_twograms_buffer:
-        trg_twograms_file.write(g+"\n")
-    for g in trg_threegrams_buffer:
-        trg_threegrams_file.write(g+"\n")
-    for g in trg_fourgrams_buffer:
-        trg_fourgrams_file.write(g+"\n")
-    for g in trg_fivegrams_buffer:
-        trg_fivegrams_file.write(g+"\n")
-    '''
-    
         
 if __name__ == '__main__':
     try:

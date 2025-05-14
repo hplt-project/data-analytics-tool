@@ -290,10 +290,12 @@ if [ "$langformat" == "parallel" ]; then
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
 		source /work/venvs/venv-bnlp/bin/activate	
 	fi
-	python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang $METADATA_FLAG  $REVERSED_FLAG
+	#python3 ./scripts/readcorpus.py $tsv_file_path $yaml_file_path $srclang $trglang $METADATA_FLAG  $REVERSED_FLAG
+	python3 ./scripts/readcorpus.py $tsv_file_path.$srclang $tsv_file_path.$trglang $srclang $trglang $tsv_file_path.proc
         if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
 		deactivate
 	fi
+	exit
 	
         rm -f $tsv_file_path.$srclang".ngrams"
         rm -f $tsv_file_path.$trglang".ngrams"
