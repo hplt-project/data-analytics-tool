@@ -233,9 +233,9 @@ if [ "$langformat" == "parallel" ]; then
         fi
 
        	# Save into two separate files
-       	rm -f $tsv_file_path.$srclang
-       	rm -f $tsv_file_path.$trglang
-       	awk -F '\t' -v file1=$tsv_file_path.$srclang -v file2=$tsv_file_path.$trglang '{print $1 >> file1; print $2 >> file2}' $tsv_file_path
+       	#rm -f $tsv_file_path.$srclang
+       	#rm -f $tsv_file_path.$trglang
+       	#awk -F '\t' -v file1=$tsv_file_path.$srclang -v file2=$tsv_file_path.$trglang '{print $1 >> file1; print $2 >> file2}' $tsv_file_path
 
 	#Bicleaner Hardrules
     	source /work/venvs/venv-bhr/bin/activate
@@ -289,8 +289,9 @@ if [ "$langformat" == "parallel" ]; then
 	echo "Running ReadCorpus..."
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
 		source /work/venvs/venv-bnlp/bin/activate	
-	fi
-	python3 ./scripts/readcorpus.py $tsv_file_path.$srclang $tsv_file_path.$trglang $srclang $trglang $tsv_file_path.proc
+	fi	
+	#python3 ./scripts/readcorpus.py $tsv_file_path $srclang $trglang $tsv_file_path.proc	
+	bash /work/scripts/map/parallel-readcorpus.sh $JOBS $tsv_file_path $srclang $trglang $tsv_file_path.proc
         if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
 		deactivate
 	fi

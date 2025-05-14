@@ -24,8 +24,7 @@ def initialization():
     #parser.add_argument('statsfile', type=str, help="Output YAML stats file.") #TODO: default tmpfile #type=argparse.FileType('w'),    
     
     parser = argparse.ArgumentParser(prog=os.path.basename(sys.argv[0]), formatter_class=argparse.ArgumentDefaultsHelpFormatter, description=__doc__)
-    parser.add_argument('source',  nargs='?', type=argparse.FileType('rt', errors="replace"), default=io.TextIOWrapper(sys.stdin.buffer, errors="replace"),  help="Input source sentences.")
-    parser.add_argument('target',  nargs='?', type=argparse.FileType('rt', errors="replace"), default=io.TextIOWrapper(sys.stdin.buffer, errors="replace"),  help="Input target sentences.")    
+    parser.add_argument('input',  nargs='?', type=argparse.FileType('rt', errors="replace"), default=io.TextIOWrapper(sys.stdin.buffer, errors="replace"),  help="Input TSV file.")
     parser.add_argument('srclang', type=str, help="Source language")
     parser.add_argument('trglang', type=str, help="Target language")
     parser.add_argument('output', nargs='?', type=argparse.FileType('wt'), default=sys.stdout, help="Output.")
@@ -38,6 +37,7 @@ def initialization():
     #groupL.add_argument('-v', '--version', action='version', version="%(prog)s " + __version__, help="show version of this script and exit")
 
     args = parser.parse_args()
+    logging_setup(args)
     return args
 
 def get_pii_proc(lang):
@@ -56,14 +56,16 @@ def get_pii_proc(lang):
     return pii_proc
 
 def print_in_column(col, array_items, output):
+
     for item in array_items:
-        for i in range(col-1):
+        for i in range(col-1):        
             output.write("\t")
+            
         output.write(item+"\n")
     
 def main():
     args = initialization() # Parsing parameters
-    logging_setup(args)
+    #logging_setup(args)
     logging.info("Starting process")
       
     src_tokenizer = CustomTokenizer(args.srclang)
@@ -102,9 +104,10 @@ def main():
     # srctokcount trgtokcount srcbytes trgbytes  srcchars trgchars srcpii trgpii srchash trghash pairhash
     # src_onegrams src_twograms src_threegrams src_fourgrams src_fivegrams
     # trg_onegrams trg_twograms trg_threegrams trg_fourgrams trg_fivegrams    
-    for src_line, trg_line in zip(args.source, args.target):
-        src = src_line.strip()
-        trg = trg_line.strip()
+    for line in args.input:
+        lineparts = line.split("\t")
+        src = lineparts[0].strip()
+        trg = lineparts[1].strip()
         srctoks = []
         trgtoks = []
         srctokcount =  0
