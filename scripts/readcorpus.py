@@ -13,7 +13,7 @@ from pii_manager import PiiEnum
 from pii_manager.api import PiiManager
 from pii_manager.lang import COUNTRY_ANY
 
-from util import logging_setup
+from util import logging_setup, stdout_to_err
 from xxhash import xxh64
 from ngrams import get_line_ngrams, get_stopwords
 from tokenizer  import CustomTokenizer
@@ -40,6 +40,9 @@ def initialization():
     logging_setup(args)
     return args
 
+
+    
+
 def get_pii_proc(lang):
     pii_isolang = Lang(lang.split('_')[0])
 
@@ -52,7 +55,9 @@ def get_pii_proc(lang):
 
     pii_country = COUNTRY_ANY
     pii_tasklist = (PiiEnum.IP_ADDRESS, PiiEnum.EMAIL_ADDRESS, PiiEnum.PHONE_NUMBER)
-    pii_proc = PiiManager(pii_lang, pii_country, tasks=pii_tasklist, mode="extract")
+    with stdout_to_err():
+        pii_proc = PiiManager(pii_lang, pii_country, tasks=pii_tasklist, mode="extract")
+            
     return pii_proc
 
 def print_in_column(col, array_items, output):
