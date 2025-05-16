@@ -2,6 +2,7 @@ import sys
 import contextlib
 import logging
 
+
 # Logging config
 def logging_setup(args = None):
     
@@ -40,7 +41,9 @@ def get_fastspell_langs():
                     vep vi vls vo wa war wuu xal xmf yi yo yue zh \
                     awa bho fo fur hbs_lat hbs_cyr hbs iw ltg mag me me_lat me_cyr nb pap sr_cyr sr_lat szl ti zsm"
     return(fasttext_langs.split())
-    
+
+
+
 @contextlib.contextmanager
 def stdout_to_err():
     save_stdout = sys.stdout

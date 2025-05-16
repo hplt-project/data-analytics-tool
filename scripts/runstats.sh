@@ -296,9 +296,12 @@ if [ "$langformat" == "parallel" ]; then
 		deactivate
 	fi
 		
-        rm -f $tsv_file_path.$srclang".ngrams"
-        rm -f $tsv_file_path.$trglang".ngrams"
 		
+	rm -r $yaml_file_path	
+	touch $yaml_file_path
+	
+	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang $trglang
+			
         for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
         do
                 SUFFIX=$(echo $SUFFIX_ORDER  | cut -d "_" -f 1)
