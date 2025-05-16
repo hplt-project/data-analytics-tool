@@ -1,9 +1,10 @@
 import logging
+from util import stdout_to_err
 
 import warnings as wrns
-#with wrns.catch_warnings():
-#    wrns.simplefilter(action='ignore', category=FutureWarning)
-#    import hebrew_tokenizer
+with wrns.catch_warnings(),  stdout_to_err():
+    wrns.simplefilter(action='ignore', category=FutureWarning)    
+    import hebrew_tokenizer
     
 import mecab_ko
 import MeCab
