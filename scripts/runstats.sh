@@ -324,6 +324,10 @@ if [ "$langformat" == "parallel" ]; then
 	if [ -f $tsv_file_path.hardrules ] ; then
 		python3 /work/scripts/reduce/write_hardrules.py $tsv_file_path.hardrules $yaml_file_path $HR_MODEL
 	fi
+	#Bicleaner scores
+	if [ -f $tsv_file_path.classify ] ; then
+                python3 /work/scripts/reduce/write_bicleaner.py $tsv_file_path.classify $yaml_file_path
+        fi
 	
 
         for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
