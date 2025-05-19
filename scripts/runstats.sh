@@ -298,13 +298,14 @@ if [ "$langformat" == "parallel" ]; then
 	
 	#Map & reduce volumes
 	bash /work/scripts/map/parallel-volumes.sh $JOBS $tsv_file_path.proc $tsv_file_path.volumes
-		
+			
 	rm -r $yaml_file_path	
 	touch $yaml_file_path
 	
 	#Metadata
 	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang $trglang
-			
+	#Volumes
+	python3 /work/scripts/reduce/write_volumes.py $tsv_file_path.volumes $yaml_file_path
 	
 
         for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
