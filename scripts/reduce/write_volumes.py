@@ -23,8 +23,8 @@ def main():
     #Fields:
     # 0: sentencepairs  1: srctokcount 2: trgtokcount 3:srcbytes 4:trgbytes 5:srcchars 6:trgchars 7:srcpii 8:trgpii
     stats["sentence_pairs"] = int(volumes[0])
-    stats["src_sent_tokens"] = int(volumes[1])
-    stats["trg_sent_tokens"] = int(volumes[2])
+    stats["src_tokens"] = int(volumes[1])
+    stats["trg_tokens"] = int(volumes[2])
     stats["src_bytes"] = int(volumes[3])
     stats["trg_bytes"] = int(volumes[4])
     stats["src_chars"] = int(volumes[5])

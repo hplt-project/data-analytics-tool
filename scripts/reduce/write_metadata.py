@@ -1,4 +1,5 @@
 import sys
+import time
 import argparse
 import traceback
 import logging
@@ -19,6 +20,7 @@ def initialization():
 def main():    
     args = initialization()
     stats = {}
+    stats["timestamp"] = time.time()
     stats["corpus"] = args.corpusname
     stats["srclang"] = args.srclang
     stats["trglang"] = args.trglang
