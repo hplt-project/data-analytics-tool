@@ -280,10 +280,12 @@ if [ "$langformat" == "parallel" ]; then
 	python3 ./scripts/force-fasttext-download.py $srclang
         python3 ./scripts/force-fasttext-download.py $trglang	
 	echo "Running FastSpell..."
+	#Map langs
 	./scripts/map/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.$srclang.langids 1 
 	./scripts/map/parallel-fastspell.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2	
-	cat $tsv_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$srclang.langcounts
-	cat $tsv_file_path.$trglang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$trglang.langcounts
+	#Reduce langs
+	cat $tsv_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.srclangs
+	cat $tsv_file_path.$trglang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.trglangs
 
     	#Stats from readcorpus
 	echo "Running ReadCorpus..."
@@ -313,8 +315,9 @@ if [ "$langformat" == "parallel" ]; then
 	python3 /work/scripts/reduce/write_volumes.py $tsv_file_path.volumes $yaml_file_path
 	#Unique token counts
 	python3 /work/scripts/reduce/write_tokcounts.py $tsv_file_path.srctokcount $tsv_file_path.trgtokcount $yaml_file_path
-
-
+	#Langcount
+	python3 /work/scripts/reduce/write_langs.py $tsv_file_path.srclangs $tsv_file_path.trglangs $yaml_file_path
+	
 
         for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
         do
