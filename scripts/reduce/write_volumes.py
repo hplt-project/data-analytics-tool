@@ -32,7 +32,7 @@ def main():
     hardrules_tags={}
     hardrules_tags["pii"] = int(volumes[7]) + int(volumes[8])
     stats["hardrules_tags"] = json.dumps(hardrules_tags)
-    stats["unique_sents"] = int(volumes[9])
+    stats["unique_sents"] = int(volumes[9])-1  #Removing one because of empty fields in the proc file due to ngrams
     yaml.dump(stats, args.yamlfile)
             
 if __name__ == '__main__':

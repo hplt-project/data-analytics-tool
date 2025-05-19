@@ -300,7 +300,10 @@ if [ "$langformat" == "parallel" ]; then
 	bash /work/scripts/map/parallel-volumes.sh $JOBS $tsv_file_path.proc $tsv_file_path.volumes
 	#Map & reduce unique sentence pairs
 	cat $tsv_file_path.proc | cut -f 11 | sort --parallel $JOBS |  uniq -c | wc -l | (read COUNT && sed -e 's/$/\t'$COUNT'/' -i $tsv_file_path.volumes)
-        			
+	#Map & reduce source & target unique tokens 
+	cat $tsv_file_path.proc |  cut -f 1,9 | grep  '[0-9]' | sort -u  |  awk -F ' ' '{sum[$1]+=1} END {for (key in sum) {print key, sum[key]}}' | sort -n  > $tsv_file_path.srctokcount
+	cat $tsv_file_path.proc |  cut -f 2,10 | grep  '[0-9]' | sort -u  |  awk -F ' ' '{sum[$1]+=1} END {for (key in sum) {print key, sum[key]}}' | sort -n  > $tsv_file_path.trgtokcount
+	
 	rm -r $yaml_file_path	
 	touch $yaml_file_path
 	
@@ -308,7 +311,8 @@ if [ "$langformat" == "parallel" ]; then
 	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang $trglang
 	#Volumes
 	python3 /work/scripts/reduce/write_volumes.py $tsv_file_path.volumes $yaml_file_path
-
+	#Unique token counts
+	python3 /work/scripts/reduce/write_tokcounts.py $tsv_file_path.srctokcount $tsv_file_path.trgtokcount $yaml_file_path
 
 
 
