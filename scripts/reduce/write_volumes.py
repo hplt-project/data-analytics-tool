@@ -19,7 +19,7 @@ def main():
     stats = {}
     volumes_line = args.volumesfile.readline()
     volumes = volumes_line.strip().split("\t")
-    assert len(volumes) == 9, logging.error("Missing parts in the volumes file")
+    assert len(volumes) == 10, "Missing parts in the volumes file"
     #Fields:
     # 0: sentencepairs  1: srctokcount 2: trgtokcount 3:srcbytes 4:trgbytes 5:srcchars 6:trgchars 7:srcpii 8:trgpii
     stats["sentence_pairs"] = int(volumes[0])
@@ -32,7 +32,7 @@ def main():
     hardrules_tags={}
     hardrules_tags["pii"] = int(volumes[7]) + int(volumes[8])
     stats["hardrules_tags"] = json.dumps(hardrules_tags)
-    
+    stats["unique_sents"] = int(volumes[9])
     yaml.dump(stats, args.yamlfile)
             
 if __name__ == '__main__':
