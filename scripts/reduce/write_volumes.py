@@ -2,10 +2,8 @@ import sys
 import argparse
 import traceback
 import logging
-import json
 import yaml
 
-#$yaml_file_path $tsv_file_path $srclang $trglang
 def initialization():
     parser = argparse.ArgumentParser()
     parser.add_argument('volumesfile', type=argparse.FileType('r'), help="Input volumes file")
@@ -29,9 +27,8 @@ def main():
     stats["trg_bytes"] = int(volumes[4])
     stats["src_chars"] = int(volumes[5])
     stats["trg_chars"] = int(volumes[6])
-    hardrules_tags={}
-    hardrules_tags["pii"] = int(volumes[7]) + int(volumes[8])
-    stats["hardrules_tags"] = json.dumps(hardrules_tags)
+    stats["src_pii"] = int(volumes[7])
+    stats["trg_pii"] = int(volumes[8])
     stats["unique_sents"] = int(volumes[9])-1  #Removing one because of empty fields in the proc file due to ngrams
     yaml.dump(stats, args.yamlfile)
             

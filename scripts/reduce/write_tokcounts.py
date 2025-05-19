@@ -8,7 +8,6 @@ import statistics
 from collections import Counter
 
 
-#$yaml_file_path $tsv_file_path $srclang $trglang
 def initialization():
     parser = argparse.ArgumentParser()
     parser.add_argument('srctokencountfile', type=argparse.FileType('r'), help="Input src token counts file")

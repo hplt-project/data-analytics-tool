@@ -238,16 +238,19 @@ if [ "$langformat" == "parallel" ]; then
        	#awk -F '\t' -v file1=$tsv_file_path.$srclang -v file2=$tsv_file_path.$trglang '{print $1 >> file1; print $2 >> file2}' $tsv_file_path
 
 	#Bicleaner Hardrules
-    	source /work/venvs/venv-bhr/bin/activate
+    	source /work/venvs/venv-bhr/bin/activate    	
 	if [ "$bicleaner_metadata" ]; then
 		echo "Running Bicleaner Hardrules..."
+		HR_MODEL=$bicleaner_metadata
 		cat $tsv_file_path | $PARALLEL_CACHE_CMD  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang $COLUMNS_FLAG - - --metadata $bicleaner_metadata > $tsv_file_path.hardrules 
 	elif [ "$bicleaner_ai_metadata" ]; then
 		echo "Running Bicleaner Hardrules..."
+		HR_MODEL=$bicleaner_ai_metadata
 		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang $COLUMNS_FLAG - - --metadata $bicleaner_ai_metadata > $tsv_file_path.hardrules
 	else
 		#echo "Language pair not supported by Bicleaner Hardrules"
 		echo "Running Bicleaner Hardrules..."
+		HR_MODEL=""
 		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --disable_lm_filter --disable_porn_removal --run_all_rules -p $JOBS -s $srclang -t $trglang $COLUMNS_FLAG > $tsv_file_path.hardrules
     	fi
     	deactivate
@@ -317,6 +320,10 @@ if [ "$langformat" == "parallel" ]; then
 	python3 /work/scripts/reduce/write_tokcounts.py $tsv_file_path.srctokcount $tsv_file_path.trgtokcount $yaml_file_path
 	#Langcount
 	python3 /work/scripts/reduce/write_langs.py $tsv_file_path.srclangs $tsv_file_path.trglangs $yaml_file_path
+	#Hardrules
+	if [ -f $tsv_file_path.hardrules ] ; then
+		python3 /work/scripts/reduce/write_hardrules.py $tsv_file_path.hardrules $yaml_file_path $HR_MODEL
+	fi
 	
 
         for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
