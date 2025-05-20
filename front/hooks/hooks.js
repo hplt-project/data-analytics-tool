@@ -68,15 +68,15 @@ export function codeToLangTransformer(languagesArray) {
         value: correctCode,
         label:
           getEnglishName(correctCode) === null &&
-          duplicateLanguages.includes(languageNames.of(correctCode))
+            duplicateLanguages.includes(languageNames.of(correctCode))
             ? `${languageNames.of(correctCode)} (${correctCode})`
             : getEnglishName(correctCode) !== null &&
               duplicateLanguages.includes(getEnglishName(correctCode))
-            ? `${getEnglishName(correctCode)} (${correctCode})`
-            : getEnglishName(correctCode) === null &&
-              !duplicateLanguages.includes(languageNames.of(correctCode))
-            ? `${languageNames.of(correctCode)}`
-            : `${getEnglishName(correctCode)}`,
+              ? `${getEnglishName(correctCode)} (${correctCode})`
+              : getEnglishName(correctCode) === null &&
+                !duplicateLanguages.includes(languageNames.of(correctCode))
+                ? `${languageNames.of(correctCode)}`
+                : `${getEnglishName(correctCode)}`,
         id: idx,
       };
     } catch (error) {
@@ -159,6 +159,17 @@ export const DataFormatter = (number) => {
     return number.toString();
   }
 };
+
+export function convertSize(sizeBytes) {
+  if (sizeBytes === 0) return "0B";
+
+  const sizeName = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
+  const i = Math.floor(Math.log(sizeBytes) / Math.log(1024));
+  const p = Math.pow(1024, i);
+  const s = Number((sizeBytes / p).toFixed(2));
+
+  return `${s} ${sizeName[i]}`;
+}
 
 export const percFormatter = (number) => {
   return number.toString() + "%";

@@ -6,6 +6,8 @@ import {
   numberFormatter,
   languagePairName,
   handleDownload,
+  DataFormatter,
+  convertSize
 } from "../../hooks/hooks";
 import NGramsTable from "./NGramsTable";
 import SegmentDistribution from "./SegmentDistribution";
@@ -528,11 +530,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
     : "";
 
   const srcSize = reportData.src_bytes
-    ? reportData.src_bytes.toLocaleString("en-US")
+    ? typeof reportData.src_bytes === "number" ? convertSize(reportData.src_bytes) : reportData.src_bytes.toLocaleString("en-US")
     : "";
 
   const trgSize = reportData.trg_bytes
-    ? reportData.trg_bytes.toLocaleString("en-US")
+    ? typeof reportData.trg_bytes === "number" ? convertSize(reportData.src_bytes) : reportData.trg_bytes.toLocaleString("en-US")
     : "";
 
   const srcChars = reportData.src_chars
