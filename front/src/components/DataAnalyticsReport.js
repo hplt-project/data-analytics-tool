@@ -534,7 +534,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
     : "";
 
   const trgSize = reportData.trg_bytes
-    ? typeof reportData.trg_bytes === "number" ? convertSize(reportData.src_bytes) : reportData.trg_bytes.toLocaleString("en-US")
+    ? typeof reportData.trg_bytes === "number" ? convertSize(reportData.trg_bytes) : reportData.trg_bytes.toLocaleString("en-US")
     : "";
 
   const srcChars = reportData.src_chars
