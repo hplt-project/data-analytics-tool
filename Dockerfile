@@ -28,7 +28,7 @@ RUN apt-get update && \
     apt-get install -y wget unzip joe gcc libboost-all-dev cmake && \ 
     apt-get install -y python3.10 python3-dev python3.10-dev  python3-pip  python3.10-venv && \
     apt-get install -y git build-essential autoconf autopoint libtool parallel &&\
-    apt-get install -y hunspell libhunspell-dev jq zstd curl cuda-nvvm-12-2 
+    apt-get install -y hunspell libhunspell-dev jq zstd curl cuda-nvvm-12-2 gawk
     
 RUN curl https://sh.rustup.rs -sSf | bash -s -- -y --default-toolchain=1.77.2
 ENV PATH="/root/.cargo/bin:${PATH}"

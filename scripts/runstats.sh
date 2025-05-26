@@ -300,7 +300,7 @@ if [ "$langformat" == "parallel" ]; then
         if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
 		deactivate
 	fi
-	
+	echo "Mapping & Reducing volumes"
 	#Map & reduce volumes
 	bash /work/scripts/map/parallel-volumes.sh $JOBS $tsv_file_path.proc $tsv_file_path.volumes
 	#Map & reduce unique sentence pairs
@@ -329,7 +329,7 @@ if [ "$langformat" == "parallel" ]; then
                 python3 /work/scripts/reduce/write_bicleaner.py $tsv_file_path.classify $yaml_file_path
         fi
 	
-
+	echo "Computing ngrams"
         for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
         do
                 SUFFIX=$(echo $SUFFIX_ORDER  | cut -d "_" -f 1)
@@ -346,6 +346,7 @@ if [ "$langformat" == "parallel" ]; then
         done
         python3 ./scripts/reduce/addngrams.py $tsv_file_path.$srclang".ngrams"  $yaml_file_path "src"
         python3 ./scripts/reduce/addngrams.py $tsv_file_path.$trglang".ngrams"  $yaml_file_path "trg"
+        #python3 ./scripts/reduce/write_warnings.py $yaml_file_path $srclang $trglang
 
 elif [ "$langformat" == "mono" ]; then
 	rm -rf $yaml_file_path
