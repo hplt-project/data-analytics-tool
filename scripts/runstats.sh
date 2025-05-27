@@ -313,7 +313,7 @@ if [ "$langformat" == "parallel" ]; then
 	touch $yaml_file_path
 	
 	#Metadata
-	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang $trglang
+	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang $trglang $bicleaner_ai_metadata
 	#Volumes
 	python3 /work/scripts/reduce/write_volumes.py $tsv_file_path.volumes $yaml_file_path
 	#Unique token counts

@@ -1,3 +1,4 @@
+import os
 import sys
 import time
 import argparse
@@ -20,7 +21,7 @@ def initialization():
     parser.add_argument('corpusname', type=str, help="Corpus name")
     parser.add_argument('srclang', type=str, help="Source language")
     parser.add_argument('trglang', type=str, help="Target language")
-    
+    parser.add_argument('bicleanerconfig',  nargs='?', type=str, default=None , help="BicleanerAI config yaml file (optional)")    
     args = parser.parse_args()
     return args
     
@@ -66,7 +67,11 @@ def main():
         warnings.append("trg_fastspell")
 
     #bicleaner xx
-
+    if args.bicleanerconfig and os.path.exists(args.bicleanerconfig):
+        with open(args.bicleanerconfig, "r+") as bicleaneryaml:
+            yaml_data = yaml.safe_load(bicleaneryaml)
+            if ("source_lang" in yaml_data  and yaml_data["source_lang"] == "xx")  or  ("target_lang" in yaml_data and yaml_data["target_lang"] == "xx"):
+                warnings.append("bicleaner_xx")
 
     stats["warnings"] = warnings    
     yaml.dump(stats, args.yamlfile)
