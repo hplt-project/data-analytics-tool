@@ -1,5 +1,34 @@
-import yaml
+import sys
+import contextlib
+import logging
 
+
+# Logging config
+def logging_setup(args = None):
+    
+    logger = logging.getLogger()
+    logger.handlers = [] # Removing default handler to avoid duplication of log messages
+    logger.setLevel(logging.ERROR)
+    
+    h = logging.StreamHandler(sys.stderr)
+    if args != None:
+       h = logging.StreamHandler(args.logfile)
+      
+    h.setFormatter(logging.Formatter('%(asctime)s - %(levelname)s - %(message)s'))
+    logger.addHandler(h)
+
+    #logger.setLevel(logging.INFO)
+    
+    if args != None:
+        if not args.quiet:
+            logger.setLevel(logging.WARNING)
+        if args.debug:
+            logger.setLevel(logging.DEBUG)
+
+    logging_level = logging.getLogger().level
+    if logging_level <= logging.WARNING and logging_level != logging.DEBUG:
+        logging.getLogger("ToolWrapper").setLevel(logging.WARNING)
+        
 def get_fastspell_langs():
     #As extracted from https://fasttext.cc/docs/en/language-identification.html#list-of-supported-languages
     #and left side of https://github.com/mbanon/fastspell/blob/main/src/fastspell/config/similar.yaml
@@ -14,20 +43,12 @@ def get_fastspell_langs():
     return(fasttext_langs.split())
 
 
-'''
-def write_stats(statsfile, statsdict):
-    with open(statsfile, "w") as f:
-        yaml.dump(statsdict, f)    
-'''
 
-'''
-# To convert sizes
-def convert_size(size_bytes):
-   if size_bytes == 0:
-       return "0B"
-   size_name = ("B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB")
-   i = int(math.floor(math.log(size_bytes, 1024)))
-   p = math.pow(1024, i)
-   s = round(size_bytes / p, 2)
-   return "%s %s" % (s, size_name[i])
-'''
+@contextlib.contextmanager
+def stdout_to_err():
+    save_stdout = sys.stdout
+    sys.stdout = sys.stderr
+    yield
+    sys.stdout = save_stdout
+    
+    
