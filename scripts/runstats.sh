@@ -11,6 +11,8 @@ langformat=$6
 JOBS=$(($(nproc)-2))
 JOBS=$(($JOBS>1 ? $JOBS : 1))
 
+JOBS_READCORPUS=$(($JOBS/3*2))
+
 
 if [[ $* == *--no-cache* ]]
 then
@@ -296,7 +298,7 @@ if [ "$langformat" == "parallel" ]; then
 		source /work/venvs/venv-bnlp/bin/activate	
 	fi	
 	#python3 ./scripts/readcorpus.py $tsv_file_path $srclang $trglang $tsv_file_path.proc	
-	bash /work/scripts/map/parallel-readcorpus.sh $JOBS $tsv_file_path $srclang $trglang $tsv_file_path.proc
+	bash /work/scripts/map/parallel-readcorpus.sh $JOBS_READCORPUS $tsv_file_path $srclang $trglang $tsv_file_path.proc
         if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
 		deactivate
 	fi
