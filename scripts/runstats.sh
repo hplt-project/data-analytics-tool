@@ -355,7 +355,6 @@ elif [ "$langformat" == "mono" ]; then
 	if [ "$format" == "tmx" ]; then
 		echo "Extracting from TMX..."
                 # Get the directory path and filename without extension
-                dir_path=$(dirname "$saved_file_path")
                 filename=$(basename "$saved_file_path" .tmx)
                 # Create the new file path with the "tsv" extension
                 tsv_file_path="$workdir/$filename.tsv"
@@ -369,18 +368,34 @@ elif [ "$langformat" == "mono" ]; then
                 # Get the directory path and filename without extension
                 original_filename=$(basename -- "$saved_file_path")
                 extension="${original_filename##*.}"
-                
-                dir_path=$(dirname "$saved_file_path")
 		filename=$(basename  "$original_filename" ."$extension")
-
                 # Create the new file path with the "tsv" extension                
                 tsv_file_path="$workdir/$filename.tsv"
+                
                 if [ "$extension" == "zst" ]; then
-                	zstdcat $saved_file_path | python3 ./scripts/readdocuments.py - $tsv_file_path $yaml_file_path $srclang
-		else
-			python3 ./scripts/readdocuments.py $saved_file_path $tsv_file_path $yaml_file_path $srclang
+                	zstdcat $saved_file_path | bash /work/scripts/map/parallel-readdocuments.sh $JOBS - $srclang $tsv_file_path.docproc
+ 		else
+			cat $saved_file_path | bash /work/scripts/map/parallel-readdocuments.sh $JOBS - $srclang $tsv_file_path.docproc
 		fi		
 
+		echo "Mapping & Reducing document volumes"
+		#Map & reduce document volumes
+		#bash /work/scripts/map/document-volumes.sh $JOBS $tsv_file_path.docproc $tsv_file_path.docvolumes
+		#WDS
+		cat $tsv_file_path.docproc | cut -f 2 | sort --parallel $JOBS |  uniq -c > $tsv_file_path.wds
+		#sents in doclang
+		cat $tsv_file_path.docproc | cut -f 3 | sort --parallel $JOBS |  uniq -c  > $tsv_file_path.doclangs
+		#collections
+		cat $tsv_file_path.docproc | cut -f 4 | sort --parallel $JOBS |  uniq -c | sort -nr  > $tsv_file_path.collections
+		#domains
+		cat $tsv_file_path.docproc | cut -f 5 | sort --parallel $JOBS |  uniq -c | sort -nr  | head -n 101  > $tsv_file_path.domains
+		#tlds
+		cat $tsv_file_path.docproc | cut -f 6 | sort --parallel $JOBS |  uniq -c | sort -nr  | head -n 101 > $tsv_file_path.tlds		
+		
+		
+		cat $tsv_file_path.docproc | cut -f 7 | awk 'length() == 0{next;} {print;}' > $tsv_file_path
+
+				
 		#Register labels
 		if [ "$SKIPRLFLAG" = false ]; then		
 		        if [[ " ${registerlabels_langs[*]} " =~ " $srclang " ]]; then	        
@@ -426,6 +441,7 @@ elif [ "$langformat" == "mono" ]; then
         ./scripts/map/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.$srclang.langids 1 
         cat $tsv_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$srclang.langcounts
 
+	exit 
 	#Read corpus mono
 	echo "Running ReadCorpus Mono..."
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
@@ -435,6 +451,10 @@ elif [ "$langformat" == "mono" ]; then
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
 		deactivate
 	fi
+		
+	rm -r $yaml_file_path	
+	touch $yaml_file_path
+	
 	rm -f  $tsv_file_path".ngrams"
 	
 	for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5

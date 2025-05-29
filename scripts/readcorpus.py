@@ -13,7 +13,7 @@ from pii_manager import PiiEnum
 from pii_manager.api import PiiManager
 from pii_manager.lang import COUNTRY_ANY
 
-from util import logging_setup, stdout_to_err
+from util import logging_setup, stdout_to_err, print_in_column
 from xxhash import xxh64
 from ngrams import get_line_ngrams, get_stopwords
 from tokenizer  import CustomTokenizer
@@ -60,14 +60,7 @@ def get_pii_proc(lang):
             
     return pii_proc
 
-def print_in_column(col, array_items, output):
 
-    for item in array_items:
-        for i in range(col-1):        
-            output.write("\t")
-            
-        output.write(item+"\n")
-    
 def main():
     args = initialization() # Parsing parameters
     #logging_setup(args)

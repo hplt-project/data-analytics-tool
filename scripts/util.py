@@ -51,4 +51,10 @@ def stdout_to_err():
     yield
     sys.stdout = save_stdout
     
+def print_in_column(col, array_items, output):
+    for item in array_items:
+        for i in range(col-1):
+            output.write("\t")
+
+        output.write(item+"\n")
     
