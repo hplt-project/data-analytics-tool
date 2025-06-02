@@ -4,10 +4,15 @@ import argparse
 import traceback
 import logging
 import yaml
+import statistics
+from collections import Counter
+
 
 def initialization():
     parser = argparse.ArgumentParser()
     parser.add_argument('yamlfile', type=argparse.FileType('a'), help="Output YAML stats file.") 
+    parser.add_argument('volumesfile', type=argparse.FileType('r'), help="Volumes file.")
+    parser.add_argument('docsentsfile', type=argparse.FileType('r'), help="Sentences per document file.")
     parser.add_argument('wdsfile', type=argparse.FileType('r'), help="WDS scores file.")
     parser.add_argument('docslangsfile', type=argparse.FileType('r'), help="Document langs file.")
     parser.add_argument('collectionsfile', type=argparse.FileType('r'), help="Collections file.")
@@ -21,6 +26,30 @@ def main():
     args = initialization()
     stats = {}
 
+    #Volumes
+    volumes_line = args.volumesfile.readline()
+    volumes = volumes_line.strip().split("\t")
+    assert len(volumes) == 2, "Missing parts in the volumes file"
+    stats["docs_total"] = int(volumes[0])
+    #stats["docs_segments"] = int(volumes[1])
+       
+    #Document sentences
+    docs_sents = Counter()
+    docs_sents_list = []
+    for line in args.docsentsfile:
+        parts = line.strip().split()
+        if len(parts) < 2:
+            continue
+        freq = parts[0]
+        sents = parts[1]
+        docs_sents[int(sents)] = int(freq)
+        docs_sents_list.append([int(sents), int(freq)])
+    stats["docs_segments"] = str(docs_sents_list)
+    docs_sents_elements = sorted(docs_sents.elements())
+    stats["docs_segments_mean"] = round(statistics.mean(docs_sents_elements))
+    stats["docs_segments_median"] = round(statistics.median(docs_sents_elements))
+    
+    
     #WDS
     wds = []
     for line in args.wdsfile:

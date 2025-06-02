@@ -381,6 +381,10 @@ elif [ "$langformat" == "mono" ]; then
 		echo "Mapping & Reducing document volumes"
 		#Map & reduce document volumes
 		#bash /work/scripts/map/document-volumes.sh $JOBS $tsv_file_path.docproc $tsv_file_path.docvolumes
+		#Volumes
+		cat $tsv_file_path.docproc | cut -f 1 | parallel -j $JOBS --pipe awk -F \'\\t\' \'length\(\$1\) == 0{next\;}{sum0+=1\; sum1+=\$1\;} END {print sum0 \"\\t\" sum1 }\'  | awk -F "\t" '{sum0+=$1; sum1+=$2;} END {print sum0 "\t" sum1}'  > $tsv_file_path.docvolumes
+		#Map & reduce document sentences
+		cat $tsv_file_path.docproc |  cut -f 1 |  grep  '[0-9]'  | sort | uniq -c | awk -F " " '{sum[$2]+=$1;} END {for (key in sum) {print sum[key], key}}'  > $tsv_file_path.docsents
 		#WDS
 		cat $tsv_file_path.docproc | cut -f 2 | sort --parallel $JOBS |  uniq -c > $tsv_file_path.wds
 		#sents in doclang
@@ -392,10 +396,10 @@ elif [ "$langformat" == "mono" ]; then
 		#tlds
 		cat $tsv_file_path.docproc | cut -f 6 | sort --parallel $JOBS |  uniq -c | sort -nr  | head -n 101 > $tsv_file_path.tlds		
 		
-		
-		cat $tsv_file_path.docproc | cut -f 7 | awk 'length() == 0{next;} {print;}' > $tsv_file_path
-
-				
+		#doing this for compatibility with non-document formats in the next steps
+		cat $tsv_file_path.docproc | cut -f 7 | awk 'length() == 0{next;} {print;}' > $tsv_file_path 
+		rm $tsv_file_path.docproc
+						
 		#Register labels
 		if [ "$SKIPRLFLAG" = false ]; then		
 		        if [[ " ${registerlabels_langs[*]} " =~ " $srclang " ]]; then	        
@@ -445,7 +449,7 @@ elif [ "$langformat" == "mono" ]; then
 	#TODO move this afer readcorpusmono
 	#Write metadata
 	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang 
-	python3 /work/scripts/reduce/write_docstats.py $yaml_file_path $tsv_file_path.wds $tsv_file_path.doclangs $tsv_file_path.collections $tsv_file_path.domains $tsv_file_path.tlds
+	python3 /work/scripts/reduce/write_docstats.py $yaml_file_path $tsv_file_path.docvolumes $tsv_file_path.docsents $tsv_file_path.wds $tsv_file_path.doclangs $tsv_file_path.collections $tsv_file_path.domains $tsv_file_path.tlds
 
 	exit 
 	#Read corpus mono
