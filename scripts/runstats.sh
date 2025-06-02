@@ -441,6 +441,12 @@ elif [ "$langformat" == "mono" ]; then
         ./scripts/map/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.$srclang.langids 1 
         cat $tsv_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$srclang.langcounts
 
+
+	#TODO move this afer readcorpusmono
+	#Write metadata
+	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang 
+	python3 /work/scripts/reduce/write_docstats.py $yaml_file_path $tsv_file_path.wds $tsv_file_path.doclangs $tsv_file_path.collections $tsv_file_path.domains $tsv_file_path.tlds
+
 	exit 
 	#Read corpus mono
 	echo "Running ReadCorpus Mono..."
