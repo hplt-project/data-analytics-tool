@@ -17,19 +17,30 @@ def main():
     stats = {}
     volumes_line = args.volumesfile.readline()
     volumes = volumes_line.strip().split("\t")
-    assert len(volumes) == 10, "Missing parts in the volumes file"
+    assert (len(volumes) == 10 or len(volumes) == 6), "Missing parts in the volumes file"
     #Fields:
-    # 0: sentencepairs  1: srctokcount 2: trgtokcount 3:srcbytes 4:trgbytes 5:srcchars 6:trgchars 7:srcpii 8:trgpii
-    stats["sentence_pairs"] = int(float(volumes[0]))
-    stats["src_tokens"] = int(float(volumes[1]))
-    stats["trg_tokens"] = int(float(volumes[2]))
-    stats["src_bytes"] = int(float(volumes[3]))
-    stats["trg_bytes"] = int(float(volumes[4]))
-    stats["src_chars"] = int(float(volumes[5]))
-    stats["trg_chars"] = int(float(volumes[6]))
-    stats["src_pii"] = int(float(volumes[7]))
-    stats["trg_pii"] = int(float(volumes[8]))
-    stats["unique_sents"] = int(float(volumes[9]))-1  #Removing one because of empty fields in the proc file due to ngrams
+    if len(volumes) == 10:
+        #is parallel
+        # 0:sentencepairs  1:srctokcount 2:trgtokcount 3:srcbytes 4:trgbytes 5:srcchars 6:trgchars 7:srcpii 8:trgpii 9:uniquesents
+        stats["sentence_pairs"] = int(volumes[0])
+        stats["src_tokens"] = int(volumes[1])
+        stats["trg_tokens"] = int(volumes[2])
+        stats["src_bytes"] = int(volumes[3])
+        stats["trg_bytes"] = int(volumes[4])
+        stats["src_chars"] = int(volumes[5])
+        stats["trg_chars"] = int(volumes[6])
+        stats["src_pii"] = int(volumes[7])
+        stats["trg_pii"] = int(volumes[8])
+        stats["unique_sents"] = int(volumes[9])-1  #Removing one because of empty fields in the proc file due to ngrams
+    if len(volumes) == 6: 
+        #is mono
+        #0: sentences 1:srctokcount 2:srcbytes 3:srcchars 4:srcpii 5:uniquesents
+        stats["sentence_pairs"] = int(volumes[0])
+        stats["src_tokens"] = int(volumes[1])
+        stats["src_bytes"] = int(volumes[2])
+        stats["src_chars"] = int(volumes[3])
+        stats["src_pii"] = int(volumes[4])
+        stats["unique_sents"] = int(volumes[5])-1
     yaml.dump(stats, args.yamlfile)
             
 if __name__ == '__main__':

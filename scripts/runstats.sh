@@ -319,9 +319,9 @@ if [ "$langformat" == "parallel" ]; then
 	#Volumes
 	python3 /work/scripts/reduce/write_volumes.py $tsv_file_path.volumes $yaml_file_path
 	#Unique token counts
-	python3 /work/scripts/reduce/write_tokcounts.py $tsv_file_path.srctokcount $tsv_file_path.trgtokcount $yaml_file_path
+	python3 /work/scripts/reduce/write_tokcounts.py $yaml_file_path $tsv_file_path.srctokcount $tsv_file_path.trgtokcount 
 	#Langcount
-	python3 /work/scripts/reduce/write_langs.py $tsv_file_path.srclangs $tsv_file_path.trglangs $yaml_file_path
+	python3 /work/scripts/reduce/write_langs.py $yaml_file_path $tsv_file_path.srclangs $tsv_file_path.trglangs 
 	#Hardrules
 	if [ -f $tsv_file_path.hardrules ] ; then
 		python3 /work/scripts/reduce/write_hardrules.py $tsv_file_path.hardrules $yaml_file_path $HR_MODEL
@@ -441,8 +441,8 @@ elif [ "$langformat" == "mono" ]; then
         echo "Running FastSpell..."
 	#Force Fasttext download, in case it does not exist in this environment, to avoid doing it in parallel
 	python3 /work/scripts/force-fasttext-download.py $srclang        
-        ./scripts/map/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.$srclang.langids 1 
-        cat $tsv_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$srclang.langcounts
+        ./scripts/map/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.langids 1 
+        cat $tsv_file_path.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.srclangs
 
 
 	#Read corpus mono
@@ -454,17 +454,44 @@ elif [ "$langformat" == "mono" ]; then
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
 		deactivate
 	fi
-		
+	
+	#Map & reduce volumes
+	echo "Mapping & Reducing volumes..."
+	bash /work/scripts/map/parallel-volumes-mono.sh $JOBS $tsv_file_path.proc $tsv_file_path.volumes
+	#Map & reduce unique sentences
+	cat $tsv_file_path.proc | cut -f 5 | sort --parallel $JOBS |  uniq -c | wc -l | (read COUNT && sed -e 's/$/\t'$COUNT'/' -i $tsv_file_path.volumes)
+	#Map & reduce source & target unique tokens 
+	cat $tsv_file_path.proc | cut -f 1,5 | grep  '[0-9]' | sort | uniq -c | awk -F " " '{sum[$2]+=$1; uni[$2]+=1} END {for (key in sum) {print key, sum[key], uni[key]}}' | sort -n  > $tsv_file_path.srctokcount
+
 	rm -r $yaml_file_path	
 	touch $yaml_file_path
-		
+
 	#Write metadata
+	echo "Writing metadata"
 	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang 
+	#Write docs stats
 	if [ "$format" == "docs" ]; then
 		python3 /work/scripts/reduce/write_docstats.py $yaml_file_path $tsv_file_path.docvolumes $tsv_file_path.docsents $tsv_file_path.wds $tsv_file_path.doclangs $tsv_file_path.collections $tsv_file_path.domains $tsv_file_path.tlds
 	fi
-
+	#Volumes
+	python3 /work/scripts/reduce/write_volumes.py $tsv_file_path.volumes $yaml_file_path
+	#Unique token counts
+	python3 /work/scripts/reduce/write_tokcounts.py $yaml_file_path $tsv_file_path.srctokcount
+	#Langcount
+	python3 /work/scripts/reduce/write_langs.py $yaml_file_path $tsv_file_path.srclangs
 	exit
+	#Hardrules
+	if [ -f $tsv_file_path.hardrules ] ; then
+		python3 /work/scripts/reduce/write_hardrules.py $tsv_file_path.hardrules $yaml_file_path $HR_MODEL
+	fi
+	#Bicleaner scores
+	if [ -f $tsv_file_path.classify ] ; then
+                python3 /work/scripts/reduce/write_bicleaner.py $tsv_file_path.classify $yaml_file_path
+        fi
+
+	
+	
+	#ngrams
 	rm -f  $tsv_file_path".ngrams"
 	
 	for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
