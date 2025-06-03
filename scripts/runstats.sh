@@ -351,7 +351,6 @@ if [ "$langformat" == "parallel" ]; then
         #python3 ./scripts/reduce/write_warnings.py $yaml_file_path $srclang $trglang
 
 elif [ "$langformat" == "mono" ]; then
-	rm -rf $yaml_file_path
 	if [ "$format" == "tmx" ]; then
 		echo "Extracting from TMX..."
                 # Get the directory path and filename without extension
@@ -446,25 +445,26 @@ elif [ "$langformat" == "mono" ]; then
         cat $tsv_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.$srclang.langcounts
 
 
-	#TODO move this afer readcorpusmono
-	#Write metadata
-	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang 
-	python3 /work/scripts/reduce/write_docstats.py $yaml_file_path $tsv_file_path.docvolumes $tsv_file_path.docsents $tsv_file_path.wds $tsv_file_path.doclangs $tsv_file_path.collections $tsv_file_path.domains $tsv_file_path.tlds
-
-	exit 
 	#Read corpus mono
 	echo "Running ReadCorpus Mono..."
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
                 source /work/venvs/venv-bnlp/bin/activate
-        fi
-	python3 ./scripts/readcorpus_mono.py $tsv_file_path $yaml_file_path $srclang $LITEFLAG
+        fi	
+	bash /work/scripts/map/parallel-readcorpus-mono.sh $JOBS $tsv_file_path $srclang $tsv_file_path.proc	
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
 		deactivate
 	fi
 		
 	rm -r $yaml_file_path	
 	touch $yaml_file_path
-	
+		
+	#Write metadata
+	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang 
+	if [ "$format" == "docs" ]; then
+		python3 /work/scripts/reduce/write_docstats.py $yaml_file_path $tsv_file_path.docvolumes $tsv_file_path.docsents $tsv_file_path.wds $tsv_file_path.doclangs $tsv_file_path.collections $tsv_file_path.domains $tsv_file_path.tlds
+	fi
+
+	exit
 	rm -f  $tsv_file_path".ngrams"
 	
 	for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
