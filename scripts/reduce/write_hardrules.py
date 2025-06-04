@@ -6,7 +6,6 @@ import logging
 import json
 import yaml
 
-
 tag_types = [
     #"no_empty",                    # Sentence is empty (already in histogram)
     "not_too_long",                # Sentence is more than 1024 characters long
@@ -64,8 +63,8 @@ def main():
 
     yamldata =  yaml.load(args.yamlfile, Loader=yaml.FullLoader)
     
-    src_pii = yamldata.get("src_pii")
-    trg_pii = yamldata.get("trg_pii")
+    src_pii = yamldata.get("src_pii") or 0
+    trg_pii = yamldata.get("trg_pii") or 0
     
     tag_types = remove_porntag(args.modelyamlfile)
 

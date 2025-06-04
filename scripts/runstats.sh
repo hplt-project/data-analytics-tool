@@ -423,8 +423,6 @@ elif [ "$langformat" == "mono" ]; then
                 exit 1
 	fi
 	
-
-	
 	#Monolingual
 	if [[ " ${monocleaner_langs[*]} " =~ " $srclang " ]]; then
 		#Lang supported by monocleaner
@@ -479,29 +477,35 @@ elif [ "$langformat" == "mono" ]; then
 	python3 /work/scripts/reduce/write_tokcounts.py $yaml_file_path $tsv_file_path.srctokcount
 	#Langcount
 	python3 /work/scripts/reduce/write_langs.py $yaml_file_path $tsv_file_path.srclangs
-	exit
+	
 	#Hardrules
 	if [ -f $tsv_file_path.hardrules ] ; then
 		python3 /work/scripts/reduce/write_hardrules.py $tsv_file_path.hardrules $yaml_file_path $HR_MODEL
 	fi
-	#Bicleaner scores
-	if [ -f $tsv_file_path.classify ] ; then
-                python3 /work/scripts/reduce/write_bicleaner.py $tsv_file_path.classify $yaml_file_path
+
+	if [ -f $tsv_file_path.rlcounts ] ; then
+                python3 /work/scripts/reduce/write_registerlabels.py $tsv_file_path.rlcounts $yaml_file_path
         fi
 
-	
 	
 	#ngrams
 	rm -f  $tsv_file_path".ngrams"
 	
-	for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
-	do
-		SUFFIX=$(echo $SUFFIX_ORDER  | cut -d "_" -f 1)
-		ORDER=$(echo $SUFFIX_ORDER | cut -d "_" -f 2)		
-		sort $tsv_file_path.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 5 |   awk -v ORDER=$ORDER '{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path".ngrams"
-	done
-	python3 ./scripts/reduce/addngrams.py $tsv_file_path".ngrams"  $yaml_file_path  "src"
-	
+        echo "Computing ngrams"
+        for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
+        do
+                SUFFIX=$(echo $SUFFIX_ORDER  | cut -d "_" -f 1)
+                ORDER=$(echo $SUFFIX_ORDER | cut -d "_" -f 2)
+                SRC_COLUMN=$((5 + $ORDER)) #5 previous columns with other metadata
+                parallel --jobs $JOBS --pipepart -a $tsv_file_path.proc cut -f $SRC_COLUMN  > $tsv_file_path.$SUFFIX
+
+                #Taking SIX most common ngrams because probably one of them will be the empty spaces and will be removed in the awk below
+                sort $tsv_file_path.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 6 | awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path".ngrams"
+        done
+        python3 ./scripts/reduce/addngrams.py $tsv_file_path".ngrams"  $yaml_file_path "src"
+
+
+
 else
 	echo "Unsupported langformat \"$langformat\""
 	exit 1
