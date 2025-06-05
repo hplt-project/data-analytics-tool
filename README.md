@@ -30,7 +30,7 @@ Code and data are located in `/work`. Yaml files served in the frontend must be 
 
 Aside from uploading from the webapp interface, the `runstats.sh` (located in  `/work/scripts/`) can be used for generating stats, running it with parameters as follows:
 ```
-bash /work/scripts/runstats.sh {CORPUS_PATH} {YAML_FILENAME} {SOURCE_LANGUAGE} {TARGET_LANGUAGE} {FORMAT} {LANGUAGE_FORMAT} {--no-cache} {--lite} {--no-register-labels} {--debug}
+bash /work/scripts/runstats.sh {CORPUS_PATH} {YAML_FILENAME} {SOURCE_LANGUAGE} {TARGET_LANGUAGE} {FORMAT} {LANGUAGE_FORMAT} {--no-cache} {--no-register-labels} {--debug}
 ```
 Being:
 * CORPUS_PATH: The path to the corpus to be analyzed.
@@ -42,21 +42,18 @@ Being:
 
 With the optional flags being:
 * `--no-register-labels`: Avoids obtaining Register Labels, that is a slow part of the pipeline. Recommended for large corpora or when not running on CPU.
-* `--lite`: Avoid computationally expensive stats in the `readcorpus` step: tokenizing, obtaining unique segments & duplicates, ngrams, .... This only affects monolingual processing, it's not currently supported for parallel corpora.
 * `--no-cache`: Avoids using [cache](https://github.com/kpu/preprocess). Use this flag for very large corpora, when you consider that your unique segments (non-duplicates) won't fit in memory. This will make some parts of the pipeline slower, but it will still be able to run. This flag alone does not skip any feature.
 * `--debug`: Don't remove the workdir after finishing the run ('/work/transient/XXXXXX/`)
 
-The first three flags affect to the performance of the pipeline. You probably want to start with `--no-register-labels`, then add `--lite` , and finally add `--no-cache` if needed.
+The first two flags affect to the performance of the pipeline. You probably want to start with `--no-register-labels` and then add `--no-cache` if needed.
 
 
 ### Other scripts
 
 Within the `scripts/` folder there are other scripts that can build stats in other specific cases:
-* `offline-docstats-v2.sh`: Generates stats for a [HPLT v2](https://hplt-project.org/datasets/v2.) monolingual dataset that must be already located in `/work/uploaded_corpora/` in `.jsonl.zst` format. It takes two positional arguments, the language code (i.e. `en`) and the identifier of the  dataset (i.e. `eng_Latn`). Optionally (for large datasets that do not fit in memory) , the `--nocache` and/or `--lite` flags can be used.
+* `offline-docstats-v2.sh`: Generates stats for a [HPLT v2](https://hplt-project.org/datasets/v2.) monolingual dataset that must be already located in `/work/uploaded_corpora/` in `.jsonl.zst` format. It takes two positional arguments, the language code (i.e. `en`) and the identifier of the  dataset (i.e. `eng_Latn`). Optionally (for large datasets that do not fit in memory) , the `--nocache` flag can be used.
 * `hplt2-parallel.sh`: Generates stats for parallel [HPLT v2](https://hplt-project.org/datasets/v2.0) datasets. Positional parameters are the path to the dataset in TMX format (compressed), the source language and the target language. Optionally (for large datasets that do not fit in memory) , the `--nocache` flag can be used.
-* `fineweb2-docstats.sh` : Generates stats for [FineWeb2](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2), streaming the data from  HuggingFace. Positional parameters are language code (i.e. `en`) and FineWeb2 subset (i.e. `eng_Latn`).  Optionally (for large datasets that do not fit in memory) , the `--nocache` and/or `--lite` flags can be used.
-* `litedocstats.sh`: Downloads a [HPLT v1.2](https://hplt-project.org/datasets/v1.2) monolingual dataset and generates its lite stats. The only positional parameters is the 2-letter language code.
-
+* `fineweb2-docstats.sh` : Generates stats for [FineWeb2](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2), streaming the data from  HuggingFace. Positional parameters are language code (i.e. `en`) and FineWeb2 subset (i.e. `eng_Latn`).  Optionally (for large datasets that do not fit in memory) , the `--nocache` flag can be used.
 
 ## Current info in the generated yaml files: 
 
@@ -89,14 +86,14 @@ The stats generated with this tool come in a handy yaml format with the followin
 - `src_bytes`: Total size of source segments, uncompressed.
 - `srclang`: Source language.
 - `src_langs`: Distribution of source segments languages, as identified by [FastSpell](https://github.com/mbanon/fastspell)
-- `src_ngrams`: Distribution of the 5 most common n-grams of each order (1-grams to 5-grams) in source segments (not computed in monolingual lite stats mode)
-- `src_sent_tokens`: Distribution of source segments having a certain amount of tokens (more info on tokenization tools [here](tokenizers-info.md)) (not computed in monolingual lite stats mode)
-- `src_sent_tokens_mean`: Mean value of `src_sent_tokens` (not computed in monolingual lite stats mode)
-- `src_sent_tokens_median`: Median value of `src_sent_tokens` (not computed in monolingual lite stats mode)
-- `src_tokens`: Total amount of tokens in source segments (not computed in monolingual lite stats mode)
+- `src_ngrams`: Distribution of the 5 most common n-grams of each order (1-grams to 5-grams) in source segments
+- `src_sent_tokens`: Distribution of source segments having a certain amount of tokens (more info on tokenization tools [here](tokenizers-info.md))
+- `src_sent_tokens_mean`: Mean value of `src_sent_tokens`
+- `src_sent_tokens_median`: Median value of `src_sent_tokens` 
+- `src_tokens`: Total amount of tokens in source segments 
 - `src_top100_domains`: 100 most common domains in source segments, and the amount of segments for each one (only for HPLT parallel corpora)
 - `src_top100_tld`: 100 most common top level domains in source segments (not including subdomains), and the amount of segments for each one (only for HPLT parallel corpora)
-- `src_unique_sents`: Distribution of source segments having a certain amount of tokens, after removing duplicated segments (not computed in monolingual lite stats mode)
+- `src_unique_sents`: Distribution of source segments having a certain amount of tokens, after removing duplicated segments 
 - `timestamp`: Unix timestamp indicating when were the stats obtained.
 - `trg_bytes`: Total size of target segments, uncompressed (only for parallel corpora)
 - `trglang`: Target language (only for parallel corpora)
@@ -109,7 +106,7 @@ The stats generated with this tool come in a handy yaml format with the followin
 - `trg_top100_domains`: 100 most common domains in target segments, and the amount of segments for each one (only for HPLT parallel corpora)
 - `trg_top100_tld`: 100 most common top level domains in target segments (not including subdomains), and the amount of segments for each one (only for HPLT parallel corpora)
 - `trg_unique_sents`: Distribution of target segments having a certain amount of tokens, after removing duplicated segments (only for parallel corpora)
-- `unique_sents`: Total amount of segments (for monolingual corpora) or segment pairs (for parallel corpora), after removing duplicated segments or segment pairs (not computed in monolingual lite stats mode)
+- `unique_sents`: Total amount of segments (for monolingual corpora) or segment pairs (for parallel corpora), after removing duplicated segments or segment pairs
 - `warnings`: List of issues encountered while processing the corpus.
   - `src_warning_tok_xxx_yyy`: The source language is not supported by a dedicated tokenizer, so it fallbacks to the xxx tokenizer with the yyy language (only for parallel corpora).
   - `trg_warning_tok_xxx_yyy`: Same as the above but for the target language (only for parallel corpora).
@@ -129,8 +126,8 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
 - Volumes
   - Documents (only for monolingual documents)
   - Segments
-  - Unique segments (only for monolingual, not computed in monolingual lite stats mode)
-  - Size in tokens (not computed in monolingual lite stats mode), of source (monolingual), or source and target (parallel)
+  - Unique segments (only for monolingual)
+  - Size in tokens, of source (monolingual), or source and target (parallel)
   - Size in characters, of source (monolingual), or source and target (parallel)
   - File size, of source (monolingual), or source and target (parallel)
 - Top 10 domains (excluding subdomains) (when available), of source (monolingual), or source and target (parallel)
@@ -142,9 +139,9 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
     - Number of segments: Shows percentage of automatically identified languages in source (monolingual) or source and target (parallel).
     - Percentage of segments in the declared languge, inside documents (only for monolingual documents)
 - Document Score distribution: Histogram showing the distribution of Document Score (only for monolingual documents)
-- Segment length distribution: Histogram showing the distribution of tokens per segment in source (monolingual) or source and target (parallel), showing total, unique and duplicate segments or segment pairs (not computed in monolingual lite stats mode)
-- Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences being URLs, bad encoding, sentences containing poor language, etc.). (not computed in monolingual lite stats mode)
-- Frequent n-grams: 1-5 more frequent n-grams (not computed in monolingual lite stats mode)
+- Segment length distribution: Histogram showing the distribution of tokens per segment in source (monolingual) or source and target (parallel), showing total, unique and duplicate segments or segment pairs
+- Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences being URLs, bad encoding, sentences containing poor language, etc.). 
+- Frequent n-grams: 1-5 more frequent n-grams
 
 We also display samples for some of the datasets. These are currently obtained out of the HPLTAnalytics tool and all the storage and the logic of which sample/labels must be displayed is currently happening in Javascript. Further versions of HPLTAnalytics will properly handle this.
 
