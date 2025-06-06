@@ -23,12 +23,6 @@ else
 	MONO_CACHE_CMD="/work/preprocess/build/bin/cache -k 1 "        
 fi
 
-if [[ $* == *--lite* ]]
-then
-        LITEFLAG="--lite"
-else
-        LITEFLAG=""
-fi
 
 if [[ $* == *--skip-register-labels* ]]
 then
@@ -289,8 +283,8 @@ if [ "$langformat" == "parallel" ]; then
 	./scripts/map/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.$srclang.langids 1 
 	./scripts/map/parallel-fastspell.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2	
 	#Reduce langs
-	cat $tsv_file_path.$srclang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.srclangs
-	cat $tsv_file_path.$trglang.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.trglangs
+	cat $tsv_file_path.$srclang.langids | sort --temporary-directory=$workdir/tmp --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.srclangs
+	cat $tsv_file_path.$trglang.langids | sort --temporary-directory=$workdir/tmp --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.trglangs
 
     	#Stats from readcorpus
 	echo "Running ReadCorpus..."
@@ -306,10 +300,10 @@ if [ "$langformat" == "parallel" ]; then
 	#Map & reduce volumes
 	bash /work/scripts/map/parallel-volumes.sh $JOBS $tsv_file_path.proc $tsv_file_path.volumes
 	#Map & reduce unique sentence pairs
-	cat $tsv_file_path.proc | cut -f 11 | sort --parallel $JOBS |  uniq -c | wc -l | (read COUNT && sed -e 's/$/\t'$COUNT'/' -i $tsv_file_path.volumes)
+	cat $tsv_file_path.proc | cut -f 11 | sort --temporary-directory=$workdir/tmp --parallel $JOBS |  uniq -c | wc -l | (read COUNT && sed -e 's/$/\t'$COUNT'/' -i $tsv_file_path.volumes)
 	#Map & reduce source & target unique tokens 
-	cat $tsv_file_path.proc |   cut -f 1,9 | grep  '[0-9]' | sort | uniq -c | awk -F " " '{sum[$2]+=$1; uni[$2]+=1} END {for (key in sum) {print key, sum[key], uni[key]}}' | sort -n  > $tsv_file_path.srctokcount
-	cat $tsv_file_path.proc |  cut -f 2,10 | grep  '[0-9]' | sort | uniq -c | awk -F ' ' '{sum[$2]+=$1; uni[$2]+=1} END {for (key in sum) {print key, sum[key], uni[key]}}' | sort -n  > $tsv_file_path.trgtokcount
+	cat $tsv_file_path.proc |   cut -f 1,9 | grep  '[0-9]' | sort --temporary-directory=$workdir/tmp | uniq -c | awk -F " " '{sum[$2]+=$1; uni[$2]+=1} END {for (key in sum) {print key, sum[key], uni[key]}}' | sort -n  > $tsv_file_path.srctokcount
+	cat $tsv_file_path.proc |  cut -f 2,10 | grep  '[0-9]' | sort --temporary-directory=$workdir/tmp | uniq -c | awk -F ' ' '{sum[$2]+=$1; uni[$2]+=1} END {for (key in sum) {print key, sum[key], uni[key]}}' | sort -n  > $tsv_file_path.trgtokcount
 	
 	rm -r $yaml_file_path	
 	touch $yaml_file_path
@@ -342,8 +336,8 @@ if [ "$langformat" == "parallel" ]; then
                 parallel --jobs $JOBS --pipepart -a $tsv_file_path.proc cut -f $TRG_COLUMN  > $tsv_file_path.$trglang.$SUFFIX                
          
                 #Taking SIX most common ngrams because probably one of them will be the empty spaces and will be removed in the awk below
-                sort $tsv_file_path.$srclang.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 6 |   awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$srclang".ngrams"
-                sort $tsv_file_path.$trglang.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 6 |   awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$trglang".ngrams"
+                sort $tsv_file_path.$srclang.$SUFFIX --temporary-directory=$workdir/tmp --parallel $JOBS | uniq -c | sort -nr --temporary-directory=$workdir/tmp --parallel $JOBS | head -n 6 |   awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$srclang".ngrams"
+                sort $tsv_file_path.$trglang.$SUFFIX --temporary-directory=$workdir/tmp --parallel $JOBS | uniq -c | sort -nr --temporary-directory=$workdir/tmp --parallel $JOBS | head -n 6 |   awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$trglang".ngrams"
 
         done
         python3 ./scripts/reduce/addngrams.py $tsv_file_path.$srclang".ngrams"  $yaml_file_path "src"
@@ -383,17 +377,17 @@ elif [ "$langformat" == "mono" ]; then
 		#Volumes
 		cat $tsv_file_path.docproc | cut -f 1 | parallel -j $JOBS --pipe awk -F \'\\t\' \'length\(\$1\) == 0{next\;}{sum0+=1\; sum1+=\$1\;} END {print sum0 \"\\t\" sum1 }\'  | awk -F "\t" '{sum0+=$1; sum1+=$2;} END {print sum0 "\t" sum1}'  > $tsv_file_path.docvolumes
 		#Map & reduce document sentences
-		cat $tsv_file_path.docproc |  cut -f 1 |  grep  '[0-9]'  | sort | uniq -c | awk -F " " '{sum[$2]+=$1;} END {for (key in sum) {print sum[key], key}}'  > $tsv_file_path.docsents
+		cat $tsv_file_path.docproc |  cut -f 1 |  grep  '[0-9]'  | sort --temporary-directory=$workdir/tmp | uniq -c | awk -F " " '{sum[$2]+=$1;} END {for (key in sum) {print sum[key], key}}'  > $tsv_file_path.docsents
 		#WDS
-		cat $tsv_file_path.docproc | cut -f 2 | sort --parallel $JOBS |  uniq -c > $tsv_file_path.wds
+		cat $tsv_file_path.docproc | cut -f 2 | sort --temporary-directory=$workdir/tmp --parallel $JOBS |  uniq -c > $tsv_file_path.wds
 		#sents in doclang
-		cat $tsv_file_path.docproc | cut -f 3 | sort --parallel $JOBS |  uniq -c  > $tsv_file_path.doclangs
+		cat $tsv_file_path.docproc | cut -f 3 | sort--temporary-directory=$workdir/tmp --parallel $JOBS |  uniq -c  > $tsv_file_path.doclangs
 		#collections
-		cat $tsv_file_path.docproc | cut -f 4 | sort --parallel $JOBS |  uniq -c | sort -nr  > $tsv_file_path.collections
+		cat $tsv_file_path.docproc | cut -f 4 | sort --temporary-directory=$workdir/tmp --parallel $JOBS |  uniq -c | sort -nr  > $tsv_file_path.collections
 		#domains
-		cat $tsv_file_path.docproc | cut -f 5 | sort --parallel $JOBS |  uniq -c | sort -nr  | head -n 101  > $tsv_file_path.domains
+		cat $tsv_file_path.docproc | cut -f 5 | sort --temporary-directory=$workdir/tmp --parallel $JOBS |  uniq -c | sort --temporary-directory=$workdir/tmp -nr  | head -n 101  > $tsv_file_path.domains
 		#tlds
-		cat $tsv_file_path.docproc | cut -f 6 | sort --parallel $JOBS |  uniq -c | sort -nr  | head -n 101 > $tsv_file_path.tlds		
+		cat $tsv_file_path.docproc | cut -f 6 | sort --temporary-directory=$workdir/tmp --parallel $JOBS |  uniq -c | sort --temporary-directory=$workdir/tmp -nr  | head -n 101 > $tsv_file_path.tlds		
 		
 		#doing this for compatibility with non-document formats in the next steps
 		cat $tsv_file_path.docproc | cut -f 7 | awk 'length() == 0{next;} {print;}' > $tsv_file_path 
@@ -410,7 +404,7 @@ elif [ "$langformat" == "mono" ]; then
 					cat $saved_file_path | python3 ./scripts/registerlabels.py  > $tsv_file_path.rl
 				fi
 				deactivate
-			        cat $tsv_file_path.rl | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.rlcounts
+			        cat $tsv_file_path.rl | sort --temporary-directory=$workdir/tmp --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.rlcounts
 		        else
         			echo "Register labels not supported for $srclang"
 		        fi
@@ -440,7 +434,7 @@ elif [ "$langformat" == "mono" ]; then
 	#Force Fasttext download, in case it does not exist in this environment, to avoid doing it in parallel
 	python3 /work/scripts/force-fasttext-download.py $srclang        
         ./scripts/map/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.langids 1 
-        cat $tsv_file_path.langids | sort --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.srclangs
+        cat $tsv_file_path.langids | sort --temporary-directory=$workdir/tmp  --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.srclangs
 
 
 	#Read corpus mono
@@ -457,9 +451,9 @@ elif [ "$langformat" == "mono" ]; then
 	echo "Mapping & Reducing volumes..."
 	bash /work/scripts/map/parallel-volumes-mono.sh $JOBS $tsv_file_path.proc $tsv_file_path.volumes
 	#Map & reduce unique sentences
-	cat $tsv_file_path.proc | cut -f 5 | sort --parallel $JOBS |  uniq -c | wc -l | (read COUNT && sed -e 's/$/\t'$COUNT'/' -i $tsv_file_path.volumes)
+	cat $tsv_file_path.proc | cut -f 5 | sort --temporary-directory=$workdir/tmp --parallel $JOBS |  uniq -c | wc -l | (read COUNT && sed -e 's/$/\t'$COUNT'/' -i $tsv_file_path.volumes)
 	#Map & reduce source & target unique tokens 
-	cat $tsv_file_path.proc | cut -f 1,5 | grep  '[0-9]' | sort | uniq -c | awk -F " " '{sum[$2]+=$1; uni[$2]+=1} END {for (key in sum) {print key, sum[key], uni[key]}}' | sort -n  > $tsv_file_path.srctokcount
+	cat $tsv_file_path.proc | cut -f 1,5 | grep  '[0-9]' | sort --temporary-directory=$workdir/tmp | uniq -c | awk -F " " '{sum[$2]+=$1; uni[$2]+=1} END {for (key in sum) {print key, sum[key], uni[key]}}' | sort -n  > $tsv_file_path.srctokcount
 
 	rm -r $yaml_file_path	
 	touch $yaml_file_path
@@ -500,7 +494,7 @@ elif [ "$langformat" == "mono" ]; then
                 parallel --jobs $JOBS --pipepart -a $tsv_file_path.proc cut -f $SRC_COLUMN  > $tsv_file_path.$SUFFIX
 
                 #Taking SIX most common ngrams because probably one of them will be the empty spaces and will be removed in the awk below
-                sort $tsv_file_path.$SUFFIX --parallel $JOBS | uniq -c | sort -nr --parallel $JOBS | head -n 6 | awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path".ngrams"
+                sort --temporary-directory=$workdir/tmp $tsv_file_path.$SUFFIX --parallel $JOBS | uniq -c | sort --temporary-directory=$workdir/tmp -nr --parallel $JOBS | head -n 6 | awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path".ngrams"
         done
         python3 ./scripts/reduce/addngrams.py $tsv_file_path".ngrams"  $yaml_file_path "src"
 
