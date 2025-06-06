@@ -391,7 +391,9 @@ elif [ "$langformat" == "mono" ]; then
 		
 		#doing this for compatibility with non-document formats in the next steps
 		cat $tsv_file_path.docproc | cut -f 7 | awk 'length() == 0{next;} {print;}' > $tsv_file_path 
-		rm $tsv_file_path.docproc
+		if [ "$DEBUGFLAG" = false ]; then
+			rm $tsv_file_path.docproc
+		fi
 						
 		#Register labels
 		if [ "$SKIPRLFLAG" = false ]; then		
