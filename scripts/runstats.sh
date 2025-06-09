@@ -446,7 +446,7 @@ elif [ "$langformat" == "mono" ]; then
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
                 source /work/venvs/venv-bnlp/bin/activate
         fi	
-	bash /work/scripts/map/parallel-readcorpus-mono.sh $JOBS $tsv_file_path $srclang $tsv_file_path.proc	
+	bash /work/scripts/map/parallel-readcorpus-mono.sh $JOBS_READCORPUS $tsv_file_path $srclang $tsv_file_path.proc	
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
 		deactivate
 	fi
