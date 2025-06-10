@@ -5,5 +5,5 @@ unzip ca-es.txt.zip
 paste tldr-pages.ca-es.es tldr-pages.ca-es.ca > es-ca.tsv
 rm ca-es.txt.zip  LICENSE  tldr-pages*  README
 cd ..
-bash /work/scripts/runstats.sh uploaded_corpora/es-ca.tsv yaml_dir/test.es-ca.yaml es ca tsv parallel --no-cache
+bash /work/scripts/runstats.sh uploaded_corpora/es-ca.tsv yaml_dir/test.parallel-tsv.yaml es ca tsv parallel --no-cache
 rm uploaded_corpora/es-ca.*

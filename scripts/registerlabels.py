@@ -18,7 +18,8 @@ def initialization():
     groupO = parser.add_argument_group("Options")
     groupO.add_argument("--field", type=str, default="text", help="Name of the JSON field that contains the text to be analyzed")
     groupO.add_argument("--raw", action="store_true", help="True if the input is already raw, non-json text")
-    
+    groupO.add_argument("--batchsize", type=int, default=256, help="GPU batch size")
+        
     groupL = parser.add_argument_group('Logging')
     groupL.add_argument('-q', '--quiet', action='store_true', help='Silent logging mode')
     groupL.add_argument('--debug', action='store_true', help='Debug logging mode')
@@ -55,8 +56,7 @@ class RegisterLabels:
             outputs = self.model(**inputs)
             
         # Apply sigmoid to the logits to get probabilities
-        probabilities = torch.sigmoid(outputs.logits).squeeze()
-            
+        probabilities = torch.sigmoid(outputs.logits).squeeze()            
         predicted_label_indices = (probabilities>self.threshold).nonzero(as_tuple=True)[0]
         
         # Extract readable labels using id2label
@@ -66,8 +66,29 @@ class RegisterLabels:
         refined_labels = refine_labels(predicted_labels)
         
         return refined_labels
-        
+    
+    def get_labels_batch(self, docs_text):    
+        # Tokenize text
+        inputs = self.tokenizer(
+                docs_text,
+                return_tensors="pt",
+                padding=True,
+                truncation=True,
+                max_length=512).to(self.device)
 
+        with torch.no_grad(), torch.autocast(device_type=self.device.type, dtype=torch.float16):
+            outputs = self.model(**inputs)
+        
+        # Apply sigmoid to the logits to get probabilities        
+        probabilities = torch.sigmoid(outputs.logits).squeeze()
+        
+        refined_labels = []        
+        for prob in probabilities:          
+            predicted_label_indices = (prob>self.threshold).nonzero(as_tuple=True)[0]  
+            predicted_labels = [self.model.config.id2label[idx.item()] for idx in predicted_label_indices]
+            refined_labels.append(refine_labels(predicted_labels))
+        #assert len(docs_text) == len(refined_labels)            
+        return refined_labels
 
 def is_main_class(label):
     return (label in  ["LY",  "SP", "ID", "NA", "HI", "IP", "IN", "OP"])     
@@ -153,12 +174,11 @@ def refine_labels(filtered_labels):
         logging.error(" =============== YOU SHOULD NOT BE READING THIS ====================")
 
 
-
-
 def perform_identification(args):
     time_start = timeit.default_timer()
     rl = RegisterLabels()    
     docs = 0    
+    buffer=[]
     for line in args.input:
         docs = docs+1
         if not args.raw:
@@ -166,9 +186,23 @@ def perform_identification(args):
             doc_text = doc.get(args.field)
         else:
             doc_text = line
-        labels = rl.get_labels(doc_text)
-        for l in labels: #one label, or two if MT is one of them
-            args.output.write(l.strip()+"\n")
+        buffer.append(doc_text)            
+        if len(buffer) < args.batchsize:
+
+            continue
+        else:
+            batch_labels = rl.get_labels_batch(buffer)
+            buffer=[]
+            for doc_labels in batch_labels:
+                for l in doc_labels:
+                    args.output.write(l.strip()+"\n")
+
+    #remaining docs in batch
+    if len(buffer) > 0:
+        batch_labels = rl.get_labels_batch(buffer)
+        for doc_labels in batch_labels: #one label, or two if MT is one of them
+            for l in doc_labels:
+                args.output.write(l.strip()+"\n")
 
     elapsed_time = timeit.default_timer() - time_start
     logging.info("Total: {0} docs".format(docs))
