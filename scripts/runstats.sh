@@ -311,7 +311,13 @@ if [ "$langformat" == "parallel" ]; then
 	touch $yaml_file_path
 	
 	#Metadata
+	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
+                source /work/venvs/venv-bnlp/bin/activate       
+        fi
 	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang $trglang $bicleaner_ai_metadata
+	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
+         	deactivate
+        fi
 	#Volumes
 	python3 /work/scripts/reduce/write_volumes.py $tsv_file_path.volumes $yaml_file_path
 	#Unique token counts
@@ -464,7 +470,13 @@ elif [ "$langformat" == "mono" ]; then
 
 	#Write metadata
 	echo "Writing metadata"
+	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
+                source /work/venvs/venv-bnlp/bin/activate       
+        fi
 	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang 
+	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
+                deactivate
+        fi
 	#Write docs stats
 	if [ "$format" == "docs" ]; then
 		python3 /work/scripts/reduce/write_docstats.py $yaml_file_path $tsv_file_path.docvolumes $tsv_file_path.docsents $tsv_file_path.wds $tsv_file_path.doclangs $tsv_file_path.collections $tsv_file_path.domains $tsv_file_path.tlds
