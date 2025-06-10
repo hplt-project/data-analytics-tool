@@ -13,6 +13,7 @@ JOBS=$(($JOBS>1 ? $JOBS : 1))
 
 JOBS_READCORPUS=$(($JOBS/3*2))
 
+GPU_BATCHSIZE=256
 
 if [[ $* == *--no-cache* ]]
 then
@@ -409,9 +410,9 @@ elif [ "$langformat" == "mono" ]; then
 		        	source /work/venvs/venv-rl/bin/activate
 		        	echo "Running register labels..."   	
 		        	if [ "$extension" == "zst" ]; then
-					zstdcat $saved_file_path | python3 ./scripts/registerlabels.py  > $tsv_file_path.rl
+					zstdcat $saved_file_path | python3 ./scripts/registerlabels.py --batchsize $GPU_BATCHSIZE  > $tsv_file_path.rl
 				else
-					cat $saved_file_path | python3 ./scripts/registerlabels.py  > $tsv_file_path.rl
+					cat $saved_file_path | python3 ./scripts/registerlabels.py  --batchsize $GPU_BATCHSIZE> $tsv_file_path.rl
 				fi
 				deactivate
 			        cat $tsv_file_path.rl | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.rlcounts
