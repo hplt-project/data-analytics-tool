@@ -68,15 +68,15 @@ export function codeToLangTransformer(languagesArray) {
         value: correctCode,
         label:
           getEnglishName(correctCode) === null &&
-          duplicateLanguages.includes(languageNames.of(correctCode))
+            duplicateLanguages.includes(languageNames.of(correctCode))
             ? `${languageNames.of(correctCode)} (${correctCode})`
             : getEnglishName(correctCode) !== null &&
               duplicateLanguages.includes(getEnglishName(correctCode))
-            ? `${getEnglishName(correctCode)} (${correctCode})`
-            : getEnglishName(correctCode) === null &&
-              !duplicateLanguages.includes(languageNames.of(correctCode))
-            ? `${languageNames.of(correctCode)}`
-            : `${getEnglishName(correctCode)}`,
+              ? `${getEnglishName(correctCode)} (${correctCode})`
+              : getEnglishName(correctCode) === null &&
+                !duplicateLanguages.includes(languageNames.of(correctCode))
+                ? `${languageNames.of(correctCode)}`
+                : `${getEnglishName(correctCode)}`,
         id: idx,
       };
     } catch (error) {
@@ -160,6 +160,17 @@ export const DataFormatter = (number) => {
   }
 };
 
+export function convertSize(sizeBytes) {
+  if (sizeBytes === 0) return "0B";
+
+  const sizeName = ["B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB"];
+  const i = Math.floor(Math.log(sizeBytes) / Math.log(1024));
+  const p = Math.pow(1024, i);
+  const s = Number((sizeBytes / p).toFixed(2));
+
+  return `${s} ${sizeName[i]}`;
+}
+
 export const percFormatter = (number) => {
   return number.toString() + "%";
 };
@@ -194,19 +205,19 @@ export const handleDownload = async (filename) => {
 
 export function multipleFilter(item, value) {
   const name = item.originalName.toLowerCase();
-  const languagePair =
+  const languagePair = !Array.isArray(item.language) ? item.language :
     item.language.length > 1
       ? `${item.language[0].label.toLowerCase()}-${item.language[1].label.toLowerCase()}`
       : item.language[0].label.toLowerCase();
-  const invertedLangPair =
+  const invertedLangPair = !Array.isArray(item.language) ? item.language :
     item.language.length > 1
       ? `${item.language[1].label.toLowerCase()}-${item.language[0].label.toLowerCase()}`
       : item.language[0].label.toLowerCase();
   const collection = item.collection.toLowerCase();
 
-  const srcCode = item.language[0].value.toLowerCase();
+  const srcCode = !Array.isArray(item.language) ? item.language : item.language[0].value.toLowerCase();
 
-  const trgCode =
+  const trgCode = !Array.isArray(item.language) ? item.language :
     item.language.length > 1 ? item.language[1].value.toLowerCase() : "";
 
   let search = value.toLowerCase();
