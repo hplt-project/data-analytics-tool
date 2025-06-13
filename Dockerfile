@@ -21,7 +21,6 @@ RUN mkdir -p /work/venvs/
 #TO DO: uploaded_corpora and yaml_dir should be volumes
 
 COPY deployment/requirements.txt /work/deployment/requirements.txt
-COPY deployment/requirements-hf.txt /work/deployment/requirements-hf.txt
 COPY deployment/requirements-rl.txt /work/deployment/requirements-rl.txt
 
 RUN apt-get update && \
@@ -43,11 +42,13 @@ RUN python3.10 -m venv /work/venvs/venv-bhr
 RUN python3.10 -m venv /work/venvs/venv-bc
 RUN python3.10 -m venv /work/venvs/venv-bcai
 RUN python3.10 -m venv /work/venvs/venv-bnlp
-RUN python3.10 -m venv /work/venvs/venv-hf
 RUN python3.10 -m venv /work/venvs/venv-rl
 
 RUN cd /work && git clone https://github.com/ZJaume/tmxt && git clone https://github.com/kpu/preprocess && cd
 RUN cd /work/preprocess &&  rm -fr build &&  mkdir build && cd build  && cmake .. && make && cd
+RUN cd /work && git clone https://github.com/pablop16n/web-docs-scorer && cd web-docs-scorer && git checkout tags/1.1.2 && python3.10 -m pip install .
+RUN cd /work && git clone -b openlid193 https://github.com/zjaume/heli-otr.git && cd heli-otr  && python3 -m  pip install .  && heli-convert 
+
 
 RUN . /work/venvs/venv-mc/bin/activate && \
     python3.10 -m pip install -U pip  && \
@@ -91,14 +92,6 @@ RUN . /work/venvs/venv-bnlp/bin/activate && \
     python3.10 -m pip install bnlp-toolkit==4.0.3 &&\
     echo "import nltk; nltk.download('punkt'); nltk.download('punkt_tab'); nltk.download('stopwords');" | python3.10
     
-RUN . /work/venvs/venv-hf/bin/activate && \
-    python3.10 -m pip install -U pip  && \
-    python3.10 -m pip install -U wheel && \
-    python3.10 -m pip install -U setuptools && \
-    python3.10 -m pip install -r /work/deployment/requirements-hf.txt && \
-    cd /work && git clone https://github.com/pablop16n/web-docs-scorer && cd web-docs-scorer && git checkout tags/1.1.2 && python3.10 -m pip install . &&\
-    cd /work && git clone -b openlid193 https://github.com/zjaume/heli-otr.git && cd heli-otr  && python3 -m  pip install .  && heli-convert 
-
 RUN . /work/venvs/venv-rl/bin/activate && \
     python3.10 -m pip install -U pip  && \
     python3.10 -m pip install -U wheel && \
@@ -123,7 +116,7 @@ COPY server.py /work/
 COPY scripts/ /work/scripts/
 COPY tests/ /work/tests/
 
-RUN cd /work/web-docs-scorer && git checkout tags/1.0.0 && python3.10 -m pip install .
+#RUN cd /work/web-docs-scorer && git checkout tags/1.0.0 && python3.10 -m pip install .
 RUN cd /work && cd etnltk && python3.10 -m pip install .
 COPY deployment/docker-entrypoint.sh /work/deployment/docker-entrypoint.sh
 
