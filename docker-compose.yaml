@@ -2,7 +2,7 @@ services:
     dat-webapp:
         container_name: dat-webapp
         image: dat-webapp:latest
-        #runtime: nvidia
+        runtime: nvidia  #Comment this if there are no GPUs in your machine
         build:
             context: .
             dockerfile: Dockerfile

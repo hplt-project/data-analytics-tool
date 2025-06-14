@@ -40,6 +40,12 @@ else
 fi
 
 
+if [ "$format" = "hplt" ] || [ "$format" = "nemotron" ] || [ "$format" = "fineweb" ]; then
+	DOCS=true
+else
+	DOCS=false
+fi
+
 if ! [ -x "$(command -v nvidia-smi)" ]; then
 	echo 'Warning: No GPUs detected..' >&2
 	GPUS=0
@@ -308,7 +314,7 @@ if [ "$langformat" == "parallel" ]; then
 	cat $tsv_file_path.proc |   cut -f 1,9 | grep  '[0-9]' | LC_ALL=C sort -S 50% --compress-program=zstd | uniq -c | awk -F " " '{sum[$2]+=$1; uni[$2]+=1} END {for (key in sum) {print key, sum[key], uni[key]}}' | sort -n  > $tsv_file_path.srctokcount
 	cat $tsv_file_path.proc |  cut -f 2,10 | grep  '[0-9]' | LC_ALL=C sort -S 50% --compress-program=zstd | uniq -c | awk -F ' ' '{sum[$2]+=$1; uni[$2]+=1} END {for (key in sum) {print key, sum[key], uni[key]}}' | sort -n  > $tsv_file_path.trgtokcount
 	
-	rm -r $yaml_file_path	
+	rm -rf $yaml_file_path	
 	touch $yaml_file_path
 	
 	#Metadata
@@ -365,7 +371,7 @@ elif [ "$langformat" == "mono" ]; then
         	cp $saved_file_path $workdir
 		filename=$(basename "$saved_file_path" )
                 tsv_file_path="$workdir/$filename" #if the input file is in tsv format
-	elif [ "$format" == "docs" ]; then
+	elif [ "$DOCS" = true ]; then
 		echo "Extracting documents..."
                 # Get the directory path and filename without extension
                 original_filename=$(basename -- "$saved_file_path")
@@ -374,11 +380,12 @@ elif [ "$langformat" == "mono" ]; then
                 # Create the new file path with the "tsv" extension                
                 tsv_file_path="$workdir/$filename.tsv"
                 
-                if [ "$extension" == "zst" ]; then
-                	zstdcat $saved_file_path | bash /work/scripts/map/parallel-readdocuments.sh $JOBS - $srclang $tsv_file_path.docproc
- 		else
-			cat $saved_file_path | bash /work/scripts/map/parallel-readdocuments.sh $JOBS - $srclang $tsv_file_path.docproc
-		fi		
+                if [ "$extension" == "zst" ] || [ "$extension" == "zstd" ] ; then
+		        zstdcat $saved_file_path | bash /work/scripts/map/parallel-readdocuments.sh $JOBS - $srclang $tsv_file_path.docproc $format
+                else
+                	cat $saved_file_path | bash /work/scripts/map/parallel-readdocuments.sh $JOBS - $srclang $tsv_file_path.docproc $format
+                fi
+
 
 		echo "Mapping & Reducing document volumes"
 		#Map & reduce document volumes
@@ -409,7 +416,7 @@ elif [ "$langformat" == "mono" ]; then
 		        if [[ " ${registerlabels_langs[*]} " =~ " $srclang " ]]; then	        
 		        	source /work/venvs/venv-rl/bin/activate
 		        	echo "Running register labels..."   	
-		        	if [ "$extension" == "zst" ]; then
+		        	if [ "$extension" == "zst" ] || [ "$extension" == "zstd" ]; then
 					zstdcat $saved_file_path | python3 ./scripts/registerlabels.py --batchsize $GPU_BATCHSIZE  > $tsv_file_path.rl
 				else
 					cat $saved_file_path | python3 ./scripts/registerlabels.py  --batchsize $GPU_BATCHSIZE> $tsv_file_path.rl
@@ -466,7 +473,7 @@ elif [ "$langformat" == "mono" ]; then
 	#Map & reduce source & target unique tokens 
 	cat $tsv_file_path.proc | cut -f 1,5 | grep  '[0-9]' | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS  | uniq -c | awk -F " " '{sum[$2]+=$1; uni[$2]+=1} END {for (key in sum) {print key, sum[key], uni[key]}}' | sort -n  > $tsv_file_path.srctokcount
 
-	rm -r $yaml_file_path	
+	rm -rf $yaml_file_path	
 	touch $yaml_file_path
 
 	#Write metadata
@@ -479,7 +486,7 @@ elif [ "$langformat" == "mono" ]; then
                 deactivate
         fi
 	#Write docs stats
-	if [ "$format" == "docs" ]; then
+	if [ "$DOCS" = true ]; then
 		python3 /work/scripts/reduce/write_docstats.py $yaml_file_path $tsv_file_path.docvolumes $tsv_file_path.docsents $tsv_file_path.wds $tsv_file_path.doclangs $tsv_file_path.collections $tsv_file_path.domains $tsv_file_path.tlds
 	fi
 	#Volumes
@@ -500,7 +507,7 @@ elif [ "$langformat" == "mono" ]; then
 
 	
 	#ngrams
-	rm -f  $tsv_file_path".ngrams"
+	rm -rf  $tsv_file_path".ngrams"
 	
         echo "Computing ngrams"
         for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
