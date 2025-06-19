@@ -37,7 +37,6 @@ export default function Uploader({ languageList }) {
 
 	const [uploadStatus, setUploadStatus] = useState("");
 
-	const [cmdStatus, setCmdStatus] = useState("");
 	const [missingFile, setMissingFile] = useState(false);
 	const [missingLanguage, setMissingLanguage] = useState(false);
 
@@ -76,7 +75,7 @@ export default function Uploader({ languageList }) {
 				const formdata = new FormData();
 
 				Object.entries(data).forEach(([key, value]) => {
-			
+
 					if (key === "corpus") {
 						formdata.set(key, value[0]);
 					} else {
@@ -143,7 +142,7 @@ export default function Uploader({ languageList }) {
 				formdata.set("trglang", "-");
 			}
 
-			if( status || docs){
+			if (status || docs) {
 				formdata.set("lang-format", "mono")
 			}
 
@@ -159,11 +158,9 @@ export default function Uploader({ languageList }) {
 				const res = await axios(config);
 				if (res.status === 200) {
 					setCmd(res.data);
-					setCmdStatus("");
 				}
 			} catch (err) {
 				setFailedCMD(true);
-				setCmdStatus("");
 				toastMessage("cmd");
 				console.error(err, "Request failed ");
 			}
@@ -172,7 +169,7 @@ export default function Uploader({ languageList }) {
 			toastMessage("language");
 		}
 	}
-	
+
 
 	return (
 		<div className={styles["main-container"]}>
@@ -217,21 +214,21 @@ export default function Uploader({ languageList }) {
 			)}
 			{cmd && (
 				<div className={styles.loaderContainer}>
-				<div className={styles.cmd}>
-					<button className={styles.closeCmd} onClick={() => setCmd("")}>
-						Close <XCircle strokeWidth={1.5} className={styles.closeIcon} />
-					</button>
-					<div className={styles.cmdContainer}>
-						<p>{cmd}</p>
-					</div>
-					<CopyToClipboard text={cmd}>
-						<button onClick={() => toast.success("CMD Copied to clipboard!")}>
-							Copy CMD
-							<Copy className={styles.copyIcon} strokeWidth={1.3} />
+					<div className={styles.cmd}>
+						<button className={styles.closeCmd} onClick={() => setCmd("")}>
+							Close <XCircle strokeWidth={1.5} className={styles.closeIcon} />
 						</button>
-					</CopyToClipboard>
-					<Toaster />
-				</div>
+						<div className={styles.cmdContainer}>
+							<p>{cmd}</p>
+						</div>
+						<CopyToClipboard text={cmd}>
+							<button onClick={() => toast.success("CMD Copied to clipboard!")}>
+								Copy CMD
+								<Copy className={styles.copyIcon} strokeWidth={1.3} />
+							</button>
+						</CopyToClipboard>
+						<Toaster />
+					</div>
 				</div>
 			)}
 
@@ -251,22 +248,6 @@ export default function Uploader({ languageList }) {
 					</div>
 				</div>
 			)}
-			{/* {cmdStatus === "UPLOADING" && (
-				<div className={styles.loaderContainer}>
-					<div className={styles.loader}>
-						<h1>Processing file and generating CMD...</h1>
-						<ColorRing
-							visible={true}
-							height="100"
-							width="100"
-							color="#4fa94d"
-							ariaLabel="oval-loading"
-							wrapperStyle={{}}
-							wrapperClass=""
-						/>
-					</div>
-				</div>
-			)} */}
 			<form id="upload-form" encType="multipart/form-data">
 				<div className={styles["form-group"]}>
 					<div className={styles["input-group"]}>
@@ -303,6 +284,66 @@ export default function Uploader({ languageList }) {
 					</div>
 					<div className={styles["inputs"]}>
 						<div className={styles["form-check-inline"]}>
+							<label className={styles["form-label"]} htmlFor="lang-format-mono">
+								Language
+							</label>
+						</div>
+						<div className={styles["input-cont"]}>
+							<input
+								className={styles["form-check-input"]}
+								type="radio"
+								name="lang-format-mono"
+								id="lang-format-mono"
+								value="mono"
+								checked={formatValue === "mono"}
+								onClick={(e) => {
+									if (e.target.checked) {
+										setStatus(true)
+										setFormatValue("mono")
+									}
+								}}
+								{...register("lang-format")}
+							/>
+							<label
+								className={styles["form-check-label"]}
+								htmlFor="lang-format-mono"
+							>
+								Mono
+							</label>
+						</div>
+						<div
+							className={[
+								styles["form-check"],
+								styles["form-check-inline"],
+								styles[docs ? "hidden" : ""]
+							].join(" ")}
+						>
+							<input
+								className={styles["form-check-input"]}
+								type="radio"
+								name="lang-format-parallel"
+								id="lang-format-parallel"
+								value="parallel"
+								onClick={(e) => {
+									if (e.target.checked) {
+										setStatus(false)
+										setFormatValue("parallel")
+									}
+								}}
+								checked={formatValue === "parallel"}
+								{...register("lang-format")}
+							/>
+
+							<label
+								className={styles["form-check-label"]}
+								htmlFor="lang-format-parallel"
+							>
+								Parallel
+							</label>
+						</div>
+					</div>
+					<div className={styles["inputs"]}>
+						<div className={styles["form-check-inline"]}>
 							<label className={styles["form-label"]} htmlFor="corpus-format">
 								Corpus format
 							</label>
@@ -318,10 +359,10 @@ export default function Uploader({ languageList }) {
 								onClick={(e) => {
 									if (e.target.checked) {
 										setDocs(false);
-										if(formatValue === "mono"){
+										if (formatValue === "mono") {
 											setFormatValue("mono")
 										}
-										if(formatValue === "parallel"){
+										if (formatValue === "parallel") {
 											setFormatValue("parallel")
 										}
 									}
@@ -350,10 +391,10 @@ export default function Uploader({ languageList }) {
 								onClick={(e) => {
 									if (e.target.checked) {
 										setDocs(false);
-										if(formatValue === "mono"){
+										if (formatValue === "mono") {
 											setFormatValue("mono")
 										}
-										if(formatValue === "parallel"){
+										if (formatValue === "parallel") {
 											setFormatValue("parallel")
 										}
 									}
@@ -367,7 +408,7 @@ export default function Uploader({ languageList }) {
 								TMX
 							</label>
 						</div>
-						<div
+						{formatValue === "mono" && <><div
 							className={[
 								styles["form-check"],
 								styles["form-check-inline"],
@@ -377,8 +418,8 @@ export default function Uploader({ languageList }) {
 								className={styles["form-check-input"]}
 								type="radio"
 								name="corpus-format"
-								id="corpus-format-docs"
-								value="docs"
+								id="corpus-format-hplt"
+								value="hplt"
 								onClick={(e) => {
 									if (e.target.checked) {
 										setDocs(true);
@@ -390,72 +431,67 @@ export default function Uploader({ languageList }) {
 							/>
 							<label
 								className={styles["form-check-label"]}
-								htmlFor="corpus-format-docs"
+								htmlFor="corpus-format-hplt"
 							>
-								Documents
-							</label>
-						</div>
-					</div>
-
-					<div className={styles["inputs"]}>
-						<div className={styles["form-check-inline"]}>
-							<label className={styles["form-label"]} htmlFor="lang-format-mono">
-								Language
-							</label>
-						</div>
-						<div className={styles["input-cont"]}>
-							<input
-								className={styles["form-check-input"]}
-								type="radio"
-								name="lang-format-mono"
-								id="lang-format-mono"
-								value="mono"
-								checked={formatValue === "mono"}
-								onClick={(e) => {
-									if(e.target.checked){
-										setStatus(true)
-										setFormatValue("mono")
-									} 
-								}}
-								{...register("lang-format")}
-							/>
-							<label
-								className={styles["form-check-label"]}
-								htmlFor="lang-format-mono"
-							>
-								Mono
+								HPLT
 							</label>
 						</div>
 							<div
 								className={[
 									styles["form-check"],
 									styles["form-check-inline"],
-									styles[docs? "hidden" : ""]
 								].join(" ")}
 							>
 								<input
 									className={styles["form-check-input"]}
 									type="radio"
-									name="lang-format-parallel"
-									id="lang-format-parallel"
-									value="parallel"
+									name="corpus-format"
+									id="corpus-format-fineweb"
+									value="fineweb"
 									onClick={(e) => {
-										if(e.target.checked){
-											setStatus(false)
+										if (e.target.checked) {
+											setDocs(true);
+											setStatus(true)
 											setFormatValue("parallel")
-										} 
+										}
 									}}
-									checked={formatValue === "parallel"}
-									{...register("lang-format")}
+									{...register("corpus-format")}
 								/>
-
 								<label
 									className={styles["form-check-label"]}
-									htmlFor="lang-format-parallel"
+									htmlFor="corpus-format-fineweb"
 								>
-									Parallel
+									Fineweb
 								</label>
 							</div>
+							<div
+								className={[
+									styles["form-check"],
+									styles["form-check-inline"],
+								].join(" ")}
+							>
+								<input
+									className={styles["form-check-input"]}
+									type="radio"
+									name="corpus-format"
+									id="corpus-format-nemotron"
+									value="nemotron"
+									onClick={(e) => {
+										if (e.target.checked) {
+											setDocs(true);
+											setStatus(true)
+											setFormatValue("mono")
+										}
+									}}
+									{...register("corpus-format")}
+								/>
+								<label
+									className={styles["form-check-label"]}
+									htmlFor="corpus-format-nemotron"
+								>
+									Nemotron
+								</label>
+							</div></>}
 					</div>
 					<div className={styles["lang-inputs"]}>
 						<div className={styles["dropdown-cont"]}>
@@ -475,7 +511,7 @@ export default function Uploader({ languageList }) {
 									setValue("srclang", value.value);
 								}}
 								style={
-									uploadStatus === "UPLOADING" || cmd? { position: "static" } : {}
+									uploadStatus === "UPLOADING" || cmd ? { position: "static" } : {}
 								}
 							/>
 						</div>
@@ -497,7 +533,7 @@ export default function Uploader({ languageList }) {
 										setValue("trglang", value.value);
 									}}
 									style={
-										uploadStatus === "UPLOADING"  || cmd? { position: "static" } : {}
+										uploadStatus === "UPLOADING" || cmd ? { position: "static" } : {}
 									}
 								/>
 							</div>
