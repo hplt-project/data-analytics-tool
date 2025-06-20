@@ -26,8 +26,6 @@ export default function Uploader({ languageList }) {
 
 	const [status, setStatus] = useState(false);
 
-	const [docs, setDocs] = useState(false);
-
 	const [formatValue, setFormatValue] = useState("parallel");
 
 	const [cmd, setCmd] = useState("");
@@ -138,11 +136,11 @@ export default function Uploader({ languageList }) {
 			});
 
 
-			if (!data.trglang || status || docs) {
+			if (!data.trglang || status) {
 				formdata.set("trglang", "-");
 			}
 
-			if (status || docs) {
+			if (status) {
 				formdata.set("lang-format", "mono")
 			}
 
@@ -315,7 +313,6 @@ export default function Uploader({ languageList }) {
 							className={[
 								styles["form-check"],
 								styles["form-check-inline"],
-								styles[docs ? "hidden" : ""]
 							].join(" ")}
 						>
 							<input
@@ -358,7 +355,6 @@ export default function Uploader({ languageList }) {
 								defaultChecked
 								onClick={(e) => {
 									if (e.target.checked) {
-										setDocs(false);
 										if (formatValue === "mono") {
 											setFormatValue("mono")
 										}
@@ -390,7 +386,6 @@ export default function Uploader({ languageList }) {
 								value="tmx"
 								onClick={(e) => {
 									if (e.target.checked) {
-										setDocs(false);
 										if (formatValue === "mono") {
 											setFormatValue("mono")
 										}
@@ -422,7 +417,6 @@ export default function Uploader({ languageList }) {
 								value="hplt"
 								onClick={(e) => {
 									if (e.target.checked) {
-										setDocs(true);
 										setStatus(true)
 										setFormatValue("mono")
 									}
@@ -450,9 +444,8 @@ export default function Uploader({ languageList }) {
 									value="fineweb"
 									onClick={(e) => {
 										if (e.target.checked) {
-											setDocs(true);
 											setStatus(true)
-											setFormatValue("parallel")
+											setFormatValue("mono")
 										}
 									}}
 									{...register("corpus-format")}
@@ -478,7 +471,6 @@ export default function Uploader({ languageList }) {
 									value="nemotron"
 									onClick={(e) => {
 										if (e.target.checked) {
-											setDocs(true);
 											setStatus(true)
 											setFormatValue("mono")
 										}
@@ -515,7 +507,7 @@ export default function Uploader({ languageList }) {
 								}
 							/>
 						</div>
-						{!docs && formatValue !== "mono" ? (
+						{formatValue !== "mono" ? (
 							<div className={styles["dropdown-cont"]}>
 								<label className={styles["form-label"]} htmlFor="trglang">
 									Target language
