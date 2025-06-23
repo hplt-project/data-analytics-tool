@@ -38,23 +38,12 @@ const CustomTooltip = ({ active, payload, label }) => {
 };
 
 export default function SegmentDistribution({ data, which, fontSize }) {
-  data.forEach((item) => {
-    (item.freqFormatted = Intl.NumberFormat("en", {
-      notation: "compact",
-    }).format(item.freqFormatted)),
-      (item.duplicatesFormatted = Intl.NumberFormat("en", {
-        notation: "compact",
-      }).format(item.duplicates));
-  });
 
   const filteredData = data.filter((item) => item.token < 50);
 
-  const filteredDataTotal = filteredData.reduce((a, b) => a + b.freqUnique, 0);
+  const filteredDataTotal = data.reduce((a, b) => b.token <= 50 ? +a + +b.freq : +a, 0);
 
-  const filteredDataTotalDupes = filteredData.reduce(
-    (a, b) => a + b.duplicates,
-    0
-  );
+  const filteredDataTotalDupes = data.reduce((a, b) => b.token <= 50 ? +a + +b.duplicates : +a, 0);
 
   const filteredDataTotalFormatted = Intl.NumberFormat("en", {
     notation: "compact",
@@ -64,11 +53,9 @@ export default function SegmentDistribution({ data, which, fontSize }) {
     notation: "compact",
   }).format(filteredDataTotalDupes);
 
-  const finalBar = data.reduce((a, b) => (b.token >= 50 ? +a + +b.freq : ""));
+  const finalBar = data.reduce((a, b) => b.token > 50 ? +a + +b.freq : "");
 
-  const finalBarDupes = data.reduce((a, b) =>
-    b.token >= 50 ? +a + +b.duplicates : ""
-  );
+  const finalBarDupes = data.reduce((a, b) => b.token >= 50 ? +a + +b.duplicates : "");
 
   const fiftyPlusFormatted = Intl.NumberFormat("en", {
     notation: "compact",

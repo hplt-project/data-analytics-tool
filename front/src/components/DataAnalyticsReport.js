@@ -152,8 +152,8 @@ export default function DataAnalyticsReport({ reportData, date }) {
     srcSentTokens.forEach((item) => {
       srcUniqueTokens.forEach((i) => {
         if (item.token == i.token) {
-          item.freqUnique += i.freq;
-          item.duplicates += Math.abs(i.freq - item.freq);
+          item.freqUnique = i.freq;
+          item.duplicates = item.freq - i.freq;
         }
       });
     });
