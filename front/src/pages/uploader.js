@@ -17,6 +17,8 @@ export default function Uploader({ languageList }) {
 
     const [upload, setUpload] = useState(false);
 
+    const [fileExtension, setFileExtension] = useState("");
+
 
     const [corpusName, setCorpusName] = useState("");
     const [corpus, setCorpus] = useState("");
@@ -65,6 +67,7 @@ export default function Uploader({ languageList }) {
         formdata.set("corpus-format", corpusFormat);
         formdata.set("lang-format", languageMode);
         formdata.set("srclang", origin);
+        formdata.set("file_extension", fileExtension);
         if (!target) {
             formdata.set("trglang", "-");
         }
@@ -119,7 +122,6 @@ export default function Uploader({ languageList }) {
         const formdata = setFormData();
 
         if (languageMode === "mono" && !origin) {
-            console.log("NOTRUNINIG")
             setMissingLanguage(true);
             toastMessage("file");
             return;
@@ -261,6 +263,7 @@ export default function Uploader({ languageList }) {
                                     const files = event.target.files
                                     if (files && files.length > 0) {
                                         setCorpus(files[0])
+                                        setFileExtension(files[0].name);
                                     }
                                 }
                                 }
