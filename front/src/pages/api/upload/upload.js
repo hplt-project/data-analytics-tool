@@ -69,6 +69,7 @@ export default async function handler(req, res) {
       corpus: fileData,
       "corpus-format": fields["corpus-format"][0],
       "lang-format": fields["lang-format"][0],
+      "file-extension": fields["file-extension"][0],
       srclang: fields["srclang"][0],
       trglang: fields["trglang"][0],
     };

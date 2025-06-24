@@ -67,7 +67,7 @@ export default function Uploader({ languageList }) {
         formdata.set("corpus-format", corpusFormat);
         formdata.set("lang-format", languageMode);
         formdata.set("srclang", origin);
-        formdata.set("file_extension", fileExtension);
+        formdata.set("file-extension", fileExtension);
         if (!target) {
             formdata.set("trglang", "-");
         }
