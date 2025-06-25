@@ -95,7 +95,7 @@ export default function Uploader({ languageList }) {
         }
         let config = {
             method: "POST",
-            url: "/api/upload/upload",
+            url: "/api/new-uploader",
             data: formdata,
             headers: { "Content-Type": "multipart/form-data" },
         };

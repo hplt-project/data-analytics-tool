@@ -29,7 +29,7 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         sanitized_filename = sanitize_filename(filename.replace(" ", "-"))
         outpath = os.path.join("/", "work", "uploaded_corpora", sanitized_filename+ext)
 
-        with open(outpath, 'w') as fout:
+        with open(outpath, 'wb') as fout:
             #shutil.copyfileobj(file.file, fout, 100000)            
             #fout.write(bytes(file, 'utf8'))
             fout.write(file)
