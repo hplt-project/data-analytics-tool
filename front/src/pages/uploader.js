@@ -7,6 +7,7 @@ import { languagePairName } from "../../hooks/hooks";
 import CopyToClipboard from "react-copy-to-clipboard";
 import { DropdownList } from "react-widgets/cjs";
 import { ColorRing } from "react-loader-spinner";
+import { useRef } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
 import styles from "@/styles/Uploader.module.css";
@@ -36,6 +37,22 @@ export default function Uploader({ languageList }) {
 
     const [missingFile, setMissingFile] = useState(false);
     const [missingLanguage, setMissingLanguage] = useState(false);
+
+
+    const inputFile = useRef(null);
+
+
+    const clearFields = () => {
+        setCorpusName("");
+        setCorpus("");
+        setOrigin("");
+        setTarget("");
+        if (inputFile.current) {
+            inputFile.current.value = "";
+            inputFile.current.type = "text";
+            inputFile.current.type = "file";
+        }
+    }
 
 
 
@@ -106,13 +123,13 @@ export default function Uploader({ languageList }) {
                 setUploadStatus("");
                 setUpload(true);
                 toastMessage("upload");
-                setOrigin("");
-                setTarget("");
+                clearFields();
             }
         } catch (err) {
             setFailedUpload(true);
             toastMessage("failed-upload");
             setUploadStatus("");
+            clearFields();
             console.error(err, "Request failed ");
         }
 
@@ -123,12 +140,12 @@ export default function Uploader({ languageList }) {
 
         if (languageMode === "mono" && !origin) {
             setMissingLanguage(true);
-            toastMessage("file");
+            toastMessage("language");
             return;
         }
         if (languageMode === "parallel" && !target) {
             setMissingLanguage(true);
-            toastMessage("file");
+            toastMessage("language");
             return;
         }
 
@@ -143,13 +160,22 @@ export default function Uploader({ languageList }) {
             const res = await axios(config);
             if (res.status === 200) {
                 setCmd(res.data);
+                clearFields();
             }
         } catch (err) {
             setFailedCMD(true);
             toastMessage("cmd");
+            clearFields();
             console.error(err, "Request failed ");
         }
 
+    }
+    const [langList, setLangList] = useState(languageList);
+
+    function handleCreate(name, setter) {
+        let newOption = { value: name, label: name }
+        setter(newOption);
+        setLangList(data => [newOption, ...data])
     }
 
 
@@ -244,6 +270,7 @@ export default function Uploader({ languageList }) {
                                 name="corpusname"
                                 placeholder="Dataset name"
                                 required
+                                value={corpusName}
                                 onChange={(e) => setCorpusName(e.target.value)}
                             ></input>
                         </div>
@@ -259,6 +286,7 @@ export default function Uploader({ languageList }) {
                                 name="corpus"
                                 type="file"
                                 multiple
+                                ref={inputFile}
                                 onChange={(event) => {
                                     const files = event.target.files
                                     if (files && files.length > 0) {
@@ -463,10 +491,12 @@ export default function Uploader({ languageList }) {
                                 name="srclang"
                                 placeholder="Polish (pl)"
                                 id="srclang"
-                                data={languageList}
+                                data={langList}
                                 dataKey="value"
                                 value={origin}
                                 textField="label"
+                                allowCreate="onFilter"
+                                onCreate={(value) => handleCreate(value, setOrigin)}
                                 onChange={(value) => {
                                     setOrigin(value.value);
                                 }}
@@ -484,7 +514,9 @@ export default function Uploader({ languageList }) {
                                     name="trglang"
                                     placeholder="Bosnian (bs)"
                                     id="trglang"
-                                    data={languageList}
+                                    allowCreate="onFilter"
+                                    onCreate={(value) => handleCreate(value, setOrigin)}
+                                    data={langList}
                                     dataKey="value"
                                     value={target}
                                     textField="label"

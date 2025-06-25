@@ -13,7 +13,7 @@ export default async function handler(req, res) {
         const { headers: { cookie, ...rest }, method } = req;
 
         try {
-            const response = await axios({
+            await axios({
                 url: "http://dat-webapp:8000/upload",
                 method: 'post',
                 data: req,
@@ -21,14 +21,16 @@ export default async function handler(req, res) {
                     'content-type': rest['content-type'],
                     'content-length': rest['content-length']
                 }
-            });
+            }).then(function (response) {
+                console.log(response);
+            })
+                .catch(function (error) {
+                    console.log("-");
+                });
 
-            return res.status(200).json(response.data);
+            return res.status(200).end();
         } catch (error) {
-            const { response } = error;
-            return res.status(response?.status || 500).json({
-                error: response?.data || 'Upload failed'
-            });
+            return res.status(500).json({ error: "Internal Server Error" });
         }
     }
 
