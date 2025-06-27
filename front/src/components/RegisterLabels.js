@@ -138,59 +138,61 @@ export default function RegisterLabels({ labels }) {
     const secondColumn = payload.slice(payload.length / 2, payload.length);
 
     return (
-      <div style={{ display: "flex" }}>
-        <ul className={styles.legendListStacked}>
-          {firstColumn.map((entry, index) => {
-            const color = entry.color;
+      <div className={styles.labellist}>
+        <div style={{ display: "flex" }}>
+          <ul className={styles.legendListStacked}>
+            {firstColumn.map((entry, index) => {
+              const color = entry.color;
 
-            return (
-              <li
-                key={`item-${index}`}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                }}
-              >
-                <div
+              return (
+                <li
+                  key={`item-${index}`}
                   style={{
-                    backgroundColor: color,
-                    width: "12px",
-                    height: "12px",
-                    marginRight: "4px",
-                    borderRadius: "2px",
+                    display: "flex",
+                    alignItems: "center",
                   }}
-                ></div>
-                {`${entry.value} - ${entry.payload.percent.toFixed(1)}%`}
-              </li>
-            );
-          })}
-        </ul>
-        <ul className={styles.legendListStacked}>
-          {secondColumn.map((entry, index) => {
-            const color = entry.color;
+                >
+                  <div
+                    style={{
+                      backgroundColor: color,
+                      width: "12px",
+                      height: "12px",
+                      marginRight: "4px",
+                      borderRadius: "2px",
+                    }}
+                  ></div>
+                  {`${entry.value} - ${entry.payload.percent.toFixed(1)}%`}
+                </li>
+              );
+            })}
+          </ul>
+          <ul className={styles.legendListStacked}>
+            {secondColumn.map((entry, index) => {
+              const color = entry.color;
 
-            return (
-              <li
-                key={`item-${index}`}
-                style={{
-                  display: "flex",
-                  alignItems: "center",
-                }}
-              >
-                <div
+              return (
+                <li
+                  key={`item-${index}`}
                   style={{
-                    backgroundColor: color,
-                    width: "12px",
-                    height: "12px",
-                    marginRight: "4px",
-                    borderRadius: "2px",
+                    display: "flex",
+                    alignItems: "center",
                   }}
-                ></div>
-                {`${entry.value} - ${entry.payload.percent.toFixed(1)}%`}
-              </li>
-            );
-          })}
-        </ul>
+                >
+                  <div
+                    style={{
+                      backgroundColor: color,
+                      width: "12px",
+                      height: "12px",
+                      marginRight: "4px",
+                      borderRadius: "2px",
+                    }}
+                  ></div>
+                  {`${entry.value} - ${entry.payload.percent.toFixed(1)}%`}
+                </li>
+              );
+            })}
+          </ul>
+        </div>
       </div>
     );
   };
@@ -251,8 +253,8 @@ export default function RegisterLabels({ labels }) {
                     }}
                   ></div>
                   {`${item.name.includes("other")
-                      ? "Other"
-                      : labelEquivalences[item.name]
+                    ? "Other"
+                    : labelEquivalences[item.name]
                     }:  ${numberFormatter(item.value)}`}
                 </p>
               </div>
@@ -290,8 +292,8 @@ export default function RegisterLabels({ labels }) {
                     }}
                   ></div>
                   {`${item.name.includes("other")
-                      ? "Other"
-                      : labelEquivalences[item.name]
+                    ? "Other"
+                    : labelEquivalences[item.name]
                     }:  ${numberFormatter(item.value)} | `}
                   {((item.value / groupedLabelsSum) * 100).toFixed(2)}%
                 </p>
@@ -310,121 +312,114 @@ export default function RegisterLabels({ labels }) {
       }}
     >
       <div
-        style={{
-          width: "100%",
-          height: "405px",
-          display: "flex",
-          alignItems: "flex-start",
-        }}
+        className={styles["register-labels"]}
       >
-        <ResponsiveContainer width={820} height={380}>
-          <PieChart>
-            <Pie
-              data={groupedLabelsTotal}
-              dataKey="value"
-              nameKey="name"
-              fill="#8884d8"
+        <div className={styles["graph-cont"]}>
+          <ResponsiveContainer width={"100%"} height={"100%"}>
+            <PieChart>
+              <Pie
+                data={groupedLabelsTotal}
+                dataKey="value"
+                nameKey="name"
+                fill="#8884d8"
+                legendType="circle"
+                paddingAngle={1}
+                minAngle={1}
+                cx={"33%"}
+                outerRadius={120}
+              />
+              <Tooltip content={<CustomTooltipGroup />} />
+              <Legend
+                layout="vertical"
+                verticalAlign="middle"
+                align="right"
+                margin={{ top: 12, left: 60, right: 0, bottom: 12 }}
+                formatter={(value, entry, index) => {
+                  return (
+                    <span
+                      className={styles.legendText}
+                      style={{
+                        marginBottom: "4px",
+                        marginTop: "4px",
+                        display: "inline-block",
+                        color: "#404376",
+                      }}
+                    >{`${value} - ${(entry.payload.percent * 100).toFixed(
+                      1
+                    )}%`}</span>
+                  );
+                }}
+              />
+            </PieChart>
+          </ResponsiveContainer>
+        </div>
+        <div className={styles["graph-cont"]}>
+          <ResponsiveContainer width={"100%"} height={"100%"} >
+            <BarChart
+              data={groupedLabelsTotalBarChart}
+              margin={{
+                top: 42,
+                right: 20,
+                left: 10,
+                bottom: 25,
+              }}
               legendType="circle"
-              paddingAngle={1}
-              minAngle={1}
-              cx={"33%"}
-              outerRadius={200}
-            />
-            <Tooltip content={<CustomTooltipGroup />} />
-            <Legend
-              layout="vertical"
-              verticalAlign="middle"
-              align="right"
-              margin={{ top: 12, left: 60, right: 0, bottom: 12 }}
-              formatter={(value, entry, index) => {
-                return (
-                  <span
-                    className={styles.legendText}
-                    style={{
-                      marginBottom: "4px",
-                      marginTop: "4px",
-                      display: "inline-block",
-                      color: "#404376",
-                    }}
-                  >{`${value} - ${(entry.payload.percent * 100).toFixed(
-                    1
-                  )}%`}</span>
-                );
-              }}
-            />
-          </PieChart>
-        </ResponsiveContainer>
-        <ResponsiveContainer width={"100%"} height={380}>
-          <BarChart
-            data={groupedLabelsTotalBarChart}
-            margin={{
-              top: 42,
-              right: 20,
-              left: 10,
-              bottom: 25,
-            }}
-            legendType="circle"
-          >
-            <CartesianGrid strokeDasharray="3 3" />
-            <XAxis dataKey="name" />
-            <YAxis
-              tickFormatter={DataFormatter}
-              label={{
-                value: "Documents",
-                angle: 0,
-                position: "top",
-                offset: 22,
-                fontSize: 14,
-              }}
-            />
-            <Tooltip
-              content={<CustomTooltip />}
-              wrapperStyle={{ outline: "none" }}
-            />
-            <Legend
-              content={renderLegend}
-              layout="vertical"
-              verticalAlign="middle"
-              align="right"
-            />
-            {barsArrayTest
-              .sort(function (a, b) {
-                var textA = a.key.toUpperCase();
-                var textB = b.key.toUpperCase();
-                return textA < textB ? -1 : textA > textB ? 1 : 0;
-              })
-              .map((key) => {
-                return renderBar(key);
-              })}
-          </BarChart>
-        </ResponsiveContainer>
-      </div>
-      <p>
-        {mtLabels.length > 0 && (
-          <div
-            style={{
-              display: "flex",
-              alignItems: "center",
-              marginTop: "-45px",
-            }}
-          >
-            🤖{" "}
-            <span style={{ fontWeight: "bolder", marginLeft: "5px" }}> MT</span>
-            :{((mtLabels[0][1][0].value / groupedLabelsSum) * 100).toFixed(1)}%{" "}
-            <span
-              style={{
-                display: "inline-block",
-                fontWeight: "800",
-                marginLeft: "5px",
-                marginRight: "5px",
-              }}
             >
-              |
-            </span>
-            {numberFormatter(mtLabels[0][1][0].value)} Documents
-          </div>
-        )}
-      </p>
+              <CartesianGrid strokeDasharray="3 3" />
+              <XAxis dataKey="name" />
+              <YAxis
+                tickFormatter={DataFormatter}
+                label={{
+                  value: "Documents",
+                  angle: 0,
+                  position: "top",
+                  offset: 22,
+                  fontSize: 14,
+                }}
+              />
+              <Tooltip
+                content={<CustomTooltip />}
+                wrapperStyle={{ outline: "none" }}
+              />
+              <Legend
+                content={renderLegend}
+                layout="vertical"
+                verticalAlign="middle"
+                align="right"
+              />
+              {barsArrayTest
+                .sort(function (a, b) {
+                  var textA = a.key.toUpperCase();
+                  var textB = b.key.toUpperCase();
+                  return textA < textB ? -1 : textA > textB ? 1 : 0;
+                })
+                .map((key) => {
+                  return renderBar(key);
+                })}
+            </BarChart>
+          </ResponsiveContainer>
+        </div>
+      </div>
+      {mtLabels.length > 0 && (
+        <div
+          className={styles.mtInfo}
+        >
+          🤖{" "}
+          <span style={{ fontWeight: "bolder", marginLeft: "5px" }}> MT</span>
+          :{((mtLabels[0][1][0].value / groupedLabelsSum) * 100).toFixed(1)}%{" "}
+          <span
+            style={{
+              display: "inline-block",
+              fontWeight: "800",
+              marginLeft: "5px",
+              marginRight: "5px",
+            }}
+          >
+            |
+          </span>
+          {numberFormatter(mtLabels[0][1][0].value)} Documents
+        </div>
+      )}
     </div>
   );
 }
