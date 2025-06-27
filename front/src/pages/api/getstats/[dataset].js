@@ -12,6 +12,22 @@ export default async function handler(req, res) {
 
     doc = yaml.load(statsData);
 
+    const entries = Object.entries(doc);
+
+    const result = {};
+
+    for (const [key, value] of entries) {
+      if (typeof value === 'string') {
+        try {
+          result[key] = JSON.parse(value);
+        } catch (error) {
+          result[key] = value; // Keep original string if parsing fails
+        }
+      } else {
+        result[key] = value;
+      }
+    }
+
     // DATE
 
     let d;
@@ -24,7 +40,7 @@ export default async function handler(req, res) {
       d = "n/a;";
     }
 
-    res.send({ stats: doc, date: d });
+    res.send({ stats: doc, date: d, report: result });
   } catch (error) {
     res.send(false);
     console.log(error, "Something went sideways");

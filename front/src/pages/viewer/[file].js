@@ -6,6 +6,7 @@ import { DropdownList } from "react-widgets";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Oval } from "react-loader-spinner";
+import Report from "@/components/Report";
 
 import { languagePairName, multipleFilter } from "../../../hooks/hooks";
 
@@ -16,6 +17,7 @@ import "react-widgets/styles.css";
 export default function Home({ fileNames }) {
   const [report, setReport] = useState("");
   const [date, setDate] = useState("");
+  const [testReport, setTestReport] = useState(null);
 
   const [status, setStatus] = useState("IDLE");
 
@@ -38,6 +40,7 @@ export default function Home({ fileNames }) {
 
       setReport(statsData.stats);
       setDate(statsData.date);
+      setTestReport(statsData.report);
     } catch (error) {
       setStatus("FAILED");
       console.log(error);
@@ -125,6 +128,10 @@ export default function Home({ fileNames }) {
           <DataAnalyticsReport reportData={report} date={date} />
         )}
       </div>
+
+      {report && status !== "LOADING" && (
+        <Report reportData={report} date={date} testReport={testReport} />
+      )}
       <Footer />
     </div>
   );

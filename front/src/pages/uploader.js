@@ -175,7 +175,8 @@ export default function Uploader({ languageList }) {
     function handleCreate(name, setter) {
         let newOption = { value: name, label: name }
         setter(newOption);
-        setLangList(data => [newOption, ...data])
+        setLangList +
+            (data => [newOption, ...data])
     }
 
 

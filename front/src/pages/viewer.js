@@ -76,7 +76,9 @@ export default function Home({ fileNames }) {
 export async function getServerSideProps() {
   const axios = require("axios");
 
-  const apiList = await axios.get("http://dat-webapp:8000/list");
+  const api = "http://dat-webapp:8000/"
+
+  const apiList = await axios.get(`${api}list`);
 
   const list = await apiList.data;
 
