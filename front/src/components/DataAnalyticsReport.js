@@ -7,7 +7,7 @@ import {
   languagePairName,
   handleDownload,
   DataFormatter,
-  convertSize
+  convertSize,
 } from "../../hooks/hooks";
 import NGramsTable from "./NGramsTable";
 import SegmentDistribution from "./SegmentDistribution";
@@ -26,6 +26,7 @@ import { SAMPLE_DATA } from "@/assets/samples/hplt-mono-v2";
 import { SAMPLE_DATA_FINEWEB } from "@/assets/samples/fineweb";
 import { BILINGUAL_SAMPLES } from "@/assets/samples/hplt-parallel-v2";
 import { OTHER_SAMPLES } from "@/assets/samples/others";
+import { SAMPLE_DATA_HPLT_V3 } from "@/assets/samples/hplt-mono-v3";
 import DomainTable from "./DomainTable";
 import TLDTable from "./TLDTable";
 import Sample from "./Sample";
@@ -56,20 +57,23 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const bilingualSampleData = BILINGUAL_SAMPLES;
 
+  const monoV3 = SAMPLE_DATA_HPLT_V3;
+
   const bilingualSample =
     dName.toLowerCase().includes("hplt-v2") &&
-      reportData.srclang &&
-      reportData.trglang
+    reportData.srclang &&
+    reportData.trglang
       ? Object.entries(bilingualSampleData).find(
-        (key) => key[0] === `${reportData.srclang}-${reportData.trglang}`
-      )
+          (key) => key[0] === `${reportData.srclang}-${reportData.trglang}`
+        )
       : "";
 
   const sampleFilename = router.query.file
     .replace("HPLT-v2-", "")
     .replace(".yaml", "")
     .replace(".lite", "")
-    .replace("fineweb2-", "");
+    .replace("fineweb2-", "")
+    .replace("HPLT-v3-", "");
 
   let sample;
   if (
@@ -79,6 +83,9 @@ export default function DataAnalyticsReport({ reportData, date }) {
     sample = Object.entries(sampleData).find(
       (key) => key[0] === sampleFilename
     );
+  }
+  if (dName.toLowerCase().includes("hplt-v3")) {
+    sample = Object.entries(monoV3).find((key) => key[0] == sampleFilename);
   }
   if (!sample) {
     sample = Object.entries(otherSamples).find((key) => key[0] === filename);
@@ -106,54 +113,54 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const totalBicleanerScores = reportData.bicleaner_scores
     ? JSON.parse(reportData.bicleaner_scores).reduce(
-      (a, b) => a + parseFloat(b[1]),
-      0
-    )
+        (a, b) => a + parseFloat(b[1]),
+        0
+      )
     : "";
 
   const bicleanerScores = reportData.bicleaner_scores
     ? JSON.parse(reportData.bicleaner_scores).map((s) => {
-      return {
-        token: +s[0],
-        freq: +s[1],
-        perc: parseFloat((+s[1] * 100) / totalBicleanerScores).toFixed(2),
-        fill: "#8864FC",
-      };
-    })
+        return {
+          token: +s[0],
+          freq: +s[1],
+          perc: parseFloat((+s[1] * 100) / totalBicleanerScores).toFixed(2),
+          fill: "#8864FC",
+        };
+      })
     : "";
 
   const srcSentTokens = !reportData.src_sent_tokens
     ? ""
     : JSON.parse(reportData.src_sent_tokens).map((s) => {
-      return {
-        token: s[0],
-        freq: s[1],
-        freqUnique: 0,
-        duplicates: 0,
-        freqFormatted: 0,
-        duplicatesFormatted: 0,
-      };
-    });
+        return {
+          token: s[0],
+          freq: s[1],
+          freqUnique: 0,
+          duplicates: 0,
+          freqFormatted: 0,
+          duplicatesFormatted: 0,
+        };
+      });
 
   const srcUniqueTokens = !reportData.src_unique_sents
     ? ""
     : JSON.parse(reportData.src_unique_sents).map((s) => {
-      return {
-        token: s[0],
-        freq: s[1],
-        freqUnique: 0,
-        duplicates: 0,
-        freqFormatted: 0,
-        duplicatesFormatted: 0,
-      };
-    });
+        return {
+          token: s[0],
+          freq: s[1],
+          freqUnique: 0,
+          duplicates: 0,
+          freqFormatted: 0,
+          duplicatesFormatted: 0,
+        };
+      });
 
   if (srcSentTokens && srcUniqueTokens) {
     srcSentTokens.forEach((item) => {
       srcUniqueTokens.forEach((i) => {
         if (item.token == i.token) {
-          item.freqUnique += i.freq;
-          item.duplicates += Math.abs(i.freq - item.freq);
+          item.freqUnique = i.freq;
+          item.duplicates = item.freq - i.freq;
         }
       });
     });
@@ -162,28 +169,28 @@ export default function DataAnalyticsReport({ reportData, date }) {
   const trgSentTokens = !reportData.trglang
     ? ""
     : JSON.parse(reportData.trg_sent_tokens).map((s) => {
-      return {
-        token: s[0],
-        freq: s[1],
-        freqUnique: 0,
-        duplicates: 0,
-        freqFormatted: 0,
-        duplicatesFormatted: 0,
-      };
-    });
+        return {
+          token: s[0],
+          freq: s[1],
+          freqUnique: 0,
+          duplicates: 0,
+          freqFormatted: 0,
+          duplicatesFormatted: 0,
+        };
+      });
 
   const trgUniqueTokens = !reportData.trglang
     ? ""
     : JSON.parse(reportData.trg_unique_sents).map((s) => {
-      return {
-        token: s[0],
-        freq: s[1],
-        freqUnique: 0,
-        duplicates: 0,
-        freqFormatted: 0,
-        duplicatesFormatted: 0,
-      };
-    });
+        return {
+          token: s[0],
+          freq: s[1],
+          freqUnique: 0,
+          duplicates: 0,
+          freqFormatted: 0,
+          duplicatesFormatted: 0,
+        };
+      });
 
   if (trgSentTokens && trgUniqueTokens) {
     trgSentTokens.forEach((item) => {
@@ -199,41 +206,41 @@ export default function DataAnalyticsReport({ reportData, date }) {
   const srcLangsTotal = !reportData.src_langs
     ? ""
     : JSON.parse(reportData.src_langs).reduce(
-      (a, b) => a + parseFloat(b[1]),
-      0
-    );
+        (a, b) => a + parseFloat(b[1]),
+        0
+      );
 
   const srcLangs = !reportData.src_langs
     ? ""
     : JSON.parse(reportData.src_langs).map((s) => {
-      const readableLanguageName = languagePairName([s[0]]);
+        const readableLanguageName = languagePairName([s[0]]);
 
-      return {
-        name: `${readableLanguageName[0].label} - ${numberFormatter(s[1])}`,
-        freq: s[1],
-        perc: parseFloat((s[1] * 100) / srcLangsTotal).toFixed(2),
-        fill: randDarkColor(),
-      };
-    });
+        return {
+          name: `${readableLanguageName[0].label} - ${numberFormatter(s[1])}`,
+          freq: s[1],
+          perc: parseFloat((s[1] * 100) / srcLangsTotal).toFixed(2),
+          fill: randDarkColor(),
+        };
+      });
 
   const trgLangsTotal = !reportData.trg_langs
     ? ""
     : JSON.parse(reportData.trg_langs).reduce(
-      (a, b) => a + parseFloat(b[1]),
-      0
-    );
+        (a, b) => a + parseFloat(b[1]),
+        0
+      );
 
   const trgLangs = !reportData.trg_langs
     ? ""
     : JSON.parse(reportData.trg_langs).map((s) => {
-      const readableLanguageName = languagePairName([s[0]]);
-      return {
-        name: `${readableLanguageName[0].label} - ${numberFormatter(s[1])}`,
-        freq: s[1],
-        perc: parseFloat((s[1] * 100) / trgLangsTotal).toFixed(2),
-        fill: randDarkColor(),
-      };
-    });
+        const readableLanguageName = languagePairName([s[0]]);
+        return {
+          name: `${readableLanguageName[0].label} - ${numberFormatter(s[1])}`,
+          freq: s[1],
+          perc: parseFloat((s[1] * 100) / trgLangsTotal).toFixed(2),
+          fill: randDarkColor(),
+        };
+      });
 
   // NGRAMS
 
@@ -250,29 +257,29 @@ export default function DataAnalyticsReport({ reportData, date }) {
   const noiseDistribution =
     reportData && reportData.hardrules_tags
       ? Object.entries(JSON.parse(reportData.hardrules_tags))
-        .filter((el) => (!reportData.trglang ? el[0] !== "length_ratio" : el))
-        .map((v) => {
-          return {
-            label:
-              v[0] === "not_too_long"
-                ? "Too long"
-                : v[0] === "not_too_short"
+          .filter((el) => (!reportData.trglang ? el[0] !== "length_ratio" : el))
+          .map((v) => {
+            return {
+              label:
+                v[0] === "not_too_long"
+                  ? "Too long"
+                  : v[0] === "not_too_short"
                   ? "Too short"
                   : v[0] === "no_urls"
-                    ? "URLs"
-                    : v[0] === "no_bad_encoding"
-                      ? "Bad encoding"
-                      : v[0] === "length_ratio"
-                        ? "Length ratio"
-                        : v[0] === "pii"
-                          ? "Contains PII"
-                          : v[0] === "no_porn"
-                            ? "No porn"
-                            : "",
-            value: +parseFloat((v[1] * 100) / sentenceCount).toFixed(2),
-            perc: `${((v[1] * 100) / sentenceCount).toFixed(2)} %`,
-          };
-        })
+                  ? "URLs"
+                  : v[0] === "no_bad_encoding"
+                  ? "Bad encoding"
+                  : v[0] === "length_ratio"
+                  ? "Length ratio"
+                  : v[0] === "pii"
+                  ? "Contains PII"
+                  : v[0] === "no_porn"
+                  ? "No porn"
+                  : "",
+              value: +parseFloat((v[1] * 100) / sentenceCount).toFixed(2),
+              perc: `${((v[1] * 100) / sentenceCount).toFixed(2)} %`,
+            };
+          })
       : "";
 
   const offLoading = () => {
@@ -282,18 +289,18 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const langDocs = reportData.docs_langs
     ? JSON.parse(reportData.docs_langs).map((doc) => {
-      return {
-        perc: doc[0] * 100,
-        freq: doc[1],
-        freqFormatted: numberFormatter(doc[1]),
-      };
-    })
+        return {
+          perc: doc[0] * 100,
+          freq: doc[1],
+          freqFormatted: numberFormatter(doc[1]),
+        };
+      })
     : "";
 
   const totalDocs = reportData.docs_segments
     ? JSON.parse(reportData.docs_segments)
-      .filter((doc) => doc[0] <= 25)
-      .reduce((a, b) => a + b[1], 0)
+        .filter((doc) => doc[0] <= 25)
+        .reduce((a, b) => a + b[1], 0)
     : "";
   const docsSegmentsTotal = reportData.docs_segments
     ? JSON.parse(reportData.docs_segments).reduce((a, b) => a + b[1], 0)
@@ -301,10 +308,10 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const rest =
     reportData.docs_segments &&
-      JSON.parse(reportData.docs_segments).filter((doc) => doc[0] <= 25)
+    JSON.parse(reportData.docs_segments).filter((doc) => doc[0] <= 25)
       ? JSON.parse(reportData.docs_segments)
-        .filter((doc) => doc[0] > 25)
-        .reduce((a, b) => a + b[1], 0)
+          .filter((doc) => doc[0] > 25)
+          .reduce((a, b) => a + b[1], 0)
       : "";
 
   const docsSegmentsPercOfTotal = (totalDocs * 100) / docsSegmentsTotal;
@@ -317,25 +324,25 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const documentScore = reportData.docs_wds
     ? JSON.parse(reportData.docs_wds).map((s) => {
-      return {
-        token: +s[0],
-        freq: +s[1],
-        perc: parseFloat((+s[1] * 100) / documentScoreTotal).toFixed(2),
-        fill: "#E9C46A",
-      };
-    })
+        return {
+          token: +s[0],
+          freq: +s[1],
+          perc: parseFloat((+s[1] * 100) / documentScoreTotal).toFixed(2),
+          fill: "#E9C46A",
+        };
+      })
     : "";
 
   const docsScoreLessThanFive = reportData.docs_wds
     ? JSON.parse(reportData.docs_wds)
-      .filter((el) => parseFloat(el[0]) < 5)
-      .reduce((a, b) => a + +b[1], 0)
+        .filter((el) => parseFloat(el[0]) < 5)
+        .reduce((a, b) => a + +b[1], 0)
     : "";
 
   const docsScoreOverFive = reportData.docs_wds
     ? JSON.parse(reportData.docs_wds)
-      .filter((el) => parseFloat(el[0]) >= 5)
-      .reduce((a, b) => a + +b[1], 0)
+        .filter((el) => parseFloat(el[0]) >= 5)
+        .reduce((a, b) => a + +b[1], 0)
     : "";
 
   const totalDocsScore = reportData.docs_wds
@@ -352,15 +359,15 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   let docsSegmentsTop = reportData.docs_segments
     ? JSON.parse(reportData.docs_segments)
-      .filter((doc) => doc[0] <= 25)
-      .map((doc) => {
-        return {
-          token: doc[0],
-          freq: doc[1],
-          perc: parseFloat((+doc[1] * 100) / totalDocsScore).toFixed(2),
-          fill: "#38686a",
-        };
-      })
+        .filter((doc) => doc[0] <= 25)
+        .map((doc) => {
+          return {
+            token: doc[0],
+            freq: doc[1],
+            perc: parseFloat((+doc[1] * 100) / totalDocsScore).toFixed(2),
+            fill: "#38686a",
+          };
+        })
     : "";
 
   const docsCollectionsTotal = reportData.docs_collections
@@ -369,13 +376,13 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const docsCollections = reportData.docs_collections
     ? JSON.parse(reportData.docs_collections).map((s) => {
-      return {
-        token: s[0],
-        freq: s[1],
-        perc: parseFloat((s[1] * 100) / docsCollectionsTotal).toFixed(2),
-        fill: randDarkColor(),
-      };
-    })
+        return {
+          token: s[0],
+          freq: s[1],
+          perc: parseFloat((s[1] * 100) / docsCollectionsTotal).toFixed(2),
+          fill: randDarkColor(),
+        };
+      })
     : "";
 
   const collectionsTotal = reportData.collections
@@ -384,13 +391,13 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const collections = reportData.collections
     ? JSON.parse(reportData.collections).map((s) => {
-      return {
-        token: s[0],
-        freq: s[1],
-        perc: parseFloat((s[1] * 100) / collectionsTotal).toFixed(2),
-        fill: randDarkColor(),
-      };
-    })
+        return {
+          token: s[0],
+          freq: s[1],
+          perc: parseFloat((s[1] * 100) / collectionsTotal).toFixed(2),
+          fill: randDarkColor(),
+        };
+      })
     : "";
 
   const docsDomains = reportData.docs_top100_domains
@@ -399,14 +406,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   let docsTopTenDomains = docsDomains
     ? docsDomains.map((doc) => {
-      return {
-        token: punycode.toUnicode(doc[0]),
-        freq: numberFormatter(doc[1]),
-        perc: reportData.docs_total
-          ? (doc[1] * 100) / reportData.docs_total
-          : "",
-      };
-    })
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.docs_total
+            ? (doc[1] * 100) / reportData.docs_total
+            : "",
+        };
+      })
     : "";
 
   const srcDomains = reportData.src_top100_domains
@@ -415,14 +422,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   let srcTopTenDomains = srcDomains
     ? srcDomains.map((doc) => {
-      return {
-        token: punycode.toUnicode(doc[0]),
-        freq: numberFormatter(doc[1]),
-        perc: reportData.sentence_pairs
-          ? (doc[1] * 100) / reportData.sentence_pairs
-          : "",
-      };
-    })
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
+            : "",
+        };
+      })
     : "";
 
   const trgDomains = reportData.trg_top100_domains
@@ -431,28 +438,28 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   let trgTopTenDomains = trgDomains
     ? trgDomains.map((doc) => {
-      return {
-        token: punycode.toUnicode(doc[0]),
-        freq: numberFormatter(doc[1]),
-        perc: reportData.sentence_pairs
-          ? (doc[1] * 100) / reportData.sentence_pairs
-          : "",
-      };
-    })
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
+            : "",
+        };
+      })
     : "";
 
   const bilingualDomains =
     srcTopTenDomains && trgTopTenDomains
       ? srcTopTenDomains.map((el, idx) => {
-        return {
-          src_domain: { token: el.token, freq: el.freq, perc: el.perc },
-          trg_domain: {
-            token: trgTopTenDomains[idx].token,
-            freq: trgTopTenDomains[idx].freq,
-            perc: trgTopTenDomains[idx].perc,
-          },
-        };
-      })
+          return {
+            src_domain: { token: el.token, freq: el.freq, perc: el.perc },
+            trg_domain: {
+              token: trgTopTenDomains[idx].token,
+              freq: trgTopTenDomains[idx].freq,
+              perc: trgTopTenDomains[idx].perc,
+            },
+          };
+        })
       : "";
 
   const docsTLDs = reportData.docs_top100_tld
@@ -461,14 +468,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   let docsTopTenTLDs = docsTLDs
     ? docsTLDs.map((doc) => {
-      return {
-        token: punycode.toUnicode(doc[0]),
-        freq: numberFormatter(doc[1]),
-        perc: reportData.docs_total
-          ? (doc[1] * 100) / reportData.docs_total
-          : "",
-      };
-    })
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.docs_total
+            ? (doc[1] * 100) / reportData.docs_total
+            : "",
+        };
+      })
     : "";
 
   const srcTLDs = reportData.src_top100_tld
@@ -477,14 +484,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   let srcTopTenTLDs = srcTLDs
     ? srcTLDs.map((doc) => {
-      return {
-        token: punycode.toUnicode(doc[0]),
-        freq: numberFormatter(doc[1]),
-        perc: reportData.sentence_pairs
-          ? (doc[1] * 100) / reportData.sentence_pairs
-          : "",
-      };
-    })
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
+            : "",
+        };
+      })
     : "";
 
   const trgTLDs = reportData.trg_top100_tld
@@ -493,28 +500,28 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   let trgTopTenTLDs = trgTLDs
     ? trgTLDs.map((doc) => {
-      return {
-        token: punycode.toUnicode(doc[0]),
-        freq: numberFormatter(doc[1]),
-        perc: reportData.sentence_pairs
-          ? (doc[1] * 100) / reportData.sentence_pairs
-          : "",
-      };
-    })
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
+            : "",
+        };
+      })
     : "";
 
   const bilingualTLDs =
     srcTopTenTLDs && trgTopTenTLDs
       ? srcTopTenTLDs.map((el, idx) => {
-        return {
-          src_domain: { token: el.token, freq: el.freq, perc: el.perc },
-          trg_domain: {
-            token: trgTopTenTLDs[idx].token,
-            freq: trgTopTenTLDs[idx].freq,
-            perc: trgTopTenTLDs[idx].perc,
-          },
-        };
-      })
+          return {
+            src_domain: { token: el.token, freq: el.freq, perc: el.perc },
+            trg_domain: {
+              token: trgTopTenTLDs[idx].token,
+              freq: trgTopTenTLDs[idx].freq,
+              perc: trgTopTenTLDs[idx].perc,
+            },
+          };
+        })
       : "";
 
   const datasetName = reportData.corpus ? reportData.corpus : "Not specified";
@@ -530,11 +537,15 @@ export default function DataAnalyticsReport({ reportData, date }) {
     : "";
 
   const srcSize = reportData.src_bytes
-    ? typeof reportData.src_bytes === "number" ? convertSize(reportData.src_bytes) : reportData.src_bytes.toLocaleString("en-US")
+    ? typeof reportData.src_bytes === "number"
+      ? convertSize(reportData.src_bytes)
+      : reportData.src_bytes.toLocaleString("en-US")
     : "";
 
   const trgSize = reportData.trg_bytes
-    ? typeof reportData.trg_bytes === "number" ? convertSize(reportData.trg_bytes) : reportData.trg_bytes.toLocaleString("en-US")
+    ? typeof reportData.trg_bytes === "number"
+      ? convertSize(reportData.trg_bytes)
+      : reportData.trg_bytes.toLocaleString("en-US")
     : "";
 
   const srcChars = reportData.src_chars
@@ -568,7 +579,6 @@ export default function DataAnalyticsReport({ reportData, date }) {
   const [showSample, setShowSample] = useState(false);
 
   const [showBilingualSample, setShowBilingualSample] = useState(false);
-
 
   useEffect(() => {
     document.body.style.overflow = showSample ? "hidden" : "unset";
@@ -874,9 +884,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
             <a className="register-labels-graph">
               {!footNote && (
                 <Info
-                  className={[styles.helpCircle, styles.desktopData].join(
-                    " "
-                  )}
+                  className={[styles.helpCircle, styles.desktopData].join(" ")}
                   strokeWidth={2}
                   color="#022831"
                   width={18}
@@ -885,10 +893,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
             </a>
             <Tooltip anchorSelect=".register-labels-graph" place="top">
               Obtained with{" "}
-              <a className={styles.tooltipLink} href={"https://huggingface.co/TurkuNLP/web-register-classification-multilingual"}>
+              <a
+                className={styles.tooltipLink}
+                href={
+                  "https://huggingface.co/TurkuNLP/web-register-classification-multilingual"
+                }
+              >
                 https://huggingface.co/TurkuNLP/web-register-classification-multilingual
               </a>{" "}
-
             </Tooltip>
           </div>
           <RegisterLabels labels={registerLabels} />

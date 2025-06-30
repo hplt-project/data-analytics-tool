@@ -1,6 +1,6 @@
 #No GPU support needed by now...
 #from nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
-from nvidia/cuda:12.2.2-cudnn8-runtime-ubuntu22.04
+FROM nvidia/cuda:12.2.2-cudnn8-runtime-ubuntu22.04
 
 
 ENV BINPATH=/opt/bin

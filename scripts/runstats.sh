@@ -382,6 +382,10 @@ elif [ "$langformat" == "mono" ]; then
                 
                 if [ "$extension" == "zst" ] || [ "$extension" == "zstd" ] ; then
 		        zstdcat $saved_file_path | bash /work/scripts/map/parallel-readdocuments.sh $JOBS - $srclang $tsv_file_path.docproc $format
+
+		elif [ "$extension" == "parquet" ]; then
+			python3 scripts/deparquet.py $saved_file_path - | bash /work/scripts/map/parallel-readdocuments.sh $JOBS - $srclang $tsv_file_path.docproc $format
+
                 else
                 	cat $saved_file_path | bash /work/scripts/map/parallel-readdocuments.sh $JOBS - $srclang $tsv_file_path.docproc $format
                 fi
