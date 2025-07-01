@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useRouter } from "next/router";
 import { DropdownList } from "react-widgets";
-import { languagePairName, multipleFilter } from "../../hooks/hooks";
+import { languagePairName, multipleFilter } from "../../lib/helpers";
 
 import "react-widgets/styles.css";
 
@@ -76,9 +76,9 @@ export default function Home({ fileNames }) {
 export async function getServerSideProps() {
   const axios = require("axios");
 
-  const api = "http://dat-webapp:8000/"
+  const apiBase = process.env.API_URL;
 
-  const apiList = await axios.get(`${api}list`);
+  const apiList = await axios.get(`${apiBase}list`);
 
   const list = await apiList.data;
 

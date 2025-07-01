@@ -6,6 +6,8 @@ export const config = {
     }
 }
 
+const apiBase = process.env.API_URL;
+
 export default async function handler(req, res) {
     const { method } = req;
 
@@ -14,7 +16,7 @@ export default async function handler(req, res) {
 
         try {
             await axios({
-                url: "http://dat-webapp:8000/upload",
+                url: `${apiBase}upload`,
                 method: 'post',
                 data: req,
                 headers: {

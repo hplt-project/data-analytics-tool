@@ -107,7 +107,6 @@ export function languagePairName(languagesArray) {
   return codeToLang;
 }
 
-////// Dark Color Generator function
 
 export function randDarkColor() {
   var lum = -0.25;

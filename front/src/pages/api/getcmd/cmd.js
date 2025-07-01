@@ -73,8 +73,10 @@ export default async function handler(req, res) {
       trglang: fields["trglang"][0],
     };
 
+    const apiBase = process.env.API_URL;
+
     const response = await axios.post(
-      "http://dat-webapp:8000/getcmd",
+      `${apiBase}getcmd`,
       attachments,
       {
         headers: {

@@ -8,7 +8,7 @@ import Footer from "@/components/Footer";
 import { Oval } from "react-loader-spinner";
 import Report from "@/components/Report";
 
-import { languagePairName, multipleFilter } from "../../../hooks/hooks";
+import { languagePairName, multipleFilter } from "@/lib/helpers";
 
 import styles from "@/styles/Home.module.css";
 
@@ -125,12 +125,12 @@ export default function Home({ fileNames }) {
           </div>
         )}
         {report && status !== "LOADING" && (
-          <DataAnalyticsReport reportData={report} date={date} />
+          <DataAnalyticsReport reportData={report} date={date} report={testReport} />
         )}
       </div>
 
       {report && status !== "LOADING" && (
-        <Report reportData={report} date={date} testReport={testReport} />
+        <Report reportData={report} date={date} report={testReport} />
       )}
       <Footer />
     </div>
@@ -139,7 +139,9 @@ export default function Home({ fileNames }) {
 export async function getServerSideProps() {
   const axios = require("axios");
 
-  const apiList = await axios.get("http://dat-webapp:8000/list");
+  const apiBase = process.env.API_URL;
+
+  const apiList = await axios.get(`${apiBase}list`);
 
   const list = await apiList.data;
 

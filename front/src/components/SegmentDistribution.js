@@ -1,4 +1,4 @@
-import { DataFormatter } from "../../hooks/hooks";
+import { DataFormatter } from "@/lib/helpers";
 import styles from "@/styles/SegmentDistribution.module.css";
 
 import {

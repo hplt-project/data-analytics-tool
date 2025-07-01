@@ -1,24 +1,21 @@
 import { useEffect, useState } from "react";
-import ReportScores from "./ReportScores";
+import BicleanerScores from "./BicleanerScores";
 import LanguagePieChart from "./LanguagePieChart";
 import {
-  randDarkColor,
   numberFormatter,
   languagePairName,
   handleDownload,
-  DataFormatter,
-  convertSize
-} from "../../hooks/hooks";
-import NGramsTable from "./NGramsTable";
+  convertSize,
+} from "@/lib/helpers";
+import { calculateDocumentSegments } from "@/lib/data";
 import SegmentDistribution from "./SegmentDistribution";
 import { exportMultipleChartsToPdf } from "./utils";
-import NoiseDistributionGraph from "./NoiseDistributionGraph";
-import { Oval } from "react-loader-spinner";
-import LangDocs from "./langDocs";
+import NoiseDistribution from "./NoiseDistribution";
+import LangDocs from "./LangDocs";
 import { useRouter } from "next/router";
 import { Info } from "lucide-react";
 import { Tooltip } from "react-tooltip";
-import CollectionsGraph from "./collectionsGraphs";
+import CollectionsGraph from "./CollectionsGraph";
 import DocumentSizes from "./DocumentSizes";
 import Footnotes from "./Footnotes";
 const punycode = require("punycode/");
@@ -38,8 +35,10 @@ import RegisterLabels from "@/components/RegisterLabels";
 
 import buttonStyles from "@/styles/Uploader.module.css";
 import styles from "@/styles/DataAnalyticsReport.module.css";
+import NGrams from "./NGrams";
+import DocumentScores from "./DocumentScores";
 
-export default function DataAnalyticsReport({ reportData, date }) {
+export default function DataAnalyticsReport({ reportData, date, report }) {
   if (!reportData) return;
 
   const router = useRouter();
@@ -58,11 +57,11 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   const bilingualSample =
     dName.toLowerCase().includes("hplt-v2") &&
-      reportData.srclang &&
-      reportData.trglang
+    reportData.srclang &&
+    reportData.trglang
       ? Object.entries(bilingualSampleData).find(
-        (key) => key[0] === `${reportData.srclang}-${reportData.trglang}`
-      )
+          (key) => key[0] === `${reportData.srclang}-${reportData.trglang}`
+        )
       : "";
 
   const sampleFilename = router.query.file
@@ -92,10 +91,6 @@ export default function DataAnalyticsReport({ reportData, date }) {
     ? reportData.sentence_pairs.toLocaleString("en-US")
     : "";
 
-  const sentenceCount = reportData.sentence_pairs
-    ? parseFloat(reportData.sentence_pairs)
-    : "";
-
   const srcLangIDWarning = reportData.warnings?.includes("src_fastspell")
     ? true
     : false;
@@ -104,49 +99,31 @@ export default function DataAnalyticsReport({ reportData, date }) {
     ? true
     : false;
 
-  const totalBicleanerScores = reportData.bicleaner_scores
-    ? JSON.parse(reportData.bicleaner_scores).reduce(
-      (a, b) => a + parseFloat(b[1]),
-      0
-    )
-    : "";
-
-  const bicleanerScores = reportData.bicleaner_scores
-    ? JSON.parse(reportData.bicleaner_scores).map((s) => {
-      return {
-        token: +s[0],
-        freq: +s[1],
-        perc: parseFloat((+s[1] * 100) / totalBicleanerScores).toFixed(2),
-        fill: "#8864FC",
-      };
-    })
-    : "";
-
   const srcSentTokens = !reportData.src_sent_tokens
     ? ""
     : JSON.parse(reportData.src_sent_tokens).map((s) => {
-      return {
-        token: s[0],
-        freq: s[1],
-        freqUnique: 0,
-        duplicates: 0,
-        freqFormatted: 0,
-        duplicatesFormatted: 0,
-      };
-    });
+        return {
+          token: s[0],
+          freq: s[1],
+          freqUnique: 0,
+          duplicates: 0,
+          freqFormatted: 0,
+          duplicatesFormatted: 0,
+        };
+      });
 
   const srcUniqueTokens = !reportData.src_unique_sents
     ? ""
     : JSON.parse(reportData.src_unique_sents).map((s) => {
-      return {
-        token: s[0],
-        freq: s[1],
-        freqUnique: 0,
-        duplicates: 0,
-        freqFormatted: 0,
-        duplicatesFormatted: 0,
-      };
-    });
+        return {
+          token: s[0],
+          freq: s[1],
+          freqUnique: 0,
+          duplicates: 0,
+          freqFormatted: 0,
+          duplicatesFormatted: 0,
+        };
+      });
 
   if (srcSentTokens && srcUniqueTokens) {
     srcSentTokens.forEach((item) => {
@@ -162,28 +139,28 @@ export default function DataAnalyticsReport({ reportData, date }) {
   const trgSentTokens = !reportData.trglang
     ? ""
     : JSON.parse(reportData.trg_sent_tokens).map((s) => {
-      return {
-        token: s[0],
-        freq: s[1],
-        freqUnique: 0,
-        duplicates: 0,
-        freqFormatted: 0,
-        duplicatesFormatted: 0,
-      };
-    });
+        return {
+          token: s[0],
+          freq: s[1],
+          freqUnique: 0,
+          duplicates: 0,
+          freqFormatted: 0,
+          duplicatesFormatted: 0,
+        };
+      });
 
   const trgUniqueTokens = !reportData.trglang
     ? ""
     : JSON.parse(reportData.trg_unique_sents).map((s) => {
-      return {
-        token: s[0],
-        freq: s[1],
-        freqUnique: 0,
-        duplicates: 0,
-        freqFormatted: 0,
-        duplicatesFormatted: 0,
-      };
-    });
+        return {
+          token: s[0],
+          freq: s[1],
+          freqUnique: 0,
+          duplicates: 0,
+          freqFormatted: 0,
+          duplicatesFormatted: 0,
+        };
+      });
 
   if (trgSentTokens && trgUniqueTokens) {
     trgSentTokens.forEach((item) => {
@@ -196,202 +173,18 @@ export default function DataAnalyticsReport({ reportData, date }) {
     });
   }
 
-  const srcLangsTotal = !reportData.src_langs
-    ? ""
-    : JSON.parse(reportData.src_langs).reduce(
-      (a, b) => a + parseFloat(b[1]),
-      0
-    );
-
-  const srcLangs = !reportData.src_langs
-    ? ""
-    : JSON.parse(reportData.src_langs).map((s) => {
-      const readableLanguageName = languagePairName([s[0]]);
-
-      return {
-        name: `${readableLanguageName[0].label} - ${numberFormatter(s[1])}`,
-        freq: s[1],
-        perc: parseFloat((s[1] * 100) / srcLangsTotal).toFixed(2),
-        fill: randDarkColor(),
-      };
-    });
-
-  const trgLangsTotal = !reportData.trg_langs
-    ? ""
-    : JSON.parse(reportData.trg_langs).reduce(
-      (a, b) => a + parseFloat(b[1]),
-      0
-    );
-
-  const trgLangs = !reportData.trg_langs
-    ? ""
-    : JSON.parse(reportData.trg_langs).map((s) => {
-      const readableLanguageName = languagePairName([s[0]]);
-      return {
-        name: `${readableLanguageName[0].label} - ${numberFormatter(s[1])}`,
-        freq: s[1],
-        perc: parseFloat((s[1] * 100) / trgLangsTotal).toFixed(2),
-        fill: randDarkColor(),
-      };
-    });
-
-  // NGRAMS
-
-  const srcNGrams = !reportData.src_ngrams
-    ? ""
-    : JSON.parse(reportData.src_ngrams);
-
-  const trgNGrams = !reportData.trg_ngrams
-    ? ""
-    : JSON.parse(reportData.trg_ngrams);
-
-  // noise distribution
-
-  const noiseDistribution =
-    reportData && reportData.hardrules_tags
-      ? Object.entries(JSON.parse(reportData.hardrules_tags))
-        .filter((el) => (!reportData.trglang ? el[0] !== "length_ratio" : el))
-        .map((v) => {
-          return {
-            label:
-              v[0] === "not_too_long"
-                ? "Too long"
-                : v[0] === "not_too_short"
-                  ? "Too short"
-                  : v[0] === "no_urls"
-                    ? "URLs"
-                    : v[0] === "no_bad_encoding"
-                      ? "Bad encoding"
-                      : v[0] === "length_ratio"
-                        ? "Length ratio"
-                        : v[0] === "pii"
-                          ? "Contains PII"
-                          : v[0] === "no_porn"
-                            ? "No porn"
-                            : "",
-            value: +parseFloat((v[1] * 100) / sentenceCount).toFixed(2),
-            perc: `${((v[1] * 100) / sentenceCount).toFixed(2)} %`,
-          };
-        })
-      : "";
+  const noiseDistribution = report.hardrules_tags
+    ? Object.entries(report.hardrules_tags).filter((el) =>
+        !report.trglang ? el[0] !== "length_ratio" : el
+      )
+    : "";
 
   const offLoading = () => {
     setFootNote(false);
     setLoadingPdf(false);
   };
 
-  const langDocs = reportData.docs_langs
-    ? JSON.parse(reportData.docs_langs).map((doc) => {
-      return {
-        perc: doc[0] * 100,
-        freq: doc[1],
-        freqFormatted: numberFormatter(doc[1]),
-      };
-    })
-    : "";
-
-  const totalDocs = reportData.docs_segments
-    ? JSON.parse(reportData.docs_segments)
-      .filter((doc) => doc[0] <= 25)
-      .reduce((a, b) => a + b[1], 0)
-    : "";
-  const docsSegmentsTotal = reportData.docs_segments
-    ? JSON.parse(reportData.docs_segments).reduce((a, b) => a + b[1], 0)
-    : "";
-
-  const rest =
-    reportData.docs_segments &&
-      JSON.parse(reportData.docs_segments).filter((doc) => doc[0] <= 25)
-      ? JSON.parse(reportData.docs_segments)
-        .filter((doc) => doc[0] > 25)
-        .reduce((a, b) => a + b[1], 0)
-      : "";
-
-  const docsSegmentsPercOfTotal = (totalDocs * 100) / docsSegmentsTotal;
-
-  const restPerc = ((docsSegmentsTotal - totalDocs) * 100) / docsSegmentsTotal;
-
-  const documentScoreTotal = reportData.docs_wds
-    ? JSON.parse(reportData.docs_wds).reduce((a, b) => a + +b[1], 0)
-    : "";
-
-  const documentScore = reportData.docs_wds
-    ? JSON.parse(reportData.docs_wds).map((s) => {
-      return {
-        token: +s[0],
-        freq: +s[1],
-        perc: parseFloat((+s[1] * 100) / documentScoreTotal).toFixed(2),
-        fill: "#E9C46A",
-      };
-    })
-    : "";
-
-  const docsScoreLessThanFive = reportData.docs_wds
-    ? JSON.parse(reportData.docs_wds)
-      .filter((el) => parseFloat(el[0]) < 5)
-      .reduce((a, b) => a + +b[1], 0)
-    : "";
-
-  const docsScoreOverFive = reportData.docs_wds
-    ? JSON.parse(reportData.docs_wds)
-      .filter((el) => parseFloat(el[0]) >= 5)
-      .reduce((a, b) => a + +b[1], 0)
-    : "";
-
-  const totalDocsScore = reportData.docs_wds
-    ? JSON.parse(reportData.docs_wds).reduce((a, b) => a + +b[1], 0)
-    : "";
-
-  const docsScoresPercUnderFive = docsScoreLessThanFive
-    ? (docsScoreLessThanFive * 100) / totalDocsScore
-    : 0;
-
-  const docsScoresPercOverFive = docsScoreOverFive
-    ? (docsScoreOverFive * 100) / totalDocsScore
-    : 0;
-
-  let docsSegmentsTop = reportData.docs_segments
-    ? JSON.parse(reportData.docs_segments)
-      .filter((doc) => doc[0] <= 25)
-      .map((doc) => {
-        return {
-          token: doc[0],
-          freq: doc[1],
-          perc: parseFloat((+doc[1] * 100) / totalDocsScore).toFixed(2),
-          fill: "#38686a",
-        };
-      })
-    : "";
-
-  const docsCollectionsTotal = reportData.docs_collections
-    ? JSON.parse(reportData.docs_collections).reduce((a, b) => a + b[1], 0)
-    : "";
-
-  const docsCollections = reportData.docs_collections
-    ? JSON.parse(reportData.docs_collections).map((s) => {
-      return {
-        token: s[0],
-        freq: s[1],
-        perc: parseFloat((s[1] * 100) / docsCollectionsTotal).toFixed(2),
-        fill: randDarkColor(),
-      };
-    })
-    : "";
-
-  const collectionsTotal = reportData.collections
-    ? JSON.parse(reportData.collections).reduce((a, b) => a + b[1], 0)
-    : "";
-
-  const collections = reportData.collections
-    ? JSON.parse(reportData.collections).map((s) => {
-      return {
-        token: s[0],
-        freq: s[1],
-        perc: parseFloat((s[1] * 100) / collectionsTotal).toFixed(2),
-        fill: randDarkColor(),
-      };
-    })
-    : "";
+  const langDocs = report.docs_langs;
 
   const docsDomains = reportData.docs_top100_domains
     ? JSON.parse(reportData.docs_top100_domains).slice(0, 10)
@@ -399,14 +192,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   let docsTopTenDomains = docsDomains
     ? docsDomains.map((doc) => {
-      return {
-        token: punycode.toUnicode(doc[0]),
-        freq: numberFormatter(doc[1]),
-        perc: reportData.docs_total
-          ? (doc[1] * 100) / reportData.docs_total
-          : "",
-      };
-    })
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.docs_total
+            ? (doc[1] * 100) / reportData.docs_total
+            : "",
+        };
+      })
     : "";
 
   const srcDomains = reportData.src_top100_domains
@@ -415,14 +208,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   let srcTopTenDomains = srcDomains
     ? srcDomains.map((doc) => {
-      return {
-        token: punycode.toUnicode(doc[0]),
-        freq: numberFormatter(doc[1]),
-        perc: reportData.sentence_pairs
-          ? (doc[1] * 100) / reportData.sentence_pairs
-          : "",
-      };
-    })
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
+            : "",
+        };
+      })
     : "";
 
   const trgDomains = reportData.trg_top100_domains
@@ -431,28 +224,28 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   let trgTopTenDomains = trgDomains
     ? trgDomains.map((doc) => {
-      return {
-        token: punycode.toUnicode(doc[0]),
-        freq: numberFormatter(doc[1]),
-        perc: reportData.sentence_pairs
-          ? (doc[1] * 100) / reportData.sentence_pairs
-          : "",
-      };
-    })
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
+            : "",
+        };
+      })
     : "";
 
   const bilingualDomains =
     srcTopTenDomains && trgTopTenDomains
       ? srcTopTenDomains.map((el, idx) => {
-        return {
-          src_domain: { token: el.token, freq: el.freq, perc: el.perc },
-          trg_domain: {
-            token: trgTopTenDomains[idx].token,
-            freq: trgTopTenDomains[idx].freq,
-            perc: trgTopTenDomains[idx].perc,
-          },
-        };
-      })
+          return {
+            src_domain: { token: el.token, freq: el.freq, perc: el.perc },
+            trg_domain: {
+              token: trgTopTenDomains[idx].token,
+              freq: trgTopTenDomains[idx].freq,
+              perc: trgTopTenDomains[idx].perc,
+            },
+          };
+        })
       : "";
 
   const docsTLDs = reportData.docs_top100_tld
@@ -461,14 +254,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   let docsTopTenTLDs = docsTLDs
     ? docsTLDs.map((doc) => {
-      return {
-        token: punycode.toUnicode(doc[0]),
-        freq: numberFormatter(doc[1]),
-        perc: reportData.docs_total
-          ? (doc[1] * 100) / reportData.docs_total
-          : "",
-      };
-    })
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.docs_total
+            ? (doc[1] * 100) / reportData.docs_total
+            : "",
+        };
+      })
     : "";
 
   const srcTLDs = reportData.src_top100_tld
@@ -477,14 +270,14 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   let srcTopTenTLDs = srcTLDs
     ? srcTLDs.map((doc) => {
-      return {
-        token: punycode.toUnicode(doc[0]),
-        freq: numberFormatter(doc[1]),
-        perc: reportData.sentence_pairs
-          ? (doc[1] * 100) / reportData.sentence_pairs
-          : "",
-      };
-    })
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
+            : "",
+        };
+      })
     : "";
 
   const trgTLDs = reportData.trg_top100_tld
@@ -493,28 +286,28 @@ export default function DataAnalyticsReport({ reportData, date }) {
 
   let trgTopTenTLDs = trgTLDs
     ? trgTLDs.map((doc) => {
-      return {
-        token: punycode.toUnicode(doc[0]),
-        freq: numberFormatter(doc[1]),
-        perc: reportData.sentence_pairs
-          ? (doc[1] * 100) / reportData.sentence_pairs
-          : "",
-      };
-    })
+        return {
+          token: punycode.toUnicode(doc[0]),
+          freq: numberFormatter(doc[1]),
+          perc: reportData.sentence_pairs
+            ? (doc[1] * 100) / reportData.sentence_pairs
+            : "",
+        };
+      })
     : "";
 
   const bilingualTLDs =
     srcTopTenTLDs && trgTopTenTLDs
       ? srcTopTenTLDs.map((el, idx) => {
-        return {
-          src_domain: { token: el.token, freq: el.freq, perc: el.perc },
-          trg_domain: {
-            token: trgTopTenTLDs[idx].token,
-            freq: trgTopTenTLDs[idx].freq,
-            perc: trgTopTenTLDs[idx].perc,
-          },
-        };
-      })
+          return {
+            src_domain: { token: el.token, freq: el.freq, perc: el.perc },
+            trg_domain: {
+              token: trgTopTenTLDs[idx].token,
+              freq: trgTopTenTLDs[idx].freq,
+              perc: trgTopTenTLDs[idx].perc,
+            },
+          };
+        })
       : "";
 
   const datasetName = reportData.corpus ? reportData.corpus : "Not specified";
@@ -530,11 +323,15 @@ export default function DataAnalyticsReport({ reportData, date }) {
     : "";
 
   const srcSize = reportData.src_bytes
-    ? typeof reportData.src_bytes === "number" ? convertSize(reportData.src_bytes) : reportData.src_bytes.toLocaleString("en-US")
+    ? typeof reportData.src_bytes === "number"
+      ? convertSize(reportData.src_bytes)
+      : reportData.src_bytes.toLocaleString("en-US")
     : "";
 
   const trgSize = reportData.trg_bytes
-    ? typeof reportData.trg_bytes === "number" ? convertSize(reportData.trg_bytes) : reportData.trg_bytes.toLocaleString("en-US")
+    ? typeof reportData.trg_bytes === "number"
+      ? convertSize(reportData.trg_bytes)
+      : reportData.trg_bytes.toLocaleString("en-US")
     : "";
 
   const srcChars = reportData.src_chars
@@ -555,20 +352,19 @@ export default function DataAnalyticsReport({ reportData, date }) {
     ? numberFormatter(reportData.trg_tokens)
     : "";
 
-  const registerLabels = reportData.register_labels
-    ? JSON.parse(reportData.register_labels)
-    : "";
-
   useEffect(() => {
     if (footNote) {
       exportMultipleChartsToPdf(filename, offLoading);
     }
   }, [footNote]);
 
+  const documentSizesObj = calculateDocumentSegments(report);
+
+  const totalDocs = documentSizesObj.totalDocuments;
+
   const [showSample, setShowSample] = useState(false);
 
   const [showBilingualSample, setShowBilingualSample] = useState(false);
-
 
   useEffect(() => {
     document.body.style.overflow = showSample ? "hidden" : "unset";
@@ -867,79 +663,20 @@ export default function DataAnalyticsReport({ reportData, date }) {
           </div>
         </div>
       </div>
-      {registerLabels && (
-        <div className="custom-chart">
-          <div className={styles.title}>
-            <h2>Register labels</h2>
-            <a className="register-labels-graph">
-              {!footNote && (
-                <Info
-                  className={[styles.helpCircle, styles.desktopData].join(
-                    " "
-                  )}
-                  strokeWidth={2}
-                  color="#022831"
-                  width={18}
-                />
-              )}
-            </a>
-            <Tooltip anchorSelect=".register-labels-graph" place="top">
-              Obtained with{" "}
-              <a className={styles.tooltipLink} href={"https://huggingface.co/TurkuNLP/web-register-classification-multilingual"}>
-                https://huggingface.co/TurkuNLP/web-register-classification-multilingual
-              </a>{" "}
-
-            </Tooltip>
-          </div>
-          <RegisterLabels labels={registerLabels} />
-        </div>
+      {report["register_labels"] && (
+        <RegisterLabels
+          labels={report["register_labels"]}
+          footNote={footNote}
+        />
       )}
-      {docsSegmentsTop && (
+      {report.docs_segments && (
         <div className="custom-chart">
           <div className={styles.langDocsContainer}>
-            {docsSegmentsTop && (
-              <div className={styles.docsCollectionsGraph}>
-                <div className={styles.title}>
-                  <h3>Documents size (in segments) </h3>
-                  <a className="segments-info-graph">
-                    {!footNote && (
-                      <Info
-                        className={[styles.helpCircle, styles.desktopData].join(
-                          " "
-                        )}
-                        strokeWidth={2}
-                        color="#022831"
-                        width={18}
-                      />
-                    )}
-                  </a>
-                  <Tooltip anchorSelect=".segments-info-graph" place="top">
-                    Segments correspond to paragraph and list boundaries as
-                    defined by HTML elements{" "}
-                    <code>
-                      ({"<"}p{">"}, {"<"}ul{">"}, {"<"}ol{">"}, etc.)
-                    </code>{" "}
-                    replaced by newlines.
-                  </Tooltip>
-                </div>
-                <DocumentSizes
-                  scores={docsSegmentsTop}
-                  xLabel={"Segments"}
-                  yLabel={"Documents"}
-                  partOfTotal={docsSegmentsPercOfTotal}
-                  totalDocs={totalDocs}
-                  restPerc={restPerc}
-                  restDocs={rest}
-                />
-              </div>
-            )}
-            {docsCollections && (
+            <DocumentSizes documentSizesObj={documentSizesObj} />
+            {report.docs_collections && (
               <div className={styles.collectionsGraphPie}>
                 <h3>Documents by collection</h3>
-                <CollectionsGraph
-                  collection={docsCollections}
-                  total={docsCollectionsTotal}
-                />
+                <CollectionsGraph collection={report.docs_collections} />
               </div>
             )}
           </div>
@@ -954,7 +691,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
               <h3>Language Distribution</h3>{" "}
             </div>
             <div className={styles.languagesPieReports}>
-              {srcLangs && (
+              {report.src_langs && (
                 <div className={styles.singleLanguageReport}>
                   {!reportData.trglang ? (
                     <h3 className={styles.smaller}>
@@ -994,8 +731,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     <h3>Source</h3>
                   )}
                   <LanguagePieChart
-                    langs={srcLangs}
-                    total={srcLangsTotal}
+                    langs={report.src_langs}
                     warning={srcLangIDWarning}
                     warningLang={srclang[0].label}
                     id="image"
@@ -1003,54 +739,17 @@ export default function DataAnalyticsReport({ reportData, date }) {
                 </div>
               )}
               {langDocs && (
-                <div className={styles.singleLanguageReportDocs}>
-                  {" "}
-                  <h3 className={styles.smaller}>
-                    Percentage of segments {srclang && `in ${srclang[0].label}`}{" "}
-                    inside documents{" "}
-                    <a className="lang-distribution-info-second">
-                      {" "}
-                      {!footNote && (
-                        <Info
-                          className={[
-                            styles.helpCircle,
-                            styles.desktopData,
-                          ].join(" ")}
-                          strokeWidth={2}
-                          color="#022831"
-                          width={18}
-                        />
-                      )}
-                    </a>
-                    <Tooltip
-                      anchorSelect=".lang-distribution-info-second"
-                      place="top"
-                      clickable
-                    >
-                      Language identification at segment-level based on
-                      Heliport: (
-                      <a
-                        href="https://github.com/ZJaume/heliport"
-                        target="_blank"
-                        className={styles.tooltipLink}
-                      >
-                        https://github.com/ZJaume/heliport
-                      </a>
-                      )
-                    </Tooltip>
-                  </h3>
-                  <LangDocs
-                    langDocs={langDocs}
-                    srclang={srclang ? srclang[0].label : ""}
-                  />
-                </div>
+                <LangDocs
+                  langDocs={langDocs}
+                  srclang={srclang ? srclang[0].label : ""}
+                  footNote={footNote}
+                />
               )}
-              {trgLangs && (
+              {report.trg_langs && (
                 <div className={styles.singleLanguageReport}>
                   <h3 className={styles.smaller}>Target</h3>
                   <LanguagePieChart
-                    langs={trgLangs}
-                    total={trgLangsTotal}
+                    langs={report.trg_langs}
                     warning={trgLangIDWarning}
                     warningLang={trglang[0].label}
                     id="image"
@@ -1062,154 +761,39 @@ export default function DataAnalyticsReport({ reportData, date }) {
           <div className={styles.blank}></div>
         </div>
       )}
-      <div className={bicleanerScores || collections ? "custom-chart" : ""}>
+      <div
+        className={
+          report.bicleaner_scores || report.collections ? "custom-chart" : ""
+        }
+      >
         <div className={styles.anotherContainer}>
-          {bicleanerScores && (
+          {report.bicleaner_scores && (
             <div
               style={
-                collections
+                report.collections
                   ? { width: "70%", marginBottom: "40px" }
                   : { width: "100%", marginBottom: "40px" }
               }
             >
-              <div className={styles.bicleanerScores}>
-                <h3>
-                  Translation likelihood{" "}
-                  <a className="bicleaner-info-second">
-                    {" "}
-                    {!footNote && (
-                      <Info
-                        className={[styles.helpCircle, styles.desktopData].join(
-                          " "
-                        )}
-                        strokeWidth={2}
-                        color="#022831"
-                        width={18}
-                      />
-                    )}
-                  </a>
-                  <Tooltip
-                    anchorSelect=".bicleaner-info-second"
-                    place="top"
-                    clickable
-                  >
-                    Scores computed by Bicleaner-AI: (
-                    <a
-                      href="https://github.com/bitextor/bicleaner-ai"
-                      target="_blank"
-                      className={styles.tooltipLink}
-                    >
-                      https://github.com/bitextor/bicleaner-ai
-                    </a>
-                    )
-                  </Tooltip>
-                </h3>
-                <div className={styles.desktopNum}>
-                  <ReportScores
-                    scores={bicleanerScores}
-                    xLabel={"Scores"}
-                    yLabel={"Segments"}
-                    graph={"bicleaner"}
-                    padding={60}
-                    labellist={true}
-                    fontSize={14}
-                  />
-                </div>
-                <div className={styles.mobileNum}>
-                  <ReportScores
-                    scores={bicleanerScores}
-                    xLabel={"Scores"}
-                    yLabel={"Segments"}
-                    graph={"another"}
-                    padding={20}
-                    labellist={true}
-                    fontSize={12}
-                  />
-                </div>
-              </div>
+              <BicleanerScores
+                scores={report.bicleaner_scores}
+                footNote={footNote}
+              />
             </div>
           )}
-          {collections && (
+          {report.collections && (
             <div
               className={styles.collectionsGraphPie}
               style={{ width: "30%" }}
             >
               <h3>Collections</h3>
-              <CollectionsGraph
-                collection={collections}
-                total={collectionsTotal}
-              />
+              <CollectionsGraph collection={report.collections} />
             </div>
           )}
         </div>
       </div>
-      {documentScore && (
-        <div className="custom-chart">
-          <div className={styles.bicleanerScores}>
-            <div className={styles.title}>
-              <h3>Distribution of documents by document score</h3>
-              <a className="doc-scores-distribution-info">
-                {" "}
-                {!footNote && (
-                  <Info
-                    className={[styles.helpCircle, styles.desktopData].join(
-                      " "
-                    )}
-                    strokeWidth={2}
-                    color="#022831"
-                    width={18}
-                  />
-                )}
-              </a>
-              <Tooltip
-                anchorSelect=".doc-scores-distribution-info"
-                place="top"
-                clickable
-              >
-                <div style={{ display: "flex", flexDirection: "column" }}>
-                  <span>
-                    Obtained with Web Docs Scorer (
-                    <a
-                      className={styles.tooltipLink}
-                      href="https://github.com/pablop16n/web-docs-scorer/"
-                      target="_blank"
-                    >
-                      https://github.com/pablop16n/web-docs-scorer/
-                    </a>
-                    )
-                  </span>
-                </div>
-              </Tooltip>
-            </div>
-            <div className={styles.desktopNum}>
-              <ReportScores
-                scores={documentScore}
-                xLabel={"Scores"}
-                yLabel={"Documents"}
-                graph={"docscores"}
-                firstHalf={docsScoreLessThanFive}
-                secondHalf={docsScoreOverFive}
-                firstHalfPerc={docsScoresPercUnderFive}
-                secondHalfPerc={docsScoresPercOverFive}
-                fontSize={14}
-              />
-            </div>
-
-            <div className={styles.mobileNum}>
-              <ReportScores
-                scores={documentScore}
-                xLabel={"Scores"}
-                yLabel={"Documents"}
-                graph={"docscores"}
-                firstHalf={docsScoreLessThanFive}
-                secondHalf={docsScoreOverFive}
-                firstHalfPerc={docsScoresPercUnderFive}
-                secondHalfPerc={docsScoresPercOverFive}
-                fontSize={12}
-              />
-            </div>
-          </div>
-        </div>
+      {report.docs_wds && (
+        <DocumentScores scores={report.docs_wds} footNote={footNote} />
       )}
       {reportData.trglang && (
         <div className="custom-chart">
@@ -1247,7 +831,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
               </Tooltip>
             </div>
             <div className={styles.languagesPieReports}>
-              {srcLangs && (
+              {report.src_langs && (
                 <div className={styles.singleLanguageReport}>
                   {!reportData.trglang ? (
                     <h3>
@@ -1258,8 +842,7 @@ export default function DataAnalyticsReport({ reportData, date }) {
                     <h3>Source</h3>
                   )}
                   <LanguagePieChart
-                    langs={srcLangs}
-                    total={srcLangsTotal}
+                    langs={report.src_langs}
                     warning={srcLangIDWarning}
                     warningLang={srclang[0].label}
                     id="image"
@@ -1270,15 +853,18 @@ export default function DataAnalyticsReport({ reportData, date }) {
                 <div className={styles.singleLanguageReport}>
                   {" "}
                   <h3>Percentage of segments in $lang inside documents</h3>
-                  <LangDocs langDocs={langDocs} srclang={srclang[0].label} />
+                  <LangDocs
+                    langDocs={langDocs}
+                    srclang={srclang ? srclang[0].label : ""}
+                    footNote={footNote}
+                  />
                 </div>
               )}
-              {trgLangs && (
+              {report.trg_langs && (
                 <div className={styles.singleLanguageReport}>
                   <h3>Target</h3>
                   <LanguagePieChart
-                    langs={trgLangs}
-                    total={trgLangsTotal}
+                    langs={report.trg_langs}
                     warning={trgLangIDWarning}
                     warningLang={trglang[0].label}
                     id="image"
@@ -1368,150 +954,30 @@ export default function DataAnalyticsReport({ reportData, date }) {
           </div>
         )}
       </div>
-      {reportData.hardrules_tags && noiseDistribution && (
-        <div className="custom-chart">
-          <div
-            className={[styles.containsTooltip, styles.noiseTitleCont].join(
-              " "
-            )}
-          >
-            <h3 className={styles.noiseDistributionTitle}>
-              Segment {reportData.trglang && "pair"} noise distribution
-            </h3>
-            <a className="noise-info">
-              {!footNote && (
-                <Info
-                  className={[styles.helpCircle, styles.desktopData].join(" ")}
-                  strokeWidth={2}
-                  color="#022831"
-                  width={18}
-                />
-              )}
-            </a>
-            <Tooltip anchorSelect=".noise-info" place="top">
-              Obtained with Bicleaner Hardrules (
-              <a
-                className={styles.tooltipLink}
-                href="https://github.com/bitextor/bicleaner-hardrules/"
-                target="_blank"
-              >
-                https://github.com/bitextor/bicleaner-hardrules/
-              </a>
-              )
-            </Tooltip>
-          </div>
-          <NoiseDistributionGraph noiseData={noiseDistribution} />
-        </div>
+      {report.hardrules_tags && noiseDistribution && (
+        <NoiseDistribution
+          noiseData={noiseDistribution}
+          sentences={report.sentence_pairs}
+          trglang={report.trglang}
+          footNote={footNote}
+        />
       )}
-      {reportData.src_ngrams && Object.entries(srcNGrams).length > 0 && (
-        <div className="custom-chart">
-          <div className={styles.nGramContainer}>
-            <div className={styles.singleNGramContainer}>
-              <div className={styles.containsTooltip}>
-                {reportData.trglang ? (
-                  <h3>Source n-grams</h3>
-                ) : (
-                  <h3>Frequent n-grams</h3>
-                )}
-                <a className="ngrams-info">
-                  {!footNote && (
-                    <Info
-                      className={[styles.helpCircle, styles.desktopData].join(
-                        " "
-                      )}
-                      strokeWidth={2}
-                      color="#022831"
-                      width={18}
-                    />
-                  )}
-                </a>
-                <Tooltip anchorSelect=".ngrams-info" place="top" clickable>
-                  <div style={{ display: "flex", flexDirection: "column" }}>
-                    <span>
-                      Tokenized with{" "}
-                      <a
-                        href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
-                        target="_blank"
-                        className={styles.tooltipLink}
-                      >
-                        https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
-                      </a>
-                      ,
-                    </span>
-                    <span>
-                      after removing n-grams starting or ending in a stopword.
-                      Stopwords from
-                    </span>
-                    <span>
-                      <a
-                        className={styles.tooltipLink}
-                        href="https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt"
-                        target="_blank"
-                      >
-                        https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt
-                      </a>
-                    </span>
-                  </div>
-                </Tooltip>
-              </div>
-              <NGramsTable NGrams={srcNGrams} />
-            </div>
-
-            <div className={styles.blank}></div>
-          </div>
-        </div>
-      )}
-      {reportData.trglang && Object.entries(trgNGrams).length > 0 && (
-        <div className="custom-chart">
-          <div className={styles.singleNGramContainer}>
-            <div className={styles.containsTooltip}>
-              <h3>Target n-grams</h3>
-              <a className="ngrams-info-trg">
-                {!footNote && (
-                  <Info
-                    className={[styles.helpCircle, styles.desktopData].join(
-                      " "
-                    )}
-                    strokeWidth={2}
-                    color="#022831"
-                    width={18}
-                  />
-                )}
-              </a>
-              <Tooltip anchorSelect=".ngrams-info-trg" place="top" clickable>
-                <div style={{ display: "flex", flexDirection: "column" }}>
-                  <span>
-                    Tokenized with{" "}
-                    <a
-                      href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
-                      target="_blank"
-                      className={styles.tooltipLink}
-                    >
-                      https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
-                    </a>
-                    ,
-                  </span>
-                  <span>
-                    after removing n-grams starting or ending in a stopword.
-                    Stopwords from
-                  </span>
-                  <span>
-                    <a
-                      className={styles.tooltipLink}
-                      href="https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt"
-                      target="_blank"
-                    >
-                      https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt
-                    </a>
-                  </span>
-                </div>
-              </Tooltip>
-            </div>
-            <NGramsTable NGrams={trgNGrams} />
-          </div>
-
-          <div className={styles.blank}></div>
-        </div>
+      {reportData.src_ngrams &&
+        Object.entries(report.src_ngrams).length > 0 && (
+          <NGrams
+            which="Source"
+            ngrams={report.src_ngrams}
+            trg={report.trglang}
+            footNote={footNote}
+          />
+        )}
+      {reportData.trglang && Object.entries(report.src_ngrams).length > 0 && (
+        <NGrams
+          which="Target"
+          ngrams={report.trg_ngrams}
+          trg={report.trglang}
+          footNote={footNote}
+        />
       )}
       <div className="custom-chart">
         {footNote && (
@@ -1541,23 +1007,6 @@ export default function DataAnalyticsReport({ reportData, date }) {
           }}
         >
           {!loadingPdf && <p> Export to PDF</p>}
-          {loadingPdf && (
-            <>
-              <p className={styles.ovalP}>Preparing PDF</p>
-              <Oval
-                visible={true}
-                height="16"
-                width="16"
-                color="#ffffff"
-                ariaLabel="oval-loading"
-                wrapperStyle={{}}
-                wrapperClass="wrapper"
-                secondaryColor="white"
-                strokeWidth={4}
-                strokeWidthSecondary={4}
-              />
-            </>
-          )}
         </button>
       </div>
       {footNote && <Loader />}

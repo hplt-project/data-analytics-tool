@@ -3,10 +3,12 @@ export default async function handler(req, res) {
   const axios = require("axios");
   const dataset = req.query.dataset;
 
+  const apiBase = process.env.API_URL;
+
   try {
     let doc = "";
 
-    const stats = await axios.get(`http://dat-webapp:8000/file/${dataset}`);
+    const stats = await axios.get(`${apiBase}file/${dataset}`);
 
     const statsData = stats.data;
 
