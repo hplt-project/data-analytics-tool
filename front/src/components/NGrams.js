@@ -1,4 +1,4 @@
-import styles from "../styles/DataAnalyticsReport.module.css";
+import styles from "../styles/Report.module.css";
 import NGramsTable from "./NGramsTable";
 import { Info } from "lucide-react";
 import { Tooltip } from "react-tooltip";

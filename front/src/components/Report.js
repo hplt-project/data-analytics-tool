@@ -17,22 +17,17 @@ import { Tooltip } from "react-tooltip";
 import CollectionsGraph from "./CollectionsGraph";
 import DocumentSizes from "./DocumentSizes";
 import Footnotes from "./Footnotes";
-import { SAMPLE_DATA } from "@/assets/samples/hplt-mono-v2";
-import { SAMPLE_DATA_FINEWEB } from "@/assets/samples/fineweb";
-import { BILINGUAL_SAMPLES } from "@/assets/samples/hplt-parallel-v2";
-import { OTHER_SAMPLES } from "@/assets/samples/others";
 import DomainTable from "./DomainTable";
 import TLDTable from "./TLDTable";
-import Sample from "./Sample";
 import SampleButton from "./SampleButton";
 import Loader from "./Loader";
 import ReportTitle from "./ReportTitle";
 import BilingualTable from "./BilingualTable";
-import BilingualSample from "./BilingualSample";
+import Sample from "./Sample";
 import RegisterLabels from "@/components/RegisterLabels";
 import InfoCircle from "@/components/InfoCircle";
 import buttonStyles from "@/styles/Uploader.module.css";
-import styles from "@/styles/DataAnalyticsReport.module.css";
+import styles from "@/styles/Report.module.css";
 import NGrams from "./NGrams";
 import DocumentScores from "./DocumentScores";
 
@@ -42,7 +37,6 @@ export default function Report({ date, report }) {
   const router = useRouter();
 
   const [showSample, setShowSample] = useState(false);
-  const [showBilingualSample, setShowBilingualSample] = useState(false);
   const [footNote, setFootNote] = useState(false);
   const [loadingPdf, setLoadingPdf] = useState(false);
 
@@ -54,45 +48,12 @@ export default function Report({ date, report }) {
     docs_langs,
     src_tokens,
     trg_tokens,
+    sample,
   } = report;
 
-  const dName = router.query.file;
+  const datasetName = router.query.file;
 
   const filename = router.query.file.replace(".yaml", "");
-
-  const sampleData = dName.includes("fineweb")
-    ? SAMPLE_DATA_FINEWEB
-    : SAMPLE_DATA;
-
-  const otherSamples = OTHER_SAMPLES;
-
-  const bilingualSampleData = BILINGUAL_SAMPLES;
-
-  const bilingualSample =
-    dName.toLowerCase().includes("hplt-v2") && srclang && trglang
-      ? Object.entries(bilingualSampleData).find(
-        (key) => key[0] === `${srclang}-${trglang}`
-      )
-      : "";
-
-  const sampleFilename = router.query.file
-    .replace("HPLT-v2-", "")
-    .replace(".yaml", "")
-    .replace(".lite", "")
-    .replace("fineweb2-", "");
-
-  let sample;
-  if (
-    dName.toLowerCase().includes("hplt-v2") ||
-    dName.toLowerCase().includes("fineweb")
-  ) {
-    sample = Object.entries(sampleData).find(
-      (key) => key[0] === sampleFilename
-    );
-  }
-  if (!sample) {
-    sample = Object.entries(otherSamples).find((key) => key[0] === filename);
-  }
 
   const sentences = sentence_pairs?.toLocaleString("en-US");
 
@@ -190,18 +151,12 @@ export default function Report({ date, report }) {
   return (
     <div className={styles.dataReportContainer}>
       {sample && <SampleButton setShowSample={setShowSample} />}
-      {bilingualSample && (
-        <SampleButton setShowSample={setShowBilingualSample} />
-      )}
-      {showSample && (
-        <Sample srclang={src} sample={sample} setShowSample={setShowSample} />
-      )}
-      {showBilingualSample && (
-        <BilingualSample
-          srclang={src}
-          trglang={trg}
-          sample={bilingualSample[1]}
-          setShowSample={setShowBilingualSample}
+      {sample && showSample && (
+        <Sample
+          src={src}
+          trg={trg}
+          sample={sample}
+          setShowSample={setShowSample}
         />
       )}
       <div className="custom-chart">
@@ -470,54 +425,61 @@ export default function Report({ date, report }) {
       {report.docs_segments && (
         <div className="custom-chart">
           <div className={styles.langDocsContainer}>
-            <div style={
-              report.docs_collections
-                ? { width: "70%", marginBottom: "40px" }
-                : { width: "100%", marginBottom: "40px" }
-            }>
+            <div
+              style={
+                report.docs_collections
+                  ? { width: "70%", marginBottom: "40px" }
+                  : { width: "100%", marginBottom: "40px" }
+              }
+            >
               <DocumentSizes documentSizesObj={documentSizesObj} />
             </div>
             {report.docs_collections && (
               <div className={styles.collectionsGraphPie}>
-                <CollectionsGraph collection={report.docs_collections} docs={true} />
+                <CollectionsGraph
+                  collection={report.docs_collections}
+                  docs={true}
+                />
               </div>
             )}
           </div>
         </div>
-      )
-      }
+      )}
       <div className="custom-chart">
         <div className={styles.languagesPieReportsContainer}>
-          <div className={styles.title}>
-            {" "}
-            <h3>Language Distribution</h3>{" "}
+          <div className={styles.langTitle}>
+            <h3>Language Distribution</h3>
           </div>
           <div className={styles.languagesPieReports}>
             {report.src_langs && (
               <div className={styles.singleLanguageReport}>
                 {!report.trglang ? (
-                  <h3 className={styles.smaller}>
-                    Number of segments in the {src && src[0].label} corpus
-                    <a className="lang-distribution-info">
-                      {" "}
-                      {!footNote && <InfoCircle />}
-                    </a>
-                    <Tooltip
-                      anchorSelect=".lang-distribution-info"
-                      place="top"
-                      clickable
-                    >
-                      Language identified with FastSpell (
-                      <a
-                        href="https://github.com/mbanon/fastspell"
-                        target="_blank"
-                        className={styles.tooltipLink}
-                      >
-                        https://github.com/mbanon/fastspell
+                  <div className={styles.title}>
+                    <h3 className={styles.smaller}>
+                      Number of segments in the {src && src[0].label} corpus
+
+                    </h3>
+                    <>
+                      <a className="lang-distribution-info">
+                        {!footNote && <InfoCircle />}
                       </a>
-                      )
-                    </Tooltip>
-                  </h3>
+                      <Tooltip
+                        anchorSelect=".lang-distribution-info"
+                        place="top"
+                        clickable
+                      >
+                        Language identified with FastSpell (
+                        <a
+                          href="https://github.com/mbanon/fastspell"
+                          target="_blank"
+                          className={styles.tooltipLink}
+                        >
+                          https://github.com/mbanon/fastspell
+                        </a>
+                        )
+                      </Tooltip>
+                    </>
+                  </div>
                 ) : (
                   <h3>Source</h3>
                 )}
@@ -530,11 +492,44 @@ export default function Report({ date, report }) {
               </div>
             )}
             {docs_langs && (
-              <LangDocs
-                langDocs={docs_langs}
-                srclang={src ? src[0].label : ""}
-                footNote={footNote}
-              />
+              <div className={styles.singleLanguageReportDocs}>
+                <div className={styles.title}>
+                  <h3 className={styles.smaller}>
+                    Percentage of segments {src && `in ${src[0].label}`} inside
+                    documents{" "}
+
+
+                  </h3>
+                  <>
+                    <a className="lang-distribution-info-second">
+                      {!footNote && (
+                        <InfoCircle
+                        />
+                      )}
+                    </a>
+                    <Tooltip
+                      anchorSelect=".lang-distribution-info-second"
+                      place="top"
+                      clickable
+                    >
+                      Language identification at segment-level based on Heliport: (
+                      <a
+                        href="https://github.com/ZJaume/heliport"
+                        target="_blank"
+                        className={styles.tooltipLink}
+                      >
+                        https://github.com/ZJaume/heliport
+                      </a>
+                      )
+                    </Tooltip>
+                  </>
+                </div>
+                <LangDocs
+                  langDocs={docs_langs}
+                  srclang={src ? src : ""}
+                  footNote={footNote}
+                />
+              </div>
             )}
             {report.trg_langs && (
               <div className={styles.singleLanguageReport}>
@@ -581,11 +576,9 @@ export default function Report({ date, report }) {
           )}
         </div>
       </div>
-      {
-        report.docs_wds && (
-          <DocumentScores scores={report.docs_wds} footNote={footNote} />
-        )
-      }
+      {report.docs_wds && (
+        <DocumentScores scores={report.docs_wds} footNote={footNote} />
+      )}
       <div className={styles.languageDistributionContainer}>
         {srcSentenceTokens && (
           <div
@@ -639,36 +632,30 @@ export default function Report({ date, report }) {
           </div>
         )}
       </div>
-      {
-        report.hardrules_tags && noiseDistribution && (
-          <NoiseDistribution
-            noiseData={noiseDistribution}
-            sentences={report.sentence_pairs}
-            trglang={report.trglang}
-            footNote={footNote}
-          />
-        )
-      }
-      {
-        report.src_ngrams && Object.entries(report.src_ngrams).length > 0 && (
-          <NGrams
-            which="Source"
-            ngrams={report.src_ngrams}
-            trg={report.trglang}
-            footNote={footNote}
-          />
-        )
-      }
-      {
-        report.trglang && Object.entries(report.src_ngrams).length > 0 && (
-          <NGrams
-            which="Target"
-            ngrams={report.trg_ngrams}
-            trg={report.trglang}
-            footNote={footNote}
-          />
-        )
-      }
+      {report.hardrules_tags && noiseDistribution && (
+        <NoiseDistribution
+          noiseData={noiseDistribution}
+          sentences={report.sentence_pairs}
+          trglang={report.trglang}
+          footNote={footNote}
+        />
+      )}
+      {report.src_ngrams && Object.entries(report.src_ngrams).length > 0 && (
+        <NGrams
+          which="Source"
+          ngrams={report.src_ngrams}
+          trg={report.trglang}
+          footNote={footNote}
+        />
+      )}
+      {report.trglang && Object.entries(report.src_ngrams).length > 0 && (
+        <NGrams
+          which="Target"
+          ngrams={report.trg_ngrams}
+          trg={report.trglang}
+          footNote={footNote}
+        />
+      )}
       <div className="custom-chart">
         {footNote && (
           <>
@@ -680,7 +667,7 @@ export default function Report({ date, report }) {
       <div className={[styles.reportButtons, styles.desktopNum].join(" ")}>
         <button
           className={buttonStyles["button-27"]}
-          onClick={() => handleDownload(dName)}
+          onClick={() => handleDownload(datasetName)}
           type="button"
         >
           Download yaml
@@ -699,6 +686,6 @@ export default function Report({ date, report }) {
         </button>
       </div>
       {footNote && <Loader />}
-    </div >
+    </div>
   );
 }

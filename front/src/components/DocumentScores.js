@@ -82,101 +82,99 @@ export default function DocumentScores({ scores, footNote }) {
 
   return (
     <div className="custom-chart">
-      <div className={styles.bicleanerScores}>
-        <div className={styles.title}>
-          <h3>Distribution of documents by document score</h3>
-          <a className="doc-scores-distribution-info">
-            {!footNote && (
-              <Info
-                className={[styles.helpCircle, styles.desktopData].join(" ")}
-                strokeWidth={2}
-                color="#022831"
-                width={18}
-              />
-            )}
-          </a>
-          <InfoTooltip
-            anchorSelect=".doc-scores-distribution-info"
-            place="top"
-            clickable
-          >
-            <div style={{ display: "flex", flexDirection: "column" }}>
-              <span>
-                Obtained with Web Docs Scorer (
-                <a
-                  className={styles.tooltipLink}
-                  href="https://github.com/pablop16n/web-docs-scorer/"
-                  target="_blank"
-                >
-                  https://github.com/pablop16n/web-docs-scorer/
-                </a>
-                )
-              </span>
-            </div>
-          </InfoTooltip>
-        </div>
-        <div className={styles.reportScoresContainer}>
-          {percUnderFive >= 0 && percOverFive >= 0 && (
-            <div className={styles.reportTitle}>
-              <p>
-                score {"<"} 5 - <strong>{+percUnderFive.toFixed(2)}%</strong> (
-                {numberFormatter(underFive)} documents)
-              </p>
-              <p>
-                score {">="} 5 - <strong>{+percOverFive.toFixed(2)}%</strong> (
-                {numberFormatter(overFive)} documents)
-              </p>
-            </div>
+      <div className={styles.title}>
+        <h3>Distribution of documents by document score</h3>
+        <a className="doc-scores-distribution-info">
+          {!footNote && (
+            <Info
+              className={[styles.helpCircle, styles.desktopData].join(" ")}
+              strokeWidth={2}
+              color="#022831"
+              width={18}
+            />
           )}
-          <ResponsiveContainer width="100%" height="100%">
-            <BarChart
-              height={300}
-              data={processedItems}
-              margin={{
-                top: 32,
-                right: 20,
-                left: 10,
-                bottom: 25,
-              }}
-            >
-              <CartesianGrid strokeDasharray="2 1" />
-              <XAxis
-                dataKey="token"
-                fontSize={12}
-                tickMargin={5}
-                type="number"
-                allowDecimals
-                domain={[0, 10]}
-                ticks={docScoresNums}
+        </a>
+        <InfoTooltip
+          anchorSelect=".doc-scores-distribution-info"
+          place="top"
+          clickable
+        >
+          <div style={{ display: "flex", flexDirection: "column" }}>
+            <span>
+              Obtained with Web Docs Scorer (
+              <a
+                className={styles.tooltipLink}
+                href="https://github.com/pablop16n/web-docs-scorer/"
+                target="_blank"
               >
-                <Label
-                  value="Scores"
-                  offset={10}
-                  position="bottom"
-                  fontSize={16}
-                />
-              </XAxis>
+                https://github.com/pablop16n/web-docs-scorer/
+              </a>
+              )
+            </span>
+          </div>
+        </InfoTooltip>
+      </div>
+      <div className={styles.documentScoresContainer}>
+        {percUnderFive >= 0 && percOverFive >= 0 && (
+          <div className={styles.reportTitle}>
+            <p>
+              score {"<"} 5 - <strong>{+percUnderFive.toFixed(2)}%</strong> (
+              {numberFormatter(underFive)} documents)
+            </p>
+            <p>
+              score {">="} 5 - <strong>{+percOverFive.toFixed(2)}%</strong> (
+              {numberFormatter(overFive)} documents)
+            </p>
+          </div>
+        )}
+        <ResponsiveContainer width="100%" height="100%">
+          <BarChart
+            height={300}
+            data={processedItems}
+            margin={{
+              top: 32,
+              right: 20,
+              left: 10,
+              bottom: 25,
+            }}
+          >
+            <CartesianGrid strokeDasharray="2 1" />
+            <XAxis
+              dataKey="token"
+              fontSize={12}
+              tickMargin={5}
+              type="number"
+              allowDecimals
+              domain={[0, 10]}
+              ticks={docScoresNums}
+            >
+              <Label
+                value="Scores"
+                offset={10}
+                position="bottom"
+                fontSize={16}
+              />
+            </XAxis>
 
-              <YAxis
-                fontSize={12}
-                label={{
-                  value: "Documents",
-                  angle: 0,
-                  position: "top",
-                  offset: 12,
-                  fontSize: 14,
-                }}
-                tickFormatter={DataFormatter}
-              />
-              <Tooltip
-                content={<CustomTooltip measurement={"Documents"} />}
-                wrapperStyle={{ outline: "none" }}
-              />
-              <ReferenceLine y={0} stroke="#000" />
-              <Bar dataKey="freq" maxBarSize={20} />
-            </BarChart>
-          </ResponsiveContainer>
-        </div>
+            <YAxis
+              fontSize={12}
+              label={{
+                value: "Documents",
+                angle: 0,
+                position: "top",
+                offset: 12,
+                fontSize: 14,
+              }}
+              tickFormatter={DataFormatter}
+            />
+            <Tooltip
+              content={<CustomTooltip measurement={"Documents"} />}
+              wrapperStyle={{ outline: "none" }}
+            />
+            <ReferenceLine y={0} stroke="#000" />
+            <Bar dataKey="freq" maxBarSize={20} />
+          </BarChart>
+        </ResponsiveContainer>
       </div>
     </div>
   );

@@ -8,7 +8,7 @@ import {
   ResponsiveContainer,
   LabelList,
 } from "recharts";
-import { Info } from "lucide-react";
+import InfoCircle from "./InfoCircle";
 import { Tooltip as InfoTooltip } from "react-tooltip";
 import {
   DataFormatter,
@@ -43,36 +43,6 @@ function LangDocs({ langDocs, srclang, footNote }) {
   const numbers = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
   return (
     <div className={styles.langDocs}>
-      <h3 className={styles.smaller}>
-        Percentage of segments {srclang && `in ${srclang[0].label}`} inside
-        documents{" "}
-        <a className="lang-distribution-info-second">
-          {" "}
-          {!footNote && (
-            <Info
-              className={[styles.helpCircle, styles.desktopData].join(" ")}
-              strokeWidth={2}
-              color="#022831"
-              width={18}
-            />
-          )}
-        </a>
-        <InfoTooltip
-          anchorSelect=".lang-distribution-info-second"
-          place="top"
-          clickable
-        >
-          Language identification at segment-level based on Heliport: (
-          <a
-            href="https://github.com/ZJaume/heliport"
-            target="_blank"
-            className={styles.tooltipLink}
-          >
-            https://github.com/ZJaume/heliport
-          </a>
-          )
-        </InfoTooltip>
-      </h3>
       <ResponsiveContainer width="100%" height="100%">
         <BarChart
           height={300}

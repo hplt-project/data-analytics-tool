@@ -235,7 +235,7 @@ function RegisterLabels({ labels }) {
                     <p className={styles.label}>{labelEquivalences[label]}</p>
                     {payload.map((item, idx) => {
                         return (
-                            <div style={{ marginTop: "4px", marginBottom: "4px" }}>
+                            <div style={{ marginTop: "4px", marginBottom: "4px" }} key={`custom-tooltip--${idx}`}>
                                 <p
                                     key={idx}
                                     className={styles.desc}
@@ -272,7 +272,7 @@ function RegisterLabels({ labels }) {
                     <p className={styles.label}>{labelEquivalences[label]}</p>
                     {payload.map((item, idx) => {
                         return (
-                            <div style={{ marginTop: "4px", marginBottom: "4px" }}>
+                            <div style={{ marginTop: "4px", marginBottom: "4px" }} key={`group-tooltip--${idx}`}>
                                 <p
                                     key={idx}
                                     className={styles.desc}

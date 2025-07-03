@@ -18,12 +18,12 @@ function TLDTable({ tlds, docsTotal }) {
           </tr>
         </thead>
         <tbody>
-          {tlds.map((doc) => {
+          {tlds.map((doc, idx) => {
             const tld = punycode.toUnicode(doc[0]);
             const frequency = numberFormatter(doc[1]);
             const percentage = docsTotal ? (doc[1] * 100) / docsTotal : "";
             return (
-              <tr>
+              <tr key={`tld--${idx}`}>
                 <td>{tld}</td>
                 <td>{frequency}</td>
                 <td>{percentage && percentage.toFixed(2)}%</td>

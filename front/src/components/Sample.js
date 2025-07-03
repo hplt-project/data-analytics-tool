@@ -1,10 +1,9 @@
-import { useState, useRef } from "react";
 import { X, ArrowLeft, ArrowRight } from "lucide-react";
+import { useState } from "react";
 import styles from "@/styles/Sample.module.css";
 
-function Sample({ srclang, sample, setShowSample }) {
+function Sample({ src, trg, sample, setShowSample }) {
   const [currentSample, setCurrentSample] = useState(1);
-
   const rtlLanguages = [
     "ar",
     "ar-AE",
@@ -50,65 +49,86 @@ function Sample({ srclang, sample, setShowSample }) {
     "urd",
     "ydd",
   ];
-  const containerRef = useRef(null);
 
-  const scrollToTop = () => {
-    containerRef.current.scrollTop = 0;
-  };
+  const currentSet = sample.slice(currentSample, currentSample + 10);
 
   return (
     <div className={styles.blur}>
       <div className={styles.sampleModal}>
         <div className={styles.modalHead}>
-          <h2>Random samples from the {srclang && srclang[0].label} dataset</h2>
+          <h2>
+            Random samples from the {src[0].label} - {trg?.[0] ? trg[0].label : ""}{" "}
+            dataset
+          </h2>
           <button
             className={styles.closeSampleBtn}
-            onClick={() => {
-              setShowSample(false)
-            }}
+            onClick={() => setShowSample(false)}
           >
             <X />
           </button>
         </div>
-        <div
-          className={
-            srclang && rtlLanguages.some((el) => el === srclang[0].value)
-              ? styles.sampleContentRTL
-              : styles.sampleContent
-          }
-          ref={containerRef}
-          dangerouslySetInnerHTML={{
-            __html: sample[1][currentSample - 1].replaceAll("\n", "<br/>"),
-          }}
-        ></div>
+        <div className={styles.sampleSentenceContainer}>
+          {currentSet.map((sent) => {
+            return (
+              <div className={styles.singleSentence}>
+                <div className={styles.srcSentence}>
+                  {sent.trg && <div className={styles.srcTag}>{src[0].value}</div>}
+                  <div
+                    className={
+                      src &&
+                        rtlLanguages.some((el) => el.includes(src[0].value))
+                        ? styles.sampleContentRTL
+                        : styles.sampleContent
+                    }
+                    dangerouslySetInnerHTML={{
+                      __html: sent.src.replaceAll("\n", "<br/>"),
+                    }}
+                  ></div>
+                </div>
+                {sent.trg && <div className={styles.trgSentence}>
+                  <div className={styles.trgTag}>{trg[0].value}</div>
+                  <div
+                    className={
+                      src &&
+                        rtlLanguages.some((el) => el.includes(trg[0].value))
+                        ? styles.sampleContentRTL
+                        : styles.sampleContent
+                    }
+                    dangerouslySetInnerHTML={{
+                      __html: sent.trg.replaceAll("\n", "<br/>"),
+                    }}
+                  ></div>
+                </div>}
+                <hr className={styles.stripe}></hr>
+              </div>
+            );
+          })}
+        </div>
+
         <div className={styles.sampleButtons}>
           {currentSample > 1 && (
             <button
-              onClick={() => {
-                scrollToTop()
+              onClick={() =>
                 setCurrentSample((currentSample) =>
-                  currentSample > 1 ? currentSample - 1 : currentSample
+                  currentSample > 1 ? currentSample - 10 : currentSample
                 )
-              }
               }
             >
               <ArrowLeft />
             </button>
           )}
           <p>
-            Currently showing doc number {currentSample} out of{" "}
-            {sample[1].length}
+            Currently showing sentences {currentSample}-{currentSample + 9} out
+            of {sample.length}
           </p>
-          {currentSample < sample[1].length && (
+          {currentSample + 10 < sample.length && (
             <button
-              onClick={() => {
-                scrollToTop()
+              onClick={() =>
                 setCurrentSample((currentSample) =>
-                  currentSample < sample[1].length
-                    ? currentSample + 1
+                  currentSample < sample.length
+                    ? currentSample + 10
                     : currentSample
                 )
-              }
               }
             >
               <ArrowRight />

@@ -1,10 +1,10 @@
-.noiseDistributionGraphContainer {
-  height: 310px;
-  z-index: 300;
+.container {
+  height: 300px;
+  margin-top: 15px;
 }
 
-.recharts-brush rect {
-  fill: red;
+.title {
+  display: flex;
 }
 
 @media (max-width: 768px) {

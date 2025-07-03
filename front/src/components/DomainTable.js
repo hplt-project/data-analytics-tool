@@ -17,12 +17,12 @@ function DomainTable({ domains, docsTotal }) {
           </tr>
         </thead>
         <tbody>
-          {domains.map((dom) => {
+          {domains.map((dom, idx) => {
             const domain = punycode.toUnicode(dom[0]);
             const frequency = numberFormatter(dom[1]);
             const percentage = docsTotal ? (dom[1] * 100) / docsTotal : "";
             return (
-              <tr>
+              <tr key={`domain--${idx}`}>
                 <td>
                   <a
                     href={`http://www.${domain}`}
