@@ -3,7 +3,7 @@ import axios from "axios";
 import Footer from "@/components/Footer";
 import { CheckSquare2, Copy, XCircle } from "lucide-react";
 import Navbar from "@/components/Navbar";
-import { languagePairName } from "../../hooks/hooks";
+import { languagePairName } from "@/lib/helpers";
 import CopyToClipboard from "react-copy-to-clipboard";
 import { DropdownList } from "react-widgets/cjs";
 import { ColorRing } from "react-loader-spinner";
@@ -14,13 +14,8 @@ import styles from "@/styles/Uploader.module.css";
 import "react-widgets/styles.css";
 
 export default function Uploader({ languageList }) {
-
-
     const [upload, setUpload] = useState(false);
-
     const [fileExtension, setFileExtension] = useState("");
-
-
     const [corpusName, setCorpusName] = useState("");
     const [corpus, setCorpus] = useState("");
     const [languageMode, setLanguageMode] = useState("parallel");
@@ -41,7 +36,6 @@ export default function Uploader({ languageList }) {
 
     const inputFile = useRef(null);
 
-
     const clearFields = () => {
         setCorpusName("");
         setCorpus("");
@@ -53,8 +47,6 @@ export default function Uploader({ languageList }) {
             inputFile.current.type = "file";
         }
     }
-
-
 
     const toastMessage = (alert) => {
         setTimeout(() => {

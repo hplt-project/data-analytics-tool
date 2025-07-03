@@ -68,8 +68,9 @@ export default function LanguagePieChart({
         graphValues.push({ lang: `${othersLength} - Others`, val: final, fill: "grey" });
 
     } else {
-        graphValues = values;
+        graphValues = processedItems;
     }
+
     return (
         <div className={styles.languagePieChartContainer}>
             {warning && (

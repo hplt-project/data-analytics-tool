@@ -11,10 +11,10 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { numberFormatter, DataFormatter } from "@/lib/helpers";
-import { Info } from "lucide-react";
 import { Tooltip as InfoTooltip } from "react-tooltip";
+import InfoCircle from "./InfoCircle";
 
-import styles from "@/styles/ReportScores.module.css";
+import styles from "@/styles/BicleanerScores.module.css";
 
 const CustomTooltip = ({ active, payload, label, measurement }) => {
   if (active && payload && payload.length) {
@@ -86,46 +86,38 @@ export default function BicleanerScores({ scores, footNote }) {
   } = processedScores;
 
   const percUnderFive = (underFive * 100) / totalValue;
-
   const percOverEqualFive = (overEqualFive * 100) / totalValue;
-
   const percOverEqualEight = (overEqualEight * 100) / totalValue;
 
   const numbers = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
 
   return (
-    <div className={styles.bicleanerScores}>
-      <h3>
-        Translation likelihood{" "}
-        <a className="bicleaner-info-second">
-          {" "}
-          {!footNote && (
-            <Info
-              className={[styles.helpCircle, styles.desktopData].join(" ")}
-              strokeWidth={2}
-              color="#022831"
-              width={18}
-            />
-          )}
-        </a>
-        <InfoTooltip
-          anchorSelect=".bicleaner-info-second"
-          place="top"
-          clickable
-        >
-          Scores computed by Bicleaner-AI: (
-          <a
-            href="https://github.com/bitextor/bicleaner-ai"
-            target="_blank"
-            className={styles.tooltipLink}
-          >
-            https://github.com/bitextor/bicleaner-ai
+    <div className={styles.container}>
+      <div className={styles.title}>
+        <h3>
+          Translation likelihood{" "}
+          <a className="bicleaner-info-second">
+            {!footNote && (
+              <InfoCircle
+              />
+            )}
           </a>
-          )
-        </InfoTooltip>
-      </h3>
-      <div className={styles.reportScoresContainer}>
-        <div className={styles.reportTitleSmall}>
+          <InfoTooltip
+            anchorSelect=".bicleaner-info-second"
+            place="top"
+            clickable
+          >
+            Scores computed by Bicleaner-AI: (
+            <a
+              href="https://github.com/bitextor/bicleaner-ai"
+              target="_blank"
+            >
+              https://github.com/bitextor/bicleaner-ai
+            </a>
+            )
+          </InfoTooltip>
+        </h3>
+        <div className={styles.numbers}>
           <p>
             {"≥"} 5 = {numberFormatter(overEqualFive)} segments |{" "}
             <strong>{percOverEqualFive.toFixed(1)}%</strong>
@@ -139,60 +131,60 @@ export default function BicleanerScores({ scores, footNote }) {
             <strong>{percUnderFive.toFixed(1)}%</strong>
           </p>
         </div>
-        <ResponsiveContainer width="100%" height="100%">
-          <BarChart
-            height={300}
-            data={processedItems}
-            margin={{
-              top: 32,
-              right: 20,
-              left: 10,
-              bottom: 25,
-            }}
-          >
-            <CartesianGrid strokeDasharray="2 1" />
-            <XAxis
-              dataKey="token"
-              fontSize={14}
-              tickMargin={5}
-              type="number"
-              allowDecimals
-              ticks={numbers}
-            >
-              <Label
-                value="Scores"
-                offset={10}
-                position="bottom"
-                fontSize={16}
-              />
-            </XAxis>
-            <YAxis
-              fontSize={14}
-              label={{
-                value: "Segments",
-                angle: 0,
-                position: "top",
-                offset: 12,
-                fontSize: 14,
-              }}
-              tickFormatter={DataFormatter}
-            />
-            <Tooltip
-              content={<CustomTooltip measurement={"Segments"} />}
-              wrapperStyle={{ outline: "none" }}
-            />
-            <ReferenceLine y={0} stroke="#000" />
-            <Bar dataKey="freq" maxBarSize={100}>
-              <LabelList
-                dataKey="freqFormatted"
-                position="top"
-                fontWeight={600}
-                fontSize={12}
-              />
-            </Bar>
-          </BarChart>
-        </ResponsiveContainer>
       </div>
+      <ResponsiveContainer width="100%" height="100%">
+        <BarChart
+          height={300}
+          data={processedItems}
+          margin={{
+            top: 25,
+            right: 0,
+            left: 5,
+            bottom: 25,
+          }}
+        >
+          <CartesianGrid strokeDasharray="2 1" />
+          <XAxis
+            dataKey="token"
+            fontSize={14}
+            tickMargin={5}
+            type="number"
+            allowDecimals
+            ticks={numbers}
+          >
+            <Label
+              value="Scores"
+              offset={10}
+              position="bottom"
+              fontSize={16}
+            />
+          </XAxis>
+          <YAxis
+            fontSize={14}
+            label={{
+              value: "Segments",
+              angle: 0,
+              position: "top",
+              offset: 12,
+              fontSize: 14,
+            }}
+            tickFormatter={DataFormatter}
+          />
+          <Tooltip
+            content={<CustomTooltip measurement={"Segments"} />}
+            wrapperStyle={{ outline: "none" }}
+          />
+          <ReferenceLine y={0} stroke="#000" />
+          <Bar dataKey="freq" maxBarSize={100}>
+            <LabelList
+              dataKey="freqFormatted"
+              position="top"
+              fontWeight={600}
+              fontSize={12}
+            />
+          </Bar>
+        </BarChart>
+      </ResponsiveContainer>
     </div>
   );
 }

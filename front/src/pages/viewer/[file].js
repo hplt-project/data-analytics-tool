@@ -1,4 +1,4 @@
-import DataAnalyticsReport from "@/components/DataAnalyticsReport";
+import Report from "@/components/Report";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useRouter } from "next/router";
@@ -6,7 +6,6 @@ import { DropdownList } from "react-widgets";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Oval } from "react-loader-spinner";
-import Report from "@/components/Report";
 
 import { languagePairName, multipleFilter } from "@/lib/helpers";
 
@@ -17,7 +16,6 @@ import "react-widgets/styles.css";
 export default function Home({ fileNames }) {
   const [report, setReport] = useState("");
   const [date, setDate] = useState("");
-  const [testReport, setTestReport] = useState(null);
 
   const [status, setStatus] = useState("IDLE");
 
@@ -38,9 +36,8 @@ export default function Home({ fileNames }) {
         setStatus("IDLE");
       }
 
-      setReport(statsData.stats);
+      setReport(statsData.report);
       setDate(statsData.date);
-      setTestReport(statsData.report);
     } catch (error) {
       setStatus("FAILED");
       console.log(error);
@@ -124,14 +121,10 @@ export default function Home({ fileNames }) {
             Something went wrong with the requested file, please try again.
           </div>
         )}
-        {report && status !== "LOADING" && (
-          <DataAnalyticsReport reportData={report} date={date} report={testReport} />
+        {status !== "LOADING" && (
+          <Report date={date} report={report} />
         )}
       </div>
-
-      {report && status !== "LOADING" && (
-        <Report reportData={report} date={date} report={testReport} />
-      )}
       <Footer />
     </div>
   );
@@ -181,8 +174,6 @@ export async function getServerSideProps() {
       : el.toLowerCase().includes("hplt")
         ? "hplt"
         : "";
-
-
 
     return {
       originalName: el,

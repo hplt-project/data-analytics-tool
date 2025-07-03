@@ -1,5 +1,5 @@
 import { PieChart, Pie, Tooltip, ResponsiveContainer } from "recharts";
-import { randDarkColor } from "../lib/helpers";
+import { randDarkColor, numberFormatter } from "../lib/helpers";
 import styles from "@/styles/CollectionsGraph.module.css";
 
 const CustomTooltip = ({ active, payload, label, totalValue }) => {
@@ -37,7 +37,7 @@ const CustomTooltip = ({ active, payload, label, totalValue }) => {
     }
 };
 
-export default function CollectionsGraph({ collection }) {
+export default function CollectionsGraph({ collection, docs }) {
 
     const values = collection.reduce((acc, item) => {
 
@@ -90,21 +90,24 @@ export default function CollectionsGraph({ collection }) {
 
     return (
         <div className={styles.collectionsContainer}>
-            <div className={styles.collectionsPercCont}>
-                <p>CC = {ccPerc.toFixed(2)}%</p>
-                <p>IA = {iaPerc.toFixed(2)}%</p>
+            <h3>{docs ? "Document collections" : "Collections"}</h3>
+            <div className={styles.title}>
+                <div className={styles.collectionsPercCont}>
+                    <p>CC = {ccPerc.toFixed(2)}%</p>
+                    <p>IA = {iaPerc.toFixed(2)}%</p>
+                </div>
             </div>
             <div className={styles.collectionsGraph}>
                 <ResponsiveContainer width="100%" height="100%" aspect={1.6}>
-                    <PieChart width={400} height={300}>
+                    <PieChart width={300} height={300}>
                         <Pie
                             dataKey="freq"
                             isAnimationActive={false}
                             data={newCollection}
-                            cx={180}
-                            cy={130}
+                            cx={235}
+                            cy={120}
                             nameKey="token"
-                            outerRadius={60}
+                            outerRadius={75}
                             label={({
                                 cx,
                                 cy,
@@ -133,9 +136,7 @@ export default function CollectionsGraph({ collection }) {
                                         dominantBaseline="central"
                                     >
                                         {newCollection[index].token} (
-                                        {Intl.NumberFormat("en", {
-                                            notation: "compact",
-                                        }).format(value)}
+                                        {numberFormatter(value)}
                                         )
                                     </text>
                                 );

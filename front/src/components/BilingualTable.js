@@ -1,10 +1,9 @@
 import Link from "next/link";
-import styles from "@/styles/BilingualTable.module.css";
+const punycode = require("punycode/");
 
-function BilingualTable({ list, type }) {
+function BilingualTable({ src, trg, type, sentences }) {
   return (
     <div
-      className={styles.bilingualTable}
       style={type === "domains" ? { marginRight: "15px" } : {}}
     >
       <h2>Dataset top 10 {type}</h2>
@@ -18,40 +17,40 @@ function BilingualTable({ list, type }) {
           </tr>
         </thead>
         <tbody>
-          {list.map((el) => {
+          {src.map((el, idx) => {
+            const srcName = punycode.toUnicode(el[0]);
+            const trgName = punycode.toUnicode(trg[idx][0]);
+            const srcPercentage = sentences ? (el[1] * 100) / sentences : "";
+            const trgPercentage = sentences ? (trg[idx][1] * 100) / sentences : "";
             return (
               <tr>
                 {type === "domains" && (
                   <td>
                     <Link
-                      href={`http://www.${el.src_domain.token}`}
+                      href={`http://www.${srcName}`}
                       target="_blank"
-                      className={styles.domainLink}
                     >
-                      {el.src_domain.token}
+                      {srcName}
                     </Link>
                   </td>
                 )}
-                {type === "TLDs" && <td>{el.src_domain.token}</td>}
+                {type === "TLDs" && <td>{srcName}</td>}
                 <td>
-                  {/* {el.src_domain.freq} |{" "} */}
-                  {el.src_domain.perc.toFixed(1)}%
+                  {srcPercentage.toFixed(1)}%
                 </td>
                 {type === "domains" && (
                   <td>
                     <Link
-                      href={`http://www.${el.trg_domain.token}`}
+                      href={`http://www.${trgName}`}
                       target="_blank"
-                      className={styles.domainLink}
                     >
-                      {el.trg_domain.token}
+                      {trgName}
                     </Link>
                   </td>
                 )}
-                {type === "TLDs" && <td>{el.trg_domain.token}</td>}
+                {type === "TLDs" && <td>{trgName}</td>}
                 <td>
-                  {/* {el.trg_domain.freq} |{" "} */}
-                  {el.trg_domain.perc.toFixed(1)}%
+                  {trgPercentage.toFixed(1)}%
                 </td>
               </tr>
             );

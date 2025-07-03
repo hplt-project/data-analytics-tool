@@ -27,3 +27,24 @@ export const calculateDocumentSegments = (reportData) => {
             ((result.total - result.filteredSum) * 100) / result.total,
     };
 };
+
+
+export function processTokenFrequencies(sentTokens, uniqueTokens) {
+    if (!sentTokens || !uniqueTokens) {
+        return null;
+    }
+
+    const uniqueTokensMap = new Map(uniqueTokens.map(([token, freq]) => [token, freq]));
+
+    return sentTokens.map(([token, freq]) => {
+        const uniqueFreq = uniqueTokensMap.get(token) || 0;
+        return {
+            token,
+            freq,
+            freqUnique: uniqueFreq,
+            duplicates: freq - uniqueFreq,
+            freqFormatted: 0,
+            duplicatesFormatted: 0,
+        };
+    });
+}

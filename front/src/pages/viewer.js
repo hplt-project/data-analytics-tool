@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useRouter } from "next/router";
 import { DropdownList } from "react-widgets";
-import { languagePairName, multipleFilter } from "../../lib/helpers";
+import { languagePairName, multipleFilter } from "@/lib/helpers";
 
 import "react-widgets/styles.css";
 
@@ -11,8 +11,6 @@ import styles from "@/styles/Home.module.css";
 
 export default function Home({ fileNames }) {
   const [selected, setSelected] = useState("");
-  const [report, setReport] = useState("");
-  const [date, setDate] = useState("");
 
   const router = useRouter();
 

@@ -42,7 +42,7 @@ export default async function handler(req, res) {
       d = "n/a;";
     }
 
-    res.send({ stats: doc, date: d, report: result });
+    res.send({ date: d, report: result });
   } catch (error) {
     res.send(false);
     console.log(error, "Something went sideways");

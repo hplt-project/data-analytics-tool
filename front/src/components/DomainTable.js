@@ -1,37 +1,41 @@
+const punycode = require("punycode/");
+import { numberFormatter } from "@/lib/helpers";
 import styles from "@/styles/DomainTable.module.css";
 
-function DomainTable({ topDomains, type }) {
+function DomainTable({ domains, docsTotal }) {
   return (
     <div className={styles.topDomains}>
       <h3>
-        {type === "src" ? "Source top" : type === "trg" ? "Target top" : "Top"}{" "}
-        10 domains{" "}
+        Top 10 domains
       </h3>
       <table>
         <thead>
           <tr>
             <th>Domain</th>
             <th>Docs</th>
-            {topDomains[0].perc && <th>% of total</th>}
+            {domains[0][1] && <th>% of total</th>}
           </tr>
         </thead>
         <tbody>
-          {topDomains.map((doc) => {
+          {domains.map((dom) => {
+            const domain = punycode.toUnicode(dom[0]);
+            const frequency = numberFormatter(dom[1]);
+            const percentage = docsTotal ? (dom[1] * 100) / docsTotal : "";
             return (
               <tr>
                 <td>
                   <a
-                    href={`http://www.${doc.token}`}
+                    href={`http://www.${domain}`}
                     target="_blank"
                     className={styles.domainLink}
                   >
-                    {doc.token.length > 18
-                      ? `${doc.token.slice(0, 15)}...`
-                      : doc.token}
+                    {domain.length > 18
+                      ? `${domain.slice(0, 15)}...`
+                      : domain}
                   </a>
                 </td>
-                <td>{doc.freq}</td>
-                <td>{doc.perc && doc.perc.toFixed(2)}%</td>
+                <td>{frequency}</td>
+                <td>{percentage && percentage.toFixed(2)}%</td>
               </tr>
             );
           })}
