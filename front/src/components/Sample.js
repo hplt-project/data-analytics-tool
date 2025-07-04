@@ -76,12 +76,12 @@ function Sample({ src, trg, sample, setShowSample }) {
                   <div
                     className={
                       src &&
-                        rtlLanguages.some((el) => el.includes(src[0].value))
+                        rtlLanguages.some((el) => el === src[0].value)
                         ? styles.sampleContentRTL
                         : styles.sampleContent
                     }
                     dangerouslySetInnerHTML={{
-                      __html: sent.src.replaceAll("\n", "<br/>"),
+                      __html: !sent.src ? sent : sent.src.replaceAll("\n", "<br/>"),
                     }}
                   ></div>
                 </div>
@@ -90,7 +90,7 @@ function Sample({ src, trg, sample, setShowSample }) {
                   <div
                     className={
                       src &&
-                        rtlLanguages.some((el) => el.includes(trg[0].value))
+                        rtlLanguages.some((el) => el === trg[0].value)
                         ? styles.sampleContentRTL
                         : styles.sampleContent
                     }
