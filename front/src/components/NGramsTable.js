@@ -1,5 +1,5 @@
 import styles from "@/styles/NGramsTable.module.css";
-import { unEscape } from "../../hooks/hooks";
+import { unEscape } from "@/lib/helpers";
 
 export default function NGramsTable({ NGrams }) {
   if (!NGrams) return;

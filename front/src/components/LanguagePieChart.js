@@ -1,83 +1,105 @@
 import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from "recharts";
+import { randDarkColor, languagePairName, numberFormatter } from "../lib/helpers";
+
 import styles from "@/styles/LanguagePieChart.module.css";
 
-const CustomTooltip = ({ active, payload, label }) => {
-  if (active && payload && payload.length) {
-    return (
-      <div className={styles.tooltipPie}>
-        <p className={styles.pieLabel}>{`${payload[0].name}`}</p>
-        {payload[0].payload.perc && (
-          <p
-            className={styles.perc}
-          >{`% of total:   ${payload[0].payload.perc} %`}</p>
-        )}
-      </div>
-    );
-  }
+const CustomTooltip = ({ active, payload, label, total }) => {
+    if (active && payload && payload.length) {
 
-  return null;
+        const freq = payload[0].value;
+
+        const percentage = parseFloat((freq * 100) / total).toFixed(2)
+        return (
+            <div className={styles.tooltipPie}>
+                <p className={styles.pieLabel}>{`${payload[0].name}`}</p>
+                {freq && (
+                    <p
+                        className={styles.perc}
+                    >{`% of total:   ${percentage} %`}</p>
+                )}
+            </div>
+        );
+    }
+
+    return null;
 };
 
 export default function LanguagePieChart({
-  langs,
-  total,
-  warning,
-  warningLang,
+    langs,
+    warning,
+    warningLang,
 }) {
-  let finalValues;
-  if (langs.length > 10) {
-    const others = langs.slice(10, langs.length);
 
-    const othersLength = others.length;
+    const values = langs.reduce((acc, item) => {
 
-    const final = others.reduce((a, b) => {
-      return a + +b.freq;
-    }, 0);
+        const readableLanguageName = languagePairName([item[0]]);
+        const name = `${readableLanguageName[0].label} - ${numberFormatter(item[1])}`
 
-    finalValues = langs.toSpliced(10);
+        const processedItem = {
+            lang: item[0],
+            val: item[1],
+            name: name,
+            fill: randDarkColor()
+        };
+        acc.processedItems.push(processedItem);
 
-    finalValues.push({
-      name: `${othersLength} Others - ${Intl.NumberFormat("en", {
-        notation: "compact",
-      }).format(final)}`,
-      freq: final,
-      perc: parseFloat((final * 100) / total).toFixed(2),
-      fill: "gray",
-      others: [...others],
+        acc.totalValue += item[1];
+
+        return acc;
+    }, {
+        totalValue: 0,
+        processedItems: []
     });
-  } else {
-    finalValues = langs;
-  }
-  return (
-    <div className={styles.languagePieChartContainer}>
-      {warning && (
-        <p className={styles.warning}>
-          {`*${warningLang} identification might be inaccurate because it is not
+
+    const { processedItems, totalValue } = values;
+
+    let graphValues;
+    if (langs.length > 10) {
+        const others = processedItems.slice(10, langs.length);
+
+        const othersLength = others.length;
+
+        const final = others.reduce((a, b) => {
+            return a + +b.freq;
+        }, 0);
+
+        graphValues = processedItems.toSpliced(10);
+
+        graphValues.push({ lang: `${othersLength} - Others`, val: final, fill: "grey" });
+
+    } else {
+        graphValues = processedItems;
+    }
+
+    return (
+        <div className={styles.languagePieChartContainer}>
+            {warning && (
+                <p className={styles.warning}>
+                    {`*${warningLang} identification might be inaccurate because it is not
           supported by FastSpell`}
-        </p>
-      )}
-      <ResponsiveContainer width="100%" height="100%" aspect={1.6}>
-        <PieChart width={570} height={400}>
-          <Pie
-            dataKey="freq"
-            isAnimationActive={false}
-            data={finalValues}
-            cx="40%"
-            cy="40%"
-            outerRadius="70%"
-            strokeWidth={0.7}
-          />
-          <Legend
-            layout="vertical"
-            verticalAlign="top"
-            align="right"
-            formatter={(value, entry, index) => (
-              <span className={styles.legendText}>{value}</span>
+                </p>
             )}
-          />
-          <Tooltip content={<CustomTooltip />} />
-        </PieChart>
-      </ResponsiveContainer>
-    </div>
-  );
+            <ResponsiveContainer width="100%" height="100%" aspect={1.6}>
+                <PieChart width={570} height={400}>
+                    <Pie
+                        dataKey="val"
+                        isAnimationActive={false}
+                        data={graphValues}
+                        cx="40%"
+                        cy="40%"
+                        outerRadius="70%"
+                        strokeWidth={0.7}
+                    />
+                    <Legend
+                        layout="vertical"
+                        verticalAlign="top"
+                        align="right"
+                        formatter={(value, entry, index) => <span className={styles.legendText}>{entry.payload.name}</span>
+                        }
+                    />
+                    <Tooltip content={<CustomTooltip total={totalValue} />} />
+                </PieChart>
+            </ResponsiveContainer>
+        </div >
+    );
 }
