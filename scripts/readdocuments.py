@@ -109,19 +109,19 @@ def main():
                 ds_doc["script"] = doc.get("lang")[0].split("_")[1].lower()
                 ds_doc["id"] = doc.get("id")
             elif args.format=="nemotron":
-                ds_doc["document_lang"] = "eng_latn" #Nemotron is always English for now
+                ds_doc["document_lang"] = "eng" #Nemotron is always English for now
                 ds_doc["langs"] = langs
                 ds_doc["text"] = ("\n").join(sents)
                 ds_doc["script"] = "latn"
                 ds_doc["id"] = doc.get("warc_record_id")       
             elif args.format=="fineweb":
-                ds_doc["document_lang"] = doc.get("language") + "_" + doc.get("language_script").lower()
+                ds_doc["document_lang"] = doc.get("language") # + "_" + doc.get("language_script").lower()
                 ds_doc["langs"] = langs
                 ds_doc["text"] = ("\n").join(sents)
                 ds_doc["script"] = doc.get("language_script")
                 ds_doc["id"] = doc.get("id")
     
-            document_score = ds.score_document(ds_doc, logging=logging, only_final_score=True) 
+            document_score = ds.score_document(ds_doc, raw_score=True) 
             #document_score = ds.score_document(json_line, only_final_score=True)
  
             
