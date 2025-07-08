@@ -71,7 +71,12 @@ def main():
         doc = json.loads(json_line)         
     
         #Sentences
-        sents = doc.get(text_field).split("\n")
+        raw_sents = doc.get(text_field).split("\n")
+        sents = []
+        for s in raw_sents:
+            if len(s) > 0:
+                sents.append(s)
+                
         
         #Segments in the document
         doclength = len(sents)	
