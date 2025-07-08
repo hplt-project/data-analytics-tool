@@ -1,0 +1,48 @@
+#No GPU support needed by now...
+FROM nvidia/cuda:12.2.2-cudnn8-runtime-ubuntu22.04
+
+
+ENV BINPATH=/opt/bin
+ENV DEBIAN_FRONTEND=noninteractive
+ENV LC_ALL=C 
+
+RUN mkdir -p /work/
+RUN mkdir -p /work/img/
+RUN mkdir -p /work/scripts/
+RUN mkdir -p /work/scripts/resources/
+RUN mkdir -p /work/uploaded_corpora/  
+RUN mkdir -p /work/yaml_dir/
+RUN mkdir -p /work/tests/
+
+COPY deployment/requirements-lightweb.txt /work/deployment/requirements-lightweb.txt
+
+RUN apt-get update && \
+    apt-get install -y wget unzip joe gcc libboost-all-dev cmake && \ 
+    apt-get install -y python3.10 python3-dev python3.10-dev  python3-pip  python3.10-venv && \
+    apt-get install -y git build-essential autoconf autopoint libtool
+    
+    
+RUN python3.10 -m pip install -U pip  && \
+    python3.10 -m pip install -U wheel && \
+    python3.10 -m pip install -U setuptools
+
+RUN python3.10 -m pip install -r /work/deployment/requirements-lightweb.txt
+   
+COPY *.html /work/
+COPY favicon.ico /work/
+COPY img/ /work/img/
+COPY server.py /work/
+COPY scripts/ /work/scripts/
+COPY tests/ /work/tests/
+
+COPY deployment/docker-entrypoint.sh /work/deployment/docker-entrypoint.sh
+
+EXPOSE 8000
+
+RUN chmod +x /work/deployment/*.sh
+RUN chmod +x /work/scripts/*.sh
+
+WORKDIR /work
+
+#CMD ["tail", "-f",  "/dev/null"]
+CMD /work/deployment/docker-entrypoint.sh
