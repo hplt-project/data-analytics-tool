@@ -43,9 +43,14 @@ if [ -f $filename.hardrules ] ; then
 fi
 
 #Register labels
-#if [ -f $filename.rlcounts ] ; then
-#	python3 /work/scripts/reduce/write_registerlabels.py $filename.rlcounts $yaml_file_path
-#fi	
+if [ -f $filename.rlcounts ] ; then
+	python3 /work/scripts/reduce/write_registerlabels.py $filename.rlcounts $yaml_file_path
+fi	
+
+#Samples
+if [ -f $filename.rlcounts ] ; then
+	python3 ./scripts/reduce/write_sample.py $filename.sample $yaml_file_path "docs"
+fi
 
 #Ngrams
 python3 ./scripts/reduce/addngrams.py $filename".ngrams"  $yaml_file_path "src"
