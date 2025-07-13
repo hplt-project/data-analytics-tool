@@ -546,7 +546,7 @@ elif [ "$langformat" == "mono" ]; then
 	python3 /work/scripts/reduce/write_langs.py $yaml_file_path $tsv_file_path.srclangs
 	
 	#Hardrules
-	if [ -f $tsv_file_path.hardr-ules ] ; then
+	if [ -f $tsv_file_path.hardrules ] ; then
 		python3 /work/scripts/reduce/write_hardrules.py $tsv_file_path.hardrules $yaml_file_path $HR_MODEL
 	fi
 
