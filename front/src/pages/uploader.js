@@ -166,7 +166,7 @@ export default function Uploader({ languageList }) {
 
     function handleCreate(name, setter) {
         let newOption = { value: name, label: name }
-        setter(newOption);
+        setter(newOption.value);
         setLangList +
             (data => [newOption, ...data])
     }
@@ -508,7 +508,7 @@ export default function Uploader({ languageList }) {
                                     placeholder="Bosnian (bs)"
                                     id="trglang"
                                     allowCreate="onFilter"
-                                    onCreate={(value) => handleCreate(value, setOrigin)}
+                                    onCreate={(value) => handleCreate(value, setTarget)}
                                     data={langList}
                                     dataKey="value"
                                     value={target}
@@ -560,7 +560,9 @@ export default function Uploader({ languageList }) {
 export async function getServerSideProps() {
     const axios = require("axios");
 
-    const apiList = await axios.get("http://dat-webapp:8000/opus_langs");
+    const apiBase = process.env.API_URL;
+
+    const apiList = await axios.get(`${apiBase}opus_langs`);
 
     const list = apiList.data;
 
