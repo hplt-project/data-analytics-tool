@@ -19,12 +19,15 @@
 .tablesLeft {
   display: flex;
 }
+
 .tables {
   justify-content: space-between;
 }
+
 .tablesLeft {
   justify-content: normal;
 }
+
 .overviewTables {
   margin-right: 15px;
 }
@@ -40,15 +43,10 @@
   margin-top: 45px;
 }
 
-.dataReportContainer .singleLanguageReportDocs h3 {
-  margin-top: 18px;
-  width: 90%;
-  display: flex;
-}
-
 .bilingualTables {
   display: flex;
 }
+
 .hidden {
   display: none;
 }
@@ -115,6 +113,7 @@
   margin-right: 20px;
   width: 100%;
 }
+
 .anotherContainer {
   display: flex;
 }
@@ -139,10 +138,7 @@
   margin-right: 20px;
 }
 
-.singleLanguageReport h3 {
-  margin-bottom: 10px;
-  display: flex;
-}
+
 
 .docsLangsReport {
   width: 50%;
@@ -213,8 +209,6 @@
 .dataReportContainer h3.smaller {
   font-size: 16px;
   font-weight: 600;
-  margin-top: 30px;
-  margin-bottom: 10px;
 }
 
 .containsTooltip {
@@ -224,13 +218,16 @@
 
 /* NGRMS*/
 
+
 /******** volumes table ****/
 .volumes {
   width: fit-content;
 }
+
 .targetTable {
   margin-left: auto;
 }
+
 .dataReportContainer table {
   text-align: left;
   border-collapse: collapse;
@@ -241,12 +238,15 @@
 .dataReportContainer table thead th {
   padding: 12px 8px;
 }
+
 .dataReportContainer table thead tr {
   border-bottom: 1.5px solid #5e5d5d;
 }
+
 .dataReportContainer table thead th:first-child {
   padding: 10px 8px 10px 14px;
 }
+
 .dataReportContainer table tr td {
   font-size: 14px;
   padding: 10px 8px;
@@ -255,6 +255,7 @@
 .dataReportContainer table tr td:first-child {
   padding: 10px 8px 10px 14px;
 }
+
 .dataReportContainer table thead th:last-child {
   padding: 10px 14px 10px 8px;
 }
@@ -266,9 +267,11 @@
 .dataReportContainer table thead th {
   font-weight: bold;
 }
+
 .dataReportContainer table {
   border: 1px solid #eeeeee;
 }
+
 .dataReportContainer table thead {
   color: #333333;
 }
@@ -277,9 +280,11 @@
   color: rgb(1, 95, 236);
   text-decoration: none;
 }
+
 .dataReportContainer table tr td {
   color: #666666;
 }
+
 .dataReportContainer table tr:not(:last-child) {
   border-bottom: 1px solid #5e5d5d;
 }
@@ -297,11 +302,17 @@
   cursor: pointer;
 }
 
+.langTitle {
+  margin-bottom: 20px;
+}
+
 .title {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
   margin-bottom: 10px;
 }
+
+
 .helpCircle,
 .helpCircleSmall {
   margin-left: 5px;
@@ -422,6 +433,7 @@
   .mobileData p {
     margin: 5px 0;
   }
+
   .analyticsTitle {
     font-size: 22px;
   }

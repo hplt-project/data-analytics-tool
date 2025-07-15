@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
-  margin-bottom: 40px;
+  margin: 40px 0;
 }
 
 .analyticsTitleContainer h2 {
@@ -10,6 +10,7 @@
   align-items: flex-end;
   padding-bottom: 3px;
 }
+
 .hpltAnalyticsTitle span.analyticsTitleSpan {
   font-size: 24px;
   font-style: normal;

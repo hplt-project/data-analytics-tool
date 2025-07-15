@@ -18,14 +18,22 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         self.send_header("Expires", "0")
         SimpleHTTPRequestHandler.end_headers(self)
 
-    def save_file(self, file, filename):
+    def save_file(self, file, filename, uploadedfilename):
+          
+        if "." in uploadedfilename:
+            ext = uploadedfilename.split(".")[-1]
+            ext = "."+ext
+        else:
+            ext = ""
+          
         sanitized_filename = sanitize_filename(filename.replace(" ", "-"))
-        outpath = os.path.join("/", "work", "uploaded_corpora", sanitized_filename)
+        outpath = os.path.join("/", "work", "uploaded_corpora", sanitized_filename+ext)
 
         with open(outpath, 'wb') as fout:
-            #shutil.copyfileobj(file, fout, 100000)
-            
-            fout.write(bytes(file, 'utf8'))
+            #shutil.copyfileobj(file.file, fout, 100000)            
+            #fout.write(bytes(file, 'utf8'))
+            fout.write(file)
+
         return outpath
         
     
@@ -54,8 +62,8 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
     def do_upload(self):
 
         form=cgi.FieldStorage(fp=self.rfile, headers=self.headers,environ={'REQUEST_METHOD':'POST'})        
-                   
-        saved_file_path = self.save_file(form.getvalue('corpus'), form.getvalue('corpusname'))
+        
+        saved_file_path = self.save_file(form.getvalue('corpus'), form.getvalue('corpusname'), form.getvalue("file-extension"))
         yaml_file_path = saved_file_path.replace("/uploaded_corpora/", "/yaml_dir/") + ".yaml"
         
         command = self.get_command(form, saved_file_path, yaml_file_path)

@@ -3,7 +3,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { useRouter } from "next/router";
 import { DropdownList } from "react-widgets";
-import { languagePairName, multipleFilter } from "../../hooks/hooks";
+import { languagePairName, multipleFilter } from "@/lib/helpers";
 
 import "react-widgets/styles.css";
 
@@ -11,8 +11,6 @@ import styles from "@/styles/Home.module.css";
 
 export default function Home({ fileNames }) {
   const [selected, setSelected] = useState("");
-  const [report, setReport] = useState("");
-  const [date, setDate] = useState("");
 
   const router = useRouter();
 
@@ -76,7 +74,9 @@ export default function Home({ fileNames }) {
 export async function getServerSideProps() {
   const axios = require("axios");
 
-  const apiList = await axios.get("http://dat-webapp:8000/list");
+  const apiBase = process.env.API_URL;
+
+  const apiList = await axios.get(`${apiBase}list`);
 
   const list = await apiList.data;
 

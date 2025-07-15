@@ -1,4 +1,4 @@
-import { DataFormatter } from "../../hooks/hooks";
+import { DataFormatter, numberFormatter } from "@/lib/helpers";
 import styles from "@/styles/SegmentDistribution.module.css";
 
 import {
@@ -17,20 +17,13 @@ const CustomTooltip = ({ active, payload, label }) => {
     return (
       <div className={styles.tooltipOverlap}>
         <p className={styles.labelOverlap}>{label}</p>
-
         <p>
-          {" "}
           Unique segment frequency:{" "}
-          {Intl.NumberFormat("en", {
-            notation: "compact",
-          }).format(payload[0].value)}
+          {numberFormatter(payload[0].value)}
         </p>
         <p>
-          {" "}
           Duplicate segment frequency:{" "}
-          {Intl.NumberFormat("en", {
-            notation: "compact",
-          }).format(payload[1].value)}
+          {numberFormatter(payload[1].value)}
         </p>
       </div>
     );
@@ -85,7 +78,7 @@ export default function SegmentDistribution({ data, which, fontSize }) {
         <BarChart
           data={filteredData}
           margin={{
-            top: 30,
+            top: 25,
             right: 0,
             left: 10,
             bottom: 55,
