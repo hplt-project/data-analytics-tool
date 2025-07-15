@@ -122,7 +122,7 @@ export default function DocumentScores({ scores, footNote }) {
               {numberFormatter(underFive)} documents)
             </p>
             <p>
-              score {">="} 5 - <strong>{+percOverFive.toFixed(2)}%</strong> (
+              score {"≥"} 5 - <strong>{+percOverFive.toFixed(2)}%</strong> (
               {numberFormatter(overFive)} documents)
             </p>
           </div>

@@ -88,7 +88,7 @@ function NewDocumentSizes({ documentSizesObj }) {
             {percentageOfTotal && remainingSum >= 0 && (
               <div className={styles.reportTitleDocsSizes}>
                 <p>
-                  <strong>{"<="} 25</strong> segments{" "}
+                  <strong>{"≤"} 25</strong> segments{" "}
                   <strong>{+percentageOfTotal.toFixed(2)}%</strong> (
                   {Intl.NumberFormat("en", {
                     notation: "compact",
