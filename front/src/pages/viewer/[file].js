@@ -1,4 +1,4 @@
-import DataAnalyticsReport from "@/components/DataAnalyticsReport";
+import Report from "@/components/Report";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useRouter } from "next/router";
@@ -7,7 +7,7 @@ import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Oval } from "react-loader-spinner";
 
-import { languagePairName, multipleFilter } from "../../../hooks/hooks";
+import { languagePairName, multipleFilter } from "@/lib/helpers";
 
 import styles from "@/styles/Home.module.css";
 
@@ -36,7 +36,7 @@ export default function Home({ fileNames }) {
         setStatus("IDLE");
       }
 
-      setReport(statsData.stats);
+      setReport(statsData.report);
       setDate(statsData.date);
     } catch (error) {
       setStatus("FAILED");
@@ -121,8 +121,8 @@ export default function Home({ fileNames }) {
             Something went wrong with the requested file, please try again.
           </div>
         )}
-        {report && status !== "LOADING" && (
-          <DataAnalyticsReport reportData={report} date={date} />
+        {status !== "LOADING" && (
+          <Report date={date} report={report} />
         )}
       </div>
       <Footer />
@@ -132,7 +132,9 @@ export default function Home({ fileNames }) {
 export async function getServerSideProps() {
   const axios = require("axios");
 
-  const apiList = await axios.get("http://dat-webapp:8000/list");
+  const apiBase = process.env.API_URL;
+
+  const apiList = await axios.get(`${apiBase}list`);
 
   const list = await apiList.data;
 
@@ -172,8 +174,6 @@ export async function getServerSideProps() {
       : el.toLowerCase().includes("hplt")
         ? "hplt"
         : "";
-
-
 
     return {
       originalName: el,

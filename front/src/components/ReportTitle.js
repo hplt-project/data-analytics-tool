@@ -8,7 +8,7 @@ function ReportTitle() {
     <div className={styles.analyticsTitleContainer}>
       <h1 className={styles.analyticsTitle}>HPLT Analytics report</h1>
       <h2>
-        <Image src={Logo} width={30} height={30} className={styles.logo} />
+        <Image src={Logo} width={30} height={30} className={styles.logo} alt="hplt analytics logo" />
         <p className={styles.hpltAnalyticsTitle}>
           <span className={styles.analyticsTitleSpan}>HPLT</span>Analytics
         </p>

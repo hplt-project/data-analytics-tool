@@ -109,9 +109,6 @@ RUN python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3
   
 
 
-COPY *.html /work/
-COPY favicon.ico /work/
-COPY img/ /work/img/
 COPY server.py /work/
 COPY scripts/ /work/scripts/
 COPY tests/ /work/tests/

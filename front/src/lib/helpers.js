@@ -63,6 +63,7 @@ export function codeToLangTransformer(languagesArray) {
 
   let codeToLang = languagesArray.map((lang, idx) => {
     let correctCode = lang.replace("_", "-");
+    if (!lang) return false;
     try {
       return {
         value: correctCode,
@@ -80,6 +81,7 @@ export function codeToLangTransformer(languagesArray) {
         id: idx,
       };
     } catch (error) {
+      if (!correctCode) return false;
       return { value: correctCode, label: correctCode, id: idx };
     }
   });
@@ -90,6 +92,7 @@ export function languagePairName(languagesArray) {
   let languageNames = new Intl.DisplayNames(["en"], { type: "language" });
 
   let codeToLang = languagesArray.map((lang, idx) => {
+    if (!lang) return false;
     let correctCode = lang.replace("_", "-");
     try {
       return {
@@ -101,13 +104,13 @@ export function languagePairName(languagesArray) {
         id: idx,
       };
     } catch (error) {
+      if (!correctCode) return false;
       return { value: correctCode, label: correctCode, id: idx };
     }
   });
   return codeToLang;
 }
 
-////// Dark Color Generator function
 
 export function randDarkColor() {
   var lum = -0.25;
