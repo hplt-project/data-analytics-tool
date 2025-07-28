@@ -84,6 +84,8 @@ The stats generated with this tool come in a handy yaml format with the followin
 - `register_labels`: Distribution of documents identified with a given web register by [web-register-classification-multilingual](https://huggingface.co/TurkuNLP/web-register-classification-multilingual) (only for monolingual documents)
 - `sentence_pairs`: Total amount of segments (in the case of monolingual corpora) or segment pairs (in the case of parallel corpora)
 - `src_bytes`: Total size of source segments, uncompressed.
+- `src_chars`: Total amount of characters in source segments.
+- `src_pii`: Number of source segments containing potential personally identifiable information.
 - `srclang`: Source language.
 - `src_langs`: Distribution of source segments languages, as identified by [FastSpell](https://github.com/mbanon/fastspell)
 - `src_ngrams`: Distribution of the 5 most common n-grams of each order (1-grams to 5-grams) in source segments
@@ -96,6 +98,8 @@ The stats generated with this tool come in a handy yaml format with the followin
 - `src_unique_sents`: Distribution of source segments having a certain amount of tokens, after removing duplicated segments 
 - `timestamp`: Unix timestamp indicating when were the stats obtained.
 - `trg_bytes`: Total size of target segments, uncompressed (only for parallel corpora)
+- `trg_chars`: Total amount of characters in target segments (only for parallel corpora)
+- `trg_pii`: Number of target segments containing potential personally identifiable information (only for parallel corpora)
 - `trglang`: Target language (only for parallel corpora)
 - `trg_langs`: Distribution of target segments languages, as identified by [FastSpell](https://github.com/mbanon/fastspell) (only for parallel corpora)
 - `trg_ngrams`:  Distribution of the 5 most common n-grams of each order (1-grams to 5-grams) in target segments (only for parallel corpora)
@@ -107,6 +111,7 @@ The stats generated with this tool come in a handy yaml format with the followin
 - `trg_top100_tld`: 100 most common top level domains in target segments (not including subdomains), and the amount of segments for each one (only for HPLT parallel corpora)
 - `trg_unique_sents`: Distribution of target segments having a certain amount of tokens, after removing duplicated segments (only for parallel corpora)
 - `unique_sents`: Total amount of segments (for monolingual corpora) or segment pairs (for parallel corpora), after removing duplicated segments or segment pairs
+- `sample`: JSON array with up to 50 example documents, segments or segment pairs from the corpus
 - `warnings`: List of issues encountered while processing the corpus.
   - `src_warning_tok_xxx_yyy`: The source language is not supported by a dedicated tokenizer, so it fallbacks to the xxx tokenizer with the yyy language (only for parallel corpora).
   - `trg_warning_tok_xxx_yyy`: Same as the above but for the target language (only for parallel corpora).
