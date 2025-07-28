@@ -129,6 +129,7 @@ export default function Report({ date, report }) {
     : "";
 
   const uniqueSegments = report.unique_sents ? report.unique_sents : "";
+  const duplicationRatio = report.duplication_ratio ?? "";
 
   const srcTokens = numberFormatter(src_tokens) ?? "";
 
@@ -235,6 +236,9 @@ export default function Report({ date, report }) {
                       {!trglang && uniqueSegments && (
                         <th className={styles.desktopData}>Unique segments</th>
                       )}
+                      {duplicationRatio !== "" && (
+                        <th className={styles.desktopData}>Duplication ratio</th>
+                      )}
                       {!trglang && srcTokens && (
                         <th className={styles.desktopData}>
                           <div className={styles.containsTooltip}>
@@ -322,6 +326,11 @@ export default function Report({ date, report }) {
                           </p>
                         </td>
                       )}
+                      {duplicationRatio !== "" && (
+                        <td className={styles.desktopData}>
+                          {(duplicationRatio * 100).toFixed(2)}%
+                        </td>
+                      )}
                       {srcTokens && (
                         <td className={styles.desktopData}>{srcTokens}</td>
                       )}
@@ -377,6 +386,11 @@ export default function Report({ date, report }) {
                           %)
                         </span>
                       )}
+                    </p>
+                  )}
+                  {duplicationRatio !== "" && (
+                    <p className={styles.mobileNum}>
+                      Duplication ratio - {(duplicationRatio * 100).toFixed(2)}%
                     </p>
                   )}
                   {!trglang && srcTokens && <p>Tokens - {srcTokens}</p>}

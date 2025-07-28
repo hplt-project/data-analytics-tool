@@ -31,7 +31,9 @@ def main():
         stats["trg_chars"] = int(volumes[6])
         stats["src_pii"] = int(volumes[7])
         stats["trg_pii"] = int(volumes[8])
-        stats["unique_sents"] = int(volumes[9])-1  #Removing one because of empty fields in the proc file due to ngrams
+        stats["unique_sents"] = int(volumes[9]) - 1  # Removing one because of empty fields in the proc file due to ngrams
+        duplicates = stats["sentence_pairs"] - stats["unique_sents"]
+        stats["duplication_ratio"] = round(duplicates / stats["sentence_pairs"], 4)
     if len(volumes) == 6: 
         #is mono
         #0: sentences 1:srctokcount 2:srcbytes 3:srcchars 4:srcpii 5:uniquesents
@@ -40,7 +42,9 @@ def main():
         stats["src_bytes"] = int(volumes[2])
         stats["src_chars"] = int(volumes[3])
         stats["src_pii"] = int(volumes[4])
-        stats["unique_sents"] = int(volumes[5])-1
+        stats["unique_sents"] = int(volumes[5]) - 1
+        duplicates = stats["sentence_pairs"] - stats["unique_sents"]
+        stats["duplication_ratio"] = round(duplicates / stats["sentence_pairs"], 4)
     yaml.dump(stats, args.yamlfile)
             
 if __name__ == '__main__':
