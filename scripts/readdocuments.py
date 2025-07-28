@@ -118,7 +118,7 @@ def main():
                 ds_doc["document_lang"] = doc.get("language") # + "_" + doc.get("language_script").lower()
                 ds_doc["langs"] = langs
                 ds_doc["text"] = ("\n").join(sents)
-                ds_doc["script"] = doc.get("language_script")
+                ds_doc["script"] = doc.get("language_script").lower()
                 ds_doc["id"] = doc.get("id")
     
             document_score = ds.score_document(ds_doc, raw_score=True) 
