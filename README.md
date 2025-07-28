@@ -111,6 +111,7 @@ The stats generated with this tool come in a handy yaml format with the followin
 - `trg_top100_tld`: 100 most common top level domains in target segments (not including subdomains), and the amount of segments for each one (only for HPLT parallel corpora)
 - `trg_unique_sents`: Distribution of target segments having a certain amount of tokens, after removing duplicated segments (only for parallel corpora)
 - `unique_sents`: Total amount of segments (for monolingual corpora) or segment pairs (for parallel corpora), after removing duplicated segments or segment pairs
+- `duplication_ratio`: Portion of segments that were identified as duplicates, computed as duplicates divided by total segments
 - `sample`: JSON array with up to 50 example documents, segments or segment pairs from the corpus
 - `warnings`: List of issues encountered while processing the corpus.
   - `src_warning_tok_xxx_yyy`: The source language is not supported by a dedicated tokenizer, so it fallbacks to the xxx tokenizer with the yyy language (only for parallel corpora).
