@@ -65,7 +65,9 @@ def main():
         
         
     langident = heli_otr.Identifier()
-    ds = docscorer.DocumentScorer()     
+    ds = docscorer.DocumentScorer()
+
+    domain_cache = {}
     
     for json_line in args.input:
         doc = json.loads(json_line)         
@@ -140,10 +142,15 @@ def main():
         url = doc.get(url_field)
         try:
             fulldomain = urlparse(url).netloc #This includes subdomain
-            rawdomain = tldextract.extract(fulldomain).domain #This does not include subdomain
-            tld = tldextract.extract(fulldomain).suffix #This is the TDL removing the preceeding dot
-            domain = rawdomain+"."+tld
-        except Exception as ex:            
+            if fulldomain in domain_cache:
+                domain, tld = domain_cache[fulldomain]
+            else:
+                extract_res = tldextract.extract(fulldomain)
+                rawdomain = extract_res.domain #This does not include subdomain
+                tld = extract_res.suffix #This is the TDL removing the preceeding dot
+                domain = rawdomain + "." + tld
+                domain_cache[fulldomain] = (domain, tld)
+        except Exception as ex:
             logging.error("Bad url: " + url)
             logging.error(ex)
 
