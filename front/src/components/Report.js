@@ -129,6 +129,7 @@ export default function Report({ date, report }) {
     : "";
 
   const uniqueSegments = report.unique_sents ? report.unique_sents : "";
+  const duplicationRatio = report.duplication_ratio ?? "";
 
   const srcTokens = numberFormatter(src_tokens) ?? "";
 
@@ -219,10 +220,10 @@ export default function Report({ date, report }) {
                       <th>
                         <div className={styles.containsTooltip}>
                           Segments{" "}
-                          <a className="segments-info">
-                            {!footNote && <InfoCircle />}
+                          <a className="segments-info" >
+                            {!footNote && <InfoCircle style={{ marginBottom: "-2px", marginLeft: "3px" }} />}
                           </a>
-                          <Tooltip anchorSelect=".segments-info" place="top">
+                          <Tooltip anchorSelect=".segments-info" place="top" style={{ fontWeight: 400 }}>
                             Segments correspond to paragraph and list boundaries
                             as defined by HTML elements{" "}
                             <code>
@@ -235,17 +236,20 @@ export default function Report({ date, report }) {
                       {!trglang && uniqueSegments && (
                         <th className={styles.desktopData}>Unique segments</th>
                       )}
-                      {!trglang && Number(srcTokens) > 0 && (
+                      {duplicationRatio !== "" && (
+                        <th className={styles.desktopData}>Duplication ratio</th>
+                      )}
+                      {!trglang && Number(src_tokens) > 0 && (
                         <th className={styles.desktopData}>
                           <div className={styles.containsTooltip}>
                             Tokens{" "}
                             <a className="tokens-info">
-                              {!footNote && <InfoCircle />}
+                              {!footNote && <InfoCircle style={{ marginBottom: "-2px", marginLeft: "3px" }} />}
                             </a>
                             <Tooltip
                               anchorSelect=".tokens-info"
                               place="top"
-                              clickable
+                              clickable style={{ fontWeight: 400 }}
                             >
                               Tokenized with{" "}
                               <a
@@ -259,7 +263,7 @@ export default function Report({ date, report }) {
                           </div>
                         </th>
                       )}
-                      {trglang && Number(srcTokens) > 0 && (
+                      {trglang && Number(src_tokens) > 0 && (
                         <th className={styles.desktopData}>SL tokens</th>
                       )}
                       {trglang && srcChars && (
@@ -322,9 +326,14 @@ export default function Report({ date, report }) {
                           </p>
                         </td>
                       )}
-                      {Number(srcTokens) > 0 && (
-                        <td className={styles.desktopData}>{srcTokens}</td>
-                      )}
+                      {duplicationRatio !== "" && (
+                        <td className={styles.desktopData}>
+                          {(duplicationRatio * 100).toFixed(2)}%
+                        </td>)}
+                      {Number(src_tokens) > 0 &&
+                        (<td className={styles.desktopData}>{srcTokens}</td>
+                        )}
+
 
                       {srcChars && (
                         <td className={styles.desktopData}>{srcChars}</td>
@@ -377,6 +386,11 @@ export default function Report({ date, report }) {
                           %)
                         </span>
                       )}
+                    </p>
+                  )}
+                  {duplicationRatio !== "" && (
+                    <p className={styles.mobileNum}>
+                      Duplication ratio - {(duplicationRatio * 100).toFixed(2)}%
                     </p>
                   )}
                   {!trglang && srcTokens && <p>Tokens - {srcTokens}</p>}
@@ -591,7 +605,7 @@ export default function Report({ date, report }) {
                   : "Source segment length distribution by token"}
               </h3>
               <a className="segment-length-info">
-                {!footNote && <InfoCircle />}
+                {!footNote && <InfoCircle style={{ marginBottom: "-3px", marginLeft: "3px" }} />}
               </a>
               <Tooltip
                 anchorSelect=".segment-length-info"

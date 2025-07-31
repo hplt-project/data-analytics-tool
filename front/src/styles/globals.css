@@ -52,6 +52,26 @@
   --sample-box-compare: #f4f5f7;
   --compare-border: 1px solid rgb(241, 238, 243);
   --dropdown-border: 1px solid #d4caf4;
+  /* -------------------------------------------------
+   Default colour tokens for the n-gram table
+   (add before any styles that reference them)
+-------------------------------------------------- */
+  /* Neutral greys */
+  --border-light: #e4e7ec;
+  /* light border lines              */
+  --text-muted: #475467;
+  /* header text / subtle labels      */
+
+  /* Backgrounds */
+  --header-bg: #f9fafb;
+  /* table header                    */
+  --row-alt: #fbfcfd;
+  /* zebra stripe (odd rows)         */
+  --row-hover: #f1f5f9;
+  /* hover background                */
+  --table-main: #ffffff;
+  /* main table fill (already used)  */
+
 }
 
 [data-theme="dark"] {

@@ -166,7 +166,7 @@ export default function Uploader({ languageList }) {
 
     function handleCreate(name, setter) {
         let newOption = { value: name, label: name }
-        setter(newOption);
+        setter(newOption.value);
         setLangList +
             (data => [newOption, ...data])
     }
@@ -508,7 +508,7 @@ export default function Uploader({ languageList }) {
                                     placeholder="Bosnian (bs)"
                                     id="trglang"
                                     allowCreate="onFilter"
-                                    onCreate={(value) => handleCreate(value, setOrigin)}
+                                    onCreate={(value) => handleCreate(value, setTarget)}
                                     data={langList}
                                     dataKey="value"
                                     value={target}

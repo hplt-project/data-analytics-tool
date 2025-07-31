@@ -58,7 +58,7 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         
         return(command)
     
-            
+
     def do_upload(self):
 
         form=cgi.FieldStorage(fp=self.rfile, headers=self.headers,environ={'REQUEST_METHOD':'POST'})        
@@ -74,7 +74,7 @@ class CORSRequestHandler (SimpleHTTPRequestHandler):
         self.send_header("Redirect-From", "upload")
         self.end_headers()
         return 
-        
+
 
     def do_getcmd(self):
 

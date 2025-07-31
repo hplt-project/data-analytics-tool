@@ -34,7 +34,7 @@
 }
 
 .tooltipText {
-  font-size: 16px;
+  font-size: 14px;
 }
 
 .mtInfo {
@@ -46,6 +46,7 @@
   border: solid 1px rgb(199, 199, 199);
   padding: 15px 35px 15px 15px;
   border-radius: 5px;
+  width: fit-content;
 }
 
 .register-labels {

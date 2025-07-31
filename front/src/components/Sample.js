@@ -1,54 +1,10 @@
 import { X, ArrowLeft, ArrowRight } from "lucide-react";
 import { useState } from "react";
+import { rtlLanguages } from "../lib/helpers";
 import styles from "@/styles/Sample.module.css";
 
 function Sample({ src, trg, sample, setShowSample }) {
   const [currentSample, setCurrentSample] = useState(0);
-  const rtlLanguages = [
-    "ar",
-    "ar-AE",
-    "ar-BH",
-    "ar-DJ",
-    "ar-DZ",
-    "ar-EG",
-    "ar-IQ",
-    "ar-JO",
-    "ar-KW",
-    "ar-LB",
-    "ar-LY",
-    "ar-MA",
-    "ar-OM",
-    "ar-QA",
-    "ar-SA",
-    "ar-SD",
-    "ar-SY",
-    "ar-TN",
-    "ar-YE",
-    "fa-AF",
-    "fa-IR",
-    "fa",
-    "he",
-    "he-IL",
-    "iw",
-    "kd",
-    "pk-PK",
-    "ps",
-    "ug",
-    "ur",
-    "ur-IN",
-    "ur-PK",
-    "yi",
-    "yi-US",
-    "ara",
-    "pes",
-    "fas",
-    "heb",
-    "pus",
-    "pbt",
-    "uig",
-    "urd",
-    "ydd",
-  ];
 
   const isDoc = sample[0].src ? false : true;
 
@@ -88,7 +44,7 @@ function Sample({ src, trg, sample, setShowSample }) {
                     }
                     dangerouslySetInnerHTML={{
                       __html: !sent.src
-                        ? JSON.parse(sent).replaceAll("\n", "<br/>")
+                        ? sent.startsWith(`"`) ? JSON.parse(sent.replaceAll("\n", "<br/>")) : sent.replaceAll("\n", "<br/>")
                         : sent.src.replaceAll("\n", "<br/>"),
                     }}
                   ></div>

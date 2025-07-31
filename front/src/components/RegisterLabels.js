@@ -113,7 +113,7 @@ function RegisterLabels({ labels, footNote }) {
                                     style={{
                                         display: "flex",
                                         alignItems: "center",
-                                        color: "#404376"
+                                        color: "#1c1d2cff"
                                     }}
                                 >
                                     <div
@@ -141,7 +141,7 @@ function RegisterLabels({ labels, footNote }) {
                                     style={{
                                         display: "flex",
                                         alignItems: "center",
-                                        color: "#404376"
+                                        color: "#1c1d2cff"
                                     }}
                                 >
                                     <div
@@ -280,7 +280,6 @@ function RegisterLabels({ labels, footNote }) {
                                             data={groupedLabelsTotal}
                                             dataKey="value"
                                             nameKey="name"
-                                            fill="#8884d8"
                                             legendType="circle"
                                             paddingAngle={1}
                                             minAngle={1}
@@ -302,7 +301,7 @@ function RegisterLabels({ labels, footNote }) {
                                                             marginTop: "4px",
                                                             marginLeft: "5px",
                                                             display: "inline-block",
-                                                            color: "#404376",
+                                                            color: "#1e1f2cff",
                                                         }}
                                                     >{`${value} - ${(entry.payload.percent * 100).toFixed(
                                                         1
@@ -366,25 +365,26 @@ function RegisterLabels({ labels, footNote }) {
                                 style={{ display: "flex", alignItems: "center" }}
                             >
                                 <span style={{ marginTop: "-5px" }}>🤖{" "}</span>
-                                <span style={{ fontWeight: "bolder", marginLeft: "5px", color: "#404376" }}> MT </span>
-                                :{" "}<p style={{ color: "#404376" }}>{" "}{((mtLabels[0][1][0].value / groupedLabelsSum) * 100).toFixed(1)}%{" "}</p>
+                                <span style={{ fontWeight: "bolder", marginLeft: "5px", color: "#1e1f2cff" }}> MT </span>
+                                :{" "}<p style={{ color: "#1e1f2cff" }}>{" "}{((mtLabels[0][1][0].value / groupedLabelsSum) * 100).toFixed(1)}%{" "}</p>
                                 <span
                                     style={{
                                         display: "inline-block",
                                         fontWeight: "800",
                                         marginLeft: "5px",
                                         marginRight: "5px",
-                                        color: "#404376"
+                                        color: "#1e1f2cff"
                                     }}
                                 >
                                     |
                                 </span>
-                                <p style={{ color: "#404376" }}>{numberFormatter(mtLabels[0][1][0].value)} Documents</p>
+                                <p style={{ color: "#1e1f2cff" }}>{numberFormatter(mtLabels[0][1][0].value)} Documents</p>
                             </div>
                         )}
                     </div>
-                </div>
-            )}
+                </div >
+            )
+            }
         </>
     )
 }

@@ -245,7 +245,7 @@ export const colors = {
   SP_other: "#1E7555",
   ID: "#6FB750",
   ID_other: "#74A455",
-  NA: "#FEF12D",
+  NA: "#cfd306ff",
   NA_nb: "#D7CD4C",
   NA_ne: "#AFA545",
   NA_other: "#959042",
@@ -304,3 +304,67 @@ export const labelEquivalences = {
   UNK: "Not identified",
   MIX: "Mixed",
 };
+
+export function correctNoiseTag(value) {
+  return value === "not_too_long"
+    ? "Too long"
+    : value === "not_too_short"
+      ? "Too short"
+      : value === "no_urls"
+        ? "URLs"
+        : value === "no_bad_encoding"
+          ? "Bad encoding"
+          : value === "length_ratio"
+            ? "Length ratio"
+            : value === "pii"
+              ? "Contains PII"
+              : value === "no_porn"
+                ? "No porn"
+                : "";
+}
+
+export const rtlLanguages = [
+  "ar",
+  "ar-AE",
+  "ar-BH",
+  "ar-DJ",
+  "ar-DZ",
+  "ar-EG",
+  "ar-IQ",
+  "ar-JO",
+  "ar-KW",
+  "ar-LB",
+  "ar-LY",
+  "ar-MA",
+  "ar-OM",
+  "ar-QA",
+  "ar-SA",
+  "ar-SD",
+  "ar-SY",
+  "ar-TN",
+  "ar-YE",
+  "fa-AF",
+  "fa-IR",
+  "fa",
+  "he",
+  "he-IL",
+  "iw",
+  "kd",
+  "pk-PK",
+  "ps",
+  "ug",
+  "ur",
+  "ur-IN",
+  "ur-PK",
+  "yi",
+  "yi-US",
+  "ara",
+  "pes",
+  "fas",
+  "heb",
+  "pus",
+  "pbt",
+  "uig",
+  "urd",
+  "ydd",
+];

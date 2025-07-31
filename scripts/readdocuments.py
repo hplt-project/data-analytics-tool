@@ -65,13 +65,20 @@ def main():
         
         
     langident = heli_otr.Identifier()
-    ds = docscorer.DocumentScorer()     
+    ds = docscorer.DocumentScorer()
+
+    domain_cache = {}
     
     for json_line in args.input:
         doc = json.loads(json_line)         
     
         #Sentences
-        sents = doc.get(text_field).split("\n")
+        raw_sents = doc.get(text_field).split("\n")
+        sents = []
+        for s in raw_sents:
+            if len(s) > 0:
+                sents.append(s)
+                
         
         #Segments in the document
         doclength = len(sents)	
@@ -104,19 +111,19 @@ def main():
                 ds_doc["script"] = doc.get("lang")[0].split("_")[1].lower()
                 ds_doc["id"] = doc.get("id")
             elif args.format=="nemotron":
-                ds_doc["document_lang"] = "eng_latn" #Nemotron is always English for now
+                ds_doc["document_lang"] = "eng" #Nemotron is always English for now
                 ds_doc["langs"] = langs
                 ds_doc["text"] = ("\n").join(sents)
                 ds_doc["script"] = "latn"
                 ds_doc["id"] = doc.get("warc_record_id")       
             elif args.format=="fineweb":
-                ds_doc["document_lang"] = doc.get("language") + "_" + doc.get("language_script").lower()
+                ds_doc["document_lang"] = doc.get("language") # + "_" + doc.get("language_script").lower()
                 ds_doc["langs"] = langs
                 ds_doc["text"] = ("\n").join(sents)
-                ds_doc["script"] = doc.get("language_script")
+                ds_doc["script"] = doc.get("language_script").lower()
                 ds_doc["id"] = doc.get("id")
     
-            document_score = ds.score_document(ds_doc, logging=logging, only_final_score=True) 
+            document_score = ds.score_document(ds_doc, raw_score=True) 
             #document_score = ds.score_document(json_line, only_final_score=True)
  
             
@@ -135,10 +142,15 @@ def main():
         url = doc.get(url_field)
         try:
             fulldomain = urlparse(url).netloc #This includes subdomain
-            rawdomain = tldextract.extract(fulldomain).domain #This does not include subdomain
-            tld = tldextract.extract(fulldomain).suffix #This is the TDL removing the preceeding dot
-            domain = rawdomain+"."+tld
-        except Exception as ex:            
+            if fulldomain in domain_cache:
+                domain, tld = domain_cache[fulldomain]
+            else:
+                extract_res = tldextract.extract(fulldomain)
+                rawdomain = extract_res.domain #This does not include subdomain
+                tld = extract_res.suffix #This is the TDL removing the preceeding dot
+                domain = rawdomain + "." + tld
+                domain_cache[fulldomain] = (domain, tld)
+        except Exception as ex:
             logging.error("Bad url: " + url)
             logging.error(ex)
 

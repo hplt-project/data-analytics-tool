@@ -46,7 +46,7 @@ RUN python3.10 -m venv /work/venvs/venv-rl
 
 RUN cd /work && git clone https://github.com/ZJaume/tmxt && git clone https://github.com/kpu/preprocess && cd
 RUN cd /work/preprocess &&  rm -fr build &&  mkdir build && cd build  && cmake .. && make && cd
-RUN cd /work && git clone https://github.com/pablop16n/web-docs-scorer && cd web-docs-scorer && git checkout tags/1.1.2 && python3.10 -m pip install .
+RUN cd /work && git clone https://github.com/pablop16n/web-docs-scorer && cd web-docs-scorer && git checkout tags/1.2.0 && python3.10 -m pip install .
 RUN cd /work && git clone -b openlid193 https://github.com/zjaume/heli-otr.git && cd heli-otr  && python3 -m  pip install .  && heli-convert 
 
 
@@ -109,9 +109,6 @@ RUN python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3
   
 
 
-COPY *.html /work/
-COPY favicon.ico /work/
-COPY img/ /work/img/
 COPY server.py /work/
 COPY scripts/ /work/scripts/
 COPY tests/ /work/tests/
