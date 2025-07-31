@@ -1,10 +1,15 @@
 .container {
-  height: 300px;
+  height: 290px;
   margin-top: 15px;
 }
 
 .title {
   display: flex;
+}
+
+.tooltipLink {
+  color: var(--tooltip-link);
+  text-decoration: none;
 }
 
 @media (max-width: 768px) {

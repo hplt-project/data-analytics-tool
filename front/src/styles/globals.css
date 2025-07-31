@@ -33,7 +33,7 @@
   --secondary-button-background: #f4f5f7;
   --corpus-link: #363ecd;
   --slider: rgb(79, 69, 140);
-  --graph-axis-text: #43467a;
+  --graph-axis-text: #363755;
   --desc-link-color: rgb(27, 117, 168);
   --tooltip-link: rgb(50, 175, 247);
   --one-ngram-light: #37610eb8;
@@ -100,8 +100,6 @@
   --dropdown-border: 1px solid #413761;
 }
 
-/* React widtgets dropdownlist customisation */
-
 .rw-widget-input,
 .rw-popup {
   background-color: var(--input-background-color);
@@ -109,10 +107,6 @@
   border: var(--dropdown-border);
 }
 
-/* .rw-dropdown, .rw-widget{
-  position: static !important;
-
-} */
 .rw-list-option {
   color: var(--main-copy);
   border: none;
@@ -139,10 +133,6 @@
 /* Language graph brush styling */
 .recharts-brush rect {
   fill: var(--input-background-color);
-}
-
-.weirdTest .recharts-brush rect {
-  fill: red;
 }
 
 .recharts-brush .recharts-brush-slide {

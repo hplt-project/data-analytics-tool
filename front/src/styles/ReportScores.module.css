@@ -27,6 +27,11 @@
   display: flex;
 }
 
+.tooltipLink {
+  color: var(--tooltip-link);
+  text-decoration: none;
+}
+
 .title h3 {
   margin-right: 5px;
 }

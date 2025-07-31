@@ -69,21 +69,21 @@ export default function NoiseDistribution({
                 return value === "not_too_long"
                   ? "Too long"
                   : value === "not_too_short"
-                  ? "Too short"
-                  : value === "no_urls"
-                  ? "URLs"
-                  : value === "no_bad_encoding"
-                  ? "Bad encoding"
-                  : value === "length_ratio"
-                  ? "Length ratio"
-                  : value === "pii"
-                  ? "Contains PII"
-                  : value === "no_porn"
-                  ? "No porn"
-                  : "";
+                    ? "Too short"
+                    : value === "no_urls"
+                      ? "URLs"
+                      : value === "no_bad_encoding"
+                        ? "Bad encoding"
+                        : value === "length_ratio"
+                          ? "Length ratio"
+                          : value === "pii"
+                            ? "Contains PII"
+                            : value === "no_porn"
+                              ? "No porn"
+                              : "";
               }}
               type="category"
-              fontSize={10}
+              fontSize={12}
             />
             <Tooltip />
             <Legend />

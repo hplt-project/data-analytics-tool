@@ -15,9 +15,9 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-import { DataFormatter } from "@/lib/helpers";
+import { DataFormatter, numberFormatter } from "@/lib/helpers";
 
-const CustomTooltip = ({ active, payload, label, measurement }) => {
+const CustomTooltip = ({ active, payload, label, measurement, total }) => {
   if (active && payload && payload.length) {
     return (
       <div className={styles.tooltip}>
@@ -28,15 +28,9 @@ const CustomTooltip = ({ active, payload, label, measurement }) => {
               <p
                 key={idx}
                 className={styles.desc}
-                style={{ color: item.fill }}
-              >{`${measurement}:   ${Intl.NumberFormat("en", {
-                notation: "compact",
-              }).format(item.value)}`}</p>
-              {payload[0].payload.perc && (
-                <p
-                  className={styles.perc}
-                >{`% of total:   ${payload[0].payload.perc} %`}</p>
-              )}
+                style={{ color: "#244446ff" }}
+              >{`${measurement}:   ${numberFormatter(item.value)} segments`} <span style={{ fontWeight: 600 }}>{`(${((item.value / total) * 100).toFixed(2)})%`}</span></p>
+
             </>
           );
         })}
@@ -55,6 +49,7 @@ function NewDocumentSizes({ documentSizesObj }) {
     remainingSum,
     percentageOfTotal,
     remainingPercentage,
+    total
   } = documentSizesObj;
 
   return (
@@ -90,17 +85,13 @@ function NewDocumentSizes({ documentSizesObj }) {
                 <p>
                   <strong>{"≤"} 25</strong> segments{" "}
                   <strong>{+percentageOfTotal.toFixed(2)}%</strong> (
-                  {Intl.NumberFormat("en", {
-                    notation: "compact",
-                  }).format(totalDocuments)}{" "}
+                  {numberFormatter(totalDocuments)}{" "}
                   documents)
                 </p>
                 <p>
                   <strong>{">"} 25</strong> segments{" "}
                   <strong>{+remainingPercentage.toFixed(2)}%</strong> (
-                  {Intl.NumberFormat("en", {
-                    notation: "compact",
-                  }).format(remainingSum)}{" "}
+                  {numberFormatter(remainingSum)}{" "}
                   documents)
                 </p>
               </div>
@@ -146,24 +137,23 @@ function NewDocumentSizes({ documentSizesObj }) {
                   tickFormatter={DataFormatter}
                 />
                 <Tooltip
-                  content={<CustomTooltip measurement="Documents" />}
+                  content={<CustomTooltip measurement="Documents" total={total} />}
                   wrapperStyle={{ outline: "none" }}
                 />
                 <ReferenceLine y={0} stroke="#000" />
                 <Bar
                   dataKey={(val) => val[1]}
-                  fill="#38686a"
+                  fill="#38686aff"
                   maxBarSize={30}
                 >
                   {" "}
                   <LabelList
                     dataKey={(val) =>
-                      Intl.NumberFormat("en", {
-                        notation: "compact",
-                      }).format(val[1])
+                      numberFormatter(val[1])
                     }
+                    fill="#244446ff"
                     position="top"
-                    fontWeight={600}
+                    fontWeight={700}
                     fontSize={10}
                   />
                 </Bar>

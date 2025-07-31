@@ -560,7 +560,8 @@ export default function Uploader({ languageList }) {
 export async function getServerSideProps() {
     const axios = require("axios");
 
-    const apiList = await axios.get("http://dat-webapp:8000/opus_langs");
+    const apiBase = process.env.API_URL;
+    const apiList = await axios.get(`${apiBase}opus_langs`);
 
     const list = apiList.data;
 

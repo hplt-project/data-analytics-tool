@@ -235,7 +235,7 @@ export default function Report({ date, report }) {
                       {!trglang && uniqueSegments && (
                         <th className={styles.desktopData}>Unique segments</th>
                       )}
-                      {!trglang && srcTokens && (
+                      {!trglang && Number(srcTokens) > 0 && (
                         <th className={styles.desktopData}>
                           <div className={styles.containsTooltip}>
                             Tokens{" "}
@@ -259,7 +259,7 @@ export default function Report({ date, report }) {
                           </div>
                         </th>
                       )}
-                      {trglang && srcTokens && (
+                      {trglang && Number(srcTokens) > 0 && (
                         <th className={styles.desktopData}>SL tokens</th>
                       )}
                       {trglang && srcChars && (
@@ -322,7 +322,7 @@ export default function Report({ date, report }) {
                           </p>
                         </td>
                       )}
-                      {srcTokens && (
+                      {Number(srcTokens) > 0 && (
                         <td className={styles.desktopData}>{srcTokens}</td>
                       )}
 
@@ -460,7 +460,7 @@ export default function Report({ date, report }) {
 
                     </h3>
                     <>
-                      <a className="lang-distribution-info">
+                      <a className="lang-distribution-info" style={{ marginLeft: "5px" }}>
                         {!footNote && <InfoCircle />}
                       </a>
                       <Tooltip
@@ -481,7 +481,7 @@ export default function Report({ date, report }) {
                     </>
                   </div>
                 ) : (
-                  <h3>Source</h3>
+                  <h3 className={styles.smaller}>Source</h3>
                 )}
                 <LanguagePieChart
                   langs={report.src_langs}
@@ -501,7 +501,7 @@ export default function Report({ date, report }) {
 
                   </h3>
                   <>
-                    <a className="lang-distribution-info-second">
+                    <a className="lang-distribution-info-second" style={{ marginLeft: "5px" }}>
                       {!footNote && (
                         <InfoCircle
                         />

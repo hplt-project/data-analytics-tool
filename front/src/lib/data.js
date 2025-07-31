@@ -25,6 +25,7 @@ export const calculateDocumentSegments = (reportData) => {
         percentageOfTotal: (result.filteredSum * 100) / result.total,
         remainingPercentage:
             ((result.total - result.filteredSum) * 100) / result.total,
+        total: result.total
     };
 };
 

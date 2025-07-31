@@ -3,7 +3,7 @@ import { useState } from "react";
 import styles from "@/styles/Sample.module.css";
 
 function Sample({ src, trg, sample, setShowSample }) {
-  const [currentSample, setCurrentSample] = useState(1);
+  const [currentSample, setCurrentSample] = useState(0);
   const rtlLanguages = [
     "ar",
     "ar-AE",

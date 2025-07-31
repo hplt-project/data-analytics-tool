@@ -53,6 +53,7 @@ export default function LanguagePieChart({
 
     const { processedItems, totalValue } = values;
 
+
     let graphValues;
     if (langs.length > 10) {
         const others = processedItems.slice(10, langs.length);
@@ -60,12 +61,12 @@ export default function LanguagePieChart({
         const othersLength = others.length;
 
         const final = others.reduce((a, b) => {
-            return a + +b.freq;
+            return a + +b.val;
         }, 0);
 
         graphValues = processedItems.toSpliced(10);
 
-        graphValues.push({ lang: `${othersLength} - Others`, val: final, fill: "grey" });
+        graphValues.push({ name: `${othersLength} - Others - ${numberFormatter(final)}`, val: final, fill: "grey" });
 
     } else {
         graphValues = processedItems;

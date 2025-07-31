@@ -1,6 +1,8 @@
 .viewerContainer {
+  margin: 10px auto;
   padding: 10px 60px 40px 60px;
   color: var(--main-copy);
+  max-width: 1400px;
 }
 
 .failedWarning {

@@ -8,8 +8,6 @@ import {
   ResponsiveContainer,
   LabelList,
 } from "recharts";
-import InfoCircle from "./InfoCircle";
-import { Tooltip as InfoTooltip } from "react-tooltip";
 import {
   DataFormatter,
   numberFormatter,
@@ -18,18 +16,18 @@ import {
 
 import styles from "@/styles/LangDocs.module.css";
 
-const CustomTooltip = ({ active, payload, label, srclang }) => {
+const CustomTooltip = ({ active, payload, label, srclang, total }) => {
   if (active && payload && payload.length) {
     return (
       <div className={styles.tooltip}>
-        <p className={styles.label}>{`${label}% of segments in ${srclang}`}</p>
+        <p className={styles.label}>{`${label}% of segments in ${srclang[0].label}`}</p>
         {payload.map((item, idx) => {
           return (
             <p
               key={idx}
               className={styles.desc}
               style={{ color: item.fill }}
-            >{`Documents: ${item.payload[1].toLocaleString("en-US")} `}</p>
+            >{`Documents: ${item.payload[1].toLocaleString("en-US")}`} <span style={{ fontWeight: 600 }}>({((item.payload[1] / total) * 100).toFixed(2)}%)</span></p>
           );
         })}
       </div>
@@ -39,8 +37,9 @@ const CustomTooltip = ({ active, payload, label, srclang }) => {
   return null;
 };
 
-function LangDocs({ langDocs, srclang, footNote }) {
+function LangDocs({ langDocs, srclang }) {
   const numbers = [0, 10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+  const total = langDocs.reduce((acc, cur) => acc + cur[1], 0);
   return (
     <div className={styles.langDocs}>
       <ResponsiveContainer width="100%" height="100%">
@@ -83,10 +82,10 @@ function LangDocs({ langDocs, srclang, footNote }) {
             fontSize={12}
           />
           <Tooltip
-            content={<CustomTooltip srclang={srclang} />}
+            content={<CustomTooltip srclang={srclang} total={total} />}
             wrapperStyle={{ outline: "none" }}
           />
-          <Bar dataKey={(value) => value[1]} fill="#6d466b" maxBarSize={50}>
+          <Bar dataKey={(value) => value[1]} fill="#582156ff" maxBarSize={50}>
             <LabelList
               dataKey={(value) => numberFormatter(value[1])}
               fill="#6d466b"

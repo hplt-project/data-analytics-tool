@@ -16,7 +16,7 @@ import InfoCircle from "./InfoCircle";
 
 import styles from "@/styles/BicleanerScores.module.css";
 
-const CustomTooltip = ({ active, payload, label, measurement }) => {
+const CustomTooltip = ({ active, payload, label, measurement, total }) => {
   if (active && payload && payload.length) {
     return (
       <div className={styles.tooltip}>
@@ -24,18 +24,13 @@ const CustomTooltip = ({ active, payload, label, measurement }) => {
         {payload.map((item, idx) => {
           return (
             <>
-              <p
-                key={idx}
-                className={styles.desc}
-                style={{ color: item.fill }}
-              >{`${measurement}:   ${numberFormatter(item.value)}`}</p>
-              {item.payload.perc && (
-                <p
-                  key={idx}
-                  className={styles.perc}
-                  style={{ color: item.fill }}
-                >{`% of total:   ${item.payload.perc} %`}</p>
-              )}
+              <p key={idx} className={styles.desc} style={{ color: item.fill }}>
+                {`${measurement}:   ${numberFormatter(item.value)}`}{" "}
+                <span style={{ fontWeight: 600 }}>{`(${(
+                  (item.value / total) *
+                  100
+                ).toFixed(2)}%)`}</span>
+              </p>
             </>
           );
         })}
@@ -96,22 +91,14 @@ export default function BicleanerScores({ scores, footNote }) {
       <div className={styles.title}>
         <h3>
           Translation likelihood{" "}
-          <a className="bicleaner-info-second">
-            {!footNote && (
-              <InfoCircle
-              />
-            )}
-          </a>
+          <a className="bicleaner-info-second">{!footNote && <InfoCircle />}</a>
           <InfoTooltip
             anchorSelect=".bicleaner-info-second"
             place="top"
             clickable
           >
             Scores computed by Bicleaner-AI: (
-            <a
-              href="https://github.com/bitextor/bicleaner-ai"
-              target="_blank"
-            >
+            <a href="https://github.com/bitextor/bicleaner-ai" target="_blank">
               https://github.com/bitextor/bicleaner-ai
             </a>
             )
@@ -151,13 +138,9 @@ export default function BicleanerScores({ scores, footNote }) {
             type="number"
             allowDecimals
             ticks={numbers}
+            padding={{ left: 50, right: 50 }}
           >
-            <Label
-              value="Scores"
-              offset={10}
-              position="bottom"
-              fontSize={16}
-            />
+            <Label value="Scores" offset={10} position="bottom" fontSize={16} />
           </XAxis>
           <YAxis
             fontSize={14}
@@ -171,7 +154,9 @@ export default function BicleanerScores({ scores, footNote }) {
             tickFormatter={DataFormatter}
           />
           <Tooltip
-            content={<CustomTooltip measurement={"Segments"} />}
+            content={
+              <CustomTooltip measurement={"Segments"} total={totalValue} />
+            }
             wrapperStyle={{ outline: "none" }}
           />
           <ReferenceLine y={0} stroke="#000" />
