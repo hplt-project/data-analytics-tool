@@ -51,11 +51,11 @@ export default function NoiseDistribution({
   return (
     <div className="custom-chart">
       <div className={styles.title}>
-        <h3 className={styles.noiseDistributionTitle}>
+        <h3 className={styles.noiseDistributionTitle} style={{ marginRight: "3px" }}>
           Segment {trglang && "pair"} noise distribution
         </h3>
         <a className="noise-info">{!footNote && <InfoCircle />}</a>
-        <InfoTooltip anchorSelect=".noise-info" place="top">
+        <InfoTooltip anchorSelect=".noise-info" place="top" clickable>
           Obtained with Bicleaner Hardrules (
           <a
             className={styles.tooltipLink}
@@ -82,7 +82,6 @@ export default function NoiseDistribution({
             }}
           >
             <CartesianGrid strokeDasharray="3 3" />
-
             <XAxis
               type="number"
               tickFormatter={percFormatter}

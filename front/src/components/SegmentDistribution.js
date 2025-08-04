@@ -26,11 +26,11 @@ const CustomTooltip = ({ active, payload, label, total }) => {
         </p>
         <p>
           Duplicate segment frequency:{" "}
-          {numberFormatter(dupFreq)} <span style={{ fontWeight: 600 }}>({((dupFreq / total) * 100).toFixed(2)}%)</span>
+          {numberFormatter(dupFreq)} <span style={{ fontWeight: 600 }}>({((dupFreq / barTotal) * 100).toFixed(2)}%)</span>
         </p>
         <p>
           Unique segment frequency:{" "}
-          {numberFormatter(freq)} <span style={{ fontWeight: 600 }}>({((freq / total) * 100).toFixed(2)}%)</span>
+          {numberFormatter(freq)} <span style={{ fontWeight: 600 }}>({((freq / barTotal) * 100).toFixed(2)}%)</span>
         </p>
 
       </div>

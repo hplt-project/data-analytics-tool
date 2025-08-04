@@ -22,6 +22,7 @@
 
 .tables {
   justify-content: space-between;
+  padding-bottom: 40px;
 }
 
 .tablesLeft {
@@ -232,7 +233,7 @@
 .dataReportContainer table {
   text-align: left;
   border-collapse: collapse;
-  margin: 5px 0 20px 0;
+  margin: 5px 0 0px 0;
   border-radius: 3px;
 }
 
@@ -254,7 +255,7 @@
 }
 
 .dataReportContainer table tr td:first-child {
-  padding: 10px 8px 10px 14px;
+  padding: 7px 8px 7px 14px;
 }
 
 .dataReportContainer table thead th:last-child {
@@ -262,7 +263,7 @@
 }
 
 .dataReportContainer table tr td:last-child {
-  padding: 10px 14px 10px 8px;
+  padding: 7px 14px 7px 8px;
 }
 
 .dataReportContainer table thead th {
