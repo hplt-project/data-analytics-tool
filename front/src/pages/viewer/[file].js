@@ -1,13 +1,13 @@
-import DataAnalyticsReport from "../../../components/DataAnalyticsReport";
+import Report from "@/components/Report";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useRouter } from "next/router";
 import { DropdownList } from "react-widgets";
-import Navbar from "../../../components/Navbar";
-import Footer from "../../../components/Footer";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import { Oval } from "react-loader-spinner";
 
-import { languagePairName, multipleFilter } from "../../../hooks/hooks";
+import { languagePairName, multipleFilter } from "@/lib/helpers";
 
 import styles from "@/styles/Home.module.css";
 
@@ -36,7 +36,7 @@ export default function Home({ fileNames }) {
         setStatus("IDLE");
       }
 
-      setReport(statsData.stats);
+      setReport(statsData.report);
       setDate(statsData.date);
     } catch (error) {
       setStatus("FAILED");
@@ -68,26 +68,28 @@ export default function Home({ fileNames }) {
             renderListItem={({ item }) => (
               <p className={styles.listItem}>
                 <strong>
-                  {item.language.length > 1
+                  {Array.isArray(item.language) && item.language.length > 1
                     ? `${item.language[0].label} - ${item.language[1].label}`
-                    : item.language[0].label}{" "}
+                    : item.originalName}{" "}
                 </strong>
                 <span className={styles.version}>
                   {item.originalName.includes("v1.1")
                     ? "Version 1.1"
                     : item.originalName.includes("v1.2")
-                    ? "Version 1.2"
-                    : item.originalName.includes("v2")
-                    ? "Version 2"
-                    : ""}
+                      ? "Version 1.2"
+                      : item.originalName.includes("v2")
+                        ? "Version 2"
+                        : ""}
                 </span>
                 <div className={styles.tagsContainer}>
-                  {item.raw && <span className={styles.rawPill}>raw</span>}
+
                   <span
                     className={
                       item.collection === "fineweb"
                         ? styles.finewebPill
-                        : styles.hpltPill
+                        : item.collection === "hplt"
+                          ? styles.hpltPill
+                          : ""
                     }
                   >
                     {item.collection}
@@ -119,8 +121,8 @@ export default function Home({ fileNames }) {
             Something went wrong with the requested file, please try again.
           </div>
         )}
-        {report && status !== "LOADING" && (
-          <DataAnalyticsReport reportData={report} date={date} />
+        {status !== "LOADING" && (
+          <Report date={date} report={report} />
         )}
       </div>
       <Footer />
@@ -130,7 +132,9 @@ export default function Home({ fileNames }) {
 export async function getServerSideProps() {
   const axios = require("axios");
 
-  const apiList = await axios.get("http://dat-webapp:8000/list");
+  const apiBase = process.env.API_URL;
+
+  const apiList = await axios.get(`${apiBase}list`);
 
   const list = await apiList.data;
 
@@ -163,23 +167,18 @@ export async function getServerSideProps() {
 
     const cleanName = replaceStringsCaseInsensitive(el, removalWords);
 
-    const languageName = languagePairName(cleanName.split("-"));
+    const languageName = cleanName.split("-").length > 2 ? cleanName : languagePairName(cleanName.split("-"));
 
     const collectionName = el.toLowerCase().includes("fineweb")
       ? "fineweb"
-      : "hplt";
-
-    const rawState =
-      !el.toLowerCase().includes("fineweb") &&
-      !el.toLowerCase().includes("hplt")
-        ? true
-        : false;
+      : el.toLowerCase().includes("hplt")
+        ? "hplt"
+        : "";
 
     return {
       originalName: el,
       language: languageName,
       collection: collectionName,
-      raw: rawState,
     };
   });
 

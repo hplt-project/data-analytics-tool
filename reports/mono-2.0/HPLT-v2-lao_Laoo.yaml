@@ -381,3 +381,4 @@ src_ngrams: '{"1": [[["\u0eb2"], 156290], [["\u0e97\u0ec8\u0eb2\u0e99"], 129958]
   \u0eaa\u0eb9\u0e99\u0e81\u0eb2\u0e87 \u0e9e\u0eb1\u0e81"], 1588], [["\u0e81\u0eb3\u0ea1\u0eb0\u0e81\u0eb2\u0e99
   \u0e81\u0ebb\u0ea1 \u0e81\u0eb2\u0e99\u0ec0\u0ea1\u0eb7\u0ead\u0e87 \u0eaa\u0eb9\u0e99\u0e81\u0eb2\u0e87
   \u0e9e\u0eb1\u0e81"], 1328]]}'
+register_labels: '{"MT":4344,"LY_other":0,"SP_other":89,"SP_it":5,"ID_other":3,"NA_other":970,"NA_ne":20325,"NA_sr":28,"NA_nb":16,"HI_other":0,"HI_re":0,"IP_other":91,"IP_ds":163,"IP_ed":0,"IN_other":1092,"IN_en":521,"IN_ra":20,"IN_dtp":539,"IN_fi":0,"IN_lt":235,"OP_other":19,"OP_rv":4,"OP_ob":4,"OP_rs":122,"OP_av":3,"MIX":76,"UNK":5179}'

@@ -255,8 +255,8 @@
 .button-32,
 .cmd button {
   appearance: button;
-  background-color: #1652f0;
-  border: 1px solid #1652f0;
+  background-color: #2c3452;
+  border: 1px solid #2c3452;
   border-radius: 4px;
   box-sizing: border-box;
   color: #ffffff;
@@ -286,7 +286,7 @@
 .button-27,
 .cmd button {
   background-color: transparent;
-  color: #1652f0;
+  color: #2c3452;
 }
 
 .button-28 {
@@ -304,13 +304,13 @@
 }
 
 .button-26:hover {
-  background-color: #0a46e4;
-  border-color: #0a46e4;
+  background-color: #022831;
+  border-color: #022831;
 }
 
 .button-26:active {
-  background-color: #0039d7;
-  border-color: #0039d7;
+  background-color: #022831;
+  border-color: #022831;
 }
 
 .button-8 {

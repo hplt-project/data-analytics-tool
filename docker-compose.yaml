@@ -2,7 +2,7 @@ services:
     dat-webapp:
         container_name: dat-webapp
         image: dat-webapp:latest
-        #runtime: nvidia
+        runtime: nvidia  #Comment this if there are no GPUs in your machine
         build:
             context: .
             dockerfile: Dockerfile
@@ -13,6 +13,7 @@ services:
         volumes:
             - dat-yaml-volume:/work/yaml_dir
             - dat-corpora-volume:/work/uploaded_corpora
+            - dat-workdir-volume:/work/transient #this is the workdir where intermediate files will sit, you want this to have plenty of disk space
         ports:
             - "5000:8000"
     dat-front:
@@ -39,6 +40,12 @@ volumes:
         driver: local
         driver_opts:
             device: ./yaml_dir
+            o: bind
+            type: local
+    dat-workdir-volume:
+        driver: local
+        driver_opts: 
+            device: ./transient
             o: bind
             type: local
 networks:

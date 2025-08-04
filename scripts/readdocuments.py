@@ -1,40 +1,31 @@
-import time 
-#import os
+import os
+import json
+import io
 import sys
 import logging
 import traceback
 import argparse
-import yaml
 import json
 import tldextract
-import math
-#import cProfile
-import statistics
 import docscorer
 import iso639
+import heli_otr
 
-from timeit import default_timer
-from util import logging_setup
-from collections import Counter
-from statistics import mean
+
+from util import logging_setup, print_in_column
 from urllib.parse import urlparse
-#from ngrams import get_line_ngrams, get_stopwords
-#from xxhash import xxh64
-#from bicleanerscorer import read_hardrulestags, read_scores
-#from tokenizer import CustomTokenizer
 
 def initialization():
-    parser = argparse.ArgumentParser()
+    parser = argparse.ArgumentParser(prog=os.path.basename(sys.argv[0]), formatter_class=argparse.ArgumentDefaultsHelpFormatter, description=__doc__)
     
-    parser.add_argument('corpus', type=argparse.FileType('rt'), help="Corpus")
-    parser.add_argument('tsvfile', type=argparse.FileType('wt'), help="TSV file")
-    parser.add_argument('statsfile', type=str, help="Output YAML stats file.") #TODO: default tmpfile
+    parser.add_argument('input', nargs='?', type=argparse.FileType('rt', errors="replace"), default=io.TextIOWrapper(sys.stdin.buffer, errors="replace"),  help="Input documents file.")
     parser.add_argument('srclang', type=str, help="Source language")
+    parser.add_argument('output', nargs='?', type=argparse.FileType('wt'), default=sys.stdout, help="Output.")
 
     # Optionals
     groupO = parser.add_argument_group("Optional")
     groupO.add_argument('--langs', type=argparse.FileType('wt'), help="Save sentence languages in this file.")
-    #groupO.add_argument('--fluency', type=argparse.FileType('wt'), help="Save sentence fluency scores in this file.")
+    groupO.add_argument('--format', type=str, help="Document format.", choices=["hplt", "nemotron", "fineweb"])
     
     # Logging group
     groupL = parser.add_argument_group('Logging')
@@ -44,90 +35,99 @@ def initialization():
     #groupL.add_argument('-v', '--version', action='version', version="%(prog)s " + __version__, help="show version of this script and exit")
 
     args = parser.parse_args() 
+    logging_setup(args)
     return args
-
-#Probably more fanciness needed here
-def write_stats(statsfile, statsdict):
-    with open(statsfile, "w") as f:
-        yaml.dump(statsdict,f)
-'''
-# To convert sizes
-def convert_size(size_bytes):
-   if size_bytes == 0:
-       return "0B"
-   size_name = ("B", "KB", "MB", "GB", "TB", "PB", "EB", "ZB", "YB")
-   i = int(math.floor(math.log(size_bytes, 1024)))
-   p = math.pow(1024, i)
-   s = round(size_bytes / p, 2)
-   return "%s %s" % (s, size_name[i])
-'''
 
 def main():
     args = initialization() # Parsing parameters
-    logging_setup(args)
     logging.info("Starting process")
-    time_start = default_timer()
     
-    total_docs=0
-    unmatching_docs=0
+    text_field=None
+    seglangs_field=None
+    url_field=None
+    collection_field=None
+    wds_field=None
 
-    #Pure metadata could be in a different function
-    stats = {}
-    #stats["srclang"] = args.srclang
-    filename = args.corpus.name    
-    
-    warnings = []
 
-    doc_length = Counter()
-    doc_collections = Counter()
-    doc_langs = Counter()
-    docs_lm_avg = Counter()
-    docs_tld = Counter()
-    docs_domains = Counter()
-    docs_scores = Counter() #docscorer aka Web Docs Scorer
-    
+    if args.format == "hplt":
+        text_field="text"
+        seglangs_field="seg_langs"
+        url_field="u"
+        collection_field="collection"
+        wds_field="doc_scores"
+    elif args.format=="nemotron":
+        text_field="text"        
+        url_field="url"
+    elif args.format=="fineweb":
+        text_field="text"
+        url_field="url"
+        collection_field="dump"
+        
+        
+    langident = heli_otr.Identifier()
     ds = docscorer.DocumentScorer()
-        
-    for json_line in args.corpus :
-        total_docs+=1
-        doc = json.loads(json_line)        
-        langs = doc.get("seg_langs")
-        sents = doc.get("text").split("\n")
-        url = doc.get("u")
-        collection = doc.get("collection")
-        docscores = doc.get("doc_scores")
-        
-        if len(langs) != len(sents):
-            logging.debug("Langs: " + str(len(langs)) + "; Segments: " + str(len(sents)) + "; Skipping")
-            unmatching_docs+=1
-            continue
 
-
-        if args.langs:
-            for l in langs:
-                args.langs.write(l+"\n")
-
-        #if args.fluency:
-        #    for f in scores:
-        #        #args.fluency.write(str(f)+"\n")
-        #        args.fluency.write(str(math.floor(f*10)/10)+"\n") #Storing only one decimal point for disk space reasons
-
+    domain_cache = {}
+    
+    for json_line in args.input:
+        doc = json.loads(json_line)         
+    
+        #Sentences
+        raw_sents = doc.get(text_field).split("\n")
+        sents = []
+        for s in raw_sents:
+            if len(s) > 0:
+                sents.append(s)
                 
-        #Document Score (Web Docs Scorer)
-        if docscores == None:        
-            document_score = ds.score_document(json_line, only_final_score=True)
-        else:
-            document_score = docscores[0]
-        docs_scores[document_score]+=1
-
-        #Segments per document (docs_segments)         
-        doc_length[len(sents)] += 1
-
-        #Documents per collection (docs_collection)
-        doc_collections[collection] += 1
         
+        #Segments in the document
+        doclength = len(sents)	
+        
+        #Document languages (HELI)
+        langs=[]
+        if seglangs_field != None:
+            langs = doc.get(seglangs_field)
+        if (seglangs_field == None) or (len(langs) != len(sents)):
+            for s in sents:
+                l = langident.identify(s)
+                langs.append(l)
+
+        
+        #Collection
+        collection="unk"
+        if collection_field != None:
+            collection = doc.get(collection_field)
+        
+        #WDS
+        if wds_field != None:
+            docscores = doc.get(wds_field)
+            document_score = docscores[0]
+        else:
+            ds_doc = {}
+            if args.format=="hplt":
+                ds_doc["document_lang"] = args.srclang #doc_lang + "_" + doc.get("language_script").lower()
+                ds_doc["langs"] = langs
+                ds_doc["text"] = ("\n").join(sents)
+                ds_doc["script"] = doc.get("lang")[0].split("_")[1].lower()
+                ds_doc["id"] = doc.get("id")
+            elif args.format=="nemotron":
+                ds_doc["document_lang"] = "eng" #Nemotron is always English for now
+                ds_doc["langs"] = langs
+                ds_doc["text"] = ("\n").join(sents)
+                ds_doc["script"] = "latn"
+                ds_doc["id"] = doc.get("warc_record_id")       
+            elif args.format=="fineweb":
+                ds_doc["document_lang"] = doc.get("language") # + "_" + doc.get("language_script").lower()
+                ds_doc["langs"] = langs
+                ds_doc["text"] = ("\n").join(sents)
+                ds_doc["script"] = doc.get("language_script").lower()
+                ds_doc["id"] = doc.get("id")
+    
+            document_score = ds.score_document(ds_doc, raw_score=True) 
+            #document_score = ds.score_document(json_line, only_final_score=True)
+ 
+            
         #Segments in the document language (docs_lang)
-        #lang_matches = langs.count(args.srclang)
         if len(args.srclang) == 2:
             #The documents have 3-letter langcodes
             langobj = iso639.Lang(args.srclang)
@@ -136,78 +136,33 @@ def main():
             lang3 = args.srclang
         lang_matches = sum(1 for item in langs if item.split("_")[0] == lang3) #this accepts both "hbs_cyr" and "hbs_lat" when target language is "hbs", for example
         lang_matches_rate = round((lang_matches/len(langs)), 1)
-        doc_langs[lang_matches_rate] += 1
-
-
+        
         #Top-level domain and domain
+        #Domain
+        url = doc.get(url_field)
         try:
-            #domain = url.replace("http://", "").replace("https://", "").replace("www.", "").split("/")[0]
-            #tld = domain.split["."][-1]
             fulldomain = urlparse(url).netloc #This includes subdomain
-            domain = tldextract.extract(fulldomain).domain #This does not include subdomain
-            tld = tldextract.extract(fulldomain).suffix #This is the TDL removing the preceeding dot
-            
-            docs_tld[tld] += 1
-            docs_domains[domain+"."+tld] += 1
-        except Exception as ex:            
+            if fulldomain in domain_cache:
+                domain, tld = domain_cache[fulldomain]
+            else:
+                extract_res = tldextract.extract(fulldomain)
+                rawdomain = extract_res.domain #This does not include subdomain
+                tld = extract_res.suffix #This is the TDL removing the preceeding dot
+                domain = rawdomain + "." + tld
+                domain_cache[fulldomain] = (domain, tld)
+        except Exception as ex:
             logging.error("Bad url: " + url)
             logging.error(ex)
 
-        #Extract segmenmt for further segment processing
-        for sent in sents:
-            args.tsvfile.write(sent.strip()+"\n")            
-            
-    if unmatching_docs != 0:
-        warnings.append("docs_unmatching_"+str(unmatching_docs))
-        
-    stats["docs_total"] = total_docs
 
-    
-    doc_length_list=[]   
-    for segments, freq in sorted(doc_length.items()):
-        doc_length_list.append([segments, freq])
-    if len(doc_length_list)>0:
-        doc_length_elements = sorted(doc_length.elements())
-        stats["docs_segments_mean"] = round(statistics.mean(doc_length_elements))
-        stats["docs_segments_median"] = round(statistics.median(doc_length_elements))
-    
-    collections_list=[]
-    for collection, freq in sorted(doc_collections.items(), key=lambda pair:pair[1], reverse=True):
-        collections_list.append([collection, freq])
-        
-    langs_list = []
-    for rate, freq in sorted(doc_langs.items()):
-        langs_list.append([rate, freq])
-        
 
-    tld_list = []
-    for tld, freq in sorted(docs_tld.most_common(100), key=lambda pair:pair[1], reverse=True):
-        tld_list.append([tld, freq])
-        
-    domains_list = []
-    for domain, freq in sorted(docs_domains.most_common(100), key=lambda pair: pair[1], reverse=True):
-        domains_list.append([domain, freq])
-        
-    docscores_list=[]
-    for docscore, freq in sorted(docs_scores.items()):
-        docscores_list.append([docscore, freq])
-    
-    stats["docs_segments"] = json.dumps(doc_length_list)
-    stats["docs_collections"] = json.dumps(collections_list)
-    stats["docs_langs"] = json.dumps(langs_list)
-    stats["docs_top100_domains"] = json.dumps(domains_list)
-    stats["docs_top100_tld"] = json.dumps(tld_list)    
-    stats["docs_wds"] = json.dumps(docscores_list)
-    stats["docs_warnings"] = warnings
-    stats["docs_timestamp"] = time.time()
+        args.output.write("\t".join([str(doclength), str(document_score), str(lang_matches_rate), collection, domain, tld ]) + "\n")
+        #Extract segments for further segment processing
+        print_in_column(7, sents, args.output)
 
-    write_stats(args.statsfile, stats)
-    logging.info("Finished stats for "+ args.statsfile)
-    elapsed_time = default_timer() - time_start
-    logging.info("Total: {0} rows".format(total_docs))
-    logging.info("Elapsed time {0:.2f} s".format(elapsed_time))
-    logging.info("Troughput: {0} rows/s".format(int((total_docs*1.0)/elapsed_time)))
-        
+     #if unmatching_docs != 0:
+     #	warnings.append("docs_unmatching_"+str(unmatching_docs))
+       
 if __name__ == '__main__':
     try:
         main()  # Running main program
