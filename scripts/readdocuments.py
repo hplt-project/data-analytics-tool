@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import io
 import sys
@@ -75,7 +76,8 @@ def main():
         doc = json.loads(json_line)
     
         #Sentences
-        raw_sents = doc.get(text_field).split("\n")
+        #raw_sents = doc.get(text_field).split("\n")
+        raw_sents = re.split(r'\\n|\n', doc.get(text_field))
         sents = []
         for s in raw_sents:
             if len(s) > 0:
