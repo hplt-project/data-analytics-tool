@@ -25,7 +25,7 @@ def initialization():
     # Optionals
     groupO = parser.add_argument_group("Optional")
     groupO.add_argument('--langs', type=argparse.FileType('wt'), help="Save sentence languages in this file.")
-    groupO.add_argument('--format', type=str, help="Document format.", choices=["hplt", "nemotron", "fineweb"])
+    groupO.add_argument('--format', type=str, help="Document format.", choices=["hplt", "nemotron", "fineweb", "madlad"])
     
     # Logging group
     groupL = parser.add_argument_group('Logging')
@@ -62,6 +62,8 @@ def main():
         text_field="text"
         url_field="url"
         collection_field="dump"
+    elif args.format=="madlad":
+        text_field="text"
         
         
     langident = heli_otr.Identifier()
@@ -70,7 +72,7 @@ def main():
     domain_cache = {}
     
     for json_line in args.input:
-        doc = json.loads(json_line)         
+        doc = json.loads(json_line)
     
         #Sentences
         raw_sents = doc.get(text_field).split("\n")
@@ -98,35 +100,6 @@ def main():
         if collection_field != None:
             collection = doc.get(collection_field)
         
-        #WDS
-        if wds_field != None:
-            docscores = doc.get(wds_field)
-            document_score = docscores[0]
-        else:
-            ds_doc = {}
-            if args.format=="hplt":
-                ds_doc["document_lang"] = args.srclang #doc_lang + "_" + doc.get("language_script").lower()
-                ds_doc["langs"] = langs
-                ds_doc["text"] = ("\n").join(sents)
-                ds_doc["script"] = doc.get("lang")[0].split("_")[1].lower()
-                ds_doc["id"] = doc.get("id")
-            elif args.format=="nemotron":
-                ds_doc["document_lang"] = "eng" #Nemotron is always English for now
-                ds_doc["langs"] = langs
-                ds_doc["text"] = ("\n").join(sents)
-                ds_doc["script"] = "latn"
-                ds_doc["id"] = doc.get("warc_record_id")       
-            elif args.format=="fineweb":
-                ds_doc["document_lang"] = doc.get("language") # + "_" + doc.get("language_script").lower()
-                ds_doc["langs"] = langs
-                ds_doc["text"] = ("\n").join(sents)
-                ds_doc["script"] = doc.get("language_script").lower()
-                ds_doc["id"] = doc.get("id")
-    
-            document_score = ds.score_document(ds_doc, raw_score=True) 
-            #document_score = ds.score_document(json_line, only_final_score=True)
- 
-            
         #Segments in the document language (docs_lang)
         if len(args.srclang) == 2:
             #The documents have 3-letter langcodes
@@ -136,25 +109,60 @@ def main():
             lang3 = args.srclang
         lang_matches = sum(1 for item in langs if item.split("_")[0] == lang3) #this accepts both "hbs_cyr" and "hbs_lat" when target language is "hbs", for example
         lang_matches_rate = round((lang_matches/len(langs)), 1)
-        
+
+        #WDS
+        if wds_field != None:
+            docscores = doc.get(wds_field)
+            document_score = docscores[0]
+        else:
+            ds_doc = {}
+            if args.format=="hplt":
+                ds_doc["document_lang"] = lang3
+                ds_doc["langs"] = langs
+                ds_doc["text"] = ("\n").join(sents)
+                ds_doc["script"] = doc.get("lang")[0].split("_")[1].lower()
+                ds_doc["id"] = doc.get("id")
+            elif args.format=="nemotron":
+                ds_doc["document_lang"] = "eng" #Nemotron is always English for now
+                ds_doc["langs"] = langs
+                ds_doc["text"] = ("\n").join(sents)
+                ds_doc["script"] = "latn"
+                ds_doc["id"] = doc.get("warc_record_id")
+            elif args.format=="fineweb":
+                ds_doc["document_lang"] = doc.get("language") # + "_" + doc.get("language_script").lower()
+                ds_doc["langs"] = langs
+                ds_doc["text"] = ("\n").join(sents)
+                ds_doc["script"] = doc.get("language_script").lower()
+                ds_doc["id"] = doc.get("id")       
+            elif args.format=="madlad":
+                ds_doc["document_lang"] = lang3
+                ds_doc["langs"] = langs
+                ds_doc["text"] = ("\n").join(sents)
+                ds_doc["script"] = "latn"
+                ds_doc["id"] = doc.get("id")
+    
+            document_score = ds.score_document(ds_doc, raw_score=True) 
+            #document_score = ds.score_document(json_line, only_final_score=True)
+ 
         #Top-level domain and domain
         #Domain
-        url = doc.get(url_field)
-        try:
-            fulldomain = urlparse(url).netloc #This includes subdomain
-            if fulldomain in domain_cache:
-                domain, tld = domain_cache[fulldomain]
-            else:
-                extract_res = tldextract.extract(fulldomain)
-                rawdomain = extract_res.domain #This does not include subdomain
-                tld = extract_res.suffix #This is the TDL removing the preceeding dot
-                domain = rawdomain + "." + tld
-                domain_cache[fulldomain] = (domain, tld)
-        except Exception as ex:
-            logging.error("Bad url: " + url)
-            logging.error(ex)
-
-
+        tld = ""
+        domain = ""
+        if url_field:
+            url = doc.get(url_field)
+            try:
+                fulldomain = urlparse(url).netloc #This includes subdomain
+                if fulldomain in domain_cache:
+                    domain, tld = domain_cache[fulldomain]
+                else:
+                    extract_res = tldextract.extract(fulldomain)
+                    rawdomain = extract_res.domain #This does not include subdomain
+                    tld = extract_res.suffix #This is the TDL removing the preceeding dot
+                    domain = rawdomain + "." + tld
+                    domain_cache[fulldomain] = (domain, tld)
+            except Exception as ex:
+                logging.error("Bad url: " + url)
+                logging.error(ex)
 
         args.output.write("\t".join([str(doclength), str(document_score), str(lang_matches_rate), collection, domain, tld ]) + "\n")
         #Extract segments for further segment processing
