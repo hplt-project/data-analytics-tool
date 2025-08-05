@@ -8,6 +8,14 @@ trglang=$4
 format=$5
 langformat=$6
 
+srclang2=$(python3 /work/scripts/lang_equivalent.py $srclang)
+trglang2=$(python3 /work/scripts/lang_equivalent.py $trglang)
+
+echo "$srclang2"
+echo "$trglang2"
+
+exit
+
 JOBS=$(($(nproc)-2))
 JOBS=$(($JOBS>1 ? $JOBS : 1))
 
