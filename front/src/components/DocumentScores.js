@@ -19,7 +19,7 @@ const CustomTooltip = ({ active, payload, label, measurement, total }) => {
   if (active && payload && payload.length) {
     return (
       <div className={styles.tooltip}>
-        <p className={styles.label}>{label}</p>
+        <p className={styles.label}>Score {label}</p>
         {payload.map((item, idx) => {
           return (
             <>
@@ -27,7 +27,7 @@ const CustomTooltip = ({ active, payload, label, measurement, total }) => {
                 key={idx}
                 className={styles.desc}
                 style={{ color: item.fill }}
-              >{`${measurement}:   ${numberFormatter(item.value)}`} <span style={{ fontWeight: 600 }}>{`(${((item.value) / total * 100).toFixed(2)}%)`}</span></p>
+              >{`${numberFormatter(item.value)} ${measurement.toLowerCase()}`} <span style={{ fontWeight: 600 }}>{`(${((item.value) / total * 100).toFixed(2)}%)`}</span></p>
             </>
           );
         })}
@@ -90,9 +90,9 @@ export default function DocumentScores({ scores, footNote }) {
         <InfoTooltip
           anchorSelect=".doc-scores-distribution-info"
           place="top"
-          clickable
+          clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}
         >
-          <div style={{ display: "flex", flexDirection: "column" }}>
+          <div style={{ display: "flex", flexDirection: "column", fontSize: "14px" }}>
             <span>
               Obtained with Web Docs Scorer (
               <a
@@ -126,7 +126,7 @@ export default function DocumentScores({ scores, footNote }) {
             data={processedItems}
             margin={{
               top: 32,
-              right: 20,
+              right: 0,
               left: 10,
               bottom: 25,
             }}
@@ -140,6 +140,7 @@ export default function DocumentScores({ scores, footNote }) {
               allowDecimals
               domain={[0, 10]}
               ticks={docScoresNums}
+              padding={{ left: 20, right: 20 }}
             >
               <Label
                 value="Scores"

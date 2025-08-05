@@ -7,6 +7,10 @@
     display: flex;
 }
 
+.title h3 a {
+    color: #24aaf7;
+}
+
 .container {
     height: 300px;
     margin: 20px 0;

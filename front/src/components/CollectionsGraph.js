@@ -5,30 +5,30 @@ import styles from "@/styles/CollectionsGraph.module.css";
 const CustomTooltip = ({ active, payload, label, totalValue }) => {
     if (active && payload && payload.length) {
         return (
-            <div className={styles.tooltip}>
-                <p className={styles.label}>{label}</p>
+            <div className={styles.tooltip} style={{ zIndex: 30000 }}>
                 {payload.map((item, idx) => {
                     return (
                         <>
-                            <p key={idx} className={styles.desc} style={{ color: item.fill }}>
-                                {`${item.name} - (${item.value.toLocaleString("en-US")})`}
+                            <p key={idx} className={styles.label} >
+                                {item.name}
                             </p>
-                            {item.value && (
-                                <p
-                                    key={idx}
-                                    className={styles.perc}
-                                    style={{ color: item.fill }}
-                                >{`% of total:   ${parseFloat((item.value * 100) / totalValue).toFixed(2)} %`}</p>
-                            )}
+                            <p key={idx} className={styles.desc} style={{ marginBottom: "20px" }} >
+                                {item.value.toLocaleString("en-US")} documents <span style={{ fontWeight: 600 }}>({parseFloat((item.value * 100) / totalValue).toFixed(2)}%)</span>
+                            </p>
                             {item.payload.others &&
                                 item.name.includes("Others") &&
-                                item.payload.others.map((other) => {
-                                    return (
-                                        <div>
-                                            <p>{`${other.token} - ${other.freq} - (${((other.freq * 100) / totalValue).toFixed(2)}%)`}</p>
-                                        </div>
-                                    );
-                                })}
+                                <div className={styles.breakdown}>
+                                    <p className={styles.label} >
+                                        Breakdown
+                                    </p>
+                                    <div className={styles.othersCont}>
+                                        {item.payload.others.map((other) => {
+                                            return (
+                                                <p>{`${other.token} - ${other.freq.toLocaleString("en-US")}`} <span style={{ fontWeight: 600 }}>({((other.freq * 100) / totalValue).toFixed(2)}%)</span></p>
+                                            );
+                                        })}
+                                    </div>
+                                </div>}
                         </>
                     );
                 })}
@@ -51,7 +51,10 @@ export default function CollectionsGraph({ collection, docs }) {
         if (item[0].toLowerCase().includes("cc")) {
             acc.ccTotal += item[1];
         } else {
-            acc.iaTotal += item[1];
+            if (!item[0].toLowerCase().includes("unk")) {
+                acc.iaTotal += item[1];
+
+            }
         }
 
         acc.totalValue += item[1];
@@ -104,10 +107,10 @@ export default function CollectionsGraph({ collection, docs }) {
                             dataKey="freq"
                             isAnimationActive={false}
                             data={newCollection}
-                            cx={235}
+                            cx={200}
                             cy={120}
                             nameKey="token"
-                            outerRadius={75}
+                            outerRadius={70}
                             label={({
                                 cx,
                                 cy,

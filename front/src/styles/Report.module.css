@@ -133,10 +133,14 @@
   margin-top: 30px;
 }
 
+.singleLanguageReport {
+  margin-right: 20px;
+
+}
+
 .singleLanguageReport,
 .singleLanguageReportDocs {
   width: 50%;
-  margin-right: 20px;
 }
 
 

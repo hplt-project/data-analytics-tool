@@ -88,9 +88,11 @@ export default function Report({ date, report }) {
     setLoadingPdf(false);
   };
 
-  const docsDomains = report.docs_top100_domains?.slice(0, 10);
+  const docsDomains = report.docs_top100_domains?.length ? report.docs_top100_domains.slice(0, 10) : undefined;
 
-  const docsTLDs = report.docs_top100_tld?.slice(0, 10);
+  const docsTLDs = report.docs_top100_tld?.length
+    ? report.docs_top100_tld.slice(0, 10)
+    : undefined;
 
   const docs_total = report.docs_total;
 
@@ -211,7 +213,7 @@ export default function Report({ date, report }) {
                   </p>
                 </div>
               </div>
-              <div className={styles.volumes}>
+              <div className={styles.volumes} style={{ marginTop: "20px" }}>
                 <h3>Volumes</h3>
                 <table>
                   <thead>
@@ -223,13 +225,13 @@ export default function Report({ date, report }) {
                           <a className="segments-info" >
                             {!footNote && <InfoCircle style={{ marginBottom: "-2px", marginLeft: "3px" }} />}
                           </a>
-                          <Tooltip anchorSelect=".segments-info" place="top" style={{ fontWeight: 400 }}>
-                            Segments correspond to paragraph and list boundaries
-                            as defined by HTML elements{" "}
-                            <code>
-                              ({"<"}p{">"}, {"<"}ul{">"}, {"<"}ol{">"}, etc.)
-                            </code>{" "}
-                            replaced by newlines.
+                          <Tooltip anchorSelect=".segments-info" place="top" style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}>
+                            <p style={{ fontSize: "14px" }}> Segments correspond to paragraph and list boundaries
+                              as defined by HTML elements{" "}
+                              <code>
+                                ({"<"}p{">"}, {"<"}ul{">"}, {"<"}ol{">"}, etc.)
+                              </code>{" "}
+                              replaced by newlines.</p>
                           </Tooltip>
                         </div>
                       </th>
@@ -249,16 +251,16 @@ export default function Report({ date, report }) {
                             <Tooltip
                               anchorSelect=".tokens-info"
                               place="top"
-                              clickable style={{ fontWeight: 400 }}
+                              clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}
                             >
-                              Tokenized with{" "}
-                              <a
-                                href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
-                                target="_blank"
-                                className={styles.tooltipLink}
-                              >
-                                https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
-                              </a>
+                              <p style={{ fontSize: "14px" }}>  Tokenized with{" "}
+                                <a
+                                  href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
+                                  target="_blank"
+                                  className={styles.tooltipLink}
+                                >
+                                  https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
+                                </a></p>
                             </Tooltip>
                           </div>
                         </th>
@@ -481,16 +483,17 @@ export default function Report({ date, report }) {
                         anchorSelect=".lang-distribution-info"
                         place="top"
                         clickable
+                        style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}
                       >
-                        Language identified with FastSpell (
-                        <a
-                          href="https://github.com/mbanon/fastspell"
-                          target="_blank"
-                          className={styles.tooltipLink}
-                        >
-                          https://github.com/mbanon/fastspell
-                        </a>
-                        )
+                        <p style={{ fontSize: "14px" }}>   Language identified with FastSpell (
+                          <a
+                            href="https://github.com/mbanon/fastspell"
+                            target="_blank"
+                            className={styles.tooltipLink}
+                          >
+                            https://github.com/mbanon/fastspell
+                          </a>
+                          )</p>
                       </Tooltip>
                     </>
                   </div>
@@ -525,16 +528,17 @@ export default function Report({ date, report }) {
                       anchorSelect=".lang-distribution-info-second"
                       place="top"
                       clickable
+                      style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}
                     >
-                      Language identification at segment-level based on Heliport: (
-                      <a
-                        href="https://github.com/ZJaume/heliport"
-                        target="_blank"
-                        className={styles.tooltipLink}
-                      >
-                        https://github.com/ZJaume/heliport
-                      </a>
-                      )
+                      <p style={{ fontSize: "14px" }}>   Language identification at segment-level based on Heliport: (
+                        <a
+                          href="https://github.com/ZJaume/heliport"
+                          target="_blank"
+                          className={styles.tooltipLink}
+                        >
+                          https://github.com/ZJaume/heliport
+                        </a>
+                        )</p>
                     </Tooltip>
                   </>
                 </div>
@@ -611,15 +615,17 @@ export default function Report({ date, report }) {
                 anchorSelect=".segment-length-info"
                 place="top"
                 clickable
+                style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}
+
               >
-                Tokenized with{" "}
-                <a
-                  href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
-                  target="_blank"
-                  className={styles.tooltipLink}
-                >
-                  https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
-                </a>
+                <p style={{ fontSize: "14px" }}> Tokenized with{" "}
+                  <a
+                    href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
+                    target="_blank"
+                    className={styles.tooltipLink}
+                  >
+                    https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
+                  </a></p>
               </Tooltip>
             </div>
             <div className={styles.desktopNum}>

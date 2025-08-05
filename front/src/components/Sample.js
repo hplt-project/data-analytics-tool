@@ -84,7 +84,7 @@ function Sample({ src, trg, sample, setShowSample }) {
               </button>
             )}
             <p>
-              Currently showing sentences {currentSample}-{currentSample + 9}{" "}
+              Currently showing sentences {currentSample + 1}-{currentSample + 10}{" "}
               out of {sample.length}
             </p>
             {currentSample + 10 < sample.length && (

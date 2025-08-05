@@ -22,7 +22,7 @@ const CustomTooltip = ({ active, payload, label, srclang, total }) => {
         {payload.map((item, idx) => {
           return (
             <p key={idx} className={styles.desc} style={{ color: item.fill }}>
-              {`Documents: ${item.payload[1].toLocaleString("en-US")}`}{" "}
+              {`${item.payload[1].toLocaleString("en-US")} documents`}{" "}
               <span style={{ fontWeight: 600 }}>
                 ({((item.payload[1] / total) * 100).toFixed(2)}%)
               </span>

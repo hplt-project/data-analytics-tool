@@ -21,15 +21,14 @@ const CustomTooltip = ({ active, payload, label, measurement, total }) => {
   if (active && payload && payload.length) {
     return (
       <div className={styles.tooltip}>
-        <p className={styles.label}>{label}</p>
+        <p className={styles.label}>{label} Segments</p>
         {payload.map((item, idx) => {
           return (
             <>
               <p
                 key={idx}
                 className={styles.desc}
-                style={{ color: "#244446ff" }}
-              >{`${measurement}:   ${numberFormatter(item.value)} segments`} <span style={{ fontWeight: 600 }}>{`(${((item.value / total) * 100).toFixed(2)})%`}</span></p>
+              >{`${numberFormatter(item.value)} documents`} <span style={{ fontWeight: 600 }}>{`(${((item.value / total) * 100).toFixed(2)}%)`}</span></p>
 
             </>
           );
@@ -70,13 +69,13 @@ function NewDocumentSizes({ documentSizesObj }) {
                 />
               )}
             </a>
-            <InfoTooltip anchorSelect=".segments-info-graph" place="top">
-              Segments correspond to paragraph and list boundaries as
-              defined by HTML elements{" "}
-              <code>
-                ({"<"}p{">"}, {"<"}ul{">"}, {"<"}ol{">"}, etc.)
-              </code>{" "}
-              replaced by newlines.
+            <InfoTooltip anchorSelect=".segments-info-graph" place="top" style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}>
+              <p style={{ fontSize: "14px" }}> Segments correspond to paragraph and list boundaries as
+                defined by HTML elements{" "}
+                <code>
+                  ({"<"}p{">"}, {"<"}ul{">"}, {"<"}ol{">"}, etc.)
+                </code>{" "}
+                replaced by newlines.</p>
             </InfoTooltip>
           </div>
           <div className={styles.documentSizes}>
