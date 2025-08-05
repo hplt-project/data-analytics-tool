@@ -586,7 +586,6 @@ export async function getServerSideProps() {
     const axios = require("axios");
 
     const apiBase = process.env.API_URL;
-
     const apiList = await axios.get(`${apiBase}opus_langs`);
 
     const list = apiList.data;

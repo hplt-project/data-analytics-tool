@@ -234,3 +234,137 @@ export function multipleFilter(item, value) {
     trgCode.indexOf(search) === 0
   );
 }
+
+
+
+export const colors = {
+  LY: "#161515",
+  LY_other: "#3C3A3A",
+  SP: "#009C5B",
+  SP_it: "#008E63",
+  SP_other: "#1E7555",
+  ID: "#6FB750",
+  ID_other: "#74A455",
+  NA: "#cfd306ff",
+  NA_nb: "#D7CD4C",
+  NA_ne: "#AFA545",
+  NA_other: "#959042",
+  NA_sr: "#808043",
+  HI: "#E9A13E",
+  HI_other: "#B38442",
+  HI_re: "#A17D48",
+  IP: "#00A19C",
+  IP_ds: "#00938F",
+  IP_ed: "#027575",
+  IP_other: "#006A67",
+  IN: "#D7373D",
+  IN_dtp: "#E46564",
+  IN_en: "#E57A72",
+  IN_fi: "#BC444B",
+  IN_lt: "#953F41",
+  IN_other: "#803132",
+  IN_ra: "#732F2E",
+  OP: "#583B7C",
+  OP_av: "#6E4D89",
+  OP_ob: "#5C4473",
+  OP_other: "#493A5B",
+  OP_rs: "#3C2E4D",
+  OP_rv: "#392B45",
+  MIX: "#933D81",
+  UNK: "#F1683A",
+};
+
+
+export const labelEquivalences = {
+  MT: "Machine-translated",
+  LY: "Lyrical",
+  SP: "Spoken",
+  SP_it: "Interview",
+  ID: "Interactive discussion",
+  NA: "Narrative",
+  NA_ne: "News report",
+  NA_sr: "Sports report",
+  NA_nb: "Narrative blog",
+  HI: "How-to or instructions",
+  HI_re: "Recipe",
+  IP: "Informational persuasion",
+  IP_ds: "Description with intent to sell",
+  IP_ed: "News & opinion blog or editorial",
+  IN: "Informational description",
+  IN_en: "Encyclopedia article",
+  IN_ra: "Research article",
+  IN_dtp: "Description of a thing or person",
+  IN_fi: "FAQ",
+  IN_lt: "Legal terms & conditions",
+  OP: "Opinion",
+  OP_rv: "Review",
+  OP_ob: "Opinion blog",
+  OP_rs: "Denominational  religious blog or sermon",
+  OP_av: "Advice",
+  UNK: "Not identified",
+  MIX: "Mixed",
+};
+
+export function correctNoiseTag(value) {
+  return value === "not_too_long"
+    ? "Too long"
+    : value === "not_too_short"
+      ? "Too short"
+      : value === "no_urls"
+        ? "URLs"
+        : value === "no_bad_encoding"
+          ? "Bad encoding"
+          : value === "length_ratio"
+            ? "Length ratio"
+            : value === "pii"
+              ? "Contains PII"
+              : value === "no_porn"
+                ? "No porn"
+                : "";
+}
+
+export const rtlLanguages = [
+  "ar",
+  "ar-AE",
+  "ar-BH",
+  "ar-DJ",
+  "ar-DZ",
+  "ar-EG",
+  "ar-IQ",
+  "ar-JO",
+  "ar-KW",
+  "ar-LB",
+  "ar-LY",
+  "ar-MA",
+  "ar-OM",
+  "ar-QA",
+  "ar-SA",
+  "ar-SD",
+  "ar-SY",
+  "ar-TN",
+  "ar-YE",
+  "fa-AF",
+  "fa-IR",
+  "fa",
+  "he",
+  "he-IL",
+  "iw",
+  "kd",
+  "pk-PK",
+  "ps",
+  "ug",
+  "ur",
+  "ur-IN",
+  "ur-PK",
+  "yi",
+  "yi-US",
+  "ara",
+  "pes",
+  "fas",
+  "heb",
+  "pus",
+  "pbt",
+  "uig",
+  "urd",
+  "ydd",
+];

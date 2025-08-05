@@ -38,15 +38,14 @@ export default function Home({ fileNames }) {
                     ? `${item.language[0].label} - ${item.language[1].label}`
                     : item.originalName}{" "}
                 </strong>
-                <span className={styles.version}>
-                  {item.originalName.includes("v1.1")
-                    ? "Version 1.1"
-                    : item.originalName.includes("v1.2")
-                      ? "Version 1.2"
-                      : item.originalName.includes("v2")
-                        ? "Version 2"
-                        : ""}
-                </span>
+                {item.originalName.includes("v1.1")
+                  ? <span className={styles.v1dot1}>Version 1.1</span>
+                  : item.originalName.includes("v1.2")
+                    ? <span className={styles.v1dot2}>Version 1.2</span>
+                    : item.originalName.includes("v2")
+                      ? <span className={styles.v2}>Version 2</span>
+                      : ""}
+
                 <div className={styles.tagsContainer}>
                   <span
                     className={

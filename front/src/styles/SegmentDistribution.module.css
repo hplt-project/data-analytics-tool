@@ -1,5 +1,6 @@
 .segmentDistributionContainer {
-  height: 350px;
+  height: 310px;
+  margin-bottom: 70px;
 }
 
 .tooltipOverlap {
@@ -36,6 +37,7 @@
   .segmentTitle {
     font-size: 13px;
   }
+
   .segmentTitle p {
     margin-top: 5px;
   }

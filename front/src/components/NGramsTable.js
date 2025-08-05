@@ -19,7 +19,7 @@ export default function NGramsTable({ NGrams }) {
               <td>
                 {Object.entries(NGrams)[0][1].map((n, i) => {
                   return (
-                    <div className={styles.oneNGramTag} key={i}>
+                    <div className={[styles.pill, styles["pill-yellow"]].join(" ")} key={i}>
                       {unEscape(n[0].join(""))} | {n[1]}
                     </div>
                   );
@@ -34,7 +34,7 @@ export default function NGramsTable({ NGrams }) {
                 {" "}
                 {Object.entries(NGrams)[1][1].map((n, i) => {
                   return (
-                    <div className={styles.twoNGramTag} key={i}>
+                    <div className={[styles.pill, styles["pill-blue"]].join(" ")} key={i}>
                       {unEscape(n[0].join(" "))} | {n[1]}
                     </div>
                   );
@@ -49,7 +49,7 @@ export default function NGramsTable({ NGrams }) {
                 {" "}
                 {Object.entries(NGrams)[2][1].map((n, i) => {
                   return (
-                    <div className={styles.threeNGramTag} key={i}>
+                    <div className={[styles.pill, styles["pill-red"]].join(" ")} key={i}>
                       {unEscape(n[0].join(" "))} | {n[1]}
                     </div>
                   );
@@ -64,7 +64,7 @@ export default function NGramsTable({ NGrams }) {
                 {" "}
                 {Object.entries(NGrams)[3][1].map((n, i) => {
                   return (
-                    <div className={styles.fourNGramTag} key={i}>
+                    <div className={[styles.pill, styles["pill-teal"]].join(" ")} key={i}>
                       {unEscape(n[0].join(" "))} | {n[1]}
                     </div>
                   );
@@ -79,7 +79,7 @@ export default function NGramsTable({ NGrams }) {
                 {" "}
                 {Object.entries(NGrams)[4][1].map((n, i) => {
                   return (
-                    <div className={styles.fiveNGramTag} key={i}>
+                    <div className={[styles.pill, styles["pill-purple"]].join(" ")} key={i}>
                       {unEscape(n[0].join(" "))} | {n[1]}
                     </div>
                   );

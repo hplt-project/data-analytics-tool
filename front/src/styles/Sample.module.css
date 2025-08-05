@@ -16,7 +16,7 @@
   backdrop-filter: blur(3px);
   padding: 20px;
   border: 0.5px solid #ebebeb;
-  width: 83%;
+  width: 75%;
   border-radius: 5px;
   left: 0;
   right: 0;
@@ -28,23 +28,29 @@
     0 3px 7px -3px rgba(0, 0, 0, 0.137);
   overflow-y: auto;
 }
-/* .sampleContent,
+
+.sampleContent,
 .sampleContentRTL {
- 
-} */
+  line-height: 1.45;
+  padding: 3px 6px;
+}
+
 .sampleContentRTL {
   direction: rtl;
 }
+
 .modalHead {
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
   padding: 15px 0;
 }
+
 .modalHead button {
   background-color: transparent;
   border: none;
 }
+
 .sampleButtons {
   display: flex;
   align-items: center;
@@ -56,14 +62,17 @@
 .sampleButtons p {
   margin: 0 30px;
 }
+
 .closeSampleBtn {
   margin-left: auto;
   cursor: pointer;
 }
+
 .closeSampleBtn:hover {
   color: rgb(207, 13, 13);
   transition: all 0.2s;
 }
+
 .srcSentence,
 .trgSentence {
   box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.144);
@@ -76,6 +85,7 @@
   border-radius: 3px;
   align-items: center;
 }
+
 .trgSentence {
   background-color: rgba(128, 128, 128, 0.117);
 }
@@ -88,10 +98,29 @@
   color: rgba(207, 13, 13, 0.384);
   margin-right: 15px;
 }
+
 .trgTag {
   color: rgba(13, 207, 117, 0.384);
 }
+
 .stripe {
   color: #e0eefb5d;
   margin: 9px 0;
+}
+
+.sampleButtons button {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 20px;
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+  background-color: #f8f9fa;
+  border: 1px solid #e0e3eb;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  position: relative;
+  overflow: hidden;
 }

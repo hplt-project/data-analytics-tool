@@ -15,7 +15,7 @@ import { Tooltip as InfoTooltip } from "react-tooltip";
 
 import styles from "@/styles/ReportScores.module.css";
 
-const CustomTooltip = ({ active, payload, label, measurement }) => {
+const CustomTooltip = ({ active, payload, label, measurement, total }) => {
   if (active && payload && payload.length) {
     return (
       <div className={styles.tooltip}>
@@ -27,14 +27,7 @@ const CustomTooltip = ({ active, payload, label, measurement }) => {
                 key={idx}
                 className={styles.desc}
                 style={{ color: item.fill }}
-              >{`${measurement}:   ${numberFormatter(item.value)}`}</p>
-              {item.payload.perc && (
-                <p
-                  key={idx}
-                  className={styles.perc}
-                  style={{ color: item.fill }}
-                >{`% of total:   ${item.payload.perc} %`}</p>
-              )}
+              >{`${measurement}:   ${numberFormatter(item.value)}`} <span style={{ fontWeight: 600 }}>{`(${((item.value) / total * 100).toFixed(2)}%)`}</span></p>
             </>
           );
         })}
@@ -122,7 +115,7 @@ export default function DocumentScores({ scores, footNote }) {
               {numberFormatter(underFive)} documents)
             </p>
             <p>
-              score {">="} 5 - <strong>{+percOverFive.toFixed(2)}%</strong> (
+              score {"≥"} 5 - <strong>{+percOverFive.toFixed(2)}%</strong> (
               {numberFormatter(overFive)} documents)
             </p>
           </div>
@@ -168,7 +161,7 @@ export default function DocumentScores({ scores, footNote }) {
               tickFormatter={DataFormatter}
             />
             <Tooltip
-              content={<CustomTooltip measurement={"Documents"} />}
+              content={<CustomTooltip measurement={"Documents"} total={totalValue} />}
               wrapperStyle={{ outline: "none" }}
             />
             <ReferenceLine y={0} stroke="#000" />

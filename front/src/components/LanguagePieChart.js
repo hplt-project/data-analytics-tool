@@ -5,17 +5,16 @@ import styles from "@/styles/LanguagePieChart.module.css";
 
 const CustomTooltip = ({ active, payload, label, total }) => {
     if (active && payload && payload.length) {
-
         const freq = payload[0].value;
 
         const percentage = parseFloat((freq * 100) / total).toFixed(2)
         return (
             <div className={styles.tooltipPie}>
-                <p className={styles.pieLabel}>{`${payload[0].name}`}</p>
+                <p className={styles.pieLabel}>{`${payload[0].name.includes("Others") ? "Others" : payload[0].payload.lang}`}</p>
                 {freq && (
                     <p
                         className={styles.perc}
-                    >{`% of total:   ${percentage} %`}</p>
+                    >{`Segments:  ${freq.toLocaleString("en-US")} `}{" "}<span style={{ fontWeight: 600 }}>{freq ? `(${percentage}%)` : ""}</span></p>
                 )}
             </div>
         );
@@ -33,10 +32,11 @@ export default function LanguagePieChart({
     const values = langs.reduce((acc, item) => {
 
         const readableLanguageName = languagePairName([item[0]]);
+        const langName = readableLanguageName[0].label;
         const name = `${readableLanguageName[0].label} - ${numberFormatter(item[1])}`
 
         const processedItem = {
-            lang: item[0],
+            lang: langName,
             val: item[1],
             name: name,
             fill: randDarkColor()
@@ -53,6 +53,7 @@ export default function LanguagePieChart({
 
     const { processedItems, totalValue } = values;
 
+
     let graphValues;
     if (langs.length > 10) {
         const others = processedItems.slice(10, langs.length);
@@ -60,12 +61,12 @@ export default function LanguagePieChart({
         const othersLength = others.length;
 
         const final = others.reduce((a, b) => {
-            return a + +b.freq;
+            return a + +b.val;
         }, 0);
 
         graphValues = processedItems.toSpliced(10);
 
-        graphValues.push({ lang: `${othersLength} - Others`, val: final, fill: "grey" });
+        graphValues.push({ name: `${othersLength} - Others - ${numberFormatter(final)}`, val: final, fill: "grey" });
 
     } else {
         graphValues = processedItems;
