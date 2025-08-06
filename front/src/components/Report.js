@@ -225,7 +225,7 @@ export default function Report({ date, report }) {
                           <a className="segments-info" >
                             {!footNote && <InfoCircle style={{ marginBottom: "-2px", marginLeft: "3px" }} />}
                           </a>
-                          <Tooltip anchorSelect=".segments-info" place="top" style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}>
+                          <Tooltip anchorSelect=".segments-info" place="top" style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}>
                             <p style={{ fontSize: "14px" }}> Segments correspond to paragraph and list boundaries
                               as defined by HTML elements{" "}
                               <code>
@@ -251,7 +251,7 @@ export default function Report({ date, report }) {
                             <Tooltip
                               anchorSelect=".tokens-info"
                               place="top"
-                              clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}
+                              clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 100000 }}
                             >
                               <p style={{ fontSize: "14px" }}>  Tokenized with{" "}
                                 <a
@@ -483,7 +483,7 @@ export default function Report({ date, report }) {
                         anchorSelect=".lang-distribution-info"
                         place="top"
                         clickable
-                        style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}
+                        style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}
                       >
                         <p style={{ fontSize: "14px" }}>   Language identified with FastSpell (
                           <a
@@ -528,7 +528,7 @@ export default function Report({ date, report }) {
                       anchorSelect=".lang-distribution-info-second"
                       place="top"
                       clickable
-                      style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}
+                      style={{ fontWeight: 400, backgroundColor: "rgba(24, 18, 17, 1)", zIndex: 10000 }}
                     >
                       <p style={{ fontSize: "14px" }}>   Language identification at segment-level based on Heliport: (
                         <a
@@ -615,7 +615,7 @@ export default function Report({ date, report }) {
                 anchorSelect=".segment-length-info"
                 place="top"
                 clickable
-                style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}
+                style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}
 
               >
                 <p style={{ fontSize: "14px" }}> Tokenized with{" "}

@@ -96,7 +96,7 @@ export default function BicleanerScores({ scores, footNote }) {
             anchorSelect=".bicleaner-info-second"
             place="top"
             clickable
-            style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}
+            style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}
           >
             <p style={{
               fontSize: "14px", fontWeight: 400
@@ -109,6 +109,10 @@ export default function BicleanerScores({ scores, footNote }) {
         </h3>
         <div className={styles.numbers}>
           <p>
+            {"<"} 5 = {numberFormatter(underFive)} segments |{" "}
+            <strong>{percUnderFive.toFixed(1)}%</strong>
+          </p>
+          <p>
             {"≥"} 5 = {numberFormatter(overEqualFive)} segments |{" "}
             <strong>{percOverEqualFive.toFixed(1)}%</strong>
           </p>
@@ -116,10 +120,7 @@ export default function BicleanerScores({ scores, footNote }) {
             {"≥"} 8 = {numberFormatter(overEqualEight)} segments |{" "}
             <strong>{percOverEqualEight.toFixed(1)}%</strong>
           </p>{" "}
-          <p>
-            {"<"} 5 = {numberFormatter(underFive)} segments |{" "}
-            <strong>{percUnderFive.toFixed(1)}%</strong>
-          </p>
+
         </div>
       </div>
       <ResponsiveContainer width="100%" height="100%">

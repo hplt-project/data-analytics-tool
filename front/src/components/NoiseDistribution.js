@@ -54,7 +54,7 @@ export default function NoiseDistribution({
           Segment {trglang && "pair"} noise distribution
         </h3>
         <a className="noise-info">{!footNote && <InfoCircle />}</a>
-        <InfoTooltip anchorSelect=".noise-info" place="top" clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}>
+        <InfoTooltip anchorSelect=".noise-info" place="top" clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}>
           <p style={{ fontSize: "14px" }}> Obtained with Bicleaner Hardrules (
             <a
               className={styles.tooltipLink}

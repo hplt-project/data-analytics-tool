@@ -17,7 +17,7 @@ import {
 
 import { DataFormatter, numberFormatter } from "@/lib/helpers";
 
-const CustomTooltip = ({ active, payload, label, measurement, total }) => {
+const CustomTooltip = ({ active, payload, label, total }) => {
   if (active && payload && payload.length) {
     return (
       <div className={styles.tooltip}>
@@ -69,7 +69,7 @@ function NewDocumentSizes({ documentSizesObj }) {
                 />
               )}
             </a>
-            <InfoTooltip anchorSelect=".segments-info-graph" place="top" style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}>
+            <InfoTooltip anchorSelect=".segments-info-graph" place="top" style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}>
               <p style={{ fontSize: "14px" }}> Segments correspond to paragraph and list boundaries as
                 defined by HTML elements{" "}
                 <code>
@@ -115,6 +115,7 @@ function NewDocumentSizes({ documentSizesObj }) {
                   tickMargin={5}
                   domain={[0, 25]}
                   ticks={numbers}
+                  padding={{ left: 10, right: 15 }}
                 >
                   {" "}
                   <Label
@@ -152,8 +153,8 @@ function NewDocumentSizes({ documentSizesObj }) {
                     }
                     fill="#244446ff"
                     position="top"
-                    fontWeight={700}
-                    fontSize={10}
+                    fontWeight={800}
+                    fontSize={11}
                   />
                 </Bar>
               </BarChart>

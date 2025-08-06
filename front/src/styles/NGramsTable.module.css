@@ -38,14 +38,6 @@
   align-items: center;
 }
 
-.nGramsTableContainer table tbody tr:nth-child(odd) td {
-  cursor: pointer;
-}
-
-.nGramsTableContainer table tbody tr td:last-child {
-  background-color: var(--row-alt, #fbfcfd) !important;
-}
-
 .nGramsTableContainer table tbody tr:hover td {
   background-color: var(--row-hover, #f1f5f9) !important;
 }
@@ -115,4 +107,13 @@
 
 .hplt {
   text-transform: uppercase;
+}
+
+.copyIcon {
+  cursor: pointer;
+}
+
+.copyIcon:hover {
+  color: rgb(1, 134, 105);
+  translate: 1px;
 }

@@ -260,7 +260,7 @@ function RegisterLabels({ labels, footNote }) {
                                 />
                             )}
                         </a>
-                        <InfoTooltip anchorSelect=".register-labels-graph" place="top" clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}>
+                        <InfoTooltip anchorSelect=".register-labels-graph" place="top" clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}>
                             <p className={styles.tooltipText}>  Obtained with{" "}
                                 <a className={styles.tooltipLink} href={"https://huggingface.co/TurkuNLP/web-register-classification-multilingual"} target="_blank">
                                     https://huggingface.co/TurkuNLP/web-register-classification-multilingual

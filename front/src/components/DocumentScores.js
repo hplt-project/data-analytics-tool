@@ -90,7 +90,7 @@ export default function DocumentScores({ scores, footNote }) {
         <InfoTooltip
           anchorSelect=".doc-scores-distribution-info"
           place="top"
-          clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)" }}
+          clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}
         >
           <div style={{ display: "flex", flexDirection: "column", fontSize: "14px" }}>
             <span>

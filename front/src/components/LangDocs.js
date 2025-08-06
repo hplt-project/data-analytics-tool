@@ -62,7 +62,7 @@ function LangDocs({ langDocs, srclang }) {
           {numberFormatter(totalUnderFifty)} documents)
         </p>
         <p>
-          segments {"=>"} 50% - <span>{overFifty}%</span> (
+          segments {"≥"} 50% - <span>{overFifty}%</span> (
           {numberFormatter(totalOverFifty)} documents)
         </p>
       </div>

@@ -10,7 +10,7 @@ export const calculateDocumentSegments = (reportData) => {
 
     const segments = reportData.docs_segments.filter((doc) => doc[0] <= 25);
 
-    const result = segments.reduce(
+    const result = reportData.docs_segments.reduce(
         (acc, segment) => ({
             total: acc.total + segment[1],
             filteredSum: acc.filteredSum + (segment[0] <= 25 ? segment[1] : 0),

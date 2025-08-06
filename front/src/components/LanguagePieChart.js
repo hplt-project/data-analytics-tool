@@ -66,7 +66,7 @@ export default function LanguagePieChart({
 
         graphValues = processedItems.toSpliced(10);
 
-        graphValues.push({ name: `${othersLength} - Others - ${numberFormatter(final)}`, val: final, fill: "grey" });
+        graphValues.push({ name: `${othersLength} Others - ${numberFormatter(final)}`, val: final, fill: "grey" });
 
     } else {
         graphValues = processedItems;
