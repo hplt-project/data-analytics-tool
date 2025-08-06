@@ -6,7 +6,7 @@ export default function InfoCircle({ style }) {
                 style={style}
                 strokeWidth={2}
                 color="#09071d"
-                width={20}
+                width={18}
             />
         </div>
     )

@@ -44,8 +44,8 @@ function Sample({ src, trg, sample, setShowSample }) {
                     }
                     dangerouslySetInnerHTML={{
                       __html: !sent.src
-                        ? sent.startsWith(`"`) ? JSON.parse(sent.replaceAll("\n", "<br/>")) : sent.replaceAll("\n", "<br/>")
-                        : sent.src.replaceAll("\n", "<br/>"),
+                        ? sent.startsWith(`"`) ? JSON.parse(sent.replaceAll("\\n", "<br/>").replaceAll("\n", "<br/>")) : sent.replaceAll("\\n", "<br/>").replaceAll("\n", "<br/>")
+                        : sent.src.replaceAll("\\n", "<br/>").replaceAll("\n", "<br/>"),
                     }}
                   ></div>
                 </div>
@@ -59,7 +59,7 @@ function Sample({ src, trg, sample, setShowSample }) {
                           : styles.sampleContent
                       }
                       dangerouslySetInnerHTML={{
-                        __html: sent.trg.replaceAll("\n", "<br/>"),
+                        __html: sent.trg.replaceAll("\\n", "<br/>").replaceAll("\n", "<br/>"),
                       }}
                     ></div>
                   </div>
@@ -84,7 +84,7 @@ function Sample({ src, trg, sample, setShowSample }) {
               </button>
             )}
             <p>
-              Currently showing sentences {currentSample}-{currentSample + 9}{" "}
+              Currently showing sentences {currentSample + 1}-{currentSample + 10}{" "}
               out of {sample.length}
             </p>
             {currentSample + 10 < sample.length && (
@@ -103,11 +103,11 @@ function Sample({ src, trg, sample, setShowSample }) {
           </div>
         ) : (
           <div className={styles.sampleButtons}>
-            {currentSample > 1 && (
+            {currentSample + 1 > 1 && (
               <button
                 onClick={() =>
                   setCurrentSample((currentSample) =>
-                    currentSample > 1 ? currentSample - 1 : currentSample
+                    currentSample + 1 > 1 ? currentSample - 1 : currentSample
                   )
                 }
               >
@@ -115,7 +115,7 @@ function Sample({ src, trg, sample, setShowSample }) {
               </button>
             )}
             <p>
-              Currently showing document {currentSample} out of {sample.length}
+              Currently showing document {currentSample + 1} out of {sample.length}
             </p>
             {currentSample + 1 < sample.length && (
               <button

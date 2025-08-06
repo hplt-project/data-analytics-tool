@@ -29,7 +29,7 @@ const CustomTooltip = ({ active, payload, label, total }) => {
         {freq && (
           <p
             className={styles.perc}
-          >{`Segments:  ${freq.toLocaleString("en-US")} `}{" "}<span style={{ fontWeight: 600 }}>{freq ? `(${percentage}%)` : ""}</span></p>
+          >{`${freq.toLocaleString("en-US")} segments`}{" "}<span style={{ fontWeight: 600 }}>{freq ? `(${percentage}%)` : ""}</span></p>
         )}
       </div>
     );
@@ -47,7 +47,6 @@ export default function NoiseDistribution({
 }) {
   const numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
 
-  // const total = noiseData.reduce((acc, cur) => acc + cur[1], 0);
   return (
     <div className="custom-chart">
       <div className={styles.title}>
@@ -55,16 +54,16 @@ export default function NoiseDistribution({
           Segment {trglang && "pair"} noise distribution
         </h3>
         <a className="noise-info">{!footNote && <InfoCircle />}</a>
-        <InfoTooltip anchorSelect=".noise-info" place="top" clickable>
-          Obtained with Bicleaner Hardrules (
-          <a
-            className={styles.tooltipLink}
-            href="https://github.com/bitextor/bicleaner-hardrules/"
-            target="_blank"
-          >
-            https://github.com/bitextor/bicleaner-hardrules/
-          </a>
-          )
+        <InfoTooltip anchorSelect=".noise-info" place="top" clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}>
+          <p style={{ fontSize: "14px" }}> Obtained with Bicleaner Hardrules (
+            <a
+              className={styles.tooltipLink}
+              href="https://github.com/bitextor/bicleaner-hardrules/"
+              target="_blank"
+            >
+              https://github.com/bitextor/bicleaner-hardrules/
+            </a>
+            )</p>
         </InfoTooltip>
       </div>
       <div className={styles.container}>
@@ -76,8 +75,8 @@ export default function NoiseDistribution({
             data={noiseData}
             margin={{
               top: 0,
-              right: 50,
-              left: 30,
+              right: 10,
+              left: 35,
               bottom: 15,
             }}
           >
@@ -94,7 +93,10 @@ export default function NoiseDistribution({
                 return correctNoiseTag(value);
               }}
               type="category"
-              fontSize={12}
+              fontSize={14}
+              tickFormatter={(value) =>
+                value.toLocaleString().replace(/ /g, "\u00A0")
+              }
             />
             <Tooltip content={<CustomTooltip total={sentences} />} />
             <Legend />
@@ -107,14 +109,12 @@ export default function NoiseDistribution({
             >
               <LabelList
                 dataKey={(val) =>
-                  `${((val[1] * 100) / sentences).toFixed(2)} %`
+                  `${((val[1] * 100) / sentences).toFixed(2)}%`
                 }
                 position="right"
-                fontWeight={500}
-                fill="#D99002"
-                tickFormatter={(value) =>
-                  value.toLocaleString().replace(/ /g, "\u00A0")
-                }
+                fontWeight={800}
+                fill="#b97c02ff"
+
               />
             </Bar>
           </BarChart>

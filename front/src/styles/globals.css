@@ -6,7 +6,14 @@
   transition: all 0.25s;
 }
 
+
+
 :root {
+  --card-bg: #ffffff;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --radius: 1rem;
+  --shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
   --main-background: white;
   --navbar-background: white;
   --banner-background: #eee8ff;
@@ -101,7 +108,7 @@
   --corpus-link: #545bd6;
   --slider: white;
   --graph-axis-text: #c2c5ff;
-  --desc-link-color: rgb(36, 170, 247);
+  --desc-link-color: #24aaf7;
   --one-ngram-light: #e1ffc2b8;
   --two-ngram-light: #fdb6b6e2;
   --three-ngram-light: #cbf0ffed;
@@ -165,7 +172,7 @@
 }
 
 .recharts-default-legend li {
-  margin: 4px 0;
-  width: 200px;
+  margin: 8px 0;
   line-height: 1.2;
+  min-width: 240px;
 }

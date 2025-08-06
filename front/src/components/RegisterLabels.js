@@ -14,9 +14,12 @@ import styles from "@/styles/RegisterLabels.module.css";
 import { DataFormatter, numberFormatter, colors, labelEquivalences } from "@/lib/helpers";
 import { Info } from "lucide-react";
 import { Tooltip as InfoTooltip } from "react-tooltip";
+import JSON5 from "json5";
 
 function RegisterLabels({ labels, footNote }) {
-
+    if (typeof labels === "string") {
+        labels = JSON5.parse(labels)
+    }
     const groupedLabels = Object.entries(labels).reduce((acc, [name, value]) => {
         const langCode = name.split("_")[0];
         if (!acc[langCode]) {
@@ -257,7 +260,7 @@ function RegisterLabels({ labels, footNote }) {
                                 />
                             )}
                         </a>
-                        <InfoTooltip anchorSelect=".register-labels-graph" place="top" clickable>
+                        <InfoTooltip anchorSelect=".register-labels-graph" place="top" clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}>
                             <p className={styles.tooltipText}>  Obtained with{" "}
                                 <a className={styles.tooltipLink} href={"https://huggingface.co/TurkuNLP/web-register-classification-multilingual"} target="_blank">
                                     https://huggingface.co/TurkuNLP/web-register-classification-multilingual

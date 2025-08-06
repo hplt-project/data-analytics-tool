@@ -56,7 +56,8 @@
 
 .listItem .v2,
 .listItem .v1dot1,
-.listItem .v1dot2 {
+.listItem .v1dot2,
+.listItem .v3 {
   text-transform: uppercase;
   font-size: 10px;
   letter-spacing: 0.3px;
@@ -74,6 +75,11 @@
 .listItem .v1dot1 {
   color: rgb(112, 25, 194);
 }
+
+.listItem .v3 {
+  color: rgb(194, 132, 0);
+}
+
 
 
 .listItem .finewebPill,

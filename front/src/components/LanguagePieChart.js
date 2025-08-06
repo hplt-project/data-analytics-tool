@@ -14,7 +14,7 @@ const CustomTooltip = ({ active, payload, label, total }) => {
                 {freq && (
                     <p
                         className={styles.perc}
-                    >{`Segments:  ${freq.toLocaleString("en-US")} `}{" "}<span style={{ fontWeight: 600 }}>{freq ? `(${percentage}%)` : ""}</span></p>
+                    >{`${freq.toLocaleString("en-US")} segments`}{" "}<span style={{ fontWeight: 600 }}>{freq ? `(${percentage}%)` : ""}</span></p>
                 )}
             </div>
         );
@@ -66,7 +66,7 @@ export default function LanguagePieChart({
 
         graphValues = processedItems.toSpliced(10);
 
-        graphValues.push({ name: `${othersLength} - Others - ${numberFormatter(final)}`, val: final, fill: "grey" });
+        graphValues.push({ name: `${othersLength} Others - ${numberFormatter(final)}`, val: final, fill: "grey" });
 
     } else {
         graphValues = processedItems;
@@ -81,21 +81,23 @@ export default function LanguagePieChart({
                 </p>
             )}
             <ResponsiveContainer width="100%" height="100%" aspect={1.6}>
-                <PieChart width={570} height={400}>
+                <PieChart width={300} height={400}>
                     <Pie
                         dataKey="val"
                         isAnimationActive={false}
+                        legendType="circle"
                         data={graphValues}
-                        cx="40%"
-                        cy="40%"
-                        outerRadius="70%"
-                        strokeWidth={0.7}
+                        cx="35%"
+                        cy="45%"
+                        outerRadius="85%"
                     />
                     <Legend
                         layout="vertical"
                         verticalAlign="top"
                         align="right"
-                        formatter={(value, entry, index) => <span className={styles.legendText}>{entry.payload.name}</span>
+                        formatter={(value, entry, index) => {
+                            return <nobr className={styles.legendText} >{entry.payload.name}{" "}<span style={{ fontWeight: 600 }}>({(entry.payload.percent * 100).toFixed(1)}%)</span></nobr>
+                        }
                         }
                     />
                     <Tooltip content={<CustomTooltip total={totalValue} />} />

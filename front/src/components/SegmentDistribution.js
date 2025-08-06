@@ -19,18 +19,18 @@ const CustomTooltip = ({ active, payload, label, total }) => {
     const dupFreq = payload[1].value;
     return (
       <div className={styles.tooltipOverlap}>
-        <p className={styles.labelOverlap}>{label}</p>
+        <p className={styles.labelOverlap}>{label} Tokens</p>
         <p>
           Total:{" "}
           {numberFormatter(payload[1].value + payload[0].value)} <span style={{ fontWeight: 600 }}>({((barTotal / total) * 100).toFixed(2)}%)</span>
         </p>
         <p>
-          Duplicate segment frequency:{" "}
-          {numberFormatter(dupFreq)} <span style={{ fontWeight: 600 }}>({((dupFreq / barTotal) * 100).toFixed(2)}%)</span>
+
+          {numberFormatter(dupFreq)} duplicate segments <span style={{ fontWeight: 600 }}>({((dupFreq / barTotal) * 100).toFixed(2)}%)</span>
         </p>
         <p>
-          Unique segment frequency:{" "}
-          {numberFormatter(freq)} <span style={{ fontWeight: 600 }}>({((freq / barTotal) * 100).toFixed(2)}%)</span>
+
+          {numberFormatter(freq)} unique segments <span style={{ fontWeight: 600 }}>({((freq / barTotal) * 100).toFixed(2)}%)</span>
         </p>
 
       </div>

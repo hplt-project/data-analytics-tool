@@ -208,34 +208,25 @@ export const handleDownload = async (filename) => {
 
 export function multipleFilter(item, value) {
   const name = item.originalName.toLowerCase();
-  const languagePair = !Array.isArray(item.language) ? item.language :
-    item.language.length > 1
-      ? `${item.language[0].label.toLowerCase()}-${item.language[1].label.toLowerCase()}`
-      : item.language[0].label.toLowerCase();
-  const invertedLangPair = !Array.isArray(item.language) ? item.language :
-    item.language.length > 1
-      ? `${item.language[1].label.toLowerCase()}-${item.language[0].label.toLowerCase()}`
-      : item.language[0].label.toLowerCase();
-  const collection = item.collection.toLowerCase();
-
-  const srcCode = !Array.isArray(item.language) ? item.language : item.language[0].value.toLowerCase();
-
-  const trgCode = !Array.isArray(item.language) ? item.language :
-    item.language.length > 1 ? item.language[1].value.toLowerCase() : "";
 
   let search = value.toLowerCase();
 
   return (
-    name.indexOf(search) === 0 ||
-    languagePair.indexOf(search) === 0 ||
-    collection.indexOf(search) === 0 ||
-    invertedLangPair.indexOf(search) === 0 ||
-    srcCode.indexOf(search) === 0 ||
-    trgCode.indexOf(search) === 0
+    name.includes(search) || name.startsWith(search)
+
   );
 }
 
 
+
+export function replaceStringsCaseInsensitive(text, stringsToReplace) {
+  let result = text;
+  for (const oldString of stringsToReplace) {
+    const regex = new RegExp(oldString, "gi");
+    result = result.replace(regex, "");
+  }
+  return result;
+}
 
 export const colors = {
   LY: "#161515",
@@ -367,4 +358,22 @@ export const rtlLanguages = [
   "uig",
   "urd",
   "ydd",
+];
+
+
+export const removalWords = [
+  ".yaml",
+  ".lite",
+  "fineweb2-",
+  ".tsv",
+  ".tmx",
+  "fineweb100b-",
+  "hplt-v2-",
+  "hplt-v1.2-",
+  "hplt_v1.2_",
+  "hplt-v2.",
+  "hplt-v1.1.",
+  "hplt-v1.2.",
+  "hplt_v2_",
+  "hplt100b-",
 ];
