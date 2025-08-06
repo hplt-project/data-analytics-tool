@@ -103,11 +103,11 @@ function Sample({ src, trg, sample, setShowSample }) {
           </div>
         ) : (
           <div className={styles.sampleButtons}>
-            {currentSample > 1 && (
+            {currentSample + 1 > 1 && (
               <button
                 onClick={() =>
                   setCurrentSample((currentSample) =>
-                    currentSample > 1 ? currentSample - 1 : currentSample
+                    currentSample + 1 > 1 ? currentSample - 1 : currentSample
                   )
                 }
               >
