@@ -5,6 +5,8 @@ import { useRouter } from "next/router";
 import { DropdownList } from "react-widgets";
 import { languagePairName, multipleFilter, removalWords } from "@/lib/helpers";
 
+import pillStyles from "@/styles/NGramsTable.module.css";
+
 import "react-widgets/styles.css";
 
 import styles from "@/styles/Home.module.css";
