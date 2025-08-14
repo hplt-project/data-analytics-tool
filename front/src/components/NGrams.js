@@ -28,7 +28,7 @@ function NGrams({ which, ngrams, trg, footNote }) {
                                 )}
                             </a>
                             <Tooltip anchorSelect=".ngrams-info" place="top" clickable>
-                                <div style={{ display: "flex", flexDirection: "column" }}>
+                                <div style={{ display: "flex", flexDirection: "column", fontSize: "14px", lineHeight: "1.6" }}>
                                     <span>
                                         Tokenized with{" "}
                                         <a

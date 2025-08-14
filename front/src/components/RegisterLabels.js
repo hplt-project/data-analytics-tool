@@ -11,81 +11,15 @@ import {
     CartesianGrid,
 } from "recharts";
 import styles from "@/styles/RegisterLabels.module.css";
-import { DataFormatter, numberFormatter } from "@/lib/helpers";
+import { DataFormatter, numberFormatter, colors, labelEquivalences } from "@/lib/helpers";
 import { Info } from "lucide-react";
+import { Tooltip as InfoTooltip } from "react-tooltip";
+import JSON5 from "json5";
 
-function RegisterLabels({ labels }) {
-
-    const footNote = false;
-
-    const colors = {
-        LY: "#161515",
-        LY_other: "#3C3A3A",
-        SP: "#009C5B",
-        SP_it: "#008E63",
-        SP_other: "#1E7555",
-        ID: "#6FB750",
-        ID_other: "#74A455",
-        NA: "#FEF12D",
-        NA_nb: "#D7CD4C",
-        NA_ne: "#AFA545",
-        NA_other: "#959042",
-        NA_sr: "#808043",
-        HI: "#E9A13E",
-        HI_other: "#B38442",
-        HI_re: "#A17D48",
-        IP: "#00A19C",
-        IP_ds: "#00938F",
-        IP_ed: "#027575",
-        IP_other: "#006A67",
-        IN: "#D7373D",
-        IN_dtp: "#E46564",
-        IN_en: "#E57A72",
-        IN_fi: "#BC444B",
-        IN_lt: "#953F41",
-        IN_other: "#803132",
-        IN_ra: "#732F2E",
-        OP: "#583B7C",
-        OP_av: "#6E4D89",
-        OP_ob: "#5C4473",
-        OP_other: "#493A5B",
-        OP_rs: "#3C2E4D",
-        OP_rv: "#392B45",
-        MIX: "#933D81",
-        UNK: "#F1683A",
-    };
-
-
-    const labelEquivalences = {
-        MT: "Machine-translated",
-        LY: "Lyrical",
-        SP: "Spoken",
-        SP_it: "Interview",
-        ID: "Interactive discussion",
-        NA: "Narrative",
-        NA_ne: "News report",
-        NA_sr: "Sports report",
-        NA_nb: "Narrative blog",
-        HI: "How-to or instructions",
-        HI_re: "Recipe",
-        IP: "Informational persuasion",
-        IP_ds: "Description with intent to sell",
-        IP_ed: "News & opinion blog or editorial",
-        IN: "Informational description",
-        IN_en: "Encyclopedia article",
-        IN_ra: "Research article",
-        IN_dtp: "Description of a thing or person",
-        IN_fi: "FAQ",
-        IN_lt: "Legal terms & conditions",
-        OP: "Opinion",
-        OP_rv: "Review",
-        OP_ob: "Opinion blog",
-        OP_rs: "Denominational  religious blog or sermon",
-        OP_av: "Advice",
-        UNK: "Not identified",
-        MIX: "Mixed",
-    };
-
+function RegisterLabels({ labels, footNote }) {
+    if (typeof labels === "string") {
+        labels = JSON5.parse(labels)
+    }
     const groupedLabels = Object.entries(labels).reduce((acc, [name, value]) => {
         const langCode = name.split("_")[0];
         if (!acc[langCode]) {
@@ -182,6 +116,7 @@ function RegisterLabels({ labels }) {
                                     style={{
                                         display: "flex",
                                         alignItems: "center",
+                                        color: "#1c1d2cff"
                                     }}
                                 >
                                     <div
@@ -191,6 +126,7 @@ function RegisterLabels({ labels }) {
                                             height: "12px",
                                             marginRight: "4px",
                                             borderRadius: "2px",
+
                                         }}
                                     ></div>
                                     {`${entry.value} - ${entry.payload.percent.toFixed(1)}%`}
@@ -208,6 +144,7 @@ function RegisterLabels({ labels }) {
                                     style={{
                                         display: "flex",
                                         alignItems: "center",
+                                        color: "#1c1d2cff"
                                     }}
                                 >
                                     <div
@@ -323,13 +260,13 @@ function RegisterLabels({ labels }) {
                                 />
                             )}
                         </a>
-                        <Tooltip anchorSelect=".register-labels-graph" place="top">
-                            Obtained with{" "}
-                            <a className={styles.tooltipLink} href={"https://huggingface.co/TurkuNLP/web-register-classification-multilingual"}>
-                                https://huggingface.co/TurkuNLP/web-register-classification-multilingual
-                            </a>{" "}
+                        <InfoTooltip anchorSelect=".register-labels-graph" place="top" clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}>
+                            <p className={styles.tooltipText}>  Obtained with{" "}
+                                <a className={styles.tooltipLink} href={"https://huggingface.co/TurkuNLP/web-register-classification-multilingual"} target="_blank">
+                                    https://huggingface.co/TurkuNLP/web-register-classification-multilingual
+                                </a></p>
 
-                        </Tooltip>
+                        </InfoTooltip>
                     </div>
                     <div
                         style={{
@@ -346,19 +283,18 @@ function RegisterLabels({ labels }) {
                                             data={groupedLabelsTotal}
                                             dataKey="value"
                                             nameKey="name"
-                                            fill="#8884d8"
                                             legendType="circle"
                                             paddingAngle={1}
                                             minAngle={1}
-                                            cx={"33%"}
-                                            outerRadius={120}
+                                            cx={"50%"}
+                                            outerRadius={115}
                                         />
                                         <Tooltip content={<CustomTooltipGroup />} />
                                         <Legend
                                             layout="vertical"
                                             verticalAlign="middle"
+                                            width={40}
                                             align="right"
-                                            margin={{ top: 12, left: 60, right: 0, bottom: 12 }}
                                             formatter={(value, entry, index) => {
                                                 return (
                                                     <span
@@ -366,8 +302,9 @@ function RegisterLabels({ labels }) {
                                                         style={{
                                                             marginBottom: "4px",
                                                             marginTop: "4px",
+                                                            marginLeft: "5px",
                                                             display: "inline-block",
-                                                            color: "#404376",
+                                                            color: "#1e1f2cff",
                                                         }}
                                                     >{`${value} - ${(entry.payload.percent * 100).toFixed(
                                                         1
@@ -378,7 +315,7 @@ function RegisterLabels({ labels }) {
                                     </PieChart>
                                 </ResponsiveContainer>
                             </div>
-                            <div className={styles["graph-cont"]}>
+                            <div className={styles["graph-cont-bars"]}>
                                 <ResponsiveContainer width={"100%"} height={"100%"} >
                                     <BarChart
                                         data={groupedLabelsTotalBarChart}
@@ -428,26 +365,29 @@ function RegisterLabels({ labels }) {
                         {mtLabels.length > 0 && (
                             <div
                                 className={styles.mtInfo}
+                                style={{ display: "flex", alignItems: "center" }}
                             >
-                                🤖{" "}
-                                <span style={{ fontWeight: "bolder", marginLeft: "5px" }}> MT</span>
-                                :{((mtLabels[0][1][0].value / groupedLabelsSum) * 100).toFixed(1)}%{" "}
+                                <span style={{ marginTop: "-5px" }}>🤖{" "}</span>
+                                <span style={{ fontWeight: "bolder", marginLeft: "5px", color: "#1e1f2cff" }}> MT </span>
+                                :{" "}<p style={{ color: "#1e1f2cff" }}>{" "}{((mtLabels[0][1][0].value / groupedLabelsSum) * 100).toFixed(1)}%{" "}</p>
                                 <span
                                     style={{
                                         display: "inline-block",
                                         fontWeight: "800",
                                         marginLeft: "5px",
                                         marginRight: "5px",
+                                        color: "#1e1f2cff"
                                     }}
                                 >
                                     |
                                 </span>
-                                {numberFormatter(mtLabels[0][1][0].value)} Documents
+                                <p style={{ color: "#1e1f2cff" }}>{numberFormatter(mtLabels[0][1][0].value)} Documents</p>
                             </div>
                         )}
                     </div>
-                </div>
-            )}
+                </div >
+            )
+            }
         </>
     )
 }

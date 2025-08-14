@@ -1,7 +1,10 @@
 .viewerContainer {
+  margin: 10px auto;
   padding: 10px 60px 40px 60px;
   color: var(--main-copy);
+  max-width: 1400px;
 }
+
 .failedWarning {
   margin-top: 40px;
   display: flex;
@@ -9,6 +12,7 @@
   justify-content: center;
   font-size: 26px;
 }
+
 .docContainer {
   margin-bottom: 60px;
   min-height: 30vh;
@@ -43,31 +47,57 @@
   border-radius: 5px;
   padding: 40px 20px 20px 20px;
 }
+
 .listItem {
   display: flex;
   align-items: center;
   padding: 5px 0;
 }
-.listItem .version {
+
+.listItem .v2,
+.listItem .v1dot1,
+.listItem .v1dot2,
+.listItem .v3 {
   text-transform: uppercase;
-  color: rgb(115, 128, 136);
   font-size: 10px;
   letter-spacing: 0.3px;
   margin-left: 5px;
 }
+
+.listItem .v2 {
+  color: rgb(18, 135, 207);
+}
+
+.listItem .v1dot2 {
+  color: rgb(1, 158, 93);
+}
+
+.listItem .v1dot1 {
+  color: rgb(112, 25, 194);
+}
+
+.listItem .v3 {
+  color: rgb(194, 132, 0);
+}
+
+
+
 .listItem .finewebPill,
 .listItem .hpltPill {
   padding: 1px 10px;
   border-radius: 12px;
 }
+
 .listItem .tagsContainer {
   margin-left: auto;
 }
+
 .listItem .finewebPill {
   background-color: #eaf9ff;
   color: #004978;
   border: 1px solid #e6effa;
 }
+
 .listItem .hpltPill {
   background-color: #fff2f0;
   color: #891233;
@@ -81,6 +111,7 @@
   color: #2d3241;
   margin-right: 5px;
 }
+
 .cardDetails {
   margin-top: 20px;
 }
@@ -196,6 +227,7 @@
   .viewerContainer {
     padding: 10px 30px 30px 30px;
   }
+
   .loader h1 {
     margin: 20px 0 60px 0;
     font-size: 26px;
@@ -215,9 +247,11 @@
     margin-right: 15px;
     padding: 30px 15px 15px 15px;
   }
+
   .cardDetails {
     margin-top: 15px;
   }
+
   .cardDetails h2 {
     font-size: 22px;
   }
@@ -226,10 +260,12 @@
     margin: 5px 0 10px 0;
     font-size: 14px;
   }
+
   .viewIcon,
   .uploadIcon {
     width: 80px;
   }
+
   .uploadBtn {
     padding: 10px 16px;
   }
@@ -239,25 +275,31 @@
   .viewerContainer {
     padding: 10px 10px 40px 10px;
   }
+
   .mainContainerHome h1 {
     margin: 20px 0 5px 0;
     font-size: 26px;
   }
+
   .introParagraph {
     line-height: 1.35;
   }
+
   .cardsContainer {
     display: flex;
     margin-top: 15px;
   }
+
   .singleCard {
     width: 280px;
     margin-right: 10px;
     padding: 20px 10px 10px 10px;
   }
+
   .cardDetails {
     margin-top: 15px;
   }
+
   .cardDetails h2 {
     font-size: 18px;
   }
@@ -270,6 +312,7 @@
 }
 
 @media (max-width: 541px) {
+
   /* .viewerContainer {
     padding: 10px 15px 40px 15px;
   } */
@@ -277,6 +320,7 @@
     flex-direction: column;
     margin-top: 0;
   }
+
   .singleCard {
     width: 100%;
     margin-right: 0;

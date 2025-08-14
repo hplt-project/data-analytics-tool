@@ -1,6 +1,6 @@
 v1.1:
 - Sample extraction is now integrated in stats processing, and samples now are included in resulting yaml files.
-- Added support for Fineweb and Nemotron-CC datasets.
+- Added support for Fineweb, Nemotron-CC and MADLAD datasets.
 - Empty segments are now skipped.
 - Web uploader now supports binary files.
 - Added `duplication-ratio`

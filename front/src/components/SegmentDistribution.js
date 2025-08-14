@@ -12,19 +12,27 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-const CustomTooltip = ({ active, payload, label }) => {
+const CustomTooltip = ({ active, payload, label, total }) => {
   if (active && payload && payload.length) {
+    const barTotal = payload[1].value + payload[0].value;
+    const freq = payload[0].value;
+    const dupFreq = payload[1].value;
     return (
       <div className={styles.tooltipOverlap}>
-        <p className={styles.labelOverlap}>{label}</p>
+        <p className={styles.labelOverlap}>{label} Tokens</p>
         <p>
-          Unique segment frequency:{" "}
-          {numberFormatter(payload[0].value)}
+          Total:{" "}
+          {numberFormatter(payload[1].value + payload[0].value)} <span style={{ fontWeight: 600 }}>({((barTotal / total) * 100).toFixed(2)}%)</span>
         </p>
         <p>
-          Duplicate segment frequency:{" "}
-          {numberFormatter(payload[1].value)}
+
+          {numberFormatter(dupFreq)} duplicate segments <span style={{ fontWeight: 600 }}>({((dupFreq / barTotal) * 100).toFixed(2)}%)</span>
         </p>
+        <p>
+
+          {numberFormatter(freq)} unique segments <span style={{ fontWeight: 600 }}>({((freq / barTotal) * 100).toFixed(2)}%)</span>
+        </p>
+
       </div>
     );
   }
@@ -34,29 +42,53 @@ export default function SegmentDistribution({ data, which, fontSize }) {
 
   const filteredData = data.filter((item) => item.token < 50);
 
-  const filteredDataTotal = data.reduce((a, b) => b.token <= 50 ? +a + +b.freq : +a, 0);
+  const {
+    filteredDataTotal,
+    filteredDataTotalDupes,
+    finalBar,
+    finalBarDupes,
+    totalFreq,
+    totalDupes
+  } = data.reduce(
+    (acc, item) => {
+      const freq = +item.freq || 0;
+      const dupes = +item.duplicates || 0;
+      const token = +item.token;
 
-  const filteredDataTotalDupes = data.reduce((a, b) => b.token <= 50 ? +a + +b.duplicates : +a, 0);
+      acc.totalFreq += freq;
+      acc.totalDupes += dupes;
 
-  const filteredDataTotalFormatted = Intl.NumberFormat("en", {
-    notation: "compact",
-  }).format(filteredDataTotal);
+      if (token <= 50) {
+        acc.filteredDataTotal += freq;
+        acc.filteredDataTotalDupes += dupes;
+      }
 
-  const filteredDataTotalDupesFormatted = Intl.NumberFormat("en", {
-    notation: "compact",
-  }).format(filteredDataTotalDupes);
+      if (token > 50) {
+        acc.finalBar += freq;
+      }
 
-  const finalBar = data.reduce((a, b) => b.token > 50 ? +a + +b.freq : "");
+      if (token >= 50) {
+        acc.finalBarDupes += dupes;
+      }
 
-  const finalBarDupes = data.reduce((a, b) => b.token >= 50 ? +a + +b.duplicates : "");
+      return acc;
+    },
+    {
+      filteredDataTotal: 0,
+      filteredDataTotalDupes: 0,
+      finalBar: 0,
+      finalBarDupes: 0,
+      totalFreq: 0,
+      totalDupes: 0
+    }
+  );
 
-  const fiftyPlusFormatted = Intl.NumberFormat("en", {
-    notation: "compact",
-  }).format(finalBar);
+  const total = totalDupes + totalFreq;
 
-  const fiftyPlusDupesFormatted = Intl.NumberFormat("en", {
-    notation: "compact",
-  }).format(finalBarDupes);
+  const filteredDataTotalFormatted = numberFormatter(filteredDataTotal);
+  const filteredDataTotalDupesFormatted = numberFormatter(filteredDataTotalDupes);
+  const fiftyPlusFormatted = numberFormatter(finalBar);
+  const fiftyPlusDupesFormatted = numberFormatter(finalBarDupes);
 
   const numbers = Array.from(Array(50).fill(0), (_, index) => index);
 
@@ -81,7 +113,7 @@ export default function SegmentDistribution({ data, which, fontSize }) {
             top: 25,
             right: 0,
             left: 10,
-            bottom: 55,
+            bottom: 5,
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
@@ -113,7 +145,7 @@ export default function SegmentDistribution({ data, which, fontSize }) {
             }}
           />
           <Tooltip
-            content={<CustomTooltip />}
+            content={<CustomTooltip total={total} />}
             wrapperStyle={{ outline: "none" }}
           />
           <Legend
