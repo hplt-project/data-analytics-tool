@@ -43,14 +43,23 @@ NLTK_WORD_LANGS = ["ace", "als", "ar", "ayr", "az", "azb", "azj",  "ban", "be", 
                     "gaz", "gd", "gn", "ha", "ht", "hy","ilo", "jv", "ka", "kab", "kac", "kam", "kbp", "kea", "kg", "khk", "ki", "kk", "km", "kmb", "knc", "ky", "lg", 
                     "li", "lij", "ln", "lmo",  "ltg", "lua", "luo",  "lus", "mi", "min", "mn", "mos",
                     "ms", "nso", "nus", "ny", "oc", "pag", "pap", "pbt", "pes", "plt", "prs", "ps", "quy", "rn", "rw", "sc", "scn", "sd", "sg", "sm", "sn", "ss", "st", "su", "swh", "szl",
-                    "taq", "tg", "tk", "tn", "tpi", "ts", "tt", "tw", "tzm", "tum", "uk", "ug", "umb", "vec", "vi", "war", "wo", "xh", "yo","zsm",  "zu"]
+                    "taq", "tg", "tk", "tn", "tpi", "ts", "tt", "tw", "tzm", "tum", "uk", "ug", "umb", "vec", "vi", "war", "wo", "xh", "yo","zsm",  "zu",
+                    "grn", "gug", "kon", "ktu", "fas", "zgh"]
+                    
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
                     "da": "danish",
-                    "tr": "turkish"}
+                    "tr": "turkish",
+                    "est": "estonian",
+                    "ekk": "estonian"}
 
 RELDI_LANGS  = ["sr", "mk", "bg", "hr"]
-RELDI_FALLBACK = {"bs": "sr"}
+RELDI_FALLBACK = {"bs": "sr",
+                    "bos": "sr",
+                    "hrv": "hr",
+                    "srp": "sr",
+                    "hbs": "sr"
+                    }
 
 MOSES_FALLBACK = {
                  "ab": "ru",
@@ -70,7 +79,9 @@ MOSES_FALLBACK = {
                  "so": "en",
                  "sq": "en",
                  "sw": "en",
-                 "tl": "en"}
+                 "tl": "en",
+                 "fil": "en",
+                 "tlg": "en"}
 
 NLTK_FALLBACK = {"nb": "no",
                 "nn": "no"}
@@ -91,7 +102,7 @@ THAI_LANGS = ["th"]
 
 INDIC_LANGS = ["awa", "bho", "gu" ,"hi", "hne", "kn", "ks", "mag", "mai", "ml", "mr", "ne", "npi", "pa", "sa", "sat", "te", "ur"]
 
-PKUSEG_LANGS = ["zh", "zh-Hant"]
+PKUSEG_LANGS = ["zh", "zh-Hant", "zho", "cmn"]
 
 HEBREW_LANGS = ["he", "iw", "ydd"]
 

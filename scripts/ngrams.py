@@ -47,7 +47,9 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
                         "tr": "turkish",
                         "zh": "chinese",
                         "zh-hant": "chinese",
-                        "zh-hans": "chinese"}
+                        "zh-hans": "chinese",
+                        "zho": "chinese",
+                        "cmn": "chinse"}
                         
 NLTK_STOPWORDS_MAPS = {"azj": "az",  "ara": "ar", "ben": "bn", "cat": "ca", "dan": "da", "deu": "de", "ell": "el", "eng": "en", 
                         "spa": "es", "eus": "eu", "fin": "fi", "fra": "fr", "heb": "he", "hun": "hu", "ind": "id", "ita": "it", 
@@ -60,9 +62,9 @@ ASTUANA_STOPWORDS_MAPS = {"pes": "fa", "lvs": "lv", "bul": "bg", "ces": "cs", "f
                             "hye": "hy", "jpn": "ja", "kor": "ko", "lat": "la", "lvs": "lv", "mar": "mr", "pol": "pl",
                             "slk": "sk", "tha": "th", "ukr": "uk", "urd": "ur"}
 
-ISO_STOPWORDS_LANGS =  ["af", "br", "eo", "et", "gu", "hr", "ms", "so", "sw","tl", "vi", "zu"]
-ISO_STOPWORDS_MAPS = {"zsm": "ms", "swh": "sw", "afr": "af", "bre": "br", "epo": "eo", "est": "et", "guj": "gu", "hrv": "hr",
-                        "som": "so", "tgl": "tl", "vie": "vi", "zul": "zu"}
+ISO_STOPWORDS_LANGS =  ["af", "br", "eo", "et", "gu", "hr", "ms", "so", "sw", "tl", "vi", "zu"]
+ISO_STOPWORDS_MAPS = {"zsm": "ms", "swh": "sw", "afr": "af", "bre": "br", "epo": "eo", "est": "et", "ekk": "et", "guj": "gu", "hrv": "hr",
+                        "som": "so", "tgl": "tl", "fil": "tl", "vie": "vi", "zul": "zu"}
 
 TXT_STOPWORDS_LANGS =  ["ab", "ace", "als", "as", "ast", "ayr", "awa", "azb", "ba", "ban", "bem", "be", "bho", "bjn", "bm", "bo", "bs", "bug",  
                         "ceb", "cjk", "co", "crh", "cy", "dik", "dyu", "dz", "ee", "fj", "fo", "fon", "fur", "fuv", "gaz", "gd", "gn",
@@ -73,11 +75,10 @@ TXT_STOPWORDS_LANGS =  ["ab", "ace", "als", "as", "ast", "ayr", "awa", "azb", "b
                         "sa", "sat", "sc", "scn", "sd", "sg", "shn", "si", "sm", "sn", "sq", "sr", "ss", "st", "su", "szl",
                         "ta", "taq", "te", "tk", "tn", "tpi", "ts", "tt", "tum", "tw", "tzm", 
                         "ug", "umb", "uz", "uzn", "vec", "war", "wo", "xh", "ydd", "yo"] 
-
 TXT_STOPWORDS_MAPS = {"khk": "mn", "abk": "ab", "bak": "ba", "bel": "be", "bam": "bm", "aym": "ayr", "bod": "bo", "bos": "bo",
                         "cnr": "me", "cos": "co", "cym": "cy", "dzo": "dz", "ewe": "ee", "fij": "fj", "fao": "fo", "ful": "fuv",
-                        "gla": "gd", "grn": "gn", "hau": "ha", "hat": "ht", "ibo": "ig", "isl": "is", "jav": "jv", "kat": "ka",
-                        "kik": "ki", "kon": "kg", "khm": "km", "kan": "kn", "kas": "ks", "kir": "ky", "lit": "lt", "ltz": "lb", "lug": "lg",
+                        "gla": "gd", "grn": "gn", "gug": "gn", "hau": "ha", "hat": "ht", "ibo": "ig", "isl": "is", "jav": "jv", "kat": "ka",
+                        "kik": "ki", "kon": "kg", "ktu": "kg", "khm": "km", "kan": "kn", "kas": "ks", "kir": "ky", "lit": "lt", "ltz": "lb", "lug": "lg",
                         "lim": "li", "lin": "li", "mri": "mi", "mkd": "mk", "mal": "ml", "khk": "mn", "mlt": "mt", "mya": "my",
                         "nya": "ny", "oci": "oc", "pan": "pa", "pbt": "ps", "run": "rn", "kin": "rw", "san": "sa", "srd": "sc",
                         "snd": "sd", "sag": "sg", "sin": "si", "smo": "sm", "sna": "sn", "als": "sq", "srp": "sr", "ssw": "ss",
@@ -285,7 +286,6 @@ def get_stopwords(lang):
             for sw in swf:
                 stop_words.append(sw.strip()) 
         stop_words = fix_stopwords(stop_words, lang)
-
         
     elif lang in KLPT_STOPWORDS_LANGS:
         logging.info("Stopwords from KLPT")
@@ -317,6 +317,27 @@ def get_stopwords(lang):
         elif lang == "ti" or lang == "tir":
             stopwords = tigrinya_stopwords
         stop_words = fix_stopwords(stopwords, lang)
+    
+    elif lang == "hbs":
+        #hbs = bos + hrv + srp
+        stop_words = list(iso_stopwords("hr"))
+        
+        with open(os.path.dirname(os.path.abspath(__file__))+"/resources/stopwords."+"bs", "r") as swf:
+            for sw in swf:
+                stop_words.append(sw.strip()) 
+        
+        with open(os.path.dirname(os.path.abspath(__file__))+"/resources/stopwords."+"sr", "r") as swf:
+            for sw in swf:
+                stop_words.append(sw.strip())      
+        stop_words = fix_stopwords(stop_words, lang)
+
+    elif lang == "fas":
+        #fas = pes + prs
+        stop_words = astuana_stopwords.get_stopwords("fa")
+        with open(os.path.dirname(os.path.abspath(__file__))+"/resources/stopwords."+"prs", "r") as swf:
+            for sw in swf:
+                stop_words.append(sw.strip()) 
+        stop_words = fix_stopwords(stop_words, lang)
 
     else:    
         stop_words = [""] #ñapa to avoid it crashing

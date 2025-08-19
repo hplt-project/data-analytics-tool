@@ -72,11 +72,12 @@ bicleaner_ai_langs_es=(ca de gl eu zh)
 monocleaner_langs=(ab af am ar as  az ba be bg bh bn bo br bs ca ceb chr cnr co cs cy da de dv dz el en eo es et eu fa fi fr ga gl gu hbs he hi hr hu hy id \
 	is it ja ka kk kn ko ky la lt lt lv mk ml mn mr ms mt my nb ne nl nn pa pl ps pt ro ru si sk sl so sq sr sv sw ta te th tl tr tt uk ur uz vi zh)
 
-hbs_langs=(hr sr bs me)
+hbs_langs=(hr sr bs me bos hrv srp)
 
 
 registerlabels_langs=(af sq am ar hy as az eu be bn bs br bg my ca zh hr cs da nl en eo et tl fi fr gl ka de el gu ha he hi hu is id ga it ja jv \
-	kn kk km ko ku ky lo la lv lt mk mg ms ml mr mn ne no nn nb or om ps fa pl pt pa ro ru sa gd sr sd si sk sl so es su sw sv ta te th tr uk ur ug uz vi cy fy xh yi)
+	kn kk km ko ku ky lo la lv lt mk mg ms ml mr mn ne no nn nb or om ps fa pl pt pa ro ru sa gd sr sd si sk sl so es su sw sv ta te th tr uk ur ug uz vi cy fy xh yi
+	bos hrv srp hbs est ekk )
 
 
 mkdir -p $datapath
