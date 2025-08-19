@@ -10,7 +10,31 @@
 
 .graph-cont {
   height: 400px;
-  width: 49%;
+  width: 25%;
+  margin-right: 70px
+}
+
+.graph-cont-bars {
+  width: 69%;
+  height: 400px;
+}
+
+.title {
+  display: flex;
+}
+
+.title h2 {
+  margin-right: 7px;
+  margin-top: -1px
+}
+
+.tooltipLink {
+  color: var(--tooltip-link);
+  text-decoration: none;
+}
+
+.tooltipText {
+  font-size: 14px;
 }
 
 .mtInfo {
@@ -22,6 +46,7 @@
   border: solid 1px rgb(199, 199, 199);
   padding: 15px 35px 15px 15px;
   border-radius: 5px;
+  width: fit-content;
 }
 
 .register-labels {

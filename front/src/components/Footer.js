@@ -12,34 +12,35 @@ export default function Footer() {
     <div className={styles.footer}>
       <div className={styles["footer-text-left"]}>
         <p className={styles["hplt-copyright"]}>Ⓒ HPLT 2025</p>
-        <a
-          href="https://cordis.europa.eu/project/id/101070350"
-          className={styles["horizon-link"]}
-          target="_blank"
-        >
-          <Image
-            src={HorizonLogo}
-            alt="horizon logo"
-            width={55}
-            height={50}
-            className={styles["horizon-logo"]}
-          />
-        </a>
+        <div className={styles.logosLeft}>
+          <a
+            href="https://cordis.europa.eu/project/id/101070350"
+            className={styles["horizon-link"]}
+            target="_blank"
+          >
+            <Image
+              src={HorizonLogo}
+              alt="horizon logo"
+              width={55}
+              height={50}
+              className={styles["horizon-logo"]}
+            />
+          </a>
 
-        <a
-          href="https://www.ukri.org"
-          className={styles["ukri-link"]}
-          target="_blank"
-        >
-          <Image
-            src={UKRILogo}
-            alt="ukri-logo"
-            width={136}
-            height={40}
-            className={styles["ukri-logo"]}
-          />
-        </a>
-
+          <a
+            href="https://www.ukri.org"
+            className={styles["ukri-link"]}
+            target="_blank"
+          >
+            <div className={styles.ukriLogoCont}>
+              <Image
+                src={UKRILogo}
+                alt="ukri-logo"
+                className={styles["ukri-logo"]}
+              />
+            </div>
+          </a>
+        </div>
         <p className={styles["footer-info"]}>
           This project has received funding from the European Union’s Horizon
           Europe research and innovation programme under grant agreement No
@@ -68,7 +69,7 @@ export default function Footer() {
         </p>
       </div>
       <div className={styles["footer-text-right"]}>
-        <a href="https://twitter.com/hplt_eu" target="_blank" rel="noreferrer">
+        <a href="https://twitter.com/hplt_eu" target="_blank" rel="noreferrer" style={{ color: "black" }}>
           <Image
             src={XLogo}
             alt="x logo"

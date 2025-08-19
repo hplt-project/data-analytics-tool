@@ -473,6 +473,31 @@ export default function Uploader({ languageList }) {
                                 >
                                     Nemotron
                                 </label>
+                                </div>
+                            <div
+                                className={[
+                                    styles["form-check"],
+                                    styles["form-check-inline"],
+                                ].join(" ")}
+                            >
+                                <input
+                                    className={styles["form-check-input"]}
+                                    type="radio"
+                                    name="corpus-format"
+                                    id="corpus-format-madlad"
+                                    value="madlad"
+                                    onClick={(e) => {
+                                        if (e.target.checked) {
+                                            setCorpusFormat("madlad")
+                                        }
+                                    }}
+                                />
+                                <label
+                                    className={styles["form-check-label"]}
+                                    htmlFor="corpus-format-madlad"
+                                >
+                                    Madlad
+                                </label>
                             </div></>}
                     </div>
                     <div className={styles["lang-inputs"]}>
@@ -561,7 +586,6 @@ export async function getServerSideProps() {
     const axios = require("axios");
 
     const apiBase = process.env.API_URL;
-
     const apiList = await axios.get(`${apiBase}opus_langs`);
 
     const list = apiList.data;

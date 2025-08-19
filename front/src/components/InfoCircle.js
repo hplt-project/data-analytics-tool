@@ -1,11 +1,12 @@
 import { Info } from "lucide-react"
-export default function InfoCircle() {
+export default function InfoCircle({ style }) {
     return (
-        <div style={{ marginLeft: "5px", marginTop: "-3px" }}>
+        <div >
             <Info
+                style={style}
                 strokeWidth={2}
                 color="#09071d"
-                width={20}
+                width={18}
             />
         </div>
     )

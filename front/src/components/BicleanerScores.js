@@ -16,26 +16,21 @@ import InfoCircle from "./InfoCircle";
 
 import styles from "@/styles/BicleanerScores.module.css";
 
-const CustomTooltip = ({ active, payload, label, measurement }) => {
+const CustomTooltip = ({ active, payload, label, measurement, total }) => {
   if (active && payload && payload.length) {
     return (
       <div className={styles.tooltip}>
-        <p className={styles.label}>{label}</p>
+        <p className={styles.label}>Score {label}</p>
         {payload.map((item, idx) => {
           return (
             <>
-              <p
-                key={idx}
-                className={styles.desc}
-                style={{ color: item.fill }}
-              >{`${measurement}:   ${numberFormatter(item.value)}`}</p>
-              {item.payload.perc && (
-                <p
-                  key={idx}
-                  className={styles.perc}
-                  style={{ color: item.fill }}
-                >{`% of total:   ${item.payload.perc} %`}</p>
-              )}
+              <p key={idx} className={styles.desc} style={{ color: item.fill }}>
+                {`${numberFormatter(item.value)} ${measurement.toLowerCase()}`}{" "}
+                <span style={{ fontWeight: 600 }}>{`(${(
+                  (item.value / total) *
+                  100
+                ).toFixed(2)}%)`}</span>
+              </p>
             </>
           );
         })}
@@ -96,28 +91,27 @@ export default function BicleanerScores({ scores, footNote }) {
       <div className={styles.title}>
         <h3>
           Translation likelihood{" "}
-          <a className="bicleaner-info-second">
-            {!footNote && (
-              <InfoCircle
-              />
-            )}
-          </a>
+          <a className="bicleaner-info-second" style={{ marginLeft: "3px" }}>{!footNote && <InfoCircle />}</a>
           <InfoTooltip
             anchorSelect=".bicleaner-info-second"
             place="top"
             clickable
+            style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}
           >
-            Scores computed by Bicleaner-AI: (
-            <a
-              href="https://github.com/bitextor/bicleaner-ai"
-              target="_blank"
-            >
-              https://github.com/bitextor/bicleaner-ai
-            </a>
-            )
+            <p style={{
+              fontSize: "14px", fontWeight: 400
+            }}>Scores computed by Bicleaner-AI: (
+              <a href="https://github.com/bitextor/bicleaner-ai" target="_blank" style={{ color: "#24aaf7;" }}>
+                https://github.com/bitextor/bicleaner-ai
+              </a>
+              )</p>
           </InfoTooltip>
         </h3>
         <div className={styles.numbers}>
+          <p>
+            {"<"} 5 = {numberFormatter(underFive)} segments |{" "}
+            <strong>{percUnderFive.toFixed(1)}%</strong>
+          </p>
           <p>
             {"≥"} 5 = {numberFormatter(overEqualFive)} segments |{" "}
             <strong>{percOverEqualFive.toFixed(1)}%</strong>
@@ -126,10 +120,7 @@ export default function BicleanerScores({ scores, footNote }) {
             {"≥"} 8 = {numberFormatter(overEqualEight)} segments |{" "}
             <strong>{percOverEqualEight.toFixed(1)}%</strong>
           </p>{" "}
-          <p>
-            {"<"} 5 = {numberFormatter(underFive)} segments |{" "}
-            <strong>{percUnderFive.toFixed(1)}%</strong>
-          </p>
+
         </div>
       </div>
       <ResponsiveContainer width="100%" height="100%">
@@ -151,13 +142,9 @@ export default function BicleanerScores({ scores, footNote }) {
             type="number"
             allowDecimals
             ticks={numbers}
+            padding={{ left: 50, right: 50 }}
           >
-            <Label
-              value="Scores"
-              offset={10}
-              position="bottom"
-              fontSize={16}
-            />
+            <Label value="Scores" offset={10} position="bottom" fontSize={16} />
           </XAxis>
           <YAxis
             fontSize={14}
@@ -171,7 +158,9 @@ export default function BicleanerScores({ scores, footNote }) {
             tickFormatter={DataFormatter}
           />
           <Tooltip
-            content={<CustomTooltip measurement={"Segments"} />}
+            content={
+              <CustomTooltip measurement={"Segments"} total={totalValue} />
+            }
             wrapperStyle={{ outline: "none" }}
           />
           <ReferenceLine y={0} stroke="#000" />
@@ -185,6 +174,6 @@ export default function BicleanerScores({ scores, footNote }) {
           </Bar>
         </BarChart>
       </ResponsiveContainer>
-    </div>
+    </div >
   );
 }

@@ -21,10 +21,16 @@
 .label {
   font-weight: 600;
   margin-bottom: 12px;
+  font-size: 16px;
 }
 
 .title {
   display: flex;
+}
+
+.tooltipLink {
+  color: var(--tooltip-link);
+  text-decoration: none;
 }
 
 .title h3 {

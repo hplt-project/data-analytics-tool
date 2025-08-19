@@ -22,6 +22,7 @@
 
 .tables {
   justify-content: space-between;
+  padding-bottom: 40px;
 }
 
 .tablesLeft {
@@ -132,10 +133,14 @@
   margin-top: 30px;
 }
 
+.singleLanguageReport {
+  margin-right: 20px;
+
+}
+
 .singleLanguageReport,
 .singleLanguageReportDocs {
   width: 50%;
-  margin-right: 20px;
 }
 
 
@@ -207,8 +212,9 @@
 }
 
 .dataReportContainer h3.smaller {
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 600;
+  margin-bottom: 5px;
 }
 
 .containsTooltip {
@@ -228,64 +234,64 @@
   margin-left: auto;
 }
 
-.dataReportContainer table {
+.tables table {
   text-align: left;
   border-collapse: collapse;
-  margin: 5px 0 20px 0;
+  margin: 5px 0 0px 0;
   border-radius: 3px;
 }
 
-.dataReportContainer table thead th {
+.tables table thead th {
   padding: 12px 8px;
 }
 
-.dataReportContainer table thead tr {
+.tables table thead tr {
   border-bottom: 1.5px solid #5e5d5d;
 }
 
-.dataReportContainer table thead th:first-child {
+.tables table thead th:first-child {
   padding: 10px 8px 10px 14px;
 }
 
-.dataReportContainer table tr td {
+.tables table tr td {
   font-size: 14px;
   padding: 10px 8px;
 }
 
-.dataReportContainer table tr td:first-child {
-  padding: 10px 8px 10px 14px;
+.tables table tr td:first-child {
+  padding: 7px 8px 7px 14px;
 }
 
-.dataReportContainer table thead th:last-child {
+.tables table thead th:last-child {
   padding: 10px 14px 10px 8px;
 }
 
-.dataReportContainer table tr td:last-child {
-  padding: 10px 14px 10px 8px;
+.tables table tr td:last-child {
+  padding: 7px 14px 7px 8px;
 }
 
-.dataReportContainer table thead th {
+.tables table thead th {
   font-weight: bold;
 }
 
-.dataReportContainer table {
+.tables table {
   border: 1px solid #eeeeee;
 }
 
-.dataReportContainer table thead {
+.tables table thead {
   color: #333333;
 }
 
-.dataReportContainer table tr td a {
+.tables table tr td a {
   color: rgb(1, 95, 236);
   text-decoration: none;
 }
 
-.dataReportContainer table tr td {
+.tables table tr td {
   color: #666666;
 }
 
-.dataReportContainer table tr:not(:last-child) {
+.tables table tr:not(:last-child) {
   border-bottom: 1px solid #5e5d5d;
 }
 

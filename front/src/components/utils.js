@@ -45,7 +45,7 @@ async function creatPdf({ doc, elements }) {
         imgData,
         "PNG",
         padding,
-        10,
+        5,
         elWidth,
         elHeight + 12,
         `image${i}`,

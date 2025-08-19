@@ -1,5 +1,9 @@
 .dataReportContainer .topTLDs table thead th,
 .dataReportContainer .topTLDs table tr td {
-  padding: 5px 30px 5px 8px;
+  padding: 5px 30px 50px 8px;
   font-size: 14px;
+}
+
+.topTLDs {
+  margin-bottom: 50px;
 }
