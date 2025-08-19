@@ -20,8 +20,8 @@ from tokenizer import CustomTokenizer
 def initialization():
     parser = argparse.ArgumentParser()
     
-    parser.add_argument('input',  nargs='?', type=argparse.FileType('rt', errors="replace"), default=io.TextIOWrapper(sys.stdin.buffer, errors="replace"),  help="Input TSV file.")
     parser.add_argument('srclang', type=str, help="Source language")
+    parser.add_argument('input',  nargs='?', type=argparse.FileType('rt', errors="replace"), default=io.TextIOWrapper(sys.stdin.buffer, errors="replace"),  help="Input TSV file.")
     parser.add_argument('output', nargs='?', type=argparse.FileType('wt'), default=sys.stdout, help="Output.")
     
     # Logging group    

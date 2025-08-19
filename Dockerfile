@@ -1,6 +1,7 @@
 #No GPU support needed by now...
 #from nvidia/cuda:11.8.0-cudnn8-runtime-ubuntu22.04
-FROM nvidia/cuda:12.2.2-cudnn8-runtime-ubuntu22.04
+#FROM nvidia/cuda:12.2.2-cudnn8-runtime-ubuntu22.04
+FROM ubuntu:22.04@sha256:1ec65b2719518e27d4d25f104d93f9fac60dc437f81452302406825c46fcc9cb
 
 
 ENV BINPATH=/opt/bin
@@ -27,7 +28,8 @@ RUN apt-get update && \
     apt-get install -y wget unzip joe gcc libboost-all-dev cmake && \ 
     apt-get install -y python3.10 python3-dev python3.10-dev  python3-pip  python3.10-venv && \
     apt-get install -y git build-essential autoconf autopoint libtool parallel &&\
-    apt-get install -y hunspell libhunspell-dev jq zstd curl cuda-nvvm-12-2 gawk
+    apt-get install -y hunspell libhunspell-dev jq zstd curl gawk time
+    # apt-get install -y cuda-nvvm-12-2
     
 RUN curl https://sh.rustup.rs -sSf | bash -s -- -y --default-toolchain=1.77.2
 ENV PATH="/root/.cargo/bin:${PATH}"
@@ -74,13 +76,13 @@ RUN . /work/venvs/venv-bc/bin/activate && \
     python3.10 -m pip install --config-settings="--build-option=--max_order=7" https://github.com/kpu/kenlm/archive/master.zip && \    
     python3.10 -m pip install bicleaner==0.17.2 && python3.10 -m pip install numpy==1.26.4 && deactivate
 
-RUN . /work/venvs/venv-bcai/bin/activate && \
-    python3.10 -m pip install -U pip  && \
-    python3.10 -m pip install -U wheel && \
-    python3.10 -m pip install -U setuptools && \
-    python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\   
-    python3.10 -m pip install --config-settings="--build-option=--max_order=7" https://github.com/kpu/kenlm/archive/master.zip && \
-    python3.10 -m pip install bicleaner-ai==3.1.0 && deactivate
+# RUN . /work/venvs/venv-bcai/bin/activate && \
+#     python3.10 -m pip install -U pip  && \
+#     python3.10 -m pip install -U wheel && \
+#     python3.10 -m pip install -U setuptools && \
+#     python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\   
+#     python3.10 -m pip install --config-settings="--build-option=--max_order=7" https://github.com/kpu/kenlm/archive/master.zip && \
+#     python3.10 -m pip install bicleaner-ai==3.1.0 && deactivate
 
 RUN . /work/venvs/venv-bnlp/bin/activate && \
     python3.10 -m pip install -U pip && \
@@ -92,20 +94,21 @@ RUN . /work/venvs/venv-bnlp/bin/activate && \
     python3.10 -m pip install bnlp-toolkit==4.0.3 &&\
     echo "import nltk; nltk.download('punkt'); nltk.download('punkt_tab'); nltk.download('stopwords');" | python3.10
     
-RUN . /work/venvs/venv-rl/bin/activate && \
-    python3.10 -m pip install -U pip  && \
-    python3.10 -m pip install -U wheel && \
-    python3.10 -m pip install -U setuptools && \
-    python3.10 -m pip install -r /work/deployment/requirements-rl.txt
+# RUN . /work/venvs/venv-rl/bin/activate && \
+#     python3.10 -m pip install -U pip  && \
+#     python3.10 -m pip install -U wheel && \
+#     python3.10 -m pip install -U setuptools && \
+#     python3.10 -m pip install -r /work/deployment/requirements-rl.txt
 
-RUN . /work/venvs/venv-rl/bin/activate &&   huggingface-cli download TurkuNLP/web-register-classification-multilingual
-RUN . /work/venvs/venv-rl/bin/activate &&   huggingface-cli download FacebookAI/xlm-roberta-large
+# RUN . /work/venvs/venv-rl/bin/activate &&   huggingface-cli download TurkuNLP/web-register-classification-multilingual
+# RUN . /work/venvs/venv-rl/bin/activate &&   huggingface-cli download FacebookAI/xlm-roberta-large
 
 
 
 RUN python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3 &&\
     python3.10 -m pip install -r /work/deployment/requirements.txt &&\
     echo "import nltk; nltk.download('punkt'); nltk.download('punkt_tab'); nltk.download('stopwords');" | python3.10
+RUN fastspell-download
   
 
 
