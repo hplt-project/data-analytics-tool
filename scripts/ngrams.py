@@ -49,7 +49,7 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
                         "zh-hant": "chinese",
                         "zh-hans": "chinese",
                         "zho": "chinese",
-                        "cmn": "chinse"}
+                        "cmn": "chinese"}
                         
 NLTK_STOPWORDS_MAPS = {"azj": "az",  "ara": "ar", "ben": "bn", "cat": "ca", "dan": "da", "deu": "de", "ell": "el", "eng": "en", 
                         "spa": "es", "eus": "eu", "fin": "fi", "fra": "fr", "heb": "he", "hun": "hu", "ind": "id", "ita": "it", 
