@@ -17,6 +17,7 @@ RUN mkdir -p /work/yaml_dir/
 RUN mkdir -p /work/tests/
 
 RUN mkdir -p /work/venvs/
+RUN mkdir -p /work/hf_cache/
 
 #TO DO: uploaded_corpora and yaml_dir should be volumes
 
@@ -31,6 +32,7 @@ RUN apt-get update && \
     
 RUN curl https://sh.rustup.rs -sSf | bash -s -- -y --default-toolchain=1.77.2
 ENV PATH="/root/.cargo/bin:${PATH}"
+ENV HF_HOME=/work/hf_cache
 
     
 RUN python3.10 -m pip install -U pip  && \
@@ -100,6 +102,7 @@ RUN . /work/venvs/venv-rl/bin/activate && \
 
 RUN . /work/venvs/venv-rl/bin/activate &&   huggingface-cli download TurkuNLP/web-register-classification-multilingual
 RUN . /work/venvs/venv-rl/bin/activate &&   huggingface-cli download FacebookAI/xlm-roberta-large
+RUN . /work/venvs/venv-rl/bin/activate &&   huggingface-cli download nvidia/multilingual-domain-classifier
 
 
 

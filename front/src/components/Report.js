@@ -25,6 +25,7 @@ import ReportTitle from "./ReportTitle";
 import BilingualTable from "./BilingualTable";
 import Sample from "./Sample";
 import RegisterLabels from "@/components/RegisterLabels";
+import DomainLabels from "@/components/DomainLabels";
 import InfoCircle from "@/components/InfoCircle";
 import buttonStyles from "@/styles/Uploader.module.css";
 import styles from "@/styles/Report.module.css";
@@ -437,6 +438,11 @@ export default function Report({ date, report }) {
           labels={report["register_labels"]}
           footNote={footNote}
         />
+      )}
+      {report["domain_labels"] && (
+        <div className="custom-chart">
+          <DomainLabels labels={report["domain_labels"]} footNote={footNote} />
+        </div>
       )}
       {report.docs_segments && (
         <div className="custom-chart">
