@@ -99,8 +99,10 @@ reduce_segs_langs() {
 
 reduce_segs_volumes() {
     cut -f 1,2,3,4 \
-    | awk -F "\t" 'length($1) == 0{next;}{sum0+=1; sum1+=$1; sum2+=$2; sum3+=$3; sum4+=$4; } END {print sum0 "\\t" sum1 "\t" sum2 "\t" sum3 "\t" sum4}' \
-    | awk -F "\t" '{sum0+=$1; sum1+=$2; sum2+=$3; sum3+=$4; sum4+=$5; } END {print sum0 "\t" sum1 "\t" sum2 "\t" sum3 "\t" sum4}' \
+    | awk -F "\t" -v OFS="\t" \
+        'length($1) != 0 {sum0+=1; sum1+=$1; sum2+=$2; sum3+=$3; sum4+=$4; } END {print sum0,sum1,sum2,sum3,sum4}' \
+    | awk -F "\t" -v OFS="\t" \
+        '{sum0+=$1; sum1+=$2; sum2+=$3; sum3+=$4; sum4+=$5; } END {print sum0,sum1,sum2,sum3,sum4}' \
     || {
         echo "Error in pipeline: ${PIPESTATUS[@]}" >&2
         exit 1
@@ -116,6 +118,15 @@ reduce_segs_unique() {
         echo "Error in pipeline: ${PIPESTATUS[@]}" >&2
         exit 1
     }
+}
+
+reduce_segs_tokens() {
+    cut -f 1,5 \
+    | grep '[0-9]' \
+    | LC_ALL=C sort -S 80% --compress-program=zstd --parallel $JOBS \
+    | uniq -c \
+    | awk -F " " '{sum[$2]+=$1; uni[$2]+=1} END {for (key in sum) {print key, sum[key], uni[key]}}' \
+    | sort -n
 }
 
 reduce_ngrams() {
@@ -138,81 +149,86 @@ choose_task() {
     export TASK_PARAMS=""
     case "$task" in
         doc-volumes)
-            export OUTPUT_FILE=$OUT_DIR/$SRCLANG.docvolumes
+            export OUTPUT_FILE=$OUT_DIR/reduce.docvolumes
             export INPUT_SUFFIX=".docproc.zst"
             export TASK_FUNC="reduce_doc_volumes"
             ;;
         doc-sents)
-            export OUTPUT_FILE=$OUT_DIR/$SRCLANG.docsents
+            export OUTPUT_FILE=$OUT_DIR/reduce.docsents
             export INPUT_SUFFIX=".docproc.zst"
             export TASK_FUNC="reduce_doc_sents"
             ;;
         doc-wds)
-            export OUTPUT_FILE=$OUT_DIR/$SRCLANG.wds
+            export OUTPUT_FILE=$OUT_DIR/reduce.wds
             export INPUT_SUFFIX=".docproc.zst"
             export TASK_FUNC="reduce_doc_wds"
             ;;
         doc-doclangs)
-            export OUTPUT_FILE=$OUT_DIR/$SRCLANG.doclangs
+            export OUTPUT_FILE=$OUT_DIR/reduce.doclangs
             export INPUT_SUFFIX=".docproc.zst"
             export TASK_FUNC="reduce_doc_doclangs"
             ;;
         doc-collections)
-            export OUTPUT_FILE=$OUT_DIR/$SRCLANG.collections
+            export OUTPUT_FILE=$OUT_DIR/reduce.collections
             export INPUT_SUFFIX=".docproc.zst"
             export TASK_FUNC="reduce_doc_collections"
             ;;
         doc-domains)
-            export OUTPUT_FILE=$OUT_DIR/$SRCLANG.domains
+            export OUTPUT_FILE=$OUT_DIR/reduce.domains
             export INPUT_SUFFIX=".docproc.zst"
             export TASK_FUNC="reduce_doc_domains"
             ;;
         doc-tlds)
-            export OUTPUT_FILE=$OUT_DIR/$SRCLANG.tlds
+            export OUTPUT_FILE=$OUT_DIR/reduce.tlds
             export INPUT_SUFFIX=".docproc.zst"
             export TASK_FUNC="reduce_doc_tlds"
             ;;
         segs-langs)
-            export OUTPUT_FILE=$OUT_DIR/$SRCLANG.srclangs
+            export OUTPUT_FILE=$OUT_DIR/reduce.srclangs
             export INPUT_SUFFIX=".langids.zst"
             export TASK_FUNC="reduce_segs_langs"
             ;;
         segs-volumes)
-            export OUTPUT_FILE=$OUT_DIR/$SRCLANG.volumes
+            export OUTPUT_FILE=$OUT_DIR/reduce.volumes
             export INPUT_SUFFIX=".proc.zst"
             export TASK_FUNC="reduce_segs_volumes"
             ;;
         segs-unique)
-            export OUTPUT_FILE=$OUT_DIR/$SRCLANG.srcunique
+            export OUTPUT_FILE=$OUT_DIR/reduce.srcunique
             export INPUT_SUFFIX=".proc.zst"
             export TASK_FUNC="reduce_segs_unique"
             ;;
+        segs-tokens)
+            export OUTPUT_FILE=$OUT_DIR/reduce.srctokcount
+            export INPUT_SUFFIX=".proc.zst"
+            export TASK_FUNC="reduce_segs_tokens"
+            ;;
         onegrams)
-            export OUTPUT_FILE=$OUT_DIR/$SRCLANG.onegrams
+            export OUTPUT_FILE=$OUT_DIR/reduce.onegrams
             export INPUT_SUFFIX=".proc.zst"
             export TASK_FUNC="reduce_ngrams"
             export TASK_PARAMS="1"
             ;;
         twograms)
-            export OUTPUT_FILE=$OUT_DIR/$SRCLANG.twograms
+            export OUTPUT_FILE=$OUT_DIR/reduce.twograms
             export INPUT_SUFFIX=".proc.zst"
             export TASK_FUNC="reduce_ngrams"
             export TASK_PARAMS="2"
             ;;
         threegrams)
-            export OUTPUT_FILE=$OUT_DIR/$SRCLANG.threegrams
+            export OUTPUT_FILE=$OUT_DIR/reduce.threegrams
             export INPUT_SUFFIX=".proc.zst"
             export TASK_FUNC="reduce_ngrams"
             export TASK_PARAMS="3"
             ;;
         fourgrams)
-            export OUTPUT_FILE=$OUT_DIR/$SRCLANG.fourgrams
+            export OUTPUT_FILE=$OUT_DIR/reduce.fourgrams
             export INPUT_SUFFIX=".proc.zst"
             export TASK_FUNC="reduce_ngrams"
             export TASK_PARAMS="4"
             ;;
         fivegrams)
-            export OUTPUT_FILE=$OUT_DIR/$SRCLANG.fivegrams
+            export OUTPUT_FILE=$OUT_DIR/reduce.fivegrams
             export INPUT_SUFFIX=".proc.zst"
             export TASK_FUNC="reduce_ngrams"
             export TASK_PARAMS="5"

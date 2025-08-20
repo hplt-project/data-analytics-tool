@@ -7,6 +7,7 @@ set -euo pipefail
 inputfile=$HQ_ENTRY
 srclang=$1
 format=$2
+outfile="$OUT_DIR/$(basename $inputfile)"
 
 if [ -z "${HQ_CPUS+x}" ]; then
     JOBS=$(echo $HQ_CPUS | tr -cd ',' | wc -c)
@@ -20,7 +21,7 @@ zstdcat $inputfile \
 | parallel --pipe -j$JOBS --block 20M --halt now,fail=1 \
     python3 /work/scripts/readdocuments.py $srclang --format $format \
 | zstdmt \
->$inputfile.docproc.zst \
+>$outfile.docproc.zst \
 || {
     echo "Error in pipeline: ${PIPESTATUS[@]}" >&2
     exit 1
@@ -35,7 +36,7 @@ zstdcat $inputfile.tsv.zst \
 | parallel --pipe -j$JOBS --block 10M --halt now,fail=1 \
     python3 /work/scripts/readcorpus_mono.py $srclang --quiet \
 | zstdmt \
->$inputfile.proc.zst \
+>$outfile.proc.zst \
 || {
     echo "Error in pipeline: ${PIPESTATUS[@]}" >&2
     exit 1
@@ -54,13 +55,12 @@ zstdcat $inputfile.tsv.zst \
     --run_all_rules --disable_lang_ident \
     $srclang - - \
 | zstdmt \
-> $inputfile.hardrules.zst \
+> $outfile.hardrules.zst \
 || {
     echo "Error in pipeline: ${PIPESTATUS[@]}" >&2
     exit 1
 }
 deactivate
-
 
 echo "##### Fastspell #####" >&2
 zstdcat $inputfile.tsv.zst \
@@ -68,7 +68,7 @@ zstdcat $inputfile.tsv.zst \
     fastspell --aggr $srclang --quiet \
 | cut -f2 \
 | zstdmt \
->$inputfile.langids.zst \
+>$outfile.langids.zst \
 || {
     echo "Error in pipeline: ${PIPESTATUS[@]}" >&2
     exit 1
