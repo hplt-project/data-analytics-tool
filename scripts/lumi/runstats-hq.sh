@@ -39,6 +39,7 @@ EOF
 
 declare -A task_cpus
 task_cpus=(
+    ["hardrules"]="8"
     ["doc-volumes"]="8"
     ["doc-sents"]="all"
     ["doc-wds"]="all"

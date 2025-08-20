@@ -41,8 +41,8 @@ python3 /work/scripts/reduce/write_tokcounts.py $yaml_file_path $filename.srctok
 python3 /work/scripts/reduce/write_langs.py $yaml_file_path $filename.srclangs
 	
 #Hardrules
-if [ -f $filename.hardrules ] ; then
-	python3 /work/scripts/reduce/write_hardrules.py $filename.hardrules $yaml_file_path ""
+if [ -f $filename.hardrules.zst ] ; then
+    python3 /work/scripts/reduce/write_hardrules.py <(zstdcat $filename.hardrules.zst) $yaml_file_path ""
 fi
 
 #Register labels

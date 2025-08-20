@@ -6,6 +6,10 @@ else
 fi
 set -euo pipefail
 
+reduce_hardrules() {
+    zstd -T$JOBS
+}
+
 reduce_doc_volumes() {
     cut -f 1 \
     | awk -F "\t" 'length($1) == 0{next;}{sum0+=1; sum1+=$1;} END {print sum0 "\t" sum1 }' \
@@ -148,6 +152,11 @@ choose_task() {
     local task=$1
     export TASK_PARAMS=""
     case "$task" in
+        hardrules)
+            export OUTPUT_FILE=$OUT_DIR/reduce.hardrules.zst
+            export INPUT_SUFFIX=".hardrules.zst"
+            export TASK_FUNC="reduce_hardrules"
+            ;;
         doc-volumes)
             export OUTPUT_FILE=$OUT_DIR/reduce.docvolumes
             export INPUT_SUFFIX=".docproc.zst"
