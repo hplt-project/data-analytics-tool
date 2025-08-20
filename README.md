@@ -30,7 +30,7 @@ Code and data are located in `/work`. Yaml files served in the frontend must be 
 
 Aside from uploading from the webapp interface, the `runstats.sh` (located in  `/work/scripts/`) can be used for generating stats, running it with parameters as follows:
 ```
-bash /work/scripts/runstats.sh {CORPUS_PATH} {YAML_FILENAME} {SOURCE_LANGUAGE} {TARGET_LANGUAGE} {FORMAT} {LANGUAGE_FORMAT} {--no-cache} {--no-register-labels} {--debug}
+bash /work/scripts/runstats.sh {CORPUS_PATH} {YAML_FILENAME} {SOURCE_LANGUAGE} {TARGET_LANGUAGE} {FORMAT} {LANGUAGE_FORMAT} {--no-cache} {--no-register-labels} {--no-domain-labels} {--debug}
 ```
 Being:
 * CORPUS_PATH: The path to the corpus to be analyzed.
@@ -42,10 +42,24 @@ Being:
 
 With the optional flags being:
 * `--no-register-labels`: Avoids obtaining Register Labels, that is a slow part of the pipeline. Recommended for large corpora or when not running on CPU.
+* `--no-domain-labels`: Skips domain classification, reducing runtime.
 * `--no-cache`: Avoids using [cache](https://github.com/kpu/preprocess). Use this flag for very large corpora, when you consider that your unique segments (non-duplicates) won't fit in memory. This will make some parts of the pipeline slower, but it will still be able to run. This flag alone does not skip any feature.
 * `--debug`: Don't remove the workdir after finishing the run ('/work/transient/XXXXXX/`)
 
 The first two flags affect to the performance of the pipeline. You probably want to start with `--no-register-labels` and then add `--no-cache` if needed.
+
+### Domain labels configuration
+
+Domain labels use `nvidia/multilingual-domain-classifier` ([HF model card](https://huggingface.co/nvidia/multilingual-domain-classifier)). Configuration via environment variables (read by `runstats.sh` and forwarded to the classifier):
+
+- `DOMAIN_TOPK` (int, default `3`): number of top labels per document to count. Note that with `topk > 1`, a single document can contribute to multiple domain bins, so the sum of counts in `domain_labels` can exceed the number of documents.
+- `DOMAIN_MINCONF` (float, default `0.5`): minimum softmax confidence; if none exceed this threshold for a document, the document is counted as `UNK`.
+- `DOMAIN_REVISION` (string, optional): model revision pin for reproducibility (applies to both model and tokenizer). It is recommended to pin a specific revision in production to avoid upstream changes affecting results.
+- `DOMAIN_LANGS` (string, optional): space-separated allowlist of language codes for running domain classification. Defaults to the 52 languages supported by the model.
+
+Alternatively, you can pass the equivalent flags directly to the classifier if you run it standalone: `--topk`, `--minconf`, `--revision`. CLI flags take precedence over environment variables when provided.
+
+The generated stats YAML includes a `domain_labels_meta` field with minimal metadata: `model_id`, `revision`, `topk`, `minconf` used for the run.
 
 
 ### Other scripts
@@ -82,6 +96,7 @@ The stats generated with this tool come in a handy yaml format with the followin
   -  `no_porn`: Percentage of segments having porn content (not available for all languages)
 - `monocleaner_scores`: Distribution of segments with a certain [Monocleaner](https://github.com/bitextor/monocleaner) score (only for monolingual corpora)
 - `register_labels`: Distribution of documents identified with a given web register by [web-register-classification-multilingual](https://huggingface.co/TurkuNLP/web-register-classification-multilingual) (only for monolingual documents)
+- `domain_labels`: Distribution of documents across model-defined domains by [nvidia/multilingual-domain-classifier](https://huggingface.co/nvidia/multilingual-domain-classifier) (only for monolingual documents)
 - `sentence_pairs`: Total amount of segments (in the case of monolingual corpora) or segment pairs (in the case of parallel corpora)
 - `src_bytes`: Total size of source segments, uncompressed.
 - `src_chars`: Total amount of characters in source segments.
@@ -136,8 +151,8 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
   - Size in tokens, of source (monolingual), or source and target (parallel)
   - Size in characters, of source (monolingual), or source and target (parallel)
   - File size, of source (monolingual), or source and target (parallel)
-- Top 10 domains (excluding subdomains) (when available), of source (monolingual), or source and target (parallel)
-- Top 10 TLDs (when available), of source (monolingual), or source and target (parallel)
+  - Top domains (excluding subdomains) (when available), showing up to the top 10 with remaining grouped as "Other", of source (monolingual), or source and target (parallel)
+  - Top 10 TLDs (when available), of source (monolingual), or source and target (parallel)
 - Document size (in segments). Histogram showing the distribution of document sizes (only for monolingual documents)
 - Translation likelihood: Histogram showing the distribution of sentence pairs having a certain bicleaner score (tool that computes the likelihood of two sentences of being mutual translations) (only for parallel corpora)
 - Collections (parallel) / Documents by collection (monolingual) (when available)
@@ -146,8 +161,12 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
     - Percentage of segments in the declared languge, inside documents (only for monolingual documents)
 - Document Score distribution: Histogram showing the distribution of Document Score (only for monolingual documents)
 - Segment length distribution: Histogram showing the distribution of tokens per segment in source (monolingual) or source and target (parallel), showing total, unique and duplicate segments or segment pairs
-- Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences being URLs, bad encoding, sentences containing poor language, etc.). 
+- Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences being URLs, bad encoding, sentences containing poor language, etc.).
 - Frequent n-grams: 1-5 more frequent n-grams
+
+### Exporting the report to PDF
+
+Use the **Export to PDF** button at the bottom of the viewer to generate a PDF containing all charts displayed on the page, including register and domain labels when available.
 
 We also display samples for some of the datasets. These are currently obtained out of the HPLTAnalytics tool and all the storage and the logic of which sample/labels must be displayed is currently happening in Javascript. Further versions of HPLTAnalytics will properly handle this.
 

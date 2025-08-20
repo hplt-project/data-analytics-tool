@@ -15,6 +15,25 @@ JOBS_READCORPUS=$(($JOBS/3*2))
 
 GPU_BATCHSIZE=256
 
+# Domain classification configuration (defaults + always pass to classifier)
+if [ -z "$DOMAIN_TOPK" ]; then
+        DOMAIN_TOPK=3
+fi
+if [ -z "$DOMAIN_MINCONF" ]; then
+        DOMAIN_MINCONF=0.5
+fi
+# Export so downstream reducers can record metadata
+export DOMAIN_TOPK
+export DOMAIN_MINCONF
+if [ ! -z "$DOMAIN_REVISION" ]; then
+        export DOMAIN_REVISION
+fi
+DL_TOPK_ARG="--topk $DOMAIN_TOPK"
+DL_MINCONF_ARG="--minconf $DOMAIN_MINCONF"
+if [ ! -z "$DOMAIN_REVISION" ]; then
+        DL_REVISION_ARG="--revision $DOMAIN_REVISION"
+fi
+
 if [[ $* == *--no-cache* ]]
 then
         PARALLEL_CACHE_CMD=""
@@ -30,6 +49,13 @@ then
         SKIPRLFLAG=true
 else
         SKIPRLFLAG=false
+fi
+
+if [[ $* == *--skip-domain-labels* ]] || [[ $* == *--no-domain-labels* ]]
+then
+        SKIPDLFLAG=true
+else
+        SKIPDLFLAG=false
 fi
 
 if [[ $* == *--debug* ]]
@@ -69,6 +95,13 @@ hbs_langs=(hr sr bs me)
 
 registerlabels_langs=(af sq am ar hy as az eu be bn bs br bg my ca zh hr cs da nl en eo et tl fi fr gl ka de el gu ha he hi hu is id ga it ja jv \
 	kn kk km ko ku ky lo la lv lt mk mg ms ml mr mn ne no nn nb or om ps fa pl pt pa ro ru sa gd sr sd si sk sl so es su sw sv ta te th tr uk ur ug uz vi cy fy xh yi)
+
+# NVIDIA multilingual-domain-classifier allowlist (52 languages). Override with DOMAIN_LANGS (space-separated codes)
+if [ -z "$DOMAIN_LANGS" ]; then
+domainlabels_langs=(ar az bg bn ca cs da de el es et fa fi fr gl he hi hr hu hy id is it ka kk kn ko lt lv mk ml mr ne nl no pl pt ro ru sk sl sq sr sv ta tr uk ur vi ja zh)
+else
+read -r -a domainlabels_langs <<< "$DOMAIN_LANGS"
+fi
 
 
 mkdir -p $datapath
@@ -442,14 +475,35 @@ elif [ "$langformat" == "mono" ]; then
 		        else
         			echo "Register labels not supported for $srclang"
 		        fi
-		else
-			echo "Skipping register labels"
-		fi
+                else
+                        echo "Skipping register labels"
+                fi
+
+                #Domain labels
+                if [ "$SKIPDLFLAG" = false ]; then
+                        if [[ " ${domainlabels_langs[*]} " =~ " $srclang " ]]; then
+                                source /work/venvs/venv-rl/bin/activate
+                                echo "Running domain labels..."
+                                if [ "$extension" == "zst" ] || [ "$extension" == "zstd" ]; then
+                                        zstdcat $saved_file_path | python3 ./scripts/domainlabels.py --batchsize $GPU_BATCHSIZE $DL_TOPK_ARG $DL_MINCONF_ARG $DL_REVISION_ARG > $tsv_file_path.dl
+                                elif [ "$extension" == "parquet" ]; then
+                                        python3 scripts/deparquet.py $saved_file_path - | python3 ./scripts/domainlabels.py --batchsize $GPU_BATCHSIZE $DL_TOPK_ARG $DL_MINCONF_ARG $DL_REVISION_ARG > $tsv_file_path.dl
+                                else
+                                        cat $saved_file_path | python3 ./scripts/domainlabels.py --batchsize $GPU_BATCHSIZE $DL_TOPK_ARG $DL_MINCONF_ARG $DL_REVISION_ARG > $tsv_file_path.dl
+                                fi
+                                deactivate
+                                cat $tsv_file_path.dl | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | sort -nr > $tsv_file_path.dlcounts
+                        else
+                                echo "Domain labels not supported for $srclang"
+                        fi
+                else
+                        echo "Skipping domain labels"
+                fi
 
         else
                 echo "Unsupported format \"$format\""
                 exit 1
-	fi
+        fi
 	
 	#Monolingual hardrules
 	if [[ " ${monocleaner_langs[*]} " =~ " $srclang " ]]; then
@@ -550,8 +604,12 @@ elif [ "$langformat" == "mono" ]; then
 		python3 /work/scripts/reduce/write_hardrules.py $tsv_file_path.hardrules $yaml_file_path $HR_MODEL
 	fi
 
-	if [ -f $tsv_file_path.rlcounts ] ; then
+        if [ -f $tsv_file_path.rlcounts ] ; then
                 python3 /work/scripts/reduce/write_registerlabels.py $tsv_file_path.rlcounts $yaml_file_path
+        fi
+
+        if [ -f $tsv_file_path.dlcounts ] ; then
+                python3 /work/scripts/reduce/write_domainlabels.py $tsv_file_path.dlcounts $yaml_file_path
         fi
 
         python3 ./scripts/reduce/addngrams.py $tsv_file_path".ngrams"  $yaml_file_path "src"
