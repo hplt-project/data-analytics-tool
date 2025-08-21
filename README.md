@@ -48,18 +48,9 @@ With the optional flags being:
 
 The first two flags affect to the performance of the pipeline. You probably want to start with `--no-register-labels` and then add `--no-cache` if needed.
 
-### Domain labels configuration
+### Domain labels
 
-Domain labels use `nvidia/multilingual-domain-classifier` ([HF model card](https://huggingface.co/nvidia/multilingual-domain-classifier)). Configuration via environment variables (read by `runstats.sh` and forwarded to the classifier):
-
-- `DOMAIN_TOPK` (int, default `3`): number of top labels per document to count. Note that with `topk > 1`, a single document can contribute to multiple domain bins, so the sum of counts in `domain_labels` can exceed the number of documents.
-- `DOMAIN_MINCONF` (float, default `0.5`): minimum softmax confidence; if none exceed this threshold for a document, the document is counted as `UNK`.
-- `DOMAIN_REVISION` (string, optional): model revision pin for reproducibility (applies to both model and tokenizer). It is recommended to pin a specific revision in production to avoid upstream changes affecting results.
-- `DOMAIN_LANGS` (string, optional): space-separated allowlist of language codes for running domain classification. Defaults to the 52 languages supported by the model.
-
-Alternatively, you can pass the equivalent flags directly to the classifier if you run it standalone: `--topk`, `--minconf`, `--revision`. CLI flags take precedence over environment variables when provided.
-
-The generated stats YAML includes a `domain_labels_meta` field with minimal metadata: `model_id`, `revision`, `topk`, `minconf` used for the run.
+Domain labels use `nvidia/multilingual-domain-classifier` ([HF model card](https://huggingface.co/nvidia/multilingual-domain-classifier)). The tool runs with built‑in defaults (top‑k=3, min‑confidence=0.5) without extra configuration flags, mirroring the simplicity of register labels.
 
 
 ### Other scripts
@@ -151,8 +142,8 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
   - Size in tokens, of source (monolingual), or source and target (parallel)
   - Size in characters, of source (monolingual), or source and target (parallel)
   - File size, of source (monolingual), or source and target (parallel)
-  - Top domains (excluding subdomains) (when available), showing up to the top 10 with remaining grouped as "Other", of source (monolingual), or source and target (parallel)
-  - Top 10 TLDs (when available), of source (monolingual), or source and target (parallel)
+- Top 10 domains (excluding subdomains) (when available), of source (monolingual), or source and target (parallel)
+- Top 10 TLDs (when available), of source (monolingual), or source and target (parallel)
 - Document size (in segments). Histogram showing the distribution of document sizes (only for monolingual documents)
 - Translation likelihood: Histogram showing the distribution of sentence pairs having a certain bicleaner score (tool that computes the likelihood of two sentences of being mutual translations) (only for parallel corpora)
 - Collections (parallel) / Documents by collection (monolingual) (when available)

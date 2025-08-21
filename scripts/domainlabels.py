@@ -41,12 +41,6 @@ def initialization():
     )
     groupO.add_argument("--raw", action="store_true", help="True if the input is already raw, non-json text")
     groupO.add_argument("--batchsize", type=int, default=256, help="GPU batch size")
-    # Number of labels to emit per document (1 keeps previous behavior)
-    groupO.add_argument("--topk", type=int, default=3, help="Number of top labels to output per document")
-    # Minimum softmax confidence to accept a label; otherwise emit UNK
-    groupO.add_argument("--minconf", type=float, default=0.5, help="Minimum confidence threshold (softmax)")
-    # Optional model revision pin for reproducibility
-    groupO.add_argument("--revision", type=str, default=None, help="HF model revision to pin")
 
     groupL = parser.add_argument_group("Logging")
     groupL.add_argument('-q', '--quiet', action='store_true', help='Silent logging mode')
@@ -55,26 +49,6 @@ def initialization():
     groupL.add_argument('--logfile', type=argparse.FileType('a'), default=sys.stderr, help="Store log to a file")
 
     args = parser.parse_args()
-    # Respect CLI over env: only let env override if the corresponding CLI flag was not provided
-    # DOMAIN_TOPK / DOMAIN_MINCONF / DOMAIN_REVISION
-    if "--topk" not in sys.argv:
-        env_topk = os.getenv("DOMAIN_TOPK")
-        if env_topk is not None:
-            try:
-                args.topk = int(env_topk)
-            except ValueError:
-                pass
-    if "--minconf" not in sys.argv:
-        env_minconf = os.getenv("DOMAIN_MINCONF")
-        if env_minconf is not None:
-            try:
-                args.minconf = float(env_minconf)
-            except ValueError:
-                pass
-    if "--revision" not in sys.argv:
-        env_revision = os.getenv("DOMAIN_REVISION")
-        if env_revision:
-            args.revision = env_revision
 
     logging_setup(args)
     return args
@@ -108,19 +82,17 @@ class DomainLabels:
     def __init__(self, args):
         self.device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         self.model_id = "nvidia/multilingual-domain-classifier"
-        # Resolve revision
-        revision = args.revision
         # Load config and model (NVIDIA hub mixin)
-        config = AutoConfig.from_pretrained(self.model_id, revision=revision)
-        self.model = NvDomainModel.from_pretrained(self.model_id, config=config, revision=revision).to(self.device)
+        config = AutoConfig.from_pretrained(self.model_id)
+        self.model = NvDomainModel.from_pretrained(self.model_id, config=config).to(self.device)
         self.model.eval()
         logging.info("Domain classifier model loaded")
         # Tokenizer pinned to same revision
-        self.tokenizer = AutoTokenizer.from_pretrained(self.model_id, revision=revision)
+        self.tokenizer = AutoTokenizer.from_pretrained(self.model_id)
         logging.info("Tokenizer loaded")
         # Inference config
-        self.topk = max(1, int(args.topk))
-        self.minconf = float(args.minconf)
+        self.topk = 3
+        self.minconf = 0.5
         # Cache id2label once
         cfg = getattr(self.model, "config", None)
         if cfg is not None and hasattr(cfg, "id2label"):
