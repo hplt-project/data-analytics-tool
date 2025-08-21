@@ -14,6 +14,9 @@ JOBS=$(($JOBS>1 ? $JOBS : 1))
 JOBS_READCORPUS=$(($JOBS/3*2))
 
 GPU_BATCHSIZE=256
+GPU_BATCHSIZE_DL=64
+
+export PYTORCH_CUDA_ALLOC_CONF=${PYTORCH_CUDA_ALLOC_CONF:-expandable_segments:True}
 
 if [[ $* == *--no-cache* ]]
 then
@@ -462,11 +465,11 @@ elif [ "$langformat" == "mono" ]; then
                                 source /work/venvs/venv-rl/bin/activate
                                 echo "Running domain labels..."
                                 if [ "$extension" == "zst" ] || [ "$extension" == "zstd" ]; then
-                                        zstdcat $saved_file_path | python3 ./scripts/domainlabels.py --batchsize $GPU_BATCHSIZE > $tsv_file_path.dl
+                                        zstdcat $saved_file_path | python3 ./scripts/domainlabels.py --batchsize $GPU_BATCHSIZE_DL > $tsv_file_path.dl
                                 elif [ "$extension" == "parquet" ]; then
-                                        python3 scripts/deparquet.py $saved_file_path - | python3 ./scripts/domainlabels.py --batchsize $GPU_BATCHSIZE > $tsv_file_path.dl
+                                        python3 scripts/deparquet.py $saved_file_path - | python3 ./scripts/domainlabels.py --batchsize $GPU_BATCHSIZE_DL > $tsv_file_path.dl
                                 else
-                                        cat $saved_file_path | python3 ./scripts/domainlabels.py --batchsize $GPU_BATCHSIZE > $tsv_file_path.dl
+                                        cat $saved_file_path | python3 ./scripts/domainlabels.py --batchsize $GPU_BATCHSIZE_DL > $tsv_file_path.dl
                                 fi
                                 deactivate
                                 cat $tsv_file_path.dl | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | sort -nr > $tsv_file_path.dlcounts
