@@ -62,11 +62,15 @@ To run the pipeline, first configure a few variables on the execution script:
 
 After configuring the variables the script can be executed:
 ```
-./scripts/lumi/runstats-hq.sh <lang> <corpus_format> <corpus_name> <yaml_path> [input_files ...]
+./scripts/lumi/runstats-hq.sh <lang> <corpus_format> <corpus_name> <yaml_path> <work_dir> [input_files ...]
 ```
+the work directory will be the place where a temporary dir is created for every execution.
 ```
-./scripts/lumi/runstats-hq.sh fr hplt-v3 hplt-v3-fr output_yaml_hplt-v3-fr.yaml data/fra_Latn.*.jsonl.zst
+./scripts/lumi/runstats-hq.sh fr hplt-v3 hplt-v3-fr output_yaml_hplt-v3-fr.yaml path/to/large/disk data/fra_Latn.*.jsonl.zst
 ```
+Note that the script will block until the all jobs are finished to satisfy job dependency.
+However, multiple instances can run in parallel.
+You might want to run many instances in parallel, one for each dataset+language, on different TMUX or SCREEN tabs.
 
 ## Troubleshooting
 ### Logs
