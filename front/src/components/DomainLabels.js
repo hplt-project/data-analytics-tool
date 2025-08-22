@@ -22,13 +22,58 @@ function DomainLabels({ labels, footNote }) {
     labels = JSON5.parse(labels);
   }
 
+  // Short name mapping for legend and bar axis
+  const shortMap = {
+    "Adult": "ADL",
+    "Arts_and_Entertainment": "ART",
+    "Autos_and_Vehicles": "AUT",
+    "Beauty_and_Fitness": "BEA",
+    "Books_and_Literature": "LIT",
+    "Business_and_Industrial": "BIZ",
+    "Computers_and_Electronics": "TEC",
+    "Finance": "FIN",
+    "Food_and_Drink": "FNB",            // F&B = Food & Beverage
+    "Games": "GAM",
+    "Health": "HLT",
+    "Hobbies_and_Leisure": "HOB",
+    "Home_and_Garden": "HOM",
+    "Internet_and_Telecom": "ICT",
+    "Jobs_and_Education": "EDU",
+    "Law_and_Government": "LAW",
+    "News": "NWS",
+    "Online_Communities": "ONC",
+    "People_and_Society": "SOC",
+    "Pets_and_Animals": "PET",
+    "Real_Estate": "EST",
+    "Science": "SCI",
+    "Sensitive_Subjects": "SEN",
+    "Shopping": "SHP",
+    "Sports": "SPT",
+    "Travel_and_Transportation": "TRV",
+    "UNK": "UNK",
+    "Other": "OTH"
+  };
+  
+  const shortName = (name) => {
+    if (!name) return "";
+    if (shortMap[name]) return shortMap[name];
+    const acronym = name.replaceAll("_", " ").split(" ").filter(Boolean).map(w => w[0]).join("").toUpperCase();
+    return (acronym || name.replaceAll("_", "")).slice(0, 3).toUpperCase();
+  };
+
   // Sort and keep Top-10, aggregate the rest under "Other"
   const entriesSorted = Object.entries(labels)
     .map(([name, value]) => ({ name, value }))
     .sort((a, b) => b.value - a.value);
   const top10 = entriesSorted.slice(0, 10);
   const otherValue = entriesSorted.slice(10).reduce((sum, { value }) => sum + value, 0);
-  const entries = otherValue > 0 ? [...top10, { name: "Other", value: otherValue }] : top10;
+  let entries = otherValue > 0 ? [...top10, { name: "Other", value: otherValue }] : top10;
+  // Keep UNK as the very last bar if present (data otherwise sorted by value desc)
+  const unkIdx = entries.findIndex((e) => e.name === "UNK");
+  if (unkIdx !== -1) {
+    const [unk] = entries.splice(unkIdx, 1);
+    entries = [...entries, unk];
+  }
 
   const total = entries.reduce((sum, { value }) => sum + value, 0) || 1;
 
@@ -41,14 +86,16 @@ function DomainLabels({ labels, footNote }) {
   ];
   const withColors = entries.map((item, idx) => ({
     ...item,
+    shortName: shortName(item.name),
     fill: item.name === "Other" ? "#B0B3B8" : palette[idx % palette.length],
   }));
 
   const CustomTooltip = ({ active, payload, label }) => {
     if (active && payload && payload.length) {
+      const fullName = payload[0]?.payload?.name || label;
       return (
         <div className={styles.tooltip}>
-          <p className={styles.label}>{label}</p>
+          <p className={styles.label}>{fullName}</p>
           {payload.map((item, idx) => (
             <div style={{ marginTop: "4px", marginBottom: "4px" }} key={`domain-tooltip--${idx}`}>
               <p
@@ -77,7 +124,7 @@ function DomainLabels({ labels, footNote }) {
         {items.map((entry, index) => (
           <li key={`item-${index}`} style={{ display: "flex", alignItems: "center", color: "#1c1d2cff" }}>
             <div style={{ backgroundColor: entry.color, width: "12px", height: "12px", marginRight: "4px", borderRadius: "2px" }}></div>
-            {`${entry.value} - ${((entry.payload.value / total) * 100).toFixed(1)}%`}
+            {`${shortName(entry.value)} - ${(((entry.payload && entry.payload.value) || (entry.payload && entry.payload.payload && entry.payload.payload.value) || 0) / total * 100).toFixed(1)}%`}
           </li>
         ))}
       </ul>
@@ -130,6 +177,8 @@ function DomainLabels({ labels, footNote }) {
                     minAngle={1}
                     cx={"50%"}
                     outerRadius={115}
+                    label={(entry) => entry.name?.replaceAll("_", " ")}
+                    labelLine={false}
                   />
                   <RechartsTooltip content={<CustomTooltip />} />
                   <Legend
@@ -137,14 +186,7 @@ function DomainLabels({ labels, footNote }) {
                     verticalAlign="middle"
                     width={40}
                     align="right"
-                    formatter={(value, entry) => (
-                      <span
-                        className={styles.legendText}
-                        style={{ marginBottom: "4px", marginTop: "4px", marginLeft: "5px", display: "inline-block", color: "#1e1f2cff" }}
-                      >
-                        {`${value} - ${((entry.payload.value / total) * 100).toFixed(1)}%`}
-                      </span>
-                    )}
+                    content={renderLegend}
                   />
                 </PieChart>
               </ResponsiveContainer>
@@ -157,7 +199,7 @@ function DomainLabels({ labels, footNote }) {
                   legendType="circle"
                 >
                   <CartesianGrid strokeDasharray="3 3" />
-                  <XAxis dataKey="name" />
+                  <XAxis dataKey="shortName" />
                   <YAxis tickFormatter={DataFormatter} label={{ value: "Documents", angle: 0, position: "top", offset: 22, fontSize: 14 }} />
                   <RechartsTooltip content={<CustomTooltip />} wrapperStyle={{ outline: "none" }} />
                   <Bar dataKey="value">
