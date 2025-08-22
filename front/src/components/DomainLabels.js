@@ -1,9 +1,6 @@
 import {
-  PieChart,
-  Pie,
   ResponsiveContainer,
   Tooltip as RechartsTooltip,
-  Legend,
   BarChart,
   Bar,
   Cell,
@@ -61,13 +58,14 @@ function DomainLabels({ labels, footNote }) {
     return (acronym || name.replaceAll("_", "")).slice(0, 3).toUpperCase();
   };
 
-  // Sort and keep Top-10, aggregate the rest under "Other"
+  // Sort and keep Top-11, aggregate the rest under "Other"
   const entriesSorted = Object.entries(labels)
     .map(([name, value]) => ({ name, value }))
     .sort((a, b) => b.value - a.value);
-  const top10 = entriesSorted.slice(0, 10);
-  const otherValue = entriesSorted.slice(10).reduce((sum, { value }) => sum + value, 0);
-  let entries = otherValue > 0 ? [...top10, { name: "Other", value: otherValue }] : top10;
+  const top11 = entriesSorted.slice(0, 11);
+  const otherValue = entriesSorted.slice(11).reduce((sum, { value }) => sum + value, 0);
+  let entries = otherValue > 0 ? [...top11, { name: "Other", value: otherValue }] : top11;
+
   // Keep UNK as the very last bar if present (data otherwise sorted by value desc)
   const unkIdx = entries.findIndex((e) => e.name === "UNK");
   if (unkIdx !== -1) {
@@ -174,32 +172,7 @@ function DomainLabels({ labels, footNote }) {
             </InfoTooltip>
           </div>
           <div className={styles["domain-labels"]} style={{ marginBottom: "50px" }}>
-            <div className={styles["graph-cont"]}>
-              <ResponsiveContainer width={"100%"} height={"100%"}>
-                <PieChart>
-                  <Pie
-                    data={withColors}
-                    dataKey="value"
-                    nameKey="name"
-                    legendType="circle"
-                    paddingAngle={1}
-                    minAngle={1}
-                    cx={"50%"}
-                    outerRadius={115}
-                    label={false}
-                    labelLine={false}
-                  />
-                  <RechartsTooltip content={<CustomTooltip />} />
-                  <Legend
-                    layout="vertical"
-                    verticalAlign="middle"
-                    width={40}
-                    align="right"
-                    content={renderLegend}
-                  />
-                </PieChart>
-              </ResponsiveContainer>
-            </div>
+
             <div className={styles["graph-cont-bars"]}>
               <ResponsiveContainer width={"100%"} height={"100%"}>
                 <BarChart
@@ -218,6 +191,9 @@ function DomainLabels({ labels, footNote }) {
                   </Bar>
                 </BarChart>
               </ResponsiveContainer>
+
+              {renderLegend()}
+
             </div>
           </div>
         </div>
