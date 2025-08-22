@@ -2,17 +2,27 @@
 set -euo pipefail
 
 
-lang=ast
-work_dir=$(pwd -P)/data/work
-format=hplt
-corpusname=hplt-v2
-log_dir=./logs
-input_files=$(ls data/asts_?.jsonl.zst)
+lang=$1
+format=$2
+corpusname=$3
+yaml_file_path=$4
+work_dir=$5
+input_files=${@:6}
 
-mkdir -p $log_dir $work_dir
-yaml_file_path=$(pwd -P)/data/$lang-$corpusname.yml
+input_files=$(realpath $input_files)
+work_dir=$(realpath $work_dir)
+yaml_file_path=$(realpath $yaml_file_path)
+
+log_dir=./logs
+sort_tmp=/tmp
+node_mem=224000
+mem_per_cpu=1750
+DEBUGFLAG=true
+
+work_dir=$(mktemp -dp $work_dir)
+echo "Running on $work_dir"
+mkdir -p $log_dir $sort_tmp
 input_dir=$(dirname $input_files | head -1)
-input_dir=$(realpath $input_dir)
 jobname=$lang-$format
 
 # print singularity command with profiling
@@ -23,7 +33,7 @@ cat <<EOF
 command = [
 "/usr/bin/time", "-v",
 "singularity", "exec", "-B", "data-analytics-tool/scripts:/work/scripts",
-"-B", "$input_dir",
+"-B", "$input_dir", "-B",  "$work_dir",
 "data-analytics-tool/data-analytics.sif",
 "/work/scripts/lumi/02.reduce.sh", "$task"]
 EOF
@@ -33,7 +43,7 @@ EOF
 # print the env variables for the reduce yml taskfile
 reduce-env() {
 cat <<EOF
-env = { "INPUT_FILES" = "$(echo $input_files)", "SRCLANG" = "$lang", "OUT_DIR" = "$work_dir"}
+env = { "INPUT_FILES" = "$(echo $input_files)", "SRCLANG" = "$lang", "OUT_DIR" = "$work_dir", "TMPDIR" = "$sort_tmp" }
 EOF
 }
 
@@ -62,7 +72,8 @@ task_cpus=(
 jobfile=$log_dir/jobfile-reduce-$jobname.toml
 cat >$jobfile << EOF
 name = "reduce-$jobname"
-stream = "./logs"
+stream = "$log_dir"
+max_fails = 0
 EOF
 
 # print each task entry of job definition file
@@ -73,8 +84,15 @@ do
     echo "id = $task_id"
     singularity-command $task
     reduce-env
+    echo "crash_limit = 1"
     echo "[[task.request]]"
-    echo "resources = { "cpus" = \"${task_cpus[$task]}\" }"
+    cpus=${task_cpus[$task]}
+    if [ "$cpus" == "all" ]; then
+        echo "resources = { \"cpus\" = \"$cpus\", \"mem\" = \"$node_mem\" }"
+    else
+        mem=$((cpus*mem_per_cpu))
+        echo "resources = { \"cpus\" = \"$cpus\", \"mem\" = \"$mem\" }"
+    fi
     let task_id++
 done >>$jobfile
 
@@ -83,12 +101,13 @@ trap "hq job cancel all; exit 1" INT
 # Run map tasks
 echo "##### Map #####" >&2
 hq submit --progress --name map-$jobname \
-    --max-fails=0 --stream=$log_dir \
+    --max-fails=0 --crash-limit=1 \
+    --stream=$log_dir \
     --each-line <(ls -1 $input_files) \
     --cpus all --env OUT_DIR=$work_dir \
     singularity exec \
         -B data-analytics-tool/scripts:/work/scripts \
-        -B $input_dir \
+        -B $input_dir -B $work_dir \
         data-analytics-tool/data-analytics.sif \
         /work/scripts/lumi/01.map.sh $lang $format
 
@@ -102,15 +121,20 @@ if [ $? -ne 0 ]; then
 fi
 set -e
 job_id=$(echo $submit_out | jq -r .id)
-echo "Job submitted successfully, job ID: job_id" >&2
+echo "Job submitted successfully, job ID: $job_id" >&2
 hq job progress $job_id
 
 echo "##### Creating yaml #####" >&2
 hq submit --progress --name yaml-$jobname \
-    --max-fails 0 --stream=$log_dir \
+    --max-fails 0 --crash-limit=1 \
+    --stream=$log_dir \
     --resource "cpus=2" --resource "mem=4000" \
     /usr/bin/time -v singularity exec \
         -B data-analytics-tool/scripts:/work/scripts \
-        -B $input_dir \
+        -B $input_dir -B $work_dir \
         data-analytics-tool/data-analytics.sif \
         /work/scripts/lumi/03.write_yaml.sh $yaml_file_path $lang $corpusname $work_dir/reduce
+
+if [ "$DEBUGFLAG" = false ]; then
+    rm -rf $work_dir
+fi

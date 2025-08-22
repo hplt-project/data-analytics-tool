@@ -1,9 +1,18 @@
 #!/bin/bash
-if [ -z "${HQ_CPUS+x}" ]; then
+if [ ! -z "${HQ_CPUS+x}" ]; then
     JOBS=$(echo $HQ_CPUS | tr -cd ',' | wc -c)
 else
     JOBS=$(nproc)
 fi
+SORT_MEM="-S 80%"
+if [ ! -z "${HQ_RESOURCE_REQUEST_mem+x}" ]; then
+    # If HQ has a specified requested mem, use it
+    # otherwise sort will use all node available mem
+    # which may be higher than the slurm requested mem and be killed by OOM
+    hq_mem=$(echo "print(int(${HQ_RESOURCE_REQUEST_mem% *}*0.5))" | python3)
+    SORT_MEM="-S ${hq_mem}M"
+fi
+export SORT_MEM
 set -euo pipefail
 
 reduce_hardrules() {
@@ -23,7 +32,7 @@ reduce_doc_volumes() {
 reduce_doc_sents() {
     cut -f 1 \
     | grep '[0-9]' \
-    | LC_ALL=C sort -S 80% --compress-program=zstd --parallel=$JOBS \
+    | LC_ALL=C sort $SORT_MEM --compress-program=zstd --parallel=$JOBS \
     | uniq -c \
     | awk -F " " '{sum[$2]+=$1;} END {for (key in sum) {print sum[key], key}}' \
     || {
@@ -35,7 +44,7 @@ reduce_doc_sents() {
 reduce_doc_wds() {
     cut -f 2 \
     | grep -v '^[[:blank:]]*$' \
-    | LC_ALL=C sort -S 80% --compress-program=zstd --parallel $JOBS \
+    | LC_ALL=C sort $SORT_MEM --compress-program=zstd --parallel $JOBS \
     | uniq -c \
     || {
         echo "Error in pipeline: ${PIPESTATUS[@]}" >&2
@@ -45,7 +54,7 @@ reduce_doc_wds() {
 reduce_doc_doclangs() {
     cut -f 3 \
     | grep -v '^[[:blank:]]*$' \
-    | LC_ALL=C sort -S 80% --compress-program=zstd --parallel $JOBS \
+    | LC_ALL=C sort $SORT_MEM --compress-program=zstd --parallel $JOBS \
     | uniq -c \
     || {
         echo "Error in pipeline: ${PIPESTATUS[@]}" >&2
@@ -56,7 +65,7 @@ reduce_doc_doclangs() {
 reduce_doc_collections() {
     cut -f4 \
     | grep -v '^[[:blank:]]*$' \
-    | LC_ALL=C sort -S 80% --compress-program=zstd --parallel $JOBS \
+    | LC_ALL=C sort $SORT_MEM --compress-program=zstd --parallel $JOBS \
     | uniq -c \
     | sort -nr \
     || {
@@ -68,9 +77,9 @@ reduce_doc_collections() {
 reduce_doc_domains() {
     cut -f 5 \
     | grep -v '^[[:blank:]]*$' \
-    | LC_ALL=C sort -S 80% --compress-program=zstd --parallel $JOBS \
+    | LC_ALL=C sort $SORT_MEM --compress-program=zstd --parallel $JOBS \
     | uniq -c \
-    | LC_ALL=C sort -nr -S 80% --compress-program=zstd --parallel $JOBS \
+    | LC_ALL=C sort -nr $SORT_MEM --compress-program=zstd --parallel $JOBS \
     | awk 'NR <= 101' \
     || {
         echo "Error in pipeline: ${PIPESTATUS[@]}" >&2
@@ -81,9 +90,9 @@ reduce_doc_domains() {
 reduce_doc_tlds() {
     cut -f 6 \
     | grep -v '^[[:blank:]]*$' \
-    | LC_ALL=C sort -S 80% --compress-program=zstd --parallel $JOBS \
+    | LC_ALL=C sort $SORT_MEM --compress-program=zstd --parallel $JOBS \
     | uniq -c \
-    | LC_ALL=C sort -nr -S 80% --compress-program=zstd --parallel $JOBS \
+    | LC_ALL=C sort -nr $SORT_MEM --compress-program=zstd --parallel $JOBS \
     | awk 'NR <= 101' \
     || {
         echo "Error in pipeline: ${PIPESTATUS[@]}" >&2
@@ -92,7 +101,7 @@ reduce_doc_tlds() {
 }
 
 reduce_segs_langs() {
-    LC_ALL=C sort --parallel $JOBS -S 80% --compress-program=zstd \
+    LC_ALL=C sort --parallel $JOBS $SORT_MEM --compress-program=zstd \
     | uniq -c \
     | sort -nr \
     || {
@@ -115,7 +124,7 @@ reduce_segs_volumes() {
 
 reduce_segs_unique() {
     cut -f 5 \
-    | LC_ALL=C sort -S 80% --compress-program=zstd --parallel $JOBS \
+    | LC_ALL=C sort $SORT_MEM --compress-program=zstd --parallel $JOBS \
     | uniq -c \
     | wc -l \
     || {
@@ -127,7 +136,7 @@ reduce_segs_unique() {
 reduce_segs_tokens() {
     cut -f 1,5 \
     | grep '[0-9]' \
-    | LC_ALL=C sort -S 80% --compress-program=zstd --parallel $JOBS \
+    | LC_ALL=C sort $SORT_MEM --compress-program=zstd --parallel $JOBS \
     | uniq -c \
     | awk -F " " '{sum[$2]+=$1; uni[$2]+=1} END {for (key in sum) {print key, sum[key], uni[key]}}' \
     | sort -n
@@ -137,9 +146,9 @@ reduce_ngrams() {
     local order=$1
     local column=$((5+order))
     cut -f$column \
-    | LC_ALL=C sort -S 80% --compress-program=zstd --parallel $JOBS \
+    | LC_ALL=C sort $SORT_MEM --compress-program=zstd --parallel $JOBS \
     | uniq -c \
-    | LC_ALL=C sort -nr -S 80% --compress-program=zstd --parallel $JOBS \
+    | LC_ALL=C sort -nr $SORT_MEM --compress-program=zstd --parallel $JOBS \
     | awk 'NR <= 6' \
     | awk -v order=$order 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"order}' \
     || {
@@ -254,8 +263,10 @@ reduce_task=$1
 choose_task $reduce_task
 
 echo "Running task $TASK_FUNC $TASK_PARAMS" >&2
+echo "Using $JOBS cpus and $SORT_MEM mem" >&2
+
 for filename in $INPUT_FILES; do
-    cat $filename$INPUT_SUFFIX
+    cat $OUT_DIR/$(basename $filename)$INPUT_SUFFIX
 done \
 | zstdcat \
 | "$TASK_FUNC" "$TASK_PARAMS" \

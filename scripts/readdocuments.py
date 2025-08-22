@@ -25,7 +25,7 @@ def initialization():
     # Optionals
     groupO = parser.add_argument_group("Optional")
     groupO.add_argument('--langs', type=argparse.FileType('wt'), help="Save sentence languages in this file.")
-    groupO.add_argument('--format', type=str, help="Document format.", choices=["hplt", "nemotron", "fineweb"])
+    groupO.add_argument('--format', type=str, help="Document format.", choices=["hplt", "hplt-v3", "nemotron", "fineweb"])
     
     # Logging group
     groupL = parser.add_argument_group('Logging')
@@ -49,12 +49,15 @@ def main():
     wds_field=None
 
 
-    if args.format == "hplt":
+    if args.format.startswith("hplt"):
         text_field="text"
         seglangs_field="seg_langs"
         url_field="u"
-        collection_field="collection"
         wds_field="doc_scores"
+        if args.format == "hplt-v3":
+            collection_field="crawl_id"
+        else:
+            collection_field="collection"
     elif args.format=="nemotron":
         text_field="text"        
         url_field="url"
