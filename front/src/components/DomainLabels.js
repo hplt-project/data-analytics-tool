@@ -22,9 +22,13 @@ function DomainLabels({ labels, footNote }) {
     labels = JSON5.parse(labels);
   }
 
-  const entries = Object.entries(labels)
+  // Sort and keep Top-10, aggregate the rest under "Other"
+  const entriesSorted = Object.entries(labels)
     .map(([name, value]) => ({ name, value }))
     .sort((a, b) => b.value - a.value);
+  const top10 = entriesSorted.slice(0, 10);
+  const otherValue = entriesSorted.slice(10).reduce((sum, { value }) => sum + value, 0);
+  const entries = otherValue > 0 ? [...top10, { name: "Other", value: otherValue }] : top10;
 
   const total = entries.reduce((sum, { value }) => sum + value, 0) || 1;
 
@@ -37,7 +41,7 @@ function DomainLabels({ labels, footNote }) {
   ];
   const withColors = entries.map((item, idx) => ({
     ...item,
-    fill: palette[idx % palette.length],
+    fill: item.name === "Other" ? "#B0B3B8" : palette[idx % palette.length],
   }));
 
   const CustomTooltip = ({ active, payload, label }) => {
@@ -113,7 +117,7 @@ function DomainLabels({ labels, footNote }) {
               </p>
             </InfoTooltip>
           </div>
-          <div className={styles["domain-labels"]}>
+          <div className={styles["domain-labels"]} style={{ marginBottom: "50px" }}>
             <div className={styles["graph-cont"]}>
               <ResponsiveContainer width={"100%"} height={"100%"}>
                 <PieChart>
