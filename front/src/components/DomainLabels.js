@@ -103,7 +103,15 @@ function DomainLabels({ labels, footNote }) {
                 style={{ color: "#222222", display: "flex", alignItems: "center" }}
               >
                 <div
-                  style={{ height: "12px", width: "12px", backgroundColor: item.fill, marginRight: "4px" }}
+                  style={{
+                    height: "12px",
+                    width: "12px",
+                    backgroundColor:
+                      // Robustly resolve color both for Pie and Bar tooltips
+                      item.fill || item.color || item.payload?.fill || item.payload?.payload?.fill || "#8884d8",
+                    marginRight: "4px",
+                    borderRadius: "2px",
+                  }}
                 ></div>
                 {`${numberFormatter(item.value)} (${((item.value / total) * 100).toFixed(1)}%)`}
               </p>
@@ -115,16 +123,17 @@ function DomainLabels({ labels, footNote }) {
     return null;
   };
 
-  const renderLegend = (props) => {
-    const { payload } = props;
-    const firstColumn = payload.slice(0, Math.ceil(payload.length / 2));
-    const secondColumn = payload.slice(Math.ceil(payload.length / 2));
+  const renderLegend = () => {
+    const items = withColors;
+    const splitIndex = Math.ceil(items.length / 2);
+    const firstColumn = items.slice(0, splitIndex);
+    const secondColumn = items.slice(splitIndex);
     const LegendList = ({ items }) => (
       <ul className={styles.legendListStacked}>
         {items.map((entry, index) => (
           <li key={`item-${index}`} style={{ display: "flex", alignItems: "center", color: "#1c1d2cff" }}>
-            <div style={{ backgroundColor: entry.color, width: "12px", height: "12px", marginRight: "4px", borderRadius: "2px" }}></div>
-            {`${shortName(entry.value)} - ${(((entry.payload && entry.payload.value) || (entry.payload && entry.payload.payload && entry.payload.payload.value) || 0) / total * 100).toFixed(1)}%`}
+            <div style={{ backgroundColor: entry.fill, width: "12px", height: "12px", marginRight: "4px", borderRadius: "2px" }}></div>
+            {`${shortName(entry.name)} - ${((entry.value / total) * 100).toFixed(1)}%`}
           </li>
         ))}
       </ul>
@@ -177,7 +186,7 @@ function DomainLabels({ labels, footNote }) {
                     minAngle={1}
                     cx={"50%"}
                     outerRadius={115}
-                    label={(entry) => entry.name?.replaceAll("_", " ")}
+                    label={false}
                     labelLine={false}
                   />
                   <RechartsTooltip content={<CustomTooltip />} />
