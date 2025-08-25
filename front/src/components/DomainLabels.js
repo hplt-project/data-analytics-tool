@@ -7,6 +7,7 @@ import {
   XAxis,
   YAxis,
   CartesianGrid,
+  LabelList
 } from "recharts";
 import styles from "@/styles/DomainLabels.module.css";
 import { DataFormatter, numberFormatter } from "@/lib/helpers";
@@ -50,7 +51,7 @@ function DomainLabels({ labels, footNote }) {
     "UNK": "UNK",
     "Other": "OTH"
   };
-  
+
   const shortName = (name) => {
     if (!name) return "";
     if (shortMap[name]) return shortMap[name];
@@ -111,7 +112,7 @@ function DomainLabels({ labels, footNote }) {
                     borderRadius: "2px",
                   }}
                 ></div>
-                {`${numberFormatter(item.value)} (${((item.value / total) * 100).toFixed(1)}%)`}
+                {`${numberFormatter(item.value)} documents`}{" "} (<span style={{ fontWeight: 600 }}>{((item.value / total) * 100).toFixed(1)}%</span>)
               </p>
             </div>
           ))}
@@ -124,8 +125,8 @@ function DomainLabels({ labels, footNote }) {
   const renderLegend = () => {
     const items = withColors;
     const splitIndex = Math.ceil(items.length / 2);
-    const firstColumn = items.slice(0, splitIndex);
-    const secondColumn = items.slice(splitIndex);
+    // const firstColumn = items.slice(0, splitIndex);
+    // const secondColumn = items.slice(splitIndex);
     const LegendList = ({ items }) => (
       <ul className={styles.legendListStacked}>
         {items.map((entry, index) => (
@@ -138,9 +139,9 @@ function DomainLabels({ labels, footNote }) {
     );
     return (
       <div className={styles.labellist}>
-        <div style={{ display: "flex" }}>
-          <LegendList items={firstColumn} />
-          <LegendList items={secondColumn} />
+        <div>
+          <LegendList items={items} />
+          {/* <LegendList items={secondColumn} /> */}
         </div>
       </div>
     );
@@ -149,7 +150,7 @@ function DomainLabels({ labels, footNote }) {
   return (
     <>
       {withColors && (
-        <div className="custom-chart">
+        <div >
           <div className={styles.title}>
             <h2>Domain labels</h2>
             <a className="domain-labels-graph">
@@ -174,7 +175,7 @@ function DomainLabels({ labels, footNote }) {
           <div className={styles["domain-labels"]} style={{ marginBottom: "50px" }}>
 
             <div className={styles["graph-cont-bars"]}>
-              <ResponsiveContainer width={"100%"} height={"100%"}>
+              <ResponsiveContainer width={"85%"} height={"100%"}>
                 <BarChart
                   data={withColors}
                   margin={{ top: 42, right: 20, left: 10, bottom: 25 }}
@@ -189,9 +190,18 @@ function DomainLabels({ labels, footNote }) {
                       <Cell key={`cell-${index}`} fill={entry.fill} />
                     ))}
                   </Bar>
+                  {/* <LabelList
+                    dataKey={(val) =>
+                      console.log(val)
+                    }
+                    fill="#244446ff"
+                    position="top"
+                    fontWeight={800}
+                    fontSize={11}
+                  /> */}
                 </BarChart>
-              </ResponsiveContainer>
 
+              </ResponsiveContainer>
               {renderLegend()}
 
             </div>
