@@ -37,7 +37,7 @@ Being:
 * YAML_FILENAME: The path and filename the resulting stats yaml will have.
 * SOURCE_LANGUAGE: Source language code (2-letters, ISO 639-1)
 * TARGET_LANGUAGE: Target language code (2-letters, ISO 639-1), or `-` for monolingual.
-* FORMAT: File format. Currently accepted values are `bitext`, `tmx`, `tsv`, `hplt`, `nemotron` and  `fineweb`. The last 3 are intender for full documents, in [HPLT v2](https://hplt-project.org/datasets/v2.0), [NemotronCC](https://data.commoncrawl.org/contrib/Nemotron/Nemotron-CC/index.html) or [FineWeb-2](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2) formats (jsonl with different key names).
+* FORMAT: File format. Currently accepted values are `bitext`, `tmx`, `tsv`, `hplt2`, `hplt3`, `nemotron`, `madlad` and  `fineweb`. The last 5 are intended for full documents, in [HPLT v2](https://hplt-project.org/datasets/v2.0), [HPLT v3](https://hplt-project.org/datasets/v3.0),  [NemotronCC](https://data.commoncrawl.org/contrib/Nemotron/Nemotron-CC/index.html), [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) or [FineWeb-2](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2) formats (jsonl with different key names).
 * LANGUAGE_FORMAT: Currently accepted values are `parallel` and `mono`.
 
 With the optional flags being:
