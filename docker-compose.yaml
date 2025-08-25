@@ -8,12 +8,14 @@ services:
             dockerfile: Dockerfile
         environment:
             - datapath=/work/models
+            - HF_HOME=/work/hf_cache
         networks:
             - dat-network
         volumes:
             - dat-yaml-volume:/work/yaml_dir
             - dat-corpora-volume:/work/uploaded_corpora
             - dat-workdir-volume:/work/transient #this is the workdir where intermediate files will sit, you want this to have plenty of disk space
+            - dat-hfcache-volume:/work/hf_cache
         ports:
             - "5000:8000"
     dat-front:
@@ -46,6 +48,12 @@ volumes:
         driver: local
         driver_opts: 
             device: ./transient
+            o: bind
+            type: local
+    dat-hfcache-volume:
+        driver: local
+        driver_opts:
+            device: ./hf_cache
             o: bind
             type: local
 networks:
