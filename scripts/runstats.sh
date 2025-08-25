@@ -35,7 +35,7 @@ else
         SKIPRLFLAG=false
 fi
 
-if [[ $* == *--skip-domain-labels* ]] || [[ $* == *--no-domain-labels* ]]
+if [[ $* == *--skip-domain-labels* ]] 
 then
         SKIPDLFLAG=true
 else
