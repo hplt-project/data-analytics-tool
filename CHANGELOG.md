@@ -1,3 +1,7 @@
+v1.2:
+- Support for  HPLTv3 documents.
+- Bump requeriments.
+
 v1.1:
 - Sample extraction is now integrated in stats processing, and samples now are included in resulting yaml files.
 - Added support for Fineweb, Nemotron-CC and MADLAD datasets.
