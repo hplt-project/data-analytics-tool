@@ -1,5 +1,6 @@
 v1.2:
 - Support for  HPLTv3 documents.
+- New feature : Domain labels (https://huggingface.co/nvidia/multilingual-domain-classifier)
 - Bump requeriments.
 
 v1.1:
