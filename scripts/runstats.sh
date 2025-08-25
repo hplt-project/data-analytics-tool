@@ -50,7 +50,7 @@ else
 fi
 
 
-if [ "$format" = "hplt" ] || [ "$format" = "nemotron" ] || [ "$format" = "fineweb" ] || [ "$format" = "madlad" ]; then
+if [ "$format" = "hplt2" ] || [ "$format" = "hplt3" ] || [ "$format" = "nemotron" ] || [ "$format" = "fineweb" ] || [ "$format" = "madlad" ]; then
 	DOCS=true
 else
 	DOCS=false

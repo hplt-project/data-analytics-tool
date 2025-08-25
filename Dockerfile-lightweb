@@ -29,7 +29,6 @@ RUN python3.10 -m pip install -U pip  && \
 RUN python3.10 -m pip install -r /work/deployment/requirements-lightweb.txt
    
 COPY *.html /work/
-COPY favicon.ico /work/
 COPY img/ /work/img/
 COPY server.py /work/
 COPY scripts/ /work/scripts/
