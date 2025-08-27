@@ -441,20 +441,45 @@ elif [ "$langformat" == "mono" ]; then
 		fi
 						
 		#Register labels
-		if [ "$SKIPRLFLAG" = false ]; then		
-		        if [[ " ${registerlabels_langs[*]} " =~ " $srclang " ]]; then	        
-		        	source /work/venvs/venv-rl/bin/activate
+		if [ "$SKIPRLFLAG" = false ]; then
+			source /work/venvs/venv-rl/bin/activate	
+			reused=false		
+			if [ "$format" = "hplt3" ] ; then				
+				if [ "$extension" == "zst" ] || [ "$extension" == "zstd" ]; then
+					wr=$(zstdcat $saved_file_path | head -n 1 | jq '."web-register"' -c)
+					if [ $wr = null ]; then 
+						reused=false
+					else
+						echo "Reusing register labels..."
+	                                        zstdcat $saved_file_path | jq '."web-register"' -c | python3 ./scripts/reuse-registerlabels.py  > $tsv_file_path.rl
+	                                        cat $tsv_file_path.rl | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.rlcounts
+	                                        reused=true
+	                                fi
+                                else
+                                	wr=$(cat $saved_file_path | head -n 1 | jq '."web-register"' -c)
+                                	if [ $wr = null ]; then
+                                		reused=false
+                                	else
+                                		echo "Reusing register labels..."
+	                                        cat $saved_file_path | jq '."web-register"' -c | python3 ./scripts/reuse-registerlabels.py  > $tsv_file_path.rl
+	                                        cat $tsv_file_path.rl | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.rlcounts
+	                                        reused=true
+	                              	fi
+                                fi
+                        fi
+				
+		        if [ "$reused" = false ] && [[ " ${registerlabels_langs[*]} " =~ " $srclang " ]]; then	        
 		        	echo "Running register labels..."   	
 		        	if [ "$extension" == "zst" ] || [ "$extension" == "zstd" ]; then
 					zstdcat $saved_file_path | python3 ./scripts/registerlabels.py --batchsize $GPU_BATCHSIZE  > $tsv_file_path.rl
 				else
 					cat $saved_file_path | python3 ./scripts/registerlabels.py  --batchsize $GPU_BATCHSIZE> $tsv_file_path.rl
 				fi
-				deactivate
 			        cat $tsv_file_path.rl | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.rlcounts
 		        else
-        			echo "Register labels not supported for $srclang"
+        			echo "Register labels not supported for $srclang  (or already reused)"
 		        fi
+			deactivate
                 else
                         echo "Skipping register labels"
                 fi
