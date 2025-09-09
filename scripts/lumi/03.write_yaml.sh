@@ -58,3 +58,7 @@ fi
 #Ngrams
 cat $filename.{one,two,three,four,five}grams >$filename.ngrams
 python3 /work/scripts/reduce/addngrams.py $filename".ngrams"  $yaml_file_path "src"
+
+if [ "$DEBUGFLAG" = false ]; then
+    rm -rf $OUT_DIR/*
+fi
