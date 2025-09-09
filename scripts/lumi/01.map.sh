@@ -4,9 +4,9 @@ set -euo pipefail
 #IN:  a zstd file, a language code
 #OUT: a tsv ,  a docproc and a proc files
 
-inputfile=$HQ_ENTRY
 srclang=$1
 format=$2
+inputfile=$3
 outfile="$OUT_DIR/$(basename $inputfile)"
 
 if [ -z "${HQ_CPUS+x}" ]; then
