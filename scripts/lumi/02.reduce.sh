@@ -9,7 +9,7 @@ if [ ! -z "${HQ_RESOURCE_REQUEST_mem+x}" ]; then
     # If HQ has a specified requested mem, use it
     # otherwise sort will use all node available mem
     # which may be higher than the slurm requested mem and be killed by OOM
-    hq_mem=$(echo "print(int(${HQ_RESOURCE_REQUEST_mem% *}*0.5))" | python3)
+    hq_mem=$(echo "print(int(${HQ_RESOURCE_REQUEST_mem% *}*0.8))" | python3)
     SORT_MEM="-S ${hq_mem}M"
 fi
 export SORT_MEM
@@ -145,9 +145,16 @@ reduce_segs_tokens() {
 reduce_ngrams() {
     local order=$1
     local column=$((5+order))
+    local sorted_ngrams=$(mktemp)
+    trap "rm -f $sorted_ngrams" EXIT
+
     cut -f$column \
     | LC_ALL=C sort $SORT_MEM --compress-program=zstd --parallel $JOBS \
     | uniq -c \
+    | zstdmt \
+    >$sorted_ngrams
+
+    zstdcat $sorted_ngrams \
     | LC_ALL=C sort -nr $SORT_MEM --compress-program=zstd --parallel $JOBS \
     | awk 'NR <= 6' \
     | awk -v order=$order 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"order}' \
