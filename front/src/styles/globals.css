@@ -6,7 +6,14 @@
   transition: all 0.25s;
 }
 
+
+
 :root {
+  --card-bg: #ffffff;
+  --text-main: #0f172a;
+  --text-muted: #64748b;
+  --radius: 1rem;
+  --shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
   --main-background: white;
   --navbar-background: white;
   --banner-background: #eee8ff;
@@ -33,7 +40,7 @@
   --secondary-button-background: #f4f5f7;
   --corpus-link: #363ecd;
   --slider: rgb(79, 69, 140);
-  --graph-axis-text: #43467a;
+  --graph-axis-text: #363755;
   --desc-link-color: rgb(27, 117, 168);
   --tooltip-link: rgb(50, 175, 247);
   --one-ngram-light: #37610eb8;
@@ -52,6 +59,26 @@
   --sample-box-compare: #f4f5f7;
   --compare-border: 1px solid rgb(241, 238, 243);
   --dropdown-border: 1px solid #d4caf4;
+  /* -------------------------------------------------
+   Default colour tokens for the n-gram table
+   (add before any styles that reference them)
+-------------------------------------------------- */
+  /* Neutral greys */
+  --border-light: #e4e7ec;
+  /* light border lines              */
+  --text-muted: #475467;
+  /* header text / subtle labels      */
+
+  /* Backgrounds */
+  --header-bg: #f9fafb;
+  /* table header                    */
+  --row-alt: #fbfcfd;
+  /* zebra stripe (odd rows)         */
+  --row-hover: #f1f5f9;
+  /* hover background                */
+  --table-main: #ffffff;
+  /* main table fill (already used)  */
+
 }
 
 [data-theme="dark"] {
@@ -81,7 +108,7 @@
   --corpus-link: #545bd6;
   --slider: white;
   --graph-axis-text: #c2c5ff;
-  --desc-link-color: rgb(36, 170, 247);
+  --desc-link-color: #24aaf7;
   --one-ngram-light: #e1ffc2b8;
   --two-ngram-light: #fdb6b6e2;
   --three-ngram-light: #cbf0ffed;
@@ -100,8 +127,6 @@
   --dropdown-border: 1px solid #413761;
 }
 
-/* React widtgets dropdownlist customisation */
-
 .rw-widget-input,
 .rw-popup {
   background-color: var(--input-background-color);
@@ -109,10 +134,6 @@
   border: var(--dropdown-border);
 }
 
-/* .rw-dropdown, .rw-widget{
-  position: static !important;
-
-} */
 .rw-list-option {
   color: var(--main-copy);
   border: none;
@@ -141,10 +162,6 @@
   fill: var(--input-background-color);
 }
 
-.weirdTest .recharts-brush rect {
-  fill: red;
-}
-
 .recharts-brush .recharts-brush-slide {
   fill: var(--slider);
 }
@@ -155,7 +172,7 @@
 }
 
 .recharts-default-legend li {
-  margin: 4px 0;
-  width: 200px;
+  margin: 8px 0;
   line-height: 1.2;
+  min-width: 240px;
 }

@@ -1,10 +1,28 @@
-.noiseDistributionGraphContainer {
-  height: 310px;
-  z-index: 300;
+.container {
+  height: 290px;
+  margin-top: 15px;
 }
 
-.recharts-brush rect {
-  fill: red;
+.title {
+  display: flex;
+}
+
+.tooltipLink {
+  color: var(--tooltip-link);
+  text-decoration: none;
+}
+
+.tooltip {
+  background-color: white;
+  border: solid 1px rgb(199, 199, 199);
+  padding: 15px 35px 15px 15px;
+  border-radius: 5px;
+}
+
+.label {
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 16px;
 }
 
 @media (max-width: 768px) {

@@ -17,6 +17,7 @@ RUN mkdir -p /work/yaml_dir/
 RUN mkdir -p /work/tests/
 
 RUN mkdir -p /work/venvs/
+RUN mkdir -p /work/hf_cache/
 
 #TO DO: uploaded_corpora and yaml_dir should be volumes
 
@@ -31,6 +32,7 @@ RUN apt-get update && \
     
 RUN curl https://sh.rustup.rs -sSf | bash -s -- -y --default-toolchain=1.77.2
 ENV PATH="/root/.cargo/bin:${PATH}"
+ENV HF_HOME=/work/hf_cache
 
     
 RUN python3.10 -m pip install -U pip  && \
@@ -46,7 +48,7 @@ RUN python3.10 -m venv /work/venvs/venv-rl
 
 RUN cd /work && git clone https://github.com/ZJaume/tmxt && git clone https://github.com/kpu/preprocess && cd
 RUN cd /work/preprocess &&  rm -fr build &&  mkdir build && cd build  && cmake .. && make && cd
-RUN cd /work && git clone https://github.com/pablop16n/web-docs-scorer && cd web-docs-scorer && git checkout tags/1.1.2 && python3.10 -m pip install .
+RUN cd /work && git clone https://github.com/pablop16n/web-docs-scorer && cd web-docs-scorer && git checkout tags/1.2.0 && python3.10 -m pip install .
 RUN cd /work && git clone -b openlid193 https://github.com/zjaume/heli-otr.git && cd heli-otr  && python3 -m  pip install .  && heli-convert 
 
 
@@ -100,6 +102,7 @@ RUN . /work/venvs/venv-rl/bin/activate && \
 
 RUN . /work/venvs/venv-rl/bin/activate &&   huggingface-cli download TurkuNLP/web-register-classification-multilingual
 RUN . /work/venvs/venv-rl/bin/activate &&   huggingface-cli download FacebookAI/xlm-roberta-large
+RUN . /work/venvs/venv-rl/bin/activate &&   huggingface-cli download nvidia/multilingual-domain-classifier
 
 
 
@@ -109,9 +112,6 @@ RUN python3.10 -m pip install git+https://github.com/MSeal/cython_hunspell@2.0.3
   
 
 
-COPY *.html /work/
-COPY favicon.ico /work/
-COPY img/ /work/img/
 COPY server.py /work/
 COPY scripts/ /work/scripts/
 COPY tests/ /work/tests/

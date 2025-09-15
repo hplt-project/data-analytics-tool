@@ -1,4 +1,4 @@
-import DataAnalyticsReport from "@/components/DataAnalyticsReport";
+import Report from "@/components/Report";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { useRouter } from "next/router";
@@ -6,8 +6,9 @@ import { DropdownList } from "react-widgets";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
 import { Oval } from "react-loader-spinner";
+import { languagePairName, multipleFilter, replaceStringsCaseInsensitive, removalWords } from "@/lib/helpers";
 
-import { languagePairName, multipleFilter } from "../../../hooks/hooks";
+import pillStyles from "@/styles/NGramsTable.module.css";
 
 import styles from "@/styles/Home.module.css";
 
@@ -36,7 +37,7 @@ export default function Home({ fileNames }) {
         setStatus("IDLE");
       }
 
-      setReport(statsData.stats);
+      setReport(statsData.report);
       setDate(statsData.date);
     } catch (error) {
       setStatus("FAILED");
@@ -70,25 +71,27 @@ export default function Home({ fileNames }) {
                 <strong>
                   {Array.isArray(item.language) && item.language.length > 1
                     ? `${item.language[0].label} - ${item.language[1].label}`
-                    : item.originalName}{" "}
+                    : item.originalName.replace(".yaml", "")}{" "}
                 </strong>
-                <span className={styles.version}>
-                  {item.originalName.includes("v1.1")
-                    ? "Version 1.1"
-                    : item.originalName.includes("v1.2")
-                      ? "Version 1.2"
-                      : item.originalName.includes("v2")
-                        ? "Version 2"
-                        : ""}
-                </span>
-                <div className={styles.tagsContainer}>
+                {item.originalName.includes("v1.1")
+                  ? <span className={styles.v1dot1}>Version 1.1</span>
+                  : item.originalName.includes("v1.2")
+                    ? <span className={styles.v1dot2}>Version 1.2</span>
+                    : item.originalName.includes("v2")
+                      ? <span className={styles.v2}>Version 2</span>
+                      : item.originalName.includes("v3") ? <span className={styles.v3}>Version 3</span> : ""}
 
+                <div className={styles.tagsContainer}>
                   <span
                     className={
                       item.collection === "fineweb"
-                        ? styles.finewebPill
+                        ? [pillStyles.pill, pillStyles[`pill-teal`]].join(
+                          " "
+                        )
                         : item.collection === "hplt"
-                          ? styles.hpltPill
+                          ? [pillStyles.pill, pillStyles[`pill-red`], pillStyles.hplt].join(
+                            " "
+                          )
                           : ""
                     }
                   >
@@ -121,8 +124,8 @@ export default function Home({ fileNames }) {
             Something went wrong with the requested file, please try again.
           </div>
         )}
-        {report && status !== "LOADING" && (
-          <DataAnalyticsReport reportData={report} date={date} />
+        {status !== "LOADING" && (
+          <Report date={date} report={report} />
         )}
       </div>
       <Footer />
@@ -132,36 +135,14 @@ export default function Home({ fileNames }) {
 export async function getServerSideProps() {
   const axios = require("axios");
 
-  const apiList = await axios.get("http://dat-webapp:8000/list");
+  const apiBase = process.env.API_URL;
+
+  const apiList = await axios.get(`${apiBase}list`);
 
   const list = await apiList.data;
 
-  const removalWords = [
-    ".yaml",
-    ".lite",
-    "fineweb2-",
-    ".tsv",
-    ".tmx",
-    "fineweb100b-",
-    "hplt-v2-",
-    "hplt-v1.2-",
-    "hplt_v1.2_",
-    "hplt-v2.",
-    "hplt-v1.1.",
-    "hplt-v1.2.",
-    "hplt_v2_",
-    "hplt100b-",
-  ];
 
   const datasetList = list.map((el) => {
-    function replaceStringsCaseInsensitive(text, stringsToReplace) {
-      let result = text;
-      for (const oldString of stringsToReplace) {
-        const regex = new RegExp(oldString, "gi");
-        result = result.replace(regex, "");
-      }
-      return result;
-    }
 
     const cleanName = replaceStringsCaseInsensitive(el, removalWords);
 
@@ -172,8 +153,6 @@ export async function getServerSideProps() {
       : el.toLowerCase().includes("hplt")
         ? "hplt"
         : "";
-
-
 
     return {
       originalName: el,

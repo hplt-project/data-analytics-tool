@@ -1,3 +1,20 @@
+v1.2:
+- Support for  HPLTv3 documents.
+- New feature : Domain labels (https://huggingface.co/nvidia/multilingual-domain-classifier)
+- Register Labels are reused when they already exist in the dataset (only for HPLT v3 documents)
+- Bump requeriments.
+
+v1.1:
+- Sample extraction is now integrated in stats processing, and samples now are included in resulting yaml files.
+- Added support for Fineweb, Nemotron-CC and MADLAD datasets.
+- Empty segments are now skipped.
+- Web uploader now supports binary files.
+- Added `duplication-ratio`
+- Added interface-only version (Dockerfile-lightweb).
+- Interface performance & visuals enhancements.
+- Bump requeriments.
+
+
 v1.0:
 - Multithread-friendly readcorpus/readcorpusmono/readdocuments scripts
 - Processing now happens in transient dirs (different paths for different runs)

@@ -14,6 +14,9 @@ JOBS=$(($JOBS>1 ? $JOBS : 1))
 JOBS_READCORPUS=$(($JOBS/3*2))
 
 GPU_BATCHSIZE=256
+GPU_BATCHSIZE_DL=64
+
+export PYTORCH_CUDA_ALLOC_CONF=${PYTORCH_CUDA_ALLOC_CONF:-expandable_segments:True}
 
 if [[ $* == *--no-cache* ]]
 then
@@ -32,6 +35,13 @@ else
         SKIPRLFLAG=false
 fi
 
+if [[ $* == *--skip-domain-labels* ]] 
+then
+        SKIPDLFLAG=true
+else
+        SKIPDLFLAG=false
+fi
+
 if [[ $* == *--debug* ]]
 then
         DEBUGFLAG=true
@@ -40,7 +50,7 @@ else
 fi
 
 
-if [ "$format" = "hplt" ] || [ "$format" = "nemotron" ] || [ "$format" = "fineweb" ]; then
+if [ "$format" = "hplt2" ] || [ "$format" = "hplt3" ] || [ "$format" = "nemotron" ] || [ "$format" = "fineweb" ] || [ "$format" = "madlad" ]; then
 	DOCS=true
 else
 	DOCS=false
@@ -69,6 +79,9 @@ hbs_langs=(hr sr bs me)
 
 registerlabels_langs=(af sq am ar hy as az eu be bn bs br bg my ca zh hr cs da nl en eo et tl fi fr gl ka de el gu ha he hi hu is id ga it ja jv \
 	kn kk km ko ku ky lo la lv lt mk mg ms ml mr mn ne no nn nb or om ps fa pl pt pa ro ru sa gd sr sd si sk sl so es su sw sv ta te th tr uk ur ug uz vi cy fy xh yi)
+
+# NVIDIA multilingual-domain-classifier allowlist (52 languages)
+domainlabels_langs=(ar az bg bn ca cs da de el es et fa fi fr gl he hi hr hu hy id is it ka kk kn ko lt lv mk ml mr ne nl no pl pt ro ru sk sl sq sr sv ta tr uk ur vi ja zh)
 
 
 mkdir -p $datapath
@@ -247,16 +260,16 @@ if [ "$langformat" == "parallel" ]; then
 	if [ "$bicleaner_metadata" ]; then
 		echo "Running Bicleaner Hardrules..."
 		HR_MODEL=$bicleaner_metadata
-		cat $tsv_file_path | $PARALLEL_CACHE_CMD  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang $COLUMNS_FLAG - - --metadata $bicleaner_metadata > $tsv_file_path.hardrules 
+		cat $tsv_file_path | $PARALLEL_CACHE_CMD  bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang $COLUMNS_FLAG - - --metadata $bicleaner_metadata --quiet > $tsv_file_path.hardrules 2> hr.log
 	elif [ "$bicleaner_ai_metadata" ]; then
 		echo "Running Bicleaner Hardrules..."
 		HR_MODEL=$bicleaner_ai_metadata
-		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang $COLUMNS_FLAG - - --metadata $bicleaner_ai_metadata > $tsv_file_path.hardrules
+		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --run_all_rules -p $JOBS -s $bc_srclang -t $bc_trglang $COLUMNS_FLAG - - --metadata $bicleaner_ai_metadata --quiet > $tsv_file_path.hardrules 2> hr.log
 	else
 		#echo "Language pair not supported by Bicleaner Hardrules"
 		echo "Running Bicleaner Hardrules..."
 		HR_MODEL=""
-		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --disable_lm_filter --disable_porn_removal --run_all_rules -p $JOBS -s $srclang -t $trglang $COLUMNS_FLAG > $tsv_file_path.hardrules
+		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --disable_lm_filter --disable_porn_removal --run_all_rules -p $JOBS -s $srclang -t $trglang $COLUMNS_FLAG --quiet  > $tsv_file_path.hardrules 2> hr.log
     	fi
     	deactivate
     	
@@ -267,7 +280,7 @@ if [ "$langformat" == "parallel" ]; then
 		#Force FastSpell FastText download in this env
 		python3 ./scripts/force-fasttext-download.py $srclang
 	        python3 ./scripts/force-fasttext-download.py $trglang	    	
-		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-classify -p $JOBS --score_only $COLUMNS_FLAG --disable_hardrules - - $bicleaner_metadata > $tsv_file_path.classify
+		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-classify -p $JOBS --score_only $COLUMNS_FLAG --disable_hardrules - - $bicleaner_metadata --quiet > $tsv_file_path.classify 2> bc.log
 		METADATA_FLAG="-y "$bicleaner_metadata
 		deactivate
 	elif [ "$bicleaner_ai_metadata" ]; then
@@ -276,7 +289,7 @@ if [ "$langformat" == "parallel" ]; then
 		#Force FastSpell FastText download in this env
 		python3 ./scripts/force-fasttext-download.py $srclang
 	        python3 ./scripts/force-fasttext-download.py $trglang		
-		cat $tsv_file_path | BICLEANER_AI_THREADS=$JOBS $PARALLEL_CACHE_CMD bicleaner-ai-classify --score_only $COLUMNS_FLAG --disable_hardrules - - $bicleaner_ai_metadata > $tsv_file_path.classify
+		cat $tsv_file_path | BICLEANER_AI_THREADS=$JOBS $PARALLEL_CACHE_CMD bicleaner-ai-classify --score_only $COLUMNS_FLAG --disable_hardrules - - $bicleaner_ai_metadata --quiet > $tsv_file_path.classify 2> bc.log
 		METADATA_FLAG="-y "$bicleaner_ai_metadata
 		deactivate
     	else
@@ -314,9 +327,35 @@ if [ "$langformat" == "parallel" ]; then
 	cat $tsv_file_path.proc |   cut -f 1,9 | grep  '[0-9]' | LC_ALL=C sort -S 50% --compress-program=zstd | uniq -c | awk -F " " '{sum[$2]+=$1; uni[$2]+=1} END {for (key in sum) {print key, sum[key], uni[key]}}' | sort -n  > $tsv_file_path.srctokcount
 	cat $tsv_file_path.proc |  cut -f 2,10 | grep  '[0-9]' | LC_ALL=C sort -S 50% --compress-program=zstd | uniq -c | awk -F ' ' '{sum[$2]+=$1; uni[$2]+=1} END {for (key in sum) {print key, sum[key], uni[key]}}' | sort -n  > $tsv_file_path.trgtokcount
 	
+	
+	echo "Computing ngrams"
+        for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
+        do
+                SUFFIX=$(echo $SUFFIX_ORDER  | cut -d "_" -f 1)
+                ORDER=$(echo $SUFFIX_ORDER | cut -d "_" -f 2)
+                echo "Order " $ORDER
+                SRC_COLUMN=$((11 + $ORDER)) #11 previous columns with other metadata
+                TRG_COLUMN=$((16 + $ORDER)) #11 previous columns with other metadata + 5 columns with src ngrams
+                parallel --jobs $JOBS --pipepart -a $tsv_file_path.proc cut -f $SRC_COLUMN  > $tsv_file_path.$srclang.$SUFFIX
+                parallel --jobs $JOBS --pipepart -a $tsv_file_path.proc cut -f $TRG_COLUMN  > $tsv_file_path.$trglang.$SUFFIX                
+         
+                #Taking SIX most common ngrams because probably one of them will be the empty spaces and will be removed in the awk below
+                LC_ALL=C sort $tsv_file_path.$srclang.$SUFFIX -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | LC_ALL=C sort -nr -S 50% --compress-program=zstd --parallel $JOBS | head -n 6 |   awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$srclang".ngrams"
+                LC_ALL=C sort $tsv_file_path.$trglang.$SUFFIX -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | LC_ALL=C sort -nr -S 50% --compress-program=zstd --parallel $JOBS | head -n 6 |   awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$trglang".ngrams"
+                
+                if [ "$DEBUGFLAG" = false ]; then
+		        rm -rf $tsv_file_path.$srclang.$SUFFIX
+		        rm -rf $tsv_file_path.$trglang.$SUFFIX 
+		fi                          
+        done
+	
+	echo "Extracting samples"
+	cat $tsv_file_path | shuf -n 50 > $tsv_file_path".sample"
+	
 	rm -rf $yaml_file_path	
 	touch $yaml_file_path
 	
+	echo "Writing yaml file"
 	#Metadata
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
                 source /work/venvs/venv-bnlp/bin/activate       
@@ -340,24 +379,10 @@ if [ "$langformat" == "parallel" ]; then
                 python3 /work/scripts/reduce/write_bicleaner.py $tsv_file_path.classify $yaml_file_path
         fi
 	
-	echo "Computing ngrams"
-        for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
-        do
-                SUFFIX=$(echo $SUFFIX_ORDER  | cut -d "_" -f 1)
-                ORDER=$(echo $SUFFIX_ORDER | cut -d "_" -f 2)
-                SRC_COLUMN=$((11 + $ORDER)) #11 previous columns with other metadata
-                TRG_COLUMN=$((16 + $ORDER)) #11 previous columns with other metadata + 5 columns with src ngrams
-                parallel --jobs $JOBS --pipepart -a $tsv_file_path.proc cut -f $SRC_COLUMN  > $tsv_file_path.$srclang.$SUFFIX
-                parallel --jobs $JOBS --pipepart -a $tsv_file_path.proc cut -f $TRG_COLUMN  > $tsv_file_path.$trglang.$SUFFIX                
-         
-                #Taking SIX most common ngrams because probably one of them will be the empty spaces and will be removed in the awk below
-                LC_ALL=C sort $tsv_file_path.$srclang.$SUFFIX -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | LC_ALL=C sort -nr -S 50% --compress-program=zstd --parallel $JOBS | head -n 6 |   awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$srclang".ngrams"
-                LC_ALL=C sort $tsv_file_path.$trglang.$SUFFIX -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | LC_ALL=C sort -nr -S 50% --compress-program=zstd --parallel $JOBS | head -n 6 |   awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path.$trglang".ngrams"
 
-        done
         python3 ./scripts/reduce/addngrams.py $tsv_file_path.$srclang".ngrams"  $yaml_file_path "src"
         python3 ./scripts/reduce/addngrams.py $tsv_file_path.$trglang".ngrams"  $yaml_file_path "trg"
-        #python3 ./scripts/reduce/write_warnings.py $yaml_file_path $srclang $trglang
+	python3 ./scripts/reduce/write_sample.py $tsv_file_path".sample" $yaml_file_path "parallel"
 
 elif [ "$langformat" == "mono" ]; then
 	if [ "$format" == "tmx" ]; then
@@ -416,30 +441,76 @@ elif [ "$langformat" == "mono" ]; then
 		fi
 						
 		#Register labels
-		if [ "$SKIPRLFLAG" = false ]; then		
-		        if [[ " ${registerlabels_langs[*]} " =~ " $srclang " ]]; then	        
-		        	source /work/venvs/venv-rl/bin/activate
+		if [ "$SKIPRLFLAG" = false ]; then
+			source /work/venvs/venv-rl/bin/activate	
+			reused=false		
+			if [ "$format" = "hplt3" ] ; then				
+				if [ "$extension" == "zst" ] || [ "$extension" == "zstd" ]; then
+					wr=$(zstdcat $saved_file_path | head -n 1 | jq '."web-register"' -c)
+					if [ $wr = null ]; then 
+						reused=false
+					else
+						echo "Reusing register labels..."
+	                                        zstdcat $saved_file_path | jq '."web-register"' -c | python3 ./scripts/reuse-registerlabels.py  > $tsv_file_path.rl
+	                                        cat $tsv_file_path.rl | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.rlcounts
+	                                        reused=true
+	                                fi
+                                else
+                                	wr=$(cat $saved_file_path | head -n 1 | jq '."web-register"' -c)
+                                	if [ $wr = null ]; then
+                                		reused=false
+                                	else
+                                		echo "Reusing register labels..."
+	                                        cat $saved_file_path | jq '."web-register"' -c | python3 ./scripts/reuse-registerlabels.py  > $tsv_file_path.rl
+	                                        cat $tsv_file_path.rl | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.rlcounts
+	                                        reused=true
+	                              	fi
+                                fi
+                        fi
+				
+		        if [ "$reused" = false ] && [[ " ${registerlabels_langs[*]} " =~ " $srclang " ]]; then	        
 		        	echo "Running register labels..."   	
 		        	if [ "$extension" == "zst" ] || [ "$extension" == "zstd" ]; then
 					zstdcat $saved_file_path | python3 ./scripts/registerlabels.py --batchsize $GPU_BATCHSIZE  > $tsv_file_path.rl
 				else
 					cat $saved_file_path | python3 ./scripts/registerlabels.py  --batchsize $GPU_BATCHSIZE> $tsv_file_path.rl
 				fi
-				deactivate
 			        cat $tsv_file_path.rl | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.rlcounts
 		        else
-        			echo "Register labels not supported for $srclang"
+        			echo "Register labels not supported for $srclang  (or already reused)"
 		        fi
-		else
-			echo "Skipping register labels"
-		fi
+			deactivate
+                else
+                        echo "Skipping register labels"
+                fi
+
+                #Domain labels
+                if [ "$SKIPDLFLAG" = false ]; then
+                        if [[ " ${domainlabels_langs[*]} " =~ " $srclang " ]]; then
+                                source /work/venvs/venv-rl/bin/activate
+                                echo "Running domain labels..."
+                                if [ "$extension" == "zst" ] || [ "$extension" == "zstd" ]; then
+                                        zstdcat $saved_file_path | python3 ./scripts/domainlabels.py --batchsize $GPU_BATCHSIZE_DL > $tsv_file_path.dl
+                                elif [ "$extension" == "parquet" ]; then
+                                        python3 scripts/deparquet.py $saved_file_path - | python3 ./scripts/domainlabels.py --batchsize $GPU_BATCHSIZE_DL > $tsv_file_path.dl
+                                else
+                                        cat $saved_file_path | python3 ./scripts/domainlabels.py --batchsize $GPU_BATCHSIZE_DL > $tsv_file_path.dl
+                                fi
+                                deactivate
+                                cat $tsv_file_path.dl | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | sort -nr > $tsv_file_path.dlcounts
+                        else
+                                echo "Domain labels not supported for $srclang"
+                        fi
+                else
+                        echo "Skipping domain labels"
+                fi
 
         else
                 echo "Unsupported format \"$format\""
                 exit 1
-	fi
+        fi
 	
-	#Monolingual
+	#Monolingual hardrules
 	if [[ " ${monocleaner_langs[*]} " =~ " $srclang " ]]; then
 		#Lang supported by monocleaner
 		monocleaner_metadata=$datapath/monocleaner/$srclang/metadata.yaml
@@ -447,7 +518,7 @@ elif [ "$langformat" == "mono" ]; then
 	fi
 	source /work/venvs/venv-mc/bin/activate
 	echo "Running Monocleaner  Hardrules..."
-	cat $tsv_file_path | $MONO_CACHE_CMD  parallel -k -j $JOBS --pipe monocleaner-hardrules --score_only --annotated_output --run_all_rules --disable_lang_ident  $srclang - - > $tsv_file_path.hardrules 2> hr.log
+	cat $tsv_file_path | $MONO_CACHE_CMD  parallel -k -j $JOBS --pipe monocleaner-hardrules --score_only --annotated_output --run_all_rules --disable_lang_ident  $srclang - - --quiet > $tsv_file_path.hardrules 2> hr.log
 	deactivate
 
 
@@ -477,11 +548,44 @@ elif [ "$langformat" == "mono" ]; then
 	#Map & reduce source & target unique tokens 
 	cat $tsv_file_path.proc | cut -f 1,5 | grep  '[0-9]' | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS  | uniq -c | awk -F " " '{sum[$2]+=$1; uni[$2]+=1} END {for (key in sum) {print key, sum[key], uni[key]}}' | sort -n  > $tsv_file_path.srctokcount
 
+        echo "Computing ngrams"
+        for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
+        do
+                SUFFIX=$(echo $SUFFIX_ORDER  | cut -d "_" -f 1)
+                ORDER=$(echo $SUFFIX_ORDER | cut -d "_" -f 2)
+                echo "Order " $ORDER
+                SRC_COLUMN=$((5 + $ORDER)) #5 previous columns with other metadata
+                parallel --jobs $JOBS --pipepart -a $tsv_file_path.proc cut -f $SRC_COLUMN  > $tsv_file_path.$SUFFIX
+
+                #Taking SIX most common ngrams because probably one of them will be the empty spaces and will be removed in the awk below
+                LC_ALL=C sort $tsv_file_path.$SUFFIX -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | LC_ALL=C sort -nr -S 50% --compress-program=zstd --parallel $JOBS | head -n 6 | awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path".ngrams"
+                
+                if [ "$DEBUGFLAG" = false ]; then
+		        rm -rf $tsv_file_path.$SUFFIX
+		fi
+        done
+       
+       	echo "Obtaining sample"
+       	if [ "$DOCS" = true ]; then
+	       	if [ "$extension" == "zst" ] || [ "$extension" == "zstd" ] ; then
+                        zstdcat $saved_file_path | shuf -n 20 | jq .text > $tsv_file_path".sample"
+
+                elif [ "$extension" == "parquet" ]; then
+                        python3 scripts/deparquet.py $saved_file_path - | shuf -n 20 | jq .text  > $tsv_file_path".sample"
+
+                else
+                        cat $saved_file_path | shuf -n 20 | jq .text > $tsv_file_path".sample"
+                fi
+
+       	else
+       		cat $tsv_file_path | shuf -n 50 > $tsv_file_path".sample"
+       	fi
+
 	rm -rf $yaml_file_path	
 	touch $yaml_file_path
 
+	echo "Writing yaml file"
 	#Write metadata
-	echo "Writing metadata"
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
                 source /work/venvs/venv-bnlp/bin/activate       
         fi
@@ -505,27 +609,20 @@ elif [ "$langformat" == "mono" ]; then
 		python3 /work/scripts/reduce/write_hardrules.py $tsv_file_path.hardrules $yaml_file_path $HR_MODEL
 	fi
 
-	if [ -f $tsv_file_path.rlcounts ] ; then
+        if [ -f $tsv_file_path.rlcounts ] ; then
                 python3 /work/scripts/reduce/write_registerlabels.py $tsv_file_path.rlcounts $yaml_file_path
         fi
 
-	
-	#ngrams
-	rm -rf  $tsv_file_path".ngrams"
-	
-        echo "Computing ngrams"
-        for SUFFIX_ORDER in one_1 two_2 three_3 four_4 five_5
-        do
-                SUFFIX=$(echo $SUFFIX_ORDER  | cut -d "_" -f 1)
-                ORDER=$(echo $SUFFIX_ORDER | cut -d "_" -f 2)
-                SRC_COLUMN=$((5 + $ORDER)) #5 previous columns with other metadata
-                parallel --jobs $JOBS --pipepart -a $tsv_file_path.proc cut -f $SRC_COLUMN  > $tsv_file_path.$SUFFIX
+        if [ -f $tsv_file_path.dlcounts ] ; then
+                python3 /work/scripts/reduce/write_domainlabels.py $tsv_file_path.dlcounts $yaml_file_path
+        fi
 
-                #Taking SIX most common ngrams because probably one of them will be the empty spaces and will be removed in the awk below
-                LC_ALL=C sort $tsv_file_path.$SUFFIX -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | LC_ALL=C sort -nr -S 50% --compress-program=zstd --parallel $JOBS | head -n 6 | awk -v ORDER=$ORDER 'length($2) == 0{next;}{for (i=2; i<NF; i++) printf $i " "; print $NF"\t"$1"\t"ORDER}' >> $tsv_file_path".ngrams"
-        done
         python3 ./scripts/reduce/addngrams.py $tsv_file_path".ngrams"  $yaml_file_path "src"
-
+        if [ "$DOCS" = true ]; then
+	        python3 ./scripts/reduce/write_sample.py $tsv_file_path".sample" $yaml_file_path "docs"
+	else
+	        python3 ./scripts/reduce/write_sample.py $tsv_file_path".sample" $yaml_file_path "mono"
+	fi
 
 
 else

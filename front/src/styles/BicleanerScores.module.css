@@ -1,0 +1,59 @@
+.title {
+    display: flex;
+    justify-content: space-between;
+}
+
+.title h3 {
+    display: flex;
+}
+
+.title h3 a {
+    color: #24aaf7;
+}
+
+.container {
+    height: 300px;
+    margin: 20px 0;
+}
+
+.numbers {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: -10px;
+    width: fit-content;
+}
+
+.numbers p {
+    width: fit-content;
+    margin-left: auto;
+    margin-bottom: 4px;
+}
+
+.tooltip {
+    background-color: white;
+    border: solid 1px rgb(199, 199, 199);
+    padding: 15px 35px 15px 15px;
+    border-radius: 5px;
+}
+
+.label {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.desc {
+    margin-bottom: 7px;
+}
+
+.perc {
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .container {
+        height: 270px;
+    }
+}

@@ -1,4 +1,6 @@
-import styles from "@/styles/ReportScores.module.css";
+import styles from "@/styles/DocumentSizes.module.css";
+import { Info } from "lucide-react";
+import { Tooltip as InfoTooltip } from "react-tooltip";
 
 import {
   BarChart,
@@ -13,28 +15,21 @@ import {
   ResponsiveContainer,
 } from "recharts";
 
-import { DataFormatter } from "../../hooks/hooks";
+import { DataFormatter, numberFormatter } from "@/lib/helpers";
 
-const CustomTooltip = ({ active, payload, label, measurement }) => {
+const CustomTooltip = ({ active, payload, label, total }) => {
   if (active && payload && payload.length) {
     return (
       <div className={styles.tooltip}>
-        <p className={styles.label}>{label}</p>
+        <p className={styles.label}>{label} Segments</p>
         {payload.map((item, idx) => {
           return (
             <>
               <p
                 key={idx}
                 className={styles.desc}
-                style={{ color: item.fill }}
-              >{`${measurement}:   ${Intl.NumberFormat("en", {
-                notation: "compact",
-              }).format(item.value)}`}</p>
-              {payload[0].payload.perc && (
-                <p
-                  className={styles.perc}
-                >{`% of total:   ${payload[0].payload.perc} %`}</p>
-              )}
+              >{`${numberFormatter(item.value)} documents`} <span style={{ fontWeight: 600 }}>{`(${((item.value / total) * 100).toFixed(2)}%)`}</span></p>
+
             </>
           );
         })}
@@ -43,102 +38,132 @@ const CustomTooltip = ({ active, payload, label, measurement }) => {
   }
 };
 
-export default function DocumentSizes({
-  scores,
-  xLabel,
-  yLabel,
-  partOfTotal,
-  totalDocs,
-  restPerc,
-  restDocs,
-}) {
-  const processedScores = scores.map((item) => {
-    return {
-      token: item.token,
-      freq: item.freq,
-      perc: item.perc,
-      freqFormatted: Intl.NumberFormat("en", {
-        notation: "compact",
-      }).format(item.freq),
-      fill: item.fill,
-    };
-  });
-
+function NewDocumentSizes({ documentSizesObj }) {
   const numbers = Array.from({ length: 25 }, (_, i) => i + 1);
+  const footNote = false;
+
+  const {
+    segments,
+    totalDocuments,
+    remainingSum,
+    percentageOfTotal,
+    remainingPercentage,
+    total
+  } = documentSizesObj;
 
   return (
-    <div className={styles.reportScoresContainer}>
-      {partOfTotal && restDocs >= 0 && (
-        <div className={styles.reportTitleDocsSizes}>
-          <p>
-            <strong>{"<="} 25</strong> segments{" "}
-            <strong>{+partOfTotal.toFixed(2)}%</strong> (
-            {Intl.NumberFormat("en", {
-              notation: "compact",
-            }).format(totalDocs)}{" "}
-            documents)
-          </p>
-          <p>
-            <strong>{">"} 25</strong> segments{" "}
-            <strong>{+restPerc.toFixed(2)}%</strong> (
-            {Intl.NumberFormat("en", {
-              notation: "compact",
-            }).format(restDocs)}{" "}
-            documents)
-          </p>
+    <>
+      {segments && (
+        <div className={styles.docsSizesContainer}>
+          <div className={styles.title}>
+            <h3>Documents size (in segments) </h3>
+            <a className="segments-info-graph">
+              {!footNote && (
+                <Info
+                  className={[styles.helpCircle, styles.desktopData].join(
+                    " "
+                  )}
+                  strokeWidth={2}
+                  color="#022831"
+                  width={18}
+                />
+              )}
+            </a>
+            <InfoTooltip anchorSelect=".segments-info-graph" place="top" style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}>
+              <p style={{ fontSize: "14px" }}> Segments correspond to paragraph and list boundaries as
+                defined by HTML elements{" "}
+                <code>
+                  ({"<"}p{">"}, {"<"}ul{">"}, {"<"}ol{">"}, etc.)
+                </code>{" "}
+                replaced by newlines.</p>
+            </InfoTooltip>
+          </div>
+          <div className={styles.documentSizes}>
+            {percentageOfTotal && remainingSum >= 0 && (
+              <div className={styles.reportTitleDocsSizes}>
+                <p>
+                  <strong>{"≤"} 25</strong> segments{" "}
+                  <strong>{+percentageOfTotal.toFixed(2)}%</strong> (
+                  {numberFormatter(totalDocuments)}{" "}
+                  documents)
+                </p>
+                <p>
+                  <strong>{">"} 25</strong> segments{" "}
+                  <strong>{+remainingPercentage.toFixed(2)}%</strong> (
+                  {numberFormatter(remainingSum)}{" "}
+                  documents)
+                </p>
+              </div>
+            )}
+            <ResponsiveContainer width="100%" height="100%">
+              <BarChart
+                width={500}
+                height={300}
+                data={segments}
+                margin={{
+                  top: 32,
+                  right: 20,
+                  left: 10,
+                  bottom: 25,
+                }}
+              >
+                <CartesianGrid strokeDasharray="2 1" />
+                <XAxis
+                  dataKey={(val) => val[0]}
+                  type="number"
+                  fontSize={12}
+                  tickMargin={5}
+                  domain={[0, 25]}
+                  ticks={numbers}
+                  padding={{ left: 10, right: 15 }}
+                >
+                  {" "}
+                  <Label
+                    value="Segments"
+                    offset={10}
+                    position="bottom"
+                    fontSize={16}
+                  />
+                </XAxis>
+                <YAxis
+                  fontSize={14}
+                  label={{
+                    value: "Documents",
+                    angle: 0,
+                    position: "top",
+                    offset: 12,
+                    fontSize: 14,
+                  }}
+                  tickFormatter={DataFormatter}
+                />
+                <Tooltip
+                  content={<CustomTooltip measurement="Documents" total={total} />}
+                  wrapperStyle={{ outline: "none" }}
+                />
+                <ReferenceLine y={0} stroke="#000" />
+                <Bar
+                  dataKey={(val) => val[1]}
+                  fill="#38686aff"
+                  maxBarSize={30}
+                >
+                  {" "}
+                  <LabelList
+                    dataKey={(val) =>
+                      numberFormatter(val[1])
+                    }
+                    fill="#244446ff"
+                    position="top"
+                    fontWeight={800}
+                    fontSize={11}
+                  />
+                </Bar>
+              </BarChart>
+            </ResponsiveContainer>
+          </div>
         </div>
       )}
-      <ResponsiveContainer width="100%" height="100%">
-        <BarChart
-          width={500}
-          height={300}
-          data={processedScores}
-          margin={{
-            top: 32,
-            right: 20,
-            left: 10,
-            bottom: 25,
-          }}
-        >
-          <CartesianGrid strokeDasharray="2 1" />
-          <XAxis
-            dataKey="token"
-            type="number"
-            fontSize={12}
-            tickMargin={5}
-            domain={[0, 25]}
-            ticks={numbers}
-          >
-            {" "}
-            <Label value={xLabel} offset={10} position="bottom" fontSize={16} />
-          </XAxis>
-          <YAxis
-            fontSize={14}
-            label={{
-              value: `${yLabel}`,
-              angle: 0,
-              position: "top",
-              offset: 12,
-              fontSize: 14,
-            }}
-            tickFormatter={DataFormatter}
-          />
-          <Tooltip
-            content={<CustomTooltip measurement={yLabel} />}
-            wrapperStyle={{ outline: "none" }}
-          />
-          <ReferenceLine y={0} stroke="#000" />
-          <Bar dataKey="freq" maxBarSize={30}>
-            {" "}
-            <LabelList
-              dataKey="freqFormatted"
-              position="top"
-              fontWeight={600}
-              fontSize={10}
-            />
-          </Bar>
-        </BarChart>
-      </ResponsiveContainer>
-    </div>
+    </>
   );
 }
+
+export default NewDocumentSizes;

@@ -13,7 +13,7 @@ export default function Navbar() {
   return (
     <div className={styles.navbar}>
       <Link href="/">
-        <Image src={Logo} width={240} height={45} className={styles.logo} />
+        <Image src={Logo} width={240} height={45} className={styles.logo} alt="hplt analytics logo" />
       </Link>
       <div className={styles.navLinks}>
         <Link href="/viewer" className={styles.singleNavLink}>
