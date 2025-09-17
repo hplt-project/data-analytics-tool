@@ -1,0 +1,2003 @@
+corpus: hplt-v3-ewe_Latn
+srclang: ee
+timestamp: 1758067661.8043246
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2017-51", 858], ["CC-MAIN-2020-05", 615], ["CC-MAIN-2024-42",
+  572], ["CC-MAIN-2018-05", 513], ["CC-MAIN-2024-51", 493], ["CC-MAIN-2021-25", 411],
+  ["CC-MAIN-2023-50", 328], ["CC-MAIN-2020-10", 255], ["CC-MAIN-2023-06", 240], ["CC-MAIN-2020-24",
+  180], ["CC-MAIN-2023-40", 178], ["CC-MAIN-2020-50", 173], ["CC-MAIN-2024-10", 161],
+  ["CC-MAIN-2024-38", 138], ["CC-MAIN-2024-22", 122], ["CC-MAIN-2020-34", 121], ["wide16",
+  114], ["CC-MAIN-2024-33", 106], ["CC-MAIN-2024-18", 106], ["CC-MAIN-2024-30", 103],
+  ["CC-MAIN-2020-40", 101], ["wide12", 98], ["CC-MAIN-2020-29", 89], ["CC-MAIN-2024-46",
+  86], ["CC-MAIN-2022-21", 82], ["CC-MAIN-2024-26", 64], ["CC-MAIN-2021-10", 54],
+  ["CC-MAIN-2023-14", 50], ["CC-MAIN-2020-45", 47], ["CC-MAIN-2018-43", 47], ["wide11",
+  46], ["CC-MAIN-2023-23", 42], ["CC-MAIN-2022-05", 41], ["CC-MAIN-2014-15", 41],
+  ["CC-MAIN-2021-17", 38], ["CC-MAIN-2021-39", 36], ["CC-MAIN-2021-31", 34], ["CC-MAIN-2022-27",
+  31], ["CC-MAIN-2022-49", 28], ["CC-MAIN-2018-39", 28], ["CC-MAIN-2020-16", 26],
+  ["CC-MAIN-2021-43", 24], ["CC-MAIN-2021-49", 23], ["CC-MAIN-2018-34", 23], ["CC-MAIN-2021-04",
+  22], ["CC-MAIN-2021-21", 21], ["CC-MAIN-2018-22", 21], ["CC-MAIN-2019-04", 20],
+  ["CC-MAIN-2022-40", 18], ["wide15", 16], ["CC-MAIN-2022-33", 16], ["wide17", 13],
+  ["CC-MAIN-2014-35", 5], ["wide5", 4], ["CC-MAIN-2017-26", 3], ["wide6", 2], ["wide10",
+  2], ["CC-MAIN-2015-11", 2], ["wide2", 1], ["survey3", 1], ["CC-MAIN-2017-04", 1],
+  ["CC-MAIN-2016-40", 1], ["CC-MAIN-2015-18", 1], ["CC-MAIN-2014-42", 1]]'
+docs_langs: '[[0.0, 15], [0.2, 34], [0.3, 14], [0.4, 25], [0.5, 135], [0.6, 175],
+  [0.7, 231], [0.8, 405], [0.9, 801], [1.0, 5302]]'
+docs_segments: '[[1, 31], [2, 812], [3, 96], [4, 180], [5, 260], [6, 355], [7, 301],
+  [8, 254], [9, 247], [10, 233], [11, 159], [12, 175], [13, 166], [14, 153], [15,
+  126], [16, 141], [17, 140], [18, 147], [19, 133], [20, 149], [21, 191], [22, 129],
+  [23, 123], [24, 103], [25, 89], [26, 93], [27, 84], [28, 86], [29, 80], [30, 82],
+  [31, 58], [32, 67], [33, 68], [34, 65], [35, 58], [36, 72], [37, 73], [38, 55],
+  [39, 69], [40, 77], [41, 50], [42, 60], [43, 73], [44, 58], [45, 61], [46, 59],
+  [47, 54], [48, 36], [49, 25], [50, 32], [51, 44], [52, 34], [53, 45], [54, 35],
+  [55, 38], [56, 42], [57, 45], [58, 30], [59, 31], [60, 22], [61, 23], [62, 20],
+  [63, 8], [64, 14], [65, 9], [66, 10], [67, 4], [68, 5], [69, 5], [70, 6], [71, 3],
+  [72, 3], [73, 2], [74, 3], [75, 5], [76, 4], [77, 3], [78, 3], [79, 3], [80, 4],
+  [81, 6], [82, 3], [83, 2], [85, 2], [86, 1], [87, 3], [88, 3], [89, 1], [90, 3],
+  [91, 3], [92, 3], [95, 2], [96, 1], [97, 1], [99, 1], [101, 1], [108, 1], [109,
+  2], [110, 2], [111, 2], [112, 2], [114, 3], [115, 2], [120, 2], [123, 1], [128,
+  1], [129, 1], [131, 1], [133, 1], [136, 1], [141, 1], [142, 2], [143, 1], [145,
+  1], [146, 1], [148, 1], [149, 1], [154, 1], [158, 2], [165, 15], [178, 1], [180,
+  1], [185, 1], [196, 1], [198, 1], [205, 1], [207, 1], [208, 2], [218, 1], [219,
+  1], [228, 1], [247, 1], [261, 1], [295, 1], [308, 1], [345, 1], [350, 1], [380,
+  1], [389, 1], [393, 1], [426, 1], [434, 1], [518, 1], [534, 1], [580, 1], [606,
+  1], [671, 1], [681, 1], [683, 1], [709, 1], [718, 1], [743, 1], [779, 1], [825,
+  1], [841, 1], [859, 1], [864, 1], [878, 1], [882, 1], [911, 1], [912, 1], [1024,
+  1], [1033, 1], [1039, 1], [1043, 1], [1274, 1], [1363, 1], [1495, 1], [1542, 1],
+  [1566, 1], [1740, 1], [1890, 1], [2166, 1], [2238, 1], [2415, 1], [2496, 1], [2959,
+  1], [4131, 1], [4469, 1], [5687, 1], [6561, 1]]'
+docs_segments_mean: 31
+docs_segments_median: 16
+docs_top100_domains: '[["jw.org", 4996], ["lyfta.app", 910], ["eu5.org", 227], ["wikipedia.org",
+  125], ["ebible.org", 77], ["degbea.org", 60], ["zhitov.ru", 57], ["ewelyrics.com",
+  56], ["biblearc.com", 42], ["bibles.org", 35], ["togochretien.com", 27], ["arshymnbookonline.co.uk",
+  26], ["voltaonlinegh.com", 25], ["svfellowship.info", 25], ["mi-eweland.com", 24],
+  ["opexflow.com", 23], ["fitvii.com", 22], ["windows-office.net", 21], ["kasahorow.org",
+  20], ["realsuntime.com", 17], ["divmagic.com", 17], ["globalsouvenirshop.com", 16],
+  ["yapper.fr", 14], ["giveamenu.com", 11], ["gotquestions.org", 10], ["bible.is",
+  9], ["jucelinoluz.news", 8], ["bible.com", 8], ["wikimedia.org", 7], ["weddo.info",
+  7], ["waters-of-life.net", 7], ["oratlas.com", 7], ["commerce360.trade", 7], ["afenyamedia.com",
+  7], ["player22.com", 6], ["nutis.org", 6], ["duhoctrungquoc.vn", 6], ["chinasprayer.com",
+  6], ["aionianbible.org", 6], ["shadowserver.org", 5], ["jungyulkim.com", 5], ["gonnle.com",
+  5], ["wordpress.com", 4], ["tikcd.com", 4], ["godspowergospelbooks.com", 4], ["triphun.com",
+  3], ["sejoygroup.com", 3], ["mishenin-art-studio.com", 3], ["hexup.tech", 3], ["hangaotech.com",
+  3], ["eweduko.com", 3], ["watchtower.org", 2], ["vietnamimmigration.org", 2], ["uzone-group.com",
+  2], ["unicode.org", 2], ["togocultures.com", 2], ["scribd.com", 2], ["plagiarism-detector.com",
+  2], ["mozilla.org", 2], ["mediawiki.org", 2], ["kusaal.bible", 2], ["jinpeng-global.com",
+  2], ["gogoled.ru", 2], ["gayhomeland.org", 2], ["direct7.tg", 2], ["dall-e-openai.com",
+  2], ["chatgptaz.com", 2], ["canadavirtualoffice.com", 2], ["blogspot.com", 2], ["bibleforchildren.org",
+  2], ["zeno.fm", 1], ["zamenhof.life", 1], ["yoykem.com.tr", 1], ["yfifx.com", 1],
+  ["whereimcomingfrom.world", 1], ["west1jess.com", 1], ["vanipedia.org", 1], ["vallalar.net",
+  1], ["typecraft.org", 1], ["togonyigba.tg", 1], ["tinyclerk.com", 1], ["tikder.com",
+  1], ["thebest100hotels.com", 1], ["solutionspile.com", 1], ["smartcalconline.com",
+  1], ["slideshare.net", 1], ["skypirl.tech", 1], ["showwe.tw", 1], ["sciencegraph.net",
+  1], ["regtrading.com", 1], ["pollyskians.info", 1], ["pdfhall.com", 1], ["paypalfeescalc.com",
+  1], ["oricsystems.com", 1], ["omniglot.com", 1], ["ohchr.org", 1], ["mybooks.ws",
+  1], ["my-rights.org", 1], ["mozilla.com", 1], ["mountofolives.co", 1]]'
+docs_top100_tld: '[["org", 5603], ["app", 910], ["com", 400], ["ru", 60], ["net",
+  33], ["info", 33], ["co.uk", 26], ["fr", 14], ["is", 9], ["news", 8], ["trade",
+  7], ["vn", 6], ["tech", 4], ["tg", 3], ["io", 2], ["bible", 2], ["ws", 1], ["world",
+  1], ["win", 1], ["wiki", 1], ["tw", 1], ["online", 1], ["life", 1], ["gov.gh", 1],
+  ["fun", 1], ["fm", 1], ["eu", 1], ["ee", 1], ["com.tr", 1], ["co", 1], ["cf", 1],
+  ["by", 1], ["blog", 1]]'
+docs_total: 7137
+docs_wds: '[[5.0, 64], [5.1, 59], [5.2, 64], [5.3, 65], [5.4, 55], [5.5, 40], [5.6,
+  65], [5.7, 52], [5.8, 62], [5.9, 68], [6.0, 63], [6.1, 74], [6.2, 78], [6.3, 99],
+  [6.4, 75], [6.5, 87], [6.6, 78], [6.7, 94], [6.8, 95], [6.9, 82], [7.0, 105], [7.1,
+  128], [7.2, 118], [7.3, 132], [7.4, 192], [7.5, 218], [7.6, 201], [7.7, 233], [7.8,
+  262], [7.9, 269], [8.0, 334], [8.1, 324], [8.2, 895], [8.3, 245], [8.4, 216], [8.5,
+  205], [8.6, 208], [8.7, 215], [8.8, 235], [8.9, 200], [9.0, 171], [9.1, 165], [9.2,
+  127], [9.3, 95], [9.4, 79], [9.5, 50], [9.6, 52], [9.7, 27], [9.8, 11], [9.9, 6]]'
+sentence_pairs: 218033
+src_bytes: 43744063
+src_chars: 39738732
+src_pii: 45
+src_tokens: 9466965
+unique_sents: 196843
+src_sent_tokens: '[[1, 4606], [2, 3182], [3, 5255], [4, 4612], [5, 8454], [6, 7616],
+  [7, 10377], [8, 7777], [9, 7326], [10, 6578], [11, 5305], [12, 4807], [13, 4144],
+  [14, 3842], [15, 4075], [16, 4091], [17, 4241], [18, 4474], [19, 4594], [20, 4245],
+  [21, 3600], [22, 3238], [23, 2585], [24, 2377], [25, 2187], [26, 2083], [27, 2028],
+  [28, 1969], [29, 1846], [30, 1686], [31, 1803], [32, 1746], [33, 1609], [34, 1679],
+  [35, 1587], [36, 1467], [37, 1492], [38, 1423], [39, 1391], [40, 1320], [41, 1271],
+  [42, 1211], [43, 1170], [44, 1131], [45, 1113], [46, 1063], [47, 957], [48, 934],
+  [49, 874], [50, 822], [51, 834], [52, 803], [53, 838], [54, 760], [55, 664], [56,
+  727], [57, 689], [58, 620], [59, 695], [60, 643], [61, 660], [62, 602], [63, 605],
+  [64, 646], [65, 581], [66, 566], [67, 573], [68, 598], [69, 570], [70, 537], [71,
+  575], [72, 550], [73, 556], [74, 533], [75, 507], [76, 573], [77, 480], [78, 498],
+  [79, 556], [80, 517], [81, 539], [82, 528], [83, 512], [84, 530], [85, 525], [86,
+  565], [87, 531], [88, 548], [89, 537], [90, 516], [91, 548], [92, 472], [93, 526],
+  [94, 530], [95, 503], [96, 551], [97, 511], [98, 471], [99, 511], [100, 501], [101,
+  549], [102, 489], [103, 471], [104, 505], [105, 487], [106, 488], [107, 461], [108,
+  451], [109, 489], [110, 459], [111, 474], [112, 440], [113, 434], [114, 451], [115,
+  425], [116, 468], [117, 417], [118, 416], [119, 389], [120, 398], [121, 392], [122,
+  386], [123, 383], [124, 369], [125, 393], [126, 378], [127, 384], [128, 340], [129,
+  374], [130, 329], [131, 336], [132, 346], [133, 325], [134, 299], [135, 308], [136,
+  358], [137, 288], [138, 296], [139, 296], [140, 299], [141, 301], [142, 302], [143,
+  277], [144, 283], [145, 271], [146, 238], [147, 274], [148, 273], [149, 265], [150,
+  236], [151, 234], [152, 215], [153, 231], [154, 201], [155, 231], [156, 219], [157,
+  203], [158, 192], [159, 242], [160, 196], [161, 211], [162, 192], [163, 174], [164,
+  206], [165, 165], [166, 197], [167, 195], [168, 186], [169, 162], [170, 157], [171,
+  155], [172, 173], [173, 152], [174, 181], [175, 158], [176, 132], [177, 149], [178,
+  132], [179, 129], [180, 123], [181, 150], [182, 121], [183, 138], [184, 123], [185,
+  121], [186, 108], [187, 127], [188, 117], [189, 135], [190, 111], [191, 99], [192,
+  97], [193, 115], [194, 108], [195, 107], [196, 100], [197, 95], [198, 94], [199,
+  93], [200, 87], [201, 70], [202, 79], [203, 73], [204, 86], [205, 57], [206, 74],
+  [207, 75], [208, 72], [209, 60], [210, 69], [211, 70], [212, 52], [213, 79], [214,
+  65], [215, 71], [216, 56], [217, 53], [218, 47], [219, 55], [220, 47], [221, 48],
+  [222, 55], [223, 44], [224, 54], [225, 48], [226, 34], [227, 56], [228, 30], [229,
+  36], [230, 32], [231, 24], [232, 26], [233, 47], [234, 43], [235, 39], [236, 32],
+  [237, 34], [238, 36], [239, 25], [240, 19], [241, 33], [242, 25], [243, 29], [244,
+  22], [245, 24], [246, 20], [247, 27], [248, 18], [249, 24], [250, 13], [251, 20],
+  [252, 13], [253, 21], [254, 22], [255, 16], [256, 16], [257, 21], [258, 19], [259,
+  21], [260, 16], [261, 12], [262, 12], [263, 16], [264, 14], [265, 10], [266, 18],
+  [267, 7], [268, 8], [269, 5], [270, 7], [271, 7], [272, 9], [273, 6], [274, 9],
+  [275, 8], [276, 14], [277, 13], [278, 12], [279, 11], [280, 12], [281, 5], [282,
+  6], [283, 4], [284, 5], [285, 10], [286, 4], [287, 9], [288, 4], [289, 6], [290,
+  4], [291, 11], [292, 3], [293, 5], [294, 4], [295, 5], [296, 2], [297, 6], [298,
+  3], [299, 5], [300, 6], [301, 3], [302, 3], [303, 5], [304, 4], [305, 3], [306,
+  5], [307, 3], [308, 4], [309, 2], [310, 1], [311, 6], [312, 2], [313, 4], [314,
+  2], [315, 5], [316, 2], [317, 2], [318, 5], [319, 1], [320, 2], [321, 2], [322,
+  5], [325, 1], [326, 3], [327, 1], [329, 4], [333, 2], [334, 2], [338, 1], [340,
+  1], [342, 2], [343, 1], [347, 3], [348, 2], [349, 2], [350, 2], [351, 1], [352,
+  1], [354, 1], [355, 1], [356, 5], [357, 1], [358, 1], [359, 2], [360, 1], [361,
+  1], [362, 1], [364, 1], [366, 1], [371, 2], [376, 1], [378, 2], [379, 2], [384,
+  1], [386, 2], [387, 1], [389, 1], [390, 1], [393, 1], [396, 1], [398, 1], [401,
+  1], [407, 2], [408, 1], [417, 1], [433, 1], [442, 1], [447, 1], [448, 1], [458,
+  1], [463, 1], [466, 1], [468, 1], [484, 1], [499, 1], [519, 1], [522, 1], [523,
+  1], [524, 2], [525, 2], [527, 2], [543, 1], [546, 1], [548, 2], [550, 2], [551,
+  1], [554, 1], [556, 1], [558, 2], [562, 1], [567, 1], [570, 1], [572, 2], [573,
+  2], [574, 1], [575, 1], [576, 1], [579, 1], [582, 1], [587, 1], [591, 1], [607,
+  2], [608, 1], [621, 2], [630, 1], [639, 1], [647, 1], [655, 1], [656, 1], [663,
+  1], [668, 1], [675, 1], [680, 1], [685, 1], [696, 1], [703, 1], [704, 1], [707,
+  2], [719, 1], [721, 1], [724, 1], [725, 1], [726, 1], [729, 1], [734, 1], [737,
+  1], [751, 1], [756, 1], [761, 1], [774, 1], [783, 1], [786, 1], [787, 1], [788,
+  1], [792, 1], [796, 1], [797, 1], [798, 1], [804, 2], [815, 1], [827, 2], [836,
+  1], [838, 1], [841, 1], [843, 1], [857, 1], [858, 1], [860, 1], [869, 1], [870,
+  1], [873, 1], [875, 2], [880, 1], [884, 1], [888, 1], [891, 1], [893, 1], [896,
+  1], [899, 1], [914, 1], [916, 1], [918, 1], [919, 2], [921, 1], [924, 1], [926,
+  2], [927, 2], [929, 1], [930, 1], [937, 1], [944, 2], [949, 1], [952, 4], [957,
+  1], [958, 1], [962, 1], [964, 1], [968, 1], [971, 1], [975, 1], [990, 2], [994,
+  1], [995, 1], [1004, 1], [1010, 1], [1011, 1], [1019, 1], [1020, 1], [1022, 1],
+  [1026, 1], [1030, 2], [1031, 1], [1032, 1], [1034, 1], [1035, 1], [1036, 1], [1039,
+  2], [1040, 1], [1042, 1], [1043, 1], [1049, 1], [1050, 3], [1051, 2], [1053, 2],
+  [1054, 1], [1055, 1], [1058, 2], [1059, 2], [1061, 1], [1063, 2], [1067, 1], [1069,
+  1], [1070, 1], [1074, 1], [1076, 2], [1080, 1], [1082, 2], [1084, 1], [1085, 1],
+  [1088, 2], [1089, 1], [1090, 1], [1092, 2], [1094, 3], [1095, 2], [1099, 1], [1100,
+  1], [1101, 1], [1106, 1], [1109, 1], [1110, 1], [1111, 1], [1112, 1], [1113, 2],
+  [1118, 1], [1119, 1], [1122, 1], [1126, 1], [1136, 1], [1138, 1], [1147, 1], [1155,
+  1], [1167, 1], [1169, 1], [1171, 1], [1172, 1], [1175, 1], [1185, 1], [1186, 1],
+  [1190, 1], [1197, 1], [1206, 1], [1219, 1], [1223, 1], [1224, 1], [1225, 1], [1226,
+  1], [1236, 2], [1240, 1], [1249, 1], [1252, 1], [1266, 1], [1269, 1], [1294, 1],
+  [1308, 1], [1310, 1], [1312, 1], [1314, 1], [1318, 1], [1330, 1], [1343, 1], [1356,
+  1], [1361, 1], [1363, 1], [1372, 1], [1378, 1], [1380, 2], [1382, 1], [1383, 1],
+  [1389, 1], [1391, 1], [1394, 2], [1401, 1], [1407, 1], [1413, 1], [1415, 1], [1417,
+  1], [1419, 1], [1425, 1], [1426, 2], [1433, 1], [1441, 3], [1456, 1], [1460, 1],
+  [1465, 1], [1469, 1], [1472, 1], [1480, 1], [1500, 1], [1505, 1], [1509, 1], [1544,
+  1], [1585, 1], [1594, 2], [1595, 1], [1609, 1], [1610, 1], [1613, 1], [1616, 1],
+  [1627, 1], [1664, 1], [1692, 1], [1696, 1], [1713, 1], [1723, 1], [1769, 1], [1832,
+  1], [1836, 1], [1840, 1], [1848, 2], [1895, 1], [1949, 1], [1951, 1], [1976, 1],
+  [1992, 1], [1994, 1], [2003, 1], [2019, 1], [2041, 1], [2268, 1], [2272, 1], [3041,
+  1]]'
+src_sent_tokens_mean: 43
+src_sent_tokens_median: 20
+src_unique_sents: '[[1, 1335], [2, 2444], [3, 2773], [4, 3524], [5, 6832], [6, 6498],
+  [7, 6811], [8, 6810], [9, 6548], [10, 5646], [11, 5005], [12, 4531], [13, 3970],
+  [14, 3714], [15, 3894], [16, 3951], [17, 4145], [18, 4345], [19, 4506], [20, 4158],
+  [21, 3523], [22, 3127], [23, 2514], [24, 2279], [25, 2099], [26, 2010], [27, 1951],
+  [28, 1890], [29, 1768], [30, 1634], [31, 1731], [32, 1683], [33, 1556], [34, 1628],
+  [35, 1537], [36, 1416], [37, 1446], [38, 1372], [39, 1328], [40, 1279], [41, 1228],
+  [42, 1171], [43, 1108], [44, 1094], [45, 1079], [46, 1025], [47, 926], [48, 912],
+  [49, 833], [50, 800], [51, 807], [52, 771], [53, 813], [54, 733], [55, 641], [56,
+  698], [57, 674], [58, 608], [59, 668], [60, 619], [61, 636], [62, 585], [63, 581],
+  [64, 616], [65, 561], [66, 549], [67, 557], [68, 587], [69, 557], [70, 518], [71,
+  557], [72, 543], [73, 539], [74, 521], [75, 496], [76, 558], [77, 469], [78, 494],
+  [79, 534], [80, 505], [81, 531], [82, 513], [83, 502], [84, 524], [85, 513], [86,
+  547], [87, 519], [88, 544], [89, 529], [90, 502], [91, 535], [92, 465], [93, 514],
+  [94, 526], [95, 483], [96, 535], [97, 496], [98, 464], [99, 500], [100, 494], [101,
+  536], [102, 480], [103, 461], [104, 495], [105, 479], [106, 483], [107, 448], [108,
+  440], [109, 478], [110, 449], [111, 470], [112, 430], [113, 425], [114, 441], [115,
+  420], [116, 463], [117, 412], [118, 411], [119, 383], [120, 390], [121, 387], [122,
+  375], [123, 374], [124, 358], [125, 384], [126, 373], [127, 378], [128, 331], [129,
+  368], [130, 326], [131, 331], [132, 342], [133, 321], [134, 297], [135, 303], [136,
+  352], [137, 285], [138, 290], [139, 294], [140, 293], [141, 299], [142, 294], [143,
+  274], [144, 278], [145, 267], [146, 234], [147, 271], [148, 270], [149, 260], [150,
+  235], [151, 231], [152, 208], [153, 228], [154, 195], [155, 224], [156, 217], [157,
+  198], [158, 190], [159, 237], [160, 193], [161, 209], [162, 191], [163, 173], [164,
+  203], [165, 164], [166, 192], [167, 191], [168, 180], [169, 158], [170, 153], [171,
+  152], [172, 173], [173, 149], [174, 178], [175, 154], [176, 131], [177, 146], [178,
+  130], [179, 128], [180, 122], [181, 148], [182, 117], [183, 137], [184, 118], [185,
+  118], [186, 108], [187, 126], [188, 117], [189, 132], [190, 110], [191, 97], [192,
+  94], [193, 115], [194, 105], [195, 105], [196, 94], [197, 93], [198, 90], [199,
+  93], [200, 87], [201, 68], [202, 76], [203, 70], [204, 84], [205, 57], [206, 74],
+  [207, 75], [208, 71], [209, 58], [210, 68], [211, 68], [212, 50], [213, 78], [214,
+  65], [215, 66], [216, 55], [217, 50], [218, 46], [219, 53], [220, 46], [221, 48],
+  [222, 53], [223, 43], [224, 52], [225, 45], [226, 34], [227, 53], [228, 28], [229,
+  35], [230, 29], [231, 24], [232, 25], [233, 47], [234, 42], [235, 39], [236, 32],
+  [237, 34], [238, 36], [239, 25], [240, 19], [241, 31], [242, 24], [243, 29], [244,
+  22], [245, 24], [246, 20], [247, 27], [248, 18], [249, 23], [250, 13], [251, 19],
+  [252, 13], [253, 21], [254, 22], [255, 15], [256, 15], [257, 21], [258, 19], [259,
+  20], [260, 16], [261, 12], [262, 12], [263, 14], [264, 14], [265, 10], [266, 18],
+  [267, 6], [268, 8], [269, 5], [270, 7], [271, 6], [272, 9], [273, 6], [274, 9],
+  [275, 8], [276, 11], [277, 13], [278, 12], [279, 11], [280, 12], [281, 5], [282,
+  6], [283, 3], [284, 4], [285, 9], [286, 4], [287, 9], [288, 4], [289, 6], [290,
+  4], [291, 10], [292, 3], [293, 5], [294, 4], [295, 5], [296, 2], [297, 6], [298,
+  3], [299, 5], [300, 6], [301, 3], [302, 3], [303, 5], [304, 4], [305, 3], [306,
+  5], [307, 3], [308, 4], [309, 2], [310, 1], [311, 6], [312, 2], [313, 4], [314,
+  2], [315, 3], [316, 2], [317, 2], [318, 5], [319, 1], [320, 2], [321, 2], [322,
+  5], [325, 1], [326, 3], [327, 1], [329, 4], [333, 2], [334, 2], [338, 1], [340,
+  1], [342, 2], [343, 1], [347, 3], [348, 2], [349, 2], [350, 2], [351, 1], [352,
+  1], [354, 1], [355, 1], [356, 2], [357, 1], [358, 1], [359, 2], [360, 1], [361,
+  1], [362, 1], [364, 1], [366, 1], [371, 2], [376, 1], [378, 2], [379, 2], [384,
+  1], [386, 2], [387, 1], [389, 1], [390, 1], [393, 1], [396, 1], [398, 1], [401,
+  1], [407, 2], [408, 1], [417, 1], [433, 1], [442, 1], [447, 1], [448, 1], [458,
+  1], [463, 1], [466, 1], [468, 1], [484, 1], [499, 1], [519, 1], [522, 1], [523,
+  1], [524, 2], [525, 2], [527, 2], [543, 1], [546, 1], [548, 2], [550, 2], [551,
+  1], [554, 1], [556, 1], [558, 2], [562, 1], [567, 1], [570, 1], [572, 2], [573,
+  2], [574, 1], [575, 1], [576, 1], [579, 1], [582, 1], [587, 1], [591, 1], [607,
+  2], [608, 1], [621, 2], [630, 1], [639, 1], [647, 1], [655, 1], [656, 1], [663,
+  1], [668, 1], [675, 1], [680, 1], [685, 1], [696, 1], [703, 1], [704, 1], [707,
+  2], [719, 1], [721, 1], [724, 1], [725, 1], [726, 1], [729, 1], [734, 1], [737,
+  1], [751, 1], [756, 1], [761, 1], [774, 1], [783, 1], [786, 1], [787, 1], [788,
+  1], [792, 1], [796, 1], [797, 1], [798, 1], [804, 2], [815, 1], [827, 2], [836,
+  1], [838, 1], [841, 1], [843, 1], [857, 1], [858, 1], [860, 1], [869, 1], [870,
+  1], [873, 1], [875, 2], [880, 1], [884, 1], [888, 1], [891, 1], [893, 1], [896,
+  1], [899, 1], [914, 1], [916, 1], [918, 1], [919, 2], [921, 1], [924, 1], [926,
+  2], [927, 2], [929, 1], [930, 1], [937, 1], [944, 2], [949, 1], [952, 4], [957,
+  1], [958, 1], [962, 1], [964, 1], [968, 1], [971, 1], [975, 1], [990, 2], [994,
+  1], [995, 1], [1004, 1], [1010, 1], [1011, 1], [1019, 1], [1020, 1], [1022, 1],
+  [1026, 1], [1030, 2], [1031, 1], [1032, 1], [1034, 1], [1035, 1], [1036, 1], [1039,
+  2], [1040, 1], [1042, 1], [1043, 1], [1049, 1], [1050, 3], [1051, 2], [1053, 2],
+  [1054, 1], [1055, 1], [1058, 2], [1059, 2], [1061, 1], [1063, 2], [1067, 1], [1069,
+  1], [1070, 1], [1074, 1], [1076, 2], [1080, 1], [1082, 2], [1084, 1], [1085, 1],
+  [1088, 2], [1089, 1], [1090, 1], [1092, 2], [1094, 3], [1095, 2], [1099, 1], [1100,
+  1], [1101, 1], [1106, 1], [1109, 1], [1110, 1], [1111, 1], [1112, 1], [1113, 2],
+  [1118, 1], [1119, 1], [1122, 1], [1126, 1], [1136, 1], [1138, 1], [1147, 1], [1155,
+  1], [1167, 1], [1169, 1], [1171, 1], [1172, 1], [1175, 1], [1185, 1], [1186, 1],
+  [1190, 1], [1197, 1], [1206, 1], [1219, 1], [1223, 1], [1224, 1], [1225, 1], [1226,
+  1], [1236, 2], [1240, 1], [1249, 1], [1252, 1], [1266, 1], [1269, 1], [1294, 1],
+  [1308, 1], [1310, 1], [1312, 1], [1314, 1], [1318, 1], [1330, 1], [1343, 1], [1356,
+  1], [1361, 1], [1363, 1], [1372, 1], [1378, 1], [1380, 2], [1382, 1], [1383, 1],
+  [1389, 1], [1391, 1], [1394, 2], [1401, 1], [1407, 1], [1413, 1], [1415, 1], [1417,
+  1], [1419, 1], [1425, 1], [1426, 2], [1433, 1], [1441, 3], [1456, 1], [1460, 1],
+  [1465, 1], [1469, 1], [1472, 1], [1480, 1], [1500, 1], [1505, 1], [1509, 1], [1544,
+  1], [1585, 1], [1594, 2], [1595, 1], [1609, 1], [1610, 1], [1613, 1], [1616, 1],
+  [1627, 1], [1664, 1], [1692, 1], [1696, 1], [1713, 1], [1723, 1], [1769, 1], [1832,
+  1], [1836, 1], [1840, 1], [1848, 2], [1895, 1], [1949, 1], [1951, 1], [1976, 1],
+  [1992, 1], [1994, 1], [2003, 1], [2019, 1], [2041, 1], [2268, 1], [2272, 1], [3041,
+  1]]'
+src_langs: '[["es", 51324], ["en", 44651], ["pl", 23306], ["fr", 11864], ["eo", 7378],
+  ["it", 5993], ["sl", 5897], ["id", 5361], ["nl", 4008], ["sw", 3958], ["hr", 3182],
+  ["cy", 2929], ["ca", 2633], ["de", 2351], ["fi", 2328], ["tl", 2245], ["cs", 2146],
+  ["yo", 2026], ["ro", 1920], ["et", 1816], ["rm", 1495], ["mg", 1450], ["hu", 1429],
+  ["sr", 1385], ["eu", 1377], ["mt", 1151], ["su", 1090], ["ms", 1090], ["pt", 1089],
+  ["lv", 1024], ["tr", 1003], ["la", 972], ["sk", 900], ["ru", 610], ["nb", 595],
+  ["ia", 523], ["sv", 503], ["lmo", 483], ["kw", 469], ["ga", 467], ["bn", 437], ["war",
+  418], ["lt", 413], ["vi", 399], ["ur", 398], ["scn", 373], ["ast", 366], ["co",
+  347], ["wa", 316], ["ceb", 294], ["bs", 290], ["lb", 283], ["vep", 270], ["da",
+  258], ["sq", 257], ["sco", 248], ["is", 241], ["jbo", 233], ["ml", 221], ["jv",
+  216], ["io", 215], ["ku", 212], ["oc", 205], ["pms", 201], ["gl", 195], ["hsb",
+  187], ["zh", 180], ["gn", 153], ["eml", 140], ["uk", 135], ["tk", 133], ["uz", 130],
+  ["cbk", 127], ["ja", 121], ["af", 121], ["br", 120], ["kn", 116], ["gom", 112],
+  ["ht", 107], ["az", 106], ["als", 104], ["sc", 99], ["ta", 98], ["nap", 98], ["fy",
+  96], ["ilo", 94], ["bar", 90], ["qu", 86], ["an", 83], ["so", 75], ["ie", 69], ["li",
+  68], ["diq", 68], ["pam", 57], ["vo", 56], ["mwl", 56], ["nds", 55], ["gv", 52],
+  ["el", 49], ["fa", 47], ["vls", 42], ["pa", 35], ["gd", 34], ["nn", 33], ["th",
+  28], ["pnb", 28], ["tg", 27], ["or", 27], ["nah", 27], ["min", 27], ["hy", 27],
+  ["vec", 26], ["ko", 25], ["os", 24], ["lo", 24], ["si", 20], ["kk", 20], ["hif",
+  20], ["te", 19], ["mn", 18], ["lrc", 17], ["hi", 17], ["kv", 16], ["gu", 16], ["bcl",
+  16], ["my", 14], ["dsb", 14], ["ar", 14], ["xal", 13], ["pfl", 11], ["dv", 11],
+  ["bh", 11], ["tyv", 9], ["tt", 9], ["frr", 9], ["ne", 8], ["mk", 8], ["as", 8],
+  ["mrj", 6], ["ky", 6], ["new", 5], ["bg", 5], ["ug", 4], ["mr", 4], ["ka", 4], ["he",
+  4], ["azb", 4], ["km", 3], ["ckb", 3], ["ps", 2], ["cv", 2], ["ce", 2], ["bo", 2],
+  ["be", 2], ["ba", 2], ["sah", 1], ["mzn", 1], ["mai", 1], ["lez", 1], ["av", 1],
+  ["arz", 1]]'
+hardrules_tags: '{"not_too_long": 1087, "not_too_short": 11511, "length_ratio": 0,
+  "no_urls": 592, "no_bad_encoding": 571, "pii": 45}'
+sample: '["\"Ne \u00e8le fridzi tiam la, ele be woa\u0256o \u014bku edzi be ele be
+  efe didime nado fome kple gbe\u0256i\u0256i fe ses\u1ebdme si womate \u014bu ama
+  o. Dzesi siawo domet\u0254 \u0256esia\u0256e le vevie \u014but\u0254\u014but\u0254
+  ne \u00e8le fridzi tiam. Ele be woabu dzesi eve siawo \u014bu le \u0263eyi\u0263i
+  \u0256eka me. Ne edz\u0254 be tefe boo a\u0256eke mele tefe si wodo \u0256a o la,
+  ekema tiatiaa aku \u0256e fridzi sue a\u0256e \u014bu. Gake esia y\u0254 f\u0169
+  kple nyatefe si w\u00f2nye be \u0256eko atike siwo kat\u00e3 n\u00e8di be yeadze
+  \u0256e eme la madze o. Ne \u00e8di be yeafle fridzi g\u00e3 a\u0256e la, ekema
+  \u0256eko tefe a\u0256eke mele asiw\u00f2 le nu\u0256afea na afisi w\u00f2le o.
+  Esia tae w\u00f2le be woabu gbe\u0256i\u0256i fe ses\u1ebdme kple efe didime \u014bu
+  le \u0263eyi\u0263i \u0256eka me ne wole fridzi tiam. Zi ge\u0256e la, ne wole fridzi
+  tiam la, wow\u0254a tiatiaa le nufam\u0254\u0303a fe lolome kple fridzia \u014but\u0254
+  fe lolome fe s\u0254s\u0254me nu. Le afisia la, w\u00f2 \u014but\u0254 w\u00f2 didiwo
+  koe w\u00f2le be w\u00f2afia m\u0254 w\u00f2. Ne \u00e8flea nusiwo n\u00e0dzra \u0256o
+  \u0256e nufam\u0254\u0303 me \u0263esia\u0263i la, ekema ahi\u00e3 be n\u00e0tia
+  x\u0254 si s\u0254 eye n\u00e0tiae. Gake abe alesi ak\u0254ntabubuwo \u0256ee fia
+  ene la, nyits\u0254 laa la, nuflela siwo l\u0254\u0303a nu\u0256u\u0256u siwo wofa
+  tsikpe me nufofofu fe xexl\u1ebdme si le dzidzim \u0256e edzi le nufam\u0254\u0303wo
+  flem \u0256e vovo tso fridzi gb\u0254.\\nDzesi mawo ke ku \u0256e fridzi tiatia
+  h\u00e3 \u014bu. Ne numame na w\u00f2 be n\u00e0fle nu\u0256u\u0256u le agb\u0254s\u0254s\u0254
+  g\u00e3 me ats\u0254 adzrae \u0256o la, ekema ele be n\u00e0bu tiatia a\u0256e si
+  me fridzi g\u00e3 a\u0256e ate \u014bu an\u0254 \u014bu. Gake ne \u00e8w\u0254 tiatia
+  a\u0256e ts\u0254 da asi \u0256e fridzi fomevi a\u0256e dzi, eye, \u028buu me, mes\u0254
+  kple agb\u0254s\u0254s\u0254me siwo w\u00f2zu numame na o la, ekema nublanuit\u0254e
+  la, manya w\u0254 be n\u00e0dzi fridzia \u0256e edzi o. Ne m\u00edele alesi wo\u0256\u0254
+  m\u0254\u0303awoe \u014bu bum la, wodoa go dzesiwo abe \u201cfridzia fe lolome bliboa\u201d
+  kple \u201cagb\u0254s\u0254s\u0254 si \u014bu vi\u0256e le\u201d ene zi ge\u0256e
+  \u014but\u0254. Fridzia fe lolome kat\u00e3 l\u0254 tefe si me agbal\u1ebddzra\u0256ofewo
+  fe anyin\u0254n\u0254 mele o \u0256e eme.\\nLe agb\u0254s\u0254s\u0254 si \u014bu
+  vi\u0256e le gome la, meb\u0254 \u0263esia\u0263i o le nyatefe si w\u00f2nye be
+  agbal\u1ebddzra\u0256ofewo li woats\u0254 adzra nuawo \u0256o ta. Eyata ne \u00e8le
+  fridzi tiam la, ehi\u00e3 be n\u00e0\u0256o \u014bu \u0256e gbe\u0256i\u0256i si
+  woate \u014bu az\u00e3 ko \u014bu. Ne ew\u0254la megbl\u0254e o la, ekema, be woate
+  \u014bu anya la, ehi\u00e3 be woa\u0256e 15% le agb\u0254s\u0254s\u0254 bliboa me.
+  Ts\u0254 kpe \u0256e xexl\u1ebdme si s\u0254 kple wo n\u0254ewo \u014bu la, mele
+  be ame na\u014bl\u0254 afisi fridzi kple nufam\u0254\u0303a le be o. Tefe si s\u0254
+  wue nye ne nufam\u0254\u0303a le ete. Esia tso nyatefe si w\u00f2nye be womez\u00e3a
+  nufam\u0254\u0303 le gbesiagbegben\u0254n\u0254 me f\u0169 o wu fridzi, eye w\u00f2n\u0254a
+  \u014bg\u0254 \u0263esia\u0263i. Mehi\u00e3 be woab\u0254b\u0254 \u0256e anyi o.\\nHome
+  | Articles\\nFebruary 1, 2023 19:01:53 +0200 GMT\\n0.006 sec.\"", "\"PAULO \u0191E
+  AGBAL\u1ebc SI W\u00d2\u014bL\u0254 NA FILIPIT\u0254WO\\nKp\u0254kpl\u0254yi\u0256eme\\nPaulo
+  \u014bl\u0254 agbal\u1ebd sia na kristot\u0254 siwo n\u0254 Filipi si nye hame\\ngb\u00e3t\u0254
+  si Paulo \u0256o \u0256e Europa. Filipi nye asitsadu x\u0254\u014bk\u0254 a\u0256e
+  le\\nRomat\u0254wo fe dzi\u0256u\u0256u te. Afi siae wol\u00e9e le hede gax\u0254
+  me. E\u014bl\u0254\\nagbal\u1ebd sia esi w\u00f2n\u0254 gax\u0254 me. Le \u0263ema\u0263i
+  me la, a\u028batsonufiala\\na\u0256ewo va ge \u0256e hamea me eye ame a\u0256ewo
+  tsi tsitre \u0256e Paulo fe\\nnufiafia \u014bu. Ke ame akpa g\u00e3t\u0254 x\u0254
+  Paulo fe nufiafia eye wokpe\\n\u0256e e\u014bu hedi efe nuhiahi\u00e3wo n\u025b
+  le efe gax\u0254men\u0254\u0263i. Paulo te gbe\\n\u0256e dzidz\u0254 vav\u00e3t\u0254
+  si le Kristo yomedzedze me la dzi vevie.\\nEmenyawo\\n1. Kp\u0254kpl\u0254yi\u0256eme,
+  1:1-11\\n2. Paulo na nyanya Filipit\u0254wo tso e\u0256okui \u014bu, 1:12-26\\n3.
+  Agben\u0254n\u0254 abe kristot\u0254 ene, 1:27-2 :18\\n4. Paulo \u0256o Timoteo
+  kple Epafrodito \u0256e Filipit\u0254wo, 2:19-30\\n5. Nufiafia kple \u014bus\u1ebddoamenyawo,
+  3:1-4:9\\n6. Akpedada le Filipit\u0254wo fe nunanawo ta, 4 :10-20\\n7. Nuwunyawo
+  kple yayranyawo, 4 :21-23\\n1 Agbal\u1ebd sia tso Paulo kple Timoteo, Yesu Kristo
+  fe d\u0254lawo gb\u0254 le yiyim na\\nOs\u0254fowo fe kpe\u0256e\u014but\u0254wo
+  kple kristot\u0254 siwo kat\u00e3 le Filipi.\\n2 Mawu nayra mi kat\u00e3. \u1ebc,
+  medoa gbe \u0256a be Mawu m\u00eda Fofo kple m\u00edafe Afet\u0254\\nYesu Kristo
+  nana efe yayra detot\u0254 mia domet\u0254 \u0256e sia \u0256e eye efe \u014butifafa
+  la nan\u0254\\nmiafe dziwo kple miafe agben\u0254n\u0254 blibo me.\\nAkpedada kple
+  gbedodo\u0256a\\n3 Nye gbedodo\u0256awo kat\u00e3 \u0256e mia ta nye akpedada s\u0254\u014b
+  ko na Mawu. 4 Eye ne mele\\ngbe dom \u0256a \u0256e mia ta la, dzidz\u0254 s\u0254\u014b
+  y\u0254a nye dzime. 5 Le kpekpe\u0256e\u014bu g\u00e3 siwo kat\u00e3\\nmiena le
+  Kristo fe nyanyui la kaka me tso \u0263eyi\u0263i si miesee gb\u00e3 va se \u0256e
+  fifia dzi la\\nta. 6 Eye meka \u0256e edzi be Mawu ame si dze d\u0254 nyui sia w\u0254w\u0254
+  g\u0254me le mia me la,\\nayi edzi akpe \u0256e mia \u014bu bena miatsi \u0256e
+  edzi le efe amenuveve la me va se \u0256e esime\\nd\u0254 si w\u0254w\u0254 g\u0254me
+  w\u00f2dze le mia me la nawu nu ke\u014bke\u014b le \u014bkeke si Yesu Kristo aga\\ntr\u0254
+  va la dzi. 7 Ele \u0256o\u0256o nu be nye dzi nan\u0254 \u0256e mia \u014bu abe
+  ale si w\u00f2le ene, elabena\\nmiekp\u0254 gome le Mawu fe yayra me esi men\u0254
+  gax\u0254 me kple esi medo eye men\u0254\\nnyatefe la ta \u028blim hen\u0254 gbef\u00e3
+  \u0256em Kristo na amewo. 8 Mawu \u0256eka koe nya l\u0254l\u0254\u0303 vav\u00e3\\nsi
+  le menye \u0256e mia \u014bu abe ale si Yesu Kristo h\u00e3 l\u0254\u0303 mi ene.
+  9 Nye gbedodo\u0256a \u0256e mia\\ntae nye bena, miay\u0254 f\u0169 eye miagb\u00e3
+  go kple l\u0254l\u0254\u0303 na mia n\u0254ewo eye nenema ke mian\u0254\\ntsitsim
+  \u0256e edzi le gb\u0254gb\u0254menunya kple sidzedze me.\\n10 Elabena medina vevie
+  \u0263esia\u0263i be miakp\u0254 vovototo le nyui kple v\u0254\u0303 dome\\neye
+  kpe \u0256e esia \u014buti la mian\u0254 dzadz\u025b le miafe dziwo me ale bena
+  ame a\u0256eke mate \u014bu\\nakp\u0254 kp\u0254tsotso le mia \u014buti o, va se
+  \u0256e esime m\u00edafe Afet\u0254 la nagatr\u0254 ava. 11 Min\u0254 nu\\nnyui
+  kple d\u0254menyow\u0254w\u0254 dzi \u0256aa. Esiawoe afia be mienye Mawu viwo vav\u00e3
+  eye\\nwoahe kafukafu kple \u014butik\u0254k\u0254e ge\u0256e v\u025b na Afet\u0254
+  la.\\nPaulo fe bablawo do nyanyui la \u0256e \u014bg\u0254\\n12 N\u0254vi l\u0254l\u0254\u0303wo,
+  medi be mianya esia be: Nu sia nu si dz\u0254 \u0256e dzinye le afi sia la, do\\ngbef\u00e3\u0256e\u0256e
+  Kristo fe nyanyui la \u0256e \u014bg\u0254 bo\u014b. 13 Elabena ame sia ame si le
+  gb\u0254nye le\\nafi sia hekpe \u0256e asrafo siwo kat\u00e3 le asa\u0256ame \u014buti
+  la nya k\u0254tee be susu si ta mele\\ngame \u0256o koe nye be menye kristot\u0254.
+  14 Eye nye gamen\u0254n\u0254 na be kristot\u0254 siwo kat\u00e3\\nle afi sia la
+  megav\u0254\u0303na na gamen\u0254n\u0254 o. Ke le go a\u0256ewo me la, nye dzidodo
+  si mets\u0254\\nle gax\u0254 mee la de dzi fo na wo ale gbegbe be womegav\u0254\u0303a
+  gbef\u00e3\u0256e\u0256e Kristo o.\\n15 Nyatefe w\u00f2nye be ame a\u0256ewo \u0256ea
+  gbef\u00e3 Kristo le \u014bu \u028ba\u028b\u00e3 kple dzrew\u0254w\u0254\\nta, ke
+  ame bubu a\u0256ewo \u0256ea gbef\u00e3 nya la kple dzitsinya nyui. 16 Ame evelia
+  siawo\\nw\u0254n\u025b le l\u0254l\u0254\u0303 me, elabena wonyae be mele game le
+  afii le nyanyui la ta \u028bi\u028bli \u014buti. 17\\nAme kem\u025bawo gbl\u0254a
+  Kristo fe nya la le \u0256okuit\u0254didi ta, ke menye tso dzi vav\u00e3 me o,\\nkple
+  susu sia be yewoats\u0254 xaxa akpe \u0256e nye bablamen\u0254n\u0254 \u014bu. 18
+  Susu ka ke nu wole\\nmawunya la gbl\u0254m \u0256o h\u00e3 la, enye nyatefe matr\u0254matr\u0254
+  be wole gbe f\u00e3 \u0256em Kristo fe\\nnyanyui la eye esiae nye nye dzidz\u0254.\\nNu
+  si ta magan\u0254 agbe vie \u0256o\\n19 Man\u0254 dzidz\u0254kp\u0254kp\u0254 dzi
+  \u0256aa, elabena menya be zi ale si miele gbe dom \u0256a \u0256e\\ntanye eye Gb\u0254gb\u0254
+  K\u0254k\u0254e la h\u00e3 le kpekpem \u0256e \u014bunye ta la, esiawo kat\u00e3
+  ahe nyui ko\\nv\u025b nam eye woaw\u0254e be woa\u0256e asi le \u014butinye le gax\u0254
+  me. 20 Mele lalam eye mele m\u0254\\nkp\u0254m be nyemaw\u0254 naneke ats\u0254
+  do \u014bukpe \u0256okuinye o; ke bo\u014b man\u0254 klalo \u0263esia\u0263i a\u0256e\\ngbef\u00e3
+  Kristo abe ale si mew\u0254n\u025b ts\u00e3 ene, togb\u0254 be nuwo le ses\u1ebdm
+  nam le afi sia \u014but\u0254\\nle \u0263eyi\u0263i siawo me h\u00e3 la, menya be
+  ne mele agbe o, meku o, made bubu Kristo \u014bu.\\n21 Le gonyeme la, agben\u0254n\u0254
+  nye m\u0254nukp\u0254kp\u0254 nam be maw\u0254 d\u0254 na Kristo. Ke ku\\nga \u0256e
+  vi wu. 22 Ke nenye be agben\u0254n\u0254 ana m\u0254nukp\u0254kp\u0254 ge\u0256em
+  be ma\u0256e lu\u028b\u0254wo na\\nKristo la, ekema nyemeganya ne agbe alo kue nyo
+  wu o. 23 Ew\u0254na nam \u0263ea\u0256ewo\u0263i\\nbe man\u0254 agbe gake le \u0263ebubu\u0263iwo
+  la, edzroam be maku, elabena medi vevie be mayi\\na\u0256an\u0254 Kristo gb\u0254.
+  O, adz\u0254 dzi na nye ya sasas\u00e3 wu be man\u0254 kodzogbe afii! 24 Ke\\nnyatefe
+  lae nye be, mate \u014bu ana kpekpe\u0256e\u014bu ge\u0256e miawo wu ne mele agbe.\\n25
+  \u1ebc, ele eme be nye d\u0254w\u0254w\u0254 ga hi\u00e3 le agbe sia me eya ta meka
+  \u0256e edzi be\\nmagan\u0254 agbe vie wu be makpe \u0256e mia \u014buti be miatsi
+  \u0256e edzi le x\u0254se me eye miakp\u0254\\ndzidz\u0254. 26 Nye agben\u0254n\u0254
+  ado dzidz\u0254 na mi eye w\u00f2ana m\u0254nukp\u0254kp\u0254 mi be miakafu\\nYesu
+  Kristo le ale si w\u00f2na megale agbe la ta ne megava mia gb\u0254.\\n27 Ke nu
+  ka kee adz\u0254 \u0256e dzinye h\u00e3 la, mi\u0256o \u014bku edzi \u0263esia\u0263i
+  be mian\u0254 agbe\\nabe kristot\u0254wo ene, ale be, ne magakp\u0254 mi alo nyemakp\u0254
+  mi o h\u00e3 la, man\u0254 \u0256ase\u0256i\u0256i\\nnyuiwo s\u0254\u014b ko x\u0254m
+  tso mia \u014buti be mi kat\u00e3 miele \u0256eka kple susu \u0256eka sia be miagbl\u0254\\nnyanyui
+  la 28 dzidefot\u0254e, nu ka kee miafe fut\u0254wo aw\u0254 mi h\u00e3. Woakp\u0254
+  esia abe wofe\\nanyidzedze fe dzesi ene, ke miawo la, esia anye dzesi tso Mawu gb\u0254
+  be, eli kpli mi\\neye bena ena agbe mav\u0254 mi. 29 Ke miawo la menye edzix\u0254x\u0254se
+  fe m\u0254nukp\u0254kp\u0254 ko\\nwona mi o, ke bo\u014b be miakpe fu \u0256e eta
+  h\u00e3. 30 M\u00ed kat\u00e3e le avu sia w\u0254m \u0256ekae.\\nMiekp\u0254 ale
+  si mekpe fu \u0256e eta va yi eye fifia h\u00e3 megale avu ses\u1ebd a\u0256e w\u0254m,
+  abe ale si\\nmienya nyuie la ene.\\nMidze Yesu fe \u0256okuib\u0254b\u0254 fe kp\u0254\u0256e\u014bu
+  yome\\n2 Nane li abe kristot\u0254wo fe dzidedefo na wo n\u0254ewo enae? \u0256e
+  miel\u0254\u0303m ale\\ngbegbe be miadi be yewoakpe \u0256e \u014butinyea? \u0256e
+  m\u00ed kpli miawo fe n\u0254vinyenye le\\nAfet\u0254 la me kple m\u00edafe gomekp\u0254kp\u0254
+  le Gb\u0254gb\u0254 \u0256eka la me nye vi\u0256e na mia? \u0256e\\nnublanuikp\u0254kp\u0254
+  le dzime na mi le go a\u0256e mea? 2 Ekema mina makp\u0254 dzidz\u0254 vav\u00e3t\u0254\\nto
+  mia n\u0254ewo l\u0254l\u0254\u0303 kple \u0256ekaw\u0254w\u0254 me, eye mits\u0254
+  dzi \u0256eka, susu \u0256eka kple ta\u0256odzinu\\n\u0256eka w\u0254 d\u0254e aduadu.\\n3
+  Miganye \u0256okuit\u0254dilawo o; migaw\u0254 nu be miadze ame bubuwo \u014bu o.
+  Mib\u0254b\u0254\\nmia \u0256okuiwo eye mibu ame bubuwo be wonyo wu mi. 4 T\u0254nye
+  ko nenyo megan\u0254\\nmia me o; ke bo\u014b mibu ame bubuwo h\u00e3 \u014buti eye
+  miats\u0254 \u0256e le nu si w\u0254m wole la me.\\n5 Miafe n\u0254n\u0254me nen\u0254
+  abe Kristo Yesu t\u0254 ene, 6 ame si, esi w\u00f2nye be Mawu\\nfe n\u0254n\u0254me
+  mee w\u00f2n\u0254 h\u00e3 la, mebui be ye kple Mawu fe s\u0254s\u0254 nye nane
+  si w\u00f2le be\\nyea\u028bli kplii o, 7 ke bo\u014b e\u0256i gb\u0254lo e\u0256okui
+  hets\u0254 d\u0254la fe n\u0254n\u0254me do eye w\u00f2va le ame fe\\nn\u0254n\u0254me
+  me. 8 Esi w\u00f2n\u0254 ame fe n\u0254n\u0254me me la, eb\u0254b\u0254 e\u0256okui,
+  \u0256o to yi \u0256ase ku me, yi\\n\u0256ase atitsoga\u014butiku me ke! 9 Eya ta
+  Mawu do eya amea \u0256e dzi yi \u0256ase tefe k\u0254k\u0254t\u0254\\nkekeake eye
+  w\u00f2ts\u0254 \u014bk\u0254 si fo \u014bk\u0254wo kat\u00e3 ta la n\u025b. 10
+  Be le Yesu fe \u014bk\u0254 me, klo sia\\nklo, adze n\u025b le dzifo kple anyigba
+  kpakple anyigba te, 11 eye a\u0256e sia a\u0256e a\u028bu eme be\\nYesu Kristo nye
+  Afet\u0254, hena Mawu fofo la fe \u014butik\u0254k\u0254e.\\n12 X\u0254\u0303nye
+  l\u0254l\u0254\u0303wo, esi men\u0254 mia gb\u0254 la, miel\u00e9 se siwo mede na
+  mi la me \u0256e asi\\nses\u1fd6e. Ke az\u0254 esi nyemegale mia gb\u0254 o la,
+  bo\u014b w\u00f2le be mial\u00e9 be na mia \u0256okuiwo wu\\neye miaw\u0254 nu nyui
+  siwo afia be miekp\u0254 \u0256e\u0256e. Mits\u0254 bubu kple to\u0256o\u0256o na
+  Mawu eye\\nmiagbe nu le nu siwo medz\u0254a dzi n\u025b o la w\u0254w\u0254 gb\u0254.
+  13 Elabena Mawu le d\u0254 w\u0254m le\\nmia me. Eyae kpena \u0256e mia \u014bu
+  be mia\u0256o toe eye w\u00f2gakpena \u0256e mia \u014bu be miaw\u0254 efe\\nl\u0254l\u0254\u0303nu.\\n14
+  Miw\u0254 nu sia nu li\u028bili\u028bilil\u1fd6 kple nyahehe man\u0254mee, 15 ale
+  bena ame a\u0256eke\\nmate \u014bu akp\u0254 m\u0254 ats\u0254 f\u0254\u0256i\u0256i
+  na mi o. Min\u0254 agbe dzadz\u025b si \u014bu f\u0254\u0256i\u0256i mele o, abe\\nMawu
+  vi siwo le xexe si me do viviti tsi\u0256itsi\u0256i hey\u0254 f\u0169 kple ame
+  maw\u0254nutefewo kple\\nk\u0254lialiat\u0254wo la ene. Mikl\u1ebd le wo dome abe
+  aka\u0256i ene 16 eye migbl\u0254 Agbenya la na\\nwo.\\nEkema nenye be Kristo gava
+  la, makp\u0254 dzidz\u0254 g\u00e3 a\u0256e be d\u0254 si mew\u0254 le mia\\ndome
+  la \u0256e vi ge\u0256e. 17 Eye nenye be wok\u0254 nye \u028bu \u0256i le nyatefe
+  me, be w\u00f2anye v\u0254sa\\nna Mawu \u0256e miafe x\u0254se ta alo nenye be edze
+  be maku \u0256e mia ta g\u0254\u0303 h\u00e3 la, mal\u0254\u0303 aku\\nfaa eye mana
+  mia domet\u0254 \u0256e sia \u0256e nakp\u0254 gome le nye dzidz\u0254 sia me. 18
+  Elabena ele\\nbe miakp\u0254 dzidz\u0254 \u0256e esia h\u00e3 ta eye miadz\u0254
+  dzi kplim be wona m\u0254nukp\u0254kp\u0254m be\\nmaku \u0256e mia ta.\\nTimoteo
+  kple Epafrodito\\n19 Ne Afet\u0254 la l\u0254\u0303 la, ma\u0256o Timoteo \u0256a
+  be w\u00f2ava kp\u0254 mi \u0256a kpuie. Ekema ne etr\u0254\\ngb\u0254 la, nu siwo
+  w\u00f2ava gbl\u0254 nam tso nu siwo kat\u00e3 w\u0254m miele kple ale si miele
+  d\u0254a\\ndzii \u014bu la ana dzi naga\u0256o fonye. 20 Ame a\u0256eke megali si
+  ts\u0254 \u0256e le miafe nya me wu\\nTimoteo o. 21 Edze abe \u0256e bubuawo kat\u00e3
+  tsi dzi \u0256e woawo \u014but\u0254 fe \u0256o\u0256owo \u014buti eye\\nmenye \u0256e
+  Yesu Kristo t\u0254wo \u014bu o ene. 22 Ke mienya Timoteo nyuie. \u0256e w\u00f2le
+  nam\\nabe vi ene eye w\u00f2kpena \u0256e \u014butinye le nyanyui la gb\u0254gbl\u0254
+  me. 23 Mele m\u0254 kp\u0254m be\\nma\u0256oe \u0256e mi kpuie; ne mese nu si adz\u0254
+  \u0256e dzinye le afi sia ko. 24 Eye mele m\u0254\\nkp\u0254m be, Afet\u0254 la
+  ana be nye \u014but\u0254 h\u00e3 mava kp\u0254 mi \u0256a kpuie.\\n25 Le \u0263eyi\u0263i
+  sia me la, mebui be enyo be magbugb\u0254 Epafrodito a\u0256o \u0256e mi.\\nMie\u0256oe
+  \u0256a be w\u00f2ava kpe \u0256e \u014butinye le nye hiahi\u00e3wo me; enyo \u014but\u0254.
+  M\u00ed kplii m\u00edezu\\nn\u0254vi vav\u00e3wo eye m\u00edew\u0254a d\u0254 aduadu.
+  26 Az\u0254 la, megbugb\u0254e le \u0256o\u0256om \u0256e mi, elabena\\nafe le edzrom
+  eye esi miese be, edze d\u0254 la, miet\u0254t\u0254 le mia \u0256okuiwo me. 27
+  Le\\nnyatefe me la, edze d\u0254 eye esus\u0254 vie ko w\u00f2aku. Gake Mawu kp\u0254
+  nublanui na nye\\nkplii siaa, bena mets\u0254 efe ku fe nuxaxa ts\u0254 kpe esiwo
+  le dzinye xoxo la o.\\n28 Eya ta metsi dzi vevie be ma\u0256oe \u0256e mi, eye menya
+  ale si gbegbe miada\\nakpee be miegakp\u0254e, eye esia ana nye h\u00e3 makp\u0254
+  dzidz\u0254 eye w\u00f2a\u0256e nye xaxawo dzi\\nakp\u0254t\u0254. 29 Mido dzaa
+  n\u025b le Afet\u0254 la me kple dzidz\u0254 g\u00e3 a\u0256e, eye mi\u0256e miafe\\n\u014budzedzekp\u0254kp\u0254
+  fiae, 30 elabena efe agbe \u0256o xaxa g\u00e3 a\u0256e me \u0256e Kristo fe d\u0254
+  la ta\\neye esus\u0254 vie ne w\u00f2aku le esime w\u00f2le agbagba dzem be yeaw\u0254
+  nu siwo miate \u014bu w\u0254\\nnam o, \u0256e ale si miele adz\u0254ge le gb\u0254nye
+  la ta.\\nMiga\u0256o dzi \u0256e \u014butil\u00e3 \u014bu o\\n3 Ml\u0254eba la,
+  n\u0254vi l\u0254l\u0254\u0303awo, midz\u0254 dzi le Afet\u0254 la me. Me\u0256e
+  fu nam be ma\u014bl\u0254 nu\\nmawo ke a\u0256o \u0256e mi o, elabena wonyo na miafe
+  dedien\u0254n\u0254. 2 Min\u0254 \u014budz\u0254 na avu\\nmawo, \u014butsu mawo,
+  ame siwo w\u0254a funyafunya \u014butil\u00e3, 3 elabena m\u00ed ame siwo sub\u0254na\\nle
+  Mawu fe gb\u0254gb\u0254 me lae nye a\u028batsotso nyuit\u0254, ame siwo dz\u0254a
+  dzi le Kristo Yesu\\nme eye wome\u0256oa dzi \u0256e \u014butil\u00e3 \u014bu o,
+  4 ev\u0254 nye ya susu si ta w\u00f2le be ma\u0256o dzi \u0256e\\n\u014butil\u00e3
+  \u014bu la le asinye hafi. Ne ame a\u0256e bu be yeate \u014bu a\u0256o dzi \u0256e
+  \u014butil\u00e3 \u014bu la, nye la\\nmewui, 5 elabena wotso a\u028ba nam le \u014bkeke
+  enyia gbe, metso Israel duk\u0254 me, tso\\nBenyamin fe to la me, Hebrit\u0254 tso
+  Hebrit\u0254wo me, le sea nu la, Farisit\u0254 menye. 6 Ke\\nle hamea yometiti me
+  la, ame a\u0256eke mewum o, eye le dz\u0254dz\u0254enyenye si tso sea me\\nnu la,
+  mokakaman\u0254\u014but\u0254e menye.\\n7 Gake me\u0256e asi le nu siwo kat\u00e3
+  mebuna ts\u00e3 be wonye vi\u0256enuwo la \u014bu eye\\nmets\u0254 wo kat\u00e3
+  fu gbe be mate \u014bu ats\u0254 nye x\u0254se kple m\u0254kp\u0254kp\u0254 ana
+  Yesu \u0256eka ko. 8\\n\u1ebc, az\u0254 la, ne mets\u0254 nu siawo kat\u00e3 s\u0254
+  kple vi\u0256e g\u00e3 si mekp\u0254 le Kristo Yesu, nye Afet\u0254\\nnyanya me
+  la, womega \u0256i naneke le nye \u014bkume o. Esia ta mets\u0254 nu mawo kat\u00e3
+  fu\\ngbe, eye mebu wo a\u0256ukpodzinuwoe, bena nye asi nasu Kristo dzi, 9 eye maw\u0254
+  \u0256eka\\nkplii. Az\u0254 la, nyemega\u0256oa \u014bu \u0256e nye d\u0254 nyui
+  w\u0254w\u0254 \u014buti alo Mawu fe seawo dzi\\nw\u0254w\u0254 \u014buti be woa\u0256em
+  o, ke bo\u014b me\u0256oa dzi \u0256e Kristo \u014buti be a\u0256em; elabena m\u0254\\nnyuit\u0254
+  si dzi m\u00edato aw\u0254 \u0256eka kple Mawu lae nye x\u0254se kple \u014bu\u0256o\u0256o
+  vevie \u0256e\\nKristo \u0256eka h\u0254\u0303 ko \u014buti. 10 Az\u0254 la, me\u0256e
+  asi le nu bubu \u0256e sia \u0256e \u014buti. Meva kp\u0254e be\\nesia koe nye m\u0254
+  si dzi m\u00edato anya Kristo eye m\u00edanye nu h\u00e3 tso \u014bus\u1ebd si f\u0254e
+  \u0256e agbe\\ntso ku me la \u014bu; to esia me m\u00edate \u014bu ase nu si w\u00f2nye
+  be m\u00edakpe fu, aku kplii la h\u00e3\\ng\u0254me. 11 Eya ta nu ka kee adz\u0254
+  h\u00e3 la, nye h\u00e3 manye ame siwo akp\u0254 gome le ame\\nkukuwo fe tsitretsitsi
+  kple wofe agbe yeye la me, la domet\u0254 \u0256eka.\\nDzesi\u0256ofe yometiti\\n12
+  Menye \u0256e mele gb\u0254gbl\u0254m be nye asi su nu siawo kat\u00e3 dzi xoxo
+  alo wow\u0254m mede\\nblibo xoxo o, ke bo\u014b mele \u014bus\u1ebd dom nu be nye
+  asi nasu nu si ta Kristo Yesu h\u00e3 fe\\nasi su dzinye \u0256o la dzi. 13 N\u0254vi
+  l\u0254l\u0254\u0303wo, nyemebu \u0256okuinye be nye asi su edzi o. Ke\\nnu \u0256eka
+  si mew\u0254na lae nye be; me\u014bl\u0254a nu siwo le megbenye la be eye mew\u0254a
+  nye\\n\u014butete \u014buti d\u0254 be ma\u0256o nu si le \u014bg\u0254 nye la gb\u0254.
+  14 Mele dzisi\u0256ofe la mi nyam vevie\\nbe max\u0254 dzi\u0256u\u0256udzesi si
+  ta Mawu y\u0254m le Kristo Yesu me \u0256o be manyi agbe mav\u0254\\ndome.\\n15
+  Aleae w\u00f2le be m\u00ed ame siwo tsi le x\u0254sea me la nakp\u0254 nu siawoe.
+  Ke ne w\u00f2\\nsusu to vovo le nu siawo domet\u0254 a\u0256e \u014bu la, Mawu a\u0256e
+  eya h\u00e3 afia w\u00f2. 16 Ke \u0256eko\\nmiana m\u00edan\u0254 agbe \u0256e nu
+  si dzi m\u00edafe asi su la nu.\\n17 N\u0254vi l\u0254l\u0254\u0303wo, mikpe \u0256e
+  ame bubuwo \u014bu ne miasr\u0254\u0303 nye agbe fe kp\u0254\u0256e\u014bu eye\\nmial\u00e9
+  \u014bku \u0256e ame siwo z\u0254na \u0256e \u0256o\u0256o siwo m\u00edew\u0254
+  na mi nu la \u014buti. 18 Elabena\\negbl\u0254e na mi zi ge\u0256e kp\u0254, eye
+  megale egbl\u0254m na mi fifia kple a\u0256atsi be, ame ge\u0256ewo\\nle kristot\u0254wo
+  fe m\u0254 dzi z\u0254m, esiwo, le nyatefe me la, wonye Kristo fe atitsoga la fe\\nfut\u0254wo.
+  19 Woatsr\u0254\u0303 gbidigbidi, elabena nu sia nu si dzro wo lae zua wofe mawu;
+  nu\\nsi w\u00f2le be w\u00f2akpe \u014bu na wo la bo\u014b zua dada blibo na wo
+  eye nu si ko \u014buti wobua\\ntame lena lae nye agben\u0254n\u0254 le anyigba dzi
+  afii. 20 Ke m\u00edawo la dzifoe nye m\u00eda de\\nafi si m\u00eda \u0256ela, Afet\u0254
+  Yesu Kristo le eye m\u00edele m\u0254 kp\u0254m be agatso afi ma ava. 21\\nNe egatr\u0254
+  va la, atr\u0254 m\u00edafe \u014butil\u00e3 siwo \u014bu anyigbadzi gb\u0254dz\u0254gb\u0254dz\u0254
+  le la eye woazu\\n\u014butik\u0254k\u0254e \u014butil\u00e3 siwo \u014bu \u014bus\u1ebd
+  le abe eya \u014but\u0254 t\u0254 ene, to \u014bus\u1ebd triak\u0254 ma si w\u00f2ats\u0254
+  a\u0256u\\nnu sia nu dzii le afi sia afi la \u014butid\u0254w\u0254w\u0254 me.\\n\u014bus\u1ebddoame
+  nyawo\\n4 N\u0254vi kristot\u0254 l\u0254l\u0254\u0303awo, mel\u0254\u0303 mi eye
+  medi vevie be mava kp\u0254 mi \u0256a elabena\\nmiawoe nye nye dzidz\u0254 kple
+  nye fetu si max\u0254 \u0256e nye d\u0254w\u0254w\u0254wo ta. Eya ta x\u0254\u0303nye\\nl\u0254l\u0254\u0303wo,
+  min\u0254 te ses\u1fd6e nyatefet\u0254e le Afet\u0254 la me.\\n2 Me\u0256e kuku
+  na Ewodia eye mele kuku \u0256em na Sintike h\u00e3 be gbe nadze gbe\\ndzi na wo
+  le Afet\u0254 la me. 3 Megale biabiam tso mi, nye had\u0254w\u0254lawo si be miakpe
+  \u0256e\\nny\u0254nu siawo \u014buti elabena wow\u0254 d\u0254 kplim aduadu le nyanyui
+  la kaka me na ame\\nbubuwo; eye wow\u0254 d\u0254 kple Klemens kpakple nye d\u0254w\u0254la
+  bubu siwo \u014bk\u0254 wo\u014bl\u0254 \u0256e\\nagbegbal\u1ebda me la h\u00e3.\\n4
+  Dzi nadz\u0254 mi le Afet\u0254 la me \u0263esia\u0263i. Megale egbl\u0254m ake
+  be dzi nadz\u0254 mi! 5\\nMina ame sia ame nakp\u0254e adze sii be, miedia mia \u0256okuit\u0254
+  o, ke bo\u014b miebua ame\\nbubuwo \u014buti le nu sia nu si miew\u0254na la me.
+  Mi\u0256o \u014bku edzi be Afet\u0254 la fe vava gogo.\\n6 Migatsi dzima\u0256i
+  le naneke \u014buti o; ke bo\u014b mido gbe \u0256a le nu sia nu me. Migbl\u0254\\nmiafe
+  hiahi\u00e3wo na Mawu, eye miga\u014bl\u0254 akpedada n\u025b be le efe \u014bu\u0256o\u0256o
+  ta o. 7 Ne miew\u0254 esia la ekema Mawu fe \u014butifafa si fo amegbet\u0254wo
+  fe nug\u0254mesesewo kat\u00e3 ta la\\nan\u0254 mia me. Efe \u014butifafa ana gb\u0254dz\u0254e
+  miafe susuwo kple miafe dziwo le ale si miex\u0254\\nKristo Yesu dzi se la nu. 8
+  Ml\u0254eba la, n\u0254vi l\u0254l\u0254\u0303wo, nu siwo nye nyatefe, nu siwo dze\\nna
+  bubu, nu siwo le dz\u0254dz\u0254e, nu siwo le dzadz\u025b, nu siwo dze na l\u0254l\u0254\u0303,
+  nu siwo nya\\nkp\u0254na ne nu nyui a\u0256e li alo nane li si wole be woakafu la
+  mibu nu sia t\u0254gbewo \u014bu. 9\\nMin\u0254 nu siwo kat\u00e3 miesr\u0254\u0303
+  tso gb\u0254nye eye miekp\u0254m men\u0254a w\u0254w\u0254m la w\u0254w\u0254 dzi
+  eye\\n\u014butifafa fe Mawu la an\u0254 anyi kple mi. 10 Medz\u0254 dzi le Afet\u0254
+  la me vevie be ml\u0254eba\\nla, miegadze \u014bku\u0256o\u0256o dzinye g\u0254me.
+  Le nyatefe me la, miets\u0254 \u0256e le eme nam, gake\\n\u0256ekoe miekp\u0254
+  asinu be mia\u0256ee afi o. 11 Menye be \u0256e mexaxa \u0263ea\u0256eke\u0263i
+  tae mele\\negbl\u0254m \u0256o o, elabena mesr\u0254\u0303 ale si man\u0254 agbee
+  le dzidz\u0254 me nenye be nu ge\u0256e loo\\nalo nu sue a\u0256e koe le asinye.
+  12 Menya ale si man\u0254 agbee, ne naneke mele asinye o\\nloo alo ne nu sia nu
+  le asinye. Mesr\u0254\u0303 dzidzemekp\u0254kp\u0254 fe nu \u0263a\u0263la le go
+  \u0256e sia \u0256e me,\\nle fo\u0256i\u0256i me loo alo le d\u0254wuame me, le
+  nukp\u0254kp\u0254 me loo alo le hi\u00e3 me. 13 Mate \u014bu\\naw\u0254 nu sia
+  nu to eya ame si doa \u014bus\u1ebdm la me. 14 Ke h\u00e3 la, miew\u0254e nyuie
+  be\\nmiekpena \u0256e \u014butinye le nye \u0263eyi\u0263i ses\u1ebd siawo me.\\n15
+  Abe ale si mienya nyuie ene la, esi meva gbl\u0254 nyanyui la na mi zi gb\u00e3t\u0254\\neye
+  meyi nye m\u0254z\u0254z\u0254 dzi tso Makedonia la, mi Filipit\u0254wo koe zu nye
+  had\u0254w\u0254lawo le\\nnunana kple nux\u0254x\u0254 me. Hame bubu a\u0256eke
+  mew\u0254 esia o. 16 Esi men\u0254 Tesalonika g\u0254\u0303\\nh\u00e3 la, mie\u0256o
+  nu \u0256em zi eve s\u0254\u014b. 17 Togb\u0254 be mekp\u0254 \u014budzedze le miafe
+  nunana \u014buti\\nh\u00e3 la, nu si gadz\u0254 dzi nam wu lae nye fetu g\u00e3
+  si miava x\u0254 le mia fe d\u0254menyow\u0254w\u0254\\nta.\\n18 Fifi laa la, nu
+  sia nu si mehi\u00e3 la le asinye, le nyatefe me la nuawo s\u0254 gb\u0254\\ng\u0254\u0303
+  h\u00e3 wu ale si mehi\u00e3! Esi Epafrodito va la, ets\u0254 nunana gbogbo siwo
+  mie\u0256o \u0256em la\\nv\u025b nam. Nunana siawo nye v\u0254sanu \u028be\u028b\u1ebd
+  lil\u1fd6li si dzea Mawu \u014bu \u014but\u0254. 19 Eye eyae ana\\nmiafe nuhiahi\u00e3wo
+  kat\u00e3 mi tso efe \u014butik\u0254k\u0254e kesin\u0254nuwo me, le nu si Kristo
+  Yesu w\u0254\\nna m\u00ed la ta. 20 Az\u0254 \u014butik\u0254k\u0254e woana Mawu
+  m\u00eda Fofo la tso mav\u0254 me yi \u0256e mav\u0254 me.\\nAmen.\\nNuwuwugbedonamewo\\n21
+  Medo gbe na kristot\u0254 siwo kat\u00e3 le afi ma; n\u0254vi siwo le gb\u0254nye
+  la h\u00e3 do gbe na mi.\\n22 Kristot\u0254 \u0256e sia \u0256e si le afi sia la
+  di be mado gbe na mi na yewo, vevit\u0254 esiwo le\\nd\u0254 w\u0254m le Kaisaro
+  fe Fias\u00e3 me. 23 M\u00edafe Afet\u0254 Yesu Kristo fe amenuveve nan\u0254 anyi\\nkple
+  miafe gb\u0254gb\u0254wo.\"", "\"\u201cM\u00ed \u0256o e\u014bui am\u025b ciwo y\u00ed
+  kpl\u0254k\u0254 m\u00ed y\u00ed n\u00fa Mawu ny\u0254 n\u0254 m\u00ed.\u201d\u2014Ebre.
+  13:7, Ezo\u0256u\u0256u Yoyu wema.\\nSUSU VEVI L\u0186\\nEnu ci m\u00ec\u0256o awa
+  y\u00ed akp\u0254t\u0254 adodo\u0254 bubu Yehowa hab\u0254b\u0254 l\u0254 nu y\u00ed
+  agbekando ji.\\n1. L\u00e9 wowa toto n\u0254 Yehowa m\u025bwo do le exwe san\u014bdi
+  \u014bk\u0254t\u0254 m\u025b\u0254?\\nEzo\u0256u\u0256u Yoyu Wema.\\n2. So 1919
+  \u0256e, l\u00e9 Yehowa nan\u0254 em\u0254das\u025bnam\u025b ko\u0256o gb\u0254ngb\u0254nm\u025b\u014b\u0256u\u0256u
+  do\u0254?\\n2 Le egb\u025b m\u025b can \u0254, Yehowa kp\u0254t\u0254 wak\u0254
+  toto do yi m\u025bwo nu. So exwe 1919 m\u025b\u0254, Yesu zan am\u025bshiamin\u0254wo
+  gb\u025bb\u0254b\u0254 hw\u025bhw\u025b \u0256eka y\u00ed s\u0254 wa toto do kunu\u0256e\u0256e
+  d\u0254 l\u0254 nu y\u00ed gbena \u014b\u0256u\u0256u yi dokpl\u0254t\u0254wo le
+  gb\u0254ngb\u0254n m\u025b.a (Luiki 12:42) \u00c9ze petii m\u0254, Yehowa cuk\u0254
+  shi do ed\u0254 ci gb\u025bb\u0254b\u0254 \u014bt\u0254\u0301 wa l\u0254 ji.\u2014Ezai.
+  60:22; 65:13, 14.\\n3-4. (a) Dre l\u00e9 M\u00eckp\u0254n\u0254 ny\u0254na le totowawa
+  m\u025b do. (b) Nyi nu m\u00ecaxo nuxu so le ny\u0254ta c\u025b m\u025b\u0254?\\n3
+  N\u0254 totowawa deli\u0254, m\u00ecdasun ji awa ed\u0254 ci Yesu d\u0254 m\u00ec
+  m\u0254 m\u00ecwo le wa o. (Mat. 28:19, 20) S\u0254\u025b le kp\u0254w\u025b m\u025b
+  m\u0254, wodes\u0254 nyigbanmama \u0256e n\u0254 m\u00ec o y\u00ed m\u025b\u0256e
+  h\u025bn ayi \u0256e kunu le fini y\u00ed drui. Enu ci y\u00ed aj\u0254 y\u00ed
+  nyi m\u0254 Kunu\u0256et\u0254 ham\u025bham\u025bwo a\u0256e kunu le nyigbanmama
+  \u014bm\u025b\u0256ek\u025bwo ji, y\u00ed agbetr\u0254 to wo ji zen\u025bni\u0256e,
+  gan y\u00ed nyigbanmama buwo acuin y\u00ed m\u025b\u0256e dayi wo ji kp\u0254 o.
+  \u00c0t\u025bn\u014b abu tam\u025b kp\u0254 so em\u0254 bu ciwo ji m\u00eckp\u0254n\u0254
+  ny\u0254nawo le ci m\u00ecwan\u0254 nu le totonua?\\n4 Shigbe l\u00e9 Yesu wa toto
+  n\u0254 yi nukplaviwo hwenu ele nyigban ji\u0254, ahanke y\u00ed ewak\u0254 toto
+  n\u0254 Mawu m\u025bwo gb\u025b n\u025b. Le ny\u0254ta c\u025b m\u025b\u0254, m\u00ecaxo
+  nuxu so kp\u0254w\u025b ci Yesu s\u0254 da\u0256\u025b nu ko\u0256o l\u00e9 hab\u0254b\u0254
+  l\u0254 kpl\u0254k\u0254 yi kp\u0254w\u025b l\u0254 do. M\u00ecagbekan se\u014b
+  so l\u00e9 m\u00ecaw\u025b adas\u025b m\u0254 Yehowa hab\u0254b\u0254 l\u0254 je\u014b
+  n\u0254 m\u00ec do nu.\\nM\u00ccWO HAB\u0186B\u0186 L\u0186 KPL\u0186 YESU KP\u0186W\u0190
+  DO\\n5. Em\u0254 \u0256eka ci ji m\u00eckpl\u0254n\u0254 Yesu kp\u0254w\u025b do
+  le\u0254? (\u01b7an 8:28)\\n5 Yesu kpla l\u00e9 axo nuxu do ko\u0256o l\u00e9 awa
+  nu do le Edal\u0254 ci y\u00ed le je\u014bkwi m\u025b gb\u0254. Yehowa hab\u0254b\u0254
+  l\u0254 kpl\u0254k\u0254 Yesu kp\u0254w\u025b do y\u00ed zann\u0254 Mawu Ny\u0254
+  l\u0254 ke\u014b y\u00ed s\u0254 kpen\u0254do m\u00ec nu m\u00ecnyan\u0254 enu ci
+  y\u00ed ny\u0254 ko\u0256o enu ci y\u00ed d\u0254n, y\u00ed gbenan\u0254 em\u0254das\u025bnam\u025b
+  ciwo ji m\u00ecaz\u0254n do le agbe m\u025b. (Hl\u025bn \u01b7an 8:28; 2 Tim. 3:16,
+  17) Wo\u0256on\u0254 \u014bwi yi ji n\u0254 m\u00ec gashiagam\u025b m\u0254 m\u00ec\u0256o
+  ahl\u025bnn\u0254 Mawu Ny\u0254 l\u0254 y\u00ed awan\u0254 do ji. Ny\u0254na ci
+  m\u00eckp\u0254n\u0254 n\u0254 m\u00ecwa do nukplamuny\u0254 c\u025b ji\u0254?\\n6.
+  Em\u0254 vevi \u0256eka ci ji m\u00eckp\u0254n\u0254 ny\u0254na so Bibla kplakpla
+  m\u025b le\u0254?\\n6 M\u00eckp\u0254n\u0254 ny\u0254na sugb\u0254 n\u0254 m\u00eckplak\u0254
+  Bibla ko\u0256o m\u00ecwo Bibla nukplawemawo. Le kp\u0254w\u025b m\u025b, m\u00ecat\u025bn\u014b
+  as\u0254 Bibla nukplakplawo as\u0254 s\u0254 ko\u0256o em\u0254das\u025bnam\u025b
+  ciwo y\u00ed hab\u0254b\u0254 l\u0254 nak\u0254 m\u00ec. N\u0254 m\u00eckp\u0254
+  m\u0254 em\u0254das\u025bnam\u025b ci m\u00ecx\u0254k\u0254 s\u0254gbe ko\u0256o
+  enu\u014bwl\u025b\u014bwl\u025b l\u0254wo\u0254, m\u00ecgbevakann\u0254do Yehowa
+  hab\u0254b\u0254 l\u0254 ji s\u0254wu.\u2014R\u0254m. 12:2.\\n7. \u014a\u025bdu
+  ci y\u00ed Yesu dra\u0254, y\u00ed l\u00e9 Yehowa hab\u0254b\u0254 l\u0254 wak\u0254
+  yit\u0254 han do\u0254?\\n7 Yesu dra \u201ce\u014b\u025bnywi ci y\u00ed xo nuxu
+  so Efy\u0254\u0256uxu Mawut\u0254 l\u0254 nu.\u201d (Luiki 4:43, 44) Yesu gbed\u0254
+  yi nukplaviwo m\u0254 wo le dra Fy\u0254\u0256uxu l\u0254. (Luiki 9:1, 2; 10:8,
+  9) Egb\u025b\u0254, m\u025b ciwo ple\u014b y\u00ed le Yehowa hab\u0254b\u0254 l\u0254
+  m\u025b dran\u0254 Fy\u0254\u0256uxu \u014b\u025bdu l\u0254, n\u0254 won\u0254n\u0254
+  fi\u0256ekpokpui alo n\u0254 wo\u0256o d\u0254 sugb\u0254 le hab\u0254b\u0254 l\u0254
+  m\u025b can.\\n8. Bubu gangan ci wodo m\u00ec nu\u0254?\\n8 M\u0254nukp\u0254kp\u0254
+  gangan enyi n\u0254 m\u00ec m\u0254 m\u00ecdrak\u0254 ny\u0254n\u0254nwi ci y\u00ed
+  kuso Mawu Fy\u0254\u0256uxu l\u0254 nu n\u0254 m\u025bbuwo! De m\u025b\u0256ekpokpui
+  y\u00ed m\u0254nukp\u0254kp\u0254 c\u025b hun n\u0254 o. Le kp\u0254w\u025b m\u025b,
+  hwenu Yesu le nyigban ji\u0254, de\u0256e m\u0254 n\u0254 gb\u0254ngb\u0254nv\u0254nwo
+  n\u0254 woa\u0256e kunu so nu o. (Luiki 4:41) Egb\u025b\u0254, gb\u0254xwe m\u025b\u0256e
+  an\u0254 Yehowa m\u025bwo m\u025b y\u00ed adra e\u014b\u025bnywi l\u0254\u0254,
+  \u00e9\u0256o aje n\u0254 m\u0254nukp\u0254kp\u0254 l\u0254. M\u00ecdanas\u025b
+  l\u00e9 kunu\u0256e\u0256e d\u0254 l\u0254 je\u014b n\u0254 m\u00ec sugb\u0254 do,
+  ci m\u00ecdr\u025bni le fi\u0256ekpokpui ko\u0256o le hwenu \u0256ekpokpui l\u00e9
+  m\u00ecakpe ji do. Shigbe Yesu n\u025b\u0254, m\u00ecwo tajinu y\u00ed nyi m\u0254
+  m\u00ecado Fy\u0254\u0256uxu ny\u0254n\u0254nwi l\u0254 do am\u025bwo ji m\u025b
+  y\u00ed awuk\u0254 shi yi.\u2014Mat. 13:3, 23; 1 Kor. 3:6.\\n9. L\u00e9 hab\u0254b\u0254
+  l\u0254 w\u025b n\u0254 woajeshi Mawu \u014bk\u0254 l\u0254 do\u0254?\\n9 Yesu na
+  y\u00ed wojeshi Mawu \u014bk\u0254. Le gbedo\u0256a ci ewa n\u0254 Edal\u0254 ci
+  y\u00ed le je\u014bkwi m\u025b m\u025b\u0254, Yesu nu m\u0254: \u201c\u014ana y\u00ed
+  wojeshi ao \u014bk\u0254.\u201d (\u01b7an 17:26, NWT) Shigbe l\u00e9 Yesu w\u025b
+  n\u025b\u0254, Yehowa hab\u0254b\u0254 l\u0254 wan\u0254 enu\u0256ekpokpui ci ji
+  akpe ke\u014b akpedo am\u025bwo nu n\u0254 woajeshi Mawu \u014bk\u0254 \u0256\u025b.
+  Yehowa hab\u0254b\u0254 l\u0254 wa ed\u0254 Xexe Yeye G\u0254nm\u025b\u0256e\u0256e
+  Bibla m\u025b. Evy\u025b\u0254 wo\u0256e Bibla c\u025b ple\u014b alo yi kpaxwe \u0256e
+  g\u0254nm\u025b do egbe ciwo y\u00ed wu 270 m\u025b. Le m\u025bgbenyawo A4 ko\u0256o
+  A5 n\u0254 Bibla g\u0254nm\u025b\u0256e\u0256e c\u025b\u0254, \u00e0kp\u0254 susu
+  vovovo ciwo y\u00ed d\u0254 wotr\u0254 y\u00ed s\u0254 Mawu \u014bk\u0254 va Bibla
+  m\u025b. Appendix C, ci y\u00ed le Bibla Enukplakpla t\u0254 m\u025b na kpe\u0256oji
+  sugb\u0254 ciwo y\u00ed das\u025b m\u0254 Mawu \u014bk\u0254 l\u0254 \u0256o aze
+  le Gr\u025bki Nu\u014bwl\u025b\u014bwl\u025bwo m\u025b donu 237.\\n10. Nyi \u00e8kpla
+  le eny\u0254 ciwo n\u0254viny\u0254nu ci y\u00ed so Myanmar nu m\u025b\u0254?\\n10
+  Shigbe Yesu n\u025b\u0254, m\u00ecji m\u0254 m\u00ecawa \u014b\u0256ekpokpui ci
+  ji m\u00eckpe y\u00ed akpedo am\u025bwo nu n\u0254 woajeshi Mawu \u014bk\u0254 l\u0254.
+  Ny\u0254nu \u0256eka ci y\u00ed le Myanmar y\u00ed \u0256o xwe 67 k\u0254 \u0256ashi
+  hwenu ekpla m\u0254 \u014bk\u0254 le Mawu shi. \u00c9nu m\u0254: \u201c\u014ak\u0254t\u0254
+  l\u0254 ke le anyi gbe m\u025b y\u00ed \u014bvanya m\u0254 Mawu \u014bk\u0254 y\u00ed
+  nyi Yehowa. . . . M\u00edkpla\u014b enuvevi \u0256eka ci y\u00ed \u014bdanya kp\u0254
+  sa o.\u201d Shigbe l\u00e9 enuj\u0254j\u0254 c\u025b das\u025b yi n\u025b\u0254,
+  Mawu \u014bk\u0254 l\u0254 jejeshi \u0256\u025b at\u025bn\u014b awa d\u0254 do ejinywit\u0254wo
+  ji sugb\u0254.\\nKP\u0186T\u0186 ADADAS\u0190 M\u0186 M\u00ccWO HAB\u0186B\u0186
+  L\u0186 JE\u014a N\u0186 YE\\n11. L\u00e9 ham\u025bm\u025bshinshinwo at\u025bn\u014b
+  adas\u025b do m\u0254 Yehowa hab\u0254b\u0254 l\u0254 je\u014b n\u0254 yewo\u0254?
+  (Kp\u0254 foto l\u0254 h\u025bnn\u025b.)\\n11 Em\u0254 \u0256eka ci ji ham\u025bm\u025bshinshinwo
+  at\u025bn\u014b das\u025b le m\u0254 Mawu hab\u0254b\u0254 l\u0254 je\u014b n\u0254
+  yewo le\u0254? N\u0254 ham\u025bm\u025bshinshinwo x\u0254 em\u0254das\u025bnam\u025b
+  \u0256e\u0254, wo\u0256o ahlin nywi\u0256e y\u00ed awa \u014bciwo ple\u014b ji woakpe
+  y\u00ed az\u0254n do ji. Le kp\u0254w\u025b m\u025b, wox\u0254 em\u0254das\u025bnam\u025bwo
+  so l\u00e9 woawa akpaxwe vovovowo n\u0254 b\u0254b\u0254wo do, l\u00e9 woado gbe
+  \u0256a\u0256a le ham\u025b l\u0254 \u014bk\u0254 do ko\u0256o l\u00e9 woale bu
+  n\u0254 Kristo l\u025bngb\u0254wo do. Ham\u025bm\u025bshinshin ciwo y\u00ed z\u0254nn\u0254
+  do em\u0254das\u025bnam\u025b ci hab\u0254b\u0254 l\u0254 nan\u0254 ji kpen\u0254do
+  n\u0254vi\u014bsu ko\u0256o n\u0254viny\u0254nuwo nu y\u00ed wokp\u0254\u025bni
+  m\u0254 yewole vofam\u025b y\u00ed wogbel\u0254n yewo.\\n12. (a) Nyi y\u00ed ta\u0256o
+  m\u00ec\u0256o awa d\u0254 al\u0254leal\u0254m\u025b ko\u0256o m\u025b ciwo y\u00ed
+  kpl\u0254kpl\u0254 m\u00ec\u0254? (Ebret\u0254wo 13:7, 17) (b) Nyi y\u00ed ta\u0256o
+  m\u00ec\u0256o as\u0254 susu \u0256o m\u025b ciwo y\u00ed kpl\u0254kpl\u0254 m\u00ec
+  wo n\u0254n\u0254m\u025b nywiwo ji\u0254?\\n12 N\u0254 m\u00ecx\u0254 m\u0254das\u025bnam\u025b
+  \u0256e so ham\u025bm\u025bshinshinwo gb\u0254\u0254, m\u00ec\u0256o al\u0254n faa
+  y\u00ed awa do ji. N\u0254 m\u00ecw\u025b ahan \u0254, ale faf\u025b\u0256e n\u0254
+  m\u025b ciwo y\u00ed kpl\u0254kpl\u0254 m\u00ec y\u00ed woawa wowo d\u0254 nywi\u0256e.
+  Bibla do \u014bs\u025bn m\u00ec m\u0254 m\u00ecwo le se tonu y\u00ed agbebub\u0254
+  n\u0254 m\u025b ciwo y\u00ed kpl\u0254kpl\u0254 m\u00ec. (Hl\u025bn Ebret\u0254wo
+  13:7, 17.) Ec\u025b wawa at\u025bn\u014b agb\u0254nnu hwe\u0256ewonu. Nyi y\u00ed
+  ta\u0256o\u0254? \u00d0o m\u025b ciwo y\u00ed kpl\u0254k\u0254 m\u00ec nyi nuv\u0254nm\u025bwo.
+  N\u0254 m\u00ecs\u0254 susu \u0256o wowo n\u0254n\u0254m\u025b d\u0254nd\u0254nwo
+  ji s\u0254wu m\u0254 m\u00ecas\u0254 susu \u0256o wowo n\u0254n\u0254m\u025b nywiwo
+  ji\u0254, ale shigbe m\u0254 m\u00eckpe\u025bkpe\u025bdo m\u00ecwo ket\u0254n\u0254wo
+  nu \u025bn\u025b. L\u00e9 anyi ahan do\u0254? \u00c1d\u0254 y\u00ed l\u00e9 m\u00eckann\u0254do
+  Mawu hab\u0254b\u0254 l\u0254 ji sa, a\u0256e kp\u0254t\u0254. \u014aci p\u025b\u025b
+  jik\u0254 m\u00ecwo ket\u0254n\u0254wo le n\u025b. Nyi ko\u014b m\u00ecat\u025bn\u014b
+  awa y\u00ed ado jeshi susu mas\u0254gbe ciwo m\u00ecwo ket\u0254n\u0254wo kakan\u0254
+  ke\u014b agbe wo\u0254?\\n\u014aGBEL\u0186N N\u0186 M\u0190BUWO ANA NAMI KANKANDO
+  HAB\u0186B\u0186 L\u0186 JI O\\n13. L\u00e9 Mawu ket\u0254n\u0254wo ten\u0254kp\u0254
+  ke\u014b n\u0254 m\u00ec\u014bgbes\u0254 \u014bkuvi nywi as\u0254 kp\u0254n\u0254
+  Mawu hab\u0254b\u0254 l\u0254 do\u0254?\\n13 Mawu ket\u0254n\u0254wo ten\u0254kp\u0254
+  y\u00ed aw\u025b n\u0254 am\u025bwo akp\u0254\u025b m\u0254 enunywi ciwo hab\u0254b\u0254
+  l\u0254 wak\u0254 nyi enud\u0254nd\u0254nwo. Le kp\u0254w\u025b m\u025b, m\u00eckpla
+  le enu\u014bwl\u025b\u014bwl\u025b l\u0254wo m\u025b m\u0254 Yehowa jiji\u025b m\u0254
+  ye s\u025bnt\u0254wo \u0256o ale m\u025bmi\u0256e le gbaza m\u025b, le wana m\u025b
+  ko\u0256o le gb\u0254ngb\u0254n m\u025b. \u00c9nu m\u0254 m\u025b\u0256ekpokpui
+  ci y\u00ed wak\u0254 enu mak\u0254mak\u0254 \u0256e y\u00ed gbe m\u0254 yedatr\u0254
+  ji m\u025b\u0254, dagben\u0254 ham\u025b l\u0254 m\u025b o. (1 Kor. 5:11-13; 6:9,
+  10) M\u00ecl\u0254n do Bibla m\u025b se \u014bt\u0254\u0301 ji. V\u0254 m\u00ecwo
+  ket\u0254n\u0254wo zann\u0254 ny\u0254 \u014bt\u0254\u0301wo y\u00ed s\u0254 don\u0254
+  hw\u025b m\u00ec, y\u00ed nun\u0254 m\u0254 m\u00ecwo ny\u0254 m\u025b s\u025bnn\u0254\u014b
+  \u0256o\u0256u, m\u00ec\u0256on\u0254 kojo n\u0254 am\u025b y\u00ed m\u00ecdel\u0254nn\u0254
+  am\u025b o.\\n14. Mi gb\u0254 y\u00ed \u014bsuny\u0254 ciwo wonun\u0254 do hab\u0254b\u0254
+  l\u0254 nu so\u0254?\\n14 Do jeshi fini y\u00ed am\u025bjijeje l\u0254 so. Satana
+  Legba y\u00ed le godu n\u0254 \u014bsu ciwo y\u00ed wokann\u0254 do nu n\u0254 hab\u0254b\u0254
+  l\u0254. Eyi nyi \u201ceda n\u0254 \u014bsukankan.\u201d (\u01b7an 8:44, Ezo\u0256u\u0256u
+  Yoyu wema; G\u0254nm. 3:1-5) Eyi ta\u0256o, m\u00ecakp\u0254kp\u0254 em\u0254 m\u0254
+  Satana azanzan yi gb\u025bviwo y\u00ed as\u0254 kakaka \u014bsuny\u0254wo so Yehowa
+  hab\u0254b\u0254 l\u0254 nu. \u014aci han y\u00ed j\u0254 p\u025b\u025b le exwe
+  san\u014bdi \u014bk\u0254t\u0254 m\u025b n\u025b.\\n15. Nyi s\u025bns\u025bn\u014bk\u0254n\u0254t\u0254wo
+  wa ko\u0256o Yesu ko\u0256o y\u00ed dokpl\u0254t\u0254wo\u0254?\\n15 Ci Mawu vi
+  l\u0254 nyi am\u025bma\u0256oaf\u025bn y\u00ed gbewa enuji\u014bwo can \u0254, Satan
+  zan m\u025b\u0256ewo y\u00ed wokaka \u014bsuny\u0254 sugb\u0254wo so nu le exwe
+  san\u014bdi \u014bk\u0254t\u0254 m\u025b. Le kp\u0254w\u025b m\u025b, s\u025bns\u025bn\u014bk\u0254n\u0254t\u0254wo
+  nu n\u0254 am\u025bwo m\u0254, \u201cgb\u0254ngb\u0254nv\u0254nwo g\u00e1\u201d
+  y\u00ed na \u014bs\u025bn Yesu y\u00ed y\u025b s\u0254 nyak\u0254 gb\u0254ngb\u0254nv\u0254nwo.
+  (Maki 3:22) Hwenu Yesu le efun kpek\u0254\u0254, s\u025bns\u025bn\u014bk\u0254n\u0254t\u0254wo
+  do hw\u025b yi m\u0254 y\u025bnu eny\u0254d\u0254nd\u0254nwo so Mawu nu y\u00ed
+  do \u014bs\u025bn am\u025b ahwa l\u0254wo m\u0254 wo le bi\u0254 m\u0254 wo le wui.
+  (Mat. 27:20) Le yiyim\u025b ci Kristo dokpl\u0254t\u0254wo drak\u0254 e\u014b\u025bnywi
+  l\u0254\u0254, ket\u0254n\u0254wo \u201cvayi tr\u0254 susu n\u0254\u0301 am\u025bmanyi
+  \u01b7udat\u0254wo m\u0254 wo le t\u0254\u0301 susu v\u0254nwo bubu\u201d ke\u014b
+  aci yum\u025b n\u0254 Kristot\u0254wo. (Ed\u0254. 14:2, 19) S\u0254 gbe ko\u0256o
+  Ed\u0254wawawo 14:2 \u0254, Jutakp\u0254x\u0254 1er D\u00e9cembre 1998 t\u0254 \u0256e
+  m\u025b m\u0254: \u201cDenyi \u014b\u025bdu l\u0254 \u0256ek\u025b y\u00ed \u01b7uifu
+  eguf\u0254nt\u0254 l\u0254wo gbe o, wogbekaka \u014bsuny\u0254wo so Kristot\u0254wo
+  nu, n\u0254 am\u025bmanyi\u0292uifuwo \u014bgbel\u0254n wowo ny\u0254 gb\u0254 alo
+  a\u0256o to wo o.\u201d\\n16. Nyi m\u00ec\u0256o a\u0256o \u014bwi n\u0254 m\u00ecvat\u0254
+  \u014bsuny\u0254wo sese\u0254?\\n16 Satana demi \u014bsu kankan le exwe san\u014bdi
+  \u014bk\u0254t\u0254 m\u025b o. \u00c9kp\u0254t\u0254 \u201cblek\u0254 agbet\u0254wo
+  ple\u014b le nyigban l\u0254 j\u00ed.\u201d (Eny\u0254. 12:9, Ezo\u0256u\u0256u
+  Yoyu wema) N\u0254 \u00e8se \u014bsuny\u0254wo so hab\u0254b\u0254 l\u0254 nu alo
+  so m\u00ecwo n\u0254vi ciwo y\u00ed kpl\u0254k\u0254 m\u00ec nu\u0254, \u0256o \u014bwi
+  l\u00e9 Mawu ket\u0254n\u0254wo wa nu ko\u0256o Yesu ko\u0256o yi dokpl\u0254t\u0254
+  ciwo y\u00ed ni le exwe san\u014bdi \u014bk\u0254t\u0254wo m\u025b do. Egb\u025b\u0254,
+  wogbecik\u0254 yum\u025b n\u0254 Yehowa m\u025bwo y\u00ed gbekann\u0254 \u014bsu
+  do nu n\u0254 wo vevi\u0256e p\u025bp\u025bp\u025b shigbe l\u00e9 Bibla nui \u0256\u025b
+  \u025bn\u025b. (Mat. 5:11, 12) \u014asuny\u0254wo dable m\u00ec o, n\u0254 m\u00ecnya
+  m\u025b ci y\u00ed le godu ni y\u00ed wa nu le af\u0254dum\u025b. Nyi m\u00ec\u0256o
+  awa\u0254?\\n17. L\u00e9 m\u00ecaw\u025b n\u0254 \u014bsuny\u0254wo \u014bgbevadah\u025bn
+  nu le m\u00ec nu\u0254? (2 Tim\u0254te 1:13) (Gbekp\u0254 dakavi ci y\u00ed nyi
+  \u201cL\u00e9 \u00c0wa nu do N\u0254 \u00c8se \u014asuny\u0254wo.\u201d)\\n17 Gbe
+  \u014bsukankanny\u0254wo. Apotru P\u0254lu na m\u0254das\u025bnam\u025b ciwo m\u025b
+  k\u0254 petii so l\u00e9 m\u00ecaw\u025b n\u0254 m\u00ecse \u014bsukankanny\u0254wo.
+  \u00c9nu n\u0254 Tim\u0254te m\u0254 yi le \u201cgb\u00e9 n\u0254 am\u025bwo n\u0254
+  wo \u014bgbe kpla enu mas\u0254gbe l\u0254wo am\u025bwo o,\u201d y\u00ed \u201cwo
+  \u014bgbe zan wowo gam\u025bwo y\u00ed a \u0256oto exol\u0254l\u0254 mas\u0254gbewo\u201d
+  o. (1 Tim. 1:3, 4; 4:7) \u00d0evihw\u025b \u0256e ci y\u00ed denya \u0256e at\u025bn\u014b
+  as\u0254 nu le nyigban y\u00ed as\u0254 do aglan m\u025b, v\u0254 m\u025bganxoxu
+  ci y\u00ed nya af\u0254ku ci y\u00ed le m\u025b dawa ahan gbe\u0256e o. M\u00ecgben\u0254
+  \u014bsuny\u0254 l\u0254wo \u0256o m\u00ecnya fini y\u00ed woso. M\u00ect\u025bn\u0254
+  do \u201cnukplamu nywi\u201d ny\u0254n\u0254nwi l\u0254 t\u0254wo nu.\u2014Hl\u025bn
+  2 Tim\u0254te 1:13.\\n18. L\u00e9 m\u00ecaw\u025b adas\u025b m\u0254 Yehowa hab\u0254b\u0254
+  l\u0254 je\u014b n\u0254 m\u00ec\u0254?\\n18 Enu am\u025bt\u0254n kpo\u014b nu y\u00ed
+  m\u00ecxo nuxu so ciwo m\u025b y\u00ed Mawu hab\u0254b\u0254 l\u0254 wak\u0254 Yesu
+  t\u0254 han le. N\u0254 \u00e8kplak\u0254 Bibla\u0254, do jeshi nubu ciwo m\u025b
+  y\u00ed Mawu hab\u0254b\u0254 l\u0254 kpl\u0254k\u0254 Yesu kp\u0254w\u025b do le.
+  Kpedo m\u025bbuwo nu n\u0254 woakando hab\u0254b\u0254 l\u0254 ji s\u0254wu. Kp\u0254t\u0254
+  adadas\u025b enuje\u014bn\u0254am\u025b aot\u0254 y\u00ed as\u025bns\u025bn Yehowa
+  le egbejin\u0254n\u0254 m\u025b y\u00ed agbetete\u025b gogo hab\u0254b\u0254 ci
+  y\u00ed ezank\u0254 yi s\u0254 wak\u0254 yi dro. (Eha. 37:28) M\u00edna n\u0254
+  m\u0254nukp\u0254kp\u0254 ci m\u00ec\u0256o y\u00ed le ju ko\u0256o m\u025b ciwo
+  y\u00ed Yehowa l\u0254n y\u00ed wole gbeji ni l\u00e9 kp\u0254t\u0254 anyi enuvevi
+  n\u0254 m\u00ec.\\nL\u00c9 \u00c0\u00d0O\u014aCI DO\u0186?\\nEm\u0254 ciwo ji Yehowa
+  hab\u0254b\u0254 l\u0254 srank\u0254 Yesu le\u0254?\\nL\u00e9 m\u00ecaw\u025b akp\u0254t\u0254
+  adadas\u025b m\u0254 Yehowa hab\u0254b\u0254 l\u0254 je\u014b n\u0254 m\u00ec do\u0254?\\nNyi
+  m\u00ec\u0256o awa n\u0254 m\u00ecse \u014bsuny\u0254wo\u0254?\"", "\"Amewo \u00d0e\u0256e
+  le Aegea-fua Me\\nAEGEA-\u0191UA x\u0254 Mediterranea fe \u0263edzefekpa dzi fe
+  akpa g\u00e3 a\u0256e eye Greece-nyigba \u014but\u0254\u014but\u0254 le efe dziehe
+  kple \u0263eto\u0256ofe kpawo dzi, Crete-fukpoa le efe anyiehe kpa dzi, eye Turkey
+  le efe \u0263edzefekpa dzi. Aegea-fua fe nutomee \u014bku\u028bu\u028bu me nuw\u0254na
+  g\u00e3 gb\u00e3t\u0254 a\u0256ewo dze eg\u0254me tsoe, eye fukpowo kple fukpo suewo
+  kaka \u0256e fua me tatata. Alesi fukpoawo k\u0254 kpo dze \u028bee eye x\u0254
+  sue siwo wosi a\u014b\u0254 \u0263iwo na le wo dzi eye wodaa dzo ne \u0263ea kl\u1ebd
+  \u0256e wo dzi la \u028b\u00e3 hakpanya\u014bl\u0254la a\u0256e be w\u00f2ts\u0254
+  wo s\u0254 kple \u201ckpes\u0254 siwo to k\u0254dza f\u0169.\u201d\\nEyata mew\u0254
+  nuku o be fukpo siawo zu tefe siwo modzakatsa\u0256ilawo dena wu le xexeame kat\u00e3
+  la domet\u0254 \u0256eka! N\u0254n\u0254me nyui si le \u014butsu kple ny\u0254nu
+  siwo le afima eye wow\u0254a d\u0254 le afima si la h\u00e3 de tefea fe anidzedze
+  dzi. Alesi amesiawo w\u0254a nu \u0256e etefe etefe eye wow\u0254a amedzro, eye
+  wome\u0256oa \u014bu \u0256e ame a\u0256eke \u014bu o la w\u0254e be alesi nutoa
+  me le et\u0254x\u025be la wu gb\u0254gbl\u0254.\\nD\u0254 si fukpoa dzi n\u0254la
+  ge\u0256e w\u0254nae nye l\u00e3\u0256e\u0256e le Aegea-fua me. Gake \u2018l\u00e3\u0256e\u0256ed\u0254\u2019
+  vevi bubu le ku gbogbo a\u0256ewo tsem le nutoa me. \u201cAme\u0256elawo,\u201d
+  siwo nye Mawu fe Fia\u0256ufea \u014buti nyanyuigbl\u0254lawo tsana le Aegea-fukpowo
+  dzi n\u0254a Kristot\u0254 nusr\u0254\u0303lawo w\u0254m.\u2014Mateo 4:18, 19; Luka
+  5:10.\\nAn\u0254 abe fe alafa 19 siwo va yi ene la, Kristot\u0254 nyanyuigbl\u0254lawo
+  de Aegea-fukpoawo dzi. Esime apostolo Paulo tr\u0254 tso efe dutanyanyuigb\u0254gbl\u0254d\u0254a
+  fe m\u0254z\u0254z\u0254 et\u0254\u0303lia me le fe 56 M.\u014a. me l\u0254fo la,
+  et\u0254 vie \u0256e fukpo siwo nye Lesbos, Xio, Samo, Kos, kple Rodo dzi. Esi Paulo
+  nye gbef\u00e3\u0256ela dovevienu ta la, anya \u0256e gbef\u00e3 na fukpoa dzi n\u0254lawo
+  domet\u0254 a\u0256ewo. (D\u0254w\u0254w\u0254wo 20:14, 15, 24; 21:1, 2) Le fe eve
+  siwo w\u00f2n\u0254 gax\u0254me le Roma megbe la, anya de Creta va w\u0254 Kristot\u0254wo
+  fe d\u0254 le afima. Esi fe alafa gb\u00e3t\u0254a yina nuwuwu la, wokpl\u0254 apostolo
+  Yohanes yi \u0256e Patmo-fukpo dzi \u201cle Mawu fe nya kple Yesu Kristo fe \u0256ase\u0256i\u0256i
+  ta.\u201d (Nya\u0256e\u0256efia 1:9) Aleke nuwo le edzi yim na egbe\u014bkekea me
+  nyanyuigbef\u00e3\u0256elawoe?\\nGbef\u00e3\u0256e\u0256ed\u0254 Tsekuwo\\nGbef\u00e3\u0256e\u0256e
+  le fukpo siawo dzi nye d\u0254 ses\u1ebd eye w\u00f2bia nu ge\u0256e. Ebia agbagbadzedze
+  vevie kple \u0256okuits\u0254ts\u0254sav\u0254. \u0191ukpo a\u0256ewo dome didi
+  \u014but\u0254. \u0191\u00e3a hafi t\u0254dzi\u028buwo alo yame\u028buwo dzena \u0256e
+  wo domet\u0254 a\u0256ewo dzi eye womedea bubuwo dzi kura o, veviet\u0254 le vuv\u0254\u014b\u0254li.
+  \u0191ua te \u014bu dzea agbo, veviet\u0254 ne meltemia\u2014si nye dziehe ya ses\u1ebdwo\u2014le
+  fofom. Gakpe \u0256e e\u014bu la, k\u0254fe siwo le fukpoawo dzi domet\u0254 ge\u0256e
+  sa \u0256e aga tso wo n\u0254ewo gb\u0254 eye wo me yiyi ses\u1ebd elabena wofe
+  m\u0254 siwo womedo o eye \u028bu\u028bu s\u0254 gb\u0254 \u0256e wo dzi la dzi
+  menya tona kura o. T\u0254dzi\u028bu suewo koe ate \u014bu ayi \u0256e k\u0254fe
+  a\u0256ewo me.\\nLe kp\u0254\u0256e\u014bu me, bu Icaria-fukpoa \u014bu kp\u0254.
+  Fia\u0256ufea fe nyanyuigbef\u00e3\u0256ela 11 siwo le hame sue si le afima me mete
+  \u014bu kpea k\u0254fe siwo kat\u00e3 le fukpo ma kple fukpo sue siwo te \u0256e
+  e\u014bu \u0256o o. Eyata n\u0254vi\u014butsu kple n\u0254viny\u0254nu Kristot\u0254
+  siwo tso Samos va kpena \u0256e wo \u014bu be woa\u0256e gbef\u00e3 na Icariat\u0254wo,
+  kpakple amesiwo le Phournoi, Patmos, kple Lipsos fukpowo dzi. Esi wow\u0254 \u014bkeke
+  eve fe gbef\u00e3\u0256e\u0256ed\u0254 sia t\u0254gbe nyits\u0254 laa la, \u00d0asefoawo
+  te \u014bu na magazine 650, agbal\u1ebd gbadza 99, kple agbal\u1ebd siwo fo nu tso
+  Biblia me nyawo \u014bu 25! Ew\u0254 nuku na wo be yewoke \u0256e amesiwo menya
+  naneke tso Yehowa \u014bu o la \u014buti, amesiwo \u0256e kuku na wo be woatsi anyi
+  afia nu ge\u0256e yewo tso Biblia me. Ny\u0254nu a\u0256e gbl\u0254 na \u00d0asefoawo
+  domet\u0254 \u0256eka be: \u201cFifia, \u00e8le dzodzom. Gake biabia ge\u0256e gale
+  asinye ku \u0256e Biblia \u014bu. Amekae le kpekpe ge \u0256e \u014bunye?\u201d
+  N\u0254viny\u0254nu Kristot\u0254a do \u014bugbe n\u025b be yeafo ka n\u025b ats\u0254
+  atu \u0256ets\u0254lemea \u0256o, eye edze Biblia-nus\u0254sr\u0254\u0303 g\u0254me
+  kplii le m\u0254 ma nu.\\nEsi dzikp\u0254la m\u0254z\u0254la a\u0256e yi \u0256asr\u00e3
+  Icaria kp\u0254 la, ew\u0254 \u0256o\u0256o be yeakpe fukpo bliboa \u0256o le kwasi\u0256anuwuwu
+  \u0256eka ko me. Ebia be Fia\u0256ufegbef\u00e3\u0256ela siwo ade 30 natso Samos
+  ava na kpekpe\u0256e\u014bu. Ele na n\u0254vi siwo ava be woa \u014but\u0254wo naxe
+  amedzrodzefe si woad\u0254 hena \u014bkeke eve kple \u028bu siwo woada la fe fe.
+  Tsi g\u00e3 a\u0256e dza \u014bkeke eve s\u0254\u014b, eye alesi wogbl\u0254 be
+  yame fe n\u0254n\u0254me an\u0254 le kwasi\u0256anuwuwua \u0256e dzi le ame fo.
+  Gake n\u0254viawo mena esia xe m\u0254 na wo o, eye wo\u0256o \u014bku Nyagbl\u0254la
+  11:4 me nyawo dzi be: \u201cAmesi le to l\u00e9m \u0256e ya \u014bu la, maf\u00e3
+  nuku o, eye amesi le \u014bku l\u00e9m \u0256e alilikpo \u014bu la, ma\u014be nu
+  o.\u201d Ml\u0254eba yame fe n\u0254n\u0254mea ka \u0256e eme vie, eye esi n\u0254viawo
+  ts\u0254 wofe gbedasi vevia kpe fukpo bliboa \u0256o v\u0254 la, wotr\u0254 yi afe
+  kple dzidz\u0254 eye wofe dzi dze eme.\\nGbef\u00e3\u0256ela 16 siwo le Andros-fukpoa
+  dzi dzea agbagba vevie be yewoakpe fukpo bliboa \u0256o. Esi n\u0254vi\u014butsu
+  eve \u0256o sa\u0256agak\u0254fe a\u0256e me la, wo\u0256oe be yewoa\u0256e gbef\u00e3
+  na amesiwo kat\u00e3 le eme. Wofo nu na amewo le wofe afewo me, le abl\u0254wo dzi,
+  kple le agblewo dzi. Woyi \u0256e kpovit\u0254wo fe d\u0254w\u0254fe kura g\u0254\u0303
+  h\u00e3 eye wogbl\u1ebd agbal\u1ebdwo \u0256e afima. Esi woka \u0256e edzi be yewoke
+  \u0256e k\u0254fea me t\u0254wo kat\u00e3 \u014bu ta la, wodi be yewoadzo. Esi won\u0254
+  dodom le takpefe g\u00e3t\u0254 si le afima la, wokp\u0254 Hela Orthod\u0254kst\u0254wo
+  fe nun\u0254la a\u0256e gb\u0254na. Esi wode dzesii be yewome\u0256e gbef\u00e3
+  n\u025b o la, wots\u0254 agbal\u1ebdvi a\u0256e n\u025b si w\u00f2x\u0254 kple dzidz\u0254.
+  Az\u0254 woka \u0256e edzi bliboe be yewomegbl\u1ebd ame a\u0256eke \u0256i le yewofe
+  gbef\u00e3\u0256e\u0256ed\u0254a w\u0254w\u0254 me o!\\nWobua Gavdos (alo Cauda)\u2014si
+  nye fukpo sue a\u0256e le Crete g\u0254me si dzi ame 38 p\u025b ko le\u2014be enye
+  Europa fe anyiehekpa dzi fe y\u0254yr\u0254e nu. (D\u0254w\u0254w\u0254wo 27:16)
+  Dzikp\u0254la m\u0254z\u0254la a\u0256e kple sr\u0254\u0303a, kpakple sr\u0254\u0303t\u0254
+  a\u0256e ts\u0254 \u014bkeke et\u0254\u0303 \u0256e gbef\u00e3 le afima. Be woa\u0256e
+  gazaz\u00e3 dzi akp\u0254t\u0254 ta la, woml\u0254 av\u0254gbad\u0254 me. Wots\u0254
+  nyanyuia yi na edzi n\u0254lawo kat\u00e3, eye edz\u0254 dzi na n\u0254viawo be
+  amesiwo le afima la mebua naz\u00e3 \u0256e ame \u014bu o. Womese naneke kur\u00e3\u2014e\u0256anye
+  nya nyui alo v\u0254\u0303 o\u2014tso Yehowa \u00d0asefowo \u014bu kp\u0254 o. Afiman\u0254lawo,
+  kpakple nun\u0254la si le afima h\u00e3, x\u0254 agbal\u1ebd 19 kple agbal\u1ebd
+  gbadza 13. Esi \u00d0asefoawo \u0256o t\u0254dzi\u028bu sue a\u0256e tr\u0254 yina
+  Crete la, atsiafua dze agbo eye wofe agbe \u0256o af\u0254ku me. Wogbl\u0254 be:
+  \u201cM\u00ededa akpe na Yehowa be m\u00edetsi agbe \u0256o afeme, gake m\u00edekafui
+  h\u00e3 be ena m\u00ededo efe \u014bk\u0254 \u0256e dzi le Europa fe anyiehekpa
+  dzi fe y\u0254yr\u0254ea nu ke.\u201d\\nPatmos nye fukpo si dzi apostolo Yohanes
+  \u014bl\u0254 Biblia fe agbal\u1ebd maml\u025bt\u0254 si nye Nya\u0256e\u0256efia
+  le. Do \u014bg\u0254 na nyits\u0254 laa la, Yehowa fe \u00d0asefo a\u0256eke men\u0254
+  Patmos o. N\u0254vi siwo tso Samos w\u0254 \u0256o\u0256o nyui a\u0256e be yewoaw\u0254
+  haho gbef\u00e3\u0256e\u0256e le fukpo ma dzi. Wonya be woate \u014bu atsi tre \u0256e
+  yewo \u014bu vevie elabena fukpo ma dzie Hela Orthod\u0254ks-ha la x\u0254 anyin\u0254
+  \u0256o wu. Ny\u0254nu a\u0256e x\u0254 n\u0254viny\u0254nu eve siwo ts\u0254 nyanyuia
+  yi n\u025b la \u0256e efe afeme. Ny\u0254nua sr\u0254\u0303 biana edziedzi be amekae
+  d\u0254 n\u0254viny\u0254nuawo \u0256e yewofe afea me h\u00e3. Esi wo\u0256e nu
+  me be afewo kat\u00e3 me ko yim yewole la, egabia be: \u201cMieka \u0256e edzi be
+  menye afelika a\u0256ekee d\u0254 mi \u0256e afisia oa?\u201d Emegbe sr\u0254\u0303any\u0254nu,
+  amesi va nya nu tso Yehowa \u00d0asefowo \u014bu esime w\u00f2n\u0254 Zaire la,
+  \u0256e nusi dz\u0254 \u014bdi ma me na n\u0254viny\u0254nuawo. Egbl\u0254 be: \u201cMen\u0254
+  gbe dom \u0256a na Yehowa, abe alesi mew\u0254n\u025b le \u014bkeke bubuwo dzi ene,
+  be w\u00f2ad\u0254 \u00d0asefo a\u0256ewo \u0256e fukpoa dzi. Sr\u0254\u0303nye
+  n\u0254a koyem. Esi mekp\u0254 mi le \u028b\u0254trua nu la, ew\u0254 nuku nam eye
+  nenema kee w\u00f2w\u0254 nuku na sr\u0254\u0303nye h\u00e3. Susu ma tae w\u00f2n\u0254
+  mia biam be amekae d\u0254 mi \u0256e m\u00edafe afea me h\u00e3.\u201d Wodze Biblia-nus\u0254sr\u0254\u0303
+  g\u0254me kple ny\u0254nua enumake. Wots\u0254 \u0263leti ewo sr\u0254\u0303 nu
+  to telefon dzi, togb\u0254 be esia na n\u0254viny\u0254nua kple ny\u0254nu \u0256ets\u0254lemet\u0254a
+  z\u00e3 ga ge\u0256e h\u00e3. Ex\u0254 ny\u0254nyr\u0254 eye eya \u0256eka koe nye
+  \u00d0asefo le fukpo ma dzi, afisi wokpl\u0254 apostolo Yohanes \u0256eka yii fe
+  1,900 enye sia.\\n\u201cL\u00e3\u0256e\u0256e\u201d le Melidzefewo\\nMeliwo dzena
+  \u0256e Aegea-fukpowo fe melidzefe gbogboawo le dzome\u014b\u0254li \u0256esia\u0256e
+  ts\u0254a m\u0254keke\u0256ula ge\u0256e van\u025b. Eyata m\u0254nukp\u0254kp\u0254
+  t\u0254x\u025b a\u0256e sua Yehowa \u00d0asefowo si be woa\u0256o duk\u0254 kple
+  gbegb\u0254gbl\u0254 ge\u0256e me t\u0254wo gb\u0254. Agbal\u1ebdwo n\u0254a hameawo
+  si \u0256e gbegb\u0254gbl\u0254 vovovowo me eye gbef\u00e3\u0256elawo naa magazine
+  akpe ge\u0256e modzaka\u0256etsa\u0256ilawo. Meli a\u0256ewo dzena \u0256e melidzefe
+  \u0256eka kwasi\u0256a \u0256esia\u0256e, si naa m\u0254nukp\u0254kp\u0254 nyui
+  sua n\u0254viawo si be wow\u0254a t\u0254tr\u0254yiwo hew\u0254a Biblia-nus\u0254sr\u0254\u0303
+  kple melia me d\u0254w\u0254lawo domet\u0254 a\u0256ewo.\\nLe fe 1996 fe dzome\u014b\u0254li
+  la, n\u0254viny\u0254nu a\u0256e si nye \u0263eyi\u0263iawo kat\u00e3 fe gbef\u00e3\u0256ela
+  le Rhodes \u0256i \u0256ase na \u0256ekakpui Jamaicat\u0254 a\u0256e si w\u0254a
+  d\u0254 le meli a\u0256e si dzena \u0256e afima fe melidzefe Fi\u0256a \u0256esia\u0256e.
+  Le Fi\u0256a si kpl\u0254e \u0256o la, ekpe \u014butsua be w\u00f2ava nutome g\u00e3
+  takpekpe a\u0256e si woaw\u0254 le fukpoa dzi. N\u0254viny\u0254nu m\u0254\u0256ela
+  la ts\u0254 E\u014blisigbe me Biblia \u0256e asi ts\u0254 kpe \u0256e \u014butsua
+  \u014bu w\u00f2se Biblia me nyatefe siwo \u014buti wofo nu tsoe le w\u0254naa me
+  la domet\u0254 a\u0256ewo g\u0254me. L\u0254l\u0254\u0303 kple vividodo\u0256eame\u014bu
+  si \u00d0asefoawo \u0256e fia le takpekpea me w\u0254 d\u0254 \u0256e \u0256ekakpuia
+  dzi ale gbegbe. Fi\u0256a si kpl\u0254e \u0256o la, emi\u00e3 asi m\u0254\u0256ela
+  eve yi melia me. M\u0254\u0256elaawo ts\u0254 E\u014blisigbe kple Spaingbe me gbal\u1ebdwo
+  \u0256e asi yii. Kaka gafofo \u0256eka nava yi la, agbal\u1ebdwo v\u0254 le wofe
+  gbedzidekploawo me! \u00d0ekakpui Jamaicat\u0254 sia sr\u0254\u0303 Biblia Fi\u0256a
+  \u0256esia\u0256e vase\u0256e dzome\u014b\u0254lia fe nuwuwu. Egatr\u0254 gb\u0254
+  le dzome\u014b\u0254li si kpl\u0254e \u0256o hen\u0254 klalo be yeayi yefe nus\u0254sr\u0254\u0303a
+  dzi. Gake fifia ya, etso nya me be yeadi d\u0254 bubu bene yeate \u014bu aw\u0254
+  gb\u0254gb\u0254 me \u014bg\u0254yiyi. Emegbe egadzo ake. Aleke gbegbe dzi dz\u0254
+  n\u0254vi siwo le Rhodes enye si esi wose be \u0256ekakpuia x\u0254 ny\u0254nyr\u0254
+  le fe 1998 fe g\u0254medzedze!\\n\u201cL\u00e3\u201d Siwo Tsana la L\u00e9le\\nAegea-fua
+  x\u0254 \u014bk\u0254 le t\u0254mel\u00e3 gbogbo siwo tsoa tefewo vaa eme, abe \u028betsim
+  kple dayi ene, siwo l\u00e3\u0256ela bibiwo \u0256ena kple \u0256\u0254. Nenema
+  ke Fia\u0256ufe nyanyuigbl\u0254lawo kena \u0256e dzinyuit\u0254 ge\u0256e \u014bu
+  le d\u0254w\u0254la siwo \u028bu tso \u0194edzefe Europa duk\u0254 ge\u0256e me
+  va Greece la dome.\\nRezi x\u0254 fe ewo esime w\u00f2xl\u1ebd nu tso Yehowa kple
+  efe tame\u0256o\u0256owo \u014bu zi gb\u00e3t\u0254 le Gbetakp\u0254x\u0254 kple
+  Ny\u0254! me. \u0194ema\u0263i la, en\u0254 Albania. \u0191e et\u0254\u0303 megbe
+  la, e\u028bu kple efe fomea yi Rhodes-fukpoa dzi. Rezi do gbe \u0256a na Yehowa
+  gbe\u0256eka be w\u00f2akpe \u0256e ye \u014bu yeakp\u0254 efe amewo le yefe dzefe
+  yeyea. Le \u014bkeke si kpl\u0254e \u0256o dzi la, dzi dz\u0254 Rezi ale gbegbe
+  esi fofoa ts\u0254 magazine nyany\u025b mawo, Gbetakp\u0254x\u0254 kple Ny\u0254!,
+  va afemee. Rezi va ke \u0256e n\u0254viny\u0254nu si ts\u0254 magazineawo na fofoa
+  \u014bu, eye etefe medidi o edze agbal\u1ebd si nye Sidzedze si Kpl\u0254a Ame Yia
+  Agbe Mav\u0254 Me la s\u0254sr\u0254\u0303 g\u0254me. \u0194ea\u0256ewo\u0263i la,
+  ebiana be woasr\u0254\u0303 nua kpli ye zi et\u0254\u0303 le \u014bkeke \u0256eka
+  ma ke me! Le \u0263leti eve megbe la, ezu gbef\u00e3\u0256ela max\u0254ny\u0254nyr\u0254,
+  eye le March 1998 me la, ex\u0254 ny\u0254nyr\u0254 esime w\u00f2x\u0254 fe 14.
+  Gbemagbe ke la, edze kpekpe\u0256e\u014bu m\u0254\u0256e\u0256ed\u0254a w\u0254w\u0254
+  g\u0254me, eye le \u0263leti ade megbe la, efo e\u0256okui \u0256e gbesiagbe m\u0254\u0256e\u0256ed\u0254a,
+  alo \u0263eyi\u0263iawo kat\u00e3 fe sub\u0254sub\u0254d\u0254a me.\\nN\u0254vi\u014butsu
+  a\u0256e si n\u0254 Kos-fukpo dzi la n\u0254 nu sr\u0254\u0303m kple Russiat\u0254
+  a\u0256ewo. Esi w\u00f2bia wo be x\u0254l\u0254\u0303 a\u0256ewo le wo si siwo adi
+  be yewoasr\u0254\u0303 Biblia h\u00e3 la, wokpl\u0254e yi sr\u0254\u0303t\u0254
+  Armeniat\u0254 a\u0256ewo\u2014Leonidas kple sr\u0254\u0303any\u0254nu, Ophelia\u2014siwo
+  le k\u0254fe a\u0256e si gb\u0254 didi kilometa 30 me la gb\u0254. Nukunu a\u0256e
+  n\u0254 n\u0254vi\u014butsua \u014bg\u0254. Sr\u0254\u0303t\u0254 Armeniat\u0254awo
+  he akplo a\u0256e si y\u0254 f\u0169 kple Armenia kpakple Russia gbe me Biblia sr\u0254\u0303gbal\u1ebd
+  siwo Gbetakp\u0254x\u0254 Hab\u0254b\u0254a ta la \u0256e go! Wo\u0256e nu me be
+  yewosr\u0254\u0303 Biblia kple Yehowa \u00d0asefowo hew\u0254 \u014bg\u0254yiyi
+  va \u0256o afisi yewoate \u014bu azu gbef\u00e3\u0256ela max\u0254ny\u0254nyr\u0254wo
+  hafi. Le dunyahehe me zit\u0254t\u0254 kple ganyawo fe ses\u1ebd ta la, eva hi\u00e3
+  be yewoadzo le yewo denyigba dzi. Esi wo\u0256o Kos teti ko la, wote nus\u0254sr\u0254\u0303
+  kple Leonidas dada kple n\u0254viany\u0254nu siwo le afima xoxo. Enumake la, Biblia-nusr\u0254\u0303vi
+  yeye et\u0254\u0303\u2014Ophelia, Leonidas, kpakple dadaa kple n\u0254viany\u0254nu\u2014su
+  \u00d0asefoa si w\u00f2asr\u0254\u0303 nu kpli wo. Esia bia be w\u00f2ado dzokeke
+  kilometa 30 yiyi kple gb\u0254gb\u0254 zi et\u0254\u0303 le kwasi\u0256a \u0256esia\u0256e
+  me. Leonidas kple sr\u0254\u0303a x\u0254 ny\u0254nyr\u0254 le \u0263leti a\u0256ewo
+  megbe. Tefe\u0256o\u0256o ka gbegbee nye si w\u00f2nye na n\u0254vi siwo le afima
+  le wofe \u0256okuits\u0254ts\u0254sav\u0254 fe gb\u0254gb\u0254 ta!\\nYehowae Nana
+  Nuwo Tsina\\nEdze f\u00e3 be Yehowa le yayram \u0256e agbagba siwo dzem Fia\u0256ufegbef\u00e3\u0256ela
+  dovevienu siwo wu 2,000, siwo le Aegea-fukpo siawo dzi \u0256e\u0256imateame\u014but\u0254e
+  la dzi. Fifia hame 44 kple Yehowa \u00d0asefowo fe fufofo 25 ye le afima. Esi Yehowa
+  fe didie nye be \u201cwoax\u0254 amewo kat\u00e3, bene woava nyatefe fe sidzedze
+  la me\u201d ta la, fufofo siawo domet\u0254 17 me t\u0254wo nye dutagbedolawo. (Timoteo
+  I, 2:4) Ts\u0254 kpe \u0256e e\u014bu la, m\u0254\u0256ela vevi 13 le agbagba dzem
+  \u0256e edzi be yewoa\u0256o ame ge\u0256e wu gb\u0254 le anyigbamama siwo sa \u0256e
+  aga me.\\n\u0191e alafa ge\u0256ewoe nye esia la, Aegea-fua fe nutome nye asitsafe
+  kple afisi nuw\u0254nawo le t\u0254tr\u0254m le. Le fe \u028b\u025b siawo me la,
+  eva zu modzaka\u0256efe si modzaka\u0256etsa\u0256ila akpe nanewo dina be yewoayi.
+  Gake veviet\u0254 wu la, Fia\u0256ufe gbef\u00e3\u0256ela siwo nye \u201came\u0256elawo\u201d
+  kp\u0254 dzinyuit\u0254 ge\u0256e siwo di vevie be yewoakafu Yehowa le fukpo siawo
+  dzi. Le \u0256ekaw\u0254w\u0254 me la, wow\u0254 \u0256e amekpekpe sia si nye nyagbl\u0254\u0256i
+  dzi le m\u0254 \u0256edzesi a\u0256e nu, si nye be: \u201cWoade bubu Yehowa \u014bu,
+  eye woa\u0256e gbef\u00e3 efe kafukafu le fukpowo dzi!\u201d\u2014Yesaya 42:12.\\n[Anyigbatata
+  si le axa 22]\\n(Edze nyuie le agbal\u1ebda \u014but\u0254 me)\\nAegea-fu\\nGREECE\\nL\u00e9svos\\nChios\\nSamos\\nIcaria\\nPhournoi\\nPatmos\\nKos\\nRhodes\\nCrete\\nTURKEY\\n[N\u0254n\u0254metata
+  si le axa 23]\\nL\u00e9svos-fukpo\\n[N\u0254n\u0254metata si le axa 24]\\nPatmos-fukpo\\n[N\u0254n\u0254metata
+  si le axa 24]\\nCrete-fukpo\"", "\"Keke \u00d0e M\u0254fiafia Nyuit\u0254 \u014au\\nDECEMBER
+  18, fe 1810 mee. Z\u00e3 n\u0254 dodom. Britaint\u0254wo fe \u0191udzisrafowo fe
+  meli si woy\u0254na be HMS Pallas la bu m\u0254 le fu dzeagbo a\u0256e dzi le tefe
+  a\u0256e si gogo Scotland (\u00c9cosse) fe anyiehefuta. Esi z\u00e3 n\u0254 dodom
+  eye sno h\u00e3 n\u0254 dzadzam ta la, eses\u1ebd na melia me d\u0254w\u0254lawo
+  be woakp\u0254 m\u0254fiaka\u0256i siwo wohi\u00e3 be melia nava dze dedie la. Kp\u0254
+  alesi wofe dzi adze emee \u0256a esi wova kp\u0254 aka\u0256i a\u0256ewo ml\u0254eba
+  heku melia \u0256o ta wo gb\u0254! Nublanuit\u0254ea, menye m\u0254fiaka\u0256i
+  siwo dim won\u0254 lae o. D\u0254w\u0254la siwo n\u0254 d\u0254 w\u0254m le afisi
+  gogo fua ta la fe dzo siwo wodo bo\u014bue. Pallas la l\u0254 kpe, eye w\u00f2gb\u00e3
+  ke\u014bke\u014b. Melia me n\u0254la 11 no tsi ku. Ew\u0254 nublanui loo!\\nVodada
+  si Pallas kulawo w\u0254 lae na af\u0254kua dz\u0254. Gake \u0263ea\u0256ewo\u0263i
+  la, fudzidelawo \u0256oa af\u0254ku si lolo wu ema me\u2014m\u0254fiaka\u0256i siwo
+  flua ame gb\u0254e wo\u0256oa tae. Le agbal\u1ebd si nye Wrecks, Wreckers and Rescuers
+  (\u01b2ugbagb\u00e3, \u01b2ugb\u00e3lawo, Kple Kpekpe\u0256e\u014bunalawo) fe nya
+  nu la, wosia aka\u0256i siawo be woats\u0254 aflu melikulawo be woaku melia to afisi
+  kpewo le, ale be ne melia gb\u00e3 la, ne woaha nusiwo le eme.\\n\u2018\u014a\u0254\u014bl\u0254
+  K\u0254k\u0254e Siwo Ate \u014au Ana N\u00e0kp\u0254 Agbe\u2019\\nAmesi di be yease
+  nuwo g\u0254me h\u00e3 doa go af\u0254ku a\u0256ewo siwo s\u0254 kple esi fudzidela
+  mawo do goe. \u00d0ewoh\u0129 \u00e0x\u0254 nya a\u0256ewo dzi ase, ev\u0254 womakpl\u0254
+  w\u00f2 yi afi a\u0256eke o, alo ame a\u0256e a\u0256oe ko\u014b able w\u00f2. Af\u0254ku
+  le nu eve siawo kat\u00e3 me. Aleke n\u00e0w\u0254 akp\u0254 \u0256okuiw\u00f2 tae?
+  Kp\u0254 egb\u0254 be tefe nyui si \u014bu kaka\u0256edzi lee n\u00e8le m\u0254fiamea
+  dim tsoe. \u0191e 125 kple edziv\u0254e nye esia si magazine sia kafua Mawu fe Nya,
+  Biblia, la be eyae naa m\u0254fiafia nyuit\u0254 kekeake si \u014bu kaka\u0256edzi
+  le, elabena eme nyawo nye \u2018\u014b\u0254\u014bl\u0254 k\u0254k\u0254e siwo ate
+  \u014bu ana nunya w\u00f2 bena n\u00e0kp\u0254 agbe.\u2019\u2014Timoteo II, 3:15-17.\\nGake
+  hafi n\u00e0te \u014bu ax\u0254e ase be Biblia la naa m\u0254fiame si dzi woate
+  \u014bu aka \u0256o la, anyo be n\u00e0kp\u0254e \u0256a be emenyawo nye nyatefe
+  h\u00e3. (Psalmo 119:105; Lododowo 14:15) \u00c0te \u014bu a\u014bl\u0254 agbal\u1ebd
+  na magazine sia talawo faa ne \u00e8di be yeanya nusi kpe \u0256e ame mili\u0254n
+  ge\u0256e \u014bu wox\u0254e se be Mawue na wo\u014bl\u0254 Biblia vav\u00e3. \u00c0te
+  \u014bu axl\u1ebd agbal\u1ebd si fe tanyae nye Agbal\u1ebd si Nyo na Amesiame. *
+  Nya ge\u0256e le eme siwo \u0256ee fia be Biblia me nyawo nye nyatefe, kaka\u0256edzi
+  le wo \u014bu, eye Mawue na wo\u014bl\u0254e.\\nNyatefenya Veviwo\\nEkema, nyatefenya
+  vevi siwo le \u2018\u014b\u0254\u014bl\u0254 k\u0254k\u0254e\u2019 siawo me domet\u0254
+  a\u0256ewo \u0256e? Woawoe nye esiwo gb\u0254na.\\nMawu \u014aus\u1ebdkat\u00e3t\u0254
+  \u0256eka p\u025b, si nye nuwo kat\u00e3 W\u0254la, koe li. (Mose I, 1:1) Esi Mawue
+  \u201cw\u0254 nuwo kat\u00e3,\u201d eye w\u00f2na agbe m\u00ed tae m\u00edeli \u0256o.
+  (Nya\u0256e\u0256efia 4:11) Esia tae eya \u0256eka koe w\u00f2le be m\u00edasub\u0254.
+  W\u0254la la gb\u0254e m\u0254fiame nyuit\u0254wo kat\u00e3 tso. (Psalmo 36:10;
+  Yesaya 30:20, 21; 48:17, 18) \u014ak\u0254 \u014but\u0254\u014but\u0254 le esi si
+  w\u00f2di be m\u00edaz\u00e3. (Mose II, 3:15) Hebrigbe me \u014bk\u0254 ma, si fe
+  \u014b\u0254\u014bl\u0254dzesiwoe nye YHWH la, dze zi 7,000 kloe le Biblia me. \u0191e
+  alafa ge\u0256ee nye esia si woy\u0254n\u025b le E\u028begbe me be \u201cYehowa.\u201d\u2014Psalmo
+  83:19.\\nYehowa w\u0254 amegbet\u0254wo be woan\u0254 agbe tegbee le Paradiso me
+  le anyigba dzi afisia. Ets\u0254 n\u0254n\u0254me siwo le eya \u014but\u0254 si
+  la fe \u0256e de amegbet\u0254wo h\u00e3 me. Ena \u014butete siwo ana amegbet\u0254wo
+  nase vivi le dzidz\u0254 me tegbee le anyigba dzi la wo. (Mose I, 1:26-28) Menye
+  Mawu fe tame\u0256o\u0256oe w\u00f2nye gbe\u0256e be amegbet\u0254wo nan\u0254 anyigba
+  dzi \u0263eyi\u0263i vi a\u0256e ko, eye ne wova dze emegbe la, yeakpl\u0254 wo
+  va ye \u0256okui gb\u0254, abe afima koe woayi hafi fomedodo nyui ate \u014bu an\u0254
+  woa kplii dome ene o.\\nMawu mew\u0254 ame a\u0256eke w\u00f2nye ame v\u0254\u0303\u0256i
+  o. Esi Mawu fe nuw\u0254w\u0254wo\u2014amegbet\u0254wo kple mawud\u0254lawo siaa\u2014domet\u0254
+  a\u0256ewo z\u00e3 tiatiaw\u0254bl\u0254\u0256e si Mawu na wo \u0256e m\u0254 gbegbl\u1ebd
+  nu hedze agl\u00e3 \u0256e e\u014bu ko hafi nuv\u0254\u0303 va xexeame. (Mose V,
+  32:5) M\u00eda dzila gb\u00e3t\u0254wo be yewo \u014but\u0254wo yewosu te atso nya
+  me tso nusi nye nyui kple nusi nye v\u0254\u0303 \u014bu. (Mose I, 2:17; 3:1-5)
+  Emae he ku v\u025b na amegbet\u0254wo. (Mose I, 3:19; Romat\u0254wo 5:12) Be Yehowa
+  nakp\u0254 nya siwo agl\u00e3dzedzea f\u0254 \u0256e te gb\u0254 la, etiae be yea\u0256e
+  m\u0254 \u0256e v\u0254\u0303\u0256inyenye \u014bu vase\u0256e \u0263eyi\u0263i
+  a\u0256e. Gake tame si w\u00f2\u0256o \u0256e anyigba kple amegbet\u0254wo \u014bu
+  ya metr\u0254 o. (Yesaya 45:18) Amegbet\u0254wo agava n\u0254 agbe le Paradiso me
+  ake ne wova k\u0254 anyigbaa \u014bu.\u2014Mateo 6:10; Nya\u0256e\u0256efia 21:1-5.\\nMenye
+  Mawu \u014aus\u1ebdkat\u00e3t\u0254e Yesu Kristo nye o, ke bo\u014b Mawu fe Vie.
+  Yesu Kristo \u014but\u0254 fia eyomedzelawo be woado gbe \u0256a be: \u201cM\u00eda
+  Fofo, si le dzifowo! W\u00f2 \u014bk\u0254 \u014buti nak\u0254!\u201d (Mateo 6:9)
+  Megbl\u0254 kp\u0254 gbe\u0256e be yes\u0254 kple Mawu o. \u00d0e w\u00f2gbl\u0254
+  bo\u014b be: \u2018Fofo la lolo wum.\u2019\u2014Yohanes 14:28.\\nYesu w\u0254a akpa
+  vevi a\u0256e le Mawu fe tame\u0256o\u0256owo me vava me. Mawu d\u0254e w\u00f2nye
+  \u201ckekeli . . . va xexeame, bena amesiame, si x\u0254a [edzi] sena la, man\u0254
+  viviti me o.\u201d (Yohanes 12:46) Apostolo Petro gbl\u0254 be, \u201cmenye ame
+  bubu a\u0256eke me x\u0254x\u0254 la le o.\u201d (D\u0254w\u0254w\u0254wo 4:12)
+  Nya sia le eme elabena Kristo fe \u028bu x\u0254asia koe ana m\u00edakp\u0254 x\u0254x\u0254.
+  (Petro I, 1:18, 19) Yesu Kristo ts\u0254 efe agbe na tafee be yea\u0256e amefomea
+  tso nuv\u0254\u0303 si dome m\u00edenyi tso m\u00eda dzila gb\u00e3t\u0254wo, Adam
+  kple Xawa, gb\u0254 me. (Mateo 20:28; Timoteo I, 2:6) Mawu to Yesu dzi \u0256e Efe
+  l\u0254l\u0254\u0303nu kple tame\u0256o\u0256o h\u00e3 fia.\u2014Yohanes 8:12, 32,
+  46, 47; 14:6; D\u0254w\u0254w\u0254wo 26:23.\\nMawu \u0256o Fia\u0256ufe, alo dzi\u0256u\u0256u,
+  a\u0256e \u0256e dzifo, si me Yesu Kristo kple amesiwo wotia tso anyigba dzi a\u0256u
+  fia le. Fia\u0256ufe sia \u014buti nya dze le Biblia kat\u00e3 me. Mawu bia tso
+  dzi\u0256ula siawo si be woakp\u0254 egb\u0254 be wole yefe l\u0254l\u0254\u0303nu
+  w\u0254m le anyigba dzi abe alesi w\u00f2le le dzifo ene. (Mateo 6:10) Mawu me\u0256oe
+  le g\u0254medzedzea me be ame a\u0256eke nayi dzifo hafi o. Anyigba dzie w\u00f2tia
+  na wo be woan\u0254. Esi amegbet\u0254 w\u0254 nuv\u0254\u0303 megbe la, Mawu w\u0254
+  \u0256o\u0256o yeye a\u0256e. E\u0256oe be yeatia amewo \u201ctso to sia to kple
+  gbegb\u0254gbl\u0254 sia gbegb\u0254gbl\u0254 kple du sia du kple duk\u0254 sia
+  duk\u0254 me\u201d be \u201cwoa\u0256u fia\u201d kple Kristo le dzifo. (Nya\u0256e\u0256efia
+  5:9, 10) Etefe madidi o, Fia\u0256ufe ma \u201cagb\u00e3\u201d amegbet\u0254wo fe
+  dzi\u0256u\u0256uwo, siwo he fukpekpe kple vevesese ge\u0256e v\u025b na amewo la
+  kat\u00e3 \u201ceye w\u00f2agbl\u1ebd wo.\u201d\u2014Daniel 2:44.\\nLu\u028b\u0254
+  la kuna. Biblia me nyatefenya vevi sia na numek\u0254k\u0254 ge\u0256e tso amegbet\u0254
+  kple m\u0254kp\u0254kp\u0254 si le esi le agbe me \u014bu. Nyatefenya sia \u0256e
+  nug\u0254memasemase kple amebeble siwo na ame ge\u0256e menya n\u0254n\u0254me si
+  me tututu ame kukuwo le o h\u00e3 \u0256a.\\nBiblia fe agbal\u1ebd gb\u00e3t\u0254
+  gbl\u0254 na m\u00ed be: \u2018Yehowa Mawu ts\u0254 anyi m\u00e8 ame, eye w\u00f2gb\u0254
+  agbegb\u0254gb\u0254 \u0256e efe \u014b\u0254ti me; ale ame la zu lu\u028b\u0254
+  gbagbe.\u2019 (Mose I, 2:7) \u00c8se nya ma g\u0254mea? Lu\u028b\u0254 menye nu
+  makp\u0254makp\u0254 a\u0256e si le amegbet\u0254 me o. Lu\u028b\u0254 mele amegbet\u0254
+  me o. Eya \u014but\u0254e nye lu\u028b\u0254a\u2014si nye nusiwo le \u201canyi\u201d
+  si wots\u0254 w\u0254e me kple agbe\u014bus\u1ebd si tso Mawu gb\u0254 fe fufofo.
+  Lu\u028b\u0254 la kuna. Ne ame ku ko la, lu\u028b\u0254 ye nye ema ku.\u2014Mose
+  I, 3:19; Nyagbl\u0254la 9:5, 10.\\nAmesiwo ku la agate \u014bu agb\u0254 agbe ake
+  to tsitretsitsia dzi. Ne \u0263eyi\u0263i si \u014bu Mawu \u0256e m\u0254 v\u0254\u0303\u0256inyenye
+  li nu va yi la, \u201camesiwo kat\u00e3 le y\u0254dowo me la, woase [Yesu fe] gbe;
+  eye amesiwo w\u0254 nu nyuiwo la, woado go hena agbe fe tsitretsitsi, ke amesiwo
+  w\u0254 nu vlowo la, hena \u028b\u0254nud\u0254dr\u0254\u0303 fe tsitretsitsi.\u201d
+  (Yohanes 5:28, 29; D\u0254w\u0254w\u0254wo 24:15) Tsitretsitsia ana be alesi Mawu
+  \u0256oe le g\u0254medzedzea me be amefomea nan\u0254 agbe le paradisonyigba dzi
+  la ava eme.\\nDzro \u014a\u0254\u014bl\u0254awo me Vevie Gbesiagbe\\n\u00c8kp\u0254
+  alesi nyatefenya vevi siawo nyanya ate \u014bu a\u0256e vi na w\u00f2a? Le \u0263eyi\u0263i
+  ses\u1ebd siawo me la, sidzedze sia ate \u014bu akp\u0254 taw\u00f2 tso \u201ca\u028batsosidzedze\u201d
+  si kakam Satana Abosam le la me. Ew\u0254a e\u0256okui abe \u201ckekeli fe d\u0254la\u201d
+  ene, eye efe d\u0254lawo w\u0254a nu \u201cabe dz\u0254dz\u0254enyenye fe d\u0254lawo
+  ene.\u201d (Timoteo I, 6:20; Korintot\u0254wo II, 11:13-15) Biblia me sidzedze vav\u00e3t\u0254
+  ate \u014bu akp\u0254 taw\u00f2 tso a\u028batso m\u0254fiafia siwo wotu \u0256e
+  xexeame \u201cnunyalawo kple nug\u0254meselawo,\u201d amesiwo gbe \u201cYehowa fe
+  nya,\u201d fe nukp\u0254susuwo dzi la me.\u2014Mateo 11:25; Yeremya 8:9.\\nEsi w\u00f2nye
+  nufiafia kple xexemenunya fluame ge\u0256ewo n\u0254 anyi le apostolo Yohanes fe
+  \u014bkekea me ta la, exl\u0254\u0303 nu fe alafa gb\u00e3t\u0254 me Kristot\u0254wo
+  be: \u2018Migax\u0254 gb\u0254gb\u0254 sia gb\u0254gb\u0254 dzi se o.\u2019 Egbl\u0254
+  be: \u201cMido gb\u0254gb\u0254awo kp\u0254, nenye \u0256e wotso Mawu gb\u0254.\u201d
+  (Yohanes I, 4:1) Bu e\u014bu ale. Ne \u00e8se nya a\u0256e si ate \u014bu akp\u0254
+  \u014bus\u1ebd \u0256e w\u00f2 agbe dzi vevie la, \u0256e n\u00e0ts\u0254e ko be
+  nyatefee le esi n\u00e8susu be yeate \u014bu aka \u0256e amesi gbl\u0254e dzi taa?
+  Ao \u0256e! \u00c0di godoo be yeaku nyaa me nyuie hafi aw\u0254 nu \u0256e enu.\\nEsi
+  w\u00f2nye Mawu na wo\u014bl\u0254 agbal\u1ebd si me nyatefenya vevi siawo le \u0256i
+  na m\u00ed ta la, ele b\u0254b\u0254e be w\u00f2 h\u00e3 n\u00e0ku nyatefenya siawo
+  me, ale be \u2018n\u00e0do nuwo akp\u0254\u2019 nyuie ahaka \u0256e edzi be m\u0254fiame
+  nyuit\u0254 dzi w\u0254mee yele. (Tesalonikat\u0254wo I, 5:21) Wokafu ame a\u0256ewo
+  le fe alafa gb\u00e3t\u0254 me elabena \u201cwole \u014b\u0254\u014bl\u0254awo me
+  dzrom gbesiagbe\u201d ale be woaka \u0256e edzi be nusiwo sr\u0254\u0303m won\u0254
+  la nye nyatefe. (D\u0254w\u0254w\u0254wo 17:11) W\u00f2 h\u00e3 \u00e0te \u014bu
+  aw\u0254 nenema ke. \u00d0e m\u0254 Biblia, si le \u201cabe aka\u0256i, si le kekl\u1ebdm
+  le tsy\u0254tsy\u0254fe ene\u201d la nafia m\u0254 w\u00f2 dedie. (Petro II, 1:19-21)
+  Ne \u00e8w\u0254e alea la, ekema \u201cw\u00f2 asi atu sidzedze Mawu,\u201d eye
+  afia m\u0254 nyuit\u0254 w\u00f2.\u2014Lododowo 2:5.\\n[Etenu\u014b\u0254\u014bl\u0254]\\n[N\u0254n\u0254metata
+  si le axa 4]\\nMawu fe Nya le abe aka\u0256i ene\\n[N\u0254n\u0254metata si le axa
+  5]\\nMawu fe \u014bk\u0254 \u0256e?\\n[N\u0254n\u0254metata si le axa 5]\\nM\u0254kp\u0254kp\u0254
+  kae le amegbet\u0254wo si \u0256e ets\u0254me \u014bu?\\n[N\u0254n\u0254metata si
+  le axa 6]\\nMawu \u014aus\u1ebdkat\u00e3t\u0254e Yesu nyea?\\n[N\u0254n\u0254metata
+  si le axa 6]\\nAfikae ame kukuwo le?\\n[N\u0254n\u0254metata si le axa 7]\\nAme
+  kukuwo fe tsitretsitsi nye Biblia fe nufiafia veviwo domet\u0254 \u0256eka\"", "\"Modified
+  Hindu Push-up nye kamedede si me wow\u0254a nusianu le si doa \u014bus\u1ebd ame
+  fe akpa si le etame, si me ab\u0254wo, ab\u0254ta, ak\u0254ta, kple ak\u0254ta h\u00e3
+  le, eye w\u00f2naa w\u00f2te \u014bu tr\u0254na \u0256e n\u0254n\u0254mewo \u014bu
+  nyuie wu eye w\u00f2naa efe nu veviwo n\u0254a te nyuie wu. Kamedede sia s\u0254
+  na ame \u0256eka\u0256eka siwo le kamedede fe \u0256o\u0256o \u0256esia\u0256e me,
+  elabena woate \u014bu atr\u0254 asi le e\u014bu be w\u00f2as\u0254 \u0256e ame fe
+  \u014bus\u1ebd kple asit\u0254tr\u0254 le n\u0254n\u0254mewo \u014bu nu. Amewo adi
+  be yewoats\u0254 kamedede sia ade yewofe \u0256o\u0256ow\u0254\u0256i me be w\u00f2ana
+  ame fe tame fe \u014bus\u1ebd nanyo \u0256e edzi, w\u00f2ana ame fe \u014butil\u00e3
+  na\u0256u e\u0256okui dzi nyuie wu, eye w\u00f2ana ame fe n\u0254n\u0254me nanyo
+  \u0256e edzi.\\n\u1ebc, g\u0254medzelawo ate \u014bu aw\u0254 Modified Hindu Push-up
+  kamededea. Gake ele vevie be m\u00edade dzesii be esia nye kamedede si de \u014bg\u0254
+  wu si bia \u014bus\u1ebd kple asit\u0254tr\u0254 le n\u0254n\u0254mewo \u014bu vase\u0256e
+  afi a\u0256e. Ele be g\u0254medzelawo nadze eg\u0254me kple push-up veviwo eye vivivi
+  la, woayi \u014bg\u0254 ayi t\u0254tr\u0254 siwo ses\u1ebd wu abe Hindut\u0254wo
+  fe push-up ene gb\u0254. Ele vevie \u014but\u0254 h\u00e3 be n\u00e0l\u00e9 n\u0254n\u0254me
+  nyuit\u0254 me \u0256e asi be n\u00e0fo asa na abix\u0254x\u0254. Ne kamededea g\u0254medzelae
+  n\u00e8nye la, \u00e0te \u014bu abu kamededea w\u0254w\u0254 le hehenala alo kamedede
+  fe z\u0254h\u025b bibi a\u0256e fe dzikp\u0254kp\u0254 te \u014bu.\"", "\"About
+  the station\\nE\u01b2EAWO \u0191E GBE E\u01b2EAWO \u0191E GBE, \u014aKU\u01b2U\u01b2U
+  KPLE DEK\u0186NUWO \u0191E DZESIDEDE GODO\u0191E. MIE KU NU ME EYE MIEKPOE BE EHIA
+  BE MI EWEAWO MIANYA AFISI YIM MIELE NE MIENYA AFISI MIETSO O. ALE MIEDO NYASEM\u0186
+  SIA ANYI SI AN\u0186 NU \u0191OM LE MIA \u0191E DEK\u0186NUWO, \u014aUTINYAWO, HAWO
+  KPLE BUBUWO \u014aUTI. MIELE \u01b2U\u01b2UM DI EYE MIELE KLALO AXO MIA\u0191E NUXLOMENYAWO
+  ATSO TU MIADOKUI ADO. EYATA MIEGAHE DE MEGBE O. KEBON MIETE GOGO MI NE MIA TUTU
+  \u01b2UA DO T\u0186 ELABENA DEKAKAW\u0186W\u0186 ME \u014aUSE LE. KPE NA MI. DODOWO
+  LE ALE: * \u014aUTINYAWO * HAWO * DEK\u0186NUWO * HAKPANYAWO * ADZE DODOWO KPLE
+  NUME KUKUWO * GLIWO ... MIAN\u0186 NU ME EYE MIA TO MIA\u0191E DODOWO ME EDZIDZI
+  BE MI MA TEDA TSO MIA\u0191E TADODZINUWO GB\u0186 WO.\"", "\"MAY 5, 2014\\nXEXEA
+  ME KAT\u00c3\\nAmegbet\u0254 fe gomen\u0254amesi \u014buti nunyalawo fo nu tso ale
+  si asrafod\u0254gbegbe le dzitsinya ta w\u0254 va zu amegbet\u0254 fe gomen\u0254amesi
+  le Europa la \u014bu.\\nAfet\u0254 Nils Muiznieks, si nye Europa Amegbet\u0254 \u0191e
+  Gomen\u0254amesi fe Ada\u014budeha si wo\u0256o be w\u00f2akp\u0254 egb\u0254 be
+  wode bubu amegbet\u0254 fe gomen\u0254amesiwo \u014bu le Europa-duk\u0254wo me la
+  fe ameg\u00e3.\\nAfet\u0254 Richard Clayton QC nye Britain-duk\u0254a fe tefen\u0254la
+  le Venice A\u0256a\u014bu\u0256oha me. Venice A\u0256a\u014bu\u0256oha nye Europa
+  fe Ada\u014budeha si \u0256oa a\u0256a\u014bu tso nya siwo ku \u0256e dukpl\u0254sewo
+  \u014bu.\\nSe gbebiame w\u0254d\u0254\u0256eamedzi sia me nya vevi a\u0256ewo \u0256a.\"",
+  "\"Internet Dzi Biblia | \u014a\u0186\u014aL\u0186 K\u0186K\u0186EAWO\u2014XEXE
+  YEYE G\u0186ME\u0189E\u0189E\\n-\\n\u00d0ekaw\u0254w\u0254, dzidz\u0254kp\u0254kp\u0254,
+  tamesusu nyuiwo (1-9)\\n-\\n\u014audzedzekp\u0254kp\u0254 \u0256e Filipit\u0254wo
+  fe nunanawo \u014bu (10-20)\\n-\\nGbedoname maml\u025bawo (21-23)\\n4 Eya ta n\u0254vinye
+  l\u0254l\u0254\u0303t\u0254 siwo le dzroyem vevie, mi ame siwo nye nye dzidz\u0254
+  kple nye dzi\u0256u\u0256ukuku,+ nye l\u0254l\u0254\u0303t\u0254wo, min\u0254 te
+  ses\u0129e+ alea le Afet\u0254 la me.\\n2 Mele nu xl\u0254\u0303m Ewodia, eye mele
+  nu xl\u0254\u0303m Sintike, be wofe tamesusu naw\u0254 \u0256eka le Afet\u0254 la
+  me.+\\n3 \u0190\u0303, mele kuku \u0256em na w\u00f2 h\u00e3, nye had\u0254w\u0254la
+  vav\u00e3, be n\u00e0n\u0254 kpekpem \u0256e ny\u0254nu siawo \u014bu, ame siwo
+  \u028bli kplim aduadu le nya nyui la ta hekpe \u0256e Klemens kpakple hanyed\u0254w\u0254la
+  sus\u0254eawo \u014bu, ame siwo fe \u014bk\u0254wo le agbegbal\u1ebda me.+\\n4 Dzi
+  nedz\u0254 mi le Afet\u0254 la me \u0263eawokat\u00e3\u0263i. Megale egbl\u0254m
+  ake be, dzi nedz\u0254 mi!+\\n5 Amewo kat\u00e3 nanyae be nug\u0254meselawo+ mienye.
+  Afet\u0254 la gogo.\\n6 Migatsi dzima\u0256i le naneke \u014buti o,+ ke bo\u014b
+  le nu sia nu me la, mito gbedodo\u0256a kple kokofofo kpakple akpedada dzi miana
+  Mawu nanya miafe dzimedidiwo;+\\n7 eye Mawu fe \u014butifafa,+ si fo g\u0254mesesewo
+  kat\u00e3 ta la, adz\u0254 miafe dziwo+ kple miafe tamesusuwo \u014bu to Kristo
+  Yesu dzi.\\n8 Ml\u0254eba la, n\u0254viwo, nu siwo kat\u00e3 nye nyatefe, nu siwo
+  kat\u00e3 dze na bubu, nu siwo kat\u00e3 le dz\u0254dz\u0254e, nu siwo kat\u00e3
+  le dzadz\u025b, nu siwo kat\u00e3 dze na l\u0254l\u0254\u0303, nu siwo kat\u00e3
+  \u014bu wofoa nu nyui le, nu siwo kat\u00e3 nye nuw\u0254na nyui, kple nu siwo kat\u00e3
+  dze na kafukafu la, min\u0254 nu siawo \u014bu bum.+\\n9 Nu siwo miesr\u0254\u0303,
+  eye miex\u0254, eye miese, eye miekp\u0254 le gb\u0254nye la, min\u0254 nu siawo
+  dzi;+ ekema \u014butifafa fe Mawu la an\u0254 anyi kpli mi.\\n10 Mele dzidz\u0254
+  ge\u0256e kp\u0254m le Afet\u0254 la me be miegats\u0254 \u0256e le eme nam ake.+
+  Togb\u0254 be mien\u0254 \u014bunye bum h\u00e3 la, m\u0254nukp\u0254kp\u0254 mesu
+  mia si mie\u0256ee fia o.\\n11 Menye \u0256e mele esia gbl\u0254m abe \u0256e nu
+  hi\u00e3m ene o, elabena mesr\u0254\u0303e be le n\u0254n\u0254me \u0256e sia \u0256e
+  me la, nu siwo le asinye la nadze \u014bunye.+\\n12 Menya ale si nu hi\u00e3a ame,+
+  eye menya ale si nu b\u0254na \u0256e ame si. Le nu sia nu kple n\u0254n\u0254me
+  \u0256e sia \u0256e me la, mesr\u0254\u0303 nu \u0263a\u0263la sia be, manya ale
+  si wo\u0256ia fo kple ale si d\u0254 wua ame, ale si nu b\u0254na \u0256e ame si
+  kple ale si nu hi\u00e3a ame.\\n13 Metea \u014bu w\u0254a nuwo kat\u00e3 to ame
+  si doa \u014bus\u1ebdm la dzi.+\\n14 Gake miew\u0254e nyuie be miekpe \u0256e \u014bunye
+  le nye xaxawo me.\\n15 Le nyatefe me la, mi Filipit\u0254wo mienyae h\u00e3 be esi
+  miex\u0254 nya nyui la v\u0254 eye medzo le Makedonia la, hame a\u0256eke me\u0256o
+  nunana \u0256em o, eye nyemex\u0254 \u0256eke tso wo gb\u0254 o, negbe tso miawo
+  gb\u0254 ko;+\\n16 elabena esime men\u0254 Tesalonika la, mie\u0256o nu siwo hi\u00e3m
+  la \u0256em, menye zi \u0256eka ko o, ke bo\u014b zi eve s\u0254\u014b.\\n17 Menye
+  be nunana dim mele o, ke bo\u014b kutsetse si ana miakp\u0254 vi\u0256e ge\u0256e
+  \u0256e edzi la dim mele.\\n18 Ke nu siwo kat\u00e3 hi\u00e3m la le asinye w\u00f2gb\u0254
+  edzi. Mey\u0254 gba go fifia esi mex\u0254 nu siwo mie\u0256o \u0256em to Epafrodito+
+  dzi la, nu siwo nye \u028be\u028b\u1ebd lilili,+ v\u0254sa nyui, si dzea Mawu \u014bu.\\n19
+  Nye Mawu h\u00e3 ana nu siwo kat\u00e3 ahi\u00e3 mi+ la mi le efe kesin\u0254nuwo
+  nu le \u014butik\u0254k\u0254e me to Kristo Yesu dzi.\\n20 Ke m\u00eda Mawu kple
+  Fofo la t\u0254 nanye \u014butik\u0254k\u0254e tso mav\u0254 me yi mav\u0254 me.
+  Amen.\\n21 Mido gbe na ame k\u0254k\u0254e siwo kat\u00e3 w\u0254 \u0256eka kple
+  Kristo Yesu la nam. N\u0254vi siwo le gb\u0254nye la do gbe na mi.\\n22 Ame k\u0254k\u0254ewo
+  kat\u00e3 do gbe na mi, veviet\u0254 ame siwo le Kaisaro fe me.+\\n23 Afet\u0254
+  Yesu Kristo fe amenuveve nan\u0254 anyi kple gb\u0254gb\u0254 si mie\u0256ena fiana
+  la.\"", "\"\u00c8nya fia\u0256ufe si \u014bu m\u00edele nu fom tsoea?\u2014 Nyatefee,
+  eyae nye Mawu fe Fia\u0256ufea. Enye Fia\u0256ufe si ana anyigba nazu paradiso.
+  \u00c0di be yeanya nu ge\u0256e tso Fia\u0256ufe sia \u014bua?\u2014\\nFia n\u0254a
+  Fia\u0256ufe \u0256e sia \u0256e nu. Eye fia la \u0256ua fia \u0256e ame siwo le
+  efe duk\u0254a me la dzi. \u00c8nya ame si nye Mawu Fia\u0256ufea fe Fia?\u2014
+  Yesu Kristoe. Ele dzifo. Etefe madidi o a\u0256u fia \u0256e anyigbadzin\u0254lawo
+  kat\u00e3 dzi! \u00c8susu be dzi adz\u0254 m\u00ed ne Yesu va le anyigba bliboa
+  kat\u00e3 dzi \u0256uma?\u2014\\nNu kawoe n\u00e0di be yeakp\u0254 le Paradisoa
+  me?\\nDzi adz\u0254 m\u00ed \u014but\u0254! Le paradisoa me la, amewo magada k\u0254
+  kple wo n\u0254ewo o. Amewo magaw\u0254 a\u028ba o. Ame sia ame al\u0254\u0303 n\u0254via.
+  Ame a\u0256eke magadze d\u0254 alo aku o. Ame siwo fe \u014bku gb\u00e3 la akp\u0254
+  nu, ame siwo fe to ku la h\u00e3 ase nu, eye ame siwo metea \u014bu z\u0254na o
+  la afu du ahati kpo. Nu\u0256u\u0256u as\u0254 gb\u0254 \u0256e ame sia ame si.
+  Eye l\u00e3wo afe kple wo n\u0254ewo eye woanye m\u00ed amegbet\u0254wo fe x\u0254l\u0254\u0303wo.
+  Ame siwo ku la agb\u0254 agbe. \u014autsu kple ny\u0254nu siwo \u014buti n\u00e8sr\u0254\u0303
+  nu tsoe le agbal\u1ebd gbadza sia me la h\u00e3 agb\u0254 agbe! Ame siawo domet\u0254
+  a\u0256ewoe nye Rebeka, Raxab, David kple Eliya. \u00d0e n\u00e8di be yeakp\u0254
+  wo ne wogb\u0254 agbea?\u2014\\nYehowa l\u0254\u0303 w\u00f2 eye w\u00f2di be dzi
+  nadz\u0254 w\u00f2. Ne \u00e8yi edzi le nu sr\u0254\u0303m tso Yehowa \u014bu eye
+  n\u00e8\u0256oa toe la, \u00e0te \u014bu an\u0254 paradiso si nya kp\u0254 \u014but\u0254
+  la me tegbee! \u00d0e esia medzro w\u00f2 oa?\u2014\"", "\"Ab\u0254 \u00d0eka fe
+  Kamedede nye kamedede si le b\u0254b\u0254e gake w\u00f2w\u0254a d\u0254 nyuie si
+  \u0256ea vi na ame \u0256eka\u0256eka siwo le didim be yewoana yewofe ab\u0254ta
+  fe \u028bu\u028bu kple n\u0254n\u0254me nanyo \u0256e edzi ko\u014b. Enyo \u014but\u0254
+  na amesiwo fe kamedede le vovovo, siwo dome kamedefefew\u0254lawo, \u0254fisd\u0254w\u0254lawo,
+  alo amesiame si le ab\u0254ta fe vevesese le esi \u0263eyi\u0263i didi a\u0256e
+  fe d\u0254maw\u0254maw\u0254 alo n\u0254n\u0254me si mes\u0254 o ta h\u00e3 le.
+  Kamedede sia nyo elabena menye \u0256eko w\u00f2doa \u014bus\u1ebd ame be w\u00f2ate
+  \u014bu atr\u0254 \u0256e n\u0254n\u0254mewo \u014bu w\u00f2ate \u014bu atr\u0254
+  \u0256e n\u0254n\u0254mewo \u014bu eye w\u00f2ate \u014bu a\u028b\u00e3 o, ke ekpena
+  \u0256e ame \u014bu le l\u00e3mekawo fe tete\u0256eanyi dzi \u0256e\u0256e kp\u0254t\u0254
+  me eye w\u00f2\u0256ea abi siwo do fome kple ab\u0254ta fe af\u0254kua dzi kp\u0254t\u0254na.\\n\u00dclatuse
+  sooritamine: Sisuline \u00f5petus Ab\u0254 \u00d0eka \u00d0e Gli \u014au\\nDo al\u0254
+  \u0256eka \u0256e \u014bg\u0254 t\u1ebd eye n\u00e0ts\u0254 w\u00f2 asibid\u025b
+  a\u0256o gli \u014bu gbadzaa, eye n\u00e0na w\u00f2 ab\u0254 nan\u0254 ab\u0254ta.\\nTs\u0254
+  w\u00f2 \u014butil\u00e3 fo \u0256e gli \u014bu blewuu, n\u00e0keke ab\u0254ta si
+  le gli \u014bu la fe ab\u0254ta, vase\u0256e esime n\u00e0se le \u0256okuiw\u00f2
+  me be yekeke yefe dzi\u0256e\u0256i.\\nL\u00e9 n\u0254n\u0254me sia me abe s\u025bk\u025bnd
+  20-30 ene, n\u00e0gb\u0254 ya nyuie.\\nGbugb\u0254 w\u0254 kamededea kple al\u0254
+  kem\u025ba.\\nN\u00f5uanded sooritamiseks Ab\u0254 \u00d0eka \u00d0e Gli \u014au\\n\u01b2u\u028bu
+  si Dzi Wo\u0256u: Tu gli la to w\u00f2 ak\u0254ta kple af\u0254 et\u0254\u0303 fe
+  l\u00e3mekawo fofo me, emegbe n\u00e0tr\u0254 ayi afisi n\u00e8dze eg\u0254me tsoe
+  vivivi. Menye dufufu \u014bue kamedede sia ku \u0256o o ke bo\u014b \u028bu\u028bu
+  si dzi wo\u0256u, si wo\u0256o ko\u014b w\u0254e. Dufufu to \u028bu\u028bua me ate
+  \u014bu a\u0256e efe d\u0254w\u0254w\u0254 dzi akp\u0254t\u0254 eye w\u00f2ana abix\u0254x\u0254
+  fe af\u0254kua nadzi \u0256e edzi.\\nNa W\u00f2 \u014autil\u00e3 Nan\u0254 \u00d0esia\u0256e
+  Me: Ele be w\u00f2 \u014butil\u00e3 nan\u0254 dz\u0254dz\u0254e le kamededea kat\u00e3
+  me. \u0191o asa na w\u00f2 ak\u0254ta fe \u028bu\u028bu alo eb\u0254b\u0254, elabena
+  esia ate \u014bu ana n\u00e0n\u0254 n\u0254n\u0254me si mes\u0254 o me eye w\u00f2ate
+  \u014bu ax\u0254 abi.\\nL\u00e9 f\u0254 \u0256e l\u00e3mekawo fe d\u0254w\u0254w\u0254
+  \u014bu: L\u00e9 f\u0254 \u0256e l\u00e3meka siwo \u014bu n\u00e8le d\u0254 w\u0254m
+  le \u014bu \u2014 w\u00f2 ak\u0254ta, ab\u0254ta kple triceps. Ele be n\u00e0se
+  l\u00e3meka siawo fe tete ne \u00e8le tutum \u0256e gli \u014bu. Ne m\u00e8le sesem
+  le \u0256okuiw\u00f2 me alea o la, ke \u0256ewoh\u0129 ahi\u00e3 be n\u00e0w\u0254e
+  nenema\\nAb\u0254 \u00d0eka \u00d0e Gli \u014au KKK\\nKas algajad saavad teha Ab\u0254
+  \u00d0eka \u00d0e Gli \u014au?\\n\u1ebc, g\u0254medzelawo ate \u014bu aw\u0254 One
+  Arm Against Wall fe kamededea. Enye kamedede b\u0254b\u0254e si w\u0254a d\u0254
+  nyuie si ate \u014bu akpe \u0256e ab\u0254ta fe \u028bu\u028bu kple asit\u0254tr\u0254
+  le n\u0254n\u0254mewo \u014bu nyuie wu. Ke h\u00e3, ele vevie be g\u0254medzelawo
+  nadze eg\u0254me blewu eye woal\u00e9 n\u0254n\u0254me nyuit\u0254 me \u0256e asi
+  be woagax\u0254 abi o. Ne wose veve alo vevesese a\u0256e le kamededea me la, ele
+  be woadzudz\u0254e enumake eye \u0256ewoh\u0129 woatr\u0254 asi le e\u014bu w\u00f2as\u0254
+  \u0256e wofe kamedede si li fifia nu. Ate \u014bu a\u0256e vi h\u00e3 be woana ame
+  \u014but\u0254 fe hehenala alo kamedede\u014butinunyala nafia m\u0254 wo le kamededea
+  me le g\u0254medzedzea me be w\u00f2akp\u0254 egb\u0254 be yewole ew\u0254m nyuie.\\nMillised
+  on tavalised variatsioonid Ab\u0254 \u00d0eka \u00d0e Gli \u014au?\\nAb\u0254 \u00d0eka
+  \u00d0e Gli \u014au Kple Af\u0254kpodzi: Le afisia la, \u00e8w\u0254a ak\u0254tadzesi
+  esime n\u00e8le al\u0254 \u0256eka tem \u0256e gli \u014bu, si t\u0254a \u014bku
+  w\u00f2 \u014butil\u00e3 fe akpa si le anyime eye w\u00f2naa w\u00f2 lifo dzina
+  \u0256e edzi.\\nAb\u0254 \u00d0eka \u00d0e Gli \u014au Kple Axadzikeke: M\u0254\u0256e\u0256e
+  sia bia be n\u00e0\u0256o w\u00f2 al\u0254 si le abl\u0254\u0256e me la \u0256e
+  dzi kple w\u00f2 ta dzi hena axadzikeke, si ana n\u00e0te \u014bu atr\u0254 \u0256e
+  n\u0254n\u0254mewo \u014bu nyuie wu eye w\u00f2ana w\u00f2 axadzi l\u00e3mekawo
+  nadidi.\\nAb\u0254 \u00d0eka \u00d0e Gli \u014au Kple Tsitretsitsi fe Ka: Ne \u00e8ts\u0254
+  tsitretsitsi fe ka kpe \u0256e w\u00f2 asibid\u025b kple gli \u014bu la, t\u0254tr\u0254
+  sia dzia \u014bus\u1ebda \u0256e edzi eye w\u00f2\u0256oa ta\u0256odzinu na w\u00f2
+  al\u0254 kple ab\u0254ta fe l\u00e3mekawo nyuie wu.\\nAb\u0254 \u00d0eka \u00d0e
+  Gli \u014au Kple Bicep Curl: Le t\u0254tr\u0254 sia me la, \u00e8ts\u0254a w\u00f2
+  al\u0254 si le abl\u0254\u0256e me w\u0254a bicep curl esime n\u00e8le evelia tem
+  \u0256e gli \u014bu, eye w\u00f2 susu n\u0254a ab\u0254 fe \u014bus\u1ebd kple l\u00e3mekawo
+  fe \u028bu\u028bu \u014bu.\\nMillised on head t\u00e4iendavad harjutused Ab\u0254
+  \u00d0eka \u00d0e Gli \u014au?\\nDoorway Stretch kpe \u0256e One Arm Against Wall
+  \u014bu elabena e\u0256oa ta l\u00e3meka fe hatsotso mawo ke dzi, veviet\u0254 ab\u0254ta
+  kple ak\u0254ta, si w\u0254n\u025b be l\u00e3mekawo fe \u028bu\u028bu fe didime
+  kple l\u00e3mekawo fe \u014bus\u1ebd nyona \u0256e edzi.\\nGli Push-Up nye kamedede
+  bubu si kpe \u0256e One Arm Against Wall \u014bu elabena menye \u0256eko w\u00f2w\u0254a
+  d\u0254 \u0256e ak\u0254ta kple ab\u0254ta fe l\u00e3mekawo dzi ko o, ke ew\u0254a
+  d\u0254 \u0256e nu vevi h\u00e3 dzi, si naa kamedede si de to wu le etame.\"", "\"15
+  Ke n\u0254viwo, mele \u014bku \u0256om nya nyui si megbl\u0254 na mi,+ si h\u00e3
+  miex\u0254 hel\u00e9 eme \u0256e asi ses\u0129e la dzi na mi. 2 Miakp\u0254 \u0256e\u0256e
+  h\u00e3 ne miel\u00e9 nya nyui si megbl\u0254 na mi la me \u0256e asi ses\u0129e
+  ko, negbe\\n3 Elabena nu gb\u00e3t\u0254 siwo mets\u0254 de asi na mi lae nye nu
+  siwo nye h\u00e3 mex\u0254, be Kristo ku \u0256e m\u00edafe nu v\u0254\u0303wo ta
+  le \u014a\u0254\u014bl\u0254awo nu;+ 4 eye wo\u0256ii,+ \u025b\u0303, wof\u0254e
+  \u0256e tsitre+ le \u014bkeke et\u0254\u0303a gbe+ le \u014a\u0254\u014bl\u0254awo
+  nu;+ 5 eye e\u0256e e\u0256okui fia Kefas,*+ emegbe la, Ame Wuieveawo.+ 6 Le ema
+  megbe la, e\u0256e e\u0256okui fia n\u0254vi siwo wu alafa at\u0254\u0303 zi \u0256eka,+
+  ame siwo domet\u0254 akpa g\u00e3t\u0254 kp\u0254t\u0254 le m\u00eda dome, ke wo
+  domet\u0254 a\u0256ewo h\u00e3 d\u0254 al\u0254\u0303 le ku me. 7 Emegbe e\u0256e
+  e\u0256okui fia Yakobo,+ eyome e\u0256e e\u0256okui fia apostoloawo kat\u00e3.+
+  8 Ke ml\u0254eba e\u0256e e\u0256okui fia nye h\u00e3,+ abe ame si fe \u014bkeke
+  mede hafi wodzii o ene.\\n9 Nyee nye suet\u0254 le apostoloawo dome, eye nyemedze
+  woay\u0254 be apostolo o, elabena meti Mawu fe hame la yome.+ 10 Ke le Mawu fe amenuveve
+  me la, mezu nu si menye egbea. Eye amenuveve si w\u00f2\u0256e fiam la mezu dzodzro
+  o, ke bo\u014b medze agbagba ge\u0256e wu wo kat\u00e3; ke h\u00e3 menye nyee o,
+  ke bo\u014b Mawu fe amenuveve si li kplim lae. 11 Gake e\u0256anye nyee o, e\u0256anye
+  woawoe o, nu siae m\u00ede\u0256ea gbef\u00e3e, eye nu siae na mieva x\u0254e se.\\n12
+  Ke ne wole gbef\u00e3 \u0256em be wof\u0254 Kristo \u0256e tsitre tso ame kukuwo
+  dome la,+ aleke w\u0254 mia domet\u0254 a\u0256ewo le gb\u0254gbl\u0254m be ame
+  kukuwo fe tsitretsitsi a\u0256eke meli o? 13 Ne vav\u00e3e ame kukuwo fe tsitretsitsi
+  a\u0256eke meli o la, ekema womef\u0254 Kristo \u0256e tsitre o. 14 Ke ne womef\u0254
+  Kristo \u0256e tsitre o la, ekema m\u00edafe gbef\u00e3\u0256e\u0256e la nye dzodzro
+  nyatefe, eye miafe x\u0254se h\u00e3 nye dzodzro. 15 Az\u0254 h\u00e3, woakp\u0254
+  m\u00ed be m\u00edenye a\u028batso\u0256asefowo \u0256e Mawu \u014bu+ elabena m\u00ede\u0256ia
+  \u0256ase tsia tsitre \u0256e Mawu \u014buti be ef\u0254 Kristo la \u0256e tsitre,+
+  ev\u0254 ne vav\u00e3e womef\u0254a ame kukuwo \u0256e tsitre o la, ekema mef\u0254e
+  \u0256e tsitre hafi o. 16 Elabena ne womaf\u0254 ame kukuwo \u0256e tsitre o la,
+  ekema womef\u0254 Kristo h\u00e3 \u0256e tsitre o. 17 Eye ne womef\u0254 Kristo
+  \u0256e tsitre o la, ekema vi\u0256e a\u0256eke mele miafe x\u0254se la \u014bu
+  o; miegakp\u0254t\u0254 le miafe nu v\u0254\u0303wo me.+ 18 Ekema ame siwo d\u0254
+  al\u0254\u0303 le ku me le Kristo me h\u00e3 tsr\u0254\u0303.+ 19 Ne agbe sia \u0256e\u0256e
+  ko mee m\u00edekp\u0254 m\u0254 na Kristo le la, ekema m\u00edafe nue w\u0254 nublanui
+  wu.\\n20 Gake az\u0254 wof\u0254 Kristo \u0256e tsitre tso ame kukuwo dome, eye
+  w\u00f2nye ame siwo d\u0254 al\u0254\u0303 le ku me la fe kutsetse gb\u00e3t\u0254.+
+  21 Elabena esi w\u00f2nye ame dzie ku to va ta la,+ ame kukuwo fe tsitretsitsi la
+  h\u00e3 to ame dzi va.+ 22 Elabena ale si ko amewo kat\u00e3 kuna le Adam me la,+
+  nenema kee woagb\u0254 agbe wo kat\u00e3 h\u00e3 le Kristo me.+ 23 Ke ame sia ame
+  le efe \u0256o\u0256o nu: Kristoe nye kutsetse gb\u00e3t\u0254,+ emegbe la, ame
+  siwo nye Kristo la t\u0254 le efe anyin\u0254\u0263i+ la. 24 Az\u0254 nuwuwu la
+  ava, esime w\u00f2ats\u0254 Fia\u0256ufe la ade asi na efe Mawu, si nye Fofoa, ne
+  e\u0256e dzi\u0256u\u0256u kat\u00e3 kple ameg\u00e3nyenye kat\u00e3 kpakple \u014bus\u1ebd
+  kat\u00e3 \u0256a v\u0254.+ 25 Elabena ele be w\u00f2a\u0256u fia va se \u0256e
+  esime Mawu nats\u0254 fut\u0254wo kat\u00e3 ade efe af\u0254 te.+ 26 Fut\u0254 maml\u025bt\u0254
+  si woa\u0256e \u0256a lae nye ku.+ 27 Elabena Mawu \u201cts\u0254 nuwo kat\u00e3
+  de efe af\u0254 te.\u201d+ Ke esi w\u00f2gbl\u0254 be \u2018wots\u0254 nuwo kat\u00e3
+  de ete\u2019+ la, edze f\u00e3a be Ame si ts\u0254 nuwo kat\u00e3 de ete ya mele
+  eme o.+ 28 Ke ne wots\u0254 nuwo kat\u00e3 de ete v\u0254 la, ekema Vi la \u014but\u0254
+  h\u00e3 ats\u0254 e\u0256okui ade Ame si ts\u0254 nuwo kat\u00e3 de ete la te,+
+  ale be Mawu nanye nuwo kat\u00e3 na ame sia ame.+\\n29 Ne menye nenema o la, nu
+  kae ame siwo nyr\u0254m wole yi \u0256e + Ne womaf\u0254 ame kukuwo \u0256e tsitre
+  kura o \u0256e, ekema nu ka tae wole wo nyr\u0254m kple ta\u0256odzinu ma? 30 Nu
+  ka tae m\u00edawo h\u00e3 m\u00ede\u0256oa af\u0254ku me \u0263esia\u0263i \u0256o?+
+  31 Medzea \u014bg\u0254 ku gbe sia gbe. N\u0254viwo, aseye si metsona le mia ta
+  le m\u00eda Afet\u0254 Kristo Yesu me lae mets\u0254 le kpe \u0256om nya sia dzi.
+  32 Ne mew\u0254 avu kple l\u00e3 w\u0254ad\u00e3wo le Efeso+ abe ame bubuwo ene
+  \u0256e, vi\u0256e kae w\u00f2nye nam? Ne womaf\u0254 ame kukuwo \u0256e tsitre
+  o la, ekema \u201cmina m\u00eda\u0256u nu, eye m\u00edano nu, elabena ets\u0254
+  m\u00edele kuku ge.\u201d+ 33 Migana woaflu mi o. Hadede v\u0254\u0303wo gbl\u1ebda
+  n\u0254n\u0254me nyuiwo.+ 34 Miny\u0254 le mia \u0256okui me ne miaw\u0254 nu si
+  le dz\u0254dz\u0254e, eye migan\u0254 nu v\u0254\u0303 w\u0254m o, elabena ame a\u0256ewo
+  medze si Mawu o. Mele egbl\u0254m ale be \u014bu nakpe mi.\\n35 Ke ame a\u0256e
+  agbl\u0254 be: \u201cAleke woaf\u0254 ame kukuwo \u0256e tsitre? \u0190\u0303, \u014butil\u00e3
+  ka fomevie woats\u0254 adoe?\u201d+ 36 W\u00f2, ame masenug\u0254me! Nu si n\u00e8f\u00e3na
+  la megb\u0254a agbe o, negbe \u0256e w\u00f2ku gb\u00e3. 37 Eye nu si n\u00e8f\u00e3na
+  la, menye ati si amie tso eme lae n\u00e8f\u00e3na o, ke bo\u014b nuku gb\u0254lo
+  ko, ate \u014bu anye lu alo nuku bubu \u0256e sia \u0256e; 38 ke Mawu naa n\u0254n\u0254mee
+  ale si w\u00f2l\u0254\u0303, eye w\u00f2naa nukuawo \u014but\u0254 fe n\u0254n\u0254me
+  wo domet\u0254 \u0256e sia \u0256e. 39 Menye \u014butil\u00e3wo kat\u00e3e nye \u014butil\u00e3
+  \u0256eka fomevi o, ke bo\u014b amegbet\u0254wo t\u0254 li, l\u00e3f\u0254newo fe
+  \u014butil\u00e3 li, xewo fe \u014butil\u00e3 li eye t\u0254mel\u00e3wo t\u0254
+  h\u00e3 li. 40 Dzifo\u014butil\u00e3wo li,+ eye anyigbadzi\u014butil\u00e3wo h\u00e3
+  li;+ ke dzifo\u014butil\u00e3wo fe \u014butik\u0254k\u0254e le vovo, eye anyigbadzi\u014butil\u00e3wo
+  h\u00e3 t\u0254 le vovo. 41 \u0194e fe \u014butik\u0254k\u0254e le vovo, \u0263leti
+  fe \u014butik\u0254k\u0254e le vovo,+ eye \u0263letiviwo fe \u014butik\u0254k\u0254e
+  h\u00e3 le vovo; le nyatefe me la, \u0263letivi \u0256e sia \u0256e fe \u014butik\u0254k\u0254e
+  to vovo na n\u0254via t\u0254.\\n42 Nenema kee ame kukuwo fe tsitretsitsi h\u00e3
+  le. Wof\u00e3n\u025b* le gbegbl\u1ebd me; wof\u0254n\u025b \u0256e tsitre le magblemagbl\u1ebd
+  me.+ 43 Wof\u00e3n\u025b le bubuman\u0254ame\u014bu me; wof\u0254n\u025b \u0256e
+  tsitre le \u014butik\u0254k\u0254e me.+ Wof\u00e3n\u025b le gb\u0254dz\u0254gb\u0254dz\u0254
+  me; wof\u0254n\u025b \u0256e tsitre le \u014bus\u1ebd me.+ 44 Wof\u00e3a \u014butil\u00e3
+  si m\u00edekp\u0254na; wof\u0254n\u025b \u0256e tsitre w\u00f2nyea gb\u0254gb\u0254\u014butil\u00e3.
+  Ne \u014butil\u00e3 si m\u00edekp\u0254na li la, ekema gb\u0254gb\u0254\u014butil\u00e3
+  h\u00e3 li. 45 Wo\u014bl\u0254 \u0256i be: \u201cAme gb\u00e3t\u0254 Adam zu ame*
+  gbagbe.\u201d+ Adam maml\u025bt\u0254 zu gb\u0254gb\u0254+ si naa agbe. 46 Gake
+  menye gb\u0254gb\u0254met\u0254e gb\u00e3t\u0254 nye o. \u014autil\u00e3met\u0254e
+  gb\u00e3t\u0254 nye, eye emegbe gb\u0254gb\u0254met\u0254 la. 47 Ame gb\u00e3t\u0254
+  la tso anyigba me, eye anyi wots\u0254 m\u00e8e;+ ame evelia ya tso dzifo.+ 48 Ame
+  siwo wow\u0254 kple anyi la le ko abe ame si wots\u0254 anyi m\u00e8 la ene; eye
+  ame siwo le dzifo la le ko abe ame si tso dzifo va la ene.+ 49 Eye ale si ko ame
+  si wots\u0254 anyi m\u00e8 la fe n\u0254n\u0254me le m\u00eda si la,+ nenema kee
+  ame si tso dzifo va la fe n\u0254n\u0254me h\u00e3 an\u0254 m\u00eda si.+\\n50 Ke
+  n\u0254viwo, esia gbl\u0254m mele be, \u014butil\u00e3 kple \u028bu mate \u014bu
+  anyi Mawu Fia\u0256ufe la dome o, eye gbegbl\u1ebd mate \u014bu anyi magblemagbl\u1ebd
+  dome o. 51 Kp\u0254 \u0256a! Mele nya \u0263a\u0263la k\u0254k\u0254e a\u0256e gbl\u0254m
+  na mi: Menye m\u00ed kat\u00e3e ad\u0254 al\u0254\u0303 le ku me o, ke bo\u014b
+  woatr\u0254 m\u00ed kat\u00e3 m\u00edafe n\u0254n\u0254me+ 52 enumake, le a\u0256abafofo
+  \u0256eka me, le kp\u1ebdkuku maml\u025ba me. Elabena kp\u1ebd la a\u0256i,+ eye
+  woaf\u0254 ame kukuwo \u0256e tsitre magblemagbl\u1ebde, eye woatr\u0254 m\u00edafe
+  n\u0254n\u0254me. 53 Elabena ele be nu sia, si gbl\u1ebdna la, nad\u00f3 magblemagbl\u1ebd,+
+  eye nu sia, si kuna la, nad\u00f3 makumaku.+ 54 Ke ne nu sia si gbl\u1ebdna la d\u00f3
+  magblemagbl\u1ebd, eye nu sia si kuna la d\u00f3 + 55 \u201cKu, w\u00f2 dzi\u0256u\u0256u
+  \u0256e? Ku, afi kae w\u00f2 ti si n\u00e8ts\u0254 le ame t\u00e9m la le?\u201d+
+  56 Ti si hea ku van\u025b lae nye nu v\u0254\u0303,+ eye nu v\u0254\u0303 fe \u014bus\u1ebde
+  nye Se la.*+ 57 Ke woada akpe na Mawu be ena dzi\u0256u\u0256u m\u00ed to m\u00eda
+  Afet\u0254 Yesu Kristo dzi!+\\n58 Eya ta n\u0254vinye l\u0254l\u0254\u0303t\u0254wo,
+  min\u0254 te ses\u0129e,+ ma\u028bama\u028b\u00e3, eye miw\u0254 ge\u0256e+ le Afet\u0254
+  la fe d\u0254 la me \u0263esia\u0263i, elabena mienyae be miafe agbagbadzedze le
+  Afet\u0254 la me menye dzodzro o.+\"", "\"Ale si Biblia \u0256o e\u014bui\\n\u0190\u0303,
+  etr\u0254a susu le m\u0254 sia nu be ne amewo tr\u0254 wofe nuw\u0254nawo la eya
+  h\u00e3 tr\u0254a n\u0254n\u0254me \u0256e wo \u014bu. Le kp\u0254\u0256e\u014bu
+  me, esi Mawu d\u0254 nyagbl\u0254\u0256ila a\u0256e be w\u00f2ayi a\u0256agbl\u0254
+  \u028b\u0254nudr\u0254\u0303gbedeasi a\u0256e na blema Israel-viwo la, egbl\u0254
+  be: \u201c\u00d0ewoh\u0129 woasee, eye ame sia ame atr\u0254 tso efe m\u0254 v\u0254\u0303
+  dzi, ekema matr\u0254 susu, eye nyemagahe v\u0254\u0303 si me\u0256o \u0256e wo
+  \u014bu le wofe nuw\u0254na v\u0254\u0303\u0256iwo ta la ava wo dzi o.\u201d\u2014Yeremiya
+  26:3.\\nWo\u0256e nya sia g\u0254me le Biblia a\u0256ewo me be Mawu \u201ctr\u0254
+  dzi me\u201d le v\u0254\u0303 si w\u00f2\u0256o be yeaw\u0254 la gome. Wofe nya
+  sia ate \u014bu afia be Mawu da vo. Gake Hebrigbe me nya si g\u0254me wo\u0256e
+  la ate \u014bu afia \u201ctr\u0254 susu alo tr\u0254 tame.\u201d Agbal\u1ebdnyala
+  g\u00e3 a\u0256e \u014bl\u0254 bena: \u201cNe amewo tr\u0254 wofe nuw\u0254na la,
+  Mawu h\u00e3 tr\u0254a \u028b\u0254nu si w\u00f2\u0256o be yeadr\u0254\u0303 wo
+  la.\u201d\\nKe h\u00e3, ele be m\u00edade dzesii be togb\u0254 be Mawu tea \u014bu
+  tr\u0254a susu h\u00e3 la, mezi edzi be w\u00f2atr\u0254 susu \u0263esia\u0263i
+  o. Kp\u0254 Biblia me nudz\u0254dz\u0254 siwo me Mawu metr\u0254 susu le o la domet\u0254
+  a\u0256ewo \u0256a:\\nMawu me\u0256e m\u0254 Balak na w\u00f2tr\u0254 susu hefo
+  fi de Israel-duk\u0254 la o.\u20144 Mose 23:18-20.\\nEsi Israel fia Saul ts\u0254
+  nu v\u0254\u0303\u0256i w\u0254w\u0254 \u0256o d\u0254e la, Mawu metr\u0254 tame
+  si w\u00f2\u0256o be yeagbee la o.\u20141 Samuel 15:28, 29.\\nMawu aw\u0254 \u0256e
+  \u014bugbe si w\u00f2do be yeana ye Vi nanye nun\u0254la tegbee la dzi. Mawu matr\u0254
+  susu o.\u2014Psalmo 110:4.\\n\u00d0e Biblia megbl\u0254 be Mawu metr\u0254na oa?\\n\u0190\u0303,
+  Mawu gbl\u0254 le Biblia me be: \u201cNye Yehowa nyemetr\u0254 o.\u201d (Malaki
+  3:6) Nenema kee Biblia gbl\u0254 be Mawu \u201cmetr\u0254na abe v\u0254v\u0254li
+  ene o.\u201d (Yakobo 1:17) Gake nya sia metsi tsitre \u0256e nya si Biblia gbl\u0254
+  be Mawu tr\u0254 susu la \u014bu o. Mawu metr\u0254na o le susu sia nu be efe n\u0254n\u0254mewo
+  kple efe dzidzenu ku \u0256e l\u0254l\u0254\u0303 kple dz\u0254dz\u0254enyenye \u014bu
+  metr\u0254na gbe\u0256e o. (5 Mose 32:4; 1 Yohanes 4:8) Gake etea \u014bu naa m\u0254fiame
+  vovovowo amewo le \u0263eyi\u0263i vovovowo me. Le kp\u0254\u0256e\u014bu me, Mawu
+  na m\u0254fiame vovovowo Fia David le a\u028ba eve a\u0256ewo me, gake m\u0254fiame
+  eveawo kat\u00e3 kp\u0254 dzidzedze.\u20142 Samuel 5:18-25.\\n\u00d0e w\u00f2ve
+  Mawu be yew\u0254 amegbet\u0254woa?\\nAo, togb\u0254 be even\u025b be ame akpa g\u00e3t\u0254
+  me\u0256oa to ye o h\u00e3. Biblia gbl\u0254 tso ale si n\u0254n\u0254meawo n\u0254
+  le anyigba dzi do \u014bg\u0254 na Noa fe \u014bkekea me Tsi\u0256\u0254\u0256\u0254a
+  \u014bu be: \u201cEve Yehowa bena, w\u00f2w\u0254 ame \u0256e anyigba dzi, eye w\u00f2\u0256u
+  dzi n\u025b.\u201d (1 Mose 6:6) D\u0254w\u0254nya si woz\u00e3 le kpukpui sia me
+  be \u201ceve\u201d nye Hebrigbe me nya a\u0256e si ate \u014bu afia \u201ctr\u0254
+  susu.\u201d Mawu tr\u0254 susu ku \u0256e ame siwo n\u0254 anyigba dzi do \u014bg\u0254
+  na Tsi\u0256\u0254\u0256\u0254a domet\u0254 akpa g\u00e3t\u0254 \u014bu le wofe
+  nu v\u0254\u0303\u0256i w\u0254w\u0254 ta. (1 Mose 6:5, 11) Togb\u0254 be etena
+  \u0256e Mawu dzi be amewo ts\u0254 nu v\u0254\u0303\u0256i w\u0254w\u0254 \u0256o
+  d\u0254e h\u00e3 la, metr\u0254 susu ku \u0256e amegbet\u0254fome bliboa \u014bu
+  o. Le nyatefe me la, ekp\u0254 amegbet\u0254fomea ta le Tsi\u0256\u0254\u0256\u0254a
+  me esi w\u00f2na Noa kple efe fomea tsi agbe.\u20141 Mose 8:21; 2 Petro 2:5, 9.\"",
+  "\"Lever Reverse Shoulder Press nye kamedede si tua \u014bus\u1ebd \u0256o si me
+  wotsia dzi \u0256e deltoids, triceps, kple ak\u0254ta fe akpa si le etame ko\u014b,
+  si doa l\u00e3mekawo fe tsitsi \u0256e \u014bg\u0254 eye w\u00f2naa ame fe akpa
+  si le etame fe \u014bus\u1ebd nyona \u0256e edzi. Es\u0254 na g\u0254medzelawo kple
+  kamedede de\u014bg\u0254wo siaa elabena woate \u014bu atr\u0254 asi le e\u014bu
+  b\u0254b\u0254e be w\u00f2as\u0254 \u0256e ame \u0256eka\u0256ekawo fe \u014bus\u1ebd
+  fe sefe nu. Kamedede sia \u0256ea vi na amesiwo le didim be yewoana yewofe ab\u0254ta
+  fe \u014bus\u1ebd kple lifo nanyo \u0256e edzi, yewoana yewofe n\u0254n\u0254me
+  nanyo \u0256e edzi, alo yewoatu tame si me k\u0254 wu \u0256o.\\n\u1ebc, g\u0254medzelawo
+  ate \u014bu aw\u0254 Lever Reverse Shoulder Press kamededea, gake ele vevie be woadze
+  eg\u0254me kple kpekpeme si le b\u0254b\u0254e wu be woakp\u0254 egb\u0254 be n\u0254n\u0254me
+  nyuit\u0254 eye woaxe m\u0254 \u0256e abix\u0254x\u0254 nu. E\u0256ea vi h\u00e3
+  be hehenala alo ame bibi a\u0256e nafia m\u0254 wo le kamededea me le g\u0254medzedzea
+  me. Abe alesi w\u00f2le le kamedede \u0256esia\u0256e gome ene la, ele vevie \u014but\u0254
+  be n\u00e0x\u0254 dzo nyuie aha\u0256o to w\u00f2 \u014butil\u00e3 be n\u00e0fo
+  asa na agbagbadzedze f\u0169u akpa.\"", "\"Ame\u0256e\u0256e Le Robinson Crusoe
+  \u0191ukpo dzi\\nROBINSON CRUSOE nye fukpo et\u0254\u0303 siwo fo fu w\u0254 fukpohatsotso
+  si woy\u0254na be Juan Fern\u00e1ndez le Pasifik-fua me, si didi kilometa 640 tso
+  Chile futa gb\u0254 la domet\u0254 \u0256eka. * \u0191ukpo sia si fe lolome nye
+  kilometa 93 kpe \u0256o kp\u0254 \u014bk\u0254 ma tso fe alafa 18 lia me gbal\u1ebd
+  a\u0256e si \u014bk\u0254e nye Robinson Crusoe, si agbal\u1ebd\u014bl\u0254la E\u014blisit\u0254,
+  Daniel Defoe \u014bl\u0254 la me. Edze f\u00e3 be Scotlandt\u0254, Alexander Selkirk,
+  si \u0256e\u0256e n\u0254 fukpoa dzi fe ene a\u0256ewo fe m\u0254z\u0254z\u0254
+  ses\u1ebdwo dzie wotu agbal\u1ebda \u0256o.\\nAti a\u0256e si wotu \u0256e fukpoa
+  dzi la dzi nu\u014b\u0254\u014bl\u0254 fe akpa a\u0256e xl\u1ebd be: \u201cScotlandt\u0254,
+  fudzidela, Alexander Selkirk, n\u0254 tefe sia tso \u014bkeke yi \u014bkeke hena
+  fe ene s\u0254\u014b hets\u0254 dzima\u0256itsitsi n\u0254 \u014bku tsam \u028b\u0129
+  yi keke dzi\u014bg\u0254li kple atsiafua fe godofe n\u0254 t\u0254dzi\u028bu si
+  ava \u0256ee tso efe akogotsitsi la me dim.\u201d Ml\u0254eba la, wo\u0256e Selkirk
+  hek\u0254e yi wo denyigba dzi, yi duk\u0254 si me n\u0254n\u0254 mevivi enu le efe
+  paradiso sue la me n\u0254n\u0254 v\u0254 megbe o. Woka nya ta be egbl\u0254 emegbe
+  be: \u201cOo nye fukpo l\u0254l\u0254\u0303 la! Evem be megbl\u1ebd w\u00f2 \u0256i!\u201d\\nEsi
+  \u0263eyi\u0263iwo va n\u0254 yiyim la, fukpoa va zu tohefe na ame a\u0256ewo siwo
+  da le Katoliko-ha la fe \u201cdzix\u0254sewo\u201d dzi. Aleke fukpo si n\u0254 abe
+  paradiso ene na Selkirk la va tr\u0254e enye si! Gake amesiwo le fukpoa dzi egbea
+  le \u014butifafa si t\u0254gbe mele xexeame fe akpa ge\u0256e o la me. Agben\u0254n\u0254
+  dzi\u0256e\u0256it\u0254e, abe alesi w\u00f2le le fukpo ge\u0256e dzi ene w\u0254e
+  w\u00f2le b\u0254b\u0254e be woadze dze\u0256o\u0256o g\u0254me kple ame \u0256esia\u0256e
+  fomevi.\\nAmesiwo ade 500 ye le Robinson Crusoe fukpoa dzi, gake le fea fe akpa
+  g\u00e3t\u0254 me la, ame abe 400 koe n\u0254a edzi. Susu siwo tae w\u00f2le alea
+  domet\u0254 a\u0256ee nye be vidada a\u0256ewo kple wo viwo n\u0254a Chile-du siwo
+  mele fukpoa dzi o me le sukude\u0263iwo, eye \u0263leti siwo me wole m\u0254keke
+  koe wogb\u0254na vaa fukpoa dzi va w\u0254a \u0256eka kple fomet\u0254 maml\u025bawo.\\nTogb\u0254
+  be ab\u0254 dzeaniwo fo xl\u00e3 Robinson Crusoe fukpoa h\u00e3 la, edzin\u0254la
+  a\u0256ewo sena le wo \u0256okui me be nane bu \u0256e yewo le gb\u0254gb\u0254
+  me eye wole edim. Ame bubuwo se le wo \u0256okui me be yewohi\u00e3 \u0256e\u0256e
+  le gb\u0254gb\u0254 me.\\nGb\u0254gb\u0254 me \u00d0e\u0256ekp\u0254kp\u0254\\nAme\u0256e\u0256e
+  le gb\u0254gb\u0254 me fe d\u0254 sia dze eg\u0254me le fe 1979 me l\u0254fo. Ny\u0254nu
+  a\u0256e si Yehowa \u00d0asefowo n\u0254 Biblia sr\u0254\u0303m kplii le Santiago,
+  Chile la \u028bu yi fukpoa dzi hete nusi w\u00f2sr\u0254\u0303 fiafia ame bubuwo.
+  Le \u0263eyi\u0263i a\u0256e megbe la, hamemeg\u00e3 a\u0256e si \u0256i tsa yi
+  fukpoa dzi le d\u0254w\u0254nyawo ta kp\u0254 Biblia-nusr\u0254\u0303viwo fe fufofo
+  sue a\u0256e n\u0254 \u014bg\u0254 yim le gb\u0254gb\u0254 me to ny\u0254nu ma fe
+  kpekpe\u0256e\u014bu dzi. Le \u0263leti et\u0254\u0303 megbe esi hamemeg\u00e3a
+  gbugb\u0254 yi fukpoa dzi ake la, Biblia-fiala sia si sa \u0256e aga la kple efe
+  nusr\u0254\u0303vi eve dze na ny\u0254nyr\u0254x\u0254x\u0254, eyata hamemeg\u00e3a
+  na ny\u0254nyr\u0254 wo. Emegbe Kristot\u0254 ny\u0254nyr\u0254x\u0254la yeye siawo
+  domet\u0254 \u0256eka \u0256e sr\u0254\u0303, eye woa kple sr\u0254\u0303a\u014butsua
+  yi edzi n\u0254 ame bubu siwo gb\u0254gb\u0254 me \u0256e\u0256ekp\u0254kp\u0254
+  hi\u00e3 la dim. Sr\u0254\u0303a\u014butsua x\u0254 \u014bg\u0254 wotu Fia\u0256ufe
+  Akpata sue a\u0256e, si gbef\u00e3\u0256elawo fe fufofo sue si le fukpoa dzi la
+  kp\u0254t\u0254 le zaz\u00e3m. Le \u0263eyi\u0263i a\u0256e megbe la, wo\u028bu
+  le Robinson Crusoe yi hame a\u0256e me le titina Chile le ganyawo ta, eye woyi edzi
+  le Yehowa sub\u0254m le afima dzon\u0254amemet\u0254e.\\n\u01b2\u025b\u028b\u025b\u028b\u025b
+  esi wole ame bubuwo \u0256em tso alakpasub\u0254sub\u0254 me la, fufofo sue si le
+  fukpoa dzi yi edzi le dzidzim \u0256e edzi. Gake esi w\u00f2le be sukuviwo nayi
+  k\u0254ledzi le fukpoa godo ta la, fufofoa dzi \u0256e kp\u0254t\u0254 w\u00f2sus\u0254
+  n\u0254viny\u0254nu x\u0254ny\u0254nyr\u0254 eve kple ny\u0254nuvi \u0256eka. Le
+  m\u0254ke\u0263iwo la, fufofoa dzina \u0256e edzi ne vidada a\u0256ewo tr\u0254
+  va fukpoa dzi. Wofe vava na dzo ga\u0256oa Kristot\u0254 et\u0254\u0303 siwo \u0256e\u0256e
+  tsi afima le fe bliboa me la me. Le n\u0254viny\u0254nu siawo fe agbagbadzedze ta
+  la, amewo nya Yehowa \u00d0asefowo nyuie le Robinson Crusoe. Enye nyatefe be fukpoa
+  dzi n\u0254lawo domet\u0254 a\u0256ewo tsi tre \u0256e d\u0254 si w\u0254m wole
+  \u014bu hete kp\u0254 be yewoana amewo nagbe Fia\u0256ufegbedasia x\u0254x\u0254
+  ya. Gake Biblia fe nyatefea fe ku siwo wof\u00e3 \u0256e dzianukwaret\u0254wo me
+  yi edzi le miemiem.\\n\u014aus\u1ebddodo Amesiwo Wo\u0256e\\nDzikp\u0254la m\u0254z\u0254la
+  a\u0256e \u0256asr\u00e3a wo kp\u0254na le fukpoa dzi zi \u0256eka le fe \u0256esia\u0256e
+  me. Aleke \u00d0asefowo fe fufofo sue si le fukpo si sa \u0256e aga dzi la sasr\u00e3kp\u0254
+  le? Nutome sue dzikp\u0254la a\u0256e fo nu tso zi gb\u00e3t\u0254 si w\u00f2\u0256i
+  tsa yi Robinson Crusoe \u014bu:\\n\u201cM\u0254z\u0254z\u0254 sia nye nusi mekp\u0254
+  m\u0254 na vevie fe me vava. M\u0254z\u0254z\u0254a dze eg\u0254me le \u014bdi ga
+  7:00 me, esime m\u00edeho le Valparaiso ku \u028bu yi Santiago Cerrillos Yame\u028budzefe.
+  M\u00ede\u0256o yame\u028bu sue a\u0256e si k\u0254a ame adre. Le gafofo 2 a\u0256abafofo
+  45 le m\u00edafe hoho megbe la, m\u00edekp\u0254 to k\u0254k\u0254 a\u0256e n\u0254
+  dzedzem le alilikpowo me \u0256aa. Esi m\u00eden\u0254 tetem \u0256e e\u014bu la,
+  fukpoa dze nyuie m\u00edekp\u0254\u2014enye kpe g\u00e3 glidza a\u0256e le atsiafua
+  titina. Edze abe \u0256e w\u00f2le agba sam le tsi gbana a\u0256e dzi abe meli a\u0256e
+  si bu ene.\\n\u201cEsi yame\u028bua dze la, t\u0254dzi\u028bu a\u0256e va k\u0254
+  m\u00ed yi k\u0254fea mee. Kpe g\u00e3wo tso atsiafua g\u0254me ho \u0256e dzi tatata
+  hezu fukpo suesuesue siwo dzi Juan Fern\u00e1ndez fukpoa dzi nyo siwo \u014bu fu
+  le kedzekedze la bena \u0256o. Nyo siwo \u014bu fu le nye l\u00e3 siwo wuwu \u014bu
+  wode se \u0256o elabena wole v\u0254v\u0254m kabakaba. Kasia, nane dzo va dzi le
+  t\u0254dzi\u028bua fe axadzi gasi yi atsiafua g\u0254me. T\u0254mel\u00e3 a\u0256e
+  si dzona si fe adza \u0256i a\u028bal\u00e3 ye w\u00f2nye. Ew\u0254 abe dzodzo va
+  tsia ta an\u0254 nugbagbeviwo l\u00e9m doa dzidz\u0254 n\u025b ene. Gake \u0263ea\u0256ewo\u0263i
+  la, l\u00e3 bubu l\u00e9a eya h\u00e3 mina; efe dzodzo ava tsia \u014bg\u0254 hea
+  l\u00e3l\u00e9nu bubu siwo le \u014budz\u0254 be yewoal\u00e9e ami ne ege gb\u0254na
+  la fe susu \u0256e e\u014bu.\\n\u201cMl\u0254eba m\u00edeva \u0256o San Juan Bautista
+  (Ame K\u0254k\u0254e Yohanes Mawutsidetanamela) k\u0254fea me. \u0191ukpoa dzi n\u0254la
+  \u028b\u025b a\u0256ewo t\u0254 \u0256e \u028budzefea, \u0256ewoh\u0129 wole wofe
+  amedzrowo lalam alo \u0256eko wot\u0254 \u0256i be yewoakp\u0254 be amedzro kawoe
+  gava dua me h\u00e3. Alesi tefea nya kp\u0254e w\u0254 d\u0254 \u0256e m\u00eda
+  dzi ale gbegbe\u2014to g\u00e3 glidzaglidza si \u014bk\u0254e nye El Yunque (Zukpe),
+  si \u014bu gbe wuwlui dama to \u0256o ml\u0254ml\u0254ml\u0254, kple dzi\u014bg\u0254li
+  si me dza eye alilikpo \u0263iwo le e\u014bku me.\\n\u201cEtefe medidi o m\u00edekp\u0254
+  m\u00eda n\u0254viny\u0254nu Kristot\u0254wo kple wo viwo fo fu \u0256e \u028budzefea
+  n\u0254 m\u00eda lalam. Sukuviwo n\u0254 m\u0254keke eyata fufofoa galolo wu ts\u00e3.
+  Le gbe l\u0254l\u0254\u0303 na m\u00eda n\u0254ewo vivido\u0256eame\u014but\u0254e
+  v\u0254 megbe la, wokpl\u0254 m\u00ed yi x\u0254 nyui a\u0256e si azu m\u00edafe
+  afeme kwasi\u0256a \u0256eka la me.\\n\u201cKwasi\u0256a t\u0254x\u025b a\u0256ee
+  w\u00f2nye, eye m\u00edekp\u0254e dze sii be awu enu kaba. Ehi\u00e3 be m\u00edaz\u00e3
+  m\u00edafe \u0263eyi\u0263ia nyuie. Gbemagbe ke le \u014bd\u0254nu\u0256u\u0256u
+  v\u0254 megbe teti la, m\u00ede\u0256i tsa yi Biblia-nusr\u0254\u0303vi a\u0256e
+  si etefe madidi o w\u00f2ava zu m\u00edafe gb\u0254gb\u0254 me n\u0254viny\u0254nu
+  kple Mawu fe gb\u0254gb\u0254meparadisoa me n\u0254la la gb\u0254. Dzidz\u0254 y\u0254e
+  f\u0169, gake en\u0254 v\u0254v\u0254\u0303m h\u00e3 vivivi. Ny\u0254nyr\u0254x\u0254x\u0254
+  si lalam w\u00f2n\u0254 xoxoxo la le edzi \u0256om. M\u00ededzro nya vevi a\u0256ewo
+  me kplii ale be w\u00f2ate \u014bu adze anye nyanyuigbef\u00e3\u0256ela. \u014auf\u0254ke
+  la, ekp\u0254 gome le gbef\u00e3\u0256e\u0256ed\u0254a me zi gb\u00e3t\u0254. \u014akeke
+  et\u0254\u0303agbe la, m\u00ededze ny\u0254nyr\u0254x\u0254x\u0254 nudidiwo me dzodzro
+  g\u0254me kplii. Hafi kwasi\u0256aa nawu enu la, ex\u0254 ny\u0254nyr\u0254.\\n\u201cAmewo
+  fe agb\u0254s\u0254s\u0254 si nye 14 la kpe asi \u0256e kpekpe siwo m\u00edew\u0254
+  le kwasi\u0256aa me la \u014bu. M\u00edew\u0254 \u0256o\u0256o yia gbeadzi, w\u0254a
+  t\u0254tr\u0254yiwo, Biblia-nus\u0254sr\u0254\u0303wo, kple sasr\u00e3kp\u0254wo
+  gbesiagbe. Dzidefo ka gbegbee nye si w\u00f2nye na n\u0254viny\u0254nu siwo \u0256e\u0256e
+  kp\u0254a d\u0254a fe akpa sia akpa gb\u0254 le wo \u0256okui si le fe bliboa kat\u00e3
+  me!\u201d\\nNyatefea x\u0254x\u0254 ses\u1ebd na \u014butsu siwo le fukpoa dzi,
+  \u0256ewoh\u0129 le alesi \u014butil\u00e3med\u0254 si wow\u0254na ses\u1ebde ta.
+  B\u0254lu\u0256e\u0256e ko\u014bue nye d\u0254 si wow\u0254na, eye ex\u0254a \u0263eyi\u0263i
+  le ame si ale gbegbe. Naz\u00e3bubu h\u00e3 nye nusiwo ta wo domet\u0254 ge\u0256e
+  mets\u0254a \u0256eke le nyaa me o fe \u0256e. Ke h\u00e3 m\u00edele m\u0254 kp\u0254m
+  be fukpoa dzi n\u0254la ge\u0256e, \u014butsuwo kple ny\u0254nuwo siaa, ava \u0256o
+  to le ets\u0254me.\\nVase\u0256e fifia la, ame ewo ye wo\u0256e le fukpoa dzi wova
+  nya Yehowa Mawu \u014buti nyatefea kple efe tame\u0256o\u0256owo. Wo domet\u0254
+  a\u0256ewo dzo le fukpoa dzi le susu vovovowo ta. Gake ne wokp\u0254t\u0254 li alo
+  wodzo o, wofe \u0256e\u0256ekp\u0254kp\u0254 le gb\u0254gb\u0254 me \u0256e vi sasas\u00e3
+  wu Alexander Selkirk t\u0254. Fifia wole gb\u0254gb\u0254meparadiso me le afisiafi
+  si woan\u0254. Sefofob\u0254 nyuiwo fo xl\u00e3 n\u0254viny\u0254nu siwo kp\u0254t\u0254
+  le fukpoa dzi kple wo viwo fe afewo, gake nusi wu ema g\u0254\u0303 h\u00e3e nye
+  m\u0254kp\u0254kp\u0254 le wo si be yewoan\u0254 agbe le \u0263eyi\u0263i si me
+  anyigbaa kat\u00e3 anye paradiso vav\u00e3t\u0254 le nusi tututu paradiso fia la
+  nu.\\nAme\u0256e\u0256ed\u0254a le Edzi Yim\\nXexeame fe akpa si Yehowa \u00d0asefowo
+  fe fufofo sue sia le le Robinson Crusoe fukpoa dzi la didi tso wofe gb\u0254gb\u0254
+  me n\u0254vi\u014butsu kple ny\u0254nu sus\u0254eawo gb\u0254 \u028b\u0129. Ke h\u00e3
+  womesena le wo \u0256okui me be yewotsi akogo abe alesi Scotlandt\u0254 Selkirk
+  se le e\u0256okui mee ene o. Woto teokrasi-gbal\u1ebdwo, takpekpe sue kple g\u00e3wo
+  fe video siwo Gbetakp\u0254x\u0254 Hab\u0254b\u0254a fe al\u0254dze si le Chile
+  \u0256ona \u0256e wo zi et\u0254\u0303 le fe \u0256eka me, kple nutome sue dzikp\u0254la
+  fe fe sia fe sasr\u00e3kp\u0254a me na kadodo kplikplikpli le woa kple Yehowa fe
+  hab\u0254b\u0254a dome. Eyata wokp\u0254t\u0254 nye \u2018n\u0254viwo fe xexeame
+  kat\u00e3 fe hab\u0254b\u0254 bliboa\u2019 me t\u0254 veviedonulawo.\u2014Petro
+  I, 5:9.\\n[Etenu\u014b\u0254\u014bl\u0254wo]\\n[Maps/Picture on page 9]\\n(Edze
+  nyuie le agbal\u1ebda \u014but\u0254 me)\\nCHILE\\nSantiago\\nROBINSON CRUSOE \u0191UKPO\\nSan
+  Juan Bautista\\nEl Yunque\\nPASIFIK \u0191UA\\nSANTA CLARA \u0191UKPO\\n[N\u0254n\u0254metata]\\nNe
+  \u00e8le tetem \u0256e fukpoa \u014bu la, \u00e0kp\u0254 kpe g\u00e3 glidza a\u0256e
+  le atsiafua titina\\n[Afi Si M\u00edex\u0254 M\u0254\u0256e\u0256e Tso]\\nMap of
+  Chile: Mountain High Maps\u00ae Copyright \u00a9 1997 Digital Wisdom, Inc.\\n[N\u0254n\u0254metata
+  si le axa 8, 9]\\nTo g\u00e3 glidzaglidza si \u014bk\u0254e nye El Yunque (Zukpe)\\n[N\u0254n\u0254metata
+  si le axa 9]\\nSan Juan Bautista (Ame K\u0254k\u0254e Yohanes Mawutsidetanamela)
+  k\u0254fea\\n[N\u0254n\u0254metata si le axa 9]\\n\u0191ukpo suesuewo nye bebefe
+  na nyo siwo \u014bu fu le kple esiwo \u014bu fu mele o\\n[N\u0254n\u0254metata si
+  le axa 10]\\nM\u00ede\u0256o yame\u028bu sue a\u0256e tso Santiago, Chile\\n[N\u0254n\u0254metata
+  si le axa 10]\\nRobinson Crusoe \u0191ukpoa fe futa si kpewo le glidzaglidza\\n[N\u0254n\u0254metata
+  si le axa 10]\\nFia\u0256ufe Akpata sue si le fukpoa dzi\"", "\"Gbedasi: 65-0219
+  Egbe Sia Wowu \u014a\u0254\u014bl\u0254 Sia Nu\\nAbraham \u0191e Gb\u0254gb\u0254me
+  Fiafome Nuku L\u0254l\u0254\u0303a,\\nHame ka mee n\u00e0te \u014bu ayi a\u0256anyae
+  \u0256ikeke fe v\u0254v\u0254\u0303li a\u0256eke man\u0254mee, be Nya \u0256e sia
+  \u0256e si sem n\u00e8le la nye Ale Afet\u0254 La Gbl\u0254 Esi? Afia\u0256eke o,
+  negbe ko \u00e8le Mawu fe Gbe sem w\u00f2le nufom na w\u00f2 le nyafokawo dzi.\\nMawu
+  fe h\u0254\u0303wo m\u00edenye eye m\u00edele fofose a\u0256eke w\u0254 ge le Nya
+  \u0256eka dzi o. Mana yeye ko dim M\u00edele le takpekpe \u0256e sia \u0256e me
+  eye Mezu na yeyewu wu Esese te\u014b tso Mawu \u014aut\u0254 gb\u0254 o. M\u00ededzona
+  yi yame \u028b\u0129 \u028b\u0129 esime m\u00edesena Gbedeasi \u0256e sia \u0256e.
+  Zi ge\u0256e alesi m\u00edadzo yi yame \u028b\u0129 la, nenema ke m\u00edate \u014bu
+  akp\u0254 nu wu. Ne Mana a\u0256eke mele hame sia me o la, Mawu fe h\u0254\u0303wo
+  k\u0254k\u0254na yi dzi vie wu s\u1ebd \u0256e esime Woakp\u0254e.\\nAlegbegbe m\u00edafe
+  dziwo dzo kp\u0254 kple dzidz\u0254 esime m\u00edese Mawu n\u0254 nufom na m\u00ed
+  hen\u0254 gb\u0254gbl\u0254m na m\u00ed be m\u00edenye Efe, Mawu fe Hame, si wogbugb\u0254
+  dzi, akuakua, si x\u0254na Mawu fe Nya \u0256e sia \u0256e dzi se le nu sia nu fe
+  \u014bkume, meka nusi w\u00f2nye o, elabena m\u00edenye efe Nya \u014augbet\u0254
+  si le afe tsimat\u0254e la.\\n\u01b2unya\u028bunya a\u0256e t\u0254gbe li le amewo
+  dome egbea. Abe alesi w\u00f2n\u0254 le Yesu fe \u014bkekewo me ene, amemawo siwo
+  y\u0254 wo\u0256okuiwo be x\u0254set\u0254wo la n\u0254 nusi nun\u0254la gbl\u0254
+  ku\u0256e \u014a\u0254\u014bl\u0254a \u014bu fe g\u0254me\u0256e\u0256e ts\u0254m.
+  Won\u0254 ame fe g\u0254me\u0256e\u0256e ku\u0256e Nya la \u014bu x\u0254m n\u0254
+  sesem. Susuma tae wodafu be yewoa kp\u0254 Mawu fe Nyatefe la, elabena Mawu fe Nya
+  fe g\u0254me\u0256e\u0256e amet\u0254w\u0254w\u0254ea ge\u0256ewo n\u0254 anyi akpa.
+  Mawu meh\u0129a ame a\u0256eke be w\u00f2a\u0256e Yefe Nya g\u0254me o. Enye E\u014but\u0254
+  \u0191e G\u0254me\u0256ela.\\n\u0189ee n\u00e8x\u0254e se be \u0256e n\u00e8n\u0254
+  agbe le Yesu \u014b\u0254li la, anye ne n\u00e0x\u0254 Nya \u0256e sia \u0256e si
+  W\u00f2gbl\u0254 dzi se, meka nusi w\u00f2 nun\u0254la gbl\u0254 oa? \u0189ee n\u00e0gbl\u0254
+  na w\u00f2 nun\u0254la be to\u0256o\u0256o Yesu lae nye nuveviet\u0254 si n\u00e0te
+  \u014bu aw\u0254a? \u0189ee n\u00e0to na Eyama be Yesu fe Nyawo meh\u0129a g\u0254me\u0256e\u0256e
+  a\u0256eke oa? \u0189ee Yesu fe gbef\u00e3\u0256e\u0256e nyafokawo n\u0254 wosi
+  \u0256e, \u0256ee n\u00e0gbl\u0254 na w\u00f2 nun\u0254la be \u00e8le didim w\u00f2azi
+  play alebena n\u00e0te \u014bu ase nusi Yesu gbl\u0254 tututu kple alesi W\u00f2gbl\u0254ea?\\nEnyo,
+  ema menye w\u00f2 agben\u0254\u0263i o; esiae nye w\u00f2 agben\u0254\u0263i, w\u00f2
+  \u0263eyi\u0263i yenye esia. Biblia gbl\u0254 be, Enye eyama ke ets\u0254, egbe,
+  yi\u0256e mav\u0254mav\u0254 me. Nusi w\u0254m n\u00e8le hele gb\u0254gbl\u0254m
+  fifia la nye nusi n\u00e0w\u0254 le afima le \u0263eyi\u0263i ma me.\\nM\u00edex\u0254e
+  se be Mawu fe V-i ma si va le \u0263edzefe he\u0256okpe E\u0256okui dzi abe Mawu
+  si wo\u0256e \u0256e go le \u014butil\u00e3 me la, nye Mawu fe V-i ma ke le \u0263eto\u0256ofe
+  kpadzi si le dzesi dem E\u0256okui le m\u00eda dome. M\u00edex\u0254e se bena egbe
+  sia wowu \u014a\u0254\u014bl\u0254 sia \u014bu le m\u00edafe \u014bkume.\\nMex\u0254e
+  se vav\u00e3 be esiae nye amenuveve fe la, yubili fe fe la. Ne n\u00e8di be yeakp\u0254t\u0254
+  anye kluvi eye m\u00e8x\u0254e se be Gbedeasi sia nye Ale Afet\u0254 La Gbl\u0254
+  Esi o; Ne Gbedeasi sia menye w\u00f2 T\u0254\u0256ofe o; Ne n\u00e8x\u0254e se be
+  eh\u0129a amegbet\u0254 be w\u00f2a\u0256e Gbedeasi si la g\u0254me; Ne n\u00e8x\u0254e
+  se be egbl\u1ebd be woafo nyafokawo le w\u00f2 hamea me la; ekema ele be woakpl\u0254
+  w\u00f2 eye woa\u0256e do \u0256e tome na w\u00f2 kple nu\u014b\u0254nu, ke ekema
+  ele be n\u00e0sub\u0254 kluvifet\u0254 ma le w\u00f2 \u014bkeke mamleawo me.\\nGake
+  Hame \u014augbet\u0254 akuakua vav\u00e3t\u0254 la le Mawu fe Nya blibo la dzi x\u0254m
+  le sesem le Efe blibodede me kple le Efe \u014bus\u1ebd me. M\u00edawoe nye Hame
+  Tiatia si le e\u0256okui \u0256em do go \u0256a hele aga tso numawo gb\u0254, eye
+  Mawu fe \u0256e\u0256e\u0256ego he m\u00edafe susu va. M\u00edenye Abraham \u0191e
+  Gb\u0254gb\u0254me Fiafome Nuku ma.\\nM\u00edenye akpedala bena \u00e8le afisia
+  be yease vivi le kadodo sia me kpli m\u00ed, esi m\u00edele m\u0254kp\u0254kp\u0254
+  me be Mawu le m\u00edana ge le takpekpe sia me.\\nEyata m\u00edele w\u00f2kpem be
+  n\u00e0va w\u0254 \u0256eka kpli m\u00ed K\u0254si\u0256agbe sia le \u014bd\u0254
+  ga 12 me, Jeffersonville fe game esime m\u00edase 65-0219 Egbe Sia Wowu \u014a\u0254\u014bl\u0254
+  Sia Nu M\u00edele m\u0254kp\u0254kp\u0254 g\u00e3 a\u0256e me na nusi Mawu le w\u0254w\u0254m
+  le takpekpe siawo me. Vi La fe F\u0129e\u0263i Kekeli va \u0256o.\\nN\u0254vi. Joseph
+  Branham.\\nYohanes K\u0254k\u0254e Ta 16lia\\nYesaya 61:1-2\\nLuka K\u0254k\u0254e
+  4:16\"", "\"Dumbbell Seated Kickback nye kamedede si wo\u0256o ta\u0256odzinu na
+  si \u014bu wotr\u0254 asi le be w\u00f2ado \u014bus\u1ebd triceps l\u00e3mekawo
+  ahaw\u0254 wofe \u014bus\u1ebd, ado \u014bus\u1ebd si le etame \u0256e \u014bg\u0254
+  eye w\u00f2ana l\u00e3mekawo fe g\u0254mesese nanyo \u0256e edzi. Es\u0254 na kamedede
+  g\u0254medzelawo kple kamedede de\u014bg\u0254wo siaa elabena woate \u014bu atr\u0254
+  asi le e\u014bu b\u0254b\u0254e be w\u00f2as\u0254 \u0256e ame \u0256eka\u0256ekawo
+  fe kamedede fe sefe nu. Amewo adi be yewoats\u0254 kamedede sia ade yewofe \u0256o\u0256ow\u0254\u0256ia
+  me le esi w\u00f2w\u0254a d\u0254 nyuie le ab\u0254 fe \u014bus\u1ebd dodo \u0256e
+  \u014bg\u0254, l\u00e3mekawo fe dzidodo dzi \u0256e\u0256e kp\u0254t\u0254, kple
+  kpekpe\u0256e\u014bu nana be \u014butil\u00e3 nada s\u0254 eye w\u00f2a\u0256e nu
+  me nyuie wu ta.\\n\u1ebc, g\u0254medzelawo ate \u014bu aw\u0254 Dumbbell Seated
+  Kickback kamededea. Gake ele vevie be n\u00e0dze eg\u0254me kple kpekpeme si le
+  b\u0254b\u0254e wu be n\u00e0kp\u0254 egb\u0254 be efe n\u0254n\u0254me s\u0254
+  eye n\u00e0xe m\u0254 \u0256e abix\u0254x\u0254 nu. Wokafui h\u00e3 be n\u00e0na
+  hehenala alo ame bibi a\u0256e naw\u0254 kamededea fe w\u0254w\u0254fia gb\u00e3
+  be n\u00e0kp\u0254 egb\u0254 be yese \u028bu\u028bu nyuit\u0254 g\u0254me. Abe alesi
+  w\u00f2le le kamedede yeye \u0256esia\u0256e gome ene la, ele be g\u0254medzelawo
+  naw\u0254e blewu eye woadzi wofe kpekpeme \u0256e edzi vivivi eye woagagbugb\u0254e
+  aw\u0254 ne wofe \u014bus\u1ebd le nyonyom \u0256e edzi.\"", "\"GBETAKP\u0186X\u0186
+  No. 4 2016 | Biblia La\u2014Nu Si Tae Enu Meyi O\\nTso blema ke la, Biblia to af\u0254ku
+  ge\u0256ewo me si ate \u014bu aw\u0254e be agbal\u1ebd bliboa alo efe gbedeasia
+  nu nayi hafi. Nu ka tae ale si w\u00f2dz\u0254e be egakp\u0254t\u0254 li la \u0256e
+  dzesi \u014but\u0254?\\nCOVER SUBJECT\\nL\u00e3gbal\u1ebdwo kple aflagbal\u1ebdwo
+  dzie Biblia-\u014bl\u0254lawo kple nugbugb\u0254ga\u014bl\u0254lawo \u014bl\u0254
+  Biblia me gbedeasia \u0256o. Aleke w\u00f2dz\u0254e be nu\u014bl\u0254\u0256i mawo
+  gakp\u0254t\u0254 li va de asi na egbea?\\nCOVER SUBJECT\\nAme gbl\u1ebdku a\u0256ewo
+  dze agbagba be yewoatr\u0254 Biblia me gbedeasia. Aleke wow\u0254 va de dzesi wofe
+  nugbe\u0256o\u0256oa hegbl\u1ebd wofe tame\u0256o\u0256o v\u0254\u0303a me?\\nX\u0254seha
+  siwo gbl\u0254na be Kristot\u0254wo yewonye fe dzix\u0254se kple nufiafia vovovoawo
+  na woto vovo tso wo n\u0254ewo gb\u0254. Eya ta aleke n\u00e0w\u0254 anya s\u0254lemeha
+  si le nyatefea fiam?\"", "\"Nyakpakpa 5: Maria Nye Mawu Dada\\nAfi kae nyakpakpa
+  sia dz\u0254 tso? \u201cBubudede Maria \u014bu abe Mawu dada ene dze eg\u0254me
+  tso esime . . . tr\u0254\u0303sub\u0254la gbogbo a\u0256ewo ny\u00e8 zi va ge \u0256e
+  s\u0254lemeha la me. . . . [Tr\u0254\u0303sub\u0254la siawo siwo va zu Kristot\u0254wo
+  la] fe veviedodo mawusub\u0254sub\u0254 si n\u0254 te \u0256e \u2018mawun\u0254
+  g\u00e3\u2019 la kple \u2018\u0256etugbui mawun\u0254\u2019 la sub\u0254sub\u0254
+  dzi la li xoxoxo hena fe akpe ge\u0256e.\u201d\u2014The New Encyclop\u00e6dia Britannica
+  (1988), Babla 16, axa 326 kple 327.\\nNu kae Biblia fia? \u201c\u00c8le fu f\u0254
+  ge, eye \u00e0dzi \u014butsuvi, eye n\u00e0y\u0254 e\u014bk\u0254 be Yesu. Ame sia
+  anye g\u00e3, eye woay\u0254e be Dzifo\u028b\u0129t\u0254 la fe Vi. . . . Le esia
+  ta, woay\u0254 vi si n\u00e0dzi la be k\u0254k\u0254et\u0254, Mawu fe Vi.\u201d\u2014Luka
+  1:31-35.\\nMawunyakpukpui sia gbl\u0254e eme k\u0254 f\u00e3a be Maria nye \u201cMawu
+  fe Vi\u201d la dada, ke menye Mawu \u014but\u0254 dada o. \u00d0e w\u00f2ate \u014bu
+  ats\u0254 Ame si \u2018dzifowo melolo na o\u2019 la \u0256e d\u0254 mea? (1 Fiawo
+  8:27) Megbl\u0254e kp\u0254 be yenye Mawu dada o. Mawu\u0256ekaet\u0254\u0303 fe
+  nufiafia lae he t\u0254t\u0254 va ame si tututu Maria nye la \u014bu. Efeso A\u0256a\u014budetakpekpe
+  la me n\u0254lawo to Maria sub\u0254sub\u0254 vae tso esime wote ey\u0254y\u0254
+  be Theotokos (si nye Helagbe me nya si g\u0254mee nye \u201came si dzi Mawu\u201d),
+  alo \u201cMawu Dada,\u201d le fe 431 M.\u014a. me. Efeso dug\u00e3 la, afi si s\u0254lemeha
+  la w\u0254 nyametsotso sia le, nye afi si tr\u0254\u0303sub\u0254sub\u0254 si me
+  wo\u0256ua az\u00e3 na vidzidzi mawun\u0254 Artemis le la x\u0254 afe \u0256o hena
+  fe alafa ge\u0256e.\\nEya tae wow\u0254a w\u0254na vovovo siwo yia edzi le Artemis
+  si \u201cge tso dzifo\u201d sub\u0254sub\u0254 me, abe gb\u0254l\u0254l\u0254 ene,
+  la le Maria sub\u0254sub\u0254 h\u00e3 me \u0256o. (D\u0254w\u0254w\u0254wo 19:35)
+  Nuw\u0254na bubu si h\u00e3 wova x\u0254 de Kristot\u0254wo fe nufiafia la mee nye
+  Maria kple ame bubuwo fe n\u0254n\u0254metatawo zaz\u00e3 le tadedeagu me.\\nDzro
+  mawunyakpukpui siawo h\u00e3 me: Mateo 13:53-56; Marko 3:31-35; Luka 11:27, 28\\nNYATE\u0191E
+  LAE NYE:\\nMaria nye \u201cMawu fe Vi\u201d la dada, ke menye Mawu \u014but\u0254
+  dada o. Mawu\u0256ekaet\u0254\u0303 fe nyakpakpa lae na woto Maria sub\u0254sub\u0254
+  abe Mawu Dada ene vae\\n[N\u0254n\u0254metata si le axa 8]\"", "\"\u201cKristo Yesu
+  . . . ts\u0254 e\u0256okui na \u0256e m\u00eda ta, bene . . . w\u00f2ak\u0254 duk\u0254
+  si nye ye \u014but\u0254 t\u0254 ko\u014b, si doa vevie nu le d\u0254 nyuiwo w\u0254w\u0254
+  me, la \u014bu na e\u0256okui.\u201d\\n1, 2. Bubu g\u00e3 kae wode m\u00ed Yehowa
+  \u00d0asefowo \u014bu, eye aleke n\u00e8sena le \u0256okuiw\u00f2 me tso e\u014bu?\\nLE
+  AME ge\u0256e gome la, ne wona nunana wo ts\u0254 kafu wo \u0256e wofe agbagbadzedzewo
+  ta la, wobun\u025b be wode bubu g\u00e3 yewo \u014bu. Le kp\u0254\u0256e\u014bu
+  me, ame a\u0256ewo x\u0254 Nobel Nunana le esi wow\u0254 akpa vevi a\u0256e be \u014butifafa
+  va le fut\u0254wo alo fufofo siwo menyina ts\u00e3 o dome ta. Gake bubu g\u00e3t\u0254
+  kekeake w\u00f2nye be Mawu nad\u0254 ame be w\u00f2anye etefen\u0254la si akpe \u0256e
+  amewo \u014bu be woadzra wo kple wo W\u0254la dome \u0256o!\\n2 Bubu g\u00e3 mae
+  wode m\u00ed Yehowa \u00d0asefowo \u014bu. Mawu kple Kristo de se na m\u00ed be
+  m\u00edayi a\u0256a\u0256e kuku na amewo be: \u201cMina woadzra mia kple Mawu dome
+  \u0256o.\u201d (2 Kor. 5:20) Yehowa le m\u00eda z\u00e3m ts\u0254 le amewo hem \u0256e
+  e\u0256okui \u014bu. M\u0254 sia dzie m\u00edeto kpe \u0256e ame mili\u0254n ge\u0256e
+  siwo tso duk\u0254 siwo wu 235 me la \u014bu be wova le fomedodo nyui me kple Mawu
+  eye agbe mav\u0254 fe m\u0254kp\u0254kp\u0254 su wo si. (Tito 2:11) M\u00edekpea
+  amewo veviedodot\u0254e be: \u201cAme sia ame si l\u0254\u0303 la, nex\u0254 agbetsi
+  la femaxee.\u201d (Nya\u0256. 22:17) Esi m\u00ededea asix\u0254x\u0254 d\u0254deasi
+  vevi sia \u014bu eye m\u00edew\u0254n\u025b movevi\u0256o\u0256ot\u0254e ta la,
+  woate \u014bu agbl\u0254 w\u00f2as\u0254 be m\u00edenye ame siwo \u201cdoa vevie
+  nu le d\u0254 nyuiwo w\u0254w\u0254 me.\u201d (Tito 2:14) Az\u0254 m\u00edadzro
+  ale si m\u00edafe veviedodo le d\u0254 nyuiwo w\u0254w\u0254 me nana m\u00edehea
+  amewo \u0256e Yehowa \u014bu la me. M\u0254 a\u0256e si dzi m\u00edetona w\u0254a
+  esiae nye gbef\u00e3\u0256e\u0256ed\u0254a.\\nSR\u0186\u0303 YEHOWA KPLE YESU \u0191E
+  DZON\u0186AMEME\\n3. Kaka\u0256edzi kae \u2018Yehowa fe dzon\u0254ameme\u2019 naa
+  m\u00ed?\\n3 Yesaya 9:6 fo nu tso nu nyui siwo Mawu fe Vi la fe dzi\u0256u\u0256u
+  ahe v\u025b na amefomea \u014bu, eye w\u00f2gbl\u0254 be: \u201cYehowa, A\u028bak\u0254wo
+  fe Mawu la, fe dzon\u0254ameme aw\u0254 esia.\u201d (NW) Nya siawo na m\u00edekp\u0254
+  ale si gbegbe m\u00eda Fofo si le dzifo ts\u0254 \u0256e le amefomea fe \u0256e\u0256ekp\u0254kp\u0254
+  me. Dzon\u0254ameme fe kp\u0254\u0256e\u014bu si Yehowa \u0256o na m\u00ed la na
+  m\u00edekp\u0254e be ele be m\u00edawo h\u00e3 m\u00edats\u0254 dzi blibo aw\u0254
+  Fia\u0256ufegbef\u00e3\u0256e\u0256ed\u0254 si Mawu de m\u00eda si la kple dzon\u0254ameme
+  kpakple veviedodonu. Didi vevie si le m\u00eda me be m\u00edakpe \u0256e amewo \u014bu
+  woava nya Mawu la nye Yehowa fe dzon\u0254ameme \u0256e\u0256e fia. Eya ta abe Mawu
+  fe had\u0254w\u0254lawo ene la, \u0256e m\u00ede\u0256oe kplikpaa be m\u00edaw\u0254
+  nya nyui gb\u0254gbl\u0254 d\u0254a kple m\u00edafe \u014butete kat\u00e3?\u20141
+  Kor. 3:9.\\n4. Aleke Yesu \u0256o sub\u0254sub\u0254d\u0254a w\u0254w\u0254 dzon\u0254amemet\u0254e
+  fe kp\u0254\u0256e\u014bu \u0256i?\\n4 Mina m\u00edabu dzon\u0254ameme si Yesu h\u00e3
+  \u0256e fia \u014bu kp\u0254. E\u0256o sub\u0254sub\u0254d\u0254a w\u0254w\u0254
+  dzon\u0254amemet\u0254e fe kp\u0254\u0256e\u014bu deblibo \u0256i. Togb\u0254 be
+  amewo tsi tre \u0256e e\u014bu vevie h\u00e3 la, eyi gbef\u00e3\u0256e\u0256ed\u0254a
+  dzi dzon\u0254amemet\u0254e va se \u0256e efe anyigbadzigben\u0254n\u0254 fe nuwuwu.
+  (Yoh. 18:36, 37) Esi Yesu fe v\u0254sakua n\u0254 afe tum la, egado vevie nu ge\u0256e
+  wu be yeana amewo nava nya Yehowa.\\n5. Aleke Yesu w\u0254 nu abe waingbledela si
+  le gboti \u014buti kp\u0254\u0256e\u014bua me la ene?\\n5 Le kp\u0254\u0256e\u014bu
+  me, le fe 32 M.\u014a. fe kele me la, Yesu w\u0254 kp\u0254\u0256e\u014bu ku \u0256e
+  ame a\u0256e si do gboti \u0256e efe waingble me \u014bu; fe et\u0254\u0303 s\u0254\u014b
+  gbotia men\u0254 ku tsem o. Esi w\u00f2gbl\u0254 na waingbledela la be w\u00f2atso
+  gbotia afu anyi la, ebia be w\u00f2ana \u0263eyi\u0263i ye yeado a\u0256u \u0256e
+  e\u014bu. (Mixl\u1ebd Luka 13:6-9.) \u0194ema\u0263i la, ame \u028b\u025b a\u0256ewo
+  koe va zu Yesu fe nusr\u0254\u0303lawo. Gake abe waingbledela si le kp\u0254\u0256e\u014bua
+  me ene la, Yesu z\u00e3 \u0263eyi\u0263i kpui si sus\u0254\u2014si an\u0254 abe
+  \u0263leti ade ene\u2014ts\u0254 \u0256e gbef\u00e3 vevie le Yudea kple Perea. \u014akeke
+  \u028b\u025b a\u0256ewo do \u014bg\u0254 na Yesu fe ku la, efa avi \u0256e edet\u0254
+  siwo \u2018se nyaa gake womew\u0254 edzi o\u2019 la ta.\u2014Mat. 13:15; Luka 19:41.\\n6.
+  Nu ka tae w\u00f2le be m\u00edado vevie nu ge\u0256e wu le sub\u0254sub\u0254d\u0254a
+  me?\\n6 Esi m\u00edele nuwu\u0263ia me \u028b\u0129i ta la, \u0256e mehi\u00e3 \u014but\u0254
+  be m\u00edado vevie nu le gbef\u00e3\u0256e\u0256ed\u0254a w\u0254w\u0254 me ge\u0256e
+  wu oa? (Mixl\u1ebd Daniel 2:41-45.) M\u0254nukp\u0254kp\u0254 w\u0254nuku kae nye
+  esi be m\u00edenye Yehowa \u00d0asefowo! Egbea m\u00edawo koe gbl\u0254a ale si
+  woakp\u0254 amegbet\u0254wo fe kuxiwo gb\u0254 la na amewo. Nyadz\u0254dz\u0254\u014bl\u0254la
+  a\u0256e gbl\u0254 be womate \u014bu akp\u0254 \u014bu\u0256o\u0256o na biabia si
+  nye, \u201cNu ka tae v\u0254\u0303 dz\u0254na \u0256e ame nyuiwo dzi?\u201d la o.
+  Agban\u0254amedzi kple m\u0254nukp\u0254kp\u0254 w\u00f2nye na m\u00ed Kristot\u0254wo
+  be m\u00edagbl\u0254 ale si Biblia \u0256o biabia siawo \u014bui la na ame siwo
+  di be yewoasee. Ehi\u00e3 godoo be \u2018m\u00edax\u0254 dzo le gb\u0254gb\u0254
+  la me\u2019 esi m\u00edele d\u0254 si Mawu de m\u00eda si la w\u0254m. (Rom. 12:11)
+  Yehowa ayra \u0256e agbagba siwo dzem m\u00edele be m\u00edakpe \u0256e amewo \u014bu
+  be woadze sii ahal\u0254\u0303e la dzi.\\n\u00d0OKUITS\u0186TS\u0186SAV\u0186 \u0191E
+  GB\u0186GB\u0186 DOA YEHOWA \u00d0E DZI\\n7, 8. Aleke \u0256okuits\u0254ts\u0254sav\u0254
+  fe gb\u0254gb\u0254 doa Yehowa \u0256e dzi?\\n7 Abe ale si nu siwo me apostolo Paulo
+  to \u0256ee fiae ene la, le m\u00edafe sub\u0254sub\u0254d\u0254a me la, m\u00edate
+  \u014bu atsi \u201cz\u00e3domad\u0254l\u0254\u0303e\u201d eye \u2018m\u00edatsi
+  d\u0254me\u0263i.\u2019 (2 Kor. 6:5) Nya siawo nana m\u00edekp\u0254a nu si \u0256okuits\u0254ts\u0254sav\u0254
+  \u014but\u0254\u014but\u0254 fia eye w\u00f2nana m\u00ede\u0256oa \u014bku m\u0254\u0256ela
+  siwo w\u0254a d\u0254 kp\u0254a woawo \u014but\u0254 \u0256okuiwo dzi ev\u0254 wots\u0254a
+  wofe sub\u0254sub\u0254d\u0254a \u0256oa n\u0254fe gb\u00e3t\u0254 le agbe me la
+  dzi. Gabu dutanyanyuigbl\u0254la dovevienu siwo \u2018ts\u0254a wo \u0256okuiwo
+  k\u0254na \u0256i abe nunov\u0254sa ene\u2019 heyina \u0256asub\u0254na le duk\u0254
+  bubuwo me la h\u00e3 \u014bu kp\u0254. (Flp. 2:17) Ke m\u00edafe hamemetsitsi siwo
+  nu\u0256u\u0256u toa wo \u014bu \u0263ea\u0256ewo\u0263i alo tsia z\u00e3domad\u0254l\u0254\u0303e
+  le bel\u00e9le na Yehowa fe al\u1ebdwo ta ya \u0256e? M\u00eda n\u0254vi tsitsiwo
+  kple ame siwo l\u00e3mes\u1ebdkuxiwo \u0256ea fu na, siwo w\u0254a wofe \u014butete
+  \u0256e sia \u0256e dea Kristot\u0254wo fe kpekpewo hew\u0254a gbef\u00e3\u0256e\u0256ed\u0254a
+  la h\u00e3 li. M\u00edafe dziwo y\u0254na f\u0169u kple \u014budzedzekp\u0254kp\u0254
+  ne m\u00edede \u014bugble le Mawu sub\u0254la siawo siwo ts\u0254a wo \u0256okui
+  saa v\u0254e alea la \u014bu. Esiawo nana amewo kp\u0254a ale si gbegbe m\u00edafe
+  sub\u0254sub\u0254d\u0254a le vevie na m\u00edi.\\n8 Nuxl\u1ebdla a\u0256e si menye
+  \u00d0asefo o gbl\u0254 le l\u025bta si w\u00f2\u014bl\u0254 wota \u0256e United
+  Kingdom nyadz\u0254dz\u0254gbal\u1ebd si woy\u0254na be Boston Target me be: \u201cAmewo
+  fe x\u0254se \u0256e mawusub\u0254sub\u0254 \u014bu nu le fafam . . . Nu ka hakpl\u0254la
+  mawo w\u0254na \u014bkeke bliboa kat\u00e3? Le nyatefe me la, womedoa go yia amewo
+  gb\u0254 abe ale si Kristo w\u0254e ene o . . . Sub\u0254sub\u0254ha \u0256eka kolia,
+  si dze abe wots\u0254 \u0256e le eme na amewo ene ye nye Yehowa \u00d0asefowo, ame
+  siwo doa go yia amewo gb\u0254 eye wokp\u0254a gome le gbef\u00e3\u0256e\u0256e
+  nyatefea me anukwaret\u0254e.\u201d Le egbexexea me la, ame akpa g\u00e3t\u0254
+  tsia dzi \u0256e woawo \u014but\u0254wo fe nyonyo ko \u014bu, eya ta m\u00edafe
+  \u0256okuits\u0254ts\u0254sav\u0254 fe gb\u0254gb\u0254 doa Yehowa Mawu \u0256e
+  dzi.\u2014Rom. 12:1.\\n9. Nu kae ate \u014bu a\u028b\u00e3 m\u00ed be m\u00edayi
+  edzi ado vevie nu le d\u0254 nyuiwo w\u0254w\u0254 me le sub\u0254sub\u0254d\u0254a
+  me?\\n9 Gake ne ew\u0254 abe dzo si le m\u00eda me \u0256e sub\u0254sub\u0254d\u0254a
+  \u014bu nu le tsitsim ene la, nu kae m\u00edate \u014bu aw\u0254? Anyo be m\u00edade
+  \u014bugble le nu siwo gbegbe Yehowa le w\u0254w\u0254m to gbef\u00e3\u0256e\u0256ed\u0254a
+  dzi la \u014bu. (Mixl\u1ebd Romat\u0254wo 10:13-15.) Hafi amewo nakp\u0254 agbe
+  la, ele be woay\u0254 Yehowa fe \u014bk\u0254a le x\u0254se me, gake womate \u014bu
+  aw\u0254 esia ne m\u00ede\u0256e gbef\u00e3 na wo o. Ele be esia nyanya na\u028b\u00e3
+  m\u00ed m\u00edayi edzi ado vevie nu le d\u0254 nyuiwo w\u0254w\u0254 me eye m\u00edagbl\u0254
+  Fia\u0256ufe\u014butinya nyuia dzon\u0254amemet\u0254e.\\nAGBEN\u0186N\u0186 NYUI
+  HEA AMEWO \u00d0E MAWU \u014aU\\n10. Aleke m\u00edafe agben\u0254n\u0254 nyui hea
+  amewo \u0256e Yehowa \u014bui?\\n10 Menye dzon\u0254ameme le sub\u0254sub\u0254d\u0254a
+  me \u0256e\u0256e koe ate \u014bu ahe amewo \u0256e Mawu \u014bu o. Nu evelia si
+  hea amewo \u0256e Mawu \u014bue nye Kristot\u0254wo fe agben\u0254n\u0254 nyui.
+  Paulo te gbe \u0256e esia fe vevienyenye dzi esi w\u00f2gbl\u0254 be: \u201cM\u00edew\u0254a
+  naneke si azu nukikli le m\u0254 a\u0256eke nu o, bene woagakp\u0254 vodada le m\u00edafe
+  sub\u0254sub\u0254d\u0254 la \u014bu o.\u201d (2 Kor. 6:3) M\u00edafe nya dzetowo
+  kple agben\u0254n\u0254 dzadz\u025b \u0256oa atsy\u0254\u0303 na Mawu fe nufiafia,
+  eye w\u00f2hea amewo \u0256e Yehowa sub\u0254sub\u0254 \u014bu. (Tito 2:10) Zi ge\u0256e
+  la, m\u00edesea nutefekp\u0254kp\u0254wo tso nu nyui siwo doa go tso eme ne amewo
+  kp\u0254 m\u00edafe Kristot\u0254wo fe agben\u0254n\u0254 nyuiwo la \u014bu.\\n11.
+  Nu ka tae w\u00f2le be m\u00edabu ale si m\u00edafe agben\u0254n\u0254 le \u014bus\u1ebd
+  kp\u0254m \u0256e amewo dzi la \u014bu vevie?\\n11 M\u00edenyae be m\u00edafe nuw\u0254na
+  nyuiwo kp\u0254a \u014bus\u1ebd nyui \u0256e amewo dzi, gake agben\u0254n\u0254
+  si mes\u0254 o h\u00e3 ate \u014bu akp\u0254 \u014bus\u1ebd gbegbl\u1ebd \u0256e
+  amewo dzi. Eya ta m\u00ede\u0256ale d\u0254me, afe me, alo suku o, ele be m\u00edafo
+  asa na nu sia nu si ana amewo nakp\u0254 vodada le m\u00edafe sub\u0254sub\u0254d\u0254a
+  kple m\u00edafe agben\u0254n\u0254 \u014bu la kura. Ne m\u00ede\u0256on\u025b ko\u014b
+  n\u0254a nu v\u0254\u0303 w\u0254m la, esia agbl\u1ebd nu le m\u00eda \u014bu vevie.
+  (Heb. 10:26, 27) Ele be esia na\u028b\u00e3 m\u00ed m\u00edabu ale si m\u00edele
+  agbe n\u0254mee kple \u014bus\u1ebd si kp\u0254m w\u00f2le \u0256e amewo dzi la
+  \u014bu ahado gbe \u0256a tso e\u014bu. Esi xexe sia fe agben\u0254n\u0254 le gbegbl\u1ebdm
+  \u0256e edzi la, dzianukwaret\u0254wo akp\u0254 \u201cvovo, si le mawusub\u0254la
+  kple ame si mesub\u0254n\u025b o la dome\u201d nyuie wu. (Mal. 3:18) \u0190\u0303,
+  m\u00edafe Kristot\u0254wo fe agben\u0254n\u0254 nyui w\u0254a akpa vevi a\u0256e
+  le amewo kple Mawu dome dzadzra\u0256o me.\\n12-14. Aleke m\u00edafe dzidodo le
+  x\u0254se fe dodokp\u0254wo me kp\u0254a \u014bus\u1ebd \u0256e ale si amewo bua
+  m\u00edafe sub\u0254sub\u0254d\u0254ae dzi? Gbl\u0254 efe kp\u0254\u0256e\u014bu.\\n12
+  Paulo gbl\u0254 le agbal\u1ebd si w\u00f2\u014bl\u0254 na Korintot\u0254wo me be
+  yeto xaxawo, hi\u00e3kamewo, fofowo kple gax\u0254men\u0254n\u0254wo me. (Mixl\u1ebd
+  2 Korintot\u0254wo 6:4, 5.) Ne m\u00ededo dzi le x\u0254se fe dodokp\u0254wo me
+  la, ate \u014bu a\u028b\u00e3 etefekp\u0254lawo be woax\u0254 nyatefea. Le kp\u0254\u0256e\u014bu
+  me: \u0191e a\u0256ewoe nye esi va yi la, amewo tee kp\u0254 be yewoatsr\u0254\u0303
+  Yehowa \u00d0asefowo le Angola fe nuto a\u0256e me. Wol\u00e9 \u00d0asefo x\u0254ny\u0254nyr\u0254
+  2 kple \u0256ets\u0254lemet\u0254 30 siwo dea m\u00edafe kpekpewo. Eyome wona nutoa
+  me t\u0254wo va fo fu, eye wofo ame ma\u0256if\u0254 siawo de abi wo \u014bu. Wome\u0256e
+  ny\u0254nuwo kple \u0256eviwo g\u0254\u0303 h\u00e3 le eme o. Wofe ta\u0256odzinue
+  nye be yewoado \u014b\u0254dzi na amewo ale be woaga\u0256o to Yehowa \u00d0asefowo
+  az\u0254 o. Gake esi wofo \u00d0asefo mawo le dutofo megbe la, nutoa me t\u0254
+  ge\u0256e te \u0256e wo \u014bu hebia be woava sr\u0254\u0303 Biblia kpli yewo!
+  Fia\u0256ufegbef\u00e3\u0256e\u0256ed\u0254a kp\u0254 dzidzedze ge\u0256e le nudz\u0254dz\u0254
+  ma megbe eye wokp\u0254 dzidzi\u0256edzi kple yayra ge\u0256ewo.\\n13 Kp\u0254\u0256e\u014bu
+  sia \u0256e ale si gbegbe Biblia fe g\u0254me\u0256osewo me l\u00e9le \u0256e asi
+  ses\u0129e ate \u014bu akp\u0254 \u014bus\u1ebd \u0256e amewo dzii la fia. Nenema
+  kee ale si Petro kple apostolo bubuawo n\u0254 te ses\u0129e la anya de dzi fo na
+  ame bubu ge\u0256ewo be woadzra wo kple Mawu dome \u0256o. (D\u0254w. 5:17-29) M\u00edawo
+  h\u00e3 m\u00edafe sukuhatiwo, d\u0254w\u0254hatiwo, alo fomet\u0254wo ate \u014bu
+  ava x\u0254 nyatefea ne wokp\u0254 ale si m\u00edel\u00e9a nu dz\u0254dz\u0254e
+  w\u0254w\u0254 me \u0256e asi ses\u0129e.\\n14 \u0194esia\u0263i la, won\u0254a
+  m\u00eda n\u0254viwo yome tim le tefe a\u0256e godoo. Le kp\u0254\u0256e\u014bu
+  me, le Armenia la, m\u00eda n\u0254vi siwo ade 40 le gax\u0254 me fifia \u0256e
+  wofe akpa\u0256ekedzimademade ta, eye an\u0254 eme be woagal\u00e9 n\u0254vi ge\u0256ewo
+  ade g\u0254x\u0254 me le \u0263leti siwo gb\u0254na me. Le Eritrea la, Yehowa sub\u0254la
+  55 siwo domet\u0254 a\u0256ewo x\u0254 wu fe 60 ye le gax\u0254 me fifia. Le South
+  Korea la, \u00d0asefo siwo ade 700 yi m\u0254\u0301 \u0256e wofe x\u0254se ta. Nu
+  siawo le edzi yim fe 60 s\u0254\u014b ye nye esia. Mina m\u00edan\u0254 gbe \u0256om
+  \u0256a \u0256e m\u00eda n\u0254vi siawo siwo yome tim wole la ta be wofe nutefew\u0254w\u0254
+  me l\u00e9le \u0256e asi nahe \u014butik\u0254k\u0254e v\u025b na Mawu eye w\u00f2a\u028b\u00e3
+  dz\u0254dz\u0254enyenyel\u0254\u0303lawo be woax\u0254 nyatefea.\u2014Ps. 76:9-11.\\n15.
+  Gbl\u0254 ale si anukware\u0256i\u0256i ate \u014bu ahe amewo ava nyatefea me la
+  fe kp\u0254\u0256e\u014bu.\\n15 M\u00edafe anukware\u0256i\u0256i h\u00e3 ate \u014bu
+  ahe amewo ava nyatefea me. (Mixl\u1ebd 2 Korintot\u0254wo 6:4, 7.) Bu kp\u0254\u0256e\u014bu
+  sia \u014bu kp\u0254: M\u00eda n\u0254viny\u0254nu a\u0256e di be yeats\u0254 yefe
+  \u028bu\u0256ofe ade m\u0254\u0303 a\u0256e si me woden\u025b le b\u0254s si w\u00f2\u0256o
+  la me be yeatso tikiti esi ex\u0254l\u0254\u0303 a\u0256e gbl\u0254 n\u025b be mehi\u00e3
+  be w\u00f2axe \u028budz\u0254a o, le esi menye didife yim w\u00f2le o ta. M\u00eda
+  n\u0254viny\u0254nua \u0256e eme n\u025b be ele be yeatso tikitia ne \u028but\u0254\u0256ofe
+  gb\u00e3t\u0254ae yea\u0256i \u0256o g\u0254\u0303 h\u00e3. Emegbe x\u0254l\u0254\u0303a
+  \u0256i le \u028bua me. Eyome \u028bukulaa tr\u0254 k\u0254 hebia n\u0254viny\u0254nua
+  be, \u201cYehowa \u00d0asefoe n\u00e8nyea?\u201d M\u00eda n\u0254viny\u0254nua \u0256o
+  e\u014bu be, \u201c\u0190\u0303, nu ka tae n\u00e8bia?\u201d \u01b2ukulaa gbl\u0254
+  be, \u201cMese dze si \u0256om mien\u0254 tso tikititsotso \u014bu; menya be Yehowa
+  \u00d0asefowo le ame \u028b\u025b siwo xea \u028budz\u0254a dome, eye wow\u0254a
+  nutefe le nu sia nu me.\u201d Le \u0263leti \u028b\u025b a\u0256ewo megbe la, \u014butsu
+  a\u0256e te \u0256e n\u0254viny\u0254nua \u014bu le kpekpe me eye w\u00f2biae be,
+  \u201c\u00c8kp\u0254m dze siia? Nyee nye \u028bukula si kafu w\u00f2 \u0256e \u028budz\u0254a
+  xexe ta. W\u00f2 anukware\u0256i\u0256i na metso nya me be Yehowa \u00d0asefowo
+  nasr\u0254\u0303 Biblia kplim.\u201d Ne amewo nya m\u00ed be m\u00edenye anukware\u0256ilawo
+  la, wokana \u0256e nya si m\u00ede\u0256ea gbef\u00e3e la dzi.\\n\u00d0E N\u0186N\u0186ME
+  NYUI SIWO DEA BUBU MAWU \u014aU FIA \u0194ESIA\u0194I\\n16. Nu ka tae n\u0254n\u0254me
+  nyuiwo abe dzigb\u0254gb\u0254 blewu, l\u0254l\u0254\u0303 kple d\u0254menyonyo
+  ene w\u0254a d\u0254 \u0256e amewo dzi? Gbl\u0254 nu siwo hakpl\u0254la alakpanuw\u0254la
+  a\u0256ewo w\u0254na fe kp\u0254\u0256e\u014bu.\\n16 Ne m\u00ede\u0256ea n\u0254n\u0254me
+  nyuiwo abe dzigb\u0254gb\u0254 blewu, l\u0254l\u0254\u0303 kple d\u0254menyonyo
+  ene fiana la, ate \u014bu a\u028b\u00e3 amewo woadi be yewoasr\u0254\u0303 nu tso
+  Yehowa, efe tame\u0256o\u0256owo, kple efe amewo \u014bu. Kristot\u0254 vav\u00e3wo
+  fe n\u0254n\u0254me nyuiwo dea bubu Mawu \u014bu, eye esia to vovo kura na gotagomemawusosro\u0256a
+  si yea\u0256i mawusub\u0254la alakpanuw\u0254lawo \u0256ena fiana zi ge\u0256e.
+  Sub\u0254sub\u0254hakpl\u0254la a\u0256ewo to ga si wotafa wofe hameviwo dz\u0254
+  le wo si dzi va zu kesin\u0254t\u0254 g\u00e3wo, wotu afe g\u00e3wo eye wole \u028bu
+  x\u0254asiwo me\u2014wo domet\u0254 \u0256eka fle avukpo si me yafam\u0254\u0303
+  le g\u0254\u0303 h\u00e3. Le nyatefe me la, ame siwo gbl\u0254na be Kristo yomedzelawoe
+  yewonye la mele klalo be yewoaw\u0254 \u0256e Yesu fe se si nye \u201cfaa minae\u201d
+  la dzi o. (Mat. 10:8) Ke bo\u014b wole abe blema Israel fe nun\u0254la dzego siwo
+  \u201cfiaa nu ame le fetu ta\u201d la ene, eye wofe nufiafiawo mes\u0254 \u0256e
+  \u014a\u0254\u014bl\u0254awo nu h\u00e3 o. (Mika 3:11) Wofe alakpanuw\u0254w\u0254
+  mawo medzraa ame a\u0256eke kple Mawu dome \u0256o o.\\n17, 18. (a) Ne m\u00ede\u0256e
+  Yehowa fe n\u0254n\u0254me nyuiwo fia la, aleke w\u00f2dea bubu e\u014bui? (b) Nu
+  kae \u028b\u00e3a w\u00f2 n\u00e8doa vevie nu ge\u0256e wu le d\u0254 nyuiwo w\u0254w\u0254
+  me?\\n17 Gake Kristot\u0254wo fe nufiafia vav\u00e3wo kple nu nyui siwo wow\u0254na
+  na wo haviwo \u028b\u00e3a amewo fe dzi. Esi n\u0254vi\u014butsu m\u0254\u0256ela
+  a\u0256e n\u0254 gbef\u00e3 \u0256em tso \u028b\u0254tru nu yi \u028b\u0254tru nu
+  la, ahosi tsitsi a\u0256e gbe nyaa enumake. Egbl\u0254 be \u0256e yelia a\u014butsr\u0254e
+  le dzodofe n\u0254 elektrikka\u0256igo \u0256\u0254lim esime w\u00f2fo agbonugaa.
+  N\u0254vi\u014butsua gbl\u0254 n\u025b be: \u201cMenyo be w\u00f2 \u0256eka n\u00e0de
+  nu dzi an\u0254 d\u0254 ma w\u0254m o.\u201d N\u0254vi\u014butsua \u0256\u0254li
+  aka\u0256ia n\u025b ko hetr\u0254 dzo. Esi ny\u0254nua vi\u014butsu va se nu si
+  dz\u0254 la, nua w\u0254 d\u0254 \u0256e edzi ale gbegbe be edi n\u0254vi\u014butsua
+  be yeada akpe n\u025b. Ml\u0254eba la, \u014butsua l\u0254\u0303 be woasr\u0254\u0303
+  Biblia kpli ye.\\n18 Nu ka tae n\u00e8\u0256oe kplikpaa be yeado vevie nu le d\u0254
+  nyuiwo w\u0254w\u0254 me? \u00d0ewoh\u0129 esi n\u00e8nyae be ne m\u00edew\u0254
+  sub\u0254sub\u0254d\u0254a dzon\u0254amemet\u0254e eye m\u00edeyi edzi w\u0254 Mawu
+  fe l\u0254l\u0254\u0303nu la, ade bubu Yehowa \u014bu eye w\u00f2ate \u014bu ana
+  amewo nakp\u0254 agbe tae. (Mixl\u1ebd 1 Korintot\u0254wo 10:31-33.) Susu bubue
+  nye be, m\u00ededoa vevie nu le gbef\u00e3\u0256e\u0256e nya nyuia me hel\u00e9a
+  mawusosro\u0256agben\u0254n\u0254 me \u0256e asi ts\u0254 \u0256ea ale si gbegbe
+  m\u00edel\u0254\u0303 Mawu kple m\u00eda haviwo la fiana. (Mat. 22:37-39) Ne m\u00ededoa
+  vevie nu le d\u0254 nyuiwo w\u0254w\u0254 me la, woayra m\u00ed ge\u0256e, eye m\u00edakp\u0254
+  dzidz\u0254 kple dzidzeme fifia g\u0254\u0303 h\u00e3. Gakpe \u0256e e\u014bu la,
+  m\u00edate \u014bu akp\u0254 m\u0254 na \u0263eyi\u0263i si me amefomea kat\u00e3
+  ats\u0254 dzidz\u0254 ade ta agu na m\u00eda W\u0254la Yehowa ahakafui \u0256aa.\""]'
+src_ngrams: '{"1": [[["yehowa"], 42019], [["efe"], 38491], [["biblia"], 20045], [["wofe"],
+  18500], [["ate"], 16477]], "2": [[["yehowa \u00f0asefowo"], 3297], [["in the"],
+  2511], [["akpa g\u00e3t\u0254"], 1583], [["apostolo paulo"], 1401], [["nenema kee"],
+  1253]], "3": [[["ate \u014bu anye"], 768], [["m\u00edate \u014bu asr\u0254"], 733],
+  [["ate \u014bu akp\u0254"], 695], [["xexe yeye g\u0254me\u0256e\u0256e"], 575],
+  [["ate \u014bu adz\u0254"], 563]], "4": [[["n\u0254n\u0254metata si le axa"], 2197],
+  [["n\u0254n\u0254metata siwo le axa"], 530], [["akpa si le etame"], 379], [["alesi
+  w\u00f2le le kamedede"], 352], [["fofo si le dzifo"], 330]], "5": [[["ate \u014bu
+  akpe \u0256e \u014buw\u00f2"], 502], [["alesi w\u00f2le le kamedede yeye"], 183],
+  [["millised on head t\u00e4iendavad harjutused"], 164], [["alesi w\u00f2le le kamedede
+  \u0256esia\u0256e"], 163], [["n\u0254n\u0254metata tsofe si le axa"], 152]]}'
