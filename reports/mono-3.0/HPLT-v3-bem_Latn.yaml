@@ -1,0 +1,1272 @@
+corpus: hplt-v3-bem_Latn
+srclang: bem
+timestamp: 1758022110.1423094
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["wide16", 1040], ["CC-MAIN-2018-05", 522], ["wide11", 467], ["CC-MAIN-2017-51",
+  361], ["wide12", 275], ["CC-MAIN-2020-10", 264], ["CC-MAIN-2023-06", 200], ["CC-MAIN-2020-05",
+  191], ["CC-MAIN-2023-14", 183], ["CC-MAIN-2020-50", 167], ["CC-MAIN-2014-15", 134],
+  ["wide15", 125], ["CC-MAIN-2021-04", 123], ["CC-MAIN-2019-04", 98], ["CC-MAIN-2021-31",
+  95], ["CC-MAIN-2018-43", 83], ["CC-MAIN-2018-39", 81], ["CC-MAIN-2014-35", 70],
+  ["CC-MAIN-2018-34", 54], ["CC-MAIN-2022-05", 48], ["CC-MAIN-2022-21", 39], ["CC-MAIN-2022-49",
+  38], ["CC-MAIN-2024-22", 35], ["CC-MAIN-2021-10", 32], ["wide10", 30], ["CC-MAIN-2021-43",
+  30], ["CC-MAIN-2024-26", 25], ["CC-MAIN-2022-40", 25], ["CC-MAIN-2024-46", 24],
+  ["CC-MAIN-2024-18", 24], ["CC-MAIN-2023-23", 24], ["CC-MAIN-2021-49", 24], ["CC-MAIN-2021-39",
+  24], ["CC-MAIN-2020-34", 23], ["CC-MAIN-2022-33", 22], ["CC-MAIN-2024-51", 21],
+  ["CC-MAIN-2021-17", 20], ["CC-MAIN-2017-26", 19], ["CC-MAIN-2024-33", 18], ["CC-MAIN-2024-10",
+  17], ["CC-MAIN-2023-50", 17], ["CC-MAIN-2024-38", 16], ["CC-MAIN-2020-40", 16],
+  ["CC-MAIN-2014-42", 16], ["CC-MAIN-2022-27", 15], ["CC-MAIN-2020-45", 15], ["CC-MAIN-2020-29",
+  14], ["CC-MAIN-2018-22", 14], ["wide5", 13], ["CC-MAIN-2024-30", 13], ["survey3",
+  11], ["CC-MAIN-2024-42", 11], ["CC-MAIN-2017-04", 11], ["wide17", 9], ["CC-MAIN-2023-40",
+  9], ["CC-MAIN-2016-30", 9], ["CC-MAIN-2020-24", 7], ["CC-MAIN-2015-48", 6], ["CC-MAIN-2021-25",
+  5], ["CC-MAIN-2020-16", 5], ["CC-MAIN-2015-18", 5], ["CC-MAIN-2015-11", 4], ["CC-MAIN-2021-21",
+  3], ["wide2", 2], ["CC-MAIN-2016-44", 2], ["CC-MAIN-2016-40", 1]]'
+docs_langs: '[[0.0, 4], [0.1, 2], [0.2, 28], [0.3, 73], [0.4, 213], [0.5, 452], [0.6,
+  621], [0.7, 720], [0.8, 802], [0.9, 643], [1.0, 1786]]'
+docs_segments: '[[1, 245], [2, 121], [3, 126], [4, 136], [5, 262], [6, 402], [7, 250],
+  [8, 215], [9, 203], [10, 138], [11, 144], [12, 225], [13, 207], [14, 126], [15,
+  94], [16, 106], [17, 103], [18, 100], [19, 119], [20, 117], [21, 105], [22, 91],
+  [23, 82], [24, 75], [25, 35], [26, 61], [27, 44], [28, 24], [29, 31], [30, 52],
+  [31, 33], [32, 21], [33, 27], [34, 28], [35, 50], [36, 53], [37, 67], [38, 41],
+  [39, 69], [40, 92], [41, 74], [42, 37], [43, 56], [44, 47], [45, 51], [46, 49],
+  [47, 42], [48, 27], [49, 25], [50, 19], [51, 21], [52, 15], [53, 28], [54, 27],
+  [55, 7], [56, 15], [57, 11], [58, 5], [59, 6], [60, 9], [61, 4], [62, 6], [63, 4],
+  [64, 9], [65, 7], [66, 3], [67, 5], [68, 3], [69, 7], [70, 4], [71, 6], [72, 3],
+  [73, 2], [74, 2], [75, 2], [76, 7], [77, 3], [78, 3], [79, 7], [80, 6], [81, 5],
+  [82, 3], [83, 3], [84, 4], [85, 2], [86, 1], [87, 5], [89, 3], [90, 6], [91, 1],
+  [92, 3], [93, 2], [94, 2], [95, 1], [96, 2], [97, 2], [98, 2], [100, 6], [101, 1],
+  [103, 2], [104, 2], [107, 2], [111, 2], [113, 2], [116, 2], [117, 3], [118, 1],
+  [120, 1], [121, 1], [122, 1], [127, 1], [128, 1], [129, 1], [130, 1], [131, 2],
+  [132, 1], [134, 1], [137, 1], [138, 2], [140, 1], [143, 1], [146, 1], [155, 1],
+  [159, 2], [163, 1], [164, 1], [165, 3], [167, 2], [169, 1], [179, 1], [187, 1],
+  [193, 1], [194, 1], [195, 1], [200, 1], [202, 1], [209, 1], [210, 1], [219, 1],
+  [231, 1], [239, 1], [240, 1], [241, 2], [243, 1], [254, 2], [255, 1], [257, 2],
+  [258, 1], [262, 1], [266, 1], [267, 1], [268, 1], [269, 2], [284, 1], [287, 1],
+  [294, 1], [295, 1], [297, 1], [298, 1], [307, 1], [314, 1], [320, 1], [327, 1],
+  [331, 1], [415, 1], [418, 1], [439, 1], [473, 1], [485, 1], [496, 1], [520, 1],
+  [532, 1], [548, 1], [567, 1], [676, 1], [692, 1], [713, 1], [733, 1], [1386, 1],
+  [1487, 1], [2038, 7]]'
+docs_segments_mean: 27
+docs_segments_median: 13
+docs_top100_domains: '[["jw.org", 4254], ["worldslastchance.com", 406], ["bible.is",
+  231], ["ebible.org", 74], ["bible.com", 38], ["egwwritings.org", 28], ["bibleschools.com",
+  26], ["gotquestions.org", 23], ["biblearc.com", 16], ["33eme-cers.org", 16], ["globalrecordings.net",
+  14], ["svfellowship.info", 12], ["watchtower.org", 11], ["ilovezedmusic.com", 11],
+  ["blogspot.com", 11], ["bibles.org", 10], ["africanstorybook.org", 10], ["github.io",
+  9], ["allinonelanguage.com", 7], ["gtbs.org", 6], ["net-burst.net", 5], ["namibian.com.na",
+  4], ["imbokodo.org.za", 4], ["zambian-music.com", 3], ["unicode.org", 3], ["downloadzambianmusic.com",
+  3], ["cloudlibrary.org", 3], ["bet22zambia.com", 3], ["avoz.org", 3], ["22betzambia.com",
+  3], ["22bet-zm.com", 3], ["zedlyric.com", 2], ["zambianobserver.com", 2], ["zambiadailynation.com",
+  2], ["wikimedia.org", 2], ["postonsunday.co.zw", 2], ["newziana.co.zw", 2], ["name.com",
+  2], ["mpunde.net", 2], ["kasahorow.org", 2], ["hvtn.org", 2], ["heycovid19.com",
+  2], ["evangelicaltract.com", 2], ["boomplay.com", 2], ["bjnewlife.org", 2], ["biblafrique.net",
+  2], ["bathsdr.org", 2], ["africanbookscollective.com", 2], ["accessagriculture.org",
+  2], ["4laws.com", 2], ["zhitov.com", 1], ["zedwap.co", 1], ["zambiawatchdog.com",
+  1], ["zambianmusicblog.co", 1], ["zambianeye.com", 1], ["zambia.co.zm", 1], ["worldfishcenter.org",
+  1], ["wordpress.com", 1], ["wmpress.org", 1], ["veritaszim.net", 1], ["vallalar.net",
+  1], ["tumfweko.com", 1], ["transology.info", 1], ["tiozambia.com", 1], ["terralingua.org",
+  1], ["securesites.net", 1], ["rubicube.org", 1], ["readbag.com", 1], ["outreach-international.org",
+  1], ["omulunga.com.na", 1], ["omniglot.com", 1], ["ndoladiocese.org", 1], ["ndalilanguage.com",
+  1], ["nanetya-foundation.org", 1], ["my-rights.org", 1], ["mftd.org", 1], ["meadowvalleyministry.org",
+  1], ["mbc.mw", 1], ["m1914.com", 1], ["lyrics.com", 1], ["luvale.bible", 1], ["lamba.bible",
+  1], ["lalabisa.bible", 1], ["kitweonline.com", 1], ["kcdems.net", 1], ["joycemeyer.org",
+  1], ["jesus4you.com", 1], ["icengelo.com", 1], ["gayhomeland.org", 1], ["faq-bible.org",
+  1], ["entropik.io", 1], ["eenet.org.uk", 1], ["echomusicblog.com", 1], ["distance2.com",
+  1], ["diggers.news", 1], ["da-no.ru", 1], ["congressomv.org", 1], ["cejzambia.com",
+  1], ["blogspot.nl", 1], ["biblecentre.org", 1]]'
+docs_top100_tld: '[["org", 4470], ["com", 567], ["is", 231], ["net", 27], ["info",
+  13], ["io", 10], ["com.na", 5], ["org.za", 4], ["co.zw", 4], ["bible", 3], ["co",
+  2], ["ru", 1], ["org.uk", 1], ["nl", 1], ["news", 1], ["mw", 1], ["gov", 1], ["eu",
+  1], ["co.zm", 1]]'
+docs_total: 5344
+docs_wds: '[[5.0, 72], [5.1, 63], [5.2, 90], [5.3, 67], [5.4, 81], [5.5, 82], [5.6,
+  72], [5.7, 83], [5.8, 100], [5.9, 86], [6.0, 99], [6.1, 95], [6.2, 100], [6.3, 91],
+  [6.4, 105], [6.5, 85], [6.6, 112], [6.7, 90], [6.8, 120], [6.9, 115], [7.0, 111],
+  [7.1, 127], [7.2, 135], [7.3, 124], [7.4, 113], [7.5, 137], [7.6, 151], [7.7, 140],
+  [7.8, 179], [7.9, 177], [8.0, 216], [8.1, 199], [8.2, 158], [8.3, 176], [8.4, 126],
+  [8.5, 120], [8.6, 154], [8.7, 151], [8.8, 132], [8.9, 128], [9.0, 120], [9.1, 142],
+  [9.2, 77], [9.3, 69], [9.4, 51], [9.5, 48], [9.6, 30], [9.7, 27], [9.8, 15], [9.9,
+  3]]'
+sentence_pairs: 142918
+src_bytes: 35050325
+src_chars: 34074018
+src_pii: 7
+src_tokens: 6155598
+unique_sents: 127804
+src_sent_tokens: '[[1, 2805], [2, 3514], [3, 4221], [4, 3717], [5, 4030], [6, 3984],
+  [7, 3315], [8, 3499], [9, 3683], [10, 4072], [11, 4058], [12, 3705], [13, 3219],
+  [14, 2833], [15, 2602], [16, 2376], [17, 2183], [18, 2159], [19, 2118], [20, 2034],
+  [21, 2043], [22, 1859], [23, 1835], [24, 1877], [25, 1669], [26, 1682], [27, 1502],
+  [28, 1596], [29, 1520], [30, 1440], [31, 1354], [32, 1384], [33, 1334], [34, 1253],
+  [35, 1206], [36, 1153], [37, 1091], [38, 989], [39, 1052], [40, 1002], [41, 852],
+  [42, 866], [43, 932], [44, 854], [45, 789], [46, 771], [47, 753], [48, 721], [49,
+  708], [50, 716], [51, 717], [52, 711], [53, 665], [54, 677], [55, 599], [56, 690],
+  [57, 638], [58, 606], [59, 649], [60, 589], [61, 631], [62, 620], [63, 613], [64,
+  579], [65, 585], [66, 557], [67, 610], [68, 578], [69, 579], [70, 572], [71, 531],
+  [72, 559], [73, 547], [74, 540], [75, 506], [76, 500], [77, 467], [78, 524], [79,
+  485], [80, 493], [81, 454], [82, 499], [83, 450], [84, 480], [85, 440], [86, 439],
+  [87, 442], [88, 437], [89, 447], [90, 426], [91, 434], [92, 388], [93, 381], [94,
+  390], [95, 391], [96, 343], [97, 405], [98, 362], [99, 398], [100, 410], [101, 350],
+  [102, 351], [103, 353], [104, 339], [105, 310], [106, 303], [107, 343], [108, 316],
+  [109, 313], [110, 330], [111, 313], [112, 275], [113, 294], [114, 298], [115, 297],
+  [116, 264], [117, 271], [118, 263], [119, 255], [120, 249], [121, 223], [122, 228],
+  [123, 207], [124, 246], [125, 230], [126, 223], [127, 204], [128, 237], [129, 190],
+  [130, 195], [131, 185], [132, 179], [133, 181], [134, 171], [135, 167], [136, 139],
+  [137, 187], [138, 158], [139, 164], [140, 144], [141, 157], [142, 135], [143, 136],
+  [144, 132], [145, 144], [146, 140], [147, 127], [148, 118], [149, 116], [150, 118],
+  [151, 87], [152, 107], [153, 117], [154, 108], [155, 92], [156, 108], [157, 95],
+  [158, 89], [159, 79], [160, 97], [161, 96], [162, 81], [163, 89], [164, 79], [165,
+  74], [166, 79], [167, 63], [168, 74], [169, 76], [170, 75], [171, 74], [172, 48],
+  [173, 66], [174, 62], [175, 61], [176, 67], [177, 75], [178, 49], [179, 39], [180,
+  49], [181, 52], [182, 56], [183, 46], [184, 56], [185, 36], [186, 46], [187, 31],
+  [188, 51], [189, 40], [190, 42], [191, 37], [192, 30], [193, 39], [194, 30], [195,
+  34], [196, 24], [197, 28], [198, 29], [199, 26], [200, 28], [201, 37], [202, 20],
+  [203, 22], [204, 27], [205, 30], [206, 37], [207, 23], [208, 25], [209, 23], [210,
+  30], [211, 29], [212, 18], [213, 21], [214, 18], [215, 16], [216, 13], [217, 16],
+  [218, 15], [219, 23], [220, 15], [221, 13], [222, 14], [223, 13], [224, 14], [225,
+  10], [226, 14], [227, 12], [228, 13], [229, 19], [230, 9], [231, 13], [232, 8],
+  [233, 12], [234, 8], [235, 9], [236, 8], [237, 9], [238, 14], [239, 6], [240, 6],
+  [241, 10], [242, 12], [243, 7], [244, 11], [245, 5], [246, 7], [247, 6], [248, 4],
+  [249, 7], [250, 6], [251, 11], [252, 7], [253, 5], [254, 4], [255, 5], [256, 6],
+  [257, 7], [258, 4], [259, 5], [260, 9], [261, 8], [262, 6], [263, 3], [264, 7],
+  [265, 5], [267, 3], [268, 10], [269, 6], [270, 7], [271, 4], [272, 1], [273, 6],
+  [274, 3], [275, 3], [276, 6], [277, 3], [278, 6], [279, 4], [280, 5], [281, 4],
+  [282, 7], [283, 6], [284, 5], [285, 1], [286, 3], [287, 5], [288, 6], [289, 5],
+  [290, 5], [291, 2], [292, 7], [293, 1], [294, 2], [295, 3], [296, 4], [297, 6],
+  [298, 3], [300, 3], [301, 6], [302, 1], [303, 4], [304, 2], [305, 5], [307, 5],
+  [308, 2], [309, 1], [310, 1], [311, 4], [312, 1], [313, 3], [314, 2], [315, 3],
+  [316, 4], [317, 2], [318, 5], [319, 1], [320, 2], [321, 1], [322, 2], [323, 1],
+  [324, 3], [325, 3], [326, 1], [327, 2], [328, 2], [329, 1], [330, 3], [331, 2],
+  [332, 3], [333, 2], [335, 2], [336, 2], [337, 4], [338, 4], [339, 1], [341, 4],
+  [342, 1], [343, 2], [344, 1], [345, 2], [347, 1], [348, 1], [349, 2], [350, 4],
+  [351, 2], [353, 2], [354, 1], [355, 1], [356, 3], [357, 2], [358, 1], [359, 2],
+  [361, 4], [362, 3], [363, 2], [365, 2], [366, 2], [367, 4], [368, 1], [371, 2],
+  [372, 3], [373, 1], [375, 2], [376, 2], [379, 1], [380, 2], [381, 1], [382, 1],
+  [383, 4], [384, 1], [385, 2], [386, 1], [387, 1], [388, 2], [390, 1], [391, 4],
+  [392, 2], [393, 1], [394, 1], [395, 2], [396, 2], [397, 3], [398, 3], [399, 2],
+  [401, 3], [402, 1], [403, 2], [404, 1], [405, 1], [406, 1], [407, 2], [408, 1],
+  [410, 2], [411, 1], [412, 3], [413, 1], [414, 1], [415, 3], [416, 1], [417, 1],
+  [418, 1], [420, 1], [421, 3], [422, 2], [423, 1], [426, 3], [427, 2], [428, 3],
+  [429, 2], [430, 2], [431, 1], [434, 1], [436, 2], [437, 1], [438, 1], [442, 3],
+  [443, 2], [444, 1], [446, 2], [447, 2], [449, 1], [452, 1], [455, 2], [456, 1],
+  [457, 1], [459, 2], [460, 2], [461, 1], [463, 3], [464, 2], [465, 1], [466, 1],
+  [475, 3], [476, 3], [477, 3], [478, 1], [479, 1], [480, 1], [483, 1], [485, 2],
+  [486, 4], [488, 2], [489, 1], [491, 2], [492, 4], [493, 1], [494, 1], [495, 4],
+  [497, 1], [499, 3], [500, 1], [502, 1], [503, 1], [504, 2], [505, 1], [506, 2],
+  [507, 2], [508, 1], [511, 2], [514, 1], [515, 1], [516, 1], [517, 1], [518, 1],
+  [519, 1], [520, 1], [523, 1], [525, 3], [526, 2], [530, 1], [531, 1], [534, 2],
+  [537, 1], [538, 4], [539, 2], [540, 1], [545, 1], [546, 1], [547, 1], [548, 1],
+  [549, 4], [558, 1], [559, 1], [561, 3], [564, 1], [566, 2], [568, 1], [570, 3],
+  [571, 1], [575, 1], [576, 1], [577, 3], [578, 2], [579, 2], [580, 1], [581, 3],
+  [583, 1], [586, 1], [588, 3], [590, 2], [591, 1], [592, 1], [593, 2], [594, 1],
+  [595, 2], [597, 1], [598, 4], [600, 1], [603, 1], [606, 2], [607, 1], [615, 1],
+  [618, 1], [619, 1], [622, 1], [623, 1], [625, 1], [628, 1], [631, 1], [634, 1],
+  [635, 1], [636, 1], [641, 1], [642, 1], [644, 2], [645, 1], [646, 1], [647, 3],
+  [650, 1], [651, 3], [652, 1], [655, 3], [656, 4], [659, 2], [663, 2], [665, 1],
+  [666, 1], [667, 2], [669, 1], [671, 2], [675, 1], [680, 1], [681, 1], [683, 1],
+  [684, 1], [687, 1], [695, 1], [698, 2], [699, 2], [703, 1], [704, 2], [711, 1],
+  [712, 1], [713, 1], [714, 1], [716, 1], [724, 2], [725, 2], [734, 1], [738, 1],
+  [740, 1], [745, 1], [746, 1], [752, 1], [756, 1], [759, 1], [760, 1], [762, 1],
+  [766, 1], [770, 1], [771, 1], [778, 2], [787, 1], [790, 1], [792, 1], [794, 2],
+  [801, 3], [802, 1], [803, 2], [804, 1], [824, 1], [825, 1], [834, 1], [841, 2],
+  [842, 1], [849, 1], [850, 1], [855, 1], [856, 1], [857, 1], [867, 2], [870, 1],
+  [871, 1], [872, 1], [880, 1], [887, 1], [889, 1], [899, 1], [904, 1], [912, 1],
+  [915, 1], [926, 1], [929, 2], [930, 1], [932, 1], [933, 1], [936, 1], [939, 1],
+  [943, 1], [952, 1], [958, 1], [962, 1], [968, 1], [971, 1], [979, 1], [980, 1],
+  [985, 1], [989, 1], [990, 3], [993, 1], [999, 2], [1001, 1], [1003, 1], [1006, 2],
+  [1016, 1], [1041, 1], [1074, 1], [1077, 1], [1086, 1], [1087, 1], [1098, 1], [1125,
+  1], [1147, 2], [1164, 1], [1194, 1], [1203, 1], [1206, 1], [1237, 1], [1257, 1],
+  [1260, 1], [1270, 1], [1280, 1], [1281, 1], [1299, 1], [1343, 1], [1381, 1], [1385,
+  1], [1481, 1], [1639, 1], [1676, 1], [1703, 1], [1751, 1], [1754, 1]]'
+src_sent_tokens_mean: 43
+src_sent_tokens_median: 24
+src_unique_sents: '[[1, 1088], [2, 2378], [3, 2821], [4, 3228], [5, 3528], [6, 3533],
+  [7, 2951], [8, 3276], [9, 3534], [10, 3832], [11, 3820], [12, 3525], [13, 3045],
+  [14, 2655], [15, 2373], [16, 2130], [17, 2030], [18, 1883], [19, 1866], [20, 1710],
+  [21, 1740], [22, 1569], [23, 1476], [24, 1488], [25, 1424], [26, 1368], [27, 1270],
+  [28, 1309], [29, 1286], [30, 1164], [31, 1177], [32, 1181], [33, 1140], [34, 1036],
+  [35, 1045], [36, 964], [37, 931], [38, 870], [39, 905], [40, 895], [41, 765], [42,
+  783], [43, 804], [44, 789], [45, 736], [46, 743], [47, 687], [48, 680], [49, 657],
+  [50, 677], [51, 681], [52, 662], [53, 635], [54, 661], [55, 576], [56, 664], [57,
+  613], [58, 593], [59, 608], [60, 564], [61, 602], [62, 606], [63, 601], [64, 558],
+  [65, 559], [66, 539], [67, 584], [68, 567], [69, 561], [70, 563], [71, 515], [72,
+  545], [73, 530], [74, 526], [75, 498], [76, 492], [77, 458], [78, 511], [79, 473],
+  [80, 485], [81, 448], [82, 491], [83, 443], [84, 468], [85, 436], [86, 430], [87,
+  432], [88, 429], [89, 435], [90, 421], [91, 427], [92, 383], [93, 377], [94, 386],
+  [95, 382], [96, 340], [97, 398], [98, 350], [99, 391], [100, 403], [101, 346], [102,
+  346], [103, 349], [104, 335], [105, 306], [106, 297], [107, 341], [108, 313], [109,
+  309], [110, 328], [111, 309], [112, 275], [113, 288], [114, 296], [115, 292], [116,
+  260], [117, 265], [118, 260], [119, 248], [120, 247], [121, 218], [122, 227], [123,
+  204], [124, 245], [125, 230], [126, 219], [127, 204], [128, 234], [129, 188], [130,
+  191], [131, 179], [132, 178], [133, 180], [134, 169], [135, 166], [136, 139], [137,
+  185], [138, 158], [139, 161], [140, 144], [141, 155], [142, 134], [143, 134], [144,
+  130], [145, 142], [146, 139], [147, 123], [148, 117], [149, 114], [150, 116], [151,
+  83], [152, 104], [153, 114], [154, 106], [155, 92], [156, 107], [157, 94], [158,
+  87], [159, 79], [160, 94], [161, 96], [162, 80], [163, 84], [164, 79], [165, 74],
+  [166, 79], [167, 63], [168, 71], [169, 74], [170, 70], [171, 71], [172, 48], [173,
+  66], [174, 61], [175, 61], [176, 66], [177, 71], [178, 49], [179, 38], [180, 46],
+  [181, 52], [182, 56], [183, 46], [184, 54], [185, 35], [186, 43], [187, 31], [188,
+  51], [189, 39], [190, 39], [191, 37], [192, 29], [193, 39], [194, 30], [195, 34],
+  [196, 24], [197, 28], [198, 27], [199, 26], [200, 27], [201, 34], [202, 20], [203,
+  22], [204, 26], [205, 30], [206, 35], [207, 23], [208, 25], [209, 23], [210, 27],
+  [211, 27], [212, 18], [213, 21], [214, 18], [215, 16], [216, 13], [217, 15], [218,
+  15], [219, 22], [220, 15], [221, 13], [222, 14], [223, 13], [224, 14], [225, 10],
+  [226, 14], [227, 12], [228, 13], [229, 18], [230, 9], [231, 13], [232, 8], [233,
+  12], [234, 8], [235, 9], [236, 8], [237, 9], [238, 14], [239, 6], [240, 6], [241,
+  10], [242, 12], [243, 7], [244, 11], [245, 5], [246, 7], [247, 6], [248, 4], [249,
+  7], [250, 6], [251, 11], [252, 7], [253, 5], [254, 4], [255, 5], [256, 6], [257,
+  7], [258, 4], [259, 5], [260, 9], [261, 8], [262, 6], [263, 3], [264, 7], [265,
+  5], [267, 3], [268, 10], [269, 6], [270, 7], [271, 4], [272, 1], [273, 6], [274,
+  3], [275, 3], [276, 5], [277, 3], [278, 6], [279, 4], [280, 5], [281, 4], [282,
+  7], [283, 6], [284, 5], [285, 1], [286, 3], [287, 5], [288, 6], [289, 5], [290,
+  5], [291, 2], [292, 7], [293, 1], [294, 2], [295, 3], [296, 4], [297, 6], [298,
+  3], [300, 3], [301, 6], [302, 1], [303, 4], [304, 2], [305, 5], [307, 5], [308,
+  2], [309, 1], [310, 1], [311, 4], [312, 1], [313, 3], [314, 2], [315, 3], [316,
+  4], [317, 2], [318, 5], [319, 1], [320, 2], [321, 1], [322, 2], [323, 1], [324,
+  3], [325, 3], [326, 1], [327, 2], [328, 2], [329, 1], [330, 3], [331, 2], [332,
+  3], [333, 2], [335, 2], [336, 2], [337, 4], [338, 4], [339, 1], [341, 4], [342,
+  1], [343, 2], [344, 1], [345, 2], [347, 1], [348, 1], [349, 2], [350, 4], [351,
+  2], [353, 2], [354, 1], [355, 1], [356, 3], [357, 2], [358, 1], [359, 2], [361,
+  4], [362, 3], [363, 2], [365, 2], [366, 2], [367, 3], [368, 1], [371, 2], [372,
+  3], [373, 1], [375, 2], [376, 2], [379, 1], [380, 2], [381, 1], [382, 1], [383,
+  4], [384, 1], [385, 2], [386, 1], [387, 1], [388, 2], [390, 1], [391, 4], [392,
+  2], [393, 1], [394, 1], [395, 2], [396, 2], [397, 3], [398, 3], [399, 2], [401,
+  3], [402, 1], [403, 2], [404, 1], [405, 1], [406, 1], [407, 2], [408, 1], [410,
+  2], [411, 1], [412, 3], [413, 1], [414, 1], [415, 3], [416, 1], [417, 1], [418,
+  1], [420, 1], [421, 3], [422, 2], [423, 1], [426, 3], [427, 2], [428, 3], [429,
+  2], [430, 2], [431, 1], [434, 1], [436, 2], [437, 1], [438, 1], [442, 3], [443,
+  2], [444, 1], [446, 2], [447, 2], [449, 1], [452, 1], [455, 2], [456, 1], [457,
+  1], [459, 2], [460, 2], [461, 1], [463, 3], [464, 2], [465, 1], [466, 1], [475,
+  3], [476, 3], [477, 3], [478, 1], [479, 1], [480, 1], [483, 1], [485, 2], [486,
+  4], [488, 2], [489, 1], [491, 2], [492, 3], [493, 1], [494, 1], [495, 3], [497,
+  1], [499, 3], [500, 1], [502, 1], [503, 1], [504, 2], [505, 1], [506, 2], [507,
+  2], [508, 1], [511, 2], [514, 1], [515, 1], [516, 1], [517, 1], [518, 1], [519,
+  1], [520, 1], [523, 1], [525, 3], [526, 1], [530, 1], [531, 1], [534, 2], [537,
+  1], [538, 4], [539, 2], [540, 1], [545, 1], [546, 1], [547, 1], [548, 1], [549,
+  4], [558, 1], [559, 1], [561, 3], [564, 1], [566, 2], [568, 1], [570, 3], [571,
+  1], [575, 1], [576, 1], [577, 3], [578, 2], [579, 2], [580, 1], [581, 3], [583,
+  1], [586, 1], [588, 3], [590, 2], [591, 1], [592, 1], [593, 2], [594, 1], [595,
+  2], [597, 1], [598, 4], [600, 1], [603, 1], [606, 2], [607, 1], [615, 1], [618,
+  1], [619, 1], [622, 1], [623, 1], [625, 1], [628, 1], [631, 1], [634, 1], [635,
+  1], [636, 1], [641, 1], [642, 1], [644, 2], [645, 1], [646, 1], [647, 3], [650,
+  1], [651, 3], [652, 1], [655, 3], [656, 4], [659, 2], [663, 2], [665, 1], [666,
+  1], [667, 2], [669, 1], [671, 2], [675, 1], [680, 1], [681, 1], [683, 1], [684,
+  1], [687, 1], [695, 1], [698, 2], [699, 2], [703, 1], [704, 2], [711, 1], [712,
+  1], [713, 1], [714, 1], [716, 1], [724, 2], [725, 2], [734, 1], [738, 1], [740,
+  1], [745, 1], [746, 1], [752, 1], [756, 1], [759, 1], [760, 1], [762, 1], [766,
+  1], [770, 1], [771, 1], [778, 2], [787, 1], [790, 1], [792, 1], [794, 2], [801,
+  3], [802, 1], [803, 2], [804, 1], [824, 1], [825, 1], [834, 1], [841, 2], [842,
+  1], [849, 1], [850, 1], [855, 1], [856, 1], [857, 1], [867, 2], [870, 1], [871,
+  1], [872, 1], [880, 1], [887, 1], [889, 1], [899, 1], [904, 1], [912, 1], [915,
+  1], [926, 1], [929, 2], [930, 1], [932, 1], [933, 1], [936, 1], [939, 1], [943,
+  1], [952, 1], [958, 1], [962, 1], [968, 1], [971, 1], [979, 1], [980, 1], [985,
+  1], [989, 1], [990, 3], [993, 1], [999, 2], [1001, 1], [1003, 1], [1006, 2], [1016,
+  1], [1041, 1], [1074, 1], [1077, 1], [1086, 1], [1087, 1], [1098, 1], [1125, 1],
+  [1147, 2], [1164, 1], [1194, 1], [1203, 1], [1206, 1], [1237, 1], [1257, 1], [1260,
+  1], [1270, 1], [1280, 1], [1281, 1], [1299, 1], [1343, 1], [1381, 1], [1385, 1],
+  [1481, 1], [1639, 1], [1676, 1], [1703, 1], [1751, 1], [1754, 1]]'
+src_langs: '[["en", 46198], ["sw", 20014], ["tl", 14364], ["eo", 9989], ["id", 9369],
+  ["pl", 4532], ["es", 4106], ["hr", 3465], ["fi", 2961], ["it", 2894], ["tr", 2787],
+  ["de", 2081], ["war", 1906], ["nl", 1858], ["ur", 1182], ["ru", 1075], ["ja", 1037],
+  ["hi", 1003], ["sl", 1001], ["ko", 998], ["ceb", 891], ["uk", 871], ["ms", 844],
+  ["fr", 821], ["hu", 555], ["pt", 502], ["su", 474], ["et", 451], ["la", 354], ["sr",
+  305], ["jv", 303], ["cs", 302], ["eu", 275], ["sq", 260], ["lt", 229], ["io", 216],
+  ["az", 184], ["sv", 166], ["uz", 158], ["ilo", 145], ["ro", 135], ["kw", 113], ["mg",
+  108], ["cy", 107], ["lv", 93], ["qu", 89], ["kn", 84], ["br", 63], ["vo", 56], ["bs",
+  54], ["min", 51], ["zh", 50], ["ca", 50], ["bar", 45], ["rm", 43], ["da", 42], ["nb",
+  41], ["gl", 39], ["scn", 36], ["mt", 35], ["sk", 31], ["bn", 27], ["jbo", 26], ["is",
+  22], ["af", 22], ["so", 17], ["vi", 16], ["ht", 15], ["el", 15], ["ia", 13], ["ta",
+  12], ["pms", 12], ["gv", 11], ["ps", 10], ["ku", 10], ["ie", 10], ["gn", 10], ["nds",
+  9], ["ml", 9], ["tk", 8], ["lmo", 8], ["hsb", 8], ["wuu", 7], ["pam", 7], ["nn",
+  7], ["sco", 6], ["pnb", 6], ["mk", 6], ["frr", 6], ["lb", 5], ["oc", 4], ["nah",
+  4], ["km", 4], ["hy", 4], ["bg", 4], ["ast", 4], ["wa", 3], ["nap", 3], ["he", 3],
+  ["ga", 3], ["fa", 3], ["eml", 3], ["co", 3], ["cbk", 3], ["bcl", 3], ["als", 3],
+  ["yo", 2], ["ug", 2], ["ne", 2], ["my", 2], ["kk", 2], ["gom", 2], ["gd", 2], ["fy",
+  2], ["dsb", 2], ["ckb", 2], ["bh", 2], ["vls", 1], ["tt", 1], ["tg", 1], ["te",
+  1], ["si", 1], ["sc", 1], ["pfl", 1], ["os", 1], ["mr", 1], ["lrc", 1], ["diq",
+  1]]'
+hardrules_tags: '{"not_too_long": 2066, "not_too_short": 9338, "length_ratio": 0,
+  "no_urls": 600, "no_bad_encoding": 9, "pii": 7}'
+sample: '["\"IYE kalanda we! Uzye i vyani vino antu yakucita paa? Yakupepa akana ka
+  ng\u2019ombe! U mulandu ci uno yakucitila vii?\\nLino Mose waile alengela uku mwamba,
+  antu yaatandike ukulanda yakuti: \u2018Tutamanyile ivyati-vicitikila Mose. Fwandi
+  lekini tuipangile leza uwakuti atutungulule ukufuma umu mpanga ii.\u2019\\nNga alino
+  Aloni umwina wakwe Mose aiza alanda ati: \u2018Icisuma, mpeelini amasikiyo yakwe
+  goldi yano muzwite.\u2019 Lino antu yaacisile vivyo, Aloni wasungulwile amasikiyo
+  kwene yaayo nu kupangilamo akana ka ng\u2019ombe. Nupya antu yalanzile yati: \u2018Wii,
+  ali Leza witu, uwatufumizye umu Eguputo!\u2019 Lyene aina Izlaeli yaatandike ukuzevya
+  nu kupepa akana ka ng\u2019ombe.\\nLino Yeova waweni vii, wasosile cuze. Lyene waneenyile
+  Mose ati: \u2018Pitisya tentemuka umwamba. Vino antu yakucita vitaziifile foo. Yati-ilila
+  amasunde yano nayapiile, lyene iyatandika ukupepa akana ka ng\u2019ombe.\u2019\\nMose
+  watentemwike umwamba zuwa-zuwa. Lyene lino wafisile apiipi, vino waweni vitaaziifile.
+  Antu iimbanga nu kucina ala yakuzinguluka akana ka ng\u2019ombe! Mose wasosile sana
+  icakuti wasumvile na mawe yaili apaapatane apaalemvilwe amasunde, na mawe yaayo
+  yaatamoosile iyaya sile utuvungwa. Nga alino atoola akana ka ng\u2019ombe nu kukasungulula.
+  Lyene akasyuta kasanguka usu.\\nCino antu yaacisile citaaziifile foo. Acino, Mose
+  waneenyile aonsi yamwi ukutoola impanga. Mose walanzile ati: \u2018Antu yonsi aipe
+  aapefile akana ka ng\u2019ombe yumoolwe. Lyene aonsi yaayo aali ni mpanga yumoozile
+  antu 3,000! Cii, cikutulangilila ukuti tufwile ukucenjela sana ukuti twapepa sile
+  Yeova, aasi tu leza twaufi foo, uzye asi avivyo?\\nKufuma 32:1-35.\"", "\"AWE wakyanyike
+  ye ubena kumona pa kikye kipikichala uji ne mutumwa Paulo ye Timoti. Timoti waikalanga
+  pamo na kisemi kyanji mu Lisitila. Bainanji jizhina jabo bajinga ba Yunisa, ne bankambo
+  yanji ba bakazhi bajinga ba Loisa.\\nKino kyajinga kimye kya busatu Paulo kyo ayile
+  ku Lisitila. Byo papichile mwaka umo, Paulo ne Banabasa baishile kuno konka ku Lisitila
+  na kusapwila. Pano Paulo wabweleleko jibiji pamo ne mukwabo Silasa.\\nNanchi wayuka
+  Paulo byo abena kwamba kwi Timoti nyi? Ubena kumwipuzha\u2019mba: \u2018Kana wakonsha
+  kutemwa kwendela pamo ne Silasa ne amiwa nyi? Twauba namba tusapwilenga pamo ku
+  bantu baikela mu mapunzha mwalepa.\u2019\\nTimoti wakumbwile\u2019mba: \u2018Ee,
+  nakeba kuya nenu.\u2019 Ponkapo Timoti washile kisemi kyanji ne kuya na Paulo ne
+  Silasa. Bino saka tukyangye kwamba pa lwendo lwabo, twaya patanshi tumone kyamumwekejile
+  Paulo. Papichile myaka 17 kufuma kimye Yesu kyo amwekele kwi aye pa lwendo lwanji
+  lwa kuya ku Damasakasa.\\nVuluka kuba\u2019mba, Paulo wayile ku Damasakasa na kumanyika
+  baana ba bwanga ba kwa Yesu, pano aye yenka waikele ke mwana wa bwanga! Palutwe
+  kacheche, balwanyi bapingile bipingo bya kumwipaya Paulo mambo kechi batemenwe byo
+  afunjishenga pe Yesu ne. Bino baana ba bwanga bamukwashishe Paulo kunyema. Bamupishishe
+  pa nsakwa, kasa bamwikizha bichebiche mu kyabo nangwa\u2019mba mu musansa.\\nPanyuma
+  ya bino, Paulo wayile ku Antioka na kusapwila. Akuno ko ku mpunzha ko batelelwe
+  kimye kitanshi baana ba bwanga ba kwa Yesu amba bena Kilishitu. Paulo ne Banabasa
+  bebatumine kufuma mu Antioka kuya na kusapwila mu byalo bikwabo. Muzhi umo mo bayile
+  wajinga Lisitila, mo mwaikalanga Timoti.\\nByo papichile mwaka umo, Paulo wayile
+  jibiji ku Lisitila pa lwendo lwanji lwa bubiji. Timoti byo aendejile pamo na Paulo
+  ne Silasa, wayuka ko bayile nyi? Akimona pa mapu, kabiji twaya tufundepo mapunzha
+  amo.\\nPatanshi, bayile kwipi na ku Ikonyuma, kepo bafikile ne ku muzhi utelwa\u2019mba
+  Antioka. Byo bafumine ku ino mizhi bayile ku Toloasa, ku Filipai, ku Tesalonika
+  ne ku Beliya. Abya wamumona muzhi wa Atene pa mapu nyi? Ko ko asapwijile Paulo.
+  Panyuma ya bino, bapwishishe mwaka umo ne kichika na kusapwila mu Kolinda. Kyapeleleko,
+  baikeleko mu Efisesa. Kepo babwelele ku Kesalea, ne ku Antioka ko aikelenga Paulo.\\nTimoti
+  waendelenga miseke yalepa bingi na kukwasha Paulo kusapwila \u201cmambo awama\u201d
+  ne kutendekesha bipwilo byavula bingi bya bwina Kilishitu. Ne obewa inge wakoma,
+  abya ukekala kalume wa Lesa byonka byajinga Timoti nyi?\\nByubilo 9:19-30; 11:19-26;
+  kitango 13 kufika ku kitango 17; 18:1-22.\\n1. Loma; 2. Melita; 3. Beliya; 4. Tesalonika;
+  5. Kolinda; 6. Filipai; 7. Atene; 8. Keleta; 9. Toloasa; 10. Efisesa; 11. Miletusa;
+  12. Kolose; 13. Antioka; 14. Ikonyuma; 15. Lisitila; 16. Kipilusa; 17. Antioka;
+  18. Kesalea; 19. Yopa; 20. Damasakasa; 21. Yelusalema; 22. Kalunga Kakatampe (Meditelanya)\\nMepuzho\\n-
+  Awe mwanamulume wa kyanyike uji pa kipikichala \u00f1anyi, waikalanga kwepi, kabiji
+  bainanji ne bankambo yanji bajinga ba\u00f1anyi mazhina?\\n- Timoti waambile\u2019mba
+  ka kimye Paulo kyo amwipwizhe inge wakebelenga kwingijila pamo ne Silasa ne Paulo
+  mu mwingilo wa kusapwila ku bantu baikalanga kwalepa?\\n- Kwepi baana ba bwanga
+  ba kwa Yesu ko batelelwe kimye kitanshi amba bena Kilishitu?\\n- Paulo ne Banabasa
+  byo bayile ku Antioka, mizhi ka imo yo bafwakashijile?\\n- Timoti wakwashishe byepi
+  Paulo, kabiji mepuzho ka bakyanyike ba ano moba o bakonsha kwiipuzhanga abo bene?\\nMepuzho
+  akwabo\\n- Tanga Byubilo bya Batumwa 9:19-30.\\nPaulo waingijishe byepi maana kimye
+  kyo apichilenga mu makatazho na mambo a kusapwila mambo awama? (Byu. 9:22-25, 29,
+  30; Mat. 10:16)\\n- Tanga Byubilo bya Batumwa 11:19-26.\\nNanchi byambo byanembwa
+  mu Byubilo bya Batumwa 11:19-21, 26 bimwesha byepi amba mupashi wa Yehoba ubena
+  kutangijila mwingilo wa kusapwila?\\n- Tanga Byubilo bya Batumwa 13:13-16, 42-52.\\nNga
+  Byubilo bya Batumwa 13:51, 52 bimwesha byepi amba baana ba bwanga kechi balefwilwe
+  na mambo a kwibamanyika ne? (Mat. 10:14; Byu. 18:6; 1 Pe. 4:14)\\n- Tanga Byubilo
+  bya Batumwa 14:1-6, 19-28.\\nNanchi byambo bya kuba\u2019mba \u201cbebafikizhe kwi
+  Nkambo\u201d byakonsha kwitukwasha byepi kupwisha bijikila biji byonse kimye kyo
+  tubena kukwasha bakatataka? (Byu. 14:21-23; 20:32; Yoa. 6:44)\\n- Tanga Byubilo
+  bya Batumwa 16:1-5.\\nNanchi Timoti byo aswile kutwela mu mukanda kimwesha byepi
+  buneme bwa kuba bintu \u201cbyonse na mambo a mambo awama.\u201d? (Byu. 16:3; 1
+  Ko. 9:23; 1 Tesa. 2:8)\\n- Tanga Byubilo bya Batumwa 18:1-11, 18-22.\\nNanchi Byubilo
+  bya Batumwa 18:9, 10 bimwesha byepi kutazha kwi Yesu byo evwangilemo mu kutangajila
+  mwingilo wa kusapwila, kabiji akye kyakonsha kwitupa \u00f1anyi luketekelo lelo
+  jino? (Mat. 28:20)\"", "\"1. Nibani bangatubuula inshila iyelelwe iya kupempelelamo
+  baLesa?\\nABA MAPEMPELO abengi balalabila ati balasambisha bucine pali baLesa. Pano
+  ifyo talipo efi bacita, ni pakuti tabasambishapo bucine pali baLesa ne nshila twelelwe
+  ukubapempelelamo. Tungeshiba shani inshila iyelelwe iya kupempelelamo baLesa? Ni
+  baYawe lukoso e bangatubuula inshila bafwaya ukubapempelelamo.\\n2. Mungeshiba shani
+  inshila iyelelwe iya kupempelelamo baYawe?\\n2 BaYawe balitupeele Baibolo pa kweba
+  ati tusambilile inshila iyelelwe iya kubapempelelamo. Popele, mulukusambilila Baibolo
+  kabili baYawe bakamofweniko ukubwenamo muli fyefyo basambisha ni pakuti balimubikileniko
+  akalango.\u2014Yisaya 48:17.\\n3. Findo baLesa bafwaya fwebo ukucita?\\n3 Abantu
+  bambi balalabila ati baLesa balapokelela ukupempela konse, pano ifyo talipo efi
+  baYesu basambishe. Kabalabila ati: \u201cAbakulabila kuli nebo ati: \u2018BaShikulu!
+  BaShikulu!\u2019 tabali bonse abakenjila mu Bufumu bwa Kwiulu, sombi benka abo abacita
+  koti kufwaya kwa baTata abakwiulu.\u201d Penka tulyelelwe ukusambilila ukufwaya
+  kwa baLesa ne kukucita. Ukucite\u2019fyo kucindeme ni pakuti baYesu baalipalenye
+  abakaana ukumfwila baLesa ku tupondo, \u2018abakucite\u2019fisendeme.\u2019\u2014Matayo
+  7:21-23.\\n4. Findo baYesu baalabiilepo pa lwa kucita ukufwaya kwa baLesa?\\n4 BaYesu
+  baalibuulishishe ati kani tulukufwaya ukucita ukufwaya kwa baLesa, tukapita mu fyakwesha.
+  Baalilabiile ati: \u201cIngileni pa mulyango uuce: pakuti umulyango uukulu ne nshila
+  iikulu iile mukupela ku konalwa; mopele umo emuya ne bantu abengi. Pakuti umulyango
+  uuce ne nshila iice iile mukupela ku mweo, sombi uyo ulabona abace.\u201d (Matayo
+  7:13, 14) Inshila iice, neli inshila ya kupempelelamo baLesa iyelelwe ilatwala ku
+  mweo wa muyayaya. Inshila iikulu, neli ukupempela baLesa mu nshila iitayelelwepo,
+  kulatwala ku mfwa. Pano baYawe tabafwayapo umuntu uuli onse ukufwa. Balipeele abantu
+  bonse ishuko lya kusambilila pali bo.\u20142 Petilo 3:9.\\nUKUPEMPELA BALESA MU
+  NSHILA IYELELWE\\n5. Mungeshiba shani abapempela baLesa mu nshila iyelelwe?\\n5
+  BaYesu baalilabiile ati tungabeshiba abapempela baLesa mu nshila iyelelwe. Tungacite\u2019fyo
+  ukupitila mu kwishiba ifi basumiinemo na fyefyo bacita. Kabalabila ati: \u201cMukabeshibila
+  ku fisepo fyabo.\u201d Kabalundapo ne kweba ati: \u201cImiti yonse iiweme ilekata
+  ifisepo ifiweme.\u201d (Matayo 7:16, 17) Ici tacalulapo ati abapempela baLesa mu
+  nshila iyelelwe bawaminine. Pano, lyonse balesha ukulukucita ifilungeme. Lomba nga
+  tusambilile ifingatofwako ukwishiba abapempela baLesa mu nshila iyelelwe.\\n6, 7.
+  Nindo ukupempela kwa cine kusambishisha ifili mu Baibolo? Kani findo tungasambililako
+  kuli fyefyo baYesu baalukwambula amalembo?\\n6 Tulyelelwe ukusambisha ifili mu Baibolo.
+  Baibolo ilalabila ati: \u201cAmalembo onse alunjikilwe afumine kuli baLesa alielelwe
+  ukusambisha, ne kucenjesha, ne kulunjika, ne kufunda ukulungeme: ati umuntu wa baLesa
+  akalukuli uwaminine, uukonshiwe lukoso ukulukucite\u2019milimo yonse iiweme.\u201d
+  (2 Timote 3:16, 17) Intangishi Paulu yalilembele ati: \u201cIli mwapokele kuli fwebo
+  ishiwi lya kumfwa ilya baLesa, mwalilipokelele koti lishiwi lya bantunshi teko,
+  sombi koti nififi ifi lili icine, lishiwi lya baLesa.\u201d (1 AbaTesalonike 2:13)
+  Ukupempela kwa cine kulasambisha lukoso ifi Baibolo isambisha. Takusambishapo ukulanguluka
+  kwa bantunshi, ifyakutantaka, neli fimbi lukoso.\\n7 Fyonse lukoso ifi baYesu baalukusambisha
+  fyalukufuma mu mashiwi abaLesa. (Pendeni Yoane 17:17.) Impindi ishingi baalukwambula
+  amalembo. (Matayo 4:4, 7, 10) Abapyungishi ba baLesa abacine balalonda icakubwenako
+  ca baYesu, kabili fyonse ifi basambisha filafuma mu Baibolo.\\n8. Findo baYesu basambishe
+  pa lwa kupempela baYawe?\\n8 Tulyelelwe ukupempela lukoso baYawe. Pa Amasamo 83:18
+  palalabila ati: \u201cMwe muli ne shina lya baYawe, Nimwe Bacilile lukoso na pa
+  calo conse.\u201d BaYesu baalukufwaya abantu ukwishiba baLesa bacine, kabili baalibasambishe
+  ishina lya baLesa. (Pendeni Yoane 17:6.) BaYesu baalilabiile ati: \u201cUlukucindika
+  ba Shikulu Lesa wobe, kabili ulukubapyungila bo benka!\u201d (Matayo 4:10) Popele
+  fwe bapyungishi ba baLesa tulalonda icakubwenako ca baYesu. Tulapempela lukoso baYawe,
+  tulapyungisha ishina lyabo, kabili tulasambisha bambi ishina lya baLesa eli na fyefyo
+  bakacitila abantunshi.\\n9, 10. Tulalangisha shani ubutemwe kuli bambi?\\n9 Tulyelelwe
+  ukutemwanshanya. BaYesu baalifundile abasambile babo ukutemwanshanya. (Pendeni Yoane
+  13:35.) Pa kulangisha ubutemwe tatwelelwepo ukulanguluka uku umuntu afumine, ifi
+  akulile neli kani mubile neli mupengele. Ubutemwe bulyelelwe ukutwikatanya koti
+  bana bankashi. (AbaKolosai 3:14) Popele tatwelelwepo ukuya ku nkondo ne kwipaya
+  abantu. Baibolo ilalabila ati: \u201cAbana ba baLesa ne bana ba musenseshi balibwenekele
+  muli fifi: ati abantu bonse utaacite\u2019filungeme taali wa kuli baLesa, neli ni
+  woyo utaatemwo\u2019mukwabo.\u201d Nakabili ililabiile ati: \u2018Tulyelelwe ukutemwanshanya:
+  ati tekucita koti ni fyefyo ifi acitile Kaini, uwali wa kuli yeyo-mbifi, ne kwipayo\u2019mukwabo.\u2019\u20141
+  Yoane 3:10-12; 4:20, 21.\\n10 Tulapyungisha impindi yesu, amakosa ne maboni, pa
+  kofwako ne kukoselesha bambi. (AbaEbeya 10:24, 25) \u2018Tulacite\u2019fiweme ku
+  bantu bonse.\u2019\u2014AbaGalatya 6:10.\\n11. Nindo twelelwe ukusuminina muli baYesu
+  ati enshila ya kupulukilamo?\\n11 Tulyelelwe ukumfwila baYesu ni pakuti bo e nshila
+  ya kupulukilamo. Baibolo ilalabila ati: \u201cMu bantu bambi bonse neli umo tamuli-po
+  ukupuluka; pakuti kabili panshi pano tapali-po ishina limbi iliilikilwe ku bantu
+  ilyelelwe fwebo ukupulukila-mo.\u201d (Ifyacitilwe 4:12) Mu Capitala 5 ica lilino
+  ibuuku, twalisambilile ati baYawe balitumine baYesu mu kufwila abantu abacumfwila.
+  (Matayo 20:28) BaYawe balisalulwile baYesu ukuba imfumu iikekalika icalo conse.
+  E mulandu Baibolo itubuulila ati tulyelelwe ukumfwila baYesu kani tulafwaya ati
+  tukabe ne mweo wa muyayaya.\u2014Pendeni Yoane 3:36.\\n12. Nindo tatulibikilamo
+  mu fya mapolitiki?\\n12 Tatwelelwepo ukulibiikamo mu fya mapolitiki. BaYesu tabaalukulibikamo
+  mu mapolitiki. Ili baalukweshiwa baalimubuulile Pilati imfumu ya baLoma ati: \u201cUbufumu
+  bwanji tabuli bwa mu calo cino ica panshi, koku.\u201d (Pendeni Yoane 18:36.) Tulatuntulula
+  baYesu, pa kupitilisha ukuba aba bucine ku Bufumu bwa baLesa ubwa kwiulu, e mulandu
+  tatulibikilamo mu fya mapolitiki nangaba neko tuli. Nangabe\u2019fyo, Baibolo ilatubuula
+  ukumfwila abekalikishi. (AbaLoma 13:1) Tulomfwila amafunde amu calo twikala. Pano
+  kani amafunde abekalikishi alukutubuula ukucita ifi baLesa bakenye, tulatuntulula
+  ifyalabiile intangishi ati: \u2018Tulyelelwe ukumfwila baLesa ukucila ukumfwila
+  abantu.\u2019\u2014Ifyacitilwe 5:29; Mako 12:17.\\n13. Findo tutulisha pa Bufumu
+  bwa baLesa?\\n13 Tulicetekele ati Ubufumu bwa baLesa e bukashilisha lukoso amakatasho
+  onse aali mu calo. BaYesu baalilabiile ati \u201cIcebo ici iciweme ica Bufumu,\u201d
+  cikatulishiwa mu calo conse. (Pendeni Matayo 24:14.) Takulipo ubwikalikishi bwa
+  bantunshi ubungacita ifi Ubufumu bwa baLesa bukatucitila. (Amasamo 146:3) BaYesu
+  baalitusambiishe ukutembelela Ubufumu bwa baLesa ili baalabiile ati: \u201cUbufumu
+  bwenu bwise. Ukufwaya kwenu kucitwe, panshi pano koti ni kwiulu.\u201d (Matayo 6:10)
+  Baibolo ilatubuula ati Ubufumu bwa baLesa bukonaala ubwikalikishi bwa bantunshi
+  \u2018nabo ubwine ne kwimakana inshiku shonse ishakulukuyayaya.\u2019\u2014Danyeli
+  2:44.\\n14. Mulukulanguka ati ni bani abapempela baLesa mu nshila iyelelwe?\\n14
+  Panuma ya kusambilila fyonse ifi, lipusheni ati: \u2018Nibani abasambisha ifili
+  mu Baibolo? Nibani abatulisha ishina lya baLesa kuli bambi? Nibani abalangisha ukutemwanshanya
+  kabili abacetekele ati baLesa baalitumine baYesu mu kutupulusha? Nibani aba tabalibikamo
+  mu fya mapolitiki? Nibani abatulisha ati Ubufumu bwa baLesa lukoso e bukashiliisha
+  amakatasho tupitamo?\u2019 Ukwakubula ne kukanika ni Bamboni sha baYawe.\u2014Yisaya
+  43:10-12.\\nFINDO MWEBO MUKACITAPO?\\n15. Findo twelelwe ukucita pakweba ati baLesa
+  bapokelele ukupempela kwesu?\\n15 Ukucetekela ati baLesa eko bali talipo e cipengelwa
+  lukoso. Ifibanda nafyo filicetekele ati baLesa eko bali, pano tafibomfwilapo. (Jakobo
+  2:19) Kani tulukufwaya baLesa ukupokelela ukupempela kwesu, tatwelelwepo ukucetekela
+  lukoso ati baLesa eko bali sombi tulyelelwe ne kucita ifi batubuula.\\n16. Nindo
+  twelelwe ukukaanina ukupempela kwa bufi?\\n16 Pakweba ati baLesa basumine ukupempela
+  kwesu tulyelelwe ukukaana ukupempela kwa bufi. Uwakushimika Yisaya alilembele ati:
+  \u201cMufume-mo mukati muli wo; mulisweshe.\u201d (Yisaya 52:11; 2 AbaKolinto 6:17)
+  E mulandu twelelwe ukukaanina fyonse ifikumine ukupempela kwa bufi.\\n17, 18. Kani
+  \u201cBabiloni Umukulu\u201d cindo, kabili nindo cicindamine ukufumamo bwangu muli
+  ye?\\n17 Kani ukupempela kwa bufi cindo? Kupempela ukuli konse ukusambisha abantu
+  ukupempela baLesa mu nshila iipusene na fyefyo Baibolo isambisha. Baibolo ileta
+  ukupempela konse ukwa bufi ati \u201cBabiloni Umukulu.\u201d (Ukufisulula 17:5)
+  Nindo kwitilwe\u2019fyo? Panuma ya Bulobe bwa menda ubwa mu mpindi yakwe Noa, ifisambisho
+  ifingi ifya mu kupempela kwa bufi fyalitatikile mu mushi uwalukwitwa ati Babiloni.
+  Ifyo ifisambisho fya bufi, fyalisalangene mu calo conse. Ku cakubwenako, abantu
+  abalukwikala mu mushi wa Babiloni baalukupempela bulesa butatu. Na pali ino mpindi,
+  amapempelo aengi alasambisha ati muli baLesa bamo muli batatu, pano Baibolo ilasambisha
+  apatubile ati kuli lukoso baLesa bacine bamo, baYawe kabili ati baYesu, bana baLesa.
+  (Yoane 17:3) Abaalukwikala mu mushi wa Babiloni baalisumiine ne kwaba ati kani umuntu
+  afwa kulaba cimo ici tacifwapo kabili ati cingapenshiwa mu mulilo. Ifyo talipo fya
+  cine.\u2014Boneni Ifyebo na Fimbi 14, 17, na 18.\\n18 BaLesa balishimikile ati bukumo
+  lukoso ukupempela kwa bufi konse ku konaalwa. (Ukufisulula 18:8) Kani mwaumfwisha
+  umulandu cicindamine ukufumamo bwangu mu kupempela kwa bufi? BaYawe Lesa balukufwaya
+  ati mufumemo bwangu ili impindi taingashila.\u2014Ukufisulula 18:4.\\n19. Kani mwasalululapo
+  ukupyungila baYawe, bakamofweniko shani?\\n19 Ili mwasalululapo ukufuma mu kupempela
+  kwa bufi ne kutatika ukupyungila baYawe, ababyenu ne ba mu cisoolo cenu bambi cipale
+  tekuti bomfwishepo umulandu mwasalulwilapo ukucite\u2019fyo, kabili bangatatika
+  ukumukatesheni. Pano baYawe bakalukuli na mwebo. Mukaba mu cisoolo ca mu calo conse
+  umuli amamilyoni abantu abatemwanshenye mucinenene kabili mukakwata ishuko lya kwikala
+  umuyayaya mu calo ca bukumo ica baLesa. (Mako 10:28-30) Na mukupelako, cipale ifibusa
+  fyenu ne ba mu cisoolo bambi abaalukumukanyeni ukupyungila baYawe, bangatatika ukusambilila
+  Baibolo.\\n20. Nindo cicindamine ukupempela baLesa mu nshila iyelelwe?\\n20 Bukumo
+  lukoso, baLesa bakafumyapo bumbifi bonse kabili Ubufumu bwabo bukekalika icalo conse.
+  (2 Petilo 3:9, 13) Mama ifi iyo mpindi ikawama! Bonse bakalupempela baYawe mu nshila
+  baYawe bafwaya. Popele, cicindeme kuli mwebo ukusalululapo lwenka luno ukulukupempela
+  baLesa mu nshila iyelelwe.\"", "\"Yesu padi mu Yelusalema ku masobo a Pashika ya
+  mu 30 Yesu ke mwiye, walonga biyukeno, nansha bingelengele bitulumukwa. Kino kibalengeja
+  bavule bamwitabije. Nikodema, Mufadiseo umo kadi i wa mu kidye kikatampe kya Bayuda
+  kitwa bu Sanedini watulumuka. Byasaka kuyukila\u2019ko bivule, wakamone Yesu bufuku,
+  padi i mwanda utyinanga bendeji bakwabo Bayuda bak\u014dna ntumbo yandi shi abamumone.\\nNikodema
+  wanena\u2019mba, \u201cA Labi, tuyukile amba abe wi mutambe kudi Leza bu mufundiji,
+  mwanda i kutupu muntu ukokeja kulonga bino biyukeno byolonga\u2019bi shi Leza kadipo
+  nandi.\u201d Yesu walondolola Nikodema amba, pa kutwela mu Bulopwe bwa Leza, muntu
+  ufwaninwe \u2018kubutulwa monka.\u2019\u2014Yoano 3:2, 3.\\nNikodema waipangula
+  amba Le muntu ubwanya kubutulwa monka namani? \u201cKakokejapo kutwela mu nd\u00e1
+  ya inandi musungu wa bubidi ne kubutulwa, mwene i amo?\u201d\u2014Yoano 3:4.\\nKubutulwa
+  monka ke kushintululapo nankyo. Yesu wamushintulwila amba: \u201cShi muntu kabutwilwepo
+  ku mema ne ku mushipiditu, kakokejapo kutwela mu Bulopwe bwa Leza.\u201d (Yoano
+  3:5) Yesu pa kubatyijibwa kadi mushipiditu ujila wat\u016bkila padi, ye po paabutwilwe
+  \u201cku mema ne ku mushipiditu.\u201d Pa kitatyi\u2019kya, kwadi ne binenwa bitamba
+  m\u016blu amba: \u201cUno\u2019u i wami Mwana, muswedibwe, ondoelelwe.\u201d (Mateo
+  3:16, 17) Mu uno muswelo, Leza walombola\u2019mba waikadija Yesu bu mwana wa ku
+  mushipiditu udi na kyepelo kya kutwela mu Bulopwe bwa m\u016blu. Mwenda mafuku,
+  mu Pentekosa 33 Yesu ke mwiye, mushipiditu ujila usa kupungulwilwa bantu basa kubatyijibwa
+  amba nabo babutulwe monka bu bana ba Leza ba ku mushipiditu.\u2014Bilongwa 2:1-4.\\nNikodema
+  kevwanijepo bimufundija Yesu pa mwanda utala Bulopwe. O mwanda Yesu wamusapwila\u2019ko
+  myanda mikwabo ya mwingilo wandi wa pa bula wa bu Mwana wa Leza pano panshi. Yesu
+  wanena\u2019mba: \u201cKadi monka mw\u0101tulwidile Mosesa nyoka mu ntanda mutuputupu,
+  ne Mwan\u0101 muntu nandi ufwaninwe kutululwa\u2019nka nabya, amba ense umwitabija
+  amone b\u016bmi bwa nyeke.\u201d\u2014Yoano 3:14, 15.\\nMafuku kunyuma, bene Isalela
+  b\u0101suminwe na banyoka ba bulembe, b\u0101di bafwaninwe kutala nyoka wa mukuba
+  pa kusaka kupanda. (Umbadilo 21:9) Bantu bonso nabo mo monka, bafwaninwe kulombola
+  lwitabijo mudi Mwan\u0101 Leza pa kusaka kunyongololwa ku ngikadilo yabo ya lufu
+  mwanda wa bamone b\u016bmi bwa nyeke. Pa kulombola buswe bulombwele Yehova mu ino
+  mpango, Yesu wasapwila Nikodema amba: \u201cLeza byaasenswe ino ntanda bikatampe
+  mpata, wap\u0113ne wandi Mwana wa bunka, amba ense ulombola lwitabijo mudi aye kakyonakanibwa,
+  ino amone b\u016bmi bwa nyeke.\u201d (Yoano 3:16) I enka muno mu Yelusalema mwalombwele
+  Yesu myeji isamba kupwa kwa kushilula mwingilo wandi amba aye dyo dishinda ya kupandila\u2019mo
+  bantu.\\nYesu wasapwila Nikodema amba: \u201cLeza katuminepo wandi Mwana mu ino
+  ntanda mwanda wa kutyibila ino ntanda mambo.\u201d Ko kunena\u2019mba kamutuminepo
+  mwanda wa kuponeja ntanda na nshikani, nansha kutyibila bantu lufu. Ino Yesu wanena\u2019mba
+  i mutumwe \u201cmwanda wa kupandija ino ntanda kupityila kudi aye.\u201d\u2014Yoano
+  3:17.\\nNikodema waiyanga na moyo kudi Yesu bufuku. O mwanda i kyendele\u2019mo
+  Yesu afudije m\u012bsambo yobesamba nandi na bino binenwa amba: Yoano 3:19-21.\\n\u201cPano
+  po pene pemanine butyibi: amba kit\u014dkeji kyaile mu ino ntanda, ino bantu basanswa\u2019ko
+  fukutu kupita\u2019ko kit\u014dkeji, mwanda mingilo yabo yadi mibi. Mwanda yewa
+  ense ulongalonga bintu bibi ushikilwe kit\u014dkeji kadi k\u0101yangapo ku kit\u014dkeji,
+  kutyina\u2019mba mingilo yandi yakatopekwa. Ino yewa ense ulonga bya bine wiyanga
+  ku kit\u014dkeji, mwanda wa mingilo yandi isokokele pat\u014dka\u2019mba ingilwanga
+  umbumo na Leza.\u201d\u2014Pano ke aye mwine Nikodema, Mufadiseo kadi mufundiji
+  mu Isalela alangulukile pa byaaivwana pa mwingilo wa Yesu mu mpango ya Leza.\"",
+  "\"2\\n1 Alimwi kulindinywe, mwakalifwide mumilandu yenu azibi. 2 Mwakali kupona
+  kwindila kumuzuluzi wamulawu wamuuya, muuya oyo ulikubeleka mubana batakwe lulayo.
+  3 Eelyo toonse twalikupona akati kabantu aba, kuzuzikizya makanze asiluuni wamibili
+  yesu, akubweza makanze eenyama alimwi amiyeyo. Twakali kwindilila mubwiime bwabana
+  babukali, mbuli bumwi bwabuntu. Twakali abuntu bwabwana babisya mbuli kuchita bamwi.
+  4 Pesi Leza ulabuvubi muluzyalo nkambo kaluyando lwakwe lupati oolo ndwakatuyandisya
+  swe. 5 Nikuba twakalifwide mumilandu, wakatuchita bawumi antomwe muli Kkilisito
+  aluzyalo mwakafutulwa. 6 Leza wakatubusya antomwe a Kkilisito, alimwi Leza wakatuchita
+  kuti tukkale a Kkilisitu, alimwi Leza wakatuchita kuti tukkale antomwe mumyenya
+  yakujulu muli Kkilisitu Jesu. 7 Kuchitila kuti muminyaka iza akatondezya kulindiswe
+  kulindiswe buvubi bwakwe bupati buteleki kwa luzyalo lwakwe lutondezegwe mulwetelelo
+  lwakwe kulindiswe muli Kkilisitu Jesu. 8 Nkambo a luzyalo mwakafutulwa kwindila
+  mulusyomo, alimwi echi techakazwa kulindinywe, nchipo cha Leza. 9 Pepe kuzwa kumilimo,
+  kuchitila kuti takwe atakali kankayizye. 10 Nkambo tuli basimilimo ba Leza, bakalongezegwa
+  muli Kkilisito Jesu kukuchita milimu mibotu eyo Leza njakatubambila kalekale, kuchitila
+  kuti tukeende mulinjiiyo. 11 Nkiinkako amuyeeye kuti bamaasi munyama mwiitwa kuti
+  \u201cchitapalwidwe\u201d acheecho chitegwa a \u201ckupalulwa.. munyama chakuchitwa
+  amaboko amuntu. 12 Nkambo kachecho chiindi mwakalanzanisizigwe kuli Kkilisitu kamuli
+  bazwakule kuchisi chamu Izilayeli, batuba kuzizuminano zyachisyomezyo, kamutakwe
+  bulangizi alimwi nkakutakwe Leza munyika. 13 Pele lino muli Kkilisitu Jesu inywe
+  nimwakali kule loko kuzwa kuli Leza mwakaboozegwa afwifwi kwindila mugaze lya Kkilisitu.
+  14 Nkambo ngonguwe lumuuno lwesu. Wakachita kuti kubili baabe umwi. Kwinda kunyama
+  yakwe wakanyonyoona bulambo bwankoondo bwakatwanzanisizye. 15 Nkinkako, wakalobya
+  mulawu wamilawu amalayilile kuchitila kuti alenge muntu omwe mupya mulinguwe, nkokuti
+  kube lumuuno. 16 Kkilisito wakababoozya amwi bantu bobile mumubili omwe kuli Leza
+  kwinda muchiingano, kukujaya nkondo yakali akati kabo. 17 Jesu wakasika akukambawuka
+  makani mabotu aluumuno kulindinywe nimwakali kule alumuno kuli aabo bakali afwifwi.
+  18 Eelyo kwindilila muli Jesu toonse mutujana luswano mumuuya omwe kuli Taata. 19
+  Nkambo kaako, lino inywe nobamaasi tamuchili batuuba amazwakule pe. Nkokuti muli
+  benyika yomwe abantu ba Leza basalala abantu bamung''anda ya Leza. 20 Chamba kuti
+  mwakayakilwa entalisyo yabatumwa abasinsim, alimwi Kkilisito Jesu lwakwe ngonguwe
+  bbwe lyachooko. 21 Mulinguwe ing''anda yoonse ikkwana oobotu antoomwe alimwikikkomena
+  kabotu mbuuli tempele iisalala mu Mwami. 22 Mulinguwe omo mumulikuyakwa kabiyo antomwe
+  mbuli chikkalilo cha-Jesu mu Muuya.\"", "\"KUNYINA Bbaibbele nolitwaambila buzuba
+  Jesu naakazyalwa. Nokuba boobo, litupa twaambo tugwasya kuzyiba kuti tanaakazyalwa
+  mu December pe.\\nAmulange-lange mbozyibede zintu kujatikizya mbobuca aciindi camwaka
+  eeco ku Betelehemu nkwaakazyalilwa Jesu. Imwezi waba Juda wa Chislev (iweendelana
+  a November/December) wakali mwezi nokutontola alimwi nokwakali kuwa mvwula. Imwezi
+  wakali kutobela yooyu wakali wa Tebeth (December/January). Mumwezi ooyu nokwakali
+  kutontola kapati mumwaka, mumasena aali mumalundu mwakali kuba acaanda zimwi ziindi.
+  Atulange-lange ncolitwaambila Bbaibbele kujatikizya bweende bwaziindi zyamwaka kubusena
+  oobo.\\nImulembi wa Bbaibbele Ezara utondezya kuti mwezi wa Chislev mmasimpe wakali
+  mwezi wakazyibidwe kapati kuti wakali kutontola cini-cini alimwi kwakali kuwa amvwula.
+  Naazwa akwaamba kuti nkamu yabantu yakabungana mu Jerusalemu \u201cmubuzuba bwamakumi
+  obile bwamwezi wamusanu aine\u201d nkokuti wa Chislev, Ezara uluula kuti bantu bakalikkede
+  \u201cbalakankama\u2026akaambo kamvula.\u201d Akaambo kambobuca aciindi camwaka
+  eeci, ibantu bakabungene beni bakati: \u201cNciindi camvula. Tatukonzyi kwiima anze.\u201d
+  (Ezara 10:9, 13; Jeremiya 36:22) Aboobo tacigambyi pe kuti beembeli bakali kukkala
+  mubusena ooko nkwaakazyalilwa Jesu bakabona kuti balo antoomwe amatanga aabo tiibakacili
+  kucezezya anze imasiku mumwezi wa December!\\nJesu naakazyalwa, ibeembeli amatanga
+  aabo bakali musyokwe kulutanga imasiku\\nPele Bbaibbele lyaamba kuti beembeli bakali
+  musyokwe kabeembela matanga aabo imasiku buzuba naakazyalwa Jesu. Mubwini, sikulemba
+  Bbaibbele Luka utondezya kuti aciindi eeco, beembeli \u201cbakali musokwe, beembela
+  butanga bwabo masiku\u201d munsi lya Betelehemu. (Luka 2:8-12) Amubone kuti beembeli
+  mubwini bakali kukkala musyokwe kulutanga, tiibakali kweendeenda buyo anze masikati
+  pe. Imatanga aabo akali musyokwe kulutanga imasiku. Sena bupanduluzi oobo bwakukkala
+  anze buleendelana akutontola alimwi amvwula iiliko ku Betelehemu mu December? Takweendelani
+  pe. Aboobo izyakacitika aciindi cakuzyalwa kwa Jesu zitondezya kuti tanaakazyalwa
+  mu December pe.*\\nIjwi lya Leza lilatwaambila buzuba bwini Jesu naakafwa, pele
+  kunyina makani manji alimwi aagaminide ngolijisi kujatikizya buzuba mbwaakazyalwa.
+  Eeci cituyeezya majwi aa Mwami Solomoni aakuti: \u201cIzina ibotu ndibotu kwiinda
+  muunde, abuzuba bwakufwa mbubotu kwiinda buzuba bwakuzyalwa.\u201d (Mukambausi 7:1)
+  Aboobo tacigambyi pe kuti Bbaibbele lipa makani manji aagaminide kujatikizya mulimo
+  alufwu lwa Jesu, pele lipa buyo masyoonto kujatikizya buzuba mbwaakazyalwa.\\n*
+  Ikutegwa mujane makani aambi, amubone makani aali apeeji 239-42 mubbuku lya Kukambitsirana
+  za m\u2019Malemba ilyakamwaigwa a Bakamboni ba Jehova.\"", "\"Kutandika mpiti, Yeova
+  akaalonda ukuti cila-lupwa lwasyako insita yakukolongana pamwi, kuti yakomelezyanya
+  nu kwazwana pakuti yaye ya cuza yakwe Leza sana. (Amalango 6:6, 7) Ali mulandu uno
+  ya Nte Yakwe Yeova yakasiilako insita cila-mulungu pakuti yapepela Leza pamwi umu
+  lupwa\u2014pali pano yakalanzyanya vyakwe Leza kulingana na vino ulupwa lufwile
+  ukuombelapo. Nanti cakuti mwemo mukaikala sile mwenga, mungaomvya insita iyo uku
+  kuwelenga sana nu kusambilila ivingi pa malyasi amuli Baibolo nu kulapepa kuli Leza.\\nKupepa
+  Leza umu nzila ii kuka-avwa ukuya sana ya cuza yakwe Yeova. Baibolo ikati: \u201cMupalame
+  kuli Leza, nga nawe amapalama kuno muli.\u201d (Yakobo 4:8) Pa kumanya sana Yeova,
+  tufwile ukusambilila sana Baibolo pa kuti tuvwikisye ivingi pali vino waya na vino
+  akacita ivintu. Inzila imwi iyangupale ino mungaomvya pa kuti mwapepa Leza capamwi
+  mu lupwa, u kuwelenga Baibolo pamwi; limwi mungaalondela vino yakatantika cila-mulungu
+  umwisukulu lya Mulimo Wakwe Leza. Munga-ankana ivikomo vya kuwelenga umu Baibolo
+  nga alino imulanzyanya vino muvwa umu Malembelo yayo.\\nKuka-avwa amu lupwa ukutemwana
+  sana. Ya iya na aci, alino na avyazi na ana yao yakauvwana sana ndi cakuti yakasambilila
+  pamwi Baibolo. Kupepa kuu kulinzile ukuleta uluzango, nu mutende, nupya amu lupwa
+  yalinzile ukumvwa ningo ndi uwanda wakupepa wafika. Avyazi yangaalonda ivyeo vya
+  kulanzyanya kulingana ni misinku ya ana yao; nga yakulonda, yangaomvya malyasi amu
+  Ulupungu lwa kwa Kalinda nanti Loleni! Limwi mungalanda pa ntazi izikaizila ana
+  ndi yali uku sukulu, na vino yangacimvya intazi zizyo. Nupya mungaaipakizya nu kwimbila
+  pamwi injimbo zino tuliimba apa kulongana, nanti sile ukwikapo nu twakulya lino
+  mwamala ukupepa kuko.\\nUkukwata insita ii iyakupepa Yeova capamwi, kulazwa yonsi
+  amu lupwa ukutemwa sana Izwi Lyakwe Leza, nakupya mulapolelelwa cuze.\u2014Masamu
+  1:1-3.\\nU mulandu ci uno tukasiilako insita ya kupepa Leza capamwi umu lupwa?\\nUzye
+  avyazi yangacita uli pakuti yonsi umu lupwa yauvwa ningo lino yakupepa Leza capamwi?\"",
+  "\"Ezila watandike ukuipekanya ukuswilila uku Yelusalemu\\n7:6, 22; 8:26, 27\\nUmwene
+  Alitakisesi wazumilizye Ezila ukuti aswilile uku Yelusalemu pakuti akatwalilile
+  ukupepa Yeova\\nUmwene Alitakisesi wapeezile Ezila \u201cvyonsi vino wene walenzile\u201d
+  ivyali nu kuomviwa uku ng\u2019anda yakwe Yeova; zaabu, siluva, waini, mafuta nu
+  musilya, nupya ndakai impiya izingaomviwa ukukala ivintu vii vyonsi zingacila pali
+  100 milyoni (impiya izya ku America)\\nEzila wataile ukuti Yeova wali nu kucingilila
+  aomvi Yakwe\\n7:13; 8:21-23\\nCali citale sana ukuswilila uku Yelusalemu\\nCikaloleka
+  kwati museo uno yaapisilemo wali makilomita 1,600, nupya wapisile umu mpanga umwali
+  sana mazanzo\\nUlendo wao wasenzile mupipi ni myezi 4\\nYonsi aaswilile yaalondekanga
+  ukuya nu utailo ukome, ukuya acincile umu kupepa kwa cumi, alino nu kusipa\\nIVINTU
+  VINO EZILA WAPISILE NAVYO . . .\\nGoldi na siluva vino vyafinyile matalanti 750
+  nanti Ivingalingana nu kufina kwa nzovu izyakalume zitatu izikulu!\\nINTAZI ZINO
+  ANTU ASWILILANGA YAKWETI . . .\\nMuno yaapitanga mwali ivipondo ivingayakoma, ivilyanyi
+  vya mu mpanga nupya mwali umu lwanga ulwipisye\"", "\"Ndakanyampula bbuku lya Edwin
+  Lutzer, One Minute After You Die, mpoonya ndakatalika kubala Caandaano Cipati catatu
+  camutwe wakuti: \u201cThe Ascent into Glory.\u201d\\nMajwi aakwe akali kutelemuka
+  cakukondelezya, pele akali kupapa akakununkila mbuli musinza uusaside. Ino ncinzi
+  cini ncendaamba aawa?\\nLutzer, pe maawe, ooyu muntu uulengelezya zyabempelenge.
+  Mpeenyaawo Mangwalo ayubununa bbuku lyakwe lya mutwe wakuti, One Minute After You
+  Die, kuti ndya lweeno. Busanduluzi buli mu caandaano citaanzi acabili manyongwe
+  aalo alo, pe ma atuye ku caandaano catatu, oomo tujana ba Lutzer bacizumana kusendekezya
+  twaambo twakupunga tuzyila mulwiiyo lwa Plato!\\nAndigumegume aasyoonto buyo makani
+  aali mu Caandaano catatu. A peeji 55, uguminizya 1 Bakolinto 3:21-23: \u201czintu
+  zyoonse nzizyenu, alimwi inywe muli ba Messiah Yahuwah,\u201d kumwi kaamba kuti
+  lufu ncipego cesu cizwa kuli Yahuwah. Icintu ncatabwene nciceeco cileba bantu aabo
+  basyoma baleza botatwe (akataa zinji zimwi). Eeci cibalo cilasalazya kuyubununa
+  mbwalitolaansi Yahushua, Messiah, kuli Yahuwah. Mbwaanga lusyomo lwa baleza botatwe
+  lusendekezya kuti Yahushua ngu Yahuwah, aabo basyoma muli baleza botatwe mumakani
+  aaya tabakonzyi kupandulula Yahuwah mbwanga walitolaansi kuli Lwakwe mwini Yahuwah.
+  Icibalo cilamaninizya kuti, \u201cyebo uzulilwa kuli Messiah, alimwi Messiah uzulilwa
+  kuli Yahuwah.\u201d\\nA peeji 56 Lutzer alimwi ulaliguunkula naamba kuti, aabo batakombi
+  Leza tabakonzyi kunyanga Banakristu cipego ca lufu eeco cinga cabasindikizya kuyoosikila
+  mpabede Yahuwah. Yebo inga wayanda kumutumina kagwalo ooyu Mwaalumi. E.R. Lutzer
+  ujisi mulongo wa tumpango twaambilizya \u201clufu\u201d tutondezya kuti teesyi mbocibede
+  oobo pe. Kunyina pe naba omwe wakafwa akusindikilwa kuyoosika mpabede Yahuwah. Tacikonzyi
+  kucitika eeci kusikila akuboola kwabili kwa Yahushua Messiah akubuka kuzwa kulufu.
+  Ime inga ndamwiibalusya Lutzer ooyu majwi ookwa Paulu mwini: \u201cMunzila eeyi
+  [ya kubuka kuzwa kubafu nokuba kwiimpuka kuyoocingauzya Yahushua akuboola kwakwe]
+  tuyooboola kuzyooba aa Yahushua\u201d (1 Batesalonika. 4:13-17).\\nAnselelo lya
+  peeji 56, mulembi wesu utusomba muzeezo wakwe ooyu: \u201cMbweenya oobo, lufu mbwiili
+  nzila eeyo imibili yesu mbwiilyookezya eelyo miya yesu niisindikilwa kuyoonjila
+  mumilyango ya kujulu.\u201d Nguni uusindikilwa aabani? Kondipa mpokulembedwe mu
+  Bbaibbele kuti. \u201cMiya yesu ilasindikilwa\u201d kuya kujulu aciindi cakufwa?
+  Kuti muntu wafwa, akwalo kuswaangana akataa muya a mubili kulafwidilizya antoomwe;
+  muya amubili nuucisangene antoomwe ulakonzya kufwa. Ba Giliki baciindi ca (Plato)
+  bakayiisya kuti mubili tuukwe mulimo aboobo lufu lugwasyilizya muya kuti ulisamunune
+  ciwa ca mubili akuuluka kuyoopona lyoonse buumi bwawo kuuli ulikke. Banakristu batunsiyansiya
+  aabo bakayiya Giliki, kaayindide mazuba aa Bbaibbele, bakazuminizya kuti muzimo
+  wiingaila ulaa busena nkuugama: ategwa mizimo mibotu iya kujulu (kutala lyookuya),
+  mpoonya mizimo mibyaabi iya mubwina musiya mbi bwa Cuumbwe nokuba Mumulilo uutazimwi.
+  Mubwini, nokuba boobo, Mangwalo aamba kuti mubili amuya uukonzya kufwa, muntu woonse
+  mbwazulwa, ulalyookezya nokuba koona mu lufu (Daniyele. 12:2) kusikila akubuka kuzwa
+  kulufu akuboola kwa Yahushua ciindi waakumvwika kusiba mweembo wa ciloba, kutali
+  aciindi cimbi kacinatasika ciindi eeco pe (Ciyubunuzyo. 11:15-18). Oolu lwiiyo lwakuunina
+  lwabu Giliki, lino ndobasumpauzya bunji bwa Banakristu, kapati Bakatolika aba Calvini,
+  muzeezo uulubide cinicini wakaanzwa mubucenjezu cakuti wakaba \u201clusyomo mu lwiiyo
+  lwa buleza\u201d mucuulu camyaka yainda.\\nMucibalo nceenya eeci ca bbuku lyakwe,
+  Lutzer waamba kuti \u201cmiya\u201d yesu ilasindikilwa kuya kujulu. Pele ooku nkutamvwisyisya
+  kuleta kuyeeyela kuti muntu ucilaa buumi bumbi akuti ucipona kujulu. Masimpe kuti
+  aciindi cakuzyalwa Yahuwah utumizya muya Wakwe kuzyootalisya buumi mu mwana. Ooyo
+  muya wa Yahuwah ulakkala mumuntu kusikila wafwa. Ooyo muya tuukwe ciwa nokuba mbuulangika,
+  pele Yahuwah ulawutola alimwi, eelyo buumi bwasika kumasimpilo. Mboobu bumboni:
+  \u201cNguni uuzyi muya wamuntu wiimpuka kuya mujulu, amuya wa munyama uuya ansi
+  mubulongo\u201d (Mukambausi. 3:21). \u201cBulongo buyoojokela kubulongo mbweenya
+  mbubwaabede: alimwi muya uyoopiluka kuli Yahuwah ooyo wakuupede\u201d (Mukambausi.
+  12:7). Mpeenya aawo \u201cbafwide kunyina pe ncobazyi nociceya...Taakwe cicitigwa
+  munyika yabafwide [mucuumbwe, muli shilo, Hadesi]\u201d (Mukambausi. 9:5, 10). Kubuka
+  kuzwa kulufu kulikke njenzila yakuzwa mu lufu (Johane 11:11, 14)!\\nEeci cibalo
+  citali ca-WLC cakalembwa aaba Wayne Stallsmith.\\nTwakagwisya mucibalo citaanzi
+  mazina aabakomba mituni ngobayita Taata a Mwana, akubikka mucibaka cangawo mazina
+  mataanzi ngubaapedwe. Kuyungizya waawo twakajokolosya mutumpango ntotulembulude
+  akubikka mazina as Taata a Mwana, mbuli mbwaakalembedwe kutaanguna abalembi bamu
+  Bbaibbele bakayoyelwa moza. Nkamu ya-WLC\"", "\"Kwamba Maningi: Mutayeyangeti mulandikinga
+  kupandulula byonse. Yesu walasebensesha mipusho kwambeti anyamfwe bantu kuliyeyela
+  bonka nekucana mukumbulo welela. (Mat. 17:24-27) Mipusho ikute kupangisha ciyo kuba
+  caininisha kayi nekumunyamfwa kubona mpwakuma shikwiya wenu. (be-CN 253 mapal. 3-4)
+  Mwepusha mwipusho, mulandikinga kwikalika moyo nekupembela mukumbulo. Naa shikwiya
+  wenu lakumbulu mukumbulo wabula kwelela, mucindi cakumwambila mukumbulo welela,
+  mulandikinga kumunyamfwa kucana mukumbulo welela mwakumwipusha mipusho. (be-CN 238
+  mapal. 1-2) Mwambenga munshila yelakunyamfwa shikwiya kwambeti anyumfwishishe mbyomulambanga.\u2014be-CN
+  230 pal. 4.\\nKwipanga Yashupa Maningi: Nkamulandikinga kwamba byonse mbyomwinshi
+  pankaniyo. (Yoh 16:12) Ambani owa pabikomo binene bili mupalagilafu. (be-CN 226
+  mapal. 4-5) Bikomo nabimo olo byaina ingabilubyanya inkani. (be-CN 235 pal. 3) Bikomo
+  binene-binene byanyumfwika kuli shikwiya Baibolo wenu, yani mupalagilafu naimbi.\\nNteko
+  Kubelengowa Byalembwa: Cilandikinga nikushika pamoyo washikwiya, nteko kubelengowa
+  byalembwa. (Luka 24:32) Sebenseshani ngofu sha Maswi a Lesa mwakubikila mano pamalemba
+  ekatana maningi neciyo. (2 Akor. 10:4; Aheb. 4:12; be-CN. 144 mapal. 1-3) Sebenseshani
+  byakubonenako bitashupu kunyumfwa. (be-CN 245 mapal. 2-4) Mulandikinga kumwinshiba
+  cena shikwiya Baibolo wenu nembyashomamo, muyisheni kwelana nencabele. Ipushani
+  mipusho mbuli iyi: \u201cInga mwanyufunga aconi pabintu mbyomuleyinga pano?\u201d
+  \u201cInga bilatuyishinga cani pali Yehova?\u201d \u201cInga nipindu cini njomulacana
+  pakusebensesha kufunda uku?\u201d\u2014be-CN 238 mapal. 3-5; 259 pal. 1\"", "\"\u2018Ubulongosi
+  bwa bangi\u2019 bukutula.\u2014Isya Mbupingamu 20:18\\nTwesa tukulondiwa indalama
+  ukuti situtule m\u2019nyumba syitu. (Isya Mbupingamu 30:8) \u201cIkyuma kibaghile
+  ukukupa ulutengano,\u201d pamo ukubafighilila. (Undumbilili 7:12) Mu bweghi, inkhani
+  ya muno mubaghile ubombela ni ndalama syinu yikutamya fiyo. Mungitikagha ukuti inkhani
+  ya ndalama yitwale indamyo m\u2019nyumba yinu. (Baefesi 4:32) Abeghi bakulondiwa
+  ukuti basubilaneghe kangi batulaneghe muno babaghile ukubombela ni ndalama syabo.\\n1
+  MUYEGHE NI PULANI\\nISI IBAIBOLO LIKUYOBA: \u2018Yo aliku uyu bo akulonda ukuyenga
+  inyumba atikupima untengo ukuti akete linga ali nafyo ifya kumalikisya.\u2019 (Luka
+  14:28) Upanga ipulani pampene muno mukuya pakubombela indalama kubaghile ukubatula.
+  (Amosi 3:3) Muyobesanieghe ifi mukulonda ukula ni ndalama isi mukuya pakulila. (Isya
+  Mbupingamu 31:16) Ukula ifindu nongwa yakuti muli ni ndalama syakuti mubaghile ukulila
+  kutaya kanunu. Mungasubilagha ukukopa indalama pamo ifi mukulonda. Muleghe ifyakukwana
+  nindalama syinu.\u2014Isya Mbupingamu 21:5; 22:7.\\nISI MUBAGHILE UKUBOMBA:\\nLinga
+  musyaghile indalama, muyobesanieghe ifi mukulonda ukubombela\\nLinga muli ni ndalama
+  nandi pamo dono, muchepesya ifyakula. Lumo mubaghile ukupiya mwibene ifyakulya m\u2019malo
+  mwakula ifipiye\\n2 MUYEGHE BABWANALOLI\\nISI IBAIBOLO LIKUYOBA: \u2018Namanga tukulonda
+  ukubomba isya bugholofu kwa Yehova na ku bandu.\u2019 (2 Bakorinti 8:21) Unkasi
+  winu pamo undume winu amanyeghe indalama isi mukukaba na isi mukonanga.\\nAkabalilo
+  kosa muyobesanieghe linga pali fimo ifi mukulonda ukubomba nindalama syinu. (Isya
+  Mbupingamu 13:10) Mukuya nulutengano linga mukuyobesania muno mukubombela indalama.
+  Indalama isi mukukaba siyeghe syinu mwesa.\u20141 Timoti 5:8.\\nISI MUBAGHILE UKUBOMBA:\\nMupangane
+  ubwingi bwa ndalama isi aliwesa abaghile ukubombela kwambula kuyobesania tasi\\nUkuti
+  muyobesanie isya ndalama mungalindililagha ukuti indamyo yiboneke tasi\"", "\"1.
+  Mambo ka masongola a mwayila mizhilo kyo aletela lusekelo?\\nMambo awama afuma kwi
+  Yehoba, Lesa wa lusekelo ukeba bisemi byonse kwikala na lusekelo. (1 Timoti 1:11)
+  Lesa ye watendekeshe masongola. Masongola a mwayila mizhilo aleta lusekelo mambo
+  ne baana bakoma bulongo.\\nLesa umona byepi masongola? Ukeba\u2019mba bamulume ne
+  mukazhi bekale mu masongola abo kikupu. Bena Kilishitu bafwainwa kunembesha masongola
+  abo mwayila mizhilo ya kobekela. (Luka 2:1, 4, 5) Lesa ukeba bamulume ne mukazhi
+  kwikala bakishinka mu masongola. (Bahebelu 13:4) Washikwa kwikana. (Malakai 2:16)
+  Yehoba waswishatu bena Kilishitu kwikana ne kusongola nangwa kusongolwa ku muntu
+  mukwabo inge umo wauba bukende.\u2014Tangai Mateo 19:3-6, 9.\\n2. Bamulume ne mukazhi
+  bafwainwa kwikalanga byepi?\\nYehoba walengele banabalume ne banabakazhi kuba\u2019mba
+  bakekwashenga mu masongola. (Ntendekelo 2:18) Mwanamulume byo aji mutwe wa kisemi,
+  wafwainwa kukebela ba mu nzubo yanji bikebwa ne kwibafunjisha pe Lesa. Wafwainwa
+  kutemwa mukazhanji na muchima yense. Bamulume ne mukazhi bafwainwa kwitemwa ne kwinemeka.
+  Byo kiji kuba\u2019mba bamulume ne mukazhi bonse bambulwa kulumbuluka, bafwainwa
+  kwilekelangako mambo pa kuba\u2019mba bekale na lusekelo mu masongola abo.\u2014Tangai
+  Efisesa 4:31, 32; 5:22-25, 33; 1 Petelo 3:7.\\n3. Umvwe kechi mwikala bulongo ne,
+  nanchi mwafwainwa kunyema mukwenu wa mu masongola nyi?\\nUmvwe muji na makatazho
+  mu masongola enu, ibikaiko kwimwesha butemwe. (1 Kolinda 13:4, 5) Mambo a Lesa kechi
+  atundaika kwabana amba ko kupwisha makatazho avula aji mu masongola ne.\u2014Tangai
+  1 Kolinda 7:10-13.\\n4. Anweba baana, nanchi Lesa ukeba\u2019mba mwikalenga byepi?\\nYehoba
+  ukeba\u2019mba mwikalenga na lusekelo. Wimupa mafunde awama o mwakonsha kulondela
+  pa kuba\u2019mba mwikale na lusekelo mu bwanyike bwenu. Ukeba\u2019mba mumwenemo
+  mu maana ne mu bintu byapitamo bansemi benu. (Kolose 3:20) Yehoba, Mulenga wa bintu
+  byonse pamo ne Mwananji bakeba anweba kwikala na lusekelo kimye kyo mubena kumwingijila.\u2014Tangai
+  Musapwishi 11:9\u201312:1; Mateo 19:13-15; 21:15, 16.\\n5. Anweba bansemi, mwafwainwa
+  kuba byepi pa kuba\u2019mba baana benu bekalenga na lusekelo?\\nMwafwainwa kwingilanga
+  na ngovu kukebela baana benu kajo, mwakulaala, ne bivwalo. (1 Timoti 5:8) Pano bino
+  pa kuba\u2019mba baana benu bekale na lusekelo, mwafwainwa ne kwibafunjisha kutemwa
+  Lesa ne kufunda kwi aye. (Efisesa 6:4) Umvwe mwaikala bakumwenako bawama mu kutemwa
+  Lesa mwakonsha kukwasha baana benu nabo kutemwa Lesa. Umvwe mafunde enu keafume
+  mu Mambo a Lesa, akonsha kukwasha baana benu kwikala na ndangulukilo yawama.\u2014Tangai
+  Mpitulukilo ya mu mizhilo 6:4-7; Byambo bya Mana 22:6.\\nBaana bomvwa bingi bulongo
+  inge mwibatundaika ne kwibatakaika. Kabiji bakeba kwibololako ne kwibajimuna. Kwibafunjisha
+  mu jino jishinda kukebazhikijila ku byubilo byakonsha kwibapwishisha lusekelo. (Byambo
+  bya Mana 22:15) Pano bino, pa kwibajimunako kechi mwafwainwa kwibashintaukilanga
+  ne.\u2014Tangai Kolose 3:21.\\nBakamonyi ba kwa Yehoba banemba mabuku avula, kikatakata
+  akukwasha bansemi ne baana. Ano mabuku aimena pa Baibolo.\u2014Tangai Salamo 19:7,
+  11.\"", "\"Sa shintu pa cishi . . .\\nshinanoobabo bweenka bulya?\\nshilaakubicilaako?\\nshilaakubota?\\nBAIBO
+  ILAAMBA AYI\\n\u201cLesa. . . ulaakubakunkumuna minsonshi yoonse. Lufu teshi lukabeeko
+  alimwi. Teshi kukabe buumba, kulila nabi kunyumfwa kucisa mukwiinga shikulukulu
+  shoonse shashimingana.\u201d\u2014Ciyubululo 21:3, 4, The Bible in Lenje.\\nMBWEENGA
+  MWACAFWIKWA NA MWASHIBA AYI SHINTU SHILAAKUBOTA\\nMulaakuba amilimo isangalasha.\u2014Isaya
+  65:21-23.\\nTeshi mukanoociswa nabi kuba amapensho ali oonse.\u2014Isaya 25:8; 33:24.\\nMulaakuba
+  abuumi butamaani alimwi mulaakunosangalala pantu pomwi abamukowa ababyaanu.\u2014Kulumbaisha
+  37:11, 29.\\nSA INGA TWASHOMA NSHOYAAMBA BAIBO?\\nEe, ceebo ca milandu iyi yobilo:\\nLesa
+  ulicite nkusu sha kucita shoonse nshaakalasha. Mu Baibo, Yehova Lesa eenka ngowiitwa
+  ayi \u2018Shinkusu shoonse,\u2019 mukwiinga nkusu shakwe tashimaniiwo. (Ciyubululo
+  15:3) Paceebo ceeco, inga wakonsha kubotesha shintu shoonse pa cishi kweelana ambwaakalasha.
+  Baibo ilaamba ayi, \u201cshoonse shintu shilakonsheka kuli Lesa.\u201d\u2014Mateyo
+  19:26.\\nLesa ulisuni abuumbi kucita nshaakalasha. Yehova ulisuni abuumbi kubusha
+  bafu.\u2014Jobo 14:14, 15.\\nBaibo ilatoondesha kwaamba ayi Mwanaakwe Lesa, Yesu
+  wakashilika balwashi. Ino wakacitilanshi boobo? Ceebo wakalinga kusuni abuumbi.
+  (Maako 1:40, 41) Yesu wakalinga kukosha mibo yaba Ishi yakusuna abuumbi kucafwa
+  bapengete.\u2014Joni 14:9.\\nAboobo, nga twashoma kwaamba ayi Yehova a Yesu balisuni
+  ayi tukanosangalala kunembo!\u2014Kulumbaisha 72:12-14; 145:16; 2 Pita 3:9.\\nSHAKUYEEYAWO\\nIno
+  Lesa ulaakubotesha buyani shintu pa cishi?\\nBaibo ilakumbula mwiipusho uyo pali
+  MATEYO 6:9, 10 a DANYELO 2:44.\\nAMWIILEWO ASHIMWI\\nMAKANI ABOTU KUSWA KULI LESA!\\nBaibo
+  ilatulwita Lesa ncakalengela cishi ca panshi, mapensho ndyeshi akamaane, alimwi
+  acishi mbweshi cikabe kunembo alimwi abaabo beshi bakekaleemo.\"", "\"MUTANCHI WA
+  KUPWILA KWA BWIKALO NE MWINGILO WETU WA BWINA KILISHITU Nkubomukata 2017\\nBYAFWAINWA
+  KWIKALA BENA KILISHITU\\nNga baana benu baitabila\u2019mba ka pa byatendekele bumi?
+  Mwakonsha kwibakwasha byepi kwikala na luketekelo lwa kuba\u2019mba Yehoba Lesa
+  ye Mulenga?\\nBYA BUNEME BIJI MU MAMBO A LESA\\nNanchi mwaka wa bintu bya byawama
+  bya Yehoba mwakatu nyi? Nanchi uno mwaka wakwatankana byepi na mwingilo wa kusapwila
+  pa Bufumu?\\nBYAFWAINWA KWIKALA BENA KILISHITU\\nPaitaiwa mali avula bingi pa kupilinta
+  ne kusampanya mabuku alumbulula Baibolo. Yukai bo mwakonsha kushila mabuku inge
+  mubena kusapwila.\\nBYAFWAINWA KWIKALA BENA KILISHITU\\nLuketekelo luji nobe kimiko.
+  Kulanguluka languluka pa milaye iji mu Mambo a Lesa kwitulengela kwikala na lusekelo
+  kabiji tuchinchika ku meseko aji nobe luvula.\"", "\"1Nyenye mwe mufwe ukwimila
+  uwananzi na inzanangifu senyu. 2Ulusika ulo mwikalige we mukwiga imikalile imibi
+  ja mung''i umu, mwagapulikise amasoka manyaludali ga mwilanga, amasoka agakuvasagila
+  lino avanu vesivakumupulika Nguluvi. 3Na kulino de hwehwe mbetuli twetwindawe vavene;
+  twikalige we tukwiga uwudobokesi wetu wa mung''i nu kupiga sila hela isanogelige
+  imivili nu luhala lwetu. Kwa ulubali lwa mung''i, hwehwe nahwe twindawe avene kangi,
+  twetuvaje ililakaali lya Nguluvi. 4Neke Nguluvi munyalusungu lukomi. Atwendite na
+  uwende uwugaya wulongo, 5nambi we twetufwe ukwimila inzanangifu, atupelye uwumi
+  pamwinga na Kilisito. Ukukola uwuwuya wa Nguluvi nyenye mupokitwe. 6Kwa ukuhanga
+  na Kilisito Yesu, Nguluvi atusilibwe pamwinga nave, sambi tukateme pamwinga nave
+  kuchanya. 7Ulo lweawendite ukululagila kuvanu va imisika igikusa uwukomi wa uwuwuya
+  wakwe weatupelye kwa ulusungu lwa ukuhanga kwetu na Kilisito Yesu. 8Pakuva, kwa
+  uwuwuya wa Nguluvi nyenye ye mukomboliwe ukwimila ulufuuwo. Ulukani ulu silwihumagi
+  muwupifu wenyu, pesi ukuta icho kipelwa cha Nguluvi. 9Nambi kangi silwihumagi mufipigo
+  fyenyu yinyenye, alonga umunu ivahile kinu. 10Hwehwe twi figawa fyakwe Nguluvi,
+  na kwa ukuhanga na Kilisito Yesu, atugafile sambi twikale muwupiga inofu sealatuviche
+  tupigage. 11Nyenye kukilamuko mwatambuligwe, vasila kuwolwa mwalula lwelwitambulwa
+  kuwolwa ulwapigikige na amawoko mumivili jawo. 12Mwiyiwukage lwemwemulekine na Nguluvi
+  pamwandi mwe mwiva genzi; mwe kwivala mulukolo lwa Vaisilaeli; mwe mwivagenzi na
+  simwemuhanzili nambi kinu mwa lula ulufingano ulwa inyuviso, mwemugayite uluhuvi,
+  na wita avanu vesivamuseli Nguluvi umu mung''i. 13Neke lino de, kwa ukuhanga na
+  Kilisito Yesu, nyenye ye pamwandi mwe muli pataali, yemuhegelisiwe ukwimila idanda
+  yakwe Kilisito. 14Pakuva Kilisito yumwene atuletye uwikalakunoga kwa ukuvahanza
+  Avayudaya na avanu va ing''i isingi ukuva lukolo lumwi. Kwa umuvili gwakwe yumwene
+  amamwe ikibupa kila cheche kivavagulise nu kwambusa vave vatavangu. 15Ahesise lula
+  ululagilo lwa Avayudaya na indagilo na imisimu, sambi ing''olo iso isivili agawe
+  lukolo lumwi ulupya mu wulilumwi nave na palulo aletite uwikalakunoga. 16Kwa umuvili
+  gakwe, Kilisito awulige uwutavangu wawo; kwa umusalaba gakwe ndawe ahanzise ing''olo
+  iso luve lukolo lumwi na awuyipe uwilamule na Nguluvi. 17Sweno, Kilisito aasile
+  idalika Ulukani Ulunofu lwa uwikalakunoga kwa nyenye mwe vanu va ing''i isingi yemwe
+  pataali na Nguluvi, na kangi kwa Avayudaya avali pipi na Nguluvi. 18Sweno, ukwimila
+  umwene, hwehwe mbetuli, Avayudaya na avanu va ing''i isingi, tuhwanite ukumubitila
+  Dada kwa mutima gumwi. 19Sweno, nyenye si pe mwivagenzi kangi, sipe mwivanu va kwivala
+  nyenye, mwivanyang''i pamwi na avanu va Nguluvi, na mwi vanu va mulukolo lwa Nguluvi.
+  20Mwivasengele mulutu uluvike na vigendo na avavisi, nave Kilisito yumwene ye liganga
+  likomi lya mulutu. 21Umwene ye ayibete ikaye mbeyili nu kulumbing''asa mbaka yive
+  Tembeli inzelu ukwimila Umutwa. 22Na mukuhanga nave, nyenye nanye mwivasengelese
+  pamwi na mbevali vala avangi, sambi muve wikalo wa Nguluvi ukukola Umuhe vakwe.\"",
+  "\"1. U mulandu ci uno tulinzile ukusambilila pa angeli?\\nYEOVA akalonda ukuti
+  tumanye ulupwa lwakwe. Angeli yaya umu lupwa lwakwe Leza. Muli Baibo, angeli yaka-amwa
+  ukuti \u201cana yakwe Leza aonsi.\u201d (Utandiko 6:2) Uzye imilimo ci ino angeli
+  yakaomba? Uzye yazwilizye uli antu manda ya mpiti? Uzye naswe yangatwazwa ndakai?\u2014Lolini
+  Vyeo Vya ku Mpela pa namba 8.\\n2. Uzye aekwi kuno angeli yaafumile? Uzye aangeli
+  yanga aumvilwe?\\n2 Tulinzile ukumanya kuno angeli yafumile. Pali Kolose 1:16 pakatunena
+  ukuti Yeova waumvile Yesu, lyene pa cisila \u201cwaumvile vintu vyonsi ivya mwiyulu
+  na pano pa nsi.\u201d Pa viumbwa vivyo paali na angeli. Uzye aangeli yanga aumvilwe?
+  Baibo ikalanda ukuti kwaya imintapendwa ni mintapendwa ya angeli.\u2014Masamu 103:20;
+  Umbwilo 5:11.\\n3. Uzye Yobo 38:4-7 ikatunena vyani pa yangeli?\\n3 Napya Baibo
+  ikasambilizya ukuti Yeova waumvile angeli lino atali aumbe insi. Uzye angeli yuvwile
+  uli lino yaweni insi? Ibuku lyakwe Yobo likalanda ukuti yatemilwe wakwe cimwi. Angeli
+  yonsi yaali ulupwa longa nupya yaombelanga Yeova capamwi.\u2014Yobo 38:4-7.\\nANGELI
+  YAKA-AZWA ANTU YAKWE LEZA\\n4. Twamanya uli ukuti angeli yasumbako amano ku antunze?\\n4
+  Kufuma mpiti, angeli ya cumi yasumbako sana amano uku yantu na kuli vino Yeova akalonda
+  ukuti antu yakikale pano nsi. (Mapinda 8:30, 31; 1 Petulo 1:11, 12) Cifwile cayawavile
+  sana lino Adamu na Eva yapondwike. Ndakai cikayawaya ukuluta ukulola vino antu aingi
+  yakapondokela Yeova. Lelo ndi cakuti umuntu walapila nu kuwela kuli Leza, angeli
+  yakazanga wakwe cimwi. (Luka 15:10) Angeli yasumbako sana mano kuli yano yakaombela
+  Leza. Yeova akaomvya angeli ukwazwa nu kucingilila aomvi yakwe aya pano nsi. (Ayebulai
+  1:7, 14) Lekini tulande pa yaomvi yakwe Leza yamwi yano angeli yazwilizye.\\n5.
+  Uzye angeli yazwilizye uli aomvi yakwe Leza ku mpiti?\\n5 Yeova watumile angeli
+  yaili ukuya-azwilizya Loti nu lupwa lwakwe ukufuma umu misumba ya Sodoma na Gomola
+  iyali nu kononwa. (Utandiko 19:15, 16) Lino paapisile imyaka iingi, kasema Danieli
+  yaamusumbiile umu ciwina cakwe ya cisama, nomba wapuswike pano Leza watumile umungeli
+  wakwe, nga nawe \u2018acilika imilomo yakwe yacisama.\u2019 (Danieli 6:22) Insita
+  yuze nayo lino mutumwa Petulo wali umu cifungo, Yeova watumile umungeli ukuya musapula.
+  (Milimo 12:6-11) Nakapya, angeli yazwilizye Yesu lino wali pano nsi. Lino Yesu wawatiziwe
+  \u2018angeli yamutumikilanga.\u2019 (Mako 1:13) Napya, lino kwasiile sile akasita
+  akanono kuti Yesu yamukome, umungeli walolekiile kuli aliwe, \u201camukomelezya.\u201d\u2014Luka
+  22:43.\\n6. (a) Twamanya uli ukuti angeli yaka-azwa aomvi yakwe Leza ndakai? (b)
+  A mauzyo ci yano tuma-asuka?\\n6 Ndakai, angeli yasilolekela uku antunze. Lelo Yeova
+  acili akaomvya angeli ukwazwa aomvi yakwe. Baibo ikati: \u201cUmungeli wakwe Yawe
+  [Yeova] akacingilila yayo akamoopa, nupya akayapususya.\u201d (Masamu 34:7) U mulandu
+  ci uno tukalondekwa ukucingililwa? Pano twakwata alwani aa maka aakalonda ukutonona.
+  Uzye aalwani ci yaayo? Aekwi kuno yakafuma? Uzye yakacita uli pakuti yatonone? Pa
+  kumanya amasuko, lekini tutale tusambilileko panono pa vintu ivyacitiike lino Adamu
+  na Eva yaumvilwe.\\nALWANI ITU AASILOLEKA\\n7. Uzye usomvi wakwe Satana walenga
+  ukuti antu yaacita vyani?\\n7 Twasambiliile umu Cipande 3 ukuti umungeli umwi wapondokile
+  Leza napya walondanga kuti aateeka auze. Baibo ika-ama umungeli wiyo ukuti a Satana
+  Ciwa. (Umbwilo 12:9) Napya Satana walondanga kuti na yauze kwene yapondokele Leza.
+  Wasomviile Eva, nupya ukufuma lilyo, wasomba antu iingi sana. Nomba, antu yamwi
+  wakwe Abeli, Enoki, na Nowa yatwalilile ukuya acumi kuli Yeova.\u2014Ayebulai 11:4,
+  5, 7.\\n8. (a) Uzye cali uli pakuti angeli yamwi yaye iviwa? (b) Uzye angeli aipe
+  yaacisile uli pakuti yatafwa kuli Mulamba?\\n8 Mu manda yakwe Nowa, angeli yamwi
+  yapondwike nu kusya ivifulo vyao ukwiyulu nu kwizaikala wa yantunze pano nsi. I
+  cani cino yaacitiile viivi? Baibo ikatunena ukuti yalondanga ukutwala. (Welengini
+  Utandiko 6:2.) Lelo cino angeli yaa yacisile caifile. (Yuda 6) Antu aingi yatandike
+  ukukolanya angeli kwene yaa aipe nu kulacita ivipe nu unkalwe. Acino Yeova wapingwile
+  ukonona antu yaa aipe kuomvya mulamba mukalamba. Lelo wapuswisye antu yakwe acumi.
+  (Utandiko 7:17, 23) Pakuti angeli yaa aipe yapusuke, yaswilile ukwiyulu. Baibo ika-ama
+  angeli yaa aipe ukuti mipasi yankota, nanti iviwa. Yasoolwile ukuya yacipondoka
+  pamwi na Satana, nu kulateekwa na Ciwa kwene wii.\u2014Mateo 9:34.\\n9. (a) I cani
+  icacitiike lino angeli aipe yaswiliile ukwiyulu? (b) I vyani lyene vino tumasambililapo?\\n9
+  Lino angeli aipe yaswilile ukwiyulu, Yeova atayazumilizye ukuya pamwi nu lupwa lwakwe
+  nupya, pano yamupondokiile. (2 Petulo 2:4) Ndakai angeli aipe yatange yasanguke
+  antunze, lelo yacili \u2018yakasomba antu amu nsi.\u2019 (Umbwilo 12:9; 1 Yoane
+  5:19) Lekini tusambilile pali vino angeli yaayo yakacita pa kusomba, nanti ukuponzya
+  antu aingi.\u2014Welengini 2 Kolinto 2:11.\\nVINO IVIWA VIKAPONZYA ANTU\\n10. Uzye
+  iviwa vikacita uli pa kuponzya antu?\\n10 Iviwa vikaomvya inzila izingi pa kuponzya
+  antu. Antu yamwi yakauvwana ni viwa aeneco nanti kupitila mu yantu yauze nanti muli
+  ya sing\u2019anga. Ukuvwana ni viwa kuli kupepa iviwa, nanti kutaila imipasi. Baibo
+  ikati tufwile ukusenka uku vintu vyonsi ivya mipasi. (Galatiya 5:19-21) U mulandu
+  ci? Wakwe vivikwene vino kalunga wa nyama akaomvya iciteyo pa kulema inyama, iviwa
+  navyo vikaomvya usomvi pakuti viponzye antu nu kulayatungulula.\u2014Lolini Vyeo
+  Vya ku Mpela pa namba 26.\\n11. Uzye ukusaapoola kuli kutuuli, nupya i cani cino
+  tutalinzile ukusaapoolela?\\n11 Inzila yonga ino iviwa vikaomvya pa kuponzya antu
+  u kusaapoola. Ukusaapoola kulikuti ukulwisya ukumanya ivilacitika uku nkoleelo nanti
+  vimwi ivya nkaama. Inzila zimwi zino umuntu angacitilamo ivyakusaapoola, u kupima
+  intanda, kuya kuli ya sing\u2019anga, kupima imisilwa iyaya umu minwe, nanti ukutaila
+  iviloto. Antu yamwi yakaelenganya ukuti ukuomvya inzila zii kwaya sile ningo, lelo
+  kutaya ningo. Kucita vivyo kungamuletela uzanzo wipisye. Baibo yene ikatuneena ukuti
+  iviwa vikaombela pamwi na ya kasaapoola. Pa Milimo 16:16-18 pakatuneena pa \u201cmupasi
+  wa nkota\u201d uno walenzile ukuti umukazyana umwi \u201caasema\u201d nanti ukusowela.
+  Lino umutumwa Paulo wazinzile iciwa cico, amaka yano umukazyana wiyo wakweti akusowela
+  yasizile.\\n12. U mulandu ci uno ukwezya ukuvwanga na antu afwe kwaela uuzanzo?
+  (b) U mulandu ci uno aomvi yakwe Leza yasicitilako intambi umwaya ukucindika imipasi?\\n12
+  Iviwa vikaomvya inzila nayuze pa kuponzya antu. Vikalonda tuzumile ukuti tungalanda
+  na afwe, nu kuti antu afwe yaaya nu umi ku cifulo cuze, napya yangalanda naswe nanti
+  kutucuzya. Umuntu uwatafwilwa cuza nanti lupwa, limwi angaya kuli wino akauvwana
+  ni mipasi, wino angaya akamunene ukuti angalanda nu muntu umufwe. Aakauvwana ni
+  mipasi angalanda vimwi pa muntu wino wafwa nanti sile ukwezya ukweleuzya izwi lya
+  muntu mufwe. (1 Samueli 28:3-19) Umu vililo ivingi ivikacitika, mwaya intambi zya
+  kuti umuntu umufwe akatwalilila ukuya nu umi ku cifulo cuze. Ntambi zimwi, u kuzevya
+  imfwa, ukwiusya umuntu uwafwa, kupeela impolelwa kuli wino wafwa, kusangulula mukamfwilwa,
+  alino ni ntambi zyuze. Ngi cakuti Aina Klistu yatacisileko intambi zii, ya lupwa
+  yao nanti antu yauze yangaayasoweka, kuyapontela, nanti kuyalola ukuti aasilesile.
+  Lelo Aina Klistu ya cumi yaamanya ukuti umufwe asitwalilila ukuya nu umi ku cifulo
+  cuze. Tutange tulande na afwe, napya yatange yatucuzye. (Masamu 115:17) Fwandi mwacenjela
+  sana. Kusi kwezya ukuvwana ni mipasi nanti ukucitako intambi umwaya ukupepa imipasi.\u2014Welengini
+  Malango 18:10, 11; Ezaya 8:19.\\n13. I cani cino antu aingi aatiinanga iviwa yaacita?\\n13
+  Iviwa visipeleela sile apa kusomba antu, vyene vikayatiinya nu kuyatiinya. Ndakai
+  Satana na angeli yakwe aipe yaamanya ukuti \u201cyaasyala sile na kasita akanono\u201d
+  ale yayasisyapo, fwandi iyacilapo ukuya ankalwe nupya akalipisye ukucila vino yaali
+  mpiti. (Umbwilo 12:12, 17) Lelo, antu aingi wakwe cimwi aatiinanga iviwa mpiti,
+  ndakai yasivitiina. Uzye yacisile uli pa kuti yaleke ukuvitiina?\\nTALUKINI IVIWA,
+  NUPYA LEKINI UKUVWANA NAVYO\\n14. Tungakolanya tutuuli Aina Klistu aali umu Efeso
+  ndi tukulonda ukuleka ukuvwana ni mipasi iipe?\\n14 Baibo ikatusambilizya vino tungacita
+  pa kukana imipasi iipe, na pa kuleka ukuvwana nayo. Mu musumba wa Efeso, mwali yamwi
+  yano yuvwananga ni viwa lino yatatala yaaya Aina Klistu. Uzye yacisile uli pa kuleka
+  ukuvwana ni viwa? Baibo ikati: \u2018Aingi muli yano acitanga malele yaaleesile
+  impapulo zyao apali pamwi yazyoca pa manso ya antu.\u2019 (Milimo 19:19) Pa mulandu
+  wakuti yalondanga ukuya Aina Klistu, i calenzile kuti yonone mabuku umwali vya mipasi.
+  Avino na ndakai kwene cikalondekwa ukucita. Wensi aakalonda ukuombela Yeova, alinzile
+  ukusumba vyonsi ivikaomviwa ku vya mipasi. Kulikuti mabuku, yamagazini, mafilimu,
+  inyimbo, na vyuze ivikakomelezya ukutaila imipasi. Alino na vino antu yakazwala
+  kuti yaicingilile uku viwa.\u20141 Kolinto 10:21\\n15. I vyani vyuze vino tulinzile
+  ukucita pa kukaanya Satana ni viwa?\\n15 Lino paapisile imyaka iingi kufuma pano
+  Aina Klistu amu Efeso yociile mabuku ya vya maleele, umutumwa Paulo walemvile ati,
+  yatwalilile \u2018ukulwisyanya\u2019 ni \u201cmipasi yankota iya mulwelele.\u201d
+  (Efeso 6:12) Nanti cakuti yosile mabuku, viwa vitaalesile ukwezya ukuyonona. Uzye
+  lyene, i vyani vyuze vino aina Klistu yalondekwanga ukucita? Paulo wayaneenyile
+  ati, \u201cLekini utailo winu uye wa cisyangu, mwakusiika mivwi ya moto kufuma ku
+  Mwipe wilya [Satana].\u201d (Efeso 6:16) Wakwe vino cisyangu cikacingilila umusilika
+  umu nkondo, utailo witu nao ukatucingilila. Ndi cakuti twataila Yeova nu umi witu
+  onsi, tulaya na maka ya kukana Satana ni viwa.\u2014Mateo 17:20.\\n16. Uzye tungacita
+  uli pakuti utailo witu muli Yeova ukomeleko?\\n16 I vyani vino tulinzile ukucita
+  pakuti utailo witu muli Yeova ukome? Tulinzile ukulawelenga Baibo lyonsi nu kutaila
+  Yeova ukuti amatucingililanga. Ndi cakuti tuli sana nu utailo kuli Yeova, alino
+  Satana ni viwa yalafilwa ukutonona.\u20141 Yoane 5:5.\\n17. I cani cuze icingatwazwa
+  pakuti tuicingilile uku viwa?\\n17 I vyani vyuze vino Aina Klistu amu Efeso yalondekwanga
+  ukucita? Iikalanga umu musumba umwali sana ukupepa iviwa. Acino Paulo wayaneniile
+  ati: \u201cMwacita vii vyonsi mu mapepo.\u201d (Efeso 6:18) Yalondekwanga ukulaleenga
+  kuli Yeova kuti aayacingilila. Nga swemo tulinzile ukucita uli? Naswe kwene twaya
+  umu nsi umwazula ukupepa iviwa. Fwandi tufwile ukupepa sana kuli Yeova pakuti aatucingilila,
+  napya tulinzile ukulalumbula izina lyakwe Yeova lino tukupepa. (Welengini Mapinda
+  18:10.) Ngi cakuti twatwalilila ukuleenga kuli Yeova kuti atutuule kuli Satana,
+  alaasuka ipepo litu.\u2014Masamu 145:19; Mateo 6:13.\\n18, 19. (a) Tungacita uli
+  pakuti tucimvye Satana ni viwa? (b) Iiuzyo ci ililasukwa umu cipande cilondelilepo?\\n18
+  Ndi cakuti twasumba vyonsi vikaomviwa uku kupepa imipasi, nu kutaila ukuti Yeova
+  amatucingililanga, tungaya na maka ya kukaanya Satana ni viwa. Tutafwile ukuvitiina
+  foo. (Welengini Yakobo 4:7, 8.) Yeova wakwatisya sana amaka ukucila iviwa. Umu manda
+  yakwe Nowa wavifulwile, nupya uku nkolelo alavyonona. (Yuda 6) Nakapya, mwaiusya
+  ukuti tutaya swenga umu ulwi uu. Yeova akaomvya angeli yakwe uku kutucingilila.
+  (2 Yamwene 6:15-17) Tungataila ukuti nga Yeova watwavwa tungacimvya umu ulwi uu
+  wakulwisya Satana ni viwa.\u20141 Petulo 5:6, 7; 2 Petulo 2:9.\\n19 Nomba ngi cakuti
+  Satana ni viwa yakalenga kuti kuye macuzi, u mulandu ci uno Leza atayononela? Icasuko
+  ukwi uzyo lilyo tulacizana umu cipande cilondelilepo.\"", "\"\u201cMutu yo u bonahala
+  hahulu inge Muzwale Russell ku fita mane ni mwa bonahalela Muzwale Russell luli!\u201d\u2014Kona
+  mwa naa bulelezi muuna yo mu\u00f1wi ya naa buhile filimu ye bizwa \u201cPhoto-Drama
+  of Creation\u201d ka silimo sa 1914.\\nFILIMU ya \u201cPhoto-Drama of Creation,\u201d
+  i kwanisa lilimo ze 100 mwa silimo se, filimu yeo ya maswaniso a cinca-cinca i lukisizwe
+  hande ili ku tusa batu ku lumela kuli Bibele ki Linzwi la Mulimu. Ku si na taba
+  kuli ka nako yeo ne ku na ni batu ba ba\u00f1ata ba ne ba lumela kuli lika ne li
+  tile ka ku ipilaula, hape ne ku na ni twaniso ye tuna, mi tumelo ya batu ba ba\u00f1ata
+  ne i fokozi bake\u00f1isa ku honona litaba za niti, filimu yeo ne i ko\u00f1omekile
+  kuli Jehova ki Mubupi.\\nMuzwale Charles T. Russell, ya naa etelela mwa musebezi
+  o ne ba eza Baituti ba Bibele, naa zwezipili ku bata nzila ye nde ya ku taluseza
+  ka yona batu ba ba\u00f1ata niti ya mwa Bibele ka bubebe. Baituti ba Bibele ne se
+  ba itusisize lihatiso za Bibele ka lilimo ze fitelela 30 kwa ku taluseza ba ba\u00f1wi
+  niti. Kono cwale ne se ba fumani mukwa o munca wa ku itusisa kwa ku taluseza ba
+  ba\u00f1wi niti, ne li mukwa wa ku itusisa maswaniso a cinca-cinca.\\nKU SHAELA
+  EVANGELI KA KU ITUSISA MASWANISO A CINCA-CINCA\\nMwa lilimo za ma 1890, batu ne
+  ba kalile ku buhiswanga maswaniso a cinca-cinca. Silimo sa 1903 ha si to esha feela,
+  ne ku buhisizwe filimu ya bulapeli mwa keleke ye \u00f1wi ya mwa tolopo ya New York.
+  Mafilimu a maswaniso a cinca-cinca kona ha naa sa zo taha-taha ka nako ya naa kalisize
+  ku lukisa muzwale Russell kuli ku zwiswe filimu ya \u201cPhoto-Drama\u201d ili ka
+  silimo sa 1912. Muzwale Russell naa lemuhile kuli ku itusisa maswaniso a cinca-cinca
+  ne ku ka tusa kuli batu ba ba\u00f1ata ba utwe litaba za niti za mwa Bibele ku fita
+  ha ne ku ka itusiswa feela lihatiso.\\nFilimu ya \u201cPhoto-Drama\u201d ye ne tandanga
+  lihola ze 8 ili ye ne buhiswanga mwa likalulo zee ne, ne i bonisanga lingambolo
+  ze kuswani ze 96 ze ne filwe kwamulaho ki mubuleli ya naa zibahala hande ili ya
+  naa na ni linzwi le ne ba ziba hande batu ba ne ba pila ka nako yeo. Ne ku lilanga
+  lipina ze nde mwa likalulo ze \u00f1ata za filimu yeo. Mizwale ba ba na ni buikoneli
+  ne ba bapalanga matapa fo ku na ni manzwi ni lipina ili ku swalisanisa mulumo ni
+  maswaniso a cinca-cinca a makande a zibahala hahulu mwa Bibele.\\n\u201cMwa filimu
+  ye, ku fumaneha maswaniso a pupo ya linaleli ku yo fita kwa mafelelezo a Puso ya
+  Kreste ya Lilimo ze 1,000.\u201d\u2014Bo F. Stuart Barnes, ba ne ba na ni lilimo
+  ze 14 mwa 1914\\nBu\u00f1ata bwa likalulo za filimu ya \u201cPhoto-Drama\u201d ni
+  maswaniso a ma\u00f1ata naa lekiwanga kwa mandu a moya a lipisinisi. Batu ba ba\u00f1wi
+  ba ne ba na ni buikoneli bwa ku penta ba ne ba zwa kwa Philadelphia, kwa New York,
+  kwa Paris, ni kwa London ne ba pentile mangilasi a naa itusiswa mwa filimu yeo ni
+  likalulo ze \u00f1wi za mwa filimu yeo. Likwata za mizwale ba ba sebeleza fa Betele
+  ili ba ba mwa liluko la ku basa-basa ni bona ne ba petile ze tuna mwa musebezi wa
+  ku penta, mi ha\u00f1ata ne ba yolisanga likalulo za mwa filimu yeo ze ne sinyehanga.
+  Kwandaa mafilimu a naa lekiwanga, mizwale ni likaizeli ba fa Betele ne ba beiwanga
+  mwa mafilimu ao ili kwa sibaka se si bizwa Yonkers, mwa New York, mi ne ba bapalanga
+  fa likalulo za Abrahama, Isaka, ni lingeloi lani le ne li tilo hanisa Abrahama kuli
+  a si ke a fa mwanaa hae sina sitabelo.\u2014Gen. 22:9-12.\\nMuzwale yo mu\u00f1wi
+  ya naa swalisana ni Muzwale Russell naa bulelezi babihi ba makande kuli, \u201cnzila
+  ye ne ba itusisa ka yona kwa ku kutaza ne i tusa batu ba ba\u00f1ata ku ziba Ma\u00f1olo,
+  ku fita nto ifi kamba ifi ye ne itusiswa kwa ku zwisezapili bulapeli.\u201d Kana
+  baeteleli ba bulapeli bo bu shutana-shutana ne ba ka itebuha kwa buikatazo bo ne
+  bu ezizwe bo bwa ku tusa batu ba ba\u00f1ata ku ituta za Mulimu? Ku fita ku itebuha
+  buikatazo bo, baeteleli kaufela ba bulapeli bo bu ipapata kuli ki bwa Sikreste ne
+  ba nyazize filimu ya \u201cPhoto-Drama,\u201d mane ba ba\u00f1wi ne ba itusisize
+  linzila ze maswe ku tibela batu kuli ba si ke ba buha filimu yeo. Kwa sibaka se
+  si\u00f1wi ko ne ku buhisezwa filimu yeo, baeteleli ba ba\u00f1wi ba bulapeli ne
+  ba timile malaiti kuli filimu yeo i si ke ya buhiswa.\\nNihakulicwalo, batu ba ba\u00f1ata
+  ne ba talanga mwa libaka mo ne ku buhisezwanga filimu yeo kuli ba buhe filimu ya
+  \u201cPhoto-Drama,\u201d ba sa lifi se si\u00f1wi. Kwa United States, filimu yeo
+  ne i buhiswanga mwa litolopo ze bato ba ze 80 zazi ni zazi. Babuhi ba ba\u00f1ata
+  ba ne ba tabile hahulu ne ba ipuhezi filimu ye nca yeo ye ne ambolwa kai ni kai.
+  Bake\u00f1isa maswaniso a cinca-cinca, batu ne ba buhile filimu yeo ku zwa kwa makalelo
+  ku yo fita mane kwa mafelelezo a yona. Litaba za sayansi ze ne li te\u00f1i ka nako
+  yeo ne li bonisize butali bo bu komokisa bwa na ni bona Jehova. Sina mo ku taluselizwe
+  kwa makalelo, mubuhi yo mu\u00f1wi naa nahanile kuli mutu ya naa zibahaza filimu
+  yeo ili ya naa li mwa filimu yeo, naa bonahala \u201chahulu inge Muzwale Russell
+  ku fita mane ni mwa bonahalela Muzwale Russell luli!\u201d\\nZWELOPILI YE TUNA MWA
+  MUSEBEZI WA KU LUTA BATU BIBELE\\nBo Tim Dirks, baonga-ongi ba filimu ya \u201cPhoto-Drama,\u201d
+  ne ba talusize filimu yeo ku ba ye \u201ctuna hahulu ili mo ne ku fumaneha milumo
+  ye zamaelela ni maswaniso a cinca-cinca a mibala ye shutana-shutana.\u201d Mwa mafilimu
+  a naa li te\u00f1i kwamulaho pili filimu ya \u201cPhoto-Drama\u201d i si ka ba kale
+  te\u00f1i, ne ku itusiswanga miezezo yeo, kono ne ku sa itusiswangi miezezo yeo
+  kaufela mwa kalulo i li\u00f1wi ya filimu, sihulu haiba kalulo yeo ne i na ni toho
+  ya taba ya mwa Bibele. Ha ku na filimu ye ne i buhilwe ki batu ba ba\u00f1ata hahulu
+  inge filimu ya \u201cPhoto-Drama.\u201d Filimu yeo ne i buhilwe ki batu ba ba bato
+  eza 9 milioni ba kwa North America, Europe, Australia, ni ba kwa New Zealand mwa
+  silimo feela sa pili fo ne i kalezi ku buhiswa!\\nFilimu ya \u201cPhoto-Drama\u201d
+  ne i buhisizwe lwa pili la 11 January, 1914 mwa tolopo ya New York. Hamulaho wa
+  likweli ze 7, kwa taha kozi ye tuna ye ne tilo bizwa hasamulaho kuli Ndwa ya Lifasi
+  ya Pili. Nihakulicwalo, batu ba ba\u00f1ata mwa lifasi kaufela ba zwelapili ku kubukana
+  ni ku buha filimu ya \u201cPhoto-Drama\u201d ili kuli ba omba-ombiwe ki likalulo
+  ze mwa filimu yeo ze bonisa limbuyoti ze tuha li taha za Mubuso wa Mulimu. Filimu
+  ya \u201cPhoto-Drama\u201d ne i tile luli ka nako ye swanela ka silimo sa 1914.\"",
+  "\"Ukufuma mu June ukufika mu November mu 2018, abalashi ba buteko bwa calo ca Turkmenistan
+  balikakile ba Nte 9 abakeene ukwingila ubushilika pa mulandu wa kampingu yabo. Ba
+  Ihlosbek Rozmetov, ba Veniamin Genjiyev, ba Maksat Jumadurdiyev, ba Isa Sayayev,
+  ba Ruslan Artykmuradov, ba Sokhbet Agamyradov, ba Serdar Atayev, na ba Gurbangylych
+  Muhammetgulyyev babapingwilile ukukakwa pa mwaka umo, e lyo ba Mekan Annayev bena
+  babapingwilile ukukakwa imyaka ibili.\\nAba ba Nte 9 abacaice e bo bakakile nomba
+  line mu Turkmenistan pa mulandu wa kukaana ukwingila ubushilika. Na kabili mu January
+  mu 2018, ubuteko bwasanguke ba Arslan Begenjov na ba Kerven Kakabayev umulandu wa
+  kukaana ukwingila ubushilika kabili babapingwilile ukukakwa mu cifungo pa mwaka
+  umo. * Ukufuma mu February mu 2015, ba Arslan Begenjov na ba Kerven Kakabayev e
+  ba Nte abaume abo babalilepo ukukakwa pa mulandu wa kukakana ukwingila ubushilika
+  mu Turkmenistan. Aba ba Nte babili e lyo na bambi 8 pali balya 9 abo bakakile nomba
+  line, bababika mu cifungo beta ukuti Seydi prison (LBK-12). Muli ici cifungo e mo
+  bakaka na ba Bahram Hemdemov kabili emo baba pa myaka ukucila pali itatu.\\nBa Bahram
+  Hemdemov Balibafyengele no Kubakaka\\nPa 14 March mu 2015, bakapokola mu Turkmenabad
+  balingilile ba Nte abalelongana mu mutende mu ng\u2019anda ya ba Bahram Hemdemov.
+  Ba Nte 38 balibekete kabili babapeele umulandu wa kupepa ukwabula insambu. Ba Nte
+  30 balibalipilishe indalama, e lyo abali 8 balibakakile inshiku 15, kabili bonse
+  aba balibacushishe sana. Mu kuya kwa nshita, icilye ca Lebap Regional Court capingwile
+  ukuti ba Bahram Hemdemov babakake imyaka 4. Apo ifintu fyalibipile sana mu cifungo,
+  ba Bahram Hemdemov balitendeke ukulwala. Ukufika na nomba tababafumya mu cifungo,
+  kabili tabababika pa bafungwa abo ubuteko bubelela uluse.\\nBa Nte Tabalabapeela
+  Insambu sha Kupepa ne sha Kukaana Ukucitako Ifyapusana ne fyo Basuminamo\\nMu 2015
+  na mu 2016, akabungwe ka United Nations Human Rights Committee (CCPR) kalipingwile
+  bwino imilandu 10 isho ba Nte abaume batwele kuli aka kabungwe pantu balibakakile
+  no kubacusha pa kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo. Pali
+  ino nshita kwashala imilandu 7 isho akabungwe ka CCPR takalapingula isho ba Nte
+  batwala kuli aka kabungwe pa mulandu wa kuti ubuteko bwa calo ca Turkmenistan bwalibekala
+  pa nsambu shabo isha kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nMuli
+  lipoti ya mu April mu 2012, akabungwe ka CCPR kaebele ubuteko bwa calo ca Turkmenistan
+  ukutila \u201camafunde ya ici calo ayalanda pa kulembesha utubungwe twa mapepo yafwile
+  ukucindika insambu abantu bakwata isha kupepa ne sha kukaana ukucita ifyapusana
+  ne fyo basuminamo, nga fintu ulupapulo lwa [International Covenant on Civil and
+  Political Rights] lulanda.\u201d Mu 2008, ba Nte balitwele ifipepala fya kulembeseshapo
+  icilonganino ku buteko, lelo ubuteko tabwabebapo nangu cimo.\\nBushe Icalo ca Turkmenistan
+  Cikaleka Ukucusha ba Nte?\\nInte sha kwa Yehova balitemwa sana pa fyo ubuteko bwa
+  calo ca Turkmenistan bwafumishe ba Nte mu cifungo mu 2014 pa mulandu wa kuti balibafyengele.
+  * Nangu ca kuti ifyalo fimbi fyalyebele icalo ca Turkmenistan ukulacindika insambu
+  abantu bakwata isha kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo, ubuteko
+  bwa Turkmenistan tabwacindike ishi nsambu ilyo bwapeele ba Nte imilandu nomba line.
+  Ba Nte baleenekela ukuti ubuteko bwa calo ca Turkmenistan bukatendeka ukukonka ifyo
+  akabungwe ka CCPR kapingwile. Aka kabungwe kalandile ukuti icalo ca Turkmenistan
+  cilingile ukucindika insambu shonse isho abantu bakwata, maka maka insambu sha kukaana
+  ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nIfyalecitika Ukufuma mu 2008\\nPa
+  12 December mu 2018\\nBa Nte 12 babakaka.\\nPa 28 November mu 2018\\nBa Gurbangylych
+  Muhammetgulyyev babapeela umulandu no kubakaka pa mwaka umo pa kukaana ukwingila
+  ubushilika pa mulandu wa fyo basuminamo.\\nMu September mu 2018\\nApo kateka wa
+  calo ca Turkmenistan ali no kufumya abafungwa bamo mu cifungo pa 24 September, abalashi
+  ba cifungo baeba ba Kerven Kakabayev, ba Mekan Annayev, na ba Veniamin Genjiyev
+  ukutila nabo bene balababelela uluse no kubafumya mu cifungo. Nangu ca kuti amashina
+  ya aba ba Nte yali pa bafungwa kateka ali no kufumya mu cifungo, tababafumishe mu
+  cifungo ilyo abafungwa 1,722 babafumishe pa 25 September.\\nPa 28 August mu 2018\\nBa
+  Serdar Atayev babapeela umulandu no kubakaka pa mwaka umo pa kukaana ukwingila ubushilika
+  pa mulandu wa fyo basuminamo.\\nPa 27 August mu 2018\\nBa Sokhbet Agamyradov babapeela
+  umulandu no kubakaka pa mwaka umo pa kukaana ukwingila ubushilika pa mulandu wa
+  fyo basuminamo.\\nPa 13 August mu 2018\\nBa Ruslan Artykmuradov babapeela umulandu
+  no kubakaka pa mwaka umo pa kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nPa
+  9 August mu 2018\\nBa Isa Sayayev babapeela umulandu no kubakaka pa mwaka umo pa
+  kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nPa 17 July mu 2018\\nBa
+  Veniamin Genjiyev na ba Maksat Jumadurdiyev babapeela umulandu no kubakaka pa mwaka
+  umo pa kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nPa 11 July mu
+  2018\\nBa Ihlosbek Rozmetov babapeela umulandu no kubakaka pa mwaka umo pa kukaana
+  ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nPa 26 June mu 2018\\nBa Mekan
+  Annayev babapeela umulandu no kubakaka pa myaka ibili pa kukaana ukwingila ubushilika
+  pa mulandu wa fyo basuminamo.\\nPa 29 January mu 2018\\nBa Kerven Kakabayev babapeela
+  umulandu no kubakaka pa mwaka umo pa kukaana ukwingila ubushilika pa mulandu wa
+  fyo basuminamo.\\nPa 17 January mu 2018\\nBa Arslan Begenjov babapeela umulandu
+  no kubakaka pa mwaka umo pa kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nPa
+  12 May mu 2017\\nUbuteko bwa calo ca Turkmenistan bwafumya ba Mansur Masharipov
+  abo baikete pa 30 June mu 2016.\\nPa 18 August mu 2016\\nBa Mansur Masharipov babapeela
+  umulandu apabula ifishinka kabili babakaka umwaka umo.\\nMu July mu 2016\\nAkabungwe
+  ka CCPR kalanda ifyo kapingwile imilandu 6 umwali ba Nte abo bapeele imilandu pa
+  kukanaingila ubushilika pa mulandu wa fyo basuminamo.\\nPa 14 December mu 2015\\nAkabungwe
+  ka CCPR kalanda ifyo kapingwile imilandu itatu umwali ba Nte abo bapeele imilandu
+  pa kukanaingila ubushilika pa mulandu wa fyo basuminamo. Balipingwile bwino umulandu
+  na umbi pa 19 May mu 2015.\\nPa 19 May mu 2015\\nBa Bahram Hemdemov babekata pa
+  mulandu wa fya mapepo kabili babakaka imyaka 4. Ilyo bashilababika mu cifungo, balibekete
+  pa myeshi ibili ukwabula ukubalubulwisha.\\nMu February na mu March mu 2015\\nBa
+  Nte babili abo bakakile pa mulandu wa kukaana ukwingila ubushilika babafumya mu
+  cifungo. Akabungwe ka CCPR kalanda ifyo kapingwile bwino umulandu uo Nte umo bamupeele
+  pa kukaana ukwingila ubushilika pa mulandu wa fyo asuminamo.\\nPa 18 November mu
+  2014\\nBa Nte babili babakaka pa kukaana ukwingila ubushilika pa mulandu wa fyo
+  basuminamo.\\nPa 22 October mu 2014\\nKateka wa calo ca Turkmenistan abelela ba
+  Nte 8 uluse kabili abafumya mu cifungo.\\nPa 30 September mu 2014\\nBa Nte 7 babakaka
+  pa kukanaingila ubushilika pa mulandu wa fyo basuminamo, e lyo ba Nte bambi babili
+  babakaka pa milandu iyabula ifishinka iyo babapeele pa mulandu wa fya mapepo.\\nPa
+  2 September mu 2014\\nUbuteko bwa calo ca Turkmenistan bwafumya ba Bibi Rahmanova
+  abo bapingwile ukubika mu cifungo pa myaka 4 kabili babakakila ku nse.\\nPa 18 August
+  mu 2014\\nBa Bibi Rahmanova babapeela imilandu yabula ifishinka kabili bapingula
+  ukubakaka imyaka 4.\\nPa 25 July mu 2014\\nBa Nte 5 babakaka mu cifungo pa kukanaingila
+  ubushilika pa mulandu wa fyo basuminamo, e lyo bambi babili pa milandu yabula ifishinka
+  iyo babapeele pa mulandu wa fya mapepo.\\nPa 6 April mu 2014\\nBa Nte 26 babekata,
+  13 pali aba tapali icili conse ico bacitile icingalenga babekate. Aba ba Nte 13
+  babebele ukulipila indalama pa kuti babalekeleko.\\nMu November mu 2013\\nBa Nte
+  8 batwalilila ukuba mu cifungo pa kukanaingila ubushilika pa mulandu wa fyo basuminamo,
+  e lyo Nte umo atwalilila ukuba mu cifungo pa milandu yabula ifishinka iyo bamupeele
+  pa mulandu ne fya mapepo.\\nPa 29 August mu 2013\\nBa Nte batatu batwala imilandu
+  ku kabungwe ka CCPR pa mulandu wa kuti ubuteko bwa calo ca Turkmenistan tabucindike
+  insambu shabo isha kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nPa
+  1 May mu 2013\\nBa Nte babili batwala imilandu ku kabungwe ka CCPR pa mulandu wa
+  kuti ubuteko bwa calo ca Turkmenistan tabucindike insambu shabo isha kukaana ukwingila
+  ubushilika pa mulandu wa fyo basuminamo.\\nPa 24 January mu 2013\\nBakapokola 30
+  baingilila ba Navruz Nasyrlayev mu ng\u2019anda no kubasansa ninshi papitile fye
+  imilungu iinono ukufuma apo ubuteko bwa calo ca Turkmenistan bwaishibile ukuti ba
+  Nte nabatwala imilandu ku kabungwe ka CCPR. Aba bakapokola bapuma ulupwa lwa ba
+  Navruz Nasyrlayev e lyo na beni abaishile mu kubatandalila.\\nPa 7 September mu
+  2012\\nBa Nte 10 batwala imilandu ku kabungwe ka CCPR pa mulandu wa kuti ubuteko
+  bwa calo ca Turkmenistan tabucindike insambu shabo isha kukaana ukwingila ubushilika
+  pa mulandu wa fyo basuminamo. Ba Navruz Nasyrlayev e bali pa ntanshi mu kutwala
+  imilandu ku kabungwe ka CCPR.\\nPa 21 August mu 2008\\nInte sha kwa Yehova baya
+  mu kulembesha icilonganino cabo ku buteko bwa calo ca Turkmenistan.\\n^ para. 3
+  Inte sha kwa Yehova abakaana ukwingila ubushilika pa mulandu wa fyo basuminamo balabapeela
+  imilandu ukubomfya ifyaba mu cipandwa 219(1) ica mu lupapulo lwa Criminal Code icitila:
+  \u201cUmuntu nga akaana ukwingila ubushilika ukwabula imilandu iyo amafunde yalandapo
+  ukuti e yo engakaanina ubushilika, bafwile ukumupeela imilimo iyakosa iyo afwile
+  ukubomba ukufika ku myaka ibili pa kuti bamukande, nelyo kuti bamukaka ukufika ku
+  myaka ibili.\u201d\"", "\"Ba Cassius Zulu, abali ne myaka yakufyalwa amakumi yasano
+  na itatu (53), elyo kabili ba shimapepo ba ku Bible Gospel Church (Bigoca) mu Afrika,
+  balilaswa kale inshindano ya COVID-19 no kukonkomesha ubucindami bwaba mu kulanshanya
+  ne cintubwingi pa lwa bumi.\\n\u201cIcicetekelo ceka-ceka fye tacakumanina,\u201c
+  efyasosele ba Zulu. \u201cIne pamo nga shimapepo, caliba icikankala ukuba icilangililo
+  kuli abo ntungulula. Ukucita ico, ekulanga ukwikatana kwinekwine no kupeela isubilo
+  ku bantu.\u201d\\nAbabomfi balolekesha pa bumi mu calo ca Zambia balyampana na kabungwe
+  ka U.S. Centers for Disease Control and Prevention (CDC) aka ku calo ca America
+  mu mulimo wa kucingilila abantu ku bulwele bwa COVID-19, ukukonkomesha abantu ukulaswa
+  inshindano ya kuicingilila elyo no kusabankanya ifishinka pali ubu bulwele. Ba Zulu
+  nabo bene balisendamo ulubali mu kubomba uyu mulimo.\\nBa solwesolwe ba ng\u2019anda
+  ya mafunde ba Nelly Mutti baalilaswa inshindano yalenga bubili mu mweshi wa Lusuba
+  lun\u00f4no. Kabili, baalilomba nabekala calo ba mu Zambia ukulaswa iyi nshindano
+  ya COVID-19. \u201cNalilaswa inshindano pakuti ningaicingilila nemwine kabili nokucingilila
+  abantu nsangwa nabo cilabushiku,\u201d efyasosele ba Nelly Mutti.\\nBa Mutti baatile
+  tabaasangilemo ubwafya ubukalamba nangu bumo. Batile, \u201cInshindano tesheni nakalya
+  iyoo; shikaaya. Twalelaswa inshindano ukufuma na ku bwaice bwesu. Nga fintu ababomfi
+  ba bumi bakonkomesha lyonse, \u201cUkuichingilila kwaliwamapo ukucila ukundapwa.\u201d\\nAkabungwe
+  ka bumi aka CDC mu Zambia katila, abena Zambia ukucila umuntapendwa umo ne myanda
+  ibili (1.2 million) balilaswa kale nshindano yakubalilapopa mu mweshi wa Cinshikubili.
+  Abalolekesha pa bumi mu Zambia belafwaya abantu impendwa ukucila imintapendwa cine
+  konse-konse bacingiliwe ku bulwele bwa COVID-19. Iyi mpendwa, ni mupepi na citika
+  wa mpendwa ya bekala calo bonse mu Zambia.\\nBa Mutanuka Simbuwa, abali ne myaka
+  ya kufyalwa amakumi yasano na mutanda (56), kabili ababomfi ba mu musumba wa Lusaka,
+  batile inshindano ilakansha imibili ya bantu no kubacingilila ku kashishi kalenga
+  ubu ubulwele bwa COVID-19.\\nBa Mutanuka batile, \u201cIlyo naimwenene nemwine impendwa
+  ya bena mupalamano abengi abalwele no kufwa ku bulwele bwa COVID-19, nalisalapo
+  ukuicingila ne mwine, elyo no kucingilila ulupwa lwandi.\u201d\\nBa James Simpungwe,
+  aba mukabungwe ka CDC akalolekesha pa bumi mu musumba wa Lusaka batiile, ba CDC
+  balabombela pamo na babomfi ba bumi mu kufunda nokukoselesha abantu ukulaswa inshindano
+  ya kuicingilila ku bulwele bwa COVID-19. Elyo kabili balatungulula na bantu, ukubalanga
+  ifishinka pali ubu bwine bulwele; ifishinka ifyo fyalembwa na ba (WHO) ne cipani
+  cilolekesha pa bumi mu Zambia elyo na ba CDC.\\nIfisambilisho fimo nifi:\\n- Mwipelela
+  pa kubelenga fye imitwe ye lyashi.\\n- Fwailisheni ilyashi nokubebeta uko lifumine.\\n-
+  Cenjeleni na ba kasabankanya belyashi lyafumuka.\\nUkulingana ne fyasosa ba Simpungwe,
+  ba CDC baalisambilisha ababomfi ba bumi ukucila pa myanda isano (500) mu fitungu
+  fine (4) mu Zambia.\\nElyo kabili ba CDC balyafwilisha nokulemba ifipampa no tutabo
+  utulondolola pa bulwele bwa COVID-19, ukulundapo no kufunda abo abatebelelwa na
+  kashishi ka HIV, pantu bena kuti balwalisha nga cakuti baingililwa na COVID-19.
+  Impendwa ya bantu ukucila amakana yatatu (30,000) aba kwata akashishi ka HIV balilaswa
+  inshindano ya COVID-19.\\nBa Barbara Hara Musonda, abakwete imyaka ya kufyalwa amakumi
+  yane na itatu (43), kabili abali nabana bane (4), balisalapo ukulaswa inshindano
+  ya kuicingilila kuli COVID-19 panuma yakulanguluka pa fyo balufya ba lupwa lwabo
+  kuli ubu bwine bulwele bwa COVID-19.\\n\u201cNaalilaswa inshindano pakuicingilila
+  ilyo naletensha abalume bandi abafwile ku bulwele bwa COVID-19 ku chipatala ca ku
+  Chipata,\u201d efyasosele ba Musonda. Kabili ba Musonda balakoselesha na abantu
+  bambi nabo bene ukulaswa.\\n\u201cIyi nshindano isuma; tayakwata busanso,\u201d
+  efyasosele ba Musonda. \u201cNangula nalyumfwile umubili ukukalipwa pa numa ya kulaswa,
+  nomba nalikwata umutende pantu nalinsambilishiwe ifyo ninga cimfya ubwafya panuma
+  ya kulaswa.\u201d\\nBa Mthoniswa Banda, ba kalemba be lyashi batile ababomfi banabo
+  balilwele COVID-19, ukufika fye na mukuisanga mu chipatala \u2013 ukukabila ukundapwa.
+  Cili kwati bayambwile ubulwele ilyo baletensha umubomfi munabo uyo nao uwayambwile
+  ubulwele uko alesefya no lupwa lwakwe.\\n\u201cInshindano yakuicingilila eyampuswishe
+  ukuti nilwala ubulwele bwa COVID-19,\u201d efyasosele ba Banda abakwete imyaka ya
+  kufyalwa amakumi yane na isano (45). Baatile, \u201cPali bonse abo momba nabo mu
+  ofeshi, nine fye neka neushalwele nokufika muchipatala.\u201d\"", "\"Kani ulukulanguluka
+  ati cikosele ukucite\u2019filungeme?\u2014 Abantu abengi efi balanguluka. Baibolo
+  ilatubuula ati cali icikosele makosa ku musankwa Josaya ukucite\u2019filungeme.
+  Pano alikwete ababyakwe abaweme abamofweleko. Nga tusambililepo na fimbi pali Josaya
+  na pa babyakwe.\\nBawishi Josaya baali ni ba Amoni, imfumu ya baJuda. Amoni ali
+  umubipile kabili alukupempela ifibumbwabumbwa. Ili bawishi Josaya bafwile, eli Josaya
+  abele imfumu ya baJuda. Pano aali lukoso ne myaka 8! Kani ulukulanguluka ati ali
+  umubipile koti ni bawishi?\u2014 Koku, ye aali umuweme.\\nNeli aali umwanice, Josaya
+  alukufwaisha ukubomfwila baYehova. Na muli fyefyo, alisalile lukoso ababyakwe abatemenwe
+  baYehova. Kabili kabamofwako ukulukucita ifilungeme. Kani ni bani bamo bamo abali
+  ababyakwe Josaya?\\nUmo umubyakwe ali ni Sefaniya. Sefaniya ali wakushimika uwacenjeshe
+  abantu ba mu Juda ati ifibipile fyali ne kubacitikila kani balukupempela ifibumbwabumbwa.
+  Josaya alikutikile ukucenjesha kwakwe Sefaniya kabili alukupempela baYehova benka
+  lukoso.\\nUmbi umubyakwe Josaya ali ni Jelemiya. Tabapusenepo sana imyaka kabili
+  balukwikala cabe apepi ne kukulila pamo. Balitemwanshenye ukwakuti ica kweba ati
+  ili Josaya afwile, Jelemiya kaalemba ulwimbo ululibelele ulwalelabila ifi camubipiile
+  pakuti pa mfwa yakwe Josaya. Jelemiya na Josaya balukofwana ukucite\u2019filungeme
+  ne kumfwila baYehova.\\nJosaya na Jelemiya balukofwana ukucite\u2019filungeme\\nFindo
+  ungasambililako ku cakwebanako cakwe Josaya?\u2014 Neli Josaya ali umwanice lukoso,
+  alukufwaya ukucite\u2019filungeme. Alishibile ukweba ati alyelelwe ukuba ne babyakwe
+  abatemenwe baYehova. Na webo ulyelelwe ukupanga ababyobe abatemenwe baYehova kabili
+  abangakofwako ukucite\u2019filungeme!\""]'
+src_ngrams: '{"1": [[["a"], 26721], [["yesu"], 23426], [["yehova"], 15351], [["lesa"],
+  14280], [["mba"], 14040]], "2": [[["mambo a"], 1218], [["nokuba boobo"], 1188],
+  [["mwami yahuwah"], 914], [["i bika"], 874], [["calo ca"], 651]], "3": [[["ca kwa
+  lesa"], 467], [["batumoni ba yehova"], 313], [["i vyani vino"], 306], [["cikombelo
+  ca katolika"], 287], [["mambo ka o"], 275]], "4": [[["bakamonyi ba kwa yehoba"],
+  442], [["inte sha kwa yehova"], 235], [["nte sha kwa yehova"], 224], [["ubufumu
+  bwa kwa lesa"], 213], [["amalembo ya calo cipya"], 188]], "5": [[["cikombelo ca
+  katolika caku loma"], 137], [["akubikka mucibaka cangawo mazina mataanzi"], 111],
+  [["mucibaka cangawo mazina mataanzi ngubaapedwe"], 108], [["twakagwisya mucibalo
+  citaanzi mazina aabakomba"], 98], [["mucibalo citaanzi mazina aabakomba mituni"],
+  98]]}'
