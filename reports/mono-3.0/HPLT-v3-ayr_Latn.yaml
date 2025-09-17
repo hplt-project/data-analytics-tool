@@ -1,0 +1,1205 @@
+corpus: hplt-v3-ayr_Latn
+srclang: ayr
+timestamp: 1758022110.1655405
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2020-05", 439], ["wide11", 433], ["wide12", 420], ["CC-MAIN-2020-29",
+  351], ["CC-MAIN-2024-46", 344], ["CC-MAIN-2024-33", 286], ["CC-MAIN-2014-15", 271],
+  ["wide5", 269], ["CC-MAIN-2017-26", 244], ["CC-MAIN-2020-10", 243], ["wide16", 219],
+  ["CC-MAIN-2017-04", 181], ["wide6", 175], ["CC-MAIN-2018-43", 167], ["CC-MAIN-2014-42",
+  136], ["CC-MAIN-2018-05", 131], ["CC-MAIN-2020-24", 127], ["CC-MAIN-2014-35", 126],
+  ["CC-MAIN-2022-21", 117], ["CC-MAIN-2022-05", 114], ["CC-MAIN-2021-43", 111], ["CC-MAIN-2018-34",
+  111], ["wide15", 108], ["CC-MAIN-2021-31", 108], ["CC-MAIN-2018-39", 98], ["CC-MAIN-2024-38",
+  87], ["CC-MAIN-2021-49", 83], ["CC-MAIN-2021-39", 79], ["CC-MAIN-2022-40", 78],
+  ["CC-MAIN-2015-48", 78], ["CC-MAIN-2023-40", 77], ["CC-MAIN-2017-51", 77], ["CC-MAIN-2024-10",
+  76], ["CC-MAIN-2023-23", 76], ["CC-MAIN-2024-42", 75], ["CC-MAIN-2018-22", 68],
+  ["CC-MAIN-2016-40", 67], ["CC-MAIN-2015-18", 67], ["CC-MAIN-2024-18", 66], ["CC-MAIN-2020-34",
+  66], ["CC-MAIN-2023-06", 64], ["CC-MAIN-2022-49", 64], ["CC-MAIN-2016-30", 64],
+  ["CC-MAIN-2015-11", 64], ["CC-MAIN-2024-22", 61], ["CC-MAIN-2020-40", 57], ["CC-MAIN-2020-16",
+  57], ["CC-MAIN-2024-26", 54], ["CC-MAIN-2022-27", 47], ["CC-MAIN-2021-04", 46],
+  ["CC-MAIN-2024-51", 44], ["CC-MAIN-2023-50", 42], ["CC-MAIN-2021-25", 39], ["CC-MAIN-2020-50",
+  38], ["CC-MAIN-2023-14", 37], ["CC-MAIN-2021-10", 36], ["CC-MAIN-2022-33", 34],
+  ["CC-MAIN-2016-44", 27], ["CC-MAIN-2024-30", 24], ["CC-MAIN-2019-04", 23], ["wide10",
+  18], ["CC-MAIN-2021-17", 17], ["CC-MAIN-2020-45", 16], ["CC-MAIN-2021-21", 13],
+  ["wide2", 9], ["wide17", 3], ["survey3", 2]]'
+docs_langs: '[[0.1, 5], [0.2, 14], [0.3, 55], [0.4, 152], [0.5, 394], [0.6, 236],
+  [0.7, 354], [0.8, 851], [0.9, 1120], [1.0, 4268]]'
+docs_segments: '[[1, 30], [2, 315], [3, 478], [4, 503], [5, 366], [6, 942], [7, 397],
+  [8, 475], [9, 311], [10, 307], [11, 192], [12, 227], [13, 235], [14, 153], [15,
+  138], [16, 111], [17, 125], [18, 141], [19, 131], [20, 171], [21, 144], [22, 166],
+  [23, 152], [24, 153], [25, 122], [26, 117], [27, 106], [28, 84], [29, 64], [30,
+  49], [31, 36], [32, 27], [33, 15], [34, 27], [35, 18], [36, 23], [37, 21], [38,
+  14], [39, 18], [40, 25], [41, 48], [42, 20], [43, 13], [44, 13], [45, 12], [46,
+  11], [47, 17], [48, 12], [49, 4], [50, 9], [51, 3], [52, 5], [53, 6], [54, 6], [55,
+  4], [56, 6], [57, 5], [58, 3], [59, 2], [60, 4], [61, 2], [62, 1], [63, 3], [64,
+  7], [65, 3], [66, 1], [67, 7], [68, 1], [70, 1], [71, 3], [72, 2], [73, 2], [75,
+  1], [76, 1], [77, 2], [78, 2], [79, 4], [80, 2], [81, 2], [83, 2], [85, 2], [87,
+  3], [88, 1], [89, 2], [91, 2], [92, 1], [93, 1], [94, 1], [95, 1], [97, 1], [102,
+  1], [103, 2], [104, 1], [107, 1], [108, 1], [112, 1], [113, 2], [114, 2], [115,
+  1], [122, 1], [123, 1], [126, 1], [128, 1], [131, 1], [132, 1], [136, 2], [137,
+  1], [140, 1], [141, 2], [144, 1], [148, 1], [149, 1], [158, 1], [161, 1], [162,
+  1], [169, 1], [170, 1], [174, 1], [178, 1], [194, 1], [219, 1], [225, 1], [240,
+  1], [318, 2], [363, 1], [437, 1], [449, 1], [534, 1], [617, 1], [689, 1], [800,
+  1], [1481, 1], [1505, 1], [2038, 4]]'
+docs_segments_mean: 16
+docs_segments_median: 9
+docs_top100_domains: '[["globalvoices.org", 2565], ["globalvoicesonline.org", 1723],
+  ["jw.org", 449], ["wikipedia.org", 360], ["phajsiwiphala.cl", 335], ["lyfta.app",
+  314], ["radiosangabriel.org.bo", 296], ["boliviatv.bo", 211], ["wol-children.net",
+  148], ["bibles.org", 146], ["lapublica.org.bo", 96], ["blogspot.com", 65], ["zhitov.ru",
+  58], ["hackernoon.com", 47], ["acuerdonacional.pe", 34], ["inmediaciones.org", 26],
+  ["divmagic.com", 19], ["realsuntime.com", 18], ["opexflow.com", 18], ["abyayala.tv.bo",
+  18], ["bible.is", 17], ["agenciapulsar.org", 17], ["argger.net", 16], ["elaltoesnoticia.com",
+  15], ["webnode.es", 13], ["castingminhe.com", 12], ["giveamenu.com", 11], ["ine.gob.bo",
+  10], ["wordpress.com", 9], ["jucelinoluz.news", 9], ["gotquestions.org", 9], ["domanovic.org",
+  8], ["blogspot.jp", 8], ["oratlas.com", 7], ["blogspot.kr", 7], ["blogspot.co.uk",
+  7], ["bcn.cl", 7], ["iecta.cl", 6], ["blogspot.fr", 6], ["blogspot.com.br", 6],
+  ["vietnamimmigration.org", 5], ["unfpa.org", 5], ["umsacontraelcancer.org", 5],
+  ["uchile.cl", 5], ["jungyulkim.com", 5], ["blogspot.it", 5], ["bible.com", 5], ["alertacontraelracismo.pe",
+  5], ["tikcd.com", 4], ["sejoygroup.com", 4], ["ppdperu.org", 4], ["plagiarism-detector.com",
+  4], ["ojo-publico.com", 4], ["mail-archive.com", 4], ["jaqi-aru.org", 4], ["iam-andes.org",
+  4], ["gonnle.com", 4], ["blogspot.nl", 4], ["aymara.org", 4], ["allinonelanguage.com",
+  4], ["umsa.bo", 3], ["triphun.com", 3], ["nysaaesports.com", 3], ["mishenin-art-studio.com",
+  3], ["institutobiologiacelular.org", 3], ["hexup.tech", 3], ["es.tl", 3], ["diariocorreo.pe",
+  3], ["chinasprayer.com", 3], ["blogspot.mx", 3], ["watchtower.org", 2], ["versatilecommunication.com",
+  2], ["varnisara.ir", 2], ["uzone-group.com", 2], ["thetripcompany.com", 2], ["soleprinters.com",
+  2], ["scribd.com", 2], ["quechua.org.uk", 2], ["property25.org", 2], ["parsiankalapc.com",
+  2], ["paginasiete.bo", 2], ["oximity.com", 2], ["onliwo.com", 2], ["olademeditacionplanetaria.com",
+  2], ["oeding-development.de", 2], ["newstechtrend.com", 2], ["net:12345.", 2], ["mftd.org",
+  2], ["marlionllc.com", 2], ["magicmushroomchocolate.biz", 2], ["laratitalobordatodo.com",
+  2], ["jinpeng-global.com", 2], ["ipelc.gob.bo", 2], ["ie-translations.com", 2],
+  ["highlanddesignart.com", 2], ["hangaotech.com", 2], ["gritacademy.co", 2], ["gogoled.ru",
+  2], ["electrojeanmuller.com", 2], ["e-plaka.com", 2]]'
+docs_top100_tld: '[["org", 5361], ["org.bo", 392], ["cl", 357], ["com", 355], ["app",
+  315], ["bo", 218], ["net", 169], ["ru", 61], ["pe", 46], ["tv.bo", 18], ["is", 17],
+  ["es", 15], ["gob.bo", 14], ["news", 9], ["jp", 8], ["co.uk", 8], ["kr", 7], ["it",
+  6], ["fr", 6], ["com.br", 6], ["nl", 4], ["tl", 3], ["tech", 3], ["mx", 3], ["in",
+  3], ["de", 3], ["win", 2], ["pub", 2], ["org.uk", 2], ["ir", 2], ["io", 2], ["gob.ar",
+  2], ["eu", 2], ["edu.bo", 2], ["com.es", 2], ["com.ar", 2], ["co", 2], ["biz", 2],
+  ["xyz", 1], ["ws", 1], ["shop", 1], ["on.ca", 1], ["info", 1], ["gob.pe", 1], ["fun",
+  1], ["cz", 1], ["computer", 1], ["com.tr", 1], ["com.pe", 1], ["com.bo", 1], ["click",
+  1], ["ciencia.bo", 1], ["cf", 1], ["ac.th", 1]]'
+docs_total: 7449
+docs_wds: '[[10.0, 2], [5.0, 124], [5.1, 119], [5.2, 98], [5.3, 100], [5.4, 103],
+  [5.5, 126], [5.6, 115], [5.7, 123], [5.8, 123], [5.9, 140], [6.0, 144], [6.1, 151],
+  [6.2, 148], [6.3, 158], [6.4, 149], [6.5, 177], [6.6, 198], [6.7, 166], [6.8, 249],
+  [6.9, 238], [7.0, 257], [7.1, 359], [7.2, 294], [7.3, 277], [7.4, 390], [7.5, 305],
+  [7.6, 254], [7.7, 239], [7.8, 236], [7.9, 289], [8.0, 256], [8.1, 288], [8.2, 256],
+  [8.3, 135], [8.4, 82], [8.5, 60], [8.6, 81], [8.7, 79], [8.8, 69], [8.9, 56], [9.0,
+  48], [9.1, 32], [9.2, 37], [9.3, 27], [9.4, 27], [9.5, 19], [9.6, 22], [9.7, 11],
+  [9.8, 8], [9.9, 5]]'
+sentence_pairs: 120121
+src_bytes: 20911575
+src_chars: 19688536
+src_pii: 89
+src_tokens: 3313406
+unique_sents: 69397
+src_sent_tokens: '[[1, 2351], [2, 1736], [3, 9214], [4, 9269], [5, 5469], [6, 4657],
+  [7, 4686], [8, 3512], [9, 3186], [10, 3294], [11, 2691], [12, 2108], [13, 2204],
+  [14, 1900], [15, 1977], [16, 1697], [17, 1970], [18, 1533], [19, 2838], [20, 1539],
+  [21, 1487], [22, 1601], [23, 1830], [24, 1658], [25, 1439], [26, 1685], [27, 1592],
+  [28, 1724], [29, 1717], [30, 1826], [31, 2082], [32, 1736], [33, 1738], [34, 1869],
+  [35, 1382], [36, 1166], [37, 1277], [38, 1164], [39, 1115], [40, 782], [41, 758],
+  [42, 684], [43, 731], [44, 729], [45, 712], [46, 538], [47, 561], [48, 497], [49,
+  447], [50, 516], [51, 524], [52, 503], [53, 426], [54, 446], [55, 373], [56, 315],
+  [57, 450], [58, 390], [59, 285], [60, 322], [61, 301], [62, 345], [63, 341], [64,
+  371], [65, 381], [66, 306], [67, 308], [68, 282], [69, 301], [70, 294], [71, 215],
+  [72, 248], [73, 235], [74, 209], [75, 210], [76, 226], [77, 203], [78, 181], [79,
+  174], [80, 179], [81, 182], [82, 170], [83, 223], [84, 165], [85, 129], [86, 139],
+  [87, 151], [88, 147], [89, 131], [90, 121], [91, 135], [92, 125], [93, 118], [94,
+  109], [95, 132], [96, 94], [97, 95], [98, 86], [99, 95], [100, 95], [101, 112],
+  [102, 95], [103, 79], [104, 77], [105, 61], [106, 83], [107, 62], [108, 66], [109,
+  76], [110, 71], [111, 53], [112, 68], [113, 48], [114, 41], [115, 52], [116, 45],
+  [117, 55], [118, 58], [119, 47], [120, 40], [121, 33], [122, 43], [123, 37], [124,
+  36], [125, 35], [126, 22], [127, 41], [128, 33], [129, 23], [130, 64], [131, 24],
+  [132, 31], [133, 35], [134, 28], [135, 28], [136, 12], [137, 24], [138, 23], [139,
+  30], [140, 14], [141, 25], [142, 15], [143, 14], [144, 23], [145, 15], [146, 14],
+  [147, 19], [148, 14], [149, 14], [150, 16], [151, 13], [152, 20], [153, 14], [154,
+  20], [155, 19], [156, 13], [157, 12], [158, 9], [159, 13], [160, 10], [161, 7],
+  [162, 11], [163, 10], [164, 5], [165, 6], [166, 10], [167, 4], [168, 5], [169, 9],
+  [170, 3], [171, 7], [172, 5], [173, 6], [174, 6], [175, 8], [176, 5], [177, 4],
+  [178, 6], [179, 6], [180, 2], [181, 5], [182, 5], [183, 3], [184, 4], [185, 6],
+  [186, 6], [187, 3], [188, 4], [189, 4], [190, 5], [191, 3], [192, 2], [193, 6],
+  [194, 4], [195, 4], [196, 4], [197, 5], [198, 5], [201, 2], [202, 6], [203, 1],
+  [204, 2], [205, 5], [206, 1], [208, 1], [210, 6], [211, 1], [212, 2], [213, 3],
+  [216, 2], [217, 3], [218, 1], [220, 4], [221, 3], [222, 3], [223, 3], [224, 1],
+  [225, 1], [226, 3], [227, 4], [229, 1], [230, 2], [231, 1], [232, 7], [233, 1],
+  [234, 1], [235, 1], [237, 2], [238, 2], [239, 5], [240, 1], [241, 1], [242, 2],
+  [243, 2], [244, 2], [247, 1], [248, 2], [249, 1], [251, 3], [253, 1], [254, 1],
+  [255, 2], [256, 1], [257, 1], [258, 1], [260, 1], [262, 3], [265, 1], [266, 1],
+  [267, 2], [268, 1], [269, 3], [272, 2], [274, 1], [276, 1], [279, 2], [283, 1],
+  [287, 2], [288, 1], [290, 1], [292, 1], [294, 1], [295, 2], [298, 1], [299, 1],
+  [302, 4], [303, 1], [304, 1], [306, 2], [307, 1], [308, 1], [309, 6], [310, 1],
+  [311, 2], [312, 3], [313, 2], [314, 2], [315, 2], [316, 4], [317, 3], [319, 1],
+  [320, 3], [321, 2], [322, 6], [323, 5], [324, 5], [325, 10], [326, 3], [327, 4],
+  [328, 3], [329, 7], [330, 4], [331, 6], [332, 7], [333, 6], [334, 7], [335, 6],
+  [336, 9], [337, 5], [338, 11], [339, 8], [340, 8], [341, 3], [342, 3], [343, 12],
+  [344, 8], [345, 5], [346, 3], [347, 14], [348, 7], [349, 5], [350, 8], [351, 11],
+  [352, 4], [353, 4], [354, 9], [355, 8], [356, 8], [357, 9], [358, 6], [359, 6],
+  [360, 3], [361, 5], [362, 9], [363, 5], [364, 4], [365, 9], [366, 7], [367, 9],
+  [368, 7], [369, 5], [370, 7], [371, 3], [372, 3], [373, 5], [374, 7], [375, 10],
+  [376, 7], [377, 4], [378, 3], [379, 3], [380, 5], [381, 3], [382, 5], [383, 4],
+  [384, 3], [385, 3], [386, 4], [387, 1], [388, 8], [389, 1], [390, 5], [391, 6],
+  [392, 4], [393, 7], [394, 4], [395, 1], [396, 2], [397, 3], [398, 3], [399, 4],
+  [400, 1], [401, 2], [402, 1], [404, 4], [406, 1], [407, 4], [409, 2], [410, 1],
+  [412, 3], [413, 1], [414, 2], [416, 1], [418, 1], [420, 1], [424, 1], [426, 1],
+  [429, 1], [432, 1], [439, 1], [440, 1], [446, 1], [456, 1], [460, 2], [470, 1],
+  [475, 1], [484, 2], [497, 1], [508, 1], [510, 2], [515, 1], [522, 1], [531, 1],
+  [532, 1], [534, 1], [535, 1], [536, 1], [539, 2], [552, 2], [554, 1], [555, 1],
+  [556, 1], [568, 2], [573, 1], [576, 3], [577, 1], [597, 1], [602, 2], [610, 1],
+  [617, 1], [626, 1], [642, 1], [645, 1], [646, 1], [655, 1], [663, 1], [664, 1],
+  [669, 1], [670, 1], [671, 1], [672, 2], [682, 1], [685, 1], [689, 1], [690, 1],
+  [693, 1], [694, 2], [708, 1], [717, 1], [718, 1], [721, 1], [724, 1], [728, 1],
+  [734, 1], [735, 2], [737, 1], [746, 2], [747, 1], [750, 1], [752, 1], [753, 1],
+  [756, 1], [757, 2], [765, 1], [766, 1], [769, 1], [778, 1], [779, 1], [787, 1],
+  [790, 1], [793, 1], [796, 1], [797, 1], [799, 1], [800, 1], [810, 3], [812, 2],
+  [817, 1], [818, 1], [819, 1], [821, 1], [827, 1], [840, 1], [842, 1], [844, 1],
+  [851, 1], [856, 1], [860, 1], [863, 1], [865, 1], [867, 1], [870, 1], [871, 1],
+  [874, 1], [877, 1], [884, 1], [888, 1], [898, 1], [912, 1], [922, 1], [927, 2],
+  [930, 1], [934, 1], [935, 1], [944, 1], [945, 1], [946, 1], [956, 1], [957, 1],
+  [965, 1], [968, 1], [971, 2], [975, 1], [979, 1], [982, 1], [990, 3], [992, 1],
+  [993, 1], [1021, 1], [1028, 1], [1034, 1], [1036, 1], [1040, 1], [1057, 1], [1059,
+  1], [1060, 1], [1061, 2], [1075, 1], [1078, 1], [1086, 1], [1092, 1], [1093, 1],
+  [1099, 1], [1100, 1], [1101, 1], [1107, 1], [1117, 1], [1128, 1], [1132, 1], [1151,
+  1], [1155, 1], [1168, 1], [1174, 1], [1177, 1], [1181, 1], [1186, 1], [1192, 1],
+  [1199, 1], [1200, 1], [1217, 1], [1225, 1], [1226, 1], [1227, 1], [1348, 1], [1352,
+  1], [1355, 1], [1359, 1], [1365, 1], [1374, 1], [1390, 1], [1417, 1], [1451, 1],
+  [1482, 1], [1494, 1], [1499, 1], [1506, 1], [1591, 1], [1627, 1], [1742, 1], [1749,
+  1], [2328, 1], [39627, 1]]'
+src_sent_tokens_mean: 28
+src_sent_tokens_median: 17
+src_unique_sents: '[[1, 815], [2, 1297], [3, 2185], [4, 2774], [5, 2552], [6, 2720],
+  [7, 2564], [8, 2681], [9, 2584], [10, 2618], [11, 2121], [12, 1855], [13, 1581],
+  [14, 1561], [15, 1378], [16, 1274], [17, 1167], [18, 1176], [19, 1092], [20, 1094],
+  [21, 1039], [22, 1037], [23, 961], [24, 923], [25, 875], [26, 822], [27, 826], [28,
+  790], [29, 758], [30, 721], [31, 734], [32, 737], [33, 766], [34, 661], [35, 610],
+  [36, 626], [37, 573], [38, 587], [39, 536], [40, 530], [41, 497], [42, 480], [43,
+  471], [44, 521], [45, 441], [46, 418], [47, 372], [48, 377], [49, 363], [50, 373],
+  [51, 357], [52, 351], [53, 369], [54, 341], [55, 283], [56, 264], [57, 287], [58,
+  297], [59, 245], [60, 266], [61, 247], [62, 274], [63, 266], [64, 264], [65, 243],
+  [66, 235], [67, 240], [68, 243], [69, 224], [70, 236], [71, 202], [72, 217], [73,
+  203], [74, 183], [75, 194], [76, 167], [77, 168], [78, 154], [79, 161], [80, 147],
+  [81, 178], [82, 165], [83, 135], [84, 159], [85, 123], [86, 108], [87, 139], [88,
+  143], [89, 125], [90, 112], [91, 130], [92, 110], [93, 109], [94, 105], [95, 131],
+  [96, 82], [97, 93], [98, 86], [99, 94], [100, 92], [101, 108], [102, 94], [103,
+  79], [104, 71], [105, 61], [106, 83], [107, 62], [108, 63], [109, 74], [110, 65],
+  [111, 52], [112, 60], [113, 48], [114, 37], [115, 50], [116, 45], [117, 54], [118,
+  46], [119, 47], [120, 37], [121, 30], [122, 42], [123, 37], [124, 36], [125, 35],
+  [126, 22], [127, 38], [128, 31], [129, 21], [130, 37], [131, 23], [132, 30], [133,
+  34], [134, 28], [135, 28], [136, 12], [137, 24], [138, 22], [139, 28], [140, 14],
+  [141, 23], [142, 15], [143, 11], [144, 23], [145, 15], [146, 14], [147, 19], [148,
+  14], [149, 11], [150, 16], [151, 12], [152, 19], [153, 13], [154, 19], [155, 17],
+  [156, 13], [157, 11], [158, 9], [159, 13], [160, 8], [161, 7], [162, 11], [163,
+  10], [164, 5], [165, 6], [166, 10], [167, 4], [168, 5], [169, 9], [170, 3], [171,
+  7], [172, 5], [173, 5], [174, 6], [175, 7], [176, 5], [177, 4], [178, 6], [179,
+  6], [180, 2], [181, 5], [182, 5], [183, 3], [184, 4], [185, 6], [186, 6], [187,
+  3], [188, 4], [189, 4], [190, 5], [191, 3], [192, 2], [193, 6], [194, 4], [195,
+  4], [196, 4], [197, 5], [198, 4], [201, 2], [202, 6], [203, 1], [204, 2], [205,
+  4], [206, 1], [208, 1], [210, 4], [211, 1], [212, 2], [213, 3], [216, 2], [217,
+  3], [218, 1], [220, 4], [221, 3], [222, 3], [223, 3], [224, 1], [225, 1], [226,
+  3], [227, 4], [229, 1], [230, 2], [231, 1], [232, 5], [233, 1], [234, 1], [235,
+  1], [237, 2], [238, 2], [239, 5], [240, 1], [241, 1], [242, 2], [243, 1], [244,
+  2], [247, 1], [248, 2], [249, 1], [251, 3], [253, 1], [254, 1], [255, 2], [256,
+  1], [257, 1], [258, 1], [260, 1], [262, 3], [265, 1], [266, 1], [267, 1], [268,
+  1], [269, 3], [272, 2], [274, 1], [276, 1], [279, 2], [283, 1], [287, 2], [288,
+  1], [290, 1], [292, 1], [294, 1], [295, 2], [298, 1], [299, 1], [302, 4], [303,
+  1], [304, 1], [306, 2], [307, 1], [308, 1], [309, 6], [310, 1], [311, 2], [312,
+  3], [313, 2], [314, 2], [315, 2], [316, 4], [317, 3], [319, 1], [320, 3], [321,
+  2], [322, 6], [323, 5], [324, 5], [325, 10], [326, 3], [327, 4], [328, 3], [329,
+  7], [330, 4], [331, 6], [332, 7], [333, 6], [334, 7], [335, 6], [336, 9], [337,
+  5], [338, 11], [339, 8], [340, 8], [341, 3], [342, 3], [343, 12], [344, 8], [345,
+  5], [346, 3], [347, 14], [348, 7], [349, 5], [350, 8], [351, 11], [352, 4], [353,
+  4], [354, 9], [355, 8], [356, 8], [357, 9], [358, 6], [359, 6], [360, 3], [361,
+  5], [362, 9], [363, 5], [364, 4], [365, 9], [366, 7], [367, 9], [368, 7], [369,
+  5], [370, 7], [371, 3], [372, 3], [373, 5], [374, 7], [375, 10], [376, 7], [377,
+  4], [378, 3], [379, 3], [380, 5], [381, 3], [382, 5], [383, 4], [384, 3], [385,
+  3], [386, 4], [387, 1], [388, 8], [389, 1], [390, 5], [391, 6], [392, 4], [393,
+  7], [394, 4], [395, 1], [396, 2], [397, 3], [398, 3], [399, 4], [400, 1], [401,
+  2], [402, 1], [404, 4], [406, 1], [407, 4], [409, 2], [410, 1], [412, 3], [413,
+  1], [414, 2], [416, 1], [418, 1], [420, 1], [424, 1], [426, 1], [429, 1], [432,
+  1], [439, 1], [440, 1], [446, 1], [456, 1], [460, 2], [470, 1], [475, 1], [484,
+  2], [497, 1], [508, 1], [510, 2], [515, 1], [522, 1], [531, 1], [532, 1], [534,
+  1], [535, 1], [536, 1], [539, 2], [552, 2], [554, 1], [555, 1], [556, 1], [568,
+  2], [573, 1], [576, 3], [577, 1], [597, 1], [602, 2], [610, 1], [617, 1], [626,
+  1], [642, 1], [645, 1], [646, 1], [655, 1], [663, 1], [664, 1], [669, 1], [670,
+  1], [671, 1], [672, 2], [682, 1], [685, 1], [689, 1], [690, 1], [693, 1], [694,
+  2], [708, 1], [717, 1], [718, 1], [721, 1], [724, 1], [728, 1], [734, 1], [735,
+  2], [737, 1], [746, 2], [747, 1], [750, 1], [752, 1], [753, 1], [756, 1], [757,
+  2], [765, 1], [766, 1], [769, 1], [778, 1], [779, 1], [787, 1], [790, 1], [793,
+  1], [796, 1], [797, 1], [799, 1], [800, 1], [810, 3], [812, 2], [817, 1], [818,
+  1], [819, 1], [821, 1], [827, 1], [840, 1], [842, 1], [844, 1], [851, 1], [856,
+  1], [860, 1], [863, 1], [865, 1], [867, 1], [870, 1], [871, 1], [874, 1], [877,
+  1], [884, 1], [888, 1], [898, 1], [912, 1], [922, 1], [927, 2], [930, 1], [934,
+  1], [935, 1], [944, 1], [945, 1], [946, 1], [956, 1], [957, 1], [965, 1], [968,
+  1], [971, 2], [975, 1], [979, 1], [982, 1], [990, 2], [992, 1], [993, 1], [1021,
+  1], [1028, 1], [1034, 1], [1036, 1], [1040, 1], [1057, 1], [1059, 1], [1060, 1],
+  [1061, 2], [1075, 1], [1078, 1], [1086, 1], [1092, 1], [1093, 1], [1099, 1], [1100,
+  1], [1101, 1], [1107, 1], [1117, 1], [1128, 1], [1132, 1], [1151, 1], [1155, 1],
+  [1168, 1], [1174, 1], [1177, 1], [1181, 1], [1186, 1], [1192, 1], [1199, 1], [1200,
+  1], [1217, 1], [1225, 1], [1226, 1], [1227, 1], [1348, 1], [1352, 1], [1355, 1],
+  [1359, 1], [1365, 1], [1374, 1], [1390, 1], [1417, 1], [1451, 1], [1482, 1], [1494,
+  1], [1499, 1], [1506, 1], [1591, 1], [1627, 1], [1742, 1], [1749, 1], [2328, 1],
+  [39627, 1]]'
+src_langs: '[["es", 37708], ["en", 29384], ["sw", 8130], ["id", 7294], ["qu", 3175],
+  ["br", 2988], ["tl", 2633], ["it", 2473], ["de", 2468], ["eu", 2078], ["ms", 1944],
+  ["pl", 1463], ["fr", 1436], ["pt", 1331], ["fi", 1324], ["eo", 1311], ["hu", 1157],
+  ["ast", 1124], ["ja", 1084], ["hi", 1000], ["ko", 998], ["uz", 805], ["su", 519],
+  ["kn", 517], ["gl", 493], ["cy", 402], ["hr", 319], ["kw", 301], ["ca", 295], ["la",
+  270], ["war", 259], ["nl", 244], ["jv", 216], ["tr", 204], ["lt", 203], ["sv", 197],
+  ["io", 197], ["mt", 156], ["sl", 150], ["ru", 142], ["ceb", 130], ["ro", 121], ["bar",
+  101], ["sk", 84], ["zh", 77], ["ga", 65], ["cs", 60], ["vo", 52], ["uk", 52], ["et",
+  52], ["ur", 46], ["ilo", 45], ["bs", 45], ["so", 44], ["hy", 44], ["ar", 41], ["sq",
+  39], ["sr", 37], ["gn", 34], ["cbk", 32], ["nb", 27], ["mk", 24], ["jbo", 24], ["lv",
+  23], ["az", 23], ["rm", 22], ["mg", 22], ["vi", 20], ["bh", 20], ["mwl", 19], ["als",
+  19], ["oc", 18], ["lmo", 17], ["pms", 16], ["fa", 15], ["bn", 15], ["an", 15], ["gv",
+  14], ["vep", 12], ["da", 12], ["nap", 11], ["ml", 9], ["is", 9], ["tt", 8], ["he",
+  8], ["yo", 7], ["pam", 7], ["el", 7], ["vec", 6], ["th", 6], ["wuu", 5], ["te",
+  5], ["nn", 5], ["ta", 4], ["nds", 4], ["ku", 4], ["gom", 4], ["tg", 3], ["my", 3],
+  ["gd", 3], ["wa", 2], ["ug", 2], ["tyv", 2], ["sc", 2], ["ne", 2], ["min", 2], ["km",
+  2], ["ia", 2], ["ht", 2], ["gu", 2], ["bo", 2], ["tk", 1], ["lb", 1], ["ky", 1],
+  ["kv", 1], ["kk", 1], ["hsb", 1], ["fy", 1], ["frr", 1], ["dv", 1], ["dsb", 1],
+  ["ckb", 1]]'
+hardrules_tags: '{"not_too_long": 1020, "not_too_short": 6641, "length_ratio": 0,
+  "no_urls": 1000, "no_bad_encoding": 14, "pii": 89}'
+sample: '["\"Aka post ukax Relaciones Internacionales ukat Seguridad jall ukxatawa
+  [en].\\nBolivia suyun que planea cruzar el Territorio Ind\u00edgena ukat Parque
+  Nacional Isiboro S\u00e9cure (TIPNIS) ukha chiq jist''a\u00f1 amta, markachirinakax
+  27 uru qasawi phaxsit 2012n Trinidad markat kayuk La paz markar uka amta t''unjasi\u00f1apatak
+  mayt''apxi.\\n306 kilometro thakhi lurawix $415 waranqa waranqa ukhaspawa Bolivia
+  ukat Brasil markanakan llumpaqa 2009n maran amataw rixuntatapa. OAS ukamp m\u00e4
+  contrato lurasina\\nTaypi sata phaxsin 2011 maranxa, ind\u00edgenanakan walja urunak
+  kayuk sarapxatapata, ukatx sartasirinakax La Paz markaruw purini, Evo Morales irpirix
+  m\u00e4 kamachi utt\u2019ayi TIPNIS ukax jan llamt\u2019kayaw (\u201cintangible\u201d
+  o \u201cintocable\u201d), ukax uraq arxatir arnakjirinakatak (activistas) ukhamarak
+  ind\u00edgena tamanakatakix qhip qhipa arjam ukatuqit amuyat\u2019ata.\\nMorales
+  jilatax jichhax janiw amt\u00e4wix (contrato) lurasxanit thakhix OAS uka tamamp
+  sarakiwa qasawi phaxs qalltkasaxa, ukhamas arst\u2019irinakax janiw munkapxit jiskt\u2019anaka
+  (consulta previa).\\nWalt\u2019at ind\u00edgena tamanak ukhamarak markan jakirinakax
+  u\u00f1japxiw Evo Moralesaru ind\u00edgena irpiri ukhamarak kuka laphi yapuchiri
+  waliruw u\u00f1ti. Ukampirus, ind\u00edgena tamanakax artasipxiw kunatix sapxiw
+  jan\u00efr kuna amt\u00e4w rixintkasax jiwasaruw jiskt\u2019a\u00f1asa sasina.\\nAka
+  video ukax indijinanakan thakhi lura\u00f1 amtat arst''awinakapaw u\u00f1t''ayasi.\\nUka
+  thakhi lura\u00f1 amtax qhurut arsusuiwinak u\u00f1t''ayi.\\nUkhamasa, Bolivia apnaqirinakax
+  thakhi lur\u00e4wix kuna askis kunatix chinthaphispaw marka taypiwjampi saskapxakiwa,
+  qalltas kawkhanti juk\u2019amp kuka yapuchapki, ukhamarak kawkhanti Evo Morales
+  jilax ch\u2019amanch\u00e4w thaqki. Kuka yapuchirinakax qhanaw wal ch\u2019amanchapx
+  thakh lurasi\u00f1pataki, kunataix wali askispaw Parque Nacional del TIPNIS-tuqin
+  juk\u2019amp kuka yapucharanta\u00f1ataki. Ukax yamas walpun mayj mayj amuyunak
+  uraqi ukxat utjayi.\\nArsuwinkax plataformas de medios sociales, ukat yamakis Twitter
+  (bajo la etiqueta #TIPNIS) ukan u\u00f1jasi. M\u00e4 Una de las preguntas jasa jiskt''awix
+  siwa \u201c#TIPNIS uksan thakhi lurasi\u00f1apampix iyawatat janicha?\u201d\\nJaysawinx
+  akhamaw u\u00f1jasi:\\n\u201camuyatax suyuruw churasi\u00f1apa,TIPNIS ukan thakhi
+  jist''arasisp ukax Bolivia susyutakix askispawa\u201d\\nK''umiwinakax uka thakhi
+  lura\u00f1atx walw utji Iniciativa Integraci\u00f3n de la Infraestructura Regional
+  Suramericana (IIRSA) Brasil uka markan yanapt''apampi.\\nGustavo Soto jupat yatxatawipax
+  blog CEADESC ukan u\u00f1jasi:\\nEl programa del MAS 2010-2015 i articula la econom\u00eda
+  boliviana a los emergentes intereses capitalistas globales del siglo 21 (Brasil,
+  China, India, Corea) expresados en megaproyectos energ\u00e9ticos, camineros y extractivos,
+  encapsulados en su mayor en la IIRSA ii que propician inevitablemente, la violaci\u00f3n
+  de los Derechos ind\u00edgenas.\\nAka post ukax espa\u00f1ol, \u00e1rabe ukatx franc\u00e9s
+  ukanakax International Security Network (ISN) ukan jaysatawa m\u00e4 alianza ukhama
+  uraqpachar u\u00f1t''aya\u00f1ataki.\\nAka blog ISN [en] ukaru mantasaw juk''ampinak
+  u\u00f1japxasma.\\nAsxara\u00f1jamaw ukhamp aynacht''\u00e4winakaxa.\\nChiqpachans
+  wali llakiskay urunakpun uka jila kullakanakax pasawayapxi. Janik mayamp ukham utjaspat
+  kawkins ampi!!\"", "\"Qhipa isturyanaka\\n25 Qas\u00e4wi 2014\\n23 Qas\u00e4wi 2014\\n15
+  Qas\u00e4wi 2014\\nValparaiso uksanx 12 kurm\u00fcru uru aka qasawi phaxsit aka
+  2014 maratx nina nakhantawiw utjawayi, 12 jaqiw jiwata, ukatx waranqa markachiriw
+  jan waltayat jikxatasipxi.\\n11 Qas\u00e4wi 2014\\n\u00a1 Global Voices ukax wasiatampiw
+  aka 2014 maran tantacht''asipxani! Nayr\u00efr tantach\u00e4wiwa, ukax Lagos, Nigeria
+  markan 17 uru aka qasawi phasit phuqhasini .\\n1 Qas\u00e4wi 2014\\nChile, Ecuador
+  ukat Per\u00fa- Arica, Parinacota ukat Tarapac\u00e1 markanakan uraq khathattawix
+  utjawayi.\\n26 Achuqa 2014\\n23 Achuqa 2014\\nWalja markanakanxa, vehicular arunakax
+  juk\u2019amp arsutaw marka arunakat sipansa, ukampirusa, juk\u2019a yanapanikiw
+  apnaqkay plataformanakan marka arunakat sipanasa.\\n20 Achuqa 2014\\nAka achuqa
+  phaxsit uksarux Global Voices ukax (may may arunakan) waranqa jaqinakan tabletas
+  ukanakapar Flipboard ukamp apnaqxapxa\u00f1apaw mayt''ata.\\nCh\u2019axwirinakax
+  jan wal aka programax parli etnia bajtiari tuqi sasaw sapxi ukhamarak jan wali u\u00f1ch\u2019ukiraki
+  Revolucion Constitucional irani uka jilir irpiripanakaruxa.\\n19 Achuqa 2014\\nCuba
+  markanxa, (estatales) ukan irnaqirinakan payllawipax 15 (d\u00f3lares mensuales)
+  ukha ch\u2019ux\u00f1a qulqinakaruw chanipax makhatti.\\nHello Johnd, thanks for
+  writing.\\nHello There. I found your blog using msn. This is a really well written
+  article....\"", "\"Nayra phust''awinakas amthapi\u00f1atak ch''amancha\u00f1 kunka\u00f1chayapxi\\nNayra
+  maranakatpachaw kunayman phust''awinakasax kunka\u00f1chayatax utjawayi. Ukampis
+  uka phust''awinakax pachan pachaniwa. Ukwa awichanakasa ukhamaraki achachilanakasas
+  jaytawayapxistuxa.\\nUkhamakipanx aka urunakanx inas armatakjamaxchi, ukampis phust''awinakasax
+  jan armata\u00f1apatakix askinaw amthapi\u00f1 amuyunakax laqa\u00f1chayata sawayapxiwa.
+  Ukataw El Alto markanx nayriri jikthapiwix phuqhasiwayi, ukasti jiwasanakasan phust''awinakasax
+  amthapi\u00f1ataki uka kipkaraki laqa\u00f1chaya\u00f1ataki.\"", "\"Isturyanaka
+  Ta Enlace Ta qas\u00e4wi phaxsi, 2015\\nPedro Muller yatiqa\u00f1 utat tukuyapat
+  amuyt`i, m\u00e4 yatiqa\u00f1 utax janiw aka markatak amtatakiti. Ukhamat p\u00e4
+  amuyt`aw \u201cyatiqa\u00f1a\u201d ukat \u201cyatichasiwi\u201d qhananchi:\\nYatiqa\u00f1ax
+  janiw p`iqir apanta\u00f1akiti jan ukax jaqha lurawinakam ch`amancha\u00f1awa; jist`asa
+  amuyt`asa lurasa ukham p`iqir irnaqaya\u00f1a ukat sum yatiqa\u00f1anak yatiskna.\\nJiwasax
+  jaqi taypin sum yatiqtan m\u00e4 amtat aphtap lurtan amta lurtan amuyt`aw lurtan
+  ukham kunayman yatiqanak sump yatiqtan.\\nTukuya\u00f1ataki, pedrox m\u00e4 video
+  u\u00f1tawir invisttu, ukan Logan LaPlante m\u00e4 aruskipt''amp \u201chackear la
+  educaci\u00f3n\u201d jan ukax \u201chackschooling\u201d amyt`ayawayistu, ukan yatiqa\u00f1
+  jaqi taypin ukat sumpin qha\u00f1anchi:\\nAkhan jumax Pedron quillqap juk`amp aka
+  Twitter tuqin ullart''arakisma.\\n23 achuqa phaxsit 2015 maran qha\u00f1anchasiwayi.\\n11
+  urut 13 urukama mara t\u2019aqa phaxsin aka 2015 marana, internacional de radios
+  comunitarias ukat software uka jikthapt\u00e4wix Cochabamba, Bolivia, markanw nayr\u00efr
+  kuti phuqhasini. Argentina, Colombia, Ecuador, M\u00e9xico, Uruguay, Venezuela ukat
+  Bolivia markanakatw purt\u2019anipx\u00e4ni.\\nJikthapt\u00e4winx software libre,
+  telecomunicaciones ukan kamachinakapata ukat plan de migraci\u00f3n taqi ukanakataw
+  aruskipt\u2019at\u00e4ni. Ukakipkarakiwa, herramientas de software libre jisnawa
+  Shamatari, Ardour, Audacity ukat Creative Commons ukat yaqhanakampit aruskipt\u2019at\u00e4ni
+  ukhamarak yaticht\u2019at\u00e4ni.\\nRadios Libres ukat Markank\u00efr Corresponsales
+  jupanakaw aka yaticht\u2019a\u00f1atak sitio oficial ukatk wakt\u2019ayasipxi: liberaturadio.org,
+  yaqhanakast\u00ef Comisi\u00f3n Nacional de Telecomunicaciones (Conatel) Venezuela
+  markat ukanakan chikancht\u2019asi\u00f1ap wakt\u2019ayapxi:\\nVenezuela markanx
+  radios comunitarias ukanakax yanapt\u2019atarakiwa. Chinuqa phaxsin 2015 maranx
+  aplicaci\u00f3n libre ideal para medios comunitarios: Shatamari 15.01. ukaw jist\u2019arata,
+  260 aplicaciones ukhaw instalat utji ukakipkarakiw medios dijitales uksan irnaqa\u00f1atakis
+  uchata.\\nTwitter apnaqirinakax yatiyaw u\u00f1t\u2019aya\u00f1ampix sarantapxarakiwa,
+  amt\u00e4wix ch\u2019amancht\u2019a\u00f1ataki ukat radiales ukanakas uka jikthapt\u00e1wi
+  chikancht\u2019asipxa\u00f1apatakiwa:\\nInternacional de Radios Comunitarias ukat
+  Software Libre nayr\u00efr jikthapt\u00e4winw chikancht\u2019asipxa\u00f1\u00e4ni@liberaturadio.
+  Chikancht\u2019asima?\u2014 Radioteca.net (@Radiotecanet) marzo 27, 2015\\n#Bolivia
+  1\u00ba Encuentro Internacional de Radios Comunitarias ukat Software Libre http://t.co/3efeNkCmsz
+  | .@ADN_alt .@camilota5 .@ReinaldoI\u2014 CDPVenezuela (@cdpvenezuela1) marzo 27,
+  2015\\nNayr\u00efr jikthapt\u00e4wi Internacional de Radios Comunitarias ukat Software
+  Libre #Cochabamba, Bolivia markana 11-13 mara t''aqa phaxsina 2015 http://t.co/VvzNsR6BzG\u2014
+  Eddie \u00c1vila (@barrioflores) marzo 24, 2015\\nNay\u00efr uru qasawi phaxsinw
+  qillqant\u00e4winakax qalltxi. Juk\u2019amp yati\u00f1atakix p\u00e1gina oficial:
+  liberaturadio.org ukar chikancht\u2019asima.\\nWali askipuniw uraqpachan ukham may
+  may markanakatpach irnqt''a\u00f1axa. Muy interesante trabajar sin importar las
+  fronteras...\"", "\"Gobierno taypina irnaq\u00e4winaka tuqitsa suma qhananch\u00e4winakampi
+  yatiy\u00e4winakawa wakicht\u2019ataskarakini, ukhamata Estado taypitsa taqi markachirinakana
+  mayt\u2019\u00e4winakapasa, kunatixa jupanakaru wak\u00efski ukanaka y\u00e4chasa,
+  suma y\u00e4qataskarakiniwa. Taqi jaqisa jani khitiru jasq\u2019arasisawa arsusiskani,
+  arsusi\u00f1a munirinakaru amukt\u2019ay\u00e4winakasa janiwa utjxaniti, ukhamata
+  taqi jaqisa suma chiqapa u\u00f1jka\u00f1a yatiy\u00e4winaksa mayt\u2019asipxarakini.
+  Ukhama pachparakiwa, yatiy\u00e4winaka tuqita wakicht\u2019\u00e4winaka kunaymana
+  y\u00e4naka taypita apnaqirinakasa taqi tuqi markanakana sarantayasiskarakini, ukhamata
+  machaqa ukhama mayach\u00e4winakasa amanawiwa u\u00f1stayasiskarakini, uka taypinakana
+  kunaymana amuyt\u2019\u00e4winakasa jani kuna jasq\u2019arasisa yatiyataskarakiniwa.\\nUka
+  taqi jaqina yatiy\u00e4winaka katusa suma jani jasq\u2019arasa arst\u2019as\u00efwinaka
+  utja\u00f1apa layku jach\u2019a amt\u00e4wi phuqa\u00f1a phuqa\u00f1atakixa Estado
+  taypita:\\n(a) Gobierno taypita kunaymana lur\u00e4winaka tuqitsa suma yatxatay\u00e4winakawa
+  phuqasiskarakini, qullqi qullqi apnaq\u00e4winaka tuqita yatxatay\u00e4winaksa aliqata
+  apasiskarakini, ukhamata suma qhana taqi kunasa apnaqasiskani, jamasata kuna apnaq\u00e4winakasa
+  ch\u2019usa chhaqtayataniwa.\\n(ch) Jaqinakaru arst\u2019\u00e4winakapa amukt\u2019ayiri
+  juchanchasa wayxata\u00f1anakaru u\u00f1tata kamachinakasa chhaqtayat\u00e4xarakiniwa,
+  arst\u2019asi\u00f1a munirinakaru jani chiqapata amukt\u2019ay\u00e4winakasa chhaqtayat\u00e4xarakinwa,
+  niyasa uka arst\u2019as\u00efwinaka amtatanakaparjama jani chiqaparu u\u00f1jirinakaruwa
+  kamachinaka taypita juchanchasirakini.\\n(h) Estado taypita yatiy\u00e4winaka apnaq\u00e4winakasa
+  taqitaki suma qhana khuskhachataskarakiniwa.\\n(i) Estado taypita uka yatiy\u00e4winaka
+  jani chiqaparu apnaqa\u00f1anakasa chhaqtayataniwa, yatiy\u00e4winaka katuqa\u00f1asa
+  juk\u2019a qullqitakikxarakiniwa, ukhamata computadora y\u00e4naka taypita taqi
+  kuna yatiy\u00e4winakasa urasaparu yatiyasiskarakini.\\n(k) Sapa jaqita ukata Per\u00fa
+  marka pachana utjasirinaka tuqita yatxat\u00e4winakasa Estado taypita kunaymana
+  yatxat\u00e4winakasa suma purapata u\u00f1anuqt\u2019asa wakicht\u2019\u00e4winakawa
+  sartayasiskarakini.\\n(l) Estado taypita kunaymana tuqita yatxat\u00e4winaka utja\u00f1apataki,
+  ukhamaraki kuntixa Estado taypinkiri mayach\u00e4winaxa apnaqapki uka tuqinakata
+  yatiy\u00e4winaka utja\u00f1apatakisa kamachinakaxa mayachthapisxarakiniwa.\\n(ll)
+  Taqi Partidos Pol\u00edticos sutinchata mayach\u00e4winakasa sapa chhijll\u00e4winaka
+  utjipansa khuskhata uka yatiy\u00e4winaka yatiyiri mayach\u00e4winaka taypinsa suma
+  katuqt\u2019atasipkarakaniwa, franjas electorales sutinchata wakich\u00e4winakasa
+  ukhamaraki. Uka kunaymana y\u00e4naka taypita yatiy\u00e4naka yatiyirinakaru ch\u2019amancha
+  laykuxa Estado taypita:\\n(m) Yatiyiri jilata kullakanakaru yatiy\u00e4winaka ars\u00fcwipa
+  layku janiwa kuna phiru arunakampi suticha\u00f1a utjxaniti.\\n(n) Yatiy\u00e4winaka
+  yatiyiri mayach\u00e4winakasa chiqapa kanka\u00f1ampi irnaqa\u00f1anakaruwa sartayasiskarakini,
+  ukampinsa taqi jaqina yatiy\u00e4winaka yatxatanakapataki markachirinakana maych\u00e4winakawa
+  utt\u2019ayasiskarakini.\\n(\u00f1) Periodista yatiyirinakana chiqaparu jani khitina
+  aru churata yatiy\u00e4winaka apsu\u00f1anakapataki kamachinakawa y\u00e4chasiskarakini,
+  yatiy\u00e4wina apnaqiri empresa mayach\u00e4winaka ch\u2019amanchasi\u00f1anakapatakisa
+  kamachinakaxa y\u00e4chasiskarakiniwa.\\n(p) Sapa mayni jaqina ajanu wilapa wartiri,
+  chuyma ustaykiri, unra willtiri yatiy\u00e4winakaxa janiwa ch\u2019amanchat\u00e4kiniti.\"",
+  "\"Qhipa qillqatanaka Esteban Mamani Ta taypi sata phaxsi, 2012\\n25 taypi sata
+  phaxsi 2012\\nAka inphuraphiyanxa, ONG Derechos Digitales ukasti yatiyiwa tunka
+  u\u00f1t\u2019at y\u00e4nak internetan lurktan ukanakaxa janiw yatxatirina yati\u00f1apax
+  jark\u2019ata\u00f1apakiti.\\n20 taypi sata phaxsi 2012\\nTunka suxtan uru saraqk\u00e4na
+  sata phaxsina, Shenzhen markanx Kimsa arsusirinakaruw katuntapxi, jupanakax sumakw
+  arsusipxana, waranqaninakaw Japontuq arsusirinakax u\u00f1acht\u2019ayapxi, jallukjam
+  utjipanx pallapallanakax p\u2019arxtakipxarakinawa, ukat laktasin u\u00f1japxana,...\\nWali
+  askipuniw uraqpachan ukham may may markanakatpach irnqt''a\u00f1axa. Muy interesante
+  trabajar sin importar las fronteras...\"", "\"Latest stories Aka tuqita Latin America\\n29
+  May 2012\\nCasa de Cultura Piedrabuenarte Buenos Aires, Argentina markanxa, sar\u00e4wimpiw
+  uka barrior turkakiptayaski, Teatro Col\u00f3n ukax markankir arstistanakan mayjt''ayatawa.\\n28
+  May 2012\\nNayr\u00efr urunak llamayu phaxsit makiptatat 2012n marat Escuelas Superiores
+  de Formaci\u00f3n de Maestros (ESFM) ukan yaticht''irinakatakiw yaticht''awix utjawayana.
+  Amt\u00e4wipax yatichirinakamp yatiqirinakamp Internet uksan Aymara arut qilq\u00e4winak
+  juk''amp u\u00f1t''ayapxa\u00f1apatakiwa. Victoria Tinta, Global Voices Aymarata
+  uksat juk''a arunakan uka yatich\u00e4witx u\u00f1t''ayistu.\\n27 May 2012\\nBolivia
+  markan thakhi luraw amt\u00e4wix Ind\u00edgena uraqiwj sara\u00f1apatak ukhamarak
+  Parque Nacional de Isiboro S\u00e9cure (TIPNIS) wakicht\u2019atawa, ukat ukaw wasitat
+  mayamp ch\u2019axw\u00e4winakamp arsuwinakamp u\u00f1stayi. Indigena tamanaka, TIPNIStuqin
+  jakirinakamp wasitat aka 27 urunak saraqkipan qasaw phaxsita 2012 marana kayuk jutantapxi
+  (marcha), Trinidad markat La Paz markar puruninkama, uka amt\u00e4w t\u2019unja\u00f1ap
+  mayi\u00f1ataki.\\n14 May 2012\\nTodoLoQueHay Multimedia web jichhakiw Colombia-t
+  Ember\u00e1-Cham\u00ed-n m\u00e4 ch\u2019usas\u00efwit apkati khithinakat\u00ef
+  Karmata Rua-mp u\u00f1t\u2019ayaskapayax achachilanakapan sutinakapamp u\u00f1t\u2019ayasi\u00f1
+  yant\u2019aski.\\n10 May 2012\\nKunawsati, Irma \u00c1lvarez Ccoscco Rising Voices
+  ukamp yanapt''at machaq Llaqtaypa Rimaynin amata sarantayirix (coordinadora) Haquira,
+  Per\u00fa markapar amta (proyecto) u\u00f1t''ayir kutt''awaykatayna, ukhax markachirinakampit
+  jilir marka irpirinakampitx ch''amancht''awinakw katuqatayana.\\n2 May 2012\\nBloggers
+  La Joven Cuba ukax Matanza markan 27 ukat 28 uru qasawi phaxsin Cubankir bloggerunakan
+  jikthapat\u00e4wip wakt''ayapxi. Uka aruskipaw u\u00f1ja\u00f1atakix aka Twitter
+  #BlogazoxCuba (@BlogazoxCuba) ukaruw arktapxasma.\\nSanta Cruz markanxa, m\u00e4
+  amtaw sarantaski, amt\u00e4wipax medios digitales ukamp sarantaya\u00f1awa, internettuqin
+  qilqatanak utjaya\u00f1a, ukhamat jaqinakax arup jach''anchapxa\u00f1apataki ukhamar
+  jakayapxa\u00f1apataki.\\n29 April 2012\\nPortal Territorio Ind\u00edgena ukat Gobernanza
+  ukax instituciones ukanakan chikanchatawa, America Latina uksan pueblos indijinas
+  ukanakar markanakap yanapt''a\u00f1atakiw irnaqi. Video uksaw sartawip u\u00f1t''ayapxi.\\n25
+  April 2012\\nJichha maranaxa, redes sociales ukaruw jallallt\u2019ata, Ng\u00e4be-Bugle
+  ukan indiginanakan ch\u2019axwawinakapaw sumpin u\u00f1t\u2019ayasi. Anata phaxsin
+  Ng\u00e4be-Bugle ukankirinakax Panamericana thakhi sit\u2019antapx\u00e4na, miner\u00eda
+  ukxat arst\u2019asina ukhamarak \u201cmaymarax kunati amt\u00e4wir puritakan ukar
+  marka apnaqirin phuqha\u00f1ap mayi\u00f1ataki.\u201d\\n23 April 2012\\nCosta Rica-n
+  taqit sipan jach\u2019a qullux Cerro Chirrip\u00f3-wa, ukat qutat akax 3820 luqanakankarakiwa.
+  Walja maranakan makhatkatapxa\u00f1apatakix walja pachpan jakirinakaru, ukat anq\u00e4xankirinakaruw
+  jawskatawayi: aka qhiph\u00efr wiriyunakax p\u00e4 mayja jak\u00e4winak apanirapistu.
+  May\u00efr u\u00f1ich\u00e4winakax 1960 mararuw kutti, ukat m\u00e4 qullu patar
+  sar\u00e4wirakiwa.\\nJilata Elias, walik aka qilqatx jaqukipt''antaxa, jallallt''atatawa,\"",
+  "\"Isturyanaka Aka tuqita Sud\u00e1frica Ta Lakan phaxsi, 2010\\nInas aka Copa Mundial
+  2010 u\u00f1jawix yaqhip 32 markanakan inchas ukanakar m\u00e4 k\u2019ajkir ukjam
+  u\u00f1t\u2019aychi. Ukatx sonido satax vuvuzelan uxupjatapat u\u00f1t\u2019ayi,
+  u\u00f1tasirinakan ukjamarak telivision u\u00f1tirinikan ist\u2019apxa\u00f1apawa.
+  Sonido ukax vuvuzela satan...\\nCopa Mundial Futbulaxa, uraqpachan jach\u2019a anatawimp
+  sasirakispawa, Continente africanxa, nayr\u00efr kutiw apasi. Global Voicesax uraqpachat
+  markachirinakan arunakap arsusaw u\u00f1acht\u2019ayi. M\u00e4 ch\u2019amt\u2019awiw
+  aka aruskipaw jilatataya\u00f1axa, anatawinak thakhinkipanx aruskipawix inas yant\u2019atachisp
+  sasaw...\"", "\"Terminal de comercio MetaTrader ukan u\u00f1akipa\u00f1a: kunjamas
+  instala\u00f1a, configurar ukat alxa\u00f1a plataforma Metatrader ukan 2022 maran.
+  MetaTrader ukax m\u00e4 terminal de comercio ukan wali u\u00f1t\u2019atawa, ukax
+  luratawa Futures, Forex ukat CFD uka qhathunakanx servicios de comercio ukanaka
+  chura\u00f1ataki.\\n- Versiones de MetaTrader ukax qhathunakan apnaqatawa\\n- MT
+  plataforma ukax u\u00f1acht\u2019ayatawa\\n- Kunjamas MetaTrader terminal ukar u\u00f1staya\u00f1a
+  \u2013 m\u00e4 thakhi yatich\u00e4wi\\n- MetaTrader Interfaz ukan u\u00f1akipa\u00f1a\\n-
+  Ukax m\u00e4 cadena est\u00e1ndar satawa\\n- Ukax m\u00e4 l\u00ednea de estado\\n-
+  Gr\u00e1fico chimpunaka\\n- Gr\u00e1ficos ukanaka\\n- Marka u\u00f1akipa\u00f1a\\n-
+  Datos ukax m\u00e4 ventana\\n- Navegador ukax m\u00e4 ventana\\n- Terminal ukax
+  Metatrader satawa\\n- Estrategia Yant\u2019iri\\n- Kunjams estrategia yant\u2019irix
+  irnaq\u00e4na\\n- Kunjamas plataforma MetaTrader 5 ukan irnaqa\u00f1ax \u2013 experiencia
+  pr\u00e1ctica de aplicaci\u00f3n\\n- Kunjamas MetaTrader ukan chart u\u00f1acht\u2019aya\u00f1
+  plantilla ukar mayjt\u2019aya\u00f1a\\n- Kunjamas m\u00e4 u\u00f1acht\u2019ayir
+  m\u00e4 chart ukar MetaTrader ukan u\u00f1t\u2019aya\u00f1a\\n- Kunjamas m\u00e4
+  Yatxatat Asesor MetaTrader ukan apnaqa\u00f1a\\n- Kunjamas MetaTrader ukan correo
+  electr\u00f3nico ukan alertas ukanakax utt\u2019ayata\\n- Ukax MT ukan m\u00f3vil
+  ukan aljasi\u00f1apawa\\n- Metatrader ukax app m\u00f3vil ukan ch\u2019akhanak apnaqa\u00f1a\\n-
+  Algo ukax MT\\n- MQL4 aru\\n- Jiskt\u02bcanaka ukat jays\u00e4winaka\\nVersiones
+  de MetaTrader ukax qhathunakan apnaqatawa\\nUka plataforman juk\u2019amp u\u00f1t\u2019at
+  versi\u00f3n ukax MetaTrader4 ukawa, ukampirus ukax MT5 versi\u00f3n ukarux juk\u2019amp
+  jisk\u2019akiwa funcionalidad tuqitxa. Jil\u00efr amt\u00e4wix MT4 ukan wali u\u00f1t\u2019atawa,
+  MQL4 ukat MQL5 arunakan jan walt\u2019awinakapata, ukat taqi instrumentos de comercio,
+  indicadores ukat scripts ukanakar kust\u2019aya\u00f1ax m\u00e4 juk\u2019a ch\u2019amjam
+  lurawiwa.\\nMT plataforma ukax u\u00f1acht\u2019ayatawa\\nPlataforma de comercio
+  MetaTrader ukax taqpach autosuficiente ukat janiw yaqha programas ukanakamp utt\u2019aya\u00f1ax
+  wakiskiti. Taqi wakisiri instrumentos de comercio ukaxa apnaqirinakaruxa churatarakiwa:
+  \u00edndices, pares de moneda, acciones, mercanc\u00edas (metales, petr\u00f3leo).
+  Jach\u2019a funcionalidad t\u00e9cnica ukaxa akanakawa:\\n- walja arunakampi alxa\u00f1a
+  yatiyawinaka;\\n- 38 an\u00e1lisis t\u00e9cnico u\u00f1acht\u2019ayirinaka;\\n-
+  6 amtawinakax pendiente ordenes ukanakataki;\\n- 4 zoom u\u00f1acht\u2019aya\u00f1a;\\n-
+  calendario econ\u00f3mico ukaxa;\\n- uka \u201cvidrio de precios\u201d ukar yanapt\u2019a\u00f1a;\\n-
+  funci\u00f3n de ejecuci\u00f3n parcial de ordenes ukanaka phuqha\u00f1a;\\n- estrategias
+  ukanaka yant\u2019a\u00f1ataki yati\u00f1a;\\n- redes ukatxa cobertura uka lurawinakata
+  ;\\n- uka ch\u2019amampi lura\u00f1a scripts ukatxa indicadores autom\u00e1tico
+  alxa\u00f1ataki;\\n- jach\u2019a aljirinakax se\u00f1alanakapamp mayachasi\u00f1
+  yati\u00f1a jan ukax se\u00f1alanak alja\u00f1atak ucha\u00f1 yati\u00f1a.\\nKunjamas
+  MetaTrader terminal ukar u\u00f1staya\u00f1a \u2013 m\u00e4 thakhi yatich\u00e4wi\\nM\u00e4
+  wakiskir mayiwi dispositivos t\u00e9cnicos ukatakix m\u00e4 procesor ukan utjatapaw
+  SSE2 ukan yanapt\u2019apampi. Metatrader software ukar sitio web oficial ukan u\u00f1staya\u00f1ax
+  taqpach inakiw.\\n- Paso #1 \u2013 MetaTrader ukar apkata\u00f1amawa ukat instalador
+  ukar apnaqa\u00f1amawa.\\n- Paso #2 \u2013 licencia acuerdo ukan kamachinakaparjam
+  iyaw sa\u00f1a. Ukaxa m\u00e4 cuenta abierto de comercio ukampi, ukatxa instalador
+  ukaxa logotipo de corredor ukampi.\\n- 3ri t\u2019aqa \u2013 wakichawi utt\u2019aya\u00f1a.
+  Akax janiw programa instalaci\u00f3n direcci\u00f3n ukak mayjt\u2019aya\u00f1akiti,
+  jan ukasti autom\u00e1tico lanzamiento de sitio MQL ukax desactivar ukhamawa.\\n-
+  #4 \u2013 Metatrader ukan cuentap jist\u2019ara\u00f1a. Kunawsatix instalaci\u00f3n
+  ukax tukuyat\u00e4xi ukhax \u201cCuenta Abierta\u201d ukax u\u00f1stawayiwa. Akax
+  m\u00e4 yatiqiri jan ukax chiqpach cuenta ajlli\u00f1amawa ukat irnaqa\u00f1 qallta\u00f1amawa.\\nMetaTrader
+  Interfaz ukan u\u00f1akipa\u00f1a\\nMetatrader ukan interfaz ukax wali flexible
+  ukhamarak personal muna\u00f1anakamaruw u\u00f1t\u2019ayasispa. U\u00f1akipt\u2019a\u00f1a
+  bot\u00f3n apnaqasa, plataforma ventana ukan kuna paneles ukanakas tamap mayjt\u2019aya\u00f1a
+  ukat mayjt\u2019aya\u00f1ax wali ch\u2019amawa.\\nUkax m\u00e4 cadena est\u00e1ndar
+  satawa\\nAka panel ukanxa, ventanas ukar mayjt\u2019aya\u00f1a, jist\u2019ara\u00f1a
+  (jist\u2019anta\u00f1a) MetaEditor, m\u00e4 posici\u00f3n jist\u2019ara\u00f1a,
+  autotrading apnaqa\u00f1a.\\nUkax m\u00e4 l\u00ednea de estado\\nAka consola ukaxa
+  u\u00f1acht\u2019ayiwa kunjamasa conexi\u00f3n ukaxa servidor ukaru ukhamaraki perfil
+  de visualizaci\u00f3n ukaxa gr\u00e1ficos ukanaka apnaqata. Uka ch\u2019iyar m\u00e4
+  chiqaru ch\u2019allt\u2019asma ukhaxa, jank\u2019akiw yatiyawix u\u00f1stani: uru,
+  extremo puntos ukan valores ukanaka, jist\u2019ara\u00f1a ukat jist\u2019anta\u00f1a
+  chaninaka.\\nGr\u00e1fico chimpunaka\\nAka panel ukar yuspajarasinx, jasakiw chart
+  u\u00f1akipa\u00f1arux mayjt\u2019ayasma. Ukax juk\u2019ampirus walja ch\u2019akhanakan
+  irnaqa\u00f1ax wali askiwa.\\nGr\u00e1ficos ukanaka\\nPanel ukaxa u\u00f1jawi mayjt\u2019aya\u00f1ataki,
+  gr\u00e1ficos ukanaka mayjt\u2019aya\u00f1ataki, escala mayjt\u2019aya\u00f1ataki.
+  Ukhamarus, panel ukax chart ukamp irnaqa\u00f1atakix herramientas ukanakaw utji
+  \u2013 indicadores ukanakamp yapxata\u00f1a, l\u00edneas t\u00e9cnicas ukanakamp
+  yapxata\u00f1a (R / S, l\u00edneas de tendencia, juk\u2019ampinaka), m\u00e4 aski
+  pacha ajlli\u00f1a.\\nMarka u\u00f1akipa\u00f1a\\nAkax m\u00e4 ventana u\u00f1acht\u2019ayiw
+  cotizaciones ukanakax qullqi paris ukat commodities ukanakataki. Irnaqa\u00f1atakix
+  m\u00e4 lista t\u2019ijtir jan ukax m\u00e4 chart ajlli\u00f1amawa. Ukhamarus, uka
+  listan auto desplazamiento ukarux mayjt\u2019ayaraksnawa.\\nDatos ukax m\u00e4 ventana\\nAka
+  ventana ukanxa, cotizaciones ukan mayjt awinakapat yatiyawinak ukhamarak indicadores
+  de an\u00e1lisis t\u00e9cnico ukan valores ukanakax p\u00e4 kutiw u\u00f1akipata.\\nNavegador
+  ukax m\u00e4 ventana\\nAka chiqanx cuentas, yatxatirinaka jan ukax indicadores ukanakaw
+  u\u00f1akipt\u2019asispa ukat mayjt\u2019ayasispa.\\nTerminal ukax Metatrader satawa\\nTerminal
+  ukaxa m\u00e4 jach\u2019a jakhuwi tabla ukanakampi jaljatawa ukaxa yatiyawinakxa
+  wakicht\u2019a\u00f1atakixa lurawinakata. Nayraqata tablas ukanakaxa u\u00f1acht\u2019ayiwa
+  kuna kasta lurawi, jichha pacha cotizaciones, SL ukatxa TP puntos, jaljawi, ganancia.
+  Jut\u00efri tablas ukaxa yatiyawiwa historial de comercio, grado de riesgo, notificaciones
+  del corredor, registro de registro, ventana de expertos.\\nEstrategia Yant\u2019iri\\nAka
+  panel ukax wakicht\u2019at estrategias ukanakamp yant\u2019a\u00f1atakiwa jan ukax
+  jumanakan lura\u00f1atakiw yanapt\u2019i.\\nKunjams estrategia yant\u2019irix irnaq\u00e4na\\nU\u00f1akipt\u2019a\u00f1\u00e4ni
+  operaci\u00f3n procedimiento ukaxa MT4 yant\u2019iri u\u00f1acht\u2019awimpi.\\n-
+  Estrategia yant\u2019irixa jist\u2019aratawa \u201cU\u00f1xatt\u2019a\u00f1a\u201d
+  ukanxa jan ukaxa CTRL + R ukxa ch\u2019iqt\u2019ayasa.\\n- M\u00e4 iwxt\u2019ir
+  ajlli\u00f1a.\\n- Yaqha wakich\u00e4winakax \u201cPropiedades de consejeros\u201d
+  ukan u\u00f1t\u2019ayatawa. Uka wakichawixa kimsa tuqita phuqhatawa:\\n- yant\u2019awinaka
+  \u2013 qullqi parijunaka ukhamaraki vol\u00famenes de dep\u00f3sito, tipos de cargos
+  (yatxatirixa algoritmo especificado ukarjamakiwa irnaqani);\\n- par\u00e1metros
+  de entrada \u2013 edici\u00f3n de valores constantes ukax taqpach lurawiruw jan
+  walt\u2019ayi, jan ukax c\u00f3digo EA ukar mayjt\u2019aya\u00f1ax wakiskiti;\\n-
+  optimizaci\u00f3n \u2013 control de l\u00edmites de paso de prueba (janiw m\u00e4
+  yant\u2019\u00e4win resultadonakaparux jan walt\u2019aya\u00f1akiti).\\n- Yant\u2019a\u00f1ataki
+  m\u00e4 instrumento de comercio ajlli\u00f1a.\\n- Murilu. Yatxatirina algoritmos
+  ukarjamaxa, aka yant\u2019awi modelos ukanakawa ajllitaraki:\\n- chaninak jist\u2019arasa
+  \u2013 akax juk\u2019amp jaya thakhiwa, nayraqat utt\u2019ayat barranakar u\u00f1tasita;\\n-
+  puntos de control \u2013 m\u00e4 thakhi m\u00e4 jisk\u2019a u\u00f1akipa\u00f1a
+  intrabar comercio Expertos Consejeros, ukampirusa apnaqa\u00f1a jisk\u2019a pacha;\\n-
+  taqi ch\u2019uqi \u2013 aka lurawixa m\u00e4 modelo u\u00f1acht\u2019aya\u00f1ataki
+  chanipa sarnaqawipa barra ukanxa chiqaparu; aka modelo de prueba ukax juk\u2019amp
+  chiqapawa, ukampis juk\u2019amp llamp\u2019u.\\n- Urunaka \u2013 pacha ajlliwixa
+  wakisiwa yant\u2019a\u00f1ataki Yatxatiri Asesor ukaxa ajlliri segmento ukanxa.\\n-
+  Visualizaci\u00f3n \u2013 u\u00f1jataxa u\u00f1acht\u2019ayiwa lurawinakapa iwxt\u2019iriru
+  m\u00e4 juk\u2019a qhatuta.\\nKunjamas plataforma MetaTrader 5 ukan irnaqa\u00f1ax
+  \u2013 experiencia pr\u00e1ctica de aplicaci\u00f3n\\nKunawsatix nayr\u00efr kutix
+  terminal de comercio ukax qalltawayktan ukhax manta\u00f1amawa: m\u00e4 contrase\u00f1a
+  u\u00f1t\u2019aya\u00f1amawa, u\u00f1t\u2019aya\u00f1amawa ukat servidor ukax wakiskir
+  ajlli\u00f1amawa. Jan\u00efra irnaqa\u00f1 qalltkasaxa, jupanakaxa m\u00e4 cuenta
+  jist\u2019arapxi, ukatakixa, \u201cArchivo\u201d uksanxa, \u201cAbrir una cuenta\u201d
+  ukxa ajlli\u00f1awa, ukatxa datos ukanaka qillqt\u2019a\u00f1a, ukatxa aparato ajlli\u00f1
+  amtapxi. Aka cuenta ukaxa janiwa chiqapa intercambio lurawinakaruxa manta\u00f1apakiti.
+  Novice aljirinakataki ukhamarak khitinakatix jan\u00efr plataforma Metatrader ukamp
+  irnaqapki jupanakatakix m\u00e4 cuenta demostraci\u00f3n ukan irnaqa\u00f1 yant\u2019a\u00f1ax
+  wali askiwa. Akax m\u00e4 aski askiw MetaTrader ukan aljasi\u00f1 yatiqa\u00f1atakix
+  lurawinakan. https://articles.opexflow.com/trading-training/torgovlya-na-demo-schete.htm
+  Aljirinakax nayraqatw corredor ukamp qillqantat\u00e4pxi, jank\u2019akiw m\u00e4
+  cuenta de comercio en vivo ukar mantapxaspa. Uka lura\u00f1atakixa, \u201cArchivo\u201d
+  ukanxa, \u201cConectar a \u2026\u201d ukxa ajlli\u00f1awa, ukatxa manta\u00f1ataki
+  ukatxa contrase\u00f1a qillqt\u2019a\u00f1a, ukatxa servidor ukaxa wakiskiri ajlli\u00f1awa.
+  Uka ventana jist\u2019ara\u00f1atakixa, munata ch\u2019iqa u\u00f1acht\u2019aya\u00f1a.
+  Uk lura\u00f1atakix juk\u2019amp jasakiw Market Watch ventana tuqi. Ukhamaraki,
+  men\u00fa de contexto ukanxa, ch\u2019amancha\u00f1a jan ukax jan ch\u2019amancha\u00f1a
+  u\u00f1acht\u2019aya\u00f1a ch\u2019iqiya\u00f1a ukhamaraki u\u00f1t\u2019a\u00f1a
+  Marka Manqha Marka.\\n- \u201cServicio\u201d men\u00fa tuqixa, \u201cMachaq Orden\u201d
+  chimpu ajlli\u00f1awa.\\n- \u201cEst\u00e1ndar\u201d panel, \u201cMachaq Orden\u201d
+  chimpu.\\n- \u201cComercio\u201d men\u00fa, \u201cBalance\u201d uka chimpu, \u201cMachaq
+  orden\u201d chimpu.\\nM\u00e4 orden jist\u2019anta\u00f1atakixa, \u201cTrade\u201d
+  ukxa ajlli\u00f1awa panel \u201cTerminal\u201d ukanxa, ajlli\u00f1awa orden ukaxa
+  jist\u2019anta\u00f1ataki ukatxa \u201cClose Order\u201d ukxaru ch\u2019iqt\u2019a\u00f1awa.
+  Uka ventana ukaxa u\u00f1acht\u2019ayiwa par\u00e1metros de la transacci\u00f3n,
+  ukaxa jist\u2019anta\u00f1a chanipaxa wali askiwa, ukatxa ch\u2019iqt\u2019a\u00f1a
+  uka jaya \u201cJist\u2019anta\u00f1a\u201d bot\u00f3n.\\nCuentas de corretaje ukax
+  jist\u2019arasirakispawa jach\u2019a bancos rusos ukanakan \u2013 Sberbank ukat
+  VTB ukanakan. Plataforma MetaTrader ukax pachpakiwa, janiw m\u00e4 funci\u00f3n
+  ukankiti anq\u00e4x qullqituqit lurawinakataki.\\nKunjamas MetaTrader ukan chart
+  u\u00f1acht\u2019aya\u00f1 plantilla ukar mayjt\u2019aya\u00f1a\\nSuma irnaqa\u00f1atakixa,
+  wali wakiskiriwa ch\u2019iyara ch\u2019akhanakaxa aski ukhamaraki u\u00f1jata, ukhamarusa,
+  jan\u00efra alxa\u00f1a qalltkasaxa, ch\u2019akhanaka u\u00f1acht\u2019aya\u00f1a
+  mayjt\u2019aya\u00f1awa wakisi. Ukhamarusa, plataformax ch\u2019ux\u00f1a ch\u2019iyar
+  ch\u2019iyar ch\u2019iyar u\u00f1tatawa. Ukhama saminakapaxa janiwa askikiti ukatxa
+  janirakiwa qhanancha\u00f1jamakiti.Saminaka\\nKunjamas m\u00e4 u\u00f1acht\u2019ayir
+  m\u00e4 chart ukar MetaTrader ukan u\u00f1t\u2019aya\u00f1a\\nUka ch\u2019iqa u\u00f1akipa\u00f1atakixa,
+  u\u00f1acht\u2019awinakampi yapxata\u00f1aw wakisi. Ukax \u201cInsertar\u201d men\u00fa
+  tuqiw lurasispa jan ukax Consola de Acceso R\u00e1pido ukampiw lurasispa. M\u00e4
+  phuqhat conjunto de objetos gr\u00e1ficos ukax Ctrl+B ukampiw lurasispa. M\u00e4
+  jan ukax walja u\u00f1acht\u2019awinak yapxatasma. Promedios m\u00f3viles ukanakamp
+  yapxata\u00f1 u\u00f1acht\u2019\u00e4wit amuyt\u2019a\u00f1\u00e4ni.\\nKunjamas
+  m\u00e4 Yatxatat Asesor MetaTrader ukan apnaqa\u00f1a\\nM\u00e4 iwxt\u2019ir (yatxatiri)
+  ukax m\u00e4 bot ukawa, ukax m\u00e4 chart ukar u\u00f1t\u2019ayatawa, autom\u00e1tico
+  aljasi\u00f1ataki. Bot ukax jist\u2019araspawa ukat jist\u2019antaspawa posiciones,
+  yatiyawinak apayanispa, yatiyawinak u\u00f1stayaspa. M\u00e4 Yatxatiri Iwxt\u2019irikiw
+  m\u00e4 ch\u2019iyar ch\u2019ankhax irnaqaspa, ukampis m\u00e4 Yatxatiri Iwxt\u2019irix
+  walja ch\u2019iyar ch\u2019akhanakaruw u\u00f1t\u2019ayasispa. M\u00e4 Yatxatat
+  Asesor ukar ch\u2019iyar ch\u2019iyar yapxata\u00f1atakix, Navegador ukan chimpupanx,
+  bot ukampiw uka archivo ukar p\u00e4 kuti ch\u2019iqt\u2019a\u00f1ama. Uka propiedades
+  ventana ukanxa, \u201cpermitir autotrading\u201d ukar ch\u2019iqt\u2019a\u00f1a.\\nEA
+  ukax jan alxa\u00f1apatak jaysat\u00e4kani ukhax icono ukax ukham u\u00f1t\u2019ayasini.\\nKunjamas
+  MetaTrader ukan correo electr\u00f3nico ukan alertas ukanakax utt\u2019ayata\\nAutomatizado
+  comercio ukaxa janiwa jayta\u00f1akiti, iwxt\u2019irina lurawinakapaxa sapa kutiwa
+  u\u00f1jasi\u00f1apa. Uka tuqit wali wakiskir yatiyawinakax akanakawa:\\n- jist\u2019ara\u00f1a/jist\u2019anta\u00f1a
+  utanaka;\\n- sapa mayni patrunanaka u\u00f1staya\u00f1a ;\\n- servidor ukar manta\u00f1
+  chhaqhaya\u00f1a;\\n- margen exceso ukaxa;\\n- alxawi yatiyawi m\u00e4 qhawqha pachataki.\\nYatiyawinak
+  katuqa\u00f1atakix, correo ukan yatiyawinakap wakicht\u2019a\u00f1aw wakisi. Uka
+  lura\u00f1atakixa, \u201cServicio\u201d ukxa ajlli\u00f1awa, ukatxa \u201cConfiguraci\u00f3n\u201d
+  ukxa ajlli\u00f1awa, ukatxa \u201cCorreo\u201d ukxa ajlli\u00f1awa.\\nUkax MT ukan
+  m\u00f3vil ukan aljasi\u00f1apawa\\nAplicaciones m\u00f3viles Metatrader ukax operaciones
+  de comercio lura\u00f1 yanapt\u2019i, tablet jan ukax smartphone ukampi ukax sistemas
+  operativos iOS ukat Android ukaruw yanapt\u2019i. https://articles.opexflow.com/software-trading/mobile.htm
+  Metatrader ukax m\u00e4 aplicaci\u00f3n m\u00f3vil ukan ch\u2019amapampiw lurasi,
+  m\u00e4 qawqha excepciones ukanakampi, ukax versi\u00f3n de escritorio ukar u\u00f1tasitawa.
+  M\u00e4 juk\u2019a mayjt\u2019awix m\u00e4 estrategia yant\u2019ir jan utjatapata
+  ukhamarak kims\u00efr programas ukanakamp chikancht\u2019asi\u00f1 yati\u00f1ankiwa.
+  Ukhamakipansti, apps m\u00f3viles ukax yaqha aljirinakampi m\u00e4 amparamp aruskipt\u2019a\u00f1aw
+  utji. App m\u00f3vil ukax sitio web oficial Metatrader ukanx taqi dispositivonakatakiw
+  apkatasispa, Apple App iOS ukat Google Play Android ukataki. Ukatxa, instalaci\u00f3n
+  ukax autom\u00e1ticamentew lurasi. M\u00e4 cuenta jist\u2019ara\u00f1atakixa, \u201cConfiguraci\u00f3n\u201d
+  ukxa jist\u2019ara\u00f1awa ukatxa \u201cMachaq Cuenta\u201d ukxa ajlli\u00f1awa.\\nMetatrader
+  ukax app m\u00f3vil ukan ch\u2019akhanak apnaqa\u00f1a\\nUkanx akham lura\u00f1anakaw
+  utji:\\n- Desplazamiento \u2013 Pantalla tuqiru ch\u2019iqa tuqiru ch\u2019allt\u2019a\u00f1a.\\n-
+  M\u00e4 u\u00f1acht\u2019ayiri yapxata\u00f1ataki jan ukaxa apsu\u00f1atakixa, f
+  ukxa ch\u2019iqa tuqiru ch\u2019iqt\u2019a\u00f1awa jan ukaxa \u201cIndicadores\u201d
+  ukxa jist\u2019ara\u00f1awa.\\n- Modo de pantalla completa ukax ch\u2019amanchatawa
+  kunawsatix smartphone ukax orientaci\u00f3n paisaj\u00edstica ukar muyuntki ukhaxa.\\n-
+  Kuna kasta ch\u2019aphinaksa yati\u00f1atakixa, uka jisk\u2019a men\u00fa ukanxa
+  uka chimpu jist\u2019ara\u00f1amawa. Taqpachanxa, 3 kasta ch\u2019akhanakawa utji:
+  ch\u2019iqa ch\u2019iqa, histograma ukatxa velas.\\n- M\u00e4 y\u00e4 ch\u2019iyar
+  u\u00f1acht\u2019aya\u00f1atakixa, geom\u00e9trico u\u00f1acht\u2019awinakampi chimpumpiwa
+  ch\u2019iqt\u2019a\u00f1ama.\\n- \u201cAzulejo de ventana\u201d \u2013 aka tabla
+  apnaqasa, 4 charts smartphones ukan jist\u2019arasma ukat 6 charts tabletas ukan
+  m\u00e4 pachan jist\u2019arasma. Ukhamaraki, tabla ukaxa u\u00f1acht\u2019aya\u00f1atakixa
+  ch\u2019iqa u\u00f1acht\u2019aya\u00f1atakixa wakisiwa.\\nAlgo ukax MT\\nAlgor\u00edtmico
+  ukax m\u00e4 jach\u2019a ventaja ukawa plataforma Metatrader ukat. Algoritmo alxa\u00f1
+  yanapt\u2019ampixa, independientemente lura\u00f1a, yant\u2019a\u00f1a ukat apnaqa\u00f1a
+  alxa\u00f1 tuqit iwxt\u2019irinaka (yatxatirinaka), scripts ukat indicadores. Taqi
+  ukax lurasispawa MetaEditor editor ukat MetaQuotes Language 4 programacion arupar
+  yuspajarasawa Machaq walja qhathu yant\u2019irix pachpa estrategia apnaqa\u00f1
+  yanapt\u2019i kunayman alxa\u00f1 instrumentunakataki. Ukax wali askiwa, kunatix
+  janiw sapa instrumento sapa mayni yant\u2019a\u00f1ax wakiskiti, taqi pachanakax
+  autom\u00e1ticamente wasitat luratawa ukat sincronizado ukhamawa. M\u00e4 auto-creado
+  script, iwxt\u2019iri jan ukax indicador ukanakax chhaqtayasispawa:\\n- C\u00f3digo
+  Base ukan u\u00f1t\u2019aya\u00f1ax inakiw apkata\u00f1ataki;\\n- Markasan payllat
+  apkata\u00f1atakiw u\u00f1t\u2019aya\u00f1a;\\n- sistema Freelance ukanxa aljiriruxa
+  pasaya\u00f1a ukatxa m\u00e4 premio katuqa\u00f1a.\\nMetaTrader 5 plataforma de
+  comercio, chips ukat MT5 ukat MT4 ukanakamp chikancht\u2019asi\u00f1 u\u00f1akipa\u00f1a:
+  https://youtu.be/HUJtFUckpWQ\\nMQL4 aru\\nMetaQuotes Language 4 ukan sintaxis ukax
+  wali ch\u2019amawa. C aruxa niya kipkak\u00efkchisa, MQL4 aruxa juk ampi ch amanchatawa.
+  MQL4 apnaqa\u00f1amp qillqt\u2019at qillqatanakax phuqhat qillqatanakawa. Jupanakax
+  MetaEditor ukampiw ex4 formato ukar apthapi\u00f1apa. Ukax ex4 qillqatanakakiw phuqhasispa.
+  Taqi MetaEditor qillqatanakax iwxt\u2019irinakan carpetapan imat\u00e4xiwa.\\nJiskt\u02bcanaka
+  ukat jays\u00e4winaka\\nKunjamas kunayman pachanakan y\u00e4nak u\u00f1acht\u2019aya\u00f1ax
+  wakicht\u2019asispa? Ukaxa Ctrl + B uka teclas ukanakampiwa configuraci\u00f3n ventana
+  ukarux jawst\u2019asispa. Uka ventana jist\u2019ara\u00f1atakixa, wakisiri pachanaka
+  chimpuwa.\\n\u00bfKunatsa uka tablajj jan desplazat\u00e4ki? \u201cConfiguraci\u00f3n\u201d
+  uksanxa, \u201cAuto desplazamiento chart\u201d uka chimpu ajlli\u00f1awa. Ukax ch\u2019ux\u00f1a
+  kimsa chimpunak ch\u2019allt\u2019asaw activado.\\n\u00bfMT4 ukan walja corredoranakampi
+  kunayman cuentanakampi m\u00e4 pachan irnaqa\u00f1ax wakisispati? Ch\u2019ama! Plataforma
+  qallta\u00f1atakixa, nayr\u00efri corredor ukan servidor ukarux l\u00ednea ukan
+  manta\u00f1amawa. Ukatxa m\u00e4 ventana jist\u2019arasini. Jut\u00efr ch\u2019iqt\u2019a\u00f1a
+  ukat machaq cuenta lura\u00f1a.\\nKunjamas MT4 auto-actualizaci\u00f3n ukax jan
+  ch\u2019amanchasispa? Uka qhipatxa, u\u00f1acht\u2019ayirinakax janiw irnaqapkiti.Akax
+  m\u00e4 MT4 ukan jan walt\u2019awipawa. Uka jan ch\u2019amancha\u00f1atakix, programa
+  archivonakampi carpeta ukar sara\u00f1aw wakisi ukat WebInstall ukx taqpach apsu\u00f1aw
+  wakisi. Ukxarusti, m\u00e4 WebInstall qillqat lura\u00f1aw jan txt tukuya\u00f1ampi.\\n\u00bfKunatsa
+  jan MT4 ukan m\u00e4 pedido lura\u00f1jam\u00e4kiti? \u201cFlujo comercial ukax
+  ocupado\u201d u\u00f1acht\u2019ayatawa. Jilapachax janiw m\u00e4 conexi\u00f3n servidor
+  ukax utjkiti jan ukax Internet ukax chhaqtayatawa. Internet ukax utjki ukat pantjasiwix
+  utjaskakiwa, ukax terminal ukaruw wasitat qallta\u00f1apa.\\n\u00a1Nayaw jan amuyt\u02bcasis
+  uka chart chhaqtayta! \u00bfKunjamt\u00ef nayrajj taqe kunsa kutt\u02bcaya\u00f1ajj
+  wakisispati? Nayax janiw taqi wakich\u00e4winakar wasitat manta\u00f1 munkti. \u201cArchivo\u201d
+  men\u00fa ukanxa, \u201cJist\u2019ara\u00f1a remoto\u201d ukxa ajlli\u00f1awa, ukatxa
+  ch\u2019iqaxa taqi wakichawinakampiwa kutt\u2019ayatarakini.\"", "\"FELCC. tuqinkirinakax
+  mayni kullakax usuchjat jikxatasiwaykipanx yatxatasiskiw sawayapxiwa\\nEl Alto markanx
+  Fuerza Especial de Lucha contra el Crimen tuqinkirinakax yatiyawayapxiw aka urunakax
+  yatxatawinak chika\u00f1chayat utjatapa. Ukasti kunatix mayni kullakar m\u00e4 akatjamat
+  khaysa Altolima tuqin jupax utapar sarkipan m\u00e4 arma de fuego satakis ukamp
+  illapt''apxatapata.\\nJichhax F.E.L.C.C. tuqinkirinakax sawayapxiw, kunjamats ukax
+  utjawaypacha, kamachpachasa, khitis ukham uka kullakar lurawaypacha ukanakaw aka
+  urunakanx yati\u00f1atakix irnaqataski sasaw yatiyawayapjixa. Ukampis jichhurkamax
+  janiraw sumax kunas yatiskiti sasaw yatiyawayapxi.\"", "\"Wali aski isturyanaka
+  Aka tuqita Bengal\u00ed\\nBelow are posts about citizen media in Bangla. Don''t
+  miss Global Voices \u09ac\u09be\u0982\u09b2\u09be \u09ad\u09be\u09b0\u09cd\u09b8\u09a8,
+  where Global Voices posts are translated into Bangla! Read about our Lingua project
+  to learn more about how Global Voices content is being translated into other languages.\\nIsturyanaka
+  Aka tuqita Bengal\u00ed\\n24 Anata 2013\\nUrur\u00fcru, 8 uru saraqkipan anata phaxsit
+  aka 2013 maranxa, Shahbaghn Plaza Generaci\u00f3nxa, waranq waranq jaqinakaw bloguero-nakamp
+  l\u00edneaan arnaqxirinakamp arst\u2019awinakar yanapt\u2019as tantachsi\u00f1 qallantapxi.
+  Arif Hossain Sayeed...\\n30 Lapaka 2012\\nKimsa qallq paxsinakaw saraqawayx yatiyirinakan
+  jiwayawinakapatxa. Janiw kuna thaqawis jichhakama utjikiti. Jichha ministrux sarakinawa
+  phuqachasiniwa ukhamarus aka tunka uru saraqat octubre paxsinxa ministrunakax amuykipawapxi,
+  sasa.\\nJilata Manzano, yuspajarpun uka aru qillqt''anitamata, kawkha markats qillqt''anta.
+  Jumatak m\u00e4 jach''a arunt\u00e4wi\\nYuspaqara,,,jichhax akat aruskip\u00e4w
+  qillaqasinja...aksa tuqu markata..\"", "\"Isturyanaka Aka tuqita Tecnolog\u00eda
+  De Jallu qallta, 2011\\n31 Jallu qallta 2011\\nEconom\u00eda de Bratislava (EUBA)
+  jach''a yatiqa\u00f1 utax m\u00e4 cuntratu ruxuntawapxi, sistemas electr\u00f3nicos
+  ukta software uka Facultad de Econom\u00eda Nacional ukataki, 1,8 waranqa waranqa
+  euros ukha...\\n30 Jallu qallta 2011\\nHugo Ch\u00e1vez irpiriru ch\u2019amanchiri
+  hackeranakax Twitter cuentanaka marka irpirinakaru k\u2019umirinakaru aparaskapxixa.
+  Jak\u2019atjamatwa, aka cuenta arkirinakax u\u00f1japxi kunjamas walja marka apnaqirinakaru
+  k\u2019umirinakax mayjt\u2019ayapxan presidente Ch\u00e1vez jallallt\u2019asa...\\nYo
+  creo que ya deben estar prepar\u00e1ndose para el encuentro, que se llevar\u00e1
+  en Cochabamba-Bolivia,...\"", "\"Isturyanaka Ta Enlace\\nEt\u00edopia markankirinakax
+  inusinti uruw amtawayapxi, ukat twitter uksanx jan chiqa yatiyawinak qillqt''awayapxi,
+  medios de comunicaci\u00f1on ukanakar u\u00f1tasita. Jupanakax. Mayni tuitero et\u00edope
+  ukax akham sasw si: \u201cJupanakax m\u00e4 maranx 365 uruw k''arintapxi, nanakax
+  ukwa kut''t''ayapta, walja yatiyaw p''iqinchatanakaw utji\u201d. arkatam ukatx twtiyarakima
+  #ETvDay [en].\\nJil\u00efr irpir Nicol\u00e1s Maduro ukar ch\u2019amanchapk uka
+  kullakanakax 22 uru aka anata phaxsitx kallinakaruw mistuwayapxatayna, kunat uka
+  qhurut arsusiw markpachan utjik uka sayt\u2019xpan sasin mayt\u2019a\u00f1ataki.\\nJes\u00fas
+  Gil Fotografux aka sitio web Demotix [en] uksanw uka sartasixat walja phutunak u\u00f1acht\u2019ayi:\\nAndre\u00edna
+  Taraz\u00f3n, Ministra del Poder Popular para la mujer y la Igualdad de G\u00e9nero
+  de Venezuela, uksatx uka warminakaruw uka sartsiwir chikancht\u2019asipan sasin
+  jawillt\u2019awayi (invit\u00f3):\\n#mujeresporlapaz marchamos para pedir el cese
+  al vandalismo, la violencia y por el respeto a la Constituci\u00f3n.\\n\u2014 Andre\u00edna
+  Taraz\u00f3n (@AndreinaTarazon) February 21, 2014\\nJuk\u2019amp phutunak u\u00f1japxasmawa,
+  #MujeresPorLaPaz y #MujeresContraElFacismo.\\nKhitinkati ji\u00efr irpir kuntra
+  sartapk ukankax uka pachparakiw ukajan walt\u2019awinakxat u\u00f1t\u2019ayapxi,
+  ukax uka ururakiw phuqhasi [en]. Juk\u2019ampx aka etiqueta\u00a0 uksan ulart\u2019apxasma;#22F\\nSitio
+  web Indigenous News ukax m\u00e4 estudio u\u00f1art\u2019araki [en] BMC Psychiatry
+  tuqin BMC wakicht\u2019ata [en] 748 wawanak tuqita Norte de Chile markana. Q\u2019alpach
+  estudio wawanakat luraski ukanx 37% nakaw 9 \u2013 15 maranipx\u00e4na ukax llatunk
+  yatichir utanakatarakinawa ukhamarakiw jupanakax qullqi pisin jakasirkamakipxiwa
+  aka Arica markanxa, jisnawa aymarkamaki .\\nAymar familianakax sarawinakaparxamaw
+  jakasipxi, waynanakarux jilirinakarakiw ixwapxi ukat taykanakarakiw utan wawanakar
+  u\u00f1japxi ukhamarak ixwapxisa, chachanakast\u00ef manq\u2019a\u00f1atakirakiw
+  irnaqir sarapxi.\\nAka estudiox tukuyxiw:\\nAunque los ni\u00f1os aymara han migrado
+  del altiplano andino a la ciudad, esta migraci\u00f3n no ha resultado en una mayor
+  presencia de ansiedad y s\u00edntomas de depresi\u00f3n. Una mayor participaci\u00f3n
+  con la cultura aymara puede ser un factor de protecci\u00f3n contra la ansiedad
+  y s\u00edntomas de depresi\u00f3n en ni\u00f1os aymara. Esto se\u00f1ala un beneficio
+  adicional a la conservaci\u00f3n de las tradiciones culturales dentro de esta poblaci\u00f3n.\\nKawkir
+  Aymar wawanakati chukiyawu markar jutapki ukanakax janiw llakinuxtawayapkiti. Ukham
+  jila aymar utjatapatx antis kusisi\u00f1awa. Kunatix aka sa\u00f1 muniw antisaw
+  sarawinak ch\u2019ama\u00f1chapxi aka markanxa.\\nUrururu urux Iran\u00edes uksankir
+  phisqha soldadow extremistas sunitas ukanakat secuestrat [en] Ir\u00e1n markamp
+  Pakist\u00e1n markamp qurpask uka jak''an jikxatsipxatyna. Iran\u00edes uksankirinakax
+  Twitter uksanw m\u00e4 campa\u00f1aak utjayapxi. Amin Sabeti tuytiyiwa [en]:\\nIranians
+  have started a @Twitter campaign for 5 Iranian soldiers who are abducted by a terrorist
+  group Jaish al-ado #FreeIranianSoldiers\\n\u2014 Amin Sabeti (@AminSabeti) February
+  9, 2014\\nIran\u00edes uksankrinakax @Twitter uksanw phisqha soltadutak m\u00e4
+  campa\u00f1 wakt''ayapxi -ado\\nTokio Berlin markanakax p\u00e4 tunka mara m\u00e4
+  jiljam jakasitanakatapat phuqhawayapxi, ukarux representantes de Industria Creativa
+  Marc Wohlrabe, Presidente de la Comisi\u00f3n del Club de Berl\u00edn, ukat Takahiro
+  Saito tatanakaw chikacht\u2019asiwayapxaraki.\\njichha P\u00e4 waranq tunka pusin
+  marat m\u00e4 uru marzo phaxsit saraqkipan aka machaq sarantawinaka, socioecon\u00f3mico
+  arsuwinakax paypach marcatak wali askipunispawa:\\nLuego de la ca\u00edda del Muro
+  de Berl\u00edn, los extremos cambios sociales, culturales y econ\u00f3micos transformaron
+  la ciudad en un patio de juegos singular. Hoy, 25 a\u00f1os despu\u00e9s, atrae
+  a creativos, empresas tecnol\u00f3gicas, empresarios sociales e inversionistas de
+  todo el mundo.\\nBerl\u00edn reconoci\u00f3 sus subculturas creativas como parte
+  de su identidad e historia, que ahora act\u00faan como impulsadores clave para el
+  turismo y la econom\u00eda. Esto transform\u00f3 a Berl\u00edn en una ciudad \u00fanica,
+  exitosa, demostr\u00f3 como el apoyo a la creatividad puede crecer hasta ser factores
+  econ\u00f3micos y sociales clave que avivan la innovaci\u00f3n y el crecimiento.\\nEste
+  cambio dram\u00e1tico y positivo que atraves\u00f3 Berl\u00edn nos lleva a la pregunta:
+  \u00bfqu\u00e9 rol puede tener la cultura creativa de Tokio en poner las bases para
+  la pr\u00f3xima fase de la ciudad? \u00bfC\u00f3mo podemos pintar un futuro m\u00e1s
+  brillante alineando el potencial creativo de estas dos ciudades?\\nBerlin pirqa
+  jalaqt\u00e4tat, markachirinakaparu, sarantawinakaparu ukar qullqinakapar mayt\u2019atapat
+  markar m\u00e4 anata\u00f1 canchar u\u00f1tatakaspas ukjam u\u00f1jasiwayi. Ukat
+  akarux p\u00e4 tunka phisqa maraw saraqawayxi, ukat jichhasti machaqat saraw sarantayirinakaru,
+  empresas tecnol\u00f3gicas, empresarios sociales e inversionistas aka taqpacha mundunkirinakaru
+  jawsaski.\\nBerlin markax sarantawinakapan sarantawinakaparuw jupanaka sarawipanakjama
+  iyawsawayi, jichhax jupanakax nayrar turismo y economia uka sarantaya\u00f1atak
+  walpun irnaqasipki. Ukat ukax m\u00e4 sapa Berlin markaru tukuyawayi, ukjamarus
+  kunamsa factores econ\u00f3micos y sociales ukar sarantaspa ukwa u\u00f1acht\u2019awayi.\\nberlin
+  markax apistuwa m\u00e4 jiskt\u2019awiru aKa llakiskaya\u00f1a mayt\u2019atapata:
+  Kunamsa u\u00f1acht\u2019aysna m\u00e4 suma p\u2019iqinchir irptirjama aka p\u00e4
+  markaru.\\nBlog de la Biblioteca Brit\u00e1nica (British Library) ukax Guerra de
+  Vietnam ukan artes ukanak lurapkan ukwa u\u00f1acht''ayi [en]. a Nguy\u1ec5n Toan
+  Thi, mayni guerrillero ukaax uka ch''axwawin wali ch''axwatayna:\\nLas clases de
+  arte se daban en los bosques hasta que bombardearon nuestras escuelas; a partir
+  de ah\u00ed, las d\u00e1bamos bajo tierra. Los profesores de arte y los estudiantes
+  compart\u00edan las mismas trincheras. Luchamos y dibujamos juntos, para as\u00ed
+  grabar las im\u00e1genes espont\u00e1neas y realistas del campo de batalla y de
+  nuestra vida en el bosque.\\nBombardeyasi\u00f1kamax quqa taypinakanw artes ukx
+  yatichapx\u00e4na, yatichirinakamp yatiqirinakampix pachpa trincheras satak ukw
+  u\u00f1t''ayapx\u00e4na. Kunati uka pachanx jan walt''awix utjkamn ukwa chiqpach
+  lurapta.\\nRachel Hamada jupax jiskt''asiwa \u201cSud\u00e1n del Sur uksanx kuna
+  jan walt''\u00e4winakas utjaskpacha?\u201d:\\nMucha sangre se ha derramado en todo
+  Sud\u00e1n del Sur en las \u00faltimas semanas. Pero todav\u00eda no se ha derramado
+  tinta sobre Addis Abeba. Todav\u00eda est\u00e1n en curso las conversaciones entre
+  los intermediarios y funcionarios del poder en Sud\u00e1n del Sur, que se han movido
+  por la ciudad muientras las discusiones no han llegado a ninguna resoluci\u00f3n
+  concreta, solamente un supuesto acuerdo sin firmas.\\nSur de Sudan uksanx aka qhipa
+  simananx walja wila wart\u00e4winkaw utjawayi ukampirus Addis Abeba ukarux janiraw
+  tinta ukax wartatakiti. Intermediarios ukat Sud\u00e1n markan Funcionarios del poder
+  ukanakax aruskipapxiwa ukampirus janiw kuna acuerdo ukas rixuntat utjawaykiti.\\nUkakipkarakiw
+  Sur de Sudan uksan periodistanakan arunakap ist''a\u00f1 munapxatapatx wal aruskipapxi.\\nMientras
+  tanto, es importante ver POR QU\u00c9 las voces de los periodistas de Sud\u00e1n
+  del Sur no se escuchan afuera.\\nImagina que eres un periodista de Sud\u00e1n del
+  Sur. Debido a acontecimientos y capacidad hist\u00f3ricos, la capacitaci\u00f3n
+  en periodismo sigue siendo relativamente escasa. As\u00ed que est\u00e1n poni\u00e9ndose
+  al tanto en ese frente. Luego, recursos. Los periodistas extranjeros tienen gastos,
+  tienen transporte, tienen buenos equipos. Los periodistas locales a menudo no tienen
+  acceso a todos esos recursos.\\nUka\u00f1kamaxa, Khaysa Sur de Sudan markan periodistanakan
+  arunakap jan anq\u00e4xanakar ist''aya\u00f1 munapk ukxat u\u00f1akipa\u00f1akiskiwa.\\nSur
+  de Sud\u00e1n markan periodistapakasmas ukham amuyt''amcha. Uksanx periodistanakar
+  juk''amp yatich\u00e4winakamp yanapt''a\u00f1ax pisiqtatakiwa.Anq\u00e4jankir periodistanakax
+  pasajipas payllata, suma equipos ukanakani ukhamapxiwa, ukampirus periodistas locales
+  ukanakax janiw uka anq\u00e4xankir periodistanakjam pasajes, equipos ukanakanipkiti.\\nM\u00e4
+  qamir jaqix muniwa ____. M\u00e4 chachanx utjiwa ____.Kunapachati manq''ta ukhax
+  ____ jiwta ukat kunapachati jiwxta ukhax jumachikaw apasxta ____ . M\u00e4 arux
+  pusi chiqawjan phuqt''a\u00f1atakiw aski. \u00bfKawkirisa?\\nAka jiskt''an jaysapax
+  akawa \u201cjaniw kunasa\u201d.\\nWalja boliviankir markachirinakaw Rally Dakar
+  ukan niya purinitapatx wali kusisitapxi. Fabiola Chambi yatiyaw yatiy\u00efr (periodista)
+  kullakax jupan blog-upanw kunanaks turistas ukanakax Tupiza markan u\u00f1ja\u00f1
+  munapxaspa ukxat qillqt''i, ukan yaqhip aski chiqawjanakax aknirinakaspaw ukanakax
+  aka taypin u\u00f1jasi.\\nJamaica tiene que ser declarado estado biling\u00fce de
+  inmediato.\\nJamaica markax jank''akiw p\u00e4 arut art''asir marka ukham u\u00f1t''ayata\u00f1apa\\nAnnie
+  Paul [en] jupax amuyiwa \u201cJmaica markan chikatpach jan walt''\u00e4winakax crisis
+  de identidad ling\u00fc\u00edstica ukan utjatapat utji sasina. Jupax siwa. tayka
+  arupax ingles uka aruwa sasina, jilpachanix patois aru arst''apxi\u201d.\\nCarnaval
+  de Oruro ukax Anata (febrero) phaxsinkaskiwa, edici\u00f3n 2014 ukax inawurataxiwa,
+  akanx cronograma de actividades. Blog Carnaval de Oruro ukax yatiyiwa ceremonia
+  de inauguraci\u00f3n ukax 19 sawar uruw u\u00f1acht''ayasiwayxi \u201c12 jila thuqhur
+  tamanakaw u\u00f1acht''ayawayi\u201d, maratakix 10 waranqa thuqhurinak thuqt''asipxa\u00f1apw
+  suyt''asipki. Akax m\u00e4 afiche ukawa:\\nconsigna a la imagen de la Virgen del
+  Socav\u00f3n y la especialidad de danza \u00edcono de Oruro, la diablada, se puede
+  apreciar la leyenda \u201cCultura en todo el mundo, fe en cada coraz\u00f3n\u201d,
+  resaltando el car\u00e1cter devocional que tiene la actividad.\\nVirgen de Socavon
+  ukat diablada uka thuqhuwirux leyenda \u201cCultura en todo el mundo, fe en cada
+  coraz\u00f3n\u201d, ukanw u\u00f1japxasma.\\nUnesco ukax carnaval boliviano ukarux
+  \u201cObras Maestras del Patrimonio Oral e Intangible de la Humanidad\u201d ukham
+  u\u00f1t''ayi.\\nacfocarnavaldeoruro uka usuariox YouTube ukaruw spot uk apkati:\\nFacebook
+  ukanx aka \u201cCarnaval de Oruro Bolivia \u2013 El Mejor del Mundo\u201d (A.C.F.O.)
+  pajinanw u\u00f1japxasma.\\nChina Files jupax Osmani Castillo ukat Denisse Hern\u00e1ndez
+  jupanakampiw aruskipi, maynix cubano maynisti mexicana ukhamawa jupanakax jichakiw
+  Caribe\u00f1o uksan m\u00e4 manq''a\u00f1 uta (restaurante) cubana markan manq''anakap
+  alja\u00f1atak jist''arapxi, \u201d jiskt''aw lura\u00f1aruw uskusipta, ukatx amuyapxaraktwa,
+  juk''anikiw latinos uksat ukham manq\u2019 phayapxi, jilpachax chinunakakaiw phayapxaraki,
+  ukampirus mayni latino uk nina phaya\u00f1 utanka\u00f1apaw wali munat\u00e4na.\u201d\\nDavid
+  Oliveira de Souza, qulliri yatichiri khaya Instituto de Investigacion del Hospital
+  Sirio Libanes, m\u00e4 carta abierta pusi waranq qullirinakatak Brasil markar purinirakat
+  apayawayi, kawkiritix aka jichha maran tukuy phaxsin pusi waranq Galenos qullirinakaw
+  Brasil markarupuripxa\u00f1apana.\\nPaula akjam saw diario Folha qillqkatawayatayna:\\nBienvenido,
+  m\u00e9dicos cubanos. Ustedes ser\u00e1n muy importantes para Brasil. La falta de
+  m\u00e9dicos en las zonas remotas y perif\u00e9ricas ha dejado a nuestra gente en
+  una situaci\u00f3n dif\u00edcil. No se preocupen por la hostilidad de algunos de
+  nuestros colegas. Se ver\u00e1n compensados, en gran medida, por la calurosa acogida
+  en las comunidades de las cuales ustedes cuidar\u00e1n a partir de ahora.\\nJallallapan
+  jumakaru wali ask pun purt\u2019aniwayaptax, akanx faltaskapuninwa jumankjama, ukat
+  janiw jumakax chuymanakam usuyasipxatati kawkiri qulliri masinak yanqhachan munapxiristam
+  ukata. Uka pachparakiw jumanakax wali sumar u\u00f1jatapxata ukar wali sum katuqata
+  markachiririnakampi kawkiritnakarutix jumnakax jichhat uksaru kullt\u2019awayapxata.\\nAkjamrak
+  maysat Oliveira de Souza tatax qhanacht\u2019awayi, jasakiskiw capital interior
+  uksar puri\u00f1ax, ukat pachparakiw jan suma irnaqirinak utijkiti uka kullasi\u00f1
+  utanakan.\\nAka d\u00e9ficit tunka pusin phisqa patak galenos ukanakan jan utjatapt,
+  gobierno Dilma Roussef aprowawayiwa \u201cmais medicos\u201d(mas medicos), kawkiritix
+  juk\u2019ampi qullirinaka achikawaykani Espa\u00f1a, Portugal ukar cuba ukar juk\u2019ampi
+  markanakaru.\\nOliveira de Souza tatax qhananchawayiwa, jupanakxat jan wali arsuwinakaw
+  utji, jupanakx arumay uru wali irnaqatayapkaspas ukjama.\\nRecientemente, una de
+  las principales cr\u00edticas realizadas a la contrataci\u00f3n de cubanos refiere
+  que estos \u201cestaban siendo explotados\u201d. Ante este argumento, Oliveira de
+  Souza declara en su carta:\\nSe habl\u00f3 hasta de que trabajar\u00edan como esclavos.
+  La Organizaci\u00f3n Panamericana de la Salud (OPS), con un siglo de experiencia,
+  ser\u00eda c\u00f3mplice, ya que firm\u00f3 el acuerdo de cooperaci\u00f3n con el
+  gobierno de Brasil. Sus rostros sonrientes en los aeropuertos repudian esas hip\u00f3tesis.
+  En nombre de nuestro pueblo y la mayor\u00eda de nuestros m\u00e9dicos, s\u00f3lo
+  puedo decir con convicci\u00f3n: un fraternal abrazo y muchas gracias.\\nOrganizaci\u00f3n
+  Panamericana ukax jan walt\u2019ayirispawa, kunatix makixay rixintasiwaxchixa ma
+  acuerdo, ukat aka jan wali arsuwinakx wal axtasiyitu, ukat nayax juapnakr m\u00e4
+  jach\u2019a qhumantawi ukar arumtawimp apayanipsma.\\nTokyo markax Olimpiadas de
+  Verano 2020 ukaruw qupachani, Comit\u00e9 Ol\u00edmpico Internacional 7 urunak saraqkipan
+  sata phaxsin aka markar chhijllapx\u00e4na qurpach\u00e4wi\u00f1pataki.\\nTokyo
+  2020 reacts to the news #olympics2020 #BA2013 #olympics pic.twitter.com/lKws4Qcw4E\\n\u2014
+  Olympics (@Olympics) September 7, 2013\\nTokyo 2020 ukax yatiyawinak wal u\u00f1t''ayi\\nBangkok
+  uksanx jil\u00efr ipirip kuntraw markachirinakax sartasipxatayna ukat ukanx m\u00e4
+  explosi\u00f3n [en] de granada ukax kimsa jisk\u2019a wawanakaruw jiwayatayna, Fondo
+  de Naciones Unidas para la Infancia (UNICEF) uksankirinakax jil\u00ef irpirir ukat
+  uka may may qutuch\u00e4win jil\u00efr irpirinakaparuw wawanakar askin u\u00f1japxa\u00f1\u00e4ni
+  ukat janirak uka sartasiw taypinakarus wawanakamp sarapxa\u00f1\u00e4nit sasinw
+  mayt\u2019atayna. Bijaya Rajbhandari, representante de UNICEF , Tailandia markatx
+  aka mayiw[en] mayt\u2019arakitayna:\\n(UNICEF) condena la violencia que resulta
+  en estos accidentes y muertes tr\u00e1gicas y sin sentido de ni\u00f1os. Estos incidentes
+  ponen de relieve la urgente necesidad de mantener a los ni\u00f1os fuera de peligro
+  con el objeto de asegurar su seguridad. UNICEF urge al Gobierno, a los l\u00edderes
+  de las manifestaciones ya sean pro o anti gubernamentales y a todos los padres de
+  asegurar que sus ni\u00f1os no entren a los lugares de protestas y los mantengan
+  alejados de todas las \u00e1reas donde ellas se realicen.\\n(UNICEF) uksatx uka
+  sartasiw taypinakan jan walt\u2019\u00e4w utjki ukaruw k\u2019umiwayi. Uka jan walt\u2019awinakax
+  u\u00f1acht\u2019ayistuwa, jisk\u2019a wawanakar uka sartasiw taypinakar jan irpapxa\u00f1apa.
+  Ukakipkarakiw awki taykanakarus mayt\u2019i, wawanakar askinjam u\u00f1japxa\u00f1apa,
+  uka unxtasiw taypinakar jan irpapxpanti sasina, ukhamat wawanakapar askinjam u\u00f1ja\u00f1ataki
+  jan kuna jan walt\u2019\u00e4winakar puriya\u00f1ataki.\\nSalvador markan ukhamarak
+  Costa Rica markampinxa utjawayiw elecciones presidenciales p\u00e4 uru saraqatat
+  anata phaxsita , ukampirus paypach markanakaw ajllisiwayapxani jilir irpiripxa m\u00e4
+  segunda vuelta electoral utjawaykani ukanxa.\\nSalvador markanx Salvador S\u00e1nchez
+  Ceren jupax jiqhatasiw 49% ukha votonakampi jupanx munasirakinwa 50% ukha payllawinakampi
+  nayrir eleccionan atipt\u2019a\u00f1atakixa. Norma Quijano (ARENA) jupax segundo
+  lugar ukhanraki jiqhatasi 39% ukha votonakampi, u\u00f1ist\u2019ayiw Boz de Bloggings,
+  kawkhantix phisqha puntunak u\u00f1ist\u2019ayki elecci\u00f3n tuqit Salvador markata.
+  \u201d [en].\\nCosta Rica markanxa The Tico Times [en] ukax yatiyiwa:\\nEl candidato
+  presidencial de centroizquierda Luis Guillermo Sol\u00eds disputar\u00e1 con el
+  candidato del partido de gobierno, Johnny Araya, en una segunda vuelta el 6 de abril,
+  despu\u00e9s de que Sol\u00eds asombrara a muchos en este peque\u00f1o pa\u00eds
+  centroamericano al llegar al primer en los resultados preliminares dados a conocer
+  la noche del domingo.\\n[\u2026]\\nLas elecciones de Costa Rica, que fueron pac\u00edficas,
+  mostraron una creciente polarizaci\u00f3n entre electores progresistas y conservadores.\\nCandidato
+  presidencial Luis Guillermo Sol\u00eds jupax atipasiniw Johnny Araya jupampi, segunda
+  vuelta utjawaykani suxta uru saraqatar qhasiwi phaxsit urunxa, \u00f1akijay Sol\u00eds
+  tatax atipawaychitanax nayrir elecciones ukanxa ukhamarakiw wal muspayawayani aka
+  jisk\u2019a centroamericano markaruxa.\\nCosta Rican eleccionanak utjawayki, ukax
+  sumakirakiw apasiwayatana.\\nJap\u00f3n centro de Tokio markanx 8 uru anata phaxsinx
+  aka 2014maranxa. P\u00e4 tunka paqallqun centimetros ukhaw khunux khununtawayatayna,
+  Veintisiete cent\u00edmetros de nieve cayeron en el centro de Tokio, 45 mara makiptataw
+  ukhamaw u\u00f1jasi [en]. Moro Miya, qillqirix u\u00f1tr''ayarakiwa, ukapachparakiw
+  phutus ukanak apthapi ukanx jaqinaka, uywanaka ukhamaw u\u00f1jasi ukat ukx Twitter
+  uksanw u\u00f1acht''ayapxi.\\n\u2018THE WORLD OF CHINESE\u2019 [en] (Chinunakan
+  uraqipa) wali jayan maran barrio chinunaka u\u00f1jama, San Francisco (EE.UU), Vancouver
+  (Canad\u00e1), Lima (Per\u00fa), Havana (Cuba), Londres (Reino Unido), Paris (Francia),
+  Manila (Filipinas), Singapur (Filipinas) ukat Melbourne (Australia). markanakana\\nYatiyaw
+  yatiyiri Glenda Uma\u00f1a sat warmix jak\u2019at chhijllawinak sarantayaskta sasaw
+  Facebook ukat Twitter ukan qillqkat''awayatayna.\\nYa me encontr\u00e9 en padr\u00f3n
+  electoral. Se me salen las l\u00e1grimas de la emoci\u00f3n de votar! #CNNTICO @cnnee
+  @ pic.twitter.com/RHua1KrN8L\\n\u2014 Glenda Uma\u00f1a (@glendacnn) February 2,
+  2014\\nCosta Rica marcan uka chhijllawinakax m\u00e4 phunchawikaspas ukjamawa sasa.\\nUkjamarus
+  Redes Sociales #VivoMiVoto uksan etiquetas ukar akjam sasaw wal apnaqt\u2019awayapxi
+  \u201cviva mi voto\u201d sasa. Maysat internet, Canal 7 ukat Onda UNED. ukanakan
+  uka pachparakiw jak\u2019at chhijllawinakax u\u00f1achat\u2019ayasiskaraki.\\nIr\u00e1n
+  markan ciberpolicia ukax p\u00e1gina Facebook ukan apanaqir (administrador) \u201cSherarat\u201d
+  ukar jist''antapxatapatx siwa Sukar siwa (ukax yanqhach\u00e4wiwa sasina) Policia
+  iran\u00ed ukax Administrador ukan Iran markan yanqhachawinak utjkan ukat foto apsutanak
+  u\u00f1t''aykan ukxatw u\u00f1t''ayaraki, chiqpachans uka u\u00f1t''ayatapatw uka
+  Administrador ukar juchanchapxi.\\nPusi mara jan walt''\u00e4winak utjkan ukat makiptatx
+  kunsa lurpachatan khitinakati karpanakan jakasipki ukanakatakixa? Kunsa m\u00e4
+  suma marka utjayxa\u00f1atakix lurpachatana?\\nWadner Pierre [en] jupax kuna Hait\u00ed
+  markan kh\u00e4 2010 maran uraq khatahat\u00e4wix utjkan ukxatwa amuyt''i.\\nGlobal
+  Voices, ukax khitinakati medios ciudadanos satak ukan arst''asi\u00f1atak thaqhapk
+  ukatpunw lup''iski, ukat jichhax Cusco, Per\u00fa markan m\u00e4 jikthaptaw lura\u00f1atakiw
+  amt''awayi, uka jikthapatawin sutipax akham sutincht''tawa: Cusco markax arsuskiwa\u2026
+  ukatx \u00bfuraqpachat ist''pacha?\\nUka jikthapt\u00e4winx m\u00e4 taller ukaw
+  apasini, jichha 11 uru aka chinuqa phaxsita, ukax niya 15 ukat 17 jayp''u pacharu,
+  Casa Cultural Sipas Wayna de la Asociaci\u00f3n Pukllasunchis (Jr. Sicuani H-2,
+  Urb. Progreso, Wanchaq) uksatuqina. Wakich\u00e4winx lur\u00e4winakw ukankani jisnawa
+  cartograf\u00eda social ukatx \u201cM\u00e4 k''ata uraqpachat arsu\u00f1ataki (Un
+  minuto para hablarle el mundo)\u201d. Jumax uka jikthapat\u00e4winx chikancht''asismaw
+  aka Facebook uksatuqi.\\nEstadista sudafricano uksan yattiyawipaNelson Mandela,
+  90 uka maran hispanoperuano Miki Gonz\u00e1les jayllintirix \u201c Mandela tatatak
+  qhisphiy\u00e4wi\u201d sutin jayllintaw apst''awayatayna. Uka jaylliwi peruanunkir
+  Tuiterunakax amtapxi:\\nTem\u00f3n de Miki Gonzales cuando liberaron a Mandela,
+  all\u00e1 los 90 https://t.co/OWrzCd4ZmR recordaba la tonadita pero no la letra\\n\u2014
+  C\u00e9sarPonce (@cesarponcec) 6 uru jallu qallta phaxsina, 2013\\nperuanunkir jayllintawipa
+  : MIKI GONZALES LIBERARON A MANDELA: http://t.co/o8CBwKvSuh aka @youtube\\n\u2014
+  luis jaime cisneros (@ljcisneros) 6 uru jallu qallta phaxsina, 2013\\nLa presidenta
+  Cristina Fernandez de Kirchner y sus aliados perdieron por grandes m\u00e1rgenes
+  en las mayores y m\u00e1s importantes elecciones en el pa\u00eds ayer [domingo 27
+  de octubre de 2013]. Sus listas legislativas fueron derrotadas en Buenos Aires (ciudad
+  y estado), C\u00f3rdoba, Mendoza y Santa Fe. Hay una raz\u00f3n por la cual todo
+  peri\u00f3dico importante est\u00e1 hablando sobre su derrota y hasta los medios
+  a favor de Kirchner est\u00e1n relativamente inmersos en este giro. Las elecciones
+  mostraron un claro rechazo a la presidenta y una seria ca\u00edda de su gran victoria
+  en las elecciones de 2011.\\nCristina Fernandez de Kirchner irpirimp ukat aliadonakapampix
+  27 uru taypi sata phaxsit chhijllawinx qhipartapxataynawa. Listas legislativa ukanakax
+  Buenos Aires markan aynacht''ayataw u\u00f1jasina, ukhamw qhipartwayi\\nBloggings
+  by boz ukax Argentina markan cinco puntos de las elecciones legislativas chhijllawitx
+  phisqha puntus [en] uka aka 27 taypi sata phaxist 2013 u\u00f1t''ayi.\\nVenezuela
+  marka uraqpachanx petroleo ukax utjiwa, uksatx walja ch''ux\u00f1a qullqiw manti.
+  Ukampinsti qullqituqitx juk''aqta\u00f1ankiwa, ukax Chavismo m\u00e4 proyecto ukjamaw
+  politico ukataki ukax jan walt''ayaspawa.\\nDavid Smilde jupax Nicol\u00e1s Maduro
+  jupan suxta phaxsi jil\u00efr irpxarusitapxtaw akham sutimp Venezuelan Politics
+  and Human Rights [en] qillqt''i.\\nEl ex representante de Estados Unidos en Cuba,
+  Michael Parmly, sugiri\u00f3 [en] al presidente Barack Obama devolver la base militar
+  de Guant\u00e1namo a las autoridades de la isla, entre otras recomendaciones citadas
+  en un informe de 26 p\u00e1ginas al que la agencia de noticias Reuters tuvo acceso
+  y que ser\u00e1 publicado en breve en el Fletcher Forum of World Affairs [en].\\nMisturi
+  presidente khaysa Estados Unidos cubanax,Micahel Parmly sawayiwa [en] akjam sasa
+  Obama tataru,kutt\u2019ayam Guantanamos markankir palllapapallapanakaru ,sasa, akax
+  khaysa Agencias de Noticia Reutersuksan apkatataw u\u00f1jasiwayi\\nMaysat akjam
+  rak Parlmy tata khititix aka maymara p\u00e4 waranq phisqat p\u00e1 warnq kimsaqallqun
+  kam jiliri Habana irptirikana irptirikana ukax arsuwayi, kunawrasatix base nabalxat
+  Raul Castro tatamp m\u00e4 aruskipawi utjkaspa ukhax markachirimp m\u00e4 mayacht\u2019awiwkiw
+  utjawayaspa sasa.\\nUkjamarakiw kawkiri taripa\u00f1 utan Guantanamo uksan jiqqhasipki
+  jupanakax Estados Unidos uksar aptanitapxaspawa, ukat kawkirinakati jilpach juchanipki
+  ukanakax pachapa Islankasipkakispawa.\\nSasaw,Parlmy qhananchawayi.\\nLas actuales
+  tensiones bipartidistas en (el Congreso) aseguran que ser\u00eda una batalla cuesta
+  arriba, pero la tesis de este documento es que una medida arriesgada similar, como
+  el Canal de Panam\u00e1, es necesaria respecto a Guant\u00e1namo.\\nAkjam jan wali
+  unxtawinaka Congreso taypin ukanakax amstaruw sarantaski.\\nKunjamti Estados Unidos-imp
+  Rusia markampix kuna thakjarus Siria markax sarantayatan ukatuqit aruskipapxi, Asia
+  taypinkir markanakax jak\u2019at uka unch\u2019ukipxi, Nathan Barrick jilax Registan.net
+  tuqinx qilqt\u2019iwa [eng]:\\nRusia opta por centrarse en la perspectiva de que
+  el gobierno sirio est\u00e1 librando una batalla contra los extremistas isl\u00e1micos
+  y este mensaje resuena probablemente en los gobiernos de Asia Central. El silencio
+  oficial de Asia Central sobre Siria no debe ocultar la simpat\u00eda real con la
+  perspectiva de Rusia\u2026\\n\u2026Asia Central tambi\u00e9n est\u00e1 vigilando
+  \u2026 no porque trate de desarrollar y adquirir armas qu\u00edmicas para utilizar
+  contra su poblaci\u00f3n, sino porque remarca la seguridad que pueden depositar
+  en una asociaci\u00f3n de seguridad con los Estados Unidos, o incluso podr\u00eda
+  reconsiderarlo y asociarse m\u00e1s estrechamente con Rusia.\u201d\\nRusia markax
+  Siria markax isl\u00e1mico extremista-nakamp m\u00e4 ch\u2019axwawinkiw uka amuyumpiwa,
+  ukat aka amuy\u00e4wix Asia taypinkir markanakar wal lup\u2019ikipaypacha. Asia
+  taypinkir markanak Siria tuqit jan kuna ars\u00fcwix janiw kunti Rusia markax amuyki
+  yatthapitaw imantkiti\u2026\\n\u2026Asia taypinkir markanakax ukhamarakiw u\u00f1ch\u2019ukiski\u2026
+  jan illapt\u00e4\u00f1 y\u00e4nak lura\u00f1 ukhamarak ukhamarak qu\u00edmica illapt\u00e4\u00f1
+  y\u00e4nak ala\u00f1 munas markachirinakapar t\u2019unsu\u00f1ataki, jan ukax asociaci\u00f3n
+  de seguridad Estados Unidos markax aka jan walt\u2019awinxa kuns luraspa, jan ukax
+  amuyup mayjt\u2019ayasisax Rusia markampiw jikthaptapxaspa.\\nCoordinadora Nacional
+  de la Educaci\u00f3n (CNTE) uksan yatichirinakax 17 uru llumpaqan phaxsitw reforma
+  educativa uka kuntr sartasipxi Enrique Pe\u00f1a Nieto jilir ir\u00ecrin akatuqit
+  u\u00f1japxa\u00f1apataki.\\nUka sartasiwinakax M\u00e9xico markanx may may chiqananakan
+  jark''antatanwa jakawirus jan walt''ayat ukhamawa Waljaniw redes sosciales uka apnaqawayapxi,
+  uka jan walt''awinka u\u00f1acht\u00a1aya\u00f1ataki.\\nOaxaca uka yaticrix pat
+  amarkan irnaqi, jupax wila masip irnaqawip \u201csupuesta reforma educativa, ukxata
+  qhurut arsusir sarasax apanukuwayataynawa\u201d.\\nWali askipuniw uraqpachan ukham
+  may may markanakatpach irnqt''a\u00f1axa. Muy interesante trabajar sin importar
+  las fronteras...\"", "\"Isturyanaka Aka tuqita Guatemala Ta Achuqa phaxsi, 2012\\nWaranqa
+  patatuqin jakasir kipka markachirinakaw ll\u00e4tunka uru kayump sartasiwin chikanchasipxi,
+  uraqinakap arxatasa. James Rodriguez jupan sartasiwit jamuq apsutanakaw u\u00f1t\u2019ayasktana.\\nOrganizaci\u00f3n
+  de Estados Iberoamericanos ukax 12 maranit 15 marankam q''axull wayn tawaqunakaruw
+  blogueo sobre lectura sutinchat m\u00e4 atipt''asiwir jawillt''i. 31ni uru llamayu
+  (mayo) phaxsit 2012n maranaw qilqantayasi\u00f1a, ukat juradox 31n uru willka kuti
+  phaxsikamaw post qilqatanakx u\u00f1akipani. Sapa markat atipt''irix m\u00e4 ipad
+  ukwa katuqani. Aka sitio web oficial ukar mantam...\"", "\"Perqanaka, techonaka
+  jan ukaxa particiones de yeso ukanaka jakhthapiwi\\nUkaxa wakisiwa dimensiones ukaxa
+  mil\u00edmetros ukjamaru u\u00f1t\u2019aya\u00f1a\\nY - pirqa jan ukaxa partici\u00f3n
+  altura\\nX - pirqaru u\u00f1tatawa\\nH - drywall ukaxa wali jach\u2019awa\\nZ -
+  drywall ukaxa wali ch\u2019amawa\\nS - jakhuwi perfil de rack sapa laphiru wa\u00f1a\\nV
+  - jakhuwi wa\u00f1a capas ukanaka\\nV=1 - m\u00e4 capa ukanxa, pirqataki jan ukax
+  techotaki\\nV=2 - p\u00e4 capas ukan m\u00e4 pirqataki jan ukax particionanakataki\\nV=3-4
+  - partici\u00f3n pirqanakataki\\nB - Tornillonak taypin jayankxatapa\\nPrograma
+  ukaxa jakthapispawa kunatixa wakisi materiales de acabado - imprimaci\u00f3n, masilla,
+  pintura.\\nUka lura\u00f1atakixa, jupanakana sapa metro cuadrado ukanxa kunjamasa
+  manq\u2019apxi ukxa u\u00f1acht\u2019aya\u00f1awa\\nN1,\\nN2,\\nN3,\\nN4.\\nUkhamatwa,
+  programax jakthapitani\\npirqaru, techo jan ukaxa yeso ukana partici\u00f3n ukana\\nukaxa
+  wakisiwa jakhuwi wa\u00f1a laphinakaru\\nukaxa wakisiwa jakhuwi perfil ukaxa marco
+  ukataki\\nniya jakhthapita tornillos autogolpeantes, cinta de refuerzo ukatxa sellado\\naislamiento
+  jan ukax insonorizaci\u00f3n ukanakampi ukatxa tukuya\u00f1ataki y\u00e4naka.\\nPrograma
+  ukaxa janiwa punkunaka ukhamaraki ventanas ukanaka jist\u2019aratanakaxa u\u00f1jkiti,
+  kunatixa materiales ukanaka manq\u2019a\u00f1axa janiwa sinti mayjt\u2019kiti.\"",
+  "\"Qullqimarka jisk''a t''aqa suyu\\nQullqimarka jisk''a t''aqa suyu; (kastilla
+  arupi: Distrito de Colquemarca) nisqaqa huk Jisk''a t''aqa suyu Chumpiwillka jisk''a
+  suyupi, Qusqu jach''a suyupi, Piruw jach''a markapi.\\nNayra sarnaq\u00e4wi[truka\u00f1a
+  | chimp askicha\u00f1a]\\nKamasqa Juyphi phaxsi 21 1825 mara, Simuna Wuliwar Libertadur.\\nUraqipa[truka\u00f1a
+  | chimp askicha\u00f1a]\\n- Urqunaka:\\n- Jawiranaka: Santu Tumas.\\n- Qutanaka:\\nMarkanaka
+  - Uchuy markanaka[truka\u00f1a | chimp askicha\u00f1a]\\nNayriri Chamaqa markam.\\nQullqinch\u00e4wi[truka\u00f1a
+  | chimp askicha\u00f1a]\\nJaqinakapa[truka\u00f1a | chimp askicha\u00f1a]\\n8 656
+  jaqi (4 443 chacha, 4 213 warmi)\\nYupaych\u00e4wi[truka\u00f1a | chimp askicha\u00f1a]\\nMarkap
+  amachana santun[truka\u00f1a | chimp askicha\u00f1a]\\n- Kandilarya Pallan.\\n-
+  Inmaculada Kunsipsyun.\\nJisk''a t''aqa suyu asu jaqinaka[truka\u00f1a | chimp askicha\u00f1a]\\nKurakanaka[truka\u00f1a
+  | chimp askicha\u00f1a]\\n- 2011-2014: Ceferino Henry Romero Palma, Partido Uni\u00f3n
+  por el Per\u00fa .\\n- 2007-2010: Sabino Yaguno Merma.\\nKaypipas qhaway[truka\u00f1a
+  | chimp askicha\u00f1a]\\nHawa t''inkinaka[truka\u00f1a | chimp askicha\u00f1a]\\n-
+  Commons katt''ana u\u00f1naqa Qullqimarka.\\n- Qullqimarka Munisipyu\\n- INEI Piruw\"",
+  "\"Qhipa qillqatanaka Irma Laura Apaza Ta jallu qallta phaxsi, 2011\\n31 jallu qallta
+  phaxsi 2011\\nEconom\u00eda de Bratislava (EUBA) jach''a yatiqa\u00f1 utax m\u00e4
+  cuntratu ruxuntawapxi, sistemas electr\u00f3nicos ukta software uka Facultad de
+  Econom\u00eda Nacional ukataki, 1,8 waranqa waranqa euros ukha...\\n20 maratx inmobiliario
+  amtaw Dunas de Conc\u00f3n ukax jan walt''awinkiwa, marka masinakamp cibernautanakampix
+  mayacht''ataw wasitat lurayasi\u00f1apat mayt''asin arst''asipxi.\\nWali askipuniw
+  uraqpachan ukham may may markanakatpach irnqt''a\u00f1axa. Muy interesante trabajar
+  sin importar las fronteras...\"", "\"Sapa uru sarnaqa\u00f1at sipansa: Carro el\u00e9ctrico,
+  Machaq Familiaman Favorito\\nJak\u00e4win jank\u02bcak sarnaqatapampixa, sapa kutiw
+  m\u00e4 suma ukat suma sarnaqa\u00f1 thaqhapxta.Aka carro el\u00e9ctrico ukax janiw
+  uka wakiskir muna\u00f1anakaruki phuqkiti, jan ukasti familiamarux jan u\u00f1jat
+  suma ukat kusisi\u00f1anak apaniwayi.\\nJichh\u00fcrunakanx juk\u2019amp eco-consciente
+  ukanx m\u00e4 carro el\u00e9ctrico ajlli\u00f1ax emisiones de carbono ukar jisk\u2019acha\u00f1ataki
+  ukhamarak pachamamaru jark\u2019aqa\u00f1atakiw yanapt\u2019asisma sa\u00f1 muni.Aka
+  carro el\u00e9ctrico ukax m\u00e4 modelo de transporte verde ukhamaw sayt\u2019i,
+  cero emisiones ukat juk\u2019a ruido ukanakampi.\\nAka carro el\u00e9ctrico ukax
+  janiw wawanakar yatiqa\u00f1 utar sara\u00f1atakis jayta\u00f1atakis jan ukax chuyman
+  familiaranakar aljasi\u00f1atak irpa\u00f1atakikix ask\u00efkiti, jan ukasti familian
+  m\u00e4 juk\u2019a jaya chiqanakar sara\u00f1atakix wali askiwa.Semana tukuyan pampan
+  picnic lura\u00f1atakis jan ukax vacacionan escapa\u00f1atakisa, taqi ukanakx jank\u02bcakiw
+  askichaspa.\\n1. Q: \u00bfM\u00e4 qawqha muestras apsu\u00f1ax wakisispati?\\nRe:
+  Jiwasax wali jach\u2019anchataw muestras ukanakax calidad u\u00f1akipa\u00f1ataki.\\n2.
+  Q: \u00bfJumaxa kuna y\u00e4nakas utji?\\nRe: Janiwa, taqi y\u00e4nakax ordenarjam
+  lurat\u00e4\u00f1apawa muestras ukanakamp chika.\\n3. Q: \u00bfKuna pachas apayani?\\nRe:
+  Jilapachax niya 25 urunak irnaq\u00e4w uruw MOQ ukan m\u00e4 pedido 40HQ contenedor
+  ukar lura\u00f1atakix munasispa.Ukampis kuna horasas chiqpachapuniw apayanisma ukax
+  mayj mayja pedidonakataki jan ukax mayj mayj horasaruw purispa.\\n4. Q: \u00bfM\u00e4
+  phukhunx kunayman modelonak mistuyasmati?\\nRe: J\u00efsa, kunayman modelos ukanakax
+  m\u00e4 contenedor ukan mistu\u00f1apawa, ukampis sapa modelo ukan cantidad ukax
+  janiw MOQ ukar sipan juk\u2019amp jisk\u2019\u00e4\u00f1ap\u00e4kiti.\\n5. Q: \u00bfKunjamsa
+  fabricamax control de calidad tuqitx lurasi?\\nRe: Calidad ukax nayranka\u00f1apawa.Sapa
+  kutiw control de calidad ukax qalltatpach producci\u00f3n tukuykamax wali askin
+  u\u00f1jtanxa.Sapa y\u00e4nakax taqpach apthapitaw ukat wali sum yant\u2019atarakiw
+  jan\u00efr apa\u00f1atakix phuqt\u2019at\u00e4kipana.\\n6. Q: \u00bfJumax servicio
+  despu\u00e9s de venta ukax utjiti?\u00bfKunas uka servicio despu\u00e9s de venta
+  ukax utji?\\nRe: Jiwasax archivo de servicio despu\u00e9s de venta ultramar ukax
+  referencia ukar u\u00f1t\u2019aya\u00f1atakiw utjistu.Ukhamaraki, alja\u00f1 irpiriruw
+  jiskt\u2019asi\u00f1ama, wakisispa ukhaxa.\\n7. Q: \u00bfKunjamtix mayipkta ukhamarjamaw
+  chiqap y\u00e4nak puriyapx\u00e4ta?\u00bfKunjamatsa jumar confiyasma?\\nRe: Jisa,
+  jiwasajj ukham lura\u00f1\u00e4ni.Jiwasan empresan culturasan chiqapax honradez
+  ukat cr\u00e9dito ukawa.Jinpeng markax utt\u2019asitapatpachaw aljirinakatakix m\u00e4
+  atiniska\u00f1 masipar tukuwayi.\\n8. Q: \u00bfKuna payllawixa?\\nRe: TT, LC ukat
+  juk\u2019ampinaka.\\n9. Q: \u00bfKuna kamachinakas apayani\u00f1atakix utji?\\nRe:
+  EXW, FOB, CNF, CIF ukat juk\u2019ampinaka.\\nJinpeng Group ukax 135 Feria de Cant\u00f3n
+  ukan machaq autos el\u00e9ctricos ukanakas u\u00f1acht\u2019ayani, ukax m\u00e4
+  plataforma mundial uraqpachan alxa\u00f1atakiw u\u00f1acht\u2019ayasini, ukax uraqpachankir
+  u\u00f1t\u2019irinakaruw ukat negocios ukanakaruw jawst\u2019i.Kunjamatixa m\u00e4
+  jach\u2019a lurayirixa especializado ukhama lura\u00f1a, yatxatawi, a\\nKunjamakitix
+  uraqpachax ch\u2019ux\u00f1a jut\u00efr pachatakiw wakicht\u2019asiski, revoluci\u00f3n
+  el\u00e9ctrica irpta\u00f1atakix t\u2019ijtawix sarantaskakiwa.Ukajj janiw m\u00e4
+  tendenciak\u00efkiti;ukax uraqpachan movilidad sostenible ukar sara\u00f1atakiw
+  sartasi.Auto el\u00e9ctrico exportaci\u00f3n ukan jilxat\u00e4wipax m\u00e4 q\u2019uma,
+  juk\u2019amp sustentable uraqpachar u\u00f1staya\u00f1atakiw wakicht\u2019i.\\nJinpeng
+  Group ukax 135 Feria de Cant\u00f3n ukan machaq autos el\u00e9ctricos ukanakas u\u00f1acht\u2019ayani,
+  ukax m\u00e4 plataforma mundial uraqpachan alxa\u00f1atakiw u\u00f1acht\u2019ayasini,
+  ukax uraqpachankir u\u00f1t\u2019irinakaruw ukat negocios ukanakaruw jawst\u2019i.Kunjamatixa
+  m\u00e4 jach\u2019a lurayirixa especializado ukhama lura\u00f1a, yatxatawi, a\"",
+  "\"\u00bfJumax yatiyatati jichhurunakanxa Europa markan walja jach\u2019a yatiqa\u00f1
+  utanakan yatiqirinak phuqsutatapxa? Waranqha waranqhanakaw ikirasipki, phayasipki,
+  parlasipki, ukhamaraki phunchhawinaka lurasina jach\u2019a uta tantachasiwina arkatasina
+  qulqichirinakaru yaticha\u00f1 yatiqaw tuqiru ukhamarusa sutiyatawa proceso de Bolonia
+  [es] m\u00e4 jach\u2019a amta mayachasi\u00f1ataki aka Europa markanaka ukjamaraki
+  mayacha\u00f1ataki yatichawinaka aka taqi jach\u2019a yatiqa\u00f1 utanakana.\\nQhanpachanxa
+  aka ch\u2019axwawinakaxa aka lurawinakanxa janiw yatiqirinakan amuyupakiti, jan
+  ukasti markachirinakan amuyupawa internet tuqi.\\nTaqikunawa qalltawayi aka Viena,
+  Austria markana aka 22 de octubre phaxsina kunawsatixa m\u00e4 jisk\u2019a yatiqirinak
+  tamampi, m\u00e4 Flashmob [es] lura\u00f1atakiw jikist\u2019apxatayna ukjamata Viena
+  jach\u2019a yatiqa\u00f1 uta tuqiru sarantawayapxatayna ukjamata jach\u2019a uta
+  tantachasiwi tuqiru phuqhantasina.\\nPallapallanakan purini\u00f1apatakixa Jach\u2019a
+  auditorio phuqhanta\u00f1atakixa Twitter tuqiw awiskipasipxatayna ukjamat q\u2019al
+  phuqhantapxatayna.\\nWali juk\u2019a urunakanakwa, uka tama phuqhantirinakaxa \u2013
+  jupanakana sustjasi\u00f1apatikixa m\u00e4 qhana tamachawi u\u00f1icht\u2019awapxi:
+  uka unxtasiwi parlakipawinakaxa aka Twitter \u201cHashtags [en]\u201d #unibrennt
+  y #unsereuni (\u201cjach\u2019a yatiqa\u00f1 utan ninankatapa ukhamaraki jiwasana
+  jach\u2019a yatiqa\u00f1 uta) wali suma tantacht\u2019atanwa.\\nM\u00e4 webcast
+  24h ukaw jach\u2019a uta tantachasiwinx utt\u2019asiwayarakitayna. Taqi kunayman
+  luratanakwa aka Wiki m\u00e4 Sitio web tuqiw markachirinakar u\u00f1icht\u2019ayawayapxatayna.
+  Twitter, blogs y Facebook (32.400 fans jichhurkamaxa) apnaqatapxanwa aka arunak
+  u\u00f1icht\u2019aya\u00f1ataki.\\nAkax p\u00e4 tukuyawinitaynawa :\\n- Aka m\u00e4
+  kutinxa janiw jupanakax khitin yanapt\u2019aps munapkanti aka unxtasiwinakatakixa.
+  Janir m\u00e4 paqalqu uruqipanxa aka unxtasiwinakaruxa 20.000 waranqa ch\u2019axwirinakawa
+  phuqhantawapxi nayraqatar sarantasina. Jikiwinakanxa sapurunakawa tuwaqatapxanxa
+  janisa junapkaspa ukhamaru (apaniwa jan amuykawi). Yatiqirinaxa janiw munapkanti
+  yariyaw amnaqirinakaruxa uka irkatawinakaxa janiw patillanikanti, janiw utjkanti
+  arstirinakaxa.\\n- Payiri tuqitsti uraqpachanwa yatipxana kuntix lurasiskana ukxa.
+  aka uta tantachasiwi tuqina (webcast tuqirux waranqana chikatan jaqinakaw m\u00e4
+  phaxsinx u\u00f1jt\u2019awayapxarakit\u00e4na) yatiyawinaka amnaqirinakaxa janiwa
+  chani\u00f1cha\u00f1a atipkanti aka irkatiri yatiqir waynanakaruxa. Waljani jaqinakaw
+  jani chiqatapxa yatipx\u00e4na. Lup\u2019iwinakaxa turkakiptawayataynawa.\\nJank\u2019akiwa
+  amtayapx\u00e4na yaqha jach\u2019a yatiqa\u00f1 utanakaru Austria markana ukhamaraki
+  anqaxa tuqirusa: jicchuruxa janirira p\u00e4 phaxsi tukuyqipanxa nayriri irkatawinakaxa
+  aka yatiqir tamachatanaxa utxaphanwa 100 jacha yatiqa\u00f1 utanakana [de] aka Austria,
+  Alemania, Suiza, Albania, Serbia, Francia, Italia, Croacia y los Pa\u00edses Bajos
+  jupanakaxa yaqha kasta irkatawinakwa u\u00f1japxi.\\nAkaWissen belastet [de], Max
+  Kossatz, m\u00e4 bloguero u\u00f1aqt\u2019iri jaqixa Austria markanxa, u\u00f1akipt\u2019awayiwa
+  kunjam amnaqatansa aka Twitter ukaxa: 66.379 Tweets por 6.780kasta sutinakampi u\u00f1icht\u2019ayatanwa
+  pasiri phaxsinakana. 1.043 u\u00f1acht\u2019awinakawa kunka\u00f1chayatana aka Twitpic
+  ukatxa apn\u00efnwa 125.612 tumpt\u2019rinaka ak u\u00f1jan kitjata futunakampi
+  Twitpic Youtubetuqina [de]. Pacha paskipansti u\u00f1icht\u2019ayatanwa (u\u00f1jam
+  aka HD u\u00f1anchawi tuqi u\u00f1aqipt\u2019a\u00f1amataqi.):\\nGerald B\u00e4ck
+  B\u00e4ck Blog [de] tuqitxa, jupaxa irnaqiwa u\u00f1akipt\u2019a\u00f1a tuqina,
+  katjit\u2019iwa kawkhakamas puri aka Tweets tamaxa, aka yaqha kasta arqirinakaxa
+  qhanstayata jupanaka tuqiru, akhanwa 386.860. jupan u\u00f1akipawipansti [de] u\u00f1icht\u2019ayiwa
+  khitinakasa kunka\u00f1chayapxi uka, kawkharusa (URLs tuqirusa) sarapxi kuna hashtags
+  apnaqapjan juk\u2019ampxa.\\nJupana blogupansti smime [de], Michael Schuster, irnaqir
+  qillqt\u2019awinak tuqinsti, ma sinopsis [de] nayra pacha lurawinakata churawayiwa.
+  Jakt\u2019awayiwa 2.700 u\u00f1acht\u2019awinaka ukatxa katxt\u2019awayiwa pusi
+  kasta lurawinaka, sapa maynixa lurasiwa paqalqu uruna: \u201cirkata\u00f1anakaxa
+  mawjankapxiwa\u201d \u201cirkata\u00f1anakaxa nayraqataruwa saranti\u201d \u201cirkatirinaxa
+  jach\u2019aruw tukupxi\u201d jichhurunaxa sapxarakiwa \u201c jani lurasxpati sasina\u201d.\\nLuca
+  Hammer 2-Blog [de] tuqitxa, m\u00e4 yatiqiri p\u2019iqini waynituxa amuyt\u2019arakiwa
+  aka irkata lurawinaka tuqita u\u00f1icht\u2019ayiwa m\u00e4 reporte [de] aka wikis,
+  Twitter y webcasts tuqita jupanakax apnaqatapxanwa irkata\u00f1a kalltaya\u00f1ataki.\\nAmuya\u00f1
+  sipanxa aka #unibrennt [de] ukaxa m\u00e4 kasta turkakipawiruw kutaspa, aka Australia
+  marka apnaqa\u00f1ataki markachirinak online apnaqirinak tuqi. Jaqinakaruxa jawsthapiwa
+  ukhamaraki amuyunakxa ch\u2019amakt\u2019ayarakiwa aka tamanakaru ukhamaraki markan
+  irnakirinakarusa, ukaxa wali ch\u2019amanchawi yatiqirinakaru ukhamaraki p\u2019iqi\u00f1chirinakaru
+  u\u00f1stayaraki.\\n1 Amuy qillqata\"", "\"Jiwasan sistema ukax aljirinakax kunjams
+  munapxi uk u\u00f1akipi ukatx upsell y\u00e4nak u\u00f1acht\u2019ayi, pedido ukan
+  valoracionap jilxataya\u00f1ataki.\\nAljirinakax jasakiw iwxt\u2019anak yapxata\u00f1apatak
+  jaysa\u00f1a, ukax irnaqirinakaman qullqip jilxataya\u00f1ataki.\\nYaqha ala\u00f1anak
+  ch\u2019amancha\u00f1atakix ofertas personalizadas ukat promociones ukanakaw lura\u00f1a.\\nUkhamaraki,
+  estrategias de upselling ukanakan askinjam luratapat u\u00f1akipt\u2019a\u00f1a
+  ukat juk\u2019amp suma askinak jikxata\u00f1atakix optimizar.\\nAljirinakamp aruskipt\u2019a\u00f1ax
+  m\u00e4 amtat yatiyawinakampi ukhamarak ch\u2019amanchawinakampiw upsell ukar irpa\u00f1ataki.\\nAljirinakat
+  wali aski amuyunakap apthapi\u00f1amawa, ukhamat sap\u00fcrunjam alja\u00f1 t\u00e9cnicas
+  ukanakax juk\u2019amp askipta\u00f1ataki.\\nQullqi jikxata\u00f1am ch\u2019amancha\u00f1a
+  ukat servicio al cliente ukar jach\u2019anchaya\u00f1a jiwasan upselling ukat tipping
+  uka lurawinakampi.\\nSapa kuti jiskt\u02bcasir jiskt\u02bcanaka\""]'
+src_ngrams: '{"1": [[["jan"], 26480], [["jach"], 13266], [["ni\u017aa\u015ba"], 7119],
+  [["en"], 6767], [["t"], 6537]], "2": [[["central aymara"], 3995], [["chimp askicha\u00f1a"],
+  2260], [["global voices"], 1876], [["willka kuti"], 1665], [["sata qallta"], 1357]],
+  "3": [[["may may markanakatpach"], 961], [["uraqpachan ukham may"], 960], [["trabajar
+  sin importar"], 960], [["muy interesante trabajar"], 960], [["may markanakatpach
+  irnqt"], 960]], "4": [[["uraqpachan ukham may may"], 960], [["sin importar las fronteras"],
+  960], [["muy interesante trabajar sin"], 960], [["may may markanakatpach irnqt"],
+  960], [["interesante trabajar sin importar"], 960]], "5": [[["uraqpachan ukham may
+  may markanakatpach"], 960], [["trabajar sin importar las fronteras"], 960], [["muy
+  interesante trabajar sin importar"], 960], [["askipuniw uraqpachan ukham may may"],
+  960], [["estar prepar\u00e1ndose para el encuentro"], 330]]}'
