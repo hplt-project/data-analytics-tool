@@ -1,0 +1,1257 @@
+corpus: hplt-v3-ssw_Latn
+srclang: ss
+timestamp: 1758171434.3302407
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2020-45", 348], ["CC-MAIN-2021-43", 300], ["CC-MAIN-2022-27",
+  232], ["CC-MAIN-2020-05", 169], ["wide16", 167], ["CC-MAIN-2020-24", 119], ["CC-MAIN-2021-25",
+  115], ["wide11", 110], ["CC-MAIN-2020-29", 106], ["wide12", 80], ["CC-MAIN-2020-10",
+  64], ["CC-MAIN-2020-34", 54], ["CC-MAIN-2023-50", 53], ["CC-MAIN-2021-49", 51],
+  ["CC-MAIN-2018-05", 47], ["CC-MAIN-2024-10", 42], ["CC-MAIN-2021-17", 41], ["wide15",
+  39], ["CC-MAIN-2024-30", 32], ["CC-MAIN-2024-26", 31], ["CC-MAIN-2024-46", 30],
+  ["CC-MAIN-2024-51", 29], ["CC-MAIN-2021-10", 28], ["CC-MAIN-2018-39", 27], ["CC-MAIN-2024-38",
+  25], ["CC-MAIN-2024-18", 25], ["CC-MAIN-2014-15", 25], ["CC-MAIN-2024-22", 24],
+  ["CC-MAIN-2024-42", 23], ["CC-MAIN-2021-21", 23], ["CC-MAIN-2022-33", 22], ["CC-MAIN-2022-21",
+  22], ["CC-MAIN-2023-40", 21], ["CC-MAIN-2021-04", 17], ["CC-MAIN-2021-39", 16],
+  ["CC-MAIN-2024-33", 15], ["CC-MAIN-2017-51", 15], ["CC-MAIN-2020-16", 14], ["CC-MAIN-2022-05",
+  13], ["CC-MAIN-2023-06", 12], ["CC-MAIN-2020-40", 12], ["CC-MAIN-2019-04", 12],
+  ["CC-MAIN-2018-43", 12], ["CC-MAIN-2018-34", 12], ["wide17", 11], ["CC-MAIN-2023-14",
+  11], ["CC-MAIN-2020-50", 9], ["CC-MAIN-2015-18", 9], ["CC-MAIN-2023-23", 8], ["CC-MAIN-2022-49",
+  8], ["CC-MAIN-2021-31", 8], ["CC-MAIN-2017-26", 8], ["CC-MAIN-2014-35", 8], ["CC-MAIN-2017-04",
+  6], ["CC-MAIN-2016-44", 5], ["CC-MAIN-2022-40", 4], ["CC-MAIN-2018-22", 4], ["wide6",
+  3], ["wide10", 3], ["survey3", 3], ["CC-MAIN-2016-30", 2], ["wide5", 1], ["wide2",
+  1], ["CC-MAIN-2015-48", 1], ["CC-MAIN-2015-11", 1], ["CC-MAIN-2014-42", 1]]'
+docs_langs: '[[0.1, 12], [0.2, 36], [0.3, 56], [0.4, 37], [0.5, 99], [0.6, 140], [0.7,
+  315], [0.8, 777], [0.9, 679], [1.0, 638]]'
+docs_segments: '[[1, 48], [2, 89], [3, 86], [4, 78], [5, 74], [6, 89], [7, 56], [8,
+  74], [9, 98], [10, 63], [11, 79], [12, 93], [13, 74], [14, 81], [15, 74], [16, 78],
+  [17, 80], [18, 93], [19, 64], [20, 89], [21, 78], [22, 52], [23, 49], [24, 41],
+  [25, 27], [26, 38], [27, 37], [28, 33], [29, 20], [30, 28], [31, 22], [32, 26],
+  [33, 21], [34, 10], [35, 17], [36, 16], [37, 23], [38, 12], [39, 27], [40, 27],
+  [41, 33], [42, 22], [43, 14], [44, 15], [45, 13], [46, 16], [47, 17], [48, 8], [49,
+  14], [50, 10], [51, 22], [52, 13], [53, 11], [54, 3], [55, 6], [56, 5], [57, 10],
+  [58, 11], [59, 8], [60, 10], [61, 8], [62, 6], [63, 10], [64, 6], [65, 5], [66,
+  1], [67, 10], [68, 3], [69, 4], [70, 6], [71, 5], [72, 6], [73, 6], [74, 2], [75,
+  6], [76, 5], [77, 6], [78, 2], [79, 4], [80, 7], [81, 6], [82, 3], [83, 4], [84,
+  2], [85, 5], [86, 3], [87, 5], [88, 7], [89, 9], [90, 3], [91, 3], [92, 5], [93,
+  2], [94, 2], [95, 6], [96, 2], [97, 2], [98, 2], [99, 5], [100, 4], [101, 2], [102,
+  1], [103, 3], [104, 4], [105, 1], [106, 4], [107, 1], [108, 2], [109, 2], [110,
+  3], [111, 1], [112, 3], [113, 5], [114, 6], [115, 2], [116, 6], [117, 2], [118,
+  1], [119, 3], [120, 3], [121, 2], [122, 3], [123, 1], [124, 2], [125, 3], [126,
+  2], [127, 2], [128, 2], [130, 1], [131, 4], [132, 1], [133, 2], [134, 3], [135,
+  3], [137, 1], [138, 2], [139, 1], [140, 1], [141, 2], [142, 2], [143, 1], [144,
+  1], [145, 2], [147, 2], [148, 1], [149, 1], [151, 1], [152, 2], [153, 3], [154,
+  3], [155, 3], [156, 1], [157, 1], [158, 1], [159, 1], [160, 3], [161, 1], [163,
+  1], [166, 1], [168, 2], [169, 1], [170, 1], [173, 2], [177, 1], [178, 1], [179,
+  1], [181, 1], [185, 1], [187, 1], [190, 1], [194, 1], [195, 1], [197, 1], [213,
+  1], [220, 1], [221, 1], [223, 1], [227, 1], [228, 1], [230, 1], [233, 1], [236,
+  2], [241, 1], [255, 1], [258, 1], [273, 1], [275, 1], [282, 1], [285, 1], [291,
+  1], [294, 1], [297, 1], [298, 1], [301, 1], [305, 1], [311, 1], [318, 1], [348,
+  1], [355, 1], [364, 1], [389, 1], [399, 1], [435, 1], [764, 1], [1017, 1], [1558,
+  1], [2823, 1]]'
+docs_segments_mean: 34
+docs_segments_median: 18
+docs_top100_domains: '[["biblesa.co.za", 887], ["southafrica.co.za", 795], ["jw.org",
+  381], ["wikipedia.org", 321], ["nalibali.org", 32], ["myconstitution.co.za", 21],
+  ["www.gov.za", 19], ["shuters.co.za", 14], ["pansalb.org", 12], ["izithakazelo.blog",
+  12], ["bible.com", 10], ["thepresidency.gov.za", 9], ["inhlava.co.za", 9], ["gotquestions.org",
+  9], ["storypoweredschools.mobi", 8], ["sciencegraph.net", 8], ["lovereading4kids.co.uk",
+  8], ["lllsa.org", 8], ["elexacademicbookstore.co.za", 8], ["iono.fm", 7], ["forestersarms.co.za",
+  7], ["africanstorybook.org", 7], ["wakahina.com", 5], ["newvoices.co.za", 5], ["mycourses.co.za",
+  5], ["lectio.co.za", 5], ["khumbulekhaya.net.za", 5], ["fundza.mobi", 5], ["bridgebooks.co.za",
+  5], ["biblesociety.co.za", 5], ["presidency.gov.za", 4], ["ligwalagwalafm.co.za",
+  4], ["domanovic.org", 4], ["wakahina.co.za", 3], ["swazilandnews.co.za", 3], ["snapplify.com",
+  3], ["saqa.org.za", 3], ["sadilar.org", 3], ["qualibooks.co.za", 3], ["pa.org.za",
+  3], ["magevent.de", 3], ["letsstopaids.org", 3], ["heycovid19.com", 3], ["earlylearningresourcenetwork.org",
+  3], ["churchofjesuschrist.org", 3], ["balakudu.com", 3], ["wimpy.co.za", 2], ["wikimedia.org",
+  2], ["watchtower.org", 2], ["viaafrika.com", 2], ["smartstart.org.za", 2], ["selectafrica.net",
+  2], ["poemhunter.com", 2], ["jacana.co.za", 2], ["info.gov.za", 2], ["iitranslation.com",
+  2], ["dffe.gov.za", 2], ["cloudlibrary.org", 2], ["booksie.com", 2], ["blogspot.co.za",
+  2], ["bimba.co.za", 2], ["zhitov.com", 1], ["zetustoriesofus.com", 1], ["wordpress.com",
+  1], ["wikiplanet.click", 1], ["vidzone.in", 1], ["victordlamini.com", 1], ["vallalar.net",
+  1], ["uwc.ac.za", 1], ["unicode.org", 1], ["un.org.za", 1], ["ukzn.ac.za", 1], ["tymebank.co.za",
+  1], ["tshiamisotrust.com", 1], ["tshepo.mobi", 1], ["swazilii.org", 1], ["stop-overpopulation.org",
+  1], ["spotidoc.com", 1], ["spaza.io", 1], ["smashwords.com", 1], ["sekeryapim.com",
+  1], ["seghea.com", 1], ["scribd.com", 1], ["sbs.co.sz", 1], ["readbag.com", 1],
+  ["polity.org.za", 1], ["pensouthafrica.co.za", 1], ["oyun.game", 1], ["originspublishers.co.za",
+  1], ["oraesatta.co", 1], ["numsa.org.za", 1], ["nubianprincessworld.org", 1], ["ntsoana.com",
+  1], ["newframe.com", 1], ["mzansi-cnx.co.za", 1], ["mweb.co.za", 1], ["mpumalanga.com",
+  1], ["metaliteracy.org", 1], ["macmillaneducation.co.za", 1], ["lauramohapi.com",
+  1]]'
+docs_top100_tld: '[["co.za", 1800], ["org", 806], ["com", 56], ["gov.za", 37], ["org.za",
+  14], ["mobi", 14], ["net", 12], ["blog", 12], ["co.uk", 8], ["fm", 7], ["net.za",
+  5], ["io", 3], ["de", 3], ["co", 3], ["ac.za", 3], ["ru", 1], ["in", 1], ["game",
+  1], ["com.az", 1], ["co.sz", 1], ["click", 1]]'
+docs_total: 2789
+docs_wds: '[[10.0, 1], [5.0, 12], [5.1, 7], [5.2, 12], [5.3, 10], [5.4, 8], [5.5,
+  10], [5.6, 15], [5.7, 10], [5.8, 8], [5.9, 8], [6.0, 9], [6.1, 11], [6.2, 14], [6.3,
+  15], [6.4, 15], [6.5, 8], [6.6, 19], [6.7, 19], [6.8, 16], [6.9, 30], [7.0, 36],
+  [7.1, 41], [7.2, 47], [7.3, 55], [7.4, 50], [7.5, 75], [7.6, 92], [7.7, 82], [7.8,
+  94], [7.9, 140], [8.0, 152], [8.1, 157], [8.2, 140], [8.3, 137], [8.4, 108], [8.5,
+  116], [8.6, 101], [8.7, 103], [8.8, 107], [8.9, 118], [9.0, 110], [9.1, 84], [9.2,
+  84], [9.3, 78], [9.4, 61], [9.5, 52], [9.6, 51], [9.7, 35], [9.8, 22], [9.9, 4]]'
+sentence_pairs: 94956
+src_bytes: 15067021
+src_chars: 14946310
+src_pii: 60
+src_tokens: 2146938
+unique_sents: 58597
+src_sent_tokens: '[[1, 10344], [2, 3307], [3, 4107], [4, 5735], [5, 4534], [6, 3794],
+  [7, 2999], [8, 2556], [9, 2231], [10, 2154], [11, 2153], [12, 2040], [13, 1858],
+  [14, 1778], [15, 1669], [16, 1721], [17, 1544], [18, 1530], [19, 1459], [20, 1424],
+  [21, 1534], [22, 1379], [23, 1202], [24, 1267], [25, 1114], [26, 1163], [27, 1088],
+  [28, 1038], [29, 1013], [30, 884], [31, 893], [32, 846], [33, 956], [34, 836], [35,
+  727], [36, 741], [37, 778], [38, 675], [39, 685], [40, 627], [41, 629], [42, 581],
+  [43, 554], [44, 567], [45, 511], [46, 504], [47, 504], [48, 447], [49, 494], [50,
+  463], [51, 382], [52, 397], [53, 375], [54, 347], [55, 305], [56, 311], [57, 350],
+  [58, 307], [59, 336], [60, 330], [61, 307], [62, 275], [63, 282], [64, 232], [65,
+  228], [66, 226], [67, 191], [68, 207], [69, 213], [70, 202], [71, 201], [72, 179],
+  [73, 159], [74, 197], [75, 160], [76, 153], [77, 152], [78, 146], [79, 145], [80,
+  155], [81, 156], [82, 145], [83, 144], [84, 109], [85, 96], [86, 106], [87, 109],
+  [88, 105], [89, 105], [90, 124], [91, 100], [92, 104], [93, 88], [94, 57], [95,
+  91], [96, 78], [97, 64], [98, 94], [99, 75], [100, 66], [101, 64], [102, 64], [103,
+  57], [104, 58], [105, 48], [106, 46], [107, 65], [108, 52], [109, 49], [110, 48],
+  [111, 45], [112, 48], [113, 39], [114, 29], [115, 64], [116, 48], [117, 46], [118,
+  23], [119, 30], [120, 32], [121, 35], [122, 33], [123, 36], [124, 20], [125, 30],
+  [126, 42], [127, 26], [128, 21], [129, 22], [130, 30], [131, 19], [132, 20], [133,
+  16], [134, 24], [135, 27], [136, 9], [137, 10], [138, 27], [139, 12], [140, 5],
+  [141, 11], [142, 4], [143, 12], [144, 4], [145, 15], [146, 20], [147, 14], [148,
+  10], [149, 10], [150, 7], [151, 4], [152, 9], [153, 5], [154, 5], [155, 13], [156,
+  2], [157, 7], [158, 16], [159, 12], [160, 6], [161, 12], [162, 10], [163, 4], [164,
+  9], [165, 5], [166, 6], [167, 6], [168, 4], [169, 4], [170, 5], [171, 7], [172,
+  3], [173, 4], [174, 2], [175, 3], [176, 4], [177, 6], [178, 8], [179, 1], [180,
+  6], [181, 6], [182, 4], [183, 1], [184, 5], [185, 3], [186, 4], [188, 3], [189,
+  5], [190, 1], [194, 2], [195, 5], [196, 1], [198, 4], [199, 1], [200, 4], [201,
+  1], [202, 1], [203, 1], [204, 2], [205, 4], [206, 1], [207, 2], [208, 1], [209,
+  1], [211, 3], [212, 1], [213, 2], [216, 6], [217, 1], [219, 2], [220, 1], [224,
+  1], [231, 2], [233, 1], [238, 1], [240, 2], [242, 3], [243, 1], [245, 1], [247,
+  3], [248, 4], [249, 1], [251, 1], [252, 1], [253, 1], [255, 1], [256, 2], [264,
+  1], [265, 1], [283, 1], [289, 1], [292, 1], [302, 1], [303, 1], [307, 1], [318,
+  1], [322, 1], [324, 1], [325, 1], [341, 1], [394, 1], [398, 1], [407, 2], [410,
+  5], [431, 1], [461, 1], [483, 1], [587, 1], [622, 1], [654, 1], [690, 1], [853,
+  1], [1062, 1], [1267, 1], [1291, 1], [6181, 1]]'
+src_sent_tokens_mean: 23
+src_sent_tokens_median: 13
+src_unique_sents: '[[1, 758], [2, 1590], [3, 2423], [4, 3546], [5, 2986], [6, 2492],
+  [7, 2146], [8, 1949], [9, 1768], [10, 1622], [11, 1618], [12, 1487], [13, 1355],
+  [14, 1280], [15, 1188], [16, 1169], [17, 1105], [18, 1020], [19, 1007], [20, 999],
+  [21, 1010], [22, 937], [23, 825], [24, 884], [25, 765], [26, 780], [27, 747], [28,
+  727], [29, 701], [30, 607], [31, 609], [32, 575], [33, 632], [34, 567], [35, 519],
+  [36, 540], [37, 535], [38, 472], [39, 472], [40, 454], [41, 435], [42, 415], [43,
+  392], [44, 385], [45, 354], [46, 366], [47, 344], [48, 321], [49, 326], [50, 323],
+  [51, 270], [52, 283], [53, 269], [54, 255], [55, 228], [56, 233], [57, 249], [58,
+  223], [59, 246], [60, 230], [61, 205], [62, 193], [63, 190], [64, 174], [65, 163],
+  [66, 165], [67, 145], [68, 143], [69, 152], [70, 147], [71, 134], [72, 121], [73,
+  113], [74, 139], [75, 124], [76, 111], [77, 100], [78, 100], [79, 101], [80, 105],
+  [81, 106], [82, 96], [83, 102], [84, 70], [85, 74], [86, 81], [87, 80], [88, 74],
+  [89, 75], [90, 78], [91, 75], [92, 77], [93, 69], [94, 46], [95, 64], [96, 50],
+  [97, 47], [98, 67], [99, 56], [100, 52], [101, 45], [102, 44], [103, 44], [104,
+  42], [105, 36], [106, 30], [107, 46], [108, 34], [109, 34], [110, 35], [111, 32],
+  [112, 37], [113, 30], [114, 21], [115, 38], [116, 33], [117, 32], [118, 19], [119,
+  24], [120, 22], [121, 23], [122, 21], [123, 26], [124, 14], [125, 22], [126, 21],
+  [127, 14], [128, 20], [129, 16], [130, 18], [131, 15], [132, 16], [133, 9], [134,
+  15], [135, 15], [136, 9], [137, 10], [138, 17], [139, 11], [140, 5], [141, 10],
+  [142, 3], [143, 9], [144, 3], [145, 9], [146, 12], [147, 11], [148, 10], [149, 8],
+  [150, 6], [151, 4], [152, 4], [153, 4], [154, 5], [155, 10], [156, 2], [157, 4],
+  [158, 8], [159, 9], [160, 6], [161, 8], [162, 6], [163, 3], [164, 3], [165, 5],
+  [166, 6], [167, 3], [168, 3], [169, 4], [170, 5], [171, 3], [172, 3], [173, 2],
+  [174, 2], [175, 3], [176, 4], [177, 2], [178, 5], [179, 1], [180, 3], [181, 6],
+  [182, 3], [183, 1], [184, 3], [185, 3], [186, 1], [188, 3], [189, 5], [190, 1],
+  [194, 2], [195, 5], [196, 1], [198, 2], [199, 1], [200, 2], [201, 1], [202, 1],
+  [203, 1], [204, 2], [205, 2], [206, 1], [207, 2], [208, 1], [209, 1], [211, 1],
+  [212, 1], [213, 2], [216, 2], [217, 1], [219, 1], [220, 1], [224, 1], [231, 2],
+  [233, 1], [238, 1], [240, 2], [242, 2], [243, 1], [245, 1], [247, 1], [248, 4],
+  [249, 1], [251, 1], [252, 1], [253, 1], [255, 1], [256, 1], [264, 1], [265, 1],
+  [283, 1], [289, 1], [292, 1], [302, 1], [303, 1], [307, 1], [318, 1], [322, 1],
+  [324, 1], [325, 1], [341, 1], [394, 1], [398, 1], [407, 1], [410, 4], [431, 1],
+  [461, 1], [483, 1], [587, 1], [622, 1], [654, 1], [690, 1], [853, 1], [1062, 1],
+  [1267, 1], [1291, 1], [6181, 1]]'
+src_langs: '[["en", 50941], ["tl", 6087], ["de", 4243], ["fr", 4025], ["id", 3620],
+  ["it", 2927], ["hr", 2735], ["pl", 2450], ["es", 2235], ["fi", 1344], ["sw", 1264],
+  ["nl", 1131], ["war", 1113], ["tr", 1037], ["eo", 906], ["sv", 856], ["sl", 829],
+  ["ceb", 754], ["pt", 575], ["la", 515], ["nb", 421], ["ms", 406], ["ur", 363], ["eu",
+  356], ["ja", 314], ["sq", 296], ["jv", 272], ["hu", 248], ["oc", 223], ["ilo", 219],
+  ["et", 211], ["ca", 183], ["io", 176], ["cs", 141], ["ru", 123], ["sr", 114], ["su",
+  97], ["zh", 93], ["ro", 84], ["br", 81], ["lt", 80], ["cy", 63], ["bs", 58], ["uz",
+  57], ["qu", 51], ["kw", 48], ["sk", 44], ["scn", 40], ["lv", 32], ["da", 30], ["az",
+  25], ["uk", 24], ["min", 20], ["ku", 18], ["vi", 17], ["he", 16], ["kn", 15], ["hsb",
+  14], ["vo", 13], ["mt", 13], ["is", 13], ["mg", 12], ["rm", 11], ["nap", 11], ["af",
+  11], ["lmo", 10], ["lb", 10], ["gl", 10], ["yi", 9], ["pms", 9], ["gu", 9], ["ko",
+  8], ["jbo", 8], ["te", 7], ["gv", 7], ["el", 7], ["nn", 6], ["nds", 6], ["ml", 6],
+  ["ie", 6], ["fy", 6], ["fa", 6], ["bar", 6], ["als", 6], ["sco", 5], ["pam", 5],
+  ["ht", 5], ["si", 4], ["gd", 4], ["so", 3], ["li", 3], ["ga", 3], ["bn", 3], ["ug",
+  2], ["th", 2], ["ta", 2], ["my", 2], ["mrj", 2], ["mk", 2], ["kk", 2], ["hy", 2],
+  ["frr", 2], ["co", 2], ["an", 2], ["yo", 1], ["wa", 1], ["tg", 1], ["mr", 1], ["ia",
+  1], ["hi", 1], ["gn", 1], ["cbk", 1], ["bh", 1], ["bg", 1], ["azb", 1], ["arz",
+  1], ["ar", 1]]'
+hardrules_tags: '{"not_too_long": 366, "not_too_short": 17835, "length_ratio": 0,
+  "no_urls": 296, "no_bad_encoding": 4, "pii": 60}'
+sample: '["\"Ingoma 107 Nemthantazo\\nSetfulo (3 imiz. nobe ngephansi)\\nUMCEBO LOSEVINI
+  LANKULUNKULU\\n\u201cUmbono WaHezekeli Welithempeli Ukutsintsa Njani?\u201d: (10
+  imiz.)\\nHez 40:2\u2014Kukhonta Jehova kubaluleke kakhulu kwendlula nobe yini (w99-ZU
+  3/1 11 \u00b616)\\nHez 40:3, 5\u2014Jehova utasigcwalisa setsembiso sakhe lesimayelana
+  nekukhonta lokuhlantekile (w07-ZU 8/1 10 \u00b62)\\nHez 40:10, 14, 16\u2014Kufanele
+  silalele timiso taJehova letiphakeme naletilungile kuze simkhonte ngendlela leyemukelekako
+  (w07-ZU 8/1 11 \u00b64)\\nFunisisa Umcebo EVini LaNkulunkulu: (8 imiz.)\\nHez 39:7\u2014Nangabe
+  bantfu basola Nkulunkulu ngekungalungi lokukhona, balihlambalata njani ligama lakhe?
+  (w12-ZU 9/1 21 \u00b62)\\nHez 39:9\u2014Ngemuva kwe-Amagedoni, kutawentekani ngetikhali
+  temphi lokuliwa ngato lamuhla? (w89-ZU 8/15 14 \u00b620)\\nLamavesi eliBhayibheli
+  labekafundvwa kuleliviki angifundziseni ngaJehova?\\nNgumaphi lamanye emaphuzu lengiwatfolile
+  kulokufundvwa kweliBhayibheli kwaleliviki?\\nKufundvwa KweliBhayibheli: (4 imiz.
+  nobe ngephansi) Hez 40:32-47\\nTIMISELE EMSEBENTINI WEKUSHUMAYELA\\nKucoca Nemuntfu
+  Kwekucala: (2 imiz. nobe ngephansi) fg sifundvo 1 \u00b61\u2014Cala ngekwetfula
+  i-video letsi Ungatsandza Yini Kwati Tindzaba Letimnandzi? (kodvwa ungayidlali)
+  Bese uhambisa lencwajana.\\nKubuyela Kulesicoce Naye: (4 imiz. nobe ngephansi) fg
+  sifundvo 1 \u00b62\u2014Yakha sisekelo sekubuyela kuye.\\nSifundvo SeliBhayibheli:
+  (6 imiz. nobe ngephansi) fg sifundvo 1 \u00b63-4\\nKUPHILA KWEMAKHRISTU\\nIngoma
+  145\\n\u201cNgingaba Nini Lihlahlandlela Lelisitako?\u201d: (15 imiz.) Coca nelibandla.
+  Dlala i-video letsi Ngelusito LwaJehova Ngingenta Nobe Yini.\\nSifundvo SeliBhayibheli
+  Selibandla (30 imiz.) kr sehl. 17 \u00b61-9\\nBuketa Lokucocwe Ngako Bese Usho Lokutawucocwa
+  Ngako Evikini Lelilandzelako (3 imiz.)\\nIngoma 92 Nemthantazo\"", "\"1. Ngumuphi
+  umthantazo lowatiwako lesitawucoca ngawo?\\nTIGIDZI tebantfu tiyawati umthantazo
+  lowatiwa kakhulu ngekutsi nguBabe Wetfu Wasezulwini nobe Umthantazo WeNkhosi. Jesu
+  wasebentisa lomthantazo losibonelo kute afundzise bafundzi bakhe kuthantaza. Wathantazela
+  ini? Ubaluleke ngani kitsi lomthantazo?\\n2. Ngutiphi tintfo letintsatfu letibalulekile
+  Jesu lasifundzisa kutithantazela?\\n2 Jesu watsi: \u201cNgako-ke kufanele nithantaze
+  ngalendlela: \u2018Babe wetfu losezulwini, alingcweliswe libito lakho. UMbuso wakho
+  awute. Intsandvo yakho ayentiwe emhlabeni njengasezulwini.\u2019\u201d (Fundza Matewu
+  6:9-13.) Yini leyenta Jesu wasifundzisa kuthantazela letintfo letintsatfu?\u2014Fundza
+  liphuzu 20 ngephasi kwesihloko lesitsi Imininingwane Lesekugcineni.\\n3. Yini lokufanele
+  siyati ngeMbuso waNkulunkulu?\\n3 Sesifundzile kutsi libito laNkulunkulu nguJehova.
+  Sesicocile ngekutsi iyini injongo yaNkulunkulu ngemhlaba nangebantfu. Kodvwa Jesu
+  bekasho kutsini nakatsi: \u201cUMbuso wakho awute\u201d? Nyalo sitawufundza ngaloko
+  uMbuso waNkulunkulu longiko, naloko lotawusentela kona nekutsi utalingcwelisa kanjani
+  libito laNkulunkulu.\\nUYINI UMBUSO WANKULUNKULU?\\n4. Uyini uMbuso waNkulunkulu
+  futsi ngubani iNkhosi yawo?\\n4 Jehova wasungula hulumende wasezulwini, wakhetsa
+  Jesu kutsi abe yiNkhosi yawo. LiBhayibheli libita lohulumende ngekutsi nguMbuso
+  waNkulunkulu. Jesu \u201cuyiNkhosi yemakhosi neMbusi webabusi.\u201d (1 Thimothi
+  6:15) Jesu unelikhono lekwenta lokuhle kwendlula nobe ngumuphi lomunye umbusi, futsi
+  unemandla kuwendlula onkhe emakhosi ngisho nome ahlanganisiwe ndzawonye.\\n5. Umbuso
+  waNkulunkulu utawubusa ukuphi? Utawubusa ini?\\n5 Ngemuva kwemalanga langu-40 Jesu
+  avusiwe, wabuyela ezulwini. Ngemuva kwaloko, Jehova wambeka waba yiNkhosi yeMbuso
+  wakhe. (Imisebenti 2:33) Njengobe hulumende waNkulunkulu utawube usezulwini utawubusa
+  umhlaba. (Sembulo 11:15) Kungako liBhayibheli liwubita ngekutsi \u2018nguMbuso wasezulwini.\u2019\u20142
+  Thimothi 4:18.\\n6, 7. Yini leyenta Jesu ehluke kulamanye emakhosi labantfu?\\n6
+  LiBhayibheli litsi Jesu mkhulu kunawo onkhe emakhosi ngobe nguye \u201cyedvwa longafi.\u201d
+  (1 Thimothi 6:16) Babusi lababantfu bayafa kepha Jesu akayuze afe. Tonkhe tintfo
+  letinhle Jesu latawusentela tona titawuhlala phakadze.\\n7 Naku lokwashiwo liBhayibheli
+  naliphrofetha kutsi Jesu utawuba yiNkhosi lengakhetsi nalenemusa: \u201cMoya waSimakadze
+  uyawubasetikwakhe, Moya wekuhlakanipha newekucondza, Moya wekweluleka newemandla,
+  Moya welwati newekwesaba Simakadze, uyawutijabulisa ekwesabeni Simakadze. Angeke
+  ehlulele ngalakubona ngemehlo akhe, nome ente sincumo ngalakuve ngetindlebe takhe;
+  kodvwa labeswele uyawubehlulela ngekwemtsetfocotfo.\u201d (Isaya 11:2-4) Uyafisa
+  yini kuba neNkhosi lenjengalena?\\n8. Sati ngani kutsi Jesu angeke abuse yedvwa?\\n8
+  Nkulunkulu ukhetse bantfu labambalwa kutsi babuse naJesu kuhulumende wasezulwini.
+  Sibonelo saloko kutsi Pawula watjela Thimothi kutsi: \u201cNasichubeka sibeketela,
+  sitawubusa kanye kanye njengemakhosi.\u201d (2 Thimothi 2:12) Bangakhi labatawuba
+  ngemakhosi kanye naJesu?\\n9. Bangakhi labatawubusa naJesu? Wacala nini Nkulunkulu
+  kubakhetsa?\\n9 Njengobe sifundzile esehlukweni 7, umphostoli Johane wabona umbono
+  lapho khona Jesu asayiNkhosi ezulwini akanye nalamanye emakhosi langu-144 000. Babobani
+  lalabangu-144 000? Johane uyachaza kutsi wabona \u2018emabuntini abo kubhalwe libito
+  lakhe [Jesu] neleYise.\u2019 Uyachubeka atsi: Laba \u201cbachubeka balandzela liWundlu
+  [lokunguJesu] nobe ngukuphi lapho liya khona. Batsengwa kubantfu.\u201d (Fundza
+  Sembulo 14:1, 4.) Laba labangu-144 000 bangemaKhristu letsembekile lakhetfwa nguNkulunkulu
+  kutsi abuse \u201cnjengemakhosi etikwemhlaba.\u201d Nabafa bavuselwa kuyophila ezulwini.
+  (Sembulo 5:10) Kusukela ngesikhatsi sebaphostoli, Jehova abesolo akhetsa emaKhristu
+  letsembekile latawuba kulaba labangu-144 000 labayobusa ezulwini.\\n10. Yini lesenta
+  sitsi Jehova uyasicabangela ngekubeka Jesu nalabangu-144 000 kutsi basibuse?\\n10
+  Jehova uyasikhatsalela kakhulu kangangekutsi wente lilungiselelo lekutsi bantfu
+  bayobusa naJesu. Jesu utawuba ngumbusi lokahle ngobe uyasati. Uyakwati kuhlupheka
+  kanye nekutsi kunjani kuba ngumuntfu. Pawula watsi Jesu uneluvelo ngebantfu, \u201cngeke
+  angavelani nebutsakatsaka betfu\u201d futsi \u201ckuto tonkhe tintfo uvivinywe njengatsi.\u201d
+  (Hebheru 4:15; 5:8) Laba labangu-144 000 nabo bayati kutsi kunjani kuba ngumuntfu.
+  Nabo bebalwa nesono nekugula. Singaciniseka kutsi Jesu kanye nalaba labangu-144
+  000 batawuyati indlela lesitiva ngayo kanye netinkinga lesilwisana nato.\\nYINI
+  LETAKWENTIWA NGUMBUSO WANKULUNKULU?\\n11. Yini leyenta Jesu wafundzisa balandzeli
+  bakhe kutsi bathantazele intsandvo yaNkulunkulu kutsi yenteke ezulwini?\\n11 Jesu
+  wafundzisa balandzeli bakhe kutsi bathantazele intsandvo yaNkulunkulu kutsi yenteke
+  ezulwini. Wabafundziselani? Sifundzile eSehlukweni 3 kutsi Sathane wavukela Jehova.
+  Ngemuva kwalokuvukela, Jehova wamyekela Sathane wachubeka ahlala ezulwini sikhashana
+  akanye netingilosi takhe lokutsiwa ngemadimoni. Akusibo bonkhe ezulwini lebebenta
+  intsandvo yaNkulunkulu. ESehlukweni 10 sitawufundza kabanti ngaSathane nemadimoni.\\n12.
+  UmBhalo weSembulo 12:10 usichazela ngatiphi tintfo letimbili letenteka?\\n12 LiBhayibheli
+  liyasichazela kutsi Jesu walwa naSathane masinyane ngemuva kwekubekwa kutsi abe
+  yiNkhosi eMbusweni waNkulunkulu. (Fundza Sembulo 12:7-10.) Livesi 10 lisichazela
+  nganati tintfo letimbili letibaluleke kakhulu: UMbuso waNkulunkulu uyacala kubusa,
+  Jesu uyiNkhosi yawo; Sathane uyacoshwa ezulwini ulahlelwa emhlabeni. Njengobe sitofundza,
+  letintfo leti setenteka.\\n13. Kwentekani ezulwini ngemuva kwekucoshwa kwaSathane?\\n13
+  LiBhayibheli lisichazela ngenjabulo tingilosi letetsembekile letaba nayo ezulwini
+  ngemva kwekucoshwa kwaSathane nemadimoni akhe. Litsi: \u201cJabulani nine mazulu
+  nani lenihlala kuwo!\u201d (Sembulo 12:12) Sekunekuthula nebunye ezulwini ngobe
+  sekwenteka intsandvo yaNkulunkulu.\\n14. Kwentekani emhlabeni ngemuva kwekutsi Sathane
+  asalahlelwe kuwo?\\n14 Kuphila emhlabeni kwehluke kakhulu kunekwasezulwini. Bantfu
+  behlelwa tintfo letimbi \u2018ngobe Develi wehlele emhlabeni atfukutsele kakhulu
+  ngobe ati kutsi unesikhatsi lesincane.\u2019 (Sembulo 12:12) Sathane utfukutsele
+  kakhulu ngobe ucoshiwe ezulwini futsi uyati kutsi utawubhujiswa masinyane. Wenta
+  konkhe lokusemandleni akhe kute abangele tinkinga, buhlungu nekuhlupheka emhlabeni
+  wonkhe.\\n15. Iyini intsandvo yaNkulunkulu ngemhlaba?\\n15 Intsandvo yaNkulunkulu
+  ngemhlaba solo ayikashintji. Usafuna kutsi bantfu labete sono bahlale phakadze emhlabeni
+  loliPharadisi. (Tihlabelelo 37:29) UMbuso waNkulunkulu utakwenta kanjani konkhe
+  loku?\\n16, 17. UmBhalo waDanyela 2:44 usitjelani ngeMbuso waNkulunkulu?\\n16 Siphrofetho
+  lesisemBhalweni waDanyela 2:44 sitsi: \u201cNgesikhatsi salawo makhosi, Nkulunkulu
+  welizulu uyawumisa umbuso longasoze wabhujiswa lutfo, futsi ngeke unikwe labanye
+  bantfu. Uyawupitjita yonkhe leminye imibuso uyicedze, kodvwa wona uyawukuma kuze
+  kube phakadze.\u201d Sisifundzisani lesiphrofetho ngeMbuso waNkulunkulu?\\n17 Kwekucala,
+  sisitjela kutsi uMbuso waNkulunkulu utawucala kubusa \u201cngesikhatsi salawo makhosi.\u201d
+  Loku kusho kutsi leminye imibuso itawube isabusa nawucala kubusa loMbuso. Kwesibili,
+  sisitjela kutsi uMbuso waNkulunkulu uyawukuma kuze kube phakadze unganikwa labanye
+  bantfu. Kwesitsatfu, uMbuso waNkulunkulu utakulwa nalemibuso lelamhlabeni, uncobe
+  kube ngiwo kuphela lobusa emhlabeni wonkhe. Bantfu batawubese babuswa nguhulumende
+  lokahle kunabo bonkhe labake baba khona.\\n18. Ibitwa ngekutsi yini imphi yaNkulunkulu
+  nabohulumende bemhlaba?\\n18 UMbuso waNkulunkulu utayincoba njani lemibuso yalamhlabeni?
+  Ngaphambi kwekutsi kucale imphi yekugcina lebitwa ngekutsi yi-Amagedoni, emadimoni
+  atawudukisa \u2018emakhosi emhlaba wonkhe, kuze awabutsele ndzawonye emphini yelilanga
+  lelikhulu laNkulunkulu Somandla.\u2019 Bohulumende bebantfu batokulwa neMbuso waNkulunkulu.\u2014Sembulo
+  16:14, 16; fundza liphuzu 10 ngephasi kwesihloko lesitsi Imininingwane Lesekugcineni.\\n19,
+  20. Yini lesenta sidzinge uMbuso waNkulunkulu?\\n19 Yini lesenta siwudzinge uMbuso
+  waNkulunkulu? Kunetizatfu leticishe tibe tintsatfu taloko. Sekucala kutsi sinesono,
+  ngako siyagula futsi siyafa. Kodvwa-ke, liBhayibheli liyasho kutsi ngaphansi kweMbuso
+  waNkulunkulu sitawuphila kuze kube phakadze. Ecinisweni Johane 3:16 utsi: \u201cNkulunkulu
+  walitsandza kakhulu live kangangekutsi waze wanikela ngeNdvodzana yakhe lekuphela
+  kwayo, kuze wonkhe umuntfu lokholwa ngiyo angabhubhi, kodvwa atfole kuphila lokuphakadze.\u201d\\n20
+  Sizatfu sesibili lesisenta sifune uMbuso waNkulunkulu kutsi bantfu lesiphila nabo
+  benta tintfo letimbi. Linyenti labo litiphatsa kabi, licamba emanga futsi aliketsembeki.
+  Kute lesingakwenta kute sibasuse kodvwa Nkulunkulu utawubasusa. Bantfu labachubeka
+  nekwenta bubi batawubhujiswa baphele nya nge-Amagedoni. (Fundza Tihlabelelo 37:10.)
+  Sizatfu sesitsatfu kutsi bohulumende bebantfu abakhoni kusenetisa, baneludlame nebudlova
+  futsi bakhohlakele. Abakatimiseli kusita bantfu kutsi balalele Nkulunkulu. LiBhayibheli
+  litsi: \u201cUmuntfu usuke atihlisibete etikwalabanye kantsi utilimata yena.\u201d\u2014Umshumayeli
+  8:9.\\n21. Yini letawentiwa nguMbuso waNkulunkulu kute ucinisekise kutsi intsandvo
+  yakhe iyentiwa emhlabeni?\\n21 Ngemuva kwe-Amagedoni, uMbuso waNkulunkulu utawucinisekisa
+  kutsi intsandvo yaNkulunkulu iyentiwa emhlabeni. Sibonelo saloko kutsi loMbuso utawususa
+  Sathane nemadimoni akhe. (Sembulo 20:1-3) Ekugcineni kute lotawugula nobe afe. Ngenca
+  yenhlawulo, bonkhe bantfu labetsembekile batawuphila phakadze ePharadisi. (Sembulo
+  22:1-3) LoMbuso utawungcwelisa libito laNkulunkulu. Kusho kutsini loko? Kusho kutsi
+  nasekubusa hulumende waNkulunkulu lamhlabeni, bonkhe bantfu batawuhlonipha libito
+  laJehova.\u2014Fundza liphuzu 21 ngephasi kwesihloko lesitsi Imininingwane Lesekugcineni.\\nJESU
+  WABEKWA NINI KUTSI ABE YINKHOSI?\\n22. Sati ngani kutsi Jesu abengasiyo iNkhosi
+  ngesikhatsi alamhlabeni nobe masinyane ngemuva kwekuvuswa kwakhe?\\n22 Jesu wafundzisa
+  bafundzi bakhe kutsi bathantaze batsi: \u201cUMbuso wakho awute.\u201d Loko kwakwenta
+  kwacaca kutsi uMbuso waNkulunkulu bewutawufika esikhatsini lesitako. Jehova abetawucala
+  ngekusungula hulumende wakhe bese ubeka Jesu kutsi abe yiNkhosi yawo. Jesu wabekwa
+  waba yiNkhosi masinyane nakabuyela ezulwini yini? Cha, kwadzingeka eme sikhashana.
+  Ngemuva kwekuvuswa kwaJesu, boPhetro naPawula bacacisa lobekushiwo siphrofetho lesikhuluma
+  ngaJesu lesisemBhalweni weTihlabelelo 110:1. Kulesiphrofetho Jehova utsi: \u201cHlala
+  ngesekudla sami, ngidzimate ngente titsa takho tibe senabelo setinyawo takho.\u201d
+  (Imisebenti 2:32-35; Hebheru 10:12, 13) Kwakutodzingeka kutsi Jesu eme sikhatsi
+  lesingakanani ngaphambi kwekutsi Jehova ambeke abe yiNkhosi?\\nUMbuso waNkulunkulu
+  utawucinisekisa kutsi intsandvo yaNkulunkulu iyenteka emhlabeni\\n23. (a) Jesu wacala
+  nini kubusa eMbusweni waNkulunkulu? (b) Sitawufundza ngani esehlukweni lesilandzelako?\\n23
+  Kusesele iminyaka leminyenti ngaphambi kwekufika kwa-1914, emaKhristu eliciniso
+  beketsemba kutsi leso bekutoba sikhatsi lesibaluleke kakhulu sekugcwaliseka kwesiphrofetho
+  seliBhayibheli. Tintfo letenteka kusukela nga-1914 tiyakufakazela loko. Jesu waba
+  yiNkhosi ngalowo mnyaka. (Tihlabelelo 110:2) Ngemuva kwaloko, Sathane walahlelwa
+  phansi emhlabeni futsi manje \u201cunesikhatsi lesincane.\u201d (Sembulo 12:12)
+  Esehlukweni lesilandzelako sitawufundza kabanti ngebufakazi bekutsi sesiphila kuleso
+  sikhatsi. Sitawuphindze sifundze kutsi masinyane uMbuso waNkulunkulu utawucinisekisa
+  kutsi intsandvo yaNkulunkulu iyenteka lamhlabeni.\u2014Fundza liphuzu 22 ngephasi
+  kwesihloko lesitsi Imininingwane Lesekugcineni.\"", "\"211\\nJesu abebukela tinjinga
+  tibeka iminikelo ebhokisini leminikelo yelithempeli, 2wase ubona umfelokati labephuye
+  kakhulu lowanikela ngetinhlavu temali letimbili letenta lisenti. 3Wase utsi: \u201cNginitjela
+  kutsi lomfelokati lophuyile unikele kakhulu kunabo bonkhe labanikele, 4ngobe laba
+  labanye banikele ngalokusele ebunjingeni babo; kodvwa yena, njengobe aphuyile nje,
+  unikele ngako konkhe labengahle aphile ngako.\u201d\\n5Labanye bebakhuluma ngelithempeli,
+  nebuhle balo nangekuhlotjiswa kwalo ngematje lamahle, nangaletinye tintfo letatinikelwa
+  kuNkulunkulu; Jesu watsi: 6\\n\u201cNiyakubona konkhe loku, sikhatsi siyeta lapho
+  kuyawubate litje leliyawusala lihleti etikwalelinye; onkhe ayawudzilitelwa phansi.\u201d\\n7Babuta
+  batsi: \u201cMfundzisi, kuyakwenteka nini loko? Siyini sibonakaliso lesiyawubona
+  ngaso kutsi sengiso sikhatsi sekwenteka kwaletintfo?\u201d\\n8Jesu watsi: \u201cCaphelani,
+  ningedukiswa. Kuyawufika bantfu labanyenti egameni lami, batsi: \u2018Nginguye!\u2019
+  batsi: \u2018Sikhatsi sesifikile!\u2019 Kodvwa ningabalandzeli! 9Ningesabi naniva
+  ngetimphi nengucuko, ngobe letintfo kufanele tenteke kucala, kodvwa atisho kutsi
+  siphetfo sesifikile.\u201d\\n10Wachubeka watsi: \u201cSive siyawuvukela lesinye,
+  umbuso uvukele lomunye. 11Kuyawuba nekutamatama kwemhlaba lokwesabekako lokunyenti,
+  kuvame indlala netifo letingelapheki naletitsatselwanako etindzaweni letinyenti,
+  kube netesabekiso netibonakaliso letikhulu letivela esibhakabhakeni.\\n12\\n\u201cNoko,
+  ngembili kwako konkhe loku niyawutingelwa, niboshwe niletfwe emasinagogeni, nibekwe
+  emacala bese nifakwa emajele; niyawuletfwa embikwemakhosi nebabusi ngenca yelibito
+  lami. 13Lelo kuyawuba litfuba lenu lekufakaza ngaleliVangeli. 14\\nTimiseleni etinhlitiyweni
+  nasetingcondvweni tenu, ngekutsi ningatihluphi ngekucabanga kutsi niyawutivikela
+  kanjani; 15ngobe phela ngiyawuninika emavi nekuhlakanipha lekuyawubate nome sinye
+  setitsa tenu lesiyawuba nemandla ekumelana nekuphikisana nani. 16Niyawunikelwa ngisho
+  nabatali benu, nabomnakenu, netihlobo tenu, nebangani benu; labanye benu bayawubulawa
+  nekubulawa. 17Wonkhe umuntfu uyawunitondza ngenca yelibito lami. 18Kodvwa kute nome
+  lunye nje lunwele loluyawulahleka etinhloko tenu. 19\\nCiniselani ngekubeketela
+  kwenu, niyawutisindzisa ngaloko.\u201d\\n20\u201cNanibona iJerusalema itungeletwe
+  timphi, nibovele nati kutsi seyitawubhidlitwa. 21Labo labaseJudiya babalekele etintsabeni,
+  kutsi labo labakulelo dolobha babaleke, bese kutsi labo labasetigangeni bangabe
+  basangena kulelo dolobha. 22\\nPhela lamalanga ngesijeziso, newekugcwaliseka kwako
+  konkhe lokushiwo ngimiBhalo.\\n23\u201cMaye kulabo labayawube bakhulelwe, nakulabo
+  labayakube bamunyisa tinswane kulawo malanga! Kuyakufika lusizi lolukhulu kulelive,
+  nentfukutselo yaNkulunkulu iyakulwa nalesive; 24\\nbayawubulawa ngenkemba, batsatfwe
+  bentiwe babe titfunjwa etiveni tonkhe; nebetive bayakuyigcobagcoba iJerusalema,
+  kuze kugcwaliseke sikhatsi sabo.\u201d\\n25\\n\u201cKuyawuba netibonakaliso elangeni,
+  nasenyangeni, nasetinkhanyetini; emhlabeni tonkhe tive tiyawufikelwa kudzidzeka
+  nekudzangala, tesabe kudvungutela nekudvuma kwelwandle nemagagasi alo, 26bantfu
+  bayawucaleka babe nesiyeti ngenca yekwesaba loko labayawube babheke kutsi kwenteke
+  emhlabeni wonkhe; ngobe emandla emkhatsi ayawutanyatanyiswa. 27\\nKusenjalo iNdvodzana
+  yeMuntfu iyawubonakala, ita ngelifu ngemandla lamakhulu neludvumo. 28Nakucala kwenteka
+  letintfo, sukumani niphakamise tinhloko tenu, ngobe insindziso yenu iyawube seyisedvutane.\u201d\\n29Jesu
+  wabatjela lomfanekiso watsi: \u201cKhumbulani sihlahla semkhiwa naletinye tihlahla;
+  30nasenibona kuhluma emagala aba luhlata nivele nati kutsi lihlobo seliyetfwasa.
+  31Ngalokufanako-ke, nanibona letintfo tenteka, nibokwati kutsi umbuso waNkulunkulu
+  sewutawufika. 32Impela ngiyanitjela ngitsi: Tonkhe letintfo tiyakwenteka singakapheli
+  lesitukulwane salamuhla. 33\\nLizulu nemhlaba kuyawushabalala, kodvwa emavi ami
+  ngeke endlule.\u201d\\n34\u201cTicaphelisiseni! Ningatifaki kakhulu emadzilini nasekunatseni
+  lokudzakanako, nasekunakeni tintfo talomhlaba, funa lelo langa linitume; 35ngobe
+  liyawufika njengasochaka kubantfu bonkhe emhlabeni wonkhe. 36Lindzani nithandaze
+  onkhe emalanga, khona nitawuba nemandla ekuphunyula kuletintfo letitakwenteka nitekwati
+  kuma embikweNdvodzana yeMuntfu.\u201d\\n37\\nEmini Jesu abefundzisa ethempelini,
+  bese kutsi ebusuku ayewukhosela eNtsabeni Yemincumo. 38Bonkhe bantfu babevukela
+  ethempelini bayewumlalela nakakhuluma.\"", "\"LiBhayibheli Leliku-Internet\\nI-NEW
+  WORLD TRANSLATION OF THE HOLY SCRIPTURES\\n1 Mine Pawula, umphostoli waKhristu Jesu
+  ngentsandvo yaNkulunkulu, naThimothi umzalwane wetfu, ngibhalela libandla laNkulunkulu
+  leliseKhorinte nabo bonkhe labangcwele labakulo lonkhe lase-Akhaya:\\n2 Shengatsi
+  ningaba nemusa nekuthula lokuvela kuNkulunkulu longuBabe wetfu, naseNkhosini lenguJesu
+  Khristu.\\n3 Akadvunyiswe Nkulunkulu, uYise weNkhosi yetfu Jesu Khristu, longuYise
+  wemusa, naNkulunkulu wayo yonkhe indvudvuto,\\n4 losidvudvuta kuko konkhe kuhlupheka
+  kwetfu, kuze ngendvudvuto lesiyemukela kuye natsi sikwati kudvudvuta labanye kunobe
+  ngukuphi kuhlupheka.\\n5 Njengobe kitsi kuhlupheka ngenca yaKhristu kukunyenti,
+  nendvudvuto lesiyitfola ngaye iyaphuphuma.\\n6 Ngako-ke nasihlupheka, loko kungenjongo
+  yekutsi kudvudvutwe futsi kusindziswe nine; nasidvudvutwa, loko kungenjongo yekutsi
+  kudvudvutwe nine kuphindze kunisite nibeketelele kuhlupheka lokunjengekwetfu.\\n7
+  Nelitsemba letfu ngani licinile, ngobe siyati kutsi njengobe nihlanganyela natsi
+  ekuhluphekeni, nitawuhlanganyela natsi nasendvudvutweni.\\n8 Ngobe asifisi bazalwane
+  kutsi ningati ngekuhlupheka lesahlangabetana nako esifundzeni sase-Asiya, nekutsi
+  besicindzeteleke kakhulu, ngetulu kwemandla etfu, kangangekutsi besesingetsembi
+  nekutsi sitawusindza.\\n9 Ecinisweni, besesiciniseka kutsi sitfole sigwebo sekufa.
+  Loku kwenteka kuze singatetsembi tsine, kodvwa setsembele kuNkulunkulu lovusa labafile.\\n10
+  Wasisindzisa kulentfo lenkhulu kangaka njengekufa, futsi utasisindzisa; setsembele
+  kuye kutsi utawuchubeka asisindzisa.\\n11 Nani ningasita ngekutsi nisincusele, kuze
+  labanyenti basibongele kuNkulunkulu ngemusa lesiwutfola ngekuphendvulwa kwemithantazo
+  leyentiwa bantfu labanyenti.\\n12 Ngobe intfo lesitigabatisa ngayo naleyo nembeza
+  wetfu losifakazela kuyo, kutsi sitiphetse ngebungcwele nangebucotfo lobuvela kuNkulunkulu
+  kulelive, ikakhulukati nakini, hhayi ngekuhlakanipha kwenyama kodvwa ngemusa waNkulunkulu.\\n13
+  Ngobe asinibhaleli lutfo ngaphandle kwaloko lesenivele nikwati kahle nalenikucondzako;
+  futsi ngetsemba kutsi nitawuchubeka nikucondza kudzimate kube sekugcineni,\\n14
+  njengobe ngelizinga lelitsite nani nibonile kutsi tsine sisizatfu sekutigabatisa
+  kwenu, nekutsi nani nitawuba ngiso kitsi ngelilanga leNkhosi yetfu Jesu.\\n15 Ngenca
+  yalokuciniseka, bengike ngafuna kuta kini kuze niphindze nijabule,\\n16 bese ngemuva
+  kwekwendlula kuze nginibone nangiya eMasedoniya nanasengibuya khona, ningiphekeletele
+  sigatjana nangiya eJudiya.\\n17 Ngesikhatsi ngifuna kwenta loku, angitsi angizange
+  ngiyitsatsele phansi lendzaba? Nobe ngihlela tintfo ngekuvumelana nenyama yami yini,
+  kuze ngitsi \u201cYebo kunjalo,\u201d bese ngiphindze ngitsi \u201cCha ngeke\u201d?\\n18
+  Kodvwa singetsembela kuNkulunkulu kutsi loko lesikusho kini akubi ngu-Yebo kube
+  kungu-Cha.\\n19 Ngobe iNdvodzana yaNkulunkulu lenguKhristu Jesu, lesashumayela ngayo
+  kini, mine naSilvanosi kanye naThimothi, ayizange ibe ngu-Yebo kantsi ingu-Cha,
+  kodvwa Yebo ube ngu-Yebo ngayo.\\n20 Ngobe ngisho nobe tingakanani tetsembiso taNkulunkulu,
+  setibe ngu-Yebo ngayo. Ngako-ke, ngayo sekutsiwa \u201cAmen\u201d kuNkulunkulu,
+  futsi loko kumenta akhatinyuliswe ngatsi.\\n21 Kodvwa nguNkulunkulu locinisekisa
+  kutsi nine kanye natsi sibaKhristu futsi nguye losigcobile.\\n22 Ubeke neluphawu
+  lwakhe etikwetfu futsi ngemoya losetinhlitiyweni tetfu usinike sicinisekiso saloko
+  lokuseta.\\n23 Manje ngibeka Nkulunkulu kutsi abe ngufakazi wami, wekutsi kungeti
+  kwami nyalo eKhorinte kungenca yekusindzisa nine.\\n24 Hhayi kutsi singemakhosi
+  ekukholweni kwenu, kodvwa sitisebenti letikanye nani kute nijabule, ngobe kukholwa
+  kwenu ngiko lokunenta nime nicine.\"", "\"Emuva kwekushada naWalter, litsandvo lepolitiki
+  lavuka kuAlbertina. Nakahambile Walter ayekohola Umkhotho we Sizwe (emasotja Eanc)
+  Albertina bekasala abambe likhaya. Ngemali yakhe yekuba ngunesi, bekakhona kunakekela
+  bantfwana bakhe, watsatsa bantfwana labangenalo likhaya, wanakekela naletinye tihlobo
+  takhe. Noma angenayo imali lenyenti kepha bekenta siciniseko kutsi tonkhe tivakashi
+  tidla kahle futsi negadze yakhe ihlala iyinhle.\\nEmadvodza lamanyenti bekalwela
+  inkhululeko atitfola asejele noma abalekile ekhaya. Albertina Sisulu wasukuma waba
+  nguMake kulabo bantfwana labasele. Dali Tambo, indvodzana yaOliver Tambo bekungulomunye
+  walabo bantfwana. \u201cWanginiketa lonkhe lutsandvo. Wangibita ngemuntfwana wakhe,
+  ngamubita ngamake wami, bekangumake wami wesibili,\u201d kwasho Dali Tambo.\\nNgesikhatsi
+  Nelson Mandela nedvodza yakhe basejele eRobben Island, wanakekela bantfwana bakhe
+  waphindze wanakekela bantfwana baMandela. Lena mindeni beyivana kakhulu. Albertina
+  wacubeka wavana naMandela noma sekushone indvodza yakhe. Waba ngumuntfu wekucala
+  kuvakashela Mandela nakacala kugula.\"", "\"Inyetane - Havelock - Granvalley - Von
+  Wissel - Verdun - Stylkloof - Skombeni - Rondspring - Rocklands - Nyabe - Nokwane
+  - Nkonjane - Nkanni - Mooihoek - Mgamane - Mbuluzana - Mahlanya - Magomba - Madlangampisi
+  - Luyengo - Lismore - Kobolondo Heights - Inyetane - Horo - Holobela - Forbes Reef
+  - Etjanine - Dwaleni - Croydon - Commissie Nek - Bennets - Mpolonjeni - Ekukhanyeni
+  - Mbangweni - Hluthi - Mgazini - Mafutseni - Nkambeni - Ndzingeni - Mahlangatja
+  - Mhlangatane - Mhlangatane - Ndzevane - Mambane - Hlatsi - Nsongweni - Ngculwini
+  - Lundzi - Mthongwaneni - Mangwaneni - Mbasheni - Nyonyane - Vusweni - Mpaka - Dvokolwako
+  - Mkhulamini - Malindza - Mathendele - Mahlalini - Buhleni - Maphiveni - Ntfonjeni
+  - Fairview North - Msunduza\"", "\"Gibela UMkhumbi\\nNgacala kuvakashela iRobben
+  Island ngomnyaka wango 1989, ahambe nesikolwa. Beku seLijele lelisebentako ngaleso
+  sikhatsi, ingcondvo yami ikhumbula indzawo lenga jabulisi neze, legcwele buhlungu.
+  Manje iRobben Island seyashintjwa yaba indzawo yekuheha tivakashi kantsi futsi naleba
+  boshwe khona sekwaba baphatsi.\\nNgokuhleleka, imikhumbi lemidzala lebeyi jwayele
+  kugudlutela emagagasini lama ncane kuya endzaweni lapho kupaka khona imikhumbi,
+  ayisekho sekwaba netinyunyuva temikhumbi letiti njumelako emagagasini, iphindze
+  ishiye tivakashi tinetsekile. Kugibela umkhumbi wakhona kuphakamisa emaphapho kanye
+  netintsaba takhona letinhle tiloku tiveta buhle nokuchkata kwato.\\nMasekufikwe
+  kuyo le iRobben Island kuyehliwa emikhunjini kugitjelwe emabhasi lamabili lahlale
+  alindzile. Njengemshini logcobiwe emafutsa, lamabhasi akutsatsa akuhambise luhambo
+  loluhlukumeta ingcondzo, lona lonigadzile kuhambo lwenu uloku anikhombisa tindzawo
+  letidvumile, kufaka ekhatsi litje lelimunyu lokwakha lapho khona Mandela nemakhomanisi
+  bekadze bagubha khona.\\nBeku ngulapho tiboshwa tidlela khona sidlo sasemini,bacoce
+  ngokutsi tintfo tiyohlelwa kanjani eveni labo lelisha lelikhululekile. Labanye lomgodzi
+  lomnyama lobhacile bebawu bita ligumbi leku fundzela lase Robben Island.\\nBukela
+  ema Phengwini\\nMasesi buyela emuva emaselini besengi jabulile kwehla ebhasini ngiye
+  emaselini okuboshelwa. Labo bebahamba kanye natsi baloku basicocela kabanti nge
+  Robben Island, ngamuny wabo bebati boshwa takudzala khona la Robben Island, kantsi
+  tindzaba tabo tibuhlungu kantsi tiphindze tibe mnandzi.\\nSahlala kwelinye liseli,
+  lapho khona loyo losigadzile asicocela kabanti ngemphila yabo basetiboshwa. Masisuka
+  lapho saya ebaleni lase Robben Island lapho khona Nelson Mandela bekane ngadze yakhe
+  khona. Kusuka lapho kweta loko besikulindzele kakhulu, sayiswa emaselini la folile
+  lapho khona Nelson Mandela beka boshelwe khona kanye nebangani bakhe.\\nEmuva kwaloko
+  kutsatswa titfombe bese kubanesikhatsi sokucocelwa ngesimo setindzawo yokuti khulula
+  bese nitfunyelwa futsi emkhumbini. Usahamba ubuyela endzaweni yeku paka imikhumbi,
+  usengati hambela ubukela ema phenguwini, noma uye lapho kutsengiswa tintfo khona.
+  Ngesikhatsi lesikhetsekile, nito gibetwa futsi nilungiselele kubuyela emakhaya,
+  nibukele lenye ibhasi ingena nabanye nabo labatele kutofundza ngeRobben Island.\\nNgenye
+  indlela iRobben Island umshini webantfu bangaphandle, bekuvakasha kuleli. Indzawo
+  leneluhambo loluncane kodva lolu balulekile lekumele liviwe ngibo bonkhe bekudzabuka
+  kuleli, kute bafundze ngeciniso lendzabuko yetfu.\\niV&A (Waterfront)\\nNjenge sivakashi
+  lesibuya kwelinye live, luhambo lwakho loluya eRobben Island licala endzaweni yase
+  (Victoria ne Alfred Waterfront). Lena indzawo lematasa yokutsengisa, lapho kugcwele
+  titolo khona, tindzawo tekudla noma tekudlela, boma bona kudze kanye nema Jalimane.\\nLendzawo
+  yetitolo itsatsa libala leliningi, kuya ngekutsi utsandza ini, ungacitsa sikhatsi
+  lesimbalwa ungena uphuma etitolo, usenskafiki eRobben Island noma sewubuya khona.
+  Lendzawo yatiwa njengendzawo yekulayishela imikhumbi kantsi nekugcina imikhumbi
+  leminye lePakile yase Kapa, yona i (Waterfront) yagcekwa emuva kokwakhiwa kwendzawo
+  yekulayisha imikhumbi lemoshekile.\\nFutsi ngo 1988, tindzawo tekusitoka lebeseti
+  guga tona takhiwa tahlobiswa kabusha kuchakatiswa i (Waterfront) lesha lesitfokotisako
+  nanamuhla. Kwangetwa nelibhiliti letitolo lelikhulu, pheceleti i (Mall), leyabitwa
+  nge (Victoria Wharf), lendzawo igabanca ivete indzawo yeku paka imikhumbi lenhle
+  kakhulu. Kumnandzi futsi netiNdiza tikhona, kodva alukho luhlobo letekuhamba leli
+  ngakuyisa eRobben Island.\\nLigede la Nelson Mandela\\nNgena eRobben Island nge
+  (Nelson Mandela Gateway), lapho khona utofundza kabanti nge Robben Island. Leli
+  gede leli kanye nendzawo yekwehlela tindiza yakhiwe emlonyeni wale bhilidi le (Alfred
+  Basin), lapho khona utotfola emahhotela kanye nemikhumbi yangasense ishiswa lilanga.
+  Sitfombe sentsaba yase Kapa lemise kwetafula, pheceleti i (Table Mountain), sibonakala
+  kahle kakhulu. Leli gede leli liphindze lime madvutane nelibhilidi le washi, uma
+  upake dvutane ne (Mall), khumbula kutsi utoba nendlela lendze kuya egedeni. Kodva
+  utoba nenhlanhla yokweca tebetebe.\\nIndzawo lencono yekupaka, kusebaleni noma emkhatsini
+  webala lebhilidi le washi, lona lakhiwe ekudzeni kunetitolo tase (Waterfront). Lendzawo
+  yokupaka ingaba ndzima kutsi uyitfole, kona nayo iyakutsatsa ikufake esangweni laseRobben
+  Island. Libhilidi lewashi nalo licukeme titolo letiningi ebaleni lakhona, tindzawo
+  tekudlela kantsi futsi kunema hhovisi lamakhulu, etivakashi nabameli labasuka mhlaba
+  wonkhe. Lendzawo iyasita kubantfu base Kapa, kantsi nakulive letfu lonkhe. Indzawo
+  yekutfola lwati, pheceleti i (library) ine (internet caf\u00e9) kantsi nalapho ungabhuka
+  litsikitsi lokungena eRobben Island.\\nTranslated by Thandokuhle Motha\"", "\"111Kwatsi
+  kube Jesu acedze kuyala bafundzi bakhe labebali-12, wesuka lapho wayawufundzisa
+  ashumayela emadolobheni akuleyo ndzawo.\\n2Kwatsi-ke Johane uMbhabhatisi asesejele
+  weva ngemisebenti yaKhristu, wase utfumela labanye bafundzi bakhe kuye. 3Befike
+  batsi kuye: \u201cWena unguye yini lona lotako, nome kusafanele silindzele lomunye?\u201d\\n4Jesu
+  waphendvula watsi kubo: \u201cNcandzekani niyemtjela Johane ngako konkhe lenikuvako
+  nalenikubonako: 5\\nTimphumphutse setiyabona, tinchute netishosha setiyahamba, emalephelo
+  ayahlanteka, tihhulu setiyeva, labafile bayavuswa, neliVangeli seliyashunyayelwa
+  kulabamphofu. 6Ubusisiwe longakhubeki ngami.\u201d\\n7Kwatsi nasebancandzeka, Jesu
+  wacala wakhuluma eticunjini ngaJohane watsi: \u201cNanisuka niya ehlane naniyewubonani
+  kani? Naniyewubona umhlanga uveveteliswa ngumoya yini? 8Kantsi nanisukele kuyawubonani,
+  vele? Naniyewubona umuntfu lowembetse tingubo letinhle yini? Anati yini kutsi labanjalo
+  basetindlini temakhosi? 9Kodvwa vele nje, nanisukele kuyawubonani, umphrofethi?
+  Yebo, empeleni nabona lomkhulu kakhulu kunemphrofethi. 10\\nNguye lona lekubhalwe
+  ngaye kutsi:\\n\u201c \u2018Bheka, ngitfumela sitfunywa sami embikwakho,\\nlesiyawulungisa
+  indlela yakho embikwakho.\u2019\\n11\u201cNgicinisile, ngitsi kini: Kubo bonkhe
+  labake baba khona emhlabeni kute lowake waba mkhulu kunaJohane uMbhabhatisi; kepha
+  lomncane embusweni welizulu mkhulu kunaye. 12\\nKusukela etikhatsini taJohane uMbhabhatisi
+  kuze kube ngulamuhla umbuso welizulu uyaphangwa, nalabo labawuphangako bayawuhlwitsa.
+  13Ngobe bonkhe baphrofethi nemtsetfo kwaphrofetha, kwaze kwefika Johane. 14\\nNanivuma
+  kukwemukela loko, ngu-Elija lona labetawufika. 15\\nLowo lonendlebe yekuva akeve.\\n16\u201cKonje
+  ngingasifanisa nani nje lesitukulwane salamuhla? Sinjengebantfwana labasemakethe
+  nabamemetana 17batsi: \u2018Sanishayela tigubhu, anigidzanga; sahlabela tingoma
+  tesililo, kodvwa anikhalanga.\u2019 18Ngobe Johane wefika angadli, anganatsi, base
+  batsi: \u2018Unelidimoni.\u2019 19\\nINdvodzana yeMuntfu yona yefika, yadla yanatsa,
+  base batsi: \u2018Ase nibheke, nansi indvodza! Simiti nemnatsi weliwayini, kantsi
+  futsi ungumngani webatselisi netoni!\u2019 Noko, kuhlakanipha kwaNkulunkulu kubonakala
+  kuliciniso ngemiphumela yako.\u201d\\n20Jesu wase ucala kusola emadolobha, lekwakwenteke
+  kuwo imisebenti yakhe yemandla leminyenti, ngobe abengaphendvuki. 21\\nWatsi: \u201cMaye
+  kuwe, Khorazini! Maye nakuwe, Bhethsayida! Ngobe kube lemisebenti yemandla lebeyenteke
+  kini beyenteke eThire naseSidoni, ngabe kadze batitsela ngemlotsa bembatsa emasaka
+  bakhombisa kuphendvuka. 22Kepha ngitsi kini: Kuyawuba ncono kuyo iThire neSidoni
+  kunakini ngelilanga lekwehlulela.\\n23\\n\u201cNawe-ke Khaphanawume, ucabanga kutsi
+  uyawuphakanyiselwa ezulwini yini? Uyakwehliselwa endzaweni yalabafile, ngobe kube
+  yayentiwe eSodoma imisebenti yemandla leyayentiwe kuwe, ngabe ikhona nalamuhla.
+  24\\nKepha ngitsi kini: Kuyawuba ncono kulo live laseSodoma kunakuwe ngelilanga
+  lekwehlulela.\u201d\\n25\\nNgaleso sikhatsi Jesu wakhuluma watsi: \u201cNgiyabonga,
+  Babe, Nkhosi yelizulu nemhlaba, ngobe ukufihlile loku kulabahlakaniphile nalabanekucondza,
+  wakwembula kulabo lababantfwana. 26Yebo, Babe, ngobe kwaba kuhle ebusweni bakho
+  kutsi kube njalo.\\n27\\n\u201cKonkhe ngikuphiwa nguBabe, kute loyatiko iNdvodzana
+  ngaphandle kweYise, kantsi futsi kute lomatiko uYise ngaphandle kweNdvodzana nalowo
+  iNdvodzana letsandza kumembulela yena.\\n28\\n\u201cWotani kimi, nine nonkhe lenikhatsele
+  nalenisindvwa yimitfwalo, ngitaniphumuta. 29\\nBekani lijoko lami etikwenu, nifundze
+  kimi, ngobe mine ngimnene, ngitfobekile ngenhlitiyo, khona niyawutfola kuphumula
+  kwemiphefumulo yenu; 30\\nngobe lijoko lami lilula, nemtfwalo wami awusindzi.\u201d\"",
+  "\"LELIGAMA lelitsi \u201cEureka!\u201d lisho kutsi \u201cNgilitfolile!\u201d Ngelikhulu
+  lesi-19 leminyaka ngesikhatsi bantfu labanyenti bahamba bayewufuna ligolide eCalifornia,
+  U.S.A., lamavi bekashiwo ngumuntfu losebenta emayini nakatfola ligolide. Nobe kunjalo,
+  Charles Taze Russell kanye neBafundzi BeliBhayibheli batfola lokuncono kakhulu kuneligolide\u2014liciniso
+  leliseBhayibhelini, futsi bebatimisele kulihlanganyela nalabanye.\\nNgelihlobo langa-1914,
+  tigidzi tebantfu letisemadolobheni lamakhulu tahamba tayewubukela i-\u201cPhoto-Drama
+  of Creation,\u201d lokulifilimu lebelitsatsa ema-awa lasiphohlongo lebelentiwe yi-International
+  Bible Students Association (I.B.S.A.). Njengobe belinetitfombe letinhle letinyakatako,
+  naletinemibala lemihle, letichazwa ngendlela letsintsa inhlitiyo futsi kunemculo
+  lomnandzi wetinsimbi, lelifilimu lelisekelwe eBhayibhelini belikhombisa tibukeli
+  kusukela ekudalweni kwetintfo, ekudalweni kwebantfu kuze kube ngusekugcineni kwekuBusa
+  kwaJesu Khristu Kweminyaka leyiNkhulungwane.\\nKodvwa kutsiwani ngalabo labebahlala
+  emadolobheni lamancane nasetindzaweni letisemakhaya? Kuze kube bete labalambele
+  liciniso labashiyelwa ngephandle, nga-August 1914, i-I.B.S.A. yakhulula i-\u201cEureka
+  Drama\u201d\\nNgisho nobe bebangaba bete umshini wekuveta titfombe nobe indvwangu
+  yekubukelisa bhayisikobho, Bafundzi BeliBhayibheli bebangakhona kusebentisa lelifilimu
+  lelimahhala etindzaweni tasemakhaya, bafinyelele emasimu lamasha ngemlayeto weMbuso.
+  I-\u201cEureka X\u201d lelalelwako bebangayilalela nome ngunini. Umshini wekudlala
+  ema-slides e-\u201cEureka Y\u201d bewungase usetjentiswe ngaphandle kwagesi, kusetjentiswa
+  sibane lesitsite kuze kukhanyiswe lomshini. Umbiko lobewuku-Watch Tower yesiFinnish
+  watsi: \u201cSingakhombisa bantfu letitfombe ngisho nome ngukuphi.\u201d Lawo mavi
+  abeliciniso.\\nEsikhundleni sekucasha emahholwa lamakhulu ekubukelisa emabhayisikobho,
+  Bafundzi BeliBhayibheli ngalokuvamile bebatfola tindzawo letimahhala lokufaka ekhatsi
+  emakilasi, tinkantolo, titeshi tetitimela ngisho netindzawo letisemakhaya lamakhulu
+  tekwemukela tivakashi. Lelifilimu belivame kubukeliswa ngephandle, kusetjentiswa
+  lishidi lelikhulu lelimhlophe lebeligacwa enyangweni. Anthony Hambuch wabhala watsi:
+  \u201cBalimi bebenta indzawo levulekile ngasetihlahleni, lebeyinetihlalo letakhiwe
+  ngetingodvo kuze bantfu bahlale futsi bajabulele loluhlelo.\u201d Lelicembu le-\u201cEureka\u201d
+  belisebentisa inkalishi lokutsiwa yi-\u201cDrama wagon\u201d kute lilayishe tintfo
+  talo, tikhwama kanye netintfo tekukhempa netekupheka.\\nLabo labebalalela i-\u201cEureka\u201d
+  bebasukela ecenjini lelincane lebantfu kuya emakhulwini. EMelika, bantfu labangu-400
+  babutsanela esakhiweni sesikolwa lesisedolobheni lelinebantfu labangu-150. Kuletinye
+  tindzawo, labanye bantfu bebahamba emakhilomitha lasiphohlongo kuze bayobona i-\u201cEureka
+  Drama.\u201d Bomakhelwane baCharlotte Ahlberg waseSweden, labebabutsanele endlini
+  yakhe lencane kute balalele loko lobekutsetjuliwe \u201cbatsintseka enhlitiyweni.\u201d
+  Bantfu labangaba ngu-1 500 babutsana kute babukele lelifilimu edolobheni lelikhashane
+  lase-Australia lelinetimayini. I-Watch Tower yabika kutsi etikolweni letiphakeme
+  nasemakolishi, \u201cbophrofesa kanye nebantfwana besikolwa bebakhangwa nguletitfombe
+  kanye nemarekhodi etfu lamnandzi.\u201d I-\u201cEureka Drama\u201d yayidvume ngisho
+  nasetindzaweni letinetindlu tekubukelisa emabhayisikobho.\\nKUHLANYELA INHLANYELO
+  YELICINISO\\nI-\u201cEureka Drama\u201d yaba lithulusi lelihle \u201cEmsebentini
+  Wekwandzisa Emakilasi,\u201d lapho khona Bafundzi BeliBhayibheli bebatfumela tikhulumi
+  letitawucalisa emakilasi lamasha ekufundza. Ngeke sati kutsi bangakhi labayibukela
+  i-\u201cEureka Drama.\u201d Tincenye letinyenti tale-\u201cDrama\u201d betibukelwa
+  kanyenti. Nobe kunjalo, nga-1915 ngemacembu langu-14 kuphela kulangu-86 labebukelisa
+  le-\u201cDrama\u201d labebika njalo. Nayibika ngalamanani langakapheleli, ingcikitsi
+  yekuphela kwemnyaka yakhombisa kutsi bantfu labangetulu kwesigidzi sebayibukele
+  le-\u201cDrama.\u201d Bantfu labangaba ngu-30 000 bacela tincwadzi letisekelwe eBhayibhelini.\\nKungenteka
+  kutsi i-\u201cEureka Drama\u201d ayizange ibe yincophamlandvo, kodvwa kusukela e-Australia
+  kuya e-Argentina, kusukela eNingizimu Afrika kuya eBritish Isles, eNdiya naseCaribbean,
+  kungenteka kutsi tigidzi talibona lelifilimu lelingafanani nalamanye. Labanyenti
+  babo batfola liciniso leliBhayibheli leliligugu kwendlula ligolide futsi bebangababata
+  batsi \u201cEureka!\u201d\"", "\"Timbuti tikhokha intsambo, sikhumba kanye nelubisi
+  kepha sikhatsi lesiphansi sekugcina timbuti kwekukhicita inyama yembuti. Loku kwafaka
+  enyameni yetimbuti lizinga lelikhulu emhlabeni wenombolo yetimbuti.\\nInyama yembuti
+  ikhokhwa ekubulaweni kwetimbuti teMabhunu, timbuti tesintfu, kanjalo nema Angora
+  lamadzala kanye netimbuti te milch (timbuti telubisi). iChevon iphindze ikhokhwe
+  ebantfwaneni betimbuti letindvuna. Letinye tintfo letiphuma etimbutini kufana netintfo
+  telubisi kanye nensontfo kutsatfwa ngalokuphansi noma lokusemkhatsini kwemkhicito.\\nLokubulawa
+  kwetimbuti tentsengo kuchutjwa lizinga lalemikhicito \u2013 ngalamanye emagama,
+  kusebenta lokuphansi kwelubisi kanye netimbuti tentsambo letindzala letihlatjelwa
+  inyama.\\nKuhlaba ngesintfu kwetimbuti kwentela kusetjentiselwa emasiko ngenyama
+  yembuti, nomakunjalo, lolokungiko kwekufuya timbuti eNingizimu Afrika, loku kungetetelwa
+  timbuti teMabhunu kanye naletikalekile (tesikhatsi) bukhona betimbuti letindzala
+  te Angora.\\nBuningi betimbuti (ikakhulu timbuti tesintfu noma luhlobo-lolukabili)
+  letisetjentiselwa inyama yembuti eNingizimu Afrika tihlatjwa ngendlela yesintfu
+  futsi tisetjentiselwa emasiko kanye nenkholelo.\\niBoerbok yase SA ikhetsa kutsi
+  kumakethwa kwenyama yetimbuti emkhatsini weminyaka lemitsatfu nalelishumi nakubili
+  ngetinyanga kwentela kukhokha umtimba longasindzi kunemashumi lamabili nakutsatfu
+  ema kg.\\nNgekuya kweLitiko lase Ningizimu Afrika: Agriculture, Forestry and Fisheries
+  (DAFF) timbuti titfolwa eveni lonkhe nge Eastern Cape lena (39%), iLimpopo lena
+  (18%) ne KwaZulu-Natali lena (13%) tifundza letinemikhicito lemikhulu, kufakela
+  70% walokuphelele kwetimbuti letiphilako letikhicitwa eNingizimu Afrika (luhlolo
+  lwa 2017).\\nKuhlatjwa kwe Timbuti\\nKuyabekiswa kutsi emkhatsini wa 0.5% weluhlobo
+  lwetimbuti tonkhe letihlatjiwe eSA tihamba lendzawo letibulawela kiyo tiphindze
+  tijutjelwe khona kwentela kudla.\\nTimbuti letisetjentiselwa \u2018inkholo\u2019
+  imakethe ivame kutsengisa tiphila bese tiyahlatjwa ngekusho kwalomtsetfo. Timbuti
+  tihlatjwa ngendlela letsite yemishado:\\nNgekusho kwemtsetfo wemindeni, lapho khona
+  kudliwa kwalenyama kukalekile kubantfu labatsite.\\nNgemisebenti yekungcwaba, belaphi
+  besintfu kumele bamunye ingati bese bagcoka lenyongo yalembuti njengesigcoko sasenhloko.\\nNgemuva
+  kwemisebenti yalabadvuna, labagcotjiwe labahalalisako umvumo yabo yekwengca ngenyama
+  yembuti leshisisiwe kanye nelipalishi.\\nNgekusho kwe Kalahari Kid Corporation,
+  lokuhlatjwa kwetimbuti kwentela kutsengiswa kwentela tidzingo tekutsengisa ngaphandle
+  kuhambisana nekucina kwe Halal nesigaba se ISO kantsi nekuhlatjelwa kutsengiswa
+  ngaphandle indzawo levunyiwe, ZA 105 eGroblershoop lese Northern Cape. Lendzawo
+  yekuhlabela lese Colesberg iphindze isetjentiwe futsi umakudzingeka lendzawo lese
+  De Aar.\\nTranslated by\\nPhindile Malotana\"", "\"LiBhayibheli lisitjelani ngeMbuso
+  waNkulunkulu?\\nYini uMbuso waNkulunkulu loyoyenta?\\nKunini lapho uMbuso uyobangela
+  kutsi intsandvo yaNkulunkulu yentiwe emhlabeni?\\n1. Ngumuphi umthandazo lobalulekile
+  lesitawucoca ngawo?\\nTIGIDZI tebantfu emhlabeni tetayelene nemthandazo labanyenti
+  labawubita ngekutsi nguBabe Wetfu nobe nguMthandazo weNkhosi. Kokubili loku labakushoko,
+  kumane nje kubhekisele emthandazweni losibonelo lodvumile lowashiwo nguJesu Khristu
+  matfupha. Lokushiwo ngulomthandazo kubalulekile, futsi kufundza ngeticelo tawo letintsatfu
+  tekucala kutakusita kwengeteke lokwatiko mayelana naloko lokufundziswa liBhayibheli.\\n2.
+  Ngutiphi tintfo letintsatfu Jesu latsi balandzeli bakhe abatithandazele?\\n2 Ekucaleni
+  kwalomthandazo losibonelo, Jesu wafundzisa labebamlalele: \u201cNanithandazako nibotsi:
+  \u2018Babe wetfu losezulwini, alingcweliswe libito lakho. Umbuso wakho awute. Intsandvo
+  yakho ayentiwe emhlabeni, njengobe yentiwa ezulwini.\u2019\u201d (Matewu 6:9-13)
+  Tibaluleke ngani leticelo letintsatfu?\\n3. Yini lokufanele siyati ngeMbuso waNkulunkulu?\\n3
+  Kuze kube ngunyalo, sesifundze lokunyenti ngelibito laNkulunkulu lelitsi, Jehova.
+  Sesicocile ngenjongo yaNkulunkulu\\nLOKO UMBUSO WANKULUNKULU LONGIKO\\n4. Uyini
+  uMbuso waNkulunkulu, futsi ngubani iNkhosi yawo?\\n4 Umbuso waNkulunkulu nguhulumende
+  lomiswe nguNkulunkulu Jehova loneNkhosi layikhetsile. Ngubani iNkhosi yeMbuso waNkulunkulu?
+  NguJesu Khristu. Jesu njengeNkhosi mkhulu kwendlula bonkhe babusi lababantfu futsi
+  ubitwa ngekutsi \u201cINkhosi yemakhosi neMbusi webabusi.\u201d (1 Thimothi 6:15)
+  Unemandla ekwenta lokuhle kakhulu kwendlula nobe ngabe ngumuphi umbusi, ngisho nobe
+  angaba ncono kanjani.\\n5. UMbuso waNkulunkulu utawubusa ukuphi, futsi ubuse etikwani?\\n5
+  Utawubusa ukuphi uMbuso waNkulunkulu? Kantsi Jesu vele yena ukuphi? Khumbula, wafundza
+  ngekutsi wabulawa elugodvweni lekuhlushwa, kodvwa wavuswa. Ngemuva kwaloko, wenyukela
+  ezulwini. (Imisebenti 2:33) Ngako-ke, ngulapho uMbuso waNkulunkulu ukhona khona.
+  Kungako liBhayibheli liwubita ngekutsi \u2018nguMbuso wasezulwini.\u2019 (2 Thimothi
+  4:18) Nobe nje uMbuso waNkulunkulu usezulwini, utawubusa etikwemhlaba.\\n6, 7. Yini
+  leyenta Jesu abe yiNkhosi lekhetseke kakhulu?\\n6 Yini leyenta Jesu abe yiNkhosi
+  lekhetseke kakhulu? Sizatfu sekucala kutsi angeke nanini aze afe. LiBhayibheli nalicatsanisa
+  Jesu nebabusi lababantfu litsi \u201cnguye yedvwa longabhubhi lohlala ekukhanyeni
+  lekungasondzeleki kuko.\u201d (1 Thimothi 6:16) Loko kusho kutsi konkhe lokuhle
+  Jesu lakwentako kutawuba khona siphelane, futsi utawenta tintfo letinkhulu letinhle.\\n7
+  Ase ucabange nganasi siphrofetho seliBhayibheli lesimayelana naJesu: \u2018Umoya
+  waSimakadze [Jehova] uyawubasetikwakhe, umoya wekuhlakanipha newekucondza, umoya
+  wekweluleka newemandla, umoya welwati newekwesaba Simakadze, uyawutijabulisa ekwesabeni
+  Simakadze. Angeke ehlulele ngalakubona ngemehlo akhe, nome ente sincumo ngalakuve
+  ngetindlebe takhe; kodvwa labeswele uyawubehlulela ngekwemtsetfocotfo, labamphofu
+  belive abehlulele ngekungakhetsi.\u2019 (Isaya 11:2-4) Lamavi akhombisa kutsi Jesu
+  abetawuba yiNkhosi lelungile futsi leneluvelo kubantfu. Ungatsandza yini kutsi ube
+  nembusi lonjengaJesu?\\n8. Bobani labatawubusa naJesu?\\n8 Nali lelinye liciniso
+  ngeMbuso waNkulunkulu: Jesu angeke abuse yedvwa, utawubusa kanye nalabanye. Sibonelo
+  saloku kutsi umphostoli Pawula watjela Thimothi: \u201cNasicinisela, siyawubusa
+  kanye naye.\u201d (2 Thimothi 2:12) BoPawula naThimothi, kanye nalabanye labetsembekile
+  labakhetfwa nguNkulunkulu batawubusa naJesu eMbusweni wasezulwini. Bangakhi labatawutfola
+  lelo lungelo?\\n9. Bangakhi labatawubusa naJesu, futsi Nkulunkulu wacala nini kubakhetsa?\\n9
+  Njengobe kuvetiwe eSehlukweni 7 salencwadzi, umphostoli Johane waniketwa umbono,
+  kuwo wabona \u2018liWundlu [Jesu Khristu] eNtsabeni yaseSiyoni [indzawo yakhe yebukhosi
+  ezulwini] lime nebantfu labangu-144 000, babenelibito lalo, neleYise libhalwe emabuntini
+  abo.\u2019 Babobani laba labangu-144 000? Johane ngekwakhe uyasichazela: \u201cNgibo
+  laba labalandzela liWundlu nome kukuphi lapho liya khona. Kubo bonkhe bantfu ngibo
+  labahlengiwe, balulibo lwaNkulunkulu nelweliWundlu.\u201d (Sembulo 14:1, 4) Babalandzeli
+  labetsembekile nalabakhetsekile baJesu Khristu labakhetfwe kutsi bayewubusa naye
+  ezulwini. Ngemva kwekuvuselwa ekuphileni kwasezulwini, \u201cbaba ngemakhosi nebaphristi
+  . . . etikwemhlaba wonkhe\u201d kanye naJesu. (Sembulo 5:10) Kusukela esikhatsini
+  sebaphostoli, Nkulunkulu abesolo akhetsa emaKhristu letsembekile kute atewuphelelisa
+  lenombolo lengu-144 000.\\n10. Kungani kulilungiselelo lelutsandvo kutsi Jesu kanye
+  nalabangu-144 000 babuse bantfu?\\n10 Lilungiselelo lekutsi Jesu kanye nalabangu-144
+  000 babuse bantfu, libonisa lutsandvo lwaNkulunkulu. Jesu wativela kutsi kunjani
+  kuba ngumuntfu kanye nekuhlupheka emhlabeni. Pawula watsi Jesu \u201cakasiye lowehluleka
+  kuvumelana natsi ebutsakatsakeni betfu, kodvwa walingwa ngayo yonkhe indlela njengatsi,
+  noko akazange one.\u201d (Hebheru 4:15; 5:8) Labo labatawubusa naye nabo bahlupheka
+  futsi bacinisela. Ngetulu kwaloko, balwisana nekungapheleli futsi babeketelela tonkhe
+  tinhlobo tekugula. Bataticondza sibili tinkinga bantfu lababa nato.\\nYINI LETAKWENTIWA
+  NGUMBUSO WANKULUNKULU?\\n11. Kungani Jesu atsi bafundzi bakhe bathandazele kutsi
+  intsandvo yaNkulunkulu yentiwe emhlabeni njengasezulwini?\\n11 Ngesikhatsi Jesu
+  atsi kubafundzi bakhe kufanele bathandazele kutsi uMbuso waNkulunkulu ufike, waphindze
+  watsi kufanele bathandazele nekutsi intsandvo yaNkulunkulu yentiwe \u201cemhlabeni,
+  njengobe yentiwa ezulwini.\u201d Nkulunkulu usezulwini, futsi tingilosi letetsembekile
+  tiyayenta intsandvo yakhe ezulwini. ESehlukweni 3 salencwadzi, sifundze kutsi ingilosi
+  lembi yayekela kwenta intsandvo yaNkulunkulu futsi yabangela bo-Adamu na-Eva kutsi
+  bone. ESehlukweni 10 sitawufundza kabanti ngekutsi lifundzisani liBhayibheli ngalengilosi
+  lembi, lesiyati ngekutsi nguSathane Develi. Sathane netingilosi letakhetsa kumlandzela\\n12.
+  Ngutiphi tentakalo letimbili letibalulekile letichazwe kuSembulo 12:10?\\n12 Lamavi
+  lasiprofetho lalandzelako achaza lokwakutakwenteka: \u201cNgeva livi lelikhulu ezulwini
+  litsi: \u2018Nyalo insindziso, nemandla, nebukhosi sekwaNkulunkulu wetfu, neligunya
+  selaKhristu wakhe; ngobe sewulahlelwe phansi ummangaleli [Sathane] lomangalela bazalwane
+  betfu kuNkulunkulu, imini nebusuku.\u2019\u201d (Sembulo 12:10) Utinakile yini tentakalo
+  letimbili letibalulekile letichazwe kulelivesi? Sekucala, uMbuso waNkulunkulu loholwa
+  nguJesu Khristu ucala kubusa. Sesibili, Sathane uyacoshwa ezulwini futsi ulahlelwa
+  phansi emhlabeni.\\n13. Waba yini umphumela wekucoshwa kwaSathane ezulwini?\\n13
+  Waba yini umphumela waletentakalo letimbili? Ngalokuphatselene nalokwenteka ezulwini,
+  siyafundza: \u201cTfokotani-ke, nine mazulu, nani lenihlala kuwo!\u201d (Sembulo
+  12:12) Yebo, tingilosi letetsembekile ezulwini tiyatfokota, tonkhe letisele tetsembekile
+  kuNkulunkulu Jehova njengobe Sathane nemadimoni akhe bangasekho. Kunekuthula lokukhulu
+  kanye nebunye lobuphelele. Intsandvo yaNkulunkulu iyenteka ezulwini.\\n14. Yini
+  lebangelwe kulahlelwa kwaSathane emhlabeni?\\n14 Kutsiwani-ke ngemhlaba? LiBhayibheli
+  litsi: \u201cMaye kuwe, mhlaba nelwandle, ngobe Mhlebi [\u201cDeveli,\u201d NW]
+  sewehlele kini ngentfukutselo lenkhulu, ngobe uyati kutsi sikhatsi sakhe sifishane!\u201d
+  (Sembulo 12:12) Sathane utfukutsele uyabila njengobe acoshiwe ezulwini futsi asalelwe
+  sikhatsi lesincane. Ngentfukutselo yakhe ubangela lusizi nobe \u201cmaye\u201d emhlabeni.
+  Sitawufundza kabanti \u2018ngalomaye\u2019 esehlukweni lesilandzelako. Kodvwa sinaloko
+  engcondvweni, singahle sitibute kutsi, LoMbuso utakwenta njani kutsi intsandvo yaNkulunkulu
+  yentiwe emhlabeni?\\n15. Iyini injongo yaNkulunkulu ngemhlaba?\\n15 Khumbula kutsi
+  iyini injongo yaNkulunkulu ngemhlaba. Ufundzile ngayo eSehlukweni 3. E-Edeni, Nkulunkulu
+  wabonisa kutsi injongo yakhe kutsi lomhlaba ube lipharadisi leligcwele bantfu labangafi
+  nalabalungile. Sathane wenta kutsi bo-Adamu na-Eva bone, futsi loko kwatsikameta
+  kugcwaliseka kwenjongo yaNkulunkulu, kodvwa akuzange kuyishintje. Jehova solo uhlose
+  kutsi \u2018labalungile badle lifa lemhlaba, bahlale kuwo kuze kube phakadze.\u2019
+  (Tihlabelelo 37:29) UMbuso waNkulunkulu utakwenta loko. Njani?\\n16, 17. Danyela
+  2:44 usitjelani ngeMbuso waNkulunkulu?\\n16 Cabanga ngaloko lokushiwo siphrofetho
+  lesitfolakala kuDanyela 2:44. Siyafundza: \u201cNgesikhatsi salawo makhosi, Nkulunkulu
+  welizulu uyawumisa umbuso longasoze wabhujiswa lutfo, futsi ngeke unikwe labanye
+  bantfu. Uyawupitjita yonkhe leminye imibuso uyicedze, kodvwa wona uyawukuma kuze
+  kube phakadze.\u201d Kusitjelani loku ngeMbuso waNkulunkulu?\\n17 Kwekucala, kusitjela
+  kutsi uMbuso waNkulunkulu wawutawumiswa \u201cngesikhatsi salawo makhosi,\u201d
+  nobe nakusabusa leminye imibuso. Kwesibili, kusitjela kutsi loMbuso utawuhlala phakadze.
+  Angeke ubhujiswe lutfo futsi angeke utsatselwe sikhundla ngulomunye hulumende. Kwesitsatfu,
+  siyabona kutsi kutawuba nemphi emkhatsini weMbuso waNkulunkulu nemibuso yalelive.
+  UMbuso waNkulunkulu utawuncoba. Ekugcineni, kutawuba ngiwo wodvwa hulumende lobusa
+  bantfu. Ngako-ke, bantfu batawujabulela kubuswa lokuhle labangazange sebakubone.\\n18.
+  Ibitwa ngekutsi yini lemphi yekugcina lesekhatsi kweMbuso waNkulunkulu nabohulumende
+  balelive?\\n18 Kunyenti lokushiwo liBhayibheli ngemphi lesekhatsi kweMbuso waNkulunkulu
+  nabohulumende belive. Nasi sibonelo: LiBhayibheli lifundzisa kutsi njengobe kuphela
+  kusondzela, imimoya yemadimoni itawusakata emanga kute iyenge \u201cemakhosi emhlaba
+  wonkhe.\u201d Ngayiphi injongo? \u2018Kute iwalungiselele imphi yelilanga lelikhulu
+  laNkulunkulu, Somandla.\u2019 Emakhosi emhlaba ayawubutselwa ndzawonye \u201cendzaweni
+  lekutsiwa yi-Amagedoni ngesiHebheru.\u201d (Sembulo 16:14, 16) Ngalokushiwo ngulamavesi
+  lamabili, imphi yekugcina emkhatsini wabohulumende bebantfu neMbuso waNkulunkulu
+  ibitwa ngekutsi yi-Amagedoni.\\n19, 20. Yini levimbela intsandvo yaNkulunkulu kutsi
+  yenteke emhlabeni nyalo?\\n19 Yini uMbuso waNkulunkulu loyoyiphumelelisa nge-Amagedoni?
+  Khumbula futsi kutsi iyini injongo yaNkulunkulu ngemhlaba. Nkulunkulu Jehova uhlose
+  kutsi umhlaba ube liPharadisi ugcwale bantfu labalungile, labaphelele nalabakhonta
+  yena. Yini levimbela loko kutsi kwenteke nyalo? Kwekucala, sinesono, siyagula futsi
+  siyafa. Nobe kunjalo, sifundzile eSehlukweni 5 kutsi Jesu wasifela kute sitfole
+  kuphila lokuphakadze. Kungenteka kutsi uyawakhumbula emavi labhalwe eVangelini laJohane:
+  \u201cNkulunkulu walitsandza live kakhulu kangangekutsi wadzimate wanikela ngeNdvodzana
+  yakhe lekukuphela kwayo, kuze kutsi nome ngubani lokholwa ngiyo angabhubhi, kodvwa
+  abe nekuphila lokuphakadze.\u201d\\n20 Lenye inkinga kutsi bantfu benta tintfo letimbi.
+  Bacala emanga, bayakhohlisa futsi bayisebentisa kabi imitimba yabo. Abafuni kwenta
+  intsandvo yaNkulunkulu. Bantfu labenta tintfo letimbi batawubhujiswa emphini yaNkulunkulu
+  i-Amagedoni. (Tihlabelelo 37:10) Lesinye sizatfu lesenta kutsi intsandvo yaNkulunkulu
+  ingentiwa emhlabeni, kutsi bohulumende ababakhutsati bantfu kutsi bayente. Bohulumende
+  labanyenti abanawo emandla ekwenta lokuhle, banelunya futsi bakhohlakele. LiBhayibheli
+  likhuluma licondze: \u201cUmuntfu usuke atihlisibete etikwalabanye kantsi utilimata
+  yena.\u201d\\n21. Yini uMbuso loyoyenta kute intsandvo yaNkulunkulu yentiwe emhlabeni?\\n21
+  Ngemuva kwe-Amagedoni, bantfu batawubuswa nguhulumende munye, uMbuso waNkulunkulu.
+  LoMbuso lowo utakwenta intsandvo yaNkulunkulu futsi uletse tibusiso letimangalisako.
+  Nasi sibonelo: Utawususa Sathane nemadimoni akhe. (Sembulo 20:1-3) Emandla emhlatjelo
+  waJesu wesihlengo atawusetjentiswa kute bantfu labetsembekile bangaphindze bagule
+  futsi bafe. Kunaloko, nasekubusa lowoMbuso bayokwati kuphila phakadze. (Sembulo
+  22:1-3) Umhlaba utawuba lipharadisi. Ngemva kwaloko loMbuso utakwenta kutsi intsandvo
+  yaNkulunkulu yentiwe emhlabeni uphindze ungcwelise libito laNkulunkulu. Kusho kutsini
+  loko? Kusho kutsi ekugcineni nakubusa uMbuso waNkulunkulu, wonkhe umuntfu lophilako
+  uyodvumisa libito laJehova.\\nUMBUSO WANKULUNKULU UTAKWENTA NINI LOKU?\\n22. Sati
+  njani kutsi uMbuso waNkulunkulu awucalanga kubusa ngalesikhatsi Jesu alapha emhlabeni
+  nobe ngemuva nje kwekufika kwakhe ezulwini?\\n22 Ngalesikhatsi Jesu atjela balandzeli
+  bakhe kutsi bathandaze batsi, \u201cUMbuso wakho awute,\u201d kwaba sebaleni kutsi
+  uMbuso wawungakefiki ngaleso sikhatsi. Wefika yini ngalesikhatsi Jesu abuyela ezulwini?
+  Cha, ngobe boPhetro naPawula batsi, ngemuva kwekuvuswa kwaJesu, siphrofetho lesisencwadzini
+  yeTihlabelelo 110:1 sasigcwaliseke kuye: \u201cSimakadze watsi enkhosini yami: \u2018Hlala
+  lapha ngesekudla sami, ngize ngifake titsa takho ngaphansi kwetinyawo takho.\u2019\u201d
+  (Imisebenti 2:32-35; Hebheru 10:12, 13) Loku kwakhombisa kutsi kwakuyodzingeka alindze
+  sikhatsi lesitsite.\\nNasekubusa uMbuso, intsandvo yaNkulunkulu itawenteka emhlabeni
+  njengobe yenteka ezulwini\\n23. (a) Wacala nini kubusa uMbuso waNkulunkulu? (b)
+  Sitawufundza ngani esehlukweni lesilandzelako?\\n23 Abetawulindza sikhatsi lesingakanani?
+  Ngelikhulu lesi-19 nelesi-20 leminyaka, bafundzi beliBhayibheli labetsembekile batfola
+  kutsi abeyolindza kuze kube ngu-1914. (Kute utfole lwati lolunyenti ngalokuphatselene
+  nalomnyaka, fundza Sandzisanchazo emakhasini 215-18.) Lokwenteka kusukela nga-1914
+  kwafakazela kutsi labafundzi labetsembekile beliBhayibheli bakucondza kahle loko
+  kwakuyowenteka. Kugcwaliseka kwetiphrofetho teliBhayibheli, kukhombisa kutsi nga-1914,
+  Khristu waba yiNkhosi futsi uMbuso waNkulunkulu wasezulwini wacala kubusa. Kulesikhatsi
+  lesiphila kuso, Sathane usalelwe \u2018sikhatsi lesifishane.\u2019 (Sembulo 12:12;
+  Tihlabelelo 110:2) Singasho sicinise kutsi madvutane nje uMbuso waNkulunkulu utawubangela
+  kutsi intsandvo yakhe yentiwe emhlabeni. Uyatijabulela yini letindzaba? Uyatikholwa
+  yini kutsi tiliciniso? Sehluko lesilandzelako sitakusita ubone kutsi liBhayibheli
+  vele liyafundzisa ngaloku.\"", "\"Emandla eSive\\nNjengoba emakholonisi lamhlophe
+  amise umyalo etigodzini tema Tsonga, emandla etikhulu angavunywa. Ngeminyaka ya
+  1920 labamhlophe labaningi babona kubhidla kuba tintfo letincne kwemiphakatsi intfo
+  lengajabulisi yembusave ngekubaphansi. Labahliphitako babona ''lesive'' njenge ''ndalo''
+  yelikhaya le nombolo yebantfu base Afrikaa bangena ekukhuliseni umncintiswano nalabamhlophe
+  etindzaweni tasemadolobheni.\\nLesikhundla salesikhulu saciniswa yimitsetfo ya 1920
+  kwatsi, eminyakeni lemashumi lamatsatfu muva, ''emandla etive'' abaleka kundlela
+  yesitayela se Bantustan. Ngekwesintfu lesikhulu (hosi) kanye nakhansela wakhe banemandla
+  ekugcina futsi basakha incenye lembalwa yahulumende kuwo onkhe emacembu emaTsonga.
+  Baholi bemacembu lamancane ayendluliselwa phindze awele kumalunga lamadzala elilayini
+  lelidzala kusive lesicinile kulelicembu. Lesikhulu lesinsha kumele sivunywe ngukhansela
+  bese sibekwa ehhovisi ngalokusemtsetfweni. Uma ayintfo lencane ekushoneni kwababe
+  wakhe, umnakabo babe wakhe lomncane uvame kuma esikhundleni njengesikhulu.\\nNgaphambilini
+  le hosi yayenta emandla lamakhulu lamakhulu. Beyikhetsa indzawo bese yentela khona
+  kucala kwemcimbi wekusoka, imicimbi yekuvuna kanye nemidanso yemvula; beyikhuluma
+  phakatsi kwemalunga alelicembu kanye nemimoya yemadloti; beyenta tonkhe tincumo
+  ibhekise emphini kanye nemabutfo; beyiphindze ibuke umsebenti walelicembu, yetama
+  nemacala lamatima nalabo labacelako kumadvodzalaphetse. Beyisitwa ngulabo bebatsatsa
+  imisebenti lebalulekile. Namuhla tikhulu tibhadalelwa imisebenti yetisebenti ngekubuka
+  bantfu labangaphansi kwabo. Kumele titsatse imali lekhokwako bese tibuka imisebenti
+  lenjena njengekufakwa kwemaphayiphi emanti noma kwakhiwa kwetikolwa letinsha. Tichubeka
+  nekudlala indzima lemcoka njengebantfu bekutsenjwa, kubonwa kanye nekukhatsateka
+  kwemimango emakhayeni.\\nTranslated by\\nPhindile Malotana\"", "\"Satiso: Lelihumusho
+  lesiSwati litsetfwe etiko leteMtsetfo neku tfutfukiswa kweMtsetfo Sisekelo wase
+  Ningizimu Afrika. Chaphela, kune maphutsa ekuhumushweni kwaletinye tincenye. Kungumsebenti
+  wetfu losachubeka kukulungisa loku, nekuphucula indlela yekuhumusha.\\nPlease note:
+  This translation is taken directly from the official Department of Justice edition.
+  We are aware that it is not complete or always accurate (e.g. s6.23.2), and we are
+  working towards a new, better translation.\\nSehluko 14: Timiso Jikelele (231-243)\\nUmtsetfo
+  wemave emhlaba\\n231. Tivumelwano nemave emhlaba\\n- Kucocisana nekusayina tivumelwano
+  nemave emhlaba kusibopho seSigungu savelonkhe lesengamele.\\n- Sivumelwano nemave
+  emhlaba sibopha iRiphabhulikhi kuphela nje uma ngabe semukelwe ngesincumo kuyo yombili
+  Sigungu saVelonkhe neMkhandlu waVelonkhe weTifundza ngaphandle uma ngabe kusivumelwano
+  lesishiwo esigatjaneni (3).\\n- Sivumelwano nemave emhlaba senhlobo yebuchwepheshe,
+  yekuphatsa noma yeSigungu lesengamele, noma sivumelwano lesingadzingi kwemukelwa
+  noma kucinisekiswa losentiwe Sigungu lesengamele, sibopha iRiphabhulikhi ngaphandle
+  kwekuvunywa Sigungu saVelonkhe neMkhandlu waVelonkhe weTifundza, kepha kumele setfulwe
+  embi kweSigungu saVelonkhe kanye nasembi kweMkhandlu waVelonkhe weTifundza kungakapheli
+  sikhatsi lesidze.\\n- Noma siphi sivumelwano nemave emhlaba siba ngumtsetfo eRiphabhulikhi
+  nasibekwa saba ngumtsetfo sishayamtsetfo savelonkhe, kodvwa siba siphakamiso lesinemandla
+  eRiphabhulikhi ngaphandle uma ngabe singahambisani neMtsetfosisekelo noma neMtsetfo
+  wePhalamende.\\n- IRiphabhulikhi iboshwa tivumelwano nemave emhlaba lebetivele tiyibopha
+  iRiphabhulikhi loMtsetfosisekelo uma ucala kusebenta.\\n232. Umtsetfo wendzabuko
+  wamhlabawonkhe\\nUmtsetfo wendzabuko wamhlabawonkhe ungumtsetfo eRiphabhulikhi ngaphandle
+  uma ngabe ungahambisani neMtsetfosisekelo noma uMtsefto wePhalamende.\\n233. Kusetjentiswa
+  kwemtsefto wemave emhlaba\\nUma kuhunyushwa noma ngumuphi umtsetfo, tonkhe tinkantolo
+  kumele tikhetse kuhunyushwa lokungiko kwalowo mtsetfo lokuhambisana nemtsetfo wemave
+  emhlaba ngetulu kwalokunye kuhunyushwa lokungahambisani nemtsetfo wemave emhlaba.\\nLetinye
+  Tindzaba\\n234. Tivumelwano temaLungelo\\nKuze kwandziswe lisiko lentsandvo yelinyenti
+  lelisungulwe nguMtsetfosisekelo, iPhalamende ingatemukela tiVumelwano temaLungelo
+  letihambisana netimiso teMtsetfosisekelo.\\n235. Kutibusa ngekwakho\\nLilungelo
+  labo bonkhe bantfu baseNingizimu Afrika lekutibusa ngekwabo njengoba lichaziwe kuloMtsetfosisekelo,
+  alishiyi ngaphandle, ngekhatsi kweluhlakamsebenti walelilungelo, kuhlonishwa kwemcabango
+  ngelilungelo lekutibusa ngekwawo ummango lobunjwe ngemasiko lafanako nelulwimi lolufanako
+  ngekwentalelwane, indzawo letsite khona lapha eRiphabhulikhi noma futsi ngayiphi
+  lenye indlela, lencunywe ngumtsetfo wavelonkhe.\\n236. Kwelekelelwa ngetimali kwemacembu
+  embusave\\nKuze kubonakale intsandvo yelinyenti, umtsetfo wavelonkhe kumele wente
+  kube khona kuniketwa kwetimali emacembu embusave lafaka sandla kusishayamtsetfo
+  savelonkhe netetifundza ngalokufanele nangebunyenti noma bungako bemavoti licembu
+  ngelicembu lelawatfola elukhetfweni lwavelonkhe nelweTifundza.\\n237. Kwentiwa kwemisebenti
+  ngekutimisela\\nYonkhe imisebenti lebekwe ngekwemtsetfosisekelo kumele yentiwe ngekutimisela
+  futsi nangaphandle kwekucitsa sikhatsi.\\n238. Kuphutfuma netitfunywa\\n- Sigungu
+  lesengamele kunoma ngumuphi umkhakha wahulumende \u2013\\n- singaniketa noma waphi
+  emandla lokumele asetjentiswe noma umsebenti lokumele wentiwe ngekulandzela umtsetfo
+  wavelonkhe noma siphi lesinye sitfo tembuso kuphela nje uma ngabe lokuniketa kuhambisana
+  nalowo mtsetfo lowo mandla asetjentiswa lowo msebenti wentiwa ngaphasi kwawo; noma\\n-
+  singasebentisa noma waphi emandla noma sente noma muphi umsebenti siwentela noma
+  siphi lesinye sikhungo sembuso lesiphetse ngekuphutfuma noma ngesizatfu sekutfunywa.\\n239.
+  Tinchazelo\\n-\\nKuloMtsetfosisekelo, ngaphandle uma ingcikitsi ibonisa ngalenye
+  indlela \u2013\\n\u201cumtsetfo wavelonkhe\u201d ufaka ekhatsi\u2014\\n- umtsetfo
+  longaphasi kwemtsetfo lobunjwe ngekulandzela uMtsetfo wePhalamende; futsi\\n- umtsetfo
+  lebewusebenta ngesikhatsi loMtsetfosisekelo ucala kusebenta futsi losetjentiswa
+  nguhulumende wavelonkhe;\\n\u201csikhungo sembuso\u201d sisho\u2014\\n- noma muphi
+  umnyango wembuso noma wekuphatsa ezingeni hulumende wavelonkhe wesifundza noma wasekhaya;
+  noma\\n- noma siphi siphatsimandla noma sikhungo\u2014\\n- lesisebentisa emandla
+  noma senta umsebenti ngekulandzela uMtsetfosisekelo noma umtsetfosisekelo wesifundza;
+  noma\\n- lesisebentisa emandla emmango noma lesenta umsebenti wemmango ngekulandzela
+  noma muphi umtsetfo, kepha loko akufaki ekhatsi inkantolo noma siphatsimandla setemtsetfo;\\n\u201cumtsetfo
+  wesifundza\u201d ufaka ekhatsi\u2014\\n- umtsetfo longaphasi kwemtsetfo lobunjwe
+  ngekulandzela uMtsetfo wesifundza; futsi\\n- umtsetfo lebewusebenta ngesikhatsi
+  loMtsetfosisekelo ucala kusebenta futsi losetjentiswa nguhulumende wesifundza.\\n240.
+  Kungahambelani emkhatsini kwemibhalo leyehlukene\\nUma kwenteka kuba khona kungahambelani
+  emkhatsini kwemibhalo leyehlukene yeMtsetfosisekelo, umbhalo wesiNgisi weMtsetfosisekelo
+  ngiwo longetulu kwato tonkhe tihumusho.\\n241. Emalungiselelo esikhashana\\nIshejuli
+  6 isebenta kulesikhashana ngalesikhatsi sekwetfulwa kwenchubo lensha yekulandzelwa
+  kwemtsetfosisekelo lesungulwe nguloMtsetfosisekelo, kanye nanoma nguluphi lolunye
+  ludzaba loluhambelana ngandlela-tsite nalesikhashana sengucuko.\\n242. Kucitfwa
+  kwemitsetfo\\nLemitsetfo lephawulwe kuShejuli 7 iyacitfwa, ngaphasi kwemibandzela
+  yesigaba 243 neShejuli 6.\\n243. Sihloko lesifishane nekucala kusebenta\\n- LoMtsetfo
+  utawubitwa ngekutsi nguMtsetfosisekelo weRiphabhulikhi yeNingizimu Afrika wanga-1996,
+  futsi ucala kusebenta ngelusuku lolutawumenyetelwa nguMengameli, kepha lusuku lolungeke
+  lube semuva kwamhlaka 1 Kholwane 1997.\\n- Mengameli angahlela tinsuku letehlukile
+  lungakefiki lusuku lolo lushiwo esigatjaneni (1) mayelana netiphakamiso letehlukene
+  taloMtsetfosisekelo.\\n- Ngaphandle uma kushiwo ngalenye indlela, kucashunwa kwesiphakamiso
+  seMtsetfosisekelo ngesikhatsi uMtsetfosisekelo ucala kusebenta kumele kutsatfwe
+  lokucashunwa njengesikhatsi lesiphakamiso sicala kusebenta.\\n- Uma ngabe kuhlelwe
+  lusuku lolwehlukile lwekusebenta kwesiphakamiso lesitsite seMtsetfosisekelo ngekulandzela
+  sigatjana (2), noma siphi siphakamiso lesifana naleso seMtsetfosisekelo weRiphabhulikhi
+  yeNingizimu, 1993 (uMtsetfo 200 wanga-1993), lophawulwe kulesimemetelo semtsetfo,
+  uyacitfwa kusukela ngalolo lusuku. (5) Tigaba 213, 214, 215, 216, 218, 226, 227,
+  228, 229 na 230 ticala kusebenta ngamhlaka 1 Bhimbidvwane 1998, kepha loko akuvimbeli
+  kusebenta ngekulandzela loMtsetfosisekelo kwemtsetfo lochazwe kunoma ngutiphi taletiphakamiso
+  kungakefiki lolo lusuku. Kuze kufike lolo lusuku noma siphi siphakamiso lesifana
+  noma ngandlela-tsite netiphakamiso taloMtsetfosisekelo weRiphabhulikhi yeNingizimu
+  Afrika, wanga-1993, sichubeka nekusebenta.\"", "\"IMIGOMO YEKUVULELA KUTFOLAKALA
+  KWEMTSETFO NGAPHANDLE KWETINDLEKO\\nTinhlangano telwati lwemtsetfo emhlanganweni
+  lowabanjwa eMontreal taphakamisa imigomo letsi:\\n\u00b7 Lwati lwesive lwetemtsetfo
+  kuwo onkhe emave netinhlangano temhlaba wonkhe luyincenye yeluhlelo lwebuntfu. Kuphakamisa
+  lizinga lekutfolakala kwalolwati lwetemtsetfo kukhomba kutfutfuka kwemtsetfo kanye
+  nekuhlonishwa kwawo;\\n\u00b7 Lwati lwesive lwetemtsetfo luvulekele kuwo wonkhe
+  umuntfu ngokusebentisa bucwephesha lobusembili;\\n\u00b7 Tinhlangano letisebenta
+  kucopha lolwati lwemtsetfo tinelilungelo lekuwusakata nekubambisana nahulumende
+  lokunguyena msunguli nemhleli walolwati, kumele baciniseke kutfolakala kwalo lwati
+  kute lusakatwe esiveni;\\nLwati lwesive lemtsetfo lusho lwati lwemtsetfo lolukhicitwe
+  tingoni tesive letibekwe emagunyeni ekukhicita umtsetfo bese awuniketa sive. Loku
+  kusho kwengetela ngayo imiphandzela yekucala kusinika umtsetfo, kufaka ekhatsi imitsetfo
+  leyashaywa, tijubo tetinkantolo, tivumelwano temave kanye naleminye imiphandzela
+  lelandzelako lengahunyushwa kute sitfole kuyo umtsetfo, loku kufaka imibiko yemabandla
+  lahlunga umtsetfo,emabandla lacilonga inchubo yawo umtsetfo kanye nemaphepha lanemtsetfo
+  lakhichitiwe ngetindleko tesive.\\nLemiphandzela yemtsetfo lehunyushwako kufanele
+  nayo itfolwe sive ngaphandle kwetindleko kantsi kusakwata kwalo lolwati lwetemtsetfo
+  ngalokusekuphindziwe akukavumeleki.\\nLetinhlangano Telwati Lwetemtsetfo;\\n\u00b7
+  Tisakata lolwati lwemtsetfo ngebuchwephesha babongcondvo mshina tibutsatsa etingonini
+  tesive letahlukene letinalolwati;\\n\u00b7 Tiniketa lolwati kalula ngaphandle kwetindleko;\\n\u00b7
+  Ataleli muntfu alutfole lolwati kuyo imiphandzela yalo nakuto ngalokunjalo njengebasakati
+  balo;\\n\u00b7 Tisekela lemigomo njengekuphakanyiswa kwayo.\\nTonkhe letinhlangano
+  temtsetfo tiyakhutsatwa kutsi tingenele imihlangano nemifundza tikolo yetifundza
+  nasemaveni lamanye kute kuvuleke ematfuba ekuchumana.\\nNgalokunjalo leTinhlangano
+  Tavuma:\\n\u00b7 Kukhutsata nekusekela kutfolakala kwelwati lwetemtsetfo esiveni
+  sonkhe ngabo buchwephesha lobuphambili;\\n\u00b7 Kuchayisa bumcoka bendzima ledlawa
+  ngulelo nalelo Live ekuvuleni tindlela tekutfolakala kwalolwati malula;\\n\u00b7
+  Kubambisana netinhlangano tonkhe nakuwo emave latfutfukako ekucinisekeni kuphumelela
+  kwalemigomo nekushiyelana lwati kuto temtsetfo;\\n\u00b7 Kusitana nekusekelana ngalokuphelele
+  kwato Tinhlangano letiseke ngalemigomo kulandzela:\\n\u00b7 Kutfutfukisa boHulumende
+  naletinye tinhlangano tesive letiphendlela kutfolakala kwalolwati lwetemtsetfo\\n\u00b7
+  Kuniketa lusito kutebuchwepheshwa, nemibono kanye nekucecesha;\\n\u00b7 Kutfutfukisa
+  lizinga lwebuchwephesha ngalokwanele;\\n\u00b7 Kushiyelana lwati ngemiphumela yetemfundvo
+  lehlolwe ngalokujulile.\\nKuhlangana njalo ngemnyaka, timeme naletinye tinhlangano
+  letiphatselene nelwati lwemtsetfo kutsi tingenele lemigomo nalemihlangano, ngekulandzela
+  inchubo lebekwe bahleli baletimigomo.\\nKuniketa labasitakala ngalolwati lwetemtsetfo
+  ngalokucacile yonkhe imibandzela yekusebenta lapho kudzingeka khona.\\nLemigomo
+  yabekwa Tihlangano telwati lwetemtsetfo ngemnyaka wa 2002 emhlanganweni lowawubanjwe
+  eMontreal yase iyachitjetelwa ngemnyakawa 2003, 2004, 2007, Sydney, Paris nase Montreal
+  ngekulandzelandzelana kwawo.\"", "\"1. Ngubani lowabhala liBhayibheli?\\nLetindzaba
+  letimnandzi tekutsi bantfu bayawuphila kuze kube phakadze emhlabeni, tibhalwe eBhayibhelini.
+  (Tihlabelelo 37:29) LiBhayibheli lakhiwa tincwadzi letincane letingu-66. Nkulunkulu
+  wasebentisa emadvodza langaba ngu-40 kutsi abhale liBhayibheli. Tincwadzi letisihlanu
+  tekucala tabhalwa nguMose eminyakeni lengaba ngu-3 500 leyengcile. Incwadzi yekugcina
+  yabhalwa ngumphostoli Johane eminyakeni lengetulu kwalengu-1 900 leyengcile. Babhali
+  beliBhayibheli babhala imibono yabani? Nkulunkulu abekhulumisana nalababhali asebentisa
+  umoya wakhe longcwele. (2 Samuweli 23:2) Babhala imicondvo yaNkulunkulu, hhayi yabo.
+  Ngako-ke nguJehova longumBhali weliBhayibheli.\\n2. Yini lengasenta sikholwe kutsi
+  liBhayibheli liliciniso?\\nSiyati kutsi liBhayibheli livela kuNkulunkulu ngobe liwabeka
+  ngendlela lenembile onkhe emaciniso lamayelana nelikusasa. Kute umuntfu longakwenta
+  loko. (Joshuwa 23:14) NguNkulunkulu Somandla kuphela lokwati kulibona kahle likusasa
+  lebantfu.\\nSikulindzele kutsi incwadzi levela kuNkulunkulu yehluke kuletinye, futsi
+  liBhayibheli linjalo. Kusakatwe tigidzi temakhophi eliBhayibheli futsi lasakatwa
+  ngemakhulu etilwimi. Nanobe liyincwadzi yakadzeni, liBhayibheli liyavumelana nesayensi.
+  Futsi lababhali balo labangu-40 bebangaphikisani. * Ngetulu kwaloko, loko liBhayibheli
+  lelikushoko ngelutsandvo kuvela kuphela kuNkulunkulu weliciniso\u2014Nkulunkulu
+  lonelutsandvo, futsi lisenawo emandla ekushintja kuphila kwebantfu kutsi kube ncono.
+  Lamaciniso enta tigidzi tebantfu tikholwe kutsi liBhayibheli liliVi laNkulunkulu.\\n3.
+  Licuketseni liBhayibheli?\\nIntfo liBhayibheli lelikhuluma ngayo kakhulu tindzaba
+  letimnandzi tekutsi Nkulunkulu unenjongo lenhle ngebantfu. ImiBhalo iyachaza kutsi
+  ekucaleni umuntfu lamlahlekela njani lilungelo lekuphila epharadisi emhlabeni, kanye
+  nekutsi lelo pharadisi litawubuyiselwa njani.\\nLiVi laNkulunkulu licuketse nemitsetfo,
+  timiso, kanye neteluleko. Ngetulu kwaloko, liBhayibheli lilandzisa ngendlela Nkulunkulu
+  lasebentelana ngayo nebantfu\u2014lokungumlandvo lowembula buntfu bakhe. Ngako-ke,
+  liBhayibheli lingakusita kutsi umati Nkulunkulu. Liyachaza nekutsi ungaba kanjani
+  ngumngani wakhe.\\n4. Ungalicondza njani liBhayibheli?\\nLencwajana itakusita kutsi
+  ulicondze liBhayibheli, ngobe isebentisa indlela lefanana naleyo leyasetjentiswa
+  nguJesu. Abecaphuna livesi ngalinye futsi achaza loko \u2018lokwakushiwo yimiBhalo.\u2019\\nTimbalwa
+  tintfo letijabulisa njengetindzaba letimnandzi letivela kuNkulunkulu. Nobe kunjalo,
+  labanye bantfu abatitsandzi, futsi labanye bona bayatenyanya ngisho nekutenyanya.
+  Ungapheli emandla, ngobe kutfola kwakho kuphila lokuphakadze kutawuya ngekutsi uyamati
+  yini Nkulunkulu.\"", "\"271\\nKwatsi nje ekucaleni kwekubusa kwaSedekiya,\u201cSedekiya\u201d
+  tincwadzi letinyenti tesiHebheru titsi: \u201cJehoyakimu\u201d buka nakuJer. 27:3,12
+  nakuJer. 28:1 umsa waJosaya, inkhosi yakaJuda, kwefika nali livi kuJeremiya livela
+  kuSimakadze, litsi:Letinye tincwadzi tekucala tite lelivesi 1 2Naku lokwashiwo nguSimakadze
+  kimi, watsi: \u201cYenta emajoko ngetitilobho nemicabo, lelinye lawo ulibeke entsanyeni
+  yakho, 3bese utfumela lawa lamanye kanye nelivi enkhosini yaka-Edomu, neyakaMowabi,
+  neyaka-Amoni, neyaseThire, neyaseSidoni ngemancusa lefike eJerusalema kuSedekiya,
+  inkhosi yakaJuda. 4Wanike imilayeto yebaphatsi bawo, utsi: \u2018Naku lokushiwo
+  nguSimakadze longuSomandla, Nkulunkulu wema-Israyeli, utsi: \u201cTjelani baphatsi
+  benu naku: 5\\nNgemandla ami lamakhulu nangengalo yami leyelulekile, ngadala umhlaba
+  kanye nebantfu labahlala kuwo kanye netilwane letikuwo, futsi ngiwunika nome ngubani
+  lengimtsandzako. 6\\nManje-ke ngitawunikela onkhe lamave enu encekwini yami Nebukhadnezari,
+  inkhosi yaseBhabhulona; ngitakwenta ngisho netilwane tesiganga kutsi timtfobele.
+  7\\nTive tonkhe tiyawumkhonta, nendvodzana yakhe kanye nemtukulu wakhe, kuze kube
+  sikhatsi lapho live lakhe liwa khona, tive letinyenti nemakhosi lamakhulu amehlule.\\n8\u201c
+  \u2018 \u201cNoko nome ngabe ngusiphi sive nome-ke ngumuphi umbuso longayiwukhonta
+  Nebukhadnezari, inkhosi yaseBhabhulona, ungagobisi inhloko yawo ejokweni lakhe,
+  ngiyawusijezisa leso sive ngenkemba, nangendlala, nangesifo lesibulalanako, ngize
+  ngisibhubhise ngesandla sakhe, kusho Simakadze. 9\\nNgako-ke ningabalaleli baphrofethi
+  benu, nebaphenguli benu, nebahumushi benu bemaphupho, netangoma, nalababhulako labanitjela
+  batsi: \u2018Ningeke niyikhonte inkhosi yaseBhabhulona.\u2019 10Baphrofetha emanga
+  kini, khona nitewususwa emaveni enu niyiswe khashane nawo; ngitanicosha eveni lenu,
+  niyawuphela. 11Kodvwa nangabe sive, nome ngusiphi, siyawukhotsamisa inhloko yaso
+  ngaphansi kwelijoko lenkhosi yaseBhabhulona, simkhotsamele, leso sive ngiyawusenta
+  sihlale eveni laso, sililime siphile kulo, kusho Simakadze.\u201d \u2019 \u201d\\n12NaSedekiya,
+  inkhosi yakaJuda, ngamniketa umlayeto lofanana nawona lona, ngatsi: \u201cKhotsamisani
+  tinhloko tenu ngaphansi kwelijoko lenkhosi yaseBhabhulona, khontani yona kanye nebantfu
+  bayo, nitewuphila. 13Uyawufelani wena kanye nebantfu bakho ngenkemba, nangendlala,
+  nangesifo lesibulalanako, Simakadze layale ngako nome ngusiphi sive lesingayiwuyikhonta
+  inkhosi yaseBhabhulona? 14Ningawalaleli emavi ebaphrofethi labatsi kini: \u2018Ningeke
+  niyikhonte inkhosi yaseBhabhulona,\u2019 ngobe baphrofetha emanga. 15\\n\u2018Angikabatfumi,
+  baphrofetha emanga egameni lami,\u2019 kusho Simakadze. \u2018Ngako-ke ngitanicosha
+  eveni lenu, niyawuze niphele, nine kanye nebaphrofethi labaphrofetha kini.\u2019
+  \u201d\\n16\\nNgabe sengikhuluma kubaphristi nakubo bonkhe labantfu, ngatsi: \u201cNaku
+  lokushiwo nguSimakadze, utsi: \u2018Ningabalaleli baphrofethi labatsi: \u201cMasinyane
+  nje khona nyalo tintfo tasethempelini laSimakadze tiyawubuyiswa tisuka eBhabhulona.\u201d
+  Baphrofetha emanga kini. 17Ningabalaleli. Khontani inkhosi yaseBhabhulona, nitawuphila.
+  Lelidolobha lingaba yincitsakalo leni? 18Nangabe babaphrofethi futsi banelivi laSimakadze,
+  abakhulumisane naSimakadze longuSomandla, bancenge kutsi letimphahla letisasele
+  ethempelini laSimakadze, nasesigodlweni senkhosi yakaJuda, naseJerusalema, tingatsatfwa
+  tiyiswe eBhabhulona.\u2019 19\\nNgobe ngunaku lokushiwo nguSimakadze longuSomandla
+  mayelana netinsika, nanelwandle lolwakhelwe, netincodlana, naletinye nje-ke timphahla
+  letisasele kulelidolobha, 20\\nlangatitsatsanga Nebukhadnezari, inkhosi yaseBhabhulona,
+  ngesikhatsi atfumba Jehoyakhini,NgesiHebheru \u201cJekhoniya\u201d umsa waJehoyakimu,
+  inkhosi yakaJuda, ayiyisa ekudzingisweni, ayisusa eJerusalema ayiyisa eBhabhulona
+  kanye nabo bonkhe labahloniphekile bakaJuda nebaseJerusalema. 21Yebo, nguloko lokushiwo
+  nguSimakadze longuSomandla, Nkulunkulu wema-Israyeli, mayelana naletimphahla letatisasele
+  ethempelini laSimakadze, nasesigodlweni senkhosi yakaJuda, naseJerusalema, utsi:
+  22\\n\u2018Tiyawutsatfwa tiyiswe eBhabhulona, lapho tiyawuhlala khona, kuze kube
+  ngulelo langa lengiyawufika ngalo ngitilandze. Ngiyawube sengiyatitsatsa-ke ngitibuyisele
+  kulendzawo yato,\u2019 kusho Simakadze.\u201d\\n281Ngenyanga yesihlanu kuwo lowo
+  mnyaka, umnyaka wesine, ekucaleni nje kwekubusa kwaSedekiya, inkhosi yakaJuda, umphrofethi
+  Hananiya, umsa wa-Azuri, waseGibeyoni, wakhuluma kimi asendlini yaSimakadze embikwebaphristi
+  kanye nabo bonkhe bantfu, watsi: 2\u201cNaku lokushiwo nguSimakadze longuSomandla,
+  Nkulunkulu wema-Israyeli, utsi: \u2018Ngiyakulephula lijoko lenkhosi yaseBhabhulona.
+  3\\nIngakapheli nje iminyaka lemibili ngiyawutibuyisa kulendzawo tonkhe timphahla
+  tasendlini yaSimakadze letatsatfwa nguNebukhadnezari, inkhosi yaseBhabhulona, latisusa
+  lapha watiyisa eBhabhulona. 4\\nNgitawubuyisa futsi kulendzawo naJehoyakhini,NgesiHebheru
+  \u201cJekhoniya\u201d nome \u201cKhoniya\u201d umsa waJehoyakimu, inkhosi yakaJuda,
+  nabo bonkhe labatfunjwa kaJuda bayiswa eBhabhulona, ngobe ngitakulephula lijoko
+  lenkhosi yaseBhabhulona,\u2019 kusho Simakadze.\u201d\\n5Ngako umphrofethi Jeremiya
+  wase uphendvula lomphrofethi Hananiya embikwebaphristi nabo bonkhe bantfu lababemile
+  endlini yaSimakadze. 6Watsi: \u201cAmen! Shangatsi Simakadze angenta njalo! Shangatsi
+  Simakadze angawagcwalisa lawo mavi lowaphrofethe ngekubuyisa letimphahla tasendlini
+  yaSimakadze nabo bonkhe labatfunjwa besuswa eBhabhulona baletfwa kulendzawo. 7Noko
+  lalela naku lengitakusho kuwe nakubo bonkhe labantfu niva: 8Kusukela etikhatsini
+  takucala, baphrofethi labangembili kwetfu, bake baphrofetha ngemphi, nangesehlakalo,
+  nangesifo lesibulalanako, bamelana nemave lamanyenti nanemibuso lemikhulu. 9\\nKodvwa
+  umphrofethi lophrofetha kuthula nguye loyawulalelwa, anakwe njengemuntfu longuyena
+  atfunywe nguSimakadze ngempela, kuphela nje nangabe lesiphrofetho sakhe sigcwaliseka.\u201d\\n10\\nNgako
+  umphrofethi Hananiya wesusa lelijoko entsanyeni yemphrofethi Jeremiya, walephula,
+  11wakhuluma embikwabo bonkhe bantfu watsi: \u201cNaku lokushiwo nguSimakadze, utsi:
+  \u2018Ngiyakulephula kanjalo-ke lijoko laNebukhadnezari, inkhosi yaseBhabhulona,
+  ngilisuse etintsanyeni tetive tonkhe temhlaba ingakapheli iminyaka lemibili.\u2019
+  \u201d Emvakwaloko-ke umphrofethi Jeremiya wachubeka wahamba indlela yakhe.\\n12Kwatsi
+  sikhashana nje emvakwekube umphrofethi Hananiya asalephulile lijoko lelalisentsanyeni
+  yemphrofethi Jeremiya, kwefika livi laSimakadze kuJeremiya, latsi: 13\u201cHamba
+  utjele Hananiya, utsi: \u2018Naku lokushiwo nguSimakadze, utsi: Wena wephule lijoko
+  lesigodvo, kodvwa esikhundleni salo wena uyawutfola lijoko lensimbi. 14\\nNaku lokushiwo
+  nguSimakadze longuSomandla, Nkulunkulu wema-Israyeli, utsi: Ngitawubeka lijoko lensimbi
+  entsanyeni yaletive kuze titewukhonta Nebukhadnezari, inkhosi yaseBhabhulona, futsi
+  tiyawuhlehla kuye. Futsi ngitamnika abuse ngisho netilwane tesiganga.\u2019 \u201d\\n15Ngako
+  umphrofethi Jeremiya wase ukhuluma kuHananiya, umphrofethi, watsi: \u201cLalela
+  lapha, Hananiya! Wena awukatfunywa nguSimakadze, kodvwa lesive ulibele kusenta setsembe
+  emanga akho. 16\\nNgako-ke naku lokushiwo nguSimakadze, utsi: \u2018Sekusondzele
+  kutsi ngikukhweshise emhlabeni. Kuwo nje lomnyaka lona utakufa, ngobe ushumayele
+  kuhlubuka Simakadze.\u2019 \u201d\\n17Kwatsi ngenyanga yesikhombisa kuwo lowo mnyaka,
+  Hananiya, umphrofethi, wafa.\\n291Lena yincwadzi leyabhalwa ngumphrofethi Jeremiya,
+  wayitfumela isuka eJerusalema iya kumisalela leyayisasele yalabadzala kulabo labebatfunjiwe,
+  nakubaphristi, nakubaphrofethi, nakubo bonkhe bantfu lababetfunjwe nguNebukhadnezari,
+  abesusa eJerusalema wabayisa eBhabhulona. 2\\nLapha kwakusemuva kwenkhosi Jehoyakhini,\u201cJehoyakhini\u201d
+  ngesiHebheru \u201cJekhoniya\u201d nendlovukazi, nebatsenwa, nebaholi bakaJuda nebaseJerusalema,
+  nebakhandzi betinsimbi kanye nebabati labatingcweti sebatfunjiwe bayiswa ekudzingisweni
+  besuswa eJerusalema. 3Lencwadzi Jeremiya wayiphatsisa bo-Elasa, umsa waShafani,
+  naGemariya, umsa waHilkiya, lababetfunywe nguSedekiya, inkhosi yakaJuda, kuNebukhadnezari,
+  inkhosi yaseBhabhulona.\\nLencwadzi yayitsi: 4\u201cNaku lokushiwo nguSimakadze
+  longuSomandla, Nkulunkulu wema-Israyeli, kubo bonkhe labo lengabatfumba ngabesusa
+  eJerusalema baya eBhabhulona, utsi: 5\u2018Yakhani tindlu nitinte; hlanyelani tivandze
+  nidle loko letikutselako. 6Tsatsani bafati nitale emadvodzana nemadvodzakati, nitsatsele
+  emadvodzana enu bafati, nendzise nemadvodzakati enu, kuze kutsi nabo batewuba nemadvodzana
+  nemadvodzakati. Talanani nandze nangesibalo lapho, ninganciphi. 7Funani futsi kuthula
+  nekuphumelela kulelo dolobha lenganitfumbela kulo kutsi niyewudzingiswa. Likhulekeleni
+  kuSimakadze, ngobe naliphumelela, nani niyawuphumelela.\u2019 8\\nYebo, nguloko
+  lokushiwo nguSimakadze longuSomandla, Nkulunkulu wema-Israyeli, utsi: \u2018Ningavumi
+  kuyengwa baphrofethi nalabaphengulako labasemkhatsini wenu. Ningalaleli lamaphupho
+  lenibakhutsata kutsi babe nawo. 9\\nBaphrofetha emanga kini egameni lami. Angikabatfumi
+  mine,\u2019 kusho Simakadze.\\n10\\n\u201cNaku lokushiwo nguSimakadze, utsi: \u2018Naseyiphelile
+  iminyaka lengema-70 yeBhabhulona, ngitawufika kini ngitewugcwalisa setsembiso sami
+  semusa kutsi nginibuyise kulendzawo. 11\\nNgobe ngiyawati emasu lenginawo ngani,
+  yebo, emasu ekuniphumelelisa, hhayi ekunilimata, emasu ekuninika litsemba nelikusasa.
+  12\\nNiyawube seniyangibita-ke nite nitewuthandaza kimi, mine ngiyawuniva. 13\\nNiyakungifuna
+  ningitfole, naningifunisisa ngayo yonkhe inhlitiyo yenu. 14\\nNgiyawutfolwa ngini
+  nginibuyise ekutfunjweni kwenu,\u2019\u201cnginibuyise ekutfunjweni kwenu\u201d
+  nome \u201cngiyakunibuyisela tibusiso tenu nenhlalakahle\u201d kusho Simakadze.
+  \u2018Ngiyawunibutsa kuto tonkhe tive netindzawo, lapho benginicoshele khona,\u2019
+  kusho Simakadze. \u2018Ngiyawunilandza nginibuyisele kuyo lendzawo lapho nganitsatsa
+  khona naya ekudzingisweni.\u2019\\n15\u201cNingasho nitsi: \u2018Simakadze usivusele
+  baphrofethi lapha eBhabhulona.\u2019 16Kodvwa naku lokushiwo nguSimakadze ngenkhosi
+  lehlala esihlalweni sebukhosi saDavide nangabo bonkhe bantfu labasasele kulelidolobha,
+  bantfu belive lenu labangahambanga kanye nani kuya ekudzingisweni, 17\\nyebo, naku
+  lokushiwo nguSimakadze longuSomandla, utsi: \u2018Ngiyawutfumela inkemba, nendlala,
+  nesifo lesibulalanako kutsi kuyewumelana nabo, ngiyawubenta babe njengemakhiwa labune
+  adzimate abola lokwekutsi kute nalongawadla. 18Ngiyawubagijimisa ngenkemba, nangendlala,
+  nangesifo lesibulalanako, ngibente banengeke kuyo yonkhe imibuso yasemhlabeni, babe
+  yintfo yesicalekiso nesesabiso, intfo yekuhlekisa nelihlazo emkhatsini wato tonkhe
+  tive, lapho ngibayisa khona.\u2019 19\\nSimakadze utsi: \u2018Ngobe abakawalaleli
+  emavi ami, emavi lengangibatfumelela wona njalonjalo ngetinceku tami baphrofethi;
+  nani nine batfunjwa, nani anikangilaleli,\u2019 kusho Simakadze.\\n20\u201cNgako-ke
+  vanini livi laSimakadze, nonkhe nine labatfunjiwe, lengabacosha eJerusalema ngabayisa
+  eBhabhulona. 21Naku lokushiwo nguSimakadze longuSomandla, Nkulunkulu wema-Israyeli,
+  mayelana na-Ahabi, umsa waKholaya, nangaSedekiya, umsa waMaseya, labaphrofetha emanga
+  kini egameni lami, utsi: \u2018Ngitawubanikela kuNebukhadnezari, inkhosi yaseBhabhulona,
+  yena uyawufike ababulale embikwemehlo enu nibuka. 22Ngenca yabo, bonkhe labatfunjiwe
+  labesuka kaJuda labaseBhabhulona bayawusebentisa lesicalekiso, batsi: \u201cSimakadze
+  akakulingise boSedekiya na-Ahabi labashiswa yinkhosi yaseBhabhulona ngemlilo.\u201d
+  23\\nNgobe babente intfo lesinengiso kabi ka-Israyeli, baphinga nebafati babomakhelwane
+  babo, bakhuluma emanga ngeLibito lami, lengangingazange sengibatfume kutsi bakwente.
+  Ngiyakwati loko futsi ngingufakazi wako,\u2019 kusho Simakadze.\u201d\\n24Ubofike
+  utjele Shemaya waseNehelamu, utsi: 25\u201cNaku lokushiwo nguSimakadze longuSomandla,
+  Nkulunkulu wema-Israyeli, utsi: Utfumele tincwadzi ngelibito lakho kubo bonkhe bantfu
+  baseJerusalema, nakuZefaniya, umsa waMaseya, umphristi, nakubo bonkhe labanye baphristi.
+  Watjela Zefaniya watsi: 26\u2018Simakadze sewubeke wena kutsi ube ngumphristi esikhundleni
+  saJehoyada, kutsi wengamele indlu yaSimakadze; kufanele-ke kutsi bonkhe bantfu labahlanyako
+  batente shangatsi bayaphrofetha, ubafake esitokisini ubabophe tintsamo ngetinketane.
+  27Kepha manje awukamkhalimeli ngani loJeremiya wase-Anathothi, lotishaya shangatsi
+  nguyena mphrofethi lapho emkhatsini wenu? 28Usitfumelele nangu umlayeto lapha eBhabhulona
+  lotsi: Kusetawuba sikhatsi lesidze. Ngako-ke yakhani tindlu nihlale nitinte; hlanyelani
+  tivandze, nidle sivuno sato.\u2019 \u201d\\n29Ngempela Zefaniya, umphristi, wafike
+  wafundzela umphrofethi Jeremiya lencwadzi. 30Kwase kufika livi laSimakadze kuJeremiya,
+  latsi: 31\u201cTfumela lomlayeto kubo bonkhe labatfunjiwe, utsi: \u2018Naku lokushiwo
+  nguSimakadze ngaShemaya waseNehelamu, utsi: Ngenca yekutsi Shemaya sewuphrofethile
+  kini, nome abengakatfunywa ngimi nje, wanidvonsela ekutseni netsembe emanga, 32\\nnaku
+  lokushiwo nguSimakadze utsi: Ngempela, ngitamjezisa Shemaya waseNehelamu kanye nesitukulwane
+  sakhe. Kute namunye loyawusala kulabantfu laba, futsi akayiwubona nakunye kwetintfo
+  letinhle lengiyawutentela bantfu bami, ngobe yena ushumayele kuhlubuka mine, kusho
+  Simakadze.\u2019 \u201d\"", "\"Ngalelinye lilanga Logwaja beka hamba ngale eceleni
+  kwemfula.\\nNemvubu beyikhona nayo, beyitihambela nje itiyalukela, idlana netjani
+  lobuluhlata lobumnandzi.\\nImvubu ayizange ibone kwekutsi logwaja ukhona naye, ngeliphutsa
+  imvubu yanyatsela linyawo lalogwaja. Logwaja wamemeta watsi, \\\"Wena Mvubu! Awuboni
+  kwekutsi uyangenyatsela?\\\"\\nYaticolisela iMvubu. \\\"Ngiyacolisa mngani wami.
+  Angizange ngikubone. Ngicela ungicolele!\\\" Logwaja akalalelanga watsetsisa iMvubu,
+  \\\"Wente ngemabomu! Ngaleliye lilanga utowubona! Utakubhadalela lokwentile.\\\"\\nWasuka
+  Logwaja wafuna umlilo wawutfola watsi, \\\"Hamba uyoshisa Mvubu uma aphuma kuyodla
+  tjani. Unginyatselile!\\\" Umlilo waphendvula watsi, \\\"Akunakinga Logwaja mgani
+  wami. Ngitokwenta njalo.\\\"\\nKwatsi ngelikadze, Mvubu bekadla tjani kudze lena
+  emfuleni \\\"bhu\\\" umlilo wavutsa waba lilangabi, lilangabi lashisa tinwele temvubu.\\nImvubu
+  yacala yakhala yagijimela emantini. IMvubu yachubeka yakhala, \\\"Tinwele tami tishiswe
+  ngumlilo! Tonkhe, tinwele tami tonkhe tihambile! Tinwele tami letinhle!\\\"\\nYingako
+  imvubu ingahambeli kudze nemanti, kungenca yekwesabela kushiswa ngumlilo. Logwaja
+  wajabula makabona imvubu isha, atsi, \\\"Ngimtfolile.\\\"\"", "\"Tibongo temajaha\\nTibongo
+  Temajaha[hlela | edit source]\\nTiyini\\ntibongo temajaha yindlela yekutibonga yemajaha.
+  lijaha nelijaha liba netibongo talo. Letibongo lijaha litetsiwa bontsanga kumbe
+  litetse lona.\\nKubaluleka kwato\\nPhela emaSwati abengabhali kadzeni ngako letibongo
+  bekungito betenta bantfwana bati ngebuchawe balabadzala. Lomunye umsebenti waletibongo
+  kufaka kutetsemba emajaheni. umuntfu angahlala njani angatetsembi nakabongwa kutsiwe
+  :\\\" ngunjelwane tinamatsela etjeni, umgudugudu umshonisi welanga\\\"?\"", "\"Ligama
+  lemndeni lelatiwako\\nRemoras\\nLigama lelinye lelatiwako\\nSuckerfish, Sharksucker,
+  Gapu (Imfishi ledonsako, Shaka lodonsako, Gapu)\\nLigama lesayensi\\nEcheneidae\\nLinani\\nIngangemasentimitha
+  lamashumi layimfica, silinganiso singemashumi lamane emasentimitha.\\nKutiveta\\nTinemtimba
+  loncama loyindingilizi. Inhloko ipatalele kuya etulu. Luphiko lwekucala luchazwa
+  yidisk ledonsako nebunengi bemapulede. umhlatsi wangaphansi uyagcama/uyavela kwengca
+  loyo wangetulu. Ivame kuba mnyama lonamhlophe noma mtfubi lomalayini laya eceleni.\\nSatiso
+  setintfo\\nUmdneni we Echeneidae ufaka tinhlobo letine kanye nemacembu etilwane
+  letisiphohlongo. Kudonsa/kubopha kuyakhuphuka kuboshaka, kuma rays, kumafudvu, kutimfishi
+  letinematsambo, imikhoma kanye netinhlengetfwa. Tisebentisa lokudonsa/kumunya kubambisa.\\nNgalesinye
+  sikhatsi titfolwa tibambeke emikhumbini noma kubahlambi. Kubonakala ngatsi tibhukusha
+  tibheke phansi ngenca/ngendzaba yekuma kwenhloko yato. Tiklina/tihlobisa emagciwane
+  kanye nencenye yemtimba lehlala kulomunye umtimba. Tisakateke emantini lavulekile
+  elwandle/emifuleni.\\nKudla kwato\\nTidla lokulahliwe/emangcoliso alebetikhona endzaweni.
+  Letinye tilwane tidla emangcoliso alebetikhona kuleyondzawo.\\nKusakata\\nTivela
+  ngatotonkhe tinhlobo tekushisa/tekubandza nasetindzaweni letinelwandle letishisako
+  mhlabawonkhe.\\nTilwane letatiwako\\nRemora (Remora linnaeus)\\nStriped remora (Echeneis
+  naucrates)\"", "\"321Jakobe wachubeka nendlela yakhe, tingilosi taNkulunkulu tamhlangabeta.
+  2\\nJakobe watsi kube atibone letingilosi watsi: \u201cLesi sikanekiso saNkulunkulu!\u201d
+  Wetsa leyo ndzawo libito watsi yiMahanayimu.\\n3Jakobe watfumela tigijimi ku-Esawu
+  umnakabo, eveni laseSeyiri, kulaka-Edomu. 4Watibamba ngendlebe watsi: \u201cNitawufika
+  enkhosini yami, Esawu, niyitjele nitsi: \u2018Inceku yakho, Jakobe, itsi: Seloku
+  ngahamba bengisolo ngihleti kaLabani, kuze kube ngulamuhla. 5Nginetinkhabi, netimbongolo,
+  netimvu, netimbuti netisebenti letidvuna naletisikati. Sengitfumele ligama enkhosini
+  yami kutsi kumbe ngingatfola umusa ngemukeleke.\u2019 \u201d 6Titfunywa tabuya kuJakobe,
+  tafike tatsi: \u201cSimkhandzile umnakenu Esawu; naye sewuyeta utekuhlangabeta,
+  uta nemadvodza langemakhulu lamane.\u201d 7Jakobe wesaba kakhulu waba neluvalo.
+  Wehlukanisa labantfu abehamba nabo, wabenta emacembu lamabili, kanjalo nemihlambi
+  yetimvu, neyetimbuti, neyetinkhomo kanye neyemakamela nako wakwenta njalo. 8Loku
+  abekwenta acabanga atsi: \u201cNangabe Esawu efika ahlasela lelinye licembu, leli
+  lelinye-ke lelisasele lisengabaleka.\u201d\\n9\\nJakobe wase uyathandaza watsi:
+  \u201cNkulunkulu wababemkhulu Abrahama, naNkulunkulu wababe wami Isaka! Simakadze,
+  wena wakhuluma kimi watsi: \u2018Ncandzeka ubuyele eveni lakini, nasetihlotjeni
+  takho, mine ngitakwentela lokuhle.\u2019 10Umusa wakho awukangifaneli nako konkhe
+  kwetsembeka kwakho lokubonakalise kimi, inceku yakho, akukangifaneli. Ngobe lomfula
+  iJordane ngawewela ngiphetse ludvondvolo lwami lodvwa, manje senginemacembu lamabili.
+  11Ngicela kutsi umane ungephule esandleni semnaketfu Esawu, ngobe ngiyamesaba, kutsi
+  angahle angihlasele abulale bantfwana kanye nabonina. 12\\nKodvwa wena wakhuluma
+  kimi watsi: \u2018Ngiyawukwentela lokuhle, ngandzise nentalo yakho ibe ngangesihlabatsi
+  sangaselwandle, ingete yabaleka ngenca yebunyenti.\u2019 \u201d\\n13Jakobe wacitsa
+  busuku bonkhe kuleyo ndzawo, wakhetsela Esawu, umnakabo, sipho etifuyweni takhe,
+  wakhetsa 14timbutikati letingemakhulu lamabili, netiphongo letingemashumi lamabili,
+  netimvukati letingemakhulu lamabili, netihhanca letingemashumi lamabili, 15nemakamela
+  lasengwako langemashumi lamatsatfu kanye nemankhonyane awo, netinkhomati letingemashumi
+  lamane, netinkunzi letilishumi, netimbongolo letinsikati letingemashumi lamabili,
+  naletindvuna letilishumi. 16Tonkhe letifuyo watehlukanisa emkhatsini, taba ngimihlambi
+  leyehlukene, ngulowo nalowo umhlambi wabasesandleni senceku yakhe letsite. Watiyala
+  letinceku takhe watsi: \u201cHambani ngembili kwami, nishiyelane imikhawu yemabanga
+  latsite, emikhatsini yemihlambi yenu.\u201d 17Inceku yekucala wayiyala watsi: \u201cNawuhlangana
+  na-Esawu, umnaketfu, akubuta atsi: \u2018Wena uwakabani? Uyaphi? Ngetabani letifuyo
+  lotichubako?\u2019 18ubotsi: \u2018Tenceku yakho Jakobe. Utitfumele njengesipho
+  enkhosini yakhe Esawu. Naye, Jakobe, usilandzela ngemuva.\u2019 \u201d 19Wachubeka
+  wayiyala kanjalo futsi neyesibili, neyesitsatfu, nato tonkhe letinceku lebetichuba
+  lemihlambi atsi: \u201cNgiko loko-ke leniyakukhuluma ku-Esawu, nanihlangana naye.
+  20Nibotsi: \u2018Yebo, Jakobe inceku yakho, ita ngemuva, iyangilandzela.\u2019 \u201d
+  Jakobe abecabanga atsi uyatincengela ngaletipho ngekutitfumela kucala, khona kutawutsi
+  nakahlangana naye, abe asamcolele. 21Ngako-ke letipho takhe tahamba embili, yena
+  Jakobe wasala ngemuva esikanekisweni, wabucitsa khona busuku.\\n22Ngabona lobo busuku
+  Jakobe wavuka watsatsa bafati bakhe bobabili, netincekukati takhe letimbili, nebantfwabakhe
+  labalishumi namunye, wabeweta etubukweni lemfula iJabhoki. 23Bonkhe wabewetela ngesheya
+  kwemfula nako konkhe labenako, 24\\nkodvwa yena wasala ngemuva.\\nKwase kufika indvodza
+  labambana nayo, kwadzimate kwadzabuka kusa. 25Yatsi kube ibone lendvodza kutsi iyehluleka
+  kuphunyula kuJakobe, yase imtsintsa enyongeni. Inyonga yaJakobe yenyela solomane
+  tibambene etulu nalendvodza. 26Lendvodza yatsi: \u201cNgiyekele ngihambe, ngobe
+  sekuyasa.\u201d\\nJakobe watsi: \u201cNgingeke ngikuyekele uhambe ungakangibusisi.\u201d\\n27Yabuta
+  yatsi: \u201cNgubani libito lakho?\u201d\\nWaphendvula watsi: \u201cNginguJakobe.\u201d\\n28\\nLendvodza
+  yatsi: \u201cLibito lakho lingeke lisaba nguJakobe, kodvwa sewutawuba ngu-Israyeli,NgesiHebheru
+  lelibito livakala kungatsi litsi: \u201cubambene naNkulunkulu\u201d nome \u201cNkulunkulu
+  uyashikashikana.\u201d ngobe ubambene naNkulunkulu nebantfu, wajinge wancoba.\u201d\\n29\\nJakobe
+  wabuta watsi: \u201cWena-ke ungubani libito lakho?\u201d\\nYaphendvula yatsi: \u201cUfunelani
+  kwati libito lami?\u201d Yase iyambusisa.\\n30\\nJakobe lendzawo wayetsa libito
+  watsi: \u201cyiPheniyeli,\u201d lokusho kutsi: \u201cNgibonene naNkulunkulu buso
+  nebuso, noko umphefumulo wami waphephiswa.\u201d 31Jakobe wesuka ePheniyeli nakuphuma
+  lilanga, asahamba achuta ngenca yenyonga yakhe. 32Ngako-ke kuze kube ngulamuhla
+  titukulwane taka-Israyeli atiwudli umsipha wenyonga, ngobe ngiwo lowo msipha lowatsintfwa
+  kuJakobe.\""]'
+src_ngrams: '{"1": [[["ke"], 6469], [["nome"], 5955], [["israyeli"], 5629], [["ngobe"],
+  5464], [["nkulunkulu"], 5410]], "2": [[["bonkhe bantfu"], 850], [["simakadze nkulunkulu"],
+  768], [["nkulunkulu wenu"], 732], [["ningizimu afrika"], 709], [["eningizimu afrika"],
+  665]], "3": [[["simakadze nkulunkulu wenu"], 462], [["naku lokushiwo ngusimakadze"],
+  296], [["letinye tincwadzi tekucala"], 273], [["naku lokushiwo yinkhosi"], 258],
+  [["lokushiwo yinkhosi simakadze"], 250]], "4": [[["naku lokushiwo yinkhosi simakadze"],
+  243], [["translated by phindile malotana"], 174], [["letinye tincwadzi tekucala
+  titsi"], 169], [["wekucinisekisa emazinga kutemfundvo nekucecesha"], 114], [["liphunga
+  lelinuka lusi lolumnandzi"], 90]], "5": [[["liphunga lelinuka lusi lolumnandzi kusimakadze"],
+  62], [["world translation of the holy"], 53], [["translation of the holy scriptures"],
+  53], [["new world translation of the"], 53], [["we are working towards a"], 52]]}'

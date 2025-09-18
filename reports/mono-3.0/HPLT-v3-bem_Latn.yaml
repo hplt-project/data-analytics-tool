@@ -1,6 +1,6 @@
 corpus: hplt-v3-bem_Latn
 srclang: bem
-timestamp: 1758022110.1423094
+timestamp: 1758171434.7545886
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fastspell
@@ -288,977 +288,1133 @@ src_langs: '[["en", 46198], ["sw", 20014], ["tl", 14364], ["eo", 9989], ["id", 9
   1]]'
 hardrules_tags: '{"not_too_long": 2066, "not_too_short": 9338, "length_ratio": 0,
   "no_urls": 600, "no_bad_encoding": 9, "pii": 7}'
-sample: '["\"IYE kalanda we! Uzye i vyani vino antu yakucita paa? Yakupepa akana ka
-  ng\u2019ombe! U mulandu ci uno yakucitila vii?\\nLino Mose waile alengela uku mwamba,
-  antu yaatandike ukulanda yakuti: \u2018Tutamanyile ivyati-vicitikila Mose. Fwandi
-  lekini tuipangile leza uwakuti atutungulule ukufuma umu mpanga ii.\u2019\\nNga alino
-  Aloni umwina wakwe Mose aiza alanda ati: \u2018Icisuma, mpeelini amasikiyo yakwe
-  goldi yano muzwite.\u2019 Lino antu yaacisile vivyo, Aloni wasungulwile amasikiyo
-  kwene yaayo nu kupangilamo akana ka ng\u2019ombe. Nupya antu yalanzile yati: \u2018Wii,
-  ali Leza witu, uwatufumizye umu Eguputo!\u2019 Lyene aina Izlaeli yaatandike ukuzevya
-  nu kupepa akana ka ng\u2019ombe.\\nLino Yeova waweni vii, wasosile cuze. Lyene waneenyile
-  Mose ati: \u2018Pitisya tentemuka umwamba. Vino antu yakucita vitaziifile foo. Yati-ilila
-  amasunde yano nayapiile, lyene iyatandika ukupepa akana ka ng\u2019ombe.\u2019\\nMose
-  watentemwike umwamba zuwa-zuwa. Lyene lino wafisile apiipi, vino waweni vitaaziifile.
-  Antu iimbanga nu kucina ala yakuzinguluka akana ka ng\u2019ombe! Mose wasosile sana
-  icakuti wasumvile na mawe yaili apaapatane apaalemvilwe amasunde, na mawe yaayo
-  yaatamoosile iyaya sile utuvungwa. Nga alino atoola akana ka ng\u2019ombe nu kukasungulula.
-  Lyene akasyuta kasanguka usu.\\nCino antu yaacisile citaaziifile foo. Acino, Mose
-  waneenyile aonsi yamwi ukutoola impanga. Mose walanzile ati: \u2018Antu yonsi aipe
-  aapefile akana ka ng\u2019ombe yumoolwe. Lyene aonsi yaayo aali ni mpanga yumoozile
-  antu 3,000! Cii, cikutulangilila ukuti tufwile ukucenjela sana ukuti twapepa sile
-  Yeova, aasi tu leza twaufi foo, uzye asi avivyo?\\nKufuma 32:1-35.\"", "\"AWE wakyanyike
-  ye ubena kumona pa kikye kipikichala uji ne mutumwa Paulo ye Timoti. Timoti waikalanga
-  pamo na kisemi kyanji mu Lisitila. Bainanji jizhina jabo bajinga ba Yunisa, ne bankambo
-  yanji ba bakazhi bajinga ba Loisa.\\nKino kyajinga kimye kya busatu Paulo kyo ayile
-  ku Lisitila. Byo papichile mwaka umo, Paulo ne Banabasa baishile kuno konka ku Lisitila
-  na kusapwila. Pano Paulo wabweleleko jibiji pamo ne mukwabo Silasa.\\nNanchi wayuka
-  Paulo byo abena kwamba kwi Timoti nyi? Ubena kumwipuzha\u2019mba: \u2018Kana wakonsha
-  kutemwa kwendela pamo ne Silasa ne amiwa nyi? Twauba namba tusapwilenga pamo ku
-  bantu baikela mu mapunzha mwalepa.\u2019\\nTimoti wakumbwile\u2019mba: \u2018Ee,
-  nakeba kuya nenu.\u2019 Ponkapo Timoti washile kisemi kyanji ne kuya na Paulo ne
-  Silasa. Bino saka tukyangye kwamba pa lwendo lwabo, twaya patanshi tumone kyamumwekejile
-  Paulo. Papichile myaka 17 kufuma kimye Yesu kyo amwekele kwi aye pa lwendo lwanji
-  lwa kuya ku Damasakasa.\\nVuluka kuba\u2019mba, Paulo wayile ku Damasakasa na kumanyika
-  baana ba bwanga ba kwa Yesu, pano aye yenka waikele ke mwana wa bwanga! Palutwe
-  kacheche, balwanyi bapingile bipingo bya kumwipaya Paulo mambo kechi batemenwe byo
-  afunjishenga pe Yesu ne. Bino baana ba bwanga bamukwashishe Paulo kunyema. Bamupishishe
-  pa nsakwa, kasa bamwikizha bichebiche mu kyabo nangwa\u2019mba mu musansa.\\nPanyuma
-  ya bino, Paulo wayile ku Antioka na kusapwila. Akuno ko ku mpunzha ko batelelwe
-  kimye kitanshi baana ba bwanga ba kwa Yesu amba bena Kilishitu. Paulo ne Banabasa
-  bebatumine kufuma mu Antioka kuya na kusapwila mu byalo bikwabo. Muzhi umo mo bayile
-  wajinga Lisitila, mo mwaikalanga Timoti.\\nByo papichile mwaka umo, Paulo wayile
-  jibiji ku Lisitila pa lwendo lwanji lwa bubiji. Timoti byo aendejile pamo na Paulo
-  ne Silasa, wayuka ko bayile nyi? Akimona pa mapu, kabiji twaya tufundepo mapunzha
-  amo.\\nPatanshi, bayile kwipi na ku Ikonyuma, kepo bafikile ne ku muzhi utelwa\u2019mba
-  Antioka. Byo bafumine ku ino mizhi bayile ku Toloasa, ku Filipai, ku Tesalonika
-  ne ku Beliya. Abya wamumona muzhi wa Atene pa mapu nyi? Ko ko asapwijile Paulo.
-  Panyuma ya bino, bapwishishe mwaka umo ne kichika na kusapwila mu Kolinda. Kyapeleleko,
-  baikeleko mu Efisesa. Kepo babwelele ku Kesalea, ne ku Antioka ko aikelenga Paulo.\\nTimoti
-  waendelenga miseke yalepa bingi na kukwasha Paulo kusapwila \u201cmambo awama\u201d
-  ne kutendekesha bipwilo byavula bingi bya bwina Kilishitu. Ne obewa inge wakoma,
-  abya ukekala kalume wa Lesa byonka byajinga Timoti nyi?\\nByubilo 9:19-30; 11:19-26;
-  kitango 13 kufika ku kitango 17; 18:1-22.\\n1. Loma; 2. Melita; 3. Beliya; 4. Tesalonika;
-  5. Kolinda; 6. Filipai; 7. Atene; 8. Keleta; 9. Toloasa; 10. Efisesa; 11. Miletusa;
-  12. Kolose; 13. Antioka; 14. Ikonyuma; 15. Lisitila; 16. Kipilusa; 17. Antioka;
-  18. Kesalea; 19. Yopa; 20. Damasakasa; 21. Yelusalema; 22. Kalunga Kakatampe (Meditelanya)\\nMepuzho\\n-
-  Awe mwanamulume wa kyanyike uji pa kipikichala \u00f1anyi, waikalanga kwepi, kabiji
-  bainanji ne bankambo yanji bajinga ba\u00f1anyi mazhina?\\n- Timoti waambile\u2019mba
-  ka kimye Paulo kyo amwipwizhe inge wakebelenga kwingijila pamo ne Silasa ne Paulo
-  mu mwingilo wa kusapwila ku bantu baikalanga kwalepa?\\n- Kwepi baana ba bwanga
-  ba kwa Yesu ko batelelwe kimye kitanshi amba bena Kilishitu?\\n- Paulo ne Banabasa
-  byo bayile ku Antioka, mizhi ka imo yo bafwakashijile?\\n- Timoti wakwashishe byepi
-  Paulo, kabiji mepuzho ka bakyanyike ba ano moba o bakonsha kwiipuzhanga abo bene?\\nMepuzho
-  akwabo\\n- Tanga Byubilo bya Batumwa 9:19-30.\\nPaulo waingijishe byepi maana kimye
-  kyo apichilenga mu makatazho na mambo a kusapwila mambo awama? (Byu. 9:22-25, 29,
-  30; Mat. 10:16)\\n- Tanga Byubilo bya Batumwa 11:19-26.\\nNanchi byambo byanembwa
-  mu Byubilo bya Batumwa 11:19-21, 26 bimwesha byepi amba mupashi wa Yehoba ubena
-  kutangijila mwingilo wa kusapwila?\\n- Tanga Byubilo bya Batumwa 13:13-16, 42-52.\\nNga
-  Byubilo bya Batumwa 13:51, 52 bimwesha byepi amba baana ba bwanga kechi balefwilwe
-  na mambo a kwibamanyika ne? (Mat. 10:14; Byu. 18:6; 1 Pe. 4:14)\\n- Tanga Byubilo
-  bya Batumwa 14:1-6, 19-28.\\nNanchi byambo bya kuba\u2019mba \u201cbebafikizhe kwi
-  Nkambo\u201d byakonsha kwitukwasha byepi kupwisha bijikila biji byonse kimye kyo
-  tubena kukwasha bakatataka? (Byu. 14:21-23; 20:32; Yoa. 6:44)\\n- Tanga Byubilo
-  bya Batumwa 16:1-5.\\nNanchi Timoti byo aswile kutwela mu mukanda kimwesha byepi
-  buneme bwa kuba bintu \u201cbyonse na mambo a mambo awama.\u201d? (Byu. 16:3; 1
-  Ko. 9:23; 1 Tesa. 2:8)\\n- Tanga Byubilo bya Batumwa 18:1-11, 18-22.\\nNanchi Byubilo
-  bya Batumwa 18:9, 10 bimwesha byepi kutazha kwi Yesu byo evwangilemo mu kutangajila
-  mwingilo wa kusapwila, kabiji akye kyakonsha kwitupa \u00f1anyi luketekelo lelo
-  jino? (Mat. 28:20)\"", "\"1. Nibani bangatubuula inshila iyelelwe iya kupempelelamo
-  baLesa?\\nABA MAPEMPELO abengi balalabila ati balasambisha bucine pali baLesa. Pano
-  ifyo talipo efi bacita, ni pakuti tabasambishapo bucine pali baLesa ne nshila twelelwe
-  ukubapempelelamo. Tungeshiba shani inshila iyelelwe iya kupempelelamo baLesa? Ni
-  baYawe lukoso e bangatubuula inshila bafwaya ukubapempelelamo.\\n2. Mungeshiba shani
-  inshila iyelelwe iya kupempelelamo baYawe?\\n2 BaYawe balitupeele Baibolo pa kweba
-  ati tusambilile inshila iyelelwe iya kubapempelelamo. Popele, mulukusambilila Baibolo
-  kabili baYawe bakamofweniko ukubwenamo muli fyefyo basambisha ni pakuti balimubikileniko
-  akalango.\u2014Yisaya 48:17.\\n3. Findo baLesa bafwaya fwebo ukucita?\\n3 Abantu
-  bambi balalabila ati baLesa balapokelela ukupempela konse, pano ifyo talipo efi
-  baYesu basambishe. Kabalabila ati: \u201cAbakulabila kuli nebo ati: \u2018BaShikulu!
-  BaShikulu!\u2019 tabali bonse abakenjila mu Bufumu bwa Kwiulu, sombi benka abo abacita
-  koti kufwaya kwa baTata abakwiulu.\u201d Penka tulyelelwe ukusambilila ukufwaya
-  kwa baLesa ne kukucita. Ukucite\u2019fyo kucindeme ni pakuti baYesu baalipalenye
-  abakaana ukumfwila baLesa ku tupondo, \u2018abakucite\u2019fisendeme.\u2019\u2014Matayo
-  7:21-23.\\n4. Findo baYesu baalabiilepo pa lwa kucita ukufwaya kwa baLesa?\\n4 BaYesu
-  baalibuulishishe ati kani tulukufwaya ukucita ukufwaya kwa baLesa, tukapita mu fyakwesha.
-  Baalilabiile ati: \u201cIngileni pa mulyango uuce: pakuti umulyango uukulu ne nshila
-  iikulu iile mukupela ku konalwa; mopele umo emuya ne bantu abengi. Pakuti umulyango
-  uuce ne nshila iice iile mukupela ku mweo, sombi uyo ulabona abace.\u201d (Matayo
-  7:13, 14) Inshila iice, neli inshila ya kupempelelamo baLesa iyelelwe ilatwala ku
-  mweo wa muyayaya. Inshila iikulu, neli ukupempela baLesa mu nshila iitayelelwepo,
-  kulatwala ku mfwa. Pano baYawe tabafwayapo umuntu uuli onse ukufwa. Balipeele abantu
-  bonse ishuko lya kusambilila pali bo.\u20142 Petilo 3:9.\\nUKUPEMPELA BALESA MU
-  NSHILA IYELELWE\\n5. Mungeshiba shani abapempela baLesa mu nshila iyelelwe?\\n5
-  BaYesu baalilabiile ati tungabeshiba abapempela baLesa mu nshila iyelelwe. Tungacite\u2019fyo
-  ukupitila mu kwishiba ifi basumiinemo na fyefyo bacita. Kabalabila ati: \u201cMukabeshibila
-  ku fisepo fyabo.\u201d Kabalundapo ne kweba ati: \u201cImiti yonse iiweme ilekata
-  ifisepo ifiweme.\u201d (Matayo 7:16, 17) Ici tacalulapo ati abapempela baLesa mu
-  nshila iyelelwe bawaminine. Pano, lyonse balesha ukulukucita ifilungeme. Lomba nga
-  tusambilile ifingatofwako ukwishiba abapempela baLesa mu nshila iyelelwe.\\n6, 7.
-  Nindo ukupempela kwa cine kusambishisha ifili mu Baibolo? Kani findo tungasambililako
-  kuli fyefyo baYesu baalukwambula amalembo?\\n6 Tulyelelwe ukusambisha ifili mu Baibolo.
-  Baibolo ilalabila ati: \u201cAmalembo onse alunjikilwe afumine kuli baLesa alielelwe
-  ukusambisha, ne kucenjesha, ne kulunjika, ne kufunda ukulungeme: ati umuntu wa baLesa
-  akalukuli uwaminine, uukonshiwe lukoso ukulukucite\u2019milimo yonse iiweme.\u201d
-  (2 Timote 3:16, 17) Intangishi Paulu yalilembele ati: \u201cIli mwapokele kuli fwebo
-  ishiwi lya kumfwa ilya baLesa, mwalilipokelele koti lishiwi lya bantunshi teko,
-  sombi koti nififi ifi lili icine, lishiwi lya baLesa.\u201d (1 AbaTesalonike 2:13)
-  Ukupempela kwa cine kulasambisha lukoso ifi Baibolo isambisha. Takusambishapo ukulanguluka
-  kwa bantunshi, ifyakutantaka, neli fimbi lukoso.\\n7 Fyonse lukoso ifi baYesu baalukusambisha
-  fyalukufuma mu mashiwi abaLesa. (Pendeni Yoane 17:17.) Impindi ishingi baalukwambula
-  amalembo. (Matayo 4:4, 7, 10) Abapyungishi ba baLesa abacine balalonda icakubwenako
-  ca baYesu, kabili fyonse ifi basambisha filafuma mu Baibolo.\\n8. Findo baYesu basambishe
-  pa lwa kupempela baYawe?\\n8 Tulyelelwe ukupempela lukoso baYawe. Pa Amasamo 83:18
-  palalabila ati: \u201cMwe muli ne shina lya baYawe, Nimwe Bacilile lukoso na pa
-  calo conse.\u201d BaYesu baalukufwaya abantu ukwishiba baLesa bacine, kabili baalibasambishe
-  ishina lya baLesa. (Pendeni Yoane 17:6.) BaYesu baalilabiile ati: \u201cUlukucindika
-  ba Shikulu Lesa wobe, kabili ulukubapyungila bo benka!\u201d (Matayo 4:10) Popele
-  fwe bapyungishi ba baLesa tulalonda icakubwenako ca baYesu. Tulapempela lukoso baYawe,
-  tulapyungisha ishina lyabo, kabili tulasambisha bambi ishina lya baLesa eli na fyefyo
-  bakacitila abantunshi.\\n9, 10. Tulalangisha shani ubutemwe kuli bambi?\\n9 Tulyelelwe
-  ukutemwanshanya. BaYesu baalifundile abasambile babo ukutemwanshanya. (Pendeni Yoane
-  13:35.) Pa kulangisha ubutemwe tatwelelwepo ukulanguluka uku umuntu afumine, ifi
-  akulile neli kani mubile neli mupengele. Ubutemwe bulyelelwe ukutwikatanya koti
-  bana bankashi. (AbaKolosai 3:14) Popele tatwelelwepo ukuya ku nkondo ne kwipaya
-  abantu. Baibolo ilalabila ati: \u201cAbana ba baLesa ne bana ba musenseshi balibwenekele
-  muli fifi: ati abantu bonse utaacite\u2019filungeme taali wa kuli baLesa, neli ni
-  woyo utaatemwo\u2019mukwabo.\u201d Nakabili ililabiile ati: \u2018Tulyelelwe ukutemwanshanya:
-  ati tekucita koti ni fyefyo ifi acitile Kaini, uwali wa kuli yeyo-mbifi, ne kwipayo\u2019mukwabo.\u2019\u20141
-  Yoane 3:10-12; 4:20, 21.\\n10 Tulapyungisha impindi yesu, amakosa ne maboni, pa
-  kofwako ne kukoselesha bambi. (AbaEbeya 10:24, 25) \u2018Tulacite\u2019fiweme ku
-  bantu bonse.\u2019\u2014AbaGalatya 6:10.\\n11. Nindo twelelwe ukusuminina muli baYesu
-  ati enshila ya kupulukilamo?\\n11 Tulyelelwe ukumfwila baYesu ni pakuti bo e nshila
-  ya kupulukilamo. Baibolo ilalabila ati: \u201cMu bantu bambi bonse neli umo tamuli-po
-  ukupuluka; pakuti kabili panshi pano tapali-po ishina limbi iliilikilwe ku bantu
-  ilyelelwe fwebo ukupulukila-mo.\u201d (Ifyacitilwe 4:12) Mu Capitala 5 ica lilino
-  ibuuku, twalisambilile ati baYawe balitumine baYesu mu kufwila abantu abacumfwila.
-  (Matayo 20:28) BaYawe balisalulwile baYesu ukuba imfumu iikekalika icalo conse.
-  E mulandu Baibolo itubuulila ati tulyelelwe ukumfwila baYesu kani tulafwaya ati
-  tukabe ne mweo wa muyayaya.\u2014Pendeni Yoane 3:36.\\n12. Nindo tatulibikilamo
-  mu fya mapolitiki?\\n12 Tatwelelwepo ukulibiikamo mu fya mapolitiki. BaYesu tabaalukulibikamo
-  mu mapolitiki. Ili baalukweshiwa baalimubuulile Pilati imfumu ya baLoma ati: \u201cUbufumu
-  bwanji tabuli bwa mu calo cino ica panshi, koku.\u201d (Pendeni Yoane 18:36.) Tulatuntulula
-  baYesu, pa kupitilisha ukuba aba bucine ku Bufumu bwa baLesa ubwa kwiulu, e mulandu
-  tatulibikilamo mu fya mapolitiki nangaba neko tuli. Nangabe\u2019fyo, Baibolo ilatubuula
-  ukumfwila abekalikishi. (AbaLoma 13:1) Tulomfwila amafunde amu calo twikala. Pano
-  kani amafunde abekalikishi alukutubuula ukucita ifi baLesa bakenye, tulatuntulula
-  ifyalabiile intangishi ati: \u2018Tulyelelwe ukumfwila baLesa ukucila ukumfwila
-  abantu.\u2019\u2014Ifyacitilwe 5:29; Mako 12:17.\\n13. Findo tutulisha pa Bufumu
-  bwa baLesa?\\n13 Tulicetekele ati Ubufumu bwa baLesa e bukashilisha lukoso amakatasho
-  onse aali mu calo. BaYesu baalilabiile ati \u201cIcebo ici iciweme ica Bufumu,\u201d
-  cikatulishiwa mu calo conse. (Pendeni Matayo 24:14.) Takulipo ubwikalikishi bwa
-  bantunshi ubungacita ifi Ubufumu bwa baLesa bukatucitila. (Amasamo 146:3) BaYesu
-  baalitusambiishe ukutembelela Ubufumu bwa baLesa ili baalabiile ati: \u201cUbufumu
-  bwenu bwise. Ukufwaya kwenu kucitwe, panshi pano koti ni kwiulu.\u201d (Matayo 6:10)
-  Baibolo ilatubuula ati Ubufumu bwa baLesa bukonaala ubwikalikishi bwa bantunshi
-  \u2018nabo ubwine ne kwimakana inshiku shonse ishakulukuyayaya.\u2019\u2014Danyeli
-  2:44.\\n14. Mulukulanguka ati ni bani abapempela baLesa mu nshila iyelelwe?\\n14
-  Panuma ya kusambilila fyonse ifi, lipusheni ati: \u2018Nibani abasambisha ifili
-  mu Baibolo? Nibani abatulisha ishina lya baLesa kuli bambi? Nibani abalangisha ukutemwanshanya
-  kabili abacetekele ati baLesa baalitumine baYesu mu kutupulusha? Nibani aba tabalibikamo
-  mu fya mapolitiki? Nibani abatulisha ati Ubufumu bwa baLesa lukoso e bukashiliisha
-  amakatasho tupitamo?\u2019 Ukwakubula ne kukanika ni Bamboni sha baYawe.\u2014Yisaya
-  43:10-12.\\nFINDO MWEBO MUKACITAPO?\\n15. Findo twelelwe ukucita pakweba ati baLesa
-  bapokelele ukupempela kwesu?\\n15 Ukucetekela ati baLesa eko bali talipo e cipengelwa
-  lukoso. Ifibanda nafyo filicetekele ati baLesa eko bali, pano tafibomfwilapo. (Jakobo
-  2:19) Kani tulukufwaya baLesa ukupokelela ukupempela kwesu, tatwelelwepo ukucetekela
-  lukoso ati baLesa eko bali sombi tulyelelwe ne kucita ifi batubuula.\\n16. Nindo
-  twelelwe ukukaanina ukupempela kwa bufi?\\n16 Pakweba ati baLesa basumine ukupempela
-  kwesu tulyelelwe ukukaana ukupempela kwa bufi. Uwakushimika Yisaya alilembele ati:
-  \u201cMufume-mo mukati muli wo; mulisweshe.\u201d (Yisaya 52:11; 2 AbaKolinto 6:17)
-  E mulandu twelelwe ukukaanina fyonse ifikumine ukupempela kwa bufi.\\n17, 18. Kani
-  \u201cBabiloni Umukulu\u201d cindo, kabili nindo cicindamine ukufumamo bwangu muli
-  ye?\\n17 Kani ukupempela kwa bufi cindo? Kupempela ukuli konse ukusambisha abantu
-  ukupempela baLesa mu nshila iipusene na fyefyo Baibolo isambisha. Baibolo ileta
-  ukupempela konse ukwa bufi ati \u201cBabiloni Umukulu.\u201d (Ukufisulula 17:5)
-  Nindo kwitilwe\u2019fyo? Panuma ya Bulobe bwa menda ubwa mu mpindi yakwe Noa, ifisambisho
-  ifingi ifya mu kupempela kwa bufi fyalitatikile mu mushi uwalukwitwa ati Babiloni.
-  Ifyo ifisambisho fya bufi, fyalisalangene mu calo conse. Ku cakubwenako, abantu
-  abalukwikala mu mushi wa Babiloni baalukupempela bulesa butatu. Na pali ino mpindi,
-  amapempelo aengi alasambisha ati muli baLesa bamo muli batatu, pano Baibolo ilasambisha
-  apatubile ati kuli lukoso baLesa bacine bamo, baYawe kabili ati baYesu, bana baLesa.
-  (Yoane 17:3) Abaalukwikala mu mushi wa Babiloni baalisumiine ne kwaba ati kani umuntu
-  afwa kulaba cimo ici tacifwapo kabili ati cingapenshiwa mu mulilo. Ifyo talipo fya
-  cine.\u2014Boneni Ifyebo na Fimbi 14, 17, na 18.\\n18 BaLesa balishimikile ati bukumo
-  lukoso ukupempela kwa bufi konse ku konaalwa. (Ukufisulula 18:8) Kani mwaumfwisha
-  umulandu cicindamine ukufumamo bwangu mu kupempela kwa bufi? BaYawe Lesa balukufwaya
-  ati mufumemo bwangu ili impindi taingashila.\u2014Ukufisulula 18:4.\\n19. Kani mwasalululapo
-  ukupyungila baYawe, bakamofweniko shani?\\n19 Ili mwasalululapo ukufuma mu kupempela
-  kwa bufi ne kutatika ukupyungila baYawe, ababyenu ne ba mu cisoolo cenu bambi cipale
-  tekuti bomfwishepo umulandu mwasalulwilapo ukucite\u2019fyo, kabili bangatatika
-  ukumukatesheni. Pano baYawe bakalukuli na mwebo. Mukaba mu cisoolo ca mu calo conse
-  umuli amamilyoni abantu abatemwanshenye mucinenene kabili mukakwata ishuko lya kwikala
-  umuyayaya mu calo ca bukumo ica baLesa. (Mako 10:28-30) Na mukupelako, cipale ifibusa
-  fyenu ne ba mu cisoolo bambi abaalukumukanyeni ukupyungila baYawe, bangatatika ukusambilila
-  Baibolo.\\n20. Nindo cicindamine ukupempela baLesa mu nshila iyelelwe?\\n20 Bukumo
-  lukoso, baLesa bakafumyapo bumbifi bonse kabili Ubufumu bwabo bukekalika icalo conse.
-  (2 Petilo 3:9, 13) Mama ifi iyo mpindi ikawama! Bonse bakalupempela baYawe mu nshila
-  baYawe bafwaya. Popele, cicindeme kuli mwebo ukusalululapo lwenka luno ukulukupempela
-  baLesa mu nshila iyelelwe.\"", "\"Yesu padi mu Yelusalema ku masobo a Pashika ya
-  mu 30 Yesu ke mwiye, walonga biyukeno, nansha bingelengele bitulumukwa. Kino kibalengeja
-  bavule bamwitabije. Nikodema, Mufadiseo umo kadi i wa mu kidye kikatampe kya Bayuda
-  kitwa bu Sanedini watulumuka. Byasaka kuyukila\u2019ko bivule, wakamone Yesu bufuku,
-  padi i mwanda utyinanga bendeji bakwabo Bayuda bak\u014dna ntumbo yandi shi abamumone.\\nNikodema
-  wanena\u2019mba, \u201cA Labi, tuyukile amba abe wi mutambe kudi Leza bu mufundiji,
-  mwanda i kutupu muntu ukokeja kulonga bino biyukeno byolonga\u2019bi shi Leza kadipo
-  nandi.\u201d Yesu walondolola Nikodema amba, pa kutwela mu Bulopwe bwa Leza, muntu
-  ufwaninwe \u2018kubutulwa monka.\u2019\u2014Yoano 3:2, 3.\\nNikodema waipangula
-  amba Le muntu ubwanya kubutulwa monka namani? \u201cKakokejapo kutwela mu nd\u00e1
-  ya inandi musungu wa bubidi ne kubutulwa, mwene i amo?\u201d\u2014Yoano 3:4.\\nKubutulwa
-  monka ke kushintululapo nankyo. Yesu wamushintulwila amba: \u201cShi muntu kabutwilwepo
-  ku mema ne ku mushipiditu, kakokejapo kutwela mu Bulopwe bwa Leza.\u201d (Yoano
-  3:5) Yesu pa kubatyijibwa kadi mushipiditu ujila wat\u016bkila padi, ye po paabutwilwe
-  \u201cku mema ne ku mushipiditu.\u201d Pa kitatyi\u2019kya, kwadi ne binenwa bitamba
-  m\u016blu amba: \u201cUno\u2019u i wami Mwana, muswedibwe, ondoelelwe.\u201d (Mateo
-  3:16, 17) Mu uno muswelo, Leza walombola\u2019mba waikadija Yesu bu mwana wa ku
-  mushipiditu udi na kyepelo kya kutwela mu Bulopwe bwa m\u016blu. Mwenda mafuku,
-  mu Pentekosa 33 Yesu ke mwiye, mushipiditu ujila usa kupungulwilwa bantu basa kubatyijibwa
-  amba nabo babutulwe monka bu bana ba Leza ba ku mushipiditu.\u2014Bilongwa 2:1-4.\\nNikodema
-  kevwanijepo bimufundija Yesu pa mwanda utala Bulopwe. O mwanda Yesu wamusapwila\u2019ko
-  myanda mikwabo ya mwingilo wandi wa pa bula wa bu Mwana wa Leza pano panshi. Yesu
-  wanena\u2019mba: \u201cKadi monka mw\u0101tulwidile Mosesa nyoka mu ntanda mutuputupu,
-  ne Mwan\u0101 muntu nandi ufwaninwe kutululwa\u2019nka nabya, amba ense umwitabija
-  amone b\u016bmi bwa nyeke.\u201d\u2014Yoano 3:14, 15.\\nMafuku kunyuma, bene Isalela
-  b\u0101suminwe na banyoka ba bulembe, b\u0101di bafwaninwe kutala nyoka wa mukuba
-  pa kusaka kupanda. (Umbadilo 21:9) Bantu bonso nabo mo monka, bafwaninwe kulombola
-  lwitabijo mudi Mwan\u0101 Leza pa kusaka kunyongololwa ku ngikadilo yabo ya lufu
-  mwanda wa bamone b\u016bmi bwa nyeke. Pa kulombola buswe bulombwele Yehova mu ino
-  mpango, Yesu wasapwila Nikodema amba: \u201cLeza byaasenswe ino ntanda bikatampe
-  mpata, wap\u0113ne wandi Mwana wa bunka, amba ense ulombola lwitabijo mudi aye kakyonakanibwa,
-  ino amone b\u016bmi bwa nyeke.\u201d (Yoano 3:16) I enka muno mu Yelusalema mwalombwele
-  Yesu myeji isamba kupwa kwa kushilula mwingilo wandi amba aye dyo dishinda ya kupandila\u2019mo
-  bantu.\\nYesu wasapwila Nikodema amba: \u201cLeza katuminepo wandi Mwana mu ino
-  ntanda mwanda wa kutyibila ino ntanda mambo.\u201d Ko kunena\u2019mba kamutuminepo
-  mwanda wa kuponeja ntanda na nshikani, nansha kutyibila bantu lufu. Ino Yesu wanena\u2019mba
-  i mutumwe \u201cmwanda wa kupandija ino ntanda kupityila kudi aye.\u201d\u2014Yoano
-  3:17.\\nNikodema waiyanga na moyo kudi Yesu bufuku. O mwanda i kyendele\u2019mo
-  Yesu afudije m\u012bsambo yobesamba nandi na bino binenwa amba: Yoano 3:19-21.\\n\u201cPano
-  po pene pemanine butyibi: amba kit\u014dkeji kyaile mu ino ntanda, ino bantu basanswa\u2019ko
-  fukutu kupita\u2019ko kit\u014dkeji, mwanda mingilo yabo yadi mibi. Mwanda yewa
-  ense ulongalonga bintu bibi ushikilwe kit\u014dkeji kadi k\u0101yangapo ku kit\u014dkeji,
-  kutyina\u2019mba mingilo yandi yakatopekwa. Ino yewa ense ulonga bya bine wiyanga
-  ku kit\u014dkeji, mwanda wa mingilo yandi isokokele pat\u014dka\u2019mba ingilwanga
-  umbumo na Leza.\u201d\u2014Pano ke aye mwine Nikodema, Mufadiseo kadi mufundiji
-  mu Isalela alangulukile pa byaaivwana pa mwingilo wa Yesu mu mpango ya Leza.\"",
-  "\"2\\n1 Alimwi kulindinywe, mwakalifwide mumilandu yenu azibi. 2 Mwakali kupona
-  kwindila kumuzuluzi wamulawu wamuuya, muuya oyo ulikubeleka mubana batakwe lulayo.
-  3 Eelyo toonse twalikupona akati kabantu aba, kuzuzikizya makanze asiluuni wamibili
-  yesu, akubweza makanze eenyama alimwi amiyeyo. Twakali kwindilila mubwiime bwabana
-  babukali, mbuli bumwi bwabuntu. Twakali abuntu bwabwana babisya mbuli kuchita bamwi.
-  4 Pesi Leza ulabuvubi muluzyalo nkambo kaluyando lwakwe lupati oolo ndwakatuyandisya
-  swe. 5 Nikuba twakalifwide mumilandu, wakatuchita bawumi antomwe muli Kkilisito
-  aluzyalo mwakafutulwa. 6 Leza wakatubusya antomwe a Kkilisito, alimwi Leza wakatuchita
-  kuti tukkale a Kkilisitu, alimwi Leza wakatuchita kuti tukkale antomwe mumyenya
-  yakujulu muli Kkilisitu Jesu. 7 Kuchitila kuti muminyaka iza akatondezya kulindiswe
-  kulindiswe buvubi bwakwe bupati buteleki kwa luzyalo lwakwe lutondezegwe mulwetelelo
-  lwakwe kulindiswe muli Kkilisitu Jesu. 8 Nkambo a luzyalo mwakafutulwa kwindila
-  mulusyomo, alimwi echi techakazwa kulindinywe, nchipo cha Leza. 9 Pepe kuzwa kumilimo,
-  kuchitila kuti takwe atakali kankayizye. 10 Nkambo tuli basimilimo ba Leza, bakalongezegwa
-  muli Kkilisito Jesu kukuchita milimu mibotu eyo Leza njakatubambila kalekale, kuchitila
-  kuti tukeende mulinjiiyo. 11 Nkiinkako amuyeeye kuti bamaasi munyama mwiitwa kuti
-  \u201cchitapalwidwe\u201d acheecho chitegwa a \u201ckupalulwa.. munyama chakuchitwa
-  amaboko amuntu. 12 Nkambo kachecho chiindi mwakalanzanisizigwe kuli Kkilisitu kamuli
-  bazwakule kuchisi chamu Izilayeli, batuba kuzizuminano zyachisyomezyo, kamutakwe
-  bulangizi alimwi nkakutakwe Leza munyika. 13 Pele lino muli Kkilisitu Jesu inywe
-  nimwakali kule loko kuzwa kuli Leza mwakaboozegwa afwifwi kwindila mugaze lya Kkilisitu.
-  14 Nkambo ngonguwe lumuuno lwesu. Wakachita kuti kubili baabe umwi. Kwinda kunyama
-  yakwe wakanyonyoona bulambo bwankoondo bwakatwanzanisizye. 15 Nkinkako, wakalobya
-  mulawu wamilawu amalayilile kuchitila kuti alenge muntu omwe mupya mulinguwe, nkokuti
-  kube lumuuno. 16 Kkilisito wakababoozya amwi bantu bobile mumubili omwe kuli Leza
-  kwinda muchiingano, kukujaya nkondo yakali akati kabo. 17 Jesu wakasika akukambawuka
-  makani mabotu aluumuno kulindinywe nimwakali kule alumuno kuli aabo bakali afwifwi.
-  18 Eelyo kwindilila muli Jesu toonse mutujana luswano mumuuya omwe kuli Taata. 19
-  Nkambo kaako, lino inywe nobamaasi tamuchili batuuba amazwakule pe. Nkokuti muli
-  benyika yomwe abantu ba Leza basalala abantu bamung''anda ya Leza. 20 Chamba kuti
-  mwakayakilwa entalisyo yabatumwa abasinsim, alimwi Kkilisito Jesu lwakwe ngonguwe
-  bbwe lyachooko. 21 Mulinguwe ing''anda yoonse ikkwana oobotu antoomwe alimwikikkomena
-  kabotu mbuuli tempele iisalala mu Mwami. 22 Mulinguwe omo mumulikuyakwa kabiyo antomwe
-  mbuli chikkalilo cha-Jesu mu Muuya.\"", "\"KUNYINA Bbaibbele nolitwaambila buzuba
-  Jesu naakazyalwa. Nokuba boobo, litupa twaambo tugwasya kuzyiba kuti tanaakazyalwa
-  mu December pe.\\nAmulange-lange mbozyibede zintu kujatikizya mbobuca aciindi camwaka
-  eeco ku Betelehemu nkwaakazyalilwa Jesu. Imwezi waba Juda wa Chislev (iweendelana
-  a November/December) wakali mwezi nokutontola alimwi nokwakali kuwa mvwula. Imwezi
-  wakali kutobela yooyu wakali wa Tebeth (December/January). Mumwezi ooyu nokwakali
-  kutontola kapati mumwaka, mumasena aali mumalundu mwakali kuba acaanda zimwi ziindi.
-  Atulange-lange ncolitwaambila Bbaibbele kujatikizya bweende bwaziindi zyamwaka kubusena
-  oobo.\\nImulembi wa Bbaibbele Ezara utondezya kuti mwezi wa Chislev mmasimpe wakali
-  mwezi wakazyibidwe kapati kuti wakali kutontola cini-cini alimwi kwakali kuwa amvwula.
-  Naazwa akwaamba kuti nkamu yabantu yakabungana mu Jerusalemu \u201cmubuzuba bwamakumi
-  obile bwamwezi wamusanu aine\u201d nkokuti wa Chislev, Ezara uluula kuti bantu bakalikkede
-  \u201cbalakankama\u2026akaambo kamvula.\u201d Akaambo kambobuca aciindi camwaka
-  eeci, ibantu bakabungene beni bakati: \u201cNciindi camvula. Tatukonzyi kwiima anze.\u201d
-  (Ezara 10:9, 13; Jeremiya 36:22) Aboobo tacigambyi pe kuti beembeli bakali kukkala
-  mubusena ooko nkwaakazyalilwa Jesu bakabona kuti balo antoomwe amatanga aabo tiibakacili
-  kucezezya anze imasiku mumwezi wa December!\\nJesu naakazyalwa, ibeembeli amatanga
-  aabo bakali musyokwe kulutanga imasiku\\nPele Bbaibbele lyaamba kuti beembeli bakali
-  musyokwe kabeembela matanga aabo imasiku buzuba naakazyalwa Jesu. Mubwini, sikulemba
-  Bbaibbele Luka utondezya kuti aciindi eeco, beembeli \u201cbakali musokwe, beembela
-  butanga bwabo masiku\u201d munsi lya Betelehemu. (Luka 2:8-12) Amubone kuti beembeli
-  mubwini bakali kukkala musyokwe kulutanga, tiibakali kweendeenda buyo anze masikati
-  pe. Imatanga aabo akali musyokwe kulutanga imasiku. Sena bupanduluzi oobo bwakukkala
-  anze buleendelana akutontola alimwi amvwula iiliko ku Betelehemu mu December? Takweendelani
-  pe. Aboobo izyakacitika aciindi cakuzyalwa kwa Jesu zitondezya kuti tanaakazyalwa
-  mu December pe.*\\nIjwi lya Leza lilatwaambila buzuba bwini Jesu naakafwa, pele
-  kunyina makani manji alimwi aagaminide ngolijisi kujatikizya buzuba mbwaakazyalwa.
-  Eeci cituyeezya majwi aa Mwami Solomoni aakuti: \u201cIzina ibotu ndibotu kwiinda
-  muunde, abuzuba bwakufwa mbubotu kwiinda buzuba bwakuzyalwa.\u201d (Mukambausi 7:1)
-  Aboobo tacigambyi pe kuti Bbaibbele lipa makani manji aagaminide kujatikizya mulimo
-  alufwu lwa Jesu, pele lipa buyo masyoonto kujatikizya buzuba mbwaakazyalwa.\\n*
-  Ikutegwa mujane makani aambi, amubone makani aali apeeji 239-42 mubbuku lya Kukambitsirana
-  za m\u2019Malemba ilyakamwaigwa a Bakamboni ba Jehova.\"", "\"Kutandika mpiti, Yeova
-  akaalonda ukuti cila-lupwa lwasyako insita yakukolongana pamwi, kuti yakomelezyanya
-  nu kwazwana pakuti yaye ya cuza yakwe Leza sana. (Amalango 6:6, 7) Ali mulandu uno
-  ya Nte Yakwe Yeova yakasiilako insita cila-mulungu pakuti yapepela Leza pamwi umu
-  lupwa\u2014pali pano yakalanzyanya vyakwe Leza kulingana na vino ulupwa lufwile
-  ukuombelapo. Nanti cakuti mwemo mukaikala sile mwenga, mungaomvya insita iyo uku
-  kuwelenga sana nu kusambilila ivingi pa malyasi amuli Baibolo nu kulapepa kuli Leza.\\nKupepa
-  Leza umu nzila ii kuka-avwa ukuya sana ya cuza yakwe Yeova. Baibolo ikati: \u201cMupalame
-  kuli Leza, nga nawe amapalama kuno muli.\u201d (Yakobo 4:8) Pa kumanya sana Yeova,
-  tufwile ukusambilila sana Baibolo pa kuti tuvwikisye ivingi pali vino waya na vino
-  akacita ivintu. Inzila imwi iyangupale ino mungaomvya pa kuti mwapepa Leza capamwi
-  mu lupwa, u kuwelenga Baibolo pamwi; limwi mungaalondela vino yakatantika cila-mulungu
-  umwisukulu lya Mulimo Wakwe Leza. Munga-ankana ivikomo vya kuwelenga umu Baibolo
-  nga alino imulanzyanya vino muvwa umu Malembelo yayo.\\nKuka-avwa amu lupwa ukutemwana
-  sana. Ya iya na aci, alino na avyazi na ana yao yakauvwana sana ndi cakuti yakasambilila
-  pamwi Baibolo. Kupepa kuu kulinzile ukuleta uluzango, nu mutende, nupya amu lupwa
-  yalinzile ukumvwa ningo ndi uwanda wakupepa wafika. Avyazi yangaalonda ivyeo vya
-  kulanzyanya kulingana ni misinku ya ana yao; nga yakulonda, yangaomvya malyasi amu
-  Ulupungu lwa kwa Kalinda nanti Loleni! Limwi mungalanda pa ntazi izikaizila ana
-  ndi yali uku sukulu, na vino yangacimvya intazi zizyo. Nupya mungaaipakizya nu kwimbila
-  pamwi injimbo zino tuliimba apa kulongana, nanti sile ukwikapo nu twakulya lino
-  mwamala ukupepa kuko.\\nUkukwata insita ii iyakupepa Yeova capamwi, kulazwa yonsi
-  amu lupwa ukutemwa sana Izwi Lyakwe Leza, nakupya mulapolelelwa cuze.\u2014Masamu
-  1:1-3.\\nU mulandu ci uno tukasiilako insita ya kupepa Leza capamwi umu lupwa?\\nUzye
-  avyazi yangacita uli pakuti yonsi umu lupwa yauvwa ningo lino yakupepa Leza capamwi?\"",
-  "\"Ezila watandike ukuipekanya ukuswilila uku Yelusalemu\\n7:6, 22; 8:26, 27\\nUmwene
-  Alitakisesi wazumilizye Ezila ukuti aswilile uku Yelusalemu pakuti akatwalilile
-  ukupepa Yeova\\nUmwene Alitakisesi wapeezile Ezila \u201cvyonsi vino wene walenzile\u201d
-  ivyali nu kuomviwa uku ng\u2019anda yakwe Yeova; zaabu, siluva, waini, mafuta nu
-  musilya, nupya ndakai impiya izingaomviwa ukukala ivintu vii vyonsi zingacila pali
-  100 milyoni (impiya izya ku America)\\nEzila wataile ukuti Yeova wali nu kucingilila
-  aomvi Yakwe\\n7:13; 8:21-23\\nCali citale sana ukuswilila uku Yelusalemu\\nCikaloleka
-  kwati museo uno yaapisilemo wali makilomita 1,600, nupya wapisile umu mpanga umwali
-  sana mazanzo\\nUlendo wao wasenzile mupipi ni myezi 4\\nYonsi aaswilile yaalondekanga
-  ukuya nu utailo ukome, ukuya acincile umu kupepa kwa cumi, alino nu kusipa\\nIVINTU
-  VINO EZILA WAPISILE NAVYO . . .\\nGoldi na siluva vino vyafinyile matalanti 750
-  nanti Ivingalingana nu kufina kwa nzovu izyakalume zitatu izikulu!\\nINTAZI ZINO
-  ANTU ASWILILANGA YAKWETI . . .\\nMuno yaapitanga mwali ivipondo ivingayakoma, ivilyanyi
-  vya mu mpanga nupya mwali umu lwanga ulwipisye\"", "\"Ndakanyampula bbuku lya Edwin
-  Lutzer, One Minute After You Die, mpoonya ndakatalika kubala Caandaano Cipati catatu
-  camutwe wakuti: \u201cThe Ascent into Glory.\u201d\\nMajwi aakwe akali kutelemuka
-  cakukondelezya, pele akali kupapa akakununkila mbuli musinza uusaside. Ino ncinzi
-  cini ncendaamba aawa?\\nLutzer, pe maawe, ooyu muntu uulengelezya zyabempelenge.
-  Mpeenyaawo Mangwalo ayubununa bbuku lyakwe lya mutwe wakuti, One Minute After You
-  Die, kuti ndya lweeno. Busanduluzi buli mu caandaano citaanzi acabili manyongwe
-  aalo alo, pe ma atuye ku caandaano catatu, oomo tujana ba Lutzer bacizumana kusendekezya
-  twaambo twakupunga tuzyila mulwiiyo lwa Plato!\\nAndigumegume aasyoonto buyo makani
-  aali mu Caandaano catatu. A peeji 55, uguminizya 1 Bakolinto 3:21-23: \u201czintu
-  zyoonse nzizyenu, alimwi inywe muli ba Messiah Yahuwah,\u201d kumwi kaamba kuti
-  lufu ncipego cesu cizwa kuli Yahuwah. Icintu ncatabwene nciceeco cileba bantu aabo
-  basyoma baleza botatwe (akataa zinji zimwi). Eeci cibalo cilasalazya kuyubununa
-  mbwalitolaansi Yahushua, Messiah, kuli Yahuwah. Mbwaanga lusyomo lwa baleza botatwe
-  lusendekezya kuti Yahushua ngu Yahuwah, aabo basyoma muli baleza botatwe mumakani
-  aaya tabakonzyi kupandulula Yahuwah mbwanga walitolaansi kuli Lwakwe mwini Yahuwah.
-  Icibalo cilamaninizya kuti, \u201cyebo uzulilwa kuli Messiah, alimwi Messiah uzulilwa
-  kuli Yahuwah.\u201d\\nA peeji 56 Lutzer alimwi ulaliguunkula naamba kuti, aabo batakombi
-  Leza tabakonzyi kunyanga Banakristu cipego ca lufu eeco cinga cabasindikizya kuyoosikila
-  mpabede Yahuwah. Yebo inga wayanda kumutumina kagwalo ooyu Mwaalumi. E.R. Lutzer
-  ujisi mulongo wa tumpango twaambilizya \u201clufu\u201d tutondezya kuti teesyi mbocibede
-  oobo pe. Kunyina pe naba omwe wakafwa akusindikilwa kuyoosika mpabede Yahuwah. Tacikonzyi
-  kucitika eeci kusikila akuboola kwabili kwa Yahushua Messiah akubuka kuzwa kulufu.
-  Ime inga ndamwiibalusya Lutzer ooyu majwi ookwa Paulu mwini: \u201cMunzila eeyi
-  [ya kubuka kuzwa kubafu nokuba kwiimpuka kuyoocingauzya Yahushua akuboola kwakwe]
-  tuyooboola kuzyooba aa Yahushua\u201d (1 Batesalonika. 4:13-17).\\nAnselelo lya
-  peeji 56, mulembi wesu utusomba muzeezo wakwe ooyu: \u201cMbweenya oobo, lufu mbwiili
-  nzila eeyo imibili yesu mbwiilyookezya eelyo miya yesu niisindikilwa kuyoonjila
-  mumilyango ya kujulu.\u201d Nguni uusindikilwa aabani? Kondipa mpokulembedwe mu
-  Bbaibbele kuti. \u201cMiya yesu ilasindikilwa\u201d kuya kujulu aciindi cakufwa?
-  Kuti muntu wafwa, akwalo kuswaangana akataa muya a mubili kulafwidilizya antoomwe;
-  muya amubili nuucisangene antoomwe ulakonzya kufwa. Ba Giliki baciindi ca (Plato)
-  bakayiisya kuti mubili tuukwe mulimo aboobo lufu lugwasyilizya muya kuti ulisamunune
-  ciwa ca mubili akuuluka kuyoopona lyoonse buumi bwawo kuuli ulikke. Banakristu batunsiyansiya
-  aabo bakayiya Giliki, kaayindide mazuba aa Bbaibbele, bakazuminizya kuti muzimo
-  wiingaila ulaa busena nkuugama: ategwa mizimo mibotu iya kujulu (kutala lyookuya),
-  mpoonya mizimo mibyaabi iya mubwina musiya mbi bwa Cuumbwe nokuba Mumulilo uutazimwi.
-  Mubwini, nokuba boobo, Mangwalo aamba kuti mubili amuya uukonzya kufwa, muntu woonse
-  mbwazulwa, ulalyookezya nokuba koona mu lufu (Daniyele. 12:2) kusikila akubuka kuzwa
-  kulufu akuboola kwa Yahushua ciindi waakumvwika kusiba mweembo wa ciloba, kutali
-  aciindi cimbi kacinatasika ciindi eeco pe (Ciyubunuzyo. 11:15-18). Oolu lwiiyo lwakuunina
-  lwabu Giliki, lino ndobasumpauzya bunji bwa Banakristu, kapati Bakatolika aba Calvini,
-  muzeezo uulubide cinicini wakaanzwa mubucenjezu cakuti wakaba \u201clusyomo mu lwiiyo
-  lwa buleza\u201d mucuulu camyaka yainda.\\nMucibalo nceenya eeci ca bbuku lyakwe,
-  Lutzer waamba kuti \u201cmiya\u201d yesu ilasindikilwa kuya kujulu. Pele ooku nkutamvwisyisya
-  kuleta kuyeeyela kuti muntu ucilaa buumi bumbi akuti ucipona kujulu. Masimpe kuti
-  aciindi cakuzyalwa Yahuwah utumizya muya Wakwe kuzyootalisya buumi mu mwana. Ooyo
-  muya wa Yahuwah ulakkala mumuntu kusikila wafwa. Ooyo muya tuukwe ciwa nokuba mbuulangika,
-  pele Yahuwah ulawutola alimwi, eelyo buumi bwasika kumasimpilo. Mboobu bumboni:
-  \u201cNguni uuzyi muya wamuntu wiimpuka kuya mujulu, amuya wa munyama uuya ansi
-  mubulongo\u201d (Mukambausi. 3:21). \u201cBulongo buyoojokela kubulongo mbweenya
-  mbubwaabede: alimwi muya uyoopiluka kuli Yahuwah ooyo wakuupede\u201d (Mukambausi.
-  12:7). Mpeenya aawo \u201cbafwide kunyina pe ncobazyi nociceya...Taakwe cicitigwa
-  munyika yabafwide [mucuumbwe, muli shilo, Hadesi]\u201d (Mukambausi. 9:5, 10). Kubuka
-  kuzwa kulufu kulikke njenzila yakuzwa mu lufu (Johane 11:11, 14)!\\nEeci cibalo
-  citali ca-WLC cakalembwa aaba Wayne Stallsmith.\\nTwakagwisya mucibalo citaanzi
-  mazina aabakomba mituni ngobayita Taata a Mwana, akubikka mucibaka cangawo mazina
-  mataanzi ngubaapedwe. Kuyungizya waawo twakajokolosya mutumpango ntotulembulude
-  akubikka mazina as Taata a Mwana, mbuli mbwaakalembedwe kutaanguna abalembi bamu
-  Bbaibbele bakayoyelwa moza. Nkamu ya-WLC\"", "\"Kwamba Maningi: Mutayeyangeti mulandikinga
-  kupandulula byonse. Yesu walasebensesha mipusho kwambeti anyamfwe bantu kuliyeyela
-  bonka nekucana mukumbulo welela. (Mat. 17:24-27) Mipusho ikute kupangisha ciyo kuba
-  caininisha kayi nekumunyamfwa kubona mpwakuma shikwiya wenu. (be-CN 253 mapal. 3-4)
-  Mwepusha mwipusho, mulandikinga kwikalika moyo nekupembela mukumbulo. Naa shikwiya
-  wenu lakumbulu mukumbulo wabula kwelela, mucindi cakumwambila mukumbulo welela,
-  mulandikinga kumunyamfwa kucana mukumbulo welela mwakumwipusha mipusho. (be-CN 238
-  mapal. 1-2) Mwambenga munshila yelakunyamfwa shikwiya kwambeti anyumfwishishe mbyomulambanga.\u2014be-CN
-  230 pal. 4.\\nKwipanga Yashupa Maningi: Nkamulandikinga kwamba byonse mbyomwinshi
-  pankaniyo. (Yoh 16:12) Ambani owa pabikomo binene bili mupalagilafu. (be-CN 226
-  mapal. 4-5) Bikomo nabimo olo byaina ingabilubyanya inkani. (be-CN 235 pal. 3) Bikomo
-  binene-binene byanyumfwika kuli shikwiya Baibolo wenu, yani mupalagilafu naimbi.\\nNteko
-  Kubelengowa Byalembwa: Cilandikinga nikushika pamoyo washikwiya, nteko kubelengowa
-  byalembwa. (Luka 24:32) Sebenseshani ngofu sha Maswi a Lesa mwakubikila mano pamalemba
-  ekatana maningi neciyo. (2 Akor. 10:4; Aheb. 4:12; be-CN. 144 mapal. 1-3) Sebenseshani
-  byakubonenako bitashupu kunyumfwa. (be-CN 245 mapal. 2-4) Mulandikinga kumwinshiba
-  cena shikwiya Baibolo wenu nembyashomamo, muyisheni kwelana nencabele. Ipushani
-  mipusho mbuli iyi: \u201cInga mwanyufunga aconi pabintu mbyomuleyinga pano?\u201d
-  \u201cInga bilatuyishinga cani pali Yehova?\u201d \u201cInga nipindu cini njomulacana
-  pakusebensesha kufunda uku?\u201d\u2014be-CN 238 mapal. 3-5; 259 pal. 1\"", "\"\u2018Ubulongosi
-  bwa bangi\u2019 bukutula.\u2014Isya Mbupingamu 20:18\\nTwesa tukulondiwa indalama
-  ukuti situtule m\u2019nyumba syitu. (Isya Mbupingamu 30:8) \u201cIkyuma kibaghile
-  ukukupa ulutengano,\u201d pamo ukubafighilila. (Undumbilili 7:12) Mu bweghi, inkhani
-  ya muno mubaghile ubombela ni ndalama syinu yikutamya fiyo. Mungitikagha ukuti inkhani
-  ya ndalama yitwale indamyo m\u2019nyumba yinu. (Baefesi 4:32) Abeghi bakulondiwa
-  ukuti basubilaneghe kangi batulaneghe muno babaghile ukubombela ni ndalama syabo.\\n1
-  MUYEGHE NI PULANI\\nISI IBAIBOLO LIKUYOBA: \u2018Yo aliku uyu bo akulonda ukuyenga
-  inyumba atikupima untengo ukuti akete linga ali nafyo ifya kumalikisya.\u2019 (Luka
-  14:28) Upanga ipulani pampene muno mukuya pakubombela indalama kubaghile ukubatula.
-  (Amosi 3:3) Muyobesanieghe ifi mukulonda ukula ni ndalama isi mukuya pakulila. (Isya
-  Mbupingamu 31:16) Ukula ifindu nongwa yakuti muli ni ndalama syakuti mubaghile ukulila
-  kutaya kanunu. Mungasubilagha ukukopa indalama pamo ifi mukulonda. Muleghe ifyakukwana
-  nindalama syinu.\u2014Isya Mbupingamu 21:5; 22:7.\\nISI MUBAGHILE UKUBOMBA:\\nLinga
-  musyaghile indalama, muyobesanieghe ifi mukulonda ukubombela\\nLinga muli ni ndalama
-  nandi pamo dono, muchepesya ifyakula. Lumo mubaghile ukupiya mwibene ifyakulya m\u2019malo
-  mwakula ifipiye\\n2 MUYEGHE BABWANALOLI\\nISI IBAIBOLO LIKUYOBA: \u2018Namanga tukulonda
-  ukubomba isya bugholofu kwa Yehova na ku bandu.\u2019 (2 Bakorinti 8:21) Unkasi
-  winu pamo undume winu amanyeghe indalama isi mukukaba na isi mukonanga.\\nAkabalilo
-  kosa muyobesanieghe linga pali fimo ifi mukulonda ukubomba nindalama syinu. (Isya
-  Mbupingamu 13:10) Mukuya nulutengano linga mukuyobesania muno mukubombela indalama.
-  Indalama isi mukukaba siyeghe syinu mwesa.\u20141 Timoti 5:8.\\nISI MUBAGHILE UKUBOMBA:\\nMupangane
-  ubwingi bwa ndalama isi aliwesa abaghile ukubombela kwambula kuyobesania tasi\\nUkuti
-  muyobesanie isya ndalama mungalindililagha ukuti indamyo yiboneke tasi\"", "\"1.
-  Mambo ka masongola a mwayila mizhilo kyo aletela lusekelo?\\nMambo awama afuma kwi
-  Yehoba, Lesa wa lusekelo ukeba bisemi byonse kwikala na lusekelo. (1 Timoti 1:11)
-  Lesa ye watendekeshe masongola. Masongola a mwayila mizhilo aleta lusekelo mambo
-  ne baana bakoma bulongo.\\nLesa umona byepi masongola? Ukeba\u2019mba bamulume ne
-  mukazhi bekale mu masongola abo kikupu. Bena Kilishitu bafwainwa kunembesha masongola
-  abo mwayila mizhilo ya kobekela. (Luka 2:1, 4, 5) Lesa ukeba bamulume ne mukazhi
-  kwikala bakishinka mu masongola. (Bahebelu 13:4) Washikwa kwikana. (Malakai 2:16)
-  Yehoba waswishatu bena Kilishitu kwikana ne kusongola nangwa kusongolwa ku muntu
-  mukwabo inge umo wauba bukende.\u2014Tangai Mateo 19:3-6, 9.\\n2. Bamulume ne mukazhi
-  bafwainwa kwikalanga byepi?\\nYehoba walengele banabalume ne banabakazhi kuba\u2019mba
-  bakekwashenga mu masongola. (Ntendekelo 2:18) Mwanamulume byo aji mutwe wa kisemi,
-  wafwainwa kukebela ba mu nzubo yanji bikebwa ne kwibafunjisha pe Lesa. Wafwainwa
-  kutemwa mukazhanji na muchima yense. Bamulume ne mukazhi bafwainwa kwitemwa ne kwinemeka.
-  Byo kiji kuba\u2019mba bamulume ne mukazhi bonse bambulwa kulumbuluka, bafwainwa
-  kwilekelangako mambo pa kuba\u2019mba bekale na lusekelo mu masongola abo.\u2014Tangai
-  Efisesa 4:31, 32; 5:22-25, 33; 1 Petelo 3:7.\\n3. Umvwe kechi mwikala bulongo ne,
-  nanchi mwafwainwa kunyema mukwenu wa mu masongola nyi?\\nUmvwe muji na makatazho
-  mu masongola enu, ibikaiko kwimwesha butemwe. (1 Kolinda 13:4, 5) Mambo a Lesa kechi
-  atundaika kwabana amba ko kupwisha makatazho avula aji mu masongola ne.\u2014Tangai
-  1 Kolinda 7:10-13.\\n4. Anweba baana, nanchi Lesa ukeba\u2019mba mwikalenga byepi?\\nYehoba
-  ukeba\u2019mba mwikalenga na lusekelo. Wimupa mafunde awama o mwakonsha kulondela
-  pa kuba\u2019mba mwikale na lusekelo mu bwanyike bwenu. Ukeba\u2019mba mumwenemo
-  mu maana ne mu bintu byapitamo bansemi benu. (Kolose 3:20) Yehoba, Mulenga wa bintu
-  byonse pamo ne Mwananji bakeba anweba kwikala na lusekelo kimye kyo mubena kumwingijila.\u2014Tangai
-  Musapwishi 11:9\u201312:1; Mateo 19:13-15; 21:15, 16.\\n5. Anweba bansemi, mwafwainwa
-  kuba byepi pa kuba\u2019mba baana benu bekalenga na lusekelo?\\nMwafwainwa kwingilanga
-  na ngovu kukebela baana benu kajo, mwakulaala, ne bivwalo. (1 Timoti 5:8) Pano bino
-  pa kuba\u2019mba baana benu bekale na lusekelo, mwafwainwa ne kwibafunjisha kutemwa
-  Lesa ne kufunda kwi aye. (Efisesa 6:4) Umvwe mwaikala bakumwenako bawama mu kutemwa
-  Lesa mwakonsha kukwasha baana benu nabo kutemwa Lesa. Umvwe mafunde enu keafume
-  mu Mambo a Lesa, akonsha kukwasha baana benu kwikala na ndangulukilo yawama.\u2014Tangai
-  Mpitulukilo ya mu mizhilo 6:4-7; Byambo bya Mana 22:6.\\nBaana bomvwa bingi bulongo
-  inge mwibatundaika ne kwibatakaika. Kabiji bakeba kwibololako ne kwibajimuna. Kwibafunjisha
-  mu jino jishinda kukebazhikijila ku byubilo byakonsha kwibapwishisha lusekelo. (Byambo
-  bya Mana 22:15) Pano bino, pa kwibajimunako kechi mwafwainwa kwibashintaukilanga
-  ne.\u2014Tangai Kolose 3:21.\\nBakamonyi ba kwa Yehoba banemba mabuku avula, kikatakata
-  akukwasha bansemi ne baana. Ano mabuku aimena pa Baibolo.\u2014Tangai Salamo 19:7,
-  11.\"", "\"Sa shintu pa cishi . . .\\nshinanoobabo bweenka bulya?\\nshilaakubicilaako?\\nshilaakubota?\\nBAIBO
-  ILAAMBA AYI\\n\u201cLesa. . . ulaakubakunkumuna minsonshi yoonse. Lufu teshi lukabeeko
-  alimwi. Teshi kukabe buumba, kulila nabi kunyumfwa kucisa mukwiinga shikulukulu
-  shoonse shashimingana.\u201d\u2014Ciyubululo 21:3, 4, The Bible in Lenje.\\nMBWEENGA
-  MWACAFWIKWA NA MWASHIBA AYI SHINTU SHILAAKUBOTA\\nMulaakuba amilimo isangalasha.\u2014Isaya
-  65:21-23.\\nTeshi mukanoociswa nabi kuba amapensho ali oonse.\u2014Isaya 25:8; 33:24.\\nMulaakuba
-  abuumi butamaani alimwi mulaakunosangalala pantu pomwi abamukowa ababyaanu.\u2014Kulumbaisha
-  37:11, 29.\\nSA INGA TWASHOMA NSHOYAAMBA BAIBO?\\nEe, ceebo ca milandu iyi yobilo:\\nLesa
-  ulicite nkusu sha kucita shoonse nshaakalasha. Mu Baibo, Yehova Lesa eenka ngowiitwa
-  ayi \u2018Shinkusu shoonse,\u2019 mukwiinga nkusu shakwe tashimaniiwo. (Ciyubululo
-  15:3) Paceebo ceeco, inga wakonsha kubotesha shintu shoonse pa cishi kweelana ambwaakalasha.
-  Baibo ilaamba ayi, \u201cshoonse shintu shilakonsheka kuli Lesa.\u201d\u2014Mateyo
-  19:26.\\nLesa ulisuni abuumbi kucita nshaakalasha. Yehova ulisuni abuumbi kubusha
-  bafu.\u2014Jobo 14:14, 15.\\nBaibo ilatoondesha kwaamba ayi Mwanaakwe Lesa, Yesu
-  wakashilika balwashi. Ino wakacitilanshi boobo? Ceebo wakalinga kusuni abuumbi.
-  (Maako 1:40, 41) Yesu wakalinga kukosha mibo yaba Ishi yakusuna abuumbi kucafwa
-  bapengete.\u2014Joni 14:9.\\nAboobo, nga twashoma kwaamba ayi Yehova a Yesu balisuni
-  ayi tukanosangalala kunembo!\u2014Kulumbaisha 72:12-14; 145:16; 2 Pita 3:9.\\nSHAKUYEEYAWO\\nIno
-  Lesa ulaakubotesha buyani shintu pa cishi?\\nBaibo ilakumbula mwiipusho uyo pali
-  MATEYO 6:9, 10 a DANYELO 2:44.\\nAMWIILEWO ASHIMWI\\nMAKANI ABOTU KUSWA KULI LESA!\\nBaibo
-  ilatulwita Lesa ncakalengela cishi ca panshi, mapensho ndyeshi akamaane, alimwi
-  acishi mbweshi cikabe kunembo alimwi abaabo beshi bakekaleemo.\"", "\"MUTANCHI WA
-  KUPWILA KWA BWIKALO NE MWINGILO WETU WA BWINA KILISHITU Nkubomukata 2017\\nBYAFWAINWA
-  KWIKALA BENA KILISHITU\\nNga baana benu baitabila\u2019mba ka pa byatendekele bumi?
-  Mwakonsha kwibakwasha byepi kwikala na luketekelo lwa kuba\u2019mba Yehoba Lesa
-  ye Mulenga?\\nBYA BUNEME BIJI MU MAMBO A LESA\\nNanchi mwaka wa bintu bya byawama
-  bya Yehoba mwakatu nyi? Nanchi uno mwaka wakwatankana byepi na mwingilo wa kusapwila
-  pa Bufumu?\\nBYAFWAINWA KWIKALA BENA KILISHITU\\nPaitaiwa mali avula bingi pa kupilinta
-  ne kusampanya mabuku alumbulula Baibolo. Yukai bo mwakonsha kushila mabuku inge
-  mubena kusapwila.\\nBYAFWAINWA KWIKALA BENA KILISHITU\\nLuketekelo luji nobe kimiko.
-  Kulanguluka languluka pa milaye iji mu Mambo a Lesa kwitulengela kwikala na lusekelo
-  kabiji tuchinchika ku meseko aji nobe luvula.\"", "\"1Nyenye mwe mufwe ukwimila
-  uwananzi na inzanangifu senyu. 2Ulusika ulo mwikalige we mukwiga imikalile imibi
-  ja mung''i umu, mwagapulikise amasoka manyaludali ga mwilanga, amasoka agakuvasagila
-  lino avanu vesivakumupulika Nguluvi. 3Na kulino de hwehwe mbetuli twetwindawe vavene;
-  twikalige we tukwiga uwudobokesi wetu wa mung''i nu kupiga sila hela isanogelige
-  imivili nu luhala lwetu. Kwa ulubali lwa mung''i, hwehwe nahwe twindawe avene kangi,
-  twetuvaje ililakaali lya Nguluvi. 4Neke Nguluvi munyalusungu lukomi. Atwendite na
-  uwende uwugaya wulongo, 5nambi we twetufwe ukwimila inzanangifu, atupelye uwumi
-  pamwinga na Kilisito. Ukukola uwuwuya wa Nguluvi nyenye mupokitwe. 6Kwa ukuhanga
-  na Kilisito Yesu, Nguluvi atusilibwe pamwinga nave, sambi tukateme pamwinga nave
-  kuchanya. 7Ulo lweawendite ukululagila kuvanu va imisika igikusa uwukomi wa uwuwuya
-  wakwe weatupelye kwa ulusungu lwa ukuhanga kwetu na Kilisito Yesu. 8Pakuva, kwa
-  uwuwuya wa Nguluvi nyenye ye mukomboliwe ukwimila ulufuuwo. Ulukani ulu silwihumagi
-  muwupifu wenyu, pesi ukuta icho kipelwa cha Nguluvi. 9Nambi kangi silwihumagi mufipigo
-  fyenyu yinyenye, alonga umunu ivahile kinu. 10Hwehwe twi figawa fyakwe Nguluvi,
-  na kwa ukuhanga na Kilisito Yesu, atugafile sambi twikale muwupiga inofu sealatuviche
-  tupigage. 11Nyenye kukilamuko mwatambuligwe, vasila kuwolwa mwalula lwelwitambulwa
-  kuwolwa ulwapigikige na amawoko mumivili jawo. 12Mwiyiwukage lwemwemulekine na Nguluvi
-  pamwandi mwe mwiva genzi; mwe kwivala mulukolo lwa Vaisilaeli; mwe mwivagenzi na
-  simwemuhanzili nambi kinu mwa lula ulufingano ulwa inyuviso, mwemugayite uluhuvi,
-  na wita avanu vesivamuseli Nguluvi umu mung''i. 13Neke lino de, kwa ukuhanga na
-  Kilisito Yesu, nyenye ye pamwandi mwe muli pataali, yemuhegelisiwe ukwimila idanda
-  yakwe Kilisito. 14Pakuva Kilisito yumwene atuletye uwikalakunoga kwa ukuvahanza
-  Avayudaya na avanu va ing''i isingi ukuva lukolo lumwi. Kwa umuvili gwakwe yumwene
-  amamwe ikibupa kila cheche kivavagulise nu kwambusa vave vatavangu. 15Ahesise lula
-  ululagilo lwa Avayudaya na indagilo na imisimu, sambi ing''olo iso isivili agawe
-  lukolo lumwi ulupya mu wulilumwi nave na palulo aletite uwikalakunoga. 16Kwa umuvili
-  gakwe, Kilisito awulige uwutavangu wawo; kwa umusalaba gakwe ndawe ahanzise ing''olo
-  iso luve lukolo lumwi na awuyipe uwilamule na Nguluvi. 17Sweno, Kilisito aasile
-  idalika Ulukani Ulunofu lwa uwikalakunoga kwa nyenye mwe vanu va ing''i isingi yemwe
-  pataali na Nguluvi, na kangi kwa Avayudaya avali pipi na Nguluvi. 18Sweno, ukwimila
-  umwene, hwehwe mbetuli, Avayudaya na avanu va ing''i isingi, tuhwanite ukumubitila
-  Dada kwa mutima gumwi. 19Sweno, nyenye si pe mwivagenzi kangi, sipe mwivanu va kwivala
-  nyenye, mwivanyang''i pamwi na avanu va Nguluvi, na mwi vanu va mulukolo lwa Nguluvi.
-  20Mwivasengele mulutu uluvike na vigendo na avavisi, nave Kilisito yumwene ye liganga
-  likomi lya mulutu. 21Umwene ye ayibete ikaye mbeyili nu kulumbing''asa mbaka yive
-  Tembeli inzelu ukwimila Umutwa. 22Na mukuhanga nave, nyenye nanye mwivasengelese
-  pamwi na mbevali vala avangi, sambi muve wikalo wa Nguluvi ukukola Umuhe vakwe.\"",
-  "\"1. U mulandu ci uno tulinzile ukusambilila pa angeli?\\nYEOVA akalonda ukuti
-  tumanye ulupwa lwakwe. Angeli yaya umu lupwa lwakwe Leza. Muli Baibo, angeli yaka-amwa
-  ukuti \u201cana yakwe Leza aonsi.\u201d (Utandiko 6:2) Uzye imilimo ci ino angeli
-  yakaomba? Uzye yazwilizye uli antu manda ya mpiti? Uzye naswe yangatwazwa ndakai?\u2014Lolini
-  Vyeo Vya ku Mpela pa namba 8.\\n2. Uzye aekwi kuno angeli yaafumile? Uzye aangeli
-  yanga aumvilwe?\\n2 Tulinzile ukumanya kuno angeli yafumile. Pali Kolose 1:16 pakatunena
-  ukuti Yeova waumvile Yesu, lyene pa cisila \u201cwaumvile vintu vyonsi ivya mwiyulu
-  na pano pa nsi.\u201d Pa viumbwa vivyo paali na angeli. Uzye aangeli yanga aumvilwe?
-  Baibo ikalanda ukuti kwaya imintapendwa ni mintapendwa ya angeli.\u2014Masamu 103:20;
-  Umbwilo 5:11.\\n3. Uzye Yobo 38:4-7 ikatunena vyani pa yangeli?\\n3 Napya Baibo
-  ikasambilizya ukuti Yeova waumvile angeli lino atali aumbe insi. Uzye angeli yuvwile
-  uli lino yaweni insi? Ibuku lyakwe Yobo likalanda ukuti yatemilwe wakwe cimwi. Angeli
-  yonsi yaali ulupwa longa nupya yaombelanga Yeova capamwi.\u2014Yobo 38:4-7.\\nANGELI
-  YAKA-AZWA ANTU YAKWE LEZA\\n4. Twamanya uli ukuti angeli yasumbako amano ku antunze?\\n4
-  Kufuma mpiti, angeli ya cumi yasumbako sana amano uku yantu na kuli vino Yeova akalonda
-  ukuti antu yakikale pano nsi. (Mapinda 8:30, 31; 1 Petulo 1:11, 12) Cifwile cayawavile
-  sana lino Adamu na Eva yapondwike. Ndakai cikayawaya ukuluta ukulola vino antu aingi
-  yakapondokela Yeova. Lelo ndi cakuti umuntu walapila nu kuwela kuli Leza, angeli
-  yakazanga wakwe cimwi. (Luka 15:10) Angeli yasumbako sana mano kuli yano yakaombela
-  Leza. Yeova akaomvya angeli ukwazwa nu kucingilila aomvi yakwe aya pano nsi. (Ayebulai
-  1:7, 14) Lekini tulande pa yaomvi yakwe Leza yamwi yano angeli yazwilizye.\\n5.
-  Uzye angeli yazwilizye uli aomvi yakwe Leza ku mpiti?\\n5 Yeova watumile angeli
-  yaili ukuya-azwilizya Loti nu lupwa lwakwe ukufuma umu misumba ya Sodoma na Gomola
-  iyali nu kononwa. (Utandiko 19:15, 16) Lino paapisile imyaka iingi, kasema Danieli
-  yaamusumbiile umu ciwina cakwe ya cisama, nomba wapuswike pano Leza watumile umungeli
-  wakwe, nga nawe \u2018acilika imilomo yakwe yacisama.\u2019 (Danieli 6:22) Insita
-  yuze nayo lino mutumwa Petulo wali umu cifungo, Yeova watumile umungeli ukuya musapula.
-  (Milimo 12:6-11) Nakapya, angeli yazwilizye Yesu lino wali pano nsi. Lino Yesu wawatiziwe
-  \u2018angeli yamutumikilanga.\u2019 (Mako 1:13) Napya, lino kwasiile sile akasita
-  akanono kuti Yesu yamukome, umungeli walolekiile kuli aliwe, \u201camukomelezya.\u201d\u2014Luka
-  22:43.\\n6. (a) Twamanya uli ukuti angeli yaka-azwa aomvi yakwe Leza ndakai? (b)
-  A mauzyo ci yano tuma-asuka?\\n6 Ndakai, angeli yasilolekela uku antunze. Lelo Yeova
-  acili akaomvya angeli ukwazwa aomvi yakwe. Baibo ikati: \u201cUmungeli wakwe Yawe
-  [Yeova] akacingilila yayo akamoopa, nupya akayapususya.\u201d (Masamu 34:7) U mulandu
-  ci uno tukalondekwa ukucingililwa? Pano twakwata alwani aa maka aakalonda ukutonona.
-  Uzye aalwani ci yaayo? Aekwi kuno yakafuma? Uzye yakacita uli pakuti yatonone? Pa
-  kumanya amasuko, lekini tutale tusambilileko panono pa vintu ivyacitiike lino Adamu
-  na Eva yaumvilwe.\\nALWANI ITU AASILOLEKA\\n7. Uzye usomvi wakwe Satana walenga
-  ukuti antu yaacita vyani?\\n7 Twasambiliile umu Cipande 3 ukuti umungeli umwi wapondokile
-  Leza napya walondanga kuti aateeka auze. Baibo ika-ama umungeli wiyo ukuti a Satana
-  Ciwa. (Umbwilo 12:9) Napya Satana walondanga kuti na yauze kwene yapondokele Leza.
-  Wasomviile Eva, nupya ukufuma lilyo, wasomba antu iingi sana. Nomba, antu yamwi
-  wakwe Abeli, Enoki, na Nowa yatwalilile ukuya acumi kuli Yeova.\u2014Ayebulai 11:4,
-  5, 7.\\n8. (a) Uzye cali uli pakuti angeli yamwi yaye iviwa? (b) Uzye angeli aipe
-  yaacisile uli pakuti yatafwa kuli Mulamba?\\n8 Mu manda yakwe Nowa, angeli yamwi
-  yapondwike nu kusya ivifulo vyao ukwiyulu nu kwizaikala wa yantunze pano nsi. I
-  cani cino yaacitiile viivi? Baibo ikatunena ukuti yalondanga ukutwala. (Welengini
-  Utandiko 6:2.) Lelo cino angeli yaa yacisile caifile. (Yuda 6) Antu aingi yatandike
-  ukukolanya angeli kwene yaa aipe nu kulacita ivipe nu unkalwe. Acino Yeova wapingwile
-  ukonona antu yaa aipe kuomvya mulamba mukalamba. Lelo wapuswisye antu yakwe acumi.
-  (Utandiko 7:17, 23) Pakuti angeli yaa aipe yapusuke, yaswilile ukwiyulu. Baibo ika-ama
-  angeli yaa aipe ukuti mipasi yankota, nanti iviwa. Yasoolwile ukuya yacipondoka
-  pamwi na Satana, nu kulateekwa na Ciwa kwene wii.\u2014Mateo 9:34.\\n9. (a) I cani
-  icacitiike lino angeli aipe yaswiliile ukwiyulu? (b) I vyani lyene vino tumasambililapo?\\n9
-  Lino angeli aipe yaswilile ukwiyulu, Yeova atayazumilizye ukuya pamwi nu lupwa lwakwe
-  nupya, pano yamupondokiile. (2 Petulo 2:4) Ndakai angeli aipe yatange yasanguke
-  antunze, lelo yacili \u2018yakasomba antu amu nsi.\u2019 (Umbwilo 12:9; 1 Yoane
-  5:19) Lekini tusambilile pali vino angeli yaayo yakacita pa kusomba, nanti ukuponzya
-  antu aingi.\u2014Welengini 2 Kolinto 2:11.\\nVINO IVIWA VIKAPONZYA ANTU\\n10. Uzye
-  iviwa vikacita uli pa kuponzya antu?\\n10 Iviwa vikaomvya inzila izingi pa kuponzya
-  antu. Antu yamwi yakauvwana ni viwa aeneco nanti kupitila mu yantu yauze nanti muli
-  ya sing\u2019anga. Ukuvwana ni viwa kuli kupepa iviwa, nanti kutaila imipasi. Baibo
-  ikati tufwile ukusenka uku vintu vyonsi ivya mipasi. (Galatiya 5:19-21) U mulandu
-  ci? Wakwe vivikwene vino kalunga wa nyama akaomvya iciteyo pa kulema inyama, iviwa
-  navyo vikaomvya usomvi pakuti viponzye antu nu kulayatungulula.\u2014Lolini Vyeo
-  Vya ku Mpela pa namba 26.\\n11. Uzye ukusaapoola kuli kutuuli, nupya i cani cino
-  tutalinzile ukusaapoolela?\\n11 Inzila yonga ino iviwa vikaomvya pa kuponzya antu
-  u kusaapoola. Ukusaapoola kulikuti ukulwisya ukumanya ivilacitika uku nkoleelo nanti
-  vimwi ivya nkaama. Inzila zimwi zino umuntu angacitilamo ivyakusaapoola, u kupima
-  intanda, kuya kuli ya sing\u2019anga, kupima imisilwa iyaya umu minwe, nanti ukutaila
-  iviloto. Antu yamwi yakaelenganya ukuti ukuomvya inzila zii kwaya sile ningo, lelo
-  kutaya ningo. Kucita vivyo kungamuletela uzanzo wipisye. Baibo yene ikatuneena ukuti
-  iviwa vikaombela pamwi na ya kasaapoola. Pa Milimo 16:16-18 pakatuneena pa \u201cmupasi
-  wa nkota\u201d uno walenzile ukuti umukazyana umwi \u201caasema\u201d nanti ukusowela.
-  Lino umutumwa Paulo wazinzile iciwa cico, amaka yano umukazyana wiyo wakweti akusowela
-  yasizile.\\n12. U mulandu ci uno ukwezya ukuvwanga na antu afwe kwaela uuzanzo?
-  (b) U mulandu ci uno aomvi yakwe Leza yasicitilako intambi umwaya ukucindika imipasi?\\n12
-  Iviwa vikaomvya inzila nayuze pa kuponzya antu. Vikalonda tuzumile ukuti tungalanda
-  na afwe, nu kuti antu afwe yaaya nu umi ku cifulo cuze, napya yangalanda naswe nanti
-  kutucuzya. Umuntu uwatafwilwa cuza nanti lupwa, limwi angaya kuli wino akauvwana
-  ni mipasi, wino angaya akamunene ukuti angalanda nu muntu umufwe. Aakauvwana ni
-  mipasi angalanda vimwi pa muntu wino wafwa nanti sile ukwezya ukweleuzya izwi lya
-  muntu mufwe. (1 Samueli 28:3-19) Umu vililo ivingi ivikacitika, mwaya intambi zya
-  kuti umuntu umufwe akatwalilila ukuya nu umi ku cifulo cuze. Ntambi zimwi, u kuzevya
-  imfwa, ukwiusya umuntu uwafwa, kupeela impolelwa kuli wino wafwa, kusangulula mukamfwilwa,
-  alino ni ntambi zyuze. Ngi cakuti Aina Klistu yatacisileko intambi zii, ya lupwa
-  yao nanti antu yauze yangaayasoweka, kuyapontela, nanti kuyalola ukuti aasilesile.
-  Lelo Aina Klistu ya cumi yaamanya ukuti umufwe asitwalilila ukuya nu umi ku cifulo
-  cuze. Tutange tulande na afwe, napya yatange yatucuzye. (Masamu 115:17) Fwandi mwacenjela
-  sana. Kusi kwezya ukuvwana ni mipasi nanti ukucitako intambi umwaya ukupepa imipasi.\u2014Welengini
-  Malango 18:10, 11; Ezaya 8:19.\\n13. I cani cino antu aingi aatiinanga iviwa yaacita?\\n13
-  Iviwa visipeleela sile apa kusomba antu, vyene vikayatiinya nu kuyatiinya. Ndakai
-  Satana na angeli yakwe aipe yaamanya ukuti \u201cyaasyala sile na kasita akanono\u201d
-  ale yayasisyapo, fwandi iyacilapo ukuya ankalwe nupya akalipisye ukucila vino yaali
-  mpiti. (Umbwilo 12:12, 17) Lelo, antu aingi wakwe cimwi aatiinanga iviwa mpiti,
-  ndakai yasivitiina. Uzye yacisile uli pa kuti yaleke ukuvitiina?\\nTALUKINI IVIWA,
-  NUPYA LEKINI UKUVWANA NAVYO\\n14. Tungakolanya tutuuli Aina Klistu aali umu Efeso
-  ndi tukulonda ukuleka ukuvwana ni mipasi iipe?\\n14 Baibo ikatusambilizya vino tungacita
-  pa kukana imipasi iipe, na pa kuleka ukuvwana nayo. Mu musumba wa Efeso, mwali yamwi
-  yano yuvwananga ni viwa lino yatatala yaaya Aina Klistu. Uzye yacisile uli pa kuleka
-  ukuvwana ni viwa? Baibo ikati: \u2018Aingi muli yano acitanga malele yaaleesile
-  impapulo zyao apali pamwi yazyoca pa manso ya antu.\u2019 (Milimo 19:19) Pa mulandu
-  wakuti yalondanga ukuya Aina Klistu, i calenzile kuti yonone mabuku umwali vya mipasi.
-  Avino na ndakai kwene cikalondekwa ukucita. Wensi aakalonda ukuombela Yeova, alinzile
-  ukusumba vyonsi ivikaomviwa ku vya mipasi. Kulikuti mabuku, yamagazini, mafilimu,
-  inyimbo, na vyuze ivikakomelezya ukutaila imipasi. Alino na vino antu yakazwala
-  kuti yaicingilile uku viwa.\u20141 Kolinto 10:21\\n15. I vyani vyuze vino tulinzile
-  ukucita pa kukaanya Satana ni viwa?\\n15 Lino paapisile imyaka iingi kufuma pano
-  Aina Klistu amu Efeso yociile mabuku ya vya maleele, umutumwa Paulo walemvile ati,
-  yatwalilile \u2018ukulwisyanya\u2019 ni \u201cmipasi yankota iya mulwelele.\u201d
-  (Efeso 6:12) Nanti cakuti yosile mabuku, viwa vitaalesile ukwezya ukuyonona. Uzye
-  lyene, i vyani vyuze vino aina Klistu yalondekwanga ukucita? Paulo wayaneenyile
-  ati, \u201cLekini utailo winu uye wa cisyangu, mwakusiika mivwi ya moto kufuma ku
-  Mwipe wilya [Satana].\u201d (Efeso 6:16) Wakwe vino cisyangu cikacingilila umusilika
-  umu nkondo, utailo witu nao ukatucingilila. Ndi cakuti twataila Yeova nu umi witu
-  onsi, tulaya na maka ya kukana Satana ni viwa.\u2014Mateo 17:20.\\n16. Uzye tungacita
-  uli pakuti utailo witu muli Yeova ukomeleko?\\n16 I vyani vino tulinzile ukucita
-  pakuti utailo witu muli Yeova ukome? Tulinzile ukulawelenga Baibo lyonsi nu kutaila
-  Yeova ukuti amatucingililanga. Ndi cakuti tuli sana nu utailo kuli Yeova, alino
-  Satana ni viwa yalafilwa ukutonona.\u20141 Yoane 5:5.\\n17. I cani cuze icingatwazwa
-  pakuti tuicingilile uku viwa?\\n17 I vyani vyuze vino Aina Klistu amu Efeso yalondekwanga
-  ukucita? Iikalanga umu musumba umwali sana ukupepa iviwa. Acino Paulo wayaneniile
-  ati: \u201cMwacita vii vyonsi mu mapepo.\u201d (Efeso 6:18) Yalondekwanga ukulaleenga
-  kuli Yeova kuti aayacingilila. Nga swemo tulinzile ukucita uli? Naswe kwene twaya
-  umu nsi umwazula ukupepa iviwa. Fwandi tufwile ukupepa sana kuli Yeova pakuti aatucingilila,
-  napya tulinzile ukulalumbula izina lyakwe Yeova lino tukupepa. (Welengini Mapinda
-  18:10.) Ngi cakuti twatwalilila ukuleenga kuli Yeova kuti atutuule kuli Satana,
-  alaasuka ipepo litu.\u2014Masamu 145:19; Mateo 6:13.\\n18, 19. (a) Tungacita uli
-  pakuti tucimvye Satana ni viwa? (b) Iiuzyo ci ililasukwa umu cipande cilondelilepo?\\n18
-  Ndi cakuti twasumba vyonsi vikaomviwa uku kupepa imipasi, nu kutaila ukuti Yeova
-  amatucingililanga, tungaya na maka ya kukaanya Satana ni viwa. Tutafwile ukuvitiina
-  foo. (Welengini Yakobo 4:7, 8.) Yeova wakwatisya sana amaka ukucila iviwa. Umu manda
-  yakwe Nowa wavifulwile, nupya uku nkolelo alavyonona. (Yuda 6) Nakapya, mwaiusya
-  ukuti tutaya swenga umu ulwi uu. Yeova akaomvya angeli yakwe uku kutucingilila.
-  (2 Yamwene 6:15-17) Tungataila ukuti nga Yeova watwavwa tungacimvya umu ulwi uu
-  wakulwisya Satana ni viwa.\u20141 Petulo 5:6, 7; 2 Petulo 2:9.\\n19 Nomba ngi cakuti
-  Satana ni viwa yakalenga kuti kuye macuzi, u mulandu ci uno Leza atayononela? Icasuko
-  ukwi uzyo lilyo tulacizana umu cipande cilondelilepo.\"", "\"\u201cMutu yo u bonahala
-  hahulu inge Muzwale Russell ku fita mane ni mwa bonahalela Muzwale Russell luli!\u201d\u2014Kona
-  mwa naa bulelezi muuna yo mu\u00f1wi ya naa buhile filimu ye bizwa \u201cPhoto-Drama
-  of Creation\u201d ka silimo sa 1914.\\nFILIMU ya \u201cPhoto-Drama of Creation,\u201d
-  i kwanisa lilimo ze 100 mwa silimo se, filimu yeo ya maswaniso a cinca-cinca i lukisizwe
-  hande ili ku tusa batu ku lumela kuli Bibele ki Linzwi la Mulimu. Ku si na taba
-  kuli ka nako yeo ne ku na ni batu ba ba\u00f1ata ba ne ba lumela kuli lika ne li
-  tile ka ku ipilaula, hape ne ku na ni twaniso ye tuna, mi tumelo ya batu ba ba\u00f1ata
-  ne i fokozi bake\u00f1isa ku honona litaba za niti, filimu yeo ne i ko\u00f1omekile
-  kuli Jehova ki Mubupi.\\nMuzwale Charles T. Russell, ya naa etelela mwa musebezi
-  o ne ba eza Baituti ba Bibele, naa zwezipili ku bata nzila ye nde ya ku taluseza
-  ka yona batu ba ba\u00f1ata niti ya mwa Bibele ka bubebe. Baituti ba Bibele ne se
-  ba itusisize lihatiso za Bibele ka lilimo ze fitelela 30 kwa ku taluseza ba ba\u00f1wi
-  niti. Kono cwale ne se ba fumani mukwa o munca wa ku itusisa kwa ku taluseza ba
-  ba\u00f1wi niti, ne li mukwa wa ku itusisa maswaniso a cinca-cinca.\\nKU SHAELA
-  EVANGELI KA KU ITUSISA MASWANISO A CINCA-CINCA\\nMwa lilimo za ma 1890, batu ne
-  ba kalile ku buhiswanga maswaniso a cinca-cinca. Silimo sa 1903 ha si to esha feela,
-  ne ku buhisizwe filimu ya bulapeli mwa keleke ye \u00f1wi ya mwa tolopo ya New York.
-  Mafilimu a maswaniso a cinca-cinca kona ha naa sa zo taha-taha ka nako ya naa kalisize
-  ku lukisa muzwale Russell kuli ku zwiswe filimu ya \u201cPhoto-Drama\u201d ili ka
-  silimo sa 1912. Muzwale Russell naa lemuhile kuli ku itusisa maswaniso a cinca-cinca
-  ne ku ka tusa kuli batu ba ba\u00f1ata ba utwe litaba za niti za mwa Bibele ku fita
-  ha ne ku ka itusiswa feela lihatiso.\\nFilimu ya \u201cPhoto-Drama\u201d ye ne tandanga
-  lihola ze 8 ili ye ne buhiswanga mwa likalulo zee ne, ne i bonisanga lingambolo
-  ze kuswani ze 96 ze ne filwe kwamulaho ki mubuleli ya naa zibahala hande ili ya
-  naa na ni linzwi le ne ba ziba hande batu ba ne ba pila ka nako yeo. Ne ku lilanga
-  lipina ze nde mwa likalulo ze \u00f1ata za filimu yeo. Mizwale ba ba na ni buikoneli
-  ne ba bapalanga matapa fo ku na ni manzwi ni lipina ili ku swalisanisa mulumo ni
-  maswaniso a cinca-cinca a makande a zibahala hahulu mwa Bibele.\\n\u201cMwa filimu
-  ye, ku fumaneha maswaniso a pupo ya linaleli ku yo fita kwa mafelelezo a Puso ya
-  Kreste ya Lilimo ze 1,000.\u201d\u2014Bo F. Stuart Barnes, ba ne ba na ni lilimo
-  ze 14 mwa 1914\\nBu\u00f1ata bwa likalulo za filimu ya \u201cPhoto-Drama\u201d ni
-  maswaniso a ma\u00f1ata naa lekiwanga kwa mandu a moya a lipisinisi. Batu ba ba\u00f1wi
-  ba ne ba na ni buikoneli bwa ku penta ba ne ba zwa kwa Philadelphia, kwa New York,
-  kwa Paris, ni kwa London ne ba pentile mangilasi a naa itusiswa mwa filimu yeo ni
-  likalulo ze \u00f1wi za mwa filimu yeo. Likwata za mizwale ba ba sebeleza fa Betele
-  ili ba ba mwa liluko la ku basa-basa ni bona ne ba petile ze tuna mwa musebezi wa
-  ku penta, mi ha\u00f1ata ne ba yolisanga likalulo za mwa filimu yeo ze ne sinyehanga.
-  Kwandaa mafilimu a naa lekiwanga, mizwale ni likaizeli ba fa Betele ne ba beiwanga
-  mwa mafilimu ao ili kwa sibaka se si bizwa Yonkers, mwa New York, mi ne ba bapalanga
-  fa likalulo za Abrahama, Isaka, ni lingeloi lani le ne li tilo hanisa Abrahama kuli
-  a si ke a fa mwanaa hae sina sitabelo.\u2014Gen. 22:9-12.\\nMuzwale yo mu\u00f1wi
-  ya naa swalisana ni Muzwale Russell naa bulelezi babihi ba makande kuli, \u201cnzila
-  ye ne ba itusisa ka yona kwa ku kutaza ne i tusa batu ba ba\u00f1ata ku ziba Ma\u00f1olo,
-  ku fita nto ifi kamba ifi ye ne itusiswa kwa ku zwisezapili bulapeli.\u201d Kana
-  baeteleli ba bulapeli bo bu shutana-shutana ne ba ka itebuha kwa buikatazo bo ne
-  bu ezizwe bo bwa ku tusa batu ba ba\u00f1ata ku ituta za Mulimu? Ku fita ku itebuha
-  buikatazo bo, baeteleli kaufela ba bulapeli bo bu ipapata kuli ki bwa Sikreste ne
-  ba nyazize filimu ya \u201cPhoto-Drama,\u201d mane ba ba\u00f1wi ne ba itusisize
-  linzila ze maswe ku tibela batu kuli ba si ke ba buha filimu yeo. Kwa sibaka se
-  si\u00f1wi ko ne ku buhisezwa filimu yeo, baeteleli ba ba\u00f1wi ba bulapeli ne
-  ba timile malaiti kuli filimu yeo i si ke ya buhiswa.\\nNihakulicwalo, batu ba ba\u00f1ata
-  ne ba talanga mwa libaka mo ne ku buhisezwanga filimu yeo kuli ba buhe filimu ya
-  \u201cPhoto-Drama,\u201d ba sa lifi se si\u00f1wi. Kwa United States, filimu yeo
-  ne i buhiswanga mwa litolopo ze bato ba ze 80 zazi ni zazi. Babuhi ba ba\u00f1ata
-  ba ne ba tabile hahulu ne ba ipuhezi filimu ye nca yeo ye ne ambolwa kai ni kai.
-  Bake\u00f1isa maswaniso a cinca-cinca, batu ne ba buhile filimu yeo ku zwa kwa makalelo
-  ku yo fita mane kwa mafelelezo a yona. Litaba za sayansi ze ne li te\u00f1i ka nako
-  yeo ne li bonisize butali bo bu komokisa bwa na ni bona Jehova. Sina mo ku taluselizwe
-  kwa makalelo, mubuhi yo mu\u00f1wi naa nahanile kuli mutu ya naa zibahaza filimu
-  yeo ili ya naa li mwa filimu yeo, naa bonahala \u201chahulu inge Muzwale Russell
-  ku fita mane ni mwa bonahalela Muzwale Russell luli!\u201d\\nZWELOPILI YE TUNA MWA
-  MUSEBEZI WA KU LUTA BATU BIBELE\\nBo Tim Dirks, baonga-ongi ba filimu ya \u201cPhoto-Drama,\u201d
-  ne ba talusize filimu yeo ku ba ye \u201ctuna hahulu ili mo ne ku fumaneha milumo
-  ye zamaelela ni maswaniso a cinca-cinca a mibala ye shutana-shutana.\u201d Mwa mafilimu
-  a naa li te\u00f1i kwamulaho pili filimu ya \u201cPhoto-Drama\u201d i si ka ba kale
-  te\u00f1i, ne ku itusiswanga miezezo yeo, kono ne ku sa itusiswangi miezezo yeo
-  kaufela mwa kalulo i li\u00f1wi ya filimu, sihulu haiba kalulo yeo ne i na ni toho
-  ya taba ya mwa Bibele. Ha ku na filimu ye ne i buhilwe ki batu ba ba\u00f1ata hahulu
-  inge filimu ya \u201cPhoto-Drama.\u201d Filimu yeo ne i buhilwe ki batu ba ba bato
-  eza 9 milioni ba kwa North America, Europe, Australia, ni ba kwa New Zealand mwa
-  silimo feela sa pili fo ne i kalezi ku buhiswa!\\nFilimu ya \u201cPhoto-Drama\u201d
-  ne i buhisizwe lwa pili la 11 January, 1914 mwa tolopo ya New York. Hamulaho wa
-  likweli ze 7, kwa taha kozi ye tuna ye ne tilo bizwa hasamulaho kuli Ndwa ya Lifasi
-  ya Pili. Nihakulicwalo, batu ba ba\u00f1ata mwa lifasi kaufela ba zwelapili ku kubukana
-  ni ku buha filimu ya \u201cPhoto-Drama\u201d ili kuli ba omba-ombiwe ki likalulo
-  ze mwa filimu yeo ze bonisa limbuyoti ze tuha li taha za Mubuso wa Mulimu. Filimu
-  ya \u201cPhoto-Drama\u201d ne i tile luli ka nako ye swanela ka silimo sa 1914.\"",
-  "\"Ukufuma mu June ukufika mu November mu 2018, abalashi ba buteko bwa calo ca Turkmenistan
-  balikakile ba Nte 9 abakeene ukwingila ubushilika pa mulandu wa kampingu yabo. Ba
-  Ihlosbek Rozmetov, ba Veniamin Genjiyev, ba Maksat Jumadurdiyev, ba Isa Sayayev,
-  ba Ruslan Artykmuradov, ba Sokhbet Agamyradov, ba Serdar Atayev, na ba Gurbangylych
-  Muhammetgulyyev babapingwilile ukukakwa pa mwaka umo, e lyo ba Mekan Annayev bena
-  babapingwilile ukukakwa imyaka ibili.\\nAba ba Nte 9 abacaice e bo bakakile nomba
-  line mu Turkmenistan pa mulandu wa kukaana ukwingila ubushilika. Na kabili mu January
-  mu 2018, ubuteko bwasanguke ba Arslan Begenjov na ba Kerven Kakabayev umulandu wa
-  kukaana ukwingila ubushilika kabili babapingwilile ukukakwa mu cifungo pa mwaka
-  umo. * Ukufuma mu February mu 2015, ba Arslan Begenjov na ba Kerven Kakabayev e
-  ba Nte abaume abo babalilepo ukukakwa pa mulandu wa kukakana ukwingila ubushilika
-  mu Turkmenistan. Aba ba Nte babili e lyo na bambi 8 pali balya 9 abo bakakile nomba
-  line, bababika mu cifungo beta ukuti Seydi prison (LBK-12). Muli ici cifungo e mo
-  bakaka na ba Bahram Hemdemov kabili emo baba pa myaka ukucila pali itatu.\\nBa Bahram
-  Hemdemov Balibafyengele no Kubakaka\\nPa 14 March mu 2015, bakapokola mu Turkmenabad
-  balingilile ba Nte abalelongana mu mutende mu ng\u2019anda ya ba Bahram Hemdemov.
-  Ba Nte 38 balibekete kabili babapeele umulandu wa kupepa ukwabula insambu. Ba Nte
-  30 balibalipilishe indalama, e lyo abali 8 balibakakile inshiku 15, kabili bonse
-  aba balibacushishe sana. Mu kuya kwa nshita, icilye ca Lebap Regional Court capingwile
-  ukuti ba Bahram Hemdemov babakake imyaka 4. Apo ifintu fyalibipile sana mu cifungo,
-  ba Bahram Hemdemov balitendeke ukulwala. Ukufika na nomba tababafumya mu cifungo,
-  kabili tabababika pa bafungwa abo ubuteko bubelela uluse.\\nBa Nte Tabalabapeela
-  Insambu sha Kupepa ne sha Kukaana Ukucitako Ifyapusana ne fyo Basuminamo\\nMu 2015
-  na mu 2016, akabungwe ka United Nations Human Rights Committee (CCPR) kalipingwile
-  bwino imilandu 10 isho ba Nte abaume batwele kuli aka kabungwe pantu balibakakile
-  no kubacusha pa kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo. Pali
-  ino nshita kwashala imilandu 7 isho akabungwe ka CCPR takalapingula isho ba Nte
-  batwala kuli aka kabungwe pa mulandu wa kuti ubuteko bwa calo ca Turkmenistan bwalibekala
-  pa nsambu shabo isha kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nMuli
-  lipoti ya mu April mu 2012, akabungwe ka CCPR kaebele ubuteko bwa calo ca Turkmenistan
-  ukutila \u201camafunde ya ici calo ayalanda pa kulembesha utubungwe twa mapepo yafwile
-  ukucindika insambu abantu bakwata isha kupepa ne sha kukaana ukucita ifyapusana
-  ne fyo basuminamo, nga fintu ulupapulo lwa [International Covenant on Civil and
-  Political Rights] lulanda.\u201d Mu 2008, ba Nte balitwele ifipepala fya kulembeseshapo
-  icilonganino ku buteko, lelo ubuteko tabwabebapo nangu cimo.\\nBushe Icalo ca Turkmenistan
-  Cikaleka Ukucusha ba Nte?\\nInte sha kwa Yehova balitemwa sana pa fyo ubuteko bwa
-  calo ca Turkmenistan bwafumishe ba Nte mu cifungo mu 2014 pa mulandu wa kuti balibafyengele.
-  * Nangu ca kuti ifyalo fimbi fyalyebele icalo ca Turkmenistan ukulacindika insambu
-  abantu bakwata isha kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo, ubuteko
-  bwa Turkmenistan tabwacindike ishi nsambu ilyo bwapeele ba Nte imilandu nomba line.
-  Ba Nte baleenekela ukuti ubuteko bwa calo ca Turkmenistan bukatendeka ukukonka ifyo
-  akabungwe ka CCPR kapingwile. Aka kabungwe kalandile ukuti icalo ca Turkmenistan
-  cilingile ukucindika insambu shonse isho abantu bakwata, maka maka insambu sha kukaana
-  ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nIfyalecitika Ukufuma mu 2008\\nPa
-  12 December mu 2018\\nBa Nte 12 babakaka.\\nPa 28 November mu 2018\\nBa Gurbangylych
-  Muhammetgulyyev babapeela umulandu no kubakaka pa mwaka umo pa kukaana ukwingila
-  ubushilika pa mulandu wa fyo basuminamo.\\nMu September mu 2018\\nApo kateka wa
-  calo ca Turkmenistan ali no kufumya abafungwa bamo mu cifungo pa 24 September, abalashi
-  ba cifungo baeba ba Kerven Kakabayev, ba Mekan Annayev, na ba Veniamin Genjiyev
-  ukutila nabo bene balababelela uluse no kubafumya mu cifungo. Nangu ca kuti amashina
-  ya aba ba Nte yali pa bafungwa kateka ali no kufumya mu cifungo, tababafumishe mu
-  cifungo ilyo abafungwa 1,722 babafumishe pa 25 September.\\nPa 28 August mu 2018\\nBa
-  Serdar Atayev babapeela umulandu no kubakaka pa mwaka umo pa kukaana ukwingila ubushilika
-  pa mulandu wa fyo basuminamo.\\nPa 27 August mu 2018\\nBa Sokhbet Agamyradov babapeela
-  umulandu no kubakaka pa mwaka umo pa kukaana ukwingila ubushilika pa mulandu wa
-  fyo basuminamo.\\nPa 13 August mu 2018\\nBa Ruslan Artykmuradov babapeela umulandu
-  no kubakaka pa mwaka umo pa kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nPa
-  9 August mu 2018\\nBa Isa Sayayev babapeela umulandu no kubakaka pa mwaka umo pa
-  kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nPa 17 July mu 2018\\nBa
-  Veniamin Genjiyev na ba Maksat Jumadurdiyev babapeela umulandu no kubakaka pa mwaka
-  umo pa kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nPa 11 July mu
-  2018\\nBa Ihlosbek Rozmetov babapeela umulandu no kubakaka pa mwaka umo pa kukaana
-  ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nPa 26 June mu 2018\\nBa Mekan
-  Annayev babapeela umulandu no kubakaka pa myaka ibili pa kukaana ukwingila ubushilika
-  pa mulandu wa fyo basuminamo.\\nPa 29 January mu 2018\\nBa Kerven Kakabayev babapeela
-  umulandu no kubakaka pa mwaka umo pa kukaana ukwingila ubushilika pa mulandu wa
-  fyo basuminamo.\\nPa 17 January mu 2018\\nBa Arslan Begenjov babapeela umulandu
-  no kubakaka pa mwaka umo pa kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nPa
-  12 May mu 2017\\nUbuteko bwa calo ca Turkmenistan bwafumya ba Mansur Masharipov
-  abo baikete pa 30 June mu 2016.\\nPa 18 August mu 2016\\nBa Mansur Masharipov babapeela
-  umulandu apabula ifishinka kabili babakaka umwaka umo.\\nMu July mu 2016\\nAkabungwe
-  ka CCPR kalanda ifyo kapingwile imilandu 6 umwali ba Nte abo bapeele imilandu pa
-  kukanaingila ubushilika pa mulandu wa fyo basuminamo.\\nPa 14 December mu 2015\\nAkabungwe
-  ka CCPR kalanda ifyo kapingwile imilandu itatu umwali ba Nte abo bapeele imilandu
-  pa kukanaingila ubushilika pa mulandu wa fyo basuminamo. Balipingwile bwino umulandu
-  na umbi pa 19 May mu 2015.\\nPa 19 May mu 2015\\nBa Bahram Hemdemov babekata pa
-  mulandu wa fya mapepo kabili babakaka imyaka 4. Ilyo bashilababika mu cifungo, balibekete
-  pa myeshi ibili ukwabula ukubalubulwisha.\\nMu February na mu March mu 2015\\nBa
-  Nte babili abo bakakile pa mulandu wa kukaana ukwingila ubushilika babafumya mu
-  cifungo. Akabungwe ka CCPR kalanda ifyo kapingwile bwino umulandu uo Nte umo bamupeele
-  pa kukaana ukwingila ubushilika pa mulandu wa fyo asuminamo.\\nPa 18 November mu
-  2014\\nBa Nte babili babakaka pa kukaana ukwingila ubushilika pa mulandu wa fyo
-  basuminamo.\\nPa 22 October mu 2014\\nKateka wa calo ca Turkmenistan abelela ba
-  Nte 8 uluse kabili abafumya mu cifungo.\\nPa 30 September mu 2014\\nBa Nte 7 babakaka
-  pa kukanaingila ubushilika pa mulandu wa fyo basuminamo, e lyo ba Nte bambi babili
-  babakaka pa milandu iyabula ifishinka iyo babapeele pa mulandu wa fya mapepo.\\nPa
-  2 September mu 2014\\nUbuteko bwa calo ca Turkmenistan bwafumya ba Bibi Rahmanova
-  abo bapingwile ukubika mu cifungo pa myaka 4 kabili babakakila ku nse.\\nPa 18 August
-  mu 2014\\nBa Bibi Rahmanova babapeela imilandu yabula ifishinka kabili bapingula
-  ukubakaka imyaka 4.\\nPa 25 July mu 2014\\nBa Nte 5 babakaka mu cifungo pa kukanaingila
-  ubushilika pa mulandu wa fyo basuminamo, e lyo bambi babili pa milandu yabula ifishinka
-  iyo babapeele pa mulandu wa fya mapepo.\\nPa 6 April mu 2014\\nBa Nte 26 babekata,
-  13 pali aba tapali icili conse ico bacitile icingalenga babekate. Aba ba Nte 13
-  babebele ukulipila indalama pa kuti babalekeleko.\\nMu November mu 2013\\nBa Nte
-  8 batwalilila ukuba mu cifungo pa kukanaingila ubushilika pa mulandu wa fyo basuminamo,
-  e lyo Nte umo atwalilila ukuba mu cifungo pa milandu yabula ifishinka iyo bamupeele
-  pa mulandu ne fya mapepo.\\nPa 29 August mu 2013\\nBa Nte batatu batwala imilandu
-  ku kabungwe ka CCPR pa mulandu wa kuti ubuteko bwa calo ca Turkmenistan tabucindike
-  insambu shabo isha kukaana ukwingila ubushilika pa mulandu wa fyo basuminamo.\\nPa
-  1 May mu 2013\\nBa Nte babili batwala imilandu ku kabungwe ka CCPR pa mulandu wa
-  kuti ubuteko bwa calo ca Turkmenistan tabucindike insambu shabo isha kukaana ukwingila
-  ubushilika pa mulandu wa fyo basuminamo.\\nPa 24 January mu 2013\\nBakapokola 30
-  baingilila ba Navruz Nasyrlayev mu ng\u2019anda no kubasansa ninshi papitile fye
-  imilungu iinono ukufuma apo ubuteko bwa calo ca Turkmenistan bwaishibile ukuti ba
-  Nte nabatwala imilandu ku kabungwe ka CCPR. Aba bakapokola bapuma ulupwa lwa ba
-  Navruz Nasyrlayev e lyo na beni abaishile mu kubatandalila.\\nPa 7 September mu
-  2012\\nBa Nte 10 batwala imilandu ku kabungwe ka CCPR pa mulandu wa kuti ubuteko
-  bwa calo ca Turkmenistan tabucindike insambu shabo isha kukaana ukwingila ubushilika
-  pa mulandu wa fyo basuminamo. Ba Navruz Nasyrlayev e bali pa ntanshi mu kutwala
-  imilandu ku kabungwe ka CCPR.\\nPa 21 August mu 2008\\nInte sha kwa Yehova baya
-  mu kulembesha icilonganino cabo ku buteko bwa calo ca Turkmenistan.\\n^ para. 3
-  Inte sha kwa Yehova abakaana ukwingila ubushilika pa mulandu wa fyo basuminamo balabapeela
-  imilandu ukubomfya ifyaba mu cipandwa 219(1) ica mu lupapulo lwa Criminal Code icitila:
-  \u201cUmuntu nga akaana ukwingila ubushilika ukwabula imilandu iyo amafunde yalandapo
-  ukuti e yo engakaanina ubushilika, bafwile ukumupeela imilimo iyakosa iyo afwile
-  ukubomba ukufika ku myaka ibili pa kuti bamukande, nelyo kuti bamukaka ukufika ku
-  myaka ibili.\u201d\"", "\"Ba Cassius Zulu, abali ne myaka yakufyalwa amakumi yasano
-  na itatu (53), elyo kabili ba shimapepo ba ku Bible Gospel Church (Bigoca) mu Afrika,
-  balilaswa kale inshindano ya COVID-19 no kukonkomesha ubucindami bwaba mu kulanshanya
-  ne cintubwingi pa lwa bumi.\\n\u201cIcicetekelo ceka-ceka fye tacakumanina,\u201c
-  efyasosele ba Zulu. \u201cIne pamo nga shimapepo, caliba icikankala ukuba icilangililo
-  kuli abo ntungulula. Ukucita ico, ekulanga ukwikatana kwinekwine no kupeela isubilo
-  ku bantu.\u201d\\nAbabomfi balolekesha pa bumi mu calo ca Zambia balyampana na kabungwe
-  ka U.S. Centers for Disease Control and Prevention (CDC) aka ku calo ca America
-  mu mulimo wa kucingilila abantu ku bulwele bwa COVID-19, ukukonkomesha abantu ukulaswa
-  inshindano ya kuicingilila elyo no kusabankanya ifishinka pali ubu bulwele. Ba Zulu
-  nabo bene balisendamo ulubali mu kubomba uyu mulimo.\\nBa solwesolwe ba ng\u2019anda
-  ya mafunde ba Nelly Mutti baalilaswa inshindano yalenga bubili mu mweshi wa Lusuba
-  lun\u00f4no. Kabili, baalilomba nabekala calo ba mu Zambia ukulaswa iyi nshindano
-  ya COVID-19. \u201cNalilaswa inshindano pakuti ningaicingilila nemwine kabili nokucingilila
-  abantu nsangwa nabo cilabushiku,\u201d efyasosele ba Nelly Mutti.\\nBa Mutti baatile
-  tabaasangilemo ubwafya ubukalamba nangu bumo. Batile, \u201cInshindano tesheni nakalya
-  iyoo; shikaaya. Twalelaswa inshindano ukufuma na ku bwaice bwesu. Nga fintu ababomfi
-  ba bumi bakonkomesha lyonse, \u201cUkuichingilila kwaliwamapo ukucila ukundapwa.\u201d\\nAkabungwe
-  ka bumi aka CDC mu Zambia katila, abena Zambia ukucila umuntapendwa umo ne myanda
-  ibili (1.2 million) balilaswa kale nshindano yakubalilapopa mu mweshi wa Cinshikubili.
-  Abalolekesha pa bumi mu Zambia belafwaya abantu impendwa ukucila imintapendwa cine
-  konse-konse bacingiliwe ku bulwele bwa COVID-19. Iyi mpendwa, ni mupepi na citika
-  wa mpendwa ya bekala calo bonse mu Zambia.\\nBa Mutanuka Simbuwa, abali ne myaka
-  ya kufyalwa amakumi yasano na mutanda (56), kabili ababomfi ba mu musumba wa Lusaka,
-  batile inshindano ilakansha imibili ya bantu no kubacingilila ku kashishi kalenga
-  ubu ubulwele bwa COVID-19.\\nBa Mutanuka batile, \u201cIlyo naimwenene nemwine impendwa
-  ya bena mupalamano abengi abalwele no kufwa ku bulwele bwa COVID-19, nalisalapo
-  ukuicingila ne mwine, elyo no kucingilila ulupwa lwandi.\u201d\\nBa James Simpungwe,
-  aba mukabungwe ka CDC akalolekesha pa bumi mu musumba wa Lusaka batiile, ba CDC
-  balabombela pamo na babomfi ba bumi mu kufunda nokukoselesha abantu ukulaswa inshindano
-  ya kuicingilila ku bulwele bwa COVID-19. Elyo kabili balatungulula na bantu, ukubalanga
-  ifishinka pali ubu bwine bulwele; ifishinka ifyo fyalembwa na ba (WHO) ne cipani
-  cilolekesha pa bumi mu Zambia elyo na ba CDC.\\nIfisambilisho fimo nifi:\\n- Mwipelela
-  pa kubelenga fye imitwe ye lyashi.\\n- Fwailisheni ilyashi nokubebeta uko lifumine.\\n-
-  Cenjeleni na ba kasabankanya belyashi lyafumuka.\\nUkulingana ne fyasosa ba Simpungwe,
-  ba CDC baalisambilisha ababomfi ba bumi ukucila pa myanda isano (500) mu fitungu
-  fine (4) mu Zambia.\\nElyo kabili ba CDC balyafwilisha nokulemba ifipampa no tutabo
-  utulondolola pa bulwele bwa COVID-19, ukulundapo no kufunda abo abatebelelwa na
-  kashishi ka HIV, pantu bena kuti balwalisha nga cakuti baingililwa na COVID-19.
-  Impendwa ya bantu ukucila amakana yatatu (30,000) aba kwata akashishi ka HIV balilaswa
-  inshindano ya COVID-19.\\nBa Barbara Hara Musonda, abakwete imyaka ya kufyalwa amakumi
-  yane na itatu (43), kabili abali nabana bane (4), balisalapo ukulaswa inshindano
-  ya kuicingilila kuli COVID-19 panuma yakulanguluka pa fyo balufya ba lupwa lwabo
-  kuli ubu bwine bulwele bwa COVID-19.\\n\u201cNaalilaswa inshindano pakuicingilila
-  ilyo naletensha abalume bandi abafwile ku bulwele bwa COVID-19 ku chipatala ca ku
-  Chipata,\u201d efyasosele ba Musonda. Kabili ba Musonda balakoselesha na abantu
-  bambi nabo bene ukulaswa.\\n\u201cIyi nshindano isuma; tayakwata busanso,\u201d
-  efyasosele ba Musonda. \u201cNangula nalyumfwile umubili ukukalipwa pa numa ya kulaswa,
-  nomba nalikwata umutende pantu nalinsambilishiwe ifyo ninga cimfya ubwafya panuma
-  ya kulaswa.\u201d\\nBa Mthoniswa Banda, ba kalemba be lyashi batile ababomfi banabo
-  balilwele COVID-19, ukufika fye na mukuisanga mu chipatala \u2013 ukukabila ukundapwa.
-  Cili kwati bayambwile ubulwele ilyo baletensha umubomfi munabo uyo nao uwayambwile
-  ubulwele uko alesefya no lupwa lwakwe.\\n\u201cInshindano yakuicingilila eyampuswishe
-  ukuti nilwala ubulwele bwa COVID-19,\u201d efyasosele ba Banda abakwete imyaka ya
-  kufyalwa amakumi yane na isano (45). Baatile, \u201cPali bonse abo momba nabo mu
-  ofeshi, nine fye neka neushalwele nokufika muchipatala.\u201d\"", "\"Kani ulukulanguluka
-  ati cikosele ukucite\u2019filungeme?\u2014 Abantu abengi efi balanguluka. Baibolo
-  ilatubuula ati cali icikosele makosa ku musankwa Josaya ukucite\u2019filungeme.
-  Pano alikwete ababyakwe abaweme abamofweleko. Nga tusambililepo na fimbi pali Josaya
-  na pa babyakwe.\\nBawishi Josaya baali ni ba Amoni, imfumu ya baJuda. Amoni ali
-  umubipile kabili alukupempela ifibumbwabumbwa. Ili bawishi Josaya bafwile, eli Josaya
-  abele imfumu ya baJuda. Pano aali lukoso ne myaka 8! Kani ulukulanguluka ati ali
-  umubipile koti ni bawishi?\u2014 Koku, ye aali umuweme.\\nNeli aali umwanice, Josaya
-  alukufwaisha ukubomfwila baYehova. Na muli fyefyo, alisalile lukoso ababyakwe abatemenwe
-  baYehova. Kabili kabamofwako ukulukucita ifilungeme. Kani ni bani bamo bamo abali
-  ababyakwe Josaya?\\nUmo umubyakwe ali ni Sefaniya. Sefaniya ali wakushimika uwacenjeshe
-  abantu ba mu Juda ati ifibipile fyali ne kubacitikila kani balukupempela ifibumbwabumbwa.
-  Josaya alikutikile ukucenjesha kwakwe Sefaniya kabili alukupempela baYehova benka
-  lukoso.\\nUmbi umubyakwe Josaya ali ni Jelemiya. Tabapusenepo sana imyaka kabili
-  balukwikala cabe apepi ne kukulila pamo. Balitemwanshenye ukwakuti ica kweba ati
-  ili Josaya afwile, Jelemiya kaalemba ulwimbo ululibelele ulwalelabila ifi camubipiile
-  pakuti pa mfwa yakwe Josaya. Jelemiya na Josaya balukofwana ukucite\u2019filungeme
-  ne kumfwila baYehova.\\nJosaya na Jelemiya balukofwana ukucite\u2019filungeme\\nFindo
-  ungasambililako ku cakwebanako cakwe Josaya?\u2014 Neli Josaya ali umwanice lukoso,
-  alukufwaya ukucite\u2019filungeme. Alishibile ukweba ati alyelelwe ukuba ne babyakwe
-  abatemenwe baYehova. Na webo ulyelelwe ukupanga ababyobe abatemenwe baYehova kabili
-  abangakofwako ukucite\u2019filungeme!\""]'
+sample: '["\"Les \u00e9l\u00e9ments de menu en rouge contiennent des informations
+  r\u00e9cemment mises \u00e0 jour.\\nUno mwaku mbewakule misuusa ibungi mu esambi
+  dipya na awubusha kwela kwa binangu bibungi kwi bakumiine. Adama badi na ino nangunangu
+  kumpala kwaye bapu kulwisha sunga\u2019shi ngi mufikile nakwikala mwadi pa mwanda
+  wa kuluba kw\u2019aye ? Namono shi bino bibu kifwatulo bisumanga, mwanda su owula
+  kyamo kya kaalo bu kyamo kya kutumpa bilamba, munda mwakyo mwi bintu byoso bitulwe
+  pamune mwanda wakukita mufubo wa yawa mwikikite, akikatumika anka su mbekyele ku
+  mooshi wa sembwe ya kaalo. Bwabwa bukome bubamwenekyele mwi Adama aye bapu kulwisha,
+  byabya twikwamba\u2019shi kukutwa kwa muntu kukokyela djo kukabuushe kondo ka mw\u2019eshimba
+  ( nangunangu ) na kwikekasha na bukome.\\nMwaku \u00ab syneido \u00bb mu kyena ngidiki
+  na mu kupatula kwa myaku abewupa bipatulwilo bibungi bu kileshesho : mweno umune,
+  kumona kalolo, na kwikala na nangunangu yimune, kwabana kinangu kimune, na kwikala
+  na kyukilo kimune kya\u2026byabya abipatula kalolo\u2019shi, kwabana na bangi kyukilo
+  kikampanda, mungi awukye namu buube. Bino abimweneka mushalelo ya adama na Efa,
+  satana badi mulungule Efa\u2019shi : \u00ab su nwadya kino kikuba kyabadi benupeleshe,
+  enukekala buu Eloyime na anukabana n\u2019aye kyukilo kya buwa na bubi \u00bb mu
+  bino bishima mubadi eyendo, anka tadibadi eyendo dipyudikye nya, mwanda a wakula
+  C.H.Mackintosh ( atutentekyesha kinangu ) \u00ab mu kuuka kwa buwa anka tababaadi
+  na ngobesha ya kwibikita, na kuuka bubi anka kushi kupeta matalwa akwibupengama
+  \u00bb. Kibeba twadila kuushi kokyela kwabo, nkushimisha kwibungi ; kwibungi bukile
+  pee kyakya kituntwa kya muulo ukata kibebapeelwe efuku dya kufukibwa kwabo. Anka
+  abimweneka\u2019shi, kuushi kokyela kwabo kubekala bu mbote bakakisha kutentekyesha
+  eyi di munda mwabo. Kyukilo kyabadi bapete, bibafiki bu kutopekibwa ( kutshibilwa
+  Kiimu ) kukata ku kushikokyela kwa kikyebe kya mashimba abo.\\nUno mwaku mw\u2019angele
+  \u00ab con \u00bb awupatuula\u2019shi : ( pamune na ), na ( science ) kyukilo ky\u2019atwe
+  mu mwaku ( scrire ) kuuka. Eyi di munda mwa fumu Dafidi, dibafubile mwadi kunyima
+  kwa mulwisho waye na Bate-sheba na kwipaa mulum\u2019aye Udiya kubalongamishe\u2019ye.
+  Pabaadi mutemuki Natana balungula fumu Dafidi kushi kutshina pa mwanda wa bubi,
+  kondo ka mw\u2019eshimba dya fumu ka babangile kufuba na babungile bintu bu bubabidi.
+  Pabamono kilema kibakitshingine mukashi pa kwipaa mulum\u2019aye, kumpala a mwilo
+  na bikishekishe kwi mwanana. Bakula patoka\u2019shi : \u00ab kodi\u2019obe bupeka
+  na lubu na kitshi bubi ku meeso obe \u00bb kuno nkutonda kwa bubi kufubishwe na
+  eyi di munda di kitshibwe. Meso etu oso aamono bintu mu bipaso bilekeene, anka meeshi
+  emu boongo ( cerveau ), aa sanga bifwani mu kimune, abitupa kushindjika na ku shadika
+  kyakya kintu kibatumono.\\nByabya, kondo ketu ka mw\u2019eshimba, pakadi na kufukama
+  na kafubishwe, mu kipimo kya kwituleesha kipaso kini bintu abikitshika kwi bangi
+  betwifunyishe bino mbituleshiibwe kalolo kakile mu Yosefe pabaadi mukashi a potifala
+  atekye yosefe shi a lale n\u2019aye, yosefe bebituule mu kimonwa ki kula. Kumpalampala,
+  kibaadi \u00ab bubi kumpala Efile-Mukulu \u00bb na bibaadi kulwisha ku kifulo kibaadi
+  kimufule fumu\u2019aye, yosefe tamumone bifwani bibidi bikundakane, anka kondo ka
+  mw\u2019eshimba kafukame na akafubu kababungu byoso mu kifwani kimune kiseleele
+  na mweneno eseleele na mushikame. Yosefe baadi awuku\u2019shi ni mulwisho ukata,
+  kumpala aabo kutusha miya ekumi. Twina kituungo kya kwikala na kondo ka mw\u2019eshimba
+  ( nangunangu ) na kudimuka ! su tatunemeka eyi di munda mwetu misusa ibungi, adifiki
+  dipape na dishiina kapu mpaa n\u2019efuku dyadikashaala difunde ka byabya, kondo
+  k\u2019eshimba ( nangunangu ) dishadifubu muyile kikyebe ky\u2019Efile-Mukulu kibaadi
+  mulubuule.\\n145, Avenue du commerce, quartier Tshinsambi, commune de Kananga (Kasa\u00ef-Central,
+  RD Congo)\\nNotre Site Web copyright\u00a9 cers. Tous droit r\u00e9serv\u00e9s.\"",
+  "\"BEMBA: Bible\\nEphesians (Efeso) 6:10-18\\n10 Pakulekelesha ndeti, mulekoselela
+  mukwampana ne Mfumu na mu maka yaiko ayakalamba nganshi.\\n11 Fwaleni ifyanso fyakwa
+  Lesa fyonse. Lyena elyo mukakosa mukulwisha ubucenjeshi bwabipa ubwakwa Ciwa.\\n12
+  Pantu ubulwi bwesu tebwakulwisha abantu, lelo bwakulwisha bakateeka, abamaka, bakateeka
+  ba mfifi abe sonde lino, elyo ne mipashi yamaka iyabipa iyaba mu lwelele.\\n13 Kanshi
+  nomba ipangasheni ifyanso fyakwa Lesa, pakuti ilyo ubushiku bubi bukafika, mukamone
+  ukwansha umulwani. Elyo na panuma yakumulwisha, mukashale abakosa.\\n14 Kanshi mube
+  abakosa. Umushipi wakukaka mu musana, cishinka. Icela cakufimba pa cifuba, kuba
+  abakaele pa cinso cakwa Lesa.\\n15 Indyato shenu, kuba abaiteyanya kukubila Imbila
+  Nsuma iyileta icibote.\\n16 Kabili lyonse muleba ne cisumino, e nkwela yenu iyakushimishako
+  imifwi yamulilo iyo Ciwa afwinta.\\n17 Mulepokelela ukupususha kwakwa Lesa kwati
+  cimpompo cakufwala ku mutwe. Elyo mulepokelela amashiwi yakwa Lesa, e lupanga lwakwa
+  Mupashi.\\n18 Mulepepa lyonsefye. Mulelomba Lesa alemwafwako. Lyonse ilyo mulepepa,
+  muleleka Mupashi alemutungulula. Kanshi eico muli nokuba abaiteyanya, mwilatendwa
+  iyoo, mulepepelako na bamushilo bonse.\"", "\"1. Kani icebo icakufuma kuli baLesa
+  cindo?\\nBaLesa balafwaya abantu ukulukwikala abasangalele pa calo. Baalilengele
+  icalo na fyonse ifilimo ni pakuti balitemenwe abantunshi. Bukumo lukoso bakacita
+  ifikalengesha abantu bonse pa calo ukwikala bwino kuntangiile. Bakafumyapo fyonse
+  ifilengesha abantu ukupenga.\u2014Pendeni Jelemiya 29:11.\\nTakulipo ubuteko ubukonseshe
+  ukufumyapo bumbifi, amalwashi, ne mfwa. Pano kuli icebo iciweme. Bukumo, ubuteko
+  bwa baLesa bukapyana ukuteka konse ukwa bantunshi. Abantunshi bakalitemwesha ubutende
+  ne mweo uuweme.\u2014Pendeni Yisaya 25:8; 33:24; Danyeli 2:44.\\n2. Mba nindo icebo
+  iciweme cicindamine buno bukumo?\\nUkupenga kukashila lukoso ili baLesa bakonala
+  abantu ababipile pa calo. (Sefaniya 2:3) Pano ico ni lwisa cikacitika? Amashiwi
+  abaLesa aalishimikile pa fintu ifipensha abantunshi pali iino mpindi. Ifilukucitika
+  pali ino mpindi filalangisha ukweba ati bukumo lukoso baLesa bakashilisha ukupenga.\u2014Pendeni
+  2 Timote 3:1-5.\\n3. Kani findo twelelwe ukucita?\\nTulyelelwe ukusambilila pali
+  baLesa ukufuma mu Mashiwi abo, Baibolo. Ili koti ni nkalata batulembeele bawishifwe
+  ababutemwe. Ilatubuula ifitungekala bwino pali ino mpindi kabili na fyefyo ifitungaba
+  ne shuko lya kwikala umuyayaya pa calo. Fya cine, abantu bambi tabakatemwapo kani
+  babona ati mulukusambilila Baibolo. Pano pakuti baLesa balatulaya ati tukalukwikala
+  bwino, tatwelelwepo ukumfwila abantu bambi kani batukaanya ukusambilila.\u2014Pendeni
+  Ifisimpi 29:25; Ukufisulula 14:6, 7.\"", "\"\u201cAbafuuka e ba mano.\u201d\u2014AMAPI.
+  11:2.\\nINYIMBO: 38, 69\\n1, 2. Mulandu nshi umuntu uwali uwafuuka pa kubala bamukaniine
+  kuli Lesa? (Moneni icikope pa muulu.)\\nILYO SHAULI atendeke fye ukuteka mu Israele,
+  ali uwafuuka kabili abantu balemupeela umucinshi. (1 Sam. 9:1, 2, 21; 10:20-24)
+  Nomba ilyo papitile inshita, alicitile ifyalangile ukuti aleituntumba. Lintu kasesema
+  wa kwa Lesa, Samwele ashafikile bwangu mu Gilgali ukulingana ne nshita alingile
+  ukufikilapo, Shauli alifililwe ukulolela. AbaPelishiti baleipekanya ukuti balwe
+  nabo, kabili abena Israele batendeke ukusha Shauli. Shauli nalimo aletontonkanya
+  ukuti, \u2018Mfwile ukucitapo cimo bwangu bwangu.\u2019 E ico alituulile ilambo
+  kuli Lesa nangu ca kuti takwete insambu sha kutuula amalambo. Yehova tatemenwe ifyo
+  acitile.\u20141 Sam. 13:5-9.\\n2 Ilyo Samwele afikile mu Gilgali, alikalipile Shauli.
+  Nomba mu nshita ya kuti Shauli asumine ukuti alilufyenye, atendeke ukuipokolola,
+  alefwaya ukuifumya mu mulandu, no kulenga cimoneke kwati ifyo acitile tafyabipile
+  sana. (1 Sam. 13:10-14) Shauli atwalilile ukucita ifyalengele ukuti bamupoke ubufumu,
+  ne cabipishe ca kuti bucibusa akwete na Yehova bwalipwile. (1 Sam. 15:22, 23) Nangu
+  ca kuti pa kubala ali uwafuuka, Shauli alifililwe ukutwalilila ukuba uwafuuka.\u20141
+  Sam. 31:1-6.\\n3. (a) Finshi abantu abengi batontonkanya pa kuba uwafuuka? (b) Mepusho
+  nshi ayo tulingile ukwasuka?\\n3 Muli cino calo umo abantu batemwa ukucimfyanya,
+  abengi bamona kwati te kuti babe abafuuka e lyo pa nshita imo ine batunguluka no
+  kutunguluka. Ici cilenga basalapo ukukanaba abafuuka. Ku ca kumwenako, umwaume umo
+  uwalumbuka uwaleba mu mafilimu kabili uwaishileba politishani, alandile ati: \u201cNangu
+  cibe shani ine te kuti ntemwe ukuba uwafuuka, kabili nshileenekela ukuti nkaba uwafuuka.\u201d
+  Mulandu nshi ukuba uwafuuka kwacindamina? Bushe ukufuuka e kuti shani kabili ni
+  mwi umo ukufuuka kushalola? Na kabili kuti twatwalilila shani ukuba abafuuka nga
+  tuleeshiwa nelyo nga bantu baletupatikisha ukucita fimo? Muli cino cipande, twalayasuka
+  amepusho ya kubalilapo yabili. Mu cipande cikonkelepo e mo tukasuka icipusho calenga
+  butatu.\\nMULANDU NSHI UKUBA UWAFUUKA KWACINDAMINA?\\n4. Londololeni imicitile ya
+  kuituntumba.\\n4 Baibolo ilalanga ubupusano bwaba pa bafuuka na pa baituntumba.
+  (Belengeni Amapinda 11:2.) Davidi aebele Yehova ukuti \u2018amutalushe ku micitile
+  ya kuituntumba.\u2019 (Amalu. 19:13) Bushe \u201cimicitile ya kuituntumba\u201d
+  micitile nshi? Ukulingana na Baibolo, umuntu nga asuswa pa kucita ifintu nelyo acita
+  ifyo bashimupeele insambu sha kucita ninshi aituntumba. Apo tatwapwililika, limo
+  limo bonse tulaituntumba. Lelo nga filya cali ku Mfumu Shauli, nga twatwalilila
+  ukucita ifintu ifyo bashatupeela insambu sha kucita, tukasuka tukaleke ukuba ifibusa
+  fya kwa Lesa. Pa Amalumbo 119:21 patila: \u2018Mwebaula abaituntumba.\u2019 Mulandu
+  nshi Lesa ebawila abaituntumba?\\n5. Mulandu nshi imicitile ya kuituntumba yabipila?\\n5
+  Imicitile ya kuituntumba yalibipapo ukucila ukulufyanya ukwabula ukwishiba. Ica
+  kubalilapo, nga twaituntumba ninshi tatucindike Yehova, Mulopwe. Ica bubili ca kuti,
+  nga twacita ifyo bashitwebele, nalimo kuti twapusana na bantu bambi. (Amapi. 13:10)
+  Ne ca butatu ca kuti, nga caishibikwa ukuti twaituntumbile fye pa kucita ifintu
+  fimo, kuti twaumfwa insoni nelyo ukuseebana. (Luka 14:8, 9) Nga tuli ne micitile
+  ya kuituntumba, ififumamo tafiwama. Nga fintu Amalembo yalanda, ukuba abafuuka kusuma
+  sana.\\nBUSHE UKUBA UWAFUUKA KWALOLA MWI?\\n6, 7. Bushe ukuicefya e kuti shani,
+  kabili kwayampana shani no kufuuka?\\n6 Ukufuuka kwalyampana sana no kuicefya. Baibolo
+  itila umuntu uwaicefya taba ne cilumba. (Fil. 2:3) Ilingi line umuntu uwaicefya
+  ninshi no kufuuka alifuuka, aleshiba ukuti kwaliba ifyo ashingaba na maka ya kucita,
+  alasumina nga nalufyanya, e lyo alasumina ifyo bambi balanda pa fyo balefwaya ukucita
+  kabili nga balanda ifyo ashaishiba tominakumo. Nga tuli abaicefya tulalenga Yehova
+  alesekelela.\\n7 Baibolo itila umuntu uwafuuka aleshiba ifyo engacita ne fyo ashifwile
+  ukucita. Mu ciGriki ili shiwi lilosha mu kuti, umuntu alingile ukwishiba ifyo ifintu
+  acita fikuma abantu bambi.\\n8. Finshi twingeshibilako ukuti natuleka ukuba abafuuka?\\n8
+  Kuti twaishiba shani ukuti natutendeka ukutontonkanya nelyo ukuba ne micitile ya
+  kuituntumba? Natulande pali fimo ifyo twingeshibilako. Nalimo kuti twatendeka ukuimona
+  ukuti twalicindama sana nelyo ukuti imilimo tubomba yalicindama sana ukucila iyo
+  bambi babomba. (Rom. 12:16) Nalimo kuti twatendeka ukucita ifyo tushilingile ukucita
+  pa kuti fye abantu batubikeko amano. (1 Tim. 2:9, 10) E lyo limbi kuti twalafwaya
+  bambi basuminishe ifyo tulelanda pa mulandu wa kuti tulabomba imilimo imo iyo tumona
+  ukuti yalicindama, nelyo twalishibako bamo abakwata imilimo imo, nelyo pa mulandu
+  wa kuti tulefwaya fye bacite ifyo tuletontonkanya. (1 Kor. 4:6) Ilingi line kuti
+  twacita ifi ukwabula no kwishiba ukuti natutendeka ukuituntumba.\\n9. Finshi fyalengele
+  ukuti bamo batendeke ukuituntumba? Landeni pa bantu abalembwa mu Baibolo.\\n9 Umuntu
+  onse kuti aba ne micitile ya kuituntumba nga ca kuti atendeka ukuba no lunkumbwa
+  lwa mubili. Bukaitemwe, ulunkumbwa, no kukanalama ubukali kwalilenga abantu baba
+  ne micitile ya kuituntumba. Baibolo ilanda ukuti Abishalomu, Usia, na Nebukadnesari
+  bali ne \u201cmicitile ya muntu umubembu\u201d kabili apo baleituntumba, Yehova
+  alicitile ifyalengele beshibe ukuti balingile ukuicefya.\u20142 Sam. 15:1-6; 18:9-17;
+  2 Imila. 26:16-21; Dan. 5:18-21.\\n10. Mulandu nshi uo tushilingile ukulapingwila
+  abantu pa fyo bacita? Landeni pa bantu abalembwa mu Baibolo.\\n10 Kwaliba na fimbi
+  ifingalenga umuntu alaituntumba. Natulande pa malyashi yamo aya mu Baibolo ayaba
+  mu Ukutendeka 20:2-7 na muli Mateo 26:31-35. Bushe icalengele ukuti Abimeleke na
+  Petro baituntumbe ni co bali no lunkumbwa? Nelyo bushe tabaishibe ifishinka fyonse
+  nangu tabaleenekela ukuti e fyo ifintu fyalaba? Apo tatwakwata amaka ya kumona ifili
+  mu mitima ya bantu, tatulingile ukulalanda pa fyo tulemona ukuti nalimo e filengele
+  bacite ifintu fimo.\u2014Belengeni Yakobo 4:12.\\nUMULIMO MWAKWATA MU CILONGANINO
+  CA KWA LESA\\n11. Bushe ukufuuka kwayampana shani no kwishiba umulimo twakwata mu
+  cilonganino ca kwa Lesa?\\n11 Umuntu uwafuuka aleshiba umulimo akwata mu cilonganino
+  ca kwa Lesa. Apo Yehova te Lesa wa cimfulumfulu, alipeela bonse umulimo mu ng\u2019anda
+  yakwe. Umulimo cila muntu abomba mu cilonganino waliibela, lelo bonse twalicindama.
+  Pa mulandu wa cikuuku cakwe, Yehova alitupeela ifya bupe ifyalekanalekana, bamo
+  balicenjela mu fintu fimo e lyo bambi balishiba ifya kubomba bwino imilimo imo.
+  Kanshi kuti twabomfya ifya bupe twakwata ku kucindika Lesa na ku kwafwa aba bwananyina.
+  (Rom. 12:4-8) Yehova alitupeela umulimo uulanga ifyo atucindika, ne fyo atucetekela.\u2014Belengeni
+  1 Petro 4:10.\\n12, 13. Mulandu nshi uo tushingapapila nga ca kuti imilimo tubomba
+  mu cilonganino ca kwa Lesa yayaluka?\\n12 Na lyo line, imilimo tubomba mu cilonganino
+  ca kwa Lesa mu kupita kwa nshita ilaaluka. Natulande pali Yesu. Pa kubala, Yesu
+  na Yehova bali fye babili. (Amapi. 8:22) Lyena Yesu atendeke ukwafwa Yehova ukubumba
+  bamalaika, umuulu ne sonde, e lyo na bantu. (Kol. 1:16) Na lyo line ilyo papitile
+  inshita, Yesu balimupeele umulimo umbi pano isonde, abalilepo ukuba akanya e lyo
+  akula. (Fil. 2:7) Pa numa ya mfwa yakwe, Yesu alibwelele ku muulu no kuba icibumbwa
+  ca mupashi na kabili ku kuba Imfumu ya Bufumu bwa kwa Lesa mu 1914. (Heb. 2:9) Lelo
+  umulimo wakwe ukaluka na kabili, pa numa ya Myaka Ikana Limo, Yesu akabwesesha Ubufumu
+  kuli Yehova pa kuti \u201cLesa akabe fyonse kuli bonse.\u201d\u20141 Kor. 15:28.\\n13
+  Na ifwe bene tulingile ukulaenekela ukuti umulimo tubomba kuti wayaluka pa mulandu
+  ne fyo twingapingulapo ukucita. Ku ca kumwenako, nalimo mwali abashimbe e lyo mwaupa
+  nelyo ukuupwa. Nelyo nalimo kuti mwatendeka ukukwata abana. Nalimo apo na mukula,
+  kuti mwayangushako imikalile pa kuti mulebomba umulimo wa nshita yonse. Ifyo umuntu
+  engapingulapo muli ifi fyonse twalandapo kuti fyalenga akwata imilimo na imbi. Ifintu
+  nga fyayaluka mu bumi bwesu, kuti calenga twabombako imilimo iingi nelyo twaleka
+  ukubomba imilimo imo iyo twalebomba. Nampo nga tuli bacaice nelyo nga tuli bakalamba,
+  nga twaliba no bumi ubusuma nelyo nga tulalwalilila, Yehova alishiba imilimo engatupeela
+  mu cilonganino cakwe. Yehova afwaya tulebomba apo twingapesha, kabili alatasha icine
+  cine pa fyo tumubombela.\u2014Heb. 6:10.\\n14. Bushe ukuba abafuuka kuti kwalenga
+  shani twaba ne nsansa mu mulimo tubomba?\\n14 Yesu aleba ne nsansa mu milimo yonse
+  iyo alebomba, kabili na ifwe bene kuti twaba ne nsansa mu milimo iyalekanalekana
+  iyo twingabomba. (Amapi. 8:30, 31) Umuntu uwafuuka alatemwa umulimo uo abomba mu
+  cilonganino. Tomfwa ububi bambi nga babapeela imilimo imbi mu cilonganino. Lelo
+  abika fye amano ku mulimo abomba kabili alaba ne nsansa pantu alishiba ukuti uwamupeela
+  uyo mulimo ni Yehova. Na kabili amona ukuti imilimo iyo Yehova apeela bambi yalicindama.
+  Nga tuli abafuuka tukalacindika abantu bambi kabili tukalabatungilila.\u2014Rom.
+  12:10.\\nIFYO TULINGILE UKUMONA UBUFUUKE\\n15. Finshi tulesambilila kuli filya Gideone
+  ali uwafuuka?\\n15 Gideone alecita ifyalelanga ukuti ali uwafuuka kabili tulingile
+  ukumupashanya. Ilyo malaika wa kwa Yehova aile kuli ena, Gideone aebele malaika
+  ukuti tafikilepo ukubomba umulimo amupeele. (Abapi. 6:15) Ilyo Gideone asumiine
+  ukubomba mulimo Yehova amupeele, alishininkishe ukuti naumfwikisha ifyo alingile
+  ukubomba umulimo kabili alefwaisha ukuti Yehova alemutungulula. (Abapi. 6:36-40)
+  Nangu ca kuti Gideone ali uwa maka kabili uwashipa, pa kubomba umulimo ali uwacenjela
+  kabili ali uwa mano. (Abapi. 6:11, 27) Talefwaya ukulumbuka pa mulandu no mulimo
+  bamupeele. Ilyo apwishishe ukubomba umulimo uo Yehova amupeele, alibwelelemo ku
+  mwakwe.\u2014Abapi. 8:22, 23, 29.\\n16, 17. Finshi umuntu uwafuuka atontonkanyapo
+  nga alefwaya ukulunduluka mu fya kwa Lesa?\\n16 Ukuba uwafuuka tacipilibula ukuti
+  tatulingile ukulafwaisha ukubomba imilimo mu cilonganino nelyo tulingile ukulakaana
+  nga batupeelelapo imilimo na imbi. Amalembo yatukoselesha ukulalunduluka. (1 Tim.
+  4:13-15) Bushe pa kuti tulelunduluka kano fye batupeela umulimo umbi? Nakalya. Yehova
+  kuti atwafwa ukulunduluka nangu fye tabatupeele umulimo umbi. Kuti twatwalilila
+  ukuwamyako imibele yesu e lyo ne fyo tubomba umulimo batupeela pa kuti tulebombela
+  bwino Yehova e lyo na ba bwananyina.\\n17 Ilyo umuntu uwafuuka ashilasumina ukubomba
+  umulimo bamupeela, alabala aishiba ifyo alingile ukuubomba. Lyena alamona nga kuti
+  abomba. Ku ca kumwenako, bushe nga asumina ukubomba imilimo na imbi, akaibomba bwino
+  ukwabula ukulekelesha ifintu fimbi ifyacindama? Bushe kuti apeelako bambi imilimo
+  imo pa kuti alebomba bwino umulimo umbi uo bamupeela? Umuntu uwafuuka nga amona
+  ukuti te kuti abombe umulimo bamupeela, alalekela bambi abengaubomba bwino. Nga
+  twalifuuka tatwakalesumina ukubomba umulimo onse fye uo batupeela.\\n18. (a) Bushe
+  nga twalifuuka kuti twacita shani nga batupeela umulimo umbi? (b) Bushe umuntu uwafuuka
+  kuti abomfya shani ifyaba pa Abena Roma 12:3?\\n18 Ifyo Gideone acitile fitusambilisha
+  ukuti nga batupeela umulimo umbi tulingile ukuleka Yehova aletutungulula no kutupaala.
+  Na kuba, Baibolo itweba \u201cukwenda bufuuke bufuuke na Lesa [wesu].\u201d (Mika
+  6:8) Kanshi lyonse ilyo twapeelwa imilimo, tulingile ukupepa no kutontonkanya sana
+  pa fyo Yehova atweba mu Cebo cakwe na mu cilonganino cakwe. Tulingile ukwaluka pa
+  kuti tulemona ifintu nge fyo Yehova afimona. Tufwile ukulaibukisha ukuti ukuicefya
+  kwa kwa Yehova e \u2018kutukusha.\u2019 (Amalu. 18:35) Nga twalaenda bufuuke bufuuke
+  na Lesa, tatwakulamona ukuti twalicindama sana nelyo ukuti tuli ba panshi sana.\u2014Belengeni
+  Abena Roma 12:3.\\n19. Cinshi tulingile ukubela abafuuka?\\n19 Umuntu uwafuuka alapeela
+  Yehova umucinshi uo alingwa ukupeelwa pantu Yehova e Kabumba wesu kabili e Mulopwe
+  wa Bubumbo bonse. (Ukus. 4:11) Ukuba abafuuka kulatwafwa ukuba ne nsansa no kulabombesha
+  mu mulimo Lesa atupeela mu cilonganino cakwe. Ukuba abafuuka kukalenga tukalecindika
+  abantu, kabili kukalenga tukekatane na ba bwananyina. Nga tuli abafuuka tukalatontonkanya
+  pa fingawamina bambi kabili tukalatontonkanya pa fyo tulefwaya ukucita pa kuti twilalufyanya.
+  Uyu e mulandu ukufuuka kwacindamina ku bantu ba kwa Lesa kabili Yehova alitemwa
+  bonse abafuuka. Bushe kuti twaba shani abafuuka na lintu tuleeshiwa? Icipande cikonkelepo
+  cikatwafwa ukwishiba ifyo twingacita.\"", "\"Bbaibbele Lili a Intaneti | BBAIBBELE
+  LYA BUSANDULUZI BWANYIKA MPYA\\n6 \u201cAmucenjele kuti mutaciti bululami bwanu
+  kumbele lyabantu kutegwa bamubone;+ buyo-buyo, tamukabi abulumbu kuzwa kuli Uso
+  uuli kujulu.\\n2 Aboobo ciindi nomupa zipego zyaluse, mutanoolizyi mweembo kumbele
+  lyanu mbubonya basikuupaupa ameso mbobacita muzikombelo amunzila kutegwa batembaulwe
+  abantu. Ncobeni ndimwaambila kuti, batambwida limwi bulumbu bwabo boonse.\\n3 Pele
+  nywebo, nomupa zipego zyaluse, janza lyanu lyalumwensyi litazyibi ncolicita janza
+  lyalulyo,\\n4 kutegwa zipego zyanu zyaluse zitabonwi abantu. Mpoonya Uso uubona
+  zisisidwe uyoomupa bulumbu.+\\n5 \u201cAlimwi ciindi nomupaila, mutanoociti mbuli
+  basikuupaupa ameso,+ nkaambo balayanda kupaila kabaimvwi muzikombelo ampoiswaanganina
+  migwagwa mipati kutegwa babonwe abantu.+ Ncobeni ndimwaambila kuti, batambwida limwi
+  bulumbu bwabo boonse.\\n6 Pele ciindi nomupaila, amunjile mu\u014banda yanu, alimwi
+  mwajala mulyango, amupaile kuli Uso uutalibonyi.+ Mpoonya Uso uutalibonyi uyoomupa
+  bulumbu.\\n7 Ciindi nomupaila, mutanikwaambi majwi ngoonya cakwiinduluka-induluka
+  mbuli bantu bamasi mbobacita, nkaambo bayeeya kuti bayoomvwugwa ikuti babelesya
+  majwi manji.\\n8 Aboobo mutabi mbuli mbabo, nkaambo Uso ulizyi zintu nzyomuyandika+
+  kamutaninga akumulomba.\\n9 \u201cAboobo mboobu mbomweelede kupaila:+\u201c\u2018Taateesu
+  ooli kujulu, alisalazyigwe+ zina lyako.+\\n10 Abuboole Bwami bwako.+ Akucitwe kuyanda
+  kwako+ ansi aano+ mbubonya mbuli kujulu.\\n11 Kotupa sunu cakulya cesu cabuzuba
+  obuno;+\\n12 alimwi kotulekelela zibi zyesu, mbubonya andiswe mbotubalekelela batubisyila.+2\\n13
+  Alimwi utatunjizyi mumasunko,+ pele utuvwune kumubi.\u2019+\\n14 \u201cNkaambo kuti
+  kamulekelela bantu milandu yabo, awalo Uso uuli kujulu uyoomulekelela;+\\n15 pele
+  kuti kamutalekeleli bantu milandu yabo, awalo Uso takamulekeleli milandu yanu.+\\n16
+  \u201cCiindi nomuliimya kulya,+ amuleke kusyulungana kumeso mbuli basikuupaupa ameso,
+  nkaambo balabisya kumeso ikutegwa balibonye kubantu kuti baliimya kulya.+ Ncobeni
+  ndimwaambila kuti, batambwida limwi bulumbu bwabo boonse.\\n17 Pele nywebo ciindi
+  nomuliimya kulya, amunane mafwuta kumutwe akusamba kumeso,\\n18 ikutegwa mutalibonyi
+  kuti muliimya kulya kubantu pele kuli Uso buyo uutalibonyi. Mpoonya Uso uubona zisisidwe
+  uyoomupa bulumbu.\\n19 \u201cAmuleke kuliyobweda lubono anyika,+ aawo mpoluligwa
+  zyuuka ankalaya alimwi ababbi mpobanjila akubba.\\n20 Muciindi caboobo, amuliyobwede
+  lubono kujulu,+ kwalo nkolutaligwi azyuuka naa nkalaya+ alimwi ababbi nkobatanjili
+  akubba.\\n21 Nkaambo ooko kuli lubono lwako, awalo moyo wako nkuuyooba.\\n22 \u201cLiso
+  ndelambe lyamubili.+ Ikuti liso lyako kalilangide buyo acintu comwe, mubili wako
+  woonse ulaba mumumuni.\\n23 Pele ikuti liso lyako kalilaamunyono,+ mubili wako woonse
+  ulaba mumudima. Ikuti liso ilyeelede kuleta mumuni kumubili lyabija akutalika kuleta
+  mudima, mubili woonse ulaba mumudima uusiya mbi.\\n24 \u201cTaakwe uukonzya kubelekela
+  basimalelo bobilo; nkaambo uyoosula umwi akuyanda umbi,+ naa uyoosyomeka kuli umwi
+  akusampula umbi. Tamukonzyi kubelekela Leza alimwi a Lubono.+\\n25 \u201cAkaambo
+  kaceeci ndimwaambila kuti: Amuleke kulibilika+ kujatikizya buumi bwanu kuti naa
+  muyoolya nzi naa kuti muyoonywa nzi, noiba mibili yanu kuti muyoosama nzi.+ Sena
+  buumi tabuyandiki kwiinda cakulya amubili kwiinda zyakusama?+\\n26 Amulangisye bayuni
+  bauluka mujulu;+ tabasyangi mbuto naa kutebula nokuba kuyobola mumatala, nokuba
+  boobo Uso wakujulu ulabasanina. Sena tamuyandiki kwiinda mbabo?\\n27 Nguni akati
+  kanu kwiinda mukulibilika uukonzya kuyungizya buumi bwakwe naaceya?+\\n28 Alimwi
+  nkaambo nzi ncomulibilika amakani aazisani? Amwiiye kumaluba-luba aamusyokwe mbwaakomena;
+  taabeleki nokuba kusuma;\\n29 pele ndimwaambila kuti naba Solomoni+ mubulemu bwakwe
+  boonse kunyina naakasamide mbuli limwi lyayaaya.\\n30 Lino ikuti naa Leza mbwazisamika
+  oobu zimena musyokwe iziliko sunu pele juunza zyayuma akusowelwa mumulilo, sena
+  takaindi kumusamika nywebo, nywebo nobasilusyomo luniini?\\n31 Aboobo mutanoolibiliki+
+  akwaamba kuti, \u2018Ino tuyoolya nzi?\u2019 naa, \u2018Ino tuyoonywa nzi?\u2019
+  naa, \u2018Ino tuyoosama nzi?\u2019+\\n32 Nkaambo zyoonse eezyi, nzyezintu bamasi
+  nzyobayandaula kapati. Uso wakujulu ulizyi kuti muyandika zintu eezyi zyoonse.\\n33
+  \u201cAboobo, amuzumanane kusaanguna kuyandaula Bwami abululami bwakwe, eelyo zintu
+  zimbi zyoonse eezyi ziyooyungizyigwa kulindinywe.+\\n34 Aboobo mutanoolibiliki zyabuzuba
+  butobela,+ nkaambo buzuba butobela bunoojisi zyakulibilika zyambubo. Buzuba bumwi
+  abumwi bulijisi mapenzi aambubo aakkwene.\"", "\"Mungelo Gabuliyele wakatumwa kumusimbi
+  mubotu moyo wazina lya Maliya. Wakamwaambila kuti uya kutumbuka mwana uuya kulela
+  kali mwami kukabe akutamani. Mwana Jesu wakazyalilwa muluba lwa\u014bombe ooko beembezi
+  nkobakaunka kumubona. Kumane nyenyezi yakasololela bantu kuzwa Kujwe kuya kumwana.
+  Tulaiya wakapa kuti babone nyenyezi eeyo, alimwi Jesu mbwaakafwutulwa kuli yooyo
+  wakali kuyanda kumujaya.\\nCabili, tulabona Jesu naakajisi myaka iili 12 kaambaula
+  abafwundisi mutempele. Kwiinde myaka iili 18 Jesu wakabbapatizyigwa, kumane wakatalika
+  kukambauka makani aabwami alimwi amulimo wakuyiisya zyeezyo Leza nzyaakamutumina
+  anyika kuti acite. Kutegwa Jesu agwasyigwe mumulimo ooyu, wakasala bantu bali 12
+  akuba baapositolo bakwe.\\nAlimwi Jesu wakacita maleele manji. Wakasanina maunda-maunda
+  aabantu kwiinda mukubelesya nswi azinkwa zisyoonto buyo. Wakaponya baciswa alimwi
+  wakabusya bafwide. Camamanino, tulaiya zintu zinji zyakacitikila Jesu mumazuba aakumamanino
+  aamubuumi bwakwe alimwi ambwaakajaigwa. Jesu wakakambauka kwamyaka iili yotatwe
+  acisela, aboobo CIBEELA 6 caamba ciindi camyaka iinda buyo asyoonto ku 34.\"", "\"Umwaka
+  ne mwaka, tulafwaisha ukusambishiwa ifya baLesa ifi tulitemwesha pe bungano lye
+  besa. Pa kweba ati abantu bambi nabo bakalibwene ukuwama kwa baYawe, tulyelelwe
+  ukupyungisha apapelele amakosa esu ukubeeta ukwisa mu kubungana na fwebo. (Amasa.
+  34:8) Abakulu ba mwi Kelesha bakasalulula inshila iingapyunga bwino pa kwita abantu
+  abengi kwi bungano.\\nIFI MWELELWE UKWALAKANYAPO\\nNi lwisa kukaba ibungano lyesu
+  ilye besa?\\nNi lwisa tukatatika ukwita abantu kwi bungano?\\nNi lwisa kukalukuba
+  ukukumana kwa kuya mu kutulisha?\\nFindo ndukufwaisha ukucita mu mpindi ya kampeni?\\nNi
+  bani ndukufwaya ukwita?\\nMUNGALABILA SHANI?\\nPanuma ya kubasekela, mungalabila
+  ati:\\n\u201cTulukupyungako umulimo uulukupyungwa mu calo conse uwa kwita abantu
+  ku kubungana ukucindeme. Utusuba, impindi, ne mupunda fililembelwe pa kapepala aka.
+  Tukatemwa ukumuboneni mwaisa.\u201d\\nMUNGOFWAKO SHANI ABALUKUFWAYA UKUSAMBILILA?\\nNangaba
+  ati tulukufwaya ukwita abantu abakuti ubwingi ukwisa kwi bungano, tulyelelwe ukulyanshika
+  ukofwako abalangisha ati balukufwaya ukusambilila.\\nPa cibelu na pa mulungu, mungapeela
+  abantu makashini pamo ne kapepala ka kubetilapo kwi bungano.\"", "\"Bukambausi Bwaangulukide:
+  Kocenjela Webo Utacegwi Mukooze!\\nKuti nikwali kunga kuli bulumbu bupedwa makanze
+  mabotu pele oobo bulumbu kabulaa ntenda, ncobeni Hastein Ragnarsson awalo naakapegwa
+  kusyoonto buyo. Hastein wakali Sibwato. Walo wakalaa bulyato bwa golide, bulemu
+  akuluulwa kuti nguwaakoma munzi wa Loma. Aboobo mumwaka wa AD 859, wakatalika musinzo
+  amato aali 62 kubunganya golide, bulemu akubaa mpuwo kapati.\\nKumatalikilo, kusaala
+  akunyanga zintu, tiikwakabeendela kabotu. Pele, kwiinda mukwiinduluka kucita cintu
+  eeco, bakalondoka alimwi kabataninga sika kulwizi lwa Mediterraneani, bakali zwidilide
+  kapati mumulimo ngubaaslisalila ooyu.\\nBakali babi! Bakali kuyoosya! Bakali BASIMATO!\\nNibaasika
+  mumunzi wa Loma, bakaucingilila kabataninga talika kulwana. Eelyo nibakaalilwa kudonkola
+  bwaanda buyumu bwakayakidwe cabulondo nokuba kuti bwakali cembeede, Hastein wakabunganya
+  balombwana bakwe akutalika kukanza nzila iimbi yakunjila mukati kamunzi ooyu.\\nBuzuba
+  bwakatobela, Hastein wakatolwa kumilyango yamunzi ooyo, kalazyikidwe abulo. Basikalumamba
+  bakwe bakoompolweda ba Loma kuti: \u201cAmutugwasye! Simalelo wesu Hastein uyanda
+  kufwa. Walo uyanda kubbapatizyigwa kuti abe muna Kristu kataninga fwa.\u201d\\nEeci
+  cakabaletela kaambo ncobeni ba Loma. Kujanza limwi, tiibakali kuyanda kunjizya sinkondonyina
+  mumilyango yamunzi ooyo. Pele kujanza limwi, mbubuti mbubakali kunga balyaamba kuba
+  bana kristu kumwi kabakakila muntu uutazyi leza kuti ajane lufutuko? (Aboobo mbobakali
+  ba Loma, kutali ba giliki, inga twabalekelela kuti tiibakaninga mvwa makani aabbiza
+  lyakabambidwe amapulanga pele mukati kalyo kwakasisidwe basikalumamba.)\\nAboobo,
+  ba Loma bakajula milyaango akunjizya kabunga kasyoonto ka Basimato kuti bamutole
+  musololi wabo kucikombelo. Naakamanizya kubbapatizyigwa akutambula zyoonse zimupa
+  kuba mukristu, Hastein wakapona camaleele! Wakamwantuka kwiimikila amaulu aakwe,
+  mpoonya walo abalombwana bakwe bakalwana kuyaa kujaya bantu kutozya kumilyango yamunzi
+  ooyo akuyoonjizya nkamu yabasikalumamba aabo bakaceede anze lya munzi. Kakutaninga
+  sika mangolezya, munzi wa Loma wakamanina kudilimunwa\u2026\u2026Mpoonya aawo Hastein
+  wakamvwa kuti ooyo munzi ngwaakamvwampa boobu, tiiwakali munzi wa Loma pele wakali
+  munzi wa Luna. Munzi wa Loma wakacili bamaile bali 250 kulaale kuzwa waawo!\\nOoku
+  kwakali \u201ckulubizya kwakufubaala ncobeni.\u201d Kakwiina kudonaika, cakaba cintu
+  cisesya kubantu bakali kulangilizya kwiinda baabo bakali kulwana!\\nMangwalo atuletela
+  mukonzyanyo uukonzyana ayooyu, mukonzyanyo \u201cwakulubizya kusesya ncobeni.\u201d
+  Kuti muntu walanga ciindi citaanzi, bweende bwazintu mukaano aaka inga kwalibonya
+  aanga nzipekupeku zisezya eezyo zibambilwa bana basyoonto. Eeci cibalo cisoleka
+  kupandulula mbocili cibi cintu cimwi alimwi cibelesya mabala aayo mukaambo aaka:
+  \u201cMbuli mwaalumi wakatija syuumbwa, mpoonya wakaswaanganya malama naakali kutija;
+  wakapilukila ku\u014banda yakwe, eelyo naakasika ooko akuyaamika kwaanza kwakwe
+  abwaanda, yakamuluma nzoka.\u201d (Amosi 5:19, KJV)\\nAaka kaano ncintu cisesya
+  mbuli kaano kamwi alimwi: mumabbuku aalembwa zintu zisesya, kuli kaano kamuntu wakali
+  kubalika ncobeni, kwaimpana tukokola walo kagama kulubazu lumwi kutija syuumbwa
+  naa mulavwu, mpoonya inga azyikulange nkwatijila kumbele kwiimvwi malama ulindila
+  nguwe; Maccu, hena nkulyatisya mabbuleki kwaakusuba mulilo kutusindi twakwe akucenguluka.
+  Citobela waawo, citondezya miindi yakwe kayiimpana kubalika ikoya masipoko aancinga
+  naa namutendele, ma! maulu nkwaapilingana kubalika kwalunda kasuko, kayaa kulileba
+  kutijila kuzyuli lya \u014banda yakwe akusindaila cijazyo camulyango kuti cijatisye,
+  kutanjili munyama naba omwe. Moyo ucibbubba pele uyaa kukkalwa camba, lino watetebala
+  ansi munsaa bwaanda kuti alyookezye, mpoonya aawo ayalo nzoka yalibonena, yagoma
+  kukwaanza mpeenya aawo mpakkede. Aaka nkaano kamvwikaanga kakonzya buyo kucitika
+  mumizeezo yamuntu yakweezyeezya, kakatondezyegwa muzifwanikiso zyakukkomanisya bana,
+  alimwi nkaano kagwagwamusya kusesya bana basyoonto kwamisela minjaanji eelyo nobalangilizya
+  cipekupeku cakaano aako.\\nPele kuti aaka kaano kabalwa mubwini, koonse kuseka inga
+  kwazima. Inga amasusu aimikila kuyoowa kwalo. Eeci cibalo cipandululwa mukaano aaka,
+  ncecintu zyuuluzuma zyabantu atalaa nyika ncobalangila kucitika! Pele, aaka nkaano
+  kamusyobo wiimpene. Takali buyo kaano kakukkomana akulangila, pele nkaano kakuyoosya
+  amanyongwe.\\nMukampango katobela, eelyo nokabalwa kabotu kabotu, kaamba kuti:\\nMaawe
+  kuli ndinywe nomuyandisya buzuba bwa Yahuwah! Mulangila nzi abuzuba oobo kuli ndinywe?
+  Buzuba bwa Yahuwah bulaa musinze, alimwi kutali mumuni. Buli mbuli mwaalumi uutija
+  syuumbwa naa mulavwu, mpoonya waswaanganya malama; nokuba kuti waunka mu\u014banda
+  yakwe, alimwi eelyo naciyeeme kubwaanda inzoka yamuluma. Hena buzuba bwa Yahuwah
+  inga tiibwabaa mudima, kuleka mumuni? Alimwi akusiya mbi kakwiina cilibonya, nokuba
+  kubalangala mumuni muli mbubo? (Amosi 5:18-20, KJV)\\nKoima musa, lindila kasyoonto.
+  Waamba kuti nzi mushinshimi aawa? Aaka takali kaano kamasesya kabufubafuba pe. Kapandulula
+  \u201cbuzuba bwa Yahuwah\u201d! Oobo buzuba bwaambwa mukaano aaka, bwaambilizya
+  Kuboola Kwabili, alimwi ncobeni, kalaambilizya aciindi ca mapenzi eeco cisolweda
+  buzuba bwakulalala, oobo mbobuzuba bwa Kuboola Kwabili. Kukabelesya munzila eeyi,
+  ncintu citeeleleka kuti oobo buzuba bwa Yahuwah, buyoosika kabutilimuna akuyoosya
+  myoyo yoonse. Cintu ciinda zyoonse muciindi camapenzi mapati, eelyo manyongwe naani
+  kucitika, ncintu ciinda kubaa manyongwe cakuti Mangwalo aambilizya ncico kuti nciindi
+  ca \u201cmapenzi ookwa Jakobo.\u201d\\nPele nokuba boobo, eeci cibalo, cilitobedwe
+  acisyomyo cakuvwunwa: \u201cMaccu kaka! Nkaambo oobo mbuzuba bwakukalala, alimwi
+  kwiina buzuba bweelene ambubo: alimwi nceciindi camapenzi ookwa Jakobo, pele walo
+  uyoovwunwa kuzwa muli mbubo.\u201d (Jelemiya 30:7, KJV)\\nEeci cibalo cili mubbuku
+  lya Amosi caamba cintu ciimpene ali ceeci caambwa kale. Cintu caambwa eeco cilaa
+  ntenda kapati, alimwi kunyina cintu cikonzya kuubaubya cibalo eeco. Nkucenjezya
+  kugaminide. Kunyina acimbi pele nkugaminina kucenjezya muntu.\\nCintu ciinduluka
+  kwaambwa mukucenjezya kwa Amosi ncakuti, oobo buzuba bwa Yahuwah bulaa mudima kutali
+  mumuni. Alimwi eeco ciindi, ciluundulukide kwaambwa. Kufumbwa ciindi cintu cimwi
+  nociinduluka kwaambwa mu Mangwalo, caambilizya kuti mbombuboobo Yahuwah mbwayanda
+  kuti citeelelwe, aboobo webo weelede kusinsimuka, jula meso aako akubikkila maanu
+  aawa. Joseph wakapandulula mulazyo ooyu kuli Pharaoh kuti: \u201cAlimwi nkaambo
+  eeco ciloto cakaindulukwa kuli Pharaoh ziindi zyobile; nkaambo kakuti eeci cintu
+  ciligantidwe kucitika a Yahuwah, alimwi Yahuwah uyoocilekela kuti cicitike mukaindi
+  kasyoonto.\u201d (Matalikilo 41:32, KJV)\\nZiindi zyotatwe, kucenjezya kwa musinze
+  kulipedwe mubbuku lya Amosi. \u201cMaawe kuli nduwe ooyandisya buzuba bwa Yahuwah!...Buzuba
+  bwa Yahuwah mudima, kutali mumuni\u2026 Hena inga buzuba bwa Yahuwah bwaba mudima,
+  alimwi kutali mumuni? Nuuba musinze uusiya ncobeni kuti mbi, alimwi kakwiina mumuni
+  muli nguwo?\u201d (Amosi 5:18-20, KJV) Kufumbwa ncoyaambilizya ntenda eeyo, ncintu
+  cili masimpe cilaa ntenda kapati kumuya wamuntu. Kunyina cintu cisesya antenda iili
+  boobu. Eeyo ntenda nkwiili ncobeni.\\nPele ino mbubuti musinze mbuunga wabaa ntenda?
+  Aboobo, mwezi wakasiya alimwi zuba talikabali. In nkaambo nzi? Jelemiya utusyomya
+  kuti baluleme bayoovwunwa kuzwa muntenda eeyo!\\nNtenda yaambwa waawa tiili yamudima
+  uubonwa ameso pe: Musinze wamumoza, alimwi ooyu ngomudima wiinda kubaa ntenda ali
+  woonse. Davida wakalemba kuti: \u201cIjwi lyako ndilambe kumaulu aangu, alimwi mumuni
+  wamunzila yangu.\u201d (Intembauzyo 119:105, KJV) Kuti jwi lyokwa Yahuwah, lyalo
+  lili nkakasimpe, kalyaambwa kuti mumuni, nkabela caambilizya kuti \u201cmusinze\u201d
+  inga kaciiminina kulubila kuyaamukide Mangwalo. Ntenda mpati iilangene abantu bokwa
+  Yahuwah muciindi camapenzi nja kulubila mumoza. Eeyi nintenda itaambiki cakuti Amosi
+  ulibonyaanga takonzyi kulilesya kwiindulika kwaambilizya ntenda eeyo limwi a limwi.\\nOoku
+  nkuncenjezyegwa kutalangilwi pe! Tee kayi, Gaburieli wakasyomezya Daniele kuti:
+  \u201cLuzyibo luyooyungizyigwa.\u201d (Daniele 12:4, KJV)\\nLino mbokuyaa kuba mumuni
+  uuyungizya kumwekesya, kuciyaa kuba ntenda yiindila kukalala eelyo bantu nobayaa
+  kuliiba akulikwaya, kakwiina kubikkila maanu zintu ziyandika. Kulidunda kwabantu
+  baku Laodiceya kwakali kwakuti, balivwubide, balaa zintu zinjaanji, alimwi kunyina
+  ncobabulide, kakuli Kamboni Wamasimpe walo waamba kuti: \u201cWebo ulisofweede,
+  alimwi ulipengede, alimwi uli mucete, alimwi uli moofu, alimwi ulaa mantanda.\u201d
+  (Ciyubunuzyo 3:17, KJV)\\nCintu ciinda boofu bwamoza oomo muntu mwakonzya kulijana
+  mazubaano, teesyi kusyoma mucintu cilubide comwe buyo pe. Cintu cini nca kulisumpula
+  mukulyaamba kuti ulizyi kale tusimpe toonse tuyandika kuti akafutulwe. Ooku kulisumpula
+  kwamusyobo ooyu kusolweda muya wamuntu kuntenda iitobela waawo, yalo eeyo yiinda
+  kukalala. Eelyo muntu nasyoma kuti ulizyi kale mumuni woonse uuyandika kuti akafutulwe,
+  aboobo, kufumbwa mumuni uuyungizya kumwekesya kwiinda waawo, nkokuti kuli nguwe
+  ooyo mumuni ulilubide. Eeci ncintu cijalila mizeezo yamuntu kumumuni uuzwa kubulemu
+  bwa kujulu ooyo Muuya wa Yahuwah ngwayanda kumuletela muntu ooyo. Mabangabanga aamumuni
+  uusalalisya, taakonzyi kupuna kunjila mumoyo muyumu mbuli bbwe, uusinkilidwe kuti
+  mumuni mupya utanjili mukati.\\nMasimpe kuti tulaa kasimpe, alimwi tweelede kujatilisya
+  cakunamatila aawo mpotwiimvwi kutegwa tutazungaani; pele tatweelede kulanganya mumuni
+  mupya ooyo Yahuwah ngwanga watutumina, alimwi akwaamba kuti, Peepe, kunyina ncotubwene
+  ncotunga twayandila mumuni mupya kwiinda yooyu wakaindi ngutwaatambula kale, ooyo
+  ngotuzyibide kale. Eelyo notwiimina muntaamu yamusyobo ooyu, bumboni bwa Kamboni
+  Wamasimpe inga bwatusinsa kuti, \u201cAlimwi hena webo tolibwene kuti ulisofweede,
+  alimwi ulipengede, alimwi uli mucete, alimwi uli moofu, alimwi ulaa mantanda.\u201d
+  Aabo balimvwa kuti balivwubide alimwi balaa zintu zyoonse nzyobayanda kakwiina ancobabulide,
+  bali muciimo caboofu cakuti tabalibwene mpobaimvwi kunembo lyokwa [Yahuwah], alimwi
+  tabalizyi kuti mbobabede oobo.1\\nIntenda yakuwida mumusinze wa mumoza, nimpati
+  cakuti nkamu ya WLC yakalyaaba kuti icenjezye makamu aabantu. Kuli cibeela cimwi
+  cigaminina aawo ntenda eeyi mpiili mpati akutalibonya. Eeco ncibeela ca bukambausi
+  bwaangulukide bwa mazubaano bulaa mpuwo kapati.\\nKulizya Mweembo munzila Yaandeene\\nBukambausi
+  bwaangulukide mazubaano, bwakacita mulimo mupati wakutola mulumbe uujisi kasimpe
+  kokwa Yahuwah munyika. Mbuli, zikombelo mboziyaa kuba zyanyika, zyakatalika kwaalilwa
+  kutonkela kasimpe kumbele; Ijulu lyakali syomezyede mumuni uuyungizya kumwekesya
+  kubantu banjaanji, aabo lwabo, bakabeleka kapati kuti baabanye ncibaapedwe. Nkamu
+  ya WLC ayalo, yakalelekwa mukubunganya mumuni muyandisi ooyo wakamwaikide akataa
+  bukambausi bunjaanji bwaangulukide.\\nLuzyibo lwakamwaikizyana muluwo, lwakagwasya
+  bantu batuba kuti batole kasimpe kulaale kwiinda mbucakali kukonzyeka kaindi. Bunji
+  bwabantu aaba amilimo yabo, bakatundululwa azikombelo zikamantene. Eezi zikombelo
+  zyakalibilika nkaambo kampuwo yabantu aaba bamwaya kasimpe kakuli mbantu balikotamika
+  akulitola ansi. Milimo yabakambausi eeyo, yakasinswa akusinganyigwa kuzipaililo
+  zyazikombelo, mumalembe aazikombelo alimwi bamwi, zyakabatola akunkuta zikombelo
+  zizangide kuyoobalwanina nkukooko.\\nSaatani ulizyi kabotu kuti, oobu bukambausi
+  bulizwidilide kumwaya mulumbe akasimpe munyika. Walo wakapanda nzila iipilingene
+  yabucenjezu; cuusisya ncakuti eeyo nzila ilazwidilila kulwana bakambausi aabo. Saatani
+  wakagaminina zyooko zyobile zyakulwana mbabo. Wakatalikila kulwana:\\n- Basololi
+  ba bukambausi bwaangulukide.\\n- Aabo bakajana mumuni kuzwa kubukambausi bwaangulikide.\\nBasololi:
+  Kasimpe kausisya nkakuti bakambausi baangulukide banjaanji lwabo, bakatobela nzila
+  yaatozya zikombelo eezyo zyakabatundulula. Nkaambo kakuti bayeeme abantu batobela
+  nkamu zyabo kuti babagwasye mali, eeco ncecaabapa kuti batalike kweenkela kuyiisya
+  tusimpe tutakkazyiki myoyo yabantu. Aboobo, bunji bwabo bakatalika kukaka mumuni
+  uuyungizya kumwekesya kwiinda yooyo ngobajisi kale wakukambauka kasimpe. Eelyo mumuni
+  mupya nuuletwa kumizeezo yabo, balo badukwida masyule aabo kumumuni ooyo, alimwi
+  babelesya nguzu nzyobayeeya kuti balijisi mbuli basololi balaa moza, kuti bakulwaizye
+  nkamu zyabo zyalo kuti zisulaike mumuni uuyinda kumweka. Kunyina cilubide kukambauka
+  kolyaangulude kuzwa kuzikombelo ziwide alimwi kogaminide cibeela camulumbe cimwi
+  mumalembe aako. Akaa nkaambo katakonzyi kwiindulukwa kwaamba kapati. Nokuba boobo,
+  kaambo keni kaboolela waawo, eelyo basololi nobasulaika mumuni uuli woonse mupya
+  kuti ulilubide.\\nBatobeli: Kuli bazumi banjaanji bayandisya kasimpe aabo bakalelekwa
+  amumuni wakazwa mubukambausi bwaangulukide. Ijulu talipede kasimpe koonse kumuntu
+  omwe buyo pe kutegwa aabanye boonse lukondo lwakujana kasimpe. Ncenciceeci, ncokunyina
+  muntu omwe nokuba nkamu iikambauka yomwe buyo, yeelede kulwana mumuni uupedwe kunkamu
+  iimwi ooyo uutako munkamu eeyo. Bantu banjaanji bayandisya alimwi basyomeka mukasimpe,
+  balaingaila akwiilingana akataa zikombelo, kusangana aawa awaalya, akwiingaila akataa
+  nkamu zikambauka, kababunganya mumuni aawa, akubungila mumuni umwi aalya. Boonse
+  tabatalikili acibaka comwe pe, pele umwi aumwi utalikila aakwe mwini. Kaambo kaliko
+  aawa, nka muntu uutalika kutobela mbungano kuleka kuba muntu uuvwuntauzya kasimpe.\\nKuti
+  muntu kalaa \u201cuumutobela\u201d, ooyo muntu tatobeli ncobeni Mwanaambelele kufumbwa
+  nkwagama Walo. Mucibaka caboobo, ooyo muntu utobela nguzu zyamuntu ukonzya kufwa.
+  Ncenciceeci Saatani ncalwanina nkamu zikambauka cakwaanguluka. Kwiinda mukusungilizya
+  kuliyanda mumuuya, walo ulakonzya kubasisya aawo mpobatalika kusulaika mumuni ooyo
+  wakasyomezyedwe kuli bamwi. Nkaambo buyo kakuti Ijulu lyakakusyomezya mumuni ooyo
+  ngookatambula kale, teesyi mbobumboni bwakuti kucinyina mumuni uuciyubununwa.\\nNtenda
+  eeyi nkwiili ncobeni cino ciindi alimwi ncenciceeco nkamu ya WLC nciyaasanganya
+  jwi koompolola antoomwe a mungele wane wa Ciyubunuzyo 18, kiiwompolola kuti: \u201cKamuzwa
+  muli nguwe, nobantu bangu, kutegwa mutatoli cibeela muzinyonyoono zyakwe, alimwi
+  mutatambuli mapenzi aakwe.\u201d (Ciyubunuzyo 18:4, 1599 Geneva Bible)\\nEeci ncibalo
+  ciyandika kapati. Kanjikanji cisanduludwe kuti \u201cKamuzwa muli nguwe.\u201d Nokuba
+  boobo, kwaamba kuti koboola, ooko nkutamba. Eeci ncecintu cibikka mumizeezo yamuntu
+  muzeezo uutaluleme wakuti, eeyo mbungano iipa lwiito oolo , kuli nzila imwi mboyiimpene
+  ambungano zimwi, aboobo, inga muntu wamvwaanga inga wavwunwa kuti wasangana mbungano
+  eeyo. Eeci ncintu cili kulaale akasimpe keni. Kunyina muntu weelede kusiilwa anze
+  alwiito lwakujulu oolu. Nkulaililwa kulaanguzu kapati kwaambisya kuti: Koya!\\n\u201cKotija
+  kuzwa akati ka Bbabbuloni, alimwi muntu omwe omwe kavwuna muya wakwe: utajaigwi
+  mubusofwaazi bwakwe; nkaambo ecino nceciindi ca kujokezya kwa Yahuwah; walo uyoomupilusizya
+  cimweelede.\u201d (Jelemiya 51:6, KJV)\\nNtenda Yeni\\nOoyo muntu, wakalaa mumuni
+  ngwaakajana kaindi mucikombelo, mukabunga kamwi nokuba munkamu imwi yabukambausi
+  yaangulukide, uli muntenda yakucegwa kuti azulilwe munkamu eeyo nkaambo kabalongwenyina
+  abantu mbamvwana limwi. Kuti nkamu eeyo yakaka mumuni uyaa kumwekesya kumunika,
+  inga lyaba sunko pati kukkalilila mukati kankamu eeyo, kwiinda kubweza ntaamu yakutaalukila
+  anze akulyaangulula akutobela kasimpe kufumbwa nkokamusolweda muntu ooyo.\\nOobu
+  mbobwaali bweende bwazintu ncobeni mucilengaano ca mucizyi wesu Ellen White, mushinshimi
+  ucaalizya wamusela wamamanino.\\nIme ndakabona myeelwe yamakunga aabantu eeyo yakali
+  kulangikaanga ilaangidwe antoomwe atunweba. Banjibanji munkamu eezyo bakali mumusinze
+  uusiya mbi; meso aabo akalicengeme kutozya ansi, alimwi kunyina cakali kubaswaanganya
+  balo a [Yahushua]. Pele kwakali tanteene mutubungabunga ootu bantu aabo bakalaa
+  masyu aakali kumweka mumuni, mesi aabo akalangide kujulu. Mabangabanga aamumuni
+  aakali kuzwa kuli [Yahushua], mbuli mumuni wazuba, akasikila kuli mbabo. Umwi mungele
+  wakandilailila kuti ndilangisye, alimwi Ime ndakabona mungele uubeembela aabo bakalaa
+  mumuni, kakuli bangele basofweede bakazingulukide baabo bakali mumusinze. Ime ndakamvwa
+  jwi lyamungele kalyoompolola kuti, \u201cAmuyoowe [Yahuwah], akupa bulemu kuli Nguwe;
+  nkaambo woola lyalubeta Lwakwe lyasika.\u201d\\nMumuni uumwekesya wakamwekela atalaa
+  nkamu eezyo, akumukila boonse aabo bakautambula. Bamwi bakali mumusinze bakautambula
+  mumuni ooyo akusekelela. Bamwi baakaka mumuni wakazyila kujulu, kabaamba kuti inga
+  ulabasweesya. Ooyo mumuni wakabainda ambali, alimwi bakacaala kabali mumudima. Aabo
+  bakatambula mumuni ooyo kuzwa kuli [Yahushua], bakakkomanina kuyungizya mumuni ngubaajisi
+  kale kuli yooyo waamunikila ali mbabo. Masyu aabo akabekema akukkomana kwabulemu,
+  kumwi kabalungumene kulanga kuli [Yahushua] cakulangilisya, alimwi majwi aabo akamvwugwa
+  kaasangene antoomwe ajwi lyamungele kuti, \u201cAmuyoowe [Yahuwah], akupa bulemu
+  kuli Nguwe; nkaambo woola lyalubeta Lwakwe lyasika.\u201d Eelyo nibakatalika koompolola
+  boobu, Ime ndakabona aabo bakali mumudima kababasukumina akumbali amakkuko aabo.
+  Mpoonya aabo banjaanji bakatambula mumuni uusetekene, bakakosola tunweba ooto twakabaangilide
+  akubasinkilila, akwiimina kulaale kabaandeene abaabo bakacili munkamu eezyo. Eelyo
+  nibakacili kucita boobo, bamwi balombwana bankamu zimwi aabo bakali kulemekwa abantu
+  aabo, bakainda munsi lyabo, bamwi kababakulwaizya, bamwi bakabafubaazya akubakonga
+  akubaangila mankusa kumeso, alimwi bakaindilizya kwaangisya tunweba ooto twakaangilide
+  nkamu eezyo kumwi kabati, Swebo ndiswe tujisi kasimpe.\u201d Ime ndakabuzya balombwana
+  aaba kuti bakali bani, alimwi ndakaambilwa kuti bakali bakambausi abasilutwe aabo
+  baasulaika mumuni lwabo, alimwi aabo batakali kuyanda kuti kube umwi uutikatambule
+  mumuni ooyo. \u2026\\nMpoonya Ime ndakamvwa jwi kalyaamba kuli baabo bakatonkaikwa
+  akufubaazyigwa kuti, \u201cKamuzwa akati kabo, mutajati cilaa tombe.\u201d Mukuteelela
+  jwi eeli, mweelwe mupati wabantu wakakosola tunweba twakabaangilide, akusiya mbungano
+  eezyo zyakali mumudima, akuyoosangana abaabo bakayaamukide kutaanguna, aabo bakalijanina
+  lwaanguluko, alimwi bakasanganya majwi aabo. Ime ndakamvwa jwi lilemu, lyamupailo
+  kalizyila akataa baabo bakacili munkamu zyakali mumudima. Bakambausi abasilutwe
+  bakacili kuyaa bweendeenda akataa tubungabunga, kabaangisya ntambo zyabo; pele Ime
+  ndakacimvwide jwi eelyo lilemu lyamupailo. Mpoonya ndakabona aabo bakali kupaila
+  kabatambika maanza aabo kuli baabo bakabungene kabaangulukide, kabasekelela muli
+  [Yahuwah]. Kwiingula kwakalimvwisya kuzwa kuli mbabo, kabalungumene kulanga kujulu,
+  alimwi kabatondeka mujulu, kwakali kwakuti, \u201cAmuzwe akati kabo, alimwi amulyaandaanye.\u201d
+  Ime ndakabona bamwi kabali balikke, kabadadanyana kukakatila kujana lwaanguluko,
+  alimwi kumamanino bakakosola ntambo eezyo zyakabaangilide. Bakalesya kufumbwa cakali
+  kuyanda kubaangilila alimwi akubaca mukooze, alimwi baakaka kuswiilila kunongwa
+  kwakacili kuya kumbele: \u201c[Yahuwah] ulaa ndiswe.\u201d \u201cSwebo ndendiswe
+  tujisi kasimpe akati kesu.\u201d\\nBantu bakacili kuya kumbele kuyaamuka mbungano
+  eezyo zyakali mumudima akusangana nkamu zyakaangulukide, eezyo zyakali mumusena
+  wakaimpukide atalaa nyika. Balo bakalungumene kulanga kujulu, bulemu bwa [Yahuwah]
+  bwakalibonya ali mbabo, alimwi bakoompoloa cakukkomana kulumbaizya Nguwe. Balo bakaliswaangene
+  antoomwe alimwi bakali kulangikaanga bakavwumbilidwe aamumuni wakujulu. Mbumbali
+  lya nkamu eeyi bamwi bakanjilwa mpuwo yamumuni, pele tiibakasangana nkamu eeyo.
+  Boonse aabo bakakkomanina mumuni ooyo wakamwekela ali mbabo, bakalungumene kulanga
+  kujulu, alimwi [Yahushua] awalo wakalanga ali mbabo kamwetamweta.2\\nWebo utacegwi
+  mukweendelana abantu batateeleli. Kuswiilila kwako kweelede kuba kuli Yahuwah alimwi
+  kuli Yahawah alikke. Utabaa bukandu bwakukomba koli olikke kuti bukulesye kubweza
+  ntaamu yakutaalukila anze. Kuti kakwiina nkamu yakukomba limwi, eeco tacili cintu
+  cakulilekelela kuti uzumanane kumvwana ambungano nokuba cikombelo eeco cikaka mumuni
+  wabulemu bwakujulu. Kufumbwa nkamu yabukambausi eeyo yakabweza ntaamu yakwiimina
+  kulubazu lusulaika mumuni umwi (nokuba yooyo uupedwe ziindi zinjaanji woonse), eeyo
+  tiili nkamu yakukomba limwi mbweenya buyo acikombelo cili coonse cili mucibeela
+  ca Bbabbuloni.\\nAmwiimikile Mbuli Bakkazyikide Camba\\nBana ba Yahuwah mazubaano
+  balaitwa kuti baimikile kabali balikke, kabaandeene alimwi kabaangulukide kuzwa
+  kumbungano iili yoonse, nokuba nkamu, nokuba cikombelo. Kunyina weelede kulekela
+  mizeezo yakwe kuli umwi, akutobela buyo jwi ndyamwaambila umwi kuti nkakasimpe.
+  Yahuwah uyaabusolweda muntu omwe omwe. Muntu omwe omwe weelede kuba alikke, nkaambo
+  umwi aumwi uzyila kulubazu lwiindene, kajisi nzyasyoma ziindene. Mbuli luzyibo mboluyaa
+  kuyungizya kulibonya atalaa nyika, kuyandika busongo bwabulemu bwa kujulu abwalo
+  kuti kabuyaa kuyungizya. Teesyi ncobeni kuti mumuni \u201cmupya\u201d uli woonse
+  nkasimpe pe. Ncintu ciyandika kulizyibila mumoza kuti ninzi ceelede kutambulwa,
+  aceeco ceelede kulazyikilwa kumbali.\\nUtalekeli kusunkwa kuti utobele basololi
+  ba bukambausi bwaangulukide nanka kumvwana akataa basyomi kuti kukwaangilile mukooze.
+  Ncintu cabuntu kuyanda kuzingulukwa abantu bayeeya mizeezo njojisi. Ncintu ciyumya
+  lusyomo kukombela antoomwe abaabo basyoma mbuli nduwe. Ncintu cikulwaizya kubala
+  zibalo zilembedwe eezyo zyeendelana alusyomo ndojisi cino ciindi. Nokuba boobo,
+  ntenda yakuba mutobeli ankamu yabukambausi yaangulukide, nintenda njeenya iili mukuzulilwa
+  mucikombelo cizangide, kozambaidwe acintu cimwi ncosyoma.\\nEelyo musololi ngolemeka,
+  nanka mbungano ooko nkozulilwa nkookayiila kasimpe, niibweza ntaamu yakukaka tusimpe
+  tumwi, ncintu cuubauba kutobela mukonzyanyo wabo. Muntu teelede kubweza jwi lyamuntu
+  uumwi kuti nkakasimpe akukaka mumuni umwi kakwiina kulibalila lwakwe mwini.\\nLuyando
+  lwa kasimpe lweelede kutola busena butaanzi kwiinda cili coonse ciyandigwa mukabunga.
+  Saatani uyandisya kubelesya luyando lwakuzulilwa mukabunga kamwi kutegwa akonge
+  muntu uuyanda kulizandula. Eeci ncecintu cinga cazimya jwi lya Moza.\\nCiimo ca
+  nkamu cini ncecibamba kuti aabo banjide muli njiyo balyaambe kuti SWEBO naa kuti
+  BALO. Aabo basangene munkamu eeyo, bakayiisyigwa kutambula kufumbwa cisyomwa abantu
+  banji. Kuyungizya kwiinda waawo, bakayiisyigwa kuti, batani kubuzyilili cili coonse.
+  Aboobo, kuvwuntauzya kasimpe kulatyompokezyegwa. Aabi bazumanana kubuzya mibuzyo,
+  kanjaanji balazondwa. Kumamanino balatandwa kuzwa akataa nkamu. Kukamantana akataa
+  nkamu yamusyobo ooyu, kulasinikizyigwa kwiinda mukukonga akucengelela bantu kuti
+  bateelele.\\nKuti webo koli wakatandwa kuzwa munkamu imwi, utalekeli ceeco kuti
+  cikutyompye pe. Ncobeni webo inga wazumanana kupaila abalongwenyoko abamukwasyi
+  wako aabo bacicengedwe, pele boonse bakomi bokwa Yahuwah, boonse bapati mumoza bansiku,
+  bakaitwa kuti baimikile kabali balikke. Johani mubbizyi wakali mwaalumi wakali kukkala
+  mumpangala zyamabwe munkanda mutakwe cikondelezya. Kali alikke, wakamvwa Moza kuumwaambila
+  mumoyo wakwe kuti, alibambile kucita mulimo mupati mbuli yooyo uulunduka kasolweda
+  Mesiya. John Bunyan wakamanizya myaka iili 12 muntolongo yamunzi wa Bedford nkaambo
+  kakukaka kuumuna kuti ataambi mumuni ooyo ngwaakapegwa akutambula. Mumyaka eeyo
+  iili 12, Muya wa Yahuwah wakamunjila akumugwasyilila kuti alembe bbuku lya Musinzo
+  wa Silweendo Uya Kujulu, eelyo bbuku lilaa tusimpe tulemu twa moza, ooto twakaleleka
+  banjaanji mumisela yakainda kuzwa eelyo naakavwalaula bbuku eelyo muntolongo yakwe
+  yamabwe iitontola. Martin Luther, alakwe, wakaitwa kuti ayimikile kunembo lyabapaizi
+  abeendelezi, kasyomezyedwe kasimpe aako kakali kuyo kwaangulula miya yamakunga aabantu.\\nKutobela
+  kasimpe, ninzila yeendwa katungu, ninzila yasimweendaalikke. Eelyo webo noitwa kuti
+  wiimikile koli olikke, utadiliki musyule pe. Kolibona kuti walelekwa a Julu. Kobelesya
+  ciindi cakuba olikke kuti ukomene mumoza akuswenena munsimunsi a Yooyo uupa mumuni
+  akasimpe koonse.\\nKakumbatila Kasimpe Koonse!\\nKuno kubbazu lya Kujulu, ncintu
+  citakonzyeki kuti muntu uuli woonse akonzye kuteelela kasimpe koonse. Mubuumi butamani
+  boonse, banunudwe banoobala zintu zilemu zyokwa Yahuwah akuzumanana kwiiya kuzwa
+  kuli Nguwe.\\nNkamu ya WLC, malyatililo amusemo wakumwaantukila kutola mulumbe woonse
+  ngotwakayubunwidwa, kunyika yoonse. Eeci ncintu cijatikizya tusimpe tutakkazyiki
+  moyo. Zimwi ziindi, kuli mulembi uukalede uutwiingula kaamba kuti: \u201cIme nsyeekasangana
+  nkamu ya WLC kutegwa nditambule kulubila ooku nanka kokuya.\u201d Nobeenima, kunyina
+  ciindi pe nkamu ya WLC niisoleka kukkomanisya mizeezo yamuntu omwe. Pele alikke
+  Yahuwah. Kufumbwa buyo mumuni nuuyubunwidwa kumizeezo yakuteelela kwesu, swebo tulakakatila
+  kutumina mumuni ooyo kulaale, ooko kufumbwa kunga kwajanika muntu uuyandaula mumuni
+  ooyo.\\nIjulu lilakwiita webo buno buzuba kuti wiimikile, waandaane alimwi ulyaandaanye
+  akutajata cintu citasalali. Kuli zintu zimwi zisyoonto buyo ziinda kusofwaala kwiinda
+  kulisumpula mumoza akulidunda kwamuntu umwi kuti ulizyi kale zyoonse, pele kumwi
+  ulakaka kuteelela mumuni uumwekesya kwiinda ngwajisi kale.\\nEelyo notuzumina kuti
+  Kamboni Wamasimpe ulizyi ciimo cesu kwiinda mbotucizyi swebo, Walo inga watupa bululami
+  Bwakwe kuti tulimvwumbilile mantanda eesu, kusalala Kwakwe kuti kutumwailwe zinyonyoono
+  zyesu alimwi agolide yalusyomo lwa kujulu. Nkabela eelyo inga cazuzikwa cisyomyo
+  Cakwe ciyandisi cakuti:\\nAmulange, alazya mazuba, mbwaamba Yahuwah, eelyo Ime neyoobamba
+  cizuminano cipya a\u014banda ya Isilayeli, alimwi a\u014banda ya Juuda:\\nKuleka
+  kweendelanya cizuminano eeco nceekabamba Ime abamawisi \u2026 Pele eeci ciyooba
+  cizuminano eeco Ime nceyoobamba a\u014banda ya Isilayeli; Aakwiinda mazuba aabo,
+  mbwaamba Yahuwah, Ime njoobikka mulawo wangu mukati kabo, alimwi njoowulemba mumyoyo
+  yabo, alimwi njooba Elohimu wabo, alimwi balo bayooba bantu bangu.\\nAlimwi tabakayiisyi
+  limbi umwi aumwi mweenzinyina, nanka umwi amusazinyina, kabaamba kuti, Komuzyiba
+  Yahuwah: nkaambo boonse bayoondizyiba ime, kuzwa kubaniini, kusikila kubapati akati
+  kabo, mbwaamba Yahuwah: nkaambo Ime njoobalekelela cibi cabo, alimwi Ime nsyekaibaluki
+  limbi cinyonyoono cabo. (Jelemiya 31:31-34, KJV)\\n* Mazina Aasetekene Akabikkwa
+  mu Mangwalo woonse aalembuludwe.\\n1 E. G. White, Review & Herald, August 7, 1894.\\n2
+  E. G. White, Early Writings, pp. 240-243. Eeci cilengaano kucigaminina cigaminide
+  buumi abweende bwa Balangila kuboola bataanzi, eelyo nibaa tyompwa kuti Yahushua
+  taakazyokela eelyo naakali kulangilwa. Nokuba boobo, ziiyo eezyo nzibakaiya kwiinda
+  zijatikizya ciindi coonse alimwi zijatikizya bantu bokwa Yahuwah mazubaano, mbweenya
+  mbuli mumazuba aayo. Izilengaano zyakapedwe muzibeelabeela, kutegwa bantu bokwa
+  Yahuwah mazubaano bakonzye kwiiya kuzwa mubuumi bwabantu bakatusolweda.\"", "\"\u201cBaYawe
+  balukufwaye\u2019ndo kuli webo? Kanshi ni kwenko\u2019kucito\u2019kulungama, ne
+  kutemwe\u2019nkumbu, ne kwenda ukwa kulicefya na baLesa bobe.\u201d\u2014MIKA 6:8.\\nINYIMBO:
+  63, 43\\n1, 2. Kani Dafidi alilangishe shani ati uwa bucine kuli baLesa? (Boneni
+  icikope icili peulu.)\\nSAULU ne bashilikani bakwe 3,000 balukufwaya Dafidi mu mpanta
+  ya Juda pakweba\u2019ti bamwipaye. Pano bumbi ubushiku, Dafidi ne balalume bakwe
+  balisangene apa Saulu ne bashilikani bakwe bapangile\u2019cisasa. Pali yiyi impindi,
+  bonse lukoso balilele, popele Dafidi na Abishai balipitile mu bashilikani bonse
+  ne kufika apalele Saulu. Eli Abishai alilabiile kuli Dafidi mwi shiwi ilinini ati:
+  \u201cNdukumukombeteleni ati mupame panshi ukupama kumo lukoso, tekuti mupame libili.\u201d
+  Pano Dafidi talukufwayapo ukumuleka ukwipaya Saulu. Eli Dafidi alabiile kuli Abishai
+  ati: \u201cTekumwipaya; pakuti ni nani ungatambiko\u2019kuboko kwakwe ukumupama
+  usufishiwe kuli baYawe, ne kubulo\u2019mulandu?\u201d Eli Dafidi alabiile ne kweba\u2019ti:
+  \u201cBaYawe bakane ati nebo tekutambiko\u2019kuboko kwanji mu kumupama usufishiwe
+  kuli baYawe.\u201d\u20141 Samweli 26:8-12.\\n2 Dafidi alishibile ifi aelelwe ukucita
+  pakweba\u2019ti apitilishe ukuba uwa bucine kuli baYawe. Alishibile ati alyelelwe
+  ukucindika Saulu, kabili talukulangulukapo na pa kumusoomesha. Mba nindo? Ni pakuti
+  baYawe balisalulwile Saulu ukuba imfumu ya baIshilaeli. Koti ni fyefyo cali akale,
+  na bubuno bukumo baYawe balafwaya abapyungishi babo ukuba aba bucine kuli Bo ne
+  kulukucindika baabo basuminishe ukuba ne bukulu.\u2014Pendeni Mika 6:8.\\n3. Kani
+  Abishai ali shani uwa bucine kuli Dafidi?\\n3 Abishai alicindikile Dafidi ni pakuti
+  alishibile ati baLesa balimusalulwile ukuba imfumu. Pano ili Dafidi abeele imfumu,
+  alicitile ifyakubifya ifingi. Alicitile ubucencemeshi ne mukashi wakwe Uliya. Nakabili,
+  alibuulile Yoabi ati Uliya alyelelwe ukufwa mu nkondo. (2 Samweli 11:2-4, 14, 15;
+  1 Ifyebo 2:16) Yoabi ali mukwabo Abishai. Popele, cipale Abishai alishibile ifi
+  Dafidi acitile, pano alipitilishe ukulukucindika Dafidi. Ukulunda pali fyefyo, Abishai
+  ali mukulu wa bashilikani. Popele, nga alipyungishe amakosa akwete ukulibika pa
+  bufumu, pano tacitilepo\u2019fyo. Pa mupunda wa kucita ifya kube\u2019fyo, Abishai
+  alipitilishe ukupyungila Dafidi ne kumulama ku bapate bakwe.\u20142 Samweli 10:10;
+  20:6; 21:15-17.\\n4. (a) Kani Dafidi ali shani icakubwenako iciweme ica kuba aba
+  bucine kuli baLesa? (b) Kani ni bani aba twakwambaalapo?\\n4 Dafidi ali uwa bucine
+  kuli baYawe mu mweo wakwe onse. Ili ali umwanice, alipeye Golyati, uwalukutongala
+  baYawe ne baIshilaeli. (1 Samweli 17:23, 26, 48-51) Ili Dafidi ali imfumu, Natani
+  uwakushimika uwa baYawe alimulunjikile pa fyakubifya acitile. Penka\u2019po, Dafidi
+  alisumiine ati alibifishe, kabili alilapiile. (2 Samweli 12:1-5, 13) Panuma ninshi
+  Dafidi acekula, alipeele ifintu ifyakuti ubwingi ifyakofweleshako ukwibaka itempuli
+  lya baYawe. (1 Ifyebo 29:1-5) Kanshi caboneka lukoso apaswetele ati, nangaba\u2019ti
+  Dafidi alibifishe makosa, talekelepo ukuba uwa bucine kuli baLesa. (Amasamo 51:4,
+  10; 86:2) Muli cicino iciputusha, twakwambaala pa cakubwenako cakwe Dafidi eli ne
+  bantu bambi abaliko pali ilya impindi. Twakwambaala na pali fyefyo tungaba aba bucine
+  kuli baYawe ukucila ku bantu bambi. Nakabili twakwambaala na pa mibelo iingatofwako
+  ukuba aba bucine kuli baYawe.\\nKANI MUKABA ABA BUCINE KULI BAYAWE?\\n5. Findo tungasambililako
+  kuli fyefyo Abishai alukufwaya ukucita?\\n5 Ili Abishai alukufwaya ukwipaya Saulu,
+  alukwesha ukuba uwa bucine kuli Dafidi. Pano pakuti Dafidi alishibile ati tacalipo
+  icelelwe ukwipaya \u2018uusalulwilwe na baYawe,\u2019 talekele Abishai ukwipaya
+  imfumu. (1 Samweli 26:8-11) Ici cilatusambisha icintu icicindeme makosa: Ili tulukusalulula
+  woyo twelelwe ukubako uwa bucine, tulyelelwe ukulanguluka pa Malembo aangatofwako
+  muli fyefyo tulukupitamo.\\nIcicindeme makosa kuba aba bucine kuli baYawe ukucila
+  ku bantu bambi\\n6. Nangaba\u2019ti cacifyalilwa lukoso ukuba aba bucine ku ba mu
+  cisoolo ne fibusa, nindo twelelwe ukubeela abacenjele?\\n6 Cacifyalilwa lukoso ukuba
+  uwa bucine ku bantu tutemenwe, abali koti fibusa neli aba mu cisoolo. Pano pakuti
+  tatuwamininepo, tungasalululapo ifitafyelelwe. (Jelemiya 17:9) Popele ili umuntu
+  tutemenwe atatiko\u2019kucita ifibipile ne kufuma mwi kelesha, tulyelelwe ukwanuka
+  ati icicindeme makosa kuba aba bucine kuli baYawe ukucila ku bantu bambi.\u2014Pendeni
+  Matayo 22:37\\n7. Kani Mboni umo ali shani uwa bucine kuli baLesa ili alukupita
+  mu makatasho?\\n7 Kani kuli uwa mu cisoolo cenu uutamfiwilwe, mungalangisha baYawe
+  ati muli ba bucine kuli bo. Ku cakubwenako, kambi kasuba banyina Anne abali abatamfiwilwe,
+  balimutumiine foni ati balukufwaya ukumufakashisha. [1] (Boneni tumashiwi twa pa
+  mpelo.) Banyina Anne balilabiile ati tabalipo abasangalele pakuti aba mu cisoolo
+  tabalukwambaalapo na bo. Ici calilengeshe Anne ukumfwo\u2019bubi kabili alibalaile
+  ati akabalembela inkalata. Ili Anne tangalemba inkalata, alyalakenye pa kufunda
+  kwa mu Baibolo. (1 AbaKolinto 5:11; 2 Yoane 9-11) Eli pano mu nkumbu, abuulishishe
+  mu nkalata ati banyina ebashile icisoolo ili babifishe ne kukaana ukulapila. Anne
+  alibuulile banyina ati kubwelela lukoso kuli baYawe e kungabalengesha ukuba abasangalele.\u2014Jakobo
+  4:8.\\n8. Ni isa mibelo iingatofwako ukuba aba bucine kuli baLesa?\\n8 Abapyungishi
+  ba bucine aba baLesa abaliko mu nshiku shakwe Dafidi bali abalicefeshe, aba nkumbu,
+  kabili aba lupata. Nga tubone ifi iyi imibelo ingatofwako ukuba aba bucine kuli
+  baYawe.\\nTULYELELWE UKULICEFYA\\n9. Nindo Abineli alukufwaila ukwipaya Dafidi?\\n9
+  Jonafani umwana wakwe Saulu na Abineli uwalukutangilila abashilikani abaIshilaeli,
+  balibweneko ili Dafidi alukuleta umutwi wakwe Golyati ku Mfumu Saulu. Penka apo
+  lukoso, Jonafani alibele cibusa cakwe Dafidi kabili alipitilishe ukuba uwa bucine
+  kuli ye. (1 Samweli 17:57\u201318:3) Pano Abineli tapitilishepo ukuba uwa bucine.
+  Na cine, panuma alyofweleko na Saulu uwalukufwaya ukwipaya Dafidi. (1 Samweli 26:1-5;
+  Amasamo 54:3) Jonafani na Abineli balishibile ati baLesa baalukufwaya Dafidi ukuba
+  imfumu ya baIshilaeli. Pano ili Saulu afwile, Abineli taofweleko Dafidi. Pa mupunda
+  wa kucite\u2019fyo, alukufwaya ukubika Ishibosheti, umwana wakwe Saulu, pa bufumu.
+  Mu kupelako, cipale Abineli umwine alukufwaya ukuba imfumu, cipale ici ecalengeshe
+  ati asalululepo ukulaala ne mukashi wakwe Saulu. (2 Samweli 2:8-10; 3:6-11) Mba
+  nindo ifi Jonafani alukumfwa pali Dafidi fyapusaniine ne fyalukumfwa Abineli? Ni
+  pakuti Jonafani ali uwa bucine kuli baYawe kabili alilicefeshe. Pano, Abineli ye
+  tacitilepo ifya kube\u2019fyo.\\n10. Mba nindo Abisalomi taabelelepo uwa bucine
+  kuli baLesa?\\n10 Abisalomi, umwana wakwe Dafidi, taalipo uwa bucine kuli baLesa
+  ni pakuti taalipo ne mibelo ya kulicefya. Alukufwaya ukuba imfumu, popele \u201cwalianshicile
+  ingolofwana na bakafwalo ne bantu amakumi asanu abakubutuka ukumutanjilila.\u201d
+  (2 Samweli 15:1). Nakabili, alilengeshe abaIshilaeli abakuti ubwingi ukuba aba bucine
+  kuli ye. Alukufwaya ne kwipaya Dafidi, nangaba\u2019ti aliishibile ati baYawe ebabikile
+  Dafidi pa bufumu mu Ishilaeli.\u20142 Samweli 15:13, 14; 17:1-4.\\n11. Findo tungasambililako
+  ku malyashi amu Baibolo aalabila pali Abineli, Abisalomi, na Baluku?\\n11 Kani umuntu
+  talicefeshepo kabili alukufwaya ukukwata ubukulu, cingakatasha kuli ye ukuba uwa
+  bucine kuli baLesa. Icine, tulitemenwe baYawe, kabili tatufwayapo ukuba ne mibelo
+  iibipile koti ni fyefyo ifyali Abineli na Abisalomi. Pano tulyelelwe ukucenjela
+  pakweba\u2019ti tatutatikile ukufwaisha amaboni aengi neli incito iingatulengesha
+  ukulyumfwa abacindeme makosa. Ici cingonaala bucibusa bwesu na baYawe. Ku cakubwenako,
+  Baluku, umulembeshi wakwe Jelemiya, alukufwaya ifintu ifi takwetepo kabili talukusangalalila
+  mu kupyungila baLesa. Eli baYawe balabiile kuli Baluku ati: \u201cBonako, ifyo ifi
+  naibeke, nkafitobala; na fyefyo ifi nabyele, nkafiimuna; ifyo kabili monse mu calo.
+  Kani ulukulifwaila ifintu ifikulu? Tekufifwaya!\u201d (Jelemiya 45:4, 5) Baluku
+  alyumfwilile baYawe. Na fwebo, tulyelelwe ukumfwila baYawe ni pakuti bukumo lukoso
+  bakonaala cino icalo.\\nUkubuula umukwabenu ati aye mu kulomba ukofwako ku bakulu
+  ba mwi kelesha, kukalangisha ati muli ba nkumbu kuli ye kabili muli ba bucine kuli
+  baYawe\\n12. Buulishisheni ifilangisha ati tekuti tubepo aba bucine kuli baLesa
+  kani tuli ne mibelo ya kulitemwa.\\n12 Umukwabesu Daniel uwa ku Mexico, alyelelwe
+  ukusalululapo woyo ali ne kubako uwa bucine. Alukufwaya ukuupa umwanakashi uutalukupempelapo
+  baYawe. Daniel alilabiile ati, \u201cNalipitilishe ukwambaala na ye na panuma ya
+  kutatika bupainiya.\u201d Eli pano akutulukile ati alukucita lukoso ifi alukufwaya
+  umwine. Taalipo uwa bucine kuli baYawe, kabili alyelelwe ukulicefya. Alibuulileko
+  umukulu wa mwi kelesha pa mwanakashi alukwambaala na ye. Daniel abuulishisha ati:
+  \u201cAalingofweleko ukwishiba ati pa kuba uwa bucine kuli baLesa, nalyelelwe ukuleka
+  ukwambaala na moye. Panuma ya kutembela imiku iingi ne kulila, nalilekele ukwambaala
+  na moye. Tapapitilepo ne mpindi, nalitatikile ukusangana ukusangalala ukukulu ili
+  nalukupyungila baYawe.\u201d Pali ino mpindi, Daniel mupyungishi wa luteta kabili
+  alyupile ne mwanakashi uutemenwe baYawe.\\nUKUBA ABA BUCINE KULI BALESA KULATOFWAKO
+  UKUBA ABA NKUMBU\\n13. Kani Natani ali shani uwa bucine kuli baLesa na kuli Dafidi
+  ili Dafidi abifishe?\\n13 Kani tuli aba bucine kuli baYawe, tukaba aba bucine na
+  ku bantu bambi kabili tukalukubofwako. Uwakushimika Natani ali uwa bucine kuli baYawe
+  na kuli Dafidi. Ili Dafidi aipeye Uliya ne kupinta umukashi wakwe, baYawe balitumine
+  Natani mu kumucenjesha Dafidi. Natani ali ne lupata kabili alyumfwilile baYawe.
+  Pano alipyungishe imilangwe kabili ali ne nkumbu pa kulabila kuli Dafidi. Alukufwaisha
+  ukofwako Dafidi ukumfwisha ubukulu bwa fyakubifya acitile. Popele alibuulileko Dafidi
+  ilyashi lya muntu umubile uwaibile akana ka mbelele aka muntu umupengele. Ili Dafidi
+  aumfwile lukoso ifi, alifitilwe pali fyefyo umuntu umubile acitile. Eli Natani alabiile
+  ati: \u201cWebo ni we muntu uyo!\u201d Dafidi alikutulukile ati icine alibifishe
+  kuli baYawe.\u20142 Samweli 12:1-7, 13.\\n14. Mungaba shani aba bucine kuli baYawe
+  na ku fibusa fyenu neli aba mu cisoolo cenu?\\n14 Na mwebo mungaba aba bucine kuli
+  baYawe, eli na ku bantu bambi ukupitila mu kubalangisha inkumbu. Ku cakubwenako,
+  mungeshiba ati umukwabesu neli inkashi alicitile ukubifya ukukulu. Mungafwaya ukuba
+  uwa bucine kuli ye, makosa makosa kani cibusa cenu neli uwa mu cisoolo cenu. Pano
+  muliishi ne kweba\u2019ti icicindeme makosa kuba uwa bucine kuli baYawe. Popele,
+  beni aba bucine kuli baYawe pano mulyelelwe ukuba ne nkumbu ku mukwanu, koti ni
+  fyefyo ifyacitile Natani. Labileni kuli ye ati alyelelwe ukwangufya ukulomba ukofwako
+  kwa bakulu ba mwi kelesha. Kani afilwa ukucite\u2019fyo, mulyelelwe ukubuulako abakulu
+  ba mwi kelesha. Ukucita ifi kukamofweniko ukuba aba bucine kuli baYawe. Pa mpindi
+  intu imo, mukalangishe\u2019nkumbu ku mukwabenu ni pakuti abakulu ba mwi kelesha
+  bakamofwako ukuwamya bucibusa bwakwe na baYawe. Bakofwako umukwabenu mu nshila iiweme
+  kabili iya nkumbu.\u2014Pendeni IfyabaLefai 5:1 AbaGalatya 6:1.\\nPA KUBA ABA BUCINE,
+  TULYELELWE UKUBA NE LUPATA\\n15, 16. Mba nindo Kushayi alukupengela ukuba ne lupata
+  pakweba\u2019ti abe uwa bucine kuli baLesa?\\n15 Kushayi aali pa fibusa fyakwe Dafidi
+  abapitilishe ukuba aba bucine. Ili abantu balukufwaya ukubiika Abisalomi pa bufumu,
+  Kushayi alyelelwe ukuba ne lupata pakweba\u2019ti apitilishe ukuba uwa bucine kuli
+  Dafidi na baLesa. Alishibile ati Abisalomi alishile ku Jelusalemi ne bashilikani
+  bakwe kabili ati Dafidi alibutukile. (2 Samweli 15:13; 16:15) Kani findo Kushayi
+  acitile? Kani alitatikile ukofwako Abisalomi ne kuleka ukuba uwa bucine kuli Dafidi?
+  Koku mwane. Nangaba\u2019ti Dafidi alicekwile kabili abantu abengi balukufwaya ukumwipaya,
+  Kushayi alipitilishe ukuba uwa bucine ye ni pakuti baYawe balisalulwile Dafidi ukuba
+  imfumu. Popele, Kushayi aliile ku Lupili lwa Maolife ku kumanya Dafidi.\u20142 Samweli
+  15:30, 32.\\n16 Dafidi alilabiile ati Kushayi abwelele ku Jelusalemi ne kuba koti
+  cibusa cakwe Abisalomi pakweba\u2019ti alengeshe Abisalomi ukubulo\u2019kulonda
+  ukufunda kwakwe Acitofeli. Kushayi ali ne lupata kabili alibikile umweo wakwe mwi
+  lofyo ukupitila mu kumfwila Dafidi ne kupitilisha ukuba uwa bucine kuli baYawe.
+  Dafidi alitembele ati baYawe bofweko Kushayi, kabili fyopele\u2019fyo efyacitikile.
+  Abisalomi alisalulwilepo ukumfwila Kushayi ukucila ukumfwila Acitofeli.\u20142 Samweli
+  15:31; 17:14.\\n17. Mba nindo twelelwe ukubeela ne lupata pakweba\u2019ti tube aba
+  bucine?\\n17 Tulyelelwe ukuba ne lupata pakweba\u2019ti tube aba bucine kuli baYawe
+  ne kubomfwila pa mupunda wa kulukucita ifi aba mu cisoolo cesu, aba tusambilila
+  nabo, neli abantu abali mu bwikalishi balukufwaya fwebo ukucita. Ku cakubwenako,
+  ukutatikila lukoso ili ba Taro, aba ku Japan bali abanice, balukucita fyonse lukoso
+  ifi abafyashi bababuula ukucita. Balukumfwila abafyashi babo kabili bali aba bucine
+  kuli bo talipo ati ni pakuti efi baelelwe lukoso ukucita, sombi ni pakuti balibatemenwe.
+  Pano ili ba Taro batatikile ukusambilila Baibolo na Bamboni sha BaYawe, abafyashi
+  babo balitatikile ukubakanya. Ici calibombomanikile ba Taro kabili calibakateshe
+  ukubuulishisha ati balisalulwilepo ukulukuya mu kubungana. Ba Taro balilabiile ati,
+  \u201cAbafyashi balikalipile ukwakuti ica kweba\u2019ti balinkenye ukubafakashisha.
+  Nalitembele ati ningaba ne lupata pakweba\u2019ti ningalonda ifi nasalulwilepo ukucita.
+  Pano pali ino mpindi, balibweseshemo umutima kabili ndabafakashishako impindi ne
+  mpindi.\u201d\u2014Pendeni Ifisimpi 29:25.\\n18. Mwabwenamo shani mu kusambilila
+  cino iciputusha?\\n18 Fwense, nga tulukuba ne kusangalala ukufuma mu kuba aba bucine
+  kuli baYawe koti ni fyefyo ifyacitile Dafidi, Jonafani, Natani, na Kushayi. Twilukufwaya
+  ukuba koti ni Abisalomi na Abineli abatabalipo aba bucine. Fya cine ukweba\u2019ti
+  tatulipo abawaminine kabili tulabifya. Pano nga tulukulangisha baYawe ati tuli ba
+  bucine kuli bo mu fintu ificindeme makosa ifi tucita mu mekalilo esu onse.\"", "\"ILYO
+  basayantisti bapangile imiti ya kundapilako amalwele yalekanalekana pa muku wa kubalilapo
+  pa kati ka 1900, badokota bamwene kwati iyo imiti iipya yali no kupwisha amalwele
+  yamo. Pa kubala iyi miti yalebomba bwino sana. Nomba ukubomfya sana iyi miti kwalenga
+  utushishi utuleta aya malwele ukuleka ukufwa kuli iyi miti.\\nPa kufwaya inshila
+  shimbi isha kundapilamo amalwele, basayantisti bamo balefwailisha ukumona nga inshila
+  shimo isha kundapilamo amalwele isho balebomfya kale sana kuti shabomba. Inshila
+  imo, ya kubomfya akasuba no mwela pa kucincitila amalwele.\\nIfyo Twingasambililako
+  ku fyo Baleundapa Kale\\nMu calo ca England mwali abalelanda ukuti akasuba no mwela
+  uusuma filondapa. Dokota uwe shina lya John Lettsom (uwaliko ukufuma mu 1744 ukufika
+  mu 1815) aleeba abana abalelwala ubulwele bwa TB ukuti pa kupola balingile ukulapupwa
+  umwela wa kuli bemba no kontelako akasuba. Mu 1840, dokota George Bodington asangile
+  ukuti abengi ababomba incito sha pa nse pamo nga abalimi na bakacema ba nama tabalelwalako
+  TB, abalelwala sana ni balya abaleikala inshita iikalamba mu fikuulwa.\\nBa Florence
+  Nightingale (1820-1910) bali ni banasi. Baishibikilwe ku fyo bawemyeko inshila ya
+  kusakamaninamo abalwele ilyo baleundapa abashilika ba ku Britain abalecenwa mu nkondo
+  iyali ku Crimea. Batile: \u201cBushe mulomfwa ifyo mu muputule umwacilala umuntu
+  . . . ubushiku, mumfwika nga mwaingilamo ilyo amawindo yashilaisulwa pa kuti mupite
+  umwela?\u201d Balandile ukuti cisuma ukulaleka umwela ulepita mu muputule umuli
+  umulwele lelo ukwabula ukuleka aingililwa ne mpepo. Lyene batile: \u2018Pa myaka
+  yonse iyo nabomba umulimo wa kusakamana abalwele nasanga ukuti, ukulunda pa mwela
+  uusuma, cimbi ico abalwele bakabila kontelako akasuba.\u2019 Pali ilya nshita, abantu
+  abengi baishibe ukuti ukulayanikako ifya kufimbana ne fya kufwala kulalenga umuntu
+  ukuba no bumi ubusuma.\\nNangu ca kuti abantu balishiba ifingi pali sayansi ukucila
+  ifyo abaliko muli ba 1800 baishibe, nabo bene basanga ukuti ifyo balelanda kale
+  fya cine. Ku ca kumwenako, ilyo bafwailishe mu China mu 2011, basangile ukuti abana
+  be sukulu aba ku koleji \u201cabalelwala sana amalwele ya fifuba\u201d ni balya
+  abaleikala abengi mu miputule ya pa sukulu iya kulalamo umushalepita sana umwela.\\nAkabungwe
+  ka World Health Organization (WHO) nako katile umwela wa pa nse uwingila mu fikuulwa
+  walicindama sana pantu ulacincitila amalwele. Mu 2009 akabungwe ka WHO kakoseleshe
+  aba mu fipatala ukuti baleleka umwela uleingila umo bateka abalwele pa kuti abantu
+  belayambula sana amalwele. *\\nNalimo kuti mwatila, \u2018Ico ca cine nomba bushe
+  na basayantisti e fyo balanda? Bushe akasuba no mwela kuti fyatucingilila shani
+  ku malwele?\u2019\\nUmwela na Kasuba Filepaya Utushishi\\nIfyo icipani ca buteko
+  icilolekesha pa kucingilila icalo ica ku United Kingdom casangile ilyo balefwailisha
+  fimo, kuti fyatwafwa ukwasuka aya mepusho. Basayantisti ababombela kuli ici cipani
+  balefwaya ukwishiba inshita ingapitapo pa kuti umwela ube bwino na kabili nga ca
+  kuti abalwani baponeshe ibomba lya tushishi twa kulwalika abantu mu London. Pa kufwailisha,
+  babikile utushishi tumo uto beta ukuti E. coli kuli tandabube iyali apalepita umwela.
+  Apo balishibe ukuti akasuba kuti kaipaya utu tushishi, bapingwilepo ukutubika kuli
+  tandabube ubushiku. Nomba cinshi cacitike?\\nIlyo papitile ama-awala yabili, mupepi
+  no tushishi tonse twalifwile. Lelo ilyo babikile utu tushishi kuli tandabube e lyo
+  baikupikila umushalepita umwela, utushishi utwingi tatwafwile pa numa ya ma-awala
+  yabili. Cinshi calengele? Kufwile kwaliba fimo mu mwela ifilenga utushishi ukufwa.
+  Pali ino nshita abasambilila sayansi tabalaishiba bwino bwino ifyaba mu mwela ifipaya
+  utushishi. Lelo batila ukuba kwena kwaliba ifintu fimo mu mwela \u201cifyo tushaishiba
+  bwino ifipaya utushishi utuleta amalwele.\u201d\\nUlubuto lwa kasuba nalo lulepaya
+  utushishi. Ulupapulo lwa Journal of Hospital Infection lutila, \u201cutushishi utwingi
+  utulenga abantu ukwambula amalwele ayambukila mu mwela tulafwa ku kasuba.\u201d\\nNomba
+  kuti mwacita shani pa kuti mulemwenamo? Mulefumako pa nse pa kuti mwaontelako akasuba
+  no kupemako umwela uusuma. Ukulacita ifi kukamwafwa.\"", "\"Yehova alifulungenye
+  ululimi lwalelanda abantu abashalemumfwila abali pa Babele pa kuti abasalanganye.
+  Nomba muno nshiku Yehova alelonganika bantu ukufuma mu nko shonse ne ndimi kabili
+  alibapeela \u201cululimi ulwine lwine\u201d pa kuti \u201cbalilile kwi shina [lyakwe],
+  ukuti bamubombele no mutima umo.\u201d (Sefa. 3:9; Ukus. 7:9) \u201cUlulimi lwine
+  lwine\u201d cine pali Yehova e lyo ne fyo afwaya ukucitila abantu ifyaba muli Baibolo.\\nPa
+  kusambilila ululimi lumbi tatulingile fye ukusungila amashiwi ayapya. Lelo tulingile
+  no kwaluka mu fyo tutontonkanya. E fyo caba na lintu tulesambilila ululimi lwine
+  lwine, tulingile ukwalula amatontonkanyo yesu. (Rom. 12:2) Apo umuntu uulesambilila
+  ululimi lwine lwine alatwalilila ukwalula amatontonkanyo yakwe, e cilenga abantu
+  ba kwa Lesa baleba abaikatana.\u20141 Kor. 1:10.\"", "\"MANASE\\nBaYawe balisuminishe
+  ati abaSilya ba mwikate, ukumukaka ku myando ne kumutwala ku Babiloni\\nUKWIKALIKA
+  KWA KWE ILI TABANGAMWIKATA\\nAalibeke ifyonto fya balesa ba bufi\\nAlipeele abana
+  bakwe abalalume ukuba imilambu\\nAlipeye abantu abakubula ukubifya\\nAlilengeshe
+  abaIshilaeli bonse ukulukucita ifya bufwiti\\nUKWIKALIKA KWA KWE PA NUMA YA KUKAKULULWA\\nAlilicefeshe
+  ukwakuti\\nAlitembeele kuli baYawe; ne kupeela imilambu\\nAlitobawile ifyonto fya
+  balesa babufi\\nAlikoseleshe abantu ukupyungila baYawe\\nJOSAYA\\nMU KWIKALIKA KWA
+  KWE KONSE\\nKafwaya-fwaya baYawe\\nAlisweseshe Juda na Jelusalemi\\nAliwamishe Ing\u2019anda
+  ya baYawe ne kusangana ibuuku lya Mafunde\"", "\"Kutemwa kwa cumi kukasenula ukuipeelesya,
+  kuya uwa kaele, kuya uwa cumi, alino nu kulemenkana sana na antu yauze. Yeova waomvizye
+  icilangililo cakwe Oseya nu muci wakwe ataali ni cisinka kusambilizya antu pali
+  vino wene waya nu kutemwa kwa cumi na vino akaelela.\u2014Ose. 1:2; 2:7; 3:1-5.\\nUzye
+  Goma walangizye uli ukuti ataali nu kutemwa kwa cumi?\\nUzye Aina Izlaeli yalangizye
+  uli ukuti yataali nu kutemwa kwa cumi?\\nUzye Oseya walangizye uli ukutemwa kwa
+  cumi?\\nUzye Yeova walangizye uli ukutemwa kwa cumi?\\nVYAKWELENGANYAPO: Uzye ningalanga
+  uli ukutemwa kwa cumi kuli Yeova?\"", "\"Findo ucita kani waumfwo\u2019mwenso?\u2014
+  Pambi ulabutukila kuli bawiso na banoko. Pano kuli umuntu na umbi uungakofwako.
+  Ali ne makosa ukwakuti ukucila bonse lukoso. Kani wamwishiba uyo umuntu?\u2014 Inya,
+  ni baYehova Lesa. Nga tulabile pa musankwa uulabilwepo mu Baibolo. Ishina lyakwe
+  ni Dafidi. Taalukutiinapo ni pakuti alishibile ati baYehova bakalukumofwako impindi
+  shonse.\\nUkufuma lukoso ku bwanice, abafyashi bakwe Dafidi balimusambishe ukutemwa
+  baYehova. Ifi bamusambishe fyalimofweleko Dafidi ukubulo\u2019kutiina nangaba ati
+  kuli ifyamutiinisha. Alishibile ati baYehova e Cibusa cakwe kabili ati bangamofwako.
+  Imbi impindi, ili Dafidi alukwembela imbelele, inkalamu iikulu kaikata imbelele!
+  Kani ungeshiba ifi Dafidi acitile? Kaibutusha ne kuipaya ku minwe lukoso! Kabili
+  ili beya afwaile ukwikate\u2019mbelele, Dafidi kamwipaya beya! Kani ni nani ulukulanguluka
+  uwaofweleko Dafidi?\u2014 Inya, ni baYehova.\\nKwaliko na imbi impindi ili Dafidi
+  alangishe ati taakwetepo umwenso. AbaIshilaeli balukulwa ne bantu abalukwitwa ati
+  abaFilishiti. Umushilikani umo uwa baFilishiti aali mutali makosa, kabili umupamfi!
+  Aali ni Golyati. Uyu umushilikani alukutongaala abashilikani abaIshilaeli na baYehova.
+  Alukufwaya abashilikani abaIshilaeli ati alwe nabo. Pano abaIshilaeli bonse lukoso
+  balitiinine ukulwa na ye. Ili Dafidi aumfwile, alyebele Golyati ati: \u2018Ndukulwa
+  na webo! BaYehova bakungofwako, kabili ndukukupama!\u2019 Kani ulukulanguluka ati
+  Dafidi taakwetepo umwenso?\u2014 Inya. Kani ulukufwaya ukwishiba ifyacitikile?\\nDafidi
+  alibuulile amalekeni ne mabwe aateshimine 5, kabili aliile mu kulwa na Golyati.
+  Ili Golyati abwene Dafidi ati mwanice, kaamutongaala! Pano Dafidi alimwebele ati:
+  \u2018Ulukwisa kuli nebo ne mpoko, pano nebo ndukukwishila mwi shina lya baYehova!\u2019
+  Eli abiikile ibwe mu malekeni, ne kumushinkamana Golyati, ne kumulasa. Ibwe lyalilashile
+  Golyati pa mpumi! Golyati aliponene panshi, ne kufwa! AbaFilishiti balitiinine kabili
+  bonse balibundumukile. Ni bani baofweleko Dafidi ukupama Golyati?\u2014 BaYehova
+  balimofweleko, kabili baali ne makosa ukucila Golyati!\\nFindo ungasambililako ku
+  lyashi lyakwe Dafidi?\u2014 BaYehova bali ne makosa ukucila bonse lukoso. Kabili
+  Cibusa cobe. Kanshi ili ukomfwa umwenso, ukaanuke ati baYehova bangakofwako!\"",
+  "\"Twafuma mu bisaka ne milaka yapusana pusana, pano bino twakwatankana ne kuta
+  muchima pa kintu kimo. Kyakilamo kunema tunemekaYehoba, mwine mwina Baibolo walengele
+  bintu byonse. Twibikako kulondela byaubangaYesu Kilishitu kabiji tumvwa bingi bulongo
+  kutelwa\u2019mba bena Kilishitu. Atweba bonse twingila kimye kyabaya kukwasha bantu
+  kufunda Baibolo ne kuyuka Bufumu bwa Lesa. Na mambo a kuba tushimuna bukamonyi,
+  nangwa\u2019mba kwamba pe Yehoba Lesa ne Bufumu bwanji, kyo kyo tutelelwa\u2019mba
+  Bakamonyi ba kwa Yehoba.\\nYai pa keyala wetu. Tangai Baibolo uji pa intaneti. Fundai
+  byavula pe atweba ne pa byo twaitabilamo.\"", "\"Icasuko ca mu Baibolo\\nMu macalici
+  ayengi basambilisha ukuti muli Lesa umo mwaba ba Lesa batatu. Lelo icitabo ca Encyclop\u00e6dia
+  Britannica citila: \u201cMu Cipingo Cipya tamwaba amashiwi ya kuti muli Lesa umo
+  mwaba abene batatu . . . Ici icisambilisho catendeke panono panono na pa numa ya
+  myaka iingi calikosele, e lyo na bantu balekansaninapo.\u201d\\nNa kuba, Baibolo
+  tayalandapo ukuti muli Lesa umo mwaba abene batatu. Umfweni ifyo Baibolo yalanda
+  muli aya amalembo:\\n\u201cYehova Lesa wesu ni Yehova umo.\u201d\u2014Amalango 6:4.\\n\u201cImwe
+  mweka, mwe bakwata ishina lya kuti Yehova, ni mwe Mwapulamo pano isonde ponse.\u201d\u2014Amalumbo
+  83:18.\\n\u201cNomba pa kuti babe no mweo wa muyayaya, kano baishiba imwe mwe Lesa
+  wa cine mweka, na Yesu Kristu uo mwatumine.\u201d\u2014Yohane 17:3.\\n\u201cLesa
+  aba fye umo.\u201d\u2014Abena Galatia 3:20.\\nCinshi mu macalici ayengi basambilishisha
+  ukuti muli Lesa umo mwaba abene batatu?\"", "\"Yesu pa kupwa kunena Busapudi bwa
+  ku L\u016blu, waenda ku Kapanama. Bakulumpe bamo ba Bayuda abamufwena. I batumwe
+  na muntu wa kungi\u2014mukatampe wa basola mwine Loma.\\nMupika muswedibwe wa mukatampe
+  wa basola wabela ke kufwa. Nansha uno mukatampe wa basola byadi Mujentaila, wakimbe
+  Yesu amukwashe. Bayuda abasapwila Yesu amba mwingidi wa muntu\u2019wa \u201cul\u0101dikilwe
+  mu njibo, ubela bulebe, wasusuka bya mwiko,\u201d padi i misanshi mikatampe. (Mateo
+  8:6) Bakulumpe ba Bayuda abakulupija Yesu amba uno mukatampe wa basola ufwaninwe
+  kukwashibwa, abashintulula\u2019mba: \u201cUsenswe muzo wetu kadi aye ye wet\u016bbak\u012ble
+  shinankonka.\u201d\u2014Luka 7:4, 5.\\nPonka\u2019pa Yesu ne bakulumpe\u2019ba abataluka
+  ne kwenda ku njibo ya mukatampe wa basola. Abo pa kufwena, mukatampe wa basola watume
+  balunda nandi bamulombole amba: \u201cA Mfumwami, kokakambakana\u2019tu, mwanda
+  ami nkifwaninwepo abewa utwele mu yami njibo. O mwanda mwine nadi nemone bu wampikwa
+  kufwaninwa kwiya kodi.\u201d (Luka 7:6, 7) Bino shabyo byo binenwa bya kwityepeja
+  bya muntu wibidile kuso\u00f1anya! Kadi bibalombola kwishila kwishidile uno muntu
+  na bene Loma bakwabo basusula bapika bibi.\u2014Mateo 8:9.\\nNe kutatana mpika,
+  uno mukatampe wa basola uyukile amba Bayuda bapelanga kupwana na bantu ba mizo ingi.
+  (Bilongwa 10:28) Padi kyo kyatumina mukatampe wa basola balunda nandi bazenze Yesu
+  amba: \u201cNena\u2019tu kishima, mwingidi wami akome.\u201d\u2014Luka 7:7.\\nYesu
+  watulumuka pa kwivwana kino, wanena\u2019mba: \u201cNemusapwila\u2019mba, nansha
+  ke mu Isalela mwine nkyamwene lwitabijo lukatampe namino.\u201d (Luka 7:9) Balunda
+  nandi pa kujokela kudi mukatampe wa basola abamone amba mupika wadi mubele bininge
+  wakoma.\\nYesu upwa\u2019tu kubelula uno muntu, wanenenena\u2019mba bantu ba mizo
+  badi na lwitabijo bakeselwa, na kulombola\u2019mba: \u201cBavule batamba kutunduka
+  ne kushika, bak\u0101ya ne kushikata ku meza pamo na Abalahama ne Izake ne Yakoba
+  mu Bulopwe bwa m\u016blu.\u201d Le Bayuda bampikwa lwitabijo nabo? Yesu unena\u2019mba
+  \u201cbakelwa mu mfindi panja. Mo mobakadila madilo ne kwishenkenya meno.\u201d\u2014Mateo
+  8:11, 12.\\nNanshi Bayuda bapelele kwitabija mukenga webapelwe bidi abo wa kubadilwa
+  mu Bulopwe pamo na Kidishitu bakelwa. Ino Bajentaila bakatambulwa ne kushikata ku
+  meza, bwa abo badi \u201cmu Bulopwe bwa m\u016blu.\u201d\"", "\"Mwilacita ifyabipa.
+  1 Abena Korinti 6:9, 10\\nNga twalitemwa Yehova, tatwakalecita ifyo apata.\\nYehova
+  afwaya ukuti twilaiba, twilakolwa, nelyo ukubomfya imiti iikola.\\nLesa alipata
+  ukwipaya, ukuponya amafumo, kabili tafwaya abaume ukulaala na baume banabo nelyo
+  abanakashi na banakashi banabo. Tafwaya ukuti tuleba abafunushi nelyo ukulalwa na
+  banensu.\\nTatufwile ukulapepa utulubi nelyo ukulaumfwana ne fibanda.\\nIlyo icalo
+  conse cikaba paradaise, takwakabe abantu abakalacita ifyabipa.\\nMulecita ifisuma.
+  Mateo 7:12\\nPa kuti Lesa atutemwe, tufwile ukulamupashanya.\\nLangeni ukuti mwalitemwa
+  abantu pa kuba ne cikuuku kuli bena e lyo na bukapekape.\\nBeni aba cishinka muli
+  fyonse.\\nMuleba no luse kabili mule-elela.\\nMule-ebako abantu pali Yehova ne fyo
+  afwaya.\u2014Esaya 43:10.\"", "\"MATEO 12:22-32 MAKO 3:19-30 LUKA 8:1-3\\n-\\nYESU
+  WASHILULA LWENDO LWA BUBIDI LWA BUSAPUDI\\n-\\nWAPANGA BANDEMONA NE KUTELA BUBI
+  KEBULEKELWAPO\\nKinondanonda na kupwa kwisamba mwanda utala kulekelwa ku njibo ya
+  Shimona Mufadiseo, Yesu washilula lwendo lukwabo lwa busapudi mu Ngadilea. Uno i
+  mwaka wa bubidi wa mwingilo wandi, kadi kadipo bunka. Udi na batumibwa 12 ne bana-bakaji
+  bamo \u201cbabelwilwe mishipiditu mibi ne misongo.\u201d (Luka 8:2) Mu bano mudi
+  ne Madia mwine Makadala, Suzana, ne Njoana, wandi mulume i mukata wa basola wa Mulopwe
+  Heloda Antipese.\\nBantu pa kwenda bayukila\u2019ko Yesu, lupata pa mwingilo wandi
+  nalo lwenda luvudila\u2019ko. Lubamweka pat\u014dka paletwa kudi Yesu muntu umo
+  mukwatwe na ndemona, wadi mpofu kadi kabwanyapo kwisamba ino wabelulwa. Pano uno
+  muntu wanyongololwa mu lupusa lwa bandemona kamone kadi kaesambe. Bantu pa kutulumuka
+  kebanena\u2019mba: \u201cLe uno\u2019u abulwe kwikala Mwan\u0101 Davida?\u201d\u2014Mateo
+  12:23.\\nBibumbo i bikatampe byebungila kudi Yesu kadi bandi bana ba bwanga abakomenwa
+  ne kudya bidibwa. Ino ke bonsopo balanga\u2019mba Yesu i \u201cMwan\u0101 Davida\u201d
+  w\u0101lailwe. Basonekeji bamo ne Bafadiseo i b\u0101ye kutamba ku Yelusalema\u2014kebaidilepo
+  kufundijibwa na Yesu nansha kumukwasha\u2019ko. Basapwilanga bantu amba: \u201cUdi
+  na Belezebuba,\u201d ko kunena\u2019mba wingilanga na \u201cmulopwe wa bandemona.\u201d
+  (Mako 3:22) Babutule ba Yesu pa kwivwana luno lupotopoto, abaiya kukwata Yesu. Mwanda
+  waka?\\nKufika ne pano, banababo na Yesu kebaitabije amba i Mwan\u0101 Leza. (Yoano
+  7:5) Uno Yesu umweka bu wakolomona kibumbo, kakidipo Yesu obadi batama nandi mu
+  Nazala. Abo pa kufwatakanya\u2019mba padi mu mutwe mwandi kemukidipo biyampe, abanena\u2019mba:
+  \u201c\u00d1eni ibamujina.\u201d\u2014Mako 3:21.\\nIno le byobanena\u2019bya i bya
+  bine? Yesu watambe mu kubelula muntu wadi mukwatwe na ndemona, pano wamone ne kwisamba
+  kaesambe. I kutupu ubwanya kutuna uno mwanda. Basonekeji ne Bafadiseo abakimbe kona
+  ntumbo ya Yesu na kumubepela bya bubela. Abanena\u2019mba: \u201cUno mukwetu\u2019u
+  kapa\u00f1angapo bandemona bitupu, i na bukomo bwa Belezebuba, mulopwe wa bandemona.\u201d\u2014Yesu
+  pa kuyuka bilanga basonekeji ne Bafadiseo wanena\u2019mba: \u201cBulopwe bo-bonso
+  bwa kwilalulula abo bwine busadikanga, kadi kibundi nansha njibo yo-yonso ya kwilalulula
+  ayo mine keikemanapo. Mo monka, shi Satana upanga Satana, nankyo welalulula aye
+  mwine; le penepo bulopwe bwandi bukemana namani?\u201d\u2014Mateo 12:25, 26.\\nBine
+  uno mulangilo i muluji\u2019po kash\u0101! Bafadiseo bayukile amba Bayuda bamo bapa\u00f1anga
+  bandemona. (Bilongwa 19:13) O mwanda Yesu waipangula\u2019mba: \u201cShi mpa\u00f1anga
+  bandemona na bukomo bwa Belezebuba, le penepo benu bana abo bebapa\u00f1anga na
+  bukomo bwa ani?\u201d Mu muneneno mukwabo, byobamunena nanshi bibatala\u2019nka
+  abo bene. Yesu wabweja\u2019ko milangwe amba: \u201cShi mpa\u00f1anga bandemona
+  na mushipiditu wa Leza, nankyo bine Bulopwe bwa Leza bubemupeta.\u201d\u2014Mateo
+  12:27, 28.\\nYesu pa kulombola\u2019mba bukomo bwapanga nabo bandemona i bupite
+  bwa Satana, wanena\u2019mba: \u201cLe muntu ubwanya namani kutwela mu njibo ya nkomokomo
+  ne kusela bintu byandi? Poso abadikile bidi kukuta nkomokomo\u2019wa, penepo kat\u016bta
+  bidi mu yandi njibo. Yewa kadipo ku wami mutamba i walwana nami, kadi yewa kakongakanyapo
+  pamo nami usalakanyanga.\u201d (Mateo 12:29, 30) Na bubine basonekeji ne Bafadiseo
+  balwanga na Yesu, kadi bibamweka pat\u014dka\u2019mba i bengidi ba Satana. Basonsololanga
+  bantu kudi Mwan\u0101 Leza, mwine wingila na bukwashi bwa Yehova.\\nYesu wadyumuna
+  bano balwana bengidijibwa na Satana amba: \u201cBintu byonso bikalekelwa bana ba
+  bantu, nansha shi abalonga bubi\u2019ka nansha shi abatukana mitonko\u2019ka. Inoko,
+  yewa ense utuka mushipiditu ujila kakalekelwapo, mhm, nyeke ne nyeke, ino wapi mambo
+  a bubi bwa nyeke.\u201d (Mako 3:28, 29) Languluka\u2019po mobikekadila ku boba batelela
+  Satana bintu bilongwa na mushipiditu wa Leza!\"", "\"Tujisi makani aayinda kubota
+  ngotuyanda kwaabana anduwe mukwabo!\\nKutegwa ujane buumi butamani, yebo weelede
+  kululama mbweenya mbuli Yahushua mbwaluleme. Eeci caambilizya kuti yebo weelede
+  kubamba mulawo ookwa Yahuwah mbweenya mbuli Nguwe mbwaakacita: kululamika milawo
+  yoonse. Kwiina kuleyaleya. Kwiina kulezya. Mubukkwene.\\nInzya. Oobu mbobubotu bwamakani
+  aaya. Nkaambo, masimpe eeni ngakuti, yebo tokonzyi kucita cintu eeci.\\nAswebo tatukonzyi
+  kucicita cintu eeci mubukkwene pe. Kunyina muntu uunga wacicita anguzu zyakwe.\\nPele
+  ono ngaaya makani aakondelezya ncobeni: Mwami Leza Yahuwah ulizyi kale kuti yebo
+  tokonzyi kucita cintu eeci, aboobo Walo takulangili kucita boobo! Zyoonse zyili
+  kale mumaanza Aakwe.\\nMuzeezo wa kusalazyigwa ulakopa\\nMakani mabotu aa lufutuko
+  ngakuti yebo ulakonzya kufutulwa, nokuba kuti yebo tookkwanya kucita zyoonse ziyandika
+  munzila ya lufutuko. Yebo lwako omwini, tokonzyi kubaa bululami buyandika mumulawo
+  ookwa Yahuwah. Ncenciceeci Yahuwah ncaakasungwida Yahushua. Walo, wakali \u201cMwanaa
+  mbelele ncobeni ookwa Yahuwah uugwisya zinyonyoono zya nyika.\u201d (Kobala Johane
+  1:29, KJV.)\\n\u201cNkaambo mbobuya Yahuwah mbwaakabayandisisya bantu boonse bamunyika,
+  wakatuma Mwanaakwe Simuzyalwa alikke, kuti kufumbwa uumusyoma atafwidilili, pele
+  abe abuumi butamani. Nkaambo Yahuwah taakwe naakatuma Mwanaakwe kubantu kuti azoobabeteke,
+  pele kuti bantu bakafutulwe anguwe.\u201d (Kobala Johane 3:16-17, NKJV.)\\nMulawo
+  wabulemu waambilizya bulumbu bwa cinyonyoono: \u201cNkaambo bulumbu bwa cinyonyoono
+  ndufu, pele cipego ca Yahuwah mbuumi butamani muli Yahushua Kristu Simalelo wesu.\u201d
+  Nkaambo \u201cboonse bakabisya, akulezya kubulemu bwa Yahuwah.\u201d (Kobala BaRoma
+  3:23), kulayandika kuba Mufutuli. Aboobo, Yahushua wakazyalwa ansi aano: wakali
+  muntunsi ncobeni, pele Walo kutali mbuli Adamu, wakasala kubamba mulawo wabulemu
+  cabulondo.\\nCiiyo ca lufutuko\\nYahushua alikke ngomuntu wanyama wakabamba mulawo
+  wabulemu cakumaninina. Eelyo naakafwa aciciingano, wakafwa kali mukomi. Nkaambo
+  kunyina naakabisyide, Yahuwah wakaliluleme kumubusya kuzwa kubafu.\\nEelyo mubisyi
+  nayempwa akutambula lufu lwa Yahushua mucibaka cakwe kwiinda mulusyomo, Yahuwah
+  ubweza [bululami] bwa Yahushua bwakutobela mulawo wabulemu akububikka mucibaka ca
+  mubisyi weempwa akusyoma.\\nPaulu upandulula mbuucitika mulimo ooyu, naamba kuti:
+  Ndabona kuti ndakakankaminwa antoomwe a Kilisito aciingano. Aboobo lino buumi mbwepona
+  tabuli bwangu pe, pele mbwa Yahushua Kilisito uuli muli ndime. Buumi oobu mbwepona
+  sunu mumubili mbwakusyoma Mwanaa Yahuwah, ooyo wakandiyandisya akwaaba buumi bwakwe
+  nkaambo kangu. (Kobala BaGalatiya 2:20, KJV.)\\nEelyo yebo notambula Yahushua kuti
+  ngo Mufutuli wako, walo nguubbadela mulandu wako. Lufu Lwakwe lubbadela cikwelete
+  coonse ca mulandu wa zinyonyoono nzyookacita yebo. Mpoonya, mulimo weebeka wakucincanya
+  luzyalo lwabulemu, bululami Bwakwe kwiinda mumulawo bubikkwa mucibaka cako akwaangulula
+  nduwe. Oobu mbululami bwakwaabilwa buya. Zinyonyoono zyesu zyabikka amutwe wa Yahushua,
+  kutegwa tupegwe bululami bwakwe amucibaka cazinyonyoono zyesu. \u201cKilisito wakanyina
+  cinyonyoono, pele Yahuwah wakabikka zinyonyoono zyesu alinguwe, kuti swebo tube
+  balulami kuli Yahuwah kwiinda muli nguwe.\u201d (Kobala 2 Bakolinto 5:21, KJV.)\\nOoku
+  \u201ckululamikwa kwiinda mulusyomo\u201d ncintu comwe akululamikwa nkaambo kakusyoma.
+  Mubwini, muci Giliki, ibbala lya kululamikwa, abbala lya bululami, ndibbala lyomwe
+  ndeenya buyo.\\nKufumbwa buyo nocisyite muli Yahuwah, kosyoma muluzyalo lwa Yahushua,
+  yebo ulivwumbilidwe abululami bwakwe kuzwa kumulandu wa cinyonyoono. Yebo noyimvwi
+  kunembo lya Yahuwah kubee kunyina noninga citide cinyonyoono. Ooku nkwaabilwa bululami
+  kutamani kucitika lyoonse.\\nAaya nga makani mabotu aalufutuko! Mbweenya buyo Abrahamu
+  mbwaakasyomya Isaka kuti, \u201c[Elohimu] Lwakwe ulatupa mwanaa mbelele wakupaizya,\u201d
+  (Matalikilo 22:8, NKJV) Walo wakatupa ncobeni, alimwi ooyo mwanaa mbelele ngu Yahushua,
+  Mwanaakwe mwini.\\nKusandulwa mu luzyalo\\nBoonse batambula caabilo ca bululami
+  bwa Yahushua, ncobeni, banooyanda kupona maumi aabo kweendelanya akuyanda kwa bulemu.
+  Mukubula coolwe, aawa bantu banji mpampawo mpobalubizya. Bayeeyela kuti bululami
+  bwa Yahushua mbobaabidwe inga bwabasandula munzila yamasalamuzi kuti basetekane
+  akubula kampenda mubuumi buno.\\nNkulubizya ooku. Mwaapositolo, Jemusi, wakacenjezya
+  kuti: \u201cToonse ulalubizya muzintu zinjaanji.\u201d (Jemusi 3:2, NKJV) Musyomi
+  uululamikidwe ooyo uutambula moza wa Yahuwah uukkalilila mukati kamoyo uleka ncobeni
+  kucita cinyonyoono ncazyi mumoyo wakwe. Pele, mbuli bwaamba Jemusi, kucinooli kulubizya
+  nkaambo kakutazyiba akuluba, nokuba kubula nguzu. Zinyonyoono zicitigwa kotakubwene
+  nokuba kuti kobulide nguzu tazili mbuli cinyonyoono cicitwa kokanzide amaanu aakkwene
+  kucicita. Kunyina muntu wakeempwa ncobeni uunga wazumanana kucita cinyonyoono cizyibidwe.\\nEelyo
+  moza wa Yahuwah nuulela mukati ka moyo wamuntu, muntu uusyoma ulanganya cinyonyoono
+  mbweenya mbuli Yahuwah mbwacilanganya. Mukuya kwaciindi, inga watalika kuyungizya
+  kucimwa cinyonyoono, eeco caandaanya muya wamuntu kuzwa kuli Yahuwah. Paulu wakapandulula
+  mbocicitika eeci, kaamba kuti: \u201cKuzwa ono cinyonyoono tacili aanguzu kulindinywe,
+  nkaambo ceendelezya buumi bwanu tuuli Mulawo pe, pele nduse lwa Yahuwah lutaambiki.
+  (BaRoma 6:14, KJV) (Mulawo waambwa aawa, \u201cmulawo wa cinyonyoono a lufu\u201d
+  waambwa mu BaRoma 8.)\\nMumajwi amwi, toonse tuyandika kweengelelwa abululami bwa
+  Yahushua, nkaambo toonse tuli babisyi. Pele, eelyo notusala kusyoma mucipego caluzyalo
+  cokwa Yahuwah abuzuba, kutalika kuba kusanduka kulibotela. Eelyo notukakatila kuzyiba
+  akucita luyando lwa Yahuwah, Walo ulemba mulawo Wakwe mumyoyo yesu. Langa lino mutumpango
+  tutobela ootu mbokucitika ncobeni kusanduka ooku.\\n\u201cIme njoomupa myoyo amizeezo
+  mipya, njoomugwisya moyo uuli mbuli bbwe, ndiyoomupa moyo mupya. Ime njoomupa nguzu
+  zya Muuya wangu, ndiyoocita kuti mukatobele malailile Aangu akuti mukabambe ilawo
+  Yangu.\u201d (Ezekiya 36:26-27, NKJV) Kuzwa ku kululamikwa kwiinda mukusalazyigwa,
+  lufutuko lyoonse ncipego cizwa kuli Yahuwah, alimwi ooyo mulimo Wakwe.\\nEelyo muntu
+  nayaa kusanduka, utalika kweendelana akuyanda kwa Yahuwah cakuti, nokuba kuti ucita
+  cintu ncaliyandila mumoyo wakwe, pele eeco ncacita mubwini ucita buyo kuyanda kwa
+  Yahuwah.\\nKusetekana Mbululami bwa Kwaabilwa\\nMbweenya mbuli kululamikwa mbocili
+  cipego, akwalo kusetekana mbweenya buyo.\\nKusetekana mulimo uutola buumi boonse
+  uuletela bululami mumoyo wamuntu. Kulatalika aawo mubisyi naalulamikwa. Ooyu mulimo
+  usandula muntu kuti abe muciimo cabulemu alimwi ulazumanana kucitika kusikila bantu
+  basyoma batambula ciimo ceebeka eelyo Yahushua aakuzyokela bapa bulemu basaante.\\nKululamikwa
+  ngomulimo Yahushua ngwaakatujanina kwiinda mukulisungula kwaaba buumi bwakwe. Kusetekana
+  ngomulimo Yahushua ngwabeleka mukati mumyoyo yesu, kutalikila eelyo notwalulamikwa.\\nEelyo
+  Mufutuli naakali anyika, wakali kugolela mpotugolela aswebo mubweende bwa ciindi
+  amisinzo. Pele naakabuka kuzwa kubafu, wakapegwa cipego ciindene ca Muya Uusalala
+  ookwa Yahuwah kuti aabanye basikwiiya bamutobela. Ooyu moza wakali kcita mulimo
+  wakusandula moyo alimwi wakatuminwa basikwiiya mubuzuba bwa Pentekkositi.\\nYahushua
+  wakapandulwida basikwiiya, kaamba kuti: \u201cNdiyanda kumwaambila masimpe kuti,
+  ncibotu kulindinywe kuti ngunke. Nkaambo kuti nsiciti boobo Mugwasyi takoosika kulindinywe
+  pe. Pele naa ndainka ndiyoomutuma kulindinywe.\u201d (Johane 16:7, KJV)\\nOoyu muya
+  ookwa Yahuwah wiindene uciliko mazubaano kufumbwa ku muntu uusyoma! Ucipedwe cigaminina
+  kcita mulimo wakusandula akusalazya moyo wamuntu amizeezo, akwiilbamba kuti yeendelane
+  amoyo amuzeezo wabulemu.\\nMubwini, kusetekana nkweendelana aa Mwami Yahuwah. Eelyo
+  notuyaa kusetekana, mizeezo yesu, zintu nzyotuyandisya, amakanze eesu atalika kweendelana
+  a Taata alimwi tulakkala Anguwe mu luumuno. \u201cLino nkaambo kakuti Yahuwah watwaamba
+  kuti tuli balulami akaambo kalusyomo, kuli luumuno akati ka Leza andiswe. Mwami
+  wesu Yahushua Kilisito nguwakatujalwida nzila yakuti kwiindila mulusyomo Yahuwah
+  atufwide luzyalo motubede sunu. Aboobo tulatangala kuti tuyokwaabilwa bulemu bwa
+  Yahuwah.\u201d (Kobala BaRoma 5:1-2, KJV.)\\nKululamikwa kwaambilizya kuti mubisyi
+  walulamima.\\nKusetekanya ngo mulimo uusandula muntu kuti abe muciimo cabulemu bwa
+  kujulu.\\nMumajwi amwi, kusetekana mucelo wa kululamikwa. Aawa, mpeenya aawa, mpaali
+  makanze ookwa Yahuwah aalufutuko lwesu. Kufumbwa buyo mubisyi naatambula lufutuko
+  akusyoma luzyalo kwiinda mubululami bwaYahushua, walo ulatambulika kuti ulilondoke
+  mu Mufutuli. Kufumbwa ciindi Taata nacenka muntu uusyoma uulitolaansi, Walo ubwene
+  bululami nokuba kuti mulimo wa kusetekana tuuninga bamba muntu uutonkomene kulondoka!\\nKusekelela
+  akukondwa kutaambiki kuzwide bulemu\\nOoku nkulibotela kwini, bubotu bwa mulumbe
+  mubou butapanduluki! Kufumbwa buyo musyomi weempedwe nacikkede muli Kristu, ulivwumbilidwe
+  abululami bwa Kristu bukkwene nokuba kuti ucicita zinyonyoono nzyatakubwene, zinyonyoono
+  zyakulezya kucita ciluleme, nokuba zyakwaalilwa nkaambo takwe nguzu.\\nMulimo wa
+  kusetekana umanina mukupegwa bulemu eelyo mubili wacinyonyoono nuucincanyigwa akupegwa
+  mubili wa moza, mbweenya mbuli ngwaakapegwa Yahushua, \u201cmutaanzi kuzyalwa kuzwa
+  kubafu\u201d eelyo naakabuka kuzwa kulufu.\\nLino banabokwesu Ime ndamwaambila,
+  kuti mubili wanyama abulowa tuukonzyi kukona bulelo bwa Yahuwah; nokuba busofwaazi
+  tabukonzyi kukona bulemu. Amubone! Ndamwaambila makani aasisidwe. Tatukooyoofwa
+  toonse pe, pele toonse tuyoosandulwa, mukaindi kaniini buyo mukulaba kwaliso, waakulila
+  mweembo. Nkaambo mweembo uyoolila, nkabela bafu bayoobuka amibili iitafwi, eelyo
+  aswebo tuyoosanduka. Nkaambo mubili ooyu uubola uleelede kusanduka kuba uutaboli,
+  mubili ooyu uufwa uleelede kusanduka kuba uutafwi. (Kobala 1 Bakolinto 15:50-53,
+  KJV.)\\nKotambula cipego ca lufutuko sunu! Kukkomana akuzunda kulindila boonse aabo
+  batambula bululami kwiinda mulusyomo.\""]'
 src_ngrams: '{"1": [[["a"], 26721], [["yesu"], 23426], [["yehova"], 15351], [["lesa"],
   14280], [["mba"], 14040]], "2": [[["mambo a"], 1218], [["nokuba boobo"], 1188],
   [["mwami yahuwah"], 914], [["i bika"], 874], [["calo ca"], 651]], "3": [[["ca kwa

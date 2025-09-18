@@ -1,0 +1,618 @@
+corpus: hplt-v3-kea_Latn
+srclang: kea
+timestamp: 1758171434.299255
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["wide16", 403], ["CC-MAIN-2020-10", 290], ["wide15", 156], ["CC-MAIN-2024-38",
+  151], ["CC-MAIN-2018-05", 142], ["CC-MAIN-2020-24", 136], ["CC-MAIN-2017-51", 124],
+  ["CC-MAIN-2017-26", 114], ["CC-MAIN-2018-39", 82], ["CC-MAIN-2019-04", 81], ["CC-MAIN-2018-34",
+  73], ["CC-MAIN-2024-33", 72], ["CC-MAIN-2017-04", 69], ["CC-MAIN-2020-05", 66],
+  ["CC-MAIN-2020-34", 57], ["CC-MAIN-2020-29", 53], ["CC-MAIN-2020-45", 51], ["CC-MAIN-2024-46",
+  48], ["CC-MAIN-2018-43", 47], ["CC-MAIN-2020-40", 43], ["CC-MAIN-2021-39", 39],
+  ["CC-MAIN-2018-22", 38], ["CC-MAIN-2024-51", 36], ["CC-MAIN-2020-16", 36], ["CC-MAIN-2021-49",
+  35], ["CC-MAIN-2022-05", 31], ["CC-MAIN-2021-43", 31], ["wide6", 30], ["CC-MAIN-2022-21",
+  28], ["CC-MAIN-2024-10", 25], ["CC-MAIN-2022-27", 24], ["CC-MAIN-2021-25", 24],
+  ["CC-MAIN-2021-21", 24], ["CC-MAIN-2021-17", 24], ["CC-MAIN-2020-50", 24], ["CC-MAIN-2024-26",
+  23], ["CC-MAIN-2023-40", 23], ["CC-MAIN-2022-33", 23], ["wide2", 22], ["CC-MAIN-2024-30",
+  22], ["CC-MAIN-2023-14", 22], ["CC-MAIN-2021-10", 21], ["CC-MAIN-2023-06", 20],
+  ["wide11", 19], ["wide12", 17], ["CC-MAIN-2023-50", 17], ["CC-MAIN-2022-49", 17],
+  ["CC-MAIN-2024-18", 16], ["CC-MAIN-2022-40", 16], ["CC-MAIN-2021-31", 15], ["CC-MAIN-2024-42",
+  13], ["CC-MAIN-2021-04", 13], ["wide5", 10], ["CC-MAIN-2024-22", 10], ["survey3",
+  9], ["CC-MAIN-2023-23", 9], ["CC-MAIN-2014-15", 9], ["CC-MAIN-2016-44", 2], ["wide17",
+  1], ["wide10", 1], ["CC-MAIN-2015-11", 1], ["CC-MAIN-2014-42", 1], ["CC-MAIN-2014-35",
+  1]]'
+docs_langs: '[[0.1, 7], [0.2, 57], [0.3, 57], [0.4, 121], [0.5, 271], [0.6, 442],
+  [0.7, 505], [0.8, 658], [0.9, 379], [1.0, 583]]'
+docs_segments: '[[1, 20], [2, 58], [3, 125], [4, 185], [5, 312], [6, 328], [7, 261],
+  [8, 220], [9, 173], [10, 136], [11, 144], [12, 102], [13, 92], [14, 81], [15, 65],
+  [16, 61], [17, 35], [18, 45], [19, 38], [20, 38], [21, 33], [22, 23], [23, 42],
+  [24, 29], [25, 29], [26, 18], [27, 24], [28, 13], [29, 15], [30, 20], [31, 14],
+  [32, 15], [33, 7], [34, 13], [35, 12], [36, 9], [37, 13], [38, 6], [39, 9], [40,
+  10], [41, 9], [42, 8], [43, 10], [44, 4], [45, 11], [46, 7], [47, 8], [48, 4], [49,
+  8], [50, 6], [51, 6], [52, 5], [53, 4], [54, 2], [55, 3], [56, 1], [57, 3], [58,
+  2], [59, 2], [60, 2], [61, 1], [62, 3], [63, 2], [64, 4], [65, 2], [66, 1], [68,
+  1], [72, 1], [74, 1], [75, 2], [76, 1], [77, 1], [78, 2], [81, 1], [82, 1], [84,
+  1], [86, 1], [87, 2], [89, 2], [90, 2], [91, 2], [92, 3], [94, 1], [97, 2], [98,
+  2], [102, 2], [104, 1], [105, 1], [106, 2], [107, 2], [108, 1], [109, 2], [110,
+  1], [112, 2], [115, 2], [116, 1], [118, 1], [125, 1], [128, 1], [129, 2], [132,
+  1], [133, 1], [134, 1], [135, 1], [141, 1], [153, 2], [155, 1], [163, 1], [166,
+  1], [167, 1], [169, 1], [172, 1], [180, 1], [181, 1], [184, 1], [187, 2], [195,
+  1], [196, 1], [198, 1], [199, 1], [201, 1], [222, 1], [224, 1], [232, 1], [239,
+  1], [243, 1], [247, 2], [255, 1], [280, 1], [318, 1], [332, 1], [421, 1], [465,
+  1], [495, 1], [760, 1]]'
+docs_segments_mean: 16
+docs_segments_median: 9
+docs_top100_domains: '[["dexamsabi.com", 1175], ["jw.org", 441], ["dypk-portal.com",
+  353], ["blogspot.com", 252], ["deltacultura.org", 240], ["santiagomagazine.cv",
+  109], ["anacao.cv", 72], ["blogspot.pt", 60], ["kriolita.com", 18], ["sullivaninjurylaw.com",
+  17], ["sapo.cv", 17], ["wordpress.com", 12], ["uncommonschools.org", 11], ["tenrelasonkibukre.com",
+  11], ["sapo.pt", 10], ["olharcaboverde.info", 10], ["learnkabuverdianu.com", 9],
+  ["boston.gov", 8], ["abadiarural.pt", 8], ["nanomon.org", 7], ["mass.gov", 7], ["uol.com.br",
+  6], ["tvdasilvapartidjamentu.cv", 6], ["contec.cv", 6], ["auditec.cv", 6], ["sonichits.com",
+  5], ["pressreader.com", 5], ["letras.mus.br", 5], ["turismosab.cv", 4], ["letras.com",
+  4], ["ilhacast.com", 4], ["humbertoramos.net", 4], ["herokuapp.com", 4], ["exotrik.net",
+  4], ["bravanews.com", 4], ["asemana.publ.cv", 4], ["amensagem.pt", 4], ["projectbread.org",
+  3], ["nobidadetv.com", 3], ["lyricsfreak.com", 3], ["letraclub.com", 3], ["hourglass-app.com",
+  3], ["cromexgrab.com", 3], ["wn.com", 2], ["wikimedia.org", 2], ["unicode.org",
+  2], ["submittable.com", 2], ["reverbnation.com", 2], ["principitoenidiomas.com",
+  2], ["muzikum.eu", 2], ["massgeneralbrigham.org", 2], ["lyrics.com", 2], ["losacordes.com",
+  2], ["letrasmz.com", 2], ["letrasdemusica.com.br", 2], ["cvtappros.com", 2], ["cifras.com.br",
+  2], ["blogspot.in", 2], ["blogspot.de", 2], ["aktb.org", 2], ["accessagriculture.org",
+  2], ["yt2fb.com", 1], ["wikia.com", 1], ["wellesleyps.org", 1], ["votenickcollins.com",
+  1], ["visaonews.com", 1], ["videomasi.com", 1], ["vidajusta.org", 1], ["versuri.ro",
+  1], ["varzeadarainha.pt", 1], ["vagalume.com.br", 1], ["umassd.edu", 1], ["twnews.co.uk",
+  1], ["torresoca.com", 1], ["the-music.org", 1], ["tamakai-books.de", 1], ["tablyrics.com",
+  1], ["sweetslyrics.com", 1], ["surveymonkey.com", 1], ["stalk.info", 1], ["smore.com",
+  1], ["scribd.com", 1], ["readbag.com", 1], ["raileurop3.com", 1], ["radiosolmansi.net",
+  1], ["praiafm.biz", 1], ["portugueseindependentnews.com", 1], ["polskoangielski.pl",
+  1], ["openglobalrights.org", 1], ["open-circle.org", 1], ["nickcollinsma.us", 1],
+  ["mydorchester.org", 1], ["my-rights.org", 1], ["musiconline.com.br", 1], ["movier.eu",
+  1], ["molst-ma.org", 1], ["mindelo.info", 1], ["mcbrideforboston.com", 1], ["masssave.com",
+  1], ["lyricstranslate.com", 1]]'
+docs_top100_tld: '[["com", 1948], ["org", 731], ["cv", 223], ["pt", 84], ["com.br",
+  17], ["gov", 16], ["info", 14], ["net", 13], ["mus.br", 5], ["publ.cv", 4], ["eu",
+  3], ["de", 3], ["in", 2], ["gw", 2], ["fr", 2], ["co.uk", 2], ["us", 1], ["tv",
+  1], ["travel", 1], ["top", 1], ["ru", 1], ["ro", 1], ["pl", 1], ["news", 1], ["jp",
+  1], ["edu", 1], ["biz", 1]]'
+docs_total: 3080
+docs_wds: '[[5.0, 43], [5.1, 34], [5.2, 44], [5.3, 51], [5.4, 53], [5.5, 45], [5.6,
+  39], [5.7, 36], [5.8, 55], [5.9, 49], [6.0, 52], [6.1, 57], [6.2, 54], [6.3, 66],
+  [6.4, 64], [6.5, 67], [6.6, 81], [6.7, 60], [6.8, 82], [6.9, 64], [7.0, 71], [7.1,
+  92], [7.2, 88], [7.3, 72], [7.4, 115], [7.5, 113], [7.6, 87], [7.7, 101], [7.8,
+  117], [7.9, 146], [8.0, 200], [8.1, 234], [8.2, 125], [8.3, 86], [8.4, 52], [8.5,
+  46], [8.6, 46], [8.7, 42], [8.8, 39], [8.9, 26], [9.0, 30], [9.1, 22], [9.2, 10],
+  [9.3, 8], [9.4, 5], [9.5, 3], [9.6, 3], [9.7, 4], [9.8, 1]]'
+sentence_pairs: 50811
+src_bytes: 7405383
+src_chars: 7226646
+src_pii: 77
+src_tokens: 1628785
+unique_sents: 44938
+src_sent_tokens: '[[1, 1990], [2, 1082], [3, 1894], [4, 2005], [5, 2492], [6, 2590],
+  [7, 2595], [8, 2279], [9, 2141], [10, 1674], [11, 1474], [12, 1255], [13, 1050],
+  [14, 958], [15, 894], [16, 798], [17, 765], [18, 674], [19, 612], [20, 567], [21,
+  540], [22, 502], [23, 432], [24, 484], [25, 446], [26, 407], [27, 380], [28, 415],
+  [29, 369], [30, 366], [31, 344], [32, 376], [33, 356], [34, 316], [35, 318], [36,
+  338], [37, 325], [38, 308], [39, 289], [40, 254], [41, 293], [42, 292], [43, 275],
+  [44, 243], [45, 241], [46, 250], [47, 250], [48, 237], [49, 236], [50, 226], [51,
+  223], [52, 192], [53, 210], [54, 203], [55, 213], [56, 206], [57, 182], [58, 227],
+  [59, 251], [60, 225], [61, 273], [62, 232], [63, 234], [64, 203], [65, 188], [66,
+  217], [67, 175], [68, 167], [69, 144], [70, 126], [71, 142], [72, 159], [73, 151],
+  [74, 159], [75, 161], [76, 170], [77, 171], [78, 172], [79, 161], [80, 161], [81,
+  137], [82, 161], [83, 135], [84, 146], [85, 98], [86, 114], [87, 103], [88, 101],
+  [89, 108], [90, 95], [91, 78], [92, 80], [93, 87], [94, 78], [95, 76], [96, 73],
+  [97, 72], [98, 66], [99, 67], [100, 66], [101, 79], [102, 66], [103, 55], [104,
+  73], [105, 75], [106, 64], [107, 60], [108, 59], [109, 57], [110, 50], [111, 50],
+  [112, 46], [113, 61], [114, 61], [115, 48], [116, 60], [117, 44], [118, 42], [119,
+  48], [120, 41], [121, 43], [122, 55], [123, 41], [124, 37], [125, 34], [126, 45],
+  [127, 39], [128, 47], [129, 40], [130, 33], [131, 34], [132, 33], [133, 23], [134,
+  37], [135, 30], [136, 41], [137, 33], [138, 44], [139, 34], [140, 33], [141, 29],
+  [142, 33], [143, 31], [144, 29], [145, 28], [146, 23], [147, 31], [148, 25], [149,
+  17], [150, 29], [151, 34], [152, 25], [153, 23], [154, 19], [155, 22], [156, 17],
+  [157, 37], [158, 16], [159, 15], [160, 24], [161, 19], [162, 14], [163, 26], [164,
+  15], [165, 15], [166, 16], [167, 19], [168, 15], [169, 13], [170, 14], [171, 13],
+  [172, 19], [173, 15], [174, 7], [175, 12], [176, 8], [177, 9], [178, 10], [179,
+  16], [180, 9], [181, 8], [182, 6], [183, 10], [184, 13], [185, 11], [186, 14], [187,
+  6], [188, 7], [189, 9], [190, 13], [191, 13], [192, 7], [193, 10], [194, 9], [195,
+  10], [196, 15], [197, 8], [198, 9], [199, 8], [200, 6], [201, 8], [202, 5], [203,
+  4], [204, 10], [205, 10], [206, 9], [207, 7], [208, 10], [209, 6], [210, 6], [211,
+  8], [212, 5], [213, 2], [214, 2], [215, 11], [216, 6], [217, 3], [218, 5], [219,
+  6], [220, 9], [221, 10], [222, 2], [223, 6], [224, 7], [225, 1], [226, 1], [227,
+  1], [228, 1], [229, 3], [230, 1], [231, 4], [232, 5], [233, 1], [234, 2], [235,
+  2], [237, 1], [238, 5], [241, 4], [242, 4], [243, 5], [244, 2], [245, 5], [246,
+  1], [247, 3], [248, 8], [249, 2], [250, 3], [251, 1], [253, 2], [254, 2], [255,
+  4], [256, 3], [257, 2], [258, 4], [259, 4], [260, 1], [261, 3], [262, 3], [263,
+  3], [264, 1], [266, 1], [267, 1], [268, 1], [269, 2], [270, 5], [271, 2], [272,
+  2], [273, 1], [274, 4], [275, 4], [280, 1], [282, 1], [285, 1], [286, 1], [288,
+  1], [290, 3], [292, 1], [293, 2], [294, 1], [296, 1], [297, 1], [299, 1], [300,
+  1], [301, 1], [302, 3], [303, 1], [305, 3], [307, 1], [309, 2], [310, 3], [312,
+  1], [314, 1], [315, 1], [316, 1], [317, 1], [318, 1], [322, 2], [324, 2], [325,
+  1], [330, 2], [331, 1], [332, 1], [337, 1], [338, 1], [341, 1], [344, 1], [352,
+  2], [353, 1], [356, 2], [369, 1], [370, 1], [372, 1], [373, 1], [377, 1], [380,
+  1], [383, 1], [385, 1], [387, 1], [396, 1], [403, 1], [404, 1], [408, 1], [412,
+  2], [417, 2], [420, 1], [424, 1], [426, 1], [427, 1], [428, 1], [431, 2], [436,
+  1], [437, 1], [438, 1], [444, 1], [445, 1], [446, 1], [450, 2], [452, 1], [456,
+  1], [467, 1], [473, 1], [477, 1], [488, 1], [500, 1], [505, 1], [508, 1], [510,
+  1], [513, 1], [527, 2], [536, 1], [553, 1], [569, 1], [583, 1], [599, 1], [666,
+  1], [673, 1], [698, 1], [703, 1], [704, 1], [718, 2], [762, 1], [845, 1], [849,
+  1], [860, 1], [956, 1], [982, 1], [1048, 1], [2094, 1]]'
+src_sent_tokens_mean: 32
+src_sent_tokens_median: 14
+src_unique_sents: '[[1, 376], [2, 753], [3, 1174], [4, 1690], [5, 2172], [6, 2350],
+  [7, 2383], [8, 2173], [9, 2000], [10, 1585], [11, 1349], [12, 1208], [13, 1020],
+  [14, 895], [15, 803], [16, 754], [17, 749], [18, 660], [19, 597], [20, 551], [21,
+  522], [22, 472], [23, 406], [24, 457], [25, 425], [26, 383], [27, 372], [28, 394],
+  [29, 347], [30, 357], [31, 341], [32, 352], [33, 344], [34, 308], [35, 306], [36,
+  316], [37, 310], [38, 298], [39, 276], [40, 249], [41, 283], [42, 281], [43, 268],
+  [44, 241], [45, 237], [46, 241], [47, 242], [48, 228], [49, 220], [50, 213], [51,
+  209], [52, 185], [53, 201], [54, 197], [55, 202], [56, 193], [57, 170], [58, 193],
+  [59, 200], [60, 182], [61, 202], [62, 172], [63, 169], [64, 163], [65, 154], [66,
+  186], [67, 154], [68, 147], [69, 136], [70, 120], [71, 131], [72, 146], [73, 137],
+  [74, 144], [75, 145], [76, 160], [77, 152], [78, 156], [79, 144], [80, 145], [81,
+  116], [82, 141], [83, 126], [84, 136], [85, 92], [86, 107], [87, 93], [88, 95],
+  [89, 99], [90, 94], [91, 76], [92, 77], [93, 87], [94, 77], [95, 76], [96, 68],
+  [97, 72], [98, 66], [99, 66], [100, 64], [101, 78], [102, 65], [103, 52], [104,
+  72], [105, 71], [106, 64], [107, 59], [108, 59], [109, 55], [110, 50], [111, 47],
+  [112, 45], [113, 55], [114, 61], [115, 48], [116, 58], [117, 41], [118, 41], [119,
+  44], [120, 38], [121, 43], [122, 54], [123, 38], [124, 37], [125, 33], [126, 45],
+  [127, 38], [128, 46], [129, 38], [130, 33], [131, 33], [132, 33], [133, 23], [134,
+  36], [135, 30], [136, 41], [137, 33], [138, 44], [139, 34], [140, 33], [141, 28],
+  [142, 33], [143, 31], [144, 28], [145, 27], [146, 21], [147, 29], [148, 24], [149,
+  16], [150, 29], [151, 32], [152, 25], [153, 20], [154, 19], [155, 21], [156, 17],
+  [157, 36], [158, 16], [159, 15], [160, 23], [161, 19], [162, 14], [163, 24], [164,
+  14], [165, 15], [166, 16], [167, 17], [168, 15], [169, 13], [170, 13], [171, 13],
+  [172, 19], [173, 15], [174, 7], [175, 12], [176, 8], [177, 9], [178, 10], [179,
+  16], [180, 9], [181, 8], [182, 6], [183, 10], [184, 12], [185, 10], [186, 14], [187,
+  6], [188, 7], [189, 8], [190, 12], [191, 13], [192, 7], [193, 10], [194, 9], [195,
+  8], [196, 14], [197, 8], [198, 9], [199, 8], [200, 6], [201, 8], [202, 5], [203,
+  4], [204, 9], [205, 10], [206, 8], [207, 7], [208, 10], [209, 6], [210, 6], [211,
+  8], [212, 5], [213, 2], [214, 2], [215, 9], [216, 6], [217, 3], [218, 5], [219,
+  5], [220, 7], [221, 10], [222, 2], [223, 6], [224, 7], [225, 1], [226, 1], [227,
+  1], [228, 1], [229, 3], [230, 1], [231, 4], [232, 5], [233, 1], [234, 2], [235,
+  2], [237, 1], [238, 5], [241, 4], [242, 4], [243, 5], [244, 2], [245, 5], [246,
+  1], [247, 3], [248, 7], [249, 2], [250, 3], [251, 1], [253, 2], [254, 2], [255,
+  3], [256, 3], [257, 2], [258, 4], [259, 4], [260, 1], [261, 2], [262, 3], [263,
+  3], [264, 1], [266, 1], [267, 1], [268, 1], [269, 2], [270, 5], [271, 2], [272,
+  2], [273, 1], [274, 4], [275, 3], [280, 1], [282, 1], [285, 1], [286, 1], [288,
+  1], [290, 3], [292, 1], [293, 2], [294, 1], [296, 1], [297, 1], [299, 1], [300,
+  1], [301, 1], [302, 3], [303, 1], [305, 2], [307, 1], [309, 2], [310, 3], [312,
+  1], [314, 1], [315, 1], [316, 1], [317, 1], [318, 1], [322, 1], [324, 2], [325,
+  1], [330, 2], [331, 1], [332, 1], [337, 1], [338, 1], [341, 1], [344, 1], [352,
+  2], [353, 1], [356, 2], [369, 1], [370, 1], [372, 1], [373, 1], [377, 1], [380,
+  1], [383, 1], [385, 1], [387, 1], [396, 1], [403, 1], [404, 1], [408, 1], [412,
+  2], [417, 2], [420, 1], [424, 1], [426, 1], [427, 1], [428, 1], [431, 2], [436,
+  1], [437, 1], [438, 1], [444, 1], [445, 1], [446, 1], [450, 2], [452, 1], [456,
+  1], [467, 1], [473, 1], [477, 1], [488, 1], [500, 1], [505, 1], [508, 1], [510,
+  1], [513, 1], [527, 2], [536, 1], [553, 1], [569, 1], [583, 1], [599, 1], [666,
+  1], [673, 1], [698, 1], [703, 1], [704, 1], [718, 1], [762, 1], [845, 1], [849,
+  1], [860, 1], [956, 1], [982, 1], [1048, 1], [2094, 1]]'
+src_langs: '[["pt", 16072], ["es", 6656], ["it", 4981], ["en", 2620], ["io", 1851],
+  ["eo", 1209], ["tr", 1073], ["ro", 1062], ["mt", 921], ["qu", 909], ["hu", 837],
+  ["bs", 836], ["cs", 793], ["uz", 742], ["ca", 713], ["fr", 618], ["tl", 526], ["gl",
+  459], ["br", 459], ["ast", 440], ["id", 410], ["de", 376], ["sq", 326], ["eu", 288],
+  ["et", 287], ["jbo", 242], ["sl", 232], ["sr", 219], ["su", 217], ["ms", 206], ["gn",
+  206], ["hr", 195], ["fi", 195], ["ku", 192], ["nap", 191], ["pl", 188], ["lt", 187],
+  ["gom", 184], ["is", 171], ["cy", 152], ["kw", 144], ["ia", 136], ["ceb", 119],
+  ["uk", 103], ["cbk", 100], ["la", 99], ["vec", 93], ["sc", 90], ["rm", 90], ["ilo",
+  87], ["eml", 86], ["war", 82], ["sk", 82], ["az", 65], ["vi", 59], ["oc", 59], ["sv",
+  53], ["pms", 48], ["nb", 48], ["wa", 42], ["nl", 41], ["ht", 41], ["ga", 40], ["sw",
+  35], ["diq", 33], ["mwl", 29], ["ie", 29], ["jv", 28], ["ur", 27], ["nah", 21],
+  ["zh", 18], ["vo", 18], ["scn", 18], ["gd", 18], ["fy", 18], ["da", 17], ["tk",
+  16], ["sco", 15], ["ru", 15], ["pam", 12], ["nds", 10], ["mg", 9], ["lv", 9], ["so",
+  8], ["lmo", 8], ["gv", 8], ["el", 8], ["kn", 7], ["ja", 7], ["fa", 7], ["an", 7],
+  ["vep", 6], ["te", 6], ["ky", 5], ["ka", 5], ["hy", 5], ["bcl", 5], ["ta", 4], ["nn",
+  4], ["ml", 4], ["lb", 4], ["ko", 4], ["hsb", 4], ["af", 4], ["ug", 3], ["tg", 3],
+  ["mk", 3], ["kv", 3], ["gu", 3], ["als", 3], ["yo", 2], ["my", 2], ["lo", 2], ["dsb",
+  2], ["co", 2], ["bn", 2], ["ar", 2], ["xal", 1], ["th", 1], ["sd", 1], ["pnb", 1],
+  ["pfl", 1], ["pa", 1], ["mrj", 1], ["mr", 1], ["mn", 1], ["min", 1], ["li", 1],
+  ["kk", 1], ["he", 1], ["bg", 1], ["bar", 1], ["ba", 1]]'
+hardrules_tags: '{"not_too_long": 236, "not_too_short": 4313, "length_ratio": 0, "no_urls":
+  474, "no_bad_encoding": 176, "pii": 77}'
+sample: '["\"1.Ai Amor - ai amor, ai amor no primeiro dia ki eu ti vi fiquei logo
+  apaixonado por ti meu coracao, meu coracao bateu tao forte que nao paro de pensar
+  em ti - de pensar em ti... ai amor, ai amor nessa tardinha\\n2.Amor Di Nha Vida
+  - Baby ami djan fazi tudu manera, ke pan fazebu felis ma si me bu ka sta kontenti
+  ami djan fazi tudu manera, ke pan fazebu felis ma si me bu ka sta kontenti djan
+  fazi tudu kin podi fazi djan dabu tudu\\n3.Emusaun Na Korasaun - oji un levanta,
+  kun emusaun na korasaun sodadi ba brasa nha tera oji un levanta, kun emusaun na
+  korasaun sodadi ba brasa Kabu Verdi ie iea nos tudu ten vontadi -- ba odja nos tera
+  nos tudu ten vontad\\n4.Epoka Di Festa - Oia nos Kultura, nos tradisaun na ritimu
+  di un koladera ki nu ta sinti sabi na ritimu di un koladera ki nu ta sinti sabi
+  Epoka di festa dja txiga nos tudu no bai pa nos tera pa no ba pasa sabi juntu\\n5.Flor
+  Di Roza - runnn ie ie ie baby, runnn un noooo, an an an an djobi na bu rostu, e
+  sima djobi na primeru dia di lua xeia tudu ora kontenti, tudu dia xeiu di surizu
+  mas nunka un ta pensaba ma bu sta interesada na\\n6.Irmauns - si nos tudu sigui
+  nos kaminhu, no ta konsigui tudu kel ki nu kre si si nos tudu fazi tudu djuntu,
+  fazi tudu na paz no ta konsigui tudu nes mundu ie hey -- nu ten ki sta mas unidu,
+  ku kunpanheru nu te\\n7.Kantu Mi Konxebu - oh baby iea oh baby iea dedika tudu nha
+  amor pa bo u baby ben flan undi kin staba eradu pamodi un sta ta xinti ma bu sta
+  muda bu manera -- bu manera Kantu mi konxebu bu prometen un amor sinseru ma ko\\n8.Maidjinha
+  - Un ka ten ka ten palavras nou ke pan grad''cebu, pa tudu ke bo faze pamin oh Maidjinha,
+  oh mai, un ka ten bu da''m amor, bu da''m karinhus, bo da''m tudu kun kriansa ta
+  marese -- Maidjinha bu da''m amor,\\n9.Minina Bunita - Au Toma kuidadu na kuze ki
+  bu sta fra Toma xintidu na kuze ki bu sta fazi minina boka e di bo, bu ta fazi kel
+  ki bu kre ma si mundu da kontra bo, e bo ki ta lebal Minina bunita bo e, korpu jeitoza
+  e\\n10.Na Kel Dia - hey dixan kontabu, tudu kel ki min ten pasod longi di bo baby
+  dxan ben flabu, tudu kel ki mi ten passadu sen bu amor -- coros. Uh ta deta noti
+  mi ka ta podi dormi so ta pensa na bo ta deta noti mi ka\\n11.Un So Korasaun - Amor,
+  mi sta odja na bu rostu ma bu ka sta kontenti min sabi ma bu sta maguadu explikan,
+  es sofrimentu nha amor ami djan kre djudabu, djan kre fazebu felis my love Oras
+  ki bu ta fala ku mi, baxinhu n\"", "\"Kriminalidade na CV atingi nivel \u201cinsuport\u00e1vel\u201d\\nDanielson
+  Martins, + konxidu pa \u201cMano\u201d, ex-fuzileiro militar, foi assasinadu ku
+  txeu tiros di bala na noti di es tersa pa kuarta-fera na bairro Eugenio Lima, na
+  Praia, frinti di un mini-mercado undi e ta trabadjaba komu seguransa ( mini-mercado
+  Branco ) . Assassinos , tudo encabuzados, fugi na carro.\\nNa si facebook Danielson
+  Martins ta fla ma \u00ea ta trabadja pa For\u00e7as Armadas y \u00ea ta ta parci
+  na meio di militares. ...Tamb\u00e9 na kument\u00e1rio di un foto ku bestimenta
+  musulmanu \u00ea ta konfesa ma el \u00ea un siguidor di Bin Laden.\\nDanielson Martins
+  dexa fidjus y kumpanhera. \u00ca ta moraba na Achada Grande Frente.\\nSegundo jornal
+  \u201cA Na\u00e7\u0103o\u201d Danielson era un ex-recluso y suspeito di \u201cvarios
+  crimes\u201d ki ta bai di homicidio a roubos di armas na Praia ( arma ki tamb\u00e9
+  \u00ea ta mostra na si foto di perfil na facebook).\\nTudo ta indica ma si morti
+  \u00ea un \u201cajuste de contas\u201d. El era tidu komu \u201cguarda-costa\u201d
+  di empres\u00e1rio Branco ki sta na cadeia por alegadu envolvimento na morte di
+  un mudjer na Picos.\\nMorte di Danielson ta eleva pa kuazi 40 numero di pessoas
+  ki dja matadu na Cabo Verde so na ultimos 3 mes.\\nPresidente Jorge Carlos Fonseca
+  fla onti mas es nivel di kriminalidadi dja ultrapasa limiti di \u201c comunitariamenti
+  suport\u00e1vel\u201d. Por isu \u00ea pidi governo pa toma medidas ... fonte:ok\\nCOMMENTS\"",
+  "\"ser padre cabo-verdiano na Merka \u00ea mutu + di ki reza misa...\\n\u00ca fla
+  ma al ves \u00ea ta txomadu na meio di noti pa \u00ea da un konsedju, djudu rezolvi
+  un konflitu familiar ou simplismenti un dexa un palavra di konfortu nun mumentu
+  difisil.\\nPadre Irineu Gomes, natural di Ilha di Santiago, dja ten 5 ano na Merka
+  na 3 parokias di Brockton, sidadi merkanu ki ta abriga uns 30 mil cabo-verdianos
+  y descendentes di cabo-verdianos.\\nTudu sabado di tardi \u00ea ta reza misa na
+  kriolu na St. Edith Stein Church, un Igjeja na sentru di Brockton, mas tamb\u00e9
+  na ingles na 2 otu igrejas, mas pa el e mutu + fasil reza misa y fazi si homilia
+  na kriolu kuza ki ta pirmiti kumunidadi konecta mutu + faxi ku si f\u00e9 y ku palavras
+  di Escritura.\\nPADRE CABO-VERDIANO\u2026\\nMas pa Irineu Correia, ki ordenadu 15
+  anos atras, ser padre cabo-verdiano na Merka \u00ea mutu + di ki reza misa...\\nNun
+  sosiedadi markadu pa materialismo y individualismo undi pessoas ten tendensia na
+  pensa so na ses kabesa y ignora prublemas di otu, nun sosiedadi markadamenti \u201cegoista\u201d
+  padre Irineu \u00ea al ves kel unico \u201cvoz amiga\u201d pa obi na hora di aflison...\\n\u00ca
+  fla ma e ta txomadu duranti semana interu ( al ves altas horas da noite) pa \u00ea
+  da un konsedju, pa \u00ea djuda rezolvi un konflito familiar ou simplismenti pa
+  \u00ea djuda enkontra midjor kaminhu na hora di indisizo ( Konflitos \u00ea na maioria
+  konflitos di dom\u00e9sticos ou konflitos di gerason entre pais y fidju). \u2026
+  Si un familia mesti ajuda ou si teni algun prublema e fla ma sempri ki e txomadu
+  \u00ea ta bai la .\\nMas maior dizafiu pa es padre \u00ea tenta manti jovens lonji
+  di rua, lonji di gangs, lonji di droga y lonji di armas\u2026. Ten txeu storia di
+  jovens y adolescents ki ate ta sta na bom kaminhu ma ski dipos ta kumesa ta muda.
+  ..Mison die s padre e tenta manti es jovens na bom kaminhu.\\n\u201cNOS TUDU \u00ca
+  PEREGRINOS\u2026\u201d\\nY nes kuarta-fera 23 di Novembro ki Merka ta selebra Dia
+  de A\u00e7\u00f5es de Gra\u00e7as (Thanksgiving) pa kumemora chegada 400 anos atras
+  di kes 102 peregrinos inglezis ki fuji di persiguison, nes dia di Thanksgiving padre
+  Irineu Gomes ta lembra ma \u2018nos tudu \u00ea peregrinos\u201d\u2026 Cabo-verdianos
+  ka txiga Merka persiguidos, mas sima kes peregrinos di seculo 16 es txiga Merka
+  em buska di un vida midjor pa es y pa ses familia. E pur isu ki kumunidadi cabo-verdiana
+  na Merka tambe ta selebra es data ku peru y ku bakalhau, mas pa Padre Irineu \u00ea
+  importanti tambe \u2018agradesi\u2019 y ka squesi ki kes + nesesitadus.\\n(PS :
+  Padre Irineu \u00ea kuartu padre ki sta reza misa na kriolu na Brockton pa sirbi
+  kumunidadi .Primeru foi Padre Pio na 1978). Fonte:ok\\nCOMMENTS\"", "\"Anu ki N
+  nase: 1955\\nPa\u00eds ki N nase: Spanha\\nPasadu: Ta uzaba dr\u00f3gas, ta bebeba
+  dim\u00e1s i \u00e9ra viol\u00e9ntu\\nNHA PASADU\\nAlguns algen ta leba txeu t\u00e9npu
+  pa prende ku ses \u00e9ru. Ami \u00e9ra si tanb\u00ea. N nase i N kria na Barselona,
+  ki \u00e9 sugundu sidadi m\u00e1s grandi di Spanha. Nha fam\u00edlia ta moraba na
+  un lugar ki txoma Somorrostro ki tinha un bon p\u00e1rti di kes bera-mar di sidadi.
+  Somorrostro \u00e9ra konxedu pa krimi i pa kunpra i bende dr\u00f3ga.\\nNha pai
+  ku nha mai tinha 9 fidju. Ami \u00e9ra kel m\u00e1s grandi. Nos \u00e9ra txeu p\u00f3bri,
+  pur isu nha pai manda-m trabadja na un klubi di t\u00e9nis. N tinha 10 anu i N ta
+  trabadjaba 10 \u00f3ra pur dia. Nton, N fika sen bai sk\u00f3la sima txeu min\u00eds
+  di nha idadi. Kantu ki N tinha 14 anu, N kumesa ta trabadja na un lugar ki ta fazeda
+  kuzas ku f\u00e9ru.\\nNa anu di 1975, es txoma-m pa tr\u00f3pa, ki \u00e9ra obrigat\u00f3riu
+  na Spanha. N kria fazeba algun kuza novu na nha vida, pur isu N oferese pa N faze
+  p\u00e1rti di Lijion Spanhol di Stranjeru na Melila, ki ta fikaba na un tirit\u00f3riu
+  di Spanha, na n\u00f3rti di \u00c1frika. Na kel t\u00e9npu la, N fika konpletamenti
+  nvolvidu na mundu suju di dr\u00f3ga i bebida alk\u00f3lika.\\nKantu ki N sai di
+  kel Lijion, N volta pa Barselona i N kria un grupu viol\u00e9ntu. Nu ta furtaba
+  kalker kuza ki nu atxaba. Dip\u00f4s nu ta bendeba kes kuza, asi pa nu pode atxaba
+  dinheru pa nu kontinuaba ta uza dr\u00f3ga. N kumesa ta uza dr\u00f3gas sima LSD
+  i anfetamina. Tanb\u00ea, N fika txeu nvolvidu na s\u00e9ksu, na bebida i na djuga
+  bat\u00f3ta. Kel manera mariadu di vive li p\u00f4-m bira kada b\u00eas m\u00e1s
+  viol\u00e9ntu. S\u00e9npri N ta andaba ku un faka, un matxadu \u00f4 un maxin. I
+  nunka N ka ta xintiba medu di uza-s si N mesteba.\\nUn dia, mi ku nha grupu viol\u00e9ntu
+  nu furta un karu i pul\u00edsia bai nos tras. \u00c9ra sima s\u00e9na di un filmi.
+  Nu fuji uns 30 kil\u00f3metru na kel karu ki nu furta. M\u00e1 dip\u00f4s pul\u00edsia
+  kumesa ta da-nu tiru. Nton, nos kondutor tevi un asidenti ku kel karu i nos tudu
+  nu k\u00f3re. Ta da pa ntende pamodi ki nha pai k\u00f3re ku mi di kaza kantu el
+  da k\u00f3nta di kel ki kontise.\\nDur\u00e1nti 5 anu, N vive na rua. N ta durmiba
+  na p\u00f3rtas di kaza, na kamions, na bankus di prasa i na simit\u00e9rius. Ti
+  na un kav\u00e9rna, N vive pa un t\u00e9npu. Nha vida ka tinha ninhun obijetivu
+  nton N ta xintiba ma ka ta nportaba si N staba bibu \u00f4 mortu. N ta lenbra ma
+  un dia, dip\u00f4s ki N uza dr\u00f3ga, N korta nhas pulsu i nhas brasu. Ti inda
+  N tene sinal di kes pankada.\\nMODI KI B\u00cdBLIA MUDA NHA VIDA\\nKantu ki N tinha
+  28 anu, nha mai bai djobe-m i el pidi-m pa N volta pa kaza. N konkorda i N promete-l
+  ma N ta mudaba nha vida. M\u00e1 leba t\u00e9npu pa N kunpri kel ki N promete-l.\\nUn
+  dia di tardi, d\u00f4s Tistimunha di Jeov\u00e1 konku na nos p\u00f3rta. Timenti
+  N staba ta obi-s, nha pai grita la di d\u00e9ntu kaza pa N da-s ku p\u00f3rta na
+  r\u00f3stu. M\u00e1 k\u00f3mu N ka gostaba di seta \u00f3rdi di ningen, N finji
+  ma N ka obi. Kes Tistimunha di Jeov\u00e1 da-m tr\u00eas livru pikinoti, i N toma
+  kontenti. N pergunta-s undi ki es ta fazeba ses runion. Uns dia dip\u00f4s, N bai
+  pa Salon di Reinu.\\nPrimeru kuza ki N repara \u00e9ra modi ki tudu algen staba
+  bistidu dretu. M\u00e1 ami N staba ku kab\u00e9lu kunpridu, ku barba grandi i ku
+  ropa b\u00e9dju. Nton, N ka xinti dretu na ses meiu, pur isu N fika na rua di Salon
+  di Reinu. M\u00e1 N fika spantadu kantu N odja Juan bistidu di fatu. Nos \u00e9ra
+  kol\u00e9ga i el ta fazeba p\u00e1rti di un grupu viol\u00e9ntu. Dip\u00f4s N fika
+  ta sabe ma dja tinha un anu ki el bira Tistimunha di Jeov\u00e1. Odja-l la, da-m
+  forsa pa N entra i sisti runion. \u00c9 si ki tudu kumesa ta muda na nha vida.\\nN
+  seta un studu di B\u00edblia i l\u00f3gu N ntende ma si N kr\u00ea biraba amigu
+  di Deus, N tinha ki muda nha manera di ser viol\u00e9ntu i kel vida di konportamentu
+  mariadu ki N tinha. Faze kes mudansa li foi dif\u00edsil. N prende ma pa N agrada
+  Jeov\u00e1 Deus, N mesteba \u2018troka nha manera di pensa pa N pode transforma\u2019.
+  (Romanos 12:2) Mizerik\u00f3rdia di Deus mexe txeu ku mi. Sikr\u00ea ku tudu nhas
+  \u00e9ru, N xinti ma el sta daba mi xansi di muda nha stilu di vida konpletamenti.
+  Kel ki N prende sobri Jeov\u00e1 Deus entra na fundu di nha korason. N odja klaru
+  ma tinha un Kriador ki ta preokupaba ku mi. \u2014 1 Pedro 5:6, 7.\\nKel-la motiva-m
+  pa N kumesa ta faze mudansas. Pur iz\u00e9nplu, na nha studu di B\u00edblia kantu
+  nu staba ta p\u00e2pia sobri fuma, N fla nha kab\u00e9sa: \u2018Si Jeov\u00e1 Deus
+  kr\u00ea pa N linpa di tudu sujidadi, nton N ten ki para di fuma!\u2019 (2 Cor\u00edntios
+  7:1) N poi kes sigaru tudu na lixu!\\nTanb\u00ea N mesteba para di uza i di bende
+  dr\u00f3ga. Faze kel-la leba m\u00e1s t\u00e9npu i sforsu. I N sabia ma pa N konsigiba,
+  N tinha ki kortaba amizadi ku nhas kol\u00e9ga. Ses influ\u00e9nsia ka sta djudaba
+  mi faze prugr\u00e9su na nha amizadi ku Deus. Dip\u00f4s, N kumesa ta kunfia m\u00e1s
+  na Deus i na nhas novu amigu na kongregason. Ses amor i preokupason ku mi \u00e9ra
+  un kuza ki nunka N ka xintiba antis. Sima m\u00eas ba ta pasa, N konsigi larga dr\u00f3ga
+  i N \u2018troka nha manera di ser pa un otu novu\u2019. (Ef\u00e9sios 4:24) Kel-la
+  djuda-m bira m\u00e1s amigu di Deus. N batiza k\u00f3mu Tistimunha di Jeov\u00e1
+  na agostu di 1985.\\nBENSONS KI N RESEBE\\nB\u00edblia midjora nha vida txeu. El
+  liberta-m di kel stilu di vida mariadu ki staba ta distrui nha korpu i ruspetu pa
+  nha kab\u00e9sa. M\u00e1s di 30 di kes kol\u00e9ga ki N tinha, m\u00f3re j\u00f3ven
+  pamodi SIDA \u00f4 pamodi otu du\u00e9nsa ligadu ku dr\u00f3ga. N ta xinti txeu
+  gratidon pamodi N aplika prins\u00edpius di B\u00edblia, ki djuda-m ivita pa kes
+  kuza la ka kontise ku mi tanb\u00ea.\\nKes faka i matxadu ki N ta andaba ku es pa
+  faze viol\u00e9nsia, fika tudu na pasadu. Nunka N ka imajinaba ma un dia N ta trokaba
+  kes kuza la pa B\u00edblia i uza-l pa djuda algen. G\u00f3si mi ku nha mudjer nu
+  ta inxina Palavra di Deus pa t\u00e9npu interu.\\nNha pai ku nha mai nunka ka bira
+  Tistimunha di Jeov\u00e1, m\u00e1 es fika kontenti ku bensons ki N resebe pamodi
+  N studa B\u00edblia. Nha pai ti dja kustuma difende Tistimunhas di Jeov\u00e1 na
+  frenti di tudu se kol\u00e9gas. El tinha sert\u00e9za ma nha f\u00e9 p\u00f4-m faze
+  grandis mudansa i nha vida bira midj\u00f3r. Txeu b\u00eas nha mai ta flaba ma N
+  devia studaba B\u00edblia m\u00e1s s\u00e9du. El tinha tudu razon!\\nKuzas ki N
+  pasa pa el inxina-m ma ka ten l\u00f3jika buska filisidadi na dr\u00f3ga i na otus
+  v\u00edsiu. G\u00f3si N ta xinti filisidadi di verdadi \u00f3ras ki N ta inxina
+  otus algen kes kuza ki sta na palavra di Deus i ki salva nha vida.\"", "\"Ses mai
+  matas duranti ritual di magia negra...\\nKa foi posivel konfirma pamodi ses pai
+  Edson Brito sta na kadeia ta kumpri pena pur venda y distribuison di kokaina \u2026.
+  Edson Brito (36 anu) ten mesmu nomi ki si fidju di 8 anu ki atxadu mortu es segunda-fera
+  dentu kaza djuntu ku si irmon di 5 anu ( Larson Brito). Ses mai ( Latarsha Sanders,
+  43 anu, tamb\u00e9 konxedu pa Latarsha Sanders Brito) ses mai sta prezu akuzada
+  di duplo omisidi-u.\\nRITUAL VUD\u00da\u2026\\nInda ka sta mutu klaru kuandu y modi
+  ki es mai mata es 2 kriansas mas di akordu ku investigason foi provavelmenti sabadu
+  pasadu duranti un ritual vudu\u2026 Pa afasta \u201cspritu malignu\u201d Latarsha
+  primeru golpia si fidju matxu di 8 anu (Edson) ku + di 50 fakadas y komu na si opinion
+  ritual ka rezulta \u00ea ataka enton kel otu fidju + pikinoti ( Lason di 5 anu).\\nDipos
+  di kompleta \u201csakrifisi-u \u201c Latarsha bai poi korpu di mininus na kama antis
+  di \u00ea limpa sangui na txon di kuzinha. Korpus so ben diskubridu segunda-fera
+  dipos di Latarsha vizivelmenti diprimida sai ta pidi un vizinhu pa txomal ambulansia
+  pa lebal (ela) pa ospital.\\nVIGILIA EN MEM\u00d3RIA DI 2 INOSENTI\\nVigilia sta
+  markadu pa es kinta fera di 6 pa 7 ora di tardi frenti di kaza undi es 2 kriansas
+  foi asasinadus ( 247 Prospect Street, Brockton ) por:ok\\nCOMMENTS\"", "\"Sobri
+  lema \u201cEduca\u00e7\u00e3o Infantil, 1\u00ba passo para a inclus\u00e3o\u201d
+  o Centro da Educa\u00e7\u00e3o Delta Cultura (CEDC) en parseria ku Rede Nacional
+  da Campanha de Educa\u00e7\u00e3o Para Todos (RNCEPT) rializa na passadu S\u00e1bado,
+  4 di Junhu en kumemorason \u00e0 Simana di Educa\u00e7\u00e3o Para Todos, un marcha
+  na Cidade do Tarrafal, pa relembra sobri direitu di idukason [\u2026]\\nCentru di
+  Eduka\u00e7\u00e3o Delta Kultura ta rializa na pr\u00f3ximus tr\u00eas dias, 25,
+  26, e 27 di Julhu un Akanpamentu ku kriansa y jovens di Tarrafal na Centru ki fika
+  na Txada Tom\u00e1s. Kel Akanpamentu li ta konta ku un total di 200 kriansa y jovens,
+  7 munitoris, y alguns vuluntariu di Delta kultura ki ta [\u2026]\\nNa dumingu passadu,
+  dia 15 di Julhu, finda quel akampametu di tr\u00eas dia sobri autostima s\u00f3
+  pa meninas na Centru di Iducason di Tarrafal. Um akampamentu ki konta ku prisensa
+  di meiu centena de crian\u00e7as e jovens, djuntadu ku atividais sima canta, badja,
+  gin\u00e1stica, tiato i un palestra sobri direitus humanus, m\u00e1s particularmenti
+  direitus de [\u2026]\"", "\"Cipriano Pascoal Gomes foi baleadu ku um tiru na kabesa
+  onti quinta-fera di note. 2 indiv\u00edduos encapu\u00e7ados entra na si kasa e
+  es d\u00e2l tiru, Cipriano ta mora na zona di Ch\u00e3 di Vital, na Sanvicente.\\nV\u00edtima,
+  ki ten 43 anu foi operado, ti inda \u00e9 sta na bloco operat\u00f3rio.\\nSegundo
+  fontes di jornal asemana,2 alguen ku rostu tapadu, romba porta ku um janela e es
+  entra na kasa di v\u00edtima. Cipriano staba na sala, kantu kes 2 homi parce \u00ea
+  tenta fugi pa otru kuarto di kasa.\\nNa momento ki \u00ea pintxa porta, um di kes
+  indiv\u00edduos dispara um tiru ki certal na kabesa.\\nDispos kes homi panha um
+  cartera ki staba riba mesa, ki tinha mas ou menos quarenta mil scudu, e es fugi.\\nAutoridades
+  dja sta na investiga es kazu, es kr\u00ea sabe kenha ki \u00ea kes 2 homi e kual
+  ki foi motivo des kometi es crime.\"", "\"Ku 20 anu di idadi edson mendon\u00e7a
+  kumpra si primeru kaza...\\nSertamenti \u00ea ka primeru bes ki un joven di 20 anu
+  sta kumpra kaza na Merka, mas \u00ea raru, prinsipalemti si es kompra \u00ea frutu
+  di si trabadju y di si esforsu... \u00ca justamenti pur isu ki Edson Mendon\u00e7a
+  txoma atenson di alguns midia lokal y di propri \u201cmayor\u201d di sidadi di Brockton
+  ki aponta es joven kabu-verdianu komu un izemplu di trabadju y di emprendorismo
+  ki podi y debi ser sigidu pa otu jovens.\\nDI CABO VERDE A QUINCY COLLEGE...\\nEdson,
+  ki \u00ea fidju di kabu-verdiana Maria Monteiro, Edson sai di Praia ku 8 anu di
+  idadi y \u00ea k\u00e1ba kria na Brockton undi \u00ea kompleta Liceu y undi gosi
+  \u00ea sta trabadja nun banku enkuantu \u00ea sta studa kontabilidadi na Quincy
+  College.... Foi aliaz na odja dinheru ta \u201csirkula\u201d nes banku undi \u00ea
+  ta trabadja ki Edson fla ma \u00ea disidi fazi un planu pa si futuro, un futuro
+  ki ta pasa pa \u201creal state\u201d y pa kompra di kazas rezidensial ( Kel li foi
+  si primeru mas si planu \u00ea kumpra otus)\\nFUTURO?\\nNa futuro \u00ea fla ma
+  \u00ea kr\u00e9 djuda otu jovens konkretiza ses planu , mas pra ja \u00ea kre sirbi
+  komu izemplu pa mostra ma ka importa nen idadi nen di undi ki bu ben pa alg\u00e9n
+  trabadja y prugridi nes \u201cterra di oportunidadi\u201d ...Pa Edson segredu \u00ea
+  sta motivadu y ka desvia pa \u201cmau kaminhu\u201d. fonte:ok\\nCOMMENTS\"", "\"Djuda
+  nos AMIGA, dal bu OPINION, l\u00e9 si mensagem:\\n\u201dMi ku nha namoradu nu sa
+  bem fazi um ano de namoro mas dja nu concheba ha munti tempo atras sempre n sabia
+  de se fama me ka muto dreto, si tipo era thug e tinha um passadu mariadu mas pa
+  mi kela \u00e9 ka era nada. Dps de 5 mes de namoro nu dicide na bai mora djunto
+  ago mes passadu li uns alguem ki ta trabadja na tribunal tchigan na casa ku um papel
+  ma julgamento sa marcadu pa dia x ami nem nada n ka sabi nunka \u00e9 flam.\\nDps
+  \u00e9 tchiga na casa n mostral \u00e9 bem flam ma na passadu me violaba um mudjer,
+  na momento n fica sem rea\u00e7ao nada n ka flal apenas n abri nha porta n sai n
+  bai pa casa de nhas pais. Passadu uns dias ael sempre \u00e9 ta ligan e ta bai contra
+  ku mi na trabadjo mas ami apenas n ta evital ti hoje inda n ka tchiga de flal nada..
+  Julgamento dja marcadu \u00e9 procuran pa nu tem ultimo conversa pmd dje sabi me
+  sta bai preso me ka ta sai gossi.. Ago kusa kin kre sabi \u00e9 sin debe perdoal
+  oh nou? Fala ku el oh nou? N kria permane\u00e7eba anonimo favor\u201d\\n**Poi bu
+  OPINION\\nKomenta\\n(image ilustrativo)\"", "\"Onti 26 di Febreru grupu batukaderas
+  Delta Cultura festeja s\u00eas 8\u00ba aniversariu. Y grupu batukinhas Fidjus di
+  Delta Komemora s\u00eas 5\u00ba aniversario\\nDelta Cultura resebi un finansiamentu
+  di AFRICAN DEVELOPMENT FOUNDATION, pa kria un horta ki ta permiti jevens di assosias\u00e3o,
+  pa dizenvolvimentu di kapasitason relativamenti a geston y manutenson di un horta
+  DCCV ta ap\u00f3ia serka di 250 jovens ki ta partisipa na diferenti atividadis ki
+  ta fasedu li na Centro, y gossi nu ta envolvi [\u2026]\\nNa dia Domingu passadu
+  kel prujetu \u201d A brinkar\u201d \u2013 rializadu pa Associason thehumanrightsproject,
+  en kooperason ku Delta Cultura Cabo Verde \u2013 tinha si pontu altu di kapasitason
+  di fotugrafia di largu scala di serka di 250 kriansas ki djugaba 86 difereti djogus.
+  Na kel projectu tanb\u00ea tenha partisipason de crian\u00e7as di Delta Cultura
+  Cabo [\u2026]\\nNa dia 16 di Fevereru pa 3hora di tardi fasedu un palestra na Centro
+  Infantil y Juvinli di Delta Cultura sobri gravid\u00e9s precoce, ku pisik\u00f3liga
+  Rosana y otus tr\u00e9s assistenti undi ki tinha tch\u00e9u intervenson di jovens
+  tch\u00e9u perguntas y respostas sobri konsiquensia di un gravides precoce.\"",
+  "\"Es kazu kontice na Porto Novo/Santo Ant\u00e3o\\nVera sta fazeba si kaminhada
+  djuntu ku si maridu es segunda-fera di tardi na sidadi di Porto Novo kuandu \u00ea
+  foi atropleda pa kosta pa un viatura ki sta sirkulaba na mesmu direson... Vera inda
+  lebadu ku vida pa ospital mas \u00ea ka rizisti a ferimentos.\\nUn otu mudjer ki
+  staba na kaxa di es mesmu karrinha foi prujetadu duranti embati y \u00ea evakuadu
+  pa S.Vicente .\\nKel li \u00ea segundo asidenti mortal ki sta kontisi na Porto Novo
+  na poku + di un semana. Sabado 09 di Junho un mudjer di si 90 ano tamb\u00e9 foi
+  atropeladu mortalmenti enkuantu ki na Santo Ant\u00e3o interu uns 6 asidenti di
+  karru dja konsiti so nes ultimo mes y meio. fonte:ok\\nCOMMENTS\"", "\"Betinho y
+  Tutuia, um casal lindo\\nCavalerismo dja caba propi ki casta m\u00e1s. Dja tem um
+  simana ki tutuia sta na aula conduson pmd \u00e9 mesti carta urgente. oxi \u00e9
+  dura na tilifoni li, astantas bem 2 instrutor di si scola li na casa. \u00c9s flam
+  m\u00eas tem ki manda Tutuia izami jaj\u00e1. \u00e9s flam ma tutuia sta bom na
+  condusi pa frenti, mas m\u00ea tem ki trena pa tr\u00e1s tmb pmd txeu alunos ta
+  reprova na marxa tr\u00e1s. Como si izami sta marcado pa kuarta fera, Tutuia bai
+  c\u00f4s pa ba trena la txada lem.\\nCanto ela volta di tardi, estaba ku rostu runho
+  corpu mou. N porguntal kus\u00e9 ki ouvi? \u00c9 flam ma caro tinha bataria bedjo
+  mutor para k\u00eas tivi ki pintxa caro m\u00e1s di 200 metro pa podi pega, nton
+  kel sforsu prejudical m\u00e1dri. Kela ca ta fasedo ku mudjer dos outro. Poca vergonha
+  ki scola teni ku kes caro bedjo la. Tutuia sta mal dj\u00ea deta ki nem p\u00ea
+  labanta, \u00e9 mandan pam batil calcinha pmd corpo ca sta da. Assi ca ta fasedo
+  nou\\nCOMMENTS\"", "\"Um grupu di jovens disportistas di Asosiason Delta Cultura,
+  di konsedju di Tarrafal di Santiagu, sta di partida pa partisipa na Festival Football
+  for Hope, na Moscovo, R\u00fassia. kel eventu ta dikorri di 25 de Junhu a 5 de Julhu,
+  duranti a Copa di Mundu 2018.\\nDurante un tardi di tersa fera, serka di 20 partisipantis,
+  kriansa ku jovens i vulunt\u00e1rius, di Centro partisipa na un workshop di zumba.
+  Mas kus\u00e9 ki nu ta intendi pa zumba? Zumba \u00e9 un programa di fitness inpiradu
+  di divesus musikas na mundu, ki sata ser inplimentadu na tx\u00e9us paisis di mundu.
+  Programa \u00e9 trasidu [\u2026]\\nCentro di idukason Delta Cultura organisa un
+  konbersu aberto ku vereadora pa \u00c1ria Sosial di Camara Municipal di Tarrafal
+  Sinhora Eva Gomes Varela i Kriansas ku Jovens di Delta Cultura. Konversa \u00e9
+  sobri disigualdadi sosial na konselho di Tarrafal, Konversa foi abertu na Sinhora
+  Eva, ki sta xplikaba kriansa i jovens sobri, siginifikadu di disigualdadi [\u2026]\\nLouren\u00e7a
+  Tavares, presidenti di Assosiason di Kriansas Desfavoresidas (Acrides) i prisidenti
+  di Redi Nasional di konbati i Prevenson kontra Abusu i Explorason Sexual di Menoris,
+  akunpanhadu di Maria Rosa (koordenadora di rede pa regi\u00e3o norti di ilha di
+  Santiago), staba di visita na Centro da Educa\u00e7\u00e3o Delta Cultura pa konxi
+  prujetus i si funsionamentu. Duranti visita tenha un konversa [\u2026]\\nEn kumemorason
+  \u00e1 dia mundial di anbienti, 5 de Junhu, Delta Cultura distribui serka di d\u00f3s
+  sentenas di bolsas di pano na Sidade di Tarrafal. Kel kampanha di distribuison di
+  bolsas di panu ben na kuntinuidadi di un workshop sobri \u201c O inp\u00e1kitu di
+  usu di pl\u00e1stiku na meiu ambienti\u201d rializadu h\u00e1 un simana atr\u00e1s
+  na Centro [\u2026]\"", "\"2 homi bistidu ku uniforme di Pol\u00edcia roba 700 mil
+  scudu di bomba di gasolina di Enacol di Achada S\u00e3o Filipe, na Praia.\\nKontisi
+  na parmanhan di onti segunda fera dia 4 di Janeru, por volta di 10 hora, assaltantes
+  surprende empregados di loja ki sta kontaba tudu dinheru ki es tinha na caixa, desde
+  dia 30 di Dezembro.\\nBandidos leba tambe bolsas e otrus kusas di pessoas ki staba
+  presente na kel loja.\\nPamodi es staba bistidu ku ropa di pol\u00edcia, kantu es
+  entra ninguen ka desconfia ma es era bandido. Di repente es ponta arma pa empregados
+  e es furta dinheru.\\nNa mesmu dia tr\u00eas indiv\u00edduo assalta tambe ku arma
+  na m\u00f2 um agente di Enacol, di nome Nuno Duarte ki tambe \u00e8 agente di CvM\u00f3vel,
+  \u00e8 assaltadu kantu \u00e8 staba na porta di si escrit\u00f2rio na bairro di
+  Fazenda, na Praia, na prepara pa \u00e8 bai deposita dinheru na banco. Keli kontisi
+  por volta di 11h50 di onti segunda fera.\\nKa sabedu presizamente kantu dinheru
+  ki bandidos leba.\\nSta deskunfiadu ma es assaltantes ki faze es 2 assalto ma es
+  ta pertence a mesmu grupu. Pol\u00edcia Nacional sta gosi na investiga es assaltos.\"",
+  "\"B\u00f4 tch\u00e1m lissin, b\u00f4 viaj\u00e1 B\u00f4 b\u00e1 pa longe, b\u00f4
+  ka espi\u00e1 pa tr\u00e1s B\u00f4 ka tive coragem pa enfrent\u00e1m n\u00eaz amor
+  B\u00f4 tch\u00e1m lissin, b\u00f4 viaj\u00e1 B\u00f4 b\u00e1 pa longe, b\u00f4
+  ka espi\u00e1 pa tr\u00e1s B\u00f4 ka tive coragem pa enfrent\u00e1m n\u00eaz amor
+  Se b\u00f4 kr\u00ea volt\u00e1, segui camin de b\u00f4 cora\u00e7\u00e3o Se b\u00f4
+  kr\u00ea volt\u00e1, pens\u00e1 na mi ku b\u00f4 Se b\u00f4 kr\u00ea volt\u00e1,
+  segui camin de b\u00f4 cora\u00e7\u00e3o Se b\u00f4 kr\u00ea volt\u00e1, pens\u00e1
+  na mi ku b\u00f4 \u00ca amor que n''tita senti pa b\u00f4 Um sentimento profundo
+  tita traz\u00eab na cora\u00e7\u00e3o \u00c1m fk\u00e1 c''um sensa\u00e7\u00e3o
+  que n''ta ausente na b\u00f4 cora\u00e7\u00e3o Qu\u00eas promessa que b\u00f4, b\u00f4
+  faz\u00eam foi s\u00f4 um ilus\u00e3o Tempo, tempo Qui separa n\u00f4s foi for\u00e7a
+  di un distino Qui teneno assin, ta chinti longi di nus cantinho Vontadi di ama,
+  ta chinti falta di bu carinho Tempo, tempo Qui separa n\u00f4s foi for\u00e7a di
+  un distino Qui teneno assin, ta chinti longi di nus cantinho Vontadi di ama, ta
+  chinti falta di bu carinho Se b\u00f4 kr\u00ea volt\u00e1, segui camin de b\u00f4
+  cora\u00e7\u00e3o Se b\u00f4 kr\u00ea volt\u00e1, pens\u00e1 na mi ku b\u00f4 Se
+  b\u00f4 kr\u00ea volt\u00e1, segui camin de b\u00f4 cora\u00e7\u00e3o Se b\u00f4
+  kr\u00ea volt\u00e1, pens\u00e1 na mi ku b\u00f4 Amin ta lembra tempo passado qui
+  nu staba djunto Bu fazen chinti feliz, mi n''fazeu chinti amada Guents ta falaba,
+  \u00eaz ta passa dia, \u00eaz ta comentaba Amor bonito m\u00f3 di n\u00f4s nunca
+  \u00eaz odjaba Mas gossi qui distancia \u00ea longi e separ\u00e1 nu Emigra\u00e7on
+  \u00ea solu\u00e7on di un caboverdeano Amin ka p\u00f4di fica ta vivi s\u00f4 ku
+  esperan\u00e7a Mi n''ten qui toca nha vida pa frenti, mi n''ten qui avan\u00e7a
+  Supera tudo pa v\u00f3s qui fica mudo Ka m\u00easti chinti \u00f3dio pam\u00f3di
+  \u00ea sin qu''\u00ea mundo Se b\u00f4 kr\u00ea volt\u00e1, segui camin de b\u00f4
+  cora\u00e7\u00e3oooooo Se b\u00f4 kr\u00ea volt\u00e1, segui camin de b\u00f4 cora\u00e7\u00e3o
+  Se b\u00f4 kr\u00ea volt\u00e1, pens\u00e1 na mi ku b\u00f4 Se b\u00f4 kr\u00ea
+  volt\u00e1, segui camin de b\u00f4 cora\u00e7\u00e3o Se b\u00f4 kr\u00ea volt\u00e1,
+  pens\u00e1 na mi ku b\u00f4\"", "\"\\\"Nha menino bu ca ta tra\\\", um musica ki
+  ta fala di aborto, es flagelu ki dja alastra na nos comunidade, ki meste ser resolvido\\n\\\"Nha
+  menino bu ca ta tra\\\", um musica ki ta fala di aborto, es flagelu ki dja alastra
+  na nos comunidade, ki meste ser resolvido, melhor manera ta continua ta ser preven\u00e7on,
+  es tema li \u00e9 de autoria de Klesy Garcia, foi produzidu pa Kidy, produtora Duku
+  Dja Bem pro.\\n\u00c9 un funana ki ta traze bom mensagem y um ritimu ki ta intentou
+  pa dan\u00e7a, ta lebou a pensa y a dan\u00e7a ao mesmu tempo.\\nSi bu gosta partilha
+  ku mais amigos, y Dexas Sabi di es video de funana\\nCOMMENTS\"", "\"K\u00e1ntiku
+  69 i orason\\nKoment\u00e1rius pa kumesa runion (3 min. \u00f4 m\u00e9nus)\\nTIZORUS
+  DI PALAVRA DI DEUS\\n\u201cPamodi, na undi i modi ki nu debe faze disiplus?\u201d:
+  (10 min.)\\nMt 28:18 \u2014 Jizus ten grandi autoridadi (w04 1/7 p. 8 par. 4)\\nMt
+  28:19 \u2014 Jizus manda pa faze un kampanha di pregason i ensinu na mundu interu
+  (B\u00edblia di studu, n\u00f3tas na Mt 28:19)\\nMt 28:20 \u2014 Nu debe djuda pesoas
+  prende i faze tudu kuza ki Jizus inxina (B\u00edblia di studu, n\u00f3ta na Mt 28:20)\\nDjobe
+  j\u00f3ias ki sta na B\u00edblia: (8 min.)\\nMt 27:51 \u2014 Kurtina di t\u00e9nplu
+  ratxa d\u00e9ntu meiu. Kuz\u00ea ki kel-la siginifika? (B\u00edblia di studu, n\u00f3tas
+  na Mt 27:51)\\nMt 28:7 \u2014 Modi ki un anju mostra ma mudjer ten txeu valor pa
+  Jeov\u00e1? (B\u00edblia di studu, n\u00f3ta na Mt 28:7)\\nKuz\u00ea ki bu prende
+  sobri Jeov\u00e1 na leitura di B\u00edblia di kel simana li?\\nKi otus j\u00f3ia
+  bu atxa na leitura di B\u00edblia di kel simana li?\\nLeitura di B\u00edblia: (4
+  min. \u00f4 m\u00e9nus) Mt 27:38-54\\nFAZE BU MIDJ\u00d3R NA PREGASON\\nTistimunhu:
+  (2 min. \u00f4 m\u00e9nus) Uza ideia pa p\u00e2pia sobri B\u00edblia di tistimunhu.\\nPrimeru
+  revizita (v\u00eddiu): (5 min.) Mostra v\u00eddiu i p\u00e2pia sobri el.\\nDiskursu:
+  (6 min. \u00f4 m\u00e9nus) g17.2 -T p. 14 \u2014 T\u00e9ma: Jizus m\u00f3re na krus?\\nVIVE
+  SIMA UN KRISTON\\nK\u00e1ntiku 70\\n\u201cPa faze disiplus nu meste prega i inxina\u201d:
+  (15 min.) Diskursu i koment\u00e1rius di ken ki sta sisti. \u00d3ras ki bu ta faze
+  kel p\u00e1rti li, mostra v\u00eddiu Kontinua ta prega \u2018sen para\u2019 \u2014
+  Na da tistimunhu informal i na pregason di kaza en kaza i Kontinua ta prega \u2018sen
+  para\u2019 \u2014 Na da tistimunhu pa p\u00fabliku i na faze disiplus.\\nStudu di
+  B\u00edblia na Kongregason: (30 min.) jy -T kap. 16\\nRezumu di runion i alguns
+  asuntu di runion di otu simana (3 min.)\\nK\u00e1ntiku 73 i orason\"", "\"Electra
+  (Npresa di ilictricidadi e \u00e1gu) ka sa paga, desdi 2006, s\u00ea kontribuison
+  pa Ag\u00eancia di Rigulametason Ikon\u00f3mika (ARE).\\nKantu qui Tribunal di Conta
+  (TC) sabi di kel prublema li, es fla ma divida debi kobradu mesmu na justi\u00e7a.\\nAkordon
+  di TC fla ma Electra teni fadja na kontribuison de 2006 pa 2009, mas prisidenti
+  di ARE fla ma kel inkumprimentu nda sta ti hoxi. Sigundu Jos\u00e9 Renato Lima,
+  falta di pagamentu di npresa di ilitricidadi e \u00e1gu bem desdi di seh nacionalizason,
+  na 2006.\\nMas, sigundu splikason ki dadu pa agencia, pa TC, Electra sa justifica
+  ka paga kontribuison ku prublema na tesouraria. Jos\u00e9 Renato Lima fla ma rikumendason
+  di TC \u201cta fazi tudu sentidu\u201d e \u201c nu tem ki agi pa Electra poi kel
+  situason li dretu, pa kontribui ku orsamentu di ARE\u201d.\\nPrisedenti di ARE fla
+  ma, tanb\u00e9, oras ki Electra era pagadu pa EDP di Portugual, \u201c kuzas ta
+  fikaba dretu r\u00e1pidu\u201d, mas dip\u00f4s di \u201cnacionalizason\u201d , na
+  2006, k\u00eas novus gistoris di npresa dexa di paga kontribuison ki \u00e9 podu
+  pa lei.\\nMas \u00e9 ka s\u00f3 Electra. Tamb\u00e9 sta pa kobra impostu di CV Telecom
+  di sigundu simistri di 2006. Na mesmu linha sta npresas di transportis kolectivu
+  di passagerus, ki ka sa paga s\u00eas kontribuison pa ARE, desde 2007 pa 2009.\\nPa
+  npresas di transporti, ARE fla ma sa speraba pa difinidu e podu tarifa, pa depos,
+  komesa liquidason di kontribuison.\\nA Na\u00e7\u00e3o\"", "\"Forsa pa nos seleson
+  fimininu di voleibol di praia ki sta brilha na Dja d\u2019Sal\\nSes objetivu \u00ea
+  un lugar na p\u00f3dio y enbora inda ten txeu kaminhu pa frenti es 2 irman sta luta
+  tudu dia pa da Cabo Verde un medalha dia dimingu dia di final.\\nIrmans Janice ku
+  Ludmila ganha tudu 3 primeru partida di grupo A (kontra Argelia, Gambia y Tanzania
+  ) y es sta kada bes + pertu di kuartos-de-final, nun torneio konkorridu undi 17
+  selesons dividu pa 4 grupo sta luta pa na fin pega un medalha.\\nDjanice ku Ludmila
+  ta entra arena es sesta-fera pa enfrenta Sud\u00e3o do Sul na ses ultimo jogo di
+  fazi grupo.\\nNa restanti 3 grupo Kenia, Angola y Namibia sta dumina. fonte:ok\\nCOMMENTS\"",
+  "\"4\u00aa Fera dia 22 - 19:30 nu sta bai odja:\\n\\\"Venus Boyz\\\" di Gabriel
+  Baur\\n5\u00aa Fera dia 23 - 21:30 e dia di Tertulia i des bes tema e:\\n\\\"SINEMA
+  POBRI NA KABU VERDI\\\"\\nProjectu ki ta kumesa es mesmu kinta fera na CCP di Praia,
+  sta bai aprezentanu 2 filmi di RICARDO LEITE e ZENITO WEYL.\\nDipos di filmi nu
+  ta tem xansi di papia ku es sobri sinema pobri, di undi ke ben kel manera di fazi
+  sinema i kal ke spritu di sinema pobri.\\nNa blog di projecto CINEMA POBRE EM CABO
+  VERDE tem mas informason di sinema pobri na mundu i programasson pa prokectu ki
+  ta kumesa es semana ki tem mostra di sinema i um ofisina pa kenha ki kre prendi
+  fazi sinema.\\nOk, nu ta konta ku nhos prezensa kritiku di tudu bes.\\n0 Comments:\\nEnviar
+  um coment\u00e1rio\\n<< Home\""]'
+src_ngrams: '{"1": [[["ki"], 40546], [["pa"], 29960], [["ku"], 22357], [["un"], 17747],
+  [["ka"], 17067]], "2": [[["ki nu"], 2330], [["fla ma"], 1850], [["ki sta"], 1811],
+  [["cabo verde"], 1483], [["kuz\u00ea ki"], 1324]], "3": [[["un di kes"], 385], [["kes
+  algen ki"], 317], [["\u00f3ras ki nu"], 293], [["kuz\u00ea ki nu"], 254], [["modi
+  ki nu"], 251]], "4": [[["skodjedu ku spritu santu"], 102], [["nha ida padri nikulau"],
+  96], [["ida padri nikulau ferera"], 96], [["marsianu nha ida padri"], 95], [["ki
+  nu ta faze"], 89]], "5": [[["nha ida padri nikulau ferera"], 96], [["marsianu nha
+  ida padri nikulau"], 95], [["sentru di idukason delta kultura"], 58], [["leitura
+  di b\u00edblia di kel"], 56], [["b\u00edblia di kel simana li"], 56]]}'

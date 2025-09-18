@@ -1,0 +1,1816 @@
+corpus: hplt-v3-lin_Latn
+srclang: ln
+timestamp: 1758169323.4860957
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["wide2", 1887], ["CC-MAIN-2017-51", 851], ["CC-MAIN-2018-05",
+  822], ["CC-MAIN-2024-30", 489], ["CC-MAIN-2020-40", 432], ["wide11", 380], ["CC-MAIN-2020-45",
+  378], ["wide12", 358], ["wide16", 354], ["CC-MAIN-2020-24", 322], ["CC-MAIN-2024-51",
+  314], ["CC-MAIN-2021-31", 313], ["CC-MAIN-2024-38", 303], ["CC-MAIN-2020-05", 288],
+  ["CC-MAIN-2020-50", 273], ["CC-MAIN-2021-04", 263], ["CC-MAIN-2023-14", 240], ["CC-MAIN-2024-42",
+  233], ["CC-MAIN-2024-33", 229], ["CC-MAIN-2023-06", 221], ["CC-MAIN-2021-43", 201],
+  ["wide10", 200], ["CC-MAIN-2014-15", 195], ["CC-MAIN-2024-46", 187], ["CC-MAIN-2021-39",
+  184], ["CC-MAIN-2020-29", 182], ["CC-MAIN-2021-17", 177], ["CC-MAIN-2023-23", 170],
+  ["CC-MAIN-2021-21", 158], ["CC-MAIN-2020-34", 154], ["CC-MAIN-2021-10", 151], ["CC-MAIN-2022-21",
+  143], ["CC-MAIN-2017-04", 141], ["CC-MAIN-2024-18", 138], ["CC-MAIN-2018-39", 135],
+  ["CC-MAIN-2020-10", 131], ["CC-MAIN-2021-49", 127], ["CC-MAIN-2024-26", 126], ["CC-MAIN-2017-26",
+  126], ["CC-MAIN-2023-40", 123], ["CC-MAIN-2024-10", 120], ["CC-MAIN-2022-27", 119],
+  ["CC-MAIN-2020-16", 112], ["CC-MAIN-2022-49", 104], ["CC-MAIN-2024-22", 103], ["CC-MAIN-2021-25",
+  90], ["CC-MAIN-2022-05", 86], ["CC-MAIN-2018-22", 86], ["CC-MAIN-2023-50", 84],
+  ["wide15", 67], ["CC-MAIN-2018-34", 66], ["CC-MAIN-2022-40", 65], ["CC-MAIN-2019-04",
+  65], ["CC-MAIN-2022-33", 58], ["CC-MAIN-2018-43", 51], ["survey3", 35], ["wide17",
+  28], ["wide6", 25], ["CC-MAIN-2015-11", 24], ["CC-MAIN-2015-18", 22], ["CC-MAIN-2016-44",
+  13], ["wide5", 11], ["CC-MAIN-2015-48", 9], ["CC-MAIN-2014-35", 8], ["CC-MAIN-2014-42",
+  6], ["CC-MAIN-2016-40", 3], ["CC-MAIN-2016-30", 2]]'
+docs_langs: '[[0.0, 27], [0.1, 82], [0.2, 232], [0.3, 490], [0.4, 797], [0.5, 1469],
+  [0.6, 1570], [0.7, 1301], [0.8, 1293], [0.9, 1117], [1.0, 5183]]'
+docs_segments: '[[1, 62], [2, 264], [3, 578], [4, 594], [5, 721], [6, 753], [7, 661],
+  [8, 599], [9, 535], [10, 466], [11, 393], [12, 376], [13, 330], [14, 324], [15,
+  295], [16, 289], [17, 300], [18, 229], [19, 233], [20, 213], [21, 187], [22, 188],
+  [23, 174], [24, 140], [25, 141], [26, 166], [27, 123], [28, 100], [29, 101], [30,
+  94], [31, 73], [32, 92], [33, 74], [34, 82], [35, 61], [36, 87], [37, 85], [38,
+  67], [39, 82], [40, 99], [41, 75], [42, 79], [43, 72], [44, 69], [45, 71], [46,
+  43], [47, 55], [48, 50], [49, 44], [50, 37], [51, 41], [52, 40], [53, 35], [54,
+  36], [55, 24], [56, 48], [57, 31], [58, 34], [59, 31], [60, 26], [61, 40], [62,
+  33], [63, 26], [64, 37], [65, 37], [66, 34], [67, 47], [68, 40], [69, 35], [70,
+  28], [71, 40], [72, 37], [73, 36], [74, 40], [75, 39], [76, 33], [77, 28], [78,
+  40], [79, 35], [80, 36], [81, 40], [82, 33], [83, 35], [84, 39], [85, 28], [86,
+  31], [87, 36], [88, 37], [89, 35], [90, 35], [91, 44], [92, 36], [93, 34], [94,
+  29], [95, 31], [96, 33], [97, 33], [98, 39], [99, 23], [100, 39], [101, 23], [102,
+  28], [103, 17], [104, 24], [105, 25], [106, 20], [107, 21], [108, 20], [109, 15],
+  [110, 14], [111, 17], [112, 20], [113, 11], [114, 20], [115, 19], [116, 17], [117,
+  22], [118, 21], [119, 9], [120, 10], [121, 9], [122, 12], [123, 11], [124, 9], [125,
+  5], [126, 4], [127, 14], [128, 9], [129, 3], [130, 10], [131, 6], [132, 8], [133,
+  5], [134, 8], [135, 8], [136, 7], [137, 5], [138, 6], [139, 10], [140, 3], [141,
+  3], [142, 6], [143, 8], [144, 4], [145, 7], [146, 4], [147, 4], [148, 4], [149,
+  6], [150, 11], [151, 6], [152, 3], [153, 5], [154, 1], [155, 4], [156, 4], [157,
+  1], [159, 2], [160, 1], [161, 5], [162, 4], [163, 7], [164, 4], [165, 12], [166,
+  2], [167, 5], [168, 1], [169, 4], [170, 1], [172, 5], [173, 1], [174, 2], [175,
+  2], [176, 2], [178, 1], [179, 1], [180, 1], [181, 1], [182, 2], [183, 1], [185,
+  2], [186, 2], [187, 1], [188, 1], [189, 1], [191, 1], [192, 4], [194, 1], [196,
+  1], [198, 1], [200, 1], [203, 2], [206, 1], [212, 1], [214, 2], [215, 1], [217,
+  1], [219, 1], [221, 2], [222, 1], [225, 1], [226, 1], [227, 1], [229, 1], [232,
+  2], [233, 1], [234, 1], [235, 1], [239, 2], [241, 1], [243, 1], [244, 1], [247,
+  2], [250, 1], [253, 1], [254, 1], [255, 1], [257, 1], [268, 1], [269, 1], [274,
+  1], [280, 1], [281, 2], [286, 2], [303, 1], [306, 1], [313, 1], [319, 2], [323,
+  1], [329, 1], [330, 1], [345, 1], [353, 1], [355, 1], [364, 1], [368, 1], [375,
+  1], [377, 1], [387, 2], [422, 1], [432, 1], [438, 1], [464, 1], [466, 1], [493,
+  1], [494, 1], [497, 2], [512, 1], [521, 1], [534, 1], [553, 1], [568, 1], [569,
+  1], [572, 1], [686, 1], [703, 1], [931, 1], [961, 1], [1039, 1], [1057, 1], [1060,
+  1], [1130, 1], [1202, 1], [1615, 1], [1708, 1], [2038, 1], [2634, 1], [5845, 1],
+  [9296, 1]]'
+docs_segments_mean: 33
+docs_segments_median: 15
+docs_top100_domains: '[["jw.org", 2709], ["congomikili.com", 2191], ["voalingala.com",
+  2169], ["ebible.org", 525], ["voiceofcongo.net", 489], ["mbokamosika.com", 308],
+  ["wikipedia.org", 297], ["rdcongoinfos.com", 285], ["radiookapi.net", 251], ["skyrock.com",
+  237], ["congobilili.com", 200], ["zolaview.com", 196], ["kabalisolo.org", 181],
+  ["cleboa.com", 127], ["senemongaba.com", 123], ["lds.org", 123], ["tubulire.info",
+  106], ["ana-kids.net", 91], ["lyrics.cat", 87], ["lemonde.fr", 87], ["editorial7.net",
+  86], ["migraweb.ch", 84], ["actualingala.info", 62], ["zhitov.ru", 50], ["svfellowship.info",
+  50], ["blogspot.com", 50], ["hackernoon.com", 46], ["biblafrique.net", 43], ["viametanoia.com",
+  39], ["mapamboli.com", 39], ["voa.gov", 38], ["mabiki.net", 38], ["forumactif.org",
+  37], ["voorlichtingvertaald.nl", 35], ["afrikalyrics.com", 31], ["congonumber1.com",
+  25], ["lyrics.com", 24], ["videoixir.net", 22], ["biblearc.com", 22], ["kla.tv",
+  21], ["vaticannews.va", 20], ["kimbanguist.net", 20], ["bible.com", 20], ["realsuntime.com",
+  18], ["paroles.net", 18], ["divmagic.com", 18], ["virunganews.com", 17], ["diaspordc.com",
+  16], ["opexflow.com", 15], ["kinshasainformer.com", 15], ["icc-cpi.int", 15], ["imcongo.com",
+  14], ["biblafrique.org", 14], ["bethereforme.org", 14], ["afrikblog.com", 14], ["kabalisolo.com",
+  13], ["e-monsite.com", 13], ["bible.is", 13], ["efvm.world", 12], ["cn1news.com",
+  12], ["cccrdc.net", 12], ["mp3shreed.space", 11], ["kasahorow.org", 11], ["ibdi.it",
+  11], ["echocommunity.org", 11], ["stepsamep.com.au", 10], ["musixmatch.com", 10],
+  ["gotquestions.org", 10], ["exonumia.africa", 10], ["clipall.ru", 10], ["mcreveil.com",
+  9], ["masanjoli.co", 9], ["forumdediscussions.com", 9], ["congoindependant.com",
+  9], ["canalblog.com", 9], ["zikforum.com", 8], ["surecheckup.com", 8], ["reveil-fm.com",
+  8], ["johnimagetv.com", 8], ["greatsong.net", 8], ["dworaczek-bendome.org", 8],
+  ["congopromotv5.com", 8], ["berthe-cabinetkanza.fr", 8], ["nouslescombattants.com",
+  7], ["mayostreetarts.org", 7], ["lingalainstitute.com", 7], ["cocoswa.org", 7],
+  ["wikimedia.org", 6], ["sewone.africa", 6], ["sejoygroup.com", 6], ["sebastiensasa.org",
+  6], ["r4-i.info", 6], ["portlandlibrary.com", 6], ["oratlas.com", 6], ["lingalainstitute.org",
+  6], ["jucelinoluz.news", 6], ["blogspot.ch", 6], ["anti-el7ad.com", 6], ["wordpress.com",
+  5], ["web.app", 5]]'
+docs_top100_tld: '[["com", 7005], ["org", 4073], ["net", 1180], ["info", 387], ["fr",
+  118], ["ch", 94], ["cat", 87], ["ru", 79], ["me", 47], ["eu", 47], ["gov", 39],
+  ["nl", 38], ["tv", 24], ["it", 24], ["va", 20], ["mobi", 19], ["space", 16], ["africa",
+  16], ["int", 15], ["be", 14], ["is", 13], ["world", 12], ["live", 12], ["co", 12],
+  ["online", 11], ["com.au", 11], ["us", 8], ["site", 8], ["club", 8], ["app", 8],
+  ["cd", 7], ["xyz", 6], ["top", 6], ["news", 6], ["de", 6], ["io", 5], ["pro", 4],
+  ["fm", 4], ["cf", 4], ["tech", 3], ["org.uy", 3], ["nrw", 3], ["gq", 3], ["com.br",
+  3], ["click", 3], ["xn--p1ai", 2], ["win", 2], ["shop", 2], ["no", 2], ["gov.gr",
+  2], ["com.ng", 2], ["co.uk", 2], ["co.ke", 2], ["ca", 2], ["biz", 2], ["az", 2],
+  ["ws", 1], ["website", 1], ["tl", 1], ["se", 1], ["run", 1], ["rest", 1], ["report",
+  1], ["re", 1], ["press", 1], ["pl", 1], ["org.uk", 1], ["ml", 1], ["land", 1], ["jp",
+  1], ["ir", 1], ["gov.uk", 1], ["gc.ca", 1], ["fun", 1], ["fi", 1], ["edu", 1], ["cz",
+  1], ["com.tr", 1], ["co.at", 1], ["cc", 1], ["best", 1], ["art", 1], ["ao", 1],
+  ["ac.uk", 1]]'
+docs_total: 13561
+docs_wds: '[[10.0, 3], [5.0, 256], [5.1, 248], [5.2, 251], [5.3, 244], [5.4, 286],
+  [5.5, 263], [5.6, 257], [5.7, 229], [5.8, 231], [5.9, 235], [6.0, 245], [6.1, 244],
+  [6.2, 306], [6.3, 266], [6.4, 261], [6.5, 272], [6.6, 276], [6.7, 270], [6.8, 274],
+  [6.9, 235], [7.0, 292], [7.1, 301], [7.2, 288], [7.3, 266], [7.4, 334], [7.5, 337],
+  [7.6, 345], [7.7, 339], [7.8, 547], [7.9, 525], [8.0, 1160], [8.1, 789], [8.2, 460],
+  [8.3, 268], [8.4, 245], [8.5, 180], [8.6, 207], [8.7, 180], [8.8, 214], [8.9, 179],
+  [9.0, 190], [9.1, 136], [9.2, 142], [9.3, 114], [9.4, 104], [9.5, 92], [9.6, 85],
+  [9.7, 48], [9.8, 29], [9.9, 13]]'
+sentence_pairs: 441493
+src_bytes: 82163157
+src_chars: 80899196
+src_pii: 305
+src_tokens: 16209323
+unique_sents: 395334
+src_sent_tokens: '[[1, 9203], [2, 11986], [3, 13983], [4, 13142], [5, 15278], [6,
+  13672], [7, 13746], [8, 12484], [9, 14579], [10, 11635], [11, 11471], [12, 10377],
+  [13, 9902], [14, 9482], [15, 8727], [16, 8276], [17, 7712], [18, 7495], [19, 6932],
+  [20, 6876], [21, 6716], [22, 6479], [23, 6364], [24, 6199], [25, 6090], [26, 5913],
+  [27, 5667], [28, 5527], [29, 5353], [30, 5297], [31, 5227], [32, 4942], [33, 4921],
+  [34, 4705], [35, 4395], [36, 4430], [37, 4200], [38, 3890], [39, 3822], [40, 3606],
+  [41, 3318], [42, 3195], [43, 3141], [44, 2954], [45, 2895], [46, 2622], [47, 2604],
+  [48, 2540], [49, 2442], [50, 2317], [51, 2292], [52, 2150], [53, 2056], [54, 1970],
+  [55, 1915], [56, 1985], [57, 1888], [58, 1762], [59, 1665], [60, 1542], [61, 1631],
+  [62, 1542], [63, 1451], [64, 1445], [65, 1344], [66, 1398], [67, 1337], [68, 1351],
+  [69, 1195], [70, 1230], [71, 1195], [72, 1221], [73, 1154], [74, 1123], [75, 1058],
+  [76, 1060], [77, 1080], [78, 1076], [79, 964], [80, 1016], [81, 952], [82, 957],
+  [83, 938], [84, 919], [85, 841], [86, 868], [87, 850], [88, 772], [89, 778], [90,
+  733], [91, 736], [92, 751], [93, 693], [94, 742], [95, 671], [96, 681], [97, 658],
+  [98, 645], [99, 618], [100, 618], [101, 574], [102, 577], [103, 653], [104, 515],
+  [105, 565], [106, 524], [107, 549], [108, 539], [109, 531], [110, 522], [111, 443],
+  [112, 522], [113, 459], [114, 448], [115, 405], [116, 457], [117, 468], [118, 395],
+  [119, 419], [120, 402], [121, 399], [122, 386], [123, 390], [124, 391], [125, 385],
+  [126, 362], [127, 371], [128, 354], [129, 352], [130, 298], [131, 352], [132, 313],
+  [133, 335], [134, 294], [135, 294], [136, 294], [137, 283], [138, 259], [139, 288],
+  [140, 279], [141, 212], [142, 269], [143, 250], [144, 225], [145, 259], [146, 223],
+  [147, 228], [148, 232], [149, 198], [150, 226], [151, 242], [152, 202], [153, 217],
+  [154, 219], [155, 184], [156, 194], [157, 208], [158, 213], [159, 168], [160, 197],
+  [161, 160], [162, 169], [163, 158], [164, 562], [165, 161], [166, 398], [167, 175],
+  [168, 184], [169, 176], [170, 159], [171, 135], [172, 177], [173, 133], [174, 146],
+  [175, 157], [176, 143], [177, 149], [178, 131], [179, 136], [180, 127], [181, 131],
+  [182, 131], [183, 141], [184, 111], [185, 123], [186, 134], [187, 112], [188, 104],
+  [189, 93], [190, 111], [191, 102], [192, 118], [193, 96], [194, 83], [195, 87],
+  [196, 104], [197, 103], [198, 84], [199, 106], [200, 75], [201, 79], [202, 71],
+  [203, 84], [204, 87], [205, 70], [206, 78], [207, 66], [208, 74], [209, 72], [210,
+  58], [211, 66], [212, 63], [213, 79], [214, 77], [215, 118], [216, 55], [217, 62],
+  [218, 66], [219, 67], [220, 55], [221, 58], [222, 122], [223, 61], [224, 60], [225,
+  62], [226, 65], [227, 59], [228, 37], [229, 53], [230, 55], [231, 61], [232, 42],
+  [233, 50], [234, 45], [235, 49], [236, 48], [237, 36], [238, 39], [239, 36], [240,
+  42], [241, 42], [242, 49], [243, 30], [244, 22], [245, 46], [246, 36], [247, 29],
+  [248, 32], [249, 35], [250, 35], [251, 38], [252, 41], [253, 28], [254, 31], [255,
+  33], [256, 27], [257, 37], [258, 32], [259, 29], [260, 33], [261, 43], [262, 29],
+  [263, 36], [264, 39], [265, 37], [266, 36], [267, 33], [268, 98], [269, 27], [270,
+  35], [271, 23], [272, 38], [273, 31], [274, 24], [275, 29], [276, 42], [277, 26],
+  [278, 28], [279, 29], [280, 18], [281, 20], [282, 22], [283, 29], [284, 14], [285,
+  14], [286, 33], [287, 21], [288, 26], [289, 14], [290, 16], [291, 19], [292, 25],
+  [293, 19], [294, 22], [295, 17], [296, 22], [297, 20], [298, 25], [299, 16], [300,
+  12], [301, 20], [302, 24], [303, 6], [304, 18], [305, 16], [306, 9], [307, 23],
+  [308, 13], [309, 16], [310, 16], [311, 13], [312, 23], [313, 13], [314, 11], [315,
+  15], [316, 13], [317, 14], [318, 9], [319, 12], [320, 14], [321, 23], [322, 16],
+  [323, 11], [324, 21], [325, 20], [326, 17], [327, 17], [328, 17], [329, 11], [330,
+  5], [331, 11], [332, 10], [333, 7], [334, 7], [335, 17], [336, 14], [337, 8], [338,
+  7], [339, 10], [340, 9], [341, 5], [342, 11], [343, 6], [344, 15], [345, 11], [346,
+  13], [347, 14], [348, 16], [349, 11], [350, 8], [351, 10], [352, 13], [353, 9],
+  [354, 7], [355, 22], [356, 7], [357, 17], [358, 5], [359, 9], [360, 11], [361, 8],
+  [362, 3], [363, 10], [364, 7], [365, 13], [366, 6], [367, 7], [368, 8], [369, 4],
+  [370, 7], [371, 6], [372, 12], [373, 14], [374, 10], [375, 9], [376, 7], [377, 8],
+  [378, 6], [379, 10], [380, 10], [381, 3], [382, 12], [383, 9], [384, 7], [385, 11],
+  [386, 11], [387, 4], [388, 2], [389, 10], [390, 9], [391, 8], [392, 5], [393, 11],
+  [394, 9], [395, 7], [396, 11], [397, 4], [398, 4], [399, 8], [400, 6], [401, 7],
+  [402, 8], [403, 9], [404, 7], [405, 8], [406, 5], [407, 6], [408, 6], [409, 7],
+  [410, 5], [411, 6], [412, 5], [413, 9], [414, 7], [415, 8], [416, 6], [417, 3],
+  [418, 6], [419, 6], [420, 11], [421, 4], [422, 7], [423, 8], [424, 4], [425, 2],
+  [426, 5], [427, 5], [428, 7], [429, 3], [430, 9], [431, 6], [432, 5], [433, 8],
+  [434, 4], [435, 5], [436, 3], [437, 3], [438, 6], [439, 4], [440, 13], [441, 8],
+  [442, 8], [443, 4], [444, 2], [445, 9], [446, 2], [447, 9], [448, 7], [449, 5],
+  [450, 6], [451, 4], [452, 3], [453, 1], [454, 5], [455, 1], [456, 9], [457, 2],
+  [458, 3], [459, 6], [460, 2], [461, 3], [462, 2], [463, 2], [464, 3], [465, 4],
+  [467, 2], [468, 4], [469, 2], [470, 4], [471, 6], [472, 3], [473, 4], [474, 1],
+  [475, 6], [476, 3], [477, 2], [478, 4], [479, 4], [480, 5], [481, 3], [482, 6],
+  [483, 3], [484, 4], [485, 5], [486, 7], [487, 5], [488, 1], [489, 3], [490, 4],
+  [491, 4], [492, 3], [493, 1], [494, 4], [495, 1], [497, 3], [498, 4], [499, 5],
+  [500, 3], [501, 4], [502, 3], [503, 1], [504, 4], [505, 2], [507, 3], [508, 3],
+  [509, 3], [511, 7], [512, 4], [513, 3], [514, 1], [515, 2], [516, 3], [517, 1],
+  [518, 7], [519, 1], [520, 2], [521, 4], [522, 3], [523, 2], [524, 1], [525, 1],
+  [527, 3], [528, 1], [530, 2], [531, 2], [533, 1], [535, 3], [536, 3], [538, 7],
+  [539, 3], [540, 1], [543, 2], [544, 1], [545, 2], [546, 1], [547, 3], [548, 2],
+  [549, 1], [550, 3], [551, 1], [552, 4], [553, 3], [554, 5], [555, 3], [556, 1],
+  [557, 4], [558, 2], [560, 1], [563, 3], [564, 1], [565, 1], [566, 1], [567, 2],
+  [568, 3], [569, 2], [570, 1], [571, 2], [572, 3], [573, 1], [574, 2], [575, 2],
+  [576, 8], [578, 1], [579, 2], [580, 1], [581, 1], [582, 3], [584, 1], [585, 3],
+  [586, 3], [587, 3], [588, 2], [589, 2], [591, 1], [593, 4], [594, 1], [599, 3],
+  [601, 1], [603, 1], [604, 2], [605, 1], [606, 1], [608, 1], [609, 5], [610, 1],
+  [612, 2], [614, 1], [615, 2], [616, 3], [617, 2], [619, 1], [620, 3], [622, 2],
+  [623, 1], [627, 2], [629, 1], [630, 1], [633, 2], [635, 2], [636, 1], [640, 3],
+  [641, 1], [642, 1], [643, 2], [644, 2], [645, 1], [646, 1], [649, 1], [651, 1],
+  [652, 1], [653, 1], [654, 3], [657, 1], [659, 2], [663, 1], [665, 1], [667, 2],
+  [668, 1], [669, 3], [671, 1], [674, 1], [675, 2], [680, 1], [681, 1], [683, 1],
+  [686, 1], [688, 1], [689, 1], [691, 2], [693, 1], [697, 1], [700, 1], [705, 1],
+  [708, 2], [710, 2], [712, 1], [713, 1], [717, 1], [721, 1], [723, 3], [726, 1],
+  [728, 1], [729, 1], [735, 1], [738, 3], [739, 1], [740, 1], [741, 1], [742, 1],
+  [745, 1], [748, 1], [750, 3], [754, 1], [755, 1], [756, 1], [764, 1], [766, 1],
+  [768, 1], [775, 1], [777, 1], [780, 2], [790, 1], [791, 1], [795, 2], [800, 1],
+  [802, 1], [805, 1], [811, 1], [814, 1], [817, 2], [820, 1], [822, 1], [826, 1],
+  [827, 1], [829, 1], [832, 1], [838, 1], [840, 1], [841, 1], [843, 1], [846, 1],
+  [847, 1], [851, 1], [854, 2], [857, 1], [858, 1], [860, 2], [862, 1], [864, 1],
+  [869, 1], [872, 1], [874, 1], [880, 1], [881, 1], [882, 1], [883, 2], [886, 1],
+  [887, 1], [889, 1], [890, 1], [891, 1], [892, 2], [899, 1], [900, 1], [912, 1],
+  [917, 1], [921, 1], [928, 1], [931, 1], [932, 1], [935, 1], [938, 1], [941, 1],
+  [943, 1], [945, 1], [947, 1], [950, 1], [956, 1], [964, 2], [972, 1], [976, 1],
+  [978, 1], [980, 1], [984, 1], [987, 1], [992, 1], [997, 1], [999, 1], [1001, 1],
+  [1002, 1], [1006, 1], [1011, 1], [1013, 1], [1015, 1], [1018, 3], [1020, 2], [1024,
+  1], [1029, 1], [1031, 1], [1032, 1], [1035, 1], [1042, 1], [1047, 1], [1051, 1],
+  [1056, 2], [1060, 1], [1069, 1], [1076, 1], [1080, 1], [1084, 1], [1096, 1], [1097,
+  1], [1118, 1], [1127, 1], [1131, 2], [1145, 1], [1146, 1], [1150, 1], [1161, 1],
+  [1177, 1], [1187, 1], [1198, 1], [1207, 1], [1217, 1], [1223, 1], [1236, 1], [1303,
+  1], [1317, 2], [1338, 1], [1342, 1], [1350, 1], [1352, 1], [1379, 1], [1393, 1],
+  [1398, 1], [1456, 1], [1465, 1], [1476, 1], [1556, 1], [1575, 1], [1596, 1], [1597,
+  1], [1599, 1], [1628, 1], [1645, 1], [1658, 1], [1774, 1], [1803, 1], [1829, 1],
+  [2217, 1], [2394, 1], [2488, 1], [2756, 1], [2995, 1], [9282, 1], [10130, 1], [14163,
+  1], [14164, 1]]'
+src_sent_tokens_mean: 37
+src_sent_tokens_median: 21
+src_unique_sents: '[[1, 3223], [2, 7131], [3, 9173], [4, 10141], [5, 12801], [6, 12072],
+  [7, 11874], [8, 11368], [9, 11147], [10, 10117], [11, 10209], [12, 9717], [13, 9341],
+  [14, 8868], [15, 8213], [16, 7839], [17, 7340], [18, 7090], [19, 6638], [20, 6608],
+  [21, 6426], [22, 6210], [23, 5965], [24, 5962], [25, 5790], [26, 5689], [27, 5414],
+  [28, 5329], [29, 5169], [30, 5023], [31, 4996], [32, 4774], [33, 4716], [34, 4547],
+  [35, 4237], [36, 4278], [37, 4032], [38, 3775], [39, 3701], [40, 3461], [41, 3207],
+  [42, 3085], [43, 3026], [44, 2864], [45, 2759], [46, 2540], [47, 2525], [48, 2452],
+  [49, 2336], [50, 2216], [51, 2197], [52, 2035], [53, 1949], [54, 1903], [55, 1845],
+  [56, 1893], [57, 1820], [58, 1685], [59, 1586], [60, 1492], [61, 1558], [62, 1494],
+  [63, 1390], [64, 1383], [65, 1288], [66, 1315], [67, 1251], [68, 1285], [69, 1160],
+  [70, 1192], [71, 1154], [72, 1179], [73, 1108], [74, 1080], [75, 1025], [76, 1024],
+  [77, 1032], [78, 1030], [79, 921], [80, 964], [81, 913], [82, 913], [83, 896], [84,
+  887], [85, 806], [86, 842], [87, 797], [88, 741], [89, 755], [90, 708], [91, 718],
+  [92, 698], [93, 674], [94, 720], [95, 642], [96, 649], [97, 625], [98, 618], [99,
+  589], [100, 590], [101, 541], [102, 558], [103, 557], [104, 493], [105, 556], [106,
+  499], [107, 520], [108, 519], [109, 503], [110, 502], [111, 423], [112, 504], [113,
+  441], [114, 424], [115, 395], [116, 431], [117, 440], [118, 384], [119, 408], [120,
+  388], [121, 387], [122, 367], [123, 373], [124, 373], [125, 369], [126, 354], [127,
+  353], [128, 334], [129, 334], [130, 284], [131, 336], [132, 302], [133, 324], [134,
+  281], [135, 277], [136, 285], [137, 276], [138, 253], [139, 274], [140, 256], [141,
+  206], [142, 259], [143, 230], [144, 217], [145, 248], [146, 216], [147, 217], [148,
+  217], [149, 196], [150, 216], [151, 197], [152, 197], [153, 209], [154, 203], [155,
+  178], [156, 185], [157, 194], [158, 208], [159, 164], [160, 185], [161, 150], [162,
+  162], [163, 153], [164, 172], [165, 158], [166, 138], [167, 161], [168, 168], [169,
+  156], [170, 157], [171, 129], [172, 151], [173, 126], [174, 130], [175, 153], [176,
+  128], [177, 145], [178, 124], [179, 131], [180, 122], [181, 122], [182, 127], [183,
+  130], [184, 107], [185, 116], [186, 126], [187, 109], [188, 99], [189, 92], [190,
+  102], [191, 99], [192, 113], [193, 91], [194, 77], [195, 85], [196, 100], [197,
+  92], [198, 80], [199, 101], [200, 73], [201, 77], [202, 70], [203, 78], [204, 86],
+  [205, 69], [206, 72], [207, 66], [208, 71], [209, 70], [210, 58], [211, 65], [212,
+  62], [213, 75], [214, 77], [215, 51], [216, 55], [217, 59], [218, 65], [219, 60],
+  [220, 48], [221, 56], [222, 59], [223, 56], [224, 59], [225, 58], [226, 58], [227,
+  54], [228, 37], [229, 52], [230, 53], [231, 59], [232, 41], [233, 49], [234, 45],
+  [235, 49], [236, 45], [237, 35], [238, 39], [239, 36], [240, 39], [241, 41], [242,
+  48], [243, 30], [244, 22], [245, 46], [246, 35], [247, 29], [248, 32], [249, 34],
+  [250, 35], [251, 37], [252, 40], [253, 27], [254, 28], [255, 33], [256, 27], [257,
+  34], [258, 31], [259, 28], [260, 32], [261, 42], [262, 29], [263, 36], [264, 32],
+  [265, 35], [266, 35], [267, 33], [268, 33], [269, 26], [270, 35], [271, 23], [272,
+  21], [273, 31], [274, 23], [275, 29], [276, 29], [277, 25], [278, 28], [279, 29],
+  [280, 17], [281, 19], [282, 21], [283, 27], [284, 14], [285, 14], [286, 33], [287,
+  20], [288, 26], [289, 14], [290, 16], [291, 18], [292, 25], [293, 18], [294, 22],
+  [295, 17], [296, 21], [297, 20], [298, 25], [299, 16], [300, 11], [301, 19], [302,
+  24], [303, 6], [304, 16], [305, 16], [306, 9], [307, 23], [308, 13], [309, 16],
+  [310, 16], [311, 13], [312, 23], [313, 13], [314, 11], [315, 15], [316, 13], [317,
+  14], [318, 9], [319, 12], [320, 14], [321, 16], [322, 16], [323, 11], [324, 20],
+  [325, 19], [326, 17], [327, 17], [328, 16], [329, 11], [330, 5], [331, 11], [332,
+  10], [333, 7], [334, 7], [335, 17], [336, 12], [337, 8], [338, 7], [339, 9], [340,
+  9], [341, 5], [342, 9], [343, 6], [344, 15], [345, 11], [346, 13], [347, 8], [348,
+  16], [349, 9], [350, 8], [351, 10], [352, 13], [353, 8], [354, 6], [355, 9], [356,
+  7], [357, 13], [358, 5], [359, 9], [360, 11], [361, 8], [362, 3], [363, 10], [364,
+  7], [365, 12], [366, 6], [367, 7], [368, 8], [369, 4], [370, 7], [371, 6], [372,
+  12], [373, 14], [374, 10], [375, 9], [376, 7], [377, 8], [378, 6], [379, 10], [380,
+  10], [381, 3], [382, 11], [383, 8], [384, 7], [385, 11], [386, 11], [387, 4], [388,
+  2], [389, 10], [390, 9], [391, 8], [392, 5], [393, 11], [394, 9], [395, 7], [396,
+  11], [397, 4], [398, 4], [399, 8], [400, 6], [401, 7], [402, 8], [403, 9], [404,
+  7], [405, 8], [406, 5], [407, 6], [408, 6], [409, 7], [410, 5], [411, 6], [412,
+  5], [413, 7], [414, 7], [415, 8], [416, 6], [417, 3], [418, 6], [419, 6], [420,
+  10], [421, 4], [422, 7], [423, 8], [424, 4], [425, 2], [426, 5], [427, 5], [428,
+  7], [429, 3], [430, 9], [431, 6], [432, 5], [433, 8], [434, 4], [435, 5], [436,
+  3], [437, 3], [438, 6], [439, 4], [440, 6], [441, 8], [442, 6], [443, 4], [444,
+  2], [445, 8], [446, 2], [447, 9], [448, 7], [449, 5], [450, 5], [451, 4], [452,
+  3], [453, 1], [454, 5], [455, 1], [456, 5], [457, 2], [458, 3], [459, 6], [460,
+  2], [461, 3], [462, 2], [463, 2], [464, 3], [465, 4], [467, 2], [468, 4], [469,
+  2], [470, 4], [471, 6], [472, 3], [473, 4], [474, 1], [475, 6], [476, 3], [477,
+  2], [478, 4], [479, 4], [480, 5], [481, 3], [482, 5], [483, 3], [484, 4], [485,
+  5], [486, 7], [487, 5], [488, 1], [489, 3], [490, 4], [491, 4], [492, 3], [493,
+  1], [494, 4], [495, 1], [497, 3], [498, 4], [499, 5], [500, 3], [501, 4], [502,
+  3], [503, 1], [504, 4], [505, 2], [507, 3], [508, 3], [509, 3], [511, 7], [512,
+  4], [513, 3], [514, 1], [515, 2], [516, 3], [517, 1], [518, 7], [519, 1], [520,
+  2], [521, 4], [522, 3], [523, 2], [524, 1], [525, 1], [527, 3], [528, 1], [530,
+  2], [531, 2], [533, 1], [535, 3], [536, 3], [538, 7], [539, 3], [540, 1], [543,
+  2], [544, 1], [545, 2], [546, 1], [547, 3], [548, 2], [549, 1], [550, 3], [551,
+  1], [552, 4], [553, 3], [554, 5], [555, 3], [556, 1], [557, 4], [558, 2], [560,
+  1], [563, 3], [564, 1], [565, 1], [566, 1], [567, 2], [568, 3], [569, 2], [570,
+  1], [571, 2], [572, 2], [573, 1], [574, 2], [575, 2], [576, 6], [578, 1], [579,
+  1], [580, 1], [581, 1], [582, 2], [584, 1], [585, 3], [586, 3], [587, 3], [588,
+  2], [589, 2], [591, 1], [593, 4], [594, 1], [599, 3], [601, 1], [603, 1], [604,
+  2], [605, 1], [606, 1], [608, 1], [609, 5], [610, 1], [612, 2], [614, 1], [615,
+  2], [616, 3], [617, 2], [619, 1], [620, 3], [622, 2], [623, 1], [627, 2], [629,
+  1], [630, 1], [633, 2], [635, 2], [636, 1], [640, 2], [641, 1], [642, 1], [643,
+  2], [644, 2], [645, 1], [646, 1], [649, 1], [651, 1], [652, 1], [653, 1], [654,
+  3], [657, 1], [659, 2], [663, 1], [665, 1], [667, 2], [668, 1], [669, 3], [671,
+  1], [674, 1], [675, 2], [680, 1], [681, 1], [683, 1], [686, 1], [688, 1], [689,
+  1], [691, 2], [693, 1], [697, 1], [700, 1], [705, 1], [708, 2], [710, 2], [712,
+  1], [713, 1], [717, 1], [721, 1], [723, 3], [726, 1], [728, 1], [729, 1], [735,
+  1], [738, 2], [739, 1], [740, 1], [741, 1], [742, 1], [745, 1], [748, 1], [750,
+  3], [754, 1], [755, 1], [756, 1], [764, 1], [766, 1], [768, 1], [775, 1], [777,
+  1], [780, 2], [790, 1], [791, 1], [795, 2], [800, 1], [802, 1], [805, 1], [811,
+  1], [814, 1], [817, 2], [820, 1], [822, 1], [826, 1], [827, 1], [829, 1], [832,
+  1], [838, 1], [840, 1], [841, 1], [843, 1], [846, 1], [847, 1], [851, 1], [854,
+  2], [857, 1], [858, 1], [860, 2], [862, 1], [864, 1], [869, 1], [872, 1], [874,
+  1], [880, 1], [881, 1], [882, 1], [883, 2], [886, 1], [887, 1], [889, 1], [890,
+  1], [891, 1], [892, 2], [899, 1], [900, 1], [912, 1], [917, 1], [921, 1], [928,
+  1], [931, 1], [932, 1], [935, 1], [938, 1], [941, 1], [943, 1], [945, 1], [947,
+  1], [950, 1], [956, 1], [964, 2], [972, 1], [976, 1], [978, 1], [980, 1], [984,
+  1], [987, 1], [992, 1], [997, 1], [999, 1], [1001, 1], [1002, 1], [1006, 1], [1011,
+  1], [1013, 1], [1015, 1], [1018, 2], [1020, 2], [1024, 1], [1029, 1], [1031, 1],
+  [1032, 1], [1035, 1], [1042, 1], [1047, 1], [1051, 1], [1056, 2], [1060, 1], [1069,
+  1], [1076, 1], [1080, 1], [1084, 1], [1096, 1], [1097, 1], [1118, 1], [1127, 1],
+  [1131, 2], [1145, 1], [1146, 1], [1150, 1], [1161, 1], [1177, 1], [1187, 1], [1198,
+  1], [1207, 1], [1217, 1], [1223, 1], [1236, 1], [1303, 1], [1317, 2], [1338, 1],
+  [1342, 1], [1350, 1], [1352, 1], [1379, 1], [1393, 1], [1398, 1], [1456, 1], [1465,
+  1], [1476, 1], [1556, 1], [1575, 1], [1596, 1], [1597, 1], [1599, 1], [1628, 1],
+  [1645, 1], [1658, 1], [1774, 1], [1803, 1], [1829, 1], [2217, 1], [2394, 1], [2488,
+  1], [2756, 1], [2995, 1], [9282, 1], [10130, 1], [14163, 1], [14164, 1]]'
+src_langs: '[["fr", 124775], ["sw", 70593], ["en", 57340], ["tl", 39652], ["eo", 19056],
+  ["es", 13607], ["su", 10303], ["id", 10226], ["war", 9378], ["hr", 8275], ["pl",
+  8076], ["it", 6874], ["ms", 6011], ["mt", 3830], ["de", 3343], ["eu", 3290], ["qu",
+  2760], ["sl", 2443], ["hu", 2329], ["ceb", 2313], ["pt", 2231], ["fi", 1989], ["sr",
+  1950], ["nl", 1928], ["tr", 1916], ["kw", 1895], ["io", 1583], ["cy", 1399], ["bs",
+  1305], ["br", 1295], ["uz", 1213], ["lt", 1212], ["ur", 1207], ["ro", 1146], ["cs",
+  896], ["sq", 725], ["ca", 708], ["la", 671], ["rm", 668], ["jv", 657], ["ilo", 641],
+  ["cbk", 612], ["sv", 543], ["mg", 492], ["diq", 426], ["ru", 411], ["so", 362],
+  ["gd", 348], ["lv", 340], ["jbo", 294], ["et", 278], ["bcl", 265], ["sk", 264],
+  ["pam", 257], ["ia", 241], ["ga", 230], ["kn", 219], ["gn", 214], ["zh", 208], ["ie",
+  205], ["vo", 195], ["ku", 185], ["nb", 177], ["gl", 177], ["uk", 145], ["is", 137],
+  ["gom", 127], ["ast", 125], ["min", 124], ["oc", 122], ["bn", 110], ["ja", 108],
+  ["ht", 99], ["yo", 88], ["vi", 83], ["ml", 83], ["tk", 76], ["nds", 74], ["bh",
+  71], ["da", 66], ["km", 62], ["dsb", 59], ["az", 54], ["el", 53], ["vec", 44], ["tg",
+  44], ["scn", 43], ["pms", 38], ["nap", 37], ["gv", 34], ["frr", 34], ["vep", 33],
+  ["fy", 33], ["ne", 29], ["te", 28], ["lmo", 26], ["fa", 26], ["bar", 24], ["an",
+  23], ["wa", 22], ["sco", 22], ["eml", 22], ["hif", 20], ["mwl", 19], ["he", 19],
+  ["co", 19], ["hy", 18], ["ko", 17], ["sc", 16], ["af", 16], ["th", 15], ["ta", 15],
+  ["ar", 15], ["pfl", 14], ["gu", 13], ["ug", 12], ["ky", 12], ["or", 9], ["nah",
+  9], ["hsb", 9], ["dv", 9], ["nn", 8], ["mr", 8], ["lb", 8], ["xal", 7], ["my", 7],
+  ["mrj", 7], ["mk", 7], ["bo", 7], ["si", 6], ["li", 6], ["hi", 6], ["bg", 6], ["yi",
+  5], ["ps", 5], ["mn", 5], ["tt", 4], ["mzn", 4], ["kk", 4], ["als", 4], ["pnb",
+  3], ["ce", 3], ["be", 3], ["vls", 2], ["cv", 2], ["ckb", 2], ["wuu", 1], ["sah",
+  1], ["rue", 1], ["os", 1], ["lo", 1], ["krc", 1], ["ba", 1], ["am", 1]]'
+hardrules_tags: '{"not_too_long": 6024, "not_too_short": 29249, "length_ratio": 0,
+  "no_urls": 10328, "no_bad_encoding": 152, "pii": 305}'
+sample: '["\"Access Bank ellobi ete mokambi na yango ayonoli mbala mingi na mituna
+  ya bayi bosembo mpo na likambo ya kosokola misolo (blanchiment d\u2019argent) mpe
+  kotinda yango na badongoleso eye afundamaki na yango.\\n\\\"Mpo etali bolukiluki
+  bozali kosalema likolo na nungu nungu etali kosokola misolo, banque endimaki kosala
+  na bosolo manso bureau ya Procureur g\u00e9n\u00e9ral esengaki mpe epesaki mikanda
+  minso mpo na kolakisa ete eyebi likambo te mpe etosaka na molende maye Banque centrale
+  ya Congo esengaka na ko bokongola misolo,\\\" ekomi Acces Bank na liyebisi.\\n$30.000
+  yango ezongisamaki lundi le 21 d\u00e9cembre, elobi Access Bank. Basali ba APLC,
+  agence pr\u00e9sidence F\u00e9lix Tshisekedi akelaki na koluka kosilisa kaniaka,
+  bazwaki yango mposo moleki ntango bazalaki kosala enketi mpo na kaniaka.\\nSamedi,
+  mokambi ya APLC (Agence ya kopekisa mpe kobundisa kanika), Ghislain Kikangala atikamaki
+  nsima na kongama vendredi mpo na lolenge bayi misala miye bazwaki misolo miye na
+  passport ya DG ya Access Bank, Arinze Kenechukwu Oswachale, na enketi bazalaki kosala.\\nNungu
+  nungu ebimaki mingi nsima na bililingi ya bozwi misolo miye mipanzanaki na ba r\u00e9seaux
+  sociaux.\\nMokambi ya APLC alobaki ete misolo myango mitindamaki na parquet mpe
+  basali na agence eye basalaki kaka mosala na bango.\\nVoir les commentaires\\nAvez
+  vous d\u00e9j\u00e0 un compte? Connectez-vous\\n\u00cates-vous un utilisateur enregistr\u00e9?
+  Inscrivez-vous\\nVoir plus de commentaires\"", "\"Lebou Kabuya\\nLebou Kabuya azalaka
+  mp\u00e9 mob\u00e9ti lindanda ya Kong\u00f3-Kins\u00e1s\u00e1.\\nBomoi[kokoma |
+  kob\u0254ngisa mos\u00f3lo]\\nLebou Kabuya azalaka mobeti lindanda na lisanga ya
+  Koffi Olomide. Ayekola ko beta lindanda uta bomwana na ye na ba lisanga ya miziki
+  neti Flash musica.\\nPalaki na ba nz\u00e9mbo[kokoma | kob\u0254ngisa mos\u00f3lo]\\nNa
+  Quartier Latin[kokoma | kob\u0254ngisa mos\u00f3lo]\\n- Pas de Faux pas (Mansouri)\\n-
+  Noblesse oblige\\n- Magie (P\u00e1l\u00e1ki)\\n- V12 (P\u00e1l\u00e1ki)\\n- Loi
+  (P\u00e1l\u00e1ki)\\n- Ultimatum\\n- Droit de Veto\\nNa Quartier Latin Academia[kokoma
+  | kob\u0254ngisa mos\u00f3lo]\\nNa Quartier Latin int\u00e9gral[kokoma | kob\u0254ngisa
+  mos\u00f3lo]\\nBow\u00e9i[kokoma | kob\u0254ngisa mos\u00f3lo]\\nLebou Kabuya akufaka
+  o mobu 2021 na engumba ya Toronto na mboka ya Kanada.\\nMazita o libanda[kokoma
+  | kob\u0254ngisa mos\u00f3lo]\\nMituya ya mik\u00e9[kokoma | kob\u0254ngisa mos\u00f3lo]\"",
+  "\"42 Morts ! Quand la communaut\u00e9 internationale va-t-elle r\u00e9agir contre
+  KABILA ? Congomikili.com , 2015 professionalisme, to lie bango \u00e0 sec sans dessert
+  !\\n@GRAND MUZOBA 165CM\\nA QD ANGOLA MIKILI QUE TU AVAIS PROMIS AU BAZOMBO?\\nRDC
+  UNITE DE MESURE\\n@kudia,\\nDe quelle \u00ab victoire \u00bb des soi \u2013 disant
+  \u00ab cons \u2013 battufis \u00bb nous parle t \u2013 on hein? Citez moi, un SEUL
+  nom de vos \u00ab cons \u2013 battufis \u00bb qui etait pr\u00e9sent sur le terrain?
+  Je respecte les Kinois que, pas plus qu\u2019hier vous traitiez des \u00ab l\u00e2ches/bayuma
+  \u00bb, pour avoir montr\u00e9 de quoi ils sont vraiment capables. Les Kinois n\u2019avaient
+  pas post\u00e9 des vid\u00e9os, avant de descendre dans la rue, comme cela est le
+  cas chez vous autres \u00ab cons \u2013 battufis \u00bb. Ba vrais combattants \u00e9za,
+  Kengo Wa Dondo, Kamerhe, Muyambo, Katumbi, Fayulu, Mokia etc\u2026 Bo bengaka bango
+  ba \u00ab collabos \u00bb l\u00e9lo ba lakisi bino lol\u00e9ng\u00e9 masolo \u00e9
+  sal\u00e9maka. Pardon, bo tika ko reclamer victoire ya bana Kin.\\nYo zoba ya muzombo
+  ozali vraiment zoba soki oza;li kofinga ba combattant oyo batie pouvoir ya cousin
+  nayo kanambe agenoux donc ozali vraiment zoba ndenge moko na kanambe etpuis mutu
+  ako arreter detemination na biso azali te jusqu\u2019a tokanga kanambe na double
+  agent naye kamere, felix mende boshab na tout le collabo!\\nVITAL KAMERHE AZALAKA
+  AGENT DOUBLE PE CONSEILLER PONA STRATEGIE YA HYPOLITE KANAMBE , BAPESA YE BA MOYENS
+  FINANCIERS ILLIMITE PONA KO SEDUIRE LA JEUNESSE CONGOLAISE SURTOUT KINOISE MINGI
+  NA BANGO BAKOMI NA SIMA NA YE PE AZALI KOSALA PENZA UN TRAVAIL DE FOND , IL Y A
+  5 ANS BA JEUNES MINGI NA KINSHASA BAYEBAKI YE TE , LELO OYO BANGO NIONSO BAKOMI
+  KAKA NA KOMBO YA VITAL KAMERHE NA MONOKO NA BANGO SANS PENZA KO REFLECHIR , VITAL
+  KAMERHE C\u2019EST UN FUTE INTELLO RWANDO-BURUNDAIS AU SERVICE D\u2019HYPOLITE KANAMBE
+  , POUR PREUVE MALGRE BA CRITIQUES NA YE ENVERS LE GOUVERNEMENT ET HYPOLITE KANAMBE
+  JAMAIS BASI BA MENACER YE TO PE BASI BAKANGA YE PE AZALAKA BIEN ESCORTER NA BA SOLDATS
+  NA BA DEPLACEMENTS NAYE NIONSO , MEME LAMBERT MENDE ATIKALA JAMAIS KOFUNGOLA MUNOKO
+  NA YE PONA KO CRITIQUER VITAL KAMERHE PONA AYEBI ETE AZALAKA AGENT DOUBLE YA HYPOLITE
+  KANAMBE , NASENGI DONC NABA RESISTANTS-COMBATTANTS NIONSO PONA TOZALA TRES VIGILANT
+  NA VITAL KAMERHE PONA NKOY AKOMAKA NTABA TE . ETEYA BISO . INGETA !\\nPourquoi cette
+  agitations tant que Kabila n\u2019a jamais dit qui\u2019il va briguer un autre mandat,mais
+  j\u2019espere que Dieu vous jugera aussi pour cette intoxication a la population
+  demunie de tous ,nous deplorons beaucoup de la perte de vie des ces enfants,jeunes,mamans
+  et peres tues.\\nNous qui avons des grands freres propres tues soit disparus par
+  le regime de Mobutu et recemment un propre grand frere tuer au Front suite au recrutement
+  massive au Katanga par Mzee Laurant Kabila avons la grande douleur de la famille
+  en perdant nos proches. Actuellement un de mon neveux enfant de ma soeur aine est
+  rentre de la guerre de l\u2019EST avec ses jambes malformer suite a la grenade piege
+  par les enemis du congo qui vie t a Lubumbashi lever seulement au grade de Lieutnant
+  savons combien ce que vous chercher par force ne pas toujours une bonne solution
+  . Vous etes exites de cela car personne dans votre famille est touche.\\nCeci devrait
+  avoir beaucoup d\u2019empleur ci c\u2019etait apres decembre 2016.\\nNous vous attendons
+  a votre ETAT DE DROIT APRES 2016 POUR QUE NOUS PUISSIONS RECLAMER NOS INDEMNITES,\\nJe
+  suis de coeur d\u2019avec tous ceux qui pleurent actuellement car nous partagons
+  la meme douleur avec eux.\\nQue Dieu vous protege dans ce douleur(WEST)\\nPLAN B
+  FINAL EN ACTION : J.KABILA WC DOIT ETRE ASSASSINE A KINSHASA AVANT\\nLE 30 JUIN
+  2015, EKOYA EYA, EKOYA EYA, J.KABILA WC IL EST DEJA MORT VIVANT.\\nkokamua le debat
+  congolais ba recgresade oyo ba benbangana na angola aza interese na yango\\n@UNITED
+  STATES OF AFRIKA,\\nNa comprendre que, yo p\u00e9nza o yebi bana mayi wana malamu
+  vraiment. Est \u2013 ce que mutu oyo azo k\u00e9nd\u00e9 bitumba a b\u00e9taka mb\u00e9la,
+  lol\u00e9ng\u00e9 ba cons \u2013 battufis ba salaka? Tant\u00f4t \u2026 \u00ab Ba
+  kala t\u00e9 toko papula batu ya pouvoir ya Kabila\u2026 \u00bb Parfois, \u00bb
+  toza d\u00e9j\u00e0 na terrain, ba kala t\u00e9 plan B \u00e9ko sal\u00e9ma\u2026
+  \u00bb Oh! \u00ab Op\u00e9ration Nzoto na nzoto contre bana Mura.. \u00bb D\u00e9puis,
+  ba banda ko laka jusque \u2013 l\u00e0 ata moustique moko ba boma t\u00e9. Est \u2013
+  ce que ozo constater t\u00e9 que ba zoba \u2013 ttants, ba boma \u2013 ttants, ba
+  cons \u2013 battants naba combattufis ba komi ko batama? Oh! Batu na batu ba bund\u00e9la
+  bisika ba zuami\u2026 Sikoyo mutu a fandi na Anglettere ako bund\u00e9la bitumba
+  ya \u00ab lib\u00e9ration \u00bb ya RDC na Oxford Street?\\nrex kazadi azalaki na
+  raison yako loba que batu ba cotiser te. ngayi pe na preferer ko yebisa ba congolais
+  que ba cotizaka na bango lisusu te na makambu oyo eza ko senga mbongo tiiiiiiiiiiiiii
+  tangu congolais ako changer pe alaki exemple ya bien na mbongo. mais plutot ba sala
+  sala ba groupuscule moko boye priv\u00e9 na mua muki\u00e9 muki\u00e9 ko aider batu
+  sur terrain que ko risquer ko pesa mbongo na batu oyo baza aptes a le bouffer\\n@grand
+  muzombo.\\nko senga ba congolais mbongo ya imperium ezalaki faux calcul il ne fallait
+  pas ba sala yango surtout na mentalit\u00e9 na biso il ne fallait pas.\\n.\\ncongolais
+  aza na mentalit\u00e9 ya travail d\u2019equipe te, ba peuples ya ba pays misusu
+  bazalaka na esprit wana yako cotiser mbongo facilement et surtout rapidement pour
+  une cause mais ba congolais non et surtout pe a cause ya ba escroqueries ebele ba
+  subisa yango wana congolais azalaka lisusu na confiance ya ko pesa mbongo te.\\nba
+  misusu kutu ba bandaki ko tambola na ba photos ya mutu akufa deja kala mais baza
+  ko leka leka na ba magasins ya batu, na ba ndeku ya batu, na ba restaurants ko senga
+  cotisations oooooohhhhhh ndeko na biso akufi to salisa ye nzoka nde ezalaki escroquerie,
+  biloko eza ebele oyo est decouragea ba congolais na ko pesa mbongo.\\n@UNITED STATES
+  OF AFRIKA,\\nTango na y\u00e9bisaka bato que, ba \u00ab cons \u2013 battants \u00bb
+  baza ba clowns sans maquillage, bato \u00e9b\u00e9l\u00e9 ba ndimaka t\u00e9. Please,
+  tind\u00e9la bango ata 1.000 US Dollars comme contribution pour que, ba \u00ab lib\u00e9rer
+  \u00bb mboka. Tata wana ba p\u00e9sa likonda ya \u00ab imperium \u00bb jusque \u2013
+  la, ata \u00e9t\u00e9ni ya \u00ab imperium \u00bb to mona t\u00e9, sikoyo licro
+  mosusu a bimi na masolo yaba billets d\u2019avion.\\n@grand muzombo.\\nna wuti ko
+  landa yango verre ya jus nazalaki nango esopani na polo na lati pona ko seka, non
+  batu oyo roger lumbala azalaki na raison yako finga bango ba combatuffis amonaki
+  musika ko leka batu mingi.\\nbati\u00e9 pe photo ya ba marches ba bandaki ko sala
+  na UK na moni mutu ya liboma (ikala songa njila) na kabakata ya malette na yebi
+  te eza na nini na kati pe musala na yango na marche eza nini ?????? ye moko ko tanga
+  bien ayebi te, ko koma pe ya mabaku mabaku mais tala kabakata ya mallette kieeeeeeeeeeeeeeeee
+  oyo batu ya theatre penza.\\n.\\nba lula ko lata sokoto mais ba vrai peureux nanu
+  na mona te.\\nbotika kolobela espion ya vital kamere pona revolution oyo pcq ye
+  azali complice ya kanambe ndeko naye donc peuple Congolais esengeli na biso tosala
+  attetion pona vital kamere bazali na meme but ye na barwandais nionso\\n@UNITED
+  STATES OF AFRIKA,\\n\u00c9za masolo ya solo solo p\u00e9nza. Land\u00e9la d\u00e9claration
+  ya le pseudo \u00ab colonel \u00bb ya bit\u00e9ndi na site ya Ady Londol\u00e9.
+  Bonne d\u00e9tente, frero\u2026.\\n@ UNITED STATES OF AFRIKA,\\nCe que je vous dis,
+  \u00e0 propos de ce peudo \u00ab colonel \u00bb ya arm\u00e9e ya bit\u00e9ndi, j\u2019ai
+  cit\u00e9 alias Odon Mbo est plus que la v\u00e9rit\u00e9. Pour preuve, suivez sa
+  d\u00e9claration sur le site d\u2019Abeba Lipordo/Ady Londol\u00e9 (congonumber1).
+  Luka o v\u00e9rifier information na p\u00e9si, oko comprendre makambo na lobi\u2026\u2026.
+  Bonne d\u00e9tente frero..\\nVRAIMENT CONGOMIKILI JE VOUS JETTE DES FLEURS POUR
+  VOTRE PROFESIONNALISME.\\nJ\u2019AI BEAUCOUP AIME.\\nMERCI ET QUE DIEU VOUS BENISSE.\\n.\\nnzambe
+  a pamboli bino .\\n.\\n.\\n@GRAND MUZOMBO.\\nya solo wana ???????????? kieeeeeeeeee
+  eko kamuisa ngayi te po ye aza suka na combatuffi odon mbo wana. banda kala wana
+  bazalaka na ba commandos te na armee na bango ya se ya mayi ??????? et aza ko recruter
+  na facebook ????????????? aaaaaaaaaaahhhhhhhhh tel pere tel fils tel terminator
+  ngwanda tel combatuffi odon mbua\\nBINO BATO BOZALI KOBOMAKA BA CONGOLAIS NA NDENGE
+  BOLINGI BINO BATO BOZALI KOSALAKA CARNAGE NA RDC BO CONTINUER KOBOMAKA MAIS BOSANAKA
+  TE CONGO YA KALA EZALI CONGO YA LELO TE BA DOSSIERS NA BINO BATO BOZALI KOBOMAKA
+  BA CONGOLAIS BA DOSSIERS NIOSO YA BA MASSACRES BOZALI KOSALA TOKOSANGISA YANGO EKOKENDE
+  NA CPI SURTOUT YO COMMANDANT YA LA POLICE GENERAL ESPRIT DE MORT KANYAMA,GOUVERNEUR
+  DELA VILLE ANDRE KIMBUTA DIAMBA NA DIAMBA,MINISTRE DE L\u00b4INTERIEUR EVARISTE
+  BOZOBA,PRESIDENT YA PARLEMENT AUBIN DIFUNI,PRESIDENT YA SENAT KENGO WA MUNDIBU NA
+  PRESIDENT NA BINO YA BA RWANDAIS BOYEBAKA BOKOSAMBAKA UN JOUR NA MISO YA PEUPLES
+  CONGOLAIS TOKOTUNA BINO NAMAKAMBU NIOSO BOZOBA BOZALI KOSALAKA NA RDC\\nLikambo
+  ya Mabele Nsangu e ma! E e e Nsangu e ma!\\nKongo ya biso Ruanda ya bango! To ko
+  welw nini ba Ndeko!\\nLuambo Makiadi- Auteur.\\nUn Homme \u00e9veill\u00e9 \u00e9veille
+  un autre! Et l\u2019autre etant \u00e9veill\u00e9, \u00e9veille un autre\u2026.
+  ainsi de suite,\\nc\u2019est tout un Vilage qui se reveille. Un Homme avec puissance,
+  apporte une Lumi\u00e8re et de cette\\nLumi\u00e8re \u00e9claire les autres( Auteur
+  inconnu- The Way). Si tu veux la Paix, prepare la gueure. Peuple Kongolais!\\nSi
+  tu veux manger en paix ne te laisse pas faire aujourd\u2019hui! Moto mosusu te ako
+  bundela yo, Obe yo moko! Peuple alamuki, Botika te, tii kino ba ko pakata. Eza lisusu
+  tango ya kolela te, kasi nde tango ya ko papa! Sembola Loboko na Ekolo, Tolingi
+  to mona Nkembo na Yo! ( Alain Moloto). Ba Kongolais, Bo linga Mboka na bino! ( Vieux
+  Tshiseke en 2011 en Campgne Electorale)\\nLikambo Ruandais abomelaka Kongolais soki
+  ayeba te,\\neza ke Kongolais apesa trop( comme Mende, Boshab, Minako, Matata Ponyo,
+  Kaniama, Oleko, Etumba etc\u2026yango tozali maboko pamba( Auteur Ferr\u00e9 Gola)
+  Ba paya ba sakana na biso meme chez nous meme. To kufa mbala moko, pourvue ba kima!
+  Merci.\\n@chers compatriotes congolais\\nIgnorez-le ! Ne repondez jamais aux provocations
+  d\u2019un l\u00e2che, petite vermine, sans conviction, opprtuniste et sans couilles
+  qu\u2019est ce monsieur @Grand MUZOMBO ou plut\u00f4t @Petit MUZOMBO.\\nLaissez
+  sa femme s\u2019occuper de lui botter le cul.\\nIl ne m\u00e9rite AUCUNE attention
+  de votre part. Ne lui donnez pas de l\u2019importance. C\u2019est un MINUS.\\nOUBLIONS-LE.
+  Il se fatiguera vite \u00e0 \u00e9crire dans le vide.\\n@ tous mes compatriotes\u2026ON
+  NE LACHE RIEN ! restons ensemble.\\nGENERAL MAYELE ABOMISA BATO EBELE NA DEUXIEME
+  PILLAGE BAKANGAKA YE ?\\n@ faux muzombo\\nYo zoba oyo ya liya mboshi obatamaka sima
+  ya muzombo po okosa batu quee ozali Angolais, bakimisa yo na site rdcongoinfos na
+  ba ppatriotess na fimbo ya verit\u00e9 kiekiekieee.\\nZoba ya liya ya yo nini soki
+  Odon Mbo alingi abundela mbooka na ye? zoba ya liya kende obetela nde criminel ya
+  Sassou maboko ndenge ozalaki kosala na rdcongoinfos. sale parasite.\\nRelance de
+  l\u2019op\u00e9ration \u2018\u2019Mbata ya bakolo\u2019\u2019 \u00e0 Brazzaville\\nBrazzaville,
+  (Starducongo.com) \u2013 Le directeur g\u00e9n\u00e9ral de la police, le g\u00e9n\u00e9ral
+  Jean-Fran\u00e7ois Ndenguet, a relanc\u00e9 le 20 janvier \u00e0 Brazzaville, l\u2019op\u00e9ration
+  \u00ab Mbata ya Bakolo \u00bb qui vise \u00e0 lutter contre l\u2019immigration clandestine
+  et \u00e0 assainir les grandes villes du pays des actes de criminalit\u00e9.\\nLe
+  directeur g\u00e9n\u00e9ral de la police, le g\u00e9n\u00e9ral Jean Fran\u00e7ois
+  Ndenguet, a proc\u00e9d\u00e9 le 20 janvier 2014, \u00e0 la relance de l\u2019op\u00e9ration
+  Mbata ya bakolo. Cette op\u00e9ration a d\u00e9but\u00e9 par le 3e arrondissement,
+  Poto-Poto o\u00f9 le directeur g\u00e9n\u00e9ral s\u2019est d\u00e9ploy\u00e9 avec
+  des agents de la police le long des avenues de France et de la Paix. Il est entr\u00e9
+  dans le march\u00e9 Poto-Poto, o\u00f9 la plupart des commerces sont tenus par les
+  \u00e9trangers.\\nDes dizaines de personnes ont \u00e9t\u00e9 interpell\u00e9es
+  par la police \u00e0 cause du manque ou de l\u2019irr\u00e9gularit\u00e9 des pi\u00e8ces
+  d\u2019identit\u00e9. Ces agents de la police qui arborent des brassards de couleur
+  orange sur lesquels on peut lire UCR. Les \u00e9trangers doivent pr\u00e9senter
+  leur passeport avec visa ; la carte de r\u00e9sidence en cours de validit\u00e9
+  ; la carte consulaire (facultatif) et la quittance de paiement de carte de r\u00e9sidence
+  (appuy\u00e9e d\u2019une pi\u00e8ce d\u2019\u00e9tat-civil justifiant son identit\u00e9
+  : passeport).\\nL\u2019attestation d\u2019instance de naturalisation (valable pour
+  les \u00e9trangers dont les dossiers de naturalisation sont en cours) ainsi que
+  la carte de r\u00e9fugi\u00e9 ou r\u00e9c\u00e9piss\u00e9 sont \u00e9galement exig\u00e9es.\\nLe
+  g\u00e9n\u00e9ral Ndenguet a expliqu\u00e9 que Mbata ya Bakolo concerne beaucoup
+  plus des sujets Ouest-Africains \u00e0 savoir, les maliens, les s\u00e9n\u00e9galais,
+  les libanais, les mauritaniens et autres, qui doivent passer par le contr\u00f4le.
+  Ceux qui ont leurs papiers, nous les laissons, mais ceux qui n\u2019en poss\u00e8dent
+  pas seront accueillis dans un centre au commissariat central (centre-ville). Ils
+  vont y rester jusqu\u2019\u00e0 ce que leur billet soit pay\u00e9 par ceux qui les
+  ont faits entrer en terre congolaise de mani\u00e8re clandestine\\nIl a toutefois
+  Jean-Fran\u00e7ois Ndenguet, pr\u00e9cisant que pour les ressortissants de la R\u00e9publique
+  d\u00e9mocratique du Congo, le rapatriement est facile puisqu\u2019il y a d\u00e9j\u00e0
+  un bateau lou\u00e9, d\u00e9plorant au passage le manque de moyens financiers pour
+  bien mener une telle op\u00e9ration qui devrait se poursuivre \u00e0 Pointe-Noire
+  et dans les autres d\u00e9partements du pays.\\nLe g\u00e9n\u00e9ral Ndenguet a,
+  par ailleurs, souhait\u00e9 l\u2019implication de la population pour bien mener
+  cette op\u00e9ration qui vise \u00e0 assainir les quartiers de Brazzaville, sollicitant
+  une aide au profit de la police car, a-t-il dit, il s\u2019agit d\u2019un probl\u00e8me
+  qui concerne tout le monde. L\u2019op\u00e9ration Mbata ya bakolo a \u00e9t\u00e9
+  lanc\u00e9e pour la premi\u00e8re fois le 4 avril 2014 \u00e0 Brazzaville.\\nFlorent
+  Sogni Zaou\\nMes chers compatriotes,la communaute internation que vous esperez est
+  votre maman ou votre pere ,je me demande quand est-ce que l\u2019homme congolais
+  va grandir et sera muri.\\nc\u2019est triste ,ces gens assassinent vos leaders depuis
+  plus de 50 ans ,vous esperez a eux.\\nce sont eux qui ont forme vos elits et les
+  dirigent comme bon leur sembler.je crois que vous devraient chercher a comprendre
+  comme PATRICK MBEKO.IL a grandi la bas et il connait la maison ya mindele.\\nil
+  faut tosala neti ba chinois,il se sont battu seul avant tout. botika buzoba ,temps
+  na bino nioso kaka musique ,kobina na kotia bana basi mitakala,bible na maboko.\\nsoki
+  bozo kosa nzambe bozali komikosama. eyokani.\\nLe tristement c\u00e9l\u00e8bre \u00ab
+  colonel \u00bb Odon Mbo, a eu \u00e0 d\u00e9clarer sur un site de la place: \u00bb
+  je cherche des volontaires qui vont descendre avec moi sur le terrain, afin de combattre
+  aux c\u00f4t\u00e9s des Kinois\u2026 \u00bb Et plus loin, comme cela est de coutume
+  chez nos \u00ab amis \u00bb soi \u2013 disant combattants/r\u00e9sistants, il nous
+  fait ceci: \u00bb toza na besoin ya soutien financier na bino, parceque toza na
+  mbongo yako somba ba tickets d\u2019avion t\u00e9\u2026\u2026.bo contacter nga vite,
+  pour le moment toza na nombre ya 4 personnes y compris nga moko\u2026. \u00bb\\nM\u00eame
+  un analphab\u00e8te digne de ce qualificatif, peut aisement s\u2019en rendre compte
+  que, cette d\u00e9marche sent l\u2019arnaque. C\u2019est trop facile \u00e7a, on
+  attend toujours des occasions similaires pour \u00ab sucrer \u00bb de l\u2019argent
+  \u00e0 des gens qui ont une petit\u00e8sse d\u2019esprit. Qui vivra verra\u2026\u2026.\\nBourgoumestre
+  ya Lemba, oyo Gbanda a lobaki ba \u00ab bomi \u00bb a zongi na bomoyi, parceque
+  to moni ye naba images \u00e0 c\u00f4t\u00e9 du ministre Boshab!\\nIL FAUT KAKA
+  BITUMBA, TIII KABILA MISO MA VONDRON AKOKIMA! NGOMBE! NYAMA!\\nLa derniere des choses
+  qu on voudrait avoir au Congo, ce sont encore des troubles. On en est gave.On veut
+  la paix. Tout ce que je voudrais moi perso, cest que Kabila sorte de son mutisme
+  pour donner des garanties que les elections a.u.r.o.n.t lieu en 2016 point barre.
+  Et qu il s\u2019exprime sans metaphores mais avec des mots clairs. Rien dautres
+  \u00e1 declarer.\\nChers Compatriotes,\\nJe dois d\u2019abord saluer le professionalisme
+  de Congomikili dans cet \u00e9l\u00e9ment. Mais n\u2019oublions pas qu\u2019il s\u2019agit
+  de Congomikili en Belgique. On voit directement cela par la qualit\u00e9 de l\u2019\u00e9l\u00e9ment.
+  Ici, je crois que le mat\u00e9riel a fait la diff\u00e9rence. Mais je suis surpris
+  par le fond de l\u2019\u00e9l\u00e9ment. Quel pays a \u00e9t\u00e9 lib\u00e9r\u00e9
+  par la Communaut\u00e9 Internationale? Pour ceux qui ne peuvent plus se souvenir
+  des \u00e9v\u00e9nements du Rwanda (les massacres de Hutu et Tutsi par les \u00e9l\u00e9ments
+  arm\u00e9s suite \u00e0 l\u2019assassinat du pr\u00e9sident Habyarimana et son homologue
+  burundais); cette communaut\u00e9 a mis, au moins dix jours pour condamner ce qui
+  se passait dans ce pays, alors que les images circulaient d\u00e9j\u00e0 sur certaines
+  cha\u00eenes de t\u00e9l\u00e9vision. Il serait mieux que le peuple inqui\u00e9t\u00e9
+  trouve des moyens pour inqui\u00e9ter davantage ces escadrons de la mort. Il existe
+  des strat\u00e9gies, il serait mieux que les militaires congolais, qui aiment ce
+  pays et l\u2019avenir de leurs enfants s\u2019investissent du c\u00f4t\u00e9 du
+  peuple qui paie un lourd tribu. La pression ne doit pas \u00eatre rel\u00e2ch\u00e9e,
+  sinon, les ex\u00e9cutions extra-judiciaires et les enl\u00e8vements vont continuer.
+  On doit rester uni et d\u00e9masquer les faux opposants qui s\u2019infiltrent pour
+  transmettre les informations pr\u00e9cieuses au camp des tueurs. Que Dieu nous vienne
+  en aide.\\n@Mutu oyo ya UDPS alobi na suka,\\nHonnetement, bino batu ya UDPS bakomi
+  kopesa ngai kanda moko ezalaka te. Tango batu bazalaki ko senga dialogue, bino bolobaki
+  que bokoki ko dialoguer te (bozali na majorite et non na opposition).\\nTango batu
+  baboyi dialogue na KABILA, bino bolingi sikoyo dialogue na KABILA. Batu nyoso, y
+  compris vieux MOKIA asengi bino boya kopesa maboko. Toyoki bino esika bopesi communique
+  que bozali concerne te.\\nLelo oyo mboka eningani, batu oyo bazalaki ko combattre
+  \u00ab opposition \u00bb nde sikoyo baleki liboso. Opposition oyo ezwi ba risques
+  na Congo, bokomi kolekisa bango na sima.\\nQu\u2019est-ce qu\u2019on a foutre que
+  TSHISEKEDI alobaki na bato ba kende parlement te? De toute facon, en tant que qui
+  apekisaki batu bakende parlement? Loba ba deputes na ye ya UDPS nde akokaki kopekisa
+  bango. Kasi les autres? Ye moko agengaki KABILA \u00ab le petit rwandais \u00bb,
+  kasi akendaki ba elections na ye pourquoi? Soki NGOYI MULUNDA a proclamaka ye president,
+  alingaki aboya po KABILA azali rwandais (selon ye)? En tant que juriste, ayebi que
+  akoki kokende ba elections na ba etrangers te.\\nLelo olobi opekisi batu na yo ba
+  bunda, tango makambo ekomi ko evoluer, lobi yo wana osali communique nde oleki ba
+  oyo ba preparaki bitumba pe ba tie ba vies na bango en danger? Tozali koyoka lisusu
+  ba kombo ya ba Martin FAYULU, Sammy BADIBANGA, Gabriel MOKIA, Frank DIONGO, Vital
+  KAMERHE, \u2026 ekomi kaka \u00ab fulani asalaki communique, kingandi alobi boye
+  \u2026 \u00bb Bazalaki wapi tango tozalaki na besoin na bango?\\nTango babengi yo
+  o tindika mutuka, oboyi. Mutuka epeli, okomi ko rappeler batu: \u00ab Ngai nazali
+  grand mecanicien \u2026 kutu nayebisaki bino botia voiture na guarage te \u2026
+  \u00bb. Soki o rappeler batu esika il fallait ba parquer voiture, nde voiture eko
+  demarrer? Osuki pe wana te, okomi ko loba que batu ba tindika mutuka po yo nde okozala
+  chauffeur.\\nBino batu ya UDPS, bondima que bosalaki buzoba. Bozonga avec humilite
+  na ba ninga po tobengana KABILA. Botika ko attirer attention ya batu na biloko ezanga
+  tina neti \u00ab President-elu ayebisaki bango bakota ba institution te\u2026 \u00bb.
+  Sikoyo bino batu bokotaki ba institution ya KABILA te, bokomi kosenga dialogue po
+  na nini?\\nTozali na respect makasi ya papa TSHISEKEDI. kasi bobosana te qu\u2019azali
+  na ye opposant neti ba opposants nyoso. Et, surtout ba decisions na ye mikolo ezali
+  kopesa eloko ya malonga te. Soki, il fallait kolanda ye na makambo na ye ya dialogue,
+  tolingaki to ningisa KABILA?\\nNGBANDA pe cote na ye, kaka strategies moko wana.
+  Batu neti ba MAYIZO na Patrick MBEKO, babandi par ko denigrer opposition (que bazali
+  na agenda clair te, bazali divise, ba bimisi peuple po na revision constitutionnel
+  et pourtant peuple alingi KABILA akende \u2026). Sima, NGBANDA (oyo alobi-lobi na
+  ye kaka na Internet ndenge amesana) nde azali visionnaire po ye alobi que KABILA
+  il faut akende.\\nBref, TSHISEKEDI na NGBANDA botika kosakana na ba congolais. Quelque
+  soit eloko bosala na vie na bino, ya tour oyo bosali eloko te. Boyekola ko respecter
+  musala ya baninga. Boyebaka que oyo akomeka ko ciriquer lisusu ba opposants oyo
+  bazali na Congo, ako regretter makasi.\\nTSHISEKEDI kutu azali na palmares (abunda
+  mingi), kasi yo NGBANDA osala rien na mboka wana. Meka kaka kosakana, o ko regretter.
+  Na masolo na yo ya lokuta. Services nini ozali na yango na Congo? Peuple wana ebimi
+  po opposition (la vraie et non ya Internet) nde ebimisi bango. Wapi ba soldats na
+  yo? Wapi 5e colonne na yo? Na ba analystes na bino ya \u00ab fufu na matembele \u00bb
+  oyo bakomi ba portes paroles na bino. Tokoyeba kala mingi te loboko oyo ezali kotinda
+  bino.\\nF\u00e9licitations Congomikili, pour votre professionnalisme surtout quand
+  il s\u2019agit des sujets s\u00e9rieux vous mettez les personnes qui savent s\u2019exprimer,
+  rien avoir avec la couleur de la personne ! Nous en avons marre des fameux animateurs
+  qui du d\u00e9but a la fin font beaucoup plus les \u00ab mabanga \u00bb au lieu
+  d\u2019entrer tout droit dans le vif du sujet! Ils s\u2019appellent tous journalistes
+  pendant qu\u2019ils s\u2019expriment a peine dans la langue de Moli\u00e8re! Je
+  ne suis pas l\u00e0 pour d\u00e9fendre le Fran\u00e7ais mais je suis l\u00e0 entrain
+  de parler du professionnalisme ! Il a des crit\u00e8res pour occuper certaines fonctions!
+  Coup de chapeau pour la nouvelle \u00e9quipe Congomikili !\\nMes freres congolais
+  la position des USA a ete deja anoncee hier par Mr Russ Feingold (representant du
+  Grand Lac) C/f Congosynthese.com\\nLe reste ne concerne que les opposants congolais
+  s\u2019ils veulent chasser Kabila\\nTshisekedi doit regagner Kinshasa pour motiver
+  les revolutionaires a chasser Kabila. Pour Tshisekedi c la seule occasion pour lui
+  d\u2019accomplir son reve d\u2019etre president du congo\\nLa communite international
+  ne va pas assister les congolais car la revolution est une affaire interne\u2026.ils
+  ne font pas parler pcq ils ne savent pas qui va remplacer Joseph Kabila pour proteger
+  leur interets.\\nPour stopper le sang au congo les generaux congolais qui protegent
+  Kabila doivent lui que il est mainteant impossible de proteger sa vie et qu\u2019il
+  doit aller en exile..!!!!!!!!! comme le General Mayele avait dit a Mobutu et aussi
+  les generaux du Bourkina Fasso ont dit a Blaise!!!!! et en Egypt\"", "\"OKANISAKA
+  ete Mokolo ya Kosambisama ekozala ndenge nini? Bato mingi bakanisaka ete na mokolo
+  yango bato bamiliare na bamiliare bakobanda koleka mokomoko liboso ya kiti ya bokonzi
+  ya Nzambe mpo na kosambisama. Nsima na yango, basusu bakok\u0254ta na paladiso na
+  likol\u00f3, kasi bakokatela basusu etumbu ya minyoko libela na libela. Nzokande,
+  Biblia elobeli mokolo yango ndenge wana te. Elobi te ete ezali ntango moko ya ns\u0254m\u0254,
+  kasi nde ntango moko ya elikya mpe ya kozongisa makambo ndenge ezalak\u00e1 na ebandeli.\\nNa
+  Emoniseli 20:11, 12, tozali kot\u00e1nga ndenge ntoma Yoane alobeli Mokolo ya Kosambisama:
+  \u201cNamonaki kiti moko monene ya bokonzi ya mp\u025bmb\u025b mpe moto oyo afandaki
+  likol\u00f3 na yango. Mabel\u00e9 mpe likol\u00f3 ekimaki na liboso na ye, mpe esika
+  ezwamaki te mpo na yango. Mpe namonaki bakufi, bato minene n\u00e1 bato mike, bat\u025bl\u025bmi
+  liboso ya kiti yango ya bokonzi, mpe barulo efungwamaki. Kasi rulo mosusu efungwamaki;
+  ezali rulo ya bomoi. Mpe bakufi basambisamaki na makambo oyo ekomam\u00e1 na kati
+  ya barulo yango engebene misala na bango.\u201d Zuzi nani balobeli awa?\\nYehova
+  Nzambe nde Zuzi oyo aleki bazuzi nyonso. Atako bongo, apesi mokumba yango ya kosambisa
+  na moto mosusu. Na kotalela Misala 17:31, ntoma Paulo alobaki ete Nzambe \u201catye
+  mokolo moko oyo akani kosambisa na boyengebene mabel\u00e9 oyo efandami na nzela
+  ya moto moko oyo ye aponi.\u201d Zuzi yango oyo ye aponi ezali Yesu Klisto, oyo
+  asekwi. (Yoane 5:22) Bongo, Mokolo ya Kosambisama ekobanda ntango nini? Ekoumela
+  ntango boni?\\nMokanda ya Emoniseli emonisi ete Mokolo ya Kosambisama ekobanda nsima
+  ya etumba ya Armagedona, ntango ebongiseli ya Satana awa na mabel\u00e9 ekobebisama
+  ny\u025b\u025b. * (Emoniseli 16:14, 16; 19:19\u201320:3) Nsima ya Armagedona, Satana
+  n\u00e1 bademo na ye bakokangama na kati ya libulu moko mozindo mbula nk\u00f3to.
+  Na boumeli ya bambula wana, ba 144 000 bakozala bazuzi mpe bakoyangela \u201celongo
+  na Klisto mbula nk\u00f3to moko,\u201d kuna na likol\u00f3. (Emoniseli 14:1-3; 20:1-4;
+  Baloma 8:17) Mokolo ya Kosambisama ezali te mokolo oyo makambo ekosalema nokinoki
+  na boumeli ya mokolo moko mpamba. Ekoumela nde mbula nk\u00f3to mobimba.\\nNa boumeli
+  ya mbula nk\u00f3to yango, Yesu Klisto \u2018akosambisa bato ya bomoi mpe bakufi.\u2019
+  (2 Timote 4:1) \u201cBato ya bomoi\u201d ekozala \u201cebele ya bato\u201d oyo bakobika
+  na Armagedona. (Emoniseli 7:9-17) Ntoma Yoane amonaki mpe \u2018bakufi bat\u025bl\u025bmi
+  liboso ya kiti ya bokonzi\u2019 mpo na kosambisama. Ndenge Yesu Klisto alakaki,
+  \u2018baoyo bazali na kati ya malita ya kokanisama bakoyoka mongongo [na ye] mpe
+  bakobima\u2019 na lisekwa. (Yoane 5:28, 29; Misala 24:15) Bango nyonso bakosambisama
+  na makambo nini?\\nNa emonaneli oyo ntoma Yoane amonaki, alobi ete \u201cbarulo
+  efungwamaki,\u201d mpe \u201cbakufi basambisamaki na makambo oyo ekomam\u00e1 na
+  kati ya barulo yango engebene misala na bango.\u201d (Emoniseli 20:12) Barulo yango
+  ezali nde babuku oyo ezali na makambo oyo bato basalaki kala? Te, bato bakosambisama
+  te na makambo oyo basalaki na bomoi oyo bazalaki na yango liboso b\u00e1kufa. Ndenge
+  nini toyebi yango? Biblia elobi ete: \u201cMoto oyo akufi alongwe na ngambo ya lisumu
+  na ye.\u201d (Baloma 6:7) Na maloba mosusu, baoyo bakosekwa bakozala na likambo
+  te. Na yango, barulo wana esengeli nde komonisa makambo mosusu oyo Nzambe akos\u025bnga
+  bato. Mpo baoyo bakobika na Armagedona mpe baoyo bakosekwa b\u00e1tikala na bomoi
+  libela na libela, ekos\u025bnga b\u00e1tosa mibeko ya Yehova, bakisa mpe makambo
+  ya sika oyo Yehova akoyebisa na boumeli ya mbula nk\u00f3to yango. Na ndenge yango,
+  bato bakosambisama nde na makambo oyo bakosala na boumeli ya Mokolo ya Kosambisama.\\nNa
+  mokolo yango, bamiliare ya bato bakozwa mpo na mbala ya liboso libaku ya koyekola
+  mokano ya Nzambe mpe kotosa yango. Elingi koloba ete mosala moko monene mpenza ya
+  koteya bato ekosalema. Ya solo mpenza, \u201cbafandi ya mol\u0254\u0301ng\u0254\u0301
+  bakoyekola boyengebene.\u201d (Yisaya 26:9) Atako bongo, bato nyonso te nde bakondima
+  kotosa mokano ya Nzambe. Yisaya 26:10 elobi ete: \u201c[Atako] moto mabe amonisami
+  boboto, akoyekola boyengebene te; kati na mokili ya sembo, akosalaka na mobulu,
+  akomona nkembo ya [Yehova] te.\u201d Bato mabe yango bakobomama mpo na libela na
+  Mokolo ya Kosambisama.\u2014Yisaya 65:20.\\nBato oyo bakok\u00f3ma kino na nsuka
+  ya mokolo yango \u2018bakozonga na bomoi\u2019 mpenza, bakok\u00f3ma bato ya kokoka.
+  (Emoniseli 20:5) Na ndenge yango, na Mokolo ya Kosambisama, bato bakozonga na ezaleli
+  ya kokoka ndenge ezalaki na ebandeli. (1 Bakolinti 15:24-28) Na nsima, bakomekama
+  mpo na mbala ya nsuka. Satana akobimisama na bol\u0254k\u0254 mpe bakotikela ye
+  nzela ameka kobungisa bato nzela mpo na mbala ya nsuka. (Emoniseli 20:3, 7-10) Elaka
+  oyo ya Biblia ekokokisama na mobimba epai ya baoyo bakoboya kolanda Satana: \u201cBayengebene
+  bakosangola mokili mpe bakofanda wana libela.\u201d (Nzembo 37:29) \u0190\u025b,
+  Mokolo ya Kosambisama ekozala mpenza likambo ya malamu mpo na bato nyonso ya sembo!\\n^
+  par. 1 Mpo na Armagedona, tos\u025bngi yo ot\u00e1nga buku \u00c9tude perspicace
+  des \u00c9critures, Volimi 1, na nkasa 1073-1074 n\u00e1 Volimi 2, na nkasa 63-64;
+  mpe mokapo 20 ya buku T\u00f3sambela Nzambe kaka moko ya solo, nyonso mibale ebimisami
+  na Batatoli ya Yehova.\"", "\"Monsieur Kilele (opposant) demande \u00e0 la premi\u00e8re
+  dame congolaise, Olive Lembe Kabila de justifier au peuple congolais, l\u2019argent
+  qu\u2019elle utilise pour ses actions. Sans commentaire, suivez les observations
+  de Monsieur Kilele dans l\u2019\u00e9mission Lokole Plus de notre correspondant
+  en Afrique du Sud, Fiston Pelende \u201cTata ya Jobourg\u201d.\\nRDCongo Infos expert
+  en exclusivit\u00e9 toujours cl\u00e9 boa !\\nYo zoba banda nanu ko benga bobyladawa
+  aya ko justifie mbongo akima nango na maroc.zoba maman olive lembe kabila ba evrais
+  azi sala pona bien yaba congolais .yo nani oya koyebisaye a se justifie espece de
+  tshisekedi ba zoba kanga munoko nayo wana\\nNa comprendre bien lisolo oyo,soki pona
+  ngai il faut justice pona congolais nioso.Mais ba actions oyo ezosalema kk na congo
+  et puis ba ben\u00e9ficiare sont des congolais,namoni penza mabe te.\\nKanambe ayaki
+  na ba sapato ya mbula tomonaki biso nionso mpe sima ya ba annee mine akomo chef
+  de l\u2019etat aza mpe Rwandais bazui bongo wana wapi batika mboka na biso kimia
+  ye Olivie soki abali Rwandais akende na Rwanda batika koniokola peuple\\n:ka\\nBINO
+  BATO OYO TOZALI KOBENGA BANGO BA COMBATUFI.BOLINGA BOLINGA TE,MOKILI EZALI KOSEKA
+  BINO.MOSALA NA BINO KK MAFINGA NA MAFINGA\\nBOKOZUA NINI?.YO OKOFINGA MAMAN OLIVE
+  KABILA QUE DUMBA BONGO, MWASI OYO AZALI NA NDAKO NAYO,AZALI NANI?\\nTALA BA LUKUTA
+  NA BINO MOTU ATA MOKO TE ADIMAKA BINO.ATA MIDELE\\nBAMONAKA BINO BATO MOKO YA PAMBA.MAMAN
+  OLIVE KABILA, MOKILI\\nMOBIBA BAYEBI YE BIEN BIEN QUE MAMAN OLIVE AUTI NA FAMILI
+  MOKO YA BIEN.YE AZANGAKI NINI? PO ASALA KIDUMBA.AYEI KOKUTANA NA MOBALI NAYE JKK,21ANS,MOBALI
+  NAYE JKK AZALAKI NA 24ANS.PE YANGO WANA BA\\nZALI KOKOZA CONGO,EZALI KOKENDE LIBOSO
+  PO NA YANGO BISO BA CONGOLAIS NIONSO TOYEBI. KOINA OYO BINO BOZALI KOINA BANA WANA.PO
+  NA CONGO YA LELO TOLINGI BA KOKO LISUSU TE, NETI NGWANDA NETI, KOKO NA BINO TSHISEKEDI,TOBOYI
+  BISO TOLINGI MIBALI YA BA JEUNE.NA BASI YA BA JEUNE.BAKOKO LISUSU TEOOOOOOOO.\\ngets:
+  :con\\nLOKOLA LE RAIS JKK, AKOZALA TII NA 2030 MAIS BINO NIONSO BOSILA\\nKODAYA
+  NDAYA. PE TSHISEKEDI APESI BINO ATA POUVOIR TE MAWA TROP\\nBOTIKA KOINA NA MITEMA
+  LIKUNDU.\\nfused:\\nNDUMBA OLIVE AZA NA MUANA MOKO YA MUASI OYO AYAKI NAYE NA LIBALA
+  NA KABILA(?) BA BOTI MUANA MOKO YA MOBALI ATI MOBALI NA YE CAMARADE YA KABILA KOMBO
+  NA YE N1ARA BUNIA\\nYO OLOBI OLIVE AKOLA NA FAMILLE RICHE OYEBI TE KE BALOKOTAKI
+  YE EPAYI Mr. OYO AWUTI KOKUFA NA BXL SOKI OYEBI LIKAMBO TE TUNA BAYEBISA YO\\nNDUMBA
+  OLIVE AZALAKI MUASI YA CAMARADE YA KABILA AYA NA MUANA MOKO YA MUASI BISO TOZALI
+  PONA YA TSHITSHI TE OZALI PONA CONGO MOISE KATUMBI AZO YA 2016 BOKOPAKATA MBANGU
+  COMBAT EZA PONA MUTU TE EZA PONA CONGO SOKI MUTU AZA SALA MOSALA MALAMU TOKO NDIMA
+  YE ZOBA YA KABILA NA NDUMBA OLIVE = 0 N.B ARTICLE 220\\nokoleka bulu bulu ya makila.motema
+  ezali\\nkosua okoyoka go na molimo yooo. etula\\nmoko boye mitanga soyi ya demulu
+  ya tribalisme eyebani.\\n:amaz\\nATA OKOMI NA BAKOMBO 100 TOYEBI YO KK YO DEMULU
+  MOSENZI XXXXX SOYI. UND ASCHLOCH.\\ned:\\nRWANDAIS DE VERDADE XXXXX SOYI\\nKOKO
+  DIAZABA\\nme mrs oyo aza na raison pcq biso ba congolais il faux toyeba soki azua
+  mbongo wana ndenge nini soki pe toyebi patrimoine eza bien mbongo oyo ye akabaka
+  bongo kabila aza na combienzoe aza na combien jeanet aza na combien na mboka lokola
+  congooyo ba ecole mosusu ezanga ba kiti na ecole mboka ezanga electricite oyo bazo
+  sala eza folie eza mbongo ya peuple congolais, congolais fongola miso. eza argent
+  salle.\\nDONC, BINO TANGO Mme OLIVE LEMBE ALOBAKA BOYOKAKA TE? ALOBAKI TRES BIEN
+  QUE MAMA SESE ANTOINETTE YE EZALAKI MBOGO YA GOUVERNEMENT BA ZALAKA KO PESA YE,
+  MAIS YE EZALI BA ONG NA YE, PO ALOBAKI DEVANT MUNDELE ASALAKA NA YE, ATA BA DEMARCHES
+  ADMINISTRATIVE L\u2019ETAT EZALAKA KOSALA MIKANDA A TEMP TE. DONC NA TANGO AKEDENKI
+  POTO BA PESSAKA YE ATA SECOND MAIN NETI BA MBETU YA HOPITAL, SI BOZALAKA KOSEK AYE?
+  LELO YEWANA MISALA EZMONANA.\\nBOTIKA MITEMA LIKUNDU\\ncesard ngadi okomi ko decevoir
+  batu ebele ,, ce monsieur c\u2019est un jaloux ,, obandaki musala malamu ekomi ko
+  beba , kilele salite ya papa\\nTIKA CESAR NGADI CALME AZALI LE SEUL OYO A CONVAICRE
+  MUTU TOUT COTE KI JOURNALISME,AZALI EGLISE AU MILIEU YA BA VILLE MIKE NETI YA KABEYA
+  KAMWANGA OU KATAKO KOMBE,CESAR NGADI AZALI LE SEUL JOURNALISTE CREDIBLE\\nJE CONFIRME
+  LA MEDIOCRITE DE JOSEPHISTE APRES AVOIR LU TOUS LES COMMENTAIRES, JE SUIS CONFIANT
+  QU\u2019ILS SONT PLUS MEDIOCRES QUE LES MOBUTISTES. QUELQU\u2019UN QUI AIME SON
+  PAYS N\u2019AURA JAMAIS LE KILOS DE CONTREDIRE CE MONSIEUR.\\nTALA 32 ANS YA MOBUTU
+  NA SOKI 10 AN SYA KABILA DIFFERENCE EZA TE??MAMAN OLIVE SOKI AYIBI MBONGO ET QUE
+  A UTILISER MBONGO WANA NA CONGO JE LE DIS CHAPEAU MAMAN OLIVE,CAR PSPMBI VILLE NA
+  NICE OU NA RODE TE,OTONGI NA CONGO VOILA UN VRAI MUYIBI.\\nMR KILELE TIKA BA BLAGUES,
+  YO OZALI SAVANT,MALHEUREUSEMENT LES SAVANTS N\u2019APPRECIENT PERSONNES VOILA LEUR
+  FAIBLESSE, TANDISQUE OLIVE KABILA AZALI PEDAGOGUE.NDEKO NE CROYEZ PAS QUE SOKI YO
+  OYEBI BA MISUSU BAYEBI TEE, OYO OLOBI EZALI POINT DE VU NAYO PE BA COMMENTAIRES
+  OSALI PAR LA PAROLE TOZELA YANGO APRES UNE ANNEE , DEUX ANS ETC\u2026 JUSQU\u2019AU
+  MOMENT OU CELA VA SE REFLETER AU PARROIT YONGO PAR LE PROCESSUS DE CHOC EN RETOUR
+  EKOZONGELA YO EN REACTION, SOIT EN BIEN SOKI OLOBAKI YA SOLO OU EN MAL SOKI OZALAKI
+  KOBUKA LOKUTA NDENGE BOMESANA. APRES CELA NDE OKOCOMPRENDRE PHILOSOPHIE YA JESUS,
+  LORSQU\u2019IL DISAIT NE JUGER POINT, CAR DE LA MANNIERE OU VOUS JUGER ON VOUS JUGERA
+  ET DE LA MANNIERE OU VOUS MESURER OU VOUS MESURERA.\\nOYO PE SOKI KILELE SALITE
+  BOYE AWUTI WAPI , AZO LOBA CONTRE KABILA, AAA BA COMBAMATAKU MAWA , MEME OYO PE
+  MUTU AKOKI KOZALA OPPOSANT, MAI CONGO EBONGA DENGE NINI , MUTU MOKO SALITE BOYE
+  , ZOBA MOKO BOYE , AAAAAA SAUTER MAMA OLIVE SALE PEDE, VIEUX PEDE FATIGUE\\nQUE
+  VIVA OPERATION ENLEVEMENT\\nOSALI RESUME YA BIEN PO NA DISCOURS NA YE. BA CONGOLAIS
+  BA LINGAKA BA PRESIDENT OYO BASALAKA MAKELELE SANS MISALA EMONANA. J.KABILA AZALI
+  MUTU YA KIMIA MAIS TRAVAIL EZO MONANA. DU FAITES QUE J.KABILA ALAKISAKA MINU PAMBA
+  PAMBA TE, ET DU FAIT QUE AZALI SERIEUX NA MUSALA NA YE, LOKOLA PE LELO NA BA AMERICAINS
+  BA TOMBOKELI KAGAME, EKOMELI BANGO NGAI NGAI, KAKA BATU OYO NDE BA SALAKA NA BA
+  M23, MOYEN BA SUWA OR NETI KALA EKOMI PASI, PE M23 EKOMI NA NZELA DE SORTIE, BAKOMI
+  KO LOBA N\u2019IMPORTE QUOI. MAIS BATU OYO BASALA NINI NA CONGO? TOTIKALA JAMAIS
+  KOYOKA BANGO, KAKA LELO? HAAAA\u2026 TOLEMBI, BA PREUVES PE EZALAKA TE\\nLES POLITICIENS,
+  MR KILELE\\nMR KILELE, VOUS DITES BIEN QUE KABILA A ETE ACCUSER DE VOLER LES MINERAIS,
+  MAIS BATU BA FUNDI KABILA BAZALI BA NANI? MAIS BAZALI KAKA LES MEMES MINDELE,PE
+  BAYIBAKA NA BA MBOKA NIONSO. NA EST KUNA LES COMPAGNIES OYO BAZO SALA KUNA NA BA
+  MINES, EZALI BA NANI? SI KAKA MINDELE. ET ALORS SOKI MUKOLO MBOKA ASALI NDEGE MINDELE
+  BAZO YIBA BISO MABE EZALI WAPI???\\nLES POLITICIENS SONT TOUS PAREILS. AUCUN POLITICIEN
+  DONNERA A MANGER A LA POPULATION TOUT ENTIERE. MAMAN OLIVE A BIEN DIT QUE L\u2019ETAT
+  NE L\u2019A PAS AIDER. DONC, ELLE A UNE FONDATION QUI L\u2019AIDE A FAIRE SON TRAVAIL?
+  OU EST LE MAL? NOUS SOMMES FATIGUER A ECOUTER VOS DISCOURS SANS PREUVE.\\nNDEKO
+  NIOTA\\nKIEKIEKIEKI,TYPE OYO NA NKOMBO YA KILELE OKOZALA OPPOSANT ETERNEL ET COMBATTANT
+  JUSQU\u2019A LA MORT. SOKI AZONGI NA KINSHASA AKOZALA LAPIDER PAR LES KINOIS. POURQUOI
+  IL A FUIT LE PAYS?? CE SONT LES GENS QUI VIVENT EN CITANT LE NOM DE JOSEPH KABILA,
+  LE NOM DE JKK EST DEVENU LEUR SALUT. POUR SURVIVRE ENTANT QUE POLICIENS KOMBO YA
+  JKK. SOKI BAZANGI BA PAPIERS KOMBO YA JKK. JOSEPH KABILA OKOMA BENEDICTION NA BANGOO
+  COMME ILS SONT LES IRRESPOSABLES POUR LA PLUPART.. NDEKO NIOTA KOMITUNGISA TEE BALINGALAPHONES
+  EBELLE BAZALI LOKOLA BA SAUVAGES KIEKIEKIEEEE\\nQUE VIVA OPERATION ENLEVEMENT\\nEYOKANIIIIIIIIIIIIIIIIIIIIIIIIIII,
+  BAKOMI KOLELA NA MUNOKO YA MBUKA\\nAULIEU YA KOLOBA LOBA, BASALA PE MISALA NA CONGO?
+  BASALISA ATA BA DEPLACER YA BA GUERRE NA CONGO, PO BALAKISA KI PATRIOTISME NA BANGO\\nMAIS
+  OKOMONA QUE MUSALA NA BANGO KAKA KO MBUDELA BA POSTES NA 2016, OYO NIONSO BAZO SALA
+  EZALI KAKA PO BAYEBANA, COMME CA BAKENDE KO ZUA BA POSTES YA KI DEPUTE, GOUVERNEUR
+  ETC\u2026.MAIS LOBI LOBI OKOMONA BAKOSALA ELOKO TE. BA POLITICIENS YA MABUMU TOZA
+  BA ZAIROIS LISUSU TE, TOKOMA BA VRAI CONGOLAIS DE LUMUMBA, TO BOYI LOKUTA TOLINGI
+  TOMONA MISALA NA CONGO, KI GUNDA BOZUWA NA KOMBO YA KABILA EKOZALA NA\\nSIGNIFICATION
+  LISUSU TE, PO NA 2016 KABILA AKOZALA TE, TOKOMONA ELOKO BA KOLOBA LISUSU\\nSONI
+  NA KIMOYIBI NDE EZO SALA BINO\\nMr KILELE ALOBI BIEN PE BA VERITE YANGO KIMOYI NA
+  BINO BATU YA KANAMBUA KABANGE BOKOTI KA TE? BOYI NA BA VOTE NA MBONGO YA L\u2019ETAT
+  BA TUNA BINO TE VERITE ESUAKA SOKI OYEBI LIKAMBO TOLINGI ORDRE NA CONGO TOBOYI KI
+  FLATERI\\nARTICLE 220 LOI CONSTUTITION CONGO R.D\\nBOTONGO BA NDAKU PE BOKABA TONDIMA
+  BINO SANS BOYIBA MBONGO YA L\u2019ETAT R.D.V 2016\\nRWANDAIS DE VERDADE\\nEZALI
+  SONI MINGI PO NA OPPOSITION, BOSHAB AKOMI NAYE LIVRE COMME UN CHERCHEUR SCIENTIFIQUE,MBALA
+  MOKO BOKOMI KOLELA LELA PE KO INVENTER LOKUTA COMME D\u2019HABITUDE AUX YEUX DU
+  MONDE ENTIER,BOKOMI KO LENGA LENGA NETI BATU YA MABOMA EPOURTANT MUTU MOKO TE ATIKALA
+  KO PROPOSER CHANGEMENT YA CONSTITUTION SONI\\nMAIS LELO SOKI MWANA YA LIAU ABIMISI
+  PE LIVRE SUR LA CONSTITUTION BOLOBI ELOKO MOKO TE\\nNA YOKAKI NA CHAINE MOKO YA
+  RADIO BA POLITICIEN FRANCAIS BAZO KAMWA REACTIONS YA BA OPPOSANTS CONGOLAIS, BALOBI
+  POURQUOI REAGIR A UN TRAVAIL FAIT POUR LE BIEN DU PAYS? ET PUIS POURQUOI ACCUSER
+  UN PROFESSEUR LIBRE DE SA PENSEE?\\nBOMONI NDEGE BOKOMA BA BOLOLE BOYEBI BIEN LELO\\nQUE
+  FRANCOIS HOLLANDE AZANZA BINO BA OPPOSANTS CONGOLAIS, BOKOMAKI MIKANDA YA LOKUTA,
+  NA BA PREFECTURE YA BA FRANCAIS KOFUNDA KABILA\\nLELO FRANCOIS HOLLANDE A DECOUVRIR
+  QUI BOLOLE NA BINO NA OBAMA AKENDEKI KO DECOUVRIR VERITE YA CONGO NA TANZANIE, BASANZI
+  BINO PARTOUT BO SUKI NA NZUNGU OYO BOZALAKI KO LAMBELA LOKUTA EKOMI KO KALINGA BINO
+  MOKO\\nKILELE! BINONDE BOZOBOMA BA NDEKO NABISO NA L\u2019EST TOYEBI YANGO BIEN,
+  BANZELANABINO YAMABE, NZAMBE ASI A BLOKAKI YANGO. EPUIS BOZOLINGATE RDC EKENDE LIBOSO.
+  BOZA YAKODINDA TOMONAKI BATU YA M23 BALEKAKI EPAI YA CESAR NGADI BALOBAKI QUE, M23
+  EZA YA BA CONGOLAIS. DONC BOKOSELAKA LE RAIS MAKAMBO.\\nBANDA TSHISEKEDI ALALISAKI
+  BINO PONGI YA BABEBE BOKOLAMUKA MUKOLO NINI? BISO LE RAIS ASI ALAMUSAKI BISO NA
+  PONGI YA MOBUTISME.\\nNB: PONABINO BOKANISI LE RAIS AKOBANGABINO? BOKEBA NA AVC
+  BOKO KUFAPAMBA BOZOMELA PEMA\\nPROF LUK!\\nOYO NDE OKOZWA AVC PONA KALA TE REVOLUTION
+  EZALI KOYA. OLIVE EST NEE D\u2019UNE FAMILLE PAUVRE, MBONGO WANA AZWI WAPI?\\nGOBLE\\nAZALI
+  NA ONG NA YE. YO PE SOKI OLINGI OKOKI PE KOSALA ONG NA YO. MAIS YA MAMA OLIVE TALA
+  KAKA, SUREMENT KAKA BATU YA MINENE NA MONDE NDE BASALISAKA YE. PUISQUE YE MOKO ALOBAKI
+  DEVANT MUNDELE WANA ASALAKA NA YE QUE NA MOMENT MOKO MISALA ELALAKI PARCEQUE DEMARCHE
+  YA PAMBA YA MIKANDA L\u2019ETAT CONGOLAIS ASALISAKI YE TE, PE ALOBAKI QUE MAMA SESE
+  ANTOINETTE YE L\u2019ETAT NDE EPESAKA BA MBONGO PONA KO TONGA. BOTIKA BILOBA LOBA,
+  EBONGO SOKI EZALAKI YA L\u2019ETAT MABE EZALI WAPI, PUISQUE C\u2019EST LA POPULATION
+  QUI EN PROFITE?\\nBANDEKO TO COMPRENDRE YE NDENGE MAMAN OLIVE APESI FAMILLE NAYETE,
+  ESALIYE PASI NDE AYOKI LIKUNIA NABANDEKO BAZUI BA NDAKU YASIKA. BAZELA MUASI YA
+  TSHISEKEDI NABANGO SOKI ATONGISI BANDAKU AKOPESABANGO BOBANGATE.\\nngakaks\\nPROF
+  LUK!\\nSite oyo ya C\u00e9sar Ngadi ekoma nayango \u201ckota bima\u201d c\u00e0d.
+  du n\u00b4importe quoi!Sous pr\u00e9texte de la \u201cd\u00e9mocratie\u201d, il
+  n\u00b4y a aucun tri dans l\u00b4exploitation et la diffusion de l\u00b4information.
+  Ce Site n\u00b4est plus cr\u00e9dible.C\u00b4est du n\u00b4importe quoi maintenant
+  et n\u00b4importe qui peut passer. Je ne sais pas si c\u00b4est l\u00b4argent qui
+  prime chez Ngadi!Aucune d\u00e9ontologie; aucune rigueur dans sa ligne directrice.
+  Mawa trop!\\nKIMUENGA\\nMAIS C\u2019EST CA LA DEMOCRATIE NON? UN DEMOCRATE NE TRIE
+  PAS, IL DONNE LA CHANCE A CHACUN DE S\u2019EXPRIMER; APRES LES GENS SONT LIBRE D\u2019APPRECIER
+  OU NE PAS APPRECIER.\\nCompatriote Niota,\\nSi c\u00b4est cela la \u201cd\u00e9mocratie\u201d,\u00e0
+  quoi servirait qu\u00b4une \u00e9dition journalistique ait une ligne de direction
+  dans sa gestion quotidienne? Ne confondons pas \u201d D\u00e9mocratie\u201d et \u201cLibertinage!\u201d.
+  Aussi, n\u00b4exploitons pas fallacieusement le terme \u201d D\u00e9mocratie\u201d
+  pour balancer aux internautes du n\u00b4importe quoi ou encore se faire malhonn\u00eatement
+  de l\u00b4argent sous couvert de ce terme! N\u00b4oublions pas que la presse a non
+  seulement le r\u00f4le d\u00b4informer, de distraire , mais aussi de former c\u00e0d.
+  d\u00b4\u00e9duquer.En oubliant ce second r\u00f4le, nos Sites congolais tombent
+  pour la plupart trop bas et deviennent non seulement indignes mais tr\u00e8s rigolos!\\nJ\u00b4ai
+  toujours invit\u00e9 \u00e0 nos soit disant\u201djournalistes autoproclam\u00e9s
+  de l\u00b4internet\u201d \u00e0 se former; \u00e0 suivre une Formation pour combler
+  leurs lacunes si criantes et cultiver l\u00b4\u00e9thique professionnelle.Il n\u00b4est
+  pas encore trop tard pour apprendre surtout qu\u00b4\u00e0 l\u00b4\u00e9tranger,
+  nos pays h\u00f4tes nous offrent plusieurs opportunit\u00e9s. Mes salutations patriotiques
+  \u00e0 toi.\\nOUI,COMPATRIOTE KIMWENGA\\nJE SUIS COMPLETEMENT D\u2019ACCORD AVEC
+  CE QUE VOUS AVIEZ DIT; MAIS CELA NE MARCHE QUE DANS UN MILIEU OU LE MEDIA SERAIT
+  CONTROLER PAR UN POUVOIR DE SANCTION DES AUTORITES ADMINISTRATIVES INDEPENDANTES.\\nMAIS
+  DU FAIT QUE LA PLUS PART SONT DES INDEPENDANTS VIVANT A L\u2019ETRANGER, ET QU\u2019ILS
+  ONT DES FRAIS A COUVRIR LE TRAVAIL; PEUT ETRE QUE C\u2019EST L\u2019UNE DES RAISONS
+  POUR LAQUELLE ILS FONT PASSE TOUT LE MONDE!! COMME NOUS AVONS MAINTENANT LA FIBRE
+  OPTIQUE AU CONGO, PEUT ETRE QU\u2019A L\u2019AVENIR CERTAINS SITES SERONT SANCTIONNER
+  AU PAYS. OUI, C\u2019EST VRAI QUE LA PRESSE A UN ROLE TRES IMPORTANT A JOUER DANS
+  LA SOCIETE; SURTOUT D\u2019EDUQUER LA MASSE CONGOLAISE QUI EST EN DECLIN SUR TOUT
+  LES PLANS DEPUIS LES ANNEES 1980: A COMMENCER PAR LES MOEURS,L\u2019EDUCATION,ET
+  LE SAVOIR VIVRE. MERCI, MES SALUTATION PATRIOTIQUES\\nKIMBUENGA , MAWA PO NA YO
+  TU PRETEND CONNAITRE NZOKA OYEBI ELOKO TE NA MEDIA . EST CE QUE YO OLANDI INTERVIEW
+  EBANDELI TI SUKA , OU BIEN OZO COMMENTE PAR RAPPORT YA TITRE . KOKAMUA\\nVRAIMENT
+  NA FINGAKATE MAIS LELO BOTIKA NAFINGA.\\nKILELE! XXXXXX YA MAMAN NAYO, XXXXX YA
+  PAPA NAYO,TUFI NAYO, OZANGI KINDOKITE. YE BISABISO OYO MAMAN OLIVE ASALI NA KATI
+  YA MBOKA NABISO MABE EZA WAPI?\\nBONGO SOKI ASALAKANGO LIBANDA YAMBOKA OLINGAKI
+  KOLOBA NINI?\\nNA NDIMITE QUE, OZA MAYELE OYO OSALI EZA KI BOLOLE.\\nBA BOLOLE NDE
+  BAKOKUMISAYO KASI BATU YAMAYELE BAMONIYO VRAIS XXXXXX. NALOBI BOYE FANDA KIMIA KANISA,
+  MABE NINI MAMAN OLIVE ASALI? BOTEYAMI EKOMIKOSUABINO PO NATANGO YA MOBUTISME BOSALA
+  YANGOTE. MAMAN OLIVE ASALAKI INTERVIEW NDENGE NINI AZUILAKI BAMBONGO ASALELAKI MISALA.
+  BOYOKAKA PE SONI BATU OYO APESI BANDAKU BAZA BANDEKONABISO, SIKOYO MABE EZA WAPI?
+  BOKO KUFA NA STRESS. BOZOKO TEYAMA NA MISALA EZO SALEMA NA RDC.\\nPONA MAMAN OLIVE
+  NA LE RAIS 99% 100% EZA NZAMBE. PONA BINO BA NDOKI YA CONGO RDC, BOMATA BOKITA NZAMBE
+  AKO COMFONDRE BINO.\\nPROF LUK!\\nVoila qu\u2019encore une fois je suis rejoint
+  par Mr Kilele. Les detournements et la malversation financiere ne peuvent jamais
+  etre masques par une quelconque oeuvre de bienfaisance. Cette dame s\u2019est subjugue
+  en ministere des affaires sociales pour son propre marketing politique. Malheureusement
+  pour elle que pour l\u2019intelligentsia congolaise, il s\u2019agit tout simplement
+  de la mascarade et de la poudre aux yeux des faibles. Les patrimoines de l\u2019Etat
+  ne peuvent faire objet d\u2019une quelconque spoliation pour des dividendes politiques
+  personnelles\\n\u201cVoila [qu\u2019encore] une fois [je suis rejoint] par Mr Kilele.\u201d\\nVOILA,
+  UNE FOIS ENCORE MR KILELE QUI VIENT ME REJOINDRE/QUI ME REJOINT!\\nKOKO DIAZOMBO\\nKOKO
+  DIAZOMBO\\nBA COMBATUFI SANS IDEOLOGIE , BOKANISI CONGOLAIS YA 2013 AZALI ZAIROIS
+  YA 1982\\nLES JALOUX , VONT MAIGRIRES TOMBANDI NAYO KILELE SALA SORCIER\\nBRAVO
+  MAMAN OLIVE LE DIEU DE NOS ANCETRES TE BENISSE TE GARDE ET TE PROTEGE MAMAN YA BANA
+  EBELE MOTEMA YA BO MAMAN\\nPONA MAMA OLIVE NAZA NAKONDIMA REPONSE EZA KAKA NA MUNOKO
+  OYO AKOPESA BANGO KIEKIEKIE BAMIYIBI YA MPR OYO BAKOMI PE KOTUNA BATU BINO NANI
+  ATUNAKA BINO TANGU TOZOLOBA DEMOCRATIE EZALI BOTIAKA TEMBE BOLANDA EMISSION YA MAMA
+  OLIVE TE NA CHAISE BLANCHE MAKAMBU NYONSO ALOBAKA BOKANISI AZA NA MAKANISI TE INTERVIEW
+  NAYE ALOBA NYONSO\\n@@@ DEMBO\\nOZA NGULU OKUMISI MAMA OLIVE EBONGO MAMA NA YO ATONGA
+  NINI?\\nMUTU AZA JALOU NA YE TE VERITE NDE MUTU EZO SALA BINO BONGO LOKOLA BOMESANA
+  KOYIBA TI NA BA VOTE YANGO WANA EZA MABE TE KO KABA MAIS EWUTI WAPI? XXXXX OLIVE
+  AKIMA LIBALA AKENDA KOMIKOTISA EPAYI YA KANAMBUA PO AYIBAKA MBONGO YA L\u2019ETAT
+  ATONGI 120 AKABI 20 EBONGO 100 EBONGO SOCIAL ETONGI COMBIEN?\\nYO NA MONI OVANDAKA
+  NA KITEKIMOSI TO NA ENKORO OZA MUTU YA NIARA RWANDA N.B TOZA NA SYSTEME YA ARTICLE
+  220 LOI YA CONSTUTITION YA R.D.C KOBOSANA TE R.D.V. 2016\\nTOKOTALA SOKI XXXXX OLIVE
+  AKOTONGA BA NDAKU PE AKABOLI\\nELONGI EZALI KOLAKISA MOTEMA NAYE\\nBA MOBUTISTE
+  BAYA KO SE JUSTIFIER BA MBONGO BAYIBA BASALA NA YANGO NINI\\nTSHISEKEDI AYE BISA
+  NA BA PEUPLE YA DIASPORAT ASALA NINI NA BA MBONGO YA IMMPERIUM\\nFELLIX AZO SOMBA
+  BA NDAKU NA CANADA AZO ZUA MBONGO WAPIIII ?????\\nBA NINGA BA CONGOLAIS SVP SOKI
+  TOLINGI VRAIMENT CONGO EKENDE LIBOSO TOSENGELI KOTIKA KI FANATISME TOUT EN ACCEPTANT
+  TOUT. BIEN QUE JE SUIS SOUVENT CONTRE BA IDEES YA BA COMBATTANTS MAIS SUR CE SUJET
+  YA MAMAN OLIVE ILS ONT RAISONS MAMAN OLIVE IL FAUT A JUSTIFIER ESIKA OYO AZWAKA
+  BA MBONGO PONA KOSALA MISALA EBELE BOYE NA PLACE YA GOUVERNEMENT. IL FAUT NDE GOUVERNEMENT
+  ATONGA BA NDAKU BA ECOLES BA HOPITAUX ECT\u2026 CAR DIT-ON LES HOMMES PASSENT MAIS
+  LES INSTITUTIONS RESTENT. AVEC FANATISME AVEUGLE TOKO PREGRESSER JAMAIS BA NDEKO
+  JAMAIS\\n@@@ ONU BRITANIQUE OZA\\nMUANA MAYELE. MUANA MAYELE AYOKAKA OSOLOLI NDEKO
+  BA COLLABO BAZO SALA KI FANATISME VERITE BAYEBI YANGO TE PE BAZA BA NGULU LOKOLA
+  TATA NA BANGO KABILA\\nONU BRITANIQUE VOTRE COMMENTAIRE EST MAGNIFIQUE.\\nONU BRITANIQUE\\nMAIS
+  A SALELI NDE MBOKA MABE EZALI WAPI? MUTU OYO AYIBAKA JAMAIS AKOLINGA BATU BA TIELELA
+  YE CAS? AKOBOMBANA NA KIMIA. BA CONGOLAIS BOKANISAKA QUE CONGO EZALI ZAIRE? NON;
+  CONGO YA LELO EZO TAMBOLA NA BA NORMES YA BA SYSTEMES YA MONDE. MBOGO OYO EZO KOTA
+  IL FAUT SATBILISATION YA BANQUE, DONC MICRO-ECONOMIQUE. C\u2019EST POU CELA TANGO
+  MBOGO EBIMAKA IL FAUT EBIMAKA NA BANQUE SELON BENEFICE BASALI. SINON STABILITE YA
+  MBOGO EKO ZALA TE, ET SANS STABILITE YA BANQUE BA INVESTISSEURS BAKO KIMA, PARCEQUE
+  MONEY EKO KWEYA NA SE MINGI, ECONOMIE EKO KWEYA. BA BUSINESS MAN BAKO KIMA CONGO.
+  UN BUDJET CE PREPARE, NDEGE MINDELE BA SALAKA. BOKANISA TE QUE, PO BA MINERAIS EZO
+  TEKAMA ELINGI KOLOBA QUE BA FUTAKA PE CASH MBALA MOKO; NON. DES FOIS BA FUTAKA MALEMBE
+  MALEMBE, TI BAKO SILISA KO FUTA. ECONOMIE YA MBOKA ETAMBOLAKA TE NETI YA TANGO YA
+  ZAIRE, VOILA POURQUOI LA MONNAIE ZAIROISE EKUFAKA. BOTANGAKA PE BOYOKELAKA NDEGE
+  BA ECONOMOISTES BA EXPLICAKA MAKAMBO.\\nBOKOMI LISUSUS KO LANDA VIEUX OYO YA SATANIST.
+  DONC EZO SALA YE PASI NDENGE BA NDEKO NA BISO YAZO PROFITER NA MBONGO NA BANGO MOKO.
+  POURQUOI OSALAKA BA EMISSION TE PONA BATO YA MOBUTU BILOKO BA YIBA NA MBOKA.\\nBA
+  NDAKO OYO OZO LOBELA. OYEBI COMBIEN ECOUTAKA TERRAIN VIDE NA N\u2019ZELE? OLINGI
+  O COMPARER YANGO NA MINDELE? O MONI COMPLEXE. OTIAKA MAKELELE TROP MAIS O SOPI LISUSU
+  BOULE. SOKI MONDELE AKABAKA TE , OLINGI PE MAMAN OLIVE AKABA TE? AZA MWASI YA PRESIDENT
+  QUAND MEME. ATA MAMAN BOBIE TIE LELE AZWAKA MBONGO YA COUVERNEMENT BOTELEMELAKA
+  YANGO TE POURQUOI.\\nSATANISTE YA TATA OYO TIKA KO DISTRAIRE BISO BA CONGOLAIS.\\n@@@
+  TARZAN\\nZONGA ZAMBA OMESANA KOVANDA NA BA NIAMA OYOKI TE TANGO ALOBI NA BATU YA
+  MOBUTU? PONA NINI BATU NIONSO YA KABILA BAZA BA ZOBA LOKOLA YE MOKO KABILA Mr KILELE
+  ALOBI VERITE NA NIONSO LO KOLA BA COLLABO BAZA MAYELE TE YANGO WANA N.B ARTICLE
+  220 LOI DE CONSTUTITION R.D V 2016 FIN D\u2019HISTOIR C.P.I\\n:\\npo na biso esala
+  biso ata pasi te.bokoma na bino ndenge bolingi, tozali kutu na bisengo po na maman
+  olive kabila po na congo na biso\\nkasi bino botika nde kidoki neti ya( boby la
+  dawa) na ngwanda.\\nthumbdown\\nVERITE ESALAKA PASI SOKI OYEBI LIKAMBO BOKOMI LOKOLA
+  MPUKU BASOPELI MAYI PONA KAKA Mr KILELE ALOBI VERITE AZA MUTU YA U.D.P.S TE AZA
+  CONGOLAIS NA CONGO BATU YA MAYELE BAZALI EBELEEEEEEE TOKOMI KOBIMISA BANGO PO BUZOBA
+  YA KABILA EKOMI KOLEKA ATA AKABI BA NDAKU KISALU KIA MPAMBA .TRABALHO A TOWA\\nMAIS
+  TOZALI NA SYSTEME YA ARTICLE 220 LOI YA CONSTUTITION\\nWANA EZA PRISE TOKANGI BONI
+  R.D.V KAKA 2016 FIN D\u2019HISTOIR C.P.I\\n@@@KABILA RWANDAIS\u2026.\\nKAKA NDENGE
+  OLOBI NDEKO NA NGAYI KANAMBE FAUX KABILA AZALI ATA NA 1/10eme YA MAYELE YA NDEKO
+  KILELE TE. KAKA BA ZOBA YA BA COLLABOS NA BAPAYA OYO BAKOTAKA AWA NDE BA COMPPRENAKA
+  MAKAMBU TE PO BAZALI BAZOBA LOKOLA YE MOKO KANAMBE.\\nYO TATA OYO KELE NAZALI KOTUNA
+  YO MBONGO OYO MUBUTU AZALAKI,\\nKOYIBA ASALAKI NA YANGO NINI? OMOMNI OLAKISI KIDOKI
+  NAYO.TUNA\\nNGWANDA OYO AZALAKI KO MASSACRE BATU NA TANGO YA ZAIRE MBONGO\\nOYO
+  AZALAKI KOYIBA ATIA YANGO WAPI,ASALA NINI.SOKI MAMA OLIVE ATONGELI BA CONGO\\nBA
+  NDAKO MABE EZALI WAPI. PO YO OZALI NA MOTEMA YA LIKUNIA. YO OZALI KOMANA PASI KUNA
+  NA AFRIQUE DU SUD.KASI BINO NIONSO\\nNA CONGO BATU BAZALI NA VIE NA BANGO YA BIEN.TANGO
+  NA BINO ESIELEKA.\\nYO TUNA (BOBY LA DAWA)ALIA) MAJAFU KABAMBI)MBONGO YA CONGO OYO\\nYE
+  AKEDA NA YANGO NA AFRIQUE DU SUD PE ALINGI KOZONGISA NA CONGO TE AZALI KOSALA NA
+  YANGO NINI? TALA YO TATA OYO KANGA MUNOKO NAYO TANGO OYO BOBATAKA KOLONBA NA BISO,
+  BOKOLIANA ESILA.TIKA MAMAN OLIVE KABILA ASALISA BA YA CONGO.EZALI MOSALA NAYE PO
+  BAZALI BANA NAYE.OYOKI YO MONAKA KAKA BA PASI,\\nNAYO KUNA. TIKA BISO TOZALA NA
+  BISENGO NA BISO NA CONGO NA BISO.\\nBONGO MBONGO OYO MAMAN ATOINETTE ABANDAKI KOSALELA
+  MBONGO\\nYANGO EUTAKI WAPI? TALA YO TIKA MAKELELE OZALI NA DOKI NETI\\nNGWANDA.\\ntype
+  oyo aza ndoki azanga moto ya udps te ya tshisekedi quel raisonnement\\nARTICLE 220
+  LOI DE LA CONSTUTITION DU CONGO R.D\\nR.D.V 2016\\nTOKO NDIMA SOKI BOTONGI BA NDAKU
+  PU BOKABI SANS KOYIBA MBONGO YA L\u2019ETAT\\nBAYEKOLAKA KO KABA NA KI RICHE TE
+  TO NA BO MUASI YA MOKONZI TE NDUMBA OLIVE AKABA ATA BIC TE NA VIE NA YE .LOKOLA
+  BAKOMI KOYIBA MBONGO YA L\u2019ETAT NDE AKOMI KOKABA PE ATONGO 120 NDAKU AKABI 20
+  EBONGO 100?\\nRAPEL. Mr. JEROME CAUZAC MINITRE YA FINANCE NA FRANCE . EBONGO NDUMBA
+  YA OLIVE AZA ATA NA MESA NA GAMBELA TE SOKI EZALAKI MBONGO YA O.N.G. BA KOMAKA CITE
+  OLIVE FINANCEE PAR O.N.G. TEL LOKOLA F.M.I EPESI MBONGO PO BA NZELA ETONGAMA NA
+  CONGO BOKOLOBA KE KABILA ATONGI BA NZELA?\\nODIA SAIBA\\nTOOOOOOOOOOOOOOOOLEEEEEEEEEEEEEEEEEKAAAAAAAAAAAAAAAAAAAA
+  MAMA. SASA BANGO, FAMILLE MUBUTU EZALI WANA, NANI AMEKAKA KOTUNA BANGO MBOGO YA
+  CONGO EKENDA WAPI? TSHISEKEDI PE ASALAKI NA MOBUTU TRES LONGTEMPS, BATUNA YE MBOGO
+  YA ZAIRE EZALI WAPI? KAKA KO MONELA J.KK NA MAMA OLIVE? ET POURTANT MISALA EZO MONANA;
+  HAAAAAAA\\nCONGOLAIS NA POLITIQUE NA YE YA KI MANDIANT. ODIA SASA BANGO\\nAKO SE
+  JUSTIFIER DEVANT NANI PE PONA NINI ?\\nSOKI MUTU ASALI BOLAMU IL FAUT LISUSU A SE
+  JUSTIFIER ?\\nKI COMBAFUNI EKOMISAKA BATU LOKOLA BATU YA MABOMA VRAIMENT.\\nYO NAMONI
+  OFANDI NA HOLLANDE KUNA SANS OZWA MAYELE KOKANISA TE SOKI OLIE FROMAGE GOUDA LIBUMU
+  ETONDI EZALI MABELE NA YO YEKOLA NDE LOBI OKOZONGA NA MBOKA NAYO.\\nCONGO YA LOBI
+  TOLINGI ORDRE AVEC MENTALITE YA PROPRE ET PATRIOTISME SANS BUZOBA.\\n@@@ MUANA YA
+  OKINA YO PENZA OZALI NGULU LOKOLA KAKA NDEKO NA YO KABIKA\\nOLOBI AKO JUSTIFIE EPAYI
+  YA NANI? DONC CONGO YANGO EKOMI KAKA FULU MUTU NIONSO AKOKI KOSALA BUZOBA NDENGE
+  ALINGI\\nBINO BA OYO BAZALI KO TEKA MBOKA OZALI ZOBA PE NGULU. NA KIZENGI LOKOLA
+  KABILA AZO BOMA MBOKA PE LELO F.A.R.D.C AZO ZALA TRAHIR PAR KABILA YO OZOMONA YANGO
+  BIEN? NDUMBA YA OLIVE ASALAKA TE AZUI MBONGO WAPI? AWA NA FRANCE Mr JEROM CAUZAC
+  BALANDELI MBONGO NA YE NA BANQUE YA SUISE EBONGO NDUMBA OYO YA OLIVE BATUNA YE TE
+  YE NANI? MODERNISATION YANGO NA KIMOYIBI? NA LOKUTA\\nMERCI Mr KILELE OSOLALI LOKOLA
+  Mr OBAMA DONC SOKI NA CONGO TOZALI NA BATU LOKOLA YO ATA 30 MAIS CONGO ELEKI ATA
+  BA PAYS MINGI YA MOKILI NA KITOKO CONGOLAIS AZA MUTU YA LOYENGE SOKI OYEBISI YE
+  VERITE AMONI LOKOLA OFINGI YE\\nBA ZOBA YA BA COLLABO BAKOZALA CONTRE MAKAMBO OZALI
+  KOLOBA MAIS YO OZALI CLAIR PE OZALI NA LIGNE DONC NAMONI MUTU AKOBOYA BA IDEE NA
+  YO TE . BA ZOBA YA BA COLLABO BOMONI BATU BAKO TRAVAILLE NA 2016? TOZALI NA POSA
+  YA BATU YA BOYE ZOBA YA KANAMBE AZALI NA BA IDEE YA BIEN BOYE? ALORS BOBANDA KOKANGAKA
+  BILOKO NA BINO PO BINO MOKO BOZO MONA KE NIVEAUX YA MAKAMBO OYO BOKOKOKATE BOZUA
+  Mr KILELE NA ZOBA ZOBA YA ZAKARI BO JUGE SOKI NANI BAKOZUA YE NA SOCIETE AHAAAAA
+  ZAKARI ABIMI VRAI ZOBA SANGO NA YO? EPANZANIEEEEEEEEEEEEEEEEE\\nBA COLLABO BA KOTI
+  MADUSU SOKI BA YOKI BA VERITE DONC SOKI OBOYI BA IDEE YA Mr KILELE OZA VRAI RWANDAIS
+  PO BA RWANDAIS BAZALAKA MAYELE TE LOKOLA ZOBA YA KANAMBE BO MONI VRAI CONGOLAIS?
+  UN VRAI PATRIOTE N\u2019EST TRAHIR PAS SA NATION\u2026 INGETA INGETA INGETA\\nOyo
+  maman mobutu abandaki kosala nani atunaki ye apesa justification Ngai nako preferer
+  ata aza koyiba mais aza kozongisela yango na peuple eza bien Eza neti tshisekedi
+  te abandaki koboma batu na public na pont Kambi na compte ya mpr pona kobangisa
+  peuple na dictature ya masta na ye mobutu Maman Olive continuer na yo ko aider peuple
+  congolais\\n@@@ BANDAL OYE OZALI VRAI ZOBA LOKOLA NDEKO NAYO KABILA\\nMBOKA ETONGAMAKA
+  NA KOKABA TE ETONGAMAKA NA MOSALA WANA EZALI SONI NDE MUTU EZO SALA BINO PO ALOBI
+  BA VERITE TOZALI NA TANGO YA KOKABA TE TOLINGI MISALA UN VRAI PECHER AKABELAKA MUTU
+  MBISI TE AKOLAKISA YO KO PECHE PO LOBI OSENGA YE TE ATA BILL GATE . ATA Mm OBAMA
+  ATA Mm SEGOLENE ROYAL. ATA.ATA.ATA.ATA.ATA WANA EZALI FLATERI NA DISTRACTION BOBIMI
+  NA MPUASA BA KOKO 10 NGUMA ASANZI BINO WOOOOOOOOOOOOOO BATU BA GANGI EEEEEEEEEEEEE\\n:\\nATA
+  BOFINGI LE RAIS ATA BOSALI NDENGE NINi,\\nCONGO EZALI KOKENDE KAKA LIBOSO.BINO BOTIKALA
+  SIMA.\\nELOKO MOSUSU TE, KK KOLELALELA.ELINGI KOLOBA NINI? LE\\nRAIS JKK AYOKELA
+  BINO MAWA TO NINI? BINO TE AKOYOKELA DE PEUPLES CONGOLAIS MAWA.BINO BATU YA UDPS
+  YA\\nTSHISEKEDI,BOZALI DE BAKUNA YA BA PEUPLES CONGOLAIS.\\nhammer:\\nNA AKABELA
+  BA CONGOLAIS MAPANGU NA ATIA YANGO NACOMPTE PRIVE \u2026 KILELE OPONI NINI ??\\nBANDA
+  KOBONGISA NANU POSO NA MANDEFU NA YO\\nOTUNA NGDANGA MBONGO BAYIBA BASALA NA YANGO
+  NINI ????\\nELONGI NAYO DEJA EZO LAKISA OZALI NDOKI\\nCESAR NGADI TALA BILOKO IL
+  FAUT OTIELA BANA RDCONGO NASEPELI TROP KOMONA UN VRAI PATRIOTE AVEC ANALYSE MOKO
+  YA MOTUYA. IL FAUT KOMEMELA BISO BATU YA BOYE QUE KOYELA BISO BA MEDIOCRES LOKOLA
+  ZACHARIE NA BA PAPY TAMBA.\\nNDEKO KILELE FELICITATIONS YA TROP. NZAMBE APESA YO
+  MAKASI O CONTINUER KOYELA BISO BA ANALYSES YA BOYE.\\n@@@ MULUBA WA KABAMBA\\nOMONI
+  BATU BAKO TRAVAILLE NA 2016 BANG\u2019OYO TOZALI NA BANGO EBELE NA CONGO MAIS NGULU
+  OYO NA KOMBO YA KABILA SOKI AWUTA WAPI? ATA MUTU MOKO TE ABIMA KE TOTANGA NA YE
+  SUKA YA BURU NDENGE BA PORTUGUE BALOBA BACOLLABO BABATAMI BAKO MELA PEMA TOKO YUNGULA
+  BANGO BA VERITE\\nSANGO YA ZOBA ZOBA YA ZAKARI EPANZANIEEEEEEE OLOBELAKA KOFFI LELO
+  OYOKI Mr KILELE TRE SAGE BAMEMAKA MUTU YA MAKELELE NA BOKILA TE NOKI BA NIAMA BA
+  KOYA KOKIMA\"", "\"Kalev Mutond, mokambi ya kala ya ANR na Alexis Thambwe Mwamba,
+  mokambi ya S\u00e9nat oyo azalaki ministre ya kala ya mambi ma Bosembo bafundamaki
+  na moyi Amerika Darryl Lewis.\\nCour supr\u00eame eboyaki kozwa mokano na bosenga
+  ya bakonzi mboka mpo likambo lizali kati moyi Darryl Lewis na Kalev Mutond na Thambwe
+  Mwamba.\\nDarryl Lewis asalaka kala na bokengeli Mo\u00efse Katumbi, opposant.\\nMoyi
+  Amerika Lewis akangamaka mpe anyokwamaki na kofundama na kosala mosala na kobuka
+  mokibo ya RDC.\\nYambo, tribunal ya disctrict ya Washington D.C. eboyaki bofundami
+  yango na kotalaka immunit\u00e9 to bobatelami ya MM. Kalev na Thambwe. Kasi cour
+  d\u2019appel ya D.C. epesaki nzela,\\nBakonzi ba tribunal ya disctrict (ya Washington
+  D.C) Etats-Unis bakebisaki ete yango ekobebisa bolamu bwa mboka songolo mpe ekotia
+  na likama bayi Amerika na kolandelama na ba tribunaux ya mboka misusu.\\nKasi Cour
+  supr\u00e8me eboyi koloba eloko moko, yango epesi nzela ete MM. Thambwe Mwamba na
+  Kalev Mutond bakoka kosambisama ntango tribunal ekobenga bango na Etats-Unis.\"",
+  "\"L\u2019amie de la femme de Babia Ndonga qui \u00e9tait avec lui \u00e0 la morgue
+  t\u00e9moigne depuis Luanda\u2026Suivez\\nNon et non, monsieur le soi \u2013 disant
+  \u201cjournaliste, je ne suis pas du tout de votre avis, votre conclusion est malhonnete.
+  Liwa na Babia eza Nzambe ts\u00e8, s\u2019il vous plait ne racontez pas de conneries
+  sur notre Dieu qui ne souhaite que notre bonheur.\\nMonsieur le journaliste oza
+  menteur ya suka, na mobali oyo aza zolo lokola tintin aza escroc , muasi soit disant
+  amie ya muasi ya babia aza tia mutu ba kata ya Luanda, azo loba lokuta makambo nyonso
+  azo loba kaka lokuta , tout ekokani te na makambo muasi ya Babia alobi na video,
+  muasi ya Babia alobi azalaki louer ya ye ndako, tia mutu bakata oyo aye na lokuta,
+  bino tout journaliste, papa oyo ya tintin oyo minu kaka nde ezo monana po muindu
+  eleki lokola charbon, na muasi oyo soit disante amie ya muasi ya Babia tia mutu
+  bakata boza ba escrocs\"", "\"un commentaire vient d''\u00eatre post\u00e9 par Seli
+  Wata sur l''article Henri Katalay se souvient de St. Jean,\\nSeli Wata Homme de
+  la Mer, vieux bal na tangu wana soki obengi ye Seli Wata ye akozongisa Homme de
+  la Mer - allusion faite a Mamie Wata, Seli c''est la version lingala de Cheri -,
+  na vieux\\nmususu\\nazalaki kofanda na Bukama vers avenue Mushie, Papa Baudouin,
+  kombo na ye ezalaki na yango Baudouin te, ezalaki nde surnom, balobi mokolo Roi
+  Baudouin ayaki na Congo na 1955, alors balekaki na\\nnzela\\nya mabele, rue Bukama
+  na Commune ya Saint Jean, tangu bakomi liboso ya lopangu ya vieux Baudouin, voiture
+  ya Roi etelemi, mpe Roi Baudouin akiti na voiture akoti na lopangu ya Papa oyo,
+  atali\\nndenge nini lopangu ezali, ndaku na kati, Roi abaluki na sima ya ndaku atali
+  Kikoso, Wc etc... Roi apesi Papa Nkolo lopangu mbote, akoti na voiture mpe akeyi
+  na ye. Na sima wana Papa na biso\\nsur\\nrue Bukama, azwa kombo ya Baudouin en souvenir
+  du Roi des Belges, na 1960 tangu President Kasa-vubu azalaki koleka na voiture na
+  rue Bukama, akomi lisusu na liboso ya lopango ya Papa Baudouin\\natelemi, kasi Vieux
+  Kasam akitaki na voiture te, nde Papa Baudouin motu ayaki kopesa ye mbote na bala-bala,
+  tellement Papa Baudouin akomaki populaire na Saint Jean, lokola biso tozalaki bana\\nmike,\\ntozalaki
+  kokanisa Roi Baudouin ezali nde ye Papa na biso oyo.\\nSeli Wata\"", "\"C\u2019
+  est tr\u00e8s triste, un double meurtre vient de se passer dans la ville de Ziegen
+  en Allemagne, un congolais vient de tuer sa femme et se suicider. Le tout aurait
+  \u00e9t\u00e9 caus\u00e9 par des querelles \u00e0 cause du site de r\u00e9seau social
+  facebook. Congomikili.com va vous donner plus de d\u00e9tails en video dans les
+  heures qui viennent. C\u2019 est vraiment triste\u2026En bas un reportage sur les
+  dangers de facebook, qui n\u2019 est pas \u00e0 sa premi\u00e8re victime.\\nShop
+  smart online with Shopbot\\nShopbot is a great place to search for products. If
+  you are looking for versace fragrance, versace clothing, D&G clothing, armani jeans,
+  cheap jeans, women jeans or other products like dolce vita footwear,cheap luxury
+  handbags(armani handbags,dolce and gabbana purses,christian dior handbags,wholesale
+  bags ),dolce vita shoes,dolce vita clothing, custom dress shirts,g star jeans,cambio
+  jeans , versace jeans, you can sell gold jewelry on shopbot , or buy gold jewelry,
+  even sell your scrap gold. No need to go to antwerp diamonds to get cash for diamonds
+  , At shopbot you can find trusted diamonds buyer or diamonds seller. You can also
+  find cheapest car finance, cheapest car loan,cheap cars for sale ,used car websites
+  ,inexpensive new cars,used car listings,cheap sports cars, and all best car prices.\\nNouvelles
+  videos des filles sur Congomikili-love.com\\n1,012 Commentaires\\n@ CONGO MIKILI\u2026,
+  EZA NGA MOKO NDE NAKOMI BA MESSAGE YANGO, NALINGAKI KAKA NA TALA SOKI BOZA VRAIMENT
+  JUSTE ENVERS BAS INTERNAUTES NIONSO\\nTEMPETE DU DESERT, tu es vraiment le seul
+  imbecile que j ai eu a connaitre sur cette terre des hommes, comment peut tu etre
+  terre a terre jusqu a ce point?\\nespece de mal eduqu\u00e9 , toi l autre imbecile
+  de demulu, faites honte aux resident du canada, meme ces gens de paris que vous
+  avez l habitude de traiter de terre a terre, sont beaucoups mieux que vous et surtout
+  civilis\u00e9s, ils ne peuvent ecrire dans ce site, ce vous ,les deux imbeciles
+  avaient ecrit,0\\ntoi meme tu un homme tr\u00e9s sale, et tu viens parler des femmes
+  congolaises, salaud, rentre a kin ,pour que tes p\u00e2rents reprennent ton educasion
+  de base qu ils ont rat\u00e9, boteyami ba zobas ya mibali\\ntempete du desert,osukolaki
+  lelo pcq tu puuuuuuuu avant d\u2019\u00e9crire sur internet prends le temps de prendre
+  une douche okokimisa batu oyo bazali ko koma na cite oyo solo eleki yo na nzoto
+  ba ordinateur na biso elingi e kufa a cause de tes odeurs.soki ozangi gel de douche
+  kende kosenga naison de renaissance c\u2019est gratuit et prends le temps ya kozonga
+  lisusu na cite oyo te.\\nTEMPETE DU DESERT nani yango abota yo quel perte cervel
+  na yo e fonctionaka bien te.kende nanu na hypolite la fontaine po cas nayo ezali
+  serieux.ba yokelaka ngo soni te.est-ce que tes parents sont au courant de ta maladie.\\ndemulu
+  arrete de prendre le nom de prendre le nom de tempete de desert,..et changer le
+  nom en ELEMBO\\nWOW! oyo nini penza! ahhhhhhhhhhhh pasi hien. nini oyo ehhhhhhhhh\\nTempete
+  du desert ,\\nTika lokuta , yo moko oyebi ke eloko na yo esi ekufa . car visina
+  yo ya suka awa . Okoka ki elokote . Ozali impuissant \u2026\u2026, en plus na kala
+  eyebaka mpe na yo kosala te ;\\nMakelele na yo ezali relativement li\u00e9 na souci
+  yo !!!\\nOkimaka na yo , tika ba makalele na yo ya wenze !!!!\\nBjr !!!!!!!!!!!!
+  Oyo makabu ya solo ou bien lukuta ????? pona nini boye!!! koboma moninga nayo ????
+  desole .\\ntala ba raison pourkoi ebele ya basi balingaka te kota na site oyo congomikili,tala
+  ba betisses oyo Tempete du desert,na Demulu bakomi envers les femmes\u2026bozala
+  ata na respect ya ba mamans babota bino,yo Tempete du desert,tu dis que tu frequentes
+  les femmes qui sont l\u2019universite,ces femmes sont betes comme toi,cela raison
+  pour la quelle qu\u2019elles te frequentent,comme on dit \u201cdit moi qui sont
+  tes amis je te dirais qui tu es\u201dtu es bete comme ces femmes que tu frequentes\\nTempete
+  du desert azali impuissant ya mobali , eloko na ye esi ekufaaaaaaaaaaaaaaaaaaaaaaaaaaaa!!!!!!!!!!!!!!!!\\nNa
+  visite na ye ya suka awa na France . Akimaka mwasi na masolo ya kati !\\nEzali nde
+  souci mutu ezali kolobisa YE !\\nSoki olingi , na kobenga ye moko aya kopesa ba
+  detail nyioso .\\nEn plus na vie na ye , nanu atikalaka kopesa mwasi ORGASME TE
+  .\\nAzali kimpiatu ou kiboba vraiment ya mobali ! Ako kaka eloko te mawaaaaaaaaaaaaaaaaaaaaaaaa
+  !!!\\nELEMBO,pardont mingi DEMULU oyo azali kokoma na PSEUDO na ngai azali DEMULU
+  YA MALUBA,ezali TE DEMULU OYO BINO BOYEBI OYO OKOMAKA BA VERIT\u00c9,WANA AZALI
+  FAUT DEMULU MAIS YA MUKONGO TE MUTANDU MUDERI,abombani nasima ya pseudo na ngai
+  po asambuisa ngai,ngai LE VRAI DEMULU NALOBA NA congo mikili nakokoma lisusu awa
+  te naboyi KOMISUMUKA NATIKELI BAKINZENGI BAKUAKULAKA NDENGE BALINGI NA SITE OYO,DONCdemulu
+  OYO BOMONI OYO AZALI KOKOMA AWA AZALI OYO ALIKA MBUA NA FUFU YA MASANGO DONC MOLEYI
+  YA MBUA,ATIKALA NA KOMBO WANA,BANDEKO NA NGAI YA BDD NA YA BAS-CONGO EZALI NGAI
+  TE LE VRis demulu oyo bino boyebi ezali un kata mbokatie moleyi ya ba mbua donc
+  un libata ya solo ya muluba,okomona ngai te na repondre yo kizengi alingi kosmbuisa
+  ngai yi il faurt azala MINISTRABLE OU JIGGA nde bazokasala ndenge wana il faut baluba
+  bomema bango na riviere lubilandji ou na lac mutamba po basukola bango,bokomona
+  ngai te na rapondre bino bakinzengi ya site oyo.\\nEZALI BUZOBA YABA KOKO NA BISO
+  SOKI BA BANDAKI KOKATA BASI NA BISO MABOLO LOKOLA\\nBA SOMALIEN,BA UGANDE,BA ANGOLAIN
+  NABA KENYEN MBELE BASI NA BISO BALINGAKI KOZALA NA MUA BO BANGI PONA KOLAKISA POTA
+  NA BANGO EPAYI YA MOTO MOSUSU ESALA MAKA NA NGO\\nOYO NDE ESALAMI MABE MOBALI AKUFAKA
+  TE KAKA MUASI\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026\u2026.\\nTempete
+  du desert , ozali impuissant !!!!\\nKika kokosa batu !!!\\nMAIS NIOSO NAZALI KOMONA
+  AWA OYO EKOMI SITE YABA ZOBA ALOR TINA MOKO TE YAKOKOMA AWA,congo mikili il faut
+  otalela biso likambo oyo sinote credibiliter ya site oyo ekozala lisusu te yango
+  bino baluba bakomi bato ya maboma po boyibi ke le vieux TSHITSHI akoleka te naba
+  election onini,nanubomoni te bozela bokomona,biso kaka pres KABILA 1000 ans na pouvoir
+  na rdc.\\nMAWA MINGI NA MAYE NYOSO OYO TOZO TALA NA KOYOKA. FACEBOOK EBOMA MABALA
+  YA BATO EBELE MOKILI MOBIMBA. BTO BAKOMI NA BA DOUBLE VIE. EZA SYSTEM YA \u201d
+  NYATA MABELE, MABELE MPE EKO NYATA YO\u201d. CONFIANCE NA KATI YA MABALA EZALAKA
+  LISUSU TE. SOKI O S\u2019ENGAGER NA ELOKO YEBA MPE NA CONSEQUENSE NA YANGO. OKOMONA
+  MUTU AZA KOTIYA VIE NAYE NYIOSO NE FACEBOOK. IL N YA PAS DE SECRET. NGAYI MOKO NAKANGAKI
+  MUTU MOKO EZA NA CANADA KOMBO NAYE \u201cPETER MUBYAYI THSILEMBU\u201d. APRES AYE
+  KOLONGOLA FACEEBOOK NAYE. EZA SONI MINGI. ESOKI ATIE TEMBE NA KOKI KO POSTE NA BA
+  PHOTO NAYE, NA BILOKO OYO A KOMAKI.EZA MAWA MINGI. BAZO YA EBELE NA KOMBO YA JESUS
+  CHRIST MAIS NA SIMA DIABOLOS\\n@MON PREMIER\\ntika koloba, nga nayebi PETER MUBYAYI
+  THSILEMBU tres bien,asali nini na facebook?\\nTEMPETE DU DESERT nzoka ozalaka na
+  yo impuissant mawa heeeeeee\\nYEMOKO AYEBI TUNA YE PO NA NINI A KANGAKI FACE BOOK
+  NAYE BRUSQUEMENT? KOYEBA TE EZA ELOKO MPAMBA. SOKI OLINGI OYEMBA MUTU BIEN EZA TANGO
+  AKUFI MAIS SOKI AZA KAKA NA BOMOYI AKOKI KOSALA ELOKO OYO EKO KAMWISA YO.\\nCe sont
+  ceux qui en parlent le plus qui en font le moins.\\nTr\u00e8s fort sexuellement
+  parlant, mais ZERO en pratique.\\nAucun respect pour les gens. Il faut revoir ce
+  site et mettre des r\u00e8gles de bonnes conduites. Sinon, tout le monde va fuir,
+  il ne restera que des idiots ici.\\nDEMULU OYO AZALI KOKOMA AWA EZALI NGAI TE DEMULU
+  YA MUTANDU MUNDERI,WANA EZALI LE FAUT DEMULU YA MULUBA,LOKOLA ALINGI KOMBO WANA
+  AZUA ,DEMULU OYO BINO BOMESANA KOTANGA AWA AKOMAKA LISUSU TE NA SITE OYO,YO LE FAUT
+  DEMULU TIKALA NAKOMBO NABINO YA BALUBA PO OTIE BUSOTO NA BOSOTO NA PSEUDO NA NGAI,KUTU
+  NA KO REPONDRE YOTE NABOYI KOSUMUKA NA MOTO LOKOLAYO.\\nvraiment ezali pasi pona
+  biso ba congolais ezali meme pas likambo ya facebook na kati wana biso bato tozalaka
+  nabango awa na ALLEMAGNE ezali ba lone histoire facebook etambala moko te ebimisi
+  probleme na couple oyo il faut etre bien informer au lieu de dire de n\u2019importe
+  quoi pardon botika ko evanter ba masolo eteyabino\\nBonjour Congomikili,je compati
+  d\u2019abord \u00e0 la douleur de tous les congolais en g\u00e9n\u00e9rale et aux
+  deux familles des illustres disparus en particulier.\\nensuite, je suis actuellement
+  entrain de pr\u00e9parer un expos\u00e9 sur ce r\u00e9seau sociale qui est facebook.
+  J\u2019aimerai avoir si possible les d\u00e9tails de ce triste \u00e9v\u00e9nement
+  qui serait pour un exemple concret du mauvais cot\u00e9 de facebook. Merci\\n@@@congo
+  mikili bolinga koyeba vrai source ya histoire oyo po batu ya germany bazoloba le
+  contraire ya tritre na bino FACEBOOK,yango wana bazoba misusu bazo finga basi gratuitement
+  kk boye\\n\u201cJUSQU\u2019\u00c0 CE QUE LA MORT NOUS S\u00c9PARE\u201d\u2026\\nSerment
+  ya mariage ezali jusqu\u2019\u00e0 LA MORT.DIVORCE ezalaka te devant Dieu.\\nMort
+  naturelle peut-\u00eatre mais pas comme \u00e7a quand-m\u00eame !\\nIl est parfois
+  souhaitable de divorcer que de mourir de cette mani\u00e8re.\\nALERTE GENERALE RDC
+  ALERTE GENERALE RDC ALERTE GENERAL RDC ALERTE BANA YA CONGO KABILA AFUTI DEFAO MBONGO
+  PO ASALA (temoignage )KE KABILA AZALAKA PETIT BITINDA YA DEFAO CONGOMIKILI TABUISA
+  MESSAGE OYO PO DEFAO AZOLINGA AKITA KIN PO ASALA TEMOIGNEGE OYO BOFUNGOLA MISO BANA
+  YA CONGO\\napr\u00e9s avoir lu tous les commentaires je vois que la guerre de sexe
+  est ouvert, mais cela ne sert a rien.pour moi si cet histoire est vrai , cet homme
+  est un lache ,au lieu d\u2019affronter ces probl\u00e8mes de couple, il a pr\u00e9fer\u00e8
+  tuer sa femme et se donner la mort et leurs enfants dans l\u2019histoire , ils sont
+  devenus des orphelins pour rien, ce vraiment triste\\npardon ba ndeko bosunga ngai
+  nazo mona kaka ba photo mais video ezo fo ngwama te na fongola ya ngo ndenge nini?\\nALERTE
+  GENERAL BANA YA KIN DEFAO AZO LINGA AKITA KIN PO ASALA TEMOIGNAGE KE KABILA AZALAKA
+  PETIT BITINDA NAYE BANA YA CONGO BOFUNGOLA MISO CONGOMIKILI EZA MESSAGE YASOLO BOKEBA
+  BOKEBA KABILA APESI DEFAO MBONGO PO ASALA TEMOIGNAGE KE KABILA AZALAKA PETIT BITINDA
+  YA DEFAO ALERTE ELERTE\\nIL FAUT SAVOIR QUE IL YA AUSSI LA SORCELERIE SUR CE SITE
+  LES GENS COMME DEMULU, TEMPETE DU DESERT, NDJOLI,B.C.B.G,AINSI QUE LES AUTRES BA
+  PUMBUAKA NA BUTU VOILA POURQUOI ILS N\u2019ONT PAS DE RESPECT ENVER LES AUTRES BOLANDA
+  BANGO TE BA ZA NA BA ENVOUTEMENT TOTAL.\\nest ce que histoire oyo eza vraie ou faux
+  soki eza faux bongo bibembe wana eza nini\\ntempete soki lisolo oyo eza vraie te
+  donc oza na projet ya kosala yango mikolo oyo soki ba couples ba bomani toko suspecter
+  yo\\nfranchement prk tozala na buzoba boye ;yo demulu batou bakufi mai yo esengo
+  nayo;bon soki nafingi yo nabimi zoba epa nayo;mai eloko moko nakoyebisayo nga nakotaka
+  na sites oyo pona kotala makambu ya mboka;en plus bana mikie misusu pe bakotaka
+  ;donk fo koyeba koloba ndeko;toluka tokende liboso mai tozonga sima te merci.OZA
+  MUKOLO ETEYA YO?\\na toi,VERITE MOSUSU DE L ALEMAGNE,partout n europe,social e aideka,ou
+  est le probleme? MAKAMBO YO OSALI AWA NA LEVERKUSEN OYEBI BIEN YANGO;KOFUNDA BA
+  FEMMES SEULES;BATU BAZA NA BA FAUX ABONNEMENTS;EBELE QUOI,yo kanisi lokola ofundaka
+  batu okokoma alemand mundele,rancunier,kokosela batu makumbu,nga naza muana muasi
+  nafandi 10 ans na leverkusen,nanu na mona mobali zololo neti yo te,opesaka batu
+  mbote te,ko critique batu pamba pamba, il parait okomi na ngambu ya belgique,tokolanda
+  yo ti kuna.il faut o change,tika surtout kokosa\u2026esilite\\nBANDEKO TOZA NA MATANGA,BOTIKA
+  BILOBELA MOBALI ABOTA NA NDEKO YA MWASI NAYE MWASI YANGO AZA NAMOBALI NANDAKU BANDA
+  WANA MATATA EBANDA,BOTIKA BIKOMAKOMA BOBENGA BISO NA @GERMANY PONA KOZUA BA INFO
+  ETEYABINO MIBALI YA MITEMA MABE LIKUNDU.\\nvraiment c est triste pour ce couple!!!!mais
+  ce qui est encore regrettable c est la fa\u00e7on dont certaines personnes s\u2019expriment
+  du style Temp\u00eate du d\u00e9sert,c est un manque de respect pour les victimes
+  d\u00e9j\u00e0 et pour leur entourage et toi tu en rajoutes vraiment c est mawable!!!!!\\nezali
+  makambu ya facebook te makambu ezali ebele en plus bazali ba congolais te bazali
+  ba angolais elekaki na tele ba lobi bien ke ba angolais botika biyoka yoka\\nS.v.P\\n.
+  CONGO MIKILI BOLUKAKA INFORMATIONS NA SOURCES CREDIBLES;NGAI NA VANDAKA NA BANGO
+  NA VILLE MOKO ;COUPLE WANA BAKUFELI PROBLEME YA FACE BOOK TE BAZALAKI NA BA PROBLEMES
+  NA BANGO YA MENAGE NA BANGO BANDA KALA ;MOTO NYONSO OYO AYEBI BANGO AYEBI QUE EZALI
+  MAKAMBO EBANDA KALA ; BAZALAKI BA NDEKO NA BISO BA ANGOLAIS; EZALI NA RIEN A VOIR
+  NA MAKAMBO YA FACE BOOK BOMEKA KO RECTIFIER TITRE NA BINO\\nbenanga boyaeeeeee,
+  oyo ligambo yakokamuaaa, mwasi tshoko,mobali tschoko basuki na liwa.\\ndonc babanda
+  cours de pouvoir banda kala!\\nna bolingo cours ezalaka bien te; bolingo eza pe
+  casino te mais la comprehansion et la tolerence esalaka bien.\\nna couple il faut
+  kozala na strategie la matiti, soki mopepe eye mikitisa, soki mopepe eleki nde otelemi
+  c-a-d soki moko amati moko akita si non moko akopikolama lokola nzete contre la
+  tempete.\\nvoila le resulta eteya biso.\\nbiso ba congolais toza penza ba vrais
+  ndoki kaka na fin d\u2019ann\u00e9e ata jalousie yango tssssssssssssssssss\\nnazo
+  comprendre te baweyi na biso ba se querellaki pona ba photos ya batu na facebook?to
+  v\u00e9ritable cause eza ailleurs.\\nnatangaki commentaire ya molly te.nazwi r\u00e9ponse
+  mais curiosit\u00e9 nanga esili te.sikoyo bakufi nabango,probl\u00e8me nini ememi
+  bango ti naliwa?\\nallo,congomikili nani apesi bino information oyo?soki bowebi
+  te il faux kotuna na sources po titre na bino mutu eluki paulemiques ya buzoba,
+  batu misusu bazokoma awa lokola bana 2ans.\\ncongomikili merci bcp pona info oyo
+  na europe mobimba ezakaka canada na france na belgique na Allmagne ba fille ya kuna
+  ki ndumba moko baza na yango suka bango nde bazoyokisa ba congolaise soni yango
+  wana ba fille ya congolaise bo change bokobanda kokufa kaka boye tata oyo pe aza
+  kaka zoba pe lembele soki esimbi te tikanayo au lieu okufa pona muasi na ndimi te
+  eza facebook eza mabe te soki muasi eza na facebook azande sage eza facebook te
+  mutu ebomiye eza jealousie muasi asalaki ki ndumba bakangaki ye na mobali mususu
+  yango wana ekomi ti na liwa bakangiye na mobali na mbetu wana version a kiadi, noko
+  a di\u00e9, atiki biso totikala na biso ko kota ba momies ba vaces na ba bloco,\\nbasi
+  na biso ya bandundu baqzalaka na vrai MABOLOS ,sukali pe elengi, probleme kaka po
+  bazalaka na ba kinsiodi ya mike lokola ya bana ya 2 ans, cot\u00e9 wana na reconnaitre
+  ba momie ya baluba bazalaka na vrai kinsiodi ya minene pe milayi, ata akangi makolo
+  mais ezomonana. nga nalela kinsiodi ya basi ya baluba, eza kitoko na kotia lolemo
+  likolo na ngo , ozobinisa yango na lolemo, mais nayebi cecret wana ya koyesa kinsiodi
+  munene, basaka kisi moko boye,momie il faut aliaka yango ,ati\u00e9 yango na poto
+  poto, eza poudre, ba momies mingi ya est baza fort na eloko wana, ba momies ya baluba,ba
+  momies ya baswahili, ya ba katangaise, mais ba momies ya oeust bangala,bakongo,na
+  bdd, bayebi penza lisolo yango te,BA MOMIE YA CONGOLAISE BALELA KOTIKA KUNZA EBELE,
+  SOKI BALATI MIKADI OKOMONA KUNZA EZOBIMA NA LIBBANDA YA MUKADI PO ELEKI EBELE, NABIMA
+  NA MOMIE MOKO YA CONGOLAISE, MAWA TROPS, JOUR NALINGAKI NA KATA YE, NA KATI YA CHAMBRE
+  ALONGOLA KAKA MUKADI BOYE, TALA ZAMBA NA LIBOLO KUNZA ETONDA, DONC NA KUNZA YA MOMIE
+  WANA BAKOKI KOSALA NA NGO BA LOKS, ELEMBISA NGA MBALA MOKO PLAN KUTU ELEMBA NGA
+  MBALA MOKO, NA FENTA MOMIE KE NABAYAKI BOK YA TROP VOILA POURQUOI PLAN EZO LEMBA.CEST
+  VRAIMENT TRISTE MAKAMBU YA BOYE\u2026.BA NDEKO NA BISO YA BASI POURQUOI KOSALA MAKAMBU
+  YA BOYE??????babali yo,boboti pe 3 BANA mais bolingi kaka kosala kindumba\u2026lisumu
+  ya muasi ewuta banda na EVE,ata olobi ndenge nini bayokaka te\\nCONSEIL NA BA NDEKO
+  NANGA MIBALI,MUASI NAYO NA NDAKU SOKI AKOMI KOSALA KINDUMBA,VAUT MIEUX BOKABUANA,PO
+  FIN DE FIN AKO ZONGELA KAKA KINDUMBA.AVANT QUE BOSUKA NA SITUATION YA BOYE,EZA BIEN
+  TE,SIKOYO BANA BATIKALI BANGO MOKO\u2026\\nba mots mingi ya sexe na lingala ewuti
+  na kikongo\\nlidesu,clitoris ya ba momie ebangamaka kinsiodi\\nlidusu ya mataku:
+  ebengamaka difuni\\nlidusu ya ba momie,ebengamaka bundu\\nba poils oyo ezalaka na
+  difuni: ebengamaka nkafu\\nba mots nionso wana ewiti na kikongo, respect na mukongo\\nmobali
+  soki obetaka mere cavula te,oza na yo mbwa ya copale.\\ntempete du desert ndeko
+  meka jour mususu kolekis lolemo na yo epoli na soyi,likolo ya difuni ya momie, heure
+  moko okamati lolemo okondisi yango ekomi mwa makasi osali neti ozolinga okotisa
+  yango na kati ya difuni ndeko okpesa sango oko marker momie na ndenge ya muke te
+  po vave ekoma na ngo populaire mikolo oyo eza nde bloco lolemu na difuni ya mere
+  avant ca oyebisi ye a laver tr\u00e9s bien anika bien na sima na savon ndeko tempete
+  sala yango omona ndenge mere eko ganga azomipikola suki ya mutu po na plaisir\\nMOMIE
+  WANA NDENGE ALALI WANA NA CERCUEIL, SOKI BABENDI YE ELEMBA, TALA FORET EQUATORIALE,
+  BA MOMIES NA BISO BALINGI KINDUMBA, NA BA NZOTO NA BANGO MAYI YA SORTE NEBELE EKOTA
+  NA KATI, BA MAYI YA BALN YA JAUNE YA MAUVE, BEURK!!YANGO NGA JAMAIS NAKOKI KOKOTA
+  MOMIE YA CONGOLAISE CAVE, WANA TOTIKELA NDJOLI, YE NDE AKOTAKA TI NA BLOCO NA SIMA,KIE
+  KIE KIE, EBIMISA YE KUTU MASEBE NA MUNOKO\\nNETI MOMIE MOKO YA CONGOLAIS NA KOTISA
+  YE NA CHAMBRE KAKA BOYE, AKITISA MUKADI, SOMO, KUNZA NA YE BAKOKI KOSALA NA NGO
+  BA LOKS\\nba momies ebele ya est ba kinsiodi(clitoris) na bango ezalaka gaillard,
+  mais na ouest lokola bayebaka yango te, systeme ya poudre na poto poto, yango basi
+  mingi ya ouest bazalaka na ba kinsiodi ya mike,ebatama,po omona yango il opanza
+  momie makolo makasi,\\nmomie oyo aza interress\u00e9 na ngo, nga na kotia ye en
+  contact na mere moko\\ndjo wana ,soki momie na ye akomaki kosala kindumba eza po
+  djo ayebaki te ndenge ya kolelisa momie na mbeto, soki azalaki kokota momie ba dernier
+  de cave, ke akamati lolemo na ye azoningisa kinsiodi ya momie, to azolekisa lolemo
+  na ye na difuni ya momie, apr\u00e9s ca abeti momie biloko oyo ekangisaka basi matoyi,
+  waya mbele baza na momie na ye te sikoyo, bino botikali, botalaka ata porno po na
+  koyekola, soki boyebi rien\\ncongo mikili molly akomi avec evidence que bazali b\u2019angolais
+  longola titre oyo okomi que ba congolais botika ko destabilise congo na ba point
+  nioso stp muzombo to mbanza kongo azali congolais te\\nki sauvage nabino y\u2019afrique
+  na basi na mibali bomemi yango ti na poto bazoba bokozonga afrique bino moko mundele
+  esi abandi ko kata ba aide\\nenfin, PAIX A LEURS AMES,respect des morts oblige de
+  se taire, au lieu de invoquer des sujet innutiles,ils ont vecu ensemble et sont
+  mort ensemble , gloire soit rendu a l\u2019ETERNEL\\nATTATION!! ATTATION ATTATION
+  BOTIKA TEMPETE DU DESERT A SOLOLA AZALI KOPESA TOLI YA BIEN PONA NINI BOZALI KOFINGA
+  YE BOMEKA LISUSU BOKOMONA MBASU YA MISAPI BONGO TOTALA ESIKA BOKO KOMELA LISUSU
+  SURTOUT BINO BASI OYO BOLINGI KO KOSA MIBALI TOUR OYO BISO MIBALI NIOSO TOKO SALELA
+  BINO BA REUNIO NGAI MOKO CHARGE YA BA IDEE BONGO BOKO MONA BOKOTEYAMA .\\noyo buzoba
+  na bosotooooooooooooooooooooooooooooo kokamwa\\nsoba soki ta rien a faire rentre
+  au vieux village de tes ancetres imbecile taureau moko bo ye,on rigole pas avec
+  la vie des autres\\nAPPUYEZ SUR ANCIENS COMMENTAIRES POUR LIRE TOUS LES COMMENTAIRES\"",
+  "\"Ndeko C.Kim,\\nAvant toute chose, nakosenga yo okende na internet kotanga biographie
+  ya No\u00ebl Tshani. Soki penza otangi yango attentivement oko percevoir ba incoh\u00e9rences
+  v\u00e9rifiables par un questionnement pr\u00e9cis. Yango nde ekopesa yo mot de
+  passe ekokokisa yo na ba perceptibles non-dits. Soki okomi wana, eko faire plonger
+  yo na kati ya \u00e9nigme Tshani. Une fois o r\u00e9soudre yango, nde ememi yo directement
+  tee na loi Pululu \u00abalias Tshiani\u00bb.\\nSika, permettre ngai na yanola yo
+  point par point.\\nC. Kim : Na lolenge Papa Kandolo obandaki na makomi nayo, ngai
+  pe nabungi awa lisusu na ndenge nabungaki na kotanga noko na ngai Mbu Mputu. Lisolo
+  oyo ezali kosila elengi tangu kombo ya batu ezali kokota pe bo bomesano, tozali
+  kolakisa kaka mosapi epayi ya mindele\\nEmmanuel Kandolo : Non ! Okokaki kobunga
+  te soki olukaki effectivement ko comprendre approche na ngai, surtout que r\u00e9action
+  na ngai nasali yango na deux \u00e9tapes. Premi\u00e8re \u00e9tape, ezali ya kolakisa
+  que Congolais nionso d\u2019origine (un parent ou deux parents) azali na chef coutumier
+  mpe atikala kozala victime ya discrimination te du fait que moko ya moboti azali
+  mopaya. Mpo na ko appuyer argumentation na ngai, yango napesi ba cas concrets wana
+  tout en restant ouvert na contradiction na oyo na avancer comme exemples.\\nDeuxi\u00e8me
+  \u00e9tape, nasepelaki kotika temps na D\u00e9put\u00e9 Nsingi Pululu alobela texte
+  oyo No\u00ebl Tshiani amemeli ye mpo akumba na Assembl\u00e9e nationale lokola proposition
+  na amendement na loi n\u00b011/003 ya 25 juin 2011 portant organisation des \u00e9lections
+  pr\u00e9sidentielle ; l\u00e9gislatives ; urbaines ; municipales et locales.\\nC.
+  Kim : Tozela d\u00e9bat na Parlement? Nayebi te eloko nini ya sika ekomemela biso.
+  Ndeko Noel na Nsingi Pululu na mobeko oyo bamemi na Parlement, balobi na biso boye.
+  Ezali na ba Congolais oyo bakoki kosala misala nionso, pe na ngambu esusu ezali
+  na ba Congolais oyo ya ndambu po na bawana, bakoki kosala na bisika mososu te.\\nEmmanuel
+  Kandolo : Rectification ! \u00abNdeko Noel na Nsingi Pululu na mobeko oyo bamemi
+  na Parlement, balobi na biso boye\u2026\u00bb. Mobeko ewutaka na libanda te mpo
+  ekota na Parlement. Ezali nde projet ya texte ya proposition na amendement ya loi
+  tango ezali kokota na Assembl\u00e9e nationale mpe sima ya toilettage, d\u00e9bats
+  na ba navettes entre ba Chambres ya Parlement, soki eleki na vote, ekozala promulguer
+  na Ordonnance pr\u00e9sidentielle en tant que loi amand\u00e9e mpe publicit\u00e9
+  na yango ekosalema na journal officiel. Otuni soki tozela d\u00e9bat na Parlement
+  selon yo ou selon ndenge ozali kokanisa que ngai nazali ko proc\u00e9der ? Ngai,
+  natikala jamais kozela quoi que ce soit na Parlement wana mpe nazelaka eloko moko
+  na yango te mpo ezali \u00e9manation ya ba paya, banguna ba Congo oyo bazali na
+  long processus ya kobotola biso mabele en complicit\u00e9 na bana mboka oyo bazali
+  kotambola na bango elongo.\\nC. Kim : Ata lelo, les Accords ya Sun City ebalusa
+  makambo mosusu, kasi soki nazongi na reference oyo epesami awa : \\\"loi n\u00b0
+  72-002 du 5 janvier 1972 ou loi n\u00b0 1981/002 du 29 juin 1981\\\" donc, debat
+  oyo ezali te na raison d''etre.\\nEmmnanuel Kandolo : Bolimbisi ! Nasalaki erreur
+  na kobeta r\u00e9f\u00e9rence ya loi oyo mpe esengelaki nakoma boye : loi n\u00b0
+  81/002 du 29 juin 1981 sur la nationalit\u00e9 za\u00efroise, oyo ezali bonne r\u00e9f\u00e9rence.\\nC.
+  Kim : Elingaki ezala malamu koloba nde boye \\\"Ezali Congolais kaka baye babotami
+  na tata pe mama Congolais\\\". Demi nationalit\u00e9 ezalaka te. Ekozala malamu
+  koyebisa batu, soki obotama na moboti moko ya \u00e9tranger ozali Congolais te.
+  Po na mibeko, Congolais nionso azali ndenge moko, boni boni mobeko ya Tshiani epekisa
+  bango kosala misala misusu.\\nEmmanuel Kandolo : Questionnement na yo ezali pertinent.
+  Kasi, contexte ezali ko permettre yango te. D\u00e9bat ekoki kosalema sous la coupe
+  ya ba paya te. Ezali par hasard te soki ba penseurs ya Sciences politiques na administratives
+  bamonaki qu\u2019un Etat ekozala fort kaka soki ind\u00e9pendance ya ba pouvoirs
+  misatu ezali ko fonctionner sans que moko e empi\u00e9ter mosusu : ex\u00e9cutif,
+  l\u00e9gislatif na judicaire. Ex\u00e9cutif, Chef de l\u2019Etat na Chef de gouvernement
+  bazali ko proposer mpe ko ex\u00e9cuter mibeko ya ekolo na lolenge na bango ya ko
+  g\u00e9rer ekolo. L\u00e9gislatif azali kosala ba lois mpo na int\u00e9r\u00eat
+  ya R.D.Congo na ba Congolais mpe judicaire ezali aux ordres ya pouvoir moko te,
+  ind\u00e9pendant mpe ezali ko interpr\u00e9ter loi mpe ko respecter proc\u00e9dure
+  judiciaire na administrative ndenge effectivement mibeko esengi.\\nKosala ndenge
+  Tshiani via Pululu bazali kosala wana, ezali kolakisa que bango mibale non seulement
+  bazali na\u00effs (peut-\u00eatre manipuler) mais bazali ko porter projet moko oyo
+  ba \u00e9tudier ba contours na yango malamu te. Facilement, ba failles wana nde
+  ezali kolakisa que na ligne de mire ezali ko viser maladroitement Katumbi.\\nFaiblesse
+  ya dispositif ya texte ya Tshiani via Pululu ezali nini ? Kozala muana mboka etikala
+  jamais kozala garantie ya ko \u00e9viter haute trahison. Aucun pays s\u00e9rieux
+  ne r\u00e9fl\u00e9chit en ces termes !!! Non ! Na relations internationales, sp\u00e9cialement
+  na ba questions g\u00e9ostatiques et s\u00e9curitaires, ba grands services de renseignements
+  (ex. : Russie (S.V.R.) ewuta na K.G.B., U.S.A. (C.I.A.), Isra\u00ebl (MOSSAD), Chine
+  (M.S.S.), Grand Bretagne (M.I.6), Allemagne (B.N.D.), France (D.G.S.E.) na Canada
+  (S.C.R.S.) e formaka ba agents na bango na koyeba ko tourner un agent \u00e9tranger
+  mpo akoma un agent double : Officiellement ozali ko servir pays na yo, officieusement
+  ozali ko servir mopaya. Ba exemples ezali ebele durant la guerre froide ou encore
+  na ba succ\u00e8s ya Isra\u00ebl na proche orient.\\nEzali liseki te soki ba services
+  wana ebengamaka ba services secrets ou services d\u2019intelligence. Ba cerveaux
+  nde basalaka kuna, bazali ko anticiper ba dispositifs ya lolenge wana. Tanga ba
+  textes ya prestation de serment ya ba dirigeants ya ba pays wana avant prise de
+  pouvoir. Haute trahison, basakanaka na yango te parce que ba lois ya mboka eko louper
+  yo te. Tolandi biso banso likambo ya pr\u00e9sum\u00e9e implication Russe na campagne
+  am\u00e9ricaine. Soki penza implication wana ezali d\u00e9montrer na bosali lien
+  entre yango na \u00e9lection ya Pr\u00e9sident Trump, ba propres membres ya parti
+  na ye balingaki kozua distance na ye mpe S\u00e9nat elingaki ko livrer ye na Justice.\\nC.
+  Kim : Soki totiki ba emotions, lokola Monseigneur Monsengwo Pasinya azalaki koloba
+  : \\\" Evitez les r\u00e9actions \u00e9pidermiques. \\\" Coefficient nini ya d\u00e9veloppement
+  ya mboka ezali na kati ya loi oyo?\\nEmmanuel Kandolo : Motuna malamu ! R.D.Congo
+  ezali un pays sous occupation militaire \u00e9trang\u00e8re, Chef ya arm\u00e9e
+  wana ezalaka, James Kabarebe (un militaire \u00e9tranger de nationalit\u00e9 Rwandaise),
+  mpe ezali (R.D.C.) na instabilit\u00e9 totale parce qu\u2019ezali faible en droit
+  public international mpe na relations internationales du fait que souverainet\u00e9
+  na biso ezali na maboko ya ba paya. Occupation ezalaka en contradiction na d\u00e9veloppement
+  \u00e9conomique pour une simple raison. D\u00e9veloppement ezali fonction ya ba
+  ambitions \u00e9conomiques ya ekolo par rapport na ba besoins na yango en tenant
+  compte na ba ressources multiformes internes (\u00eatre humain, sol, sous-sol, for\u00eat,
+  hydrographie na nionso ezali na kati mpe na lolenge akosala gestion ya ba ressources
+  humaines mpe na ya ba ressources naturelles, foresti\u00e8res na mini\u00e8res),
+  oyo akoki ko mobiliser mpo atteindre objectif \u00e9conomique fix\u00e9 selon plan
+  ou programme \u00e9conomique oyo endimami. Or, occupation eyeli mpe efandeli nde
+  ba ressources wana mpe contr\u00f4le na yango ezali ko \u00e9chapper biso totalement
+  : Mopaya azali ko g\u00e9rer personnel politique en proc\u00e9dant na ba nominations
+  \u00e9lectorales mpe kosala ba majorit\u00e9s institutionnelles artificielles. Personnel
+  administratif et territorial, Arm\u00e9e, Police, Justice mpe na nkita nionso ezali
+  na maboko ya mopaya. Zua exemple ya ba mati\u00e8res premi\u00e8res ya industrie
+  mini\u00e8re na ba d\u00e9clarations du genre : R.D.Congo esengeli ekabola richesse
+  na ba voisins, voisins, voisins au lieu ya peuple Congolais, to r\u00e9cup\u00e9rer
+  mboka na biso mpo droit international ezali c\u00f4t\u00e9 na biso lokola mpe ba
+  instruments internationaux (D\u00e9claration universelle des droits l''homme et
+  le Pacte international relatif aux droits civils et politiques).\\nPrise ya conscience
+  nationale, bolingo ya ekolo, sacrifice \u00e9norme mpo na patrie, kobengana mopaya
+  na ba complices na ye, kopasola soi-disant constitution wana, nionso oyo esengeli
+  ezala leitmotiv ya peuple Congolais. Et surtout koyeba que changement ewutaka jamais
+  na classe politique et encore moins na oyo ebengamaka faussement communaut\u00e9
+  internationale. Changement ewutaka kaka na peuple mpo classe politique azali peuple
+  te m\u00eame soki awuta na peuple.\\nC. Kim : Soki bazali kokebisa biso na Ivoirite,
+  ezali likambo ya motuya. Toyebi lisusu ya Bilulu ndenge ebandaka. Pe na Matadi,
+  namonaka lisolo ya ba Non-Originaires. Un kour na Palais du peuple, le vieux Tshimbombo
+  Mukuna alobaka: :\\\" Pouvoir ezali lokola ozali kopusa v\u00e9lo Tangu okiti bayebisi
+  yo, tala ndenge ozalaki ko pedaler\\\". Et Kengo apesaka exemple ya Shah d''Iran
+  pour comparer la chute de Mobutu. a force d''\u00e9couterles Conseillers contradictoires,
+  okozanga likambo ya kosala. La loi Tshiani ekobatela Congo pe ekotombola mboka Congo.
+  Soki yango nde v\u00e9rit\u00e9ekozala malamu.\\nEmmanuel Kandolo : Justement, soki
+  jeunesse ezalaki na r\u00e9elle prise de conscience politique mbele olingaki kobetela
+  ngai lisolo sur lolenge justice p\u00e9nale esalaki ba enqu\u00eates malamu en respectant
+  le secret de l\u2019instruction mpe na pr\u00e9somption ya innocence, na botiyi
+  Tshimbombo en examen tee ndenge ekueyisi ye sur base ya ba preuves solides et \u00e9videntes.
+  Na m\u00eame ordre ya id\u00e9es, Kengo alingaki m\u00eame pas apesaka biso ba le\u00e7ons
+  mpo justice elingaki e priver ye na ba droits politiques na ye mpe alingaki asilisa
+  vie na ye na boloko.\\nEzali malheureux et surtout insultant soki vraiment Kengo
+  wa Dondo azali ko se permettre kobetela yo masolo ya contradiction na cadre ya libert\u00e9
+  d\u2019expression. Shah d''Iran babenganaki ye na jeunesse iranienne mpo azalaki
+  au service ya ba m\u00eames ma\u00eetres oyo Mobutu na Kengo babandaki ko servir
+  ! Alors, pourquoi, ozali kozua exemple ya mutu oyo a se soucier ata muke te na avenir
+  na yo sous pr\u00e9texte que pr\u00e9occupation na ye ezalaki ya ko satisfaire mopaya
+  na ba int\u00e9r\u00eats na ye en puisant na caisse ya l\u2019Etat ? Banda naino
+  nakomituna entre yo, C. Kim, na F.M.I. Kengo alingaka nani ? Est-ce que Kengo azali
+  en mesure ya ko comprendre ba difficult\u00e9s na yo mpe lolenge nini ekolo na yo
+  esengeli esunga yo na construction ya avenir meilleur ? Landa derni\u00e8re \u00e9mission,
+  M\u00e9moire, asalaki na Christian Lusakueno na Top Congo, oyoka ndenge azali kosala
+  biso un v\u00e9ritable pied de nez !!! Yoka lisusu ba propos ya Kengo oko se per\u00e7evoir
+  na caract\u00e8re insolant mpe insultant ya ba d\u00e9clarations na ye.\\nPour terminer,
+  banda lelo, salaka attention na elobeli oyo mopaya akotiseli biso sans to se rendre
+  compte mpe tozali ko r\u00e9p\u00e9ter yango inconsciemment : On parle de la population
+  au lieu de parler du peuple Congolais. On dit Monsieur Emmanuel au lieu de dire
+  Monsieur Kandolo (pr\u00e9nom e remplacer nom propre mpo alingaka ko prononcer yango
+  te na cadre ya usurpation ya identit\u00e9). On parle de la communaut\u00e9 au lieu
+  de parle de l\u2019ethnie, tribu et clan. O identifier mutu selon origine ethnique
+  na ye, ekomi tribalisme ! Mopaya alingi tobosana que unification ethnique oyo esalemaka
+  na Conf\u00e9rence de Berlin ya 15 novembre 1884 tee na 26 f\u00e9vrier 1885,nde
+  ekeli Congolais d\u2019origine na bosangisaki bikolo (ethnies) oyo esali R.D.Congo.
+  Sika, selon plan na ye, azali koluka une justification morale mpo alatisa biso makambo
+  esalema ailleurs mpe biso tozali ko r\u00e9p\u00e9ter sans souci de contradiction
+  et en toute irresponsabilit\u00e9 ba sch\u00e9mas mentaux ya mopaya !!!\\nYango
+  wana tozali ko beta sete en insistant aupr\u00e8s ya ba compatriotes na biso qu\u2019il
+  faut absolument to raisonner \u00e0 partir ya ba r\u00e9alit\u00e9s concr\u00e8tes
+  mat\u00e9rielles et non en fonction ya ba mots na ba concepts \u00e9labor\u00e9s
+  ailleurs et qui ne tiennent pas compte de la philosophie bantou. To raisonner par
+  nous-m\u00eames en rejetant cat\u00e9goriquement toute forme ya colonisation mentale
+  !!!\\nPatriotiquement\\nEmmanuel Kandolo\"", "\"Basoda baye batomboki nsima na bobimisami
+  ya mbulamatari ya sika,\\nONU, mabongisi mingi ya Afrika, lokola mpe France, Etats-Unis
+  na bikolo misusu batelemeli bomeki bonso ya kosala coupe d\u2019\u00e9tat.\\nPr\u00e9sident
+  ya transition atiamaki nsima na bokweyisami ya IBK, Bah Ndaw, na Ministre wa Yambo
+  Moctar Ouane bamemamaki lundi na basoda na camp ya basoda ya Kati, libanda ya Bamako
+  elongo na bsaungi ba bango basusu.\\nEzali na camp yango, nde bayi mampinga basakolaki
+  le 18 ao\u00fbt 2020 bokweyisami ya IBK.\\nBakonzi babikolo bya molongo balobi baboyi
+  bokweyisami bonso ya mbulamatari ya transition na bayi mampinga.\\nMission ya ONU
+  na Mali (Minusma), C\u00e9d\u00e9ao (lisanga lya bikolo bya Afrika ya west), Union
+  africaine, France Etats-Unis, Royaume-Uni, Allemagne mpe Union europ\u00e9enne babisimi
+  liyebisi mpe basengi bitakami sik\u2019oyo na bozangi bosengi ya pr\u00e9sident
+  mpe Ministre wa yambo ya transition.\\nVoir les commentaires\\nAvez vous d\u00e9j\u00e0
+  un compte? Connectez-vous\\n\u00cates-vous un utilisateur enregistr\u00e9? Inscrivez-vous\\nVoir
+  plus de commentaires\"", "\"2/ Bandundu : Mondele mboka wa Bulungu na etuka Kwilu
+  asili kobandisa Couvre-feu o nteyi ya territoire wana uta mokolo mwa mosala moko
+  ya poso tozali mpo na bokengi bwa bayi mboka mpe biloko na bia bango,\\n2/Kinshasa
+  : Yoko linaka lia bayi ekolo esengi kolandana na mabongisi ya precop 27 \u00e9t\u00e9
+  bikolo bizali na zamba eye ezali na bozui boyike na carbonne ezua makoki mayike
+  po na kobundisa kozanga kokata zamba.\\n3/Bukavu : Lelo molongo mobima mokundolaka
+  mokolo mwa molakisi bana o kelasi, na Bukavu bapanzi sang oba biso bakutanaki na
+  yoko mama ye akokisi mibu tuku misato uta akozalaka molakisi/sites/default/files/2022-10/60092022-p-a-d-journallingalamatin-00_.mp3\"",
+  "\"Na kotalaka bokende liboso na domaine ya Technologie ya Information tokoki kaka
+  kosepela mpe kosalela nionso oyo ememaka Bomoto na biso na ba niveaux ya likolo
+  kutu ya D\u00e9veloppement. Mbula ntuku minei oyo euti koleka ememi mbongwana monene
+  na lolenge ya bomoi mpe ya mosala. Ph\u00e9nom\u00e8ne oyo ezali na bizaleli mingi
+  lokola boyei ya Soci\u00e9t\u00e9 d\u2019information.\\nPene na mibu ntuku mibale
+  eleki, mingi ya makambo ya nimero ezalaki ya makomi. Lelo oyo, ek\u00f3mi monene
+  mpe ek\u00f3mi na makambo ya koyoka, ya video mpe ya bililingi. Mokakatano ezali
+  sikawa kobongisa, kososola, mpe koluka sango oyo ya multimodale na lolenge ya makasi,
+  ya malamu, mpe ya mayele, mpe kosala ba syst\u00e8mes ya kozala na bondimi oyo epesaka
+  nzela na boyokani ya multimodale ya bomoto mpe ya kososola.\\nCluster ya Excellence
+  na oyo etali \u00ab Informatique multimodale et interaction \u00bb, oyo esalemi
+  na Fondation allemande de recherche (DFG) na kati ya Initiative allemande ya Excellence,
+  etali mokakatano oyo. Liloba multimodal elimboli lolenge ekeseni ya nsango lokola
+  makomi, maloba, bilili, video, bililingi, mpe ba donn\u00e9es ya dimension ya likolo,
+  mpe lolenge oyo emonanaka mpe epesameli yango, mingi mingi na nzela ya komona, koyoka,
+  mpe kolakisa bato.Cluster yango ezali na ba d\u00e9partements ya Informatique mpe
+  Linguistique informatique mpe Phon\u00e9tique ya Universit\u00e9 ya Saarland, Institut
+  Max Planck ya informatique, Centre allemand ya recherche ya intelligence artificielle,
+  mpe Institut Max Planck ya sika oyo esalemi mpo na ba syst\u00e8mes logiciels.\\nMpo
+  na kopesa Excellence, Imm\u00e9diatet\u00e9, mpe Efficacit\u00e9 tosangisaka technologie
+  ya mikolo oyo mpe ba installations ya bato.\\nTozali kopesa mabongoli na minoko
+  ya UE, Min\u0254k\u0254 ya Afrika mpe Min\u0254k\u0254 ya Azia.\\nMonoko nyonso,
+  na esika nyonso oyo olingi libongoli kokakatana te mpo na kozwa boyokani na misala
+  na biso.\\nTozali kopesa babongoli oyo bazali na makoki mingi mpe tokosepela kopona
+  bato oyo bazali na eksperiansi oyo ebongi na ekipi na biso ya mosala oyo ekoki kobongwana
+  mpo na kosalisa bango. Tozali kopesa ba interpr\u00e8tes simultan\u00e9 mpo na ba
+  conf\u00e9rences, mpe ba interpr\u00e8tes cons\u00e9cutifs mpe ad-hoc mpo na ba
+  r\u00e9unions na ba d\u00e9l\u00e9gu\u00e9s internationals oyo bazali wana. Tozali
+  mpe na makoki ya kopesa babongoli mpo na misala ya Tribinale. Mosala na biso ya
+  kobongola makambo etali min\u0254k\u0254 koleka 100. Ba interpr\u00e8tes simultan\u00e9
+  mpo na ba conf\u00e9rences basalaka ntango nyonso mibalemibale uta na kati ya kiosque
+  moko. Na tina ya ba niveaux ya fatigue ya likolo oyo eyaka na kobongola na maloba
+  maloba ya ba d\u00e9l\u00e9gu\u00e9s na monoko mosusu na moment moko oyo balobaka
+  yango, paire moko na moko ya ba interpr\u00e8tes esalaka en tandem : tango interpr\u00e8te
+  moko azali koloba, interpr\u00e8te mosusu azali kopema.\\nBoyebi na Yo ezali Nzela
+  ya Elonga na Yo!\\nEtape 1: T\u00e1ng\u00e1 makambo oyo ezali kopesa mpasi.\\nEtape
+  2: Luk\u00e1 makanisi ya malamu.\\nEtape 3: Yekola mpo ete okoka koteya basusu.
+  Moto akoki koyekola mpo na ntango oyo etyami ndelo te kozanga ete akutana na Mon\u0254k\u0254
+  oyo ezali ya mboka te?\"", "\"Ko landa na bulletin ya Secr\u00e9tariat technique
+  ya \u00ab comit\u00e9 multisectoriel de la riposte contre Covid19 \u00bb, ba cas
+  kama yoko tuku mitano na mineyi (154) ya sika oyo e ndimi e bakisami na mboka mokolo
+  ya 20 juin 2020, kati ya ba cas oyo, kama yoko tuku mibale na mineyi (124) e zwami
+  na Kinshasa, tuku mibale (20) na Haut-Katanga, libwa (9) na Nord-Kivu mpe moko (1)
+  na Haut-U\u00e9l\u00e9.\\nNa boye mboka e komi na ba cas koto itano kama mwambe
+  tuku mibale na motoba (5.826), kati na ba cas oyo koto itano kama mwambe tuku mibale
+  na mitano (5.825) e ndimami mpe cas moko e zali \u00ab probable. \u00bb\\nBulletin
+  oyo e monisi lisusu ete, ba beli tuku misato na mineyi (34) ba biki na bokono oyo,
+  na boye bato kama mwambe tuku mineyi na moko (841) ba biki.\\nNa oyo e tali ba kufi,
+  ba beli mitano (5) ba kufi se mokolo ya 20 juin oyo, mboka e komi na ba kufi kama
+  yoko tuku misato (130), kati ya ba kufi : ba cas kama yoko tuku mibale na libwa
+  (129) e ndimami mpe cas moko (1) e zali \u00ab probable. \u00bb\\nTo yeba ete, ba
+  cas suspects kama mineyi tuku sambo (470) e zwamaki na sima ya bomeki meki.\\nNa
+  mokolo ya lelo, ba provinces zomi na mibale (12) kati ya 26 provinces ya mboka e
+  simbami na bokono oyo. Kinshasa nde e zali na ba cas ko leka ba provinces nioso
+  mpe provinces ya Haut-U\u00e9l\u00e9 nde e zali province ya sika oyo bokono ya coronavirus
+  e koti.\"", "\"Na mokanda to communiqu\u00e9 atie manzaka le 4 octobre, Jean Pierre
+  Bemba Gombo, pr\u00e9sident ya MLC asengi na bakambi ya ba mangomba na kosala manso
+  mpo na koluka boyokani na maye matali mokambi ya CENI.\\nAbakisi lisusu ete bakambi
+  biyamba basengeli kotia pembeni maye manso mazali kokabola bango mpo na boluki kimya
+  mpe bosangani ya ba Congolais mpo ete maponami ma 2023 maleka na ndenge elongobani.\\nMokambi
+  ya MLC abondeli bakambi biyamba ete bakoka kosala manso mpo ete bakoka kopona na
+  boyakani bakambi ya CENI na mikolo misato miye Assembl\u00e9e nationale epesi bango,\\nNonga
+  74, motambwisi ya Assembl\u00e9e nationale Christophe Mboso N''Kodia apesaki bakambi
+  biyamba mpo na mbala ya suka ezali kosila o''mokolo mwa yambo le 4 octobre 2021
+  na minuti.\\nBakambi biyamba nanu bayokani na ngonga tozali kokoma article eye.\\nVoir
+  les commentaires\\nAvez vous d\u00e9j\u00e0 un compte? Connectez-vous\\n\u00cates-vous
+  un utilisateur enregistr\u00e9? Inscrivez-vous\\nVoir plus de commentaires\"", "\"M.
+  Munubo ya UNC atiki mokanda yango na Bureau d\u2019\u00e2ge mpo na yango.\\nMotuna
+  ya mokeli mibeko oyo ekweyi nsima na ba experts ba ONU kotuna mpo na nini bakambi
+  ya Rwanda na RDC balobaki te ete ba soda ba RDF (Rwanda Defense Force), mampinga
+  ma Rwanda, bazali na mabele ma Congo wuto 2019.\\nKolanda rapport ya ONU, basoda
+  ba Rwanda basalaki misala mingi na mabele ma Congo lokola bilili bilakisi yango.\\nNa
+  octobre, RDF esalaki mosola mosusu na basoda koleka 28 mpe minduki ya minene, elobaki
+  ba experts ba ONU balandelaka embargo ya minduki.\\nRDC ezali te na embargo to bopekisi
+  ya kosamba minduki kasi ba experts baye balandela makambo mpo na kopekisa mboka
+  misusu na nse ya bopekisami lokola Centrafrique.\\nVoir les commentaires\\nAvez
+  vous d\u00e9j\u00e0 un compte? Connectez-vous\\n\u00cates-vous un utilisateur enregistr\u00e9?
+  Inscrivez-vous\\nVoir plus de commentaires\"", "\"lkkkkk\\nTshisekedi Accepte le
+  Dialogue Convoqu\u00e9 par Kabila: Suivez la Reaction de Docteur Kimwana\\nReviewed
+  by John Image tv live\\non\\n06:24\\nRating:\\nBANDEKO BISO BA AUTOCHTONES YA KONGO
+  BA TRACTATIONS NIONSO PONA DIALOGUE OYO EDEN KODJO AZLI KOLUKA FACILITATION ( UNION
+  AFRICAINE Alias Katumbi ATEKA CO- AFLUENT YA FLEUVE KONGO NA NDENGE ATEKI GECAMINE
+  ) EZALI PONA TRANSITION QUE PRESIDENT YA UDPS TSHISEKEDI WA MULUMBA AKUMBA TRANSITION
+  PONA ARTICLE 72 YA CONSTITUTION YA RDC EZALA MODIFIER NDE EKOYA KO PERMETTRE SORIANO
+  MOISE Alias Katumbi AKOMA ELIGIBLE PONA AYA KO OFFICIALISER BALKANISATION OYO AGENT
+  GENOCIDAIRE L\u2019IMPOSTEUR KANAMBE NA MASSACRE YA TINGI-TINGI Alias Kabila, OYO
+  AKATI DEJA MBOKA RDC et SORIANO MOISE : JUIF GRECO-ROMAIN LE CO-GENOCIDAIRE ZAMBIEN
+  Alias Katumbi A ENTERINER MOSALA YANGO, TALA TINA YA RAPPEL YA SOULEVEMENT POPULAIRE
+  KOPIKOLA SYSTEME BaLoKi BA TIYA DEPUIS 1885 ET AUSSI CENI EZALI ORGANE PONA BABALOLAKA
+  VOTE YA PEUPLE SOUVERAIN YANGO CONSCIENTISATION NA SOULEVEMENT POPULAIRE\\nR\u00e9pondreSupprimerMindoto
+  Ya Bana Mwinda\\nhttp://www.unhchr.ch/Huridocda/Huridoca.nsf/TestFrame/6c0de18cf77411fc8025674600404213?Opendocument\\nhttp://ospiti.peacelink.it/bukavu/znews050.html\\nApr
+  4, 2010 - Mo\u00efseKatumbi and Rapha\u00eblKatebeKatoto are both the sons of Nissim
+  Soriano, one of the many Sephardic Jews who emigrated to the Congo ...\"", "\"En
+  exclusivit\u00e9 congomikili.com voici les images du concert de Werrason \u00e0
+  Goma. Werrason a r\u00e9uni une foule immense, venue acclamer le roi de la for\u00eat
+  Werrason. Les concerts de Werrason \u00e0 Bukavu et Werrason \u00e0 Goma, \u00e9tait
+  une initiative pour amuser les habitants de l\u2019 est qui n\u2019 ont pas eu la
+  vie facile depuis plusieurs ann\u00e9es. Na temps, suivez ces images !\\n405 Commentaires\\nBISO
+  BALUBA TONDIMI BOBOMA BISO BOTIKA BA RWANDAIS. TOSI TOMESANA NA SLOGAN WANA DEPUIS
+  MOBUTU. TOKOMA VACCINER. LOBA NA YO TOKO CHANGER TRIBU TE TOZA BALUBA . BOBOMA BISO
+  BOTIKA NYOKA.\\nNDJOLI BISO TOZO SEPELA NABA PLEIN\u2026.TOZO YOKA PLEIN NABISO
+  SONI TE.\\nEKOMA TOUR YA CAPITAINE MPIAKA, TABOU SUR TABOU.\\nOBETI LISOLO YA ZENITH,
+  ASILIKI PO AKOMA KOBANGA BA SALLE WANA. NABA PETIT YA 5G BAKOMA KO AFFRONTER ZENITH
+  SANS PROBLEME, MAIS CAPITAINE MPIAKA, YE KAKA KOBANGA NA KOBANGA\u2026.AKOMA KOTIKA
+  WERRA A BUNDELAKA CLAN WENGE MOBIMBA.\\nplein oyo werra asali ezali defaite mobimba
+  pona jb mpiaka oyo abotoli brassard yaba mpiaka.\\nbana Goma bango nionso bayebeli
+  yango ndenge wana.\\n@ralph lauren USA: OZO YAKA SONI PO OLAKISA MPIAKA YA jb? MPIAKA
+  EYOKAKA SONI TE! LAKISA BISO MPIAKA YA jb PO TONDIMA YO. NGA NATIELI BINO ARTICLE
+  DE PRESSE PO EZA PREUVE NAZA NANGO. BONGO YO? DISCUSSION NGA NA YO EZA YA MOTO YA
+  MAYELE(NGAI) PO NAZA NA PREUVE NA ZOBA(YO) PO OZA NA PREUVE TE. BOLATI BRASSARD
+  YA LOKUTA NA MOYIBI.\\nMPUNDA ESILI IMPACT, EBIKANI MAKOLO, BAZO LOBELA NGO LISUSU
+  TE.\\nMPUNDA EKUFAKI DEJA NA DOCK EIFFEL ESIKA JB ALATI BRASSARD YA MPIAKA, PE AZWI
+  ROLE YA CAPITAINE\\nbakundi mpunda na dock eiffel\\nehhhh bayaka bokei wapi? Mbongo
+  esili bino na ciber caf\u00e9?\\nNDJOLI OZALAKA MUTU MAKASI BOYE PONA NINI ? NGA
+  PERSONNELLEMENT NAKOTAKI CONCERT WANA YA DOCK EIFFEL EZALAKI MOBANGE NA MPIAKA.
+  TOURNEE YA MPUNDA ESALI FIASCO: MFUILI NA COLOGNE, BABOYO KOLAKISA IMAGES, ALBUM
+  EZO BIMA TE, BA CLIP EZANGI, CONCERT ANNULE NA BRUXELLES, MPIAKA NA PARIS\u2026TOKOMI
+  NA DOUTE SUR SOYONS SERIEUX.\\nCIMETIERE YA MPUNDA EZALI DOCK EIFFEL\u2026NA BANZI
+  JB MPIAKA AZO REGRETTER PONA NINI AKENDAKI KOBETA NA DOCK EIFFEL OYO EWUTI KOSILISA
+  MPUNDA NGUYA. LELO OYO BATU BAKOMI KOLOBA MPUNDA DE MOINS EN MOINS\u2026.CRIS YA
+  MPUNDA ESILI VALEUR AVANT KUTU ALBUM EBIMA. NAKOMI KO BANGELA JB MPIAKA MOLATI BRASSARD
+  YA MPIAKA\\nBopekisi mpunda na kinshasa croyant que tokokueya mais waya. Tokobina
+  mpunda. ba decision na bino ya congo tokondima yango te. ba jaloux. Entre MPUNDA
+  na SIMA EKOLI wapi danse ya impolie? Batu ya bandundu ba jaloux bayaka.\\nque l\u2019ame
+  du mpunda repose en paix au dock eiffel\\nTOYEBISAKI BINO KE MPUNDA ESI EBUKANI
+  MAKOLO\u2026.BIENTOT NKOYI AZO DAMER YANGO.\\nPROPAGANDE YA KANAMBE EBANDI, WERA
+  ABOSANI PAPA NA YE TH\u00c9OPHILE MBEMBA, FEU VALENTIN MUNDABI, NIONSO MPONA LOKOSO
+  YA MBONGO, BA BOTOLA BISO KAHEMBA NA BA ANGOLAIS, YE MBANGU TI LUANDA MPONA KO BETA
+  MUSIQUE, MUSICIEN YA SOLO AKOLOBA QUE BO ZALI KO NIOKOLA PEUPLE NA NGA NA KOYA KO
+  BETA TE, BA ZALI NA BA MUSICIEN NA BANGO KUNA BA MANGWANA, MATADIDI, ANGO STARS,
+  MPONA NINI BA ZALI KO BETA TE KAKA BINO BA PROSTITU\u00c9S YA CONGO, MUKOLO EZALI
+  BO KOKENDE KO BETA NA MBOKA MOPAYA, BO KO TIKALA KUNA LIBELA TO ZO LALELA BINO COUSSIN,
+  BO KEBA\\nmpunda ba ponaki ebimi l\u2019echec.\\nMULOLO, si JHONY ALIDAY ou n,importe
+  quel autre musicien francais se range du cote de SARKOZY ou de l,opposition cad
+  la gauche c pcq ils partagent les memes id\u00e9es.c ne pas pcq ils sont corrompus
+  qu,ils se rangent derriere tel ou tel parti.MULOLO tu peus imaginer la FRANCE sous
+  occupation ALLAMANDE et ke JHONY ALIDAY ne soutienent pas LES FRANCAIS \u00e1 leur
+  lutte de liberation qu,il soit plutot du cot\u00e9 de collabo comme le fait TON
+  WERRA LES FRANCAIS envisageraient sa MORT.quand la democratie sera restaurer chacun
+  de nous poura faire c ke bon lui semble mais pour l,instant celui qui ne pas avec
+  le peuple est contre le CONGO.MULOLO pose toi la question pourkoi les musiciens
+  congolais se rangent tjrs du cot\u00e9 du pouvoir et aucun d,eux du cote de l,oppositon?or
+  en francais ils sont de partout.\\n@JUNGEN*: yo muyaka okendaki kosala nini na miziki
+  na biso? Ndenge nini ozui ba images ya mpiaka na biso te opesa na congomikili? 1\u00e8re
+  semaine ya d\u00e9cembre okozua soyons s\u00e9rieux, oyo eza maloba ya producteur
+  David Monsoh, le meilleur producteur du moment . Qui dit mieux?\\nMULOLO, si JHONY
+  ALIDAY ou n,importe quel autre musicien francais se range du cote de SARKOZY ou
+  de l,opposition cad la gauche c pcq ils partagent les memes id\u00e9es.c ne pas
+  pcq ils sont corrompus qu,ils se rangent derriere tel ou tel parti.MULOLO tu peus
+  imaginer la FRANCE sous occupation ALLAMANDE et ke JHONY ALIDAY ne soutienent pas
+  LES FRANCAIS \u00e1 leur lutte de liberation qu,il soit plutot du cot\u00e9 de collabo
+  comme le fait TON WERRA LES FRANCAIS envisageraient sa MORT.quand la democratie
+  sera restaurer chacun de nous poura faire c ke bon lui semble mais pour l,instant
+  celui qui ne pas avec le peuple est contre le CONGO.MULOLO pose toi la question
+  pourkoi les musiciens congolais se rangent tjrs du cot\u00e9 du pouvoir et aucun
+  d,eux du cote de l,oppositon?or en france ils sont de partout.\\nWerra kitoko pe
+  elengi continuer kosepelisa bana mboka , kobeta na rwanda te lokola jb mpiaka. Merci
+  na ba dons na visite epai ya ba femmes violees . Reference congobilili.\\nBOTIKA
+  MAKAMBU YA POLITIQUE AWA\u2026BOLOBELA NDE MPIAKA OYO JB ASALAKI NA DOCK EIFFEL.\\nPO
+  BALOBI MPIAKA OYO JB ASALAKI NA DOCK EIFFEL, PARDON BOLUKELA NGO KOMBO.\\nNDJOLI,
+  MOMIE NANGA AZA MULUBA DONC TOKENDAKI ENSEMBLE , TALA KAKA BISO BA OYO TOZO TAFUNA
+  BASI YA BALUBA NETI JEU\u2026.WERRA AZO SASA GISELLE ( MULUBA ), PAPY KAKOL AZO
+  BUKA LINDA ( MULUBA ), MAITRE MANCHESTA AZO BUKA MAMU MULUBA YA DANSEUSE\u2026.DONC
+  TOSALI BA MOMIE YA BALUBA PARTAGE DU GATEAU . OBJECTIF NABISO IL FAUT TO SILISA
+  BASI NIONSO YA BALUBA\\n@JUNGEN*: namoni ke osuka na 1\u00e8re maternelle po QI
+  nayo eza tr\u00e8s bas. Ozangi ba arguments. Donc, moto lokola yo aza na ntina te.
+  Tolobi kombo ya mpiaka ya JB na dock eiffel eza \u201cPLEIN NA PLEIN\u201d po images
+  eza na internet oyo tomoni plein na plein. Yo tiela biso images pe kombo ya mpiaka.
+  Soki otie images te kanga esumbeli na yo CATAR.\\nJUNGEN osekisi nga vrave kie\u2026kie\u2026kie\u2026donc
+  bozo sasa basi ya baluba bosali bango partage du gateau ?? nga pe na tikali sima
+  te, il faut na ceinter mwasi ya muluba pona ko kangisa mibali na bango munoko neti
+  didi kinuani akangisaki jb munoko \u2026uhmmmm boye nde ezalaka, ko kangisa bango
+  minoko kie\u2026kie..kie\u2026\\nKiekiekiekie Petit\u2026 Ba Momie Oyo Otangi Omoni
+  Ndenge Bazalaka Kitoko????? Buka Nayo Bango Mon Petit Frere, Mais Ya Bino Toyokaka
+  Bango Nkele Bayebi Pe Boulo Te.. Baza Ba Sac Ya Mbadi Na MBetu. Oyo Ya Biso Beaute
+  Pe Gout Na Mbetu Kiekiekiekiekie.. Yango Tolobaka Bokeseni Ezali..\\n@JUNGEN*: opesi
+  nga raison po nalobaka ke nakoki kozua mwasi ya bandundu te po aza kitoko te, aza
+  mukuse pe elongi mabe. Po na nga kozua mwasi ya bandundu eza komikitisa valeur.
+  Yoka esengo na yo lokola oza na mwasi ya muluba. Ezo sala yo fi\u00e8re po mwasi
+  ya muluba aza go\u00fbt. Felicitatios na ndenge ozui muluba na nkisi. Muluba akoki
+  kolinga muyaka lokola yo te kasi lokola okotisi ye na mpumbu yango olongi ye ndenge
+  didi kinuani asala. Mosala na bino bayaka bolokotaka makolo ya basi ya baluba po
+  balinga bino. NGA NAKOKI KOLALA MWASI YA BANDUNDU TE PO AZA KITOKO TE.\\nOUI OUI,
+  RALH LAUREN, EZA FORME YA TORTURE\u2026TOZO TORTURER MIBALI YA BALUBA. OYEBI KE
+  TI LELO BALUBA BAZALAKA NA MECHANT YA WERRA NDENGE ABOTISA BANGO MWANA PE LEKI (
+  GISELLE). KAKOL PE AZWA LINDA ABOTISI YE MBANGU.\\nNGA PE KALA MINGI TE NAZO BOTISA
+  OYO AZA NANGA.\\nIDEOLOGIE EWUTI NA HAUT SOMMET TOZO LANDA KAKA LOKOLO YA WERRA
+  MOLAKISI NZELA. KIE,\u2026KIE\u2026KIE\u2026MIBALI YA BALUBA BAKOLIA NGA MOBESU\\n@
+  NIMA KOKO, MPUNDA ABUKANAKI MAKOLO NA DOCK EIFFEL SALLE YA 2000 PERSONNES KAKA.\\nPetit
+  yo Ya USA Kiekiekiekie Heure oyo Esengelaki Ozala Na Mbetu, Boza Na Retard Ya 6mois
+  na masolo kie kie kie. Ya Biso Ba momie Baza Gout..Mais Ya Bino Nkele\\nJUNGEN oza
+  na raison. il faut tozwa bango na NKO !!! eza neti mutu moko boye olingaka ye te,
+  mais azo kata soeur nayo, esalaka motema pasi hein ! nazo imaginer ndenge mibali
+  ya baluba bazo yoka mitema pasi, ndenge tozo sasa basi na bango.\\nJungen place
+  ozali, yeba ke nga pe nako tikala sima te. periode oyo yaba fete il faut na ceinter
+  momie moko ya muluba po eteya ba frere naye.\\n@ralph lauren USA: luka nkisi ozua
+  pe mwasi ya baluba oyoka bilengi. Tika ba ndeko na yo bayaka baza kitoko te. Bosambwe
+  na internet. Bosambwisi basi ya mboka na bino, bokumisi baluba . Bopoli.\\nndjoli
+  alingi alela. yina nga, finga nga, mais soeur nayo nako sasa te, pe nako botisa
+  ye ..kie\u2026kie\u2026kie\u2026\\n@ralph lauren USA: ngai nakoki kolala mwasi ya
+  bandundu jamais. Eza neti nazui botutu na nzoto oyo ekolongwa jamais.\\nSOKI MUYAKA
+  ABOTI NA MULUBA MWANA AZA MUYAKA, BALUBA BAKONDIMA YE TE. MWANA IL FAUT ALANDA TATA
+  NA YE YA BAYAKA.\\nAMIDA AZA MUASI YA BANDUNDU, MPUNDA NA BISO NYONSO NGAI NA KO
+  MATA YE NA JANVIER!\\nNDJOLI ESKE SIKOYO OTEYAMI PONA NINI NA KENDAKI CONCERT YA
+  MUKULU ??? PO NAZO SASA SOEUR NABINO BA JOUR OYO. DONC NA CADRE YA LOVE, IL FALLAIT
+  KAKA NAKENDE, ET PUIS ESALI KE NA VIVRE MPIAKA EN DIRECT.\\nHEURE NAMONI WERRA ABOTISI
+  GISELLE, KAKOL ABOTISI LINDA, NGA NALOBI NAKO TIKALA SIMA TE, NGA PE IL FAUT NALANDA
+  LOKOLO YA L\u2019AMBASSADEUR DE LA PAIX.\\nIL FAUT BOSENGA BISO PARDON, SINON TOKO
+  SILISA BASI NABINO PO ETEYA BINO PE BOLAPA LIBELA ..KIE\u2026KIE\u2026KIE\u2026\\nMIBALI
+  YA BANDUNDU BASAMBWISI BASI YA MBOKA NA BANGO NA INTERNET. MIBALI YA BANDUNDU BALELA
+  BASI YA BALUBA. MOBALI YA MULUBA AKOKI KOLINGA MWASI YA BANDUNDU TE PO AZA MWASI
+  YA BASSE CLASSE.\\nNDJOLI alingi alela. soeur azo fiba bonbon, pe bazo bambula ye
+  3 coups kie..kie..kie.. !! Finga JUNGEN ndenge olingi, kasi JUNGEN azo prouver yo
+  force naye po azo sasa ba soeur nayo na ndenge ya jeu te. nga te na tikali sima
+  te, ideologie ekomi il faut to buka ba soeur nabino le maximum possible.\\nfinga
+  nayo, mais ba soeur nabino bazo zwa 1 , 2, 3 coup.\\noyo nini likofi, na bambula
+  yo 2 coup ?? 1, 2\\nPO NA NINI BOZUAKA BASI NA BINO YA BANDUNDU TE? PO BAZA KITOKO
+  TE. BAYEBI PE MOSALA TE. WERRA ATIKA SYLVIE OYO YA MABELE LOKOLA NGOMBE AFANDI NA
+  MILIKI 1 MOIS ALANDI MULUBA? BONI KOSAMBWISA EKOLO NA BINO BAYE KO. BANDUNDU BATU
+  MWINDU LOKOLA BA MAKAKU.\\nNDJOLI PESA SEMEKI NAYO RESPECT S\u2019IL TE PLAIT, PO
+  BUTU EBOMBA MAKAMBU EBELE\u2026NA MATAKA MPUNDA CHAQUE SOIR, IL FAUT OYOKA NDENGE
+  SOEUR NAYO ALELAKA PE ALOBAKA EN LANGUE\u2026KIE\u2026.KIE\u2026KIE\u2026.OKO FINGA
+  NGA, MAIS VENGEANCE EKOZALA NA SOEUR NAYO\u2026DONC NASEKI PO NAZA NA KANDA TE\u2026.SOEUR
+  NAYO AZO FUTA MASUMU NAYE NIONSO !\\nPETIT FRERE JB AFINGA WERRA, MAIS LELO GISELLE
+  AZO FUTA MASUMU YA JB.\\nLINDA AZO FUTA MASUMU YA JB,\u2026SOEUR NAYO PE AZO FUTA
+  MASUMU NAYO\u2026KIE\u2026KIE\u2026.\\nMais essayez un peu de nous laisser tranquille
+  avec vos commentaires sur le collabo. Werrason est libre de choisir Kabila comme
+  candidat, il est ou le probl\u00e8me? Chacun est libre de choisir son candidat,
+  nous sommes libre dans nos choix. Nous ne sommes pas vos enfants pour que vous choisissiez
+  pour nous ce que nous devons faire. Combien d\u2019argent avez-vous d\u00e9j\u00e0
+  envoy\u00e9 \u00e0 Goma pour ces femmes viol\u00e9es? Rien du tout, kaka makelele
+  na net. Qui n\u2019a pas \u00e9t\u00e9 \u00e0 son travail parce que nos s\u0153urs
+  sont viol\u00e9es \u00e0 l\u2019Est du pays? Personne. Alors arr\u00eatez un peu
+  de nous prendre comme des imb\u00e9ciles. Vous ne savez que faire des injures et
+  lorsqu\u2019il y a un sujet de discussion pas de bons commentaires \u00e0 \u00e9difier.\\nA
+  ceux qui n\u2019aiment pas Werrason, pourquoi regardez-vous ses vid\u00e9os? Lorsque
+  vous voyez une vid\u00e9o de Werrason, allez regard\u00e9 Maman Olangi ou autres
+  vid\u00e9os. Vous nous fatiguez avec des commentaires. Si vous \u00eates fans de
+  JB alors cherchez une vid\u00e9o qui lui concerne, et d\u00e9j\u00e0 il faut la
+  trouver. Moi je soutiens tous nos artistes musiciens et je m\u2019irrite contre
+  ceux qui pensent que Werrason n\u2019est pas apte, alors qu\u2019il est le seul
+  artiste qui s\u2019octroie pleins de contrat.\\nAimons nous les uns des autres,
+  l\u2019unit\u00e9 dans la diversit\u00e9.\\nBO COMPARER BEAUTE YA GISELLE NA SYLVIE
+  MAMPATA. NA COMPRENDRE POURQUOI WERRA AKIMI SYLVIE MONOKO LOKOLA NGUBU HIPPOPOTAME\\nJUNGEN
+  dozer dimi, noki te NDJOLI akoya koluka bitumba. Tala ye ndenge alingi alela.\\nFuck
+  you Werra..!!!You are supporting Kanambe Joseph Kabila in public ????\u2026Are you
+  crazy???\u2026 You are really a durty bastard. Don\u2019t ever try to come here
+  in North America anymore, Neither in Kikwit in Bandundu where you came from durty
+  bastard. Otherwise you are going to see what is going to happen to you durty bastard.
+  Sale traitre, Collabo. Kizengi moko boye.\\nNDJOLI NDENGE OFINGI MAMA PASTEUR, YEBA
+  KE NA BUTU YA LELO SOEUR NAYO AZO PUNITION : 5 COUPS BIEN COMPTER PO E SERVIR YO
+  DE LESSON MBALA SIMA OBANDA KOPESA BAYAKA RESPECT.. KIE\u2026.KIE\u2026KIE\u2026\\n.\\n@JUNGEN:
+  BUTU EBOMBA MAKAMBO. MIBALI BAFUKAMELA BASI NA BUTU. YO MOKO OYEBI NDENGE OLELAKA
+  TANGO OLEMBULAKA LIBOLO YA SOEUR NA NGA. YO MOKO OYEBI NDENGE OPESAKA MBONGO PO
+  OKOTISA ATA MUTU YA SOKA YA PAMBA. TIKA BILOBELA MWANZA. MWASI YA MULUBA AZA YUMA
+  TE. OYEBI BA DEPENSE OSALAKA PO OZUA YE. YO MUYAKA OKANISI MWASI YA MULUBA AKOTIKELA
+  YA TEMPS NA POTO AWA. SOKI OSAKANI AKO TIA yo LIBANDA OTAMBOLA NA BROSSE A DENT
+  NA POCHE.\\nNDJOLI ezo sala yo effet nini lolenge JUGEN, WERRA, PAPY KAKOL\u2026bazo
+  sasa ba soeur nayo ya baluba ?? balobi punition nayo ezali kaka kosasa ba soeur
+  nabino.\\nezo sala yo effet nini na kati ya motema ???\\nRALPH LAUREN JE T\u2019ASSURE,
+  NDJOLI VA ME LE PAYER TRES CHER .\\n.\\ncongomikili: ekomi injustice nga moko contre
+  bayaka bozo kata comments na nga.\\nkie..kie\u2026kie\u2026.nayebisaki bino nini
+  ?? kala mingi te ndjoli azo lela , azo koka lisusu te.\\nndjoli tika kolela\u2026.ba
+  soeur nabino bango moko balingaka biso. donc moyen toboya ezali te.\\npesa respect
+  na semeki.\\nNDJOLI AKEI KOLELA EPA CONGOMIKILI , AKOMI NASUKA.\\nBayaka boyebi
+  ndenge bofibaka mabolo ya ba soeurs na ngai, ndenge bolelaka po bokotisa ata mutu
+  ya pamba. Ba soeurs bakotia bino a 500 m kala te. en plus soka na bino pe etelemaka
+  te. Bino bokanisi bana bobotaka bazalaka ya bino? Botuna ba tutsi ndenge basalaka
+  soki motu mosusu abali ndeko na bango.Bango moko pe balalaka bango.\\nAPPUYEZ SUR
+  ANCIENS COMMENTAIRES POUR LIRE TOUS LES COMMENTAIRES\"", "\"Le prix de consultation
+  \u00e0 l\u2019h\u00f4pital du Cinquantenaire pose des probl\u00e8mes\\n(2771)\\nMBONGO
+  OYO KANAMBE, JEANETTE NA ZOE KABILA BAYIBI ETAT CONGOLAIS SOKI BAZONGISI YANGO NA
+  MBOKA CONGOLAIS NIONSO AKOZALA NA COUVERTURE MEDICALE PE EKO AMELIORER SENSIBLEMENT
+  LA VIE SOCIALE DES CONGOLAIS. IL FAUT KO COMBATTRE CORRUPTION TOUT D\u2019ABORD.
+  CORRUPTION NA IMPUNITE EZA KOZONGISA MBOKA SIMA. NA RICHESSES YA CONGO, CONGOLAIS
+  IL FAUT AZUAKA SOINS YA PRESQUE OFELE. ESENGELI CONGOLAIS NIONSO AZALA NA CARTE
+  D\u2019ASSURANCE MALADIE . BOTIKA KOGANGA MODERNISATION , TANGO CONGOLAIS AZOKOKA
+  NANU TE KOFUTA BA SOINS MEDICAUX. LES SOINS DENTAIRES COUTENT ENCORE PLUS CHERS.
+  NIONSO OYO EZA KO REDUIRE ESPERANCE DE VIE YA CONGOLAIS. KOLIA MALAMU TE, KOLATA
+  MALAMU TE, SOINS EZA TE, FEMMES VIOLEES, GUERRES A L\u2019EST, OCCUPATION ET AUTRES
+  DEMONS KANAMBE. CONGOLAIS LAMUKA NA PONGI NA YO.\\nPEUPLE RDCONGOLAIS ,,,,,,,,,,,
+  Kolela pe eleki trop, un peuple MADILU, FAINEANT,PHASEUR, peuple moko alingi nionso
+  FACILEMENT mais makasi na KOSIBA,na KONDOMBOLISER,na KOMELA BIERE neti libulu,BILOBELA.
+  OYO amoni que hopital wana ekoki na ye te akende na CLINIQUE UNIVERSITAIRE, na NGALIEMA,
+  etc\u2026\u2026\u2026.. Epai ba soignaka bino banda kala mais botika BILOBELA MWANZA,
+  SONGI SONGI. SOKI okei na AF.du SUD, CHINE, INDE,FRANCE,SUISSE,BELGIQUE,USA consultation
+  ezali na combien ????????????????? Botuna TSHISEKEDI et puis po nini bokendaka bino
+  tout kolangwa na ba boites ya GOMBE,NGALIEMA,etc\u2026. te ????? PO nini basala
+  GALERIE MONGO ???????? Bolingi bomema basili, binsekwa, PUNAISES kuna ???????????.
+  Avec cette mentalit\u00e9 RDC ekomata te, yango wana suka suka RDC ekokabwana na
+  BOZOBA po toleki URSS,YOUGOSLAVIE etc\u2026.na makasi te.\"", "\"Sango yango epesami
+  na Me Georges Kapiamba, mokambi ya ONG ACAJ (Association congolaise pour l\u2019acc\u00e8s
+  \u00e0 jusitce).\\nModeste Makabuza DG ya soci\u00e9t\u00e9 SOCOC awuti kokangama
+  mpe kotiama na boloko ya Munzenze na Goma, azali kozela botinami bwa ye na Kinshasa
+  mpo na bongwisami ya misolo ya l\u2019Etat mipesamaki na misala ya kotia goudron
+  na ba nzela ya Nord-Kivu, Sud-Kivu mpe Kasa\u00ef, ekomi na Twitter Me Kapiamba.\\nBaiike
+  bakanami mpo na makambo yango lokola Vital Kamerhe mokambi ya ndako ya mosala ya
+  president Tshisekedi.\\nMokambi ya FONER (Fonds national ya entretien routier) mpe
+  bakambi ya ba soci\u00e9t\u00e9s mpe ba banques baiike bakangami mpe lokola.\\nBazuzi
+  bazali kokoba boluluki na bango.\""]'
+src_ngrams: '{"1": [[["ba"], 242704], [["oyo"], 206345], [["ye"], 135707], [["de"],
+  119380], [["yo"], 114199]], "2": [[["de la"], 14223], [["oyo ezali"], 12254], [["il
+  faut"], 11027], [["de l"], 8730], [["ba congolais"], 8038]], "3": [[["kie kie kie"],
+  3302], [["est ce que"], 2371], [["batatoli ya yehova"], 1722], [["tout le monde"],
+  1718], [["awa na poto"], 1714]], "4": [[["kie kie kie kie"], 1948], [["lire tous
+  les commentaires"], 1681], [["pour lire tous les"], 1679], [["sur anciens commentaires
+  pour"], 1678], [["commentaires pour lire tous"], 1678]], "5": [[["pour lire tous
+  les commentaires"], 1679], [["sur anciens commentaires pour lire"], 1678], [["commentaires
+  pour lire tous les"], 1678], [["appuyez sur anciens commentaires pour"], 1678],
+  [["anciens commentaires pour lire tous"], 1678]]}'
