@@ -1,0 +1,1119 @@
+corpus: hplt-v3-war_Latn
+srclang: war
+timestamp: 1758171606.2343273
+warnings:
+- src_warning_tok_nltk_wordpunct
+docs_collections: '[["CC-MAIN-2014-15", 1139], ["CC-MAIN-2024-33", 561], ["CC-MAIN-2024-30",
+  355], ["CC-MAIN-2024-38", 353], ["CC-MAIN-2021-04", 317], ["CC-MAIN-2023-14", 292],
+  ["CC-MAIN-2020-34", 288], ["CC-MAIN-2020-05", 286], ["CC-MAIN-2024-42", 265], ["CC-MAIN-2024-26",
+  263], ["CC-MAIN-2021-49", 231], ["CC-MAIN-2017-26", 222], ["CC-MAIN-2022-21", 198],
+  ["CC-MAIN-2020-10", 186], ["CC-MAIN-2022-05", 184], ["wide11", 176], ["CC-MAIN-2020-40",
+  168], ["CC-MAIN-2018-05", 162], ["wide16", 160], ["wide12", 156], ["CC-MAIN-2022-27",
+  156], ["CC-MAIN-2014-35", 153], ["CC-MAIN-2020-24", 146], ["CC-MAIN-2024-22", 129],
+  ["CC-MAIN-2017-51", 129], ["CC-MAIN-2021-10", 127], ["CC-MAIN-2021-31", 122], ["CC-MAIN-2020-29",
+  122], ["CC-MAIN-2021-43", 118], ["CC-MAIN-2022-40", 117], ["CC-MAIN-2018-39", 114],
+  ["CC-MAIN-2021-17", 110], ["CC-MAIN-2021-39", 106], ["CC-MAIN-2018-22", 98], ["CC-MAIN-2023-23",
+  97], ["CC-MAIN-2018-34", 96], ["CC-MAIN-2023-50", 90], ["CC-MAIN-2018-43", 82],
+  ["CC-MAIN-2023-40", 81], ["CC-MAIN-2024-46", 76], ["CC-MAIN-2024-18", 75], ["CC-MAIN-2020-16",
+  72], ["CC-MAIN-2022-33", 71], ["CC-MAIN-2024-10", 69], ["CC-MAIN-2022-49", 69],
+  ["CC-MAIN-2020-50", 65], ["CC-MAIN-2021-25", 64], ["CC-MAIN-2020-45", 57], ["wide15",
+  50], ["CC-MAIN-2023-06", 48], ["wide2", 46], ["wide5", 43], ["CC-MAIN-2019-04",
+  43], ["CC-MAIN-2015-11", 43], ["CC-MAIN-2014-42", 41], ["CC-MAIN-2021-21", 40],
+  ["wide10", 38], ["CC-MAIN-2015-48", 38], ["wide17", 32], ["CC-MAIN-2016-30", 31],
+  ["CC-MAIN-2024-51", 29], ["CC-MAIN-2017-04", 20], ["CC-MAIN-2015-18", 13], ["CC-MAIN-2016-44",
+  8], ["wide6", 6], ["survey3", 6], ["CC-MAIN-2016-40", 2]]'
+docs_langs: '[[0.1, 16], [0.2, 164], [0.3, 206], [0.4, 255], [0.5, 637], [0.6, 481],
+  [0.7, 839], [0.8, 1089], [0.9, 1270], [1.0, 4393]]'
+docs_segments: '[[1, 354], [2, 306], [3, 477], [4, 836], [5, 1096], [6, 1075], [7,
+  878], [8, 699], [9, 590], [10, 479], [11, 304], [12, 254], [13, 209], [14, 165],
+  [15, 129], [16, 121], [17, 107], [18, 122], [19, 102], [20, 110], [21, 85], [22,
+  65], [23, 41], [24, 48], [25, 45], [26, 45], [27, 22], [28, 24], [29, 25], [30,
+  27], [31, 22], [32, 25], [33, 12], [34, 13], [35, 19], [36, 15], [37, 20], [38,
+  12], [39, 13], [40, 17], [41, 13], [42, 12], [43, 16], [44, 14], [45, 16], [46,
+  17], [47, 14], [48, 15], [49, 6], [50, 8], [51, 21], [52, 14], [53, 14], [54, 14],
+  [55, 7], [56, 6], [57, 8], [58, 5], [59, 6], [60, 4], [61, 3], [62, 3], [63, 3],
+  [64, 5], [65, 4], [66, 1], [67, 4], [68, 2], [69, 1], [71, 1], [73, 2], [75, 1],
+  [76, 2], [77, 2], [78, 2], [81, 2], [82, 3], [83, 1], [84, 1], [87, 5], [92, 1],
+  [94, 4], [97, 5], [99, 3], [104, 2], [106, 1], [107, 1], [110, 1], [112, 1], [119,
+  1], [120, 2], [124, 1], [125, 1], [126, 1], [130, 1], [131, 1], [135, 1], [143,
+  1], [149, 1], [150, 1], [160, 1], [172, 1], [175, 1], [181, 1], [182, 1], [184,
+  1], [189, 1], [191, 1], [196, 1], [197, 1], [200, 1], [201, 1], [203, 1], [205,
+  1], [206, 1], [207, 1], [209, 1], [224, 1], [253, 1], [287, 1], [289, 1], [357,
+  2], [386, 1], [411, 1], [428, 1], [495, 1], [655, 1], [668, 1], [747, 1], [750,
+  1], [2173, 1], [10012, 1]]'
+docs_segments_mean: 13
+docs_segments_median: 7
+docs_top100_domains: '[["wikipedia.org", 2270], ["isumat.com", 1561], ["bomboradyo.com",
+  1505], ["pia.gov.ph", 926], ["jw.org", 913], ["rmn.ph", 312], ["bible.is", 308],
+  ["wordpress.com", 183], ["tacloban.gov.ph", 133], ["blogspot.com", 119], ["my-greenday.de",
+  118], ["brigadanews.ph", 99], ["ebible.org", 51], ["google-info.pl", 45], ["cpp.ph",
+  44], ["philippinerevolution.nu", 42], ["easternvista.com", 41], ["medjugorje.org",
+  38], ["bicolstandard.com", 35], ["wikiplanet.click", 32], ["bicolmail.net", 28],
+  ["guiuan.gov.ph", 27], ["pressone.ph", 24], ["info-about.ru", 24], ["catbalogan.gov.ph",
+  22], ["wiko.wiki", 18], ["gpedia.com", 18], ["magbikolkita.com", 15], ["globalsouvenirshop.com",
+  15], ["blogspot.de", 15], ["rappler.com", 12], ["search.com.vn", 11], ["know.cf",
+  9], ["classicistranieri.com", 9], ["northernsamar.gov.ph", 8], ["catarman-nsamar.gov.ph",
+  8], ["wikisource.org", 7], ["philboxing.com", 7], ["dorelco.com.ph", 7], ["naga.gov.ph",
+  6], ["estenews.org", 6], ["canavid.gov.ph", 6], ["wiktionary.org", 5], ["wikimedia.org",
+  5], ["ueliserio.net", 5], ["pinoybalita.info", 5], ["ndfp.org", 5], ["mikeligalig.com",
+  5], ["gotquestions.org", 5], ["friendster.com", 5], ["biliranisland.com", 5], ["warayblogger.com",
+  4], ["ubod.ph", 4], ["itacloban.com", 4], ["gospelgo.com", 4], ["esamelco.com.ph",
+  4], ["blogspot.jp", 4], ["bibles.org", 4], ["bible.com", 4], ["219.90.94.209.",
+  4], ["wikiwand.com", 3], ["watchtower.org", 3], ["rpnradio.com", 3], ["phnews.online",
+  3], ["nup.org.ph", 3], ["nsamarpio.online", 3], ["leytesamardailynews.com", 3],
+  ["dominicweb.eu", 3], ["borongandiocese.org", 3], ["whdl.org", 2], ["voxbikol.com",
+  2], ["villarealsamar.com", 2], ["vallalar.net", 2], ["translatewiki.net", 2], ["techsciencenews.com",
+  2], ["tausugonline.com", 2], ["sunshineonline.news", 2], ["skyscrapercity.com",
+  2], ["sinirangan.com", 2], ["scribd.com", 2], ["samarisland.com", 2], ["quinapondan.gov.ph",
+  2], ["pinoyonboard.com", 2], ["philippinestrending.com", 2], ["philippinerevolution.net",
+  2], ["pbnbicol.com", 2], ["pamibi.com", 2], ["omniglot.com", 2], ["norsam.net",
+  2], ["marmelisms.com", 2], ["lol646l.ph", 2], ["inclusivedemocracy.ph", 2], ["ethnicgroupsphilippines.com",
+  2], ["duhoctrungquoc.vn", 2], ["dioceseofborongan.com", 2], ["corporaproject.org",
+  2], ["congressomv.org", 2], ["calbayogjournal.com", 2], ["blogspot.sg", 2], ["blogspot.com.br",
+  2]]'
+docs_top100_tld: '[["com", 3638], ["org", 3334], ["gov.ph", 1147], ["ph", 490], ["is",
+  308], ["de", 133], ["net", 46], ["pl", 45], ["nu", 42], ["click", 32], ["ru", 26],
+  ["wiki", 18], ["com.ph", 13], ["com.vn", 11], ["cf", 9], ["info", 8], ["online",
+  6], ["com.au", 5], ["jp", 4], ["us", 3], ["org.ph", 3], ["eu", 3], ["vn", 2], ["travel",
+  2], ["sg", 2], ["news", 2], ["io", 2], ["in", 2], ["com.br", 2], ["xn--p1ai", 1],
+  ["top", 1], ["su", 1], ["net.ph", 1], ["cloud", 1], ["cash", 1], ["art", 1], ["app",
+  1]]'
+docs_total: 9350
+docs_wds: '[[5.0, 107], [5.1, 97], [5.2, 105], [5.3, 97], [5.4, 117], [5.5, 107],
+  [5.6, 105], [5.7, 106], [5.8, 91], [5.9, 105], [6.0, 108], [6.1, 118], [6.2, 122],
+  [6.3, 111], [6.4, 105], [6.5, 91], [6.6, 132], [6.7, 142], [6.8, 167], [6.9, 154],
+  [7.0, 150], [7.1, 154], [7.2, 181], [7.3, 178], [7.4, 208], [7.5, 249], [7.6, 264],
+  [7.7, 243], [7.8, 390], [7.9, 483], [8.0, 983], [8.1, 892], [8.2, 580], [8.3, 417],
+  [8.4, 263], [8.5, 237], [8.6, 178], [8.7, 168], [8.8, 143], [8.9, 151], [9.0, 160],
+  [9.1, 150], [9.2, 57], [9.3, 45], [9.4, 48], [9.5, 29], [9.6, 29], [9.7, 17], [9.8,
+  11], [9.9, 5]]'
+sentence_pairs: 119195
+src_bytes: 25460400
+src_chars: 25305511
+src_pii: 96
+src_tokens: 5076753
+unique_sents: 103742
+src_sent_tokens: '[[1, 3536], [2, 3826], [3, 3585], [4, 2975], [5, 3074], [6, 2676],
+  [7, 2702], [8, 3740], [9, 2633], [10, 2202], [11, 2224], [12, 2884], [13, 1878],
+  [14, 1871], [15, 1995], [16, 1716], [17, 2017], [18, 1621], [19, 1677], [20, 1648],
+  [21, 1620], [22, 1736], [23, 1644], [24, 1746], [25, 1665], [26, 1705], [27, 1737],
+  [28, 1643], [29, 1670], [30, 1590], [31, 1656], [32, 1615], [33, 1604], [34, 1526],
+  [35, 1479], [36, 1415], [37, 1326], [38, 1272], [39, 1301], [40, 1285], [41, 1196],
+  [42, 1179], [43, 1091], [44, 1145], [45, 1027], [46, 1042], [47, 932], [48, 910],
+  [49, 905], [50, 822], [51, 784], [52, 743], [53, 717], [54, 687], [55, 649], [56,
+  591], [57, 581], [58, 553], [59, 560], [60, 510], [61, 492], [62, 477], [63, 446],
+  [64, 416], [65, 414], [66, 377], [67, 396], [68, 342], [69, 454], [70, 364], [71,
+  373], [72, 290], [73, 324], [74, 314], [75, 317], [76, 286], [77, 294], [78, 263],
+  [79, 271], [80, 256], [81, 255], [82, 236], [83, 219], [84, 209], [85, 209], [86,
+  228], [87, 227], [88, 217], [89, 197], [90, 216], [91, 178], [92, 170], [93, 192],
+  [94, 180], [95, 175], [96, 198], [97, 175], [98, 156], [99, 162], [100, 181], [101,
+  175], [102, 170], [103, 186], [104, 164], [105, 148], [106, 169], [107, 157], [108,
+  151], [109, 127], [110, 139], [111, 164], [112, 149], [113, 133], [114, 143], [115,
+  127], [116, 137], [117, 139], [118, 137], [119, 105], [120, 127], [121, 105], [122,
+  99], [123, 99], [124, 123], [125, 99], [126, 104], [127, 95], [128, 105], [129,
+  107], [130, 85], [131, 92], [132, 90], [133, 79], [134, 101], [135, 89], [136, 97],
+  [137, 85], [138, 72], [139, 76], [140, 98], [141, 80], [142, 87], [143, 74], [144,
+  76], [145, 83], [146, 74], [147, 69], [148, 76], [149, 65], [150, 61], [151, 65],
+  [152, 64], [153, 73], [154, 72], [155, 63], [156, 63], [157, 74], [158, 46], [159,
+  55], [160, 61], [161, 61], [162, 57], [163, 47], [164, 51], [165, 56], [166, 46],
+  [167, 54], [168, 49], [169, 37], [170, 45], [171, 37], [172, 49], [173, 46], [174,
+  36], [175, 45], [176, 47], [177, 41], [178, 49], [179, 49], [180, 34], [181, 36],
+  [182, 37], [183, 31], [184, 37], [185, 28], [186, 25], [187, 30], [188, 43], [189,
+  33], [190, 29], [191, 36], [192, 26], [193, 25], [194, 31], [195, 30], [196, 27],
+  [197, 27], [198, 25], [199, 26], [200, 24], [201, 24], [202, 21], [203, 22], [204,
+  28], [205, 20], [206, 26], [207, 23], [208, 26], [209, 14], [210, 9], [211, 15],
+  [212, 15], [213, 12], [214, 16], [215, 22], [216, 19], [217, 29], [218, 6], [219,
+  17], [220, 21], [221, 18], [222, 13], [223, 16], [224, 15], [225, 15], [226, 10],
+  [227, 7], [228, 12], [229, 15], [230, 15], [231, 13], [232, 8], [233, 13], [234,
+  13], [235, 5], [236, 8], [237, 8], [238, 13], [239, 9], [240, 13], [241, 4], [242,
+  11], [243, 12], [244, 10], [245, 9], [246, 10], [247, 10], [248, 13], [249, 8],
+  [250, 10], [251, 5], [252, 4], [253, 7], [254, 8], [255, 4], [256, 7], [257, 4],
+  [258, 9], [259, 5], [260, 9], [261, 5], [262, 11], [263, 7], [264, 6], [265, 3],
+  [266, 3], [267, 13], [268, 6], [269, 6], [270, 5], [271, 6], [272, 6], [273, 7],
+  [274, 5], [276, 3], [277, 3], [278, 7], [279, 5], [280, 5], [281, 2], [282, 12],
+  [283, 7], [284, 3], [285, 8], [286, 4], [287, 4], [288, 4], [289, 5], [290, 4],
+  [291, 2], [292, 5], [293, 5], [294, 2], [295, 1], [296, 4], [297, 4], [298, 3],
+  [299, 4], [300, 4], [301, 6], [302, 1], [303, 3], [304, 1], [305, 2], [306, 3],
+  [307, 1], [309, 2], [310, 1], [311, 4], [312, 7], [313, 3], [314, 3], [316, 2],
+  [317, 4], [318, 2], [319, 2], [320, 5], [321, 1], [322, 5], [323, 1], [324, 3],
+  [325, 2], [326, 1], [327, 3], [328, 1], [329, 5], [330, 2], [331, 2], [334, 1],
+  [335, 2], [336, 3], [337, 2], [338, 2], [339, 2], [340, 1], [341, 4], [343, 4],
+  [346, 5], [347, 1], [348, 2], [350, 2], [351, 2], [352, 3], [354, 1], [355, 2],
+  [356, 4], [357, 4], [359, 2], [360, 1], [361, 2], [362, 3], [366, 4], [368, 3],
+  [370, 1], [371, 1], [372, 2], [373, 1], [374, 2], [375, 1], [376, 3], [377, 1],
+  [378, 2], [379, 4], [380, 2], [382, 1], [384, 3], [385, 1], [388, 2], [389, 2],
+  [391, 1], [392, 2], [395, 1], [397, 3], [398, 1], [399, 7], [400, 2], [401, 2],
+  [404, 1], [405, 2], [406, 1], [407, 1], [408, 1], [409, 2], [411, 1], [413, 1],
+  [414, 2], [415, 1], [416, 2], [417, 2], [418, 1], [419, 1], [420, 1], [423, 4],
+  [426, 3], [427, 2], [429, 2], [430, 1], [431, 1], [432, 2], [433, 1], [436, 1],
+  [437, 1], [438, 1], [439, 1], [447, 1], [449, 1], [450, 1], [452, 1], [453, 1],
+  [457, 1], [460, 1], [463, 1], [464, 4], [465, 1], [466, 2], [468, 1], [470, 1],
+  [473, 2], [474, 1], [475, 3], [476, 1], [482, 1], [483, 1], [484, 1], [486, 1],
+  [487, 4], [488, 2], [489, 2], [491, 1], [492, 2], [493, 2], [497, 1], [499, 1],
+  [501, 2], [502, 1], [503, 1], [504, 2], [505, 1], [507, 1], [508, 1], [509, 1],
+  [511, 1], [512, 1], [515, 1], [516, 1], [518, 1], [519, 2], [520, 2], [523, 1],
+  [524, 1], [526, 3], [527, 1], [530, 1], [531, 2], [532, 1], [533, 1], [534, 1],
+  [536, 1], [537, 1], [538, 1], [539, 1], [540, 1], [541, 1], [542, 1], [543, 2],
+  [544, 1], [546, 5], [548, 1], [552, 1], [553, 3], [554, 1], [556, 1], [557, 1],
+  [559, 2], [560, 1], [561, 1], [562, 2], [564, 3], [566, 1], [567, 2], [568, 2],
+  [570, 1], [573, 1], [575, 1], [579, 1], [580, 1], [582, 1], [583, 1], [584, 1],
+  [585, 1], [589, 2], [590, 2], [592, 1], [593, 1], [594, 1], [595, 1], [596, 1],
+  [597, 3], [599, 1], [603, 3], [605, 1], [606, 1], [607, 1], [610, 1], [613, 1],
+  [616, 1], [617, 1], [618, 1], [621, 1], [623, 1], [624, 1], [625, 2], [626, 1],
+  [627, 2], [629, 2], [631, 1], [632, 1], [635, 1], [638, 1], [639, 1], [640, 4],
+  [643, 2], [644, 2], [648, 1], [649, 2], [650, 2], [652, 1], [655, 1], [657, 2],
+  [658, 1], [660, 1], [661, 1], [662, 1], [663, 1], [664, 1], [665, 1], [669, 1],
+  [670, 1], [671, 2], [673, 1], [674, 2], [676, 1], [677, 2], [678, 1], [680, 1],
+  [682, 2], [683, 1], [686, 1], [689, 1], [691, 2], [693, 1], [696, 1], [698, 2],
+  [699, 3], [700, 1], [701, 1], [702, 2], [703, 3], [707, 1], [709, 1], [712, 3],
+  [713, 2], [715, 1], [718, 1], [719, 2], [721, 1], [722, 2], [723, 1], [724, 1],
+  [725, 2], [726, 2], [727, 2], [729, 1], [731, 3], [732, 3], [733, 3], [734, 2],
+  [736, 4], [738, 2], [739, 1], [740, 2], [741, 4], [742, 1], [743, 3], [744, 1],
+  [745, 3], [746, 2], [747, 2], [748, 2], [749, 2], [750, 1], [751, 1], [752, 3],
+  [753, 1], [754, 3], [755, 2], [756, 2], [758, 3], [759, 2], [760, 1], [761, 5],
+  [762, 3], [763, 1], [764, 4], [766, 2], [767, 2], [768, 3], [769, 2], [770, 2],
+  [771, 1], [772, 2], [773, 9], [774, 1], [775, 1], [776, 3], [779, 2], [780, 1],
+  [781, 1], [782, 4], [783, 1], [784, 6], [786, 5], [787, 3], [788, 1], [789, 3],
+  [790, 1], [792, 2], [793, 2], [794, 2], [795, 3], [799, 3], [800, 2], [801, 2],
+  [802, 4], [803, 2], [804, 1], [805, 1], [806, 3], [810, 2], [811, 1], [812, 1],
+  [813, 2], [814, 3], [815, 1], [816, 1], [817, 2], [819, 1], [820, 1], [821, 1],
+  [823, 3], [824, 1], [825, 1], [826, 2], [828, 2], [829, 1], [830, 1], [831, 1],
+  [832, 2], [834, 1], [835, 3], [836, 1], [837, 1], [841, 2], [844, 2], [846, 2],
+  [848, 1], [850, 2], [852, 2], [856, 3], [857, 2], [859, 2], [860, 3], [861, 1],
+  [863, 1], [865, 1], [867, 1], [870, 2], [874, 1], [876, 2], [880, 1], [881, 2],
+  [890, 2], [891, 1], [894, 1], [895, 1], [900, 1], [902, 1], [903, 1], [904, 1],
+  [909, 1], [910, 2], [911, 1], [912, 2], [913, 1], [916, 2], [917, 1], [918, 1],
+  [921, 3], [922, 1], [923, 2], [927, 1], [928, 1], [929, 2], [930, 1], [931, 1],
+  [937, 1], [938, 1], [940, 2], [941, 1], [942, 1], [944, 2], [945, 1], [946, 1],
+  [948, 2], [949, 1], [951, 1], [955, 1], [956, 1], [960, 1], [962, 2], [963, 1],
+  [966, 1], [968, 3], [970, 1], [973, 2], [974, 1], [975, 1], [976, 1], [978, 1],
+  [980, 1], [990, 1], [992, 1], [994, 1], [1000, 1], [1007, 2], [1008, 2], [1009,
+  2], [1012, 1], [1013, 1], [1018, 1], [1023, 1], [1024, 1], [1025, 1], [1029, 1],
+  [1031, 1], [1032, 1], [1035, 1], [1037, 1], [1040, 1], [1042, 1], [1043, 1], [1044,
+  2], [1046, 1], [1051, 2], [1055, 1], [1058, 1], [1061, 1], [1063, 2], [1069, 1],
+  [1072, 1], [1073, 1], [1074, 1], [1075, 1], [1076, 3], [1087, 1], [1091, 1], [1094,
+  1], [1101, 2], [1102, 2], [1106, 1], [1110, 2], [1111, 2], [1116, 1], [1123, 1],
+  [1125, 1], [1131, 1], [1137, 1], [1141, 1], [1146, 1], [1148, 1], [1150, 1], [1153,
+  1], [1154, 1], [1162, 2], [1173, 1], [1175, 1], [1180, 1], [1183, 1], [1184, 1],
+  [1186, 1], [1190, 1], [1201, 1], [1206, 1], [1207, 1], [1211, 1], [1213, 1], [1219,
+  1], [1222, 1], [1226, 1], [1230, 1], [1233, 1], [1236, 1], [1237, 1], [1239, 1],
+  [1248, 1], [1249, 1], [1250, 1], [1253, 1], [1262, 1], [1263, 1], [1264, 1], [1273,
+  1], [1276, 1], [1279, 1], [1288, 1], [1290, 1], [1291, 1], [1301, 1], [1303, 2],
+  [1313, 1], [1328, 1], [1329, 1], [1330, 1], [1332, 1], [1333, 1], [1341, 1], [1343,
+  1], [1348, 1], [1349, 1], [1353, 4], [1354, 2], [1356, 1], [1359, 1], [1362, 1],
+  [1363, 1], [1364, 1], [1370, 1], [1372, 2], [1374, 1], [1376, 1], [1381, 1], [1383,
+  1], [1388, 2], [1391, 1], [1394, 1], [1395, 1], [1399, 1], [1400, 1], [1403, 1],
+  [1404, 2], [1406, 1], [1410, 1], [1415, 1], [1422, 1], [1433, 1], [1441, 1], [1450,
+  1], [1459, 1], [1462, 1], [1469, 1], [1476, 1], [1489, 1], [1491, 1], [1496, 1],
+  [1506, 1], [1513, 1], [1519, 1], [1522, 1], [1532, 1], [1534, 1], [1539, 1], [1558,
+  1], [1559, 1], [1560, 1], [1578, 1], [1586, 1], [1609, 1], [1627, 1], [1635, 1],
+  [1645, 1], [1650, 1], [1662, 1], [1682, 1], [1694, 1], [1698, 1], [1701, 1], [1719,
+  1], [1747, 1], [1755, 1], [1760, 1], [1769, 1], [1802, 1], [1809, 1], [1810, 2],
+  [1820, 1], [1860, 1], [1866, 1], [1878, 1], [1900, 1], [1914, 1], [1915, 1], [1935,
+  1], [1937, 1], [1943, 1], [1970, 1], [1975, 1], [1986, 1], [2121, 1], [2131, 1],
+  [2191, 1], [2201, 1]]'
+src_sent_tokens_mean: 43
+src_sent_tokens_median: 26
+src_unique_sents: '[[1, 1389], [2, 2851], [3, 2219], [4, 2243], [5, 2126], [6, 2132],
+  [7, 2021], [8, 2324], [9, 1888], [10, 1822], [11, 1728], [12, 2382], [13, 1674],
+  [14, 1644], [15, 1832], [16, 1575], [17, 1610], [18, 1529], [19, 1587], [20, 1564],
+  [21, 1566], [22, 1665], [23, 1593], [24, 1661], [25, 1584], [26, 1617], [27, 1652],
+  [28, 1580], [29, 1596], [30, 1518], [31, 1577], [32, 1552], [33, 1540], [34, 1455],
+  [35, 1392], [36, 1370], [37, 1256], [38, 1229], [39, 1256], [40, 1232], [41, 1151],
+  [42, 1140], [43, 1059], [44, 1087], [45, 1002], [46, 1001], [47, 912], [48, 875],
+  [49, 845], [50, 787], [51, 759], [52, 705], [53, 685], [54, 660], [55, 622], [56,
+  575], [57, 559], [58, 531], [59, 538], [60, 495], [61, 475], [62, 464], [63, 427],
+  [64, 402], [65, 397], [66, 360], [67, 380], [68, 333], [69, 363], [70, 353], [71,
+  354], [72, 277], [73, 305], [74, 290], [75, 287], [76, 277], [77, 278], [78, 247],
+  [79, 255], [80, 249], [81, 240], [82, 224], [83, 202], [84, 199], [85, 199], [86,
+  219], [87, 206], [88, 204], [89, 188], [90, 199], [91, 173], [92, 166], [93, 184],
+  [94, 169], [95, 167], [96, 187], [97, 169], [98, 148], [99, 156], [100, 171], [101,
+  157], [102, 150], [103, 171], [104, 156], [105, 136], [106, 158], [107, 142], [108,
+  145], [109, 119], [110, 128], [111, 154], [112, 141], [113, 127], [114, 132], [115,
+  121], [116, 135], [117, 126], [118, 126], [119, 99], [120, 117], [121, 100], [122,
+  98], [123, 96], [124, 114], [125, 93], [126, 95], [127, 88], [128, 97], [129, 103],
+  [130, 84], [131, 82], [132, 88], [133, 72], [134, 96], [135, 82], [136, 97], [137,
+  76], [138, 70], [139, 71], [140, 93], [141, 76], [142, 81], [143, 73], [144, 70],
+  [145, 79], [146, 67], [147, 64], [148, 74], [149, 62], [150, 59], [151, 57], [152,
+  63], [153, 70], [154, 65], [155, 61], [156, 60], [157, 69], [158, 46], [159, 53],
+  [160, 59], [161, 57], [162, 52], [163, 42], [164, 48], [165, 51], [166, 45], [167,
+  52], [168, 42], [169, 37], [170, 44], [171, 34], [172, 46], [173, 44], [174, 35],
+  [175, 39], [176, 43], [177, 40], [178, 47], [179, 47], [180, 32], [181, 33], [182,
+  36], [183, 31], [184, 37], [185, 27], [186, 25], [187, 30], [188, 41], [189, 32],
+  [190, 29], [191, 33], [192, 24], [193, 22], [194, 27], [195, 28], [196, 24], [197,
+  25], [198, 24], [199, 24], [200, 24], [201, 21], [202, 16], [203, 21], [204, 26],
+  [205, 20], [206, 26], [207, 23], [208, 26], [209, 14], [210, 9], [211, 15], [212,
+  14], [213, 12], [214, 16], [215, 22], [216, 19], [217, 26], [218, 6], [219, 17],
+  [220, 19], [221, 18], [222, 13], [223, 16], [224, 15], [225, 15], [226, 10], [227,
+  7], [228, 11], [229, 14], [230, 13], [231, 13], [232, 8], [233, 12], [234, 13],
+  [235, 5], [236, 8], [237, 8], [238, 12], [239, 9], [240, 13], [241, 4], [242, 11],
+  [243, 12], [244, 10], [245, 9], [246, 10], [247, 9], [248, 12], [249, 8], [250,
+  10], [251, 5], [252, 4], [253, 7], [254, 7], [255, 4], [256, 7], [257, 4], [258,
+  8], [259, 5], [260, 8], [261, 5], [262, 11], [263, 7], [264, 6], [265, 3], [266,
+  3], [267, 10], [268, 6], [269, 6], [270, 5], [271, 6], [272, 6], [273, 7], [274,
+  5], [276, 3], [277, 3], [278, 7], [279, 5], [280, 5], [281, 2], [282, 7], [283,
+  7], [284, 3], [285, 6], [286, 4], [287, 4], [288, 4], [289, 5], [290, 4], [291,
+  2], [292, 5], [293, 4], [294, 1], [295, 1], [296, 4], [297, 4], [298, 2], [299,
+  4], [300, 4], [301, 6], [302, 1], [303, 3], [304, 1], [305, 2], [306, 3], [307,
+  1], [309, 2], [310, 1], [311, 4], [312, 4], [313, 3], [314, 3], [316, 2], [317,
+  4], [318, 2], [319, 2], [320, 5], [321, 1], [322, 4], [323, 1], [324, 3], [325,
+  2], [326, 1], [327, 3], [328, 1], [329, 4], [330, 2], [331, 2], [334, 1], [335,
+  2], [336, 3], [337, 2], [338, 2], [339, 2], [340, 1], [341, 4], [343, 4], [346,
+  3], [347, 1], [348, 2], [350, 2], [351, 2], [352, 3], [354, 1], [355, 2], [356,
+  4], [357, 4], [359, 2], [360, 1], [361, 2], [362, 3], [366, 3], [368, 3], [370,
+  1], [371, 1], [372, 2], [373, 1], [374, 2], [375, 1], [376, 3], [377, 1], [378,
+  2], [379, 3], [380, 2], [382, 1], [384, 3], [385, 1], [388, 2], [389, 2], [391,
+  1], [392, 2], [395, 1], [397, 3], [398, 1], [399, 2], [400, 2], [401, 2], [404,
+  1], [405, 2], [406, 1], [407, 1], [408, 1], [409, 2], [411, 1], [413, 1], [414,
+  2], [415, 1], [416, 2], [417, 2], [418, 1], [419, 1], [420, 1], [423, 3], [426,
+  3], [427, 2], [429, 2], [430, 1], [431, 1], [432, 2], [433, 1], [436, 1], [437,
+  1], [438, 1], [439, 1], [447, 1], [449, 1], [450, 1], [452, 1], [453, 1], [457,
+  1], [460, 1], [463, 1], [464, 4], [465, 1], [466, 2], [468, 1], [470, 1], [473,
+  2], [474, 1], [475, 3], [476, 1], [482, 1], [483, 1], [484, 1], [486, 1], [487,
+  4], [488, 2], [489, 2], [491, 1], [492, 2], [493, 2], [497, 1], [499, 1], [501,
+  2], [502, 1], [503, 1], [504, 2], [505, 1], [507, 1], [508, 1], [509, 1], [511,
+  1], [512, 1], [515, 1], [516, 1], [518, 1], [519, 2], [520, 2], [523, 1], [524,
+  1], [526, 3], [527, 1], [530, 1], [531, 2], [532, 1], [533, 1], [534, 1], [536,
+  1], [537, 1], [538, 1], [539, 1], [540, 1], [541, 1], [542, 1], [543, 2], [544,
+  1], [546, 5], [548, 1], [552, 1], [553, 3], [554, 1], [556, 1], [557, 1], [559,
+  2], [560, 1], [561, 1], [562, 2], [564, 3], [566, 1], [567, 2], [568, 2], [570,
+  1], [573, 1], [575, 1], [579, 1], [580, 1], [582, 1], [583, 1], [584, 1], [585,
+  1], [589, 2], [590, 2], [592, 1], [593, 1], [594, 1], [595, 1], [596, 1], [597,
+  3], [599, 1], [603, 3], [605, 1], [606, 1], [607, 1], [610, 1], [613, 1], [616,
+  1], [617, 1], [618, 1], [621, 1], [623, 1], [624, 1], [625, 2], [626, 1], [627,
+  2], [629, 2], [631, 1], [632, 1], [635, 1], [638, 1], [639, 1], [640, 4], [643,
+  2], [644, 2], [648, 1], [649, 2], [650, 2], [652, 1], [655, 1], [657, 2], [658,
+  1], [660, 1], [661, 1], [662, 1], [663, 1], [664, 1], [665, 1], [669, 1], [670,
+  1], [671, 2], [673, 1], [674, 2], [676, 1], [677, 2], [678, 1], [680, 1], [682,
+  2], [683, 1], [686, 1], [689, 1], [691, 2], [693, 1], [696, 1], [698, 2], [699,
+  3], [700, 1], [701, 1], [702, 2], [703, 3], [707, 1], [709, 1], [712, 3], [713,
+  2], [715, 1], [718, 1], [719, 2], [721, 1], [722, 2], [723, 1], [724, 1], [725,
+  2], [726, 2], [727, 2], [729, 1], [731, 3], [732, 3], [733, 3], [734, 2], [736,
+  4], [738, 2], [739, 1], [740, 2], [741, 4], [742, 1], [743, 3], [744, 1], [745,
+  3], [746, 2], [747, 2], [748, 2], [749, 2], [750, 1], [751, 1], [752, 3], [753,
+  1], [754, 3], [755, 2], [756, 2], [758, 3], [759, 2], [760, 1], [761, 5], [762,
+  3], [763, 1], [764, 4], [766, 2], [767, 2], [768, 3], [769, 2], [770, 2], [771,
+  1], [772, 2], [773, 9], [774, 1], [775, 1], [776, 3], [779, 2], [780, 1], [781,
+  1], [782, 4], [783, 1], [784, 6], [786, 5], [787, 3], [788, 1], [789, 3], [790,
+  1], [792, 2], [793, 2], [794, 2], [795, 3], [799, 3], [800, 2], [801, 2], [802,
+  4], [803, 2], [804, 1], [805, 1], [806, 3], [810, 2], [811, 1], [812, 1], [813,
+  2], [814, 3], [815, 1], [816, 1], [817, 2], [819, 1], [820, 1], [821, 1], [823,
+  3], [824, 1], [825, 1], [826, 2], [828, 2], [829, 1], [830, 1], [831, 1], [832,
+  2], [834, 1], [835, 3], [836, 1], [837, 1], [841, 2], [844, 2], [846, 2], [848,
+  1], [850, 2], [852, 2], [856, 3], [857, 2], [859, 2], [860, 3], [861, 1], [863,
+  1], [865, 1], [867, 1], [870, 2], [874, 1], [876, 2], [880, 1], [881, 2], [890,
+  2], [891, 1], [894, 1], [895, 1], [900, 1], [902, 1], [903, 1], [904, 1], [909,
+  1], [910, 2], [911, 1], [912, 2], [913, 1], [916, 2], [917, 1], [918, 1], [921,
+  3], [922, 1], [923, 2], [927, 1], [928, 1], [929, 2], [930, 1], [931, 1], [937,
+  1], [938, 1], [940, 2], [941, 1], [942, 1], [944, 2], [945, 1], [946, 1], [948,
+  2], [949, 1], [951, 1], [955, 1], [956, 1], [960, 1], [962, 2], [963, 1], [966,
+  1], [968, 3], [970, 1], [973, 2], [974, 1], [975, 1], [976, 1], [978, 1], [980,
+  1], [990, 1], [992, 1], [994, 1], [1000, 1], [1007, 2], [1008, 2], [1009, 2], [1012,
+  1], [1013, 1], [1018, 1], [1023, 1], [1024, 1], [1025, 1], [1029, 1], [1031, 1],
+  [1032, 1], [1035, 1], [1037, 1], [1040, 1], [1042, 1], [1043, 1], [1044, 2], [1046,
+  1], [1051, 2], [1055, 1], [1058, 1], [1061, 1], [1063, 2], [1069, 1], [1072, 1],
+  [1073, 1], [1074, 1], [1075, 1], [1076, 3], [1087, 1], [1091, 1], [1094, 1], [1101,
+  2], [1102, 2], [1106, 1], [1110, 2], [1111, 2], [1116, 1], [1123, 1], [1125, 1],
+  [1131, 1], [1137, 1], [1141, 1], [1146, 1], [1148, 1], [1150, 1], [1153, 1], [1154,
+  1], [1162, 2], [1173, 1], [1175, 1], [1180, 1], [1183, 1], [1184, 1], [1186, 1],
+  [1190, 1], [1201, 1], [1206, 1], [1207, 1], [1211, 1], [1213, 1], [1219, 1], [1222,
+  1], [1226, 1], [1230, 1], [1233, 1], [1236, 1], [1237, 1], [1239, 1], [1248, 1],
+  [1249, 1], [1250, 1], [1253, 1], [1262, 1], [1263, 1], [1264, 1], [1273, 1], [1276,
+  1], [1279, 1], [1288, 1], [1290, 1], [1291, 1], [1301, 1], [1303, 2], [1313, 1],
+  [1328, 1], [1329, 1], [1330, 1], [1332, 1], [1333, 1], [1341, 1], [1343, 1], [1348,
+  1], [1349, 1], [1353, 4], [1354, 2], [1356, 1], [1359, 1], [1362, 1], [1363, 1],
+  [1364, 1], [1370, 1], [1372, 2], [1374, 1], [1376, 1], [1381, 1], [1383, 1], [1388,
+  2], [1391, 1], [1394, 1], [1395, 1], [1399, 1], [1400, 1], [1403, 1], [1404, 2],
+  [1406, 1], [1410, 1], [1415, 1], [1422, 1], [1433, 1], [1441, 1], [1450, 1], [1459,
+  1], [1462, 1], [1469, 1], [1476, 1], [1489, 1], [1491, 1], [1496, 1], [1506, 1],
+  [1513, 1], [1519, 1], [1522, 1], [1532, 1], [1534, 1], [1539, 1], [1558, 1], [1559,
+  1], [1560, 1], [1578, 1], [1586, 1], [1609, 1], [1627, 1], [1635, 1], [1645, 1],
+  [1650, 1], [1662, 1], [1682, 1], [1694, 1], [1698, 1], [1701, 1], [1719, 1], [1747,
+  1], [1755, 1], [1760, 1], [1769, 1], [1802, 1], [1809, 1], [1810, 2], [1820, 1],
+  [1860, 1], [1866, 1], [1878, 1], [1900, 1], [1914, 1], [1915, 1], [1935, 1], [1937,
+  1], [1943, 1], [1970, 1], [1975, 1], [1986, 1], [2121, 1], [2131, 1], [2191, 1],
+  [2201, 1]]'
+src_langs: '[["war", 55562], ["tl", 22072], ["en", 14676], ["ceb", 13221], ["es",
+  2368], ["it", 1948], ["id", 1439], ["ilo", 794], ["hr", 767], ["pt", 670], ["de",
+  639], ["fr", 609], ["eo", 564], ["ca", 313], ["sv", 267], ["nl", 255], ["pl", 223],
+  ["tr", 211], ["gl", 161], ["ms", 160], ["fi", 132], ["la", 126], ["ru", 111], ["lt",
+  108], ["sr", 104], ["hu", 100], ["jv", 89], ["ur", 86], ["ja", 86], ["vi", 70],
+  ["cs", 68], ["eu", 60], ["nb", 58], ["sw", 53], ["sl", 48], ["nn", 48], ["et", 47],
+  ["ro", 44], ["th", 40], ["uz", 37], ["zh", 36], ["el", 33], ["ia", 32], ["su", 28],
+  ["sq", 28], ["rm", 28], ["fa", 26], ["da", 23], ["br", 23], ["io", 22], ["sk", 20],
+  ["cy", 20], ["bcl", 20], ["az", 20], ["pam", 17], ["nds", 17], ["kn", 17], ["bs",
+  17], ["qu", 15], ["ml", 15], ["ku", 15], ["fy", 15], ["uk", 13], ["is", 13], ["min",
+  12], ["lv", 12], ["ht", 12], ["pms", 11], ["kw", 11], ["ko", 11], ["vo", 10], ["mk",
+  10], ["gn", 10], ["ta", 9], ["ar", 8], ["tg", 6], ["so", 6], ["oc", 6], ["my", 6],
+  ["hy", 6], ["hsb", 5], ["hi", 5], ["gv", 5], ["gd", 5], ["bar", 5], ["si", 4], ["sco",
+  4], ["lb", 4], ["jbo", 4], ["he", 4], ["ga", 4], ["te", 3], ["nap", 3], ["co", 3],
+  ["bn", 3], ["bg", 3], ["yo", 2], ["ug", 2], ["mg", 2], ["ie", 2], ["cv", 2], ["ast",
+  2], ["yue", 1], ["wuu", 1], ["vep", 1], ["tt", 1], ["sc", 1], ["sa", 1], ["ps",
+  1], ["os", 1], ["or", 1], ["mzn", 1], ["mwl", 1], ["mt", 1], ["mr", 1], ["lmo",
+  1], ["li", 1], ["km", 1], ["kk", 1], ["ka", 1], ["gu", 1], ["gom", 1], ["cbk", 1],
+  ["bh", 1], ["an", 1], ["am", 1], ["als", 1], ["af", 1]]'
+hardrules_tags: '{"not_too_long": 1838, "not_too_short": 9676, "length_ratio": 0,
+  "no_urls": 3068, "no_bad_encoding": 14, "pii": 96}'
+sample: '["\"An Andong (Pagsay\u00f3d sa koreano: [an.do\u014b]) iyo an syudad sa
+  South Korea, asin iyo an kabisera kan Amihanan na Gyeongsang. Iyo iyan an pinakaamihanan
+  na syudad sa amihanan na parte kan probinsya na may populasyon na 167,821 poon kaidtong
+  Oktobre 2010. An Salog Nakdong nagbubulos sa syudad. An Andong iyo an market centre
+  para sa nakapalibot na agricultural areas.\\nPoon kan dekada 1970 an Andong nagin
+  marikas an pag-uswag, minsan ngani an populasyon buminaba nin haros pitong pulong
+  ribo huli ta an mga tawo luminipat sa Seoul, Busan, Daegu asin ibang urban centres.
+  Kaidtong huring dekada kan 1990 asin kaamayi kan dekada 2000 nagin kan na turismo
+  asin cultural center.\\nMidbid an Andong bilang sentro kan kultura asin folk traditions.
+  An nakapalibot na area pigmamantenir an dakol na klase nin mga tradisyon asin an
+  Andong Folk Festival na piggaganap sa katahawan kan Oktobre kada taon. An saro sa
+  pinakasikat na aspekto kan mga kultural festivities na ini iyo an Andong masks.\\nAn
+  Andong National University, nag-eespesyalisar sa edukasyon asin Korean folklore,
+  marikas na nagtalubo kaidtong dekada 1970. Other tertiary institutions kabali an
+  Andong Science College asin Catholic Sangji College.\"", "\"Ha mga gindumara nga
+  Police operation ha bug-os nga Rehiyon tikang Septyembre 17 yana nga tuig tubtob
+  Setyembre 24 o kun usa ka semana, 270 nga mga wanted person an naaresto han mga
+  kapulisan.\\n6 nga Police Provincial Office ngan 2 nga City Police Office an nagdumara
+  hin intensify arrest ha mga wanted person nga may mga pending nga kaso.\\nIni an
+  pinaka syahan nga nahinabo nga ha sakob han pito kaadlaw, sugad na hito nga numero
+  an mga nadakop han mga otoridad.\\nSumala kan PNP Regional Director PCSupt. Gilberto
+  Cruz, angay dakpon ngan diri la pabay-an ini nga mga wanted person nga magsinudoysudoy
+  ha mga lugar ha Rehiyon.\\nBase ha datos han PNP Region 8, 20 tanan an mga naaresto
+  sakob ha Top 10 Wanted Person ha City ngan Municipal level.\\nHa 270 nga mga naaresto,
+  37 dinhi in may kaso nga pangawat o kun theft, 32 ha murder, 29 ha homicide, 18
+  ha rape, 13 ha robbery ngan 11 naman ha physical injury. Ngan bayolasyon naman ha
+  special laws ngan non index crimes in aada ha 130.\\nSumala han Police Regional
+  Office, padayon ini nga police operation pag aresto ha mga wanted person, sobra
+  pa 2000 an may standing warrant of arrest.\\nDiri la daw ini makakabulig ha PNP
+  kundi makakabulig liwat ha mga naaresto nga depensahan an ira mga kalugaringon ha
+  korte.\"", "\"\u201cPAGMAKUSOG DIDA HAN GINOO.\u201d (Efeso 6:10) | Surat Pastoral
+  para han Ika-tolo ka Tuig nga Pagdumdum han Bagyo Yolanda/Haiyan\\nLast Updated
+  on Wednesday, 2 November 2016 10:57 Written by frneil Wednesday, 2 November 2016
+  10:43\\nHinigugma nga Bungto han Dios:\\nAn grasya ug kamurayaw han aton Ginoo Jesukristo!\\n1.
+  Tolo katuig na an laglabay, naigo kita han Bagyo nga Yolanda ug damo pa nga lugar
+  dinhi ha Visayas, ug nagdara ini hin makalilisang nga destruso ha aton mga panimalay,
+  mga pakabuhian, mga uma, mga simbahan, mga kapilya, mga fasilidad han gobyerno,
+  mga istraktura, ug damo pa. Labaw han ngatanan, damo nga mga kinabuhi in nawara
+  ha kalit la ngan makaharadlok nga panhitabo. Ini ngatanan diri naton mahingangalimtan
+  ug diri sadang naton hikalimtan.\\n2. Karuyag ko ipaabot ha iyo an akon pagsaludar
+  tungod han iyo kamarig-on ug han ngatanan nga pagsakripisyo nga iyo iginpakita dida
+  han aton hini-usa nga panalinguha agud kita makabangon tikang hin sugad nga makangingirhat
+  nga trahedya. Natoo ako nga an aton madig-on nga pagtapod ug pagsarig sa Dios amo
+  an naghatag ha aton hin paglaum ug inspirasyon basi kita magpadayon ug magtikang
+  ngahaw tikang ha kawarayan.\\n3. Aton igin-aampo, ha espesyal nga paagi, adton ngada
+  yana in padayon pa nga nagtatalinguha hin pagtukdaw ngahaw kahuman han nasabi nga
+  kalamidad. Aton liwat padayon nga ig-ampo an aton hinigugma nga nagkamatay, ha aton
+  pagdumdum han kahamili han ira mga kinabuhi, nga unta hira in makabiling hin kamurayaw
+  didto han kanan Dios langitnon nga ginhadian.\\n4. Ngadto han mga pamilya nga hasta
+  ngada yana in nag-uukoy pa dida hin mga \u201ctemporary shelters,\u201d karuyag
+  ko ipahimatngon ha iyo nga ha duha o tolo ka tuig, an iyo temporaryo nga mga urukyan
+  in kinahanglan balyo-an basi magin madig-og para hin ano man nga tiarabot nga kalamidad.
+  Sayod kita nga kadak-an han aton mga \u201ctemporary shelters\u201d in hinimo tikang
+  hin mga kahoy hin lubi (coco lumber). Tungod kay maaram man kita nga diri ini mailob
+  hin mga bagyo nga sugad kakusgon hit Yolanda o Ruby, kaangayan la nga maghimo kita
+  hin mga pamaagi agud makahimo kita hin mas marig-on pa nga mga puruy-anan.\\n5.
+  Kinita naton nga bisan an mga banyaga nga mga tawo in mismo napa-usa han aton kamarig-on
+  ug kamailobon ha butnga han Yolanda. Kundi aton liwat angay kitaon nga an aton pagtoo
+  sa Dios amo an nakahimo nga mabaskog han aton tagsa nga kalugaringon, mga pamilya,
+  ug mga komunidad ha luyo han mga dagoraot nga dara hit \u201cclimate change\u201d
+  (pagbag-o han panahon) sugad han Yolanda. Sanglit, aton pagmayoyoon ug padilaabon
+  ini nga aton pagtoo. Aton pag-ukyan ug ipaangbit ini nga aton pagtoo ngadto hit
+  iba. Kundi an kamabaskog in liwat nanginginahanglan nga magtindog kita hin mga balay
+  ug istraktura nga mailob kontra hit mga super-typhoons, mga pagbaha, ug mga linog.
+  Usa pa liwat nga panginahanglanon amo an pagpundar hin mga panginabuhian o mga pamaagi
+  hin pangita hin kwarta nga mailobon ha butnga hin mga kalamidad.\\n6. Mayda liwat
+  mga ayat han aton panahon yana nga kinahanglan naton pagburubligan sugad han masunod:\\ni.
+  An pagpabalik ha normal han balanse han aton ecology\\nii. An pagpanalipod han aton
+  kalibungan\\niii. An pagtanum hin damo pa nga kakahuyan ug hin mga tanaman ha aton
+  palibot\\niv. An pag-recycle han mga butang nga aton adlaw-adlaw nga ginagamit\\nv.
+  An paggamit hin mga klase hin enerhiya nga diri nakakahatag hin polusyon ha aton
+  kalibungan\\nvi. An pag-iban hin paggamit han aton mga ginkukuhaan hin enerhiya
+  sugad han elekrisidad, krudo, ug iba pa pinaagi hin pag-ukoy hin simple nga mga
+  kinabuhi\\nPangatapusan\\nIni nga ikatolo ka-tuig nga aton pagdumdum han Yolanda
+  in diri unta magdara ha aton hin mga pagpasibaya. Kinahanglan mag-aghat ini ha aton
+  hin dugang pa nga kaandam ug kama-binantayon han mga tigaman han panahon nga inupdan
+  hin responsable ug igo nga paghibaro han mga butang. Sanglit gin-aabi-abi ko kamo
+  hin pamati han mga notisya tikang han mga opisyal nga mga buhatan sugad han PAGASA
+  mahiunong han lokasyon, agi-anan, kusog, ug ginbabana-bana nga epekto han mga bagyo,
+  mga dulok o storm surges, ug iba pa nga mga kalamidad ug mga kadelikadohan. Sugad
+  hit pakig-gyera nga waray mas malabaw pa kontra hit pagin madinaugon, ha panahon
+  hit kalamidad, waray mas mahitatanding pa kontra hit pagin pirmi-andam.\\nAn Birhen
+  Maria, aton Iroy, pag-ampo unta para ha aton agud gawson kita han Dios ha ngatanan
+  nga mga karat-an.\\nDida han Ginoo,\\n+CRISPIN B. VARQUEZ, DD\\nObispo han Borongan\\nLearn
+  More\u201cBE STRONG IN THE LORD\u201d (Eph 6:10) | Pastoral Letter on the Third
+  Anniversary of Super Typhoon Yolanda/Haiyan\u201d\\nLast Updated on Wednesday, 2
+  November 2016 10:11 Written by frneil Wednesday, 2 November 2016 10:06\\nBeloved
+  People of God:\\nGrace and peace of our Lord Jesus Christ!\\n1. Three years ago
+  Super Typhoon Yolanda hit our area and many parts of the Visayas region, bringing
+  horrific destruction on our homes, livelihood, farms, churches, chapels, government
+  facilities, infrastructures, and others. Most of all, many lives were lost in one
+  terror-stricken sweep. All of these we cannot and must not forget.\\n2. May I congratulate
+  you all for the courage and sacrifices that you have shown in our common efforts
+  to rise from the depths of such a tragedy. I believe it was our common faith and
+  trust in God that gave us all the hope and the inspiration to live and move on.\\n3.
+  We pray in a special way for those who are still in the process of recovery. And,
+  without diminishing the memory of their lives, let us continue to pray for our beloved
+  dead that they may find peace in God\u2019s heavenly kingdom.\\n4. Please allow
+  me to address the families who are still living in temporary shelters. In two or
+  three years your temporary homes need replacements that are stronger against any
+  possible emergency. I am deeply concerned that these shelters are built mostly of
+  coco lumber. Seeing how obviously helpless these shelters are against another Yolanda
+  or Ruby, I urge you to find suitable remedies to your homes that need them.\\n5.
+  We all have seen how even foreigners were awed by our resilience after Yolanda.
+  But we must all acknowledge the fact that our faith in God has made individuals,
+  families and communities resilient in the aftermath of climate change disasters
+  like Yolanda. Therefore, let us treasure and keep our faith burning. To do so we
+  must live and share that faith with others. Resilience also requires us to build
+  houses and infrastructures able to stand against super typhoons, flooding and earthquakes.
+  Equally important, we must cultivate livelihoods and sources of income resilient
+  to calamities, that is, we must be able to support our families despite acts of
+  nature beyond our control.\\n6. There are other challenges we must hurdle together:\\ni.
+  the restoration to normalcy of our ecological order;\\nii. the protection and conservation
+  of our environment;\\niii. planting of trees and the greening of our surroundings;\\niv.
+  reuse and recycling of goods and products;\\nv. continuing and better use of renewable
+  energy; and\\nvi. reduction of energy consumption through austere and simple\\nlifestyle.\\nConclusion\\nThe
+  third anniversary of Yolanda cannot lead us to complacency. It should and must lead
+  us to watchfulness and preparedness marked by informed resilience. In this regard
+  I urge everyone to be ever attentive to official news and information sources, such
+  as PAG-ASA on crucial details as the location, path, strength and projected effects
+  of typhoons, storm surges (tidal waves) and other calamities or emergencies. If
+  there is no substitute to victory in war, neither is there any substitute to preparedness
+  in any emergency.\\nMay Mary, our Mother, intercede for our deliverance from all
+  evil.\\nYours in the Lord,\\n+CRISPIN B. VARQUEZ, DD\\nBishop of Borongan\\nLearn
+  More\u201cBUHATA GUD AN TAMA UG MATADONG HA ATUGANGAN HAN IMO DIOS\u201d\\nLast
+  Updated on Friday, 29 November 2013 11:22 Written by admin Friday, 29 November 2013
+  11:22\\nSurat Pastoral Hiunong han Kahimtang Kahuman han Super Typhoon Yolanda\\nHinugugma
+  nga bungto han Dios:\\nBaraan nga takna ha iyo ngatanan!\\nIkaduha na ini nga Surat
+  Pastoral nga akon iginpapadara ha iyo tungod han aton yana kahimtang kahuman han
+  Super Typhoon Yolanda. Aanhi kita yana hin kahimtang nga diri normal. Damo han aton
+  mga kabugtuan labi na ha Sur nga bahin han Diyosesis ug probinsya han Eastern Samar
+  in padayon nga waray pagkaon, tubig nga maiinom, balay o atop nga masisirongan,
+  medisina, gasolina o diesel. Ha kabug-osan waray pa kita kuryente ug diri pa gud
+  natutuhay an aton mga paagi ha komunikasyon, labi na an pagtaga signal ha cell phone,
+  ATM ha bangko, ngan sugad man an iba pa nga serbisyo ha aton mga pagkinahanglan.
+  Kita ngatanan naabat gud hin dako nga kakulangan.\\nHa akon katungdanan pagin iyo
+  Obispo ug ha ngaran han aton pagkamagburugto, nakikiusa ako ha iyo, labi na ha ngatanan
+  nga mga biktima. Ha ngaran han aton pagka tawhanon ug, labi na, han aton pagka sumusunod
+  ni Cristo, ayaw kita hingalimot nga aton obligasyon an pagpakita ug pagpa-abat han
+  pagkamaupay ha pulong nga ha buhat ha ngatanan.\\nKundi diri ako mag-aalang pagsumat
+  ha iyo han akon kasubo hadton mga nanhitabo ug nanhihitabo nga pagsingabot hin pipira
+  nga mga nagnenegosyo ug nagpapakabuhi hini nga panahon hin trahedya. May-ada ha
+  ira, mga tawo o kumpanya, an nasukot o namamaligya nga lapos kaupay ha tama ug kaangayan
+  hin mga pagkaon, maiinom nga tubig, gasolina, pamasahi ha mga sarakyan, mga gamit
+  ha pangisda, pag-uma ug pagbalay o pag-ayad hin balay. Ayaw kita hingalimot nga
+  diri la ini supak han mga sugo sa Dios. Supak pa ini han tinuod nga katuyuanan han
+  pagnegosyo ug pagpakabuhi. Diri kita nagnenegosyo para la ha pagganansya. Nagnenegosyo
+  ug nagpapakabuhi kita para han pagpakaupay han aton pagkatawo. An nakakaraot ug
+  nakakatalumpigos han igkasitawo nakakadaot labi na gud had pagkatawo han tawo nga
+  nagbubuhat hini. Ha luyo nga bahin, kon mga tawo nga ginsisirbihan o customers naghihingaupay,
+  an mga negosyante ug nagpapakabuhi na-asenso han ira pagkatawo ug, labaw han ngatanan,
+  han ira pagka Cristiyano.\\nIni nga panahon hin krisis usa liwat ini nga higayon
+  nga kita magpahayag nga kita natubo ha aton pagkatawo ngan pagka tinun-an ni Cristo.
+  Singabot kita hini nga panahon hin paghunahuna ug pagbuhat han aton maibubulig han
+  aton igkasitawo nga nagsasakit, diri hin paghika ganansya nga nakakatalumpigos labi
+  na han mga biktima. Bendisyonan unta kita han aton mahigugmaon nga Dios nga diri
+  nagpapasibaya ug matinumanon han iya paghigugma ha aton bisan ha panahon hin trahedya.\\nTugwayan
+  unta kita ngan ig-ampo nga dayuday han aton Baraan nga Iroy, an Mahal nga Birhen
+  Maria.\\nAn iyo Obispo ug Bugto kan Cristo\\n+ CRISPIN B. VARQUEZ, DD\\nObispo han
+  Borongan\\nNovember 23, 2013\\nLearn More\"", "\"Mga may kalabotan nga binag-o\\nIbutang
+  an ngaran han pakli basi maipakita an mga pakli nga nakasumapy pakadto o pakadi
+  hinin nga pakli. (Basi makit-an an mga api hini nga kaarangay, ibutang an Kaarangay:Ngaran
+  han kaarangay). An mga binalyuan ha mga pakli ha your Watchlist nakasurat nga madakmol.\\n-
+  B\\n- Ini nga pagliwat hin naghimo hin bag-o nga pakli (kitaa gihapon talaan han
+  mga bag-o nga pakli)\\n- g\\n- Gutiay ini nga pagliwat\\n- b\\n- Ini nga pagliwat
+  in ginbuhat han bot\\n- D\\n- Wikidata nga pagliwat\\n- (\u00b1123)\\n- An kadako
+  han pakli in nabag-o hin ini nga numero nga mga byte\\n19 Enero 2020\\n- Rusya19:54
+  +19 2a00:1370:8129:e0a3:9499:e604:6ede:1699\"", "\"Natawhan nga Tuig: 1956\\nNatawhan
+  nga Nasud: Canada\\nPagkinabuhi Hadto: Nawad-an hin paglaom, imoral, ngan bayolente\\nAN
+  AKON NAGLABAY\\nNatawo ako ha syudad han Calgary ha Alberta, Canada. Han minasus-an
+  pa ako, nagbulag an akon mga kag-anak, ngan kami ni Nanay binalhin ngadto ha balay
+  han akon lolo ngan lola. Hinigugma kami nira Lolo ngan Lola, ngan malipayon gud
+  ako nga bata. Nahinunumdoman ko pa nga hito nga mga panahon, malipayon ngan murayaw
+  an akon kinabuhi.\\nHan syete anyos ako, nagbag-o gud an akon kinabuhi han hi Nanay
+  ngan hi Tatay nag-asawa utro ngan binalhin kami ngadto ha St. Louis, Missouri ha
+  United States. Waray pag-iha, nahibaro ako nga hi Tatay bayolente ngay-an. Pananglitan,
+  pag-uli ko tikang ha eskwelahan han siyahan pa la nga adlaw han amon klase, nahibaroan
+  niya nga gin-bully ako ngan waray ako umato. Nasina gud hiya ngan ginsuntok niya
+  ako hin mas makusog pa kay han mga suntok han akon mga kaeskwela! Tungod hito, nahibaro
+  ako makig-away. Salit han syete anyos pa la ako, nagtikang na ako makig-away.\\nMadagmit
+  masina hi Tatay, salit diri malipayon hi Nanay, ngan agsob hira magrasonay ngan
+  mag-away. Nagtikang ako magdroga ngan mag-inom hin de-alkohol nga irimnon han 11
+  anyos ako. Nagin mas agresibo ako ngan pirme may iginkakaaway ha kalye. Paggradwar
+  ko ha hayskul, nagin bayolente na gud ako.\\nHan 18 anyos ako, inapi ako ha U.S.
+  Marine Corps. Tungod han akon training didto, nahibaro ako pagpatay hin tawo. Paglabay
+  hin lima ka tuig, binaya ako ha militar basi mag-aram hin psychology kay karuyag
+  ko makatrabaho ha Federal Bureau of Investigation. Nagtikang ako pag-eskwela ha
+  unibersidad ha United States ngan han binalik kami ha Canada, iginpadayon ko ito
+  didto.\\nHan nakadto ako ha unibersidad, nawad-an gud ako hin paglaom nga magbabag-o
+  pa an mga tawo ngan an kahimtang han kalibotan. Nakita ko nga an mga tawo makikalugaringon
+  gud, an ngatanan nga butang ha kalibotan baga hin waray pulos, ngan an mga problema
+  han mga tawo baga hin waray solusyon. Waray na gud ako maglaom nga may mahihimo
+  pa an mga tawo basi magin maopay an kahimtang ha kalibotan.\\nTungod kay waray katuyoan
+  an akon kinabuhi, nagpatakas ako ha de-alkohol nga irimnon, droga, sex, ngan an
+  akon na la ginhihinunahuna amo an pagkaada damu nga kwarta. Pirme ako adto ha mga
+  parti ngan nakikig-sex ha iba-iba nga babaye. Tungod han akon training ha militar,
+  nagin makusog an akon kompyansa, salit pirme ako nakikiaway. Naghunahuna ako nga
+  ako an magdidesisyon kon ano an tama ngan kon ano an sayop ngan ginkukompronta ko
+  an bisan hin-o nga ginhuhunahuna ko nga nagraraugdaog ha iba. Pero ha pagkamatuod,
+  kontrolado na ako han akon pagin bayolente.\\nKON PAONAN-O NABAG-O HAN BIBLIA AN
+  AKON KINABUHI\\nUsa ka adlaw, ako ngan an akon sangkay nakadto ha basement han akon
+  balay ngan nag-aandam kami han amon ibaraligya nga marijuana. Pariho kami high ha
+  droga. Ginpakianhan ako han akon sangkay kon natoo ako ha Dios. Binaton ako, \u201cKon
+  an Dios an hinungdan han mga pag-antos ha kalibotan, diri ko karuyag nga makilala
+  hiya.\u201d Kinabuwasan, ha siyahan nga adlaw han akon bag-o nga trabaho, ginpakianhan
+  ako han akon katrabaho nga Saksi ni Jehova, \u201cPagkita mo, an Dios ba an hinungdan
+  han mga pag-antos ha kalibotan?\u201d Nahipausa gud ako ha iya pakiana kay pariho
+  ito han amon naistoryahan han akon sangkay, salit nainteres ako. Han sumunod nga
+  unom ka bulan, damu an amon naistoryahan mahitungod ha Biblia, ngan iya iginpakita
+  ha akon an baton han Biblia ha pipira han akon pinakamakuri nga mga pakiana mahitungod
+  ha kinabuhi.\\nHito nga panahon, may ka-live-in ako, ngan nadiri hiya kon iginsusumat
+  ko ha iya an akon mga nahibabaroan. Usa ka Domingo, ginsidngan ko hiya nga gin-imbitar
+  ko an mga Saksi ha balay basi pag-adman namon an Biblia kaupod nira. Kinabuwasan,
+  pag-uli ko tikang ha trabaho, waray na hiya ha balay ngan gindara niya an ngatanan
+  namon nga gamit. Ginawas ako ngan nagtinangis. Nag-ampo liwat ako ha Dios; nakimalooy
+  ako ha iya nga buligan ako. Ito an siyahan nga higayon nga gin-gamit ko an personal
+  nga ngaran han Dios, nga Jehova, ha pag-ampo.\u2014Salmo 83:18.\\nPaglabay hin duha
+  ka adlaw, nagpa-Bible study ako ha siyahan nga higayon ha mag-asawa nga Saksi. Pagbaya
+  nira, padayon nga ginbinasa ko an amon gin-aadman nga libro nga Mahimo Ka Mabuhi
+  ha Waray Kataposan ha Paraiso nga Tuna, ngan natapos ko ito hito nga gab-i. a Nabantad
+  gud an akon kasingkasing ha akon mga nahibaroan mahitungod kan Jehova nga Dios ngan
+  ha iya Anak nga hi Jesu-Kristo. Nakita ko nga mapinairon hi Jehova ngan nasasakit
+  hiya kon nag-aantos kita. (Isaias 63:9) Labi nga nabantad ako han gugma han Dios
+  para ha akon ngan han halad nga ginhatag han iya Anak para ha akon. (1 Juan 4:10)
+  Nakasiring ako nga nagpailob gud ha akon hi Jehova \u201ckay diri niya karuyag nga
+  mabungkag an bisan hin-o, lugod karuyag niya nga magbasol an ngatanan.\u201d (2
+  Pedro 3:9) Inabat ko nga karuyag ni Jehova nga magin sangkay niya ako.\u2014Juan
+  6:44.\\nHito mismo nga semana, nagtikang ako pag-atender ha mga katirok ha kongregasyon.
+  Hilaba an akon buhok, nakaariyos ako, ngan makaharadlok an akon hitsura. Pero gintratar
+  ako han mga Saksi nga sugad hin ira ako kapamilya nga maiha na nira nga waray makita.
+  Tinuod gud hira nga mga Kristiano. Inabat ko nga baga hin nakauli ako kanda Lolo
+  ngan Lola, pero hito nga takna, mas malipayon pa gud ako.\\nWaray pag-iha, hinay-hinay
+  nga ginbag-o han Biblia an akon kinabuhi. Nagpaarot ako, gin-undang ko an ngatanan
+  nga imoral nga buhat, ngan waray na ako magdroga ngan maghinubog. (1 Corinto 6:9,
+  10; 11:14) Karuyag ko mapalipay hi Jehova. Salit kon nahibabaroan ko nga diri niya
+  naruruyagan an usa nga butang nga akon ginbubuhat, diri ko ito ginpapakamatadong.
+  Lugod, kaurogan na nga nakukonsensya ako. \u2018Diri ko na ini puydi himoon,\u2019
+  nasiring ako ha akon kalugaringon. Ngan naniningkamot ako nga bag-uhon dayon an
+  akon panhunahuna ngan mga ginbubuhat. Sugad nga resulta, nagin mas maopay an akon
+  kinabuhi kay ginbuhat ko an karuyag ni Jehova nga buhaton ko. Han Hulyo 29, 1989\u2014unom
+  ka bulan tikang han nagpa-Bible study ako\u2014nabawtismohan ako sugad nga Saksi
+  ni Jehova.\\nMGA KAOPAYAN NGA AKON NAPAHIMULSAN\\nGinbag-o han Biblia an akon personalidad.
+  Hadto, kaurogan na nga nagigin bayolente ako kon may nagtatratar ha akon hin diri
+  maopay. Pero yana, naniningkamot gud ako nga \u2018makigmurayaw ha ngatanan nga
+  tawo.\u2019 (Roma 12:18) Nahimo ko ini diri tungod han akon la pangalimbasog, kondi
+  tungod han bulig han Pulong ngan baraan nga espiritu ni Jehova.\u2014Galacia 5:22,
+  23; Hebreo 4:12.\\nImbes nga magin uripon han droga, kamadarahog, ngan imoral nga
+  mga hingyap, nangangalimbasog na ako yana nga mapalipay hi Jehova nga Dios ngan
+  ihatag ha iya an akon pinakamaopay. Kaapi na hito an pagbulig ha iba nga makilala
+  hiya. Paglabay hin pipira ka tuig tikang han nabawtismohan ako, binalhin ako ha
+  iba nga nasud basi bumulig ha pagsangyaw ha mga lugar nga nanginginahanglan gud
+  hin mga magwarali. Ha naglabay nga mga tuig, nalipay gud ako nga matutdoan an damu
+  nga tawo ngan makita kon paonan-o nagin maopay liwat an ira kinabuhi tungod han
+  Biblia. Nalilipay liwat ako nga nagin Saksi ni Jehova hi Nanay. An usa nga nakabulig
+  ha iya amo an iya nakita nga mga pagbag-o ha akon batasan ngan panggawi.\\nHan 1999,
+  ha El Salvador, naggradwar ako ha gintatawag yana nga School for Kingdom Evangelizers.
+  Ginbansay ngan gintutdoan ako hito nga eskwelahan basi mahibaro ako ha pagpanguna
+  ha pagsangyaw nga buruhaton ngan ha pagtutdo ngan pag-ataman han kongregasyon. Hito
+  liwat nga tuig, nagpakasal kami han akon mahusay nga asawa nga hi Eugenia. Magkaupod
+  nga nag-aalagad kami sugad nga bug-os-panahon nga mga parasangyaw ha Guatemala.\\nYana,
+  diri na ako nawawad-an hin paglaom ha kinabuhi, lugod malipayon gud ako. Tungod
+  han akon pag-aplikar han mga katutdoan han Biblia, diri na ako uripon han seksuwal
+  nga imoralidad ngan kamadarahog ngan an akon kinabuhi napuno hin tinuod nga gugma
+  ngan kamurayawan.\"", "\"MGA DEALER NGA NAGBABALIGYA HIN ISDA NGA TIKANG HA GAWAS
+  HAN SYUDAD KINAHANGLAN UMAGI HA FISHPORT\\nNagpasabot an usa nga opisyal han Tacloban
+  City Fish Port ha mga nagbabaligya o naangkat hin mga isda ngan iba pa nga produkto
+  nga tikang ha dagat nga tikang ha gawas han syudad nga umagi anay ha ira buhatan
+  para dire mamultahan.\\nGinpapatuman man gud han opisina an Ordinance No. 2015-12-19
+  o an \u201cOrdinance Governing the Use, Management and Operation of the Tacloban
+  City Fish Port, Prescribing Fees and Charges, and for other purposes.\u201d Panoyoan
+  han ordinansa nga magin hapsay, sistematiko, ngan sentralisado an fishing industry
+  han syudad, labot la han pagsiguro nga presko ngan malimpyo an mga produkto nga
+  naabot ha mga merkado. Sanglit an tanan nga fishing vessels, bulk fish carriers,
+  wholesale fish suppliers ngan dealers ginmamando nga umagi ha fish port han syudad
+  nga namumutang ha Quezon Boulevard.\\nKasumpay hine, naglilibot an mga personales
+  han fish port han mga talipapa ngan Merkado han syudad para siguraduhon nga mayda
+  kaangayan nga permit an mga nagbabaligya hin isda ngan iba pa nga produkto nga tikang
+  ha dagat.\\nDurante han ginbuhat nga operasyon han grupo kakulop, Martes, Marso
+  14, upat (4) nga mga magbaraligya hin isda nga nagtitikang ha Calbiga ngan Marabut,
+  Samar an nahisabotan nga waray umagi ha fish port, sumala kan Ben Pido.\\nGinsumat
+  gihapon ni Pido durante Oras Han Tacloban Radio Program han City Information Office,
+  nga gintiketan an upat han mga personales han fish port an upat, ngan gin-abisohan
+  nga sumunod han mga aludayday han city ordinance.\\nAn mga penalidad han mga masupak
+  han fish port ordinance amo an masunod: P2,000 para han first offense, P4,000 para
+  han second office ngan P5,000 han third offense.\\n(via H.J. Roca upod an report
+  ni E.A. Lagahit/CIO)\\nPhoto: E.A. Lagahit\\nLeave a comment\"", "\"TACLOBAN CITY
+  \u2013 Aanhi na ha syudad han Tacloban an Cargo Vessel nga Jing- Ming No. 16 nga
+  sumanglad ha Northern Samar nga may sakay nga 9 nga foreign national nga narescue
+  han mga otoridad dida han lumasurbo an Bagyong Agaton.\\nSumala kan Lt. Johonsan
+  Fabilane, Commander han Philippine Coastguard Guard Eastern Leyte, na guindanas
+  han salvage companay an mao na barko tikang ha Northern Samar kun diin namumutang
+  na ini ha pagkayana ha Tacloban City Port Area.\\nDugang pa hini, na guipapamulat
+  la nira an pagbubuhaton na imbentaryo han Bureau of Customs (BOC)\\nSamtang, guinklaro
+  naman han mao na opisyal na diri n a maibabalik an mao na barko tipakadto ha nasud
+  China mahitungod ha nabuhat hini na pagtalapas han safety regulations ngan diri
+  na daw ini rehistrado.\\nUna naman na guinpahayag ni Lt. Fabilane, na waray daw
+  nakit-an na mga kontrabando ha sulod han Cargo Vessel.\\nManunumduman na guin- aaligar
+  na tikang ha mao na Cargo Vessel an nakit-an nga P125-M nga kantidad han cocaine
+  ha Matnog, Sorsogon dida han nakalabay na Enero 4, 2018.\"", "\"Ecuador\\n- Ini
+  nga artikulo mahitungod han Nasod han Ecuador. Para han linea han ecuador o equator
+  kitaa an ecuador terrestre\\nAn Ecuador nga an opisyal nga pagtawag Republika han
+  Ecuador (ha Kinatsila: Rep\u00fablica del Ecuador), usa nga nasod nga nahamutang
+  ha kanawayan o amihanan-katundan nga dapit han Salatan nga Amerika. Usa ini nga
+  representatiba nga demokratiko nga republika. Ginsasapitan ini han Colombia ha amihanan,
+  han Peru ha sidlangan ngan ha salatan, ngan han Kalawdan Pacifico ha katundan. Usa
+  ini han duha nga nasod ha Salatan nga Amerika (upod han Chile) nga waray linea upod
+  han Brasil. Lakip liwat han nasod an Islas Gal\u00e1pagos ha Pacifico, mga 965 ka
+  kilometro (600 ka milyas) ha katundan tikang han mainland. An Ecuador natabok han
+  linea nga ecuador, ngan tikang hini ginkuha an ngaran, ngan mayda ini kahaluag nga
+  25,6371 ka kwadrado nga kilometro (98,985 nga kwadrado nga milyas). An kapital hini
+  amo an Quito; an gidako-i nga syudad hini amo an Guayaquil.\\nAdministratiba nga
+  pagbahinbahin[igliwat | edit source]\\nAn Ecuador ginbahin ngadto hin karuhaan kag
+  upat (24) nga mga lalawigan o probinsya, ngan ini ginbahinbahin ngadto hin mga kanton
+  (ha Kinatsila canton). An mga kanton liwat ginbahin ngadto hin mga parokya (parroquia).
+  An mga parokya puyde mga urbana (sugad han kapital han lalawigan) o mga rural (an
+  nahabilin nga teritoryo han mga lalawigan).\\nMga kasarigan[igliwat | edit source]\\n\\ntag;
+  no text was provided for refs namedCIA\\nCite error: Invalid\\ntag; no text was
+  provided for refs namedethn\\nCite error: Invalid - Ecuatoriano nga census nga ginbuhat
+  dida han Nobyembre 28, 2010. inec.gob.ec.\\n- Ecuador. International Monetary Fund.
+  Ginkit\u00e0 dida han 2012-04-18.\"", "\"TACLOBAN CITY \u2014 Patay an anay pulis
+  han pag pusilon han riding-in-tandem ha Baranggay Tumamak, Villaba, Leyte, alas
+  7 Hulyo 31.\\nGinkilala an biktima nga hi PO2 Hegilio Gaspay, 52 anyos an pangidaron
+  ngan residente han Baranggay Libagong, Villaba, Leyte.\\nSumala kan PSSUPT Noberto
+  Tuazon, Hepe han Leyte Police Provincial Office, nga samtang gin babaybay han mao
+  nga biktima an Tumamak Highway in tigda nala ini nga gin tambangan han waray pa
+  kakikilala nga mga suspek ngan gin-pan mumusil ini.\\nNag-angkon naman hin damo
+  nga igo ha lawas an biktima nga nag resulta naman han iya dayon nga kamatayon.\\nSumala
+  pa kan Tuazon nga waray pa mahibarui kun anu an motibo han pag patay.\\nPadayon
+  naman an ira ginbubuhat nga imbestigasyon han mao nga panhitabo/isumat.com Photo
+  courtesy: Ronnie Roa\"", "\"Isumat.com/9:57AM,April 25, 2020\\nSobra na beinte nga
+  doktor an nagbuhis han ira kinabuhi ha pagsupil han corona virus ha Pilipinas. Ngan
+  sobra hin 700 nga mga doktor ngan medical workers an natapnan na hini nga kagaw.
+  Haros usa na ka gatos nga kapulisan an nag positibo han virus.\\nMay mga pribado
+  nga indibiduwal ngan mga grupo nga nagmamalahimo hin bisan ano nga paagi basi la
+  makabulig han nagkikinahanglan bisan pa man kun nabubutang ha peligro an ira kinabuhi
+  ngan pakabuhi. Ini hira amo an matutudlok naton nga mga bayani hini nga panahon
+  han paghimakuri tungod han COVID-19.\\nPero kita ngatanan in puede makabulig, bisan
+  deri kita riko, bisan ordinaryo la kita nga magpakarabuhi ngan bisan ngani waray
+  kita pakabuhi. Deri kinahanglan nga magin bayani kita, an importante makabulig kita
+  ha aton talagudti nga paagi\u2026.ngan ini nga mga pitad in puede makadugtong han
+  kinabuhi han aton igkasi tawo.\\nPira na ka semana an nakalabay, an EVRMC Blood
+  Bank in nanawagan para han mga katawhan nga boluntaryo mag donar hin dugo. Tungod
+  han iginpatuman nga kwarentina, dako hin duro an pagkulang han reserba nga dugo
+  dida han hospital nga amo an dinadalaganan han bug-os nga Rehiyon Otso ngan damo
+  hini nga mga pasyente an nagkikinahanglan hin dugo.\\nTungod han kwarentina, pipira-pira
+  nala an walk-in donors ngan nasuspender an mga blood donation projects hin damo
+  nga grupo. Waray gad naghihingyap nga magkaada hin sitwasyon nga magkikinahanglan
+  hin dugo, pero kun may matabo, ano man an ighahatag nga dugo ngada han pasyente
+  kun waray naka reserba.\\nDida hini nga panawagan han EVRMC Blood Bank, nahinumdom
+  ako nga tikang pa han na-eskwela ako han kolehiyo tobtob nga nagserbisyo ako ha
+  gobyerno, pira na ka beses nga nag donar ako hin dugo. Dida ini hin mga okasyon
+  ha eskwelahan ngan mga anibersaryo hin opisina, ug pira liwat ka beses nga ginhangyo
+  ako hin iba nga tawo nga mag donar hin dugo para hin mga dengue patients.\\nNag
+  desisyon ako nga mahatag ako utro hin dugo labi na yana nga kulang an reserba. Hadin
+  Biernes, Abril 24, katapos han akon radio program ha iFM-RMN Tacloban, dumeretso
+  ako ha EVRMC, nagpa ilarum ako hin mahugot nga screening ngan salamat sa Diyos nga
+  waray problema an akon panlawas ngan nagin kwalipikado ako.\\nSobra la hin usa ka
+  oras an proseso tikang han screening tobtob nga nakuhaan ako hin porlomenos 400ml
+  nga dugo. Nagin hapsay ngan matulanoy an proseso dara han mga eksperto ha hospital
+  ha panguna ni Roland Gorgonia, an supervisor han blood bank.\\nWaray ko gin-abat
+  nga malain ha lawas ngan amo gihapon ini an akon eksperiensya han sobra na kinse
+  ka beses nga nag donar ako hadto. Nagpasalamat an staff ha akon, pero ha akon huna-huna,
+  deri ako angay pasalamatan kay obligasyon ko ini nga makabulig ha iba bisan kun
+  deri ko makikilal-an kun hin-o an makakatagamtam han akon dugo. Ug ini in bubuhaton
+  ko pa utro tobtob nga akos pa hit akon panlawas.\\nNagruhaduha ako pagsurat hini
+  nga artikulo kay tungod ini ha akon, pero may nagduduso ha akon nga igsumat ko ini
+  ha publiko, bangin manla mayda ko ma kumbinser nga buhaton gihapon ini.\\nGinsasaludohan
+  ko an mga blood donors nga nagsakripisyo han ira kalugaringon ha panuyo nga makadugtong
+  han kinabuhi han iba. Sering paman han usa nga kanta ha singbahan \u201cWaray hin-o
+  man an nabubuhi para la ha iya, ngatanan kita may katungdanan ha tagsatagsa.\u201d\\nKun
+  ha imo pagkita, mapasar ka paghatag hin dugo, ayaw pag ruhaduha sangkay !\\nPara
+  hin mga paki-ana\u2026aadi an contact numbers han EVRMC BLood Bank: 09369143123
+  ngan 09365203920. #\"", "\"Gestapo\\nAn Gestapo (Pagsayod Aleman: [\u0261e\u02c8sta\u02d0po,
+  \u0261\u0259\u02c8\u0283ta\u02d0po], hinayokong kan Geheime Staatspolizei, o an
+  Hilom na Pulis kan Estado,[2][3] iyo an opisyal na sekretong pulis kan Alemanyang
+  Nazi asin kan Okupado-nin-Nazi''ng Europa.\\nAn pwersang ini pigmukna ni Hermann
+  G\u00f6ring kan 1933 paagi nin pagsararo niya kan mga ahensya seguridad kan Prussia
+  sa sarong organisasyon sana. Pagpoon Abril 20, 1934, ini ipinasa sa pag''administrar
+  kan Schutzstaffel (SS) na pinamamayohan ni Heinrich Himmler na kan 1936 pignombrahan
+  ni Hitler komo Pamayo kan Pulis Aleman (Chef der Deutschen Polizei), asin ta ining
+  Gestapo sa panahon na ini nagigin nang nasyonal imbes na ahensya estado sana kan
+  Prussia sa lindong kan Sicherheitspolizei (SiPo) (\\\"Pulis Seguridad\\\"). Dangan
+  kan 27 Septyembre 1939 pahanggan, pinag''administrar na kan Reichssicherheitshauptamt
+  (RSHA) (\\\"Reich Main Security Office\\\") asin konsideradong katuwang na organisasyon
+  kan SS Sicherheitsdienst (SD) (\\\"Security Service\\\").\"", "\"TACLOBAN CITY \u2013
+  Patay an usa nga lalaki mahuman nga pagpamumusilon ha Brgy. Sampao, Almeria Biliran.\\nGinkilala
+  an biktima nga hi Mark Sabornido, 31 anyos, laborer ngan residente han Brgy. Pili
+  ha Almeria.\\nSumala kan PLt Edwin Simbajon, OIC Chief of Police Almeria Biliran,
+  basar ha inisyal nga imbestigasyon, an biktima in nakada ha atubangan han Erika
+  Garden han tigda nala ini nga pagpamumusilon han suspek nga sakay ha motor.\\nNag-angkon
+  hin mga inig-an hin bala ha ulo an biktima nga rason han iya dayon nga kamatayon.\\nNahibaruan
+  han mga kapulisan nga waray record an mao nga biktma haira buhatan pero ha police
+  stations ha iba nga bungto in gin aalegar nga mayda ini record.\\nHa pagkayana in
+  mayda na kinikita nga anggulo an mga kapulisan ha mao nga insidente pero waray la
+  anay ini nira ginpagawas ha publiko agud nga dire makompromiso an ira imbestigasyon
+  nga gindudumara.\"", "\"POST-PERMANENT COUNCIL MEETING CBCP PASTORAL ON DEATH PENALTY\\n(Leneyte-Samarnon
+  Translation)\\n\u201cKundi iginpakita han Diyos an iya dako nga paghigugma ha aton
+  nga dida han magpakasasala pa kita, nagpakamatay hi Cristo para ha aton.\u201d (Rom.
+  5:8)\\nYana nga ika-tulo nga domingo han kwaresma, an Ebanghelyo ni San Juan nagsusumat
+  ha aton kun tipaunan-o an babaye nga taga Samaria -dida han hin-agian niya kan Hesus
+  an \u201ctubig nga nahatag han kinabuhi\u201d nga maiha na niya ginbibiniling- binayaan
+  niya an tibud han tubig hirani han atabay (Juan 4:28). Sugad hini nga babaye, an
+  mga bungalos nga mga Israelita dida han aton syahan nga pagbasa, hadton nagkakamatay
+  na hira tungod han ka-uhaw didto ha kamingawan, giniyahan ngadto han bato (Exodu
+  17:6). Angay naton hunahunaon nga ini nga bato amo hi Hesucristo, lukop hin kasamdan
+  ngan nagsakit dida han krus lugod nagin tuburan han tubig nga nahatag hin kinabuhi,
+  amo ini an nakabulig han mga pinili nga katawhan han Diyos nga makatabok tikang
+  han bangkig nga kamingawan han kasina, pakasala ngan kamatayon tipakadto han tuna
+  nga iginsaad han kahingpit han kinabuhi. Mga kabugtuan ko kan Kristo, ayaw naton
+  itugot nga madum-itan han lara han mahugaw na tubig; proteheran naton an kasagrado
+  han kinabuhi ngan tindog kita alakontra han sirot han kamatayon.\\nNabati kita han
+  araba han mga biktima han mga makarimadima nga mga krimen. An mga nagin biktima
+  ngan an nagburuhaton hini nga mga krimen aton hira kabugtuan. Hira in mga anak han
+  Diyos. Ngadto han mga akusado gintatawag hira hin pagbasol ngan pagtadong han ira
+  mga kasaypanan. Ngadto liwat han mga nadarahigan, iginpapa-angbit naton an paghigugma,
+  pagpa-id, paghatag hin paglaum.\\nDida han adlaw nga an sirot han kamatayon igin
+  tikwang han Congreso han Pilipinas hadton Hunyo biente kwarto dos mil sais (June
+  24,2006), pinapanlaga an mga suga han Colosseum ha Roma. Nahasusumat ha kasaysayan
+  nira kon anu kadamo han ira mga tawo, kadam-an mga kristiyanos nga martir amo in
+  ginpamatay hito dida nga tampalasan nga inalad nga murulayan. Basi mapara an dum-it
+  han makangingirhat ngan diri makatawo nga dagway hito nga colosseum, an mga mulupyo
+  han Roma naghimo hini mga pitad ha maiha na nga panahon nga magpalaga han suga han
+  colosseum ha kada nasud nga nagtitikwang han ira balaud hin pagsirot hin kamatayon.
+  Ha kada pagpapalaga hini nga suga tigaman ini han pag-undong hin pag abante han
+  kauswagan han katawhan. Itutugot ba naton nga ini nga pag-undong hin pag abante
+  bawion naton pinaagi han pagsugot nga ipatuman balik an pagsirot hin kamatayon dinhi
+  ha Pilipinas?\\nHadton naglabay nga mierkules han pamuring an mga meyembro han congreso,
+  dida han ika duha nga pagbasa mahitungod han pag-undong han balaudnon han sirot
+  han kamatayon, nagmadinaugon an mga nauyon han balaudnon, amo an naglarang. Ha usa
+  ka bahin, ini nga burutusay nahikikit-an ha mga telebisyon, an durudibate han mga
+  pabor han balaudnon han pagsirot han kamatayon nasisipatan nga ha mga agtang nira,
+  nalakra an badlis han krus nga agbon han pamuring. Nanhingalimot na ada hira han
+  tigaman han krus? Siguro nalipat hira nga an ira pagbotos nga na-uyon hira, ngan
+  an badlis han krus dida han ira mga agtang nasusuhi, nga unta an binadlis nga krus
+  dako nga tigaman han pagtug-an han ira pagtuo han Diyos, kanay gugma ha aton, pinili
+  niya nga i-ula an iya kinabuhi para han aton katalwasan, agud diri na kita mahimulag
+  ha iya ngan mahingadto ha karat-an. (Juan 3:16)?\\nDiri igkakadiwara, an sirot han
+  kamatayon in nakada na ha damo nga mga nasud ha bug-os nga kalibutan. Kasagaran,
+  ini in ginpapatamak ngada han prinsipyo han hustisya, ha dagway han pag-antos han
+  sirot ug parusa han kapalaran- \u201can mata bayaran hin mata, ngan an ngipon bayaran
+  hin ngipon\u201d (Mateo 5:38), diin hi Hesus iya ini gin-ayat ngan ginliwanan hin
+  huruhitaas nga prinsipyo han diri pagbulos, kundiin an pagpa-id ug kalooy asya an
+  punduhan han hustisya (Lucas 6:36). Maaram kita, subay ha aton kasaysaysan, kon
+  tipaunanhu ini nga mabug-at na sirot kaudgan gingagamit hin pamunuan nga maraugdaug
+  agud gamiton nga pamaagi hin pagpitlok han mga nariwa, o di ngani pagpukan hadton
+  mga nakakabala-ong han larang nga politikanhon. Hunahunaon daw naton, pananglitan
+  kon kay ano hi Herodes Antipas ginlarang nga pugutan han ulo hi Juan nga parupamunyag,
+  di ngani kay ano nga hi Pilato iginparaysang hi Hesus. Isipa naton an yinukotyukot
+  na mga kristiyanos nga martir nga pinanmatay tungod han dayag nga kangalas han pagtuo.\\nPara
+  han mga tawo nga gingagamit an bibliya kumu panagang han sirot na kamatayon, kinahanglan
+  pa ba nga tudlukon namon an damo nga mga krimen supak ha katawhan agud maghatag
+  hin katadungan, pinaagi hiton bibliya? Gin-aaghat namon hira nga hubaron an baraan
+  nga kasuratan ha igo nga pamaagi, masantop nira nga estorya ini han buhi nga pagpadayag
+  han kaburut-on han Diyos ngadto han katawhan ha magkadirudilain nga panahon, ngan
+  an katumanan han saad dida kan Hesucristo, an pulong han Diyos ngadto han kalibutan.
+  \u201cWaray ako kumanhi hin pagpara hini, kundi hin pagtuman\u201d (Mateo 5:17).
+  Waray hi Hesus magtutdo mahitungod hin bisan anu nga pamaagi hin pamatay nga igintutugot
+  han balaud. Iya gin ugopan an malibog nga babaye alakonta hadton nag aaligar ha
+  iya nga hiya in angay patayon, lugod ginhagit niya hira nga kun hin-o man an waray
+  sala hiya an una maglabay hin bato han babaye. (Juan 8:7).\\nBisan ha luyo han maupay
+  nga panuyo-anan, an mabug-at nga sirot han kamatayon waray mapamatud-i nga epektibo
+  ini nga pitad hin pagpuypuy han krimenalidad. Ha tinuod la, masarusayon an pagpatay
+  han mga krimenal kaysa hin pagpuo han ugat han krimenalidad ha susyedad. An mabug-at
+  nga sirot han kamatayon, pinadisan han matiwogtiwog nga sistema ha pamalaod in makaharadlok
+  nga combinasyon. Bisan diin nga susyedad waray pa gud sugad hin kabaskog nga pamaagi
+  hin pamalaod, aada gud an dako nga posibilidad nga kon hin-o pa an inosente tungod
+  kay waray kapasidad hin pagkuha hin madepensa ha ira kasugaran, hira an kaurugan
+  nasisirutan hini nga mabug-at na sirot han kamatayon, tungod kay waray iarakos pagkuha
+  hin maupay nga abugado ngan hirayo an siguridad nga makatagamtam han balanse nga
+  pagtratar. Ha balaod nga panlantaw, an mabug-at nga sirot han kamatayon, suhi gud
+  ngan panngatadungan han prinsipyo nga gintatawag nga \u201cprinciple of inalienability
+  of the basic human right to life\u201d o ha aton pa, supak han katungod han kada
+  tawo nga mabuhi, ngan kada nasud aada ini hiton katukuran han ira pamunuan, diin
+  ginkasarabutan han ngatanan an pagrespeto han kinabuhi.\\nHingpiton naton an aton
+  pag-ampo para han aton mga magbabalaud dinhi ha aton nasud ha ira pangandam hin
+  pagbotos han sirot han kamatayon didto liwat ha senado. Pag urusa kita paghalad
+  ha aton mga santos nga misa para ha ira, pangamuyo kita ngadto han aton Ginoo nga
+  iginraysang ha krus kan kanay kinabuhi, lawas ug dugo igin-ula para han katalwasan
+  han mga magpakasasala, nga hapuhapun unta an ira mga konsensya ug giyahan hira nga
+  ibasura an mabug-at na sirot han kamatayon yana ug ha ngatanan na takna.\\nTikang
+  han Catholic Bishops\u2019 Conference of the Philippines, 19, March 2017, Ikatulo
+  nga Domingo han kwaresma.\\n+SOCRATES B. VILLEGAS, D.D.\\nArchbishop of Lingayen-Dagupan\\nPresident,
+  Catholic Bishops\u2019 Conference of the Philippines\\nLeave a Reply\"", "\"1Linmugsong
+  hi Jesus tikang hin pungtod ngan nagsunod ha iya in damo kaupay nga mga tawo. 2Hinmarani
+  ha iya in usa nga sanlahon, linmuhod ha atubangan niya ngan sinmiring, \u201cKon
+  imo karuyag, makakalinis ka ha akon.\u201d 3Kinamkam hiya ni Jesus ngan ginsiring,
+  \u201cKaruyag ko, magmalinis ka!\u201d Dida dayon nalinisan an tawo han iya sanla.
+  4Ginsiring hiya ni Jesus, \u201cPamati! Ayaw pagsumat bisan kan kanay, kundi kadto
+  dayon ha padi ngan pakita ha iya. Kahuman, paghalad sugad han iginsugo ni Moises,
+  pagpakita han mga tawo nga malinis ka na.\u201d 5Han pagsulod ni Jesus ha Capernaum
+  gintapo hiya hin kapitan nga Romano nga nakimalooy ha iya, 6\u201cSir, masakit an
+  akon surugoon, nahigda, diri nakakakiwa, ngan nagkukuri hin duro.\u201d 7\u201cMakadto
+  ako ngan uupayon ko hiya,\u201d nagsiring hi Jesus. 8Kundi binmaton an kapitan,
+  \u201cSir, diri ako takos nga sumulod ka ha akon balay. Sugoa la ako ngan mauupay
+  dayon an akon surugoon. 9Usa liwat ako ka tawo nga ubos hin labaw nga mga opisyal,
+  ngan may-ada ko liwat mga sakop nga mga sondalo. Kon nasugo ako ha usa, \u2018Kadto
+  na!\u2019 napakadto hiya; ngan ha iba, \u2018Kadi na!\u2019 nadaop hiya. Kon nasugo
+  ako han akon oripon, \u2018Buhata ini!\u2019 ginbubuhat niya dayon.\u201d 10Nahipausa
+  hi Jesus han pakabati niya hini, ngan ginsiring an mga tawo nga nagsusunod ha iya,
+  \u201cNasiring ako ha iyo, waray pa gud ako makakita ha Israel hin pagtoo nga sugad
+  kadako hini. 11Tigamni niyo ini: damo in maabot tikang ha sinirangan ngan ha katundan,
+  ngan makikigsaro kanda Abraham, Isaac, ug Jacob didto han Ginhadian han langit,
+  12samtang an mga anak han Ginhadian ilalabog lugod ha kasisidman ha gawas; didto
+  mananangis hira ngan manliligot an ira mga ngipon.\u201d 13Ngan ginsiring ni Jesus
+  an kapitan, \u201cHala, oli na la, ngan matumanan ka sumala han imo pagtoo.\u201d
+  Ngan hito ngahaw nga takna naupay an surugoon han kapitan. 14Kinmadto hi Jesus ha
+  balay ni Pedro ngan hinkit-an niya an babaye nga ugangan ni Pedro nga nahigda kay
+  hinihirantan. 15Kinaptan ni Jesus an iya kamot ngan nalungasan hiya han hiranat.
+  Binmuhat hiya ngan nagsirbe kan Jesus. 16Han pagkagab-i na, gindara ngadto kan Jesus
+  in damo nga mga tawo nga sinasangkayan hin yawa. Ha usa la ka pulong ginpagawas
+  ni Jesus an magraot nga mga espiritu, ngan gintambal an ngatanan nga mga magsakit.
+  17Ginbuhat niya ini basi matuman an iginsiring ni Isaias nga manaragna, \u201cHiya
+  ngahaw an nagkuha han ngatanan naton nga mga sakit.\u201d 18Han pagkita ni Jesus
+  han kadam-an nga nag-aalirong ha iya, nagsugo hiya han iya mga tinun-an nga mapakadto
+  ha tabok han lanaw. 19Dinimaop ha iya in usa nga magturutdo han Balaod ngan nagsiring,
+  \u201cMagturutdo, andam ako hin pag-upod ha imo bisan ngain.\u201d 20Ginbaton hiya
+  ni Jesus, \u201cMay mga buho an mga miro, ngan may mga salag an katamsihan, kundi
+  waray ngani hinihigdaan hin pagpahuway an Anak han Tawo.\u201d 21Nagsiring liwat
+  in lain nga tinun-an, \u201cTugoti gad ako hin pag-oli anay hin paglubong han akon
+  amay.\u201d 22Kundi ginbaton hiya ni Jesus, \u201cSunod ha akon, ngan pabay-i an
+  mga patay nga asay maglubong han ira minatay.\u201d 23Sinmakay hi Jesus han sakayan
+  ngan inmupod ha iya an iya mga tinun-an. 24Han nakaturog hi Jesus, tigda la nga
+  inmabot in makusog nga alipuros ha lanaw, sanglit ginsasakayan na hira han mga balod,
+  ngan haros na malunod an sakayan, kundi nakaturog hi Jesus. 25Gindaop hiya han mga
+  tinun-an ngan ginsiring hin pagpukaw ha iya, \u201cTalwasa kami, Ginoo! Malulunod
+  kita!\u201d 26Ginsiring hira ni Jesus, \u201cKay ano nga nahadlok man kamo? Kagutiay
+  han iyo pagtoo!\u201d Niyan binmuhat hiya ngan ginsaway an hangin ngan an balod,
+  ngan nagmalinaw an dagat. 27Nahipausa hira ngatanan ngan may hinsiring, \u201cHin-o
+  ini nga tawo? Nasugot ha iya bisan an hangin ug balod!\u201d 28Han pag-abot ni Jesus
+  ha tabok han lanaw, ha tuna han mga taga-Gadara, gintapo hiya hin duha ka tawo nga
+  tikang han mga lubnganan. Sinasangkayan hira hin yawa, ngan mga magisog, sanglit
+  waray nagpapasipara hin pag-agi hadto nga dalan. 29Sinminggit hira dayon, \u201cAno
+  an imo karuyag ha amon, Anak han Dyos? Kinmanhi ka ba hin pagkastigo ha amon nga
+  diri pa man igo nga panahon?\u201d 30May dako nga panon hin kababoyan nga naniningaon
+  hirani hini nga dapit. 31Nakimalooy kan Jesus an mga yawa, \u201cKon pagagawson
+  mo man kami, pasudla kami ngadto hito nga panon hin kababoyan.\u201d 32Ginsiring
+  hira ni Jesus, \u201cKadto na kamo.\u201d Sanglit ginmawas hira ngan sinmulod han
+  kababoyan. Tigda nga nagdadlagan an bug-os nga panon han kababoyan ngadto ha ligid
+  han umpas, nagkahuglog ngadto ha lanaw, ngan nagkalulumos. 33Nagdadlagan an mga
+  magmarangno han kababoyan, ngan pag-abot nira ha bungto, iginsumat an ngatanan ngan
+  an nahinabo han mga tawo nga sinasangkayan hin yawa. 34Sanglit nagkagawas an ngatanan
+  nga tawo han bungto hin pagtapo kan Jesus; ngan han paghikit-i nira ha iya nakimalooy
+  hira nga bumaya hiya han ira tuna.\"", "\"Waray-Waray News: GRP andam na para makighurohimangraw
+  hit MILF \u2013 Razon\\nManila (19 February) -- Hi Presidential Adviser on the Peace
+  Process nga hi Avelino I. Razon Jr. in nagpasamwak dida han Martes nga adlaw nga
+  it gobyerno in andam na lumingkod lumingkod utro para makighurohimangraw hit Moro
+  Islamic Liberation Front o MILF parti han 3-Rs \u2013 reasseart, review ngan redirect.
+  Ini nga ira hurohimangraw in temporaryo nga na-stambay han nakalabay nga uno ka
+  bulan.\\n\\\"Kun nasiring kami nga it gobyerno in andam na nga utro makighurohimangraw
+  hit MILF, ito in puno hin sinsiridad,\\\" sering ni Razon dida han Enero 29, nga
+  amo an lumiwan kan Secretary Hermogenes C. Esperon Jr., nga amo liwat an lumingkod
+  bali Chief han Presidential Management Staff (PMS).\\n\\\"Una, gusto namon nga igpadayon
+  an naukoy nga pakighurohimangraw hit MILF para igduso ha duha nga partido it sinsiridad
+  nga magkaada hin kamurayawan ngan it padayon pagsunod kun ano man it pagkasarusarabutan,
+  lab-I na gud pagpa-ukoy hiton mga diri pagkaarasya ngan aydon ngan igpa-uroupay
+  iton mga lugar nga naapektuhan han aru-aragway, kun diin amo an pinakaposti han
+  aton sarusarabot para pankamurayawan,\\\" sering ni Razon.\\n\\\"Bahin hini, gusto
+  namon igkahurohimangraw hit MILF parti pagbag-o hit mga mandamiento han Ad-hoc Joint
+  Action Group (AHJAG), an International Monitoring Team (IMT), upod na an posibilidad
+  nga mga pagbag-o dida hit organisasyon ngan ha pagpamyembro,\\\" dugang pa niya.\\n\\\"Ika-duha,\\\"
+  sering niya, gusto han gobyerno nga ibalik an na-ukoy nga negosasyon \\\"para pag-adman
+  ngan magrekomendar hin mga pagpa-upay ngan pagpa-uswag hiton paagi ngan tindog hiton
+  proseso paghatag hin kasayuran.\\\"\\nSering pa ni Razon nga an ika-tulo nga rason
+  pagbalik han hurohimangraw in \\\"para pag-adman an parti han pamaagi han Comprehensive
+  Compact.\\\"\\n\\\"An gobyerno in seryoso para han dagmit nga pagpadayon nga hurohimangraw
+  hit aton mga kabugtuan nga mga rebelde nga Muslim para magkaada kita hin tim-us
+  nga kamurayawan diri la ha Mindanao kundi ha bug-os nga nasud,\\\" sering ni Razon.\\n\\\"Oras
+  na para tagan naton it mga Pilipino hin higayon pagtalinguha hin kamurayawan. Sobra
+  na ini kaatrasado,\\\" sering ni Razon.\\n\\\"Waray gud liwan it kamurayawan salit
+  nananawagan ako hit mga lideres hit MILF nga bumalik na ha lamisa para makipagnegosasyon
+  para masolbar na ini nga aton mga dilito hin mamurayawna pamaagi,\\\" sering ni
+  Razon.\\nDungan hini, sering ni Razon nga nalilipay hiya pakanotar nga damo nga
+  mga nasud sugad hit Malaysia, Estados Unidos, Britain, New Zealand, Australia, Canada,
+  Japan, Libya, Norway, Brunei, ngan Sweden in puro nasurporta hit proseso parti kamurayawan
+  para hira magpadayon.\\n\\\"Para mabuhat naton ini, kinahanglan ipakurokusog naton
+  it aton pagtapud pagpakurokusog hit kumpyansa ngan himuon it aton mga mahirimo nga
+  malapsan naton it mga magpakaurolang ha aton aagian ngan magkaada hin tinuod ngan
+  padayon nga kamurayawan para ha aton nasud,\\\" dugang pa ni Razon. (PIA 8/maa)
+  [top]\"", "\"1Nagkaabot ha Antioquia in mga tawo nga tikang ha Judea nga nagtutdo
+  han mga magtinuohon: \u201cDiri kamo matatalwas kon diri kamo magtuman han seremonyas
+  han pagtori sumala han ginkikinahanglan han Balaod ni Moises.\u201d 2Ginsupak ini
+  nga pagturon-an nira Pablo ug Bernabe, sanglit nagkamay-ada hira mapaso nga lantugi
+  mahitungod hini. Sanglit ginkauruyonan nga makadto ha Jerusalem hira Pablo ug Bernabe
+  ngan iba pa nga kabugtoan ha Antioquia, ngan makigkita hira han mga apostoles ngan
+  mga katigurangan mahitungod hini nga butang nga ginkakalantugian. 3Ginpagikan hira
+  han singbahan, ngan han pag-agi nira ha Fenicia ngan ha Samaria, iginsumat nira
+  an kakabig han mga Hentil ngadto sa Dyos. Nakalipay ini nga sumat han ngatanan nga
+  mga magtinuohon. 4Han pag-abot nira ha Jerusalem, ginkarawat hira han singbahan,
+  han mga apostoles, ngan han mga katigurangan, nga ira ginsumatan mahitungod han
+  ngatanan nga ginbuhat han Dyos pinaagi ha ira. 5Kundi tinmindog in pira han mga
+  magtinuohon nga kaapi han hugpo han mga Parisiyo, ngan nagsiring, \u201cKinahanglan
+  pagtorion an mga magtinuohon nga mga Hentil ngan sidngon hira nga magtuman han Balaod
+  ni Moises.\u201d 6Nagkatirok an mga apostoles ngan an mga katigurangan hin pagtuhay
+  hini nga kasamok. 7Kahuman hin maiha nga larulantugi, tinmindog hi Pedro ngan nagsiring,
+  \u201cKabugtoan ko, maaram man kamo nga han nag-agi nga panahon ginpili ako han
+  Dyos tikang ha iyo, hin pagwali han Maupay nga Sumat ngadto han mga Hentil, basi
+  hira makabati ngan tumoo. 8Ngan nagpadayag an Dyos nga sayod han kasingkasing han
+  mga tawo, han iya pagkarawat han mga Hentil pinaagi hin paghatag ha ira han Espiritu
+  Santo sugad han paghatag niya ha aton. 9Waray ginpalabi han Dyos ha aton ngan ha
+  ira; ginpasaylo niya an ira mga sala kay tinmoo man hira. 10Sanglit kay ano nga
+  yana karuyag man niyo nga pagsarihan an Dyos pinaagi hin pagbutang hin makuri nga
+  paras-anon ha mga magtinuohon, nga diri ngani mahihimo hin kapas-an naton ngan han
+  aton mga kaapoy-apoyan? 11Diri ito amo! Natoo kami nga hira, sugad ha aton, natatalwas
+  pinaagi han grasya han Ginoo nga Jesus.\u201d 12Nagmingaw an bug-os nga hugpo han
+  pakabati nira han sumat nira Bernabe ug Pablo hiunong han ngatanan nga mga orosahon
+  ngan mga milagro nga ginbuhat han Dyos ngadto han mga Hentil pinaagi ha ira. 13Katapos
+  nira pagyakan, nagsiring liwat hi Santiago: \u201cKabugtoan, pamatii ako niyo. 14Kahuman
+  pa la igsaysay hi Simon hiunong han syahan nga pagpakita han Dyos han iya paghigugma
+  han mga Hentil, pinaagi hin pagkuha tikang ha ira hin kalugaringon niya nga mga
+  tawo. 15Nahauyon ini han mga pulong han mga manaragna sumala han siring han Kasuratan:
+  16\u2018Kahuman hini mabalik ako, nasiring an Ginoo, ngan titindogon ko an napukan
+  nga balay ni David. Ibabalik ko an mga nagkaruruba, ngan padidig-onon ko na liwat
+  ini. 17Sanglit magbibiling han Ginoo an iba nga katawhan, ngan an ngatanan nga mga
+  Hentil nga gintawag ko nga akon kalugaringon. 18Amo ini an siring han Ginoo nga
+  nagpadayag hini hadto pa nga panahon.\u2019 19\u201cHa akon nga bahin,\u201d nagpadayon
+  hi Santiago, \u201cdiri naton pagsamokon an mga Hentil nga nadangop han Dyos. 20Lugod,
+  kinahanglan magsurat kita hin pagsumat ha ira nga diri na hira kumaon hin pagkaon
+  nga nahugawan tungod nga iginhalad ngadto han mga kadiyosan; nga likayan nira an
+  pakighilawas; ngan diri hira kumaon hin bisan ano nga gintilo nga hayop ngan hin
+  dugo. 21Kay tikang pa han una nga mga panahon pirme ginbabasa an Balaod ni Moises
+  ha mga sinagoga ha kada Adlaw nga Iparahuway, ngan iginwawali an iya mga pulong
+  ha kada bungto.\u201d 22Niyan nagkasarabot an mga apostoles ngan an mga katigurangan
+  ug an bug-os nga singbahan, hin pagpili hin pira nga mga tawo tikang han ira hugpo,
+  ngan ginsugo hira ngadto ha Antioquia, upod kanda Pablo ug Bernabe. Ginpili nira
+  hi Judas nga gintatawag nga Barsabas, ngan hi Silas, nga duha ka tawo nga tinahod
+  kaupay han mga magtinuohon. 23Iginpadara ha ira ini nga surat: \u201cNangongomosta
+  kami, an mga apostoles ngan mga katigurangan nga iyo kabugtoan, ha ngatanan nga
+  kabugtoan nga Hentil nga nag-uokoy ha Antioquia, ha Siria, ngan ha Cilicia. 24Nakabati
+  kami nga may-ada mga tawo tikang han amon hugpo, nga kinmada ngan nakasamok ha iyo
+  pinaagi han ira mga ginpamulong, bisan kon waray namon hira pagsugoa hin pagbuhat
+  hini. 25Sanglit nagkatirok kami ngan nagkaurosa hin pagpili hin mga tawo nga susugoon
+  namon ngada ha iyo. Maupod hira han aton hinigugma nga kasangkayan, hira Bernabe
+  ug Pablo, 26nga nagtubyan han ira kinabuhi tungod hin pagsirbe han aton Ginoo Jesu-Cristo.
+  27Nagsusugo kami ngada ha iyo kanda Judas ug Silas nga amo an magsusumat ha iyo
+  han mga butang nga iginsurat namon ha iyo. 28Minaupay ini namon ngan han Espiritu
+  Santo nga diri na kamo butangan hin lain pa nga paras-anon labot hini nga kinahanglanon
+  nga mga turumanon: 29Diri kamo kumaon hin bisan ano nga pagkaon nga iginhalad ha
+  mga diyosdiyos; diri kamo kumaon hin dugo; diri kamo kumaon hin bisan ano nga gintilo
+  nga hayop; diri kamo makighilawas. Maghihingaupay kamo kon likayan niyo an pagbuhat
+  hini nga mga butang. Adyos.\u201d 30Ginpagikan nira an mga ginsugo ngan kinmadto
+  hira ha Antioquia; diin gintirok nira an bug-os nga hugpo han mga magtinuohon, ngan
+  iginhatag ha ira an surat. 31Han pakabasa han mga tawo han surat, nalipay gud hira
+  tungod han mensahe nga nakapadasig. 32Nagyakan hin maiha ngadto han mga kabugtoan
+  hira Judas ug Silas nga mga manaragna liwat, ngan nakapakusog ngan nakapadasig ini
+  ha ira. 33Kahuman nira magpabilin didto hin halipot nga panahon, ginpagikan hira
+  nga malinawon han kabugtoan; ngan binmalik hira ngadto han mga nagsugo ha ira. (
+  34Kundi minaupay ni Silas nga magpabilin hiya didto.) 35Nagpabilin hira Pablo ug
+  Bernabe ha Antioquia. Kaupod in damo nga iba pa nga mga tawo nagtutdo ngan nagwali
+  hira han pulong han Ginoo. 36Pag-agi hin pira ka adlaw, nagsiring hi Pablo kan Bernabe,
+  \u201cBalika ngan duawa ta an kabugtoan ha kada bungto nga aton ginwalihan han pulong
+  han Ginoo ngan kitaa ta kon naunan-o na hira.\u201d 37Karuyag ni Bernabe nga ig-upod
+  gihapon nira hi Juan Marcos. 38Kundi naghunahuna hi Pablo nga diri maupay nga umupod
+  ha ira in usa nga binmaya ha ira didto ha Pamfilya ngan waray magpadayon hin pagtapos
+  han ira buruhaton. 39Nagkamay-ada hira mapaso nga lantugi, sanglit nagkabulag hira.
+  Igin-upod ni Bernabe hi Marcos ngan nagsakay hira ngadto ha Cipre; 40samtang ginpili
+  ni Pablo hi Silas, ngan ginmikan hira nga igintubyan han kabugtoan ngadto ha grasya
+  han Ginoo. Kinmadto hira ha Siria ug Cilicia ngan ginparig-on niya ang mga singbahan.\"",
+  "\"MV Do\u00f1a Paz\\nAn MV Do\u00f1a Paz usa nga nakarehistro ha Pilipinas nga
+  barko panpasahero nga nalunod katima binmunggo han usa nga oil tanker MT Vector
+  han Disyembre 20, 1987. Naglalayag tikang ha isla han leyte pakadto ha ulohan han
+  Pilipinas nga manila, an barko puno hin duro, nga may-ada diri maubos hin 2,000
+  ka mga pasahero nga diri nakalista ha manifesto. Dugang liwat, ginsering nga an
+  barko waray bitbit nga radio ngan an mga life-jacket in nakakandado. Pero, an opisyal
+  nga pagbasul nakadirecta ha Vector, nga nahisabtan nga diri ngayan puydi maglayag
+  ha dagat, ngan naglayag hin waray lisensya, bantay o kwalipikado nga opisyal. Ginbabanabanahan
+  nga an namatay may-ada 4,386 ka tawo ngan 24 la an natalwas, ini nagpapabilin nga
+  disgrasya pandagat nga mayda gidadamoi nga namatay ha panahon han kamurayaw ha kasaysayan.\\nKaagi[igliwat
+  | Igliwat an wikitext]\\nAn Do\u00f1a Paz nahimo ha tuig 1963 han Onomichi Zosen
+  han Onomichi, Hiroshima, Japan, nga orihinal nga ngaran in Himeyuri Maru.[1] Samtang
+  ini naglalayag ha kadagatan han Hapon, may-ada ini kapasidad nga [2]han tuig 1975,
+  ginbaligya ini nga barko ha Sulpicio Lines, usa nga Pilipino nga operador han mga
+  panpasahero nga barko. Gin-ngaranan ini han Sulpicio Lines nga Don Sulpicio, ngan
+  ha uruurhi, Do\u00f1a Paz. Han Hunyo 5, 1979, ini nga sarakyan nagkalayo samtang
+  nagbibiyahe tikang Manila pakadto ha Cebu. Ngatanan nga 1,164 nga sakay natalwas
+  pero an barko gindeklara nga ruba na gud. An ruba nga barko ginpalit han mga underwriter
+  han Sulpicio Lines, gin-ayad ngan binmalik ha serbisyo nga Do\u00f1a Paz. Han panahon
+  han kalunod, an barko naglalayag ha ruta nga Manila \u2192 Tacloban \u2192 Catbalogan
+  \u2192 Manila ngan pabalik, nagbibiyahe duha ka beses kada semana.[3][4]\\nMga kasarigan[igliwat
+  | Igliwat an wikitext]\\n- R.B.Haworth (2006). \\\"Search results for \\\"5415822\\\"\\\".
+  Miramar Ship Index. Wellington, New Zealand. Ginhipos tikang han orihinal han April
+  9, 2012. Ginkuh\u00e0 December 13, 2008.\\n- Omar Acosta; Dave Veridiano; Marlen
+  Ronquillo (December 23, 1987). \\\"Do\u00f1a Paz Overloaded; Inquiry Set\\\". Philippine
+  Daily Inquirer.More than one of\\n|author1=\\nngan|last=\\nspecified (help); More
+  than one of|author2=\\nngan|last2=\\nspecified (help); More than one of|author3=\\nngan|last3=\\nspecified
+  (help) - Caltex Philippines v. Sulpicio Lines, 374 Phil. 325 (Supreme Court of the
+  Philippines September 30, 1999).\\n- \\\"MSNBC World News/Asia Pacific\\\". Ginkuh\u00e0
+  August 8, 2009.\"", "\"Waray-Waray News: DOF pabor han balaudnon nga dugangan an
+  diskwento para han senior citizens\\nManila (30 June) -- Pabor an Department of
+  Finance (DOF) ngada han proposisyon nga dugangan tikang han 20 porsyento ngadto
+  hin 30 porsyento an diskwento nga ighahatag ha senior citizens.\\nDida hin usa nga
+  position paper, nagsering hi Finance Undersecretary Gil Beltran nga nasuporta hira
+  han mao nga probisyon hin usa nga balaudnon ha Senado kondi ginsagdonan an mga magbabalaud
+  kontra han paghatag hin binulan nga P1,500 ngada han mao nga sektor kon diin an
+  pondo hini en kukuhaon tikang han gobyerno nasyunal.\\nSigun kan Beltran, gintatagusya
+  nira an matadong nga panuyo han balaudnon paghatag hin kadugangn nga ayuda ngada
+  han mga senior citizens kondi diri nira masusuportaran an proposisyon nga gamiton
+  ngan pondohan tikang han nahihikay nga VAT an ginproproponer nga P1,500 nga monthly
+  stipend para hin usa nga senior citizen.\\nIginpatin-aw ni Beltran nga an paggahin
+  tikang han nakokolekta nga VAT para han mao nga katuyo-anan en nangangahulogan hin
+  kakuha-i han gobyerno nasyunal hin P4 bilyones kada bulan o kon maabot P53 bilyones
+  kada tuig.\\nLabot la han pag-umentohi han diskwento para han mga senior citizens
+  sugad nga igintatagana ilarum han Republic Act 7432, o kon an Senior Citizen Act,
+  ngan an paghatag hin 20 prosyento nga diskwento ha mga serbisyo ngan parapliton
+  nga diri nasasakop han VAT, ginhihingita gihapon han ginproproponer nga balaudnon
+  nga matagan hin kagawasan an mga senior citizens pagbayad han ira individual income
+  taxes kon an ira annual taxable income en diri lapos han pinakabag-o nga poverty
+  threshold ha nasud.\\nIni nga probisyon, sigun kan Beltran, en kinahanglan nga subay
+  han mga insentibo nga nahilalakip ilarum han RA 9504, o kon an Minimum Wage Law.
+  (PIA-Eastern Samar) [top]\"", "\"An Aonidiella aurantii in uska species han Insecta
+  nga syahan ginhulagway ni William Miles Maskell hadton 1879. An Aonidiella aurantii
+  in nahilalakip ha genus nga Aonidiella, ngan familia nga Diaspididae. Waray hini
+  subspecies nga nakalista.\\n\u24d8 Aung San\\nMayda impormasyon hini nga artikulo
+  nga aada han Iningles nga bersyon nga angay ighubad ha WinarayHi Bogyoke Aung San
+  nagsirbe nga ika-5 nga Premier han Britaniko nga Korona nga Kolonya han Burma tikang
+  1946 kutob 1947. Ha pagtikang, us\u00e1 hiy\u00e1 nga komunista ngan ha urh\u00e9
+  us\u00e1 nga sosyal demokratiko nga politiko. Kilalado hiy\u00e1 nga rebolusyonaryo,
+  nasyonalista, ngan an nagtukod han Tatmadaw, ngan ginkikita hiy\u00e1 nga Amay han
+  Nasod han yana nga adlaw nga Myanmar o Birmania.\\nHiy\u00e1 an responsable han
+  pagpadangat han paglugaring han Burma tikang han Britaniko nga pagdumara, kondi
+  gin-asasinar hiy\u00e1 mga unom ka bulan ugsa han independensya. Dida han Ikaduha
+  nga Gyera Pangkalibotan, inmugop anay hiya han Hapon sunod han ira pagsulong han
+  Burma ugsa bumalhin hin pag-ugop ngadto han mga Britaniko. Ginkikilala hiy\u00e1
+  nga amo an nanguna nga nagtukod han independensya, ngan nagtukod han Unyon han Burma.
+  Gin-agnayan hiya nga \\\"Bogyoke\\\" Major General, hi Aung San ha yana maupay nga
+  ginkikita han mga Burmes nga katawhan ngan an iya ngaran agsob gamiton ha Birmano
+  nga politika kutob yana.\\nAn anak nga babaye ni Aung San nga hi Aung San Suu Kyi,
+  us\u00e1 nga Birmana nga tawo ha publiko ngan politiko ngan nakakarawat han Premyo
+  Nobel para hin Kamurayaw nga ha yana nagsisribe nga Konsehero han Estado ngan an
+  ika-20 ngan Syahan nga Babaye nga Ministro hin mga Panlangyaw nga mga Larangan dida
+  han Gabinete ni Win Myint.\\n- kagamhanan ginbut\u00e1ng ha poder. In\u00ed upod
+  han pagpagaw\u00e1s tikang hin pagkabihag ni Aung San Suu Kyi ngan mga bihag ha
+  politika, nagpaupay han rekord han nasod ha katungdanan\\n- Bug - os nga ngaran
+  Aung Zeya \u1021 \u1004 \u1007 \u101a\"", "\"Alangalang\\n- Mayda impormasyon hini
+  nga artikulo nga aada han Iningles nga bersyon nga angay ighubad ha Winaray\\nAn
+  Alangalang in segunda klase nga bungto ha lalawigan han Leyte ha Sinirangan nga
+  Kabisay-an nga rehiyon ha Pilipinas. Ini nga bungto mayda kahalo-ag nga 151 kilometro
+  kwadrado. Ha amihanan han bungto mabibilngan an mga bungto han Barugo ngan San Miguel,
+  ha salatan o habagatan an bungto han Pastrana, ha amihanan-nga-sidlangan an Syudad
+  han Tacloban, ha sidlangan sapit an Santa Fe nga ha katundan, an sapit nga bungto
+  amo an Jaro. An Alangalang, karuhaan kag siyam (29) nga kilometros an kahirayo tikang
+  ha Tacloban ug sugad liwat an distancia hini tikang ha Carigara. Sumala han 2010
+  census, mayda ini populasyon nga 46,411 ka tawo.[1]\\nNgaran[igliwat | edit source]\\nDida
+  hit agi-an tipangadto ha Carigara mayda puthaw nga tulay nga natabok hiton Salog
+  Mainit ha Baranggay Binongto-an. Ha sunod hini mayda guruguti-ay nga tulay. Sumala
+  han opisyal nga kasaysayan, an ngaran han bungto nagtikang han kadaan nga kasaysayan
+  hini nga salog. Mayda hadto panahon nga baraktasan la an ada hini nga lugar ngan
+  mayda lugar nga kon diin halu-ag an salog nga luksohon ngan halarom hin duro nga
+  pag-ubgon hin pagtabok, an nabiyahe nag-aalang kon ano an iya hihimo-on. Tungod
+  han pag-alang han nabiyahe, amo nga an lugar (ug an bungto) gin-ngaranan nga Alangalang.\\nMga
+  Baranggay[igliwat | edit source]\\nAn Alangalang mayda kalim''an kag upat (54) nga
+  baranggay.\\nKasaysayan[igliwat | edit source]\\nPopulasyon[igliwat | edit source]\\nMga
+  Sumpay ha Gawas[igliwat | edit source]\\nCite error:\\ntags exist, but no\\ntag
+  was found\""]'
+src_ngrams: '{"1": [[["an"], 203333], [["han"], 198672], [["ha"], 154863], [["mga"],
+  122993], [["hin"], 59977]], "2": [[["han mga"], 21417], [["an mga"], 20677], [["ha
+  mga"], 9335], [["ha iya"], 8266], [["han iya"], 7799]], "3": [[["an mga tawo"],
+  1399], [["an iya mga"], 1322], [["han mga tawo"], 1266], [["igliwat an wikitext"],
+  1264], [["ini nga mga"], 1091]], "4": [[["hinigugma ko na mga"], 655], [["mga saksi
+  ni jehova"], 521], [["salamat han iyo pag"], 509], [["bersyon nga angay ighubad"],
+  467], [["artikulo nga aada han"], 466]], "5": [[["hinigugma ko na mga anak"], 654],
+  [["bersyon nga angay ighubad ha"], 467], [["mayda impormasyon hini nga artikulo"],
+  461], [["hini nga artikulo nga aada"], 461], [["iningles nga bersyon nga angay"],
+  399]]}'
