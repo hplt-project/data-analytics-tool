@@ -1,0 +1,1496 @@
+corpus: hplt-v3-umb_Latn
+srclang: umb
+timestamp: 1758172124.756172
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2020-10", 387], ["CC-MAIN-2017-04", 375], ["wide16",
+  348], ["wide12", 156], ["CC-MAIN-2018-39", 135], ["wide11", 110], ["CC-MAIN-2017-26",
+  102], ["CC-MAIN-2021-49", 69], ["wide15", 45], ["CC-MAIN-2018-05", 37], ["CC-MAIN-2021-25",
+  34], ["CC-MAIN-2017-51", 31], ["CC-MAIN-2022-40", 22], ["CC-MAIN-2021-21", 20],
+  ["CC-MAIN-2024-22", 18], ["CC-MAIN-2020-34", 16], ["CC-MAIN-2023-06", 15], ["CC-MAIN-2022-33",
+  15], ["CC-MAIN-2020-05", 15], ["wide10", 14], ["CC-MAIN-2020-24", 10], ["CC-MAIN-2024-30",
+  9], ["CC-MAIN-2022-21", 9], ["CC-MAIN-2021-31", 9], ["CC-MAIN-2021-17", 9], ["CC-MAIN-2023-50",
+  8], ["wide5", 7], ["CC-MAIN-2024-33", 7], ["CC-MAIN-2021-39", 7], ["CC-MAIN-2024-38",
+  6], ["CC-MAIN-2024-10", 6], ["CC-MAIN-2018-43", 6], ["CC-MAIN-2024-42", 5], ["CC-MAIN-2022-49",
+  5], ["CC-MAIN-2024-51", 4], ["CC-MAIN-2023-40", 4], ["CC-MAIN-2023-14", 4], ["CC-MAIN-2022-05",
+  4], ["CC-MAIN-2020-29", 4], ["CC-MAIN-2024-18", 3], ["CC-MAIN-2021-10", 3], ["CC-MAIN-2020-50",
+  3], ["CC-MAIN-2020-45", 3], ["CC-MAIN-2019-04", 3], ["survey3", 2], ["CC-MAIN-2022-27",
+  2], ["CC-MAIN-2021-43", 2], ["CC-MAIN-2020-40", 2], ["CC-MAIN-2018-34", 2], ["CC-MAIN-2018-22",
+  2], ["CC-MAIN-2015-48", 2], ["CC-MAIN-2014-15", 2], ["wide2", 1], ["wide17", 1],
+  ["CC-MAIN-2024-46", 1], ["CC-MAIN-2024-26", 1], ["CC-MAIN-2020-16", 1], ["CC-MAIN-2014-35",
+  1]]'
+docs_langs: '[[0.1, 1], [0.2, 3], [0.3, 15], [0.4, 51], [0.5, 226], [0.6, 392], [0.7,
+  421], [0.8, 389], [0.9, 171], [1.0, 455]]'
+docs_segments: '[[1, 13], [2, 33], [3, 45], [4, 45], [5, 96], [6, 139], [7, 131],
+  [8, 113], [9, 116], [10, 84], [11, 74], [12, 83], [13, 74], [14, 64], [15, 42],
+  [16, 46], [17, 53], [18, 58], [19, 45], [20, 55], [21, 34], [22, 50], [23, 36],
+  [24, 24], [25, 12], [26, 15], [27, 15], [28, 7], [29, 11], [30, 14], [31, 5], [32,
+  6], [33, 5], [34, 6], [35, 9], [36, 22], [37, 32], [38, 23], [39, 38], [40, 34],
+  [41, 41], [42, 31], [43, 37], [44, 22], [45, 19], [46, 25], [47, 21], [48, 13],
+  [49, 10], [50, 9], [51, 4], [52, 9], [53, 11], [54, 10], [55, 4], [56, 8], [57,
+  2], [58, 3], [59, 3], [60, 1], [62, 1], [63, 1], [64, 3], [71, 2], [75, 1], [80,
+  3], [81, 1], [83, 1], [84, 1], [89, 2], [91, 1], [94, 1], [95, 3], [98, 1], [99,
+  2], [100, 1], [102, 1], [108, 2], [110, 1], [120, 1], [149, 1], [301, 1], [415,
+  1], [581, 1]]'
+docs_segments_mean: 20
+docs_segments_median: 14
+docs_top100_domains: '[["jw.org", 1737], ["kundana.com.na", 185], ["neweralive.na",
+  109], ["blogspot.com", 19], ["namibian.com.na", 14], ["gotquestions.org", 10], ["globalrecordings.net",
+  10], ["omulunga.com.na", 7], ["watchtower.org", 6], ["stalk.info", 2], ["rna.ao",
+  2], ["omutumwa.com", 2], ["kasahorow.org", 2], ["cifraclub.com", 2], ["bible.com",
+  2], ["ajol.info", 2], ["wikimedia.org", 1], ["unicode.org", 1], ["sxwcba.com", 1],
+  ["safecall.co.uk", 1], ["preservenamibia.org", 1], ["ohchr.org", 1], ["musicnoteslib.com",
+  1], ["ibnzura.com", 1], ["gayhomeland.org", 1], ["g1musica.com", 1], ["contafrica.org",
+  1], ["blogsangola.com", 1], ["agelvipa.com", 1]]'
+docs_top100_tld: '[["org", 1761], ["com.na", 206], ["na", 109], ["com", 31], ["net",
+  10], ["info", 4], ["ao", 2], ["co.uk", 1]]'
+docs_total: 2124
+docs_wds: '[[5.0, 41], [5.1, 23], [5.2, 34], [5.3, 35], [5.4, 44], [5.5, 32], [5.6,
+  28], [5.7, 35], [5.8, 43], [5.9, 41], [6.0, 28], [6.1, 44], [6.2, 34], [6.3, 39],
+  [6.4, 51], [6.5, 41], [6.6, 50], [6.7, 37], [6.8, 51], [6.9, 45], [7.0, 61], [7.1,
+  53], [7.2, 60], [7.3, 68], [7.4, 71], [7.5, 78], [7.6, 73], [7.7, 74], [7.8, 80],
+  [7.9, 69], [8.0, 91], [8.1, 75], [8.2, 63], [8.3, 65], [8.4, 60], [8.5, 51], [8.6,
+  41], [8.7, 39], [8.8, 26], [8.9, 30], [9.0, 30], [9.1, 26], [9.2, 16], [9.3, 15],
+  [9.4, 10], [9.5, 11], [9.6, 5], [9.7, 6], [9.9, 1]]'
+sentence_pairs: 43464
+src_bytes: 12123500
+src_chars: 12003851
+src_pii: 27
+src_tokens: 2339683
+unique_sents: 41479
+src_sent_tokens: '[[1, 366], [2, 784], [3, 765], [4, 901], [5, 1018], [6, 1040], [7,
+  972], [8, 901], [9, 1076], [10, 919], [11, 808], [12, 875], [13, 890], [14, 910],
+  [15, 761], [16, 670], [17, 636], [18, 644], [19, 585], [20, 543], [21, 499], [22,
+  494], [23, 387], [24, 419], [25, 439], [26, 404], [27, 397], [28, 391], [29, 370],
+  [30, 326], [31, 337], [32, 329], [33, 314], [34, 335], [35, 332], [36, 274], [37,
+  287], [38, 260], [39, 325], [40, 303], [41, 285], [42, 291], [43, 259], [44, 262],
+  [45, 248], [46, 252], [47, 237], [48, 210], [49, 228], [50, 232], [51, 233], [52,
+  200], [53, 215], [54, 220], [55, 186], [56, 202], [57, 209], [58, 201], [59, 199],
+  [60, 203], [61, 216], [62, 208], [63, 203], [64, 220], [65, 206], [66, 202], [67,
+  215], [68, 197], [69, 195], [70, 185], [71, 200], [72, 180], [73, 201], [74, 198],
+  [75, 178], [76, 206], [77, 199], [78, 194], [79, 194], [80, 207], [81, 216], [82,
+  182], [83, 177], [84, 174], [85, 185], [86, 180], [87, 190], [88, 170], [89, 172],
+  [90, 176], [91, 173], [92, 173], [93, 166], [94, 165], [95, 186], [96, 173], [97,
+  167], [98, 175], [99, 166], [100, 155], [101, 133], [102, 131], [103, 132], [104,
+  158], [105, 160], [106, 139], [107, 143], [108, 161], [109, 150], [110, 152], [111,
+  141], [112, 128], [113, 158], [114, 129], [115, 126], [116, 129], [117, 130], [118,
+  129], [119, 123], [120, 115], [121, 125], [122, 113], [123, 100], [124, 118], [125,
+  114], [126, 117], [127, 99], [128, 112], [129, 113], [130, 117], [131, 87], [132,
+  120], [133, 101], [134, 91], [135, 106], [136, 98], [137, 83], [138, 81], [139,
+  99], [140, 94], [141, 87], [142, 75], [143, 86], [144, 68], [145, 69], [146, 65],
+  [147, 75], [148, 70], [149, 66], [150, 81], [151, 60], [152, 67], [153, 61], [154,
+  74], [155, 67], [156, 56], [157, 62], [158, 56], [159, 57], [160, 53], [161, 54],
+  [162, 45], [163, 43], [164, 47], [165, 48], [166, 39], [167, 53], [168, 46], [169,
+  42], [170, 55], [171, 43], [172, 46], [173, 54], [174, 38], [175, 31], [176, 31],
+  [177, 40], [178, 36], [179, 34], [180, 40], [181, 29], [182, 41], [183, 36], [184,
+  37], [185, 21], [186, 36], [187, 23], [188, 27], [189, 24], [190, 24], [191, 24],
+  [192, 20], [193, 25], [194, 18], [195, 26], [196, 26], [197, 13], [198, 24], [199,
+  13], [200, 19], [201, 17], [202, 21], [203, 15], [204, 20], [205, 19], [206, 13],
+  [207, 12], [208, 16], [209, 14], [210, 18], [211, 15], [212, 14], [213, 9], [214,
+  12], [215, 16], [216, 16], [217, 10], [218, 5], [219, 10], [220, 12], [221, 8],
+  [222, 10], [223, 9], [224, 6], [225, 9], [226, 4], [227, 3], [228, 5], [229, 9],
+  [230, 11], [231, 4], [232, 6], [233, 8], [234, 4], [235, 3], [236, 8], [237, 3],
+  [238, 4], [239, 4], [240, 4], [241, 5], [242, 4], [243, 3], [244, 3], [245, 5],
+  [246, 4], [247, 3], [248, 4], [249, 1], [250, 1], [251, 3], [252, 3], [253, 3],
+  [255, 2], [256, 4], [257, 3], [258, 3], [259, 1], [261, 2], [262, 1], [263, 2],
+  [264, 2], [269, 1], [271, 1], [273, 2], [275, 1], [276, 3], [277, 1], [278, 1],
+  [280, 1], [281, 1], [282, 2], [283, 1], [284, 1], [285, 1], [304, 2], [307, 1],
+  [308, 1], [314, 1], [317, 1], [319, 1], [321, 1], [322, 1], [342, 1], [344, 1],
+  [382, 1], [707, 1], [950, 1], [1040, 1]]'
+src_sent_tokens_mean: 54
+src_sent_tokens_median: 35
+src_unique_sents: '[[1, 127], [2, 430], [3, 589], [4, 747], [5, 911], [6, 960], [7,
+  897], [8, 862], [9, 1007], [10, 881], [11, 778], [12, 846], [13, 848], [14, 889],
+  [15, 740], [16, 662], [17, 622], [18, 627], [19, 572], [20, 534], [21, 479], [22,
+  483], [23, 381], [24, 413], [25, 425], [26, 389], [27, 390], [28, 382], [29, 362],
+  [30, 319], [31, 325], [32, 323], [33, 307], [34, 329], [35, 325], [36, 271], [37,
+  284], [38, 254], [39, 316], [40, 298], [41, 281], [42, 284], [43, 257], [44, 257],
+  [45, 243], [46, 247], [47, 232], [48, 209], [49, 227], [50, 232], [51, 230], [52,
+  195], [53, 207], [54, 216], [55, 181], [56, 199], [57, 203], [58, 195], [59, 195],
+  [60, 200], [61, 211], [62, 206], [63, 200], [64, 218], [65, 203], [66, 201], [67,
+  212], [68, 192], [69, 193], [70, 184], [71, 196], [72, 179], [73, 197], [74, 195],
+  [75, 173], [76, 204], [77, 195], [78, 191], [79, 191], [80, 199], [81, 212], [82,
+  180], [83, 174], [84, 170], [85, 183], [86, 178], [87, 189], [88, 160], [89, 172],
+  [90, 175], [91, 172], [92, 170], [93, 165], [94, 158], [95, 184], [96, 168], [97,
+  166], [98, 172], [99, 165], [100, 154], [101, 132], [102, 130], [103, 130], [104,
+  156], [105, 158], [106, 137], [107, 142], [108, 154], [109, 148], [110, 151], [111,
+  138], [112, 125], [113, 157], [114, 128], [115, 124], [116, 128], [117, 129], [118,
+  127], [119, 123], [120, 113], [121, 122], [122, 112], [123, 99], [124, 117], [125,
+  114], [126, 117], [127, 99], [128, 111], [129, 112], [130, 117], [131, 84], [132,
+  120], [133, 101], [134, 91], [135, 105], [136, 96], [137, 83], [138, 78], [139,
+  98], [140, 92], [141, 85], [142, 75], [143, 86], [144, 65], [145, 69], [146, 65],
+  [147, 75], [148, 70], [149, 66], [150, 81], [151, 60], [152, 67], [153, 61], [154,
+  74], [155, 67], [156, 56], [157, 62], [158, 56], [159, 57], [160, 53], [161, 54],
+  [162, 45], [163, 41], [164, 47], [165, 47], [166, 39], [167, 53], [168, 45], [169,
+  42], [170, 55], [171, 43], [172, 46], [173, 52], [174, 38], [175, 30], [176, 31],
+  [177, 40], [178, 36], [179, 34], [180, 40], [181, 29], [182, 40], [183, 36], [184,
+  34], [185, 21], [186, 35], [187, 23], [188, 27], [189, 24], [190, 23], [191, 24],
+  [192, 20], [193, 23], [194, 18], [195, 26], [196, 26], [197, 13], [198, 23], [199,
+  13], [200, 19], [201, 17], [202, 21], [203, 15], [204, 20], [205, 19], [206, 13],
+  [207, 12], [208, 16], [209, 13], [210, 18], [211, 15], [212, 14], [213, 9], [214,
+  12], [215, 16], [216, 16], [217, 10], [218, 5], [219, 10], [220, 11], [221, 8],
+  [222, 10], [223, 9], [224, 6], [225, 9], [226, 4], [227, 3], [228, 5], [229, 9],
+  [230, 10], [231, 4], [232, 6], [233, 7], [234, 4], [235, 3], [236, 8], [237, 3],
+  [238, 4], [239, 4], [240, 4], [241, 4], [242, 4], [243, 3], [244, 3], [245, 5],
+  [246, 4], [247, 3], [248, 4], [249, 1], [250, 1], [251, 3], [252, 3], [253, 3],
+  [255, 2], [256, 4], [257, 3], [258, 3], [259, 1], [261, 2], [262, 1], [263, 2],
+  [264, 2], [269, 1], [271, 1], [273, 2], [275, 1], [276, 3], [277, 1], [278, 1],
+  [280, 1], [281, 1], [282, 2], [283, 1], [284, 1], [285, 1], [304, 2], [307, 1],
+  [308, 1], [314, 1], [317, 1], [319, 1], [321, 1], [322, 1], [342, 1], [344, 1],
+  [382, 1], [707, 1], [950, 1], [1040, 1]]'
+src_langs: '[["en", 9773], ["eo", 7672], ["tl", 3703], ["sw", 2773], ["es", 2570],
+  ["id", 2459], ["it", 1820], ["hr", 1518], ["fi", 1513], ["tr", 1444], ["pl", 1147],
+  ["nl", 655], ["pt", 547], ["de", 376], ["io", 329], ["sl", 328], ["ms", 323], ["sq",
+  311], ["hu", 307], ["ceb", 300], ["su", 297], ["fr", 284], ["war", 242], ["la",
+  241], ["cy", 210], ["et", 196], ["ur", 159], ["sr", 142], ["lt", 130], ["cs", 123],
+  ["eu", 105], ["jv", 93], ["ro", 91], ["bs", 91], ["ca", 79], ["sv", 72], ["kw",
+  72], ["az", 70], ["qu", 68], ["uz", 65], ["mt", 65], ["ilo", 58], ["jbo", 57], ["scn",
+  38], ["nb", 33], ["gv", 30], ["ku", 28], ["rm", 26], ["ru", 23], ["sk", 22], ["ie",
+  20], ["lv", 19], ["br", 16], ["mn", 15], ["ia", 15], ["vi", 12], ["oc", 12], ["mg",
+  12], ["kn", 12], ["hsb", 12], ["vo", 11], ["gl", 11], ["co", 11], ["wa", 10], ["min",
+  10], ["tk", 9], ["sco", 9], ["lb", 9], ["is", 9], ["ast", 9], ["nds", 8], ["zh",
+  7], ["pam", 7], ["af", 7], ["so", 6], ["gn", 6], ["ga", 6], ["fy", 6], ["da", 6],
+  ["yo", 5], ["pms", 5], ["ml", 5], ["diq", 5], ["uk", 4], ["sc", 4], ["li", 4], ["ja",
+  4], ["bar", 4], ["vep", 3], ["ta", 3], ["lmo", 3], ["hy", 3], ["gom", 3], ["cbk",
+  3], ["als", 3], ["tt", 2], ["nn", 2], ["nap", 2], ["bn", 2], ["vec", 1], ["th",
+  1], ["si", 1], ["pnb", 1], ["or", 1], ["nah", 1], ["my", 1], ["mr", 1], ["kk", 1],
+  ["hif", 1], ["gd", 1], ["eml", 1], ["el", 1], ["dsb", 1], ["bcl", 1]]'
+hardrules_tags: '{"not_too_long": 479, "not_too_short": 1646, "length_ratio": 0, "no_urls":
+  135, "no_bad_encoding": 43, "pii": 27}'
+sample: '["\"1. Olie upondola okututolela onkhalelo yaviuka yokufenda Huku?\\nONONGELEYA
+  ononyingi mbupopia okuti valongesa otyili konthele ya Huku. Mahi otyo hatyili mokonda
+  onongeleya mbulongesa ovipuka vielikalela konthele yokuti Huku olie no \u00f1geni
+  tupondola okumufenda. O\u00f1geni tupondola okuno\u00f1gonoka onkhalelo yaviuka
+  yokufenda Huku? Jeova oe vala upondola okututolela o\u00f1geni tupondola okumufenda.\\n2.
+  O\u00f1geni tupondola okulilongesa onkhalelo yaviuka yokufenda Huku?\\n2 Jeova wetuavela
+  Ombimbiliya, ngotyo tupondola okulilongesa onkhalelo yaviuka yokumufenda. Putyina
+  tulilongesa Ombimbiliya, Jeova utukuatesako okupola esilivilo komalongeso ae mokonda
+  utuhole unene. \u2014Isa\u00edas 48:17.\\n3. Oityi Huku ahanda tulinge?\\n3 Ovanthu
+  vamwe vapopia okuti Huku utavela onongeleya ambuho, mahi hangotyoko Jesus etulongesa.
+  Wati: \u201cHaaveho vati \u2018Tatekulu, Tatekulu,\u2019 mavakanyingila mouhamba
+  wokeulu. Mukanyingila vala una ulinga ehando lia Tate.\u201d Tyakolela okuno\u00f1gonoka
+  oityi Huku ekahi nokulinga netyi makalinga. Otyo tyakolela mokonda Jesus waeleka
+  omunthu wehetavela ku Huku nomunthu \u201cuhena onondunge.\u201d\u2014Mateus 7:21-23.\\n4.
+  Oityi Jesus apopia konthele yokulinga ehando lia Huku?\\n4 Jesus wetulondola okuti
+  tyina tuhanda okulinga ehando lia Huku tukala novitateka. Wati: \u201cNyingililei
+  mombundi yahita. Mokonda onthanda nokuahandyuka etapalo lituala kehanyauno, iya
+  ovanyingi omo vekahi nokunyingila. Anthi, ombundi onthutu nondyila yahita ituala
+  komuenyo, iya kavehi vekahi nokuivasa.\u201d (Mateus 7:13, 14) Ondyila yahita ine
+  onkhalelo yaviuka yokufenda Huku, ituala komuenyo uhapu. Etapalo liahandyuka ine
+  onkhalelo yapenga yokufenda Huku, ituala kononkhia. Mahi Jeova kahande omunthu nawike
+  ankhie. Wavela ovanthu aveho omphitilo yokulilongesa konthele yae.\u20142 Pedro
+  3:9.\\nONKHALELO YAVIUKA YOKUFENDA HUKU\\n5. O\u00f1geni tupondola okuimbuka vana
+  vafende Huku monkhalelo yaviuka?\\n5 Jesus wapopia okuti onthue tupondola okuimbuka
+  vana vafenda Huku monkhalelo yaviuka. Tulinga ngotyo tyina tutala nawa omalongeso
+  avo netyi valinga. Wapopia okuti: \u201cKovinyango viavo oko mamuimbukila ovanthu
+  ovo.\u201d Iya ayawisako okuti: \u201cKese omuti omuwa wiima ovinyango oviwa.\u201d
+  (Mateus 7:16, 17) Otyo katyilekesa okuti vana vafenda Huku kavapengesa. Mahi ovaumbili
+  va Huku apeho valinga ononkhono mbokulinga etyi tyaviuka. Pahe matutale oityi tyitukuatesako
+  okuimbuka vana vafenda Huku monkhalelo yaviuka.\\n6, 7. Omokonda yatyi ovafendeli
+  votyotyili valandula etyi tyipopia Ombimbiliya? Oityi ongeleka ya Jesus itulongesa?\\n6
+  Efendelo lietu lina okulikuata kumwe no Mbimbiliya. Ombimbiliya yati: \u201cOvihonekwa
+  aviho viatumwa okuhonekwa na Huku nokuna esilivilo pala okulongesa, nokuviyula,
+  nokuviukisa ovipuka, nokulonga nouviuki. Opo omunthu wa Huku akale tyafuapo nawa,
+  nokuapongiyua nawa pala ovilinga aviho oviwa.\u201d (2 Tim\u00f3teo 3:16, 17) Apostolu
+  Paulu wahonekela Ovakristau okuti: \u201cEtyi muetavela ondaka ya Huku, ina mueiva
+  kuonthue, onwe mueitavela okuti handakako yomunthu. Mahi, tyotyili ondaka ya Huku.\u201d
+  (1 Tessalonicenses 2:13) Efendelo liotyotyili litunda vala mondaka ya Huku, Ombimbiliya.
+  Kalitundu momalusoke ovanthu ine ovipuka ovikuavo.\\n7 Ovipuka aviho Jesus alongesile
+  ankho vitunda mo Ndaka ya Huku. (Tanga Jo\u00e3o 17:17.) Ovikando ovinyingi ankho
+  utumbula Ovihonekwa. (Mateus 4:4, 7, 10) Ovaumbili votyotyili va Huku valandula
+  ongeleka ya Jesus, iya ovipuka aviho valinga valandula etyi tyipopia Ombimbiliya.\\n8.
+  Oityi Jesus etulongesa konthele yokufenda Jeova?\\n8 Tuna okufenda vala Jeova. O
+  Salmo 83:18 yati: \u201cOve, utiwa Jeova, ove vala Omukulami kombanda yohi aiho.\u201d
+  Jesus ankho uhanda ovanthu vano\u00f1gonoke olie Huku Yotyotyili iya evelongesa
+  enyina lia Huku. (Tanga Jo\u00e3o 17:6.) Jesus wati: \u201cUna okufenda Jeova Huku
+  yove, oe vala una okulingila ovilinga vikola.\u201d (Mateus 4:10) Ngotyo, mokonda
+  tuvaumbili va Huku, tulandula ongeleka ya Jesus. Tufenda vala Jeova, tuundapesa
+  enyina liae, tupu tulongesa vakuetu enyina lia Huku netyi meya okutulingila.\\n9,
+  10. O\u00f1geni tulekesa okuti tuhole vakuetu?\\n9 Tuesukisa okukala nohole yotyotyili
+  novanthu. Jesus walongesa ovalongwa vae vakale nohole pokati kavo. (Tanga Jo\u00e3o
+  13:35.) Ohole kaitei oku tuatuka, ine komihoko novilongo, kolumono ine koluhepo.
+  Ohole pokati ketu ituhonyeka kumwe novakuatate no nomphange. (Colossenses 3:14)
+  Ngotyo onthue katuende kovilwa tupu katuipaa ovanthu. Ombimbiliya yati: \u201cOvana
+  va Huku no vana ve Liapu, vaimbukilwa kuetyi: Kese munthu wahalingi etyi tyaviuka,
+  katundile ku Huku, na una uyele mukuavo.\u201d Tupu wayawisako okuti: \u201cTuna
+  okukala nohole kese umwe namukuetu. Tuhalingei nga Kaim watuka ke Liapu, aipaa ondenge
+  yae.\u201d\u20141 Jo\u00e3o 3:10-12; 4:20, 21.\\n10 Onthue tuundapesa ononkhono
+  mbetu, nomuvo wetu, nomalumono etu opo tupameke nokukuatesako vakuetu. (Hebreus
+  10:24, 25) Tulinga \u201covipuka oviwa pala ovanthu aveho.\u201d\u2014G\u00e1latas
+  6:10.\\n11. Omokonda yatyi tutavelela okuti Jesus ondyila ituala ku Huku?\\n11 Tuesukisa
+  okutavela ku Jesus mokonda oe ondyila ituala ku Huku. Ombimbiliya yati: \u201cKutupu
+  eyovo momunthu omukuavo, mokonda mombuelo yeulu mutupu vali enyina ekuavo, pokati
+  kovanthu tupondola okuyovokela.\u201d (Atos 4:12) Mo Kapitulu 5, komukanda ou, tuelilongesa
+  okuti Jeova watuma Jesus opo aave omuenyo wae ngo tyilikutila opo ayovole ovanthu
+  vetavela. (Mateus 20: 28) Jeova waholovona Jesus opo akale Ohamba keulu, opo akatumine
+  pano pohi. Otyo Ombimbiliya itupopila okuti tuna okutavela ku Jesus ankho tuhanda
+  okukala nomuenyo uhapu.\u2014Tanga Jo\u00e3o 3:36.\\n12. Omokonda yatyi onthue tuhelipakela
+  mo pulitika?\\n12 Onthue katulipake mo pulitika. Jesus kelipakele mo pulitika. Etyi
+  Jesus ankho ekahi nokukoyeswa, apopila omutumini wo Roma Pilatu okuti: \u201cOuhamba
+  wange kaulingi onthele youye uno.\u201d (Tanga Jo\u00e3o 18:36.) Nga Jesus, nonthue
+  tuvakuatyili Kouhamba wa Huku, iya mokonda yotyo, kese tyilongo oku tukala katulipake
+  mo pulitika. Mahi, Ombimbiliya itupopila opo \u201ctutavele kovatumini.\u201d (Romanos
+  13:1) Onthue tutavela ovitumino vio motyilongo omu tukala. Mahi, tyina ovitumino
+  ovio viliponya novitumino via Huku, onthue tulinga ngo no apostolu, mbati: \u201cOnthue
+  tuna yokutavela ku Huku, tyipona kovanthu.\u201d\u2014Atos 5:29; Marcos 12:17.\\n13.
+  Oityi onthue tuivisa konthele Youhamba wa Huku?\\n13 Onthue tutavela okuti Ouhamba
+  wa Huku, oo vala maukamanako ovitateka viovanthu. Jesus wapopia okuti \u201conondaka
+  ombu onongwa Mbouhamba wa Huku,\u201d mambukaiviswa kombanda yohi aiho. (Tanga Mateus
+  24:14.) Petupu omutumini womunthu utyivila okulinga etyi Ouhamba wa Huku mauketulingila.
+  (Salmo 146:3) Jesus wetulongesa tulikuambele okuita Ouhamba wa Huku etyi ati: \u201cOuhamba
+  wove uye. Ehando liove lilingwe pano pohi, ngetyi lilingwa keulu.\u201d (Mateus
+  6:10) Ombimbiliya itupopila okuti Ouhamba wa Huku maukahanyako omautumini aeho \u201cngao
+  ukakalako apeho.\u201d\u2014Daniel 2:44.\\n14. Ovalie ove usoka okuti vafenda Huku
+  monkhalelo yaviuka?\\n14 Konyima yokuelilongesa ononthele ombo pahe lipula okuti:
+  \u2018Ovalie valongesa etyi tyikahi mo Mbimbiliya? Ovalie vapopila vakuavo enyina
+  lia Huku? Ovalie valekesa oluembia luotyotyili pokati kavo tupu vetavela okuti Jesus
+  watumwa na Huku opo etuyovole? Ovalie vehelipake mo pulitika? Ovalie valongesa okuti
+  Ouhamba wa Huku oo vala maukamanako ovitateka viovanthu?\u2019 Onombangi mba Jeova
+  valinga vala ngotyo.\u2014Isaias 43:10-12.\\nOITYI OVE MOLINGI?\\n15. Oityi tuna
+  okulinga inkha tuhanda Huku etavele efendelo lietu?\\n15 Okuno\u00f1gonoka vala
+  okuti kuna Huku, katyituuka. Alo umwe ovilulu vityii okuti kuna Huku, mahi kavimutavela.
+  (Tiago 2:19) Inkha tuhanda Huku etavele efendelo lietu, kamatutavela vala okuti
+  oko ekahi, mahi tupu matulingi etyi etupopila.\\n16. Omokonda yatyi tulityilikila
+  ongeleya yomatutu?\\n16 Opo Huku etavele efendelo lietu, tuna okuanya onongeleya
+  mbomatutu. Omuuli Isaia wahoneka okuti: \u201cTundei pokati kavo, tualeiko tyasukuka.\u201d
+  (Isaias 52:11; 2 Cor\u00edntios 6:17) Otyo tuesukisila okulityilika ovipuka aviho
+  vielikuata nefendelo liomatutu.\\n17, 18. \u201cOmbambilonia Onene\u201d oityi?
+  Omokonda yatyi tuna yokukanyauka okutundamo?\\n17 Ongeleya yomatutu oityi? Onongeleya
+  ambuho mbulongesa okufenda Huku monkhalelo yehelikuatele Nondaka yae. Ombimbiliya
+  iihana onongeleya mbomatutu okuti \u201cOmbambilonia Onene.\u201d (Revela\u00e7\u00e3o
+  [Apocalipse] 17:5) Omokonda yatyi? Konyima Yombila Onene kononthiki mba Noe, akuhimbikwa
+  okuhindwa onongeleya ononyingi mbo matutu mepundaumbo lio Mbambilonia. Omalongeso
+  oo omatutu aeliyandyana kombanda yohi aiho. Mongeleka, ovanthu ankho vakala mo Mbambilonia
+  ankho vafenda ovikahuku vitatu vielikuata kumwe. Hono, tupu onongeleya mbulongesa
+  okuti Huku wike mu vetatu. Mahi, Ombimbiliya ilongesa nokuayandyuluka okuti kuna
+  vala Huku wike wotyotyili, Jeova. Iya Jesus Omona wae. (Jo\u00e3o 17:3) Ovanthu
+  ankho vakala mo Mbambilonia tupu ankho vetavela okuti onthele imwe yolutu lwo munthu
+  itualako nomuenyo tyina amankhi, nokuti onthele oyo ipondola okumona ononkhumbi
+  mo ifelunu yotupia. Elongeso olio ha liotyotyili.\u2014Tala outoi 14, na 17, na
+  18 ukahi konthyulilo yomukanda ou.\\n18 Huku waula okuti apa katutu onongeleya mbo
+  matutu mambuhanyuako. (Revela\u00e7\u00e3o 18:8) Ove utyii omokonda yatyi tyalumbanesila
+  okutunda mo nongeleya mbomatutu? Jeova uhanda utundemo tyina nkhele lihenetake.\u2014Revela\u00e7\u00e3o
+  [Apocalipse] 18:4.\\n19. Tyina utokola okuumbila Jeova, o\u00f1geni Jeova ekuyakulila?\\n19
+  Putyina wamatokola okutunda mongeleya yomatutu opo uumbile Jeova, vamwe omapanga
+  ove ine ombunga vapondola okuhano\u00f1gonoka etokolo liove iya avapake omuenyo
+  wove movitateka. Mahi Jeova kemekuyekepo. Mokala pokati kombunga imwe onene, velihole
+  pokati kavo tupu vena ekevelelo liokukala nomuenyo uhapu mouye omupe wa Huku. (Marcos
+  10:28-30) Hamwe vamwe pomapanga ove ine ombunga vekuyalele mokonda yetokolo walinga
+  liokuumbila Jeova, mahi konyima navo avetavela okulilongesa Ombimbiliya.\\n20. Omokonda
+  yatyi tyakolela okufenda Huku monkhalelo yaviuka?\\n20 Apa katutu, Huku makahanyako
+  ono ndingavivi ambuho iya Ouhamba wae aukatumina ohi aiho. (2 Pedro 3:9, 13) Oo
+  maukakala omuvo omuwa! Ovanthu aveho mavakafenda Jeova monkhalelo Jeova ahanda tulinge.
+  Ngotyo tyakolela ulinge etokolo pehepano liokufenda Huku monkhalelo yaviuka.\"",
+  "\"JOHANNES omuninginifi okwa hangwa ashike opo a dipawa, efimbo olo Jesus a li
+  a kutifa eemhunga dovanhu. Herodias, omumbada wohamba, ka li e hole Johannes. Onghee
+  hano, okwa li a tetifa ko omutwe waJohannes okupitila mohamba. Osho kasha li tuu
+  oshinima shinyikifa oluhodi!\\nEshi Jesus e shi uda, okwa li a nyika oluhodi neenghono.
+  Okudja opo, Jesus okwa ya konhele ye liyepa e ke likalele, ndele ovanhu ova li ve
+  mu shikula. Eshi a mona eemhunga dovanhu, okwa li e di uditile onghenda. Onghee
+  hano, okwa li e va udifila ouhamba waKalunga nokwa li a velula ovanaudu ovo va li
+  mokati kavo.\\nEfiku olo konguloshi, ovahongwa vaye ova li ve uya kuye, ndele tava
+  ti: \u2018Paife okwa toka, navali onhele ei oye likalela. Lekela ovanhu va ye ve
+  ke lilandele oikulya poilando yopopepi.\u2019\\nJesus okwe va nyamukula a ti: \u2018Ahowe,
+  ovanhu kave na apa tava i. Va peni ashike oikulya.\u2019 Jesus okwa pula Filippus
+  a ti: \u2018Openi hatu dulu oku ka landa oikulya ya wana okupalula ovanhu aveshe
+  ovo?\u2019\\nFilippus okwe mu nyamukula a ti: \u2018Otashi pula oimaliwa ihapu okulanda
+  oikulya ya wana ovanhu aveshe ovo, nande ngeno keshe umwe oku mone okapambu kanini.\u2019
+  Andreas okwa ti: \u2018Okamati aka ka humbata oikulya yetu oke na ashike omingome
+  nhano neeshi di li mbali. Ndelenee itadi wana nandenande okukutifa ovanhu aveshe
+  ovo.\u2019\\nJesus okwa ti: \u2018Lombweleni ovanhu va kale omutumba komwiidi.\u2019
+  Opo nee okwa ilikana kuKalunga omolwoikulya oyo nokwe i pambula moupambu. Ovahongwa
+  vaye ova tukulila ovanhu aveshe omingome neeshi. Opa li ovalumenhu 5 000 novakainhu
+  nounona omayovi mahapu. Aveshe ova lya fiyo va kuta. Naashi ovahongwa va ongela
+  oundjaumukile ovo va xupa po, ova li va yadeka oimbale 12.\\nOkudja opo, Jesus okwa
+  lombwela ovahongwa vaye va londe mowato opo va tauluke efuta laGalilea. Ndele fimbo
+  ve li mefuta, omwa li mwa tukuluka oshikungulu shinene oufiku, nowato oya li tai
+  tengauka komakufikufi. Ovahongwa ova li va tila neenghono. Opo nee, ova mona omunhu
+  ta ende kombada yomeva mokati koufiku a yuka kuvo. Ova kuwa mokule koumbada, molwaashi
+  kava li ve shii kutya olyelye ta ende kombada yomeva.\\nJesus okwa tya kuvo: \u2018Aame,
+  inamu tila.\u2019 Ndele kava li natango va itavela kutya oJesus shili. Onghee hano,
+  Petrus okwa ti: \u2018Omwene, ngeenge oove shili, lombwele nge ndi ende kombada
+  yomeva ndi uye kwoove.\u2019 Jesus okwe mu nyamukula a ti: \u2018Ila!\u2019 Petrus
+  okwa dja mo mowato, ndele ta ende kombada yomeva. Opo nee, okwa kwatwa koumbada
+  nokwa hovela okuningina. Lao linene, Jesus okwe mu xupifa.\\nLwanima, Jesus okwa
+  ka palula natango ovanhu omayovi. Oshikando osho, okwa li e va palula nomingome
+  heyali neeshi dinini. Natango, pomhito oyo oikulya oya li ya wanena ovanhu aveshe.
+  Onghedi omo Jesus a li a fila ovanhu ovo oshisho kai kumwifi tuu! Eshi Jesus ta
+  ka pangela e li ohamba ya nangekwa po kuKalunga, itatu ka kala vali hatu lipula
+  nasha.\\nMateus 14:1-32; 15:29-38; Johannes 6:1-21.\"", "\"\u201cOnye eendombwedi
+  dange, Omwene ta ti.\u201d \u2014 JES. 43:10.\\n1, 2. (a) Okukala ondombwedi osha
+  hala okutya shike, noikundaneki younyuni ou oya dopa okuyandja oundombwedi wa fimanenena
+  u na sha nashike? (b) Omolwashike Jehova ita longifa oikundaneki younyuni ou?\\nOKUKALA
+  ondombwedi osha hala okutya shike? Emboitya limwe ola fatulula la ti kutya ondombwedi
+  \u201comunhu oo a mona oshiningwanima eshi tashi ningwa ye ta yandje ouyelele waasho
+  a mona.\u201d Pashihopaenenwa, moshilando Pietermaritzburg, moSouth Africa, omu
+  na oshifokundaneki shedina The Witness osho sha kala tashi nyanyangidwa oule womido
+  di dulife 160. Edina olo otali wapalele molwaashi elalakano lasho okuyandja omauyelele
+  e li paushili aasho tashi linyenge mounyuni. Omutotipo wo-The Witness okwa li a
+  popya kutya oshikundaneki osho otashi ka kundaneka \u201coshili ye lixwapo.\u201d\\n2
+  Shinyikifa oluhodi, oikundaneki mounyuni oye lidimbika ile nokuli ya pengifa oushili
+  wa fimanenena u na sha nondjokonona yovanhu. Kalunga okwa popya okupitila muHesekiel,
+  a ti: \u2018Oiwana otai ka shiiva nokutya Aame Jehova.\u2019 (Hes. 39:7, NW) Ashike
+  Omupangeli weshito alishe ita longifa oikundaneki younyuni ou. Oku na Eendombwedi
+  omamiliyona ahetatu lwaapo odo tadi shiivifile ovanhu vomoiwana aishe kombinga yaye
+  nonghee a ungaunga novanhu mefimbo la pita nosho yo kunena. Eendombwedi odo da fa
+  etangakwaita, ohadi shiivifa yo shi na sha nomanangeko noupuna omonakwiiwa oo Kalunga
+  a udaneka. Ngeenge otwa kala twa lenga oilonga yetu yokuyandja oundombwedi, ohatu
+  ka ulika kutya otu li metwokumwe nedina olo twa pewa kuKalunga ngaashi sha popiwa
+  muJesaja 43:10 eshi a ti: \u201cOnye eendombwedi dange, Omwene ta ti; nomupiya wange,
+  ou nde mu hoolola.\u201d\\n3, 4. (a) Onaini Ovakonakoni vOmbibeli va mona edina
+  lipe, nova li ve li uditile ngahelipi? (Tala efano pehovelo loshitukulwa.) (b) Omapulo
+  elipi hatu ka kundafana?\\n3 Kashi fi tuu oufembanghenda okuhumbata edina laJehova
+  molwaashi oye \u201cOhamba yomafimbo ounyuni,\u201d ile tu tye Ohamba yaalushe,
+  oo a popya ta ti: \u201cOlo edina lange fiyo alushe nalo Ame handi ifanwa kepupi
+  fiyo kepupi\u201d! (1 Tim. 1:17; Ex. 3:15; yelekanifa nOmuudifi 2:16.) Mo 1931,
+  Ovakonakoni vOmbibeli ova li va tambula edina Eendombwedi daJehova. Lwanima, eenhumwafo
+  dihapu dolupandu oda li da nyanyangidwa mOshungonangelo. Eongalo limwe lomuKanada
+  ola shanga la ti: \u201cOnghundana iwa oyo kutya otu li eendombwedi daJehova oye
+  tu hafifa noya xwameka etokolo toko letu tu kale twa wana okuhumbata edina olo lipe.\u201d\\n4
+  Ongahelipi to dulu okuulika olupandu loye li na sha noufembanghenda wokuhumbata
+  edina laKalunga? Oto dulu mbela okuyelifa oshikalimo shomushangwa omo mwa kufwa
+  edina Eendombwedi daJehova?\\nEENDOMBWEDI DAKALUNGA DONALE\\n5, 6. (a) Omonghedi
+  ilipi ovadali Ovaisrael va li ve na okuyandja oundombwedi kombinga yaJehova? (b)
+  Oshike vali osho ovadali Ovaisrael va li va lombwelwa va ninge, nomolwashike ovadali
+  vokunena ve na okuninga sha faafana?\\n5 Oohandimwe Ovaisrael vopefimbo laJesaja
+  ova li \u201ceendombwedi\u201d daJehova, noshiwana ashishe shi li ongudu osha li
+  \u2018omupiya\u2019 waKalunga. (Jes. 43:10) Onghedi imwe omo ovadali Ovaisrael va
+  li hava yandje oundombwedi omokuhonga ovana vavo shi na sha nanghee Kalunga a li
+  a ungaunga nooxekulululwa. Pashihopaenenwa, eshi va li va lombwelwa va kale hava
+  dana Opaasa omudo keshe, ova li va lombwelwa taku ti: \u2018Ovana veni ngeenge tave
+  mu pula: Eenghedi odo otadi ti ngahelipi? Opo nee nye mu na oku va lombwela: Olo
+  eyambo lekoyo lOmwene ou a koyelela po omaumbo Ovaisrael muEgipti, Ye eshi a denga
+  Ovaegipti, ndelenee a filonghenda omaumbo etu.\u2019 (Ex. 12:26, 27) Ovadali ovo
+  ove na yo okukala va li va lombwela ovana vavo kutya eshi Moses a li a ya kohamba
+  yaEgipti oshikando shotete a ka pule epitikilo lokweefa Ovaisrael va ka longele
+  Jehova mombuwa, Farao okwa nyamukula ta ti: \u201cOmwene olyelye, ame ndi pwilikine
+  ondaka yaye ndi lekele Israel?\u201d (Ex. 5:2) Nopehe na omalimbililo, konima eshi
+  omahandukilo omulongo a denga edu laEgipti, nokonima eshi Ovaisrael va xupa momake
+  etangakwaita laEgipti pEfuta Litilyana, keshe umwe okwa li a mona kutya enyamukulo
+  lepulo laFarao ola li la yela mo nawa. Jehova okwa kala, noku li Omunaenghono adishe.
+  Oshiwana shaIsrael nasho osha li sha mona kutya Jehova oKalunga kashili noha wanifa
+  po omaudaneko aye.\\n6 Ovaisrael ovo va li va lenga oufembanghenda wokuhumbata edina
+  laJehova, nopehe na omalimbililo, ove na okukala va li va hokolola oiningwanima
+  ikumwifi ya tya ngaho kovana vavo nosho yo kovanailongo ovo va li ovapiya vavo.
+  Shikwao vali, Ovaisrael ova li va lombwelwa va deule ovana vavo va shiive omufika
+  waKalunga uyapuki. Jehova okwa ti: \u201cMu nokukala ovayapuki, osheshi Aame, Omwene
+  Kalunga keni, omuyapuki.\u201d (Lev. 19:2; Deut. 6:6, 7) Kashi fi tuu oshihopaenenwa
+  shiwa kovadali vokunena, ovo navo ve na okutekulila ovana vavo meendjila diyapuki
+  moku va kwafela va fimanekife edina laKalunga la tumbala! \u2014 Lesha Omayeletumbulo
+  1:8; Ovaefeso 6:4.\\n7. (a) Ngeenge Ovaisrael va li ovadiinini kuJehova, osha li
+  hashi kumu ngahelipi oiwana oyo ye va dingilila? (b) Aveshe ovo va humbata edina
+  laKalunga ove na oshinakuwanifwa shashike?\\n7 Ngeenge Ovaisrael va li ovadiinini,
+  osha li hashi yandje oundombwedi u na sha nedina laKalunga. Ova kala nale va lombwelwa
+  taku ti: \u201cNoiwana aishe yokombada yedu otai ka mona nokutya, edina lOmwene
+  la tumbulwa kombada yoye, ndee yo otai ke ku tila.\u201d (Deut. 28:10) Shinyemateka,
+  hanga ondjokonona yOvaisrael aishe otai ulike ashike okuhe na oudiinini. Omafimbo
+  nomafimbo, ova kala hava longele oikalunga. Shikwao vali, ngaashi oikalunga yOvakaanan
+  oyo va li hava longele, ova li va ninga ovakwanyanya, hava yambe po ovana vavo nova
+  li hava fininike eehepele. Osho kashi fi tuu oshilihongomwa sha denga mbada kufye
+  okukala alushe hatu hopaenene Omuyapuki a shiya ko, oo twa humbata edina laye mokulikaleka
+  twa yapuka!\\n\u201cTALENI, AME OHANDI SHITI OSHINIMA SHIPE\u201d\\n8. Jesaja okwa
+  li a pewa oshilonga shilipi kuJehova, naJesaja okwa li e linyenga ngahelipi?\\n8
+  Jehova okwa li a xunganeka kutya ota ka katuka onghatu oyo tai ke limonikila koshiwana
+  shaye eshi te ke shi mangulula moupika. (Jes. 43:19) Omatukulwa 6 opehovelo embo
+  laJesaja otaa londwele unene shi na sha noiponga oyo ya li tai ka hanga Jerusalem
+  noilando oyo ye shi dingilila. Jehova oo ha konakona omitima monghedi ya wanenena,
+  okwa li a lombwela Jesaja a twikile nokushiivifa elondwelo olo nonande ka li ta
+  ka pwilikinwa kuvahapu. Jesaja okwa li a kumwa nokwa li a hala okushiiva kutya ofiyo
+  onaini oshiwana shaKalunga tashi kala inashi hala okulivela ombedi. Mbela Kalunga
+  okwa li e mu nyamukula ngahelipi? Okwa ti: \u201cFiyo oilando tai ningi omaputu
+  mu he na ovanhu, nomaumbo mu he novanhu, nedu tali ka ninga ofuka.\u201d \u2014
+  Lesha Jesaja 6:8-11.\\n9. (a) Onaini exunganeko laJesaja li na sha naJerusalem la
+  li la wanifwa? (b) Onghalo ilipi i li po kunena oyo tai pula tu kale oupafi?\\n9
+  Jesaja okwa li a pewa oshilonga osho momudo waxuuninwa wokupangela kwohamba Ussia,
+  ile mo 778 K.O.P. lwaapo. Okwa kala ta longo e li omuprofeti oule womido 46 lwaapo
+  fiyo okonima yo 732 K.O.P., a twaalela fiyo opefimbo lepangelo lohamba Hiskia. Osho
+  osha li omido 125 fimbo Jerusalem inashi hanaunwa po mo 607 K.O.P. Kungaho, oshiwana
+  shaKalunga osha kala nale sha londwelwa sha wana kutya oshike sha li tashi ke va
+  ningilwa monakwiiwa. Kunena, Jehova oku na yo oshiwana shaye osho tashi yandje elondwelo
+  laasho tashi ka ningwa monakwiiwa. Okudja ashike eshi oshifo shOshungonangelo sha
+  hovela okunyanyangidwa oule womido 135, osha kala tashi ladipike ovaleshi vasho
+  va kale ve li oupafi molwaashi epangelo laSatana loukolokoshi otali ka xulifwa po
+  mafiku notali ka pingenwa po kEpangelo lOmido Eyovi laJesus Kristus. \u2014 Eh.
+  20:1-3, 6.\\n10, 11. Ewanifo lexunganeko laJesaja lilipi Ovaisrael va mona eshi
+  va li muBabilon?\\n10 Ovajuda ovaduliki ovo va li ve liyandja kOvababilon ova li
+  va xupa eshi Jerusalem sha hanaunwa po nova li va twalwa moukwatwa kuBabilon. (Jer.
+  27:11, 12) Konima yomido 70 eshi oshiwana shaKalunga shi li moukwatwa, osha li sha
+  mona nghee exunganeko likumwifa tali wanifwa, olo tali ti: \u201cOmwene, omukulili
+  weni, Omuyapuki waIsrael osho ta ti: Omolweni ohandi tumu kuBabel, handi va shingi
+  ngaashi oonakufaduka po.\u201d \u2014 Jes. 43:14.\\n11 Metwokumwe nexunganeko olo,
+  opa li pa ningwa oshiningwanima moufiku umwe lwopehovelo laOktoba 539 K.O.P., osho
+  sha li sha tilifa ounyuni. Fimbo ohamba yaBabilon novanenenhu vakwao va li tava
+  nu omaviinyu oo a li moikwatelwa oyo ya tinhwa kotembeli yaJerusalem nova li tava
+  fimaneke oikalunga yavo, omatangakwaita Ovamedia nOvapersia okwa li a kwata ko Babilon.
+  Mo 538 ile 537 K.O.P. oo a li a kwata ko Babilon, Kores, okwa li a lombwela Ovajuda
+  va shune nova ka tungulule otembeli yaKalunga muJerusalem. Ashishe osho osha hangwa
+  nale sha xunganekwa kuJesaja, mwa kwatelwa eudaneko laJehova lokufila oshisho nokwaamena
+  oshiwana shaye osho she livela ombedi eshi sha alukila kuJerusalem. Kalunga okwa
+  li a popya shi na sha navo a ti: \u201cOshiwana eshi nde limela, tashi ka vilikila
+  ehambelelo lange.\u201d (Jes. 43:21; 44:26-28) Eshi oshiwana osho sha li moupika
+  sha shuna kuJerusalem nokutungulula otembeli yaJehova, osha li sha mona oumbangi
+  kutya Jehova Kalunga aeke kashili, oha wanifa po alushe omaudaneko aye.\\n12, 13.
+  (a) Oolyelye va li va kwatelwa mo mOvaisrael eshi va tungulula elongelokalunga lashili?
+  (b) \u2018Eedi dimwe\u2019 oda teelelwa di ninge shike eshi tadi yambidida \u2018Israel
+  yaKalunga,\u2019 nodi na eteelelo lilipi?\\n12 Ovanhu omayovi ovo vehe fi Ovaisrael
+  ova li va ninga oshitukulwa shoshiwana osho sha aluka kuBabilon, nolwanima ovanhu
+  vahapu vomoiwana imwe ova ka ninga ovauyimo mOujuda. (Esra 2:58, 64, 65; Est. 8:17)
+  Kunena, \u201congudu inene\u201d \u2018yeedi dimwe\u2019 daJesus, otai yambidida
+  noudiinini Ovakriste ovavaekwa ovo ve li \u2018Israel yaKalunga.\u2019 (Eh. 7:9,
+  10; Joh. 10:16, NW; Gal. 6:16) Ovavaekwa nosho yo ongudu inene ove na oufembanghenda
+  wokwiifanwa nedina Eendombwedi daJehova.\\n13 Momukokomoko wEpangelo lOmido Eyovi
+  laKristus, ongudu inene otai ka hepaululila nehafo linene ovanyumunwa kutya osha
+  li sha tya ngahelipi okukala umwe womEendombwedi daJehova momafiku axuuninwa exulilo
+  longhalelo ei yoinima. Tu li oilyo yongudu inene, ohatu ka dula ashike okuninga
+  ngaho ngeenge otwa kala metwokumwe nedina letu nokukendabala okukala ovayapuki.
+  Shikwao vali, kashi na nee mbudi kutya ohatu kendabala shi fike peni, otu na okupula
+  ediminepo apa twa dopa okukala ovayapuki efiku keshe, nokudimina kutya otu va lunde
+  nosho yo kutya okukala twa humbata edina laKalunga liyapuki oshi li oufembanghenda
+  munenenene. \u2014 Lesha 1 Johannes 1:8, 9.\\nEITYO LEDINA LAKALUNGA\\n14. Paudeko
+  letu, edina Jehova otali ti shike?\\n14 Opo tu hapupalife olupandu letu li na sha
+  noufembanghenda wokuhumbata edina laKalunga, osha fimana okukala hatu dilonga keityo
+  lalo. Edina laKalunga, olo la dja koshityalonga shOshiheberi osho tashi ulike kokukatuka
+  eenghatu notashi dulu okutolokwa \u2018okuningifa,\u2019 luhapu ohali tolokwa \u201cJehova.\u201d
+  Onghee hano, paudeko letu, edina Jehova otali ti, \u201cOha ningifa.\u201d Eityo
+  olo otali wapalele onghandangala oyo Jehova ta dana e li Omushiti weshito alishe
+  nOmuwanifi womaudaneko aye. Ngaashi oiningwanima tai shi ulike, Jehova ota twikile
+  okuningifa ehalo nelalakano laye li shiivike kashi na nee mbudi kutya ovapataneki,
+  ngaashi Satana, otava kendabala okuninga shike opo va ye moshipala okuwanifwa kwehalo
+  laYe.\\n15. Jehova okwa holola ngahelipi oukwatya waye wonhumba eshi a li ta yelifa
+  kombinga yedina laye? (Tala oshimhungu \u201cEdina olo tali ti sha lela.\u201d)\\n15
+  Eshi Jehova a li a pa Moses oshinakuwanifwa shokupitifa mo Ovaisrael muEgipti, okwa
+  li a yelifa eityo ledina laye te litangumuna, ta holola oukwatya waye wonhumba ta
+  longifa oshityalonga shOshiheberi sha yukila keityo ledina laye. Ombibeli oya ti:
+  \u201cNdele Kalunga ta ti kuMoses: Ohandi ka kala osho nda hoolola okukala [ile,
+  Ame ohandi ka kala osho handi ka kala]. Ndee ta ti vali: U nokunyamukula ngaha Ovaisrael,
+  u tye: Ohandi ka kala okwa tuma nge kunye.\u201d (Ex. 3:14, NW) Kungaho, Jehova
+  ota ka kala keshe osho sha pumbiwa opo a wanife po elalakano laye kashi na nee mbudi
+  kutya omonghalo ya tya ngahelipi. Okwa li a ulikila Ovaisrael ovo va li moupika
+  kutya oku li omuxupifi, omwaameni, omuwiliki nomufilishisho oo a li a wanifa po
+  eemhumbwe davo dopalutu nodopamhepo.\\nOKUULIKA OLUPANDU LETU\\n16, 17. (a) Ongahelipi
+  hatu dulu okuulika olupandu li na sha noufembanghenda wokuhumbata edina laKalunga?
+  (b) Oshike hatu ka kundafana moshitukulwa tashi landula?\\n16 Kunena, Jehova ota
+  twikile okukala metwokumwe neityo ledina laye mokuwanifa po eemhumbwe detu adishe
+  dopamhepo nodopalutu. Ashike eityo ledina laKalunga inali ngabekelwa ashike kwaasho
+  a hoolola a kale. Ola kwatela mo yo osho ha ningifa tashi shiiva shi na sha noilonga
+  yEendombwedi daye eshi tadi wanifa po elalakano laye. Okudilonga kwaasho otaku ke
+  tu kwafela tu kale metwokumwe nedina laye. K\u00e5re wokoNorway oo e na omido 84
+  nokwa kala Ondombwedi iladi oule womido 70 da pita, okwa ti: \u201cOndi wete kutya
+  oshi li oufembanghenda munene okulongela Jehova, Ohamba yaalushe nokukala oshitukulwa
+  shovanhu ovo va lukilwa edina laye liyapuki. Oshi li alushe oufembanghenda munene
+  okuyelifa oshili yOmbibeli nokumona oipala yovanhu tave limemesha kehafo nove udite
+  ko. Pashihopaenenwa, ohashi hafifa nge ngeenge handi va hongo nghee ekuliloyambo
+  laKristus hali longo, nonghee okupitila mulo tava dulu okumona omwenyo waalushe
+  mounyuni mupe wombili nowouyuki.\u201d\\n17 Natango onghee ngoo ku na oitukulwa
+  imwe omo shidjuu okumona ovanhu ovo va hala okulihonga kombinga yaKalunga. Ndele
+  nande ongaho, ngaashi K\u00e5re, mbela iho kala wa hafa neenghono ngeenge owa hange
+  umwe ta pwilikine noto dulu oku mu honga shi na sha nedina laKalunga? Ndele mbela
+  ongahelipi hatu dulu okukala Eendombwedi daJehova nopefimbo opo tuu opo ohatu yandje
+  oundombwedi kombinga yaJesus? Epulo olo olo hatu ka kundafana moshitukulwa tashi
+  landula.\"", "\"\u201cKeshe eshi mwa hala ovanhu ve mu ningile, osho va ningileni
+  yo.\u201d \u2014 MAT. 7:12.\\n1. Mbela onghedi omo hatu ungaunga novanhu moukalele
+  otai dulu ngoo oku va kuma? Yandja oshihopaenenwa. (Tala efano pehovelo loshitukulwa.)\\nOMIDO
+  dinini da pita, Ovakriste vamwe ovalihomboli vomuFiji ova li tava kufa ombinga moshikonga
+  shokushiva ovanhu kEdimbuluko lefyo laKristus. Fimbo va li tava popi nomukainhu
+  umwe poshivelo sheumbo laye, odula oya li ya hovela okuloka. Omumwatate okwa li
+  a yandja okanduda kamwe komukainhu oo ofimbo vo tava longifa kamwe nomukulukadi
+  waye. Ovalihomboli ovo ova li va hafa neenghono eshi omukainhu oo a li e uya kEdimbuluko.
+  Omukainhu oo okwa ti kutya ota dimbuluka ashike kanini kaasho Eendombwedi odo da
+  li da popya pefimbo letalelepo. Ashike eshi sha li she mu kuma unene noshe mu linyengifa
+  a ye kEdimbuluko, onghedi omo da li da ungaunga naye. Oshike sha li sha etifa oidjemo
+  iwa ya tya ngaho? Ovalihomboli ovo ova tula moilonga efinamhango li na sha nanghee
+  tu na okuungaunga navamwe.\\n2. Otu na okuungaunga ngahelipi navamwe?\\n2 Jesus
+  okwa yandja omayele e na sha nanghee tu na okuungaunga navamwe eshi a ti: \u201ckeshe
+  eshi mwa hala ovanhu ve mu ningile, osho va ningileni yo.\u201d (Mat. 7:12) Ongahelipi
+  hatu dulu okutula moilonga efinamhango olo? Omokukatuka eenghatu dopavali. Yotete,
+  otu na okulipula kutya, \u2018Ngeno aame, ngeno onda hala okuungaungwa naame ngahelipi?\u2019
+  Opo nee otu na okukatuka eenghatu tu ungaunge navamwe ngaashi twa hala ngeno okuungaungwa
+  nafye. \u2014 1 Kor. 10:24.\\n3, 4. (a) Omolwashike ovaitaveli vakwetu havo aveke
+  tu na okuungaunga nawa navo? (b) Oshike hatu ka kundafana moshitukulwa eshi?\\n3
+  Luhapu ohatu ungaunga nawa novaitaveli vakwetu. Ashike Jesus ina tya kutya otu na
+  ashike okuungaunga nawa novaitaveli vakwetu. Okwa tumbula efinamhango li na sha
+  nanghee tu na okuungaunga navamwe eshi a li ta kundafana kombinga yanghee tu na
+  okuungaunga novanhu aveshe nosho yo nokuli novatondi vetu. (Lesha Lukas 6:27, 28,
+  31, 35.) Ngeenge otu na okutula moilonga efinamhango olo eshi hatu ungaunga novatondi
+  vetu, mbela katu na okuninga ngaho unene tuu eshi hatu ungaunga novanhu ovo hatu
+  udifile, ovo vahapu vomuvo \u201cva halelela oku ka mona omwenyo waalushe\u201d!
+  \u2014 Oil. 13:48, NW.\\n4 Paife ohatu ka kundafana omapulo 4 oo hatu dulu okukaleka
+  momadiladilo eshi hatu kufa ombinga moukalele: Oolyelye handi udifile? Ohandi va
+  hange peni? Onaini shi li efimbo liwa okuya kovanhu? Ondi na okupopya navo ngahelipi?
+  Ngaashi hatu ke shi mona, omapulo oo otae tu kwafele tu kale tu na ko nasha nomaliudo
+  aavo hatu udifile nokulundulula omatwalemo etu she likolelela keenghalo davo. \u2014
+  1 Kor. 9:19-23.\\nOOLYELYE HANDI UDIFILE?\\n5. Omapulo elipi hatu dulu okulipula?\\n5
+  Ngeenge tu li moukalele, luhapu ohatu popi noohandimwe. Omunhu keshe oku na onakudiwa
+  nomaupyakadi aye e lili. (2 Omaf. 6:29) Ngeenge hatu udifile umwe onghundana iwa,
+  otu na okulipula kutya: \u2018Ngeno aame, mbela ngeno onda hala omunhu ou a tale
+  nge ko ngahelipi? Mbela ohandi ka kala ngoo nda hafa ngeenge okwa tale nge ko ashike
+  nda fa omunhu wongaho? Ile onda hala a kale a tala nge ko ndi li omunhu wolela kuye.\u2019
+  Okudilonga komapulo oo otaku tu dimbulukifa tu ungaunge nawa nomuneumbo keshe pauhandimwe.\\n6,
+  7. Otu na okuninga shike ngeenge otwa shakeneke moukalele omunhu oo ta ungaunga
+  nafye nai?\\n6 Kape na oo a hala okukala a talika ko e li omukembauli. Tu li Ovakriste,
+  ohatu ningi ngaashi hatu dulu opo tu tule moilonga omayele Ombibeli oo kutya, \u201cEendjovo
+  deni nadi kale alushe donghenda.\u201d (Kol. 4:6) Ndele molwaashi inatu wanenena,
+  omafimbo amwe ohatu popi oinima oyo hatu ke livela ombedi lwanima. (Jak. 3:2) Ngeenge
+  otwa popi naumwe nopehe na olune, tashi dulika molwaashi efiku inali tu endela nawa,
+  itatu ka kala twa hala tu talwe ko kutya katu na eenghedi ile kutya katu na ko nasha
+  navamwe. Ashike ohatu ka teelela omunhu a ude ko onghalo omo tu li. Mbela nafye
+  katu na okuungaunga navamwe monghedi ya faafana?\\n7 Ngeenge omunhu oo wa shakeneka
+  moukalele ota ungaunga naave nai, mbela itashi ka kala shiwa ngeenge owa kala wa
+  fa uhe wete kutya ota ungaunga naave nai? Mbela ote linyenge ngaho omolwomafininiko
+  koilonga ile kofikola? Mbela ota ungaunga nonghalo ya kwata moiti yokuhe na oukolele?
+  Meenghalo dihapu, ovanhu ovo potete hava kala va handuka ohave ke linyenga nawa
+  ngeenge ovapiya vaJehova ova ungaunga navo nomwenyo muwa nonefimaneko. \u2014 Omayel.
+  15:1; 1 Pet. 3:15.\\n8. Omolwashike tu na okuudifila ovanhu \u2018aveshe\u2019 etumwalaka
+  lOuhamba?\\n8 Ohatu popi novanhu ve li meenghalo di lili noku lili moukalele wetu.
+  Pashihopaenenwa, momido ashike opo da di ko, okwa nyanyangidwa oimoniwa i dulife
+  po 60 mOshungonangelo, moitukulwa ya pambafana i na oshipalanyole, \u201cOmbibeli
+  ohai lundulula onghalamwenyo yovanhu.\u201d Ovanhu vamwe ovo va popiwa moitukulwa
+  oyo ova li hava vake, eengholwe, va li meengudu dovalongi vominyonena ile va li
+  va pikwa koingangamifi. Vamwe ova li ovanapolitika, ovawiliki vomalongelokalunga
+  ile ovo va li va pitifa komesho omaifano avo. Vamwe ova li ve na onghedi yokukalamwenyo
+  inai koshoka. Ndele aveshe ova li va uda onghundana iwa, tava konakona Ombibeli,
+  tava ningi omalunduluko nokuuya moshili. Onghee hano, inatu diladila nandenande
+  kutya ovanhu vamwe inava wana okuudifilwa etumwalaka lOuhamba. (Lesha 1 Ovakorinto
+  6:9-11.) Ndele ponhele yaasho, natu kale tu shii kutya ovanhu \u2018aveshe\u2019
+  otava dulu okutambula ko onghundana iwa. \u2014 1 Kor. 9:22.\\nOVANHU OHANDI VA
+  HANGE PENI?\\n9. Omolwashike tu na okuulika kutya otwa fimaneka omaumbo avamwe?\\n9
+  Ovanhu ohatu va hange peni eshi hatu wanifa po oukalele wetu? Luhapu ohatu i komaumbo
+  avo. (Mat. 10:11-13) Ohatu shi pandula ngeenge vamwe otava ulike kutya ova fimaneka
+  omaumbo noinima yetu. Kakele kaasho, omaumbo etu okwa fimanenena kufye. Otwa hala
+  a kale onhele omo tu udite twa amenwa noyelimweneneno. Otu na yo okuulikila ovanhu
+  vakwetu efimano la tya ngaho. Onghee hano, ngeenge hatu longo eumbo neumbo, otu
+  na okudiladila kombinga yanghee tu na okuungaunga nomaumbo avo. \u2014 Oil. 5:42.\\n10.
+  Ongahelipi hatu dulu okuhenuka okupiyaaneka vamwe moukalele wetu?\\n10 Mounyuni
+  ou ekaulonyanga la lunda pombada, ovaneumbo vahapu ohava kala va angala ovanhu ovo
+  vehe shii. (2 Tim. 3:1-5) Otu na okuhenuka okuningifa ovanhu va kale ve tu angala.
+  Pashihopaenenwa, natu tye nee otwa ya peumbo lonhumba ndele hatu konghola poshivelo.
+  Ngeenge itamu nyamukula, otashi dulika tu kwatwe keamo lokuvandamena momakende ile
+  tu kale hatu dingonoka eumbo, hatu kongo ovaneumbo. Mbela momudingonoko weni oshinima
+  sha tya ngaho itashi piyaaneke omuneumbo? Mbela ovashiinda shaye otava ka diladila
+  shike? Oshoshili kutya otu na okuwanifa po nawanawa oshilonga shetu shokuudifa.
+  (Oil. 10:42) Otwa halelela okutandavelifa etumwalaka liwa nohatu shi ningi nomalinyengotomheno
+  mawa. (Rom. 1:14, 15) Ashike otu na okuhenuka okuninga oinima oyo tai dulu okupiyaaneka
+  ovanhu moshitukulwa osho hatu udifile. Omuyapostoli Paulus okwa ti: \u201cFye itatu
+  pe omunhu omhito okudina moshinima nande shimwe, oshilongayakulo shetu shi ha shekwe.\u201d
+  (2 Kor. 6:3) Ngeenge otwa ulike kutya otwa fimaneka omaumbo noinima yaavo ve li
+  moshitukulwa shetu, elihumbato letu otali dulu okunanena vamwe koshili. \u2014 Lesha
+  1 Petrus 2:12.\\nONAINI SHI LI EFIMBO LIWA OKUYA KOVANHU?\\n11. Omolwashike hatu
+  shi pandula ngeenge vamwe ova fimaneka efimbo letu?\\n11 Tu li Ovakriste, vahapu
+  vomufye otu na omalipyakidilo mahapu monghalamwenyo. Ndele opo tu wanife po oinakuwanifwa
+  yetu, otwa tala kutya ilipi ya fimanenena nokutula po efimbolandulafano liwa loku
+  i wanifa po. (Ef. 5:16; Fil. 1:10) Otashi dulika tu kale twa nyemata ngeenge efimbolandulafano
+  letu ola iwa moshipala koshinima shonhumba. Onghee hano, ohatu shi pandula ngeenge
+  vamwe tava ulike kutya ova fimaneka efimbo letu, mokutala kutya efimbo peni ve na
+  okupopya nafye nonokutya otava kwata oule wefimbo li fike peni. Tu na momadiladilo
+  efinamhango li na sha nanghee tu na okuungaunga navamwe, ongahelipi hatu dulu okuulika
+  kutya otwa fimaneka ovo hatu udifile?\\n12. Ongahelipi hatu dulu okuufa kutya efimbo
+  lonhumba olo liwa nokuudifila ovanhu moshitukulwa shetu?\\n12 Otu na okutala kutya
+  efimbo lilipi liwa okuya komaumbo avamwe. Ovanhu moshitukulwa sheni ohava kala momaumbo
+  efimbo lilipi? Efimbo peni tashi dulika va kale va hala okupwilikina? Otashi ka
+  kala shiwa ngeenge otwa tale nghee tu na okulundulula efimbolandulafano letu she
+  likolelela keenghalo dovanhu. Koitukulwa imwe mounyuni, oukalele weumbo neumbo ohau
+  ende nawa unene komatango. Ngeenge moshitukulwa eshi ho udifile osho mu li ngaho,
+  mbela ito dulu okuliunganeka nawa opo u longe eumbo neumbo pefimbo olo? (Lesha 1
+  Ovakorinto 10:24.) Ohatu dulu okukala noushili kutya Jehova ota ka nangeka noupuna
+  omaliyambo keshe oo hatu ningi opo tu kufe ombinga moukalele pefimbo olo tali wapalele
+  ovanhu moshitukulwa shetu.\\n13. Ongahelipi hatu dulu okuulika kutya otwa fimaneka
+  omuneumbo?\\n13 Ongahelipi vali hatu dulu okuulika kutya otwa fimaneka oohandimwe?
+  Ngeenge otwa shakeneke umwe oo ta pwilikine nawa, otu na oku mu pa oundombwedi muwa
+  ashike katu na okukala po efimbo lile unene. Omuneumbo otashi dulika a nunina efimbo
+  olo oshinima shonhumba osho e wete sha fimana. Ngeenge okwa ti kutya okwe lipyakidila,
+  natu mu lombwele kutya itatu kwata efimbo, notu na okuliufa kwaasho twa ti. (Mat.
+  5:37) Pexulilo leenghundafana, oshiwa okupula omuneumbo kutya onaini vali tashi
+  ka kala shiwa oku mu shunina. Ovaudifi vamwe ohava mono shiwa okutya: \u201cOhandi
+  ka kala nda hafa oku ku talela po vali. Mbela itashi ka kala shiwa ngeenge onde
+  ku dengele ile ndi ku tumine etumwalaka ndi ude ngeenge ou na omhito?\u201d Ngeenge
+  ohatu tifuka she likolela komafimbolandulafano aavo ve li moshitukulwa shetu, ohatu
+  landula oshihopaenenwa shaPaulus, oo a li \u2018ita kongo osho she mu wapalela,
+  ndelenee osho sho sha wapalela vahapu, opo va xupifwe.\u2019 \u2014 1 Kor. 10:33.\\nONDI
+  NA OKUPOPYA NOVANHU NGAHELIPI?\\n14-16. (a) Omolwashike tu na okuyelifila nawa omuneumbo
+  elalakano letalelepo letu? (b) Etwalemo lilipi omupashukili omweendi umwe a mona
+  kutya ohali pondola?\\n14 Diladila nee ngeno efiku limwe fimbo u li po owa dengelwa
+  ongodi ashike ewi lomunhu oo ta popi ku li shii. Omunhu oo ku mu shii, ndele ote
+  ku pula kutya ou hole oikulya yoludi lilipi. Oto ka kala to lipula kutya olyelye
+  a denga nokwa hala naanaa shike. Omolwokuulika eenghedi, otashi dulika ngoo u popye
+  naye kanini, ndele oto ka ulika kutya ino hala eenghundafana di ye moule. Mepingafano
+  naasho, natu tye nee ngeno omudengi oo okwa popya edina laye, te ku lombwele kutya
+  oha longo noinima i na sha noitungifi yolutu nonokutya oha yandje ouyelele u na
+  sha naasho. Nopehe na omalimbililo, ohatu ka pwilikina nawa komunhu a tya ngaho.
+  Shikwao vali, ohatu shi pandula ngeenge ovo tava popi nafye tava yukilile oshitwa
+  nelungi. Ongahelipi hatu dulu okuninga sha faafana eshi hatu ungaunga naavo hatu
+  shakeneke moukalele wetu?\\n15 Ovanhu moitukulwa ihapu ova teelela tu popye osho
+  twa endela nopehe na okwoongaonga. Oshoshili kutya otu na ouyelele u na ondilo oo
+  ovanhu vahapu vehe na. Ndele natu tye nee inatu lombwela omuneumbo kutya ofye oolyelye
+  notwa endela shike ndele hatu hovele ashike neenghundafana nokupula omuneumbo kutya:
+  \u201cNgeno okwa li u na eenghono, oupyakadi ulipi to ka kandula po?\u201d Otu shii
+  kutya elalakano lokupula ngaho okumona kutya omunhu ota diladila shike opo tu shingile
+  eenghundafana kOmbibeli. Ashike omunhu otashi dulika e lipule kutya: \u2018Omunhu
+  owa peni, nomolwashike ta pulile nge epulo la tya ngaha? Elalakano laye olashike?\u2019
+  Onghee hano, natu kendabaleni okukwafela ovanhu va kale ve tu mangulukila. (Fil.
+  2:3, 4) Osho ohatu shi ningi ngahelipi?\\n16 Omupashukili omweendi umwe oha popi
+  novanhu monghedi tai shikula nokwa mona kutya ohai longo. Konima eshi ve lipopifa,
+  oha pe omuneumbo okafo Mbela owa hala okushiiva oshili? ndele ta ti: \u201cOhatu
+  yandje okafo oko kukeshe umwe moshitukulwa eshi nena. Oka kundafana omapulo ahamano
+  oo ovanhu vahapu tashi dulika va pule. Oko okoye.\u201d Omumwatate okwa ti kutya
+  ovanhu vahapu ohava kala ve tu mangulukila ngeenge ova shiiva kutya otwa endela
+  shike. Kungaho, ohashi kala shipu luhapu okutwikila neenghundafana. Omupashukili
+  omweendi lwanima oha pula omuneumbo kutya: \u201cMbela owe lipula nale limwe lomomapulo
+  oo?\u201d Ngeenge okwa hoolola po limwe, omumwatate oha pandje okafo nokukundafana
+  nomuneumbo osho Ombibeli ya ti kombinga yepulo olo. Ile efimbo limwe omumwatate
+  oye mwene ha hoolola epulo noku li kundafana nomuneumbo nopehe na okukondjifa omuneumbo
+  oye a hoolole. Ashike ope na eenghedi dihapu dokuhovela eenghundafana. Moitukulwa
+  imwe, fimbo ino popya osho she ku endifa, ou na okushikula eenghedi donhumba dokupopifa
+  odo da tambulwa ko. Eshi sha fimanenena okulundulula omatwalemo etu she likolelela
+  keenghalo dovanhu moshitukulwa shetu.\\nTWIKILA OKUTULA MOILONGA EFINAMHANGO LI
+  NA SHA NANGHEE TU NA OKUUNGAUNGA NAVAMWE MOUKALELE\\n17. Ngaashi sha kundafanwa
+  moshitukulwa eshi, omeenghedi dimwe dilipi hatu dulu okutula moilonga efinamhango
+  li na sha nanghee tu na okuungaunga navamwe?\\n17 Omeenghedi dimwe dilipi hatu dulu
+  okutula moilonga efinamhango li na sha nanghee tu na okuungaunga navamwe moukalele
+  wetu? Otu na okuungaunga nomuneumbo keshe she likolelela konghalo yaye. Otu na okuulika
+  kutya otwa fimaneka eumbo noinima yomuneumbo. Natu kendabaleni yo okukufa ombinga
+  moukalele pefimbo opo ovanhu ve li momaumbo notu wete kutya otashi dulika ve ke
+  tu pwilikine. Natu tale yo kutya onghedi ilipi hatu ka longifa moshitukulwa shetu
+  oyo tai ka nana ovanhu va pwilikine.\\n18. Ouwa ulipi hatu ka mona ngeenge otwa
+  ungaunga naavo ve li moshitukulwa shetu monghedi omo ngeno nafye twa hala tu ungaungiwe
+  nafye?\\n18 Okuungaunga novanhu moshitukulwa shetu monghedi omo ngeno nafye twa
+  hala okuungaungwa nafye otaku eta oidjemo ihapu iwa. Ngeenge otwa ungaunga navamwe
+  nolune nokuulika kutya otu na ko nasha navo, kungaho ohatu efa ouyelele wetu u minikile,
+  hatu ulike ongushu yokutula moilonga omafinamhango Ombibeli nokuyandja efimano kuTate
+  yetu womeulu. (Mat. 5:16) Ohatu dulu okunanena ovanhu koshili monghedi omo hatu
+  va udifile. (1 Tim. 4:16) Kashi na nee mbudi kutya ovo hatu udifile etumwalaka lOuhamba
+  otave li tambula ko ile hasho, ohatu ka kala twa wanenwa eshi tu shii kutya otwa
+  ninga ngaashi hatu dulu opo tu wanife po oukalele wetu. (2 Tim. 4:5) Onghee hano,
+  keshe umwe womufye na hopaenene omuyapostoli Paulus oo a ti: \u201cAishe ohandi
+  [i] ningi omolwevangeli, naame yo ndi mone oshitukulwa shomulo.\u201d (1 Kor. 9:23)
+  Komesho yaaishe, natu tuleni alushe moilonga efinamhango li na sha nanghee tu na
+  okuungaunga navamwe moukalele wetu.\"", "\"1, 2. (a) Hokolola olweendo laRut naNaomi
+  naasho sha li she va nyikifa oluhodi. (b) Ongahelipi olweendo laRut la li la yooloka
+  ko kulaNaomi?\\nKALA nee wa fa u wete Rut naNaomi ve li kokule tava ende ovo aveke
+  moluhaela laMoab. Kala yo wa fa u wete Rut ta tale kuinamweno ye ta diladila kutya
+  openi tava ka nangala molwaashi okwa li taku wiwile. Okwa li e hole Naomi neenghono
+  nokwa li e na ehalo okuninga keshe shimwe opo e mu file oshisho.\\n2 Ovakainhu ovo
+  ova li va nyika oluhodi neenghono. Naomi okwa kala omufiyekadi omido dihapu, ashike
+  okwa li a nyika oluhodi omolwefyo lovanamati vavali ava opo va fi, Kiljon naMahlon.
+  Rut naye okwa li a nyika oluhodi molwaashi Mahlon okwa li omushamane waye. Nonande
+  aveshe vavali ova li va yuka kuBetlehem shomuIsrael, olweendo lavo ola li la yoolokafana.
+  Naomi okwa li ta i keumbo. Ashike kuRut oinima oya li i lili, molwaashi okwa li
+  ta fiye po ovapambele, oshilongo shavo neenghedindjikilile dasho mwa kwatelwa oikalunga
+  yasho. \u2014 Lesha Rut 1:3-6.\\n3. Omanyamukulo omapulo elipi tae ke tu kwafela
+  tu hopaenene eitavelo laRut?\\n3 Oshike sha li sha kwafela omukainhu oo omunyasha
+  a ninge omalunduluko a kwata moiti? Rut okwa li ta ka hanga eenghono peni a dule
+  okulifila oshisho nosho yo Naomi? Ngeenge otwa konakona omanyamukulo omapulo oo,
+  ohatu ke lihonga nghee hatu dulu okuhopaenena eitavelo laRut Omumoab. Tete natu
+  ka kundafaneni kutya omolwashike ovakainhu ovo vavali va li va ya molweendo olo
+  lile va finda kuBetlehem.\\nOukwaneumbo wa tukaulwa kumwe kefyo\\n4, 5. (a) Omolwashike
+  oukwaneumbo wooNaomi wa li wa tembukila kuMoab? (b) Omashongo elipi Naomi a li a
+  shakeneka muMoab?\\n4 Rut okwa kulila muMoab, okalongo oko ka li koushilo wEfuta
+  la Fya, ke na oikulundudu i na oixwa ye lihana nosho yo omalufilu male. \u201cMedu
+  la Moab\u201d omwa li mu na omapya haa mene nawa, nokuli nopefimbo opo muIsrael
+  mwa li mu na ondjala. Rut ova li va shakena naMahlon noukwaneumbo wavo omolwondjala
+  oyo ya li muIsrael. \u2014 Rut 1:1.\\n5 Ondjala oyo ya li muIsrael oya li ya fininika
+  Elimelek nomukulukadi waye novanamati vavali va tembuke mo moshilongo shavo noku
+  ka kala ngaashi ovanailongo muMoab. Etokolo la tya ngaho ola li la shonga eitavelo
+  loshilyo keshe shoukwaneumbo, molwaashi Ovaisrael ova li va pumbwa okulongela Jehova
+  pandjikilile monhele iyapuki oyo a li a hoolola. (Deut. 16:16, 17) Naomi okwa li
+  a diinina eitavelo laye. Ashike nande ongaho, okwa li a nyika oluhodi eshi omushamane
+  waye a fya. \u2014 Rut 1:2, 3.\\n6, 7. (a) Omolwashike tashi dulika Naomi a li a
+  nyemata eshi ovanamati vaye va hombola ovakainhu Ovamoab? (b) Omolwashike onghedi
+  omo Naomi a li ha ungaunga noitenya i shii okupandulwa?\\n6 Naomi otashi dulika
+  yo a li a nyemata eshi ovanamati va ka hombola ovakainhu Ovamoab. (Rut 1:4) Okwa
+  li e shii kutya xekulululwa woshiwana shavo, Abraham, okwa li a ninga eenghendabala
+  da mana mo opo a kongele omonamati Isak omwalikadi moshiwana shaJehova. (Gen. 24:3,
+  4) Lwanima, Omhango yaMoses oya li ya londwela Ovaisrael vaha efe ovana vavo va
+  hombolafane novanailongo, opo vaha nwefwe mo va longele oikalunga. \u2014 Deut.
+  7:3, 4.\\n7 Ndele nande ongaho, Mahlon naKiljon ova li va hombola ovakainhu Ovamoab.
+  Naomi otashi dulika oshinima osho sha li she mu nyemateka ile te lipula nasho, ashike
+  nande ongaho, okwa kala e na ekwatafano liwa noitenya yaye, Rut naOrpa. Otashi dulika
+  a li e lineekela kutya navo otava ka ninga ovalongeli vaJehova. Ndele kashi na nee
+  mbudi kutya Naomi okwa li e udite ngahelipi, okwa li e holike kuRut naOrpa. Ekwatafano
+  olo liwa ola li le va kwafela pefimbo loudjuu. Rut naOrpa ova li va filwa ovashamane
+  vavo, fimbo nokuli inava mona ounona. \u2014 Rut 1:5.\\n8. Oshike sha li she linyengifa
+  Rut a longele Jehova?\\n8 Mbela elongelokalunga omo Rut a putukila ola li ngoo le
+  mu kwafela a ungaunge noupyakadi oo? Otashi dulika kala li le mu kwafela. Ovamoab
+  ova li hava longele oikalunga ihapu, nova li va fimaneka unene Kamos. (Num. 21:29)
+  Otashi dulika elongelokalunga lavo nalo la li la kwatela mo omahepeko noilonga inyanyalifi
+  oyo ya li ya sha pefimbo opo, mwa kwatelwa okuninga ounona omaxwikiloyambo. Osha
+  yela kutya keshe osho Rut a hongwa kuMahlon ile kuNaomi kombinga yaKalunga kaIsrael
+  omunahole nomunanghenda, Jehova, osha li she mu kwafela a mone kutya elongelokalunga
+  lilipi li li mondjila. Jehova omunahole, ndele kefi omukwanyanya. (Lesha Deuteronomion
+  6:5.) Eshi Rut a ka filwa omushamane waye, otashi dulika a ka panga oukaume wopofingo
+  naNaomi nokupwilikina nehalo liwa komukainhu oo omunamido eshi te mu lombwele kombinga
+  yaKalunga kashili Jehova, oilonga yaye ikumwifi nosho yo onghedi yopahole omo a
+  li ha ungaunga noshiwana shaye.\\n9-11. (a) Naomi, Rut naOrpa ova li va ninga etokolo
+  lilipi? (b) Oshike hatu lihongo shi na sha nomaupyakadi oo a li e va hanga?\\n9
+  Naomi okwa li a halelela okuuda kutya onghalo koshilongo shavo oi li ngahelipi.
+  Efiku limwe okwa li a kundana, tashi dulika komushingifi omweendi, kutya muIsrael
+  kamu na vali ondjala. Jehova okwa li a dimbuluka oshiwana shaye. MuBetlehem osho
+  tashi ti \u201cEumbo lomingome,\u201d omwa li vali mu na oikulya ya wana. Onghee
+  hano, Naomi okwa li a tokola okushuna keumbo. \u2014 Rut 1:6.\\n10 Mbela Rut naOrpa
+  ova li tava ka ninga po shike? (Rut 1:7) Ova li va panga oukaume wa kola naNaomi
+  pefimbo opo va filwa ovashamane vavo. Rut otashi dulika a li a nanwa kolune nosho
+  yo eitavelo laNaomi ihali tengauka muJehova. Ovafiyekadi ovo vatatu ova li va fikama
+  va ye kuJuda.\\n11 Embo laRut otali tu dimbulukifa kutya ovayuki navo ohava hangwa
+  komaupyakadi nohava filwa ngaashi ashike ovakolokoshi. (Omuud. 9:2, 11) Otali tu
+  hongo yo kutya ngeenge twa nyika oluhodi otwa pumbwa okukonga ehekeleko kuvamwe,
+  unene tuu ovo va ninga Jehova eameno lavo, Kalunga oo a li ha longelwa kuNaomi.
+  \u2014 Omayel. 17:17.\\nOhole yaRut i na oudiinini\\n12, 13. Omolwashike Naomi a
+  li a hala Rut naOrpa va shune komaumbo avo, nova li ve linyenga ngahelipi potete?\\n12
+  Eshi ovafiyekadi ovo va enda ko oshinano okudja kuMoab, Naomi okwa li a hovela okulipula.
+  Okwa li te lipula shi na sha novakainhu vavali ovanyasha ovo ve li pamwe naye nghee
+  ve mu ulikila ohole nosho yo ovanamati vaye. Okwa li e udite oudjuu nota diladila
+  kutya pamwe ota wedele ko komutengi wavo. Ngeenge ova fiye po oshilongo shavo nokuya
+  pamwe naye kuBetlehem, ote ke va pa shike?\\n13 Lwanima, Naomi okwa li e va lombwela
+  a ti: \u201cIndeni, shuneni komaumbo oonyoko. Omwene ne mu file onghenda ngaashi
+  nye mwa fila ovafi naame onghenda.\u201d Okwa li yo e na eteelelo kutya Jehova ote
+  ke va pa ovashamane vamwe nonghalamwenyo ipe. Opo nee, \u2018okwe va xupita. Ndele
+  vo ova yelula ondaka yavo ndele tava lili.\u2019 Oshipu okuuda ko kutya omolwashike
+  Rut naOrpa va li ve hole Naomi neenghono molwaashi okwa li e va ulikila olune noka
+  li e liholemwene. Ova li ve mu lombwela tava ti: \u201cAhowe, fye [otwa] hala okuya
+  pamwe naave koshiwana sheni.\u201d \u2014 Rut 1:8-10.\\n14, 15. (a) Orpa okwa li
+  a shuna kushike? (b) Naomi okwa li a kendabala ngahelipi okwiitavelifa Rut e mu
+  fiye po?\\n14 Naomi ka li a dimina va ye pamwe naye. Okwa li ta tomhafana navo kutya
+  ke na lela eshi te ke va pa muIsrael molwaashi ke na omushamane oo te ke mu fila
+  oshisho, ile ovanamati voku va hombola noke na nokuli etimaumbwile kutya otava ka
+  mona ko vamwe. Okwa li a ulika kutya okwa nyika oluhodi linene molwaashi a li ita
+  dulu oku ke va fila oshisho. Orpa okwa li e udite ko eendjovo daNaomi. Ina novapambele
+  omo ve li muMoab nosho yo eumbo lavo. Okwa li tashi monika shi li xwepo okukala
+  muMoab. Onghee hano, okwa li a lekela Naomi te mu xupita ndele ta shuna a nyika
+  oluhodi linene. \u2014 Rut 1:11-14.\\n15 Ongahelipi shi na sha naRut? Eendjovo daNaomi
+  oda li da yukifwa yo nokuye. Ndele Ombibeli oya ti: \u201cRut okwa kanyatela kuye.\u201d
+  Otashi dulika Naomi a li a hovela vali okweenda eshi a mona kutya Rut okwa li te
+  mu shikula. Naomi okwa ti kuRut: \u201cTala, hautenya omukweni okwa piluka nokwa
+  shuna koshiwana shavo nokookalunga vavo. Shikula hano hautenya omukweni.\u201d (Rut
+  1:15) Eendjovo daNaomi otadi tu hololele shihapu. Orpa ka li ashike a shuna koshiwana
+  shavo ndele \u201cnokookalunga vavo\u201d yo. Okwa li a wanenwa okukala omulongeli
+  waKamos noikalunga ikwao. Mbela Rut naye osho a li e udite ngaho?\\n16-18. (a) Rut
+  okwa li a ulika ngahelipi ohole i na oudiinini? (b) Ohatu lihongo shike mohole yaRut
+  i na oudiinini? (Tala yo efano pepandja 36-37.)\\n16 Eshi tava ende pamwe naNaomi
+  mondjila oyo ihe na ovanhu, Rut okwa li e na oushili kutya okwa ninga etokolo li
+  li mondjila. Rut okwa li e hole neenghono Naomi nosho yo Kalunga kaye. Onghee hano,
+  Rut okwa ti: \u2018Ino lombwela nge nokutya, ndi ku fiye po ndi shune ko ndiha ye
+  naave. Osheshi keshe apa to i, naame yo handi ka ya ko, ndele keshe apa ho kala,
+  naame yo handi ka kala ko. Oshiwana shoye osho oshiwana shange, naKalunga koye Oye
+  Kalunga kange. Apa to file, naame opo handi ka fila nokupakwa. Omwene na yukife
+  nge ngaashi a hala. Efyo olo alike nali tu tukaule kumwe!\u2019 \u2014 Rut 1:16,
+  17.\\n17 Eendjovo daRut odididilikwedi nomolwaasho otadi dimbulukiwa fiyo opaife,
+  nonande opa pita omido 3 000 lwaapo okudja eshi a fya. Otadi tu hololele oukwatya
+  wa fimana, ohole i na oudiinini. Rut okwa li e na ohole inene noi na oudiinini oyo
+  ya li ye mu linyengifa a ye naNaomi keshe apa ta i. Efyo olo ashike la li tali ke
+  va tukula. Rut okwa li e lilongekida okufiya po keshe shimwe shomuMoab, nokuli noikalunga
+  yamo, oshiwana shaNaomi osha li tashi ka ninga oshiwana shaye. Mepingafano naOrpa,
+  Rut okwa li a popya tashi di komutima kutya okwa li a hala Kalunga kaNaomi, Jehova,
+  a kale yo Kalunga kaye. *\\n18 Ova ya molweendo olo lile ve li ovo aveke vavali
+  va finda kuBetlehem, olo tashi dulika le va pula oshivike. Nopehe na omalimbililo,
+  ova li va hekelekafana moluhodi lavo.\\n19. Ongahelipi hatu dulu okuhopaenena Rut
+  mokuulika ohole i na oudiinini moukwaneumbo, ngeenge hatu ungaunga nookaume nosho
+  yo meongalo?\\n19 Ovanhu vahapu kunena ova nyika oluhodi. Pefimbo letu, olo Ombibeli
+  tai li ifana \u201comafimbo madjuu\u201d okukaliwa muo, ohatu dulu okukanifa keshe
+  shimwe nosho yo okunyika oluhodi monghedi keshe. (2 Tim. 3:1) Oukwatya oo Rut a
+  li e na, owa pumbiwa kunena shi dulife nale. Ohole i na oudiinini ohai ningifa omunhu
+  a kale omudiinini kumukwao kutya nee otashi pula shike, noya pumbiwa unene tuu momafimbo
+  madjuu oo tu li muo. Otwe i pumbwa mohombo, moukwaneumbo, pokati kookaume nosho
+  yo meongalo lopaKriste. (Lesha 1 Johannes 4:7, 8, 20.) Ngeenge otwa kulike ohole
+  i na oudiinini, ohatu shikula oshihopaenenwa shaRut sha denga mbada.\\nRut naNaomi
+  muBetlehem\\n20-22. (a) Ongahelipi onghalamwenyo yaNaomi ya li ya lunduluka eshi
+  a li muMoab? (b) Naomi okwa li e na etaleko la puka lilipi li na sha nomaupyakadi
+  aye? (Tala yo Jakob 1:13.)\\n20 Okupopya kutya ou na ohole i na oudiinini inashi
+  wana, ndele oshi na okuulikwa pailonga. Rut okwa li e na omhito okuulikila Naomi
+  ohole i na oudiinini nosho yo Jehova, oo a li a hoolola a kale Kalunga kaye.\\n21
+  Lwanima, Naomi naRut osho va fiki muBetlehem, omukunda u li lunga eekilometa 10
+  kolukadi laJerusalem. Naomi noukwaneumbo wavo otashi dulika va li va tumbala mokadoolopa
+  oko, molwaashi omudingonoko aushe owa li tau popi kombinga yokwaaluka kwaye. Ovakainhu
+  ova li tava tale Naomi vo tava ti: \u201cOye tuu Naomi?\u201d Osha yela kutya okwa
+  li a lunduluka neenghono efimbo olo a kala muMoab. Eholokepo laye ola li tali ulike
+  kutya okwa kala meenghalo didjuu nodinyikifa oluhodi oule womido. \u2014 Rut 1:19.\\n22
+  Naomi okwa li a hokololela ovakainhu ovo ovapambele vaye novashiinda shaye nghee
+  a li a nyika oluhodi. Okwa li nokuli e udite kutya ke na vali okwiifanwa Naomi olo
+  tali ti \u201cElao lange,\u201d ndele oMara olo tali ti \u201cOululu.\u201d Ka li
+  tuu mu etifa onghenda! Ngaashi Job, Naomi naye okwa li a itavela kutya Jehova Kalunga
+  oye e mu etela omaupyakadi. \u2014 Rut 1:20, 21; Job 2:10; 13:24-26.\\n23. Rut okwa
+  li a hovela okudiladila kombinga yashike, nOmhango yaMoses oya li ya kwatela mo
+  efiloshisho lilipi leehepele? (Tala yo eshangelo lopedu.)\\n23 Eshi va fika muBetlehem,
+  Rut okwa li te lipula kutya ongahelipi ta ka dula okulifila nawa oshisho nosho yo
+  Naomi. Okwa li e lihonga kutya Omhango oyo Jehova apa oshiwana shaye shaIsrael oya
+  kwatela mo efiloshisho lopahole leehepele. Pefimbo leteyo, eehepele oda li da pitikwa
+  di pupudulule osho sha fiwa po kovateyi nosho yo oilikolomwa oyo ya mena kominghulo
+  domapya. * \u2014 Lev. 19:9, 10; Deut. 24:19-21.\\n24, 25. Rut okwa li a ninga po
+  shike eshi a ya mepya laBoas, noilonga yoku pupudulula oya li ya tya ngahelipi?\\n24
+  Pefimbo leteyo loilya, tashi dulika muAprili pakalindeli kopefimbo letu, Rut okwa
+  li a ya komapya opo a ka tale ngeenge ope na oo te mu pitike a pupudulule mepya
+  laye. Okwa li a ya mepya laBoas, omulumenhu oshipuna womupambele waElimelek, omushamane
+  waNaomi. Nonande Omhango oya li ye mu pa oufemba wokupupudulula, okwa li a pula
+  tete epitikilo komulumenhu omunyasha oo a li ta pashukile ovateyi. Okwa li a pewa
+  epitikilo, nokwa hovela okulonga meendelelo. \u2014 Rut 1:22\u20132:3, 7.\\n25 Kala
+  nee ngeno wa fa u wete Rut ta shikula ovateyi. Ta toola oilya oyo ya wila pedu ile
+  ya fyaala po eshi ovateyi tava tete oilya noikashulifo, te i mange oipandi noku
+  i twala koshipale e ke i xwe. Oilonga oyo oya li tai ende kanini noi lolola noya
+  enda tai ningi idjuu eshi omutenya tau tu. Ndele nande ongaho, Rut okwa kala ta
+  longo, nokwa kanghama po ashike eshi te lipushula oshinhwi moshipala naashi a ka
+  lya omusha \u201cmeumbo,\u201d tashi dulika monduda oyo ya longekidilwa ovateyi.\\n26,
+  27. Boas okwa li omunhu a tya ngahelipi, nongahelipi a li a ungaunga naRut?\\n26
+  Rut ka li e shi teelela noka li e shii ngeenge ope na ou te mu tale. Boas okwa li
+  e mu mona nokwa li a pula omulumenhu oo ta pashukile ovateyi kutya oye lyelye. Molwaashi
+  Boas okwa li omulumenhu weitavelo okwa li ha popifa ovanailonga vaye, vamwe vomuvo
+  tashi dulika va li ovanailongo novanailonga vopakafimbo, ta ti: \u201cOmwene na
+  kale nanye.\u201d Vo navo tave mu popifa yo neendjovo da faafana. Omulumenhu oo
+  omunamido noku hole Jehova, okwa li a ulika kutya oku na ko nasha naRut ngaashi
+  xe omunahole. \u2014 Rut 2:4-7.\\n27 Boas okwa li a ifana Rut \u201comumwange,\u201d
+  noku mu lombwela kutya na kale te uya okupupudulula mepya laye nokukala popepi novapiya
+  vaye ovakainhu opo aha shindwe kovanailonga ovalumenhu. Okwa li yo a shilipaleka
+  kutya oku na sha shokulya omusha. (Lesha Rut 2:8, 9, 14.) Kakele kaasho, okwa li
+  yo e mu pandula noku mu twa omukumo. Ngahelipi mbela?\\n28, 29. (a) Rut okwa li
+  e liningila edina la tya ngahelipi? (b) Ongahelipi to dulu okulineekela Jehova ngaashi
+  Rut?\\n28 Eshi Rut a li a pula Boas kutya omolwashike e mu fila onghenda nonande
+  ye omunailongo, okwa li e mu lombwela kutya okwa uda ashishe osho a li a ningila
+  inamweno, Naomi. Otashi dulika Naomi a kala ha popile Rut mouwa mokati kovakainhu
+  Ovabetlehem, nonghundana oyo oya fika kuBoas. Okwa li yo a shiiva kutya Rut okwa
+  ninga omulongeli waJehova eshi a ti: \u201cOmwene ne ku alulile oshilonga shoye
+  nondjabi yoye nai ninge inene shili to ke i pewa kOmwene Kalunga kaIsrael, eshi
+  we uya okukonga eameno koshi yomavava aye.\u201d \u2014 Rut 2:12.\\n29 Rut ka li
+  tuu a tuwa omukumo keendjovo odo! Okwa li a hoolola okukonga eameno koshi yomavava
+  aJehova, ngaashi oudilona hava kala va amenwa kuina moshihadi. Okwa li a pandula
+  Boas eshi a li a popya naye monghedi tai tu omukumo nokwa twikila okulonga fiyo
+  okonguloshi. \u2014 Rut 2:13, 17.\\n30, 31. Oshike hatu lihongo kuRut shi na sha
+  noilonga, okukala nolupandu nosho yo ohole i na oudiinini?\\n30 Eitavelo laRut oli
+  li oshihopaenenwa sha denga mbada kufye atushe kunena eshi hatu kondjo neenghalo
+  didjuu dopamaxupilo. Ka li a teelela vamwe ve mu file oshisho, ndele okwa li e na
+  olupandu la keshe osho a li a pewa. Ina fya ohoni okulonga efimbo lile nonoudiinini
+  nokulonga oilonga i dinifa opo a file oshisho umwe oo a li e hole. Okwa li a tambula
+  ko nokutula moilonga omayele e na sha nokulonga momudingonoko wa amenwa. Naashi
+  sha fimanenena, okwa kala alushe e shii kutya Xe Jehova Kalunga oye omwaameni waye
+  washili.\\n31 Ngeenge otwa kala hatu ulike ohole i na oudiinini ngaashi Rut, tu
+  na elininipiko, hatu longo noudiinini nokukala tu na olupandu, eitavelo letu nalo
+  otali ka kala oshihopaenenwa shiwa kuvamwe. Ndele mbela ongahelipi Jehova a li a
+  fila oshisho Rut naNaomi? Osho ohatu ke shi kundafana metukulwa tali landula.\\n^
+  okat. 17 Oshididilikwedi kutya Rut ina longifa ashike edinafimaneko \u201cKalunga\u201d
+  ngaashi ngeno ovanailongo vahapu va longifa; okwa li yo a longifa edina laKalunga,
+  Jehova. O-The Interpreter\u2019s Bible oya ti: \u201cKungaha omushangi okwa divilika
+  kutya omunailongo ou oku li omulongeli waKalunga kashili.\u201d\\n^ okat. 23 Omhango
+  oyo oya li ididilikwedi nosha yela kutya Rut okwa uda ashike omhango ya tya ngaho
+  muIsrael. Ovafiyekadi kava li hava ungaungwa nawa navo moilongo yokOushilo woPokati
+  yopefimbo opo. Embo limwe lomauyelele ola ti: \u201cNgeenge omukulukadi okwa filwa
+  omushamane waye, okwa li e na okufilwa oshisho kovanamati, ngeenge ke na sha okwa
+  li e na okulilandifa po a ninge omupika ile a ninge ombwada ile a fye.\u201d\"",
+  "\"Embimbiliya ka li sapula lika ovolandu ocili a pita kosimbu, pole li sapuilavo
+  eci ci laika oku iya. Omanu ka va t\u1ebdla oku popia eci ci laika okuiya. Omo liaco,
+  tua k\u0169l\u0129ha okuti Embimbiliya Ondaka ya Suku. Nye Embimbiliya li tu sapuila
+  catiam\u1ebdla kueci ci laika okuiya?\\nOlio li tu sapuila eci catiam\u1ebdla kuyaki
+  wa Suku. Kuyaki waco Suku oka malako ungangala kuenda omanu v\u00e3vi, pole oka
+  popela vana vo vumba. Yesu Kristu soma yuviali wa Suku, oka linga okuti omanu va
+  Suku vaka kuata ombembua lesanju. Ovo ka va ka vela vali ale oku fa.\\nTuka sanjuka
+  calua eci Suku aka pongolola osi yilo voluali luokaliye, ale hacoko? Tu kuete oku
+  linga cimue nda tu yongola oku kala voluali luokaliye. Kesapulo lia sulako lielivulu
+  lilo, tuka lilongisa eci tu kuete oku linga oco tu tambule ovina viwa Suku a laika
+  oku eca ku vana vo vumba. Omo liaco, tanga onepa YECEL\u00c3LA kuenda tu konomuisi
+  eci Embimbiliya li popia catiam\u1ebdla kueci ci laika oku iya.\"", "\"Sho nda lundululwa
+  ko kiilonga yaHaiveleka yokutula omahooli momashina golusheno, ndi ka longe mombelewa
+  yaHaiveleka okuningila aahona otee, iilonga yandje yokweelufuna kuMartin Nambili
+  onde yi kanitha, oshoka onda kala handi longo Omaandaha sigo Etitano omwedhi gu
+  udha.\\nMehuliloshiwike, ano mOlyomakaya nomOshoondaha mwiyaka, onda li owala handi
+  uhala mokomboni ndi li melalangali lyandje.\\nOnkalo yatya ngaaka oya dhiladhilitha
+  ndje ndi ilandele eshina lyokuhondja, oshoka pomahala giilonga gopaali, puHaiveleka
+  nopuNambili, mpoka nda li handi longo, oga li ga pendje oshimaliwa sha gwana okulanda
+  eshina lyokuhondja. Iimaliwa oya li ya ninga oyindji, ngame otandi landa nokuli
+  eshina lyandje lyokuhondja lyokomake lyoSinger. Iimaliwa yokulanda eshina onde yi
+  gongele owala moomwedhi ndatu nando omashina oga li gena ondilo. Omashina oga ge
+  na iiponda ihamano, ano ooR12.00 [ano ooN$ 12.00] ooranda omulongo nambali. Iimaliwa
+  kanda li ndi na mpoka tandi yi fala.\\nMomwedhi ngele onda longo oponda nomulongo,
+  moomwedhi mbali ondi na iiponda itatu, mo moomwedhi ne ondi na nale iiponda ihamano.
+  Shaashi onda li handi longo nokuNambili, onda ka tsakanitha ashike iiponda ihamano
+  muule woomwedhi ndatu. Onde li futu niimaliwa ayihe, inapu hupa nando epeni/osende.
+  Onda li handi ningi ngele nda zimbuka miilonga yokuningila aahona otee pontano,
+  ohandi yi koshipondoka shetu, e tandi tsikile niilonga yandje yokuhondja, nomehuliloshiwike
+  iihondjomwa oya li hayi ihondjitha ondhendhu kungame.\\nOnda tameke nduno okuhondja
+  oombulukweya, oohema noombwaka, ndhoka dha kala hadhi zalwa kaakadhona noompuku
+  dhoomeme. Kadhi shi oohulukweya, aawe oompukuku dho dhene, ompuku yi li konima neteta
+  li li komeho. Oompuku ndhoka nda tameka nadho, tandi dhi tula omaulenga, sigo tashi
+  ke ya nduno moohulukweya.\\nLyo lyene edhiladhilo lyokulanda eshina onde li tukuluthilwa
+  sho nda mono kutya opena ompito okuninga iimaliwa, ngele onda tameke okuhondja nokulanditha
+  iihondjomwa yandje mookomboni dhaMbaye.\\nMokomboni yaMuni, omwa li mu na aamentu
+  yamwe haya hondjo, ihe kombinga yawo onda koneke kutya kaya li ye shi okuhondja
+  oshoka oya li haya hondjo iinima inaayi ukila ko. Sho nda tameke okuhondja iinima
+  yandje, shampa owala ngu e shi mona oha ti owala \u201cIinima mbino oya hondjwa
+  nawa.\u201d Onda adhika ndi ilongela ko nale komalapi ngeya noohema dhoosheshele
+  nodhoontulo. Okukonda nde ku ilongo ngeyi: Ohema yandje okake yombendeka ndji nda
+  mbendekelwe kOshaanda, oyo owala nda hwatununa mo ngame otandi kutha nokuli oshiyata,
+  ngame otandi shi kondele kohema ndjoka nda hwatununa mo. Ngaaka uuholo nonde wu
+  li momitse kombinga yokukonda.\\nPetameko manga nda li inandi mona ondunge ndjoka
+  yokwiilonga okukonda, onda li owala handi hepitha omalapi. Onda li handi kutha elapi
+  enene tandi kondo, po tapu hupu iitululu oyindji.\\nIitululu mbika onda li nee handi
+  yi topola ngeyi: shimwe oshomakutsi, shimwe oshokomeho, shimwe oshomapoha, nosho
+  tuu. Konima yomasiku omashona onda ka tseya kutya ngele nda hala okuhondja ohema
+  ya gwana po, otandi landa ashike oometa dhi li mbali, ngele oyomukuluntu, nongele
+  oyokanona, ometa yimwe ayike.\\nNda ka igilila ngaa nee ndele nando opwe ya omuntu
+  a hala okuhondjelwa ohema, otandi mu mete ashike thiluthilu. Oshinima shono shokuhondja
+  oombulukweya oonde nenge ookotse noohulukweya dholutenda, oombayikitha, onda kala
+  nde shi funda lelalela. Oofeyi dhaafuko nadho onda li handi dhi ndanda neshina to
+  fuuka. Onda tala kutya, ngoka omagano nde ga pewa oshali kuPamba.\\nOnda hokolola
+  metetekelo kutya, ngele nda zimbuka kiilonga yandje yokuningila iilumbu otee, onda
+  li handi kala tandi hondjo nongele itandi hondjo, onda li handi ende nokomboni tandi
+  shingitha iihondjomwa yandje.\\nUuna nda ka landitha konima yiilonga, nena kongulohi
+  onda li handi tokelwa tandi hondjo. MOmbaye omwa li mu na ookomboni dhi li hetatu.\"",
+  "\"TALA konhaili oyo ya twiyuka eengala noya ima oiimati yomuti wamandel ya pya.
+  Onhaili oyo oyaAron. Eengala noiimati oyo oya mena ashike moufiku umwe. Natu ka
+  tale kutya osha enda ngahelipi opo onhaili oyo i twiyuke eengala noi ime oiimati
+  oyo.\\nPefimbo opo, Ovaisrael ova kala tava elaela mombuwa oule wefimbo. Ovaisrael
+  vamwe ova li tava diladila kutya Moses ina wana okukala omuwiliki wavo nonokutya
+  Aron ina wana okukala omupristeri omukulunhu. Vamwe vomwaavo va li tava diladila
+  ngaho oKora, Datan, Abiram nosho yo ovawiliki voshiwana ve li 250. Aveshe ovo ova
+  li ve uya kuMoses, ndele tava ti kuye: \u2018Omolwashike we lininga omuwiliki wetu?\u2019\\nMoses
+  okwa lombwela Kora novashikuli vaye a ti: \u2018Mongula ongula, kufeni oikwatelwa
+  yomakala ndele tamu tula mo oitwimino yedimba liwa. I eteleleni ketwali laJehova,
+  fye tu taleni kutya olyelye ta ka hoololwa kuJehova.\u2019\\nMefiku la landula ko,
+  Kora novashikuli vaye 250 ove uya ketwali. Ova li ve uya pamwe novayambididi vavo
+  vahapu. Jehova okwa li e va handukila neenghono. Onghee hano, okwa lombwela Moses
+  a lombwele ovanhu ta ti: \u2018Kaleni kokule neetenda dovanhu ovo vai. Inamu kuma
+  nande osha shovalumenhu ovo.\u2019 Ovanhu ova pwilikina kuJehova nova ka kala kokule
+  neetenda dooKora, Datan naAbiram.\\nOpo nee Moses okwa popya a ti: \u2018Otamu ka
+  shiiva nokutya olyelye a hoololwa kuJehova eshi edu tali ka makuka ndele tali pona
+  po ovalumenhu ovo vai.\u2019\\nDiva, eshi Moses a mana okupopya, edu ola makuka,
+  ndele tali pona po otenda yaKora noinima yaye nosho yo Datan, Abiram naavo va li
+  va ama kombinga yavo. Eshi ovanhu va uda euyaano laavo tava ponwa po kedu, ova ingida
+  tava ti: \u2018Natu fadukei po; nafye ohatu ningi tu ponwe po kedu!\u2019\\nKora
+  novashikuli vaye 250 ova li natango va fikama popepi netwali liyapuki. Ohaluka,
+  Jehova okwa tuma omundilo okudja meulu, ndele tau xwike po ovalumenhu aveshe ovo
+  noku va lungwinifa po. Opo nee Jehova okwa lombwela omonamati waAron, Eleasar, kutya
+  na kufe oikwatelwa yomakala yovalumenhu ovo va fya ndele te i hambula opo i ninge
+  oshipapa shokutuvika oaltari. Oshipapa osho osha li hashi dimbulukifa Ovaisrael
+  kutya Jehova okwa hoolola ashike Aron novanamati vaye va kale tava longo ve li ovapristeri.\\nNdele
+  Jehova okwa li a hala natango oku shi ulika sha yela nawa kutya okwa hoolola Aron
+  novanamati vaye ovo va ninge ovapristeri. Onghee hano, okwa lombwela Moses a ti:
+  \u2018Lombwela ovawiliki aveshe ovo ve lile po omapata 12 aIsrael va ete eenhaili
+  davo. Mepata laLevi, Aron oye na ete onhaili yaye. Opo nee tula eenhaili odo metwali
+  komesho yoshikefa shehangano. Onhaili yaao tai ka twiyuka eengala, oye nda hoolola
+  a kale omupristeri.\u2019\\nEshi Moses a ya metwali ongula yefiku la landula ko,
+  okwa hanga onhaili yaAron ya twiyuka eengala noya ima oiimati yomuti wamandel. Mbela
+  paife ou shi shii kutya omolwashike onhaili yaAron ya li ya twiyuka eengala?\\nNumeri
+  16:1-49; 17:1-11; 26:10.\"", "\"NOA okwa li e na omukulukadi novanamati vatatu.
+  Ovanamati vaye ova li Sem, Ham naJafet. Ovanamati vaye navo ova li ve na ovakulukadi
+  vavo. Onghee hano, oukwaneumbo waNoa aushe kumwe owa li u na ovanhu vahetatu.\\nKalunga
+  okwa li a lombwela Noa a ninge oshinima osho inashi monika nande onale. Okwe mu
+  lombwela kutya na tunge ongulu inene yomomeva. Ongulu oyo oya li inene i fike poshikepa.
+  Ndele oya li tai monika ya fa oshipakete shinene, sho oshile. Kalunga okwa lombwela
+  Noa a ti: \u2018Tungila mo omitala nhatu de lilonda noku i tukula meenduda dihapu.\u2019
+  Eenduda dimwe oda li tadi ka kala Noa noukwaneumbo waye. Dimwe oda li tadi ka kala
+  oinamwenyo, ofimbo dimwe oda li tadi ka kala dokutuvikila oikulya oyo va li tava
+  ka lya ngeenge eyelu le uya.\\nKalunga okwa li yo a lombwela Noa a file nawa ongulu
+  yomomeva neka opo iha ka ye omeva meni. Okwa li yo e mu lombwela a ti: \u2018Ohandi
+  ka eta eyelu linene olo tali ka hanauna po ounyuni aushe. Keshe ou ina ya mongulu
+  yomomeva ota ka fya.\u2019\\nNoa novanamati vaye ova li va dulika kuJehova ndele
+  tava hovele okutunga ongulu yomomeva. Ashike ovanhu vamwe ova li tave va yolo. Ovanhu
+  ovo vai ova twikila ashike nokulonga owii. Kapa li nande oumwe a li a itavela kutya
+  Kalunga ota ka eta shili eyelu ngaashi Noa e va lombwela.\\nOsha li sha kwata efimbo
+  lile opo Noa a mane okutunga ongulu yomomeva, molwaashi ongulu oyo oya li inene.
+  Hauxuuninwa oya ka pwa okutungwa konima eshi pa pita omido dihapu. Opo nee Kalunga
+  okwa lombwela Noa a twale oinamwenyo mongulu yomomeva. Kalunga okwa li e mu lombwela
+  a twale mo oinamwenyo yomaludi amwe kooivali, oshindume noshikadi. Okwa li yo e
+  mu lombwela a twale mo oinamwenyo yomaludi amwe kooiheyali. Okwa li yo e mu lombwela
+  a twale mo oudila vomaludi aeshe. Noa okwa li a ninga naanaa ngaashi Kalunga e mu
+  lombwela.\\nKonima yaasho, Noa noukwaneumbo waye navo ova ka ya mongulu yomomeva,
+  opo nee Kalunga okwa idila omuvelo. Noa noukwaneumbo waye ova kala mongulu yomomeva
+  va teelela eyelu li uye. Diladila nee ngeno mu li pamwe navo mongulu yomomeva mwa
+  teelela eyelu li uye. Mbela eyelu ole uyile ngoo shili ngaashi Kalunga a tile?\\nGenesis
+  6:9-22; 7:1-9.\"", "\"Ouye uno . . .\\nmautualako ngetyi ukahi?\\nmauvilipo?\\nmaukala
+  vali nawa?\\nOITYI OMBIMBILIYA IPOPIA\\n\u201cHuku makasekuna ononkhuka momaiho
+  avo, ononkhia, nokulila, no nongembia kamavikakalako vali. Mokonda ovipuka ovio
+  aviho mavikalamba.\u201d\\nO\u00d1GENI OKUTAVELA KUOTYO TYIKUETELA OUWA\\n\u2022
+  Makukala ovilinga oviwa vihambukiswa.\\n\u2022 Nawike vali makavela ine okumona
+  ononkhumbi.\\n\u2022 Onombunga, nomapanga mavakakala nehambu, nomuenyo wahapu.\\nOKUTI
+  TUPONDOLA UMWE OKUTAVELA KUETYI OMBIMBILIYA IPOPIA?\\nEenga, mokonda yomahunga aa
+  evali:\\nHuku una ounongo wokufuisapo etyi alaa. Mombimbiliya, o Jeova Huku vala
+  wiihanua okuti \u201cWepondolo Aliho,\u201d mokonda una epondolo liahapu. (Revela\u00e7\u00e3o
+  15:3) Moluotyo, una ounongo auho wokufuisapo omulao wae wokupilulula ouye opo ukale
+  vali nawa. Ombimbiliya yati, \u201cku Huku ovipuka aviho vivilwa.\u201d\\n\u2014Mateus
+  19:26. Huku uhanda okufuisapo etyi alaa. Mongeleka, Jeova una \u201cehando\u201d
+  liokututilisa vokuankhia.\\n\u2014J\u00f3 14:14, 15.\\nTupu, Ombimbiliya ilekesa
+  okuti Jesus, Omona wa Huku wahakulile ovavei. Omokonda yatyi etyilingilile? Mokonda
+  ankho wetyihanda. (Marcos 1:40, 41) Nga Tate yae, Jesus ankho uhanda okukuatesako
+  vana vesukisa.\\nMoluotyo, tupondola okukala nonthumbi yokuti Jeova na Jesus vahanda
+  okutukuatesako opo tukakale nehambu komutwe wandyila!\\nSOKA KUETYI\\nO\u00f1geni
+  Huku makapilulula ouye opo ukale vali nawa?\\nOmbimbiliya ikumbulula epulo olio
+  mu MATEUS 6:9, 10 nomu DANIEL 2:44.\\nOPO ULILONGESE VALI TYAHAFETE\\nTanga elongeso
+  7 mombrochula Good News From God!\\n\u25a1 Mbambavo nthumikisei ombrochula ei.\\n(Popia
+  omelaka patyi uhanda.)\\nTomphola konthele Yombimbiliya no Nombangi mba Jeova.\\n\u25a1
+  Mbambavo tumei omunthu eye okunthalelapo.\\nTupu upondola okuita uye okutaleluapo
+  ine okupola ombrochula ei mo www.jw.org.\"", "\"Ovajuda ova li va ya kuJesus ofimbo
+  a li natango muJerusalem. Vamwe ova li va hala okulihonga shihapu kombinga yaye,
+  ofimbo vamwe va li va hala oku mu yeleka. Umwe womuvo okwa li omunongo womhango,
+  nokwa li a pula Jesus a ti: \u201cOmuhongi, ondi na okuninga shike opo ndi ka fyuulule
+  omwenyo waalushe?\u201d \u2014 Lukas 10:25.\\nJesus okwa li a mona kutya omulumenhu
+  oo ka li a hala shili okukwafelwa. Otashi dulika li a hala Jesus a nyamukule monghedi
+  oyo tai udifa nai Ovajuda. Jesus okwa li a mona kutya omulumenhu oo oku na etaleko
+  la tya ngahelipi. Opo nee okwe mu nyamukula monghedi oyo tai ulike osho ta diladila.\\nJesus
+  okwa pula a ti: \u201cMOmhango omwa shangwa shike? Ou i udite ko ngahelipi?\u201d
+  Omulumenhu oo okwa li e shii Omhango yaKalunga, nokwa li a nyamukula she likolelela
+  kuyo. Okwa li a tofa muDeuteronomion 6:5 nosho yo muLevitikus 19:18, a ti: \u201c\u2018Hola
+  Jehova Kalunga koye nomutima woye aushe, nomwenyo woye aushe, neenghono doye adishe,
+  neendunge doye adishe\u2019 nosho yo \u2018hola mukweni ngaashi u lihole mwene.\u2019\u201d
+  (Lukas 10:26, 27) Mbela olo olo la li enyamukulo?\\nJesus okwa li a nyamukula omulumenhu
+  oo a ti: \u201cOwa nyamukula mondjila; twikila okuninga ngaho opo u ka mone omwenyo
+  waalushe.\u201d Mbela eenghundafana opo da li da xulila opo? Omulumenhu oo ka li
+  ashike a hala enyamukulo ngahenya, ashike okwa li \u201ca hala okulimonikifa kutya
+  ye omuyuki,\u201d nokwa li a hala okuulika kutya oku li mondjila nonokutya osho
+  ha ungaunga ngaho novanhu vakwao. Opo nee okwa pula a ti: \u201cOlyelye naanaa omukwetu?\u201d
+  (Lukas 10:28, 29) Epulo olo ola li tali monika lipu ashike olomoule. Ngahelipi mbela?\\nOvajuda
+  ova li va itavela kutya outumbulilo \u201comukwetu\u201d owa yukifwa ashike kwaavo
+  hava diinine omifyuululwakalo dOshijuda, nediladilo olo ola fa tali yambididwa kuLevitikus
+  19:18. Ova li va fika pexulifodiladilo kutya kashi li \u201cpamhango\u201d okweendafana
+  novanhu ovo vehe fi Ovajuda. (Oilonga 10:28) Ngeenge omulumenhu oo nosho yo ovahongwa
+  vaJesus va li va ungaunga nawa nOvajuda vakwao, ova li have litale ko ovayuki. Ashike
+  kava li hava ungaunga nawa naavo vehe fi Ovajuda, molwaashi kava li ve va tala ko
+  ve li \u2018ovakwao.\u2019\\nJesus okwa li ta ka lundulula ngahelipi etaleko lomulumenhu
+  oo nosho yo lOvajuda nopehe na oku va udifa nai? Okwa li e va lombwela ehokololo
+  a ti: \u201cOmulumenhu wonhumba okwa li ta di muJerusalem a finda kuJeriko ndele
+  ta hangika kovanyeki, ove mu dula oikutu aishe, tave mu denge ndele tave mu fiye
+  po e na okamwenyo kanini.\u201d Jesus okwa weda ko a ti: \u201cNdele omupristeri
+  umwe oo a li ta ende mondjila oyo, eshi e mu mona, okwa ya nondjila imwe i lili.
+  Natango, Omulevi umwe naye eshi e uya ponhele oyo, okwe mu mona nokwa ya nondjila
+  imwe i lili. Ndele Omusamaria umwe oo a li naye ta ende mondjila oyo, eshi e uya
+  ponhele oyo, okwe mu mona nokwe mu kenukila.\u201d \u2014 Lukas 10:30-33.\\nOmulumenhu
+  oo a li ta hokololelwa ehokololo kuJesus okwa li e shii kutya ovapristeri vahapu
+  nOvalevi ovo hava kwafele kotembeli ohava di muJeriko. Opo va shune kuJeriko okudja
+  kotembeli, ova li ve na okweenda oshinano sheekilometa 23. Ondjila oyo oya li ya
+  nyika oshiponga molwaashi ohai kala ovanyeki. Ngeenge ovapristeri nOvalevi ova hange
+  Omujuda e li moshiponga, mbela itave mu kwafele? Mehokololo olo, Jesus okwa ulika
+  kutya inave mu kwafela. Omulumenhu Omusamaria, oo a li e tondike kOvajuda, oye a
+  li e mu kwafela. \u2014 Johannes 8:48.\\nOmusamaria okwa li a kwafela ngahelipi
+  Omujuda oo a li a dengwa? Jesus okwa ti: \u201cOkwa ya puye, te mu tile omaadi nomaviinyu
+  poipute yaye ndele te i mange. Opo nee okwe mu londeka koshinamwenyo shaye ndele
+  te mu twala meumbo lovaenda e ke mu file oshisho. Mefiku la landula ko, okwa kufa
+  eedenari mbali, ndele te di pe mwene weumbo olo, nokwa tya kuye: \u2018Mu fila oshisho,
+  nongeenge owa longifa shihapu shi dulife pwaasho, ohandi uya ndi shi fute eshi handi
+  aluka.\u2019\u201d \u2014 Lukas 10:34, 35.\\nKonima eshi a popya ehokololo olo,
+  Omuhongi Munenenene, Jesus, okwa pula omulumenhu epulo a ti: \u201cOlyelye womwaava
+  vatatu to diladila kutya oye omukwao womulumenhu oo a li a hangika kovanyeki?\u201d
+  Omulumenhu oo ka li a nyamukula epulo a yukilila kutya \u201cOmusamaria,\u201d ndele
+  ponhele yaasho okwa nyamukula a ti: \u201cOyou e mu fila onghenda.\u201d Jesus okwa
+  li a yelifa oshilihongomwa shehokololo laye a ti: \u201cInda u ka ninge yo sha faafana.\u201d
+  \u2014 Lukas 10:36, 37.\\nOnghedi oyo yokuhonga oya li ya denga mbada. Ngeno Jesus
+  okwa li a lombwela omulumenhu oo kutya ovo vehe fi Ovajuda ovakwao, mbela ngeno
+  omulumenhu oo nosho yo Ovajuda ovo va li tava pwilikine ove shi tambula ko ngoo?
+  Otashi dulika ngeno inave shi tambula ko. Ponhele Jesus a yandje ehokololo li li
+  paunafangwa, okwa li a yandja efaneko olo tali kwafele ovapwilikini va ude ko, nenyamukulo
+  kepulo kutya, \u201cOlyelye naanaa omukwetu?\u201d ola li la yela nawa. Omunhu oo
+  ha ulike kutya omukwetu shili oyoo ha ulike ohole noha kenukile vamwe ngaashi ashike
+  Omishangwa de tu lombwela tu ninge.\"", "\"MATEUS 8:19-22 LUKAS 9:51-62 JOHANNES
+  7:2-10\\nNGHEE OVAMWAINAMATI VAJESUS VA LI VE MU TALA KO\\nOINIMA YOUHAMBA OYA FIMANA
+  NGAHELIPI?\\nJesus okwa kala ta udifile muGalilea oule wefimbo, novanhu ova li ve
+  linyenga nawa shi dulife muJudea. Ndele nande ongaho, e shi a li muJerusalem naashi
+  a velula omulumenhu mefiku lEshabata, \u201cOvajuda ova li va hala oku mu dipaa.\u201d
+  \u2014 Johannes 5:18; 7:1.\\nOsha li opefimbo loikukaongo mo 32 O.P., nOshivilo
+  shOmatwali osha li pokufika. Oshivilo osho osha li hashi danwa oule womafiku aheyali,
+  nomefiku etihetatu osha li hashi shikulwa koshoongalele shiyapuki. Oshivilo osho
+  osha li hashi didilikifa mo exulilo lomudo wounamapya nosha li hashi kala efimbo
+  lehafo linene nolokupandula.\\nOvamwainamati vaJesus, Jakob, Simon, Josef naJudas,
+  ove mu lombwela va ti: \u201cInda kuJudea.\u201d Jerusalem osha li ondingandinga
+  yomalongelokalunga moshilongo osho. Pefimbo loivilo oyo itatu, oshilando osha li
+  hashi kala shi yadi ovanhu. Ovamwainamati vaJesus ova li va tomhafana tava ti: \u201cKaku
+  na oo ha longo sha meholeko ngeenge okwa hala okushiivika moipafi. Ngeenge oto longo
+  oinima oyo, i longa moipafi yovanhu aveshe.\u201d \u2014 Johannes 7:3, 4.\\nOvamwainamati
+  ovo vane \u201ckava li ve mu itavela,\u201d e li Messias. Ashike nande ongaho, ova
+  li va hala ovo va li va ongala poshivilo ve mu mone eshi ta longo oikumwifilonga.
+  Eshi Jesus a didilika oupyakadi oo, okwe va lombwela a ti: \u201cOunyuni itau dulu
+  okukala u mu tonde, ndele ou tonde nge shaashi ohandi popi kutya oilonga yao oii.
+  Nye indeni ashike koshivilo, ame itandi i ko paife molwaashi efimbo lange inali
+  fika natango.\u201d \u2014 Johannes 7:5-8.\\nKonima yomafiku onhumba, ovamwainamati
+  vaJesus ova li va ya nongudu yovaendi, na Jesus nosho yo ovahongwa vaye ova li va
+  ya meholeko opo vaha monike kovanhu. Ova li va ya nondjila oyo ya pita muSamaria
+  ponhele yokuya nondjila oyo i shiivike nawa i li popepi nomulonga waJordan. Jesus
+  novahongwa vaye ova li va pumbwa onhele yokunangala muSamaria, onghee okwa li a
+  tuma ovahongwa vaye ve mu tetekele komesho ve ke mu longekidile onhele. Ashike ovanhu
+  muSamaria kava li ve va tambula ko, molwaashi Jesus okwa li ta i kuJerusalem koshivilo
+  shOvajuda. Jakob naJohannes ova li va handuka, ndele tava pula Jesus tava ti: \u201cOmwene,
+  natu ifane omundilo meulu u va lungwinife po?\u201d (Lukas 9:54) Jesus okwa li e
+  va hanyena omolweetepo olo, ndele tava twikile nolweendo lavo.\\nOfimbo va li mondjila,
+  omunongo womishangwa okwa li a lombwela Jesus ta ti: \u201cOmuhongi, ohandi ke ku
+  shikula keshe apa to i.\u201d Jesus okwa tya kuye: \u201cOuvandje ove na omikwena,
+  needila dokeulu odi na oihadi, ndele Omona womunhu ke na apa ta tenheke omutwe waye.\u201d
+  (Mateus 8:19, 20) Okwa li ta ulike kutya omunongo womishangwa ota ka mona oixuna
+  ngeenge okwa ningi omushikuli waye. Osha fa shi li ngaha kutya omunongo womishangwa
+  ka li a hala okutambula ko onghalamwenyo ya tya ngaho molwaashi okwa li e na ounhwa.
+  Onghee hano, keshe umwe ne lipule kutya, \u2018Mbela onde lilongekida ngoo okushikula
+  Jesus?\u2019\\nJesus okwa li a lombwela vali omulumenhu umwe a ti: \u201cNinga omushikuli
+  wange.\u201d Omulumenhu oo okwe mu nyamukula a ti: \u201cOmwene, pitike nge manga
+  ndi ye ndi ka pake tate.\u201d Jesus okwa li e shii onghalo yomulumenhu oo, ndele
+  ta ti kuye: \u201cEfa ovafi va pake ovafi vavo, ndele ove inda u ka udife Ouhamba
+  waKalunga keshe pamwe.\u201d (Lukas 9:59, 60) Paulelalela xe yomulumenhu oo ka li
+  a fya natango. Ngeno xe yomulumenhu okwa li a fya, ngeno omulumenhu oo ita dulu
+  okukala oko ta popi naJesus. Omulumenhu oo ka li e lilongekida okupitifa komesho
+  Ouhamba waKalunga monghalamwenyo yaye.\\nEshi va li mondjila yokuya kuJerusalem,
+  omulumenhu vali umwe okwa lombwela Jesus ta ti: \u201cOmwene, ohandi ku shikula,
+  ashike pitike nge tete ndi ye ndi ka lekele vambuletu.\u201d Jesus okwe mu nyamukula
+  a ti: \u201cKape na omunhu ha kwata oshipululo, ndele ta tale konima, ta wapalele
+  Ouhamba waKalunga.\u201d \u2014 Lukas 9:61, 62.\\nOvo va hala okuninga ovahongwa
+  vaJesus vashili ova pumbwa okuyandja elitulemo koinima yOuhamba. Ngeenge omunhu
+  oo ta pulula ina tala komesho, ota ka pulula eenghudu. Nongeenge okwa efa ko koshipululo
+  opo a tale nghee a pulula, ita ka manifa oilonga yaye. Sha faafana, keshe oo ta
+  tale koinima oyo a fiya po otashi dulika aha ka kale mondjila oyo tai twala komwenyo
+  waalushe.\"", "\"MATEUS 9:18, 23-26 MARKUS 5:22-24, 35-43 LUKAS 8:40-42, 49-56\\nJESUS
+  TA NYUMUNA OKAMONAKADONA KAJAIRUS\\nJairus okwa li a mona kutya omukainhu oo a li
+  e na etiko lohonde okwa velulwa kuJesus. Okwa li yo e shii kutya Jesus ota dulu
+  okukwafela okamonakadona kaye, nonande okwa li e wete kutya \u2018osho okamonakadona
+  kaye oka fya.\u2019 (Mateus 9:18) Okwa li te lipula ngeenge otaka dulu ngoo vali
+  okukwafelwa.\\nOfimbo Jesus a li ta popi nomukulukadi oo a li a velula, ovalumenhu
+  vamwe va dja keumbo laJairus ova li va lombwela Jairus tava ti: \u201cOkamonakadona
+  koye oka fya! Omolwashike to piyaaneke vali Omuhongi?\u201d \u2014 Markus 5:35.\\nOnghundana
+  oyo oya li inyikifa oluhodi. Omulumenhu oo okwa li a fimanekwa neenghono moshitukulwa,
+  ndele pomhito oyo ka li va li e na ekwafo lasha. Okamonakadona kaye akeke oka fya.
+  Ashike eshi Jesus a uda onghundana oyo, okwa tala kuJairus ndele ta popi nomukumo
+  ta ti: \u201cIno tila, shimha ashike u na eitavelo.\u201d \u2014 Markus 5:36.\\nOpo
+  nee Jesus okwa ya pamwe naJairus keumbo laye. Eshi va fika meumbo, ova hanga ovanhu
+  vahapu tava lili eefya. Ovo va li meumbo laJairus ova li tava lili unene nokulidenga
+  meenhulo tava ulike kutya ova nyika oluhodi neenghono. Eshi Jesus e va mona, okwa
+  popya oshinima shihalukifa eshi a ti: \u201cOkaana inaka fya, ndele oka kofa.\u201d
+  (Markus 5:39) Eshi ve shi uda, ova hovela okuyola Jesus. Ova li ve shii kutya okakadona
+  oka fya shili. Ashike Jesus okwa li a longifa eenghono odo a pewa kuKalunga, opo
+  a ulike kutya ovanhu otava dulu okunyumunwa, ngaashi ashike omunhu ta dulu okupendulwa
+  mo meemhofi doshitula.\\nJesus okwa li a lombwela ovanhu aveshe va ye pondje kakele
+  kuPetrus, Jakob, Johannes nosho yo ovadali vokamonakadona. Opo nee okwa ya navo
+  opo pa li pa nangala okakadona. Okwe ka kwata meke, ndele ta ti kuko: \u201c\u2018Talita
+  kuum,\u2019 osho tashi ti: \u2018Okakadona, ohandi ku lombwele, \u201cPenduka!\u201d\u2019\u201d
+  (Markus 5:41) Oka li ka penduka diva ndele taka hovele okweenda. Diladila kunghee
+  Jairus nomukulukadi waye va li ve udite eshi va mona oshinima osho. Opo ovanhu va
+  mone oumbangi kutya okakadona oke na shili omwenyo, Jesus okwa ti na ka pewe oikulya.\\nPehovelo,
+  Jesus okwa li a lombwela ovo a li a velula moipafi vehe shi lombwele nande omunhu,
+  novadali ovo osho a li e va lombwela. Ashike nande ongaho, ovadali ovo va li va
+  tunhukwa neenghono navamwe ova li va tandaveleka onghundana oyo \u201cmoshitukulwa
+  ashishe.\u201d (Mateus 9:26) Mbela ito ka kala wa tunhukwa okulombwela vamwe ngeenge
+  owa mono oo u hole a nyumunwa? Olo olo la li enyumuko etivali Jesus a ninga.\"",
+  "\"Omumwatate umwe omudali wokuBrazil okwa ti: \u201cLuhapu ngeenge hatu ningi Elongelokalunga
+  lOukwaneumbo ohatu pwile mo ashike fiyo omokati koufiku ngeenge inandi dimbula oukwaneumbo
+  wange.\u201d Omutwe woukwaneumbo umwe wokuJapani owa ti kutya okamonamati kao komido
+  10 ihaka tale nokuli kefimbo nohaka kala ka hala okutwikila. Omolwashike mbela?
+  Xe yako okwa ti: \u201cOhaka kala ke na ondjungu naasho ohashi ka hafifa neenghono.\u201d\\nOshoshili
+  kutya haunona aveshe hava kala ve na ondjungu, nopaushili wovene vamwe ihava hafele
+  elongelokalunga loukwaneumbo. Omolwashike mbela? Omumwatate umwe omudali wokuTogo
+  okwa ti: \u201cOkulongela Jehova kaku na okukala ku fifa oudja.\u201d Ngeenge Elongelokalunga
+  lOukwaneumbo oli fifa oudja, mbela hamolwonghedi omo hali kwatelwa komesho? Omaukwaneumbo
+  mahapu okwa didilika kutya elongelokalunga loukwaneumbo otali dulu okukala ngaashi
+  sha popiwa kuJesaja shi na sha nEsabata kutya oli li \u201cefiku lehafo.\u201d \u2014
+  Jes. 58:13, 14.\\nOvamwatate ovadali ova mona kutya opo oukwaneumbo wavo u hafele
+  elongelokalunga loukwaneumbo, ove na oku li ninga keshe umwe moukwaneumbo a manguluka.
+  Ralf oo e na ovanakadona vatatu nomonamati umwe okwa ti kutya elongelokalunga loukwaneumbo
+  wavo ohave li ningi unene monghedi yeenghundafana shi dulife pokukonakona, keshe
+  umwe oha kufa ombinga a manguluka. Oshoshili kutya okukaleka keshe umwe e na ohokwe
+  nokwe litula mo mwaasho tashi kundafanwa omafimbo amwe oshi li eshongo. Omumwameme
+  umwe omudali okwa ti: \u201cHaalushe handi kala ndi na eenghono dokuninga elongelokalunga
+  loukwaneumbo lihafifa ngaashi nda hala ngeno li kale.\u201d Ongahelipi to dulu okuungaunga
+  neshongo la tya ngaho?\\nOKUTIFUKA NOKUNINGA OINIMA I LILI NOKU LILI\\nOmushamane
+  umwe wokuNdowishi oo e na ovana vavali okwa ti: \u201cOtu na okukala hatu tifuka.\u201d
+  Natalia oo e na ovana vavali, okwa ti: \u201cOsho sha fimanenena komaukwaneumbo
+  etu, okukala hatu ningi oinima ya yoolokafana pelongelokalunga loukwaneumbo.\u201d
+  Omaukwaneumbo mahapu ohaa tukula elongelokalunga loukwaneumbo ao moitukulwa i lili
+  naku lili. Cleiton wokuBrazil oo e na ovana vavali ve li mepupi lomido omulongo
+  nasha okwa ti: \u201cOsho ohashi ningifa ekonakono li kale litunhula nakeshe umwe
+  a kufe ombinga a manguluka.\u201d Mokutukula efimbo lekonakono, ovadali otava dulu
+  okuyandja elitulemo keemhumbwe dokaana keshe ngeenge ove na omido da yoolokafana.
+  Ovadali otava dulu okukundafana kombinga yeemhumbwe doshilyo shoukwaneumbo keshe
+  notava dulu okutifuka mokuhoolola osho ve na okukundafana nomonghedi omo ve na oku
+  shi ninga.\\nOshike osho omaukwaneumbo amwe haa ningi opo a ninge oinima i lili
+  naku lili? Vamwe ohava hovele elongelokalunga loukwaneumbo mokwiimbila Jehova omaimbilo.
+  Juan wokuMexico okwa ti: \u201cOsho ohashi tu pepaleke pamadiladilo nohatu kala
+  twe lilongekidila osho hatu ka kundafana.\u201d Oukwaneumbo waye ohau hoolola omaimbilo
+  oo taa tu kumwe noikundafanwa oyo tava ka kundafana onguloshi oyo.\\nOmaukwaneumbo
+  mahapu ohaa lesha omatukulwa onhumba Ombibeli pamwe. Ndele opo va ninge oinima ya
+  yoolokafana, oilyo youkwaneumbo ohai litukulile opo i leshe i lile po ovanhu ovo
+  va popya mehokololo lonhumba. Omumwatate umwe omudali okwa dimina a ti kutya \u201cpehovelo
+  osha li shidjuu kanini kuye okulesha monghedi ya tya ngaho.\u201d Ashike ovanamati
+  vavali ova li va hafa eshi ve wete ovadali vavo tava hafele okuninga ngaho pamwe
+  navo. Omaukwaneumbo amwe ohaa dana nokuli oinyandwa ye likolelela komahokololo Ombibeli.
+  Roger, xe youmati vavali womoSouth Africa okwa ti kutya ounona \u201cluhapu ohava
+  didilike oinima yonhumba momahokololo Ombibeli oyo fye ovadali hatu dopa okudidilika.\u201d\\nOnghedi
+  vali imwe omo tamu dulu okuninga oinima i lili noku lili omokunduluka oshinima shonhumba
+  pamwe, ngaashi okutunga onguluwato yaNoa ile otembeli yaSalomo. Oshilonga sha tya
+  ngaho otashi dulu okweetifa omhumbwe yokuninga omapekapeko taa shambula. Pashihopaenenwa,
+  okakadona kamwe kokuAsia komido nhano pamwe novadali vako nosho yo inakulu ova li
+  va ninga oshinima shonhumba. Ova li moseti tava ningi okaudano ke likolelela komalweendo
+  aPaulus outumwa. Omaukwaneumbo amwe vali okwa ninga omaudano a kanghamena komahokololo
+  e li membo laExodus. Donald wokuTogo oo e na omido 19 okwa ti: \u201cOkuninga oinima
+  i lili noku lili okwa mwenyopaleka elongelokalunga loukwaneumbo wetu nosho yo oukwaneumbo
+  wo vene.\u201d Mbela ito dulu okunduluka po oshinima shonhumba osho tashi ka ningifa
+  elongelokalunga loukwaneumbo weni li kale lihafifa?\\nOMWA PUMBWA OKULILONGEKIDA\\nNonande
+  okuninga oinima ya yoolokafana nokutifuka ohai ningifa elongelokalunga loukwaneumbo
+  li kale lihokwifa, omwa pumbwa yo okulilongekida nawa opo mu lihonge mo sha. Omafimbo
+  amwe ounona ohava loloka diva, onghee hano ooxe ova pumbwa okukala ve shii nove
+  lilongekida nawa osho mwa hoolola mu ka kundafane. Xe omudali umwe okwa ti: \u201cNgeenge
+  onde lilongekida nawa, keshe umwe oha hafele ekonakono.\u201d Omushamane omudali
+  wokuNdowishi oha shiivifile oukwaneumbo waye komesho yefimbo osho tava ka konakona
+  moshivike tashi shikula. Omushamane vali umwe omudali wokuBenin oo e na ovana va-6
+  ve li meni lomido 13, ngeenge ta ningi omalongekido opo va ka tale okavidio pelongelokalunga
+  loukwaneumbo wavo, oha longekida omapulo komesho yefimbo. Nopehe na omalimbililo,
+  okulilongekida ohaku xwepopaleke ongushu yelongelokalunga loukwaneumbo.\\nNgeenge
+  oukwaneumbo ou shii komesho yefimbo osho tau ka kundafana pelongelokalunga loukwaneumbo,
+  otau dulu okukala tau popi kombinga yasho momukokomoko woshivike, naasho otashi
+  ke va ningifa va kale ve li teelela nodjuulufi. Nongeenge keshe umwe oku na oshinakuwanifwa,
+  ota ka kala e udite kutya elongelokalunga loukwaneumbo olaye.\\nKENDABALENI MU LI
+  NINGE PANDJIKILILE\\nOmaukwaneumbo amwe ohaa mono shidjuu okuninga elongelokalunga
+  loukwaneumbo pandjikilile.\\nOvadali vahapu ohava longo eevili dihapu opo va palule
+  omaukwaneumbo avo. Pashihopaenenwa, omushamane umwe omudali wokuMexico oha i koilonga
+  po-6 yongula ndele naka aluke opo-8 konguloshi. Omafimbo amwe otashi dulika twa
+  pumbwa okulundulula oule wefimbo olo hatu ningi elongelokalunga loukwaneumbo omolwoinima
+  vali imwe yopamhepo.\\nAshike otu na okukala twa tokola toko opo tu kale hatu ningi
+  elongelokalunga loukwaneumbo pandjikilile. Lo\u00efs wokuTogo oo e na omido 11 okwa
+  popya shi na sha netokolotoko loukwaneumbo wavo, a ti: \u201cNonande omafimbo amwe
+  ohatu hovele elongelokalunga loukwaneumbo kwatoka molwaashi tashi dulika paholoka
+  sha momukokomoko wefiku, ihatu kala inatu li ninga.\u201d Osho oshi uditiwe ko eshi
+  omaukwaneumbo amwe haa ningi elongelokalunga loukwaneumbo pehovelo loshivike. Nongeenge
+  opa holoka sha ombadilila, ohava dulu oku li lundululila kexulilo loshivike.\\nOmolwashike
+  hatu li ifana elongelokalunga loukwaneumbo? Omolwaashi oli li oshitukulwa shokulongela
+  kwetu Jehova. Atusheni tu li omaukwaneumbo, oshivike keshe ohatu dulu okuyamba \u201ceyambo
+  lomilungu ponhele yeengobe,\u201d sha hala kutya okutanga Jehova. (Hos. 14:2) Olo
+  nali kale efimbo lehafo koshilyo keshe shoukwaneumbo, \u201cosheshi ehafo mOmwene
+  olo eenghono deni.\u201d \u2014 Neh. 8:9, 10.\"", "\"Eulu nedu ola dja peni? Etango,
+  omwedi, neenyofi nosho yo oinima ihapu oyo i li kombada yedu oya shitwa kulyelye?
+  Ombibeli otai yandje enyamukulo la yela kutya oinima aishe oyo oya shitwa kuKalunga.
+  Nomolwaasho, embo eli ola hovela nomahokololo Ombibeli e na sha neshito.\\nOhatu
+  ke lihonga kutya tetetete Kalunga okwa shita oishitwa yopamhepo, sha hala kutya,
+  ovanhu ve mu fa. Oishitwa oyo ohai ifanwa ovaengeli. Konima yefimbo, Kalunga okwa
+  ka shita edu opo li kalwe kovanhu ngaashi fye. Okwa shita omulumenhu nomukainhu
+  ndele te va tula moshikunino shiwa neenghono. Ovanhu ovo votete ova li Adam naEva.
+  Ndele Adam naEva ova ka nyona kuKalunga nova li va tokolelwa efyo.\\nOkudja eshi
+  Adam a shitwa fiyo osheshi Eyelu linene lopefimbo laNoa le uya, opa pita omido 1
+  656. Momukokomoko wefimbo olo, opa li ovanhu vahapu ovo va li tava longo owii. Meulu
+  omwa li oishitwa yopamhepo Satana novaengeli vaye ovanawii. Kombada yedu okwa li
+  Kain novanhu vakwao vahapu ovo va li hava longo owii. Vamwe vomuvo ova li nokuli
+  ovalumenhu ovanaenghono. Ndele kombada yedu okwa li yo ku na ovanhu ovo va li hava
+  longo ouwa, ngaashi Abel, Henok naNoa. Moshitukulwa eshi shotete, ohatu ke lihonga
+  kombinga yovanhu aveshe ovo nosho yo kombinga yoiningwanima oyo ya ningwa pefimbo
+  lavo.\\nMOSHITUKULWA ESHI\\nEHOKOLOLO 5\\nAdam naEva ova li va shakeneka omaupyakadi
+  mahapu okudja eshi va tewa mo moshikunino. Ngeno ova dulikile kuKalunga, ngeno ova
+  kala tava hafele onghalamwenyo pamwe novana vavo.\\nEHOKOLOLO 6\\nEhokololo laKain
+  naAbel olo li li muGenesis otali tu hongo kutya otu na okukala ovanhu va tya ngahelipi
+  nosho yo kutya oikala ilipi tu na okulundulula diva fimbo inai mena omidi momitima
+  detu.\\nEHOKOLOLO 8\\nGenesis etukulwa 6 ote tu lombwele kombinga yovatongolume
+  ovo va li hava hepeke ovanhu. Ovatongolume ovo ova li va dalwa kovaengeli ovo va
+  dile meulu nokudjala omalutu ovanhu ndele tave uya kombada yedu.\\nEHOKOLOLO 10\\nOvanhu
+  tava yolo etumwalaka laNoa lelondwelo. Ashike kava li tava yolo eshi odula ya hovela
+  okuloka! Lihonga nghee ongulu yomomeva ya xupifa Noa noukwaneumbo waye nosho yo
+  oinamwenyo ihapu.\"", "\"Omukesari Augustus, omupangeli waRoma, okwa li a yandja
+  elombwelo kutya ovanhu aveshe vomouhamba waye nave ke lishangife. Onghee Josef naMaria
+  ova li ve na okuya kuBetlehem, osho sha li kolukadi laJerusalem.\\nOvanhu vahapu
+  ova li va ya kuBetlehem opo ve ke lishangife. Molwaashi oshilando osha li shi yadi,
+  Josef naMaria ova li ashike va mona onhele yokukala moshuunda shoimuna, omo Jesus
+  a dalelwa. Maria okwe mu tonyena momalapi ndele te mu nangeke metemba lokulila oimuna.\\nKalunga
+  oku na okukala oye a longekida Omukesari Augustus a yandje elombwelo lokulishangifa.
+  Omolwashike mbela? Omolwaashi Jesus okwa li e na okudalelwa muBetlehem, moshilando
+  omo mwa li hamu di xekulululwa David. Omishangwa oda hangwa da xunganeka kutya moshilando
+  osho omo tamu ka dalelwa Omupangeli oo a udanekwa. \u2014 Mika 5:2.\\nOufiku oo
+  kawa li tuu we likalekelwa! Ovafita ovo va li va nangela oimuna yavo moixwa ova
+  li va holokelwa kouyelele. Ouyelele oo owa li oshinge shaJehova. Omweengeli waKalunga
+  okwa li e va lombwela a ti: \u201cInamu tila, taleni, ondi mu na onghundana iwa
+  oyo tai ka etela ovanhu aveshe ehafo linene. Nena eli omwa dalelwa omuxupifi, Kristus
+  Omwene, moshilando shaDavid. Otamu ka mona edidiliko eli: Otamu ka hanga Okaana
+  ka tonyenwa melapi noka nangekwa metemba lokulila oimuna.\u201d Ohaluka, ope uya
+  vali ongudu yovaengeli tai ingida tai ti: \u201cEfimano olaKalunga Omukombadambada,
+  nombili kombada yedu otai ka kala mokati kovanhu ovo a hokwa.\u201d \u2014 Lukas
+  2:10-14.\\nEshi ovaengeli va dja po puvo, ovafita ova lombwelafana tava ti: \u201cNatu
+  yeni paife kuBetlehem tu ka tale kutya oshike sha ningwa ko, ngaashi Jehova e tu
+  hololela.\u201d (Lukas 2:15) Ova ya tava endelele, nova hanga Okaana Jesus ke li
+  opo omweengeli e va lombwela. Eshi ovafita va hokolola osho va lombwelwa komweengeli,
+  ovanhu aveshe ova li va kumwa. Maria okwa li a hafela eendjovo odo ndele te di tuvikile
+  momutima waye.\\nOvanhu vahapu kunena ova itavela kutya Jesus okwa dalwa mo 25 Desemba.
+  Ashike moitukulwa yaBetlehem, muDesemba omwa li hamu kala odula noutalala. Nomafimbo
+  amwe ohaku kala oikangwameva (o-snow). Pefimbo olo osha li shidjuu okuhanga ovafita
+  va nangela oimuna yavo moixwa. Natango, kasha li pandunge komupangeli waRoma a lombwele
+  ovanhu ovo va li inava hala okukala koshi yepangelo laye va ende oinano ile moutalala
+  wamemememe opo ve ke lishangife. Osha yela kutya Jesus okwa dalwa lwopuOktoba.\"",
+  "\"Nda vu kuete ondaka yimue yoku [vetiya] omanu, yi popi.\u2014Ovil. 13:15.\\nSokolola
+  esanju vakuetu va pondola oku kuata eci tu va vetiya. Manji Rub\u00e9n wa popia
+  hati: \u201cVokuenda kuanyamo alua nda kuatele ovisim\u0129lo viokuti, si kuete
+  esilivilo. Pole, eteke limue eci nda kala oku kundila kumue lukulu umue wekongelo,
+  eye wa limbuka okuti nda sumuile calua. Eye wa yevelela lutate eci nda kala oku
+  situlula ovisim\u0129lo viange. Noke, wa ndi ivaluisa ovina viwa ndaenda oku linga.
+  Wa ndi ivaluisavo olondaka via Yesu viokuti etu tua velapo calua okuti, olonjila
+  vi sule. Oku sokolola kocisonehua eci ca siata oku vetiya utima wange. Olondaka
+  viukulu wekongelo via ndi kuatisa calua.\u201d (Mat. 10:31) Embimbiliya li tu sapuila
+  okuti tu sukila oku livetiya pokati olonjanja viosi. Upostolo Paulu wa sonehela
+  Akrist\u00e3o vo ko Heveru hati: \u2018Amamiko oku livetiya pokati eteke leteke.\u2019
+  Paulu wa lombolola esunga liaco poku popia hati: \u201cSanga umue pokati kene o
+  t\u0129lisa utima waye poku yapuisiwa lunene wekandu.\u201d (Va Hev. 3:13) Ocili
+  okuti, ove wa kuata esanju lialua eci wa vetiyiwa lomunu umue. w16.11 1:2, 3\\nPa
+  katuka alume va vangula ovina via penga ha va koki olo\u00f1ame.\u2014Ovil. 20:30.\\nKunyamo
+  wo 313 noke lia Kristu, Uviali wa Soma Constantino wa viala Ofeka yo Roma kuenda
+  wa ecelela okuti etavo Liesanda olio li kala etavo lia velapo. Noke Constantino
+  wa linga ohongele yimue lasongui vatavo, okuti yeya oku k\u0169l\u0129h\u0129wa
+  londuko hati, Conc\u00edlio de Nic\u00e9ia. Noke liohongele yaco, Soma wa tuma ukanda
+  umue oco \u00c1rio a tumiwe kumandekua omo okuti eye wa likala oku tava okuti, Yesu
+  eye Suku. Noke Teod\u00f3sio wa linga ombiali yo ko Roma, kuenje Etavo Liokatolika
+  ya linga etavo lia velapo Kuviali wo ko Roma. Ovolandu a lekisa okuti, uviali wo
+  ko Roma wa linga ofeka yimue \u201cYakrist\u00e3o\u201d vokuenda kuviali wa Soma
+  Teod\u00f3sio. Kotembo yaco, Akrist\u00e3o olonanguluke, va tava kelongiso liesanda
+  kuenje veya oku panga onepa ko Bavulono Yinene. Pole, kua kala ocimunga cimue Cakrist\u00e3o
+  olombuavekua vakuekolelo. Ovo va sokisiwile ndotiliku Yesu a tukuile. Akrist\u00e3o
+  vaco vakuekolelo va kala oku likolisilako oku fendela Suku, pole havosiko va enda
+  oku yevelela ovina va kala oku longisa.\u2014Mat. 13:24, 25, 37-39. w16.11 4:8,
+  9\\nYeki [ku Yehova] asakalalo ene osi, momo eye o vu tati.\u20141 Pet. 5:7.\\nKoloneke
+  vilo, Satana \u201co \u00f1uala \u00f1uala ndohosi yi koma, oku sandiliya u a lia.\u201d
+  (1 Pet. 5:8; Esit. 12:17) Eli olio esunga lieci omanu va siatela oku liyaka lasumuo
+  kuenda afendeli va Suku va siatavo oku liyaka lasakalalo aco. Afendeli va Suku kosimbu
+  va liyakavo lasakalalo. Embimbiliya li lekisa okuti olonjanja vimue Soma Daviti
+  wa liyakavo lasakalalo. (Osa. 13:2) Upostolo Paulu wa enda oku sakalala \u2018eteke
+  leteke oco a kuatise akongelo osi.\u2019 (2 Va Kor. 11:28) Pole, nye tu pondola
+  oku linga eci tu liyaka lasakalalo alua? Isietu wokilu wa kuatisa afendeli vaye
+  kosimbu oco va kuate ekavuluko omo liesakalalo kuenda o yongolavo oku tu kuatisa
+  koloneke vilo. O pondola oku ci linga ndati? Poku li kutilila,poku tanga kuenda
+  oku sokolola Ondaka ya Suku poku ecelela okuti espiritu sandu lia Yehova li ku kuatisa,
+  kuenda oku sapela lomunu umue wa kolela catiam\u1ebdla kovisim\u0129lo viove. w16.12
+  3:1, 2\"", "\"Tala ovina o sukila oku k\u0169l\u0129h\u0129sa\\nVofeka o kasi omunu
+  o kisikiwa oku lilongisa toke ocisoko cipi? Wa pit\u0129la ale kocisoko caco? Nda
+  kua kapeleko elungulo Liembimbiliya lioku \u2018pokola kolombiali\\n\u2019 kuenda
+  ku t\u1ebdlisa ocisoko ci kisikiwa, o kasi oku liwekapo.\u2014Va Roma 13:1.\\nWa
+  t\u1ebdlisa ale ovim\u00e3ho viove kosikola? Ovim\u00e3ho vipi o yongola oku t\u1ebdlisa
+  kosikola? Kua ci k\u0169l\u0129hile? O sukila oku ci k\u0169l\u0129ha! Momo nda
+  kua ci k\u0169l\u0129hile, o ka sokisiwa ndomunu wa londa vomboyo pole ka k\u0169l\u0129hile
+  oku a lo\u00f1a. Omo liaco, sapela lolonjali viove catiam\u1ebdla kosapi hati: \u201cOvim\u00e3ho
+  Viange Kosikola.\u201d Nda wa liwekapo oku lilongisa okuti kua t\u1ebdlisile ovim\u00e3ho
+  ove lolonjali viove wa tumbiki viatiam\u1ebdla kosikola, o kasi oku liwekapo oku
+  tanga.\\nMomo lie o yonguila oku liwekapo oku tanga? Ovina vimue vivali vi pondola
+  oku ci koka vievi: Oku kuatisa epata lovina va sukila ale oku lieca olumue oco o
+  linge upange umue. Asunga amue okuti ka a sungulukile ya-a: Oku yuvula oloseteko,
+  kuenda oku liwekapo oku linga ovopange o kosikola. Ocina ca velapo, oku limbuka
+  esunga lieci o yonguila oku liwekapo oku tanga, nda ca sunguluka ale sio. Nda wa
+  liwekapo oku tanga omo lioku tila ovitangi, citava okuti o ka livela.\\nOku liwekapo
+  oku tanga ci sokisiwa loku t\u1ebdha vomboyo osimbu kua pit\u0129lile kocitum\u00e3lo
+  enda. Citava okuti omboyo yaco ka yi kasi ciwa kuenda omanu va endelamo ka va sungulukile.
+  Nda wa t\u1ebdha vomboyo ku ka pit\u0129la oku wenda kuenda citava okuti o li lem\u1ebdha.
+  Cimuamue haico ci pita love nda wa liwekapo oku tanga. Ka ci ka leluka oku sanga
+  upange umue. Kuenda nda\u00f1o wa sanga upange umue citava okuti o ka tambula olombongo
+  vitito okuti, nda havioko o tambula nda wa malele oku tanga.\\nKu ka liwekepo oku
+  tanga, pole kuata epandi kuenda seteka oku tetulula ovitangi wa siata oku liyaka
+  lavio kosikola. Nda wa ci linga, o ka lilongisa oku kala ukuepandi kuenda o ka t\u1ebdla
+  oku yula ovitangi o ka sanga poku sanda upange.\\nOvim\u00e3ho Viange Kosikola\\nVimue
+  pokati kovim\u00e3ho via velapo viokosikola, oku ku pongiya oco o kuate upange umue
+  u pondola oku ku kuatisa oku litekula kuenda epata liove kovaso yoloneke. (2 Va
+  Tesalonike 3:10, 12) Wa sokolola ale upange o yongola oku linga? Otembo o pesila
+  kosikola yi ku kuatisa ndati oku li pongiyila oku t\u1ebdlisa upange waco? Oco o
+  k\u0169l\u0129he nda ovina o lilongisa kosikola vi ka ku kuatisa tambulula apulilo
+  aku\u00e3imo:\\nOvina vipi ndi t\u1ebdla oku linga? (O kuete h\u1ebd ukamba uwa
+  lavakuene? O sole h\u1ebd oku linga ovopange amue ndeci oku semulula ovina? Wa siata
+  h\u1ebd oku kuata onima yiwa poku tetulula ovitangi?)\\nKovopange api ndi pondola
+  oku linga ovina ndi t\u1ebdla?\\nOvopange api a siata pocitum\u00e3lo \u00f1asi?\\nNye
+  \u00f1asi oku lilongisa okuti ci ka ndi kuatisa oku sanga upange?\\nUlo\u00f1o upi
+  ndi kasi oku lilongisa okuti u ka ndi kuatisa oku t\u1ebdlisa ovim\u00e3ho viange?\\nIvaluka
+  okuti: Ocim\u00e3ho cove coku tanga oku lilongisa ulo\u00f1o umue u ka ku kuatisa.
+  Ku ka sande oku lilongisa vokuenda kuotembo yalua, momo ci sokisiwa loku \u201ckala
+  vomboyo\u201d otembo yosi, oco o yuvule ovikele.\"", "\"Uahi ua kala na cikupulo
+  ca Yesu. Ka kua kele muntu ua mu tambuile cikupulu cipue ku mu cakula ha livue.
+  Vunoni va mu soneka mu mizimbu ya yingi mu vihita via miaka.\\nVutuhu ngoco cingi
+  ca vakua ku soneka ka va tantekeyele vuino vati Yesu ua fuile mpundu. Visemua via
+  ku ntsimbu ize na vilongesa via vakua malombelo hamo na vizango via vaze va kele
+  na ku tumina vakua ku soneka, via kuatele ku cifua ci va sonekelemo cikupulo ca
+  Yesu. Vikupulo vi va linga vantu ku tuala ha cifua ca Yesu via kuata ku cifua ci
+  ve ku mu muenamo na vilongesa vieni.\\nVamo vakua vikupulo va soneka Yesu ngue ua
+  ku zeya na vinkambu via laha na muezi, kaha naua ngue ua ku vuisa ngozi. Kaha mu
+  vivideo vimo, ve ku muesa Yesu mu cifua ca ku komouesa na nkongolo ya vusela ya
+  mu zingilika ku mutue. Vuno evi vikupulo viaco vie ku muesa vuino Yesu ni? Vati
+  tu hasa ku tantekeya? Tu hasa ku uana cimo ceke ca vati Yesu ua fuile mpundu nga
+  tu hilula vuino ha mizimbu ya handeka vieni mu Mbimbiliya. Mizimbu yaco i hasa ku
+  tu kuasa ku sungamesa cifua ci tua pande ku muenamo Yesu.\\n\u201cUA NJI VIUKISILA
+  MUVILA\u201d\\nCimoneka ngue Yesu ua handekele aa mezi aco ku ntsimbu ya mbatizimu
+  yeni. (VaHevelu 10:5; Mateo 3:13-17) Vati Yesu ua fuile? Tele kua lisupila miaka
+  30, kangelo Ngambiele ua lekele Maliya ngueni: \u201cU kemita muzimo liove, kaha
+  uka sema muana ua yala, . . . Muana Njambi.\u201d (Luka 1:31, 35) Mua vusunga, Yesu
+  ua puile yala ua ku tantuluka, ngeci mua Andama yala ua katete. (Luka 3:38; 1 Kolintu
+  15:45) Yesu ua puile yala ua muvila ua cili, kaha citava ua kele na vimo vifua via
+  naye ua kayundeya Maliya.\\nYesu ua kele na muezi, ngue ku cisemua ca vaYundeya
+  cize ka ca litombuele na ca vakua Loma. Muezi uaco ua puile cimueso ca kasingimiko,
+  kaha ua ku niunga vuino. Kati ua ku lahelela. Mua vusunga Yesu ua niungile vuino
+  muezi na vinkambu. Vaze lika va puile vaNazileu ngeci mua Samusoni vakevo ka va
+  tehuile vinkambu.\u2014Numelu 6:5; Vangazi 13:5.\\nYesu ua puile kalupindelo noho
+  mua puisile miaka 30, ua pangele ca ku hona makina a ku matangua ano. (Mako 6:3)
+  Citava ua kele na muvila ua ku kaniama. Ku vuputukilo vua cipanga ceni ca ku ambulula,
+  Yesu lika lieni \u201cua mbizielele kuti vose mu tembele, na vampanga na vangombe;
+  kaha ua tilile zimbongo zia vakua ku landakana, ua fulumikile zimesa ziavo.\u201d
+  (Yoano 2:14-17) Ca tondeka yala ua ngolo linga a puisemo vipanga via cifua eci.
+  Yesu ua pangesele muvila ua mu viukisilile Njambi linga a puisemo cipanga ca mu
+  tumine: \u201cNja pande ku ambulula zimpande zia cili zia vuangana vua Njambi ku
+  membo a kuavo naua.\u201d (Luka 4:43) Ca tondekele ndzili ya ku puamo linga muntu
+  a hase kuendangana mua ya Palestina ha mikono mu ku ambulula muzimbu ua vuangana.\\n\u201cTUAYENU
+  KULI ANGE, . . . KAHA NJI KA MI HUIMISA\u201d\\nEci cilanio ca Yesu mua vusunga
+  ca kuatele ku mitima ya vavengi va kele \u201cna ku fuitangana na ku lemuua.\u201d
+  (Mateo 11:28-30) Ngozi ya Yesu na cikeketima ceni via puisilemo vize via kulahesele
+  ku huimisa vaze va lilongesele kuli ikeye. Cipue vanike navo va lemene ku kala mu
+  hiehi na Yesu, muomu Mbimbiliya nguayo: \u201cKaha ua va tambuile mu mavoko eni.\u201d\u2014Mako
+  10:13-16.\\nVutuhu Yesu va mu yandesele mua vukenia tele kanda a tse, ka puile muntu
+  ua ku zeya cikuma. Ca ku muenako, ua kuasele ku cilika ca vulo ku Kanana omo ua
+  himpuile mema ku pua viniu. (Yoano 2:1-11) Kaha ku vilika vikuavo Yesu ua longesele
+  vimamuna via ku linga ka citava ku vi suva na lelo lino.\u2014Mateo 9:9-13; Yoano
+  12:1-8.\\nKu vueza ku viose evi, ku ambulula ca Yesu ca vuisile ndzolela ya vakua
+  ku halakana va lavelele muono ua yaye. (Yoano 11:25, 26; 17:3) Omo vandongesi veni
+  va ku pua 70 va mu lekele vi va ka muene mu ku ambulula, ua \u201cviukilila\u201d
+  na ku handeka ngueni: \u201czolelenu muomu va na soneka mazina enu muilu.\u201d\u2014Luka
+  10:20, 21.\\n\u201cVUNONI ENU KATI MU PUE NGECIZE\u201d\\nVakuluntu va malombelo
+  va ku matangua a Yesu va lemene ku limuesa ku vantu va va mone na ku lihaka ku vukama.
+  (Numelu 15:38-40; Mateo 23:5-7) Vunoni Yesu ua longesele vapostolo veni kati \u201cku
+  sika\u201d vakuavo. (Luka 22:25, 26) Ngeci mukemuo, Yesu ua va mamuine ngueni: \u201cliniungenu
+  ku vakua ku soneka, va zanga ku endangana na vuzalo vua laha, ku vitanda va va sambelele\u201d\u2014Mako
+  12:38.\\nVunoni Yesu ka fuilemo, ua kele na ku lipandakana hamo na mbunga, ca kaluuile
+  ku mu tantekeya. (Yoano 7:10, 11) Cipue mua kele ha kati ka vandongesi veni, 11
+  ka lisezele cikuma navo ku muvila. Mukua ku mu enda vungungu Yundasa Iskaliota ua
+  ka lingile ku mu tsuemba linga a hane \u201ccintantekeyeso\u201d ku vitozi va ku
+  mu kuatele.\u2014Mako 14:44, 45.\\nVutuhu kua kala mizimbu ya yingi ka tu tantekeya,
+  tua limuena ngecize Yesu ka kele na ku moneka mu cifua ca vikupulo vi ve ku linga
+  vavengi. Vutuhu ngoco, ca seho ya kama kati cifua ceni vunoni vati tue ku mu muenamo
+  ntsimbu ino.\\n\u201cNTSIMBU YA INDENDE LIKA KAHA VAKUA MAVU KA VA KA NJI MONA NAUA\u201d\\nYesu
+  mu nima ya ku handeka aa mezi mua hitile lika matangua andende ua tsile kaha va
+  mu tsindile. (Yoano 14:19) Ua hele muono ueni mu \u201cku kula va vengi.\u201d (Mateo
+  20:28) Ha litangua lia mu citatu, Njambi ua mu sanguile na muvila ua \u201ccimbembesi\u201d
+  \u201ckaha ua mu tavele a soloke.\u201d (1 Petulu 3:18; Vilinga 10:40) Yesu ua kele
+  na cifua cika mua solokele ku vandongesi veni? Cimoneka ngue ua kele na cifua ceka
+  kavundende, muomu cipue vandongesi va kele na ku enda neni ka va mu tantekeyele.
+  Maliya Mandalena ua singaniekele ngueni halumo mukua ku niunga citungu; kaha vandongesi
+  veni va kele na ku ya ku Emau, va mu muene ngue ngendzi.\u2014Luka 24:13-18; Yoano
+  20:1, 14, 15.\\nVati tua pande ku muenamo Yesu? Mu nima ya miaka 60 tunde ha ku-tsa
+  ca Yesu kapostolo Yoano ua muene Yesu mu cimona. Yoano ka muene muntu a tsa ha cilindakano.
+  Vunoni ua muene \u201cMUANGANA UA VAMIANGANA, NA SUKULU UA VASUKULU.\u201d Muangana
+  ua Vuangana vua Njambi, uze a ka vula vitozi va Njambi vuovuno, vandemone hamo na
+  vakua vupi kaha na ku neha vivezikiso via yaye ku vantu vakua vuviuke.\u2014Ku-Solola
+  19:16; 21:3, 4.\"", "\"Ku Clemence Tashaya\\nEENHANA \u2013 Ovaholafani noshoyo
+  ovanangeshefa mEenhana moshitukulwa sha Hangwena ina va dula okutyapula efiku lohole
+  ile loValentine neudo omolwo omatomhelo eli li na ku li li.\\nOmido da djako osha
+  kala ondjikilile eshi eemhunga do vanhu modoolopa ei da kala no ku djala oikutu
+  itilyana ilo ilaula no sho yo itoka , na luhapu ova paafana omaano noushike penge
+  yoo mefiku laValentine. Ndele nee efiku eli eshi la dimbulukiwa Etitano la djako
+  mounyuni aushe, mEenhana osha fa ovanhu ina ve li dimbuluka. Ina ve shi ninga omolwa
+  omatomheno a yoolokafana.\\nKundana okwa ende momapandavanda moSoondaxa nomeefitola
+  hadi landifa omaano opo a ude nghee ovanhu va landa no sho yo va landifa ile inaa
+  va landifa. Eshi okwe shi ningi molwa shi omhepo yo ku dimbuluka efiku olo ka ya
+  yi etifa eenghono.\\nUmwe womovanafitola , Trifine Namundjebo, ha landifa omaano
+  , okwa ti ovanhu vahapu ina va landela ookaume kavo no sho yo ovaholike va vo omaano,
+  nonando ofitola ya ye oya li ye li longekidila nawa efiku olo moku kala ya twilika
+  omaano omaludi mahapu.\\n\u201cOmalandifo okwa li taa ende kashona neudo oku yeleka
+  nomido da djako. Ovalandi no va odoli vomesho ova ti ina va dula oku landa omaano
+  molwefiku lohole oshe shi ova hangika opo ashike va landele ovana omidjalo dofikola
+  no sho yo ve va futile eefikola,\u201d osho Namundjebo a ti.\\n\u201cOnghalo okwa
+  li ya mwena neenghono neudo, i na i fa omafimbo oshito eshi ovanhu va kendabala
+  oku landela ova holike va vo omaano ,\u201d.\\nNamundjebo okwa ti kaimba omhepo
+  oyo yo vanhu inaa va landa sha mefiku olo la Valentine otashi dulika i na ekwatafano
+  no inakuwanifwa yeefikola no sho yo eshi omwedi u li mokati fiyo opapa.\\n\u201cOilandifomwa
+  yetu oya li i na eendado di li nawa ndele nee ovalandi ina va dula oku i landa oshoka
+  osha fa vehena oimaliva.\\nOvanhu ova hoolola oku landa oufila wepungu ponhele yo
+  ku landa omaano oValentine, omunangeshefa umwe a ti,\u201d.\\nOmukalimo umwe mEenhana,
+  Elizabeth Kampolo eshi a pulwa kombinga yefiku eli okwa nyamukula kutya opena oinima
+  ya fimana oku tula momadilongo onghee ina dula oku dimbuluka efiku la Valentie.\\n\u201cAme
+  onda loloka no handi yahama kombinga yefiku ha li ifanwa Valentine, molwa shi onda
+  kanifa omukwanedimo lange oo a dipawa komulumentu waye oshivike sha djako moshikandjohoololo
+  sha Tamanzi moshitukulwa Omusati.Shikwawo ame ondi na oinima ya fimana oku diladila
+  ngaashi ouwa wofamili yange,\u201d osho a ti.\\nPaulus Haufiku kombinga ya ye okwa
+  ti ovakainhu paama ove na outile oku ya moihole omolwa omadipao no sho yo omahepeko
+  oo taa ningilwa ovakainhu kovalumenhu ovo va ti ve na ohole navo. Unene tuu eshi
+  ta va udu no ku lesha eelopota doikulumanene oyo moikundaneki.Ndele nee Haufiku
+  okwa ti no nando omaano okwa li nondilo meefitola omwa li yoo oinima iwa no ta i
+  hokwifa.\\n\u201cAme i na ndi dula oku enda no ku odola omesho moku tala ko i landifomwa
+  oyo momakende, molwashi oinima oyo oya li i na ondilo neenghono kwaame,\u201d osho
+  a ti.\\nOmafimbo a pita ova holafani mEenhana okwa li ha va dimbuluka efiku la Valentine
+  pa mu kalo muwa, eshi meemhito dihapu va monika ta va lande omaano no sho yo ta
+  va ka lya ouvalelo keerestauranda ilo ta va yi keenhele oko kwa longekidwa omatyapulo
+  no peenhele yo da yooloka.\""]'
+src_ngrams: '{"1": [[["li"], 47018], [["va"], 37946], [["ku"], 35244], [["ka"], 23735],
+  [["tu"], 19348]], "2": [[["okwa li"], 9835], [["ova li"], 4760], [["li va"], 3979],
+  [["nosho yo"], 2829], [["va li"], 2603]], "3": [[["ova li va"], 2570], [["shi na
+  sha"], 1440], [["jesus okwa li"], 1367], [["ovo va li"], 963], [["va li va"], 856]],
+  "4": [[["okwa li a lombwela"], 401], [["okwa li e va"], 339], [["ovo va li va"],
+  276], [["va kele na ku"], 267], [["okwa li a hala"], 249]], "5": [[["kashi na nee
+  mbudi kutya"], 217], [["dulu oku tu kwafela tu"], 167], [["mbela ou shi shii kutya"],
+  140], [["okwa li e shii kutya"], 134], [["jesus okwa li a lombwela"], 102]]}'
