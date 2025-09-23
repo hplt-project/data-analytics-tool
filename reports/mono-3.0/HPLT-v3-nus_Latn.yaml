@@ -1,0 +1,1639 @@
+corpus: hplt-v3-nus_Latn
+srclang: nus
+timestamp: 1758169323.2444084
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2014-15", 30], ["CC-MAIN-2022-05", 14], ["CC-MAIN-2020-45",
+  11], ["wide16", 10], ["CC-MAIN-2014-35", 10], ["wide11", 5], ["CC-MAIN-2018-34",
+  4], ["CC-MAIN-2021-25", 3], ["CC-MAIN-2021-17", 3], ["CC-MAIN-2020-10", 3], ["CC-MAIN-2019-04",
+  3], ["CC-MAIN-2017-26", 3], ["CC-MAIN-2014-42", 3], ["wide17", 2], ["wide12", 2],
+  ["CC-MAIN-2024-51", 2], ["CC-MAIN-2024-30", 2], ["CC-MAIN-2022-21", 2], ["CC-MAIN-2020-29",
+  2], ["CC-MAIN-2020-24", 2], ["CC-MAIN-2020-05", 2], ["CC-MAIN-2018-43", 2], ["CC-MAIN-2018-05",
+  2], ["wide15", 1], ["wide10", 1], ["survey3", 1], ["CC-MAIN-2024-46", 1], ["CC-MAIN-2024-38",
+  1], ["CC-MAIN-2024-33", 1], ["CC-MAIN-2023-23", 1], ["CC-MAIN-2023-06", 1], ["CC-MAIN-2021-49",
+  1], ["CC-MAIN-2021-39", 1], ["CC-MAIN-2021-21", 1], ["CC-MAIN-2020-40", 1], ["CC-MAIN-2020-34",
+  1], ["CC-MAIN-2017-51", 1], ["CC-MAIN-2016-40", 1], ["CC-MAIN-2015-48", 1], ["CC-MAIN-2015-11",
+  1]]'
+docs_langs: '[[0.2, 1], [0.3, 7], [0.4, 4], [0.5, 21], [0.6, 6], [0.7, 3], [0.8, 2],
+  [0.9, 22], [1.0, 73]]'
+docs_segments: '[[1, 33], [2, 20], [3, 7], [4, 2], [5, 4], [6, 8], [7, 5], [8, 4],
+  [9, 2], [10, 3], [11, 1], [12, 4], [14, 1], [15, 3], [16, 2], [19, 2], [21, 1],
+  [23, 1], [30, 2], [34, 1], [35, 1], [38, 1], [39, 1], [46, 1], [47, 1], [48, 2],
+  [49, 1], [50, 1], [52, 1], [53, 2], [57, 1], [63, 1], [64, 1], [67, 1], [71, 1],
+  [72, 2], [78, 2], [87, 1], [88, 2], [92, 1], [93, 1], [95, 1], [111, 1], [133, 1],
+  [149, 1], [156, 1], [162, 1], [233, 1]]'
+docs_segments_mean: 24
+docs_segments_median: 6
+docs_top100_domains: '[["bible.is", 33], ["nanetya-foundation.org", 24], ["jw.org",
+  18], ["ebible.org", 18], ["indiana.edu", 11], ["consumer.vic.gov.au", 6], ["jobs.vic.gov.au",
+  4], ["vietnamimmigration.org", 2], ["triquidechicahuaxtla.org", 2], ["lchs.com.au",
+  2], ["blogspot.com", 2], ["www.vic.gov.au", 1], ["vallalar.net", 1], ["skyrock.com",
+  1], ["recovery.vic.gov.au", 1], ["okojo.biz", 1], ["nueronline.com", 1], ["multicultural.vic.gov.au",
+  1], ["liengejowda.com", 1], ["gospelgo.com", 1], ["entropik.io", 1], ["dhhs.vic.gov.au",
+  1], ["dakotanewsnow.com", 1], ["coronavirus.vic.gov.au", 1], ["congressomv.org",
+  1], ["blogspot.com.au", 1], ["bible.com", 1], ["4laws.com", 1]]'
+docs_top100_tld: '[["org", 65], ["is", 33], ["vic.gov.au", 15], ["edu", 11], ["com",
+  9], ["com.au", 3], ["net", 1], ["io", 1], ["biz", 1]]'
+docs_total: 139
+docs_wds: '[[5.0, 24], [5.1, 17], [5.2, 26], [5.3, 10], [5.4, 10], [5.5, 7], [5.6,
+  6], [5.7, 6], [5.8, 4], [5.9, 3], [6.0, 2], [6.1, 2], [6.2, 1], [6.3, 3], [6.4,
+  2], [6.6, 1], [6.7, 1], [6.8, 2], [6.9, 2], [7.0, 1], [7.3, 1], [7.5, 1], [7.9,
+  1], [8.0, 2], [8.1, 3], [8.3, 1]]'
+sentence_pairs: 3278
+src_bytes: 1711091
+src_chars: 1417341
+src_pii: 23
+src_tokens: 441393
+unique_sents: 3214
+src_sent_tokens: '[[1, 25], [2, 22], [3, 28], [4, 80], [5, 42], [6, 67], [7, 58],
+  [8, 74], [9, 106], [10, 151], [11, 144], [12, 163], [13, 159], [14, 131], [15, 94],
+  [16, 91], [17, 71], [18, 59], [19, 60], [20, 49], [21, 54], [22, 43], [23, 35],
+  [24, 47], [25, 37], [26, 36], [27, 32], [28, 32], [29, 28], [30, 24], [31, 23],
+  [32, 24], [33, 21], [34, 22], [35, 11], [36, 9], [37, 16], [38, 12], [39, 14], [40,
+  10], [41, 34], [42, 12], [43, 19], [44, 10], [45, 19], [46, 13], [47, 8], [48, 13],
+  [49, 7], [50, 13], [51, 16], [52, 9], [53, 12], [54, 10], [55, 8], [56, 10], [57,
+  6], [58, 8], [59, 8], [60, 5], [61, 7], [62, 12], [63, 9], [64, 4], [65, 9], [66,
+  4], [67, 7], [68, 9], [69, 9], [70, 8], [71, 5], [72, 7], [73, 8], [74, 5], [75,
+  2], [76, 5], [77, 2], [78, 3], [79, 7], [80, 6], [81, 2], [82, 7], [83, 4], [84,
+  4], [85, 3], [86, 5], [87, 4], [88, 4], [89, 5], [90, 1], [91, 4], [92, 3], [93,
+  5], [94, 4], [95, 6], [96, 2], [97, 1], [98, 4], [100, 7], [101, 5], [102, 8], [103,
+  3], [104, 4], [105, 3], [106, 6], [107, 4], [108, 7], [109, 5], [110, 3], [111,
+  3], [112, 4], [113, 3], [114, 2], [115, 5], [116, 2], [117, 3], [118, 1], [119,
+  1], [120, 1], [121, 5], [122, 5], [123, 3], [124, 2], [125, 6], [126, 2], [127,
+  5], [128, 2], [129, 3], [130, 2], [131, 2], [132, 3], [133, 7], [134, 2], [135,
+  5], [136, 2], [137, 4], [138, 2], [139, 4], [140, 4], [142, 1], [143, 1], [144,
+  4], [145, 2], [146, 1], [147, 2], [148, 3], [150, 3], [151, 2], [152, 3], [153,
+  4], [154, 2], [155, 4], [156, 1], [157, 3], [158, 1], [162, 1], [164, 4], [166,
+  3], [167, 2], [168, 3], [169, 1], [170, 1], [171, 4], [172, 4], [173, 4], [175,
+  3], [176, 1], [177, 4], [178, 1], [180, 1], [181, 2], [182, 1], [183, 4], [184,
+  1], [185, 1], [188, 2], [189, 2], [190, 2], [191, 1], [192, 3], [194, 1], [198,
+  1], [199, 2], [200, 2], [201, 1], [202, 2], [203, 2], [205, 1], [207, 1], [208,
+  3], [209, 1], [210, 3], [212, 2], [213, 2], [215, 2], [217, 1], [218, 1], [219,
+  1], [220, 3], [221, 1], [223, 1], [224, 1], [226, 1], [228, 3], [229, 3], [230,
+  2], [233, 1], [234, 1], [235, 1], [237, 1], [238, 1], [239, 2], [241, 2], [244,
+  2], [245, 2], [248, 2], [249, 1], [250, 1], [251, 1], [252, 1], [253, 2], [256,
+  1], [257, 1], [260, 1], [261, 1], [262, 1], [264, 2], [269, 1], [272, 1], [273,
+  1], [274, 2], [275, 1], [278, 3], [279, 1], [285, 1], [289, 1], [290, 1], [291,
+  1], [292, 2], [293, 1], [296, 1], [299, 1], [301, 1], [302, 1], [307, 2], [319,
+  1], [320, 1], [326, 1], [328, 1], [335, 1], [341, 1], [344, 1], [345, 1], [348,
+  1], [349, 1], [364, 1], [371, 1], [373, 1], [379, 1], [406, 1], [407, 1], [419,
+  1], [421, 1], [425, 2], [426, 1], [427, 1], [432, 1], [451, 1], [453, 1], [461,
+  1], [467, 1], [477, 1], [478, 1], [485, 1], [487, 1], [488, 1], [490, 1], [492,
+  1], [494, 1], [501, 1], [504, 1], [513, 1], [517, 1], [518, 1], [523, 1], [526,
+  1], [532, 1], [548, 2], [560, 1], [565, 2], [570, 1], [571, 2], [580, 1], [590,
+  1], [600, 1], [602, 2], [612, 1], [619, 1], [624, 1], [629, 1], [631, 1], [634,
+  1], [641, 1], [649, 1], [651, 2], [653, 1], [654, 1], [657, 1], [664, 1], [675,
+  1], [677, 1], [681, 1], [684, 1], [688, 2], [690, 1], [693, 1], [695, 1], [705,
+  1], [712, 1], [727, 1], [730, 1], [731, 1], [734, 1], [746, 1], [748, 3], [749,
+  1], [753, 2], [754, 1], [755, 1], [766, 1], [768, 1], [777, 1], [782, 1], [791,
+  1], [792, 2], [796, 1], [797, 2], [799, 1], [804, 2], [811, 1], [812, 1], [816,
+  1], [817, 1], [824, 1], [828, 1], [836, 1], [839, 2], [842, 1], [843, 1], [848,
+  1], [859, 1], [862, 1], [867, 1], [868, 2], [871, 2], [895, 2], [900, 1], [909,
+  1], [922, 1], [923, 1], [928, 1], [933, 1], [934, 1], [935, 1], [943, 1], [952,
+  1], [959, 1], [960, 1], [961, 1], [965, 1], [981, 1], [992, 1], [994, 1], [1011,
+  3], [1017, 1], [1030, 1], [1034, 1], [1037, 2], [1038, 1], [1040, 3], [1042, 1],
+  [1056, 1], [1067, 1], [1071, 1], [1078, 1], [1079, 1], [1085, 1], [1087, 1], [1088,
+  1], [1090, 1], [1096, 1], [1100, 1], [1106, 2], [1108, 1], [1109, 1], [1114, 1],
+  [1124, 1], [1127, 1], [1132, 1], [1137, 1], [1138, 2], [1152, 1], [1158, 1], [1160,
+  1], [1174, 1], [1178, 2], [1179, 1], [1180, 1], [1186, 1], [1187, 1], [1189, 1],
+  [1191, 1], [1201, 1], [1204, 2], [1212, 1], [1213, 1], [1218, 1], [1225, 1], [1227,
+  1], [1236, 1], [1241, 1], [1249, 1], [1262, 1], [1273, 1], [1278, 1], [1283, 1],
+  [1288, 1], [1289, 1], [1293, 1], [1297, 1], [1298, 1], [1299, 1], [1302, 1], [1309,
+  1], [1329, 1], [1334, 1], [1335, 1], [1351, 1], [1356, 1], [1358, 1], [1364, 1],
+  [1366, 1], [1370, 1], [1383, 1], [1393, 1], [1398, 1], [1399, 1], [1402, 1], [1408,
+  1], [1427, 1], [1432, 1], [1439, 1], [1477, 1], [1481, 1], [1490, 1], [1498, 1],
+  [1508, 1], [1510, 1], [1515, 1], [1531, 1], [1536, 1], [1542, 1], [1547, 1], [1555,
+  1], [1566, 1], [1575, 1], [1587, 1], [1594, 1], [1611, 1], [1632, 1], [1635, 1],
+  [1636, 1], [1651, 2], [1652, 1], [1664, 1], [1676, 1], [1678, 1], [1683, 1], [1690,
+  1], [1691, 1], [1695, 1], [1720, 1], [1724, 1], [1742, 1], [1754, 1], [1757, 1],
+  [1762, 1], [1771, 1], [1777, 1], [1787, 1], [1789, 1], [1808, 1], [1833, 1], [1846,
+  1], [1848, 2], [1861, 1], [1917, 1], [1927, 1], [1933, 1], [1965, 1], [1977, 1],
+  [2000, 1], [2082, 1], [2106, 1], [2107, 1], [2109, 1], [2190, 1], [2212, 1], [2236,
+  1], [2296, 1], [2337, 1], [2357, 1], [2393, 1], [2395, 1], [2449, 1], [2696, 1],
+  [2782, 1]]'
+src_sent_tokens_mean: 135
+src_sent_tokens_median: 20
+src_unique_sents: '[[1, 16], [2, 22], [3, 28], [4, 79], [5, 41], [6, 64], [7, 53],
+  [8, 68], [9, 106], [10, 149], [11, 144], [12, 163], [13, 159], [14, 131], [15, 93],
+  [16, 90], [17, 70], [18, 59], [19, 57], [20, 47], [21, 53], [22, 42], [23, 35],
+  [24, 46], [25, 37], [26, 36], [27, 31], [28, 32], [29, 27], [30, 24], [31, 23],
+  [32, 24], [33, 21], [34, 22], [35, 11], [36, 9], [37, 16], [38, 12], [39, 14], [40,
+  10], [41, 12], [42, 12], [43, 19], [44, 10], [45, 19], [46, 13], [47, 8], [48, 13],
+  [49, 7], [50, 13], [51, 16], [52, 9], [53, 12], [54, 10], [55, 8], [56, 10], [57,
+  6], [58, 8], [59, 8], [60, 5], [61, 6], [62, 12], [63, 9], [64, 4], [65, 9], [66,
+  4], [67, 7], [68, 8], [69, 9], [70, 8], [71, 5], [72, 7], [73, 8], [74, 5], [75,
+  2], [76, 5], [77, 2], [78, 3], [79, 7], [80, 6], [81, 2], [82, 7], [83, 4], [84,
+  4], [85, 3], [86, 5], [87, 4], [88, 4], [89, 5], [90, 1], [91, 4], [92, 3], [93,
+  5], [94, 4], [95, 6], [96, 2], [97, 1], [98, 4], [100, 7], [101, 5], [102, 8], [103,
+  3], [104, 4], [105, 3], [106, 6], [107, 4], [108, 7], [109, 5], [110, 3], [111,
+  3], [112, 4], [113, 3], [114, 2], [115, 5], [116, 2], [117, 3], [118, 1], [119,
+  1], [120, 1], [121, 5], [122, 5], [123, 3], [124, 2], [125, 6], [126, 2], [127,
+  5], [128, 2], [129, 3], [130, 2], [131, 2], [132, 3], [133, 7], [134, 2], [135,
+  5], [136, 2], [137, 4], [138, 2], [139, 4], [140, 4], [142, 1], [143, 1], [144,
+  4], [145, 2], [146, 1], [147, 2], [148, 3], [150, 3], [151, 2], [152, 3], [153,
+  4], [154, 2], [155, 4], [156, 1], [157, 3], [158, 1], [162, 1], [164, 4], [166,
+  3], [167, 2], [168, 3], [169, 1], [170, 1], [171, 4], [172, 4], [173, 4], [175,
+  3], [176, 1], [177, 4], [178, 1], [180, 1], [181, 2], [182, 1], [183, 4], [184,
+  1], [185, 1], [188, 2], [189, 2], [190, 2], [191, 1], [192, 3], [194, 1], [198,
+  1], [199, 2], [200, 2], [201, 1], [202, 2], [203, 2], [205, 1], [207, 1], [208,
+  3], [209, 1], [210, 3], [212, 2], [213, 2], [215, 2], [217, 1], [218, 1], [219,
+  1], [220, 3], [221, 1], [223, 1], [224, 1], [226, 1], [228, 3], [229, 3], [230,
+  2], [233, 1], [234, 1], [235, 1], [237, 1], [238, 1], [239, 2], [241, 2], [244,
+  2], [245, 2], [248, 2], [249, 1], [250, 1], [251, 1], [252, 1], [253, 2], [256,
+  1], [257, 1], [260, 1], [261, 1], [262, 1], [264, 2], [269, 1], [272, 1], [273,
+  1], [274, 2], [275, 1], [278, 3], [279, 1], [285, 1], [289, 1], [290, 1], [291,
+  1], [292, 2], [293, 1], [296, 1], [299, 1], [301, 1], [302, 1], [307, 2], [319,
+  1], [320, 1], [326, 1], [328, 1], [335, 1], [341, 1], [344, 1], [345, 1], [348,
+  1], [349, 1], [364, 1], [371, 1], [373, 1], [379, 1], [406, 1], [407, 1], [419,
+  1], [421, 1], [425, 2], [426, 1], [427, 1], [432, 1], [451, 1], [453, 1], [461,
+  1], [467, 1], [477, 1], [478, 1], [485, 1], [487, 1], [488, 1], [490, 1], [492,
+  1], [494, 1], [501, 1], [504, 1], [513, 1], [517, 1], [518, 1], [523, 1], [526,
+  1], [532, 1], [548, 2], [560, 1], [565, 2], [570, 1], [571, 2], [580, 1], [590,
+  1], [600, 1], [602, 2], [612, 1], [619, 1], [624, 1], [629, 1], [631, 1], [634,
+  1], [641, 1], [649, 1], [651, 2], [653, 1], [654, 1], [657, 1], [664, 1], [675,
+  1], [677, 1], [681, 1], [684, 1], [688, 2], [690, 1], [693, 1], [695, 1], [705,
+  1], [712, 1], [727, 1], [730, 1], [731, 1], [734, 1], [746, 1], [748, 3], [749,
+  1], [753, 2], [754, 1], [755, 1], [766, 1], [768, 1], [777, 1], [782, 1], [791,
+  1], [792, 2], [796, 1], [797, 2], [799, 1], [804, 2], [811, 1], [812, 1], [816,
+  1], [817, 1], [824, 1], [828, 1], [836, 1], [839, 2], [842, 1], [843, 1], [848,
+  1], [859, 1], [862, 1], [867, 1], [868, 2], [871, 2], [895, 2], [900, 1], [909,
+  1], [922, 1], [923, 1], [928, 1], [933, 1], [934, 1], [935, 1], [943, 1], [952,
+  1], [959, 1], [960, 1], [961, 1], [965, 1], [981, 1], [992, 1], [994, 1], [1011,
+  3], [1017, 1], [1030, 1], [1034, 1], [1037, 2], [1038, 1], [1040, 3], [1042, 1],
+  [1056, 1], [1067, 1], [1071, 1], [1078, 1], [1079, 1], [1085, 1], [1087, 1], [1088,
+  1], [1090, 1], [1096, 1], [1100, 1], [1106, 2], [1108, 1], [1109, 1], [1114, 1],
+  [1124, 1], [1127, 1], [1132, 1], [1137, 1], [1138, 2], [1152, 1], [1158, 1], [1160,
+  1], [1174, 1], [1178, 2], [1179, 1], [1180, 1], [1186, 1], [1187, 1], [1189, 1],
+  [1191, 1], [1201, 1], [1204, 2], [1212, 1], [1213, 1], [1218, 1], [1225, 1], [1227,
+  1], [1236, 1], [1241, 1], [1249, 1], [1262, 1], [1273, 1], [1278, 1], [1283, 1],
+  [1288, 1], [1289, 1], [1293, 1], [1297, 1], [1298, 1], [1299, 1], [1302, 1], [1309,
+  1], [1329, 1], [1334, 1], [1335, 1], [1351, 1], [1356, 1], [1358, 1], [1364, 1],
+  [1366, 1], [1370, 1], [1383, 1], [1393, 1], [1398, 1], [1399, 1], [1402, 1], [1408,
+  1], [1427, 1], [1432, 1], [1439, 1], [1477, 1], [1481, 1], [1490, 1], [1498, 1],
+  [1508, 1], [1510, 1], [1515, 1], [1531, 1], [1536, 1], [1542, 1], [1547, 1], [1555,
+  1], [1566, 1], [1575, 1], [1587, 1], [1594, 1], [1611, 1], [1632, 1], [1635, 1],
+  [1636, 1], [1651, 2], [1652, 1], [1664, 1], [1676, 1], [1678, 1], [1683, 1], [1690,
+  1], [1691, 1], [1695, 1], [1720, 1], [1724, 1], [1742, 1], [1754, 1], [1757, 1],
+  [1762, 1], [1771, 1], [1777, 1], [1787, 1], [1789, 1], [1808, 1], [1833, 1], [1846,
+  1], [1848, 2], [1861, 1], [1917, 1], [1927, 1], [1933, 1], [1965, 1], [1977, 1],
+  [2000, 1], [2082, 1], [2106, 1], [2107, 1], [2109, 1], [2190, 1], [2212, 1], [2236,
+  1], [2296, 1], [2337, 1], [2357, 1], [2393, 1], [2395, 1], [2449, 1], [2696, 1],
+  [2782, 1]]'
+src_langs: '[["fi", 1160], ["sl", 873], ["en", 304], ["es", 103], ["et", 72], ["nl",
+  62], ["tt", 52], ["sq", 47], ["als", 46], ["cs", 35], ["sv", 33], ["pl", 33], ["kn",
+  31], ["de", 31], ["it", 30], ["ms", 20], ["kw", 19], ["fr", 16], ["jbo", 15], ["hr",
+  14], ["cy", 12], ["sr", 10], ["id", 10], ["zh", 9], ["war", 9], ["ta", 9], ["pt",
+  9], ["ilo", 9], ["hu", 9], ["sk", 8], ["ml", 8], ["lo", 8], ["ro", 7], ["lb", 7],
+  ["eo", 7], ["da", 7], ["tr", 6], ["tl", 6], ["so", 6], ["oc", 6], ["lv", 6], ["lt",
+  6], ["lmo", 6], ["ja", 6], ["bn", 6], ["af", 6], ["uk", 5], ["ur", 4], ["su", 4],
+  ["ru", 4], ["is", 4], ["hsb", 4], ["fy", 4], ["sw", 3], ["sco", 3], ["mt", 3], ["mr",
+  3], ["eu", 3], ["bar", 3], ["vo", 2], ["vi", 2], ["ne", 2], ["nds", 2], ["nb", 2],
+  ["gv", 2], ["gom", 2], ["fa", 2], ["ar", 2], ["yi", 1], ["th", 1], ["te", 1], ["scn",
+  1], ["sc", 1], ["qu", 1], ["pnb", 1], ["nah", 1], ["min", 1], ["la", 1], ["ku",
+  1], ["jv", 1], ["ia", 1], ["hi", 1], ["gn", 1], ["dv", 1], ["cbk", 1], ["bs", 1],
+  ["az", 1]]'
+hardrules_tags: '{"not_too_long": 319, "not_too_short": 134, "length_ratio": 0, "no_urls":
+  41, "no_bad_encoding": 1, "pii": 23}'
+sample: '["\"Cio\u0332o\u0332k 26\\n1 K\u00e4 \u025bn gu\u00e4th \u025bm\u0254 cu
+  ro\u0332l \u025bm\u0254 te k\u025b bu\u0254th\\nmi di\u0332i\u0332t, mi la r\u025bw
+  buath \u00eb\u00eb ci k\u0254n ben m\u00eb\u00eb\\nte Ab\u025braam wan\u0254. Cu
+  Aydh\u025bk w\u00e4 ro\u0332o\u0332l mi c\u0254al\\ni G\u025braar k\u00e4 ku\u00e4\u00e4r
+  Pilithitiin mi c\u0254al i\\nAbim\u025bl\u025bk. 2 Cu Jaopa r\u0254 nyu\u0254th
+  \u025b, k\u00e4 cu\u025b\\nj\u025b ji\u00f6k, \\\" ''Cu w\u00e4 k\u00e4 Ijipt. Ji\u0332n
+  w\u00ebr, bi\\nw\u00e4 cie\u014b ro\u0332o\u0332l mi bi \u0194\u00e4n \u025b la\u0332r
+  i. 3 Cie\u014b ni\\nmuun \u025bm\u025b, k\u00e4 b\u00e4 te k\u025b\u025bl k\u025b
+  ji, b\u00e4 ji poth,\\nb\u00e4 mu\u0254\u0332n diaal titi ka\u0332m ji m\u00e4ni
+  kuayku, k\u025b\\n\u0264\u00f6\u00f6 b\u00e4 guok mi c\u00e4 yac k\u025b guurd\u0254\u0254\u014b
+  ni\\nAb\u025braam (unclear)u\u0254\u0332p.\\n(Page 90)\\n4 B\u00e4 kuayku rep a
+  bik\u025b \u014buan cet k\u025b ku\u025bl\\nnhial, k\u00e4 mu\u0254\u0332n diaal
+  titi bi \u0194\u00e4n k\u025b ka\u0332m\\nkuayku, k\u00e4 d\u00f6r diaal baa k\u025b
+  poth k\u025b kuayku.\\n5 K\u025b \u0264\u00f6\u00f6 m\u00eb\u00ebdan la Ab\u025braam
+  ruacd\u00e4 a li\u014b, k\u00e4\\nr\u0254m\u025b lu\u00eb\u00ebk\u00e4 k\u025bn\u025b
+  rui\u0332cd\u00e4 a m\u00e4ni \u014butk\u00e4.\\\" 6\\nCu Aydh\u025bk coo cie\u014b
+  k\u00e4 G\u025brar. 7 K\u00e4 cu ji\\nwec \u025bm\u0254 Aydh\u025bk thiec k\u025b
+  kui\u0332c ci\u00ebkd\u025b, cu\u025b k\u025b\\nji\u00f6k, i E nyimaar, k\u025b
+  min dual\u025b k\u025b \u0264\u00f6\u00f6 b\u025b\\nlar i E ciekd\u025b k\u025b
+  \u0264\u00f6\u00f6 diiw\u025b j\u025b i d\u0254\u014b d\u00eb\u00eb j\u025b\\nn\u00e4k
+  \u025b ji wec \u025bm\u0254 k\u025b kui\u0332c Rib\u025bk\u00e4, k\u025b \u0264\u00f6\u00f6
+  j\u025bn\\n\u025b ciek mi tee maan. 8 M\u00eb\u00eb c\u025b cie\u014b th\u0254\u0332\u014b
+  \u025bmi\\nk\u025b gua\u0332a\u0332th mi b\u00e4\u00e4r cu Abim\u025bl\u025bk, ku\u00e4\u00e4r
+  ji\\nPilithitiin, Aydh\u025bk guic k\u025b wernyin mu\u0254\u014bk\u025b\\nk\u025bn\u025b
+  ciekd\u025b ni Rib\u025bk\u00e4. 9 K\u00e4 cu Abim\u025bl\u025bk\\nAydh\u025bk c\u0254l,
+  cu\u025b j\u025b ji\u00f6k, \\\"Li\u014b \u025b ni k\u025b thu\u0254\u0332k\\npa\u0332ny,
+  ciek \u025bm\u0254 c\u00e4 j\u025b \u014ba\u0332c i \u025b ciekdu a thil\\ndi\u0332w,
+  k\u00e4 ji\u0332n, \u025b \u014bu \u025bn \u00eb\u00eb laari j\u025b i \u025b nyimaar?\\\"\\nCu
+  Aydh\u025bk \u025b ji\u00f6k, \\\"\u0194\u00e4n laar\u00e4 j\u025b in\u0254\u025bn
+  \u00eb\u00eb k\u025b\\n\u0264\u00f6\u00f6 \u025b \u0264\u00e4n i d\u0254\u0332\u014b
+  b\u00e4 li\u0332w k\u025b kui\u0332cd\u025b.\\\" 10 Cu\\nAbim\u025bl\u025bk wee,
+  \\\"E \u014bu \u025bn \u025b ci ji\u0332n \u025b l\u00e4t k\u00e4 k\u0254\\nme?
+  Dee raan dhil ni\u0254\u0254n k\u025b ciekdu, k\u00e4 dee\\nji\u0332n n\u025by coo
+  moc duer.\\n(Page 91)\\n11 Cu Abim\u025bl\u025bk n\u025by diaal coo la\u0332r l\u00e4r,
+  i\\nMi w\u00eb\u00eb te k\u025b raan mi\u1e85\u00e4 wut \u025bm\u0254 k\u025bn\u025b
+  ciekd\u025b\\ngu\u00eb\u00ebr, baa j\u025b n\u00e4k. 12 Cu Aydh\u025bk pieth k\u025b\\nkak
+  \u025bn muun \u025bm\u0254, cu\u025b k\u025b \u014b\u025b\u025br gua\u0332th ti
+  la\u0332ny\\nk\u025b kuay ni k\u00e4 ku\u0254\u0332r. Cu Jaopa j\u025b poth. 13\\nCu
+  wut \u025bm\u0254 cuaa ri\u00e4\u014b ri\u00e4\u014b. Cu nyink\u025b wee mi\\nr\u00ebpk\u025b
+  ro a baa ram mi ti\u0332l ti\u0332l. 14 Cu\u025b te\\nk\u025b b\u00e4ny \u0264\u0254\u0332\u0254\u0332k
+  k\u025bn\u025b b\u00e4ny deet, k\u00e4 cu\u025b te k\u025b\\ng\u0254l mi di\u0332i\u0332t,
+  k\u025b kui\u0332c \u025bm\u0254 cuaa j\u025b nyir \u025b ji\\nPilithitiin k\u025b
+  \u0264\u00f6\u00f6 g\u00f6rk\u025b \u014b\u0254ak\u025b. 15 K\u00e4\\nji\u025bwnik\u025b
+  diaal t\u00eb\u00eb caa t\u025bt ni wal \u025b la\u0332a\u0332t\\ngua\u0332n ni
+  Ab\u025braam ni m\u00eb\u00eb \u014bot Ab\u025braam wan\u0254,\\ncu\u0254 k\u025bn
+  diaal mol k\u025b k\u025b mun \u025b ji Pilithitiin.\\n16 K\u00e4 cu Abim\u025bl\u025bk
+  Aydh\u025bk ji\u00f6k, \\\"Ji\u0332n, woc\\nr\u0254\u0254du kutda, ji\u025bni. W\u00ebr
+  k\u025b \u0264\u00f6\u00f6 \u025bn t\u00e4\u00e4m\u025b ci\\nte k\u025b bu\u0254\u0332m
+  mi di\u0332i\u0332t ni j\u025bn k\u00e4 bu\u0254\u0332md\u00e4.\\\" 17\\nK\u00e4
+  cu Aydh\u025bk \u0264oth wi\u0332cdi\u025bn, cu\u025b r\u0254\u0254d\u025b w\u00e4
+  l\u00e4t\\nk\u00e4 wecd\u025b r\u025by lo\u0332o\u0332l\u00e4 G\u025braar, cu\u025b
+  cie\u014b thi\u0332n.\\n18 Cu Aydh\u025bk ji\u025bwni t\u00eb\u00eb caa k\u0254n
+  t\u025bt m\u00eb\u00eb te\\ngua\u0332n ni Ab\u025braam wan\u0254 ny\u0254k k\u025b
+  t\u00ebt, k\u025b \u0264\u00f6\u00f6 ci\\nji Pilithitiin k\u025b mol m\u00eb\u00eb
+  ci Ab\u025braam li\u0332w.\\n(Page 92)\\nK\u00e4 cu\u025b ci\u00f6\u00f6tki\u025bn
+  t\u00eb\u00eb caa k\u0254n c\u0254\u0254l ni k\u025b \u025b\\ngua\u0332n ni Ab\u025braam
+  ny\u0254k k\u025b loc thi\u0332n. 19 K\u00e4\\nm\u00eb\u00eb ci la\u0332a\u0332t
+  Aydh\u025bk r\u025by lo\u0332o\u0332l\u00e4 t\u025bt a cik\u025b jiw\\nmi te k\u025b
+  pi jek thi\u0332n, 20 cu yi\u00eb\u00ebn \u0264\u0254\u0332\u0254\u0332k ji\\nG\u025braar
+  k\u025bn\u025b yi\u00eb\u00ebn \u0264\u0254\u0332\u0254\u0332k Aydh\u025bk coo gaak
+  thi\u0332n,\\nla ji G\u025braar \u025b a laar, i Pi k\u025b\u025b nyink\u0254. Cu\u025b\\njiw
+  \u025bm\u0254 coo c\u0254l i Ith\u025bk, k\u025b \u0264\u00f6\u00f6 cik\u025b gua\u0332a\u0332c\\nk\u025b
+  j\u025b. 21 T\u00e4\u00e4m\u025b cuk\u025b jiw d\u0254di\u025bn t\u025bt, k\u00e4\\ncuk\u025b
+  l\u025b ni gaak thi\u0332n b\u00e4, k\u00e4 cu\u025b ci\u00f6td\u025b c\u0254l i\\nThitn\u00e4.
+  22 K\u00e4 cu\u025b \u0264\u00f6th \u025bn wan\u025bm\u0254, cu\u025b jiw\\nd\u0254di\u025bn
+  l\u025b w\u00e4 t\u025bt, k\u00e4 ''kenk\u025b l\u025b gaak thi\u0332n \u025bn\\njiw
+  \u025bm\u0254. K\u00e4 cu\u025b ci\u00f6td\u025b c\u0254l i R\u025byoboth, cu\u025b\\nwee,
+  \\\"K\u025b \u0264\u00f6\u00f6 ci Jaopa gua\u0332a\u0332th rial ik\u00e4 t\u00e4\u00e4m\u025b\\nk\u025b
+  kui\u0332cdan, ban\u025b ro dieth a g\u0254aa \u025bn muun \u025bm\u025b.\\n23 Cu\u025b
+  ji\u025b\u025bn \u025bn wan\u025bm\u0254, cu\u025b w\u00e4 k\u00e4 Birci\u0332i\u0332ba.\\n24
+  K\u00e4 cu Jaopa r\u0254\u0254d\u025b nyu\u0254th j\u025b k\u025b j\u025bn w\u00e4\u00e4r\\n\u025bm\u0254,
+  cu\u025b wee, \\\"E J\u025bn \u0194\u00e4n Kuoth guur ni\\nAb\u025braam. ''Cu dual
+  k\u025b \u0264\u00f6\u00f6 \u0194\u00e4n a k\u025b\u025bl k\u025b ji.\\n\u0194\u00e4n
+  b\u00e4 ji poth, k\u00e4 b\u00e4 kuayku jak k\u00e4 \u014buan wii\\nmu\u0254\u0332\u0254\u0332n
+  k\u025b kui\u0332c l\u00e4\u00e4t\u00e4d\u00e4 ni Ab\u025braam.\\\" 25 Cu\u025b\\ngua\u0332a\u0332th
+  la\u0332t \u025bn awan\u025bm\u0254 k\u025b \u0264\u00f6\u00f6 baa Kuoth Jaopa\\nna\u0332k
+  ley thi\u0332n, k\u00e4 cu\u025b ci\u00f6t Jaopa c\u0254l thi\u0332n.\\n(Page 93)\\nCu\u025b
+  ci\u00eb\u00ebnd\u025b pua\u0332t \u025bn wan\u025bm\u0254, k\u00e4 cu\u025b cuaa
+  j\u025bn\\ngua\u0332a\u0332th \u00eb\u00eb cu la\u0332at Aydh\u025bk jiw t\u025bt
+  thi\u0332n.\\n26 Cu Abim\u025bl\u025bk k\u025bn\u025b m\u00e4\u00e4d\u025b ni Ahu-dhath
+  k\u025b\\nPic\u0254l in la ku\u00e4\u00e4r r\u025b\u0308md\u025b ben k\u00e4 G\u025brar
+  w\u00e4k\u025b k\u00e4\\nAydh\u025bk. 27 K\u00e4 cu Aydh\u025bk k\u025b ji\u00f6k,
+  \\\"E \u014bu\\ngo\u0332o\u0332r y\u025bn \u025b m\u0254 k\u00e4 \u0264\u00e4, k\u00e4
+  \u014b\u00e4c y\u025bn \u025b i nyir y\u025bn\\n\u0264\u00e4 a cu y\u025bn \u025b\u00e4
+  tuk kutdun m\u00eb\u00ebdan?\\\" 28 Cuk\u025b\\nwee, \\\"K\u0254n cak\u0254 j\u025b
+  ku pay n\u025bn a g\u0254aa \u025bn \u0264\u00f6\u00f6\\nJaopa a kui\u0332idu. Cak\u0254
+  wec in\u025b, Ban\u025b ro ku\\nyac kamdan k\u0254n bak\u0254 guok la\u0332t k\u025b
+  ji, 29 k\u025b j\u025bn\\n\u0264\u00f6\u00f6 ''ci y\u025bn k\u0254 bi l\u00e4t k\u00e4
+  mi ji\u00e4\u00e4k. '' Ka\u0332nk\u0254 ji\\ngu\u00eb\u00ebr, thil\u025b mi d\u0254\u0332\u014b
+  mi cak\u0254 l\u00e4t k\u00e4 ji \u025b ni\\nmi g\u0254aa, k\u00e4 cuaak\u0254 ji
+  jak k\u00e4 w\u00e4 k\u025b mal.\\nT\u00e4\u00e4m\u025b ci y\u025bn kuaa n\u025by
+  ti caa poth \u025b Jaopa.\\\"\\n30 Cu\u025b k\u025b coo l\u00e4t k\u00e4 mi\u0332th,
+  cuk\u025b mi\u0332th k\u00e4\\ncuk\u025b maath. 31 Cuk\u025b keer k\u025b runwa\u014b,
+  cuk\u025b\\nro ku yac kamniki\u025bn. Cu Aydh\u025bk k\u025b rial ik\u00e4\\nk\u025b
+  kui\u0332c ja\u0332li\u025bn, cu\u025b k\u025b jak k\u00e4 w\u00e4 k\u025b mal.
+  32\\nNi k\u025b j\u025bn c\u00e4\u014b \u025bm\u0254 cu l\u00e4\u00e4t Aydh\u025bk
+  ben, k\u00e4\\ncu\u025b j\u025b la\u0332r jiw mi ci k\u025bn \u025b t\u025bt, cu\u025b
+  j\u025b\\nla\u0332r \u0264\u00f6\u00f6, Cak\u0254 pi jek thi\u0332n.\\n(Page 94)\\n33
+  Cu\u025b j\u025b c\u0254l i Ciba k\u025b kui\u0332c \u025bm\u0254 cua ci\u00f6t\\ngua\u0332th
+  \u025bm\u0254 coo c\u0254l i Birci\u0332i\u0332ba m\u00e4ni wal\u025b.\\n34 M\u00eb\u00eb
+  ci Ith\u0254\u0254 runk\u025b a j\u025bn \u014buaan, cu\u025b\\nJudith ka\u0332n
+  a la ciekd\u025b, nya wutk\u00e4 mi c\u0254al i\\nB\u025b\u025bri, raan Hitayt,
+  k\u00e4 cu\u025b ciek d\u0254di\u025bn mi\\nc\u0254al i Ba-th\u025b-math, nya wut\u00e4
+  mi c\u0254al i El\u0254n\\nku\u025bn b\u00e4. 35 K\u00e4 cuk\u025b t\u00ebk Rib\u025bk\u00e4
+  k\u025bn\u025b\\nAydh\u025bk jak k\u00e4 b\u025bc \u025blo\u0332\u014b.\"", "\"1El
+  wa, bas wakwa wa\u0331 iju\u0331\u00f1er, s\u00e1 dasta\u0331na bas ska ka deneksa\u0331
+  r\u00e4 kje ka wata k\u00e4i kuna. 2Ata je yikaba s\u00e1 te ji shka\u0331l ssa,
+  s\u00e1 weikana diekjela Filipo ska jisht\u00e4 bas wa\u0331 iju\u0331\u00f1er k\u00e4i.
+  Jek\u00e4i s\u00e1 \u00f1at\u00e4kiwa\u0331 saje wa Kekl\u00e4\u00ed ja\u0331mi
+  s\u00e1 wa\u0331 bas ia\u0331 S\u00e4kekl\u00e4 ktei baa bata sh\u00e4kl\u00e4 kju\u0331atke
+  ta\u0331i sha\u0331na. 3Iwa r\u00e4 s\u00e1 te sa pakte r\u00e4 ka kte shirilewa\u0331
+  w\u00e0 kuna, ji shi\u0331ana w\u00e0 kuna, s\u00e4 w\u00e4yue w\u00e4si\u0331wa
+  w\u00e0 kuna. 4Ata S\u00e4kekl\u00e4 wa\u0331 s\u00e1 r\u00e4 su\u0331leksa\u0331
+  b\u00e4i kianak kte baa bata sh\u00e4k wa ye ki\u0331ka s\u00e1 kt\u00e4ke\u0331
+  r\u00e4, ka dits\u00e4 eb\u00e4 ss\u00ebwa\u0331k b\u00e4i kuna, ata S\u00e4kekl\u00e4
+  sa\u0331 je\u0331rike su\u0331akksa\u0331 ss\u00ebwa\u0331k b\u00e4i. 5Jisht\u00e4
+  bas wa\u0331 iju\u0331\u00f1er k\u00e4i, ka s\u00e1 wa\u0331 bas kjeiyine ji ki\u0331
+  bas wa\u0331 s\u00e1 kt\u00e4 ss\u00e4kl\u00e4pa kuna, ka s\u00e1 wa\u0331 ji o\u0331ne
+  jile d\u00e4kl\u00e4ksa\u0331 s\u00e1 ia\u0331 eb\u00e4 ki\u0331ka kuna. S\u00e4kekl\u00e4
+  te je su\u0331a. 6Ka s\u00e1 wa\u0331 ibiketsane dits\u00e4 me s\u00e1 oloi k\u00e4ka\u0331,
+  bas ir\u00e4le kju\u0331awa ir\u00e4le wa\u0331 k\u00e4i. Jeir\u00e4ta s\u00e1 r\u00e4
+  Cristo ktei bata sh\u00e4k wa ki\u0331ka, s\u00e1 ia\u0331 ka\u0331 tso\u0331 bas
+  weik\u00e4kl\u00e4 ji w\u00e0. 7Ata s\u00e1 dewa\u0331 yabala dulunala k\u00e4i
+  bas sha\u0331na. Jisht\u00e4 yabala a\u0331mi wa te tsu me\u0331 iyabala ia\u0331
+  k\u00e4i, 8s\u00e1 wa\u0331 bas shka\u0331l ta\u0331i ki\u0331ka, s\u00e1 je\u0331r
+  ss\u00ebna ka bas ia\u0331 S\u00e4kekl\u00e4 wa\u0331 kte baa tso\u0331 eb\u00e4
+  ma\u0331k kuna, ata \u00f1aeb\u00e4 \u00f1ama\u0331tul\u00e4kksa\u0331 bas ia\u0331,
+  je r\u00e4 bas dewa\u0331 s\u00e1 wa\u0331 shka\u0331ta ta\u0331i ki\u0331ka. 9Ka
+  ir\u00e4 maik\u00e4i kuna ta, el wa, bas je\u0331r ja\u0331na s\u00e1 shka\u0331bla
+  ta\u0331i s\u00e1 ji w\u00e1\u0331 jaree ska. Jek\u00e4i s\u00e1 ji w\u00e1\u0331
+  tuina ka\u0331piana, ka s\u00e1 wa\u0331 bas mane a\u0331ni weik\u00e4kl\u00e4,
+  s\u00e1 te bas pakta S\u00e4kekl\u00e4 wa\u0331 kte baa tso\u0331 wa ra. 10Bas ir\u00e4,
+  S\u00e4kekl\u00e4 ir\u00e4, jewa r\u00e4 s\u00e1 su\u0331ak, jisht\u00e4 s\u00e1
+  se\u0331na bas ji bikets\u00e4k etkab\u00e4 wa sha\u0331na bulee, w\u00e4mo, ka
+  palei ta yakei k\u00e4i. 11Jek\u00e4i bas wa\u0331 iju\u0331\u00f1er jisht\u00e4
+  yabala pakte ik\u00e1 te k\u00e4i, s\u00e1 te bas je\u0331r t\u00e4kiwa\u0331, bas
+  je\u0331r pabla, 12bas paka shk\u00e4k kianak S\u00e4kekl\u00e4 ja\u0331mi k\u00e4i.
+  Je ne te bas kia d\u00e4kwa\u0331 iwakei gobierno ja\u0331mi oloi kanakka\u0331
+  ije ra. 13Je ki\u0331ka s\u00e1 te wekte sheke\u0331 S\u00e4kekl\u00e4 ia\u0331
+  ka jalewa\u0331 ta. Ka ir\u00e4 jiye kuna ta, s\u00e1 te S\u00e4kekl\u00e4 kt\u00e4
+  bata sha je ssa je kuka bas te ra, ka bas wa\u0331 ikolone dits\u00e4 kt\u00e4 k\u00e4i
+  kuna, ata je kiawa\u0331 bas te jisht\u00e4 S\u00e4kekl\u00e4 kt\u00e4 k\u00e4i.
+  Iyina si\u0331 ra je r\u00e4 jek\u00e4i. Je kte ne te ji we\u0331ke\u0331 bas ji
+  bikets\u00e4k etkab\u00e4 w\u00e0 sha\u0331na r\u00e4. 14Jeki\u0331ka el wa, bas
+  \u00f1adulawa\u0331wa\u0331 tapanak eyaka eyaka S\u00e4kekl\u00e4 ia\u0331 Judea
+  ska Cristo Jes\u00fas ja\u0331mi wa mabl\u00e4k. Ka ir\u00e4 maik\u00e4i kuna ta,
+  jisht\u00e4 ijewa weika Jud\u00edo wa te, je su\u0331ta \u00f1aeb\u00e4 bas weika
+  bas wakwa ke\u0331i ska wa te. 15Jud\u00edo wa te S\u00e4kekewa Jes\u00fas ir\u00e4
+  jile bata sh\u00e4k wa ir\u00e4 ktacha\u0331wa\u0331, \u00f1ak\u00e4i ijewa te s\u00e1
+  tulaksa\u0331. Ka ijewa te S\u00e4kekl\u00e4 ss\u00ebwe\u0331 b\u00e4i, ata ijewa
+  kju\u0331atk\u00e4ke\u0331 bik\u00f6le ra. 16Ijewa te s\u00e1 w\u00e4tkewe\u0331ke\u0331
+  ka s\u00e1 wa\u0331 ka Jud\u00edo kuna wa pakt\u00e4kl\u00e4 jewa tsa\u0331tkenakl\u00e4ksa\u0331
+  ye. Jek\u00e4i ijewa nui kuk\u00e4 rami d\u00e4ka\u0331 pshii. Jeir\u00e4ta kju\u0331atke
+  dewa\u0331 kja ijewa ki\u0331ka e\u0331e\u0331na si\u0331. 17El wa, s\u00e1 bala
+  butsa\u0331na bas yika berbena bala ta, ka su\u0331le ta, ata del ss\u00eble sa\u0331
+  je\u0331r ska s\u00e1 kajali bas da k\u00e4i, jera ki\u0331ta s\u00e1 ss\u00ebrke\u0331
+  sa\u0331 me bas su\u0331awa\u0331ni k\u00e4i. 18Je ki\u0331ka s\u00e1 ss\u00ebna
+  minak bas ska. Jek\u00e4i yis Pablo te imabla bot\u00e4b\u00e4 kicha ma\u00f1at\u00e4b\u00e4
+  kicha, ata Satan\u00e1s te s\u00e1 w\u00e4tkewa\u0331wa\u0331. 19Iwa r\u00e4 mika\u0331
+  saje wa S\u00e4kekewa\u00ed Jes\u00fas d\u00e4ni ra, \u00bfji ki\u0331ss\u00ebmi
+  s\u00e1 te, ji ki\u0331ka s\u00e1 ss\u00ebrmi a\u0331naa, ji tkemika\u0331 s\u00e1
+  te tsa\u0331ku\u0331 ki\u0331 corona ye s\u00e1 je\u0331k ss\u00e4kl\u00e4 ije w\u00e4na
+  r\u00e4 na? \u00bfKa bas ne je r\u00e4 na? 20Jek\u00e4i bas ne w\u00e0 s\u00e1 oloi
+  karmika\u0331 r\u00e4, s\u00e1 ss\u00ebrmi a\u0331naa r\u00e4.\"", "\"11\\n1 Nyi
+  suq\u00e4 Kraisi Iqu im\u00e4k\u00e4t\u014bq\u00e4 iu\u014bi q\u00e4nakn\u00e4 itm\u00e4
+  im\u00e4k\u00e4tq\u00e4\u014b\u00e4. Ga he-pqe nyi im\u00e4k\u00e4tq\u00e4ta\u014bgq\u00e4
+  iu\u014bi, q\u00e4nakn\u00e4 in\u00e4 nyiy\u00e4pu im\u00e4kq\u00e4p\u014bqe.\\nSuq\u00e4,
+  Goti Iqueq\u00e4 yoqe\u014bq\u00e4 aquv\u00e4 q\u014bqe\u014bq\u00e4 (11:2-14:40)\\nSuq\u00e4,
+  nyu\u00e4\u014b\u00e4 hu\u00e4q\u00e4 hu\u00e4t\u014bqe\u014bq\u00e4\\n2 He hea
+  ique-ique\u014bi, nyinyq\u00e4 k\u014bu\u00e4 \u00e4pak\u00e4n\u00e4 indq\u00e4n\u00e4pu,
+  ita\u014bga nyi kuk\u014bui \u00e4metm\u00e4 n\u00e4q\u014bq\u00e4 etap\u00e4t\u014bq\u00e4
+  iu\u014bi q\u00e4nakn\u00e4 iqa\u014bguwi\u014bqe, nyi heyaq\u00e4 yoqe, haqeq\u00e4
+  \u00e4matn\u00e4m\u00e4utq\u00e4\u014b\u00e4.\\n3 Ita\u014bga nyi he tii\u014bi\u014bq\u00e4
+  n\u00e4q\u014bq\u00e4 map\u014bq\u00e4 \u00e4nyi\u014bgi. Qok\u00e4 eeq\u00e4n\u00e4\u014b\u00e4
+  iquauq\u00e4 nyu\u00e4\u014bi, Kraisi Iquvi. Ita\u014bga, ap\u00e4kiyq\u00e4 nyu\u00e4\u014bi,
+  qokiqu eta\u014bgi, ita\u014bga Kraisi Iqueq\u00e4 nyu\u00e4\u014bi, Goti Hanjuw\u00e4
+  Iquvi. 4 I\u014bi qok\u00e4 h\u014bqu, Goti Iquenyq\u00e4 t\u00e4\u00e4q\u00e4 \u00e4t\u00e4t\u00e4q\u00e4\u014bga,
+  \u00e4 Goti Iqueq\u00e4 kuk\u014bu\u00e4 hi\u014bu\u00e4 \u00e4t\u00e4t\u00e4q\u00e4\u014bga,
+  iqueq\u00e4 nyu\u00e4\u014bi hu\u00e4q\u00e4 \u00e4utn\u00e4q\u00e4\u014bga \u00e4tqe,
+  ii iqu iqueq\u00e4 Nyu\u00e4\u014b\u00e4 Ique\u014bi womba \u00e4vqi. 5 Ita\u014bga
+  ap\u00e4k\u00e4 hui, Goti Iquenyq\u00e4 t\u00e4\u00e4q\u00e4 \u00e4t\u00e4t\u00e4q\u00e4\u014bga,
+  \u00e4 Goti Iqueq\u00e4 kuk\u014bu\u00e4 hi\u014bu\u00e4 \u00e4t\u00e4t\u00e4q\u00e4\u014bga,
+  iiyq\u00e4 nyu\u00e4\u014bi hu\u00e4q\u00e4 maut\u014bq\u00e4 iq\u00e4\u014bga \u00e4tqe,
+  ii iiyq\u00e4 nyu\u00e4\u014b\u00e4 ique\u014bi womba \u00e4vqi. Ii ii\u014b\u00e4
+  im\u00e4kqe, ii ap\u00e4k\u00e4 hui, iiyq\u00e4 nyu\u00e4\u014b\u00e4 d\u00e4 eeq\u00e4pn\u00e4
+  h\u00e4u\u00e4 \u00e4m\u00e4tn\u00e4tq\u00e4 nyu\u00e4\u014b\u00e4 huiwi, \u00e4tn\u00e4\u014b\u00e4
+  iqi \u00e4ny\u00e4\u014bq\u00e4-pa\u014b\u00e4 ii\u014biyi. 6 I\u014bi ap\u00e4k\u00e4
+  hui, iiyq\u00e4 nyu\u00e4\u014bi hu\u00e4q\u00e4 maut\u014bq\u00e4 it\u014bq\u00e4
+  eta\u014bgutqe, iiyq\u00e4 nyu\u00e4\u014b\u00e4 de, h\u00e4u\u00e4 t\u00e4v\u00e4m\u00e4ut\u014bqe.
+  I\u014b\u00e4qe de h\u00e4u\u00e4 t\u00e4v\u00e4m\u00e4u\u014bqet\u00e4, h\u00e4m\u00e4n\u00e4
+  kt\u00e4m\u00e4u\u014bqet\u00e4 womba meq\u00e4 eta\u014bgqeta\u014bi, iiyq\u00e4
+  nyu\u00e4\u014bi hu\u00e4q\u00e4 hutn\u00e4t\u014bq\u00e4n\u00e4nji.\\n7 Suq\u00e4
+  ii\u014b\u00e4 iquauq\u00e4 quati, tiinji. Qok\u00e4 iqua, Goti Hanjuw\u00e4 Iqueq\u00e4
+  ktq\u00e4 e\u014bq\u00e4-pa\u014b\u00e4 epu, ga Iqueq\u00e4 yoq\u00e4 naqe \u00e4motqueq\u00e4p\u014bqeta\u014bi,
+  qu iquauq\u00e4 nyu\u00e4\u014bi hu\u00e4q\u00e4 maut\u014bq\u00e4 ip\u014bqe. Ita\u014bga
+  ap\u00e4k\u00e4 iua, qu qok\u00e4 iquauq\u00e4 yoq\u00e4 naqe \u00e4motqueq\u00e4p\u014bqe.
+  8 Tii\u014b\u00e4-pqe. Qok\u00e4 iqu, ap\u00e4kisa \u00e4tim\u00e4ukq\u00e4 ma,
+  oee. Ap\u00e4ki, qok\u00e4 iquesa \u00e4tim\u00e4ukq\u00e4 e\u00e4. 9 Ii\u014b\u00e4
+  eta\u014bgq\u00e4-qe, tii\u014b\u00e4-pqe in\u00e4nji. Goti Hanjuw\u00e4 Iqu k\u014bui,
+  ap\u00e4kinyq\u00e4 gan\u00e4 indq\u00e4n\u00e4t\u00e4, qok\u00e4 iqu, iinyq\u00e4
+  im\u00e4kkq\u00e4 ma, oee. Iqu k\u014bui, qok\u00e4 iquenyq\u00e4 gan\u00e4 indq\u00e4n\u00e4t\u00e4,
+  ap\u00e4ki, iquenyq\u00e4 im\u00e4kkq\u00e4 e\u00e4. 10 Ii\u014b\u00e4 e\u00e4\u014bq\u00e4-qae,
+  ap\u00e4k\u00e4 iua, huiziqueq\u00e4 y\u00e4p\u00e4 iqi pmetp\u014bq\u00e4 motquap\u014bqe,
+  quwq\u00e4 nyu\u00e4\u014bi hu\u00e4q\u00e4 hutmb\u014bqe. Iua ii\u014b\u00e4 im\u00e4kq\u00e4p\u014bqe,
+  e\u014b\u00e4tq\u00e4 iqua hi\u014bu\u00e4 \u00e4qumbu pmeta\u014bg\u00e4 iutayi.\\n11
+  I\u014b\u00e4qe, ne Naq\u00e4 Ique \u00e4mu\u00e4\u014bn\u00e4\u014bqueta\u014bi,
+  ap\u00e4k\u00e4 iua, qok\u00e4 iquau\u014bqe, kiui matq\u00e4uq\u014bq\u00e4 eta\u014bgpi,
+  ita\u014bgq\u00e4\u014bga qok\u00e4 iqua-pqe, ap\u00e4k\u00e4 iuau\u014bqe, ii\u014bi
+  matq\u00e4uq\u014bqe. 12 Ii tii\u014b\u00e4 eta\u014bgiyi. Hi\u014buiq\u00e4n\u00e4\u014bi
+  Goti Hanjuw\u00e4 Iqu ap\u00e4k\u00e4 tim\u00e4ut\u014bqe, qok\u00e4 iqueq\u00e4
+  huiwi \u00e4met\u00e4 im\u00e4kkqe.* Ip\u00e4q\u00e4kq\u00e4 2:21-22 Ita\u014bga
+  t\u00e4\u014bga\u014bi qok\u00e4 iqua, ap\u00e4k\u00e4 iuauq\u00e4 huiw\u00e4 iuta
+  \u00e4y\u00e4 \u00e4tim\u00e4utq\u00e4\u014b\u00e4. Ita\u014bga n\u00e4tmatq\u00e4
+  eeq\u00e4n\u00e4\u014b\u00e4 \u00e4tim\u00e4utq\u00e4\u014buwi, ii Goti Hanjuw\u00e4
+  Iquesanji.\\n13 I\u014bi tii\u014bi\u014bqe, hiq\u00e4-hiu\u00e4 iw\u00e4s\u00e4upiy\u00e4.
+  \u201cAp\u00e4k\u00e4 iua, quwq\u00e4 nyu\u00e4\u014bi hu\u00e4q\u00e4 maut\u014bq\u00e4
+  ipiy\u00e4\u014bga, Goti Iquenyq\u00e4 t\u00e4\u00e4q\u00e4 tqe, ii \u00e4\u014bgu\u00e4tiy\u00e4,
+  quvq\u00e4tiy\u00e4?\u201d 14 \u00c4maqeuq\u00e4 suq\u00e4 iu\u014bi, n\u00e4q\u014bq\u00e4
+  tii\u014b\u00e4 \u00e4y\u00e4 \u00e4n\u00e4tapqi. \u201cQok\u00e4 h\u014bqu d\u00e4
+  qu\u00e4uq\u00e4 huiq\u014bq\u00e4 eta\u014bgutqe, yoq\u00e4 naq\u00e4 m\u00e4meq\u00e4
+  y\u00e4n\u00e4. 15 Ita\u014bga ap\u00e4k\u00e4 hui d\u00e4 qu\u00e4uq\u00e4 \u00e4ui\u014bqe,
+  iiyq\u00e4 deta\u014bi yoq\u00e4 naq\u00e4 men\u00e4.\u201d Ii tii\u014b\u00e4 eta\u014bgiyi.
+  Goti Iqu, ap\u00e4k\u00e4 iua d\u00e4 qu\u00e4uq\u00e4 huiq\u014bqe, ii quwq\u00e4
+  gqu\u00e4 e\u014bq\u00e4-pa\u014b\u00e4 \u00e4wikqe. 16 \u00c4maq\u00e4 h\u014bqu,
+  nyi kuk\u014bu\u00e4 ii\u014b\u00e4 \u00e4tq\u00e4 iu\u014bi\u014bq\u00e4 yeeq\u00e4
+  miq\u00e4 it\u00e4, kuk\u014bu\u00e4-t\u00e4\u014bu eta\u014bgutqe, iqu n\u00e4q\u014bq\u00e4
+  tii\u014b\u00e4 met\u014bqe. Ne q\u00e4nakn\u00e4 yatu\u014bque, suq\u00e4 huizi
+  aa\u014bq\u00e4 eta\u014bgi, ita\u014bga Goti Iqueq\u00e4 yoqe\u014bq\u00e4 aquv\u00e4q\u014bq\u00e4
+  iqua-pqe q\u00e4nakn\u00e4 ip\u014bqe, aa\u014bq\u00e4 in\u00e4nji. Ii q\u00e4qun\u00e4nji.\\nNaq\u00e4
+  Iqueq\u00e4 ymisa\u014bi, q\u00e4yun\u00e4 \u014bqe\u014bq\u00e4\\n17 N\u00e4tmatq\u00e4
+  nyi t\u00e4\u014bga kuk\u014bu\u00e4 tmq\u00e4 iq\u00e4 iu\u014bi\u014bqe, heyaq\u00e4
+  yoqe haqeq\u00e4 \u00e4matn\u00e4m\u00e4utm\u00e4 matq\u00e4 im\u00e4. Tii\u014b\u00e4
+  dutanji. He aquv\u00e4 \u00e4q\u00e4n\u00e4piy\u00e4\u014bga\u014bi, qeiqi m\u00e4mi\u014bquen\u00e4,
+  ha\u014b\u00e4-iq\u00e4 kuap\u00e4n\u00e4 \u00e4ny\u00e4tq\u00e4\u014buwenji. 18
+  Ha\u014b\u00e4-iq\u00e4 hi\u014buiq\u00e4\u014bi, nyi q\u00e4te tii \u00e4wiy\u00e4\u014bqe.
+  He Goti Iqueq\u00e4 \u00e4maq\u00e4 epu Jisasi Ique\u00e4 yoqe\u014bq\u00e4 aquv\u00e4
+  \u00e4q\u00e4n\u00e4piy\u00e4\u014bga\u014bi, aw\u00e4 \u00e4q\u00e4y\u00e4patn\u00e4tq\u00e4\u014buwi.
+  Ita\u014bga nyi ii\u014bqe, \u201cIi naq\u00e4-qakuiqe\u201d quuvq\u00e4 w\u00e4\u014bq\u00e4pu,
+  tii\u014b\u00e4 iuta eqiyq\u00e4. 19 He kiui-kiui ii\u014b\u00e4 \u00e4pmapiyita\u014bi,
+  \u201cSuq\u00e4 Goti Hanjuw\u00e4 Iqu \u00e4winy\u00e4\u014bq\u00e4 iu\u014bi, q\u00e4naki
+  naq\u00e4-qakuin\u00e4 itq\u00e4\u014buwi, ii tqukuatiy\u00e4\u201d tpu, hi\u014bu\u00e4
+  qumb\u014bqe. 20 He aquv\u00e4 \u00e4q\u00e4n\u00e4pu, suq\u00e4 ymisa\u014b\u00e4
+  \u014bqe\u014bq\u00e4 Naq\u00e4 Iqu \u00e4m\u00e4n\u00e4tquakqeu q\u00e4naki ipiy\u00e4\u014bga\u014bi,
+  naq\u00e4-qakui miq\u00e4 itq\u00e4\u014buwi. 21 Ii tii\u014b\u00e4 dutanji. He
+  h\u014bqun\u00e4-h\u014bqun\u00e4, ymisa\u014b\u00e4 map\u014bq\u00e4 ipiy\u00e4\u014bga\u014bi,
+  \u201chuiziqua \u00e4\u00e4n\u00e4 ip\u014bq\u00e4piy\u00e4\u201d tpu hi\u014bu\u00e4
+  gan\u00e4 m\u00e4qu\u014bqu\u00e4, maq\u00e4n\u00e4 meq\u00e4-quenji. Iuta\u014bi,
+  h\u014bqua buay\u00e4 d\u00e4 pmeta\u014bguw\u00e4\u014bga, ita\u014bga h\u014bqua
+  eq\u00e4 y\u00e4\u014b\u00e4n\u00e4q\u014bqe \u00e4n\u00e4pu, hiqiiyq\u00e4 iq\u00e4pn\u00e4.
+  22 He buay\u00e4t\u00e4 eq\u00e4t\u00e4 b\u014bqe, heq\u00e4 a\u014b\u00e4 yuuwiu
+  \u00e4pmapu \u014bq\u00e4n\u00e4\u014bi, a\u014b\u00e4 maequenda? \u00c4 Goti Hanjuw\u00e4
+  Iqueq\u00e4 qok\u00e4-ap\u00e4k\u00e4 iquau\u014bi, quvq\u00e4 itquepu, ga \u00e4maq\u00e4
+  n\u00e4tmatq\u00e4 maeq\u00e4 iquau\u014bi, womba wip\u014bq\u00e4tan\u00e4? Ii\u014bqe
+  nyi \u00e4n\u00e4\u00e4ny\u00e4 hetmqe? Nyi heyaq\u00e4 yoqe, haqeq\u00e4 mam\u00e4umq\u00e4tan\u00e4?
+  Oey\u00e4, heq\u00e4 suq\u00e4 ii\u014bqe, nyi ii\u014bi, mim\u00e4kq\u00e4 im\u00e4.\\n23-24
+  I\u014bi nyi kuk\u014bu\u00e4 aw\u00e4 q\u00e4\u014bgan\u00e4 ae etmi\u014bqe, ii
+  nyi Naq\u00e4 Iquesa \u00e4makqeyi. Ii tiinji.\u2020 Matiu 26:26-28, Mak\u00e4 14:22-24,
+  Luk\u00e4 22:17-20 Heatq\u00e4 Naq\u00e4 Jisasi Ique\u014bi pizq\u00e4 p\u00e4kp\u014bq\u00e4
+  iquauq\u00e4 hipa iu vqa\u014bgq\u00e4 ique\u014bi, Iqu bretq\u00e4 \u00e4meqe,
+  Goti Hanjuw\u00e4 Ique\u014bi, \u201c\u00e4\u014bguiq\u00e4\u201d ae \u00e4tu\u00e4qeta\u014bi,
+  \u00e4kut\u00e4t\u00e4, tii \u00e4tukqe. \u201cT\u00e4 \u014aq\u00e4 huiwi, he y\u00e4tam\u00e4kq\u00e4
+  hey\u00e4t\u014bq\u00e4 etapq\u00e4n\u00e4. He Nyinyq\u00e4 k\u014bu\u00e4 indq\u00e4n\u00e4pu,
+  ii\u014b\u00e4 im\u00e4kq\u00e4pn\u00e4.\u201d 25 Qu buay\u00e4 q\u00e4pu ga\u014bguw\u00e4\u014bga,
+  Iqu wainq\u00e4-eq\u00e4-h\u00e4kique\u014bi, suq\u00e4 asiqu im\u00e4k\u00e4t\u00e4,
+  tii \u00e4tukqe. \u201cWainq\u00e4-eq\u00e4-h\u00e4k\u00e4 t\u00e4, kuk\u014bu\u00e4
+  \u00e4ny\u00e4-h\u00e4\u014b\u00e4 Goti Iqu gu\u00e4 \u00e4m\u00e4s\u00e4ukq\u00e4
+  iiyi. Ii naq\u00e4-qaku\u00e4 im\u00e4k\u00e4t\u014bqe, \u014aq\u00e4 h\u00e4\u014beqe,
+  equatemq\u00e4n\u00e4. He eq\u00e4-h\u00e4k\u00e4 tque \u00e4k\u014bga ti \u00e4n\u00e4piy\u00e4\u014bga\u014bi,
+  Nyinyq\u00e4 k\u014bu\u00e4 \u00e4mepu, ii\u014b\u00e4 im\u00e4kq\u00e4p\u014bq\u00e4.\u201d
+  26 Naq\u00e4 Iqu a\u014bgi \u00e4p\u00e4tq\u00e4\u014bga\u014bqe, bretq\u00e4 t\u00e4t\u00e4,
+  wainq\u00e4-eq\u00e4-h\u00e4k\u00e4 t\u00e4t\u00e4, he \u00e4k\u014bga ti \u00e4n\u00e4piy\u00e4\u014bga\u014bi,
+  Naq\u00e4 Iqu \u00e4p\u00e4ko\u014bgqe\u014bq\u00e4, suq\u00e4 iuta \u00e4maqeu
+  motqueq\u00e4p\u014bqe.\\n27 Ii\u014b\u00e4 duta\u014bi, \u00e4maq\u00e4 h\u014bqu,
+  Naq\u00e4 Iqueq\u00e4 bretqet\u00e4, eq\u00e4-h\u00e4k\u00e4 iu\u014bit\u00e4 k\u014bu\u00e4
+  q\u00e4yun\u00e4 m\u00e4meq\u00e4 e\u00e4 \u00e4n\u00e4tq\u00e4 iqu, Naq\u00e4 Iqueq\u00e4
+  huiwit\u00e4 h\u00e4\u014beqet\u00e4\u014bi qui im\u00e4k\u00e4t\u00e4, kuk\u014bu\u00e4
+  men\u00e4. 28-29 \u00c4maq\u00e4 h\u014bqu, Naq\u00e4 Iqueq\u00e4 huiwi\u014bq\u00e4
+  gan\u00e4 miw\u00e4s\u00e4uq\u00e4, buayit\u00e4 eqet\u00e4 \u00e4n\u00e4tqe, iqueq\u00e4-kiu\u00e4
+  ii\u014b\u00e4 \u00e4n\u00e4t\u00e4, ha\u014b\u00e4-iq\u00e4 \u00e4mae\u014bgi.
+  Iuta\u014bi, Naq\u00e4 Iqu kima\u014bi \u00e4v\u00e4n\u00e4. I\u014bi, \u00e4maq\u00e4
+  h\u014bqu, iqueq\u00e4-kiu\u00e4 gan\u00e4 iw\u00e4s\u00e4n\u00e4qeta\u014bi, bretqet\u00e4,
+  eq\u00e4-h\u00e4k\u00e4 iu\u014bit\u00e4, i\u014bga n\u00e4t\u014bqe. 30 Gan\u00e4
+  miw\u00e4s\u00e4u\u014bq\u00e4 iuta\u014bi, hiyaq\u00e4 aw\u00e4 iqisa\u014bi, \u00e4maq\u00e4
+  kuap\u00e4n\u00e4 y\u00e4\u014b\u00e4n\u00e4q\u014bq\u00e4 maeq\u00e4 epu, t\u00e4\u014b\u00e4-yaq\u00e4
+  wiqa\u014bg\u00e4, ita\u014bga h\u014bqua pizq\u00e4 h\u00e4m\u00e4n\u00e4 ae \u00e4y\u00e4
+  \u00e4p\u00e4kon\u00e4tq\u00e4\u014buwi. 31 I\u014b\u00e4qe ne bretq\u00e4 ii\u014bit\u00e4,
+  wainq\u00e4 ii\u014bit\u00e4 \u00e4metu\u014bqun\u00e4, neq\u00e4-neu\u00e4 gan\u00e4
+  \u00e4\u014bgu\u00e4n\u00e4 iw\u00e4s\u00e4u\u014bgque, Naq\u00e4 Iqu m\u00e4new\u00e4s\u00e4uq\u00e4
+  it\u00e4, kima\u014bi m\u00e4n\u00e4tapq\u00e4\u014bqe. 32 Ita\u014bgi Naq\u00e4
+  Iqu \u00e4new\u00e4s\u00e4ut\u00e4, ha\u014b\u00e4-iq\u00e4 ii\u014bisua \u00e4n\u00e4tapqe,
+  ii Iqu \u00e4maq\u00e4 qua iu\u014bi yuuw\u00e4 \u00e4t\u00e4ut\u00e4q\u00e4\u014bga\u014bi,
+  ne-pqe q\u00e4s\u00e4 minem\u00e4kq\u00e4 y\u00e4ni\u014bq\u00e4, j\u00e4n\u00e4
+  inem\u00e4k\u00e4t\u014bq\u00e4 \u00e4n\u00e4tapqi.\\n33 Ita\u014bgi, ny\u00e4maq\u00e4u\u00e4,
+  nyi tii\u014b\u00e4 etq\u00e4. \u201cHe ymisa\u014b\u00e4 b\u014bq\u00e4 aquv\u00e4
+  \u00e4q\u00e4y\u00e4q\u00e4n\u00e4piy\u00e4\u014bga\u014bi, he gan\u00e4 tim\u00e4upq\u00e4
+  iquen\u00e4, maq\u00e4n\u00e4 m\u00e4meq\u00e4\u014bqe, q\u00e4nak\u014b\u00e4 iquau\u014bq\u00e4
+  hi\u014bu\u00e4 \u00e4qumbu pmap\u014bqe. 34 Ita\u014bgi h\u014bqu buay\u00e4\u014bq\u00e4
+  d\u00e4 vqa\u014bgutqe, hiq\u00e4 aquv\u00e4q\u014bq\u00e4 iqisa\u014bi ha\u014b\u00e4-iq\u00e4
+  Goti Iquesa\u014bi matim\u00e4uq\u00e4 it\u014bq\u00e4 di\u014bqe, iqueq\u00e4 a\u014biu
+  \u00e4\u014bga tim\u00e4ut\u014bqeq\u00e4.\u201d\\nHa\u014b\u00e4-iq\u00e4 \u00e4ny\u00e4
+  \u00e4wi\u014bqe, hi\u014bu\u00e4 maeq\u00e4nmq\u00e4 a\u014bgi \u00e4quvepmq\u00e4\u014bga,
+  j\u00e4n\u00e4\u014bi i\u014bga im\u00e4kmniqe.\"", "\"13\\nSuq\u00e4, huiziu\u014bq\u00e4
+  wi\u014bqe\u014bq\u00e4\\n1 Nyi \u00e4maqeu\u014bi, \u00e4maqeuq\u00e4 kuk\u014bu\u00e4
+  huita\u014b\u00e4-huita\u014bit\u00e4, e\u014b\u00e4tq\u00e4 iquauq\u00e4 kuk\u014buit\u00e4,
+  \u00e4tu\u00e4tm\u00e4\u014bga\u014bi, suq\u00e4 \u00e4maqeu\u014bq\u00e4 nyi\u014bqe,
+  m\u00e4meq\u00e4 im\u00e4, tumq\u00e4 eta\u014bgutqe, ii tiinji. Nyaq\u00e4 kuk\u014bu\u00e4
+  ii\u014bi, mak\u014bu\u00e4 oo\u014bq\u00e4 \u00e4tqa-pa\u014b\u00e4 ii\u014b\u00e4
+  \u00e4tq\u00e4. 2 Ita\u014bga nyi Goti Iqueq\u00e4 kuk\u014bu\u00e4 hi\u014bu\u00e4-tq\u00e4-qun\u00e4
+  e\u00e4m\u00e4, Iqueq\u00e4 n\u00e4tmatq\u00e4 z\u00e4 wiqeu\u014bq\u00e4t\u00e4,
+  n\u00e4tmatq\u00e4 huiziu\u014bq\u00e4t\u00e4, n\u00e4q\u014bq\u00e4 e\u00e4m\u00e4-qe,
+  qoqo\u014b\u00e4 iquau\u014bi, \u201cZ\u00e4 e\u014bq\u00e4-pa \u00e4yawa, n\u00e4\u014binyq\u00e4
+  upuiy\u00e4\u201d tq\u00e4\u014bq\u00e4, quuvq\u00e4 heqiyq\u00e4 y\u00e4\u014b\u00e4n\u00e4q\u014bq\u00e4-t\u00e4\u014bun\u00e4
+  e\u00e4m\u00e4-qe, i\u014b\u00e4qe suq\u00e4 \u00e4maqeu\u014bq\u00e4 nyi\u014bqe,
+  m\u00e4meq\u00e4 im\u00e4 eta\u014bgutqe, ii nyi \u00e4maq\u00e4 aa\u014b\u00e4
+  quvqunji. 3 Ita\u014bga nyi \u014bq\u00e4 n\u00e4tmatq\u00e4 ae \u00e4me\u014bq\u00e4
+  eeq\u00e4pn\u00e4\u014bi, \u00e4maq\u00e4 \u00e4wa itq\u00e4ta\u014bguw\u00e4 iu
+  \u00e4v\u00e4tm\u00e4-qe, \u014bq\u00e4 huiwi, t\u00e4 q\u00e4y\u00e4 \u014bq\u00e4yikap\u014bq\u00e4
+  \u00e4winy\u00e4tm\u00e4-qe, suq\u00e4 \u00e4maqeu\u014bq\u00e4 nyi\u014bqe, m\u00e4meq\u00e4
+  im\u00e4 eta\u014bgutqe, ii Goti Iqueq\u00e4 hi\u014bu\u00e4 iqi\u014bi, y\u00e4tam\u00e4kq\u00e4
+  manyiyq\u00e4 y\u00e4n\u00e4.\\n4 \u00c4maq\u00e4, \u00e4maqeu\u014bq\u00e4 \u00e4winy\u00e4\u014bq\u00e4
+  iqu, ha\u014b\u00e4-iq\u00e4 q\u00e4y\u00e4 \u00e4wimeqa\u014bgi \u00e4wq\u00e4
+  ha\u014bu\u00e4 \u00e4ny\u00e4 pmeq\u00e4-qu e\u00e4, \u00e4maq\u00e4 huiziu\u014bq\u00e4
+  qeq\u00e4 tm\u00e4kq\u00e4-qu e\u00e4, \u00e4maq\u00e4 h\u014bqueq\u00e4 n\u00e4tmatq\u00e4
+  hi\u014bu\u00e4 \u00e4qun\u00e4t\u00e4 \u201cNyi \u00e4mamqeq\u00e4\u201d matq\u00e4-qu
+  e\u00e4, kiq\u00e4-kiu\u00e4\u014bq\u00e4 aw\u00e4 mat\u014bq\u00e4-qu e\u00e4,
+  ita\u014bga iqueq\u00e4 yoqe haqeq\u00e4 m\u00e4mam\u00e4u\u014bq\u00e4-qu e\u00e4
+  hi\u00e4t\u00e4t\u014bqe. 5 Ita\u014bga suq\u00e4 \u00e4\u014bgu\u00e4 iu\u014bi
+  tuw\u00e4 m\u00e4vq\u00e4-qu e\u00e4, iqueq\u00e4-kiu\u00e4\u014bqe, k\u014bu\u00e4
+  pk\u00e4pk\u00e4 mindq\u00e4\u014bq\u00e4-qu e\u00e4, \u00e4wq\u00e4 tn\u00e4\u014bi
+  maq\u00e4n\u00e4 mim\u00e4kq\u00e4-qu e\u00e4, quvqe iwitqueqa\u014bguwi\u014bqe
+  k\u014bu\u00e4 aquv\u00e4 m\u00e4maqiyq\u00e4-qu e\u00e4 hi\u00e4t\u00e4t\u014bqe.
+  6 Suq\u00e4 quvqe\u014bq\u00e4 aquv\u00e4n\u00e4 miq\u00e4 it\u00e4, ita\u014bga
+  \u00e4\u014bgu\u00e4 naq\u00e4-qakui\u014bq\u00e4, aquv\u00e4n\u00e4 iq\u00e4-qu
+  hi\u00e4t\u00e4t\u014bqe. 7 Ita\u014bga ha\u014b\u00e4-iq\u00e4 eeq\u00e4n\u00e4\u014bi
+  ique makittqiyq\u00e4 iqa\u014bguti, iqu hea ique-ique\u014bi, Goti Hanjuw\u00e4
+  Iquenyq\u00e4 quuvq\u00e4 eqiy\u00e4t\u00e4, n\u00e4tmatq\u00e4 \u00e4\u014bgu\u00e4
+  wimet\u014bq\u00e4 di\u014bq\u00e4 k\u014bu\u00e4 y\u00e4\u014b\u00e4n\u00e4q\u014bq\u00e4
+  \u00e4v\u00e4 \u00e4pme, ita\u014bga quan\u014b\u00e4 map\u00e4k\u014bq\u00e4 y\u00e4\u014b\u00e4n\u00e4q\u014bq\u00e4n\u00e4\u014b\u00e4
+  tq\u00e4ut\u00e4n\u00e4.\\n8 Suq\u00e4 \u00e4maqeu\u014bq\u00e4 \u00e4wi\u014bq\u00e4
+  tqu \u00e4wa miq\u00e4, \u00e4pak\u00e4n\u00e4 wit\u00e4niqe. I\u014b\u00e4qe Goti
+  Hanjuw\u00e4 Ique\u00e4 kuk\u014bui hi\u014bu\u00e4 \u00e4tmitpq\u00e4 it\u00e4,
+  ita\u014bga a\u014b\u00e4-kuk\u014bu\u00e4 huita\u014b\u00e4-huita\u014b\u00e4 \u00e4tmitpq\u00e4
+  it\u00e4, ita\u014bga \u00e4maqeuq\u00e4 n\u00e4q\u014bq\u00e4 huita\u014b\u00e4-huita\u014b\u00e4
+  it\u00e4\u014bi, hma hi\u00e4niqe. 9 Ii tii\u014b\u00e4 dutayi. T\u00e4\u014bga\u014bi
+  ne n\u00e4q\u014bqe, du-du i\u014bq\u00e4 \u00e4men\u00e4, ita\u014bga Goti Hanjuw\u00e4
+  Ique\u00e4 kuk\u014bu\u00e4-pqe, du-du i\u014bq\u00e4 hi\u014bu\u00e4 \u00e4y\u00e4
+  \u00e4t\u00e4tq\u00e4\u014bu. 10 I\u014b\u00e4qe q\u00e4nak\u014bi n\u00e4tmatq\u00e4
+  eeq\u00e4n\u00e4\u014bi, naq\u00e4-qaku\u00e4 q\u00e4yun\u00e4n\u00e4 \u00e4tim\u00e4uq\u00e4qe,
+  i\u014bga\u014bi n\u00e4tmatq\u00e4 du-du i\u014bq\u00e4 ii\u014bi, h\u00e4m\u00e4n\u00e4n\u00e4
+  hma heq\u00e4\u014bqe. 11 Ii tii\u014b\u00e4 e\u014bq\u00e4-panji. Nyi ymeq\u00e4
+  w\u00e4\u014bq\u00e4 em\u00e4\u014bga\u014bi, nyaq\u00e4 kuk\u014bu\u00e4 tqet\u00e4,
+  iw\u00e4s\u00e4uqet\u00e4, k\u014bu\u00e4 indq\u00e4\u014bqet\u00e4\u014bi, ymeq\u00e4
+  w\u00e4\u014bq\u00e4 isua im\u00e4kq\u00e4 du, im\u00e4kmi\u014bqe. Ita\u014bgi
+  nyi naq\u00e4-qun\u00e4 ae etm\u00e4\u014bga\u014bi, ymeq\u00e4 suqe \u00e4vquat\u00e4m\u00e4ukqe.
+  12 Tii\u014b\u00e4-pqeyi. \u00c4maqe, hi\u014bu\u00e4 y\u00e4q\u014bqet\u00e4 hi\u014bu\u00e4
+  iq\u00e4n\u00e4tq\u00e4\u014buw\u00e4-pa, ne t\u00e4\u014bga\u014bi, \u00e4tn\u00e4\u014b\u00e4qi
+  m\u00e4qu\u014bqu\u00e4 itq\u00e4\u014bu. Q\u00e4nak\u014bi hea ii\u014b\u00e4 tim\u00e4utq\u00e4\u014bga\u014bi,
+  \u00e4maqe an\u00e4 \u00e4pmepu hi\u014bu\u00e4 iq\u00e4n\u00e4tq\u00e4\u014buw\u00e4-pa,
+  ne naq\u00e4-qakui, \u00e4tn\u00e4\u014b\u00e4qi hi\u014bui ii\u014b\u00e4 qunanique.
+  Ita\u014bga nyaq\u00e4 n\u00e4q\u014bq\u00e4 t\u00e4\u014bga\u014bi, du-du i\u014bq\u00e4
+  e\u014bqe, i\u014b\u00e4qe i\u014bga\u014bi, Goti Iqu nyinyq\u00e4 n\u00e4q\u014bq\u00e4
+  \u00e4\u014bgu\u00e4n\u00e4 eqa \u00e4p\u00e4t\u014bq\u00e4-pa, nyi-pqe eeq\u00e4n\u00e4\u014bi\u014bq\u00e4
+  n\u00e4q\u014bq\u00e4 ii\u014b\u00e4 emniqe.\\n13 Ita\u014bga t\u00e4\u014bga\u014bi,
+  suq\u00e4 naq\u00e4n\u00e4\u014b\u00e4 h\u014bquaqui-h\u014bque\u014b\u00e4 tii\u014b\u00e4
+  iqua \u00e4wi. Suq\u00e4 quuvq\u00e4 heqiyq\u00e4 ique, suq\u00e4 Goti Hanjuw\u00e4
+  Iqu n\u00e4tmatq\u00e4 \u00e4\u014bgu\u00e4n\u00e4\u014bi n\u00e4tap\u00e4t\u014bqe\u014bq\u00e4
+  k\u014bu\u00e4 iq\u00e4 y\u00e4\u014b\u00e4n\u00e4q\u014bq\u00e4 \u00e4van\u00e4
+  hi\u014bu\u00e4 \u00e4q\u00e4nan\u00e4 pmeq\u00e4 ique, ita\u014bga suq\u00e4 \u00e4maqeu\u014bq\u00e4
+  \u00e4wi\u014bq\u00e4 ique, iquayi. I\u014b\u00e4qe suq\u00e4 iquauta\u014b\u00e4
+  \u00e4m\u00e4wq\u00e4t\u00e4u\u014bq\u00e4 iqu, ii suq\u00e4 \u00e4maqeu\u014bq\u00e4
+  \u00e4wi\u014bq\u00e4 iquvi.\"", "\"Cerita Ngentot Ngentot Bohai Tubuh SPG , Kumpulan
+  Bohai Tubuh SPG Cerita Dewasa Ngentot Bohai Tubuh SPG , berikut adalah Cerita Dewasa
+  Ngentot Bohai Tubuh SPG , yang simbabingo.com bagikan simak Cerita Dewasa Sex Ngentot
+  Bohai Tubuh SPG dibawah.\\nCerita Dewasa Sex \u2013 Di su\u00e4 tu Minggu p\u00e4
+  gi y\u00e4 ng cer\u00e4 h. \u00e4 ndre s\u00e4 r\u00e4 p\u00e4 n berdu\u00e4 s\u00e4
+  j\u00e4 M\u00e4 m\u00e4 ny\u00e4 di rum\u00e4 h. Bi\u00e4 s\u00e4 ny\u00e4 \u00e4
+  c\u00e4 r\u00e4 s\u00e4 r\u00e4 p\u00e4 n h\u00e4 ri minggu merek\u00e4 l\u00e4
+  kuk\u00e4 n bertig\u00e4 jug\u00e4 p\u00e4 p\u00e4 ny\u00e4 . So\u00e4 lny\u00e4
+  di h\u00e4 ri-h\u00e4 ri l\u00e4 in, tid\u00e4 k \u00e4 d\u00e4 pelu\u00e4 ng untuk
+  merek\u00e4 d\u00e4 p\u00e4 t s\u00e4 r\u00e4 p\u00e4 n , \u00e4 p\u00e4 l\u00e4
+  gi m\u00e4 k\u00e4 n si\u00e4 ng b\u00e4 hk\u00e4 n m\u00e4 k\u00e4 n m\u00e4 l\u00e4
+  m. Kesibuk\u00e4 n ke-2 or\u00e4 ng tu\u00e4 ny\u00e4 , menyeb\u00e4 bk\u00e4 n
+  merek\u00e4 cum\u00e4 d\u00e4 p\u00e4 t berkumpul di h\u00e4 ri minggu p\u00e4 gi.
+  P\u00e4 p\u00e4 ny\u00e4 y\u00e4 ng seor\u00e4 ng direktur jender\u00e4 l di Dep\u00e4
+  rk\u00e4 w\u00e4 n D\u00e4 l\u00e4 m Negeri sen\u00e4 nti\u00e4 s\u00e4 p\u00e4
+  d\u00e4 t kegi\u00e4 t\u00e4 n k\u00e4 ntor. n\u00e4 mun s\u00e4 ng M\u00e4 m\u00e4
+  y\u00e4 ng \u00e4 ktivis kegi\u00e4 t\u00e4 n sosi\u00e4 l sen\u00e4 nti\u00e4 s\u00e4
+  sibuk urus\u00e4 n \u00e4 ris\u00e4 n, urus\u00e4 n \u00e4 n\u00e4 k-\u00e4 n\u00e4
+  k p\u00e4 nti \u00e4 suh\u00e4 n, \u00e4 n\u00e4 k-\u00e4 n\u00e4 k j\u00e4 l\u00e4
+  n\u00e4 n, \u00e4 n\u00e4 k-\u00e4 n\u00e4 k pengungsi \u00e4 ceh, M\u00e4 luku
+  d\u00e4 n seg\u00e4 l\u00e4 m\u00e4 c\u00e4 m \u00e4 n\u00e4 k-\u00e4 n\u00e4 k
+  l\u00e4 inny\u00e4 . \u00e4 khirny\u00e4 \u00e4 ndre, s\u00e4 ng \u00e4 n\u00e4
+  k sem\u00e4 t\u00e4 w\u00e4 y\u00e4 ng, justru kur\u00e4 ng diperh\u00e4 tik\u00e4
+  n. P\u00e4 gi itu, s\u00e4 ng p\u00e4 p\u00e4 tid\u00e4 k bis\u00e4 ikut s\u00e4
+  r\u00e4 p\u00e4 n g\u00e4 r\u00e4 -g\u00e4 r\u00e4 sed\u00e4 ng mel\u00e4 kuk\u00e4
+  n kunjung\u00e4 n ke wil\u00e4 y\u00e4 h. K\u00e4 t\u00e4 ny\u00e4 sih meninj\u00e4
+  u proses otonomi wil\u00e4 y\u00e4 h di tig\u00e4 propinsi. P\u00e4 ling cep\u00e4
+  t b\u00e4 ru kemb\u00e4 li minggu dep\u00e4 n. Meskipun k\u00e4 d\u00e4 ng-k\u00e4
+  d\u00e4 ngk\u00e4 l\u00e4 \u00e4 ndre mer\u00e4 s\u00e4 sedih g\u00e4 r\u00e4 -g\u00e4
+  r\u00e4 sering ditingg\u00e4 l sendiri\u00e4 n di rum\u00e4 h, n\u00e4 mun \u00e4
+  ndre sesungguhny\u00e4 menikm\u00e4 ti kesibuk\u00e4 n ke-2 or\u00e4 ng tu\u00e4
+  ny\u00e4 itu. Rum\u00e4 h y\u00e4 ng sen\u00e4 nti\u00e4 s\u00e4 sepi menj\u00e4
+  dik\u00e4 nny\u00e4 lebih puny\u00e4 b\u00e4 ny\u00e4 k pelu\u00e4 ng untuk memu\u00e4
+  s-mu\u00e4 sk\u00e4 n n\u00e4 fsuny\u00e4 di rum\u00e4 h. i\u00e4 bis\u00e4 membu\u00e4
+  tny\u00e4 Cindy, s\u00e4 ng p\u00e4 c\u00e4 r, \u00e4 t\u00e4 u C\u00e4 lvin k\u00e4
+  w\u00e4 n sek\u00e4 ligus y\u00e4 ng meng\u00e4 j\u00e4 riny\u00e4 mendek\u00e4
+  ti uji\u00e4 n \u00e4 khir d\u00e4 n SPMB, \u00e4 t\u00e4 u jug\u00e4 r\u00e4 me-
+  r\u00e4 me k\u00e4 w\u00e4 n-k\u00e4 w\u00e4 nny\u00e4 d\u00e4 ri Tim B\u00e4 sket
+  SMU Dwi W\u00e4 rn\u00e4 . \u201cH\u00e4 ri ini M\u00e4 m\u00e4 pergi l\u00e4 gi
+  M\u00e4 ?\u201d t\u00e4 ny\u00e4 \u00e4 ndre berb\u00e4 s\u00e4 -b\u00e4 si p\u00e4
+  d\u00e4 M\u00e4 m\u00e4 ny\u00e4 . i\u00e4 t\u00e4 hu p\u00e4 sti, sesud\u00e4 h
+  s\u00e4 r\u00e4 p\u00e4 n n\u00e4 nti M\u00e4 m\u00e4 ny\u00e4 p\u00e4 sti ngeluyur
+  d\u00e4 ri rum\u00e4 h d\u00e4 n b\u00e4 ru pul\u00e4 ng h\u00e4 mpir teng\u00e4
+  h m\u00e4 l\u00e4 m. \u201ciy\u00e4 l\u00e4 h s\u00e4 y\u00e4 ng. K\u00e4 mu k\u00e4
+  n t\u00e4 hu, \u00e4 ceh sed\u00e4 ng bergol\u00e4 k nih. J\u00e4 diny\u00e4 M\u00e4
+  m\u00e4 m\u00e4 kin sibuk mengurusi pengirim\u00e4 n stock m\u00e4 k\u00e4 n\u00e4
+  n untuk s\u00e4 ud\u00e4 r\u00e4 -s\u00e4 ud\u00e4 r\u00e4 kit\u00e4 dis\u00e4 n\u00e4
+  s\u00e4 y\u00e4 ng,\u201d j\u00e4 w\u00e4 b M\u00e4 m\u00e4 ny\u00e4 senyum penuh
+  kebij\u00e4 k\u00e4 n. \u201cH\u00e4 rus itu M\u00e4 , \u00e4 ndre jug\u00e4 m\u00e4
+  u pergi nih \u00e4 bis s\u00e4 r\u00e4 p\u00e4 n,\u201d k\u00e4 t\u00e4 \u00e4 ndre.
+  \u201cBel\u00e4 j\u00e4 r C\u00e4 lvin l\u00e4 gi?\u201d t\u00e4 ny\u00e4 M\u00e4
+  m\u00e4 , s\u00e4 mbil membu\u00e4 t m\u00e4 suk sepotong roti b\u00e4 k\u00e4 r
+  mel\u00e4 lui bibirny\u00e4 y\u00e4 ng tipis. Di usi\u00e4 y\u00e4 ng h\u00e4 mpir
+  emp\u00e4 t puluh t\u00e4 hun, M\u00e4 m\u00e4 \u00e4 ndre m\u00e4 sih kelih\u00e4
+  t\u00e4 n \u00e4 m\u00e4 t c\u00e4 ntik. Tubuhny\u00e4 p\u00e4 d\u00e4 t seperti
+  g\u00e4 dis usi\u00e4 du\u00e4 puluh t\u00e4 hun\u00e4 n s\u00e4 j\u00e4 . Gim\u00e4
+  n\u00e4 engg\u00e4 k, s\u00e4 ng M\u00e4 m\u00e4 k\u00e4 n r\u00e4 jin ol\u00e4
+  hr\u00e4 g\u00e4 d\u00e4 n m\u00e4 k\u00e4 n m\u00e4 k\u00e4 n\u00e4 n suplemen
+  plus minum j\u00e4 mu untuk menj\u00e4 g\u00e4 st\u00e4 min\u00e4 d\u00e4 n kekenc\u00e4
+  ng\u00e4 n otot sert\u00e4 kulitny\u00e4 . \u201cEngg\u00e4 k M\u00e4 h, M\u00e4
+  en b\u00e4 sket s\u00e4 m\u00e4 \u00e4 n\u00e4 k- \u00e4 n\u00e4 k,\u201d \u201cLho,
+  k\u00e4 mu k\u00e4 n sud\u00e4 h dek\u00e4 t uji\u00e4 n \u00e4 khirny\u00e4 s\u00e4
+  y\u00e4 ng. Kok tid\u00e4 kl\u00e4 h bel\u00e4 j\u00e4 r b\u00e4 reng C\u00e4 lvin,
+  justru m\u00e4 en b\u00e4 sket?\u201d \u201cini jug\u00e4 m\u00e4 in b\u00e4 sketny\u00e4
+  b\u00e4 reng C\u00e4 lvin kok M\u00e4 h,\u201d \u201cHmm,\u201d \u201ciy\u00e4 .
+  K\u00e4 t\u00e4 C\u00e4 lvin, sek\u00e4 li-k\u00e4 li perlu refresing jug\u00e4
+  \u00e4 g\u00e4 r pikir\u00e4 n tid\u00e4 k butek g\u00e4 r\u00e4 -g\u00e4 r\u00e4
+  bel\u00e4 j\u00e4 r sen\u00e4 nti\u00e4 s\u00e4 . Sel\u00e4 in itu kefresh\u00e4
+  n tubuh k\u00e4 n h\u00e4 rus dij\u00e4 g\u00e4 m\u00e4 ,\u201d \u201cGitu y\u00e4
+  . K\u00e4 l\u00e4 u gitu y\u00e4 terser\u00e4 h. Y\u00e4 ng penting k\u00e4 mu bel\u00e4
+  j\u00e4 rny\u00e4 y\u00e4 ng b\u00e4 gus y\u00e4 s\u00e4 y\u00e4 ng, sup\u00e4 y\u00e4
+  bis\u00e4 lulus nil\u00e4 i b\u00e4 ik di uji\u00e4 n \u00e4 khir n\u00e4 nti. k\u00e4
+  l\u00e4 u nil\u00e4 i k\u00e4 mu kur\u00e4 ng b\u00e4 gus, cit\u00e4 -cit\u00e4
+  k\u00e4 mu untuk m\u00e4 suk \u00e4 k\u00e4 demi \u00e4 ngk\u00e4 t\u00e4 n Ud\u00e4
+  r\u00e4 k\u00e4 n bis\u00e4 g\u00e4 g\u00e4 l s\u00e4 y\u00e4 ng\u201d \u201cBeres
+  M\u00e4 h, Y\u00e4 ng penting M\u00e4 m\u00e4 do\u00e4 in \u00e4 ndre sen\u00e4
+  nti\u00e4 s\u00e4 y\u00e4 ,\u201d \u201cP\u00e4 sti s\u00e4 y\u00e4 ng,\u201d j\u00e4
+  w\u00e4 b M\u00e4 m\u00e4 ny\u00e4 senyum s\u00e4 y\u00e4 ng. \u00e4 ndre mel\u00e4
+  h\u00e4 p potong\u00e4 n roti b\u00e4 k\u00e4 rny\u00e4 y\u00e4 ng ter\u00e4 khir.
+  Kemudi\u00e4 n berp\u00e4 mit\u00e4 n p\u00e4 d\u00e4 M\u00e4 m\u00e4 ny\u00e4 ,
+  \u201c\u00e4 ndre pergi dulu\u00e4 n y\u00e4 M\u00e4 h M\u00e4 m\u00e4 k\u00e4 p\u00e4
+  n ber\u00e4 ngk\u00e4 tny\u00e4 ?\u201d t\u00e4 ny\u00e4 \u00e4 ndre s\u00e4 mbil
+  mencium pipi M\u00e4 m\u00e4 ny\u00e4 . Baca Selanjutnya\"", "\"1\u00bfJe r\u00e4
+  et\u00e4b\u00e4 kicha s\u00e1 wakwa eb\u00e4 \u00f1a ktei sh\u00e4ke\u0331ni na?
+  \u00bfAta s\u00e1 ki\u0331 isherke\u0331 r\u00e4 jisht\u00e4 manele k\u00e4i, ktei
+  yilemi \u00e4y\u00eb ki\u0331 bas ia\u0331 ir\u00e4le, bas wa\u0331 ir\u00e4le k\u00e4i
+  na? 2\u00d1era, bas wakwa ne r\u00e4 s\u00e1 \u00e4y\u00eb\u00ed r\u00e4, y\u00f6le
+  s\u00e1 je\u0331r ska r\u00e4. Je r\u00e4 su\u0331le, wayile dits\u00e4 bik\u00f6le
+  wa\u0331. 3Je w\u00e0 ijuena bas ne r\u00e4 Cristo \u00e4y\u00eb\u00ed patkele s\u00e1
+  wa\u0331 r\u00e4. Ka je r\u00e4 y\u00f6le tinta w\u00e0 kuna, ata S\u00e4kekl\u00e4
+  kseka wikblu w\u00e0, ka je r\u00e4 tale kuna jak kju\u00e4 ki\u0331ka, ata je tale
+  r\u00e4 tabla yaka i\u00e1 ki\u0331 sa\u0331 je\u0331r ska. 4S\u00e4kekl\u00e4 w\u00e4na
+  s\u00e1 te ibiketse jek\u00e4i ir\u00e4, Cristo oloi ja\u0331mi. 5Ka je r\u00e4
+  s\u00e1 wakwa r\u00e4 t\u00e4kili ta kuna, je w\u00e0 s\u00e1 wa\u0331 ibikets\u00e4kl\u00e4
+  jile o\u0331le s\u00e1 wa\u0331 r\u00e4 s\u00e1 wakwa oloi ja\u0331mi ni kuna. Ata
+  s\u00e1 t\u00e4kili bitele r\u00e4 S\u00e4kekl\u00e4 ne ska. 6Je wakei te s\u00e1
+  t\u00e4kiwa\u0331 ikablele spa\u0331na wakja\u0331neiwa\u0331k, ka kte y\u00f6le
+  cha wakja\u0331neiwa\u0331k kuna, ata iwikblu cha wakja\u0331neiwa\u0331k. Iwa r\u00e4
+  kte y\u00f6le te r\u00e4 s\u00e4 kteke\u0331wa\u0331 eb\u00e4, ata iwikblu te r\u00e4
+  se\u0331ne kseka ne me\u0331. 7S\u00e4 du\u00e4kl\u00e4wa\u0331 wakja\u0331neiwe\u0331
+  ktei tale jak ki\u0331ka je bakle r\u00e4 baa, ka Israel batala w\u00e4 d\u00e4wa\u0331
+  Mois\u00e9s su\u0331ak iw\u00e4kt\u00e4 ki\u0331 kje, ije w\u00e4kt\u00e4 w\u00e4\u00f1inaka\u0331
+  oloo ki\u0331ka, jek\u00e4i je oloi shenami je\u0331na je\u0331na. Jek\u00e4i ir\u00e4
+  ra, 8\u00bfmaik\u00e4i ka je tsa\u0331ta iwikblu cha wakja\u0331neiwe\u0331 r\u00e4
+  bakleka\u0331ju\u0331 baa si\u0331 kuna r\u00e4 na? 9Ka ir\u00e4 jiye kuna ta, ikuna
+  sa wabiketsanakl\u00e4ksa\u0331 nui ta wakja\u0331neiwe\u0331, je bakle r\u00e4
+  baa ra, jera s\u00e4 wabiketsa\u0331nakl\u00e4ksa\u0331 w\u00e4mo ye wakja\u0331neiwe\u0331
+  r\u00e4 bakleka\u0331 baawa\u0331 si\u0331. 10Jek\u00e4i ji bakle baa, ka je kuna
+  ji\u0331a baa, je r\u00e4 ietk\u00e4 r\u00e4 baawa\u0331 si\u0331 ki\u0331ka. 11Jek\u00e4i
+  je oloi shenakwa\u0331 bakle r\u00e4 baa ra, ji ka e\u0331nakwa\u0331 kuna je r\u00e4
+  bakleka\u0331ju\u0331 baawa\u0331 si\u0331. 12S\u00e1 te ibiketse jek\u00e4i ki\u0331ka,
+  s\u00e1 te ji we\u0331ke\u0331 r\u00e4 ka suale kuna, 13ka je r\u00e4 Mois\u00e9s
+  k\u00e4i kuna. Mois\u00e9s w\u00e4 ki\u0331tiawa\u0331 sua w\u00e0, ka Israel batala
+  wa\u0331 ioloi sher dami su\u0331akl\u00e4 ye. 14Jeir\u00e4ta ijewa je\u0331r doloi
+  tenacha\u0331wa\u0331. Ka ir\u00e4 maik\u00e4i kuna ta, sa kablele \u00f1aia\u0331
+  mikle S\u00e4kekl\u00e4 ra y\u00f6le wayirke\u0331 ra, je sua eb\u00e4 wa\u0331
+  ijewa dami ji\u0331a w\u00e4 ki\u0331telecha\u0331wa\u0331, d\u00e4ka\u0331 jira
+  kje. Je r\u00e4 ka tse\u0331leju\u0331mi kuna ijewa ki\u0331ka. Ka ir\u00e4 jiye
+  kuna ta, Cristo eb\u00e4 oloi ja\u0331mi je tse\u0331rju\u0331mi r\u00e4. 15Jek\u00e4i
+  eb\u00e4 d\u00e4ka\u0331 jira kje, ka\u0331wei me\u0331le Mois\u00e9s wa\u0331 wayirke\u0331
+  ra, ijewa je\u0331rike r\u00e4 ki\u0331kololewa\u0331 sua wa\u0331. 16Ata mika\u0331
+  sa\u0331 \u00f1amanewa\u0331ksa\u0331ni S\u00e4kekewa ia\u0331 ra, je sua r\u00e4
+  tse\u0331nakju\u0331mi. 17Jek\u00e4i S\u00e4kekewa ne r\u00e4 S\u00e4kekl\u00e4
+  wikblu r\u00e4. Jek\u00e4i mai S\u00e4kekewa wikblu katke ra, jeska s\u00e4 r\u00e4
+  bakleksa\u0331. 18Ata saje wa bik\u00f6le r\u00e4 w\u00e4 ki\u0331tse\u0331leju\u0331mi
+  te S\u00e4kekewa oloi \u00f1irte su\u0331ete jisht\u00e4 espejo na k\u00e4i, sa\u0331
+  maneleksa\u0331 baa ki\u0331manerte ji baa w\u00e0 mar\u00e4 ji baa w\u00e0 ni d\u00e4kwa\u0331
+  jisht\u00e4 ije wakei r\u00e4 su\u0331ta, S\u00e4kekewa ale iwikblu je oloi ja\u0331mi.\"",
+  "\"LA EP\u00cdSTOLA UNIVERSAL DE SAN JUDAS AP\u00d3STOL\\n1\\nSalutaci\u00f3n\\n1
+  Hu\u0113j huin ts\u00ednj gu\u0331\ua78cnaj Judas ts\u00ednj \ua78cyaj sun rian
+  Jesucristo. Ni\u0331 jn\u0101n huin Jacobo. Ni\u0331 ar\u016bnj yanj carta nan a\ua78cn\u012b
+  huaj rian ni \u00e9 re\u0331\ua78c huin ni \u00e9 re\u0331\ua78c ts\u00ednj gaqu\u00ednj
+  Yan\ua78canj. Ni\u0331 gahuin sa\u0331\ua78c niman ni \u00e9 re\u0331\ua78c, gui\ua78cyaj
+  Yan\ua78canj huin chrej n\u00e9\ua78c. Ni\u0331 dugumi Jesucristo ni \u00e9 re\u0331\ua78c
+  nej. 2 Ni\u0331 huin ruhu\u0101j sisi\u0331 xa\u0331caj sa\u0331\ua78c ni \u00e9
+  re\u0331\ua78c cuenta da\u0331j nahuin yaco ruhua Yan\ua78canj ni\ua78cya ni \u00e9
+  re\u0331\ua78c. Ni\u0331 huin ruhu\u0101j sisi\u0331 \ua78cue\u00e9 ga\u0331huin
+  din\ua78cinj ruhua ni \u00e9 re\u0331\ua78c. Ni\u0331 gui\u0331ni\ua78ci sa\u0331\ua78c
+  ni \u00e9 re\u0331\ua78c da\u0331j \ua78ci\u0331 ruhua Yan\ua78canj ni\ua78cya ni
+  \u00e9 re\u0331\ua78c, ruhu\u0101j aj.\\nFalsas doctrinas y falsos maestros\\n3
+  Ni\u0331 \ua78ci\u0331 ruhu\u0101j ni\ua78cy\u0101 ni \u00e9 re\u0331\ua78c. Ni\u0331
+  ni\u0331n\ua78c ruhua gahuin ruhu\u0101j ga\u0331r\u016bnj yanj carta ga\u0331\ua78cn\u012b
+  rian ni \u00e9 re\u0331\ua78c xi\ua78c\u00ed da\u0331j nacaj Yan\ua78canj n\u00e9\ua78c.
+  Sani\u0331 yya\u0331j ni\u0331 hua nia\u0331n si ga\u0331r\u016bnj ango nuguan\ua78c
+  rian yanj ga\u0331\ua78cn\u012b rian \u00e1n re\u0331\ua78c. Ngaa ni\u0331 ach\u00ednj
+  jni\ua78cy\u0101 rian ni \u00e9 re\u0331\ua78c sisi\u0331 gui\u0331nico\ua78c ran
+  ni \u00e9 re\u0331\ua78c nuguan\ua78c guxuman sini ruhua ni \u00e9 re\u0331\ua78c
+  huin nuguan\ua78c digy\u00e1n Jesucristo rian ni ts\u00ednj hua sa\u0331\ua78c niman.
+  4 Daj si hua gat\u00faj hui\u0331 go\u0331\ua78cngo ni ts\u00ednj digya\ua78c yun\ua78cunj
+  scanij ni \u00e9 re\u0331\ua78c. Ni\u0331 gataj si-nu\u0331guan\ua78c Yan\ua78canj
+  asi\u0331j n\u00e1 sisi\u0331 ga\u0331huin castigo ni s\u00ed\ua78c, gui\u0331\ua78cyaj
+  Yan\ua78canj. Ni\u0331 huin ni s\u00ed\ua78c ni ts\u00ednj \ua78cyaj quij. Ni\u0331
+  naduna ni s\u00ed\ua78c sinduj gui\ua78cyaj Yan\ua78canj nga\u0331 n\u00e9\ua78c.
+  Ni\u0331 ataj ni s\u00ed\ua78c sisi\u0331 ga\u0331\ua78cue gui\u0331\ua78cyaj quij
+  ni s\u00ed\ua78c da\u0331j r\u00fan\ua78c aran\ua78c ruhua ni s\u00ed\ua78c. Ni\u0331
+  ngaa hu\u00e9 daj \ua78cyaj ni s\u00ed\ua78c, ni\u0331 nun dagahuin ni s\u00ed\ua78c
+  rian Yan\ua78canj nga\u0331 Jesucristo. Ni\u0331 urin Yan\ua78canj nga\u0331 Jesucristo
+  huin si nicaj sun rian n\u00e9\ua78c.\\n5 Ni\u0331 nu\u0331nj si hua ni\ua78ci ni
+  \u00e9 re\u0331\ua78c nuguan\ua78c sa\u0331\ua78c, sani\u0331 huin ruhu\u0101j sisi\u0331
+  na\u0331nun ruhua ni \u00e9 re\u0331\ua78c \ua78cngo\u0331 nuguan\ua78c xi\ua78c\u00ed
+  da\u0331j gui\ua78cyaj Se\u00f1or ngaa nacaj sij ni ts\u00ednj israelita asi\u0331j
+  n\u00e1. Ni\u0331 guiri Se\u00f1or ni ts\u00ednj daj scanij ni ts\u00ednj ma\u0331n
+  Egipto. Sani\u0331 gahui\ua78c go\u0331\ua78cngo ni sij xi\ua78c\u00ed si nun gu\u0331xuman
+  ruhua ni sij ni\u0331\ua78cyaj ni sij Yan\ua78canj, gui\ua78cyaj Se\u00f1or. 6 Ni\u0331
+  asi\u0331j n\u00e1 ni\u0331 duna go\u0331\ua78cngo ni \u00e1ngel sun ga\ua78cui\ua78c
+  Yan\ua78canj rian ni sij. Ni\u0331 duna ni \u00e1ngel daj rian ga\ua78cui\ua78c
+  Yan\ua78canj ga\u0331ne ni sij. Xi\ua78c\u00ed daj ni\u0331 nu\u0331n ni \u00e1ngel
+  daj ducuaga\u0331\ua78c ru\u0331mi\ua78c, gui\ua78cyaj Yan\ua78canj. Ni\u0331 ni\u0331ganj
+  ni\u0331n\ua78c gu\u0331nun ni \u00e1ngel yu\ua78cuj daj da\ua78c g\u00fci na\u0331gui\ua78cyaj
+  yya Yan\ua78canj xi\ua78c\u00ed daran\ua78c gaquin\ua78c. 7 Ni\u0331 hu\u00e9 daj
+  gui\u0331ran\ua78c ni ts\u00ednj guim\u00e1n nu\u0331ng\u00fcej xuman\ua78c gu\u0331\ua78cnaj
+  Sodoma nga\u0331 Gomorra nga\u0331 ango ni xuman\ua78c ngaj ni\u0331chrun\ua78c
+  nej. Ni\u0331 uyan gui\ua78cyaj quij ni sij nga\u0331 ni \u00e1ngel daj. Daj si
+  gui\ua78cyaj squi\u0331ra\ua78c ni sij nga\u0331 ni dug\u00fci\ua78c ni sij. Ni\u0331
+  nun gui\u0331\ua78cyaj ni sij da\u0331j r\u00fan\ua78c digy\u00e1n Yan\ua78canj
+  rian ni sij. Ngaa ni\u0331 ni\u0331ganj ni\u0331n\ua78c ga\u0331ca ni xuman\ua78c
+  daj. Ni\u0331 xi\ua78c\u00ed daj ni\u0331 ga\u0331\ua78cue xa\u0331caj n\u00e9\ua78c
+  cuenta sisi\u0331 da\u0331j r\u00fan\ua78c guiran\ua78c ni sij sayun asi\u0331j
+  n\u00e1, ni\u0331 hu\u00e9 daj gui\u0331ran\ua78c ni ts\u00ednj \ua78cyaj quij g\u00fci
+  yya\u0331j.\\n8 Ni\u0331 nu\u0331nj si hu\u00e9 daj gui\ua78cyaj Yan\ua78canj castigo
+  ni ts\u00ednj guim\u00e1n asi\u0331j n\u00e1, sani\u0331 hua gue\u0331 \ua78cyaj
+  quij ni ts\u00ednj gat\u00faj scanij ni \u00e9 re\u0331\ua78c. Ni\u0331 \ua78cyaj
+  quij ni sij nga\u0331 nnee\u0331 c\u00faj ni sij. Ni\u0331 nun ga\u0331ra xina ni
+  sij nuguan\ua78c a\ua78cnin\ua78c ni ts\u00ednj nicaj sun rian ni sij. Ni\u0331
+  a\ua78cmi quij ni sij xi\ua78c\u00ed ni si huin achij m\u00e1n xata\ua78c. 9 Ni\u0331
+  Miguel huin \u00e1ngel huin achij rian ango ni \u00e1ngel. Ni\u0331 asi\u0331j n\u00e1
+  ngaa gahui\ua78c Mois\u00e9s, ni\u0331 gunun\ua78c Miguel nga\u0331 sichre xi\ua78c\u00ed
+  nnee\u0331 c\u00faj Mois\u00e9s. Sani\u0331 nun gui\u0331sij ruhua Miguel ga\ua78cmi
+  quij sij rian sichre m\u00e1nj. Maan si gataj sij gunun sichre: \u201cHuin ruhu\u0101j
+  sisi\u0331 ga\u0331\ua78cmi huee Se\u00f1or ri\u00e1n re\u0331\ua78c hu\u00edn re\u0331\ua78c
+  sichre.\u201d Daj gataj \u00e1ngel huin rian daj gunun sichre. 10 Sani\u0331 a\ua78cmi
+  quij ni ts\u00ednj daj xi\ua78c\u00ed ni nuguan\ua78c nun ni\ua78ci ni sij. Ni\u0331
+  hua nuguan\ua78c ni\ua78ci ni sij, sani\u0331 da\u0331j r\u00fan\ua78c \ua78cyaj
+  ni xucu nitaj sta\ua78cnga\ua78c nu\u0331n, ni\u0331 da\ua78cnga\ua78c daj \ua78cyaj
+  ni sij. Ni\u0331 gue\u0331re\ua78c ni sij, gui\u0331\ua78cyaj nuguan\ua78c daj.
+  11 Niqui ni\u0331n\ua78c ruhua niman ni sij xi\ua78c\u00ed si gui\u0331ran\ua78c
+  ni sij. Daj si \ua78cyaj ni sij da\u0331j r\u00fan\ua78c gui\ua78cyaj ts\u00ednj
+  gu\u0331\ua78cnaj Ca\u00edn ngaa dagahui\ua78c s\u00ed\ua78c jn\u00e1nj s\u00ed\ua78c
+  asi\u0331j n\u00e1. Ni\u0331 ducu huin ruhua ni sij gui\u0331\ua78cyaj gana ni sij
+  san\ua78canj da\u0331j r\u00fan\ua78c gui\ua78cyaj ts\u00ednj gu\u0331\ua78cnaj
+  Balaam asi\u0331j n\u00e1. Ni\u0331 xi\ua78c\u00ed daj digya\ua78c yun\ua78cunj
+  ni sij man\ua78can dug\u00fci\ua78c ni sij. Ni\u0331 da\u0331j r\u00fan\ua78c nun
+  dagahuin ts\u00ednj gu\u0331\ua78cnaj Cor\u00e9 si-nu\u0331guan\ua78c Mois\u00e9s,
+  ni\u0331 hu\u00e9 daj \ua78cyaj ni sij. Ngaa ni\u0331 da\u0331j r\u00fan\ua78c ga
+  ni\ua78cya Cor\u00e9, ni\u0331 hu\u00e9 daj ga\u0331 ni\ua78cya ni sij, gui\u0331\ua78cyaj
+  Yan\ua78canj anj.\\n12 Ni\u0331 ngaa xa nu\u0331guan\ua78can ni du\u0331g\u00fci\ua78c
+  ni \u00e9 re\u0331\ua78c, ni\u0331 huin \ua78cngo\u0331 si-na\u0331\ua78caj \ua78cyaj
+  ni sij scanij ni \u00e9 re\u0331\ua78c. Xa ni sij go\ua78co ni sij scanij ni \u00e9
+  re\u0331\ua78c. Sani\u0331 nitaj si n\u00ed\ua78cyanj hua rian ni sij m\u00e1nj.
+  Ni\u0331 huin ruhua ni sij xi\ua78c\u00ed urin man\ua78can ni sij. Ni\u0331 da\u0331j
+  r\u00fan\ua78c nahui nga ngaa na\ua78cue ga\u0331man\ua78c \ua78cya, ni\u0331 hu\u00e9
+  daj \ua78cyaj ni sij digya\ua78c yun\ua78cunj ni sij. Daj si da\u0331j r\u00fan\ua78c
+  nare\ua78cej nane\u0331 nga daj gan\ua78canj-\u00e1n\ua78c niaj di\ua78cyaj, ni\u0331
+  hu\u00e9 daj huin ni sij. Ni\u0331 r\u00fan\ua78c huin ni chrun ngaa na\ua78cue
+  ga\u0331yu ni chruj chra\u0331 ni chrun daj ngaa guis\u00edj g\u00fci ngaa gui\u0331man
+  chruj chra\u0331, ni\u0331 hu\u00e9 daj huin ni sij. Ni\u0331 huin ni sij r\u00fan\ua78c
+  huin ni chrun ngaa guis\u00edj hui\u0331j nacoj. Ni\u0331 racoj ni sij ya\ua78ca\u0331
+  siu\u0331 chrun daj. Ni\u0331 hu\u00e9 daj gui\u0331ran\ua78c ni sij nej. 13 Ni\u0331
+  r\u00fan\ua78c huin nnee yan\ua78canj ngaa naxu\u0331man yatan\ua78c quij, \ua78cyaj
+  nane\u0331, ni\u0331 hu\u00e9 daj huin ni sij. Daj si ni rasu\u0331n \ua78cyaj ni
+  sij huin \ua78cngo\u0331 si-na\u0331\ua78caj. Ni\u0331 da\u0331j r\u00fan\ua78c
+  huin ni yati\ua78c ngaa nadunaj rian niquinj go\u0331\ua78cngo yahui\u0331, da\ua78cnga\ua78c
+  daj huin ni sij. Ni\u0331 ni\u0331ganj ni\u0331n\ua78c ga\u0331ne ni sij rian hua
+  ru\u0331mi\ua78c, gui\u0331\ua78cyaj Yan\ua78canj.\\n14 Ni\u0331 ga\ua78cmi ts\u00ednj
+  gu\u0331\ua78cnaj Enoc si-nu\u0331guan\ua78c Yan\ua78canj xi\ua78c\u00ed ni ts\u00ednj
+  daj. Ni\u0331 xi Enoc gahuin Ad\u00e1n gane asi\u0331j n\u00e1. Ni\u0331 gataj Enoc
+  gunun ni ng\u00fci\u0331: \u201cGu\u0331nun ni \u00e9 re\u0331\ua78c si ga\u0331\ua78cm\u012b
+  aj. Guini\ua78c\u012bj Se\u00f1or \ua78cna\u0331\ua78c sij nga\u0331 ga\ua78ci\u0331
+  m\u00ed ni ts\u00ednj hua sa\u0331\ua78c chruhua niman. 15 Ni\u0331 \ua78cna\u0331\ua78c
+  Se\u00f1or na\u0331gui\ua78cyaj yya sij nga\u0331 si-ga\u0331quin\ua78c daran\ua78c
+  ni ng\u00fci\u0331. Ni\u0331 \ua78cna\u0331\ua78c di\u0331gy\u00e1n sij rian ni
+  ts\u00ednj \ua78cyaj quij sisi\u0331 da\ua78cui ni s\u00ed\ua78c gaquin\ua78c. Daj
+  si xacaj ni sij \ua78cngo\u0331 chrej quij hua. Ni\u0331 ga\ua78cmi ni sij daran\ua78c
+  nuguan\ua78c quij hua xi\ua78c\u00ed man\ua78can Yan\ua78canj.\u201d Hu\u00e9 daj
+  gataj Enoc rian ni ts\u00ednj daj. 16 Ni\u0331 huin ni sij ni ts\u00ednj a\ua78cmi
+  gaquin\ua78c xi\ua78c\u00ed daran\ua78c nuguan\ua78c. Ni\u0331 nuna ni sij xi\ua78c\u00ed
+  daran\ua78c nuguan\ua78c. Ni\u0331 maan si nano\ua78c ni sij si huin ruhua man\ua78can
+  ni sij. Ni\u0331 ducu a\ua78cmi ni sij xi\ua78c\u00ed man\ua78can ni sij. Ni\u0331
+  a\ua78cmi sa\u0331\ua78c ni sij rian ni ng\u00fci\u0331 xi\ua78c\u00ed si gui\u0331ri\ua78c
+  ni sij si huin ruhua man\ua78can ni sij.\\nAmonestaciones y exhortaciones\\n17 Ni\u0331
+  \ua78ci\u0331 ruhu\u0101j ni\ua78cy\u0101 ni \u00e9 re\u0331\ua78c huin ni \u00e9
+  re\u0331\ua78c jn\u0101n nga\u0331 xica\ua78cu\u012b. Ngaa ni\u0331 na\u0331nun
+  ruhua ni \u00e9 re\u0331\ua78c ni nuguan\ua78c ga\ua78cmi ni ts\u00ednj ap\u00f3stol
+  huin ni sij ni ts\u00ednj ga\ua78cmi si-nu\u0331guan\ua78c Se\u00f1or Jesucristo
+  rian ni ng\u00fci\u0331 aj. 18 Ni\u0331 gataj ni sij gunun ni \u00e9 re\u0331\ua78c:
+  \u201cNi\u0331 ngaa ruhua ga\u0331nahuij xung\u00fci\u0331, ni\u0331 gui\u0331man
+  ni ts\u00ednj ga\u0331\ua78cmi ducu xi\ua78c\u00ed si-nu\u0331guan\ua78c Yan\ua78canj.
+  Ni\u0331 gui\u0331\ua78cyaj ni sij da\u0331j r\u00fan\ua78c huin quij ruhua ni sij.\u201d
+  Daj gataj ni ts\u00ednj ga\ua78cmi si-nu\u0331guan\ua78c Yan\ua78canj anj.\\n19
+  Hu\u00e9 ni sij \ua78cyaj sisi\u0331 ga\u0331huin an\u00e9j ni ng\u00fci\u0331 rian
+  dug\u00fci\ua78c ni sij. Ni\u0331 \ua78cyaj ni sij da\u0331j r\u00fan\ua78c aran\ua78c
+  ruhua nnee\u0331 c\u00faj ni sij. Ni\u0331 nitaj si nu\u0331n Esp\u00edritu Santo
+  chruhua niman ni sij m\u00e1nj. 20 Ni\u0331 \ua78ci\u0331 ruhu\u0101j ni\ua78cy\u0101
+  ni \u00e9 re\u0331\ua78c. Ngaa ni\u0331 ga\u0331huin ni\u0331ca ruhua ni \u00e9
+  re\u0331\ua78c nga\u0331 nuguan\ua78c guxuman ruhua ni \u00e9 re\u0331\ua78c huin
+  nuguan\ua78c sa\u0331\ua78c ni\u0331n\ua78c ruhua. Ni\u0331 ga\u0331chinj jni\ua78cyaj
+  ni \u00e9 re\u0331\ua78c rian Yan\ua78canj da\u0331j r\u00fan\ua78c di\u0331gy\u00e1n
+  Esp\u00edritu Santo rian ni \u00e9 re\u0331\ua78c aj. 21 Ni\u0331 \ua78cngo\u0331
+  gui\u0331\ua78cyaj ni \u00e9 re\u0331\ua78c da\u0331j r\u00fan\ua78c huin ruhua
+  Yan\ua78canj gui\u0331\ua78cyaj ni \u00e9 re\u0331\ua78c. Ngaa ni\u0331 gui\u0331ni\ua78ci
+  yya ni \u00e9 re\u0331\ua78c sisi\u0331 \ua78ci\u0331 ruhua Yan\ua78canj ni\ua78cya
+  ni \u00e9 re\u0331\ua78c. Ni\u0331 ga\u0331na\ua78cuij ni \u00e9 re\u0331\ua78c
+  sisi\u0331 ri\u0331qui Se\u00f1or Jesucristo si ga\u0331ne ni\u0331ganj ni \u00e9
+  re\u0331\ua78c nga\u0331 Yan\ua78canj. Daj si nani yaco ruhua sij ni\ua78cyaj sij
+  ni \u00e9 re\u0331\ua78c.\\n22 Ni\u0331 ga\u0331taj n\u00e9\ua78c rian ni ts\u00ednj
+  nun ri\ua78c ruhua da\u0331j hua chrej sa\u0331\ua78c sisi\u0331 gu\u0331xuman yya
+  ruhua ni sij nga\u0331 si-nu\u0331guan\ua78c Yan\ua78canj anj. 23 Ni\u0331 da\u0331j
+  r\u00fan\ua78c nacaj n\u00e9\ua78c \ua78cngo\u0331 rasu\u0331n scanij yan\ua78ca\u0331n,
+  ni\u0331 hu\u00e9 daj na\u0331caj ni \u00e9 re\u0331\ua78c ango ni sij. Ni\u0331
+  ga\u0331nani yaco ruhua ni \u00e9 re\u0331\ua78c gui\u0331ni\ua78cyaj ni \u00e9
+  re\u0331\ua78c \u00e1ngo ni sij. Sani\u0331 ga\u0331 cuidado ni \u00e9 re\u0331\ua78c
+  sisi\u0331 si\u0331 xacaj ni \u00e9 re\u0331\ua78c chrej quij hua daj. Daj si nun
+  huin xa\u0331n\ua78c ruhua n\u00e9\ua78c ni\ua78cyaj n\u00e9\ua78c gaquin\ua78c
+  \ua78cyaj ni sij.\\nDoxolog\u00eda\\n24 Ni\u0331 Yan\ua78canj huin si nucuaj. Ni\u0331
+  ga\u0331\ua78cue du\u0331gumi Yan\ua78canj n\u00e9\ua78c sisi\u0331 si\u0331 guere\ua78c
+  ruhua n\u00e9\ua78c. Ni\u0331 ga\u0331\ua78cue gui\u0331\ua78cyaj Yan\ua78canj sisi\u0331
+  ga\u0331 sa\u0331\ua78c n\u00e9\ua78c ga\u0331n\ua78canj n\u00e9\ua78c rian nne
+  sa\u0331\ua78c man\ua78can Yan\ua78canj. Ni\u0331 ni\u0331n\ua78c ruhua ga\u0331huin
+  nia\u0331\ua78c ruhua n\u00e9\ua78c. 25 Urin Yan\ua78canj huin Yan\ua78canj xa\u0331nga\ua78c.
+  Ni\u0331 ni\ua78ci sa\u0331\ua78c Yan\ua78canj daran\ua78c nuguan\ua78c. Ni\u0331
+  Yan\ua78canj huin si nacaj n\u00e9\ua78c. Ni\u0331 yya\u0331j ni\u0331 hua nia\u0331n
+  si ga\u0331\ua78cmi sa\u0331\ua78c daran\ua78c ni ng\u00fci\u0331 xi\ua78c\u00ed
+  Yan\ua78canj. Daj si nucuaj ni\u0331n\ua78c ruhua Yan\ua78canj. Ni\u0331 ni\u0331n\ua78c
+  ruhua nicaj Yan\ua78canj fuerza. Ni\u0331 hu\u00e9 daj ga\u0331\ua78cmi sa\u0331\ua78c
+  ni\u0331ganj ni\u0331n\ua78c n\u00e9\ua78c rian Yan\ua78canj anj. Am\u00e9n.\"",
+  "\"\u2022 \u03b9 wa\u014bT \u0263\u03c3u T\u03c3 k\u014b\u03c3w ThaT \u0263\u03c3u
+  ar\u025b Th\u025b \u0283\u03b9rsT p\u025brs\u03c3\u014b \u03b9 wa\u014bT T\u03c3
+  s\u025b\u025b \u03b9\u014b Th\u025b \u201cM\u03c3r\u014b\u03b9\u014bgs\u201d\\na\u014bd
+  Th\u025b lasT p\u025brs\u03c3\u014b \u03b9 wa\u014bT T\u03c3 wh\u03b9sp\u025br \u201cG\u03c3\u03c3d\u014b\u03b9ghT\u201d
+  T\u03c3.\\n\u2022 \u0263\u03c3u ar\u025b my Th\u03c3ughTs Thr\u03c3ugh Th\u025b
+  days.\\n\u2022 S\u03c3m\u025bT\u03b9m\u025bs wh\u025b\u014b Th\u03b9\u014bgs jusT
+  ca\u014b\u2019T s\u025b\u025bm T\u03c3 g\u025bT b\u025bTT\u025br \u03b9 ca\u014b
+  l\u03c3\u03c3k aT \u0263\u03c3ur p\u03b9c a\u014bd a b\u03b9g sm\u03b9l\u025b \u03c3\u014b
+  m\u0263 face t\u025blls m\u025b, \u0263\u025bs h\u025b \u03b9s Th\u025b r\u025bas\u03c3\u014b
+  my days ca\u014b b\u025b b\u025bauT\u03b9ful.\\n\u2022 B\u025bcaus\u025b h\u025b\u2019s
+  alwa\u0263s w\u03c3rTh Th\u025b b\u025bauT\u0263 o\u0283 m\u0263 Sm\u03b9l\u025b
+  a\u014bd m\u0263 su\u014bsh\u03b9\u014b\u025b \u03c3\u014b m\u0263 Dark da\u0263s.\\n\u2022
+  L\u03c3v\u03b9\u014bg \u0263\u03c3u \u03b9s \u025bas\u0263, \u014b\u03c3T h\u03c3ld\u03b9\u014bg
+  \u0263\u03c3u \u03b9s Th\u025b hard\u025bsT.\u0283or \u03b9\u014b m\u0263 dr\u025bams
+  \u03b9 car\u025bss \u0263\u03c3u T\u03c3 m\u025b, T\u03c3 sm\u025bll Th\u025b sw\u025b\u025bT\u014b\u025bss
+  \u03c3\u0283 \u03c3ur T\u03c3uch.\\n0 comments:\\nPost a Comment\"", "\"Nej gui\u00ec
+  a\ua78cmin n\u00e2nj n\u00ef\u0300n\ua78c\u00efn\\nNej yuman\ua78c A\ua78cmin N\u00e2nj
+  N\u00ef\u0300n\ua78c\u00efn m\u00e2n ne\ua78c gat\u00fbj gui ri\u00f1an hio\ua78c\u00f3
+  Akuej, ni\u0331 m\u00e0n da\ua78cnga\ua78c \ua78cngo\u0331 si chi\u0331\ua78c nej
+  sij y\u00f9hu\u00ecj m\u00een gui\u00ec. Ni\u0331 hu\u00e0\ua78cn\u00ef\u0300nj
+  yi\ua78cn\u00efn\ua78c huin sa hua\u0331 ni\u0331n\u00ef\u0331n ni\u0331 da\ua78c
+  go\ua78cngo\u0331 nej yuman\ua78c n\u00e2nj huin sa \u00f1a\u0331\ua78ca\u0331n
+  doj ni\u0331 nej yuman n\u00e2nj huin: Yuman\ua78c N\u00ecko ni\u0331 ta\u0331a
+  hu\u00ecj m\u00een t\u00e1 g\u00e0\ua78canj si\u00eantu ri\u00f1an nne \u00f1a\u0331\ua78ca\u0331nj.
+  Ni\u0331 a\ua78cngoj huin yuman\ua78c Samat\u00ee ( Nat\u00e2j Tun ), ni\u0331 huej
+  huin yuman\ua78c nngaj dan\u00ef\u0331\u00efn ni\u0331 ta\u0331a hu\u00ecj m\u00een
+  t\u00e1 \u00f9n\ua78c\u00f9n\ua78c si\u00eantu t\u00e1 hu\u00ecj xia chi\u0331\ua78c
+  ri\u00f1an nne \u00f1a\u0331\ua78ca\u0331nj. Ni\u0331 a\ua78cngoj huin yuman\ua78c
+  Sik\u00ed ni\u0331 ta\u0331a \ua78cngo\u0331 m\u00een t\u00e1 hu\u00e0t\u00e0n\ua78c
+  si\u00eantu ri\u00f1an nne \u00f1a\u0331\ua78ca\u0331nj. Ni\u0331 nej yuman\ua78c
+  A\ua78cmin N\u00e2nj N\u00ef\u0300n\ua78c\u00efn an\u00fbn dugui\ua78c ne\ua78c
+  y\u00ecchr\u00e0j a ng\u00e0 Yuman\ua78c Duhua, ni\u0331 ne\ua78c ri\u0331ki an\u00fbn
+  dugui\ua78c nej sij ng\u00e0 Yuman\ua78c Rosario, Yuman\ua78c Ngaj, Ta Degechrunj
+  ni\u0331 nej yuman\ua78c n\u00e2nj nik\u00f2\ua78c munisipio Ngaj ni\u0331 a\ua78cmin
+  nej sij n\u00e2nj stila, ni\u0331 ne\ua78c gis\u00eej gui an\u00fbn dugui\ua78c
+  nej sij ng\u00e0 Duchi, ni\u0331 ne\ua78c gat\u00fbj gui an\u00fbn dugui\ua78c nej
+  sij ng\u00e0 hio\ua78c\u00f3 Guerrero.\\nNej sa m\u00e0n g\u00e0n\u00e0r\u00ec\ua78c
+  nej suj ri\u00f1an pag\u00edna n\u00e2nj huin: Sa gidig\u00e2n. Ni\u0331 ga\ua78cn\u1e2fn
+  nej \u00f1\u00fbnj \ua78cngo\u0331 \u00f1anj na\u0331ri\u0331ki\u0331 chrej e d\u00e0j
+  ga\u0331hia\u0331 nej suj, ni\u0331 d\u00e0j ga\u0331chru\u0331n nej suj n\u00e2nj
+  n\u00ef\u0300n\ua78c\u00efn: Nuguan n\u00e2. Gachr\u00fbn nej \u00f1\u00fbnj doj
+  rayi\ua78c\u00ee d\u00e0n\u00e8\ua78c ga\u0331\ua78chue ga\ua78cna\ua78c nej gui\u00ec
+  a\ua78cmin n\u00e2nj n\u00ef\u0300n\ua78c\u00efn. Si-n\u00f9gu\u00e0n\ua78c Ma\u0331\ua78can
+  \u00d1a\ua78canj an. Ni\u0331 ga\ua78cn\u1e2fn nej \u00f1\u00fbnj PDF nn\u00f9n
+  N.T. Ni\u0331 hu\u00ea danj na\u0331nj g\u00e0\ua78c hua\u0331 yu\u0331gui nan\u00e8
+  gu\u0331n\u00efn nej suj da\ua78c hua\u0331 ge\u0331 N.T. ni\u0331 ga\u0331\ua78chue
+  ga\u0331huin chru\u0331n nej suj ga\u0331hia\u0331 nej suj, ni\u0331 ga\u0331\ua78chue
+  ga\u0331huin chrun nej suj ga\u0331chru\u0331n nej suj. Sa ni\ua78chio\ua78c. Ni\u0331
+  ga\ua78cn\u1e2fn nej \u00f1\u00fbnj ngo\u0331 sa ni\ua78chio\ua78c nnga nadig\u00e2n
+  nej \u00f1\u00fbnj si g\u00e0\ua78c gahui \ua78cngo\u0331 \u00f1anj N.T: \u00d1an
+  du\u0331\ua78chuo\ua78c. Ni\u0331 ga\ua78cn\u1e2fn nej \u00f1\u00fbnj g\u00e0\ua78c\u00ec
+  \u00f1an du\u0331\ua78chu\u00f4\ua78c ni\u0331 gi\u0331ni\ua78chiaj nej suj ni\u0331
+  gini\ua78cin nej suj d\u00e0j hua yi\u00f1\u00e1n n\u00ea\ua78c, dadin\ua78c \u00fbta
+  n\u00echi\u00e0\ua78c huaj: Nihia y\u00ec\u00f1\u00e0nj an. Gachr\u00fbn nej \u00f1\u00fbnj
+  \ua78cngo\u0331 \u00f1anj a\ua78cmin d\u00e0j gi\u0331\ua78chiaj yu\u0331gui nej
+  suj nak\u00efnj nne\u00e8. Chrej y\u00ec\u00f1\u00e0nj an. Nun nuguan\ua78c ganan\u00ef\u0302n
+  rayi\ua78c\u00ee gi\ua78c\u00f1anj santu. Gi\u0331ni\ua78chiaj nej suj ni\u0331
+  gi\u0331ni\u0331\ua78cin nej suj d\u00e0j sa m\u00e0n ri\u00f1anj.\"", "\"Ri\u00e4t
+  k\u025b kuic cu\u014bk\u00e4 du mi k\u00f6\u00f6k\u00e4 \u014b\u0254aak k\u00e4
+  Australia.\\nDe \u0263\u00e4 loc yi\u00f6w I di?\\nMi te k\u025b mi ci ji\u00e4k
+  k\u00e4 tin ci k\u0254k, d\u0254\u014b de ji thu\u0254k ji moc k\u025b mi d\u0254\u014b,
+  de ji loc yi\u00f6w, de riali k\u00e4 kie dup cutk\u00e4 ti k\u0254\u014b. Dup tin
+  te thin tin \u2018col\u2019 k\u025b du\u0254r mi ci ji\u00e4k \u014buan k\u025b.\\nE
+  ri\u025bk \u025b mith de rialik\u00e4 m\u0254 \u025b ji thuk\u00e4?\\nMi ci du\u0254r
+  l\u00e4t\\nTi k\u025b cu\u0254\u014b k\u025b \u0263\u00f6 bi du\u0254r mi ci ji\u00e4k
+  loc j\u0254k cet k\u025b \u0263\u00f6 bi min k\u0254ak\u025b k\u025bn\u025b la\u0331t
+  dhil g\u0254a.\\nDe du\u0254r ji\u00e4k mi:\\n- C\u025b la\u0331t in la lat\u025b
+  ni wen l\u00e4t \u2013 cet k\u025b \u0263\u00f6, mi ci dhar tha\u0331t \u014b\u0254ak
+  thal\\n- Tek k\u025b mi ci ji\u00e4k thin \u2013 mi ci dhar tha\u0331t du thak d\u025b
+  p\u025bn j\u0254\u0331r ni k\u025b gua\u0331th in pay I k\u0254k\u025b\\n- Ci\u025b
+  j\u025bn I g\u00f6ri bi k\u0254k, ki\u025b c\u025b thu\u0254k \u2013 mi ca dhar
+  tha\u0331t du k\u025b\u0331\u025b\u0331k\\n- Der\u025b ri\u025bk n\u00f6\u014b \u2013
+  mi la mac a t\u025b\u0331ny k\u00e4 dharu\\n- K\u00e4n\u025b j\u00e4ny \u025bl\u00f6\u014b
+  \u2013 dhar tha\u0331td\u00e4 tiath\u025b ni k\u025b k\u0254r p\u00e4\u00e4thni
+  da\u0331\u014b di\u0254k k\u025b k\u0254r k\u00e4 me c\u00e4 k\u0254k.\\nTh\u025bl\u025b
+  ji cu\u0254\u014b k\u025b \u0263\u00f6 bi du\u0254r locj\u0254k k\u00e4 thuk mi
+  ci:\\n- Ji thu\u0254k ji la\u0331r min ci ji\u00e4k \u025b \u014buot k\u00e4ni j\u025b
+  ni k\u0254k\\n- Du\u0254r guic \u025b \u014buot kani du\u0254r ni k\u0254k, k\u00e4
+  thi\u025bl\u025b mi ji\u00e4k mi ci jek\\n- Min ci k\u0254k cie\u014b \u025b ji\u00e4k,
+  ki\u025b\\n- Du\u0254r ci\u025b\u014b k\u025b guath mi b\u00e4\u00e4r.\\nB\u00e4
+  ben \u014ba\u0331c I c\u025b ji\u00e4k k\u025b k\u0254r k\u00e4 me c\u00e4 ci\u025b\u014b\\nDeri
+  du\u0254r mi ci ji\u00e4k loc j\u0254k mi c\u00e4\u014b ci:\\n- Du\u0254r ci\u025b\u014b\\n-
+  Wargak kook k\u00e4 d\u025b ka\u0331m rar\\n- Ka\u0331a\u0331m rar gua\u0331th t\u0254w
+  k\u00e4 d\u025b.\\nC\u00e4 lu\u0254\u0331t k\u0254k k\u00e4 c\u00e4 ci\u025b\u014b
+  k\u025b gua\u0331th mi t\u0254t, du\u014b d\u025b \u0263\u00f6 ci bi\u025bl\u025b
+  be raar ni k\u025b c\u00e4\u014b in dhiam e lak\u025b ni j\u025b, \u025b c\u00e4\u014b
+  ni me c\u00e4 tin ca g\u0254r k\u025b kui d\u025b gu\u0254\u0254r.\\nC\u025b c\u00e4t
+  k\u025b j\u025b ki\u025b nyoth\u025b ta\u0331t d\u025b\\nMi k\u0254ki du\u0254r
+  k\u025b ta\u0331 in cet k\u025b j\u025b k\u025bn\u025b nyuth la\u0331t d\u025b,
+  b\u025b dhil ca\u0331a\u0331t k\u025b j\u025b. Mi ci du\u0254r c\u00e4t k\u025b
+  j\u025b, ci\u025b de k\u0254k, ti k\u025b cu\u0254\u014b k\u025b \u0263\u00f6 de
+  ji loc yi\u00f6w ku.\\nC\u00e4 k\u0254m thieec I de k\u0254k, cet k\u025b du\u0254r
+  in ca nyoth, du\u014b d\u025b \u0263\u00f6 me c\u025b cop cue j\u0254c I tek\u025b
+  bi\u025bl mi d\u0254\u014b mi ci c\u00e4t k\u025b du\u025br e c\u00e4 n\u025bn ki\u025b
+  c\u00e4 m\u025bk.\\nC\u025b we k\u025b\u025bl k\u025b min ca g\u0254r\\nDu\u0254r
+  b\u025b dhil we k\u025bl k\u025b min ca g\u0254r (cet k\u025b min ca g\u0254r ki\u025b
+  tek\u00e4 TV k\u00f6\u00f6k\u00e4). Mi te k\u025b d\u00e4k k\u025b min ca nyoth
+  cu\u025b k\u0254k, k\u00e4 jin ti k\u025b cu\u0254\u014b k\u025b \u0263\u00f6 de
+  ji loc yi\u00f6w ku.\\nC\u00e4 ji\u025bla\u0331n k\u0254k I ca lar i \u2018gu\u0254p\u2019
+  r\u025by wargak thuk\u00e4. Me c\u00e4 cop cie\u014b cue j\u0254c \u025bn \u0263\u00f6
+  ca l\u00e4t k\u025b guop.\\nC\u025b l\u00e4t cet k\u025b min ca lar \u025b ram in
+  k\u0254k \u014b\u0254aak\\nDeri du\u0254r loc j\u0254k mi c\u025b la\u0331t in ca
+  lar \u025b gua\u0331n thuk\u00e4 l\u00e4t.\\nC\u00e4 thak k\u0254k mi ca \u0263\u00e4
+  ji\u00f6k \u025b ram in k\u0254k \u014b\u0254aak I b\u025b l\u00e4t r\u025by pini,
+  du\u014b d\u025b \u0263\u00f6 min c\u00e4 we yie\u00ebr cue thia\u0331\u014b k\u025b
+  piw.\\nC\u025b l\u00e4t cet k\u025b min c\u00e4 thieec\\nDeri du\u0254r loc jok
+  mi c\u025b la\u0331t in la\u0331t in g\u00f6ri l\u00e4t, cet k\u025b \u0263\u00f6:\\n-
+  \u0190 k\u00e4ni j\u025b ni k\u0254k ci\u025b la\u0331r gua\u0331n thu\u0254k \u025bn
+  min bi we la\u0331t k\u025b j\u025b\\n- k\u025bn\u025b \u0263\u00f6 \u014b\u00e4thi
+  min ca la\u0331r ji \u025b ji thunk\u00e4 mi kuanyi du\u0254r. \u0263\u00e4n c\u00e4
+  la\u0331r n\u025by tin la thurbili ak\u0254k \u025bn \u0263\u00f6 g\u00f6r\u00e4
+  thurbil mi de ri\u00e4y d\u00e4 y\u0254c yi\u00eb\u00ebr. Ci gua\u0331n k\u00f6\u00f6k\u00e4
+  \u0263\u00e4 k\u00f6k k\u025bl, ji\u00f6k\u025b \u0263\u00e4 b\u025b la\u0331t we
+  la\u0331t.\\nK\u00e4 k\u025b w\u00e4r e ku\u025bn\u025b wargak thurbil cua\u0331
+  jek \u025bn \u0263\u00f6 c\u025b ri\u00e4y yi\u00eb\u00ebr\u00e4 de y\u0254c a g\u0254a
+  \u025bth\u025bl\u025b ri\u025bk mi tu\u0254k.\\nC\u00e4 ca\u0331r\u00e4 g\u025br\\nCi
+  ji thuk\u00e4 ji de dh\u00f6k \u0263\u00f6 loc ci du\u0254r j\u0254k \u2018mi ci
+  ca\u0331ru g\u025br\u2019. Du\u014b d\u025b \u0263\u00f6 tha\u0331\u014b thukni
+  tek\u025b \u014but ki\u025bn a de ji loc yi\u00f6w, de dundu lu\u025bl k\u025b mi
+  d\u0254\u014b ki\u025b de g\u0254rpiny mi ci ca\u0331ru g\u025br k\u00f6k\u00e4.\\nTh\u025bl\u025b
+  \u0263\u00e4 mi nyoth \u0263\u00f6 c\u00e4 du\u0254r k\u0254k\\nG\u00f6r\u025b \u0263\u00f6
+  bi tek\u025b mi nyoth \u0263\u00f6 ci du\u0254r k\u0254k k\u00e4 thuk \u025bm\u0254.
+  mi thi\u025bl\u025b ji wargak in la ka\u0331m k\u025b ran gua\u0331th k\u00f6k\u00e4,
+  deri du\u0254r th\u00f6p mi nyoth \u0263\u00f6 ci du\u0254r k\u0254k ciet k\u025b:\\n-
+  wargak mi nyoth \u0263\u00f6 ca yi\u00f6w ka\u0331n k\u00e4 ji\\n- wargak mi cia
+  mat i bi yi\u00f6w yu\u0254r piny \u025b math\\n- n\u0254mb\u025br mi nyoth \u0263\u00f6
+  ci du\u0254r k\u0254k\u00e4 int\u025brn\u025bt ki\u025b mi ca ka\u0331m ji k\u025b
+  r\u025by t\u025bl\u025bp\u0254nk\u00e4.\\nC\u00e4 jek \u025b la muc\\nN\u025by tin
+  la moc k\u025b muc tek\u025b cu\u0254\u014b k\u025b \u0263\u00f6 de k\u025b loc
+  yi\u00f6w ki\u025bn mi ci du\u0254r ji\u00e4k, cet k\u025b n\u025by tin k\u0254ak\u025b
+  \u014b\u0254ak k\u00e4 thuk, du\u014b d\u025b \u0263\u00f6 deri du\u0254r loc jok
+  mi nyothi j\u025b ci\u025b k\u0254k. Guic ni nhial.\\nK\u0254ak\u00e4 j\u025b gua\u0331th
+  in k\u0254ak\u025b \u014b\u0254ak thin k\u025b yi\u00f6w ti t\u0254t\\nTi k\u025b
+  cu\u0254\u014b k\u025b \u0263\u00f6 \u2018de ji loc yi\u00f6w ku mi ci du\u0254r
+  k\u0254k k\u025b yiow tit\u0254t\u2019 k\u00e4 c\u025b ji\u00e4k cet k\u025b mi
+  ci du\u0254r k\u0254k k\u025b yi\u00f6w ti \u014buan. Ce g\u0254a \u025bn \u0263\u00f6
+  ba lar i ca rami k\u0254k du\u0254r k\u025b yi\u00f6w ti t\u0254t de loc yi\u00f6w
+  k\u025b mi ci du\u0254r ji\u00e4k.\\nDu\u014b d\u025b \u0263\u00f6 ci bi thiec i
+  ba ji loc yi\u00f6w ku mi ci ji thuk\u00e4 ji nyoth min ci ji\u00e4k, kie tin deri
+  \u014ba\u0331c guath in guici du\u0254r thin. Cet k\u025b wargak in ca la\u0331th
+  pucny lut k\u00e4 mi nyoth j\u025b ca yi\u00f6w k\u025b \u2018yothpiny, mi ci r\u025b\u0331\u0331\u0308\u025b\u0331\u0331\u0308t
+  mi ca k\u0254c\u2019.\\n\u2018Tin la k\u0254ak\u025b k\u025b yi\u00f6w tit\u0254t\u2019
+  k\u025b ti:\\n- ca yi\u00f6w ki\u025bn yothpiny\\n- te k\u00e4 gua\u0331th \u2018nyuthk\u00e4
+  ki\u025b rew\u2019 \u014b\u00e4pk\u00e4\\n- k\u0254ak\u025b gua\u0331th in la\u0331t
+  k\u025b bi\u00e4y ni thin.\\nK\u0254ak\u00e4 j\u025b \u025b la mi ca k\u0254n ci\u025b\u014b\\nBe
+  k\u00e4 thuk: ti k\u025b cu\u0254\u014b k\u025b \u0263\u00f6 de ji loc yi\u00f6w
+  ku mi ci du\u0254r mi ca k\u0254n ci\u025b\u014b k\u0254k, du\u014b d\u025b \u0263\u00f6
+  tit pek runi bi\u00e4y, pek yi\u00f6wni k\u025b k\u025bn\u025b ta\u0331 pua\u0331ny
+  d\u025b \u025bn gua\u0331th \u025b k\u0254k I j\u025b thin\u0254.\\nMi k\u0254k
+  i rar: rami k\u0254k \u014b\u0254aak rar thil\u025b lua\u0331\u014b k\u025b \u0263\u00f6
+  b\u025b ji loc yi\u00f6w, b\u025b du\u0254r g\u025br k\u025b du\u0254r ki\u025b
+  b\u025b min ca k\u0254k ny\u0254k k\u025b l\u00e4tni (cet k\u025b mi k\u0254ak\u025b
+  cie\u014b ki\u025b gua\u0331th k\u00f6k\u00e4 mi dit).\\nK\u0254ak\u00e4 j\u025b
+  k\u00e4 int\u025brn\u025bt\\nMi k\u0254k I du\u0254r k\u00e4 thuni au\u025btralia
+  tin te r\u025by int\u025brn\u025bt, ti k\u025b cu\u0254\u014b k\u025b \u0263\u00f6
+  de ji loc yio\u0331w ku mi ci du\u0254r ji\u00e4k, p\u00e4r\u025b k\u025b mi k\u0254ki
+  du\u0254r k\u00e4 thuk. \u0190 ni mi k\u0254k I du\u0254r k\u00e4 rami d\u0254\u014b
+  rar. Guic ni nhial.\\n\u0194\u00e4n ta\u0331 k\u025b cu\u0254\u014b k\u025b \u0263\u00f6
+  de \u0263\u00e4 col \u2013 de \u0263\u00e4 loc yi\u00f6w, de du\u014b d\u00e4 ny\u0254k
+  k\u025b l\u00e4t ni ki\u025b de \u0263\u00e4 moc mi d\u0254\u014b?\\nTe k\u00e4
+  ta\u0331 in ci tu\u0254k k\u025b du\u0254r, mi \u025b.\\nRi\u025bk midit \u2013
+  ca de rialik\u00e4 ki\u025b b\u025b gua\u0331th mi b\u00e4\u00e4r na\u014b k\u025b
+  rialid\u025b k\u00e4, ki\u025b, Ca bi lu\u00e4\u014b k\u025b rialik\u00e4\\n\u0190
+  ca\u0331ru k\u00e4 r\u0254a mi:\\n- bi du\u0254r loc jok, de ji loc yi\u00f6w ku,
+  ki\u025b ba ji moc mi d\u0254\u014b, ki\u025b\\n- nh\u0254ki du\u0254r k\u00e4 ba
+  ji col k\u025b \u0263\u00f6 ci ben k\u00e4 thuk.\\nRi\u025bk mi t\u0254t \u2013
+  j\u025bn de rialik\u00e4 k\u025b pek gua\u0331th mi t\u0254t\\nBi ji thuoka dhil
+  moc gua\u0331th mi la\u0331t k\u025b du\u0254r k\u025b j\u025b. \u0190 ca\u0331r
+  ji thuk\u00e4 \u025bn \u0263\u00f6 ba ji luoc yi\u00f6w, ba du\u0254r rialik\u00e4
+  ki\u025b ba ji moc mi d\u0254\u014b. Mi ci ji thuk\u00e4 j\u025b g\u00f6r i bi k\u025b
+  du\u0254r rialik\u00e4, \u025b la\u0331t di\u025bn \u025bn \u0263\u00f6 bi k\u025bn\u025b
+  loc gua\u0331th e ta\u0331th k\u025b j\u025b thin k\u00e4 bi k\u025b ruac k\u025b
+  k\u025b.\\nMi ci ji thuk\u00e4 j\u00e4ny, ki\u025b ci k\u025bn\u025b look i bi k\u025b
+  du\u0254r rialik\u00e4, deri:\\n- du\u0254r lock jok k\u00e4 thieeci k\u025b \u0263\u00f6
+  ba ji loc yi\u00f6w ku ki\u025b de ji moc mi d\u0254\u014b\\n- rami d\u0254\u014b
+  g\u00f6r me de du\u0254r la\u0331t k\u025b pek yi\u00f6wni ti t\u0254t ti de lu\u00e4\u014b
+  k\u025b yor piny \u025b ji thuk\u00e4.\\nRi\u00e4t ti k\u0254\u014b\\nK\u025b kuic
+  riatni ti k\u0254\u014b, guil ga\u0331a\u0331th k\u00f6k\u00e4 da.\"", "\"Nuer\\nCie\u014b
+  Latrobe in l\u00e4tk\u025bkuicPu\u0254l\u00e4 Pua\u0331a\u0331nylua\u0331k\u025b
+  n\u025by dial r\u025bycie\u014b Latrobe. Thi\u025bl\u025byio\u0331wtiyu\u0254rk\u025b
+  piny ka\u0331mk\u025bj\u025bnaathbaa\u014b.\\nCie\u014b Latrobe in l\u00e4tk\u025bkuicPu\u0254l\u00e4
+  Pua\u0331a\u0331nylua\u0331k\u025b n\u025by dial r\u025bycie\u014b Latrobe.\\nThi\u025bl\u025byio\u0331wtiyu\u0254rk\u025b
+  piny ka\u0331mk\u025bj\u025bnaathbaa\u014b. Tha\u0331\u014b gua\u0331thni la g\u00f6r
+  k\u025b mit\u0254t thin\\nNh\u0254k n\u025byb\u00ebn dun yi\u025bn dial \u025bnwan\u025b,\u025bc\u00e4\u014b
+  ci tho\u0331kkawayni la tho\u0331k in nhiamdi\u025bnk\u00e4jik\u025b \u0263\u00f6\u00f6
+  b\u00e4k\u0254n gua\u0331thni ti g\u00f6\u00f6l k\u025bn\u025b ci\u025b\u014b tig\u00f6\u00f6l
+  b\u00e4. Mi go\u0331o\u0331ri \u0263\u00f6\u00f6 bi n\u025by ji lu\u00e4k k\u025b
+  cia\u014b pu\u0254l\u00e4 pua\u0331ny,bi n\u025by ji lu\u00e4k k\u00e4 bi n\u025by
+  pu\u0254\u0331ndu jak\u00e4 \u025bg\u0254a.\\nTin la\u0331tk\u0254:\\nT\u00e4 n\u025by
+  k\u025b duel wa\u0331l mi t\u0254t mi te\u0331e\u0331 k\u025bd\u00e4kt\u00f6\u00f6r
+  mi g\u0254a mi lu\u00e4k yi\u025bk\u025b titi:\\n- com k\u025bta\u0331a\u0331pu\u0254\u0331l\u00e4
+  pua\u0331ny k\u00e4jici\u00eb\u014b dial\\n- Tu\u0254\u0331mnath\\n- tietjua\u0331thni
+  tin di\u0331t tin ka\u0331pk\u025bnaathcetk\u025bjueythokeer\\nTha\u0331\u014bk\u00e4
+  tin l\u00e4t n\u025by k\u025b a m\u00e4ni:\\n- l\u00e4\u00e4tnil\u025bc\\n- lu\u00e4kn\u025b\u025bni
+  tin ci d\u0254\u014b tin teci\u00eb\u014bniki\u025bn\\n- lu\u00e4k n\u025bni tin
+  thi\u025bllua\u0331\u014b\\n- lua\u0331kn\u025b\u025bni tin ti\u025btk\u025b n\u025bytithi\u025bllua\u0331\u014b\\n-
+  co\u0331mnik\u025bkui\u0331 t\u0254\u0331c\u00e4gan k\u025bn\u025blu\u00ebthdi\u025bn\\n-
+  di\u025b\u025bryio\u0331o\u0331ni mi ci r\u0254yu\u0254t thin, k\u025bn\u025b \u0263\u00f6\u00f6
+  derir\u0254w\u00e4g\u00f6ri duel ci\u025b\u025b\u014b\u00e4 mi bi liep thin\\n-
+  cu\u0254\u0331m \u2013 ruack\u025b rami t\u00ebriikti bum tic\u025bj\u00ebk k\u025bn\u025b
+  ta\u0331a\u0331 \u00eb\u00ebc\u025bruutnik\u025b\\nlu\u0254\u0331cthukni\\nD\u00eb\u00eb
+  n\u025by jig\u00f6r rami d\u00ebjilu\u0254\u0331cthokni cia\u014b l\u00e4t da \u025bm\u025b.
+  K\u00e4thi\u025bl\u025byio\u0331wtid\u00ebriyu\u0254\u0331r piny.\\nCie\u014b Latrobe
+  min l\u00e4tk\u025bkuicPu\u0254l\u00e4 Pua\u0331a\u0331ny,\u014biic\u025bnaathk\u025bl\u00e4tti
+  g\u00f6\u00f6l.G\u00f6rk\u0254 \u0263\u00f6\u00f6 bak\u0254jili\u014bk\u00e4 bi
+  n\u025byi cu la\u0331tk\u00e4 min go\u0331o\u0331ri.\\nDerik\u0254j\u00ebkin\u025b\\nY\u0254\u0331tnik\u0254ik\u00e4k\u025bnimr\u0254\u025bm\u025b:
+  1800 242 696. K\u00e4l\u00e4rik\u0254c\u00e4\u014bb\u00ebn\u00e4du.K\u00e4derik\u0254j\u00e4k\u00e4war\u025bgakk\u025br\u025byji\u0254mk\u025b
+  email \u025bm\u025b info@lchs.com.au\"", "\"1Bas \u00f1ashka\u0331li\u0331bl\u00f6
+  del \u00f1aje\u0331keta wa k\u00e4i. 2Ke bas je\u0331r shena sa saka ki\u00e4kwa\u0331.
+  Ka ir\u00e4 jiye kuna ta, manele te iw\u00e1\u0331 jek\u00e4i, jera jewa te \u00e1ngel
+  wa ne kiawa\u0331 ka ju\u0331\u00f1ele iwa\u0331 r\u00e4. 3Bas je\u0331r ja\u0331no
+  w\u00e4telecha\u0331wa\u0331 ska, sa\u0331me\u0331ish\u00e4r\u00e4 bas d\u00e4 w\u00e4telecha\u0331wa\u0331\u00f1a
+  ijewa ra k\u00e4i, \u00f1ak\u00e4i s\u00e4 weikarke\u0331 wa ska, sa\u0331me\u0331ish\u00e4r\u00e4
+  bas wakwa yaka ne weikarke\u0331 r\u00e4 k\u00e4i. 4Se\u0331lewa\u0331 wa kiana
+  r\u00e4 d\u00e4l\u00e4tsalewa\u0331 bik\u00f6le wa\u0331; ik\u00e4p\u00e4kl\u00e4
+  shena r\u00e4 sikii ka yakei tele ta. Ka ir\u00e4 jiye kuna ta, S\u00e4kekl\u00e4
+  te ka\u0331wakblewa\u0331k wa ir\u00e4, manenak wa ir\u00e4, ktei wabiketsemiksa\u0331.
+  5Bas kiana dulanak r\u00e4 ka inakl\u00e4 shka\u0331li\u0331bl\u00e4k kuna; ss\u00ebnak
+  a\u0331naa ji tso\u0331 bas wa\u0331 eb\u00e4 wa\u0331. Ka ir\u00e4 jiye kuna ta,
+  ije wa\u0331 iyile: \u201cMik a\u0331ni ka yis wa\u0331 ba janakwa\u0331, mik a\u0331ni
+  ka yis wa\u0331 ba ju\u0331nakta\u0331na.\u201d 6Je ne ki\u0331ka sa te isheke\u0331
+  ka suale ta: \u201cS\u00e4kekewa ne r\u00e4 yis tsa\u0331tk\u00e4k r\u00e4. Ka yis
+  suanakwa\u0331. \u00bfJi we\u0331mi dits\u00e4 te yis uk\u00e4 ja\u0331mi na?\u201d
+  7Bas je\u0331r ja\u0331no bas w\u00e4sik\u00e4k wa ska. Jewa te bas pakta S\u00e4kekl\u00e4
+  kt\u00e4 w\u00e0. Jek\u00e4i jisht\u00e4 ijewa se\u0331le bakle je bikets\u00f6
+  bas ku\u0331, \u00f1ak\u00e4i jisht\u00e4 ijewa te ji biketse etkab\u00e4 r\u00e4
+  mabl\u00f6 bas ku\u0331. 8Jesucristo r\u00e4 idel mikle ir\u00e4, jira ir\u00e4
+  jekjeyemi ir\u00e4. 9Ke bas \u00f1ajawa\u0331 sa pauta\u0331nake\u0331 saka saka
+  jaule ja\u0331mi minak. Ata \u00f1aje\u0331rt\u00e4kiwa\u0331k S\u00e4kekl\u00e4
+  je\u0331r b\u00e4i sh\u00e4ke\u0331 w\u00e0, je ne r\u00e4 b\u00e4i r\u00e4; ka
+  ir\u00e4 ji \u00f1anak w\u00e0 kuna. Ka je kiar je sht\u00e4 wa\u0331k wa ia\u0331
+  ji a\u0331ni ye. 10Saje wa r\u00e4 jile d\u00e4l\u00e4wa\u0331kl\u00e4 ta kju\u0331awa,
+  ata ju w\u00e4jienak wakja\u0331neiwa\u0331k wa ia\u0331 ka ka\u0331 kuna je wame\u0331leka\u0331
+  k\u00e4t\u00e4k. 11Ka ir\u00e4 maik\u00e4i kuna ta, bewak pi r\u00e4 minakwa\u0331tse\u0331
+  chui tsa\u0331ku\u0331i wa\u0331, ija\u0331r d\u00e4l\u00e4tsalewa\u0331 e\u0331e\u0331na
+  si\u0331 ska sa\u0331 nui ki\u0331ka, ata iyaka r\u00e4 d\u00e4l\u00e4nakwa\u0331
+  ijewa ju ji\u0331atkele tso\u0331 ektaka. 12Je ne ki\u0331ka Jes\u00fas te ji shka\u0331l
+  ssa r\u00e4 jukl\u00e4y\u00e4k\u00e4 kj\u00e4sht\u00e4kl\u00e4 ektaka, je w\u00e0
+  iwa\u0331 dits\u00e4 siki tewa\u0331kl\u00e4 iwakei pi w\u00e0. 13Jek\u00e4i s\u00e4
+  kj\u00f6ksa\u0331julu minak ije w\u00e4ki\u0331, ju ji\u0331atkele tso\u0331 ektaka
+  dokoitsanak ije k\u00e4i. 14Iwa r\u00e4 ka sa\u0331 wa\u0331 jiska jukl\u00e4y\u00e4k\u00e4
+  kuna tkelewa\u0331 jekjeye, ata saje wa te r\u00e4 id\u00e4ke\u0331wa\u0331 ji\u0331a
+  ne yule kate r\u00e4. 15Je ne ki\u0331ka ije oloi ja\u0331mi sa\u0331 ku\u0331 S\u00e4kekl\u00e4
+  kjeish\u00f6 del, jile me\u0331ka\u0331 iia\u0331 ye. Je r\u00e4 ikie ktei bata
+  she s\u00e4 kj\u00e4bata w\u00e0 b\u00e4i. 16Ke bas je\u0331r shenak ji b\u00e4i
+  we\u0331 ska, \u00f1atsa\u0331tke jile w\u00e0 ska. Ka ir\u00e4 jiye kuna ta, ji
+  me\u0331ka\u0331 jek\u00e4i ne w\u00e0 S\u00e4kekl\u00e4 w\u00e4b\u00e4ts\u00e4
+  r\u00e4. 17Bas ku\u0331 bas w\u00e4sik\u00e4k wa kt\u00e4 d\u00e4l\u00e4ts\u00f6,
+  jewa yika bas \u00f1aj\u00f6cha\u0331wa\u0331. Ka ir\u00e4 jiye kuna ta, ijewa te
+  bas su\u0331eke\u0331 tsa\u0331na, ijewa ka\u0331w\u00e4 ta je\u0331k ktei sh\u00e4k
+  ji\u0331a jisht\u00e4 ishkabla r\u00e4 k\u00e4i ki\u0331. Jek\u00e4i ijewa kt\u00e4
+  d\u00e4l\u00e4ts\u00f6 ijewa wa\u0331 iwa\u0331kl\u00e4 ss\u00eble a\u0331naa w\u00e0,
+  ka kteleka\u0331 ta. Ata ka jek\u00e4i kuna ra, ka jiye je kiar bas ia\u0331. 18Bas
+  ka\u0331ki\u00f6 s\u00e1 ki\u0331ka. S\u00e1 te ibiketse s\u00e1 je\u0331r ss\u00ebr
+  d\u00e4 b\u00e4i ka nui ta, jek\u00e4i s\u00e1 ss\u00ebna \u00f1aw\u00e4sik\u00e4k
+  b\u00e4i ji bik\u00f6le ska. 19Jek\u00e4i ki\u0331ta yie bas pake je wa\u0331k,
+  yis d\u00e4kl\u00e4ksa\u0331ni mane mane bas ia\u0331. 20Jek\u00e4i S\u00e4kekl\u00e4
+  s\u00e4 ss\u00ebwa\u0331k baa, s\u00e4 kablele \u00f1aia\u0331 jekjeye pi\u00ed
+  ki\u0331ka, saje wa S\u00e4kekewa\u00ed Jes\u00fas, ale oveja kj\u00e4nanak b\u00e4i
+  si\u0331, je tsa\u0331kt\u00e9ka\u0331 s\u00e4 dulecha\u0331wa\u0331 wa sha\u0331na,
+  21je ku\u0331 bas tsa\u0331tk\u00f6pa ji b\u00e4i bik\u00f6le w\u00e0, bas wa\u0331
+  ji sherke\u0331 iki\u0331ka je wa\u0331kl\u00e4, \u00f1ak\u00e4i ije ku\u0331 ji
+  r\u00e4 b\u00e4i ije ia\u0331 je kja\u0331nei wo\u0331pa sa wakwa ska, Jesucristo
+  ale oloi kanakka\u0331 sa\u0331 ke\u0331i etk\u00e4 etk\u00e4 jekjeyemi je oloi
+  ja\u0331mi. Am\u00e9n 22El wa, yis te bas pake j\u00ed kte bas tsa\u0331tk\u00e4kl\u00e4
+  je w\u00e4kuk\u00e4k, yis te iyua r\u00e4 tsi\u0331ne ki\u0331ka. 23Yis te bas je\u0331r
+  ku\u0331eke\u0331 s\u00e4 el Timoteo yenaksa\u0331ni. Jek\u00e4i ikuna ideju\u0331
+  mane mane ra, yis da idami\u00f1a bas su\u0331ak. 24Bas te ishe bas w\u00e4sik\u00e4k
+  wa bik\u00f6le ia\u0331 ir\u00e4, s\u00e4 sikii wa bik\u00f6le ia\u0331 ir\u00e4
+  yie ijewa chakami. Italia wa te bas chakami. 25Je\u0331r b\u00e4i yinopa bas bik\u00f6le
+  ia\u0331.\"", "\"K\u025bn yi\u00f6w ba la\u0332a\u0332t lu\u00e4k k\u025b pi\u00ebth
+  k\u025bn\u025b luoc thin gua\u0332th i\u0332n lu\u00e4k\u025b ji Victoria tin g\u00f6r
+  k\u025b l\u00e4t ti\u0332 tu\u0254k\u025b ni k\u025b.\\nMi \u025b jin ran Victoria
+  mi nh\u0254k \u0264\u00f6\u00f6 bi nath la\u0332th l\u00e4t, k\u025bn l\u00e4t Victoria
+  d\u00eb ji lu\u00e4k k\u025b yi\u00f6w k\u025b \u0264\u00f6\u00f6 bi n\u025by tin
+  cuc \u025bl\u0254\u014b k\u025b kui\u0332 riekni ci\u025b\u014bni gie\u014b\u00e4
+  ti ci tu\u0254k k\u00e4 n\u025by dial.\\n\u0190\u014bu mi la la\u0332t lua\u0332k
+  Victoria?\\nL\u00e4\u00e4t Victoria yi\u00f6w l\u00e4tni tin ca tha\u0332\u014bki\u025bn
+  wuoc \u025b w\u0254\u00e4 k\u00e4 $20,000 t\u00eb k\u025bn thin k\u025b n\u025by
+  tin la\u0332t k\u025b naath tin r\u0254\u014b k\u025b g\u00f6r l\u00e4tni. Yi\u00f6w
+  l\u00e4tni ti ca tha\u0332\u014bki\u025bn wuoc d\u00eb k\u025b mat k\u025b yi\u00f6w
+  tin ci w\u0254\u00e4 rar k\u025b na\u0332a\u0332\u014b la\u0332tni k\u025b k\u0254r
+  p\u00e4thni da\u0332\u014b 12 w\u00e4l r\u025bw r\u025by la\u0332t.\\nDeri\u0332
+  wargakni ku th\u00f6p gua\u0332th 20 yi\u00f6wni ti ca tha\u0332\u014bki\u025bn
+  wuoc \u025b w\u0254\u00e4 nik\u00e4 j\u025bn r\u025bw k\u025b gua\u0332th mi ro\u0332\u014b
+  k\u00e4 p\u00e4r k\u025b la\u0332a\u0332t w\u00eb\u00eb k\u025bl k\u025b p\u00ebk
+  l\u00e4td\u00e4 k\u0254k\u00e4 kuakni ku.\\nP\u00ebk mi 60 j\u025bn b\u00e4k\u025bl
+  wik\u00e4 ku\u0254r r\u025by l\u00e4tni Victoria ba lu\u00e4k m\u00e4n, mi luot
+  ni g\u0254y k\u00e4 tin ci tu\u0254k k\u025b kui l\u00e4th\u00e4 di\u025bn l\u00e4t
+  k\u00e4 tin ci j\u0254c.\\nK\u025b \u0264\u00f6\u00f6 bi r\u0254\u0332\u014b k\u00e4
+  tin wu\u0254c k\u025b tha\u0332\u014bki\u025bn bi rami t\u00eb k\u025b k\u025bl
+  k\u00e4 tin ca la\u0332th nhiam k\u00e4 bu\u0254n \u025bm\u025b t\u00eb piny\u025b.
+  K\u025bn n\u025by \u025b ti\u0332 lu\u00e4k\u025b k\u025b \u0264\u00f6\u00f6 ci
+  n\u025bm\u025b ni \u025b j\u0254c ku\u00e4\u014bdi\u025bn l\u00e4t ya\u0332r ni
+  k\u025bliew d\u025b.\\nK\u025bn l\u00e4\u00e4t Victoria lua\u0332k yi\u00f6wni lua\u0332k\u025b
+  tin ca la\u0332th nhiam k\u00e4 g\u00f6r l\u00e4tni:\\n- M\u00e4n tin ci runki\u025bn
+  cuop k\u00e4 j\u025bn \u014buan 45\\n- G\u00f6r l\u00e4tni tin ci j\u00e4ny ba\u014b
+  k\u025b gua\u0332th mi b\u00e4r (k\u00e4n\u025b l\u00e4t k\u025b k\u0254r p\u00e4thni
+  da\u0332\u014b b\u00e4 k\u025bl ki\u025b \u025b w\u0254\u00e4 w\u0254 nhiam)\\n-
+  G\u00f6r l\u00e4tni ca r\u0254 g\u0254r k\u025b la\u0332a\u0332t Victoria tin t\u00eb
+  k\u025bl k\u025b k\u025b\\n- Di\u00ebl k\u025bn\u025b/ki\u025b g\u0254y ci\u025b\u014b\u00e4
+  n\u025bni tin t\u00eb thok w\u0254ath\\n- N\u025by ti\u0332 thi\u025bl lua\u0332\u014b\\n-
+  N\u025by tin g\u00f6r k\u025b cia\u014b wieni ti\u0332 go\u0332l/gua\u0332th ga\u0332\u014b\\n-
+  N\u025by ti\u0332 \u0264\u00f6th tin pay cuop gua\u0332thni ti\u0332 ci ruac k\u025b
+  thok n\u025bni ti b\u00f6r\\n- N\u025by ti\u0332 ti\u025bni ti\u0332 t\u00eb k\u025b
+  run ti j\u025bn r\u025bw wid\u025b 25\\n- N\u025by tin t\u00eb k\u025b run ti\u0332
+  j\u025bn \u014buan 45\\n- N\u025by tin ci j\u00e4ny l\u00e4t\\n- N\u025by te\u0332
+  ca la\u0332t ni wal r\u025by l\u00e4td\u00e4 Victoria mi ca rialik\u00e4.\\nMi \u025b
+  jin rami la\u0332t naath k\u00e4 ti\u0332 k\u025b nh\u0254k k\u025b g\u00f6r l\u00e4tni
+  Victoria lu\u00e4k, bi la\u0332a\u0332t dhi\u00ebl g\u00f6r k\u00e4 bu\u0254n tin
+  ca la\u0332th nhiam \u025b\u014buot th\u00f6pni wargakni ku k\u025b lu\u00e4k.\\nMi
+  lu\u00e4\u014bi\u0332 tin g\u00f6r k\u025b k\u025b j\u00ebk k\u025bndial k\u00e4
+  th\u00f6pi\u0332 l\u00e4ri\u0332 ti\u0332 r\u0254\u0332\u014b, bi lu\u00e4k j\u00ebk,
+  mi w\u0254\u00e4 k\u025bl k\u025b j\u00ebk \u025bn j\u00ebk\u025b du\u0254r k\u025bn\u025b
+  ta\u0332a\u0332 d\u025b.\\nD\u00ebri\u0332 wargakni ku th\u00f6p gua\u0332th yi\u00f6wni
+  tin wuoc k\u025b 20 tha\u0332\u014bki\u025bn \u025b w\u0254\u00e4ni k\u00e4 j\u025bn
+  r\u025bw k\u025b la\u0332t l\u00e4t ni cia\u014b. Mi \u025b jin rami l\u00e4t naath
+  k\u00e4 t\u00eb k\u025b lua\u0332\u014b k\u025b no\u0332\u014b l\u00e4tni ti \u014buan
+  k\u025b bu\u0254n ti ca la\u0332th nhiam deri\u0332 k\u0254 c\u0254l k\u025b l\u00e4t
+  Victoria k\u025b emailing info@jobs.vic.gov.au\\nJ\u025bn \u025bn thukd\u00e4 r\u0254\u014b\u025b
+  k\u025b \u0264\u00f6\u00f6 b\u025b lu\u00e4k j\u00ebk?\\nMi g\u00f6ri\u0332 \u0264\u00f6\u00f6
+  bi\u025b \u014ba\u0332ci\u0332 r\u0254\u014bi\u0332 k\u025b j\u00ebk lu\u00e4k\u00e4
+  min th\u00f6p k\u025b wargakni thin, y\u0254tni k\u025b l\u00e4t Victoria min la
+  j\u00ebk\u025b k\u025b.\\nK\u025bn l\u00e4\u00e4t Victoria min la j\u00ebk\u025b
+  k\u025b l\u00e4td\u025b k\u025b Lu\u0254\u0332c k\u025bn\u025b gu\u00ebc l\u00e4tni
+  w\u00ebc k\u025bliew (TIS) \u2013 131450 \u2013 k\u025b lu\u0254c k\u025bn\u025b
+  gu\u00ebc r\u025by thukni ti\u0332 ku\u0254r wid\u025b j\u025bn 150 dhi\u00ebc.\\nDeri\u0332
+  \u0264\u0254ni\u0332 bi yua\u0332t b\u0254 k\u025b l\u00e4t Victoria min la j\u00ebk\u025b
+  k\u025b mi ci yua\u0332t \u025b 1300 208 575 kama\u0332 thab\u00e4 \u014buan k\u025b
+  run wa\u014b \u025b w\u0254\u00e4 k\u00e4 thadhi\u00ebc k\u025b thia\u014b, k\u025bl
+  l\u00e4tni \u025b w\u0254\u00e4 k\u00e4 dhi\u00ebc l\u00e4tni k\u00e4 bi n\u025by
+  i\u0332 mat k\u025b TIS, ki\u025b y\u0254\u0332tni TIS k\u025b 131 450 k\u00e4 bi
+  min la y\u0254\u0332t k\u025b k\u0254 cu wi\u00eb. TIS lu\u0254\u0332c d\u00eb k\u025bn
+  wargakni k\u00f6t g\u00f6r r\u025by juam \u025b\u014buot, ki\u025b k\u025b luuc
+  tal\u025bpon\u00e4 mi p\u025b\u0308th k\u025b TIS w\u00ebc k\u025bliew te thin \u025b
+  131 450.\\nL\u00e4ri\u0332 ti\u0332 \u014buan t\u00eb k\u025b thin wa\u0332n\u025bm\u025b:
+  www.tisnational.gov.au\\nB\u00e4 wargakni l\u00e4td\u00e4 th\u00f6p idi?\\nMi g\u00f6ri\u0332
+  lu\u00e4k mi d\u0254\u014b k\u025b th\u00f6p wargakni ku k\u00e4 lu\u00e4k, y\u0254\u0332tni
+  k\u025b l\u00e4t Victoria min la j\u00ebk\u025b k\u025b.\\nK\u025bn l\u00e4\u00e4t
+  Victoria min la j\u00ebk\u025b k\u025b l\u00e4td\u025b k\u025b Lu\u0254\u0332c k\u025bn\u025b
+  gu\u00ebc l\u00e4tni w\u00ebc k\u025bliew (TIS) \u2013 131 450 \u2013 k\u025b lu\u0254c
+  k\u025bn\u025b gu\u00ebc r\u025by thukni ti\u0332 ku\u0254r wid\u025b j\u025bn 150
+  dhi\u00ebc.\\nDeri\u0332f yua\u0332t k\u025b l\u00e4t Victoria min la j\u00ebk\u025b
+  k\u025b \u025b 1300 208 575 kama\u0332 thab\u00e4 \u014buan k\u025b run wa\u014b
+  \u025b w\u0254\u00e4 k\u00e4 thadhi\u00ebc k\u025b thia\u014b, k\u025bl l\u00e4tni
+  \u025b w\u0254\u00e4 k\u00e4 dhi\u00ebc l\u00e4tni k\u00e4 bi n\u025byi\u0332 mat
+  k\u025b TIS, ki\u025b y\u0254tni k\u025b TIS \u025b 131 450 k\u00e4 bi min la y\u0254t
+  k\u025b k\u0254 cu wi\u00eb. TIS lu\u0254\u0332c d\u00eb k\u025bn wargakni k\u00f6t
+  g\u00f6r r\u025by juam \u025b\u014buot, ki\u025b k\u025b luuc tal\u025bpon\u00e4
+  mi p\u025b\u0308th k\u025b TIS w\u00ebc k\u025bliew te thin \u025b 131 450.\\nL\u00e4ri\u0332
+  ti\u0332 \u014buan t\u00eb k\u025b thin wa\u0332n\u025bm\u025b: www.tisnational.gov.au\\nTh\u00f6pni
+  wargakni ku k\u025b r\u025by juam k\u025b bi\u025bl \u025bn ca nyuoth piny wa\u0332n\u025bm\u025b.\\nLu\u00e4k
+  la\u0332th\u00e4 naath l\u00e4t\\nLu\u00e4k te thin k\u025b lu\u00e4kdu k\u025b
+  j\u00ebk k\u025bn\u025b l\u00e4th n\u025bni ti\u0332 r\u0254\u0332\u014b l\u00e4t
+  k\u00e4 bu\u0254\u0332n g\u00f6ri l\u00e4tni min ca la\u0332th nhiam. Mi \u025b
+  jin ramin l\u00e4th naath l\u00e4t, bi l\u00e4tdu g\u0254\u0332r piny k\u00e4 l\u00e4t
+  Victoria\\nMi \u025b jin ramin la\u0332th naath l\u00e4t mi nh\u0254k r\u00ebp l\u00e4tni
+  k\u025b kui n\u025bni tin ca la\u0332th nhiam deri\u0332 yua\u0332t l\u00e4tni Victoria
+  k\u025b Im\u00ebl\\nK\u025b l\u00e4ri\u0332 tin k\u0254\u014b y\u0254tni l\u00e4t
+  Victoria min la j\u00ebk\u025b k\u025b \u025b 1300 208 575 kama\u0332 thab\u00e4
+  \u014buan k\u025b run wa\u014b \u025b w\u0254\u00e4 k\u00e4 thadhi\u00ebc k\u025b
+  thia\u014b, k\u025bl l\u00e4tni \u025b w\u0254\u00e4 k\u00e4 dhi\u00ebc l\u00e4tni.\\nLu\u00e4k
+  l\u00e4th\u00e4 naath l\u00e4t: jobs.vic.gov.au/findstaff\"", "\"1Jek\u00e4i yis
+  el wa, bas ss\u00ebno a\u0331naa S\u00e4kekewa ja\u0331mi. Yie iyueni bas ia\u0331
+  jir\u00e4ni yis wa\u0331 iy\u00f6le kja k\u00e4i, je r\u00e4 ka yis ia\u0331 d\u00e4r\u00ebr\u00eb
+  kuna, je r\u00e4 bas wets\u00e4kl\u00e4ksa\u0331. 2Bas se\u0331no je\u0331rki\u0331i\u0331
+  chichi k\u00e4i wa yika. Bas se\u0331no je\u0331rki\u0331i\u0331 shka\u0331bl\u00e4k
+  yakei wa yika. Bas se\u0331no je\u0331rki\u0331i\u0331 s\u00e4 yaka w\u00e4bik\u00e4k
+  wa yika. 3Tsa\u0331na ra saje wa S\u00e4kekl\u00e4 kja\u0331nei wa\u0331k s\u00e4
+  wikblu w\u00e0, je\u0331k ss\u00eble tul\u00e4ka\u0331 Cristo Jes\u00fas w\u00e0,
+  ka je\u0331k bikets\u00e4k kuna sa yaka ja\u0331mi, jewa ne r\u00e4 tene shkiri
+  ta si\u0331 r\u00e4. 4Jeir\u00e4ta yis ia\u0331 ka\u0331 tso\u0331 je\u0331k yaka
+  bikets\u00e4k. Ikuna yil\u00e9 ia\u0331 je\u0331k yaka biketsar da ra, je tsa\u0331ta
+  yis ia\u0331 ka\u0331 tso\u0331 cha bikets\u00e4k, je r\u00e4 jik\u00e4i: 5ocho
+  d\u00eda ra tene shkiri o\u0331na yis ia\u0331. Yis d\u00e4 Israel wa, Benjam\u00edn
+  ditsei w\u00e4 wa. Hebreo wa sha\u0331na yis d\u00e4 Hebreo wa si\u0331. Ka\u0331wei
+  wawe\u0331 ska ra, yis d\u00e4 fariseo wa. 6Ikju\u0331eitketse ska ra yis d\u00e4
+  tapanak wa yul\u00e4kksa\u0331 weikanak. Wabiketsaneksa\u0331 w\u00e4mo ka\u0331wei
+  ja\u0331mi ska ra, yis d\u00e4 ka shirilewa\u0331 ta. 7Ata yis ia\u0331 ra ji s\u00e4kei
+  ta je ke\u0331i kje ra je biketsaksa\u0331ni yie ka s\u00e4kei ta ji\u0331a Cristo
+  shka\u0331l ja\u0331mi. 8Ka je eb\u00e4 kuna, ata jira ji bik\u00f6le biketsaksa\u0331
+  yie r\u00e4 ka s\u00e4kei ta a\u0331ni yis S\u00e4kekewa\u00ed Cristo Jes\u00fas
+  biketse baa si\u0331 kju\u0331ei. Ije bata ki\u0331ka yis ji bik\u00f6le weikanawa\u0331.
+  Je biketsa yie kje jile boroila ye Cristo kuk\u00e4kl\u00e4wa\u0331 yis wa\u0331
+  ye, 9yis kolonakl\u00e4wa\u0331 ije ja\u0331mi ye, ka wabiketsaleksa\u0331 w\u00e4mo
+  ye ''swakei ji w\u00e1\u0331 ka\u0331wei ja\u0331mi je w\u00e0 kuna, ata wabiketsaleksa\u0331
+  Cristo biketse w\u00e0, wabiketsale w\u00e4mo ye S\u00e4kekl\u00e4 wa\u0331, ji
+  biketse etkab\u00e4 ki\u0331ka. 10Yis ss\u00ebna yis me je\u0331r ko\u0331rpa Cristo
+  ia\u0331, \u00f1ak\u00e4i ije shki\u0331leka\u0331ni t\u00e4kili ia\u0331, \u00f1ak\u00e4i
+  ije weikale shka\u0331l ss\u00e4k\u00f1a, yis ianakl\u00e4wa\u0331 ije su\u0331ta
+  du\u00e4kwa\u0331. 11Jek\u00e4i rale tsi yis shki\u0331rka\u0331ni s\u00e4 dulewa\u0331
+  wa sha\u0331na. 12Ka je r\u00e4 yie je kukawa\u0331 e\u0331n\u00e1 kuna, yis paruna
+  bulee e\u0331n\u00e1 kuna, ata yis chatk\u00e4ke\u0331wa\u0331 d\u00e4r\u00ebr\u00eb,
+  jiye wata Jes\u00fas te yis kuka r\u00e4 je kuk\u00e4kl\u00e4wa\u0331 yis wa\u0331.
+  13El wa, ka je r\u00e4 yis te ibiketse je kukawa\u0331 e\u0331n\u00e1 yie ni kuna,
+  ata j\u00ed eb\u00e4 ne we\u0331ke\u0331 yie r\u00e4, je r\u00e4 ji a\u0331ta\u0331na
+  yis it\u00e4 w\u00e0 je ka biketse kuna ji\u0331a yie, ata ji tso\u0331 yis w\u00e4tsa\u0331k
+  ne kukeke\u0331 yie pjoo r\u00e4, 14je ja\u0331mi yis tu\u0331r kate mar\u00e4 ibata
+  jekje ska, yis kile minak ka\u0331sha\u0331kami S\u00e4kekl\u00e4 wa\u0331 Cristo
+  Jes\u00fas ja\u0331mi je d\u00e4kl\u00e4ksa\u0331 yis ia\u0331 is\u00e4kei ye. 15Bik\u00f6le
+  saje wa k\u00eblecha\u0331wa\u0331 wa ku\u0331 ibikets\u00f6 jek\u00e4i. Ata bas
+  te ibiketseke\u0331 kju\u0331awa ra, S\u00e4kekl\u00e4 te bas w\u00e4ji\u0331atkewe\u0331mi
+  je w\u00e0. 16Ata sa chatk\u00f6wa\u0331 tsa\u0331na bik\u00f6 sa\u0331 wa\u0331
+  ikolole kja ja\u0331mi. 17El wa, bas ku\u0331 yis mabl\u00f6, \u00f1ak\u00e4i bas
+  ku\u0331 se\u0331nak jisht\u00e4 s\u00e1 se\u0331na bas w\u00e4naka k\u00e4i wa
+  su\u0331o. 18Ka ir\u00e4 jiye kuna ta, yis wa\u0331 iyile bas ia\u0331 ta\u0331i,
+  ata jira yie isheni ji\u0331eleksa\u0331 w\u00e0, chu\u0331li\u0331i\u0331 dami
+  r\u00e4 Cristo cruz \u00ed bolki wa ye. 19Bata ska ra ijewa r\u00e4 weikanakcha\u0331wa\u0331.
+  Ijewa kekl\u00e4\u00ed r\u00e4 i\u00f1ab\u00e4li eb\u00e4. Ijewa \u00f1ass\u00e4ke\u0331
+  r\u00e4 iji \u00e4ina eb\u00e4 w\u00e0, ijewa te ji ka\u0331jiska eb\u00e4 biketseke\u0331
+  r\u00e4. 20Ata ka\u0331j\u00f6ir ke\u0331i ja\u0331mi saje wa \u00e4y\u00eb\u00ed
+  y\u00f6le r\u00e4, mai Sa\u0331tsa\u0331tk\u00e4kksa\u0331 ki\u0331ss\u00ebnak sa\u0331
+  wa\u0331 pjoo bit\u00e4ke\u0331 ska, je r\u00e4 S\u00e4kekewa Jesucristo. 21Ije
+  te s\u00e4 yaka shi\u0331ana manewe\u0331miksa\u0331ni yaka ta baa ije cha su\u0331ta
+  w\u00e0, it\u00e4kili iwa\u0331 ji kuk\u00e4kl\u00e4wa\u0331 iwakei niki\u0331ka
+  te ji we\u0331 w\u00e0.\"", "\"L\u00e4t Victoria \u0263\u0254n d\u00e4r\\nL\u00e4t
+  Victoria k\u00e4 \u0263\u0254n d\u00e4r lud\u025b r\u0254 k\u025b n\u025by tin \u025b
+  la n\u025by ti ci r\u0254 rial I k\u00e4 k\u025b \u0263\u00f6\u00f6 bi k\u025b l\u00e4t
+  k\u025b n\u025by tin bi k\u025b muoc k\u025b l\u00e4\u00e4t k\u025bn\u025b n\u025by
+  tin ci r\u0254 rial I k\u00e4 k\u025b l\u00e4t.\\nBi n\u025by l\u00e4t k\u025b ji
+  k\u025bl k\u00e4 bak\u0254 ji lu\u00e4k k\u025b \u0263\u00f6\u00f6 bi min gori \u025bn
+  \u0263\u00f6\u00f6 bi l\u00e4t \u014b\u00e4c k\u00e4 bak\u0254 ji lu\u00e4k k\u025b
+  gor n\u025bni ti \u014b\u00e4c l\u00e4t k\u00e4 ti ci j\u00e4ny l\u00e4t k\u00e4
+  j\u025bn gu\u00e4th \u025bn gor Victoria k\u025b l\u00e4t thin.\\nK\u00e4 l\u00e4t
+  \u025b e di?\\nG\u0254r ni r\u0254 du piny k\u025b \u0263\u00f6\u00f6 bi l\u00e4\u00e4t
+  bi k\u025b ja k\u00e4 \u014b\u00e4c k\u00e4 k\u025b k\u00e4 n\u025by tin r\u0254\u014b
+  k\u025b l\u00e4t k\u00e4 \u0263on d\u00e4r l\u00e4\u00e4t k\u025b k\u025bn t\u0254t\u0254:\\n-
+  k\u025b \u014bu\u0254t bi k\u025bn \u025b p\u00e4th d\u00e4\u014b ti\u0254k, du\u014b
+  d\u025b \u0263\u00f6\u00f6 k\u025b tha\u014b gu\u00e4\u00e4thni b\u0254 d\u00e4ra
+  gu\u00e4th mi t\u0254t.\\n- ba ji k\u00e4m yow k\u025b p\u00e4k \u025b t\u00e4 k\u00e4
+  mukt\u00e4p, ki\u025b k\u025b p\u00e4k \u025b t\u00e4 k\u00e4 warga , ki\u025b k\u025b
+  p\u00e4k \u025bn dit ni j\u025bn.\\nk\u025b j\u025bn \u0263\u0254n d\u00e4r deri
+  t\u0254t\u0254 ni l\u00e4t:\\n- deri l\u00e4\u00e4t l\u00e4th \u0263\u0254n lany\\n-
+  deri n\u025by tin r\u0254\u014b k\u025b \u0263\u00f6\u00f6 bi k\u025b l\u00e4t k\u025bn\u025b
+  n\u025by tim ci r\u0254\u014b k\u025b lat d\u00e4k.\\n- kuany k\u025b k\u00e4 n\u025by
+  dial tin ci warga ni ki\u025bn l\u00e4th r\u025bc.\\nK\u00e4 de kul\u025b t\u0254k
+  \u0263i di?\\nThu\u00f6k r\u0254 k\u025b g\u0254r piny k\u00e4 warga \u025bn g\u0254r
+  n\u025by dial r\u0254 piny thin \u2013 g\u0254r ni c\u00f6du piny ki\u025b nimr\u0254
+  \u025bn ba j\u00e4k ni ji k\u025b min gori bi l\u00e4t.\\nk\u00e4 mi ci r\u0254
+  thu\u00f6k k\u025b g\u0254r piny bi t\u0254t\u0254 ni t\u0254k:\\n- bi n\u025by
+  ji c\u0254l k\u00e4 ban\u025b b\u00e4n ruac k\u025b kuic ba\u014bni tin te thin
+  k\u00e4 b\u00e4k\u0254 ji lu\u00e4k k\u025b lep b\u0254k \u025bn bi tuaw thin.\\n-
+  lep ni r\u0254 min bi lat k\u025b thur\u025b k\u00e4 min k\u00e4 jak ni j\u025b
+  k\u00e4 \u0263\u00f6\u00f6 bi k\u025b, k\u025bn\u025b w\u025bpcite du\\n- k\u00e4
+  bi ku tu\u0254k ni \u0263\u00f6\u00f6 leth i l\u00e4t k\u00e4 d\u00e4r.\\nDeri lu\u00e4k
+  g\u0254r k\u00e4 l\u00e4\u00e4 ni \u014buak ni l\u00e4t ?\\nLu\u00e4k k\u025b l\u00e4th
+  ni \u014buak ni l\u00e4\u00e4t k\u00e4 \u0263\u0254n d\u00e4r kua j\u025b \u014bu\u00f6n
+  \u025b Sidekicker: support@sidekicker.com.au ki\u025b yuat 1800 882 694.\\nT\u00e4
+  lu\u00e4k ti k\u0254 ki\u025bn thin b\u0254 k\u00e4 ti ja g\u0254r k\u025b kuic
+  n\u025bni tin tuok ni lat, d\u00e4 k\u025bn ji lu\u00e4k k\u025b \u0263\u00f6\u00f6
+  deri lat l\u00e4th k\u00e4 \u0263\u0254n lany e di k\u025bn\u025b t\u00e4\u0263\u00e4
+  \u025bn deri ba\u014b k\u025b kuic l\u00e4t ni.\\nK\u00e4 t\u00e4 lu\u00e4\u00e4k
+  ti k\u0254 kiwn thin?\\nMin d\u0254\u014b di\u025bn \u025bn \u025b k\u025bn\u025b
+  l\u00e4t tin t\u00e4 k\u00e4 \u0263\u0254n d\u00e4r, l\u00e4t Victoria k\u00e4m
+  k\u025bn l\u00e4\u00e4t dial jak\u025bn k\u025b k\u00e4 r\u00f6m k\u025bn\u025b
+  n\u025by tin th\u00f6p l\u00e4t.\\nL\u00e4t Victoria (JVEN) \u025b du\u014b d\u025b
+  min l\u00e4t d\u025b \u025bl\u0254\u014b k\u00e4 kum\u025b min lu\u00e4k n\u025by
+  tin ci l\u00e4t mala j\u00e4k. La k\u00e4m k\u025b k\u025bk\u025b \u025b n\u025by
+  tin \u014b\u00e4c th\u00f6p ni l\u00e4t ni. Tin l\u00e4t k\u025bl k\u025b n\u025by
+  tin ku naath muoc l\u00e4\u00e4t k\u00e4 tin ku ba\u014b l\u00e4t ni th\u00f6p k\u00e4
+  jak k\u025bn n\u025by tin gor k\u00e4 \u0263\u00f6\u00f6 bi k\u025b r\u0254 riali
+  k\u00e4 k\u025b kuic l\u00e4t ni t\u0254t\u0254.\\nL\u00e4t Victoria k\u025bn\u025b
+  n\u025by tin l\u00e4t k\u025b k\u0254 k\u025bl bi k\u025b ji lu\u00e4k k\u025b gor
+  lat a thi\u025bl mi bi yu\u0254r piny bi n\u025by:\\n- bak\u0254 l\u00e4t k\u025b
+  ji k\u025bl k\u025b \u0263\u00f6\u00f6 bi l\u00e4t \u014b\u00e4c k\u025bn\u025b
+  min bi mi wiw\u00e4 jany l\u00e4t\\n- k\u00e4 mi n\u025by tin r\u0254\u014b k\u025b
+  \u0263\u00f6\u00f6 bi lat \u025bm\u025b lut \u014b\u00e4c\\n- bi n\u025by tin gor
+  lat lu\u00e4k k\u025b rial i di\u025bn k\u025b r\u0254 k\u00e4 b\u025b t\u0254t\u0254
+  mat \u014bic ni k\u025b \u014b\u00e4c lat, rep \u014b\u00e4c di\u025bn k\u025b lat
+  k\u025bn\u025b \u014b\u00e4c ni di\u025bn k\u025b tin dial tin gor k\u025bn k\u025b.\\nK\u00e4
+  bi naath dial tin pay lat j\u00e4k ni\u025b min ci k\u025b lat j\u00e4k, k\u025b
+  \u0263\u00f6\u00f6 bi k\u025bn kul\u025b t\u00e4k\u025b \u014b\u00e4c k\u025b gu\u00e4th
+  lat.\\nGor n\u025by mi gori \u014b\u00e4c k\u00e4 ti \u014buan k\u025bn\u025b kuic
+  \u025bn d\u00e4 n\u025by \u025b lu\u00e4k ji k\u025b kuic lat du.\\nK\u00e4 deri
+  lat j\u00e4k b\u0254 k\u00e4 gor l\u00e4t ni Victoriar tin l\u00e4t gu\u00e4th \u025bn
+  cie\u014b e thina.\"", "\"1\u00d1er\u00e4 Iconio ska ijewa kjawa\u0331julu Jud\u00edo
+  wa \u00f1apakt\u00e4kl\u00e4 jui ska. Jeska ijewa te sa pakta ss\u00ebr ta b\u00e4i
+  eb\u00e4, je ki\u0331ka chu\u0331li\u0331i\u0331 wa te Jes\u00fas biketsa, Jud\u00edo
+  wa ir\u00e4 Griego wa ir\u00e4. 2Ata Jud\u00edo wa ka je kte kuk\u00e4k kuna wa
+  te ka Jud\u00edo kuna wa w\u00e4tji\u0331wa\u0331ka\u0331, jewa je\u0331rtka ite
+  ikju\u0331atk\u00e4kl\u00e4 s\u00e4 el wa ra. 3Ata ijewa te sa pakta ji\u0331a ta\u0331i
+  ka suale kuna, S\u00e4kekewa eb\u00e4 biketsale. Ije te ije\u0331r b\u00e4i sh\u00e4ke\u0331
+  ktei kjasheke\u0331 iyina si\u0331 ir\u00e4, ite ijewa ia\u0331 t\u00e4kili me\u0331ke\u0331
+  w\u00e0, je w\u00e0 ijewa wa\u0331 ijula w\u00e0 ji ka su\u0331le sa\u0331 wa\u0331
+  wa\u0331kl\u00e4, ji kju\u0331awa wa\u0331kl\u00e4 ijuenakl\u00e4 ye. 4Ata jukl\u00e4y\u00e4k\u00e4
+  ska tso\u0331 wa \u00f1abalabutsaksa\u0331, moska Jud\u00edo wa ja\u0331mi, moska
+  Jes\u00fas ktei bata sh\u00e4k wa ja\u0331mi. 5Jera ka Jud\u00edo kuna wa ir\u00e4
+  Jud\u00edo wa ir\u00e4 \u00f1aje\u0331rku\u0331a iw\u00e4kiri wa ra ijewa weik\u00e4k
+  diekjela ir\u00e4, iti\u00e4k jak w\u00e0 ir\u00e4. 6Je ju\u0331\u00f1awa\u0331
+  ijewa te ra, ijulunami Licaonia jukl\u00e4y\u00e4k\u00e4\u00ed Listra ir\u00e4 Derbe
+  ir\u00e4 ska, \u00f1ak\u00e4i je ke\u0331i p\u00e1ja\u0331mi na. 7Jeska ijewa te
+  kte baa bata sha. 8Listra ska ekla kl\u00e4 ialewa\u0331, ko\u0331le del ka shk\u00e4k
+  kuna, ka shkele kuna a\u0331ni, 9je te Pablo kt\u00e4 ss\u00eb kalme. Je wanana
+  Pablo te jaree, ite isu\u0331a ra je te ji biketsa etkab\u00e4 w\u00e0 tsi ib\u00e4irka\u0331ni.
+  10Jera ite isha t\u00e4kii: \u2014Ma je\u0331k\u00f6ka\u0331 je\u0331k du\u00e4kka\u0331
+  kl\u00e4 ki\u0331. Jera ije\u0331k kpaka\u0331 plaa shkami. 11Jek\u00e4i mika\u0331
+  dits\u00e4 tapar tso\u0331 chu\u0331li\u0331i\u0331 te ji w\u00e1\u0331 Pablo te
+  su\u0331a ra, ijewa kjoyina t\u00e4kii Licaonia wa kt\u00e4 w\u00e0: \u2014\u00a1S\u00e4
+  kekl\u00e4\u00ed wa dewa\u0331julu sa\u0331 sha\u0331na dits\u00e4 ye! 12Je ki\u0331ka
+  ijewa te Bernab\u00e9 kia r\u00e4 Zeus ni, Pablo kia ite r\u00e4 Hermes ni, ije
+  ne kt\u00e4ke\u0331 r\u00e4 ki\u0331ka. 13\u00d1er\u00e4 jukl\u00e4y\u00e4k\u00e4
+  na s\u00e4 kj\u00e4kl\u00e4wa\u0331 ska Zeus templo\u00ed kate, je chui te toro
+  jat\u00e9, tsitsia w\u00e4 but\u00e4le ks\u00e1 ja\u0331mi jat\u00e9 je jukl\u00e4y\u00e4k\u00e4
+  kj\u00e4sht\u00e4kl\u00e4 ska. Jera dits\u00e4 chu\u0331li\u0331i\u0331 wa ra \u00f1ara
+  iss\u00ebna je ma\u0331kka\u0331 ijewa w\u00e4na. 14Jera Jes\u00fas ktei bata sh\u00e4k
+  Bernab\u00e9 ir\u00e4 Pablo ir\u00e4 te je ssa ra, ite ipaikl\u00e4 ksha tkawa\u0331,
+  ijuluna je chu\u0331li\u0331i\u0331 wa sha\u0331na kjoyina jela te isha: 15\u2014Bas
+  dik\u00e4la, \u00bfjiye bas te jek\u00e4i we\u0331ke\u0331 r\u00e4 na? S\u00e1 r\u00e4
+  dits\u00e4 eb\u00e4 bas k\u00e4i \u00f1aeb\u00e4. S\u00e1 te bas ia\u0331 kte baa
+  bata sheke\u0331, je r\u00e4 bas wa\u0331 jek\u00e4i ji we\u0331 ka wata j\u00e4kl\u00e4wa\u0331,
+  bas \u00f1amanewa\u0331kl\u00e4ksa\u0331 S\u00e4kekl\u00e4 kseka ka\u0331j\u00f6ir
+  ir\u00e4 ka\u0331jiska ir\u00e4, d\u00e4y\u00eb ir\u00e4, ji bik\u00f6le tso\u0331
+  jeska ir\u00e4 je yu\u00e4kksa\u0331 wakei ia\u0331. 16Mikle sa bakle wa ke\u0331i
+  ska s\u00e4 ditsei w\u00e4 bik\u00f6le jawa\u0331 S\u00e4kekl\u00e4 te shk\u00e4k
+  iwakwa ki\u0331 ji shena ja\u0331mi. 17Jeir\u00e4ta ite ji we\u0331ke\u0331 b\u00e4i
+  iwakei je\u0331k kjash\u00e4kl\u00e4 ye ka janewa\u0331 iwa\u0331, bas ia\u0331
+  ka\u0331li\u0331 patk\u00e4k ka\u0331j\u00f6ir ska k\u00e4i, d\u00e4li w\u00e4wa\u0331k
+  iw\u00e4nakl\u00e4 ke\u0331i ska k\u00e4i, ji \u00f1anak yanak bik\u00f6le ma\u0331k
+  k\u00e4i, \u00f1ak\u00e4i bas je\u0331r ss\u00ebwa\u0331k a\u0331naa k\u00e4i. 18Jek\u00e4i
+  ite jile sha, jeir\u00e4ta je chu\u0331li\u0331i\u0331 wa te ji me\u0331ke\u0331ka\u0331
+  iw\u00e4na elkje ra ka je w\u00e4tkenewa\u0331. 19Jera Jud\u00edo wa datse\u0331
+  Antioqu\u00eda ska Iconio ska jewa dejulu te je chu\u0331li\u0331i\u0331 wa je\u0331rtka,
+  jek\u00e4i jewa te Pablo tia ta\u0331i jak w\u00e0, sika tsa\u0331mi jukl\u00e4y\u00e4k\u00e4
+  ektaka, ijewa te ibiketsa iduawa\u0331 ni. 20Ata kte kuk\u00e4k wa \u00f1atapawa\u0331
+  ip\u00e1ja\u0331mi shkiritke, jera ije\u0331kaka\u0331ni mineju\u0331ni je jukl\u00e4y\u00e4k\u00e4
+  na. Jek\u00e4i bulirisht\u00e4 ra imineju\u0331mi Bernab\u00e9 ra Derbe ska. 21Je
+  jukl\u00e4y\u00e4k\u00e4 ska ijewa te kte baa bata sha, chu\u0331li\u0331i\u0331
+  kuka Jes\u00fas ktei kuk\u00e4k wa ye, je uk\u00e4 ska ra, ijewa bitejuluni Listra
+  ska, Iconio ska, Antioqu\u00eda ska, 22ijewa te kte kuk\u00e4k wa ki\u0331t\u00e4kiwa\u0331,
+  iki\u0331pakta ji bikets\u00e4k etkab\u00e4 maitj\u00e4. Ijewa te isha: \u2014B\u00e4i
+  si\u0331 ra sa kiana weikane ta\u0331i d\u00e4l\u00e4r ss\u00e4k, s\u00e4 kj\u00e4kl\u00e4wa\u0331
+  S\u00e4kekl\u00e4 gobierno\u00ed ja\u0331mi. 23Jera ijewa te tapanak wa w\u00e4kiri
+  kuka iwakwa ke\u0331i ja\u0331mi. Jek\u00e4i ika\u0331kia ibatsa ijewa ki\u0331ka
+  e\u0331n\u00e1 ra, ite ijewa tulaksa\u0331 S\u00e4kekewa ijewa wa\u0331 biketsanak
+  wakei ia\u0331 iwa\u0331 ju\u0331\u00f1enak. 24Idat\u00e9juluni Pisidia w\u00e0
+  dejulu Panfilia ska. 25Jek\u00e4i ijewa te kte wapakta Perge ska, kjepa imineni
+  Atalia ska. 26Jeska iju\u0331nat\u00e9 ko\u0331no ki\u0331 d\u00e4kni Antioqu\u00eda
+  ska. Je ne ska S\u00e4kekl\u00e4 je\u0331r b\u00e4i sh\u00e4k sa\u0331 ia\u0331
+  wakei ia\u0331 ijewa tululeksa\u0331 iwa\u0331 ju\u0331\u00f1enak, ijewa wa\u0331
+  ikja\u0331nei wa\u0331kl\u00e4 r\u00e4. Je ne waw\u00e1\u0331 e\u0331n\u00e1 ijewa
+  te r\u00e4. 27Ijewa dene ra ite tapanak wa tapawa\u0331wa\u0331. Jewa ia\u0331 ite
+  bik\u00f6 S\u00e4kekl\u00e4 te ji w\u00e1\u0331 ijewa oloi ja\u0331mi k\u00e4i,
+  maik\u00e4i S\u00e4kekl\u00e4 te ka Jud\u00edo kuna wa je\u0331r ku\u0331a ji biketse
+  etkab\u00e4 w\u00e0 k\u00e4i, je bik\u00f6le paka. 28Jeska ijewa se\u0331na ta\u0331i
+  kte kuk\u00e4k wa sha\u0331na.\"", "\"1S\u00e4li yis te jile sheke\u0331 yuletene
+  w\u00e0 katabl\u00f6pa elkje. Jek\u00e4i ir\u00e4, bas te yis katable ji\u0331a.
+  2Yis te bas kju\u0331eitketse jisht\u00e4 S\u00e4kekl\u00e4 te sa\u0331 kju\u0331eitketse
+  k\u00e4i. Ka ir\u00e4 jiye kuna ta, yis d\u00e4 kablele bas ma\u0331kksa\u0331 j\u00e4iyi
+  eklab\u00e4 ia\u0331, jisht\u00e4 busi ka se\u0331le kuna k\u00e4i. Je r\u00e4 Cristo
+  ia\u0331. 3Ata yis suarke\u0331, i\u00f6 yil\u00e9 te bas je\u0331r me\u0331 ka
+  Cristo bikets\u00e4k ji\u0331a etkab\u00e4 bulee, jisht\u00e4 tk\u00e4be te Eva
+  w\u00e4yuawa\u0331 ije\u0331rik\u00e4 w\u00e0 k\u00e4i. 4Ka ir\u00e4 jiye kuna ta,
+  yil\u00e9 kuna d\u00e4kmi Jes\u00fas saka kju\u0331awa ktei sh\u00e4k, ka ale s\u00e1
+  wa\u0331 ktei yinak ss\u00ebta kuna ir\u00e4le, bas kuna wikblu saka kuk\u00e4kwa\u0331,
+  ka ale bas wa\u0331 kolole k\u00e4i kuna ir\u00e4le, kte baa saka ki\u00e4kwa\u0331,
+  ka ale bas wa\u0331 kolole kuna k\u00e4i ir\u00e4le ra, je katableke\u0331 b\u00e4i
+  bas te. 5Ata yis ia\u0331 ra ka yis d\u00e4 ja\u0331lewa\u0331 ji a\u0331ni ska
+  je Jes\u00fas ktei bata sh\u00e4k b\u00e4i si\u0331 ye wa kat\u00e4b\u00e4ka kuna.
+  6B\u00e4r\u00e4le yis kt\u00e4 r\u00e4 ka ss\u00ebrta b\u00e4i, ata ka jek\u00e4i
+  yis d\u00e4 kuna ji ju\u0331\u00f1e ska ra. \u00d1era ji bik\u00f6le ska, ji bik\u00f6le
+  w\u00e0 yis wa\u0331 je kjayile bas ia\u0331 r\u00e4. 7Ata yis te bas ia\u0331 S\u00e4kekl\u00e4
+  ktei baa bata sha ka to\u0331le kuna, je w\u00e0 yis je\u0331k jawa\u0331 bas oloi
+  kanakl\u00e4ka\u0331, \u00bfje ki\u0331 yis d\u00e4 nui ta na? 8Tapanak eyaka eyaka
+  wa saka te yis ia\u0331 inakl\u00e4 ma\u0331 yis wa\u0331 bas tsa\u0331tk\u00e4kl\u00e4
+  kte w\u00e0. Je r\u00e4 sa\u0331me\u0331ish\u00e4r\u00e4 yie ijewa wa\u00f1a k\u00e4i.
+  9Yis se\u0331na bas sha\u0331na ra, jeska yis ki\u0331 ji shena ra, ka yis wa\u0331
+  yi a\u0331ni weikane jile w\u00e0, ata s\u00e4 el wa Macedonia wa date te ji shena
+  yis ki\u0331 je ma\u0331 yis ia\u0331. Ji bik\u00f6le ska yis ji w\u00e1\u0331 tsa\u0331na,
+  ka yis wa\u0331 bas weik\u00e4kl\u00e4. Jek\u00e4i yie iwe\u0331mi ji\u0331a. 10Cristo
+  kt\u00e4 r\u00e4 iyina si\u0331, je tso\u0331 yis wa\u0331. Je w\u00e0 yis te ishe,
+  j\u00ed yis je\u0331k kjeish\u00e4 ka je w\u00e4tkenak Acaya ke\u0331i ska wa ia\u0331.
+  11\u00bfJiye na? \u00bfJe r\u00e4 ka yis wa\u0331 bas shka\u0331li\u0331blene na?
+  \u00d1era S\u00e4kekl\u00e4 wa\u0331 iju\u0331\u00f1er yis wa\u0331 bas shka\u0331l.
+  12Ata yis wa\u0331 o\u0331nak, je we\u0331mi ji\u0331a yie, je r\u00e4 manele je\u0331k
+  ss\u00e4ke\u0331 w\u00e0 iss\u00ebna d\u00e4kwa\u0331 s\u00e1 k\u00e4i, jewa ia\u0331
+  ka ka\u0331 me\u0331nakl\u00e4 kuna ije\u0331k ss\u00e4kl\u00e4 ji ki\u0331ka. 13Ka
+  ir\u00e4 jiye kuna ta, jewa r\u00e4 Jes\u00fas ktei bata sh\u00e4k wa me\u0331i
+  eb\u00e4, s\u00e4 w\u00e4yu\u00e4k shka\u0331bl\u00e4k wa ye, je\u0331k iawa\u0331k
+  Cristo ktei sh\u00e4k wa ye. 14Ata ka je r\u00e4 ji sa\u0331 ma\u0331le\u0331cha\u0331kwa\u0331
+  k\u00e4i kuna. Ka ir\u00e4 maik\u00e4i kuna ta, \u00f1era Satan\u00e1s wakei r\u00e4
+  je\u0331k iawa\u0331k ka\u0331 oloi \u00e1ngel \u00ed ye. 15Je ki\u0331ka iwakei
+  kja\u0331nei wa\u0331k wa je\u0331k iawa\u0331ke\u0331 ji w\u00e4mo kja\u0331nei
+  wa\u0331k wa k\u00e4i ra, ka je r\u00e4 ji ta\u0331i sa\u0331 ma\u0331le\u0331cha\u0331kwa\u0331
+  k\u00e4i kuna. Bata ska ra ijewa ia\u0331 id\u00e4miksa\u0331 jisht\u00e4 ite ji
+  w\u00e1\u0331 ja\u0331mi. 16Yis te ishe et\u00e4b\u00e4 kicha ni, ke yi a\u0331ni
+  ku\u0331 ibiketsa yis yuletenawa\u0331 ir\u00e4 ni, ata kai ra, je ku\u0331 yis
+  kuk\u00f6 jisht\u00e4 yuletelewa\u0331 k\u00e4i, yis je\u0331k kjeish\u00e4kl\u00e4
+  elkje. 17Ji sheke\u0331 yie, ka je she kuna yie S\u00e4kekewa te ishe ja\u0331mi,
+  ata jisht\u00e4 yuletelewa\u0331 k\u00e4i, je r\u00e4 yie ibiketse ji tso\u0331
+  yis je\u0331k kjeish\u00e4kl\u00e4 ki\u0331ka. 18Chu\u0331li\u0331i\u0331 \u00f1a
+  kjeish\u00e4ke\u0331 iyaka w\u00e0. Je kju\u0331ei yis maju\u0331 je\u0331k kjeish\u00e4k
+  \u00f1aeb\u00e4. 19Je r\u00e4 bas d\u00e4 je\u0331rik\u00e4 ta ta\u0331i ki\u0331ka,
+  bas te yuletenak wa katableke\u0331 je\u0331r baa w\u00e0. 20Jek\u00e4i yil\u00e9
+  te bas kukeke\u0331wa\u0331 kjanakl\u00e4 wa ye ir\u00e4le, yil\u00e9 te bas wa\u00f1eke\u0331
+  ir\u00e4le, yil\u00e9 te bas ji kukeke\u0331wa\u0331 ir\u00e4le, yil\u00e9 je\u0331k
+  ss\u00e4ke\u0331ka\u0331 bas ki\u0331ka ir\u00e4le, yil\u00e9 te bas kpeke\u0331
+  bas w\u00e4ki\u0331 ir\u00e4le ra, je katableke\u0331 bas te. 21\u00c4ilewa\u0331
+  w\u00e0 yie ishe, ka s\u00e1 t\u00e4kili deneka\u0331 jek\u00e4i iwa\u0331k. Yis
+  kt\u00e4ke\u0331 yuletelewa\u0331 k\u00e4i, ata yie ishe manele ka suane je\u0331k
+  kjeish\u00e4k ra, ka yis suanak je\u0331k kjeish\u00e4k \u00f1aeb\u00e4. 22\u00bfIjewa
+  r\u00e4 Hebreo wa na? \u00d1era yis \u00f1aeb\u00e4. \u00bfIjewa r\u00e4 Israel
+  wa na? \u00d1era yis \u00f1aeb\u00e4. \u00bfIjewa r\u00e4 Abraham batala na? \u00d1era
+  yis \u00f1aeb\u00e4. 23\u00bfIjewa r\u00e4 Cristo kja\u0331nei wa\u0331k wa na?
+  \u00d1era yis d\u00e4 ijewa tsa\u0331ta. Je r\u00e4 yis kt\u00e4ke\u0331 yuletelewa\u0331
+  k\u00e4i. Yis shka\u0331blele ki\u0331ta. Yis w\u00e4tele ki\u0331ta. Yis bukle
+  ki\u0331ta. Yis bakle ka\u0331raa duewa\u0331 sha\u0331na. 24Cinco veces d\u00e4ka\u0331
+  Jud\u00edo wa wa\u0331 yis bukle ksa bata w\u00e0 d\u00e4ka\u0331 treinta y nueve
+  veces. 25Ma\u00f1at\u00e4b\u00e4 kicha yis bukle kal w\u00e0. Etaba kicha yis tena
+  jak w\u00e0. Ma\u00f1at\u00e4b\u00e4 kicha ko\u0331no w\u00e4it\u00e4bina yis w\u00e4kseka.
+  Etaba kicha yis kja d\u00e4y\u00eb bata ki\u0331ka ka\u0331mii tuina ir\u00e4 ka\u0331piana
+  ir\u00e4. 26Ka\u0331raa yis shkele ka\u0331mii, dikl\u00e4 ta\u0331i na, jakbl\u00e4k
+  wa d\u00e4l\u00e4na sha\u0331na, yis ditsei w\u00e4 d\u00e4l\u00e4na sha\u0331na,
+  ka Jud\u00edo kuna wa d\u00e4l\u00e4na sha\u0331na, jukl\u00e4y\u00e4k\u00e4 ska
+  d\u00e4l\u00e4na sha\u0331na, ka\u0331 wakei eb\u00e4 ska d\u00e4l\u00e4na sha\u0331na,
+  d\u00e4y\u00eb ki\u0331 d\u00e4l\u00e4na sha\u0331na, s\u00e4w\u00e4yu\u00e4k s\u00e4
+  el wa ye d\u00e4l\u00e4na sha\u0331na, 27shka\u0331ble ta\u0331i sha\u0331na, chichane
+  jaree sha\u0331na, w\u00e4\u00f1ine ta\u0331i sha\u0331na, b\u00e4li ir\u00e4 je\u0331r
+  ba ne ir\u00e4 ss\u00eb sha\u0331na, ka ji \u00f1a\u0331le kuna sha\u0331na, ka\u0331
+  tse\u0331e\u0331 ir\u00e4 ka pajiele kuna ir\u00e4 sha\u0331na. 28Ka je eb\u00e4
+  kuna, ata buliri buliri yis te tapanak eyaka eyaka wa bik\u00f6le biketseke\u0331.
+  29Yil\u00e9 ja\u0331lmanawa\u0331 ra, je te yis ja\u0331lmawe\u0331ke\u0331. Yil\u00e9
+  shiriwa\u0331wa\u0331 isaka te ra, je te yis kju\u0331atkewe\u0331ke\u0331. 30Je
+  ki\u0331ka ikuna r\u00e4 yis kiana je\u0331k ss\u00e4k ra, yis je\u0331k ss\u00e4mi
+  yis d\u00e4 ja\u0331lma\u0331lewa\u0331 w\u00e0. 31Jek\u00e4i S\u00e4kekl\u00e4
+  saje wa S\u00e4kekewa\u00ed Jes\u00fas K\u00e1, ale kjeiyinak b\u00e4i jekjeyemi
+  wa\u0331 iju\u0331\u00f1er ka ir\u00e4 yis ka\u0331yu\u00e4 kuna. 32Damasco ska,
+  ka\u0331 w\u00e4kiri kolole ka\u0331 tsa\u0331ku\u0331i Aretas wa\u0331, je te guardia
+  wa paka je jukl\u00e4y\u00e4k\u00e4 kj\u00e4 ska ''ski\u0331ss\u00e4k iwa\u0331
+  ''skuk\u00e4kl\u00e4wa\u0331. 33Ata jukl\u00e4y\u00e4k\u00e4 kj\u00e4tkele ventana\u00ed
+  na yis ja\u0331wa\u0331mi canasta na. Jek\u00e4i yis kja shiri ije jula na.\"",
+  "\"3\\nGoti Iqueq\u00e4 kuk\u014bu\u00e4 gu\u00e4 \u00e4ny\u00e4-h\u00e4\u014b\u00e4
+  \u00e4m\u00e4s\u00e4ukq\u00e4 iqueq\u00e4 w\u00e4u\u014bui\u014bq\u00e4\\n1 Ne neq\u00e4-neu\u00e4\u014bq\u00e4
+  ii\u014b\u00e4 \u00e4t\u00e4tu\u014bque, ii he nenyqe, \u201cQu quwq\u00e4 yoqe
+  haqeq\u00e4 \u00e4mam\u00e4n\u00e4tq\u00e4\u014b\u00e4\u201d k\u014bu\u00e4 hey\u00e4niqi?
+  He \u00e4maq\u00e4 h\u014bquauq\u00e4 suqe\u014bq\u00e4 n\u00e4q\u014bq\u00e4 map\u014bq\u00e4
+  di\u014bqe, iqua tuwa\u014bui, huizi h\u014bqu quwq\u00e4 suqe\u014bq\u00e4 \u00e4q\u00e4kqe,
+  etap\u00e4tq\u00e4\u014b\u00e4. Iw\u00e4 ne \u00e4maq\u00e4 ii\u014b\u00e4 iqua
+  e\u014bq\u00e4-pa ean\u00e4, he neq\u00e4 suqe\u014bq\u00e4 n\u00e4q\u014bq\u00e4
+  map\u014bq\u00e4 di\u014bqe, ne tuwa\u014bu\u00e4 \u00e4maq\u00e4 huiziqua nenyq\u00e4
+  \u00e4q\u00e4kuwi, etapatu\u014bqu\u00e4ta? \u00c4 ne, tuwa\u014bu\u00e4 he nenyq\u00e4
+  \u00e4q\u00e4kuwi, huiziquau\u014bi \u00e4motquetu\u014bqu\u00e4ta? Ii\u014bi, aa\u014bq\u00e4
+  e\u00e4. 2 \u00c4maqe, neq\u00e4 w\u00e4u\u014bui\u014bq\u00e4 n\u00e4q\u014bq\u00e4
+  map\u014bqe, hiq\u00e4-hiu\u00e4 neyaq\u00e4 tuwa\u014bu\u00e4 e\u014bq\u00e4-pa\u014buenji.
+  Ita\u014bga kuk\u014bu\u00e4 tuwa\u014bu\u00e4 iu \u00e4q\u00e4n\u00e4\u014bqe,
+  neyaq\u00e4 \u00e4wq\u00e4 y\u00e4p\u00e4 t\u00e4m\u00e4 \u00e4wi. Ga \u00e4maq\u00e4
+  eeq\u00e4n\u00e4\u014bi, qu n\u00e4q\u014bq\u00e4 epu, a t\u00e4uq\u00e4p\u014bq\u00e4n\u00e4ny\u00e4.
+  3 I\u014bi ne w\u00e4u\u014bu\u00e4 im\u00e4k\u00e4tu\u014bqueta\u014bi, he Kraisi
+  Iqu tuwa\u014bu\u00e4 \u00e4tn\u00e4\u014b\u00e4 iqi \u00e4q\u00e4kq\u00e4 iquenji.
+  Tuwa\u014bu\u00e4 ii\u014bi, Iqu tuwa\u014bu\u00e4-qiyqet\u00e4 \u00e4q\u00e4kq\u00e4
+  ma, Goti H\u00e4\u014b\u00e4 Hea Ique-ique Pmeq\u00e4 Iqueq\u00e4 D\u014b\u00e4
+  \u00c4\u014bguit\u00e4 \u00e4qiyekqe. M\u00e4 hik\u00e4 m\u014b\u00e4 \u00e4quvas\u00e4t\u00e4
+  \u00e4qiyekq\u00e4 ma, \u00e4maqeuq\u00e4 \u00e4wq\u00e4 y\u00e4p\u00e4 im\u00e4
+  \u00e4qiyekqe.\\n4 Ne neq\u00e4 w\u00e4u\u014bui\u014bq\u00e4 kuk\u014bu\u00e4 ii\u014b\u00e4
+  \u00e4tquque, n\u00e4q\u014bq\u00e4 tii\u014b\u00e4 ean\u00e4 \u00e4tqu. \u201cKraisi
+  Iquesa\u014bi, Goti Iqu Iqueq\u00e4 w\u00e4u\u014bui, \u00e4\u014bgu\u00e4n\u00e4\u014b\u00e4
+  im\u00e4kqu\u00e4\u014bqiy\u00e4.\u201d 5 Ga a\u014bgum\u00e4, \u201cNe w\u00e4u\u014bu\u00e4
+  hui, neq\u00e4-neu\u00e4n\u00e4 im\u00e4k\u00e4tqu\u014bun\u00e4\u201d \u00e4t\u00e4tan\u00e4
+  matq\u00e4 iqu. \u201cGoti Hanjuw\u00e4 Iqu, ne im\u00e4kquatu\u014bque inem\u00e4kqu\u00e4\u014bqiy\u00e4,\u201d
+  \u00e4t\u00e4tan\u00e4 \u00e4tqu. 6 Ga Iqu kuk\u014bu\u00e4 h\u014bga\u014bq\u00e4
+  wit\u00e4t\u014bq\u00e4 gu\u00e4 \u00e4ny\u00e4-h\u00e4\u014b\u00e4 \u00e4m\u00e4s\u00e4ukq\u00e4
+  iqueq\u00e4 w\u00e4u\u014bu\u00e4 im\u00e4kq\u00e4 pmetatu\u014bqu\u00e4-pqe, Iqueq\u00e4-kiu\u00e4
+  in\u00e4 inem\u00e4kkqe. N\u00e4tmatq\u00e4 \u00e4ny\u00e4-h\u00e4\u014b\u00e4 ii\u014b\u00e4
+  iqu, kuk\u014bu\u00e4-suq\u00e4 buk\u00e4 iu \u00e4q\u00e4n\u00e4 \u00e4wi\u014bq\u00e4
+  iuta ma, oee. Ii D\u014b\u00e4 \u00c4\u014bgu\u00e4 Iquesanji. Kuk\u014bu\u00e4-suq\u00e4
+  buk\u00e4 iu \u00e4q\u00e4n\u00e4 \u00e4wi\u014bq\u00e4 iqu, \u00e4maq\u00e4 pizq\u00e4
+  p\u00e4sq\u00e4n\u00e4\u014b\u00e4-quvi. I\u014b\u00e4qe D\u014b\u00e4 \u00c4\u014bgu\u00e4
+  Iqu, \u00e4maqeu\u014bi h\u00e4\u014b\u00e4 hea ique-ique pmeq\u00e4 Vq\u00e4-qu
+  e\u00e4.\\n7 Kuk\u014bu\u00e4 Goti Hanjuw\u00e4 Iqu hik\u00e4 iu \u00e4qiy\u00e4t\u00e4,
+  gu\u00e4 \u00e4m\u00e4s\u00e4ukq\u00e4 iqueq\u00e4 w\u00e4u\u014bui, \u00e4maq\u00e4
+  pizq\u00e4 p\u00e4sq\u00e4\u014bq\u00e4 q\u00e4y\u00e4 eta\u014bgq\u00e4-qe, kiq\u00e4
+  y\u00e4\u014b\u00e4n\u00e4q\u014bq\u00e4 motquet\u014bqe, ii we-hu\u014bqet\u00e4
+  \u00e4pkqe. Ii\u014bi\u014bqe, Mosisi iqueq\u00e4 hipe\u014buiuta we y\u00e4\u014b\u00e4n\u00e4q\u014bq\u00e4
+  yq\u00e4n\u00e4 hu\u014bq\u00e4 \u00e4quvepkq\u00e4 ique\u014bi, Israitq\u00e4 iqua,
+  hi\u014bu\u00e4 qumb\u014bq\u00e4 m\u00e4wi\u014bq\u00e4 imi\u014buwi. Ii we-hu\u014bq\u00e4
+  iqu q\u00e4pu eqa\u014bga\u014bqe. 8 Kuk\u014bu\u00e4 gu\u00e4 Goti Hanjuw\u00e4
+  Iqu D\u014b\u00e4 \u00c4\u014bgu\u00e4 Iques\u00e4 \u00e4m\u00e4s\u00e4uekq\u00e4
+  iqueq\u00e4 w\u00e4u\u014bui, as\u00e4n\u00e4\u014b\u00e4 hmanji. Iqueq\u00e4 y\u00e4\u014b\u00e4n\u00e4q\u014bqe,
+  aa\u014b\u00e4 h\u00e4vemn\u00e4q\u014bq\u00e4 wit\u00e4n\u00e4. 9 Kuk\u014bu\u00e4-suq\u00e4
+  iqueq\u00e4 w\u00e4u\u014bui, ii ne kuk\u014bu\u00e4 \u00e4minet\u00e4t\u00e4, qui
+  inem\u00e4kq\u00e4 q\u00e4y\u00e4 eta\u014bgq\u00e4-qe, iqu Goti Iqueq\u00e4 y\u00e4\u014b\u00e4n\u00e4q\u014bq\u00e4
+  motquet\u014bq\u00e4-t\u00e4\u014b\u00e4 \u00e4quvepkqe. Ita\u014bgi, kuk\u014bu\u00e4
+  \u00e4ny\u00e4-h\u00e4\u014b\u00e4 iqu, kiq\u00e4 w\u00e4u\u014bui qok\u00e4-ap\u00e4k\u00e4
+  iqua j\u00e4n\u00e4n\u00e4\u014b\u00e4 ep\u014bq\u00e4 iwim\u00e4kq\u00e4 iqueq\u00e4
+  y\u00e4\u014b\u00e4n\u00e4q\u014bq\u00e4 motquet\u014bqe, aa\u014b\u00e4 naq\u00e4n\u00e4\u014bi,
+  huiziqueqe \u00e4m\u00e4wq\u00e4t\u00e4u\u00e4. 10 T\u00e4\u014bga\u014bi aa\u014b\u00e4
+  h\u00e4vemn\u00e4q\u014bq\u00e4 ii\u014b\u00e4 \u00e4wiq\u00e4 iuta\u014bi, we-hu\u014bq\u00e4
+  w\u00e4u\u014bu\u00e4 y\u00e4u\u00e4 iqueqe, kiq\u00e4 y\u00e4\u014b\u00e4n\u00e4q\u014bqe
+  hma etq\u00e4u\u00e4. 11 W\u00e4u\u014bu\u00e4 y\u00e4u\u00e4 kiq\u00e4 n\u00e4tmatq\u00e4
+  ii\u014bi hma et\u014bq\u00e4 iqu, hi\u014buiq\u00e4n\u00e4\u014bi Goti Iqueq\u00e4
+  y\u00e4\u014b\u00e4n\u00e4q\u014bqet\u00e4 \u00e4pkqe. I\u014b\u00e4qe w\u00e4u\u014bu\u00e4
+  hea ique-ique wit\u00e4niq\u00e4 iquenyqe, Goti Iqueq\u00e4 y\u00e4\u014b\u00e4n\u00e4q\u014bq\u00e4
+  motquet\u014bqe, aa\u014b\u00e4 h\u00e4vemn\u00e4q\u014bq\u00e4 \u00e4p\u00e4tq\u00e4u\u00e4.\\n12
+  I\u014bi ne kuk\u014bu\u00e4 \u00e4ny\u00e4-h\u00e4\u014b\u00e4 tqu y\u00e4\u014b\u00e4n\u00e4q\u014bq\u00e4
+  e\u00e4, \u00e4pak\u00e4n\u00e4 wit\u00e4niq\u014bq\u00e4, neq\u00e4 k\u014bu\u00e4
+  \u00e4wqe y\u00e4\u014b\u00e4n\u00e4q\u014bq\u00e4 \u00e4vanita\u014bi, z\u00e4
+  miq\u00e4 pem\u00e4n\u00e4 itan\u00e4, iquenyq\u00e4 \u00e4tn\u00e4\u014b\u00e4qi
+  aw\u00e4 \u00e4t\u00e4tq\u00e4\u014bu. 13 Ne Mosisi iqu imi\u014bq\u00e4-pa, miq\u00e4
+  itq\u00e4\u014bu. Iqu \u00e4pmami\u014bq\u00e4\u014bga\u014bi, Israitq\u00e4 iqua,
+  we-hu\u014bq\u00e4 ique\u00e4 hipe\u014bui m\u00e4ndi hiqa\u014bgqe, hi\u014bu\u00e4
+  m\u00e4qu\u014bqu\u00e4 ip\u014bq\u00e4n\u00e4, iqu yu\u00e4 ktq\u00e4 \u00e4pmu\u00e4t\u00e4\u014bgqe.
+  14 I\u014bgata tii t\u00e4\u014bga\u014bqe, Israitq\u00e4 iquauq\u00e4 k\u014bu\u00e4
+  iqe, hik\u00e4 e\u014bq\u00e4-ma y\u00e4\u014b\u00e4n\u00e4q\u014bq\u00e4 kn\u00e4ta\u014bgi,
+  qu kuk\u014bu\u00e4 y\u00e4u\u00e4 iu\u014bi a \u00e4t\u00e4upiy\u00e4-qe, kiq\u00e4
+  qakui\u014bqe, maq\u014bq\u00e4 etq\u00e4\u014buwi. Ii tiinji. Yui quwq\u00e4 k\u014bu\u00e4
+  indq\u00e4\u014bq\u00e4 iu hu\u00e4q\u00e4 \u00e4utmbiy\u00e4 e\u014bq\u00e4-panji.
+  Yu\u00e4 hu\u00e4q\u00e4 ii\u014bi, hu\u00e4t\u00e4 \u00e4vasqiy\u00e4m\u00e4uqe,
+  Kraisi Iquesan\u00e4nji. 15 I\u014bi t\u00e4\u014bga\u014bq\u00e4-pqe, Israitq\u00e4
+  iqua, Mosisi ique\u00e4 suq\u00e4 y\u00e4u\u00e4 iu\u014bi a yq\u00e4n\u00e4 \u00e4t\u00e4utq\u00e4\u014buwi,
+  ii yu\u00e4 ii\u014bi, quwq\u00e4 k\u014bu\u00e4 iq\u00e4 iu hu\u00e4q\u00e4 yq\u00e4n\u00e4
+  \u00e4utn\u00e4\u014buwi, kiq\u00e4 qakui\u014bqe, m\u00e4meq\u00e4 ipiy\u00e4 iutanji.
+  16 I\u014b\u00e4qe \u00e4maq\u00e4 h\u014bqu iqueq\u00e4 h\u014bgisan\u00e4 iqe
+  \u00e4vquat\u00e4m\u00e4ut\u00e4, Naq\u00e4 Ique hiqumua\u014b\u00e4 vqa\u014bgutqe,
+  yu\u00e4 hu\u00e4q\u00e4 ii\u014bi, hu\u00e4t\u00e4 \u00e4vasq\u00e4\u014bgi. 17
+  Naq\u00e4 Iqu, ii D\u014b\u00e4 \u00c4\u014bgu\u00e4 Ique. I\u014bi Iqueq\u00e4
+  D\u014b\u00e4 Ii\u014b\u00e4 Iqu \u00e4kisqi \u00e4pme\u014bqe, iqi\u014bi n\u00e4tmatq\u00e4
+  quvq\u00e4 \u00e4maqeu a kiq\u00e4tqe, \u00e4n\u00e4 makiq\u00e4tq\u00e4 y\u00e4n\u00e4.
+  18 I\u014bi ne\u014bi, yu\u00e4 neq\u00e4 hipe\u014bui, ktq\u00e4 m\u00e4naqum\u00e4t\u00e4uq\u00e4-pa
+  e\u00e4. Naq\u00e4 Iqueq\u00e4 weny\u00e4-hu\u014bqe neny\u014bq\u00e4 \u00e4p\u00e4t\u00e4qeta\u014bi,
+  ne hi\u014bu\u00e4 y\u00e4q\u014bq\u00e4 e\u014bq\u00e4-pa\u014b\u00e4 ean\u00e4,
+  we-hu\u014bq\u00e4 nesa\u014bi, \u00e4maq\u00e4 huiziu\u014bi \u00e4wiy\u00e4n\u00e4.
+  Ne we-hu\u014bq\u00e4 ique\u014bi aa\u014b\u00e4 h\u00e4vemn\u00e4q\u014bq\u00e4
+  \u00e4metanita, \u00e4nakunm\u00e4k\u00e4t\u00e4qeta\u014bi, Naq\u00e4 Iqueq\u00e4
+  w\u00e4tq\u00e4 e\u014bq\u00e4-pa\u014b\u00e4 ii\u014b\u00e4 ean\u00e4, suq\u00e4
+  Iqu im\u00e4k\u00e4t\u014bq\u00e4-pa im\u00e4k\u00e4tq\u00e4\u014bu. W\u00e4u\u014bu\u00e4
+  ii\u014bi, Naq\u00e4 Iqu, D\u014b\u00e4 Iqu e\u00e4, i im\u00e4k\u00e4tq\u00e4u\u00e4.\"",
+  "\"1Pablo ir\u00e4, Silvano ir\u00e4, Timoteo ir\u00e4, jewa te j\u00ed yue mar
+  Tesal\u00f3nica ska tapanak S\u00e4kekl\u00e4 Sa K\u00e1 ja\u0331mi S\u00e4kekewa
+  Jesucristo ja\u0331mi jewa ia\u0331. Je\u0331r b\u00e4i yinopa bas ia\u0331, bas
+  je\u0331r ss\u00ebnopa baa. 2Maitj\u00e4 s\u00e1 te wekte sheke\u0331 S\u00e4kekl\u00e4
+  ia\u0331 bas ki\u0331ka; s\u00e1 te bas ktei sheke\u0331 s\u00e1 ka\u0331 ki\u00e4ke\u0331
+  na ka jalewa\u0331 ta. 3Bas ji wa\u0331ke\u0331 bas te ji biketsa etkab\u00e4 ki\u0331ka,
+  bas shka\u0331bl\u00e4ke\u0331 \u00f1ashka\u0331li\u0331ble w\u00e0, bas chatk\u00e4ke\u0331wa\u0331
+  saje wa S\u00e4kekewa\u00ed Jesucristo ki\u0331ss\u00e4k, jeska s\u00e1 je\u0331r
+  ja\u0331rke\u0331 S\u00e4kekl\u00e4 Sa K\u00e1 w\u00e4na. 4El wa shka\u0331ta S\u00e4kekl\u00e4
+  wa\u0331 wa, s\u00e1 wa\u0331 iju\u0331\u00f1er bas d\u00e4 kolole iwa\u0331. 5Ka
+  ir\u00e4 jiye kuna ta, s\u00e1 wa\u0331 kte baa yinak, ka denemi bas ska r\u00e4
+  kte eb\u00e4 w\u00e0 kuna ata je r\u00e4 ji t\u00e4kii w\u00e0, Wikblu Sikina w\u00e0,
+  biketsale b\u00e4i si\u0331wa\u0331 w\u00e0. \u00d1ak\u00e4i bas wa\u0331 iju\u0331\u00f1er
+  jisht\u00e4 s\u00e1 se\u0331na bas sha\u0331na bas kju\u0331ei k\u00e4i. 6Jek\u00e4i
+  bas \u00f1adulawa\u0331wa\u0331 s\u00e1 ir\u00e4 S\u00e4kekewa ir\u00e4 mabl\u00e4k.
+  Bas te kte kuka weikane ta\u0331i sha\u0331na ss\u00eble a\u0331naa Wikblu Sikina
+  oloi ja\u0331mi. 7Jek\u00e4i bata ki\u0331ka bas dewa\u0331 mablenak Jes\u00fas
+  bikets\u00e4k wa tso\u0331 Macedonia ska ir\u00e4 Acaya ska ir\u00e4 wa wa\u0331.
+  8Ka ir\u00e4 maik\u00e4i kuna ta, bas ne ska S\u00e4kekewa kt\u00e4 ss\u00ebnami
+  r\u00e4, ka Macedonia ska Acaya ska eb\u00e4 kuna, ata bas te S\u00e4kekl\u00e4
+  biketsa, je palei minemi r\u00e4 ka\u0331 bik\u00f6le ska. Je ki\u0331ka ka s\u00e1
+  shene ji sh\u00e4k ji\u0331a. 9Ka ir\u00e4 jiye kuna ta, je wakwa te ipakeke\u0331
+  jisht\u00e4 bas te s\u00e1 kiawa\u0331 b\u00e4i k\u00e4i, maik\u00e4i bas \u00f1amanewa\u0331ksa\u0331
+  jile kekl\u00e4\u00ed me\u0331i yika S\u00e4kekl\u00e4 ia\u0331, bas wa\u0331 S\u00e4kekl\u00e4
+  si\u0331 kseka kja\u0331nei wa\u0331kl\u00e4 k\u00e4i, 10bas wa\u0331 iyaba d\u00e4ke\u0331
+  ka\u0331j\u00f6ir ki\u0331ss\u00e4kl\u00e4, ale shki\u0331leka\u0331ni iwa\u0331
+  dulecha\u0331wa\u0331 wa sha\u0331na. Je r\u00e4 Jes\u00fas, je ne te s\u00e4 b\u00e4keksa\u0331
+  S\u00e4kekl\u00e4 kju\u0331atkawa\u0331 ke\u0331i d\u00e4ke\u0331wa\u0331 yika r\u00e4.\"",
+  "\"Collected and written by Michael Thilyang Gatkek With special thanks to Fr Christian
+  Carlassare and pastoral team of Holy Trinity Parish (Old Fangak) (for English translation
+  see their great book: Nuer Folktales, Proverbs and Riddles)\\nNi cia\u014b guak
+  la g\u00f6\u00f6r k\u025b j\u025b \u025b yak k\u025b \u0263\u00f6\u00f6 b\u025b
+  j\u025b cam, k\u025b \u0263\u00f6\u00f6 ci guak \u025b k\u0254\u014b m\u025bt. M\u00eb\u00eb
+  cik\u025b r\u00f6m k\u025bn\u025b guak cu\u025b j\u025b ji\u00f6k i bi cam. Cu guak
+  \u025b l\u00e4\u014b, ji\u00f6k\u025b j\u025b i /cu \u0263\u00e4 cam n\u00e4\u00e4ran,
+  ban w\u00e4 c\u00e4\u014b t\u025b k\u025b mi bi w\u00e4 met. Cuk\u025b ben c\u00e4\u014b,
+  cu\u025b yak moc tuar, cu yak \u025b jek i liim\u025b. Cu\u025b wee i jeki j\u025b
+  ni k\u00e4 gat nyimaar?\\nCu\u025b guak \u025b loc i mi wa\u0320 j\u025b nyuoth
+  ji bi \u0263\u00e4 cam. Cu yak \u025b ji\u00f6k i /c\u00e4 ji bi cam. Cuk\u025b
+  w\u00e4. Min cik\u025b cop gua\u0320th tuar, cu\u025b j\u025b ji\u00f6k i bi yi\u025bn
+  k\u00e4 jiath \u025bm\u025b, k\u025b k\u0254r\u025b mi w\u00e4 ram mi te k\u025b
+  tuac mi lual ben bi j\u025b c\u0254l, b\u025b j\u025b ben luony. Cu guak \u025b
+  yi\u025bn k\u00e4 jiath. Cu\u025b j\u025b ji\u00f6k i bi j\u025b ku t\u0254\u0320\u0254\u0320\u014b
+  k\u025b ta\u014b. Cu yak \u025b t\u0254\u0320\u014b. Cu\u0254 yak cam \u025b tuar
+  \u025bl\u0254\u0320\u014b. Cu\u025b wiee k\u025b wiee mi di\u0320i\u0320t. K\u025b
+  k\u0254r\u025b, cu guak ben k\u025b du\u0254p \u025bm\u0254 a c\u025b r\u0254 moc
+  k\u025b tuac mi lual. Cu yak \u025b c\u0254l i ber lu\u00e4k \u0263\u00e4, \u0263\u00f6\u00f6
+  wut \u025b tuac lual \u025b. Cu guak ben cu\u025b yak ben lu\u00e4k k\u00e4 tuar,
+  a c\u025b cuuc \u025bl\u0254\u0320\u014b k\u025b tuar.\\nMin ci yak ben piny wic
+  jiath, cu guak r\u0254 bar.\""]'
+src_ngrams: '{"1": [[["k\u025b"], 15771], [["k\u00e4"], 14317], [["\u0263\u00f6\u00f6"],
+  5736], [["\u025b"], 4924], [["j\u025b"], 4688]], "2": [[["k\u025b \u0263\u00f6\u00f6"],
+  2836], [["k\u025b kui"], 1732], [["\u025bn \u0263\u00f6\u00f6"], 1460], [["k\u00e4
+  cu\u025b"], 1122], [["k\u00e4 cu"], 1058]], "3": [[["k\u025b \u0263\u00f6\u00f6
+  b\u025b"], 242], [["k\u00e4 duund\u025b \u0263\u00f6\u00f6"], 242], [["k\u00e4 cu\u025b
+  j\u025b"], 205], [["k\u00e4 cu\u025b k\u025b"], 195], [["k\u00e4 cu yecu"], 191]],
+  "4": [[["g\u0254aa in r\u025bl r\u0254"], 92], [["k\u00e4 cu\u025b k\u025b ji\u00f6k"],
+  85], [["cu yecu j\u025b ji\u00f6k"], 60], [["cu yecu k\u025b ji\u00f6k"], 56], [["k\u00e4
+  cu yecu k\u025b"], 52]], "5": [[["yi\u00eb\u00eb in g\u0254aa in r\u025bl"], 75],
+  [["k\u00e4 ni \u025bn gu\u00e4th \u025bm\u0254"], 34], [["k\u00e4 cu yecu k\u025b
+  ji\u00f6k"], 27], [["written by michael thilyang gatkek"], 24], [["with special
+  thanks to fr"], 24]]}'

@@ -1,0 +1,1293 @@
+corpus: hplt-v3-kik_Latn
+srclang: ki
+timestamp: 1758081226.3305166
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2018-39", 803], ["CC-MAIN-2019-04", 693], ["CC-MAIN-2018-43",
+  652], ["CC-MAIN-2018-34", 590], ["CC-MAIN-2023-40", 589], ["CC-MAIN-2024-18", 522],
+  ["CC-MAIN-2023-50", 458], ["wide16", 340], ["CC-MAIN-2021-25", 294], ["CC-MAIN-2024-46",
+  276], ["CC-MAIN-2024-10", 266], ["CC-MAIN-2024-51", 243], ["CC-MAIN-2021-31", 236],
+  ["CC-MAIN-2024-42", 150], ["CC-MAIN-2024-33", 148], ["CC-MAIN-2017-26", 144], ["CC-MAIN-2021-21",
+  134], ["wide11", 129], ["CC-MAIN-2020-05", 125], ["CC-MAIN-2022-05", 123], ["CC-MAIN-2021-10",
+  122], ["wide12", 95], ["CC-MAIN-2020-45", 89], ["CC-MAIN-2020-16", 87], ["CC-MAIN-2022-21",
+  86], ["CC-MAIN-2024-30", 73], ["CC-MAIN-2024-22", 69], ["CC-MAIN-2020-10", 65],
+  ["CC-MAIN-2020-34", 64], ["CC-MAIN-2018-05", 63], ["CC-MAIN-2014-15", 58], ["CC-MAIN-2020-24",
+  57], ["CC-MAIN-2021-43", 56], ["CC-MAIN-2020-50", 51], ["CC-MAIN-2020-29", 49],
+  ["CC-MAIN-2021-17", 48], ["CC-MAIN-2017-51", 47], ["CC-MAIN-2021-04", 44], ["CC-MAIN-2021-49",
+  43], ["CC-MAIN-2023-23", 42], ["CC-MAIN-2022-27", 41], ["CC-MAIN-2018-22", 41],
+  ["CC-MAIN-2020-40", 38], ["CC-MAIN-2023-14", 37], ["CC-MAIN-2022-40", 36], ["wide15",
+  33], ["CC-MAIN-2021-39", 30], ["CC-MAIN-2022-33", 27], ["wide10", 25], ["CC-MAIN-2024-38",
+  19], ["CC-MAIN-2024-26", 14], ["CC-MAIN-2022-49", 14], ["CC-MAIN-2014-35", 10],
+  ["survey3", 6], ["CC-MAIN-2023-06", 6], ["wide5", 5], ["wide17", 5], ["CC-MAIN-2015-48",
+  4], ["wide6", 2], ["wide2", 2], ["CC-MAIN-2016-40", 2], ["CC-MAIN-2014-42", 2],
+  ["CC-MAIN-2017-04", 1], ["CC-MAIN-2015-18", 1], ["CC-MAIN-2015-11", 1]]'
+docs_langs: '[[0.0, 12], [0.1, 13], [0.2, 174], [0.3, 166], [0.4, 271], [0.5, 999],
+  [0.6, 571], [0.7, 999], [0.8, 1061], [0.9, 660], [1.0, 3699]]'
+docs_segments: '[[1, 221], [2, 801], [3, 1288], [4, 966], [5, 835], [6, 993], [7,
+  718], [8, 447], [9, 217], [10, 147], [11, 77], [12, 86], [13, 101], [14, 70], [15,
+  67], [16, 77], [17, 68], [18, 62], [19, 71], [20, 88], [21, 75], [22, 72], [23,
+  62], [24, 67], [25, 58], [26, 44], [27, 33], [28, 40], [29, 21], [30, 51], [31,
+  32], [32, 28], [33, 28], [34, 25], [35, 15], [36, 21], [37, 19], [38, 20], [39,
+  20], [40, 14], [41, 11], [42, 23], [43, 20], [44, 26], [45, 17], [46, 15], [47,
+  13], [48, 18], [49, 8], [50, 13], [51, 5], [52, 15], [53, 14], [54, 5], [55, 8],
+  [56, 7], [57, 14], [58, 5], [59, 6], [60, 5], [61, 5], [62, 11], [63, 4], [64, 2],
+  [65, 5], [66, 3], [67, 6], [68, 4], [69, 3], [70, 2], [71, 2], [72, 4], [73, 1],
+  [74, 5], [75, 3], [76, 2], [77, 1], [78, 4], [79, 1], [80, 5], [81, 3], [82, 2],
+  [83, 2], [84, 5], [85, 3], [86, 6], [87, 2], [88, 2], [89, 3], [90, 3], [91, 2],
+  [92, 1], [93, 1], [95, 3], [96, 3], [97, 3], [98, 3], [99, 1], [100, 1], [101, 1],
+  [102, 1], [103, 2], [104, 1], [105, 2], [106, 2], [107, 2], [108, 2], [111, 1],
+  [112, 3], [113, 2], [115, 1], [116, 2], [118, 1], [123, 2], [124, 1], [125, 1],
+  [127, 2], [128, 4], [129, 2], [130, 3], [131, 2], [132, 3], [134, 1], [135, 1],
+  [136, 1], [138, 1], [139, 3], [140, 3], [141, 1], [142, 3], [144, 1], [146, 1],
+  [148, 1], [150, 2], [151, 2], [152, 2], [154, 1], [155, 2], [158, 1], [162, 1],
+  [165, 12], [173, 1], [180, 1], [181, 1], [191, 2], [204, 1], [218, 1], [222, 1],
+  [231, 1], [235, 1], [261, 1], [266, 1], [279, 1], [333, 1], [341, 1], [391, 1],
+  [412, 1], [425, 1], [513, 1], [748, 1], [801, 1], [872, 1], [1002, 1], [1161, 1],
+  [1546, 1], [1724, 1], [2038, 1]]'
+docs_segments_mean: 13
+docs_segments_median: 6
+docs_top100_domains: '[["mediamaxnetwork.co.ke", 2699], ["radiokimuri.co.ke", 1488],
+  ["kayufm.com", 986], ["biblica.com", 958], ["jw.org", 510], ["rmsradio.co.ke", 313],
+  ["wikipedia.org", 201], ["inoorotv.co.ke", 195], ["purekikuyulyrics.co.ke", 137],
+  ["blogspot.com", 125], ["mwendani.co.ke", 100], ["getufm.co.ke", 96], ["thekenyatoday.com",
+  75], ["kenyanews247.com", 60], ["nyimbozakristo.com", 54], ["wordpress.com", 40],
+  ["mugambowamugikuyufm.co.ke", 36], ["njatatv.co.ke", 35], ["bible.is", 35], ["aionianbible.org",
+  32], ["countymedia.co.ke", 30], ["biblearc.com", 28], ["bible.com", 24], ["corofm.co.ke",
+  23], ["citizentv.co.ke", 21], ["kbc.co.ke", 20], ["mathaga.com", 19], ["kikuyuland.com",
+  19], ["kasisifacingmountkenya.com", 18], ["kameme.co.ke", 18], ["blogspot.jp", 18],
+  ["gichuka.com", 13], ["kilimouhifadhi.org", 11], ["gotquestions.org", 10], ["congressmusicfactory.com",
+  8], ["bibles.org", 7], ["kenyatalk.com", 6], ["kasahorow.org", 6], ["gikuyutv.co.ke",
+  6], ["afrikalyrics.com", 6], ["ethnosites.org", 5], ["wikimedia.org", 4], ["tandem-law.com",
+  4], ["kenyadiasporamedia.com", 4], ["kenyabuzz365.com", 4], ["jaladaafrica.org",
+  4], ["domanovic.org", 4], ["aramatithingira.org", 4], ["africanstorybook.org", 4],
+  ["watchtower.org", 3], ["tharaka-language.org", 3], ["mutiiri.com", 3], ["kikuyu.com",
+  3], ["githimatv.co.ke", 3], ["gamanetonline.com", 3], ["yumpu.com", 2], ["worldbooksandrecords.org",
+  2], ["shilidola.com", 2], ["scoopernews.com", 2], ["prolyrical.com", 2], ["playoffsport.com",
+  2], ["pdffox.com", 2], ["nsemia.com", 2], ["ndungu.report", 2], ["logon.org", 2],
+  ["kpr-eshop.eu", 2], ["keclips.com", 2], ["classicistranieri.com", 2], ["africanbookscollective.com",
+  2], ["zidisha.org", 1], ["zeno.fm", 1], ["youscribe.com", 1], ["wixsite.com", 1],
+  ["wiktionary.org", 1], ["wikihow.com", 1], ["widih.co", 1], ["voordewind.eu", 1],
+  ["tunes.co.ke", 1], ["tkwebhosting.com", 1], ["thedivinebandit.com", 1], ["tapatalk.com",
+  1], ["stanford.edu", 1], ["southafricanews.org", 1], ["snowpear.com", 1], ["sglyric.com",
+  1], ["serapion.org", 1], ["sciencegraph.net", 1], ["sarhaan.com", 1], ["saharatribune.com",
+  1], ["safirisalama.com", 1], ["rafeekee.com", 1], ["paperjale.eus", 1], ["opusdei.org",
+  1], ["ndetozetu.com", 1], ["narcolepsyafricafoundation.org", 1], ["musixmatch.com",
+  1], ["lughayangu.com", 1], ["kopy.net", 1], ["kenyamoja.com", 1], ["kenyalivetv.co.ke",
+  1]]'
+docs_top100_tld: '[["co.ke", 5223], ["com", 2510], ["org", 824], ["is", 35], ["jp",
+  18], ["eu", 3], ["report", 2], ["net", 2], ["tw", 1], ["ru", 1], ["me", 1], ["fm",
+  1], ["eus", 1], ["edu", 1], ["co.uk", 1], ["co", 1]]'
+docs_total: 8625
+docs_wds: '[[5.0, 208], [5.1, 183], [5.2, 157], [5.3, 186], [5.4, 159], [5.5, 149],
+  [5.6, 144], [5.7, 106], [5.8, 131], [5.9, 129], [6.0, 151], [6.1, 134], [6.2, 136],
+  [6.3, 116], [6.4, 87], [6.5, 145], [6.6, 188], [6.7, 123], [6.8, 155], [6.9, 122],
+  [7.0, 214], [7.1, 244], [7.2, 170], [7.3, 139], [7.4, 186], [7.5, 270], [7.6, 260],
+  [7.7, 182], [7.8, 176], [7.9, 197], [8.0, 1294], [8.1, 1347], [8.2, 426], [8.3,
+  113], [8.4, 69], [8.5, 55], [8.6, 78], [8.7, 62], [8.8, 42], [8.9, 59], [9.0, 44],
+  [9.1, 25], [9.2, 20], [9.3, 6], [9.4, 17], [9.5, 11], [9.6, 4], [9.7, 4], [9.8,
+  2]]'
+sentence_pairs: 111864
+src_bytes: 20502465
+src_chars: 17885135
+src_pii: 51
+src_tokens: 3563531
+unique_sents: 88402
+src_sent_tokens: '[[1, 2381], [2, 3044], [3, 5216], [4, 5790], [5, 6304], [6, 5738],
+  [7, 4122], [8, 3440], [9, 2894], [10, 3183], [11, 1977], [12, 1819], [13, 1744],
+  [14, 2683], [15, 1644], [16, 1502], [17, 1711], [18, 1667], [19, 1932], [20, 1883],
+  [21, 2096], [22, 1921], [23, 1893], [24, 1810], [25, 1607], [26, 1519], [27, 1522],
+  [28, 1319], [29, 1206], [30, 1210], [31, 1178], [32, 1191], [33, 1173], [34, 1020],
+  [35, 1015], [36, 986], [37, 862], [38, 839], [39, 784], [40, 746], [41, 719], [42,
+  637], [43, 659], [44, 645], [45, 667], [46, 657], [47, 613], [48, 537], [49, 501],
+  [50, 465], [51, 472], [52, 444], [53, 361], [54, 414], [55, 382], [56, 369], [57,
+  329], [58, 341], [59, 352], [60, 392], [61, 358], [62, 316], [63, 341], [64, 348],
+  [65, 330], [66, 264], [67, 273], [68, 266], [69, 230], [70, 244], [71, 273], [72,
+  281], [73, 210], [74, 252], [75, 235], [76, 200], [77, 167], [78, 214], [79, 225],
+  [80, 235], [81, 215], [82, 184], [83, 199], [84, 204], [85, 186], [86, 198], [87,
+  180], [88, 176], [89, 145], [90, 152], [91, 140], [92, 115], [93, 169], [94, 159],
+  [95, 113], [96, 136], [97, 141], [98, 101], [99, 163], [100, 129], [101, 191], [102,
+  124], [103, 136], [104, 119], [105, 141], [106, 120], [107, 77], [108, 123], [109,
+  73], [110, 86], [111, 82], [112, 118], [113, 72], [114, 112], [115, 112], [116,
+  91], [117, 73], [118, 76], [119, 81], [120, 79], [121, 77], [122, 77], [123, 85],
+  [124, 89], [125, 68], [126, 144], [127, 56], [128, 66], [129, 60], [130, 62], [131,
+  58], [132, 81], [133, 72], [134, 75], [135, 53], [136, 85], [137, 39], [138, 93],
+  [139, 62], [140, 56], [141, 98], [142, 46], [143, 42], [144, 63], [145, 44], [146,
+  50], [147, 41], [148, 46], [149, 37], [150, 42], [151, 32], [152, 28], [153, 35],
+  [154, 31], [155, 34], [156, 46], [157, 56], [158, 28], [159, 37], [160, 45], [161,
+  34], [162, 42], [163, 46], [164, 34], [165, 34], [166, 56], [167, 27], [168, 34],
+  [169, 24], [170, 51], [171, 66], [172, 41], [173, 65], [174, 26], [175, 18], [176,
+  25], [177, 37], [178, 18], [179, 21], [180, 39], [181, 20], [182, 30], [183, 24],
+  [184, 18], [185, 19], [186, 7], [187, 15], [188, 28], [189, 27], [190, 14], [191,
+  21], [192, 33], [193, 12], [194, 27], [195, 43], [196, 16], [197, 9], [198, 68],
+  [199, 40], [200, 24], [201, 31], [202, 9], [203, 41], [204, 16], [205, 16], [206,
+  16], [207, 32], [208, 11], [209, 6], [210, 6], [211, 9], [212, 25], [213, 14], [214,
+  8], [215, 7], [216, 10], [217, 15], [218, 13], [219, 5], [220, 7], [221, 27], [222,
+  20], [223, 15], [224, 7], [225, 7], [226, 6], [227, 9], [228, 33], [229, 6], [230,
+  6], [231, 13], [232, 5], [233, 10], [234, 7], [235, 8], [236, 12], [237, 4], [238,
+  1], [239, 8], [240, 4], [241, 6], [242, 4], [243, 15], [244, 17], [245, 5], [246,
+  1], [247, 5], [248, 25], [249, 5], [250, 15], [251, 17], [252, 3], [253, 6], [254,
+  8], [255, 5], [256, 7], [257, 12], [258, 6], [259, 2], [260, 6], [261, 11], [262,
+  2], [263, 21], [265, 5], [266, 4], [267, 3], [268, 2], [269, 3], [270, 2], [271,
+  4], [272, 17], [273, 3], [274, 5], [275, 3], [276, 4], [277, 4], [278, 7], [279,
+  7], [280, 4], [281, 2], [282, 1], [283, 1], [284, 2], [285, 2], [286, 3], [287,
+  1], [288, 2], [289, 2], [290, 2], [291, 3], [292, 4], [293, 3], [294, 5], [295,
+  1], [296, 1], [297, 4], [298, 2], [299, 3], [301, 15], [302, 2], [303, 1], [304,
+  2], [305, 1], [308, 2], [309, 3], [310, 2], [312, 6], [313, 1], [314, 4], [316,
+  2], [317, 3], [318, 4], [319, 3], [320, 6], [321, 1], [322, 4], [323, 1], [324,
+  2], [325, 1], [326, 2], [327, 3], [328, 1], [329, 3], [331, 1], [332, 9], [334,
+  3], [335, 11], [336, 1], [337, 1], [338, 2], [339, 2], [342, 1], [343, 1], [344,
+  2], [345, 3], [346, 1], [347, 1], [348, 4], [351, 1], [353, 1], [355, 2], [358,
+  2], [359, 2], [362, 1], [363, 1], [364, 1], [365, 1], [366, 17], [367, 3], [368,
+  2], [369, 2], [370, 3], [372, 1], [373, 4], [374, 1], [375, 1], [376, 1], [378,
+  1], [379, 1], [380, 1], [381, 3], [382, 2], [383, 3], [385, 2], [387, 1], [388,
+  1], [389, 2], [390, 2], [391, 1], [394, 1], [395, 1], [399, 2], [400, 2], [402,
+  2], [403, 1], [404, 3], [405, 2], [406, 2], [413, 1], [414, 2], [416, 1], [417,
+  1], [421, 2], [422, 1], [426, 1], [428, 3], [429, 1], [431, 2], [434, 2], [435,
+  1], [437, 1], [442, 1], [444, 4], [449, 1], [450, 1], [453, 1], [454, 1], [457,
+  1], [458, 1], [460, 1], [462, 1], [464, 3], [465, 1], [466, 1], [467, 1], [473,
+  2], [474, 1], [475, 2], [476, 1], [486, 1], [487, 1], [489, 1], [490, 1], [496,
+  1], [498, 2], [499, 2], [505, 1], [506, 1], [522, 1], [526, 2], [527, 2], [531,
+  1], [533, 2], [534, 1], [542, 1], [543, 1], [548, 1], [551, 1], [552, 1], [553,
+  1], [558, 1], [559, 2], [560, 1], [573, 1], [578, 1], [580, 1], [581, 2], [582,
+  1], [585, 1], [590, 1], [592, 1], [593, 1], [594, 3], [597, 2], [601, 1], [610,
+  1], [611, 2], [622, 2], [624, 1], [625, 1], [627, 1], [628, 1], [630, 1], [632,
+  1], [637, 1], [648, 1], [651, 1], [658, 1], [659, 1], [664, 1], [668, 2], [678,
+  1], [690, 1], [697, 1], [699, 1], [707, 1], [710, 1], [732, 1], [736, 1], [741,
+  1], [748, 2], [749, 1], [750, 1], [756, 1], [764, 1], [785, 1], [786, 1], [788,
+  1], [793, 1], [795, 1], [798, 1], [803, 1], [812, 1], [818, 1], [820, 1], [821,
+  1], [827, 1], [834, 1], [863, 1], [884, 1], [887, 1], [898, 1], [900, 1], [912,
+  1], [918, 1], [920, 1], [922, 1], [928, 1], [937, 1], [943, 1], [955, 2], [980,
+  2], [985, 1], [992, 1], [1003, 1], [1005, 1], [1026, 1], [1036, 1], [1037, 2], [1056,
+  1], [1066, 1], [1098, 1], [1129, 1], [1177, 1], [1179, 1], [1184, 1], [1192, 1],
+  [1244, 1], [1328, 1], [1335, 1], [1373, 1], [1386, 1], [1545, 1], [1689, 1], [1730,
+  1], [1732, 1], [1734, 1], [2055, 1], [2062, 1]]'
+src_sent_tokens_mean: 32
+src_sent_tokens_median: 18
+src_unique_sents: '[[1, 785], [2, 1354], [3, 2457], [4, 3613], [5, 5398], [6, 4701],
+  [7, 3273], [8, 2902], [9, 2415], [10, 2105], [11, 1713], [12, 1621], [13, 1513],
+  [14, 1478], [15, 1464], [16, 1395], [17, 1436], [18, 1532], [19, 1619], [20, 1690],
+  [21, 1866], [22, 1711], [23, 1721], [24, 1658], [25, 1487], [26, 1394], [27, 1338],
+  [28, 1259], [29, 1166], [30, 1130], [31, 1119], [32, 1117], [33, 1072], [34, 959],
+  [35, 931], [36, 923], [37, 793], [38, 805], [39, 746], [40, 718], [41, 648], [42,
+  590], [43, 604], [44, 598], [45, 571], [46, 579], [47, 543], [48, 487], [49, 460],
+  [50, 427], [51, 405], [52, 400], [53, 334], [54, 366], [55, 346], [56, 321], [57,
+  298], [58, 294], [59, 306], [60, 333], [61, 270], [62, 268], [63, 262], [64, 266],
+  [65, 244], [66, 221], [67, 217], [68, 212], [69, 212], [70, 214], [71, 212], [72,
+  195], [73, 171], [74, 176], [75, 170], [76, 141], [77, 137], [78, 157], [79, 166],
+  [80, 176], [81, 143], [82, 166], [83, 140], [84, 130], [85, 139], [86, 122], [87,
+  124], [88, 127], [89, 116], [90, 117], [91, 114], [92, 110], [93, 126], [94, 115],
+  [95, 103], [96, 122], [97, 93], [98, 80], [99, 97], [100, 99], [101, 102], [102,
+  79], [103, 96], [104, 82], [105, 97], [106, 88], [107, 70], [108, 77], [109, 61],
+  [110, 76], [111, 68], [112, 76], [113, 66], [114, 80], [115, 80], [116, 60], [117,
+  56], [118, 50], [119, 55], [120, 56], [121, 56], [122, 57], [123, 54], [124, 50],
+  [125, 51], [126, 56], [127, 48], [128, 53], [129, 52], [130, 39], [131, 49], [132,
+  52], [133, 47], [134, 37], [135, 49], [136, 38], [137, 37], [138, 49], [139, 46],
+  [140, 34], [141, 41], [142, 38], [143, 26], [144, 31], [145, 40], [146, 36], [147,
+  35], [148, 38], [149, 33], [150, 28], [151, 28], [152, 27], [153, 34], [154, 29],
+  [155, 30], [156, 21], [157, 29], [158, 23], [159, 25], [160, 32], [161, 23], [162,
+  22], [163, 25], [164, 32], [165, 28], [166, 24], [167, 23], [168, 31], [169, 23],
+  [170, 23], [171, 21], [172, 21], [173, 22], [174, 23], [175, 18], [176, 18], [177,
+  20], [178, 18], [179, 18], [180, 24], [181, 17], [182, 27], [183, 21], [184, 16],
+  [185, 12], [186, 7], [187, 11], [188, 13], [189, 21], [190, 13], [191, 14], [192,
+  15], [193, 12], [194, 10], [195, 17], [196, 11], [197, 8], [198, 12], [199, 16],
+  [200, 11], [201, 10], [202, 9], [203, 17], [204, 9], [205, 12], [206, 7], [207,
+  12], [208, 10], [209, 4], [210, 6], [211, 9], [212, 13], [213, 9], [214, 7], [215,
+  7], [216, 9], [217, 15], [218, 12], [219, 4], [220, 6], [221, 6], [222, 6], [223,
+  9], [224, 7], [225, 7], [226, 6], [227, 7], [228, 10], [229, 6], [230, 6], [231,
+  11], [232, 3], [233, 10], [234, 7], [235, 7], [236, 10], [237, 4], [238, 1], [239,
+  5], [240, 4], [241, 5], [242, 4], [243, 3], [244, 5], [245, 5], [246, 1], [247,
+  5], [248, 5], [249, 5], [250, 3], [251, 5], [252, 3], [253, 6], [254, 5], [255,
+  4], [256, 6], [257, 8], [258, 6], [259, 2], [260, 6], [261, 3], [262, 2], [263,
+  2], [265, 5], [266, 4], [267, 3], [268, 2], [269, 3], [270, 2], [271, 4], [272,
+  2], [273, 3], [274, 5], [275, 3], [276, 3], [277, 3], [278, 5], [279, 5], [280,
+  4], [281, 2], [282, 1], [283, 1], [284, 2], [285, 2], [286, 3], [287, 1], [288,
+  2], [289, 2], [290, 2], [291, 3], [292, 4], [293, 3], [294, 4], [295, 1], [296,
+  1], [297, 4], [298, 2], [299, 3], [301, 3], [302, 2], [303, 1], [304, 2], [305,
+  1], [308, 2], [309, 3], [310, 2], [312, 4], [313, 1], [314, 2], [316, 2], [317,
+  3], [318, 4], [319, 3], [320, 1], [321, 1], [322, 4], [323, 1], [324, 2], [325,
+  1], [326, 2], [327, 3], [328, 1], [329, 3], [331, 1], [332, 7], [334, 3], [335,
+  3], [336, 1], [337, 1], [338, 2], [339, 2], [342, 1], [343, 1], [344, 2], [345,
+  3], [346, 1], [347, 1], [348, 4], [351, 1], [353, 1], [355, 2], [358, 2], [359,
+  2], [362, 1], [363, 1], [364, 1], [365, 1], [366, 2], [367, 3], [368, 1], [369,
+  2], [370, 3], [372, 1], [373, 4], [374, 1], [375, 1], [376, 1], [378, 1], [379,
+  1], [380, 1], [381, 3], [382, 2], [383, 3], [385, 1], [387, 1], [388, 1], [389,
+  2], [390, 2], [391, 1], [394, 1], [395, 1], [399, 2], [400, 2], [402, 2], [403,
+  1], [404, 3], [405, 2], [406, 2], [413, 1], [414, 2], [416, 1], [417, 1], [421,
+  2], [422, 1], [426, 1], [428, 3], [429, 1], [431, 2], [434, 2], [435, 1], [437,
+  1], [442, 1], [444, 4], [449, 1], [450, 1], [453, 1], [454, 1], [457, 1], [458,
+  1], [460, 1], [462, 1], [464, 3], [465, 1], [466, 1], [467, 1], [473, 2], [474,
+  1], [475, 2], [476, 1], [486, 1], [487, 1], [489, 1], [490, 1], [496, 1], [498,
+  2], [499, 2], [505, 1], [506, 1], [522, 1], [526, 2], [527, 2], [531, 1], [533,
+  2], [534, 1], [542, 1], [543, 1], [548, 1], [551, 1], [552, 1], [553, 1], [558,
+  1], [559, 2], [560, 1], [573, 1], [578, 1], [580, 1], [581, 2], [582, 1], [585,
+  1], [590, 1], [592, 1], [593, 1], [594, 3], [597, 2], [601, 1], [610, 1], [611,
+  2], [622, 2], [624, 1], [625, 1], [627, 1], [628, 1], [630, 1], [632, 1], [637,
+  1], [648, 1], [651, 1], [658, 1], [659, 1], [664, 1], [668, 2], [678, 1], [690,
+  1], [697, 1], [699, 1], [707, 1], [710, 1], [732, 1], [736, 1], [741, 1], [748,
+  2], [749, 1], [750, 1], [756, 1], [764, 1], [785, 1], [786, 1], [788, 1], [793,
+  1], [795, 1], [798, 1], [803, 1], [812, 1], [818, 1], [820, 1], [821, 1], [827,
+  1], [834, 1], [863, 1], [884, 1], [887, 1], [898, 1], [900, 1], [912, 1], [918,
+  1], [920, 1], [922, 1], [928, 1], [937, 1], [943, 1], [955, 2], [980, 2], [985,
+  1], [992, 1], [1003, 1], [1005, 1], [1026, 1], [1036, 1], [1037, 2], [1056, 1],
+  [1066, 1], [1098, 1], [1129, 1], [1177, 1], [1179, 1], [1184, 1], [1192, 1], [1244,
+  1], [1328, 1], [1335, 1], [1373, 1], [1386, 1], [1545, 1], [1689, 1], [1730, 1],
+  [1732, 1], [1734, 1], [2055, 1], [2062, 1]]'
+src_langs: '[["en", 28162], ["sw", 20681], ["tl", 13651], ["am", 6618], ["war", 5120],
+  ["ilo", 3007], ["ko", 2456], ["hr", 2053], ["es", 1978], ["eo", 1877], ["vi", 1865],
+  ["id", 1644], ["it", 1521], ["fi", 1461], ["eu", 1345], ["de", 1224], ["ja", 1031],
+  ["cs", 1023], ["pl", 1020], ["la", 959], ["ur", 885], ["nl", 859], ["hi", 619],
+  ["pt", 584], ["he", 562], ["sv", 489], ["ru", 485], ["ceb", 472], ["gn", 435], ["sr",
+  414], ["fr", 409], ["sl", 369], ["zh", 353], ["hu", 332], ["kv", 328], ["jv", 298],
+  ["ca", 293], ["ku", 220], ["su", 217], ["fa", 217], ["lt", 207], ["nb", 206], ["kw",
+  196], ["lv", 184], ["kn", 184], ["is", 182], ["uk", 178], ["et", 172], ["ht", 164],
+  ["ga", 164], ["tr", 153], ["ms", 152], ["ar", 151], ["qu", 139], ["ro", 138], ["da",
+  137], ["sk", 116], ["mg", 104], ["th", 91], ["bs", 90], ["io", 76], ["rm", 71],
+  ["br", 70], ["uz", 60], ["cy", 59], ["nn", 58], ["sq", 51], ["bcl", 48], ["hsb",
+  47], ["pms", 40], ["gl", 39], ["si", 37], ["el", 35], ["bn", 35], ["yo", 31], ["vo",
+  29], ["vep", 29], ["tg", 29], ["ml", 20], ["so", 18], ["ta", 17], ["pam", 17], ["az",
+  15], ["mt", 14], ["mk", 14], ["gu", 13], ["sa", 10], ["mr", 10], ["jbo", 10], ["oc",
+  9], ["min", 9], ["hy", 9], ["fy", 9], ["gv", 8], ["diq", 8], ["nds", 7], ["lmo",
+  7], ["ka", 7], ["ast", 7], ["lb", 6], ["gd", 6], ["cbk", 6], ["arz", 6], ["tk",
+  5], ["te", 5], ["km", 5], ["kk", 5], ["ia", 5], ["ckb", 5], ["bg", 5], ["wuu", 4],
+  ["sco", 4], ["nap", 4], ["lo", 4], ["ie", 4], ["cv", 4], ["af", 4], ["wa", 3], ["tt",
+  3], ["scn", 3], ["sc", 3], ["new", 3], ["mn", 3], ["ce", 3], ["be", 3], ["lez",
+  2], ["ky", 2], ["gom", 2], ["eml", 2], ["bar", 2], ["ba", 2], ["als", 2], ["vec",
+  1], ["sah", 1], ["rue", 1], ["pnb", 1], ["pa", 1], ["os", 1], ["ne", 1], ["krc",
+  1], ["dv", 1], ["dsb", 1], ["co", 1], ["as", 1], ["an", 1]]'
+hardrules_tags: '{"not_too_long": 815, "not_too_short": 8640, "length_ratio": 0, "no_urls":
+  238, "no_bad_encoding": 9, "pii": 51}'
+sample: '["\"Ciira wa ungumania wa mwigana wa million 34.9 uria ngavana wa Tharaka
+  Nithi muthomi Njuki akuruvanitue naguo ,riu ukathikirirua igotiri ria watho ria
+  Embu .\\nJaji wa igoti rinene James Wakiaga akivecana itua riake augite ciira uyu
+  ukagwetwa tariki 16 mweri wa ikumi na umwe na andu onthe aria makuruvanitue ciirari
+  uyu magirirwe gwikinyia igotiri.\\nCiira uyu niwakinyirue igotiri rinene mweri wa
+  January kuma Milimani niguo gucaria mwerekera kuria ugukorwa ugitwarithirua nambere.\\nIno
+  yaukite vuva wa mwena wa nthitango kuregana na ciira uyu gucejua kuma Nairobi na
+  kuvirua igotiri ria Chuka kana Kathwana .\\nKuringana na gikundi kia mwena wa nthitango
+  ciira uyu wandikithirue Nairobi nikwona mavitia mekiritwe miena ngurani ari vamwe
+  na kaunty ya Embu .\\nMweri wa kenda mwaka muvituku munene wa nthitango cia mwingi
+  Noordin Haji niwamurithirie gwikua ngono na kuthitangwa kwa ngavana Muthomi Njuki
+  na maavitha engi a kaunty iyo nundu wa kuvecana kandarathi na mutaratara uria utagiririkite
+  .\\nWanja wa Njiru\\nMbica irutitwe online\"", "\"Ngavana wa Muranga Mwangi wa Iria,
+  niagiire kiene mukana uria eriga kuheo ni Ngavana wa Nairobi Mike Sonko, kuria Sonko
+  oritie Wairia atigane na uhoro wa maai ma Ndaka-ini, kwaga uguo amomorerwo nyumba
+  yake iria ii guku Nairobi.\\nWa-iria ekwaragia mwena wa Ndaka-ini Gatanga hindi
+  ya kigomano gia kuoya mawoni ma muingi, maria megucoka mukuruhanio ni mbunge ya
+  Muranga hari guthondeka watho wa maai, na kana kaunti ya Muranga niyagiriire kwamukagira
+  kigina kia maai maria marauma kuu, hamwe na gwikirira muingi wa Murang\u2019a maai.\"",
+  "\"DCI KUHITHURIA NDAWA CIA MAGENDO CIA MIRIONI 9 KIHARO-INI KIA JKIA\\nWritten
+  by Kayu Digital Team on October 4, 2023\\n- NAIROBI & ENVIRONS 91.0 | MT KENYA REGION
+  91.1FM\\nMabithaa a uthuthuria wa DCI nimahithuritie ndawa muthemba wa Methamphetamine
+  cia muigana wa ciringi mirioni 9 kiharo-ini kia Ndege kia JKIA. Kuringana na ndumiriri
+  ya DCI niati ndawa ici na iria irahithanitio na iratu cia mathako irari na uritu
+  wa makiria ma kilo 1, ikirikana iraumite bururi-ini wa Comoros iroretio mucii-ini
+  wa Jakata, Indonesia ihana ta murigo. Kumana na uu, DCI ndumiriri-ini yao nimaugite
+  uthuthuria wa gukurana aria marari matumite ndawa ici, kuuma bururi kihumo kuona
+  irari itumwo ta murigo nginyagia Indonesia, DCI igikinyiriria ni igutwarithia nambere
+  mihang\u2019o ya kuhitana na ciiko cia utambia wa ndawa cia kurebia bururi-ini unyitaniri
+  na honge cia ugitiri cia kimabururi.\"", "\"\u1218\u12dd\u1219\u122d 52\\n\u12e8\u12ad\u1349\u12ce\u127d
+  \u12d5\u1323 \u1348\u1295\u1273\\n\u1208\u1218\u12d8\u121d\u122b\u1295 \u12a0\u1208\u1243\u1364
+  \u12a4\u12f6\u121b\u12ca\u12cd \u12f6\u12ed\u1245 \u12c8\u12f0 \u1233\u12a6\u120d
+  \u1218\u1325\u1276\u1363 \u201c\u12f3\u12ca\u1275 \u12c8\u12f0 \u12a0\u1262\u121c\u120c\u12ad
+  \u1264\u1275 \u1218\u1325\u1276\u12a0\u120d\u201d \u1265\u120e \u1260\u1290\u1308\u1228\u12cd
+  \u130a\u12dc\u1364 \u12e8\u12f3\u12ca\u127552\u13650 \u122d\u12a5\u1231 \u121d\u1293\u120d\u1263\u1275
+  \u12e8\u1218\u12dd\u1219\u1229\u1295 \u1201\u1294\u1273 \u12e8\u121a\u12eb\u1233\u12ed
+  \u120a\u1206\u1295 \u12ed\u127d\u120b\u120d\u1362 \u1275\u121d\u1205\u122d\u1275\\n1\u1280\u12eb\u120d
+  \u1206\u12ed\u1364 \u1260\u12ad\u134b\u1275 \u1208\u121d\u1295 \u1275\u12b5\u122b\u122b\u1208\u1205?\\n\u12a0\u1295\u1270
+  \u1260\u12a5\u130d\u12da\u12a0\u1265\u1214\u122d \u12d0\u12ed\u1295 \u12e8\u1270\u1293\u1245\u1205\u1363\\n\u12a5\u1295\u12f4\u1275\u1235
+  \u12d8\u12c8\u1275\u122d \u1275\u1273\u1260\u12eb\u1208\u1205?\\n2\u12a0\u1295\u1270
+  \u121b\u1273\u1208\u120d\u1295 \u1225\u122b\u12ec \u1265\u1208\u1205 \u12e8\u12eb\u12dd\u1205\u1364\\n\u12a0\u1295\u12f0\u1260\u1275\u1205
+  \u12a5\u1295\u12f0 \u1230\u120b \u121d\u120b\u132d\u1363\\n\u1325\u134b\u1275\u1295
+  \u12eb\u12cd\u1320\u1290\u1325\u1293\u120d\u1362\\n3\u12a8\u1260\u130e \u1290\u1308\u122d
+  \u12ed\u120d\u1245 \u12ad\u134b\u1275\u1295\u1363\\n\u12a5\u12cd\u1290\u1275\u1295
+  \u12a8\u1218\u1293\u1308\u122d \u12ed\u120d\u1245 \u1210\u1230\u1275\u1295 \u12c8\u12f0\u12f5\u1205\u1362
+  \u1234\u120b\\n4\u12a0\u1295\u1270 \u12a0\u1273\u120b\u12ed \u12a0\u1295\u12f0\u1260\u1275
+  \u1206\u12ed\u1364\\n\u1310\u1302 \u1243\u120b\u1275\u1295 \u1201\u1209 \u12c8\u12f0\u12f5\u1205!\\n5\u12a5\u130d\u12da\u12a0\u1265\u1214\u122d
+  \u130d\u1295 \u1208\u12d8\u120b\u1208\u121d\\n\u12eb\u1295\u12b0\u1273\u12b5\u1275\u1203\u120d\u1364\\n\u12ed\u1290\u1325\u1245\u1203\u120d\u1364
+  \u12a8\u12f5\u1295\u12b3\u1295\u1205\u121d \u1218\u1295\u1325\u1246 \u12eb\u12c8\u1323\u1203\u120d\u1364\\n\u12a8\u1215\u12eb\u12cb\u1295\u121d
+  \u121d\u12f5\u122d \u12ed\u1290\u1245\u120d\u1203\u120d\u1362 \u1234\u120b\\n6\u133b\u12f5\u1243\u1295
+  \u12ed\u1205\u1295 \u12d0\u12ed\u1270\u12cd \u12ed\u1348\u122b\u1209\u1364\\n\u12a5\u1295\u12f2\u1205
+  \u12a5\u12eb\u1209\u121d \u12ed\u1225\u1241\u1260\u1273\u120d\u1364\\n7\u201c\u12a5\u130d\u12da\u12a0\u1265\u1214\u122d\u1295
+  \u1218\u1320\u130a\u12eb \u12eb\u120b\u12f0\u1228\u1308\u1363\\n\u1290\u1308\u122d
+  \u130d\u1295 \u1260\u1200\u1265\u1271 \u1265\u12db\u1275 \u12e8\u1270\u1218\u12ab\u1363\\n\u1260\u12ad\u134b\u1271\u121d
+  \u12e8\u1260\u1228\u1273\u1363\\n\u12eb \u1230\u12cd \u12a5\u1290\u1206!\u201d\\n8\u12a5\u1294
+  \u130d\u1295 \u1260\u12a5\u130d\u12da\u12a0\u1265\u1214\u122d \u1264\u1275\u1363\\n\u12a5\u1295\u12f0\u1208\u1218\u1208\u1218
+  \u12e8\u12c8\u12ed\u122b \u12db\u134d \u1290\u129d\u1364\\n\u12a8\u12d8\u120b\u1208\u121d
+  \u12a5\u1235\u12a8 \u12d8\u120b\u1208\u121d\u1363\\n\u1260\u12a5\u130d\u12da\u12a0\u1265\u1214\u122d
+  \u121d\u1215\u1228\u1275 \u12a5\u1273\u1218\u1293\u1208\u1201\u1362\\n9\u1235\u120b\u12f0\u1228\u130d\u12b8\u12cd
+  \u1290\u1308\u122d \u1208\u12d8\u120b\u1208\u121d \u12a0\u1218\u1230\u130d\u1295\u1203\u1208\u1201\u1364\\n\u1235\u121d\u1205
+  \u1218\u120d\u12ab\u121d \u1290\u12cd\u1293 \u1235\u121d\u1205\u1295 \u1270\u1235\u134b
+  \u12a0\u12f0\u122d\u130b\u1208\u1201\u1364\\n\u1260\u1245\u12f1\u1233\u1295\u121d
+  \u1218\u12ab\u12a8\u120d \u12a0\u1218\u1230\u130d\u1295\u1203\u1208\u1201\u1362\\nWega
+  wa Ngai na G\u0169tuan\u0129ra Ciira Gwake\\nThaburi ya Daudi\\n1Wee njamba \u0129no
+  \u0129r\u0129 hinya,\\n\u0169reegana n\u0129 \u0169nd\u0169 wa ma\u0169nd\u0169
+  mooru n\u0129k\u0129?\\n\u0168tindaga w\u0129rah\u0129te m\u0169thenya wothe n\u0129k\u0129,\\no
+  wee \u0169tu\u0129k\u0129te g\u0129conoko maitho-n\u0129 ma Ngai?\\n252:2 Ndar 6:5;
+  Thab 50:19R\u0169r\u0129m\u0129 rwaku r\u0169thugundaga mwanang\u0129ko;\\nr\u0169haana
+  ta rwenji r\u0169noore,\\no wee w\u0129kaga ma\u0169nd\u0169 ma maheeni.\\n352:3
+  Thaam 10:10; Jer 9:5Wendete ma\u0169nd\u0169 mooru g\u0169k\u0129ra mar\u0129a mega,\\n\u0169kenda
+  maheeni g\u0169k\u0129ra kwaria ma.\\n4Wendete ciugo o ciothe ith\u0169kagia and\u0169,\\nwee
+  r\u0169r\u0129m\u0129 r\u0169r\u0169 rwa maheeni!\\n552:5 G\u0169cook 29:28; Ayub
+  28:13Ti-ither\u0169 M\u0169rungu n\u0129agakwananga nginya tene na tene:\\nAgak\u0169nyiita,
+  ak\u0169hurie na ak\u0169rute hema-in\u0129 yaku;\\nagak\u0169munya akweherie b\u0169r\u0169ri
+  wa ar\u0129a mar\u0129 muoyo.\\n652:6 Ayub 22:19And\u0169 ar\u0129a athingu n\u0129makona
+  \u0169guo metig\u0129re;\\nnao magathekerera m\u0169nd\u0169 \u0169cio, moige at\u0129r\u0129,\\n752:7
+  Thab 49:6; Mar 10:23\u201c\u0168y\u0169 n\u0129we m\u0169nd\u0169\\n\u0169r\u0129a
+  wagire g\u0169tua Ngai k\u0129\u0129hitho g\u0129ake k\u0129a hinya,\\nno eehokire
+  \u0169tonga wake m\u0169ing\u0129,\\nna ak\u0129g\u0129a hinya n\u0129 \u0169nd\u0169
+  wa k\u0169niina and\u0169 ar\u0129a ang\u0129!\u201d\\n8No r\u0129r\u0129, ni\u0129
+  ndari\u0129 ta m\u0169t\u0129 wa m\u0169tamaiy\u0169,\\n\u0169r\u0129a \u0169rak\u0169ra
+  wega \u0169r\u0129 th\u0129in\u0129 wa ny\u0169mba ya Ngai;\\nnd\u0129hokete wendo
+  wa Ngai \u0169r\u0129a \u0169tathiraga\\nnginya tene na tene.\\n952:9 Thab 30:12;
+  G\u0169cook 7:6Ng\u0169t\u0169\u0169ra ng\u0169goocaga nginya tene n\u0129 \u0169nd\u0169
+  wa \u0169r\u0129a w\u0129k\u0129te;\\nnd\u0129r\u0129\u0129hokaga r\u0129\u0129twa
+  r\u0129aku, n\u0129g\u0169korwo r\u0129\u0129twa r\u0129aku n\u0129 r\u0129ega.\\nNd\u0129r\u0129k\u0169goocaga
+  nd\u0129 mbere ya and\u0169 aku ar\u0129a aam\u0169re.\"", "\"Andu anana aria maravuranira
+  giti kia mwenegiti wamungano wa kurongoiya biacara cia kimavururi, nimagukorwa magika
+  igeranio cia dagika 15 gwitetera nikih magirire gwoca giti kiu mbere ya mavururi
+  igana rimwe ria mirongo itandatu na ana, amemba a mungano uyu vuva wa uguo meke
+  kingi kia dagika mirongo mugwanja na ithano gutariria muvango wao maundu megii biacara
+  cia kimavururi.\\nVuva wa kuthengutua kageci karaca na njira ya kwigucanira kuma
+  mweri wa kenda uria ukamurwa gwoca giti kiu agakorwa na wira wa gutethia gukiirira
+  kwa biacara cia kimavururi kavinda gaka ivaguritwe ni mututhuko wa murimu wa corona
+  virus.\\nWoguo mwenegiti ucio agakorwa akivokwa gutethia kunyivia na kuthiria mbukaaniriro
+  ya vururi wa china na America uria ukoretwe kuo gwa kavinda riu niguo gutethia uthii
+  wa nambere wa biacara gatagati ka vururi icio igiri.\\nAria maravuranira giti kiu
+  ni ni andu athatu kuma gitaru kia Africa ,airi kuma gitaru kia Europe ,airi kuma
+  gitaru kia asia, na umwe kuma itaru cia America\\nAthatu acio a Africa ni uria wai
+  munene wa ruvonge rwa kigina na maundu mananja ma vururi wa Nigeria ngozi okonjo,
+  uria wai barothi wa vururi wa Egypt Hamid Mamdouh na uria wai director wa kurugamirira
+  maundu ma wonjoria munganori ucio kuma kenya Amina Mohamed.\\nKuma gitaru kia Europe
+  ni Mwandiki wa mbere wa maundu ma wonjoria vururi wa Britain kuma mauma mungano
+  wa ruraya na uria wai munene wa ruvonge rwa maundu ma kuma na nja ma vururi wa Moldovan
+  Tudor Ulianovschi .\\nKuma gitaru kia asia kwina munene wa ruvonge rwa biacara vururi
+  wa southkorea Yoo Myung-hee na minister wa utonga wa vururi wa saudia arabia Mohammed
+  al-Tuwaijri na wa gitaru kia Europe ni uria wai munini wa director wa mungano uyu
+  kuma gicigo kia mexico Jesus Seade Kuri\\nAmina muhammed agekinyia mbere ya mungano
+  ucio muthenya wa jumaa gwitetera. kavinda wakau munene wa vururi wa kenya uhuru
+  kenyatta akimugwata mbaru niugite ati amina ni mundu ungivota gutongoria mungano
+  ucio na gutethia uthii na mbere wa biacara cia kimavururi kavinda gaka ka murimu
+  wa corona virus akiongerera ati ni kavinda riu mungano ucio utongorue ni mundu kuma
+  gitaru kia Africa.\\nKuma mungano uyu wathondekirwe mwaka wa ngiri imwe Magana kenda
+  na mirongo kenda na ithano ukoretwe ugitongorua ni andu akuma Europe, Oceania, Asia
+  and South America.\\nAnana aya maravuranira giti kia Roberto Azevedo wa kuma vururi
+  wa Brazil uria urarugamire wira mwaka umwe mbere ya kavinda gake kuthira.\"", "\"NY\u0128MBO
+  CIA K\u0168IN\u0128RA NGAI\\n\u0168gooci Wothe N\u0129 Waku\\nThine Be the Glory\\n-
+  \u0168gooci wothe n\u0129 waku Wee m\u0169ri\u0169ku,\\nN\u0129\u0169hotete g\u0129ku\u0169
+  Jes\u0169, m\u0169toria m\u0169nene.\\nAraika aku atheru mak\u0129oya ihiga,\\nMag\u0129thaya
+  nguo ciaku har\u0129a mw\u0129r\u0129 waar\u0129. \u0168gooci wothe n\u0129 waku
+  Wee Mwathani,\\nN\u0129\u0169hotete g\u0129k\u0169\u0169 Jes\u0169, m\u0169toria
+  m\u0169nene.\\n- Jes\u0169 n\u0129 aroka oim\u0129te mb\u0129r\u0129rain\u0129\\nAgat\u0169geithia
+  na wendo, agat\u0169horeria.\\nKanitha wake n\u0129 \u0169ine na g\u0129t\u0129o
+  ma\\nAmu Jes\u0169 n\u0129 m\u0169ri\u0169ku, n\u0129atoretie g\u0129ku\u0169. Nganja
+  t\u0169tir\u0129, Wee nowe mwene muoyo,\\nG\u0169tir\u0129 na \u0169ng\u0129 tawe,
+  t\u0169teithie mbaarain\u0129;\\nNa ithu\u0129 t\u0169tu\u0129ke ahotani n\u0129
+  \u0169nd\u0169 wa wendo\\nT\u0169ringe r\u0169\u0169\u0129 rwa g\u0129ku\u0169 t\u0169kinye
+  Ig\u0169r\u0169.\"", "\"- NAIROBI & ENVIRONS 91.0 | MT KENYA REGION 91.1FM\\nMotungata
+  ma urigitani maya kuroka gutharara thibitari-ini cia muingi ruci-ini rwa umuthi,
+  uu ari thutha wa kiama kia arigitani KMPDU gukinyiririe nigikuroka gutabania mururungano
+  gatagati ka mucii wa Nairobi nginyagia mawabici-ini matiganite ma thirikari.\\nKuringana
+  na maabitha a kiama giki niati marongore-irie gutabania mururungano wa thayu nginyagia
+  ministry-ini cia urigitani na kigina, gutwara marua ma kuria thirikari itume arigitani
+  aria marikitie mathomo mathibitari-ini niguo kwinora thutha wa mathomo, nahau macoke
+  maikie nutithi ya mugomo thiku mugwanja wona undu uyu waga guthikiririo.\\nMaya
+  mokite riri kiama giki unyitaniri na kiria kia mawakiri, LSK mathiite nambere na
+  kung\u2019ethera ikinya ria kuhurwo kwa mwandiki munene wa kiama gia KMPDU Dr Davji
+  Atellah, makiuga kihoto kia mirurungano no nginyagia githingatwo.\"", "\"Mwaka wa
+  2018 urari mwaka ungigwetwo gukorwo uraihuritwo ni managi, icanjama na mwiyendo
+  munene mbunge-ini ya bururi, kuria ambunge maragumiirwo ni mateta ngurani megii
+  woi wa mahaki niguo kwegemera mwena umwe hari mirutire yao ya wira, undu umwe na
+  kuhitukia mitaratara ya watho iria ironeka gukorwo ikihinyiriria akenya na kwiguna
+  o ene.\\nUmuthi tukimurika uria mwaka urahanaga ciikaro-ini cia mbunge, mwandiki
+  witu Mwaura wa Gunya niaratucokia makinya thutha na kumurika mamwe ma amaria mareyumiririe
+  mbunge-ini.\"", "\"Mwanake umwe arari gatagati ka nyanake 20 irekuirwo kuuma mwena
+  wa Thika na Nairobi iria irahetwo wira ni mundurume ukurikanite ta John Ngugi guthii
+  kuhamurithia mutumia wa muru wa nyina Mary Nyaguthii na ciana ciake 7 kuuma mugunda-ini
+  wa ithe wao itura-ini ria Gaitanga mwena wa Gaichanjiru Kandara ni aroragirwo.\\nUu
+  ni kuumana na ngucanio ya mugunda gatagati gake na muru wa nyina ucio Clement Mbugua
+  uria wiriga kuhuruka na ndugamano igii mugunda ucio kugiria mwiri wake uhurukio.\\nMarari
+  mathamirio mugunda-ini o ungi wa ithe wao wi itura-ini ria Mutoho o kuu Gaichanjiru
+  na mararikia gwikinyia muthenya wa ira gugithereruka na kwambia gutharia nyumba
+  yake\\nMuingi wa itura uramuhithukira na aroragwo guku ari a nyina eri na mutigairi
+  aria marokite hamwe na nyanake icio iria irarehetwo na rori onao maratemangwo na
+  kuhurwo ndundio na miti na mbau na riu marathii nambere guthaitirwo thibitariini
+  ya miceni ya Gaichanjiru.\\nNgucanio ino igithiaga nambere, andu a nyumba ya mutigairi
+  maugite ati nonginya mathamire mugunda-ini ucio tondu ithe wao mutigairi Julius
+  Kabuthu Kabogo niatigite egaya atanahuruka na kumugaira mugunda ucio wi Mutoho na
+  ati angiaga guthamira kuo kuria matariirie ati mamakiire nyumba no manyitwo ni kirumi
+  giake.\\nRiu ngucanio iyo yerekeire igotini guku honge cia ugitiri itongoretio ni
+  OCPD wa Kandara Samuel Kosgei akimoria maranirie naguo muingi wa itura akauria kuiga
+  thayu.\"", "\"Ngavana wa kaunti ya Kiambu Ferdinard Waititu niekorete hatika-ini
+  thutha wa gukirirwo ni ene irabu kumana na mwerekera uria ayiukitie wa kuhurana
+  na kuhukia unyui na wendia wa njohi cia ibango kaunti-ini ino.\\nEne irabu ici rungu
+  rwa muikariri giti wao Richard Kagiri marateta makiuga mbaara ya kuhurana na njohi
+  ici nirugite gikiro kiingi tondu irabu ciao iratharikirwo utuku na njohi ciao ira
+  njitikirie kiwatho igathukangio na igetharwo nacio makiorota mbatuni ya nyanake
+  iria iratabania ciiko icio.\"", "\"\ud615\uc81c\ub4e4\uc5d0\uac8c \uc790\uae30\ub97c
+  \uc54c\ub9ac\ub294 \uc694\uc149\\n1\uc694\uc149\uc740 \ud558\uc778\ub4e4 \uc55e\uc5d0\uc11c
+  \ub354 \uc774\uc0c1 \uc815\uc744 \uc5b5\uc81c\ud560 \uc218\uac00 \uc5c6\uc5b4 \ud070
+  \uc18c\ub9ac\ub85c \uba85 \ub839\ud558\uc5ec \ubaa8\ub4e0 \ud558\uc778\ub4e4\uc744
+  \ubb3c\ub7ec\uac00\uac8c \ud558\uace0 \ud615\uc81c\ub4e4\uc5d0\uac8c \uc790\uae30\uac00
+  \ub204\uad6c\ub77c\ub294 \uac83\uc744 \uc54c\ub838\ub294\ub370 \uadf8\ub54c \uadf8
+  \uacf3\uc5d0\ub294 \uc790\uae30 \ud615\uc81c\ub4e4 \uc678\uc5d0 \uc544\ubb34\ub3c4
+  \uc5c6\uc5c8\ub2e4.\\n2\uadf8\ub7ec\uace0\uc11c \uc694\uc149\uc774 \ud070 \uc18c\ub9ac\ub85c
+  \uc6b8\uc790 \uc774\uc9d1\ud2b8 \uc0ac\ub78c\ub4e4\uc740 \uadf8\uac00 \uc6b0\ub294
+  \uc18c\ub9ac\ub97c \ub4e4\uc5c8\uc73c\uba70 \ub610 \uadf8 \uc18c\ubb38\uc740 \ubc14\ub85c\uc758
+  \uad81\uc804\uc5d0\uae4c\uc9c0 \uc804\ud574\uc84c\ub2e4.\\n3\uc694\uc149\uc774 \ud615\ub4e4\uc5d0\uac8c
+  \u201c\ub098\ub294 \uc694\uc149\uc785\ub2c8\ub2e4. \uc544\ubc84\uc9c0\uaed8\uc11c
+  \uc544\uc9c1 \uc0b4\uc544 \uacc4\uc2ed\ub2c8\uae4c?\u201d \ud558\uc790 \ud615\ub4e4\uc740
+  \uadf8 \ub9d0\uc744 \ub4e3\uace0 \ub108\ubb34 \ub180\ub77c \ub300\ub2f5\uc744 \ud558\uc9c0
+  \ubabb\ud558\uc600\ub2e4.\\n4\uadf8\ub54c \uc694\uc149\uc774 \ud615\ub4e4\uc5d0\uac8c
+  \u201c\ub098\uc5d0\uac8c \uac00\uae4c\uc774 \uc624\uc2ed\uc2dc\uc624\u201d \ud558\uc790
+  \uadf8\ub4e4\uc774 \uac00\uae4c\uc774 \ub2e4\uac00\uac14\ub2e4. \uadf8\ub798\uc11c
+  \uc694\uc149\uc774 \uadf8\ub4e4\uc5d0\uac8c \uc774\ub807\uac8c \ub9d0\ud558\uc600\ub2e4.
+  \u201c\ub098\ub294 \ud615\ub2d8\ub4e4\uc774 \uc774\uc9d1\ud2b8\uc5d0 \ud310 \ub3d9\uc0dd
+  \uc694\uc149\uc785\ub2c8\ub2e4.\\n5\ud615\ub2d8\ub4e4\uc774 \ub098\ub97c \uc774
+  \uacf3\uc5d0 \ud314\uc558\ub2e4\uace0 \uadfc\uc2ec\ud558\uac70\ub098 \ud55c\ud0c4\ud558\uc9c0
+  \ub9c8\uc2ed\uc2dc\uc624. \ud558\ub098\ub2d8\uaed8\uc11c \uc6b0\ub9ac \uac00\uc871\uc744
+  \uad6c\ud558\uc2dc\ub824\uace0 \ub098\ub97c \ud615\ub2d8\ub4e4\ubcf4\ub2e4 \uba3c\uc800
+  \uc774 \uacf3\uc5d0 \ubcf4\ub0b4\uc168\uc2b5\ub2c8\ub2e4.\\n6\uc774 \ub545\uc5d0
+  2\ub144 \ub3d9\uc548 \ud749\ub144\uc774 \ub4e4\uc5c8\uc9c0\ub9cc \uc55e\uc73c\ub85c\ub3c4
+  5\ub144 \ub3d9\uc548\uc740 \uacbd\uc791\ub3c4 \ubabb\ud558\uace0 \ucd94\uc218\ub3c4
+  \ubabb\ud560 \uac83\uc785\ub2c8\ub2e4.\\n7\ud558\ub098\ub2d8\uc774 \ub180\ub77c\uc6b4
+  \ubc29\ubc95\uc73c\ub85c \ud615\ub2d8\ub4e4\uc744 \uad6c\uc6d0\ud558\uace0 \ud615\ub2d8\ub4e4\uacfc
+  \ud615\ub2d8\ub4e4\uc758 \uc790\uc190\ub4e4\uc774 \uc0b4\uc544 \ub0a8\ub3c4\ub85d
+  \ud558\uae30 \uc704\ud574\uc11c \ub098\ub97c \ud615\ub2d8\ub4e4\ubcf4\ub2e4 \uba3c\uc800
+  \ubcf4\ub0b4\uc168\uc2b5\ub2c8\ub2e4.\\n8\uadf8\ub7ec\ubbc0\ub85c \ub098\ub97c \uc774
+  \uacf3\uc5d0 \ubcf4\ub0b4\uc2e0 \ubd84\uc740 \ud615\ub2d8\ub4e4\uc774 \uc544\ub2c8\ub77c
+  \ud558\ub098\ub2d8\uc774\uc2ed\ub2c8\ub2e4. \ud558\ub098\ub2d8\uc774 \ub098\ub97c
+  \ubc14\ub85c\uc758 45:8 \uc6d0\ubb38\uc5d0\ub294 \u2018\uc544\ube44\u2019\uace0\ubb38\uad00\uc73c\ub85c
+  \uc0bc\uc73c\uc2dc\uace0 \ub610 45:8 \ub610\ub294 \u2018\uadf8 \uc628 \uc9d1\uc758
+  \uc8fc\ub97c \uc0bc\uc73c\uc2dc\uba70\u2019\uadf8\uc758 \ubaa8\ub4e0 \uad8c\ud55c\uc744
+  \ub098\uc5d0\uac8c \ub9e1\uaca8 \uc628 \uc774\uc9d1\ud2b8\ub97c \ub2e4\uc2a4\ub9ac\ub294
+  \ucd1d\ub9ac\uac00 \ub418\uac8c \ud558\uc168\uc2b5\ub2c8\ub2e4.\\n9\u201c\uc774\uc81c
+  \ud615\ub2d8\ub4e4\uc740 \uc18d\ud788 \uc544\ubc84\uc9c0\uc5d0\uac8c \ub3cc\uc544\uac00\uc154\uc11c
+  \uc544\ubc84\uc9c0\uc758 \uc544\ub4e4 \uc694\uc149\uc774 \uc774\ub807\uac8c \ub9d0\ud55c\ub2e4\uace0
+  \uc77c\ub7ec \uc8fc\uc2ed\uc2dc\uc624. \u2018\ud558\ub098\ub2d8\uc774 \ub098\ub97c
+  \uc774\uc9d1\ud2b8\uc758 \ucd1d\ub9ac\ub85c \uc0bc\uc73c\uc168\uc2b5\ub2c8\ub2e4.
+  \uc9c0\uccb4\ud558\uc9c0 \ub9c8\uc2dc\uace0 \ub098\uc5d0\uac8c \ub0b4\ub824\uc624\uc2ed\uc2dc\uc624.\\n10\uc544\ubc84\uc9c0\uaed8\uc11c\ub294
+  \uc544\ub4e4\ub4e4\uacfc \uc190\uc790\ub4e4\uacfc \ud568\uaed8 \uc544\ubc84\uc9c0\uc758
+  \uc591\uacfc \uc18c\uc640 \ubaa8\ub4e0 \uc18c\uc720\ub97c \uc774\ub04c\uace0 \uc640\uc11c
+  \uc774 \uacf3 \uace0\uc13c \ub545\uc5d0 \uc0b4\uba74\uc11c \ub098\uc640 \uac00\uae4c\uc774
+  \uacc4\uc2e4 \uc218 \uc788\uc2b5\ub2c8\ub2e4.\\n11\uc544\uc9c1 5\ub144 \ub3d9\uc548
+  \ud749\ub144\uc774 \ub354 \uacc4\uc18d\ub420 \uac83\uc774\ubbc0\ub85c \ub0b4\uac00
+  \uc5ec\uae30\uc11c \uc544\ubc84\uc9c0\ub97c \ubcf4\uc0b4\ud53c\uaca0\uc2b5\ub2c8\ub2e4.
+  \uadf8\ub807\uc9c0 \uc54a\uc73c\uba74 \uc544\ubc84\uc9c0\uc640 \uc9d1\uc548 \uc2dd\uad6c\ub4e4\uacfc
+  \uc9d0\uc2b9\uc774 \ub2e4 \uad76\uc8fc\ub9ac\uac8c \ub420 \uac83\uc785\ub2c8\ub2e4.\u2019\\n12\u201c\uc5ec\ub7ec
+  \ud615\ub2d8\ub4e4\uacfc \ub3d9\uc0dd \ubca0\ub0d0\ubbfc\ub3c4 \ub0b4\uac00 \uc815\ub9d0
+  \uc694\uc149\uc774\ub77c\ub294 \uac83\uc744 \ubcf4\uc168\uc2b5\ub2c8\ub2e4.\\n13\uadf8\ub7ec\ub2c8
+  \uc774\uc81c \ub0b4\uac00 \uc774\uc9d1\ud2b8\uc5d0\uc11c \ub204\ub9ac\uace0 \uc788\ub294
+  \uc774 \ubaa8\ub4e0 \uc601\ud654\uc640 \ud615\ub2d8\ub4e4\uc774 \ubcf8 \uac83\uc744
+  \ub2e4 \uc544\ubc84\uc9c0\uc5d0\uac8c \ub9d0\uc500\ub4dc\ub9ac\uace0 \uc11c\ub458\ub7ec
+  \uc544\ubc84\uc9c0\ub97c \ubaa8\uc2dc\uace0 \ub0b4\ub824\uc624\uc2ed\uc2dc\uc624.\u201d\\n14\uadf8\ub7ec\uace0\uc11c
+  \uadf8\uac00 \uc790\uae30 \ub3d9\uc0dd \ubca0\ub0d0\ubbfc\uc744 \ub04c\uc5b4\uc548\uace0
+  \uc6b8\uc790 \ubca0\ub0d0\ubbfc\ub3c4 \uc694\uc149\uc744 \ub04c\uc5b4\uc548\uace0
+  \uc6b8\uc5c8\ub2e4.\\n15\uadf8\ub9ac\uace0 \uc694\uc149\uc740 \ud615\ub4e4\uacfc
+  \ud558\ub098\ud558\ub098 \uc785\ub9de\ucd94\uba70 \uc6b8\uc5c8\ub2e4. \uadf8\uc81c\uc11c\uc57c
+  \ud615\ub4e4\uc774 \uc694\uc149\uacfc \ub9d0\ud558\uae30 \uc2dc\uc791\ud558\uc600\ub2e4.\\n16\uc694\uc149\uc758
+  \ud615\uc81c\ub4e4\uc774 \uc654\ub2e4\ub294 \uc18c\ubb38\uc774 \ubc14\ub85c\uc758
+  \uad81\uc804\uc5d0 \uc804\ud574\uc9c0\uc790 \uc655\uacfc \uc2e0\ud558\ub4e4\uc774
+  \ub2e4 \uae30\ubed0\ud558\uc600\ub2e4.\\n17\uadf8\ub54c \ubc14\ub85c\uac00 \uc694\uc149\uc5d0\uac8c
+  \ub9d0\ud558\uc600\ub2e4. \u201c\ub108\ub294 \ub124 \ud615\ub4e4\uc5d0\uac8c \uc2dd\ub7c9\uc744
+  \uc2e3\uace0 \uac00\ub098\uc548 \ub545\uc5d0 \ub3cc\uc544\uac00\uc11c\\n18\ub124
+  \uc544\ubc84\uc9c0\uc640 \uac00\uc871\uc744 \ub370\ub824\uc624\ub77c\uace0 \ud558\ub77c.
+  \ub0b4\uac00 \uadf8\ub4e4\uc5d0\uac8c \uc774\uc9d1\ud2b8\uc5d0\uc11c \uc81c\uc77c
+  \uc88b\uc740 \ub545\uc744 \uc8fc\uaca0\ub2e4. \uadf8\ub4e4\uc740 45:18 \ub610\ub294
+  \u2018\ub098\ub77c\uc758 \uae30\ub984\uc9c4 \uac83\u2019\uac00\uc7a5 \uc88b\uc740
+  \ub18d\uc0b0\ubb3c\uc744 \uba39\uace0 \uc0b4 \uac83\uc774\ub2e4.\\n19\ub610 \ub108\ub294
+  \uadf8\ub4e4\uc5d0\uac8c \uc774\uc9d1\ud2b8\uc5d0\uc11c \uc218\ub808\ub97c \uac00\uc9c0\uace0
+  \uac00\uc11c \uadf8\ub4e4\uc758 \ucc98\uc790\ub4e4\uacfc \uc544\ubc84\uc9c0\ub97c
+  \ud0dc\uc6cc\uc11c \ub370\ub824\uc624\ub77c\uace0 \ud558\ub77c.\\n20\uadf8\ub4e4\uc774
+  \uac00\uc838\uc624\uc9c0 \ubabb\ud558\ub294 \ubb3c\uac74\uc5d0 \ub300\ud574\uc11c\ub294
+  \uc5fc\ub824\ud560 \ud544\uc694\uac00 \uc5c6\ub2e4. \uc774\uc9d1\ud2b8\uc758 \uc81c\uc77c
+  \uc88b\uc740 \uac83\uc774 \ub2e4 \uadf8\ub4e4\uc758 \uac83\uc774 \ub420 \uac83\uc774\ub2e4.\u201d\\n21\uc57c\uacf1\uc758
+  \uc544\ub4e4\ub4e4\uc774 \uadf8\ub807\uac8c \ud558\uae30\ub85c \ud558\uc790 \uc694\uc149\uc740
+  \ubc14\ub85c\uac00 \uba85\ub839\ud55c \ub300\ub85c \uadf8\ub4e4\uc5d0\uac8c \uc218\ub808\uc640
+  \uae38\uc5d0\uc11c \uba39\uc744 \uc74c\uc2dd\uc744 \uc8fc\uace0\\n22\ub610 \uadf8\ub4e4\uc5d0\uac8c
+  \uac01\uac01 \uc637 \ud55c \ubc8c\uc529\uc744 \uc8fc\uc5c8\uc73c\uba70 \ubca0\ub0d0\ubbfc\uc5d0\uac8c\ub294
+  45:22 \u2018\uc740 \uc57d 3.5\ud0ac\ub85c\uadf8\ub7a8\u2019 \uc740\ud654 300\uac1c\uc640
+  \uc637 \ub2e4\uc12f \ubc8c\uc744 \uc8fc\uc5c8\ub2e4.\\n23\uadf8\ub9ac\uace0 \uadf8\uc758
+  \uc544\ubc84\uc9c0\uc5d0\uac8c\ub294 \uc218\ub098\uadc0 \uc5f4 \ub9c8\ub9ac\uc5d0
+  \uc774\uc9d1\ud2b8\uc758 \uc81c\uc77c \uc88b\uc740 \ubb3c\ud488\uc744 \uc2e3\uace0
+  \ub610 \uc554\ub098\uadc0 \uc5f4 \ub9c8\ub9ac\uc5d0\ub294 \uae38\uc5d0\uc11c \uc544\ubc84\uc9c0\uc5d0\uac8c
+  \ub4dc\ub9b4 \uace1\uc2dd\uacfc \ube75\uacfc \uc74c\uc2dd\uc744 \uc2e4\uc5b4\\n24\ud615\ub4e4\uc744
+  \ub3cc\ub824\ubcf4\ub0b4\uba70 \u201c\ud615\ub2d8\ub4e4, \uae38\uc5d0\uc11c \ub2e4\ud22c\uc9c0
+  \ub9c8\uc2ed\uc2dc\uc624\u201d \ud558\uc600\ub2e4.\\n25\uadf8\ub4e4\uc774 \uc774\uc9d1\ud2b8\ub97c
+  \ub5a0\ub098 \uac00\ub098\uc548 \ub545\uc5d0 \uc788\ub294 \uc544\ubc84\uc9c0\uc5d0\uac8c
+  \uac00\uc11c\\n26\u201c\uc694\uc149\uc774 \uc544\uc9c1 \uc0b4\uc544 \uc788\uc2b5\ub2c8\ub2e4!
+  \uadf8\uac00 \uc774\uc9d1\ud2b8\uc758 \uad6d\ubb34\ucd1d\ub9ac\uac00 \ub418\uc5c8\uc2b5\ub2c8\ub2e4!\u201d
+  \ud558\uc790 \uc57c\uacf1\uc740 \uae5c\uc9dd \ub180\ub77c\uba70 \uadf8\ub4e4\uc758
+  \ub9d0\uc744 \ubbff\uc9c0 \uc54a\uc558\ub2e4.\\n27\uadf8\ub7ec\ub098 \uc694\uc149\uc774
+  \ub9d0\ud55c \uac83\uc744 \ub2e4 \ub9d0\ud574 \uc8fc\uc790 \uadf8\ub294 \uc694\uc149\uc774
+  \uc790\uae30\ub97c \ud0dc\uc6b0\ub824\uace0 \ubcf4\ub0b8 \uc218\ub808\ub97c \ubcf4\uace0
+  \uadf8\uc81c\uc11c\uc57c \uc815\uc2e0\uc744 \ucc28\ub9ac\uba70\\n28\uc774\ub807\uac8c
+  \ub9d0\ud558\uc600\ub2e4. \u201c\ub354 \ubb3c\uc5b4 \ubcfc \ud544\uc694\ub3c4 \uc5c6\ub2e4.
+  \ub0b4 \uc544\ub4e4 \uc694\uc149\uc774 \uc9c0\uae08\uae4c\uc9c0 \uc0b4\uc544 \uc788\ub2e4\ub2c8!
+  \ub0b4\uac00 \uc8fd\uae30 \uc804\uc5d0 \uac00\uc11c \uadf8\ub97c \ubd10\uc57c\uaca0\ub2e4.\u201d\\nJusufu
+  Kw\u0129menyithia k\u0169r\u0129 Ari\u0169 a Ithe\\n145:1 2Sam 13:9H\u0129nd\u0129
+  \u0129yo Jusufu ak\u0129remwo n\u0129 kw\u0129y\u0169m\u0129r\u0129ria mbere ya
+  ar\u0129a othe maam\u0169tungataga, ak\u0129an\u0129r\u0129ra na m\u0169gambo m\u0169nene,
+  akiuga at\u0129r\u0129, \u201cAnd\u0169 othe n\u0129mehere har\u0129 ni\u0129!\u201d
+  Tond\u0169 \u0169cio, hatiar\u0129 m\u0169nd\u0169 o na \u0169mwe war\u0129 na Jusufu
+  r\u0129r\u0129a emenyithanirie k\u0169r\u0129 ari\u0169 a ithe. 245:2 At\u0169m
+  7:13Na ak\u0129r\u0129ra an\u0129r\u0129ire o nginya and\u0169 a Misiri mak\u0129m\u0169igua,
+  o na and\u0169 a ny\u0169mba ya Fira\u0169ni mak\u0129igua \u0169horo wa k\u0129r\u0129ro
+  k\u0129u.\\n345:3 K\u0129am 43:7Jusufu ak\u0129\u0129ra ari\u0169 a ithe at\u0129r\u0129,
+  \u201cN\u0129 ni\u0129 Jusufu! Baba ar\u0129 o muoyo?\u201d No ari\u0169 a ithe
+  matiahotire k\u0169m\u0169cookeria, n\u0129g\u0169korwo n\u0129mamak\u0129te m\u0169no
+  mar\u0129 mbere yake.\\n445:4 K\u0129am 37:28Ning\u0129 Jusufu ak\u0129\u0129ra
+  ari\u0169 a ithe at\u0129r\u0129, \u201cTa nguh\u0129r\u0129riai.\u201d Meeka \u0169guo-r\u0129,
+  ak\u0129meera at\u0129r\u0129, \u201cN\u0129 ni\u0129 m\u0169r\u0169 wa thoguo Jusufu,
+  \u0169r\u0129a mwendirie Misiri! 545:5 K\u0129am 50:20; Thab 105:17Na r\u0129u,
+  m\u0169tigath\u0129\u0129n\u0129ke kana mw\u0129rakar\u0129re n\u0129k\u0169nyendia
+  g\u0169k\u0169, tond\u0169 n\u0129 Ngai wand\u0169mire nj\u0169ke mbere yanyu n\u0129geetha
+  honokie m\u0129oyo. 6Hand\u0169-in\u0129 ha m\u0129aka \u0129\u0129r\u0129 r\u0129u
+  g\u0169koretwo na ng\u02bcaragu b\u0169r\u0169ri-in\u0129, na m\u0129aka \u0129tano
+  \u0129g\u0169\u0169ka g\u0169tig\u0169korwo na k\u0169r\u0129ma kana k\u0169getha.
+  7No Ngai aand\u0169mire mbere yanyu n\u0129guo nd\u0169me matigari manyu mat\u0169\u0169re
+  g\u0169k\u0169 th\u0129, na honokie m\u0129oyo yanyu na k\u0169honokania k\u0169nene.\\n845:8
+  Atiir 17:10; K\u0129am 41:41\u201cN\u0129 \u0169nd\u0169 \u0169cio-r\u0129, ti inyu\u0129
+  mwand\u0169mire g\u0169k\u0169, no n\u0129 Ngai. Na n\u0129andu\u0129te ta ithe
+  wa Fira\u0169ni, na mwathi wa ny\u0169mba yake yothe o na mwathi wa b\u0169r\u0169ri
+  wothe wa Misiri. 9Na r\u0129u hi\u0169hai m\u0169cooke k\u0169r\u0129 baba m\u0169mw\u0129re
+  at\u0129r\u0129, \u2018\u0168\u0169 n\u0129guo m\u0169r\u0169guo Jusufu ekuuga:
+  Ngai n\u0129andu\u0129te mwathi wa b\u0169r\u0169ri wa Misiri guothe. Ik\u0169r\u0169ka
+  \u0169\u0169ke k\u0169r\u0129 ni\u0129; nd\u0169gaikare. 1045:10 K\u0129am 47:1\u0168g\u0169t\u0169\u0169ra
+  b\u0169r\u0169ri wa Gosheni45:10 B\u0169r\u0169ri wa Gosheni war\u0129 m\u0169thia-in\u0129
+  wa R\u0169\u0169\u0129 rwa Nili na n\u0129 k\u0169nd\u0169 kwar\u0129 k\u0169noru
+  m\u0169no. na \u0169korwo \u0169r\u0129 hakuh\u0129 na ni\u0129, wee na ciana ciaku,
+  na ciana cia ciana ciaku, na nd\u0169\u0169ru ciaku cia mb\u0169ri na cia ng\u02bcombe,
+  na k\u0129r\u0129a g\u0129othe \u0169r\u0129 nak\u0129o. 11K\u0169u n\u0129kuo nd\u0129r\u0129g\u0169teithag\u0129ria
+  tond\u0169 k\u0169r\u0129 na m\u0129aka \u0129ng\u0129 \u0129tano ya ng\u02bcaragu
+  \u0129tigar\u0129te. Kwaga \u0169guo wee na ny\u0169mba yaku na and\u0169 ar\u0129a
+  othe makw\u0129gi\u0129 n\u0129m\u0169g\u0169tu\u0129ka ath\u0129\u0129n\u0129ki.\u2019\\n12\u201cInyu\u0129
+  n\u0129m\u0169reyonera, o na Benjamini m\u0169r\u0169 wa mait\u0169 akeyonera, at\u0129
+  n\u0129 ni\u0129 mwene nd\u0129ramwar\u0129ria. 1345:13 At\u0169m 7:14Na mw\u0129re
+  baba \u0169horo wa g\u0129t\u0129\u0129o k\u0129r\u0129a g\u0129othe heetwo g\u0169k\u0169
+  Misiri, na \u0169r\u0129a wothe mw\u0129oneire, na m\u0169ik\u0169r\u0169kie baba
+  g\u0169k\u0169 narua.\u201d\\n1445:14 K\u0129am 29:13Ning\u0129 ak\u0129h\u0129mb\u0129ria
+  m\u0169r\u0169 wa nyina Benjamini na ak\u0129r\u0129ra, o nake Benjamini ak\u0129m\u0169h\u0129mb\u0129ria
+  ak\u0129r\u0129raga. 1545:15 Luk 15:20Na ak\u0129mumunya ari\u0169 a ithe othe na
+  ak\u0129mah\u0129mb\u0129ria ak\u0129r\u0129raga. Thuutha \u0169cio ari\u0169 a
+  ithe mak\u0129aran\u0129ria nake.\\n1645:16 K\u0129am 41:37Na r\u0129r\u0129a \u0169horo
+  \u0169cio waiguirwo ny\u0169mba-in\u0129 ya \u0169thamaki ya Fira\u0169ni, at\u0129
+  ari\u0169 a ithe na Jusufu n\u0129mok\u0129te-r\u0129, Fira\u0169ni na anene ake
+  othe mag\u0129kena. 1745:17 K\u0129am 42:5Fira\u0169ni ak\u0129\u0129ra Jusufu at\u0129r\u0129,
+  \u201c\u0128ra ari\u0169 a thoguo at\u0129r\u0129, \u2018\u0128kai \u0169\u0169:
+  Ig\u0129r\u0129rai nyam\u0169 cianyu m\u0129rigo m\u0169cooke b\u0169r\u0169ri wa
+  Kaanani, 1845:18 K\u0129am 46:34; K\u0129am 47:6, 11, 27na m\u0169ndehere ithe wanyu
+  na and\u0169 a ny\u0169mba cianyu. Na ni\u0129 n\u0129ngam\u0169he k\u0169nd\u0169
+  k\u0169r\u0129a kwega m\u0169no b\u0169r\u0169ri-in\u0129 wa Misiri, na m\u0169kenag\u0129re
+  \u0169noru wa b\u0169r\u0169ri \u0169y\u0169.\u2019\\n1945:19 K\u0129am 46:5\u201cNing\u0129
+  n\u0129wath\u0129r\u0129rio \u0169meere at\u0129r\u0129: \u2018\u0128kai \u0169\u0169:
+  Oyai makaari mamwe kuuma g\u0169k\u0169 Misiri n\u0129 \u0169nd\u0169 wa ciana na
+  atumia anyu, m\u0169g\u0129\u0129re ithe wanyu m\u0169\u0169ke. 20Na m\u0169tigatindan\u0129re
+  na indo cianyu tond\u0169 ma\u0169nd\u0169 mothe mar\u0129a mega m\u0169no ma Misiri
+  meg\u0169tu\u0129ka manyu.\u2019 \u201d\\n21N\u0129 \u0169nd\u0169 \u0169cio ari\u0169
+  a Isiraeli mag\u0129\u0129ka o ro \u0169guo. Jusufu ak\u0129mahe makaari o ta \u0169r\u0129a
+  Fira\u0169ni aathan\u0129te na ag\u0129cooka ak\u0129mahe r\u0129\u0129gu wa r\u0169gendo
+  rwao. 22Ning\u0129 ak\u0129he o m\u0169nd\u0169 o m\u0169nd\u0169 wao nguo njer\u0169,
+  no Benjamini-r\u0129, ak\u0129m\u0169he betha magana matat\u0169,45:22 n\u0129 ta
+  kilo ithat\u0169 na nuthu (3.5). na nguo ithano cia k\u0169gar\u0169r\u0129ra. 23Na
+  indo ici n\u0129cio aat\u0169m\u0129ire ithe: Ndigiri ik\u0169mi ikuu\u0129te indo
+  iria njega m\u0169no cia Misiri, na ndigiri ing\u0129 ik\u0169mi cia m\u0129goma
+  ikuu\u0129te ngano na m\u0129gate na r\u0129\u0129gu wake wa r\u0169gendo. 24Ag\u0129cooka
+  akiumagaria ari\u0169 a ithe, na mag\u0129thi\u0129 ak\u0129meera at\u0129r\u0129,
+  \u201cM\u0169tikanegenanie m\u0169r\u0129 nj\u0129ra-in\u0129!\u201d\\n25N\u0129
+  \u0169nd\u0169 \u0169cio mak\u0129ambata makiuma Misiri, mag\u0129thi\u0129 mag\u0129kinya
+  k\u0169r\u0129 ithe wao Jakubu k\u0169u b\u0169r\u0169ri-in\u0129 wa Kaanani. 26Nao
+  mak\u0129mw\u0129ra at\u0129r\u0129, \u201cJusufu ar\u0129 o muoyo! Na n\u0129we
+  mwathi wa b\u0169r\u0169ri wothe wa Misiri.\u201d Jakubu ak\u0129gegeara; ak\u0129aga
+  k\u0169met\u0129kia. 2745:27 K\u0129am 45:19No r\u0129r\u0129a maamw\u0129rire ma\u0169nd\u0169
+  mar\u0129a mothe Jusufu aamer\u0129te, na r\u0129r\u0129a onire makaari mar\u0129a
+  Jusufu aat\u0169m\u0129te ma k\u0169m\u0169kuua mam\u0169tware Misiri-r\u0129, roho
+  wa Jakubu ithe wao \u0169k\u0129arah\u0169ka. 28Nake Isiraeli akiuga at\u0129r\u0129,
+  \u201cN\u0129ndet\u0129kia! M\u0169r\u0169 wakwa Jusufu ar\u0129 o muoyo. N\u0129ng\u0169thi\u0129
+  ngamuone itanakua.\u201d\"", "\"Minister Kagwe gutetera thirikari cia matuura\\nMinister
+  wa ugima wa muiri Mutahi Kagwe niateteire thirikari cia county akiuga nyingi nicihingithiitie
+  namba iria yagiriire ya itanda cia gukomwo ni aruaru a murimu wa Covid-19 mugaru
+  na uhoro uria ukoretwo ukiheanwo.\\nHamwe na uguo ni ataririe ati bururi uyu uri
+  na matonyo ma kuigana ma kugitira arigitani kuumana na murimu ucio, kuona ri matonyo
+  macio makoretwo magithondekerwo guku bururi-ini.Mwandiki witu Charles Gikunga wa
+  Kariuki niwe waraniirie na minister ucio na njira ya mwanya.\"", "\"uuge (\u0169h\u0169th\u0129ri-in\u0129
+  wa o m\u0169thenya) n\u0129 kiugo kana m\u0169hari m\u0169ruru uthegetee m\u0169ig\u0129-in\u0129.
+  na G\u0129thweri \u0129tagwo ''usemi''\\nNgerekano \u0129mwe ya uuge n\u0129 ta:
+  Kw\u0129r\u0169ma k\u0129ni \u0129r\u0129a \u0129h\u0169thag\u0129r\u0129agwo kworota
+  k\u0169regana na \u0169nd\u0169 m\u0169na\\nuuge wa \u0169go (na k\u0129ngeretha:
+  ''statement'') n\u0129 irekia r\u0129r\u0129a r\u0129nyitaga itemi \u0169rung\u0169ria-in\u0129
+  wa k\u0129\u0169gita.\\nuthuthuria wa Mb\u0169g\u0129 n\u0129 \u0169thath\u0169raga
+  \u0169r\u0129a njug\u0129r\u0129rio wa mauuge maya \u0169hutagia m\u0169ing\u0129
+  mihango-in\u0129 yao \u0129r\u0129a minini ya ikeno ona ginya \u0129r\u0129a m\u0129nene
+  ya \u0168teti\\nB\u0169r\u0169ri wa kenya[edit | edit source]\\nb\u0169r\u0169ri
+  wa kenya n\u0129 \u0169koretwo na nj\u0169g\u0129r\u0129rio nying\u0129. imwe n\u0129
+  ta:\\n- Thi\u0129 \u0169k\u0129\u0169maga\\n- Wanjik\u0169/Wagio\\n- Kaba Kabogo\\n-
+  Pambana na hali yako\\n- Bora uhai\\n- Wamlambez\\n- no raila no peace\\n- Nobody
+  can stop reggea\\nAb\u0129rika[edit | edit source]\\nHar\u0129 njug\u0129r\u0129ro
+  cianacaca g\u0129tar\u0169-in\u0129 k\u0129a Ab\u0129rika n\u0129 t\u0169r\u0129:
+  B\u0169r\u0169ri wa Misiri:\\n\\\"thawra, thawra hatta al-nasr\\\" (Itu\u0129ka,
+  Itu\u0129ka nginya \u0169hotani)\\nB\u0169r\u0169ri wa United States[edit | edit
+  source]\\nnjug\u0129r\u0129rio iria icac\u0129te b\u0169r\u0169ri-in\u0129 wa United
+  States n\u0129:\"", "\"\u0168horo wa G\u0169tongoria\\n1And\u0169 aing\u0129 n\u0129mar\u0129k\u0129tie
+  kwand\u0129ka \u0169horo wa ma\u0169nd\u0169 mar\u0129a mahing\u0129tio gatagat\u0129-in\u0129
+  gait\u0169, 21:2 Joh 15:27; Ahib 2:3o ta \u0169r\u0129a twaheirwo \u0169horo wamo
+  n\u0129 ar\u0129a meyoneire ma\u0169nd\u0169 macio kuuma o k\u0129amb\u0129r\u0129ria
+  mar\u0129 aira na ndungata cia \u0169horo \u0169cio. 31:3 At\u0169m 11:4; At\u0169m
+  1:1N\u0129 \u0169nd\u0169 \u0169cio, tond\u0169 ni\u0129 mwene n\u0129ndu\u0129r\u0129tie
+  ma\u0169nd\u0169 macio mothe wega kuuma k\u0129amb\u0129r\u0129ria-r\u0129, ngak\u0129ona
+  ar\u0129 wega o na ni\u0129 ngwand\u0129k\u0129re m\u0169taratara mwega wa ma\u0169nd\u0169
+  macio, wee m\u0169nene m\u0169gaathe Theofilo, 4n\u0129geetha \u0169menye na ma
+  ma\u0169nd\u0169 mar\u0129a warutirwo.\\nG\u0169ciarwo kwa Johana M\u0169batithania
+  K\u0169menyithanio\\n51:5 Math 2:1; 1Ma\u0169 24:10Na r\u0129r\u0129, h\u0129nd\u0129
+  \u0129r\u0129a Herode aar\u0129 m\u0169thamaki wa Judea, n\u0129 kwar\u0129 m\u0169th\u0129nj\u0129ri-Ngai
+  wetagwo Zakaria, war\u0129 wa g\u0129kundi k\u0129a ath\u0129nj\u0129ri-Ngai k\u0129a
+  Abija; m\u0169tumia wake eetagwo Elizabethi na aar\u0129 wa r\u0169ciaro rwa Har\u0169ni.
+  61:6 K\u0129am 6:9; G\u0169cook 5:33O eer\u0129 maar\u0129 ar\u0169ng\u0129r\u0129ru
+  maitho-in\u0129 ma Ngai, na n\u0129math\u0129kag\u0129ra maathani ma Mwathani na
+  mawatho mothe matar\u0129 na \u0169cuuke. 7Nao matiar\u0129 na twana tond\u0169
+  Elizabethi aar\u0129 thaata; na eer\u0129 maar\u0129 ak\u0169r\u0169 m\u0169no.\\n81:8
+  1Ma\u0169 24:19Na r\u0129r\u0129, m\u0169thenya \u0169mwe Zakaria n\u0129arutaga
+  w\u0129ra wa m\u0169th\u0129nj\u0129ri-Ngai ar\u0129 mbere ya Ngai, tond\u0169 r\u0129ar\u0129
+  ihinda r\u0129a g\u0129kundi g\u0129ake g\u0169tungata-r\u0129, 91:9 At\u0169m 1:26;
+  Thaam 30:7, 8n\u0129athuurirwo na nj\u0129ra ya g\u0169cuuk\u0129rwo m\u0129t\u0129,
+  k\u0169ringana na m\u0169tugo wa \u0169th\u0129nj\u0129ri-Ngai, athi\u0129 th\u0129in\u0129
+  wa hekar\u0169 ya Mwathani agacine \u0169bumba. 101:10 Alaw 16:17Na r\u0129r\u0129a
+  ihinda r\u0129a g\u0169cina \u0169bumba r\u0129akinyire, k\u0129r\u0129nd\u0129
+  g\u0129othe k\u0129r\u0129a k\u0129ongan\u0129te n\u0129 \u0169nd\u0169 wa k\u0169hooya,
+  n\u0129 k\u0129ahooyag\u0129ra na k\u0169u nja.\\n11H\u0129nd\u0129 \u0129yo m\u0169raika
+  wa Mwathani akium\u0129r\u0129ra Zakaria, na ak\u0129r\u0169gama mwena wa \u0169r\u0129o
+  wa k\u0129gongona k\u0129r\u0129a g\u0129a g\u0169cin\u0129ra \u0169bumba. 12R\u0129r\u0129a
+  Zakaria aamuonire, ak\u0129hah\u0169ka na ak\u0129iy\u0169rwo n\u0129 guoya. 131:13
+  Math 14:27; Luk 1:60, 63No m\u0169raika \u0169cio ak\u0129mw\u0129ra at\u0129r\u0129:
+  \u201cZakaria, tiga gw\u0129tig\u0129ra; mahooya maku n\u0129maigu\u0129two. M\u0169tumia
+  waku Elizabethi n\u0129agag\u0169ciar\u0129ra mwana wa kah\u0129\u0129, nawe n\u0129\u0169kam\u0169tua
+  Johana. 14N\u0129\u0169gakena na \u0169canjam\u0169ke, n\u0129 \u0169nd\u0169 wake
+  na and\u0169 aing\u0129 n\u0129magakenio n\u0129g\u0169ciarwo gwake, 151:15 Ndar
+  6:3; Jer 1:5n\u0129g\u0169korwo n\u0129agatu\u0129ka m\u0169nd\u0169 m\u0169nene
+  maitho-in\u0129 ma Mwathani. Ndar\u0129 h\u0129nd\u0129 akaanyua ndibei o na kana
+  k\u0129nd\u0169 o k\u0129ng\u0129 k\u0129gagatu k\u0129ng\u0129t\u0169ma m\u0169nd\u0169
+  ar\u0129\u0129o, na n\u0129akaiy\u0169rwo n\u0129 Roho M\u0169theru kuuma o g\u0169ciarwo
+  gwake. 16Nake n\u0129akagar\u0169ra and\u0169 aing\u0129 a Isiraeli macookerere
+  Mwathani Ngai wao. 171:17 Mal 4:5; Math 11:14Na n\u0129agathi\u0129 mbere ya Mwathani
+  ar\u0129 na roho na hinya wa Elija, n\u0129guo agar\u0169re ngoro cia maithe mendane
+  na ciana ciao, nao ar\u0129a aremi amagar\u0169re mag\u0129e na \u0169\u0169g\u0129
+  wa and\u0169 ar\u0129a athingu, n\u0129geetha ahaar\u0129rie and\u0169 mahote gweterera
+  Mwathani.\u201d\\n18Zakaria ak\u0129\u0169ria m\u0169raika \u0169cio at\u0129r\u0129,
+  \u201cIng\u0129menya ma ya \u0169horo \u0169cio at\u0129a? Ni\u0129 nd\u0129 m\u0169thuuri
+  m\u0169k\u0169r\u0169 o na m\u0169tumia wakwa ar\u0129 na m\u0129aka m\u0129ing\u0129.\u201d\\n191:19
+  Dan 8:16; Dan 9:21M\u0169raika \u0169cio ak\u0129m\u0169cookeria at\u0129r\u0129,
+  \u201cNi\u0129 n\u0129 ni\u0129 Gaburieli, \u0169r\u0129a \u0169r\u0169gamaga mbere
+  ya Ngai, na n\u0129 g\u0169t\u0169mwo nd\u0169m\u0129two ngwar\u0129rie na ngw\u0129re
+  \u0169horo \u0169y\u0169 mwega. 20Na r\u0129u n\u0129\u0169g\u0169kira \u0169remwo
+  n\u0129 kwaria nginya m\u0169thenya \u0169r\u0129a \u0169nd\u0169 \u0169cio \u0169kaahinga,
+  tond\u0169 nd\u0169net\u0129kia ciugo ciakwa, o icio ikaahinga ihinda r\u0129r\u0129a
+  r\u0129ag\u0129r\u0129ire r\u0129akinya.\u201d\\n21H\u0129nd\u0129 \u0129yo yothe,
+  and\u0169 n\u0129metereire Zakaria na makarigagwo n\u0129 k\u0129r\u0129a g\u0129at\u0169m\u0129te
+  aikare m\u0169no \u0169guo th\u0129in\u0129 wa hekar\u0169.1:21 And\u0169 meetereire
+  Zakaria oime Hand\u0169-har\u0129a-Hatheru oke amarathime na k\u0129rathimo k\u0129a
+  Har\u0169ni k\u0129r\u0129a k\u0129r\u0129 Ndar 6:24-26. 221:22 Luk 1:62R\u0129r\u0129a
+  oimire, ndaigana k\u0169hota k\u0169maar\u0129ria; mag\u0129k\u0129menya at\u0129
+  n\u0129onete k\u0129oneki ar\u0129 th\u0129in\u0129 wa hekar\u0169, n\u0129g\u0169korwo
+  no k\u0169maheneria aamahenag\u0129ria na guoko, ag\u0129ikara o \u0169guo atek\u0169hota
+  kwaria.\\n23R\u0129r\u0129a ihinda r\u0129ake r\u0129a g\u0169tungata1:23 M\u0169th\u0129nj\u0129ri-Ngai
+  aatungataga hekar\u0169-in\u0129 kiumia k\u0129mwe har\u0129 m\u0129eri \u0129tandat\u0169,
+  n\u0129 kuuga maita meer\u0129 har\u0129 mwaka \u0169mwe. r\u0129athirire-r\u0129,
+  ak\u0129in\u0169ka gwake m\u0169ci\u0129. 24Thuutha \u0169cio Elizabethi m\u0169tumia
+  wake ak\u0129g\u0129a nda, na hand\u0169 ha m\u0129eri \u0129tano ag\u0129ikara
+  ehith\u0129te. 251:25 K\u0129am 30:23; Isa 4:1Akiuga at\u0129r\u0129, \u201cN\u0129
+  Mwathani \u0169nj\u0129k\u0129ire \u0169\u0169. Matuk\u0169-in\u0129 maya n\u0129anj\u0129k\u0129te
+  wega na akanjehereria thoni cia k\u0169menwo n\u0129 and\u0169.\u201d\\nG\u0169ciarwo
+  kwa Jes\u0169 K\u0169menyithanio\\n26Naguo mweri wa \u0129tandat\u0169 wa Elizabethi
+  g\u0169korwo ar\u0129 na nda-r\u0129, Ngai n\u0129at\u0169mire m\u0169raika Gaburieli
+  athi\u0129 Nazarethi it\u0169\u0169ra r\u0129ar\u0129 k\u0169u Galili, 271:27 Math
+  1:16, 18, 20ak\u0129m\u0169t\u0169ma k\u0169r\u0129 m\u0169ir\u0129tu gathirange
+  wor\u0129tio n\u0129 m\u0169nd\u0169 wetagwo Jusufu, wa r\u0169ciaro rwa Daudi.
+  M\u0169ir\u0129tu \u0169cio gathirange eetagwo Mariamu. 28M\u0169raika \u0169cio
+  ak\u0129muum\u0129r\u0129ra, ak\u0129mw\u0129ra at\u0129r\u0129, \u201cN\u0129ndak\u0169geithia,
+  wee \u0169rathim\u0129two m\u0169no! Mwathani ar\u0129 hamwe nawe.\u201d\\n29Nake
+  Mariamu ag\u0129th\u0129\u0129n\u0129ka m\u0169no n\u0129 \u0169nd\u0169 \u0169cio,
+  na ak\u0129gega ak\u0129rigwo n\u0129 \u0169horo wa ngeithi icio. 30Nowe m\u0169raika
+  \u0169cio ak\u0129mw\u0129ra at\u0129r\u0129, \u201cMariamu tiga gw\u0129tig\u0129ra,
+  n\u0129g\u0169korwo n\u0129\u0169kiny\u0129irwo n\u0129 wega wa Ngai. 311:31 Isa
+  7:14; Math 1:21, 25Nawe n\u0129\u0169k\u0169g\u0129a nda na n\u0129\u0169gaaciara
+  mwana wa kah\u0129\u0129, nawe n\u0129\u0169kam\u0169tua Jes\u0169. 321:32 Math
+  1:1; Mar 5:7Nake n\u0129agatu\u0129ka m\u0169nene na ageetagwo M\u0169r\u0169-wa-\u0168r\u0129a-\u0169r\u0129-Ig\u0169r\u0169-M\u0169no.
+  Mwathani Ngai n\u0129akam\u0169he g\u0129t\u0129 k\u0129a \u0169nene k\u0129r\u0129a
+  g\u0129a ithe Daudi, 331:33 2Sam 7:6; Dan 2:44nake n\u0129agathamak\u0129ra ny\u0169mba
+  ya Jakubu nginya tene; \u0169thamaki wake nd\u0169gaathira o na r\u0129.\u201d\\n34Mariamu
+  ak\u0129\u0169ria m\u0169raika \u0169cio at\u0129r\u0129, \u201c\u0168nd\u0169 \u0169y\u0169
+  \u0169ng\u0129hoteka at\u0129a, kuona at\u0129 nd\u0129 o m\u0169ir\u0129tu gathirange?\u201d\\n351:35
+  Luk 1:32, 76; Math 4:3Nake m\u0169raika \u0169cio ak\u0129m\u0169cookeria, ak\u0129mw\u0129ra
+  at\u0129r\u0129, \u201cRoho M\u0169theru n\u0129agooka ig\u0169r\u0169 r\u0129aku
+  naguo hinya wa \u0168r\u0129a-\u0169r\u0129-Ig\u0169r\u0169-M\u0169no n\u0129\u0169gak\u0169humb\u0129ra,
+  n\u0129 \u0169nd\u0169 \u0169cio mwana \u0169r\u0129a \u0169gaaciarwo n\u0129 m\u0169theru
+  na ageetagwo M\u0169r\u0169 wa Ngai. 36O na Elizabethi, \u0169r\u0129a wa mbar\u0129
+  cianyu, o nake n\u0129ek\u0169g\u0129a kaana ar\u0129 m\u0169k\u0169r\u0169, o \u0169cio
+  weragwo at\u0129 n\u0129 thaata, n\u0129g\u0169korwo r\u0129u ar\u0129 na nda ya
+  m\u0129eri \u0129tandat\u0169. 371:37 Math 19:26N\u0129g\u0169korwo g\u0169tir\u0129
+  \u0169nd\u0169 \u0169ng\u0129rema Ngai.\u201d\\n38Nake Mariamu ak\u0129m\u0169cookeria
+  at\u0129r\u0129, \u201cNi\u0129 nd\u0129 ndungata ya Mwathani. Nd\u0129rog\u0129\u0129kwo
+  o ta \u0169guo woiga.\u201d H\u0129nd\u0129 \u0129yo m\u0169raika ak\u0129m\u0169tiga
+  ag\u0129thi\u0129.\\nMariamu G\u0169ceerera Elizabethi\\n391:39 Luk 1:65Matuk\u0169-in\u0129
+  o ro macio, Mariamu ak\u0129\u0129haar\u0129ria, ag\u0129thi\u0129 ahi\u0169h\u0129te
+  nginya it\u0169\u0169ra r\u0129ar\u0129 b\u0169r\u0169ri \u0169r\u0129a \u0169r\u0129
+  ir\u0129ma wa Judea, 40ag\u0129toonya m\u0169ci\u0129 gwa Zakaria, na ak\u0129geithia
+  Elizabethi. 41R\u0129r\u0129a Elizabethi aiguire ngeithi cia Mariamu-r\u0129, kaana
+  gake gak\u0129ambarara kar\u0129 nda yake, nake Elizabethi ak\u0129iy\u0169rwo n\u0129
+  Roho M\u0169theru. 421:42 Atiir 5:14Ak\u0129an\u0129r\u0129ra na m\u0169gambo m\u0169nene,
+  akiuga at\u0129r\u0129, \u201cWee w\u0129 m\u0169rathime gatagat\u0129 ka atumia
+  othe, nako kaana kar\u0129a \u0169gaaciara n\u0129karathime! 43No n\u0129 k\u0129\u0129
+  g\u0129t\u0169m\u0129te nj\u0129kwo wega \u0169\u0169, at\u0129 nyina wa Mwathani
+  wakwa no ooke k\u0169njeerera? 44Ndaigua m\u0169gambo wa ngeithi ciaku wakinya mat\u0169-in\u0129
+  makwa, nako kaana kar\u0129a kar\u0129 nda yakwa kambarara n\u0129 \u0169nd\u0169
+  wa g\u0169kena. 45K\u0169rathimwo-r\u0129, n\u0129 m\u0169nd\u0169 \u0169cio w\u0129t\u0129k\u0129tie
+  at\u0129 ma\u0169nd\u0169 mar\u0129a Mwathani amw\u0129r\u0129te n\u0129makahingio!\u201d\\nRw\u0129mbo
+  rwa Mariamu\\n461:46 Thab 34:2, 3Nake Mariamu akiuga at\u0129r\u0129:\\n\u201cNgoro
+  yakwa n\u0129\u0129ragooca Mwathani,\\n471:47 Thab 18:46; Hab 3:8naguo roho wakwa
+  n\u0129\u0169rakenera Ngai M\u0169honokia wakwa,\\n48n\u0129g\u0169korwo n\u0129aririkan\u0129te\\nkw\u0129nyiihia
+  kwa ndungata yake.\\nKuuma r\u0129u njiarwa ciothe ir\u0129\u0129nj\u0129taga m\u0169rathime,\\n491:49
+  Thab 71:19n\u0129g\u0169korwo \u0168cio \u0169r\u0129 Hinya n\u0129anj\u0129k\u0129ire
+  ma\u0169nd\u0169 manene,\\nnar\u0129o r\u0129\u0129twa r\u0129ake n\u0129 r\u0129theru.\\n501:50
+  Thaam 20:6; Thab 103:17Tha ciake n\u0129ikinyag\u0129ra ar\u0129a mamw\u0129tigag\u0129ra,\\nkuuma
+  njiarwa nginya njiarwa.\\n511:51 Thab 98:1; Isa 40:10N\u0129ek\u0129te ma\u0169nd\u0169
+  ma hinya na guoko gwake;\\nna ar\u0129a et\u0129\u0129i aharaganagia meciiria ma
+  ngoro ciao.\\n52N\u0129ahar\u0169r\u0169k\u0129tie aathani kuuma it\u0129-in\u0129
+  ciao cia \u0169nene,\\nno agat\u0169\u0169g\u0129ria ar\u0129a menyiihagia.\\n53N\u0129ah\u0169\u0169n\u0129tie
+  ar\u0129a ah\u0169tu na ma\u0169nd\u0169 mega,\\nno ar\u0129a itonga akamaingata
+  matar\u0129 na k\u0129nd\u0169.\\n541:54 Thab 98:3N\u0129ateith\u0129tie Isiraeli
+  ndungata yake,\\nakaririkana \u0169horo wake wa k\u0169iguan\u0129ra tha,\\n551:55
+  Agal 3:16o ta \u0169r\u0129a eerire maithe mait\u0169,\\nat\u0129 n\u0129akaigu\u0129ra
+  Iburah\u0129mu hamwe na njiaro ciake tha, nginya tene.\u201d\\n56Nake Mariamu ag\u0129ikara
+  na Elizabethi ta m\u0129eri \u0129tat\u0169, ag\u0129cooka ak\u0129in\u0169ka kwao.\\nG\u0169ciarwo
+  kwa Johana M\u0169batithania\\n57Na r\u0129r\u0129, ihinda r\u0129a Elizabethi r\u0129akinya
+  r\u0129a g\u0169ciara, ag\u0129ciara kah\u0129\u0129. 58And\u0169 a it\u0169\u0169ra
+  r\u0129ake na a mbar\u0129 ciao mak\u0129igua at\u0129 Mwathani n\u0129ak\u0129r\u0129r\u0129irie
+  k\u0169m\u0169igu\u0129ra tha, nao mag\u0129kena hamwe nake.\\n591:59 K\u0129am
+  17:12; Alaw 12:3M\u0169thenya wa \u0129nana wakinya, mag\u0129\u0169ka n\u0129guo
+  maruithie kaana kau, nao meendaga g\u0169gatua Zakaria o ta \u0169r\u0129a ithe
+  eetagwo, 60no nyina ak\u0129aria, akiuga at\u0129r\u0129, \u201cAca! Gegw\u0129two
+  Johana.\u201d\\n61Nao and\u0169 mak\u0129mw\u0129ra at\u0129r\u0129, \u201cG\u0169tir\u0129
+  m\u0169nd\u0169 wa mbar\u0129 cianyu w\u0129tagwo r\u0129\u0129twa r\u0129u!\u201d\\n621:62
+  Luk 1:22Nao mak\u0129\u0169ria ithe \u0169r\u0129a ang\u0129enda gatuuo na \u0169nd\u0169
+  wa k\u0169m\u0169heneria na moko. 63Ak\u0129meetia kahengere ga kwand\u0129kwo,
+  nake ak\u0129and\u0129ka at\u0129r\u0129, \u201cR\u0129\u0129twa r\u0129ako n\u0129
+  Johana.\u201d Naguo \u0169nd\u0169 \u0169cio \u0169k\u0129gegia and\u0169 othe.
+  64O h\u0129nd\u0129 \u0129yo ak\u0129hing\u0169ka kanua, naruo r\u0169r\u0129m\u0129
+  rwake r\u0169k\u0129regera, ak\u0129amb\u0129r\u0129ria kwaria, ak\u0129gooca Ngai.
+  65Nao and\u0169 othe a it\u0169\u0169ra mak\u0129iy\u0169rwo n\u0129 guoya, makaaragia
+  \u0169horo wa ma\u0169nd\u0169 macio mothe, namo mak\u0129hunja b\u0169r\u0169ri-in\u0129
+  \u0169cio wothe wa ir\u0129ma wa Judea. 661:66 K\u0129am 39:2; At\u0169m 11:21Nao
+  ar\u0129a othe maiguire \u0169horo \u0169cio mak\u0129gegio n\u0129guo mak\u0129\u0169ria
+  at\u0129r\u0129, \u201cKa\u0129 kaana gaka gagaatu\u0129ka \u0169? N\u0129g\u0169korwo
+  guoko kwa Mwathani kwar\u0129 hamwe nako.\u201d\\nRw\u0129mbo rwa Zakaria\\n671:67
+  Joel 2:28Nake ithe Zakaria ak\u0129iy\u0169rwo n\u0129 Roho M\u0169theru, ak\u0129ratha
+  \u0169horo, akiuga at\u0129r\u0129,\\n681:68 Thab 111:9; Luk 7:16\u201cMwathani
+  Ngai wa Isiraeli arogoocwo,\\ntond\u0169 n\u0129ok\u0129te na agak\u0169\u0169ra
+  and\u0169 ake.\\n691:69 Thab 18:2; 132:17N\u0129atwambarar\u0129irie r\u0169h\u0129a
+  rwa \u0169honokio\\nth\u0129in\u0129 wa ny\u0169mba ya Daudi, ndungata yake\\n701:70
+  Arom 1:2; Jer 23:5(o ta \u0169r\u0129a aar\u0129tie matuk\u0169 ma tene na t\u0169nua
+  twa anabii ake atheru),\\n71rwa g\u0169t\u0169honokia kuuma k\u0169r\u0129 th\u0169
+  ciit\u0169,\\nna kuuma k\u0169r\u0129 guoko kwa ar\u0129a othe mat\u0169menaga,\\n72n\u0129guo
+  aigu\u0129re maithe mait\u0169 tha,\\nna aririkane k\u0129r\u0129kan\u0129ro g\u0129ake
+  g\u0129theru,\\n73o mw\u0129h\u0129twa \u0169r\u0129a eeh\u0129t\u0129ire ithe wit\u0169
+  Iburah\u0129mu:\\n741:74 1Joh 4:18; Ahib 9:14at\u0129 n\u0129agat\u0169honokia kuuma
+  guoko-in\u0129 gwa th\u0169 ciit\u0169,\\nna at\u0169hotithie k\u0169m\u0169tungatag\u0129ra
+  t\u0169tar\u0129 na guoya,\\n751:75 Aef 4:24t\u0169r\u0129 atheru na athingu mbere
+  yake matuk\u0169-in\u0129 mait\u0169 mothe.\\n761:76 Math 11:9\u201cO nawe, kaana
+  gakwa, n\u0129\u0169getagwo m\u0169nabii wa \u0168r\u0129a-\u0169r\u0129-Ig\u0169r\u0169-M\u0169no;\\nn\u0129g\u0169korwo
+  n\u0129\u0169gaathiiaga mbere ya Mwathani n\u0129guo \u0169m\u0169thondekag\u0129re
+  nj\u0129ra ciake,\\n771:77 Mar 1:4na \u0169menyithie and\u0169 ake \u0169horo wa
+  \u0169honokio\\nn\u0129 \u0169nd\u0169 wa k\u0169rekerwo mehia mao,\\n78na tond\u0169
+  wa tha nying\u0129 cia Ngai wit\u0169,\\ntha icio n\u0129igat\u0169ma ri\u0169a
+  r\u0129t\u0169rath\u0129re kuuma ig\u0169r\u0169,\\n791:79 Isa 9:2; Math 4:16n\u0129geetha
+  r\u0129ar\u0129re ar\u0129a mat\u0169\u0169raga nduma-in\u0129,\\no na ar\u0129a
+  mat\u0169\u0169raga k\u0129\u0129ruru-in\u0129 g\u0129a g\u0129ku\u0169,\\nn\u0129guo
+  r\u0129tongorie mag\u0169r\u0169 mait\u0169 nj\u0129ra-in\u0129 ya thay\u0169.\u201d\\n801:80
+  Luk 2:40, 52Nako kaana kau gag\u0129k\u0169ra, na gak\u0129g\u0129a hinya roho-in\u0129
+  wako; nake ag\u0129t\u0169\u0169ra wer\u0169-in\u0129 nginya h\u0129nd\u0129 \u0129r\u0129a
+  eyum\u0129ririe k\u0169r\u0129 and\u0169 a Isiraeli.\\nPasiuna\\n1-3Halangdon nga
+  Teofilo:\\nDaghan na ang nagsulat mahitungod sa mga panghitabo dinhi kanato. Gisulat
+  nila ang mahitungod kang Jesus sumala sa gibalita kanato niadtong mga tawo nga nagsangyaw
+  sa Maayong Balita ug nakakita mismo sa mga panghitabo gikan pa sa sinugdanan. Mao
+  nga gisusi ko gayod pag-ayo kining tanan gikan pa sa sinugdan. Unya akong nahuna-hunaan
+  nga isulat usab kanimo kining maong mga panghitabo sa maayong pagkahan-ay, 4aron
+  imong masiguro nga tinuod gayod ang mga butang nga gisulti kanimo.\\nNagpakita ang
+  Anghel kang Zacarias\\n5Ingon niini ang nahitabo: Niadtong panahon nga si Herodes
+  ang hari sa Judea, may pari didto nga ginganlan ug Zacarias nga miyembro sa grupo
+  sa mga pari nga gidumalahan ni Abia. Ug ang iyang asawa mao si Elizabet nga kaliwat
+  usab ni Aaron. 6Silang duha nagkinabuhi nga matarong atubangan sa Dios. Gituman
+  gayod nila ang tanang mga sugo ug balaod sa Ginoo. 7Apan wala silay anak, kay baog
+  si Elizabet ug tigulang na usab kaayo sila.\\n8Unya, miabot ang adlaw nga ang grupo
+  nila ni Zacarias mao na ang mag-alagad sa Dios didto sa templo. 9Nagripa sila sumala
+  sa nabatasan nilang mga pari, ug si Zacarias mao ang napilian nga magsunog ug insenso
+  didto sa halaran. Busa misulod siya sa templo. 10Samtang nagsunog siya ug insenso
+  didto sa sulod, daghang mga tawo didto sa gawas ang nagaampo. 11Unya nagpakita kaniya
+  ang usa ka anghel sa Ginoo ug mitindog kini didto sa tuong dapit sa halaran nga
+  sunoganan sa insenso. 12Sa dihang nakita kini ni Zacarias gikulbaan siya ug nahadlok.
+  13Apan miingon ang anghel kaniya, \u201cAyaw kahadlok, Zacarias! Gidungog sa Dios
+  ang imong mga pag-ampo; si Elizabet nga imong asawa manganak ug batang lalaki. Nganlan
+  mo siyag Juan. 14Magmalipayon gayod ikaw tungod kaniya, ug daghan usab ang magmalipayon
+  tungod sa iyang pagkahimugso. 15Kay mahimo siyang bantogan1:15 bantogan: sa literal,
+  dako. atubangan sa Ginoo. Kinahanglan dili gayod siya moinom ug bino o uban pang
+  ilimnon nga makahubog. Bisan anaa pa siya sa sabakan sa iyang inahan ang Espiritu
+  Santo anaa na kaniya. 16Ug pabalikon niya ang daghang mga kaliwat ni Israel ngadto
+  sa Ginoo nga ilang Dios. 17Mag-una siya sa Ginoo aron iyang andamon ang mga tawo
+  alang sa pag-abot sa Ginoo. Himuon niya kini pinaagi sa Espiritu Santo ug sa gahom
+  nga sama sa nabatonan ni Elias. Ipasig-uli niya ang maayong relasyon sa mga amahan
+  ngadto sa ilang mga anak, ug ibalik niya ang matarong nga panghuna-huna sa mga masinupakon
+  sa Dios.\u201d\\n18Miingon si Zacarias sa anghel, \u201cSa unsang paagi nga mahitabo
+  kini kanako? Tigulang na man ako ug ang akong asawa.\u201d\\n19Mitubag ang anghel,
+  \u201cAko si Gabriel nga alagad sa Dios nga anaa gayod sa iyang atubangan. Gisugo
+  niya ako aron sa pagsulti kanimo niining maayong balita. 20Apan tungod kay wala
+  ka man motuo sa akong gisulti, maamang ka hangtod sa adlaw nga matuman kining akong
+  gisulti kanimo. Matuman gayod kini inig-abot sa adlaw nga gitakda sa Dios.\u201d\\n21Ang
+  mga tawo didto sa gawas nagpadayon sa paghulat kang Zacarias. Natingala sila ngano
+  nga nadugay siya didto sa sulod sa templo. 22Sa paggawas niya, dili na siya makasulti
+  ug tungod niini nagsinyas na lang siya sa mga tawo. Nasabtan nila nga may gipakita
+  ang Dios kaniya didto sa sulod sa templo. 23Pagkahuman sa iyang turno sa pag-alagad
+  sa templo, mipauli siya. 24Paglabay sa pipila ka adlaw, nagmabdos na si Elizabet.
+  Sulod sa lima ka bulan wala gayod siyay mogawas sa ilang balay. 25Miingon siya,
+  \u201cGikaloy-an gayod ako sa Ginoo. Karon gikuha niya kanako ang akong kaulawan
+  ngadto sa mga tawo.1:25 kaulawan ngadto sa mga tawo: usa ka kaulawan kaniadto alang
+  sa usa ka babaye ang dili makaanak.\u201d\\nNagpakita ang Anghel kang Maria\\n26Sa
+  dihang unom na ka bulan ang pagmabdos ni Elizabet, gisugo pag-usab sa Dios ang anghel
+  nga si Gabriel nga moadto sa Nazaret, nga usa ka lungsod sa Galilea. 27Gipadala
+  siya didto sa dalagang putli nga ginganlag Maria. Si Maria kaslonon na kang Jose,
+  nga usa sa mga kaliwat ni Haring David. 28Sa pag-abot sa anghel didto kang Maria,
+  miingon siya, \u201cMaria, magmalipayon ka, tungod kay ang Ginoo uban kanimo ug
+  gipanalanginan ka niya.\u201d 29Sa pagkadungog ni Maria niini nahasol siya pag-ayo,
+  ug iyang gihuna-huna kon unsa ang kahulogan niini. 30Miingon ang anghel kaniya,
+  \u201cAyaw kahadlok, Maria kay gipakita sa Dios ang iyang kaayo kanimo. 31Magmabdos
+  ka ug manganak ug lalaki, ug Jesus ang imong ingalan kaniya. 32Mahimo siyang bantogan
+  ug pagatawgon siya nga Anak sa Labing Halangdong Dios. Ihatag sa Ginoong Dios kaniya
+  ang gingharian sa iyang katigulangan nga si David. 33Maghari siya sa mga kaliwat
+  ni Jacob hangtod sa kahangtoran; ang iyang gingharian molungtad sa walay kataposan.\u201d\\n34Miingon
+  si Maria sa anghel, \u201cUnsaon man niini pagkahimo, nga wala pa man akoy bana?\u201d
+  35Mitubag ang anghel, \u201cMokunsad kanimo ang Espiritu Santo ug ang gahom sa Labing
+  Halangdong Dios magpabilin kanimo. Busa ang balaan nga bata nga imong ipanganak
+  pagailhon nga Anak sa Dios. 36Tan-awa ang imong paryente nga si Elizabet. Ang uban
+  nagaingon nga dili na siya manganak tungod kay tigulang na kaayo siya. Apan karon
+  unom na ka bulan ang iyang pagmabdos, 37tungod kay mahimo man sa Dios ang tanan.\u201d\\n38Miingon
+  si Maria, \u201cSulugoon ako sa Ginoo; matuman unta kanako ang imong gisulti.\u201d
+  Ug unya mibiya ang anghel kaniya.\\nMibisita si Maria kang Elizabet\\n39Sa paglabay
+  sa pipila ka adlaw nangandam si Maria ug nagdali pag-adto sa usa ka lungsod didto
+  sa kabukiran sa Judea. 40Misulod siya sa balay nila ni Zacarias ug nangumusta kang
+  Elizabet. 41Sa pagkadungog ni Elizabet sa pagpangumusta ni Maria, milihok ang bata
+  sa iyang tiyan. Gigamhan si Elizabet sa Espiritu Santo. 42Ug sa makusog nga tingog
+  miingon siya, \u201cSa tanang mga babaye ikaw lang ang gipanalanginan sa Dios ug
+  ingon niini! Gipanalanginan usab niya ang imong gimabdos. 43Usa kini ka dakong dungog
+  alang kanako kay gibisitahan ako sa inahan sa akong Ginoo. 44Kay bisan gani ang
+  bata sa akong tiyan malipayon nga milihok sa dihang nadunggan ko ang imong pagpangumusta.
+  45Bulahan gayod ikaw nga nagtuo nga matuman kanimo ang gisulti sa Ginoo!\u201d\\nAng
+  Pagdayeg ni Maria sa Dios\\n46Miingon si Maria:\\n\u201cNagadayeg gayod ako sa Ginoo!\\n47Ug
+  malipayon ang akong espiritu tungod sa Dios nga akong Manluluwas.\\n48Kay gihinumdoman
+  niya ako nga iyang ubos nga sulugoon. Sukad karon, magasulti ang tanang mga tawo
+  nga bulahan ako,\\n49tungod sa kahibulongan nga mga butang nga gihimo sa gamhanang
+  Dios kanako.\\nBalaan siya nga Dios.\\n50May kalooy siya sa mga tawo sa matag kaliwatan
+  nga nagatahod kaniya.\\n51Gipakita niya ang iyang gahom pinaagi sa iyang mga gihimo.\\nGiabog
+  niya ang mga tawo nga mapahitas-on sa ilang kaugalingon.\\n52Gipakanaog niya ang
+  mga gamhanang hari sa ilang trono.\\nUg gituboy niya ang mga mapainubsanon.\\n53Gitagbaw
+  niya sa mga maayong butang ang mga gigutom.\\nApan gihinginlan niya nga wala gayoy
+  dala ang mga adunahan.\\n54-55Gitabangan niya kita nga iyang mga sulugoon, nga mga
+  kaliwat ni Israel.\\nKay wala niya kalimti ang iyang mga saad sa atong mga katigulangan,\\nnga
+  kaloy-an niya sa walay kataposan si Abraham ug ang iyang mga kaliwat!\u201d\\nMao
+  kini ang gisulti ni Maria. 56Ug mipuyo siya didto sa ilang Elizabet ug mga tulo
+  ka bulan, ug unya mipauli siya.\\nAng Pagkatawo ni Juan nga Tigbautismo\\n57Unya
+  miabot ang panahon sa pagpanganak ni Elizabet, ug nanganak siya ug lalaki. 58Sa
+  pagkadungog sa iyang mga silingan ug mga paryente kon giunsa siya pagpanalangin
+  sa Ginoo, nakigduyog sila sa iyang kalipay.\\n59Sa walo na ka adlaw ang bata, mitambong
+  ang mga silingan ug mga paryente sa pagtuli kaniya.1:59 Mao kini ang nabatasan sa
+  mga Judio. Zacarias unta ang ilang ingalan kaniya sama sa iyang amahan, 60apan wala
+  mosugot si Elizabet. Miingon siya, \u201cDili mahimo, kinahanglan nga Juan ang ingalan
+  kaniya.\u201d 61Miingon sila kaniya, \u201cApan wala gayod kamoy paryente nga sama
+  niana ug ngalan.\u201d 62Ug ilang gisinyasan ang amahan kon unsay iyang gusto nga
+  ingalan sa iyang anak. 63Misinyas siya nga hatagan siya ug sulatanan. Ug dayon misulat
+  siya, \u201cNganli siyag Juan.\u201d Natingala gayod silang tanan. 64Diha-diha nakasulti
+  si Zacarias ug gidayeg niya ang Dios. 65Gikulbaan ang tanan niyang mga silingan
+  ug mikaylap sa tanang dapit sa mga bukid sa Judea ang balita mahitungod sa maong
+  panghitabo. 66Ang tanang mga tawo nga nakadungog niini nakapamalandong ug nakapangutana,
+  \u201cUnsa man kaha kining bataa inigkadako na niya?\u201d Kay klaro kaayo nga ang
+  gahom sa Ginoo anaa kaniya.\\nAng Panagna ni Zacarias\\n67Si Zacarias nga iyang
+  amahan gigamhan sa Espiritu Santo ug mao kini ang iyang gisulti:\\n68\u201cDayegon
+  nato ang Ginoo nga Dios sa Israel!\\nKay mianhi siya aron sa pagluwas kanato nga
+  iyang mga katawhan.\\n69Gipaanhi niya kanato ang makaga-gahom nga manluluwas nga
+  kaliwat sa iyang sulugoon nga si David.\\n70Mao usab kini ang iyang gisulti kaniadto
+  pinaagi sa iyang mga balaang propeta.\\n71Nagsaad siya nga iya kitang luwason gikan
+  sa atong mga kaaway\\nug sa mga tawo nga nagadumot kanato.\\n72Miingon usab siya
+  nga iyang kaloy-an ang atong mga katigulangan, ug dili niya kalimtan ang iyang kasabotan
+  kanila\\n73nga iyang gipanumpa sa atong katigulangan nga mao si Abraham.\\n74Kini
+  ang kasabotan nga siya moluwas gayod kanato gikan sa atong mga kaaway\\naron kita
+  makapangalagad nga walay kahadlok,\\n75ug mahimo kitang balaan ug matarong sa iyang
+  atubangan sa tanan nga adlaw sa atong kinabuhi.\u201d\\n76Unya miingon si Zacarias
+  sa iyang anak,\\n\u201cIkaw Juan, pagatawgon ka nga propeta sa Labing Halangdong
+  Dios.\\nKay mag-una ka sa Ginoo aron imong andamon ang katawhan sa iyang pag-abot.\\n77Tudloan
+  mo ang iyang mga katawhan nga maluwas sila pinaagi sa kapasayloan sa Dios sa ilang
+  mga sala,\\n78kay ang atong Dios maluloy-on ug mahigugmaon.\\nIpadala niya ang Manluluwas
+  sama sa misubang nga adlaw,\\n79nga maghatag ug kahayag sa mga tawo nga anaa sa
+  kangitngit ug nagaungaw sa kamatayon.\\nTudloan niya kita kon unsaon nga mahimong
+  maayo ang atong relasyon sa Dios ug sa atong isigka-tawo.\u201d\\n80Unya, ang bata
+  nga si Juan midako ug nalig-on sa espiritu. Nagpuyo siya sa kamingawan hangtod sa
+  adlaw nga nagsugod siya sa iyang pagpanudlo sa mga Israelinhon.\"", "\"Maseneta
+  onthe nimarigiriritue gwa kavinda kuuma nja ya vururi kurumirira ndereti iria itatuitwe
+  igii kuvagurwa kwa munini wa raisi Rigathi Gachagua thiini wa mbunge iyo.\\nThiini
+  wa kimenyithia kia spika wa mbunge ya senate, Amason Kingi kamiti ya maseneta aya
+  niivetwe mwerekera wa kwithema na na ng\u2019endo cia nja ya kaunti ya Nairobi nginyagia
+  njumamosi ya tariki 19 mweriri.\\nKuringana na spika Kingi kurigirirua kwa ng\u201dendo
+  ciao gwa kavinda ni gugutigirira maseneta onthe nimanyitite itemi thiini wa ndereti
+  iyo ya kuvagurwa kwa munini wa raisi.\\nMbunge ya Senate igakorwa ikithuthuria maundu
+  maria Gachagua akuruvanitue namo tariki 16 na 17 mweriri.\\nMbica irutitwo online\\n\u2013Ireri
+  wa Njagi\u2013\"", "\"ANDU 2 GUKUA NINIMBI-INI CIA MWAKI WA GAS EMBAKASI NAIROBI\\nWritten
+  by Kayu Digital Team on February 2, 2024\\n- NAIROBI & ENVIRONS 91.0 | MT KENYA
+  REGION 91.1FM\\nAndu 2 nimekiritwo mukonde gukorwo makuite riri angi makiria ma
+  andu 222 matigitwo na nguraro cia ikiro itiganite uu ari thutha wa ninimbi cia mwaki
+  kumunda kiganda-ini kimwe gia gwikira gas itura-ini ria Mradi Embakasi, Nairobi.\\nKuringana
+  na ndumiriri ya mwaria wa thirikari Isaac Mwaura niati mwaki uyu niati mwaki uyu
+  uratuthukire kuuma lori irari ikuite Gas na thutha ucio gucoka guthegea nginyagia
+  kambuni ingi hamwe na micii imwe ya andu, eri aria makuite akiuga makuiriire thibitari-ini
+  wa Nairobi West makiamukira urigitani.\\nMkairia ma uu, Mwaura ndumiriri-ini yake
+  augite angi angi 222 nimarathii nambere na kwamukira urigitani thibitari ngurani
+  Nairobi, kuria hari aya andu 21 mari thibitari-ini munene wa Kenyatta, andu 160
+  makiamukira urigitani thibitari-ini wa Mama Lucy, 19 makirigitirwo thibitari-ini
+  wa Mbagathi, 14 mari thibitari-ini wa Modern Komarock riri nao 8 maramukira urigitani
+  thibitari-ini wa Nairobi West.\\nMwena-ini wake kamanda wa borithi wa Nairobi Adamson
+  Bungei akiuga uthuthuria kuuna niwarukitwo niguo gukurana kiria kiracungiriria kihumo
+  kia mwaki uyu.\"", "\"Mutongoria wa bururi Uhuru Kenyatta oringi niatitirithitie
+  wirutiri wake na thirikari ya Jubilee kugacirithia miturire na mirutire ya wira
+  ya maabithaa a borithi.\\nAkiaria hindi ya igongona ria kuhumba thumbi makurutu
+  matanyihire ngiri inya thukuru-ini wa mathomo ma uborithi wa GSU mwena wa Embakasi,
+  president augite nginyagia riu thirikari niiruguritie matharaita makiriu maguteithiriria
+  borithi mari wira-ini wao.\\nOho mutongoria wa bururi nioritie borithi matungatire
+  muingi wa bururi hatari na muthutukanio.\"", "\"\u12e8\u12a2\u12e8\u1231\u1235 \u1218\u12c8\u1208\u12f5\\n1\u1260\u12da\u12eb\u1295
+  \u12d8\u1218\u1295\u1363 \u12e8\u12d3\u1208\u1219 \u1201\u1209 \u1215\u12dd\u1265
+  \u12a5\u1295\u12f2\u1248\u1320\u122d\u1293 \u12a5\u1295\u12f2\u1218\u12d8\u1308\u1265
+  \u12a8\u12a0\u12cd\u130d\u1235\u1326\u1235 \u1244\u1233\u122d \u1275\u12a5\u12db\u12dd
+  \u12c8\u1323\u1362 2\u12ed\u1205\u121d \u1244\u122c\u1294\u12ce\u1235 \u12e8\u1236\u122d\u12eb
+  \u1308\u12e2 \u1260\u1290\u1260\u1228\u1260\u1275 \u130a\u12dc \u12e8\u1270\u12f0\u1228\u1308
+  \u12e8\u1218\u1300\u1218\u122a\u12eb\u12cd \u12e8\u1215\u12dd\u1265 \u1248\u1320\u122b
+  \u1290\u1260\u122d\u1362 3\u1235\u1208\u12da\u1205 \u12a5\u12eb\u1295\u12f3\u1295\u12f1
+  \u1230\u12cd \u1208\u1218\u1218\u12dd\u1308\u1265 \u12c8\u12f0\u12e8\u122b\u1231
+  \u12a8\u1270\u121b \u1204\u12f0\u1362\\n4\u12ee\u1234\u134d\u121d \u12a8\u12f3\u12ca\u1275
+  \u1264\u1275\u1293 \u12c8\u1308\u1295 \u1235\u1208 \u1290\u1260\u1228\u1363 \u1260\u1308\u120a\u120b
+  \u12a0\u12cd\u122b\u1303 \u12a8\u121d\u1275\u1308\u1298\u12cd \u12a8\u1293\u12dd\u122c\u1275
+  \u12a8\u1270\u121b \u1270\u1290\u1225\u1276 \u12e8\u12f3\u12ca\u1275 \u12a8\u1270\u121b
+  \u12c8\u12f0\u1206\u1290\u127d\u12cd\u1363 \u1264\u1270 \u120d\u1214\u121d \u12c8\u12f0\u121d\u1275\u1263\u120d
+  \u12a8\u1270\u121b \u12c8\u12f0 \u12ed\u1201\u12f3 \u12c8\u1323\u1362 5\u12c8\u12f0\u12da\u12eb\u121d
+  \u1208\u1218\u1218\u12dd\u1308\u1265 \u12e8\u1270\u1313\u12d8\u12cd\u1363 \u12e8\u1218\u12cd\u1208\u1303
+  \u130a\u12dc\u12cb \u12a8\u1270\u1243\u1228\u1260\u12cd \u12a8\u12a5\u132e\u129b\u12cd
+  \u12a8\u121b\u122d\u12eb\u121d \u130b\u122d \u1290\u1260\u122d\u1362 6\u1260\u12da\u12eb\u121d
+  \u12a5\u1295\u12f3\u1209 \u12e8\u121d\u1275\u12c8\u120d\u12f5\u1260\u1275 \u130a\u12dc
+  \u12f0\u1228\u1230\u1364 7\u12e8\u1260\u12b5\u122d \u120d\u1307 \u12e8\u1206\u1290\u12cd\u1295
+  \u12c8\u1295\u12f5 \u120d\u1305 \u12c8\u1208\u12f0\u127d\u1364 \u1260\u1328\u122d\u1245\u121d
+  \u1320\u1240\u1208\u1208\u127d\u12cd\u1364 \u1260\u12a5\u1295\u130d\u12f6\u127d\u121d
+  \u121b\u1228\u134a\u12eb \u1266\u1273 \u1235\u120b\u120b\u1308\u1299 \u1260\u130d\u122d\u130d\u121d
+  \u12a0\u1235\u1270\u129b\u127d\u12cd\u1362\\n\u12a5\u1228\u129e\u127d\u1293 \u1218\u120b\u12a5\u12ad\u1275\\n8\u1260\u12da\u12eb\u12cd
+  \u12a0\u1308\u122d \u1260\u120c\u120a\u1275 \u1218\u1295\u130b\u1278\u12cd\u1295
+  \u1232\u1320\u1265\u1241 \u1260\u121c\u12f3 \u12e8\u121a\u12eb\u12f5\u1229 \u12a5\u1228\u129e\u127d
+  \u1290\u1260\u1229\u1362 9\u12e8\u130c\u1273\u121d \u1218\u120d\u12a0\u12ad \u12f5\u1295\u1308\u1275
+  \u1218\u1325\u1276 \u1260\u12a0\u1320\u1308\u1263\u1278\u12cd \u1246\u1218\u1364
+  \u12e8\u130c\u1273\u121d \u12ad\u1265\u122d \u1260\u12d9\u122a\u12eb\u1278\u12cd
+  \u12a0\u1260\u122b\u1364 \u1273\u120b\u1245\u121d \u134d\u122d\u1200\u1275 \u12eb\u12db\u1278\u12cd\u1362
+  10\u1218\u120d\u12a0\u12a9 \u130d\u1295 \u12a5\u1295\u12f2\u1205 \u12a0\u120b\u1278\u12cd\u1364
+  \u201c\u12a0\u1275\u134d\u1229\u1364 \u1208\u1215\u12dd\u1261 \u1201\u1209 \u12e8\u121a\u1206\u1295
+  \u1273\u120b\u1245 \u12f0\u1235\u1273 \u12e8\u121d\u1225\u122b\u127d \u12a0\u121d\u1325\u127c\u120b\u127d\u128b\u1208\u1201\u1293\u1362
+  11\u12db\u122c \u1260\u12f3\u12ca\u1275 \u12a8\u1270\u121b \u1218\u12f5\u1280\u1295
+  \u1270\u12c8\u120d\u12f6\u120b\u127d\u128b\u120d\u1293\u1364 \u12a5\u122d\u1231\u121d
+  \u130c\u1273 \u12ad\u122d\u1235\u1276\u12352\u136511 \u12c8\u12ed\u121d \u1218\u1232\u1215\u1364
+  \u12ad\u122d\u1235\u1276\u1235 (\u1260\u130d\u122a\u12ad) \u1218\u1232\u1215 (\u1260\u12d5\u1265\u122b\u12ed\u1235\u1325)
+  \u121b\u1208\u1275 \u1232\u1206\u1295 \u12e8\u1201\u1208\u1271\u121d \u1275\u122d\u1312\u121d
+  \u12e8\u1270\u1240\u1263 \u121b\u1208\u1275 \u1290\u12cd\u1364 \u12a5\u1295\u12f2\u1201\u121d
+  \u124d 26 \u12ed\u1218 \u1290\u12cd\u1362 12\u12ed\u1205 \u121d\u120d\u12ad\u1275
+  \u12ed\u1201\u1293\u127d\u1201\u1364 \u1215\u1343\u1295 \u120d\u1305 \u1260\u1328\u122d\u1245
+  \u1270\u1320\u1245\u120d\u120e \u1260\u130d\u122d\u130d\u121d \u1270\u129d\u1276
+  \u1273\u1308\u129b\u120b\u127d\u1201\u1362\u201d\\n13\u12f5\u1295\u1308\u1275\u121d
+  \u1265\u12d9 \u12e8\u1230\u121b\u12ed \u1230\u122b\u12ca\u1275 \u12a8\u1218\u120d\u12a0\u12a9
+  \u130b\u122d \u1273\u12e9\u1364 \u12a5\u130d\u12da\u12a0\u1265\u1214\u122d\u1295\u121d
+  \u12a5\u12eb\u1218\u1230\u1308\u1291\u1363 \u12a5\u1295\u12f2\u1205 \u12a0\u1209\u1364\\n14\u201c\u12ad\u1265\u122d
+  \u1208\u12a5\u130d\u12da\u12a0\u1265\u1214\u122d \u1260\u12a0\u122d\u12eb\u121d\u1363
+  \u1230\u120b\u121d\u121d \u12a5\u122d\u1231\\n\u1208\u121a\u12c8\u12f3\u1278\u12cd
+  \u1230\u12ce\u127d \u1260\u121d\u12f5\u122d \u12ed\u1201\u1295!\u201d\\n15\u1218\u120b\u12a5\u12ad\u1271
+  \u12a8\u12a5\u1290\u122d\u1231 \u1270\u1208\u12ed\u1270\u12cd \u12c8\u12f0 \u1230\u121b\u12ed
+  \u12a8\u12c8\u1321 \u1260\u128b\u120b \u12a5\u1228\u129e\u1279\u1363 \u201c\u130c\u1273
+  \u12e8\u1308\u1208\u1320\u120d\u1295\u1295 \u12ed\u1205\u1295 \u12e8\u1206\u1290\u12cd\u1295
+  \u1290\u1308\u122d \u12a5\u1295\u12f5\u1293\u12ed \u12c8\u12f0 \u1264\u1270 \u120d\u1214\u121d
+  \u12a5\u1295\u1202\u12f5\u201d \u1270\u1263\u1263\u1209\u1362\\n16\u12a5\u1290\u122d\u1231\u121d
+  \u1348\u1325\u1290\u12cd \u1204\u12f1\u1364 \u121b\u122d\u12eb\u121d\u1295\u1293
+  \u12ee\u1234\u134d\u1295\u1363 \u1215\u1343\u1291\u1295\u121d \u1260\u130d\u122d\u130d\u121d
+  \u1270\u129d\u1276 \u12a0\u1308\u1299\u1362 17\u12ab\u12e9\u121d \u1260\u128b\u120b\u1363
+  \u1235\u1208 \u1215\u1343\u1291 \u12e8\u1270\u1290\u1308\u122b\u1278\u12cd\u1295
+  \u1308\u120d\u1320\u12cd \u12a0\u12c8\u1229\u1362 18\u12ed\u1205\u1295\u1295\u121d
+  \u12e8\u1230\u1219 \u1201\u1209 \u12a5\u1228\u129e\u1279 \u1260\u1290\u1308\u122f\u1278\u12cd
+  \u1290\u1308\u122d \u1270\u12f0\u1290\u1241\u1364 19\u121b\u122d\u12eb\u121d \u130d\u1295
+  \u12ed\u1205\u1295\u1295 \u1201\u1209 \u1260\u120d\u1267 \u12ed\u12db \u1273\u1230\u120b\u1235\u120d
+  \u1290\u1260\u122d\u1362 20\u12a5\u1228\u129e\u1279\u121d \u1201\u1209\u121d \u1290\u1308\u122d
+  \u12a5\u1295\u12f0 \u1270\u1290\u1308\u122b\u1278\u12cd \u1206\u1296 \u1260\u121b\u130d\u1298\u1273\u1278\u12cd\u1363
+  \u1235\u1208 \u1230\u1219\u1275\u1293 \u1235\u120b\u12e9\u1275 \u1201\u1209 \u12a5\u130d\u12da\u12a0\u1265\u1214\u122d\u1295
+  \u12a5\u12eb\u12a8\u1260\u1229\u1293 \u12a5\u12eb\u1218\u1230\u1308\u1291 \u1270\u1218\u1208\u1231\u1362\\n\u1215\u1343\u1291\u1295
+  \u12a2\u12e8\u1231\u1235 \u12c8\u12f0 \u1264\u1270 \u1218\u1245\u12f0\u1235 \u12c8\u1230\u12f1\u1275\\n21\u1235\u121d\u1295\u1275
+  \u1240\u1295 \u1206\u1296\u1275 \u12e8\u1218\u1308\u1228\u12e3 \u130a\u12dc\u12cd
+  \u1232\u12f0\u122d\u1235\u1363 \u12a8\u1218\u1340\u1290\u1231 \u1260\u134a\u1275
+  \u1218\u120d\u12a0\u12a9 \u1263\u12c8\u1323\u1208\u1275 \u1235\u121d \u12a2\u12e8\u1231\u1235
+  \u1270\u1263\u1208\u1362\\n22\u1260\u1219\u1234 \u1215\u130d \u1218\u1220\u1228\u1275\u1363
+  \u12e8\u1218\u1295\u133b\u1273\u1278\u12cd \u12c8\u1245\u1275 \u1260\u1270\u1348\u1340\u1218
+  \u130a\u12dc\u1363 \u12ee\u1234\u134d\u1293 \u121b\u122d\u12eb\u121d \u1215\u1343\u1291\u1295
+  \u1208\u130c\u1273 \u1208\u121b\u1245\u1228\u1265 \u12c8\u12f0 \u12a2\u12e8\u1229\u1233\u120c\u121d
+  \u12ed\u12d8\u12cd\u1275 \u12c8\u1321\u1364 23\u12ed\u12b8\u12cd\u121d \u1260\u130c\u1273
+  \u1215\u130d\u1363 \u201c\u1270\u1263\u12d5\u1275 \u12e8\u1206\u1290 \u1260\u12b5\u122d
+  \u1201\u1209 \u1208\u130c\u1273 \u12e8\u1270\u1240\u12f0\u1230 \u12ed\u1206\u1293\u120d\u201d
+  \u1270\u1265\u120e \u12a5\u1295\u12f0 \u1270\u133b\u1348 \u1208\u1218\u1348\u1338\u121d\u1293
+  24\u12f0\u130d\u121e\u121d \u1260\u130c\u1273 \u1215\u130d\u1363 \u201c\u1201\u1208\u1275
+  \u12cb\u1296\u1236\u127d \u12c8\u12ed\u121d \u1201\u1208\u1275 \u12e8\u122d\u130d\u1265
+  \u132b\u1329\u1276\u127d \u12a5\u1295\u12f0 \u1270\u1263\u1208\u1363\u201d \u1218\u1225\u12cb\u12d5\u1275
+  \u1208\u121b\u1245\u1228\u1265 \u1290\u1260\u122d\u1362\\n25\u1260\u12da\u12eb\u1295
+  \u130a\u12dc \u133b\u12f5\u1245\u1293 \u1275\u1312\u1215 \u12e8\u1206\u1290 \u1235\u121d\u12d6\u1295
+  \u12e8\u121a\u1263\u120d \u12a0\u1295\u12f5 \u1230\u12cd \u1260\u12a2\u12e8\u1229\u1233\u120c\u121d
+  \u12ed\u1296\u122d \u1290\u1260\u122d\u1364 \u12a5\u122d\u1231\u121d \u12e8\u12a5\u1235\u122b\u12a4\u120d\u1295
+  \u1218\u133d\u1293\u1293\u1275 \u12e8\u121a\u1320\u1263\u1260\u1245\u1293 \u1218\u1295\u1348\u1235
+  \u1245\u12f1\u1235 \u1260\u120b\u12e9 \u12eb\u12f0\u1228\u1230\u12cd \u1290\u1260\u122d\u1362
+  26\u12f0\u130d\u121e\u121d \u12e8\u130c\u1273\u1295 \u1218\u1232\u1215 \u1233\u12eb\u12ed
+  \u12a5\u1295\u12f0\u121b\u12ed\u121e\u1275 \u1260\u1218\u1295\u1348\u1235 \u1245\u12f1\u1235
+  \u1270\u1308\u120d\u1326\u1208\u1275 \u1290\u1260\u122d\u1364 27\u12a5\u122d\u1231\u121d
+  \u1260\u12da\u1205 \u130a\u12dc \u1260\u1218\u1295\u1348\u1235 \u1270\u1218\u122d\u1276
+  \u12c8\u12f0 \u1264\u1270 \u1218\u1245\u12f0\u1235 \u1308\u1263\u1364 \u12e8\u120d\u1301\u121d
+  \u12c8\u120b\u1306\u127d \u1260\u1215\u1309 \u120d\u121b\u12f5 \u1218\u1220\u1228\u1275
+  \u1270\u1308\u1262\u12cd\u1295 \u120a\u1348\u133d\u1219\u1208\u1275 \u1215\u1343\u1291\u1295
+  \u12a2\u12e8\u1231\u1235\u1295 \u12ed\u12d8\u12cd \u1260\u1308\u1261 \u130a\u12dc\u1363
+  28\u1235\u121d\u12d6\u1295 \u1270\u1240\u1265\u120e \u12d0\u1240\u1348\u12cd\u1364
+  \u12a5\u130d\u12da\u12a0\u1265\u1214\u122d\u1295 \u12a5\u12eb\u1218\u1230\u1308\u1290
+  \u12a5\u1295\u12f2\u1205 \u12a0\u1208\u1364\\n29\u201c\u130c\u1273 \u1206\u12ed\u1364
+  \u1243\u120d \u1260\u1308\u1263\u12b8\u12cd \u1218\u1220\u1228\u1275\u1363\\n\u12a0\u1201\u1295
+  \u1263\u122a\u12eb\u1205\u1295 \u1260\u1230\u120b\u121d \u12a0\u1230\u1293\u1265\u1270\u12cd\u1364\\n30\u12d0\u12ed\u1296\u127c
+  \u1260\u1230\u12ce\u127d \u1201\u1209 \u134a\u1275 \u12eb\u12d8\u130b\u1300\u12b8\u12cd\u1295\u1363\\n31\u121b\u12f3\u1295\u1205\u1295
+  \u12a0\u12ed\u1270\u12cb\u120d\u1293\u1362\\n32\u12ed\u1205\u121d \u1208\u12a0\u1215\u12db\u1265
+  \u1218\u1308\u1208\u1325\u1295 \u12e8\u121a\u1230\u1325 \u1265\u122d\u1203\u1295\u1363\\n\u1208\u1215\u12dd\u1265\u1205
+  \u1208\u12a5\u1235\u122b\u12a4\u120d\u121d \u12ad\u1265\u122d \u1290\u12cd\u1362\u201d\\n33\u12a0\u1263\u1271\u1293
+  \u12a5\u1293\u1271\u121d \u1235\u1208 \u12a5\u122d\u1231 \u1260\u1270\u1290\u1308\u1228\u12cd
+  \u1290\u1308\u122d \u1270\u1308\u1228\u1219\u1362 34\u1235\u121d\u12d6\u1295\u121d
+  \u1263\u1228\u12ab\u1278\u12cd\u1364 \u12a5\u1293\u1271\u1295 \u121b\u122d\u12eb\u121d\u1295\u121d
+  \u12a5\u1295\u12f2\u1205 \u12a0\u120b\u1275\u1364 \u201c\u12ed\u1205 \u1215\u1343\u1295
+  \u1260\u12a5\u1235\u122b\u12a4\u120d \u1208\u1265\u12d9\u12ce\u127d \u1218\u1290\u1223\u1275\u1293
+  \u1218\u12cd\u12f0\u1245 \u121d\u12ad\u1295\u12eb\u1275 \u12a5\u1295\u12f2\u1206\u1295\u1363
+  \u12f0\u130d\u121e\u121d \u12ad\u1349 \u1208\u121a\u12eb\u1235\u12c8\u1229\u1260\u1275
+  \u121d\u120d\u12ad\u1275 \u12a5\u1295\u12f2\u1206\u1295 \u1270\u12c8\u1235\u1296\u12a0\u120d\u1364
+  35\u12e8\u1265\u12d9\u12ce\u127d\u121d \u12e8\u120d\u1265 \u1210\u1233\u1265 \u12e8\u1270\u1308\u1208\u1320
+  \u12a5\u1295\u12f2\u1206\u1295\u1363 \u12e8\u12a0\u1295\u127a\u121d \u1290\u134d\u1235
+  \u12f0\u130d\u121e \u1260\u1230\u12ed\u134d \u12ed\u12c8\u130b\u120d\u1362\u201d\\n36\u12f0\u130d\u121e\u121d
+  \u12a8\u12a0\u1234\u122d \u12c8\u1308\u1295 \u12e8\u1206\u1290\u127d \u12e8\u134b\u1291\u12a4\u120d
+  \u120d\u1305\u1363 \u1210\u1293 \u12e8\u121d\u1275\u1263\u120d \u1290\u1262\u12ed\u1275
+  \u1260\u12da\u12eb \u1290\u1260\u1228\u127d\u1364 \u12a5\u122d\u1237\u121d \u1260\u1323\u121d
+  \u12a0\u122d\u1305\u1273 \u1290\u1260\u122d\u1364 \u1260\u12f5\u1295\u130d\u120d\u1293\u12cb
+  \u12ab\u1308\u1263\u127d\u12cd \u1263\u120f\u121d \u130b\u122d \u1230\u1263\u1275
+  \u12d3\u1218\u1275 \u12e8\u1296\u1228\u127d \u1290\u1260\u1228\u127d\u1364 37\u12d5\u12f5\u121c\u12cb\u121d
+  \u1230\u121b\u1295\u12eb \u12a0\u122b\u1275 \u12d3\u1218\u12752\u136537 \u12c8\u12ed\u121d
+  \u1208\u1230\u121b\u1295\u12eb \u12a0\u122b\u1275 \u12d3\u1218\u1275 \u1218\u1260\u1208\u1275
+  \u12e8\u1290\u1260\u1228\u127d \u12a5\u1235\u12aa\u1206\u1293\u1275 \u12f5\u1228\u1235
+  \u1240\u1295\u1293 \u120c\u120a\u1275 \u12a8\u1264\u1270 \u1218\u1245\u12f0\u1235
+  \u1233\u1275\u1208\u12ed\u1363 \u1260\u133e\u121d\u1293 \u1260\u1338\u120e\u1275
+  \u12e8\u121d\u1273\u1308\u1208\u130d\u120d \u1218\u1260\u1208\u1275 \u1206\u1293
+  \u1248\u12e8\u127d\u1362 38\u1260\u12da\u12eb\u1291\u121d \u130a\u12dc \u1240\u122d\u1263
+  \u12a5\u130d\u12da\u12a0\u1265\u1214\u122d\u1295 \u12a0\u1218\u1230\u1308\u1290\u127d\u1364
+  \u12e8\u12a2\u12e8\u1229\u1233\u120c\u121d\u1295\u121d \u1218\u1264\u12e0\u1275
+  \u1208\u121a\u1320\u1263\u1260\u1241 \u1201\u1209 \u1235\u1208 \u1215\u1343\u1291
+  \u1270\u1293\u1308\u1228\u127d\u1362\\n39\u12ee\u1234\u134d\u1293 \u121b\u122d\u12eb\u121d
+  \u1260\u130c\u1273 \u1215\u130d \u12e8\u1273\u12d8\u12d8\u12cd\u1295 \u1201\u1209
+  \u12a8\u1348\u1338\u1219 \u1260\u128b\u120b\u1363 \u1260\u1308\u120a\u120b \u12a0\u12cd\u122b\u1303
+  \u12c8\u12f3\u1208\u127d\u12cd \u12a8\u1270\u121b\u1278\u12cd \u12c8\u12f0 \u1293\u12dd\u122c\u1275
+  \u1270\u1218\u1208\u1231\u1362 40\u1215\u1343\u1291\u121d \u12a5\u12eb\u12f0\u1308\u1293
+  \u12a5\u12e8\u1320\u1290\u12a8\u1228 \u1204\u12f0\u1364 \u1260\u1325\u1260\u1265
+  \u1270\u121e\u120b\u1364 \u12e8\u12a5\u130d\u12da\u12a0\u1265\u1214\u122d\u121d
+  \u1338\u130b \u1260\u12a5\u122d\u1231 \u120b\u12ed \u1290\u1260\u1228\u1362\\n\u12a2\u12e8\u1231\u1235
+  \u1260\u12d0\u1225\u122b \u1201\u1208\u1275 \u12d3\u1218\u1271 \u12c8\u12f0 \u1264\u1270
+  \u1218\u1245\u12f0\u1235 \u1204\u12f0\\n41\u12c8\u120b\u1306\u1279\u121d \u1260\u12e8\u12d3\u1218\u1271
+  \u1208\u134b\u1232\u12ab \u1260\u12d3\u120d \u12c8\u12f0 \u12a2\u12e8\u1229\u1233\u120c\u121d
+  \u12ed\u1204\u12f1 \u1290\u1260\u122d\u1362 42\u120d\u1301\u121d \u12d0\u1225\u122b
+  \u1201\u1208\u1275 \u12d3\u1218\u1275 \u1260\u1206\u1290\u12cd \u130a\u12dc\u1363
+  \u12a5\u1295\u12f0\u1270\u1208\u1218\u12f0\u12cd \u12c8\u12f0 \u1260\u12d3\u1209
+  \u12c8\u1321\u1362 43\u1260\u12d3\u1209\u1295 \u12a8\u1348\u1338\u1219 \u1260\u128b\u120b\u1363
+  \u12c8\u12f0 \u1264\u1273\u1278\u12cd \u1232\u1218\u1208\u1231\u1363 \u1265\u120b\u1274\u1293\u12cd
+  \u12a2\u12e8\u1231\u1235 \u1260\u12a2\u12e8\u1229\u1233\u120c\u121d \u1240\u1228\u1364
+  \u12c8\u120b\u1306\u1279 \u130d\u1295 \u1218\u1245\u1228\u1271\u1295 \u12a0\u120b\u12c8\u1241\u121d
+  \u1290\u1260\u122d\u1362 44\u12a0\u1265\u122e\u12a0\u1278\u12cd \u12eb\u1208 \u1218\u1235\u120e\u12a0\u1278\u12cd\u1363
+  \u12e8\u12a0\u1295\u12f5 \u1240\u1295 \u1218\u1295\u1308\u12f5 \u1270\u1313\u12d9\u1364
+  \u1260\u128b\u120b \u130d\u1295 \u12a8\u12d8\u1218\u12f6\u127b\u1278\u12cd\u1293
+  \u12a8\u12c8\u12f3\u1306\u127b\u1278\u12cd \u12d8\u1295\u12f5 \u12ed\u1348\u120d\u1309\u1275
+  \u1300\u1218\u122d\u1364 45\u1263\u1321\u1275\u121d \u130a\u12dc \u12a5\u12e8\u1348\u1208\u1309\u1275
+  \u12c8\u12f0 \u12a2\u12e8\u1229\u1233\u120c\u121d \u1270\u1218\u1208\u1231\u1362\\n46\u12a8\u1226\u1235\u1275
+  \u1240\u1295\u121d \u1260\u128b\u120b\u1363 \u1260\u1218\u121d\u1205\u122b\u1295
+  \u1218\u12ab\u12a8\u120d \u1270\u1240\u121d\u1326 \u1232\u12eb\u12f3\u121d\u1323\u1278\u12cd\u1293
+  \u1325\u12eb\u1244 \u1232\u12eb\u1240\u122d\u1265\u120b\u1278\u12cd \u1260\u1264\u1270
+  \u1218\u1245\u12f0\u1235 \u12cd\u1235\u1325 \u12a0\u1308\u1299\u1275\u1364 47\u12e8\u1230\u1219\u1275\u121d
+  \u1201\u1209 \u1260\u121b\u1235\u1270\u12cb\u1209\u1293 \u1260\u1218\u120d\u1231
+  \u12ed\u12f0\u1290\u1241 \u1290\u1260\u122d\u1362 48\u12c8\u120b\u1306\u1279\u121d
+  \u1263\u12e9\u1275 \u130a\u12dc \u1270\u1308\u1228\u1219\u1364 \u12a5\u1293\u1271\u121d\u1363
+  \u201c\u120d\u1304 \u1206\u12ed\u1364 \u1208\u121d\u1295 \u12a5\u1295\u12f2\u1205
+  \u12a0\u12f0\u1228\u130d\u12b8\u1295? \u12a0\u1263\u1275\u1205\u1293 \u12a5\u1294\u12ae
+  \u1270\u1328\u1295\u1240\u1295 \u1235\u1295\u1348\u120d\u130d\u1205 \u1290\u1260\u122d\u201d
+  \u12a0\u1208\u127d\u12cd\u1362\\n49\u12a5\u122d\u1231\u121d\u1363 \u201c\u1208\u121d\u1295
+  \u1348\u1208\u130b\u127d\u1201\u129d? \u1260\u12a0\u1263\u1274 \u1264\u1275 \u1218\u1308\u1298\u1275
+  \u12a5\u1295\u12f0\u121a\u1308\u1263\u129d \u12a0\u120b\u12c8\u1243\u127d\u1201\u121d\u1295?\u201d
+  \u12a0\u120b\u1278\u12cd\u1362 50\u12a5\u1290\u122d\u1231 \u130d\u1295 \u12e8\u1270\u1293\u1308\u122b\u1278\u12cd
+  \u1290\u1308\u122d \u12a0\u120d\u1308\u1263\u1278\u12cd\u121d\u1362\\n51\u12a8\u12da\u12eb\u121d
+  \u12a0\u1265\u122e\u12a0\u1278\u12cd \u12c8\u12f0 \u1293\u12dd\u122c\u1275 \u12c8\u1228\u12f0\u1364
+  \u12ed\u1273\u12d8\u12dd\u120b\u1278\u12cd\u121d \u1290\u1260\u122d\u1362 \u12a5\u1293\u1271\u121d
+  \u12ed\u1205\u1295 \u1201\u1209 \u1290\u1308\u122d \u1260\u120d\u1267 \u1275\u1320\u1265\u1240\u12cd
+  \u1290\u1260\u122d\u1362 52\u12a2\u12e8\u1231\u1235\u121d \u1260\u1325\u1260\u1265\u1293
+  \u1260\u1241\u1218\u1275 \u1260\u121e\u1308\u1235\u121d \u1260\u12a5\u130d\u12da\u12a0\u1265\u1214\u122d\u1293
+  \u1260\u1230\u12cd \u134a\u1275 \u12a0\u12f0\u1308\u1362\\nG\u0169ciarwo kwa Jes\u0169\\n12:1
+  Luk 3:1; Math 24:14Na r\u0129r\u0129, matuk\u0169-in\u0129 macio, Kaisari Augusito
+  n\u0129arutire watho at\u0129 and\u0169 othe a mab\u0169r\u0169ri mothe mar\u0129a
+  maathanagwo n\u0129 Aroma matarwo. 22:2 Math 4:24; At\u0169m 15:23, 41(R\u0129\u0129r\u0129
+  n\u0129r\u0129o r\u0129ar\u0129 itarana r\u0129a mbere r\u0129r\u0129a r\u0129ataranirwo
+  h\u0129nd\u0129 \u0129r\u0129a Kuirinio aar\u0129 bar\u0169thi wa Suriata.) 3Nao
+  and\u0169 mag\u0129thi\u0129 kw\u0129yand\u0129kithia o m\u0169nd\u0169 it\u0169\u0169ra-in\u0129
+  r\u0129ake mwene.\\n42:4 Joh 7:42N\u0129 \u0169nd\u0169 \u0169cio Jusufu o nake
+  ak\u0129ambata kuuma it\u0169\u0169ra r\u0129a Nazarethi k\u0169u Galili, ag\u0129thi\u0129
+  Judea, ag\u0129kinya Bethilehemu it\u0169\u0169ra r\u0129a Daudi, tond\u0169 we
+  aar\u0129 wa ny\u0169mba o na wa mbar\u0129 ya Daudi. 5Nake aathiire kuo n\u0129geetha
+  makeyand\u0129kithie mar\u0129 na Mariamu, m\u0169ir\u0129tu \u0169r\u0129a endaga
+  k\u0169hikia, nake aar\u0129 m\u0169rit\u0169. 6Na h\u0129nd\u0129 \u0129r\u0129a
+  maar\u0129 o k\u0169u, ihinda r\u0129a mwana g\u0169ciarwo r\u0129g\u0129kinya,
+  7Nake Mariamu ak\u0129rigithatha kaana ga kah\u0129\u0129. Ag\u0129kooha na taama,
+  ag\u0129gakomia th\u0129in\u0129 wa m\u0169harat\u0129 tond\u0169 n\u0129mag\u0129te
+  hand\u0169 ha k\u0169raara th\u0129in\u0129 wa ny\u0169mba ya ageni.\\nAr\u0129ithi
+  na Araika\\n8Na k\u0169u b\u0169r\u0169ri \u0169cio, n\u0129 kwar\u0129 ar\u0129ithi
+  maikaraga m\u0129g\u0169nda-in\u0129, maikar\u0129tie mahi\u0169 mao \u0169tuk\u0169.2:8
+  Mahi\u0169 ma k\u0169rutwo magongona maar\u0129ithag\u0129rio g\u0169kuh\u0129 na
+  Bethilehemu mwaka wothe. Ar\u0129ithi maamaroraga matikaiywo kana mar\u0129\u0129o
+  n\u0129 nyam\u0169. 92:9 At\u0169m 5:19M\u0169raika wa Mwathani ak\u0129moim\u0129r\u0129ra,
+  naguo riiri wa Mwathani \u0169k\u0129matherera hau maar\u0129, nao mak\u0129nyiitwo
+  n\u0129 guoya. 102:10 Math 14:27No m\u0169raika \u0169cio ak\u0129meera at\u0129r\u0129,
+  \u201cTigai gw\u0129tig\u0129ra. Ndam\u0169rehera \u0169horo mwega na wa g\u0129keno
+  k\u0129nene, \u0169r\u0129a \u0169gaatu\u0129ka wa and\u0169 othe. 112:11 Math 1:21;
+  At\u0169m 5:31\u0168m\u0169th\u0129 it\u0169\u0169ra-in\u0129 r\u0129a Daudi, n\u0129m\u0169ciar\u0129irwo
+  m\u0169honokia; nake n\u0129we Krist\u0169 \u0169r\u0129a Mwathani. 122:12 1Sam
+  2:34Na r\u0129r\u0129, k\u0129r\u0129a k\u0129r\u0129m\u0169menyithia \u0169horo
+  \u0169cio n\u0129 g\u0129k\u0129: N\u0129m\u0169r\u0129ona gakenge koheetwo na taama
+  gakometio th\u0129in\u0129 wa m\u0169harat\u0129.\u201d\\n13Na o r\u0129mwe hakium\u0129ra
+  g\u0129kundi k\u0129nene k\u0129a araika a ig\u0169r\u0169 hamwe na m\u0169raika
+  \u0169cio, mak\u0129gooca Ngai, makiuga at\u0129r\u0129,\\n142:14 Arom 5:1\u201cNgai
+  arokumio k\u0169u ig\u0169r\u0169 m\u0169no,\\nnaguo thay\u0169 \u0169rog\u0129a
+  g\u0169k\u0169 th\u0129 k\u0169r\u0129 and\u0169 ar\u0129a akenag\u0129ra.\u201d\\n15Na
+  r\u0129r\u0129a araika acio maamatigire mag\u0129cooka ig\u0169r\u0169-r\u0129,
+  ar\u0129ithi acio mak\u0129\u0129rana at\u0129r\u0129, \u201cN\u0129t\u0169thi\u0129
+  Bethilehemu t\u0169koone \u0169nd\u0169 \u0169cio w\u0129k\u0129k\u0129te, \u0169cio
+  Mwathani aat\u0169he \u0169horo waguo.\u201d\\n16N\u0129 \u0169nd\u0169 \u0169cio
+  mag\u0129thi\u0129 mahi\u0169h\u0129te, mag\u0129kora Mariamu na Jusufu o na gakenge
+  kau gakometio th\u0129in\u0129 wa m\u0169harat\u0129. 17Na maar\u0129kia g\u0169koona,
+  mak\u0129memerekia \u0169horo \u0169r\u0129a maaheetwo \u0169koni\u0129 kaana kau,
+  18nao ar\u0129a othe ma\u0169iguire mak\u0129gegio m\u0169no n\u0129 ma\u0169nd\u0169
+  mar\u0129a ar\u0129ithi acio maameeraga. 192:19 Luk 2:51Nowe Mariamu ak\u0129iga
+  ma\u0169nd\u0169 macio mothe ngoro-in\u0129 yake, na ag\u0129ikara ak\u0129meciiragia.
+  20Nao ar\u0129ithi acio mak\u0129h\u0169nd\u0169ka, mag\u0129kumagia na mak\u0129goocaga
+  Ngai n\u0129 \u0169nd\u0169 wa ma\u0169nd\u0169 macio mothe maigu\u0129te na makoona,
+  o ta \u0169r\u0129a meer\u0129\u0129two.\\nJes\u0169 G\u0169twarwo Hekar\u0169\\n212:21
+  Luk 1:31, 59M\u0169thenya wa kanana wakinya, r\u0129r\u0129a ihinda r\u0129ako r\u0129a
+  k\u0169rua r\u0129akinyire-r\u0129, kaana kau gag\u0129tuuo Jes\u0169, r\u0129\u0129twa
+  r\u0129r\u0129a m\u0169raika aakaheete mbere ya nyina k\u0169g\u0129a nda yako.\\n22Na
+  r\u0129r\u0129, r\u0129r\u0129a ihinda r\u0129ao r\u0129a g\u0169therio r\u0129akinyire
+  k\u0169ringana na Watho wa Musa-r\u0129,2:22 M\u0169tumia ang\u0129ag\u0129ire kaana
+  etag\u0129r\u0129ra m\u0129thenya m\u0129rongo \u0129na n\u0129guo acooke athi\u0129
+  hekar\u0169 akarute igongona r\u0129a g\u0169therio. Jusufu na Mariamu mag\u0129gatwara
+  Jerusalemu n\u0129guo magakaneane har\u0129 Mwathani 232:23 Thaam 13:2, 12, 15(o
+  ta \u0169r\u0129a kwand\u0129k\u0129two Watho-in\u0129 wa Mwathani at\u0129r\u0129,
+  \u201cIrigithathi r\u0129othe r\u0129a kah\u0129\u0129 n\u0129 r\u0129r\u0129am\u0169rag\u0129rwo
+  Mwathani\u201d), 24na marute igongona k\u0169ringana na \u0169r\u0129a Watho wa
+  Mwathani uug\u0129te: \u201cN\u0129 ndirah\u0169g\u0129 ig\u0129r\u0129 kana t\u0169tutuura
+  tw\u0129r\u0129.\u201d\\n25Na r\u0129r\u0129, n\u0129 kwar\u0129 m\u0169nd\u0169
+  k\u0169u Jerusalemu wetagwo Simeoni, war\u0129 m\u0169thingu na mw\u0129tig\u0129ri
+  Ngai. Nake aat\u0169ire etereire k\u0169honokio kwa Isiraeli, nake Roho M\u0169theru
+  aar\u0129 hamwe nake. 26N\u0129agu\u0169r\u0129irio n\u0129 Roho M\u0169theru at\u0129
+  ndagakua atoneete Krist\u0169 \u0169r\u0129a wa Mwathani. 27Nake ag\u0129toonya
+  th\u0129in\u0129 wa hekar\u0169 atongoretio n\u0129 Roho. Na r\u0129r\u0129a aciari
+  a kaana kau ti Jes\u0169, maagatwarire hekar\u0169 th\u0129in\u0129 n\u0129guo mahingie
+  \u0169r\u0129a m\u0169tugo wa watho watu\u0129te-r\u0129, 28Simeoni ag\u0129kaiy\u0169kia
+  moko-in\u0129 make na ak\u0129gooca Ngai, akiuga at\u0129r\u0129:\\n292:29 Luk 2:26\u201cMwathani
+  Mwene-Hinya,\\nr\u0129u rekereria ndungata yaku \u0129thi\u0129 na thay\u0169, o
+  ta \u0169r\u0129a wanj\u0129\u0129r\u0129ire.\\n302:30 Isa 52:10N\u0129g\u0169korwo
+  maitho makwa n\u0129monete \u0169honokio waku,\\n31\u0169r\u0129a \u0169haar\u0129irie
+  mbere ya and\u0169 othe,\\n322:32 Isa 40:5\u0169r\u0129 \u0169theri wa k\u0169gu\u0169r\u0129ria
+  and\u0169-a-Nd\u0169r\u0129r\u0129,\\no na riiri k\u0169r\u0129 and\u0169 aku a
+  Isiraeli.\u201d\\n33Nake ithe na nyina mak\u0129gega m\u0169no n\u0129 \u0169nd\u0169
+  wa ma\u0169nd\u0169 mar\u0129a maaririo ig\u0169r\u0169 r\u0129ako. 342:34 Math
+  12:46; 21:44Simeoni ag\u0129cooka ak\u0129marathima ak\u0129\u0129ra Mariamu, nyina
+  wa kaana kau at\u0129r\u0129, \u201cKaana gaka n\u0129 gatu\u0129two ga k\u0169g\u0169ithia
+  na g\u0169\u0169k\u0129ria and\u0169 aing\u0129 th\u0129in\u0129 wa Isiraeli, na
+  gatu\u0129ke k\u0129menyithia k\u0129r\u0129a k\u0129r\u0129menag\u0129r\u0129rio,
+  35n\u0129geetha meciiria ma ngoro nying\u0129 magu\u0169rio. O na ngoro yaku o nayo
+  n\u0129\u0129gatheecwo na r\u0169hi\u0169 rwa njora.\u201d\\n362:36 At\u0169m 21:9Ning\u0129
+  n\u0129 kwar\u0129 na m\u0169tumia m\u0169nabii, wetagwo Anna mwar\u0129 wa Fanueli,
+  wa m\u0169h\u0129r\u0129ga wa Asheri. M\u0169tumia \u0169cio aar\u0129 m\u0169k\u0169r\u0169
+  m\u0169no; aikarire na m\u0169thuuriwe m\u0129aka m\u0169gwanja kuuma ahika, 372:37
+  1Tim 5:5ag\u0129cooka ag\u0129ikara ar\u0129 wa ndigwa na h\u0129nd\u0129 \u0129yo
+  aar\u0129 na m\u0129aka m\u0129rongo \u0129nana na \u0129na. Nake ndoimaga hekar\u0169-in\u0129,
+  no aat\u0169ire kuo ahooyaga Ngai \u0169tuk\u0169 na m\u0169thenya, na akehiingaga
+  k\u0169r\u0129a irio na akahooyaga. 38H\u0129nd\u0129 o \u0129yo ag\u0129\u0169ka
+  har\u0129o, ag\u0129cookeria Ngai ngaatho, na ak\u0129aria \u0169horo wa kaana kau
+  k\u0169r\u0129 ar\u0129a othe meetag\u0129r\u0129ra kuona g\u0169k\u0169\u0169rwo
+  kwa Jerusalemu.\\n39R\u0129r\u0129a Jusufu na Mariamu maar\u0129kirie gw\u0129ka
+  ma\u0169nd\u0169 mar\u0129a mothe maathan\u0129two n\u0129 watho wa Mwathani-r\u0129,
+  mag\u0129cooka Galili, mak\u0129in\u0169ka it\u0169\u0169ra r\u0129ao k\u0169u Nazarethi.
+  402:40 Luk 2:52Nako kaana kau gag\u0129k\u0169ra, gak\u0129g\u0129a na hinya; gak\u0129iy\u0169rwo
+  n\u0129 \u0169\u0169g\u0129, naguo wega wa Ngai war\u0129 hamwe nako.\\nJes\u0169
+  ar\u0129 Kamwana th\u0129in\u0129 wa Hekar\u0169\\n412:41 Thaam 23:15; G\u0169cook
+  16:1-8Mwaka o mwaka aciari ake n\u0129mathiiaga Jerusalemu n\u0129 \u0169nd\u0169
+  wa G\u0129ath\u0129 k\u0129a Bathaka.2:41 Ar\u0169me othe a Ayahudi na and\u0169
+  a m\u0129ci\u0129 yao maag\u0129r\u0129irwo n\u0129g\u0169thi\u0129 Jerusalemu ciath\u0129
+  ithat\u0169 o mwaka, n\u0129cio Bathaka, na Bendegothito, na G\u0129ath\u0129 g\u0129a
+  Ith\u0169n\u0169. 42Jes\u0169 aakinyia m\u0129aka ik\u0169mi na \u0129\u0129r\u0129,
+  mak\u0129ambata nake mag\u0129thi\u0129 G\u0129ath\u0129-in\u0129 k\u0129u k\u0169ringana
+  na m\u0169tugo.2:42 T\u0169mwana twakinyia m\u0129aka ik\u0169mi na \u0129\u0129r\u0129
+  n\u0129twambag\u0129r\u0129ria kw\u0129har\u0129ria g\u0169tongoria ma\u0169nd\u0169
+  ma ndini. 43Na G\u0129ath\u0129 k\u0129u g\u0129athira, r\u0129r\u0129a aciari ake
+  main\u0169kaga-r\u0129, kamwana kau ti Jes\u0169, gag\u0129tigwo na thuutha k\u0169u
+  Jerusalemu, no matiamenyire. 44Nao mag\u0129thi\u0129 r\u0169gendo rwa m\u0169thenya
+  m\u0169gima, mag\u0129\u0129ciiragia at\u0129 aar\u0129 g\u0129kundi-in\u0129 k\u0129ao.
+  Thuutha \u0169cio mak\u0129amb\u0129r\u0129ria k\u0169m\u0169caria k\u0169r\u0129
+  and\u0169 a mbar\u0129 yao o na k\u0169r\u0129 arata. 45H\u0129nd\u0129 \u0129r\u0129a
+  mamwaagire, mag\u0129cooka Jerusalemu makam\u0169carie. 46Thuutha wa m\u0129thenya
+  \u0129tat\u0169 mak\u0129m\u0169kora hekar\u0169-in\u0129 aikar\u0129te gatagat\u0129
+  ka arutani,2:46 Arutani a watho kana Rabii n\u0129o moo\u0129 ma\u0169nd\u0169 ma
+  ndini ya K\u0129yahudi m\u0169no mak\u0129ria. amathik\u0129r\u0129irie na ak\u0129mooragia
+  ci\u0169ria. 47\u0168r\u0129a wothe waiguaga ak\u0129aria n\u0129agegagio n\u0129
+  \u0169menyo wake na \u0169r\u0129a aacookagia. 48R\u0129r\u0129a aciari ake maamuonire,
+  mak\u0129gega. Nyina ak\u0129m\u0169\u0169ria at\u0129r\u0129, \u201cM\u0169ri\u0169,
+  \u0169g\u0169tw\u0129ka \u0169guo n\u0129k\u0129? Ni\u0129 na thoguo n\u0129 t\u0169g\u0169car\u0129tie
+  t\u0169r\u0129 na k\u0129eha m\u0169no.\u201d\\n492:49 Joh 2:16Nake Jes\u0169 ak\u0129mooria
+  at\u0129r\u0129, \u201cN\u0129 k\u0129\u0129 g\u0129t\u0169m\u0129te m\u0169njarie?
+  Ka\u0129 m\u0169too\u0129 at\u0129 njag\u0129r\u0129irwo g\u0169korwo nd\u0129 ny\u0169mba-in\u0129
+  ya Baba?\u201d 50No-o matiata\u0169k\u0129irwo n\u0129 \u0169r\u0129a aameeraga.\\n51Nake
+  ag\u0129cooka hamwe nao nginya Nazarethi, na n\u0129amath\u0129kag\u0129ra. No nyina
+  n\u0129aigaga ma\u0169nd\u0169 macio mothe ngoro-in\u0129 yake. 522:52 Luk 2:40Nake
+  Jes\u0169 ag\u0129k\u0169ra, ak\u0129\u0169h\u0129gaga, na ak\u0129nenehaga, ak\u0129endagwo
+  n\u0129 Ngai, o na and\u0169.\"", "\"Minista wa ugima wa mwiri Sicily Kariuki augite
+  thirikari ni ikugacirithia birigiceni ya kuhurana na nduka cia wendia wa ndawa iria
+  itakinyaniirie ikiro, akiuga niciongererekete na gikiro kinene guku bururi-ini.\\nKariuki
+  augite ni kieha kuona endia a ndawa aria mabatii gukorwo magiteithia muingi makoretwo
+  makimenderia ndawa itaramateithia na ingi igakorwo iri ugwati kuri ugima wao wa
+  mwiri.\\nKariuki augite no muhaka atongoria mbondi-ini ya endia a ndawa makorwo
+  na wuigiririki wa gutigirira ndawa iria irendio bururi-ini ni ikinyaniirie ikiro
+  akiuga wendia wa ndawa na njira cia ngungo niguo uracungiriria ministry ya ugima
+  wa mwiri gukuruhanio na ciiko nyingi cia ngukumio.\"", "\"MINISTER MOSES KURIA GUTETERA
+  NGABANA KAWIRA MWANGAZA\\nWritten by Kayu Digital Team on October 4, 2023\\n- NAIROBI
+  & ENVIRONS 91.0 | MT KENYA REGION 91.1FM\\nRiri ndereti ya kuhagura ngabana wa kaunti
+  ya Meru Kawira Mwangaza ikirie kwariirwo bunge-ini ya kaunti ino kiumia giguka,
+  minister wa iganda na wonjoria Moses Kuria niakinyiririe murugamo wake wa kurugama
+  na ngabana uyu, akiuria atongoria magie na unyitaniri gitaru-ini giki. Ndumiririni
+  yake kuri atongoria kaunti-ini ino kugerera rurenda rwa X, Kuria nionekanite kunyitirira
+  ngabana Kawira Mwangaza, akiuria atongoria gitaru-ini giki matiganirie njira ici
+  na kuhe kanya utungtata kuri muingi. Kuringana na Minister Kuria atongoria kuuma
+  gitaru giki magiriirwo gutigira mihang\u2019o ya kuhagura ngabana icigo ingi, akiheana
+  ngerekano ya kuhaguka kwa utungata kaunti-ini ya Kiambu riria ngabana Ferdinand
+  Waititu ahagurirwo, na uguo kuria atongoria manyitanire gutungatira muingi. Minister
+  Kuria niwe mutongoria wa mbere kuhugukira ndereti ya atongoria a Meru ya kuhagura
+  ngabana Kawira Mwangaza, na iria atongoria kuuma Meru moritie thirikari nene na
+  atongoria angi gutiganiria.\""]'
+src_ngrams: '{"1": [[["wa"], 91666], [["cia"], 18562], [["ini"], 15612], [["ngai"],
+  13632], [["in\u0129"], 12791]], "2": [[["\u0169nd\u0169 wa"], 3980], [["thutha wa"],
+  3496], [["th\u0129in\u0129 wa"], 3429], [["mwena wa"], 3103], [["\u0169nd\u0169
+  \u0169cio"], 3035]], "3": [[["mt kenya region"], 985], [["mbica irutitwe online"],
+  955], [["mutongoria wa bururi"], 913], [["written by kayu"], 844], [["kayu digital
+  team"], 836]], "4": [[["written by kayu digital"], 836], [["kayu digital team on"],
+  836], [["by kayu digital team"], 836], [["mutongoria wa bururi uhuru"], 489], [["wa
+  bururi uhuru kenyatta"], 468]], "5": [[["written by kayu digital team"], 836], [["by
+  kayu digital team on"], 836], [["mutongoria wa bururi uhuru kenyatta"], 463], [["ari\u0169
+  na aar\u0129 a ithe"], 288], [["muoyo wa tene na tene"], 221]]}'

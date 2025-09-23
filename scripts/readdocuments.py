@@ -26,7 +26,7 @@ def initialization():
     # Optionals
     groupO = parser.add_argument_group("Optional")
     groupO.add_argument('--langs', type=argparse.FileType('wt'), help="Save sentence languages in this file.")
-    groupO.add_argument('--format', type=str, help="Document format.", choices=["hplt", "nemotron", "fineweb", "madlad"])
+    groupO.add_argument('--format', type=str, help="Document format.", choices=["hplt2", "hplt3", "nemotron", "fineweb", "madlad"])
     
     # Logging group
     groupL = parser.add_argument_group('Logging')
@@ -50,11 +50,17 @@ def main():
     wds_field=None
 
 
-    if args.format == "hplt":
+    if args.format == "hplt2":
         text_field="text"
         seglangs_field="seg_langs"
         url_field="u"
         collection_field="collection"
+        wds_field="doc_scores"
+    elif args.format == "hplt3":
+        text_field="text"
+        seglangs_field="seg_langs"
+        url_field="u"
+        collection_field="crawl_id"
         wds_field="doc_scores"
     elif args.format=="nemotron":
         text_field="text"        
@@ -118,7 +124,13 @@ def main():
             document_score = docscores[0]
         else:
             ds_doc = {}
-            if args.format=="hplt":
+            if args.format=="hplt2":
+                ds_doc["document_lang"] = lang3
+                ds_doc["langs"] = langs
+                ds_doc["text"] = ("\n").join(sents)
+                ds_doc["script"] = doc.get("lang")[0].split("_")[1].lower()
+                ds_doc["id"] = doc.get("id")
+            elif args.format=="hplt3":
                 ds_doc["document_lang"] = lang3
                 ds_doc["langs"] = langs
                 ds_doc["text"] = ("\n").join(sents)

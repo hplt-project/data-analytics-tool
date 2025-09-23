@@ -30,22 +30,27 @@ Code and data are located in `/work`. Yaml files served in the frontend must be 
 
 Aside from uploading from the webapp interface, the `runstats.sh` (located in  `/work/scripts/`) can be used for generating stats, running it with parameters as follows:
 ```
-bash /work/scripts/runstats.sh {CORPUS_PATH} {YAML_FILENAME} {SOURCE_LANGUAGE} {TARGET_LANGUAGE} {FORMAT} {LANGUAGE_FORMAT} {--no-cache} {--no-register-labels} {--debug}
+bash /work/scripts/runstats.sh {CORPUS_PATH} {YAML_FILENAME} {SOURCE_LANGUAGE} {TARGET_LANGUAGE} {FORMAT} {LANGUAGE_FORMAT} {--no-cache} {--skip-register-labels} {--skip-domain-labels} {--debug}
 ```
 Being:
 * CORPUS_PATH: The path to the corpus to be analyzed.
 * YAML_FILENAME: The path and filename the resulting stats yaml will have.
 * SOURCE_LANGUAGE: Source language code (2-letters, ISO 639-1)
 * TARGET_LANGUAGE: Target language code (2-letters, ISO 639-1), or `-` for monolingual.
-* FORMAT: File format. Currently accepted values are `bitext`, `tmx`, `tsv`, `hplt`, `nemotron` and  `fineweb`. The last 3 are intender for full documents, in [HPLT v2](https://hplt-project.org/datasets/v2.0), [NemotronCC](https://data.commoncrawl.org/contrib/Nemotron/Nemotron-CC/index.html) or [FineWeb-2](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2) formats (jsonl with different key names).
+* FORMAT: File format. Currently accepted values are `bitext`, `tmx`, `tsv`, `hplt2`, `hplt3`, `nemotron`, `madlad` and  `fineweb`. The last 5 are intended for full documents, in [HPLT v2](https://hplt-project.org/datasets/v2.0), [HPLT v3](https://hplt-project.org/datasets/v3.0),  [NemotronCC](https://data.commoncrawl.org/contrib/Nemotron/Nemotron-CC/index.html), [MADLAD-400](https://huggingface.co/datasets/allenai/MADLAD-400) or [FineWeb-2](https://huggingface.co/datasets/HuggingFaceFW/fineweb-2) formats (jsonl with different key names).
 * LANGUAGE_FORMAT: Currently accepted values are `parallel` and `mono`.
 
 With the optional flags being:
-* `--no-register-labels`: Avoids obtaining Register Labels, that is a slow part of the pipeline. Recommended for large corpora or when not running on CPU.
+* `--skip-register-labels`: Avoids obtaining Register Labels, that is a slow part of the pipeline. Recommended for large corpora or when not running on CPU.
+* `--skip-domain-labels`: Skips domain classification, reducing runtime.
 * `--no-cache`: Avoids using [cache](https://github.com/kpu/preprocess). Use this flag for very large corpora, when you consider that your unique segments (non-duplicates) won't fit in memory. This will make some parts of the pipeline slower, but it will still be able to run. This flag alone does not skip any feature.
 * `--debug`: Don't remove the workdir after finishing the run ('/work/transient/XXXXXX/`)
 
-The first two flags affect to the performance of the pipeline. You probably want to start with `--no-register-labels` and then add `--no-cache` if needed.
+The first three flags affect to the performance of the pipeline. You probably want to start with `--skip-register-labels` and `--skip-domain-labels`, and then add `--no-cache` if needed.
+
+### Domain labels
+
+Domain labels use `nvidia/multilingual-domain-classifier` ([HF model card](https://huggingface.co/nvidia/multilingual-domain-classifier)). The tool runs with built‑in defaults (top‑k=3, min‑confidence=0.5) without extra configuration flags, mirroring the simplicity of register labels.
 
 
 ### Other scripts
@@ -82,6 +87,7 @@ The stats generated with this tool come in a handy yaml format with the followin
   -  `no_porn`: Percentage of segments having porn content (not available for all languages)
 - `monocleaner_scores`: Distribution of segments with a certain [Monocleaner](https://github.com/bitextor/monocleaner) score (only for monolingual corpora)
 - `register_labels`: Distribution of documents identified with a given web register by [web-register-classification-multilingual](https://huggingface.co/TurkuNLP/web-register-classification-multilingual) (only for monolingual documents)
+- `domain_labels`: Distribution of documents across model-defined domains by [nvidia/multilingual-domain-classifier](https://huggingface.co/nvidia/multilingual-domain-classifier) (only for monolingual documents)
 - `sentence_pairs`: Total amount of segments (in the case of monolingual corpora) or segment pairs (in the case of parallel corpora)
 - `src_bytes`: Total size of source segments, uncompressed.
 - `src_chars`: Total amount of characters in source segments.
@@ -146,8 +152,12 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
     - Percentage of segments in the declared languge, inside documents (only for monolingual documents)
 - Document Score distribution: Histogram showing the distribution of Document Score (only for monolingual documents)
 - Segment length distribution: Histogram showing the distribution of tokens per segment in source (monolingual) or source and target (parallel), showing total, unique and duplicate segments or segment pairs
-- Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences being URLs, bad encoding, sentences containing poor language, etc.). 
+- Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences being URLs, bad encoding, sentences containing poor language, etc.).
 - Frequent n-grams: 1-5 more frequent n-grams
+
+### Exporting the report to PDF
+
+Use the **Export to PDF** button at the bottom of the viewer to generate a PDF containing all charts displayed on the page, including register and domain labels when available.
 
 We also display samples for some of the datasets. These are currently obtained out of the HPLTAnalytics tool and all the storage and the logic of which sample/labels must be displayed is currently happening in Javascript. Further versions of HPLTAnalytics will properly handle this.
 

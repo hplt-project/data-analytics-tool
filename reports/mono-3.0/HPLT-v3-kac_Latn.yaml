@@ -1,0 +1,813 @@
+corpus: hplt-v3-kac_Latn
+srclang: kac
+timestamp: 1758171799.269135
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2017-04", 959], ["CC-MAIN-2017-26", 663], ["wide12",
+  575], ["wide15", 497], ["CC-MAIN-2018-05", 381], ["CC-MAIN-2024-10", 333], ["CC-MAIN-2020-05",
+  332], ["CC-MAIN-2023-50", 246], ["CC-MAIN-2020-24", 242], ["CC-MAIN-2018-22", 227],
+  ["CC-MAIN-2023-40", 220], ["CC-MAIN-2020-10", 210], ["wide6", 200], ["CC-MAIN-2024-18",
+  186], ["wide11", 175], ["wide17", 171], ["CC-MAIN-2023-23", 169], ["CC-MAIN-2019-04",
+  166], ["CC-MAIN-2018-34", 160], ["CC-MAIN-2017-51", 157], ["CC-MAIN-2018-39", 140],
+  ["CC-MAIN-2020-29", 128], ["CC-MAIN-2020-40", 124], ["wide16", 115], ["CC-MAIN-2024-22",
+  115], ["CC-MAIN-2022-27", 107], ["CC-MAIN-2020-34", 107], ["CC-MAIN-2020-16", 103],
+  ["wide2", 98], ["CC-MAIN-2024-26", 97], ["CC-MAIN-2020-45", 96], ["CC-MAIN-2022-33",
+  93], ["CC-MAIN-2018-43", 89], ["CC-MAIN-2022-40", 84], ["CC-MAIN-2022-21", 79],
+  ["CC-MAIN-2021-10", 77], ["CC-MAIN-2021-43", 73], ["CC-MAIN-2022-49", 67], ["CC-MAIN-2021-21",
+  65], ["CC-MAIN-2024-38", 62], ["CC-MAIN-2023-14", 61], ["CC-MAIN-2021-04", 61],
+  ["CC-MAIN-2024-33", 54], ["CC-MAIN-2021-49", 54], ["CC-MAIN-2020-50", 53], ["CC-MAIN-2021-25",
+  51], ["CC-MAIN-2024-51", 49], ["CC-MAIN-2014-15", 49], ["CC-MAIN-2024-46", 48],
+  ["CC-MAIN-2022-05", 47], ["CC-MAIN-2024-42", 42], ["CC-MAIN-2021-17", 41], ["CC-MAIN-2024-30",
+  38], ["CC-MAIN-2023-06", 38], ["CC-MAIN-2021-39", 25], ["wide5", 24], ["survey3",
+  20], ["CC-MAIN-2014-35", 17], ["CC-MAIN-2021-31", 16], ["CC-MAIN-2016-40", 13],
+  ["CC-MAIN-2015-11", 9], ["CC-MAIN-2015-48", 7], ["wide10", 6], ["CC-MAIN-2015-18",
+  6], ["CC-MAIN-2014-42", 6], ["CC-MAIN-2016-30", 5], ["CC-MAIN-2016-44", 4]]'
+docs_langs: '[[0.0, 3], [0.1, 12], [0.2, 64], [0.3, 83], [0.4, 158], [0.5, 474], [0.6,
+  662], [0.7, 1124], [0.8, 1578], [0.9, 1460], [1.0, 3414]]'
+docs_segments: '[[1, 57], [2, 199], [3, 414], [4, 661], [5, 648], [6, 639], [7, 664],
+  [8, 529], [9, 497], [10, 547], [11, 444], [12, 354], [13, 336], [14, 265], [15,
+  255], [16, 186], [17, 192], [18, 150], [19, 141], [20, 139], [21, 131], [22, 112],
+  [23, 92], [24, 75], [25, 70], [26, 64], [27, 58], [28, 60], [29, 35], [30, 41],
+  [31, 40], [32, 34], [33, 35], [34, 25], [35, 34], [36, 25], [37, 34], [38, 60],
+  [39, 23], [40, 37], [41, 34], [42, 17], [43, 21], [44, 24], [45, 29], [46, 23],
+  [47, 18], [48, 16], [49, 52], [50, 22], [51, 10], [52, 8], [53, 14], [54, 26], [55,
+  7], [56, 8], [57, 9], [58, 12], [59, 11], [60, 5], [61, 14], [62, 14], [63, 7],
+  [64, 8], [65, 7], [66, 6], [67, 11], [68, 4], [69, 3], [70, 10], [71, 3], [72, 3],
+  [73, 2], [74, 2], [75, 4], [76, 4], [77, 5], [78, 1], [79, 3], [80, 2], [81, 5],
+  [82, 5], [83, 4], [84, 5], [85, 5], [86, 2], [89, 4], [90, 2], [92, 1], [93, 2],
+  [95, 2], [98, 3], [99, 2], [100, 2], [101, 1], [102, 1], [103, 2], [104, 3], [105,
+  2], [107, 1], [108, 2], [109, 4], [110, 2], [114, 2], [115, 3], [116, 1], [119,
+  1], [120, 1], [121, 2], [124, 2], [126, 7], [127, 2], [128, 1], [129, 1], [130,
+  1], [132, 3], [133, 2], [134, 1], [135, 1], [138, 1], [141, 1], [145, 1], [147,
+  2], [148, 1], [150, 1], [155, 1], [157, 1], [158, 1], [159, 1], [164, 1], [166,
+  1], [169, 1], [171, 1], [172, 1], [174, 1], [177, 1], [183, 2], [187, 1], [191,
+  2], [196, 2], [198, 1], [200, 2], [201, 1], [202, 1], [205, 2], [207, 1], [216,
+  1], [220, 1], [221, 1], [228, 1], [232, 1], [236, 1], [241, 1], [243, 1], [261,
+  1], [277, 1], [278, 1], [284, 1], [296, 1], [310, 1], [339, 1], [384, 1], [441,
+  1], [538, 1], [697, 1], [703, 1], [805, 1], [868, 1], [982, 1], [1019, 1], [2038,
+  1]]'
+docs_segments_mean: 17
+docs_segments_median: 10
+docs_top100_domains: '[["kachinnews.com", 1758], ["blogspot.com", 1742], ["rvasia.org",
+  1240], ["dehong.gov.cn", 1181], ["kachinnet.net", 669], ["kachinlandnews.com", 348],
+  ["jw.org", 315], ["hkakaborazi.net", 304], ["myutsawmyit.net", 138], ["blogspot.sg",
+  132], ["blogspot.co.nz", 119], ["rveritas-asia.org", 70], ["kachinnet.org", 69],
+  ["sanluka.org", 65], ["kachintimes.com", 63], ["kachinlife.com", 63], ["dhtjb.com",
+  51], ["blogspot.ca", 50], ["kachintoday.com", 39], ["jinghpawkasa.org", 36], ["blogspot.in",
+  35], ["kachinlandnews.org", 32], ["eedynews.com", 32], ["researchdata.edu.au", 29],
+  ["myanmarbible.com", 29], ["tripod.com", 24], ["blogbaker.com", 24], ["kachinwaves.com",
+  22], ["yjh1979.com", 19], ["kbc-singapore.org.sg", 19], ["edehong.com", 14], ["jinghpawland.org",
+  13], ["wikimedia.org", 11], ["kbckachin.org", 11], ["forumakers.com", 11], ["hpungmai.com",
+  10], ["hpajinawng.com", 10], ["co.cc", 10], ["banmawdiocese.org", 10], ["scribd.com",
+  9], ["kachinwomen.com", 8], ["blogspot.co.uk", 8], ["bible.com", 8], ["kachinalliance.org",
+  7], ["wuhanjlx.com", 6], ["kachinland.org", 6], ["cloudlibrary.org", 6], ["gydtbg.com",
+  5], ["bible.is", 5], ["wordpress.com", 4], ["principles-of-humanity.org", 4], ["kachinlandsas.org",
+  4], ["dominicweb.eu", 4], ["burmaguide.net", 4], ["blogspot.ru", 4], ["blogspot.co.il",
+  4], ["northernalliance.cn", 3], ["net:443.", 3], ["malaysiakbc.org", 3], ["ktcsnn.com",
+  3], ["kcpc-japan.com", 3], ["kachinlandcollege.org", 3], ["issuu.com", 3], ["h-panglai.com",
+  3], ["faithweb.com", 3], ["blogspot.se", 3], ["blogspot.nl", 3], ["wtsmukchyit.org",
+  2], ["vietnamimmigration.org", 2], ["vallalar.net", 2], ["knforum.org", 2], ["kachinusa.info",
+  2], ["ipetitions.com", 2], ["fkbcla.com", 2], ["docsplayer.com", 2], ["composesite.com",
+  2], ["burmalibrary.org", 2], ["blogspot.com.au", 2], ["aksyu.com", 2], ["123dok.com",
+  2], ["zhxlz.com", 1], ["zhitov.com", 1], ["yahoo.com", 1], ["xinmem.com", 1], ["weebly.com",
+  1], ["webs.com", 1], ["web.app", 1], ["watchtower.org", 1], ["uzdrowicielzeswiatla.pl",
+  1], ["tni.org", 1], ["theboydcapitalgroups.info", 1], ["svoboda-live.ru", 1], ["sverigesradio.se",
+  1], ["studypool.com", 1], ["skysoft.com.mm", 1], ["policycommons.net", 1], ["podcast.app",
+  1], ["pdfsb.net", 1], ["pdf-archive.com", 1], ["padangsut.org", 1]]'
+docs_top100_tld: '[["com", 4351], ["org", 1926], ["gov.cn", 1181], ["net", 1122],
+  ["sg", 132], ["co.nz", 119], ["ca", 50], ["in", 35], ["edu.au", 29], ["org.sg",
+  19], ["cc", 10], ["co.uk", 8], ["ru", 7], ["is", 5], ["eu", 5], ["se", 4], ["co.il",
+  4], ["nl", 3], ["info", 3], ["cn", 3], ["app", 3], ["com.au", 2], ["pl", 1], ["io",
+  1], ["id", 1], ["fr", 1], ["edu.mm", 1], ["dk", 1], ["com.tr", 1], ["com.mm", 1]]'
+docs_total: 9032
+docs_wds: '[[10.0, 3], [5.0, 42], [5.1, 53], [5.2, 52], [5.3, 52], [5.4, 53], [5.5,
+  59], [5.6, 53], [5.7, 62], [5.8, 65], [5.9, 58], [6.0, 60], [6.1, 70], [6.2, 73],
+  [6.3, 66], [6.4, 70], [6.5, 91], [6.6, 109], [6.7, 118], [6.8, 140], [6.9, 134],
+  [7.0, 164], [7.1, 198], [7.2, 193], [7.3, 212], [7.4, 271], [7.5, 313], [7.6, 317],
+  [7.7, 309], [7.8, 472], [7.9, 489], [8.0, 780], [8.1, 777], [8.2, 595], [8.3, 371],
+  [8.4, 214], [8.5, 175], [8.6, 139], [8.7, 155], [8.8, 172], [8.9, 168], [9.0, 178],
+  [9.1, 152], [9.2, 121], [9.3, 124], [9.4, 113], [9.5, 108], [9.6, 98], [9.7, 89],
+  [9.8, 52], [9.9, 30]]'
+sentence_pairs: 149212
+src_bytes: 28841588
+src_chars: 28381179
+src_pii: 235
+src_tokens: 6863073
+unique_sents: 116660
+src_sent_tokens: '[[1, 5238], [2, 4391], [3, 7639], [4, 3707], [5, 5053], [6, 5163],
+  [7, 5047], [8, 4475], [9, 2977], [10, 2739], [11, 2395], [12, 2172], [13, 2144],
+  [14, 2584], [15, 3683], [16, 3403], [17, 3082], [18, 2644], [19, 2489], [20, 1879],
+  [21, 1535], [22, 1358], [23, 1353], [24, 1225], [25, 1260], [26, 1093], [27, 1100],
+  [28, 2303], [29, 1177], [30, 1054], [31, 1116], [32, 1001], [33, 969], [34, 871],
+  [35, 979], [36, 1045], [37, 1042], [38, 1067], [39, 1063], [40, 1039], [41, 900],
+  [42, 1008], [43, 1049], [44, 937], [45, 904], [46, 881], [47, 925], [48, 1059],
+  [49, 912], [50, 875], [51, 850], [52, 783], [53, 774], [54, 865], [55, 822], [56,
+  836], [57, 789], [58, 849], [59, 787], [60, 790], [61, 723], [62, 698], [63, 702],
+  [64, 725], [65, 655], [66, 692], [67, 606], [68, 651], [69, 573], [70, 593], [71,
+  552], [72, 546], [73, 533], [74, 517], [75, 480], [76, 495], [77, 433], [78, 491],
+  [79, 462], [80, 451], [81, 378], [82, 380], [83, 372], [84, 401], [85, 391], [86,
+  346], [87, 370], [88, 347], [89, 395], [90, 334], [91, 337], [92, 342], [93, 357],
+  [94, 305], [95, 321], [96, 315], [97, 293], [98, 308], [99, 298], [100, 294], [101,
+  239], [102, 251], [103, 255], [104, 251], [105, 234], [106, 227], [107, 252], [108,
+  245], [109, 237], [110, 247], [111, 249], [112, 203], [113, 216], [114, 208], [115,
+  203], [116, 215], [117, 196], [118, 185], [119, 195], [120, 192], [121, 177], [122,
+  186], [123, 182], [124, 161], [125, 188], [126, 152], [127, 151], [128, 158], [129,
+  133], [130, 156], [131, 132], [132, 143], [133, 166], [134, 144], [135, 177], [136,
+  141], [137, 137], [138, 144], [139, 133], [140, 147], [141, 128], [142, 117], [143,
+  114], [144, 125], [145, 104], [146, 122], [147, 123], [148, 106], [149, 100], [150,
+  107], [151, 119], [152, 122], [153, 107], [154, 107], [155, 113], [156, 118], [157,
+  106], [158, 85], [159, 86], [160, 117], [161, 89], [162, 89], [163, 92], [164, 92],
+  [165, 85], [166, 95], [167, 87], [168, 65], [169, 86], [170, 82], [171, 64], [172,
+  84], [173, 58], [174, 67], [175, 79], [176, 64], [177, 70], [178, 74], [179, 63],
+  [180, 58], [181, 59], [182, 63], [183, 48], [184, 71], [185, 48], [186, 38], [187,
+  53], [188, 68], [189, 57], [190, 48], [191, 59], [192, 62], [193, 56], [194, 61],
+  [195, 48], [196, 59], [197, 56], [198, 58], [199, 58], [200, 57], [201, 57], [202,
+  58], [203, 58], [204, 36], [205, 41], [206, 51], [207, 33], [208, 43], [209, 48],
+  [210, 42], [211, 40], [212, 42], [213, 44], [214, 50], [215, 43], [216, 44], [217,
+  36], [218, 38], [219, 33], [220, 42], [221, 36], [222, 42], [223, 36], [224, 51],
+  [225, 29], [226, 34], [227, 29], [228, 23], [229, 20], [230, 30], [231, 33], [232,
+  33], [233, 26], [234, 23], [235, 34], [236, 30], [237, 32], [238, 34], [239, 35],
+  [240, 21], [241, 20], [242, 29], [243, 34], [244, 17], [245, 30], [246, 20], [247,
+  23], [248, 20], [249, 23], [250, 27], [251, 22], [252, 19], [253, 14], [254, 16],
+  [255, 24], [256, 16], [257, 17], [258, 21], [259, 20], [260, 24], [261, 24], [262,
+  26], [263, 16], [264, 22], [265, 23], [266, 12], [267, 21], [268, 18], [269, 9],
+  [270, 17], [271, 20], [272, 18], [273, 12], [274, 12], [275, 10], [276, 9], [277,
+  17], [278, 18], [279, 16], [280, 18], [281, 17], [282, 13], [283, 15], [284, 15],
+  [285, 14], [286, 12], [287, 8], [288, 12], [289, 9], [290, 13], [291, 15], [292,
+  17], [293, 6], [294, 7], [295, 10], [296, 11], [297, 10], [298, 17], [299, 14],
+  [300, 11], [301, 13], [302, 10], [303, 7], [304, 8], [305, 7], [306, 10], [307,
+  19], [308, 9], [309, 15], [310, 10], [311, 8], [312, 6], [313, 9], [314, 9], [315,
+  7], [316, 5], [317, 7], [318, 12], [319, 12], [320, 6], [321, 5], [322, 10], [323,
+  7], [324, 7], [325, 7], [326, 5], [327, 16], [328, 16], [329, 9], [330, 12], [331,
+  7], [332, 7], [333, 10], [334, 11], [335, 6], [336, 7], [337, 7], [338, 5], [339,
+  7], [340, 4], [341, 2], [342, 7], [343, 7], [344, 5], [345, 2], [346, 1], [347,
+  4], [348, 5], [349, 3], [350, 7], [351, 7], [352, 5], [353, 2], [354, 5], [355,
+  6], [356, 7], [357, 5], [358, 3], [359, 2], [360, 8], [361, 6], [362, 5], [363,
+  2], [364, 3], [365, 11], [366, 5], [367, 6], [368, 7], [370, 5], [371, 7], [372,
+  3], [373, 4], [374, 9], [376, 3], [377, 5], [378, 6], [379, 5], [380, 5], [381,
+  6], [382, 6], [383, 4], [384, 4], [385, 3], [386, 4], [387, 4], [388, 6], [389,
+  6], [390, 1], [391, 5], [392, 4], [394, 3], [395, 3], [396, 3], [397, 2], [398,
+  3], [399, 6], [400, 2], [401, 4], [402, 6], [403, 2], [404, 1], [405, 2], [406,
+  4], [408, 5], [409, 2], [410, 3], [411, 1], [412, 1], [413, 1], [414, 2], [415,
+  5], [416, 2], [417, 2], [418, 4], [419, 4], [420, 3], [421, 3], [422, 3], [423,
+  1], [424, 1], [425, 1], [426, 3], [427, 2], [428, 5], [429, 4], [430, 1], [431,
+  2], [432, 1], [433, 1], [434, 4], [435, 3], [436, 3], [437, 1], [438, 3], [439,
+  2], [440, 2], [441, 3], [442, 2], [443, 3], [444, 8], [445, 1], [446, 4], [448,
+  1], [449, 3], [450, 1], [452, 4], [453, 1], [456, 2], [457, 1], [458, 1], [459,
+  4], [461, 2], [462, 5], [463, 3], [464, 4], [465, 2], [466, 1], [467, 2], [468,
+  2], [469, 2], [470, 2], [472, 1], [473, 1], [474, 5], [475, 3], [476, 2], [477,
+  1], [479, 1], [480, 1], [481, 1], [482, 5], [483, 1], [484, 2], [486, 1], [487,
+  3], [488, 1], [490, 2], [493, 1], [495, 1], [496, 4], [497, 4], [498, 1], [499,
+  1], [500, 2], [501, 5], [503, 2], [504, 4], [505, 2], [507, 2], [509, 3], [510,
+  3], [511, 3], [512, 1], [516, 3], [520, 1], [521, 3], [522, 1], [523, 3], [524,
+  2], [525, 2], [526, 5], [527, 3], [528, 4], [529, 1], [531, 3], [532, 5], [533,
+  2], [534, 5], [535, 2], [536, 4], [537, 3], [538, 2], [539, 4], [540, 2], [541,
+  4], [542, 3], [544, 1], [545, 3], [546, 5], [547, 2], [548, 4], [549, 3], [550,
+  3], [551, 3], [552, 4], [553, 7], [554, 7], [555, 7], [556, 4], [557, 7], [558,
+  3], [559, 3], [560, 12], [561, 3], [562, 8], [563, 12], [564, 5], [565, 9], [566,
+  6], [567, 5], [568, 6], [569, 9], [570, 10], [571, 3], [572, 8], [573, 7], [574,
+  8], [575, 5], [576, 8], [577, 7], [578, 5], [579, 10], [580, 4], [581, 6], [582,
+  11], [583, 2], [584, 7], [585, 7], [586, 10], [587, 4], [588, 4], [589, 5], [590,
+  5], [591, 4], [592, 7], [593, 4], [594, 7], [595, 6], [596, 8], [597, 7], [598,
+  10], [599, 6], [600, 8], [601, 10], [602, 5], [603, 6], [604, 8], [605, 8], [606,
+  11], [607, 5], [608, 6], [609, 6], [610, 9], [611, 3], [612, 8], [613, 8], [614,
+  11], [615, 3], [616, 4], [617, 3], [618, 5], [619, 7], [620, 4], [621, 3], [622,
+  5], [623, 3], [624, 2], [625, 3], [626, 2], [627, 5], [628, 2], [629, 4], [631,
+  2], [632, 2], [633, 1], [634, 1], [635, 3], [636, 2], [639, 1], [640, 1], [641,
+  1], [646, 1], [647, 4], [648, 1], [649, 1], [650, 1], [652, 1], [653, 1], [655,
+  1], [657, 1], [662, 1], [663, 2], [666, 1], [675, 1], [680, 1], [690, 1], [695,
+  2], [697, 1], [700, 1], [706, 1], [710, 1], [715, 1], [719, 1], [724, 1], [728,
+  1], [732, 1], [735, 3], [745, 1], [749, 1], [756, 1], [758, 1], [773, 1], [790,
+  1], [791, 1], [799, 1], [804, 1], [807, 2], [817, 1], [818, 1], [819, 1], [820,
+  1], [824, 1], [830, 1], [832, 1], [844, 1], [848, 1], [860, 1], [864, 1], [865,
+  1], [868, 1], [887, 1], [890, 1], [918, 1], [922, 1], [940, 1], [954, 1], [967,
+  1], [970, 1], [972, 1], [976, 1], [992, 1], [1013, 1], [1023, 1], [1029, 1], [1035,
+  1], [1052, 1], [1101, 3], [1187, 2], [1241, 1], [1254, 1], [1261, 1], [1272, 1],
+  [1310, 1], [1315, 1], [1335, 1], [1369, 1], [1399, 1], [1502, 1], [1539, 1], [1602,
+  1], [1615, 1], [1651, 1], [1662, 1], [1712, 1], [1735, 1], [1740, 1], [1763, 1],
+  [1770, 1], [1878, 1], [1887, 1], [1934, 1], [2012, 1], [2013, 1], [2045, 1], [2153,
+  1], [2264, 1], [2386, 1], [2495, 1], [2565, 1], [2685, 1], [2776, 1], [2911, 1],
+  [3039, 1], [3444, 2], [3594, 1], [3769, 1], [4337, 1], [4742, 1], [4764, 1], [4849,
+  1], [4875, 1], [4971, 1], [5641, 1], [6499, 1], [7197, 1], [8578, 1], [8784, 1],
+  [13840, 1], [18634, 1]]'
+src_sent_tokens_mean: 46
+src_sent_tokens_median: 22
+src_unique_sents: '[[1, 1145], [2, 1229], [3, 1921], [4, 2515], [5, 4099], [6, 4025],
+  [7, 3767], [8, 3097], [9, 2468], [10, 2200], [11, 2028], [12, 1917], [13, 1766],
+  [14, 2173], [15, 3100], [16, 2587], [17, 2721], [18, 2406], [19, 1940], [20, 1545],
+  [21, 1323], [22, 1208], [23, 1049], [24, 1021], [25, 994], [26, 965], [27, 993],
+  [28, 982], [29, 981], [30, 961], [31, 936], [32, 900], [33, 868], [34, 795], [35,
+  876], [36, 909], [37, 889], [38, 882], [39, 925], [40, 858], [41, 799], [42, 865],
+  [43, 936], [44, 841], [45, 823], [46, 819], [47, 862], [48, 853], [49, 847], [50,
+  826], [51, 798], [52, 726], [53, 729], [54, 776], [55, 780], [56, 775], [57, 736],
+  [58, 776], [59, 731], [60, 735], [61, 669], [62, 650], [63, 648], [64, 666], [65,
+  614], [66, 643], [67, 563], [68, 598], [69, 536], [70, 539], [71, 520], [72, 507],
+  [73, 502], [74, 492], [75, 449], [76, 460], [77, 408], [78, 455], [79, 429], [80,
+  401], [81, 357], [82, 362], [83, 347], [84, 375], [85, 358], [86, 326], [87, 350],
+  [88, 320], [89, 366], [90, 308], [91, 308], [92, 315], [93, 324], [94, 285], [95,
+  305], [96, 286], [97, 277], [98, 289], [99, 275], [100, 276], [101, 227], [102,
+  234], [103, 244], [104, 230], [105, 222], [106, 216], [107, 233], [108, 230], [109,
+  221], [110, 226], [111, 225], [112, 194], [113, 199], [114, 196], [115, 191], [116,
+  196], [117, 184], [118, 177], [119, 185], [120, 169], [121, 158], [122, 171], [123,
+  165], [124, 152], [125, 171], [126, 146], [127, 144], [128, 143], [129, 126], [130,
+  146], [131, 121], [132, 130], [133, 154], [134, 138], [135, 160], [136, 134], [137,
+  125], [138, 130], [139, 120], [140, 140], [141, 119], [142, 110], [143, 107], [144,
+  119], [145, 96], [146, 112], [147, 115], [148, 88], [149, 91], [150, 102], [151,
+  111], [152, 114], [153, 100], [154, 101], [155, 102], [156, 103], [157, 97], [158,
+  81], [159, 80], [160, 107], [161, 84], [162, 82], [163, 86], [164, 85], [165, 80],
+  [166, 87], [167, 77], [168, 62], [169, 81], [170, 75], [171, 56], [172, 74], [173,
+  56], [174, 62], [175, 73], [176, 56], [177, 65], [178, 71], [179, 61], [180, 58],
+  [181, 55], [182, 59], [183, 45], [184, 68], [185, 44], [186, 38], [187, 49], [188,
+  64], [189, 52], [190, 44], [191, 56], [192, 60], [193, 52], [194, 56], [195, 46],
+  [196, 55], [197, 54], [198, 55], [199, 53], [200, 53], [201, 51], [202, 52], [203,
+  54], [204, 36], [205, 40], [206, 48], [207, 33], [208, 35], [209, 46], [210, 38],
+  [211, 38], [212, 39], [213, 41], [214, 46], [215, 43], [216, 43], [217, 36], [218,
+  38], [219, 32], [220, 37], [221, 33], [222, 39], [223, 35], [224, 39], [225, 27],
+  [226, 34], [227, 29], [228, 21], [229, 20], [230, 29], [231, 32], [232, 30], [233,
+  24], [234, 22], [235, 32], [236, 30], [237, 26], [238, 32], [239, 31], [240, 21],
+  [241, 18], [242, 29], [243, 32], [244, 17], [245, 26], [246, 19], [247, 23], [248,
+  20], [249, 21], [250, 26], [251, 20], [252, 19], [253, 13], [254, 16], [255, 24],
+  [256, 15], [257, 17], [258, 21], [259, 17], [260, 23], [261, 21], [262, 25], [263,
+  15], [264, 22], [265, 20], [266, 12], [267, 20], [268, 18], [269, 9], [270, 15],
+  [271, 19], [272, 18], [273, 12], [274, 12], [275, 10], [276, 8], [277, 17], [278,
+  16], [279, 15], [280, 18], [281, 16], [282, 12], [283, 12], [284, 14], [285, 14],
+  [286, 12], [287, 8], [288, 12], [289, 9], [290, 12], [291, 15], [292, 15], [293,
+  6], [294, 7], [295, 10], [296, 10], [297, 10], [298, 14], [299, 12], [300, 11],
+  [301, 13], [302, 9], [303, 7], [304, 8], [305, 6], [306, 8], [307, 19], [308, 9],
+  [309, 15], [310, 10], [311, 8], [312, 6], [313, 8], [314, 9], [315, 6], [316, 5],
+  [317, 7], [318, 12], [319, 11], [320, 6], [321, 5], [322, 8], [323, 7], [324, 7],
+  [325, 7], [326, 5], [327, 15], [328, 16], [329, 8], [330, 12], [331, 7], [332, 7],
+  [333, 8], [334, 8], [335, 5], [336, 7], [337, 7], [338, 5], [339, 5], [340, 4],
+  [341, 2], [342, 6], [343, 5], [344, 5], [345, 2], [346, 1], [347, 4], [348, 5],
+  [349, 3], [350, 7], [351, 7], [352, 5], [353, 2], [354, 5], [355, 6], [356, 6],
+  [357, 5], [358, 3], [359, 1], [360, 8], [361, 6], [362, 5], [363, 2], [364, 3],
+  [365, 7], [366, 4], [367, 4], [368, 5], [370, 5], [371, 7], [372, 3], [373, 4],
+  [374, 7], [376, 3], [377, 5], [378, 5], [379, 5], [380, 5], [381, 6], [382, 6],
+  [383, 4], [384, 4], [385, 3], [386, 4], [387, 4], [388, 6], [389, 6], [390, 1],
+  [391, 5], [392, 4], [394, 3], [395, 3], [396, 3], [397, 2], [398, 3], [399, 6],
+  [400, 2], [401, 4], [402, 5], [403, 2], [404, 1], [405, 2], [406, 4], [408, 3],
+  [409, 2], [410, 3], [411, 1], [412, 1], [413, 1], [414, 2], [415, 4], [416, 2],
+  [417, 2], [418, 3], [419, 3], [420, 3], [421, 3], [422, 3], [423, 1], [424, 1],
+  [425, 1], [426, 2], [427, 2], [428, 5], [429, 4], [430, 1], [431, 2], [432, 1],
+  [433, 1], [434, 4], [435, 3], [436, 3], [437, 1], [438, 3], [439, 1], [440, 2],
+  [441, 3], [442, 2], [443, 3], [444, 6], [445, 1], [446, 4], [448, 1], [449, 2],
+  [450, 1], [452, 4], [453, 1], [456, 2], [457, 1], [458, 1], [459, 3], [461, 2],
+  [462, 3], [463, 3], [464, 4], [465, 2], [466, 1], [467, 2], [468, 2], [469, 2],
+  [470, 2], [472, 1], [473, 1], [474, 5], [475, 2], [476, 2], [477, 1], [479, 1],
+  [480, 1], [481, 1], [482, 5], [483, 1], [484, 2], [486, 1], [487, 3], [488, 1],
+  [490, 2], [493, 1], [495, 1], [496, 4], [497, 4], [498, 1], [499, 1], [500, 2],
+  [501, 3], [503, 2], [504, 4], [505, 2], [507, 2], [509, 2], [510, 2], [511, 3],
+  [512, 1], [516, 3], [520, 1], [521, 3], [522, 1], [523, 3], [524, 2], [525, 2],
+  [526, 5], [527, 3], [528, 4], [529, 1], [531, 3], [532, 5], [533, 2], [534, 5],
+  [535, 2], [536, 4], [537, 3], [538, 2], [539, 4], [540, 2], [541, 4], [542, 3],
+  [544, 1], [545, 3], [546, 5], [547, 2], [548, 4], [549, 3], [550, 3], [551, 3],
+  [552, 4], [553, 7], [554, 7], [555, 7], [556, 4], [557, 7], [558, 3], [559, 3],
+  [560, 12], [561, 3], [562, 8], [563, 12], [564, 5], [565, 9], [566, 6], [567, 5],
+  [568, 6], [569, 9], [570, 10], [571, 3], [572, 7], [573, 7], [574, 8], [575, 5],
+  [576, 8], [577, 7], [578, 5], [579, 10], [580, 4], [581, 6], [582, 11], [583, 2],
+  [584, 7], [585, 7], [586, 10], [587, 4], [588, 4], [589, 5], [590, 5], [591, 4],
+  [592, 7], [593, 4], [594, 7], [595, 6], [596, 8], [597, 7], [598, 9], [599, 6],
+  [600, 8], [601, 10], [602, 5], [603, 6], [604, 8], [605, 8], [606, 11], [607, 5],
+  [608, 6], [609, 6], [610, 9], [611, 3], [612, 8], [613, 8], [614, 11], [615, 3],
+  [616, 4], [617, 3], [618, 5], [619, 7], [620, 4], [621, 3], [622, 5], [623, 3],
+  [624, 2], [625, 3], [626, 2], [627, 5], [628, 2], [629, 4], [631, 2], [632, 2],
+  [633, 1], [634, 1], [635, 3], [636, 2], [639, 1], [640, 1], [641, 1], [646, 1],
+  [647, 4], [648, 1], [649, 1], [650, 1], [652, 1], [653, 1], [655, 1], [657, 1],
+  [662, 1], [663, 2], [666, 1], [675, 1], [680, 1], [690, 1], [695, 2], [697, 1],
+  [700, 1], [706, 1], [710, 1], [715, 1], [719, 1], [724, 1], [728, 1], [732, 1],
+  [735, 3], [745, 1], [749, 1], [756, 1], [758, 1], [773, 1], [790, 1], [791, 1],
+  [799, 1], [804, 1], [807, 2], [817, 1], [818, 1], [819, 1], [820, 1], [824, 1],
+  [830, 1], [832, 1], [844, 1], [848, 1], [860, 1], [864, 1], [865, 1], [868, 1],
+  [887, 1], [890, 1], [918, 1], [922, 1], [940, 1], [954, 1], [967, 1], [970, 1],
+  [972, 1], [976, 1], [992, 1], [1013, 1], [1023, 1], [1029, 1], [1035, 1], [1052,
+  1], [1101, 1], [1187, 2], [1241, 1], [1254, 1], [1261, 1], [1272, 1], [1310, 1],
+  [1315, 1], [1335, 1], [1369, 1], [1399, 1], [1502, 1], [1539, 1], [1602, 1], [1615,
+  1], [1651, 1], [1662, 1], [1712, 1], [1735, 1], [1740, 1], [1763, 1], [1770, 1],
+  [1878, 1], [1887, 1], [1934, 1], [2012, 1], [2013, 1], [2045, 1], [2153, 1], [2264,
+  1], [2386, 1], [2495, 1], [2565, 1], [2685, 1], [2776, 1], [2911, 1], [3039, 1],
+  [3444, 1], [3594, 1], [3769, 1], [4337, 1], [4742, 1], [4764, 1], [4849, 1], [4875,
+  1], [4971, 1], [5641, 1], [6499, 1], [7197, 1], [8578, 1], [8784, 1], [13840, 1],
+  [18634, 1]]'
+src_langs: '[["en", 54799], ["tl", 38359], ["war", 10299], ["id", 6171], ["it", 4756],
+  ["zh", 3762], ["ms", 3422], ["de", 2827], ["ceb", 2066], ["sw", 2026], ["es", 1787],
+  ["ilo", 1704], ["sv", 1694], ["hr", 1573], ["fr", 1566], ["ru", 1375], ["my", 1074],
+  ["pl", 959], ["fi", 882], ["eo", 781], ["jbo", 444], ["nl", 433], ["sl", 416], ["pt",
+  369], ["ur", 365], ["ja", 327], ["jv", 283], ["hu", 266], ["ro", 252], ["ia", 247],
+  ["eu", 236], ["cy", 226], ["su", 213], ["cs", 180], ["sr", 155], ["sq", 153], ["ca",
+  141], ["la", 140], ["lt", 131], ["et", 131], ["br", 126], ["nds", 122], ["tr", 121],
+  ["qu", 108], ["nb", 107], ["vi", 97], ["oc", 97], ["bs", 62], ["ht", 60], ["da",
+  58], ["fa", 56], ["pam", 53], ["uk", 52], ["ml", 52], ["ko", 51], ["kn", 51], ["gd",
+  51], ["el", 50], ["lv", 48], ["pms", 44], ["uz", 43], ["scn", 41], ["kw", 37], ["lb",
+  36], ["rm", 33], ["th", 31], ["sk", 31], ["is", 28], ["mg", 26], ["ta", 24], ["sco",
+  24], ["mt", 23], ["sc", 21], ["cbk", 21], ["io", 20], ["gl", 20], ["gn", 18], ["wa",
+  17], ["als", 14], ["gu", 13], ["az", 13], ["ku", 12], ["vo", 11], ["vec", 11], ["so",
+  10], ["tg", 9], ["pnb", 9], ["hsb", 9], ["hi", 9], ["bcl", 9], ["bar", 9], ["ar",
+  9], ["te", 8], ["nn", 8], ["bn", 8], ["ast", 8], ["min", 7], ["lmo", 7], ["nap",
+  6], ["af", 6], ["fy", 5], ["mk", 4], ["ky", 4], ["hy", 4], ["he", 4], ["nah", 3],
+  ["ie", 3], ["diq", 3], ["yue", 2], ["tt", 2], ["pa", 2], ["ne", 2], ["mn", 2], ["kv",
+  2], ["gom", 2], ["bo", 2], ["yo", 1], ["wuu", 1], ["vls", 1], ["si", 1], ["mr",
+  1], ["km", 1], ["ka", 1], ["ga", 1], ["bh", 1], ["azb", 1], ["an", 1]]'
+hardrules_tags: '{"not_too_long": 2360, "not_too_short": 15404, "length_ratio": 0,
+  "no_urls": 2679, "no_bad_encoding": 10, "pii": 235}'
+sample: '["\"Lam masum tara shaja shateng\u201dna hte\u201cDinghpring sanseng lit
+  la\u201dlaksan sharin shapan magam mu sung chyung galo hkrat wa\\n\u6df1\u5165\u5f00\u5c55\u201c\u4e09\u4e25\u4e09\u5b9e\u201d\u548c\u201c\u5fe0\u8bda\u5e72\u51c0\u62c5\u5f53\u201d\u4e13\u9898\u6559\u80b2
+  \u5fb7\u5b8f\u4f20\u5a92\u96c6\u56e2\\n\u65f6\u95f4:2015-02-05 15:51:30 \u6765\u6e90:\u5fb7\u5b8f\u56e2\u7ed3\u62a5\\nSakhkung
+  shi wunhpom ni\\nMadu dap shiga Sakhkung shi wunhpom ni shata 2 pro 2 ya shana de\u201cLam
+  masum tara shaja shateng\u201dna hte\u201cDinghpring sanseng lit la\u201dlaksan
+  sharin shapan magam mu lamang galo lai wa masai. Mungdo pati rapdo hko ndau dap
+  ningtau, Sakhkung shi wunhpom pati rapdo mu madu, ningbo gaba Tung Gya Yin go \u300aPati
+  hpe kam hpa madu hkum sanseng lait la\u300bnga ai mungga woi hko tsun u ai.\\nTung
+  Gya Yin go MIwa mung hkringhtong Ru gya ni a kunghpan laili hte hpong shingra masa
+  a akri madung ni gapyon nna, lom kop chyam bra ai hku nna nhpa go pati hpe kamhpa
+  ai lam ni tsun alun dan u ai. Shi myit lu ai, pati hpe kamhpa ai ngu ai go, pati
+  a magam bungli amanu sha sharot zinghka la lu na a mung masa ama hkam re hta n-ga,
+  shi dap wunhpom na ganbu hpung go maden sa wa ai hta n hparan gaja n mai re manghkang
+  mung no rai nga ai. Pati masha ni go Male masa , Mau Ze Tung myit jasat, Miwa mung
+  lak sam rong ai hpong shingra masa a gamung, Si Gyin Hpyin dinghku mu madu a ahkyak
+  mungga re ni sharin shaja la ra nga ai.Hkrun lam hta kamhpa, mmungga hta kamhpa,
+  htung tara hta kamhpa, pati hpe kamhpa rai ra ai.\\nTung Gya yin myit lu ai, sanseng
+  ai ngu ai go pati ganbu ni ngang grin nga na a npot re, anhte go\u201cLani mi madu
+  hpe grit htum masum lang jep yu ra ai\u201d,shawa masha hpe hkrit hkungga,asat tara
+  hpe hkrit hkungga, hpongchyong hpe hkrit hkungga, ahko ahkang hpe hkrit hkungga
+  rai nhtom, sutgan ja gumhpro lam hta sanseng ra ai nga u ai.\\nShi no tsun ai, pati
+  masha ni go magam bungli a man e kui kui sha alit gun hpai ra ai, shi go moi prat
+  hte ya prat na byin lai wa sai kui kui sha galo ai share shagan ni a lam ni lo lo
+  hkai dan lai wa sai.\"", "\"Monday, December 3, 2012\\nMASAT SHADAW (5,6) HTA MYEN
+  (30) RAM SI\\n(Jinghpawkasa)\\nDecember praw (1) ya jahpawt hkying (8:00AM) ten\\nkawn
+  shani ka-ang hkyin g(12:00PM) ram du hkra Jinghpaw Mung Pangwa, Masat\\nshadaw (5
+  hte 6) hta KIA myu tsaw share ninghkring ni hte myen tai hpyen hpung\\nni laja lana
+  gap gasat lai wa sai lam shiga na chye lu ai. N dai zawn gap gasat\\nai hta myen
+  hpyen maga na marai (30) jan si hkala hkrum wa sai lam shiga na\\nchye lu ai. Myu
+  tsaw share ninghkring ni maga na mung marai (15) ram loi li\\nhkala ai lam hpe mung
+  na chye lu ai.\\nNo comments:\\nPost a Comment\\nComment \u1019\u103a\u102c\u1038\u1000\u102f\u102d
+  \u1005\u102e\u1005\u1005\u1039\u103b\u1015\u102e\u1038 \u1010\u1004\u1039\u1031\u1015\u1038\u1015\u102b\u1019\u100a\u1039\u104b
+  \u1019\u102f\u102d\u1000\u1039\u101b\u102f\u102d\u1004\u1039\u1038\u1031\u101e\u102c\u104a
+  \u101c\u1030\u101e\u102c\u1038\u1019\u1006\u1014\u1039\u1031\u101e\u102c Commet
+  \u1019\u103a\u102c\u1038 \u1010\u1004\u1039\u1019\u1031\u1015\u1038\u1015\u102b\u104b\"",
+  "\"Dec 6 kaw na 10 ya du hkra Malaysia Mungdan Langkawi hta galaw ai \\\"The 11th
+  Langkawi International Maritime and Aerospace Exhibition 2011 (LIMA -11)\\\" lamang
+  hta Myen Mung a Dap Awn Daju rung na ningtau lit hkam Lat Du Up Jum Daju Hla Hte
+  Win wa du nga ai re. Shi gaw laksan hku n-na Myitkyina Dap kaw na Du Daju Oo Kyaw
+  hte Myen Mung Hka Dap Lit Hkam Du Daju Jum Thura Thet Swe hpe mung woi mat ai lam
+  shiga na chye lu ai. Shanhte hpung ni gaw ya yang Malaysia mungdan Lankawi kaw rai
+  nga ai lam shiga na lu ga ai.\\nBy: facebook Jabrang\"", "\"Jinghpo Wunpong sha
+  ni Manau manau ai lam\\n\u76ee\u7459\u7eb5\u6b4c\u8282\u7684\u8d77\u6e90\\nAlat
+  Gun Awng\\nMaumui hta hta, moi jan makum gaiwang gaJan wa n ingsangtang shong manau
+  ai da. dai go sut manau rai nna manaua a ningpot mung rai sai. Manau hkringhtong
+  dai hpe Ninggon wa Magam matut ginlen la nu ai da.\\nDaini a nhte manau ai manau
+  hkringhtong go U manau hpe Sut wa madu hte Jan Ja jan hkringhkong matut ginlen la
+  ai hpe manau lang ga ai re.\\nManau a ningpot go Sut manau rai sai sai, Ju manau
+  dum ai ngu ai go Sut manau dum ai hpe tsun ai sha re, hpa majo nga yang, sut manau
+  dum ai shani wuju wulang galo nna dum ai hpe tsun mayu nga ai. Manau woi ai hpe
+  mung nau shong kumdo she nga ma ai. Nau shong naupyen kumdo kum yang nga ma ai.
+  nau shong wa go shong ko manau woi ai wa rai, Kumdo wa go manau maka ka ai shaloi
+  nau shong wea hte shingrau nna manau maka galo, manau manau ai shawa ni hkan re
+  wa rai sai. Naupa ngu ai go masha n rai, manau manau ai shawa masha ni ka manaot
+  ai layit shapa lang nna ka ai manaot ai hpe tsun ai rai nga ai.\\nJinghpo Wunpong
+  sha ni Manau manau ai lam\\nU hkyi hpro ana tsi ladat\\nWa gasha yo rem yang \u201cLadat
+  3\u201dgalo du ra ai\\nKahkum si a akyu Nang sha yu jang chye sai\\nSumla shiga\\n\u56fe\u7247\u65b0\u95fb\\nBa-da
+  jong gaji ni jongma ni hpe shani shagu hkumhkrang shaman shakyang lam woi galo ma
+  ai\\n\u5df4\u8fbe\u5c0f\u5b66\u4e3e\u884c\u5b66\u751f\u8fd0\u52a8\u4f1a\\nLapran
+  tsang jong hte jong gaji ni wunli makop lam sharin la ma ai\\n\u4e2d\u5c0f\u5b66\u6821\u542f\u52a8\u6821\u56ed\u5b89\u5168\u5468\u6d3b\u52a8\\nSunla
+  shiga\\n\u56fe\u7247\u65b0\u95fb\\nHo Ru Li hpung woi nna Ma-lung ginwang ko ren
+  lu rem sha mu sa woi yu sharin achyin la hkom u ai\\n\u4f55\u6c5d\u5229\u7387\u961f\u8d74\u9a6c\u9f99\u53bf\u8003\u5bdf\u5b66\u4e60\u755c\u7267\\nMungdo
+  gaba asuya ni anhte mungdo na wan dat rung gaji gaba galo nna dum nta htot ai mung
+  masha ni a sat lawat hpe wa jep dup hkom ma ai\\n\u7701\u653f\u5e9c\u8c03\u7814\u6211\u5dde\u5927\u4e2d\u578b\u6c34\u7535\u7ad9\u5de5\u7a0b\"",
+  "\"Ndai hpawmi yan gaw N.Z kaw du ai J.W sak kung nu num ni hta na shawng nnan shagrau
+  lekmat National certificate of hosipitality hpe hkam la lu ai yan re.\\nshan yan
+  gaw NZ kaw du ai 2 ning jan sha naw rai ma ai rai tim ya na zawn asak gaba tim myit
+  n-shayawm ai sha shakut shaja lu ai gaw grai nan arawng la hpa rai nga ai.\\nMaga
+  mi de bai yu ga nga yang dai ni NZ kaw du ai ahte J.w sha ni gaw hpaji shakut ai
+  lam hta laga myen mung masha ni hte tsa lam shadang shing daw yu yang No 1 re ngu
+  mu mada ai hpa majaw nga yang anhte ni masha jahpan kachyi sha naw re.\\nYa ten
+  hta nz kaw du nga ai J.W sha ni hta bachelor of nursing hpe sharin nga ai numsha
+  lahkawng, engineering numsha langai , electrical engineering sharin nga ai lasha
+  lahkawng re. Sak naw ram ai ramma ni malawng mung college madang kaw hpaji sharin
+  nga ai hkrai re, NZ mung dan gaw hpaji sharin la na matu gra htap htuk ai mungdan
+  langai mung rai nga ai.\\n0 Responses to N Z du J.w sha ni a hpaji masa\"", "\"Jinghpaw
+  Wunpawng Myu Sha Yawng Hpang De,\\nSharin la mai ai hta ; -\\n1. Hkai lu hkai sha
+  lam hta Rubbers hte kaga hkai hpan ni hpe Hpungtang Sharin Sara (Technician) byin
+  hkra shakut nna atsawm sha ladat jaw jaw hkai lu hkai sha nga ma ai. Dai majaw Myeng
+  Mungdan kata kaga Mungdaw ni hta grau lu sut lu su, nga mu nga mai nga ma ai.\\n2.
+  Amyu Sha lam yan hta grai shakut shaja ma ai (Nationalism Strong). Buga Kahtawng
+  Ningchyawng hkan shanhte a A Ga, Laika, Htunghkying ni hpe grai manu shadan ai.
+  (Ga shadawn : Mare Kahtawng ni hta Myen ga pyi n-ga shangun ma ai. N kau shara hkan
+  Myen ga ga ai ni hpe rim jep ai, adup zingri ai, Myen jet yang pyi sat kau ai daram
+  re. Myen Amyu hpe Mare hkan n-jashawn ma ai.)\\n3. Htunghkying lam hta mung grai
+  manu shadan ai. Shanhte Mungdaw hta Laban hpang bat (1) ya hte bat (5) ya shani
+  hpe Htunghkying bu hpun sumraw Nhtoi masat nhtawm, dai shani hta Num/La/Ram n-nga
+  Mon Htunghkying Labu Palawng ni hpe bu hpun nga ma ai.\\n4. Amyu Sha ni yawng mung
+  grai myit hkrum gahkyin gumdin ma ai. (Ga shadawn : Mung Masa Party hpe langai sha
+  hpaw ninghtan nna, Ra Lata Poi ni hpe shanhte a Party hpe sha \u201cMe\u201d jaw
+  nga ma ai. Dai majaw Mungdaw Rapdaw hta Mon Amyu Sha ni \u201cWun Gyi\u201d law
+  law shara lu ma ai.\\n5. Ya ten Mon Laknak lang Wuhpung rai nga ai \u201cMon Pyi
+  Thit Party\u201d Uphkang Ginra ni hta shanhte a \u201cMyu Sha Dawnghkawn Sharawt
+  ai Lamang\u201d hpe jahpawt shagu sinat gap kapaw let Mung Shawa, Dap Shawa yawng
+  \u201cBau jaw\u201d nga ma ai. Ya du na February (8) ya shani ang ai \u201cMon National\u2019s
+  Day\u201d hpe mung Buga Ginra Kahtawng shagu hta Dumbu, Shap sheng dum let myit
+  hkrum mang rum \u201cMyit Sharawt ai magam bungli ni hpe\u201d wu wu di di galaw
+  let hkyen lajang nga ma ai.\\n6. Shanhte a moi na Labau Lasang ni hpe mung ya prat
+  na Ma ni, Ramma ni chye la hkan nang hkan sa lu na matu yaw shada let Myitsu Salang
+  ni, Wun Gyi ni, Dakkasu Sara/ma ni nan woi awn nna sawk shagawn nga ma ai. Lu shagawn
+  la sai Labau ni hpe Laika Buk byin hkra ka lajang nhtawm, Mung Shawa daw tsa chye
+  lu na matu \u201cResearch Hkaw Tsun Hpawng\u201d ni hpe galaw nga ma ai. Laika ka
+  ai wa du ai shaloi \u201cMasat yan (4) Hkaw Tsun Hpawng\u201d galaw ai hta sa du
+  shang lawm lu nngai. Dai hkaw tsun hpawng hta (a) Num wawn num la hte seng ai Labau;
+  (b) Laili laika hte seng ai Labau; (c) Htunghkying madum sumpyi hte seng ai Labau;
+  (d) Buga Ginra ni a nga sat/sa hte seng ai Labau; (e) Lai wa sai ten Jiwoi Jiwa
+  ni jai lang mat wa sai \u201cTara Masa\u201d Labau ni hpe hkaw tsun ai, shada htai
+  lai ai, jahkum shatsup ai lam ni galaw nga ma ai.\\nLahta na lam ni gaw Lawng lam
+  law law hta na Anhte Myu Sha ni mung sharin la mai ai ni hpe sha lata tang madun
+  da ai re. Mai la ai hpe shaw la nna, anhte hte n-htap htuk ai lam ni hpe gaw kabai
+  kau ga ngu mayu nngai. Laika ka ai wa sharin la lu ai zawn, Myu Wunpawng Sha ni
+  yawng hpe mung garan kachyan ai lam re. Yawng hpe Hkungga Tsawra let,\\nMyu Sha
+  lam yan hta,\\n(Kadaw Awng)\\n7 comments:\\nMyitsu salang wa ka ai laika grai kaja
+  nga ai.anhte mung Mun ni zawn myutsaw ai myit masin rawng nhtawm htung hking bu
+  hpun sumraw ai lam hta mung dai hku shakut shaja lu yang gaw grai htap htuk manu
+  na tai nga ga ai ngu hkamsha n-ngai law.\\nKADAW AWNG wa chyeju kaba ai Karai kasang
+  hpe nchye ai ni pyi an hte hpe kasi madun taw nga ai dai ni an hte karai kasang
+  hpe chye nna karai a ga nhkan nang ai amyu nbyin hkra mung naw shadum ka u yaw tinang
+  a makam masham hpe Karai Kasang gaw chyam dinglik nga ai hpe lawan myiut dum na
+  myit malai lu na dum hprang na gaw ahkyak dik re, karai kasang gaw numhpu kaw nna
+  hkaw hkam hkaw seng sha byin lu ai hpe mung naw ka ya u yaw ngai nau nchye ka ai
+  law .\\nlaika n dai lu hti yang ngai naw kaji ai shaloi hpe bai dum ai, dai hku
+  nang rai ra ai rai nga ai an hte myu ni gayau gaya rai ma wa sai, anhte lu galaw
+  ai lam gaw madu htung hking hte laika ni hpe jai lang na ten re, grai yu la gin
+  ai kasi ni re ngu mu ai hku re...\\nchye ju hte Mun myu sha ni Myu lakung kade wa
+  nga ma ai kun i?Tsun dan ma rit.Ngai mu mada ai gaw anhte WP myu sha ni kaw Myu
+  baw sang shada myit hkrum lam she No.1 shawng galaw ra na nhten.Myu lakung law n
+  na Myit hkrum marum rai nga ai kaga myu sha ni nga yang chyeju hte naw sawk tam
+  na tang madun ya rit ngu hpyi ngem dat n ngai.\\nChyeju kaba sai.\\nNgai gaw jw
+  htunghkying hte labau, laili laika hpe manu shadan ga ai.\\nMai kaja ai lam ni hpe
+  gaw kadai myusha ni kaw na rai tim sharin la ra ai law.Dusat yam nga ni kaw na rai
+  tim, mai kaja ai lam ni hpe gaw yu sharin la ra ga ai. Masha rai tim dusat ram pi
+  myit nrawng ai mung grai nga ma ai re.\\nHpu nau Mon myu ni mung moi labau hta gaw
+  Hkawhkam hte laili laika hte hkrak rai myu kaba hku nga lai wa sai ni re. Christan
+  makam lam hta mung sasana shawng du, christan shawng tai ai ni re. Rai tim, myen
+  sawa ni hte makam lam htunghkring lam ni hta nau ginkya kayau kau n na,myen ni e
+  mayu hkrum ai majaw kanoi htum wa nga ma ai. Thai mung de hprawng shang mat ai hte
+  myen tai mat hte rai tsam mari dum wa nna, rawt malan shakut ai hpe mu ai.\\nHtunghkring
+  ru sai lam hta gaw, anhte Shapawng Yawng Jinghpaw myu sha ni zawn rai, mayu dama
+  kashu kahkri, kahpu kanau nga n na nga pra wa ai, mungkan e kadai mung n nga sam
+  ma ai lo. N dai hkunghkring lai len gaw Karai Wa anhte Pawngyawng myu sha ni hpe
+  laksan hpan da ai lam nan re ngu hkam la ai. Dai majaw anhte myu ni n mat hkra,
+  anhte myu hpe makawp maga ga. Anhte htunghkring hpe jailang nga ga. Anhte myu sha
+  ga hpe galoi mung jailang shaga ga. Grau nna anhte Pawngyawng sha ni a buga ginra
+  ni hpe makawp maga shakut ga, ngu ga saw dat ai law.\\nKarai Kasang Yehowa a myitra
+  ai lam anhte Pawngyawng Jinghpaw myusha ni hta diktup wa u ga law. Anhte myusha
+  ni a myitra ai lam mung Karai Wa a myit ra ai lam hta diktup wa u ga law..\\nya
+  du hkra nau hkum ma na nga mu ,,law,,JW ram ma ni,,,online kaw na sha hkum ja thau
+  nga mu,,,naw hpu law law sha na ,,naw hka ja la ga,,,,\\nPost a Comment\"", "\"\u201c
+  Ndai aten hta mung masa pati hte rawt malan hpung ni myit mang shabawn ra ai aten
+  du nga sai\u201d\\nKachin national alliance party for democracy\\njinghpaw wunpawng
+  myu sha demokresi ginrun pati\\nMyen mung gaw 2008 gaw da tara upadi hkrang pru
+  wa ai hte rau, 2010 ra lata poi ngut ai hpang moi na hpyen dap up hkang ai gum shem
+  hpyen du ni n-teng man ai hku dang la lu nna asuya hkrang ngu gaw gap dat masai.
+  Mung kan ting garu nga ai gaw Myen mung dan hta demokresi masa galai shai ai lam
+  ning gam tsaw wa sai nga nna gajai nga ma ai. Teng teng gaw Myen mung dan gaw jet
+  ai \u201cfederal democracy\u201d mung dan byin tai lu na matu ya hkyak hkyak hta
+  myu sha baw sang ni hte kaga demokresi shamu shamawt hpung hte mung masa pati ni
+  garu jawng taw nga ai aten mung rai nga mali ai.\\nMyen mung dan hta ya hte ndai
+  laman myu sha rawt malan hpung ni hte Myen asuya simsa hpung ni hkrum zup bawng
+  ban ai hta shi laika ni hkan e Myen asuya ni Jet ai hpedare mung hpawm gaw gap na
+  lam hpe bai tsun garu nga masai, teng gaw hpa rai ta? Asuya ni jum tawn ai shi ga
+  dap hkan ndai lam hpe tsep kawp ntsun shapraw ai hpe mu lu na rai nga ai. Shaloi
+  shanhte tsun ai hpedare mung hpawm mung dan gaw de lam hpe teng gaw hkap la nga
+  ma ni? Myit yu hpa langai rai nga ai. Anhte Myu sha baw sang ni a gawng malai tai
+  nna mung dan lam, myu sha lawt lam hpe shakut shaja nga ai myu sha rawt malan hpung
+  ni hte myu sha baw sang mung masa pati ni ndai lam hpe sadi maja ra na rai nga ai.
+  Bai nna ndai lam hpe manya hkam nna, baw gum hkam nna lawan ladan kam hpa let shatin
+  shapun rai nna ganaw bang mat na lam hpe n-galaw na ma ai ngu nna kam hpa nga ga
+  ai.\\nMyen asuya hte bawng ai lam gaw madung rai nga ai, rai tim madung mung masa
+  mang hkang hpe hparan lu na matu mahtai kaja tam ga nga jang tara shang nga ai mung
+  masa pati ni hte 2008 ning gaw da ai mung dan a ning pawt ning hpang gaw da tara
+  hpe ning hkap gasat ai majaw pati mying garai nbang shi ai mung masa wuhpung wuhpawng
+  ni hte pati ni hpe mung gum hpawn nna n-gun jawm gahkyin let lagaw lahkam htawt
+  ai lam nshut hkra jawm myit mang lu na lam gaw grai ahkyak nga ai. Jet ai \u201cfederal
+  democracy\u201d mung hpawm mung dan hpe gaw gap lu na matu gaw lahta na myit mang
+  ai lam gaw grai ahkyak kaba langai rai nga ai ngu nna chye na hkawn hkrang lu nga
+  ga ai. Myen gaw dai ni du hkra rai tim, jet ai \u201cfederal democracy\u201dmung
+  dan gaw de na lam hpe nhkap la ma ai, hpa majaw nga yang jet ai \u201cfederal democracy\u201d
+  mung dan gaw myu sha baw sang ni hte ahkaw hkang maren mara lu shangun ai masing
+  re majaw, dai zawn byin wa na hpe nra sharawng ai lam, nkam byin shangun ai lam
+  ni a marang e rai nga malu ai.\\nDai re majaw ndai aten hta mung masa pati hte rawt
+  malan hpung ni myit mang shabawn ra ai aten du nga sai.\\nKNAPD\"", "\"Radio Veritas
+  Asia Buick St., Fairview Park, Queszon City, Metro Manila. 1106 Philippines | +
+  632 9390011-15 | +6329390011-15\\nNingrum Ningtau Jan Ni Hpe Myit Pyaw Shangun Mayu
+  Yang\\nTsawra ai nu wa hpu nau ni e anhte myu shayi num ni gaw tinang a ningrum
+  ningtau kaw na myit mada ai lam ni gaw nga nga na ga ai,Dai hpe n gup kaw nna gaw
+  n kam tsun shapraw ai shanhte a myit hta shi hte shi chye na shangun mayu ai rai
+  nga ai.Raitim anhte la ni law malawng gaw dai hpe nchye na ya chye na ga ai.Raitim
+  dai hpe mara ngu tsun na gaw nmai nga ai.\\nHpa majaw nga yang tsawra myit hte kun
+  dinghku lam hte seng wa yang amyu shayi law malawng gaw akri akrai azin ayang kam
+  sha chye nna amyu shadang la nkau ni gaw Ja gumhpraw yawng ap jang,sadi dung jang
+  ningrum ningtau kaja rai sai ngu hkam la chye ga ai re.Ningrum ningtau jan a myit
+  hte seng ai myit dik myit pyaw lam hpe ahkyak la lahku lamai di chye ai ningrum
+  ningtau gaw nau nlaw na ga ai.Ningrum ningtau ni a myit hta tinang ningrum ningtau
+  jan hpe mau kabu myit pyaw hkra hpabaw galaw ya lu na ngu myit ai lam gaw grai kaja
+  ai lam rai nga ai.\\nDai gaw Ngwi pyaw awng dang ai kun dinghku gawgap na matu ahkyak
+  dik ai ninghpawt ninghpang langai rai nga ngu mu mada lu ai.Anhte sumla hkrung ni
+  hta gaw sumtsaw jan (or) ningrum ningtau jan hpe nampan kumhpa jaw ai hpe mu yu
+  na ga ai.Dai hta kap la lu ai wa mung mani sum mani sai re ai hpe mu yu ga ai.Dai
+  majaw kalang marang ningrum nintau jan gaw Nampan ra ai nga jang Nampan jaw ai mung
+  mai nga ai tinang ningrum ningtau wa kaw na myit dum ai hte tinang a matu nampan
+  mari la ai ngu myit la rai yang ningrum ningtau jan mung myit pyaw lu na rai nga
+  ai.Raitim Nampan hkra jaw taw yang gaw yu jin mat na sha rai nga ai.\\nNkau nga
+  jang gaw Shangai nhtoi masat kumhpa (or) hkungran masat nhtoi ni hta manu dan ai
+  arung arai ni jaw chye ga ai.Dai hpe ningrum ningtau jan nkau ni gaw kabu arawng
+  la hkap la nna dum nta masha ni hte jinghku manang ni,kalang marang online ntsa
+  mara rai shakawng chye ai ni nga nga ga ai.Ndai lam mung ningrum ningtau jan a kabu
+  myit pyaw arawng la hpa masa lam langai rai nga ai.Bai langai gaw ningrum ningtau
+  jan hpe shi sha ra ai malu masha mu mu mai mai hpe myit lawm hkum lawm hte ningrum
+  ningtau wa hkum nan shadu lajang jaw ai lam ni mung mai galaw ga ai re.\\nDai zawn
+  hkum nan gat sa shan,namlaw namlap kaja ni hpe atsawm sha lata mari nan atsawm shadu
+  jaw ai hpe ningrum ningtau jan ni mu jang myit hta ngai mu mu mai mai sha lu na
+  matu kaja dik ai hku nna shadaw jaw ai hpe chye na myit dik myit pyaw na rai nga
+  ai.Bai langai gaw ningrum ningtau jan a matu Coffe kayau jaw ai,jau jau rawt nna
+  jahpawt shat hpe hkum nan shadu nna ningrum ningtau jan yup raw tai hte lanu lahku
+  hte jaw sha chye ai rai yang anhte a ningrum ningtau jan ni mung myit dik myit pyaw
+  lu na sha rai nga ai.Bai nna ningrum ningtau jan machyi makaw hkrum ai ten ni hta
+  bungle kaw nna hkring nna atsawm sha lanu lahku gawn lajang ya lu ai rai yang anhte
+  a kun dinghku gaw grau nna myit dik myit pyaw hpa hpe lu la shangun nga ai re.\\nJinghku
+  manang langai a ningrum ningtau wa gaw shi a ningrum ningtau jan a matu gumhpraw
+  sumbu hpe atsawm sha jasan seng ya ai,bu hpun palawng ni nga jang mung atsam sha
+  kahtap ya ai,laning mi hta lahkawng lang gaw ningrum ningtau jan hte htap htuk gumhpraw
+  sumbu ni mari ya chye ai nga ai,de a majaw ningrum ningtau jan gaw ningrum ningtau
+  kaw na galaw ya ai lam hpe kabu myit dik mani sum sai hte tsun nga ai hpe mu lu
+  ai.Bai manang langai gaw shi a ningrum ningtau jan a myit hta lak lak lai lai hkam
+  sha lu na matu galaw lai wa sai masa lam hpe tsun dan ai.Dai gaw shi ningrum ningtau
+  jan a makau gaw rung hkring ten hte hpawn ahkang mung lani mi hpyi la nna masum
+  ya tup ningrum ningtau jan makau kaw ni ni htep htep nga nga ai da.Dai masum ya
+  tup ningrum ningtau jan hte dum nta hta ra ai bungli ni rau galaw ai, ningrum ningtau
+  jan hka shin ngut jang sanap hka garang chya ya ai,ningrum ningtau jan sha ra ai
+  malu masha ni hpe hkum nan shadu jaw ai shana TV sumla hkrung yu ai shaloi mung
+  shawoi na zawn shi yu mayu ai hpe nyu ai sha ningrum ningtau jan yu mayu ai hpe
+  rau sha jawm yu ai da.Dai masum ya tup gaw shi a prat a matu mung shi a ningrun
+  ningtau jan a matu mung kabu myit dik pyaw ai nhtoi ten nan re ai lam tsun dan nga
+  ai.\\nKaja wa nga yang gaw anhte Myu shayi ni hpe myit pyaw myit dik hkra galaw
+  ya na matu ja gumhpraw grai wa law hkra jai lang na nra nga ai.Pru wa ai arung arai
+  shagu mung mari ya nra nga ai.Shangai nhtoi shagu kumhpa jaw yang she tsawra na
+  ngu kam na nrai nga ai.Manu dan hpu reng ai kumhpa mari jaw yang she jet ai ngu
+  mung nmai sawn la nga ai.Amyu shayi ni hku nna kaja wa nan ningrum ningtau wa kaw
+  na myit mada ai lam gaw tsawra shawang myit kaba hte lanu lahku ai tau chye na tsawra
+  manu shadan ya ai lam ni rai nga ai.Tinang a ningrum ningtau wa kaw nna tinang hpe
+  tsawra manu shadan nga ai,sung sung hte jet ai hku nna manu shadan tsawra ai ngu
+  ai hpe galoi mung chye mayu nga ai rai nga ai.Dai chye lu ai ten ni shagu hta amyu
+  shayi num ni gaw kabu myit dik myit pyaw shangun nga ai re.\\nDai majaw tinang a
+  tsawra ai ningrum ningtau jan hpe myit dik kabu pyaw shangun mayu ai rai yang ningrum
+  ningtau jan ni hpe aten jaw let makau kaw lanu lahku kanawn mazum ya ra ai,dum nta
+  kaw nga ai ten ni hta ningrum ningtau jan a makau kaw nga nna shi galaw ai bungli
+  ni hpe garum ya let kanawn mazum nga na matu ahkyak nga ai.Grau nna ningrum ningtau
+  jan machyi makaw hkrum ai ten hta tsawra shawang myit kaba hte ningshawng jaw kanawn
+  mazum ra ai.Ningrum ningtau jan myit kaji myit garen ten makau kaw n gun jaw ya
+  nga ga,shi a shawng hta gwi gwi tsap ya ra nga ai.Ningrum ningtau jan hpe galoi
+  mung hpaw tsun dan ai lam galaw ya ra ai,shi kaw nna hpaw tsun ai hpe mung myit
+  lawm hkum lawm hte madat ya na matu mung ahkyak nga ai.Dai re majaw tsawra hkunga
+  ai kun dinghku kawa la ni e lahta de tsun lai wa sai lam ni yawng gaw anhte ningrum
+  ningtau jan ni hpe myit dik myit pyaw kabu shangun lu ai lam rai nga ai majaw anhte
+  yawng galaw hkan sa let ngwi pyaw kun dinghku gaw de sa wa ga law..\\nBy; John Mung
+  Hkrang\\nref -May Thingyan Hein\\nAdd new comment\"", "\"Anhte mungdo nambat 1 lang
+  si hkam myit rum ni hpe masat dingsat poi galo ya ma ai\\n\u6211\u5dde\u4e3e\u884c\u9996\u4e2a\u70c8\u58eb\u7eaa\u5ff5\u65e5\u6d3b\u52a8\\n\u65f6\u95f4:2014-11-11
+  09:05:46 \u6765\u6e90:\u5fb7\u5b8f\u56e2\u7ed3\u62a5\\nNdai go si hkam myit rum
+  ni hpe nampan nka sa hkungga ya ma ai ra.\\nShata 9 nhtoi 30 ya shani go mungdan
+  ko nna nambat 1 lang \u201cSi hkam myit rum masat dingdat poi\u201d go sharot ton
+  ai aten re hte maren, Miwa gumsan mungdan go sharot lu ai nhtoi mung du wa sai.
+  Dai jahpot manap. Dai jahpot manap, Mangshi si hkrum myit rum wang ko hkik pong
+  ai hte masat dingsat poi galo ma nna, majan hta si hkala hkrum mat ai ni hpe myit
+  ai hte hkungga myit sa madun ma ai.\\nRung ko nga nga ai mungdo pati rapdo dinggrin
+  salang ni, mungdo mungchying sha gasa zuphpong gaba salang rapdo, mungdo asuya,
+  mung masa bongban rapdo na woi on ningbo ni, Sakhkung dap ran na madung lit hkam
+  masha ni masat poi sa lom ma ai.\\nivj ik/g ovs qkf evg rczd\\nMungdo gumgai dingla
+  ganbu gonhkang da...\\nSumla shiga\\nSi Gyin Hpyin mung shawa pati hpung ...\\nSumla
+  shiga\"", "\"Wunpawng Mungdan Shanglawt Hpyendap KIA Dapba 5 npu, dung 15 shara
+  rai nga ai Manmaw-Laiza lam sinpraw hkran de, Myen hpyendap kaw nna shani shagu
+  nbungli hte wa gap gasat nga ai gaw bat mi\u2026\\nApril 28 ya shani kaw nna hpakan
+  de Jak sau htaw shalai na matu Myen hpyendap pat hkum ai majaw, ya ten sau manu
+  ka-ang hkup rawt nna mung shawa ni myit tsang nga ma\u2026\\nNamti mare hta PSI
+  (salawng) shakap da ai dum nta ni hku nna lawan zing kau na matu hte matsun nhkan
+  ai ni ahkyak la hkrum na re nga nna Myen hpyendap a salung sala\u2026\\nMyen hpyen
+  dap hpe ning hkap, gum lang ai lam n galaw na matu hpyendap shangun dat kasa Duwa
+  Hkyet Hting Nan a Putau hkrunlam hta makam masham hte htung hking hpung ningbaw
+  ni hpe\u2026\\nMunghpawm rapdaw gawng malai komiti CRPH hta Kachin State People\u2019s
+  Party KSPP na dat kasa langai shanglawm wa ai gaw Pati a gawng malai nre ai ding
+  hkrai daw dan ai lam she re ai\u2026\\nHupin mare kaba hte deng 2 daram tsan ai
+  shara na wan leng mahkrai hte mawdaw lam mahkrai 2 April 27 ya shana hkying 11 daram
+  hta bawm kapaw hkrum ai majaw wan leng mahkrai\u2026\\nManmaw-Laiza lam ntsa na
+  Myothit, Kunglaw mare de Myen hpyendap gaw shani shagu nbungli hte sa gap ai nhtoi
+  4 ya du wa sai re. Ya na zawn nbungli hte wa gap ai majaw mung\u2026\\nHkawng Lang
+  Hpu Pyithutsit hpyen dap rim da ai ramma marai 6 hpe Pyada dap de n shalai shi ai
+  majaw, ya ten gara kaw rim jep nga ai lam nchye shi ai re. April\u2026\\nManmaw
+  Ginwang, Nmawk Buga kaw gan hprawng Yen nga ai hpyen yen mung shawa ni a tara rap
+  ra ai munghpawm mungdan byin tai wa lu na matu kyu hpyi ai lamang hpe April 27\u2026\\nMare
+  kaba hte tsan ai nam kahtawng de koi yen nga ai hpyen yen mungshawa ni matu hkamja
+  lam makawp maga lam hte seng nna garum ntum grai ra ahkyak nga ai lam Kachin Backpack\u2026\"",
+  "\"Internet lu ai Mobile phone ni gaw Online n''tsa na laika ni mung lu hti mai
+  ai re. Raitim, Myen laika hti la lu na matu gaw Myen font software bai bang la ra
+  ai hpe yawng chye na shadu ai. Mobile phone hte Online kaw na Myen Site ni de sa
+  ai shaloi Myen laika hti la mai na (shr) laika mung ka bang mai na matu software
+  langai mi hpe ngai na mail kaw nna lu la da ga ai. Dai hpe bai \\\"reshare\\\" Post
+  ka bang dat ai re.\\nNdai myen font gaw anhte yawng chye ai Zawgyi font sha re.
+  Ya ten du hkra Online kaw Zawgyi (mye font) hpe jai lang ai web site ni law law
+  naw nga ai re. (Nau n na jang gaw Myanmar Unicode 5.2 maga de galai mat na masa
+  ni mung nga ai)\\nBlogger ni a matu gaw grai nan akyu rawng na re hpe kam ai. Phone
+  hku nna tinang a Web page ni hpe garam mai na, Post ka bang mai na re. (Myen laika
+  hte Post ka bang mayu jang le)\\nMaigan du nna Mobile Phone hpe masan sa ai hku
+  jai lang lu ai ni yawng a matu Zawgyi myen laika font gaw lam amyu mi hku nna akyu
+  jaw ya lu na re. Shinggan myen Internet seng hkan e, $ jaw nna Install bang shangun
+  tim mai ai. Raitim, tinang hkrai sharin hka-ja la let Install bang la jang, grau
+  hpaji lu na hku re.\\nN''pu kaw myen laika pdf file hpe Download la let hti yu nna
+  matut galaw sa mat ga !\\nInstall galaw la na ladat laika buk (Myen laika hku) Download
+  u\\nSoftware \\\"Download\\\"\\n(Admin ni)\\n0 Comments:\\nPost a Comment\"", "\"Ndai
+  aten gaw lahkawng ya na ai hpang, bat hpang mali ya shana re. Yesu hte shi a kasa
+  12 ni gaw shalai wa poi sha na matu, ndai gawk kaba hta e du nga ma ai. Nanhte mu
+  ai hte maren shingan de pru mat wa ai masha gaw Yuda- iskarut re.Yesu hpe gara hku
+  rim la lu na lam hkinjawng ni hpe sa tsun dan ai.\\nShawng shani e sha Yuda gaw
+  shanhte hpang de sa nna: \u2018Yesu hpe rim karum ya yang, nanhte ngai hpe hpa jaw
+  na ma ni\u2019 nga nna san ai. Shanhte gaw, \u2018gumhpraw sum shi jaw na,\u2019
+  nga nna tsun ma ai. Dai majaw ya Yuda gaw dai masha ni kaw sa nna shanhte hpe Yesu
+  hpang de shaga sa wa na re. Grai hkrit hpa amu n re a ni?\\nShalai wa sai lusha
+  poi gaw ngut mat sai. Raitimung Yesu ya laksan lusha poi langai mi hpe bai galaw
+  ai. Shi a kasa ni hpe muk tawng langai mi gran jaw nna: \u2018Ndai hpe sha mu, ndai
+  gaw nanhte a matu ya kau na ra ai nye a hkum hte ga shadawn ai,\u2019 nga nna tsun
+  ai. Dai hpang tsabyi gawm langai mi jaw nna: \u2018Ndai hpe lu mu, ndai gaw nanhte
+  a matu ru kau na ra ai nye a sai hpe ga shadawn ai,\u2019 nga tsun ai. Chyum Laika
+  gaw ndai poi hpe \u2018madu a shana shat sha poi,\u2019 nga ma ai.\\nIsraela masha
+  ni shalai wa ai poi hpe sha ai gaw Egutu mung kaw nga ai shaloi shanhte a nta ntsa
+  kaw na Karai Kasang a lamu kasa ni lai wa nna, Egutu masha ni a nta na kasha alat
+  ni sat kau hkrum ai lam hpe myit dum na matu re. Raitimung Yesu gaw shi a hpang
+  hkan ai ni hpe shanhte a matu kaning rai nna shi a asak hpe jaw kau ai lam hpe myit
+  dum shangun mayu ai. Dai majaw shaning shagu ndai laksan shana shat sha poi hpe
+  galaw na matu shanhte hpe htet da ai.\\nMadu a shana shat sha poi hpe sha ngut ai
+  hpang, Yesu gaw shi a sape ni hpe tsun ai. Magrau grang mu. Makam masham hta ngang
+  kang mu, nga ai. Dai hpang e Karai Kasang hpe shakawn ai mahkawn mahkawm nna, shanhte
+  pru mat wa ai. Shana ahkying e rai sai. Yup tung hpawa pyi lai wa sai. Shanhte gara
+  de sa wa a ni? Yu yu ga.\\nMahte 26:14-30; Luka 22:1-39; Yawhan daw kaba 13 kaw
+  na 17; 1 Korinhtu 11:20.\"", "\"Mohka nbung laru a majaw, hten mat ai Maje ginwang,
+  Aung Nan mare na hpaji awng ni hpe bai gram lajang la lu na matu garum ningtum ra
+  ahkyak taw nga ai lam dai mare na lit nga ai ni kaw na chye lu ai.\\nNbung laru
+  a majaw hten mata ai hpaji jawng ni hpe, mare kanu kawa ni kaw na lai wa sai June
+  shata hta, mai byin ai hku kawa hte gram lajang da ai rai tim, ya ten ngang kang
+  ai jawng hpe galaw la lu na matu garum ningtum ra ahkyak taw nga ai lam, Aung Nan
+  mare na jawng up saranum KNG shiga dap de ndai zawn tsun ai re.\\n\u201cMoehka nbung
+  hte hten mat ai jawng ni hpe rai n lu gram la shi ai, mi na nga ai hpri tsut ni
+  hte sha mai byin ai hku gram lang taw nga ai, marang mung grai gayun ai, gawk ni
+  mung grai kaji ai, gawk lahkawng masum na ma ni marawn sai nga yang, laga gawk na
+  ma ni laika n mai sharin sai, dai hku mai byin ai hte sa taw ai ga rai nga ai,\u201d
+  nga tsun dan ai re.\\nDai mare hta lawu tsang jawng lai, KG kaw na tsang 6 du hkra
+  hpaw sharin taw ai rai nna, jawng ma yawng marai 43 nga ai lam chye lu ai.\\nDai
+  ning na jawng lung ladaw hpe shangut la lu na matu, jawng lang arung arai, Machyu
+  chyang, hkret din, laika buk, sharin gin hpan hta lang ra ai arung arai ni, ra ahkyak
+  taw nga ai lam chye lu ai.\\nManje Aung Nan mare gaw, mare kaba ni hte tsan ai shara
+  rai nna, ma ni hpe hkrai jawng kaba ni de sa lung shangun na yak hkak ai majaw,
+  mare hta mai byin ai hku na sharin jahpat ya taw ai re.\\nAung Nan mare gaw, Nmawk
+  hte Deng 20 tsan ai mare kahtawng rai nna, madung bum yi hpe machyu shingbyi let,
+  kan bau bungli galaw ai mare kahtawng rai nna, hting gaw 37 hte masha jahpan 220
+  daram nga ai mare kahtawng re lam chye lu ai.\"", "\"Myu Tsaw Online Garum Hpung
+  hpaw ai laning mi hpring chyeju shakawn akyu hpyi hpawng hpe November 5 ya shani
+  Mai Ja Yang kaw galaw ai lam na chye lu ai.\\nMyu Tsaw Online Garum Hpung kawn Maija
+  Yang Manau Wang makau kaw hpaga rung hpaw da ai hte hpaga rung hta na shakya rai,
+  tsi mawan hte Jinghpaw maka hte galaw da ai hkyep ding ni hpe mai lu ai lam, Myu
+  Tsaw Online Garum Hpung na dai arung rai hpe Miwa Gumsan mungdan kaw nga ai ni yawng
+  mai htet la ai hte dai kaw na lu wa ai ja gumhpraw ni yawng hpe yak hgkak hkrum
+  nga ai hpyen yen mungshawa ni hpe garum na matu yaw shada ai re lam Jan Maran Ja
+  Seng Pan tsun ai.\\nMyu Tsaw Onlin Garum Hpung gaw Online n tsa hta group hpaw let
+  alu ja gumhpraw ni hpe hta la nna hpyen yen tsim yam hkrum nga ai shara ni hte matsan
+  mayan hkrum nga ai myu sha ni hpanng de dangdi dang dep ai ram sa du garum ai lam
+  galaw nga ai rai nna Amu madu magam lit hpe mung Jan Maran Ja Seng Pan lit la gun
+  hpai ai kaw na Dashi Sut Ring Awng Mai hpe bai galai ap ya ai re lam chye lu ai.\\nNdai
+  chyeju shakawn kyu hpyi hpawng hta Myu Sha Online Garum Hpung, Madu Hta Manoi Nga
+  Ga Garum Hpung ni sa du shang lawm ai hte gabu gara galaw la lu sai lam shisawk
+  Tangbau Ahsan tang madun da ai\"", "\"2020 ning May shata praw 23 ya shani hta Manmaw
+  Saradaw Ginwang Up Saradaw a malai Jau Kaba John Jangma Yung Wa hku nna woi awn
+  shang lawm let Saradaw Ginwang Ramma Ningbaw galai ai lam lamang hpe galaw la lu
+  sai. Lai wa sai aten hta Manmaw Jau Aseng ningtau jau lit...\\n2020 ning May shata
+  praw 30 ya jahpawt hta Wa Saradaw Raymond Sumlut Gam hku nna woi awn shang lawm
+  galaw ai Missa hkungga ngut ai hte rau Saradaw ginwang kunhting jum ai lit magam
+  galai ai lamang kadun hpe galaw lai wa sai. Ndai lamang hta nnan e Saradaw ginwang...\\n2020
+  ning February shata 25-26 ya shani hta Manmaw Saradaw Ginwang Amyu shayi hpung ni
+  a shawng lam masing hte seng ang ai zuphpawng kaba hpe Jau nta zuphpawng gawk hta
+  galaw lai wa sai. Ndai zuphpawng kaba hpe atsawm rai ngut kre ai du hkra galaw karum
+  ya ai ni gaw:...\\n2020 ning February shata praw (21) bat hpang manga ya shani jahpawt
+  8:00 AM aten hta Mama jawng nta ningnan hpe Manmaw Saradaw Ginwang Up Wa Saradaw
+  Raymond kaw nna lairi rep, shaman ntsin lapri let nta ningnan shaman poi Missa hkungga
+  kaba hpe hpang wa sai. Wa...\\nDeacon Francis Maran Aung Seng Naw gaw 2019 ning
+  March shata praw 26 ya shani e Momauk Jau Ginwang Chyenan lawk hta gaw de da ai
+  San Patrick nawku jawng hta Manmaw Saradaw Ginwang Up Wa Saradaw Raymond Sumlut
+  Gam a lata hta htani htana jau aya hpe hkam la sai. Jau...\"", "\"August (22) bat
+  Masum\\nWunpawng Mungdan Shanglawt Asuya Sinna Ginwang Dap Ba (2) up hkang ginra
+  rai nga ai Hpakant ginwang, Seng Tawng Mare hte Ta Mahkan lapran na Hpri Bum kaw
+  August (21) ya shana daw hkying (2:00pm kawn 9:00pm) ram du hkra KIA myu tsaw share
+  ninghkring ni hte myen asuya a Mung Ywar daju hk-l-y (16) ni laja lana gap gasat
+  lai wa sai lam shiga na chye lu ai. N dai zawn gasat ai hta myen maga na hkala ai
+  masha ram ram law ai lam, hte dai hpawt du hkra Seng Tawng tsi rung de hkala ai
+  masha ni lahka sa taw nga ai lam shiga na chye lu ai. Ya ten Maw Mau Bum, Sharaw
+  Hka grup yin hku shamu shamawt nga ai myen hpyen dap ni gaw hk-m-y (347) ni re hpe
+  mung na chye lu ai.\\n3 comments:\\nAh RA lo.......\\nGrai hkrak sai, KK a jaw da
+  ai sut gan ni hpe maw sha mayu ai ni hpe .... ja jaa shamyit kau ga....\\nKyu hpyi
+  garum ya nga ai.....\\nCarry on....\\nzed\\nHpakant kaw na Myen nak ni hpe gap gasat
+  gau kau ga.\\nMen nak ni lai wa na lam kaw hkap aru bun nna makoi mat mat di nna
+  tai hpyen n gun shayawm kau ya ga.shang lawt hpyen n gun nau n lang ga.\\nPost a
+  Comment\"", "\"Myitrum\\nManang ni, M ni a satlawat gaw mi na hte maren sha re yaw.
+  Mana ( 4.2.2013)\\nyuptung e LZ Hkristan lupwa kaw daini makoi mayang na Slgkb:
+  Shadan Htaw Ma a\\nlup gaw let, wan kra nga ai masha ni hpe Masen M post kaw na
+  myawk kaba 6 lang\\nhte kaga soiru sinat mung gap bun ai lam chye lu ai. KK a chyeju
+  hte masha n\\nhkra ai. Bai, Tsin-yu bum na Myutsaw hpyenla ni shat shadu sha nna,
+  wan hkut\\npru shagu Bumrebum kaw na myawk kaba gap bun bun rai nga ma ai lam na
+  lu ai. LZ\\ngrup-yin hte Nalung mare hkan M hpyenla nnan 1000 daram bai wa jat da
+  sai lam\\nna chye lu ai. Mani MKA kaw na lai lung wa ai hpyen modo 40 gaw, Pangwa
+  na\\nshanhte a hpyenla ni hte masha wa galai na matu re lam chye lu ai. Dai majaw,
+  M\\na sat lawat gaw n loi la ai yaw. Akyu grau she hpyi ga lu e\u2026.\\nMasin pawt
+  dik ai;\\nJIC\"", "\"Radio Veritas Asia Buick St., Fairview Park, Queszon City,
+  Metro Manila. 1106 Philippines | + 632 9390011-15 | +6329390011-15\\nDinggai Wa
+  Tim Nu A Kasha Re\\nKaji ten kaw nna Nu Maria hte Madu Yesu hpe grai tsawra chye
+  ai Sarama Lucia Maran Htoi Lu gaw asak ( 45 ) ning hta Cancer mawng ana byin ai
+  majaw shata ( 6 ) shata sha hkam sana re ngu Sarawun ni tsun ai raitim daini asak
+  ( 68 ) ning du hkra asak hkrung lu ai majaw Nu Maria hpe grai chyeju dum ai lam
+  sakse tsun dan ai . Tsi hpe 5 ning e shata 8 du hkra hpun ru tsi ni hpe lu lai wa
+  ai. Ya ngai hta hpa mung n hkam sha ai. Hkam kaja nna asak hkrung nga lu ai. Ngai
+  gaw dinggai wa tim Nu A Kasha re.\\nNu Maria gaw ngai hpe sha hkye la ai nre, ngai
+  na matu sha hpyi htinglu hitnglai ya ai nre, Mungkan masha yawng a matu shi hpyi
+  hitnglu htinglai ya ai, yawng hkra hpe grai tsawra ai kanu re, Nu gaw yawng hkra
+  hpe pawn ba tawn da ai. Awe Maria chyeju hte hpring ai nga sai kaw na gaw mahkra
+  dik mat sai lam re ngu hkam sha ai. Dai re majaw Nu hta galoi mung kam hpa let Madu
+  Yesu hta e anhte noi nna sak hkrung hkawm sa ai rai yang lam shagu hta myitru myit
+  tsang nga ai raitim shi hte shi mahkra bai hkoi mat wa nna grai pyaw ai aten ahkying
+  ni hpe simsa ai aten ahkying ni hpe lu la ai nga nna sakse hkam tsun dan lai wa
+  ai.\\nAdd new comment\"", "\"Wunpawng Mungdang Shanglawt Asuya Up Hkang Ginra, KIA
+  Dap Nawng Dap Dung (252) ni a ginra rai nga ai Gidon Post de myen hpyen asuya ni
+  kawn n gun kaba hte laja lana htu gasat taw nga ai gaw shata mi jan na wa sai lam
+  hpe na chye lu ai. Myen tai hpyen ni kawn Gidon Post de hpyen n-gun, laknak n-gun
+  ni shata mi jan htu gasat ai rai tim KIA Myu Tsaw Share Ninghkring ni kawn ja ja
+  ninghkap gasat nga ai majaw myen tai hpyen ni...\\nWunpawng Mungdan Shanglawt Asuya
+  kata Ningbaw Ningla daw hta magam gun nnan ni hpe bai shatsam lai wa sai lam shiga
+  na chyle lu ai. Magam bungli nnan ni hta bai shatsam hkrum ai Ningbaw Ningla ni
+  gaw- Ningbaw Kaba Slg. Lanyaw Zawng Hra: Wunpawng Mungdan Shanglawt Hpung Ginjaw
+  Komiti Tingnyang Up, Wunpawng Mungdan Shanglawt Kongsi Ningbaw, Wunpawng Mungdan
+  Shanglawt Hpyen Dap a Dap Up Daju, Du Daju Jum Nban La: Wunpawng Mungdan Shanglawt
+  Hpung Ginjaw Komiti Tingngyang Up Malai hte Wunpawng Mungdan Shanglawt Hpyen Dap
+  a Tau Dap Up Daju, Lat...\\nWunpawng Mungdan Shanglawt Asuya Dingding Ginwang, KIA
+  Masat (1) Dap Ba Daju kaw hpaw ai Masat (1/2015) Hpyen Gyi Wunkat Yu Hpawng Lamang
+  hpe December (28) ya shani awng dang ai hte galaw la lu sai lam shiga na chye lu
+  ai. Ndai Hpyen Gyi Wunkat hpe 2015 September (29) ya shani kawn 2015 December (28)
+  ya shani du hkra hpaw lai wa ai re lam hpe mung chye lu ai. Ndai Masat (1/2015)
+  Hpyen Gyi Wunkat sharin hpawng yu poi hta Wunkat lamang ningtawn lai wa ai, Kasi
+  kaja...\\nWunpawng Mungdan Shanglawt Asuya Ginjaw Ginra Laiza Muklum hta Masat Yan
+  (6) ngu na Nursing Diploma Jawng yu poi lamang hpe November (24) ya jahpawt daw
+  hta galaw lai wa sai lam shiga na chye lu ai. Ndai Jawng yu poi hpe Laiza Muklum
+  Ginjaw Mung Shawa Tsi Rung na Wunjat Gawknu hta galaw lai wa ai re lam hpe chye
+  lua ai. Jawng yu poi hta Mungdan Hkamja Dap Lit Hkam Du Kaba N-Gan Zau Hkum kawn
+  shatsam mungga hte n gun jaw, hpaji jaw lai wa sai hte jawng...\\nWunpawng Mungdan
+  Shanglawt Asuya KIA masat (1) Dap Ba npu, Dap Dung (7) ni a ginra rai nga ai Ja
+  Ra Yang mare grup yin hte myen hpyen asuya a hpyen dap hk-l-y (138) ni kawn August
+  (16) ya jahpawt hkying (10:00 AM) ten ram hta laknak kaba ni hte gap sharu bun lai
+  wa sai lam shiga na chye lu ai. KIA Dap Ba (1) ginra ni hte myen hpyen ni hpyen
+  n gun htu shang wa ai majaw buga masha ni nam mali hkan hprawng yen hkawm ra...\\nWunpawng
+  Mungdan Shanglawt Asuya KIO kawn August (17) ya shani Laiza Muklum hta NCA hte seng
+  ai sanglang hpawng hte Mungshawa a ningmu la zuphpawng hpe galaw lai wa sai lam
+  shiga na chye lu ai. Nationwide Ceasefire Agreement (NCA) Mungdan ting gap hkat
+  jahkring myit hkrum lam ta masat htu na hte seng nna KIO Asuya kawn ya na zawn Mungshawa,
+  Dap shawa hpe sanglang dan ai hte ningmu hpyi la ai lam hpe galaw lai wa ai re lam
+  na chye lu ai. Ndai Mungdan ting gap hkat...\\n2015 Ning, August (10) ya jahpawt
+  Ginjaw Ginra Ginwang Ginjaw ting hta Sadung Ginwang Komiti hta shara (10), Laiza
+  Ginwang Komiti hta shara (6), Shawng lam Dap Dung hta shara (4), Dap Ba Daju hta
+  shara (1) ni hta \u201cSHARE SHAGAN MASAT NINGHTOI HPAWNG LAMANG\u201d hpe shara
+  (21) lu galaw la lu sai. 1. Hpum Lum Yang IDP Camp hta Ginjaw Ginra Ginwang Ginjaw
+  Pati Komiti Tingnyang Up Salang Kaba Maji Naw Mai (Div.O) shang lawm n\u2019na,
+  masha n\u2019gun (553) hte angwi apyaw galaw awng dang la lu sai lam na...\\nWunpawng
+  Mungdan Shanglawt Asuya Sinpraw Ginwang, Dap Ba (3) npu, Dap Dung (1) Ginra rai
+  nga ai Nba Pa Mare kaw Share Shagan Masat Ninghtoi Masat lamang hku nna Gawdin Ninggang
+  Shingjawng ai lam hpe galaw nga ai lam shiga na chye lu ai. Share Shagan Ninghtoi
+  Masat Gawdin Ninggang Shingjawng ai lam hpe July (27) ya kawn August (10) ya shani
+  du hkra galaw mat wa na re lam hpe mung na chye lu ai. Ndai shingjawng lamang hta
+  KIA Myu Tsaw Share Ninghkring ni hte Buga masha ni...\"", "\"Wunpawng Mungdan Shanglawt
+  Asuya KIO ginjaw ginra Laiza kata na mung shawa mun mi jan hpe Covid-19 ana jep
+  ya mat wa na re lam, Covid ninghkap komiti kaw na chye lu ai.\\nMyen hpyendap gaw
+  shi a sum machyi mat ai lam hpe, matai htang ai hku nna mungshawa hpe, sat zingri
+  ai lam, shinggyim ahkaw ahkang tawt lai ai lam matut galaw nga ai nga nna,\u2026\\nWunpawng
+  Mungdan Shanglawt Hpyendap KIA dapba 2 ginra kaw na pru wa ai ten, Danai gate e
+  rim hkrum ai ramma marai 29 hpe tara masat 17/1 hte tara jewat na matu hkyen nga
+  sai\u2026\\nWunpawng Mungdan Shanglawt Hpyendap KIA dapba 2 ginra kaw nna pru wa
+  ai ramma marai 29 hpe Danai mare gate hta san jep rim da ai re. Warazup mare na
+  marai 4 hte Nawng mi\u2026\\nHugawng Pa, Wunpawng Mungdan Shanglawt Hpyendap KIA
+  Dapba 2 ginra na pru wa ai ramma marai 29, Danai Myen hpyendap e rim da hkrum ai
+  lam chye lu ai. May shata 15 ya shani, Dapba\u2026\\nDaw Hpum Yang de lung wa ai
+  Myen hpyen mawdaw hpe Numlang mare lahta e, Wunpawng Mungdan Shanglawt Hpyendap
+  KIA kaw nna May 10 ya shani hkap gap ai lam chye lu ai.\\nKampaiti mare e, hpyen
+  gumshem ninghkap ai hta woi awn ai ramma ni hpe lu rim yang, Myen kyat sen 10 shagrau
+  na lam ginra daju Pyithusit wuhpung ndau da ai lam chye lu ai.\u2026\\nMyotit Salawng
+  Kawng post hpe Wunpawng Mungdan Shanglawt Hpyendap KIA hting nut kau ai hpang, Alaw
+  Bum marawn Shang Htung Post maga de Myen hpyendap maga lagaw dap de bai lung wa
+  ai majaw, majan\u2026\\nMyothit-Kunglaw majan hta Myen hpyen nbungli ni gaw tinang
+  masha tinang bawm jahkrat hkrup ai majaw, si hkala ai lam law law nga ai hpe chye
+  lu ai.\\nHpyen n gun jat na matu lung wa ai shanghpaw li 2 hpe Shwegu mare kaba
+  makau e, Wunpawng Mungdan Shanglawt Hpyendap KIA kaw nna hkap gap ai hta, Myen hpyendap
+  maga sum machyi ai\u2026\""]'
+src_ngrams: '{"1": [[["ai"], 450317], [["ni"], 161989], [["hpe"], 140949], [["nga"],
+  140801], [["gaw"], 91650]], "2": [[["nga ai"], 79670], [["ai lam"], 44449], [["ni
+  hpe"], 30599], [["rai nga"], 26526], [["ra ai"], 16604]], "3": [[["rai nga ai"],
+  22518], [["chye lu ai"], 10966], [["ai lam ni"], 7698], [["nga ma ai"], 5092], [["ai
+  lam hpe"], 4935]], "4": [[["lam chye lu ai"], 3932], [["ai rai nga ai"], 2419],
+  [["ai lam ni hpe"], 2119], [["lam rai nga ai"], 1852], [["hpe chye lu ai"], 1851]],
+  "5": [[["ai lam chye lu ai"], 2207], [["ai lam rai nga ai"], 1481], [["radio veritas
+  asia buick st"], 1223], [["lam na chye lu ai"], 1090], [["re lam chye lu ai"], 1081]]}'

@@ -1,0 +1,1895 @@
+corpus: hplt-v3-kam_Latn
+srclang: kam
+timestamp: 1758068417.2958305
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2017-51", 199], ["CC-MAIN-2018-05", 140], ["CC-MAIN-2014-15",
+  125], ["wide16", 90], ["CC-MAIN-2014-35", 87], ["wide12", 40], ["CC-MAIN-2023-14",
+  33], ["CC-MAIN-2023-23", 25], ["wide11", 20], ["CC-MAIN-2022-49", 19], ["CC-MAIN-2020-45",
+  19], ["wide15", 17], ["CC-MAIN-2014-42", 16], ["CC-MAIN-2021-04", 13], ["CC-MAIN-2020-40",
+  13], ["CC-MAIN-2020-34", 13], ["CC-MAIN-2018-43", 13], ["CC-MAIN-2020-50", 11],
+  ["CC-MAIN-2020-16", 11], ["CC-MAIN-2023-06", 10], ["CC-MAIN-2020-24", 10], ["CC-MAIN-2021-31",
+  9], ["CC-MAIN-2021-17", 9], ["CC-MAIN-2015-18", 9], ["CC-MAIN-2018-39", 8], ["CC-MAIN-2020-10",
+  7], ["CC-MAIN-2021-25", 6], ["CC-MAIN-2015-48", 6], ["wide17", 5], ["wide10", 5],
+  ["CC-MAIN-2023-50", 5], ["CC-MAIN-2021-39", 5], ["CC-MAIN-2018-34", 5], ["CC-MAIN-2024-51",
+  4], ["CC-MAIN-2020-29", 4], ["wide5", 3], ["CC-MAIN-2023-40", 3], ["CC-MAIN-2022-05",
+  3], ["CC-MAIN-2021-43", 3], ["CC-MAIN-2021-21", 3], ["CC-MAIN-2015-11", 3], ["CC-MAIN-2024-38",
+  2], ["CC-MAIN-2022-21", 2], ["CC-MAIN-2019-04", 2], ["CC-MAIN-2016-30", 2], ["CC-MAIN-2024-46",
+  1], ["CC-MAIN-2024-26", 1], ["CC-MAIN-2024-18", 1], ["CC-MAIN-2022-27", 1], ["CC-MAIN-2021-49",
+  1], ["CC-MAIN-2018-22", 1]]'
+docs_langs: '[[0.2, 1], [0.4, 1], [0.5, 27], [0.6, 21], [0.7, 35], [0.8, 86], [0.9,
+  40], [1.0, 832]]'
+docs_segments: '[[1, 246], [2, 21], [3, 49], [4, 62], [5, 84], [6, 67], [7, 31], [8,
+  26], [9, 21], [10, 17], [11, 22], [12, 31], [13, 24], [14, 23], [15, 12], [16, 9],
+  [17, 14], [18, 20], [19, 22], [20, 16], [21, 22], [22, 19], [23, 23], [24, 12],
+  [25, 7], [26, 7], [27, 11], [28, 3], [29, 1], [30, 4], [31, 3], [32, 5], [35, 5],
+  [36, 5], [37, 6], [38, 9], [39, 11], [40, 9], [41, 10], [42, 5], [43, 7], [44, 2],
+  [45, 5], [46, 2], [47, 3], [48, 1], [49, 3], [50, 1], [51, 1], [52, 2], [53, 2],
+  [54, 4], [55, 1], [56, 2], [57, 2], [58, 2], [59, 1], [64, 2], [67, 1], [71, 1],
+  [82, 1], [87, 1], [107, 1], [136, 1]]'
+docs_segments_mean: 13
+docs_segments_median: 6
+docs_top100_domains: '[["jw.org", 536], ["bible.is", 244], ["rmsradio.co.ke", 107],
+  ["sangufm.co.ke", 75], ["gotquestions.org", 10], ["sharptipnews.com", 8], ["gafkosoft.com",
+  8], ["bible.com", 8], ["kbc.co.ke", 7], ["kituionline.com", 6], ["churchofjesuschrist.org",
+  4], ["vincentianministrieskenya.org", 3], ["watchtower.org", 2], ["vide-muwapublishers.com",
+  2], ["omniglot.com", 2], ["mbathi.com", 2], ["jesusforafrica.net", 2], ["jaladaafrica.org",
+  2], ["africanstorybook.org", 2], ["utafitifoundation.com", 1], ["thecountydiary.co.ke",
+  1], ["thecleartruth.com", 1], ["opusdei.org", 1], ["musyifm.co.ke", 1], ["lirik.web.id",
+  1], ["krobfoundation.org", 1], ["graduates.com", 1], ["gospelgo.com", 1], ["digitallibraryio.com",
+  1], ["countyfm.co.ke", 1], ["archive.org", 1], ["4laws.com", 1]]'
+docs_top100_tld: '[["org", 562], ["is", 244], ["co.ke", 192], ["com", 42], ["net",
+  2], ["web.id", 1]]'
+docs_total: 1043
+docs_wds: '[[5.0, 13], [5.1, 13], [5.2, 4], [5.3, 5], [5.4, 16], [5.5, 11], [5.6,
+  10], [5.7, 9], [5.8, 12], [5.9, 15], [6.0, 10], [6.1, 18], [6.2, 12], [6.3, 16],
+  [6.4, 23], [6.5, 18], [6.6, 21], [6.7, 16], [6.8, 24], [6.9, 29], [7.0, 22], [7.1,
+  23], [7.2, 22], [7.3, 22], [7.4, 32], [7.5, 29], [7.6, 33], [7.7, 35], [7.8, 31],
+  [7.9, 29], [8.0, 62], [8.1, 38], [8.2, 23], [8.3, 20], [8.4, 20], [8.5, 38], [8.6,
+  49], [8.7, 40], [8.8, 32], [8.9, 44], [9.0, 29], [9.1, 53], [9.2, 8], [9.3, 10],
+  [9.4, 2], [9.5, 2]]'
+sentence_pairs: 13065
+src_bytes: 4043435
+src_chars: 3619686
+src_pii: 0
+src_tokens: 714415
+unique_sents: 12103
+src_sent_tokens: '[[1, 277], [2, 231], [3, 436], [4, 325], [5, 340], [6, 329], [7,
+  374], [8, 287], [9, 461], [10, 360], [11, 273], [12, 305], [13, 270], [14, 250],
+  [15, 268], [16, 232], [17, 215], [18, 190], [19, 195], [20, 186], [21, 144], [22,
+  135], [23, 151], [24, 135], [25, 126], [26, 117], [27, 105], [28, 118], [29, 103],
+  [30, 113], [31, 124], [32, 110], [33, 105], [34, 102], [35, 95], [36, 76], [37,
+  99], [38, 95], [39, 107], [40, 92], [41, 83], [42, 77], [43, 87], [44, 86], [45,
+  68], [46, 77], [47, 70], [48, 62], [49, 74], [50, 69], [51, 75], [52, 77], [53,
+  78], [54, 64], [55, 68], [56, 54], [57, 58], [58, 64], [59, 52], [60, 57], [61,
+  53], [62, 53], [63, 50], [64, 58], [65, 55], [66, 53], [67, 45], [68, 38], [69,
+  43], [70, 52], [71, 42], [72, 53], [73, 48], [74, 37], [75, 49], [76, 37], [77,
+  58], [78, 34], [79, 49], [80, 49], [81, 33], [82, 33], [83, 39], [84, 45], [85,
+  40], [86, 34], [87, 29], [88, 37], [89, 43], [90, 32], [91, 37], [92, 41], [93,
+  39], [94, 34], [95, 38], [96, 42], [97, 33], [98, 31], [99, 31], [100, 28], [101,
+  31], [102, 42], [103, 24], [104, 37], [105, 33], [106, 22], [107, 26], [108, 31],
+  [109, 21], [110, 40], [111, 32], [112, 30], [113, 29], [114, 28], [115, 33], [116,
+  22], [117, 28], [118, 26], [119, 22], [120, 29], [121, 26], [122, 27], [123, 20],
+  [124, 23], [125, 21], [126, 30], [127, 29], [128, 17], [129, 30], [130, 17], [131,
+  23], [132, 26], [133, 19], [134, 23], [135, 25], [136, 20], [137, 18], [138, 18],
+  [139, 27], [140, 9], [141, 12], [142, 18], [143, 10], [144, 21], [145, 19], [146,
+  15], [147, 17], [148, 19], [149, 17], [150, 13], [151, 16], [152, 15], [153, 9],
+  [154, 8], [155, 7], [156, 8], [157, 10], [158, 13], [159, 14], [160, 9], [161, 8],
+  [162, 8], [163, 11], [164, 8], [165, 12], [166, 11], [167, 6], [168, 8], [169, 12],
+  [170, 5], [171, 10], [172, 8], [173, 12], [174, 8], [175, 9], [176, 10], [177, 10],
+  [178, 4], [179, 7], [180, 5], [181, 3], [182, 7], [183, 3], [184, 5], [185, 2],
+  [186, 3], [187, 7], [188, 4], [189, 8], [190, 6], [191, 6], [192, 3], [193, 4],
+  [194, 3], [195, 2], [196, 3], [197, 6], [198, 4], [199, 3], [200, 3], [201, 4],
+  [202, 4], [203, 6], [204, 4], [205, 4], [206, 1], [207, 5], [208, 1], [209, 3],
+  [210, 3], [211, 1], [213, 4], [214, 1], [215, 3], [216, 2], [217, 1], [218, 2],
+  [219, 1], [220, 3], [222, 2], [223, 2], [224, 1], [225, 1], [227, 3], [228, 2],
+  [230, 2], [231, 1], [232, 1], [235, 2], [236, 2], [238, 2], [239, 1], [240, 2],
+  [242, 2], [243, 1], [245, 5], [246, 1], [248, 2], [249, 2], [250, 2], [251, 2],
+  [252, 3], [253, 1], [254, 3], [257, 2], [258, 1], [262, 1], [263, 2], [264, 3],
+  [269, 3], [270, 1], [272, 1], [273, 1], [278, 3], [281, 1], [286, 1], [289, 1],
+  [290, 1], [292, 1], [293, 2], [296, 1], [299, 1], [300, 1], [301, 1], [304, 1],
+  [305, 1], [306, 1], [308, 2], [312, 1], [314, 1], [316, 1], [317, 1], [321, 1],
+  [323, 1], [326, 1], [332, 1], [336, 2], [339, 1], [343, 2], [353, 2], [356, 1],
+  [357, 1], [364, 1], [367, 1], [368, 1], [371, 1], [372, 2], [373, 1], [376, 1],
+  [377, 1], [379, 2], [386, 1], [388, 1], [389, 1], [392, 2], [398, 1], [403, 1],
+  [408, 1], [409, 1], [411, 3], [413, 1], [415, 3], [416, 1], [417, 1], [418, 2],
+  [419, 1], [420, 1], [421, 1], [423, 1], [427, 1], [434, 2], [437, 1], [438, 2],
+  [439, 1], [445, 1], [447, 2], [449, 1], [450, 1], [457, 2], [459, 1], [460, 2],
+  [464, 1], [466, 1], [467, 1], [468, 1], [469, 1], [473, 1], [474, 1], [479, 1],
+  [480, 1], [481, 1], [484, 1], [486, 1], [491, 1], [497, 1], [499, 2], [504, 2],
+  [507, 1], [508, 1], [509, 1], [515, 1], [517, 1], [521, 1], [530, 2], [531, 2],
+  [532, 2], [536, 1], [537, 1], [539, 1], [540, 1], [548, 1], [549, 1], [552, 1],
+  [553, 1], [554, 1], [555, 1], [558, 1], [560, 1], [561, 1], [562, 1], [563, 1],
+  [566, 1], [568, 4], [569, 1], [570, 2], [572, 1], [579, 1], [581, 1], [585, 1],
+  [587, 1], [588, 2], [591, 1], [598, 1], [603, 1], [608, 1], [610, 2], [611, 1],
+  [612, 1], [618, 2], [621, 2], [622, 1], [626, 1], [630, 1], [632, 1], [634, 1],
+  [636, 3], [638, 1], [639, 1], [645, 1], [652, 1], [654, 1], [657, 2], [663, 1],
+  [667, 1], [674, 1], [675, 2], [680, 1], [683, 1], [685, 1], [687, 1], [689, 1],
+  [702, 1], [703, 1], [705, 1], [713, 1], [714, 2], [715, 1], [719, 1], [720, 1],
+  [741, 2], [743, 1], [751, 1], [759, 1], [766, 2], [771, 1], [782, 1], [784, 1],
+  [785, 1], [788, 1], [793, 1], [798, 2], [805, 1], [808, 1], [810, 1], [815, 1],
+  [826, 1], [827, 1], [828, 1], [830, 2], [835, 1], [839, 1], [842, 1], [852, 1],
+  [854, 1], [855, 1], [864, 1], [865, 1], [868, 1], [872, 1], [878, 2], [883, 1],
+  [889, 1], [890, 1], [911, 1], [925, 1], [942, 2], [959, 1], [982, 1], [992, 1],
+  [1000, 1], [1003, 1], [1005, 1], [1006, 1], [1043, 1], [1068, 1], [1073, 1], [1114,
+  1], [1127, 2], [1132, 1], [1144, 1], [1207, 1], [1221, 1], [1279, 1], [1291, 1],
+  [4004, 1]]'
+src_sent_tokens_mean: 55
+src_sent_tokens_median: 26
+src_unique_sents: '[[1, 106], [2, 193], [3, 209], [4, 268], [5, 307], [6, 288], [7,
+  294], [8, 274], [9, 428], [10, 342], [11, 267], [12, 280], [13, 253], [14, 249],
+  [15, 241], [16, 224], [17, 208], [18, 175], [19, 178], [20, 182], [21, 140], [22,
+  129], [23, 131], [24, 123], [25, 122], [26, 116], [27, 103], [28, 114], [29, 101],
+  [30, 111], [31, 122], [32, 107], [33, 99], [34, 99], [35, 93], [36, 76], [37, 98],
+  [38, 94], [39, 105], [40, 91], [41, 83], [42, 76], [43, 85], [44, 85], [45, 67],
+  [46, 75], [47, 70], [48, 62], [49, 72], [50, 68], [51, 75], [52, 75], [53, 77],
+  [54, 62], [55, 63], [56, 53], [57, 58], [58, 64], [59, 51], [60, 54], [61, 52],
+  [62, 53], [63, 50], [64, 58], [65, 55], [66, 53], [67, 44], [68, 37], [69, 43],
+  [70, 52], [71, 42], [72, 53], [73, 48], [74, 37], [75, 48], [76, 37], [77, 56],
+  [78, 33], [79, 48], [80, 49], [81, 32], [82, 33], [83, 38], [84, 45], [85, 40],
+  [86, 34], [87, 28], [88, 37], [89, 43], [90, 32], [91, 37], [92, 41], [93, 39],
+  [94, 33], [95, 38], [96, 42], [97, 32], [98, 31], [99, 31], [100, 28], [101, 31],
+  [102, 41], [103, 24], [104, 37], [105, 33], [106, 21], [107, 26], [108, 31], [109,
+  21], [110, 40], [111, 32], [112, 30], [113, 29], [114, 28], [115, 33], [116, 21],
+  [117, 27], [118, 26], [119, 22], [120, 29], [121, 26], [122, 27], [123, 19], [124,
+  23], [125, 21], [126, 30], [127, 29], [128, 15], [129, 30], [130, 17], [131, 23],
+  [132, 26], [133, 19], [134, 23], [135, 25], [136, 20], [137, 18], [138, 18], [139,
+  27], [140, 9], [141, 12], [142, 18], [143, 10], [144, 21], [145, 19], [146, 15],
+  [147, 17], [148, 19], [149, 17], [150, 13], [151, 16], [152, 15], [153, 9], [154,
+  8], [155, 7], [156, 8], [157, 10], [158, 13], [159, 13], [160, 9], [161, 8], [162,
+  8], [163, 11], [164, 8], [165, 12], [166, 11], [167, 6], [168, 8], [169, 12], [170,
+  5], [171, 10], [172, 8], [173, 12], [174, 8], [175, 9], [176, 10], [177, 10], [178,
+  4], [179, 7], [180, 5], [181, 3], [182, 7], [183, 3], [184, 5], [185, 2], [186,
+  3], [187, 7], [188, 4], [189, 8], [190, 6], [191, 6], [192, 3], [193, 4], [194,
+  3], [195, 2], [196, 3], [197, 6], [198, 4], [199, 3], [200, 3], [201, 4], [202,
+  4], [203, 6], [204, 4], [205, 4], [206, 1], [207, 5], [208, 1], [209, 3], [210,
+  3], [211, 1], [213, 4], [214, 1], [215, 3], [216, 2], [217, 1], [218, 2], [219,
+  1], [220, 3], [222, 2], [223, 2], [224, 1], [225, 1], [227, 3], [228, 2], [230,
+  2], [231, 1], [232, 1], [235, 2], [236, 2], [238, 2], [239, 1], [240, 2], [242,
+  2], [243, 1], [245, 5], [246, 1], [248, 2], [249, 2], [250, 2], [251, 2], [252,
+  3], [253, 1], [254, 3], [257, 2], [258, 1], [262, 1], [263, 2], [264, 3], [269,
+  3], [270, 1], [272, 1], [273, 1], [278, 3], [281, 1], [286, 1], [289, 1], [290,
+  1], [292, 1], [293, 2], [296, 1], [299, 1], [300, 1], [301, 1], [304, 1], [305,
+  1], [306, 1], [308, 2], [312, 1], [314, 1], [316, 1], [317, 1], [321, 1], [323,
+  1], [326, 1], [332, 1], [336, 2], [339, 1], [343, 2], [353, 2], [356, 1], [357,
+  1], [364, 1], [367, 1], [368, 1], [371, 1], [372, 2], [373, 1], [376, 1], [377,
+  1], [379, 2], [386, 1], [388, 1], [389, 1], [392, 2], [398, 1], [403, 1], [408,
+  1], [409, 1], [411, 3], [413, 1], [415, 3], [416, 1], [417, 1], [418, 2], [419,
+  1], [420, 1], [421, 1], [423, 1], [427, 1], [434, 2], [437, 1], [438, 2], [439,
+  1], [445, 1], [447, 2], [449, 1], [450, 1], [457, 2], [459, 1], [460, 2], [464,
+  1], [466, 1], [467, 1], [468, 1], [469, 1], [473, 1], [474, 1], [479, 1], [480,
+  1], [481, 1], [484, 1], [486, 1], [491, 1], [497, 1], [499, 2], [504, 2], [507,
+  1], [508, 1], [509, 1], [515, 1], [517, 1], [521, 1], [530, 2], [531, 2], [532,
+  2], [536, 1], [537, 1], [539, 1], [540, 1], [548, 1], [549, 1], [552, 1], [553,
+  1], [554, 1], [555, 1], [558, 1], [560, 1], [561, 1], [562, 1], [563, 1], [566,
+  1], [568, 4], [569, 1], [570, 2], [572, 1], [579, 1], [581, 1], [585, 1], [587,
+  1], [588, 2], [591, 1], [598, 1], [603, 1], [608, 1], [610, 2], [611, 1], [612,
+  1], [618, 2], [621, 2], [622, 1], [626, 1], [630, 1], [632, 1], [634, 1], [636,
+  3], [638, 1], [639, 1], [645, 1], [652, 1], [654, 1], [657, 2], [663, 1], [667,
+  1], [674, 1], [675, 2], [680, 1], [683, 1], [685, 1], [687, 1], [689, 1], [702,
+  1], [703, 1], [705, 1], [713, 1], [714, 2], [715, 1], [719, 1], [720, 1], [741,
+  2], [743, 1], [751, 1], [759, 1], [766, 2], [771, 1], [782, 1], [784, 1], [785,
+  1], [788, 1], [793, 1], [798, 2], [805, 1], [808, 1], [810, 1], [815, 1], [826,
+  1], [827, 1], [828, 1], [830, 2], [835, 1], [839, 1], [842, 1], [852, 1], [854,
+  1], [855, 1], [864, 1], [865, 1], [868, 1], [872, 1], [878, 2], [883, 1], [889,
+  1], [890, 1], [911, 1], [925, 1], [942, 2], [959, 1], [982, 1], [992, 1], [1000,
+  1], [1003, 1], [1005, 1], [1006, 1], [1043, 1], [1068, 1], [1073, 1], [1114, 1],
+  [1127, 2], [1132, 1], [1144, 1], [1207, 1], [1221, 1], [1279, 1], [1291, 1], [4004,
+  1]]'
+src_langs: '[["tl", 3383], ["en", 2604], ["sw", 2362], ["war", 1079], ["ilo", 774],
+  ["ur", 300], ["fi", 273], ["hr", 210], ["id", 179], ["vi", 133], ["ceb", 125], ["la",
+  116], ["it", 111], ["de", 111], ["pl", 107], ["es", 98], ["jv", 84], ["pt", 74],
+  ["sl", 70], ["uk", 68], ["eo", 57], ["tr", 55], ["kn", 53], ["ms", 43], ["lt", 40],
+  ["nl", 37], ["sv", 34], ["fr", 33], ["ru", 30], ["kw", 29], ["eu", 29], ["hu", 26],
+  ["nn", 23], ["su", 22], ["lv", 19], ["mg", 17], ["bs", 16], ["cs", 15], ["sr", 14],
+  ["nb", 14], ["ca", 13], ["tg", 10], ["sq", 10], ["gn", 10], ["kv", 9], ["cy", 9],
+  ["zh", 8], ["min", 8], ["is", 8], ["et", 7], ["el", 7], ["az", 7], ["ml", 6], ["bn",
+  6], ["so", 5], ["ja", 5], ["bcl", 5], ["rm", 4], ["qu", 4], ["io", 4], ["ht", 4],
+  ["sk", 3], ["scn", 3], ["ro", 3], ["ie", 3], ["wa", 2], ["ta", 2], ["si", 2], ["my",
+  2], ["lo", 2], ["ku", 2], ["ko", 2], ["jbo", 2], ["gl", 2], ["da", 2], ["als", 2],
+  ["yo", 1], ["vo", 1], ["th", 1], ["te", 1], ["pnb", 1], ["pms", 1], ["nds", 1],
+  ["lmo", 1], ["lb", 1], ["hi", 1], ["gu", 1], ["fa", 1], ["bo", 1], ["bg", 1], ["bar",
+  1]]'
+hardrules_tags: '{"not_too_long": 325, "not_too_short": 744, "length_ratio": 0, "no_urls":
+  41, "no_bad_encoding": 0, "pii": 0}'
+sample: '["\"ASI, ASI! And\u0169 me\u0129kany\u2019a ata? Mevoya kasa\u0169! Me\u0129ka
+  \u0169u n\u0169nd\u0169 wa k\u0129?\\nY\u0129la Mose wekalile k\u0129\u0129man\u0129
+  \u0129vinda y\u0129asa, and\u0169 n\u0129maisye: \u2018T\u0169y\u0129s\u0129 \u0169nd\u0169
+  \u0169la \u0169m\u0169kwat\u0129te Mose. Kwoou ekai t\u0169se\u0169vye ngai \u0129la
+  \u0129kat\u0169tongoesya kuma nth\u0129 \u0129no.\\nNake Aluni mwana-a-inyia wa
+  Mose amea, \u2018N\u0129kw\u0129kwe \u0169u. Umyai ngome sya thaavu ila sy\u0129
+  mat\u0169n\u0129 menyu, na m\u0169indetee.\u2019 Y\u0129la and\u0169 meekie \u0169u,
+  Aluni aitwekethya na ase\u0169vya kasa\u0169 ka thaavu. Na and\u0169 masya: \u2018\u0128no
+  n\u0129yo ngai yait\u0169 \u0129la yatumisye nth\u0129 ya Misili!\u2019 Na \u0129nd\u0129
+  Aisilaeli meeth\u0129wa na mboka nene, na mathaitha kasa\u0169 kau ka thaavu.\\nY\u0129la
+  Yeova woonie \u0169u, athil\u0129ka m\u0169no. Kwoou eea Mose: \u2018\u0168k\u0129la
+  w\u0129kalaat\u0129te \u0169thee. N\u0169nd\u0169 and\u0169 maendee na kw\u0129ka
+  na\u0129 nene. N\u0129mol\u0129twe n\u0129 m\u0129ao yakwa namo methaitha kasa\u0169
+  ka thaavu.\u2019\\nKwoou Mose atheea na m\u0129t\u0169k\u0129 kuma k\u0129\u0129man\u0129.
+  Na y\u0129la wathengeeie, \u0169\u0169 n\u0129w\u2019o woonie. And\u0169 n\u0129mainaa
+  na k\u0169s\u0169nga mathy\u0169l\u0169l\u0169k\u0129te kasa\u0169 kau ka thaavu.
+  Mose athatie m\u0169no nginya amekya nth\u0129 ala masengea el\u0129 maand\u0129k\u0129twe
+  \u0129la m\u0129ao, namo matil\u0129kanga t\u0169lungu twing\u0129 m\u0169no. Na
+  \u0129nd\u0129 oosa kala kasa\u0169 ka thaavu akav\u0129vya na mwaki katweka, na
+  akathia katw\u2019\u0129ka m\u0169tu.\\nAnd\u0169 meekie \u0169nd\u0169 m\u0169th\u0169ku
+  m\u0169no. Kwoou Mose eea a\u0169me amwe mose mby\u0169 syoo. Na asya: \u2018And\u0169
+  ath\u0169ku ala mathaithie kala kasa\u0169 ka thaavu no nginya moawe.\u2019 Na kwoou
+  a\u0169me asu moaa and\u0169 3,000! \u0168nd\u0169 \u0169\u0169 w\u0129onany\u2019a
+  kana n\u0129twa\u0129lwe n\u0129kw\u0129s\u0169v\u0129a na k\u0169thaithaa Yeova
+  e weka, na ti ngai ing\u0129 o na sy\u0129va sya \u0169v\u0169ng\u0169.\\nKuma 32:1-35.\\nMak\u0169lyo\\n-
+  And\u0169 me\u0129ka ata visan\u0129 \u0169\u0169, na n\u0129k\u0129?\\n- Yeova
+  athat\u0129tw\u2019e n\u0129 kya\u0169, na Mose eekie ata y\u0129la woonie \u0169nd\u0169
+  and\u0169 maendee na kw\u0129ka?\\n- Mose eeie a\u0169me amwe n\u0129meke ata?\\n-
+  Ngewa \u0129no ya\u0129l\u0129te k\u0169t\u0169many\u0129sya \u0129somo ya\u0169?\\nMak\u0169lyo
+  ma kwongeleela\\n- Soma Kuma 32:1-35.\\n\u0168voo \u0169\u0169 w\u0129onany\u2019a
+  ata woni wa Yeova \u0129\u0169l\u0169 wa k\u0169vulany\u2019a \u0169thaithi wa \u0169v\u0169ng\u0169
+  na \u0169la wa w\u2019o? (Kuma 32:4-6, 10; 1 Ako. 10:7, 11)\\nAkl\u0129sto ma\u0129l\u0129te
+  kw\u0129s\u0169v\u0129a ata y\u0129la me\u0169nyuva ma\u0169nd\u0169 ma kw\u0129tan\u0129thya,
+  ta kwina na k\u0169s\u0169nga? (Kuma 32:18, 19; Aev. 5:15, 16; 1 Yoa. 2:15-17)\\nAna
+  ma Alivai maiie ngelekany\u2019o nzeo ata \u0129\u0169l\u0169 wa k\u0169\u0169ngama
+  tw\u0129l\u0169m\u0129tye kwond\u0169 wa \u0169l\u0169ngalu? (Kuma 32:25-28; Sav.
+  18:25)\"", "\"1. Tw\u0129 na \u0169voo mwa\u0169 kuma kwa Ngai?\\nNgai endaa and\u0169
+  matan\u0129e thay\u0169 \u0129\u0169l\u0169 wa nth\u0129. Oombie nth\u0129 na sy\u0129nd\u0169
+  syonthe ila sy\u0129 nth\u0129n\u0129 wayo n\u0169nd\u0169 n\u0129wendete and\u0169.
+  O m\u0129t\u0169k\u0129 n\u0169kwosa \u0129tambya ya k\u0169etee and\u0169 onthe
+  \u0129vinda \u0129seo. Akavetanga ma\u0169nd\u0169 ala matumaa and\u0169 math\u0129na.\\nVai\u0129
+  o na \u0129nd\u0129\u0129 silikal\u0129 yaatonya k\u0169vetanga ka\u0169, mowau,
+  kana k\u0129kw\u2019\u0169. \u0128nd\u0129 ve \u0169voo m\u0169seo. O m\u0129t\u0169k\u0129,
+  Ngai n\u0169k\u0169vetanga silikal\u0129 sya and\u0169 na ai\u0169ngamya yake. Ala
+  mesumb\u0129kwa n\u0129 silikal\u0129 \u0129su ya Ngai makatan\u0129a m\u0169uo
+  na \u0169ima wa mw\u0129\u0129.\\n2. N\u0129k\u0129 \u0169voo m\u0169seo n\u0129
+  wa vata m\u0169no \u0169m\u0169nth\u0129?\\nTh\u0129na \u0169kathela \u0129la Ngai
+  \u0169kananga and\u0169 ath\u0169ku \u0129\u0169l\u0169 wa nth\u0129. (Nzevania
+  2:3) Akeeka \u0169u \u0129nd\u0129\u0129? Ndeto ya Ngai n\u0129yathanie \u0129\u0169l\u0169
+  wa ma\u0169nd\u0169 ala malik\u0129tye and\u0169 m\u0169isyon\u0129 \u0169m\u0169nth\u0129.
+  Ma\u0169nd\u0169 asu maendee kw\u0129k\u0129ka meonany\u2019a kana \u0129vinda ya
+  Ngai ya kwosa \u0129tambya n\u0129thengeeu.\\n3. Twa\u0129le kw\u0129ka ata?\\nTwa\u0129le
+  kw\u0129many\u0129sya \u0129\u0169l\u0169 wa Ngai kwa k\u0169t\u0169m\u0129a Mbivilia,
+  Ndeto yake. Mbivilia n\u0129 ta val\u0169a kuma kwa \u0129the w\u0129 wendo. \u0128t\u0169tavasya
+  \u0169nd\u0169 t\u0169tonya k\u0169tan\u0129a thay\u0169 m\u0169seango \u0169m\u0169nth\u0129
+  na \u0169nd\u0169 t\u0169katan\u0129a thay\u0169 \u0169tathela \u0129\u0169l\u0169
+  wa nth\u0129 \u0129vinda y\u0169k\u0129te. N\u0129 w\u2019o, amwe n\u0129matonya
+  k\u0169lea kwendeew\u2019a kwona \u0169itetheew\u2019a \u0169elewe n\u0129 Mbivilia.
+  \u0128nd\u0129 kw\u0129th\u0129wa na \u0129vinda y\u0169k\u0129te \u0129seo n\u0129
+  \u0169nd\u0169 m\u0169seo vy\u0169 \u0169ta\u0129le k\u0169kosa.\"", "\"KWASISYA
+  ny\u0169mba \u0129no \u0169nd\u0169 y\u0129any\u2019a and\u0169. Aa n\u0129 ana
+  12 ma Yakovo. Na a\u0129 o na e\u0129tu. We n\u0129w\u0129s\u0129 masy\u0129twa
+  ma syana imwe? Ekai tw\u0129many\u0129sye masy\u0129twa ma amwe moo.\\nLea asyaie
+  Le\u0169veni, Simeoni, Livai, na Yuta. Y\u0129la Lakeli woonie kana nde\u0169syaa
+  syana, n\u0129wamakie m\u0169no vy\u0169. Kwond\u0169 wa \u0169u am\u0169nenga Yakovo
+  m\u0169th\u0169k\u0169mi wake wa mw\u0129\u0129tu weetawa Mbila, nake Mbila asyaa
+  ana el\u0129 meetawa Ndani na Navitali. O nake Lea am\u0169nenga Yakovo m\u0169th\u0169k\u0169mi
+  wake wa mw\u0129\u0129tu weetawa Nziliva, na Nziliva asyaa Ngati na Aseli. \u0128tina
+  Lea n\u0129wasyokie asyaa ana ang\u0129, Isakali na Nzevuluni.\\nNa \u0129nd\u0129
+  \u0129tina wa k\u0169m\u0129\u0129sya \u0129vinda y\u0129asa Lakeli n\u0129wakwatie
+  mwana. Na amw\u0129ta sy\u0129twa yake Yosevu. \u0128tina t\u0169keemany\u0129sya
+  m\u0169nango \u0129\u0169l\u0169 wa Yosevu, n\u0169nd\u0169 n\u0129wesie k\u0169tw\u2019\u0129ka
+  m\u0169nd\u0169 wa vata m\u0169no. Aa n\u0129mo ana 11 ala Yakovo wasya\u0129we
+  y\u0129la wekalaa na \u0129the wa Lakeli Lavani.\\nNa \u0129ng\u0129 Yakovo a\u0129
+  o na e\u0129tu, \u0129nd\u0129 Mbivilia \u0129wetete sy\u0129twa ya \u0169mwe t\u0169.
+  Sy\u0129twa yake eetawa Ndina.\\n\u0128vinda n\u0129yavikie y\u0129la Yakovo watwie
+  k\u0169m\u0169tia Lavani na k\u0169syoka Kanaani. Kwoou oombany\u2019a and\u0169
+  ma m\u0169sy\u0129 wake m\u0169nene na nd\u0129thya syake nene sya malondu na ng\u2019ombe
+  na amb\u0129\u0129a kyalo k\u0129u k\u0129asa.\\n\u0128tina wa Yakovo na and\u0169
+  ma m\u0169sy\u0129 wake k\u0169syoka na kw\u0129kalanga Kanaani kwa \u0129vinda,
+  Lakeli n\u0129wasyaie mwana \u0169ng\u0129. \u0168u weeth\u0129iwe me kyalon\u0129.
+  Lakeli n\u0129wa\u0169nyie na vinya na esa o k\u0169kw\u2019a aisyaa. \u0128nd\u0129
+  kana kanini ka kav\u0129s\u0129 kala kasyaiwe ka\u0129 o kaseo. Yakovo aketie Mbenyamini.\\nN\u0129t\u0169kwenda
+  t\u0169lilikane masy\u0129twa ma ana 12 ma Yakovo n\u0169nd\u0169 mba\u0129 syonthe
+  sya Isilaeli syaumie nth\u0129n\u0129 woo. Mba\u0129 12 sya Isilaeli syatw\u2019\u0129\u0129we
+  masy\u0129twa kw\u0129anana na ana 10 ma Yakovo na ana el\u0129 ma Yosevu. Isaka
+  ekalile myaka ming\u0129 \u0129tina wa imwana ii k\u0169syawa, na no m\u0169vaka
+  eth\u0129we atanie m\u0169no kw\u0129th\u0129wa na es\u0169k\u0169\u0169e aing\u0129
+  m\u0169no. \u0128nd\u0129 ekai twone \u0169nd\u0169 kweek\u0129kie kwa Ndina mw\u0129s\u0169k\u0169\u0169e
+  wake wa mw\u0129\u0129tu.\\nMwamb\u0129l\u0129lyo 29:32-35; 30:1-26; 35:16-19; 37:35.\\nMak\u0169lyo\\n-
+  Masy\u0129twa ma ana thanthat\u0169 ala Yakovo wasyaie na k\u0129veti kyake kya
+  mbee Lea n\u0129 meva?\\n- N\u0129 ana meva el\u0129 ala Nziliva m\u0169th\u0169k\u0169mi
+  wa m\u0169nd\u0169 m\u0169ka wa Lea wam\u0169sya\u0129e Yakovo?\\n- Ana el\u0129
+  ala Mbila m\u0169th\u0169k\u0169mi wa m\u0169nd\u0169 m\u0169ka wa Lakeli wam\u0169sya\u0129e
+  Yakovo meetawa ata?\\n- N\u0129 ana meva el\u0129 ala Lakeli wasyaie, \u0129nd\u0129
+  kweek\u0129kie ata y\u0129la mwana wa kel\u0129 wasyaiwe?\\n- Kwosana na visa, Yakovo
+  ena ana meana, na n\u0129 kya\u0169 kyaumie nth\u0129n\u0129 woo?\\nMak\u0169lyo
+  ma kwongeleela\\n- Soma Mwamb\u0129l\u0129lyo 29:32-35; 30:1-26; na 35:16-19.\\nTond\u0169
+  \u0169voo wa ana 12 ma Yakovo \u0169kwonany\u2019a, mavinda maing\u0129 imwana sya
+  Aevelania syatw\u2019\u0129\u0129awa masy\u0129twa ata?\\n- Soma Mwamb\u0129l\u0129lyo
+  37:35.\\nO na k\u0169tw\u2019\u0129ka Ndina n\u0129we \u0169wetetwe nth\u0129n\u0129
+  wa Mbivilia, tw\u0129s\u0129 ata kana Yakovo a\u0129 na e\u0129tu aing\u0129? (Mwa.
+  37:34, 35)\"", "\"N\u0129t\u0169\u0169k\u0169thokya na \u0169tanu w\u0129\u0169ka
+  \u0169mbanon\u0129 m\u0169nene wa m\u0129thenya \u0129tat\u0169 \u0169la \u0169kekwa
+  n\u0129 Ng\u0169s\u0129 sya Yeova.\\nMA\u0168ND\u0168 MANENE\\nWakatano: \u0168keemany\u0129sya
+  \u0169nd\u0169 Yes\u0169 Kl\u0129sto wa\u0129 ngelekany\u2019o nzeo ya m\u0169nd\u0169
+  wa\u0129 m\u0169\u0129k\u0129\u0129ku kwa Ngai kw\u0129s\u0129la ma\u0169voo na
+  vitio nguv\u0129.\u2014Meko ma At\u0169mwa 2:27.\\nWathanthat\u0169: \u0168keemany\u0129sya
+  \u0169nd\u0169 \u0129vuku ya Yovu y\u0129tonya k\u0169t\u0169tetheesya t\u0169endeee
+  kw\u0129th\u0129wa tw\u0129 a\u0129k\u0129\u0129ku o na twakomana na math\u0129na
+  meana ata.\\nWakyumwa: Vitio ya kwendeesya m\u0169no \u0129kak\u0169tetheesya kwona
+  \u0169nd\u0169 M\u0169sumb\u0129 Esekia waendeeie \u2018k\u0169l\u0169many\u2019a
+  na Yeova\u2019 \u0129la wavith\u0169k\u0129iwe n\u0129 ita sya amaitha.\u20142 Asumb\u0129
+  18:6.\\nNAA\u0168 MATHOKETW\u2019E?\\nK\u0129la m\u0169nd\u0169. K\u0169lika n\u0129
+  mana na vai mbesa ikakolanw\u2019a.\\nSisya walany\u2019o wa \u0169mbano \u0169\u0169
+  w\u2019onthe na \u0169y\u0129loela t\u0169lungu tw\u0129l\u0129 twa vitio ila ikonanw\u2019a
+  \u0169mbanon\u0129 \u0169\u0169.\"", "\"Munini wa President William Ruto niwaweta
+  unenanya ula wendeye kati wa kyama kya UDA ,ANC na Ford Kenya niwakwailya nthi ya
+  kenya kuma kwailya ukwati,democrasia,ulusani ,thie munene ula itaetwe kati wa maundu
+  angi.\\nAinenea musyi kwake kisioni kya Karen vaa musyini wa ilovi kavindani kala
+  wakomana na ambunge ala makukwatite mbau niwaweta uneni ula Musalia Mudavadi ula
+  niwe ndongoi ya kyama kya ANC unenie kwi iyoo niwonanya wa kana ena mwolooto umwe
+  ula wina kyama kiu kya UDA vala waumbula omituki nimekwithiwa maitangasa muungamo
+  wa ngwatanio isu me nayo kwa akenya.\\nOingi niwatula muti ateti amwe ala meukitia
+  kivila kya usumbi na muno ndongoi ya kyama kya ODM Raila Odinga na kwithiwa aikunia
+  maleve uteti wa ithokoo vala waweta muungamo wa kyama kya UDA ti kwikonya na uteti
+  usu ayunya wito kwa inspector General wa polisi Hillary Mutyambai kumosea matambya
+  mavyu ma miao ateti ala mekuothotheea ithokoo kati kati wa enethi kavindani ka kampeini
+  syoo.\"", "\"1\u0169Yesu nup\u0169na muNumba ya k\u0129Nzua, nu\u0129 ulonguile;
+  \u0129amanigua naamuagaana, it\u0129 amulag\u0129\u0129le uuza wa uuzengua wa Numba
+  ya k\u0129Nzua. 2\u0169Yesu nuashookeelia, nua\u0129\u0129la, \u201cSika mumaooniene
+  aya t\u0169l\u0169. Tai, namu\u0129\u0129la, Sika likishaaga kigy\u0169e mukiania
+  igy\u0169e nasikalikigumulua. 3P\u0129na al\u0129 wikyalansile Munkonko ya M\u0129zeituni,
+  \u0129amanigua aakue naamuagaana k\u0129mpelo, naa\u0169ga, \u2018Ku\u0129\u0129le,
+  izi zikit\u0169la nzal\u0129. N\u0129k\u0129l\u0129ngas\u0129\u0129lio k\u0129 kya
+  kushooka kumuako, n\u0129kya mpelo ya unk\u0169mbigyulu?\u2019\u201d 4\u0169Yesu
+  nuashookeelia, nua\u0129\u0129la, \u201cKengeal\u0129, muntu wensi waleke kumupembeelia.
+  5Kuit\u0129 iing\u0129 ikiiiza kuliina liane, \u0128iuga, \u2018\u0128ne neene Kilisito,\u2019
+  nd\u0129o ikipembeelia iing\u0129. 6Kang\u0129 mukiiigia mpola za ulugu nuuk\u0169muuki
+  wa ulugu; laa\u0129, mulekit\u0169mbua, 7kuit\u0129 \u0129ndugu ikiuuka \u0129kue
+  n\u0129ndugu, nuutemi w\u0129kue nuutemi; ikit\u0169la nzala n\u0129m\u0129manga
+  uko n\u0129nduuko. 8Aya mensi ing\u0129 muandio ud\u0169\u0169 wa usungu naukulu.\u201d
+  9\u201cPaapo \u0129kakumusongeela inie muligie impat\u0129, nukukumuulaga; kang\u0129
+  indugu t\u0169l\u0169 z\u0129kakumusuuk\u0129lua kunsooko ya liina liane. 10Paapo
+  iing\u0129 ikishooka n\u0169ma nukuk\u0129songeela nukuk\u0129suuk\u0129lua eene
+  kueene; 11n\u0129anak\u0129dagu iing\u0129 a ulongo \u0129kakigyelela nukwilim\u0129\u0129lia
+  iing\u0129. 12Nukunsooko ya kongeeleka uuleki, uulogua wa antu iing\u0129 ukipola.
+  13\u0128pa nwakugigim\u0129lia sunga kumpelo, uuyo ukig\u0169n\u0129ka 14niMpola
+  naNziiza izi za utemi zikitanantigua muunk\u0169mbigyulu t\u0169l\u0169, w\u0129\u0129
+  uku\u0129li kundugu zensi; paapo \u0129mpelo ikipika.\u201d 15\u201cIio gua p\u0129na
+  mukakuk\u0129ona \u0129k\u0129ol\u0169 kya oononeki, k\u0129na al\u0129 k\u0129tambulue
+  numunak\u0129dagu uDanieli, ki\u0129m\u0129ka pana yeelu (nwishoma nwal\u0129nge),
+  16Paapo \u0129a muUyah\u0169di atalam\u0129le kunkonko; 17nwa kwityembe walekitima
+  nukwiing\u0129la munumba yaakue wasole k\u0129ntu, 18nunwa kumugunda walekishookela
+  kantiila zaakue. 19Uk\u0129a waao naamaimbi n\u0129naukaa ionkia intondo zaasio!
+  20Lomp\u0129 kona uutalami waani ulekit\u0169la muntondo za mbula, sunga palutondo
+  lwa wikyali. 21Kuit\u0129 intondo zaasio lukit\u0169la lumpat\u0129 lukulu nasika
+  lwalakigyelela kwip\u0169na umuandio wa unk\u0169mbigyulu sunga nantende; sunga
+  sika ijile kigyelela kainiino. 22Kanga intondo zaasio \u0129sika al\u0129 nkaguligue,
+  sika al\u0129 wijilig\u0169n\u0129ka kamuntu wensi. \u0128pa kunsooko ya asaagulua
+  zikikaguligua intondo zaasio. 23iTy\u0169ngo liasio kanga muntu wensi wamu\u0129\u0129la,
+  \u2018Laa\u0129 uKilisito ukool\u0129 \u0129pa, katia ukool\u0129 uko, lekishu\u0129\u0129l\u0129.\u2019
+  24Kuit\u0129 m\u0129kakigyelela maKilisito ma ulongo, n\u0129manak\u0129dagu ma
+  ulongo; ndazo mikitenda il\u0129ngas\u0129\u0129lio ikulu n\u0129makula, nukukualim\u0129\u0129lia
+  mal\u0129\u0129 ish\u0169\u0169mikile, sunga \u0129asaagulua. 25Laa\u0129, nakondagiaa
+  kukumusugula. 26Luulo gua, mal\u0129\u0129 amu\u0129\u0129la, \u2018Ntuuyo kumbuga,
+  lekip\u0169n\u0129; ntuuyo kumbele, lekishu\u0129\u0129l\u0129.\u2019 27Kuit\u0129
+  k\u0129na iio-iioo ulup\u0129\u0129to nalukup\u0169naa kuk\u0129\u0129l\u0129ma
+  nalup\u0129\u0129ta sunga kumueli, iio-iioo ikit\u0169la kwiiiza kumuakue uMuana-muntu.
+  28Kuit\u0129 t\u0169l\u0169 pensi p\u0129na umuimba w\u0129\u0129l\u0129, paapo
+  ind\u0129\u0129 z\u0129kak\u0129iling\u0129\u0129la. 29P\u0129na lwak\u0129la ulumpat\u0129
+  lwa ntondo zaasio, \u0129kamu\u0129 \u0129mpasu \u0129kak\u0129lyupigua, numueli
+  sika ukip\u0169nia uweelu waakue, ninshonda zikigua kwip\u0169na kwigyulu, ning\u0169l\u0169
+  za kwigyulu zikish\u0169ng\u0169s\u0129ka. 30Paapo k\u0129kakigyelela \u0129k\u0129l\u0129gas\u0129\u0129lio
+  kya Muana-muntu kwigyulu; nindugu t\u0169l\u0169 zensi za unk\u0169mbigyulu zikil\u0129la
+  k\u0129l\u0129lo nukukumuona uMuana-muntu upolokile mukiania ya mal\u0169nde ma
+  kwigyulu kung\u0169l\u0169 nuukulu wing\u0129. 31Ukakuatuma \u0129amala\u0129ka
+  aakue palumu\u0129 nululi lukulu lwidyede; nd\u0129o \u0129kakualund\u0129\u0129la
+  \u0129asaagulua aakue kwip\u0169na nand\u0129 zin\u0129\u0129, kwip\u0169na \u0129mpelo
+  igyulu sunga \u0129mpelo nz\u0129a.\u201d 32\u201c\u0128manie mpiani kumukuu, p\u0129na
+  ulutamb\u0129 luakue lwas\u0129puka nuk\u0169shonga \u0129mal\u0169ka maakue mukul\u0129ngaa
+  k\u0129na \u0129songola yan\u0169nkaa 33Iio gua niniinie, p\u0129na mwaona aya t\u0169l\u0169
+  mensi mikigyela, kul\u0129nge k\u0129na w\u0129 piip\u0129 pam\u0129lango. 34Tai
+  namu\u0129\u0129la, uLuuli ulu sika lukiula sunga aya t\u0169l\u0169 mensi mikitendeka.
+  35iGyulu n\u0129ns\u0129\u0129 zikik\u0129la, \u0129pa inkaani zaane sika zikik\u0129la
+  kainiino. 36\u0128pa impola za ntondo zaasio nity\u0169ngo liasio kutil\u0129 numanile;
+  sunga \u0129amala\u0129ka a kwigyulu, nu Muana gaa, \u0129pa uTata ud\u0169\u0169.
+  37K\u0129na al\u0129 it\u0169lile muntondo za k\u0129Noe, iio ikit\u0169la p\u0129na
+  ukiiiza uMuana-muntu. 38K\u0129na iio naal\u0129 it\u0169lile muntondo zaasio p\u0129na
+  al\u0129 wik\u0129\u0129l\u0129 uwijuli wa maaz\u0129, antu nail\u0129a nukwikopa;
+  naitoola nukwitoolua, sunga palutondo luulo p\u0129na uNoe n\u0169ing\u0129la mwipyango;
+  39sika naal\u0129nga sunga uwijuli wa maaz\u0129 naw\u0129\u0129za, nuakap\u0129lia
+  sue; iio ikit\u0169la p\u0129na ukiiiza uMuana-muntu. 40iTy\u0169ngo liasio, antu
+  ab\u0129l\u0129 ukaa \u0129\u0129l\u0129 mumugunda, umu\u0129 watualue, umuua walekue.
+  41Asungu ab\u0129l\u0129 ukaa ishia, umu\u0129 watualue, umuua walekue, 42\u201cLuulo,
+  kengeal\u0129 gua, kunsooko sika mumanile ulutondo k\u0129 \u0169Shekulu waani p\u0129na
+  wijile. 43\u0128pa l\u0129ng\u0129 ulukaani ulu, umukola numba kanga \u0129alumanile
+  ity\u0169ngo um\u0169ii p\u0129na \u0169jile, al\u0169jilikengeala, \u0129numba
+  yaakue \u0129lekish\u0129mbua. 44Luulo gua niniinie \u0129z\u0129p\u0129\u0129lie,
+  kuit\u0129 ity\u0169ngo nasika mul\u0129s\u0129\u0129gile, paapo uMuana-muntu wijile.\u201d
+  45\u201cWaani gua umw\u0129tumi namusu\u0129\u0129li namunamasala naal\u0129 mupeegue
+  umul\u0129mo n\u0169Shekulu waakue, waapeele \u0129antu a numba yaakue india zaao
+  pity\u0169ngo liao? 46Muliuk\u0169 umw\u0129tumi nuasio \u0169Shekulu wakue p\u0129na
+  ukakumuagaana witenda yaasio. 47Tai namu\u0129\u0129la, ukakumu\u0129\u0129ka w\u0129\u0129mukulu
+  munsao zakue t\u0169l\u0169 zensi. 48\u0128pa umw\u0129tumi nuasio namub\u0129\u0129
+  kanga wa\u0169ge munkolo yaakue, \u2018\u0169Shekulu waane watinagiaa;\u2019 49wandie
+  kukuakua \u0129\u0129tumi \u0129\u0129\u0129a nukwil\u0129a nukwikopa palumu\u0129
+  n\u0129agaala ntulu, 50\u0169Shekulu wa mw\u0129tumi nuasio ukiiiza palutondo nasikulus\u0129\u0129gile,
+  nity\u0169ngo nasikul\u0129manile, 51ukakumuti\u0129nkanula; ukakumu\u0129\u0129k\u0129lia
+  ity\u0169mp\u0129 liakue palumu\u0129 n\u0129anamamp\u0129lu; paapo ikit\u0169la
+  k\u0129l\u0129lo nukwikelia \u0129miino.\u201d\"", "\"1Iio gua, \u0169Shekulu p\u0129na
+  numana k\u0129na \u0129Apalisayo iigilie k\u0129na \u0169Yesu waligilie amanigua
+  iing\u0129 kwik\u0129la uYohana nukukuabad\u0129\u0129zia. ( 2\u0128pa \u0169Yesu
+  umuene sika alubad\u0129z\u0129lie, al\u0129 \u0129amanigua aakue ud\u0169\u0169),
+  3nulega kuUyah\u0169di nuenda kang\u0129 k\u0169Galilaya. 4Al\u0129 yumuj\u0129pile
+  kwik\u0129l\u0129la pakat\u0129 ya Samalia. 5Iio nupika kukaa ya Samalia nyuku\u0129taguaa
+  Sikali, piip\u0129 numugunda uYakobo naalumup\u0129\u0129le umuana waakue uYosepu.
+  6\u0129Paasio al\u0129 lukool\u0129 ululungu lwa k\u0129Yakobo. \u0169Yesu, kunsooko
+  alukat\u0129\u0129le namus\u0129nzo, nwikyalansa yoi palulungu. Al\u0129 z\u0129
+  nsaa ya mutandatu. 7Nuuza musungu wa k\u0129Samalia kwitepeela \u0129maaz\u0129
+  \u0169Yesu numu\u0129\u0129la, \u201cMpeela nkope.\u201d 8Kunsooko \u0129amanigua
+  aakue al\u0129 endaa mukaa agule impamba. 9Paapo umusungu wa k\u0129Samalia numu\u0129\u0129la.
+  \u201cUe Muyah\u0169di wilompa mbii \u0129maaz\u0129 ma kukopa kumuane, nineene
+  numusungu wa k\u0129Samalia?\u201d Kunsooko \u0129Ayah\u0169di n\u0129Asamalia sika
+  kuuzaa akamant\u0129\u0129ne. 10\u0169Yesu nushookeelia numu\u0129\u0129la, \u201cKanga
+  azuul\u0129ngile azuujile kuumana uupeegua wa k\u0129Nzua ninduyo waani nuku\u0129\u0129lile,
+  mpeela nkope, az\u0169jile kumulompa uzo; nduzo az\u0169jile kukupeela \u0129maaz\u0129
+  ma upanga.\u201d 11uMusungu numu\u0129\u0129la, \u201cShekulu, umugila kya kus\u0169k\u0129lia
+  \u0129maaz\u0129 nululungu ing\u0129 lusimu; ukumalig\u0129lia mp\u0129\u0129 \u0129maaz\u0129
+  maasio nama upanga?\u201d 12Ue umukulune kwik\u0129la utata w\u0129\u0129tu uYakobo
+  naalukup\u0129\u0129le ululungu; umuene nukopa muasio n\u0129aana aakue n\u0129m\u0129t\u0169go
+  yaakue? 13\u0169Yesu nushookeelua numu\u0129\u0129la, \u201cT\u0169l\u0169 wensi
+  nukopile \u0129maaz\u0129 aya ukikolua noota kang\u0129; 14unuasio nukikopa \u0129maaz\u0129
+  nan\u0129kakumupeela \u0129ne, sikukikolua kanoota sunga \u0129kal\u0129 nakal\u0129,
+  \u0129pa \u0129maaz\u0129 nan\u0129kakumupeela mikit\u0169la muns\u0129 yaakue nzi\u0129lio
+  ya maaz\u0129 namakusamambaa sunga kuupanga wa kal\u0129 nakal\u0129.\u201d 15uMusungu
+  numu\u0129\u0129la, \u201cShekulu mpeela \u0129maaz\u0129 maasio ndekikolua \u0129noota,
+  sunga ndekiiiza kunu kwitepeela.\u201d 16\u0169Yesu numu\u0129\u0129la, \u201cLenda
+  umu\u0129te umugoosia waako ushooke kunu.\u201d 17uMusungu nu\u0169ga, \u201cNumugila
+  kamugoosia.\u201d \u0169Yesu numu\u0129\u0129la, \u201cWa\u0169gaa iiza, Numugila
+  kamugoosia, 18kunsooko alut\u0129\u0129te agoosia ataano, nduzo namw\u0129ensi \u0129painio
+  sika mugoosia waako. Ulu ulutambu\u0129le \u0129tai.\u201d 19uMusungu numu\u0129\u0129la,
+  \u201cShekulu, nal\u0129ngaa k\u0129na ue uue umunak\u0129dagu. 20\u0129Atata \u0129\u0129tu
+  al\u0129 \u0129k\u0129tekelaa muna nkonko \u0129\u0129, niniinie muku\u0169gaa k\u0129na
+  k\u0169Yelusalem\u0169 kuuko ij\u0129p\u0129\u0129le kuk\u0129tekela.\u201d 21\u0169Yesu
+  numu\u0129\u0129la, \u201cMaau nsu\u0129\u0129la, k\u0129na ity\u0169ngo likiiza
+  p\u0129na sika mukakumutekela uTata muna nkonko \u0129\u0129 katia k\u0169Yelusalem\u0169.
+  22Inie muk\u0129tekelaa nasika mukimanile; ishie kuk\u0129tekelaa nakuk\u0129manile,
+  kuit\u0129 uug\u0169nua wand\u0129l\u0129\u0129lie kuAyah\u0169di. 23\u0128pa ity\u0169ngo
+  likiiza nd\u0129\u0129pa l\u0129kool\u0129, p\u0129na \u0129\u0129tekeli a tai \u0129kakumutekela
+  uTata kunkolo nukutai. Kuluulo uTata ukuad\u0169\u0169maa k\u0129na aasio amutekele.
+  24uNzua ing\u0129 Nkolo, n\u0129nd\u0129o naakumutekelaa ij\u0129p\u0129\u0129le
+  kuk\u0129tekela kunkolo nukutai.\u201d 25uMusungu numu\u0129\u0129la, \u201cManile
+  k\u0129na uMesia wijile (nuku\u0129taguaa Kilisito) p\u0129na ukiiza uzo, ukakukupeela
+  impola t\u0169l\u0169-t\u0169\u0169l\u0169\u0169.\u201d 26\u0169Yesu numu\u0129\u0129la,
+  \u201c\u0128ne nan\u0129k\u0129tambu\u0129la ninduue ing\u0129 neene.\u201d 27Paapo
+  naaaza \u0129amanigua aakue, naakul\u0129lua kunsooko \u0129k\u0129tambu\u0129la
+  numusungu, \u0129pa kutil\u0129 naalu\u0169gile, \u201cWid\u0169\u0169ma yaani?\u201d
+  Katia, \u201cWitambula yaani kwa k\u0129uyu.\u201d 28Paapo umusungu num\u0129leka
+  \u0129ntunda, nuenda mukaa, nu\u0129 kua\u0129\u0129la \u0129antu, 29\u201cNzu\u0129
+  muone muntu naazumbu\u0129l\u0129\u0129le t\u0169l\u0169 zensi naal\u0129 nizitendile;
+  kanga wayu Kilisito, magu?\u201d 30Naap\u0169na mukaa naamuagaana. 31Uko kunuma
+  \u0129amanigua aakue naamulompa, naa\u0169ga, \u201cShekulu, l\u0129a.\u201d 32Nua\u0129\u0129la,
+  \u201cNt\u0129\u0129te \u0129ndia nya kul\u0129a nasika mum\u0129l\u0129ngile inie.\u201d
+  33\u0129Amanigua aakue na\u0129\u0129 k\u0129tambu\u0129la, \u201cMuntu aza wamuleetela
+  ndiane?\u201d 34\u0169Yesu nua\u0129\u0129la, \u201c\u0129Ndia yaane nt\u0129\u0129,\u201d
+  ntende uulooa waakue naaluntumile, \u201cNuumal\u0129\u0129lie umul\u0129mo waakue.
+  35Sika muku\u0169gaane inie, \u2018Yasaagaa mieli \u0129n\u0129\u0129, paapo w\u0129\u0129ze
+  uuogoli.\u2019 Laa\u0129 gua namu\u0129\u0129la, nans\u0169l\u0129 imiiso maani
+  \u0129laa\u0129 \u0129m\u0129gunda, yap\u0129aa, yakondaa \u0129ogolue. 36uMuogoli
+  ukuligagiaa \u0129k\u0129nauogoli nukwiiling\u0129\u0129la \u0129maogola kuupanga
+  wa kal\u0129 nakal\u0129, koona umuminzi numuogoli alumbe palumu\u0129. 37Yoi gua
+  ulukaani lukut\u0169laa lwa tai, \u2018Umu\u0129 ukuminzaa, umuua ukuogolaa.\u2019
+  38\u0128ne al\u0129 numutumile kwiogola nasika mw\u0129tumile kamul\u0129mo; na\u0129ng\u0129
+  al\u0129 \u0129tumile umul\u0129mo niniinie nam\u0169ing\u0129la mumul\u0129mo waao.\u201d
+  39Numukaa niasio Asamalia iing\u0129 naasu\u0129\u0129la mumuakue kunsooko ya lukaani
+  lwa musungu naaluku\u0129l\u0129\u0129le it\u0129, \u201cAlumbu\u0129l\u0129\u0129le
+  t\u0169l\u0169 zensi naal\u0129 nizitendile.\u201d 40Iio gua \u0129Asamalia p\u0129na
+  naamuagaanaa naaa kumulompa wikyale kunsiao, Nwikyala kuuko intondo zib\u0129l\u0129.
+  41Iing\u0129 d\u0169\u0169 naasu\u0129\u0129la kunsooko ya lukaani luakue. 42Naamu\u0129\u0129la
+  umusungu, \u201c\u0128pa kwasu\u0129\u0129laa, sika kunsooko ya nkaani zaako ud\u0169\u0169,
+  kuit\u0129 k\u0169igagiaa undiishie, kang\u0129 kumanile k\u0129na tai uzu ing\u0129
+  Mug\u0169ni wa unk\u0129mbigyulu.\u201d 43P\u0129na nazik\u0129la intondo zaasio
+  nazib\u0129l\u0129 nulega kuasio nuenda k\u0169Galilaya. 44Kuit\u0129 \u0169Yesu
+  umuene nuku\u0129la k\u0129na umunak\u0129dagu mugila kikyulio muns\u0129\u0129
+  yaakue umuene. 45P\u0129na nupika k\u0169Galilaya, \u0129Agal\u0129laya namuan\u0169nkula
+  kunsooko al\u0129 aonaa t\u0169l\u0169 naaluzitendile m\u0169Yelusalem\u0169 palutondo
+  lukulu, kunsooko n\u0129nd\u0129o al\u0129 endile kulutondo lukulu. 46Nuuza kang\u0129
+  kuKana ya Gal\u0129laya, paapo p\u0129na aluzipilie \u0129maz\u0129 mat\u0169le
+  mubinio. Alukool\u0129 muntu wak\u0129temi, umuana waakue al\u0129 mulu\u0129le
+  muKapelina\u0169m\u0169. 47Uyu p\u0129na n\u0169igia k\u0129na \u0169Yesu wijile
+  kwip\u0169na kuUyah\u0169di sunga k\u0169Galilaya, numuagaanaa numulompa wende wamukamie
+  umuana waakue naal\u0129 w\u0129piip\u0129 kwikia. 48Paapo \u0169Yesu numu\u0129\u0129la,
+  \u201cKanga musiitiona iil\u0129ngas\u0129\u0129lio n\u0129makula sika mukishu\u0129\u0129la.\u201d
+  49Umuntu nuasio numu\u0129\u0129la, \u201cShekulu, nzuu p\u0129na umuana waane wikaal\u0129
+  kalakia.\u201d 50\u0169Yesu numu\u0129\u0129la, \u201cLongola, umuana waako wakamagiaa.\u201d
+  uMuntu nulusu\u0129\u0129la ulukaani \u0169Yesu naalumu\u0129\u0129l\u0129\u0129le,
+  nulongola. 51P\u0129na al\u0129 k\u0129l\u0129 alongu\u0129le, \u0129asese aakue
+  naataagania nduyo, naa\u0169ga k\u0129na umuana waakue wakamagiaa. 52Paapo nuakolia
+  ity\u0169ngo p\u0129na al\u0129 wandiilie kwikamia. Naamu\u0129\u0129la, \u201ciGyulo
+  \u0129nsaa ya mup\u0169ngat\u0129 uupiupa wamulegela.\u201d 53Paapo \u0169shee nul\u0129nga
+  k\u0129na liasio l\u0129\u0129lo ty\u0169ngo p\u0129na \u0169Yesu alukumu\u0129\u0129la,
+  \u201cuMuana waako wakamagiaa.\u201d Nusu\u0129\u0129la umuene n\u0129numba yaakue
+  t\u0169l\u0169. 54\u0128k\u0129 kyok\u0129 k\u0129l\u0129ngas\u0129\u0129lio kya
+  kab\u0129l\u0129 \u0169Yesu naalutendile p\u0129na alup\u0169nile kuUyah\u0169di
+  kwienda k\u0169Galilaya.\"", "\"Wathi 52 na Mboya\\nNdeto sya Kwamb\u0129\u0129a
+  (Nd\u0169kav\u0129t\u0169ke ndat. 3)\\nMA\u0168ND\u0168 MA VATA KUMA NDETON\u0128
+  YA NGAI\\n\u201cYovu N\u0129waleanile na Mos\u0169an\u0129o Math\u0169ku\u201d:
+  (Ndat. 10)\\nYovu 22:2-7\u2014Elivasi aumisye \u0169tao kwosana na ma\u0169nd\u0169
+  mate ma w\u2019o ala weesilasya (w06-SW 3/15 15 \u00b66; w05-SW 9/15 26-27; w95-SW
+  2/15 27 \u00b66)\\nYovu 25:4, 5\u2014Mbilitati aneenie ma\u0169nd\u0169 mate ma
+  w\u2019o (w05-SW 9/15 26-27)\\nYovu 27:5, 6\u2014Yovu ndaa\u0129t\u0129k\u0129la
+  and\u0169 ala ang\u0129 matume as\u0169an\u0129a kana nda\u0129 m\u0169\u0129k\u0129\u0129ku
+  kwa Ngai (w09-SW 8/15 4 \u00b68; w06-SW 3/15 15 \u00b68)\\nK\u0169mantha \u0168thwii
+  wa K\u0129-veva: (Ndat. 8)\\nYovu 24:2\u2014N\u0129k\u0129 wa\u0129 \u0169nd\u0169
+  m\u0169th\u0169ku m\u0169no k\u0169k\u0169\u0129\u0129sya m\u0169vaka wa k\u0129theka?
+  (it-1 360)\\nYovu 26:7\u2014N\u0129 \u0169nd\u0169 w\u0129va wa vata Yovu waeleisye
+  \u0129\u0169l\u0169 wa \u0169nd\u0169 nth\u0129 \u0129ily\u0129? (w15 1/6 5 \u00b64;
+  w11-SW 7/1 26 \u00b63-6)\\nN\u0129\u0129many\u0129sya kya\u0169 \u0129\u0169l\u0169
+  wa Yeova kumana na k\u0129lungu kya k\u0169soma Mbivilia kya kyumwa k\u0129\u0129?\\nN\u0129
+  ma\u0169nd\u0169 meva ndonya k\u0169t\u0169m\u0129a \u0169tavany\u2019an\u0129 kumana
+  na k\u0129lungu kya k\u0169soma Mbivilia kya kyumwa k\u0129\u0129?\\nK\u0169soma
+  Mbivilia: Yovu 27:1-23 (Nd\u0169kav\u0129t\u0169ke ndat. 4)\\n\u0128K\u0128A K\u0128THITO
+  W\u0128TH\u0128WE M\u0168TAVANY\u2019A M\u0168SEO\\nK\u0169tavya M\u0169nd\u0169
+  ya Mbee: Kyongo kya \u0129thang\u0169 ya mbee ya Amkeni! (g16.2). M\u0169tavye k\u0129la
+  mw\u0129neenea wasyoka. (Nd\u0169kav\u0129t\u0169ke ndat. 2)\\nK\u0169syokea M\u0169nd\u0169:
+  Kyongo kya \u0129thang\u0169 ya mbee ya Amkeni! (g16.2). M\u0169tavye k\u0129la
+  mw\u0129neenea wasyoka. (Nd\u0169kav\u0129t\u0169ke ndat. 4)\\nKw\u0129many\u0129sya
+  Mbivilia na M\u0169nd\u0169: bh \u0129th. 145 \u00b63-4 (Nd\u0169kav\u0129t\u0169ke
+  ndat. 6)\\nMW\u0128KAL\u0128LE WA AKL\u0128STO\\nWathi 54\\nK\u0129lya Vinya M\u0169nd\u0169
+  \u0168k\u0169th\u0129nasya \u0128nd\u0129 \u0169te Kw\u0129y\u0169kit\u0129a: (Ndat.
+  15) \u0168neenany\u2019a na ethuk\u0129\u0129sya. Tha\u0169ka vitio ya katuni sya
+  k\u0169sola \u0129la y\u0129 na kyongo K\u0129lya Vinya M\u0169nd\u0169 \u0168k\u0169th\u0129nasya
+  \u0128nd\u0129 \u0169te Kw\u0129y\u0169kit\u0129a. (Ving\u0169a jw.org/kam, na \u0169isisya
+  ungu wa MOMANY\u0128SYO MA MBIVILIA > AND\u0168 MA M\u0168IKA.) \u0128tina wa \u0169u
+  neeneai mak\u0169lyo aa: N\u0129k\u0129 m\u0169nd\u0169 \u0169tonya k\u0169th\u0129nw\u2019a
+  n\u0129 and\u0169 ala ang\u0129? M\u0169nd\u0169 akwatawa n\u0129 math\u0129na meva
+  n\u0169nd\u0169 wa k\u0169th\u0129nw\u2019a n\u0129 ala ang\u0129? \u0168tonya kw\u0129ka
+  ata \u0129la wath\u0129nw\u2019a, kana \u0169tonya kw\u0129ka ata n\u0129 kana nd\u0169kath\u0129nw\u2019e?
+  Naa\u0169 wa\u0129le k\u0169neena namo \u0129la wath\u0129nw\u2019a? Neenea ma\u0169nd\u0169
+  ala me nth\u0129n\u0129 wa Vijana Huuliza, \u0128vuku ya 2, k\u0129lungu kya 14.\\n\u0128many\u0129syo
+  ya Mbivilia ya K\u0129kundi: lv k\u0129l. 17 kal. 1-10 (Ndat. 30)\\nSyokeleela Ma\u0169nd\u0169
+  Ala Tweemany\u0129sya na \u0168iweta kwa \u0168kuv\u0129 Ma\u0169nd\u0169 Ala T\u0169kemany\u0129sya
+  Kyumwa K\u0129la K\u0129at\u0129\u0129e (Ndat. 3)\\nWathi 23 na Mboya\"", "\"ASYAIWE
+  MWAKA WA: 1974\\nNTH\u0128 \u0128LA WUM\u0128TE: GERMAN DEMOCRATIC REPUBLIC\\n\u0128VINDA
+  \u0128V\u0128TU: NDA\u0128K\u0128\u0128AA KANA NGAI E KW\u2019O\\nKW\u0128ANA KWAKWA\\nNasya\u0129we
+  vand\u0169 vetawa Saxony, \u0129la y\u0129 k\u0129sion\u0129 tene kyeetawa German
+  Democratic Republic (GDR). M\u0169sy\u0129 kwit\u0169 twekalanasya nesa na n\u0129twendan\u0129te,
+  na asyai makwa n\u0129mamany\u0129\u0129tye kw\u0129th\u0129wa na mw\u0129kal\u0129le
+  m\u0169seo. And\u0169 aing\u0129 k\u0129sion\u0129 kya Saxony mayendeeaw\u2019a
+  n\u0129 ma\u0169nd\u0169 ma nd\u0129ni n\u0169nd\u0169 German Democratic Republic
+  ya\u0129 ungu wa kyama kya Communist. O nakwa ndya\u0129k\u0129\u0129aa kana Ngai
+  e kw\u2019o. Ve ma\u0169nd\u0169 el\u0129 noonaa me ma vata kwakwa myakan\u0129
+  yakwa ya mbee 18. Ma\u0169nd\u0169 asu n\u0129 k\u0169\u0129k\u0129\u0129a kana
+  k\u0169i Ngai na ngwatan\u0129o ya Communism.\\nN\u0129k\u0129 noonaa ngwatan\u0129o
+  ya Communism y\u0129 nzeo? N\u0169nd\u0169 n\u0129nendeeaw\u2019a m\u0169no n\u0129
+  woni wa kana and\u0169 onthe n\u0129meanene. O na n\u0129na\u0129k\u0129\u0129aa
+  kana sy\u0129nd\u0169 syonthe sya\u0129le k\u0169aanw\u2019a nesa vate kyende, n\u0169nd\u0169
+  kw\u0129ka \u0169u no k\u0169tume and\u0169 meth\u0129wa meaneny\u2019e \u0169kwati.
+  Na n\u0169nd\u0169 wa \u0169u, n\u0129nalikile ngwatan\u0129on\u0129 ya and\u0169
+  ma m\u0169ika ya Communist. N\u0129 na myaka 14, nat\u0169m\u0129ie \u0129vinda
+  yakwa ying\u0129 ndith\u0169k\u0169ma w\u0129a waendeee wa k\u0169thesya maw\u0129thy\u0169l\u0169l\u0169ko.
+  And\u0169 taonin\u0129 ya Aue n\u0129mendeeiw\u2019e m\u0169no n\u0129 k\u0129thito
+  kyakwa na kwoou anene ma k\u0129sio k\u0129u manenga m\u0169th\u0129nz\u0129o. O
+  na kau na\u0129 m\u0169nini, n\u0129namanyie amwe ma atongoi anene ma siasa ma German
+  Democratic Republic. Noonaa n\u0129 na m\u0129vango \u0129la ya\u0129le na \u0129vinda
+  yakwa y\u0129la y\u0169k\u0129te y\u0129 \u0129seo vy\u0169.\\n\u0128tina wa kavinda
+  o kanini, ma\u0169nd\u0169 makwa n\u0129maaly\u0169kile. Mwaka wa 1989, \u0168k\u0169ta
+  wa Berlin (Berlin Wall) n\u0129waval\u0169kile vamwe na ngwatan\u0129o ya Communist
+  ya Eastern Europe. Ma\u0169nd\u0169 mate maseo maendeee kw\u0129k\u0129ka. \u0128tina
+  wa \u0129vinda \u0129kuv\u0129 n\u0129namanyie kana k\u0169ya\u0129 sila wa kat\u0129
+  k\u0129sion\u0129 kya German Democratic Republic. Kwa ngelekany\u2019o, and\u0169
+  ala mateet\u0129k\u0129lanaa na ngwatan\u0129o ya Communism moonekaa mate ma vata.
+  \u0168nd\u0169 wa m\u0169themba \u0169su \u0169tonya kw\u0129th\u0129wa waendeee
+  ata na kyama kit\u0169 kya Communist kya\u0129k\u0129\u0129aa kana and\u0169 onthe
+  n\u0129meanene? Kwani ngwatan\u0129o \u0129su ko yaemetwe n\u0129 w\u0129a wayo?
+  N\u0129nakwatiwe n\u0129 maw\u0129mak\u0129o maing\u0129.\\nMa\u0169nd\u0169 asu
+  n\u0129matumie namb\u0129\u0129a kwona kwina na k\u0169sola nemo ma\u0169nd\u0169
+  ala ma vata vy\u0169 kwakwa. N\u0169nd\u0169 n\u0129neemany\u0129isye kwina sukulun\u0129
+  ya sekondal\u0129 n\u0129 na k\u0129eleelo kya k\u0169thi yunivas\u0129t\u0129,
+  n\u0129navangie kw\u0129th\u0129wa n\u0129 mwini na m\u0169nd\u0169 wa k\u0169sola
+  mavisa. O na n\u0129naekie kw\u0129th\u0129wa na mw\u0129kal\u0129le m\u0169seo
+  \u0169la namany\u0129\u0129tw\u2019e n\u0129 m\u0169nini. \u0168nd\u0169 \u0169la
+  wa\u0129 wa vata kwakwa wa\u0129 kw\u0129tan\u0129thya na k\u0169tuma nd\u0169\u0169
+  na tw\u0129l\u0129tu twing\u0129. \u0128nd\u0129 kwina, k\u0169sola, na kw\u0129tan\u0129thya
+  kwa nz\u0129a \u0129ta\u0129le k\u0169yaatuma n\u0129eka kw\u0129th\u0129wa na maw\u0129mak\u0129o.
+  O na mavisa ala nasolaa moonanasya kana na\u0129 na wia na ndya\u0129 m\u0169tanu.
+  Neek\u0169lasya-\u0129, K\u0169keeth\u0129wa k\u0169ily\u0129 ata \u0129vinda y\u0169k\u0129te?
+  Na n\u0129k\u0129 and\u0169 moombiwe?\\n\u0128la nesie \u0169kwata mos\u0169ng\u0129o
+  ma mak\u0169lyo ala neek\u0169lasya, n\u0129naseng\u2019ie m\u0169no. M\u0169thenya
+  \u0169mwe n\u0129 sukulu, n\u0129nekalile na k\u0129kundi kya amany\u0129w\u2019a
+  maneeneaa \u0129\u0169l\u0169 wa \u0129vinda y\u0169k\u0129te. Ve mw\u0129\u0129tu
+  weetawa Mandy * twasomaa \u0129mwe na wa\u0129 Ng\u0169s\u0129 ya Yeova. M\u0169thenya
+  \u0169su Mandy n\u0129wanengie \u0169tao m\u0169seo. Amb\u0129ie at\u0129\u0129:
+  \u201cAndreas, eth\u0129wa n\u0169kwenda k\u0169kwata mos\u0169ng\u0129o ma mak\u0169lyo
+  ala w\u0129k\u0169lasya \u0129\u0169l\u0169 wa thay\u0169 na \u0129vinda y\u0169k\u0129te,
+  \u0129many\u0129sye Mbivilia kwa \u0169liku.\u201d\\nNdya\u0129k\u0129\u0129aa vy\u0169
+  ma\u0169nd\u0169 ala natav\u0129tw\u2019e, \u0129nd\u0129 n\u0129natwie kw\u0129many\u0129sya
+  Mbivilia n\u0129 kana n\u0129kwate mos\u0169ng\u0129o. Mandy ambonisye \u0129and\u0129ko
+  ya Ndanieli k\u0129lungu kya 2, na ma\u0169nd\u0169 ala nasomie vau n\u0129manzeng\u2019isye.
+  Wathani \u0169su n\u0169eleetye \u0129\u0169l\u0169 wa silikal\u0129 nene m\u0169no
+  \u0129\u0169l\u0169 wa nth\u0129 (world powers) ila sya\u0129 sy\u0129th\u0129we
+  kw\u2019o k\u0169vika o na \u0169m\u0169nth\u0129. Mandy n\u0129wambonisye wathani
+  \u0169ng\u0129 wa Mbivilia \u0169konetye \u0129vinda yit\u0169 y\u0169k\u0129te.
+  N\u0129namb\u0129\u0129ie k\u0169kwata mos\u0169ng\u0129o ma mak\u0169lyo ala neek\u0169lasya!
+  \u0128nd\u0129 n\u0129neek\u0169lasya-\u0129, N\u0169\u0169 waand\u0129kie wathani
+  \u0169su, na n\u0169\u0169 wa\u0129 atonya k\u0169weta \u0129\u0169l\u0169 wa \u0129vinda
+  y\u0169k\u0129te ate k\u0169v\u0129tya? N\u0129vatonyeka Ngai aketh\u0129wa e kw\u2019o?\\n\u0168ND\u0168
+  MBIVILIA YAALY\u0168LILE MW\u0128KAL\u0128LE WAKWA\\nMandy n\u0129wambonanisye na
+  m\u0169nd\u0169\u0169me weetawa Horst na m\u0169ka wake Angelika, ala ma\u0129 Ng\u0169s\u0129
+  sya Yeova, na n\u0129mandetheeisye k\u0169manya Ndeto ya Ngai nesa. Kwa \u0129vinda
+  \u0129kuv\u0129, n\u0129namanyie kana nd\u0129ni ya Ng\u0169s\u0129 sya Yeova n\u0129yo
+  yendete k\u0169t\u0169m\u0129a \u0129sy\u0129twa ya Ngai, Yeova. (Savuli 83:18;
+  Mathayo 6:9) N\u0129neemany\u0129isye kana Yeova Ngai n\u0169nengete and\u0169 w\u0129kwatyo
+  wa kw\u0129kala tene na tene \u0129\u0169l\u0169 wa nth\u0129 nza\u0169. Savuli
+  37:9 ya\u0129tye at\u0129\u0129: \u201cAla mamweteelaa Yeova, asu makati\u0129wa
+  nth\u0129.\u201d N\u0129nendeeiw\u2019e n\u0129 k\u0169manya kana ndeto isu n\u0129
+  kwond\u0169 wa onthe ala mek\u0129aa k\u0129thito mekale kwosana na myolooto ya
+  Ngai \u0129la y\u0129 Mbivilian\u0129.\\n\u0128nd\u0129, n\u0129nang\u2019ang\u2019anie
+  m\u0169no k\u0169aly\u0169la mw\u0129kal\u0129le wakwa n\u0129 kana n\u0129kale
+  kwosana na Mbivilia. Kw\u0129th\u0129wa n\u0129 mwini m\u0169seo na m\u0169soli
+  wa mavisa n\u0129kwatum\u0129te n\u0129th\u0129wa na m\u0129yimbyo, kwoou n\u0129na\u0129l\u0129te
+  kwamba kw\u0129many\u0129sya kw\u0129th\u0129wa na w\u0129nyivyo. O na \u0129ng\u0129,
+  ndwa\u0129 \u0169nd\u0169 w\u0129 laisi k\u0169ekana na mw\u0129kal\u0129le m\u0169th\u0169ku
+  \u0169la na\u0129 naw\u2019o. N\u0129n\u0129t\u0169ngaa m\u0169vea n\u0169nd\u0169
+  Yeova n\u0129w\u0129th\u0129awa na w\u0169m\u0129\u0129syo, tei, na n\u0129 \u0169eleawa
+  and\u0169 ala matataa \u0169nd\u0169 matonya meke kwosana na k\u0129la Mbivilia
+  \u0129many\u0129asya!\\nO na kau kwa myaka 18 na\u0129 ngwatan\u0129on\u0129 ya
+  Communism na ndya\u0129k\u0129\u0129aa kana Ngai e kw\u2019o, Mbivilia n\u0129tum\u0129te
+  n\u0129aly\u0169ka vy\u0169 kuma \u0129vindan\u0129 y\u0129u. Ma\u0169nd\u0169 ala
+  neemany\u0129isye n\u0129matumie n\u0129eka kw\u0129mak\u0129a \u0129\u0169l\u0169
+  wa \u0129vinda y\u0169k\u0129te na matuma n\u0129manya k\u0129eleelo kya kw\u0129th\u0129wa
+  n\u0129 thay\u0169. Mwakan\u0129 wa 1993, n\u0129navatisiwe na natw\u2019\u0129ka
+  Ng\u0169s\u0129 ya Yeova, na mwakan\u0129 wa 2000, n\u0129natwaie Tabitha, m\u0169nd\u0169
+  m\u0169ka w\u0129 k\u0129thito king\u0129 ma\u0169nd\u0169n\u0129 ma k\u0129-veva.
+  N\u0129t\u0169t\u0169m\u0129aa \u0129vinda ying\u0129 k\u0169tetheesya and\u0169
+  mamanye Mbivilia. And\u0169 aing\u0129 t\u0169komanaa namo me ngwatan\u0129on\u0129
+  ya Communism na mai\u0129k\u0129\u0129aa kana kw\u0129 Ngai o tond\u0169 naily\u0129
+  tene. N\u0129n\u0129w\u2019aa nean\u0129wa m\u0169no \u0129la namony\u2019a \u0169nd\u0169
+  matonya k\u0169m\u0169manya Yeova.\\nMOATHIMO ALA N\u0128KWAT\u0128TE\\n\u0128la
+  namb\u0129\u0129e kw\u0129th\u0129wa na ngwatan\u0129o na Ng\u0169s\u0129 sya Yeova,
+  asyai makwa n\u0129mak\u0129aa. \u0128nd\u0129 kuma \u0129vinda y\u0129u, n\u0129monete
+  \u0169nd\u0169 n\u0129tethekete n\u0169nd\u0169 wa kw\u0129th\u0129wa na ngwatan\u0129o
+  na Ng\u0169s\u0129. \u0168nd\u0169 \u0169la \u0169ndan\u0129thasya n\u0129 kana
+  n\u0129masomaa Mbivilia na makathi ma\u0169mbanon\u0129 ma K\u0129kl\u0129sto ma
+  Ng\u0169s\u0129 sya Yeova.\\nN\u0129 na Tabitha n\u0129t\u0169tan\u0129aa m\u0169twaano
+  wit\u0169 n\u0169nd\u0169 n\u0129t\u0169tataa vy\u0169 k\u0169at\u0129\u0129a \u0169tao
+  \u0169la \u0169nengan\u0129twe Mbivilian\u0129 \u0129\u0169l\u0169 wa and\u0169
+  ala matwaan\u0129te. Kwa ngelekany\u2019o, k\u0169at\u0129\u0129a \u0169tao \u0169la
+  wonan\u0129tye kana ala matwaan\u0129te ma\u0129le kw\u0129th\u0129wa ma\u0129k\u0129\u0129an\u0129te
+  n\u0129k\u0169l\u0169l\u0169m\u0129\u0129lasya m\u0169twaano wit\u0169.\u2014Aevelania
+  13:4.\\nN\u0129naekie kw\u0129th\u0129wa na wia na kw\u0129mak\u0129a \u0129\u0169l\u0169
+  wa \u0129vinda y\u0169k\u0129te. N\u0129n\u0129tan\u0129aa kw\u0129th\u0129wa n\u0129
+  \u0169mwe wa ana-a-asa \u0129\u0169l\u0169 wa nth\u0129 yonthe ala matan\u0129aa
+  m\u0169uo wa w\u2019o na ngwatan\u0129o nzeo. Ithyonthe tw\u0129th\u0129awa tw\u0129anene
+  na \u0169su n\u0129 \u0169nd\u0169 nendeeaw\u2019a n\u0129w\u2019o kuma tene.\"",
+  "\"M\u0169thenya wa Sila n\u0129 kya\u0169?\\n\u0128vindan\u0129 ya tene Ngai at\u0169m\u0129aa
+  asili k\u0169tang\u0129\u0129a and\u0169 make kumana na \u0169sili \u0169te wa kat\u0129.
+  (Asili 2:18) Mbivilia y\u0129eleetye kana M\u0169thenya wa Sila n\u0129 \u0129vinda
+  \u0129seo y\u0129la Yeova, M\u0169sili wa nth\u0129 yonthe, \u0169katang\u0129\u0129a
+  and\u0169 kuma ma\u0169nd\u0169n\u0129 mate ma \u0169l\u0169ngalu.\u2014Soma Savuli
+  96:12, 13; Isaia 26:9.\\nNgai anyuv\u0129te Yes\u0169 n\u0129 kana esil\u0129la
+  ala me thay\u0169 na ala akw\u2019\u0169. (Meko ma At\u0169mwa 10:42; 17:31) Ve
+  and\u0169 makwie matamw\u0129s\u0129 Ngai. \u0128vindan\u0129 ya M\u0169thenya wa
+  Sila, Yes\u0169 akathay\u0169\u0169kya and\u0169 asu n\u0129 kana memany\u0129sye
+  \u0129\u0169l\u0169 wa Ngai na maimwenda.\u2014Soma Meko ma At\u0169mwa 24:15.\\nN\u0129k\u0129
+  M\u0169thenya wa Sila \u0169keth\u0129wa w\u0129 wa myaka ngili?\\nAnd\u0169 ala
+  makwie makathay\u0169\u0169kw\u2019a \u0129vindan\u0129 ya myaka ngili. (\u0168vuan\u2019yo
+  20:4, 12) Makanengwa \u0129vinda n\u0129 kana mamany\u0129w\u2019e kwenda kwa Ngai
+  na k\u0169at\u0129\u0129a m\u0129ao yake. K\u0129vath\u0169kany\u2019o na \u0169nd\u0169
+  and\u0169 aing\u0129 mamany\u0129aw\u2019a, Mbivilia ya\u0129tye kana and\u0169
+  makasil\u0129lwa kw\u0129anana na ma\u0169nd\u0169 ala makeka \u0129tina wa k\u0169thay\u0169\u0169kw\u2019a.\u2014Soma
+  Alomi 6:7.\\nO na \u0129ng\u0129, Mbivilia n\u0129y\u0129eleetye \u0129\u0169l\u0169
+  wa m\u0169thenya wa \u0169sil\u0129lo \u0169la \u0169koka mbee wa \u0169sumb\u0129ki
+  wa myaka ngili \u0169tamb\u0129\u0129e. M\u0169thenya \u0169su now\u2019o w\u0129tawa
+  m\u0169min\u0169k\u0129lyo, o tond\u0169 vaeleetw\u2019e ilungun\u0129 sya mbee
+  sya \u0129kaseti y\u0129\u0129. M\u0169thenya \u0169su, Ngai akaananga and\u0169
+  onthe ala matam\u0169k\u0129aa na ala ath\u0169ku. (2 Vetelo 3:7) Kwoou, n\u0129twa\u0129le
+  kwonany\u2019a kana n\u0129t\u0169mwendete Ngai.\u2014Soma 2 Vetelo 3:9, 13.\"",
+  "\"M\u0168ND\u0168 M\u0168KA w\u0129tawa Doreen n\u0129watelemile \u0129la m\u0169\u0169me,
+  Wesley, \u0169la wa\u0129 na myaka 54, weeth\u0129iwe na wimbu wa m\u0169twe (brain
+  tumor) wa\u0129 \u0169tonya k\u0169m\u0169aa. * Ndak\u0129tal\u0129 syeeie Wesley
+  kana atial\u0129tye myei m\u0129nini akw\u2019e. Doreen a\u0129tye at\u0129\u0129:
+  \u201cNdya\u0129 n\u0129tonya k\u0169\u0129k\u0129\u0129a k\u0129la nataviw\u2019e.
+  Naminie syumwa siana \u0169nd\u0169 m\u0169na ndelemete \u0169keth\u0129a ndy\u0129s\u0129
+  \u0169nd\u0169 ndonya kw\u0129ka. Ndya\u0129 ndonya k\u0169\u0129k\u0129\u0129a
+  kana nithy\u0129 t\u0169kwat\u0129twe n\u0129 \u0169nd\u0169 \u0169su. Kwa w\u2019o
+  ndyeey\u0169mban\u0129tye.\u201d\\n\u0168nd\u0169 \u0169la wa k\u0169makya n\u0129
+  kana, and\u0169 aing\u0129 n\u0129math\u0129n\u0129kaa m\u0169no o tond\u0169 Doreen
+  wath\u0129n\u0129kie. \u0168wau \u0169te\u0129sa k\u0169voa no \u0169kwate k\u0129la
+  m\u0169nd\u0169. \u0128nd\u0129, n\u0129 \u0169nd\u0169 wa kwendeesya kwona kana
+  and\u0169 aing\u0129 n\u0129meth\u0129awa meyum\u0129tye k\u0169s\u0169v\u0129a
+  m\u0169nd\u0169 \u0169la w\u0129 na \u0169wau \u0169te\u0129sa k\u0169voa. O vamwe
+  na \u0169u, k\u0169s\u0169v\u0129a m\u0169nd\u0169 \u0169wa\u0129te \u0169u n\u0129
+  \u0169nd\u0169 m\u0169ito m\u0169no. \u0128nd\u0129 and\u0169 ma m\u0169sy\u0129
+  matonya k\u0169kiakisya na k\u0169s\u0169v\u0129a ata m\u0169nd\u0169 woo \u0169wa\u0129te
+  \u0169wau \u0169te\u0129sa k\u0169voa? Namo and\u0169 ala mek\u0169s\u0169v\u0129a
+  m\u0169wau matonya k\u0169m\u0129an\u0129sya ata na maw\u0129mak\u0129o ala matonya
+  k\u0169makwata \u0129la maendeee k\u0169s\u0169v\u0129a m\u0169wau \u0169su? Na
+  \u0129la m\u0169wau wathengeea k\u0169kw\u2019a, n\u0129 ma\u0169nd\u0169 meva wa\u0129le
+  kweteela kwona? Ekai twambe kwona n\u0129k\u0129 k\u0169s\u0169v\u0129a m\u0169nd\u0169
+  \u0169wa\u0129te \u0169wau \u0169te\u0129sa k\u0169voa n\u0129 \u0169nd\u0169 m\u0169ito
+  m\u0169no.\\nTH\u0128NA \u0168TES\u0128K\u0128E N\u0128 AND\u0168 AING\u0128 \u0168M\u0168NTH\u0128\\nMa\u0169nd\u0169
+  ma \u0169iiti ma matuk\u0169 aa n\u0129matetheesye and\u0169 aing\u0129 kw\u0129kalanga
+  thay\u0169. Myaka ta \u0129ana y\u0129mwe m\u0129v\u0129tu, and\u0169 mekalaa thay\u0169
+  myaka m\u0129nini, o na ala ma nth\u0129 ila sy\u0129 na maendeeo. And\u0169 n\u0129makusaa
+  m\u0169no n\u0169nd\u0169 wa mowau ma k\u0169kwatanw\u2019a na m\u0129isyo ya lel\u0169n\u0129.
+  K\u0169ya\u0129 masivital\u0129 maing\u0129, na and\u0169 aing\u0129 mas\u0169v\u0129awa
+  n\u0129 and\u0169 moo ma m\u0169sy\u0129 na kwoou makw\u2019\u0129\u0129aa m\u0169sy\u0129.\\n\u0168m\u0169nth\u0129,
+  maendeeo ma\u0169nd\u0169n\u0129 ma \u0169iiti n\u0129matum\u0129te ndak\u0129tal\u0129
+  sy\u0129th\u0129wa itonya k\u0169kita mowau kwa nz\u0129a \u0129la ya\u0129l\u0129te,
+  na \u0169u n\u0169tum\u0129te and\u0169 maendeea kw\u0129kalanga thay\u0169. Mowau
+  ala ma\u0129 matonya k\u0169aa m\u0169nd\u0169 m\u0129t\u0169k\u0129 \u0129vindan\u0129
+  \u0129v\u0129tu, \u0169m\u0169nth\u0129 m\u0169nd\u0169 no ekale namo kwa myaka
+  ming\u0129. \u0128nd\u0129 o na \u0169u w\u0129 o vo, \u0169u ti kwonany\u2019a
+  kana m\u0169nd\u0169 \u0169su m\u0169wau n\u0169k\u0169voa. Mavinda maing\u0129
+  and\u0169 n\u0129mawaaa m\u0169no vy\u0169 \u0169kesa kw\u0129th\u0129a maitonya
+  kw\u0129s\u0169v\u0129a. K\u0169s\u0169v\u0129a and\u0169 ma m\u0169themba \u0169su
+  kw\u0129th\u0129\u0129twe kw\u0129 vinya m\u0169no na kwendaa m\u0169nd\u0169 at\u0169m\u0129e
+  \u0129vinda ying\u0129 na vinya mwing\u0129.\\nN\u0169nd\u0169 wa itumi isu, and\u0169
+  aing\u0129 meth\u0129\u0129twe maikw\u2019\u0129\u0129a sivital\u0129, \u0129nd\u0129
+  ti m\u0169sy\u0129. And\u0169 aing\u0129 \u0169m\u0169nth\u0129 mayaaona m\u0169nd\u0169
+  aikw\u2019a, na kwoou may\u0129s\u0129 nesa ma\u0169nd\u0169 ala meth\u0129awa m\u0169nd\u0169
+  athengeee k\u0169kw\u2019a. Wia wa kwona m\u0169nd\u0169 aikw\u2019a no \u0169tume
+  m\u0169nd\u0169 \u0169k\u0169s\u0169v\u0129a m\u0169wau aemwa n\u0129 k\u0169endeea
+  k\u0169m\u0169s\u0169v\u0129a. N\u0129 kya\u0169 k\u0129tonya k\u0169tetheesya?\\n\u0128Y\u0168MBANY\u2019E
+  TENE\\nO tond\u0169 twonie ngelekany\u2019on\u0129 ya Doreen, and\u0169 aing\u0129
+  n\u0129matelemaa m\u0169no \u0129la mamanya kana m\u0169nd\u0169 woo mendete e na
+  \u0169wau \u0169te\u0129sa k\u0169voa. \u0128vindan\u0129 y\u0129u w\u0129 na maw\u0129mak\u0129o,
+  wia, na kyeva, n\u0129 kya\u0169 k\u0129tonya \u0169k\u0169tetheesya w\u0129y\u0169mbany\u2019e
+  kwond\u0169 wa ma\u0169nd\u0169 ala me mbee? M\u0169th\u0169k\u0169mi wa Ngai m\u0169\u0129k\u0129\u0129ku
+  avoyie at\u0129\u0129: \u201cT\u0169many\u0129sye k\u0169tala m\u0129thenya yait\u0169,
+  n\u0129 kana tw\u0129yosee ngoo y\u0129 \u0169\u0129.\u201d (Savuli 90:12) Kwoou
+  m\u0169voye Yeova Ngai na k\u0129thing\u2019\u0129\u0129syo akwony\u2019e \u0169nd\u0169
+  \u0169tonya \u201ck\u0169tala m\u0129thenya\u201d yaku kwa \u0169\u0129 n\u0129
+  kana w\u0129th\u0129we \u0169tonya kw\u0129kalany\u2019a nesa vy\u0169 na m\u0169wau
+  waku kwa m\u0129thenya \u0129la \u0129tial\u0129te.\\nN\u0129 kana \u0169nd\u0169
+  \u0169su w\u0129th\u0129we, no nginya veth\u0129we m\u0129vango m\u0129seo. Eth\u0129wa
+  m\u0169wau waku n\u0169tonya k\u0169neena na n\u0169kwenda m\u0169neenee \u0169nd\u0169
+  \u0169su, no w\u0129th\u0129we w\u0129 \u0169nd\u0169 wa \u0169\u0129 k\u0169m\u0169k\u0169lya
+  n\u0169\u0169 \u0169kamw\u0129k\u0129aa motwi \u0129la \u0169keth\u0129wa atatonya
+  kw\u0129ka \u0169u. N\u0129mwa\u0129le k\u0169neena nesa vy\u0169 n\u0129 kana m\u0169manye
+  kana no ende kwongelwa nzeve, k\u0169koma sivital\u0129, kana k\u0169kwata moiiti
+  ang\u0129. Kw\u0129ka \u0169u no k\u0169tume and\u0169 ma m\u0169sy\u0129 mataemanwa,
+  na no k\u0169tume matesa kw\u0129lila n\u0169nd\u0169 wa kw\u0129k\u0129a m\u0169wau
+  woo motwi n\u0169nd\u0169 we ndesa kw\u0129ka \u0169u. K\u0169neenea \u0169nd\u0169
+  \u0169su tene na m\u0169te\u0169vithany\u2019a k\u0129nd\u0169 no k\u0169tume and\u0169
+  ma m\u0169sy\u0129 mew\u2019a \u0169te \u0169nd\u0169 w\u0129 vinya k\u0169s\u0169v\u0129a
+  m\u0169wau woo. Na n\u0129kyo k\u0129tumi Mbivilia ya\u0129tye at\u0129\u0129: \u201cVala
+  vate \u0169tao, ma\u0169nd\u0169 ala mas\u0169an\u0129\u0129twe kw\u0129kwa n\u0129manang\u0129kaa.\u201d\u2014Nthimo
+  15:22.\\n\u0168ND\u0168 \u0168TONYA K\u0168TETHEESYA\\nMavinda maing\u0129 k\u0129anda
+  k\u0129la k\u0129nene kya \u0169la \u0169k\u0169s\u0169v\u0129a m\u0169wau n\u0129
+  k\u0169m\u0169kiakisya. M\u0169nd\u0169 \u0169la \u0169kily\u0129 k\u0169kw\u2019a
+  endaa k\u0169\u0129k\u0129\u0129thw\u2019a kana n\u0129wendetwe na nde weka. \u0168tonya
+  kw\u0129ka \u0169u ata? Nyuva \u0129vuku \u0129seo \u0169tonya k\u0169m\u0169somea
+  kana o mbathi nzeo \u0169tonya k\u0169mwin\u0129a n\u0129 kana aitan\u0129e na imwake.
+  And\u0169 aing\u0129 awau n\u0129makiakiaw\u2019a m\u0169no \u0129la \u0169mwe wa
+  m\u0169sy\u0129 woo wamakwata moko na amatavya t\u0169teto twololo.\\nN\u0129 \u0169seo
+  k\u0169tavya \u0169la m\u0169wau \u0129la vooka m\u0169nd\u0169 m\u0169eni. \u0168kun\u0129k\u0129li
+  \u0169mwe wa\u0129tye at\u0129\u0129: \u201cK\u0129nd\u0169 k\u0129la kya m\u0169thya
+  vy\u0169 k\u0129ekaa k\u0169th\u0169k\u0169ma m\u0169nd\u0169n\u0129 n\u0129 kw\u0129w\u2019a.
+  \u0168la m\u0169wau n\u0129w\u0129th\u0129awa ay\u0129w\u2019a nth\u0129 nesa o
+  na kau no eth\u0129we ayoneka ta \u0169komete, na kwoou ndwa\u0129le k\u0169neena
+  k\u0129nd\u0169 \u0169tesa k\u0169neena \u0129la m\u0169wau \u0169takomete.\u201d\\nEth\u0129wa
+  n\u0129vatonyeka, no m\u0169voye \u0129mwe. Mbivilia y\u0129eleetye kana \u0129vindan\u0129
+  y\u0129mwe, m\u0169t\u0169mwa Vaulo na ala wa\u0129 namo ma\u0129 th\u0129nan\u0129
+  m\u0169nene na mayees\u0129 kana n\u0129mek\u0169endeea kw\u0129th\u0129wa thay\u0169.
+  Mamanthie \u0169tethyo va? Vaulo ames\u0169vie anyanyae kwa k\u0169mea at\u0129\u0129:
+  \u201cInyw\u2019\u0129 nenyu m\u0169k\u0129tethean\u0129sya k\u0169voya kwond\u0169
+  wit\u0169.\u201d (2 Akolintho 1:8-11) Kwoou mboya ya kuma ngoon\u0129 \u0129la w\u0129
+  na maw\u0129mak\u0129o na \u0129la \u0169wa\u0129tye m\u0169no n\u0129 ya vata vy\u0169.\\n\u0128T\u0128K\u0128LA
+  MA\u0168ND\u0168 \u0168ND\u0168 MAILY\u0128\\nK\u0169manya kana m\u0169nd\u0169
+  wendete n\u0169k\u0169kw\u2019a n\u0129k\u0169\u0169m\u0129asya m\u0169no, na veth\u0129awa
+  vaily\u0129 \u0169u n\u0169nd\u0169 m\u0169nd\u0169 ndaa\u0169mbwa akusae. T\u0169yoomb\u0129twe
+  twonae k\u0129kw\u2019\u0169 k\u0129 o \u0169nd\u0169 wa\u0129le kw\u0129th\u0129awa.
+  (Alomi 5:12) Na n\u0129kyo k\u0129tumi Ndeto ya Ngai y\u0129t\u0129te k\u0129kw\u2019\u0169
+  \u201cm\u0169maitha.\u201d (1 Akolintho 15:26) Kwoou, n\u0129 \u0169nd\u0169 \u0169tonya
+  k\u0169eleeka \u0129la m\u0169nd\u0169 \u0169kw\u0129w\u2019a ne vinya kw\u0129t\u0129k\u0129la
+  kana m\u0169nd\u0169 wendete e vakuv\u0129 k\u0169kw\u2019a.\\n\u0128nd\u0129 o
+  na vaily\u0129 \u0169u, kw\u0129y\u0169mban\u0129sya k\u0129la k\u0129tonya kw\u0129k\u0129ka
+  no k\u0169tetheesye and\u0169 ma m\u0169sy\u0129 maekane na wia na mais\u0169an\u0129a
+  \u0169nd\u0169 matonya kw\u0129ka n\u0129 kana mekale me ean\u0129e. Amwe ma ma\u0169nd\u0169
+  ala matonya kw\u0129k\u0129ka monan\u0129tw\u2019e kasand\u0169k\u0169n\u0129 kala
+  ke na kyongo \u201cSyumwa sya M\u0169thya M\u0169wau Atanamba K\u0169kw\u2019a.\u201d
+  Ti lasima ma\u0169nd\u0169 ala monan\u0129tw\u2019e kasand\u0169k\u0169n\u0129 kau
+  makwate and\u0169 onthe ala awau, na ti lasima onthe makwate m\u0169nd\u0169 maat\u0129an\u0129e
+  \u0169nd\u0169 monan\u0129tw\u2019e. \u0128nd\u0129 awau aing\u0129 n\u0129makwatawa
+  n\u0129 amwe ma ma\u0169nd\u0169 asu.\\n\u0128tina wa k\u0169kw\u2019\u0129\u0129wa
+  n\u0129 m\u0169nd\u0169 wendete, no w\u0129th\u0129we w\u0129 \u0169nd\u0169 wa
+  \u0169\u0129 k\u0169neena na m\u0169nyanyau weeyumisye a\u0169tetheesye. Ala me\u0169s\u0169v\u0129aa
+  m\u0169wau na and\u0169 ma m\u0169sy\u0129 wake n\u0129ma\u0129le k\u0169\u0129k\u0129\u0129thw\u2019a
+  kana math\u0129na ala m\u0169wau woo \u0169na\u0129 namo n\u0129mathelile, na kwoou
+  ndaendeee k\u0169th\u0129na. M\u0169mbi wit\u0169 n\u0169t\u0169\u0129k\u0129\u0129th\u0129tye
+  kana \u201cakw\u2019\u0169 maty\u0129s\u0129 \u0169nd\u0169 o na w\u0129va.\u201d\u2014M\u0169tavan\u2019ya
+  9:5.\\nM\u0168S\u0168V\u0128I \u0168LA M\u0168SEO VY\u0168\\nK\u0169mw\u0129kwatya
+  Ngai n\u0129 kwa vata m\u0169no \u0129vindan\u0129 y\u0129la m\u0169nd\u0169 wa
+  m\u0169sy\u0129 \u0169wa\u0129te \u0169wau \u0169te\u0129sa k\u0169voa na \u0129la
+  w\u0129 na kyeva n\u0169nd\u0169 wa k\u0169kw\u2019\u0129\u0129wa. Ngai no a\u0169tetheesye
+  kw\u0129s\u0129la ndeto na meko ma and\u0169 ala ang\u0129. Doreen a\u0129tye at\u0129\u0129:
+  \u201cN\u0129neemany\u0129isye kw\u0129t\u0129k\u0129laa \u0169tethyo kuma kwa and\u0169
+  ang\u0129. O na \u0169tethyo \u0169la twakwataa wa\u0129 mwing\u0129 kw\u0129 \u0169la
+  twendaa. N\u0129 na m\u0169emewa n\u0129twees\u0129 nesa vy\u0169 kana n\u0129 Yeova
+  watw\u0129aa, \u2018N\u0129 vamwe nenyu n\u0129m\u0169tetheesye.\u2019 Ndikolwa
+  n\u0129 \u0169nd\u0169 \u0169su.\u201d\\nKwa w\u2019o, Yeova Ngai n\u0129we M\u0169s\u0169v\u0129i
+  \u0169la m\u0169seo vy\u0169. Na n\u0169nd\u0169 n\u0129we wat\u0169mbie, n\u0129
+  \u0169eleawa maw\u0129mak\u0129o na woo \u0169la tw\u0129 naw\u2019o. N\u0169tonya
+  na e na wendi wa k\u0169t\u0169tetheesya na k\u0169tw\u0129k\u0129a vinya n\u0129
+  kana t\u0169m\u0129\u0129sye. O na \u0129vinda y\u0169k\u0129te, n\u0169twath\u0129te
+  k\u0169vetanga k\u0129kw\u2019\u0169 tene na tene na aithay\u0169\u0169kya and\u0169
+  mbilioni mbing\u0129 ala me k\u0129lilikanon\u0129 kyake. (Yoana 5:28, 29; \u0168vuan\u2019yo
+  21:3, 4) Na \u0129nd\u0129 and\u0169 onthe makeeth\u0129wa matonya k\u0169t\u0169ng\u0129l\u0129\u0129la
+  ndeto ii m\u0169t\u0169mwa Vaulo wawetie. Ak\u0169lilye at\u0129\u0129: \u201cK\u0169\u0129va,
+  k\u0129kw\u2019\u0169, k\u0169k\u0129lya vinya kwaku? \u0168\u0129va, k\u0129kw\u2019\u0169,
+  \u0169moa waku?\u201d\u20141 Akolintho 15:55.\"", "\"\u0128the wa Yosevu a\u0129
+  \u0169\u0169?\\nYosevu, \u0169la wa\u0129 vundi wa mbwa\u0169, n\u0129we wa\u0129
+  \u0129the wa Yes\u0169. \u0128nd\u0129 \u0129the wa Yosevu a\u0129 \u0169\u0169?
+  Kat\u0129 wa aa\u0169mae ma Yes\u0169 ala mawetetwe \u0129vukun\u0129 ya \u0168voo
+  M\u0169seo ya Mathayo, ve m\u0169nd\u0169\u0169me \u0169wetetwe w\u0129tawa Yakovo,
+  nayo \u0129vuku ya \u0168voo M\u0169seo ya Luka ya\u0129tye kana Yosevu a\u0129
+  mwana wa \u201cEli.\u201d N\u0129k\u0129 maand\u0129ko asu el\u0129 me k\u0129vath\u0169kany\u2019o?\u2014Luka
+  3:23; Mathayo 1:16.\\n\u0128vuku ya Mathayo ya\u0129tye, \u2018Yakovo asyaa Yosevu.\u2019
+  Mathayo at\u0169m\u0129ie ndeto ya K\u0129kiliki kwonany\u2019a nesa kana Yakovo
+  n\u0129we wa\u0129 \u0129the wa Yosevu. Mathayo aeleasya \u0129\u0169l\u0169 wa
+  \u0169nd\u0169 Yosevu, \u0129the wa Yes\u0169 \u0169la wam\u0169eie, wesie k\u0169syawa
+  kuma kwa nzyawa ya M\u0169sumb\u0129 Ndaviti nginya \u0169la kwosana na m\u0129ao
+  waa\u0129le k\u0169ti\u0129wa k\u0129v\u0129la kya \u0169sumb\u0129 kya Ndaviti,
+  nake n\u0129 Yes\u0169.\\nNayo \u0129vuku ya Luka ya\u0129tye kana Yosevu a\u0129
+  mwana wa \u201cEli.\u201d Ndeto \u201cmwana wa,\u201d no y\u0129eleeke ta \u201cm\u0169thoni.\u201d
+  Ngelekany\u2019o nzeo ya kwonany\u2019a \u0169nd\u0169 \u0169su y\u0129 \u0129and\u0129kon\u0129
+  ya Luka 3:27. \u0128and\u0129kon\u0129 y\u0129u Sealitieli et\u0129twe \u2018mwana
+  wa Neli,\u2019 o na kau \u0129the wake \u0169la wam\u0169syaie n\u0129 Yekonia.
+  (1 Mavinda 3:17; Mathayo 1:12) N\u0129vatonyeka Sealitieli aketh\u0129wa atwa\u0129te
+  mw\u0129\u0129tu wa Neli, na kwoou ay\u0129th\u0129wa a\u0129 m\u0169thoni wake.
+  O nake Yosevu et\u0129twe \u201cmwana\u201d wa Eli n\u0169nd\u0169 atwa\u0129te
+  Meli mw\u0129\u0129tu wake. Kwoou Luka aeleetye \u0169ko wa Yes\u0169 \u201ckwond\u0169
+  wa mw\u0129\u0129,\u201d \u0129nd\u0129 kw\u0129s\u0129la kwa inyia wake, Meli.
+  (Alomi 1:3) Mbivilia n\u0129eleetye nzyawa k\u0169nd\u0169 kw\u0129l\u0129 ila syesie
+  kum\u0129lya Yes\u0169.\\nAnd\u0169 \u0129vindan\u0129 ya tene mat\u0169m\u0129aa
+  langi w\u0129va wa k\u0169kundya sy\u0129nd\u0169, na mat\u0169m\u0129aa itambaa
+  sya m\u0169themba w\u0129va?\\n\u0128vindan\u0129 ya tene, w\u2019ia wa malondu,
+  wa mb\u0169i, na wa ngam\u0129le n\u0129wat\u0169m\u0129awa m\u0169no k\u0169se\u0169vya
+  itambaa sya ng\u0169a nth\u0129 sya Middle East. Ng\u0169a mbing\u0129 syase\u0169vaw\u2019a
+  na w\u2019ia, na n\u0129kyo k\u0129tumi Mbivilia \u0129wetete malondu, k\u0169tila
+  w\u2019ia, na ng\u0169a ise\u0169v\u0129tw\u2019e na w\u2019ia mavinda maing\u0129.
+  (1 Samueli 25:2; 2 Asumb\u0129 3:4; Yovu 31:20) Kam\u0169t\u0129 keetawa katane
+  (flax) n\u0129kat\u0169m\u0129awa k\u0169se\u0169vya ndii sya ng\u0169a, na n\u0129kavandawa
+  Misili na Isilaeli. (Mwamb\u0129l\u0129lyo 41:42; Yosua 2:6) Aisilaeli ma \u0129vinda
+  ya tene mayavandaa vamba kana wai\u0169, \u0129nd\u0129 Maand\u0129ko n\u0129mawetete
+  kana vamba n\u0129wat\u0169m\u0129awa Velisia. (Esita 1:6) Ng\u0169a sya alili (silk)
+  sya\u0129 sya thooa m\u0169nene, na atand\u0129thya masyumasya Far East.\\n\u0128vuku
+  y\u0129mwe y\u0129tawa Jesus and His World ya\u0129tye: \u201cW\u2019ia weeth\u0129awa
+  na malangi me k\u0129vath\u0169kany\u2019o ta langi mwe\u0169 na wa m\u0169thanga
+  [brown], na malangi ang\u0129 maing\u0129 mavulan\u0129te.\u201d O na \u0129ng\u0129,
+  mavinda maing\u0129 w\u2019ia weeth\u0129awa w\u0129 m\u0169kundye langi. Ve langi
+  weeth\u0129awa \u0169ily\u0129 ta m\u0169tune (purple), na weeth\u0129awa w\u0129
+  wa thooa m\u0169nene m\u0169no. Langi \u0169su weeth\u0129awa \u0169se\u0169v\u0129tw\u2019e
+  kuma m\u0169themban\u0129 m\u0169na wa manyonga (mollusks). Langi \u0169la wat\u0169m\u0129awa
+  k\u0169kundya sy\u0129nd\u0169 wase\u0169vaw\u2019a kuma m\u0129themba y\u0129 k\u0129vath\u0169kany\u2019o
+  ya m\u0129t\u0129, m\u0129i, mat\u0169, na t\u0169sam\u0169 t\u0169nini. Sy\u0129nd\u0169
+  isu syaumasya langi sy\u0129 k\u0129vath\u0169kany\u2019o ta m\u0169tune, yelo,
+  mbuluu, na mwi\u0169.\"", "\"N\u0129t\u0169\u0169thoketye vy\u0169 \u0169ke wone
+  ovisi sit\u0169 na \u0169yona k\u0169la t\u0169tumb\u0129th\u0129asya mavuku. Mantha
+  ovisi \u0169la \u0169kwenda \u0169ke \u0169wone na saa sya k\u0169thoka.\\nNigeria\\nKm
+  51, Benin-Auchi Road\\nIGIEDUMA 301110\\nEDO STATE\\nNIGERIA\\n+234 7080-662-020\\n+234
+  8039-003-790\\nMasaa ma k\u0169tembea\\nWakwamb\u0129l\u0129lya nginya Wakatano\\n2:00
+  kwakya. nginya 5:00 kwakya. na 7:00 m\u0169thenya. nginya 10:00 m\u0169thenya.\\nMasaa
+  2\\nMa\u0169nd\u0169 ma vata\\nK\u0129la mwaka ovisi \u0169\u0169 \u0169tumb\u0129thasya
+  kovi milioni 41 sya \u0129kaseti ya M\u0169sya\u0129\u0129sya na Amkeni! kwa ithyomo
+  kenda. \u0168twaaa mavuku mena \u0169voo wa Mbivilia nth\u0129 ya Nigeria na nth\u0129
+  ing\u0129 itano sy\u0129 West Africa\"", "\"1. N\u0129k\u0129 tw\u0129 na vata wa
+  k\u0169tongoew\u2019a?\\nM\u0169mbi wit\u0169 n\u0129 m\u0169\u0129 kw\u0129 ithy\u0129.
+  N\u0129 \u0128the w\u0129 wendo, kwoou n\u0169t\u0169th\u0129n\u0129k\u0129aa. \u0128ng\u0129,
+  k\u0129ya\u0129 k\u0129eleelo kyake tw\u0129tongoesye. (Yelemia 10:23) Kwoou, o
+  tond\u0169 syana nini sy\u0129th\u0129awa na vata wa k\u0169tongoew\u2019a n\u0129
+  asyai, ithyonthe tw\u0129 na vata wa k\u0169tongoew\u2019a n\u0129 Ngai. (Isaia
+  48:17, 18) Myolooto ya Mbivilia n\u0129t\u0169nengae \u0169tongoi, \u0169la n\u0129
+  m\u0169th\u0129nz\u0129o kuma kwa Ngai.\\nM\u0129ao na myolooto ya Yeova \u0129t\u0169many\u0129asya
+  mw\u0129kal\u0129le \u0169la m\u0169seo vy\u0169 \u0169m\u0169nth\u0129 na n\u0129twonasya
+  \u0169nd\u0169 t\u0169tonya k\u0169kwata moathimo ma \u0129vinda y\u0169k\u0129te
+  matakathela. N\u0169nd\u0169 Ngai n\u0129we wat\u0169mbie, n\u0129 \u0169nd\u0169
+  wa\u0129le k\u0169t\u0169nga m\u0169vea n\u0169nd\u0169 wa \u0169tongoi wake w\u0129
+  wendo na k\u0169at\u0129\u0129a m\u0129ao na myolooto yake tw\u0129 na \u0169tanu.\\n2.
+  Myolooto ya Mbivilia n\u0129 mya\u0169?\\nMyolooto ya Mbivilia n\u0129 \u0169w\u2019o
+  wa m\u0169singi. Nayo m\u0129ao n\u0129tonya k\u0169t\u0169m\u0129wa k\u0169weta
+  \u0129mwe kwa \u0129mwe \u0169nd\u0169 twa\u0129le n\u0129kw\u0129ka. (K\u0169t\u0169ng\u0129l\u0129lwa
+  Kwa M\u0129ao 22:8) No nginya t\u0169t\u0169m\u0129e \u0169tonyi wit\u0169 wa k\u0169t\u0169m\u0129a
+  k\u0129l\u0129ko n\u0129 kana t\u0169elewe \u0169nd\u0169 mwolooto m\u0169na \u0169\u0169tw\u0129a
+  tw\u0129ke kwosana na \u0169nd\u0169 m\u0169na. (Nthimo 2:10-12) Kwa ngelekany\u2019o,
+  Mbivilia \u0129many\u0129asya kana thay\u0169 n\u0129 m\u0169th\u0129nz\u0129o kuma
+  kwa Ngai. Mwolooto \u0169su n\u0169tonya k\u0169t\u0169tongoesya \u0129la tw\u0129
+  m\u0169sy\u0129, w\u0129an\u0129, kana kyalon\u0129. N\u0169tumaa tw\u0129s\u0169v\u0129a
+  t\u0169ikalike m\u0169isyon\u0129 kana k\u0169likya ang\u0129.\\n3. N\u0129 myolooto
+  \u0129l\u0129 y\u0129va \u0129la ya vata vy\u0169?\\nYes\u0169 n\u0129wawetie myolooto
+  \u0129l\u0129 ya vata m\u0169no. Wa mbee wonan\u0129tye k\u0129eleelo kya thay\u0169,
+  nakyo n\u0129 k\u0169m\u0169manya Ngai, k\u0169mwenda, na k\u0169m\u0169th\u0169k\u0169ma
+  kwa \u0169\u0129k\u0129\u0129ku. Mwolooto \u0169su n\u0129wa\u0129le k\u0169s\u0169an\u0129\u0129awa
+  \u0129vinda yonthe \u0129la t\u0169\u0169tw\u2019a ma\u0169nd\u0169. (Nthimo 3:6)
+  Ala maat\u0129\u0129aa mwolooto \u0169su n\u0129meth\u0129awa na \u0169nyanya na
+  Ngai, \u0169tanu wa w\u2019o, na thay\u0169 \u0169tathela.\\nMwolooto wa kel\u0129
+  n\u0169tonya k\u0169tuma tw\u0129th\u0129wa na m\u0169amba m\u0169seo na and\u0169
+  ala ang\u0129. (1 Akolintho 13:4-7) \u0168nd\u0169 \u0169mwe wonanasya kana n\u0129t\u0169kwataa
+  mwolooto \u0169su wa kel\u0129 n\u0129 kw\u0129ka and\u0169 o tond\u0169 Ngai \u0169mekaa.\\n4.
+  Myolooto ya Mbivilia \u0129t\u0169tethasya ata?\\nMyolooto ya Mbivilia \u0129many\u0129asya
+  \u0169nd\u0169 m\u0169sy\u0129 \u0169tonya k\u0169kwatanw\u2019a n\u0129 wendo.
+  (Akolosai 3:12-14) \u0128ng\u0129 Ndeto ya Ngai n\u0129s\u0169v\u0129aa m\u0129sy\u0129
+  kwa k\u0169many\u0129sya mwolooto \u0169ng\u0129 wa kana m\u0169twaano n\u0129 m\u0169vango
+  wa kw\u0129kala.\\nKwa k\u0169at\u0129\u0129a momany\u0129syo ma Mbivilia, n\u0129k\u0169tonya
+  k\u0169t\u0169s\u0169v\u0129a ma\u0169nd\u0169n\u0129 ma k\u0129mw\u0129\u0129 na
+  makonetye k\u0129l\u0129ko. Kwa ngelekany\u2019o, mavinda maing\u0129 aand\u0129kani
+  n\u0129mendeeaw\u2019a n\u0129 ath\u0169k\u0169mi ala maat\u0129\u0129aa myolooto
+  ya Mbivilia ya kw\u0129th\u0129wa me na k\u0129thito na me a\u0129k\u0129\u0129ku.
+  (Nthimo 10:4, 26; Aevelania 13:18) \u0128ng\u0129, Ndeto ya Ngai n\u0129t\u0169many\u0129asya
+  kw\u0129an\u0129awa n\u0129 sy\u0129nd\u0169 ila sya lasima na kwosa \u0169nyanya
+  wit\u0169 na Ngai ta w\u2019o \u0169nd\u0169 wa vata k\u0169thonoka sy\u0129nd\u0169
+  sya k\u0129mw\u0129\u0129.\\nK\u0169at\u0129\u0129a myolooto ya Mbivilia n\u0129k\u0169tonya
+  k\u0169s\u0169v\u0129a \u0169ima wit\u0169 wa mw\u0129\u0129. (Nthimo 14:30; 22:24,
+  25) Kwa ngelekany\u2019o, k\u0169at\u0129\u0129a mw\u0129ao wa Ngai \u0129\u0169l\u0169
+  wa \u0169nywi n\u0129k\u0169t\u0169s\u0169v\u0129aa t\u0169ikakwatwe n\u0129 m\u0129isyo
+  na mowau math\u0169ku. (Nthimo 23:20) Yeova n\u0169tw\u0129t\u0129k\u0129l\u0129tye
+  k\u0169nyw\u2019a mbinyu, \u0129nd\u0129 kwa k\u0129thimo. (Savuli 104:15; 1 Akolintho
+  6:10) Myolooto ya Ngai \u0129t\u0169tethasya kwa k\u0169t\u0169many\u0129sya t\u0169s\u0169v\u0129e
+  meko na mesilya mait\u0169. (Savuli 119:97-100) \u0128nd\u0129, Akl\u0129sto ma
+  w\u2019o mainengae myolooto ya Ngai nda\u0129a at\u0129 n\u0169nd\u0169 n\u0129matethasya.
+  Mekaa \u0169u n\u0129 kana mam\u0169ta\u0129e Yeova.\"", "\"Mutwai umwe wa mota
+  niwakongwa akwa vau kwa vau itina wa mota ila eitwaite kukongana kyongo kwa kyongo
+  na ngali nini muthemba wa pick up vakuvi na soko wa Muthingiini leluni wa kuma Kambu
+  kuthi Nzeveni-Kibwezi kauntini ya Makueni.\\nAyikiithya mauvoo Kivu wa Nzambani
+  Benson Ngutu niwasya mbanga ii i yakitika kavindani kala mota na ngali ii syakomana
+  isembete muno vala wakulya atumii ma melelu kwithwa metho na kusuviana.\\nMwii wa
+  mutwai uu wa mota niwoosa ni maovisa ma volisi na watwawa nyumbani ya kusuvia mii
+  ya akwu ya Makindu,ngali na mota siitwawa kiseseni kya volisi kya kibwezi.\\nMbanga
+  ingi Kombu,Kitui.\\nMunduume umwe niwatiwa ni thayu vau kwa vau na angi atatu makwata
+  maumisye mai itina wa mota ila mekuanite nayo kwasya nzia na kuvaluka kisioni kya
+  Kombu leluni wa kuma Kabati kuthi musyini wa kitui utukuni wa kuamukia umunthi\u0100\\nMauvoo
+  ma mbanga ii maikiithwa ni kivu wa kivalo kya Kombu wardini ya kithumula/kwa mutonga
+  kiliombunge kya kitui kya uthuiloni wa sua Veronica Pius.\"", "\"1. K\u0129eleelo
+  kya Ngai kwa and\u0169 n\u0129 kya\u0169?\\nNGAI e na k\u0129eleelo k\u0129seo kwa
+  and\u0169. Oombie m\u0169nd\u0169\u0169me na m\u0169nd\u0169 m\u0169ka wa mbee,
+  Atamu na Eva, mekalae m\u0169\u0169ndan\u0129 m\u0169seo. K\u0129eleelo kyake kya\u0129
+  masyae syana, matw\u2019\u0129k\u0129thye nth\u0129 yonthe valatiso, kana vand\u0169
+  vaseo va kw\u0129kala, na mais\u0169v\u0129aa nyam\u0169.\u2014Mwamb\u0129l\u0129lyo
+  1:28; 2:8, 9, 15; soma Maelesyo ma M\u0169thya namba 6.\\n2. (a) Tw\u0129s\u0129
+  ata kana Ngai akean\u0129sya k\u0129eleelo kyake? (b) Mbivilia ya\u0129tye ata \u0129\u0169l\u0169
+  wa kw\u0129kala tene na tene?\\n2 We n\u0169kwona ta ve \u0129vinda t\u0169kesa
+  kw\u0129kala \u0129\u0169l\u0169 wa nth\u0129 y\u0129 nza\u0169? Yeova atw\u0129\u0129te
+  at\u0129\u0129: \u201cN\u0129n\u0129s\u0169an\u0129\u0129te, na ngaw\u0129ka.\u201d
+  (Isaia 46:9-11; 55:11) Akean\u0129sya k\u0129eleelo kyake na vai k\u0129nd\u0169
+  k\u0129kam\u0169si\u0129\u0129a kw\u0129ka \u0169u. Yeova a\u0129tye kana oombie
+  nth\u0129 e na k\u0129tumi. \u201cNdaamy\u0169mba y\u0129 nthei.\u201d (Isaia 45:18)
+  Endaa and\u0169 mekalae k\u0129la vand\u0169 \u0129\u0169l\u0169 wa nth\u0129. N\u0129
+  and\u0169 maily\u0129 ata Ngai wendaa mekalae \u0129\u0169l\u0169 wa nth\u0129,
+  na endaa mekale \u0129vinda y\u0129ana ata? Mbivilia ya\u0129tye at\u0129\u0129:
+  \u2018Ala al\u0169ngalu [kana, ala ewi] makati\u0129wa nth\u0129, na makat\u0169a
+  vo k\u0169vika tene na tene.\u2019\u2014Savuli 37:29; \u0168vuan\u2019yo 21:3, 4.\\n3.
+  N\u0169nd\u0169 and\u0169 n\u0129mawaaa na makakw\u2019a, \u0169tonya kw\u0129k\u0169lya
+  ata?\\n3 \u0128nd\u0129 \u0169m\u0169nth\u0129 and\u0169 n\u0129mawaaa na makakw\u2019a.
+  And\u0169 k\u0169nd\u0169 kwing\u0129 n\u0129mokitaa na makoaana. Vate nzika k\u0129u
+  ti kyo kya\u0129 k\u0129eleelo kya Ngai. Kwoou, n\u0129 kya\u0169 kyeeth\u0129iwe
+  na n\u0129k\u0129 kweeth\u0129iwe \u0169u? No Mbivilia \u0129tonya k\u0169elesya.\\nM\u0168MAITHA
+  WA NGAI\\n4, 5. (a) N\u0169\u0169 wat\u0169m\u0129ie nzoka k\u0169neena na Eva m\u0169\u0169ndan\u0129
+  wa Eteni? (b) M\u0169nd\u0169 m\u0169seo atonya ata k\u0169tw\u2019\u0129ka k\u0129ng\u2019ei?\\n4
+  Mbivilia ya\u0129tye kana Ngai e m\u0169maitha w\u0129tawa \u201cNdevili, na \u0129ng\u0129
+  Satani.\u201d Satani at\u0169m\u0129ie nzoka k\u0169neena na Eva m\u0169\u0169ndan\u0129
+  wa Eteni. (\u0168vuan\u2019yo 12:9; Mwamb\u0129l\u0129lyo 3:1) Atumie nzoka yoneka
+  tayo \u0129k\u0169neena.\u2014Soma Maelesyo ma M\u0169thya namba 7.\\n5 Kwoou Ngai
+  n\u0129we woombie Satani, \u0169la n\u0129we Ndevili? Aiee! M\u0169la\u0129ka \u0169mwe
+  wekalaa \u0129tun\u0129 \u0129la Ngai wase\u0169vasya nth\u0129 kwond\u0169 wa Atamu
+  na Eva n\u0129we waaly\u0169kile na atw\u2019\u0129ka Ndevili. (Yovu 38:4, 7) \u0168u
+  watonyekie ata? M\u0169nd\u0169 m\u0169seo atonya k\u0169aly\u0169ka ata akatw\u2019\u0129ka
+  k\u0129ng\u2019ei? O na kau m\u0169nd\u0169 \u0169su ndaasyawa e k\u0129ng\u2019ei,
+  amb\u0129\u0129aa kwendeew\u2019a n\u0129 k\u0129nd\u0169 k\u0129te kyake. Aendeea
+  k\u0169s\u0169an\u0129a \u0129\u0169l\u0169 wa k\u0129nd\u0169 k\u0129u, wendi wake
+  m\u0169th\u0169ku n\u0129wongelekaa. Na \u0129nd\u0129, akwata mwanya n\u0129w\u0169yaa
+  k\u0129nd\u0169 k\u0129u. We mwene n\u0129we w\u0129tw\u2019\u0129k\u0129thasya
+  k\u0129ng\u2019ei.\u2014Soma Yakovo 1:13-15; soma Maelesyo ma M\u0169thya namba
+  8.\\n6. M\u0169la\u0129ka \u0169mwe atw\u2019\u0129kie m\u0169maitha wa Ngai ata?\\n6
+  \u0168u n\u0129w\u2019o kweeth\u0129iwe \u0129\u0169l\u0169 wa m\u0169la\u0129ka
+  \u0169su. \u0128tina wa Yeova k\u0169mba Atamu na Eva ameie n\u0129meth\u0129we
+  na syana na \u2018mayus\u0169sya nth\u0129.\u2019 (Mwamb\u0129l\u0129lyo 1:27, 28)
+  M\u0169la\u0129ka \u0169su no eth\u0129we as\u0169an\u0129aa at\u0129\u0129: \u2018And\u0169
+  onthe no manthaithe vand\u0169 va k\u0169m\u0169thaitha Yeova!\u2019 O \u0169nd\u0169
+  waendeeie k\u0169s\u0169an\u0129a \u0169nd\u0169 \u0169su, now\u2019o waendeeie
+  kw\u0129th\u0129wa na wendi wa k\u0129la kya\u0129le k\u0169nengwa Yeova. M\u0169la\u0129ka
+  \u0169su endaa and\u0169 mam\u0169thaithe. Kwoou n\u0129wam\u0169kengie Eva na amwasya.
+  (Soma Mwamb\u0129l\u0129lyo 3:1-5.) Kwa kw\u0129ka \u0169u n\u0129watw\u2019\u0129kie
+  Satani, \u0169la n\u0129 Ndevili, na eeth\u0129wa m\u0169maitha wa Ngai.\\n7. (a)
+  N\u0129k\u0129 Atamu na Eva makwie? (b) N\u0129k\u0129 t\u0169k\u0169aa na t\u0169kakw\u2019a?\\n7
+  Atamu na Eva n\u0129maemie k\u0169mw\u0129w\u2019a Ngai na maya \u0129tunda ya m\u0169t\u0129
+  \u0169la mavat\u0129twe. (Mwamb\u0129l\u0129lyo 2:17; 3:6) N\u0129mam\u0169v\u0129t\u0129isye
+  Yeova, na \u0129tina n\u0129mesie k\u0169kw\u2019a o tond\u0169 Yeova wamatav\u0129tye.
+  (Mwamb\u0129l\u0129lyo 3:17-19) Syana sya Atamu na Eva sya\u0129 na na\u0129 na
+  kwoou o nasyo syakwatwa n\u0129 k\u0129kw\u2019\u0169. (Soma Alomi 5:12.) N\u0129
+  kana \u0169elewe n\u0129k\u0129 syana sya Atamu na Eva sya\u0129 na na\u0129, kwas\u0169an\u0129a
+  ngelekany\u2019o \u0129no. Kwas\u0169an\u0129a \u0169y\u0169mba mavali na \u0129sand\u0169k\u0169
+  \u0129vondeku. Mavali ala mekuma \u0129sand\u0169k\u0169n\u0129 y\u0129u me\u0129th\u0129wa
+  me o mavondeku. Atamu n\u0129weekie na\u0129 \u0129la waleile k\u0169mw\u0129w\u2019a
+  Ngai. N\u0169nd\u0169 ithyonthe tw\u0129 syana sya Atamu, tw\u0129 na na\u0129,
+  kana kwa ndeto ing\u0129, tw\u0129 \u201cavondeku\u201d o take. Na n\u0169nd\u0169
+  ithyonthe tw\u0129 na na\u0129, n\u0129t\u0169k\u0169aa na t\u0169kakw\u2019a.\u2014Alomi
+  3:23; soma Maelesyo ma M\u0169thya namba 9.\\n8, 9. (a) Satani endaa Atamu na Eva
+  ma\u0129k\u0129\u0129e kya\u0169? (b) N\u0129k\u0129 Yeova \u0169taa\u0169aa alei
+  asu o vau kwa vau?\\n8 Satani n\u0129wamb\u0129\u0129isye \u0169lei \u0129la wakengie
+  Atamu na Eva maikamw\u0129w\u2019e Yeova. Endaa Atamu na Eva ma\u0129k\u0129\u0129e
+  kana Yeova n\u0129 m\u0169kengani, na n\u0129 m\u0169sumb\u0129ki m\u0169th\u0169ku
+  \u0169tamendeaa \u0169seo. Satani oonanasya kana and\u0169 mai na vata wa k\u0169tavw\u2019a
+  n\u0129 Ngai k\u0129la ma\u0129le kw\u0129ka, na kana Atamu na Eva maa\u0129le kw\u0129tw\u2019\u0129\u0129a
+  \u0169la \u0169seo na \u0169la \u0169th\u0169ku. Kwoou Yeova esaa kw\u0129ka ata?
+  A\u0129 na \u0169tonyi wa k\u0169aa alei asu na aimina \u0169lei \u0169su woo. \u0128nd\u0129
+  \u0169u n\u0129w\u0129th\u0129wa wa\u0129k\u0129\u0129thisye kana Satani n\u0129
+  m\u0169kengani? Aiee.\\n9 Yeova ndaa\u0169aa alei asu vau kwa vau. Vand\u0169 va
+  \u0169u Yeova n\u0129waekie \u0129vinda y\u0129v\u0129te and\u0169 mesumb\u0129k\u0129te.
+  \u0168u wesaa k\u0169tuma t\u0169manya kana Satani n\u0129 m\u0169kengani na kana
+  Yeova n\u0129w\u0129s\u0129 k\u0129la k\u0129twa\u0129le vy\u0169. T\u0169keemany\u0129sya
+  ma\u0169nd\u0169 maingang\u0129 \u0129\u0169l\u0169 wa \u0169nd\u0169 \u0169su K\u0129lungun\u0129
+  kya 11. \u0128nd\u0129 we w\u0129 na woni mwa\u0169 \u0129\u0169l\u0169 wa \u0169twi
+  \u0169la Atamu na Eva meekie? N\u0129maa\u0129l\u0129te k\u0169m\u0169\u0129k\u0129\u0129a
+  Satani na mailea k\u0169mw\u0129w\u2019a Ngai? Yeova n\u0129wanengete Atamu na Eva
+  kyonthe k\u0129la mendaa. N\u0129wamanengie thay\u0169 mw\u0129an\u0129u, vand\u0169
+  vanake va kw\u0129kala, na w\u0129a matonya k\u0169tan\u0129a. \u0128nd\u0129 Satani
+  nde \u0169nd\u0169 o na \u0169mwe m\u0169seo wamek\u0129te. Keth\u0129wa wa\u0129
+  vo w\u0129th\u0129wa weekie ata?\\n10. N\u0129 \u0169twi w\u0129va wa vata ithyonthe
+  twa\u0129le kw\u0129ka?\\n10 \u0168m\u0169nth\u0129 k\u0129la \u0169mwe wit\u0169
+  e na \u0169twi ta \u0169su wa\u0129le kw\u0129ka, na \u0169twi \u0169la t\u0169kw\u0129ka
+  no wonany\u2019e kana t\u0169kakwata thay\u0169 kana t\u0169ika\u0169kwata. No t\u0169tw\u2019e
+  k\u0169mw\u0129w\u2019a Yeova tawe M\u0169sumb\u0129ki wit\u0169 na t\u0169i\u0129k\u0129\u0129thya
+  kana Satani n\u0129 m\u0169kengani. Kana t\u0169kanyuva k\u0169sumb\u0129kwa n\u0129
+  Satani. (Savuli 73:28; soma Nthimo 27:11.) No and\u0169 anini \u0129\u0169l\u0169
+  wa nth\u0129 mamw\u0129w\u2019aa Ngai. Kwa w\u2019o, ti we m\u0169sumb\u0129 wa
+  nth\u0129 \u0129no. Eth\u0129wa Ngai ti we m\u0169sumb\u0129 wa nth\u0129 \u0129no,
+  \u0169la \u0169sumb\u0129k\u0129te nth\u0129 n\u0169\u0169?\\nN\u0168\u0168 \u0168SUMB\u0128K\u0128TE
+  NTH\u0128?\\n11, 12. (a) Tw\u0129\u0129many\u0129sya kya\u0169 kumana na ma\u0169nd\u0169
+  ala Satani wamwathie Yes\u0169? (b) N\u0129 maand\u0129ko meva monan\u0129tye kana
+  Satani n\u0129we \u0169sumb\u0129k\u0129te nth\u0129?\\n11 Yes\u0169 n\u0129wees\u0129
+  \u0169la \u0169sumb\u0129k\u0129te nth\u0129. \u0128vinda y\u0129mwe Satani n\u0129wamwonisye
+  \u201cmosumb\u0129 onthe ma nth\u0129, na nda\u0129a syamo.\u201d Na \u0129nd\u0129
+  Satani amw\u0129a Yes\u0169 at\u0129\u0129: \u201cSy\u0129nd\u0169 ii syonthe n\u0129ng\u0169\u0169nenga,
+  eth\u0129wa n\u0169\u0169ndul\u0129lya ndu na k\u0169nthaitha.\u201d (Mathayo 4:8,
+  9; Luka 4:5, 6) \u0128k\u0169lye-\u0129, \u2018Keth\u0129wa mosumb\u0129 asu maya\u0129
+  ma Satani, n\u0129w\u0129th\u0129wa amw\u0129ie Yes\u0169 n\u0169k\u0169m\u0169nenga?\u2019
+  Aiee. Mosumb\u0129 onthe n\u0129 ma Satani.\\n12 No w\u0129k\u0169lye-\u0129, \u2018Vatonyeka
+  ata Satani aketh\u0129wa m\u0169sumb\u0129 wa nth\u0129 \u0129no na Yeova Ngai Mwene
+  Vinya W\u2019onthe n\u0129we woombie matu na nth\u0129?\u2019 (\u0168vuan\u2019yo
+  4:11) Kwa w\u2019o Yeova n\u0129we woombie matu na nth\u0129, \u0129nd\u0129 Yes\u0169
+  amw\u0129tie Satani \u201cm\u0169nene wa nth\u0129 \u0129no.\u201d (Yoana 12:31;
+  14:30; 16:11) M\u0169t\u0169mwa Vaulo amw\u0129tie Satani, \u0169la n\u0129 Ndevili,
+  \u201cngai ya nth\u0129 \u0129no.\u201d (2 Akolintho 4:3, 4) Nake m\u0169t\u0169mwa
+  Yoana aand\u0129kie kana \u201cnth\u0129 yonthe \u0129tw\u0129e nth\u0129n\u0129
+  wa \u0169la m\u0169th\u0169ku.\u201d\u20141 Yoana 5:19.\\nNTH\u0128 YA SATANI \u0128KAANANGWA
+  ATA?\\n13. N\u0129k\u0129 tw\u0129 na vata wa nth\u0129 nza\u0169?\\n13 Nth\u0129
+  \u0129endeee na k\u0169th\u0169k\u0129\u0129a. N\u0129twonaa ka\u0169, \u0169l\u0169sani,
+  \u0169seleke, na \u0169ng\u2019endu k\u0129la vand\u0169. O na and\u0169 makatata
+  ata maitonya k\u0169mina ma\u0169nd\u0169 asu. \u0128nd\u0129 o m\u0129t\u0169k\u0129
+  Ngai n\u0169k\u0169vetanga nth\u0129 \u0129no nth\u0169ku ka\u0169n\u0129 wake wa
+  Ali\u2013Maketoni, na ay\u0129ete nth\u0129 nza\u0169 y\u0129 na \u0169l\u0169ngalu.\u2014\u0168vuan\u2019yo
+  16:14-16; soma Maelesyo ma M\u0169thya namba 10.\\n14. N\u0169\u0169 Ngai \u0169nyuv\u0129te
+  eth\u0129we M\u0169sumb\u0129 \u0168sumb\u0129n\u0129 wake? Mbivilia yathan\u0129te
+  ata \u0129\u0169l\u0169 wa Yes\u0169?\\n14 Yeova n\u0129wam\u0169nyuvie Yes\u0169
+  Kl\u0129sto eth\u0129we M\u0169sumb\u0129 wa \u0168sumb\u0129 wa \u0129tun\u0129.
+  Myaka ngili mbing\u0129 m\u0129v\u0129tu, Mbivilia n\u0129yathanie kana Yes\u0169
+  akasumb\u0129ka e \u201cM\u0169nene wa M\u0169uo,\u201d na \u0169sumb\u0129ki wake
+  nd\u0169kathela. (Isaia 9:6, 7) Yes\u0169 eeie aat\u0129\u0129i make mavoyae \u0129\u0169l\u0169
+  wa silikal\u0129 \u0129su \u0129la waisye at\u0129\u0129: \u201c\u0168sumb\u0129
+  waku w\u0169ke. Kwenda kwaku kw\u0129ke k\u0169\u0169 nth\u0129 o ta k\u0169ya \u0129tun\u0129.\u201d
+  (Mathayo 6:10) K\u0129lungun\u0129 kya 8, t\u0169keemany\u0129sya \u0169nd\u0169
+  \u0168sumb\u0129 wa Ngai \u0169kavetanga mosumb\u0129 ma nth\u0129 \u0129no. (Soma
+  Ndanieli 2:44.) \u0128tina wa vau \u0168sumb\u0129 wa Ngai \u0169katuma nth\u0129
+  \u0129no y\u0129th\u0129wa y\u0129 nza\u0169 na ya kwendeesya.\u2014Soma Maelesyo
+  ma M\u0169thya namba 11.\\nNTH\u0128 NZA\u0168 Y\u0128 VAKUV\u0128!\\n15. \u201cNth\u0129
+  nza\u0169\u201d n\u0129 kya\u0169?\\n15 Mbivilia yathan\u0129te at\u0129\u0129:
+  \u201cTweteele matu me\u0169 na nth\u0129 nza\u0169, naw\u2019o \u0169l\u0169ngalu
+  \u0169tw\u0129e nth\u0129n\u0129 wayo.\u201d (2 Vetelo 3:13; Isaia 65:17) Mavinda
+  amwe \u0129la Mbivilia \u0129k\u0169neena \u0129\u0169l\u0169 wa \u201cnth\u0129\u201d
+  y\u0129th\u0129awa \u0129yonany\u2019a and\u0169 ala matw\u0129e \u0129\u0169l\u0169
+  wayo. (Mwamb\u0129l\u0129lyo 11:1) Kwoou, \u201cnth\u0129 nza\u0169\u201d \u0129tw\u0129e
+  \u0169l\u0169ngalu n\u0129 and\u0169 onthe ala mamw\u0129w\u2019aa Ngai na \u0169maathim\u0129te.\\n16.
+  N\u0129 m\u0169th\u0129nz\u0129o w\u0129va m\u0169nene Ngai \u0169kanenga ala makekala
+  nth\u0129 nza\u0169, na twa\u0129le kw\u0129ka ata n\u0129 kana tw\u0129kwata m\u0169th\u0129nz\u0129o
+  \u0169su?\\n16 Yes\u0169 athanie kana ala makekala nth\u0129 nza\u0169 ya Ngai makakwata
+  \u201cthay\u0169 \u0169tathela.\u201d (Maliko 10:30) Twa\u0129le kw\u0129ka ata
+  n\u0129 kana t\u0169kwate m\u0169th\u0129nz\u0129o \u0169su? No \u0169some Yoana
+  3:16 na 17:3 n\u0129 kana \u0169kwate \u0169s\u0169ng\u0129o. Ekai yu twone \u0169nd\u0169
+  Mbivilia ya\u0129tye \u0129\u0169l\u0169 wa \u0169nd\u0169 t\u0169kekalaa tw\u0129
+  Nth\u0129 Nza\u0169.\\n17, 18. Tw\u0129s\u0129 ata kana k\u0169keeth\u0129wa m\u0169uo
+  k\u0129la vand\u0169 \u0129\u0169l\u0169 wa nth\u0129 na kana t\u0169iketh\u0129wa
+  na wia?\\n17 \u0168th\u0169ku, ka\u0169, \u0169t\u0169li wa m\u0129ao, na \u0169ng\u2019endu
+  ikavetwa. Vai m\u0169nd\u0169 m\u0169th\u0169ku o na \u0169mwe \u0169katiwa \u0129\u0169l\u0169
+  wa nth\u0129. (Savuli 37:10, 11) O na Ngai akatuma \u201cmaka\u0169 mathela k\u0169vika
+  k\u0129tulu kya nth\u0129.\u201d (Savuli 46:9; Isaia 2:4) Nth\u0129 \u0129keeth\u0129wa
+  yus\u0129e and\u0169 mamwendete Ngai na mamw\u0129w\u2019aa. K\u0169keeth\u0129wa
+  m\u0169uo tene na tene.\u2014Savuli 72:7.\\n18 And\u0169 ma Yeova makekalaa mate
+  na m\u0169isyo. \u0128vindan\u0129 ya tene \u0129la Aisilaeli mamw\u0129w\u2019a
+  Ngai, mekalaa mate na m\u0169isyo n\u0169nd\u0169 n\u0129wamas\u0169v\u0129aa. (Alivai
+  25:18, 19) T\u0169ikak\u0129aa k\u0129nd\u0169 kana m\u0169nd\u0169 tw\u0129 Nth\u0129
+  Nza\u0169. T\u0169keeth\u0129awa t\u0169te na wia \u0129vinda yonthe!\u2014Soma
+  Isaia 32:18; Mika 4:4.\\n19. N\u0129k\u0129 t\u0169ta\u0129le kw\u0129th\u0129wa
+  na nzika kana k\u0169keeth\u0129wa l\u0129u mwing\u0129 nth\u0129n\u0129 wa nth\u0129
+  nza\u0169 ya Ngai?\\n19 K\u0169keeth\u0129wa l\u0129u mwing\u0129. Mbivilia ya\u0129tye
+  at\u0129\u0129: \u201cK\u0169keeth\u0129wa l\u0129u mwing\u0129 m\u0169no wa mbaa
+  ngetha nth\u0129 i\u0129man\u0129 \u0129\u0169l\u0169.\u201d (Savuli 72:16) Yeova
+  \u201cNgai wait\u0169, akat\u0169athima\u201d na \u2018nth\u0129 \u0129kaing\u0129vya
+  \u0169syao wayo.\u2019\u2014Savuli 67:6.\\n20. Tw\u0129s\u0129 ata kana nth\u0129
+  \u0129katw\u2019\u0129ka valatiso?\\n20 Nth\u0129 yonthe \u0129katw\u2019\u0129ka
+  valatiso. And\u0169 makeeth\u0129wa na ny\u0169mba mbanake na m\u0129\u0169nda m\u0129seo.
+  (Soma Isaia 65:21-24; \u0168vuan\u2019yo 11:18.) Nth\u0129 yonthe \u0129keeth\u0129wa
+  y\u0129 mbanake o tond\u0169 m\u0169\u0169nda wa Eteni waily\u0129. Yeova akat\u0169nengae
+  kyonthe k\u0129la t\u0169keth\u0129awa na vata nakyo. Mbivilia ya\u0129tye \u0169\u0169
+  \u0129\u0169l\u0169 wa Ngai: \u201cN\u0169\u0169k\u0169nz\u0169a \u0169v\u0129 waku,
+  na kw\u0129an\u0129sya kwenda kwa k\u0129la k\u0129nd\u0169 k\u0129 thay\u0169.\u201d\u2014Savuli
+  145:16.\\n21. Tw\u0129s\u0129 ata kana k\u0169keeth\u0129wa m\u0169uo kat\u0129
+  wa and\u0169 na nyam\u0169?\\n21 K\u0169keeth\u0129wa m\u0169uo kat\u0129 wa and\u0169
+  na nyam\u0169. And\u0169 maika\u0169m\u0129w\u2019a n\u0129 nyam\u0169 \u0129ng\u0129.
+  Twana t\u0169nini t\u0169keeth\u0129wa t\u0169te na wia o na \u0129la tw\u0129 vakuv\u0129
+  na nyam\u0169 ila mbai ik\u0129awa \u0169m\u0169nth\u0129.\u2014Soma Isaia 11:6-9;
+  65:25.\\n22. Yes\u0169 akeekana ata na and\u0169 ala awau?\\n22 Vai m\u0169nd\u0169
+  \u0169keth\u0129wa e m\u0169wau. \u0128la Yes\u0169 wa\u0129 vaa \u0129\u0169l\u0169
+  wa nth\u0129, n\u0129wavoisye and\u0169 aing\u0129. (Mathayo 9:35; Maliko 1:40-42;
+  Yoana 5:5-9) \u0128nd\u0129 \u0129la \u0169keth\u0129wa M\u0169sumb\u0129 wa \u0168sumb\u0129
+  wa Ngai, Yes\u0169 akavosya k\u0129la m\u0169nd\u0169. Vai \u0169mwe \u0169kasya:
+  \u201cNyie n\u0129 m\u0169wau.\u201d\u2014Isaia 33:24; 35:5, 6.\\n23. Ngai akeekana
+  ata na and\u0169 ala makwie?\\n23 Akw\u2019\u0169 makathay\u0169\u0169kw\u2019a.
+  Ngai atwath\u0129te kana akathay\u0169\u0169kya and\u0169 milioni mbing\u0129 ala
+  makwie. Mbivilia ya\u0129tye at\u0129\u0129: \u201cK\u0169keeth\u0129wa \u0169thay\u0169\u0169kyo
+  wa ala al\u0169ngalu, na ala mate al\u0169ngalu nao.\u201d\u2014Soma Yoana 5:28,
+  29; Meko ma At\u0169mwa 24:15.\\n24. We w\u0129 na woni mwa\u0169 \u0129\u0169l\u0169
+  wa kw\u0129kala Nth\u0129 Nza\u0169?\\n24 Ithyonthe tw\u0129 na \u0169twi twa\u0129le
+  kw\u0129ka. No t\u0169nyuve kw\u0129many\u0129sya \u0129\u0169l\u0169 wa Yeova na
+  t\u0169im\u0169th\u0169k\u0169ma, kana t\u0169kanyuva kw\u0129ka o \u0169nd\u0169
+  t\u0169kwenda. Twanyuva k\u0169m\u0169th\u0169k\u0169ma Yeova, t\u0169keeth\u0129wa
+  na \u0129vinda \u0129seo y\u0169k\u0129te. M\u0169nd\u0169\u0169me \u0169mwe atanamba
+  k\u0169kw\u2019a amw\u0129ie Yes\u0169 em\u0169lilikana. Nake Yes\u0169 amwathie
+  at\u0129\u0129: \u201c\u0168keeth\u0129wa vamwe nakwa \u0168seon\u0129 [kana, Nth\u0129
+  Nza\u0169].\u201d (Luka 23:43) Ekai tw\u0129many\u0129sye ma\u0169nd\u0169 maingang\u0129
+  \u0129\u0169l\u0169 wa Yes\u0169 Kl\u0129sto na \u0169nd\u0169 \u0169katuma mawatho
+  ma Ngai mean\u0129a.\"", "\"\u201cWoona wathi k\u0169tavany\u2019a nd\u0169kasyoke
+  vaa. Wasyoka n\u0129\u0169t\u0169langa a maa\u0169.\u201d Natwie k\u0169thi vy\u0169
+  n\u0169nd\u0169 wa ndeto isu \u0129the-akwa wandavisye. Y\u0129u n\u0129yo ya\u0129
+  \u0129vinda yakwa ya mbee k\u0169tia sy\u0129nd\u0169 n\u0129 kana n\u0129at\u0129\u0129e
+  Mw\u0129a\u0129i. \u0128vinda y\u0129u na\u0129 o na myaka 16.\\nVAENDIE ata ma\u0169nd\u0169
+  may\u0129sa kw\u0129kala \u0169u? Eka ng\u0169elesye. Nasyaiwe Matuk\u0169 29, Mwei
+  wa 7, 1929, na nean\u0129a k\u0129sion\u0129 kya Bulacan, k\u0129la k\u0129 nth\u0129
+  ya Philippines. T\u0169ya\u0129 na sy\u0129nd\u0169 mbing\u0129 n\u0169nd\u0169
+  \u0129vinda y\u0129u nth\u0129 yit\u0169 ya\u0129 na th\u0129na mwing\u0129 wa mbesa
+  (economic depression). N\u0129kwamb\u0129\u0129e kau \u0129la na\u0129 wa m\u0169ika.
+  T\u0169endeang\u0129e ita sya Japan n\u0129syavith\u0169k\u0129ie nth\u0129 ya Philippines.
+  \u0128nd\u0129 n\u0169nd\u0169 twekalaa vaasa na taoni, ka\u0169 \u0169su ndwaavika
+  k\u0129sion\u0129 kit\u0169. T\u0169ya\u0129 na leti\u0169, televiseni, o na t\u0169yakwataa
+  makaseti ma ma\u0169voo, kwoou twamanyaa ma\u0169nd\u0169 twatavw\u2019a n\u0129
+  and\u0169 ang\u0129.\\nKwit\u0169 t\u0169sya\u0129twe tw\u0129 nyanya, na ninyie
+  wa kel\u0129. \u0128la na\u0129 na myaka nyanya \u0169mau na \u0169s\u0169a n\u0129mambosie
+  ngekalae namo. O na k\u0169tw\u2019\u0129ka twa\u0129 ma Katholeki, \u0168mau ndaleanaa
+  na ma\u0169nd\u0169 ma nd\u0129ni ing\u0129, na kwoou n\u0129woomban\u0129tye mavuku
+  maing\u0129 ma nd\u0129ni ala wanengawe n\u0129 anyanyae. N\u0129ng\u0169lilikana
+  aimbony\u2019a t\u0169vuku t\u0169tat\u0169 tweetawa Protection, Safety, na Uncovered
+  t\u0169la twaand\u0129k\u0129twe na k\u0129thyomo kya Tagalog. * O na n\u0129wambonisye
+  Mbivilia. N\u0129natan\u0129aa k\u0169soma Mbivilia, na m\u0169no m\u0169no ala
+  mavuku ana ma \u0168voo M\u0169seo. K\u0129u n\u0129kyatumie nenda k\u0169at\u0129\u0129a
+  ngelekany\u2019o ya Yes\u0169.\u2014Yoa. 10:27.\\n\u0168ND\u0168 NAMB\u0128\u0128E
+  K\u0168M\u0168AT\u0128\u0128A MW\u0128A\u0128I\\nIta sya Japan syesie kuma Philippines
+  mwakan\u0129 wa 1945. \u0128vindan\u0129 y\u0129u asyai makwa n\u0129mamb\u0129ie
+  n\u0129n\u0129syoke m\u0169sy\u0129. \u0168mau n\u0129wamb\u0129k\u0129ie vinya
+  n\u0129n\u0169ke. Kwoou n\u0129nen\u0169kie.\\n\u0128tina wa \u0129vinda \u0129nini,
+  tw\u0129 Mwei wa 12, 1945, kakundi ka Ng\u0169s\u0129 sya Yeova kaum\u0129te taonin\u0129
+  ya Angat n\u0129kookie k\u0169tavany\u2019a nd\u0169an\u0129 yit\u0169. M\u0169tum\u0129a
+  \u0169mwe Ng\u0169s\u0129 n\u0129wookie kwit\u0169 na at\u0169many\u0129sya k\u0129la
+  Mbivilia ya\u0129tye k\u0129keth\u0129wa \u201cm\u0129thenyan\u0129 ya m\u0169min\u0169k\u0129lyo.\u201d
+  (2 Tim. 3:1-5) N\u0129wat\u0169thokisye t\u0169i vand\u0169 vamany\u0129aw\u2019a
+  Mbivilia \u0169t\u0169in\u0129 m\u0169na wa\u0129 vakuv\u0129 na wit\u0169. Nyie
+  n\u0129naendie o na kau asyai makwa mayaathi. Va\u0129 and\u0169 ta 20, na amwe
+  n\u0129mak\u0169lilye mak\u0169lyo ma Mbivilia.\\nN\u0169nd\u0169 ndyaeleawa k\u0129la
+  maneeneaa, noonie n\u0129 kavaa n\u0169k\u0129le n\u0129thi. \u0128nd\u0129 nakililye
+  ndy\u0169k\u0129la mamb\u0129\u0129a kwina wathi wa \u0168sumb\u0129. Neewie wathi
+  \u0169su w\u0129 m\u0169seo m\u0169no, na n\u0169nd\u0169 wa \u0169u navanga kw\u0129kala.
+  Wathi na mboya syathela, k\u0129la \u0169mwe n\u0129wathokiw\u2019e \u0169mbanon\u0129
+  wa\u0129 taonin\u0129 ya Angat Wakyumwa \u0169la waat\u0129\u0129e.\\nNyie na ang\u0129
+  twaendie m\u0169endo wa vakuv\u0129 maili atano (k\u0129lomita 8) t\u0169y\u0129sa
+  k\u0169vika m\u0169sy\u0129 kwa mwana-a-asa weetawa Cruz n\u0169nd\u0169 n\u0129vo
+  \u0169mbano \u0169su wa\u0129. Vookie and\u0169 50. K\u0129la kyanzeng\u2019isye
+  m\u0169thenya \u0169su n\u0129 kwona syana nini iyumya maelesyo o na kau ma\u0169nd\u0169
+  ala maneeneawa kuma Mbivilian\u0129 ma\u0129 maito. N\u0129naendangie ma\u0169mbanon\u0129
+  asu na \u0129nd\u0129 m\u0169thenya \u0169mwe nathokw\u2019a n\u0129 mwana-a-asa
+  \u0169mwe m\u0169k\u0169\u0169 weetawa Damian Santos n\u0129komele kwake. Tene mwana-a-asa
+  \u0169su a\u0129 meya \u0129nd\u0129 \u0129vindan\u0129 y\u0129u a\u0129 vainia.
+  \u0168tuk\u0169 \u0169su twekalile nth\u0129 m\u0169no t\u0169ineenea Mbivilia.\\nTene
+  \u0169su aing\u0129 mait\u0169 twoosaa \u0129tambya m\u0129t\u0169k\u0129 twamanya
+  \u0169w\u2019o wa m\u0169singi wa Mbivilia. \u0128tina wa k\u0169thi ma\u0169mbanon\u0129
+  mavinda kauta, ana-a-asa mang\u0169lilye n\u0129 na ang\u0129, \u201cN\u0129m\u0169kwenda
+  k\u0169vatiswa?\u201d Namas\u0169ng\u0129ie namea, \u201c\u0128\u0129, n\u0129ngwenda.\u201d
+  N\u0129nees\u0129 kana n\u0129nendaa \u2018k\u0169m\u0169th\u0169k\u0169ma Mw\u0129a\u0129i
+  Kl\u0129sto.\u2019 (Ako. 3:24) Kw\u0129 Matuk\u0169 15, Mwei wa 2, 1946, twaendie
+  \u0169s\u0129n\u0129 wa\u0129 o vau vakuv\u0129 na navatiswa n\u0129 na mwana-a-asa
+  \u0169ng\u0129.\\nN\u0129twamanyie kana n\u0169nd\u0169 yu twa\u0129 Akl\u0129sto
+  avatise, n\u0129twaa\u0129le k\u0169at\u0129\u0129a ngelekany\u2019o ya Yes\u0169
+  ya k\u0169tavany\u2019a t\u0169te\u0169t\u0129\u0129a. \u0128tambya y\u0129u noosie
+  y\u0129yaatan\u0129thya \u0129the-akwa. Amb\u0129ie at\u0129\u0129: \u201cWe w\u0129
+  m\u0169nini m\u0169no, ndwa\u0129le k\u0169tavany\u2019a. Na eka \u0169u, k\u0169indwa
+  \u0169s\u0129n\u0129 k\u0169ik\u0169tw\u2019\u0129k\u0129thya m\u0169tavany\u2019a.\u201d
+  Nam\u0169eleisye kana n\u0129 kwenda kwa Ngai t\u0169tavany\u2019e \u0169voo m\u0169seo
+  wa \u0168sumb\u0129. (Mt. 24:14) Na nasyoka namw\u0129a, \u201cN\u0129na\u0129le
+  kw\u0129an\u0129sya w\u0129v\u0129to \u0169la namw\u0129v\u0129t\u0129e Ngai.\u201d
+  \u0128vinda y\u0129u n\u0129w\u2019o \u0129the-akwa wandavisye ndeto ila n\u0129wetie
+  mwamb\u0129\u0129on\u0129 wa ngewa \u0129no. N\u0129watw\u2019\u0129te vy\u0169
+  k\u0169mbata ndikatavany\u2019e. Na \u0169su n\u0129w\u2019o wa\u0129 m\u0169thenya
+  wakwa wa mbee k\u0169tia sy\u0129nd\u0169 n\u0129 kana n\u0129an\u0129sye m\u0129vango
+  ya k\u0129-veva.\\nCruz na m\u0169sy\u0129 wake n\u0129mambosie n\u0129kalae namo
+  taonin\u0129 ya Angat. O na n\u0129mamb\u0129k\u0129ie vinya n\u0129tw\u2019\u0129ke
+  vainia, na meek\u0129a vinya mw\u0129\u0129tu \u0169la woo \u0129lumaita w\u0129tawa
+  Nora eke oou. Ithyel\u0129 twoosie \u0169vainia \u0128tuku 1, Mwei wa 11, 1947.
+  Nora aendie taonin\u0129 \u0129ng\u0129, nakwa naendeea k\u0169tavany\u2019a Angat.\\nMWANYA
+  \u0168NG\u0128 NAKWATIE WA K\u0168TIA K\u0128LA NA\u0128 NAKYO\\nMwakan\u0129 wakwa
+  wa katat\u0169 kuma noosa \u0169vainia, mwana-a-asa weetawa Earl Stewart n\u0129waumie
+  ovisin\u0129 wa \u0169vonge ooka kum\u0129sya and\u0169 mbee wa 500 \u0169voo, ala
+  moomban\u0129e k\u0129wanzan\u0129 k\u0129na taonin\u0129 ya Angat. Aumisye \u0169voo
+  \u0169su na K\u0129s\u0169ng\u0169, na \u0129nd\u0129 amina nalika vo n\u0129elesye
+  kwa \u0169kuv\u0129 na k\u0129thyomo kya Tagalog k\u0129la waneenea. Naendete sukulu
+  myaka m\u0169onza t\u0169, \u0129nd\u0129 k\u0129la kyandethisye n\u0129 kana alim\u0169
+  mait\u0169 makothaa k\u0169t\u0169m\u0129a K\u0129s\u0169ng\u0169 mait\u0169somethya.
+  K\u0129nd\u0169 k\u0129ng\u0129 kyatumie n\u0129manya K\u0129s\u0169ng\u0169 n\u0129
+  kana mavuku ma Tagalog ma kw\u0129many\u0129sya Mbivilia ma\u0129 manini m\u0169no.
+  N\u0169nd\u0169 wa \u0169u maing\u0129 ala nasomaa ma\u0129 ma K\u0129s\u0169ng\u0169.
+  Kwoou n\u0129namany\u0129te K\u0129s\u0169ng\u0169 kya kw\u0129ana \u0169keth\u0129a
+  no n\u0129tw\u2019\u0129ke m\u0169tavuta \u0169voon\u0129 \u0169su na mavindan\u0129
+  ang\u0129 \u0129tina wa vau.\\nM\u0169thenya \u0169su na\u0129 m\u0169tavuta wa
+  \u0169voo wa Mwana-a-asa Stewart, n\u0129waweteie k\u0129kundi k\u0129la kya\u0129
+  vau Angat kana ovisi wa \u0169vonge n\u0129wendaa kw\u0129ta vainia \u0169mwe kana
+  el\u0129 mathi makath\u0169k\u0169me Mbetheli. Maa\u0129le k\u0169thi k\u0169kwat\u0129\u0129a
+  amisonal\u0129 ala maendaa \u0169mbanon\u0129 m\u0169nene wa Theocracy\u2019s Increase
+  Assembly \u0169la weekiwe mwaka wa 1950, New York, Amelika. Ninyie \u0169mwe neetiwe
+  n\u0129thi. N\u0129natiie \u0129ng\u0129 sy\u0129nd\u0169 imwe na\u0129 nasyo, natia
+  k\u0169nd\u0169 nees\u0129 na ana-a-asa na e\u0129tu-a-asa nathi k\u0169tetheesya
+  w\u0129a Mbetheli.\\nNavikie Mbetheli Matuk\u0169 19, Mwei wa 6, 1950, na namb\u0129\u0129a
+  w\u0129a \u0169la nanengiwe. Mbetheli ya\u0129 ny\u0169mba nene ng\u0169\u0169 yathy\u0169l\u0169l\u0169k\u0129twe
+  n\u0129 m\u0129t\u0129 m\u0129nene. Yaak\u0129twe k\u0129wanzan\u0129 kya\u0129
+  kya eka il\u0129 na nusu (1 ha). Vath\u0169k\u0169maa ana-a-asa ta \u0129k\u0169mi
+  na el\u0129 matatwaan\u0129te. Kwakya tene natethasya w\u0129a ikon\u0129. Na \u0129nd\u0129
+  kuma saa itat\u0169 \u0169u nath\u0169k\u0169maa vala vav\u0169\u0129awa ng\u0169a,
+  na w\u0129a wakwa wa\u0129 k\u0169k\u0169na vasi. \u0128tina wa l\u0129u wa m\u0169thenya
+  naat\u0129\u0129a m\u0169talatala o \u0169su. \u0128la amisonal\u0129 masyokie kuma
+  \u0169la \u0169mbanon\u0129 m\u0169nene wa nth\u0129 mbing\u0129 ndyaa\u0129n\u0169ka
+  \u0129nd\u0129 naendeeie o k\u0169th\u0169k\u0169ma vau Mbetheli. Noovaa makaseti
+  n\u0129 kana mat\u0169mwe, ngavanga \u0169nd\u0169 ala met\u0129tye makaseti me\u0169makwata,
+  na n\u0129nath\u0169k\u0169maa ovisin\u0129 wa k\u0169thokya aeni. No twasye nath\u0169k\u0169maa
+  w\u0129a w\u2019onthe \u0169la nanengwa.\\nK\u0168TIA PHILIPPINES N\u0128THI SUKULU
+  YA NGILEATI\\nN\u0129 na ang\u0129 thanthat\u0169 kuma nth\u0129 ya Philippines
+  n\u0129twathokiw\u2019e t\u0169thi k\u0129lasi kya 20 kya Sukulu ya Ngileati mwaka
+  wa 1952. \u0168nd\u0169 \u0169su wandan\u0129thisye m\u0169no. \u0128nd\u0129 sy\u0129nd\u0169
+  mbing\u0129 ila twoonie na ma\u0169nd\u0169 maing\u0129 ala tweekie tw\u0129 Amelika
+  ma\u0129 ma\u0169nd\u0169 t\u0169ta\u0129 twaaona. Kwa\u0129 k\u0129vath\u0169kany\u2019o
+  vy\u0169 na \u0169nd\u0169 ma\u0169nd\u0169 maily\u0129 ka\u0169t\u0169in\u0129
+  kait\u0169.\\nKwa ngelekany\u2019o, twa\u0129 no nginya tw\u0129many\u0129sye k\u0169t\u0169m\u0129a
+  masin\u0129 imwe sya sitima na m\u0129io ya ny\u0169mba t\u0169teesene nayo. Nayo
+  nzeve ya k\u0169u ya\u0129 k\u0129vath\u0169kany\u2019o vy\u0169 na ya kwit\u0169!
+  M\u0169thenya \u0169mwe naam\u0169ka kwakya naumaalile nza noona kw\u0129 kwe\u0169
+  m\u0169no na kw\u0129 kwanake. Y\u0129u n\u0129yo ya\u0129 \u0129vinda yakwa ya
+  mbee kwona \u0129a. Na n\u0129w\u2019o namanyie ka\u0129 kw\u0129 \u0129a kw\u0129th\u0129awa
+  k\u0169thith\u0129te m\u0169no \u0169u!\\n\u0128nd\u0129 kw\u0129ka moaly\u0169ku
+  asu k\u0169ya\u0129 th\u0129na m\u0169nene n\u0169nd\u0169 n\u0129natan\u0129aa
+  m\u0169no ma\u0169nd\u0169 maseo ala tweemany\u0129asya k\u0169u Ngileati. Ala mat\u0169many\u0129asya
+  n\u0129mat\u0169m\u0129aa nz\u0129a nzeo syat\u0169vik\u0129aa ngoon\u0129. O na
+  n\u0129tweemany\u0129isye kw\u0129ka \u0169kun\u0129k\u0129li nesa na kw\u0129many\u0129sya
+  nesa. Vate nzika, ma\u0169nd\u0169 ala nemany\u0129isye n\u0129 Ngileati n\u0129mandetheeisye
+  nase\u0169vangya ngwatan\u0129o yakwa na Yeova.\\nNamina sukulu nat\u0169miwe ta
+  vainia wa mwanya kwa kavinda k\u0129sion\u0129 kya New York City k\u0129tawa Bronx.
+  K\u0129u n\u0129kyanengie mwanya wa k\u0169thi \u0169mbanon\u0129 m\u0169nene wa
+  New World Society Assembly \u0169la week\u0129iwe o k\u0169u Bronx kw\u0129 Mwei
+  wa 7, 1953. \u0128tina wa \u0169mbano \u0169su m\u0169nene n\u0129nasyokie Philippines
+  ngatethye w\u0129a \u0169ng\u0129 nanengiwe.\\nK\u0168TIA MOSEO MA TAONI\\nAna-a-asa
+  ala ma\u0129 ovisin\u0129 wa \u0169vonge mamb\u0129ie at\u0129\u0129: \u201cYu tw\u0129enda
+  \u0169thi \u0169katethye w\u0129a wa k\u0169thy\u0169l\u0169l\u0169ka.\u201d K\u0129u
+  nakyo kyesaa k\u0169nenga mwanya wa k\u0169at\u0129\u0129a nyaa\u0129 sya Mw\u0129a\u0129i,
+  \u0169la o nake waendaa taonin\u0129 sy\u0129 k\u0169asa na nd\u0169an\u0129 sy\u0129
+  k\u0169asa akatetheesye malondu ma Yeova. (1 Vet. 2:21) K\u0129sio k\u0129la naa\u0129we
+  n\u0129thy\u0169l\u0169l\u0169kae kyoosete k\u0129sio k\u0129nene kya k\u0129thama
+  k\u0129la k\u0129nene vy\u0169 kya Philippines k\u0129tawa Luzon. K\u0129sio k\u0129u
+  naa\u0129we n\u0129thy\u0169l\u0169l\u0169kae kyaku\u0129te ivalo nene sya Bulacan,
+  Nueva Ecija, Tarlac, na Zambales. N\u0129 kana n\u0129vike taoni imwe na\u0129 no
+  nginya n\u0129s\u0129le ila I\u0129man\u0129 sya Sierra Madre sy\u0129 iva\u0169\u0169ko
+  na mavia. K\u0169ya\u0129 ngal\u0129 syaendaa taonin\u0129 isu. N\u0169nd\u0169
+  wa \u0169u, neekaa k\u0169k\u0169lya atwai ma maloli eth\u0129wa no n\u0129l\u0129se
+  ngekal\u0129la iting\u2019\u0129 ila meeth\u0129awa maku\u0129te. Mavinda maing\u0129
+  n\u0129mamb\u0129t\u0129k\u0129lasya, \u0129nd\u0129 k\u0169thi na maloli asu k\u0169ya\u0129
+  m\u0169yo.\\nIkundi mbing\u0129 iya\u0129 nene m\u0169no na iyekal\u0129te m\u0169no
+  kuma syamb\u0129\u0129w\u2019a. Kwoou ana-a-asa ikundin\u0129 isu n\u0129matan\u0129aa
+  m\u0169no namatetheesya k\u0169vanga ma\u0169mbano na \u0169tavany\u2019a nesa.\\n\u0128tina
+  n\u0129nesie k\u0169a\u0129wa k\u0129sio k\u0129ng\u0129 kya k\u0169thy\u0169l\u0169l\u0169ka,
+  k\u0129la kyakwete ngal\u0129ko ya Bicol yonthe. T\u0169kundi twing\u0129 t\u0169la
+  twa\u0129 vau twataan\u0129sye m\u0169no, na mavainia ma mwanya no \u0129nd\u0129
+  ma\u0129 manamb\u0129\u0129a k\u0169tavany\u2019a k\u0169u. M\u0169sy\u0129 \u0169mwe
+  naendie neeth\u0129ie w\u0129 kyoo k\u0129saeny\u2019e. Meek\u0129te kw\u0129nza
+  kalima na \u0129nd\u0129 makakelany\u2019a m\u0129t\u0129 \u0129l\u0129 \u0129\u0169l\u0169
+  wako. \u0128la nakinyie m\u0129t\u0129 \u0129su navotie nayo kaliman\u0129. Ndikaa\u0129tw\u2019a
+  \u0129ta nambie k\u0169vatethya w\u0129a mwing\u0129 m\u0169no wa kw\u0129thesya!\\nN\u0129
+  k\u0169u Bicol n\u0129w\u2019o namb\u0129\u0129e k\u0169s\u0169an\u0129a Nora, \u0169la
+  wamb\u0129\u0129e \u0169vainia ngal\u0129ko ya Bulacan. \u0128vinda y\u0129u nam\u0169s\u0169an\u0129aa
+  a\u0129 vainia wa mwanya Dumaguete City, na n\u0129naendie k\u0169mwona kw\u2019o.
+  N\u0129twatinie k\u0169and\u0129kan\u0129a val\u0169a na \u0129nd\u0129 \u0129tina
+  wa kavinda twatwaana mwaka wa 1956. Kyumwa kya mbee twatwaana twaendie k\u0169thy\u0169l\u0169l\u0169ka
+  k\u0129kundi k\u0129 K\u0129thaman\u0129 kya Rapu Rapu. Vau k\u0129thaman\u0129
+  k\u0129u n\u0129twalasim\u0129kie k\u0169thi m\u0169no na maa\u0169 tw\u0129s\u0129le
+  k\u0169nd\u0169 kw\u0129 i\u0129ma, \u0129nd\u0129 natan\u0129ie ta k\u0129 k\u0169tetheesya
+  ana-a-asa me ision\u0129 sy\u0129 vaasa n\u0129 na k\u0129veti kyakwa!\\nKW\u0128TWA
+  MBETHELI \u0128NG\u0128\\nTwatethisye w\u0129a wa k\u0169thy\u0169l\u0169l\u0169ka
+  n\u0129 na Nora kwa k\u0129lungu kya myaka ta \u0129na na \u0129nd\u0129 tweetwa
+  ovisin\u0129 wa \u0169vonge t\u0169kath\u0169k\u0169me vo. Twamb\u0129\u0129e k\u0169th\u0169k\u0169ma
+  Mbetheli Mwei wa 1, 1960, na kwoou n\u0129t\u0169vekal\u0129te m\u0169no. \u0128vindan\u0129
+  y\u0129la n\u0129tw\u0129e Mbetheli n\u0129n\u0129many\u0129\u0129tye ma\u0169nd\u0169
+  maing\u0129 n\u0169nd\u0169 wa k\u0169th\u0169k\u0169ma na ana-a-asa me na ianda
+  nene, nake Nora n\u0169th\u0169k\u0169m\u0129te maw\u0129a meana \u0169na Mbetheli.\\nN\u0169nd\u0169
+  w\u0129 Mbetheli n\u0169manyaa ma\u0169nd\u0169 maing\u0129, n\u0129n\u0129w\u2019aa
+  n\u0129 m\u0169athime kw\u0129yonea \u0169nd\u0169 w\u0129a wa Yeova w\u0129an\u0129te
+  nth\u0129 ya Philippines. \u0128la nakinyie Mbetheli ya mbee n\u0129 mwanake, nth\u0129
+  ya Philippines ya\u0129 atavany\u2019a ta 10,000. \u0168m\u0169nth\u0129 \u0169\u0169
+  kw\u0129 atavany\u2019a mbee wa 200,000 na ath\u0169k\u0169mi ma Mbetheli maana
+  maing\u0129, ala math\u0169k\u0169maa na k\u0129thito n\u0129 kana w\u0129a wa k\u0169tavany\u2019a
+  \u0169endeee.\\nO \u0169nd\u0169 w\u0129a waendeeie na k\u0169songa mbee, now\u2019o
+  ovisi \u0169la wa\u0129 vo wa Mbetheli waendie \u0169nyiv\u0129te. N\u0129vo \u0129nd\u0129
+  Nzama \u0128la \u0128tongoesye yatw\u0129ie t\u0169manthe k\u0129wanza twake ovisi
+  \u0169ng\u0129 m\u0169nenange. Noosanie na mwana-a-asa \u0169la wa\u0169ngam\u0129e
+  m\u0169v\u0129a wa k\u0169tumb\u0129thya mavuku twalika \u0169t\u0169in\u0129, \u0169la
+  watw\u0129e and\u0169 aing\u0129 ma China. Twaendie k\u0129la ny\u0169mba t\u0169ik\u0169lya
+  ene kana ve \u0169mwe wenda k\u0169t\u0169thooesya k\u0129wanza. T\u0169yaakitya
+  m\u0169nd\u0169 \u0169kwenda k\u0169t\u0169teea. O na m\u0169t\u0169i \u0169mwe
+  eekie k\u0169tw\u0129a: \u201cIthy\u0129 and\u0169 ma China t\u0169itesaa. Tw\u0129kaa
+  k\u0169thooa.\u201d\\nM\u0169thenya \u0169mwe t\u0169tata\u0129\u0129e m\u0169nd\u0169
+  \u0169mwe wa\u0129 na k\u0129wanza n\u0129wookie at\u0169k\u0169lya kana no twende
+  k\u0169k\u0129thooa n\u0169nd\u0169 n\u0129wathamaa athi Amelika. Ma\u0169nd\u0169
+  ala meek\u0129kie \u0129tina wa vau mat\u0169saan\u0129isye nginya twoona ta t\u0169k\u0169ota.
+  M\u0169t\u0169i \u0169ng\u0129 nake avangie n\u0169k\u0169ta k\u0129wanza na eek\u0129a
+  ala ang\u0129 ma\u0129 vakuv\u0129 nake vinya o namo mathoosye. O na n\u0129twesie
+  k\u0169thooa k\u0129wanza kya \u0169la m\u0169nd\u0169 watw\u0129\u0129te \u201cIthy\u0129
+  and\u0169 ma China t\u0169itesaa.\u201d \u0128tina wa kavinda kanini twakwatie k\u0129wanza
+  kya\u0129 k\u0129nene mala atat\u0169 kw\u0129 k\u0129la kyaak\u0129twe ovisi wa
+  Mbetheli. Ndi na nzika kana Yeova Ngai n\u0129wendaa \u0169nd\u0169 \u0169su w\u0129k\u0129ke.\\nMwaka
+  wa 1950 ninyie na\u0129 m\u0169nini vy\u0169 kat\u0129 wa ala ma\u0129 Mbetheli.
+  Yu n\u0129 na k\u0129veti kyakwa nithy\u0129 ak\u0169\u0169 vy\u0169. Ndy\u0129lilaa
+  n\u0129 kw\u0129th\u0129wa naat\u0129\u0129ie Mw\u0129a\u0129i o k\u0169la kw\u2019onthe
+  wambonisye. N\u0129 w\u2019o asyai makwa n\u0129mand\u0169ngilye, \u0129nd\u0129
+  Yeova n\u0169nengete m\u0169sy\u0129 \u0169ng\u0129 m\u0169nene wa ana-a-asa na
+  e\u0129tu-a-asa. Ndi na nzika o na vanini kana o na eth\u0129wa twanengwa w\u0129a
+  w\u0129va, Yeova ndaleaa k\u0169t\u0169nenga kyonthe k\u0129la tw\u0129 na vata
+  nakyo. Nyie n\u0129 na Nora n\u0129t\u0169t\u0169ng\u0129aa Yeova m\u0169vea m\u0169no
+  n\u0169nd\u0169 wa moseo ala \u0169tw\u0129k\u0129te, na n\u0129t\u0169kw\u0129k\u0129a
+  ang\u0129 vinya mam\u0169tate.\u2014Mal. 3:10.\\nVe \u0129vinda Yes\u0169 wathokisye
+  mumya \u0169mwe wa koti weetawa Mathayo Livai amw\u0129a at\u0129\u0129: \u201cMbik\u0129la.\u201d
+  Athokw\u2019a eekie ata? Mbivilia ya\u0129tye: \u201cNake atia sy\u0129nd\u0169
+  syonthe, na ook\u0129la am\u0169vik\u0129la.\u201d (Luka 5:27, 28) O nakwa n\u0129n\u0129kwat\u0129te
+  myanya ta \u0129su, na n\u0129ngw\u0129k\u0129a onthe vinya kuma ngoon\u0129 meke
+  oou n\u0129 kana mone moathimo maing\u0129.\"", "\"1 YEOVA\\n\u0128sy\u0129twa ya
+  Ngai n\u0129 Yeova, na \u0169aly\u0169lo wayo n\u0129 \u201cN\u0169tw\u2019\u0129k\u0129thasya.\u201d
+  Yeova n\u0129we Ngai mwene vinya w\u2019onthe, na n\u0129we woombie sy\u0129nd\u0169
+  syonthe. E \u0169tonyi wa kw\u0129ka \u0169nd\u0169 o na w\u0129va \u0169la \u0169vang\u0129te.\\nKwa
+  K\u0129evelania, \u0129sy\u0129twa ya Ngai yaand\u0129kawa na nthoo inya. K\u0129thyomon\u0129
+  kya K\u0129s\u0169ng\u0169, nthoo isu n\u0129 YHWH kana JHVH. \u0128sy\u0129twa
+  ya Ngai y\u0129kwat\u0129kanaa mavinda vakuv\u0129 7,000 maand\u0129kon\u0129 ala
+  maand\u0129kiwe tene ma K\u0129evelania. And\u0169 \u0129\u0169l\u0169 wa nth\u0129
+  yonthe matam\u0169kaa \u0129sy\u0129twa Yeova kwa nz\u0129a sy\u0129 k\u0129vath\u0169kany\u2019o
+  kwosana na k\u0129thyomo k\u0129la maneenaa.\\n2 MBIVILIA \u2018N\u0128YAVEVEEWE
+  N\u0128 NGAI\u2019\\nNgai n\u0129we M\u0169and\u0129k\u0129thya wa Mbivilia, \u0129nd\u0129
+  at\u0169m\u0129ie and\u0169 k\u0169m\u0129and\u0129ka. \u0168u no \u0169nd\u0169
+  \u0169mwe na \u0169nd\u0169 m\u0169tum\u0129a m\u0169k\u0169\u0169 \u0169tonya kw\u0129a
+  mw\u0129s\u0169k\u0169\u0169e am\u0169and\u0129k\u0129e val\u0169a. Ngai at\u0169m\u0129ie
+  veva wake m\u0169theu \u0169tongoesye ala maand\u0129kie Mbivilia maand\u0129ke
+  mos\u0169an\u0129o make. Veva wa Ngai n\u0129wamatongoesye kwa nz\u0129a sy\u0129
+  k\u0129vath\u0169kany\u2019o, ta k\u0169tuma mona mawoni kana maota ndoto, na \u0129tina
+  maiand\u0129ka k\u0129la monie kana maotie.\\n3 MYOLOOTO\\nMyolooto n\u0129 momany\u0129syo
+  ma Mbivilia ala maeleasya \u0169w\u2019o wa m\u0169singi wa Mbivilia. Kwa ngelekany\u2019o,
+  mwolooto \u0169la waasya kana \u201citindo nth\u0169k\u0169 n\u0129syanangaa mw\u0129kal\u0129le
+  m\u0169seo\u201d \u0169t\u0169many\u0129asya kana and\u0169 ala t\u0169\u0169tindany\u2019a
+  namo no mat\u0169tethye kana makatwananga. (1 Akolintho 15:33) Naw\u2019o mwolooto
+  \u0169la waasya kana \u201co k\u0129la m\u0169nd\u0169 \u0169vu\u0129aa, nokyo \u0169kaketha\u201d
+  \u0169t\u0169many\u0129asya kana t\u0169y\u0129sa kw\u0129vathana na mosyao ma meko
+  mait\u0169.\u2014Akalatia 6:7.\\n4 WATHANI\\nWathani n\u0129 \u0169t\u0169mane kuma
+  kwa Ngai. No w\u0129th\u0129we \u0169eleetye \u0129\u0169l\u0169 wa kwenda kwa Ngai,
+  mw\u0129kal\u0129le \u0169la twa\u0129le kw\u0129th\u0129wa naw\u2019o, mw\u0129ao,
+  kana \u0169voo wa \u0169sil\u0129lo. O na \u0129ng\u0129, no w\u0129th\u0129we \u0169eleetye
+  \u0129\u0169l\u0169 wa \u0169nd\u0169 m\u0169na \u0169kek\u0129ka \u0129vinda y\u0169k\u0129te.
+  Ve mawathani maing\u0129 me Mbivilian\u0129 mean\u0129\u0129te.\\n5 MAWATHANI \u0128\u0168L\u0168
+  WA MASIA\\n6 K\u0128ELEELO KYA YEOVA KWA NTH\u0128\\nYeova oombie nth\u0129 y\u0129th\u0129we
+  y\u0129 vand\u0169 vaseo va kw\u0129kalawa n\u0129 ala mamwendete. K\u0129eleelo
+  k\u0129u kyake k\u0129yaaly\u0169ka. O m\u0129t\u0169k\u0129, Ngai n\u0169k\u0169vetanga
+  \u0169th\u0169ku \u0129\u0169l\u0169 wa nth\u0129 na ainenga and\u0169 make thay\u0169
+  wa tene na tene.\\n7 SATANI, \u0168LA NDEVILI\\nSatani n\u0129 m\u0169la\u0129ka
+  \u0169la wamb\u0129\u0129isye \u0169lei \u0129\u0169l\u0169 wa Ngai. \u0128sy\u0129twa
+  y\u0129u, Satani, yonanasya \u201cM\u0169v\u0129ngan\u0129sya,\u201d n\u0169nd\u0169
+  aleanaa na Yeova. O na \u0129ng\u0129, etawa Ndevili, na \u0129sy\u0129twa y\u0129u
+  yonanasya \u201cM\u0169sukani.\u201d Eetiwe \u0169u n\u0169nd\u0169 n\u0169neenaa
+  \u0169v\u0169ng\u0169 \u0129\u0169l\u0169 wa Ngai na n\u0169kengaa and\u0169.\\n8
+  ALA\u0128KA\\nYeova oombie ala\u0129ka \u0129vinda y\u0129asa mbee wa k\u0169mba
+  nth\u0129. Amombie mekalae \u0129tun\u0129. Kw\u0129 ala\u0129ka mbee wa milioni
+  \u0129ana y\u0129mwe. (Ndanieli 7:10) Ala\u0129ka me masy\u0129twa na nda\u0129a
+  sy\u0129 k\u0129vath\u0169kany\u2019o, na ala a\u0129k\u0129\u0129ku n\u0129maleaa
+  k\u0169thaithwa n\u0169nd\u0169 me w\u0129nyivyo. Meth\u0129awa maan\u0129tw\u2019e
+  ikundi sy\u0129 k\u0129vath\u0169kany\u2019o na math\u0169k\u0169maa maw\u0129a
+  me k\u0129vath\u0169kany\u2019o. Maw\u0129a amwe n\u0129 k\u0169th\u0169k\u0169ma
+  mbee wa k\u0129v\u0129la kya \u0169sumb\u0129 kya Yeova, k\u0169nenga and\u0169
+  \u0169t\u0169mane wake, k\u0169s\u0169v\u0129a na k\u0169tongoesya ath\u0169k\u0169mi
+  make k\u0169\u0169 nth\u0129, kw\u0129ka meko ma Ngai ma \u0169sil\u0129lo, na k\u0169tetheesya
+  w\u0129an\u0129 wa k\u0169tavany\u2019a. (Savuli 34:7; \u0168vuan\u2019yo 14:6;
+  22:8, 9) Na \u0129vindan\u0129 y\u0169k\u0129te, makatetheesya Yes\u0169 ka\u0169n\u0129
+  wa Ali\u2013Maketoni.\u2014\u0168vuan\u2019yo 16:14, 16; 19:14, 15.\\n9 NA\u0128\\nNa\u0129
+  n\u0129 \u0169nd\u0169 w\u2019onthe \u0169la tw\u0129kaa, t\u0169s\u0169an\u0129aa,
+  kana tw\u0129w\u2019aa \u0169tosan\u0129te na kwenda kwa Yeova. N\u0169nd\u0169
+  n\u0129yanangaa ngwatan\u0129o yit\u0169 na Ngai, n\u0169t\u0169nengete m\u0129ao
+  na myolooto \u0129t\u0169tetheeasya t\u0169ikam\u0169v\u0129t\u0129sye. Mwamb\u0129l\u0129\u0129lyon\u0129,
+  Yeova oomb\u0129te k\u0129la k\u0129nd\u0169 k\u0129 k\u0129an\u0129u kana k\u0129te
+  na na\u0129, \u0129nd\u0129 Atamu na Eva n\u0129mav\u0129tisye \u0129la manyuvie
+  k\u0169lea k\u0169mw\u0129w\u2019a Yeova, na kwoou mayaaendeea kw\u0129th\u0129wa
+  me ean\u0129u. N\u0129mamb\u0129\u0129e k\u0169k\u0169a na mesa k\u0169kw\u2019a,
+  na n\u0169nd\u0169 Atamu n\u0129wat\u0169ti\u0129e na\u0129, n\u0129t\u0169k\u0169aa
+  na t\u0169kakw\u2019a.\\n10 ALI\u2013MAKETONI\\n11 \u0168SUMB\u0128 WA NGAI\\n\u0168sumb\u0129
+  wa Ngai n\u0129 silikal\u0129 \u0129la Yeova \u0169\u0169ngam\u0129tye \u0129tun\u0129.
+  Yes\u0169 Kl\u0129sto n\u0129we M\u0169sumb\u0129 wa silikal\u0129 \u0129su. \u0128vindan\u0129
+  y\u0169k\u0129te, Yeova akat\u0169m\u0129a \u0168sumb\u0129 \u0169su k\u0169vetanga
+  \u0169th\u0169ku w\u2019onthe. \u0168sumb\u0129 wa Ngai \u0169kasumb\u0129ka nth\u0129
+  yonthe.\\n12 YES\u0168 KL\u0128STO\\nNgai oombie Yes\u0169 mbee wa k\u0169mba sy\u0129nd\u0169
+  ila ing\u0129 syonthe. Yeova am\u0169t\u0169mie Yes\u0169 k\u0169\u0169 nth\u0129
+  oke k\u0169kw\u2019a kwond\u0169 wa and\u0169 onthe. \u0128tina wa Yes\u0169 k\u0169awa,
+  Yeova n\u0129wam\u0169thay\u0169\u0169kisye. Na oyu Yes\u0169 n\u0169sumb\u0129k\u0129te
+  \u0129tun\u0129 ta M\u0169sumb\u0129 wa \u0168sumb\u0129 wa Ngai.\\n13 WATHANI WA
+  SYUMWA 70\\nMbivilia n\u0129yathan\u0129te \u0129vinda y\u0129la Masia \u0169koka.
+  A\u0129 oke m\u0169thyan\u0129 wa \u0129vinda y\u0129la Mbivilia y\u0129t\u0129te
+  syumwa 69, na \u0129vinda y\u0129u yamb\u0129\u0129ie mwakan\u0129 wa 455 Mbee wa
+  Kl\u0129sto (M.K.) na yathela mwaka wa 29 \u0128tina wa Kl\u0129sto (\u0128.K.).\\nTw\u0129s\u0129
+  ata kana \u0129vinda y\u0129u yathelile mwakan\u0129 wa 29 \u0128.K.? \u0128vinda
+  ya syumwa 69 yamb\u0129\u0129ie mwakan\u0129 wa 455 M.K. \u0129la Neemia wavikie
+  Yelusaleme na amb\u0129\u0129a k\u0169myaka \u0129ng\u0129. (Ndanieli 9:25; Neemia
+  2:1, 5-8) O tond\u0169 ndeto \u201cndasani\u201d yonanasya 12, now\u2019o ndeto
+  \u201ckyumwa\u201d yonanasya 7. Syumwa ila iwetetwe wathanin\u0129 \u0169\u0169
+  ti syumwa sya m\u0129thenya m\u0169onza \u0129nd\u0129 n\u0129 sya myaka m\u0169onza,
+  na \u0169u n\u0129 kw\u0129anana na mwolooto wa wathani \u0169la wa\u0129tye \u201cm\u0169thenya
+  vand\u0169 va mwaka.\u201d (Motalo 14:34; Esekieli 4:6) \u0168u w\u0129onany\u2019a
+  k\u0129la kyumwa k\u0129 na myaka m\u0169onza na kwoou syumwa 69 n\u0129 myaka 483
+  (69 x 7). Kwoou, twatala myaka 483 kuma mwaka wa 455 M.K., tw\u0129vika mwaka wa
+  29 \u0128.K. Mwakan\u0129 \u0169su, Yes\u0169 n\u0129wavatisiwe na atw\u2019\u0129ka
+  Masia!\u2014Luka 3:1, 2, 21, 22.\\nWathanin\u0129 o \u0169su, n\u0129vawetetwe kyumwa
+  k\u0129ng\u0129 k\u0129mwe, na \u0169u n\u0129 kwonany\u2019a kana \u0129su n\u0129
+  myaka \u0129ng\u0129 m\u0169onza. \u0128vindan\u0129 o y\u0129u, Masia a\u0129 oawe
+  mwakan\u0129 wa 33, na kwamb\u0129\u0129a mwaka wa 36 \u0128.K., \u0169voo m\u0169seo
+  wa \u0168sumb\u0129 wa Ngai wa\u0129 \u0169tavanw\u2019e mba\u0129n\u0129 syonthe,
+  \u0129nd\u0129 ti kwa Ayuti oka.\u2014Ndanieli 9:24-27.\\n14 \u0168MANY\u0128SYO
+  WA \u0168TAT\u0168 N\u0128 WA \u0168V\u0168NG\u0168\\nMbivilia \u0129many\u0129asya
+  kana Yeova Ngai n\u0129we M\u0169mbi na oombie Yes\u0169 mbee wa k\u0169mba sy\u0129nd\u0169
+  ila ing\u0129 syonthe. (Akolosai 1:15, 16) Yes\u0169 tiwe Ngai Mwene Vinya W\u2019onthe,
+  na vai m\u0169thenya o na \u0169mwe waasya kana n\u0129w\u0129anene na Ngai. N\u0129kyo
+  k\u0129tumi waisye at\u0129\u0129: \u201cAsa n\u0129 m\u0169nene kw\u0129 nyie.\u201d
+  (Yoana 14:28; 1 Akolintho 15:28) \u0128nd\u0129 nd\u0129ni mbing\u0129 imany\u0129asya
+  kana Ngai n\u0129 \u0168tat\u0169, kwonany\u2019a kana ve Ngai Asa, Mwana, na veva
+  m\u0169theu. Ndeto \u201c\u0168tat\u0169\u201d nd\u0129 Mbivilian\u0129. \u0168su
+  n\u0129 \u0169many\u0129syo wa \u0169v\u0169ng\u0169.\\nVeva m\u0169theu n\u0129
+  vinya wa Ngai \u0169tonekaa \u0169la \u0169t\u0169m\u0129aa kw\u0129ka ma\u0169nd\u0169
+  na kw\u0129an\u0129asya ieleelo syake. Veva m\u0169theu ti m\u0169nd\u0169. Kwa
+  ngelekany\u2019o, Akl\u0129sto ma \u0129vinda ya at\u0169mwa \u2018n\u0129maus\u0169iwe
+  n\u0129 veva m\u0169theu,\u2019 na Yeova a\u0129tye at\u0129\u0129: \u2018Ngam\u0129tul\u0169\u0129la
+  m\u0129\u0129 yonthe veva wakwa.\u2019\u2014Meko ma At\u0169mwa 2:1-4, 17.\\n15
+  NGELANY\u2019O\\nAkl\u0129sto ma w\u2019o mait\u0169m\u0129aa ngelany\u2019o \u0129la
+  mek\u0169thaitha Ngai. N\u0129k\u0129 matekaa \u0169u?\\nKwa \u0129vinda y\u0129asa,
+  ngelany\u2019o y\u0129th\u0129\u0129twe \u0129it\u0169m\u0129wa n\u0129 nd\u0129ni
+  sya \u0169v\u0169ng\u0169. \u0128vindan\u0129 ya tene, yat\u0169m\u0129awa n\u0129
+  and\u0169 \u0129la mek\u0169thaitha w\u0169mbi na sy\u0129th\u0129on\u0129 ila syakonan\u0129tye
+  na ma\u0169nd\u0169 ma k\u0169manyana k\u0129-mw\u0129\u0129 sya and\u0169 ala matam\u0169thaithaa
+  Ngai. Myakan\u0129 ya mbee 300 kuma Yes\u0169 akw\u2019a, Akl\u0129sto mayat\u0169m\u0129aa
+  ngelany\u2019o \u0169thaithin\u0129 woo. Myaka ming\u0129 \u0129tina wa vau, m\u0169sumb\u0129ki
+  wa Lomi weetawa Constantine n\u0129watw\u2019\u0129k\u0129thisye ngelany\u2019o
+  ta \u0169vano wa \u0168kl\u0129sto. K\u0129eleelo kya k\u0169t\u0169m\u0129a \u0169vano
+  \u0169su kya\u0129 k\u0169tuma and\u0169 aing\u0129 mamanya \u0168kl\u0129sto. \u0128nd\u0129
+  ngelany\u2019o ndyakonan\u0129tye o na vanini na Yes\u0169 Kl\u0129sto. \u0128vuku
+  y\u0129mwe ya Katholeki (New Catholic Encyclopedia) y\u0129eleetye at\u0129\u0129:
+  \u201cNgelany\u2019o ya\u0129 kw\u2019o mbee wa \u0168kl\u0129sto na n\u0129yonekaa
+  kwa ala mate Akl\u0129sto.\u201d\\nYes\u0169 ndaakw\u2019\u0129\u0129a ngelany\u2019on\u0129.
+  Ndeto ya K\u0129kiliki \u0129la \u0129aly\u0169l\u0129twe \u201cngelany\u2019o\u201d
+  yonanasya \u201ck\u0129tu\u0129 k\u0129l\u0169ngalu,\u201d \u201c\u0169vwa\u0169,\u201d
+  kana \u201cm\u0169t\u0129.\u201d Mbivilia y\u0129tawa The Companion Bible y\u0129eleetye
+  at\u0129\u0129: \u201cVai vand\u0169 nth\u0129n\u0129 wa K\u0129kiliki kya [\u0168tian\u0129o
+  Mwe\u0169] vonan\u0129tye \u0129\u0169l\u0169 wa itu\u0129 il\u0129 sya mbwa\u0169.\u201d
+  Yes\u0169 akw\u2019\u0129\u0129e k\u0129tu\u0129n\u0129 k\u0129l\u0169ngalu.\\nYeova
+  ndendaa t\u0169t\u0169m\u0129e m\u0129vw\u2019anano \u0169thaithin\u0129 wit\u0169.\u2014Kuma
+  20:4, 5; 1 Akolintho 10:14.\\n16 K\u0168LILIKANA K\u0128KW\u2019\u0168 KYA YES\u0168\\nYes\u0169
+  ee\u0129a\u0129e amany\u0129w\u2019a make malilikanae k\u0129kw\u2019\u0169 kyake.
+  Mekaa \u0169u k\u0129la mwaka, matuk\u0169 14 ma mwei wa Nisani, o matuk\u0169 ala
+  Aisilaeli matan\u0129aa Vasaka. K\u0129m\u0169t\u0169 na mbinyu, ila syonanasya
+  mw\u0129\u0129 wa Yes\u0169 na nthakame yake, niv\u0129taw\u2019a kwa k\u0129la
+  m\u0169nd\u0169 \u0169mbanon\u0129 wa k\u0169lilikana k\u0129kw\u2019\u0169 kyake.
+  Ala makasumb\u0129ka na Yes\u0169 \u0129tun\u0129 n\u0129mo ma\u0129saa k\u0129m\u0169t\u0169
+  na makanyw\u2019a mbinyu. Namo ala me na w\u0129kwatyo wa kw\u0129kala \u0129\u0169l\u0169
+  wa nth\u0129 tene na tene n\u0129manengae \u0169nd\u0169 \u0169su nda\u0129a kwa
+  k\u0169thi \u0169mbanon\u0129 wa k\u0169lilikana k\u0129kw\u2019\u0169 kya Yes\u0169,
+  \u0129nd\u0129 may\u0129\u0129saa k\u0129m\u0169t\u0169 kana k\u0169nyw\u2019a mbinyu.\\n17
+  THAY\u0168\\nMbivilia ya K\u0129s\u0169ng\u0169 ya New World Translation, \u0129t\u0169m\u0129\u0129te
+  ndeto \u201cthay\u0169\u201d (soul) kwonany\u2019a (1) m\u0169nd\u0169, (2) nyam\u0169,
+  kana (3) thay\u0169 wa m\u0169nd\u0169 kana wa nyam\u0169. Ekai twone ngelekany\u2019o
+  imwe:\\nM\u0169nd\u0169. Mbivilia ya\u0129tye at\u0129\u0129: \u201cMatuk\u0169
+  ma Noa, . . . and\u0169 anini, namo n\u0129 mathay\u0169 nyanya, matang\u0129\u0129we
+  \u0169nd\u0169 wa manz\u0129.\u201d (1 Vetelo 3:20) \u0128and\u0129kon\u0129 y\u0129\u0129,
+  ndeto \u201cmathay\u0169\u201d \u0129t\u0169m\u0129\u0129twe kwonany\u2019a and\u0169,
+  namo n\u0129 Noa na m\u0169ka, ana make atat\u0169, na aka ma ana make.\\nNyam\u0169.
+  Mbivilia ya\u0129tye at\u0129\u0129: \u201cNgai asya, Manz\u0129 n\u0129maus\u0169we
+  n\u0129 wing\u0129 wa sy\u0169mbe sy\u0129 thay\u0169 [\u201cmathay\u0169,\u201d
+  maelesyo ma kwongeleela], na ny\u0169nyi i\u0169l\u0169kae \u0129\u0169l\u0169 wa
+  nth\u0129 yayayan\u0129.\u201d O na Mbivilia yongeleele kwasya at\u0129\u0129: \u201cNa
+  Ngai asya, Nth\u0129 n\u0129yumye sy\u0169mbe sy\u0129 thay\u0169 [\u201cmathay\u0169,\u201d
+  maelesyo ma kwongeleela] o m\u0169themba wasyo, indo, na t\u0169sam\u0169 t\u0169la
+  t\u0169tamb\u0169kaa, na nyam\u0169 sya k\u0169\u0169 nth\u0129 o m\u0169themba
+  wasyo: na kweeth\u0129wa \u0169u.\u201d\u2014Mwamb\u0129l\u0129lyo 1:20, 24.\\nThay\u0169
+  wa m\u0169nd\u0169 kana wa nyam\u0169. Yeova eeie Mose at\u0129\u0129: \u201cAnd\u0169
+  onthe ala mamanthaa thay\u0169 waku n\u0129 akw\u2019\u0169.\u201d (Kuma 4:19) \u0128la
+  Yes\u0169 wa\u0129 k\u0169\u0169 nth\u0129, aisye at\u0129\u0129: \u201cNyie, ninyie
+  m\u0169\u0129thi \u0169la m\u0169seo: m\u0169\u0129thi m\u0169seo n\u0169n\u0169\u0169wia
+  thay\u0169 wake nth\u0129 \u0169nd\u0169 wa malondu.\u201d\u2014Yoana 10:11.\\nO
+  na \u0129ng\u0129, \u0129la m\u0169nd\u0169 weeka \u0169nd\u0169 na \u2018thay\u0169
+  wake w\u2019onthe,\u2019 \u0169u wonanasya kana eeka \u0169nd\u0169 \u0169su na
+  ngenda na aw\u0129ka na \u0169tonyi wake w\u2019onthe. (Mathayo 22:37; K\u0169t\u0169ng\u0129l\u0129lwa
+  Kwa M\u0129ao 6:5) M\u0169nd\u0169 m\u0169kw\u2019\u0169 kana mw\u0129\u0129 m\u0169kw\u2019\u0169
+  no w\u0129twe thay\u0169 m\u0169kw\u2019\u0169.\u2014Motalo 6:6; Akai 2:13.\\n18
+  VEVA\\nNdeto ya K\u0129evelania na ya K\u0129kiliki \u0129la \u0129aly\u0169l\u0129twe
+  \u201cveva\u201d Mbivilian\u0129 ya K\u0129s\u0169ng\u0169 ya New World Translation
+  no yonany\u2019e sy\u0129nd\u0169 sy\u0129 k\u0129vath\u0169kany\u2019o. \u0128nd\u0129
+  k\u0129la \u0129vinda ndeto \u0129su yonanasya k\u0129nd\u0169 k\u0129tesa kwoneka
+  n\u0129 m\u0169nd\u0169, ta nzeve, kana m\u0129th\u0169m\u0169 ya m\u0169nd\u0169
+  na ya nyam\u0169. Ndeto \u0129su no yonany\u2019e sy\u0169mbe sya veva kana veva
+  m\u0169theu, naw\u2019o n\u0129 vinya \u0169la Ngai \u0169t\u0169m\u0129aa kw\u0129ka
+  ma\u0169nd\u0169. Mbivilia nd\u0129many\u0129asya kana ve k\u0129nd\u0169 k\u0129
+  nth\u0129n\u0129 wa m\u0169nd\u0169 k\u0129endeeaa kw\u0129kala thay\u0169 m\u0169nd\u0169
+  akw\u2019a.\u2014Kuma 35:21; Savuli 104:29; Mathayo 12:43; Luka 11:13.\\n19 NGIENA\\nNgiena
+  n\u0129 \u0129sy\u0129twa ya mwanda wa\u0129 vakuv\u0129 na Yelusaleme vala k\u0129ko
+  kyav\u0129v\u0129aw\u2019a. Vai \u0169nd\u0169 wonanasya kana \u0129vindan\u0129
+  ya Yes\u0169 ve nyam\u0169 kana and\u0169 math\u0129n\u0129aw\u2019a mwandan\u0129
+  \u0169su me thay\u0169. Kwoou Ngiena ndyonanasya vand\u0169 vatonekaa vala ala akw\u2019\u0169
+  math\u0129n\u0129aw\u2019a tene na tene. \u0128la Yes\u0169 waneeneaa \u0129\u0169l\u0169
+  wa ala makekw\u2019a Ngienan\u0129, aeleasya \u0129\u0169l\u0169 wa kwanangwa vy\u0169.\u2014Mathayo
+  5:22; 10:28.\\n20 MBOYA YA MW\u0128A\u0128I\\n\u0128no n\u0129 mboya \u0129la Yes\u0169
+  wat\u0169m\u0129ie k\u0169many\u0129sya amany\u0129w\u2019a make \u0169nd\u0169
+  ma\u0129le k\u0169voya. O na \u0129ng\u0129, mboya \u0129su y\u0129s\u0129k\u0129e
+  ta Mboya ya Asa Wit\u0169 kana mboya ya ngelekany\u2019o. Kwa ngelekany\u2019o,
+  Yes\u0169 at\u0169many\u0129isye t\u0169voyae \u0169\u0169:\\n\u201cSy\u0129twa
+  yaku y\u0129ta\u0129we\u201d\\nN\u0129t\u0169m\u0169voyaa Yeova athesye \u0129sy\u0129twa
+  yake kumana na \u0169v\u0169ng\u0169 w\u2019onthe. A\u0129le kw\u0129ka \u0169u
+  n\u0129 kana sy\u0169mbe syonthe \u0129tun\u0129 na k\u0169\u0169 nth\u0129 ita\u0129e
+  na iinenga nda\u0129a \u0129sy\u0129twa ya Ngai.\\n\u201c\u0168sumb\u0129 waku w\u0169ke\u201d\\nT\u0169voyaa
+  n\u0129 kana silikal\u0129 ya Ngai yanange nth\u0129 \u0129no nth\u0169ku ya Satani,
+  \u0129sumb\u0129ke nth\u0129 yonthe, na \u0129itw\u2019\u0129k\u0129thya nth\u0129
+  \u0129no nza\u0169.\\n\u201cKwenda kwaku kw\u0129ke k\u0169\u0169 nth\u0129\u201d\\nT\u0169voyaa
+  n\u0129 kenda k\u0129eleelo kya Ngai \u0129\u0169l\u0169 wa nth\u0129 k\u0129an\u0129e
+  na n\u0129 kana and\u0169 ala ewi na mate na na\u0129 me\u0129sa kw\u0129kala tene
+  na tene \u0129\u0169l\u0169 wa Nth\u0129 Nza\u0169, o tond\u0169 Yeova wendaa \u0129la
+  woombie and\u0169.\\n21 WOVOSYO\\nYeova anenganie wovosyo n\u0129 kana atang\u0129\u0129e
+  and\u0169 kuma na\u0129n\u0129 na k\u0129kw\u2019\u0169n\u0129. Wovosyo wa\u0129
+  nd\u0129vi \u0129la yendekaa n\u0129 kana Ngai athooee nzyawa sya Atamu thay\u0169
+  \u0169te na na\u0129 \u0169la Atamu waaisye na \u0169it\u0169ng\u0129\u0129a ngwatan\u0129o
+  nzeo \u0129la m\u0169nd\u0169 wa\u0129 nayo na Yeova. Ngai am\u0169t\u0169mie Yes\u0169
+  k\u0169\u0169 nth\u0129 n\u0129 kana akw\u2019e kwond\u0169 wa ene na\u0129. N\u0169nd\u0169
+  wa k\u0129kw\u2019\u0169 kya Yes\u0169, and\u0169 onthe me na mwanya wa kw\u0129kala
+  thay\u0169 tene na tene na maivetewa na\u0129.\\n22 N\u0128K\u0128 MWAKA WA 1914
+  N\u0128 WA VATA M\u0168NO?\\nWathani \u0169la w\u0129 \u0129vukun\u0129 ya Ndanieli
+  k\u0129lungu kya 4 \u0169t\u0169many\u0129asya kana Ngai a\u0129 a\u0169ngamye \u0168sumb\u0129
+  wake mwakan\u0129 wa 1914.\\n\u0168nd\u0169 wathani \u0169su waily\u0129: Yeova
+  n\u0129watumie M\u0169sumb\u0129 Nevukatilesa aota ndoto \u0129\u0169l\u0169 wa
+  m\u0169t\u0129 m\u0169nene watemiwe na waval\u0169ka. Ndoton\u0129 \u0129su, ve
+  k\u0129tang\u2019a kya k\u0129aa na \u0169thuku kyoovete k\u0129tina kya m\u0169t\u0129
+  \u0169su n\u0129 kana nd\u0169keane kwa \u0129vinda ya \u201cmavinda m\u0169onza.\u201d
+  \u0128tina wa mavinda asu m\u0169onza, m\u0169t\u0129 \u0169su wa\u0129 w\u0129ane
+  \u0129ng\u0129.\u2014Ndanieli 4:1, 10-16.\\nWathani \u0169su w\u0129t\u0169many\u0129sya
+  kya\u0169? M\u0169t\u0129 \u0169su woonanasya \u0169sumb\u0129ki wa Ngai. Kwa myaka
+  ming\u0129, Yeova at\u0169m\u0129aa asumb\u0129 kuma Yelusaleme masumb\u0129ke Aisilaeli.
+  (1 Mavinda 29:23) \u0128nd\u0129 asumb\u0129 asu maya\u0129 a\u0129k\u0129\u0129ku,
+  na kwoou \u0169sumb\u0129ki woo n\u0129wathelile. Yelusaleme n\u0129yaanangiwe mwakan\u0129
+  wa 607 Mbee wa Kl\u0129sto (M.K.). Mwakan\u0129 \u0169su n\u0129w\u2019o \u201cmavinda
+  m\u0169onza\u201d mamb\u0129\u0129ie. (2 Asumb\u0129 25:1, 8-10; Esekieli 21:25-27)
+  \u0128la Yes\u0169 waisye \u201cYelusaleme \u0169kakinyangw\u2019a n\u0129 And\u0169-ma-mba\u0129-ing\u0129,
+  m\u0169vaka mavinda ma And\u0169-ma-mba\u0129-ing\u0129 mean\u0129w\u2019e,\u201d
+  aneeneaa ala \u201cmavinda m\u0169onza.\u201d (Luka 21:24) Kwoou \u201cmavinda m\u0169onza\u201d
+  mayaathela Yes\u0169 e k\u0169\u0169 nth\u0129. Yeova n\u0129wathan\u0129te kana
+  ve \u0169la \u0169kam\u0169nenga \u0168sumb\u0129 m\u0169thyan\u0129 wa \u201cmavinda
+  m\u0169onza.\u201d \u0168sumb\u0129ki wa M\u0169sumb\u0129 \u0169su mwe\u0169, Yes\u0169,
+  \u0169kaete moathimo maing\u0129 matakathela kwa and\u0169 ma Ngai ala maketh\u0129wa
+  \u0129\u0169l\u0169 wa nth\u0129.\u2014Luka 1:30-33.\\n\u201cMavinda m\u0169onza\u201d
+  meana ata? \u201cMavinda m\u0169onza\u201d ma\u0129 na \u0169asa wa myaka 2,520.
+  Twatala myaka 2,520 kuma mwaka wa 607 M.K., tw\u0129vika mwaka wa 1914. Mwaka \u0169su
+  n\u0129w\u2019o Yeova wam\u0169tw\u2019\u0129k\u0129thisye Yes\u0169, \u0169la n\u0129we
+  Masia, M\u0169sumb\u0129 wa \u0168sumb\u0129 wa Ngai \u0129tun\u0129.\\nT\u0169kwataa
+  ata myaka \u0129su 2,520? Mbivilia ya\u0129tye kana mavinda atat\u0169 na nyusu
+  no \u0169nd\u0169 \u0169mwe na m\u0129thenya 1,260. (\u0168vuan\u2019yo 12:6, 14)
+  Kwoou \u201cmavinda m\u0169onza\u201d n\u0129 k\u0169nd\u0169 kw\u0129l\u0129 kwa
+  m\u0129thenya 2,520. Kwosana na mwolooto wa wathani \u0169la wa\u0129tye \u201cm\u0169thenya
+  vand\u0169 va mwaka,\u201d m\u0129thenya 2,520 n\u0129 \u0169nd\u0169 \u0169mwe
+  na myaka 2,520.\u2014Motalo 14:34; Esekieli 4:6.\\n23 MIKAELI, \u0168LA M\u0168LA\u0128KA
+  M\u0168NENE\\nNdeto \u201cm\u0169la\u0129ka m\u0169nene\u201d yonanasya \u201cm\u0169nene
+  wa ala\u0129ka.\u201d Mbivilia \u0129wetete o m\u0169la\u0129ka \u0169mwe m\u0169nene,
+  na etawa Mikaeli.\u2014Ndanieli 12:1; Yuta 9.\\nMikaeli n\u0129we M\u0169tongoi
+  wa ita sya Ngai sya ala\u0129ka a\u0129k\u0129\u0129ku. \u0128and\u0129ko ya \u0168vuan\u2019yo
+  12:7 ya\u0129tye at\u0129\u0129: \u201cMikaeli na ala\u0129ka make maithi k\u0169kita
+  na \u0169la m\u0169k\u0169nga m\u0169nene; . . . na ala\u0129ka maw\u2019o mokita.\u201d
+  \u0128vuku ya \u0168vuan\u2019yo ya\u0129tye kana M\u0169tongoi wa ita sya Ngai
+  n\u0129 Yes\u0169, na kwoou Mikaeli n\u0129 \u0129sy\u0129twa y\u0129ng\u0129 ya
+  Yes\u0169.\u2014\u0168vuan\u2019yo 19:14-16.\\n24 M\u0128THENYA YA M\u0168MIN\u0168K\u0128LYO\\nNdeto
+  isu syonanasya \u0129vinda y\u0129la ma\u0169nd\u0169 manene makek\u0129ka \u0129\u0169l\u0169
+  wa nth\u0129 \u0129vinda \u0129kuv\u0129 \u0168sumb\u0129 wa Ngai \u0169tanamba
+  kwananga nth\u0129 \u0129no ya Satani. Ndeto ing\u0129 ikonan\u0129tye na ndeto
+  isu n\u0129 \u201cw\u0129an\u0129u wa \u0129vinda y\u0129\u0129\u201d na \u201ck\u0169ka
+  [kana, kw\u0129th\u0129wa vo] kwa Mwana wa m\u0169nd\u0169,\u201d ila it\u0169m\u0129\u0129twe
+  wathanin\u0129 wa Mbivilia k\u0169neenea \u0129vinda o y\u0129u. (Mathayo 24:3,
+  27, 37)\u2018M\u0129thenya ya m\u0169min\u0169k\u0129lyo\u2019 yamb\u0129\u0129ie
+  \u0129la \u0168sumb\u0129 wa Ngai wamb\u0129\u0129e k\u0169sumb\u0129ka \u0129tun\u0129
+  mwakan\u0129 wa 1914 na \u0129kathela \u0129la nth\u0129 \u0129no ya Satani \u0129kanangwa
+  ka\u0169n\u0129 wa Ali\u2013Maketoni.\u20142 Timotheo 3:1; 2 Vetelo 3:3.\\n25 \u0168THAY\u0168\u0168KYO\\n\u0128la
+  Ngai watuma m\u0169nd\u0169 m\u0169kw\u2019\u0169 eth\u0129wa thay\u0169 \u0129ng\u0129,
+  eth\u0129awa am\u0169thay\u0169\u0169kya. Na k\u0129u n\u0129kyo Mbivilia y\u0129taa
+  \u0169thay\u0169\u0169kyo. Mbivilia n\u0129wetete \u0129\u0169l\u0169 wa and\u0169
+  keenda mathay\u0169\u0169kiw\u2019e. Eliya, Elisa, Yes\u0169, Vetelo, na Vaulo n\u0129mathay\u0169\u0169kisye
+  and\u0169. Syama isu syeek\u0129kie n\u0169nd\u0169 wa vinya wa Ngai. Yeova n\u0129wathan\u0129te
+  kana akathay\u0169\u0169kya \u201cala al\u0169ngalu, na ala mate al\u0169ngalu nao.\u201d
+  (Meko ma At\u0169mwa 24:15) O na Mbivilia n\u0129wetete kana ve and\u0169 makathay\u0169\u0169kw\u2019a
+  mathi \u0129tun\u0129. \u0168thay\u0169\u0169kyo \u0169su w\u0129th\u0129awa \u0129la
+  and\u0169 ala met\u0129k\u0129w\u2019e mauta n\u0129 Ngai mathay\u0169\u0169kaw\u2019a
+  makekale \u0129tun\u0129 vamwe na Yes\u0169.\u2014Yoana 5:28, 29; 11:25; Avilivi
+  3:11; \u0168vuan\u2019yo 20:5, 6.\\n26 K\u0168NEENANY\u2019A NA NDAIMONI\\nK\u0169neenany\u2019a
+  na ndaimoni n\u0129 \u0169nd\u0169 m\u0169th\u0169ku na w\u0129th\u0129awa \u0129la
+  m\u0169nd\u0169 waneenany\u2019a nasyo \u0129mwe kwa \u0129mwe, kw\u0129s\u0129la
+  awe, kana and\u0169 ang\u0129 ala mat\u0169m\u0129aa vinya wa ndaimoni. And\u0169
+  ala maneenanasya na ndaimoni mekaa \u0169u n\u0169nd\u0169 n\u0129ma\u0129k\u0129aa
+  \u0169many\u0129syo wa \u0169v\u0169ng\u0169 \u0169la waasyaa kana veva wa m\u0169nd\u0169
+  nd\u0169kusaa, \u0129nd\u0129 \u0169tw\u2019\u0129kaa \u0129veva \u0129vuku. \u0168nd\u0169
+  \u0169ng\u0129 n\u0129 kana ndaimoni nikengaa and\u0169 n\u0129 kenda maikamw\u0129w\u2019e
+  Ngai. O na ma\u0169nd\u0169 ta k\u0169soma ndata, k\u0169a\u0169sya, kw\u0129ka
+  syama, \u0169oi, na k\u0169inga ithit\u0169 n\u0129 meko ma ndaimoni. Mavuku maing\u0129,
+  makaseti, mavisa ala maeleasya \u0129vinda y\u0169k\u0129te kw\u0129s\u0129la k\u0169soma
+  ndata, sinema, na mbathi, n\u0129 sy\u0129nd\u0169 itumaa and\u0169 mas\u0169an\u0129a
+  kana k\u0169neenany\u2019a na ndaimoni na kw\u0129ka syama n\u0129 ma\u0169nd\u0169
+  matesa k\u0169ma\u0169m\u0129sya na ma k\u0169tan\u0129thya. Sy\u0129th\u0129o mbing\u0129
+  ila iat\u0129\u0129awa \u0129vinda ya mathiko ta k\u0169thembea ala akw\u2019\u0169,
+  mboka sya k\u0169lilikana ala akw\u2019\u0169, na ma\u0169nd\u0169 ang\u0129 ala
+  mekawa mathiko matamb\u0129\u0129e ta k\u0169likya mw\u0129\u0129 wa m\u0169kw\u2019\u0169
+  ny\u0169mba, k\u0169sunga mb\u0169a, na kw\u0129k\u0129a ng\u0169a nzi\u0169 n\u0169nd\u0169
+  n\u0129 m\u0169thenya wa mathiko n\u0129 ma\u0169nd\u0169 makonan\u0129tye na ndaimoni.
+  Mavinda maing\u0129 and\u0169 n\u0129manyusaa ndawa sya k\u0169mila \u0129la mekwenda
+  k\u0169t\u0169m\u0129a vinya wa ndaimoni.\u2014Akalatia 5:20; \u0168vuan\u2019yo
+  21:8.\\n27 \u0168SUMB\u0128KI M\u0168NENE WA YEOVA\\nYeova n\u0129we Ngai Mwene
+  Vinya W\u2019onthe, na n\u0129we woombie sy\u0129nd\u0169 syonthe \u0129tun\u0129
+  na k\u0169\u0169 nth\u0129. (\u0168vuan\u2019yo 15:3) Na kwoou, Yeova n\u0129we
+  Mwene sy\u0129nd\u0169 syonthe na n\u0129we M\u0169sumb\u0129ki \u0169la m\u0169nene
+  vy\u0169, kana kwa ndeto ing\u0129, n\u0129we w\u0129 na \u0169k\u0169m\u0169 wa
+  k\u0169sumb\u0129ka sy\u0169mbe syonthe. (Savuli 24:1; Isaia 40:21-23; \u0168vuan\u2019yo
+  4:11) N\u0129wum\u0129tye m\u0129ao ya k\u0169tongoesya sy\u0129nd\u0169 syonthe
+  ila woombie. O na \u0129ng\u0129, Yeova e na \u0169k\u0169m\u0169 wa k\u0169nyuva
+  ang\u0129 meth\u0129we asumb\u0129ki. Twonanasya kana n\u0129tw\u0129t\u0129k\u0129laa
+  \u0169sumb\u0129ki m\u0169nene wa Ngai kwa k\u0169mwenda na k\u0169at\u0129\u0129a
+  m\u0129ao yake.\u20141 Mavinda 29:11.\\n28 KUMYA \u0128VU\\nKumya \u0129vu n\u0129
+  k\u0169aa na ngenda kana kate kasyae. \u0168u ti \u0169nd\u0169 \u0169mwe na \u0129la
+  m\u0169nd\u0169 wa\u0169m\u0129a kana wakwatwa n\u0129 \u0169wau \u0169tonya k\u0169tuma
+  kana ke \u0129vu kakw\u2019a. Kuma \u0129la m\u0169nd\u0169 m\u0169ka waitava oou,
+  kana kala keth\u0129awa \u0129vu kwake katalawa ta m\u0169nd\u0169 w\u0129 thay\u0169.\\n29
+  KW\u0128K\u0128WA NTHAKAME\\nKw\u0129k\u0129wa nthakame n\u0129 nz\u0129a ya \u0169iiti
+  \u0129la ndak\u0129tal\u0129 it\u0169m\u0129aa kw\u0129k\u0129a m\u0169nd\u0169
+  nthakame y\u0129 nima, kana k\u0169mw\u0129k\u0129a k\u0129mwe kya ilungu inya nene
+  sya nthakame mw\u0129\u0129n\u0129 wake. Nthakame \u0129su no y\u0129th\u0129we
+  yum\u0129tw\u2019e m\u0169nd\u0169n\u0129 \u0169ng\u0129 kana o \u0129ng\u0129 \u0129i\u0129twe.
+  Ilungu inya nene sya nthakame n\u0129 plasma, red blood cells, white blood cells,
+  na platelets.\\n30 \u0168KANY\u2019O\\nKwosana na Mbivilia, ndeto \u201c\u0169kany\u2019o\u201d
+  y\u0129 k\u0129vath\u0169kany\u2019o na \u0169k\u0169no kana kwosewa \u0129tambya.
+  \u0128la twanengwa \u0169kany\u2019o, tw\u0129th\u0129awa t\u0169imany\u0129w\u2019a,
+  na t\u0169il\u0169ngwa. Yeova ndakanasya and\u0169 make kwa nz\u0129a nth\u0169ku.
+  (Nthimo 4:1, 2) O na \u0129ng\u0129, Yeova n\u0129 ngelekany\u2019o nzeo m\u0169no
+  kwa asyai. Yeova akanasya m\u0169nd\u0169 kwa nz\u0129a nzeo nginya \u0169keth\u0129a
+  \u0169 m\u0169nd\u0169 no endeew\u2019e n\u0129 k\u0169at\u0129\u0129a \u0169kany\u2019o
+  \u0169su. (Nthimo 12:1) Yeova n\u0129wendete and\u0169 make na n\u0169mamany\u0129asya.
+  N\u0169manengae myolooto \u0129matetheesye k\u0169aly\u0169la mawoni math\u0169ku
+  na \u0129imatetheesya memany\u0129sye kw\u0129ka na k\u0169s\u0169an\u0129a kwosana
+  na kwenda kwake. Asyai ma\u0129le k\u0169kany\u2019a syana syoo kwa nz\u0129a \u0129tonya
+  k\u0169itetheesya imanye n\u0129k\u0129 sya\u0129le kw\u0129th\u0129wa sy\u0129
+  mb\u0129wi. O na \u0129ng\u0129, ma\u0129le k\u0169many\u0129sya syana syoo imwende
+  Yeova, syende Ndeto yake, Mbivilia, na iy\u0129elewa myolooto yayo.\\n31 NDAIMONI\\nNdaimoni
+  n\u0129 sy\u0169mbe nth\u0169ku sya veva na sy\u0129 vinya kw\u0129 and\u0169. Kwa
+  ndeto ing\u0129, ndaimoni n\u0129 ala\u0129ka ath\u0169ku. Matw\u2019\u0129kie ath\u0169ku
+  \u0129la meetw\u2019\u0129k\u0129thisye amaitha ma Ngai kwa k\u0169lea k\u0169mw\u0129w\u2019a.
+  (Mwamb\u0129l\u0129lyo 6:2; Yuta 6) Kwa kw\u0129ka \u0169u, ndaimoni n\u0129syaat\u0129\u0129ie
+  ngelekany\u2019o nth\u0169ku ya Satani ya k\u0169leana na Yeova.\u2014K\u0169t\u0169ng\u0129l\u0129lwa
+  Kwa M\u0129ao 32:17; Luka 8:30; Meko ma At\u0169mwa 16:16; Yakovo 2:19.\"", "\"WE
+  \u0168TONYA KW\u0128KA ATA?\\nKwas\u0169an\u0129a ngelekany\u2019o \u0129no: Mw\u0129\u0129tu
+  w\u0129tawa Heather eth\u0129\u0129twe e nd\u0169\u0169 na Mike kwa \u0129vinda
+  ya myei \u0129l\u0129, na es\u0169an\u0129a kana n\u0169mw\u0129s\u0129 nesa vy\u0169.
+  Maand\u0129kan\u0129aa mesengyi k\u0129la \u0129vinda, o na n\u0129maneenaa sim\u0169n\u0129
+  masaa maing\u0129, na n\u0129meth\u0129awa mes\u0129 k\u0129la k\u0129 ngoon\u0129
+  ya \u0169la \u0169ng\u0129 o na atanesa k\u0169k\u0129weta! \u0128nd\u0129 yu ve
+  \u0169nd\u0169 \u0169ng\u0129 Mike \u0169kwenda.\\nMyei \u0129su \u0129l\u0129 m\u0129v\u0129tu,
+  \u0169nd\u0169 \u0169la m\u0169nene Mike na Heather maa\u0129ka n\u0129 k\u0169thi
+  makwatene moko na k\u0169k\u0169nana kisi o vanini. Heather ndekwenda kw\u0129ka
+  \u0169nd\u0169 \u0169v\u0129t\u0169k\u0129te ma\u0169nd\u0169 asu. \u0128nd\u0129
+  o na \u0169u w\u0129 o vo, ndeenda nd\u0169\u0169 yake na Mike \u0129ithela n\u0169nd\u0169
+  Mike n\u0169mwendete na atumaa Heather ew\u2019a e mw\u0129an\u0129e. Na ti \u0169u
+  w\u2019oka, Heather es\u0169an\u0129a kana we na Mike n\u0129mendan\u0129te.\\nEth\u0129wa
+  n\u0169vik\u0129tye myaka \u0129la m\u0169nd\u0169 w\u0129th\u0129awa atonya k\u0169tuma
+  nd\u0169\u0169, na \u0169ikwatwa n\u0129 \u0169nd\u0169 ta \u0169\u0169 wam\u0169kwatie
+  Heather, \u0169tonya kw\u0129ka ata?\\nAMBA K\u0168S\u0168AN\u0128A!\\nKwas\u0169an\u0129a
+  \u0169nd\u0169 \u0169\u0169: M\u0169nd\u0169 akal\u0129sa m\u0169t\u0129n\u0129
+  na ay\u0129y\u0129kya a\u0169l\u0169ke ta kas\u0169ni, veth\u0129wa vaily\u0129
+  ata? Vate nzika no a\u0169m\u0129e. \u0168u now\u2019o vatonya kw\u0129th\u0129wa
+  vaily\u0129 m\u0169nd\u0169 akalea na ng\u0169l\u0169 mwolooto wa mw\u0129kal\u0129le,
+  kwa ngelekany\u2019o, ta mwolooto \u0169la wa\u0129tye, \u2018\u0128vathanei na
+  \u0169laalai.\u2019\u20141 Athesalonika 4:3.\\nM\u0169nd\u0169 atonya k\u0169kwatwa
+  n\u0129 th\u0129na mwa\u0169 n\u0169nd\u0169 wa k\u0169lea k\u0169at\u0129\u0129a
+  mw\u0129ao \u0169su? Mbivilia ya\u0129tye at\u0129\u0129: \u201c\u0168la w\u0129kaa
+  \u0169laalai ey\u0129kaa mw\u0129\u0129 wake mwene na\u0129.\u201d (1 Akolintho
+  6:18) N\u0129k\u0129 t\u0169tonya kwasya kana ndeto isu n\u0129 sya w\u2019o?\\nAsomi
+  maasyaa kana and\u0169 aing\u0129 ma m\u0169ika ala mamanyanaa k\u0129-mw\u0129\u0129
+  matanamba k\u0169twawa kana k\u0169twaana n\u0129matonya k\u0169kwatwa n\u0129 \u0169mwe
+  kat\u0129 wa ma\u0169nd\u0169 aa me vaa \u0129theo kana makakwatwa n\u0129 maingang\u0129.\\nK\u0168\u0168M\u0128A
+  M\u0168NO NGOON\u0128. And\u0169 aing\u0129 ma m\u0169ika ala mek\u0129te \u0169laalai
+  maasyaa kana \u0129tina wa kw\u0129ka \u0169u n\u0129meelilile m\u0169no.\\nK\u0168EKA
+  K\u0168\u0128K\u0128\u0128A \u0168LA \u0168NG\u0128. \u0128tina wa m\u0169nd\u0169
+  kw\u0129ka \u0169laalai na \u0169ng\u0129, k\u0129la \u0169mwe woo amb\u0129\u0129a
+  kw\u0129k\u0169lya-\u0129, \u2018Eth\u0129wa eekie \u0169laalai na \u0169ng\u0129
+  \u0169\u0169?\u2019\\nK\u0168KW\u2019A NGOO. E\u0129tu aing\u0129 meth\u0129awa
+  mayendeew\u2019a n\u0129 m\u0169nd\u0169\u0169me \u0169la \u0169tonya k\u0169mas\u0169v\u0129a,
+  \u0129nd\u0129 ti amat\u0169m\u0129e na\u0129 na aimatia. Na a\u0169me aing\u0129
+  maasyaa kana ti laisi kwendeew\u2019a n\u0129 m\u0169nd\u0169 m\u0169ka \u0169la
+  w\u0129t\u0129k\u0129laa makome \u0129mwe \u0129la mam\u0169k\u0169lya.\\n\u0168nd\u0169
+  \u0169la wa vata: Weet\u0129k\u0129la kw\u0129ka \u0169laalai, w\u0129th\u0129awa
+  weev\u0169thya m\u0169no kwa k\u0169nengane m\u0169th\u0129nz\u0129o wa vata vy\u0169.
+  (Alomi 1:24) Mw\u0129\u0129 waku n\u0129 wa vata m\u0169no \u0169keth\u0129a ti
+  wa k\u0169nenganwe oou!\\nOnany\u2019a kana n\u0169tw\u2019\u0129te vy\u0169 kw\u0129si\u0129\u0129a
+  kwa \u2018kw\u0129vathana na \u0169laalai.\u2019 (1 Athesalonika 4:3) Na \u0129nd\u0129
+  eth\u0129wa \u0169katwaana kana \u0169twawe \u0129vinda y\u0169k\u0129te, \u0169kakwata
+  m\u0169nd\u0169 wa k\u0169manyanaa nake k\u0129-mw\u0129\u0129. Na \u0169keeth\u0129wa
+  \u0169tonya k\u0169tan\u0129a k\u0169manyana k\u0129-mw\u0129\u0129 \u0169te na
+  nzika, \u0169te kw\u0129lila, na \u0169te k\u0169k\u0129a k\u0169kwatwa n\u0129
+  ma\u0169nd\u0169 math\u0169ku ala mavinda maing\u0129 makwataa and\u0169 ma m\u0169ika
+  ala meeka \u0169laalai.\u2014Nthimo 7:22, 23; 1 Akolintho 7:3.\\nWE W\u0128ONA ATA?\\nM\u0169nd\u0169
+  \u0169kwendete vy\u0169 no eke \u0169nd\u0169 \u0169tonya k\u0169k\u0169\u0169m\u0129sya
+  ngoon\u0129 kana mw\u0129\u0129?\\nKwa w\u2019o m\u0169nd\u0169 \u0169kwendete no
+  a\u0169tate w\u0129ke \u0169nd\u0169 \u0169tonya kwananga ngwatan\u0129o yaku na
+  Ngai?\u2014Aevelania 13:4.\"", "\"MYAKA m\u0129na m\u0129v\u0129tu Cesar na m\u0169ka,
+  Rocio, mekalaa nesa m\u0169no California. Cesar ath\u0169k\u0169maa masaa maing\u0129
+  kwa kyumwa aith\u0169k\u0169mana na masin\u0129 sya kwongela kana k\u0169olanga
+  muut\u0129a ny\u0169mba na k\u0169likya nzeve ny\u0169mba. Nake Rocio ath\u0169k\u0169maa
+  ovisin\u0129 wa ndak\u0129tal\u0129 masaa manini kwa kyumwa. Ma\u0129 na ny\u0169mba
+  yoo na maya\u0129 na syana. \u0128nd\u0129 ve ka\u0169nd\u0169 kamwe keek\u0129kie
+  kaaly\u0169la ma\u0169nd\u0169 moo vy\u0169. Ka\u0169nd\u0169 keva?\\nKw\u0129 Mwei
+  wa 10, 2009, ovisi wa \u0169vonge wa Amelika n\u0129wat\u0169m\u0129ie ikundi syonthe
+  sya nth\u0129 \u0129su val\u0169a \u0169wetete vata wa kwongelanga myako ya ovisi
+  wa \u0169vonge \u0169la w\u0129 Wallkill, New York, na \u0169kak\u0169lya ala me
+  na \u0169t\u0169\u0129ka m\u0169na meyumye maus\u0169sye val\u0169a mak\u0169l\u0129tye
+  mathi Mbetheli makatetheesye w\u0129a \u0169su kwa kavinda. O na ala mav\u0129t\u0169k\u0129tye
+  myaka \u0129la yendekaa n\u0129mak\u0169lilw\u2019e maus\u0169sye val\u0169a \u0169su.
+  Cesar na Rocio measya \u0169\u0169: \u201cN\u0169nd\u0169 wa \u0169k\u0169\u0169
+  wit\u0169, twamanyie twalea kw\u0129ka \u0169u no t\u0169eme kw\u0129sa k\u0169kwata
+  mwanya \u0169ng\u0129 wa k\u0169th\u0169k\u0169ma Mbetheli o na twenda. Kwoou t\u0169ya\u0129
+  t\u0169eka mwanya \u0169su wae oou mana!\u201d N\u0169nd\u0169 wa \u0169u n\u0129mat\u0169mie
+  val\u0169a woo mate kwananga saa.\\nMwaka n\u0129wathelile Cesar na Rocio matetwa
+  Mbetheli. \u0128nd\u0129 no maendeeie kw\u0129ka \u0169nd\u0169 matonya n\u0129
+  kana mean\u0129sye m\u0169vango woo. Meekie \u0169u kwa kw\u0129theeangya k\u0129lasi.
+  Cesar easya: \u201cTwase\u0169visye vala twaiaa ngal\u0129 vatw\u2019\u0129ka kas\u0169mba
+  ka lumu \u0169mwe n\u0129 kana w\u0129th\u0129e no t\u0169komboethye ny\u0169mba
+  \u0129la twekalaa.\u201d Na \u0129nd\u0129 mauma ny\u0169mba yoo ya ngolova \u0129mwe
+  y\u0129 na lumu m\u0169onza, \u0129la maak\u0129te \u0169nd\u0169 mendete t\u0169myaka
+  o t\u0169v\u0169th\u0169 t\u0169v\u0129tu, na matham\u0129\u0129a kala kas\u0169mban\u0129.
+  Cesar easya at\u0129\u0129: \u201cKw\u0129ka moaly\u0169ku asu n\u0129kwatumie w\u0129th\u0129wa
+  w\u0129 laisi kwit\u0169 k\u0169thi Mbetheli t\u0169kesa k\u0169tw\u2019\u0129ka
+  n\u0129tweetwa.\u201d \u0128tina wa k\u0129u kwaendie ata? Rocio easya: \u201cTwatham\u0129\u0129a
+  kala kas\u0169mban\u0129 vathelile o mwei \u0169mwe na twakwata val\u0169a tw\u0129t\u0129twe
+  t\u0169katetheesye kwa kavinda w\u0129a \u0169la wa\u0129 Wallkill. \u0128vinda
+  y\u0129u n\u0129w\u2019o twamanyie kana \u0129la twetheeisye k\u0129lasi, now\u2019o
+  tweekie k\u0129nd\u0169 Yeova \u0169tonya k\u0169athima.\u201d\\nN\u0128MAATHIM\u0128TWE
+  N\u0168ND\u0168 WA VEVA WOO WA KW\u0128YUMYA\\nO namo ana-a-asa na e\u0129tu-a-asa
+  maana maing\u0129 n\u0129mey\u0129im\u0129te ma\u0169nd\u0169 mana n\u0129 kana
+  matetheesye w\u0129a wa kwaka \u0169la w\u0129 New York State, o tond\u0169 Cesar
+  na Rocio meekie. Amwe ma asu n\u0129meyum\u0129tye matetheesye w\u0129a \u0169la
+  w\u0129 Wallkill, namo ang\u0129 aing\u0129 manengetwe k\u0129anda kya mwanya kya
+  k\u0169thi Warwick makatetheesye kwaka ovisi m\u0169nene wa Ng\u0169s\u0129 sya
+  Yeova. * N\u0129 kana mam\u0169th\u0169k\u0169me Yeova nesanga, and\u0169 aing\u0129
+  matwaan\u0129te n\u0129mati\u0129te ny\u0169mba syoo nzeo, maw\u0129a maseo, o na
+  nyam\u0169 ila ma\u0129th\u0129tye. We Yeova n\u0169maathim\u0129te n\u0169nd\u0169
+  wa veva \u0169su woo? Vate nzika, n\u0169maathim\u0129te!\\nKwa ngelekany\u2019o,
+  Way ath\u0169k\u0169manaa na ma\u0169nd\u0169 ma sitima na e na m\u0169ka, Debra,
+  mang\u0129e myaka 60. Tene mekalaa Kansas, \u0129nd\u0129 mata ny\u0169mba yoo na
+  sy\u0129nd\u0169 mbing\u0129 ila ma\u0129 nasyo na matham\u0129\u0129a Wallkill
+  n\u0129 kana makaendaa Mbetheli k\u0169tetheesya w\u0129a. * O na kau ya\u0129 lasima
+  meke moaly\u0169ku mana n\u0129 kana mavote k\u0169tham\u0129\u0129a Wallkill, n\u0129monaa
+  mayaa\u0129y\u0129ima sy\u0129nd\u0169 syoo mana. Debra a\u0129tye \u0169\u0169
+  \u0129\u0169l\u0169 wa w\u0129a \u0169la yu manengetwe: \u201cMavinda ang\u0129
+  nonaa ta nalika mavisan\u0129 ala masolawa mavukun\u0129 mait\u0169 monan\u0129tye
+  ana-a-asa mayaka ny\u0169mba me Nth\u0129 Nza\u0169!\u201d\\nMelvin na Sharon n\u0129matee
+  sy\u0129nd\u0169 syoo vamwe na ny\u0169mba yoo \u0129la mekalaa me South Carolina
+  n\u0129 kana makatetheesye w\u0129a \u0169la w\u0129 Warwick. O na kau vaya\u0129
+  laisi kw\u0129y\u0129ima ma\u0169nd\u0169 ala meey\u0129imie, mew\u2019aa m\u0169yo
+  n\u0169nd\u0169 me na k\u0129anda kya k\u0169tetheesya w\u0129a \u0169su wa vata
+  m\u0169no. Measya: \u201cVai k\u0129nd\u0169 k\u0129 m\u0169yo ta k\u0169manya kana
+  w\u0129k\u0169na w\u0129a \u0169katetheesya \u0169se\u0169vyo wit\u0169 \u0169la
+  w\u0129 nth\u0129 yonthe.\u201d\\nKenneth na Maureen, ala me na myaka 50 na k\u0129nd\u0169,
+  n\u0129mathamie California mathi k\u0169tetheesya w\u0129a Warwick. Kenneth a\u0129
+  wa myako na athy\u0169m\u0169\u0129a w\u0129a \u0169su. N\u0129 kana mathame n\u0129mavanganie
+  na mw\u0129\u0129tu-a-asa \u0169mwe amas\u0169v\u0129\u0129e ny\u0169mba, na n\u0169nd\u0169
+  \u0129the wa Kenneth n\u0129 m\u0169k\u0169\u0169 mak\u0169lya and\u0169 ma m\u0169sy\u0129
+  mam\u0169s\u0169v\u0129e. Mo n\u0129meli\u0129laa ma\u0169nd\u0169 ala matiie? Aiee!
+  Ken easya: \u201cN\u0129t\u0169tethekete m\u0169no. \u0128nd\u0129 \u0169u n\u0129
+  kwasya t\u0169y\u0129saa k\u0169th\u0129na? Aiee, \u0129nd\u0129 tw\u0129 na moathimo
+  maing\u0129, na \u0169\u0169 n\u0129 w\u0129a t\u0169tonya kwath\u0129\u0129a ala
+  ang\u0129 kuma ngoon\u0129.\u201d\\n\u0168ND\u0168 MASINDIE MAWETU\\nAing\u0129
+  matanamba kw\u0129yumya ma\u0129 na mawetu mana maa\u0129l\u0129te k\u0169masinda.
+  Kwa ngelekany\u2019o, William na Sandra kuma Pennsylvania me na myaka 60 na k\u0129nd\u0169
+  na ma\u0129 mamany\u0129ie kw\u0129kala k\u0169u. Kambun\u0129 yoo ya k\u0169se\u0169vya
+  sy\u0129nd\u0169 sya masin\u0129 ya\u0129 na ath\u0169k\u0169mi 17 na yaendeee nesa.
+  Mekal\u0129te k\u0129kundin\u0129 kyoo kuma me anini, na and\u0169 aing\u0129 ma
+  m\u0169sy\u0129 mekalaa vau \u0169t\u0169in\u0129. Kwoou \u0129la meetiwe maendae
+  Mbetheli \u0129la y\u0129 Wallkill, n\u0129mamanyie kana yu no nginya matiaa vakuv\u0129
+  and\u0169 onthe ala mamany\u0129\u0129te na kyonthe k\u0129la mees\u0129. William
+  easya: \u201cTweew\u2019aa twavikie k\u0169la twaendete, na kwoou vate nzika k\u0169thama
+  n\u0129kw\u2019o \u0169nd\u0169 \u0169la wa\u0129 vinya vy\u0169 kwit\u0169.\u201d
+  \u0128nd\u0129 e na m\u0169ka n\u0129mavoyie m\u0169no na \u0129tina wa \u0169u
+  mathama, na k\u0169vika \u0169m\u0169nth\u0129 may\u0129lilaa. William easya \u0169\u0169:
+  \u201cM\u0169yo \u0169la tw\u0129w\u2019aa n\u0169nd\u0169 wa k\u0169th\u0169k\u0169ma
+  vamwe na k\u0169tindany\u2019a na ala me Mbetheli t\u0169y\u0129sa k\u0169\u0169kwata
+  vand\u0169 vang\u0129 o na va. N\u0129 na Sandra tw\u0129 na \u0169tanu mwing\u0129
+  t\u0169ta\u0129 twaawona!\u201d\\nRicky ath\u0169k\u0169maa w\u0129a wa k\u0169\u0169ngam\u0129a
+  myako Hawaii. N\u0129wathokiw\u2019e aendae k\u0169tetheesya w\u0129a \u0169la w\u0129
+  Warwick. M\u0169ka, Kendra, n\u0129wendaa m\u0169no m\u0169\u0169me et\u0129k\u0129le
+  k\u0169thi. \u0128nd\u0129 ve \u0169nd\u0169 m\u0169na m\u0169ito wamath\u0129nasya:
+  moolan\u0129law\u2019a n\u0129 \u0169nd\u0169 makaea mwana woo Jacob, \u0169la wa\u0129
+  na myaka \u0129k\u0169mi na \u0169mwe. Masaan\u0129aw\u2019a eth\u0129wa n\u0129
+  \u0169nd\u0169 wa \u0169\u0129 onthe matham\u0129\u0129e New York State, na eth\u0129wa
+  mwana woo akamany\u0129a kw\u0129kala k\u0169u.\\nRicky easya: \u201cKat\u0129 wa
+  ma\u0169nd\u0169 ala twavang\u0129te kw\u0129ka twathama oou, n\u0129 k\u0169mantha
+  k\u0129kundi k\u0129 na am\u0169ika maendeee nesa k\u0129-veva. Twendaa Jacob akwate
+  k\u0129tindo k\u0129seo.\u201d \u0128nd\u0129 k\u0129kundi k\u0129la mesie k\u0169kwata
+  k\u0129 twana o twa \u0169tala, o na kau ve amwe vau math\u0169k\u0169maa Mbetheli.
+  Ricky easya \u0169\u0169: \u201cM\u0169thenya wa mbee \u0169la twaendie ma\u0169mbanon\u0129
+  vau nak\u0169lilye Jacob woni wake \u0129\u0169l\u0169 wa k\u0129kundi k\u0129u
+  kye\u0169 m\u0169no m\u0169no n\u0169nd\u0169 vaya\u0129 m\u0169nd\u0169 me \u0129ika.
+  Amb\u0129ie, \u2018Nd\u0169kamake, Tata. N\u0129ng\u0169tuma nd\u0169\u0169 na ana-a-asa
+  ma m\u0169ika ala math\u0169k\u0169maa Mbetheli.\u2019\u201d\\nNamo ana-a-asa asu
+  ma m\u0169ika n\u0129matumie nd\u0169\u0169 na Jacob. K\u0129u kyam\u0169tethisye
+  ata? Ricky aeleetye akasya at\u0129\u0129: \u201cM\u0169thenya \u0169mwe kw\u0129
+  \u0169tuk\u0169 nes\u0129le vakuv\u0129 na vala mwanawa \u0169komaa na noona atanesa
+  k\u0169vosya taa. Nees\u0129 n\u0129ng\u0169m\u0169kwatya aitha\u0169ka \u0129tha\u0169
+  ya vitio, \u0129nd\u0129 namw\u0129th\u0129ie aisoma Mbivilia! \u0128la nak\u0169lilye
+  Jacob e\u0129kata, amb\u0129ie, \u2018N\u0129tw\u2019\u0129te ta n\u0129 m\u0169th\u0169k\u0169mi
+  mwe\u0169 wa Mbetheli, na kwoou no nginya n\u0129some Mbivilia yonthe na mwaka \u0169mwe.\u2019\u201d
+  Vai nzika kana Ricky na Kendra me na m\u0169yo mwing\u0129 n\u0169nd\u0169 mbee
+  Ricky e na k\u0129anda kya k\u0169tetheesya mwako \u0169la w\u0129 Warwick, na kel\u0129
+  k\u0169thama n\u0129k\u0169tum\u0129te mwana woo eana k\u0129-veva.\u2014Nth. 22:6.\\nMAIMAKAW\u2019A
+  N\u0128 \u0168N\u0128\\nM\u0169thenya \u0169mwe w\u0129a \u0169la w\u0129 Wallkill
+  na Warwick no \u0169kathela, na kwoou ala mathoketw\u2019e matetheesye w\u0129a
+  Mbetheli no mes\u0129 w\u0129a woo n\u0129 wa kavinda. Mo ana-a-asa asu na e\u0129tu-a-asa
+  asu n\u0129meth\u0129wa maimakw\u2019a n\u0129 k\u0169la methi kana \u0169nd\u0169
+  me\u0129ka w\u0129a \u0169su wathela? Ai aiee! Aing\u0129 me na woni ta wa John
+  na m\u0169ka, Carmen, kuma Florida, ala me na myaka 50 na k\u0129nd\u0169 na mathokiw\u2019e
+  matetheesye o kwa kavinda w\u0129a \u0169la w\u0129 Warwick. W\u0129a wa John n\u0129
+  k\u0169\u0169ngam\u0129a myako, na measya: \u201cK\u0169vik\u0129a vu n\u0129twonete
+  \u0169nd\u0169 Yeova w\u0129an\u0129\u0129tye mavata mait\u0169. T\u0169ikwona Yeova
+  ethwa aat\u0169ete vaa n\u0129 kana et\u0169tia.\u201d (Sav. 119:116) Nake Luis
+  ase\u0169vasya masin\u0129 sya k\u0169vosya mwaki na e na m\u0169ka, Quenia, matetheeasya
+  w\u0129a Wallkill. Measya at\u0129\u0129: \u201cN\u0129twonete Yeova aian\u0129sya
+  mavata mait\u0169 ma k\u0129-mw\u0129\u0129 n\u0169nd\u0169 we n\u0129 m\u0169lau.
+  O na kau t\u0169y\u0129s\u0129 akean\u0129asya mavata mait\u0169 ata, na \u0129nd\u0129\u0129,
+  kana tw\u0129 va, t\u0169i na nzika kana we ndakaaeka k\u0169t\u0169s\u0169v\u0129a.\u201d\u2014Sav.
+  34:10; 37:25.\\n\u201c\u0168ATHIMO, M\u0168VAKA VAE \u0168THEI WA K\u0168W\u0128AN\u0128A\u201d\\nAing\u0129
+  ma ala maendete k\u0169tetheesya w\u0129a \u0169la w\u0129 New York meth\u0129wa
+  mamanthie itumi sya kw\u0129lingya maikeyumye. \u0128nd\u0129 n\u0129matwie k\u0169m\u0169tata
+  Yeova o tond\u0169 we mwene \u0169tw\u0129\u0129te n\u0129tw\u0129ke. A\u0129tye:
+  \u201cNdatai . . . , eth\u0129wa ndim\u0169ving\u0169\u0129a mb\u0169thi sya \u0129tun\u0129,
+  na k\u0169m\u0169tul\u0169\u0129la \u0169athimo, m\u0169vaka vae \u0169thei wa k\u0169w\u0129an\u0129a.\u201d\u2014Mal.
+  3:10.\\nWe naku \u0169kam\u0169tata Yeova n\u0129 kana wone \u0169nd\u0169 \u0169kak\u0169athima
+  m\u0169no w\u0129ana? \u0128thiane na \u0169ivoya n\u0129 kana \u0169manye \u0169nd\u0169
+  \u0169tonya kw\u0129vanga \u0169tetheesye w\u0129a \u0169\u0169 m\u0169seo \u0169endeee,
+  w\u0129thwe w\u0129enda k\u0169tetheesya w\u0129a \u0169la w\u0129 New York kana
+  w\u0129enda k\u0169tetheesya myako \u0129ng\u0129 ya Ng\u0169s\u0129 sya Yeova.
+  Weeka \u0169u \u0169keeyonea we mwene \u0169nd\u0169 Yeova \u0169kak\u0169athima.\u2014Mko.
+  10:29, 30.\\nDale n\u0129 ingyinia wa myako na e na Cathy maum\u0129te Alabama.
+  El\u0129 metetheesya w\u0129a Wallkill na measya \u0169su n\u0129 w\u0129a m\u0169seo
+  vy\u0169. Mongelete kwasya: \u201cEth\u0129wa w\u0129 na \u0169k\u0169mba\u0169
+  wa k\u0169tia vala wendete na w\u0129w\u2019aa w\u0129 mw\u0129an\u0129e, nd\u0169kaema
+  kwona \u0169nd\u0169 veva wa Yeova \u0169tethasya w\u0129a.\u201d \u0128nd\u0129
+  \u0169tonya kw\u0129ka ata n\u0129 kana w\u0129yumye? Dale easya: \u201cOla, \u0169ole,
+  na \u0169isyoka \u0169ole o \u0129ng\u0129 ngalama ila \u0169t\u0169m\u0129aa. Nd\u0169kaa\u0129lila!\u201d
+  Gary kuma North Carolina eth\u0129\u0129twe ai\u0169ngam\u0129a myako kwa myaka
+  30. E na m\u0169ka, Maureen, measya kana \u0169athimo \u0169mwe makwat\u0129te n\u0169nd\u0169
+  wa k\u0169thi Warwick n\u0129 k\u0169kwata mwanya wa \u201ck\u0169manyana na k\u0169th\u0169k\u0169ma
+  na ana-a-asa na e\u0129tu-a-asa aing\u0129 na aseo ki ala mat\u0169m\u0129\u0129te
+  \u0129vinda yoo yonthe maim\u0169th\u0169k\u0169ma Yeova me Mbetheli.\u201d Gary
+  asyokete kwasya at\u0129\u0129: \u201cWenda k\u0169th\u0169k\u0169ma Mbetheli no
+  nginya w\u0129theesye k\u0129lasi, na neng\u0129 vai nz\u0129a \u0129ng\u0129 y\u0129
+  kavaa ya kw\u0129sa k\u0169vonoka nth\u0129 \u0129no.\u201d Nake Jason na Jennifer
+  maum\u0129te Illinois, na Jason tene aand\u0129k\u0129twe n\u0129 m\u0169nd\u0169
+  wosaa maw\u0129a ma sitima, na el\u0129 measya kana k\u0169thi Wallkill makatetheesye
+  w\u0129a \u0169la \u0169vang\u0129twe n\u0129 Mbetheli \u201cn\u0129 \u0169nd\u0169
+  \u0169mwe kat\u0129 wa ma\u0169nd\u0169 ala mathengean\u0129e na kw\u0129kala nth\u0129
+  nza\u0169.\u201d Jennifer ongelete \u0169\u0169: \u201cVe m\u0169yo mwing\u0129
+  vy\u0169 k\u0169manya kana kyonthe k\u0129la \u0169kw\u0129ka Yeova n\u0169kyonaa
+  k\u0129 kya vata, na k\u0169manya kana k\u0129u \u0169kw\u0129ka k\u0129ka\u0169tethya
+  m\u0169no o na \u0129vindan\u0129 y\u0129la Yeova \u0169twath\u0129te. Yeova akekalaa
+  ay\u0129k\u0129\u0129thya kana n\u0129wak\u0169athima m\u0169no k\u0169thonoka o
+  na \u0169nd\u0169 \u0169tonya k\u0169s\u0169an\u0129a.\u201d\""]'
+src_ngrams: '{"1": [[["and\u0169"], 4083], [["yeova"], 4060], [["kwa"], 3745], [["\u0129nd\u0129"],
+  2780], [["\u0129la"], 2545]], "2": [[["kwa ngelekany"], 401], [["and\u0169 aing\u0129"],
+  327], [["k\u0169\u0169 nth\u0129"], 318], [["kwa nz\u0129a"], 318], [["sya yeova"],
+  280]], "3": [[["\u0129\u0169l\u0169 wa nth\u0129"], 311], [["ng\u0169s\u0129 sya
+  yeova"], 263], [["tene na tene"], 247], [["meko ma at\u0169mwa"], 138], [["atamu
+  na eva"], 138]], "4": [[["\u0169u w\u0129 o vo"], 65], [["\u0129nd\u0129 o na \u0169u"],
+  50], [["\u0169voo m\u0169seo wa \u0169sumb\u0129"], 45], [["ma\u0169nd\u0169 ma
+  vata kuma"], 41], [["\u0129\u0169l\u0169 wa nth\u0129 yonthe"], 38]], "5": [[["\u0129nd\u0129
+  o na \u0169u w\u0129"], 47], [["ma\u0169nd\u0169 ma vata kuma ndeton\u0129"], 40],
+  [["k\u0169soma mbivilia kya kyumwa k\u0129\u0129"], 34], [["kya k\u0169soma mbivilia
+  kya kyumwa"], 34], [["the holy bible in current"], 29]]}'

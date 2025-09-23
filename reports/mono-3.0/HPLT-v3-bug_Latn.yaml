@@ -1,0 +1,1963 @@
+corpus: hplt-v3-bug_Latn
+srclang: bug
+timestamp: 1758068416.8888283
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["wide12", 144], ["CC-MAIN-2018-39", 119], ["CC-MAIN-2014-15",
+  50], ["CC-MAIN-2020-05", 33], ["CC-MAIN-2024-22", 31], ["CC-MAIN-2020-10", 31],
+  ["CC-MAIN-2023-14", 30], ["CC-MAIN-2020-16", 29], ["CC-MAIN-2023-23", 27], ["CC-MAIN-2023-06",
+  27], ["CC-MAIN-2021-17", 27], ["CC-MAIN-2024-42", 26], ["CC-MAIN-2024-30", 23],
+  ["CC-MAIN-2022-49", 21], ["CC-MAIN-2018-22", 21], ["CC-MAIN-2022-27", 20], ["CC-MAIN-2022-05",
+  20], ["CC-MAIN-2020-45", 20], ["CC-MAIN-2020-29", 20], ["wide16", 19], ["CC-MAIN-2020-40",
+  19], ["CC-MAIN-2017-26", 19], ["CC-MAIN-2021-10", 18], ["CC-MAIN-2020-34", 18],
+  ["CC-MAIN-2023-40", 16], ["CC-MAIN-2022-21", 16], ["CC-MAIN-2020-24", 16], ["CC-MAIN-2017-04",
+  16], ["CC-MAIN-2024-51", 15], ["CC-MAIN-2024-38", 14], ["CC-MAIN-2020-50", 14],
+  ["CC-MAIN-2018-05", 14], ["CC-MAIN-2014-35", 14], ["wide15", 13], ["CC-MAIN-2022-40",
+  13], ["CC-MAIN-2024-18", 12], ["CC-MAIN-2021-04", 12], ["CC-MAIN-2021-43", 11],
+  ["CC-MAIN-2021-25", 11], ["CC-MAIN-2019-04", 11], ["wide10", 10], ["CC-MAIN-2024-33",
+  10], ["CC-MAIN-2021-31", 10], ["CC-MAIN-2018-34", 10], ["wide11", 9], ["CC-MAIN-2023-50",
+  9], ["CC-MAIN-2021-39", 9], ["CC-MAIN-2021-21", 9], ["CC-MAIN-2018-43", 9], ["CC-MAIN-2024-10",
+  7], ["CC-MAIN-2022-33", 7], ["CC-MAIN-2017-51", 6], ["wide17", 5], ["CC-MAIN-2024-26",
+  5], ["wide6", 4], ["wide5", 4], ["CC-MAIN-2021-49", 4], ["CC-MAIN-2014-42", 4],
+  ["survey3", 3], ["CC-MAIN-2024-46", 2], ["CC-MAIN-2016-44", 2], ["CC-MAIN-2015-11",
+  2], ["CC-MAIN-2016-40", 1], ["CC-MAIN-2016-30", 1], ["CC-MAIN-2015-18", 1]]'
+docs_langs: '[[0.0, 4], [0.1, 47], [0.2, 85], [0.3, 45], [0.4, 31], [0.5, 75], [0.6,
+  67], [0.7, 96], [0.8, 82], [0.9, 139], [1.0, 502]]'
+docs_segments: '[[1, 83], [2, 42], [3, 48], [4, 70], [5, 40], [6, 36], [7, 26], [8,
+  15], [9, 21], [10, 16], [11, 22], [12, 21], [13, 23], [14, 23], [15, 20], [16, 21],
+  [17, 47], [18, 32], [19, 18], [20, 23], [21, 27], [22, 27], [23, 29], [24, 20],
+  [25, 30], [26, 13], [27, 31], [28, 21], [29, 17], [30, 18], [31, 26], [32, 16],
+  [33, 19], [34, 20], [35, 8], [36, 13], [37, 12], [38, 15], [39, 13], [40, 12], [41,
+  7], [42, 8], [43, 9], [44, 4], [45, 5], [46, 7], [47, 4], [48, 2], [49, 1], [50,
+  5], [51, 3], [52, 3], [53, 5], [54, 6], [55, 5], [56, 4], [57, 1], [58, 1], [59,
+  3], [61, 2], [62, 1], [63, 2], [65, 1], [66, 3], [67, 1], [68, 4], [70, 2], [71,
+  4], [72, 1], [73, 2], [74, 3], [75, 1], [76, 1], [80, 1], [83, 1], [84, 1], [86,
+  1], [87, 1], [91, 1], [92, 1], [94, 1], [97, 1], [105, 1], [110, 1], [113, 1], [126,
+  2], [134, 1], [136, 1], [159, 1], [168, 1], [218, 1], [228, 1], [252, 1], [258,
+  1], [261, 1], [406, 1], [533, 1], [1341, 1], [2038, 2]]'
+docs_segments_mean: 28
+docs_segments_median: 18
+docs_top100_domains: '[["alkitab.mobi", 535], ["wordpress.com", 110], ["bible.is",
+  46], ["blogspot.com", 37], ["wikipedia.org", 24], ["indonesiachord.com", 21], ["chordpass.com",
+  19], ["basasulselwiki.org", 17], ["wikimedia.org", 15], ["ebible.org", 15], ["kitabkonjo.net",
+  13], ["digitalagency.id", 12], ["scribd.com", 9], ["duhocchina.com", 9], ["lao-dd.com",
+  8], ["blue-whaleproductions.com", 8], ["alkitab.pw", 6], ["southridgefarmersmarket.com",
+  5], ["mediakonjo.net", 5], ["kacconstruction.com", 5], ["4ulike.com", 5], ["urlstat.de",
+  4], ["sempugi.org", 4], ["gospelgo.com", 4], ["digopaul.com", 4], ["dengtutor.id",
+  4], ["apapunada.id", 4], ["wikibit.me", 3], ["thesnarkingdeadrecaps.com", 3], ["tel99.net",
+  3], ["tanaduri.net", 3], ["kailipost.com", 3], ["ceramahpidato.com", 3], ["carafoto.net",
+  3], ["blogsob.com", 3], ["androidblip.com", 3], ["wiktionary.org", 2], ["vallalar.net",
+  2], ["unhas.tv", 2], ["telukbone.or.id", 2], ["telukbone.id", 2], ["tahasakiflorist.com",
+  2], ["stalk.info", 2], ["slovar-vocab.com", 2], ["rooterplumberri.com", 2], ["plumbingri.com",
+  2], ["oyun.game", 2], ["mp3-search.us", 2], ["montyscoffeehouse.com", 2], ["mitchgettman.com",
+  2], ["jewelrydiyad.com", 2], ["jewelrycyber.com", 2], ["jambiseru.com", 2], ["iklangratiz.com",
+  2], ["grehenibazaar.com", 2], ["gonotebook.info", 2], ["frozenpipesburst.com", 2],
+  ["duhoctrungquoc.vn", 2], ["draincleaningservice.com", 2], ["downloadlagu777.com",
+  2], ["dirtynsta.com", 2], ["detikbudaya.com", 2], ["blogspot.co.id", 2], ["allinonelanguage.com",
+  2], ["zotutorial.com", 1], ["zhitov.com", 1], ["zhilinsky.ru", 1], ["zerohome.ml",
+  1], ["xxxmoviesdownload.club", 1], ["wikipedia.su", 1], ["wichelstowejv.com", 1],
+  ["weddbook.com", 1], ["webwiki.de", 1], ["webtvonlive.com", 1], ["wartamerdeka.info",
+  1], ["waptrick.ltd", 1], ["wahgedebanget.com", 1], ["vingroup.info", 1], ["vdocuments.in",
+  1], ["unicode.org", 1], ["ukuio.com", 1], ["tvonlinebola.com", 1], ["tvkabel.net",
+  1], ["trenchlesssewerrepair.com", 1], ["tekape.co", 1], ["sultansulaiman.id", 1],
+  ["stkipbjm.ac.id", 1], ["stepbible.org", 1], ["spandukumbulumbulmurah.com", 1],
+  ["spahml.ml", 1], ["slableakrepair.com", 1], ["shafipur.com", 1], ["sewergas.net",
+  1], ["sewercontractors.com", 1], ["sewercleaningservices.com", 1], ["sewageliftstation.net",
+  1], ["rusmansyarif.my.id", 1], ["roomdesignerguys.com", 1], ["requiesaeterna.com",
+  1], ["raseco.web.id", 1]]'
+docs_top100_tld: '[["mobi", 535], ["com", 369], ["org", 88], ["is", 46], ["net", 36],
+  ["id", 25], ["info", 10], ["pw", 6], ["de", 6], ["me", 5], ["co.id", 4], ["web.id",
+  3], ["tv", 3], ["ru", 3], ["ml", 3], ["vn", 2], ["us", 2], ["or.id", 2], ["io",
+  2], ["game", 2], ["club", 2], ["cf", 2], ["top", 1], ["su", 1], ["sg", 1], ["online",
+  1], ["my.id", 1], ["my", 1], ["ma", 1], ["ltd", 1], ["in", 1], ["gq", 1], ["go.id",
+  1], ["co", 1], ["cc", 1], ["biz", 1], ["at", 1], ["asia", 1], ["ac.id", 1]]'
+docs_total: 1173
+docs_wds: '[[10.0, 2], [5.0, 52], [5.1, 36], [5.2, 40], [5.3, 38], [5.4, 32], [5.5,
+  31], [5.6, 27], [5.7, 28], [5.8, 34], [5.9, 21], [6.0, 30], [6.1, 42], [6.2, 25],
+  [6.3, 36], [6.4, 33], [6.5, 24], [6.6, 29], [6.7, 32], [6.8, 35], [6.9, 30], [7.0,
+  40], [7.1, 38], [7.2, 34], [7.3, 33], [7.4, 42], [7.5, 31], [7.6, 30], [7.7, 32],
+  [7.8, 34], [7.9, 39], [8.0, 24], [8.1, 36], [8.2, 19], [8.3, 7], [8.4, 16], [8.5,
+  12], [8.6, 11], [8.7, 13], [8.8, 5], [8.9, 4], [9.0, 5], [9.1, 3], [9.2, 2], [9.3,
+  3], [9.5, 1], [9.6, 1], [9.8, 1]]'
+sentence_pairs: 32290
+src_bytes: 9217966
+src_chars: 8599225
+src_pii: 8
+src_tokens: 1735951
+unique_sents: 28275
+src_sent_tokens: '[[1, 798], [2, 854], [3, 945], [4, 541], [5, 498], [6, 845], [7,
+  418], [8, 559], [9, 506], [10, 520], [11, 558], [12, 584], [13, 623], [14, 605],
+  [15, 628], [16, 614], [17, 685], [18, 674], [19, 676], [20, 673], [21, 712], [22,
+  732], [23, 708], [24, 775], [25, 683], [26, 734], [27, 718], [28, 696], [29, 649],
+  [30, 630], [31, 577], [32, 556], [33, 570], [34, 568], [35, 471], [36, 484], [37,
+  457], [38, 454], [39, 380], [40, 353], [41, 345], [42, 358], [43, 292], [44, 280],
+  [45, 269], [46, 237], [47, 248], [48, 245], [49, 213], [50, 168], [51, 182], [52,
+  162], [53, 143], [54, 145], [55, 137], [56, 127], [57, 116], [58, 115], [59, 84],
+  [60, 108], [61, 96], [62, 93], [63, 80], [64, 86], [65, 58], [66, 71], [67, 58],
+  [68, 57], [69, 69], [70, 76], [71, 65], [72, 45], [73, 46], [74, 47], [75, 47],
+  [76, 30], [77, 30], [78, 53], [79, 43], [80, 28], [81, 40], [82, 45], [83, 31],
+  [84, 40], [85, 42], [86, 26], [87, 47], [88, 42], [89, 29], [90, 26], [91, 27],
+  [92, 26], [93, 30], [94, 20], [95, 24], [96, 17], [97, 21], [98, 27], [99, 24],
+  [100, 20], [101, 26], [102, 26], [103, 12], [104, 18], [105, 23], [106, 21], [107,
+  13], [108, 13], [109, 13], [110, 12], [111, 13], [112, 14], [113, 13], [114, 3],
+  [115, 20], [116, 13], [117, 8], [118, 13], [119, 6], [120, 11], [121, 8], [122,
+  8], [123, 12], [124, 14], [125, 19], [126, 10], [127, 9], [128, 10], [129, 9], [130,
+  13], [131, 8], [132, 10], [133, 14], [134, 11], [135, 9], [136, 8], [137, 9], [138,
+  7], [139, 10], [140, 9], [141, 4], [142, 4], [143, 8], [144, 9], [145, 6], [146,
+  11], [147, 13], [148, 3], [149, 2], [150, 7], [151, 6], [152, 8], [153, 5], [154,
+  5], [155, 9], [156, 8], [157, 4], [158, 4], [159, 4], [160, 5], [161, 3], [162,
+  2], [163, 3], [164, 1], [165, 3], [166, 7], [167, 4], [168, 2], [169, 4], [170,
+  4], [171, 6], [172, 4], [173, 2], [175, 1], [176, 5], [177, 3], [178, 5], [179,
+  5], [180, 2], [181, 1], [182, 2], [183, 4], [184, 4], [185, 5], [186, 2], [187,
+  5], [188, 1], [189, 3], [190, 3], [192, 2], [193, 2], [194, 1], [195, 3], [196,
+  3], [197, 1], [199, 2], [200, 1], [201, 3], [202, 2], [203, 3], [204, 2], [205,
+  4], [206, 6], [207, 4], [208, 1], [209, 4], [210, 2], [211, 1], [212, 2], [213,
+  2], [214, 2], [215, 2], [216, 2], [218, 3], [219, 1], [221, 1], [222, 2], [223,
+  1], [224, 3], [225, 2], [226, 4], [227, 1], [228, 2], [229, 1], [230, 6], [231,
+  18], [232, 1], [233, 1], [234, 1], [235, 1], [236, 1], [237, 3], [238, 2], [239,
+  2], [240, 5], [241, 6], [242, 3], [245, 2], [246, 4], [248, 4], [250, 1], [251,
+  1], [252, 2], [253, 3], [254, 1], [255, 2], [257, 3], [258, 1], [260, 8], [261,
+  3], [262, 3], [263, 1], [264, 2], [266, 5], [267, 1], [271, 3], [273, 2], [276,
+  1], [279, 2], [280, 1], [282, 2], [283, 1], [285, 3], [287, 3], [288, 1], [291,
+  3], [292, 2], [293, 3], [294, 1], [296, 1], [297, 2], [298, 3], [299, 1], [300,
+  2], [301, 2], [302, 2], [304, 3], [305, 2], [306, 1], [307, 5], [308, 1], [309,
+  1], [310, 2], [311, 3], [312, 4], [313, 2], [314, 2], [315, 2], [316, 3], [317,
+  5], [318, 4], [319, 6], [320, 6], [321, 5], [322, 3], [323, 3], [324, 8], [325,
+  5], [326, 5], [327, 2], [328, 3], [329, 5], [330, 3], [331, 5], [332, 3], [333,
+  2], [334, 4], [335, 4], [336, 1], [337, 5], [339, 7], [340, 7], [341, 3], [342,
+  4], [343, 5], [344, 3], [345, 2], [346, 4], [347, 3], [348, 3], [349, 3], [350,
+  2], [352, 3], [353, 2], [354, 4], [355, 2], [356, 3], [357, 2], [358, 1], [359,
+  2], [360, 3], [361, 2], [362, 2], [365, 1], [366, 1], [369, 1], [370, 1], [371,
+  1], [376, 1], [378, 1], [381, 5], [382, 1], [385, 2], [386, 2], [387, 1], [388,
+  1], [389, 1], [390, 1], [392, 1], [393, 3], [394, 1], [395, 2], [396, 1], [397,
+  1], [399, 2], [400, 1], [402, 1], [403, 2], [405, 1], [407, 1], [409, 2], [410,
+  3], [411, 1], [415, 1], [417, 1], [418, 2], [419, 4], [420, 3], [421, 1], [422,
+  4], [423, 5], [425, 2], [426, 1], [428, 4], [429, 1], [430, 2], [431, 1], [433,
+  2], [434, 2], [436, 1], [437, 3], [438, 1], [439, 2], [440, 3], [441, 2], [443,
+  1], [444, 3], [445, 1], [446, 2], [447, 3], [448, 3], [449, 2], [450, 1], [451,
+  1], [452, 3], [453, 3], [454, 1], [455, 2], [456, 1], [457, 3], [458, 1], [459,
+  1], [461, 1], [462, 1], [463, 3], [464, 3], [465, 2], [466, 1], [467, 1], [469,
+  2], [473, 3], [474, 2], [475, 5], [476, 1], [477, 4], [482, 2], [483, 2], [484,
+  2], [485, 2], [488, 2], [489, 1], [490, 3], [491, 2], [493, 1], [494, 1], [495,
+  2], [496, 1], [498, 1], [499, 1], [502, 1], [503, 1], [506, 1], [509, 4], [511,
+  1], [512, 1], [513, 1], [514, 2], [515, 1], [516, 1], [520, 1], [521, 1], [522,
+  1], [523, 1], [525, 1], [526, 2], [528, 1], [530, 1], [532, 1], [534, 1], [535,
+  1], [536, 2], [537, 1], [542, 1], [545, 1], [550, 1], [560, 1], [562, 1], [565,
+  1], [567, 2], [569, 1], [574, 2], [575, 1], [579, 1], [582, 1], [584, 2], [589,
+  1], [594, 1], [595, 1], [598, 2], [599, 2], [602, 1], [610, 1], [614, 2], [615,
+  1], [620, 1], [623, 1], [624, 1], [626, 1], [628, 1], [630, 1], [631, 1], [633,
+  1], [644, 1], [647, 1], [651, 1], [655, 1], [658, 1], [664, 1], [666, 1], [669,
+  1], [672, 1], [673, 2], [674, 1], [676, 2], [680, 1], [681, 2], [684, 1], [686,
+  1], [691, 1], [694, 1], [697, 2], [699, 1], [706, 1], [716, 2], [720, 1], [723,
+  3], [726, 1], [730, 1], [731, 1], [732, 1], [734, 1], [743, 1], [744, 1], [745,
+  1], [747, 2], [749, 2], [750, 1], [752, 1], [761, 1], [762, 1], [763, 1], [765,
+  1], [766, 1], [769, 2], [772, 1], [775, 2], [777, 1], [779, 1], [787, 1], [790,
+  1], [794, 1], [796, 1], [799, 1], [804, 1], [805, 1], [806, 1], [807, 2], [808,
+  1], [814, 1], [815, 1], [818, 3], [822, 2], [823, 1], [824, 1], [825, 1], [826,
+  1], [827, 1], [828, 1], [830, 2], [832, 1], [833, 1], [835, 1], [837, 1], [839,
+  1], [842, 2], [843, 1], [845, 1], [849, 3], [853, 1], [854, 2], [855, 2], [860,
+  1], [865, 1], [867, 1], [870, 1], [875, 1], [876, 2], [880, 2], [881, 2], [882,
+  1], [885, 1], [890, 1], [894, 1], [895, 1], [897, 2], [899, 1], [900, 1], [902,
+  1], [903, 2], [904, 1], [906, 2], [911, 1], [914, 3], [916, 1], [917, 1], [919,
+  1], [920, 1], [924, 1], [925, 1], [931, 1], [934, 1], [935, 2], [938, 1], [939,
+  1], [941, 1], [942, 1], [945, 2], [947, 1], [953, 5], [954, 1], [955, 2], [957,
+  1], [958, 1], [961, 2], [962, 2], [964, 1], [966, 1], [968, 1], [972, 2], [976,
+  1], [977, 1], [983, 1], [989, 1], [990, 1], [994, 2], [999, 1], [1000, 1], [1001,
+  1], [1003, 1], [1004, 1], [1005, 1], [1009, 1], [1010, 1], [1011, 2], [1012, 2],
+  [1016, 1], [1017, 1], [1019, 1], [1027, 1], [1032, 1], [1035, 1], [1038, 1], [1044,
+  2], [1045, 1], [1047, 1], [1054, 2], [1055, 1], [1062, 1], [1064, 1], [1071, 1],
+  [1072, 1], [1073, 1], [1074, 1], [1075, 2], [1078, 3], [1079, 1], [1082, 1], [1083,
+  1], [1084, 1], [1088, 2], [1090, 2], [1093, 3], [1094, 1], [1096, 1], [1098, 2],
+  [1101, 2], [1102, 1], [1103, 2], [1106, 1], [1108, 2], [1110, 2], [1111, 1], [1112,
+  1], [1115, 2], [1116, 1], [1118, 1], [1120, 1], [1121, 1], [1126, 1], [1127, 1],
+  [1133, 1], [1139, 1], [1140, 1], [1144, 1], [1145, 1], [1146, 1], [1147, 1], [1151,
+  1], [1155, 1], [1157, 1], [1158, 1], [1161, 1], [1168, 1], [1171, 1], [1172, 1],
+  [1174, 1], [1175, 1], [1181, 1], [1185, 1], [1186, 2], [1187, 2], [1191, 1], [1195,
+  1], [1204, 1], [1206, 1], [1210, 1], [1212, 1], [1213, 1], [1214, 1], [1217, 2],
+  [1221, 1], [1222, 1], [1223, 2], [1231, 2], [1242, 1], [1243, 1], [1244, 1], [1245,
+  1], [1247, 1], [1248, 1], [1249, 1], [1253, 2], [1254, 1], [1264, 1], [1266, 1],
+  [1270, 1], [1273, 1], [1279, 1], [1287, 1], [1288, 1], [1293, 1], [1295, 2], [1296,
+  2], [1297, 1], [1298, 1], [1300, 1], [1303, 1], [1316, 1], [1318, 1], [1319, 1],
+  [1320, 1], [1323, 1], [1325, 1], [1327, 1], [1329, 1], [1330, 1], [1332, 1], [1335,
+  2], [1338, 1], [1353, 1], [1355, 1], [1357, 1], [1361, 1], [1362, 1], [1367, 1],
+  [1369, 1], [1372, 2], [1383, 2], [1395, 1], [1396, 2], [1397, 1], [1403, 1], [1407,
+  1], [1408, 1], [1410, 2], [1415, 1], [1416, 1], [1439, 1], [1449, 1], [1454, 1],
+  [1455, 1], [1463, 1], [1465, 1], [1466, 2], [1473, 2], [1487, 1], [1495, 1], [1500,
+  1], [1507, 1], [1517, 1], [1523, 1], [1524, 1], [1536, 1], [1542, 1], [1546, 2],
+  [1548, 1], [1557, 1], [1561, 1], [1564, 1], [1568, 1], [1584, 1], [1598, 2], [1599,
+  1], [1600, 1], [1614, 1], [1620, 1], [1622, 1], [1627, 1], [1628, 1], [1629, 1],
+  [1631, 1], [1647, 1], [1653, 1], [1668, 1], [1672, 1], [1677, 1], [1678, 2], [1680,
+  1], [1684, 1], [1687, 1], [1690, 1], [1691, 1], [1703, 1], [1712, 1], [1717, 2],
+  [1720, 2], [1721, 1], [1724, 1], [1739, 2], [1748, 1], [1752, 1], [1756, 1], [1759,
+  2], [1762, 1], [1789, 1], [1799, 1], [1802, 1], [1805, 1], [1806, 1], [1809, 1],
+  [1810, 1], [1823, 1], [1826, 1], [1830, 1], [1834, 1], [1840, 1], [1893, 1], [1924,
+  1], [1947, 1], [1949, 1], [1985, 1], [1991, 1], [2006, 1], [2012, 1], [2054, 1],
+  [2074, 1], [2077, 1], [2080, 1], [2084, 1], [2106, 1], [2129, 1], [2134, 1], [2144,
+  1], [2184, 1], [2212, 1], [2224, 1], [2230, 1], [2303, 1], [2352, 1], [2436, 1],
+  [2514, 1], [2522, 1], [4848, 1], [4870, 1], [4954, 1], [4962, 1], [12132, 1], [14070,
+  1], [14135, 1], [14136, 1]]'
+src_sent_tokens_mean: 54
+src_sent_tokens_median: 25
+src_unique_sents: '[[1, 218], [2, 353], [3, 479], [4, 447], [5, 402], [6, 625], [7,
+  332], [8, 412], [9, 434], [10, 478], [11, 505], [12, 549], [13, 585], [14, 580],
+  [15, 579], [16, 567], [17, 644], [18, 617], [19, 619], [20, 625], [21, 655], [22,
+  666], [23, 654], [24, 702], [25, 628], [26, 666], [27, 666], [28, 633], [29, 603],
+  [30, 589], [31, 536], [32, 528], [33, 529], [34, 533], [35, 437], [36, 458], [37,
+  433], [38, 437], [39, 354], [40, 332], [41, 333], [42, 339], [43, 278], [44, 273],
+  [45, 259], [46, 223], [47, 239], [48, 217], [49, 205], [50, 164], [51, 173], [52,
+  156], [53, 133], [54, 136], [55, 130], [56, 117], [57, 113], [58, 105], [59, 83],
+  [60, 98], [61, 95], [62, 91], [63, 75], [64, 74], [65, 58], [66, 67], [67, 57],
+  [68, 53], [69, 65], [70, 57], [71, 59], [72, 44], [73, 44], [74, 47], [75, 43],
+  [76, 28], [77, 30], [78, 44], [79, 37], [80, 28], [81, 36], [82, 43], [83, 31],
+  [84, 39], [85, 38], [86, 26], [87, 38], [88, 41], [89, 29], [90, 25], [91, 27],
+  [92, 26], [93, 30], [94, 18], [95, 24], [96, 15], [97, 17], [98, 27], [99, 23],
+  [100, 20], [101, 24], [102, 26], [103, 12], [104, 15], [105, 23], [106, 17], [107,
+  13], [108, 13], [109, 13], [110, 12], [111, 13], [112, 14], [113, 13], [114, 3],
+  [115, 18], [116, 13], [117, 8], [118, 13], [119, 6], [120, 11], [121, 8], [122,
+  8], [123, 12], [124, 14], [125, 10], [126, 8], [127, 9], [128, 10], [129, 9], [130,
+  12], [131, 8], [132, 10], [133, 14], [134, 11], [135, 9], [136, 7], [137, 9], [138,
+  7], [139, 10], [140, 7], [141, 4], [142, 3], [143, 7], [144, 9], [145, 6], [146,
+  8], [147, 9], [148, 3], [149, 2], [150, 2], [151, 6], [152, 8], [153, 5], [154,
+  5], [155, 9], [156, 8], [157, 4], [158, 4], [159, 4], [160, 4], [161, 3], [162,
+  2], [163, 3], [164, 1], [165, 3], [166, 7], [167, 4], [168, 1], [169, 4], [170,
+  3], [171, 6], [172, 4], [173, 2], [175, 1], [176, 5], [177, 3], [178, 5], [179,
+  5], [180, 2], [181, 1], [182, 2], [183, 4], [184, 4], [185, 5], [186, 2], [187,
+  5], [188, 1], [189, 3], [190, 3], [192, 2], [193, 2], [194, 1], [195, 3], [196,
+  3], [197, 1], [199, 2], [200, 1], [201, 3], [202, 2], [203, 3], [204, 2], [205,
+  4], [206, 4], [207, 4], [208, 1], [209, 4], [210, 2], [211, 1], [212, 2], [213,
+  2], [214, 2], [215, 2], [216, 2], [218, 1], [219, 1], [221, 1], [222, 2], [223,
+  1], [224, 3], [225, 2], [226, 3], [227, 1], [228, 2], [229, 1], [230, 5], [231,
+  6], [232, 1], [233, 1], [234, 1], [235, 1], [236, 1], [237, 2], [238, 2], [239,
+  2], [240, 2], [241, 6], [242, 2], [245, 2], [246, 4], [248, 3], [250, 1], [251,
+  1], [252, 2], [253, 3], [254, 1], [255, 2], [257, 3], [258, 1], [260, 6], [261,
+  3], [262, 3], [263, 1], [264, 2], [266, 4], [267, 1], [271, 3], [273, 2], [276,
+  1], [279, 2], [280, 1], [282, 2], [283, 1], [285, 3], [287, 3], [288, 1], [291,
+  1], [292, 2], [293, 2], [294, 1], [296, 1], [297, 2], [298, 3], [299, 1], [300,
+  2], [301, 2], [302, 2], [304, 3], [305, 2], [306, 1], [307, 5], [308, 1], [309,
+  1], [310, 2], [311, 3], [312, 4], [313, 2], [314, 2], [315, 2], [316, 3], [317,
+  5], [318, 4], [319, 6], [320, 6], [321, 5], [322, 3], [323, 3], [324, 8], [325,
+  5], [326, 5], [327, 2], [328, 3], [329, 5], [330, 3], [331, 5], [332, 3], [333,
+  2], [334, 4], [335, 4], [336, 1], [337, 5], [339, 7], [340, 7], [341, 3], [342,
+  4], [343, 5], [344, 3], [345, 2], [346, 4], [347, 3], [348, 3], [349, 3], [350,
+  2], [352, 3], [353, 2], [354, 4], [355, 2], [356, 3], [357, 2], [358, 1], [359,
+  2], [360, 3], [361, 2], [362, 2], [365, 1], [366, 1], [369, 1], [370, 1], [371,
+  1], [376, 1], [378, 1], [381, 2], [382, 1], [385, 2], [386, 2], [387, 1], [388,
+  1], [389, 1], [390, 1], [392, 1], [393, 1], [394, 1], [395, 2], [396, 1], [397,
+  1], [399, 2], [400, 1], [402, 1], [403, 2], [405, 1], [407, 1], [409, 2], [410,
+  3], [411, 1], [415, 1], [417, 1], [418, 2], [419, 4], [420, 3], [421, 1], [422,
+  3], [423, 5], [425, 2], [426, 1], [428, 4], [429, 1], [430, 2], [431, 1], [433,
+  2], [434, 2], [436, 1], [437, 3], [438, 1], [439, 2], [440, 3], [441, 2], [443,
+  1], [444, 3], [445, 1], [446, 2], [447, 3], [448, 3], [449, 2], [450, 1], [451,
+  1], [452, 3], [453, 3], [454, 1], [455, 2], [456, 1], [457, 3], [458, 1], [459,
+  1], [461, 1], [462, 1], [463, 3], [464, 3], [465, 2], [466, 1], [467, 1], [469,
+  2], [473, 3], [474, 2], [475, 4], [476, 1], [477, 4], [482, 2], [483, 2], [484,
+  2], [485, 2], [488, 2], [489, 1], [490, 3], [491, 2], [493, 1], [494, 1], [495,
+  2], [496, 1], [498, 1], [499, 1], [502, 1], [503, 1], [506, 1], [509, 4], [511,
+  1], [512, 1], [513, 1], [514, 2], [515, 1], [516, 1], [520, 1], [521, 1], [522,
+  1], [523, 1], [525, 1], [526, 2], [528, 1], [530, 1], [532, 1], [534, 1], [535,
+  1], [536, 2], [537, 1], [542, 1], [545, 1], [550, 1], [560, 1], [562, 1], [565,
+  1], [567, 2], [569, 1], [574, 2], [575, 1], [579, 1], [582, 1], [584, 2], [589,
+  1], [594, 1], [595, 1], [598, 2], [599, 2], [602, 1], [610, 1], [614, 2], [615,
+  1], [620, 1], [623, 1], [624, 1], [626, 1], [628, 1], [630, 1], [631, 1], [633,
+  1], [644, 1], [647, 1], [651, 1], [655, 1], [658, 1], [664, 1], [666, 1], [669,
+  1], [672, 1], [673, 2], [674, 1], [676, 2], [680, 1], [681, 2], [684, 1], [686,
+  1], [691, 1], [694, 1], [697, 2], [699, 1], [706, 1], [716, 2], [720, 1], [723,
+  3], [726, 1], [730, 1], [731, 1], [732, 1], [734, 1], [743, 1], [744, 1], [745,
+  1], [747, 2], [749, 2], [750, 1], [752, 1], [761, 1], [762, 1], [763, 1], [765,
+  1], [766, 1], [769, 2], [772, 1], [775, 2], [777, 1], [779, 1], [787, 1], [790,
+  1], [794, 1], [796, 1], [799, 1], [804, 1], [805, 1], [806, 1], [807, 2], [808,
+  1], [814, 1], [815, 1], [818, 3], [822, 2], [823, 1], [824, 1], [825, 1], [826,
+  1], [827, 1], [828, 1], [830, 2], [832, 1], [833, 1], [835, 1], [837, 1], [839,
+  1], [842, 2], [843, 1], [845, 1], [849, 3], [853, 1], [854, 2], [855, 2], [860,
+  1], [865, 1], [867, 1], [870, 1], [875, 1], [876, 2], [880, 2], [881, 2], [882,
+  1], [885, 1], [890, 1], [894, 1], [895, 1], [897, 2], [899, 1], [900, 1], [902,
+  1], [903, 2], [904, 1], [906, 2], [911, 1], [914, 3], [916, 1], [917, 1], [919,
+  1], [920, 1], [924, 1], [925, 1], [931, 1], [934, 1], [935, 2], [938, 1], [939,
+  1], [941, 1], [942, 1], [945, 2], [947, 1], [953, 5], [954, 1], [955, 2], [957,
+  1], [958, 1], [961, 2], [962, 2], [964, 1], [966, 1], [968, 1], [972, 2], [976,
+  1], [977, 1], [983, 1], [989, 1], [990, 1], [994, 2], [999, 1], [1000, 1], [1001,
+  1], [1003, 1], [1004, 1], [1005, 1], [1009, 1], [1010, 1], [1011, 2], [1012, 2],
+  [1016, 1], [1017, 1], [1019, 1], [1027, 1], [1032, 1], [1035, 1], [1038, 1], [1044,
+  2], [1045, 1], [1047, 1], [1054, 2], [1055, 1], [1062, 1], [1064, 1], [1071, 1],
+  [1072, 1], [1073, 1], [1074, 1], [1075, 2], [1078, 3], [1079, 1], [1082, 1], [1083,
+  1], [1084, 1], [1088, 2], [1090, 2], [1093, 3], [1094, 1], [1096, 1], [1098, 2],
+  [1101, 2], [1102, 1], [1103, 2], [1106, 1], [1108, 2], [1110, 2], [1111, 1], [1112,
+  1], [1115, 2], [1116, 1], [1118, 1], [1120, 1], [1121, 1], [1126, 1], [1127, 1],
+  [1133, 1], [1139, 1], [1140, 1], [1144, 1], [1145, 1], [1146, 1], [1147, 1], [1151,
+  1], [1155, 1], [1157, 1], [1158, 1], [1161, 1], [1168, 1], [1171, 1], [1172, 1],
+  [1174, 1], [1175, 1], [1181, 1], [1185, 1], [1186, 2], [1187, 2], [1191, 1], [1195,
+  1], [1204, 1], [1206, 1], [1210, 1], [1212, 1], [1213, 1], [1214, 1], [1217, 2],
+  [1221, 1], [1222, 1], [1223, 2], [1231, 2], [1242, 1], [1243, 1], [1244, 1], [1245,
+  1], [1247, 1], [1248, 1], [1249, 1], [1253, 2], [1254, 1], [1264, 1], [1266, 1],
+  [1270, 1], [1273, 1], [1279, 1], [1287, 1], [1288, 1], [1293, 1], [1295, 2], [1296,
+  2], [1297, 1], [1298, 1], [1300, 1], [1303, 1], [1316, 1], [1318, 1], [1319, 1],
+  [1320, 1], [1323, 1], [1325, 1], [1327, 1], [1329, 1], [1330, 1], [1332, 1], [1335,
+  2], [1338, 1], [1353, 1], [1355, 1], [1357, 1], [1361, 1], [1362, 1], [1367, 1],
+  [1369, 1], [1372, 2], [1383, 2], [1395, 1], [1396, 2], [1397, 1], [1403, 1], [1407,
+  1], [1408, 1], [1410, 2], [1415, 1], [1416, 1], [1439, 1], [1449, 1], [1454, 1],
+  [1455, 1], [1463, 1], [1465, 1], [1466, 2], [1473, 2], [1487, 1], [1495, 1], [1500,
+  1], [1507, 1], [1517, 1], [1523, 1], [1524, 1], [1536, 1], [1542, 1], [1546, 2],
+  [1548, 1], [1557, 1], [1561, 1], [1564, 1], [1568, 1], [1584, 1], [1598, 2], [1599,
+  1], [1600, 1], [1614, 1], [1620, 1], [1622, 1], [1627, 1], [1628, 1], [1629, 1],
+  [1631, 1], [1647, 1], [1653, 1], [1668, 1], [1672, 1], [1677, 1], [1678, 2], [1680,
+  1], [1684, 1], [1687, 1], [1690, 1], [1691, 1], [1703, 1], [1712, 1], [1717, 2],
+  [1720, 2], [1721, 1], [1724, 1], [1739, 2], [1748, 1], [1752, 1], [1756, 1], [1759,
+  2], [1762, 1], [1789, 1], [1799, 1], [1802, 1], [1805, 1], [1806, 1], [1809, 1],
+  [1810, 1], [1823, 1], [1826, 1], [1830, 1], [1834, 1], [1840, 1], [1893, 1], [1924,
+  1], [1947, 1], [1949, 1], [1985, 1], [1991, 1], [2006, 1], [2012, 1], [2054, 1],
+  [2074, 1], [2077, 1], [2080, 1], [2084, 1], [2106, 1], [2129, 1], [2134, 1], [2144,
+  1], [2184, 1], [2212, 1], [2224, 1], [2230, 1], [2303, 1], [2352, 1], [2436, 1],
+  [2514, 1], [2522, 1], [4848, 1], [4870, 1], [4954, 1], [4962, 1], [12132, 1], [14070,
+  1], [14135, 1], [14136, 1]]'
+src_langs: '[["id", 6625], ["su", 6139], ["en", 5632], ["ms", 2027], ["fr", 1497],
+  ["hu", 1286], ["tl", 1283], ["ur", 1045], ["hi", 1016], ["de", 865], ["fi", 640],
+  ["it", 620], ["es", 597], ["ar", 341], ["la", 278], ["hr", 272], ["ilo", 177], ["tr",
+  133], ["pl", 129], ["eu", 127], ["cy", 105], ["jv", 104], ["sl", 82], ["zh", 67],
+  ["war", 64], ["nl", 64], ["eo", 63], ["cs", 59], ["ceb", 59], ["et", 58], ["pt",
+  51], ["uk", 48], ["sv", 44], ["vi", 43], ["ja", 42], ["sw", 40], ["ast", 40], ["ru",
+  39], ["mzn", 39], ["kn", 35], ["ml", 30], ["ca", 30], ["mt", 24], ["kw", 21], ["lo",
+  20], ["ro", 17], ["fa", 14], ["ps", 13], ["sr", 11], ["pms", 11], ["pam", 11], ["nb",
+  11], ["am", 11], ["sq", 10], ["ht", 10], ["br", 10], ["gn", 9], ["lmo", 8], ["min",
+  7], ["he", 7], ["el", 7], ["th", 6], ["mg", 6], ["ku", 6], ["jbo", 6], ["lt", 5],
+  ["uz", 4], ["oc", 4], ["lv", 4], ["gl", 4], ["gd", 4], ["da", 4], ["arz", 4], ["af",
+  4], ["vec", 3], ["sk", 3], ["sco", 3], ["qu", 3], ["pnb", 3], ["nds", 3], ["is",
+  3], ["ie", 3], ["ga", 3], ["ckb", 3], ["az", 3], ["wuu", 2], ["tt", 2], ["ta", 2],
+  ["si", 2], ["rm", 2], ["fy", 2], ["bs", 2], ["bn", 2], ["azb", 2], ["vo", 1], ["tk",
+  1], ["scn", 1], ["ne", 1], ["mai", 1], ["lb", 1], ["io", 1], ["ia", 1], ["hy", 1],
+  ["cbk", 1], ["bcl", 1]]'
+hardrules_tags: '{"not_too_long": 1095, "not_too_short": 2558, "length_ratio": 0,
+  "no_urls": 277, "no_bad_encoding": 3, "pii": 8}'
+sample: '["\"- n.\u96f7;\u300c\u5973\u6027\u306e\u540d\u524d\u300d\u5973\u6027\\n-
+  Web\u30ec\u30a4;\u8a55\u4fa1 (\u7814\u7a76\u8a55\u4fa1\u904b\u52d5); \u79d1\u5b66\u7814\u7a76\u83ef\u745e\\n-\\n\u82f1\u8a9e\u306e\u5358\u8a9e\u3092\u4e26\u3079\u66ff\u3048\u307e\u3059.rae\\n-
+  1 \u3064\u306e\u6587\u5b57\u3092\u8ffd\u52a0\u3059\u308b\u65b0\u3057\u3044\u82f1\u5358\u8a9e\u3092\u5f62\u6210\u3057\u307e\u305b\u3093.\\n-
+  rae,7 \u3064\u4ee5\u4e0a\u306e\u6587\u5b57\u3092\u542b\u3080\u82f1\u5358\u8a9e :
+  \u7d50\u679c\u306f\u3042\u308a\u307e\u305b\u3093.\\n- \u3059\u3079\u3066\u306e\u82f1\u8a9e\u306e\u5358\u8a9e\u3092\u30ea\u30b9\u30c8\u3057\u307e\u3059.
+  rae \u3067\u59cb\u307e\u308b\u82f1\u5358\u8a9e, rae \u304c\u542b\u307e\u308c\u3066\u3044\u308b\u82f1\u8a9e\u306e\u5358\u8a9e
+  \u307e\u305f\u306f rae \u3067\u7d42\u308f\u308b\u5358\u8a9e\u304c\u82f1\u8a9e\\n-
+  \u540c\u3058\u9806\u5e8f\u3067 \u306e\u3059\u3079\u3066\u306e\u90e8\u5206\u306b\u3088\u3063\u3066\u5f62\u6210\u3055\u308c\u308b\u82f1\u8a9e\u306e\u5358\u8a9e
+  : r rae a ae e\\n- rae \u3092 1 \u3064\u306e\u6587\u5b57\u3092\u5909\u66f4\u3059\u308b\u3053\u3068\u306b\u3088\u3063\u3066\u5f62\u6210\u3055\u308c\u308b\u3059\u3079\u3066\u306e\u82f1\u8a9e\u306e\u5358\u8a9e\u306b\u57fa\u3065\u304f\\n-
+  \u540c\u3058\u6587\u5b57\u306e\u30da\u30a2\u3092\u6301\u3064\u65b0\u3057\u3044\u82f1\u5358\u8a9e\u3092\u4f5c\u6210\u3057\u307e\u3059.:
+  ra ae\\n- rae \u6b21\u306e\u6587\u5b57\u3067\u59cb\u307e\u308b\u82f1\u8a9e\u306e\u5358\u8a9e\u3092\u691c\u7d22\u3057\u307e\u3059.\\n-\\nrae
+  \u3067\u59cb\u307e\u308b\u82f1\u5358\u8a9e :\\nraesfeld raeren rae -\\nrae \u304c\u542b\u307e\u308c\u3066\u3044\u308b\u82f1\u8a9e\u306e\u5358\u8a9e
+  :\\namphorae aurorae agorae aurae braes brae caesurae camerae cesurae exhedrae exedrae
+  fraenums furcraea fraenum florae fraena frae gastraea graecize hetaerae hydrae laurae
+  librae muraenid morae praecipe praedial praefect praelect praetors pleurae praetor
+  parae spiraeas sclerae spiraea synurae tenebrae tesserae tiaraed terrae uraei uraeus
+  praesidiums araechamnamusil araessonggang araeppamwon araekkulmogi kapparae araettobuk
+  taraenomi araesoebat myoraedung araegaktan araehwangi araetokchom araekkujip araetaeoji
+  araekkuryang wikkaraejae wikkaraechiraemi pirae araedamuri wissaburaei paraem araenma
+  araejongsanpo noraegol araenmunjong kraevo chodurae araedomachi araekkamaul suraesil
+  araenomnampo araesongnup naraesil araennodang araemojong chonmoraegi sirae araetchangbat
+  araesungjang noburaengi charaemogi tangarae araessaeudae araemusul kaoraegi araettaesil
+  araetchiryangi araeppaehae araetchagaeul araedyongho iraeta wonyorae ballantrae
+  koraesil araettalgye traer araettundun MORE... -\\nrae \u3067\u7d42\u308f\u308b\u5358\u8a9e\u304c\u82f1\u8a9e
+  :\\namphorae aurorae agorae aurae brae caesurae camerae cesurae exhedrae exedrae
+  florae frae hetaerae hydrae laurae librae morae pleurae parae sclerae synurae tenebrae
+  tesserae terrae kapparae pirae chodurae sirae tangarae wonyorae ballantrae tandurae
+  mccrae yorae gowanbrae sangnorae sadurae minarae urae rae\"", "\"23:1 Narapinana
+  umuru\u2019na Sara 127 taung,\\n23:2 mat\u00e9ni ri H\u00e9bron ri tana Kanaan.
+  Mess\u00e9ni Abraham sibawa nawatingini amat\u00e9nna bain\u00e9naro.\\n23:3 Purairo
+  nasalaini Abraham ujuna bain\u00e9naro nalao risining tau H\u00e9t-\u00e9, iya monroiy\u00e9ngngi
+  wanuwa\u00e9ro. Makkedani,\\n23:4 \u201cIyya\u2019\u00e9 tau laikka iya monro\u00e9
+  ri tengngana Saudara-saudara; palalona melli sipaddarekeng tana kuwammengngi weddikka
+  kuburu\u2019i bain\u00e9ku.\u201d\\n23:5 Napp\u00e9bali mennang,\\n23:6 \u201cRipakarajai
+  Bapa\u2019 selaku pamimping iya mawatangng\u00e9 ri yelle\u2019ta, jaji kuburu\u2019ni
+  bain\u00e9na Bapa\u2019 ri laleng kuburu iya kaminang makessingng\u00e9 iya riyappunnangiy\u00e9.
+  Masennang manekki passadiyangengngi kuburu untu\u2019 bain\u00e9na Bapa\u2019.\u201d\\n23:7
+  Nainappa suju\u2019ni Abraham ri yolona mennang,\\n23:8 sibawa makkeda, \u201cR\u00e9kko
+  macenningngi atinna Saudara-saudara ukuburu bain\u00e9ku kuwa\u00e9, tulunni m\u00e9llauwi
+  ri Efron, ana\u2019 worowan\u00e9na Zohar,\\n23:9 kuwammengngi nabalu\u2019i lao
+  ri iyya Gowa Makhp\u00e9la iya engka\u00e9 ri wiring dare\u2019na. Makessingengngi
+  nabalu iyaro tana\u00e9 kuwa\u00e9, sibawa nasabbing Saudara-saudara. Ellinna ma\u00e9loka
+  mpaja manengngi, kuwammengngi iyaro tana\u00e9 mancajiwi appunnangekku.\u201d\\n23:10
+  Iyaro wettu\u00e9 al\u00e9na Efron mattengngang tudang sibawa sining tau H\u00e9t-\u00e9ro
+  ri onrong addeppu-deppungengng\u00e9 ri pintu gerbanna kota\u00e9. Nainappa nasabbing
+  sininna tau iya engka\u00e9 kuwaro, mapp\u00e9balini,\\n23:11 \u201cBangsaku muto
+  mancaji sabbi sibawa iyaro dare\u2019\u00e9 silaong gowana uwabb\u00e9r\u00e9yangngi
+  kuwammengngi weddingngi Bapa\u2019 kuburu\u2019i bain\u00e9na Bapa\u2019.\u201d\\n23:12
+  Nasuju\u2019na Abraham ri yolona sining tau H\u00e9t-\u00e9ro,\\n23:13 sibawa na\u00e9ngkalinga
+  sininna tauw\u00e9, makkedani lao ri Efron, \u201cUw\u00e9llauwi ta\u00e9ngkalingaka.
+  Macinnaka melli manengngi iyaro dare\u2019\u00e9. Tarimani dowina, kuwammengngi
+  ukuburu\u2019i bain\u00e9ku kuwaro.\u201d\\n23:14 Napp\u00e9bali Efron,\\n23:15
+  \u201cSipaddarekeng tana iya ellinna\u00e9 banna 400 dowi p\u00e9ra\u2019 aga bettuwanna
+  iyaro lao ri idi sipadduwa? Kuburu\u2019ni bain\u00e9na Bapa\u2019 kuwaro.\u201d\\n23:16
+  Nasitujuini Abraham iyaro ellinna. Nabilanni dowi p\u00e9ra\u2019\u00e9 singng\u00e9ga
+  iya nateppu\u00e9 Efron, iyanaritu 400 dowi p\u00e9ra\u2019, situru timbangeng iya
+  napak\u00e9 sining padangkangng\u00e9. Nainappa nawajareng Efron, sibawa nasabbing
+  sininna tau H\u00e9t-\u00e9ro.\\n23:17 Makkuwaniro dare\u2019na Efron iya monro\u00e9
+  ri Makhp\u00e9la ri sedd\u00e9 alauna Mamr\u00e9, mancaji appunnangenna Abraham.
+  Iyaro tana\u00e9 iyanaritu dare sibawa gowana enrengng\u00e9 sininna tanet-tanenna
+  muttama toni tanet-taneng iya engka\u00e9 ri pakkas\u00e9s\u00e9nna.\\n23:18 Sininna
+  tau H\u00e9t-\u00e9 iya engka\u00e9 had\u00e9r\u00e9 ri laleng addeppu-deppungengng\u00e9
+  ri pintu gerbanna kota\u00e9 nangakuini iyaro tana\u00e9 selaku appunnangenna Abraham.\\n23:19
+  Purairo nakaburu\u2019ni Abraham Sara bain\u00e9na ri laleng Gowa Makhp\u00e9la
+  ri tana Kanaan.\\n23:20 Makkuwaniro dare\u2019\u00e9 sibawa gowana iya silalona\u00e9
+  appunnangenna tau H\u00e9t-\u00e9, mancaji appunnangenna Abraham untu\u2019 tana
+  akkuburukeng.\\nAdvertisements\"", "\"1Pol\u00e9 ri s\u00e9ddi\u00e9 wanuwa ri liwenna
+  salo-salo Sudan riy\u00e9ngkalingai oni pada\u00e9 wani memmu\u2019\u00e9.\\n2Pol\u00e9
+  ri wanuwa\u00e9ro pol\u00e9ni duta-duta\u00e9 mall\u00e9ttoiwi Salo Nil ri laleng
+  lopi-lopi pandangng\u00e9. Eh, sining suro iya mapecci\u2019\u00e9, lisuno masitta
+  ri wanuwammu iya mall\u00e9ttoiy\u00e9ngngi sining salo\u00e9ro. Tiwino s\u00e9uwa
+  paseng untu\u2019 bangsamu iya mawatangng\u00e9 sibawa barani\u00e9, sining taummu
+  iya matanr\u00e9 sibawa makkoli alusu\u2019\u00e9 sibawa riy\u00e9tauri ri sininna
+  lino\u00e9.\\n3Eh, iko maneng iya monroiy\u00e9ngngi lino\u00e9! P\u00e9nessaiwi
+  r\u00e9kko ripa\u00e9nr\u00e9\u2019i band\u00e9rana ri tompo\u2019na sining bulu\u00e9!
+  Engkalingai r\u00e9kko ripaoniwi taromp\u00e9\u2019\u00e9!\\n4Makkedai PUWANGNGE
+  lao ri iyya, \\\"Pol\u00e9 ri onrok-Ku ri yas\u00e9, ma\u00e9lo-Ka makkita liyawa
+  sibawa tennang nenniya matajang, sittennang cinoddo iya riwinru\u00e9 ri wenni iya
+  mapella\u00e9 ri wettu \u00e9ngngalangng\u00e9, sibawa siccakka tappa mata esso\u00e9
+  ri esso\u00e9.\\n5Ri wettu d\u00e9\u2019napa na wettu buwa\u00e9, wettunna madduttunni
+  unganna sibawa buwa anggoro\u2019\u00e9 d\u00e9\u2019pa namatasa ri ponna, riyancuru\u2019i
+  matu Sudan ri bali\u00e9, siggampang piso\u00e9 rette\u2019i takk\u00e9-takk\u00e9
+  pol\u00e9 ri pong anggoro\u2019\u00e9.\\n6Ujuna sining prajuri\u2019na nasalaiwi
+  matu mancaji inanr\u00e9na manu\u2019-manu\u2019\u00e9 ri wettu tikka\u00e9 sibawa
+  olokolo masekkangng\u00e9 ri wettu cekk\u00e9\u2019\u00e9.\\\"\\n7Narapii matu wettunna
+  ripalettu sining pakkasuwiyanna lao ri PUWANG Iya Pommakuwasa\u00e9 pol\u00e9 ri
+  wanuwa\u00e9ro iya nalaloiy\u00e9 sining salo, pol\u00e9 ri bangsana iya mawatangng\u00e9
+  sibawa por\u00e9, pol\u00e9 risining taunna iya matanr\u00e9 sibawa makkoli alusu\u2019\u00e9
+  sibawa riy\u00e9tauri risininna lino\u00e9. Laowi matu mennang ri Bulu Sion, ri
+  onronna PUWANG Iya Pommakuwasa\u00e9 risompa.\"", "\"La Maddukkelleng (lahir: Wajo,
+  Sulawesi Selatan, 1700 \u2013 wafat: Wajo, Sulawesi Selatan, 1765) adalah seorang
+  ksatria dari Wajo, Sulawesi Selatan. La Maddukkelleng adalah putera dari Arung (Raja)
+  Peneki La Mataesdso To Ma\u2019dettia dan We Tenriangka Arung (Raja) Singkang, saudara
+  Arung Matowa Wajo La Salewangeng To Tenrirua (1713-1737). Karena itulah La Maddukkelleng
+  sering disebut Arung Singkang dan Arung Peneki. Pada masa kecilnya hidup di lingkungan
+  istana (Arung Matowa Wajo) Wajo\\nSemoga Bermanfaat\\ngenuine copy watches\"", "\"49:1
+  Nainappa naobbi Yakub ana\u2019-ana\u2019na sibawa makkeda, \u201cAddeppungenno
+  kuwa\u00e9, ri sedd\u00e9ku. Ma\u00e9loka paissengiko aga iya mup\u00e9neddingiy\u00e9
+  matu ri esso mangolo\u00e9:\\n49:2 Addeppungenno, \u00e9h ana\u2019-ana\u2019 Yakub.
+  Engkalingai Isra\u00e9l, ambo\u2019mu.\\n49:3 Rub\u00e9n, ana\u2019ku macowa\u00e9,
+  iko ritu awatangekku, buwa bunge\u2019 abaraningekku. Iko pobbarani sibawa pommawatang
+  ri yelle\u2019na sininna ana\u2019ku.\\n49:4 Magampakko taggottang pada-pada uwai,
+  angkanna tenniya iya mapongng\u00e9; saba\u2019 matinroko sibawa gundi\u2019ku,
+  mucar\u00e9paiwi onrong atinronna ambo\u2019mu.\\n49:5 Sim\u00e9on sibawa L\u00e9wi
+  massilessureng; senjatana mennang napak\u00e9 awatangeng.\\n49:6 D\u00e9\u2019 uma\u00e9lo
+  maccow\u00e9 ri laleng assipekkekenna mennang, makkuwatoro ri laleng addeppungenna
+  mennang. Saba\u2019 paunoi mennang ri laleng cai\u00e9, k\u00e9poi bant\u00e9ngng\u00e9
+  untu\u2019 asennangeng.\\n49:7 Tattanroi caina mennang, nasaba serona. Tattanroi
+  caina mennang, nasaba abeccokenna. Upassara-sarangngi matu mennang, ri sininna Isra\u00e9li\u00e9.
+  Uwassiyamporengngi matu mennang ri yelle\u2019na sininna bangsa\u00e9.\\n49:8 Y\u00e9huda,
+  muwanrekk\u00e9\u2019i matu cekkonna balimmu; mappojiwi matu silessu-silessuremmu
+  sibawa suju\u2019 ri yolomu.\\n49:9 Y\u00e9huda pada-padai singa lolo\u00e9; naunoi
+  anr\u00e9na, nainappa lisu ri saranna; makkailii nainappa l\u00e9wu, nad\u00e9\u2019
+  s\u00e9ddi tau barani rukkai.\\n49:10 Nakkatenningngi matu Y\u00e9huda tekkeng akkarungengng\u00e9,
+  mappar\u00e9ntai matu wija-wijanna mannennungeng. Tiwii matu bangsa-bangsa\u00e9
+  pakkasuwiyang, *Bangsa-bangsa\u00e9 pakkasuwiyang, naull\u00e9 iyaro bettuwanna.*
+  enrengng\u00e9 suju\u2019 sibawa tunru ri yolona.\\n49:11 Nassiyorengngi matu ana\u2019
+  kaledd\u00e9\u2019na ri aju\u00e9, pong anggoro iya kaminang makessingng\u00e9.
+  Nabissaiwi pak\u00e9yanna sibawa anggoro, anggoro siccella\u2019\u00e9 dara\u00e9.\\n49:12
+  Macella\u2019i matanna nasaba m\u00e9nungngi anggoro, maput\u00e9i isinna nasaba
+  m\u00e9nungngi dadi. *Macella\u2019i \u2026 dadi; iyar\u00e9\u2019ga lebbi macella\u2019i
+  matanna naiya anggoro\u2019\u00e9; isinna lebbi maput\u00e9i naiya dadi\u2019\u00e9.*\\n49:13
+  Monroi matu Z\u00e9bulon ri wiring tasi\u2019\u00e9; sor\u00e9i matu kappala-kappala\u2019\u00e9
+  ri wirinna; lettu ri Sidon pakkas\u00e9s\u00e9nna da\u00e9rana.\\n49:14 Iyaro Isakhar
+  pada-padai kaledd\u00e9 mawatangng\u00e9 iya mallekku\u00e9 ri yelle\u2019na baka
+  t\u00e9k\u00e9na.\\n49:15 Naitani p\u00e9kkugi kessinna iyaro onrongng\u00e9 sibawa
+  p\u00e9kkugi gellona iyaro wanuwa\u00e9, nabbukku\u2019na macenning ripatt\u00e9k\u00e9ri,
+  sibawa ripassa majjama selaku ata.\\n49:16 Iko Dan, muwad\u00e9l\u00e9kiwi matu
+  bangsamu, mancajiko pada-pada suku laingng\u00e9 ri Isra\u00e9li\u00e9.\\n49:17
+  Pada-padako ula\u00e9 ri wiring lalengng\u00e9, ula mamoso\u00e9 ri wiring lorongng\u00e9,
+  iya pitto\u2019\u00e9ngngi amputuna anyarangng\u00e9 angkanna tallitta pakkinnyaranna.\\n49:18
+  Oh PUWANG, asalamakeng iya Muwabb\u00e9r\u00e9yangng\u00e9, iyanaro utajet-tajeng.\\n49:19
+  Gad, nagasako matu parampo\u2019\u00e9, iyakiya bal\u00e9\u2019ko matu rampo\u2019i
+  mennang.\\n49:20 Asyer, inanr\u00e9mu maona namakessing. Mupassadiyangengngi matu
+  inanr\u00e9 untu\u2019 sining arungng\u00e9.\\n49:21 Naftali, samanna jonga leppe,
+  magello senna ana\u2019-ana\u2019na. *Naftali \u2026 ana\u2019-ana\u2019na; iyar\u00e9\u2019ga
+  Naftali pada-pada aju maworongng\u00e9 sibawa takk\u00e9-takk\u00e9 iya matakka\u00e9.*\\n49:22
+  Yusuf padai kaledd\u00e9 lolo\u00e9, kaledd\u00e9 liya sedd\u00e9na mata uwai, lari-lari
+  ri \u00e9mpeng bulu\u00e9. *Yusuf \u2026 \u00e9mpeng bulu\u00e9, iyar\u00e9\u2019ga
+  Yusuf pada-pada aju\u00e9 ri mata uwai, pong buwa-buwa iya mallanrangng\u00e9 ri
+  t\u00e9mbo\u2019\u00e9.*\\n49:23 Maggasai bali\u00e9 sibawa masero, mallellungngi
+  sibawa pana.\\n49:24 Iyakiya tette\u2019i Yusuf masse taiyyana, *Iyakiya \u2026
+  taiyyana, iyar\u00e9\u2019ga iyakiya poloi panana mennang sibawa ancuru, maccabbu\u2019ni
+  ure\u2019-ure\u2019 taiyyana.* tette\u2019i masse panana, nasaba akuwasanna Pakkampi
+  Pommawatangng\u00e9, Allataalana Yakub, Pallinrunna Isra\u00e9li\u00e9.\\n49:25
+  Allataalana ambo\u2019mu tulukko; Iya Pommakuwasa\u00e9 barakkakiko sibawa bosi
+  pol\u00e9 ri langi\u00e9 enrengng\u00e9 uwai pol\u00e9 ri yawana tana\u00e9. Sibawa
+  ana\u2019 enrengng\u00e9 saping,\\n49:26 gandong sibawa bunga. *Naull\u00e9 iya\u00e9
+  aya\u2019\u00e9 bettuwanna: Gandong sibawa bunga; Ibraninna lebbi baraniwi toriyolomu
+  naiya.* Barakka\u2019na Allataalana ambo\u2019mu pakacauriwi asugirenna sining bulu
+  iya macowa senna\u2019\u00e9. *S\u00e9ddi bettuwang mariyolo\u00e9: sining bulu
+  iya macowa senna\u2019\u00e9; Ibraninna toriyoloku lao ri.* Tennapodo nonnoni sininna
+  barakka\u2019\u00e9ro ri tompo ulunna Yusuf, ri yas\u00e9\u2019na linrona. Al\u00e9na
+  ritu d\u00e9\u2019 padanna ri yelle\u2019na silessu-silessurenna.\\n49:27 B\u00e9nyamin
+  iyanaritu sarigala masekkangng\u00e9. Ri \u00e9l\u00e9\u00e9 natikkengngi anr\u00e9na.
+  Ri wenni\u00e9 nabag\u00e9-bag\u00e9i.\u201d\\n49:28 Iyanaro iya seppulo duwa sukunna
+  Isra\u00e9li\u00e9, sibawa ada-ada iya napowada\u00e9 ambo\u2019na mennang wettunna
+  mabb\u00e9r\u00e9 selleng assarangeng lao ri tungke-tungke mennang.\\n49:29-30 Nainappa
+  mappaseng Yakub lao ri ana\u2019-ana\u2019na, \u201cD\u00e9\u2019na namaitta ulisu
+  matu pada-pada toriyoloku. Kuburu\u2019ka matti ri sedd\u00e9na mennang ri laleng
+  gowa\u00e9 ri Makhp\u00e9la, sedd\u00e9 alauna Mamr\u00e9 ri tana Kanaan. Abraham
+  pura melliwi gowa\u00e9 sibawa dare\u2019\u00e9 ri sedd\u00e9na pol\u00e9 ri Efron
+  tau H\u00e9t-\u00e9 untu\u2019 napancaji akkuburukeng.\\n49:31 Kuwaniro rikuburu
+  Abraham sibawa Sara, Ishak sibawa Ribka; nakkuwatoro ukuburu L\u00e9a.\\n49:32 Dare
+  sibawa gowa iya engka\u00e9 kuwaro purani naelli pol\u00e9 ri tau H\u00e9t-\u00e9.
+  Kuburu\u2019ka kuwaro.\u201d\\n49:33 Puranana mappaseng Yakub lao ri ana\u2019-ana\u2019na,
+  l\u00e9wuni, nanamat\u00e9.\\nAdvertisements\"", "\"1Ma\u00e9ga makkunrai laing
+  napoji Salomo. Ri lainna\u00e9 ana\u2019na arung Mas\u00e9r\u00e9, kawing towi Salomo
+  sibawa makkunrai-makkunrai H\u00e9t-\u00e9, Moab-\u00e9, Amongng\u00e9, Edongng\u00e9
+  sibawa Sidongng\u00e9.\\n2PUWANGNGE pura mappar\u00e9ntangngi makkeda\u00e9 d\u00e9\u2019
+  nawedding tau Isra\u00e9li\u00e9 kawing campurang sibawa bangsa-bangsa\u00e9ro,
+  saba\u2019 mennang ritu nassabariwi matu tau Isra\u00e9li\u00e9 nassompa d\u00e9wata-d\u00e9wata
+  laing. Namuni makkuwaro, nakawingi muwi Salomo makkunrai-makkunrai laingng\u00e9.\\n3Engka
+  700 ana\u2019 arung iya nakawingiy\u00e9 Salomo, sibawa engkato 300 gundi\u2019na.
+  Iyanaro sining bain\u00e9na nassabariwi Salomo nasalaiwi Allataala,\\n4angkanna
+  wettunna macowani naull\u00e9i mennang pal\u00e9c\u00e9i sompai d\u00e9wata-d\u00e9wata
+  laingng\u00e9. Daud, ambo\u2019na Salomo, matinului lao ri PUWANGNGE, Allataalana,
+  iyakiya Salomo d\u00e9\u2019 napada ambo\u2019na.\\n5Nasompai Salomo Asytor\u00e9t,
+  d\u00e9winna bangsa Sidongng\u00e9, sibawato Molokh d\u00e9wa iya p\u00e9jariy\u00e9ngngi
+  p\u00e9neddingng\u00e9 iya nasompa\u00e9 bangsa Amongng\u00e9.\\n6Makkuwaniro Salomo
+  madosa lao ri PUWANGNGE. Daud, ambo\u2019na Salomo naccow\u00e9riwi PUWANGNGE sibawa
+  sukku atinna, iyakiya Salomo d\u00e9\u2019 napada-pada iyaro.\\n7Ri tompo bulu sedd\u00e9
+  alauna Y\u00e9rusal\u00e9m, patettongngi onrong assompang untu\u2019 Kamos, d\u00e9watana
+  tau Moab-\u00e9, sibawa untu\u2019 Molokh, d\u00e9watana tau Amongng\u00e9 \u2014
+  iya duwanna d\u00e9wata iya mappakaciddi-ciddi\u2019\u00e9.\\n8Patettong towi Salomo
+  onrong-ngonrong naonroiy\u00e9 sining bain\u00e9na iya bangsa laingng\u00e9ro wedding
+  mattunu dupa, sibawa makkasuwiyang akkarobangeng untu\u2019 d\u00e9wata-d\u00e9watana
+  muto mennang.\\n9W\u00e9kkaduwani PUWANGNGE, Allataalana Isra\u00e9li\u00e9, mappaitangngi
+  al\u00e9na lao ri Salomo sibawa par\u00e9ngngerangiwi makkeda\u00e9 d\u00e9\u2019
+  nawedding massompa d\u00e9wata-d\u00e9wata laing, iyakiya d\u00e9\u2019 Salomo naturusiwi
+  PUWANGNGE. Mala nasalaiwi PUWANGNGE, angkanna macayii PUWANGNGE lao ri al\u00e9na.\\n10(11:9)\\n11Makkedai
+  PUWANGNGE, \\\"Nasaba mainge\u2019ko majjal\u00e9kkaiwi assijancimmu sibawa Iyya
+  nad\u00e9\u2019 muturusiwi par\u00e9nta-par\u00e9nta-Ku, ma\u00e9lo-Ka sitta\u2019i
+  iyaro akkarungengng\u00e9 pol\u00e9 ri iko, sibawa mabb\u00e9r\u00e9yangngi lao
+  ris\u00e9ddi\u00e9 pegaw\u00e9mmu.\\n12Namuni makkuwaro, nasaba ambo\u2019mu Daud,
+  d\u00e9\u2019 Upogau\u2019i gau\u2019\u00e9ro ri wettu tuwomu. Ri wettu appar\u00e9ntanna
+  ana\u2019 worowan\u00e9mu, nappai Upogau\u2019.\\n13Iyakiya d\u00e9\u2019 naiya
+  maneng akkarungengng\u00e9ro Usitta matu pol\u00e9 ri al\u00e9na. Nasaba atak-Ku
+  Daud, sibawa nasaba Y\u00e9rusal\u00e9m iya pura\u00e9 Upancaji kotakuro, ma\u00e9lo-Ka
+  s\u00e9sai s\u00e9ddi suku untu\u2019 ana\u2019 worowan\u00e9mu.\\\"\\n14PUWANGNGE
+  m\u00e9bbui Hadad, s\u00e9ddiwi wijanna arung Edom, musui Arung Salomo.\\n15Maitta
+  ri wettu d\u00e9\u2019naparo, purana Arung Daud patunru\u2019i Edom, Yoab, pallima
+  tentarana Arung Daud, lao ri Edom untu\u2019 kuburu\u2019i sining taunna iya mat\u00e9.
+  Enneng uleng ittana al\u00e9na sibawa ana\u2019 buwana monro ri Edom. Na ri laleng
+  wettu\u00e9ro nauno manengngi mennang tau worowan\u00e9 kuwaro.\\n16(11:15)\\n17Iyakiya,
+  Hadad iya malolo\u00e9 mupa wettu\u00e9ro, lariwi lao ri Mas\u00e9r\u00e9 silaong
+  siyagangngar\u00e9 tau Edom, pattumani-pattumaninna ambo\u2019na.\\n18Joppani mennang
+  pol\u00e9 ri Midian, nainappa lao ri Paran. Kuwaro siyagangngar\u00e9 tau mass\u00e9ddi
+  sibawa mennang, nainappa silaong mennang lao ri Mas\u00e9r\u00e9 m\u00e9wai sita
+  arung Mas\u00e9r\u00e9. Iyaro arungng\u00e9 naw\u00e9r\u00e9ngngi Hadad bola sibawa
+  tana untu\u2019 naonroi enrengng\u00e9 nakkatuwo-katuwoi.\\n19Namancajina Hadad
+  sellao makessinna arungng\u00e9, angkanna nabb\u00e9r\u00e9yang ipana arungng\u00e9,
+  iyanaritu anrinna Tahpenes bain\u00e9na arungng\u00e9, lao ri Hadad untu\u2019 mancaji
+  bain\u00e9na.\\n20Nainappa iyaro bain\u00e9na Hadad jajiyangngi s\u00e9ddi ana\u2019
+  worowan\u00e9 iya naw\u00e9r\u00e9ngng\u00e9 aseng Genubat. Iya\u00e9 ana\u2019\u00e9
+  ripawekke\u2019i ri indo\u2019na muto sibawa monroi ri saoraja\u00e9 silaong ana\u2019-ana\u2019
+  worowan\u00e9na arungng\u00e9.\\n21Wettunna Hadad tarima kar\u00e9ba makkeda\u00e9
+  mat\u00e9ni Arung Daud, sibawa Yoab, pallima tentarana Isra\u00e9li\u00e9 mat\u00e9
+  toni, makkedani Hadad lao ri arung Mas\u00e9r\u00e9, \\\"Palalona lisu ri tana assalekku.\\\"\\n22Nakkutana
+  arungng\u00e9, \\\"Magi? Akurangekkoga kuwa\u00e9, angkanna ma\u00e9loko lisu ri
+  tana assalemmu?\\\" Namett\u00e9 Hadad, \\\"D\u00e9\u2019 uwakurangeng aga-aga,
+  iyakiya leppessakka lao.\\\" Nalisuna ri tana assalenna.\\n23Na\u00e9bbu towi Allataala
+  R\u00e9zon, ana\u2019na Elyada, musui Salomo. R\u00e9zon iyanaritu ata iya lariy\u00e9
+  pol\u00e9 ri puwanna iyanaritu Arung Hadad\u00e9zer pol\u00e9 ri Zoba.\\n24Engka
+  naengka nacaui Arung Daud iya\u00e9 Hadad\u00e9zer sibawa mpunoi sellao-sellaona
+  Hadad\u00e9zer pol\u00e9 ri Siria. Iyaro wettu\u00e9 lariwi R\u00e9zon pol\u00e9
+  ri Hadad\u00e9zer sibawa paddeppungengngi sining tauw\u00e9 nainappa mancaji kapala
+  garembolang. Laoni al\u00e9na sibawa ana\u2019 buwana ri Damsyik nainappa monro
+  ri kota\u00e9ro. Kuwaniro ana\u2019 buwana makkai mancaji arung Siria.\\n25Pada-pada
+  Hadad, Arung R\u00e9zon namusu towi Isra\u00e9li\u00e9 ri wettu tuwona mupa Salomo,
+  sibawa kacaui iyaro wanuwa\u00e9.\\n26Tau laing iya maronta\u2019\u00e9 m\u00e9wai
+  Salomo iyanaritu sala s\u00e9ddinna pegaw\u00e9nna iya riyasengng\u00e9 Y\u00e9rob\u00e9am.
+  Ana\u2019nai N\u00e9bat pol\u00e9 ri Zer\u00e9da ri Efraim. Jandani indo\u2019na,
+  asenna Zerua.\\n27Iyana\u00e9 curitana passalenna ronta\u2019na Y\u00e9rob\u00e9am.
+  Wettunna tana\u00e9 ri sedd\u00e9 yattanna Bolana PUWANGNGE ril\u00e9wu, sibawa
+  t\u00e9mbo\u2019na kota\u00e9 rip\u00e9d\u00e9c\u00e9ngi,\\n28majjama towi Y\u00e9rob\u00e9am
+  kuwaro. Wettunna naita Salomo makkeda\u00e9 maccai sibawa mapatoi Y\u00e9rob\u00e9am,
+  naw\u00e9r\u00e9nni tanggung jawa\u2019 jennangiwi jamang passa\u00e9 ri da\u00e9rana
+  suku Manasy\u00e9 sibawa Efraim.\\n29Ris\u00e9uwa\u00e9 esso massui Y\u00e9rob\u00e9am
+  pol\u00e9 ri Y\u00e9rusal\u00e9m. Ri tengnga laleng ri padangng\u00e9 rilokkaiwi
+  ri Nabi Ahia pol\u00e9 ri Silo iya wettu\u00e9ro pak\u00e9i jumba baru.\\n30Nanaludunni
+  Ahia jumbana, sibawa nasap\u00e9-sap\u00e9\u2019i mancaji seppulo duwa kenn\u00e9\u2019na.\\n31Nainappa
+  makkeda lao ri Y\u00e9rob\u00e9am, \\\"Alani seppulo kenn\u00e9 untu\u2019 al\u00e9mu,
+  saba\u2019 PUWANGNGE, Allataalana Isra\u00e9li\u00e9, makkeda makkuwaiy\u00e9 lao
+  ri iko, \u2018Ma\u00e9loka sitta\u2019i akkarungengng\u00e9w\u00e9 pol\u00e9 ri
+  Salomo, nauw\u00e9r\u00e9kko seppulo suku.\\n32S\u00e9ddi suku tette\u2019i matu
+  ri Salomo, nasaba atak-Ku Daud, sibawa nasaba Y\u00e9rusal\u00e9m, iya pura\u00e9
+  Upil\u00e9 pol\u00e9 ri sininna wanuwanna Isra\u00e9li\u00e9 mancaji kota-Ku.\\n33Ma\u00e9lo-Ka
+  pogau\u2019i gau\u2019\u00e9ro nasaba nasalai-Ka Salomo sibawa massompai d\u00e9wata-d\u00e9wata,
+  iyanaritu Asytor\u00e9t, d\u00e9winna bangsa Sidongng\u00e9, Kamos, d\u00e9watana
+  bangsa Moab; sibawa Milkom, d\u00e9watana bangsa Amongng\u00e9, d\u00e9\u2019 naccow\u00e9riwi
+  \u00e9lo-Ku Salomo. D\u00e9\u2019 napada-pada ambo\u2019na Daud iya matinulu\u00e9
+  lao ri Iyya sibawa pogau\u2019i par\u00e9nta-par\u00e9nta-Ku.\\n34Namuni makkuwaro
+  d\u00e9\u2019 Uwala manengngi matu iyaro akkarungengng\u00e9 pol\u00e9 ri al\u00e9na.
+  Uleppessangngi matu makuwasa gangka tuwona. Upogau\u2019i iyaro gau\u2019\u00e9
+  untu\u2019 atak-Ku Daud, iya pura\u00e9 Upil\u00e9 sibawa iya turusiy\u00e9ngngi
+  hukkung-hukkuk-Ku sibawa par\u00e9nta-par\u00e9nta-Ku.\\n35Iya\u00e9 akkarungengng\u00e9
+  ma\u00e9lo-Ka malai pol\u00e9 ri ana\u2019 worowan\u00e9na Salomo na seppulo suku
+  ma\u00e9lo Uw\u00e9r\u00e9kko.\\n36Iyakiya s\u00e9ddi suku Uleppessang matu ri al\u00e9na,
+  kuwammengngi natuli engka s\u00e9ddi tau pol\u00e9 ri wija-wijanna atak-Ku Daud
+  iya mappar\u00e9nta\u00e9 untu\u2019 Iyya ri Y\u00e9rusal\u00e9m, kota iya pura\u00e9
+  Upil\u00e9 selaku onrong assompang lao ri Iyya.\\n37Na iko, Y\u00e9rob\u00e9am,
+  Upancajiko matu arunna Isra\u00e9li\u00e9 sibawa Upalaloko par\u00e9ntai sininna
+  da\u00e9ra iya muw\u00e9loriy\u00e9.\\n38R\u00e9kko iko, pada-pada atak-Ku Daud,
+  sukku matinulu lao ri Iyya enrengng\u00e9 tuwo manuru hukkung-hukkuk-Ku, sibawa
+  p\u00e9sennangiwi atik-Ku ri laleng pogau\u2019i sininna iya Uwappar\u00e9ntangng\u00e9
+  lao ri iko, tuli Usibawakko matu. Ma\u00e9lo-Ka pancajiko arung ri Isra\u00e9li\u00e9.
+  Utanggung matu makkeda\u00e9 wija-wijammu mancajiwi matu arunna Isra\u00e9li\u00e9
+  sull\u00e9iko, pada-pada iya pura\u00e9 Upogau\u2019 sibawa Daud.\\n39Nasaba madosai
+  Salomo, ma\u00e9lo-Ka hukkungngi wija-wijanna Daud, iyakiya d\u00e9\u2019 na untu\u2019
+  mannennungeng.\u2019\\\"\\n40Wettunna lettu iyaro biritta\u00e9 ri Salomo; makkuragani
+  mpunoi Y\u00e9rob\u00e9am. Iyakiya lariwi Y\u00e9rob\u00e9am lao ri Arung Sisak
+  ri Mas\u00e9r\u00e9, sibawa monro kuwaro narapi mat\u00e9 Salomo.\\n41Curita laingng\u00e9
+  passalenna Salomo, passalenna sininna iya pura\u00e9 napogau\u2019 sibawa passalenna
+  pangissengenna, purani riyoki ri laleng Riwaya\u2019 Atuwo-tuwonna Salomo.\\n42Patappulo
+  taung ittana Salomo mappar\u00e9nta ri Y\u00e9rusal\u00e9m untu\u2019 sininna Isra\u00e9li\u00e9.\\n43Nainappa
+  mat\u00e9 sibawa ritampung ri Kota Daud. Nainappa R\u00e9hab\u00e9am ana\u2019 worowan\u00e9na
+  mancaji arung sull\u00e9iwi.\"", "\"15:1 PUWANGNGE mp\u00e9r\u00e9ngngi Musa sibawa
+  Harun iya\u00e9 sining peraturangng\u00e9\\n15:2 untu\u2019 bangsa Isra\u00e9li\u00e9.
+  R\u00e9kko s\u00e9ddi\u00e9 worowan\u00e9 passui manning nasaba malasa katawangngi,
+  iyaro manningng\u00e9 najisi\u2019i,\\n15:3 muwi iya massu\u00e9 iyar\u00e9\u2019ga
+  iya tattahangng\u00e9.\\n15:4 Onrong iya natudangiy\u00e9 iyar\u00e9\u2019ga natinroiy\u00e9
+  iyaro tauw\u00e9 mancaji najisi\u2019i.\\n15:5-8 Nigi-nigi g\u00e9ssai tau iya passu\u00e9
+  manning, iyar\u00e9\u2019ga onrong atinronna, iyar\u00e9\u2019ga tudang ri onrong
+  iya pura\u00e9 natudangi iyar\u00e9\u2019ga namm\u00e9ccui iyaro tauw\u00e9, harusu\u2019i
+  nasessa pak\u00e9yanna enrengng\u00e9 cemm\u00e9, sibawa najisi\u2019i narapi labu
+  esso\u00e9.\\n15:9 Lapi-lapi iyar\u00e9\u2019ga agi-agi iya natudangiy\u00e9 tau
+  iya passu\u00e9 manning mancaji najisi\u2019i.\\n15:10 Nigi-nigi g\u00e9ssai s\u00e9uwa\u00e9
+  iya pura\u00e9 natudangi tauw\u00e9ro mancaji najisi\u2019i narapi labu esso\u00e9.
+  Tungke tau iya makka\u00e9ngngi iyaro barangng\u00e9 harusu\u2019i nasessa pak\u00e9yanna
+  sibawa cemm\u00e9, sibawa najisi\u2019i narapi labu esso\u00e9.\\n15:11 R\u00e9kko
+  tau iya passu\u00e9 manning d\u00e9\u2019 nabissaiwi limanna lebbi riyolo nanag\u00e9ssai
+  tau laingng\u00e9, tau iya nag\u00e9ssa\u00e9ro harusu\u2019i nasessa pak\u00e9yanna
+  enrengng\u00e9 cemm\u00e9, sibawa mancaji najisi\u2019i narapi labu esso\u00e9.\\n15:12
+  Oring tana iya nag\u00e9ssa\u00e9 iyaro tauw\u00e9 harusu\u2019i rireppa enrengng\u00e9
+  pakkakkasa iya nakkatenningng\u00e9 harusu\u2019i ribissai.\\n15:13 R\u00e9kko majjappai
+  iyaro tauw\u00e9 harusu\u2019i mattajeng pitungngesso. Purairo harusu\u2019i sessa\u2019i
+  pak\u00e9yanna sibawa cemm\u00e9 ri mata uwai, namapaccinna.\\n15:14 Ri esso iya
+  maaruwa\u00e9 harusu\u2019i tiwii duwakkaju jangang-jangang lolo iyar\u00e9\u2019ga
+  bekku lolo ri yolona sumpanna K\u00e9mana PUWANGNGE nainappa nabb\u00e9r\u00e9yang
+  lao ri imangng\u00e9.\\n15:15 Harusu\u2019i nakkasuwiyangeng imangng\u00e9 manu\u2019-manu\u2019
+  iya sikaju\u00e9 untu\u2019 akkarobangeng paddampengeng dosa, sibawa iya sikaju\u00e9ssi
+  untu\u2019 akkarobangeng ritunu. Nanallalengiro pakangkani imangng\u00e9 upacara
+  papp\u00e9paccinna iyaro tauw\u00e9 ri yolona PUWANGNGE.\\n15:16 R\u00e9kko s\u00e9ddi\u00e9
+  worowan\u00e9 passu manning, harusu\u2019i cemm\u00e9 iyakiya tette\u2019i najisi\u2019
+  narapi labu esso\u00e9.\\n15:17 Agi-agi pol\u00e9 ri kaingng\u00e9 iyar\u00e9\u2019ga
+  bingkulangng\u00e9 iya nakenna\u00e9 manningng\u00e9ro harusu\u2019i ribissai, iyaro
+  aga-aga\u00e9 najisi\u2019i narapi labu esso\u00e9.\\n15:18 R\u00e9kko purai silus\u00e9reng,
+  muwi worowan\u00e9 iyar\u00e9\u2019ga makkunrai\u00e9 harusu\u2019i cemm\u00e9,
+  iyakiya tette\u2019i najisi\u2019 narapi labu esso\u00e9.\\n15:19 S\u00e9ddi\u00e9
+  makkunrai iya mattengngangng\u00e9 maddara, najisi\u2019i pitungngesso ittana. Nigi-nigi
+  g\u00e9ssai najisi\u2019i narapi labu esso\u00e9.\\n15:20 Agi-agi natudangi iyar\u00e9\u2019ga
+  natinroi makkunrai\u00e9 ri wettunna maddara mancaji najisi\u2019i.\\n15:21-23 Nigi-nigi
+  g\u00e9ssai onrong iya natinroiy\u00e9 iyar\u00e9\u2019ga natudangiy\u00e9 makkunrai
+  iya mattengngangng\u00e9 maddara, harusu\u2019i nasessa pak\u00e9yanna sibawa cemm\u00e9,
+  sibawa najisi\u2019i narapi labu esso\u00e9.\\n15:24 R\u00e9kko s\u00e9ddi\u00e9
+  worowan\u00e9 lus\u00e9reng makkunrai iya maddara\u00e9, mancaji najisi\u2019 towi
+  iyaro worowan\u00e9 pitungngesso ittana, sibawa tungke onrong atinrong iya natinroiy\u00e9
+  mancaji najisi\u2019 towi.\\n15:25 R\u00e9kko s\u00e9ddi\u00e9 makkunrai maddarai
+  siyagangngar\u00e9 essona risaliwenna wettu maddarana, iyar\u00e9\u2019ga iyaro
+  addaranna d\u00e9\u2019\u00e9 napp\u00e9sau naliwennana wettu maddarana, najisi\u2019i
+  ri wettu addarannaro pada-pada wettunna maddara.\\n15:26 Onrong iya natinroiy\u00e9
+  iyar\u00e9\u2019ga natudangiy\u00e9 ri lalenna wettu\u00e9ro mancaji najisi\u2019i.\\n15:27
+  Nigi-nigi g\u00e9ssai iyaro onrongng\u00e9 mancaji najisi\u2019 towi. Harusu\u2019i
+  nasessa pak\u00e9yanna enrengng\u00e9 cemm\u00e9, sibawa najisi\u2019i narapi labu
+  esso\u00e9.\\n15:28 Mapp\u00e9saunnana iyaro addarangng\u00e9, iyaro makkunraiy\u00e9
+  harusu\u2019i mattajeng pitungngesso ittanasi. Purapiro nainappa mapaccing.\\n15:29
+  Ri esso maaruwa\u00e9 harusu\u2019i tiwi duwakkaju jangang-jangang lolo iyar\u00e9\u2019ga
+  bekku lolo lao ri imangng\u00e9 ri yolona sumpanna K\u00e9mana PUWANGNGE.\\n15:30
+  Manu\u2019-manu\u2019 iya sikaju\u00e9 harusu\u2019i riyakkasuwiyangeng untu\u2019
+  akkarobangeng paddampengeng dosa, sibawa iya sikaju\u00e9ssi untu\u2019 akkarobangeng
+  ritunu. Nasibawang cara\u00e9ro napakangkani imangng\u00e9 upacara papp\u00e9paccinna
+  makkunrai\u00e9ro ri yolona PUWANGNGE.\\n15:31 PUWANGNGE suroi Musa par\u00e9ngngerangiwi
+  bangsa Isra\u00e9li\u00e9 kuwammengngi napuriyatiwi uppanna mennang najisi\u2019
+  sibawa uppanna d\u00e9\u2019, kuwammengngi mennang d\u00e9\u2019 napanajisi\u2019i
+  K\u00e9mana PUWANGNGE iya engka\u00e9 ri tengnga-tengngana akk\u00e9manna mennang.
+  R\u00e9kko napanajisi\u2019i mennang iyaro K\u00e9ma\u00e9, mat\u00e9i matu.\\n15:32
+  Makkuwaniro peraturang-peraturanna passalenna worowan\u00e9 iya passu\u00e9 manning
+  nasaba malasa katawangngi, iyar\u00e9\u2019ga passui manning,\\n15:33 passalenna
+  makkunrai iya maddara\u00e9, sibawa passalenna worowan\u00e9 iya silus\u00e9rengng\u00e9
+  sibawa makkunrai iya maddara\u00e9.\\nAdvertisements\"", "\"19:1 PUWANGNGE suroi
+  Musa\\n19:2 palettu\u2019i lao ri bangsa Isra\u00e9li\u00e9 iya\u00e9 par\u00e9nta\u00e9,
+  \u201cSitinajako mapaccing, nasaba Iyya PUWANG Allataalamu iyanaritu mapaccingngi.\\n19:3
+  Tungke tau harusu\u2019i pakalebbii indo\u2019 ambo\u2019na sibawa ram\u00e9-ram\u00e9iwi
+  esso Saba\u2019\u00e9 pada-pada iya Uwappar\u00e9ntangng\u00e9. Iyya\u2019na PUWANG
+  Allataalamu.\\n19:4 Aja\u2019 musompa barahala. Aja\u2019 muw\u00e9bbu dato\u2019-dato\u2019
+  pol\u00e9 ri bessi\u00e9 sibawa sompai. Iyya\u2019na PUWANG Allataalamu.\\n19:5
+  R\u00e9kko makkasuwiyakko olokolo untu\u2019 akkarobangeng pappasidam\u00e9, accow\u00e9riwi
+  sining peraturang iya Uwabb\u00e9r\u00e9yangng\u00e9, kuwammengngi Utarimai iyaro
+  akkarobangng\u00e9.\\n19:6 Harusu\u2019i riyanr\u00e9 jukuna ri esso rig\u00e9r\u00e9na
+  iyaro olokolo\u2019\u00e9, iyar\u00e9\u2019ga pappabajana. Juku iya ris\u00e9sa\u00e9
+  mupa ri esso matellu\u00e9, harusu\u2019i ritunu gangka cappu,\\n19:7 nasaba harangngi
+  iyaro juku\u00e9. R\u00e9kko iyaro juku\u00e9 riyanr\u00e9 towi, iyaro akkarobangng\u00e9
+  d\u00e9\u2019 Utarimai.\\n19:8 Nigi-nigi manr\u00e9i iyaro juku\u00e9 salai nasaba
+  d\u00e9\u2019 nangke\u2019i aga iya ripallaingng\u00e9 untu\u2019 Iyya. Iyaro tauw\u00e9
+  d\u00e9\u2019na Uwangga\u2019i anggota umma\u2019-Ku.\\n19:9 R\u00e9kko m\u00e9ngngalako,
+  aja\u2019 muw\u00e9ngngalai gandong iya tuwo\u00e9 ri wiring-wiring dare\u2019mu,
+  sibawa aja\u2019 mulisu untu\u2019 paddeppungengngi gandong iya mus\u00e9sa\u00e9
+  puramuna m\u00e9ngngala.\\n19:10 Aja\u2019 mulisu ri palla anggoro\u2019mu untu\u2019
+  paddeppungengngi buwa-buwa anggoro iya mus\u00e9sa\u00e9 puramuna macc\u00e9ppu
+  mammulangng\u00e9. Makkuwatoro buwa-buwana iya semp\u00e9\u2019\u00e9nna aja\u2019
+  muwalai. Leppessangngi iyaro untu\u2019 tau kasiyasi\u00e9 sibawa tau laingng\u00e9.
+  Iyya\u2019na PUWANG Allataalamu.\\n19:11 Aja\u2019 muw\u00e9nnau, pabengnguwang
+  iyar\u00e9\u2019ga mabbell\u00e9.\\n19:12 Aja\u2019 muwajjanci ri laleng asek-Ku
+  r\u00e9kko d\u00e9\u2019 mumakkatta rupaiwi janci\u00e9, nasaba iyaro mutuna-tunaiwi
+  asek-Ku. Iyya\u2019na PUWANG Allataalamu.\\n19:13 Aja\u2019 mupara\u2019i pada-padammu
+  iyar\u00e9\u2019ga rampasa\u2019i baranna. Sarona s\u00e9ddi\u00e9 tau iya majjama\u00e9
+  ri iko aja\u2019 mutahangngi, muwi untu\u2019 siwenni bawang.\\n19:14 Aja\u2019
+  mutanroiwi tau mataru-taru\u00e9 sibawa aja\u2019 mutaro batu tabbuttureng ri yolona
+  tau buta\u00e9. Sitinajako mappakalebbi sibawa m\u00e9tau ri Iyya, saba\u2019 Iyya
+  PUWANG Allataalamu.\\n19:15 Harusu\u2019ko malempu r\u00e9kko mangad\u00e9l\u00e9kiko,
+  aja\u2019 mub\u00e9lai tau kasiyasi\u00e9 sibawa aja\u2019 mum\u00e9tau ri tau sugi\u00e9.\\n19:16
+  Aja\u2019 muwamporeng papp\u00e9tenna ri yelle\u2019na sining tau sibangsamu, kuwammengngi
+  aja\u2019 na iko nassabariwi amat\u00e9nna pada-padammu rupa tau. Iyya\u2019na PUWANG.\\n19:17
+  Aja\u2019 mumapeddi ati lao ri nigi-nigi. Puraiwi assisalammu sibawa muwi niga,
+  kuwammengngi d\u00e9\u2019 mumadosa nasaba tau laingng\u00e9. *Kuwammengngi \u2026
+  laingng\u00e9 iyar\u00e9\u2019ga kuwammengngi d\u00e9\u2019 mumadosa lao ri Al\u00e9na.*\\n19:18
+  Aja\u2019 muma\u00e9lo makkabale sibawa aja\u2019 mubenciwi tau laingng\u00e9, iyakiya
+  \u00e9loriwi pada-padammu pada-pada muw\u00e9lorinna al\u00e9mu. Iyya\u2019na PUWANG.\\n19:19
+  Turusiwi sining par\u00e9nta-Ku. Aja\u2019 mupasilaiwi olokolo iya d\u00e9\u2019\u00e9
+  napada-pada. Aja\u2019 mutaneng duwanrupa bibi\u2019 ri sikonrongng\u00e9 tana.
+  Aja\u2019 mupak\u00e9i pak\u00e9yang iya ritennungng\u00e9 pol\u00e9 ri duwanrupa
+  wennang.\\n19:20 R\u00e9kko s\u00e9ddi\u00e9 worowan\u00e9 majjanciwi ma\u00e9lo
+  balu\u2019i atanna iya makkunrai\u00e9 lao ri worowan\u00e9 laingng\u00e9 untu\u2019
+  napancaji gundi\u2019na, na tau iya ma\u00e9lo\u00e9 melliwi iyaro ata\u00e9 d\u00e9\u2019pa
+  nawajai, nainappa punnana bunge-bunge\u2019\u00e9 lus\u00e9rengngi iyaro ata\u00e9,
+  harusu\u2019i rihukkung duwa, *harusu\u2019i rihukkung duwa iyar\u00e9\u2019ga iyaro
+  gau\u2019\u00e9ro harusu\u2019i risalidiki.* iyakiya d\u00e9\u2019 nawedding rihukkung
+  mat\u00e9, saba\u2019 muwi maga iyaro makkunrai\u00e9 atanna mupi.\\n19:21 Iyaro
+  worowan\u00e9 harusu\u2019i tiwi sikaju bimbala lai ri yolona sumpang K\u00e9ma-Ku
+  untu\u2019 akkarobangeng passull\u00e9 aroging.\\n19:22 Harusu\u2019i imangng\u00e9
+  makkarobangngi iyaro bimbala\u2019\u00e9 ri laleng upacara papp\u00e9paccingng\u00e9,
+  kuwammengngi nariyaddampengeng dosana iyaro tauw\u00e9. Na Iyya, Allataala ma\u00e9lo
+  maddampengengngi.\\n19:23 R\u00e9kko muttama\u2019no ri wanuwa Kanaan sibawa taneng
+  maddupa-rupang pong buwa-buwa kuwaro, ri laleng telluttaung mammulangng\u00e9 harusu\u2019i
+  muwangga harang buwa-buwana sibawa d\u00e9\u2019 nawedding muwanr\u00e9.\\n19:24
+  Ri laleng taung maeppa\u00e9 sininna buwana harusu\u2019i riyakkasuwiyangeng untu\u2019
+  pannessai tarima kasi\u2019mu lao ri Iyya, PUWANG.\\n19:25 Ri laleng taung malima\u00e9
+  nappako wedding manr\u00e9i buwana. R\u00e9kko mupogau\u2019 manengngi sininna peraturangng\u00e9ro,
+  mabbuwai matu lebbi ma\u00e9ga pong buwa-buwamu. Iyya\u2019na PUWANG Allataalamu.\\n19:26
+  Aja\u2019 muwanr\u00e9 dara. Aja\u2019 mupak\u00e9i sining paddissengeng mappallajangng\u00e9.\\n19:27
+  Aja\u2019 mugoncingngi gemme\u2019 ri benr\u00e9nna ulummu iyar\u00e9\u2019ga cukkuru\u2019i
+  janggo\u2019mu.\\n19:28 Aja\u2019 mutoddo-toddo\u2019i olimu untu\u2019 m\u00e9bbu
+  tanra-tanrang, iyar\u00e9\u2019ga loi watakkal\u00e9mu selaku tanrang mabbarata
+  nasaba engka tau mat\u00e9. Iyya\u2019na PUWANG.\\n19:29 Aja\u2019 mupakariyawai
+  angke\u2019na ana\u2019-ana\u2019 makkunraimmu sibawa pancajiwi mennang cakkuribang
+  ri bola assompangng\u00e9. *cakkuribang ri bola assompangng\u00e9: Sining makkunrai
+  cakkuribang iya majjama\u00e9 ri bola-bola d\u00e9wata\u00e9 ri Kanaan, onronna
+  tauw\u00e9 massompa d\u00e9wata-d\u00e9wata acommokengng\u00e9. Engka ateppereng
+  makkeda\u00e9 assilus\u00e9rengng\u00e9 sibawa sining cakkuribangng\u00e9ro mabb\u00e9r\u00e9i
+  acommokeng lao risining dare\u2019\u00e9 sibawa olokolo\u2019na mennang.* Ri laleng
+  pogau\u2019i makkuwa\u00e9ro, mucar\u00e9paiwi wanuwammu, sibawa massanrai matu
+  kuwaro sining pangkaukeng iya d\u00e9\u2019\u00e9 nasipato.\\n19:30 Ram\u00e9-ram\u00e9iwi
+  esso Saba\u2019\u00e9 sibawa pakalebbii onrong iya ripallaingng\u00e9 untu\u2019
+  sompa-Ka. Iyya\u2019na PUWANG.\\n19:31 Aja\u2019 mulao m\u00e9llau pangaja ri sanro
+  iya pakangka\u00e9 assisumpungeng sibawa roh-rohna tau mat\u00e9. R\u00e9kko mupogau\u2019i
+  iyaro mancaji najisi\u2019ko. Iyya\u2019na PUWANG Allataalamu.\\n19:32 Etauriwi
+  sibawa pakalebbii sining tomatowa\u00e9. Sitinajako mappakalebbi sibawa m\u00e9tau
+  lao ri Iyya, saba\u2019 Iyya\u2019na PUWANG.\\n19:33 Aja\u2019 mupogau\u2019i maja\u00e9
+  lao ri tau laing iya monro\u00e9 ri wanuwammu.\\n19:34 Gaukengngi mennang pada-pada
+  mugaukenna sining tau sibangsamu sibawa \u00e9loriwi mennang, pada-pada muw\u00e9lorinna
+  al\u00e9mu muto. Engngerangngi makkeda\u00e9 iko paimeng pura tokko tuwo selaku
+  tau laing ri Mas\u00e9r\u00e9. Iyya\u2019na PUWANG Allataalamu.\\n19:35 Aja\u2019
+  mubengnguwangngi tau laingng\u00e9 sibawa pak\u00e9 ukkurang timbangeng iyar\u00e9\u2019ga
+  ola\u2019 palsu.\\n19:36 Pak\u00e9i m\u00e9t\u00e9r\u00e9, timbangeng sibawa ola\u2019
+  iya tongengng\u00e9. Iyya\u2019na PUWANG Allataalamu, na Iyya pura tiwiko massu
+  pol\u00e9 ri Mas\u00e9r\u00e9.\\n19:37 Turusiwi sininna hukkung sibawa par\u00e9nta-Ku.
+  Iyya\u2019na PUWANG.\u201d\\nAdvertisements\"", "\"1(4-17) Matutuko r\u00e9kko ma\u00e9loko
+  lao ri Bolana PUWANGNGE. Lebbi kessing muwi lao kuwaro untu\u2019 magguru naiya
+  untu\u2019 makkasuwiyangeng akkarobangeng, pada-pada iya napogau\u2019\u00e9 sining
+  tau madonggo\u00e9. D\u00e9\u2019 naull\u00e9i mennang pasilaingengngi k\u00e9ga
+  tongeng sibawa sala.\\n2(5-1) Pikkiri\u2019i ri wettu d\u00e9\u2019napa mumabbicara,
+  sibawa aja\u2019 mumasitta senna majjanci lao ri Allataala. Engkai ri suruga\u00e9
+  na iko engkako ri lino\u00e9 jaji addiki-dikino sibawa ada-adammu.\\n3(5-2) P\u00e9d\u00e9
+  manenneng, p\u00e9d\u00e9 battowa akkull\u00e9na lolongeng nippi maja. P\u00e9d\u00e9
+  ma\u00e9ga bicara p\u00e9d\u00e9 battowa akkull\u00e9na passu ada-ada madonggo.\\n4(5-3)
+  Jaji, r\u00e9kko majjanciko lao ri Allataala, rupaiwi masitta. D\u00e9\u2019 napojiwi
+  tau iya k\u00e9do madonggo\u00e9. Rimakkuwannaro, rupaiwi jancimmu.\\n5(5-4) Lebbi
+  kessing muwi temmajjanciy\u00e9 naiya majjanciy\u00e9 iyakiya d\u00e9\u2019 narirupai.\\n6(5-5)
+  Aja\u2019 na\u00e9bbuko ada-adammu madosa, angkanna tarapassako powadai lao ri imang
+  iya tumaniy\u00e9ngngi PUWANGNGE, makkeda\u00e9 tappasalako powada janci. Untu\u2019
+  aga m\u00e9bbui Allataala macai lao ri iko angkanna Naancuru wass\u00e9l\u00e9 jama-jamammu?\\n7(5-6)
+  Pada-pada ma\u00e9ga nippi d\u00e9\u2019gaga bettuwanna, makkuwatoro ma\u00e9ga
+  bicara d\u00e9\u2019gaga akk\u00e9gunana. Iyakiya \u00e9tauno lao ri PUWANGNGE.\\n8(5-7)
+  Aja\u2019 muh\u00e9rang r\u00e9kko iyaro panguwasa\u00e9 natenre\u2019i tau kasiyasi\u00e9,
+  narampasa\u2019i ha\u2019na mennang sibawa d\u00e9\u2019 naw\u00e9r\u00e9ngngi mennang
+  ad\u00e9l\u00e9keng. Tungke pegaw\u00e9 rilinrungiwi ri tomariyas\u00e9\u2019na
+  sibawa iya duwanna rilinrungiwi ri pajaba iya lebbi matanr\u00e9 pangka\u2019na.\\n9(5-8)
+  Mala muwi atuwonna arungng\u00e9 taggattungngi ri wass\u00e9l\u00e9 \u00e9ngngalangng\u00e9.\\n10(5-9)
+  Tau mammata dowi\u00e9, d\u00e9\u2019 naengka nagenne dowina; tau iya jangeng waramparangng\u00e9,
+  d\u00e9\u2019 naengka nacau sibawa asarongng\u00e9. Iya manenna siya-siya.\\n11(5-10)
+  P\u00e9d\u00e9 ma\u00e9ga asugirenna s\u00e9ddi\u00e9 tau p\u00e9d\u00e9 ma\u00e9ga
+  tau laing iya harusu\u2019\u00e9 naw\u00e9r\u00e9ng inanr\u00e9. D\u00e9\u2019gaga
+  asarong untu\u2019 punnana, banna naissengngi makkeda\u00e9 sugii.\\n12(5-11) S\u00e9ddi\u00e9
+  pappallaung weddissa jaji d\u00e9\u2019 nappunnai genne inanr\u00e9, iyakiya weddingngi
+  memme matinro. Sibal\u00e9\u2019na, s\u00e9ddi\u00e9 tau sugi makkuwamani \u00e9gana
+  waramparanna, angkanna d\u00e9\u2019 nawedding matinro nasaba manennengngi.\\n13(5-12)
+  Uwitai ri lino\u00e9w\u00e9 s\u00e9uwa iya mappamess\u00e9: S\u00e9ddi\u00e9 tau
+  goppo waramparang untu\u2019 wettu akurangengng\u00e9.\\n14(5-13) Iyakiya iyaro
+  waramparangng\u00e9 tedd\u00e9ngngi nasaba s\u00e9uwa abala, angkanna d\u00e9\u2019gaga
+  wedding nappammanareng lao ri ana\u2019-ana\u2019na.\\n15(5-14) Jajiki sibawa mallusu-lusu;
+  makkuwatokki\u2019ro salaiwi lino\u00e9w\u00e9, tettiwi aga-aga pol\u00e9 risininna
+  turuppuse\u2019ta.\\n16(5-15) Mappamess\u00e9 tongeng iyaro! Laoki pada-pada wettutta
+  makkekkuwangng\u00e9 pol\u00e9. Sipposo-posoki untu\u2019 lellung anging, naagana
+  wass\u00e9l\u00e9\u2019na?\\n17(5-16) Gangka tuwo, maggarambakki ri laleng pettangng\u00e9,
+  massussa-sussaki, manenneng, k\u00e9r\u00e9k-k\u00e9r\u00e9ng sibawa mapeddi ati.\\n18(5-17)
+  Nauwajeppuini makkeda\u00e9 iya kaminang makessingng\u00e9 untu\u2019 idi iyanaritu
+  manr\u00e9, m\u00e9nung sibawa p\u00e9neddingiwi wass\u00e9l\u00e9 jama-jamatta
+  ri wettu atuwong maponco iya nabb\u00e9r\u00e9yangng\u00e9 Allataala lao ri idi;
+  iyanaro totota.\\n19(5-18) R\u00e9kko s\u00e9ddi\u00e9 tau tarima asugireng sibawa
+  waramparang pol\u00e9 ri Allataala, naripalalo p\u00e9neddingiwi asugirengng\u00e9ro,
+  harusu\u2019i marasa sukkuru sibawa p\u00e9neddingiwi sininna wass\u00e9l\u00e9
+  jama-jamanna. Iyaro pabb\u00e9r\u00e9nato Allataala.\\n20(5-19) Allataala pennoiwi
+  atinna iyaro tauw\u00e9 sibawa arennung, na d\u00e9\u2019na namanenneng pikkiri\u2019i
+  passalenna ponco\u2019na iya\u00e9 atuwongng\u00e9.\"", "\"fokusmuria.co.id, Khutbah
+  idul adha bahasa bugis \u2013 idul adha 1441 H jatuh pada tanggal 31 Juli 2020 pastinya
+  banyak ucapan idul adha yang kalian sampaiak kepada saudara kalian.\\nselain itu
+  berikut contoh teks Khutbah idul adha berbahasa bugis yang menyentuh hati\\nBaca
+  Juga : Ucapan Idul Adha 2020\\nKhutbah Pertama Idul Adha Bahasa Bugis 2020\\n\u0627\u0644\u0633\u0644\u0627\u0645
+  \u0639\u0644\u064a\u0643\u0645 \u0648\u0631\u062d\u0645\u0629 \u0627\u0644\u0644\u0647
+  \u0648\u0628\u0631\u0643\u0627\u062a\u0647\\n\u0644\u0644\u0647 \u0627\u0643\u0628\u0631
+  \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631
+  , \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631
+  \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u060c \u0627\u0644\u0644\u0647
+  \u0627\u0643\u0628\u0631 \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u0627\u0644\u0644\u0647
+  \u0627\u0643\u0628\u0631, \u0648\u0644\u0644\u0647 \u0627\u0644\u062d\u0645\u062f.\\n\u0627\u0644\u0644\u0647
+  \u0627\u0643\u0628\u0631 \u0645\u0627\u062a\u0639\u0627\u0644\u062a \u0627\u0635\u0648\u0627\u062a
+  \u0627\u0644\u0646\u0627\u0633 \u0628\u0627\u0644\u062a\u0643\u0628\u064a\u0631
+  \u060c \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u0645\u0627\u062a\u0641\u062a\u062d\u062a
+  \u0627\u0628\u0648\u0627\u0628 \u0627\u0644\u0633\u0645\u0627\u0621 \u0641\u0649
+  \u0647\u0630\u0627 \u0627\u0644\u0635\u0628\u0627\u062d \u0627\u0644\u0643\u0628\u064a\u0631.
+  \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u0645\u0627\u062a\u0646\u0632\u0644\u062a
+  \u0639\u0644\u064a\u0646\u0627 \u0631\u062d\u0645\u0629 \u0627\u0644\u0625\u0644\u0647
+  \u0627\u0644\u0639\u0644\u0649 \u0627\u0644\u0642\u062f\u064a\u0631. \u0627\u0644\u0644\u0647
+  \u0627\u0643\u0628\u0631 \u0645\u0627\u062a\u0642\u0627\u0631\u0628\u062a \u0642\u0644\u0648\u0628
+  \u0627\u0644\u0645\u0633\u0644\u0645\u064a\u0646 \u0641\u0649 \u0647\u0630\u0627
+  \u0627\u0644\u064a\u0648\u0645 \u0627\u0644\u0639\u0638\u064a\u0645 \u060c \u0627\u0644\u0644\u0647
+  \u0627\u0643\u0628\u0631 \u0645\u0627\u062a\u0639\u0627\u0648\u0646\u062a \u0627\u0644\u062c\u0647\u0648\u062f
+  \u0648\u0635\u062f\u0642\u062a \u0627\u0644\u0639\u0647\u0648\u062f \u0648\u062a\u0639\u0627\u0637\u0641\u062a
+  \u0627\u0644\u0642\u0644\u0648\u0628 \u060c \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631
+  \u0643\u0628\u064a\u0631\u0627, \u0648\u0627\u0644\u062d\u0645\u062f \u0644\u0644\u0647
+  \u0643\u062b\u064a\u0631\u0627, \u0648\u0633\u0628\u062d\u0627\u0646 \u0627\u0644\u0644\u0647
+  \u0628\u0643\u0631\u0629 \u0648\u0623\u0635\u064a\u0644\u0627 .\\n\u0627\u0644\u062d\u0645\u062f
+  \u0644\u0644\u0647 \u0627\u0644\u0630\u064a \u0627\u062a\u062d\u0641\u0646\u0627
+  \u0628\u0623\u064a\u0627\u0645 \u0627\u0644\u062a\u0634\u0631\u064a\u0642 \u0648\u062c\u0639\u0644\u0647\u0627
+  \u0627\u064a\u0627\u0645 \u0627\u0641\u0631\u0627\u062d \u0648\u0627\u0639\u064a\u0627\u062f
+  \u0639\u0644\u0649 \u0627\u0644\u062a\u062d\u0642\u064a\u0642 \u0644\u0645\u0646
+  \u0635\u0644\u0649 \u0648\u0636\u062d\u0649 \u0648\u0628\u0627\u062f\u0631 \u0648\u0628\u0643\u0631.
+  \u0623\u062d\u0645\u062f\u0647 \u0639\u0644\u0649 \u0646\u0639\u0645\u0629 \u0627\u0644\u0625\u0633\u0644\u0627\u0645
+  \u0648\u0623\u0634\u0643\u0631\u0647. \u062c\u0639\u0644 \u0644\u0646\u0627 \u0645\u0646
+  \u0627\u0644\u0639\u0646\u0627\u064a\u0629 \u0631\u0643\u0646 \u0633\u064a\u062f
+  \u0627\u0644\u0627\u0646\u0627\u0645 \u0648\u0627\u0646\u0627 \u0644\u0646\u0627
+  \u0628\u062a\u0648\u062d\u064a\u062f\u0647 \u0648\u0627\u0644\u0625\u064a\u0645\u0627\u0646
+  \u0628\u0645\u0644\u0627\u0626\u0643\u062a\u0647 \u0648\u0631\u0633\u0644\u0647
+  \u0648\u062d\u0638\u0646\u0627 \u0627\u0644\u0623\u0648\u0641\u0631 \u0648\u0627\u0634\u0647\u062f
+  \u0627\u0646 \u0644\u0627\u0627\u0644\u0647 \u0627\u0644\u0627\u0627\u0644\u0644\u0647
+  \u0648\u062d\u062f\u0647 \u0644\u0627\u0634\u0631\u064a\u0643 \u0644\u0647, \u0648\u0627\u0634\u0647\u062f
+  \u0627\u0646 \u0645\u062d\u0645\u062f\u0627 \u0639\u0628\u062f\u0647 \u0648\u0631\u0633\u0648\u0644\u0647,
+  \u0648\u0635\u0644\u0649 \u0627\u0644\u0644\u0647 \u0648\u0628\u0627\u0631\u0643
+  \u0639\u0644\u064a\u0647 \u0648\u0639\u0644\u0649 \u0622\u0644\u0647 \u0648\u0635\u062d\u0628\u0647
+  \u0648\u0627\u0644\u062a\u0627\u0628\u0639\u064a\u0646. \u0623\u0645\u0627 \u0628\u0639\u062f\\n\u0641\u064a\u0627
+  \u0639\u0628\u0627\u062f \u0627\u0644\u0644\u0647, \u0627\u062a\u0642\u0648\u0627
+  \u0627\u0644\u0644\u0647 \u0648\u0644\u0627 \u062a\u0643\u0648\u0646\u0648\u0627
+  \u0645\u0646 \u0627\u0644\u063a\u0627\u0641\u0644\u064a\u0646. \u0627\u0646 \u0631\u0628\u0643
+  \u0644\u0628\u0627\u0644\u0645\u0631\u0635\u0627\u062f, \u064a\u0639\u0644\u0645
+  \u062e\u0627\u0626\u0646\u0629 \u0627\u0644\u0623\u0639\u064a\u0646 \u0648\u0645\u0627
+  \u062a\u062e\u0641\u0649 \u0627\u0644\u0635\u062f\u0648\u0631\u060c \u0641\u0642\u062f
+  \u0642\u0627\u0644 \u0627\u0644\u0644\u0647 \u0633\u0628\u062d\u0627\u0646\u0647
+  \u0648\u062a\u0639\u0627\u0644\u0649 \u0641\u064a \u0643\u062a\u0627\u0628\u0647
+  \u0627\u0644\u0643\u0631\u064a\u0645 \u060c \u0623\u0639\u0648\u0630 \u0628\u0627\u0644\u0644\u0647
+  \u0645\u0646 \u0627\u0644\u0634\u064a\u0637\u0627\u0646 \u0627\u0644\u0631\u062c\u064a\u0645
+  \u060c \u0628\u0633\u0640\u0640\u0645 \u0627\u0644\u0644\u0647 \u0627\u0644\u0631\u062d\u0645\u0646
+  \u0627\u0644\u0631\u062d\u064a\u0645 : \u0648\u064e\u0623\u064e\u0630\u0650\u0651\u0646\u0652
+  \u0641\u0650\u064a \u0627\u0644\u0646\u064e\u0651\u0627\u0633\u0650 \u0628\u0650\u0627\u0644\u0652\u062d\u064e\u062c\u0650\u0651
+  \u064a\u064e\u0623\u0652\u062a\u064f\u0648\u0643\u064e \u0631\u0650\u062c\u064e\u0627\u0644\u064b\u0627
+  \u0648\u064e\u0639\u064e\u0644\u064e\u0649 \u0643\u064f\u0644\u0650\u0651 \u0636\u064e\u0627\u0645\u0650\u0631\u064d
+  \u064a\u064e\u0623\u0652\u062a\u0650\u064a\u0646\u064e \u0645\u0650\u0646\u0652
+  \u0643\u064f\u0644\u0650\u0651 \u0641\u064e\u062c\u064d\u0651 \u0639\u064e\u0645\u0650\u064a\u0642\u064d
+  \u060c \u0644\u0650\u064a\u064e\u0634\u0652\u0647\u064e\u062f\u064f\u0648\u0627
+  \u0645\u064e\u0646\u064e\u0627\u0641\u0650\u0639\u064e \u0644\u064e\u0647\u064f\u0645\u0652
+  \u0648\u064e\u064a\u064e\u0630\u0652\u0643\u064f\u0631\u064f\u0648\u0627 \u0627\u0633\u0652\u0645\u064e
+  \u0627\u0644\u0644\u064e\u0651\u0647\u0650 \u0641\u0650\u064a \u0623\u064e\u064a\u064e\u0651\u0627\u0645\u064d
+  \u0645\u064e\u0639\u0652\u0644\u064f\u0648\u0645\u064e\u0627\u062a\u064d \u0639\u064e\u0644\u064e\u0649
+  \u0645\u064e\u0627 \u0631\u064e\u0632\u064e\u0642\u064e\u0647\u064f\u0645\u0652
+  \u0645\u0650\u0646\u0652 \u0628\u064e\u0647\u0650\u064a\u0645\u064e\u0629\u0650
+  \u0627\u0644\u0652\u0623\u064e\u0646\u0652\u0639\u064e\u0627\u0645\u0650 \u0641\u064e\u0643\u064f\u0644\u064f\u0648\u0627
+  \u0645\u0650\u0646\u0652\u0647\u064e\u0627 \u0648\u064e\u0623\u064e\u0637\u0652\u0639\u0650\u0645\u064f\u0648\u0627
+  \u0627\u0644\u0652\u0628\u064e\u0627\u0626\u0650\u0633\u064e \u0627\u0644\u0652\u0641\u064e\u0642\u0650\u064a\u0631
+  \u060c \u0635\u062f\u0642 \u0627\u0644\u0644\u0647 \u0627\u0644\u0639\u0638\u064a\u0645\\nMa\u2019asyiral
+  muslimin rahimakumullah\\nSininna pappujie napunnai Puang Allah Ta\u2019ala. Puang
+  maraja akkamase namasero pamasei. Puang iya engkae makkita temmassalau, marengkalinga
+  temmaggaru\u2019-garu\u2019, maddisseng temmakkapak-kapang. Puang iya engkae matoro\u2019i
+  ajoppangenna wettue, assisullengenna essoe na wennie, tajangnge napettangnge, gangkanna
+  tenri sedding\\nmakkukkuwangnge narapi\u2019si iyawe essoe, esso allepperengnge.
+  esso papparingerrang risesena idi\u2019 umma sellengnge iyae engkae mateppe\u2019
+  makedda; Riwettu tuwota sewwa wettu matti napoleiki amateng, riwettu madisitta baja
+  sanngadie napoleiki lasa, riwettu malolota pasti napoleiki atowangeng, riwettu masagenata
+  sewwa wettu napoleiki acipikeng, nennia riwettu mapparentata sewwa wettu idi\u2019si
+  riparenta.\\nOleh karena itu, sitinajaki idi\u2019 atae topada pangngoloi ati macinnotta,
+  naripapole jari mapaccitta natopada maddararing ri Puangnge mamuarei sowe-sowena
+  limatta, jongka-jongka\u2019na ajeta nennia essu\u2019 muttamana nappase\u2019ta
+  hadere ri lalenna iyawe e onrongnge mancajiwi salasseddi tanra teppe marajata sekaligus
+  riappitangngi tanra asukkuruketta nennia tanra assiddi- siddingetta idi umma selengnge\u2019
+  rigau engkatta pada massama- samang tettong, massama- samang roko\u2019, suju\u2019
+  pada suju\u2019, tudang pada tudang, mappasewwa lao risese arajanna Puangnge nasibawai
+  sumange\u2019 nennia pappojie mariralaleng natopada makkasama-samang takabbere:\\n\u0627\u0644\u0644\u0647
+  \u0627\u0643\u0628\u0631 \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u0627\u0644\u0644\u0647
+  \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u0648\u0644\u0644\u0647 \u0627\u0644\u062d\u0645\u062f\\nMa\u2019asyiral
+  muslimin rahimakumullah\\nBaca Juga : Ucapan Idul Adha 1441 H\\nKarenanya, Alhamdulillah,
+  makkukkuwangnge engkaki ri lalenna uleng zulhajji, iya merupakangnge salas-seddi
+  uleng malebbi ri sese arajanna Puang Allah Ta\u2019ala sekaligus uleng akkorobangeng
+  ri sesena idi\u2019 sellengnge. Turu\u2019 padatoha narampewe rilalenna akora\\\\ng
+  marajae:\\n\u0625\u0646 \u0639\u062f\u0629 \u0627\u0644\u0634\u0647\u0648\u0631
+  \u0639\u0646\u062f \u0627\u0644\u0644\u0647 \u0627\u062b\u0646\u0627 \u0639\u0634\u0631
+  \u0634\u0647\u0631\u0627 \u0641\u064a \u0643\u062a\u0627\u0628 \u0627\u0644\u0644\u0647
+  \u064a\u0648\u0645 \u062e\u0644\u0642 \u0627\u0644\u0633\u0645\u0648\u0627\u062a
+  \u0648\u0627\u0644\u0627\u0631\u0636\\n\u201cNamajeppunna bilangenna ulengnge ri
+  sese arajanna Puang Allah Ta\u2019ala iyanaritu 12 uleng rilalenna sitaungnge. Iya
+  pura napattentue Puang Allah Ta\u2019ala ri esso napancajinna langi\u2019e nennia
+  tanae.\u201d\\nApalagi engka riwayat rampei makkeda:\\n\u0623\u0646 \u0627\u0644\u0637\u0627\u0639\u0629
+  \u0641\u064a\u0647\u0627 \u0623\u0643\u062b\u0631 \u062b\u0648\u0627\u0628\u0627
+  \u0648\u0623\u0646 \u0627\u0644\u0645\u0639\u0635\u064a\u0629 \u0641\u064a\u0647\u0627
+  \u0623\u0634\u062f \u0639\u0642\u0627\u0628\u0627\\n\u201cPakkasiwiyang nennia pappideceng
+  ripaddupa rilalenna iyaro ulengnge maega appalanna, naiyatosi adorakangeng nennia
+  pelanggaran ripugau\u2019 rilalenna maladde\u2019 to paccallanna.\u201d\\nOleh karena
+  itu, sitinaja ladde ritaro maega amal ibadahta nennia pakkasiwiyatta, immaggi iya
+  engkae sitaggattungeng langsung sibawa Puang Allah Ta\u2019ala makkutoparo amal
+  ibadah iya engkae berhubungan sibawa padatta ripancaji.\\nSehingga weddingngi riyala
+  siyagae egana hikmah nennia aggurung iya weddingnge mancaji sulo mattappa ri allalengetta
+  naweddikki salewangeng molai laleng asalamarengnge lino lattu akhera. Apalagi, rilalenna
+  iyawe\u2019e ulengnge siyare peristiwa nennia kejadian mappatakkajenne\u2019 majjello\u2019
+  rialebbirenna agama asellengnge.\\nPada-padaenna, Iyanae ulengnge napada engkana
+  umma sellengnge nyatakangngi alena baliwi pangngo\u2019bi\u2019na puangnge, iyanaritu
+  paddupai pakkasiwiyang hajjie ritana mekkah, tanah mapaccingnge. Makedai puang Allah
+  Ta\u2019ala :\\n\u0648\u0644\u0644\u0647 \u0639\u0644\u0649 \u0627\u0644\u0646\u0627\u0633
+  \u062d\u062c \u0627\u0644\u0628\u064a\u062a \u0645\u0646 \u0627\u0633\u062a\u0637\u0627\u0639
+  \u0627\u0644\u064a\u0647 \u0633\u0628\u064a\u0644\u0627\\n\u201cMajeppu riwajikengngi
+  rupa taue ripuang Allah Ta\u2019ala pasilennerengngi pakkasiwiyang hajjie ribaetullae
+  tanah mekkah, risesena tau mampue, paulle warang-parang, paulle watakkale\u201d.\\nNaiya
+  riyasengnge paulle warang-parang; pura ripaccingini warang-parangnge, engka rienrekeng
+  engkato ri lesuang. Naiyatosi riyasengnge paulle watakkale iyanaritu naulle pugau
+  passurong naulleto niniri pappesangka.\\n\u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631
+  \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631
+  \u0648\u0644\u0644\u0647 \u0627\u0644\u062d\u0645\u062f\\nIrampei rilalenna salaseddie
+  riwayat iya engkae narampe sahabatna nabitta riyasengnge pangngulutta Abdullah ibn
+  Abbas makkeda:\\n\u0644\u0645\u0627 \u0641\u0631\u063a \u0625\u0628\u0631\u0627\u0647\u064a\u0645
+  \u0645\u0646 \u0628\u0646\u0627\u0621 \u0627\u0644\u0628\u064a\u062a\\n\u201cNaiyya
+  riwettu puranana napedecengi nabi Ibrahim bangunanna baitullae\u201d. Aga narisurona
+  ri Puang Allah Ta\u2019ala mangngollirengngi pakkasiwiyang hajjie:\\n\u0648\u0623\u0630\u0646
+  \u0641\u064a \u0627\u0644\u0646\u0627\u0633 \u0628\u0627\u0644\u062d\u062c\\n\u201cOlli\u2019i
+  sininna rupa taue untuk paddupai pakkasiwiyang hajjie\u201d.\\nNaikia, iyaro wettue
+  ritana mekkah de\u2019gaga tau laing sangngadinna nabi Ibrahimmi marana\u2019 mallaibini,
+  nassabari namakkutana ri Puang Allah Ta\u2019ala makkeda:\\n\u064a\u0627 \u0631\u0628
+  \u0648\u0645\u0627 \u064a\u0628\u0644\u063a \u0635\u0648\u062a\u064a\\n\u201cE\u2026
+  Puang, agana wedding palettu\u2019i saddakku nennia pangngobbi\u2019ku?\u201d.\\nGangkanna
+  ribalini ri Puang Allah Ta\u2019ala makkeda:\\n\u0639\u0644\u064a\u0643 \u0627\u0644\u0623\u0630\u0627\u0646
+  \u0648\u0639\u0644\u064a\u0646\u0627 \u0627\u0644\u0628\u0644\u0627\u063a\\n\u201cTugasmu
+  hanya sekedar memanggil, kewajiban Kami lah yang menyampaikan panggilan itu\u201d
+  angngobbi\u2019 bawanno, iyapa palettu\u2019i pangngobbi\u2019e.\\nAga tettonni
+  nabi Ibrahim mangngobbi\u2019 makkeda:\\n\u064a\u0627 \u0627\u064a\u0647\u0627 \u0627\u0644\u0646\u0627\u0633
+  \u0643\u062a\u0628 \u0639\u0644\u064a\u0643\u0645 \u0627\u0644\u062d\u062c \u0627\u0644\u0649
+  \u0627\u0644\u0628\u064a\u062a \u0627\u0644\u0639\u062a\u064a\u0642\\n\u201cE\u2026
+  sininna rupa taue, namajeppunna riwajikekko tumennang paddupai pakkasiwiyang hajjie
+  ribaetullae tanah mekkah\u201d.\\nIyanaro saba\u2019na, sininna jama\u2019ah hajjie
+  nabali manengngi pangngobbi\u2019na Puangnge rigau\u2019 engkanna pada napuadai
+  makkeda:\\n\u0644\u0628\u064a\u0643 \u0627\u0644\u0644\u0647\u0645 \u0644\u0628\u064a\u0643
+  \u060c \u0644\u0628\u064a\u0643 \u0644\u0627 \u0634\u0631\u064a\u0643 \u0644\u0643
+  \u0644\u0628\u064a\u0643\\n\u201cengkani maiyye Puang, paddupai pangngobbi\u2019ta\u201d.\\nWah,
+  upeppaha nennia alabbappaha umma selleng engkae riyareng cinna atinna paddupai pakkasiwiyang
+  hajjie ri tanah mapaccingnge, mattangnga lao ribaetullae nasibawai paddoangeng,
+  gangkanna barakka\u2019na attangnga\u2019na lao ribaetullae mattemme-temme pappenyamenna
+  puangnge narasakan riwatakkalena sehingga de\u2019paneddingi anrasa-rasanna tubunna
+  nennia palaongenna warang-paranna nasaba makkulasse\u2019na riatinna makkeda naiyya
+  hajji ritarimae de\u2019gaga pamale\u2019na sangngadinna suruga.\\n\u0627\u0644\u062d\u062c
+  \u0627\u0644\u0645\u0628\u0631\u0648\u0631 \u0644\u064a\u0633 \u0644\u0647 \u062c\u0632\u0627\u0621
+  \u0627\u0644\u0627 \u0627\u0644\u062c\u0646\u0629\\nApalagi narampei nabitta rilaleng
+  salasseddi haddese\u2019na:\\n\u0645\u0646 \u062d\u062c \u0641\u0644\u0645 \u064a\u0631\u0641\u062b
+  \u0648\u0644\u0645 \u064a\u0641\u0633\u0642 \u0631\u062c\u0639 \u0643\u064a\u0648\u0645
+  \u0648\u0644\u062f\u062a\u0647 \u0623\u0645\u0647\\n\u201cNigi-nigi tau pasilennerengngi
+  pakkasiwiyang hajjie nade\u2019 naengka naettekeng ada si-sia, nennia de\u2019to
+  nakkeda ada pase\u2019, gangkanna pura pakkasiwiyang hajjinna, gangkanna lattu turung
+  rikamponna, lesuni pada ana\u2019 loloe.\u201d Bettuanna adae mapaccinni alena pole
+  ridosae.\\n\u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u0648\u0644\u0644\u0647
+  \u0627\u0644\u062d\u0645\u062f\\nNarimakkuannanaro idi pada polewena hajji, taparakai
+  laloi hajjitta sibawa madeceng taissengngi angke\u2019na makeda narekko natarimai
+  puangnge hajjitta suruga pamale\u2019na, aja\u2019lalo taccapa\u2019-capari hajjitta
+  rigau\u2019 engkana tappanreyangngi ane gangkanna cappu buru de\u2019gaga appongenna
+  sangngadinna merupakammi belo-belo rilino namancaji paccoba riesso rimunrinna puangnge.\\nNaiyyatosi
+  idi\u2019 de\u2019e pa gaga kesempatanna menre ri tanah marajae, aja\u2019mua tapettu
+  rennu pole ripammasena Puangnge. Sehingga parellui simata ripakabaru niatta nennia
+  simata marellau doang ri Puang Allah Ta\u2019ala mamuarei ri taung-taung mangngoloe
+  nawerengngi kesempatan puangnge untuk paddupai hajjie sekaligus siyaraiwi kebburu\u2019na
+  nabitta Muhammad saw.\\nAlangkah upe\u2019na seddie tau narekko naulle papolei pakkasiwiyang
+  hajjie rigau\u2019 engkanna puang Allah Ta\u2019ala nakattai simata-mata.\\nNaikia
+  sebale\u2019na cilakapaha seddie tau, narekko napalaongenni warang-parang, nakulle-ullengenni
+  menre hajji untuk passukku\u2019i agama asellengenna, naluru de\u2019namadeceng
+  assisompung adanna lao riduae topajajiyanna, de\u2019namakessing batena tangnga\u2019i
+  rupa mapaccinna duae topajajiyanna, nennia de\u2019to namadeceng assisompung lolona
+  lao ripadanna ripancaji, gangkana nasalai bolana, hajji ritarima nakkattai hajji
+  ritolla\u2019 nalolongeng, suruga nakkattai naikia mu baunna suruga de\u2019to naulle
+  paneddingi.\\nNarimakkuannanaro, pada allomo-lomo maniki bawang pannennungengngi
+  decengnge, me-meng hakikinna hajjie kui ritoddang anging monro ripaddupa, makedai
+  nabitta Muhammad SAW :\\n\u062d\u062c\u0648\u0627 \u0642\u0628\u0644 \u0627\u0646
+  \u062a\u062d\u062c\u0648\u0627\\n\u201cHajji memeni riyolo tenghajjitta\u201d\\nPahangenna
+  haddese\u2019ewe: apahammemenni riagamae, laku-laku memenni pakkasiwiyangnge, niniri
+  pappesangkae riyolo temmenre\u2019tapa hajji. Nasaba de\u2019gaga pada tanrena onrona
+  pahajjie risesena puang Allah Ta\u2019ala iya paddupaengngi akkatana. Iyanaro saba\u2019na,
+  engka sahabatna nabitta makkeda:\\n\u064a\u0627 \u0631\u0633\u0648\u0644 \u0627\u0644\u0644\u0647
+  \u0645\u0627 \u0628\u0631 \u0627\u0644\u062d\u062c \u061f\\n\u201cE\u2026 surona
+  Allah Ta\u2019ala, agaro tanra-tanranna Hajji ritarimae?\\nNamappebalina nabitta
+  makkeda:\\n\u0628\u0631 \u0627\u0644\u062d\u062c \u0625\u0641\u0634\u0627\u0621
+  \u0627\u0644\u0633\u0644\u0627\u0645 \u0648\u0625\u0637\u0639\u0627\u0645 \u0627\u0644\u0637\u0639\u0627\u0645
+  \u0648\u0637\u064a\u0628 \u0627\u0644\u0643\u0644\u0627\u0645\\n\u201cNaiyya tanra-tanranna
+  Haji ritarimae iyanaritu mancajiwi hajji iya pellebbangi asalamarengnge, hajji napoji
+  manpare nennia mabbere, enrengnge hajji iya makessingnge werekkadana, sopan bicaranna,
+  malemma\u2019 ette-ette timunna\u201d.\\n\u201cTanda-tanda orang yang haji mabrur,
+  adalah seorang haji yang mampu menebarkan kedamaian di antara sesama, menjadi pribadi
+  yang suka berbagi dan memberi makan, serta menjadi seorang haji yang mampu bertutur
+  kata yang lembut dan berbahasa yang halus, yang tidak suka menyakiti hati dan perasaan
+  orang lain\u201d.\\nDari jawaban nabi itu dipahami bahwa ternyata kemuliaan ibadah
+  tidak dilihat pada saat pelaksanaannya, tapi kemuliaan ibadah tampak setelah kita
+  melaksanakan ibadah itu.\\nYang berarti bahwa berakhirnya pelaksanaan ibadah haji
+  sebenarnya menjadi tanda peningkatan ketakwaan kepada Allah swt. Rasulullah SAW
+  mengungkapkan :\\n\u0645\u0646 \u0643\u0627\u0646 \u064a\u0648\u0645\u0647 \u062e\u064a\u0631\u0627
+  \u0645\u0646 \u0623\u0645\u0633\u0647 \u0641\u0647\u0648 \u0631\u0627\u0628\u062d\\n\u201cBarang
+  siapa yang keadaannya hari ini lebih baik dari hari kemarin, maka ia termasuk orang
+  yang beruntung\u201d\\n\u0648\u0645\u0646 \u0643\u0627\u0646 \u064a\u0648\u0645\u0647
+  \u0645\u062b\u0644 \u0623\u0645\u0633\u0647 \u0641\u0647\u0648 \u0645\u063a\u0628\u0648\u0646\\n\u201cBarang
+  siapa yang keadaannya hari ini sama dengan hari kemarin, maka ia termasuk orang
+  yang tertipu\u201d\\n\u0648\u0645\u0646 \u0643\u0627\u0646 \u064a\u0648\u0645\u0647
+  \u0634\u0631\u0627 \u0645\u0646 \u0623\u0645\u0633\u0647 \u0641\u0647\u0648 \u0645\u0644\u0639\u0648\u0646\\n\u201cBarang
+  siapa yang keadaannya hari ini lebih buruk dari hari kemarin, maka ia termasuk orang
+  yang terkutuk\u201d.\\n\u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u0627\u0644\u0644\u0647
+  \u0627\u0643\u0628\u0631 \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u0648\u0644\u0644\u0647
+  \u0627\u0644\u062d\u0645\u062f\\nPada hari raya akbar ini, kita juga diingatkan
+  kembali mengenai beberapa peristiwa dan kejadian yang dialami oleh nabiyullah Ibrahim
+  as. bersama dengan keluarganya. Sebuah peristiwa yang menggetarkan hati dan jiwa
+  umat beriman, termasuk di antaranya adalah ketika nabiyullah Ibrahim diperintahkan
+  oleh Allah untuk menyembelih anaknya yaitu nabi Ismail as.\\nPerintah ini merupakan
+  tuntutan bukti cinta dan keimanan kepada Allah swt, yang berarti bahwa cinta dan
+  keimanan tidak cukup hanya sekedar kata-kata, tidak cukup hanya sekedar pernyataan
+  dan pengakuan. Tapi lebih daripada itu, cinta dan keimanan harus dibuktikan lewat
+  sebuah pengorbanan. Tidakkah ada petuah Arab yang mengatakan:\\n\u0627\u0644\u0646\u0627\u0633
+  \u0643\u0628\u064a\u0631 \u0628\u0625\u062e\u0644\u0627\u0635\u0647 \u0648\u062a\u0646\u0641\u064a\u0630\u0647\\n\u201cManusia
+  itu besar karena keikhlasan dan pengorbanannya\u201d.\\n\u0627\u0644\u0644\u0647
+  \u0627\u0643\u0628\u0631 \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u0627\u0644\u0644\u0647
+  \u0627\u0643\u0628\u0631 \u0648\u0644\u0644\u0647 \u0627\u0627\u0644\u062d\u0645\u062f\\nMungkin
+  pura manenni riangkalinga ceritana Nabi Ibrahim As bersama keluarganya yang intinya,Dari
+  peristiwa yang dialami oleh nabi Ibrahim bersama dengan keluarganya, hendaknya kita
+  bisa mengambil pelajaran tentang makna kebesaran Idul Adha pada hari ini:\\nMendorong
+  dan membina tumbuhnya pribadi-pribadi yang memiliki integritas yang tinggi, jiwa
+  yang bersih, tahan cobaan serta rela berkorban demi membuktikan cinta dan ketaatan
+  kepada Allah.\\nHari ini kita diperintahkan oleh Allah untuk ikut dalam ibadah kurban,
+  dengan mengorbankan sebagian harta yang kita miliki yang ditandai dengan menyembelih
+  binatang yang sudah ditentukan.\\nLahiriyahnya, binatang yang kita sembelih tapi
+  pada hakikatnya kita ikut menyembelih segala sifat-sifat hewani dan kebinatangan
+  yang ada dalam pribadi kita masing-masing.\\nLaherenna olo-kolo rigere naikia hakiki\u2019na
+  sipa\u2019 olo-kolo\u2019 engkae riwatakkaleta rigere. Mengenai alebbirenna makkorobae,
+  narampei nabitta saw. ri laleng sala seddi haddese\u2019na:\\n\u0645\u0646 \u0636\u062d\u0649
+  \u0637\u064a\u0628\u0629 \u0628\u0647\u0627 \u0646\u0641\u0633\u0647 \u0645\u062d\u062a\u0633\u0628\u0627
+  \u0644\u0623\u0636\u062d\u064a\u062a\u0647 \u0643\u0627\u0646\u062a \u0644\u0647
+  \u062d\u062c\u0627\u0628\u0627 \u0645\u0646 \u0627\u0644\u0646\u0627\u0631\\n\u201cNigi-nigi
+  tau makkoroba nasaba koroba mapaccing, de\u2019gaga lain napuminasa sangngadinna
+  pammasena Puangnge majeppu iyaro korobana mancajiwi pallawa pole ri apinna ranaka.\\nEngka
+  topa riwayat rampei makkeda:\\n\u0623\u0644\u0627 \u0625\u0646 \u0627\u0644\u0623\u0636\u062d\u064a\u0629
+  \u0645\u0646 \u0627\u0644\u0623\u0639\u0645\u0627\u0644 \u0627\u0644\u0645\u0646\u062c\u064a\u0629
+  \u060c \u062a\u0646\u062c\u064a \u0635\u0627\u062d\u0628\u0647\u0627 \u0634\u0631
+  \u0627\u0644\u062f\u0646\u064a\u0627 \u0648\u0627\u0644\u0622\u062e\u0631\u0629\\n\u201cnamajeppunna
+  iyatu makkorobae termasuk amala iya weddingnge passalamai rupa taue pole ri atunangenna
+  lino nennia atunangenna ahera.\u201d\\nUpeppaha seddie rupa taue, iya maeloe palaoi
+  waranparanna untuk paddupai parentana Puangnge sebagai bukti pappojinna nennia teppe\u2019
+  marajana ri Puang Allah Ta\u2019ala.\\nBahkan, narekko iranna-ranna kissana nabi
+  Ibrahim ripassalenna makkorobae, ternyata de\u2019nappikiri wekka dua untuk papolei
+  parentana Puangnge.\\nOleh karenanya laoni mai, natopada sukkurukiwi pappenyamenna
+  Puang Allah Ta\u2019ala rigau\u2019 engkanna ipakkegunai iyaro pappenyamengnge massompa
+  makkasiwiyang ri Puangnge.\\nPada-padaenna Alhamdulillah, makkukkuwangnge masiji\u2019ta
+  sementara diadakan renovasi besar-besaran, elo\u2019I ripadecengi pembangunanna.
+  Iyanaro saba\u2019na aja\u2019 lalo tapassiya-siyai kesempatanta untuk makkamala
+  ri agamana Puangnge.\\nNasaba arugingeng maraja napunnai seddie rupa tau narekko
+  naissengngi makkeda engka deceng napassadiya Puangnge tapi ternyata de\u2019gaga
+  usahana maelo lolongengngi iyaro decengnge. Padahal nabitta puraki naparengngerangi
+  makkeda:\\n\u0645\u0646 \u0628\u0646\u0649 \u0644\u0644\u0647 \u0645\u0633\u062c\u062f\u0627
+  \u064a\u0628\u062a\u063a\u064a \u0628\u0647 \u0648\u062c\u0647 \u0627\u0644\u0644\u0647
+  \u0628\u0646\u0649 \u0627\u0644\u0644\u0647 \u0644\u0647 \u0628\u064a\u062a\u0627
+  \u0641\u064a \u0627\u0644\u062c\u0646\u0629\\n\u201cNigi-nigi tau bangun masiji
+  nakarana Puang Allah Ta\u2019ala, majeppu ibangungengngi matti ri Puang Allah Ta\u2019ala
+  istana ri lalenna suruga.\u201d\\nNaikia napaseng mutokki nabitta, makkeda ternyata
+  ipakessingennai masijie tannia laherenna bawang, tannia fisikna bawang, naikia parellu
+  toi ipakessingi lise\u2019na nennia berejama\u2019na masijie. Iyanaro nakenna adanna
+  nabitta saw, makkeda:\\n\u064a\u0623\u062a\u064a \u0639\u0644\u0649 \u0627\u0644\u0646\u0627\u0633
+  \u0632\u0645\u0627\u0646 \u064a\u062a\u0628\u0627\u0647\u0648\u0646 \u0628\u0627\u0644\u0645\u0633\u0627\u062c\u062f
+  \u0644\u0627 \u064a\u0639\u0645\u0631\u0648\u0646\u0647\u0627 \u0627\u0644\u0627
+  \u0642\u0644\u064a\u0644\u0627\\n\u201cEngkatu matu sewwa wettu poleiwi rupa taue,
+  rigau engkanna makkalumba-lumbangeng padecengiwi pembangunan masiji\u2019e naikia
+  de\u2019gaga liseriwi sangngadinna cedde\u2019mi\u201d\\nOleh karena itu, marilah
+  kita berusaha mengambil hikmah dari peringatan idul adha hari ini, dengan menjadi
+  manusia yang siap memakmurkan mesjid, baik dari aspek fisiknya maupun dari aspek
+  isinya. Ipakessingiwi pembangunanna sekaligus ipadecengiwi berejama\u2019na. apatalagi
+  makkedai nabitta:\\n\u0625\u0646 \u0639\u0645\u0627\u0631 \u0627\u0644\u0645\u0633\u0627\u062c\u062f
+  \u0647\u0645 \u0623\u0647\u0644 \u0627\u0644\u0644\u0647\\n\u201cSesungguhnya orang-orang
+  yang memakmurkan mesjid maka mereka itulah yang menjadi keluarga Allah\u201d\\n\u0627\u0644\u0644\u0647
+  \u0623\u0643\u0628\u0631 \u0648\u0644\u0644\u0647 \u0627\u0644\u062d\u0645\u062f\\nKita
+  juga bisa mengambil hikmah dari kepribadian nabi Ismail as. Dimana beliau digambarkan
+  sebagai sosok pemuda yang tahan cobaan, sabar menghadapi ujian yang rela dikorbankan
+  demi melaksanakan perintah Allah.\\nIni berarti, kita sebagai generasi muda, harus
+  berusaha menjadi pemuda tangguh di masa depan karena mampu memadukan antara kualitas
+  ilmu yang tinggi dengan kualitas iman yang kokoh.\\nKarena memang kemuliaan ilmu
+  tidak dilihat dari tingginya sekolah, tidak dilihat dari banyaknya yang diketahui,
+  tapi kemuliaan ilmu tampak di saat ilmu yang kita miliki mengantarkan kita menjadi
+  pribadi yang bertakwa sekaligus memiliki akhlak dan budi pekerti yang baik. S\\nejalan
+  dengan pesan leluhur orang tua bugis kita:\\n\u201ciyatu kalloloe sibawa anak darae,
+  intang mabboromporongennai wanuwae, pattola palallonai to mapparentae, laoni mai
+  natopada mattulu\u2019 tellu mabbulo sibatang liseriwi atuwongetta nasaba amala
+  madeceng, tomappideceng ri agamata, mappideceng ri topajajiyatta, nennia mappideceng
+  ri wanuwata, wanuwata tana berru\u201d.\\nDari peringatan idul adha ini juga kita
+  perlu mendorong terwujudnya kesatuan yang kokoh dan membajah sebagaimana yang digambarkan
+  oleh jutaan kaum muslimin di tanah suci pada saat sekarang ini. Oleh karena tidak
+  ada kejayaan tanpa kemenangan dan tidak ada kemenangan tanpa kekuatan dan tidak
+  ada kekuatan tanpa persatuan, bersatu dalam satu rasa , satu cita dan satu tujuan.\\nIyanaro
+  saba\u2019na, laoni mai natopada pannessai tanra akatangetta ri puang Allah ta\u2019ala,
+  narilaksanakan parenta-Na nari niniri pappesangka-Na. nennia paddupai tanrang akkacoeretta
+  ri nabi Ibrahim nennia umma rinabitta SAW.\\nnapada ritimpai asagenangnge ri arota,
+  taputtamai sifa\u2019 addampengnge ri atitta, natosiampai lima padatta ripancaji,
+  natosiaddampengeng padatta rupa tau.\\nNamannessa tanra assiamase-masengnge ripallawangetta,
+  rebba sipatokkong, mali siparappe, sirui\u2019 menre\u2019 tassirui\u2019 no\u2019,
+  malilu sipakainge\u2019, mainge\u2019 pi tapaja nassabari namalomo napaturung bosi
+  pammasena Puang Allahu Ta\u2019ala, nalempe\u2019 berejama\u2019 na mali maneng
+  dosata idi\u2019 pabbanuae.\\nMa\u2019asyiral muslimin rahimakumullah\\nAkhirnya,
+  marilah kita sama-sama menundukkan kepala dengan menghadapkan wajah dan hati kita
+  kepada Allah seraya kita berdoa kepada-Nya semoga hari ini menjadi saksi nyata akan
+  upaya kita untuk menciptakan pribadi-pribadi yang berkualitas, baik secara intelektual,
+  moral, maupun spiritual.\\nSemoga hari ini menjadi saksi akan baiknya hubungan kita
+  dengan Allah, hubungan anak dengan orang tuanya serta hubungan kita antar sesama
+  yang ditandai dengan sikap saling memaafkan satu sama lain.\\nBaca Juga : Khutbah
+  Idul Adha Singkat\\nYa Allah\u2026 kayakanlah kami dengan ilmu pengetahuan, hiasilah
+  kami dengan kelembutan hati, muliakanlah kami dengan ketakwaan serta perindahlah
+  kami dengan kesehatan, dengan rahmat-Mu wahai Allah Tuhan Yang Maha Pengasih lagi
+  Maha Penyayang.\\n\u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 x 3 \u0644\u0627
+  \u0627\u0644\u0647 \u0627\u0644\u0627 \u0627\u0644\u0644\u0647 \u0648\u0627\u0644\u0644\u0647
+  \u0627\u0643\u0628\u0631. \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u0648\u0644\u0644\u0647
+  \u0627\u0644\u062d\u0645\u062f\\n\u0628\u0627\u0631\u0643 \u0627\u0644\u0644\u0647
+  \u0644\u064a \u0648\u0644\u0643\u0645 \u0641\u064a \u0627\u0644\u0642\u0631\u0622\u0646
+  \u0627\u0644\u0643\u0631\u064a\u0645 \u0648\u0646\u0641\u0639\u0646\u064a \u0648\u0625\u064a\u0627\u0643\u0645
+  \u0628\u0645\u0627 \u0641\u064a\u0647 \u0645\u0646 \u0627\u0644\u0623\u064a\u0627\u062a
+  \u0648\u0627\u0644\u0630\u0643\u0631 \u0627\u0644\u062d\u0643\u064a\u0645 \u0648\u062a\u0642\u0628\u0644
+  \u0627\u0644\u0644\u0647 \u0645\u0646\u064a \u0648\u0645\u0646\u0643\u0645 \u062a\u0644\u0627\u0648\u062a\u0647
+  \u0627\u0646\u0647 \u0647\u0648 \u0627\u0644\u0633\u0645\u064a\u0639 \u0627\u0644\u0639\u0644\u064a\u0645.
+  \u0623\u0642\u0648\u0644 \u0642\u0648\u0644\u064a \u0647\u0630\u0627 \u0648\u0627\u0633\u062a\u063a\u0641\u0631
+  \u0627\u0644\u0644\u0647 \u0627\u0644\u0639\u0638\u064a\u0645 \u0644\u064a \u0648\u0644\u0643\u0645
+  \u0648\u0644\u0644\u0645\u0624\u0645\u0646\u064a\u0646 \u0648\u0627\u0644\u0645\u0624\u0645\u0646\u0627\u062a
+  \u0648\u0627\u0644\u0645\u0633\u0644\u0645\u064a\u0646 \u0648\u0627\u0644\u0645\u0633\u0644\u0645\u0627\u062a
+  \u0627\u0644\u0623\u062d\u064a\u0627\u0621 \u0645\u0646\u0647\u0645 \u0648\u0627\u0644\u0623\u0645\u0648\u0627\u062a.
+  \u0641\u0627\u0633\u062a\u063a\u0641\u0631\u0648\u0647 \u0627\u0646\u0647 \u0647\u0648
+  \u0627\u0644\u063a\u0641\u0648\u0631 \u0627\u0644\u0631\u062d\u064a\u0645\\n\u0627\u0644\u062e\u0637\u0628\u0629
+  \u0627\u0644\u062b\u0627\u0646\u064a\u0629\\nKHUTBAH KEDUA Berbahasa Bugis\\n\u0627\u0644\u0644\u0647
+  \u0627\u0643\u0628\u0631 ( \u0667 x ) \u0648\u0644\u0644\u0647 \u0627\u0644\u062d\u0645\u062f\\n\u0627\u0644\u0644\u0647
+  \u0627\u0643\u0628\u0631 \u0645\u0627\u062a\u0632\u0627\u0648\u0631 \u0627\u0644\u0645\u0633\u0644\u0645\u0648\u0646
+  \u0641\u0649 \u0647\u0630\u0627 \u0627\u0644\u064a\u0648\u0645 \u0627\u0644\u0643\u0631\u064a\u0645,
+  \u0648\u0642\u062f\u0645 \u063a\u0646\u064a\u0647\u0645 \u0644\u0641\u0642\u064a\u0631\u0647\u0645,
+  \u0648\u0635\u062d\u064a\u062d\u0647\u0645 \u0644\u0645\u0631\u064a\u0636\u0647\u0645,
+  \u0648\u0642\u0648\u064a\u0647\u0645 \u0644\u0636\u0639\u064a\u0641\u0647\u0645
+  \u0645\u0627\u062a\u0642\u0631 \u0628\u0647 \u0639\u064a\u0646\u0647, \u0648\u064a\u0635\u0644\u062d
+  \u0628\u0647 \u0628\u0627\u0644\u0647.\\n\u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631
+  \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631\\n\u0627\u0644\u0644\u0647
+  \u0627\u0643\u0628\u0631 \u0643\u0628\u064a\u0631\u0627, \u0648\u0627\u0644\u062d\u0645\u062f
+  \u0627\u0644\u0644\u0647 \u0643\u062b\u064a\u0631\u0627, \u0648\u0633\u0628\u062d\u0627\u0646
+  \u0627\u0644\u0644\u0647 \u0648\u0628\u062d\u0645\u062f\u0647 \u0628\u0643\u0631\u0629
+  \u0648\u0627\u0635\u064a\u0644\u0627, \u0644\u0627\u0625\u0644\u0647 \u0627\u0644\u0627\u0627\u0644\u0644\u0647
+  \u0648\u062d\u062f\u0647, \u0635\u062f\u0642 \u0648\u0639\u062f\u0647 \u0648\u0646\u0635\u0631
+  \u0639\u0628\u062f\u0647, \u0648\u0623\u0639\u0632 \u062c\u0646\u062f\u0647, \u0648\u0647\u0632\u0645
+  \u0627\u0644\u0623\u062d\u0632\u0627\u0628 \u0648\u062d\u062f\u0647, \u0644\u0627
+  \u0625\u0644\u0647 \u0627\u0644\u0627\u0627\u0644\u0644\u0647 \u0648\u0644\u0627
+  \u0646\u0639\u0628\u062f \u0627\u0644\u0627 \u0627\u064a\u0627\u0647 \u0645\u062e\u0644\u0635\u064a\u0646
+  \u0644\u0647 \u0627\u0644\u062f\u064a\u0646 \u0648\u0644\u0648\u0643\u0631\u0647
+  \u0627\u0644\u0643\u0627\u0641\u0631\u0648\u0646.\\n\u0627\u0644\u062d\u0645\u062f
+  \u0644\u0644\u0647 \u0631\u0628 \u0627\u0644\u0639\u0627\u0644\u0645\u064a\u0646,
+  \u0648\u0627\u0644\u0635\u0644\u0627\u0629 \u0648\u0627\u0644\u0633\u0644\u0627\u0645
+  \u0639\u0644\u0649 \u0627\u0634\u0631\u0641 \u0627\u0644\u0645\u0631\u0633\u0644\u064a\u0646,
+  \u0633\u064a\u062f\u0646\u0627 \u0645\u062d\u0645\u062f \u0627\u0644\u0646\u0628\u0649
+  \u0627\u0644\u0623\u0645\u0649 \u0627\u0644\u0643\u0631\u064a\u0645, \u0648\u0639\u0644\u0649
+  \u0622\u0644\u0647 \u0648\u0635\u062d\u0628\u0647 \u0627\u062c\u0645\u0639\u064a\u0646.
+  \u0648\u0623\u0634\u0647\u062f \u0627\u0644\u0627 \u0625\u0644\u0647 \u0627\u0644\u0627
+  \u0627\u0644\u0644\u0647 \u0648\u062d\u062f\u0647 \u0644\u0627\u0634\u0631\u064a\u0643
+  \u0644\u0647, \u0648\u0623\u0634\u0647\u062f \u0623\u0646 \u0645\u062d\u0645\u062f\u0627
+  \u0639\u0628\u062f\u0647 \u0648\u0631\u0633\u0648\u0644\u0647.\\n\u0627\u0645\u0627\u0628\u0639\u062f,
+  . . . . . \u0641\u064a\u0627\u0623\u064a\u0647\u0627 \u0627\u0644\u0645\u0624\u0645\u0646\u0648\u0646
+  !\\n\u0623\u0635\u064a\u0643\u0645 \u0648\u0646\u0641\u0633\u0649 \u0628\u062a\u0642\u0648\u0649
+  \u0627\u0644\u0644\u0647. \u0648\u0633\u0627\u0631\u0639\u0648\u0627 \u0627\u0644\u0649
+  \u0645\u063a\u0641\u0631\u0629 \u0645\u0646 \u0631\u0628\u0643\u0645 \u0648\u062c\u0646\u0629
+  \u0639\u0631\u0636\u0647\u0627 \u0643\u0639\u0631\u0636 \u0627\u0644\u0633\u0645\u0648\u0627\u062a
+  \u0648\u0627\u0644\u0623\u0631\u0636, \u0648\u0644\u0627\u064a\u0643\u0648\u0646
+  \u0630\u0644\u0643 \u0627\u0644\u0627 \u0628\u0627\u062a\u0628\u0627\u0639 \u0627\u0644\u0631\u0633\u0648\u0644
+  \u0635\u0644\u0649 \u0627\u0644\u0644\u0647 \u0639\u0644\u064a\u0647 \u0648\u0633\u0644\u0645
+  \u0641\u0649 \u0627\u0644\u0642\u0648\u0644 \u0648 \u0627\u0644\u0639\u0645\u0644
+  \u0648\u0627\u0644\u062a\u0631\u0643. \u0642\u0627\u0644 \u0627\u0644\u0644\u0647
+  \u062a\u0639\u0627\u0644\u0649 : \u0627\u0637\u064a\u0639\u0648\u0627 \u0627\u0644\u0644\u0647
+  \u0648\u0631\u0633\u0648\u0644\u0647 \u0648\u0644\u0627 \u062a\u0648\u0644\u0648\u0627
+  \u0639\u0646\u0647 \u0648\u0627\u0646\u062a\u0645 \u062a\u0633\u0645\u0639\u0648\u0646
+  (\u0627\u0644\u0623\u0646\u0641\u0627\u0644: \u06f2\u06f0)\\n\u0627\u0644\u0644\u0647\u0645
+  \u0627\u063a\u0641\u0631 \u0644\u0644\u0645\u0624\u0645\u0646\u064a\u0646 \u0648\u0627\u0644\u0645\u0624\u0645\u0646\u0627\u062a,
+  \u0648\u0627\u0644\u0645\u0633\u0644\u0645\u064a\u0646 \u0648\u0627\u0644\u0645\u0633\u0644\u0645\u0627\u062a,
+  \u0627\u0644\u0644\u0647\u0645 \u064a\u0633\u0631 \u0623\u0645\u0648\u0631\u0646\u0627,
+  \u0648\u0627\u0634\u0631\u062d \u0635\u062f\u0648\u0631\u0646\u0627, \u0648\u0643\u0641\u0631
+  \u0639\u0646\u0627 \u0633\u064a\u0626\u0627\u062a\u0646\u0627, \u0648\u062a\u0648\u0641\u0646\u0627
+  \u0645\u0639 \u0627\u0644\u0623\u0628\u0631\u0627\u0631, \u0648\u0627\u062c\u0639\u0644
+  \u0644\u0646\u0627 \u0645\u0646 \u0644\u062f\u0646\u0643 \u0648\u0644\u064a\u0627,
+  \u0648\u0627\u062c\u0639\u0644 \u0644\u0646\u0627 \u0645\u0646 \u0644\u062f\u0646\u0643
+  \u0633\u0644\u0637\u0627\u0646\u0627 \u0646\u0635\u064a\u0631\u0627.\\n\u0627\u0644\u0644\u0647\u0645
+  \u062c\u0646\u0628 \u0623\u0648\u0637\u0627\u0646 \u0627\u0644\u0645\u0633\u0644\u0645\u064a\u0646
+  \u0645\u0646 \u0627\u0644\u0641\u062a\u0646 \u0645\u0627 \u0638\u0647\u0631 \u0645\u0646\u0647\u0627,
+  \u0648\u0645\u0627 \u0628\u0637\u0646, \u0648\u0648\u0641\u0642 \u0627\u0644\u0644\u0647\u0645
+  \u0648\u0644\u0627\u0629 \u0623\u0645\u0648\u0631\u0646\u0627 \u0627\u0644\u0649
+  \u0645\u0627 \u0641\u064a\u0647 \u062e\u064a\u0631 \u0627\u0644\u0627\u0633\u0644\u0627\u0645
+  \u0648\u0627\u0644\u0645\u0633\u0644\u0645\u064a\u0646, \u0648\u0643\u0646 \u0644\u0646\u0627
+  \u0648\u0644\u0627\u062a\u0643\u0646 \u0639\u0644\u064a\u0646\u0627, \u0627\u0646\u0643
+  \u0627\u0646\u062a \u0627\u0644\u0643\u0631\u064a\u0645 \u0627\u0644\u0648\u0647\u0627\u0628.\\n\u0631\u0628\u0646\u0627
+  \u0644\u0627\u062a\u0632\u063a \u0642\u0644\u0648\u0628\u0646\u0627 \u0628\u0639\u062f
+  \u0627\u0630 \u0647\u062f\u064a\u062a\u0646\u0627 \u0648\u0647\u0628 \u0644\u0646\u0627
+  \u0645\u0646 \u0644\u062f\u0646\u0643 \u0631\u062d\u0645\u0629 \u0627\u0646\u0643
+  \u0627\u0646\u062a \u0627\u0644\u0648\u0647\u0627\u0628.\\n\u0631\u0628\u0646\u0627
+  \u0622\u062a\u0646\u0627 \u0641\u0649 \u0627\u0644\u062f\u0646\u064a\u0627 \u062d\u0633\u0646\u0629
+  \u0648\u0641\u0649 \u0627\u0644\u0622\u062e\u0631\u0629 \u062d\u0633\u0646\u0629
+  \u0648\u0642\u0646\u0627 \u0639\u0630\u0627\u0628 \u0627\u0644\u0646\u0627\u0631.\\n\u0648\u0635\u0644
+  \u0627\u0644\u0644\u0647\u0645 \u0639\u0644\u0649 \u0633\u064a\u062f\u0646\u0627
+  \u0645\u062d\u0645\u062f \u0648\u0639\u0644\u0649 \u0622\u0644\u0647 \u0648\u0635\u062d\u0628\u0647
+  \u0648\u0633\u0644\u0645 \u062a\u0633\u0644\u064a\u0645\u0627 \u0643\u062b\u064a\u0631\u0627\\n\u0627\u0644\u0644\u0647
+  \u0627\u0643\u0628\u0631 \u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631 \u0627\u0644\u0644\u0647
+  \u0627\u0643\u0628\u0631 \u0644\u0627\u0627\u0644\u0647 \u0627\u0644\u0627 \u0627\u0644\u0644\u0647
+  \u0648\u0627\u0644\u0644\u0647 \u0627\u0643\u0628\u0631, \u0644\u0644\u0647 \u0627\u0643\u0628\u0631
+  \u0648\u0644\u0644\u0647 \u0627\u0644\u062d\u0645\u062f.\\n\u0648\u0627\u0644\u0633\u0644\u0627\u0645
+  \u0639\u0644\u064a\u0643\u0645 \u0648\u0631\u062d\u0645\u0629 \u0627\u0644\u0644\u0647
+  \u0648\u0628\u0631\u0643\u0627\u062a\u0647\"", "\"1Mat\u00e9nana Amazia, sininna
+  ra\u2019ya\u2019 Y\u00e9huda pil\u00e9i Uzia ana\u2019 worowan\u00e9na mancaji arung.
+  Iyaro wettu\u00e9 umuru\u2019na 16 taung. Indo\u2019na riyasengngi Y\u00e9kholya,
+  makkunrai Y\u00e9rusal\u00e9m. Mappar\u00e9ntai Uzia ri Y\u00e9rusal\u00e9m 52 taung
+  ittana. Al\u00e9na ritu sittaiwi sibawa patettongngi paimeng kota Elot.\\n2(26:1)\\n3(26:1)\\n4Pada-pada
+  ambo\u2019na, napogau\u2019 towi Uzia iya p\u00e9sennangiy\u00e9ngngi atinna PUWANGNGE.\\n5Zakharia
+  iyanaritu pappangaja rohaninna. Ri wettu tuwona mupa Zakharia, matinului Uzia massompa
+  ri PUWANGNGE angkanna PUWANGNGE barakkakiwi.\\n6Mammusui Uzia m\u00e9wai tau Filistingng\u00e9.
+  Naruttungngi t\u00e9mbo\u2019-t\u00e9mbo\u2019na kota Gad, Yabn\u00e9 sibawa Asdod,
+  nainappa patettong kota-kota mabb\u00e9nt\u00e9ng ri sedd\u00e9na Asdod sibawa da\u00e9ra
+  laingng\u00e9 ri Filistin.\\n7Allataala tulungngi sibawa caui tau Filistingng\u00e9,
+  sibawa tau Arab-\u00e9 iya monro\u00e9 ri Gur-Baal enrengng\u00e9 tau M\u00e9uningng\u00e9.\\n8Makkamajai
+  pakkasuwiyang tau Amongng\u00e9 lao ri Uzia. P\u00e9d\u00e9 makuwasai angkanna tassebbo
+  asenna lettu ri Mas\u00e9r\u00e9.\\n9Untu\u2019 pakkasse\u2019i kota Y\u00e9rusal\u00e9m,
+  patettongngi Uzia manara ri Pintu Gerbang Sunna, ri Pintu Gerbang Lompo\u2019\u00e9
+  sibawa l\u00e9koreng t\u00e9mbo\u2019\u00e9.\\n10Patettong towi manara-manara mabb\u00e9nt\u00e9ng
+  ri da\u00e9ra padangng\u00e9, sibawa kali ma\u00e9ga bujung nasaba ma\u00e9ga senna
+  olokolo\u2019na, muwi ri tan\u00e9t\u00e9 tanr\u00e9 iyar\u00e9\u2019ga ri tan\u00e9t\u00e9
+  mariyawa\u00e9 ri sedd\u00e9 yajang. Nasaba napuriyatiwi allaong ruma\u00e9, nanapajjamai
+  ma\u00e9ga tau untu\u2019 bukka palla-palla anggoro ri da\u00e9ra bulu\u00e9, sibawa
+  untu\u2019 jamai tana\u00e9 ri da\u00e9ra-da\u00e9ra iya macommo\u2019\u00e9.\\n11Uzia
+  mappunnai tentara battowa iya tuli sadiya\u00e9 untu\u2019 mammusu. Pol\u00e9i mennang
+  risining pass\u00e9ddiyang iya jumellana\u00e9 riyoki ri iya duwa jurutulisi\u2019na
+  arungng\u00e9, iyanaritu Y\u00e9i\u00e9l sibawa Maas\u00e9ya riyawa pimpinanna Hananya,
+  sala s\u00e9ddinna anggota stafna arungng\u00e9.\\n12Sininna tentara\u00e9ro pol\u00e9i
+  ri 307.500 prajuri ripimping ri 2.600 parawira. Iya manenna mennang mappunnaiwi
+  pakkull\u00e9ng iya battowa senna\u2019\u00e9 untu\u2019 mammusu sibawa bantui arungng\u00e9
+  caui balinna.\\n13(26:12)\\n14Napassakke\u2019i Uzia iyaro tentarana sibawa kaliyawo,
+  bessi, palo-palo baja, waju bessi, pana enrengng\u00e9 batu pallobang.\\n15Ri Y\u00e9rusal\u00e9m
+  sining ahli senjatana purani m\u00e9bbu par\u00e9wa iya mull\u00e9\u00e9ngngi mann\u00e9mbakengngi
+  ana\u2019 pana\u00e9 sibawa batu-batu loppo\u00e9 pol\u00e9 ri laleng manara\u00e9
+  sibawa sining sunna t\u00e9mbo\u2019 kota\u00e9. Tarompoi Uzia k\u00e9gi-k\u00e9gi,
+  sibawa makuwasa senna\u2019i nasaba Allataala masero tulungngi.\\n16Mawatannana
+  Arung Uzia, mancaji matemponi, na iyaro gau\u2019\u00e9 nassabariwi ancurukenna.
+  Najjal\u00e9kkaiwi par\u00e9ntana PUWANG Allataalana nasaba nauttamakiwi Bolana
+  PUWANGNGE untu\u2019 mattunu dupa ri yas\u00e9\u2019na m\u00e9zba dupa\u00e9.\\n17Iyakiya
+  Imang Azarya silaong 80 imang laingng\u00e9 iya mawatangng\u00e9 sibawa barani\u00e9
+  maccow\u00e9riwi\\n18untu\u2019 m\u00e9wai pangkaukennaro. Makkedai mennang, \\\"Petta
+  Iya Malebbi\u00e9! D\u00e9\u2019gaga ha\u2019na Datu mattunu dupa untu\u2019 PUWANGNGE.
+  Iyaro jamanna imang-ngimang wijanna Harun, saba\u2019 mennang ritu ripallaing untu\u2019
+  iyaro. Sitinajai nasalai Datu onrong iya mapaccingng\u00e9w\u00e9! Purani na\u00e9wa
+  Datu PUWANG Allataala, sibawa d\u00e9\u2019na nalolongeng barakka\u2019-Na.\\\"\\n19Iyaro
+  wettu\u00e9 mattengngangngi Uzia tettong ri sedd\u00e9na m\u00e9zba dupa\u00e9 ri
+  Bolana PUWANGNGE sibawa par\u00e9wa pattunu dupa ri limanna. Namacaina lao ri imang-ngimangng\u00e9ro,
+  natappa mompona lasa oli iya mappakatau-tau\u00e9 ri linrona.\\n20Makkitani Azarya
+  sibawa imang-ngimang laingng\u00e9 lao ri al\u00e9na sibawa masero s\u00e9leng,
+  nanadessa\u2019ni kuwammengngi nasalaiwi Bolana PUWANGNGE. Mapperi-perini massu
+  nasaba PUWANGNGE hukkungngi.\\n21Narapi mat\u00e9 Arung Uzia iyaro lasana d\u00e9\u2019
+  najjappa. Ripassalai ris\u00e9ddi\u00e9 bola sibawa d\u00e9\u2019na naripalalo muttama
+  ri Bolana PUWANGNGE. Ripaleppe\u2019i pol\u00e9 ri jama-jamanna, na Yotam ana\u2019na
+  par\u00e9ntai ra\u2019ya\u2019\u00e9 selaku wakk\u00e9l\u00e9\u2019na.\\n22Curita
+  laing passalenna appar\u00e9ntanna Arung Uzia, pura naokii Nabi Y\u00e9saya ana\u2019
+  Amos.\\n23Wettunna mat\u00e9, rikuburu\u2019i Uzia ri tana sedd\u00e9na tampung
+  arung-ngarungng\u00e9, iyakiya d\u00e9\u2019 na ri tampungng\u00e9ro, nasaba malasa
+  olii iya mappakatau-tau\u00e9. Yotam ana\u2019 worowan\u00e9na mancaji arung sull\u00e9iwi.\"",
+  "\"37:1 B\u00e9zaleel m\u00e9bbui Petti Assijancingng\u00e9 pol\u00e9 ri aju akasia\u00e9,
+  lamp\u00e9na 110 s\u00e9nti, sakkana sibawa tanr\u00e9na tungke-tungke 66 s\u00e9nti.\\n37:2
+  Bagiyang ri lalenna sibawa ri saliwenna rilapiriwi sibawa ulaweng tul\u00e9ng, nainappa
+  riy\u00e9bbureng pamiring ulaweng mattulilingiwi.\\n37:3 Nainappa m\u00e9bbu eppa
+  gellang ulaweng untu\u2019 aju pabbul\u00e9na nanapasangngi ri iya eppa aj\u00e9na
+  petti\u00e9ro, duwa toling ri tungke benr\u00e9nna.\\n37:4 Na\u00e9bbu towi pabbul\u00e9na
+  pol\u00e9 ri aju akasia\u00e9, enrengng\u00e9 nalapiriwi sibawa ulaweng,\\n37:5
+  nainappa naputtama iyaro aju pabbul\u00e9\u00e9 ri lalenna tolingng\u00e9 ri tungke
+  benr\u00e9nna petti\u00e9ro.\\n37:6 Nainappa m\u00e9bbu s\u00e9ddi pattongko pol\u00e9
+  ri ulaweng tul\u00e9ngng\u00e9, lamp\u00e9na 110 s\u00e9nti sibawa sakkana 66 s\u00e9nti.\\n37:7
+  Na\u00e9bbu towi duwa k\u00e9rub pol\u00e9 ri ulaweng ri lanro\u00e9,\\n37:8 s\u00e9ddi
+  ri tungke pattongkonaro. Iya duwa k\u00e9rub-\u00e9ro ripass\u00e9ddiwi sibawa pattongkona\\n37:9
+  nariy\u00e9bbui siyolong, sibawa panni iya mallebba\u2019\u00e9 sampoi pattongkona
+  iyaro petti\u00e9.\\n37:10 B\u00e9zaleel m\u00e9bbui m\u00e9jangng\u00e9 pol\u00e9
+  ri aju akasia\u00e9, iya lamp\u00e9na\u00e9 88 s\u00e9nti, sakkana 44 s\u00e9nti
+  sibawa tanr\u00e9na 66 s\u00e9nti.\\n37:11 Iyaro m\u00e9jangng\u00e9 nalapirini
+  sibawa ulaweng tul\u00e9ng enrengng\u00e9 ripasangi pamiring ulaweng mattulili.\\n37:12
+  Nana\u00e9bbui wiring m\u00e9jangng\u00e9 sillebba 7,5 s\u00e9nti. Iyaro wirinna
+  napasangiwi pamiring ulaweng mattulili.\\n37:13 Na\u00e9bburenni eppa toling untu\u2019
+  aju pabbul\u00e9na nanapasangngi ri iya eppa sung aj\u00e9na m\u00e9jangng\u00e9.\\n37:14
+  Toling pattahanna aju pabbul\u00e9na ripasangngi ri sedd\u00e9 wirinna m\u00e9jangng\u00e9.\\n37:15
+  Iyaro pabbul\u00e9\u00e9 riy\u00e9bbui pol\u00e9 ri aju akasia\u00e9 sibawa rilapiriwi
+  ulaweng.\\n37:16 M\u00e9bbu towi penn\u00e9-penn\u00e9, cangkiri-cangkiri, kendi-kendi
+  sibawa mangko\u2019-mangko\u2019 untu\u2019 pakkasuwiyang uwai anggoro. Sininna
+  passakke\u2019na m\u00e9jangng\u00e9ro na\u00e9bbui pol\u00e9 ri ulaweng tul\u00e9ngng\u00e9.\\n37:17
+  B\u00e9zaleel m\u00e9bbui aj\u00e9 lampu\u00e9 pol\u00e9 ri ulaweng tul\u00e9ngng\u00e9.
+  Tudangeng sibawa akkatenningenna riy\u00e9bbui pol\u00e9 ri ulaweng rilanro\u00e9.
+  Bunga b\u00e9lo-b\u00e9lona, muttama\u2019ni uce\u2019-uce\u2019 unganna sibawa
+  amp\u00e9lona ripass\u00e9ddiwi sibawa akkatenningenna.\\n37:18 Ri akkatenningengng\u00e9ro
+  riy\u00e9bburengngi enneng takk\u00e9, tellu takk\u00e9 ri tungke benr\u00e9nna.\\n37:19
+  Ri tungke takk\u00e9na riy\u00e9bburengngi b\u00e9lo-b\u00e9lo sinrupa tellu bunga
+  badam silaong uce\u2019-uce\u2019 unganna sibawa amp\u00e9lona.\\n37:20 Ri akkatenningenna
+  riy\u00e9bburengngi b\u00e9lo-b\u00e9lo maddupa eppa bunga badam silaong uce\u2019-uce\u2019
+  unganna sibawa amp\u00e9lona.\\n37:21 Ri yawana tungke sipasang takk\u00e9ro riy\u00e9bburengngi
+  s\u00e9ddi uce\u2019-uce\u2019 unga.\\n37:22 Sininna aj\u00e9na lampu\u00e9ro silaong
+  uce\u2019-uce\u2019na enrengng\u00e9 takk\u00e9-takk\u00e9na riy\u00e9bbui pol\u00e9
+  ri l\u00e9tta ulaweng rilanro\u00e9 iya tul\u00e9ngng\u00e9.\\n37:23 Ri aj\u00e9na
+  lampu\u00e9ro na\u00e9bbui pitu lampu silaong pakkakkasa\u2019na untu\u2019 paccingiwi
+  sumbunna sibawa baki\u2019na pol\u00e9 ri ulaweng tul\u00e9ngng\u00e9.\\n37:24 Untu\u2019
+  m\u00e9bbui aj\u00e9 lampu\u00e9 sibawa passakke\u2019na riyapparelluwangngi 35
+  kilo ulaweng tul\u00e9ng.\\n37:25 B\u00e9zaleel m\u00e9bbui pol\u00e9 ri aju akasia\u00e9
+  s\u00e9ddi m\u00e9zba untu\u2019 onrong mattunu dupa. Iyaro m\u00e9zba\u00e9 massulapa\u2019i;
+  lamp\u00e9 sibawa sakkana tungke-tungke 45 s\u00e9nti sibawa tanr\u00e9na 90 s\u00e9nti.
+  Ri iya eppa sunna ri yas\u00e9 riy\u00e9bburengngi tanru iya mass\u00e9ddi\u00e9
+  sibawa m\u00e9zba\u00e9ro.\\n37:26 Bagiyang yas\u00e9\u2019na, iya eppa benr\u00e9nna
+  sibawa tanru-tanru\u2019na rilapiriwi sibawa ulaweng tul\u00e9ng enrengng\u00e9
+  riy\u00e9bburengngi pamiring ulaweng mattulili.\\n37:27 Na\u00e9bbureng towi duwa
+  toling ri yawana pamiring ulawengng\u00e9 ri iya duwa benr\u00e9nna untu\u2019 tahangngi
+  aju pabbul\u00e9na m\u00e9zba\u00e9ro.\\n37:28 Iyaro pabbul\u00e9\u00e9 pol\u00e9i
+  ri aju akasia\u00e9 sibawa rilapiriwi ulaweng.\\n37:29 M\u00e9bbu towi B\u00e9zaleel
+  minnya upacara sibawa dupa tul\u00e9ng iya mabau\u00e9, ricampuru pada-pada minnya
+  wangi\u00e9.\\nAdvertisements\"", "\"Daftar Ayat\\n13:4Tau mangngamaseanga ri paranna
+  tau, iamintu tau sa\u2019baraka siagang baji\u2019 ati. Tena nasanna\u2019 pasereatina,
+  tena natinggi langga siagang tena natampo.\\n13:5Tena naborro, tena na\u2019gau\u2019
+  takamma-kamma; tena napassai taua amboyangi kaparalluang kalenna bawang, tena nalinta\u2019
+  kasi\u2019rikang, siagang tena napammoli\u2019-molikangi punna nia\u2019 tau sala
+  ri kalenna.\\n13:6Tau mangngamaseanga ri paranna tau tena nangai kaja\u2019dallanga;
+  mingka katojengangaji nangai.\\nBahan Renungan: SH - RH - ROC\\nDownload\\nKamus
+  Alkitab\\nKamus Bahasa\\nKidung Jemaat\\nNyanyikanlah Kidung Baru\\nPelengkap Kidung
+  Jemaat\\nAlkitab.mobi\\nCopyright\\nBantuan\"", "\"Reporter : Iksan Madjido\\nKAILIPOST.COM,-
+  SULTENG \u2013 Dako ri bula Januari sampe Desember 2017 inflasi ri Palu mbasona
+  4,33 parase. Angka hi nambasopa ane rabandika inflasi ri mpae 2016 mbasona aga 1,49
+  parase bo mpae 2017 mbasona 4,17 parase. \u201cRi bula Desember nalangapa inflasina,
+  deana 1,87 parase, paling naede bula Juli bo Agustus, deana 0,05 parase,\u201d panguli
+  Kapala Bidang Statistik Distribusi BPS Sulteng, Moh. Wahyu Yulianto, ri ara jumpa
+  pers eo Salasa (2/1/2017).\\nAga tatalu nggani na deflasi ri Kota Palu ri mpae 2017,
+  yaitu ri bula September, Oktober bo bula November. \u201cNipopatora kami mo, ane
+  ri bula Desember ante Januari, bula najadi nipoparantaika ntoto Tim Pengendali Inflasi
+  Daerah (TPID), boito mo itu rapakatantuka strategi mo atasina,\u201d panguli Yulianto.\\nBACA
+  SELENGKAPNYA DI HARIAN KAILI POST\u2026!\"", "\"20:1 L\u00e9tt\u00e9\u2019i Abraham
+  pol\u00e9 ri Mamr\u00e9 lao ri bagiyang yattanna tana Kanaan, sibawa mattette ri
+  pallawangenna Kad\u00e9s sibawa Syur. Siyagangngar\u00e9 wettu ri munrinna, wettunna
+  monroi ri Gerar,\\n20:2 napowadai makkeda\u00e9 Sara bain\u00e9na iyanaritu anrinna.
+  Rimakkuwannanaro Arung Abim\u00e9l\u00e9kh pol\u00e9 ri Gerar nasuroi surona tiwii
+  Sara ri al\u00e9na.\\n20:3 Ris\u00e9uwa\u00e9 wenni nappaitangngi Allataala al\u00e9na
+  lao ri arungng\u00e9ro ri laleng nippi, sibawa makkeda, \u201cMat\u00e9ko matu,
+  nasaba purai muwala iyaro makkunrai\u00e9; saba\u2019 purani mallakkai.\u201d\\n20:4
+  Iyakiya Abim\u00e9l\u00e9kh d\u00e9\u2019pa narapii g\u00e9ssai Sara, nakkeda iyaro
+  arungng\u00e9, \u201cPuwang, d\u00e9\u2019 upasala! Ma\u00e9loiga Puwangng\u00e9
+  pabbinasaka sibawa bangsaku?\\n20:5 Al\u00e9na muto Abraham powadai makkeda\u00e9
+  iyaro makkunrai\u00e9 anrinna, sibawa iyaro makkunrai\u00e9 makkeda makkuwa towiro.
+  Purai upogau\u2019 iyaro gau\u2019\u00e9 sibawa ati mapaccing, jaji d\u00e9\u2019
+  upasala.\u201d\\n20:6 Napp\u00e9bali Allataala ri laleng nippi\u00e9ro, \u201cM\u00e9meng,
+  Uwisseng makkeda\u00e9 mupogau\u2019i sibawa ati iya mapaccingng\u00e9. Rimakkuwannanaro
+  Ulawa-lawaiko pogau\u2019 dosa lao ri Iyya, sibawa d\u00e9\u2019 Uleppessakko g\u00e9ssai
+  iyaro makkunrai\u00e9.\\n20:7 Iyakiya makkekkuwangng\u00e9, palisuni lao ri lakkainna.
+  Lakkainna s\u00e9ddiwi nabi, nanassempajangekko matu kuwammengngi d\u00e9\u2019
+  mumat\u00e9. Iyakiya r\u00e9kko d\u00e9\u2019 mupalisui, \u00e9ngngerangngi, iko
+  sibawa sininna ra\u2019ya\u2019mu mat\u00e9i matu!\u201d\\n20:8 Pappa bajanana,
+  ma\u00e9l\u00e9 senna\u2019ni Abim\u00e9l\u00e9kh mobbii sininna pegaw\u00e9nna
+  sibawa powadangngi mennang sininna kajajiyangng\u00e9ro. M\u00e9tau senna\u2019ni
+  mennang.\\n20:9 Purairo naobbini Abim\u00e9l\u00e9kh Abraham sibawa makkutana, \u201cAga
+  pura mupogau\u2019 lao ri idi? Aga asalakku lao ri iko, angkanna mupapol\u00e9i
+  abala\u00e9w\u00e9 ri yas\u00e9\u2019ku sibawa akkarungekku? D\u00e9\u2019 siseng
+  nasipato\u2019ko pogau\u2019i pada-pada\u00e9ro lao ri iyya.\\n20:10 Magi mupogau\u2019i
+  makkuwa\u00e9ro?\u201d\\n20:11 Napp\u00e9bali Abraham, \u201cUwasengngi, kuwa\u00e9
+  d\u00e9\u2019gaga tau iya m\u00e9tau\u00e9 ri Allataala, angkanna riyunoka matu
+  ri tau iya macinnaiy\u00e9ngngi bain\u00e9ku.\\n20:12 Na m\u00e9mengngi iyaro anrikku.
+  Manguru ambo\u2019ki, iyakiya laing indo\u2019, nainappaki kawing.\\n20:13 Na wettunna
+  Allataala suroka salaiwi bolana ambo\u2019ku sibawa soll\u00e9 ri wanuwa-wanuwa
+  laingng\u00e9, makkedaka lao ri bain\u00e9ku, \u2018Pannessani atinuluremmu lao
+  ri iyya sibawa makkeda lao ri tungke tauw\u00e9 makkeda\u00e9 iyya\u2019\u00e9 kakamu.\u2019
+  \u201d\\n20:14 Purairo napalisuni Abim\u00e9l\u00e9kh Sara lao ri Abraham, na wettu\u00e9ro
+  naw\u00e9r\u00e9ng towi ata-ata, bimbala sibawa saping.\\n20:15 Adanna iyaro arungng\u00e9
+  lao ri Abraham, \u201cIyana\u00e9 sininna wanuwakku; mattette\u2019no k\u00e9ga
+  mupoji.\u201d\\n20:16 Nainappa makkeda lao ri Sara, \u201cPurani uw\u00e9r\u00e9ng
+  kakamu sisebbu dowi p\u00e9ra\u2019 selaku butti lao risininna tauw\u00e9 makkeda\u00e9
+  tonget-tongekko d\u00e9\u2019 mupasala.\u201d\\n20:17-18 PUWANGNGE pura m\u00e9bbui
+  manang sininna makkunrai\u00e9 ri saorajana Abim\u00e9l\u00e9kh nasaba kajajiyangng\u00e9
+  sibawa Sara, bain\u00e9na Abraham. Nainappa massempajang Abraham lao ri Allataala,
+  na Allataala pajjappai Abim\u00e9l\u00e9kh, bain\u00e9na sibawa ata-atanna makkunrai\u00e9,
+  angkanna iyaro sining makkunrai\u00e9 weddinni m\u00e9mmana\u2019si.\\nAdvertisements\"",
+  "\"1Saudara-saudara! Wettukku lao ri iko sibawa mabbirittangngi ri iko passalenna
+  rancanana Allataala iya d\u00e9\u2019\u00e9ppa naissengngi lino\u00e9, d\u00e9\u2019
+  upak\u00e9i apanr\u00e9nna lino\u00e9w\u00e9 iyar\u00e9\u2019ga mabbicara iya h\u00e9ba\u2019-h\u00e9ba\u2019\u00e9.\\n2Saba\u2019
+  pura upattette\u2019ni makkeda\u00e9 ri wettu engkaku mupa sibawakko, d\u00e9\u2019
+  uma\u00e9lo powadai agi-agi, ri lainna\u00e9 Y\u00e9sus Kristus; lebbi-lebbipi makkeda\u00e9
+  purai mat\u00e9 ri salli\u00e9.\\n3Wettukku sibawakko, malemmaka sibawa t\u00e9nr\u00e9ka
+  nataro tau.\\n4Kar\u00e9ba iya upalettu\u2019\u00e9 ri iko d\u00e9\u2019 upalettu\u2019i
+  sibawa ada-ada iya mappangaru\u00e9 situru apanr\u00e9nna rupa tauw\u00e9. Upalettu\u2019i
+  iyaro sibawa cara iya pabuttiy\u00e9ngngi makkeda\u00e9 makuwasai Rohna Allataala.\\n5Upogau\u2019i
+  makkuwa\u00e9ro, kuwammengngi atepperemmu lao ri Kristus d\u00e9\u2019 nasituru\u2019
+  apanr\u00e9nna tolino\u00e9, sangadinna siturui akuwasanna Allataala.\\n6Namuni
+  makkuwaro, ri yelle\u2019na sining tau iya matasa\u2019\u00e9nna atuwong bat\u00e9nna,
+  mabbicara m\u00e9mekka passalenna apanr\u00e9ngng\u00e9. Iyakiya iya\u00e9 apanr\u00e9ngng\u00e9
+  tenniya apanr\u00e9ng lino\u00e9, iyar\u00e9\u2019ga apanr\u00e9nna sining panguwasa\u00e9
+  wettu\u00e9w\u00e9, iya lennye\u2019\u00e9 matti akuwasanna.\\n7Apanr\u00e9ng iya
+  upangolo\u00e9ro iyanaritu apanr\u00e9ng pol\u00e9 ri Allataala. Iyaro apanr\u00e9ngng\u00e9
+  d\u00e9\u2019 naissengngi lino\u00e9, iyakiya Allataala pura passadiyangengngi untu\u2019
+  asennangetta riwettu d\u00e9\u2019napa naripancaji lino\u00e9w\u00e9.\\n8D\u00e9\u2019
+  muwi s\u00e9ddi tau pol\u00e9 risining panguwasa\u00e9 wettu\u00e9w\u00e9 iya missengng\u00e9ngngi
+  passalenna apanr\u00e9ngng\u00e9ro. Saba\u2019 akkalarapanna mennang naissenni,
+  tentu d\u00e9\u2019 mennang nama\u00e9lo sallii Puwang iya malebbi\u00e9ro.\\n9Sibal\u00e9\u2019na
+  iyaro gau\u2019\u00e9 pada-padai iya taroki\u00e9 ri laleng Kitta\u2019\u00e9, \\\"Aga
+  iya d\u00e9\u2019\u00e9 naengka naitai iyar\u00e9\u2019ga na\u00e9ngkalingai tolino\u00e9,
+  sibawa d\u00e9\u2019to naengka naompo ri laleng pikkiranna tolino\u00e9, iyanaro
+  napassadiya Allataala untu\u2019 sining tau iya Namas\u00e9iy\u00e9.\\\"\\n10Iyakiya
+  pura napannessani Allataala lao ri idi sibawa naolai Roh-Na. Iyaro Rohna Allataala
+  nasalidikiwi sininna s\u00e9uwa-s\u00e9uwa\u00e9, lettu risining rancanana Allataala
+  muwi iya kaminang tassubbu\u00e9.\\n11Saba\u2019 iya missengng\u00e9ngngi atinna
+  s\u00e9ddi\u00e9 tau iyanaritu rohna muto iyaro tauw\u00e9? Makkuwatoro passalenna
+  Allataala. Iya missengng\u00e9ngngi lise atinna Allataala banna Rohna Allataala
+  bawang!\\n12Na idi d\u00e9\u2019 nariw\u00e9r\u00e9kki rohna lino\u00e9w\u00e9,
+  sangadinna Roh pol\u00e9 ri Allataala, kuwammengngi nariisseng maneng iya pura\u00e9
+  nabb\u00e9r\u00e9yang Allataala lao ri idi.\\n13Rimakkuwannanaro r\u00e9kko mappakatajakki
+  gau\u2019-gau\u2019 passalenna Allataala lao risining tau iya mappunnaiy\u00e9 Rohna
+  Allataala, d\u00e9\u2019 naripangolo situru apanr\u00e9nna tolino\u00e9, sangadinna
+  situru pappagguruwanna Rohna Allataala.\\n14Tau iya d\u00e9\u2019\u00e9 nappunnai
+  Rohna Allataala, d\u00e9\u2019 naull\u00e9i tarimai aga iya napannessa\u00e9 iyaro
+  Roh-\u00e9. Saba\u2019 lao ri iyaro tauw\u00e9 iyaro gau\u2019-gau\u2019\u00e9 pada-padai
+  s\u00e9ddi adonggong bawang. Iyaro tauw\u00e9 d\u00e9\u2019 naull\u00e9i pahangngi,
+  saba\u2019 iyaro gau\u2019-gau\u2019\u00e9 banna weddingngi riyangke\u2019 secara
+  bat\u00e9ng.\\n15Tau iya mappunnaiy\u00e9 Rohna Allataala naull\u00e9i mangke\u2019i
+  sininna s\u00e9uwa-s\u00e9uwa\u00e9, iyakiya d\u00e9\u2019 muwi s\u00e9ddi tau mappunnai
+  ha\u2019 mangke\u2019i Al\u00e9na.\\n16Ri laleng Kitta\u2019\u00e9 tarokii, \\\"Niga
+  missengngi pikkiranna Puwangng\u00e9? Sibawa niga mull\u00e9i pangajariwi?\\\" Idi
+  ritu iya mappunnaiy\u00e9 pikkirang iya pada-pada\u00e9 Kristus!\"", "\"1Ri kota
+  Y\u00e9rikho rijagai senna\u2019ni pintu-pintu gerbanna sibawa ritongko rape-rape
+  kuwammengngi d\u00e9\u2019 naull\u00e9i muttama tau Isra\u00e9li\u00e9. D\u00e9\u2019
+  muwi s\u00e9ddi ripalalo muttama iyar\u00e9\u2019ga massu ri kota\u00e9ro.\\n2Makkedai
+  PUWANGNGE lao ri Yosua, \\\"Makkekkuwangng\u00e9 Uw\u00e9r\u00e9kko Y\u00e9rikho
+  sibawa arunna nenniya sininna tentarana iya barani-barani\u00e9ro.\\n3Iko sibawa
+  tentaramu harusu\u2019ko mabbarisi mattulilingiwi kota\u00e9ro siseng siesso ri
+  laleng enneng esso ittana.\\n4Pitu tau imang, tungke-tungke tiwi taromp\u00e9, harusu
+  joppa ri yolona Petti Assijancingng\u00e9. Ri esso mapitu\u00e9, iko sibawa tentaramu
+  harusu mattulilingiwi kota\u00e9ro w\u00e9kkapitu nasining imangng\u00e9 seppungngi
+  taromp\u00e9\u2019na.\\n5Nainappa iyaro imang-ngimangng\u00e9 harusu\u2019i seppungngi
+  taromp\u00e9\u2019na sibawa oni iya malamp\u00e9\u00e9. Muw\u00e9ngkalingana oni
+  iya malamp\u00e9\u00e9ro, sininna tentara\u00e9 harusu\u2019i marukka sibawa gora,
+  namaruttung matu iyaro t\u00e9mbo\u2019na kota\u00e9. Nainappa iko maneng harusu
+  matteru muttamakiwi kota\u00e9ro.\\\"\\n6Nanaobbini Yosua sining imangng\u00e9,
+  sibawa makkeda, \\\"Akkani iyaro Petti Assijancingng\u00e9; pitu tau pol\u00e9 ri
+  yelle\u2019mu harusu joppa ri yolona natiwito taromp\u00e9.\\\"\\n7Nainappa nasuro
+  Yosua tentarana mabbarisi mattulilingiwi kota\u00e9ro, ripoddiyoloi ri barisi pengawal
+  ri yolo\u00e9 iya joppa\u00e9 poddiyoloi Petti Assijancinna PUWANGNGE.\\n8Situru
+  sibawa par\u00e9ntana Yosua, joppani barisi pengawal riyolo\u00e9 poddiyoloi imang-ngimang
+  passeppung taromp\u00e9\u2019\u00e9, riyaccow\u00e9ri ri imang-ngimang mpul\u00e9\u00e9ngngi
+  Petti Assijancingng\u00e9, nainappa ri paccappurenna barisi pengawal ri monri\u00e9.
+  Ri wettunna mennang joppa napaoni towi matteru-teru taromp\u00e9\u2019\u00e9.\\n9(6:8)\\n10Sininna
+  tentara\u00e9 pura ripar\u00e9ntanni d\u00e9\u2019 nagora sibawa d\u00e9\u2019 namakkeda-ada
+  muwi silappa r\u00e9kko d\u00e9\u2019pa nabb\u00e9r\u00e9 Yosua tanra-tanrang.\\n11Makkuwaniro
+  Yosua suroi tentarana tiwii Petti Assijancingng\u00e9 mattulilingiwi kota\u00e9ro
+  w\u00e9kkasiseng, nainappa lisu ri akk\u00e9mangng\u00e9, sibawa mabbenni kuwaro.\\n12Bajana,
+  ma\u00e9l\u00e9 senna\u2019ni moto Yosua nainappa untu\u2019 mabb\u00e9kkaduwana
+  sining imangng\u00e9 sibawa tentara\u00e9 mabbarisi mattulilingiwi kota\u00e9ro
+  ri laleng atturu-turuseng barisi pada-pada esso ri yolona: bunge-bunge\u2019na barisi
+  pengawal ri yolo\u00e9, nainappa iya pitu imang iya seppungng\u00e9ngngi taromp\u00e9\u2019\u00e9,
+  riyaccinrolai ri imang-ngimang iya mpul\u00e9\u00e9ngngi Petti Assijancingng\u00e9,
+  na paccappurenna barisi pengawal ri monri\u00e9. Na taromp\u00e9\u2019\u00e9 matteru-terui
+  ripaoni.\\n13(6:12)\\n14Ri esso maduwa\u00e9ro nattulilingini mennang kota\u00e9
+  w\u00e9kkasiseng nainappa lisu ri akk\u00e9mangng\u00e9. Makkuwaniro mennang napogau\u2019
+  esso-esso ittana enneng essona.\\n15Ri esso mapitu\u00e9 ma\u00e9l\u00e9 senna\u2019ni
+  mennang moto ri wettu nappa mompona esso\u00e9, nainappa mabbarisi w\u00e9kkapitu
+  mattulilingiwi iyaro kota Y\u00e9rikho sibawa cara iya pada\u00e9. Banna ri esso
+  iya mapitu\u00e9ro bawang, nattulilingiwi mennang iyaro kota\u00e9 w\u00e9kkapitu.\\n16Mabb\u00e9kkapitunnana,
+  naseppunna muwa sining imangng\u00e9 taromp\u00e9\u2019na, mabb\u00e9r\u00e9ni Yosua
+  tanra-tanrang lao ri sininna pasukangng\u00e9 untu\u2019 gora. Makkedai Yosua, \\\"PUWANGNGE
+  pura mabb\u00e9r\u00e9yangngi iya\u00e9 lao ri iko!\\n17Sininna kota\u00e9 sibawa
+  sininna lise\u2019na harusu\u2019i ripaccappu siseng selaku pakkasuwiyang untu\u2019
+  PUWANGNGE. Banna Rahab, makkunrai cakkuribangng\u00e9ro sibawa kaluwargana wedding
+  rileppessang tuwo, nasaba purai natulung mata-matata.\\n18D\u00e9\u2019 nawedding
+  mala muwi aga pol\u00e9 ri sininna iya harusu\u2019\u00e9 ripaccappu. R\u00e9kko
+  muwalai, nakennai matu abala akk\u00e9manna Isra\u00e9li\u00e9.\\n19Sininna barang
+  p\u00e9ra\u2019\u00e9, ulawengng\u00e9, tembaga\u00e9 sibawa bessi\u00e9 harusu\u2019i
+  ripallaing untu\u2019 PUWANGNGE, sibawa ritaroi ri laleng onrong attarong waramparang
+  appunnangenna PUWANGNGE.\\\"\\n20Nainappa naseppung taromp\u00e9\u2019na sining
+  imangng\u00e9. Na na\u00e9ngkalingana muwa sining tau Isra\u00e9li\u00e9 oni taromp\u00e9\u2019\u00e9ro,
+  gorani mennang siull\u00e9-ull\u00e9na, namaruttung t\u00e9mbo\u2019na kota Y\u00e9rikho.
+  Matteruni m\u00e9nr\u00e9 sininna tentara\u00e9, nauttamakiwi kota\u00e9ro nanasittaiwi.\\n21Sininna
+  ri laleng kota\u00e9ro, macuwa malolo, worowan\u00e9 makkunrai, riyunoi sibawa peddang.
+  Sininna olokolo sapingng\u00e9, bimbala\u2019\u00e9 sibawa kaledd\u00e9\u2019\u00e9
+  riyunoto.\\n22Lao ri iya duwa tau iya pura\u00e9 mancaji mata-mata, makkedani Yosua,
+  \\\"Laono ri bolana makkunrai cakkuribangng\u00e9ro, namutiwii massu silaong kaluwargana
+  pada-pada iya pura\u00e9 mujancingngi.\\\"\\n23Nanalaona iya duwa mata-mata\u00e9ro,
+  nanatiwii massu Rahab silaong ambo\u2019 indo\u2019na, silessu-silessurenna, sibawa
+  kaluwargana iya laingng\u00e9. Sininna kaluwargana Rahab sibawa ata-atanna ritiwini
+  massu ri onrong iya amangng\u00e9 ri sedd\u00e9na akk\u00e9manna Isra\u00e9li\u00e9.\\n24Nainappa
+  natunu gangka cappu tentara Isra\u00e9li\u00e9 sininna kota\u00e9ro sibawa sininna
+  iya engka\u00e9 ri lalenna, sangadinna barab-barang ulawengng\u00e9, p\u00e9ra\u2019\u00e9,
+  tembaga\u00e9 sibawa bessi\u00e9. Iyaro barab-barangng\u00e9 nalai mennang nanatiwii
+  ri onrong attaronna waramparang appunnangenna PUWANGNGE.\\n25Iyakiya Rahab makkunrai
+  cakkuribangng\u00e9ro sibawa sininna kaluwargana rileppessangngi tuwo ri Yosua,
+  nasaba purai natulung iya duwa mata-mata iya nasuro\u00e9 Yosua lao ri Y\u00e9rikho.
+  (Lettu esso\u00e9w\u00e9 wija-wijanna Rahab engka mupa ri Isra\u00e9li\u00e9.)\\n26Iyaro
+  wettu\u00e9 napassui Yosua iya\u00e9 papp\u00e9sangka\u00e9, \\\"Nigi-nigi makkuraga
+  patettongngi paimeng iya\u00e9 kota Y\u00e9rikho, nakennai matu tanrona PUWANGNGE.
+  Nigi-nigi pasangngi pandamenna tedd\u00e9ngngi matu ana\u2019 macowana; sibawa nigi-nigi
+  pasangngi pintu-pintu gerbanna atedd\u00e9ngengngi matu ana\u2019 malolona.\\\"\\n27PUWANGNGE
+  sibawangngi Yosua, natarompona asenna Yosua ri sininna wanuwa\u00e9ro.\"", "\"1Napamanassai
+  Roh Allataala kumua, ia to wattu la dioloi lako, den ba''tu pira-pira tau la mentangmatappa''
+  pole'' lako Puang Isa Almaseh. Ia tuu lako tau la menturu'' lako roh mangpalao sala
+  na nturu'' pangngajaranna setang.\\n2Ia joo pangngajaran napangpangngajaran tomajekkong
+  sola tomangnguraga, to nnissen umbonna to melo ba''tu gaja'', apa te''da napugaukki.\\n3Mangngajahhii
+  tuu lako tau kumua, danggi'' nakebaine ba''tu kemuane to tau. Den too kande mattantumo
+  napemalian nakande. Nasitonganna ia joo kande napaden Puang Allataala la dikande,
+  anna ia to tomatappa''mo na nnissen toomo pangngajaran tongan mangkurru sumanga''
+  ngkandei.\\n4Melo ngasan to napaden Puang Allataala, na moi mesa'' te''da to diharangan
+  dikande, ke mangkurru sumanga''ki'' ntarimai.\\n5Nasaba'' passambajang na kadan-Na
+  Puang Allataala lan joo passambajang mpupenhallala''i.\\n6Ia ammutuli mpangpangngajaran
+  ngasanni joo lako sininna padanta'' tomatappa'', manassamoko menjaji tomangjama
+  melo-Na Puang Isa Almaseh, ammumatappa'' tongan-tongan too, nasaba'' tatta''ko mpelajahhi
+  kadan-Na Puang Allataala sola pangngajaran tongan to muturu''mo mammula biccu''mu.\\n7Danggi''
+  mumatean wattu lako curita tojolo to tangkebattuan na tangdiangga'' too to Puang
+  Allataala, apa la tatta''ko mpangben kalemu lako Puang Allataala.\\n8Ia ke melajahki''
+  maningo, te''da nabuda bang bua''na, apa ia ke tatta''ki'' mpangben kaleta'' lako
+  Puang Allataala, makkeguna lan buda passalan, nasaba'' ia tee too na jiona ahera''
+  la ntarimaki'' katuoan to mangka napau Puang Allataala.\\n9Tongan joo kada mane''
+  mangka kupauanko. Jaji la mukatappa''i mutarimai.\\n10Mangjamaki'' tangmekabo''jo'',
+  nasaba'' mangrannuanki'' lako Puang Allataala to tuo tarruh. Iamo Tomangpasalama''na
+  sininna tau, la''bi-la''bi sininna to tomatappa''.\\n11La mupangpangngajaran ngasan
+  joo, ammukuanni to tau naturu'' tonganni.\\n12Danggi'' naden mesa'' tau ntunaiko,
+  nasaba'' kallolopoko, apa la menjajiko palelean mata lako tomatappa'' ke mangkadako,
+  ke messipa''ko, ke mangpakamoja''ko padammu rupa tau, ke matappa''ko, mujagai kalemu
+  anna te''da caccana.\\n13Ianna te''dapa kuratu mati'', la muajahhi to tau, na mubacanni
+  to Sura'' Allataala mupamanassan tooi.\\n14La tatta''ko mpakkegunai to barakka''
+  mangka nabenko Roh Allataala. Ia joo wattu den nabi mpaui to apa la jaji lako kalemu
+  sola napalullungngiko pala''na pekaamberan jamaa.\\n15La mutonganni njamai to mangka
+  kupauanko, dikua anna kita ngasanni tau samelo-melona to jamanmu.\\n16La mujagai
+  melo to kalemu sola pangngajaranmu. La tatta''ko mpugaukki to mangka kuajaranko,
+  nasaba'' ia ke susii joo la salama''ko sola to mpesa''dingngiko.\"", "\"\u0627\u0644\u0633\u0644\u0627\u0645
+  \u0639\u0644\u064a\u0643\u0645 \u0648\u0631\u062d\u0645\u0629 \u0627\u0644\u0644\u0647
+  \u0648\u0628\u0631\u0643\u0627\u062a\u0647\\n\u0627\u0644\u0644\u0647 \u0623\u0643\u0628\u0631
+  9\u00d7\\n\u0623\u0644\u0644\u0647 \u0623\u0643\u0628\u0631 \u0648\u0644\u0644\u0647
+  \u0627\u0644\u062d\u0645\u062f . \u0627\u0644\u062d\u0645\u062f \u0644\u0644\u0647
+  \u0627\u0644\u0630\u064a \u062c\u0639\u0644 \u0647\u0630\u0627 \u0627\u0644\u064a\u0648\u0645
+  \u0639\u064a\u062f\u0627 \u0644\u0644\u0645\u0633\u0644\u0645\u064a\u0646 \u0648\u0634\u0639\u0627\u0631\u0627
+  \u0644\u0644\u0627\u0633\u0644\u0627\u0645. \u0623\u0634\u0647\u062f \u0623\u0646
+  \u0644\u0627 \u0627\u0644\u0647 \u0627\u0644\u0627 \u0627\u0644\u0644\u0647 \u0627\u0644\u0645\u0644\u0643
+  \u0627\u0644\u062d\u0642 \u0627\u0644\u0645\u0628\u064a\u0646 \u0648\u0623\u0634\u0647\u062f
+  \u0623\u0646 \u0645\u062d\u0645\u062f\u0627 \u0639\u0628\u062f\u0647 \u0648\u0631\u0633\u0648\u0644\u0647
+  \u0635\u0627\u062f\u0642 \u0627\u0644\u0648\u0639\u062f \u0627\u0644\u0627\u0645\u064a\u0646.
+  \u0627\u0644\u0644\u0647\u0645 \u0635\u0644 \u0648\u0633\u0644\u0645 \u0639\u0644\u064a
+  \u0646\u0628\u064a \u0627\u0644\u0647\u062f\u064a \u0648\u0627\u0644\u0631\u062d\u0645\u0629
+  \u0627\u0644\u0645\u0628\u0639\u0648\u062b \u0628\u0627\u0644\u0643\u062a\u0627\u0628
+  \u0648\u0627\u0644\u062d\u0643\u0645\u0629 \u0633\u064a\u062f \u0627\u0644\u0645\u0631\u0633\u0644\u064a\u0646
+  \u0648\u062e\u0627\u062a\u0645 \u0627\u0644\u0646\u0628\u064a\u064a\u0646 \u0645\u062d\u0645\u062f
+  \u0635\u0644\u064a \u0627\u0644\u0644\u0647 \u0639\u0644\u064a\u0647 \u0648\u0633\u0644\u0645
+  \u0648\u0639\u0644\u064a \u0627\u0644\u0647 \u0627\u0644\u0643\u0631\u0627\u0645
+  \u0648\u0623\u0635\u062d\u0627\u0628\u0647 \u0627\u0644\u0645\u062e\u062a\u0627\u0631
+  \u0648\u0623\u062a\u0628\u0627\u0639\u0647 \u0623\u062c\u0645\u0639\u064a\u0646.
+  \u0623\u0645\u0627\u0628\u0639\u062f \u0641\u0642\u0627\u0644 \u0627\u0644\u0644\u0647
+  \u062a\u0639\u0627\u0644\u064a \u0644\u0642\u062f \u062e\u0644\u0642\u0646\u0627
+  \u0627\u0644\u0627\u0646\u0633\u0627\u0646 \u0641\u064a \u0623\u062d\u0633\u0646
+  \u062a\u0642\u0648\u064a\u0645 \u062b\u0645 \u0631\u062f\u062f\u0646\u0627\u0647
+  \u0623\u0633\u0641\u0644 \u0633\u0627\u0641\u0644\u064a\u0646.\\n\u0641\u064a\u0627
+  \u0639\u0628\u0627\u062f \u0627\u0644\u0644\u0647 \u0623\u0648\u0635\u064a\u0643\u0645
+  \u0648\u0646\u0641\u0633\u064a \u0628\u062a\u0642\u0648\u064a \u0627\u0644\u0644\u0647
+  \u0648\u0637\u0627\u0639\u0629 \u0627\u0644\u0644\u0647 \u0648\u0631\u0633\u0648\u0644\u0647
+  \u0644\u0639\u0644\u0643\u0645 \u062a\u0641\u0644\u062d\u0648\u0646.\\nAllah Akbar
+  3 x Wa Lillah al-Hamd\\nAl-hamdu Lillah wa Syukrillah, teppaja risompa nenniya ripuji
+  puang Allah ta\u2019ala, pappadatosa puang Allah taala teppaja napaturung pammasena
+  nenniya pakkamasena lao ri ikkeng maneng, nasabari natopada engkaki makkatudangeng
+  ri ongrongngewe nasaba seddi niat nenniya akkatta iayanaritu sekira-kira maeloki
+  pasilennerengngi pakkasiwiatta lao ri puang Allah taala. Na riappujiang tona ritu
+  ri puang pangcajiengngi sininna alangnge, engrengnge riala toni ritu passompung
+  rio rennu rigau engkata pada pasilennerengngi sempajang allepereng pittaraae iyae
+  essoe.\\nSalawa nenniya papasalama masse ripangolo lao ri nabikkeng Muhammad Saw,
+  nabi mallebangnge apammasengenna ritu ri sininna alangnge. Nasabari nakiengkana
+  pada makkacoeriwi ritu apatiroanna nenniya pada makkatenni masse ritu ri agamana
+  iayanaritu agama sellengnge iya pura napapolengekki ritu. Nakisalewangeng tona ritu
+  pole ripettanna lino wanua paccobae lipumpewang sumange nappasajang rennu. Narimakkoannanaro
+  aja tapabombangngi arota mita anu ritakkajenneki ri lino, toddo puli masse\u2019i
+  nasaba uli tessape juku temmalala nainappa ritettuang ri laleng ati kaminang marilelengnge,
+  iayanaritu istiqama\u2019e makkatenni ri kitta\u2019na Allah ta\u2019ala nenninya
+  haddese essana nabikkeng Muhammad saw.\\nAllahu Akbar 3x Wa Lillah al-Hamd\\nMappakkoniro
+  suara takbir dan tahmid pappuji-puji lao ripuang Allahu taala, ripakkoling-koling
+  \u201cAllahu Akbar 3x Wa Lillah al-Hamd\u201d samanna napakedo maneng lino lolong
+  lise, riuh gemuruh menusuk sukma, alun beralun menusuk rasa. Nainappa ripakkoling
+  paimeng \u201cAllahu Akbar 3x Wa Lillah al-Hamd\u201d ripadecengi engkalingana nainappa
+  rirasakang rilaleng ati kaminang marilalengnge, namajeppu rirasakangngi makkeda
+  temmakaharo pale lebbina nennia tanrena pappuji-pujie iyyaewe. Iyyanae wettue saisanna
+  tauwwe denaulle tahangngi essibabauna rilaleng atinna, denaulle tahangngi wae matanna,
+  nasaba naengngerangmanenni siajing sellenna iya mabelae pole ripakkita matanna,
+  silessurenna rilaleng sompereng, ana-ana\u2019na rilaleng pallawangeng, tau matuanna
+  iyya de\u2019e nasibawa malleppe rialalenna iyya essoe pittaraE nasaba lesuni ripammasena
+  puang Allahu taala, Inna Lillahi wa Inna Ilaihi Rojiun. Mompo manenni paimeng ripangngeratta,
+  samanna engka manengngi talleng riolona matatta. Narimakkuannanaro upeppaha tapunnai
+  idi iyyae essoe engkaki pasilennerengngi sempajang alleppereng pittarae nasibawai
+  keluarga yang lengkap. Nasaba de nacedde silessuretta iyyae essoe maelo mewamanenngi
+  siraga-raga nennia sisompung rennu keluargana, naikiya, lisuni ripammasena tomatuanna
+  iyarega ana\u2019na gangkanna tudangmi bawang cannunnu naitti wali wae matanna mengngerag
+  manengngi toripojinna.\\nNarimakkuannanaro, rilalenna iyyae wettu rio rennuE nennia
+  wettu asennangenge, aja laloki napatakkalupa lao ritana rionroiyye makkallecca,
+  nennia langi rijujungnge, padalaonimai tapada pallebbangngi asennangetta nennia
+  pasisompungngi rio rennutta lao riiyya manenna silessuretta, Nasaba engkamupa saisa
+  pole risiajing selletta iyae essoe, mappamula mompona fajjarengnge, naengkalingana
+  takkabbere, natudang cannunnu naitti wali wae matanna, nassappuru arona, napasabbarai
+  atinna nawa-nawai totona teppaulle pappada ikkeng maneng iyae essoe. Nawa-nawai
+  bakkaweng bola tennaulle sambei, pakeang carepana tennaulle sullei, anre sisanru\u2019na
+  tennaulle pasirapiwi. Koettopa paimeng saisa pole risiajing seletta engkae beu-beu,
+  aja lalo talupai nasabari namalo atinna, namalucca pappineddingna, tawerengngi sekke
+  sarekkoammengnge nasisompung sumangenna, tawerengnge ada makessing sarekoammengngi
+  nalai pakkuru sumange, nasabari napada engka siporio sipurennu iyae essoe. Attumanniki
+  pole riadanna puang Allah taala mekkeda :\\n\u0623\u0631\u064a\u062a \u0627\u0644\u0630\u064a
+  \u064a\u0643\u0630\u0628 \u0628\u0627\u0644\u062f\u064a\u0646 \u0641\u0630\u0644\u0643
+  \u0627\u0644\u0630\u064a \u064a\u062f\u0639 \u0627\u0644\u064a\u062a\u064a\u0645
+  \u0648\u0644\u0627 \u064a\u062d\u0636 \u0639\u0644\u064a \u0637\u0639\u0627\u0645
+  \u0627\u0644\u0645\u0633\u0643\u064a\u0646\\nBettuanna : Mupahamuga tau massakarengngengi
+  agama sellengnge, iayanaritu tau tunai-tunai ana beu-beuwe nenniya tau de\u2019e
+  nappanre tau kasi-asi.\\nAllahu Akbar 3 x Wa Lillah al-Hamd\\nSinninna umma selleng
+  engkae hadere\\nIyyae essoe, esso kemenanganna ikkeng tomateppe\u2019e pura mappuasangngi
+  uleng ramalang. Nasaba siuleng ittana, ritahang aleta pole ri dekkae, rilupue engrenge
+  pole risininna gau-gau salae, ada salae, kedo salae nenniya iyamanenna weddingnge
+  solangi nenniya lolloi appalanna puasata, sarekkoammengngi engkaki pada mitau lao
+  ri puang Allah taala nenniya mannini pole ri pappesangkana. Sitongeng-tongenna puasae
+  tenniya makkeda ritahangngi aleta pole rilupue nenniya dekkae simata, naikiyya hakekanna
+  iayanaritu musui iyarega kendalikangi hawa nafsue. Nasaba iayana hawa nafsue musu
+  kaminang maraja risesena ikkeng rupa tauwe. Ri wettu nabitta Muhammad saw lisu pole
+  ri perang Badar, makkedai nabitta : \u0631\u062c\u0639\u0646\u0627 \u0645\u0646
+  \u0627\u0644\u062c\u0647\u0627\u062f \u0627\u0644\u0623\u0635\u063a\u0631 \u0625\u0644\u0649
+  \u062c\u0647\u0627\u062f \u0627\u0644\u0623\u0643\u0628\u0631 (bettuanna : lisuni
+  pole ri musu mabaiccue lao ri musu marajae). Nakkutanana sahabae makkeda : engkamupagaha
+  musu kaminang maraja pole ri musue ri Baddareng e\u2026 surona Allah ta\u2019ala
+  ?, makkedai nabitta \u201cengka\u201d iyanaritu musui hawa nafsue (\u062c\u0647\u0627\u062f
+  \u0627\u0644\u0646\u0641\u0633). Narimakkaannanaro aja laloki engka maelo napakawase-wase
+  hawa nafsutta, tainringi hawa nafsutta lao ri laleng naporioe puang Allah taala,
+  namabela pole appatakabelimpelinna setange. Narimakkoannaro tettongenni kowa alepu,
+  narialepuki maneng sininna gau salae, narisampeang sininna ampe kedo nacacca puangnge,
+  nainannapa topada makkatenni ri apatiroanna agamata iayanaritu kitabullah wa sunnaturrasul.
+  Timpa\u2019toni koritu bitara temmenu\u2019e, natopada makkalejja ri salangka bitara\u2019e,
+  nariattuppu ri awo lagadinge natopada tudang riasenna papeng ulawengnge, nasaba
+  tuntu\u2019i rio simatana puang Allah ta\u2019ala.\\nAllahu Akbar 3 x Wa Lillah
+  al-Hamd\\nUpepaha nenniya alabappaha ri punai ikkeng pura mampuasangi uleng ramalang
+  nasibawai teppe simata lao ri puangnge, namusui hawa nafsuna, nakendalikangi alena
+  pola riakkelo-kelona hawa nafsunna nasabari namacawe pammasena puangnge namabela
+  pole ri paccallae. Tau lolongeng pammase nenniya nabbarakkaki puasa, mannesai ri
+  telluE passaleng, iayanaritu :\\n1. Napahangi alena makkeda saisanni ripancajinna
+  puang Allah taala. parellu kipahang madeceng makkeda pole ri siagae egana pura nappancaji
+  puang Allah ta\u2019ala, ikkenna rupa tauwe kaminang makessing ancajingenna nenniya
+  kaminang ripakalebbi. Padatosaha pura napannesa puang Allah ta\u2019ala ri laleng
+  adanna ri gau makkedana : \u0644\u0642\u062f \u062e\u0644\u0642\u0646\u0627 \u0627\u0644\u0627\u0646\u0633\u0627\u0646
+  \u0641\u064a \u0623\u062d\u0633\u0646 \u062a\u0642\u0648\u064a\u0645 \u062b\u0645
+  \u0631\u062f\u062f\u0646\u0627\u0647 \u0627\u0633\u0641\u0644 \u0633\u0627\u0641\u0644\u064a\u0646
+  (Bettuanna : pura upancajiwi ritu rupa tauwe nasaba sikessing-kessinna angcajing,
+  nainappa utaroi ri onrong kaminang mariawae). Narimakoannaro aja laloki engka maelo
+  solangi akessingetta nenniya alebbiretta nasaba sala gau \u2013 gau salah, salah
+  kedo \u2013 kedo salah, engrenge gau-gau iya balakang pakatunai alebbiretta iya
+  pura nawerekki puangnge. Uppanna-uppanna rupa tauwe naturisi akkelo-kelona hawa
+  nafsunna, de nakendalikangi elo talliwa-liwanna hawa nafsunna, majeppu tau makkowaero
+  ri taroni ri ongrong kaminang mariawae. Nasaba tau makkoero napahallalai harangnge,
+  napaharangi hallalae, hallala hallulu nalulu maneng, malomoni lesseri janji, narusai
+  assedingengnge nasabari namaroca abbanuangnge, namasolang akkalinoange. Makkedaai
+  passulesanana Ara\u2019e : \u0637\u0648\u0628\u064a \u0644\u0645\u0646 \u0643\u0627\u0646
+  \u0639\u0642\u0644\u0647 \u0623\u0645\u064a\u0631\u0627 \u0648\u0647\u0648\u0627\u0647
+  \u0623\u0633\u064a\u0631\u0627 \u0648\u0648\u064a\u0644 \u0644\u0645\u0646 \u0643\u0627\u0646
+  \u0647\u0648\u0627\u0647 \u0623\u0645\u064a\u0631\u0627 \u0648\u0639\u0642\u0644\u0647
+  \u0623\u0633\u064a\u0631\u0623. (Bettuanna : upeppaha napunnai tau pangcajiengngi
+  akkalenna pemimpin nenniya acilakappaha nappunai tau pancajiengi hawa nafsunna pemimpin
+  ri watang kalena).\\n2. Napahangngi mekkedda namajeppunna alena (rupa tauwe) sebagai
+  khalifah iyarega pemimpin. Pura kipahang madecenni makkeda tungke-tungke rupa tauwe
+  mancaji pemimpin manengngi, natungke-tungke seddie pemimpin riellauwi pertanggung
+  jawabanna matti ri esso rimunri ri olana puang Allah taala. Makkedanna nabitta ri
+  laleng haddesenna : \u0643\u0644\u0643\u0645 \u0631\u0627\u0639 \u0648\u0643\u0644\u0643\u0645
+  \u0645\u0633\u0626\u0648\u0644 \u0639\u0646 \u0631\u0639\u064a\u062a\u0643\u0645
+  (bettuanna : tungke-tungke iko mennang pemimpin maneng, natungke-tungke seddie pemimpin
+  bertanggung jawab maneng lao ri anu napimpingnge). Akkattanna ritu degaga tau de
+  nancaji pemimpin, nadetoga seddi pemimpin leppe pole ripakkutanana puang Allah ta\u2019ala.
+  Seddie kepala kampong ritanae matti ripuang Allah ta\u2019ala pekkogai pallao rumana
+  pabbanuae, pekkogai carana pimpingi raya\u2019na, pekkogai carana jellokangi adecengenna
+  masyarakanna, narilainnaro. Seddie kepala rumah tangga ritanai ri puang Allah ta\u2019ala
+  pekkogai carana bimbingngi wijanna gangkanna mangcaji ana\u2019 patuju iyanaritu
+  ana malebu namalebu ittello, macaca na macaca jarung, polei napapole nyameng kininnawa,
+  laowi nataro sengereng, makkeguna lao ri agamana nenniya lao rikamponna. Engrenge
+  paimeng tungke-tungke ikkeng rupa tauwe ri tanaiki ri puang Allah ta\u2019ala pekkogai
+  carata pimpingi watakkaleta, kendalikangi hawa nafsutta sarekkoammengngi natuling
+  matturu lao ri parentae nannini pole ri pappesangkae. Naparengerangiki puang Allah
+  taala rilaleng akorangnge makkedanna ; \u0644\u0642\u062f \u0632\u0631\u0639\u0646\u0627
+  \u0644\u062c\u0647\u0646\u0645 \u0643\u062b\u064a\u0631 \u0645\u0646 \u0627\u0644\u062c\u0646
+  \u0648\u0627\u0644\u0627\u0646\u0633 \u0644\u0647\u0645 \u0642\u0644\u0648\u0628
+  \u0644\u0627 \u064a\u0641\u0642\u0647\u0648\u0646 \u0628\u0647\u0627 \u0648\u0644\u0647\u0645
+  \u0627\u0630\u0627\u0646 \u0644\u0627 \u064a\u0633\u0645\u0639\u0648\u0646 \u0628\u0647\u0627
+  \u0648\u0644\u0647\u0645 \u0623\u0639\u064a\u0646 \u0644\u0627 \u064a\u0628\u0635\u0631\u0648\u0646
+  \u0628\u0647\u0627 \u0623\u0648\u0644\u0626\u0643 \u0643\u0627\u0644\u0627\u0646\u0639\u0627\u0645
+  (bettuanna : ripamolangi api naraka nasaba maega pole ri rupa jinge nenniya rupa
+  tauwe iayanaritu riwereng ati (akkaleng) naekiyya de napakkegunai atinna, riwerengi
+  parengkalinga naekiyya de nappakkegunai parengkalinganna, riwerengi pakkita naekiyya
+  de napakkegunai pakkitanna, tau mappakuwaero padai laona olokoloe). Iyakkeppaha
+  akkalenna napakkegunai makkalengi nenniya gau bawangngi padana rupa tau. Parengkalinganna
+  napakkegunai maengkalinga ada-ada salah iyarega bicara-bicara salah, koettoparo
+  pakkitanna napakei kamata-mata gangkanna katama-tama. Iyamanennaro matti mancaji
+  pamolanna api naraka. Narimakkoannaro laoni mai natopada pimpingi watakkalena padamoi
+  engkae lesang koettoparo iya tellesangnge. Tapimpingngi limata aja nasembarang karawa,
+  tapimpingngi ajeta aja nakajokka-joka, tapimpingngi uluta aja nakacuru-curu, tapimpingngi
+  timuta aja nakatimu-timu, tapimpingngi matata aja nakamata-mata, tapimpingngi atitta
+  aja namesere ati, engrenge ri lainna toparo.\\n3. Napahang madecenge alena makkeda
+  atai pole ripuang Allah ta\u2019ala. Nakipahang medeceng makkeda ikkeng atanna puang
+  Allah ta\u2019ala diparentaiyakki massompa lao ri alena. Pada toha narampe ri laleng
+  akorangnge : \u0648\u0645\u0627 \u062e\u0644\u0642\u062a \u0627\u0644\u062c\u0646
+  \u0648\u0627\u0644\u0627\u0646\u0633 \u0627\u0644\u0627 \u0644\u064a\u0639\u0628\u062f\u0648\u0646
+  (bettuanna : de uapancajiwi rupa jingnge nenniya rupa tauwe sangadinna massompa
+  lao riya). Narekko kipahanni onrotta selaku ata pole ri puang Allah, ajanna napakaatai
+  alena lao risaliwenna puangnge nenniya aja tona ripuatae padatta ata, nasaba seddimi
+  bawang engka atanna iayaritu puang Allah ta\u2019ala. Degaga wedding puatai atanna
+  puang Allah ta\u2019ala sangadinna alenami bawang. Makkotoparo paimeng narekko napahangngi
+  alena ata, majeppu napahang toni ritu makkeda de gaga puang puata sangadinna puang
+  Allah ta\u2019ala iya pancajiengi sininna alangnge. Narimakkoannaro parellu kipahang
+  medeceng makkeda iya ateka essae, ateka ritarimae iayanaritu ateka pannessaengngi
+  atangenna atae nenniya apuangenna puangnge. Nasaba iyyanae mancaji sabbi ri ada
+  tongengnge gau ritarimae nenniya ateka essae, ada tenrisabbingie gau tekketimbangen
+  ateka marusa\u2019. Ateka marusa\u2019e manessai rigau assisakkareng ada\u2019e.
+  Naiyya ada assisakkarengnge gau tessilolongen ateka ri mallinrungnge, tessiomporeng
+  pammase pole ri puang sewwa\u2019e. gau rimanessae loroseng ada tongeng, tongeppi
+  mupuadai, mumalempu taro gau muwakkang pesona. Ada singkeru ri mannessae, ati tellong
+  mappattongeng, tubu makkeda sadda bate-batte pappijeppue. Paddisingeng pappijeppue
+  leteng singkeruangnge rupa gau alettukeng passompa. Assompaki naluru mappesona,
+  mutonang jasang pettu ri laleng ateka, naletei pammase nenniya pakkamesena puang
+  sewwae. Atekappa mappannessa malara tessiwawana ulaweng cere ri laleng buwa lompengeng
+  ri majeng. Aja tapabombangi atekatta, ada tongenge pole ri puangnge \u0627\u0644\u062d\u0642
+  \u0645\u0646 \u0631\u0628\u0643 \u0641\u0644\u0627 \u062a\u0643\u0648\u0646\u0646
+  \u0645\u0646 \u0627\u0644\u0645\u0645\u062a\u0631\u064a\u0646 .\\nAllahu Akbar 3x
+  Wa Lillah al-Hamd\\nSininna umma selleng malebbiki engkae hadere\\nRiolo denapa
+  ripaccappui katobbae, maeloka pangolongangi dua tellu pappasenna to panritata ri
+  makkedanna ;\\n1. Sabbarakko tuttung pare\u2019mupogau passurong muniniri pappisangka.
+  Ampe madecengngi appakatuna alewe asugirengngi appasikuwae. Sukkuru\u2019e singkeruang
+  masse attunru-tunrue atemmangingngireng. Riyoe teppettu rennu. Ikhlas appasimata-matae
+  ..tentuang. pesonae. Jasang\u2019pettue sengkeruwangnge. Deceng kapang ripuwangnge
+  tonangeng salewangenna watakkale saupole sumange\u2019e. limbang ri maje\u2019tana
+  siwalie.\\n2. Seroi bujung temmettie naenceng pulana paddissengemmu. Atutuwi lampu
+  teppeddewe nattappa pulana teppe\u2019mu. Bole-bolei tonangeng malessie namannennungeng
+  parengngerammu.\\n3. Amala\u2019 paddissengemmu, teppe tentuammu, appassewwang nyawa
+  pakkasiwiang passompamu, atabbuttureng pakkitammu ri rupanna Qa\u2019ba qaosaeni
+  pannessaengngi akatangenna atae riaapuwangenna Puwangnge.\\n4. Palebbani koromai
+  sompe\u2019na sampang teppe\u2019e, naripabbalabangi nasaba amala shaleh, namattipi
+  insya Allah topada mallabu ri akhera nasaba ati caddio rennu pulana. Mangolo temmaboko
+  sitangareng puanna, carilla-killa ri nyili pada uleng tepu ri tingarae caiyyana.
+  Limbang ripammasareng tenri kira-kira toni ri letenge rimannippi, nauttama risuruga
+  pammasena Allah ta\u2019ala.\\nWalai paccappureng ada:\\nSenge\u2019ka rilabbuE
+  ubali senge\u2019ki rigollaE, tosipaggalelu ri kalukuE, tosiruntu rionde-onde. Senge\u2019ka
+  simata jarung ubali senge\u2019ki sipuppureng lino.\\nNarekko massarakki bajaE sangadiE,
+  napoleiki uddani congaki ribitaraE tosiduppa mata riketengngE. Engkatu bunga-bunga
+  sitakke utanengakki, narekko makelle\u2019I daunna tabollorangmanika kasi nasaba
+  wae mata. Sarekkoammnengi engka mancaji passengereng pallawa uddani.\\n\u0628\u0627\u0631\u0643
+  \u0627\u0644\u0644\u0647 \u0644\u064a \u0648\u0644\u0643\u0645 \u0641\u064a \u0627\u0644\u0642\u0631\u0627\u0646
+  \u0627\u0644\u0643\u0631\u064a\u0645 \u0648\u0646\u0641\u0639\u0646\u064a \u0648\u0627\u064a\u0627\u0643\u0645
+  \u0628\u0645\u0627 \u0641\u064a\u0647 \u0645\u0646 \u0627\u0644\u0627\u064a\u0627\u062a
+  \u0648\u0627\u0644\u0630\u0643\u0631 \u0627\u0644\u062d\u0643\u064a\u0645.\\nKHUTBAH
+  KEDUA\\n\u0623\u0644\u0644\u0647 \u0623\u0643\u0628\u0631 \u00d77 \u0627\u0644\u0644\u0647
+  \u0623\u0643\u0628\u0631 \u0648\u0644\u0644\u0647 \u0627\u0644\u062d\u0645\u062f\\n\u0623\u0644\u062d\u0645\u062f
+  \u0644\u0644\u0647 , \u0627\u0644\u062d\u0645\u062f \u0644\u0644\u0647 \u062d\u0645\u062f\u0627
+  \u0643\u062b\u064a\u0631\u0627 \u0643\u0645\u0627 \u0623\u0645\u0631 , \u062d\u0645\u062f\u0627
+  \u064a\u0648\u0627\u0641\u064a \u0646\u0639\u0645\u0647 \u0648\u064a\u0643\u0627\u0641\u064a
+  \u0645\u0632\u064a\u062f\u0647 \u0631\u0628\u0646\u0627 \u0644\u0643 \u0627\u0644\u062d\u0645\u062f
+  \u0643\u0645\u0627 \u064a\u0646\u0628\u063a\u064a \u0644\u062c\u0644\u0627\u0644
+  \u0648\u062c\u0647\u0643 \u0648\u0639\u0638\u064a\u0645 \u0633\u0644\u0637\u0627\u0646\u0643
+  , \u0648\u0623\u0634\u0647\u062f \u0623\u0646 \u0644\u0627 \u0625\u0644\u0647 \u0625\u0644\u0627\u0651
+  \u0627\u0644\u0644\u0647 \u0627\u0644\u0645\u0644\u0643 \u0627\u0644\u062d\u0642
+  \u0627\u0644\u0645\u0628\u064a\u0646 , \u0648\u0623\u0634\u0647\u062f \u0623\u0646
+  \u0645\u062d\u0645\u062f\u0627 \u0639\u0628\u062f\u0647 \u0648\u0631\u0633\u0648\u0644\u0647
+  \u062e\u0627\u062a\u0645 \u0627\u0644\u0623\u0646\u0628\u064a\u0627\u0621 \u0648\u0627\u0644\u0645\u0631\u0633\u0644\u064a\u0646
+  .\\n\u0623\u0644\u0644\u0647\u0645 \u0635\u0644 \u0648\u0633\u0644\u0645 \u0648\u0628\u0627\u0631\u0643
+  \u0639\u0644\u0649 \u0633\u064a\u062f\u0646\u0627 \u0645\u062d\u0645\u062f \u0648\u0639\u0644\u0649
+  \u0622\u0644\u0647 \u0648\u0635\u062d\u0628\u0647 \u0648\u0627\u0644\u062a\u0627\u0628\u0639\u064a\u0646
+  . \u0625\u0646 \u0627\u0644\u0644\u0647 \u0648\u0645\u0644\u0627\u0626\u0643\u062a\u0647
+  \u064a\u0635\u0644\u0648\u0646 \u0639\u0644\u0649 \u0627\u0644\u0646\u0628\u064a
+  \u064a\u0627 \u0623\u064a\u0647\u0627 \u0627\u0644\u0630\u064a\u0646 \u0622\u0645\u0646\u0648\u0627
+  \u0635\u0644\u0648\u0627 \u0639\u0644\u064a\u0647 \u0648\u0633\u0644\u0645\u0648\u0627
+  \u062a\u0633\u0644\u0645\u0627 .\\n\u0627\u0644\u0644\u0647\u0645 \u0635\u0644 \u0639\u0644\u0649
+  \u0633\u064a\u062f\u0646\u0627 \u0645\u062d\u0645\u062f \u0643\u0645\u0627 \u0635\u0644\u064a\u062a
+  \u0639\u0644\u0649 \u0633\u064a\u062f\u0646\u0627 \u0625\u0628\u0631\u0627\u0647\u064a\u0645
+  \u0648\u0628\u0627\u0631\u0643 \u0639\u0644\u0649 \u0633\u064a\u062f\u0646\u0627
+  \u0645\u062d\u0645\u062f \u0643\u0645\u0627 \u0628\u0627\u0631\u0643\u062a \u0639\u0644\u0649
+  \u0633\u064a\u062f\u0646\u0627 \u0625\u0628\u0631\u0627\u0647\u064a\u0645 \u0641\u064a
+  \u0627\u0644\u0639\u0627\u0644\u0645\u064a\u0646 \u0625\u0646\u0643 \u062d\u0645\u064a\u062f
+  \u0645\u062c\u064a\u062f . \u0627\u0644\u0644\u0647\u0645 \u0627\u0631\u0636 \u0639\u0646
+  \u062e\u0644\u0627\u0641\u0627\u0621 \u0627\u0644\u0631\u0627\u0634\u062f\u064a\u0646
+  \u0623\u0628\u064a \u0628\u0643\u0631 \u0648\u0639\u0645\u0631 \u0648\u0639\u062b\u0645\u0627\u0646
+  \u0648\u0639\u0644\u064a \u0648\u0633\u0627\u0626\u0631 \u0627\u0644\u0635\u062d\u0627\u0628\u0629
+  \u0623\u062c\u0645\u0639\u064a\u0646 .\\nPada laoni mai pangolo madecengi ati mapaccitta
+  lao ripuang sewwae, rimakkedatta :\\nEe\u2026Puang, tapalaloka pangoloi atikku nennia
+  watakkaleku lao riolo arajatta puang, degaga akkatta laing sangadinna maeloka pannessai
+  majeppu iyya toripancajitta\u2019ka paung nennia degaga elo ulleko sangadinna elo
+  ulleta puang. Tenriulle bilangngi atassalakku nennia atakkalupakku iyya pura maddioloe,
+  nassabari namalucca atikku nasaba engkaku salaiwi apatiroatta puang. Namajeppu sitonge-tongenna
+  masiri matane\u2019ka pangoloi ale\u2019q riolo alebbiretta puang, malemma pappeneddikku
+  mapeca kabuttukku, pangoloi atikku, makka\u2019I duae limakku, nennia suju riolota
+  puang sarekkoammengi tapalaloka marellau lao ri\u2019idi puang.\\nNaikiya\u2026.Ee\u2026Puang,
+  narekko denakko riolota upangolo alusukku nennia kassara\u2019ku, majeppu denagaga
+  angolokku laingnge puang, nasaba pura utenttuanngi rilalenna ati kaminang marilalekku
+  makkeda de gaga adele riase\u2019na adele\u2019ta puang, degaga akuasang riase\u2019na
+  akuasangetta puang nennia degaga pappuji riasenna pappujitta puang, degaga pammase
+  riasena pammaseta puang, degaga pakkamase riasena pakkamaseta puang. Narimakkuannaro
+  taddampengekka puang sarekkoammengngi leppe\u2019ka pole ricappa\u2019na carita
+  ja\u2019e, nassabari nonnoka riawana pettu peddennuangnge. Iyyatonaro nassabari
+  naengkaka mangolo riolo arajatta puang sarekkoammengni tatarimai angolokku lao riolo
+  alebbiretta puang. Nasaba idi\u2019mi bawang puang maraja addampeng namaraja akkamase.\\nEe\u2026Puang\u2026Purani
+  wola peri\u2019e nennia sussae ripetta kape\u2019e, naikiya gau mannessa, majeppu
+  pettang kape\u2019na lino denaulle kalai pettang kape\u2019na laleng kuburu, risesena
+  tau takkalupae sukkuruki pappedalleta puang lebbi-lebbipi risesena tau iyya massakkarengengi
+  puang.\\nSewwa wettu matti gau mannessa riolai laleng amatengnge, riuttamaki calori\u2019na
+  kuburu\u2019E, tajengngi esso paccappurengnge rilino wanua cinampe\u2019E, naikiya
+  :\\nTapakarajangengga addampeng puang, nasaba cakka\u2019na annessana amatengnge
+  riseseku naikiya tennassabari natatamba teppe\u2019ku, tennassabari natattamba paddisengeng
+  nennia amala madecekku, naikiya iyakkeppaha deuwissengi aleku, takabboro\u2019ka
+  nennia takkalaupaka sukkuru. Padahal, pura riwerengnga dalle nennia pappenyameng
+  temmaggangka naikiya deusukkurukiwi puang.\\nTawerengnga mata, iyyae mataE Tania
+  appunnaku puang naikiya simata-mata appunnatta tapinrengika, narimakkuannanaro sitinajai
+  upakkeguna matakku molai apatiroatta puang, bacai kitta malebbita puang, naikiya
+  taddampengekka puang nasaba deupakkegunai pakkitakku lao rilaleng tapurioe pung.
+  Maladdeka takkalupa nennia tappasala puang, nasabari tekkeangke\u2019I atuo-tuongekku
+  rilino puang.\\nTawerengnga parengkalinga, iyyae parengkaligakku Tania appunnakku,
+  naikiya simata-mata appunatta puang. Sitinajai upakkeguna parengkalingakku lao calingeki
+  pangaja madencengnge ri masigi\u2019E, mengkalinga lappa-lappana baca akorangnge,
+  naikiya takkalupaka nenniya tappasalaka puang deupakkegunai parengkalingakku lao
+  rilaleng riota puang.\\nTawerengnga jari, sitinajai upakkeguna lao rilaleng madecengnge,
+  sappa\u2019I dale hallala\u2019ta, tulungngi duwae pajajiakku, tulungngi bali-bolaku
+  nennia sikampokku. Naikiya iyakkeppaha upakkegunai jarikku malai warangparanna tau
+  laingnge, upakkegunai jarikku malai cengkena bali dare\u2019ku, nennia upakkegunai
+  jarikku peddiriwi padakku rupa tau. Maladde\u2019ka tappasala nennia takkalupa puang.\\nEee\u2026Puang\u2026\\nSitinajaka
+  mappedeceng lao ritau duwae pajajiakku, nasaba ale malebbina nassabari kuengka talleng
+  rilalenna lebo\u2019na lino. Sitinajaka turusi passuroanna, sitinajaka jampangi
+  riwettu malasana, sitinajaka engka riseddena riwettu napparelluakku. Naikiya takkalupaka
+  nennia tappasalaka puang, mabbali-balika rilaleng pangajana tau duwae pajajiakku,
+  ugera-gera\u2019I iya dua, deupogaui passuroanna, usalai riwettu malasana, mabelaka
+  riwetuu napparelluakku. Madorakaka lao ritau duwae pajajiakku puang\u2026nappaka
+  massesse kale naekiya denigaga tauduwae pajajiakku puang, lisuni rionrong mannennungenna
+  rilaleng pammaseta puang\u2026Ee\u2026puang tapalettukakka selleng uddanikku nennia
+  ellau addampekku lao ritau duwae pajajiakku puang, sarekkoammengngi naddampengangi
+  sininna dosa-dosaku lao rialena puang. Nasaba manrasa-rasaka rilino puang, temmatujungi
+  jama-jamakku teppolei dalle masempota puang. Nakennana ada-nna tau riolota rimakkedanna
+  :\\nNigi-nigi madoraka lao ritau duwae pajajianna, makkatenningngi namarunrung,
+  makkalleccai namaruttung, mapokka pinceng pute, mareppa lebu ittelloi, mapettu sampengngi,
+  mapolo sangila, teccokkong temmaccolli, tennaccekkengi peppaja, temmitai parumpaja
+  lino lebbi-lebbipa ahera.\\nEe\u2026Puang\u2026\\nNarekko uwengnggerangi egana dosa
+  pura upogau, sitongeng-tongenna deupasitinajai ale\u2019ku mancaji tolise surugata
+  puang. Naikiya maladde\u2019ka matau lolonganganggi paccalatta nennia pellana apinna
+  neraka puang. Narimakkuannanaro taddampengakka puang, tessingakka babua puang, tatarimai
+  toba\u2019ku puang, tapalomoi urusang linoka puang makkotoparo urusang ahera\u2019ku
+  puang, tapancajingekka lalekku laleng malempu pada lalenna tau ripuriota puang,
+  Tania lalenna tau ricaccata puang. Sarekkoammnengi topada salama rilino nennia pada
+  rilolongngengi pammasena nennia pakkamasena puang Allahu Ta\u2019ala mati Riesso
+  rimunrinna Insya Allah.\\n\u0623\u0644\u0644\u0647\u0645 \u0623\u0631\u0646\u0627
+  \u0627\u0644\u062d\u0642 \u062d\u0642\u0627 \u0648\u0627\u0631\u0632\u0642\u0646\u0627
+  \u0627\u062a\u0628\u0627\u0639\u0647 , \u0648\u0623\u0631\u0646\u0627 \u0627\u0644\u0628\u0627\u0637\u0644
+  \u0628\u0627\u0637\u0644\u0627 \u0648\u0627\u0631\u0632\u0642\u0646\u0627 \u0627\u062c\u062a\u0646\u0627\u0628\u0647
+  , \u0623\u0644\u0644\u0647\u0645 \u0623\u0635\u0644\u062d \u0644\u0646\u0627 \u062f\u064a\u0646\u0646\u0627
+  \u0627\u0644\u0630\u064a \u0647\u0648 \u0639\u0635\u0645\u0629 \u0623\u0645\u0631\u0646\u0627
+  , \u0648\u0623\u0635\u0644\u062d \u0644\u0646\u0627 \u062f\u0646\u064a\u0627\u0646\u0627
+  \u0627\u0644\u062a\u064a \u0641\u064a\u0647\u0627 \u0645\u0639\u0627\u0634\u0646\u0627
+  , \u0648\u0623\u0635\u0644\u062d \u0644\u0646\u0627 \u0622\u062e\u0631\u062a\u0646\u0627
+  \u0627\u0644\u062a\u064a \u0625\u0644\u064a\u0647\u0627 \u0645\u0639\u0627\u062f\u0646\u0627
+  , \u0648\u0627\u062c\u0639\u0644 \u0627\u0644\u062d\u064a\u0627\u0629 \u0632\u064a\u0627\u062f\u0629
+  \u0644\u0646\u0627 \u0641\u064a \u0643\u0644 \u062e\u064a\u0631 \u0648\u0627\u062c\u0639\u0644
+  \u0627\u0644\u0645\u0648\u062a \u0631\u0627\u062d\u0629 \u0644\u0646\u0627 \u0645\u0646
+  \u0643\u0644 \u0634\u0631 .\\n\u0631\u0628\u0646\u0627 \u0627\u063a\u0641\u0631
+  \u0644\u0646\u0627 \u0648\u0644\u0625\u062e\u0648\u0627\u0646\u0646\u0627 \u0627\u0644\u0630\u064a\u0646
+  \u0633\u0628\u0642\u0648\u0646\u0627 \u0628\u0627\u0644\u0625\u064a\u0645\u0627\u0646
+  \u0648\u0644\u0627 \u062a\u062c\u0639\u0644 \u0641\u064a \u0642\u0644\u0648\u0628\u0646\u0627
+  \u063a\u0644\u0627 \u0644\u0644\u0630\u064a\u0646 \u0622\u0645\u0646\u0648\u0627
+  \u0631\u0628\u0646\u0627 \u0625\u0646\u0643 \u0631\u0624\u0648\u0641 \u0631\u062d\u064a\u0645
+  . \u0627\u0644\u0644\u0647\u0645 \u0627\u063a\u0641\u0631 \u0644\u0644\u0645\u0633\u0644\u0645\u064a\u0646
+  \u0648\u0627\u0644\u0645\u0633\u0644\u0645\u0627\u062a \u0648\u0627\u0644\u0645\u0624\u0645\u0646\u064a\u0646
+  \u0648\u0627\u0644\u0645\u0624\u0645\u0646\u0627\u062a \u0627\u0644\u0623\u062d\u064a\u0627\u0621
+  \u0645\u0646\u0647\u0645 \u0648\u0627\u0644\u0623\u0645\u0648\u0627\u062a \u0625\u0646\u0643
+  \u0623\u0646\u062a \u0627\u0644\u063a\u0641\u0648\u0631 \u0627\u0644\u0631\u062d\u064a\u0645
+  . \u0631\u0628\u0646\u0627 \u0622\u062a\u0646\u0627 \u0641\u064a \u0627\u0644\u062f\u0646\u064a\u0627
+  \u062d\u0633\u0646\u0629 \u0648\u0641\u064a \u0627\u0644\u0622\u062e\u0631\u0629
+  \u062d\u0633\u0646\u0629 \u0648\u0642\u0646\u0627 \u0639\u0630\u0627\u0628 \u0627\u0644\u0646\u0627\u0631
+  .\\n\u0639\u0628\u0627\u062f \u0627\u0644\u0644\u0647 !! \u0625\u0646 \u0627\u0644\u0644\u0647
+  \u064a\u0623\u0645\u0631 \u0628\u0627\u0644\u0639\u062f\u0644 \u0648\u0627\u0644\u0625\u062d\u0633\u0627\u0646
+  \u0648\u0625\u064a\u062a\u0627\u0621 \u0630\u0649 \u0627\u0644\u0642\u0631\u0628\u0649
+  \u0648\u064a\u0646\u0647\u0649 \u0639\u0646 \u0627\u0644\u0641\u062d\u0634\u0627\u0621
+  \u0648\u0627\u0644\u0645\u0646\u0643\u0631 \u0648\u0627\u0644\u0628\u063a\u064a
+  \u064a\u0639\u0638\u0643\u0645 \u0644\u0639\u0644\u0643\u0645 \u062a\u0630\u0643\u0631\u0648\u0646
+  . \u0641\u0627\u0630\u0643\u0631\u0648\u0627 \u0627\u0644\u0644\u0647 \u0627\u0644\u0639\u0638\u064a\u0645
+  \u064a\u0630\u0643\u0631\u0643\u0645 , \u0648\u0627\u0634\u0643\u0631\u0648\u0647
+  \u0639\u0644\u0649 \u0646\u0639\u0645\u0647 \u064a\u0632\u062f\u0643\u0645 , \u0648\u0627\u0633\u0623\u0644\u0648\u0647
+  \u0645\u0646 \u0641\u0636\u0644\u0647 \u064a\u0639\u0637\u0643\u0645 \u0648\u0644\u0630\u0643\u0631
+  \u0627\u0644\u0644\u0647 \u0627\u0644\u0623\u0643\u0628\u0631 \u0648\u0627\u0644\u0644\u0647
+  \u064a\u0639\u0644\u0645 \u0645\u0627 \u062a\u0635\u0646\u0639\u0648\u0646 . \u0648\u0623\u0642\u0645
+  \u0627\u0644\u0635\u0644\u0627\u0629 \u0625\u0646 \u0627\u0644\u0635\u0644\u0627\u0629
+  \u062a\u0646\u0647\u0649 \u0639\u0646 \u0627\u0644\u0641\u062d\u0634\u0627\u0621
+  \u0648\u0627\u0644\u0645\u0646\u0643\u0631 .\\nSELESAI\"", "\"13:1 Makkedai PUWANGNGE
+  lao ri Musa,\\n13:2 \u201cAkkasuwiyangengngi sininna ana\u2019 worowan\u00e9 macowa\u00e9
+  lao ri Iyya. Tungke ana\u2019 worowan\u00e9 macowana Isra\u00e9li\u00e9, sibawa
+  tungke olokolo lai iya bunge jajiy\u00e9, iyanaritu appunnangek-Ku.\u201d\\n13:3
+  Makkedani Musa lao ri bangsa Isra\u00e9li\u00e9, \u201cIya\u00e9 esso\u00e9 PUWANGNGE
+  paleppe\u2019ko sibawa akuwasan-Na iya battowa\u00e9, angkanna mull\u00e9i massu
+  pol\u00e9 ri Mas\u00e9r\u00e9, onrommu ripowata. Rimakkuwannanaro, par\u00e9ngngerangiwi
+  iya\u00e9 esso\u00e9. Aja\u2019na muwanr\u00e9 roti iya engka\u00e9 raginna.\\n13:4
+  Iya\u00e9 esso\u00e9, tanggala s\u00e9ddi uleng Abib iyar\u00e9\u2019ga uleng s\u00e9ddi,
+  musalaiwi wanuwa Mas\u00e9r\u00e9.\\n13:5 Nasibawang tanro majjanciwi PUWANGNGE
+  lao ri n\u00e9n\u00e9-n\u00e9n\u00e9mu untu\u2019 mabb\u00e9r\u00e9yangngi lao ri
+  iko wanuwanna bangsa Kanaangng\u00e9, H\u00e9t-\u00e9, Amori\u00e9, H\u00e9wi\u00e9
+  sibawa Y\u00e9bus-\u00e9. Puramuna natiwi PUWANGNGE lao ri wanuwa iya sugi\u00e9
+  sibawa macommo\u2019\u00e9ro, tungke taung ri laleng uleng Abib, harusu\u2019ko
+  pakangkai iya\u00e9 upacara\u00e9.\\n13:6 Pitungngesso ittana harusu\u2019ko manr\u00e9
+  roti iya d\u00e9\u2019\u00e9 raginna, na ri esso iya mapitu\u00e9 harusu\u2019i
+  ripakangka ram\u00e9-ram\u00e9 untu\u2019 pakalebbii PUWANGNGE.\\n13:7 Pitungngesso
+  ittana d\u00e9\u2019 naweddikko manr\u00e9 roti iya engka\u00e9 raginna, sibawa
+  ri sininna wanuwammu d\u00e9\u2019 nawedding engka ragi iyar\u00e9\u2019ga agi-agi
+  iya engka\u00e9 raginna.\\n13:8 Ri pammulanna ram\u00e9-ram\u00e9ro harusu\u2019ko
+  curitai lao ri ana\u2019mu iya worowan\u00e9 makkeda\u00e9 iya manennaro mupogau\u2019i
+  nasaba sininna iya pura\u00e9 napogau\u2019 PUWANGNGE untu\u2019 al\u00e9mu wettummu
+  salaiwi wanuwa Mas\u00e9r\u00e9.\\n13:9 Iya\u00e9 ram\u00e9-ram\u00e9 mancaji pappar\u00e9ngngerangngi
+  ri al\u00e9mu pada-pada tanrang iya riyassiyorengng\u00e9 ri lima\u00e9 iyar\u00e9\u2019ga
+  ri linro\u00e9. Iya\u00e9 ram\u00e9-ram\u00e9 par\u00e9ngngerangiko untu\u2019 matteru
+  powadai sibawa magguruiwi Hukkung-hukkun-Na PUWANGNGE, saba\u2019 PUWANGNGE passuko
+  pol\u00e9 ri Mas\u00e9r\u00e9 nasibawang akuwasan-Na iya battowa\u00e9.\\n13:10
+  Ram\u00e9-ram\u00e9ini iya\u00e9 p\u00e9sta\u00e9 tungke taung ri wettu iya ripattentu\u00e9.\u201d\\n13:11
+  Makkedani Musa lao ri bangsa Isra\u00e9li\u00e9, \u201cPUWANGNGE mantara\u2019ko
+  matu lao ri wanuwa Kanaan iya Najjanciyangng\u00e9 sibawa tanro lao ri iko sibawa
+  n\u00e9n\u00e9-n\u00e9n\u00e9mu. Mancajinnana iyaro tana\u00e9 appunnangemmu,\\n13:12
+  harusu\u2019ko makkasuwiyangengngi tungke ana\u2019 worowan\u00e9 macowa\u00e9 sibawa
+  olokolo lai iya bunge jajiy\u00e9. Iya manennaro appunnangenna PUWANGNGE,\\n13:13
+  iyakiya tungke kaledd\u00e9 lai iya bunge jajiy\u00e9 harusu\u2019i ric\u00e9ra\u2019
+  pol\u00e9 ri PUWANGNGE sibawa makkasuwiyangeng sikaju ana\u2019 bimbala selaku passull\u00e9na.
+  R\u00e9kko d\u00e9\u2019 muma\u00e9lo c\u00e9ra\u2019i iyaro kaledd\u00e9\u2019\u00e9,
+  harusu\u2019i ripolo ellonna. Tungke ana\u2019mu worowan\u00e9 iya bunge jajiy\u00e9
+  harusu\u2019i ric\u00e9ra\u2019.\\n13:14 R\u00e9kko ri munri makkutanai ana\u2019mu
+  aga bettuwanna iya manennaro, harusu\u2019ko baliwi makkuwa\u00e9, \u2018Nasibawang
+  akuwasang iya battowa\u00e9 natiwiki PUWANGNGE massu pol\u00e9 ri wanuwa Mas\u00e9r\u00e9,
+  onrotta ripowata.\\n13:15 Wettunna arung Mas\u00e9r\u00e9 matedde ati sibawa d\u00e9\u2019
+  nama\u00e9lo leppessakki lao, naunoi PUWANGNGE tungke ana\u2019 worowan\u00e9 macowa\u00e9
+  ri Mas\u00e9r\u00e9, muwi ana\u2019 tau iyar\u00e9\u2019ga ana\u2019 olokolo. Iyanaro
+  saba\u2019na nariyakkarobangeng lao ri PUWANGNGE tungke olokolo lai iya bunge jajiy\u00e9,
+  iyakiya ric\u00e9ra\u2019i ana\u2019-ana\u2019ta iya macowa\u00e9.\u2019\\n13:16
+  Iyaro abiyasangng\u00e9 mancaji pappar\u00e9ngngerangngi lao ri idi pada-pada tanrangng\u00e9
+  iya riyassiyorengng\u00e9 ri lima\u00e9 iyar\u00e9\u2019ga ri linrota. Nanallalengiwi
+  tette\u2019ki matu ripar\u00e9ngngerangi makkeda\u00e9 puraki napassu PUWANGNGE
+  pol\u00e9 ri Mas\u00e9r\u00e9 sibawa akuwasang iya battowa\u00e9.\u201d\\n13:17
+  Purana naleppessang arung Mas\u00e9r\u00e9 bangsa Isra\u00e9li\u00e9 lao, d\u00e9\u2019
+  naritiwi mennang ri Allataala molai laleng iya lalo\u00e9 ri wanuwa Filistin, namuni
+  iyaro lalengng\u00e9 kaminang maponco. Mappikkiri\u2019i Allataala, \u201cAjakk\u00e9
+  massessekal\u00e9i iyaro sining tauw\u00e9 r\u00e9kko naitai makkeda\u00e9 harusu\u2019i
+  mennang mammusu, nanalisu ri Mas\u00e9r\u00e9.\u201d\\n13:18 Rimakkuwannanaro ritiwini
+  mennang ri Allataala molai laleng makkalu\u00e9 ri padang kessi\u2019\u00e9 mattuju
+  ri Tasi Gelaga. Wettunna nasalai Mas\u00e9r\u00e9, iyaro sining tau Isra\u00e9li\u00e9
+  massenjatai pada-pada ma\u00e9lo\u00e9 mammusu.\\n13:19 Natiwini Musa buku-bukunna
+  Yusuf, saba\u2019 ri wettu tuwona, nasuroi Yusuf tau Isra\u00e9li\u00e9 mattanro
+  untu\u2019 pogau\u2019i makkuwa\u00e9ro. Makkuwaiy\u00e9 pasenna Yusuf, \u201cWettunna
+  Allataala paleppe\u2019ko, harusu\u2019i mutiwi ujuku pol\u00e9 ri onrongng\u00e9w\u00e9.\u201d\\n13:20
+  Nasalaini tau Isra\u00e9li\u00e9 Sukot namakk\u00e9ma ri kota Etam, ri wirinna padang
+  kessi\u2019\u00e9.\\n13:21 Joppai PUWANGNGE ri yolona mennang ri esso\u00e9 ri laleng
+  alliri ellung sibawa ri wenni\u00e9 ripoddiyoloiwi mennang ri laleng alliri api
+  untu\u2019 mappaitangngi lalengng\u00e9. Nanallalengiwi weddingngi mennang joppa
+  esso wenni.\\n13:22 Puppu esso engkai alliri ellungng\u00e9 ri yolona bangsa\u00e9ro
+  sibawa puppu benni alliri api\u00e9 sibawangngi mennang.\\nAdvertisements\""]'
+src_ngrams: '{"1": [[["sibawa"], 14108], [["i"], 8080], [["lao"], 8014], [["anjo"],
+  7899], [["tpi"], 7082]], "2": [[["anjo taua"], 503], [["kamma anne"], 497], [["trans
+  tv"], 426], [["sibawa sining"], 388], [["iyaro sining"], 376]], "3": [[["lao ri
+  mennang"], 568], [["lao ri iko"], 514], [["lao ri iyya"], 327], [["mae ri allata"],
+  295], [["lao ri puwangnge"], 254]], "4": [[["mae ri kau ngaseng"], 173], [["puwangnge
+  lao ri musa"], 101], [["lalang ri kittaka angkanaya"], 98], [["y\u00e8sus lao ri
+  mennang"], 88], [["y\u00e9sus lao ri mennang"], 84]], "5": [[["nakkeda y\u00e8sus
+  lao ri mennang"], 48], [["name necklace with rhinestone letters"], 35], [["custom
+  name necklace with rhinestone"], 35], [["moga saya tidak kena kutuk"], 34], [["umma
+  selleng malebbi engkae riamasei"], 33]]}'
