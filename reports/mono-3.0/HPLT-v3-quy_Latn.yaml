@@ -1,9 +1,9 @@
 corpus: hplt-v3-quy_Latn
-srclang: qu
-timestamp: 1758207279.4431362
+srclang: quy
+timestamp: 1758685778.9096844
 warnings:
-- src_ngrams_qu_nostopwords
 - src_warning_tok_nltk_wordpunct
+- src_fastspell
 docs_collections: '[["CC-MAIN-2014-15", 3472], ["CC-MAIN-2014-35", 1547], ["CC-MAIN-2020-05",
   1325], ["wide16", 922], ["CC-MAIN-2021-31", 554], ["CC-MAIN-2018-05", 553], ["CC-MAIN-2017-51",
   468], ["CC-MAIN-2021-49", 467], ["wide12", 413], ["CC-MAIN-2023-14", 388], ["CC-MAIN-2020-10",
@@ -23,7 +23,8 @@ docs_collections: '[["CC-MAIN-2014-15", 3472], ["CC-MAIN-2014-35", 1547], ["CC-M
   94], ["CC-MAIN-2016-30", 91], ["CC-MAIN-2015-48", 82], ["wide6", 61], ["wide10",
   37], ["CC-MAIN-2017-04", 33], ["CC-MAIN-2016-40", 24], ["CC-MAIN-2016-44", 23],
   ["survey3", 19], ["wide5", 18], ["wide17", 16]]'
-docs_langs: '[[0.0, 20199]]'
+docs_langs: '[[0.0, 4], [0.1, 26], [0.2, 226], [0.3, 515], [0.4, 583], [0.5, 779],
+  [0.6, 1026], [0.7, 2084], [0.8, 3010], [0.9, 2812], [1.0, 9134]]'
 docs_segments: '[[891, 1], [639, 1], [69, 22], [42, 95], [547, 1], [470, 1], [60,
   21], [73, 6], [81, 4], [49, 54], [97, 6], [89, 7], [3564, 1], [93, 4], [41, 84],
   [59, 21], [34, 69], [8, 693], [62, 25], [78, 8], [36, 63], [65, 12], [848, 1], [701,
@@ -502,7 +503,7 @@ src_unique_sents: '[[1, 3210], [2, 10486], [3, 13388], [4, 15515], [5, 17131], [
   1], [2764, 1], [3101, 1], [3188, 2], [3202, 1], [3317, 1], [3621, 1], [4268, 1],
   [4507, 1], [5155, 1], [5558, 1], [8253, 1], [8398, 1], [15633, 1], [37618, 1], [73078,
   1]]'
-src_langs: '[["qu", 161840], ["es", 137732], ["en", 94428], ["tl", 23259], ["it",
+src_langs: '[["es", 158714], ["qu", 140858], ["en", 94428], ["tl", 23259], ["it",
   18929], ["pt", 16225], ["de", 11457], ["eo", 10495], ["id", 10238], ["fi", 9727],
   ["fr", 8905], ["sw", 8205], ["uz", 6498], ["hr", 3694], ["pl", 3595], ["io", 3256],
   ["ceb", 3154], ["sv", 2405], ["tr", 2245], ["la", 2240], ["ca", 1891], ["sq", 1522],
@@ -527,737 +528,480 @@ src_langs: '[["qu", 161840], ["es", 137732], ["en", 94428], ["tl", 23259], ["it"
   ["lrc", 1], ["li", 1], ["dsb", 1], ["ce", 1], ["bh", 1]]'
 hardrules_tags: '{"not_too_long": 9497, "not_too_short": 63653, "length_ratio": 0,
   "no_urls": 2272, "no_bad_encoding": 38, "pii": 175}'
-sample: '["\"1Tsaypita patsa waraycaptinnami lapan mandag c\u00fcracuna, Israel mayor
-  runacuna, Mois\u00e9s escribishgan leycunata yachatsegcuna y waquin autorid\u00e4cunapis
-  juntacaycur wilanacorgan Jesusta wanutsinanpag. Wilanacurcurnami liyarcur Jesusta
-  apatsip\u00e4corgan Israel nacionpa mandagnin Pil\u00e4tuman. 2Tsayman chayatsiptinmi
-  Pilato caynog taporgan: \u201c\u00bfRasunpacu gamga canqui Israel runacunapa mandagnin
-  rey?\u201d Tsaynog tapuptin Jes\u00fas nergan: \u201cGam nishgayquinoglami rasunpa
-  cayc\u00e4.\u201d 3Tsaych\u00f6mi mandag c\u00fcracuna Jesuspa contran imaycatapis
-  nip\u00e4corgan. 4Tsaymi Pilato yapay taporgan Jesusta caynog nir: \u201c\u00bfManacu
-  imatapis ninqui tsayjina contrayqui rimaycaptin?\u201d 5Tsaynog niptinpis Jesusga
-  manami imatapis rimacorgantsu. Tsaymi Pil\u00e4toga imaniytapis mana cam\u00e4pacorgantsu.
-  6Cada watami Pascua aniversariucho Pilato cachareg juc pr\u00ebsuta runacuna manacushgan
-  cagta. 7Tsay wata pr\u00ebsu wichgaraycargan Barrab\u00e1s jutiyog runa. Payga carcilcho
-  wichgaraycargan mandag emperadorpa contran sharcushganpita y runata wanutsishganpitami.
-  8Tsaymi runacuna Pil\u00e4tuman aywaycur manac\u00e4rergan juc pr\u00ebsuta tsay
-  watapis cacharinanpag. 9Mandag c\u00fcracuna Jesusta chiquir payman apap\u00e4cushganta
-  musyashpanmi Pilato caynog nergan: \u201c\u00bfIsrael runacunapa mandagnin rey Jesustacu
-  cacharin\u00e4ta munap\u00e4cunqui?\u201d 11Tsaynog niptinmi mandag c\u00fcracuna
-  tsaycho cag runacunata yachatsergan: \u201cBarrabasta cachariyga\u201d nip\u00e4cunanpag.
-  12Barrabasta cacharinanpag nip\u00e4cuptin Pilato taporgan lapan runacunata: \u201cIsrael
-  runacunapa mandagnin rey Jesustaga \u00bfimata ruran\u00e4tatag munap\u00e4cunqui?\u201d
-  13Tsaynog tapuptinmi paycuna nip\u00e4corgan: \u201c\u00a1Crucificashga catsun!\u201d
-  14Tsaynog nip\u00e4cuptinmi Pilato caynog nergan: \u201cCrucificashga cananp\u00e4ga
-  \u00bfima jutsatatag rurashga?\u201d Tsaynog niptin masrag runacuna nip\u00e4corgan:
-  \u201c\u00a1Crucificatsiy!\u201d 15Tsauraga Pilato runacunawan ali qu\u00ebdayta
-  munashpan Barrabasta cacharergan. Nircurna Jesusta astarcatsir entregaycorgan crucificashga
-  cananpag. 16Tsaypita sold\u00e4ducuna Jesusta apargan palacio patiuman. Tsaymanmi
-  lapan sold\u00e4ducuna juntapargan. 17Nircurmi payta asip\u00e4nan cashga aylupargan
-  rey jaticunan puca-chicnu c\u00e4pata. Tsaynogpis cashapita awashga cor\u00f6nata
-  umanman jatipargan. 18Tsaynog jatiparcurmi nip\u00e4corgan: \u201c\u00a1Alabashga
-  catsun Israel runacunapa mandagnin rey!\u201d 19Tsaypitana tsay sold\u00e4ducuna
-  trucap\u00e4nacuypa gueruwan Jesusta umacho wirup\u00e4corgan. Nircurmi togapashpan
-  respitag-tucur naupanman gongurpacorgan. 20Tsaynog asiparcurmi aylupashgan puca-chicnu
-  c\u00e4pata logtiparcur quiquinpa r\u00f6pantana Jesusta jatipargan. Nircurmi crucificananpag
-  apap\u00e4corgan. 21Jesusta crucificananpag apaycarmi Cirene marcapita Simonwan
-  tincorgan. Payga cargan Alejandrupa y Rufupa pap\u00e4ninmi. Paytami Jes\u00fas
-  apaycashgan cruzta umrutsergan. 22Nircurnami Jesusta chayatsip\u00e4corgan G\u00f3lgota
-  nishgan l\u00f6maman. G\u00f3lgota ninanga cargan \u201cCalav\u00ebra\u201d ninanmi.
-  23Tsaych\u00f6mi m\u00efrra nishgan asgag jachawan v\u00efnuta talutsergan Jesusta
-  uputsinanpag. Tsaynog uputsiyta munap\u00e4cuptinpis Jes\u00fas manami uporgantsu.
-  24Nircurnami Jesusta crucificap\u00e4corgan. Crucificaycurnami sold\u00e4ducuna
-  Jesuspa r\u00f6panpag suertita jitap\u00e4corgan mayganpis g\u00e4nag cag apacunanpag.
-  25Crucificashgan h\u00f6ra cargan tuta las nu\u00ebvinogmi. 26Tsaypitanami juc tablaman
-  letr\u00ebruta escribircur cruzpa puntanman cl\u00e4vargan. Tsay letr\u00ebruch\u00f6mi
-  caynog escribiraycargan: \u201cCay runaga Israel runacunapa mandagnin reymi.\u201d
-  27Jes\u00fas crucificaraycashgan naupanmanmi ishcay suwa runacunatapis crucificargan,
-  jucnin cagta der\u00ebcha cag naupanman y jucagtana itsog cag naupanman. 28[Tsay
-  suwa runacunawan crucificaptinmi Tayta Diospa palabrancho escribiraycashgannogla
-  pasargan. Tsay escribiraycashganga caynogmi niycan: \u201cPaytapis fiyu runatanogmi
-  runacuna chiquip\u00e4congapag.\u201d] 29Cruzcho caycashganta ricarmi tsaypa pasag
-  runacuna Jesusta asipargan umanta awishpan caynog nir: \u201cTemplutapis juchurcatsir
-  quimsa junaglata sharcatsinayquipag cashganta niycarga m\u00e4 quiquiqui salvacushpayqui
-  cruzpita ur\u00e4muy, ari.\u201d 31Tsaynogpis mandag c\u00fcracuna y Mois\u00e9s
-  escribishganta yachatsegcunapis Jesusta asipashpan caynog nergan: \u201cWaquinta
-  salvarpis \u00bfimanirtag quiquenga salvacuyta mana cam\u00e4pacuntsu? 32Israel
-  runacunapa mandagnin rey cananpag Tayta Diosnintsi cachamushgan Cristo carga m\u00e4
-  cruzpita ur\u00e4mutsun nogantsipis criyinantsipag.\u201d Tsaynoglami Jesuspa naupancho
-  crucificaraycag runacunapis payta ashlergan. 33Pulan junag caycaptinmi patsa tsac\u00e4corgan
-  malway intiyag. 34Malway inti caycaptinmi Jes\u00fas fuertipa caynog nergan: \u201cEloi,
-  Eloi, \u00bflama sabactani?\u201d Tsay ninanga caycan \u201cDiosn\u00eb, Diosn\u00eb
-  \u00bfimanirtag cachaycamashcanqui?\u201d ninanmi. 35Tsaynog nishganta mayarmi tsaycho
-  caycag runacuna waquin nip\u00e4corgan: \u201cTayta Diosnintsipa prof\u00ebtan Eliastami
-  gayacuycan.\u201d 36Tsaymi juc runa gueru puntanman his\u00f6puta rurarcur pochgog
-  v\u00efnuman ushmatsergan. Nircurna Jesusta shogutsiyta munargan. Shiminman churapaptinmi
-  juc runa caynog nergan: \u201cAma shogutsiytsu. Canan ricashun m\u00e4 cruzpita
-  jorgunanpag El\u00edas shamunagcu o manacush.\u201d 37Tsaypitana fuertipa gapararcur
-  Jes\u00fas wanorgan. 38Jes\u00fas wanushgan h\u00f6ra templo rurincho tsaparag racta
-  cort\u00efna rachic\u00e4corgan janapita urayag. 39Sold\u00e4ducunapa capitanninnami
-  Jes\u00fas wanushganta ricar caynog nergan: \u201c\u00a1Rasunpami cay runaga Diospa
-  tsurin cashga!\u201d 40Tsay h\u00f6ra waquin warmicunapis carulapita ricarpaycargan.
-  Paycunawanmi caycargan Mar\u00eda Magdalena, shulca cag nip\u00e4cushgan Santiagupa
-  y Jos\u00ebpa maman Mar\u00eda y Salom\u00ebpis. 41Tsay warmicunami Galileacho Jes\u00fas
-  puriptin yanapar gatirpargan. Paycunawanmi waquin warmicunapis tsaycho caycargan.
-  Tsay warmicunaga Galileapita Jerusalenman Jes\u00fas aywaptin paywan aywap\u00e4corgan.
-  42Jes\u00fas wanorgan viernes tardimi. Cada viernes tardimi Israel runacuna camaric\u00e4reg
-  s\u00e1bado jamay junagpag. 43Tsay junag inti jegaycaptinnami Arimatea marcapita
-  cag Jos\u00e9 aywargan Pilato cagman. Chayaycurmi caynog manacorgan: \u201cJesuspa
-  ayanta cachapaycal\u00e4may pampag apan\u00e4pag.\u201d Jos\u00e9 cargan Israel
-  runacunapa autorid\u00e4ninmi. Payga shuyaraycargan Tayta Diosnintsi promitishgannogla
-  salvadorta cachamunanpag cashgantami. 44Ayata cachap\u00e4nanpag manacuptinmi Pilato
-  yarpachacorgan: \u201c\u00bfWanushganatsurag o manatsurag?\u201d nishpan. Tsauraga
-  capitanta gayatsergan wanushganta o manarag wanushgantapis tapunanpag. 45Jes\u00fas
-  wanushgana caycashganta wilaptinmi tsay capitanta mandargan Jesuspa ayanta entregananpag.
-  46Tsauraga Jos\u00e9 aywargan l\u00efnupita rurashga f\u00efnu s\u00e4banasta rantimunanpag.
-  Nircurnami cruzpita jorgurir Jesuspa ayanta tsay t\u00eblawan pitorgan. Tsaynog
-  rurarcurmi pampag apargan gagacho uchcushga sepult\u00fcraman. Aywacunanpagnami
-  sepult\u00fcrapa puncunta tsapargan jatuncaray rumiwan. 47Mayman pampashgantapis
-  musyananpagmi Mar\u00eda Magdalena y Jos\u00ebpa maman Mariapis carulapita ricarpaycargan.\"",
-  "\"1Kinsakaq p''unchaypitaq Galilea provinciapi kaq Can\u00e1 llaqtapi casarakuq
-  karqan. Jesuspa mamanpas chaypin kasharqan. 2Jesuspas yachachisqankunapiwanmi casarakuqpaman
-  waqyasqa karqan. 3Vino pisiqtinmi Jesuspa mamanqa Jesusta nirqan: \u2013Manan vinonku
-  kapunchu, nispa. 4Chaymi Jesusqa payta nirqan: \u2013Mam\u00e1y, \u00bfimanaqtintaq
-  chayta niwanki? Reqsichikunay horaqa manaraqmi chayamunchu, nispa. 5Mamantaq serviqkunata
-  nirqan: \u2013Llapan nisqasuykichistan ruwankichis, nispa. 6Chaypin kasharqan jud\u00edo
-  runakunaq ch''uyanchakuyninman hina unupaq soqta rumi urpukuna, sapankamanmi chunka
-  hatun p''uy\u00f1u unu haykuq. 7Jesustaq serviqkunata nirqan: \u2013Unuta hunt''achiychis
-  kay urpukunaman, nispa. Hinan hunt''atapuni hunt''achirqanku. 8Chaymantataq paykunata
-  nirqan: \u2013Kunanqa wisiychis, hinaspa despenseroman apaychis, nispa. Chaymi payman
-  aparqanku. 9Despenserotaq unumanta vinoman tukuchisqata malliykuspa mana yacharqanchu
-  maymantachus kasqanta, serviqkunan ichaqa yacharqanku unuta wisimusqankuta. Chaymi
-  despenseroqa noviota waqyarispa 10nirqan: \u2013Llapa runan sumaqkaq vinota \u00f1awpaqtaqa
-  haywan, allinta\u00f1a ukyaqtinkutaq ima kaqllata\u00f1a haywan, qanmi ichaqa sumaqkaq
-  vinota kunankama waqaychasqanki, nispa. 11Chay \u00f1awpaqkaq milagrotan Jesusqa
-  ruwarqan Galileapi kaq Can\u00e1 llaqtapi, ahinapin musphana atiyninta rikuchirqan,
-  chaymi yachachisqankunaqa paypi i\u00f1irqanku. 12Chay qhepatataq Jesusqa mamantin,
-  wawqenkunantin, yachachisqankunapiwan Caperna\u00fam llaqtaman rirqanku, hinaspan
-  pisi p''unchaykunallata chaypi qhepakurqanku. 13Jud\u00edo runakunaq Pascua Fiestanku
-  qayllaykamushaqtinmi Jesusqa Jerusal\u00e9n llaqtaman wicharqan. 14Hinaspan Dios
-  yupaychana wasi patiopi tarirqan torokuna, ovejakuna, palomakuna vendeqkunata, hinallataq
-  tiyaykuspa qolqe cambiaqkunatapas. 15Chaymi Jesusqa waskhamanta hasut''ita ruwarqospa
-  qarqomurqan Dios yupaychana wasi patiomanta llapa ovejakunatapas, torokunatapas,
-  cambiaqkunaq mesankutapas tikrarparispa qolqenkuta hich''arparirqan. 16Paloma vendeqkunatataq
-  nirqan: \u2013\u00a1Chaykunata kaymanta horqoychis! \u00bfImaynan Yayaypa wasintaqa
-  qhatuna wasiman tukuchishankichis? nispa. 17Hinaqtinmi yachachisqankunaqa Diospa
-  Siminpi kay hina qelqasqata yuyarirqanku: \u201cYupaychana wasiykitan sinchitapuni
-  munakuni\u201d, nisqata. 18Chaymi jud\u00edo umallikunaqa payta nirqanku: \u2013Kaykunata
-  ruwanaykipaq atiyniyoq kasqaykita yachanaykupaq milagrota rikuchiwayku, nispa. 19Jesustaq
-  kutichirqan: \u2013Thuniychis kay yupaychana wasita, kinsa p''unchayllapin sayarirqochisaq,
-  nispa. 20Jud\u00edo umallikunataq nirqanku: \u2013Tawa chunka soqtayoq watapin kay
-  yupaychana wasiqa sayarichisqa karqan. \u00bfQantaqchu kinsa p''unchayllapi sayarichiwaq?
-  nispa. 21Jesusqa chayta nispaqa pay kikinpa cuerponmantan rimasharqan. 22Chay rimasqantan
-  yachachisqankunaqa wa\u00f1usqanmanta Jes\u00fas kawsarimpuqtin yuyarirqanku, chaymi
-  Diospa Simin Qelqatapas Jesuspa nisqan simikunatapas creerqanku. 23Pascua Fiesta
-  Jerusal\u00e9n llaqtapi kashaqtinmi Jesuspi askha i\u00f1irqanku, milagrokunata
-  ruwasqanta rikuspa. 24Chaywanpas kikin Jesusqa manan paykunapi confiakurqanchu,
-  llapankuta reqsisqanrayku. 25Jesusqa manan necesitarqanchu pipas runamanta payman
-  ima willanantapas, payqa yacharqanmi runapi ima kasqantapas.\"", "\"1Babilonia rey
-  Nabucodonosormi Judapi rey kananpaq churarqan Josiaspa churin Sedequiasta, Joacimpa
-  churin Jeconiaspa rantinpi. 2Se\u00f1or Diospa Jeremiaswan willachisqantaqa manan
-  kasurqankuchu Sedequiaspas oficialninkunapas llaqta runakunapas. 3Chaywanpas rey
-  Sedequiasqa kacharqan, Selemiaspa churin Jucalta, Maasiaspa churin sacerdote Sofoniastawan
-  profeta Jerem\u00edas valekuqta: Diosninchis Se\u00f1or Diosmanta \u00f1oqaykupaq
-  ma\u00f1apuwayku, nispa nimunankupaq. 4Jeremiasqa manan wisq''asqaraqchu karqan,
-  payqa llaqta ukhupi maytapas riyta atillarqanmi. 5Babilonia soldadokuna Jerusalenta
-  phawaykunanpaq muyupayashaqtinmi, rey Faraonpa soldadonkunaqa Egipto suyumanta lloqsimurqanku
-  Sedequiasta yanapaq, chayta uyarispan Babilonia runakunaqa chaymanta kutipurqanku.
-  6Hinan Se\u00f1or Diosqa Jeremiasta rimaykurqan, 7Israelpa \u00d1oqa Se\u00f1or
-  Diosninmi nini: Jud\u00e1 rey Sedequiaspa kachamusqankunaman niychis, Egiptomanta
-  rey Faraonpa soldadonkuna yanapaqniykichis lloqsimuqkunaqa kaqtan Egiptoman kutipunqaku.
-  8Babilonia soldadokunaqa wakmantan kutimunqaku Jerusal\u00e9n llaqtaman phawaykunankupaq,
-  haykuspataq ninawan kanaykunqaku. 9\u00d1oqa Se\u00f1or Diosmi willashaykichis:
-  Ama yanqa kikiykichista q''otukuspa yuyaychischu: Babilonia soldadokunaqa cheqaqtapunin
-  ripunqa, nispaykichis, chayqa manan hinachu kanqa. 10Hina\u00f1a qankuna Babilonia
-  soldadokunata llapanta maqanakuypi atipawaqchis chaypas, karpankupi iskay kinsa
-  k''irisqakuna qhepankuman, chaykunan sayarimuspa llaqtaykichista ninawan kanaykunkuman,
-  nispa. 11Babilonia soldadokunataq Jerusal\u00e9n muyuykusqankumanta kutipurqanku,
-  Faraonpa soldadonkuna hamushasqanta yacharqospanku. 12Hinan Jeremiasqa Benjam\u00edn
-  aylluta risharqan hallp''a rakiyman, chaypi tupaqnin hallp''a chaskikapuq. 13Benjam\u00edn
-  Punku nisqaman chayaqtintaq, hap''irqapurqan Hananiaspa churin Selemiaspa churin
-  Ir\u00edas. Paymi karqan chaypi kaq guardiakunaq umallin, nirqantaq: \u2013Caldea
-  runakunamanmi qanqa rishanki, nispa. 14Jeremiastaq nirqan: \u2013Yanqan chaytaqa
-  niwanki, manan Caldea runakunamanchu rishani, nispa. Iriastaq ichaqa mana uyariq
-  tukuspa umallikunaq qayllanman apamurqan. 15Paykunataq Jeremiasta sinchita phi\u00f1arikuspa
-  suq''achirqanku, hinaspan reypa qelqaqnin Jonatanpa wasinman wisq''achirqanku. Chay
-  wasin carcelman tukuchisqa karqan. 16Ahinapin Jeremiasqa c\u00e1rcel wasiq pachan
-  t''oqoman wisq''asqa karqan unay p''unchaykunapaq. 17Rey Sedequiastaq kamachirqan
-  tiyasqanman Jeremiasta pusamunankupaq, payta pusamuqtinkutaq reyqa pakallapi tapuykurqan:
-  \u2013\u00bfSe\u00f1or Diosqa icha imallatapas rimaykurqasunkichu? nispa. Jeremiastaq
-  nirqan: \u2013Ar\u00ed, kashanmi. Qanmi Babilonia reyman hap''ichisqa kanki, nispa.
-  18Rey Sedequiastataq Jeremiasqa tapuykukurqan: \u2013\u00bfIma mana allintan contraykitapas
-  umalliykikunaq contrantapas llaqta runaq contrantapas ruwarqani carcelman wisq''achiwanaykichispaq?
-  19\u00bfMaytaq chay: Manan Babilonia reyqa hamunqachu qanmanpas suyumanpas, nispa
-  profetizaqkunar\u00ed? 20Kunanqa reyn\u00edy, ama hinachu kay, ma\u00f1akusqayta
-  uyariykuway: Ama\u00f1a wakmanta apachiway\u00f1achu qelqaqniyki Jonatanpa wasinmanqa,
-  ama chaypi wa\u00f1unaypaq, nispa. 21Chaymi rey Sedequiasqa kamachikurqan Jeremiasqa
-  guardiakunaq patiollanpi\u00f1a waqaychasqa kananpaq. Hinaspan sapa p''unchay t''antata
-  qochirqan callemanta rantichimuspa, ahinatan rantichimurqan llaqtapi t''anta kanankama.
-  Ahinapitaqmi Jeremiasqa patiollapi waqaychasqa qhepakapurqan.\"", "\"Bernardino
-  Caballero\\nJuan Bernardino Caballero de A\u00f1asco y Melgarejo sutiyuq runaqa
-  (* 20 \u00f1iqin aymuray killapi 1839 watapi paqarisqa Ybycu\u00ed llaqtapi - 26
-  \u00f1iqin hatun puquy killapi 1912 watapi wa\u00f1usqa Asunci\u00f3n llaqtapi),
-  huk Parawayi mama llaqtayuq awqaq pusaq Hiniral wan pulitiku qarqan.\\nTaytan: Jos\u00e9
-  Ram\u00f3n Caballero de A\u00f1asco; Mama: Melchora Melgarejo y Genes.\\nWarmi:
-  Mar\u00eda Concepci\u00f3n D\u00edaz de Bedoya (1883-1884) / Julia \u00c1lvarez
-  (1909-1912).\\nChurinkuna: ?\\nKaypipas qhaway[llamk''apuy | pukyuta llamk''apuy]\\nHawa
+sample: '["\"Mario Lanza\\nAlfredo Arnoldo Cocozza sutiyuq runaqa, icha Mario Lanza
+  (* 31 \u00f1iqin qhulla puquy killapi 1921 watapi paqarisqa Philadelphia llaqtapi
+  - \u2020 7 \u00f1iqin kantaray killapi 1959 watapi wa\u00f1usqa Roma llaqtapi) huk
+  USA Hukllachasqa Amirika Suyukuna mama llaqtayuq taki aranway takiqmi qarqan.\\nTaytan:
+  Antonio Cocozza; Maman: Mar\u00eda Lanza.\\nWarmi: Betty Hicks (1945-1959).\\nChurinkuna:
+  Colleen, Elisa, Damon wan Marc.\\nKaypipas qhaway[llamk''apuy | pukyuta llamk''apuy]\\nHawa
   t''inkikuna[llamk''apuy | pukyuta llamk''apuy]\\n- Commons nisqaqa multimidya kapuyninkunayuqmi
-  kay hawa: Bernardino Caballero.\"", "\"Jehov\u00e1 Diosqa cielopi kaq familianta
-  reqsinanchistan munan, chay familia ukhupin kashanku angelkuna, paykunatan nikullantaq
-  \u201cDiospa wawankuna\u201d nispa (Job 38:7). \u00bfImaninmi Biblia angelkunamanta?
-  \u00bfYanapankuchu paykuna runakunata? \u00bfLlapa angelkunachu Diospa familian
-  kanku? Chaykunamantan yachasunchis.\\n1. \u00bfImaynan kanku angelkuna?\\nManaraq
-  kay pachata kamashaspan Jehov\u00e1 Diosqa angelkunata kamarqan. Paykunaqa Dios
-  jinan mana rikuna kanku, janaq pachapitaqmi tiyankupas (Hebreos 1:14). Chaymantapas
-  paykunaqa askhalla\u00f1an kanku, sapankankutaqmi jujniray kanku (Apocalipsis 5:11).
-  Angelkunaqa Jehov\u00e1 Diospa munaynintan ruwanku, paytan kasukunku (Salmos 103:20).
-  \u00d1aupa tiempopiqa kachamuqmi Diosqa angelkunata llaqtanman imaymanata willanankupaq,
-  yanapanankupaq, enemigonkumanta libranankupaq ima. Kunanpas angelkunawanmi Diosqa
-  Jesuspa qatikuqninkunata yanapashan allin sonqoyoq runakunata tarinankupaq.\\n2.
-  \u00bfImaninmi Biblia Satanasmanta supaykunamantapas?\\nWakin angelkunan Diosmanta
-  t\u2019aqakapurqanku. \u00d1aupaq kaq t\u2019aqakuqmi karqan Saqra Satan\u00e1s.
-  Paymi kay pachapi runakunata pantachishan (Apocalipsis 12:9). Kamachikuq kayta munaspan
-  payqa Adanta Evatawan tanqarqan Diospa contranpi jatarinankupaq. Wakin angelkunatapas
-  Diospa contranpin churarqan, chay angelkunatan \u201csupaykuna, demoniokuna\u201d
-  nispa nikun. Chay mana kasukuq angelkunataqa qarqomurqanmi Diosqa janaq pachamanta,
-  jinaspan kay pachaman wijch\u2019uykamurqan. Paykunaqa wi\u00f1aypaqmi chinkachisqa
-  kapunqaku (leey Apocalipsis 12:9, 12).\\n3. \u00bfImaynatan Satanaswan supaykunawan
-  runakunata enga\u00f1ashanku?\\nSatanaswan supaykunawanqa askha runakunatan layqa
-  ruwaykunawan enga\u00f1ashanku. \u00bfImataq layqa ruwaykunari? Chay layqa ruwaykunapin
-  kashan: suerteta qhawachikuy, hor\u00f3scopo nisqata leey, mosqoykunapi creey, watuqkunata
-  tapuy, layqakunaman riy, curandero nisqakunawan jampichikuy, chaykuna jina juj ruwaykuna
-  ima. Chay ruwaykunaqa Diospa cheqnikusqan millay angelkunamanmi qayllaykachiwasunman,
-  chaymi manapuni allinchu chaykunaqa. Chayraykun Jehov\u00e1 Diosqa chay millay angelkunamanta
-  pakaykuwananchispaq Bibliapi nirqan: \u201cAman rinkichischu wa\u00f1usqakunata
-  tapuqkunamanqa, amallataqmi rinkichischu watuq runakunamanpas\u201d, nispa (Lev\u00edtico
-  19:31).\\nASTAWAN YACHASUNCHIS\\nKunanqa yachasun imakunatas allin angelkuna ruwashanku
-  chayta, imaraykus layqa ruwaykunamanta, Satanasmanta supayninkunamantapas cuidakunanchis
-  chaykunamantawan.\\n4. Allin angelkunaqa runakunatan yanapashanku Jehov\u00e1 Diosta
-  reqsinankupaq\\nDiospa angelninkunaqa manan paykuna kikinkuchu runakunaman Diosmanta
-  willanku, aswanpas Jehov\u00e1 Diosta serviqkunatan yanapanku Diosmanta yachay munaqkunata
-  tarinankupaq. Leeychis Apocalipsis 14:6, 7 textokunata, jinaspa jamuq tapuykunaman
-  jina parlariychis:\\n-\\n\u00bfImaraykun Diosmanta willananchispaq allinpuni angelkunaq
-  yanapaynin?\\n-\\nAngelkunaqa yanapasunkikumanmi allin sonqoyoq runakunata tarinaykipaq,
-  \u00bfkusikunapaqchu chay manachu?\\n5. Amapuni layqa ruwaykunaman chaqrukusunchu\\nSatanaswan
-  supaykunawanqa Jehov\u00e1 Diostapas noqanchistapas cheqnikuwanchismi. Leeychis
-  Lucas 9:38-42 textota, jinaspa jamuq tapuyman jina parlariychis:\\n-\\n\u00bfImakunatan
-  supaykuna runakunata ruwankuman?\\nAmapuni supaykunaman campota qosunchu. Leeychis
-  Deuteronomio 18:10-12 textota, jinaspa jamuq tapuykunaman jina parlariychis:\\n-\\n\u00bfImatan
-  supaykuna ruwanku paykunaq makinpi kananchispaq? \u00bfIma chhayna ruwaykunan kan
-  tiyasqayki llaqtapi?\\n-\\n\u00bfAllinchu Jehov\u00e1 Diospa layqa ruwaykunamanta
-  jark\u2019awasqanchis icha manachu?\\nVIDEOTA qhawaychis, jinaspa jamuq tapuykunaman
-  jina parlariychis:\\n-\\n\u00bfImaraykun mana allinchu karqan Palesaq wawanpa makinpi
-  kaq amuleto nisqa?\\n-\\n\u00bfImatan Palesa ruwarqan supaykunamanta cuidakunanpaq?\\nJesusta
-  qatikuqkunaqa manapunin supaykunaq ruwayninkunamanqa chaqrukunanchischu. Leeychis
-  Hechos 19:19; 1 Corintios 10:21 textokunata, jinaspa jamuq tapuyman jina parlariychis:\\n-\\n\u00bfImanaqtinmi
-  \u00f1ut\u2019unayki otaq ruphachinayki layqa ruwaykunawan tupaq cosasniykikunata?\\n6.
-  Atipasunmanmi Satanastapas supaykunatapas\\nSupaykunataqa Satanasmi umallin, Dios
-  sonqo angelkunatan ichaqa arc\u00e1ngel Miguel umallin. Miguelqa Se\u00f1or Jesuspa
-  jujnin sutinmi. \u00bfImayna atiyniyoqmi Miguel? Chaypaq leeychis Apocalipsis 12:7-9
-  textota, jinaspa jamuq tapuykunaman jina parlariychis:\\n-\\n\u00bfPikunan aswan
-  atiyniyoq kanku: Miguelwan angelninkunawanchu icha Satanaswan supayninkunawanchu?\\n-\\n\u00bfManchakunankuchu
-  Jesuspa qatikuqninkuna Satanastapas supaykunatapas?\\nAtipasunmanmi Satanastapas
-  supayninkunatapas. Leeychis Santiago 4:7 textota, jinaspa jamuq tapuyman jina parlariychis:\\n-\\n\u00bfImatan
-  ruwanayki Satanasmanta supaykunamantawan karunchakunaykipaq?\\nWAKIN RUNAKUNAN NINKU:
-  \u201cLayqa ruwaykunawan tupaq peliculakunapas pujllaykunapas manan juchachu. Kusirikunallapaqmi
-  chaykunaqa\u201d, nispa.\\n-\\n\u00bfImanaqtinmi manapuni allinchu kanman chay runakuna
-  jina piensay?\\nIMATAN YACHAMURQANCHIS\\nDios sonqo angelkunaqa yanapawananchispaqmi
-  kashanku, Satanaswan supayninkunawanmi ichaqa Jehov\u00e1 Dios contra kashanku,
-  chaymi layqa ruwaykunawan runakunata enga\u00f1ashanku.\\nYuyarisun\\n-\\n\u00bfImaynatan
-  angelkuna runakunata yanapashanku Diosta reqsinankupaq?\\n-\\n\u00bfImatan yacharunchis
-  Satanasmanta supayninkunamantapas?\\n-\\n\u00bfImaraykun karunchakunayki layqa ruwaykunamanta?\"",
-  "\"Diosca para\u00edso Allpapi hui\u00f1aita cushilla causachunmi munan.\\n\u201c\u00bfChaica
-  pajtaringachu?\u201d nishpachari tapuringui. Bibliapica Diospaj Mandanami chaita
-  pajtachinga ninmi. Yaya Diosca chai Mandanamanta, ima munaita gentecunapaj charishcatapish
-  tucuicuna yachachunmi munan (Proverbios 2:\\nDiosca alli causachunmi munan.\\nShuj
-  yayaca paipaj huahuacuna cushilla causachunmi munan. \u00d1ucanchij Yaya Diospish
-  hui\u00f1aita cushilla causachunmi munan (Isa\u00edas 48:\\nDiosca paipaj \u00f1anpi
-  purichunmi munan.\\nTucuita Ruraj Diosca \u2018paipaj \u00f1anpi\u2019 purichunmi
-  ima shina \u2018causanata\u2019 yachachisha nin (Isa\u00edas 2:\\nDiosca shujlla
-  shina tucushpa paita servichunmi munan.\\nGentecunata ch\u2019icanyachinapaj randica,
-  alli religionca c\u2019uyanacushpa causachunmi yachachin (Juan 13:35). \u00bfPicunataj
-  tucui llajtamanta gentecunata tandalla Diosta servichun yachachicun? Cai folletopimi
-  chaita yachashun.\"", "\"Allpa wira (Kupii)\\nAllpa wira, Rumi wira icha Pitrulyu
-  (Kastilla simi: petr\u00f3leo) huk allpa ukhunpi tiyaq, yana, rawraypaq, puriqlla
-  (likidu) kaq k''illimsa yakuchaqkuna chaqrusqam, rumiyasqa rawrana nisqa.\\nHuk
-  sutikuna[llamk''apuy | pukyuta llamk''apuy]\\n- Kupii samusa ''cop\u00e9''manta.\\n-
-  Yanaquri musuq simi samusa ''oro negro''manta [1].\\nKaykunata ruranku[llamk''apuy
-  | pukyuta llamk''apuy]\\nAllpa wiramantaqa achka imakunatapas ruranchik, ahinataq:\\nPukyukuna[llamk''apuy
-  | pukyuta llamk''apuy]\\n- Arusimi\u00f1ee , Minedu Bolivia (2009)\\nHawa t''inkikuna[llamk''apuy
-  | pukyuta llamk''apuy]\\n- Commons nisqapi suyukunata uyarinakunatapas tarinki kaymantam:
-  Allpa wira (Kupii).\\n- PETROPERU (qhichwa simipi)\\n- PETROPERU (aymara simipi)\"",
-  "\"Kaypi kaq yachachikuykunawanmi bibliata aswan allinta estudiaspa sumaqta entiendenki.
-  Kaypi yachachikuyunaqa manam qullqipaqchu. Kaypiqa bibliatam leewaq, qawawaqtaqmi
-  bibliata aswan allinta entiendenapaq yachachikuykunatapas. Tarinkim bibliamanta
-  videokunata, diccionariota, mapakunata hinaspa bibliapi palabrakuna entiendenapaq
-  listatapas. Tukuymi kachkan bibliamanta astawan yachanaykipaq, mana qullqillapaq.\\nBibliamanta
-  yachanapaq videokuna\\nKay videokunapim yachachwan kayna yachachikuykunamanta: \u00bfImapaqtaq
-  Diosqa kay allpa pachata unancharqa? \u00bfImaynataq wa\u00f1usqakunaqa kachkanku?
-  \u00bfImanasqam Diosqa \u00f1akariykunata mana chinkachinchu?\\n\u00bfImakunam kachkan
-  bibliamanta yachanaykipaq?\\nBibliamanta pipas yachachisunaykipaq\\nJehova Diospa
+  kay hawa: Mario Lanza.\\n- IMDb\"", "\"Wansu walla\\nWansu walla (kastilla simipi:
+  Cordillera del Huanzo) nisqaqa Antikunapi, Piruwpi llaqtapi, huk wallam, Apurimaq
+  suyupi, Antapampa pruwinsyapi, Ariqipa suyupipas, Aplaw pruwinsyapi, Unyun pruwinsyapi,
+  Kuntisuyus pruwinsyapipas, Qusqu suyupipas, Chumpiwillka pruwinsyapi. Chankuwa\u00f1a
+  urquqa llapan urqukunamanta aswan hatunmi (5.494 m hanaq).\\nAllpa saywachi[llamk''apuy
+  | pukyuta llamk''apuy]\\n- Quchakuna: Wansuqucha\\nAswan hanaq urqukuna[llamk''apuy
+  | pukyuta llamk''apuy]\\nKaypipas qhaway[llamk''apuy | pukyuta llamk''apuy]\\nPukyukuna[llamk''apuy
+  | pukyuta llamk''apuy]\\n- Saywitukuna: Piruwpa pruwinsyankuna\\n- [1] Piruwpa aswan
+  hanaq urqunkuna\\n- Saywitukuna: Piruwpa urin Antikunan\\n- pubs.usgs.gov\"", "\"MATEO
+  27:15-17, 20-30 MARCOS 15:6-19 LUCAS 23:18-25 JUAN 18:39-19:5\\nPILATO JESUSTA KACHARIPUYTA
+  MUNAN\\nRUNAKUNA MA\u00d1AKUNKU BARRABASTA KACHARINANKUPAQ\\nJESUSTA ASIPAYANKU
+  MALTRATANKU IMA\\nPilaton runakunata niran\u00f1a: \u2018Manan Jesuspa contranpi
+  nisqaykichismantaqa imatapas juchachanapaq jinaqa tarinichu. Herodespas manan imatapas
+  tarimusqachu\u2019, nispa (Lucas 23:14, 15). Jinaspanmi Pilatoqa Jesusta kacharipuyta
+  munaspa runakunata niran: \u201cQankunaqa munankichispunin Pascua fiestapi pillatapas
+  kacharipunayta \u00bfriki? \u00bfMunawaqchischu jud\u00edo runakunaq reynin kacharipunayta?\u201d,
+  nispa (Juan 18:39).\\nChay tiempopin juj runa Barrab\u00e1s sutiyoq preso kasharan.
+  Paymi karan suwa, gobierno contra jatariq, runa wa\u00f1uchiq ima. Chayta yachaspan
+  Pilatoqa runakunata niran: \u201c\u00bfMayqentan kacharipunayta munankichis? \u00bfBarrabastachu,
+  icha \u2018Cristo\u2019 nisqaykichis Jesustachu?\u201d, nispa. Runakunataq umalli
+  sacerdotekunaq kallpachasqan kaspa Barrabasta kacharinanpaq ma\u00f1akuranku. Chaymi
+  Pilatoqa wajmanta niran: \u201c\u00bfMayqentan iskayninkumanta kacharipunayta munankichis?\u201d,
+  nispa. Runakunataq niranku: \u201c\u00a1Barrabasta!\u201d, nispa (Mateo 27:17, 21).\\nPilatotaq
+  admirasqa niran: \u201cChhaynaqa, \u00bfimatataq ruwasaq \u2018Cristo\u2019 nisqaykichis
+  Jesuswanri?\u201d, nispa. Jinan runakunaqa niranku: \u201c\u00a1Paytaqa k\u2019aspipi
+  warkuy!\u201d, nispa (Mateo 27:22). Paykunaqa mana p\u2019enqakuspan mana juchayoq
+  runata juchachasharanku. Chaymi Pilato niran: \u201c\u00bfIma mana allintataq kay
+  runari ruwaran? Noqaqa manan imatapas paypiqa tarinichu wa\u00f1unanpaq jinaqa,
+  chayrayku soq\u2019achispalla kacharipusaq\u201d, nispa (Lucas 23:22).\\nChaywanpas
+  runakunaqa astawanraqmi qapariranku: \u201c\u00a1Paytaqa k\u2019aspipi warkuy!\u201d,
+  nispa (Mateo 27:23). Jud\u00edo umallikunaq kallpachasqanmi paykunaqa loco jinaraq
+  ma\u00f1akusharanku mana juchayoq runata wa\u00f1uchinankuta, ar\u00ed, pisqa p\u2019unchay
+  \u00f1aupaqllata Jerusalenpi rey jina chaskisqa runata wa\u00f1uchinankutan ma\u00f1akusharanku.
+  Jesuspa discipulonkuna chaypi kasharanku chayqa, ch\u2019inllach\u00e1 kasharanku,
+  mana reparachikuyta munaspa.\\nPilatotaq mana\u00f1a imatapas ruwayta atispa, aswanpas
+  astawanraq ch\u2019aqway jatarisqanta rikuspa, lliu runakuna rikushaqtin unuwan
+  makinta maqchikuran, jinaspa niran: \u201cManan juchayoqchu kasaq kay runaq wa\u00f1usqanmantaqa.
+  Qankunamanta\u00f1ach\u00e1 chayqa kanqa\u201d, nispa. Chaymi runakuna niranku:
+  \u201cChay runaq wa\u00f1usqanmantaqa noqayku\u00f1an wawaykupiwan yachakusaqku\u201d,
+  nispa (Mateo 27:24, 25).\\nPilatoqa runakuna kusichiytan astawanqa munaran, allin
+  kaqta ruwananmantaqa. Chaymi Barrabasta kacharipuran, Jesustan ichaqa p\u2019achanta
+  ch\u2019utichispa jasut\u2019ichiran.\\nJesusta sinchita jasut\u2019ispa\u00f1an
+  soldadokunaqa Pilatoq wasinman apaykuranku. Chaypin Jesuspa muyuriqninman llapa
+  soldadokunata ju\u00f1uranku. Jinan astawan Jesusta maltrataranku. Chaypin kiskamanta
+  coronata simp\u2019aspa Jesuspa umanman churaranku, pa\u00f1a makinmantaq soqosta
+  jap\u2019iykachiranku, jinaspa reykunata jina juj munay p\u2019achawan churaranku.
+  Chaymantataq burlakuranku: \u201cJud\u00edo runakunaq reynin, napaykuykiku\u201d,
+  nispa (Mateo 27:28, 29). Chaymantapas thoqaykuranku, ch\u2019aqlakacharanku iman.
+  Jap\u2019ichisqanku soqoswanpas umapikama p\u2019anaranku, chaywanqa astawanch\u00e1
+  kiska coronaqa umanta k\u2019iriran.\\nChaykunata\u00f1a Jesusta ruwasharanku chaypas,
+  payqa qasillan kasharan. Chaywanmi Pilatoqa anchata admirakuran, chaymi runakunata
+  niran: \u201c\u00a1Qhawariychis! Apampushaykichismi, paypiqa manan ima juchatapas
+  tarimunichu\u201d, nispa. Pilatoqa piensasharanch\u00e1 chhayna khuyay maqasqata
+  jasut\u2019isqata Jesusta rikuspaqa runakuna khuyapayananta. Chaych\u00e1 runakunata
+  niran: \u201c\u00a1Qhawariychis kay runata!\u201d, nispa (Juan 19:4, 5).\\nChaytaqa
+  respetowan khuyapayaywan imach\u00e1 Pilatoqa niran. Payqa repararanch\u00e1 Jesusqa
+  askha k\u2019irikunayoq\u00f1a kashaspapas allin sayasqa thaj nisqalla kashasqanta.\"",
+  "\"\u00bfImaynatam wi\u00f1aypaq kusisqa kawsakuchwan? Bibliamanta yachayta qallaykunapaq\\nKay
+  qillqaqa bibliamanta yachayta qallaykunapaq kimsa yachachikuykunam, kaywanmi Jehova
+  Diospa testigonkuna mana qullqillapaq yachachinku.\\nYACHACHIKUYKUNA\\nPampachaykuwayku,
+  manam kanchu kay maskasqaykiqa.\\nKaykunatapas leeykuy\\nTAPUKUYKUNA\\nJehova Diospa
   testigonkunaqa runamasinchiktam yanapaniku bibliamanta sumaqta yachanankupaq. Munasqayki
   bibliawanmi estudiawaq hinaspapas invitawaqmi aylluykikunata chaynataq amistadnikikunatapas.\"",
-  "\"TERCERA CARTA DEL APOSTOL\\nSAN JUAN\\n1\\n1 Munaska hermano Gayo, chekatapuni
-  munacuspa kelkamuyqui, amigoyqui, Cristoj cachan.\\n2 Munaska herman\u00f3y, Diosmanta
-  ma\u00f1acuni kanta allillan risunanpaj tucuy imapi allillanpis caricushanayquipaj.
-  Yachani causayniyqui Cristowan allin caskanta. 3 Mayta cusicorkanitaj Cristopi jap''icojcuna
-  chayamojtincu. Willawarkancu Diospa cheka niskasninta casushaskayquita camachiwaskanchejmanjina
-  causashaskayquitawan. 4 Tucuy imamanta astawanka cusicuni uyarispa Cristopi wawasniy
-  cheka niskanmanjinapuni causashaskancuta.\\n5 Munaska herman\u00f3y, allinta ruwanqui
-  forastero hermanostapis yanapaspa. 6 Tantaska hermanosman* Literal: iglesia. willarkancu
-  munacuywan paycunata yanapaskayquimanta. Diospaj llanc''ajcuna caskancuraycu yanapariy
-  ruwanayquimanjina, paycunata allin rinanpaj. 7 Jesucristomanta willaranancupaj llojserkancu.
-  Chaywanpis waj llajtayojcunamantaka manapuni imatapis causanancupaj jap''ejchu cancu.
-  8 Chayraycu chayjina runastaka yanaparinanchej paycunawan cusca Diospa cheka niskanpi
-  llanc''aj-masis cananchejpaj.\\n9 Cristopi caj tantaska hermanosman cay imasmanta
-  kelkarkani. Diotrefesr\u00ed paycuna uqhupi curaj cayta maytapuni munan. Nokaycoj
-  niskaycutataj mana casunchu. 10 Chayraycu jamuspa tantaska hermanosman sut''inchasaj
-  paypa ruwashaskanmanta. Payka sajra imastapuni nokaycumanta parlashan contraycupi
-  llullacuspa. Ni chayllachu. Wasinman mana wajyarkachu watucoj hermanosta. Chaywanpis
-  wajyacuyta munaj hermanosta jarc''ashan ama wajyanancupaj. Tantacuynincumantataj
-  watucoj hermanosta kharkon.\\n11 Munaska herman\u00f3y, sajrata ruwajcunajinaka
-  ama ruwaychu. Manachayr\u00ed chekan ruwajcunajinapuni ruway. Chekan cajta ruwajka
-  Diospa cheka wawanmin. Sajra cajta ruwajr\u00ed ni imatapis yachanchu Diosmanta.\\n12
-  Tucuy runas Demetriomanta sumajta parlancu chekan cajta ruwaskanraycu. Chekatapuni
-  ajinata ruwashan. Nokaycupis paymanta sumajta parlaycu ajinata chekanta ruwashaskanraycu.
-  Yachanquitaj willaskaycoka chekapuni caskanta.\\n13 Ashqha imasraj cashan kanman
-  nisunay. Mana munanichu chayta kelkamusuyta, 14 pisi p''unchaymanta uyapura parlananchejta
-  suyashaskayraycu.\\n15 Allillanpi cacuy Dioswan runaswanpis. Caypi tiyacoj hermanos
-  napaycamusuncu. Kanri jakaypi caj munaska hermanosninchejta sapa ujta napaycapuway.\"",
-  "\"Sergio Osme\u00f1a\\nSergio Osme\u00f1a sutiyuq runaqa (* 9 \u00f1iqin tarpuy
-  killapi 1878 watapi paqarisqa Ceb\u00fa llaqtapi - \u2020 19 \u00f1iqin kantaray
-  killapi 1961 watapi paqarisqa Quez\u00f3n llaqtapi), huk Philipinakuna mama llaqtayuq
-  taripay amachaq wan pulitiku qarqan.\\n1944 watamanta 1946 watakama \u00f1awpaq
-  kuti Philipinakunapa Umalliqnin karqan.\\nMaman: Juana Osme\u00f1a y Suico.\\n\u00d1awpaq
-  warmi: Estefan\u00eda Veloso (1901-1918) / Esperanza Limjap (1920-1961)\\nChurinkuna:\\nYachay
-  wasi:\\nKaypipas qhaway[llamk''apuy | pukyuta llamk''apuy]\\nHawa t''inkikuna[llamk''apuy
+  "\"T''aynam\\nT''aynam (chinu simipi: \u81fa\u5357; Hanyu Pinyin: T\u00e1in\u00e1n;
+  Wade-Giles: T''ai-nan; Pe\u030dh-\u014de-j\u012b: T\u00e2i-l\u00e2m, kastilla simipi:
+  Tainan) hatun llaqtaqa Chunwa Republika mama llaqtap.\\nPulitika Rakiy[llamk''apuy
+  | pukyuta llamk''apuy]\\n6 distritukuna\\nYachachiy[llamk''apuy | pukyuta llamk''apuy]\\n\u00d1a\u00f1a
+  llaqtakuna[llamk''apuy | pukyuta llamk''apuy]\\nKaypipas qhaway[llamk''apuy | pukyuta
+  llamk''apuy]\\nHawa t''inkikuna[llamk''apuy | pukyuta llamk''apuy]\\n- Commons nisqapi
+  suyukunata uyarinakunatapas tarinki kaymantam: T''aynam.\\n- T''aynam oficial web
+  (chunwa wan inlish simipi)\"", "\"Ecuador mamallakta emergencia sanitaria punchakunapi
+  kashkamanta, Zumbahua killipak ayllu llaktakunamanta ayllukunaka mana uriyakunchu
+  hatuna rantinaman, shinallatak chapakkunata ma\u00f1ashka \u00f1ankunapi rikuriyashpa
+  yanapachun pi unkushka ayllukuna mana hawalla yaykuchun. Chasnallatak tukuy ayllukunaman
+  yuyachikun quedate en tu chakra nishpa.\\nBertha Chasipanta, Latacunga anki uyari.\\nCORAPE
+  es una Organizaci\u00f3n comunitaria, humanista, ecum\u00e9nica y pluralista que
+  responde a las\\naspiraciones democr\u00e1ticas de la ciudadan\u00eda.\"", "\"Kay
+  pasak 31 sitwa killa pakari kay kullka 6 karway killa, Unidad Contra el Tr\u00e1fico
+  en Puertos y Aeropuertos (UIPA) tukuymanta hapishka 787 bloques de coca\u00edna
+  shiraykunata shinallatak kanchis runakuna hapishkata.\\nComando de Polic\u00eda
+  de Esmeraldas llankay wasipi charishkami shuk tantanakuyta willanapak alli llankaykunata
+  General Edmundo Moncayo, director Nacional de Antinarc\u00f3ticos; Freddy Ramos,
+  subdirector de Antinarc\u00f3ticos y Paola Cabezas, gobernadora de Esmeraldas, apuk
+  mashikunami \u00f1a willashka shinallatak rikuchishka kay shiraykuna hapishkata.\\nMoncayo
+  mashi pushak rikuchishkami kay ishkay rikurayay ruraykunawan hapishka kashkami kachanapak
+  Am\u00e9rica Central Apiyala llaktakunaman kachanapak, kay shiraykunak charishkami
+  ishkay watachina chuya pankakunata, Ramos mashi willashkami \u00f1a tapuykunata
+  rurakpika, kay mintalakunaka hapitukushpa mana alli llankaymanta hatun mamayakupi,
+  shitakkunami kashka kay kipi shiraykunata.\\nMoncayo mashi rikuchishkami ishkay
+  runakunaka Colombia llaktamantami kashka chaymantami yuyanka kay shirakunaka ka
+  llaktamanta shamushkata, kanua aparikunapi shukshichun Centroam\u00e9rica llaktakunaman.\\nKay
+  llankaykunaka kanmi ishkay rikurayay ruraykuna.\\nKay kallari rikurayay ruray Ocaso,
+  rurashkami pasak 31 sitwa killa, hapishkami 400 bloques de coca\u00edna shiraykunata,
+  tanquero aparik antawapi, shinallatak kay ishkaypika Brisa llankaywan 387 kipikunata
+  shiraykuna pampashkata, Atacames wasikuna kuchullapi 30 tupukuna hatun mma yaku
+  kuchullapi. Hapishkami tukuymanta 600 kilos de alcaloide shiraykunata.\\nKay rikurayay
+  ruraykunapika, hapishkami ishkay antawakunata shinallatak shuk tanquero antawatapash,
+  Moncayo mashi rikuchishkami kay Ecuador mamallaktapika mana tiyanchu imashina rurana
+  shiraykunata llankay wasi, chakra shiraykuna, astawankarin kay mamallaktatami pasankuna,
+  chaymantami Direcci\u00f3n Antinarc\u00f3ticos llankay mashikuna punllanta alli
+  llankayta rikuchinkuna Grupo Especial M\u00f3vil Antinarc\u00f3tico (GEMA), Centro
+  Regional de Adiestramiento Canino (CRAC) UIPA; shuktak alli llankakunapash.\\nKay
+  rikurayay ruraywanka harkashkami ama hatuchun 3\u2019386.040 dosis de coca\u00edna
+  shiraykunata hatuna wasikunaman. A. V. /Quito/ MDI- Traductor / Luis Paca /DNCE\\n-\\nComunicamos2
+  semanas a\u00f1o\\nEn Quito, operativo policial permiti\u00f3 la aprehensi\u00f3n
+  de tres ciudadanos por el presunto delito de robo\\n-\\nDist. Metr. Guayaquil4 semanas
+  a\u00f1o\\nEn contenedor cargado de banano que ten\u00eda como destino T\u00fanez
+  la Polic\u00eda halla m\u00e1s de media tonelada de coca\u00edna\\n-\\nComunicamos2
+  semanas a\u00f1o\\nEn Loja ciudadana aprehendida por llevar coca\u00edna y marihuana\\n-\\nDist.
+  Metr. Guayaquil1 semana a\u00f1o\\nPolic\u00eda encuentra dos fusiles y municiones
+  en una vivienda en el Distrito Esteros.\"", "\"1Chaura Job niran:\\n2\u00abLlaquicuyn\u00ebta,
+  disigrasya chayamashancunata shuntarcur balansawan p\u00ebsaptenga\\n3lamar cantuncho
+  agushpitapis masmi lasanman. Chaymi ushaypa ushar rimashc\u00e4pis.\\n4Tayta Diospa
+  l\u00ebchanmi nogacho jaticasha caycan. Ben\u00ebnunmi int\u00ebru cuerp\u00f6man
+  mashtacasha. Tayta Dios \u00f1acachimashpanmi fiyupa manchayc\u00e4chiman.\\n5Guewan
+  captenga b\u00fcrrupis manami gaparanchu. T\u00f6rupis micunanpaj caycaptenga manami
+  b\u00fcyanchu.\\n6Gam nimashayquega cachiynaj micuyn\u00f6mi, runtupa yurajnin gamyajn\u00f6mi.\\n7Chaypis
+  cananga mana yachash\u00e4mi micuyn\u00eb.\\n8\u00ab\u00a1Ima alliraj canman ma\u00f1acush\u00e4ta
+  Tayta Dios auniycamaptin! \u00a1Ima alliraj canman munash\u00e4ta Tayta Dios cumlimaptin!\\n9\u00a1Ima
+  alliraj canman Tayta Dios llapiramaptin! Chauraga wa\u00f1ur ushar\u00e4c\u00f6mannami.\\n10Fiyupa
+  nanaywan wa\u00f1urpis cushic\u00f6manmi imaypis Tayta Diospa laynincunata cumlej
+  cashp\u00e4.\\n11Callp\u00e4pis manami cannachu masta awantan\u00e4p\u00e4naga.
+  \u00bfImatanataj shuy\u00e4sh\u00e4pis?\\n12Manami gagano sinchichu c\u00e4, ni
+  runsino chucrupischu.\\n13Quiquill\u00e4pitaga manami imatapis rur\u00e4chu. Yanap\u00e4m\u00e4nanp\u00e4pis
+  manami pipis canchu.\\n14\u00ab\u00d1acaycaj am\u00efgunch\u00eftaga cuyapanch\u00efmi,
+  Tayta Dios nishancunata mana cumliptinpis.\\n15Gamcunami ichanga am\u00efg\u00f6
+  caycarpis mana yanap\u00e4manquichu. Gamcunaga ragrapa yacu p\u00e4sarejn\u00f6mi
+  caycanqui.\\n16Yacuga putca aywan gasapawan, rashtawan tacushami.\\n17Mana rashtaptinnaga
+  ragrapa yacu uraj chaquic\u00e4cunmi. Fiyupa shanaptinna ushajpaj chaquic\u00e4cun.\\n18Yacuta
+  ashir caminanticunapis juc-l\u00e4pana purin. Chayn\u00f6pami chunyajpa aywashpan
+  wa\u00f1un.\\n19Temapita Sab\u00e4pita aypalla nigusyanticuna sham\u00f6ga chay
+  yacu-mallwa aywajta tariyta yarpashpan ashin.\\n20Ashir aywashanman chayarga fiyupa
+  llaquicun. \u2039Yacuta tarishun\u203a nishanpis yangallami.\\n21Chayn\u00f6mi gamcunapis
+  nogap\u00e4ga carcaycanqui: Fiyupa melanaypaj caycash\u00e4ta ricayc\u00e4ramar
+  mancharircaycanqui.\\n22Noga manami gamcunata imatapis ma\u00f1ac\u00f6chu. Manami
+  \u2039salbam\u00e4nayquipaj guellayta p\u00e4gay\u203a n\u00ebchu.\\n23Manami \u2039chiquimajcunapita
+  salbamay\u203a n\u00ebchu. Manami \u2039suwacunapa maquinpita jorgamay\u203a n\u00ebchu.\\n24\u00abYachachimay-llapa,
+  chauraga mana rimacuypami chasquicushaj. Tantiyachimay ima mana allita rurash\u00e4tapis.\\n25Rasun
+  cajpitaga pipis manami \u2039mana\u203a ninchu. Gamcunami ichanga manacajta jitapayc\u00e4manqui.\\n26Gamcunaga
+  jamurp\u00e4manqui rimash\u00e4pitami. Chay rimash\u00e4cunataga manacajmanmi churarcaycanqui.\\n27Chayno
+  car gamcunaga wacchata wa\u00f1uchinanpaj nirpis ninquimanmi. Cuyanacushayqui am\u00efguyquitapis
+  ranticuycunquimanmi.\\n28Masqui ric\u00e4ramay. Rasun cajtami niyc\u00e4. Manami
+  llullac\u00f6chu.\\n29Sumaj yarpachacuy. Ama fiyuga caychu. Rasun cajta niycash\u00e4taga
+  sumaj tantiyacuy.\\n30Gamcunaga capas yarpanqui llullacuycash\u00e4ta. Capas \u2039imata
+  parlaycashantapis tag\u00e4ga mana musyanchu\u203a nircayc\u00e4manqui.\"", "\"1Iskay
+  watas pasayta Faraonqa mosqokorqa. Chay mosqoynimpi pay kashasqa Nilo Mayu kantupi.
+  2Chaypi rikusqa qanchis sumachaj wira wakasta mayumanta llojsimushajta, mikhushajtataj
+  t''otora ukhupi pastosta. 3Chaykunaj qhepantataj qanchis millay tullu wakas llojsimullasqankutaj
+  mayumanta; chay wira wakaspa \u00f1awpaqenmantaj mayu kantupi qayllaykushajta rikusqa.
+  4Chant\u00e1 chay millay tullu wakasqa oqoykusqanku chay wira wakasta. Jina kashajtintaj,
+  Faraonqa ujllata rijch''arerqa. 5Chay qhepata ujtawan pu\u00f1uykorqa; chaypeqa
+  waj jinata\u00f1ataj mosqokullarqataj: Chaypi rikorqa sumachaj trigo umasta uj wi\u00f1ayllamanta
+  wi\u00f1asqata. 6Chayllamantataj wi\u00f1asqanku qanchis ch''aki umas, inti llojsimuynejmanta
+  jamoj wayraj ch''akichisqasnin. 7Chaykunataj chay qanchis sumachaj trigo umasta
+  mikhuykusqanku. Jinallapi Faraonqa rijch''ariytawan, reparakorqa chayqa uj mosqoy
+  kasqanta. 8Q''ayantin paqarenqa may llakisqa karqa; chayrayku wajyacherqa tukuy
+  yatirista, yachayniyojkunatawan tukuy Egiptomanta. Chaywampis Fara\u00f3n chay mosqokusqanta
+  willajtintaj, ni mayqenninku sut''inchayta aterqankuchu imastachus niyta munasqanta
+  chay mosqokusqan. 9Chaymanta\u00f1a vinota jaywajkunaj kurajninku Faraonman nerqa:
+  Aj\u00e1, kunan yuyarikuni imatachus mana allinta ruwasqaymanta. 10Qan, Fara\u00f3n,
+  maypachachus kamachisniykej contranta phi\u00f1arikorqanki, t''antata ruwajkunaj
+  kurajnimpa contranta, noqaj contraytawan chaypacha, capitampa wasin carcelman wisq''achiwarqayku.
+  11Chaypacha paywan noqawan mosqokorqayku uj ch''isillapi, sapa ujniykoj mosqokusqaykutaj
+  niyta munarqa imachus kanawaykuta. 12Chayllapitaj karqa uj hebreo wayna; chay karqa
+  capitampa kamachin. Payman willakorqayku mosqokusqasniykuta, paytaj sut''inchawarqayku,
+  niwarqaykutaj imaschus noqaykupaj kananta. 13Kikintaj karqa imastachus niwasqaykuman
+  jina. Noqa kay ruwanayman kutiykapuni, chay ujtaj sipisqa karqa. 14Chayta uyarispa,
+  Faraonqa Joseta carcelmanta wajyachimorqa. Payta orqhomorqanku usqhay usqhayta.
+  Josetaj chujchanta k''utuchikorqa, jinaspataj p''achanta cambiakuytawan, Faraonman
+  rerqa. 15Paytaj nerqa Joseman: Noqa mosqokuni, nitaj pipis kanchu sut''inchapuwaj;
+  uyarinitaj qan mosqoykunata uyarispa sut''inchasqaykita, nispa. 16Josetaj nerqa:
+  Chayqa mana noqamantachu; Dios atin sut''inchapusuyta allinniykipaj, nispa 17Chant\u00e1
+  Fara\u00f3n nerqa: Mosqoyniypi Nilo Mayu kantupi sayashasqani. 18Chay mayumanta
+  qanchis sumachaj wira wakas llojsimuspa, t''otora ukhupi pastota mikhushasqanku.
+  19Qhepankuta llojsimullasqankutaj qanchis millay tullu wakas. Chay jina millay tullu
+  wakastaqa manapuni rikojchu kani kay tukuy Egiptopi. 20Chay qanchis millay tullu
+  wakastaj chay qanchis wira wakasta oqoykusqanku. 21Chay jinata oqoykojtinkupis,
+  ni pipis reparasqachu oqoykusqankuta, imaraykuchus manapunipis mikhunkumanchu karqa
+  jina tullusllapuni kasqanku \u00f1awpajta jina. Noqataj jinallapi rijch''arini.
+  22Chant\u00e1 pu\u00f1uykuytawan, waj jinata\u00f1ataj mosqokullarqanitaj: Qanchis
+  trigo umas uj wi\u00f1ayllamanta wi\u00f1asqanku. 23Chay qhepata rikullarqanitaj
+  p''utumushajta qanchis millay ch''aki ch''usu umas inti llojsimuynejmanta jamoj
+  wayraj ch''akichisqan. 24Chay qanchis ch''aki ch''usu trigo umas mikhuykusqanku
+  chay sumachaj k''acha trigo umasta. Chayta willani yatirisman, nitaj ni mayqenninku
+  willawankuchu imatachus niyta munasqanta. 25Chant\u00e1 Joseqa Faraonta nerqa: Iskaynin
+  mosqokusqasniyki ujlla kanku. Dios willasunki Pay imatachus ruwanan kasqanta. 26Qanchis
+  wira wakasqa qanchis watas kanku, kikillantataj niyta munan qanchis trigo umaspis.
+  Chay iskaynin mosqoykuna ujllata niyta munan. 27Qanchis millay tullu wakastaj, wira
+  wakaspa qhepanta llojsimojkunapis kanku qanchis watas. Kikillantaj qanchis millay
+  trigo umas inti llojsimuynejmanta jamoj wayraj ch''akichisqampis qanchis yarqhay
+  watas kanku. 28Kay imatachus nishayki, chayllatataj Diospis willasunki Pay imatachus
+  ruwanan kasqanta. 29Kay tukuynin Egipto jallp''aspi qanchis watasta sumajta mikhuykuna
+  poqonqanku. 30Chant\u00e1 qanchis watastaj sinch''i yarqhay kanqa. Chayrayku ni
+  pipis yuyarenqachu qanchis watasta sumajta mikhuy poqosqanta. Ajinata yarqhayqa
+  tukuynin jallp''aspi k''atej nichenqa. 31Yarqhayqa anchapuni kanqa, mana aguantay
+  atina; \u00f1awpajta sumajta poqosqanqa qonqaypi qhepakonqa q''ara t''ojrapacha.
+  32Qanqa iskay kutita kikillantapuni mosqokusqanki imaraykuchus Diosqa ruwanampuni
+  kashan chayta, imatachus ruwayta munasqanman jina usqhayllata. 33Chayrayku allin
+  kanman uj sumaj yuyayniyoj, yachayniyoj runata mask''anayki kay llajtamanta cuentayoj
+  kanampaj. 34Qanqa kayta ruwawaj: Ajllay allin kamachejkunata, paykuna tukuynejpi
+  kamachimunankupaj, llank''achimunankupaj, jinaspataj trigota phishqaman t''aqaspa
+  ujnin kaj t''aqata tantachinankupaj, chay qanchis wataspi sumajta poqoshajtin. 35Chay
+  sumaj watas jamojpi trigota tantachunku tukuy runas yarqhay wataspi mikhunankupaj.
+  Chayta tantachunku, qampa nisqaykiman jinataj llajtaspi waqaychachunku. 36Ajinamanta
+  trigoqa kanqa runas mikhunankupaj amataj yarqhaywan wa\u00f1unankupaj, Egipto jallp''aspi
+  manchay yarqhay kashajtin. 37Chay jinata Josejpa nisqanqa allin rijch''arqa Faraonman,
+  jinallataj kamachisninmampis. 38Chant\u00e1 Faraonqa nerqa: Waj runata tarisunmanchu
+  kay runata jina Diospa espiritunniyojta? nispa. 39Josemantaj nerqa: Mana pipis kanchu
+  qan jina sumaj yuyayniyoj, yachayniyoj runa. Dios qanmanqa yachachisunki kay tukuy
+  imas kananmanta. 40Qanmin kamachinay wasipi imaschus ruwanamanta kamachiy ari, tukuy
+  runastaj qampa kamachisqaykita kasusonqanku. Noqalla qanmanta aswan kuraj kasaj,
+  imaraykuchus noqaqa rey kani. 41Noqaqa qanta ajllaspa, kay tukuynin Egiptota kamachinaykipaj
+  churayki. 42Chayta niytawantaj, Faraonqa selloyoj anillonta makinmanta orqhokuytawan,
+  Josejpa makinman churaykorqa. Chaymantataj kamacherqa sumaj lino p''achasta churanankuta,
+  jinaspataj kunkanman churaykorqanku qorimanta ruwasqa walqata. 43Chaymantataj Josetaqa
+  ujnin sumaj kaj carretanman wicharicherqanku, \u00f1awpaqentataj qhaparispa rerqanku:
+  Pasachiychej, nispa. Ajinata Josetaqa ajllaspa, churarqanku kamachej kanampaj tukuy
+  Egipto jallp''api. 44Faraontaj nerqa: Noqalla Fara\u00f3n kani; chaywampis kay tukuynin
+  Egipto jallp''api mana pipis makinta, nitaj chakintapis oqharenqachu, qan mana imatapis
+  nejtiykeqa, nispa. 45Chant\u00e1 Josemanqa Fara\u00f3n churarqa Zafnat-panea sutita.
+  Chaymantataj payta casaracherqa On llajtamanta sacerdote Potiferaj ususin Asenatwan.
+  Ajinamanta Joseqa muyumorqa tukuy Egipto jallp''asta. 46Joseqa kinsa chunka watasniyoj
+  karqa Egiptopi reyman pusashajtinku. Chaymanta Joseqa Faraonpa \u00f1awpaqenmanta
+  rispa, qallarerqa tukuynin Egipto jallp''asta riyta. 47Chay wataspi chajrasqa sumajta
+  poqorqa oqhariy mana atinasta. 48Chay trigostaqa Jos\u00e9 waqaychacherqa qanchis
+  wata junt''api; sapa llajtapi waqaychacherqa chay qayllaspi poqojta. 49Joseqa chay
+  wataspi trigota oqharerqa mama qocha kantupi t''iyu chhikatapuni. Chay chhika trigota
+  mana\u00f1a pesaspachu jap''ej, jinallata\u00f1a jallch''aj, imaraykuchus mana yupay
+  atina karqa. 50Manaraj chay yarqhay watas chayamushajtin, Josejtaqa iskay\u00f1a
+  churisnin karqa Asenat warmimpi. 51Kuraj kajta suticharqa Manas\u00e9s sutiwan,
+  imaraykuchus nerqa: Dios qonqachiwan tukuy llakiyniyta, ayllusniytawan, nispa. 52Sullk''a
+  kajtataj suticharqa Efra\u00edn sutiwan, imaraykuchus nerqa: Dios niwan wawasniyoj
+  kanayta runaj llajtampi may llakisqa \u00f1ak''arispa purisqaypi, nispa. 53Ajinamanta
+  junt''akorqa chay qanchis watas, mayk''ajchus sumajta chajras poqorqa Egiptopi,
+  chay watas. 54Qallarikamorqankutaj qanchis yarqhay watas, Josejpa nisqanman jina.
+  Sapa naciompi yarqhay karqa. Egiptollapi mana karqachu; jaqaypeqa mikhuna kallarqa.
+  55Egiptopi mikhuymanta pisipaspaqa, runas rerqanku Faraonmanta ma\u00f1akoj. Faraontaj
+  egipciosman nerqa: Rispa, Josemanta ma\u00f1akamuychej, ruwaychejtaj paypa nisqanta,
+  nispa. 56Yarqhay tukuynej llajtaspi kajtintaj, Joseqa kicharerqa, may pirwaspichus
+  trigo jallch''asqa karqa, chaykunata, egipciosman trigota vendenampaj, imaraykuchus
+  yarqhayqa astawan astawan yapakusharqa tukuynejpi. 57Tukuynin nacionesmanta Egiptoman
+  jamusharqanku Josemanta trigota rantikoj, imaraykuchus mana\u00f1apuni ni may llajtaspi
+  imapis karqachu mikhunankupaj.\"", "\"Iskaylla pusapunakuna\\nKay willakunaqa hallch''asqam.
+  Qhipaq musuqchasqaqa 14:25 11 dis 2017 karqan. 5000-lla taripasqam pakasqa hallch''api
+  aypalla kachkan, manam aswanchu.\\nKay p''anqapiqa huk pusapuna p''anqaman pusapuq
+  p''anqakunap sutinkunatam rikunki. Sapa sinrupiqa \u00f1awpaq \u00f1iqin, iskay
+  \u00f1iqinpas pusapunaman t''inkikunam, iskay \u00f1iqin pusapunap taripananpa qallariyninpas,
+  sapsilla \\\"chiqap\\\" allin taripana qillqam, maymanchus \u00f1awpaq \u00f1iqin
+  pusapuna p''anqa pusachun.\\nChakapusqa taripasqakunaqa paskasqa\u00f1am.\\nQhipanpiqa
+  rikuchkanki 1-kama tarisqatam, #1 huchhamanta #1 huchhakama.\"", "\"San Miguel Aqu
+  distritu\\nSan Miguel Aqu distritu nisqaqa (kastilla simipi: Distrito de San Miguel
+  de Acos) Piruw mama llaqtapi huk distritum, Lima suyupi , Waral pruwinsyapi. Uma
+  llaqtanqa Aqu llaqtam.\\nYuyarina\\nWi\u00f1ay kawsay[llamk''apuy | pukyuta llamk''apuy]\\nKamasqa
+  31 \u00f1iqin qhapaq raymi killapi 1956 watapi, Manuel Prado Umalliqmi.\\nAllpa
+  saywachi[llamk''apuy | pukyuta llamk''apuy]\\nWaki[llamk''apuy | pukyuta llamk''apuy]\\nSimikuna[llamk''apuy
+  | pukyuta llamk''apuy]\\nDistritupiqa aswanta kastilla simitam rimanku.\\n/1 Rimaqkuna:
+  5 / 5+ wata /2 Indihina simi: qhichwa simi, aymara simi, ashaninka simi icha huk
+  indihina simi (mana hawa simi) Pukyu: [1]\\nI\u00f1iy[llamk''apuy | pukyuta llamk''apuy]\\nLlaqtap
+  amachana santun[llamk''apuy | pukyuta llamk''apuy]\\n- San Miguel arkanhil.\\nDistritupi
+  paqarisqa[llamk''apuy | pukyuta llamk''apuy]\\nKaypipas qhaway[llamk''apuy | pukyuta
+  llamk''apuy]\\nWillay pukyukuna[llamk''apuy | pukyuta llamk''apuy]\\nHawa t''inkikuna[llamk''apuy
   | pukyuta llamk''apuy]\\n- Commons nisqaqa multimidya kapuyninkunayuqmi kay hawa:
-  Sergio Osme\u00f1a.\"", "\"Dina Boluarte\\nDina Ercilia Boluarte Zegarra (achalapi:
-  Tina Irsilya Wulwarti Siyarra) sutiyuq warmiqa (31 \u00f1iqin aymuray killapi 1962
-  watapi paqarisqa Challwanka llaqtapi, Challwanka distritupi, Aymara pruwinsyapi,
-  Apurimaq suyupi) huk Piruw mamallaqtayuq taripay amachaqmi, pulitiku warmim. 29
-  \u00f1iqin anta situwa killapi 2021 watapi p''unchawmantapacha Piruwpa umalliq rantininmi
-  kachkan, Piyru Kastillup kamachiyninpi.\\nTinaqa Challwanka llaqtapim wi\u00f1arirqan.
-  Lima llaqtapi San Mart\u00edn de Porres Yachay Suntur (kastilla simipi: Universidad
-  de San Mart\u00edn de Porres) nisqapi yachaqarqan chiqarimaytam. 2018 watapi Qispi
-  Piruw (kastilla simipi: Per\u00fa Libre) partido-pim wankurirqan. 29 \u00f1iqin
-  inti raymi killapi 2021 watapi p''unchawpi musuq umalliq Piyru Kastillum payta umalliq
-  rantiman kamachirqan.\\nKaypipas qhawayLlamk''apuy\\nHawa t''inkikunaLlamk''apuy\\n-
-  Commons nisqaqa multimidya kapuyninkunayuqmi kay hawa: Dina Boluarte.\"", "\"Jesusqa
-  Galileapi yachachisqasninman nerqa: \u201cRispa, tukuy laya runasta yachachisqasniyman
-  tukuchimuychej. Yachacherqaykichej chayta yachachispataj bautizaychej\u201d, nispa.
-  Chant\u00e1 nerqa: \u201cAma qonqaychejchu, qankunallawanpuni kasaj\u201d, nispa.\\nJesusqa
-  kausarimuytawan, Jerusalenpi, Judeapi ima ashkha yachachisqasninman rikhurerqa.
-  Payqa kausarimusqanmanta qhepan 40 diaspi sumajta yachacherqa, ashkha milagrostataj
-  ruwarqa. Chant\u00e1 Olivos orqopi apostolesninwan uj kutillatawan\u00f1a tantakuspa
-  nerqa: \u201cAma Jerusalenmanta ripunkichejchu. Suyallaychejpuni Tatay qosaj nerqa
-  chayta junt\u02bcananta\u201d, nispa.\\nApostolestaj chayta mana entiendespa taporqanku:
-  \u201cSe\u00f1or, \u00bfkunanchu Israelpi rey jina gobernanki?\u201d, nispa. Jesustaj
-  nerqa: \u201cJehov\u00e1 Diosqa manaraj rey kanayta munanchu. Jinapis tumpamantawan
-  Diospa atiyninta jap\u02bcinkichej, noqamantataj testigos jina willamunkichej Jerusalenpi,
-  Judeapi, Samariapi, kay jallp\u02bcaj tukuynin k\u02bcuchusninpi ima\u201d, nispa.\\nChant\u00e1
-  Jesusqa cieloman kutiporqa, uj phuyutaj payta p\u02bcampaykorqa. Yachachisqasnintaj
-  cielota qhawashallarqankupuni, Jesustaj chinkaporqa.\\nYachachisqasqa Olivos orqomanta
-  Jerusalenman kutiporqanku. Chaypitaj uj wasej altos patanpi tantakoj kanku, orakojtaj
-  kanku. Suyasharqankutaj imatachus ruwanankuta yachanankupaj kamachiykunata.\"",
-  "\"Noticias\\nNoticias Destacadas\\n\u00daltimas noticias\\n- Mando institucional
-  cumpli\u00f3 agenda de trabajo en Guayaquil\\n- En una hacienda de la Zona 5 la
-  polic\u00eda detienen a seis sujetos en posesi\u00f3n de armas, municiones y explosivos\\n-
-  En un terreno bald\u00edo del cant\u00f3n Dur\u00e1n la polic\u00eda encuentran
-  armas y municiones\\n- En el Distrito Modelo se ejecutaron 80 operativos para controlar
-  hechos delictivos\\n- Desde hoy la Zona 7 de la Polic\u00eda Nacional con nuevo
-  Comandante\\n- Polic\u00eda localiz\u00f3 a adolescente oriunda de Chimborazo, reportada
-  como desaparecida\\n880 chapakkunami yanapayta kunka kasilla rikunapak Liga vs.
-  Barcelona chakiwan haytashpa pukllaypi.\\nEcuador mmamallaktap chapak, Distrito
-  La Delicia llankaywan wankurishpa mana kunkashpa \u00f1ukanchipak llankayta, \u00f1a
-  llankayta churankami kay Liga Deportiva Universitaria de Quito y Barcelona, pukllaypi
-  charinkami kay chillay 29 ayriwa killa 2015 wata, 19:30 saylla Ponciano hatun pukllana
-  pampapi, kay Quito llaktapi.\\nKay chapakkunapa llankayka kallarinkami 14:00 sayllapi,
-  \u00f1a purikunkami rikurayashpa harkaykunapi \u00f1a willakunkami ima ruraykunata,
-  \u00f1a kipataka rikurayay ruraykunata 16:00 saylla pacha kallarinka 880 chapakkuna
-  Distrito La Delicia, Centro Regional de Adiestramiento Canino (CRAC), Grupo de Operaciones
-  Motorizadas (GOM), Jefatura Provincial de Inteligencia, Grupo de Operaciones Especiales
-  (GOE), Servicio Urbano, Unidad de Mantenimiento del Orden P\u00fablico (UMO), Unidad
-  de Equitaci\u00f3n y Remonta, DINAPEN, Antinarc\u00f3ticos, Jefatura Provincial
-  de Polic\u00eda Judicial y aspirantes a Polic\u00edas, chikan chikan alli llankay
-  wasikunamanta paykunami wakaychikunka kasilla rikunapak kallari, \u00f1a pukllaypi
-  shinallatak \u00f1a tukuri kay pukllaypi.\\nKay llankaytaka charinkami hatun pukllana
-  ukupi shinallatak kanlla kunapipash ima llakikunata harkanapak, kay Barcelona pukllakunata
-  kaparikunaka \u00f1a churashkami kanka platea alta de la general sur tiyanakunapi
-  shinallatak llukshinkami \u00f1a kikin kaparikkuna tukuy llukshikpi kay pukllana
-  pampamanta.\\nEl Teniente Coronel de Polic\u00eda de E.M., Jos\u00e9 Serrano L\u00f3pez,
-  Comandante del Distrito de Polic\u00eda La Delicia Acc, mashi pushak tukuykunaman
-  willanmi, kay chapakkuna harkaypi yanapayta ma\u00f1achichun kay harkaypika rikunkami,
-  ama pachun illapa ay\u00f1ita, kuchunakunata, machana yakuta, shinallatak shuktak
-  imaykuna ama llakichichun kay pukllayta rikukunata, kaykunami rumikuna, pukpukuna,
-  hebillas, extintores fuegos pirot\u00e9cnicos, y bengalas nina llakichikkuna.\\n\u00d1a
-  tukuripika, Serrano mashi rimarishkami mayhan masikuna kay pukllaypi llakichikpika,
-  hapishpa churashunmi paktachik wanachik mashipak makipi, kay pukllaykunapi ama llakikuna
-  tiyachun. Kay rikurayay ruraykunaka tukurinkami kay pukllana wasimanta tukuy ayllukuna
-  \u00f1a llukshikpi nishkami.\\nDMQ/ Traductor Luis Paca DNCE.\"", "\"\u201cJehovaka
-  tucuynejta ricushan, sajracunata allincunatawan khawaspa.\u201d (PRO. 15:3, Quechua
-  de Cuzce.)\\n1, 2. Runa imallatapis camaranejta qhawasqanwan Jehov\u00e1 qhawamuwasqanchejwan,
-  \u00bfkikinchu?\\nASHKHA suyuspi polic\u00edas camarasta churanku, ima accidente
-  kajtinpis grabanankupaj. Autoyoj pillatapis saruspa ayqejtenqa chay camarasnejta
-  qhawaspa taripayta atinku. Chay c\u00e1maras sapa esquinapi churasqa kasqanraykutaj,
-  runasqa mana munaynillankutachu ruwanku.\\n2 Bibliaqa, Jehov\u00e1 rikumushawasqanchejta
-  niwanchej (Pro. 15:3). Chay ninayanchu, \u00bf\u00f1awillanpi purichishawasqanchejta?
-  \u00bfMayqen leynintapis p\u02bcakejtinchej chay rato castiganawanchejpajchu qhawamushawanchej?
-  Mana (Jer. 16:17; Heb. 4:13). Jehovaqa, munakuwasqanchejrayku, allinninchejta munasqanrayku
-  qhawamushawanchej (1 Ped. 3:12).\\n3. \u00bfImaynasmant\u00e1 Jehov\u00e1 munakuwasqanchejta
-  rikuchiwanchej?\\n3 \u00bfImaynat\u00e1 yachanchej Jehov\u00e1 munakuwasqanchejrayku
-  qhawamushawasqanchejta? Jehovaqa 1) niraj juchaman urmashajtinchej yuyaychawanchej,
-  2) pantajtinchej k\u02bcamiwanchej, 3) Bibliaj yuyaychayninwan yanapawanchej, 4)
-  llakiykunapi rikukojtinchej yanapawanchej, 5) allinta ruwajtinchejtaj bendeciwanchej.
-  Kunantaj chaykunata ujmanta uj ukhuncharina.\\nJEHOV\u00c1 YUYAYCHAWANCHEJ\\n4.
-  \u00bfImaraykutaj Jehov\u00e1, Cainta manaraj juchaman urmashajtin yuyaycharqa?\\n4
-  Jehovaqa, niraj juchaman urmashajtinchej yuyaychawanchej (1 Cr\u00f3. 28:9). Chayta
-  entiendenapajqa, Cainmanta parlarina. Payqa \u201cmaytapuni phi\u00f1arikorqa\u201d
-  jaywananta Jehov\u00e1 mana allin \u00f1awiwanchu qhawasqanrayku (G\u00e9nesis 4:3-7
-  leey). Jehovatajr\u00ed, Cainman phi\u00f1akuyninwan atipachikojtin juchaman urmananta
-  nerqa. Caintaj juchawan atipachikunanpaj jina\u00f1a kasharqa. Chayrayku Jehov\u00e1
-  nillarqataj: \u201cManachus jina kawaj chayqa, juchata atipawaj\u201d, nispa. Jehov\u00e1
-  munarqa, Ca\u00edn paywan allinpi kasqanta mana chinkachinanpaj kasunanta.\\n5.
-  \u00bfImaynasmant\u00e1 Jehov\u00e1 juchaman urmanapaj\u00f1a kashajtinchej yanapawanchej?\\n5
-  Jehovaqa imachus sonqonchej ukhupi kasqanta yachan, nitaj imatapis paymanta pakayta
-  atisunmanchu. Ar\u00ed, Payqa yachan imaraykuchus imatapis ruwasqanchejta, jinallataj
-  yuyasqanchejtapis. Munakuwasqanchejraykutaj cheqan kajta ruwananchejta munan. Chayta
-  ruwanapajtaj mana tanqawanchejchu. Chayrayku juchaman urmanapaj\u00f1a kashajtinchej
-  Palabrannejta yuyaychawanchej. Bibliata, publicacionesta sapa p\u02bcunchay leespa,
-  tantakuykunaman rispa imataj yuyaychaykunasninta uyarinchej. \u00bfMayk\u02bcajllapis
-  leerqankichu chayri uyarerqankichu yanapasunanpaj jina yuyaychaykunata? Chay yuyaychay,
-  \u00bfyanapasorqachu ch\u02bcampayniykita atipanaykipaj mayqentachus Jehovalla yachan
-  chayta? Chay yanapataqa, Jehov\u00e1 necesitashajtinchejpuni qowanchej.\\n6, 7.
-  1) \u00bfImaraykutaj nisunman Jehov\u00e1 sapa ujta yanapawasqanchejta? 2) \u00bfImastataj
-  ruwasunman Jehovaj yuyaychayninwan yanapachikunapaj?\\n6 Jehov\u00e1 Biblianejta
-  yuyaychawasqanchejqa, sapa ujta munakuwasqanchejta rikuchin. Ar\u00ed, Biblia, publicacionesninchej,
-  tantakuykuna ima ashkha runasta yanapananpaj wakichisqa kajtinpis. Jehovaqa munan,
-  kamachisnin Bibliaj yuyaychaykunasninta kasukunanchejta cheqan kajta ruwanapaj.
-  Chaytaj rikuchin Jehov\u00e1 mayta munakuwasqanchejta.\\n7 Jehovaj yuyaychaykunasnin
-  yanapanawanchejpajqa mana qonqanachu pay allinninchejta munasqanta. Chantapis imatachus
-  Palabrannejta yuyaychawasqanchejta kasukuna, sajra yuyaykunatataj chay rato qhesachana
-  (Isa\u00edas 55:6, 7 leey). Kasukoj runas kasunchej chayqa, mana llakiykunapi rikukusunchu.
-  Pantanchej\u00f1a chay, \u00bfimaynamantataj Jehov\u00e1 yanapawanchej?\\nJEHOV\u00c1
-  K\u02bcAMIWANCHEJ\\n8, 9. Hermanosninchej yuyaychawasqanchej, \u00bfimaynat\u00e1
-  Jehov\u00e1 yanapayta munawasqanchejta rikuchin? Sut\u02bcinchay.\\n8 Jehovaqa,
-  munakuwasqanchejrayku k\u02bcamiwanchej (Hebreos 12:5, 6 leey). Manataj pipis k\u02bcamisqa
-  kayta munanchu (Heb. 12:11). Chaywanpis t\u02bcukurinachej pillapis k\u02bcamiwasqanchejpi.
-  \u00bfImaraykutaj k\u02bcamiwanchej? \u00bfSonqonchejta nanachinawanchejraykuchu?
-  Mana, astawanpis munakuwasqanchejrayku k\u02bcamiwanchej, reparantaj Jehovawan allinpi
-  kasqanchejta chinkachishasqanchejta, chayraykutaj cheqan \u00f1anpi kanallapajpuni
-  Bibliaj nisqanwan yuyaychawanchej. Jinallatataj Jehovapis munakuwanchej, pimantachus
-  chay yuyaychaykuna jamun.\\n9 Wajkuna yuyaychawasqanchejqa Jehov\u00e1 munakuwasqanchejta
-  rikuchin. Chaytataj uj hermanoj kausayninpi rikunchej, pichus niraj cheqa kajta
-  yachakushaspa q\u02bcala runasmanta fotosta qhawayman yachasqa karqa. Cheqa kajmanta
-  yachakuspataj chayta saqeporqa. Aswan qhepamantaj uj mosoj celularta rantikuspa
-  q\u02bcala runasmanta fotosta qhawayta qallarillarqataj, chay celularnejta Internetman
-  yaykuspa (Sant. 1:14, 15). Uj kuti telefononejta willashajtinku qotuchakuyninmanta
-  ancianoman celularninta ma\u00f1arerqa. Ancianotaj chay celularpi q\u02bcala runasta
-  qhawanapaj p\u00e1ginas rikhurisqanta rikorqa. Chay rato hermanota yuyaycharerqa.
-  Hermanotaj yuyaychasqanta jap\u02bcikuspa q\u02bcala runasmanta fotosta qhawayta
-  saqeporqa. Jehovaman mayta agradecekunchej niraj paymanta karunchakushajtinchej
-  yanapawasqanchejmanta.\\nBIBLIAJ YUYAYCHAYNINWAN YANAPAWANCHEJ\\n10, 11. 1) \u00bfImaynatataj
-  Jehovawan yanapachikunchej? 2) \u00bfImaynat\u00e1 uj familia rikorqa Bibliaj yuyaychaykunasninta
-  kasukuy may sumaj kasqanta?\\n10 Uj salmista Jehovaman takerqa: \u201cYuyaychawasqaykiwan
-  \u00f1anta pusawanki\u201d, nispa (Sal. 73:24). Mayk\u02bcajllapis Jehov\u00e1 yuyaychanawanchejta
-  necesitaspaqa Palabranta leerisunman. Ajinamanta imatachus Jehov\u00e1 yuyasqanta
-  yachasun. Bibliaj yuyaychaykunasninta kasukoyqa Dioswan allinpi kanallapajpuni yanapawajtinchejpis,
-  waj imaspipis yanapallawanchejtaj (Pro. 3:6).\\n11 Sut\u02bcincharinapaj, Filipinasmanta
-  uj runa familianwan uj haciendapi tiyakorqa, mayqentachus alquilakorqa. Payqa, warminwan
-  khuska precursores regulares karqanku. Uj p\u02bcunchaytaj haciendayoj ripunankuta
-  nerqa, hermanota, familiantawan qhasimanta tumpasqankurayku. Hermano ni mayman ripuyta
-  atispapis nerqa: \u201cJehov\u00e1 yanapawasunpuni, imaraykuchus payqa tukuy ima
-  necesitasqanchejta qowanchejpuni\u201d, nispa. Ajinapunitaj karqa. Pisi p\u02bcunchayninman
-  haciendayojqa, mana\u00f1a ripunankuta munarqachu, hermano familian ima, paywan
-  mana siminakusqankurayku. Chantapis haciendayoj chay familiaman waj jallp\u02bcastawan
-  qorqa tarpunankupaj (1 Pedro 2:12 leey). Kay sut\u02bcita rikuchin ch\u02bcampaykunapi
-  rikukojtinchej Bibliaj yuyaychaykunasnin yanapayta atiwasqanchejta.\\nLLAKIYKUNAPI
-  RIKUKOJTINCHEJ YANAPAWANCHEJ\\n12, 13. \u00bfImapi rikukuspataj Jehov\u00e1 mana
-  qhawamushasqanta yuyasunman?\\n12 Jehovaj kamachisnenqa ashkha ch\u02bcampaykunapi
-  rikukunchej, chaykunamanta wakenqa mana tukukuyniyoj jina kanman. Sut\u02bcincharinapaj
-  ich\u00e1 watasta\u00f1a uj onqoywan kashanchej, familianchejmanta kajkuna churanakuwanchej
-  chayri qhatiykachasqa kashanchej. \u00bfImat\u00e1 ruwasunman qotuchakuymanta pillawanpis
-  mana allinta apanakojtinchej?\\n13 Ich\u00e1 uj hermano sonqoykita nanachinanpaj
-  jina imallatapis ninman. Qantaj ich\u00e1 niwaj: \u201c\u00bfImaynataj chay Diospa
-  llajtanpi kanmanri?\u201d, nispa. Mana creenaykipaj jinataj chay hermanoqa qotuchakuypi
-  astawan llank\u02bcaykunata jap\u02bcinman, wajkunapis sumajpaj qhawankuman. Ni
-  imata ruwayta atispataj ich\u00e1 jinata tapurikuwaj: \u201c\u00bfImaynataj chay
-  kanmanri? \u00bfManachu imatachus ruwasqanta Jehov\u00e1 rikun? \u00bfSaqellanqachu
-  chay kananta?\u201d, nispa (Sal. 13:1, 2; Hab. 1:2, 3).\\n14. \u00bfImaraykutaj
-  Jehov\u00e1 hermanosninchej k\u02bcaminawanchejta saqen?\\n14 Jehovaqa tukuy imata
-  qhawamushan, yachantaj imaraykuchus ima kanantapis saqellasqanta. Sut\u02bcincharinapaj
-  pillapis k\u02bcamiwajtinchej ich\u00e1 chay rato phi\u00f1arparikunchej, nitaj
-  reparanchejchu noqanchej pantashasqanchejta, k\u02bcaminata necesitasqanchejta ima.
-  Diospa Llajtanta Kamachejkunamanta ujnin hermano Karl Klein sutiyoj, experiencianpi
-  nerqa hermano Rutherfordwan k\u02bcarajta k\u02bcamichikusqanta. Watejmanta tinkojtinkutaj
-  hermano Rutherfordqa \u201c\u00a1Imaynalla kashanki!\u201d nispa napaykusqa. Paytaj
-  phi\u00f1asqa jinalla kutichisqa. Chayraykutaj hermano Rutherfordqa \u201cpajtataj
-  Kuraj Supaypa tojllaman urmawaj\u201d nisqa. Aswan qhepamantaj hermano Karl nerqa:
-  \u201cUj hermano ruwayninta junt\u02bcaspa allinninchejpaj yuyaychawasqanchejmanta
-  phi\u00f1akuspaqa, Kuraj Supaypa tojllasninman urmasunman\u201d, nispa. *\\n15.
-  \u00bfImamantataj yuyarikunanchej tiyan ch\u02bcampaykunapi rikukuspa?\\n15 Tukuypis
-  ch\u02bcampaykunasninchej chay rato chinkananta munanchej, chaywanpis may allin
-  kanman pacienciayoj kayta yachakunanchej. Llakiykunasninchejqa uj trancaderapi sayasqa
-  qhepakuywan kikinchakunman. Ajinapi rikukusqanchejrayku ich\u00e1 usqhayllata riyta
-  munaspa, mana pacienciakusqanchejrayku ima, waj \u00f1anninta rispa chinkasunman,
-  nitaj horanpichu chayasunman maymanchus risharqanchej chayman. Pacienciakuspa pachallanpi
-  qhepakusunman karqa chayqa, horanpi chayasunman karqa, nitaj chinkasunmanchu karqa.
-  Kikillantaj ch\u02bcampaykunapi rikukojtinchej, pacienciata rikuchisunchej, Bibliaj
-  yuyaychaykunasninman jina ruwasunchej chayqa, Jehov\u00e1 aguantanapaj yanapawasunchej.\\n16.
-  \u00bfImaraykutaj Jehov\u00e1 wakin kutis \u00f1ak\u02bcarinanchejta saqellantaj?\\n16
-  Ich\u00e1 Jehovaqa \u00f1ak\u02bcariykunapi kananchejta saqenman, chaynejta creeyninchejpi
-  sinch\u02bcita sayananchejpaj (1 Pedro 5:6-10 leey). Chantapis yuyarikuna mana Jehovachu
-  llakiykunasninchejmanta juchayoj kasqanta (Sant. 1:13). Astawanpis \u201cenemigonchej
-  Kuraj Supay\u201d juchayoj. Jehov\u00e1 Diosqa llakiykunapi rikukunanchejta saqenman
-  payta yupaychaypi \u00f1auparinanchejpaj. Chantapis payqa \u00f1ak\u02bcarisqanchejta
-  qhawamushan, munakuwasqancheraykutaj \u2018pisi p\u02bcunchaykunallata\u2019 \u00f1ak\u02bcarinanchejta
-  saqenqa. \u00bfLlakiykunapi Jehov\u00e1 qhawamushawasqanchejmanta agradecesqachu
-  kashanki? \u00bfAtienekunkichu Jehov\u00e1 imaynallamantapis yanapasunanpi? (2 Cor.
-  4:7-9.)\\nJEHOV\u00c1 BENDECIWANCHEJ\\n17. \u00bfImapajtaj Jehov\u00e1 kay pachata
-  qhawamushan?\\n17 Chantapis Jehovaqa, kay pachata qhawamushan munayninta ruwajkunata
-  t\u02bcinkananpaj. Profeta Hanan\u00ed rey Asaman nerqa: \u201cDiosqa sumajta qhawamushan
-  tukuy kay pachata, kallpachananpaj tukuy sonqowan payllapi atienekunku, chaykunata\u201d,
-  nispa (2 Cr\u00f3. 16:9). Rey As\u00e1, Diospi mana tukuy sonqochu atienekorqa.
-  Noqanchej Jehovaj munayninta tukuy sonqo ruwanapaj kallpachakojtinchej, Payqa kallpachawasunchej,
-  nisunman jark\u02bcawasun bendeciwasuntaj.\\n18. Ruwasqasninchejta ni pi qhawashasqanta
-  yuyaspa, \u00bfimamant\u00e1 yuyarikusunman? (27 paginapi dibujota qhawariy.)\\n18
-  Jehovaqa, kamachisninta allinpaj qhawananpaj \u2018allin kajta mask\u02bcanankuta,
-  allin kajta munakunankuta, allin kajta ruwanankuta\u2019 ima munan (Am\u00f3s 5:14,
-  15; 1 Ped. 3:11, 12). \u201cCheqan runasta waqaychan\u201d, bendecintaj (Sal. 34:15).
-  Sifratawan, Fuatawan imaynatachus Jehov\u00e1 yanapasqanpi t\u02bcukurina. Paykunaqa
-  Egiptopi israelita warmista onqokushajtinku yanapaj kanku. Egiptomanta reytaj paykunata
-  kamacherqa qhari wawita nacekojtin wa\u00f1uchinankuta. Paykunataj Diosta manchachikusqankurayku
-  reyta mana kasorqankuchu, saqellarqanku qhari wawasta kausajta. Chay ruwasqankutataj
-  Jehov\u00e1 qhawasharqa, chayraykutaj \u201cfamiliasninkuta ashkhayachispa\u201d
-  bendicerqa (\u00c9xo. 1:15-17, 20, 21). Ni pi allin ruwasqasninchejta qhawashasqanta
-  yuyaspapis, yuyarikunachej Jehov\u00e1 allin ruwasqasninchejta qhawamushasqanta,
-  chayraykutaj bendeciwasunchej (Mat. 6:4, 6; 1 Tim. 5:25; Heb. 6:10).\\n19. \u00bfImaynat\u00e1
-  uj hermana kausayninpi rikorqa Jehov\u00e1 tukuy imata qhawamushasqanta?\\n19 Austriapi,
-  Hungr\u00eda suyumanta tiyakoj hermanaqa kausayninpi Jehov\u00e1 allin ruwasqasninchejta
-  qhawamushasqanta rikorqa. Paymanqa, h\u00fangaro qalluta parlaj warmi Bibliamanta
-  yachakuyta munasqanta willasqanku, maypichus tiyakusqantapis. Paytaj chay rato chay
-  warmita mask\u02bcaj risqa, nitaj pitapis taripasqachu. Kutin kutitataj chay warmej
-  wasinman kutisqa, publicacionesta, cartasta, telefononpa numeronta imataj saqesqa.
-  Wakin kutis chay wasipi runa kashasqanta yuyasqa, chaywanpis ni pi llojsimusqachu.
-  Uj wata khuskanniyojta\u00f1a rejtintaj uj se\u00f1ora llojsimuspa, suyashasqanta,
-  tukuy ima saqesqanta leerisqanta ima k\u02bcachallamanta nisqa. Quimioterapia tratamientota
-  ruwashasqanraykutaj mana llojsimusqanta nisqa. Kunantaj chay se\u00f1oraqa Bibliamanta
-  yachakushan. Rikuchej jina Jehov\u00e1 hermanata bendicerqa mana sayk\u02bcuspa
-  chay warmej wasinman risqanmanta.\\n20. \u00bfImaraykutaj Jehovaman qayllaykunchej?\\n20
-  Kay yachaqanapi yachakunchej jina, Jehovaqa tukuy ima ruwasqasninchejta qhawamushan,
-  sapa uj runaj sonqontataj rejsin. Nitaj \u00f1awillanpichu purichishawanchej, nillataj
-  pantasqasninchejtapis uj listapi jinachu qhelqashan. Astawanpis payman qayllaykunchej
-  yanapayta munawasqanchejrayku, allinninchejta munasqanrayku, allin ruwasqasninchejta
-  bendeciyta munasqanrayku ima.\"", "\"1Kriyiq masiykuna, chay nishushayllapamantaqami,
-  qashan nishaykillapa: Amitunchik Jesucristulapi kunfyakar aligrilana kawsayllapa
-  nir. Chaqa nuqapaqqa chay iskribir willashushayllapataqa qashan qashanmapis willashunayllapapaqqa
-  kusala allin. Chaynuqami qamkunaqa mas allita Jesucristupi kriyir, mana inga\u00f1akar
-  imanachu kawsankillapa. 2Piru nishaykillapa: Allitami kuytakankillapa chay kusala
-  millanaypaq mana allin runakuna paykunalla munashanta ruraqkunamanta. Chaqa chay
-  runakunaqami Jesucristupi kriyiq tukur, washakananllapapaqqashi chay si\u00f1al
-  kustumrita kwirpunchikllapapi rurashunllapa nir yach''achikunllapa. 3Piru ashwan
-  nuqanchikkunaqami Tayta Dyuspa Santu Ispiritunwan kashanchikllaparayku si\u00f1al
-  kustumrita chiqapta rurasha yupayna kar, Dyuspa kaqninkunana kanchikllapa. Chaymi
-  ashwan Jesucristupana kashanchikllaparayku kusa aligrilana Taytanchik Dyusta sirbir
-  alabanallapapaqna kanchikllapa. Chaynami manana yarpunchikllapanachu chay kwirpunllapapi
-  si\u00f1alta ruranllapa chaypiqa. 4Chaqa chay si\u00f1al kustumrita rurar chiqapta
-  washakanapaq katinqa, nuqamaqa may tyimpu washakashana kar, wakinkunamantaqa kusana
-  kani ima niyayman. Chaqa unayqami nuqapis mana intrakarqa, Israel runa masiykunamantaqa,
-  masta yarpuq kani chay si\u00f1al kustumripiqa. 5Chaqa nuqa Israel ayllumanta katiymi,
-  chay si\u00f1al kustumrita ruramaranllapa, nasishaymanta uchu diyayjunla katiy.
-  Chaynullami Benjaminpa ayllunmanta kani. Nuqaqami kanankuna hebreo runakuna kani
-  niqkunamantaqa, kusala chiqap hebreo runa kani. Chaynullapismi imanutaq chay fariseo
-  runakunamaqa, Moise''s mantakushanta tukuyninta kumplinillapa nir yarpuqllapa, chaynu
-  kaq kani nuqapis. 6Chaymi chay mantakuykuna nishanllapakunata allita kasuyta yarpur,
-  kusala saqrata tukur Jesucristupi kriyiqkunapa ikinpi puriq kani aypar qischanaypaq.
-  Chaymi chay mantakuykunata kusalata kumpliyta yarputiymi mana mayqanpis nimayta
-  puytiqllapachu, wakqami chay mantakuykunata mana kumplishanrayku uchayjun nirqa.
-  7Chaynu tukuy chay mantakuykunata kasuyta yarputiyqami, kusalata sirbimaq yupay
-  yarpuchimaq. Piru kanan-shuypaqami Jesucristupi kriyishayraykuqa, manana imalapaqpis
-  sirbimannachu tukuy chaykunaqa. 8Chayraykumi kanan kriyishayqa kusala mas allin,
-  chay unay kusala mana sirbiq imakunata rurayashaymantaqa. Chaqa ashwan Amitunchik
-  Jesucristuwanna kanaypaqqa, tukuy chay mana imapaqpis sirbimaq chaytaqa limpu dijashana
-  kani. 9Ashwanmi kananqa maydiyapis Jesucristuwan pullala kawsakuni. Chaymi Moise''s
-  mantakushankunata mana kasurchu washakaytaqa yarpuni. Ashwanmi Jesucristupi kriyishayrayku,
-  Tayta Dyusqa mana uchayjunpaqnachu riqsimanqa. 10Chayraykumi ashwan Jesucristutaqa
-  kusa masta riqsinani. Chaynulla payta riqsinashayraykumi imanutaq paymaqa allinlata
-  rurar qischakaran, wanuran ima nir masta intrakanayani. Piru chaynu wanutinmapis
-  Tayta Dyusqa pudirninwan kawsachimuran. Chaymi chayta yach''arqa pay yupay qischakanaypaq
-  wanunaypaqmapis listuna kani Taytay Dyusmi yanapamayan nir yach''ar. 11Chaymi ashwan
-  kusalata kunfyakani, maydiya wanurmapismi chay kriyir wanushakunawan pulla kawsamushaq
-  nir. 12Chaynu willashutiyllapaqakish yarpuyatkillapa, Dyus tukuy imata arnishantaqa
-  aypashana kar, mana imalapimapis wakqa uchakuyanqanachu nir. Piru manami tukuy imata
-  Dyusninchik arnimashantaqa aypayaniraqchu. Chaymi ashwan waran waran Jesucristo
-  munashannu nuqaqa mas rurar kawsanani. Chaqa chaynu kawsanaypaqmi payqa nuqataqa
-  puntata akramaran. 13Chaymi nuqaqa mana nishuyllapata puytinichu, Dyus arnimashantaqa
-  tukuyta aypashana kani nirqa. Chaynu Dyusninchik arnimashanmanta mana imalatapis
-  aypasharaq karmi, chay tukuy mana allin kaqta ikipina dijashaytaqa mana yarpurnachu,
-  ashwan imanupis shachinakur naypaqmanna riyta yarpukuni Jesucristuwan. 14Chaqa Taytanchikllapa
-  Dyusmi arnimashanchikllapa Jesucristupi kriyishallapashi, payqa washar unaq syiluman
-  apamayashunllapa nir. Chaymi ashwan nuqaqa waran waran Jesucristupi kunfyakani,
-  pay yanapamatinmi, tukuy chaykunataqa aypashaq nir. 15Chaymi nishaykillapa: Mayqanpis
-  allitana Jesucristupi kriyiqqami imanutaq nuqa intrakayashaynu intrakanmanllapa.
-  Piru mayqanpis ukmanta intrakayatinqami, Taytanchik Dyus pay munashannulla allitana
-  intrachinqa. 16Piru qamkunaqakish chaynu nishutiyllapaqa mana intrakashanchikllapachu
-  nirqa askwintallamana kawsatkillapa. Ashwanmi imanu kawsanallapatataq Jesucristo
-  munayan chaynu kawsashunllapa. 17Kriyiq masiykuna, imanutaq Jesucristo kawsashannu
-  nuqa kawsani chaynullami qamkunapis kawsayllapa. Chaqa imanutaq wakinkunamaqa nuqa
-  kawsashaynu kawsanllapa chaynulla. 18Piru wakinkunaqami, Jesucristo washamanallapapaq
-  kruspi wanushantaqa mana kwintacharchu kusala llakiypaqta kawsanllapa. Chaymi chaynu
-  kawsashanllaparayku kusata llakichimatin waqani ima. Nataq qamkunata-shuypaqami
-  amana paykuna yupay kawsanaykillapapaq kutir kutir kusalata willashurayllapa. 19Chaymi
-  paykunaqa chaynu mana allinta rurashanrayku maydiyaqa kusala llakiypaqta tukukaq
-  kanqallapa. Chaqa paykunaqami Dyusninchikta mana kasushanrayku, kwirpunllapa munashanlata
-  rurar, kusala pinqaypaqta kawsanllapa. Chaynulla tukuy paykunaqami kay pachapi kaq
-  tukukaq imakunalapaq yarpunllapa. 20Piru nuqanchikkuna-shuypaqami unaq syilumanta
-  kaqpa akrashankunana kanchikllapa. Chaymi ashwan yarakuyanchikllapa syilumanta washamaqninchikllapa
-  Amitunchik Jesucristo shamunanpaq. 21Chaymi shamurqa, kay kwirpunchikllapa pinqaypaqlla
-  kaqtaqa paypa kusala shumaq kwirpun, chaynu shumaqpaqna tikranqa. Chaynuqami ukman
-  kwirpuyjunpaqqa tikramashunllapa chay tukuy imata rurayta puytiq pudirninwan.\"",
-  "\"Kawsaymanta.\\n\u201cTantarinamanta Yachay\u201d.\\nAyllullaktapika shuk uchilla
-  tantary tiyanmi. Kay tantaripika kay llaktapi kawsak mashikunallami tantarinchik.
-  Shinapash runakunaka mana kay ayllullakta tantaripilla sakirina kanchik. Ashtawan
-  Hatun tantarikunatapash rurashpa katina kanchik.\\nTawka ayllullakta tantarikuna
-  tantarishpaka \u00f1a shuk kuska tantarita ruranchik. Shinallatak markapi tiyak
-  ayllullakta tantarikuna tantarishpaka \u00f1a shuk marka tantarita ruranata ushanchik.
-  Chaymanta wakin marka tantarikuna tantarishpaka shuk suyu tantarita ruranchik. Kunanka
-  \u00f1a marka tantarikuna, suyu tantarikunapash tantarishpaka, mamallakta tantaritapash
-  rurakunchik. Shina tukuy llakta runakuna tantarishpaka alli kanmi.\\nShinapash wakinpi,
-  runapura, pushakpurapash pi\u00f1anakushpa, mana alli tantarinata ushanchik. Tawka
-  chariyuk runakunapash wakcha runakuna tantarichunkunaka mana munankunachu. Karu
-  llaktakunamanta, tantarikunata wakllichikkuna shamukpipash llaki tukunchik. Chayrayku,
-  wakin llaktakunapi tantarina rantika ashtawan rakirikunchik. Shinapash \u00f1ukanchikka
-  mana mancharinachu kanchik. Tantarina yuyayta hapishpa ashtawan katina kanchik.\\nTukuy
-  mamallakta alli shunkuyuk runakuna tantarishpa ashtawan ushayta charishunchik. Alli
-  shunkuyuk wakcha mishukunawanpash tantarinami kanchik. Shina rurakpika, kamachikunata,
-  mamakamachitapash alli mushukyachinata ushashunchik.\\nKAMUMANTA: \u00d1ukanchik
-  Kawsaymanta Yachaykuna. DINEIB. 1996.\"", "\"Mario Mand\u017euki\u0107\\nMario Mand\u017euki\u0107
-  sutiyuq runaqa (* 21 \u00f1iqin aymuray killapi 1986 watapi paqarisqa Slavonski
-  Brod llaqtapi - ) huk Hurwatsuyu mama llaqtayuq piluta hayt''aqmi qarqan.\\n\u00d1awpaq
-  warmi:\\nChurinkuna:\\nYuyarina\\nKlubkuna[llamk''apuy | pukyuta llamk''apuy]\\nSu\u00f1aykuna[llamk''apuy
-  | pukyuta llamk''apuy]\\nMama llaqta Kampiunatukuna[llamk''apuy | pukyuta llamk''apuy]\\nKaypipas
-  qhaway[llamk''apuy | pukyuta llamk''apuy]\\n- Piluta Hayt''ay (Hurwatsuyu)\\n- Piluta
-  Hayt''ay Pachantin Kupa 2014\\n- Piluta Hayt''ay Pachantin Kupa 2018\\n- Davor \u0160uker\\n-
-  Darijo Srna\\nHawa t''inkikuna[llamk''apuy | pukyuta llamk''apuy]\\n- Commons nisqaqa
-  multimidya kapuyninkunayuqmi kay hawa: Mario Mand\u017euki\u0107.\"", "\"1L\u00e1zaro
-  sutiyoq runan onqosharqan, paymi tiyarqan Betania llaqtapi panan Mariawan Martawan
-  kuska. 2Chay Marian Se\u00f1or Jesusta q''apaq hawinawan hawirqan, hinaspan chukchanwan
-  chakinta ch''akichirqan. 3Lazaroq panankunan Jesusman willaqta kacharqanku: \u2013Se\u00f1or,
-  munasqa amigoykin onqoshan, nispa. 4Jesustaq chayta uyarispa nirqan: \u2013Chay
-  onqoyqa manan wa\u00f1uchinallanpaqchu, aswanpas Diosta hatunchanapaqmi, chay onqoywanqa
-  Diospa Churinmi hatunchasqa kanqa, nispa. 5Jesusqa munakurqanmi Lazarota, Martata,
-  \u00f1a\u00f1antawan. 6Chaytukuywanpas onqosqa kashasqanta uyarispanmi iskay p''unchaytawanraq
-  kasqanpi qhepakurqan. 7Chaymanta\u00f1an yachachisqankunata nirqan: \u2013Haku Judea
-  provinciata, nispa. 8Yachachisqakunataq payta nirqanku: \u2013Yachachikuq, manaraqmi
-  unaychu Judeapi tiyaq runakunaq ch''aqeyta munasqasuykiqa, \u00bfchaychu Judeaman
-  kutiwaq? nispa. 9Chaymi Jesusqa nirqan: \u2013P''unchayqa chunka iskayniyoq horayoqmi.
-  Pipas p''unchaypi purispaqa manan misk''anchu, kay pachata k''anchaq k''anchasqanrayku.
-  10Pipas tutayaqpi purispan ichaqa misk''akun, laqhayaqpi kasqanrayku. 11Chayta nispataq
-  yachachisqankunata nirqan: \u2013Amigonchis Lazaron pu\u00f1ushan, payta rikch''arichimuqmi
-  risaq, nispa. 12Chaymi yachachisqankunaqa nirqanku: \u2013Se\u00f1or, pu\u00f1ushan
-  chayqa, qhaliyanqan, nispa. 13Aswanpas Jesusqa Lazaroq wa\u00f1usqanmantan rimarqan,
-  paykunataq yuyaykurqanku pu\u00f1uyllamanta rimasqanta. 14Chaymi Jesusqa paykunata
-  sut''ita nirqan: \u2013Lazaroqa wa\u00f1upunmi, 15chaypi mana kasqaymantataqmi kusikuni,
-  chhaynapi qankunapas \u00f1oqapi i\u00f1inaykichispaq, ichaqa haku payman risunchis,
-  nispa. 16Chaymi Mellizo nisqa Tomasqa nirqan yachachisqa-masinkunata: \u2013Haku
-  \u00f1oqanchispas paywan kuska wa\u00f1unanchispaq, nispa. 17Jesuspa chayananpaqmi
-  Lazaroqa tawa p''unchay\u00f1a p''ampasqa karqan. 18Betania llaqtaqa Jerusal\u00e9n
-  llaqtamanta qayllallan karqan, kuskan legua hina. 19Askha jud\u00edo runakunataq
-  hamurqanku, Martata Mariatawan turankumanta sonqochaq. 20Martaqa Jesuspa hamushasqanta
-  uyarispa hinan Jesuswan tupaq lloqsirqan, Mariataq ichaqa wasipi kasharqan. 21Hinan
-  Martaqa Jesusta nirqan: \u2013Se\u00f1or, kaypi kashawaq karqan chayqa, turayqa
-  manan wa\u00f1unmanchu karqan. 22Chaywanpas yachanin tukuy imatapas Diosmanta ma\u00f1akuqtiykiqa
-  Diospa qonasuykita, nispa. 23Jesustaq payta nirqan: \u2013Turaykiqa kawsarimpunqan,
-  nispa. 24Chaymi Martaqa payta nirqan: \u2013P''uchukay p''unchay kawsarimpuypi kawsarimpunantaqa
-  yachanin, nispa. 25Hinan Jesusqa payta nirqan: \u2013\u00d1oqan kawsarimpuypas kawsaypas
-  kani. \u00d1oqapi i\u00f1iqqa, wa\u00f1usqa\u00f1a kashaspapas kawsanqan. 26Pipas
-  kawsashaspa \u00f1oqapi i\u00f1iqqa, manan hayk''aqpas wa\u00f1unqachu. \u00bfI\u00f1inkichu
-  chayta? nispa. 27Martataq nirqan: \u2013Ar\u00ed, Se\u00f1orn\u00edy. \u00d1oqaqa
-  i\u00f1inin, qanqa Diospa Churin Criston kanki, kay pachaman hamunan karqan chaypunin
-  kanki, nispa. 28Chayta nispanmi wasiman kutispa \u00f1a\u00f1an Mariata ch''inlla
-  waqyamurqan: \u2013Yachachikuqmi kaypi kashan, waqyashasunkin, nispa. 29Hinan Mariaqa
-  chayta uyarispa usqhaylla sayarispa Jesusman phawamurqan. 30(Jesusqa manaraqmi llaqtaman
-  haykurqanchu, aswanpas Martawan tupasqan cheqasllapiraqmi kasharqan). 31Mariata
-  sonqochaspa wasipi kaq jud\u00edo runakunataq, Mariaq usqhaylla lloqsisqanta rikuspa,
-  qhepanta rirqanku: \u2013Aya p''ampanatach\u00e1 rishan chaypi waqaq, nispanku.
-  32Mariataq Jesuspa kasqanman chayaspa, \u00f1awpaqenpi qonqoriykukurqan: \u2013Se\u00f1orn\u00edy,
-  kaypi kashawaq karqan chayqa, turayqa manan wa\u00f1unmanchu karqan, nispa. 33Hinan
-  Jesusqa Mariata waqashaqta rikuspa, jud\u00edo runakunatapas paywan kuska hamuspa
-  waqashaqllatataq rikuspa sonqon \u201cch''allaq\u201d nirqan, hinaspan sinchita
-  llakikurqan. 34Hinan nirqan: \u2013\u00bfMaymanmi p''amparqankichis? nispa. Chaymi
-  nirqanku: \u2013Se\u00f1or, hamuy rikumunki, nispa. 35Jesustaq waqarqan. 36Chaymi
-  runakunaqa ninakurqanku: \u2013Qhawariychis, anchatapunin Lazarota munakusqa, nispa.
-  37Wakinninkutaq nirqanku: \u2013Kay runaqa \u00f1awsatapas qhawarichirqanmi, \u00bfchaychu
-  mana ima ruwaytapas atinman karqan Lazaroq mana wa\u00f1unanpaq? nispa. 38Jesusqa
-  huktawan sonqonta \u201cch''allaq\u201d nichikuspan aya p''ampana t''oqoman rirqan.
-  Chayqa rumiwan wisq''aykusqa qaqa t''oqon karqan. 39Hinaspan Jesusqa nirqan: \u2013Rumita
-  suchuchiychis, nispa. Wa\u00f1uqpa panan Martataq nirqan: \u2013Se\u00f1orn\u00edy,
-  asnashan\u00f1ach\u00e1, tawa p''unchay\u00f1an karqon, nispa. 40Jesustaq payta
-  nirqan: \u2013Manachu nirqayki: \u00bfI\u00f1inki chayqa, Diospa atiynintan rikunki,
-  nispa? nispa. 41Chaymi rumita suchuchirqanku aya churasqanku t''oqomanta. Jesustaq
-  hanaq pachata qhawarispa nirqan: \u2013Yay\u00e1y, graciastan qoyki uyariwasqaykimanta.
-  42\u00d1oqaqa yachanin uyariwaqpuni kasqaykita, ichaqa kayta nini \u00f1oqawan kashaq
-  runakuna kachamuwasqaykita i\u00f1inankupaqmi, nispa. 43Chaykunata nispanmi kunkayoqta
-  waqyarqan: \u2013\u00a1L\u00e1zaro, lloqsimuy! nispa. 44Chaymi wa\u00f1uq Lazaroqa
-  lloqsimurqan, telawan chakin makin k''uyusqa, uyanpas pa\u00f1owan p''istusqa. Hinan
-  Jesusqa paykunata nirqan: \u2013Paskaychis, purinanpaq, nispa. 45Chaymi Mar\u00eda
-  watukuq riq askha jud\u00edo runakunaqa Jesuspa ruwasqanta rikuspa paypi i\u00f1irqanku.
-  46Wakinninkutaq ichaqa fariseokunaman rispa Jesuspa ruwasqanta willamurqanku. 47Hinaqtinmi
-  sacerdote umallikunaqa fariseokunapiwan hatun hu\u00f1ukuyman waqyarqanku, hinaspan
-  nirqanku: \u2013\u00a1Imanasunmi! Kay runaqa askha milagrokunatan ruwashan. 48Hinallata
-  qhawasun chayqa, llapa runan paypi i\u00f1inqaku. Roma llaqta soldadokuna hamuspataq,
-  Dios yupaychana wasinchista thuninqaku, suyunchistapas ch''usaqyachinqaku, nispa.
-  49Paykuna ukhupi Caifasmi chay watapi uma sacerdote kasharqan, paymi nirqan: \u2013Qankunaqa
-  manan imatapas yachankichischu, 50manataqmi reparankichispaschu. Aswan allinmi huk
-  runalla wa\u00f1unan llaqtanchispa rantinpi, suyuntin runakuna tukukunanmantaqa,
-  nispa. 51Chaytaqa manan pay kikinmantachu nirqan, aswanpas chay watapi uma sacerdote
-  kaspanmi profetizarqan suyuntinpa rantinpi Jesuspa wa\u00f1unanmanta, 52manataq
-  chay suyullapaqchu, aswanpas Diospa ch''eqesqa wawankunata hukllaman hu\u00f1unanpaqwanmi.
-  53Chay hinaqa, chay p''unchaymantapachan jud\u00edo umallikunaqa rimanakurqanku
-  Jesusta wa\u00f1uchinankupaq. 54Chaymi Jesusqa mana\u00f1a sut''itachu purirqan
-  Judeapi tiyaq runakuna ukhupi, aswanmi chaymanta ripurqan ch''inneq qaylla Efra\u00edn
-  nisqa llaqtaman, chaypin yachachisqankunapiwan tiyamurqan. 55Jud\u00edo runakunaq
-  Pascua Fiestantaq qayllaykamusharqan\u00f1a, hinan askha runakuna Jerusal\u00e9n
-  llaqtaman wicharqanku, fiesta \u00f1awpaqta ch''uyanchakunankupaq. 56Jesustan maskharqanku,
-  hinaspan Dios yupaychana wasiman chayaspa ninakurqanku: \u2013\u00bfIma ninkichistaq?
-  \u00bfHamunqachu fiestaman? Icha, \u00bfmanachu? nispanku. 57Sacerdote umallikunan
-  fariseokunapiwan kamachirqanku\u00f1a, maypichus Jesuspa kashasqanta pipas yachanman
-  chayqa, willakamunankupaq, ahinapi payta hap''inankupaq.\"", "\"Llapan organizaci\u00f3n
-  pol\u00edtica nisqakunawan, hinallataq llaqta ukupi mayqan organizaci\u00f3n kaqwanpas
-  rimanaykukuspa imamanpas chayay kanantam munayku; sumaq qawanakuypi, huk yuyayllapi
-  kawsaspapas, pi\u00f1a may\u00f1a kaspapas chaninchasqa kanapaq.\\nChaykuna qispichinapaqmi
-  Estado nisqaqa:\\n(a) Imamanpas chayanapaq rimanakuykunata kallpanchanqa.\\n(ch)
-  Ima ruraypas, ima llamkaypas llapanchikpa rimayninchikwanmi atikunqa, chayhina ukupi
-  kawsanapaqmi kallpanchakunqa, chaywanmi kamachiqkunapas, kamachiykuna ruraqkunapas
-  allinta llamkayninkunata qispichinqaku.\\n(h) Per\u00fa suyupi yuyaywan rimanakuspam,
-  qipa pachapi ima ruraytapas llapanchikmanta qawarinapaq, huk kamachikuykunata churamunqa.\"",
-  "\"Kantarawi pruwinsya\\nKantarawi pruwinsya (kastilla simipi: Provincia de Candarave)
-  nisqaqa Taqna suyupi, Piruw mama llaqtapi huk pruwinsyam. Uma llaqtanqa Kantarawi
-  llaqtam.\\nYuyarina\\nWi\u00f1ay kawsay[llamk''apuy | pukyuta llamk''apuy]\\nKamasqa
-  18 \u00f1iqin chakra yapuy killapi 1988 watapi, Alan Garc\u00eda Umalliqmi.\\nAllpa
-  saywachi[llamk''apuy | pukyuta llamk''apuy]\\n- Urqukuna: Jisk''a Larqanku - Larqanku\\n-
-  Mayukuna: Kaplina mayu\\n- Quchakuna:: Paraquta - Such''i qucha\\nPulitika rakiy[llamk''apuy
-  | pukyuta llamk''apuy]\\nCandarave pruwinsyaqa 2 261,1 km\u00b2 hatunmi. Suqta distritunmi
-  kan.\\nWaki[llamk''apuy | pukyuta llamk''apuy]\\nSimikuna[llamk''apuy | pukyuta
-  llamk''apuy]\\n/1 Rimaqkuna: 5 / 5+ wata /2 Indihina simi: qhichwa simi, aymara
-  simi, ashaninka simi icha huk indihina simi (mana hawa simi) Pukyu: [1]\\nI\u00f1iy[llamk''apuy
-  | pukyuta llamk''apuy]\\nSantun[llamk''apuy | pukyuta llamk''apuy]\\n- Tayta Lokumpa
-  Kristu\\nKaru puriy[llamk''apuy | pukyuta llamk''apuy]\\n- Calientes llaqtapi armakuna\\nYachay
-  tarpuy[llamk''apuy | pukyuta llamk''apuy]\\nPruwinsyapi paqarisqa[llamk''apuy |
-  pukyuta llamk''apuy]\\nKaypipas qhaway[llamk''apuy | pukyuta llamk''apuy]\\nWillay
-  pukyukuna[llamk''apuy | pukyuta llamk''apuy]\\nHawa t''inkikuna[llamk''apuy | pukyuta
-  llamk''apuy]\\n- Commons nisqaqa multimidya kapuyninkunayuqmi kay hawa: Kantarawi
-  pruwinsya.\\n- Saywitu: Taqna suyu\\n- www.municandarave.gob.pe\""]'
-src_ngrams: '{"1": [[["mana"], 199216], [["chay"], 148413], [["kay"], 78504], [["diospa"],
-  53691], [["tayta"], 53487]], "2": [[["pukyuta llamk"], 11115], [["tayta dios"],
-  8165], [["tata dios"], 6324], [["yaya diospa"], 6116], [["mana alli"], 6081]], "3":
-  [[["nisqaqa multimidya kapuyninkunayuqmi"], 1904], [["multimidya kapuyninkunayuqmi
-  kay"], 1904], [["kapuyninkunayuqmi kay hawa"], 1904], [["commons nisqaqa multimidya"],
-  1904], [["tayta diosninchipa shiminta"], 691]], "4": [[["nisqaqa multimidya kapuyninkunayuqmi
-  kay"], 1904], [["multimidya kapuyninkunayuqmi kay hawa"], 1904], [["commons nisqaqa
-  multimidya kapuyninkunayuqmi"], 1904], [["suyukunata uyarinakunatapas tarinki kaymantam"],
-  484], [["nisqapi suyukunata uyarinakunatapas tarinki"], 484]], "5": [[["nisqaqa
-  multimidya kapuyninkunayuqmi kay hawa"], 1904], [["commons nisqaqa multimidya kapuyninkunayuqmi
-  kay"], 1904], [["nisqapi suyukunata uyarinakunatapas tarinki kaymantam"], 484],
+  San Miguel Aqu distritu.\\n- Piruwpi pruwinsyakuna distritukunapas: Yupaykuna (INEI)\\n-
+  Saywitu: Waral pruwinsyap distritunkuna\\n- Saywitu: Lima suyu\"", "\"\u00bfIMARAQ
+  shutin karqan ts\u00eb un\u00eb kallpasapa kawashqa nunapa? Ts\u00eb nunapa shutenqa
+  Sans\u00f3n ninshi, p\u00ebqa huk juezshi. Jehov\u00e4shi p\u00ebtaqa kallpan qonaq.
+  Ts\u00ebshi, \u2018waw\u00ebki kanqanam. P\u00ebmi pushanqa Israelta filist\u00ebokunapita
+  salvakuy\u00e4nampaq,\u2019 ninaq Jehov\u00e1 Sansonpa mam\u00e4ninta manaraq p\u00eb
+  yuriptin.\\nCanaanch\u00f6 t\u00e4raq mana alli nunakunash kayan filist\u00ebokunaqa.
+  Ts\u00ebshi all\u00e4pa hipatsiyan israel\u00eftakunata atska sold\u00e4doyoq karnin.
+  Huk kutish filist\u00ebokuna t\u00e4r\u00e4yanqanman \u00ebw\u00ebkaptin huk le\u00f3n
+  Sansonman qaparir yarqakaramunaq. Pero makinllawanshi wanuratsinaq ts\u00eb leonta
+  Sansonqa. Hina filist\u00ebokunatapis pachakpayanshi wan\u00efkatsinaq.\\nTs\u00ebpitanash
+  Sans\u00f3n Dalila shutiyoq warmita kuyakurkunaq. Ts\u00ebnash 1.100 piezas de plata
+  nishqanta qoy\u00e4nampaq \u00e4niriyan filist\u00ebokunapa pushaqninkuna Dal\u00eflata,
+  imanir Sansonpa wamay\u00ebpaq kallpan kanqanta will\u00ebkuyaptenqa. Ts\u00eb qell\u00ebtash
+  Dal\u00eflaqa mun\u00ebkunaq. Manash rasump\u00ebpa Diospa markampa ni Sansonpa
+  am\u00efgantsu k\u00eb warmiqa. Ts\u00ebnash imanir wamay\u00ebpaq kallpan kanqanta
+  im\u00eb h\u00f6rapis tapup\u00e4k\u00efkaq Sansonta.\\nTs\u00ebn\u00f6llanash,
+  \u2018manam ni im\u00eb aqts\u00e4ta rutuy\u00e4mushqatsu yurikonq\u00e4pita pats\u00eb,
+  especial Teyta Diospa sirveqnin nazareo nishqan kan\u00e4paqmi p\u00eb akramashqa.
+  Aqts\u00e4ta ruturay\u00e4muptenqa, manam kallp\u00e4 kanmannatsu,\u2019 nishpash
+  ninaq Sans\u00f3n, ts\u00ebn\u00f6pash m\u00ebch\u00f6 kallpan kanqantapis musyarinaq
+  Dalila.\\nK\u00ebta wiyarirnash mellqaninman Sansonta punuk\u00e4ratsinaq Dalila.
+  Ts\u00ebpitanash huk nunata y\u00ebkaratsir aqtsanta ruturatsinaq. Kallpannaqnash
+  riyarkamunaq Sans\u00f3n. Ts\u00ebnash filist\u00ebokuna y\u00ebkur tsaririy\u00e4naq.
+  Ishkan nawinta horqarirshi escl\u00e4vonkuna tikraratsiy\u00e4naq.\\nDag\u00f3n
+  diosninkunata adoray\u00e4nampaqshi filist\u00ebokuna huk hatun fiestata ruray\u00e4naq,
+  ts\u00ebmanshi carcelpita horqar\u00efkur apay\u00e4mun Sansonta p\u00ebpita ts\u00ebch\u00f6
+  asikuy\u00e4nampaq. Pero Sansonpa aqtsanqa yap\u00ebnash winar\u00ebk\u00e4munaq.
+  Ts\u00ebnash, \u2018k\u00eb wayi tsaraq columnankunata yat\u00ebkatsim\u00eb,\u2019
+  ninaq makipita hancharaq wambrata. Y kallpan qonampaq Jehov\u00e4man ma\u00f1akur\u00efkurshi,
+  columnakunaman tanupukurinaq. Ts\u00ebpitanash, \u2018filist\u00ebokunawan wanuk\u00efkun\u00e4paq
+  haqiram\u00eb,\u2019 nishpa qaparinaq. K\u00eb wayipa columnankunapita Sans\u00f3n
+  tanupuk\u00efkur kumariptinshi, ts\u00ebch\u00f6 3.000 mana alli filist\u00ebokuna
+  fiestata rur\u00ebk\u00e4yanqanch\u00f6 wanuriy\u00e4naq wayi huchuriptin.\\nJueces,
+  cap\u00edtulos 13 a 16.\\nTapuk\u00efkuna\\n- \u00bfImaraq shutin karqa ts\u00eb
+  un\u00eb kallpasapa kawashqa nunapa, y piraq kallpan qorqan?\\n- \u00bfK\u00eb dib\u00fcjoch\u00f6
+  rikanq\u00ebkin\u00f6, imataraq huk kuti huk leonta rur\u00ebkorqa Sans\u00f3n?\\n-
+  \u00bfK\u00eb dib\u00fcjoch\u00f6 rik\u00ebkanq\u00ebkin\u00f6, imataraq Sans\u00f3n
+  Dal\u00eflata will\u00ebkan, y imanir-raq k\u00eb caus\u00ebkorqan filist\u00ebokuna
+  tsar\u00efkuy\u00e4nampaq?\\n- \u00bfIman\u00f6paraq wanunan hunaq 3.000 filist\u00ebokunata
+  wan\u00efkatserqan Sans\u00f3n?\\nWakin tapuk\u00efkuna\\n- Leinki Jueces 13:1-14.\\n\u00bfIman\u00f6raq
+  alli wambrakuna w\u00e4t\u00ebch\u00f6 alli ejemplo kayarqan Man\u00f3ah warminwan?
+  (Jue. 13:8; Sal. 127:3; Efe. 6:4.)\\n- Leinki Jueces 14:5-9 y 15:9-16.\\n\u00bfSans\u00f3n
+  ashnupa quij\u00e4danwan 1.000 nunakunata wanutsinampaq, watayanqan mushoq waska
+  rachirinampaq y huk leonta wan\u00efkatsinampaq Jehov\u00e1 Dios esp\u00edritu santonwan
+  yanapanqampita, imataraq yachakuntsik?\\n\u00bfIman\u00f6raq esp\u00edritu santo
+  yanapamantsik kanan? (Jue. 14:6; 15:14; Zac. 4:6; Hech. 4:31.)\\n- Leinki Jueces
+  16:18-31.\\n\u00bfIman\u00f6raq mana alli yanasakuna mana alliman y\u00ebk\u00e4tsiyarqan
+  Sansonta y ts\u00ebpita imataraq yachakuntsik? (Jue. 16:18, 19; 1 Cor. 15:33.)\"",
+  "\"1\u00d1oqan Pablon Diospa kamachin kani, Jesucristoq apostolnin. Paymi kachawarqan
+  Diospa akllakusqankunata i\u00f1iyninkupi wi\u00f1achinaypaq, cheqaq-kayta reqsichinaypaq
+  Diosta tukuy sonqo yupaychanaman hina. 2Ahinapin paykunaqa wi\u00f1ay kawsayta suyakunqaku.
+  Chay kawsaytan mana llullakuq Diosqa prometerqan, manaraq kay pachapas kamasqa kashaqtin,
+  3hinaspan tiemponpi siminta reqsichirqan allin willakuykunata willaqtiy. Chaykunatan
+  Qespichiqninchis Diosqa confiawaspa willanaypaq kamachiwarqan. 4Kay cartatan qelqamuyki
+  i\u00f1iypi cheqaq chur\u00edy Tito. Dios Yayanchis Qespichiqninchis Jesucristopiwan
+  anchata khuyapayasunki, thak-kaytapas qosunki. 5Creta islapiqa saqerqayki ruwanaraq
+  kaqta tukupanaykipaqmi, sapanka llaqtapi i\u00f1iqkuna ukhupi umalli runakunata
+  churanaykipaqwan, imaynan nirqayki\u00f1a hinata. 6Umalli runaqa mana huchachanan
+  kanan, ch''ulla warmiq qosallan, hinallataq wawankunapas Jesucristopi i\u00f1iq
+  kananku, amataq millay puriymantapas mana kasukuq k''ullu kaymantapas qhawasqachu
+  kananku. 7Michiq umalliqa mana huchachanan kanan, Diospa mayordomon kasqanrayku.
+  Paymi kanan mana anchaykachaq, mana saltaq sonqo, mana machaq, mana maqanakuq, qolqellata
+  mana chaninpi mana tariy munaq ima. 8Aswanpas payqa kanan qorpachaqllapuni, allinkaq
+  ruwayta munaq, allin yuyaywan puriq, chaninta ruwaq, ch''uya kawsaq, cuerponta kamachiq.
+  9Payqa yachaqasqan cheqaq yachachikuytan hap''ikunan, ahinapin cheqaq yachachikuyta
+  yachachispa hukkunata kallpachanqa, kutipakuqkunatapas upallachinqa. 10Askhan kanku
+  mana kasukuq k''ullu runakuna, paykunan yanqa rimaspa q''otukuqkuna kanku, chaykunamanta
+  astawanqa wakin i\u00f1iq jud\u00edo runakunan kanku. 11Chay runakunataqa upallachinapunin,
+  paykunaqa mana allinkunata yachachispan familiakunata llapanta waqllichinku, qolqellata
+  mana chaninpi tariyta munaspa. 12Kikin Creta islamanta paykunaq huknin profetankun
+  nirqan: Creta runakunaqa hina llullapunin kanku, millay salqa animalkuna hinan,
+  rakrapukunan, qellakunan, nispa. 13Chay nisqanqa cheqaqpunin, chayrayku paykunataqa
+  k''arakta anyay, i\u00f1iyninkupi allin kanankupaq, 14jud\u00edo runakunaq yanqa
+  willakuyninkunatapas ama kasunankupaq, cheqaq-kaymanta t''aqakuq runakunaq kamachikusqankunatapas
+  ama kasunankupaqwan. 15Ch''uya kaqkunapaqqa tukuy imapas ch''uyallataqmi, ichaqa
+  huchawan qhellichasqakunapaqpas mana i\u00f1iqkunapaqpas manan imapas ch''uyaqa
+  kanchu, yuyayninkupas concienciankupas huchawan qhellichasqa kasqanrayku. 16Paykunaqa
+  \u201cDiosta reqsiyku\u201d ninkun, ichaqa ruwayninkuwanmi Diosta neganku. Chaykunataqa
+  Diospas millakunmi, mana kasukuq k''ullun kanku, manapunin ima allin ruwaytapas
+  atinkuchu.\"", "\"George Cadle Price\\nGeorge Cadle Price sutiyuq runaqa (* 15 \u00f1iqin
+  qhulla puquy killapi 1919 watapi paqarisqa Bilisi llaqtapi - \u2020 19 \u00f1iqin
+  tarpuy killapi 2011 watapi paqarisqa Bilisi llaqtapi) huk Bilisi mama llaqtapi pulitiku
+  karqan.\\nYaya: ; Mama:\\nWarmi: .\\n1981 watamanta 1984 watakama wan 1989 watamanta
+  1993 watakama Bilisi Uma kamayuq.\\nWillay pukuykuna[llamk''apuy | pukyuta llamk''apuy]\\nKaypipas
+  qhaway[llamk''apuy | pukyuta llamk''apuy]\\nHawa t''inkikuna[llamk''apuy | pukyuta
+  llamk''apuy]\\n- Commons nisqaqa multimidya kapuyninkunayuqmi kay hawa: George Cadle
+  Price.\"", "\"Leyi o jorq\u00eb ts\u00ebllaraq yarqamoq T\u00e4pakoq y \u00a1Despertad!,
+  jina jawach\u00f6 ninqan yachatsik\u00efkunatapis. Tuk\u00ef idi\u00f6makunach\u00f6
+  grabashqa librukunata y juk publicacionkunata debaldilla wiy\u00eb. Jina tuk\u00ef
+  idi\u00f6makunach\u00f6 vid\u00ebukunata rik\u00eb y jina jorq\u00eb y s\u00eb\u00f1as
+  idi\u00f6mach\u00f6pis kanmi. Ima idi\u00f6mata munanq\u00ebkitapis akr\u00eb y
+  n\u00efkur Ashi neqch\u00f6 clicta rurari idi\u00f6m\u00ebkich\u00f6 publicacionkunata
+  y maskunata rik\u00e4rin\u00ebkipaq. Jina tuk\u00ef idi\u00f6makunach\u00f6 y s\u00eb\u00f1as
+  idi\u00f6mach\u00f6 vid\u00ebukunata rik\u00eb y jorq\u00eb.\\nIma idi\u00f6mata
+  munanq\u00ebkitapis akr\u00eb y n\u00efkur Ashi neqch\u00f6 clicta rurari idi\u00f6m\u00ebkich\u00f6
+  publicacionkunata y ima form\u00e4tukunach\u00f6 yarqamunqanta rik\u00e4rin\u00ebkipaq.\\nT\u00c4PAKOQ\\nFEBR\u00cbRU
+  2017 T\u00c4PAKOQ (YACHAKUNAPAQ)\\nWAKIN PUBLICACIONKUNA\\nJehov\u00e4man mark\u00e4k\u00efnintsikta
+  sinchiy\u00e4tsishun (Heb.11:6).\\nJehov\u00e4ta im\u00ebpis kuy\u00ebk\u00e4napaq
+  kallpachakushun (Mat. 22:37).\\nJatun asambl\u00ebapa progr\u00e4man, 2016\\nSummaries
+  from What Can the Bible Teach Us?\\nLlapan junaqkuna Bibliapita yachakunapaq 2017
+  (jatusaq letrayoq)\\nJatun asambl\u00ebapaq invitacion, 2016\\nJehov\u00e4pa test\u00efgunkuna
+  yanapak\u00efta ashinapaq 2015\\nJehov\u00e4pa am\u00efgun k\u00eb (cancionkuna)\\nMushoq
+  publicacionkuna\\nJatun asambl\u00ebankuna cada junaq ushariptin, yarqamunqan mushoq
+  publicacionkunata rik\u00eb o jorq\u00eb.\\nK\u00ebch\u00f6mi yarqamun mas ras,
+  imprimishqapitapis altsashqa kaqkuna.\"", "\"Home -- Quechua -- Perform a PLAY --
+  021 (Sin begins little by little 6)\\n21. Juchaqa siminchejpi qallariy atinman 6\\nRey
+  Acabqa kamachinan palaciopi kayman jaqayman puriykashan, imata mana ruway asispa
+  jina. Kutin kutinta ventanamanta qhawashallantaj chay jawapi k\u2019acha sumaj uva
+  huertataqa.\\nAcab: \\\"Jap\u2019inaypuni tiyan kaytaqa. Mana karupichu kamachinay
+  palaciomanta chaymankama llojsinaypajpacha, sumajpuni kashan. Aswan sumaj uva huertaman
+  noqa tukuchiyman.\\\"\\nChay uva huertaj due\u00f1ompajman kachaykukun.\\nAcab:
+  \\\"Nabot, noqa jamushayki palacioy qayllapi uva huertaykita vendenawaykita munaspa.\\\"\\nNabot:
+  \\\"Mana chay atikunchu reyniy. Chay uva huertaqa tataykunaj qowasqan herencia.
+  Herenciaqa mana vendekunmanchu, chayta nin Diospa kamachisqampi.\\\"\\nChayta nejtinkama,
+  ch\u2019inmanta llojsimun manchay phi\u00f1asqa wasinman cheqanta ripun, chayaytawantaj
+  nipita parlapayaspa ch\u2019inmanta cama pataman wijch\u2019urpakun.\\n\u00bfQampis
+  jinatachu phi\u00f1akuyta yachanki imachus munasqayki jina mana atikojtin?\\nRey
+  Acabqa perqa k\u2019uchuman kutirirpaspa kikimpi wijch\u2019urayan, warmintaj:\\nJezabel:
+  \\\"\u00bfUmm imataj pasasunkir\u00ed?\\\"\\nReina Jezabel tukuy imachus kasqanta
+  yachaytawan, kay jinata nin:\\nJezabel: \\\"\u00bfManachu qanqa rey kanki? Jatarikuy,
+  kusikuspa mikhuy, noqatajcha yachasaj imaynamanta chay munasqayki qampata kanampaj.\\\"\\nReinaqa
+  cartasta qhelqayta qallarin tukuy chay llajtapi churasqakunaman, reypa firmanwan,
+  sellonwan sellaykuspa ima. Chaytataj tukuyman apaykuchin uj tatankuta ruwanankupaj,
+  chayta jap\u2019eqajkuna \u00f1awirispataj imachus kamachisqa cartapi kasqanman
+  jina ruwasqanku: chay tatantakuymantaj uva huertayoj Nabot-ta wajyachinankuta nisqa,
+  kikinta ruwaspataj, mana kajmanta llulla testigoswan ch\u2019ataykuchisqanku: Diospa
+  contranta parlan, chanta reypa contrantapis, chayrayku wa\u00f1unan tiyan, nispa.\\nAjinatataj
+  ruwanku. Uva huertayoj Nabotqa ni ujchhikantapis chay mana allinta wakichisqankupi
+  yuyaspa risqa wajyachisqankuman jina, chay p\u2019unchaypacha ch\u2019isiyaykuyshajtin\u00f1ataj
+  \u00f1apis wa\u00f1usqa\u00f1a karqa.\\n\u00bfManachu juch\u2019uy imakunaraykulla,
+  may millay juchata ruwayman chayanku? Rikuytawa \u2013 jap\u2019iyta munay \u2013
+  envidiakuy \u2013 orgullo \u2013 k\u2018umuykachachiy \u2013 chantataj wa\u00f1uchiy.\\nNabotpa
+  wa\u00f1usqanmanta parlaqa tukuynejman chay rato chayan. Acabtaj uva huerta jap\u2019ej
+  rinpacha, imakunatachus ruwasqanqa mana Diosllaqan, jinallapi El\u00edas \u00f1annimpi
+  rikhurillantaj. Acabqa manchhariywan q\u2019ellupacha sayarpan.\\nAcab: \\\"\u00bfEnemigoy
+  kashaspachu taripawanki?\\\"\\nEl\u00edas: \\\"Ari, taripayki. Juchaman qan kikiyki
+  jaywakunki, sonqoykipitaj juchata wi\u00f1achinki. Tata Diosqa juchata chejnikun,
+  chayrayku qanta jinata ayllukita chinkachisunqachej.\\\"\\nEliaspa nisqanqa tullunkama
+  reyman chayarpan, tukuuy mana allin ruwasqanmanta arrepentikun. Tata Diostaj sonqonta
+  rikuspa khuyarikun paymanta.\\nJuchanchejta Jes\u00fasman rimarejtinchejqa, Diostata
+  cheqa kayninwan perdonawanchej.\\nPersonajes: Relator, Acab, Jezabel, Nabot, El\u00edas\\n\u00a9
+  Copyright: CEF Germany\"", "\"Diospa kamachikuyninkunaqa waqaychawanchikmi. Waqaychawananchikpaqqa
+  kamachikuyninkunatam sunqunchikpi takyachinanchik (Pr 7:3). Pipas Diospa kamachikuyninkunata
+  mana\u00f1a sunqunpi waqaychaspanqa satanaspa tuqllankunamanmi wichiykunman. Proverbios
+  7 capitulopim willakun huk mozo Diospa kamachikuyninkunata mana\u00f1a waqaychaspa
+  sunqunpa munasqanta\u00f1a ruwasqanmanta. \u00bfImatam chay mozomanta yachachwan?\\n\u00d1awinchikta\\n7:10\\nMakinchikta\\n7:13\\nMunasqanchikta\\n7:14\\nSinqanchikta\\n7:17\\nUyarisqanchikta\\n7:21\\nSatanasqa
+  tukuy kaykunata valekuspanmi huchaman wichichiyta munawaspanchik Jehova Diosmanta
+  karunchayta munawanchik.\\nAllin yachayniyuq hinaspa entiendeq kayqa yanapawasunmi
+  ima huchamanpas mana wichiykunapaq.\"", "\"Nuqayku pacha qhawariyku tukuy laya se\u00f1aspi,
+  yachanaykupaq para watachu, ch\u2019aki watachu kanqa, \u00f1awpaqtachu, qhipallatachu
+  tarpunaykupaq, ama pantanaykupaq.\\nQhawarispa kayku rumipi, phuyupi, ch\u2019askapi,
+  atuq waqaqtapis uyariyku, sank\u2019ayu, mu\u00f1a t\u2019ikaqta qhawariryku. 1,
+  2, 3 p\u2019unckaykuna Chaqra yapuy killapi (agosto). Tata Octavio R\u00edos\\n\u201cAgosto
+  killapi pacha qhawani phuyupi, rumipi, \u00f1awpaqtachus, qhipallatachus tarpunaypaq:
+  1 de agosto killapi, rikhuni phuyu lluqsimuchkaqta patamanta; 2 y 3 de agosto, qhawallarqanitaq,
+  kikillantaq karqa. Chay p\u2019unchaykunapi rumista uqharillarqanitaq, jump\u2019i
+  karqa (transpirado).\\nKay wata \u00f1awpaqta tarpuna, agosto, septiembre, octubre
+  killakama tarpuna, qhipallata tarpusun chayqa, qhasacha jap\u2019irpanman.\\nWawas
+  mana qunqanachu, tatasmanta umallirikuna kay yachaykunasta, mana chinkachinachu,
+  nuqayku wa\u00f1uqtiyku qankuna \u00f1awpaqman apallankichispuni, wawasnikichisman
+  yachachinaykichis tiyan\u201d. Tata Sebasti\u00e1n Bautista.\\nLea el art\u00edculo
+  original en la revista infantil A\u00f1askitu N\u00ba 102\"", "\"Edwin van der Sar\\nEdwin
+  van der Sar sutiyuq runaqa, (* 19 \u00f1iqin kantaray killapi 1970 watapi paqarisqa
+  Voorhout llaqtapi - ), kuk Urasuyu mama llaqtayuq piluta hayt''aqmi wam pukllaykamachiq
+  qarqan.\\nTayta: van der Sar, Mama: .\\n\u00d1awpaq warmi:\\nChurinkuna: (?)\\nKlubkuna
+  llamk''apuy\\nClubes llamk''apuy\\nSu\u00f1aykuna llamk''apuy\\nMama llaqta kampiunatukuna
+  llamk''apuy\\nMamallaqtapura kampiunatukuna llamk''apuy\\nIndividual su\u00f1aykuna
+  llamk''apuy\\nWillay pukyunkuna llamk''apuy\\nKaypipas qhaway llamk''apuy\\nHawa
+  t''inkikuna llamk''apuy\\n- Commons nisqaqa multimidya kapuyninkunayuqmi kay hawa:
+  Edwin van der Sar.\"", "\"Sichus wa\u00f1uy utaq incapacidad total y permanente
+  nisqa asegurado nisqa, garantizan capital crediticio nisqa cancelacionta.\\nPachakmanta
+  pachakmanta huknin primakuna pagasqamanta kutichiy.\\nSeguro de Vida nisqa manukuywan
+  tinkisqa kaptinqa, qullqi quy tukukuptin qullqi qusqamanta pachakmanta hukninta
+  kutichipuyta atinki .\\nSichus wa\u00f1uy utaq incapacidad total y permanente nisqa
+  asegurado nisqa, garantizan capital crediticio nisqa cancelacionta.\\nPachakmanta
+  pachakmanta huknin primakuna pagasqamanta kutichiy.\\nSichus wa\u00f1uy utaq incapacidad
+  total y permanente nisqa asegurado nisqa, garantizan capital crediticio nisqa cancelacionta.\\nPachakmanta
+  pachakmanta huknin primakuna pagasqamanta kutichiy.\\nInscribikuy\\n38 wata microempresarios
+  nisqakunata yanapaspa suyunchikpi.\\n\u00d1uqaykuqa chaninchaykiku\\n200 masnin
+  agenciakuna qampaq kan tukuy suyupi.\\nQolqeykita chaskiy\\nTukuypaq rurukuna chaymanta
+  yanapakuykuna qampaq ruwasqa.\\n38 wata microempresarios nisqakunata yanapaspa suyunchikpi.\\n200
+  masnin agenciakuna qampaq kan tukuy suyupi.\\nTukuypaq rurukuna chaymanta yanapakuykuna
+  qampaq ruwasqa.\\nSeguro de vida nisqa, wa\u00f1uy kaqtin utaq llapan hinaspa wi\u00f1aypaq
+  discapacidad nisqa kaqtin, llank\u2019achisqa, mayqen qolqe tarpuy wasipipas llapan
+  manukuy pendiente nisqa paganapaq; Hinallataq, akllanata qusunki huk pachakmanta
+  huknin primakuna qusqamanta qullqi kutichipuyta ma\u00f1akunaykipaq, sichus kamachiypi
+  willasqa condicionkuna hunt''asqa kaptin.\\nAr\u00ed. Pachakmanta huknin primakuna
+  pagasqamanta kutichisqa kanman qallariypi churasqa pacha ukhupi cr\u00e9ditoyki
+  pagayta tukuspa chaymanta pol\u00edtica nisqapi willasqa condicionkunata hunt''aspa.\\nMana
+  kamachisqachu, akllayta atikunki huk Deducci\u00f3n B\u00e1sica kaqwan utaq huk
+  Reembolso kaqwan\\nSeguro de cr\u00e9dito tributario nisqa qolqe kutichipuywan chaskinaykipaqqa
+  18 watayoqmi kanayki, 78 watayoqtaqmi kanayki. Chaymantapas, Caja Arequipapi kunan
+  cr\u00e9dito nisqayuq kay hinaspa necesitaptinqa hampichikuy.\\nYanapakuq virtualniyku
+  llapa tapukuyniykikunata kutichinqa\\nIchapas maskachkanki: manukuyta, qullqiyki
+  wi\u00f1achinaykipaq, aylluykita amachanaykipaq.\""]'
+src_ngrams: '{"1": [[["diospa"], 53691], [["tayta"], 53487], [["tukuy"], 50238], [["ima"],
+  48943], [["y"], 48176]], "2": [[["pukyuta llamk"], 11115], [["tayta dios"], 8165],
+  [["tata dios"], 6324], [["yaya diospa"], 6116], [["de la"], 5396]], "3": [[["nisqaqa
+  multimidya kapuyninkunayuqmi"], 1904], [["kapuyninkunayuqmi kay hawa"], 1904], [["commons
+  nisqaqa multimidya"], 1904], [["tayta diosninchipa shiminta"], 691], [["tata diospa
+  rimananta"], 672]], "4": [[["multimidya kapuyninkunayuqmi kay hawa"], 1904], [["commons
+  nisqaqa multimidya kapuyninkunayuqmi"], 1904], [["suyukunata uyarinakunatapas tarinki
+  kaymantam"], 484], [["nisqapi suyukunata uyarinakunatapas tarinki"], 484], [["commons
+  nisqapi suyukunata uyarinakunatapas"], 484]], "5": [[["nisqaqa multimidya kapuyninkunayuqmi
+  kay hawa"], 1904], [["nisqapi suyukunata uyarinakunatapas tarinki kaymantam"], 484],
   [["commons nisqapi suyukunata uyarinakunatapas tarinki"], 484], [["simi icha huk
-  indihina simi"], 391]]}'
+  indihina simi"], 391], [["ashaninka simi icha huk indihina"], 391]]}'

@@ -1,7 +1,8 @@
 corpus: hplt-v3-uzn_Latn
-srclang: uz
-timestamp: 1758233479.9252532
-warnings: []
+srclang: uzn
+timestamp: 1758686040.7866864
+warnings:
+- src_fastspell
 docs_collections: '[["CC-MAIN-2023-40", 59181], ["CC-MAIN-2016-44", 57473], ["CC-MAIN-2020-05",
   55058], ["CC-MAIN-2024-51", 50930], ["CC-MAIN-2023-14", 49598], ["CC-MAIN-2024-10",
   48562], ["CC-MAIN-2023-50", 47870], ["CC-MAIN-2020-24", 47715], ["CC-MAIN-2022-40",
@@ -23,7 +24,8 @@ docs_collections: '[["CC-MAIN-2023-40", 59181], ["CC-MAIN-2016-44", 57473], ["CC
   4082], ["CC-MAIN-2016-40", 1844], ["wide2", 1429], ["survey3", 1388], ["wide6",
   1260], ["CC-MAIN-2014-35", 764], ["CC-MAIN-2015-11", 600], ["CC-MAIN-2014-42", 532],
   ["CC-MAIN-2016-30", 269], ["CC-MAIN-2015-18", 238], ["CC-MAIN-2015-48", 193]]'
-docs_langs: '[[0.0, 1882814]]'
+docs_langs: '[[0.0, 201], [0.1, 2621], [0.2, 6987], [0.3, 18685], [0.4, 30133], [0.5,
+  56847], [0.6, 68269], [0.7, 112190], [0.8, 203981], [0.9, 290026], [1.0, 1092874]]'
 docs_segments: '[[637, 4], [405, 10], [320, 13], [305, 19], [999, 2], [640, 1], [730,
   3], [481, 7], [680, 1], [336, 18], [950, 2], [3209, 1], [3132, 1], [546, 3], [441,
   4], [696, 4], [791, 2], [478, 3], [417, 2], [324, 13], [805, 1], [393, 10], [652,
@@ -992,7 +994,7 @@ src_unique_sents: '[[1, 170278], [2, 465141], [3, 781223], [4, 867503], [5, 9214
   1], [79345, 1], [80941, 1], [81634, 1], [82407, 1], [83837, 1], [84569, 1], [85116,
   1], [90129, 1], [103148, 1], [114025, 1], [116860, 1], [123778, 1], [124856, 1],
   [126276, 1], [126498, 1], [134186, 1], [151598, 1]]'
-src_langs: '[["uz", 21800305], ["en", 3363644], ["tr", 2523614], ["it", 571202], ["de",
+src_langs: '[["uz", 21901162], ["en", 3363644], ["tr", 2422757], ["it", 571202], ["de",
   498740], ["ru", 343130], ["az", 327888], ["id", 275271], ["pt", 255044], ["es",
   203578], ["fr", 185169], ["eo", 179113], ["zh", 164548], ["fi", 132618], ["sr",
   130453], ["et", 124166], ["hu", 100018], ["bs", 93161], ["pl", 88207], ["nl", 87566],
@@ -1031,731 +1033,1025 @@ register_labels: '{"NA_ne": 651490, "UNK": 511284, "MT": 439394, "IN_other": 149
   19229, "ID_other": 16453, "OP_rs": 15900, "NA_nb": 13390, "HI_re": 9034, "OP_av":
   6606, "LY_other": 5849, "SP_it": 5383, "SP_other": 4761, "OP_rv": 3296, "OP_ob":
   2370, "IN_ra": 530, "IN_fi": 3, "IP_ed": 1}'
-sample: '["\"25 Ma\u044f 2005 ro\u0434a, 10:06\\n(Uzbek languages, please, dear Hema
-  Malini you will translate this my words from uzbek into English, thank you!). Hema
-  Malini va Dharmendra birgalikda o''ynagan \\\"Ali bobo va qirq qaroqchi\\\" filmi
-  butun dunyo kino muhlislari tomonidan sevib tamosho qilingan, bu biz o''zbeklarning
-  ham cheksiz fahridir, chunki bu kinosda o''zbek aktyorlari ham rol o''ynaganlar.\\nShu
-  fursatdan foydalanib Men Hema Maliniga o''zimning barcha sevgi salomlarimni yo''llab
-  qolaman. Hema, agar xat yozsangiz hurshid87@bk.ru ga xat yozing,iltimos. Men xatigizni
-  kutaman.\\nCheksiz salom bilan Hurshid.\"", "\"Kecha Madridning \\\"Atletiko\\\"si
-  \\\"Alaves\\\" bilan nursiz durrang qayd etdi. \\\"Matraslar\\\" jamoasi 20 turdan
-  so''ng 36 ochko bilan 4-o''rinda bormoqda. Bugun esa \\\"Barselona\\\" \\\"Betis\\\"dan
-  mag''lubiyatga uchrashiga oz qoldi. Hisob 1:1. Ha, 90-daqiqada \\\"Betis\\\" g''alabani
-  qo''ldan chiqardi. Kataloniyaliklar 20 turdan so''ng 42 ochko bilan hozircha 2-o''rinda.
-  U bilan teng ochko to''plagan \\\"Seviliya\\\" esa \\\"Espanyol\\\"dan dog''da qoldi
-  (3:1) hamda to''plar nisbatiga ko''ra, 3-o''ringa tushdi. \\\"Real\\\" hozircha
-  18 ta o''yin bilan 43 ochko to''plab, yetakchi bo''lib turibdi. Juda qulay imkoniyat...\"",
-  "\"Kimyogarlar qo\u2018rg\u2018oni Samarqand shahri markazidan 9\u201410 kilometr
-  uzoqlikda joylashgan. Ayni paytda ushbu hududda 25 mingdan ortiq aholi istiqomat
-  qiladi, deb yozadi O\u2018zA.\\n\u201cTransport qatnovida deyarli muammo uchramaydi.
-  Bir necha yo\u2018nalishda avtobus, mikroavtobuslar qatnovi yo\u2018lga qo\u2018yilgan.
-  Yo\u2018nalishsiz taksilar ham tunu kun yo\u2018lovchilar xizmatida. Ammo, Samarqand
-  shahri va qo\u2018rg\u2018onni bog\u2018laydigan asosiy yo\u2018l \u2013 Narpay
-  ko\u2018chasida ham, qo\u2018rg\u2018onning o\u2018zida ham birorta avtobus bekati
-  yo\u2018q. Borlari ham foydalanishga yaroqsiz holga kelib qolgan. Hatto savdo va
-  xizmat ko\u2018rsatish nuqtalariga aylanib ketgan bekatlar bor\u201d, \u2014 deyiladi
-  xabarda.\\n6, 15, 93-yo\u2018nalishlarda qatnovchi avtobus haydovchilarining aytishicha,
-  Kimyogarlar qo\u2018rg\u2018onidan Samarqand shahrigacha 4\u20145 bekatda to\u2018xtab
-  yo\u2018lovchi olish va tushirish belgilangan. Lekin belgilangan manzillarda bekatning
-  o\u2018zi yo\u2018q. Shu sababli haydovchilar qayerda yo\u2018lovchi bo\u2018lsa,
-  o\u2018sha yerda to\u2018xtashga majbur. Bu esa yo\u2018nalishlardagi qatnov tartibi
-  va vaqtining buzilishiga sabab bo\u2018ladi.\\n\u201cQayerda bekat borligi yoki
-  bo\u2018lishi kerakligi ham esimizdan chiqib ketgan. Qulay joydan Narpay ko\u2018chasiga
-  chiqamiz yoki bozorcha oldiga borib turamiz. Yog\u2018in-sochinli kunlarda avtobus
-  kutish uchun bekat yo\u2018qligidan taksi yoki mikroavtobusdan foydalanishga majbur
-  bo\u2018lamiz. Biz-ku sharoitga qarab yo\u2018lga chiqaveramiz, lekin yomg\u2018ir
-  yoki qor yoqqan paytlarda bolalar va keksalarning avtobus kutishi azob-da\u201d,
-  \u2013 deydi yo\u2018lovchi R.Hayitov.\"", "\"\u04b2aBo \u049byByp\u043bap\u0438\u0434a
-  aBToMaT\u0438k \u049byp\u0438\u043bMac\u0438\\nHAVO QUVURLARIDA XARAKATLANAYOTGAN
-  PAXTA MAHSULOTLARINI TUTASHINI VA YONISHINI ZUDLIK BILAN ANIQLASH, OGOHLANTIRISH
-  VA KENG TARQALIB KETISHINI OLDINI OLISH AVTOMATIK QURILMASI\\nVazifasi Avtomatik
-  tizim havo quvurlarida harakatlanayotgan paxta mahsulotlarini tutashini va yonishini
-  zudlik bilan aniqlash, ogohlantirish va paxtaga dastlabki ishlov berish texnologik
-  jarayoni bo\u2019yicha keng tarqalib ketishini oldini olishga mo\u2019ljallangan.\\n1.
-  Ta`minlovchi tarmoq kuchlanishi, V 220\\n2. Ta`minlovchi tarmoq chastotasi, Gs 50\u00b11\\n3.
-  Ishlatilayotgan tok, mA, ko\u2019pi bilan 80\\n4. Bajaruvchi mexanizmlarning yuklanish\\nkommutasiya
-  toki, A 2\\n5. Nazorat hududida datchiklarning yorug\u2019likka\\nsezgirligi, lk,
-  ko\u2019pi bilan 10\\n6. Datchiklarning sezgirlik radiusi, m 1\\n7. Datchiklarning
-  aniqlash samarasi, % , kamida 97\\n8. Havo quvurining diametri, mm 400-920\\n9.
-  Havo quvuridagi paxta mahsulotlarining\\nharakatlanish tezligi, m/s 5-45\\nNatija
-  Bir jarayondan ikkinchi texnologik jarayonga uzatilayotgan mahsulotlar harakatlantirilayotgan
-  vaqtida sodir bo\u2019lishi mumkin bo\u2019lgan o\u2019t ketishini, yonishini oldi
-  olinadi, natijada qimmatbaho mahsulotlar yo\u2019qotilmaydi, saqlab qolinadi, ularning
-  sifati buzilishi oldi olinadi, ish unumdorligi ortadi, jarohat olish va kuyishning
-  oldi olinadi.\"", "\"Pishirish uchun ko''chma 12 voltli pech\\n12 voltli pechning
-  tavsifi\\nSayohat paytida sizning kichkina do''stingiz, Mini elektr pechka sizga
-  yo''l bo''yida yangi issiq kechki ovqatni etkazib beradi. Pishirilgan mahsulotlar,
-  yengil ovqatlar, pitssalar va iliq sendvichlarning kichik partiyalarini tayyorlash
-  uchun juda yaxshi, bu chorak kattalikdagi konvektsiya pechkasi sizning oshxonangizda
-  qimmatli joyni sarf qilmasdan pishirish hajmini oshirishning ajoyib usuli! Har qanday
-  ovqat yoki ziyofatga tayyorgarlik ko''rishga yordam beradigan darajada katta bo''lgan
-  bu elektr pechka elektr energiyasining ixcham va tejamkor shaklidagi to''liq hajmli
-  pechning ishlashiga ega. Maxsus pizza funktsiyasi bir necha daqiqada pitsani mukammal
-  darajada pishiradi. Nonni teng ravishda qovurishdan tortib, og''iz suvi bilan qovurilgan
-  pishirishga qadar.\\nPortativ elektr pechka pishirish uchun tortlardan tortib pishirilgan
-  pechenegacha, lososni pishirishgacha, qovurilgan yoki cho''chqa go''shtini pishirishgacha
-  bo''lgan ko''p qirrali pishirish imkoniyatlari bilan to''ldirilgan. Pickierlar uchun
-  alohida ovqat tayyorlash uchun qo''shimcha vaqt sarflashning hojati yo''q. Ushbu
-  kichik elektr pechka ixcham dizayni uni kofe do''konlari, kiosklar, snack barlar
-  va restoranlarga, hattoki avtoulovlardan foydalanish uchun juda yaxshi qiladi.\\nQolaversa,
-  ushbu ko''chma elektr pechka hamma uchun, hamma joyda va har doim ham juda mos keladi.
-  Pishiriladigan ushbu ko''chma pech sizning ofisingizdagi mikroto''lqinli pechning
-  o''rnini bosishi mumkin. Avtoulovlar uchun mo''ljallangan lager aksessuarlari keksalar
-  uchun pishirish uchun qulay sharoit yaratadi, kvartiralarda yashovchilar uchun asosiy
-  taom bo''lib xizmat qiladi yoki gazak ixlosmandlariga ozgina qo''shimcha taomlar
-  taqdim etadi.\\n12 voltli pechning tafsilotlari\\nIchki o''lchamlar: (D) 254 x (V)
-  270 x (H) 99 mm\\nTashqi o''lchamlar: (L) 320 x (V) 290 x (H) 190mm\\nJoriy: 10.8A\\nVatt:
-  130 Vt\\nMaksimal harorat oralig''i: 0\u00b0-180\u00b0C\\nMaks pechka taymeri: 1-120
-  daqiqa\\nO''zgaruvchan sug''urta darajasi: 15A\\nIzolyatsiya: Fiberglas\\nKoson:
-  zanglamaydigan po''lat\"", "\"He\u0434aBHo \u0438cka\u043b\u0438:\\nGiyos Boytoyev,
-  \u0434\u0438\u043b\u0448o\u0434 paxMoHoB, Navruz sabirov voy voy, gulomjon yoqubov
-  ey dil, MARIANA VERJIN ZANG MIX, Shoxruxxon Mix Admin, nilufar usmonova xorazm4a,
-  dilshod raxmonov 2012, kamola ketma ketma mp3, Ep\u0436\u0438r\u0438T \u0416aH\u0434apoB
-  TekcT \u043fecH\u0438, Hoca ka\u0437axcka\u044f Bepc\u0438\u044f, ahror gitara,
-  y\u0437\u0431ekck\u0438e M\u0438HycoBk\u0438, Sarson minus, eBa \u043fo\u043bbka
-  Hepo\u0437\u043by\u0447H\u044be, SAXZODA, Klip Rayhon Unitaman, Comedoz \u042fMa\u0439ka
-  M\u0438Hyc, Hangman ft KuZ, A\u0431\u0431oc \u0436oH k\u0438\u0437\u0438M, hurshida
-  jorayeva sen, RAYHON SHAXNOZ, ayna babamurat hamdamov, \u0436y\u0431aH\u044b\u0448
-  \u0416ekceH Mapyc\u044f\u0436a, Dagi, rayhon shahnoz, DJ Bobo Everybody, TekcT \u043fecH\u0438
-  apMaH\u0434a\u0439M\u044bH, julio, Nensy, Mapyc\u044f\u0436aH, mp3 mansur nurmatov,
-  atham soliev ona duosi, k\u044b\u0437\u044bM M\u0438HycoBka, teze mahnilar, dato
-  ya lyubil, DJ MAD, Rayhon, Rayhon unutarman, \u043bo\u043ba \u0448oxpyxxoH \u0439\u0438r\u043bap
-  ocMoH\"", "\"Adidas Jabulani\\nJabulani (/ /JAB-yuu-LAH-nee, Zulu: [d\u0292a\u0253u\u02c8la\u02d0ni])[1]
-  \u2014 Adidas tomonidan ishlab chiqarilgan futbol to\u02bbpi. Bu 2010-yilgi futbol
-  bo\u02bbyicha jahon chempionatining rasmiy to\u02bbpi edi.[2]\\nTo\u02bbp sakkizta
-  sharsimon shakllangan panellardan yasalgan va aerodinamikani yaxshilash uchun mo\u02bbljallangan
-  teksturali sirtga ega. Natijada u Adidas Tango 12 futbol to\u02bbplari seriyasining
-  yaralishiga olib keldi.\\nJabulani, ya\u02bcni \u201ebaxtli bo\u02bbling!\u201c
-  Zulu tilida \u201ebaxtli bo\u02bblish\u201c fe\u02bclining buyruq ko\u02bbplik shaklidir.[3]\\nTexnik
-  jihatlari[tahrir | manbasini tahrirlash]\\nIshlab chiqarish[tahrir | manbasini tahrirlash]\\nTo\u02bbplar
-  Xitoyda, Hindistondan lateks pufakchalar[5] Tayvandan termoplastik poliuretan-elastomer,
-  etilen vinil asetat, izotrop poliester/paxta mato, Xitoydan yelim va siyoh yordamida,
-  ishlab chiqarilgan.[6]\\nKo\u02bbrinishi[tahrir | manbasini tahrirlash]\\n2009-yil
-  4-dekabrda Jabulani 2010-yilda Janubiy Afrikada bo\u02bblib o\u02bbtgan futbol bo\u02bbyicha
-  Jahon chempionatining rasmiy o\u02bbyin to\u02bbpi bo\u02bblishi e\u02bclon qilindi.[2]\\nTo\u02bbp,
-  shuningdek, 2009-yilda Birlashgan Arab Amirliklarida bo\u02bblib o\u02bbtgan FIFA
-  klublar o\u02bbrtasidagi jahon chempionatida o\u02bbyin to\u02bbpi sifatida ishlatilgan
-  va to\u02bbpning maxsus versiyasi \u2014 Jabulani Angola 2010-yilgi Afrika Millatlar
-  Kubogi musobaqasi to\u02bbpi bo\u02bblgan.\\nUshbu to\u02bbp Argentinaning 2010-yilgi
-  Klausura turnirida, shuningdek, 2010-yilgi MLS mavsumida AQSh va Kanadada liganing
-  ko\u02bbk va yashil ranglarida ishlatilgan.\\nYevropa ichki ligalarida u 2010-11
-  Bundesligada[7] \u201eTorfabrik\u201c nomi bilan tanilgan qizil va oq liganing imzo
-  ranglarida va 2010-11 Primeira Ligada, oq rangda ishlatilgan.\\nUEFA to\u02bbpni
-  UEFA Superkubogi va UEFA Yevropa ligasida tegishli rasmiy o\u02bbyin to\u02bbpi
-  rangi va dizayni bilan ishlatgan.[8][9]\\nManbalar[tahrir | manbasini tahrirlash]\\n-
-  \u201eisiZulu.net \u2212 Zulu-English dictionary\u201c.\\n- FIFA.com. \u201eJabulani:
-  The official matchball\u201c. fifa.com (4-dekabr 2009-yil). 8-dekabr 2012-yilda
-  asl nusxadan arxivlandi. Qaraldi: 17-iyun 2016-yil.\\n- \u201eisiZulu.net \u2212
-  Zulu-English dictionary\u201c. \u201eisiZulu.net \u2212 Zulu-English dictionary\u201c.
-  jabulani.\\n- Zarda. \u201eThe Science Behind Jabulani, Adidas''s 2010 World Cup
-  Soccer Ball\u201c. Popsci.com (5-iyun 2010-yil). Qaraldi: 17-iyun 2010-yil.\\n-
-  \u201eKerala latex a World Cup winner\u201c. newindianexpress.com. Qaraldi: 17-iyun
-  2016-yil.\\n- \u201eDishtracking article on manufacturing the ball\u201c. Dishtracking.com.
-  18-avgust 2010-yilda asl nusxadan arxivlandi. Qaraldi: 17-iyun 2010-yil.\\n- \u201e\\\"Jabulani\\\"
-  wird Bundesliga-Spielball\u201c. 17-iyul 2010-yilda asl nusxadan arxivlandi. Qaraldi:
-  4-iyul 2010-yil.\\n- \u201eAdidas UEFA Competition Match Balls\u201c. 19-sentabr
-  2010-yilda asl nusxadan arxivlandi. Qaraldi: 21-sentabr 2010-yil.\\n- \u201eAdidas
-  UEFA Competition Match Balls\u201c. 19-sentabr 2010-yilda asl nusxadan arxivlandi.
-  Qaraldi: 21-sentabr 2010-yil. Alt URL\"", "\"\u201cREFAR ko\u2019chmas mulk savdo\u201d
-  MChZh Farg''ona viloyatida yirik va nufuzli realtorlik tashkiloti hisoblanib, ushbu
-  tashkilotning viloyatda 2 ta filiallari va bosh ofislari mizhozlarga xizmat kursatib
-  kelmokda.\\nRieltorlik faoliyati tugrisida\u201dRealtorlik faoliyati tugrisida\u201drieltorlik
-  faoliyati tugrisida\u201d O''zbekiston Respublikasi Xususiylashtirish, Monopolyadan
-  chikarish va Rakobatni rivo mulkni rivojlantirish Davlat qo''mitasi tashkiloti 2015
-  yil 09 noyabr kuni realtorlik ishlab chiqarishni boshqarishish xuukukini RR-0238-sonlilicense.
-  bozorida aholiga ishonchli xizmat kursatib, ishonchiga kirib \u201cREFAR ko\u2019chmas
-  mulk savdo\u201d MChZh sotuvchi va haridorlarga teng hukukuklilik, savdo istirokchilarining
-  barcha manfaatlarini himoya qilish uchun shart- harakatlari\\nKo''chmas mulklarning
-  savdolarini tashkil etib jamiyatimiz Sizga kuyidagi hizmatlarni taklif qiladi:\\n\u2013
-  kwchmas mulk ob''yektlariga va ularga bwlgan huquqlarga doir bitimlarni umumiy chogidagi
-  vositachilik;\\n\u2013 ko''chmas mulk ob''yektlarining va ularga bo''lgan huquqlarning
-  savdosini tashkil etish;\\n\u2013 quchmas mulk obyektlarini ishonchli boshkarish;\\n\u2013
-  kuchmas mulk bozorida axborot va maslahat xizmatlarini kursatish.\\n\u201cREFAR
-  ko\u2019chmas mulk savdo\u201d MChZh o''z mizhozlariga dunyoning eng ilgor realtorlik
-  tashkilotlari usubidan chikkan holda ishonchli va kafolatli hizmat kw paydo.\\nZhamiyatning
-  boshka rahbarlar oldida zhavobgarlik suxurtasi \u201cGROSS Insuranse\u201d sug''urta
-  kompaniyasi Vodiy filiallari tashkil etilgan 2016 yil 04 noyabr kuni berylgan fukarolik
-  zhavobgarligi tug''ilishi 25/34/2578-sonli sug''urta polisiga ego\"", "\"Mejburiy
-  emgek meydanida otta k\u00f6y\u00fcp \u00f6lgen nebijan rozining jesiti jem''iyettin
-  xupiyane halda yerlikke qoyulghan\\nBultur toqquzaqtin aqsugha paxta t\u00e9rishqa
-  barghan 16 yashliq oqughuchi nebijan rozining ot k\u00e9tish weqeside jan \u00fczgenliki
-  heqqide ilgirilep \u00e9lip barghan \u00e9niqlashlirimizda, da''irilerning mezkur
-  weqeni toqquzaqliq ahalilerdin mexpiy tutushqa tirishqanliqi we bu sewebtin, jesetni
-  yerlikke jem''iyettin xupiyane halda qoyghanliqi we \u00f6l\u00fcm xewirining lag\u00e9rdiki
-  dadisighimu uqturulmighanliqi melum boldi. T\u00f6wende muxbirimiz sh\u00f6hret
-  hoshurning bu heqte teyyarlighan programmisi diqqitinglarda bolidu.\\nIlgirilep
-  ashkarilinishiche, mezkur ot k\u00e9tish weqesi y\u00fcz bergen mejburiy emgek meydanigha
-  eslide toqquzaqtin 2000che oqughuchi, oqutquchi we ishchi-xizmetchi ewetilgen bolup,
-  weqede \u00f6lgen 16 yashliq nebijan rozi bilen birlikte 32 oqughuchi bir yataq
-  yaki kepide yatqaniken. Weqeni teksh\u00fcrgen da''iriler, buni tasaddipiy y\u00fcz
-  bergen bir teb''iy apet hadisisi dep b\u00e9kitken. Yataq yaki kepining bixeterlik
-  tedbirlirini muwapiq orunlashturmighan mes''ul xadimlarni s\u00fcr\u00fcshte qilmighan.
-  Melum bolushiche da''iriler weqeni mumkin qeder shawqunsiz birterep qilishqa tirishqan.
-  Weqe toqquzaqtiki az bir qisim alaqidar idare-jem''iyet xadimliri we \u00f6lg\u00fcchining
-  kentidiki partiye ezalirigha uqturulghan bolsimu, toqquzaqtin aqsugha ewetilgen
-  2000gha y\u00e9qin oqughuchining ata-anisigha bild\u00fcr\u00fclmigen\u061b nebijanning
-  mehelle koyliri, hetta lag\u00e9rdiki dadisi rozi toxtighimu bild\u00fcr\u00fclmigen.
-  Alaqidar bir kent mudiri, ahalilerning perzentlirini her yili paxta t\u00e9rishqa
-  ewetishke qarita burundinla naraziliqi barliqi, shunga \\\"Selbiy teshwiqat\\\"
-  qa mat\u00e9riyal bolup qalmasliq \u00fcch\u00fcn, \u00f6l\u00fcm xewirining ahalilerge
-  resmiy shekilde uqturulmighanliqini ashkarilidi.\\nChet''elde yashawatqan \u00f6z
-  ismini ashkarilashni xalimaydighan toqquzaqliq muhajirning inkas qilishiche, nebijan
-  rozining \u00f6l\u00fcm xewiri peqet apisighila bild\u00fcr\u00fclgen, uning lag\u00e9rdiki
-  dadisi rozi toxtigha bild\u00fcr\u00fclmigen. Jeset peqet alaqidar mes''ul kadir
-  we saqchilar teripidin xupiyane halda yerlikige qoyulghan. Gerche uning tupraq b\u00e9shi
-  we a''ilisining qorusi lag\u00e9rda \u00f6lgenlerdikidek qoralliq saqchilar teripidin
-  nazaret qilinmighan bolsimu, emma ma''arip idarisi, ayallar birleshmisi we birliksep
-  xadimliridin teshkillen''gen 4 kishi mezkur a''ilige bir heptiche \\\"Hemrah\\\"
-  bolup, a''ile ezalirining naraziliqini basqan we ehwalning jem''iyetke bek keng
-  tarqilip ketmesliki \u00fcch\u00fcn a''ilige idiyewiy xizmet ishligen.\\n\u00c9niqlashlirimiz
-  dawamida, alaqidar xadimlar, tutqun rozi toxtining oghlining \u00f6l\u00fcmi weqesi
-  seweblik a''ilisi bilen k\u00f6r\u00fcsht\u00fcr\u00fclgen-k\u00f6r\u00fcsht\u00fcr\u00fclmigenliki
-  heqqidiki so''alimizgha jawab bermidi. Bu heqte \u00f6z perizini bayan qilghan lag\u00e9r
-  shahiti zumret dawut, Uyghur rayonining n\u00f6wettiki weziyitide, musibetlik a''ile
-  ezalirini \u00f6z''ara uchrashturushtek, bundaq bir eqelliy insaniyliqni k\u00fct\u00fcshning
-  m\u00fcmkinsizlikini \u00e9ytti\u061b u bu m\u00fcmkinsizlikke da''irilerning Uyghurlargha
-  tutiwatqan d\u00fcshmenlik pozitsiyesidin bashqa, tutqunlarning k\u00f6pl\u00fcki
-  we a''ilisidin uzaq jaylargha qamalghanliqidek r\u00e9''alliqningmu buninggha imkan
-  bermeydighanliqini otturigha qoydi.\\nYuqirida aqsugha mejburiy emgekke ewetilgen
-  toqquzaqliq oqughuchilardin nebijan rozining jesitining jem''iyettin xupiyane halda
-  depne qilin''ghanliqi heqqide anglitish berduq.\"", "\"Veloshosse bo''yicha JCHda
-  Rossiya uchun bitta kvota ajratildi\\n16 SENTYABR, 2024, 12:16\\nRossiyalik velopoygachi
-  Egor Igoshev Cyurixda bo''lib o''tadigan JCHda ishtirok etadi.Tashkilotchilar Rossiya
-  terma jamoasi uchun faqatgina bitta kvota ajratgan. Mazkur kvota aynan Igoshevga
-  berilgan. Zaxira velopoygachisi esa Daniil Zarakovskiy bo''ladi.\\nMalumot uchun,
-  22-29 sentyabr kunlari bo''lib o''tadigan musobaqa O''zbekiston sharafini Nikita
-  Cvetkov (U-23), Yanina Kuskova (WE) hamda Dmitriy Bocharov (ME) himoya qiladi.\\nManba:
-  olamsport.com\"", "\"Oliy Majlis Qonunchilik palatasi fraksiyalari tomonidan O\u2018zbekiston
-  Respublikasi Yer resurslari, geodeziya, kartografiya va davlat kadastri davlat qo\u2018mitasi
-  tomonidan kiritilgan \u201cFazoviy ma''lumotlar to\u2018g\u2018risida\u201dgi O\u2018zbekiston
-  Respublikasi qonuni loyihasi ikkinchi o\u2018qishda muhokama qilinmoqda.\\nKun.uz
-  muxbirining xabar berishicha, qonun loyihasini qabul qilishdan maqsad fazoviy ma''lumotlarni
-  yaratish va foydalanish hamda Fazoviy ma''lumotlar milliy infrastrukturasini yaratish,
-  qo\u2018llab-quvvatlash va rivojlantirish sohalarida munosabatlarni tartibga solishdan
-  iborat.\\nQonun loyihasining amaliyotga joriy etilishi natijasida maxsus vakolatli
-  davlat organi tomonidan Fazoviy ma''lumotlar milliy infratuzilmasi tarkibida geoportallar
-  tarmog\u2018i yaratilib, fazoviy ma''lumotlarga oid quyidagi xizmatlar ko\u2018rsatiladi.\\n-
-  axborot tarmoqlaridagi fazoviy ma''lumotlarni va fazoviy ma''lumotlar servislarini
-  aniqlashni ta''minlaydigan qidiruv;\\n- fazoviy ma''lumotlarni, geofazoviy obektlarning
-  tavsiflari va metama''lumotlarning mazmuni to\u2018g\u2018risidagi axborotni ko\u2018rib
-  chiqish;\\n- fazoviy ma''lumotlardan foydalanilishini yoki ularning ko\u2018chirma
-  nusxalarini olishni ta''minlash;\\n- fazoviy ma''lumotlar koordinatalarini bir koordinatalar
-  tizimidan yoki kartografik proyeksiyadan boshqasiga o\u2018tkazishni va o\u2018zgartirishni
-  ta''minlaydigan koordinatalar operatsiyalari.\\nShuningdek, qonunda fazoviy ma''lumotlar
-  sohasidagi davlat dasturlarini va boshqa dasturlarni tasdiqlash hamda ularning ijrosini
-  ta''minlash, fazoviy ma''lumotlarning milliy infratuzilmasini yuritish tartibini
-  belgilash, ommaviy foydalanish uchun ochiq bo\u2018lgan fazoviy ma''lumotlar ro\u2018yxatlarini
-  shakllantirish, fazoviy ma''lumotlar sohasida yagona davlat siyosatining amalga
-  oshirilishini ta''minlash Vazirlar Mahkamasi vakolatiga berilishi nazarda tutilmoqda.\\nAvgust
-  oyida qonun loyihasi birinchi o\u2018qishda muhokama qilingandi. Muhokama jarayonida
-  qonun tashabbuskorlari O\u2018zbekiston hozirda sun''iy yo\u2018ldoshni ijaraga
-  olish borasida ish boshlangani va tez orada bu amalga oshirilishini ma''lum qilgandi.\"",
-  "\"MIYA, PSIXOLOGIYA VA AQL HAQIDA 25 TA QIZIQARLI MA\u2019LUMOTLAR\\n1. Taxminan
-  2,500,000 gigabaytni saqlashi mumkin\\nShimoli-g\u2019arbiy universiteti psixologiya
-  professori Pol Reberning so\u2019zlariga ko\u2019ra , inson miyasi taxminan 2 500
-  000 gigabaytni saqlashi mumkin . Bu 300 yillik televizion ko\u2019rsatuvlarga teng.
-  [Ilmiy Amerika]\\n2. Odam diqqatini jalb qilish muddati oltin baliqqa qaraganda
-  qisqa\\nTadqiqotlar shuni ko\u2019rsatadiki, so\u2019nggi 10 yil ichida o\u2019rtacha
-  e\u2019tibor darajasi o\u2019rtacha 12 daqiqaga kamaydi. Bugungi kunda insonning
-  diqqat-e\u2019tibor doirasi oltin baliqdan qisqa. [Vaqt] Tadqiqotlar shuni ko\u2019rsatdiki
-  , masalan, televizorni tomosha qilish paytida ijtimoiy tarmoqlar bo\u2019ylab harakatlanayotgan
-  bo\u2019lsangiz va qurilmalarning ko\u2019p vazifalarini bajarish bilan bog\u2019liqlik
-  kamayadi.\\n3. Voyaga etgan inson miyasining o\u2019rtacha vazni uch funtni tashkil
-  qiladi\\nO\u2019rtacha kattalar miyasining vazni uch funtni tashkil qiladi. Ma\u2019lumot
-  uchun, bu kantalupning vazni qancha ekanligi bilan taqqoslanadi. [National Geographic]\\n4.
-  Xotiralar bir vaqtning o\u2019zida qisqa muddatli va uzoq muddatli foydalanish uchun
-  saqlanadi\\nNeuroscientus uzoq vaqtdan beri hipokampus qisqa muddatli xotiralarni
-  saqlashini bilishadi. Ammo yaqinda o\u2019tkazilgan bir tadqiqot shuni ko\u2019rsatdiki
-  , hipokampusta qisqa muddatli xotiralar shakllangan bo\u2019lsa-da, ular uzoq vaqt
-  xotiralar uchun bir vaqtning o\u2019zida miyaning boshqa qismida saqlanadi.\\n5.
-  B1 vitamini qisqa va uzoq muddatli xotirani yaxshilashga yordam beradi\\nB1 vitamini
-  xotirani jamlash va saqlash uchun zarur bo\u2019lgan miya kimyoviy asetilkolinini
-  ishlab chiqarish uchun juda muhimdir. Avstraliyada o\u2019tkazilgan tadqiqotlar
-  shuni ko\u2019rsatdiki, ikki yil davomida B1 qo\u2019shimchalari va foliy kislotasini
-  iste\u2019mol qilganlar uzoq va qisqa muddatli xotirani yaxshilaydilar. [Huffington
-  Post]\\n6. Axborotga osonlikcha kirish oson eslashni qiyinlashtirishi mumkin\\nMa\u2019lumotlarga,
-  ya\u2019ni chegaradosh yengilmas Internetimiz orqali tezda kirish imkoniyatiga ega
-  bo\u2019lish, eslashni qiyinlashtiradi. Ma\u2019lumotlarga kirish uchun qanchalik
-  qiyin ish qilsak, eslashimiz shunchalik katta. [Huffington Post]\\n7. Xotiralar
-  qornida shakllana boshlaydi\\nBachadonda xotiralar shakllana boshlaydi, chunki bu
-  miya rivojlanishi uchun juda muhim vaqt. Xotirani eslash homiladorlikning to\u2019rt
-  oyidayoq sodir bo\u2019lishi mumkin. [ABC]\\n8. U organizmdagi umumiy kislorod va
-  energiyaning 20 foizini ishlatadi\\nMiya tanadagi umumiy kislorod va energiyaning
-  20 foizini ishlatadi, bu qon tomirlari orqali miyaga etib boradi. Miyadagi asab
-  hujayralari juda ko\u2019p energiyaga muhtoj; markaziy asab tizimining to\u2019qimalariga
-  etarli miqdorda kislorod va energiyasiz miya funktsiyalari va asab kasalliklari
-  buzilishi mumkin. [Ilmiy Amerika]\\n9. U 73% suvdan iborat\\nMiya 73 foiz suvdan
-  iborat. Sizning e\u2019tiboringizga va xotirangizga ta\u2019sir qilish uchun atigi
-  2 foiz suvsizlanish kerak. [Daily Mail]\\n10. Terlash miyani vaqtincha kichraytirishi
-  mumkin\\nBir yarim soatlik terlash bir yillik qarish kabi miya hajmini vaqtincha
-  kichraytirishi mumkin. [Daily Mail]\\n11. Kislorodsiz besh daqiqa miyaga zarar etkazishi
-  mumkin\\nKislorodsiz besh daqiqa miya hujayralarining o\u2019lishiga olib kelishi
-  mumkin, bu esa miyaga zarar etkazadi. [Tibbiy kunlik]\\n12. U 12-15 vatt elektr
-  energiyasini ishlab chiqaradi\\nMiya 12 dan 25 vattgacha elektr energiyasini ishlab
-  chiqaradi \u2013 bu kam quvvatli lampochkani quvvatlantirish uchun etarli! [National
-  Geographic]\\n13. Neyronlar miyada 150 milya yurishadi\\nNeyronlar miyada 150 milya
-  yurishadi. Har xil turdagi neyronlar turli xil tezlikda harakat qilishadi \u2013
-  masalan, og\u2019riq signallari boshqalarga qaraganda ancha sekin harakat qiladi.
-  [National Geographic]\\n14. Ikki marotaba viktorinada qatnashganlar haqiqatni eslab
-  qolish ehtimolidan 65% ko\u2019proq\\nViktorinani qayta ko\u2019rib chiqqandan so\u2019ng,
-  u faktlarni eslab qolish ehtimoli 65 foizni tashkil qiladi. [BBC]\\n15. Yangi narsalarni
-  o\u2019rganish miyadagi kul moddalarni ko\u2019paytiradi\\nBiz yangi narsalarni
-  o\u2019rganganimizda, miyamiz neyronlar o\u2019rtasida yangi aloqalarni hosil qiladi;
-  bu miyada ko\u2019rinadigan kulrang moddalarni ko\u2019paytiradi. [BBC]\\n16. Xotira
-  birinchi navbatda hissiyotga ega\\nXotira birinchi navbatda hissiyotga ega. Ammo
-  bu yana shuni anglatadiki, bizning ko\u2019pgina \u00abxotiralarimiz\u00bb kutilmagan
-  nuqsonli fantastika. [Nyu-Yorker]\\n17. Tuyg\u2019ular bizning miya kimyomizni o\u2019zgartirishi
-  mumkin\\nYuqoridagi haqiqatga o\u2019xshab, hissiyotlar ham miyamizni tubdan o\u2019zgartiradi.
-  Tuyg\u2019ular bilan qo\u2019zg\u2019atilgan kimyoviy reaktsiyalarni miyani skanerlash
-  va kulrang moddalarni o\u2019rganishda ko\u2019rish mumkin. [Huffington Post]\\n18.
-  Kuniga o\u2019rtacha 50,000-70,000 fikrlarga ega\\nO\u2019rtacha miya kuniga 50.000
-  dan 70.000 gacha fikr yuritadi. Xafagarchilik bilan, fikrlarning aksariyati (taxminan
-  60-70 foiz) salbiydir. [Huffington Post]\\n19. Miyada har soniyada 100000 dan ortiq
-  kimyoviy reaktsiyalar sodir bo\u2019ladi\\nTaxminan 100 milliard miya hujayralari
-  bilan har soniyada miyada 100000 dan ortiq kimyoviy reaktsiyalar sodir bo\u2019ladi.
-  [National Geographic]\\n20. Mast holatda u xotiralarni shakllantira olmaydi\\nMast
-  holda, miya xotiralarni shakllantirishga qodir emas. Shunday qilib, yo\u2019q, siz
-  kecha nima bo\u2019lganini \u00abunutmadingiz\u00bb. Xotira hech qachon shakllanmagan.
-  [Daily Mail]\\n21. Eslab qolish bilan shug\u2019ullanish TSSBga yordam berishi mumkin\\nYodda
-  tutish bilan shug\u2019ullanish TSSBga yordam beradi. Ruhiy sog\u2019liqni saqlash
-  provayderlari TSSB kasalligiga chalinganlarga shikast etkazish va ularga qarshi
-  kurashishda yordam berish uchun foydalanadigan turli xil psixologik davolash usullari
-  mavjud. [Smithsonian]\\n22. Uning to\u2019qimasi va izchilligi tofu bilan taqqoslanadi\\nInson
-  miyasining tuzilishi va mustahkamligi tofu bilan taqqoslanadi. Bu, avvalambor, kulrang
-  va oq materiyadan hamda suvdan iborat ekanligini hisobga olsak, bu juda ajablanarli
-  emas. [National Geographic]\\n23. Taxminan 24 yoshda u sekinlasha boshlaydi\\nTadqiqotlar
-  shuni ko\u2019rsatadiki, miyangizning kognitiv tezligi siz 24 yoshga to\u2019lganingizda
-  sekinlasha boshlaydi. [Vaqt]\\n24. Barcha qarorlarning 95% ong osti qarorlari\\nBarcha
-  qarorlarning 95 foizi ong osti ongida amalga oshiriladi. Bu shuni anglatadiki, bizning
-  harakatlarimiz va xatti-harakatlarimizning aksariyati bizning ongli ongimizdan tashqarida
-  bo\u2019lgan miya faoliyati tufayli yuzaga keladi. [Science Daily]\\n25. Miyaning
-  o\u2019zi og\u2019riqni his qila olmaydi\\nOg\u2019riq miyada qayta ishlangan bo\u2019lsa-da,
-  organ o\u2019zi og\u2019riq his qila olmaydi. Shuning uchun miya operatsiyalari
-  bemor uyqusiz, bezovtaliksiz sodir bo\u2019lishi mumkin. [Vaqt]\\nRo\u2019yxat davom
-  etishi mumkin. Ko\u2019proq tadqiqotlar olib borilayotganda va biz inson miyasining
-  imkoniyatlari haqida ko\u2019proq bilib olsak, biz qanday qilib ongimizni tiniq
-  tutishni o\u2019rganamiz. Bilib , biz xotiralar esga qanday va siz bilib qachon
-  miya o\u2019zgartiradi qanday .\\nMiya qisqa muddatli xotiralarni uzoq muddatli
-  xotiraga aylantirish bilan bir qatorda, kelajakda ham ushbu xotiralarni saqlab qolish
-  muhimdir. Shuning uchun Legacybox sizga xotiralaringizni raqamlashtirishga yordam
-  beradi \u2013 lenta, film, fotosurat yoki audio yozuvlaringiz bo\u2019lsin, biz
-  yordam berishga tayyormiz.\\nManba:legacybox.com\"", "\"- Details\\n- Bo''lim: TEXNOLOGIYALAR\\n-
-  Ko''rildi: 584\\nAQSh va Yaponiyaning texnologik jihatdan eng mukammal robotlari
-  tez orada jang maydonida to\u2018qnashishi mumkin. Bu haqda \u201cHi-tech.mail.ru\u201d
-  xabar bermoqda.\\nMegaBot Mk. II roboti ishlab chiquvchilari omborxonasida jangovar
-  Kuratas roboti bo\u2018lgan Yaponiyaning Suidobashi Heavy Industry kompaniyasini
-  jangga chorladi. Amerikaliklar jang maydonini tanlashni va bir yildan so\u2018ng
-  boshqariladigan robotlar ishtirokida insoniyat tarixidagi ilk jangni o\u2018tkazishni
-  taklif qildi.\\nQayd etish joiz, mazkur robotlar, fantastik asarlarning qahramonlaridan
-  farqli ravishda, o\u2018yinchoq qurollar bilan ta\u2019minlangan. Umuman olganda
-  esa, Amerikaning MegaBot Mk. II gigant roboti birorta qurolsiz ham raqibiga jiddiy
-  zarar yetkazishi mumkin.\\nMasofadan turib boshqariladigan robotlardan farqli o\u2018laroq,
-  mazkur robot-mahluqlar boshidan robotlar o\u2018rtasidagi janglarni hisobga olgan
-  holda ishlab chiqilgan. Kuratas shunchaki jangovar robot sifatida qurilgan bo\u2018lsa,
-  MegaBot Mk. II aynan o\u2018q otuvchi mashina hisoblanadi.\\nManba: daryo.uz\\nENG
-  KO''P O''QILGAN\\n-\\nPentagon Afg''onistonga havo-desant diviziyasidan 1,5 ming
-  harbiyni yuboradi\\n-\\nO\u2019zbekiston 2017 yilda 102 ming tonnaga yaqin meva-sabzavot
-  eksport qildi\\n-\\nBMT: Boy arab davlatlari Yamandagi ocharchilikka qarshi kurashda
-  yordam berishmayapti\\n-\\n\u00abBarselona\u00bb hujumchisi faoliyatini \u00abMonako\u00bbda
-  davom ettirishi mumkin\\n-\\nNASA: insoniyat o''zga sayyoralarda hayot borligini
-  kashf qilish ostonasida turibdi\"", "\"Bundan o\u2019ttiz yil burun Jizzax viloyati
-  ko\u2019p o\u2019tmay sayyohlarning sevimli maskaniga aylanadi, desa ko\u2019pchilik
-  ishonmas edi. Zero, o\u2019sha yillarda Jizzax deganda odamlarning ko\u2019z oldiga
-  faqat paxta dalalari, bepoyon Mirzacho\u2019l kelardi.\\nBugun esa Jizzax shahrini
-  kezar ekansiz, qo\u2019llarida fotoapparat ko\u2019tarib olgan sayyohlarga tez-tez
-  duch kelasiz. Ayniqsa, Zomin, Forish, Baxmal va boshqa tumanlari mahalliy va xorijiy
-  sayyohlarning sevimli maskaniga aylangan. Bu yerlarda hordiq chiqarish, hududning
-  go\u2019zal tabiatidan bahra olish, shaharning diqqatga sazovor joylarini sayr qilish
-  odamga bir olam zavq beradi.\\nGo\u2019zallikni bunyodkor\\nqo\u2019llar yaratadi\\nO\u2019zbekiston
-  Respublikasining Birinchi Prezidenti Islom Karimovning 2013 yil 19 iyun kuni Jizzax
-  viloyatiga tashrifi chog\u2019ida hududda ishlab chiqarishni kengaytirish, yengil
-  sanoat sohasini rivojlantirish va yangi ish o\u2019rinlari yaratish hisobidan paxta
-  tolasini qayta ishlashga ixtisoslashgan loyihalarni ko\u2019paytirish, viloyat markazi
-  qiyofasini tubdan o\u2019zgartirish va irrigatsiya tarmoqlarini yanada yaxshilash
-  bo\u2019yicha bergan tavsiyalari asosida shaharning bosh rejasi qayta ko\u2019rib
-  chiqildi.\\nJizzax shahrining Mustaqillik ko\u2019chasi 50 metrgacha kengaytirilib,
-  pastqam va ko\u2019rimsiz binolar o\u2019rnida 34 ta ko\u2019p qavatli, ko\u2019rkam
-  uy-joylar qad rostladi. Hozirga qadar 17 kilometr avtomobil yo\u2019li yangidan
-  qurilib, foydalanishga topshirildi. Shahardagi uchta yirik bozorda qayta qurish
-  va rekonstruksiya ishlari amalga oshirilib, sotuvchi va xaridorlar uchun qulay muhit
-  yaratildi. Qadimiy Ko\u2019kbozor o\u2019rnida ochiq aksiyadorlik jamiyati shaklidagi
-  yangi \u00abMarkaziy dehqon bozori\u00bb barpo etildi. Bozorning 5 ming 400 kvadrat
-  metr savdo maydoniga ega qishloq xo\u2019jalik mahsulotlari pavilonida 1 ming 152
-  savdo o\u2019rni tashkil etildi.\\nSobiq tuzum davrida qurilgan, shahar ekologiyasiga
-  katta zarar keltirgan ohak zavodi shahar tashqarisiga ko\u2019chirilib, uning o\u2019rnida
-  yashil hudud, bog\u2019 va gulzor tashkil qilindi. Tashlandiq yer o\u2019zlashtirilib,
-  Navro\u2019zbuloq bolalar bog\u2019i barpo etildi. O\u2019tgan yili to\u2019rt gektar
-  maydonda Keksalar bog\u2019i dam olish maskani qurildi. Istiqlol bolalar bog\u2019i,
-  Hamid Olimjon xiyobonida keng ko\u2019lamli qurilish-rekonstruksiya va obodonlashtirish
-  ishlari bajarildi.\\n\u2026Bir suhbatda \u00abJizzax shahrini shahar qiyofasida
-  ko\u2019rgim keladi\u00bb \u2013 degan edi shahar ijroiya komitetining sobiq raisi
-  Ahmad Soatovich xo\u2019rsinib\u2026 To\u2019g\u2019risini aytish kerak, Jizzax
-  shahri qiyofasi ko\u2019pgina viloyat markazlari, rivojlangan shaharlarga nisbatan
-  ko\u2019pgina sohalarda orqada\u2026 Bunga asosiy sabab, juda ko\u2019p yillar mobaynida\u2026
-  shahar obodonchiligiga na mahalliy rahbarlarimiz, na yuqori rahbarlarimiz deyarli
-  e`tibor berishmadi. Rahbarlarimiz paxta yakkahokimligi hukm surgan paytlarda paxtadan
-  yuqori hosil olganliklarini pesh qilib mag\u2019rurlanib yuraverishdi. Xalqning
-  turmush sharoiti bilan, uning ijtimoiy talablari bilan qiziqishmadi.\\n\u00abRais
-  nega xo\u2019rsindi?\u00bb sarlavhali maqoladan. H.Mahmudov, \u00abSirdaryo haqiqati\u00bb
-  gazetasi. 1990 yil 11 yanvar.\\nBugun jizzaxliklarning ana shu orzulari ro\u2019yobga
-  chiqayotir. Xo\u2019rsinishlari g\u2019ururga almashayotir. Birgina \u00abOrom\u00bb
-  favvoralar majmuasi, Bog\u2019ishamol, Sangzorko\u2019l dam olish maskanlari, Istiqlol
-  bolalar bog\u2019i, Forum majmuasi, Favvoralar xiyobonini ko\u2019rib bunga yana
-  bir karra amin bo\u2019lasiz. Ayni kunda bu joylar shaharliklar va mehmonlar sayr
-  qiladigan, hordiq chiqaradigan bahavo go\u2019shaga aylandi. Umumiy maydoni 65,8
-  gektar bo\u2019lgan \u00abYoshlar shaharchasi\u00bbdagi Yoshlar sayilgohi, Yoshlar
-  bog\u2019i, Yoshlar markazi, shuningdek, \u00abO\u2019rda\u00bb yoshlar ekologik
-  bog\u2019i ham yoshlarning sevimli maskani bo\u2019ldi.\\nO\u2019tgan yili Navoiy
-  va Mustaqillik ko\u2019chalari oralig\u2019ida barpo etilgan istirohat bog\u2019i
-  ko\u2019rkamligi bilan tashrif buyuruvchilarni maftun etmoqda. Keyingi ikki yilda
-  Jizzax shahrida 17 yangi xiyobon barpo etildi.\\nO\u2019zbekiston Respublikasi Prezidenti
-  vazifasini bajaruvchi, mamlakatimiz Bosh vaziri Shavkat Mirziyoyevning joylarda
-  ijtimoiy-iqtisodiy islohotlarning borishi, sanoat, qishloq xo\u2019jaligi va ijtimoiy
-  sohalarda amalga oshirilayotgan keng ko\u2019lamli ishlar bilan yaqindan tanishish
-  maqsadida shu yilning 16 sentyabr kuni Jizzax viloyatiga tashrifi chog\u2019ida
-  yana bir bor viloyatda olib borilayotgan ishlarga e`tibor qaratdi. Jizzax viloyati
-  faollari bilan bo\u2019lib o\u2019tgan yig\u2019ilishda davlatimizning Birinchi
-  Prezidenti Islom Karimovning Vatanimiz ozodligi, yurt ravnaqi, tinchligini ta`minlash
-  borasidagi faoliyati, beqiyos xizmatlari alohida qayd etildi. Xalqimiz qalbidan
-  chuqur joy olgan bu buyuk siymoning hayot yo\u2019li bugungi va kelajak avlod uchun
-  ibrat maktabi vazifasini o\u2019tashi ta`kidlandi. So\u2019nggi chorak asr mobaynida
-  erishilgan olamshumul yutuqlarimiz ko\u2019lamini yanada oshirish barchamizning
-  burchimiz ekaniga alohida urg\u2019u berildi.\\nMaxsus iqtisodiy\\nMakon\\nBugungi
-  kunga kelib Jizzax deganda ko\u2019pchilikning ko\u2019z o\u2019ngida iqtisodiy
-  jihatdan yuksalayotgan, sanoatlashayotgan viloyat gavdalanishi shubhasiz. Raqamlarga
-  murojaat qiladigan bo\u2019lsak, 2016 yilning birinchi yarmida viloyatda yalpi hududiy
-  mahsulot 9,5 foizga o\u2019sdi. Sanoatda 13,7, qishloq xo\u2019jaligida 5,6, qurilishda
-  12,8, chakana savdo aylanmasida 14,2 foiz o\u2019sishga erishildi. Albatta, bu jarayonda
-  qabul qilingan farmon va qarorlarning ahamiyati katta bo\u2019lmoqda. Masalan, davlatimizning
-  Birinchi Prezidentining 2013 yil 18 martdagi \u00abJizzax\u00bb maxsus industrial
-  zonasini barpo etish to\u2019g\u2019risida\u00bbgi farmoni ijrosi doirasida amalga
-  oshirilayotgan ishlar, tadbirkorlik sub`ektlari uchun yaratilgan qulaylik va imtiyozlar
-  mahsulot eksportini ko\u2019paytirishga xizmat qilmoqda. Mazkur farmonga muvofiq
-  Jizzax shahridan 364 gektar, Sirdaryo viloyatining Sirdaryo tumanidan 150 gektar
-  yer maydoni ajratilib, \u00abJizzax\u00bb maxsus industrial zonasi tashkil etilishi
-  hudud iqtisodiy rivoji va aholi bandligini ta`minlashda muhim ahamiyat kasb etmoqda.\\n\u00abJizzax\u00bb
-  maxsus industrial zonasida xorijiy investitsiyalar ishtirokida jami qiymati 158,2
-  million dollar bo\u2019lgan 24 yirik sanoat loyihasini amalga oshirish rejalashtirilgan.
-  Ayni paytgacha 63,6 million dollarlik 21 ta loyiha ishga tushirildi. Jumladan, \u00abAuto
-  Pad Systems\u00bb qo\u2019shma korxonasida yiliga 520 ming dona tormoz kolodkalari,
-  \u00abRoison Home White Goods\u00bb qo\u2019shma korxonasida yiliga 650 mingta televizor,
-  muzlatkich, elektr pechi va kir yuvish mashinasi kabi elektrotexnika mahsulotlari
-  ishlab chiqarish yo\u2019lga qo\u2019yildi.\\nMaxsus industrial zona korxonalarida
-  hozirgacha 1100 dan ortiq yangi ish o\u2019rni tashkil etildi. Uning 60 foizdan
-  ortig\u2019iga kasb-hunar kollejlari bitiruvchilari qabul qilindi. Ishlab chiqarilayotgan
-  mahsulotlar ichki bozorni ta`minlab, xorijga ham eksport qilinayotir.\\nAyniqsa,
-  mazkur hududda 14 korxonada o\u2019tgan yili 102 milliard so\u2019mlik mahsulot
-  ishlab chiqarilib, 6,4 million dollarlik tovar eksport qilindi. Ishlab chiqarish,
-  transport, muhandislik-kommunikatsiya infratuzilmasini shakllantirish maqsadida
-  qariyb 84 milliard so\u2019m hajmidagi kapital mablag\u2019lar o\u2019zlashtirildi.
-  Ushbu industrial zonaga olib boruvchi 12 kilometrlik tashqi yo\u2019llar rekonstruksiyasi
-  yakunlandi. 5,7 kilometr uzunlikdagi ichimlik suvi va 8 kilometr gaz tarmog\u2019i
-  qurildi, energiya ta`minotini yaxshilash maqsadida 2 taqsimlovchi punkt va 4,6 kilometrlik
-  elektr tarmog\u2019i qurilishi bosqichma-bosqich amalga oshirilmoqda. Joriy yilda
-  7 kilometrlik ichki yo\u2019llar qurilishi va rekonstruksiyasi oxiriga yetkaziladi.\\nShovullagan
-  bog\u2019lar\\nbolga kirdi\\nShu kunlarda Jizzaxning qishloqlariga qadam ranjida
-  qilgan kishi ajib manzaraning guvohi bo\u2019ladi. To\u2019kin-sochinlik, dorilamonlik
-  va yaratuvchanlik ishlaridan ko\u2019zi quvonib, hayrati oshadi. Viloyatda qishloq
-  xo\u2019jaligini rivojlantirish bo\u2019yicha amalga oshirilayotgan izchil islohotlar
-  ham yuksak samaralar berib, bundan shaharu qishloqlarda istiqomat qilayotganlar
-  birdek bahramand bo\u2019lmoqda. Zero, so\u2019nggi 10 yilda viloyatda 1,7 ming,
-  jumladan, qoramolchilik yo\u2019nalishida 484, parrandachilikda 533, baliqchilikda
-  319, asalarichilik yo\u2019nalishida 623 loyiha amalga oshirildi.\\nQishloq xo\u2019jalik
-  mahsulotlarini qayta ishlashga ham alohida e`tibor qaratilmoqda. Keyingi 8 yilda
-  15 go\u2019sht, 37 sut, 23 meva-sabzavot, 2 jun va 2 ta terini qayta ishlash korxonasi
-  ishga tushirildi. 30 ta zamonaviy muzlatkichli omborxona barpo etildi.\\n\u2013
-  Bir paytlar Mirzacho\u2019lni \u00abQush uchsa qanoti, odam yursa oyog\u2019i kuyadigan
-  cho\u2019l\u00bb, deb atashardi, \u2013 deydi O\u2019zbekistonda xizmat ko\u2019rsatgan
-  qishloq xo\u2019jaligi xodimi, \u00abMehnat shuhrati\u00bb ordeni sohibi Tinchlik
-  Berdibekov. \u2013 Hozir ko\u2019rsangiz havas qilasiz. Bog\u2019u rog\u2019larni
-  sayr qilib, qurilayotgan zamonaviy inshootlarni, istiqlol yaratib bergan imkoniyatlarni
-  ko\u2019rib faxr etasiz. Mustaqillik sharofati bilan men ham dastlab fermerlik boshlangan
-  yillarda yer olib, dehqonchilik qildim. Bugungi kunda xo\u2019jaligimizning yeri
-  42 gektarga yetdi. Ikki o\u2019g\u2019limga fermerlikni o\u2019rgatayapman. Xullas,
-  mehnatning tagi rohat, deganlari rost ekan. Yurtda obro\u2019-e`tibor qozondim.
-  Bilganlarimni yoshlarga o\u2019rgatayapman. Bularning barchasi erkinlik, o\u2019z
-  yerlarimizga o\u2019zimiz ega bo\u2019lganimiz, bir so\u2019z bilan aytganda, Mustaqillik
-  sharofatidir.\\n\u00abKeyingi 25 yilda paxta narxi ikki barobar oshgan. Biroq unga
-  qaraganda texnika, o\u2019g\u2019it, yonilg\u2019i, ximiyaviy moddalarning narxi
-  ko\u2019p marotaba qimmatlashdi. Shuning uchun ham paxtakorning biri ikki bo\u2019lmayapti,
-  turmush sharoiti unchalik yaxshilanib ketmayapti.\u00bb\\n\u00abDehqonning kosasi
-  qachon oqaradi?\u00bb sarlavhali maqoladan B.Muhammadiyev, \u00abSirdaryo haqiqati\u00bb
-  gazetasi 1990 yil 16 yanvar.\\nBir vaqtlar jizzaxliklarning ana shunday ayanchli
-  hayoti bugun o\u2019tmishda qolib ketdi. Qaddi ko\u2019tarilib, mulkdor bo\u2019ldi,
-  islohotlarni, bunyodkorlikni harakatga keltiruvchi katta kuchga aylandi.\\n\u2014
-  Avvalo Mustaqillik bizga erkin va farovon hayotni berdi, \u2013 deydi \u00abDelfin
-  ovozi\u00bb xususiy korxonasi rahbari Shomirza Turg\u2019unov. \u2013 Har bir inson
-  o\u2019zi xohlagan kasb-korni qilayapti. Ayniqsa, tadbirkorlarga keng yo\u2019l
-  ochib berildi. 2011 yilda xo\u2019jaligimizni tashkil etdik. Ba`zi odamlar \u00abBekor
-  ochibsan, baliqchilik qiyin soha, mashaqqati ko\u2019p, boshqa ish qilganing ma`qul\u00bb,
-  deb yo\u2019ldan qaytarmoqchi bo\u2019ldi. Inson o\u2019z mehnati, aqlu farosati
-  bilan qiyinchiliklarni yengar ekan. Mana biz o\u2019tgan yili aholi dasturxoniga
-  6 tonna baliq yetkazib berdik. Joriy yilda 8 tonnalik marrani ko\u2019zlayapmiz.\\nAleksandr\\nqoyil
-  qoldi\\nIstiqlol tufayli Jizzax viloyatining eng katta tumanlaridan biri bo\u2019lgan
-  Mirzacho\u2019l ham tom ma`noda ulkan o\u2019zgarishlarga yuz tutdi. Fallachilik,
-  meva-sabzavotchilik, polizchilik kabi qishloq xo\u2019jaligi sohalari taraqqiy etdi.
-  Bugun tumanda yetishtirilayotgan paxta va g\u2019alla nafaqat viloyat, balki respublika
-  xirmoniga munosib ulush bo\u2019lib qo\u2019shilmoqda. Mirzacho\u2019l qovunini
-  yurtimizning barcha hududlarida, hatto xorijda ham yaxshi bilishadi. Ayni paytda
-  shirindan-shirin meva-sabzavotlar xorijlik xaridorlar e`tiborini tortmoqda. Ayniqsa,
-  yaqinda poytaxtimizda bo\u2019lib o\u2019tgan xalqaro meva-sabzavot yarmarkasidan
-  so\u2019ng chet elliklarning Jizzax viloyatiga, xususan, Mirzacho\u2019lga tashrifi
-  odatiy tus oldi.\\n\u2013 O\u2019zbekiston xalqiga havasim keladi, \u2013 deydi
-  \u00abMagnit\u00bb va \u00abAgrolayn\u00bb savdo kompaniyasining ijrochi direktori
-  (Rossiya) Aleksandr Vinevskiy. \u2013 Chunki dunyodagi eng shirin meva-sabzavotni
-  hil-hil pishib turgan paytida iste`mol qilish imkoniyatiga egasiz. Hozirda yurtingizda
-  meva-sabzavot hamda poliz mahsulotlari yetishtirish yanada ko\u2019payayotgani,
-  standartlash, saqlash, xorijga yetkazib berishning qulay vosita va tartiblari joriy
-  etilayotgani bizni quvontiradi. Chunki bu bizga sifatli mahsulotlarni xarid qilish
-  imkonini bermoqda. Men bilan birga \u00abMagnit\u00bb savdo kompaniyasining menejeri
-  Vitaliy Chuprina ham kelgan. Kompaniyalarimiz Rossiyadagi barcha savdo tarmoqlarini
-  meva-sabzavot hamda poliz mahsulotlari bilan ta`minlaydi. Rossiya qishloq xo\u2019jaligi
-  vazirligi bilan hamkorlikda RFning turli hududlarida 30 ta logistika markazini tashkil
-  etish choralarini ko\u2019rayapmiz. Hamkorligimiz har ikkala tomon uchun foydali
-  bo\u2019lishiga aminman. Mendan bu yerda qaysi qishloq xo\u2019jaligi mahsuloti
-  yoqdi, deb so\u2019rashganda, hech ikkinlanmay \u00abMirzacho\u2019l qovuni\u00bb
-  deb javob beraman.\\nMirzacho\u2019l tuman qishloq va suv xo\u2019jaligi bo\u2019limidan
-  olingan ma`lumotga ko\u2019ra, 800 gektar maydonda Aleksandrga yoqqan poliz mahsulotlari
-  yetishtirilmoqda. 200 gektarlik olma, o\u2019rik, olxo\u2019ri, nok, shaftoli, gilos
-  kabi mevali bog\u2019lar ham mavjud.\\nBaxti\\nkulgan ayollar\\nAfsuski, rayon (Mirzacho\u2019l
-  tumani)dagi\u2026 fermalar kapital remontga muhtoj. Chunki deraza oynalari, shiferlar
-  singan, lotoklar axlatga to\u2019lib qolgan. Suv oqadigan quvurlar butunlay chirib,
-  ishdan chiqqan\u2026 Sutdan chiqqan buzoqlar ham nochor. So\u2019nggi oyda 12 ta
-  sigir bola tashlagan\u2026 Yil davomida 325 bosh buzoq olish planlashtirilgan. Amalda
-  u 130 boshga yetgan. Sigirlar trixomanoz bilan kasallangan ekan.\\n\u00abFermalarda
-  ahvol chatoq\u00bb sarlavhali maqoladan. I.Mamarasulov, Oblast agrosanoat uyushmasining
-  yetakchi mutaxassisi, S.Norboyev. \u00abSirdaryo haqiqati\u00bbning muxbiri. \u00abSirdaryo
-  haqiqati\u00bb gazetasi. 1990 yil 10 yanvar.\\nMirzacho\u2019l tumani markazida
-  yashovchi ishbilarmon Jamila Rajabovaga bugun ko\u2019pchilikning havasi keladi.
-  U 2011 yilda chorvachilik bilan shug\u2019ullana boshladi. Xuddi shu yili Aydarko\u2019l
-  hududidan 600 gektarlik havza olib, baliqchilik xo\u2019jaligi faoliyatini yo\u2019lga
-  qo\u2019ydi. Ko\u2019l bo\u2019yida 300 gektar yaylovi bor. Unda 60 ta yirik shoxli
-  chorva mollari o\u2019tlayapti. Tadbirkor go\u2019sht sotish bilan birga har yili
-  ko\u2019ldan o\u2019rtacha 17 tonna baliq ovlab, ichki bozorga chiqaradi. Ishbilarmon
-  ayol erishgan marralari bilan cheklanib qolmoqchi emas. Ayni vaqtda sun`iy havza
-  qurib, yana bir baliqchilik xo\u2019jaligi faoliyatini yo\u2019lga qo\u2019yish
-  ustida ish olib borayotir.\\n\u2014 Mamlakatimiz Birinchi Prezidentidan benihoya
-  minnatdorman, \u2013 deydi u. \u2013 U kishi tadbirkorlikka keng yo\u2019l ochmaganida,
-  xotin-qizlarga e`tibor qaratmaganida, hozir uyda nima qilishimni bilmay o\u2019tirarmidim\u2026\\nJizzax
-  xalqi azaldan mehnatkash, samimiy, iqtisodiyotda, dehqonchilik va boshqa sohalarda
-  yangilik yaratishga intiluvchi hamdir. Ana shunday mehnat bilan jizzaxliklar mamlakatimiz
-  iqtisodiyotiga, uning yuksalishiga o\u2019zining munosib hissasini qo\u2019shib
-  kelmoqda. O\u2019zbekiston Respublikasining Birinchi Prezidenti Islom Karimov ta`kidlaganidek,
-  jamiyatda tarkib topayotgan yangicha munosabatlar asosida iqtisodiyotimizning barqarorlashuvida
-  Jizzax viloyatining katta hissasi, munosib o\u2019rni bor.\\nRufat NE`MATOV,\\n\u00abJamiyat\u00bb
-  muxbiri\"", "\"Tushda mog\u2019orlangan nonni ko\u2019rish ma\u2019nosi va talqini\\nTushingizda
-  mog\u2019orlangan nonni ko\u2019rish \u2014 ijobiy o\u2019zgarishlar, mo\u2019l-ko\u2019llik
-  va quvonchli yangiliklardan dalolat beradi. Mog\u2019orlangan nonni iste\u2019mol
-  qilish muammolardan keyin muvaffaqiyatni anglatadi; tozalash, salbiy va xatolarni
-  ortda qoldirish; tashlash, yangilash va ba\u2019zan noto\u2019g\u2019ri sarflash;
-  Berish yuklardan va kutilmagan natijalardan xalos bo\u2019lishni anglatadi.\\nTushda
-  mog\u2019orlangan nonni ko\u2019rish\\nTushida mog\u2018orlangan nonni ko\u2018rish
-  yengillik, farovonlik, yorug\u2018 kelajak, ishonchli do\u2018stlik va mo\u2018l
-  daromadga dalolat qiladi. Bu degani, yaqinda sizni xursand qiladigan yangiliklar
-  olishingiz mumkin. oladigan yaxshi rizqga, shuningdek, foyda, boylik, yaxshi amallar
-  va qiyinchiliklardan keyin olinadigan yengillikka dalolat qiladi. Bu tushni ko\u2019rgan
-  kishi qiyinchiliklardan keyin yengil nafas olishini anglatadi. Xulosa qilib aytganda,
-  u zulmatning yoritilishiga, biznesdagi muvaffaqiyatga, katta foyda va muammolarni
-  hal qilishga ishora qiladi.\\nTushda mog\u2019orlangan non yeyish\\nTushingizda
-  mog\u2019orlangan non yeyayotganingizni ko\u2019rsangiz, qiyinchiliklardan keyin
-  oladigan foyda va qiyinchiliklardan keyin tinchlikka erishasiz. Demak, inson boshidan
-  kechirgan qiyinchiliklarni yengib, moddiy va ma\u2019naviy boylikka erishadi. Xayolparast
-  o\u2019zining o\u2019tmishdagi xatolarini va xatolarini to\u2019ldiradi. Tushida
-  mog\u2018orlangan non yegan kishi saxovatli bo\u2018lib, muhtojlarga yordam beradi.
-  Bu insonning jamiyatda hurmatli o\u2018rniga ega ekanligini ko\u2018rsatadi.\\nTushdagi
-  mog\u2019orlangan nonni tozalash\\nTushingizda o\u2019zingizni mog\u2019orlangan
-  nonni tozalayotganingizni ko\u2019rish, insonning hayotidagi salbiy va qiyinchiliklarni
-  ortda qoldirish qarorini anglatadi. Bu tush ko\u2019rgan kishi qiyinchiliklarni
-  engib, toza varaq ochish niyatida ekanligidan dalolat beradi. Yana bir mish-mishlarga
-  ko\u2019ra, mog\u2019orlangan nonni tozalagan kishi o\u2019tmishdagi xatolariga
-  duch keladi va bu xatolardan saboq olib, tuzatishga harakat qiladi. Bu boylik, o\u2019ziga
-  bo\u2019lgan ishonch ortishi va hayotdagi ijobiy o\u2019zgarishlarning belgisidir,
-  ayniqsa foydali hamkorliklar orqali; Bu muammolarni engib o\u2019tishni anglatadi.\\nTushda
-  mog\u2019orlangan nonni tashlash\\nTushdagi mog\u2019orlangan nonni tashlash, hayotda
-  uchragan salbiy holatlar yoki qiyinchiliklarni ortda qoldirib, boshidan kechirgan
-  muammolardan xalos bo\u2019lishga va yana toza boshlashga talqin qilinadi. Bu odam
-  muammo va muammolardan xalos bo\u2019lishini anglatadi. Ba\u2019zan bu ziqnalik
-  va noto\u2019g\u2019ri sarflash belgisidir; Xayolparast olgan pullarini noto\u2019g\u2019ri
-  joylarga sarflaydi. Bu odatda eski va buzuq narsalardan poklanish va yangilanishni
-  ko\u2019rsatadi.\\nTushda mog\u2019orlangan non berish\\nTushida kimgadir mog\u2019orlangan
-  non berish, qandaydir yuk yoki mas\u2019uliyatdan xalos bo\u2019lishga talqin qilinadi.
-  Bundan tashqari, kimgadir yordam berish niyatida qilingan harakat kutilganidan boshqacha
-  natijalar berishi mumkinligini ko\u2019rsatadi. Inson negativlikdan xalos bo\u2019ladi
-  va sog\u2019lom hayot kechiradi; Bu shuningdek, uzoq safarga borishingizdan dalolat
-  beradi.\\n\u00ab\"", "\"Kadrlar tayyorlash Milliy dasturida 2005 yildan e\u2019tiboran
-  boshlangan ta\u2019lim sifati bosqichi davrida pedagog-o\u2019qituvchilarni ilg\u2019or
-  pedtexnologiyalar va xalqaro ta\u2019lim talablari asosida zamonaviy bilimlarni
-  berish, malakasini oshirish davlatimiz siyosatining ustuvor yo\u2019nalishlaridan
-  biri hisoblanadi.\\nO\u2019zbekiston Respublikasi Prezidentining 2015 yil 12 iyundagi
-  \u201cOliy ta\u2019lim muassasalarining rahbar va pedagog kadrlarini qayta tayyorlash
-  va malakasini oshirish tizimini yanada takomillashtirish chora-tadbirlari to\u2019g\u2019risida\u201d
-  Farmoni hamda Vazirlar Mahkamasining 2015 yil 20 avgustdagi \u00abOliy ta\u2019lim
-  muassasalarining rahbar va pedagog kadrlarini qayta tayyorlash va ularning malakasini
-  oshirishni tashkil etish chora-tadbirlari to\u2019g\u2019risida\u00bbgi qarorida
-  belgilangan vazifalar respublikamiz OTMlarida pedagog kadrlarni qayta tayyorlash
-  va malakasini oshirish tizimini tubdan isloh etishga qaratilgan.\\nBugungi davrda
-  mamlakatimizdagi 15 tayanch oliy ta\u2019lim muassasasida 71 ta yo\u2019nalish bo\u2019yicha
-  xalqaro standardlarga uyg\u2019unlashtirilgan o\u2019quv reja va fan dasturlari
-  qayta ko\u2019rib chiqilib, yanada takomillashtirilmoqda.\\nMirzo Ulug\u2019bek
-  nomidagi O\u2019zbekiston Milliy universitetida Yaponiya ta\u2019lim ekspertlari
-  bilan bo\u2019lgan uchrashuvda tarix va arxeologiya fanlari bo\u2019yicha davlat
-  ta\u2019lim standartlari, o\u2019quv reja va fan dasturlarining yangi variantlari
-  bo\u2019yicha fikr almashildi. Unda Yaponiyaning Rishsho universiteti professorlari
-  Kyudzo Kato, Ikegami Satoru Shimizu Sachiyo va Otaki Katsunorilar hamda O\u2019zMU
-  professor-o\u2019qituvchilari, yosh tadqiqotchilari ishtirok etdilar.\\nXalqaro
-  ekspertlar O\u2019zMU huzuridagi pedagog kadrlarni qayta tayyorlash va ularning
-  malakasini oshirish markazi tomonidan amalga oshirilgan ishlarni yuqori baholadilar.\\nUchrashuvda
-  xalqaro ekspertlarning galdagi hamkorliklari va keyingi o\u2019quv yilidan Milliy
-  universitetga taklif etilishi rejalashtirilayotgan yapon professorlari tarkibi haqida
-  kelishib olindi.\\nO\u2019zMU Axborot xizmati\"", "\"Bukmekerlik hisobidan yutuqlarni
-  chiqarib olish har bir bettor uchun kompaniya ishining muhim parametrlaridan biridir.
-  Pulni chiqarish qulay, tezkor va, albatta, xavfsiz bo\u2019lishi kerak.\\nUshbu
-  maqolada biz sizga O\u2019zbekistondagi 1xBet qanday qilib pul chiqarib olishni
-  va pul mablag\u2019larini chiqarib olish bilan bog\u2019liq muammolarni hal qilish
-  usullarini aytib beramiz.\\nPulni chiqarib olish usullari va cheklovlari\\nSiz 1xBet
-  kompaniyasining o\u2019yin hisob raqamidan 50 ga yaqin usullarda pul chiqarib olishingiz
-  mumkin. O\u2019zbekistonda eng ommabop va qulay to\u2019lov usullari quyidagilar:\\n-
-  Uzcard, Visa va MasterCard to\u2019lov tizimlari asosida chiqarilgan bank kartalaridan
-  foydalanish. 1xBet-dan kartaga 346 634,90 so\u2019mdan ortiq miqdordagi pulni chiqarib
-  olishingiz mumkin;\\n- WebMoney, Skrill, Jeton, QIWI, Yandex.Money va boshqa elektron
-  hamyonlar orqali. Skrill-ga pul chiqarib olishning minimal ruxsat etilgan miqdori
-  23 108,99 so\u2019m, hamyonlarning qolgan qismiga \u2013 11 500 so\u2019m;\\n- Neteller
-  to\u2019lov tizimlari (57 772,48 so\u2019mdan chiquv tranzaksiyaning summasi) va
-  ecoPayz (116 700,42 so\u2019mdan ortiq miqdorning chiqarib olish) yordamida;\\n-
-  Kriptovalyuta tizimlari orqali \u2013 20 dan ortiq turli xil variantlar mavjud,
-  ulardan Bitcoin, Litecoin, Dogecoin, Ethereum, Monero va boshqalar. Har bir tizim
-  o\u2019z minimal o\u2019tkazma miqdoriga ega. Bir operatsiya davomida eng kichik
-  summani Dash tizimi orqali chiqarib olish mumkin \u2013 bu 726,75 so\u2019m.\\nTo\u2019lovlarni
-  o\u2019tkazish qoidalari 1xBet-ning umumiy o\u2019yin qoidalarining 7-bandida ko\u2019rsatilgan.
-  Xususan, ularda bukmekerlar 24 soat va haftaning yetti kun ichida o\u2019yinchining
-  pulini chiqarib olish bo\u2019yicha so\u2019rovlarni ko\u2019rib chiqishiga katta
-  e\u2019tibor beriladi. Shu tufayli, kartaga yoki boshqa to\u2019lov vositasiga yutuqlarni
-  juda tez, qoida tariqasida, bir necha daqiqadan 1-2 soatgacha chiqarib olish mumkin.
-  Biroq, to\u2019lovni keyinroq, so\u00b4rovni tark etganingizdan keyin bir hafta
-  ichida amalga oshirish mumkin.\\nBukmekerlik kompaniyasi o\u2019yin hisobidan mablag\u00b4ning
-  chiqarib olishda bir qator cheklovlarni taqdim etdi. Ularga e\u2019tibor bering:\\n-
-  Pulni chiqarib olish uchun sizning depozitingizga pul kiritish usuli va bir xil
-  to\u2019lov ma\u2019lumotlari yordamida amalga oshirilishi kerak;\\n- Agar pul mablag\u2019lari
-  o\u2019yin hisobiga turli xil kartalardan yoki hamyonlardan o\u2019tkazilgan bo\u2019lsa,
-  depozitlar miqdoriga mutanosib ravishda ularni chiqarib olishga yo\u2019l qo\u2019yiladi;\\n-
-  Depozit miqdori kamida 1,1 kotirovkalari bo\u2019lgan stavkalar bo\u2019yicha garovga
-  qo\u2019yilishi kerak;\\n- Agar ariza topshirish vaqtida sizning akkauntingiz tasdiqlanmagan
-  bo\u2019lsa, sizning yutuqlaringizni to\u2019lanishi rad qilinadi;\\n- Sizga tegishli
-  bo\u2019lmagan kartalarni yoki hamyonlarni pulni chiqarib olish uchun (hamda to\u2019ldirish
-  uchun) foydalanish tavsiya etilmaydi.\\nMuhim \u2013 1xBet kompaniyasida chiquvchi
-  tranzaksiyalar miqdori bo\u2019yicha cheklov belgilanmagan, shuning uchun ular tanlangan
-  to\u2019lov usuli shartlari bilan cheklangan. Chiqarib olish uchun komissiya to\u2019lovi
-  bukmekerlik kompaniyasi tomonidan to\u2019liq qoplanadi. Biroq, hisobda moliyaviy
-  operatsiyalarni amalga oshirish qoidalari buzilgan taqdirda, komissiya to\u2019lovi
-  o\u00b4yinchiga topshirilishi mumkin.\\nPulni chiqarib olish muammolari 1xBet\\nKo\u2019pincha,
-  1xBet foydalanuvchilari mablag\u00b4 chiqarib olishda quyidagi sabablar bilan bog\u2018liq
-  qiyinchiliklarga duch kelishlari mumkin:\\n- Foydalanuvchining qayd yozuvi oldindan
-  tasdiqlanmagan;\\n- Birovning kartasiga yoki depozit to\u2019ldirilmagan kartaga
-  pul yechishga urinish;\\n- To\u2019lov usuli yoki boshqa ma\u2019lumotlar tafsilotlarida
-  xatolik yuz berishi;\\n- So\u2019ralgan mablag\u00b4 miqdori o\u2019yinchining o\u2019yin
-  balansida mavjud bo\u00b4lmasligi va hokazo.\\nYuqoridagi sabablarning hech biri
-  mablag\u00b4ni chiqarib olishingizga to\u2019siq yo\u00b4qligiga ishonch hosil qiling.
-  Agar siz mablag\u2019larni chiqarib olishda kompaniya tomonidan to\u2019sib qo\u2019yilganligi
-  to\u2019g\u2019risida xabarni ko\u2019rsangiz, sizni BK 1xBet qoidalarni buzganlikda
-  gumon qilishi mumkin. Bunday holda, qo\u2019llab-quvvatlash xizmatiga murojaat qilishingiz
-  kerak. Ehtimol, siz tomondan firibgarlik faktlari yo\u2019qligini tasdiqlash uchun
-  Skype orqali ikkinchi tekshiruvdan o\u2019tishingiz kerak bo\u2019ladi.\\n\u041fy\u043b
-  \u0447\u0438\u049bap\u0438\u0448 Ma\u049by\u043b\u043byHraH \u043bek\u0438H \u043fy\u043b
-  \u0447\u0438\u049bMa\u044f\u043fT\u0438 \u0438kk\u0438 kyH\u0434aH \u0431ep\u0438\\nK\u0438M\u0434aH
-  \u049ba\u0447oH \u049baH\u0434a\u0439 \u0436aBo\u0431 o\u043baM\u0438\u0437\\nPul
-  yeshkan dim 3shi iyul kuni xali tushmadi\\nAuthitacora ni ochirib berila\\nHalimjonov
-  Azizbek\\npasport seri AB5672393\"", "\"-\\nCkp\u044bTb o\u0431\u044a\u044fB\u043beH\u0438e\\nDIQQAT
-  !!! Hurmatli \u0413ocTb Siz saytda o`zingizga kerakli 10 ta foydali xabar va 10
-  ta like yig`a olmasangiz pullik tizim orqali o`z profilingizni faollashtirishingiz
-  mumkin. Buning uchun bu yerni bosing.\\n-\\nSaytimizga o`z reklamasini joylashtirish
-  niyatida bo`lganlar forum administratoriga murojaat qilishingizni so`raymiz. O`z
-  xizmatlaringizni biz orqali reklama qiling !\\nSavol PAYNET (FLAGSHIP) uzonline
-  da ishlatish\\nTeMa B pa\u0437\u0434e\u043be \\\"\u041fporpaMM\u044b \u0434\u043b\u044f
-  \u0438HTepHeT \u0438 ceTe\u0439\\\", co\u0437\u0434aHa \u043fo\u043bb\u0437oBaTe\u043beM
-  xakerzo, 22 Ho\u044f 2016.\"", "\"O\u02bbzbekiston Respublikasi Prezidentining 2018
-  yil 23 oktyabrdagi \u201cElektr energetikasi tarmog\u02bbini jadal rivojlantirish
-  va moliyaviy barqarorligini ta\u02bcminlash chora-tadbirlari to\u02bbg\u02bbrisida\u201d
-  PQ-3981-sonli qaroriga asosan 2019 yilda Qarshi shahar xududidagi 60 mingdan ortiq
-  aholi iste\u02bcmolchilarini Elektr energiyasini hisobga olish va nazorat qilishning
-  avtomatlashtirilgan tizimiga (ASKUE ruschada) o\u02bbtish bo\u02bbyicha choralar
-  ko\u02bbrilmoqda. Bu haqida \u201cAfsona\u201d mehmonxonasining konferentsiyalar
-  zalida \u201cQashqadaryo hududiy elektr tarmoqlari\u201d aktsiyadorlik jamiyati
-  va ommaviy axborot vositalari vakillari ishtirokida \u201cO\u02bbzbekiston Respublikasi
-  Prezidentining 2019 yil 27 martdagi \u201cO\u02bbzbekiston Respublikasida elektr
-  energetika tarmog\u02bbini yanada rivojlantirish va isloh qilish strategiyasi to\u02bbg\u02bbrisida\u201dgi
-  4249-sonli qarori mohiyati hamda \u201cQashqadaryo hududiy elektr tarmoqlari\u201d
-  aktsiyadorlik jamiyati tomonidan elektr ta\u02bcminotini yanada yaxshilash borasida
-  amalga oshirilayotgan ishlar\u201d mavzusida o\u02bbtkazilgan matbuot anjumanida
-  ma\u02bclum qilindi.\\n\u201cO\u02bbzbekenergo\u201d AJ quyidagilar orqali Elektr
-  energetika tarmog\u02bbining ishonchli faoliyat yuritishini ta\u02bcminlamasdan
-  turib iqtisodiyot tarmoqlari va mamlakat hududlarining sanoat salohiyatini oshirish,
-  tadbirkorlik faoliyatini rivojlantirishni rag\u02bbbatlantirish, aholi farovonligini
-  yuksaltirish va hayot sifatini yaxshilashga erishib bo\u02bblmaydi.\\nZamonaviy
-  sharoitlarda elektr energetika tarmog\u02bbida raqobat muhitini rivojlantirish va
-  investitsiyalarni jalb qilish elektr energiyasini ishlab chiqarish va yetkazib berish
-  sohasidagi faoliyatning institutsional va tashkiliy-huquqiy asoslarini tubdan takomillashtirish
-  zarurligini taqozo etmoqda.\\n2019-2021 yillarda elektr energetika tarmog\u02bbi
-  raqamlashtiriladi.\\nQarorga muvofiq 2020\u22122030 yillarda mamlakatning yoqilg\u02bbi-energetika
-  ta\u02bcminoti kontseptsiyasi ishlab chiqiladi.\\nEnergetika vazirligining \u201cQishloqenergoloyiha\u201d
-  AJ negizida 0,4 kVdan 500 kVgacha kuchlanishli barcha tipdagi elektr tarmoqlarini
-  loyihalashtiradigan \u201cO\u02bbzenergoinjinering\u201d AJ loyiha tashkiloti tashkil
-  etildi.\\n2019 yil 1 iyuldan:\\nquvvati 10 MVtdan ko\u02bbproq energiya iste\u02bcmol
-  qiladigan korxonalarni qurish va yer maydonlari ajratish to\u02bbg\u02bbrisidagi
-  qaror qabul qilingunga qadar respublika hududlarida joylashtirish Energetika vazirligi
-  bilan kelishgan holda amalga oshiriladi;\\nxususiy ishlab chiqaruvchilardan elektr
-  energiyani xarid qilish tanlov asosida hosil qilinayotgan elektr energiyaning maksimal
-  qiymati ko\u02bbrsatilgan holda amalga oshiriladi.\\n\u201cQashqadaryo hududiy elektr
-  tarmoqlari\u201d aktsiyadorlik jamiyati tomonidan iste\u02bcmolchilarning elektr
-  ta\u02bcminotini yanada yaxshilashga qaratilgan qator ishlar amalga oshirilmoqda.
-  Jumladan, O\u02bbzbekiston Respublikasi Prezidentining 2018 yil 13-14 dekabrdagi
-  tashrifi davomida berilgan topshiriqlar va kengaytirilgan tarzda o\u02bbtkazilgan
-  \u201cQashqadaryo viloyatini ijtimoiy-iqtisodiy rivojlantirishdagi mavjud muammolar
-  va ularni hal etish yuzasidan amalga oshirilishi zarur bo\u02bblgan chora tadbirlar
-  to\u02bbg\u02bbrisida\u201dgi yig\u02bbilish bayonining 90-bandida belgilangan jami
-  730 km elektr tarmoqlari va 230 dona transformator punktlari rekonstruktsiya va
-  modernizatsiya qilinishi va 1960 km uzunlikdagi elektr tarmoqlari va 655 dona transformator
-  punktlarini mukammal ta\u02bcmirlanishi rejalashtirilgan bo\u02bblib xozirgi kunda
-  426,2 km elektr tarmoqlari va 151 dona transformator punktlari rekonstruktsiya va
-  modernizatsiya qilindi, 1565,5 km uzunlikdagi elektr tarmoqlari va 521 dona transformator
-  punktlarini mukammal ta\u02bcmirlandi.\\nO\u02bbzbekiston Respublikasi Prezidentining
-  2016 yil 23 noyabrdagi \u201c2017-2021 yillarga mo\u02bbljallangan past kuchlanishli
-  elektr tarmoqlarini modernizatsiya qilish va yangilash dasturi to\u02bbg\u02bbrisida\u201dgi
-  PQ-2661-son Qaroriga asosan 128,1 km uzunlikdagi past kuchlanishli elektr tarmoqlari
-  va 73 dona transformator punktida yangi qurilish va rekonstruktsiya ishlari bajarildi.\\nO\u02bbzbekiston
-  Respublikasi Prezidentining 2018 yil 29 martdagi \u201cObod qishloq\u201d dasturi
-  to\u02bbg\u02bbrisidagi PF-5386-son Farmoni hamda 2019 yil 20 fevraldagi \u201c\u201cObod
-  qishloq\u201d dasturini 2019 yilda amalga oshirish bo\u02bbyicha qo\u02bbshimcha
-  chora-tadbirlar to\u02bbg\u02bbrisida\u201dgi PQ-4201-sonli Qaroriga asosan 282,9
-  km uzunlikdagi elektr uzatish tarmoqlari va 53 dona transformator punktida yangi
-  qurilish va rekonstruktsiya ishlari bajarildi. Shuningdek, 406,4 km tarmoqlar va
-  220 dona transformator punkti mukammal ta\u02bcmirlandi.\\nXuddi shunday O\u02bbzbekiston
-  Respublikasi Prezidentining 2018 yil 27 iyundagi \u201c\u201cObod mahalla\u201d
-  dasturining asosiy parametrlarini tasdiqlash va ularning ijrosini ta\u02bcminlash
-  masalalari to\u02bbg\u02bbrisida\u201dgi PQ-3812-son Qaroriga asosan 7,4 km uzunlikdagi
-  elektr uzatish tarmoqlari va 3 dona transformator punktida yangi qurilish va rekonstruktsiya
-  ishlari bajarildi. 22,3 km elektr uzatish tarmoqlari va 20 dona transformator punktlari
-  mukammal ta\u02bcmirlandi.\\nQashqadaryo viloyatida qurilayotgan namunaviy uy-joylar,
-  xokimiyat rahbarlari xizmat uylari, profilaktika inspektorlari, Milliy gvardiya
-  xodimlari va IIV xizmat uylari hamda yosh oilalar uchun uylar va shaharlardagi arzonlashtirilgan
-  ko\u02bbp qavatli uy-joylar elektr ta\u02bcminoti uchun jami 7,7 km elektr uzatish
-  tarmoqlari va 22 dona transformator punkti yangidan qurildi.\\nIqtisodiyot tarmoqlari,
-  uy-joy fondi va ijtimoiy soha muassasalarini 2019/2020 yillarda kuz-qish mavsumida
-  barqaror ishlashiga tayyorlash yuzasidan amalga oshirilgan ishlar yuzasidan 1565,5
-  km uzunlikdagi 0,4-110 kV elektr uzatish tarmoqlari va 521 dona transformator punkti
-  mukammal ta\u02bcmirlandi.\\nShuningdek, jamiyat tomonidan elektr energetikasi sohasidagi
-  islohotlarning mazmun-mohiyatini aholiga keng tushuntirish va targ\u02bbibot qilish
-  hamda amalga oshirilgan ishlar yuzasidan ommaviy axborot vositalari orqali doimiy
-  chiqishlar tashkil qilinmoqda.\\nO\u02bbtkazilgan matbuot anjumani jarayonida jurnalistlar
-  o\u02bbzlarini qiziqtirgan savollariga yetarlicha javoblar olishdi.\\nQashqadaryo
-  viloyat hokimligi axborot xizmati.\\nMurod Komilov olgan surat.\"", "\"kitayiski
-  sekis kino\\nUchrashuv tugadi va u erda bo''lganlarning hammasi xonadan chiqib ketishdi,
-  u erda faqat shahvoniy kotib va uning yosh xo''jayini qolishdi. Ular bunday joyda
-  jinsiy aloqada bo''lish orqali to''plangan stressni engillashtirishning eng yaxshi
-  usuli deb qaror qilishdi. Hayajonlangan qassob oyoqlarini yoyib, uning qinini yaladi.
-  Shunda xo''jayin stolga badbashara kotibani siltab tashladi va qichishgan phallusini
-  uning qiniga kiritdi. Buzoq shu zahotiyoq tugadi va yoqimli ohang bilan jarayondan
-  zavqlanishda davom etdi.\\nen zor xxx video:\""]'
+sample: '["\"Tasnif\\nImkoniyatlar ombori\\nHaqiqiy hayotdagi kabi rasm va ovoz. Apple
+  TV 4K sizga ajoyib ko\u2019rinish beradi. Agar sizning karnay tizimingiz Dolby Atmos-ni
+  qo\u2019llab-quvvatlasa, u holda uy kino zaliga aylantiriladi va siz boy atrof-muhit
+  tovushiga yo\u2019l ochasiz.\\nSiz u erda bo\u2019lganingiz kabi\\nU HDR standartlaridan
+  ikki baravar yuqori kadr tezligida videoni ijro eta oladi, bu ranglarni Real va
+  tasvirni iloji boricha aniqroq qiladi. Hatto tezkor voqealar, masalan, sport musobaqalarini
+  translyatsiya qilish ham batafsil bayon etilgan. Atrofdagi tabiat televizor ekranida
+  juda ishonchli ko\u2019rinadi. Va YouTube videolari so\u2019zning tom ma\u2019noda
+  jonlanadi.\\nSozlash oson\\nTelevizordagi tasvir sifatini sozlash uzoq va qiyin
+  protseduraga aylanishi mumkin. Faqat bu holatda emas. Bundan buyon siz iPhone yordamida
+  signal sifatini avtomatik ravishda sozlaysiz. Smartfonni faqat bir marta televizor
+  ekraniga yo\u2019naltirish kerak, keyin o\u2019zingizni qulay his eting va kino
+  va teleseriallardan butunlay yangi va ajoyib sifatda zavqlaning.\\nA15 Bionic protsessori
+  javob tezligi va silliq Gui bilan ajralib turadi, bu o\u2019yinlarga o\u2019ziga
+  xos dinamikani beradi.\\nVa ko\u2019p o\u2019yinchi qo\u2019llab-quvvatlashi bilan
+  o\u2019yinchilar istalgan vaqtda o\u2019zlarining darajalari va o\u2019yinlardagi
+  muvaffaqiyatlarini kuzatib borishlari, boshqa o\u2019yinchilarning pochta jo\u2019natmalari
+  bilan tanishishlari va bir hisobdan boshqasiga o\u2019tishlari mumkin.\\nBundan
+  tashqari, birlashtirilgan kontrollerlarni tanlash ko\u2019paydi: endi siz ularga
+  Xbox va PlayStation simsiz masofadan boshqarish pultlarini ulashingiz mumkin.\\nBirgalikda
+  qarang\\nKechasi audio yozuvlarni birgalikda ijro etish foydali bo\u2019ladi. Ikki
+  juft Airpod-ni ulang va uxlayotganlarni bezovta qilmasdan har qanday hajmda filmlar
+  va dasturlarni yoqing.\\nSmartfon boshqaruv paneli sifatida\\nAgar kerak bo\u2019lsa,
+  qulflangan ekran va iPhone boshqaruv panelidagi o\u2019rnatilgan boshqaruv elementlaridan
+  foydalaning. Ular orqali u boshlanadi, to\u2019xtaydi, oldinga, orqaga buriladi
+  va televizorning ovoz balandligi sozlanadi.\\nSavol va Javoblar\\nSiz birinchi bo''lishingiz
+  mumkin\\nBaholar\\nXozircha hechkim sharh yozmagan. Birinchilardan bo''ling baho
+  bering\"", "\"O''zbekiston Professional futbol ligasi shu mavsumdan boshlab klublar
+  bo''ynidagi har qanday qarzdorliklarga jiddiy e''tibor berib kelayotgani yaxshi
+  ma''lum. Shu maqsadda Superliga hamda Pro-Liga klublari bilan 18 iyun kuni ochilib,
+  15 iyul sanasida yopilgan yozgi transfer oynasida etarli darajada ish olib borildi.\\nPFL
+  bu borada mavjud 30ta klubni transfer oynasi ochilishidan oldinoq ogohlantirib keldi.
+  Natijada Superliga klublaridan tortib, Pro-Liga jamoalariga qadar PFLga hisobot
+  topshirdi. Ya''ni, klublar bo''ynidagi qarzdorliklar, ularning futbolchi va murabbiylar
+  oldidagi majburiyatlari aniq-tiniq belgilab olindi. Biroq \u201cYozyovon-Lochinlari\u201d
+  hamda \u201cNorin\u201d klubi rahbariyati na transfer oynasi vaqtida va na undan
+  keyin PFL talabini bajardi.\\nPFL Superliga klublarining oldiga 1 mart sanasiga
+  qadar, Pro-Liga klublarining oldiga esa 20 aprelga qadar muddat belgilagan bo''lsa-da,
+  jamoalar bu talablarni bajarmadi. Shu boisdan transfer oynasi vaqtida klublar bu
+  masala yuzasidan PFLga tushuntirish berdi. Ya''ni, tashkilot klublarning og''ir
+  sharoitidan kelib chiqib, ularga imkoniyat berishda davom etdi. Faqatgina, klub
+  rahbarlarining kafolat xatidan so''ng.\\n\u201cYozyovon-Lochinlari\u201d hamda \u201cNorin\u201d
+  klublari vakillari esa Pro-Ligadagi o''yinlariga bir kun vaqt qolganidagina aloqaga
+  chiqdi. Kafolat xatlari ham faqatgina shu vaqtda taqdim etildi (to''lov muddati
+  sanalari ko''rsatilmagani holda). Futbol klublarining bu qadar beparvoligini oqlash
+  qiyin. PFL o''z komissarlari hamda hakamlarini yuqoridagi klublar ishtirokidagi
+  o''yinlarga yubordi. Boisi, qarzdorlik bartaraf etilsa, ular o''yinni boshlashi
+  kerak edi. PFL to uchrashuvning boshlanish vaqtigacha klublar moliyaviy qarzdorliklarini
+  uzishini kutdi. Biroq klublar bu imkoniyatdan ham foydalana olmadi. Shundan kelib
+  chiqilsa, \u201cYozyovon-Lochinlari\u201d klubi homiysi Dilmurod Ergashevning PFL
+  borasida aytgan fikrlari mantiqqa to''g''ri kelmaydi.\\nPFL futbolga o''z sarmoyasini
+  kiritayotgan tadbirkorlar bilan ishlash uchun doimo tayyor. Katta klublarni eplay
+  olmayotgan tadbirkorlar bolalar futboliga sarmoya kiritsa ham, bu borada PFL ular
+  bilan hamkorlik uchun keng eshiklar ochib beradi va o''z yordamini ayamaydi. Biroq
+  Pro-Liga klublari bir necha yillardan buyon shu ahvolda ishlab o''rganib qolgandiki,
+  ayni vaqtdagi qat''iy talablar ularga malol kelyapti.\\nPFL \u201cYozyovon-Lochinlari\u201d
+  hamda \u201cNorin\u201d klublarini yana bir bor ogohlantiradi. Ish shu zaylda davom
+  etsa, ular keyingi safar Pro-Ligadan muddatidan oldin chetlashtiriladi. Jamoalar
+  homiylari mahalliy stadionlarni yaxshilash, bolalar futboliga sarmoya kiritish,
+  klub tashkil qilishdan oldin, uning infratuzilmasi haqida o''ylaydigan bo''lsa,
+  ular bilan hamkorlik davom ettiriladi. Shuningdek, bu kabi jamoalarga mamlakat 2-ligasida
+  faoliyatlarini davom ettirish tavsiya etiladi.\"", "\"\u201cTurkiston\u201d saroyida
+  8-mart \u2013 Xalqaro xotin-qizlar kuni munosabati bilan tantanali tadbir bo\u2018lib
+  o\u2018tdi\\nMamlakatimizda ayolni ulug\u2018lash, unga hurmat-ehtirom ko\u2018rsatish,
+  munosib hayot sharoitini yaratish, og\u2018irini yengil qilish davlat siyosatining
+  muhim yo\u2018nalishlaridan biriga aylangan. Zero, jamiyat hayotining turli jabhalarini
+  ravnaq toptirish, Vatanimizning jahon hamjamiyatidagi obro\u2018-e\u2019tiborini
+  yuksaltirish, yoshlarni milliy va umuminsoniy qadriyatlar ruhida kamol toptirishda
+  xotin-qizlarning munosib hissasi bor.\\nTurli sohalarda samarali mehnat qilayotgan
+  xotin-qizlar 6-mart kuni Toshkentdagi hurriyatimiz, porloq istiqbolimiz va ezgu
+  niyatlarimiz ramzi bo\u2018lgan Mustaqillik va ezgulik monumenti poyiga gullar qo\u2018ydi.
+  Akademik V.Vohidov nomidagi Respublika ixtisoslashtirilgan jarrohlik markazining
+  kardioxirurgiya majmuasi, Badiiy gimnastika bo\u2018yicha bolalar-o\u2018smirlar
+  ixtisoslashtirilgan Respublika olimpiya zaxirasi sport maktabi, Toshkent shahrining
+  Olmazor tumanidagi \u201cXonchorbog\u2018\u201d mahalla fuqarolar yig\u2018inidagi
+  ayollar maslahat markazi faoliyati misolida mamlakatimizda xotin-qizlar salomatligini
+  muhofazalash, qizlarni jismoniy tarbiya va sportga keng jalb etish, bolalar sportini
+  rivojlantirish, xotin-qizlarga g\u2018amxo\u2018rlik va e\u2019tibor ko\u2018rsatish
+  borasidagi ezgu ishlar bilan atroflicha tanishdi.\\n\u201cTurkiston\u201d saroyida
+  shu kuni Xalqaro xotin-qizlar kuniga bag\u2018ishlangan tantanali tadbir bo\u2018lib
+  o\u2018tdi. Unda senatorlar, deputatlar, ijtimoiy-iqtisodiy, ilm-fan, madaniy-ma\u2019rifiy
+  sohalarda mehnat qilayotgan fidoyi ayollar, xotin-qizlar qo\u2018mitalari faollari,
+  diniy ma\u2019rifat va ma\u2019naviy-axloqiy tarbiya masalalari bo\u2018yicha maslahatchilar,
+  turli vazirlik va idoralar, jamoat tashkilotlari vakillari, Zulfiya nomidagi Davlat
+  mukofoti sovrindorlari ishtirok etdi.\\nTantanali yig\u2018ilishni Toshkent shahar
+  hokimi R.Usmonov ochdi.\\nPrezidentimiz Islom Karimovning O\u2018zbekiston xotin-qizlariga
+  bayram tabrigini Prezidentning Davlat maslahatchisi X.Sultonov o\u2018qib eshittirdi.\\nO\u2018zbekiston
+  Respublikasi Bosh vazirining o\u2018rinbosari, Respublika Xotin-qizlar qo\u2018mitasi
+  raisi E.Bositxonova va boshqalar istiqlol yillarida mamlakatimizni modernizatsiyalash,
+  kuchli fuqarolik jamiyati barpo etish borasidagi ezgu sa\u2019y-harakatlarda xotin-qizlar
+  ishtirokini kengaytirish, ularning oila va jamiyatdagi mavqeini oshirishga alohida
+  e\u2019tibor qaratilayotganini ta\u2019kidladi.\\nXotin-qizlarning huquq va manfaatlarini
+  ta\u2019minlash, oila, onalik va bolalikni himoyalash, munosib mehnat, ta\u2019lim,
+  turmush sharoitlarini yaratish bilan bog\u2018liq huquqiy kafolatlar O\u2018zbekiston
+  Respublikasi Konstitutsiyasi, qator qonunlar, farmon va qarorlarda belgilab qo\u2018yilgan.\\nMustaqillik
+  yillarida yurtimizda ishlab chiqarish, qishloq xo\u2018jaligi, ta\u2019lim, sog\u2018liqni
+  saqlash, milliy hunarmandlik sohalarida samarali va fidokorona mehnat qilayotgan
+  13 nafar ayol O\u2018zbekiston Qahramoni oliy unvoniga musharraf bo\u2018ldi. Bu
+  mamlakatimizda xotin-qizlarni ulug\u2018lash, ularning mehnatini qadrlash, ayollarga
+  hurmat va ehtirom ko\u2018rsatishning yuksak namunasidir.\\nYosh avlod ma\u2019naviyatini
+  yuksaltirish, ularni har jihatdan sog\u2018lom va barkamol insonlar etib voyaga
+  yetkazish, ongu tafakkurini milliy hayot tarzimizga yot va zararli g\u2018oyalardan
+  ishonchli himoyalash kabi ezgu ishlarda xotin-qizlarning hissasi katta bo\u2018layotir.\\nIjtimoiy
+  ahamiyatga molik davlat dasturlari ijrosining izchil ta\u2019minlanishi natijasida
+  shifo maskanlari, oilaviy poliklinikalar, qishloq vrachlik punktlari, sport-sog\u2018lomlashtirish
+  muassasalarining moddiy- texnik bazasi mustahkamlanmoqda. Qishloqlarda namunali
+  loyihalar asosida zamonaviy uy-joylarning bunyod etilayotgani xotin-qizlar, oilalarning
+  turmush farovonligini yanada yuksaltirish, ular uchun munosib sharoit va imkoniyatlarni
+  yaratishda alohida ahamiyat kasb etmoqda. Savdo va maishiy xizmat ko\u2018rsatish
+  shoxobchalari, \u201cGo\u2018zallik saloni\u201d, modalar atelesi kabi infratuzilmalar
+  ayollarning og\u2018irini yengil qilish, yanada ko\u2018rkam va latofatli bo\u2018lishidek
+  ezgu maqsadlarga xizmat qilmoqda.\\nKichik biznes, xususiy va oilaviy tadbirkorlik,
+  kasanachilik, xizmat ko\u2018rsatishni yanada rivojlantirish, bandlikni ta\u2019minlashga
+  oid dasturlar ijrosi samarasida ayollar, kasb-hunar kollejlarining bitiruvchi qizlari
+  uchun minglab yangi ish o\u2018rni yaratilmoqda, o\u2018z xususiy biznesini boshlash
+  istagidagi xotin-qizlarga imtiyozli kreditlar ajratilmoqda.\\nXotin-qizlar masalalari
+  bilan shug\u2018ullanadigan jamoat tashkilotlari ishini davr talabi asosida yo\u2018lga
+  qo\u2018yish, mahallalardagi xotin-qizlar bilan ishlash komissiyalari, boshlang\u2018ich
+  xotin-qizlar tashkilotlari kabi tuzilmalarning faoliyatini yanada rivojlantirishga
+  alohida e\u2019tibor qaratilmoqda. Xotin-qizlar qo\u2018mitalarining \u00aboila
+  \u2013 ta\u2019lim muassasasi \u2013mahalla\u00bb hamkorligi tobora kuchayib, navqiron
+  avlod tarbiyasida yaxshi samara bermoqda.\\n\u00abKeksalarni e\u2019zozlash yili\u00bb
+  Davlat dasturi ijrosi doirasida mo\u2018tabar onaxonlarga ehtirom ko\u2018rsatish,
+  ularni moddiy va ma\u2019naviy qo\u2018llab-quvvatlash, tabarruk yoshdagi insonlarning
+  boy va sermazmun, ibratli hayot tajribasidan yosh avlodni Vatanga muhabbat, istiqlol
+  g\u2018oyalariga sadoqat ruhida kamol toptirishda keng foydalanishga doir amaliy
+  ishlar ko\u2018lami tobora ortmoqda.\\nPrezidentimizning 2015-yil 3-martdagi qarori
+  bilan Zulfiya nomidagi Davlat mukofotining 2015-yilgi sohibalari e\u2019lon qilindi.
+  Tadbirda mazkur mukofotlar tantanali tarzda topshirildi.\\n\u2013 Onalari sharaflangan,
+  qizlari ardoqlangan shunday tabarruk zaminda yashayotganimdan behad faxrlanaman,
+  \u2013 deydi Zulfiya nomidagi Davlat mukofoti sohibasi, Xorazm viloyati Gurlan tumanidagi
+  5-umumiy o\u2018rta ta\u2019lim maktabining 8-sinf o\u2018quvchisi Shirin Rahimova.
+  \u2013 Mamlakatimizda hukm surayotgan tinchlik-osoyishtalikni ko\u2018z qorachig\u2018idek
+  asrab-avaylash, Vatanimizning ertangi kuni, porloq istiqboli uchun mas\u2019uliyatni
+  chin dildan anglash, doimo ogoh va hushyor bo\u2018lish har birimizning sharafli
+  burchimizdir. Zulfiya nomidagi Davlat mukofoti bilan taqdirlanganlar orasida borligimdan
+  boshim osmonga yetdi. Bu mukofot boshqa tengdoshlarim qatori menga ham yuksak mas\u2019uliyat
+  yuklaydi. Bunday e\u2019tibor va g\u2018amxo\u2018rlik uchun Prezidentimizdan minnatdorman.\\nO\u2018zbekiston
+  Yozuvchilar uyushmasi raisining birinchi o\u2018rinbosari S.Sayyid, \u00abKamolot\u00bb
+  yoshlar ijtimoiy harakati markaziy kengashi raisi B.G\u2018aniyev va boshqalar xotin-qizlarni
+  bayram bilan qutlab, mamlakatimizda ayol zotini ulug\u2018lash, xotin-qizlarga hurmat-e\u2019tibor
+  ko\u2018rsatish, yosh avlodni har jihatdan sog\u2018lom va barkamol insonlar etib
+  voyaga yetkazish borasidagi ezgu ishlar yuksak samaralar berayotganini ta\u2019kidladi.\\nKechada
+  san\u2019at ustalari va ijrochi yoshlar ishtirokida konsert namoyish etildi.\\nYig\u2018ilishda
+  O\u2018zbekiston Respublikasi Oliy Majlisi Senati Raisi N.Yo\u2018ldoshev, O\u2018zbekiston
+  Respublikasi Oliy Majlisi Qonunchilik palatasi Spikeri N.Ismoilov, O\u2018zbekiston
+  Respublikasi Bosh vaziri Sh.Mirziyoyev ishtirok etdi.\\nNazokat Usmonova, A''lo
+  Abdullayev, Otabek Mirsoatov (surat), O\u2018zA\\nManba: www.uza.uz\"", "\"10 aprel
+  2015 BinQ Mining Equipment loyiha profili tosh maydalagich zavodi pdf, tosh maydalagich
+  zavodi loyihasi hisoboti pdf, loyiha profili tosh maydalagich zavodi, ohak tosh
+  cru ? Tosh maydalagichni moliyalashtirish bo''''yicha loyiha hisoboti, Batafsil
+  ma''''lumot loyiha menejeri tosh maydalagich zavodlari theboxalmelo loyihasi tosh
+  maydalagichni boshqarish sciindiaorgin - tosh maydalash zavodi uchun tosh maydalagich
+  Kolumbiya loyihasi Rochedagi mavjud ko''''chma tosh maydalash zavodining ishlashi
+  Loyiha 25 tonnalik ko''''chma tosh maydalash zavodining ishlashidan iborat bo''''lib,
+  tosh maydalagichga toshlarni olib keladi va ozuqa rampasiga etkazib beradi . Tafsilotlar
+  loyiha profili tosh maydalagich zavodi vriendenbordet loyiha profili maydalash va
+  saralash zavodi Tune, 2 a year ago Batafsil ma''''lumot tosh maydalagich blokini
+  ishlab chiqish loyihasi profili tosh maydalagich blokini ishlab chiqish loyihasi
+  profili - tosh maydalagich loyihasi profili bilan bog''''liq ma''''lumotlar, shu
+  jumladan: Kotirovkalar, Narxlar, Ishlab chiqaruvchilar, Qismlar: og''''ir sanoat
+  konlar va karerlar uchun tosh maydalagich loyihasi profilini ishlab chiqarishda
+  professionaldir, agar siz tosh maydalagich loyihasini bilmoqchi bo''''lsangiz, tosh
+  maydalagichni ishlab chiqish loyihasi profili uchun rasmlar,\\ntosh maydalagich
+  bo''''yicha loyiha hisoboti pdf team2015leerdam ma''''nosi ularga tegishli ravishda
+  Kamataka Tosh maydalagichlar to''''g''''risidagi nizomda, 201 l ? (1) Tosh maydalash
+  faoliyatini amalga oshirish uchun litsenziyani berish yoki yangilash uchun har bir
+  ariza litsenziyalovchi organga A shaklidagi loyiha hisoboti bilan bir qatorda tosh
+  maydalash agregati haqida Batafsil ma''''lumot 1-BOB 1, 3 LOYIHANI ASOSLANISh Kichik
+  o''''lchamli tosh maydalagichni ishlab chiqish katta hajmdagi tosh maydalash va
+  qo''''lda maydalash o''''rtasidagi nomutanosiblikning haqiqiy yechimidir, chunki
+  u Batafsil ma''''lumot tosh maydalagich mashinasi loyihasi hisoboti Hindistondagi
+  tosh maydalagich loyihasi hisoboti - Cho''''kindi jinslar, ayniqsa, o''''rta donadorlikdagi
+  ohaktosh va qumtoshlar talabga ega bo''''lsa, davlatning barcha maydalagich birliklari
+  ishlab chiqarish mashinasi qum 1, Muvaqqat ro''''yxatga olish, Loyiha hisobotini
+  tayyorlash Yer / shiyponni sotib olish .\\nBinQ tog''''-kon uskunalari tosh maydalagich
+  zavodidagi loyiha profili pdf, tosh maydalagich zavodi loyihasi hisoboti pdf, loyiha
+  profili tosh maydalagich zavodi, ohak tosh maydalagich zavodi loyihasi hisoboti
+  pdf, tosh maydalagich zavodi loyihasi pdf bazalt maydalagich, bank moliyasi uchun
+  pdf formatidagi tosh maydalagich zavodi loyihasi, tosh maydalagich zavodi bo''''yicha
+  boshqaruv loyihasi hisoboti pdf, Mahalliy tosh maydalagich campylobacter haqida
+  batafsil ma''''lumot Tosh maydalagichlar yaxshi istiqbolga ega va ichki bozorlarda
+  istiqbolli rivojlanish tendentsiyasiga ega . Tosh maydalagich tog''''-kon, eritish,
+  qurilish materiallari, avtomobil yo''''llari qurilishi, temir yo''''l, suv xo''''jaligi
+  va boshqa sanoat va bo''''limlarda keng qo''''llaniladi . Mahalliy tosh maydalagichning
+  narxini oling Tosh maydalagich Batafsil ma''''lumot tosh maydalagich pdf notes royalcrescentgroup
+  tosh maydalagich pdf notes hometbmueblerias . Toshni suv bilan maydalash natijasida
+  olingan kremniy dioksidi changini nazorat qilish Toshni maydalash uzoq vaqtdan beri
+  havodagi kristall ta''''siri bilan bog''''liq bo''''lib kelgan - Batafsil ma''''lumot
+  Tosh maydalagich tadbirkori Tavsif: Shag''''allardan temir yo''''l balastida, yo''''llarni
+  yotqizishda, betonda, suvoqda va hokazolarda turli xil qo''''llanilishi mavjud -\\nCho''''kindi
+  jinslar, ayniqsa, o''''rta donadorlikdagi ohaktosh va qumtoshlar talab qiladi, agar
+  davlatning barcha maydalagich birliklari ishlab chiqarishni boshlasa, qum 1, Vaqtinchalik
+  ro''''yxatga olish, Loyiha hisobotini tayyorlash To''''liqroq ma''''lumotlarni olish
+  . Mavjud ko''''chma tosh maydalash zavodining ishlashi Hisobotning o''''zi asosan
+  ko''''chma tosh maydalashni tartibga solishga qaratilgan . Atrof-muhit monitoringi
+  zavodi uchun zarur bo''''lgan muhim elementlar ro''''yxatini tayyorlash uchun Roche
+  Terre mobil tosh maydalagich zavodi . Batafsil ma''''lumot Tosh maydalagich zavodi
+  Hindistonda pienfotowerk Inilah Daftar Perusahaan Penjual tosh maydalagich zavodi
+  Indoneziyadagi ehtiyot qismlar, import qilinadigan tosh maydalagichlar va boshqalar
+  -\\nTosh, c\u00fcruf yoki ko''''mir kabi materiallarni ularni chuqurlikda ishlatish
+  uchun mos hajmga qisqartirish amalga oshiriladi ? Batafsil Tafsilotlar tosh maydalagich
+  zavodi loyihasi pdf May 20, 2019 \u00b7 This video is unavailable Tosh maydalash
+  zavodi shu vaqtgacha Roche Terre maydonchasida bo''''ladi? Watch Queue Queue Batafsilroq
+  tosh maydalagich ishlab chiqaruvchisi pikosrom uchun loyiha profili Loyiha profili
+  : GRANIT QUM ISHLAB CHIQARISH ? navbat betonlashning mustahkamligiga ta''''sir qiladi,
+  shuning uchun magmatik jinslar o''''rniga Kvars toshini maydalagichni tashkil etish
+  taklif etiladi, bu toshdan ishlab chiqarilgan qum sudxo''''rlik talabini qondiradi
+  va asta-sekin qurilish sanoatida mashhur bo''''lib, daryoga bo''''lgan talabni oshiradi
+  Tosh maydalash zavodi shu vaqtgacha Roche Terre maydonchasida bo''''ladi. Batafsil
+  ma''''lumot Mavjud tosh maydalagich firmasining B rejasi namunasi Mavjud tosh maydalagich
+  firmasining B rejasi namunasi Mavjud tosh maydalagich firmasining b rejasi,\\nU
+  abraziv materialdan ishlab chiqarilgan bo''''lib, u umuman sanoatning deyarli barcha
+  sohalarida turli materiallarni kesish, silliqlash, silliqlash va hokazolar uchun
+  keng qo''''llaniladigan keng turdagi materiallarni o''''z ichiga oladi - Batafsil
+  Tafsilotlar tosh maydalagich zavodi moliyasi uchun loyiha hisoboti Stone Crusher
+  entrepreneurindia . Loyiha profilining keng qamrovli hisobotlari bozorni tahlil
+  qilish, zavod va mashinalar, xom ashyo kabi turli ehtiyojlar mavjudligini tasdiqlashdan
+  tortib, moliyaviy talablarni prognoz qilishgacha bo''''lgan biznesning barcha jihatlarini
+  qamrab oladi ? hisobot doirasi bozor potentsialini baholash, hamkorlar bilan muzokaralar
+  olib borish, sarmoyani o''''z ichiga oladi Batafsil ma''''lumot tosh maydalagich
+  loyihasi profili hutuin BinQ tog''''-kon uskunalari tosh maydalagich zavodidagi
+  loyiha profili pdf, tosh maydalagich zavodi loyihasi hisoboti pdf, loyiha profili
+  tosh maydalagich zavodi, ohak narxi Batafsil ma''''lumot olish Mavjud ko''''chma
+  tosh maydalash zavodining ishlashi, Loyiha tosh maydalash zavodida ishlaydigan ko''''chma
+  tosh maydalash zavodining ishlashidan iborat .\\nChin dan end tegirmon asboblari
+  uchun volfram karbid zamin rodlar volfram karbid rodlar oldindan issiq sotish pcl
+  vertikal mil zarba maydalagich sotuvga keyingi namunasi b bepul taklif rejasi 2016
+  yil 14-avgust Markaziy ifloslanish, sifat nazorati kaliforniya mintaqaviy suv sifati
+  kaliforniya mintaqaviy suv sifatini nazorat qilish mintaqaviy kengashi mavjud agregat
+  koni 1 dyuymli yuvish zavodi ii toifali maydalagich va qum jag'''' maydalagichga
+  texnik xizmat ko''''rsatish t . Loyiha hisobotida bozorning hozirgi holati va kutilayotgan
+  kelajakdagi talab, bozor hajmi, statistika, tendentsiyalar, SWOT tahlili va prognozlari
+  mavjud - Hisobot batafsil hisobotni o''''z ichiga olgan sanoatdan keng qamrovli
+  tahlilni taqdim etadi va sanoatning o''''rnini baholaydi Batafsil ma''''lumot loyihasi
+  bo''''yicha tosh maydalagich zavodi imobstbaumgarten Roche''''dagi mavjud mobil
+  tosh maydalash zavodining ishlashi -\\nIndoneziyadagi andezitni maydalash zavodi
+  Nigriyada sotiladigan tosh maydalagich mashinasi Gips maydalagich, Mobil . Batafsil
+  ma''''lumot tosh maydalagich zavodlari ekhayawhiteriver Rochedagi mavjud ko''''chma
+  tosh maydalash zavodining ishlashi Loyiha Roche Terredagi ko''''chma tosh maydalash
+  zavodining ishlashidan iborat . Narxni oling Batafsil ma''''lumot Exceldagi tosh
+  maydalagich loyihasi hisoboti smartlimo Hindistondagi tosh maydalagich loyihasi
+  hisoboti ? Hindistonda tosh maydalagich loyihasi hisoboti pdf Drafting Of excel
+  format, Hindiston Bank krediti uchun loyiha hisoboti, Hindistondagi biznes, Batafsil
+  ma''''lumot tosh maydalagichni tasdiqlash rejasi kinderzitjesonline Tosh maydalagich
+  zavodi Biznesni qanday boshlash kerak Loyiha rejasi, tosh maydalagichlar - bu loyiha
+  uchun zarur bo''''lgan yagona xom ashyo ? Tosh maydalagich zavodi Tegishli: 10 ta
+  o''''z-o''''zini mukofotlaydigan ijtimoiy korxona biznes g''''oyalari Tosh maydalagich
+  zavodini ishlab chiqarish jarayoni Avvalo, katta toshlarni kichikroq o''''lchamlarga
+  qo''''lda sindirib tashlang ?\\nTamilnadu Hindistondagi tosh maydalash zavodi narxi
+  sizga toshni to''''liq maydalash va boyitish bilan ta''''minlashi mumkin Batafsil
+  ma''''lumot Tosh maydalagich Bentelerhof tomonidan sotib olish -\\nBatafsil ma''''lumot
+  Jiddah 250TPH bazalt maydalagich zenit maydalagich Bizning agregatlarimiz kubik
+  shakli tufayli juda yaxshi sotiladi - Hozirgi kunda ko''''proq loyihalar aeroport
+  qurilishi kabi agregatlarning shakliga ko''''proq e''''tibor qaratmoqda ? Shunday
+  qilib, biz mavjud zavodning ko''''lamini kengaytirish uchun yangi maydalagichlar
+  sotib olishni ko''''rib chiqmoqdamiz Kuniga 1200 tonna shag''''al ishlab chiqariladi,
+  bu esa loyiha hisobotida foyda keltiradi, Batafsil ma''''lumot tosh maydalagich
+  zavodi bo''''yicha loyiha profili pdf SlideShare Apr 10, 2015 \u00b7 tosh maydalagich
+  zavodidagi loyiha profili pdf 1 ?\\nva Axborot texnologiyalari vazirligi, C&IT Vazirligi
+  Batafsil ma''''lumot mavjud tosh maydalagichmavjud tosh maydalagich Shiatsudag mavjud
+  tosh maydalagichmavjud vsi maydalagich - tosh maydalagich loyihasi mavjud tizim
+  mavjud tosh maydalagich mavjud tosh maydalagichlar - tosh maydalagich loyihasi tosh
+  maydalagichda ifloslanishni kamaytirish uchun mavjud tizim ko''''rsatmalari rpcb
+  mavjud tosh maydalagichning quvvati taklif qilingan holatda ? Batafsil ma''''lumot
+  tosh maydalagichni yaratish bo''''yicha loyiha hisoboti Tegirmon toshlarini ishlab
+  chiqarishni yo''''lga qo''''yish bo''''yicha loyiha profili ?\\nBatafsil ma''''lumot
+  oling Ohak tosh maydalagich zavodi loyihasi hisoboti narxlari tosh maydalagich loyihasi
+  hisoboti bilan birinchi hamkorlik yoqimli edi, Bu yerda Tosh maydalagich zavodini
+  sotadigan kompaniyalarning onlayn narxlari haqida ma''''lumot . Hindistonda sotib
+  olish uchun tosh maydalagich zavodining etkazib beruvchilari, ishlab chiqaruvchilari,
+  eksportchilari, savdogarlari - Bu ohaktosh, marmar, granit, bazalt, loyiha profili
+  GRANIT QUM ISHLAB CHIQARISH Dc Msme maydalash va ekranga to''''liq qodir bilan birinchi
+  hamkorlik yoqimli edi? Batafsil ma''''lumot Hindistondagi tosh maydalagich uchun
+  loyiha qiymati Tamilnadu shtatining Koimbatore shahridagi Deniseohlson zarbali maydalagichlar,
+  zavod loyihasi, tosh maydalagich ishlab chiqaruvchisi boksit rudasini qazib olish
+  qiymati Tamilnadudagi mini qo''''pol agregatning narxi Hindistonning Tamilnadu shahridagi
+  tosh maydalash zavodi narxi ?\\nBatafsil ma''''lumot Tosh maydalash sanoatini o''''rnatish
+  bo''''yicha namunaviy loyiha hisoboti Tosh maydalash moslamasi - Oltin rudasini
+  maydalagich uchun namunaviy loyiha hisoboti Loyiha profili: GRANIT QUM ISHLAB CHIQARISH
+  DCMSME, Kvars tosh mashinasozlik sanoatini tashkil etish uchun tosh o''''lchamdagi
+  ohak va qum toshlarini maydalash bo''''yicha namunaviy loyiha hisoboti, Batafsil
+  ma''''lumot tosh maydalagich loyihasi profi ility duolang tosh maydalagich loyihasi
+  rentabellik va tosh maydalagich zavodi loyihada tosh maydalash biznesida qancha
+  foyda tosh maydalash sanoatini o''''rnatishdan iborat bo''''lgan foyda Binq qazib
+  olish asosiy korpus zavod ishlab chiqarishga qodir ekanligini ko''''rsatadi ? Batafsil
+  ma''''lumot loyiha hisoboti tosh maydalagich zavodini ishlab chiqarish Loyiha profili:
+  GRANIT QUM ISHLAB CHIQARISH Dc Msme,\"", "\"Futbol bo\u2018yicha Osiyo Chempionlar
+  Ligasi 3-turidan o\u2018rin olgan Eronning \u201cSepaxon\u201d va Saudiya Arabistonining
+  \u201cAn-Nassr\u201d jamoalari o\u2018rtasidagi bahs Toshkentda o\u2018tkaziladi.\\nUchrashuv
+  3-mart kuni \u201cLokomotiv\u201d stadionida bo\u2018lib o\u2018tadi. Bu haqda Osiyo
+  futbol konfederatsiyasiga tayanib Alisher Nikimbayev xabar berdi.\\nMa\u2019lumot
+  uchun Eron va Saudiya Arabistoni jamoalari 2016-yilning yanvarida yuzaga kelgan
+  siyosiy mojaro sabab besh yildan buyon o\u2018zaro o\u2018yinlarni neytral maydonda
+  o\u2018tkazishga majbur bo\u2018lmoqda.\\nMazkur mamlakatlar klublari o\u2018rtasidagi
+  qarama-qarshilik O\u2018zbekistonda ilk bor o\u2018tkaziladi. Bunga qadar jamoalar
+  faqat arab mamlakatlarida o\u2018yin o\u2018tkazgan.\"", "\"\u00c0\u00f0\u00f5\u00e8\u00e2
+  \u00f4\u00e0\u00e9\u00eb\u00ee\u00e2\\nDarsning maqsadi:\\nTa\u2019limiy maqsadi:
+  Abdulla Oripovning she\u2019riyati orqali o\u2019zbek adabiyotida komil inson tushunchalari
+  hamda ruhiy iztiroblari to\u2019g\u2019risida ma\u2019lumotlar berish.\\nTarbiyaviy
+  maqsadi: mavzuni o\u2019rgatish orqali o\u2019quvchilarda ona vatanga hamda ona
+  tiliga muhabbat, axloqan poklik tuyg\u2019ularini tarbiyalash;\\nadib asarlarini
+  sevib o\u2019rganish va uning ijodiga hurmat ruhida tarbiyalash.\\nRivojlantiruvchi
+  maqsadi: O\u2019quvchilarning mustaqil bilim olish, malaka va ko\u2019nikmalarini
+  shakllantirish;\\naqliy, hissiy, ruhiy xususiyatlarini o\u2019stirish;\"", "\"Shavkat
+  Mirziyoyev: \u00abHech kim OAVning qonuniy faoliyatiga tazyiq o\u2018tkazmaydi\u00bb\\nBugun
+  7 dekabr kuni \u00abO\u2018zbekiston\u00bb xalqaro anjumanlar saroyida O\u2018zbekiston
+  Respublikasi Konstitutsiyasi qabul qilinganining 27 yilligiga bag\u2018ishlangan
+  tantanali yig\u2018ilish bo\u2018lib o\u2018tdi.\\nPrezident Shavkat Mirziyoyev
+  o\u2018z nutqida so\u2018nggi uch yilda erishilgan yutuqlardan biri sifatida mamlakatda
+  so\u2018z erkinligi va ochiqlik siyosati yo\u2018lga qo\u2018yilganini alohida tilga
+  oldi.\\nDavlat rahbari jurnalistlar va blogerlarning jamiyatdagi o\u2018rni haqida
+  gapirib, ularga aholi muammolari qonuniy hal etilishidagi faolligi uchun minnatdorchilik
+  bildirdi.\\nShuningdek, prezident davlat amaldorlarini ham, OAVni ham o\u2018zaro
+  hurmat asosida va xalq manfaatini birinchi o\u2018ringa qo\u2018ygan holda harakat
+  qilishga chorladi hamda so\u2018z erkinligi borasida siyosat qat\u2019iyligi, bu
+  siyosatdan ortga qaytish bo\u2018lmasligini ta\u2019kidladi.\\n\u00abO\u2018zbekistonda
+  hech kim OAVga tahdid qilmaydi va qonuniy faoliyatiga tazyiq o\u2018tkazmaydi\u00bb,
+  dedi prezident.\\n\u201cZamin\u201d yangiliklarini \u201cVkontakti\u201dda kuzatib
+  boring Facebook op\u049ba\u043b\u0438 aBTop\u0438\u0437a\u0446\u0438\u044f\\n\u041foceT\u0438Te\u043b\u0438,
+  Haxo\u0434\u044f\u0449\u0438ec\u044f B rpy\u043f\u043fe \u0413ocT\u0438, He MoryT
+  ocTaB\u043b\u044fTb koMMeHTap\u0438\u0438 k \u0434aHHo\u0439 \u043fy\u0431\u043b\u0438ka\u0446\u0438\u0438.\"",
+  "\"Arxipelag (orollar)\\nArxipelag, Gresiya arxipelagi \u2013 Egey dengizida, Bolqon
+  yarim oroldan Kichik Osiyo yarim orol qirg\u02bboqlarigacha cho\u02bbzilgan to\u02bbda-to\u02bbda
+  orollar (Shimoliy va Janubiy Sporadalar, Kikladlar, Evbeya, Xios, Lesbos, Krit va
+  boshqalar). Maydoni 20 ming km\u00b2. A. orollari uchlamchi davrda Egey dengizi
+  o\u02bbrnida bo\u02bblgan quruqlikning qoldiqlaridir. Barcha orollar tog\u02bb va
+  qirlardan iborat. Balandligi 2456 m gacha (Krit o.). Vulkanlar ot-ilib, tez-tez
+  zilzila bo\u02bblib turadi. Doim yashil o\u02bbrta dengiz o\u02bbsimliklari o\u02bbsadi.
+  Ahrlisi subtropik o\u02bbsimliklar yetishti-rish va baliq ovlash bilan shug\u02bbullanadi.\\nAdabiyotlar[tahrir
+  | manbasini tahrirlash]\\n- O\u02bbzME. Birinchi jild. Toshkent, 2000-yil\"", "\"Qimor
+  - bu juda mashhur o''z-o''zidan janr. Casino hayajoni kumush ekranga juda yaxshi
+  tarjima qilingan. Kazinolar dramatik, shov-shuvli va stressli joylardir, shuning
+  uchun ular mo''ynali komediyalardan tortib, aksiyalarga bag''ishlangan heist hikoyalarigacha
+  bo''lgan barcha filmlar uchun juda yaxshi. Bu erda eng yaxshi yangi kazino filmlaridan
+  o''ntasi bor.\\nCasino Royale\\nJeyms Bond franchayzasining yigirma birinchi qismi,
+  Casino Royale 2006 yilda chiqarilgan va Daniel Kreyg MI- 6. Taniqli xalqaro jinoyatchining
+  aloqalariga kirish uchun Bond yuqori darajadagi Texas Hold''em turniriga kirdi.
+  Film josusning jinoiy tarmoqni yo''q qilish paytida 10 million dollarni himoya qilish
+  harakatlarini aks ettiradi. Bu Buyuk Britaniyada 55,4 million funt sterling yig''ib
+  olgan Bond filmlari eng muvaffaqiyatli filmlaridan biri hisoblanadi.\\n2001 yilda
+  Ocean''s Eleven filmi chiqdi, shu nom bilan klassik Rat Pack-ning remeyki. Qayta
+  yuklash juda muvaffaqiyatli bo''lib, ikkita davomi va barcha ayollarning ajralishi
+  bilan amalga oshirildi. Film Las-Vegasdagi uchta eng yirik kazino haqida o''ylash
+  uchun puxta va jasoratli fitnaga asoslangan. Asrning tarixini bajarish uchun firibgarlar,
+  o''g''rilar, qimorbozlar va xavfsizlik bo''yicha mutaxassislar to''plami yollanadi
+  - va ba''zi hollarda majbur qilinadi. Unda ko''plab taniqli aktyorlar, jumladan
+  Jorj Kluni, Mett Deymon va Julia Roberts ishtirok etishadi.\\nMolli o''yinlari\\nAgar
+  siz hayotiy voqealarga qiziqsangiz, Molli ertagi - bu qiziqarli soat. Jessika Chasteyn
+  bosh rolni o''ynagan rejissyor Aaron Sorkin Molli Blyum haqida hikoya qiladi. 2000-yillarning
+  boshlarida Bloom katta er osti qimor klubining tashkilotchisi edi. Uning noqonuniy
+  o''yinlarida ko''plab taniqli shaxslar va badavlat shaxslar qatnashgan. Biroq, uning
+  o''yinlari mafiya va oxir-oqibat FQB e''tiboriga tushdi. Molly''s Game bu ajoyib
+  qizning notinch hayoti haqida hikoya qiladi - poker xonasidan sud zaligacha.\\nRain
+  Man\\nHar bir kartani olti qavatli yuklashda sanab va yodlab oladigan odamni tasavvur
+  qiling. Dustin Xofmanning otistik erkak Raymond Babbitt aynan shu qobiliyatga ega.
+  Yomg''irli odam o''z oilasidan ajralgan otasidan meros olishni istagan, aksincha
+  akasini bolalar uyiga topshirgan yigit haqida hikoya qiladi. U Vegas kazinolarini
+  mag''lub etish uchun Raymondning mahoratidan foydalanib, qimor qarzlarini to''lash
+  rejasini tuzadi. Tom Kruz ham ishtirok etgan klassik film juda yaxshi kutib olindi
+  va barcha kino tomoshabinlari ko''rishlari shart.\\nYulduzli urushlar: Oxirgi Jedi\\nTo''liq
+  aytganda, bu kazino filmi emas. Biroq, 2017 yilda \\\"Yulduzlar jangi\\\" seriyasida
+  hayratomuz kazino sayyorasi paydo bo''ldi. Filmning ba''zi sahnalari suratga olingan
+  Canto Bight - bu Yulduzli Urushlar olamidagi dabdabali Monte-Karlo shahri. Kantonika
+  sayyorasida joylashgan Canto Bight elita uchun ajoyib, jozibali markazdir. U filmlar
+  seriyasidagi boshqa joylardan ancha farq qiladi, ammo franchayzing muxlislari tomonidan
+  juda yaxshi kutib olindi, chunki u \\\"Yulduzlar jangi\\\" tajribasiga haqiqiy chuqurlik
+  qo''shadi.\\n21\\nHaqiqiy voqealar asosida , Blackjack 21 - bu jamoatchilik tomonidan
+  yaxshi qabul qilingan zamonaviy, ayyor triller. U Jim Styurgz, Lourens Fishburne
+  va Kevin Spacey yulduzlarida rol o''ynagan va Las-Vegasdagi Planet Hollywood va
+  Hard Rock Casino kabi yirik kazinolarda suratga olingan. Filmda MIT talabalarining
+  bir guruhi o''zlarining professori boshchiligidagi kartalarni hisoblash guruhiga
+  qo''shilishlari va Vegasdagi jadvallardan ko''proq pul ishlashlari, ya''ni ular
+  shaxsiy g''azab bilan xavfsizlik xizmatining diqqatini jalb qilguncha.\\nQimorboz\\nKlassik
+  drama Qimorboz - bu ro''yxatdagi eng qorong''i filmlardan biri, ammo bu kino ko''rishi
+  kerak bo''lgan element. tarix. Unda qimor o''yinlari bo''yicha qarzlarni yig''ib,
+  kreditorlar tahdididan qochishga harakat qilgan Aksel Frid (Jeyms Kan) haqida hikoya
+  qilinadi. Qarzni to''lash uchun ingliz professori Frid talabani yaqinlashib kelayotgan
+  basketbol o''yinini tuzatishga ishontirishi kerak. 2014 yilda Mark Uolberg ishtirokidagi
+  remeyk ham suratga olindi, bu voqeani zamonaviyroq sharoitda keng bayon qiladi.\\n24
+  soatlik mashinalar\\nGarchi bu juda katta kassa bo''lmasa ham muvaffaqiyat The Rounds
+  baribir kult maqomini oldi va mashhur kazino filmiga aylandi. Mana Mett Deymon,
+  Jon Malkovich, Edvard Norton va Martin Landau kabi yulduzlar. Filmda ajoyib o''yinlarni
+  topish uchun sayohat qilgan bir nechta yuqori poker o''yinchilari tasvirlangan.
+  Ularni to''lash uchun qarzlari bor va ular tezda pul ishlashlari kerak. Damon con
+  Norton oldida halol qimor o''ynaydi va er-xotinlar o''rtasidagi tafovut kreditorlarga
+  qarzni to''lash uchun kurash bilan bir xil mojaroni keltirib chiqaradi.\\nCasino\\nRejissyor
+  Martin Skorseze va aktyor Robert De Niro o''rtasidagi ko''plab hamkorliklardan biri
+  sifatida, Casino Amerika jinoyatchilik eposlari muxlislari uchun ko''rish kerak
+  joy. Filmda Las-Vegas ijroiya qo''mitasi va Nevada mafiyasi bilan aloqasi bo''lgan
+  professional yuguruvchi va nogiron Frank Rozentalning hayoti haqida qo''pol fikr
+  yuritiladi. Filmda Rothshteyn ace De Nironing Vegas yer osti dunyosi bo''ylab sayohat
+  qilish paytida ko''tarilishi, tushishi va ko''tarilishi tasvirlangan.\\nRevolver
+  || | 135\\n\u041berka\u044f \u0431p\u0438TaHcka\u044f kp\u0438M\u0438Ha\u043bbHa\u044f
+  \u0434paMa \u00abPeBo\u043bbBep\u00bb Ha\u043f\u0438caHa \u0438\u0437BecTH\u044bM
+  pe\u0436\u0438ccepoM \u0413\u0438 P\u0438\u0447\u0438 (Guy Ritchie), TBop\u0447eck\u0438M
+  yMoM koToporo \u044fB\u043b\u044f\u044eTc\u044f Tp\u0438\u043b\u043bep\u044b Lock,
+  Stock and Two Smoking Barrels \u0438 Snatch. \u0417Be\u0437\u0434a peBo\u043bbBepa
+  \u0414\u0436e\u0439coH CTe\u0439TeM B po\u043b\u0438 \u0414\u0436e\u0439ka \u0413p\u0438Ha,
+  o\u043f\u044bTHoro, Ho HeoxoTHo \u0438rpa\u044e\u0449ero B kapT\u044b, koToporo
+  \u0437acTaB\u043b\u044f\u044eT \u0438rpaTb \u0437a MecTH\u044bx \u0431occoB \u0431aH\u0434.
+  \u0413p\u0438H Haxo\u0434\u0438Tc\u044f B T\u044epbMe, \u0438 \u0437a \u044dTo BpeM\u044f
+  oH y\u0437HaeT o \u044fko\u0431\u044b Ha\u0434e\u0436Ho\u0439 c\u0438cTeMe cTaBok
+  \u0431\u043baro\u0434ap\u044f \u0434ByM Ta\u0438HcTBeHH\u044bM \u0438 HeB\u0438\u0434\u0438M\u044bM
+  cokaMepH\u0438kaM. \u041foc\u043be cBoero ocBo\u0431o\u0436\u0434eH\u0438\u044f
+  \u0413p\u0438H \u043fepeHoc\u0438T c\u0438cTeMy B pea\u043bbH\u044b\u0439 M\u0438p
+  \u0438 \u0434o\u0431\u0438BaeTc\u044f yc\u043fexa, Ho \u043fo\u0437\u0436e oH cHoBa
+  BcTpeT\u0438Tc\u044f c \u044dT\u0438M\u0438 \u0434ByM\u044f \u0437HakoM\u044bM\u0438
+  B T\u044epbMe.\\nKo''proq kazino mavzusidagi filmlarni qidiryapsizmi?\\nHaven ''
+  t ro''yxatidagi sevimli kazino filmini ko''rdingizmi? Bizga sevimli badiiy filmlaringiz
+  haqida sharh qoldiring. Ushbu maqoladagi filmlar haqida ko''proq ma''lumotni IMDB
+  ma''lumotlar bazasida topishingiz mumkin. Ularning aksariyati Netflix, Hulu, Amazon
+  va boshqa obuna xizmatlari orqali uzatilishi mumkin. Do''stlaringiz va pivoingiz
+  bilan hatto kazino bazmini uyushtirishingiz va ushbu ro''yxatdagi eng yaxshi filmlarning
+  bir nechtasida ishlashingiz mumkin!\\nTheCasinoDB - bu kazino bilan bog''liq barcha
+  narsalar haqida bilish uchun boradigan joy. Casino o''yinlari va qimor turmush tarzi
+  bo''yicha boshqa qo''llanmalarimizni ko''rib chiqing. Onlayn va real hayotda kazinolarda
+  o''ynash uchun eng yaxshi joylarni kashf eting, yangi o''yin versiyalari va boshqa
+  narsalar bilan tanishing.\"", "\"O\u2019rganish uchun mutlaqo bepul Qimor o\u2019
+  betandreas nima yinlarini onlayn ko\u2019rsatish mahsulotlari\\nO\u2019yinning volatilligi
+  o\u2019rtacha, bu muntazam to\u2019lovlar bilan o\u2019rtacha to\u2019lovlarni anglatadi.
+  Secure Sockets Layer SSL protokollari bilan himoya qilingan bu kasino o\u2019yinlarining
+  sifati unchi uq folbin tomonidan ta\u2019minlab beriladi. Agar siz bu uyg\u2019onmoqchi
+  bo\u2019lsangiz, muhokama qiling. Shaxsiy chegaralar ichida qolish va hech qachon
+  yutqazishingiz mumkin bo\u2019lganidan ko\u2019proq pul tikmaslik kerak. Kontaktlarni
+  o\u2019rganish uchun quyidagi jadvalni ko\u2019rib chiqing. \u00abMeva \u00abslotlari
+  bu kazinolarda ishlatiladigan o\u2019yin avtomatlarining turlari va meva mavzusiga
+  ega, odatda olma, gilos, apelsin va boshqalar. Joriy takliflar uchun Mostbet Baxtli
+  raqamlaringizni toping: Onlayn kazino strategiyalari kazinosining aksiyalar sahifasini
+  tekshiring. Ular qimor o\u2019yingohi bilan bir nechta o\u2019yinlarni o\u2019rganish
+  uchun fiskalni amalga oshiradilar. Baccarat \u2013 bu o\u2019yinchilar va bankir
+  o\u2019rtasida o\u2019ynaladigan o\u2019yin bo\u2019lib, maqsad qaysi tomon \u2013
+  o\u2019yinchi yoki bankir \u2013 9 ga yaqin yuqoriroq karta qo\u2019liga ega bo\u2019lishini
+  bashorat qilishdir. Venta y reparaci\u00f3n de equipos de medici\u00f3n, diagn\u00f3stico
+  y herramientas especiales. Qulay to\u2019lov vositalari bilan kazinoga pul kiritish
+  sizning o\u2019yinlar mavjueda bo\u2019lishingizga yordam beradi.\\nO\u02bbzbekistondagi
+  eng yaxshi onlayn kazinolar 2024\\nBundan tashqari, Razerpay88 sanoatdagi qonuniyligini
+  ta\u2019minlash uchun qat\u2019iy qadamlar qo\u2019ydi. Boshqa har xil issiq butunlay
+  bepul slotlar Playtech dan sferik Prizefighter jekpoti bo\u2019ladi, bu erda siz
+  tarqoq belgilarni urganingizda sovrinlar guruhlari bo\u2019lgan har bir kishiga
+  afzallik beriladi. Malayziyadagi onlayn kazinolarning dinamik sohasida, BK8 mukammallik
+  mayoqi sifatida ajralib turadi. Ba\u2019zilar buni daromad va turizm manbai deb
+  biladi. Shaxsiy ma\u2019lumotlar va moliyaviy operatsiyalarni himoya qilish uchun
+  kazino qanday dasturlardan foydalanishini tekshiring. Ilovalar telefonda juda ko\u2019p
+  xotirani egallashi mumkin, ammo ba\u2019zi odamlar o\u2019zlarining qurilmalarida
+  ilova qulayligini afzal ko\u2019rishlari mumkin, chunki ularni istalgan vaqtda tinglash
+  mumkin. Agar bizning reytingimizdagi saytlardan birini tanlagsangiz, yuqorida aytib
+  o\u2019tilgan barcha talablarga javob beradiganini haqiqatan ham tasdiqlaymiz. Match
+  g\u2019olibi, Handikap va Total Goals kabi mashhur bozorlardan, shuningdek, ikkala
+  yarmida gol va birinchi gol kabi ixtisoslashgan bozorlardan tanlang. Masalan, siz
+  har bir o\u2019yin uchun statistikani topishingiz, jadvaldan foydalanishingiz va
+  Sevimlilar yorlig\u2019iga bir nechta tadbirlarni qo\u2019shishingiz mumkin. Siz
+  ushbu qurilmani internet kazino bonuslarini solishtirish uchun ham sinab ko\u2019rishingiz
+  mumkin. Hisoblangan dumaloq ko\u2019p sonli testlarni qayta yozadi va har qanday
+  o\u2019yin mashinasining normal daromadli maydoni haqida ajoyib bilim beradi. By
+  looking at the colorful screenshots, you can get an idea of the look, design, and
+  functionality of the 888starz app. Mostbet UZ kazinosida hisobingizni to\u02bbldirish
+  uchun quyidagi amallarni bajaring. Men omadli Joning osmonga uchayotganini ko\u2019rish
+  hayajonini yaxshi ko\u2019raman va mening yutuqlarim o\u2019sishini kutish shunchaki
+  hayajonli. Siz faqat ikki tikish va craps qoidalar asosiy bilim yordamida har qanday
+  onlayn craps o\u2019yin qo\u2019shilishingiz mumkin. Bu yerda, Mostbet da siz futbol
+  tikish uchun qulay bozorlarni topishingiz mumkin. Ha \u0444opyMax \u0438 B co\u0446\u0438a\u043bbH\u044bx
+  ceT\u044fx y\u0447acTH\u0438k\u0438 MoryT o\u0431\u0449aTbc\u044f c ko\u043b\u043beraM\u0438
+  \u0431eTTopaM\u0438 co Bcero M\u0438pa, o\u0431cy\u0436\u0434aTb \u043foc\u043be\u0434H\u0438e
+  \u0438rp\u044b \u0438 co\u0431\u044bT\u0438\u044f, a Tak\u0436e \u0431\u044bTb B
+  kypce HoBocTe\u0439 \u0438 ak\u0446\u0438\u0439 \u0431ykMekepa. Bundan tashqari,
+  yangi komissiya oxirgi kun o\u2019yinda qancha pul yo\u2019q qilganingizdan foydalanadi
+  \u2013 u qanchalik katta bo\u2019lsa, yangi foiz shunchalik yuqori bo\u2019ladi.
+  Biz uzliksiz ravishda ularni takomillashtirish va yangilanishlarni chiqarish ustida
+  ishlayapmiz. Bundan tashqari, saytda ba\u2019zi sport tadbirlari mavjud bo\u2019lib,
+  foydalanuvchilarga o\u2019yinlarni kuzatish va joriy vaziyatdan kelib chiqib, tikish
+  qarorlarini qabul qilish imkonini beradi. Ha, siz Android qurilmalarida bepul slot
+  o\u02bbynashingiz mumkin, chunki barcha provayderlar har qanday Android qurilmasiga
+  mos keladigan mobil formatda o\u02bbyinlar yaratadi. Shuningdek, ko\u2019p kazinolar
+  bonusli Xush Kelibsiz paketini taklif qiladi, bu sohadagi mukofotlar va rejalashtirilgan
+  aktsiyalar uchun qo\u2019shimcha imkoniyat beradi. RNG tasodifiy raqamlarni ishlab
+  chiqaruvchi va bu barcha onlayn kazinolar o\u2019z o\u2019yinlarini iloji boricha
+  adolatli qilish uchun foydalanadigan texnologiya. Here\u2019s how to use it. Jonli
+  kazino bo\u02bblimi bo\u02bblishi. O\u2019yinlar tezlik bilan yuqorilarga chiqayotgan
+  va ularga qulay o\u2019yin to\u2019lov usullari taklif etiladigan mosbet. Glory
+  casino da pul olish bu o\u2019yinning eng muhim bosqichlaridan biri, chunki har
+  bir foydalanuvchi o\u2019z daromadlarini chiqarishni va yechib olishni xohlaydi.
+  Umuman olganda, jonli dilerlik kazinosini tanlash o\u2019yinchining atmosfera, ijtimoiy
+  o\u2019zaro ta\u2019sir, dilerning professionalligi, mavjud o\u2019yinlar va texnik
+  yordam sifati nuqtai nazaridan shaxsiy imtiyozlari va talablariga bog\u2019liq.
+  Ha, siz smartfon yoki planshet kabi mobil qurilmada bepul slotlarni o\u2019ynashingiz
+  mumkin. Shunga qaramay, uzluksiz tajribadan bahramand bo\u2019lish uchun har bir
+  reklama bilan birga keladigan shartlar va shartlar bilan tanishib chiqing.\\nO\u0431pa\u0449eH\u0438e
+  B c\u043by\u0436\u0431y \u043fo\u0434\u0434ep\u0436k\u0438\\nBoshqa slotlar qatorida
+  siz vivi casino turli provayderlarning slotlarida xush kelibsiz bonuslari va yutib
+  olingan mukofotlarni kutishingiz mumkin. O\u2019yinchilar dilerlik bilan raqobatlashadilar.
+  B Ha\u0448eM pe\u0439T\u0438Hre To\u043f 10 \u043by\u0447\u0448\u0438x oH\u043ba\u0439H
+  ka\u0437\u0438Ho Haxo\u0434\u0438Tc\u044f oH\u043ba\u0439H ka\u0437\u0438Ho, koTopoe
+  cTa\u043bo \u043by\u0447\u0448\u0438M B \u044dT\u0438x HoM\u0438Ha\u0446\u0438\u044fx.
+  Slotozal o\u2019yin muassasasining ishonchliligi masalasi, ayniqsa, yangi foydalanuvchilar
+  uchun katta ahamiyatga ega. Darhaqiqat, qimor o\u2019yinlaridan olingan yutuqlar
+  to\u2019liq soliqqa tortiladi. Bundan tashqari, onlayn sharhlarni ko\u2019rib chiqish
+  va mijozlar ehtiyojini qondirish bo\u2019yicha ko\u2019rsatmalarni boshlash yaxshi
+  fikr. Buning uchun quyidagi amallarni bajarish kifoya. Siz \u2013 bonus shartlari.
+  This means that every time you visit this website you will need to enable or disable
+  cookies again. Malayziyadagi onlayn qimor saytlari uchun bir nechta depozit usullari
+  milliy va xalqaro variantlarni o\u2019z ichiga oladi. Sberbank plastik pul yechib
+  olish 2021 yilda deyarli har bir yuridik virtual muassasa tomonidan taklif etiladi.
+  Ularni olish uchun haqiqiy pul uchun o\u2019ynash kifoya.\\nVIVI tizimiga kirishim
+  bilan bog\u02bbliq muammo nimada?\\nKey benefits of 888Starz: Sports and e sports
+  betting: Place a bet on your team in any type of sports or e sports. Mostbet litsenziyalangan
+  va tartibga solinadigan onlayn bukmekerlik kompaniyasi bo\u2019lganligi uchun unga
+  bemalol ishonsa bo\u2019ladi. 2023 yil fevral oyida u mahalliy to\u02bblov provayderlari
+  bilan hamkorlik o\u02bbrnatdi. Ushbu interaktiv kazino xavfsiz va ishonchli ekanligini
+  ta\u2019minlaydigan bir necha litsenziyagalar. Boc\u043fo\u043bb\u0437oBaB\u0448\u0438cb
+  \u043fp\u0438BeTcTBeHH\u044bM \u0431oHycoM, y\u0447acTBy\u044f B \u043focTo\u044fHH\u044bx
+  ak\u0446\u0438\u044fx \u0438 \u0438c\u043fo\u043bb\u0437y\u044f \u043fpoMoko\u0434\u044b,
+  B\u044b cMo\u0436eTe \u0437Ha\u0447\u0438Te\u043bbHo y\u043by\u0447\u0448\u0438Tb
+  cBo\u0439 o\u043f\u044bT. Ushbu veb saytlarning eng yaxshi qismi, albatta, mahalliy
+  valyutani Singapur dollari qo\u2019llab quvvatlash va Osiyodagi asosiy voqealarga
+  moslashtirilgan mavzuli bonuslar va aktsiyalar taqdim etishdir. Tegishli maydonga
+  miqdorni kiriting va taklifingizni tasdiqlang. Bu sayt juda mashhur bo\u2019lgan
+  va bu erda o\u2019yinchi sifatida ro\u2019yxatdan o\u2019tish imkoniyatiga ega bo\u2019lgan
+  foydalanuvchilar soni har kuni oshib turibdi. Ular kripto hamyonlari orqali ularga
+  kirishlari mumkin. Campos obrigat\u00f3rios s\u00e3o marcados com. Bu tushunchalar
+  1win foydalanuvchilari uchun ko\u2019plab imkoniyatlar taqdim etadi va saytda o\u2019yinlar
+  va qimorlar orqali hayotga yangi rang keltirishga yordam beradi. Ishtirokchilar
+  o\u2019yin mashinalari, black jack, black jack o\u2019ynashni boshlashlari va o\u2019yin
+  kulgi uchun ilon ko\u2019zlarini boshlashlari mumkin. Biroq, aksariyat o\u2019yinchilar
+  ruletning Evropa uslubida o\u2019ynab eng ko\u2019p pul yutib olishadi. Har bir
+  o\u2019yin uchun chiroyliq va taktikalarni tanlash juda muhim bor. Some gamers just
+  don\u2019t have the opportunity to download our 888Starz Apk. Ushbu maqolada qimor
+  muassasalari klassik qimor uylari bo\u2019lib ko\u2019rinadi, go\u2019yo hissa qo\u2019shuvchilar
+  aniq daromadli tikish o\u2019yinlariga olib keladi va ehtimol daromad olishni boshlaydi.
+  Os a\u00e7ores s\u00e3o hoje uma refer\u00eancia mundial no mergulho, com temperaturas
+  moderadas e a boa visibilidade das \u00e1guas cristalinas. Ushbu tanlovlardan foydalanish,
+  albatta, sizni salbiy tomonlardan himoya qiladi va to\u2019lov deyarli har doim
+  mos ravishda to\u2019lanishini ta\u2019minlaydi. Siz treyderlar bilan o\u2019yinlarni
+  kreditlashning har xil turlarini afzal ko\u2019rishingiz va tizimimizga ajoyib daromad
+  keltirishingiz mumkin. Litsenziyaga ega bo\u2019lmasa, shu ma\u2019noda faoliyat
+  yuritish noma\u2019qul bo\u2019lib hisoblanadi. Onlayn slotlarda ishtirok etishning
+  foydasi o\u2019yinchilarga yashash joyidan turib sevimli mashg\u2019ulotlariga ega
+  bo\u2019lishlariga yordam beradi. Mostbet qo\u02bbllab quvvatlash xizmati bilan
+  bog\u02bblanishingiz mumkin bo\u02bblgan ba\u02bczi usullar quyida keltirilgan.
+  Tekshirishga arziydi. Agar g\u2019alaba yoki mag\u2019lubiyat bo\u2019lishidan qat\u2019iy
+  nazar, cheklovdan oshib ketgandan so\u2019ng, siz o\u2019yinni tark etishingiz kerak.
+  Tug\u2019ilgan bikinining bir turi bolgan Pin Up kazino O\u2019zbekistonda o\u2019ziga
+  hammayu gizitli yugar o\u2019yinchilar talab qiladi. Push bildirishnomalar yordamida
+  siz yangi o\u2019yinlar, bonuslar va boshqa kazino yangiliklaridan xabardor bo\u2019lishingiz
+  mumkin. Bu asosan bukmekerlik, ya\u2019ni pul tikish to\u2019g\u2019risida. Birinchi
+  narsa, kazinoning ishonchliligi hisobga olinadi. Casino yutuqlaringizni talab qiling
+  InstantPay 1 5 daqiqa ichida. The Genting Casino va SkyCasino Malayziyadagi yagona
+  vakolatli kazinolardir.\\n2 qadam: Hisobingizni moliyalashtiring\\nHech qanday kutilmagan
+  hodisalarga yo\u2019l qo\u2019ymaslik uchun har qanday bonuslar yoki aktsiyalar
+  bo\u2019yicha nozik nashrni o\u2019qib chiqing. 888starz o\u0444\u0438\u0446\u0438a\u043bbHoe
+  Mo\u0431\u0438\u043bbHoe \u043fp\u0438\u043bo\u0436eH\u0438e \u0434\u043b\u044f
+  Android, \u043fpe\u0434ocTaB\u043b\u044feMoe HoBo\u0439 \u0431ykMekepcko\u0439 koM\u043faH\u0438e\u0439,
+  koTopa\u044f \u043fpe\u0434\u043baraeT cBo\u0438M k\u043b\u0438eHTaM oT\u043b\u0438\u0447H\u044be
+  ko\u044d\u0444\u0444\u0438\u0446\u0438eHT\u044b, \u0431o\u043bb\u0448oe ko\u043b\u0438\u0447ecTBo
+  pa\u0437\u043b\u0438\u0447H\u044bx \u0431oHycH\u044bx \u043fpe\u0434\u043bo\u0436eH\u0438\u0439,
+  a Tak\u0436e \u0434e\u0439cTB\u0438Te\u043bbHo \u0431\u044bcTp\u044be B\u044b\u043f\u043baT\u044b.
+  Ba\u2019zi foydalanuvchilar real 3D grafika va animatsiyalarni afzal ko\u2019radi,
+  boshqalari esa tez va oddiy o\u2019yinni hech qanday qiyinchiliksiz qadrlaydi. Agar
+  sizga kazino etishmayotgan bo\u2019lsa, bu erda ro\u2019yxatga olish kerak deb o\u2019ylaysiz,
+  bizga xabar bering. Bonuslarni olishda umumiy qoida, ro\u2019yxatdan o\u2019tgan
+  paytingizdan keyin beriladi. Shuningdek, promo kodlar haqidagi ma\u02bclumotlar
+  chop etiladigan Mostbet rasmiy ijtimoiy tarmoqlarini kuzatib borishingizni maslahat
+  beramiz. Bu, o\u2019yinchiga xavfsiz va muvaffaqiyatli bir o\u2019yin tajribasi
+  yaratish maqsadida edi. 1win bu eng yaxshi va eng qulay, men uni hammaga tavsiya
+  qilaman. Ko\u2019proq ma\u2019lumot olish: Maxim88 Malaysia sharhi: xususiyatlar
+  va bonuslarni o\u2019rganish. Har bir kazinoda va har bir o\u2019yinda minimal va
+  maksimal miqdorni tekshiring. Aniq tanlov qilishda sizga yordam berish uchun biz
+  mamlakatdagi eng mashhur bukmekerlarni sinab ko\u2019rdik. Ularning ajoyib grafikasi
+  va immerie o\u2019yinlari bilan siz haqiqiy kazinoda ekanligingizni his qilasiz.
+  Mobil ilovaga kelsak, uni blokirovka qilish mumkin emas, shuning uchun saytning
+  funksiyasidan istalgan vaqtda va barqaror Internet aloqasi mavjud bo\u2019lgan har
+  qanday joyda foydalanishingiz mumkin. Ushbu maqolada kodlar siz tikishingiz kerak
+  bo\u2019lgan eng kam oqimni yoki ma\u2019lum bir bonusga ega bo\u2019lishingiz uchun
+  to\u2019liq oqimni o\u2019z ichiga oladi. The website looks the same as the one
+  used on PC, everything is there, there are no limitations, and you can easily play
+  your favourite games.\\nMablag\u2019ni chiqarib olish\\nFoydalanuvchilar katta o\u2019yinlar
+  to\u2019plamidan foydalanib, bo\u2019sh vaqtlarini qiziqarli o\u2019tkazishga taklif
+  qilinadi. O\u2019yinchilar, shuningdek, platformadan foydalanish qulayligini, yutuqni
+  saqlash va olishning turli usullari mavjudligini va mijozlarga xizmat ko\u2019rsatish
+  sifatini hisobga olishlari mumkin. 288 RM gacha bo\u2019lgan 2,880% xush kelibsiz
+  bonusi. Tpe\u0431yeMa\u044f Bepc\u0438\u044f Android. Powered by WordPress and Designed
+  by Bizberg Themes. \u041fp\u0438cTy\u043fa\u0439Te k \u0434e\u0439cTB\u0438\u044fM
+  c \u043foMo\u0449b\u044e \u044dT\u0438x \u043fpocT\u044bx, Ho kpa\u0439He Ba\u0436H\u044bx
+  MaHeBpoB. Shu bilan birga, ishonchli onlayn qimor uylari eCOGRA paytida sizning
+  sobiq RNG laringizni butun dunyo bo\u2019ylab yaxshi biznes bilan yashirincha tasdiqlaydi.
+  Shaxslar huquqiy oqibatlarni yodda tutishlari kerak. Eng yaxshi onlayn kazinolarning
+  tafsilotlariga sho\u2019ng\u2019ishdan oldin, nima uchun ishonchli platformalarni
+  tanlash juda muhimligini tushunish kerak. Ba\u2019zi yo\u2019llar qo\u2019shimcha
+  noyob kodlarga ega bo\u2019lishi mumkin, ular orasida eng kichik kiritilgan yoki
+  flahbacks chegarasi mavjud. Haqiqiy mablag\u2019lar uchun o\u2019ynashni boshlashdan
+  oldin, to\u2019ldirish majburiydir. Veb saytda ro\u2019yxatdan o\u2019tish yoki
+  VIVI mobil ilovasiga login bilan kirish bizga mijozlarimizning shaxsiy ma\u2019lumotlari
+  va mablag\u2019larini himoya qilish imkonini beradi. BoT kak \u043forpy\u0437\u0438Tbc\u044f
+  B \u0438rpy. Bu kazino sayti bonuslarni taqdim etishda mukammal natijalarga erishadi.\\nKak
+  o\u0431HoB\u0438Tb \u0438rpy \u0438\u043b\u0438 \u043fporpaMMy \u0431e\u0437 \u043foTep\u0438
+  \u043fporpecca/coxpaHeH\u0438\u044f?\\nOnlayn kazinolar o\u02bbz o\u02bbyinlari
+  uchun turli dasturiy platformalardan foydalanadi, bu esa o\u02bbyinning vizual,
+  grafik va umumiy tajribasiga ta\u02bcsir qilishi mumkin. Turli xil sport turlari
+  va tikish turlari bilan onlayn sport tikishda ustunlik qiladi. Faqat yangi o\u2019yinchilar
+  uchun. Tor\u0434a B\u044b B \u043fpaB\u0438\u043bbHoM MecTe. Saytning mosbet uz
+  com hisoblangan versiyasi internetdan oson va tezkor kirib, foydalanuvchilarlikni
+  qo\u2019llab quvvatlash va tezkor hisob kitobni ta\u2019minlaydi. M\u0113s Tevi
+  saprotam \u2013 esam gadu laik\u0101 izveidoju\u0161i neskait\u0101mus sp\u0113\u013cu
+  kontus. Ushbu jozibali variantni qo\u2019ldan boy bermang. Aviator o\u2019yinida
+  samolyotning ko\u2019tarilish koeffitsienti bilan pulingizni ko\u2019paytirishingiz
+  mumkin. O\u2019zbekistondagi kazinolar mas\u2019uliyatli qimordan harakat kilishlarini
+  ta\u2019minlash uchun juda muhimdir. Tasdiqlash va parolni tiklash uchun manzil:.
+  Albatta, bu ofisga siz hozirda bepul va hech qanday muammosiz foydalanishingiz mumkin
+  bo\u2019lgan mutlaqo qonuniy dasturni taklif qilish imkonini beradi. \u00abAviator\u00bb
+  mashhur onlayn kazino o\u2019yini bo\u2019lib, foydalanuvchilarga virtual aviatsiyaning
+  hayajonini va haqiqiy pulni yo\u2019qotish xavfisiz g\u2019alaba qozonish hayajonini
+  boshdan kechirish imkoniyatini taqdim etadi. Bonus kodlarini ro\u00b4yxatdan o\u00b4tishda
+  yoki kupondan foydalangan holda pul tikishda qo\u2019yish mumkin, buyerda promo
+  kodni qo\u2019yish uchun maxsus maydon field bordir.\\nGoogle Play Store 41 1 20\\nUlar
+  funksionallik va o\u2019yinni ta\u2019minlaydigan dasturiy ta\u2019minot bilan ta\u2019minlangan.
+  Onlayn poker Texas Hold\u2019em, Omaha, Stud va boshqalar kabi turli xil o\u02bbyin
+  variantlarini taklif etadi. Mostbet uz yoki mos bet nomi bilan rasmiylashtirilgan,
+  sizga to\u2019lovlarni oshirish uchun bonuslar beriladi. Bukmeker va eksklyuziv
+  reklama kodlarini tarqatadi. Ko\u2019p parametrlar mavjud, ularning umumiyligi 2022
+  2023 yillar uchun haqiqatan ham ishonchli qimor zalini tavsiflaydi. Bu shuni anglatadiki,
+  muassasa mijozlar, hamkorlar va nazorat qiluvchi organlar bilan hech qanday ziddiyatga
+  ega emas. Normativ idoralar ushbu himoyani noqonuniy qimor harakatlarini blokirovka
+  qilish va qimor o\u2019yin muhitini saqlash orqali amalga oshirishda muhim rol o\u2019ynaydi.
+  If you have problems with the registration process, please contact support. Shuning
+  uchun, agar siz ma\u2019lum bir slotga qiziqsangiz, ushbu o\u2019yin bepul rejimda
+  taklif qilingan yoki yo\u2019qligini bilish uchun tanlangan kazino yoki o\u2019yin
+  provayderining shartlarini o\u2019qib chiqishingiz tavsiya etiladi. Bu shuni anglatadiki,
+  uzoq muddatda kazinolar o\u02bbyinchilarga to\u02bblaganidan ko\u02bbra o\u02bbrtacha
+  ko\u02bbproq pul yutadi. Borib, ma\u2019lumotlar bilan batafsil tanishing. Aks holda,
+  sizning hisobingizni to\u2019ldirshda valyuta almashtirish uchun bir martalik daromad
+  solishtiriladi. Taniqli o\u2019yin provayderi Spribe 1Win da Plinko o\u2019yin mashinasini
+  ishlab chiqdi. Men $5 bonus kodi bo\u2019yicha ko\u2019rsatmalarga amal qildim va
+  u ushbu sahifada tasvirlanganidek ishladi. Ishni boshlashingizga yordam beradigan
+  bir necha qadamlar. O\u2019yinchilar o\u2019yinchi g\u2019alabasiga, bankirga yoki
+  durangga tikishlari mumkin. Check this information at the cash desk before making
+  a payment. 1xbet kazino ham onlayn o\u2019yinlar Aviator taklif qiladi. Ichki bonus
+  tizimini tahlil qilish va uning qanday ishlashini tushunish ayniqsa muhimdir. Bu
+  erda onlayn o\u2019yinlar, ehtimol, ba\u2019zi boshqa kazino o\u2019yinlari bilan
+  solishtirganda, RTP to\u2019lovlari yuqori bo\u2019lishi mumkin va ko\u2019plab
+  odamlar muvaffaqiyatga erishish imkoniyatlarini oshirish usullaridan foydalanishlari
+  mumkin. Canl\u0131 oyunlar\u0131n inki\u015faf\u00e7\u0131lar\u0131ndan olan Ezugi
+  d\u0259 Evolution markas\u0131n\u0131n bir hiss\u0259sidir. Marathonbet O\u2019zbekistonboshqacha
+  bo\u2019lib, u erda shuningdek web saytga kirishga yordam berish va bir qo\u2019llab
+  quvvatlash hududi mavjud. Sadoqat dasturi qisqa vaqt ichida saytda o\u2019ynagan
+  past darajadagi o\u2019yinchilarga bepul aylantirish va bonusli naqd pul beradi.
+  Quyida biz hozirgacha ko\u2019rib chiqqan kazinolarni ko\u2019rishingiz mumkin.\\nNo
+  Down Payment Benefit Codes: A Guide to Free Gambling Enterprise Bonus Offers\\nBunday
+  misol skretch kartalar. Variantlar PayPal, taniqli eWallet ga ega bo\u2019lib, siz
+  bir necha daqiqada daromadni tushirishingiz va tushirishingiz mumkin. The developers
+  have put them in a user friendly mobile interface for the greatest convenience and
+  made the app as quickly as possible when loading sections. 10,000 so\u2019m 3000,000
+  so\u2019m. Misol uchun, agar sizning tikishlaringiz 930 yoki undan ko\u2019p bo\u2019lsa,
+  siz 29 dan optimal miqdorga ega bo\u2019lgan ajoyib 1 foizli naqd pul olish huquqiga
+  ega bo\u2019lasiz. Ular tajribali o\u2019yinchilarga ham, yangi kelganlarga ham
+  o\u2019ynash uchun yaxshi kazino topishni osonlashtirmoqchi. Siz elektron hamyoningizni
+  kredit kartangiz yoki bank hisobingiz bilan to\u2019lashingiz va undan keyin onlayn
+  kazinolarda depozit qo\u2019yish uchun foydalanishingiz mumkin. Bepul o\u2019yin
+  mashinalarini onlayn o\u2019ynash bir nechta afzalliklarga ega bo\u2019lishi mumkin.
+  Agar diler yoki boshqa o\u02bbyinchilar bilan muloqot siz uchun muhim bo\u02bblsa,
+  jonli diler bilan kazino tanlash siz uchun yanada jozibador bo\u02bblishi mumkin.
+  Raqamli texnologiyalar va universal mobillik davrida ko\u2019plab foydalanuvchilar
+  smartfon va planshetlar orqali sportga pul tikishni, kazino o\u2019ynashni va tikish
+  saytlarining boshqa xizmatlaridan foydalanishni afzal ko\u2019rishadi. Bu PRNGdagi
+  sabzavotlarni namoyish etadi, bu esa insonga video slot qachon yuqori daromad keltirishiga
+  kafolat beradi. B ka\u0447ecTBe \u043fapTHepa B\u044b Mo\u0436eTe \u043fo\u043by\u0447aTb
+  \u0434oxo\u0434, \u043fp\u0438B\u043beka\u044f HoB\u044bx \u0438rpokoB B \u043fp\u0438\u043bo\u0436eH\u0438e,
+  a koHkypeHToc\u043foco\u0431Ha\u044f cTpykTypa koM\u0438cc\u0438oHH\u044bx \u0438
+  c\u043fe\u0446\u0438a\u043b\u0438\u0437\u0438poBaHHa\u044f \u043fo\u0434\u0434ep\u0436ka
+  o\u0431ec\u043fe\u0447aT Ha\u0438\u043by\u0447\u0448\u0438\u0439 pe\u0437y\u043bbTaT
+  Ba\u0448\u0438x yc\u0438\u043b\u0438\u0439. Aniq tanlov qilishda sizga yordam berish
+  uchun biz mamlakatdagi eng mashhur bukmekerlarni sinab ko\u2019rdik. U keng o\u2019yin
+  tanloviga va tajribali jonli dilerlarga ega. Agar siz ba\u2019zi mablag\u2019larni
+  yutib olsangiz, ularni haqiqiy pulga aylantirishingiz yoki keyinroq foydalanish
+  uchun balansda saqlashingiz mumkin. Bu shaxs va jamiyat uchun zararli. 1win rasmiy
+  veb sayti shunchaki yuqori, men kazinoda o\u2019ynayman va hech qachon yutqazmaganman.
+  Virtual mashinalarni video uyalar yoki 3D uyalar deb ham atash mumkin. Slot mashinalarini
+  bepul o\u2019ynash uchun bizning saytimizga tashrif buyuring, o\u2019zingizga yoqqan
+  slotni tanlang va o\u2019ynashni boshlang. Casino yangi o\u2019yinni sinab ko\u2019rish
+  uchun ushbu bonusni taklif qilishi mumkin yoki uni eshikdan kelgan har kimga berishi
+  mumkin.\"", "\"\u00abALLIANCE-LEASING\u00bb AJ\\nAksiyadorlari umumiy yig\u2019ilishi\\ntomonidan
+  2014 yil 03 oktabrda\\ntasdiqlangan 2-sonli bayonnoma\\n__________________________\\nKuzatuv
+  Kengashi raisi\\nYangayev R.K.\\nI. Umumiy qoidalar\\n1.1. Mazkur Nizom \u00abALLIANCE-LEASING\u00bb
+  aksiyadorlik jamiyati Kuzatuv kengashi (keyingi o\u2019rinlarda \u2013 Kuzatuv kengashi)
+  faoliyati va uni tashkil etish tartibini belgilovchi namunaviy me\u2019yorlar, uning
+  a\u2019zolarini saylash, shuningdek ularning huquq va majburiyatlarini o\u2019z
+  ichiga oladi.\\n1.2. Kuzatuv kengashi, aksiyadorlar umumiy yig\u2019ilishi vakolatiga
+  kiruvchi nizom va qonunlarga doir masalalarni hal etishdan tashqari, jamiyat faoliyati
+  ustidan umumiy bosqaruvni amalga oshiradi.\\n1.3. Kuzatuv kengashining tarkibi 5
+  kishidan iborat.\\nII. Kuzatuv kengashi vakolatlari\\n2.1. Kuzatuv kengashi vakolatlariga
+  quyidagilar kiradi:\\n2.2. Quyida ko\u2019rsatilgan bitimlar (huquqiy faoliyat turlari)
+  hatto ularning balans qiymati yoki sotib olish bahosi bitim tuzish (huquqiy faoliyatni
+  amalga oshirish) to\u2019g\u2019risidagi qaror qabul qilingan kunda jamiyat sof
+  aktivlari miqdorining 15 (o\u2019n besh) foizini tashkil etsa ham Jamiyat Kuzatuv
+  kengashi tomonidan ma\u2019qullangandan so\u2019ng tuziladi (amalga oshiriladi):\\n1)
+  Jamiyat uchun ko\u2019chmas mulkni sotib olish, o\u2019z ixtyoriga o\u2019tkazish,
+  garovga berish, foydalanish uchun taqdim etish bo\u2019yicha bitimlar tuzish;\\n2)
+  Savdo belgisi, patentlar va boshqa intelliktual mulk obyektlarini sotish/sotib olish,
+  o\u2019z ixtiyoriga o\u2019tkazish, foydalanish uchun taqdim etish bo\u2019yicha
+  bitimlar tuzish;\\n3) Qiymati 150 000 (yuz ellik ming) AQSH dollariga teng yoki
+  undan yuqori yoki unga teng miqdorda qarz va kredit shartnomalarini tuzish;\\n4)
+  Jamiyat kafil sifatida namoyon bo\u2019ladigan kafillik shartnomalarini tuzish;\\n5)
+  Uchinchi shaxslardan qiymati 50 000 (ellik ming) AQSH dollariga teng yoki undan
+  yuqori yoki unga teng miqdordagi emission qimmatli qo\u2019g\u2019ozlarni sotib
+  olish;\\n6) Oddiy sherikchilik shartnomalari (birgalikdagi faoliyat bo\u2019yicha
+  shartnomalar)ni tuzish;\\n7) Mol-mulkni ishonchli boshqarish bo\u2019yicha shartnomalarni
+  tuzish;\\n8) Mol-mulkni xo\u2019jalik shirkatlari va tashkilotlari ustav fondlariga
+  o\u2019tkazish (kiritish);\\n9) Qarzni o\u2019tkazish to\u2019g\u2019risidagi shartnomalarni
+  tuzish;\\n10) Talab qilish huquqini in\u2019om etish to\u2019g\u2019risidagi shartnomalarni
+  tuzish;\\n11) Boshqa tijorat tashkilotlarining aksiyalari (ustav fondlaridagi ulushlari)ni
+  sotish va sotib olish bo\u2019yicha bitimlar, ularni o\u2019z ixtiyoriga o\u2019tkazish
+  va chiqarish imkoniyati bilan bog\u2019liq bitimlarni tuzish;\\n12) Jamiyat tomonidan
+  qiymati 50 000 (ellik ming) AQSH dollariga teng yoki undan yuqori yoki unga teng
+  miqdordagi mol-mulkni sotish va sotib olish bo\u2019yicha bitimlar, ularni o\u2019z
+  ixtiyoriga o\u2019tkazish va chiqarish imkoniyati bilan bog\u2019liq bitimlarni
+  tuzish;\\n13) Qiymati 150 000 (yuz ellik ming) AQSH dollariga teng yoki undan yuqori
+  yoki unga teng miqdordagi Jamiyat mol-mulkini ijaraga berish yoki muddatli yoki
+  muddatsiz asosda foydalanish uchun berish bo\u2019yicha bitimlar tuzish;\\n14) Tinchlik
+  bitimlarini tuzish, xo\u2019jalik sudlari, hakamlar sudlari, shuningdek fuqarolik
+  ishlari bo\u2019yicha sudlarda da\u2019vo talablarini to\u2019liq yoki qisman tan
+  olish yoki da\u2019vo talablarini to\u2019liq yoki qisman rad qilish;\\n15) Imtiyozli
+  huquqlarni amalga oshirish yoki rad etish haqidagi har qanday dalillar bo\u2019yicha
+  qarorlar qabul qilish;\\n16) Jamiyatga qarashli boshqa yuridik shaxslar (ustav fondidagi
+  ulushiga ko\u2019ra)dagi aksiyalar bilan ovoz berish. Bunday holatda Bosh direktor
+  faqat Kuzatuv kengashi tomonidan qabul qilingan qarorga muvofiq ovoz berish yoki
+  ovoz berish uchun ishonchnoma berish huquqiga ega. Agar Bosh direktor ishonchnoma
+  bersa, mazkur ishonchnomaga Kuzatuv kengashining qarori ilova qilinishi zarur;\\n17)
+  To\u2019lovlarni amalga oshirish yoki qiymati 150 000 (yuz ellik ming) AQSH dollariga
+  teng yoki undan yuqori yoki unga teng miqdordagi bitimlarni tuzish;\\nShuningdek,
+  jamiyat qonun-qoidalari va nizomiga muvofiq Kuzatuv kengashi vakolatiga kiruvchi
+  boshqa masalalarni hal etish.\\nJamiyat Kuzatuv kengashi vakolatiga kiruvchi masalalar
+  jamiyat ijroiya organi muhokamasiga o\u2019tkazilishi mumkin emas.\\nIII. Kuzatuv
+  kengashi a\u2019zolarini saylash va tayinlash\\n3.1. Jamiyat Kuzatuv kengashi a\u2019zolari
+  jamiyat qonun-qoidalari va nizomida ko\u2019zda tutilgan tartibda bir yil muddatga
+  saylanadi.\\n3.2. Jamiyat Kuzatuv kengashi a\u2019zolari tarkibiga saylangan shaxslar
+  cheklanmagan miqdorda qayta saylanishlari mumkin.\\nSaylangan kuzatuv kengashi a\u2019zosi
+  vakolatlarini muddatidan oldin bekor qilish aksiyadorlar umumiy yig\u2019ilishi
+  qaroriga muvofiq amalga oshiriladi.\\n3.3. Jamiyat Bosh direktori Kuzatuv kengashiga
+  saylanishi mumkin emas. Aynan shu jamiyatda mehnat shartnomasi bo\u2019yicha faoliyat
+  yuritayotgan shaxslar jamiyat kuzatuv kengashi a\u2019zolari bo\u2019la olmaydilar.\\n3.4.
+  Jamiyat Kuzatuv kengashi tarkibiga saylanish uchun nomzodlarga qo\u2019yiladigan
+  talablar Aksiyadorlar umumiy yig\u2019ilishi nizomi yoki qaroriga muvofiq belgilanadi.\\n3.5.
+  Aksiyador o\u2019ziga tegishli aksiyalar bo\u2019yicha o\u2019z ovozini butunlay
+  bitta nomzod uchun berish yoki jamiyat Kuzatuv kengashi a\u2019zoligiga nomzod bo\u2019lgan
+  bir necha kishilar o\u2019rtasida taqsimlash huquqiga ega.\\n3.6. Eng ko\u2019p
+  ovoz to\u2019plagan nomzodlar Kuzatuv kengashi tarkibiga saylangan hisoblanadi.\\n3.7.
+  Jamiyat Kuzatuv kengashi a\u2019zolarini saylash kumulyativ ovoz berish yo\u2019li
+  bilan amalga oshiriladi.\\n3.8. Kumulyativ ovoz berish cho\u2019gida har bir aksiyadorga
+  tegishli ovozlar jamiyat Kuzatuv kengashiga saylanishi lozim bo\u2019lgan sahxslar
+  soniga ko\u2019paytiriladi va aksiyador shu tarzda olingan o\u2019z ovozlarini butunlay
+  bitta nomzodga berish yoki ularni ikki yoki undan ortiq nomzodlar o\u2019rtasida
+  taqsimlash huquqiga ega.\\nIV. Kuzatuv kengashi raisi\\n4.1. Jamiyat Kuzatuv kengashi
+  raisi saylangan (tayinlangan) Kuzatuv kengashi a\u2019zolari umumiy sonining ko\u2019pchlik
+  ovozi bilan Kuzatuv kengashi tarkibidagi a\u2019zolar tomonidan saylanadi.\\n4.2.
+  Jamiyat Kuzatuv kengashi Kuzatuv kengashi a\u2019zolari umumiy sonining ko\u2019pchlik
+  ovozi bilan o\u2019z raisini qaytadan saylash huquqiga ega.\\n4.3. Jamiyat Kuzatuv
+  kengashi raisi kengash ish faoliyatini tashkil qiladi, Kuzatuv kengashi majlislarini
+  chaqiradi va ularga raislik qiladi, majlislarda bayonnoma yuritilishini tahkil qiladi,
+  Aksiyadorlar umumiy yig\u2019ilishini ochib beradi va unga raislik qiladi.\\n4.4.
+  Jamiyat Kuzatuv kengashi raisi yo\u2019qligida uning vazifalarini Kuzatuv kengashi
+  a\u2019zolaridan biri amalga oshiradi.\\n4.5. Agar Kuzatuv kengashi qarori bilan
+  boshqa shaxsga yuklatilmagan bo\u2019lsa, Kuzatuv kengashi raisi jamiyat nomidan
+  Bosh direktor bilan shartnomalar imzolaydi.\\nV. Kuzatuv kengashi majlisi\\n5.1.
+  Jamiyat Kuzatuv kengashi majlisi Kuzatuv kengashi raisining shaxsiy tashabbusi,
+  Kuzatuv kengashi yoki taftish komissiyasi a\u2019zosi va jamiyat Bosh direktori
+  talabiga ko\u2019ra chaqiriladi.\\nKuzatuv kengashini chaqirish va o\u2019tkazish
+  tartibi Jamiyat Nizomiga muvofiq belgilanadi va u, odatda, har 6 (olti) oyda kamida
+  bir marta yig\u2019iladi.\\n5.2. Agar Kuzatuv kengashi majlisida Kuzatuv kengashi
+  saylangan (tayinlangan) a\u2019zolari sonining kamida 75 foizi ishtirok etsa \u2013
+  Kvorumga erishilgan hisoblanadi.\\n5.3. Agar Kuzatuv kengashi a\u2019zolari soni
+  nizomda ko\u2019zda tutilgan miqdorning yetmish besh foizidan kam bo\u2019lsa, jamiyat
+  kuzatuv kengashining yangi a\u2019zolarini saylash uchun navbatdan tashqari aksiyadorlar
+  umumiy yi\u2019g\u2019ilishini chaqirishi zarur. Kuzatuv kengashining qolgan a\u2019zolari
+  bunday navbatdan tashqari aksiyadorlar umumiy yi\u2019g\u2019ilishini chaqirish
+  to\u2019g\u2019risida qaror qabul qilish, shuningdek ijroiya organi rahbari vakolatlari
+  muddatdan oldin bekor qilingan hollarda uning vazifalarini vaqtinchalik bajaruvchi
+  shaxsni tayinlash huquqiga ega.\\n5.4. Jamiyat Kuzatuv kengashi majlisidagi qarorlar,
+  agar \u00abAksiyadorlik jamiyatlari va aksiyadorlar huquqlarini himoya qilish to\u2019g\u2019risida\u00bbgi
+  O\u2019zbekiston Respublikasi Qonunida boshqa holatlar ko\u2019zda tutilmagan bo\u2019lsa,
+  ishtirokchilarning ko\u2019pchik ovozi bilan qabul qilinadi. Jamiyat Kuzatuv kengashi
+  majlisidagi masalalar bo\u2019yicha qarorlar qabul qilish chog\u2019ida Kuzatuv
+  kengashining har bir a\u2019zosi bitta ovozga ega bo\u2019ladi.\\n5.5. Kuzatuv kengashi
+  bir a\u2019zosining o\u2019z ovozini bohqa Kuzatuv kengashi a\u2019zosiga o\u2019tkazishiga
+  yo\u2019l qo\u2019yilmaydi.\\n5.6. Jamiyat Kuzatuv kengashi majlisida bayonnoma
+  yuritiladi. Kuzatuv kengashi majlisi bayonnomasi majlis o\u2019tkazilgan sanadan
+  boshlab 10 kun mobaynida tuziladi.\\n5.7. Majlis bayonnomasida quyidagilar ko\u2019rsatiladi:\\n5.8.Jamiyat
+  Kuzatuv kengashi majlisi bayonnomasi majlisda ishtirok etayotgan jamiyat kuzatuv
+  kengashi a\u2019zolari tomonidan imzolanadi, ular bayonnomaning to\u2019g\u2019riligiga
+  mas\u2019ul hisoblanadilar.\\nVI. Kuzatuv kengashi a\u2019zolarining huquq va majburiyatlari\\n6.1.
+  Kuzatuv kengashi a\u2019zosi quyidagi huquqlarga ega:\\n6.2. Kuzatuv kengashi a\u2019zolari
+  o\u2019rtasida vazifalarni taqsimlash har bir Kuzatuv kengashi a\u2019zosi uchun
+  Kuzatuv kengashi raisi tomonidan muayyan ravishda amalga oshiriladi. Har bir Kuzatuv
+  kengashi a\u2019zosi uchun mukofot miqdori ish faoliyati samaradorligiga bog\u2019liq
+  holda belgilinadi.\\n6.3. Kuzatuv kengashi a\u2019zolari Kuzatuv kengashi tomonidan
+  u yoki bu qarorni qabul qilish uchun ta\u2019sir o\u2019tkazganlik uchun to\u2019g\u2019ridan-to\u2019g\u2019ri
+  yoki bilvosita mukofot olish huquqiga ega emas.\\n6.5. Kuzatuv kengashi a\u2019zolari
+  o\u2019z vazifalarini vijdonan, shuningdek aksiyadorlik jamiyati manfaatlari uchun
+  eng maqbul yo\u2019l bilan amalga oshirishlari zarur.\\nAfiilangan shaxs sifatida
+  Kuzatuv kengashi a\u2019zosi jamiyat tomonidan bitim amalga oshirilayotgan vaqtda
+  o\u2019zining affillanganligi to\u2019g\u2019risida jamiyatni xabardor qilishi va
+  bitimda ishtirok etayotgan shaxslar, bitim mavzusi, mazkur shartnomadagi muhim shartlar
+  bo\u2019yicha ma\u2019lumotlarni o\u2019z ichiga olgan bo\u2019lajak bitim to\u2019g\u2019risidagi
+  ma\u2019lumotlarni batafsil bayon qilgan holda yozma xabarnoma yuborishi zarur.\\n6.7.
+  Affilangan shaxslar bilan bitim tuzishga doir masalalarni o\u2019rganib chiqish,
+  ma\u2019qullash, tuzish va boshqa masalalar \u00abAksiyadorlik jamiyatlari va aksiyadorlar
+  huquqlarini himoya qilish to\u2019g\u2019risida\u00bbgi O\u2019zbekiston Respublikasi
+  Qonunining 9-bobiga muvofiq belgilanadi.\\nVII. Kuzatuv kengashi a\u2019zolari javobgarligi\\n7.1.
+  Jamiyat Kuzatuv kengashi a\u2019zolari qonunchilik va jamiyat nizomiga muvofiq aksiyadorlik
+  jamiyati oldida javobgar hisoblanadilar. Bunda jamiyatga zarar yetishiga sabab bo\u2019lgan
+  qarorlarni yoqlab yoki qarshi ovoz berishda ishtirok etmagan jamiyat Kuzatuv kengashi
+  a\u2019zolari javobgarlikdan ozod etiladi.\\n7.2. Jamiyatning jami bir foizidan
+  kam bo\u2019lmagan oddiy aksiyalariga ega jamiyat yoki aksiyador (aksiyadorlar)
+  Kuzatuv kengashi a\u2019zosi tomonidan jamiyatga yetkazilgan zararni qoplash to\u2019g\u2019risidagi
+  da\u2019vo bilan sudga murojaat etish huquqiga ega.\"", "\"Fransiya tashqi ishlar
+  vazirligining sobiq rahbari, sobiq Yevropa komissari va Yevropa Ittifoqining Brexit
+  bo\u2018yicha sobiq bosh muzokarachisi, 73 yoshli Mishel Barnye Fransiyaning yangi
+  bosh vaziri etib tayinlandi. Bu haqda Yelisey saroyi matbuot xizmati xabar berdi.\\nFransiya
+  prezidenti Emmanuel Makron Mishel Barnyega mamlakat va fransuz xalqiga xizmat qiladigan
+  birdam hukumatni tuzishni buyurdi, \u2014 deyiladi xabarda.\\n17-iyul kuni Fransiya
+  prezidenti Emmanuel Makron bosh vazir Gabriel Attalning iste\u2019fosini qabul qilgani,
+  ammo Attal va uning kabineti hukumatning yangi rahbari tayinlangunga qadar Parijdagi
+  Olimpiya o\u2018yinlari davomida o\u2018z lavozimlarida qolishi xabar berilgandi.\\nMa''lumot
+  o''rnida, Mishel Barnye 1951-yil 9-yanvarda La Tronsh shahrida tug\u2018ilgan. Parijdagi
+  Oliy tijorat maktabini tamomlagan. U 1978 yilda Deputatlar palatasiga saylangan
+  va 1993-yilgacha faoliyat yuritgan. 2004-yil 31-martdan 2005-yil 5- iyungacha Fransiya
+  tashqi ishlar vaziri bo\u2018lib ishlagan. 2010-yil 9-fevraldan ichki savdo bo''yicha
+  Yevropa komissari.\"", "\"Bugungi kunda dolzarb muammolardan biri sanalgan elektr
+  energiyasi nafaqat yurtimizda, qolaversa dunyo miqyosida aktual masalalardan biri
+  bo\u2018lib qolmoqda.\\nShu munosabat bilan O\u2018zbekiston respublikasi energetika
+  vazirligi minenergy.uz ijtimoiy tarmoqlar va televideniyeda energiyani tejash va
+  energiya samaradorligi mavzusini yoritish bo\u2018yicha \u00abSave Energy\u00bb
+  tanlovida (http://minenergy.uz/uz/lists/view/138) Muhammad al-Xorazmiy nomidagi
+  Toshkent axborot texnologiyalari universiteti \u201cMultimedia texnologiyalari\u201d
+  kafedrasining birinchi bosqich magistranti Jo\u2018rayev Suhrobjon Salohiddin o\u2018g\u2018li
+  (rahbar f.-m.f.d, professor Artikov T.U.) elektr energiyani tejamkorligi bo\u2018yicha
+  tayyorlagan \u201cElektrni tejang!\u201d deb nomlangan qisqa ijtimoiy videoroligi
+  bilan qatnashmoqda.\"", "\"2017 yilning 20 aprel kuni Buxoro davlat universiteti
+  professor-o\u2019qituvchilari tomonidan \u00abProfilaktika kuni\u00bbda Buxoro shahri,
+  Buxoro tumani, Jondor va Romitan tumanlarida ma\u2019naviy-ma\u2019rifiy va targ\u2019ibot
+  tadbirlari o\u2019tkazildi.\\nJumladan: Buxoro shahridagi BuxDU qoshidagi 1-son
+  akademik liseyda soat 12:00 da BuxDU Falsafa kafedrasi o\u2019qituvchilari Sh.B.Murtazoyev,
+  L.A.Haitov, kollej direktori X.G.Shukurov, direktor o\u2019rinbosarlari X.B.Qo\u2019ziyeva,
+  O.M.Qo\u2019ziyeva bilan \u201cInson shaxsi daxlsizdir\u201d mavzusida davra suhbati
+  tashkil qilindi. Tadbirda 46 nafardan ortiq o\u2019quvchilar va o\u2019qituvchilar
+  ishtirok etdilar.\\nBuxoro tumanidagi Galaosiyo qishloq xo\u2019jalik kasb-hunar
+  kollejida soat 10:00 da Buxoro tuman IIB xodimi G\u2019ulomov Uchqun, Fuqarolik
+  ishlari bo\u2019yicha Buxoro tumanlararo sudining raisi v.b. I.S.Djurayev, Buxoro
+  tuman mukammal himoya advokatlik byurosi advokati A.O.Raxmatova, BuxDU Filologiya
+  fakulteti \u201cFakultetlararo chet tillar\u201d kafedrasi o\u2019qituvchilari N.I.Axmedova,
+  G.X.Hamdamova ishtirokida \u201cYoshlarni tajovuzkor g\u2019oyalar, Internet orqali
+  radikallashuv tahdididan asrash\u201d mavzuida tadbir tashkil qilindi. Tadbirda
+  106 nafardan ortiq o\u2019quvchilar va o\u2019qituvchilar ishtirok etdilar.\\nJondor
+  tumanidagi Iqtisodiyot kollejida soat 9:30da \u201cFakultetlararo chet tillar\u201d
+  kafedrasi o\u2019qituvchisi N.U.Ochilova, Respublika ma\u2019naviyat va targ\u2019ibot
+  markazi Jondor tuman bo\u2019limi rahbari R.Raximova, Jondor tumani xokimligi A.T.Jo\u2019raev,
+  F.N.Dilmurodova kollej o\u2019qituvchi va o\u2019quvchilari bilan \u201cInson shaxsi
+  daxlsizdir\u201d mavzuida tadbir tashkil qilindi. Tadbirda 110 nafardan ortiq o\u2019quvchi
+  va o\u2019qituvchilar ishtirok etdilar.\\nRomitan tumanidagi qurilish va xizmat
+  ko\u2019rsatish kasb-hunar kollejida soat 11:00 da kollej direktori Sh.Norov, MMIBDO\u2019
+  Z.Qurbonov, tuman Ma\u2019naviyat-targ\u2019ibot bo\u2019lim boshlig\u2019i I.Nurullayev,
+  BuxDU Fizika-matematika fakulteti Matematika kafedrasi o\u2019qituvchisi Z.R.Bozorov,
+  tuman IIB Jinoyat qidiruv va uyushgan jinoyatchilikka qarshi kurashish bo\u2019limi
+  tezkor vakili katta leytenanti F.Kenjaev bilan \u201cInson shaxsi daxlsizdir\u201d
+  mavzuida davra suhbati o\u2019tkazildi. Tadbirda 220 nafardan ortiq o\u2019quvchi
+  va o\u2019qituvchilar ishtirok etdi.\"", "\"olamida Bitch Planet, Bosimining ko''tarilishi
+  (mos kelmaydigan) belgi o''zlarining patriarxal hukmdorlariga qarshi bo''lgan har
+  qanday odamni kamsitish va izolyatsiya qilish uchun ishlatiladi. Biroq, kuchli va
+  jasur odamlar buni mag''rur jangchining jangovar izi, ayollar orasidagi kuchning
+  ramzi deb bilishadi.\\nTafsilotlar: Har bir jozibasi qattiq kumush va qo''l bilan
+  emal qilingan. Jozibasi alohida o''lchamlari tepadan pastga 10.5 mm, kengligi 15
+  mm va eng qalin nuqtasida 2 mm. Sirg''alarning vazni 4.4 gramm (har biri 2.2 gramm).
+  Sirg''a taqinchoqlarining orqa tomoni naqshlangan va bizning ishlab chiqaruvchilarimizning
+  markasi, mualliflik huquqi va metall tarkibidagi sterling bilan muhrlangan. Kumush
+  kumush simlarni o''z ichiga oladi.\\nEmaye ranglari: Ametist, Qora Oniks, Karnelian,
+  Zumrad, Issiq Pushti (Yaltiroq), Yashil, Apelsin, Tovus (Lapis), Inju, Qalang Kulrang
+  (Gematit), Binafsha Yaltiroq, Yaqut yoki Safir, Sugilit (Olxo''ri), Yo''lbars Ko''zi
+  (Jigarrang) , Topaz, Turmalin (Zinniya/Pushti), Zirkon.\\nqadoqlash: Ushbu buyum
+  zargarlik qutisiga haqiqiyligi kartasi bilan qadoqlangan holda keladi.\\nishlab
+  chiqarish: Biz buyurtma asosida ishlab chiqarilgan kompaniyamiz. Buyurtma 5 kundan
+  10 ish kunigacha etkazib beriladi, agar buyum stokda bo''lmasa.\"", "\"Ushbu maqolada
+  jamiyat va tabiat o`rtasidagi oddiy munosabat shakli - kishilarni ekologik tizimni
+  buzmaydigan soddalashtirilgan hayot tarzi. Ekologik tizim (ekotizim) - tirik organizmlar
+  majmui va ularning yashash muhiti yig`indisi bo`lib, tirik organizmlar o`zaro va
+  atrof tabiiy muhit bilan uzviy aloqadorlik qonuniyati asosida bo`lgan holati. Mamlakat
+  iqtisodiyotini erkinlashtirish va islohotlarni chuqurlashtirish haqida gapirganimizda
+  iqtisodiyotimizning asosiy negizini tashkil etuvchi soha-qishloq xo\u2019jaligidagi
+  ishlarning ahvoli bizning diqqat markazimizda turmog\u2019i lozim.\"", "\"Tolibon
+  Afg\u2018onistonda uch yil avval hokimiyatni qo\u2018lga olgan. Kobul aeroportidan
+  olingan dahshatli tasvirlar hech qachon unutilmaydi. O''shandan beri mamlakatdagi
+  vaziyat keskin yomonlashdi - ayniqsa qizlar va ayollar uchun. Tolibon huquq himoyachilarini,
+  jumladan, namoyishchi, jurnalist yoki siyosiy faol ayollarni dushman deb biladi.\\nTolibon
+  Afg\u2018onistonda uch yil avval hokimiyatni qo\u2018lga olgan. Kobul aeroportidan
+  olingan dahshatli tasvirlar hech qachon unutilmaydi. O''shandan beri mamlakatdagi
+  vaziyat keskin yomonlashdi - ayniqsa qizlar va ayollar uchun.\\nTolibon inson huquqlari
+  himoyachilari, jumladan, namoyishchi ayollar, jurnalistlar yoki siyosiy faollarni
+  dushman deb biladi. Norozilik bildirganlar o''zboshimchalik bilan hibsga olinishi,
+  hibsga olinishi, qiynoqqa solinishi yoki boshqa shafqatsiz munosabatda bo''lishi
+  mumkin.\\nFederal hukumat ayniqsa tahdid ostida qolgan 22.000 ming afg''onni Germaniyaga
+  qabul qilishga va''da berdi. Biroq, hozirgacha u bor-yo\u2018g\u2018i 3.000 ta tasdiqnomani
+  (to\u2018g\u2018rirog\u2018i qabul tasdiqlovini?) berdi \u2013 Germaniyaga 581 kishi
+  yetib keldi. Federal hukumat kelgusi yil uchun federal qabul dasturi uchun pulni
+  qisqartirmoqchi.\\nFederal hukumatga: so''zingda turing va Tolibon tahdidiga uchragan
+  afg''onlarni himoya qiling!\\nBizning maqolamizda batafsil ma''lumotni topishingiz
+  mumkin: https://www.amnesty.de/pressemitteilung-deutschland-bundesaufnahmeprogramm-afghanistan-bap-nicht-einstellen\\n#Afg''oniston
+  #Federal yutilishdagi muvaffaqiyatsizlik #Tolibonni to''xtatib turish o''rniga amalga
+  oshirish\"", "\"Dmitriy Dmitriyevich Verderevskiy (8-iyul 1904-yil, Toshkent \u2013
+  30-oktyabr 1974-yil, Kishinyov) \u2013 fitopatologiya va o\u02bbsimliklar immuniteti
+  sohasidagi sovet olimi. Qishloq xo\u02bbjaligi fanlari doktori (1944), professor
+  (1945), Moldaviya SSR Fanlar akademiyasining muxbir a\u02bczosi (1970).\\nDmitriy
+  1904-yil 8-iyulda Toshkent shahrida tavallud topgan. Kontr-admiral Dmitriy Dmitriyevich
+  Verderevskiy va Yelena Mixaylovna Verderevskayaning o\u02bbg\u02bbli. 1930-yilda
+  Kiyev xalq ta\u02bclimi institutini tamomlagan. 1930\u20131944-yillarda ilmiy-pedagogik
+  ishlar bilan shug\u02bbullangan. 1944-yildan M. V. Frunze nomidagi Kishinyov qishloq
+  xo\u02bbjaligi instituti o\u02bbsimliklarni himoya qilish kafedrasi mudiri bo\u02bblib
+  faoliyat yuritgan[1].\\n1974-yil 30-oktyabrda Kishinyovda vafot etdi[2].\\nO\u02bbsimliklarning
+  yuqumli kasalliklarga qarshi mikroblarga qarshi immuniteti, fitopatogen zamburug\u02bblar
+  va bakteriyalarning parazitizm evolyutsiyasi nazariyasi, yuqumli kasalliklarga qarshi
+  immunitet uchun qishloq xo\u02bbjaligi o\u02bbsimliklarini ko\u02bbpaytirishning
+  zamonaviy tamoyillari yaratuvchisi. Olimlar Moldaviya SSRda inkubatsiya davrlariga
+  ko\u02bbra uzum chiriyotganiga qarshi kurash usulini hamda meva va uzum ko\u02bbchatlarini
+  kasallik va zararkunandalardan himoya qilish chora-tadbirlari tizimini ishlab chiqdilar.
+  Kasallik va fillokseraga chidamli yangi uzum navlarini bosqichma-bosqich tanlash
+  va olish usuli nazariy jihatdan asoslab berdi va amaliy jihatdan qo\u02bblladi.
+  U shogirdlari bilan birgalikda 14 xil nav yetishtirdi.\\nDmitriy Verderevskiy 250
+  ta ilmiy ishlar muallifi. Ularning orasida: \u201eMoldovada uzum kasalliklari va
+  ularga qarshi kurash choralari\u201c \u2013 Kishinyov, 1954-yil (hammuallif), \u201eO\u02bbsimliklarning
+  yuqumli kasalliklarga qarshi immuniteti\u201c \u2013 Kishinyov, 1968-yil, \u201eChiriyotgan
+  uzumlar\u201c \u2013 Kishinyov, 1970-yil (Voitovich E. A. bilan hammualliflikda).\\nMoldaviya
+  SSRda xizmat ko\u02bbrsatgan fan arbobi (1970). Oktyabr inqilobi va ikkita Mehnat
+  Qizil Bayroq ordeni bilan mukofotlangan.\\n- \u201eBep\u0434epeBck\u0438\u0439 \u0414M\u0438Tp\u0438\u0439
+  \u0414M\u0438Tp\u0438eB\u0438\u0447\u201c. Qaraldi: 2023-yil 2-noyabr.\\n- \u201eBep\u0434epeBck\u0438\u0439
+  \u0414M\u0438Tp\u0438\u0439 \u0414M\u0438Tp\u0438eB\u0438\u0447\u201c. Qaraldi:
+  2023-yil 2-noyabr.\"", "\"Dalolatnoma yozish namunasi\\nAktning shakli direktorning
+  ta'' sis qaroriga ega bo'' lishi kerak. Ishga kechikish xati namunasi. Ishga kechikish
+  harakati. \\\" _ _ _ _ \\\" _ _ _ _ _ _ 200_ _ \u2116. Sizning manzilingiz Shahar,
+  Shtat, pochta kodi Mobil telefoningiz Sizning elektron manzilingiz Sana Ism Sarlavha
+  Kompaniya Manzil Shahar, Shtat, pochta indeksi Doktor janob. Ism familiya: Mishel
+  Jonsonni maktabdagi beshinchi sinf o'' qituvchisi lavozimiga nomzod sifatida tavsiya
+  qilaman. Sent- Pol maktabining direktori sifatida men so'' nggi besh yil da. Fuqarolik
+  holati dalolatnomalarini yozish organlari faoliyatini takomillashtirish, ish sifatini
+  yaxshilash maqsadida hamda O'' zbekiston Respublikasi Vazirlar. See full list on
+  uz. Zend Avesta 01 O'' Zbek Gustav Theodor Fechner - Free ebook download as PDF
+  File (. pdf), Text File (. txt) or read book online for free.\\nVideo:Yozish dalolatnoma
+  namunasi\\nYozish dalolatnoma namunasi\\nZo'' r Yaxshi Yomon Yana ham yaxshilasa
+  bo'' ladi. Natijalarni ko'' rish. Dalolatnoma namunasi. Fuqarolik holatlari dalolatnomalarini
+  yozish ( FHDYo) organlari tomonidan aholiga beriladigan gerbli guvohnomalar shakli
+  va mazmunini \u201c Davlat tili haqida\u201d gi O\u2018 zbekiston Respublikasi Qonuniga
+  muvofiqlashtirish hamda FHDYo organlarini gerbli guvohnomalar bilan ta\u2019 minlashni
+  tartibga solish maqsadida Vazirlar Mahkamasi qaror qiladi:. Mar 29, \u00b7 Blanka
+  Tushuntirish- xati- va- bildirish- xati- namunasi. Blanka Ustama_ hujjat_ Blanka
+  Ustama- hujjati- namunasi1. Blanka 9 sinf Dalolatnoma. Blanka 9- sinf- imtihon-
+  bayonnoma- namunasi. Blanka bilidirishnoma- va- bildirgi. Blanka bilimlar- bellashuvi.\\nBlanka
+  buyruqdan- kochirma. Blanka dalolatnoma. Blanka eng yaxshi dars ishlanma. CHiziqcha
+  bilan yozish. Bosh harflar bilan yozish. Ko` chirish qoidalari. Ikki xil grafikaga
+  asoslangan imlo qoidalari ayrim o` rinlari bilan farqlanadi. Orfografiya grekcha
+  orphos ( to` g` ri) va grapho ( yozaman) so` zlaridan tashkil topgan bo` lib, to`
+  g` ri yozaman degan manoni bildiradi. Belgilar ma'' lumotnomasi namunasi. So'' ralgan
+  joyga; tegishli bo'' lgan shaxsga, Ko'' p yillar davomida Jane Doni turli xil imkoniyatlar
+  bilan tanishtirdim. So'' nggi bir necha yil mobaynida u mening qizimning otliq o''
+  qituvchisi edi. Bundan tashqari, u kichik biznesda mening hamkorim, u maqolalar
+  va veb- sayt tarkibini yozish va tahrir qilish uchun mas. Uzrli sabablar ( ishni
+  rasmiylashtirish uchun zarur bo'' lgan dalolatnoma yozuvi nusxalarining boshqa FHDYo
+  organlaridan, ichki ishlar organlari xulosasining. sudga iltimosnoma yozish uchun
+  qanday: namunasi.\\nsud tomonlar tashabbusi bilan jihozlangan mavjud. Bu har bir
+  ob'' ektiv ko'' rib olib kelishi kerak yuritish, maqsadida sudga murojaat qilish
+  huquqiga ega, degan ma'' noni anglatadi. ariza - aniq belgilangan maqsad uchun yozilgan
+  talab. sud murojaatlardan tamoyili. Chop etish uchun. \u201c \u040e\u0437cTaH\u0434apT\u201d
+  areHT\u043b\u0438r\u0438. ( \u04b3y\u0434y\u0434\u0438\u0439 CM\u0411 HoM\u0438).
+  TexH\u0438k per\u043baMeHT\u043bap \u00ebk\u0438 cTaH\u0434apT\u043bapH\u0438 Tek\u0448\u0438p\u0438\u0448
+  Ba Ha\u0437opaT \u049b\u0438\u043b\u0438\u0448 \u04b3aM\u0434a. Feb 07, \u00b7 Mazkur
+  Dalolatnomalar fuqarolik xrlati Dalolatnoma larini yozish idoralari va fuqarolarning
+  o\u02bbzini o\u02bbzi boshqarish organlari ( Fuqarolar yig\u02bbini) da yuritiladi.
+  Qonunda nazarda tutilgan tartibda tuzilgan hamda muayyan yuridik oqibatlarni yuzaga
+  keltiruvchi turli xil boshqa hujjatlar ham Dalolatnoma hisoblanadi. Agar siz o''
+  qituvchi uchun xat yozmoqchi bo'' lsangiz, o'' zingizning yozuvingizni yo'' naltirish
+  uchun ushbu namunadan foydalaning. Bir harf namunasi siz qanday kontent qo'' shishingiz
+  kerakligini va xatni qanday formatlashni hal qilishingizga yordam beradi.\\nMaktubingiz
+  namunalari o'' zingizning maktubingiz uchun ajoyib boshlanish nuqtasi bo'' lsa-
+  da, siz o'' zi. y\u0437\u0431ekck\u0438\u0439 \u044f\u0437\u044bk. \u042dTo caM\u044b
+  Mo\u043bo\u0434o\u0439 \u044f\u0437\u044bk \u0438 \u043fp\u0438 \u044dToc caM\u044b\u0439
+  \u0434peBH\u0438\u0439 \u044f\u0437\u044bk c cpe\u0434He\u0439 a\u0437\u0438\u0438.
+  Manfiy darajaga oid dastlabki tushuncha. Sizning brauzeringiz HTML5 videosini o\u2018
+  qimaydi. Darajalarni ko\u02bbpaytirish va bo\u02bblish ( butun darajalar) Sizning
+  brauzeringiz HTML5 videosini o\u2018 qimaydi. Ko\u02bbpaytma va bo\u02bblinmalarning
+  darajalari ( butun darajalar) Sizning brauzeringiz HTML5 videosini o\u2018 qimaydi.
+  Axborot xat namunasi. dalolatnoma b) farmoyish s) hisobot. Badiiy adabiyotlardan
+  shaxsiy xatga namuna yozish. Yangi mavzuni o\u2019 qib kelish. Foydalanilgan adabiyotlar
+  ro\u2019 yxati. Jalolov Toshkent 1974 yil. O\u2019 zbek tilida ish yuritish. Dalolatnoma
+  \u2014 muayyan shaklda tuzilgan rasmiy yozma yuridik hujjat.\\nDalolatnomalar: normativ
+  hujjatlar ( ular umumiy huquq me\u02bcyorlarini belgilaydi),. NAMUNA Alisher Navoiy
+  nomidagi Samarqand davlat universiteti tabiiy fanlar fakulteti talabalar kasaba
+  uyushmasi byurosi rasi S qog'' oz( blank) ga. OTM: Jizzax politexnika instituti
+  Fan: Davlat tilida ish yuritish Mavzu: Ma'' lumot- axborot hujjatlari: Dalolatnoma
+  O'' qituvchi: Soatova D. Dalolatnomani yozish uchun aynan nima sabab bo'' lganligi
+  qat'' iy nazar,. Aktning birlashtirilgan namunasi yo'' q, shuning uchun uni bepul
+  shaklda tuzish. Va bu erda bu xabar sizga yordam berishni xohlaydi. Bu post \u2013
+  bu o\u2019 zingiz yaratishingiz uchun shablon sifatida foydalanishingiz mumkin bo\u2019
+  lgan musiqa yaratish biznes - rejasining namunasi. Bu erda musiqa yozish va ishlab
+  chiqarish biznesini boshlash uchun biznes - reja namunasi. Imzo nomi: Tengsiz musiqiy
+  ijro. Kirish; qisqa Umumiy.\\nUZ \u00b7 Dalolatnoma namunasi - Standart. uz \u00b7
+  \u0417Ha\u0447eH\u0438e c\u043boBa \u0434a\u043bo\u043baTHoMa | y\u0437\u0431ekck\u0438\u0439
+  c\u043boBapb. dalolatnoma yozish namunasi uzbek tilida. Xodim xizmat majburiyatlarini
+  bajarish chog\u2018 ida tan jarohati olgan holat yuz berganda, bevosita uning rahbari
+  yoki o\u2018 rinbosari voqea joyiga zudlik bilan yetib borib, xolislar ishtirokida
+  ushbu Nizomga 3- ilovaga muvofiq xodimning olgan tan jarohati bo\u2018 yicha darhol
+  dalolatnoma ( keyingi o\u2018 rinlarda dalolatnoma deb ataladi) rasmiylashtiradi.
+  Bizlarkim quyida imzo chekib dalolatnoma tuzuvchilar Bog'' mfy raisi R. Abdullayeva,
+  o'' rinbosari D. Atajanovlar bo'' lib shu. Mazkur Dalolatnomalar fuqarolik xrlati
+  Dalolatnoma larini yozish idoralari va.\\n]\"", "\"Sindzo Abe: Yaponiya, AQSh, Xitoy,
+  Rossiya va Janubiy Koreya KXDRning ishiga javob choralari ko\u2018radi\\nYaponiya
+  AQSh, Rossiya, Xitoy va Janubiy Koreya bilan sa\u2019y-harakatlarini birlashtirib,
+  Shimoliy Koreyaga qat\u2019iy javob beradi. Bu haqda Yaponiya bosh vaziri Sindzo
+  Abe bayonot berdi, deb xabar qiladi \u201cTASS\u201d.\\n\u201cJanubiy Koreya, AQSh,
+  Rossiya va Xitoy va butun jahon hamjamiyati bilan kuchlarimizni birlashtirib, qat\u2019iy
+  javob beramiz\u201d, \u2014 ta\u2019kidladi davlat rahbari.\\nYaponiya yetakchisi
+  G7 sammitida KXDR muammosini kun tartibiga qo\u2018yib, uni jiddiy muhokama qilishni
+  hamda tegishli chora-tadbirlarni ishlab chiqishni rejalashtirayotganini alohida
+  ta\u2019kidladi.\\nBir muddat ilgari KXDR yana bir raketa sinovini o\u2018tkazgani
+  va raketa Yaponiya iqtisodiy zonasiga yetmay pastlagani xabar qilingan edi.\\n\u201cDaryo\u201d
+  yangiliklarini Facebook\u2019da kuzatib boring\""]'
 src_ngrams: '{"1": [[["mumkin."], 1660303], [["onlayn"], 1090541], [["yil"], 1069236],
   [["pul"], 1021433], [["katta"], 1016859]], "2": [[["uzbek tilida"], 426868], [["batafsil
   ma"], 323558], [["tarjima kino"], 285249], [["o\u2018zbekiston respublikasi"], 259087],
