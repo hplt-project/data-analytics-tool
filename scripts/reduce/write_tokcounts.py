@@ -17,7 +17,58 @@ def initialization():
     
     args = parser.parse_args()
     return args
+
+def calculate_median(freq_dist):
+    # First, get total number of sentences
+    total_count = sum(count for _, count in freq_dist)
     
+    if total_count == 0:
+        return 0
+    
+    # Sort by length (should already be sorted based on your example)
+    sorted_dist = sorted(freq_dist, key=lambda x: x[0])
+    
+    # Find median position(s)
+    if total_count % 2 == 1:
+        # Odd number of elements - find the single middle element
+        target_pos = total_count // 2
+        current_pos = 0
+        
+        for length, count in sorted_dist:
+            current_pos += count
+            if current_pos > target_pos:
+                return length
+    else:
+        # Even number of elements - average of two middle elements
+        target_pos1 = total_count // 2 - 1
+        target_pos2 = target_pos1 + 1
+        current_pos = 0
+        median_values = []
+        
+        for length, count in sorted_dist:
+            if current_pos <= target_pos1 < current_pos + count:
+                median_values.append(length)
+            if current_pos <= target_pos2 < current_pos + count:
+                median_values.append(length)
+                break
+            current_pos += count
+        
+        # If both median positions are in the same bucket
+        if len(median_values) == 1:
+            return median_values[0]
+        else:
+            return (median_values[0] + median_values[1]) / 2
+
+def calculate_mean(freq_dist):
+    total_sum = 0
+    total_count = 0
+    for length, count in freq_dist.items():
+        total_sum += length * count
+        total_count += count
+    
+    mean = total_sum / total_count if total_count > 0 else 0
+    return mean
+
 def main():    
     args = initialization()
     stats = {}
@@ -26,6 +77,7 @@ def main():
     src_tokens_list = []    
     src_unique_tokens_list = []    
     srcfile = args.srctokencountfile    
+    logging.error("Start reading")
     
     for line in srcfile:
         parts = line.split()
@@ -33,12 +85,13 @@ def main():
         src_tokens_list.append([int(parts[0]), int(parts[1])])
         src_unique_tokens_list.append([int(parts[0]), int(parts[2])])
     
+    logging.error("Computing stats")
     stats["src_unique_sents"] = str(src_unique_tokens_list) 
     stats["src_sent_tokens"] = str(src_tokens_list)
-    src_tokens_elements = sorted(src_sent_tokens.elements())
-    stats["src_sent_tokens_mean"] = round(statistics.mean(src_tokens_elements))
-    stats["src_sent_tokens_median"] = round(statistics.median(src_tokens_elements))
+    stats["src_sent_tokens_mean"] = round(calculate_mean(src_sent_tokens))
+    stats["src_sent_tokens_median"] = round(calculate_median(src_sent_tokens.items()))
 
+    logging.error("Computed stats")
 
     if args.trgtokencountfile != None:
         #is parallel
