@@ -49,12 +49,15 @@ NLTK_STOPWORDS_LANGS =  {"ar": "arabic",
                         "zh-hant": "chinese",
                         "zh-hans": "chinese",
                         "zho": "chinese",
-                        "cmn": "chinese"}
+                        "cmn": "chinese",
+                        "cmn_Hans": "chinese",
+                        "cmn_Hant": "chinese"}
                         
 NLTK_STOPWORDS_MAPS = {"azj": "az",  "ara": "ar", "ben": "bn", "cat": "ca", "dan": "da", "deu": "de", "ell": "el", "eng": "en", 
                         "spa": "es", "eus": "eu", "fin": "fi", "fra": "fr", "heb": "he", "hun": "hu", "ind": "id", "ita": "it", 
                         "kaz": "kk", "nob": "nb", "npi": "ne", "nld": "nl", "nno": "nn", "por": "pt", "ron": "ro", "rus": "ru",
-                        "slv": "sl", "swe": "sv", "tgk": "tg", "tur": "tr"}
+                        "slv": "sl", "swe": "sv", "tgk": "tg", "tur": "tr", 
+                        "aeb": "ar", "apc": "ar", "arb": "ar", "ars": "ar", "ary": "ar", "arz": "ar"}
 
 
 ASTUANA_STOPWORDS_LANGS = ["bg","cs", "fa", "ga", "gl", "hi", "hy", "ja",  "ko", "la",  "lv", "mr", "pl", "sk", "th", "uk", "ur"]
@@ -83,7 +86,7 @@ TXT_STOPWORDS_MAPS = {"khk": "mn", "abk": "ab", "bak": "ba", "bel": "be", "bam":
                         "nya": "ny", "oci": "oc", "pan": "pa", "pbt": "ps", "run": "rn", "kin": "rw", "san": "sa", "srd": "sc",
                         "snd": "sd", "sag": "sg", "sin": "si", "smo": "sm", "sna": "sn", "als": "sq", "srp": "sr", "ssw": "ss",
                         "sot": "st", "sun": "su", "tam": "ta", "tel": "te", "tuk": "tk", "tsn": "tn", "tso": "ts", "tat": "tt",
-                        "twi": "tw", "uig": "ug", "uzn": "uz", "wol": "wo", "xho": "xh", "yor": "yo"}
+                        "twi": "tw", "uig": "ug", "uzn": "uz", "wol": "wo", "xho": "xh", "yor": "yo", "zgh": "tzm"}
 
 KLPT_STOPWORDS_LANGS = ["ckb", "kmr"]
 

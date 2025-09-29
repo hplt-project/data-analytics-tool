@@ -44,7 +44,8 @@ NLTK_WORD_LANGS = ["ace", "als", "ar", "ayr", "az", "azb", "azj",  "ban", "be", 
                     "li", "lij", "ln", "lmo",  "ltg", "lua", "luo",  "lus", "mi", "min", "mn", "mos",
                     "ms", "nso", "nus", "ny", "oc", "pag", "pap", "pbt", "pes", "plt", "prs", "ps", "quy", "rn", "rw", "sc", "scn", "sd", "sg", "sm", "sn", "ss", "st", "su", "swh", "szl",
                     "taq", "tg", "tk", "tn", "tpi", "ts", "tt", "tw", "tzm", "tum", "uk", "ug", "umb", "vec", "vi", "war", "wo", "xh", "yo","zsm",  "zu",
-                    "grn", "gug", "kon", "ktu", "fas", "zgh"]
+                    "grn", "gug", "kon", "ktu", "fas", "zgh",
+                    "aeb", "apc", "arb", "ars", "ary", "arz"]
                     
 NLTK_PUNKT_LANGS = {"no": "norwegian",
                     "et": "estonian",
@@ -102,7 +103,7 @@ THAI_LANGS = ["th"]
 
 INDIC_LANGS = ["awa", "bho", "gu" ,"hi", "hne", "kn", "ks", "mag", "mai", "ml", "mr", "ne", "npi", "pa", "sa", "sat", "te", "ur"]
 
-PKUSEG_LANGS = ["zh", "zh-Hant", "zho", "cmn"]
+PKUSEG_LANGS = ["zh", "zh-Hant", "zho", "cmn", "cmn_Hans", "cmn_Hant"]
 
 HEBREW_LANGS = ["he", "iw", "ydd"]
 
