@@ -383,7 +383,7 @@ export default function Report({ date, report }) {
                         <span className={styles.percSpan}>
                           {" ("}
                           {(
-                            (report.src_unique_sents.length * 100) /
+                            (srcUniqueTokens && srcUniqueTokens.length * 100) /
                             report.sentence_pairs
                           ).toFixed(2)}{" "}
                           %)
@@ -457,7 +457,11 @@ export default function Report({ date, report }) {
               <DocumentSizes documentSizesObj={documentSizesObj} />
             </div>
             {report.docs_collections && (
-              <div className={styles.collectionsGraphPie}>
+              <div className={styles.collectionsGraphPie} style={
+                report.docs_collections
+                  ? { width: "30%", marginBottom: "40px" }
+                  : ""
+              }>
                 <CollectionsGraph
                   collection={report.docs_collections}
                   docs={true}

@@ -15,57 +15,70 @@ import styles from "@/styles/Home.module.css";
 import "react-widgets/styles.css";
 
 export default function Home({ fileNames }) {
-  const [report, setReport] = useState("");
-  const [date, setDate] = useState("");
-
-  const [status, setStatus] = useState("IDLE");
-
-  const [fileName, setFileName] = useState("");
-
   const router = useRouter();
 
-  async function getStats() {
-    setStatus("LOADING");
-    try {
-      const stats = await axios.get(`/api/getstats/${router.query.file}`);
+  const [report, setReport] = useState("");
+  const [date, setDate] = useState("");
+  const [status, setStatus] = useState("IDLE");
 
-      const statsData = stats.data;
-      if (!statsData) {
-        setStatus("FAILED");
-      }
-      if (statsData) {
-        setStatus("IDLE");
-      }
-
-      setReport(statsData.report);
-      setDate(statsData.date);
-    } catch (error) {
-      setStatus("FAILED");
-      console.log(error);
-    }
-  }
+  const file = router.isReady ? router.query.file : undefined;
 
   useEffect(() => {
-    const file = router.query.file;
+    if (!router.isReady) return;
+    if (!file || file === "file") return;
 
-    if (file !== "file") {
-      getStats();
-      setFileName(file);
-    }
-  }, [router.query]);
+    let cancelled = false;
+
+    (async () => {
+      setStatus("LOADING");
+      try {
+        const { data } = await axios.get(`/api/getstats/${encodeURIComponent(file)}`);
+        if (cancelled) return;
+        if (!data) {
+          setStatus("FAILED");
+          return;
+        }
+        setReport(data.report);
+        setDate(data.date);
+        setStatus("IDLE");
+      } catch (err) {
+        if (!cancelled) setStatus("FAILED");
+        console.error(err);
+      }
+    })();
+
+    return () => {
+      cancelled = true;
+    };
+  }, [router.isReady, file]);
+
+  const handleChange = (val) => {
+    const key = typeof val === "string" ? val : (val && val.originalName);
+    if (!key) return;
+    router.push(`/viewer/${encodeURIComponent(key)}`, undefined, {
+      shallow: true,
+      scroll: false,
+    });
+  };
+
+  const selected = file ?? null;
 
   return (
     <div className={styles.viewerContainer}>
       <Navbar />
+
       <div className={styles.dropdownContainer}>
         <p>Select a file</p>
         <div className={styles.flex}>
           <DropdownList
+            tabIndex={0}
             data={fileNames}
             textField="originalName"
-            value={fileName}
+            dataKey="originalName"
+            value={selected}
             placeholder="fao_Latn.yaml"
-            onChange={(e) => router.push(`/viewer/${e.originalName}`)}
+            onChange={handleChange}
+            filter={multipleFilter}
             renderListItem={({ item }) => (
               <p className={styles.listItem}>
                 <strong>
@@ -100,7 +113,6 @@ export default function Home({ fileNames }) {
                 </div>
               </p>
             )}
-            filter={multipleFilter}
           />
         </div>
       </div>
@@ -121,7 +133,7 @@ export default function Home({ fileNames }) {
         )}
         {status === "FAILED" && (
           <div className={styles.failedWarning}>
-            Something went wrong with the requested file, please try again.
+            The requested file does not exist.
           </div>
         )}
         {status !== "LOADING" && (
