@@ -9,7 +9,7 @@ set -euo pipefail
 
 #OUT: a yaml file
 
-set -x
+set +x
 yaml_file_path=$1
 srclang=$2
 corpusname=$3
@@ -51,7 +51,7 @@ if [ -f $filename.rlcounts ] ; then
 fi	
 
 #Samples
-if [ -f $filename.rlcounts ] ; then
+if [ -f $filename.sample ] ; then
 	python3 /work/scripts/reduce/write_sample.py $filename.sample $yaml_file_path "docs"
 fi
 

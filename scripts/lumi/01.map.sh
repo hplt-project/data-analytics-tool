@@ -20,22 +20,48 @@ JOBS_LOW=$((JOBS/3*2))
 JOBS_LOW=$(($JOBS_LOW>1 ? $JOBS_LOW : 1))
 echo Running with $JOBS_LOW cpus for high memory processes >&2
 
+if [ -f $outfile.langids.zst ] && [ $(du $outfile.langids.zst |cut -f1) -gt 13 ]; then
+    echo "Task already completed, skipping..." >&2
+    exit 0
+fi
+
+echo "##### Read samples #####" >&2
+zstdcat $inputfile \
+| shuf -n20 \
+| jq .text \
+| zstdmt \
+>$outfile.sample.zst
+
 echo "##### Read documents #####" >&2
 zstdcat $inputfile \
 | parallel --pipe -j$JOBS_LOW --block 20M --halt now,fail=1 \
     python3 /work/scripts/readdocuments.py $srclang --format $format \
-| zstdmt \
+| zstdmt -10 \
 >$outfile.docproc.zst \
 || {
     echo "Error in pipeline: ${PIPESTATUS[@]}" >&2
     exit 1
 }
 
+echo "#### Read registerlabels #####" >&2
+has_registers=$(zstdcat $inputfile | tail -1 | jq '."web-register" != null')
+echo "Has registers: $has_registers" >&2
+if [ "$format" == "hplt-v3" ] && [ "$has_registers" == "true" ]; then
+    zstdcat $inputfile \
+    | python3 /work/scripts/reuse-registerlabels.py \
+    | zstdmt \
+    >$outfile.rl.zst \
+    || {
+        echo "Error in pipeline: ${PIPESTATUS[@]}" >&2
+        exit 1
+    }
+fi
+
 echo "##### Read corpus #####" >&2
 zstdcat $outfile.docproc.zst \
 | cut -f 7 \
 | awk 'length() == 0{next;} {print;}' \
-| zstdmt \
+| zstdmt -10 \
 > $outfile.tsv.zst
 
 if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
@@ -44,7 +70,7 @@ fi
 zstdcat $outfile.tsv.zst \
 | parallel --pipe -j$JOBS_LOW --block 10M --halt now,fail=1 \
     python3 /work/scripts/readcorpus_mono.py $srclang --quiet \
-| zstdmt \
+| zstdmt -10 \
 >$outfile.proc.zst \
 || {
     echo "Error in pipeline: ${PIPESTATUS[@]}" >&2
@@ -77,10 +103,11 @@ zstdcat $outfile.tsv.zst \
     fastspell --aggr $srclang --quiet \
 | cut -f2 \
 | zstdmt \
->$outfile.langids.zst \
+>$outfile.langids.zst.tmp \
 || {
     echo "Error in pipeline: ${PIPESTATUS[@]}" >&2
     exit 1
 }
+mv $outfile.langids.zst.tmp $outfile.langids.zst
 
 rm $outfile.tsv.zst

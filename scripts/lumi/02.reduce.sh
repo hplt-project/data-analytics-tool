@@ -19,6 +19,10 @@ reduce_hardrules() {
     zstd -T$JOBS
 }
 
+reduce_doc_sample() {
+    shuf -n20
+}
+
 reduce_doc_volumes() {
     cut -f 1 \
     | awk -F "\t" 'length($1) == 0{next;}{sum0+=1; sum1+=$1;} END {print sum0 "\t" sum1 }' \
@@ -100,6 +104,16 @@ reduce_doc_tlds() {
     }
 }
 
+reduce_doc_registerlabels() {
+    LC_ALL=C sort $SORT_MEM --compress-program=zstd --parallel $JOBS \
+    | uniq -c \
+    | LC_ALL=C sort -nr $SORT_MEM --compress-program=zstd --parallel $JOBS \
+    || {
+        echo "Error in pipeline: ${PIPESTATUS[@]}" >&2
+        exit 1
+    }
+}
+
 reduce_segs_langs() {
     LC_ALL=C sort --parallel $JOBS $SORT_MEM --compress-program=zstd \
     | uniq -c \
@@ -173,6 +187,11 @@ choose_task() {
             export INPUT_SUFFIX=".hardrules.zst"
             export TASK_FUNC="reduce_hardrules"
             ;;
+        doc-sample)
+            export OUTPUT_FILE=$OUT_DIR/reduce.sample
+            export INPUT_SUFFIX=".sample.zst"
+            export TASK_FUNC="reduce_doc_sample"
+            ;;
         doc-volumes)
             export OUTPUT_FILE=$OUT_DIR/reduce.docvolumes
             export INPUT_SUFFIX=".docproc.zst"
@@ -207,6 +226,11 @@ choose_task() {
             export OUTPUT_FILE=$OUT_DIR/reduce.tlds
             export INPUT_SUFFIX=".docproc.zst"
             export TASK_FUNC="reduce_doc_tlds"
+            ;;
+        doc-registerlabels)
+            export OUTPUT_FILE=$OUT_DIR/reduce.rlcounts
+            export INPUT_SUFFIX=".rl.zst"
+            export TASK_FUNC="reduce_doc_registerlabels"
             ;;
         segs-langs)
             export OUTPUT_FILE=$OUT_DIR/reduce.srclangs
@@ -271,6 +295,19 @@ choose_task $reduce_task
 
 echo "Running task $TASK_FUNC $TASK_PARAMS" >&2
 echo "Using $JOBS cpus and $SORT_MEM mem" >&2
+if [ -f $OUTPUT_FILE ]; then
+    echo "Task already computed, skipping..." >&2
+    exit 0
+fi
+
+set +e
+if [ "$reduce_task" == "doc-registerlabels" ] \
+    && ! ls $OUT_DIR/*$INPUT_SUFFIX 2>/dev/null
+then
+    echo "No registerlabels found, skipping..." >&2
+    exit 0
+fi
+set -e
 
 for filename in $INPUT_FILES; do
     cat $OUT_DIR/$(basename $filename)$INPUT_SUFFIX

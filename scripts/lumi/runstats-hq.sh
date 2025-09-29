@@ -8,21 +8,23 @@ format=hplt-v3
 corpusname=hplt-v3-$lang3
 yaml_file_path=yamls-hplt-v3/$lang3.yaml
 work_dir=/scratch/project_465001890/zaragoza/data-analytics-processing
-input_files=/scratch/project_465001890/zaragoza/monotextor-processing/cleaned/$lang3/*.jsonl.zst
+#input_files=/scratch/project_465001890/zaragoza/monotextor-processing/bigs-samples/$lang3.jsonl.zst
+#input_files=/scratch/project_465001890/zaragoza/monotextor-processing/cleaned/$lang3/*.jsonl.zst
+input_files=/scratch/project_465001890/zaragoza/monotextor-processing/ungrouped/data.hplt-project.org/$lang3/*.jsonl.zst
 
 input_files=$(realpath $input_files)
 work_dir=$(realpath $work_dir)
-work_dir=$(mktemp -dp $work_dir)
+work_dir=$work_dir/$corpusname
 yaml_file_path=$(realpath $yaml_file_path)
 
 log_dir=./logs
 sort_tmp=$work_dir/tmp
 node_mem=224000
 mem_per_cpu=1750
-DEBUGFLAG=false
+DEBUGFLAG=true
 
 echo "Running on $work_dir" >&2
-mkdir -p $log_dir $sort_tmp
+mkdir -p $log_dir $sort_tmp $work_dir
 input_dir=$(dirname $input_files | tail -1)
 jobname=$lang-$corpusname
 echo $jobname >$work_dir/jobname
@@ -77,6 +79,7 @@ print-deps() {
 declare -A task_cpus
 task_cpus=(
     ["hardrules"]="8"
+    ["doc-sample"]="8"
     ["doc-volumes"]="8"
     ["doc-sents"]="all"
     ["doc-wds"]="all"
@@ -84,6 +87,7 @@ task_cpus=(
     ["doc-collections"]="all"
     ["doc-domains"]="all"
     ["doc-tlds"]="all"
+    ["doc-registerlabels"]="all"
     ["segs-langs"]="all"
     ["segs-volumes"]="8"
     ["segs-unique"]="all"
@@ -122,6 +126,9 @@ map_len=$((task_id-1))
 # print each task entry of job definition file
 for task in ${!task_cpus[@]};
 do
+    if [ "$task" == "doc-registerlabels" ] && [ "$format" != "hplt-v3" ]; then
+        continue
+    fi
     echo "[[task]]"
     echo "id = $task_id"
     singularity-command /work/scripts/lumi/02.reduce.sh $task
@@ -148,6 +155,7 @@ print-yaml-task() {
     singularity-command /work/scripts/lumi/03.write_yaml.sh $yaml_file_path $lang $corpusname $work_dir/reduce
     print-deps $dep_start $dep_end
     yaml-env
+    echo "crash_limit = 1"
     echo "[[task.request]]"
     echo 'resources = { "cpus" = "2", "mem" = "4000" }'
 }
