@@ -351,7 +351,7 @@ class CustomTokenizer:
         except Exception as ex:
             logging.error("Failed at tokenizing: " + sent)
             logging.error(ex)
-            return []
+            raise ex
     
 
     def getWarnings(self):
