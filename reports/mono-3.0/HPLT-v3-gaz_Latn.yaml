@@ -1,8 +1,7 @@
 corpus: hplt-v3-gaz_Latn
-srclang: om
-timestamp: 1758068416.6748657
+srclang: gaz
+timestamp: 1758657125.9125755
 warnings:
-- src_ngrams_om_nostopwords
 - src_warning_tok_nltk_wordpunct
 - src_fastspell
 docs_collections: '[["CC-MAIN-2020-05", 2647], ["CC-MAIN-2020-24", 2334], ["CC-MAIN-2020-10",
@@ -25,7 +24,8 @@ docs_collections: '[["CC-MAIN-2020-05", 2647], ["CC-MAIN-2020-24", 2334], ["CC-M
   ["wide5", 270], ["wide6", 252], ["CC-MAIN-2015-18", 128], ["CC-MAIN-2015-11", 92],
   ["CC-MAIN-2014-42", 92], ["wide2", 85], ["survey3", 85], ["CC-MAIN-2016-40", 63],
   ["CC-MAIN-2015-48", 46], ["CC-MAIN-2016-30", 45]]'
-docs_langs: '[[0.0, 63063]]'
+docs_langs: '[[0.0, 25], [0.1, 207], [0.2, 415], [0.3, 587], [0.4, 790], [0.5, 2256],
+  [0.6, 1826], [0.7, 4175], [0.8, 8732], [0.9, 10084], [1.0, 33966]]'
 docs_segments: '[[974, 1], [99, 13], [98, 17], [97, 15], [95, 14], [994, 1], [96,
   10], [94, 20], [1, 1932], [2, 2175], [3, 3908], [4, 4960], [5, 5535], [6, 5060],
   [7, 4361], [8, 3664], [9, 3237], [10, 2887], [11, 2470], [12, 1869], [13, 1773],
@@ -709,513 +709,636 @@ register_labels: '{"NA_ne": 30928, "UNK": 15291, "OP_rs": 4168, "MT": 3483, "IN_
   725, "NA_sr": 354, "LY_other": 306, "ID_other": 304, "HI_other": 240, "IP_ds": 195,
   "MIX": 148, "SP_other": 143, "OP_ob": 109, "NA_nb": 59, "IN_lt": 47, "SP_it": 22,
   "OP_rv": 18, "OP_av": 12, "IN_ra": 1}'
-sample: '["\"1GODAA qaalai taakko hagaadan yaagiiddi yiis; 2\\\"Laa asa na7au, Israa7eela
-  henttanchchatu bollan hagaadan yaagada hananabaa yoota; ''Ubbaa Haariya GODAI hagaadan
-  yaagees; \\\"Inttenoo, inttena heemmiya Israa7eela henttanchchatoo, intteyyo aayye7ana!
-  Intte dorssata heemmanau bessennee? 3Eta maattaa uyeeta; eta ikisiyaappe dadettida
-  suufiyaa maayeeta; etappe modhdhidaageeta shukkidi meeta; shin dorssata suure heemmekketa.
-  4Daafuridaageeta gasttissibeekketa; harggidaageeta pattibeekketa; meqqidaageeta
-  koolibeekketa; wora biidaageeta zaaribeekketa; bayidaageeta koyibeekketa. Intte
-  eta wolqqan meqettaa iitidi haarideta. 5Dorssati ubbai heemmiyaabi xayin laalettidosona;
-  laalettidi bazzo do7atussi quma gididosona. 6Ta dorssati laalettidosona; eti keratu
-  ubbaa bollinne deretu ubbaa bolli bichchaaridosona. Biitta ubbaa gaxaa gakkanaashin
-  laalettidosona; shin eta xomoosiyaabi woikko koyiyaabi baawa\\\" yaagees. 7\\\"''Hegaa
-  gishshau, inttenoo, henttanchchatoo, GODAA qaalaa siyite! 8Ubbaa Haariya GODAI hagaadan
-  yaagees; \\\"Taani ta de7uwan caaqqais: Ta dorssata heemmiyaabai xayin, ta dorssati
-  oiqettidi, bazzo do7atussi ubbaassi quma gididosona. Ta henttanchchati ta dorssata
-  koyibeenna gishshaunne eti ta dorssata heemmennan aggidi, banttana heemmido gishshau,
-  9inttenoo, henttanchchatoo, GODAA qaalaa siyite! 10Taani intteyyo, henttanchchatuyyo
-  morkke; ta dorssata taani intteppe ekkana; taani inttena naa77antto etau henttanchcha
-  kessikke. Hagaappe sinttau intte intte xallaa heemmiiddi de7ekketa. Ta dorssata
-  taani intteppe wotta ekkana; hagaappe sinttan eti intteyyo quma kiyokkona. Taani
-  Ubbaa Haariya GODAI hagaa odais\\\" yaagees. 11\\\"''Aissi giikko, Ubbaa Haariya
-  GODAI hagaadan yaagees; \\\"Taani ta huuphen ta dorssata xomoosananne koyana. 12Henttanchchai
-  ba dorssatuppe bayin koyiyoogaadan, taanikka ta dorssata koyana; shaarai goozidonne
-  xumai sikkido gallassi eti laalettido soho ubbaappe taani eta shiishshana. 13Qassi
-  taani kawotettatu giddoppenne hara biittaa ubbaappe kessada shiishshana; shiishshada
-  eta biitti ehaana. Ehaada Israa7eela deretun, pulttotuuninne asai de7iyo sohotun
-  taani eta heemmana. 14Taani eta lo77o qooruwan heemmana; qassi Israa7eela kerati
-  eti heemettiyo soho gidana. Hegan eti lo77o qooroi de7iyo Israa7eela keratu bolli
-  heemettananne allaxxana. 15Taani ta huuphen ta dorssata heemmananne allaxissana.
-  Taani Ubbaa Haariya GODAI hagaa odais. 16Taani bayidaageeta koyana; wora biidaageetakka
-  zaarana; meqqidaageeta koolana; harggidaageetakka pattana. SHin modhdhidaageetanne
-  minnidaageeta xaissana; aissi giikko, taani suure pirddiya henttanchcha\\\" yaagees.
-  17\\\"''Inttenoo, ta wudiyaa dorssatoo, inttebaa gidikko, Ubbaa Haariya GODAI hagaadan
-  yaagees; \\\"Inttena ubbaakka taani pirddana; kehaa iitaappe, dorssaa deeshshaappe
-  taani shaakkana. 18Intte lo77o qooruwan heemettiyoogee gidana xayiinee, attida maataa
-  intte tohuwan yererettiyoogee? Qassi intte xillo haattaa uyiyoogee gidana xayiinee,
-  attida haattaa tohuwan bulqqoyiyoogee? 19Ta dorssati intte intte tohuwan yererettido
-  maataa maanaunne intte intte tohuwan bulqqoyido haattaa uyanau bessii?\\\" yaagees.
-  20\\\"''Hegaa gishshau, Ubbaa Haariya GODAI hagaadan yaagees; \\\"Be7ite, modhdho
-  dorssatuppenne gilqqa dorssatuppe gidduwan taani ta huuphen pirddana. 21Laafata
-  intte intte miyyiyaaninne intte morggiyan sugiyo gishshaunne gaxi kessana gakkanaashin,
-  intte eta intte kaciyan qaiciyo gishshau, 22taani ta dorssata ashshana. Hagaappe
-  sinttau oonaaninne eta oiqqenna; ta keha dorssatuppenne ta iita dorssatuppe gidduwan
-  taani pirddana. 23Taani eta bollan issi henttanchchaa, ta ashkkaraa Daawita sunttana;
-  i eta heemmananne etau henttanchcha gidana. 24Hegaappe sinttan taani GODAI eta Xoossaa
-  gidana; ta ashkkarai Daawiti eta giddon halaqa gidana. Taani GODAI hagaa odaas.
-  25\\\"''\\\"Taani etaara sarotettaa maachchaa maacettana; iita do7atakka taani biittaappe
-  diggana; yaatobare ta dorssati bazzon saro de7ana; wora garssankka hirggi bainnan
-  allaxxana. 26Taani etanne ta deriyaa yuushuwan de7iya sohota anjjana. Etau koshshiya
-  iraakka wodiyan immana; he irai etau anjjo gidana. 27Gaden de7iya mittati aifana;
-  biittaikka kattaa mokkana. Asai ubbai he biittan saro de7ana. Taani eta qambbaraa
-  menttada, eta ailleyidaageetu kushiyaappe kessiyo wode, taani GODAA gidiyoogaa eti
-  erana. 28Hegaappe guyyiyan, eti hara kawotettatussi bonqqiyoobaa kiyokkona; biittan
-  de7iya do7atikka eta mookkona. Aibinne daganttennan, eti saro de7ana. 29Taani etau
-  aradda gadiyaa immana; eti naa77antto koshan wurokkona; woikko qassi hara kawotettatussi
-  cayiyoobaa kiyokkona. 30He wode eti taani GODAI, eta Xoossai etaara de7iyoogaanne
-  Israa7eela asai ta asaa gidiyoogaa erana. Taani Ubbaa Haariya GODAI hagaa odais.
-  31Inttenoo, Israa7eela asatoo, intte ta dorssata; ta qooruwan miya dorssata; taanikka
-  intte Xoossaa. Taani Ubbaa Haariya GODAI hagaa odais\\\" yaagees'' yaaga\\\" yaagiiddi
-  yiis.\"", "\"Paarlaamaan miseensota boqonnaa irra jiran yaamuun walga\u2019ii ariifachiisaa
-  har\u2019a gaggeesseen, dhimmoota Mana Maree Finfinnee fi Dirree Dhawaa, akkasumas
-  filannoo naannoo ilaalchisee yaada murtii dhiyaatef qorachuun raggaasise.\\nFilannoon
-  miseensoota mana maree magaaloota Dirree Dhawaa fi Finfinnee akkasumas filannoon
-  naannoo bara 2011 ni gaggeefama jedhamee kan ture tahus, yeroo jedhametti gaggeessuun
-  waan hin danda\u2019amneef bara dhufu filannoo biyyaalessaa waliin akka gagggeeffamu
-  murtaaye. Boordiin Filannoo warra filannoo raawwachiisan calalchuu, gurmeessuu fi
-  leenjii kennuudhaaf yeroo ga\u2019aa hin arganne sababa jedhe waan dhiyeesseef karoorri
-  filannoo kun kan dabre tahuu ibsame.\\nHaaluma kanaan, manneen maree Finfinneefi
-  Dirree Dhawaa kan yeroo ammaa hojiirra jiran hojii isaanii akka itti fufan murtaaye.\"",
-  "\"Kora Hawaasaa fi Guyyaa WBO \u2013 Melbourne, Australia \u2013 January 12, 2014\\nCOMMENTS\\nRULES
-  FOR COMMENTING:\\nGadaa.com values your inputs, and to maintain a positive environment
-  of discussion, the following rules will be enforced for comments. When you click
-  SUBMIT COMMENT below, you are agreeing to abide by the following rules.\\n1. Apply
-  common-sense respect and courtesy. Feel free to express your thoughts within the
-  limits of civility.\\n2. Personal attacks, offensive language and unsubstantiated
-  allegations are not allowed.\\n3. By submitting your comments, you take all the
-  responsibility, legal or otherwise, for your comments.\\n4. Comments are naturally
-  short. Long comments may be removed; for long comments, feel free to submit them
-  as articles to be posted on their own.\\n5. Gadaa.com reserves the right to remove
-  comments that do not follow the rules stated here.\\n6. Frequent offenders of the
-  above rules will lose future posting privileges.\\nHow to Use the New Comment Section\\n1.
-  One can sign in using social networking services (if using this, click on \\\"Sign
-  In With your preferred social networking service\\\")\\n2. One can also comment
-  as \\\"Guest\\\" (no log-in required; for this, click on \\\"Pick A Name\\\" AND
-  check the \\\"I''d rather post as guest\\\" button.)\\n(ONLY NAME and EMAIL are
-  required; no password needed if commenting as Guest.)\\n3. To SUBMIT comments for
-  moderation, click on the \\\"Arrow\\\" sign.\\nDisclaimer: Opinions expressed in
-  comments do not reflected the views of Gadaa.com unless explicitly stated otherwise
-  by Gadaa.com; Gadaa.com IS NOT accountable for any thought and content of comments.\\n3
-  Comments\\nFiixa Sabaa:\\nDecember 28, 2013 @ 9:07 am\\nTan shanee tun baasuma yeroo
-  hunda sobaan hori ummataa irraa samuu malee biyyat galle qabsoo goonaan hin jirtu.
-  Ergaa qabsoon Oromoo harka shanee seentee diigamuu fi facaa\u2019isaa malee bu\u2019aa
-  hin arginee. hoggani saani asmaraa mana fi biyyaa goodhatee waan jiruuf dubartii
-  tigree fi farshooti gadi taa\u2019e dhiiroo akkanumiti qabsoo bilisummaa godhani?
-  Oromoo off gaafadha.\\nBishe Garba:\\nDecember 30, 2013 @ 1:57 pm\\nFiixa Saba kan
-  ofiin jettu nafteenyaa Arsii maal xibaara jirta?Kan nami isin hin beekine sitti
-  hinfakkatiin.Shanee atti jettu kanA uumatii Oromoo siriiti beeka.Warrumma atti irrati
-  ololtuti Saba Oromo dukana keessa baasee.Gochaa nafxenyootii Arsii qabisoo keenya
-  irrati geggessa turaniif jiran kana guyya tokko Sabini Oromoo shakkii malee ni injifata.Gaafas
-  eessa akka isin lixan hin beekinu.J/Kamal galchuu akka meeshaatii itti gargaramuu
-  yaaltanii kunnoo Qinijiitii keessa buustan,amma immo Jawar Mohamadiin meeshaa godhachuu
-  barbadu.Hundumaafuu yeroon nafxenyootii Arsii itti qaAnooftu ni dhufa.Qabisoo Oromoo
-  irrati immo yeroo gara-gara shirra kan geggessa ture seenan galmeesse jira.Kun bor
-  gadi ba\u2019u isaA hin ooluu.Gaafa sana sabin Oromoo nafxenyoota Arsii bira moo
-  shanee atti jettu bira akka dhaabatu ni illala ammasiti afaan kee qabii ta\u2019ii.\\nIUOF\\nRasaasee:\\nJanuary
-  3, 2014 @ 8:58 pm\\nYaa Fiixa Sabaa dhama\u2019a,\\nSinitti fakkaateeto kaattani,
-  dhaabas waan keeysa beeyatani diiguu dandeeysan seetanii ol utaal=tanii lafatti
-  deebitanii caccabdan, akka ishii wollaaltaniimmoo walii keeysanuu faffacaafatnii
-  gamisi keeysan diinatti, kaan Amaaratti, kaa immoo Oromoodhuma maqaa adda addaa
-  tiin kau jala gugattanii deemaa jirtu. Isinitti hin fakkaatin eessaan baatanii eessaan
-  akka gala jirtan ummatii fi seenaan ija haqaan isin ilaalaa fi galmeessa jira.\\nShanee
-  Shanee jettanii akka diinaatti ilaaltu,ni sodaattus Woyaanee caalaa. WBO deggeruu
-  irra Ginboot 7 filattanii achitti galtaniis isin baasuu dide. Dhalli namaa nama
-  ija isaa bane ija jaamsuu hin deemu. Kun rabbi birattillee araama.\"", "\"Abdii
-  Boruutiin\\nDhiyoo kana mata duree \u201cQabsoo Bilisummaa Oromoo keessatti, qabsoon
-  hidhannoo hammam abdachiisaa dha?\u201djedhu jalatti barruu tokko dhiyeessuun kiyya
-  ni yaadatama. Wantin barruu sana qopheesseef yookaanis qabiyyeen barruu sanaa qabsoon
-  hidhannoo akkamitti cimuu akka danda\u2019u yaada kiyya mariitti dhiyeessuuf ture.
-  Qabsoo hidhannoo jabeessuuf qofaas otuu hin taane, sababni guddaan, dafanii walitti
-  deebi\u2019anii tokkoomuuf turuun Adda Bilisummaa Oromoo (ABO) garee sadeenii, Waraana
-  Bilisummaa Oromoo (WBO) keessatti rakkooleen adda addaa akka uumaman godhuu ykn
-  taasisuu danda\u2019a jedhee waanan yaaddoo keessa seeneefi. Kanaaf malli tokko
-  dafee argamuu qaba jedheetan malee, WBOn ABO irraa gargar ba\u2019uu qaba jechuu
-  barbaadee miti.\\nAkka yaadolee barruu sana jalatti dhiyaatanittis ta\u2019ee, akka
-  emailii dhaan na gahanitti, yaadni wal dhahaan akka uumamen hubachuu danda\u2019e.
-  Wantin har\u2019a barruu gabaabaa kana qopheessuu barbaadeefis waayee\u2019uma sana
-  ifa godhuufi; akkasumas dubbiftoonni akka afaanfaajjii keessa hin seenne sirriitti
-  ibsuufi. Yaadni barruu tokko irratti (jalatti) dhiyaatu, qabiyyee ykn kaayyoo lama
-  qabaachuu danda\u2019a. Inni tokko beekanii yaadni akka wal dhahu, rakkoo irratti
-  rakkoon biraa akka uumamu godhanii, tokkummaan akka boora\u2019u godhuufi. Yaadni
-  akkanaa kuni ammoo kan dhufu diinarraa yookaanis warra isaaniif hojjetani irraa
-  ta\u2019a. Waayeen qabsoo hidhannoo hunda caalaa ajandaa rakkisaa waan ta\u2019uuf,
-  kanatti fayyadamanii, tokkummaan Oromoo keessumaayuu kan qabsaa\u2019ota fi jaarmayootaa
-  akka hin ijaaramne ykn/fi kan jiru illee akka diigamu yaalii godhu.\\nYaadni inni
-  lammaffaan ammoo, rakkoo jiraniif furmaata barbaaduuf jedhanii, ilaalcha fi yaada
-  ofii ibsuu dhaaf yoo yaalan garuu dogoggora yaadaa qabaachuu waan malaniif, yaadni
-  isaanii kun kan biraatiin wal dhahee, hiikni biraa akka kennamuuf taasisa jedheen
-  yaada. Warri yaada akkanaa dhiyeessan beekanii otuu hin taane, yaadni isaanii sun
-  tasa waan tokko faallessuu mala. Haa ta\u2019u malee, yeroo kana wal obsuu fi wal
-  dandeettii dhaan yaada gaarii tokkoon wal amansiisuu yaadu fi yaaluu dha malee,
-  aaranii wal ifachuu dhaan hiika biraa kan walii kennan yoo ta\u2019e, yoomiyyuu
-  waan tokko irratti waliin mari\u2019atanii mala ykn furmaata waliin barbaaduun rakkisaa
-  ta\u2019a. Waayeen akkanaa kuni ammoo tarkaanfii takka illee fuula duratti nu hin
-  oofu jechuu dha.\\nWantin asitti dubbistootaaf ifa godhuu barbaadu, anas taanan
-  waayee qabsoo hidhannoo sana kaasuun kiyya fakkeenyaaf, WBOn ABO irraa adda haa
-  bahu, jaarmayaa kana irraa walaba haa ta\u2019u jechuu fi tokkummaa gaafii keessa
-  galchuufii miti. Ergan yaada fi ilaalcha kiyya barreessuu jalqabe yeroo dheeraa
-  ta\u2019uus baatu, barruuleen ani hamma ammaatti dhiyeessaa ture ykn dhiyeesse (barruuleen
-  kiyya kan hamma ammaatti dhiyaatan hunduu voiceoforomia.com irratti argamuu danda\u2019u)
-  harka caalaan isaanii waayee tokkummaa ilmaan Oromoo, keessumaayuu tokkummaa qabsaa\u2019otaa
-  fi jaarmayoota keenyaa ti. Tokkummaan akkanaa kuni ammoo, hawwii kiyya qofaa waan
-  ta\u2019eef otuu hin taane, qabsoo bilisummaa keenyaaf murteessaa waan ta\u2019eefi.
-  Egaa kaayyoon barruulee kiyyaa fi hawwiin kiyyas tokkummaa otuu ta\u2019uu, tokkummaa
-  jiru rakkoo keessa galchuu dhaaf, WBO fi ABOn akka gargar bahan hin barbaadu. Waayeen
-  sun afaanfaajjii kan uume yoo ta\u2019e, kanaaf dhiifama gaafachuun barbaada.\\nKaraa
-  biraatiin yoo ilaalle garuu, waayeen tokko akka hin kaane sodaatanii, rakkoolee
-  jiraniifis furmaata barbaaduu yoo dhiisan, rakkooleen jiran kunis heddoomaa deemu
-  malee, cal jenneef ykn kaasuu dhiifneef, baduu hin danda\u2019an. Rakkoo QBO keessa
-  jiru irratti waliin mari\u2019achuun barbaachisaa dha. Mala ykn furmaata argachuun
-  illee dirqama ta\u2019a. Dirqamni kuni ammoo kan Oromoo hundaa ta\u2019uu qaba;
-  warra QBOtti amananii fi kanaaf illee gahee ofii gumaachuu barbaadan jechuu kooti.
-  Yoo nuyi wal obsinee, wal dandeenyee, waliin mari\u2019annee, dhimma uummata keenyaaf
-  mala hin barbaadne, eenyutu kana nuuf godharee? Amananii wal amansiisuu dha malee,
-  rakkoon akka hin kaane sodaatanii, kana irraayis dheessuun, eessanuu nama hin gahu.\\nAkkuman
-  barruu sana keessatti ibsuu yaale fi asittis irra deebi\u2019ee ifa godhuu barbaadu,
-  WBOn ABO irraa dhalate, ABOtu ijaare, ABO jalatti socha\u2019as jedheen amana. WBO
-  fi ABOn addaan bahuu waan danda\u2019an natti hin fakkaatu. Seenaatu walitti isaan
-  hidhe. Karaa biraatiin yoo ilaalle garuu, wanti nama hin mamsiifne, laafinni ABO
-  laafina WBO fida. ABO fi WBOn qaama tokko, akka harka mirgaa fi bitaa qaama kanaa
-  ti. Yoo qaamni tokko ykn harki tokko dadhabe, kan biraa hin jabaatu jechuu dha;
-  yoo tokko jabaate garuu, kan biraas ni jabeessa. Furmaanni ammaaf natti mul\u2019atus,
-  akka WBOn jabaatu ABO jabeessuu dha.\\nABOn ammoo jabaachuu kan danda\u2019u, yoo
-  garee sadeen (SG ABO, QC ABO fi KY ABO) walitti deebi\u2019anii tokkooman qofaa
-  dha. Yoo kun hin taane ykn hin milkoofne, isaanis laafaa deemu malee, kophaa kophaa
-  socha\u2019anii jabaachaa waan deeman natti hin fakkaatu. Laafinni isaanii ammoo
-  WBO laaffisaa deemuu qofaatti otuu hin hafne, rakkooleen gara garaa, bifa adda addaatiin
-  WBO keessatti akka uumaman taasisa. Sodaan kiyya inni guddaanis kana. Yoo hunduu
-  laafaa deeman, diinni keenya cimaa, humni isaas akkasuma jabaachaa deema. Akkanatti
-  bilisummaanis achi nurraa fagaachaa deema jechuu dha. Kanaafan waayee qabsoo hidhannoo
-  kana kaasuu barbaade.\\nKaraa feeneen bilisummaa haa barbaadnu, yoo waliigaltee
-  fi tokkummaan hin jiraanne, injifannoon hin argamu, bilisummaan nu barbaadnus hin
-  dhufu. Diinni keenya kan arganne sanaa deebisee diiguuf iccitii dhaan otuu hin taane,
-  ifatti nutti himaa jira. Kanaaf, yoomiyyuu caalaa yeroon tokkummaa dhugaa, hunda
-  hammataa tokko barbaadnu amma. Tokkummaan dhugaa hunda hammataan hoo akkamitti ijaaramuu
-  danda\u2019a? Kun sadarkaa ykn tarkaanfii lamaan ijaaramuu fi milkaa\u2019uu ni
-  danda\u2019a jedheen yaada.\\nTarkaanfii tokkoffaa fi inni duraa, ABO garee sadeen
-  deebisanii tokkoomsuu dha.\\nTarkaanfii ykn sadarkaa lammaffaan, ABO tokkoome (tokko
-  ta\u2019e) fi ULFO (isaan amma waan tokko ta\u2019aniif) walitti fidanii tokkoomsuu
-  dha.\\nTokkummaa kana, tokkummaa dhugaa fi hunda hammataa kanan jedhu. Yoo kun xumurame
-  fi milkaawe booda, loltoota bilisummaa Oromoo hundumaa bakka tokkotti walitti fidanii,
-  tokkummaa hunda hammataa kana keessatti, caasaa tokko jalatti ijaaruu fi cimsuu
-  dha. WBO jabaa fi cimaan akkanatti uumamuu danda\u2019a. Kanatu injifannoo fida;
-  kanatu gabrummaa awwaalee, Finfinneerratti alaabaa Oromiyaa mul\u2019isa.\\nDhumarratti,
-  garaa qulqulluu dhaan dhaamsa kiyya dabarsuu wantin barbaadu, uummanni Oromoo waggoota
-  kudha saddeet caalaa isin abdachaa fi isin eegaa jira. Humna roorroo diinaa irraa
-  isa ittisu dhabee, biyya abbaa ofii keessatti dararamaa jira. Yoomiyyuu caalaa gabrummaa
-  hamaa keessa jira; qawwee faashistiitiin ukkaamamee jira. Kanaaf amma ille otuu
-  abdii isinirraa hin kutatin isin eegaa jira. Carraan kun akka isin hin dabarre,
-  akka uummanni keenya abdii isinirraa kutatee, booda jibba illee garaatti hin uumne,
-  dafaatii waliigaltee godhaa. Keessumaayuu ABO garee sadeen marii irra jirttan milkii
-  fi injifannoo dhaan xumurtanii, deebitanii tokkoomuu keessan oduu gammachiisaa dhaan
-  akka gadi baatan. Sana boodas tokkummaa hunda hammataa (ABO+ULFO) tokko akka ijaartan.
-  Humna keessan akka cimsitan. Yeroo gabaabaa keessatti akka injifannoo tokko agarsiiftan
-  dhaamsa koo isiniif dabarsuun barbaada.\\nGalatoomaa.\\nAbdii Boruu: aboruu@gmail.com\"",
-  "\"Tokkummaan Mootummootaa dabalee dhaabbilee akka akkaa nama Afrikaa gama Gaafaatti
-  rakkate waan hedduun gargaaruutti jiran.\\nUfi qarqaaruu qofaa mitii akka addunyaalleen
-  itti dabalamtu gaafachumatti jiran.Bulchootii biyya akka akkaalleen akkanuma.\\nAkkuma
-  kanaan Manneen amantii Islaamaa damee MN,Waldaa Amantii Kiristaana Oromoo Addunyaatii
-  fi waldaan waaqeffannaa Noorweeyilleen waan dandahaniin nama biyyatti beelahe qarqaaruuf
-  qophii jirraa jedhan.\\nSheck Husseen Ahmed,itti gaafatamtoota masjida MN,Minniyaapoolisii
-  fi Sayinti Pool keessaa tokkko.\\n\u201cGaafa Ramdaanaa keessaa nama biyyatti beelahee
-  gargaaruuf $60,000 walti guurree\u2026namii keenna Booranaa fi naannoo sun jirutti
-  baayyee beelahee dhageenne\u2026 Somaaleelleen dhuftee gargaarsa gaafattee haga
-  $10,000 walti qabaniif.\u201d\\nObbo Hundasaa Waaqawayyaa barreessaa gumii waaqefannaa
-  Noorwey gama keessaniin nama biyyatti beelahe kana akkamitti gargaaruuf itti jirtan
-  jennaan.\u201dGaafa ayyaanii waaqeffannaa kabajamu Onkololeessa lamatti gargaarsa
-  walti qabuuf qophii jirraa jedhu.\u201d\\nLuba Gammachuu Olaanaa,prezdaantii Waldaa
-  Kirstaana Oromoo warra Wangalaati.\u201cWaldaan keennalleen torbaa lamaa haga sadiitti
-  $20,000 walti qabuuf qophaahuutti jirraa.\u201d Jedhu.\\nHawaasii Oromoo akka akkaalleen
-  nama biyyatti rakkate gargaaruuf hojjachuutti jiraachuu nutti himan.Isanillee waan
-  nama biyyatti rakkateen gargaartan ykn waan jechuu feetan qabaattan isan eeganaa
-  nutti himaa.\"", "\"Feesbuukiin magaalaa guddaa Naayjeeriyaatti waajjira isaa banufi\\nFinfinnee,
-  Fulbaana 10, 2013 (FBC) \u2013 Feesbuukiin magaalaa guddaa Naayjeeriyaatti waajjira
-  isaa banufi.\\nDhaabbanni Feesbuukii bara Faranjootaa dhuftutti magaalaa guddaa
-  Naayjeeriyaa Leegoositti waajjira banuuf akka jiru beeksise.\\nDhaabbanni kun ardii
-  Afrikaatti waajjira isaa banuun yeroo lammaffafidha jedhame.\\nAkka ragaa dhaabbaticharra
-  argame muldhisutti waajjirichi garee mahaandisootaa kan keessumeessu waajjira Afrikaa
-  isa jalqabaa ta\u2019a.\\nWaajjiri Naayjeeriyaatti banamu garee gurgurtaa, maamilummaa,
-  imaammataa fi kominikeeshinii keessa hojjetan ni haammata.\\nIbsa dhaabbanni Feesbuukii
-  baaseen giddugalli haaraan oomishaalee lammiilee Afrikaan kalaqaman Afrikaa fi guutuu
-  addunyaa akka dhaqqabsiisu himeera.\\nBara Faranjootaa 2016 hundeessaa dhaabbatichaa
-  kan ta\u2019e Maark Zukarbarg imala isaanii jalqabaa gara ardii Afrikaan magaalaa
-  Leegoos daawwachuun isaanii ni yaadatama.\\nMaddi:- BBC\"", "\"Waraanni Bilisummaa
-  Oromoo Zoonii Dhihaa Haleellaa Isaa Gad Jabeesse\\n[SQ, bitootessa 18,2018] Gaachanni
-  uummata Oromoo WBO\u2019n tarkaanfii diinarratti fudhatu gadjabeesse jiraachuu Qeerroon
-  onicharraa nuu gabaasan. Akka gabaasaa keenyaatti \u201cguyyaa har\u2019aa jechuun
-  Bitootessa 18, 2018 ganama har\u2019aa WBO agaazii oraalii 2 Gidaamiifi Begii gidduu
-  bakka Laaloo jedhamutti barbadeesse. Waraanni agaazii lakkoofsaan hanga ammaa addaan
-  bahamee lakkoofsaan hanga ammaa baruu baatus, waraanni konkolaataarra turte tokkoyyuu
-  kan hinbaane ta\u2019uuf konkolaataa oraaliin tokko gubatee dhumuuf tokkoommoo hojiin
-  ala ta\u2019ee dhaabbateera\u201d jechuun sagalee Qeerroo Bilisummaa Oromoof gabaasan\"",
-  "\"Tsedale Lammaan ogeessa miidiyaa jabduu Oromoon qabu keessaa ishee tokko.\\nBara
-  2014-15 adunyaan waa\u2019yee #OromoProtests akka beeku gummaacha guddaa goote.
-  Diplomaatonni qabsoon qeerroo qabsoo nagaa akka ta\u2019ee fii gaaffileen Oromoo
-  maal akka ta\u2019an akka baran Addis Standard shora xiqqaa hin jedhamne taphate.
-  Yeroo Tsedaleen kana gootu warri har\u2019a aangoorra jiru shororkeessitoota jedhee
-  qeerroo adabaa ture.\\nBara \u2018jijjiiramni\u2019 dhufe jedhame san, otoo namni
-  Oromoof aantummaa qabu aangoo qabate, ha xiqqaatu Tsedale Lammaa maqaan waamee beekamtii
-  kennuufii qaba ture. Abiyyi ameerikaa dhaqee gaazexesitoota ESAT tokko tokkoon maqaa
-  waamee akkatti faarse ni yaaddattu. Qarshii inni isaaniif dhangalaasaa jiruus argaa
-  jirtu. Tsedaleen kan jibbamteef qabsoo Oromoof sagalee waan taateef qofa. Bara EPRDF
-  sanis waay\u2019ee \u2018Oromo Protests\u2019 deddeebitee waan maxxansiteef \u201csponsorship\u201d
-  baay\u2019eetu jalaa butame.\\nHar\u2019as dhugaa itti amante dubachaa fi maxxansaa
-  jirti. Kan ilkaan itti ciniiname \u201cmootii torbaffaan nama waaqarraa gadi nuuf
-  ergameedha\u201d faaggaa jedhu akka warra kaanii maaliif afuufuu diddee dha. Namni
-  hundi duurgodhaaf mootii jala halaakuuf hin uumamne. Kan sammuun yaaduu danda\u2019u
-  hojiin miidiyaa kanuma aangoo qabate faarsuu akka hin taane ni hubata. Beekumsaa
-  fii dandeettii qabduun uummata tajaajilaa jirti. Oromoon jabaa ofii jabeeffadhaa.\"",
-  "\"Paartiin Angolaa bulchaa jiru waggoota kanneen biroo 5 aangoo irra turuu kan
-  mirkaneeffate yoo ta\u2019u, walii galaan waggoota 52f aangoo irra turuuf deema.
-  Paartiin mormiitu guddichi kan biyyatti garu, ba\u2019ii filannoo Robii dabree labsamee
-  irratti falmuuf jira.\\nDubbii himaan komiishiina filannoo Luqaas Quilondo akka
-  jedhanti, paartiin bulchaa jiru sagalee lakka\u2019ame harka 51,7 kan argate yoo
-  ta\u2019u, kunis miseensoota paarlaamaa 124 akka rgatan taasiisa.\\nYunitaan sagalee
-  harka 44.5 waan argateef jecha, paarlaamaa keessatti barcuuma 90 argachuuf isa gargaara.
-  Yunitaan akka jedhutti, komishinni filannoo waan seera qabeessa hin taanee kan seera
-  filannoo alaa hordofee labsuun nu ajaa\u2019ibsisee jira jedha.\\nForum\"", "\"WASHINTON,DC
-  \u2014 VOA\\nUmmataa fi humnootii nagaa, jeequmsa akkuma jirutti tohanna jala oolchuu
-  isaaniitiif galata qabaa jedha obboo Muktaar.\\nGodnoota jeequmsii keessatti ka\u2019etti
-  ummatii hujii fi jireenna ufiitti deebi\u2019uutti jiraa jedhee galateeffate.\\n\u201cHumnitii
-  nagaa adoo humnitii jeequmsaa namaa fi qabeennas balleessuuf falatanuu, jaalala
-  ummataaf jedhanii adoo miidhamanuu, lubbuu dhabanuu, ummata balaa irraa hambisuuf
-  hojajtan.\\n\u201cJarri kun dhuguma ummata keessaa bahee ummatumaa hojjachuu isaa
-  agarsiisaa nagaa ummataatii dhaabachuu isaanii agariisan \u2026tanaaf maqaa mootummaa
-  naannoo Oromiyaatiin humna nagaa eegan galateeeffanna,\u201d jedha perezdanatiian
-  naannoo Oromiyaa.\\nRakkoon godina kakkanatti dhufte akka jecha perezidaantii naannoo
-  Oromiyaatti ijaarsa demokiraastii fi misooma biyyattiif balaa taati. Umamtii naannichaa
-  akka jeequmsii dafee dhaabatu hojii jeequmsaa falmee,jaibbees.\\nGargaarsi uummata
-  Booranaa hongeen miidhameef geeffamaa ture gariin gara baadiyyaa dhaqqabaa hin jiru,
-  kaan ammoo\u2026\"", "\"Manni Maree Dhimmoota Islaamaa, Guyyaa har\u2019aa November
-  10, 2022 Yaa\u2019ii addaa Hoteela Grand Eliyaanaatti gaggeessaa kano ole tahuun
-  beekame. Walgahii waliigalaa isa jalqabaa kanarratti ajandaawwan shan kan dhihaatan
-  yoo tahu, Ajandaawwan dhihaatanirratti miseensonni mana marichaa bal\u2019inaan
-  mari\u2019atuu kan eegalan tahuun gabaafame.\\nMarii ganama har\u2019aa gaggeeffame
-  irratti, gabaasni hojii majliisni federaalaa guyyoota 100\u2019n dabran keessatti
-  hojjate eega dhihaatee booda, labsiin bajata bara 2015\u2019nii qophaahee hirmaattotaaf
-  dhihaatee bal\u2019inaan irratti mari\u2019atamee jira. marii kanaanis miseensonni
-  mana marichaa bajata bara 2015, birrii Biliyoona 4.7 akka tahu sagalee guutuun mirkaneessanii
-  jiru.\\nDabalataan Seerri ittiin bulmaata majliisa federaalaa kan ogeeyyii seeraa
-  gurguddoon qophaahee yeroo dheeraaf irratti mari\u2019atamaa ture, walgahii guyyaa
-  har\u2019aa irratti miseensota mana marichaatiif dhihaatee bal\u2019inaan irratti
-  mari\u2019atamaa oolee jira. miseensonni mana marichaatis seera ittiin bulmaataa
-  qophaahe kanarratti yaada kennatanii, wantoonni muraasni eega fooyyeffamanii booda
-  sagalee guutuun mirkanaayee jira.\"", "\"Naannoo Uummatoota Kibbaa, godinaa Oomoo
-  keessatti, hojjetoonni warshaalee sukkaaraa ijaaran, yakki ajjeechaa kan irratti
-  raw\u2019atamaa jiru tahuu VOAtti dubbatan.\\nWaldaan hojjetootaa Korporeeshinii
-  Sukkaaraa Itiyoophiyaas, hojjetoonni isaa ka jalaa ajjeesamaa jiran tahuu ibsee,
-  \u201chojjetoonni tokko tokko, sodaatanii hojii gad-lakkisanii deemaa jiru,\u201d
-  jedha.\\nBiiroon Bulchiisaa fi Nageenyaa naannoo Kibbaa, torbanneen lama keessatti,
-  namoonni yakka ajjeechaa fi yakkawwan ciccimootti shakkaman kanneen afurtama tahan
-  qabamuu ibsee, godinaa sana humnoota seeraa ala hidhatan irraa bilisa gochuuf duulli
-  jalqabamee jira, jedhu.\\nYaada kenni\"", "\"Gaaffii: Obboleettii tiyya takkatu
-  anaafii dhiirsa kiyya wajjiin hajjii godhuu feetee hajjiin isii sun ni taatii? Deebisaa:
-  Ee ni taati. Dhiirsi kankee haga ati isa waliin jirtu haga inni nikaha sirraa qabu
-  isiidhaaf maharama ta\u2019uu ni danda\u2019aa jechu. Ulamaa\u2019iin inumaa maal
-  jedhan zamana ammaa kanatti intalti takka yoo maharama dhabdee \u2026\\nTag: umraa\\nHajjii
-  deemuu feenaa eessarraa harramu qabnaa suudii irraa fagoo jirraa, akka nuuf qopheeffametti
-  yalamlamii, yalamlamii sani irraa ji\u2019a tokko dura ji\u2019a hajjii saudii waan
-  seenuu feenuuf achumarraa harramuu qabna moo dura Makkaan seennee warra makkaa taanee
-  achirraa harramuu qabnaa? Deebisaa: Yoo niyyaa hajjiitiin ka manaa baatan taate
-  isin warruma hajjiiti malee warra \u2026\\nGaafii: Hajjii deemuufin deemaa akkamittin
-  harramadhaa? Deebisaa: Hajjii hiraamni isaa sadi. Yoo hajjii qofa niyyattee naweeytul
-  hajja jettellee ni ta\u2019a. Yoo hajjiifi umraa waliin niyyadha jette tamattu\u2019a
-  jedhamaa qooda sadan keessaa kanatu irra caala. Labbeykallahumma umratal jettee,
-  ji\u2019a hajjii keessa umraadhuma niyyattee deemtee dhayxee dalagaa umraa fixattee,
-  eegasii guyyaa saddeetii ka \u2026\\nGaafii: Nama du\u2019erraa yoo umraa godhe
-  akkamii? Deebisaa: Nama du\u2019erraa yoo umraa gootee ni ta\u2019a humaa rakkoo
-  hin qabu. Garuu dura ufii umraa godhuu, ammas yoo nama du\u2019erraa hajjii goote
-  dura ufii hajjii godhuu. Eega ufii godhatanii booda nama du\u2019erraa godhutu bareedaadha.
-  Sheikh Alii Jimmaa\\nGaafii: Intalti takka ka mahrama malee hajjii ka deemtu taate
-  akkam hajjiin isii? Deebisaa: Hajjiin isii ni ta\u2019aa, garuu diliin galti. Mahrama
-  dhabuun Hajjii irraa hin balleessu. Garuu sharxiin nama dhiiraa dandeettii fi horii
-  qabaachuu, karaan nagaya ta\u2019uudha. Ka dubartii hajjii isii nagaya ta\u2019uuf,
-  sharxiin sadeen dhiiraa kanaa fi maahrama qabaachuu waliin \u2026\\nGaafii: Hajjiin
-  amata afurtamaatii gaditti hin ta\u2019uu nuun jedhanii akkam goonaa? Deebisaa:
-  Hajjiin guyyaa amata kudha shani gahan namatti wajjaba yoo horiin jiraate. Biyya
-  ati keessa jirtu irraa yoo siif hin mijaawin biyya sitti aanutti tarkaanfadhuutii
-  hajjii ufirraa buusi. Amriin hajjiidhaa dubbii jajjabduudhaa baldhinnaan gaafadhaa
-  itti dhaqqabaa. Amrii arkaana islaamummaa shanaan keessatti, \u2026\\nGaaffii: Umraa
-  godheetiin guyyaa saddeetaffaa ka Zulhijjaa osoo mataa hin haaddatin Hajjitti dabree
-  akkami? Deebisaa: Yoo Hajjiin tanteetiif Umraan tantee qiraana taate sun rakkoo
-  hin qabu. Ammallee guyyaa saddeetii eega isiin taatee mataan haaddatan silaafuu
-  guyyaa 10 sanitti hin biqiluu guyyaa lama qofa keessatti, silaa rifeensa murachutu
-  caalaa sirra ture. Ammoo akka ati \u2026\"", "\"Finfinnee,Fulbaana 26/2013(TOI)-
-  Shaampiyooniin maaraatoonii Landan Shuraa Qixxaataa har\u2019a gara biyyatti yeroo
-  deebi\u2019u simatameera.\\nShuraa dabalatee jilli atileetota dorgommicha irratti
-  hirmaatan har\u2019a gara Itiyoophiyaatti yoo deebi\u2019an Pireezdaantii Itti Aantuu
-  Federeeshinii Atileetiksii Itiyoophiyaa Komaandar Daraartuu Tulluu,Pireezdaantii
-  Waldaa atileetota Itiyoophiyaa Komaandar Maarqos Gannatii barreesaan Waajjira Federeeshinii
-  Atileetiksii Itiyoophiyaa Obbo Bililliny Maaqoyyaa leenjistootnii fi maatiin atileetotaa
-  argamuun simataniiru.\"", "\"Mobaayiloonni Android biliyoona tokko tahan rakkoo
-  nageenyaa kan tiksu (security update) adda cituun wal qabatee rakkoo kuusaa odeffannoof
-  akka saaxilaman ibsame. \u2018Security update\u2019 hojii dhaabun isaa bilbiloonni
-  hedduun hanna odeeffannoo, faayilaa fi vaayirasii galaafatoof akka saaxilamuu danda\u2019an
-  akeekachiifame jira.\\nBara faranjootaa 2012 fi sanaan dura bilbila hojjatame warreen
-  faayyadaman xiyyeeffannaa jabaa kennuufi akka qaban dhaamamee jira. mobaayila android
-  addunyaa irra jiran guutuu keessaa harka dhibba keessaa 42.1 kan tahan Version 6.0
-  fi isaa gadi akka faayyadaman ni addeessa. Haa ta\u2019uu malee bilbiloonni android
-  system version 7.0 fi isaa gadi faayyadaman kan bara 2019 keessa oomishaman rakkoo
-  nageenyaa amma uumame kan hin qaban jedhame.\\n- Motorola X\\n- Samsung Galaxy A5\\n-
-  Sony Xperia Z2\\n- LG / Google Nexus 5\\n- Samsung Galaxy S6\\nDhaabbani farra vayirasii
-  AV jedhamu bilbiloota asii olii irratti vayirasii gad lakkisuun yaalii taasiseen
-  bilbiloota tokko tokko irratti rakkoon ol\u2019aanaa tahe akka uumame ibsee jira.
-  yeroo ammaa odeeffannoo akka agarsiisutti bilbiloota addunyaa irraa jiran 5 keessaa
-  2 eegumsi nageenyaa (security update) isaan bira akka hin geenye beekamee jira.\\nDhaabbileen
-  bilbiloota rakkoo nageenyaf saaxilaman oomishan hanga yoomitti haromsa nageenyaa
-  (Security update) akka tursiisan maamiloota isaanii akka beeksisan gaafatamanii
-  jiru, akkasuma yoo eegumsi nageenyaa kun dhihaachufi baate filannoo biraa akka dhiheessan
-  gaafatamanii jiru.\\n- Gorsaawwan asii gadii fudhaa:\\n1, Bilbilli ati faayyadamaa
-  jirtu waggaa lamaa ol harka kee irra yoo ture gara opereting system haarayatti haaromsuu
-  mirkaneeffadhu. Bilbila keessan yoo hin haaromsin carraan vayirasiin qabamuuf qabu
-  salphaa waan taheef of eeggannoo cimaa isin barbaachisa, keessaafuu version 4.0
-  fi isaa gadi faayyadamtu yoo tahe irra caalatti rakkoo vayirasii fi hattoota faayilaa
-  harka seenuu dandeessu. kanaafuu Aappii gosa kamuu play store keessaa malee bakka
-  biraatii download gochuu irraa of qusadhaa. play store keessa yoo tahellee Aappii
-  maalummaa isaa hin beekne download gochuu irraa yoo of qusattan gaarii taha.\\n2,
-  Ergaalee shakkisiisoo barreeffaman nuuf ergaman irraa of eeguu, ergaalee bifa SMS
-  fi MMS nama hin beekne irraa isinitti dhufu irraa of eegaa. Haattoonni badii yoo
-  bilbila keenya too\u2019achuu barbaadan ergaa bifa adda addaan akka dhaabbata irraa
-  ergametti fakkeessanii nutti erguu danda\u2019u. Nuti ergicha banuun kan faana buunu
-  yoo tahe salphamtti too\u2019atamu dandeenya.\\n3, Faayiloota iccitiifi haalan isin
-  barbaachisan fageessitanii ol kaayyachuu qabdu, kuni yeroo kamuu kan gorfamuudha,
-  faayila akka photo, text, audio, video fi dokumantii garaagaraa Cloud/Kilaawudii
-  irratti yoo fe\u2019attan barbaachisaadha. yoo akka tasaa bilbilli keessan rakkoof
-  saaxilame faayilli keessan akka nagaya qabaatuf isin gargaara.\\n4, Farra vayirasii
-  faayyadamaa: yeroo ammaa Aappiin farra vayirasii tahan baay\u2019een ni jiru kanneen
-  keessaa kan bilbila keessaniin wal simu yoo faayyadamtan nageenya bilbila keessanii
-  tiksuu irratti isin gargaara. yoo akka carraa vayirasiin badii tokko gara bilbila
-  keessani gale isinitti mul\u2019isuufi akka dafii sanatti balleessitan isin beeksisa.\"",
-  "\"Koronaavaayiras: Dargaggeessi qorannoof osoo geeffamaa jiruu ambulaansii keessaa
-  miliqee ture qabame\\nItoophiyaatti dargaggeessi Sa\u2019udii Arabiyaarraa deebi\u2019e
-  sodaa koronaavaayirasiif adda bafamee ture miliqee, Naannoo Amaaraa Godina Walloo
-  Kibbaatti irra deebiin qabame.\\n(bbcafaanoromoo)\u2013Itti-gaafatamaan Waajjira
-  Fayyaa Aanaa Lagaamboo Obbo Geetinnat Ababaaw akka BBCtti himanitti, dargaggeessi
-  irra deebiin qabame kun dhalataa Aanichaa akka taheefi ji\u2019a tokkoon dura karaa
-  seeraan alaatiin gara Sa\u2019udii Arabiyaa akka deeme himan.\\nAkka Obbo Geetinnat
-  jedhanitti dargaggeessi kun Sa\u2019udii ji\u2019a tokko erga turee booda, gara
-  Itoophiyaatti xiyyaaraan deebifameera.\\nWayita buufata xiyyaaraa Booleei gahutti
-  wayita sakkatta\u2019amu mallattoolee koronaavaayiras kan tahan ho\u2019ina qaamaa
-  fa\u2019i kanneen biroo agarsiise.\\nKanaanis anga\u2019oonni kophaatti adda baasanii,
-  qorannoo dabalataaf gara dhaabbata fayyaatti ambulaansiin geessaa turan.\\nDargaggeessi
-  kunis wayita ambulaansiin geessaa turanitti keessaa miliqe.\\nEenyu eenyuun walqunnamee?\\nDargaggeessi
-  kun erga ambulaansicha keessaa miliqee booda obboleettiisaa magaalaa Finfinnee jirtu
-  bira bule.\\nErga achii ka\u2019ee booda awutoobisii yaabbachuun dhufaa ture. Nutis
-  kaleessa (Sambata) galgalaa eegallee konkolaataa eeguun sakkatta\u2019aa turre jedhan
-  Obbo Geetinnat.\\nGaruu yeroof achi buutee dargageessa kanaa arguu hin dandeenye
-  jedhu.\\nDargaggeessi maqaansaa hin dhawamne kun, erga Finfinneetii kahee booda
-  magaalaa Kombolchaatti bu\u2019ee konkolaataa biraa gara Dasseetti yaabbate.\\nErga
-  magaalaa Dasee bulee booda, gara magaalaa Gugguuftuu jedhamtutti yaabbate. Achirraayis
-  Lagaamboo gale.\\n\u201dKanas kan gochaa ture akka hin qabamaneef jecha,\u201d jedhaniiru
-  Obbo Geetinnat.\\nDhumarrattis obboleessi akka adda isa baasu gochuun awutoobisii
-  uummataa keessaa sakatta\u2019anii argachuusanii dubbatan.\\nGorsa ofeeggannoo barbaachisu
-  hunda hordofuun konkolaataa keessaa erga buusnee booda, gara Federaalaatti ergineerra,\u201d
-  jedhan itti-gaafatamaan kun\\nYoom Sa\u2019udiirraa deebi\u2019e?\\nObbo Geetinnnat
-  namni kun Sa\u2019udiirraa yoom akka deebi\u2019e odeeffannoo akka hin qabne himuun,
-  federaala irraa guyyaa kaleessaa bilbilamuu dubbatu.\\nHaata\u2019u malee, namni
-  kun karaa seeraan alaa ji\u2019a tokko dura gara Sa\u2019udii deemuun yeroo deebi\u2019u
-  garuu xiyyaaraan akka dhufe obboleessa isaarraa dhaga\u2019eera jedhan.\\nYeroo
-  nama kana argan rakkoo akka hin qabne kan himan itti-gaafatamaan waajira fayyaa
-  kun, atattamaan ambulaasii abbaa warraa obboleettii isaa yeroo sanatti waliin ture
-  waliin gara federaalatti deebisuu himan.\\nAbbaan manaa obboleettii nama kanaa Finfinneetii
-  isa waliin dhufe garuu waan ta\u2019e hin beeku kan jedhan Obbo Getinnat, poolisiin
-  federaalaafi raayyaan ittisaa dhimmanii duraanuu hordofaafi barbaadaa turuu ibsu.\\nNamni
-  kun Finfinneetii gara naannoo Amaaraatti yeoo imaletti magaalawwan akka Kombolchaa,
-  Daseefi Gugguuftuutti bubbu\u2019aa akka dhufe himuun namoota inni qunname qulqulleeffachuuf
-  yaalanis mirkaneeffachuu akka hin dandeenye dubbatu.\\n\u201dKonkolaataa ummataa
-  inni keessa ture keessa gara namoota 60 ta\u2019anitu keessa turan garuu eenyuyyu
-  hin beeku. Dunkaana dhaabnee namichi deemus odeeffannoo gurbaa kanaa hordofnee namoota
-  adda baasuuf hojjechaa jirra,\u201d jedhu.\\nObbo Geetinnat naannoo isaaniittis
-  hospitaala waan qabaniif namoota kana akka sirriitti hordofan ibsuun, konkolaataan
-  namni sun keessa ture Dasee irraa ka\u2019ee gara Saayintitti imalaa ture jedhu.\"",
-  "\"SBO/VOL \u2013 Gurraandhala 17,2017) Ergamtootni wayyaanee murni Lammaa Magarsaa
-  fi Abbaa Duulaa Gammadaa faa malaanmaltummaatti duuluu kan jedhuun karoora wayyaanee
-  kan master plaanii Finfinnee adeemsa baay\u2019ee dhokataa ta\u2019een hojii irra
-  oolchuuf sochiitti akka jiran barame.\\nAkka odeessi keessaa ifa godhutti hogganootni
-  OPDO warri haaressi wayyaaneen muudamanii fi warri duraanii kanneen TPLF/wayyaaneef
-  amanamoo ta\u2019an kanneen akka piresidaantii Oromiyaa kan jedhamu Lammaa Magarsaa
-  fi A/Duulaa Gammadaa faa master plaanii magaalaa Finfinnee kana hojii irraa oolchuuf
-  kolgaa malaanmaltummaatti duuluu jedhuun, magaalota akka Buraayyuu, Sulultaa, Sabbataa,
-  Laga Xaafoo, Galaan, Dukam, Adaamaa fi Shashimanne keessaa warra adeemsa kana ni
-  mormu jedhanii fi duraanis murtii kana dura dhaabbataa turan hidhaatti naquuf murteessanii
-  itti deemaa jiran.\\nMormii master plaanii magaalaa Finfinneen walqabatee gaaffii
-  ummataan ka\u2019an hunda maqaa malaanmaltummaa jedhu itti dhoobuun kanneen OPDO
-  keessaas ta\u2019u ummataa keessaa adeemsa isaanii fi kan wayyaanee mormuun dura
-  dhaabbatanii ummataaf falmaa turan rakkina qabdu ittiin jechuun mara isaanii hidhaatti
-  guuruu akka eegalanii jiran oduun kun ifa godha.\\nMaqaa malaanmaltummaa jedhuun
-  sakatta\u2019iinsa taasisneerra jedhanii galmee cufuun magaalaa tokkotti hanga namoota
-  30 ramadanii ergaa kan jiran oggaa ta\u2019u, warri kunis dhuguma namoota malaanmaltummaan
-  shakkaman saaxiluuf osoo hin taane, warra adeemsa abbaa irrummaa wayyaanee fi hagganoota
-  OPDO morman hidhaaf qopheessuuf akka ta\u2019es eerameera.\\nErgamtootni wayyaanee
-  hoggantoota OPDO jedhaman adda durummaan hojii farrummaa kana tarkaanfachiisaa jiran
-  piresidaantii Oromiyaa kan jedhamu\\n1. Lammaa Magarsaa,\\n2. A/Duulaa Gammadaa,\\n3.
-  Warqinaa Gabayyoo,\\n4. Hiruut Biraasaa,\\n5. Dammallash G/Mikaa\u2019el faa akka
-  ta\u2019an odeessi keessaa kun ni addeessa.\\nLammaa Magarsaa afaan dhadhaa dibatee
-  ummata Oromoo dogoggorsuu fi falmii mirgaa irraa dhaabuuf guyyuu mediatti ba\u2019ee
-  waan hojii irra oolchuu hin dandeenyee fi ajaja gooftolii isaa wayyaanee/TPLFn ala
-  taakkuu siquuf mirga hin qabne isaa waa meeqa xibaaru daawwatamaa fi dhaga\u2019amaa
-  jiraachuu odeessi kun ni yaadachiisa.\\nFakkeessituu Oromoo bittaa alagaa murna
-  TPLF/EPRDF jala tursuuf kijibaan olii gadi cece\u2019aa jiru Lammaa Magarsaa irraa
-  ummatni keenya of eeguu fi olola inni oofuuf gurra isaa ergisuu akka hin qabne kan
-  hubachiisu odeessi kun, amanamtootni wayyaanee kunniin, magaalota olitti eeraman
-  hundatti \u2018Anti-corruption\u2019 kan jedhu erganii duula hidhaa haaraan warra
-  OPDO keessaa adeemsa isaanii mormanii fi ummata jibban irratti banuuf saganteeffatuu
-  isaanii mirkaneessa.\\nLammaan, Birhaanuu Haayiluu fi Ittafaa Tolaa kan jedhaman
-  hiriyootuma A/Duulaa fi caasaa isaa warra ummata Oromoo nyaachuudhaaf afaan banatanii
-  jiran waliin ta\u2019uun duula kana banuuf karoorfatuu dha odeessi kun kan mul\u2019isu.\\nAkka
-  odeessa jiruutti wayyaanee/TPLF karaa ergamtoota ishee kanneenii golgaa malaanmaltummaatiin
-  kanneen OPDO keessaa adeemsa ishee mormanii fi ummata dhaga\u2019an qulqulleessuun
-  karoora ishee kan master plaanii magaalaa Finfinnee suuta suutaan hojiitti hiikuuf
-  murteeffattee jirti.\\nKana waan ta\u2019eef, miseensotni OPDO kanneen quuqama ummataa
-  qabanis ta\u2019e ummatni adeemsa diinummaa murna Lammaa Magarsaa fi wayyaanee kana
-  dammaqinaan jala bu\u2019uu fi hojii diinummaa isaanii fashalsuuf ammarraa dura
-  dhaabbatuu akka qaban odeessi kun ni dhaama. Afaaniin miidhaa Oromoo haasawaa, gochaan
-  harka lafa jalaan shira Lammaa Magarsaa faa xaxaa jiran saaxilamuu akka qabuu fi
-  ummatni keenya olola ergamtoota diinaas dhugeeffatuu fi olola isaaniinis warraaqsa
-  geggeessu irraa dagamuu akka hin qabnes jala muree dhaama.\"", "\"Fuulawwan Feesbuukii
-  sobaa maqaa namoota bebbeekamootin banaman odeeffannoowwan sobaa tamsaasun yeroo
-  gara yerootti baay\u2019achaa dhufeera.\\nNamoota bebbeekamoo fuulawwan Feesbuukii
-  sobaa maqaa isaaniitin banaman keessaa tokko atileet Komaandar Daraartuu Tulluuti.\\nItoophiyaa
-  Cheek bilbilaan akka mirkaneeffatetti atileet Komaandar Daraartuu Tulluun fuula
-  Feesbuuki tokko qofa qabu.\\n\u201cFeesbuukii tokko qofan qaba\u201d jechuunis atileet
-  Komaandar Daraartuu Tulluu Itoophiyaa Cheekitti himaniiru.\\nNutis fuulawwan Feesbuukii
-  sobaa maqaa atileetittiin banamanfi odeeffannoowwan sobaa dabarsanirraa akka of
-  eegdan dhaamna.\\nToorri Feesbuukii kun (https://www.facebook.com/derartu.tulu.5)
-  kan atileet Komaandar Daraartuu Tulluu ta\u2019uu Itoophiyaa Cheek mirkaneefateera.\"",
-  "\"Imaammata biyya alaa fi gama dinagdeen milkaa\u2019iina argachuuf tokkummaan
-  akkaan barbaachisaa ta\u2019u prezidaant Traamp haasawaa waggaa kan biyyoleessaa
-  irratti hubachisanii jiru.\\nHundii keenya adda addummaa qabnu cinatti dhiifnee
-  waan irratti walii galuu dandeenyu adda baafachuun uummata nu filatee tajaajiila
-  kennuu qabnu fixaan baasuuf waan akkaan barbaachisaa ta\u2019e Tokkummaa qabaachuuf
-  galgala kana waamichan dhiyeessaa jedhan Traamp.\\nPrezidaant Traamp haasawaa daqiiqaa
-  80 fudhate Kanaan caasaa immigreeshinii fi caasaa biyyatti keessa deebi\u2019anii
-  akka foyyeeffamaniif yaadan dhiyeesse seera tumtoonni raggaasisaa jechuun gaafatan
-  .\\nImaammata biyya alaa kan ilaaleen walii galtee nukleera Iraan fi dhimmi Koriyaa
-  kaabaa irratti guutuummaatti hanqiina jiru irratti hojjachuuf Traamp ejjennaa cimaa
-  akka qaban waadaa seenan.\\nHaasawa Prezidaantichaaf deebii kennuuf ka agama Paartii
-  Dimookiraatii tii dubbatan \u2013 Seneetor Jooseef Kenedii sadaffaan garuu, dhimmoota
-  hedduu irratti haasaan prezidaant Traamp dhiheessan kan lammiwwan Ameerikaa abboota-qabeenyaa
-  fi duureyyii gargaaru malee uummata hojjetee buluuf faayidaan inni kennu hin jiru,
-  jedhan.\\nHaasawa Prezidaantichaa fi deebii Seneetor Kenediin kennnan irratti hayyoota
-  lama haasofsiisnee jirra. Guutummaa isaa dhaggeeffadhaa.\\nYaada kenni\"", "\"Sheer
-  Itiyoophiyaa keessatti yeroo hunda hojjatoota qaama miidhamtoota ta\u2019an of keessatti
-  qabachuun waan shakkii hinqabnneedha.Haaluma kanaan sagantaa DONUTS kan Feer tireed
-  Afrikaa hojjatoota qaama miidhamtoota biro 70 meeshaa caalatti akk hojiif ittimijaayutti
-  kan isaan deeggaru argachuun nu gammachiisa.Walittiqabaadhaan fayyadamtoonni 178
-  gahaniiru.Pirojektii kana keessatti gareen Sheer Itiyophiyaa fi Feer tireed Baatutti
-  kan argamu hanga Walda deebsanii dhaabuu Giraarbet gosa meeshaa barbaachisu fayyadamtotatti
-  safaruu fi sirrii ta\u2019uu mirkaneesuu raawwatan.Kunis Saayiklii abbaa miila sadii,
-  Kiranchii,harka namaan tolfame,daawitee ijaa fi meeshaa dhageettii kan dabalatuudha..Dhiyeenna
-  kana meeshaleen kun kennameera.Nuti Feer tireed Afrikaa fi waldaa deebsanii dhaabuu
-  Giraar bet hojii guddaa hojjatani fi deeggarsa taasisaniif akkaan galateeffanna.\""]'
-src_ngrams: '{"1": [[["fi"], 515916], [["kan"], 400382], [["akka"], 388078], [["hin"],
-  313026], [["ta"], 310829]], "2": [[["afaan oromoo"], 33642], [["yoo ta"], 30544],
-  [["akka hin"], 24468], [["akka ta"], 18054], [["osoo hin"], 17830]], "3": [[["osoo
-  hin taane"], 7258], [["mootummaa naannoo oromiyaa"], 4533], [["qabsoo bilisummaa
-  oromoo"], 3224], [["yaada dabalataa fe"], 2906], [["qeerroo bilisummaa oromoo"],
-  2880]], "4": [[["qofa osoo hin taane"], 1964], [["rabbiin subhaanahu wa ta"], 1617],
-  [["not a registered user"], 1440], [["already have an account"], 1439], [["this
-  comment as inappropriate"], 1232]], "5": [[["report this comment as inappropriate"],
-  1232], [["join facebook to connect with"], 695], [["and others you may know"], 693],
-  [["facebook gives people the power"], 629], [["gives people the power to"], 600]]}'
+sample: '["\"Foddaawwan jalatti qofa, galmee LibreOffice kamiyyuu foddaa Aloolaa Inteerneetii
+  Maaykiroosooftii keessaa arguu ni dandeessa. Sagantaa Qindeessaa LibreOffice keessatti
+  to''annoo ActiveX ijaari.\\nTo''annoo ActiveX ijaaruu\\n-\\nLibreOffice fi Kaasaa
+  Ariitii cufi.\\n-\\nKabala hojii foddaawwan irraa qabduu eegallii cuqaasi.Shanoo
+  To''annoo fili.\\n-\\nQaama To''annaa keessaa, Sagantaalee Ida''uu yookiin Hir''isuu
+  cuqaasi.\\n-\\nTarree keesaa, LibreOffice cuqaasi, achii Jijjiiricuqaasi.\\n-\\nMasaka
+  Ijaarsaa keessaa, Fooyyessifili.\\n-\\nGaliinsa Qaamota Dirqalee bani achii galinsaTo''annoo
+  ActiveX barbaadi. Baafata xiqqaa saajoochaa baniitii amala ijaaruuf fili.\\n-\\nItti
+  aanaa fi Ijaarsa cuqaasi.\\nGalmeewwan LibreOffice arguu\\n-\\nFakkeenyaaf, Aloolaa
+  Inteerneetii keessaa, fuula saphaphuu geessituu gara LibreOffice galmee barreessaa
+  qabate sakkata''i.\\n-\\nGalmee foddaa Aloolaa Inteerneetii keessaa arguuf geessituu
+  cuqaasi.\\nFaayilii baxxee jabaa keerra olkaa''uuf ammas geessituu cuqaasa-mirgaa
+  gochuun waan hin oolle.\\nGalmeewwan LibreOffice gulaaluu\\nGalmeen LibreOffice
+  Aloolaa Inteerneetii keessaa tuuta saajoowwan kamshaa dubbisi-duwwaa agarsiisa.\\n-\\nGaragalcha
+  galmee foddaa LibreOffice haaraa keessaa banuuf saajooFaayilii gulaalliikamshaa
+  galmichaa keessaa cuqaasi.\\n-\\nGaragalcha galmichaa gulaali.\"", "\"Geroge Herbert
+  Walker Bush, pirezidaantii Amerikaa 41ssoo bara 1989 haga 1993 biyya Amerikaa bulchaa
+  bahe. Isa irraa ammoo Bill Kilintonitti fuudhe bara 1993 haga 2001 biyya bulchee.
+  Kilinton irraa ammo Geroge W.Bush (ilma pirezidaantii 41essoo)tti irraa fuudhee
+  bulche.\\nGeorge H.W.Buush, 41essoon,Sad.,30,2018 ganna du\u2019e.Reeffa isaa fulaa
+  akka akkaatiin irra maranii jabeennaa fi waan innii biyyaa baheen faarsuutti jiran.\\nIlma
+  isaa angafa pirezidaanti George Walker Buushii fi nama hedduutti pirezidaanti kana
+  waan innii biyyaa baheen faarsuutti jira.\\nPirezidaantota Amerikaa jiran abran;Jimmy
+  Carter,Bill Clinton,Barack Obama, George Bush fi Donald Trump faatilleen yaadannoo
+  tanaaf mana amantii kiristiyaanaa DC, jiru National Cathedral jiru dhufani reefa
+  geegessan.\\nTiraampi, kun awwaalaa mitii guyyaa Buush jabeenna isaatiin faarisunu
+  jedhee saade.\\nGeroge H.W Buush ganna 94tti du\u2019e Sadaasa 6,2018 lafa innii
+  itti dhalte godina Teksasitti fi mana kitaabaa Teksas fuluma jaartii isaa itti awwaalanitti
+  awwaalan. Gerige H.W.Buush, 41essoon,Sad.,30,2018 ganna 94tti du\u2019e\\nYaada
+  kenni\"", "\"Salaale aanaa Dagam ganda Yaayyaa Haroo keessatti waraanni mootummaa
+  dargaggoota lafaa dhufa lama sababa tokko malee ajjeese jedhame.\\nJiraattonni OMNf
+  yaada kennan, ajjeechaan kun Hagayya 14, 2014 ALItti raawwatame jedhan.\\nDargaggoota
+  ajjeefaman malee sadi immoo madeessuu maatiin dargaggootaa himanii jiru.\\nWaraanni
+  Bilxiginnaa dargaggoota ganda kanaa shan \u2018\u2019Isin WBO dha\u201d jechuudhaan
+  maatii biraa funaanee deemuudhaan rasaasa itti dhukaasee laga Mogoritti naqee jedhu
+  maatiin. Shanan isaanii keessaa Ijaaraa Makonninii fi Fiqaadaa Tolasaa ajjeefamuu
+  maatiin himan.\\nDargaggoonni sadan hafan miidhama hamaaf saaxilamanii amma waldhaasarra
+  jiru jedhu jiraattonni.\\nIjoollee lamaan ajjeefaman keessaa reeffi Fiqaadaa Tolasaa
+  qofti akka argame himu warri isaa.\\nIjaaraa Makonnin guyyoota lamaaf reeffa isaa
+  barbaadanii kan ijibbaatan ta\u2019uu maatiin himan.\\nGodina kanatti irra deddeebiin
+  dargaggoonni fi maatiin isaanii hariiroo Waraana Bilisummaa Oromoo waliin qabdu
+  jedhamuun ajjeefamaa jiru.\\nSababa tokko malee waraanan saamamaa qe\u2019een irratti
+  gubachaa jiraachuu ragaaleen mul\u2019isu. Maatiin kumaatamaan mana hidhaatti dararamaa
+  jirus jedhame.\\nGIPHY App Key not set. Please check settings\"", "\"Afaan Oromoo
+  Hundee Oromummaati\\nOromiyaan (kan yoo Ingiliffa keessatti yeroo tokko tokko Oromia
+  jedhamee barreeffamu, kan garuu barreeffama Afaan Oromoo keessatti Oromiyaa jedhamee
+  beekamu) kan kutaalee Itoophiyaa saglan keessaa tokko taate dha. Badhina/ballina
+  lafaatiin bahaa hanga kibba-dhihaa biyya keessatti 353,632 km\u00b2 ta''e qabatee,
+  baayyinaa ummataa bara 2002 tilmamee hanga miliyoona digdamii-afurii qabdi, kunis
+  ballina lafaa fi baay''ina ummataan biyyaa keessaa tokkofaa ishee taasisa. Isheenis
+  kan ofii keessa qabduu: kutaa Arsii, Baalee, Harargee, Iluu Abbaa Booraa, Kafaa,
+  Shawaa, Sidaamoo fi Wallagga of keessaa qabdi, Booranaa fi Gujiin Sidaamoo jalatti
+  walitti qabama turan. Magaalaan guddoon Oromiyaa durii Finfinnee yoo taatu, kan
+  ammaa garuu Adaamaadha. Bara booda gaaffii mirgaa sabni Oromoo gaafateen booda gara
+  Finfinneetti deebbite. Magaallan gugguddoon biraa Oromiyaa keessatti argaman Adaamaa,
+  Amboo, Asallaa, Bishooftuu, Dambidoolloo, Fiichee, Gimbii, Gobbaa, magaalaa Jimmaa,
+  Mattuu, Nagallee Booranaa, Naqamtee, Shaashamannee fi Walisoo dha.\\nJaarraa digdamii
+  tokkoffaan duraatti, magaalaan guddittii Oromiyaa Finfinnee turte, kunis maqaa biraa
+  Addis Ababaa jedhamunis beekamti (maqaan kun Afaan Oromoo miti). Magaalaan guddittii
+  Oromiyaa gara Adaamaatti jijjiiramuun ishee mormii hedduu fideen ture. Morkitoonni
+  akka jedhanitti bulchaan Itoophiyaa Finfinneen Oromiyaa keessatti argamuu ishee
+  hin barbaadne jedhaniiru.[1][2] Karaa biraammoo, Finfinneen afaan, aadaa fi seenaa
+  Oromoo guddisudhaaf mijaata miti jechudhaan mootumman ni dubbata. \\\"[3]\\nundefined\\nGodinaalee
+  Oromiyaa\\nWaxabajjii 10, 2005 keessatti Dhaabbata Dimookraatawaa Ummata Oromoo(DhDUO)
+  (Oromo Peoples'' Democratic Organization (OPDO))n, kan kutaa bulchaa Adda Demookraatwaa
+  Warraaqsa Ummatoota Itoophiyaa (ADWUI) ta''ee, magaalaa guddoo Oromiyaa akka Finfinneetti
+  deebisu ifa godheera. Oromiyaan naannoo Tigraay irraa kan hafe naannoolee hundaan
+  wal daangessiti. Kun immoo yeroo tokko tokko walitti bu''insa uuma. Fakkkeenyaaf
+  naannoo Sumaalee keessatti.\\nGodinaaleen Oromiyaa keessatti argaman Arsii, Baalee,
+  Boorana, Harargee Bahaa, Harargee Dhihaa, Iluu Abbaa Booraa, Jimma, Shawaa Bahaa,
+  Shawaa Dhihaa, Shawaa Kaabaa, Wallagga Bahaa, fi Wallagga Dhihaa ti.\"", "\"Hokkara
+  Sudaan: Humni Waraanaa fi mormitoonni Sudaan yeroo ce''umsaa waggaa sadirratti walii
+  galan\\nHumni waraanaa Sudaan kan amma aangoo harkaa qabu waggoota sadan itti aanan
+  mootummaan ce''umsaa bulchiinsa siiviliitiin akka bulu walii gale.\\nManni Maree
+  Ce''umsaa Humna waraanaan hundeeffame akka ibsetti, bulchiinsa siivilii bu''uuressuuf
+  qabsaa''aa kan turan gareen mormitootaa teessoo mootummaa ce''umsaa harka lama keessaa
+  sadi qabata.\\nErga ji''a darbe keessa Pirezidaanti Omar al-Bashir mormii uummataatiin
+  aangoorraa buufamanii as Sudaan humna waraanaatiin bulaa jirti.\\nErgasii gaaffiin
+  uummanni bulchiinsa siivilii guutummaatti bu''uuressuurratti qabu ittuma fufeera.\\nBiyyattii
+  keessatti ce''umsi bulchiinsa siiviliitiin hoogganamu walii galamusaatiin duratti
+  walitti bu''iinsa namoota hiriira ba''anii fi humnoota nageenyaa gidduutti magaalaa
+  Kaartuum keessatti dhalateen yoo xiqqaate uumatarraa namoonni 5 qaamolee nageenyaarraammoo
+  namni tokko du''eera.\\nMaalirratti walii galame?\\nIbsa mormitoota waliin magaalaa
+  Kaartuumitti kennaniin Luutenaanti Jenaraal Yaasir al-Atta akka jedhanitti walii
+  galteen sa''atii 24 keessatti irra ga''ame kan maqaa -Labsii Walabummaa fi Humna
+  Jijjiiramaa- jedhamuun beekamu, qixaan aangoo qooddachuu irratti xiyyeeffata.\\nMana
+  maree of danda''ee keessa seentummaa qaama kamiiyyuu malee hanga filannoon geggeeffamutti
+  biyyattii bulchuuf aangoo kan kenneedhas jedhan.\\nAkka Jenaraal Attaan jedhanitti
+  manni maree haaraa hundeeffame kun teessoo mana maree seera baastotaa kan miseensota
+  300 qabu keessaa harka lama sadaffaa qabata.\\nKanaan dura humna waraanaa wayita
+  aangoo qabatu yeroo ce''umsaaf waggaa lama labsee ture, mormitoonni hiriira ba''an
+  garuu waggaa afur ta''uu qaba jechaa turan.\"", "\"Kitaaba Qulqulluu Intarneetiidhaan
+  | KITAABA QULQULLUU HIIKA ADDUNYAA HAARAA\\n5 Kanaaf, akka ijoollee jaallatamootti
+  Waaqayyoon kan fakkaattan ta\u02bcaa;\\n2 akkasumas akkuma Kiristoos nu jaallatee,
+  Waaqayyoof kennaa fi aarsaa urgaa gaarii qabu godhee nuuf jedhee of dhiheesse jaalalaan
+  deddeebi\u02bcuu keessan itti fufaa.\\n3 Namoota qulqulluu ta\u02bcaniif sirrii
+  waan hin taaneef, halalummaan, xuraa\u02bcummaan yookiin sassatni akaakuu hundumaa
+  isin gidduutti hin dubbatamin;\\n4 gochi qaanessaan yookiin dubbiin gowwummaa yookiin
+  qoosaa fokkisaan wantoota sirrii hin taane dha; kanaa mannaa, Waaqayyoon kan galateeffattan
+  ta\u02bcaa.\\n5 Akkuma beektanii fi akkuma ofii keessanii hubattanitti namni halaleen
+  yookiin namni xuraa\u02bcaan yookiin namni sassataan, jechuunis namni waaqa tolfamaa
+  waaqeffatu Mootummaa Kiristoosii fi Mootummaa Waaqayyoo keessatti dhaala tokko illee
+  hin qabu.\\n6 Dheekkamsi Waaqayyoo sababii wantoota akkasiitiin warra hin ajajamne
+  irratti waan dhufuuf, namni kam iyyuu dubbii faayidaa hin qabneen isin hin gowwoomsin.\\n7
+  Kanaaf, isaanii wajjin tokkummaa hin qabaatinaa;\\n8 sababiin isaas, Gooftaa wajjin
+  haala wal qabateen isin yeroo tokkotti dukkana turtan; amma garuu ifa dha. Kanaaf,
+  akka ijoollee ifaatti deddeebi\u02bcuu keessan itti fufaa;\\n9 sababiin isaas firiin
+  ifaa gaarummaa, qajeelummaa fi dhugaa akaakuu hundumaa kan qabate dha.\\n10 Wanta
+  Gooftaa biratti fudhatama qabu yeroo hundumaa qoraa mirkaneessaa;\\n11 akkasumas
+  hojiiwwan dukkanaa firii hin qabne irratti hirmaachuu keessan dhiisaa; kanaa mannaa
+  isaan saaxilaa.\\n12 Sababiin isaas, wanta isaan dhoksaatti hojjetan dubbachuun
+  illee nama qaanessa.\\n13 Ammas wantoonni hundi ifaan waan saaxilamaniif wantoonni
+  saaxilaman hundi ifa ta\u02bcu.\\n14 Kanaaf, \u201cYaa namicha rafaa jirtu nana,
+  dammaqi, warra du\u02bcan keessaas ka\u02bci; Kiristoos si irratti ibsa\u201d jedhameera.\\n15
+  Egaa akka warra ogummaa hin qabneetti utuu hin ta\u02bcin, akka namoota ogeeyyii
+  ta\u02bcaniitti akkamitti akka deddeebitan of eeggannoodhaan hubadhaa;\\n16 guyyoonni
+  sun hamoo waan ta\u02bcaniif, yeroo keessan akka gaariitti itti fayyadamaa.\\n17
+  Kanaaf, gowwoota hin ta\u02bcinaa; kanaa mannaa, fedhiin Yihowaa maal akka ta\u02bce
+  hubachuu keessan itti fufaa.\\n18 Kana malees, jireenya gadhiisii ta\u02bceef waan
+  isin saaxiluuf daadhii wayiniitiin hin machaa\u02bcinaa; kanaa mannaa hafuuraan
+  guutamuu keessan itti fufaa.\\n19 Faarfannaadhaan, Waaqayyoon galateeffachuudhaan,
+  akkasumas faarfannaa hafuuraatiin walitti dubbadhaa; garaa keessan keessattis muuziqaadhaan
+  Yihowaadhaaf faarfadhaa;\\n20 Waaqaa fi Abbaa keenyaaf yeroo hunda maqaa Gooftaa
+  keenya Yesuus Kiristoosiin wanta hundumaatiif galata dhiheessaa.\\n21 Kiristoosiin
+  sodaachuudhaan waliif bitamaa.\\n22 Haadhotiin manaa akkuma Gooftaadhaaf bitaman
+  abbootii manaa isaaniitiif haa bitaman;\\n23 sababiin isaas akkuma Kiristoos gumichaaf
+  mataa ta\u02bce, abbaan manaas mataa haadha manaa ti; Kiristoos gumicha isa qaama
+  isaa ta\u02bceef fayyisaa dha.\\n24 Akkuma gumiin Kiristoosiif bitamu, haadhotiin
+  manaas waan hundumaan abbootii manaa isaaniitiif bitamuu qabu.\\n25 Abbootii manaa
+  nana, akkuma Kiristoos gumii jaallatee fi ofii isaa dabarsee isaaf kenne, haadhotii
+  manaa keessan jaallachuu keessan itti fufaa;\\n26 inni kana kan godhe gumicha bishaaniin,
+  jechuunis dubbii Waaqayyootiin dhiqee qulqulleessuudhaan qulqulluu gochuufi;\\n27
+  kunis gumicha xurii yookiin gogaa shuntuuraa yookiin wantoonni akkasii tokko illee
+  utuu isa irratti hin argamin, qulqulluu fi hir\u02bcina kan hin qabne godhee akkuma
+  miidhagina isaa eegetti of duratti dhiheessuufi.\\n28 Haaluma wal fakkaatuun, abbootiin
+  manaas haadhotii manaa isaanii akkuma qaama isaaniitti jaallachuu qabu. Namni haadha
+  manaa isaa jaallatu ofii isaa ni jaallata;\\n29 namni qaama isaa jibbu hin jiru;
+  kanaa mannaa akkuma Kiristoos gumiidhaaf godhu, ni soora, akkasumas ni kunuunsa;\\n30
+  sababiin isaas nuti kutaawwan qaama isaa ti.\\n31 \u201cKanaan kan ka\u02bces, namni
+  abbaa isaa fi haadha isaa ni dhiisa, haadha manaa isaattis ni maxxana; lamaanuu
+  foon tokko ni ta\u02bcu.\u201d\\n32 Iccitii qulqulluun kun guddaa dha. Ani amma
+  waa\u02bcee Kiristoosii fi waa\u02bcee gumichaa dubbachaan jira.\\n33 Ta\u02bcus,
+  isin keessaa namni hundi akkuma ofii isaa jaallatutti haadha manaa isaa jaallachuu
+  qaba; karaa gara biraa immoo, haati manaa abbaa manaa ishiitiif kabaja guddaa kennuu
+  qabdi.\"", "\"Chamois (Shaamiyas)\\nBineensi barruu tanaan ilaallu maatii bovidae
+  jedhamu keessatti ramadama. Maatiin Bovidae kun uumama akka hoolaa fi re\u2019ee
+  of keessaa qaba. Maqaan isaa kan biraatis mountain goat (Re\u2019ee gaaraa) jedhama.
+  Bineensi kun awurooppaa keessatti argamuu isaattu adda isa godha malee, gadamsa
+  biyya keenyaatiin walitti dhiheenya qaba. Biyyoonni uumamni kun keessatti argamus
+  Romaaniyaa, Itaalii, Swizzerlaand, Austria, Tarkiii fii Newzeland fa\u2019i. Sanyiileen
+  Newzeland keessatti argaman kunniin achitti hin uumamne. Bara 1907tti mootiin Austria
+  yeroo sanii, akka kennaatti Newzelandiif kenne. Yeroo san irraa kaasee wal horaa
+  haga har\u2019aatti jiraataa jiru. Uumamni kun Shaamiyaas jedhama.\\nShaamiyas inni
+  irra guddaan seentimeetira 75 kan dheeratu yoo ta\u2019u, ulfaatinni isaatis kilograama
+  50tti dhihaata. Akkuma uumama maatii bovidae gaafa gaggabaabaa qaba. Kormaafi dhaltuunis
+  gaafa gaggabaabaa kan qaban yoo ta\u2019u, gaafni isaaniitis xiqqoo gama duubaa
+  caafama. Awurooppaa keessatti argamuu isaatiin lafa qabbanaawaa dachii Awurooppaa
+  san akka dandamatuuf jecha rifeensa furdaa fi tuucha\u2019aa badhaafamee jira. Yeroo
+  oowwaatti halluun rifeensa isaa ni magaalata. Yeroo qabbanaatti ammoo gara daalchaatti
+  jijjiirama. Fuulli isaa ammoo gara adii kan dhihaatu yoo ta\u2019u, ija isaa jalaa
+  ammoo mallattoo gurraacha qaba. Morma isaa gama gubbaa irraa kaasee hanga eegee
+  isaatti ammoo sarara gurraacha qaba.\\nKormaa fi dhaltuun uumama kanaa garagarummaa
+  tokko ni qabu. Innis warri kormaa umrii isaanii irra jireessa kopha kophaa jiraachuu
+  isaaniiti. Yeroo wal qunnamtii wal hormaataa raawwatuu barbaadan qofa gara dhaltuu
+  dhufan. Dhaltuuwwan garuu garee uumanii gamtaan waliin jiraatan. Kunis diina ilmoolee
+  isaanii miidhuu danda\u2019u, gareen ta\u2019anii ofirraa ittisuudhaaf isaan gargaara.\\nAkkuma
+  maatii bovidae bineensi kunis marga dheedaa jiraata. Dabalataanis baalaa fi dameewwaan
+  garagraatis muka irraa ni soorata. Hedduminaanis soorata isaa yeroo guyyaa soorata.
+  Halkan halkan gaafa jiini goobane qofa marga dheeda.\\nBineensi kun saffisa jabaa
+  qaba. Sa\u2019aa tokko keessattis kilomeetira 50 deemuu danda\u2019a. utaalcha irrattis
+  akkaan jabaadha. Lafa irraa meetira 2 ol utaaluu danda\u2019a. Fuulduratti ammoo
+  haga meetira 6 utaala.\\nRimayni uumama kanaa guyyoota 170 ykn ji\u2019a shanii
+  fi walakkaadhaaf tura. Haadhoon takka yeroo takkaan ilmoo tokko dhalti. yeroo garii
+  warri lakkuu dhalus numa jira. Haadhoonis ilmoo isii kana qabattee garee biraa keessatti
+  makamuun kunuunsiti. Ilmoonis haga gaafa of danda\u2019ee marga deedhuu jalqabutti
+  muchuma haadhaa hodhaa jiraata. Gaafa ji\u2019a jaha guute of danda\u2019ee kophaa
+  jiraachuu ni danda\u2019a. Garuu hedduminaan warri dhiiraa haga umriin isaanii waggaa
+  tokko guututti haadha biraa hin soch\u2019an. Ilmoon sun dhaltuu yoo taate achuma
+  umrii ofii guutuu garee haati isii jirtu keessa turti. Warri dhiiraa garuu garee
+  san gad dhiisanii deemuun dirqama itti ta\u2019a.\\nShaamiyas diina heddu bosona
+  keessaa qaba. Yeeyyiin, jeedalaa fi goofadanni diina uumama kanaati. Ilmi namaatis
+  diina biraati. Awurooppaa keessatti foon uumama kanaa akkuma foon re\u2019eetti
+  barbaadama. Kanaafis ilmi namaa adamsee sooratutti jira. Haa ta\u2019u malee mootummoonni
+  Awurooppaa bineensi kun akka hin adamsamne seera baasanii jiru. Shaamiyas waggaa
+  18 haga 22 jiraachuu danda\u2019a.\\nQophii Abu Ibtisam\"", "\"Addunyaa irratti
+  dhiirri dureeyyii ta\u2019an 10 waggaa weerarrii dhukkuba KOOVIID itti hammaatee
+  lamaan keessatti, qabeenyii isaanii dachaan dabaluun ibsamee jira. Gama kaaniin
+  hiyyumaa fi wal qixxumaan ilaalamuu dhabuun hammaachuu isaa gabaasnii ba\u2019e
+  hubachisee jira.\\nOksifaam(Oxfam) akka jedhutti, dhiiroonni dureeyyiin 10 kan qabeenyi
+  isaanii Biliyoona 700 ture, gara Biliyoona 1.5ti kan guddatee yoo ta\u2019u, kana
+  jechuun guyyaatti giddu galeessaan Dolaara Biliyoona 1.3 dabaleefii jira jedha.\\nKunis
+  walgahii xiqqoo kan gama marsariitiin hogganoota addunyaa hordoffii foramii dinagdee
+  addunyaa jalatti gaggeeffameen ibsame.\\nOksfaam akka jedhutti, dureeyyiin kun bara
+  kooviid itti hammaateetti maallaqa argatan kana waggoota weerara sana dura turan
+  14 keessatti maallaqa haganaa hin arganne.\\nYaadawwan Ilaali (1)\\nYaada dabalataa
+  fe''adhu\"", "\"Tafsiira (Ibsa) suuratu Al-Hadiid hanga kutaa 6 ilaalle jirra. Kutaa
+  7ffaa keessatti maalummaa jireenya addunyaa ni ilaalla. Jireenyi addunyaa namoonni
+  dheebotanii fi irratti wal fixaniif tuni maalidhaa? Haqiiqaan (dhugaan keessa) ishii
+  akkamii? Namni sirritti keessaa fi dhuma jireenya addunyaa yoo beekin gubbaa ilaalun
+  ni gowwooma. Amma tafsiira suuratu Al-Hadiida kutaa torbaffaa itti fufnu.\\nItti
+  Haa FufnuRabbii Ahkamal haakimiin ta\u2019eef faaruu fi galanni hundi haa ta\u2019uu.
+  Ilmi namaa uumamtoota baay\u2019ee caalaa kan kabajameedha. Dachii tana keessatti
+  wanti uumama biraatiif hin laafifamne isaaf ni laafifame. Wanta uumama biraatiif
+  hin kennamne isaaf ni kenname. Aqliin (sammuun) ittiin yaadu fi xinxallu kennaa
+  guddaa uumamtoonni baay\u2019een dhabaniidha. Rabbiin subhaanahu wa ta\u2019aalaa
+  ilma namaa akka kabaje akkana jechuun dubbata:\\nDabalata DubbisuufYommuu gara jireenyaa
+  mil\u2019annu wantoonni nama ajaa\u2019ibsisanii fi gaddisisaan baay\u2019een keessatti
+  mul\u2019atu. Namni jireenyi maaliif akka uumamte beeku jireenya keessatti hin dhama\u2019u.\\nDabalata
+  DubbisiJireenya tana keessatti namoonni karaa adda addaatin ni qoramu. Gariin isaanii
+  yoo rakkatan gariin immoo ni bashannanu. Gariin yommuu beela\u2019anii fi dheebotan,
+  gariin immoo quufuun dachii keessatti badii baay\u2019ee hojjatu. Namni jireenyi
+  maaliif akka uumamte hin beekne, \u201cKuni maaliif akkana ta\u2019aa?\u201d jechuun
+  dhama\u2019a. Yommuu rakkoon isatti buutu obsa dhabuun namoota garmalee dhiphatan
+  keessaa ta\u2019a. Namni jireenyi maaliif akka uumamte beeku immoo iccitii rakkoo
+  fi qananii duuba jiru hubachuun jireenya keessatti ifaan tarkaanfata. Kutaa darbe
+  irraa itti fufuun ammas daran jireenyi maaliif akka uumamte ni ilaalla.\\nDabalata
+  DubbisiKutaa darbe keessatti kaayyoo jireenyi tuni itti uumamteef tuttuqne jirra.
+  Tarii namni hundi kaayyoo kana takkaan hubachuu dhiisu danda\u2019a. Garuu yommuu
+  fakkeenyaa fi ibsa bal\u2019innaan dabalaniif ni hubata. Kanaafi, Qur\u2019aanni
+  dhimma jabaa tokko irra deddeebi\u2019ee fakkeenyota dhiyeessu fi haala garagaraatin
+  ibsa. Kaayyoon kanaa, namoonni dhimma san hubachuu fi hojii irra oolchun gammachuu
+  fi milkaa\u2019inna ganda lamaanii akka argataniif. Dhimmoota jajjaboo fi garmalee
+  barbaachisan keessaa tokko kaayyoo jireenyaati. Rabbiin subhaanahu wa ta\u2019aalaa
+  beekaa fi ogeessa ta\u2019e, wanta uumuu fi hojjatu hunda ogummaa fi beekumsaan
+  waan hojjatuuf jireenya tana kaayyoo guddaaf uume. Namoonni kaayyoo kana akka hubatanii
+  fi qajeelaniif Qur\u2019aana keessatti irra deddeebi\u2019uun haala garagaraatiin
+  ibse jira. In sha Allah, itti gaafatamummaan nurra jiru wanta Qur\u2019aana keessatti
+  ibsame hanga dandeettin keenya hayyamuun ummataaf dhiyeessudha. Achi booda namni
+  qajeele faaydama ofiitiif qajeela. Namni ergaa Rabbii isaa fudhachuu didee of tuule
+  immoo ofuma miidha.\\nDabalata DubbisiBismillahi Rahmaani rahiim\\n\ufd3e \u0671\u0644\u06e1\u062d\u064e\u0645\u06e1\u062f\u064f
+  \u0644\u0650\u0644\u064e\u0651\u0647\u0650 \u0671\u0644\u064e\u0651\u0630\u0650\u064a
+  \u0647\u064e\u062f\u064e\u0649\u0670\u0646\u064e\u0627 \u0644\u0650\u0647\u064e\u0670\u0630\u064e\u0627
+  \u0648\u064e\u0645\u064e\u0627 \u0643\u064f\u0646\u064e\u0651\u0627 \u0644\u0650\u0646\u064e\u0647\u06e1\u062a\u064e\u062f\u0650\u064a\u064e
+  \u0644\u064e\u0648\u06e1\u0644\u064e\u0622 \u0623\u064e\u0646\u06e1 \u0647\u064e\u062f\u064e\u0649\u0670\u0646\u064e\u0627
+  \u0671\u0644\u0644\u064e\u0651\u0647\u064f\u06d6 \u0644\u064e\u0642\u064e\u062f\u06e1
+  \u062c\u064e\u0622\u0621\u064e\u062a\u06e1 \u0631\u064f\u0633\u064f\u0644\u064f
+  \u0631\u064e\u0628\u0650\u0651\u0646\u064e\u0627 \u0628\u0650\u0671\u0644\u06e1\u062d\u064e\u0642\u0650\u0651\u06d6
+  \ufd3f\\n\u201cFaaruun hundi Kan Rabbii kanatti nu qajeelcheti. Osoo Rabbiin nu
+  qajeelchu baatee silaa nuti gonkumaa hin qajeellu turre. Ergamtoonni Gooftaa keenyaa
+  dhugaadhaan dhufanii jiru.\u201d Suuratu Al-A\u2019araaf 7:43\\nJechoota Ijoo-Jazaa
+  jechuun nama waan gaarii hojjateef mindaa isaaf kennuu ykn nama waan badaa hojjate
+  adabbii isaaf malu adabuudha.\\nSababoota Laafinnaa, Gammachuu fi Milkaa\u2019innatti
+  nama geessan.\\nAkkuma halkanii fi guyyaan, dhiira fi dubartiin garagaraa, hojiin
+  ilma namaas garagara (adda adda). Qur\u2019aana keessatti: Read more\\nIbiddi waraanaa
+  fi fitnaan sheyxaanaa wantoota lama nageenya addunyaa fi tasgabbii dhuunfaa booressaa
+  fi jeeqaa jiraniidha. Gar-tokkeen addunyaa ibidda waraanatiin yommuu reebamtu gara
+  biraatin immoo fitnaa sheyxaanatiin jeeqamti. Ibiddi waraanaa haaluma beeknuun boombii
+  fi rasaasan namoota fixu fi qabeenya barbadeessu yommuu ta\u2019uu, fitnaan sheyxaanaa
+  immoo bifa lakkaawamee hin dhumne qaba. Sheyxaana jechuun ajaja Gooftaa isaa didee
+  namoota gara badiitti kan waamu jechuudha. Kanaafu, sheyxaana kan ijaan mul\u2019atu
+  fi hin mul\u2019anne jechuun bakka lamatti qoodu dandeenya. Kan ijaan hin mul\u2019anne
+  gosa jinni yoo ta\u2019u, karaa namni hin beeknen namatti dhufuun gara badiitti
+  nama waama. Read more\\nGuyyaa guyyaan lubbuun ilma namaa ibidda waraanaatin yommuu
+  darbu, takkaa garmalee nama gaddisisa takkaa immoo akka abdii muratanii fi qalbiin
+  gogdu nama taasisa. Dhalli namaa hanga jireenya tana keessa jiraatu waan badaa fi
+  gaariin ni qorama. Rabbiin subhaanahu wa taa\u2019alaa ni jedha: Read more\\nJireenya
+  keessatti badiiwwan adda addaatti lixuun yommuu of irraanfatanii fi Rabbii ofii
+  dagatan, dukkanni jireenya hangam akka ulfaatu tilmaamun nama hin dhibu. Hojii fokkataa
+  akka gaaritti, hojii gaarii immoo akka fokkuutti ilaalun yeroo itti machaa\u2019antu
+  jira. Machaa\u2019insa fi gaflaa kana keessaa wantoota nama dammaqsan keessaa duuti
+  isa tokko. Takkaa du\u2019a ofiitin takkaa immoo du\u2019a nama biraatin. Dargaggeessi
+  armaan gadi kunis namoota akkanaa irraa ture. Mee amma seenaa isaa haa hordofnu\u2026
+  Read more\"", "\"- Barreessaan Dhaba Wayessa\\n- Seenaa asoosama Afaan Oromoo keessatti
+  bakka olaanaa kan qabu\\n- Kan namni dubbise hunduu inni kaan imimmaan, inni kaan
+  dafqa haqatu\\n- Kitaaba waggoota baay\u2019ee dura baraafi haala rakkisaa keessatti
+  barreeffame\\n- Kitaaba qulqulluufi ergaa jabaa qabu\\n- Kan gabaarraa dhibee hunduu
+  iyyaafatu\u2026.\\nQabiyyee bal\u2019ifatee, seenaa haaraas dabalatee bifa addaatiin
+  qophaa\u2019ee yeroo dhiyootti isin bira gahuuf jira!\\nBayyee wan natti tolaniif
+  atis naf tatee suraa Ketin argee qomoo koo\\nexst\\nqalamni keessan haa mirgisuu\"",
+  "\"Gaaddisni Islaamaa jaarmaya biyya Keniyaa Magaalaa Naayiroobii keessatti jaaramee
+  yeroo dheeraaf hawaasa Muslima Oromoo tajaajilaa jiru yoo tahu, yeroo heddu hayyoota
+  gurguddoo biyyoota adda addaa irraa afeeruudhaan sagantaa da\u2019waa gurguddaa
+  qopheessuudhaan beekama. dabalataanis Madrasaan Gaaddisa I\\nWaraanni Israa\u2019el
+  akkuma dhaadatetti haleellaa Gazzaa irratti raawwataa ture, boqonnaa guyyootaatiin
+  booda itti deebi\u2019eera. Akka dubbii himaan waraana Israa\u2019el jedhetti, haleellaan
+  kun kan duraanii caala cimee itti fufa. Kanaanis ganama harraa irraa jalqabee nannawa
+  garagaraatitti haleellaan xayyaar\\nRAADIYOO NUURALHUDAASoora Qalbii Muslimaa\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272aSOORA
+  QALBIISagantaa 833ffaaNovember 27, 2023\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a
+  Dhaddacha Jaalalaa 193 Tafakkur Tana Quba Qabduu: Rakkoo bishaan dhugaatii Gazzaa\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272a\u272aDownloadLiinkii
+  Xiqqaa\\nWalii galteen waraana yeroof dhaabuu Hamaas fi Israa\u2019el jiddutti godhame
+  harra goolabama. Haa ta\u2019u malee gareen lachuu yeroo boqonnaa kana dheeressuu
+  akka barbaadan beeksisaniiru. Hamaas ammas dabalataaf guyyaa afuriif waraanni akka
+  dhaabbatu barbaada. Israa\u2019el garuu guyyaa tokko tokkoon qofa deemuu\\nHaleellaa
+  fi wal waraansa guyyoota 47tiin booda Hamaas fi Israa\u2019el waraana guyyoota muraasaaf
+  dhaabuuf walii galaniiru. Jaarsummaa Qaxar fi Masriin geggeeffamaa kan ture yaadni
+  yeroofis taatu waraana dhaabuu jedhu guyyaa kaleessaa walii galameera. Waraanni
+  kun guyyaa afuriif kan dhaabbatu yoo ta\u2019u,\\nJaarsummaa Qaxariin kan taasifamaa
+  jiru walii galteen waraana dhaabuu yeroofis taatu dalagaa irra ooluu akka danda\u2019u
+  himameera. Guyyaa harraatis walii galteen kun ifa taasifama jedhamee eeggama. Hoogganaan
+  Hamaas Ismaa\u2019el Haniyyee \u201cWalii galtee irra gahuuf dhihaannee jirra\u201d
+  jechuun himeera. Waraanni\\nIsraa\u2019el haleellaa harra gara barii ganamaatti
+  raawwatteen yoo xiqqaate falasxiinota 50 ta\u2019an mana baruumsaa keessatti ajjeefteerti.
+  Haleellaan harra ganamaa kun osoo namoonni rafan kan raawwatame ta\u2019uun isaa
+  miidhaan cimaan akka dhaqqabu taasiseera. Haleellaan Mana baruumsa Al Fakhuuraa
+  kan kaampii\\nMootummaan Israa\u2019el Gazzaa irraa waan hunda addaan kutee jira.
+  Tajaajilli telefoonaa bakka hedduu hin jiru. Ministeerri fayyaa biyyattii odeeffannoo
+  barbaadu sassaabuurratti hedduu rakkateera. Aljaziiraan gama isaatiin kutaawwan
+  Gazzaa garagaraa irraa odeeyfannoo tokko tokko sassaabuun gabaasuurratt\\nErga waraanni
+  Israa\u2019el haleellaa gara jabinaa Gazzaa irratti raawwatuu jalqaberraa kaasee,
+  ummanni gara kibba Gazzaa baqatuu irratti argama. Mootummaan israa\u2019elis jiraattonni
+  Gazzaa kaabaatti argaman gara kibbaa akka baqatan ajaja irra deddeebiin dabarseera.
+  Kanuma bu\u2019uura godhachuun lammiileen Gazz\\nWaraanni Israa\u2019el Gazzaa keessatti
+  waan hambisaa jiru hin qabu. Gamooleen jireenyaa haxaawamanii dirree qulqullutti
+  deebifamaa jiru. Masjiidonni Rabbii diigamanii jiru. Bu\u2019uuraaleen misoomaatis
+  barbaddeefamee jira. Silaa waraanni hin barbaachisu. Ammoo Yeroo waraanaatti wanti
+  akkaan barbaachisuu fi\\nKamisa kaleessaarraa jalqabee haleellaan waraanni Israa\u2019el
+  Hospitaalotarratti raawwatu hammaatee itti fufeera. Namoonni hedduun qe\u2019ee
+  fi qabeenya isaanii irraa buqqa\u2019anii hospitaala keessatti daheeffatanii jiran.
+  Warri haleellaa misaa\u2019elaatiin miidhames hospitaalootuma keessatti wal\u2019aanamaa
+  jira. Ha\\nWaraanni mootummaa Israa\u2019el haleellaa fi duula ummata Falasxiin
+  irratti raawwatu hammeessee itti fufeera. Gazzaa irratti guyyuu boombiitu rooba.
+  Guyyuu daa\u2019immanii fi dubartoota akkasumas maguddootatu ajjeefamaa jira. Gama
+  biraatiin waraana Hamaas waliinis karaa lafootiin wal waraanuurratti argaman.\\nDaa\u2019iin
+  beekkamaan Islaamaa Doktor Zaakir Naayik ummata Falasxiin mallaqaan gargaaruudhaaf
+  waadaa seenee jira. Doktor Zaakir Naayik diina Islaamummaa dura dhaabbatee, gaafilee
+  adawwiin Islaamaa gaafataniif deebisaa kennuudhaan beekama. Akkasumas namoota haqa
+  barbaadaniif deebii quubsaa kennuudhaan k\\nWaraanni Israa\u2019el, Gazzaa irratti
+  boombii roobsuu eega eegalee ji\u2019a tokko caalee jira. Ummata Gazzaa lafa xiqqoo
+  irratti hacuucamee jiraatus humnaa ol miidhee jira. Ji\u2019a tokko keessatti haleellaa
+  xayyaaraa fi misaa\u2019elaan raawwatame Kanaan lammiileen Falasxiin kan Gazzaa
+  jiraatan 10,022 ajjeefamanii\\nHaleellaan waraanni Israa\u2019el Gazzaa irratti
+  raawwataa jiru ji\u2019a tokko caalee jira. Haleellaan kun hammaachuu malee laaffachuu
+  hin garsiisne. Halkan kaleessaatis misaa\u2019elonni hedduun Gazzaa irratti darbamanii
+  bulan. Haleellaan kun ganama harraatis itti fufee jira. Haleellaa kaleessa galgala
+  raawwatam\\nHoogganaan Ministeera Hambaalee Israa\u2019el, Amichaay Eliyaahuu, Gazzaa
+  irraa namni hundi haxaawamee akka baafamu gaafate. Miseensa garee finxaaleeyyii
+  Yahuudaa kan ta\u2019e Eliyaahuun haasawa raadiyoo Israa\u2019el tokko waliin taasiseen,
+  \u201cFalasxiinonni Gazzaa jiran hundi baafamanii, gammoojjii tokkotti ykn am\\nWaraanni
+  Israa\u2019el Gazzaa irratti duula taasisaa jiru cimsee itti fufeera. Taankii fi
+  meeshaalee waraanaa jajjabaan manaa fi karaa caccabsaa Magaalaa Gazzaa marsanii
+  jiran. Xayyaarri waraanaa ammoo Gazzaa irratti haleellaa qilleensa gubbaan taasisus
+  jabeessee jira. Halkan kaleessaa Jabaliyaa, Bureeyj\\nHaleellaan xayyaaraa fi Misaa\u2019elaan
+  Gazzaa irratti waraanni Israa\u2019el geggeessu hammaatee itti fufeera. Duulli lafoodhaan
+  geggeeffamaa jirus jabaateera. Lammiileen nagayaa lubbuun isaanii galaafatamaa jirus
+  bifuma saniin ol ka\u2019aa jira. Haleellaa waraanni Israa\u2019el buufata baqattoota
+  Jabaliyaa irratti\\nWaraanni Israa\u2019el haleellaa guyyaa kaleessaa gamoo kaampii
+  baqattoota Jabaliyaa keessatti argamu irratti raawwatteen namoon 100 caalan ajjeefamanii
+  jiran. Hedduun isaanii caccaba gamoo jalatti awwaalamanii waan jiraniif lakkoofsi
+  kun dabaluu akka danda\u2019u ministeerri fayyaa Falasxiin ibseera. Israa\u2019e\\nMuummichi
+  Ministeera Israa\u2019el, Benjaamin Netaniyaahuu, waraanni Gazzaa irratti godhamaa
+  jiru hin dhaabbatu jechuun dubbate. \u201cWaraanni kun yoo gareen Hamaas barbaadaye
+  qofa dhaabbata malee, wanti waraana dhaabuu jedhu hin jiru. Osoo addunyaan guutuu
+  waraana dhaabuurratti walii galellee nuti waraana h\\nHaleellaan Israa\u2019el bulchiinsa
+  Falasxiin fi Gazzaa irratti raawwattu kallattii hundaan hammaatee itti fufee, gara
+  biyyoota ollaatis tarkaanfataa jira. Akka Ministeerri Fayyaa Falasxiin ibsetti,
+  kutaa bulchiinsa West Bank, magaalaa Jenin irratti duula waraanni Israa\u2019el
+  geggeesseen namoonni ajjeefaman\\nHaleellaan mootummaan Israa\u2019el kutaa Gaazaa
+  irratti raawwatu cimee itti fufeera. Dubbii himaan waraana Israa\u2019el, jiraattonni
+  Gaazaa kaabaa fi Magaalaa Gaazaa keessa jiraatan, gara Kibba Gaazaa akka baqatan
+  ajaja dabarse. Waraanni Israa\u2019el kallattii hundaan kaabaa Gaazaa fi magaalaa
+  Gaazaa keessatti\\nGamtaan Munshidoota Sikkoo Mandoo yaa\u2019ii jalqabaa hardha
+  Waxabajjii 11/2023 magaalaa Adaamaatti geggeefameen kan hundaaye yoo tahu, kaayyoon
+  gamtichaa aartii Islaamaa ulaagaa Hadiisaa fi Shari\u2019aa guutu, sadarkaa qulqullina
+  qabuun hojjatanii hawaasaaf dhiheessuu akka tahe ibsame. Haaluma kanaan aarti\\nBulchiinsi
+  magaalaa shaggar tibbana masjiidota diiguu isaa hordofuun hawaasa muslimaa kan dallansiise
+  yoo tahu, hiriira mormii jum\u2019aa lamaan dabran geggeeffame irratti humnoonni
+  mootummaa muslimoota heddu ajjeesuufi madeessuun ni beekama. Kanuma hordofuun manni
+  marii dhimmoota islaamummaa rakkoo kan\"", "\"1Yu k\u0101\u0101kub\u0113k :b\u0113sy\u0113\u0113taab
+  *Sabaato kukararakta :asiista, kwaal :Maaryaa ny\u0113bo Maktaala \u0101koo S\u0101l\u014d\u014dm\u0113
+  \u0101koo Maaryaa, kaametiitaab Y\u0101\u0101k\u014db\u014d, mwaanik ch\u0113\u0113
+  boong''u ny\u0113\u0113 anyiny subakooyiilee muustaab Y\u0113\u0113su. 2Yu k\u0101yy\u0113\u0113kun\u0113\u0113,
+  kumwooku :asiista, kubeeta mwaanichaa w\u014dloo /kik\u0113\u0113muchin\u0113 Y\u0113\u0113su.
+  3Kumii k\u0113\u0113lto, kuteebee keey kule, \u201cNg''oo :ny\u0113\u0113 wokuwunuktoow\u0113\u0113ch
+  rwaantaanaa /kikeekeree kochonkeet?\u201d Kiw\u014d\u014d rwaantaanaa miisin. Nto
+  b\u0113r\u0113 koonyal kochonkeet, kuyaataat. /Kikiik\u0113\u0113wunukto rwaantaanaata.
+  5Yu k\u0113\u0113wut kochong'', kukas mur\u0113n k\u0113\u0113buurun\u0113\u0113
+  \u0101wutaab taay. Kikiilaach sireet ny\u0113\u0113 kooy ny\u0113\u0113 l\u0113\u0113l
+  ny\u0113\u0113 kiil\u0113k\u0113ch\u0113\u0113ch\u0113 miisin. Yu kakas :ch\u0113\u0113by\u014d\u014ds\u014d\u014dchoo
+  chiichoo, kumuuyo miisin. 6Kumwoochi :chiichoo kule, \u201c-M\u014d\u014dmuuy\u0113!
+  \u0100nk\u0113t\u0113 kule k\u014d\u014dm\u0101ch\u0113 Y\u0113\u0113su ny\u0113bo
+  Naasareet nyoo /kik\u0113\u0113kw\u0113rtoochin\u0113 murtooywoont\u0113\u0113t.
+  Kaakung''eetee meet, neennyi m\u0101mii yu. Okas yu /kikiit\u014d\u014dr\u0113.
+  7B\u014d\u014dmwoochi B\u0113t\u0113r\u014d \u0101koo rubiik chuut kule, \u2018Mii
+  k\u014d\u014dnt\u014d\u014dy\u0113 :Y\u0113\u0113su Kalilaaya w\u014dl\u0113\u0113
+  +m\u0101b\u014d\u014dny\u014d\u014drchi kuu yoo kimwoowook.\u2019 \u201d 8Kichuwunee
+  :ch\u0113\u0113by\u014d\u014ds\u014d\u014dchoo kochonkaanaa ny\u0113\u0113 k\u0101b\u014d\u014dtoon
+  ankaakunam :tonkoy. Kilabat \u0101m\u0101n\u0101\u0101ng''\u0101loolchi chii ake
+  tukul \u0101m k\u0113\u0113ltaab too, kuuyu kikiikumuuyo miisin. [ 9Yu kaakung''eetee
+  :Y\u0113\u0113su meet k\u014drr\u014d\u014dn kum\u0101n\u0101\u0101mwook :asiista
+  \u0101m b\u0113sy\u0113\u0113t ny\u0113\u0113 kirub\u0113 :b\u0113sy\u0113\u0113taab
+  *Sabaato, k\u014d\u014dboorchi keey kurook Maaryaa ny\u0113bo Maktaala, nyoo kiib\u0113b\u0113\u0113toochin\u0113
+  :inee t\u0101mirmirook tisab choo kiiyiim\u0113. 10Kuwo \u0101koy w\u014dl\u0113\u0113
+  kimii kuriiry\u0113\u0113 :rubiikaab Y\u0113\u0113su \u0101nkumwoochi kule, \u201c!Kaakas
+  Y\u0113\u0113su \u0101nkusoboot!\u201d Kichwees :rubiichoo ng''aleekyii. 12Nto mii
+  yoo, k\u014d\u014dboorchi keey :Y\u0113\u0113su \u0101m eerta ake rubiikyii \u0101y\u0113\u0113ng''
+  ch\u0113\u0113 kimii k\u0113\u0113ltaab too kukwoon\u0113\u0113 Y\u0113\u0113rus\u0101l\u0113\u0113m.
+  13\u0100m yooto, kooyeey :rubiichoo Y\u0113\u0113rus\u0101l\u0113\u0113m b\u0101kumwoochi
+  chuut kule, \u201c!Kaakeekas Y\u0113\u0113su.\u201d Kuchwees :chuut ng''aleekwaa
+  subak. 14\u0100m l\u0113tuunoo, k\u014d\u014dboorchi keey :Y\u0113\u0113su rubiik
+  choo ki taman \u0101k akeenke kumii kwoomiisy\u0113. Kib\u014dlchi :Y\u0113\u0113su
+  rubiichoo, kuuyu kitay k\u014d\u014dy\u0113nchi kule kiimuuch\u0113 :inee kung''eetee
+  meet \u0101koo mbo subak kule kichwees ng''aleekaab biiko choo kimwooy kule kiikukas
+  inee \u0101nkusoboot. 15Nto mii yoo, kumwoochi rubiikyii kule, \u201cObe k\u014d\u014dr\u014d\u014dsy\u0113k
+  tukul b\u014d\u014d-\u0101mchinoot\u0113 biiko tukul l\u014dk\u014d\u014dyw\u0113k
+  ch\u0113\u0113 k\u0101room\u0113ch. 16Chii ake tukul ny\u0113\u0113 k\u0113\u0113y\u0113nwoo
+  /ankiibatisan, makooraraach :Y\u0113yiin. Nto nyoo k\u0101m\u0113\u0113y\u0113nwoo,
+  +/makiiruusta. 17+/M\u0101kiikoochi biiko choo k\u0113\u0113y\u0113nwoo k\u0101\u0101muuk\u0113yw\u0113\u0113k
+  ch\u0113\u0113 imuuch\u0113\u0113 kuyey kiy ny\u0113\u0113 -m\u0113\u0113muuch\u0113
+  :chii \u0101m nkuruukyii. Imuuch\u0113 \u0101m kaayneenyuu k\u014d\u014db\u0113b\u0113\u0113tooy
+  t\u0101mirmirook ch\u0113\u0113 miyoot\u0113ch kung''\u0113\u0113ty\u0113\u0113
+  biiko. Makung''alaal ng''\u0113ly\u0113\u0113bik ch\u0113\u0113 -m\u0113\u0113nk\u0113t\u0113.
+  18Makunam eereen, nto yoo kayye ng''woon\u0113\u0113t, m\u0101b\u0101k\u0101ch\u0113.
+  Nto yoo k\u0101tiiny\u0113\u0113 \u0101wunny\u0113kyii chii ny\u0113\u0113 imnyoon\u0113
+  ankusaay Y\u0113yiin, kusob\u0113 :chiichoo.\u201d 19Yu kaakoowaany :mokoryoont\u0113\u0113t
+  Y\u0113\u0113su kung''\u0101loolchi rubiikyii, /k\u0113\u0113yib kuwo Kaab Y\u0113yiin
+  \u0101nkuwok\u014d\u014dbuur\u0113\u0113 \u0101wutaab taay ny\u0113bo Y\u0113yiin.
+  20Kiba :rubiik k\u014d\u014dr\u0113\u0113t tukul bakwaamta ng''aleekaab Y\u0113\u0113su.
+  Yu kyoomtooy ng''aleechaa, kiy\u0113y\u0113 \u0101m k\u0101\u0101muuk\u0113yw\u0113\u0113kaab
+  Y\u0113\u0113su tukuuk ch\u0113\u0113 -m\u0113\u0113muuch\u0113 kuyey :chii. Tukuuchooto
+  ch\u0113\u0113 kiyey biiko ch\u0113\u0113 chaang'' kucham kule bo man :l\u014dk\u014d\u014dyw\u0113chooto.]\"",
+  "\"Utaalloon daa\u2019imman irratti baay\u2019inaan mul\u2019atan keessaa isa tokko.
+  Waggaa waggaan dhukkuba kamiyyuu caalaa ogeeyyii fayyaa bira akka geessinu kan dirqisiisuu
+  fi mana barumsaa irraa akka hafaniif sababa kan tahedha. Utaalloo daa\u2019immanii
+  irrattti qabatamni jiru muraasni kunooti:-\\n- Daa\u2019imman baay\u2019een isaanii
+  waggaatti yoo xiqqaate yeroo 6 hanga 8 utaalloon qabamuu danda\u2019u.\\n- Umurii
+  waggaa 6 booda carraan utaalloon qabamuu hir\u2019achaa deema.\\n- Daa\u2019imman
+  yeroo Arfaasaa fi gannaa carraan utaalloon qabamuun isaanii guddaadha.\\nSababootni
+  utaalloo Daa\u2019imman irratti maalii?\\nUtaalloon kan uumamu yeroo vaayirasiin
+  tokko ujummoo funyaanii fi qoonqoo akka kulkulfatu (inflame) godhudha. Innis vaayirasii
+  adda addaa 200 ol ta\u2019aniin dhufuu danda\u2019a. Garuu irra caalaan isaa vaayiraasii
+  \u201craayinoovaayirasii\u201d jedhamuun kan dhufudha. Vaayiraasonni kunis qilleensa
+  keessaanii fi tuttuqqiin kan daa\u2019imman irraa daa\u2019immanitti darbanidha.
+  Vaayirasiin meeshaalee akka meeshaa taphaa daa\u2019ima utaalloon qabame tuqeen
+  akka daddarbuu danda\u2019an beekuun barbaachisaadha.\\nDaa\u2019imman dhibee utaalloof
+  saaxilamoo ta\u2019an kam fa\u2019aa?\\nDaa\u2019imman hundinuu dhibee utaalloon
+  qabamuuf saaxilamoodha. Namoota ga\u2019eessota caalaa carraan utaalloon qabamuu
+  isaanii guddaadha. Sababoonni maaliif akka ta\u2019an muraasni kunooti:\\n- Dandeettiin
+  qaamni isaanii of irraa ittisuu gadi bu\u2019aa waan taheef\\n- Yeroo arfaasaa fi
+  gannaatti daa\u2019imman mana keessaa fi naannoo jarmii baay\u2019ee ta\u2019an
+  waan uumamaniif\\n- Mana barumsaa ykn bakka kunuunsa daa\u2019imaa sababii wal tuttuqqiin
+  baay\u2019atuuf.\\n- Tuttuqqii harkaan afaan, funyaan fi ija daa\u2019imman irratti
+  hedduu waan mul\u2019atuuf\\nMallattoolee dhibee utaalloo daa\u2019imman irratti
+  maalii?\\nMallattoon dhibee utaalloo erga daa\u2019imni keessan vaayirasii utaalloo
+  waliin wal qunnamee guyyaa 1 hanga 3 keessatti mul\u2019achuu jalqaba. Mallattooleen
+  kunis yeroo baayyee gara torban 1 turu. Al takka takka hanga torban 2 turuu danda\u2019u.
+  Mallattooleen utaalloo umurii daa\u2019imaa irratti hundaa\u2019uun adda adda tahuu
+  mala.\\n- Daa\u2019imman reefu dhalatanii ji\u2019oota muraasaa irratti:-\\n- Yeroo
+  hirribaa jeeqamuu\\n- Miira gaarii dhabuu fi boohuu baayyisuu\\n- Furrii baayyachuu
+  fi ulaa funyaanii cufuu\\n- Yeroo tokko tokko garaa kaasaa fi ol deebisuu\\n- Qaama
+  gubaa fa\u2019a\\n- Daa\u2019imman umuriin isaanii ol siqeeru irratti:-\\n- Qaawwa
+  funyaanii keessa kulkulfachuu fi miira cufamuu\\n- Iji immimmaaniin guutamuu\\n-
+  Haxxiffannaa\\n- Qufaa salphaa\\n- Dhukkubbii qoonqoo\\n- Dhukkubbii maashaalee
+  fi lafee\\n- Mataa dhukkubbii\\n- Gubaa qaamaa\\n- Hoollannaa salphaa (chills)\\n-
+  Dhangala\u2019aan bishaanii funyaan keessaa kan furdaa tahee fi bifa keelloo qabu\\n-
+  Miira dadhabbii\\nRakkoolee dhibee utaalloo waliin wal qabatan maal tahuu maluu?\\n-
+  Infeekshinii keessoo gurraa (Ear infection)\\n- Infeekshinii saayinisii (Sinus infection)\\n-
+  Dhukkuba sombaa (Pneumonia)\\n- Infeekshinii toonsilii (Tonsillopharyngitis)\\nAkkaataa
+  dhibee utaalloo daa\u2019imman irratti yaaluu dandeenyu\\nQorichi dhibee utaalloof
+  kennamu hin jiru. Daa\u2019imman baay\u2019een isaanii utaalloo irraa ofuma isaaniitiin
+  ni fayyu. Antibaayootikoonni dhukkuba vaayirasii irratti hin hojjetan, kanaaf hin
+  ajajaman. Daa\u2019imni keessan miirri gaariin akka itti dhaga\u02bcamu gargaaruuf:\\n-
+  Dhangala\u2019aa dabalataa kan akka bishaanii ykn cuunfalee kuduraa fi muduraa akka
+  argatan gochuu.\\n- Boqonnaa gahaa akka argatan gochuu.\\n- Cufamuu funyaanii hir\u2019isuuf
+  Soogiddaa bishaan ho\u2019e keessatti bulbuluun dabareedhaan suuta keessa keessa
+  cophsuu fi sekoondii muraasaaf sukkuumuu (dabareen tahuu qaba).\\n- Aaratamboo fi
+  aara mana keessaa irraa fageessuu\\n- Yeroo qaama gubutti bishaan ho\u2019e uffata
+  qaamaan jiisuun suuta daqiiqaa muraasaaf irra kaahuu (Qoma, garaa, dugdaa fi adda
+  irra ni danda\u2019ama). Akkasumas ajaja hakiimaan qoricha qaama gubaaf gargaaru
+  parastaamoolii ykn Ibuprofen fayyadamuu.\\n- Daa\u2019ima umriin isaanii ji\u2019a
+  6 fi isaa gadi ta\u2019eef gonkumaa ibuprofen hin kenninaa.\\n- Hanga daa\u2019imni
+  keessan sa\u2019aatii 24f ho\u2019a qaamaa irraa bilisa ta\u2019utti mana keessa
+  tursuu qabdu.\\nAkkaataa dhibee utaalloo ittisuu dandeenyu\\n- Daa\u2019imman fi
+  namoota gurguddoo dhibee utaalloon qabaman irraa fageessuu.\\n- Daa\u2019imman harka
+  isaanii yeroo baay\u2019ee akka dhiqatan barsiisuu.\\n- Daa\u2019imman ija, funyaan
+  fi afaan isaanii akka hin tuttuqne yaadachiisuu.\\n- Meeshaaleen taphaa fi bakki
+  taphaa sirritti qulqulleessuu, keessumaa daa\u2019imman hedduu waliin yeroo taphatanitti.\\nYoom
+  hakiima bira geessuu qabnaa?\\nYoo daa\u2019imni keessan kanneen armaan gadii qabaate
+  hakiima ofii mariisisuun dirqama.\\n- Ho\u2019i qaamaa 100.4\u00b0F (38\u00b0C)
+  fi isaa ol ta\u2019e\\n- Mallattoolee armaan olii guyyaa 10 ol turuu\\n- Mallattoolee
+  akka aaduu, daddaffiin harganuu, hafuura baafachuu dadhabuu\\n- Garaa kaasaa fi
+  ol deebisuu walitti fufinsa qabu\\n- Mallattoo duraan ture irraa adda tahe yoo mul\u2019isan
+  fa\u2019a.\\nViews: 8\"", "\"1Hegaappe guyyiyan GODAI Yaasa hagaadan yaagiis; 2\\\"Israa7eela
+  asaayyo hagaadan yaaga; ''Taani Muuse baggaara inttena azazidoogaadan, asai baqati
+  biidi attiyo katamata doorite. 3Ai asinne akeekennaaninne erennaani asa worikko,
+  yaa baqati biidi, suuttaa achchiyaagaappe attana. 4Asa woridaagee he katamatuppe
+  issuwaakko baqato; baqatidi biidi, katamaa geliyo penggiyan eqqidi, hanidabaa he
+  katamaa cimatuyyo yooto. Yootin eti bantta katamaa efiidi, i de7ana sohuwaa immin,
+  i etaara yan de7o. 5Suuttaa achchiyaagee a kaallidi yiikko, he katamaa cimati a
+  aattidi immoppona. Aissi giikko, ba shooruwaa i halchchidi, ba kase morkketettaa
+  gishshau woribeenna. 6Yaa7aa sinttan pirddau i eqqana gakkanaassinne he wodiyan
+  de7iya qeese ubbatu halaqai haiqqana gakkanaassi, he kataman de7o. Hegaappe guyyiyan,
+  baqatidi kiyido katamaa guyye simmidi, ba soo gelo'' yaaga\\\" yaagiis. 7Yaagin
+  Israa7eela asai Nifttaaleema gezziyan, Galiilan de7iya Qedeeshanne a hentta gadeta,
+  Efireema gezziyan de7iya Sekeemanne a hentta gadetanne Yihudaa gezziyan de7iya Qiriyaati-Arbbaa7a
+  woikko Kebroona dummayidosona. 8Yorddaanoosa SHaafaappe hefinttan, Yarkkoppe arshsho
+  baggaara bazzon, xoqqasan de7iya Roobeela zaretu biittaappe Beexera, Gaada zaretu
+  biittaappe Gala7aaden de7iya Raamootanne Minaase zaretu biittaappe Baasaanen de7iya
+  Golaana dummayidosona. 9Israa7eela asaa ubbaassinne eta giddon de7iya betetussi
+  dummayido katamati hageeta; erennan de7iiddi asa worida ai asinne, yaa7aa sinttan
+  eqqana gakkanaassi, suuttaa achchiyaagaa kushiyan haiqqennaadan, he katamatuppe
+  issuwaakko baqatanau danddayees.\"", "\"MASGIIDA FI GAHEE INNI HAWAASA KEESSATTI
+  QABU\\nBareessitoonni: Belshaazaari fi Abdeneegoo\\nKan Hiike: Islaamummaadhaf Deebii
+  Garee Afaan Oromoo\\nSeensa\\nMasgiidonni akka addunyaatti eddoo waaqeffannaa ta\u2019uu
+  bira darbanii Fulbaana 9/2000 giddu gala daldala Addunyaa isa Niw York keessatti
+  argamu irratti haleellaa gahe, haleellaa Magaalaa Maadriid kessatti baabura irratti
+  gahe, akkasumas yeroo dhihoo haleellaa Magaalaa Landan keessatti awtoobisii fi baabura
+  lafa keessaa irratti gahe qindeessudhaaf gahee isaan taphatan ilaalchisee dhaabbileen
+  oduu biyyoota Dhihaa barreeffamoota heddu mata duree kana irratti akka dubbisiisan
+  taasisee jira.\\nFakkeenyaf gaazexoonni lameen \u201cThe Times\u201d fi \u201cThe
+  Guardian\u201d Jedhaman waa\u2019ee Masgiida Finisbarii Paark barreessanii jiru.
+  Isaanis kan barreessanii turan waa\u2019ee sochii siyaasa fi loltummaa Musliimotaan
+  isaan keessatti adeemsifamaa turanii yemmuu ta\u2019u Musliimonni kunneenis yeroo
+  booda biyya Yaman keessatti sochii shororkeessummaa irratti hirmaatanii turan. Barreeffamoonni
+  kunneen manneen barnootaa (madrasaawwan) Masgiidota kanneenin wal qabatanii argaman
+  namoota kanneen leenjisuu keessatti shoora isaan qaban irratti gaafii dhiheessanii
+  jiru. Kunis kan agarsiisu akka walii galaatti yaadotaa fi gochaawwan akkanaa kana
+  kakaasuu keessatti shoora madrasoonni qabaniidha.\\nYeroo dhihoo keessatti masgiida
+  guddaa tapha olompiikii bara 2012 taasifamuuf baha magaalaa Landan keessatti ijaarramuuf
+  jiru ilaalchisee uummata dhiibban irra gahe gidduutti sodaawwan walfakkaaton daandiwwanii
+  irrattii fi barreeffamoota irraa ni dhagahamu.\\nGuddinaa fi bareedina gamootin
+  Masgiidonni isa Niiw Haamitti argamu fakkaatan akkuma Addunyaattuu lakkoofsan muraasa.
+  Masgiidni hamma arbaa gahu kun ollaa nagahaan jiraatu maddiitti yemmuu ijaarramu
+  sodaa kakaasun isaa kan hin oolledha. Sodaawwan kunneen (sochii danquu, jeequmsa
+  sagalee, gatii meeshaalee miidhuu fi kkf) Masgiidni kun akka hin ijaarramne dhoorkudhaaf
+  sababa gahaa ta\u2019uu ni danda\u2019uu? Namoonni pirojeektii kana maallaqaan deeggaran
+  faayidaa Masgiidni kun naannoodhaaf akkasumas biyyaaf qabu ibsuudhan \u201cwalabummaa
+  amantaa, waaqeffannaa akkasumas yaada bilisaan ibsuu Yunaaytid Kingidam keessatti
+  argamu\u201d caqasanii gabaasa dhiheessanii hojii guddaa hojjechuun isaanii kan
+  hin oolledha.\\nMasgiidni maal akka ta\u2019e, hojiin isaa, irra caalas walitti
+  dhufeenya hawaasaa ni cimsaa, waliin jireenya nagahaa hawaasa keessatti ol ni guddisaa,
+  waliin jireenya amantaaleef eddoo ni mijeessaa? jedhanii gaafachuu fi qorachuun
+  barbaachisaadha.\\nKuni madaallamuu kan danda\u2019u bu\u2019uura amantaa Islaamaa
+  kan ta\u2019an qur\u2019aana fi sunnaan akkasumas kanneen lameen keessaa ba\u2019uudhan
+  kan qindeeffame seerri shari\u2019aa wanta dubbatanii fi adeemsa isaanii qorachuudhani.\\nDubbistoonni
+  sochiiwwan siyaasa fi loltummaa Masgiidota keessatti adeemsifaman hubachuu akka
+  danda\u2019an fakkiiwwan taasisan, barreessitoonni Islaamummaa gurguddoon barreeffamoota
+  barreessan akkasumas murtiiwwan seeraa Fatwaa jedhamanii beekkaman barreeffama xinnoo
+  tana keessatti galanii jiru.\\nWantoonni guyyaa keessatti raawwataman ulaamadhaan
+  (namoota beekkumsaa fi angoo seera Islaamummaa qabaniin) dhaddacha seera shari\u2019aatin
+  erga calalamanii booda gara Masgiidaatti gadi buufamuudhan sochiiwwan siyaasa fi
+  loltummaa gara garaa hojiitti ni jijjiiramu. Seeronni kunneen cimoo fi gaafiidhaan
+  ala waan ta\u2019aniif miseensota garee gaggeessituutin yaadota dhuunfaa ka\u2019aniif
+  eddoon hoomtuu hin jiru.\\nHaata\u2019u malee murteen dhumaa Masgiidota keessatti
+  hojii irra oolu kun duraan dursee kan maddu karoorawwan ulaaman irratti murteessun
+  isa barbaachisu, barsiisu fi kkf kan keessaa argaman Masgiidota keessati (Fakkii
+  3 ilaalaa). Gaggeessitoonni masgiidaa barumsa qaban kunneen gara ulaamatti kan guddatan
+  yemmuu ta\u2019an isaanis gaggeessitoota Masgiidaa, lallabdoota, beektotaa fi gaggeessitoota
+  fatwaa baasaniidha. Murteewwan kanneen qoma isaanitiin ni dubbatu, ni ibsu akka
+  hojii irra oolanis ni taasisu! Seerota qur\u2019aana keessaa ba\u2019an irratti
+  kan hundeeffaman yoo ta\u2019an hoojii irra oolumsi isaanii gaaffii yookin mariidhaf
+  hin dhihaatu.\\nDubbistoota keenyaf hiibbowwan kanneen hiikudhaaf yemmuu yaalllutti
+  liphii jalqabaatin jechoota Kiristiyaanotaa fi Yihuudotaatin wal fakkeenya kan qaban
+  jechoota fakkaatan ni ibsina. Jechoonni kunneen wal fakkeenyi isaanii qubee qofaan
+  akka ta\u2019e beekun gamnummaadha. Jechoota duraan beektan kan isinitti fakkaataniif
+  hiika yemmuu kenninu obsaan nu hordofaa.\\nkaraa hawaasummaas ta\u2019ee karaa seeratiin
+  Masgiidonni yeroo kamuu Islaamummaa keessatti giddu gala, jalqabaa fi dhuma waa\u2019ee
+  Islaamummaa ta\u2019uu isaanii hubachiisudhaaf jechoota haarawa (kan akka taqiyyaa)
+  akkasumas jechoota durii (kan akka jihaadaa fi hijiraa) ni ibsina.\"", "\"Dhibii
+  kun akka ogeeyyotii fayyaa jedhanitti naafa nama caaccabsa, mittaa nama jalaa guuree
+  humna nama dhowwa.\\nMaqaa Chukunguniyaa jedhu kanallee Tanzaaniyaatti itti baasan.Akka
+  ogeessii dhiba nafa keessaa hospitaala Dil Corraa,Dirree Dawaa, Khaliid Alii jedhetti
+  dhiba kana ji\u2019a 2n duratti,Jijjigaatti argan. Dirree Dawaa ammoo ji''a1n duratti
+  gahe.\\nDhibii kun akka Dr., Khaliid jedhetti bookee biinnii fakkaattuun namatti
+  dara.Haga ammaatti Dirree Dawaa keessatti nama kuma 20 caalaatti dhiba kana irratti
+  arganii namii hedduun ya akimatee bahe.\\nMaqaan dhiba kanaa Chukunguniyaan (Studpid
+  posture) jedhaniin jedha Dr Khaalid. Maan jennaan namii isa qabu hin tittima,gadi
+  gomphoolaa gadi jechaa deema.\\nMana akimii ufi keessatti Dr Khaalid nama 150 caalaan
+  wallaane. Namii kun jaarsaa fi jaartii fi kahima.\\nMilkieeta dhiba Chukunguniyaa
+  qabuu\\n- Humna dhabuu\\n- Dhukkubbii miilaa\\n- Iita mittaa\\n- Oowwa haga dabraa\\n-
+  Suukii nafaa(skin rush)\\n- Hin diddiga ykn haqqisa\\n- Nyaata jibbisiisa\\nOgeeyyotii
+  fayyaa yoo nama milikeeta kana qabu argan\\nOowwa nafaa diqqeessan\\nBisaan nafa
+  keessaa diqqaachuu dhowwuuf glucoise itti dhaaban\\nChukunguniyaa namatti dabruu
+  dhowwuuf\\n- Saaphanaa siree jala raffisuu\\n- Waan biinninnii jibbitu nafa dibachuu
+  Kophaatti tajaajiluu\\n- Bisaan ciisaa qahee ufiitii fageesuu\\nTaatullee akka Dr
+  Khaalid jedhettti dhiba kana namii duru fayyaa haga guyyaa 4-5 keessatit hin fayya.\\nYoo
+  fayyanillee ammoo mittaan duraan nama iitofte daftee hin fayyitu. Mootummaan Itoophiyaa
+  dhiba kana wallaanuuf qorsa itti barbaadaa dhibamaalee gargaaruutti jira.\\nYaada
+  kenni\"", "\"Ayyaana yaadannoo du\u02bca Yesusirratti nuu wajjin akka argamtu kabajaan
+  afeeramteetta. Naannoo keetti bakka walga\u02bciin itti geggeeffamu barbaaddadhu.\\nCaalaatti
+  Baradhu\\nIrbaata xumuraa ykn Ayyaana Yaadannoo jedhamees ni waamama; Dhugaa Baatonni
+  Yihowaa iddoo guddaa kennuuf. Haala kana ilaalchisee Kitaabni Qulqulluun maal akka
+  jedhu ilaali.\\nMacaafani Qulqulluun, namoonni miliyoonaan lakkaa\u02bcamaniifi
+  addunyaarratti argaman, gaaffiiwwan gurguddaa jireenyasaanii keessatti isaan mudataniif
+  deebii akka argatan gargaaraa jira. Namoota kana keessaa tokko ta\u02bcuu barbaaddaa?\"",
+  "\"Nut kennaa Bu\u2019uuressaa Habaaboo Daachii fi Afriifilooraa biraandii lama
+  haarawa giddugaleessa E-barnootaa mana baruumsa olaanaa Sheeri Ziwaayi jirutti hundeesinee
+  jirra.\\nBarnoota Kaamaaraa kompiitara 50 fi sarvarii 2 haarawa kenne,yeroo hunda
+  Itiyoophiyaa bakk fagoo keessatti kompiitara hiruudhaan barsiistota leenjisa.Naannoo
+  kutawwan koompiitaraa daaraa fi rakkoo nageenyaa irraa bilisa akka ta\u2019an gargaaru.Barsiftonni
+  isaanii mana baruumsaa torbaaniif daawwatan,Karkulamii keessatti ittifayyadama kompiitaraa
+  irratti barsiistota 26 leenjii fi suphaa murteessaa irratti gorsa kennan.\\nKompiitara
+  Kaamaaraa sirna Ubuntuu sirna isa bu\u2019uuraa banu .Isaanii dursamee kan fe\u2019amu
+  sooftii weerii geemii salphaa irraa gara istidiyoo baruumsa addaa, kuusa herregaa
+  fi saayinsii kamaaraati.Kompiitarri hunduu version sararaa alaa Wiikpediyaa , walitthidhamaa
+  intarneetii murtayadhaan mana baruumsatiif baruumsa dabalataa biraa kan uumaniidha.Hunda
+  caalaa barbaachisaan kompiitaronni kitaaba teekstii karkulama mana barnootaa walligalaa
+  kan uwwise PDFs Ministeer barnootaa kan ittife\u2019ameedha. kitaaba teekstii maneen
+  barnootaa Itiyoophiyaa 40,000 irratti kan hiramu gara malee xiqqaadha.Kanaaf kun
+  kophaa isaatti qabeenya gara malee barbaachisaadha.\\nBu\u2019uressaa Habaaboo Daachi
+  ummataa keessanuu daa\u2019imman haalli jireenyaa fi fayyummaan akka foyya\u2019u
+  kan kaayyeefateedha.Kun kan xiyyeefatu biyyoota kampaanii gareen Habaaboo Dachi
+  jajjabinna qaban pirojeektii hawaasa waliin kan walitti hidhameedha.Kara hojii Bu\u2019uressaa
+  habaaboo Daachii, garee habaaboo Dachii Addunyaa keessa jiraannuu ittigaafatamummaa
+  qabnu kan agarsisuudha.\\nAkka daayirektarri mana baruumsaa Sheer obboo Nigusee
+  Aagaa jedhanitti,baratoota keenyaaf ogummaan kompiitaraa gara malee barbaachisaa,baratoonni
+  dhibbaan lakkaawaman kana irraa fayyadamaa ta\u2019u.Manni barnootaa sheerii Itiyoophiyaa
+  keessatti hiree gaarii argatan.Baratoonni irra caalaa yuunivarsiitii galuuf dandeettii
+  horatu.Kompiitarri haarofnni baratoota keenyaaf hiree Addunyaa Dijitaal akka argatan
+  mijeessaaf.\\nAfriifiloraan Itiyoophiyaa keessatti maqaa Sheer Itiyoophiyaa jedhuun
+  qonna Habaaboo 3 sochoosa.Mana baruumsaa Sheeritti ijoollee 6800 oolmaa daa\u2019immanii
+  hang sadarkaa olaanaa barnoota bilisaan argatu.\\nNuti maqaa baratootaa fi barsistotaatiin
+  gumaacha isaan taasisan dinqisifannaa olaanaa ibsaa Bu\u2019uuressaa Habaaboo Daachi
+  fi Kaamaraa nigalateeffanna.\"", "\"Caamsaa 5/2014 (TOI) \u2013 Naannoon Gaambeellaa
+  baatiiwwan 10 darbanitti Warqee kiiloo giraama kuma 1 fi 151 Baankii Biyyaalessaatti
+  galii taasisuu Ejensiin Misooma Albuudaa fi Inarjii naannichaa beeksise.\\nEjensichi
+  raawwii karoora baatiiwwan 10 darbanii bakka Pireezdaantiin naaanichaa obbo Umad
+  Ujuluu fi hoggantoonni olaanoon naanichaa argamanitti gamaaggameera.\\nNaannichatti
+  warqee kiiloo giraama kuma 1 fi 330 Baankii Biyyaalessaatti galii taasisuuf karoorfatamee,
+  warqee kiiloo giraama kuma 1 fi 151 ol galii taasisuu danda\u2019uu ibsameera.\\nWarqeen
+  baatiiwwan kurnan darbanitti argaman kan bara darbee yeroo walfakkaatuun walbira
+  qabamee yoo ilaalamu kiiloo giraama 211 caalmaa kan qabu ta\u2019uu eerameera.\\nOomisha
+  warqee Baankii Biyyaalessaatti galii ta\u2019erraa sharafni alaa Doolaarri miiliyoonni
+  54 fi kumni dhibbi 4 ni argamaan kan eegamu ta\u2019uu ibsameera.\"", "\"Kabala
+  Fakkaattii\\nAjajaawwan akka salphaatti fayyadamtu keessa seenuuf, kabala Meeshaalee
+  fayyadami.\\nxiyya issa sajooti ane''e jiru banuuf cuqaasi Saagi kamshaa, saxxaatofi
+  addayaa arfii man''ee ammeeti ida''uudha.\\nxiyya issa sajooti ane''e jiru banuuf
+  cuqaasi Man''ee Saagi kamshaa, Man''ee saaguuf, tarree, fi tarjaa man''ee ammeeti.\\nAjajja
+  kana fayyadamuun ofdhangi iddoo wardii filatamee fayyadama ykn Ofdhangiwwan mata
+  keetii ibsuuf.\\nOfumaan hammangaa man''ee filatamanii gingilcha,itti aansuun sanduqawwan
+  tarree tar-tokkee iddoo wantoota agasiisuu barbaaddee itti filachu dandeessuu uuma.\\nConverts
+  the currency amounts found in LibreOffice Calc documents and in fields and tables
+  of LibreOffice Writer documents into euros.\""]'
+src_ngrams: '{"1": [[["ta"], 310829], [["oromoo"], 210182], [["irratti"], 159090],
+  [["keessatti"], 155574], [["a"], 146157]], "2": [[["afaan oromoo"], 33642], [["adda
+  addaa"], 17174], [["bilisummaa oromoo"], 16827], [["of the"], 16736], [["ummata
+  oromoo"], 11387]], "3": [[["osoo hin taane"], 7258], [["mootummaa naannoo oromiyaa"],
+  4533], [["qeerroo bilisummaa oromoo"], 2880], [["adda bilisummaa oromoo"], 2807],
+  [["irraa kan ka"], 2427]], "4": [[["qofa osoo hin taane"], 1964], [["rabbiin subhaanahu
+  wa ta"], 1617], [["not a registered user"], 1440], [["already have an account"],
+  1439], [["this comment as inappropriate"], 1232]], "5": [[["report this comment
+  as inappropriate"], 1232], [["join facebook to connect with"], 695], [["and others
+  you may know"], 693], [["facebook gives people the power"], 629], [["gives people
+  the power to"], 600]]}'
