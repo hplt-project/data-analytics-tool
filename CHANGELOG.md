@@ -1,5 +1,6 @@
 v1.2:
 - Support for  HPLTv3 documents.
+- Support for 3 letter language codes (but 2-letter codes are still adviced if possible)
 - New feature : Domain labels (https://huggingface.co/nvidia/multilingual-domain-classifier)
 - Register Labels are reused when they already exist in the dataset (only for HPLT v3 documents)
 - Bump requeriments.
