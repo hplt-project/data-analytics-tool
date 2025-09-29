@@ -176,3 +176,17 @@
   line-height: 1.2;
   min-width: 240px;
 }
+
+
+.rw-list-option.rw-state-selected {
+  background-color: #F39200;
+  /* Prompsit orange :) */
+  color: white;
+  font-weight: 600;
+}
+
+/* For the item you are moving over with arrow keys */
+.rw-list-option.rw-state-focus {
+  background-color: #333;
+  color: #fff;
+}
