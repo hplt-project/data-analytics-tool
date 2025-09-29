@@ -8,6 +8,10 @@ trglang=$4
 format=$5
 langformat=$6
 
+srclang2=$(python3 /work/scripts/lang_equivalent.py $srclang)
+trglang2=$(python3 /work/scripts/lang_equivalent.py $trglang)
+
+
 JOBS=$(($(nproc)-2))
 JOBS=$(($JOBS>1 ? $JOBS : 1))
 
@@ -74,11 +78,12 @@ bicleaner_ai_langs_es=(ca de gl eu zh)
 monocleaner_langs=(ab af am ar as  az ba be bg bh bn bo br bs ca ceb chr cnr co cs cy da de dv dz el en eo es et eu fa fi fr ga gl gu hbs he hi hr hu hy id \
 	is it ja ka kk kn ko ky la lt lt lv mk ml mn mr ms mt my nb ne nl nn pa pl ps pt ro ru si sk sl so sq sr sv sw ta te th tl tr tt uk ur uz vi zh)
 
-hbs_langs=(hr sr bs me)
+hbs_langs=(hr sr bs me bos hrv srp)
 
 
 registerlabels_langs=(af sq am ar hy as az eu be bn bs br bg my ca zh hr cs da nl en eo et tl fi fr gl ka de el gu ha he hi hu is id ga it ja jv \
-	kn kk km ko ku ky lo la lv lt mk mg ms ml mr mn ne no nn nb or om ps fa pl pt pa ro ru sa gd sr sd si sk sl so es su sw sv ta te th tr uk ur ug uz vi cy fy xh yi)
+	kn kk km ko ku ky lo la lv lt mk mg ms ml mr mn ne no nn nb or om ps fa pl pt pa ro ru sa gd sr sd si sk sl so es su sw sv ta te th tr uk ur ug uz vi cy fy xh yi
+	bos hrv srp hbs est ekk )
 
 # NVIDIA multilingual-domain-classifier allowlist (52 languages)
 domainlabels_langs=(ar az bg bn ca cs da de el es et fa fi fr gl he hi hr hu hy id is it ka kk kn ko lt lv mk ml mr ne nl no pl pt ro ru sk sl sq sr sv ta tr uk ur vi ja zh)
@@ -94,98 +99,98 @@ echo WORKDIR:  $workdir
 
 # Check if its monolingual or bilingual corpus
 if [ "$langformat" == "parallel" ]; then    
-	if [ "$srclang" == "en" ]; then
-    		if [[ " ${bicleaner_langs_en[*]} " =~ " $trglang " ]]; then
+	if [ "$srclang2" == "en" ]; then
+    		if [[ " ${bicleaner_langs_en[*]} " =~ " $trglang2 " ]]; then
 			#en-trg is supported by classic bicleaner
-			bicleaner_metadata=$datapath/bicleaner/$srclang-$trglang/$srclang-$trglang.yaml    	
-			bc_srclang=$srclang
-			bc_trglang=$trglang
+			bicleaner_metadata=$datapath/bicleaner/$srclang2-$trglang2/$srclang2-$trglang2.yaml    	
+			bc_srclang=$srclang2
+			bc_trglang=$trglang2
    		else
 			#en-trg not supported by classic bicleaner
-	   		if [[ " ${bicleaner_ai_langs_en[*]} " =~ " $trglang " ]]; then
+	   		if [[ " ${bicleaner_ai_langs_en[*]} " =~ " $trglang2 " ]]; then
    				#en-trg is supported by bicleaner ai
 
-   				if [[ " ${hbs_langs[*]} " =~ " $trglang " ]]; then
-					bc_srclang=$srclang
+   				if [[ " ${hbs_langs[*]} " =~ " $trglang2 " ]]; then
+					bc_srclang=$srclang2
 					bc_trglang=hbs
-					bicleaner_ai_metadata=$datapath/bicleaner-ai/$srclang-$bc_trglang/metadata.yaml
+					bicleaner_ai_metadata=$datapath/bicleaner-ai/$srclang2-$bc_trglang/metadata.yaml
 				else
-	  				bc_srclang=$srclang
-   					bc_trglang=$trglang
-   					bicleaner_ai_metadata=$datapath/bicleaner-ai/$srclang-$trglang/metadata.yaml   				
+	  				bc_srclang=$srclang2
+   					bc_trglang=$trglang2
+   					bicleaner_ai_metadata=$datapath/bicleaner-ai/$srclang2-$trglang2/metadata.yaml   				
    				fi
 	   		else
    				#en-trg not supported by bicleaner ai, but falling back to en-xx
    				echo "Falling back to bicleaner-ai en-xx"
    				bicleaner_ai_metadata=$datapath/bicleaner-ai/en-xx/metadata.yaml
-   				bc_srclang=$srclang
+   				bc_srclang=$srclang2
    				bc_trglang=xx
 	   		fi
    		fi
-	elif [ "$srclang" == "es" ] ; then
-    		if [[ " ${bicleaner_langs_es[*]} " =~ " $trglang " ]]; then
+	elif [ "$srclang2" == "es" ] ; then
+    		if [[ " ${bicleaner_langs_es[*]} " =~ " $trglang2 " ]]; then
         		#es-trg is supported by classic bicleaner
-	                bicleaner_metadata=$datapath/bicleaner/$srclang-$trglang/$srclang-$trglang.yaml
-	                bc_srclang=$srclang
-	                bc_trglang=$trglang
-	        elif [ "$trglang" == "en" ] ; then
+	                bicleaner_metadata=$datapath/bicleaner/$srclang2-$trglang2/$srclang2-$trglang2.yaml
+	                bc_srclang=$srclang2
+	                bc_trglang=$trglang2
+	        elif [ "$trglang2" == "en" ] ; then
 	        	#special es-en case
-	        	bicleaner_metadata=$datapath/bicleaner/$trglang-$srclang/$trglang-$srclang.yaml
-                        bc_srclang=$trglang
-                        bc_trglang=$srclang
+	        	bicleaner_metadata=$datapath/bicleaner/$trglang2-$srclang2/$trglang2-$srclang2.yaml
+                        bc_srclang=$trglang2
+                        bc_trglang=$srclang2
                         is_reversed=true
 	        else
         		#es-trg not supported by classic bicleaner
-            		if [[ " ${bicleaner_ai_langs_es[*]} " =~ " $trglang " ]]; then
+            		if [[ " ${bicleaner_ai_langs_es[*]} " =~ " $trglang2 " ]]; then
                         	#es-trg is supported by bicleaner ai
-	                        bicleaner_ai_metadata=$datapath/bicleaner-ai/$srclang-$trglang/metadata.yaml
-	                        bc_srclang=$srclang
-	                        bc_trglang=$trglang
+	                        bicleaner_ai_metadata=$datapath/bicleaner-ai/$srclang2-$trglang2/metadata.yaml
+	                        bc_srclang=$srclang2
+	                        bc_trglang=$trglang2
         	        else
                 	        #es-trg not supported by  any bicleaner
 				echo "Unsupported language pair in Bicleaner/BicleanerAI"
 	                fi
 		fi    
 	#REVERSED PAIRS
-	elif [ "$trglang" == "en" ]; then
-                if [[ " ${bicleaner_langs_en[*]} " =~ " $srclang " ]]; then
+	elif [ "$trglang2" == "en" ]; then
+                if [[ " ${bicleaner_langs_en[*]} " =~ " $srclang2 " ]]; then
                         #en-src is supported by classic bicleaner
                         is_reversed=true
-                        bc_srclang=$trglang
-                        bc_trglang=$srclang
-                        bicleaner_metadata=$datapath/bicleaner/$trglang-$srclang/$trglang-$srclang.yaml
+                        bc_srclang=$trglang2
+                        bc_trglang=$srclang2
+                        bicleaner_metadata=$datapath/bicleaner/$trglang2-$srclang2/$trglang2-$srclang2.yaml
                 else
                         #en-src not supported by classic bicleaner
-                        if [[ " ${bicleaner_ai_langs_en[*]} " =~ " $srclang " ]]; then
+                        if [[ " ${bicleaner_ai_langs_en[*]} " =~ " $srclang2 " ]]; then
                                 #en-src is supported by bicleaner ai
                                 is_reversed=true
-                                bc_srclang=$trglang
-                                bc_trglang=$srclang
-                                bicleaner_ai_metadata=$datapath/bicleaner-ai/$trglang-$srclang/metadata.yaml
+                                bc_srclang=$trglang2
+                                bc_trglang=$srclang2
+                                bicleaner_ai_metadata=$datapath/bicleaner-ai/$trglang2-$srclang2/metadata.yaml
                         else
                                 #en-src not supported by bicleaner ai, but falling back to en-xx
                                 echo "Falling back to bicleaner-ai en-xx"
                                 is_reversed=true
-                                bc_srclang=$trglang
+                                bc_srclang=$trglang2
                                 bc_trglang=xx
                                 bicleaner_ai_metadata=$datapath/bicleaner-ai/en-xx/metadata.yaml
                         fi
                 fi
-        elif [ "$trglang" == "es" ] ; then
-                if [[ " ${bicleaner_langs_es[*]} " =~ " $srclang " ]]; then
+        elif [ "$trglang2" == "es" ] ; then
+                if [[ " ${bicleaner_langs_es[*]} " =~ " $srclang2 " ]]; then
                         #es-src is supported by classic bicleaner
                         is_reversed=true
-                        bc_srclang=$trglang
-                        bc_trglang=$srclang
-                        bicleaner_metadata=$datapath/bicleaner/$trglang-$srclang/$trglang-$srclang.yaml
+                        bc_srclang=$trglang2
+                        bc_trglang=$srclang2
+                        bicleaner_metadata=$datapath/bicleaner/$trglang2-$srclang2/$trglang2-$srclang2.yaml
                 else
                         #es-src not supported by classic bicleaner
-                        if [[ " ${bicleaner_ai_langs_es[*]} " =~ " $srclang " ]]; then
+                        if [[ " ${bicleaner_ai_langs_es[*]} " =~ " $srclang2 " ]]; then
                                 #es-src is supported by bicleaner ai
                                 is_reversed=true
-                                bicleaner_ai_metadata=$datapath/bicleaner-ai/$trglang-$srclang/metadata.yaml
-                                bc_srclang=$trglang
-                                bc_trglang=$srclang
+                                bicleaner_ai_metadata=$datapath/bicleaner-ai/$trglang2-$srclang2/metadata.yaml
+                                bc_srclang=$trglang2
+                                bc_trglang=$srclang2
                         else
                                 #es-src not supported by  any bicleaner
                                 echo "Unsupported language pair in Bicleaner/BicleanerAI"
@@ -269,7 +274,7 @@ if [ "$langformat" == "parallel" ]; then
 		#echo "Language pair not supported by Bicleaner Hardrules"
 		echo "Running Bicleaner Hardrules..."
 		HR_MODEL=""
-		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --disable_lm_filter --disable_porn_removal --run_all_rules -p $JOBS -s $srclang -t $trglang $COLUMNS_FLAG --quiet  > $tsv_file_path.hardrules 2> hr.log
+		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-hardrules --score_only --annotated_output --disable_lang_ident --disable_lm_filter --disable_porn_removal --run_all_rules -p $JOBS -s $srclang2 -t $trglang2 $COLUMNS_FLAG --quiet  > $tsv_file_path.hardrules 2> hr.log
     	fi
     	deactivate
     	
@@ -278,8 +283,8 @@ if [ "$langformat" == "parallel" ]; then
     		echo "Running Bicleaner..."
 	    	source /work/venvs/venv-bc/bin/activate	
 		#Force FastSpell FastText download in this env
-		python3 ./scripts/force-fasttext-download.py $srclang
-	        python3 ./scripts/force-fasttext-download.py $trglang	    	
+		python3 ./scripts/force-fasttext-download.py $srclang2
+	        python3 ./scripts/force-fasttext-download.py $trglang2	    	
 		cat $tsv_file_path | $PARALLEL_CACHE_CMD bicleaner-classify -p $JOBS --score_only $COLUMNS_FLAG --disable_hardrules - - $bicleaner_metadata --quiet > $tsv_file_path.classify 2> bc.log
 		METADATA_FLAG="-y "$bicleaner_metadata
 		deactivate
@@ -287,8 +292,8 @@ if [ "$langformat" == "parallel" ]; then
 		echo "Running Bicleaner AI..."
 		source /work/venvs/venv-bcai/bin/activate	
 		#Force FastSpell FastText download in this env
-		python3 ./scripts/force-fasttext-download.py $srclang
-	        python3 ./scripts/force-fasttext-download.py $trglang		
+		python3 ./scripts/force-fasttext-download.py $srclang2
+	        python3 ./scripts/force-fasttext-download.py $trglang2		
 		cat $tsv_file_path | BICLEANER_AI_THREADS=$JOBS $PARALLEL_CACHE_CMD bicleaner-ai-classify --score_only $COLUMNS_FLAG --disable_hardrules - - $bicleaner_ai_metadata --quiet > $tsv_file_path.classify 2> bc.log
 		METADATA_FLAG="-y "$bicleaner_ai_metadata
 		deactivate
@@ -298,12 +303,12 @@ if [ "$langformat" == "parallel" ]; then
 
 	#Fastspell
 	#Force FastSpell FastText download in this env
-	python3 ./scripts/force-fasttext-download.py $srclang
-        python3 ./scripts/force-fasttext-download.py $trglang	
+	python3 ./scripts/force-fasttext-download.py $srclang2
+        python3 ./scripts/force-fasttext-download.py $trglang2	
 	echo "Running FastSpell..."
 	#Map langs
-	./scripts/map/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.$srclang.langids 1 
-	./scripts/map/parallel-fastspell.sh $JOBS $trglang $tsv_file_path $tsv_file_path.$trglang.langids 2	
+	./scripts/map/parallel-fastspell.sh $JOBS $srclang2 $tsv_file_path $tsv_file_path.$srclang.langids 1 
+	./scripts/map/parallel-fastspell.sh $JOBS $trglang2 $tsv_file_path $tsv_file_path.$trglang.langids 2	
 	#Reduce langs
 	cat $tsv_file_path.$srclang.langids | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.srclangs
 	cat $tsv_file_path.$trglang.langids | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.trglangs
@@ -314,7 +319,7 @@ if [ "$langformat" == "parallel" ]; then
 		source /work/venvs/venv-bnlp/bin/activate	
 	fi	
 	#python3 ./scripts/readcorpus.py $tsv_file_path $srclang $trglang $tsv_file_path.proc	
-	bash /work/scripts/map/parallel-readcorpus.sh $JOBS_READCORPUS $tsv_file_path $srclang $trglang $tsv_file_path.proc
+	bash /work/scripts/map/parallel-readcorpus.sh $JOBS_READCORPUS $tsv_file_path $srclang $trglang $tsv_file_path.proc $srclang2 $trglang2
         if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
 		deactivate
 	fi
@@ -360,7 +365,7 @@ if [ "$langformat" == "parallel" ]; then
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
                 source /work/venvs/venv-bnlp/bin/activate       
         fi
-	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang $trglang $bicleaner_ai_metadata
+	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang $srclang2 $trglang $trglang2 $bicleaner_ai_metadata
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
          	deactivate
         fi
@@ -468,7 +473,7 @@ elif [ "$langformat" == "mono" ]; then
                                 fi
                         fi
 				
-		        if [ "$reused" = false ] && [[ " ${registerlabels_langs[*]} " =~ " $srclang " ]]; then	        
+		        if [ "$reused" = false ] && [[ " ${registerlabels_langs[*]} " =~ " $srclang2 " ]]; then	        
 		        	echo "Running register labels..."   	
 		        	if [ "$extension" == "zst" ] || [ "$extension" == "zstd" ]; then
 					zstdcat $saved_file_path | python3 ./scripts/registerlabels.py --batchsize $GPU_BATCHSIZE  > $tsv_file_path.rl
@@ -477,7 +482,7 @@ elif [ "$langformat" == "mono" ]; then
 				fi
 			        cat $tsv_file_path.rl | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | sort -nr  >  $tsv_file_path.rlcounts
 		        else
-        			echo "Register labels not supported for $srclang  (or already reused)"
+        			echo "Register labels not supported for $srclang/$srclang2  (or already reused)"
 		        fi
 			deactivate
                 else
@@ -486,7 +491,7 @@ elif [ "$langformat" == "mono" ]; then
 
                 #Domain labels
                 if [ "$SKIPDLFLAG" = false ]; then
-                        if [[ " ${domainlabels_langs[*]} " =~ " $srclang " ]]; then
+                        if [[ " ${domainlabels_langs[*]} " =~ " $srclang2 " ]]; then
                                 source /work/venvs/venv-rl/bin/activate
                                 echo "Running domain labels..."
                                 if [ "$extension" == "zst" ] || [ "$extension" == "zstd" ]; then
@@ -499,7 +504,7 @@ elif [ "$langformat" == "mono" ]; then
                                 deactivate
                                 cat $tsv_file_path.dl | LC_ALL=C sort -S 50% --compress-program=zstd --parallel $JOBS | uniq -c | sort -nr > $tsv_file_path.dlcounts
                         else
-                                echo "Domain labels not supported for $srclang"
+                                echo "Domain labels not supported for $srclang/$srclang2"
                         fi
                 else
                         echo "Skipping domain labels"
@@ -511,22 +516,22 @@ elif [ "$langformat" == "mono" ]; then
         fi
 	
 	#Monolingual hardrules
-	if [[ " ${monocleaner_langs[*]} " =~ " $srclang " ]]; then
+	if [[ " ${monocleaner_langs[*]} " =~ " $srclang2 " ]]; then
 		#Lang supported by monocleaner
-		monocleaner_metadata=$datapath/monocleaner/$srclang/metadata.yaml
+		monocleaner_metadata=$datapath/monocleaner/$srclang2/metadata.yaml
 		mkdir -p $datapath/monocleaner
 	fi
 	source /work/venvs/venv-mc/bin/activate
 	echo "Running Monocleaner  Hardrules..."
-	cat $tsv_file_path | $MONO_CACHE_CMD  parallel -k -j $JOBS --pipe monocleaner-hardrules --score_only --annotated_output --run_all_rules --disable_lang_ident  $srclang - - --quiet > $tsv_file_path.hardrules 2> hr.log
+	cat $tsv_file_path | $MONO_CACHE_CMD  parallel -k -j $JOBS --pipe monocleaner-hardrules --score_only --annotated_output --run_all_rules --disable_lang_ident  $srclang2 - - --quiet > $tsv_file_path.hardrules 2> hr.log
 	deactivate
 
 
         #Fastspell
         echo "Running FastSpell..."
 	#Force Fasttext download, in case it does not exist in this environment, to avoid doing it in parallel
-	python3 /work/scripts/force-fasttext-download.py $srclang        
-        ./scripts/map/parallel-fastspell.sh $JOBS $srclang $tsv_file_path $tsv_file_path.langids 1 
+	python3 /work/scripts/force-fasttext-download.py $srclang2        
+        ./scripts/map/parallel-fastspell.sh $JOBS $srclang2 $tsv_file_path $tsv_file_path.langids 1 
         cat $tsv_file_path.langids | LC_ALL=C sort --parallel $JOBS -S 50% --compress-program=zstd | uniq -c | sort -nr  >  $tsv_file_path.srclangs
 
 
@@ -535,7 +540,7 @@ elif [ "$langformat" == "mono" ]; then
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
                 source /work/venvs/venv-bnlp/bin/activate
         fi	
-	bash /work/scripts/map/parallel-readcorpus-mono.sh $JOBS_READCORPUS $tsv_file_path $srclang $tsv_file_path.proc	
+	bash /work/scripts/map/parallel-readcorpus-mono.sh $JOBS_READCORPUS $tsv_file_path $srclang $srclang2 $tsv_file_path.proc	
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
 		deactivate
 	fi
@@ -589,7 +594,7 @@ elif [ "$langformat" == "mono" ]; then
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
                 source /work/venvs/venv-bnlp/bin/activate       
         fi
-	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang 
+	python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $(basename "$tsv_file_path") $srclang $srclang2
 	if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ] || [ "$trglang" = "bn" ] || [ "$trglang" = "ben" ]; then
                 deactivate
         fi
