@@ -179,7 +179,7 @@ def fix_stopwords(stopwords, lang):
     elif lang == "mi":
         stopwords.extend(["te", "o", "ki", "me", "nga"])
     elif lang == "mk":
-        stpowords.extend(["овие"])
+        stopwords.extend(["овие"])
     elif lang == "ml":
         stopwords.extend(["ഞാന്", "ചെയ്യുക"])
     elif lang == "mr":
