@@ -50,6 +50,11 @@ export default function Report({ date, report }) {
     src_tokens,
     trg_tokens,
     sample,
+    src_ngrams,
+    trg_ngrams,
+    collections,
+    hardrules_tags,
+    bicleaner_scores
   } = report;
 
   const datasetName = router.query.file;
@@ -78,8 +83,8 @@ export default function Report({ date, report }) {
     trgUniqueTokens
   );
 
-  const noiseDistribution = report.hardrules_tags
-    ? Object.entries(report.hardrules_tags).filter((el) =>
+  const noiseDistribution = hardrules_tags
+    ? Object.entries(hardrules_tags).filter((el) =>
       !report.trglang ? el[0] !== "length_ratio" : el
     )
     : "";
@@ -576,25 +581,25 @@ export default function Report({ date, report }) {
       </div>
       <div
         className={
-          report.bicleaner_scores || report.collections ? "custom-chart" : ""
+          bicleaner_scores || collections ? "custom-chart" : ""
         }
       >
         <div className={styles.anotherContainer}>
-          {report.bicleaner_scores && (
+          {bicleaner_scores && (
             <div
               style={
-                report.collections
+                collections
                   ? { width: "70%", marginBottom: "40px" }
                   : { width: "100%", marginBottom: "40px" }
               }
             >
               <BicleanerScores
-                scores={report.bicleaner_scores}
+                scores={bicleaner_scores}
                 footNote={footNote}
               />
             </div>
           )}
-          {report.collections && (
+          {collections && (
             <div
               className={styles.collectionsGraphPie}
               style={{ width: "30%" }}
@@ -614,7 +619,7 @@ export default function Report({ date, report }) {
           >
             <div className={styles.containsTooltip}>
               <h3>
-                {!report.trglang
+                {!trglang
                   ? "Segment length distribution by token"
                   : "Source segment length distribution by token"}
               </h3>
@@ -662,7 +667,7 @@ export default function Report({ date, report }) {
           </div>
         )}
       </div>
-      {report.hardrules_tags && noiseDistribution && (
+      {hardrules_tags && noiseDistribution && (
         <NoiseDistribution
           noiseData={noiseDistribution}
           sentences={report.sentence_pairs}
@@ -670,19 +675,19 @@ export default function Report({ date, report }) {
           footNote={footNote}
         />
       )}
-      {report.src_ngrams && Object.entries(report.src_ngrams).length > 0 && (
+      {Object.keys(src_ngrams ?? {}).length > 0 && (
         <NGrams
           which="Source"
-          ngrams={report.src_ngrams}
-          trg={report.trglang}
+          ngrams={src_ngrams}
+          trg={trglang}
           footNote={footNote}
         />
       )}
-      {report.trglang && Object.entries(report.src_ngrams).length > 0 && (
+      {Object.keys(trg_ngrams ?? {}).length > 0 && (
         <NGrams
           which="Target"
-          ngrams={report.trg_ngrams}
-          trg={report.trglang}
+          ngrams={trg_ngrams}
+          trg={trglang}
           footNote={footNote}
         />
       )}
