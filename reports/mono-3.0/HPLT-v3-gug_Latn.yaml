@@ -1,8 +1,9 @@
 corpus: hplt-v3-gug_Latn
-srclang: gn
-timestamp: 1758068416.6738734
+srclang: gug
+timestamp: 1759490532.2907798
 warnings:
 - src_warning_tok_nltk_wordpunct
+- src_fastspell
 docs_collections: '[["CC-MAIN-2018-05", 3771], ["CC-MAIN-2020-05", 3525], ["CC-MAIN-2017-26",
   3504], ["CC-MAIN-2020-24", 3019], ["CC-MAIN-2017-51", 2832], ["CC-MAIN-2020-29",
   2384], ["CC-MAIN-2020-10", 2349], ["CC-MAIN-2020-34", 2151], ["wide15", 2103], ["CC-MAIN-2018-39",
@@ -24,7 +25,8 @@ docs_collections: '[["CC-MAIN-2018-05", 3771], ["CC-MAIN-2020-05", 3525], ["CC-M
   ["wide17", 460], ["survey3", 273], ["CC-MAIN-2016-30", 225], ["CC-MAIN-2014-42",
   169], ["CC-MAIN-2016-40", 154], ["CC-MAIN-2015-48", 132], ["CC-MAIN-2015-11", 119],
   ["CC-MAIN-2015-18", 116]]'
-docs_langs: '[[0.0, 98942], [0.1, 8], [0.2, 7], [0.3, 11], [0.4, 4], [0.5, 2]]'
+docs_langs: '[[0.0, 46], [0.1, 1559], [0.2, 6203], [0.3, 8580], [0.4, 8807], [0.5,
+  17565], [0.6, 10967], [0.7, 15260], [0.8, 12240], [0.9, 5111], [1.0, 12636]]'
 docs_segments: '[[91, 23], [976, 1], [981, 1], [982, 1], [89, 37], [92, 28], [869,
   1], [99, 22], [93, 22], [98, 25], [933, 1], [97, 20], [88, 34], [86, 26], [95, 24],
   [918, 1], [931, 1], [90, 27], [96, 33], [94, 22], [87, 33], [9, 3498], [1, 4853],
@@ -144,6 +146,7 @@ docs_wds: '[[10.0, 1], [5.0, 6516], [5.1, 6151], [5.2, 5730], [5.3, 5302], [5.4,
   [8.1, 1136], [8.2, 568], [8.3, 422], [8.4, 415], [8.5, 415], [8.6, 490], [8.7, 387],
   [8.8, 328], [8.9, 245], [9.0, 196], [9.1, 333], [9.2, 41], [9.3, 20], [9.4, 20],
   [9.5, 23], [9.6, 9], [9.7, 6], [9.8, 7], [9.9, 1]]'
+duplication_ratio: 0.2593
 sentence_pairs: 1699445
 src_bytes: 249260508
 src_chars: 239598746
@@ -729,7 +732,7 @@ src_unique_sents: '[[1, 11194], [2, 32406], [3, 46917], [4, 55254], [5, 66074], 
   1], [25090, 1], [25317, 1], [26440, 1], [26460, 1], [33071, 1], [36323, 1], [37484,
   1], [37590, 1], [47738, 1], [48978, 1], [49807, 1], [50369, 1], [54789, 1], [68907,
   1], [84246, 1], [95018, 1], [110810, 1], [137249, 1], [199654, 1]]'
-src_langs: '[["es", 1272283], ["en", 101788], ["gn", 96060], ["pt", 49450], ["it",
+src_langs: '[["es", 1290055], ["en", 101788], ["gn", 78288], ["pt", 49450], ["it",
   49226], ["fr", 21038], ["de", 9232], ["pl", 5704], ["ca", 5393], ["cs", 4767], ["hu",
   4715], ["ast", 4551], ["gl", 4387], ["hr", 4328], ["vi", 4191], ["cy", 3644], ["ro",
   3533], ["fi", 3304], ["nl", 2925], ["la", 2856], ["war", 2756], ["eo", 2610], ["tl",
@@ -757,462 +760,538 @@ src_langs: '[["es", 1272283], ["en", 101788], ["gn", 96060], ["pt", 49450], ["it
   1]]'
 hardrules_tags: '{"not_too_long": 17905, "not_too_short": 258378, "length_ratio":
   0, "no_urls": 21078, "no_bad_encoding": 9772, "pii": 8448}'
-sample: '["\"Browsing by Author \\\"Esplandiu, Juan\\\"\\n-\\nSilva, Aura de; Mistral,
-  Gabriela; Arrupe, Pedro; Huidobro, Mar\u00eda Teresa de; Ibero, Suzanne; P\u00e9rez
-  Camarero, Arturo; Esplandiu, JuanLetras y Encajes publica su primer n\u00famero
-  en 1926, esta revista fue fundada por mujeres de la clase dirigente de Medell\u00edn,
-  muchas de ellas socias de la instituci\u00f3n cultural Centro Femenino de Estudios
-  (Sof\u00eda Ospina de ...Universidad Nacional de Colombia Proyectos Tem\u00e1ticos
-  Biblioteca Digital Feminista Ofelia Uribe de Acosta BDF Arte, cine y literatura.\"",
-  "\"El impreso Caracterizaci\u00f3n social, econ\u00f3mica y fiscal de municipios
-  del Golfo de Morroquillo. Cove\u00f1as, San Antero y Santiago de Tol\u00fa ha sido
-  registrado con el ISBN 978-958-58226-2-7 en la Agencia Colombiana del ISBN. Este
-  impreso ha sido publicado por Observatorio Del Caribe Colombiano en el a\u00f1o
-  2014 en la ciudad de Cartagena, en Colombia.\\nAdem\u00e1s de este registro, existen
-  otros 50 libros publicados por la misma editorial. Se destacan: Perspectivas del
-  Medio Ambiente: Geo Cartagena coordinado por Pnuma Diez Manifestaciones del Carnaval
-  de Barranquilla con participaci\u00f3n de Comisi\u00f3n Colombiana de Cooperaci\u00f3n
-  con la Unesco y Unesco con pr\u00f3logo de Ministerio De Cultura De Direcci\u00f3n
-  De Patrimonio Indicador Global de Competitividad de las ciudades del Caribe colombiano,
-  2008 escrito por Aura Tatiana Garc\u00eda Mart\u00ednez, Jorge David Quintero Otero,
-  Laura Elena Leviller Guardo, Luis Fernando L\u00f3pez Pineda y Patricia Villadiego
-  Paternina Roberto Burgos Cantor con participaci\u00f3n de Adriana Urrea y Ariel
-  Castillo coordinado por Patricia Iriarte Jos\u00e9 F\u00e9lix Fuenmayor, entre la
-  tradici\u00f3n y la vanguardia escrito por Albio Martinez Simanca.\\n(Observatorio
-  del Caribe Colombiano, 2014)\\nObservatorio del Caribe Colombiano (2014). Caracterizaci\u00f3n
-  social, econ\u00f3mica y fiscal de municipios del Golfo de Morroquillo. Cove\u00f1as,
-  San Antero y Santiago de Tol\u00fa. Cartagena, Colombia: Observatorio Del Caribe
-  Colombiano\\nEste libro ha sido publicado en Colombia, en Cartagena, Bolivar. Esta
-  obra ha sido publicada en el a\u00f1o 2014.\"", "\"Jos\u00e9 de la Puente Brunke\\nDoctor
-  en Historia (Universidad de Sevilla). Bachiller en Derecho (Pontificia Universidad
-  Cat\u00f3lica del Per\u00fa) Profesor Principal, Pontificia Universidad Cat\u00f3lica
-  del Per\u00fa Profesor Universidad del Pac\u00edfico MIEMBRO ORDINARIO DEL INSTITUTO
-  RIVA-AG\u00dcERO Director del Instituto Riva-Ag\u00fcero 1911-1914; 1914- Miembro
-  de N\u00famero de la Academia Nacional de la Historia. Premio a la Investigaci\u00f3n
-  2008 - Pontificia Universidad Cat\u00f3lica del Per\u00fa) 1er Premio Concurso de
-  Monograf\u00edas 1991 \u2013 Exca. Diputaci\u00f3n Provincial de Sevilla 1er Premio
-  Concurso V Centenario del Descubrimiento de Am\u00e9rica 1991 \u2013 DIGITA S.A.
-  Premio Extraordinario de Licenciatura 1985 \u2013 Universidad de Sevilla\"", "\"Buenas
-  tardes amigos, hoy 20 de octubre en horas del mediod\u00eda, acudimos a la invitaci\u00f3n
-  y fuimos recibidos en el despacho de, Don Enrique Hern\u00e1ndez Bento, en su car\u00e1cter
-  de Delegado del Gobierno de Espa\u00f1a, la Subdelegada del Gobierno Espa\u00f1ol,
-  Do\u00f1a Rosario Cabrera Guelmes, el Senador de Espa\u00f1a, Don Antonio Alarc\u00f3,
-  Do\u00f1a Mar\u00eda Dolores Collado, representante de la Seguridad Social Espa\u00f1ola,
-  (INS) y, Don Juan Manuel Casero, Tesorero General de la Seguridad Social, all\u00ed
-  acudimos, Don Agust\u00edn Rodr\u00edguez, Presidente de la Uni\u00f3n Canario-Venezolana,
-  (UCVE), la Asesora Legal del UCVE, Do\u00f1a Albania Oyarzun Castro y por la Secci\u00f3n
-  Jubilados y Pensionados IVSS de la Uni\u00f3n Canario-Venezolana, Do\u00f1a Mary
-  Fern\u00e1ndez, Don Emilio L\u00f3pez Perea y Don Marcelino Hern\u00e1ndez De Le\u00f3n.\"",
-  "\"Materias\\nDocuments disponibles dans cette cat\u00e9gorie (6)\\nTexto manuscrito\\nRamos,
-  Gabriela Noelia | Salta : Universidad Cat\u00f3lica de Salta. Escuela de Educaci\u00f3n
-  y Perfeccionamiento Docente | 2019| En formato papel.N\u00famero de Publicaci\u00f3n
-  per\u00edodica\\nde Hugo Zanatta, Santiago V\u00e1squez de Novoa, Tom\u00e1s Guillermo
-  Rueda\\nEn Tendencias, A\u00f1o VII, no. 13 (ene./jun. 2013)| En formato papel.Texto
-  impreso\\nBlake, Oscar Juan Bronstein, D\u00e9bora ; Leoni, Nora ; Szvarc, Ruth
-  ; Kort, Graciela ; Provenzano, Cecilia ; V\u00e1zquez Mazzini, Marisa | Buenos Aires
-  : Ediciones Macchi | 2001| En formato papel.Texto impreso\\nSeminario Los problemas
-  y la estrategia del planeamiento de la educaci\u00f3n en Am\u00e9rica latina (1964:
-  Par\u00eds, Francia) Coombs, Philip H. ; Mayobre, Jos\u00e9 A. ; Wolfe, Marshall
-  ; Louri\u00e9, Sylvain S. ; Diez-Hochleitner, Ricardo ; Halty Carrere, M\u00e1ximo
-  ; Gr\u00e9goire, Roger ; Balogh, Thomas ; Chaparro, Alvaro ; T\u00fcnnermann Bernheim,
-  Carlos ; Benveniste, Guy | Par\u00eds : Unesco | 1965| En formato papel.\"", "\"Alejandro
-  Conesa e Iker Mara\u00f1\u00f3n, ganadores del Concurso Infantil\\nEn la tarde del
-  pasado martes, 31 de Enero, se reuni\u00f3 en los locales del Museo de la Semana
-  Santa \u201cTom\u00e1s Varc\u00e1rcel Deza\u201d, de Torrevieja, el Jurado calificador
-  del XXXI Concurso de Carteles Anunciadores de la Semana Santa, compuesto por: Mar\u00eda
-  Garc\u00eda Rubio, profesora de la Escuela Municipal de Pintura y que ejerci\u00f3
-  como presidenta del Jurado, C\u00e9sar Rodr\u00edguez Mateo, profesor de la Escuela
-  Municipal de Pintura, V\u00edctor Garc\u00eda Villalgordo, pintor y escultor, Jorge
-  Esteve Mart\u00ednez, Presidente de la Junta Mayor de Cofrad\u00edas de la Semana
-  Santa de Torrevieja, con voz pero sin voto, por expreso deseo suyo y Fernando Guardiola
-  Molina, director de la publicaci\u00f3n del Libro-Programa de la Semana Santa de
-  Torrevieja 2012, que ejerci\u00f3 como secretario. Sigue leyendo\\nFiled under:
-  Cultura | Tagged: carteles, desierto, Falo, oncurso, santa, semana, torrevieja |
-  Leave a comment \u00bb\"", "\"Especialistas en Celulitis en Nuevo Leon\\n-\\nDermat\u00f3logo\\n(Dermatolog\u00eda
-  pedi\u00e1trica, Enfermedades del cabello y de las u\u00f1as, Detecci\u00f3n precoz
-  del c\u00e1ncer de piel, Dermatolog\u00eda est\u00e9tica, Cirug\u00eda dermatol\u00f3gica)
-  Ver m\u00e1s -\\n-\\n-\\n-\\n-\\n-\\n-\\n-\\n-\\n-\\n-\\n-\\n-\\n-\\n-\\n-\\nAlerg\u00f3logo,
-  Anestesi\u00f3logo, Angi\u00f3logo\\n, Audi\u00f3logo, Cardi\u00f3logo, Cirujano
-  cardiovascular y tor\u00e1cico, Cirujano general, Cirujano onc\u00f3logo, Cirujano
-  pedi\u00e1trico, Cirujano pl\u00e1stico, Dermat\u00f3logo, Endocrin\u00f3logo, Endoscopista,
-  Gastroenter\u00f3logo, Geriatra, Ginec\u00f3logo, Hemat\u00f3logo, Infect\u00f3logo,
-  Inmun\u00f3logo, Terapeuta complementario, Especialista en medicina cr\u00edtica
-  y terapia intensiva, Especialista en medicina del deporte, M\u00e9dico est\u00e9tico,
-  M\u00e9dico de familia, M\u00e9dico general, Internista, Especialista en medicina
-  preventiva, Nefr\u00f3logo, Neonat\u00f3logo, Neum\u00f3logo, Neurocirujano, Neurofisi\u00f3logo,
-  Neur\u00f3logo, Nutricionista, Nutri\u00f3logo cl\u00ednico, Especialista en obesidad
-  y delgadez, Oftalm\u00f3logo, Onc\u00f3logo m\u00e9dico, Optometrista, Ortopedista,
-  Otorrinolaring\u00f3logo, Pediatra, Proct\u00f3logo, Psic\u00f3logo, Psiquiatra,
-  Reumat\u00f3logo, Traumat\u00f3logo, Ur\u00f3logo Ver m\u00e1s\"", "\"Ver enlace\\nEtiquetas:
-  2020, Colonizaci\u00f3n ling\u00fc\u00edstica, Descolonizaci\u00f3n idiom\u00e1tica,
-  Diccionario, Estudios sobre el lenguaje, Filolog\u00eda, Gram\u00e1tica de la Lengua
-  Castellana, Gram\u00e1ticas, Guaran\u00ed, Huasteco, Ilustrado, Lengua hablada,
-  Lengua maya, Lengua mixteca, Lenguas coloniales, Lenguas ind\u00edgenas de Am\u00e9rica,
-  Lenguas nativas, Lenguas precolombinas, Ling\u00fc\u00edstica, Nombres, Origen de
-  las lenguas, paperblog, Pronombres, Quechua, Quich\u00e9, Sintaxis, Totonaco, transcripciones,
-  Vocabulario, Zapoteco | Categor\u00edas: P\u00e1ginas web\\nVer enlace\\nEtiquetas:
-  2019, Am\u00e9rica del Sur, A\u00f1o Internacional de las Lenguas Nativas, Cervera,
-  Diario Palentino, Exposici\u00f3n, Guaran\u00ed, Lenguas ind\u00edgenas, Lenguas
-  nativas, Paraguay | Categor\u00edas: Prensa escrita\\nVer enlace\\nEtiquetas: 2017,
-  Argentina, Castellano, El Comercio, El Pa\u00eds, Estudiante, Guaran\u00ed, Paraguayo,
-  Quechua, Segunda lengua, Telam, Twitter | Categor\u00edas: Prensa escrita\\nVer
-  enlace\\nEtiquetas: 2004, Alem\u00e1n, Aymara, Ciberpa\u00eds, Definiciones de palabras,
-  Diccionario Logos, Diccionarios, El Pa\u00eds, Espa\u00f1ol, Guaran\u00ed, Holand\u00e9s,
-  Idiomas, Ingl\u00e9s, Lenguas, Lenguas ind\u00edgenas, Lenguas minoritarias, L\u00e9xico,
-  Lexicograf\u00eda, Mapudungun, Obras de referencia, Obras lexicogr\u00e1ficas, Palabras,
-  Quechua, Traducci\u00f3n | Categor\u00edas: Prensa escrita\\nVer enlace\\nEtiquetas:
-  2018, Alfredo Tarazaga, Anglicismos, \u00c1rabe, Arabismos, Cadena Ser, Castellano,
-  David Callejo, Espacio de lengua, Espa\u00f1ol, Etnias, Franc\u00e9s, Galicismos,
-  Guaran\u00ed, Indigenismos, Ingl\u00e9s, Lat\u00edn, Lengua espa\u00f1ola, Lenguas,
-  Lenguas ind\u00edgenas, L\u00e9xico, N\u00e1huatl, Palabras, Vocabulario | Categor\u00edas:
-  Podcasts,Radio\\nVer enlace\\nEtiquetas: 2018, Aimara, Bolivia, Capacitaci\u00f3n
-  ling\u00fc\u00edstica, Catal\u00e1n, Conocimiento de la lengua catalana, Conocimientos
-  de catal\u00e1n, Decretazo del catal\u00e1n, Decreto del Catal\u00e1n, Decretos
-  ling\u00fc\u00edsticos, Espa\u00f1ol, Etnias, Exigencia de lenguas, Exigencias ling\u00fc\u00edsticas,
-  Francina Armengol, Germ\u00e1n Le\u00f3n Notario, Govern Balear, Guaran\u00ed, Ibiza,
-  Imposici\u00f3n del catal\u00e1n, Islas Baleares, Lengua y pol\u00edtica, Lenguas,
-  Lenguas aut\u00f3ctonas, Lenguas cooficiales, Lenguas ind\u00edgenas, Lenguas propias,
-  M\u00e9s, Opini\u00f3n, Pol\u00edtica ling\u00fc\u00edstica, Quechua, Sanidad, Tup\u00ed
-  | Categor\u00edas: Prensa escrita\\nVer enlace\\nEtiquetas: 2004, Alem\u00e1n, Bartomeu
-  Meli\u00e1, Biling\u00fcismo, Castellano, Ecolog\u00eda ling\u00fc\u00edstica, El
-  Pa\u00eds, Espa\u00f1ol, Etnias, Franc\u00e9s, Griego, Guaran\u00ed, Idiomas, Indigenismo,
-  Ingl\u00e9s, Lat\u00edn, Lengua y cultura, Lenguas, Lenguas del mundo, Lenguas ind\u00edgenas,
-  Lenguas oficiales, Lenguas precolombinas, Mallorqu\u00edn, Monoling\u00fcismo, Paraguay,
-  Patrimonio ling\u00fc\u00edstico, Portugu\u00e9s, Rosa Mora | Categor\u00edas: Prensa
-  escrita\\nVer enlace\\nEtiquetas: 2017, Agencia EFE, Argentina, Buenos Aires, Guaran\u00ed,
-  La Vanguardia, Lengua, Lengua y cultura, Lenguas ind\u00edgenas, Mafalda, Mar\u00eda
-  Gloria Pereira, Salvador Lavado, Traducci\u00f3n | Categor\u00edas: Prensa escrita\\nVer
-  enlace\\nEtiquetas: 2017, Agencia EFE, Argentina, Biling\u00fcismo, Bolivia, Castellano,
-  Coexistencia de lenguas, Convivencia de lenguas, Diglosia, Espa\u00f1ol, Guaran\u00ed,
-  II Feria de Lenguas en Paraguay, Jopara, La Vanguardia, Lengua y cultura, Lenguaje,
-  Lenguas, Lenguas del mundo, Lenguas ind\u00edgenas, Lenguas oficiales, Ling\u00fc\u00edstica,
-  Mestizaje ling\u00fc\u00edstico, Paraguay, Socioling\u00fc\u00edstica | Categor\u00edas:
-  Prensa escrita\\nVer enlace\\nEtiquetas: 2017, ABC Digital, Aprendizaje de guaran\u00ed,
-  Aprendizaje de las lenguas ind\u00edgenas, Biling\u00fcismo, Bolivia, Castellano,
-  D\u00eda del Idioma Guaran\u00ed, Educaci\u00f3n, Educaci\u00f3n biling\u00fce,
-  Ense\u00f1anza, Ense\u00f1anza biling\u00fce, Espa\u00f1ol, Guaran\u00ed, Guaran\u00ed
-  como segunda lengua, Hispanohablantes, Hispanoparlantes, Idiomas, Lengua guaran\u00ed,
-  Lengua y educaci\u00f3n, Lengua y ense\u00f1anza, Lengua y sociedad, Lenguas, Lenguas
-  del mundo, Lenguas ind\u00edgenas, Ling\u00fc\u00edstica, Paraguay, Realidad socioling\u00fc\u00edstica
-  del guaran\u00ed, Segundas lenguas, Socioling\u00fc\u00edstica | Categor\u00edas:
-  Plataformas virtuales\"", "\"PROYECTO\\nDIRECTOR DE PROYECTO: RODRIGUEZ ALZUETA
-  ESTEBAN\\nINSTITUCI\u00d3N: UNQ - UNIVERSIDAD NACIONAL DE QUILMES\\nDIRECTOR DE
-  PROYECTO: RODRIGUEZ ALZUETA ESTEBAN\\nINTEGRANTES DEL EQUIPO:\\nALVAREZ AIELLO ANA
-  REINA; ANTEDORO NICOL\u00c1S; ANTIVERO PAOLA; BERIAIN LUCAS PABLO; CAMPUZANO BETSABE
-  M\u00c9LAN; DOMENIGHINI MARIANA; FAEDO NAHUEL; GONZALEZ MAT\u00cdAS; KALER SANZANA
-  FERNANDO; PASSARELLI ANA MILENA; ROLDAN NAHUEL ALEJANDRO; SAYES PILAR CONSUELO;
-  VADURA LUCAS AGUST\u00cdN; VALDEZ NAHUEL DAMI\u00c1N; VALLONE FLORENCIA PAULA; VASQUEZ
-  MANUEL; ZAPATA JEREM\u00cdAS\\nINSTITUCI\u00d3N: UNQ - UNIVERSIDAD NACIONAL DE QUILMES\\nUNIDAD
-  ACAD\u00c9MICA: Sin informaci\u00f3n\\nClasificaci\u00f3n tem\u00e1tica\\nTEMA:
-  V\u00ednculos y convivencia escolar\\nA\u00d1O DEL INICIO DEL PROYECTO: 2019\"",
-  "\"Por Promtel,\\nMar\u00eda de Lourdes Coss Hern\u00e1ndez, Directora General.\\nJessica
-  San Juan Rivera, Titular de la Unidad de Promoci\u00f3n de Inversiones y Desarrollo.\\nAlejandro
-  Ch\u00e1varri Rodr\u00edguez, Titular de la Unidad de Ingenier\u00eda, Supervisi\u00f3n
-  y Control de Proyectos.\\nMarcial Hern\u00e1ndez Quintana, Titular de la Unidad
-  de Evaluaci\u00f3n, Ejecuci\u00f3n y Estudios Econ\u00f3micos.\\nArmando Guauxochitl
-  Mar\u00edn, Director Ejecutivo de Promoci\u00f3n de Inversiones.\\nFranciso Miguel
-  Hermenegildo Partida, Titular de la Unidad de Estrategia Jur\u00eddica y Regulatoria.\\nLeonel
-  Vargas Urban, Subdirector de Gesti\u00f3n.\\nPor IFT,\\nM. en C. Mario Germ\u00e1n
-  Fromow Rangel, Comisionado.\\nMtro. Adolfo Cuevas Teja, Comisionado.\\nIng. Javier
-  Ju\u00e1rez Mojica, Comisionado.\\nDr. Arturo Robles Rovalo, Comisionado.\\nLic.
-  S\u00f3stenes D\u00edaz Gonz\u00e1lez, Comisionado.\\nMtro. Ramiro Camacho Castillo,
-  Comisionado.\\nLic. David Gorra Flota, Secretario T\u00e9cnico del Pleno.\\nLic.
-  Carlos Silva Ram\u00edrez, Titular de la Unidad de Asuntos Jur\u00eddicos.\\nLic.
-  Juan Jos\u00e9 Crisp\u00edn Borbolla, Coordinador Ejecutivo.\\nLic. V\u00edctor
-  Manuel Rodr\u00edguez Hilario, Titular de la Unidad de Pol\u00edtica Regulatoria.\\nLic.
-  Emiliano D\u00edaz Goti, Director General de la oficina del Comisionado Robles.\\nLic.
-  Javier Adri\u00e1n Arriaga Aguayo, Director General de la oficina del Comisionado
-  Cuevas.\\nLic. Enrique Etzel Salinas Morales, Director General Adjunto de la oficina
-  del Comisionado Camacho.\\nDr. Christian James Aguilar Armenta, Director General
-  de la oficina del Comisionado Camacho.\\nIng. Manuel Alejandro C\u00f3rdoba Maldonado,
-  Director de \u00e1rea de Presidencia.\\nLic. Paola Cicero Arenas, Directora General
-  de la oficina del Comisionado Ju\u00e1rez.\\nIng. Jos\u00e9 Guadalupe Rojas Ram\u00edrez,
-  Director General de la oficina del Comisionado Fromow.\\nLic. Mart\u00edn Eduardo
-  Fern\u00e1ndez Torres, Director de \u00e1rea de la oficina del Comisionado Fromow.\\nLic.
-  Esthela Elizabeth Mendoza Guerra, Directora General de la oficina del Comisionado
-  D\u00edaz.\"", "\"Asumieron los Nuevos Funcionarios del Municipio de Castelli\\nEl
-  Intendente Pio Sander tom\u00f3 juramento a los nuevos Funcionarios Municipales.\\nEl
-  intendente PIO OSCAR SANDER tom\u00f3 juramento a los nuevos funcionarios , Secretario
-  de gobierno: Pablo Ismael Barnes, Secretario privado: Cristian Ariel Villalba, Secretario
-  de desarrollo social: Javier Armando Bender, Secretaria de Cultura y Turismo : Prof
-  Silvia Raquel Andorno, Secretaria de la producci\u00f3n y desarrollo local : Ing.
-  Jessica Lorena Kloster , Secretaria de obras p\u00fablicas: Ing Natalia Patricia
-  Aguilar Perez, Secretario de servicios p\u00fablicos: MMO Ruben \u00d3scar Ch\u00e1vez\\nSecretario
-  de Medio Ambiente Prof Enzo Ferrari, Secretario de econom\u00eda y hacienda: Contador
-  Jorge Molina, Secretario de Asesor\u00eda Legal Dr. Fabricio Ferreya\\nContinuando
-  lo hizo con las Subsecretar\u00edas de Ceremonial y protocolo: Walter Fabi\u00e1n
-  Ben\u00edtez, de Deporte: Prof Roberto Dario Scheffer, de Relaciones con la comunidad:
-  Fabricio Ben\u00edtez Becher, De igualdad y Genero Profesora Melina Solange Sander,
-  de Servicio Rurales de peque\u00f1os y Medianos productores prof Elio Borosky, de
-  Adolecencia, ni\u00f1ez y familia: Karem Emilce Frank, de hacienda Cont Mar\u00eda
-  Bel\u00e9n Kass y de econom\u00eda regional Monica Figueroa.\\nComo as\u00ed tambi\u00e9n
-  a los DELEGADOS MUNICIPALES de Zaparinqui: Mariana L\u00f3pez y de El Asustado:
-  Daniel Flores Galarza.\\nNotas Relacionadas\\n( Castelli - Chaco )\\n( Castelli
-  - Chaco )\\n( Castelli - Chaco )\\n( Castelli - Chaco )\\n( Castelli - Chaco )\\n(
-  Castelli - Chaco )\\n( Castelli - Chaco )\\n( Castelli - Chaco )\"", "\"EN EL CAMINO
-  DEL INCA\\nCON G\u00dcITO EN EL RECUERDO\\n- Ficha T\u00e9cnica\\n- Editorial:\\n-
-  QUORUM LIBROS\\n- A\u00f1o de edici\u00f3n:\\n- 2013\\n- Materia\\n- NARRATIVA\\n-
-  ISBN:\\n- 978-84-92581-75-7\\n- EAN:\\n- 9788492581757\\n- P\u00e1ginas:\\n- 336\\n-
-  Disponibilidad:\\n- En stock\\n- Idioma:\\n- CASTELLA\\nEl Camino del Inca en Per\u00fa,
-  era el m\u00edtico trayecto real que atravesando monta\u00f1as, valles y selvas,
-  un\u00eda Cuzco con la ciudad sagrada de Machu Picchu. Peregrinos, oficiales y mensajeros
-  actuaban como correos humanos para llevar a la ciudad perdida las noticias del imperio
-  m\u00e1s vasto de la Am\u00e9rica prehisp\u00e1nica. Este libro es tambi\u00e9n
-  como un largo y fecundo camino jalonado por los escritos y dibujos de los cincuenta
-  y tres autores aqu\u00ed reunidos, aut\u00e9nticos correos de nuestro precioso proyecto.\\nEs
-  un libro pensado como obra abierta, como una carpeta de testimonios diversos, una
-  obra en la que todo tiene cabida y cuyo eje de uni\u00f3n es \u00fanicamente la
-  amistad, la solidaridad o el recuerdo emocionado de alguien muy querido y de su
-  obra: G\u00fcito.\\nCon la participaci\u00f3n de:\\nJavier Atero, Virtudes Atero,
-  Rafael Bell\u00f3n, Jos\u00e9 Manuel Ben\u00edtez Ariza, Felipe Ben\u00edtez Reyes,
-  Jos\u00e9 Biedma L\u00f3pez, Bernardo Brea Von Wolfersdorff, Amalia Bulnes, Emma
-  Burgos Calvi\u00f1o, Javier Carazo Rubio, Pepa Caro Gamaza, Jos\u00e9 Chamorro L\u00f3pez,
-  Paco Cifuentes, Salvador Comp\u00e1n, Jos\u00e9 Manuel Contero Urgal, Manuel Cubero
-  Urbano, Ninfa Duarte, Rafael Duarte, Jes\u00fas Fern\u00e1ndez Palacios, Luis Foronda,
-  Antonio Fr\u00edas, Jos\u00e9 Manuel Garc\u00eda Gil, \u00c1ngel Garc\u00eda G\u00f3mez
-  (Geli), Jos\u00e9 Mar\u00eda Garc\u00eda L\u00f3pez, Lu\u00eds Garc\u00eda Montero,
-  Rosa G\u00f3mez Rubio, Nono Granero, Montserrat Guzm\u00e1n Gal\u00e1n, Daniel Heredia,
-  Ana L\u00f3pez Atero, Elo\u00edsa L\u00f3pez Atero, Juan L\u00f3pez Atero (G\u00fcito),
-  Alejandro Luque, Jes\u00fas Maeso de la Torre, Rafael Mar\u00edn, Arsenio Moreno,
-  Ana Sof\u00eda P\u00e9rez-Bustamante, Rafael Ram\u00edrez Escoto, Manuel Ramos Ortega,
-  Francisco Luis Redondo \u00c1lvaro, Jos\u00e9 Ram\u00f3n Ripoll, Jos\u00e9 Mar\u00eda
-  Ruiz Vargas, Joaqu\u00edn Sabina, Benito Sagredo, Antonio Segovia, Pedro Sevilla,
-  Juan Manuel Su\u00e1rez Jap\u00f3n, Adela Tarifa, Juan Jos\u00e9 T\u00e9llez, Roberto
-  Ter\u00e1n, Nieves V\u00e1zquez Recio y Jos\u00e9 Mar\u00eda Vel\u00e1zquez Gaztelu.\"",
-  "\"\u00c1ra 23 jasyporundy jave ojegueromandu\u2019a Lengua de Se\u00f1as \u00c1ra
-  Yvy\u2019ape \u00c1ri, Tet\u00e3ngu\u00e9ra \u00d1omoir\u0169 Amandajepav\u1ebd
-  omone\u0129va\u2019ekue Apoukapy A/72/439 rupive, ikatu hag\u0303u\u00e1icha o\u00f1emomba\u2019eguasu
-  lengua de se\u00f1as ha upeku\u00e9vo avei o\u00f1emoa\u00f1ete hag\u0303ua tapicha
-  ohendu\u2019\u1ef9va der\u00e9cho.\\nKo \u00f1emomor\u00e3 ryep\u00fdpe, Tapicha
-  Ohendu\u2019\u1ef9va Arapok\u00f5indy Yvy\u2019ape \u00c1ri ipyenda mbarete tet\u00e3
-  ambu\u00e9re ha tet\u00e3 ryep\u00fdpe, k\u00f3icha o\u00f1eipytyv\u00f5gui ojehechauka
-  ha o\u00f1e\u00f1angareko hag\u0303ua umi tapicha ohendu\u2019\u1ef9va ha lengua
-  se se\u00f1as puruh\u00e1ra rekotee ha tekojoparaeta rehe. Ko \u00f1emomor\u00e3
-  rupive o\u00f1emomandu\u2019a tekoat\u00fdpe Tapicha Ohendu\u2019\u1ef9va Aty ijaguaraha
-  i\u00f1e\u2019\u1ebd rehe, k\u00f3va omopyenda ha omombarete rupi ichupeku\u00e9ra
-  ombohovake hag\u0303ua ambue tapicha \u00f1emboyke.\\nParagu\u00e1ipe, Primera Escuela
-  Paraguaya de Sordos ojeroike avei ko \u00f1emomor\u00e3me, ombosako\u2019\u00edvo
-  pete\u0129 apopyr\u00e3 nepor\u00e3va ha oiporuku\u00e9vo pete\u0129 lema he\u2019\u00edva
-  \u201cLengua de se\u00f1as, por derecho: \u00a1S\u00famate!\u201d.\\nO\u00f1ehen\u00f3i
-  umi mburuvicha, tet\u00e3 mba\u2019apoh\u00e1ra, marandu\u2019as\u00e3iha ha tekoat\u00fdpe
-  o\u0129vape omoir\u0169 hag\u0303ua ko \u00f1emomor\u00e3 guasu, o\u0129tah\u00e1pe
-  heta apopyr\u00e3 taha\u2019e ko\u2019\u00e3 at\u00fdpe g\u0303uar\u00e3nte t\u00e9r\u00e3
-  ambu\u00e9va opavav\u00e9pe g\u0303uar\u00e3va.\\nKo\u2019\u00e3 \u00f1emomor\u00e3
-  ryep\u00fdpe Paragu\u00e1i \u00d1e\u2019\u1ebdngu\u00e9ra S\u00e3mbyhyha ohupyty
-  pete\u0129 jehechakuaa ha aguyjeme\u2019\u1ebd ko mbo\u2019ehaoguas\u00fagui.\"",
-  "\"Art\u00edculo Primero.- APROBAR, la Ordenanza Municipal que modifica el Texto
-  \u00danico de Procedimientos Administrativos-TUPA de la Municipalidad Provincial
-  de Mariscal C\u00e1ceres, en materia de Licencia de Edificaci\u00f3n\\nORDENANZA
-  MUNICIPAL QUE MODIFICA EL TEXTO \u00daNICO DE PROCEDIMIENTOS ADMINISTRATIVOS \u2013
-  TUPA DE LA MUNICIPALIDAD PROVINCIAL DE MARISCAL C\u00c1CERES EN MATERIA DE LICENCIA
-  DE EDIFICACI\u00d3N\\nORDENANZA MUNICIPAL QUE INCORPORA, MODIFICA Y DEROGA DISPOSICIONES
-  DE LA ORDENANZA N\u00ba 068-2006, QUE REGULA LA PROPAGANDA ELECTORAL EN EL DISTRITO
-  DE JUANJU\u00cd\"", "\"TITULACI\u00d3N: 4017 - Grado en Educaci\u00f3n Primaria
-  ASIGNATURA: 45310 - PR\u00c1CTICAS EXTERNAS - Plan: 30 - Ciclo: 1 - Curso: 1 CURSO
-  DE ADAPTACI\u00d3N: ATENCI\u00d3N A LA DIVERSIDAD (EE) DNI APELLIDOS, NOMBRE COLEGIO
-  MENCI\u00d3N DEL ALUMNO 54105719 C\u00c1CERES CABRERA PROFESOR CARLOS CURSO DE ADAPTACI\u00d3N:
-  ELO\u00cdNA SOCAS MU\u00d1OZ ATENCI\u00d3N A LA DIVERSIDAD (EE) GALIANO ARENCIBIA
-  SAN VICENTE DE PA\u00daL CURSO DE ADAPTACI\u00d3N: 45769000 TATIANA 54090981 GARC\u00cdA
-  G\u00d3EZ GEMMA ATENCI\u00d3N A LA DIVERSIDAD (EE) BENITO P\u00c9REZ GALD\u00d3S
-  CURSO DE ADAPTACI\u00d3N: ESTHER 45334038 42209252 ATENCI\u00d3N A LA DIVERSIDAD
-  (EE) HERN\u00c1NDEZ SAN ANTONIO MAR\u00cdA CURSO DE ADAPTACI\u00d3N: RODR\u00cdGUEZ
-  BEATR\u00cdZ CLARET ATENCI\u00d3N A LA DIVERSIDAD (EE) MEDINA SANTANA SAN JUAN DE
-  DIOS CURSO DE ADAPTACI\u00d3N: MACARENA 78515080 ROBAINA SANTANA ATENCI\u00d3N A
-  LA DIVERSIDAD (EE) ALCARAVANERAS SORAYA 54105459 RODR\u00cdGUEZ CURSO DE ADAPTACI\u00d3N:
-  ATENCI\u00d3N A LA DIVERSIDAD (EE) ENRIQUE DE OSSO SARMIENTO MAR\u00cdA CURSO DE
-  ADAPTACI\u00d3N: ATENCI\u00d3N A LA DIVERSIDAD (EE) NAIRA 78513446 SANTANA MEDINA
-  ALCARAVANERAS YURENA PILAR 45330773 SOSA MENDOZA ATENCI\u00d3N A LA DIVERSIDAD (EE)
-  JES\u00daS SACRAMENTADO CURSO DE ADAPTACI\u00d3N: NAZARET 42879151 SU\u00c1REZ MACHADO
-  ATENCI\u00d3N A LA DIVERSIDAD (EE) SIETE PALMAS MAR\u00cdA CRISTINA 78518743 S\u00c1NCHEZ
-  DEL PINO RAQUEL Martes, 14 de Enero; A\u00f1o acad\u00e9mico: 2013/14 CURSO DE ADAPTACI\u00d3N:
-  CURSO DE ADAPTACI\u00d3N: ATENCI\u00d3N A LA DIVERSIDAD (EE) SAN JUAN BOSCO CURSO
-  DE ADAPTACI\u00d3N: ATENCI\u00d3N A LA DIVERSIDAD (EE) P\u00e1gina 1 de 1\"", "\"Ver
-  enlace\\nEtiquetas: 2019, Academia Mexicana de la Lengua, Academias de la Lengua
-  Espa\u00f1ola, Asociaci\u00f3n de Academias de la Lengua Espa\u00f1ola (ASALE),
-  Corpus Diacr\u00f3nico y Diat\u00f3pico del Espa\u00f1ol de Am\u00e9rica (Cordiam),
-  Diccionario de la Real Academia Espa\u00f1ola (DRAE), El Mundo, Espa\u00f1ol en
-  Estados Unidos, Fon\u00e9tica, Franc\u00e9s, Francisco Javier P\u00e9rez, Gram\u00e1tica,
-  Hablantes, Hispanocentrismo, Hispanofobia, Idioma nacional, Ingl\u00e9s, Ling\u00fcistas,
-  Luis Alemany, Nuevo Diccionario Hist\u00f3rico de la Lengua Espa\u00f1ola, Opini\u00f3n
-  del lector, Vocabulario | Categor\u00edas: Prensa escrita\\nVer enlace\\nEtiquetas:
-  2018, Acento pros\u00f3dico, Acentos del espa\u00f1ol, BBC Mundo, Castellano, Entonaci\u00f3n,
-  Espa\u00f1ol, Fon\u00e9tica, Fonolog\u00eda, Franc\u00e9s, Griego cl\u00e1sico,
-  Hispanohablantes, Irene Hern\u00e1ndez Velasco, Italiano, Lat\u00edn, Lengua materna,
-  Lenguas prerromanas, Lenguas romances, Ling\u00fc\u00edstica, Lola Pons Rodr\u00edguez,
-  Normas ortogr\u00e1ficas del espa\u00f1ol, Palabras agudas, Palabras esdr\u00fajulas,
-  Palabras llanas, Prosodia, Reglas de acentuaci\u00f3n, Segundo idioma, Vocabulario
-  espa\u00f1ol | Categor\u00edas: Prensa escrita\\nVer enlace\\nEtiquetas: 2021, Canario,
-  Comisi\u00f3n de Lexicograf\u00eda de la Academia Canaria de la Lengua, Competencia
-  ling\u00fc\u00edstica, Comunicaci\u00f3n oral, Dialecto, Dialecto canario, Dialecto
-  materno, El D\u00eda, Espa\u00f1ol americano, Espa\u00f1ol de Canarias, Espa\u00f1ol
-  venezolano, Fon\u00e9tica, Habla local, Hablantes de segunda categor\u00eda, Hispanohablantes,
-  Humberto Hern\u00e1ndez, Inseguridad ling\u00fc\u00edstica, Lengua de segunda, Lengua
-  e ideolog\u00eda, Lengua general, Lengua materna, Modalidad ling\u00fc\u00edstica,
-  Norma ling\u00fc\u00edstica, Norma ling\u00fc\u00edstica septentrional, Opini\u00f3n,
-  Particularidades f\u00f3nicas, Patrimonio ling\u00fc\u00edstico y cultural, Pronunciaci\u00f3n,
-  Reconversi\u00f3n ling\u00fc\u00edstica, Sem\u00e1ntica, Ye\u00edsmo | Categor\u00edas:
-  Prensa escrita\\nVer enlace\\nEtiquetas: 2021, An\u00edbal Otero, Atlas Ling\u00fc\u00edstico
-  de la Pen\u00ednsula Ib\u00e9rica (ALPI), Cartograf\u00eda del espa\u00f1ol, Dialectolog\u00eda,
-  Diego Catal\u00e1n Men\u00e9ndez-Pidal, Etimolog\u00eda, Fil\u00f3logos, Fon\u00e9tica,
-  Henrique Mari\u00f1o, Lexicograf\u00eda, Ling\u00fc\u00edstica, Ortograf\u00eda
-  fon\u00e9tica, Pronunciaci\u00f3n, P\u00fablico, Ram\u00f3n Men\u00e9ndez Pidal,
-  Real Academia Espa\u00f1ola (RAE), Real Academia Galega (RAG), Tom\u00e1s Navarro
-  Tom\u00e1s, Transcripciones fon\u00e9ticas, Xes\u00fas Alonso Montero | Categor\u00edas:
-  Prensa escrita\\nVer enlace\\nEtiquetas: 2020, Acento, Acento neutro, Acomodaci\u00f3n
-  ling\u00fc\u00edstica, Actitudes ling\u00fc\u00edsticas, Comportamiento ling\u00fc\u00edstico,
-  Comunidad de habla, Dialecto, Diario Digital Universidad de Alcal\u00e1, Diversidad
-  ling\u00fc\u00edstica, Entrevista, Espa\u00f1ol, Estereotipos ling\u00fc\u00edsticos,
-  Florentino Paredes Garc\u00eda, Fon\u00e9tica, Identidad, Ideolog\u00eda ling\u00fc\u00edstica,
-  Lengua materna, Lenguaje, Pronunciaci\u00f3n, Socioling\u00fc\u00edstica, Variedad
-  ling\u00fc\u00edstica | Categor\u00edas: Prensa escrita\\nVer enlace\\nEtiquetas:
-  2019, Andaluz, Anglicismos innecesarios, Congreso de la Asociaci\u00f3n de Academias
-  de la Lengua Espa\u00f1ola, Fon\u00e9tica, La Raz\u00f3n, Lengua espa\u00f1ola,
-  Lucas Haurie, Territorios hispanohablantes | Categor\u00edas: Prensa escrita\\nVer
-  enlace\\nEtiquetas: 2020, Aprendizaje de lenguas, Fon\u00e9tica, La Vanguardia,
-  Lat\u00edn, Lengua castellana, Lengua impuesta, Mag\u00edn Camps, Sonidos vocales,
-  Sonidos voc\u00e1licos, Sustrato ling\u00fc\u00edstico, Vasco, Vocales | Categor\u00edas:
-  Prensa escrita\\nVer enlace\\nEtiquetas: 2019, Aprendizaje de lenguas, Carmen \u00c1lvarez-Mayo,
-  Connotaci\u00f3n, David Crystal, Denotaci\u00f3n, ElDiario.es, Espa\u00f1ol, Fonemas,
-  Fon\u00e9tica, Fonoest\u00e9tica, Geograf\u00eda ling\u00fc\u00edstica, Ingl\u00e9s,
-  Lengua materna, Sinestesia | Categor\u00edas: Prensa escrita\\nVer enlace\\nEtiquetas:
-  2019, Cartas al Director, El Pa\u00eds, Extranjerismos, Fon\u00e9tica, Javier Mart\u00ednez
-  Aranzabal, Opini\u00f3n | Categor\u00edas: Prensa escrita\\nVer enlace\\nEtiquetas:
-  2019, \u00c1lvaro Recio Diego, Castellano, El Pa\u00eds, Escritura, Espa\u00f1ol,
-  Fon\u00e9tica, Hispanohablantes, Lengua, Opini\u00f3n, Ortograf\u00eda, Ortograf\u00eda
-  de la lengua espa\u00f1ola, Palabras agudas, Palabras esdr\u00fajulas, Palabras
-  llanas | Categor\u00edas: Prensa escrita\"", "\"INTENDENTE .\\nTEC. UNIV. ALBERTO
-  LAURIANO GODOY VICE INTENDENTE. SR. SANTIAGO MERCADO.\\nCONCEJALES. SR. DANIEL HERRERA,
-  DANIEL REARTE, ARIEL LUNA, JORGE GRANILLO, NICOLAS HERRERA, MAURO PERALTA Y FRANCO
-  JUAREZ.\\nSECRETARIO DE GOBIERNO PROF. ALFREDO BARRIONUEVO\\nSUB SECRETARIO DE GOBIERNO.
-  SR. CRISTIAN LUNA.\\nSECRETARIO DE HACIENDA. PROF. RIVERO ALICIA\\nSECRETARIO DE
-  CULTURA TURISMO Y DESARROLLO LOCAL. PROF. DANIEL OLIVERA\\nTESORERO GENERAL MUNCIPAL.
-  PROF. TORRES MARIANA\\nCONTADORA GENERAL MUNICIPAL. CRA MARIELA MERCADO\\nDIRECTOR
-  GENERAL DE DESARROLLO SOCIAL. PROF. ANDREA CUEVAS\\nDIRECTOR GENERAL DE ADMINISTRACION
-  Y DESPACHO. SRA MABEL VALLEJO\\nDIRECTOR GENERAL DE SERVICIO PUBLICO. SR DAVID TELLO\\nDIRECTOR
-  GENERAL DE DESARROLLO LOCAL Y MEDIO AMBIENTE ING. ROBERTO DIAZ NIEVA\\nDIRECTOR
-  DE GENERAL RENTAS MUNICPAL. SR. RENZO DIAZ\\nDIRECTOR GENERAL DE CULTURA, TURISMO,
-  PROTOCOLO Y CEREMONIAL. PROF . MAR\u00cdA DE LOS \u00c1NGELES PAEZ\\nDIRECTOR GENERAL
-  DE URBANIZACION, OBRAS PUBLICAS Y PRIVADAS. SR. ANTONIO CORDOBA\\nJEFE DE TURISMO
-  MUNICIPAL. SR. ANDRES FIGUEROA\\nJEFE DE PROTOCOLO Y CEREMONIAL. SR. IVAN OLMEDO.\"",
-  "\"J\u00f3venes Consejo Estudiantil Nacional he\u2019i hiku\u00e1i oman\u00f3ha
-  educaci\u00f3n paraguaya ary 2020 ha omo\u00ee pete\u00ee corona de flores p\u00e9va
-  Ministerio de Educaci\u00f3n y Ciencias (MEC)-pe. Oguerovia hiku\u00e1i omo\u00eevo
-  hiku\u00e1i pete\u00ee fracaso sistema implementado ha\u2019\u00e9va clases virtuales
-  ojeipys\u00f3va.\\n10 de octubre de 2020 \u2013 20:53\\nNicol\u00e1s Maldonado,
-  presidente Consejo Estudiantil, he\u2019i educaci\u00f3n nacional omano ko ar\u00fdpe
-  ha temimbo\u2019e oimeh\u00e1pe plan de educaci\u00f3n p\u00e9va \u201cojeharu ko\u2019\u00e3
-  sentido\u201d. Ombojoapy temimbo\u2019e ohasa as\u00fdva estr\u00e9s o\u00f1eikotev\u00eava
-  o\u00f1emohend\u00e1vo clases virtuales. He\u2019i jey ko\u2019\u00e3 temimbo\u2019e
-  ndorek\u00f3iva posibilidad econ\u00f3mica ohupyty hagu\u00e3 internet h\u00f3ga
-  guive. \u201cRoguero corona umi temimbo\u2019e paraguayo r\u00e9rape ha rojer\u00fare
-  ministerio ani oho clase presencial ko ar\u00fdpe\u201d, he\u2019i jey. OMoa\u00f1ete
-  ko\u2019\u00e3va ndorek\u00f3iva sentido ni ome\u2019\u00eavo mbo\u2019ehao kot\u00fdpe
-  ni orrendi hagu\u00e3, p\u00e9va sistema implementado noaprend\u00e9i mba\u2019evete.\\nMaldonado
-  he\u2019i gremio mba\u2019apoh\u00e1pe MEC guive, pero ndoval\u00e9i mba\u2019ever\u00e3.
-  \u201cMinisterio nopen\u00e1i umi tekotev\u00ea ha orek\u00f3va temimbo\u2019\u00e9pe
-  oiko\u2019\u00f5va ni sector docente-pe\u201d, omoa\u00f1ete. Ministro de Educaci\u00f3n,
-  Eduardo Petta, omom\u00fdi oh\u00f3vo consenso, pero ndoguerohor\u00fdiva hiku\u00e1i.
-  Presidenta Federaci\u00f3n de padres Fedapy, Francisca Monges, he\u2019i ABC-pe
-  ko arapok\u00f5ind\u00fdpe ABC pete\u00ee ministro cerrado, ego\u00edsta, omanipul\u00e1va
-  situaci\u00f3n.\\nCamila Gim\u00e9nez, Federaci\u00f3n de Estudiantes Fenaes, oguerovia
-  \u201ci\u00f1embyasyv\u00e9pe\u201d presidente Mario Abdo Ben\u00edtez, oipytyv\u00f5
-  Petta-pe hembiap\u00f3pe. Omoa\u00f1ete ko ar\u00fdpe pete\u00ee \u201ctortura\u201d
-  umi temimbo\u2019\u00e8pe ha p\u00e9va aty guasu rupive ha\u2019\u00e8va pete\u00ee
-  estafa nohen\u00faigui MEC mburuvichaku\u00e9ra.\\nLea en Espa\u00f1ol\"", "\"Olimpia
-  triunf\u00f3 ante el Sportivo Luque\u00f1o y logr\u00f3 alzarse con el t\u00edtulo
-  de campe\u00f3n del Torneo Clausura de manera anticipada en la categor\u00eda Sub
-  15, tras alcanzar los 41 puntos. Los otros triunfos de la fecha fueron para Cerro
-  Porte\u00f1o, Libertad, Guaire\u00f1a FC y 12 de Octubre.\\nLas s\u00edntesis de
-  los compromisos:\\nOlimpia 5-1 Sportivo Luque\u00f1o\\nEstadio: Complejo ODD - Villeta.
-  \u00c1rbitro: Paolo Galeano. Asistentes: Adriana Barrios y Augusto Mart\u00ednez.
-  Goles: 17\u2019 y 45\u2019 Alan Medina, 21\u2019 Maicol Ferreira, 41\u2019 Derlis
-  Mart\u00ednez y 48\u2019 Fabrizio Baruja (O); 72\u2019 Juan Alfonzo (SL).\\nAlineaciones:\\nOlimpia
-  (5): Jes\u00fas Peralta; Jos\u00e9 Silva, Kevin Cardozo, Immanol Br\u00edtez (74\u2019
-  El\u00edas Sandoval) y Thiago Ag\u00fcero; Augusto Franco, Fabrizio Baruja, Tob\u00edas
-  Le\u00f3n (59\u2019 Luciano Luraghi) y Alan Medina (55\u2019 Josu\u00e9 Mart\u00ednez);
-  Derlis Mart\u00ednez (67\u2019 \u00c1ngel R\u00edos) y Maicol Ferreira (55\u2019
-  \u00c1ngel Rodr\u00edguez). DT: Luis Romero.\\nSportivo Luque\u00f1o (1): Mat\u00edas
-  Ant\u00fanez; Axel Galeano, Julio Santacruz, Alan Rodas (46\u2019 Thiago Belotto)
-  y Gustavo Gonz\u00e1lez; Tob\u00edas Villalba, Dimas \u00c1valos (68\u2019 Pedro
-  Britos), Diego Fretes (25\u2019 Alexander Garay) y Enzo Ag\u00fcero (52\u2019 Santiago
-  Cardozo); Juan Alfonzo y Tob\u00edas Ortiz (74\u2019 Alan Cowan). DT: Diego Cabrera.\\nCerro
-  Porte\u00f1o 7-1 Sol de Am\u00e9rica\\nEstadio: Parque Azulgrana. \u00c1rbitra:
-  Astrid Mendoza. Asistentes: Ariel Silguera y Fany Mart\u00ednez. Goles: 8'' Dante
-  Gim\u00e9nez, 16'' Alan Romero, 22'' J\u00fanior Fari\u00f1a, 36'' Juan S\u00e1nchez,
-  42'' Ever Ledesma, 63'' C\u00e9sar Arias y 86'' Dylan Bobadilla (CP); 20'' David
-  Fern\u00e1ndez (SA). Amonestados: 36'' Julio Montiel y 59'' Cristhian Bogado (CP);
-  70'' Jorge Mora (SA).\\nAlineaciones:\\nCerro Porte\u00f1o (7): Dylan Bobadilla;
-  Christian Riquelme (45'' Kevin Ch\u00e1vez), Cristhian Bogado, Mauro Bogado y \u00d3scar
-  L\u00f3pez; Ever Ledesma (80'' Lucas Cohener), Alan Romero, Juan S\u00e1nchez y
-  Julio Montiel (61'' Eric Santander); Dante Gim\u00e9nez (75'' Am\u00edlcar Fern\u00e1ndez)
-  y J\u00fanior Fari\u00f1a (45'' C\u00e9sar Arias). DT: Alberto Godoy.\\nSol de Am\u00e9rica
-  (1): Ariel Miranda; Augusto Dur\u00e9, Sebasti\u00e1n Robledo, Willian B\u00e1ez
-  (65'' Juan Camacho) y Mauricio Z\u00e1rate (66'' Giovanni Orrego (73'' Joaqu\u00edn
-  Pereira)); \u00d3scar Cardozo (80'' Jos\u00e9 Mareco), Jerem\u00eda Guerrero (76''
-  Lucas Dom\u00ednguez), Marcos Br\u00edtez y Jorge Mora; David Fern\u00e1ndez y Franco
-  Mart\u00ednez. DT: Ariel Mart\u00ednez.\\nLibertad 7-3 Guaran\u00ed\\nEstadio: Colegialito.
-  \u00c1rbitro: Jos\u00e9 Recalde. Asistentes: Mat\u00edas Morel y Dar\u00edo Ru\u00edz
-  D\u00edaz. Goles: 10'' Fernando Viveros, 30'' Emanuel Melgarejo, 32'' y 64'' \u00c1ngel
-  P\u00e1ez, 38'' Rodrigo Villalba, 77'' Am\u00edn Moreno y 81'' Marcelo Riveros (L);
-  55'' Anderson Leguizam\u00f3n, 69'' Diego Flores y 75'' Francisco Barrios (G). Amonestados:
-  37'' Rub\u00e9n Ruiz D\u00edaz y 56'' Ronaldo Romero (L).\\nAlineaciones:\\nLibertad
-  (7): Marcial Caballero; Marcelo Riveros, Math\u00edas Ca\u00f1iza (72'' Am\u00edn
-  Moreno), Lucas Ortiz y Alexander Zorrilla; Rub\u00e9n Ruiz D\u00edaz (74'' Carlos
-  M\u00e9ndez), Fernando Viveros (84'' Cristian Paredez), Ronaldo Romer\u00eda y Emanuel
-  Melgarejo (69'' Brahian Villagra); \u00c1ngel P\u00e1ez (69'' Mauricio Gonz\u00e1lez)
-  y Rodrigo Villalba. DT: Luis Villasanti.\\nGuaran\u00ed (3): Julio Maidana; Alex
-  Sosa, Benjam\u00edn N\u00fa\u00f1ez, Antonio Qui\u00f1\u00f3nez y Miguel Avalos
-  (46'' Kevin Schupp); Santiago Acosta, Anderson Leguizam\u00f3n (73'' Francisco Barrios),
-  C\u00e1ndido Caballero y Diego Flores; Jorge Genez (75'' Robert Villamayor) y Gonzalo
-  Samaniego (61'' Arnaldo Galeano). DT: Elvis Marecos.\\nGuaire\u00f1a FC 4-1 Nacional\\nEstadio:
-  Olimpia de Villarica. \u00c1rbitro: Orlando Achucarro. Asistentes: Claudia Delvalle
-  y Christian Galeano. Goles: 38\u2019, 43\u2019 y 59\u2019 \u00c9dgar Ojeda y 90\u2019+5\u2019
-  Carlos Sandoval (G); 20\u2019 Maycol Valdez (N). Amonestados: 35\u2019 Diego Chaparro,
-  51\u2019 \u00c9dgar Ojeda y 56\u2019 Braian Romero (G); 24\u2019 Hugo Llamas, 51\u2019
-  Alan Villasanti y 54\u2019 Hugo Hidalgo (N). Expulsados: 58\u2019 Andr\u00e9s Resqu\u00edn
-  (G); 68\u2019 Maycol Valdez (N).\\nAlineaciones\\nGuaire\u00f1a FC (4): Cristian
-  Fari\u00f1a; Cristian Rotela, Andr\u00e9s Resqu\u00edn, Maicol Denis (50\u2019 Diego
-  S\u00e1nchez) y Fernando Acevedo (15\u2019 Ad\u00e1n Bernal); Braian Romero, Diego
-  Chaparro (70\u2019 Celso L\u00f3pez), Alexis Cristaldo y Robert Bernal; \u00c9dgar
-  Ojeda (85\u2019 Carlos Sandoval) y Mateo Bogado (75\u2019 Mat\u00edas \u00c1valos).
-  DT: Andr\u00e9s R\u00edos.\\nNacional (1): Ra\u00fal Ar\u00e9valos; Ulises Gim\u00e9nez,
-  Giovanni Villalba, Hugo Hildalgo y V\u00edctor L\u00f3pez (76\u2019 Bruno Melgarejo);
-  El\u00edas Palacios, Bruno Gonz\u00e1lez (45\u2019 Alan Villasanti), Math\u00edas
-  G\u00f3mez y Hugo Llamas (45\u2019 Julio Qui\u00f1\u00f3nez); Maycol Valdez y Mauricio
-  Serv\u00edn (61\u2019 Tiago Villamayor). DT: \u00c9dgar Mena.\\nRiver Plate 0-1
-  12 de Octubre (I)\\nEstadio: Jardines del Kelito. \u00c1rbitro: Pedro Centuri\u00f3n.
-  Asistentes: Myrian Sanabria y Junior Ayala. Gol: 71\u2019 Ever Coronel (12OI). Amonestados:
-  40\u2019 Thiago Ch\u00e1vez (RP). Expulsado: 66\u2019 Cristhian Balbuena (RP).\\nAlineaciones:\\nRiver
-  Plate (0): Math\u00edas Villagra; Leandro Ram\u00edrez, Cristhian Balbuena, Mat\u00edas
-  Rivas y Leandro Silva; Joshua Vera (56\u2019 Santiago Retamar), Thiago Ch\u00e1vez
-  (79\u2019 Gianluca Araujo), Diego Vallejos (68\u2019 Cecilio Centuri\u00f3n) y Maximiliano
-  Aquino (77\u2019 Ronald Aquino); Jonathan Franco y Lucas T\u00e9llez. DT: Roberto
-  Gonz\u00e1lez.\\n12 de Octubre (1): Gabriel Riquelme; Antonio Z\u00e1rate, C\u00e9sar
-  Bobadilla (66\u2019 El\u00edas Sosa), Ever Coronel y Jes\u00fas Acu\u00f1a (56\u2019
-  Gerardo Gim\u00e9nez); Tob\u00edas Jara, Rodrigo Reyes, Denis Lezcano (60\u2019
-  Jorge Acosta) y Heric Torres (34\u2019 Edisson Lara); Franchesco Villalba (90\u2019+2\u2019
-  Thiago Villamayor) y Tob\u00edas Enciso. DT: Jos\u00e9 Mart\u00ednez.\\nLa tabla
-  de posiciones:\\nOlimpia 41 puntos, Cerro Porte\u00f1o 31, Libertad 30, Guaran\u00ed
-  25, Sol de Am\u00e9rica 21, 12 de Octubre 19, Sportivo Luque\u00f1o 17, Guaire\u00f1a
-  FC 8, Nacional 8 y River Plate 8.\\nLos goleadores:\\n17: Derlis Mart\u00ednez (Olimpia).\\n11:
-  Diego Flores (Guaran\u00ed) y Alan Medina (Olimpia).\\n10: Jorge Mora (Sol de Am\u00e9rica).\\n9:
-  Rodrigo Villalba (Libertad).\\nFoto: Club Olimpia -Formativas\"", "\"Coordinadora
-  Regional\\nLa Coordinadora Regional es el m\u00e1ximo \u00f3rgano de decisi\u00f3n
-  entre Asambleas y est\u00e1 compuesto por 50 miembros. Del proceso de la Decimotercera
-  Asamblea Regional han salido elegidos los siguientes miembros:\\nRepresentantes
-  elegidos en la Asamblea Regional: Joaqu\u00edn Mac\u00edas, Marisa Rebolledo, \u00c1lvaro
-  V\u00e1zquez, Iv\u00e1n Ruiz, Sandra Blanco, Miguel Manzanera, Sonia Garc\u00eda,
-  No\u00e9 Rozas, Miguel \u00c1ngel Herrera, Jes\u00fas D\u00edaz, Rosa Fabi\u00e1n,
-  Pedro Tena, Adri\u00e1n Rodr\u00edguez, Mar\u00eda Carmen Mu\u00f1oz, David Jim\u00e9nez,
-  Luis Miguel G\u00e1lvez, Olga Hoyas, Francisco Flores, Jos\u00e9 Mar\u00eda Gonz\u00e1lez,
-  Indira Fern\u00e1ndez, F\u00e9lix Padilla, Silvia Vega, Miguel Jos\u00e9 Gonz\u00e1lez,
-  Francis B\u00e1ez y Celia Chamorro.\\nRepresentantes elegidos en las Asambleas Comarcales:
-  Francisco Mac\u00edas, Margarita Adelaida Berzas, Ram\u00f3n Mill\u00e1n, Candelaria
-  Silva, Luis Zah\u00ednos, Manuel Estribio, Miguel A. Fern\u00e1ndez, Santiago Fern\u00e1ndez,
-  Pedro Mar\u00eda Garc\u00eda, \u00c1ngel Masero, Javier Nieto, Juan Manuel Dom\u00ednguez,
-  Antonio Bizarro, Antonio Carmona, Eugenio Rodr\u00edguez, Pedro Jos\u00e9 Pascual,
-  Nadia Ruiz, Abraham Carrillo, Antonio Moreno, Ra\u00fal Casta\u00f1o,Carmen Rubio,
-  Jacinto Rodr\u00edguez, Patricia Ayala, Manuela Gonz\u00e1lez y Leonor Jim\u00e9nez\""]'
+sample: '["\"Pilar Quintana en el Festival Oiga, Mire, Lea\\nBuscar\\nCalendario General\\nEscoge
+  la categor\u00eda del evento que buscas\\nLa Biblioteca Departamental Jorge Garc\u00e9s
+  Borrero invita a acompa\u00f1ar a reciente ganadora del premio Alfaguara de Novela
+  Pilar Quintana presentar\u00e1 su libro Los abismos en un conversatorio que ser\u00e1
+  conducido por Catalina Villa en el marco del lanzamiento de la s\u00e9ptima versi\u00f3n
+  del Festival Internacional de Literatura Oiga Mire Lea, encuentro a realizarse el
+  pr\u00f3ximo lunes 19 de abril, 10:00 a.m. v\u00eda streaming, www.oigamirelea.com
+  y las cuentas oficiales de Youtube y Facebook de la Biblioteca Departamental Jorge
+  Garc\u00e9s Borrero.\"", "\"\u00f0 VEN\u00c3 A CELEBRAR CON NOSOTROS \u00f0\u00bb\\nCon
+  tu conductor designado.\\nOktoberfortis, la fiesta m\u00e1s cervecera en todos nuestros
+  locales.\\nDirecciones:\\n-Asunci\u00f3n: Eusebio Ayala Km. 4,5.\\n-Mariano Roque
+  Alonso: Ruta PY03 Gral. Aquino esq. Bernardino Caballero.\\n-Ciudad del Este: Av.
+  Monse\u00f1or Rodr\u00c3guez Km. 4.3 \u00e2 Ruta PY07\\n-Concepci\u00f3n: Coronel
+  Rafael Franco Km 1 \u00e2 Barrio Santa Mar\u00c3a\\n-Coronel Oviedo: Ruta PY02 \u00e2
+  Mariscal Jos\u00e9 F\u00e9lix Estigarribia entre Tacuary e Independencia Nacional
+  \u00e2 Barrio Universitario\\n-Pedro Juan Caballero: Av. Padre Juan Jos\u00e9 O\u00e2Connor
+  esq. Cincuentenario de la Guerra del Chaco.\"", "\"\u00d1embyas\u00fdpe romombe\u2019u
+  hekovejeihague ange pyhare karai katupyryete Paraguaigua, Dr. Ramiro Dom\u00ednguez.
+  Paragu\u00e1i \u00d1e\u2019\u1ebdngu\u00e9ra S\u00e3mbyhyha o\u00f1embyasy mayma
+  ipeh\u1ebdngue ha i\u00f1angir\u0169ngu\u00e9ra ndive.\\nHetekue o\u0129ta ko pyharev\u00e9pe
+  10 aravo guive Ca\u00f1ete e Hijos (Mariscal Lopez 440)-pe ha o\u00f1e\u00f1ot\u1ef9ta
+  \u00e1g\u0303a ko\u2019\u1ebdr\u00f5 it\u00e1va Villarrica-pe.\\nCompartir esta
+  noticia\\n\u00c1ra ijojaha\u2019\u1ef9va pete\u0129me, kuehe pyhareve o\u00f1eguenoh\u1ebd
+  aranduk\u00e1ramo Guarani \u00d1e\u2019\u1ebdtekuaa Tee, Guarani \u00d1e\u2019\u1ebd
+  Rerekuapav\u1ebd (G\u00d1R) rembiapo. Ko aranduka omohend\u00e1va guarani \u00f1e\u2019\u1ebd,
+  arat\u00e9ma o\u00f1eikotev\u1ebdva, rupive ikatukua\u00e1tama ojepuru meme ha hek\u00f3pe
+  ko \u00f1e\u2019\u1ebd haip\u00fdpe.\\nVer m\u00e1sKo arapote\u0129me o\u00f1eguenoh\u1ebd
+  pete\u0129haite \u201cSignario Digital de Lengua de Se\u00f1as\u201d \u00f1ane ret\u00e3
+  Paragu\u00e1ipe. Ko mba\u2019eguasuete os\u1ebdva tenonder\u00e3 oguereko 2.500
+  rasami \u00f1e\u2019\u1ebdha\u2019anga, omone\u0129mava \u00f1ane ret\u00e3 tapicha
+  aty i\u00f1e\u2019\u1ebdng\u00fava \u00f1e\u2019\u1ebd rehe omba\u2019ap\u00f3va.\\nVer
+  m\u00e1sGuarani \u00d1e\u2019\u1ebdtekuaa Tee o\u00f1eguenoh\u1ebd \u00f1epyr\u0169ta
+  ko arak\u00f5i 13 jasypoapy ramo, 10:00 aravo jave, Biblioteca y Archivo Central
+  del Congreso de la Naci\u00f3n kot\u00fdpe, opyt\u00e1va R\u00edo Ypan\u00e9 ha
+  R\u00edo Aquidab\u00e1n rap\u00e9pe, ha omoir\u0169ta heta tet\u00e3 mburuvicha.\\nVer
+  m\u00e1sYvy\u2019ape tuichakue o\u00f1emomor\u00e3 ko \u00e1rape Ypyku\u00e9ra Aty
+  \u00c1ra Guasu. \u00d1ane ret\u00e3 Paragu\u00e1ipe o\u0129 19 ypyku\u00e9ra aty,
+  o\u00f1emboja\u2019\u00f3va 5 famlia fing\u00fc\u00edstica apyt\u00e9pe; o\u0129
+  i\u00f1e\u2019\u1ebdkanguet\u00e9mava.\\nVer m\u00e1sKo\u2019\u1ebdr\u00f5, arapote\u0129
+  10 jasypoap\u00fdpe, o\u00f1eguenoh\u1ebdta Paragu\u00e1i \u201cSignario Digital
+  de Lengua de Se\u00f1as\u201d. Tekombo\u2019e ha Tembikuaa Motenondeha (TTM), Mba\u2019e\u2019apopy
+  Ak\u00e3r\u00e3pu\u2019\u00e3r\u00e3 S\u00e3mbyhyha (MbAS), ha Paragu\u00e1i \u00d1e\u2019\u1ebdngu\u00e9ra
+  S\u00e3mbyhyha (P\u00d1S) oguenoh\u1ebdta ko mba\u2019eguasuete,\u2026\\nVer m\u00e1sOmone\u0129
+  rire Guarani \u00d1e\u2019\u1ebd Rerekuapav\u1ebd, Guarani \u00d1e\u2019\u1ebdtekuaa
+  Tee, ha oguat\u00e1vo Tet\u00e3 Ruvichavete Tembiapoukapy 6797/17, Paragu\u00e1i
+  \u00d1e\u2019\u1ebdngu\u00e9ra S\u00e3mbyhyha, apoukapy rupive omone\u0129 avei
+  ko \u00d1e\u2019\u1ebdtekuaa ha he\u2019i ohasa rire mbohapy ary ojeojopy kuaatamaha
+  opaite tet\u00e3\u2026\\nVer m\u00e1s\"", "\"WORKSHOP\\nPenas de prisi\u00f3n de
+  larga duraci\u00f3n.\\nUn modelo aplicativo desde una perspectiva transversal.\\nCoordinadores:
+  Francisco Javier de Le\u00f3n Villalba. Profesor Titular de Derecho Penal.\\nBeatriz
+  L\u00f3pez Lorca. Profesora Asociada de Derecho Penal e investigadora. Universidad
+  de Castilla-La Mancha.\\nPrograma\\n26-27 de marzo de 2015\\nFacultad de Ciencias
+  Sociales\\nUniversidad de Castilla-La Mancha\\nAvda. de los Alfares 44, Cuenca\\nIdiomas
+  de trabajo: espa\u00f1ol e ingl\u00e9s\\nEntidades financiadoras:\\n- Ministerio
+  de Econom\u00eda y Competitividad\\n- Universidad de Castilla-La Mancha\\n- Patronato
+  de Gil Albornoz\\n- Direcci\u00f3n General de Direcciones Penitenciarias. Ministerio
+  del Interior\\n- Seminario de Derecho Penal Militar\"", "\"*Doctor Washington Baliero
+  en Derecho y Ciencias Sociales, Profesor Agregado (Grado 4) de Derecho Internacional
+  P\u00fablico, Miembro suplente del Claustro de la Facultad de Derecho (2010-2014),Miembro
+  alterno por Uruguay en el Tribunal Permanente de Revisi\u00f3n del MERCOSUR (TPR)
+  (desde 2011),Presidente de la Comisi\u00f3n Administradora del R\u00edo de la Plata
+  (CARP) (enero 2000-diciembre 2000), Delegado del Uruguay en la CARP (octubre 1990-mayo
+  2006), Ex diputado del Partido Colorado y ex Viceministro del Interior.\"", "\"La
+  Conferencia Episcopal Boliviana est\u00e1 presidida por una directiva cuya gesti\u00f3n
+  dura tres a\u00f1os. Las autoridades actuales de la CEB son:\\nCARGOS DE LA CEB
+  PARA EL PERIODO 2015-2018\\nPresidente\\nMons. Ricardo Centellas Guzm\u00e1n, Obispo
+  de Potos\u00ed\\nVicepresidente:\\nMons. Oscar Aparicio C\u00e9spedes, Arzobispo
+  de Cochabamba\\nSecretario General:\\nMons. Aurelio Pesoa Ribera, Obispo Auxiliar
+  de La Paz\\nPRESIDENTES DE \u00c1REA\\n1. \u00c1rea de Evangelizaci\u00f3n: Mons.
+  Juan Vargas Aruquipa, Obispo de Coroico\\n2. \u00c1rea de Comuni\u00f3n Eclesial:
+  Mons. Percy Galv\u00e1n Flores , Obispo Prelado de Corocoro,\\n3. \u00c1rea de Educaci\u00f3n:
+  Mons. Jes\u00fas Ju\u00e1rez P\u00e1rraga, Arzobispo de Sucre\\n4. \u00c1rea de
+  Pastoral Social Caritas: Mons. Eugenio Coter. Obispo Vicario de Pando\\nVOCALES
+  DE \u00c1REAS Y SU RESPONSABILIDAD\\n\u00c1rea de Evangelizaci\u00f3n:\\n\u2022
+  Secci\u00f3n de culturas: Mons. Juan Vargas, Obispo de Coroico ( Presidente del
+  \u00c1rea) y Mons. Antonio Reimann, Obispo Vicario de \u00d1uflo de Chavez.\\n\u2022
+  Secci\u00f3n de Catequesis y B\u00edblia: Mons. Waldo Barrionuevo. Obispo Auxiliar
+  del Vicariato de Reyes\\n\u2022 Secci\u00f3n de Doctrina de la Fe: Mons. Javier
+  del Rio Sendino, Obispo de Tarija y Mons. Waldo Barrionuevo, Obispo Auxiliar del
+  Vicariato de Reyes\\n\u2022 Secci\u00f3n de Liturgia: Mons. Javier del Rio Sendino,
+  Obispo de Tarija\\n\u2022 Secci\u00f3n de Misiones: Mons. Julio Mar\u00eda El\u00edas.
+  Obispo del Vicariato del Beni\\n\u2022 Obras Misionales Pontificias: Mons. Eugenio
+  Scarpellini, Obispo de El Alto\\n\u2022 Comisi\u00f3n de Comunicaci\u00f3n: Mons.
+  Jes\u00fas P\u00e9rez. Obispo Em\u00e9rito de Sucre\\n\u2022 Secci\u00f3n de Ecumenismo:
+  Mons. Jes\u00fas P\u00e9rez. Obispo Em\u00e9rito de Sucre\\n\u00c1rea de Comuni\u00f3n
+  Eclesial:\\n\u2022 Secci\u00f3n de Clero y Seminarios: Mons. Percy Galv\u00e1n(Presidente
+  del \u00c1rea). Obispo de la Prelatura de Corocoro\\n\u2022 Secci\u00f3n de Laicos
+  y CEBs: Mons. Jorge Sald\u00edas. Obispo Auxiliar de La Paz\\n\u2022 Secci\u00f3n
+  de Vida Consagrada: Mons. Roberto Bordi. Obispo Auxiliar del Vicariato del Beni\\n\u2022
+  Secci\u00f3n de Pastoral Familiar: Mons. Braulio Saez. Obispo Auxiliar de Santa
+  Cruz\\n\u2022 Secci\u00f3n de Pastoral Juvenil: Mons. Stanislaw Dowlaszewicz. Obispo
+  Auxiliar de Santa Cruz\\n\u00c1rea de Pastoral Social C\u00e1ritas:\\n\u2022 Proyectos:
+  Mons. Eugenio Coter (Presidente del \u00c1rea). Obispo del Vicariato de Pando\\n\u2022
+  Secci\u00f3n de Salud: Mons. Cristobal Bialasik. Obispo de Oruro\\n\u2022 Secci\u00f3n
+  de hogares y obras sociales:. Mons. Ren\u00e9 Leigue.Obispo Auxiliar de Santa Cruz\\n\u2022
+  Secci\u00f3n de Movilidad Humana: Mons. Gonzalo del Castillo. Obispo Castrense Em\u00e9rito\\n\u2022
+  Secci\u00f3n de Pastoral Penitenciaria: Mons. Luis Sainz. Arzobispo Auxiliar de
+  Cochabamba\\n\u00c1rea de Educaci\u00f3n:\\n\u2022 Mons. Jes\u00fas Ju\u00e1rez
+  P\u00e1rraga, Arzobispo de Sucre. (Presidente)\\n\u2022 Mons.Fernando Bascop\u00e9.
+  Obispo Castrense\\n\u2022 Mons. Tito Solari. Arzobispo Em\u00e9rito de Cochabamba\\nGRAN
+  CANCILLER DE LA UNIVERSIDAD CAT\u00d3LICA BOLIVIANA\\nMons. Mons. Jorge Herbas Balderrama,
+  Obispo Prelado de Aiquile\\nCONSEJO DE ASUNTOS ECONOMICOS DE LA CEB\\nPresidente:
+  Mons. Eugenio Scarpellini Mazolleni, Obispo de la Di\u00f3cesis de El Alto\\n1er
+  Vocal del Consejo de Asuntos Econ\u00f3micos: Mons. Carlos B\u00fcrgler. Obispo
+  del Vicariato de Reyes.\\n2do Vocal del Consejo de Asuntos Econ\u00f3micos: Mons.
+  Adolfo Bittschi, Obispo Auxiliar de Sucre\\nHERMANDAD\\nPresidente: Mons. Ricardo
+  Centellas Guzman. Obispo de Potos\u00ed, Presidente de la CEB.\\n1er Vocal de la
+  Hermandad: Mons. Jes\u00fas P\u00e9rez Rodr\u00edguez, Arzobispo Em\u00e9rito de
+  Sucre.\\n2do Vocal de la Hermandad: Mons. Ren\u00e9 Leigue Cesar\u00ed, Obispo Auxiliar
+  de Santa Cruz.\\nCONSEJO EPISCOPAL PERMANENTE\\nPresidente: Mons. Ricardo Centellas
+  Guzm\u00e1n, Obispo de Potos\u00ed\\nVicepresidente: Mons. Oscar Aparicio C\u00e9spedes,
+  Arzobispo de Cochabamba.\\nSecretario General: Mons. Aurelio Pesoa, Obispo Auxiliar
+  de la Paz\\nPresidente del Consejo de Asuntos Econ\u00f3micos: Mons. Eugenio Scarpellini,
+  Obispo de la Di\u00f3cesis de El Alto.\\nObispo Representante de las \u00c1reas:
+  Mons. Jes\u00fas Ju\u00e1rez P\u00e1rraga, Arzobispo de Sucre.\\nVocales:\\nPrimer
+  Vocal: Representante de los Obispos, Vicarios Apost\u00f3licos: Mons. Antonio Reimann,
+  Obispo del Vicariato de \u00d1uflo de Chavez.\\nSegundo Vocal: Mons. Sergio Gualberti
+  Calandrina, Arzobispo de Santa Cruz{\\nFUNDACI\u00d3N JUBILEO\\nPresidente: Mons.
+  Edmundo Abastoflor Montero, Arzobispo de La Paz\\nFUNDACI\u00d3N VIDA Y FAMILIA\\nPresidente:
+  Mons. Crist\u00f3bal Bialasik, svd, Obispo de Oruro\\nCONSEJO DE LA FACULTAD DE
+  TEOLOGIA SAN PABLO\\nPresidente: Mons. Jorge Herbas Balderrama, ofm, Obispo Prelado
+  de Aiquile.\\n1er Vocal: Mons. Robert Flock, Obispo Auxiliar de Cochabamba\\n2do
+  Vocal: Mons. Percy Galv\u00e1n Flores, Obispo Prelado de Corocoro\\n3er Vocal: Mons.
+  Fernando Bascop\u00e9 M\u00fcller, Obispo Castrense\\nDELEGADO AL CELAM\\nDelegado
+  titular al CELAM: Mons. Aurelio Pesoa Ribera, Obispo Auxiliar de la Arquidi\u00f3cesis
+  de la Paz, Secretario General de la CEB\\nDelegado sustituto al CELAM: Mons. Edmundo
+  Abastoflor Montero, Arzobispo de La Paz\\nREPRESENTANTE DE LA CEB EN ASAMBLEA DE
+  SOCIOS DE LA SOCIEDAD DE RESPONSABILIDAD LIMITADA (SOABIA)\\nMons. Adolfo Bittschi,
+  Obispo Auxiliar de Sucre\\nPRESIDENTE DEL DIRECTORIO DE FONCRESOL\\nPresidente:
+  Mons. Eugenio Coter, Obispo Vicario de Pando\\nFUNDACI\u00d3N PAX\\nPresidente:
+  Mons. Edmundo Abastoflor Montero, Arzobispo de La Paz\\nVicepresidente: Mons. Adolfo
+  Bittschi, Obispo Auxiliar de Sucre\\nVocal: Mons. Gonzalo del Castillo, Obispo Em\u00e9rito
+  Castrense\\nPRESIDENTE DE ESCUELAS DE CRISTO\\nPresidente: Mons. Jorge Sald\u00edas,
+  Obispo Auxiliar de La Paz\\nBolivia Misionera I\"", "\"A B C D E F G H I J K L M
+  N \u00d1 O P Q R S T U V W X Y Z Todo\\nG\\nGeneral de Finanzas, Direcci\u00f3n
+  (M\u00e9xico)\\nGil Zuarth, Roberto, Senado de la Rep\u00fablica (M\u00e9xico)\\nGiles
+  Navarro, C\u00e9sar Alejandro, IBD (M\u00e9xico)\\nGiles Navarro, C\u00e9sar (M\u00e9xico)\\nGodoy
+  Ramos, Ernestina\\nG\u00f3mez Macfarland, Carla Ang\u00e9lica , Instituto Belisario
+  Dom\u00ednguez\\nGonz\u00e1lez , Arely G\u00f3mez , Direcci\u00f3n General de An\u00e1lisis
+  Legislativo\\nGonz\u00e1lez Contr\u00f3, M\u00f3nica , Instituto Belisario Dom\u00ednguez\\nGonz\u00e1lez
+  Monroy, J. Javier\\nGonz\u00e1lez Morf\u00edn, Jos\u00e9 (M\u00e9xico)\\nGonz\u00e1lez
+  Oropeza, Manuel (M\u00e9xico)\\nGracia Guzm\u00e1n, Ra\u00fal, Senado de la Rep\u00fablica
+  (M\u00e9xico)\\nGracia Guzm\u00e1n, Senador Ra\u00fal\\nGranados Aguilar, Erika
+  (M\u00e9xico)\\nGranados Rold\u00e1n, Otto (M\u00e9xico)\\nGreen, Senadora Rosario
+  (M\u00e9xico)\\nGris Legorreta, Doctora Perla Carolina\\nGuajardo Villarreal, Ildefonso
+  , Instituto Belisario Dom\u00ednguez\\nGuerra Castillo, Marcela, Senado de la Rep\u00fablica\\nGuerra
+  Castillo, Marcela , Instituto Belisario Dom\u00ednguez\\nGuerra Ford, Oscar M.,
+  IFAI (M\u00e9xico)\\nGuerrero Aguirre, Francisco, Organizaci\u00f3n de los Estado
+  Americanos (OEA) (M\u00e9xico)\\nGuerrero Alc\u00e1ntara, \u00c1ngela\\nGuerrero
+  Galv\u00e1n, Luis Ren\u00e9 , Instituto Belisario Dom\u00ednguez\\nElementos 201
+  - 225 de 483   >>\"", "\"ProActivo\\nMinistro Francisco \u00cdsmodes, Viceministro
+  de Minas, Luis Miguel Inchaustegui, Director Ejecutivo de ProInversi\u00f3n, Alberto
+  \u00d1ecco, Luis Augusto Ducassi, Director de. Proyecto de la Direcci\u00f3n Especial
+  de Proyectos y \u00d3scar Gonz\u00e1les Rocha, Presidente ejecutivo de Southern
+  Peru Copper Corporation, participan en firma del contrato de transferencia del proyecto
+  minero Michiquillay, el cual generar\u00e1 mayores ingresos y oportunidades de desarrollo
+  a las comunidades campesinas de Michiquillay y La Enca\u00f1ada (Cajamarca)\"",
+  "\"Jujuy al d\u00eda\u00ae \u2013 El Ministerio de Educaci\u00f3n informa a las
+  comunidades educativas pertenecientes a Regi\u00f3n I y Regi\u00f3n II, que a partir
+  del pr\u00f3ximo lunes 26 hasta el viernes 30 del corriente mes se proceder\u00e1
+  a la desinfecci\u00f3n y desratizaci\u00f3n de las instalaciones educativas.\\nEl
+  \u00e1rea log\u00edstica informa a los directores pertenecientes a los establecimientos
+  educativos de Regi\u00f3n I, que deber\u00e1n dejar personal id\u00f3neo en los
+  establecimientos para llevar a cabo el procedimiento de desinfecci\u00f3n y desratizaci\u00f3n
+  seg\u00fan el cronograma establecido.\\nLas comunidades educativas de Regi\u00f3n
+  I iniciaran con el proceso el lunes 26 de 7:00 a 14:00 en las instalaciones de:
+  Esc. De Frontera; Esc. Normal Juan B. Cabral; Esc. Primaria Juan B. Cabral; Esc.
+  Primaria Juan XXIII; Esc. T\u00e9cnica N\u00b074; Esc. T\u00e9cnica N\u00b023 M.
+  Cultura Rural; Colegio Polimodal; Esc. Primaria N\u00b0222 y Esc. Agrot\u00e9cnica
+  N\u00b08.\\nContinuar\u00e1 el martes 27 de 8:00 a 12:00 con las Escuelas: Bartolom\u00e9
+  Mitre; Escuela N\u00b0334; Esc. Ttte Fragata Miguel Tanco; Esc. Hermana Stella Maris
+  N\u00ba 61, Colegio Secundario N\u00b017. Tambi\u00e9n se suman a la jornada en
+  el horario de 7:00 a 17:00 los siguientes establecimientos: Esc. L\u00f3pez y Planes,
+  Esc. N\u00b0359, Esc.N\u00b0177, Esc. N\u00b0162, Esc. N\u00b0347, Esc. Wolf Schoinik,
+  Colegio Secundario N\u00b010, Esc. N\u00b0446, Esc. 12 de Octubre; Esc. Narciso
+  Laprida; Esc. Soberan\u00eda Nacional 416; Esc. Gaucho de G\u00fcemes; Esc. Aduana
+  Argentina y Esc. Libertadores de Am\u00e9rica.\\nFinalizar\u00e1 el cronograma correspondiente
+  a Regi\u00f3n I el mi\u00e9rcoles 28 en el horario de 7:00 a 16:00 con los siguientes
+  establecimientos: Esc. Ant\u00e1rtida Argentina, Esc. de Educaci\u00f3n T\u00e9cnica
+  N\u00b01; Esc. N\u00b0 440; Esc. Juana Manuela Gorriti; Esc. Domitila Cholele; Esc.
+  Hip\u00f3lito Irigoyen; Centro de Educaci\u00f3n Especial N\u00b0 14; Esc. Gral.
+  Belgrano \u2013 Frontera N\u00b0 1; Esc. Normal Superior Gend. Nacional; Esc. de
+  Comercio N\u00b0 1; Esc. Normal Primaria N\u00b0 809; Centro de Educaci\u00f3n no
+  formal N\u00b0 1; Escuela de Arte; Delegaci\u00f3n Regional N\u00b0 1; Esc. N\u00b0
+  463 Padre Olmedo; Esc. Fray Mamerto Esquiu; Esc. Sgto. Jos\u00e9 G\u00f3mez; Colegio
+  Secundario; Esc. de Frontera N\u00b0 2; Esc. 2 de Junio; Esc. \u00c9xodo Juje\u00f1o;
+  Esc. Ttte. De Nav\u00edo M\u00e1rquez; Esc. N\u00b0 134; Esc. Jos\u00e9 Hern\u00e1ndez;
+  Esc. N\u00b0 271; Esc. Dr. Jorge Uro; Esc. Martin de G\u00fcemes y Esc. Tierra del
+  Fuego.\\nPor su parte, las comunidades educativas de Regi\u00f3n II iniciaran su
+  proceso el lunes 26 del corriente en el horario de 7:00 a 14:00 con la Escuela Pellegrini;
+  Esc. Capital de los Andes; Colegio Secundario N\u00b0 28; Esc. N\u00b0 122 Julio
+  Roca; Esc. Juan Ignacio Gorriti; Bachillerato N\u00b0 12; Esc. de Educaci\u00f3n
+  T\u00e9cnica N\u00b0 1 y Escuela Profesional N\u00b0 2. Continuara el jueves 29
+  de 7:00 a 16:00 con los establecimientos: Esc. Bernardino Rivadavia; Esc. Normal
+  Rep.de Bolivia; Esc. Sim\u00f3n Bol\u00edvar; Esc. Agrot\u00e9cnica N\u00b0 3; Esc.
+  de arte; Sede delegaci\u00f3n regional II; Polimodal N\u00b0 8; Esc. N\u00b0 442;
+  Colegio secundario N\u00b0 25; Esc. Coronel Juan C\u00e1ceres; Esc. Juan Galo Lavalle;
+  Colegio Sec. N\u00b0 26; Esc. N\u00b0332; Esc. An\u00edbal S\u00e1nchez, Esc. Coronel
+  Arias; Colegio Polimodal N\u00b0 6; Esc. Primaria y Secundaria E. Casanova; Esc.
+  Domingo Faustino Sarmiento; Esc. Profesional N\u00b0 5; Esc. Normal Superior; Esc.
+  de Educaci\u00f3n T\u00e9cnica N\u00b0 1; Esc. Dr. Padilla; Esc. \u00c1lvarez Prado;
+  Esc. de Alternancia N\u00b0 4; Esc. Modesto Liz\u00e1rraga de Lerma; Esc. Prov.de
+  Neuqu\u00e9n; Esc. N\u00b0 378 y Esc. Provincia de la Rioja.\\nPara finalizar la
+  semana de desinfecci\u00f3n y desratizaci\u00f3n; el jueves 30 del corriente, en
+  el horario de 8:00 a 12:00 se proceder\u00e1 con la limpieza de la Esc. Gral. Antonio
+  Balcarce; Esc. Gral. Juan Lavalle; Colegio Polimodal N\u00b0 5 y Esc. Daniel Dom\u00ednguez.\\nPara
+  mayor informaci\u00f3n, los interesados podr\u00e1n comunicarse con el \u00c1rea
+  Log\u00edstica al tel\u00e9fono 0388 \u2013 4249403, logisticaeducacion@gmail.com
+  o dirigirse a la calle Av. Espa\u00f1a N\u00b0 1630 de nuestra ciudad.\"", "\"A
+  B C D E F G H I J K L M N \u00d1 O P Q R S T U V W X Y Z Todo\\nP\\nPe\u00f1a P\u00e9rez,
+  Pablo, Unidad de Enfermer\u00eda Urol\u00f3gica, Hospital Santiago Ap\u00f3stol.
+  Miranda de Ebro (Burgos). Espa\u00f1a.\\nPe\u00f1a P\u00e9rez, Pablo, Unidad de
+  Enfermer\u00eda Urol\u00f3gica. Hospital Santiago Ap\u00f3stol. Miranda de Ebro.
+  Burgos. Espa\u00f1a.\\nPe\u00f1a P\u00e9rez, Pablo, Unidad de Enfermer\u00eda Urol\u00f3gica.
+  Hospital Santiago Ap\u00f3stol. Miranda de Ebro (Burgos). Espa\u00f1a.\\nPe\u00f1a
+  P\u00e9rez, Pablo\\nPe\u00f1a-P\u00e9rez, Pablo, Unidad de Enfermer\u00eda Urol\u00f3gica.
+  Hospital Santiago Ap\u00f3stol. Miranda de Ebro (Burgos). Espa\u00f1a.\\nPen\u00e9,
+  Alicia, Centro especializado en reproducci\u00f3n CRECER, Mar del Plata.\\nPen\u00e9,
+  Alicia, CRECER, Centro de Medicina Reproductiva. Mar del Plata, Buenos Aires, Argentina.\\nPen\u00e9,
+  Alicia, Centro Especializado en Reproducci\u00f3n Asistida y Gen\u00e9tica Humana
+  (CRECER)\\nPenhos, Eduardo\\nPenida, Alfredo, Servicio de Urolog\u00eda, Hospital
+  Privado de Comunidad de Mar del Plata. Buenos Aires, Argentina.\\nPeralta, H.\\nPeralta,
+  O.\\nPeralta, Oscar, Servicio de Urolog\u00eda. Servicio de Diagn\u00f3stico por
+  Im\u00e1genes. Hospital Italiano de Buenos Aires.\\nPeralta Vizcarra, Ayar\\nPerazzo,
+  E.\\nPerazzo, Ernesto\\nPerazzo, F.\\nPerazzo, Gerardo, Sanatorio Dupuytren, CABA,
+  Argentina\\nPerea, C.\\nPerea C.,\\nPereda, Juan Jos\u00e9\\nPereira, Athayde\\nPereira
+  Fraga, G.\\nPereyra Bonasso, Jorge\\nElementos 101 - 125 de 288   >>\"", "\"La revista
+  es de acceso abierto gratuito y sus art\u00edculos se publican bajo la licencia
+  Creative Commons Atribuci\u00f3n/Reconocimiento-NoComercial-SinDerivados 4.0 Internacional
+  \u2014 CC BY-NC-ND 4.0.\\nA B C D E F G H I J K L M N \u00d1 O P Q R S T U V W X
+  Y Z Todos\\nA\\nArciniegas Quiroga, William Alberto, Profesor titular facultad de
+  ciencias de la Salud. Universidad Tecnol\u00f3gica de Pereira.\\nArciniegas Quiroga,
+  William, Facultad de Ciencias de la Salud (Centro Adherido de la Red Cochrane Iberoamericana
+  para Colombia), Universidad Tecnol\u00f3gica de Pereira (UTP). Oficina de Investigaci\u00f3n
+  Cient\u00edfica, Cooperativa de Entidades de Salud de Risaralda (COODESURIS). Pereira,
+  R\\nArciniegas Quiroga, William, Facultad de Ciencias de la Salud (Centro Adherido
+  de la Red Cochrane Iberoamericana para Colombia), Universidad Tecnol\u00f3gica de
+  Pereira (UTP).\\nArc\u00f3n Medina, Dewitt Fabian, Universidad del Magdalena.\\nArenas
+  Quintero, Henry Mauricio, Cl\u00ednica Confamiliar Risaralda Universidad Tecnol\u00f3gica
+  de Pereira\\nArgoty Chamorro, Giovanny Armando, Fundaci\u00f3n Universitaria Ciencias
+  de la Salud\\nArias Ramos, Deving\\nArias-Jaramillo, Daniel Ricardo\\nAriza \u00c1lvarez,
+  Yamid, Hospital internacional de Colombia\\nArmenta Restrepo, Analidis, Instituto
+  nacional de Salud\\nArreaza Graterol, Mortimer, Hospital Simon Bolivar\\nArrieta
+  Aguilera, Ana Milena\\nArroyave Casta\u00f1o, Andr\u00e9s Felipe\\nArroyo Carrascal,
+  Dayana, Corporaci\u00f3n Universitaria Rafael N\u00fa\u00f1ez\\nArteaga, Everilda,
+  Universidad de Carabobo\\nAtienza Garrido, Inmaculada, Hospital General Universitario,
+  Valencia, Espa\u00f1a\\nAun Dau, Emilio, Facultad de Ciencias de la Salud (Centro
+  Adherido de la Red Cochrane Iberoamericana para Colombia), Universidad Tecnol\u00f3gica
+  de Pereira (UTP).\\nAvellaneda, Henry\\n\u00c1\\n\u00c1vila-Espinoza, Pamela\\nA\\nAyala,
+  Mar\u00eda Clemencia\\nAyala, Oscar\\nAzcarraga, Mauricio\\n76 - 100 de 1292 elementos   >>\"",
+  "\"1\\n2\\npor Melgarejo Molina, Zuray Andrea, Sandoval Alarc\u00f3n, Juli\u00e1n
+  David, Duque Cruz, Oscar Yamith, Moreno S\u00e1nchez, Gabriel Enrique, Restrepo
+  Duque, Diego Fernando, C\u00e1rdenas Londo\u00f1o, Rogelio de Jes\u00fas, Quir\u00f3s
+  Lizarazo, Elkin Horacio, Ruiz Rojas, Gustavo Alberto, Panqueba G\u00f3mez, Jacquelin
+  Andrea, Escobar Melgarejo, David, Torres Ordo\u00f1ez, Camilo Andr\u00e9s, Ardila
+  Calder\u00f3n, Andr\u00e9s Felipe, Mart\u00ednez G\u00f3mez, Alejandra, Zemanate
+  Yela, Daniela Alexandra, Cortes Cachaya, Stephany Patricia, L\u00f3pez Bernal, Lina
+  Alejandra\\nPublicado 2020\\nPublicado 2020\\nDesconocido (Unknown)\"", "\"Ver enlace\\nEtiquetas:
+  2019, ABC, Congreso de la Lengua de 2019, Congreso Internacional de la Lengua Espa\u00f1ola
+  (CILE), Espa\u00f1ol como lengua universal, Frigdiano \u00c1lvaro Dur\u00e1ntez
+  Prados, Universalidad del espa\u00f1ol, Valor de la lengua espa\u00f1ola, Valor
+  del espa\u00f1ol, Valor econ\u00f3mico de las lenguas, Valor econ\u00f3mico del
+  espa\u00f1ol, Valor universal del espa\u00f1ol | Categor\u00edas: Prensa escrita\\nVer
+  enlace\\nEtiquetas: 2019, Congreso de la Lengua de 2019, El Pa\u00eds, Espa\u00f1ol
+  digital, Espa\u00f1ol en internet, Espa\u00f1ol global, Espa\u00f1ol globalizado,
+  Jes\u00fas Ruiz Mantilla, Lengua e Internet, Presencia del espa\u00f1ol en internet,
+  Valor de la lengua espa\u00f1ola, Valor del espa\u00f1ol, Valor econ\u00f3mico de
+  las lenguas, Valor econ\u00f3mico del espa\u00f1ol | Categor\u00edas: Prensa escrita\\nVer
+  enlace\\nEtiquetas: 2018, \u00c1ngel Exp\u00f3sito, COPE, Entrevistas, Espa\u00f1ol,
+  Espa\u00f1ol en el mundo, Hispanohablantes, Idioma espa\u00f1ol, Idiomas, Instituto
+  Cervantes, Lengua espa\u00f1ola, Lengua y sociedad, Luis Garc\u00eda Montero, Monte
+  Jim\u00e9nez, Riqueza del espa\u00f1ol, Valor de la lengua espa\u00f1ola, Washington
+  | Categor\u00edas: Radio\\nVer enlace\\nEtiquetas: 2018, Espa\u00f1ol, Espa\u00f1ol
+  como lengua global, Europa Press, Iberoam\u00e9rica, \u00cd\u00f1igo M\u00e9ndez
+  de Vigo, La Vanguardia, Lengua espa\u00f1ola, Lengua y cultura, Literatura, Nicaragua,
+  Premio Cervantes, Valor de la lengua espa\u00f1ola, Valor del espa\u00f1ol | Categor\u00edas:
+  Prensa escrita\\nVer enlace\\nEtiquetas: 2018, Asturiano, Bable, Espa\u00f1a, La
+  Voz de Asturias, Lengua asturiana, Lenguas, Lenguas de Espa\u00f1a, Lenguas espa\u00f1olas,
+  Lenguas vern\u00e1culas, Llingua Asturiana, Miguel Luis \u00c1lvarez, Oficialidad
+  de la lengua asturiana, Oficialidad de la llingua asturiana, Oficialidad del asturiano,
+  Oficialidad del bable, Opini\u00f3n, Situaci\u00f3n del espa\u00f1ol, Valor de la
+  lengua asturiana, Valor de la lengua espa\u00f1ola | Categor\u00edas: Plataformas
+  virtuales\\nVer enlace\\nEtiquetas: 2018, ABC, Anuario del Instituto Cervantes,
+  Castellano, Crecimiento del espa\u00f1ol, Demograf\u00eda del espa\u00f1ol, Espa\u00f1ol,
+  Espa\u00f1ol como lengua de prestigio, Espa\u00f1ol como lengua global, Espa\u00f1ol
+  como segunda lengua, Espa\u00f1ol de Am\u00e9rica, Espa\u00f1ol de Espa\u00f1a,
+  Estados Unidos, Estudiantes de espa\u00f1ol, Expansi\u00f3n de la lengua espa\u00f1ola,
+  Fernando R. Lafuente, Hispanoam\u00e9rica, Hispanohablantes, Idioma espa\u00f1ol,
+  Idiomas, Instituto Cervantes, Lengua espa\u00f1ola, Lengua y cultura, Lenguas, Proyecci\u00f3n
+  del espa\u00f1ol, Valor de la lengua espa\u00f1ola, Valor del espa\u00f1ol | Categor\u00edas:
+  Prensa escrita\\nVer enlace\\nEtiquetas: 2018, ABC, Castellano, China, Crecimiento
+  del espa\u00f1ol, Espa\u00f1ol, Espa\u00f1ol como lengua global, Espa\u00f1ol global,
+  Estados Unidos, Expansi\u00f3n de la lengua espa\u00f1ola, Expansi\u00f3n del espa\u00f1ol,
+  Fernando R. Lafuente, Globalizaci\u00f3n del espa\u00f1ol, Idioma espa\u00f1ol,
+  Jos\u00e9 Antonio Alonso, Jos\u00e9 Luis Garc\u00eda Delgado, Juan Carlos Jim\u00e9nez,
+  Lengua espa\u00f1ola, Mariano Rajoy, Tecnolog\u00edas del lenguaje, Uni\u00f3n Espa\u00f1ola,
+  Valor de la lengua espa\u00f1ola, Valor econ\u00f3mico del espa\u00f1ol, Variantes
+  del espa\u00f1ol | Categor\u00edas: Prensa escrita\\nVer enlace\\nEtiquetas: 2017,
+  Castellano, Dimensi\u00f3n econ\u00f3mica del espa\u00f1ol, El Norte de Castilla,
+  Espa\u00f1a, Espa\u00f1ol, Espa\u00f1ol como lengua de comunicaci\u00f3n cient\u00edfica,
+  Espa\u00f1ol como lengua extranjera, Espa\u00f1ol como lengua internacional, Fundaci\u00f3n
+  Telef\u00f3nica, Globalizaci\u00f3n del espa\u00f1ol, Idioma espa\u00f1ol, Importancia
+  del espa\u00f1ol, Instituto Cervantes, Jos\u00e9 Luis Garc\u00eda Delgado, Lengua
+  espa\u00f1ola, Lengua y cultura, Luis J. Ruiz, Real Academia de la Lengua Espa\u00f1ola
+  (RAE), Valor de la lengua espa\u00f1ola, Valor del espa\u00f1ol, Valor econ\u00f3mico
+  del espa\u00f1ol | Categor\u00edas: Prensa escrita\\nVer enlace\\nEtiquetas: 2017,
+  Adri\u00e1n Cragnolini, Arturo Posada, BBC, Castellano, Contaminaci\u00f3n del espa\u00f1ol,
+  Contaminaci\u00f3n del lenguaje, Crecimiento de la lengua espa\u00f1ola, Crecimiento
+  del espa\u00f1ol, Defensa de la lengua espa\u00f1ola, Defensa del espa\u00f1ol,
+  El Norte de Castilla, Empobrecimiento del espa\u00f1ol, Espa\u00f1ol, Espa\u00f1ol
+  como lengua materna, Futuro de la lengua espa\u00f1ola, Futuro del espa\u00f1ol,
+  Futuro en espa\u00f1ol, Idioma espa\u00f1ol, Internet, Lengua e Internet, Lengua
+  espa\u00f1ola, Lengua y cultura, Lengua y demograf\u00eda, Lengua y redes sociales,
+  Lorenzo Silva, Mar\u00eda \u00c1ngeles Sastre, Presencia del espa\u00f1ol en internet,
+  Universidad de Valladolid, Valor de la lengua espa\u00f1ola, Valor econ\u00f3mico
+  del espa\u00f1ol | Categor\u00edas: Prensa escrita,V\u00eddeos\\nVer enlace\\nEtiquetas:
+  2017, Acento canario, Am\u00e9rica, Ana Guerra, Anglicismos, Antonio Morales, Canarias
+  Opina, Castellano, Contaminaci\u00f3n ling\u00fc\u00edstica, Cristobal Col\u00f3n,
+  Defensa de la lengua espa\u00f1ola, Defensa del espa\u00f1ol, Eldiario.es, Espa\u00f1ol,
+  Espa\u00f1ol como lengua materna, Espa\u00f1ol como segunda lengua, Espa\u00f1ol
+  de Canarias, Espa\u00f1ol en el mundo, Fundaci\u00f3n Telef\u00f3nica, Gran Canaria,
+  Idioma espa\u00f1ol, Idiomas, Imposici\u00f3n de la lengua inglesa, Imposici\u00f3n
+  del ingl\u00e9s, Jos\u00e9 Manuel Blecua, Lengua espa\u00f1ola, Lengua y cultura,
+  Lengua y sociedad, Lenguas, Marcial Morera, Opini\u00f3n, PIB, Real Academia de
+  la Lengua Espa\u00f1ola (RAE), Valor de la lengua espa\u00f1ola, Valor econ\u00f3mico
+  del espa\u00f1ol, Variedades del espa\u00f1ol | Categor\u00edas: Blogs,P\u00e1ginas
+  web\"", "\"29/06/2022\\nCosto de env\u00edo\\nOpciones de pago.\\nEntregas sin cargo
+  en GBA. Envios al interior: se despacha hasta expreso.\\nD\u00e9bito/Cr\u00e9dito\\nEfectivo\\nSin
+  Stock disponible\\nColectivo Voces de alerta Elaborado por Horacio Machado, Maristella
+  Svampa, Enrique Viale, Marcelo Giraud, Lucrecia Wagner, Mirta Antonelli, Norma Giarracca
+  y Miguel Teubal. Aportes de Javier Rodr\u00edguez Pardo y Dar\u00edo Aranda | Colecci\u00f3n
+  Cascotazos | Editorial El Colectivo y Ediciones Herramienta, Buenos Aires, Argentina,
+  octubre de 2011 | 224 p\u00e1ginas | ISBN: 978-987-1497-46-1.\"", "\"El presidente
+  electo del municipio de Chihuahua presenta el gabinete que lo acompa\u00f1a durante
+  su administraci\u00f3n 2021-2024\\nLos nombramientos fueron:\\nPresidenta del DIF
+  Municipal: Karina Olivas\\nDirector General del DIF Municipal: Mario Garc\u00eda
+  Jim\u00e9nez\\nOficial\u00eda Mayor: Marcela Piedra\\nCoordinador de Gabinete: Arturo
+  Garc\u00eda Portillo\\nTesorer\u00eda: Amanda C\u00f3rdova\\nSecretario del Ayuntamiento:
+  Santiago de la Pe\u00f1a\\nDirecci\u00f3n de Planeaci\u00f3n e Innovaci\u00f3n:
+  Ver\u00f3nica Rodulfo\\nInstituto Municipal de Pensiones: Juan Antonio Gonz\u00e1lez
+  Villase\u00f1or\\n\u00d3rgano Interno de Control: Mariana Lachica\\nDirecci\u00f3n
+  de Servicios P\u00fablicos Municipales: Federico Muruato\\nDirecci\u00f3n de Desarrollo
+  Urbano: Adriana D\u00edaz Negrete\\nDirecci\u00f3n de Desarrollo Econ\u00f3mico
+  y Competitividad: Jos\u00e9 Jord\u00e1n\\nDirecci\u00f3n Desarrollo Humano: M\u00f3nica
+  Herrera\\nDirecci\u00f3n de Desarrollo Rural: Armando Guti\u00e9rrez\\nJefa del
+  Despacho del Alcalde: Ana Luc\u00eda Herrera\\nDirecci\u00f3n de Mantenimiento Urbano:
+  Fernando Coraza\\nInstituto de Cultura del Municipio: Fernanda Bencomo\\nDirecci\u00f3n
+  de Obras P\u00fablicas: Rodolfo Armend\u00e1riz\\nInstituto Municipal de la Salud:
+  Rosa Mar\u00eda Hern\u00e1ndez\\nCoordinaci\u00f3n de Comunicaci\u00f3n Social:
+  Jorge Franco M\u00e1rquez\\nInstituto Municipal de las Mujeres: Alicia Terrazas\\nCoordinaci\u00f3n
+  de Relaciones P\u00fablicas: Orlando Villalobos\\nInstituto Municipal de Cultura
+  F\u00edsica y Deporte: Jos\u00e9 Abdo\\nConsejo de Urbanizaci\u00f3n Municipal:
+  Carlos Rivas\\nCoordinaci\u00f3n de Transparencia y Gobierno Abierto: Carmen Hidalgo\"",
+  "\"A B C D E F G H I J K L M N \u00d1 O P Q R S T U V W X Y Z Todos/as\\nH\\nHashimoto
+  Pacheco, Humberto, Departamento de Ginecolog\u00eda y Obstetricia, Hospital Bel\u00e9n
+  de Trujillo, Trujillo, Per\u00fa.\\nHern\u00e1ndez D\u00edaz, Juan, Facultad de
+  Farmacia y Bioqu\u00edmica de la UNT\\nHilario Vargas, Julio Santos, Doctor en Ciencias
+  Biom\u00e9dicas. Docente de la Facultad de Medicina de la Universidad Nacional de
+  Trujillo. Trujillo, Per\u00fa.\\nHuerta Coronel, Isabel Deyanira, Universidad Privada
+  Antenor Orrego\\n1 - 5 de 5 elementos\\nISSN: 1818541X\"", "\"A B C D E F G H I
+  J K L M N \u00d1 O P Q R S T U V W X Y Z Todos\\nF\\nFajardo, Olga, Departamento
+  de Medicina, Facultad de Medicina, Universidad Nacional Mayor de San Marcos, Lima,
+  Per\u00fa\\nFajardo-Campos, Pedro, Instituto Nacional de Rehabilitaci\u00f3n \u2018Dra.
+  Adriana Rebaza Flores\u2019, Lima, Per\u00fa; Docente, Facultad de Medicina Alberto
+  Hurtado, Universidad Peruana Cayetano Heredia, Lima, Per\u00fa\\nFalconi Chalco,
+  Elizabeth, M\u00e9dico Internista del Hospital Augusto Hern\u00e1ndez Mendoza de
+  Ica. EsSalud. Mag\u00edster en Medicina Humana.\\nFalen Boggio, Juan, Profesor Em\u00e9rito,
+  Universidad Nacional Federico Villarreal, Lima, Per\u00fa\\nFalen Boggio, Juan,
+  M\u00e9dico Asistente, Servicio de Endocrinolog\u00eda, Instituto Nacional de Salud
+  del Ni\u00f1o, Lima, Per\u00fa; Facultad de Medicina Hip\u00f3lito Unanue, Universidad
+  Nacional Federico Villarreal, Lima, Per\u00fa.\\nFalen-Boggio, Juan, Servicio de
+  Endocrinolog\u00eda, Instituto Nacional de Salud del Ni\u00f1o; Facultad de Medicina
+  Hip\u00f3lito Unanue, Universidad Nacional Federico Villarreal\\nFarf\u00e1n, Humberto,
+  Instituto Nacional Materno Perinatal\\nFarf\u00e1n Daza, Giomar, Hospital Nacional
+  Alberto Sabogal Sologuren, EsSalud. Lima, Per\u00fa\\nFarf\u00e1n-Ramos, Sonia,
+  Hospital Nacional 2 de Mayo, Lima, Per\u00fa. Enfermera, especialista en Enfermer\u00eda
+  Pedi\u00e1trica. Mag\u00edster en Salud P\u00fablica y Comunitaria.\\nFasabi Espinar,
+  Manuel Mart\u00edn, Laboratorio de Investigaci\u00f3n en enfermedades infecciosas
+  LID, Universidad Peruana Cayetano Heredia.\\nFaundes, Anibal, Profesor Titular de
+  Obstetricia, Universidad Estadual de Campinas, Sao Paulo, Brasil; Coordinador General
+  de la Iniciativa FIGO \u201cPrevenci\u00f3n del Aborto Inseguro\u201d\\nFeij\u00f3o
+  Quiroz, Octavio, Departamento de Medicina Interna Hospital Militar Central de Lima
+  Lima, Per\u00fa\\nFelberman, Rivka, Investigadora Grupo Insight, Nueva York, EE
+  UU\\nF\u00e9lix, Luis, Estudiantes de Farmacia y Bioqu\u00edmica, Instituto de Investigaci\u00f3n
+  en Ciencias Farmac\u00e9uticas y Recursos Naturales, Facultad de Farmacia y Bioqu\u00edmica,
+  UNMSM, Lima, Per\u00fa\\nFenoll, Asunci\u00f3n, Centro Nacional de Microbiolog\u00eda,
+  Instituto de Salud Carlos III, Majadahonda, Madrid, Espa\u00f1a.\\nFern\u00e1n Zegarra
+  P., L. A., Departamento de Patolog\u00eda, Facultad de Medicina, Universidad Nacional
+  de San Agust\u00edn, Arequipa, Per\u00fa\\nFern\u00e1ndez, Alejandro, Facultad de
+  Medicina, Universidad Nacional Mayor de San Marcos, Lima, Per\u00fa\\nFern\u00e1ndez,
+  Alejandro, Servicios de Medicina, Hospital General Dos de Mayo, Lima, Per\u00fa\\nFern\u00e1ndez,
+  Alejandro, Servicio de Medicina San Andr\u00e9s, Hospital nacional Dos de Mayo,
+  Lima, Per\u00fa\\nFern\u00e1ndez, Alejandro, Servicio de Medicina San Andr\u00e9s
+  Hospital Nacional General Dos de Mayo Lima, Per\u00fa\\nFern\u00e1ndez, Alejandro,
+  Servicio de Medicina Interna San Andr\u00e9s, Hospital Nacional Dos de Mayo, Lima,
+  Per\u00fa\\nFern\u00e1ndez, Alexander, Facultad de Medicina, UNMSM, e Instituto
+  Nacional Materno Perinatal, Lima, Per\u00fa\\nFern\u00e1ndez, Alicia, Instituto
+  de Investigaciones Cl\u00ednicas, Facultad de Medicina, UNMSM, y Hospital Dos de
+  Mayo, Lima, Per\u00fa\\nFern\u00e1ndez, Alicia, Facultad de Medicina, UNMSM. Lima,
+  Per\u00fa\\nFern\u00e1ndez, Am\u00e9rico, Departamento de Patolog\u00eda Cl\u00ednica;
+  Departamento de Ginecolog\u00eda y Obstetricia, Hospital Nacional Dos de Mayo, Lima,
+  Per\u00fa\\nFern\u00e1ndez, Danitza, Instituto Nacional de Salud del Ni\u00f1o (INSN),
+  Lima, Per\u00fa; Facultad de Medicina, Universidad Nacional Mayor de San Marcos
+  (UNMSM), Lima, Per\u00fa\\nFern\u00e1ndez, Gilma, Laboratorio de Qu\u00edmica, Facultad
+  de Ciencias, Universidad Peruana Cayetano Heredia, Lima, Per\u00fa\\nFern\u00e1ndez,
+  Javier, Facultad de Medicina, Universidad Nacional Mayor de San Marcos, Lima, Per\u00fa\\nFern\u00e1ndez,
+  Miguel, Residentes de la especialidad de Reumatolog\u00eda, sede HNERM, Universidad
+  Nacional Mayor de San Marcos.\\nFern\u00e1ndez, Miguel, Desa, Bagua; Digesa, Lima.
+  (Per\u00fa)\\nFern\u00e1ndez, Sonia, Instituto de Medicina Legal, Ministerio P\u00fablico,
+  e Instituto de Patolog\u00eda, UNMSM\\nFern\u00e1ndez, Sylvia, Servicios de Neonatolog\u00eda
+  y Microbiolog\u00eda, Instituto Especializado de Salud del Ni\u00f1o; Departamento
+  Acad\u00e9mico de Pediatr\u00eda, Universidad Nacional Mayor de San Marcos; Lima,
+  Per\u00fa.\\nFern\u00e1ndez C., L., Instituto de Biolog\u00eda Andina, Facultad
+  de Medicina, Universidad Nacional Mayor de San Marcos, Lima, Per\u00fa\\nFern\u00e1ndez
+  Coronado, Julia Amalia, Instituto Nacional Cardiovascular \u201cCarlos Alberto Peschiera
+  Carrillo\u201d, INCOR, Seguro Social de Salud (EsSalud). Lima, Per\u00fa.\\nFern\u00e1ndez
+  Coronado, Rosal\u00eda Ofelia, Instituto Nacional Cardiovascular \u201cCarlos Alberto
+  Peschiera Carrillo\u201d, INCOR, Seguro Social de Salud (EsSalud). Lima, Per\u00fa;
+  Facultad de Medicina \u201cSan Fernando\u201d, Universidad Nacional Mayor de San
+  Marcos. Lima, Per\u00fa.\\nFern\u00e1ndez D\u00e1vila, Guillermo, Facultad de Medicina,
+  Universidad Nacional Mayor de San Marcos, Lima, Per\u00fa\\nFern\u00e1ndez D\u00e1vila,
+  Luis, Facultad de Medicina, Universidad Nacional Mayor de San Marcos, Lima, Per\u00fa\\nFern\u00e1ndez
+  Enr\u00edquez, V. Enrique, Facultad de Medicina, Universidad Nacional Mayor de San
+  Marcos, Lima, Per\u00fa\\nFern\u00e1ndez Garc\u00eda, Sergio, Odont\u00f3logo, Servicio
+  de Medicina bucal, Universidad de Medicina de Cienfuegos, Cuba\\nFern\u00e1ndez
+  Infantes, Mario, Escuela de Medicina Humana, Facultad de Medicina, Universidad Santo
+  Toribio de Mogrovejo, Chiclayo, Per\u00fa.\\nFern\u00e1ndez Lara, Mar\u00eda Jos\u00e9,
+  Grupo de Investigaci\u00f3n Ciencia en Movimiento (CIMO), Chile; Licenciatura en
+  enfermer\u00eda, Chile.\\nFern\u00e1ndez Larrea, Manuel, Facultad de Medicina, Universidad
+  Nacional Mayor de San Marcos, Lima, Per\u00fa\\nFern\u00e1ndez Mogoll\u00f3n, Jorge,
+  Hospital Almanzor Aguinaga Asenjo, EsSalud \u2013 Lambayeque, Per\u00fa.\\nFern\u00e1ndez
+  \u00d1., Javier, Facultad de Medicina, Universidad Nacional Mayor de San Marcos,
+  Lima, Per\u00fa\\nFern\u00e1ndez \u00d1ique, Javier, Facultad de Medicina, Universidad
+  Nacional Mayor de San Marcos, Lima, Per\u00fa\\nFern\u00e1ndez Ordu\u00f1a, Luis
+  E., Facultad de Medicina, Universidad Nacional Mayor de San Marcos, Lima, Per\u00fa\\nFern\u00e1ndez
+  Quintana, Armando, Facultad de Medicina, Universidad Nacional Mayor de San Marcos,
+  Lima, Per\u00fa\\nFern\u00e1ndez Zapata, Ximena\\nFern\u00e1ndez Zapata, Ximena,
+  Instituto Peruano de Seguridad Social (Per\u00fa)\\nFernandez-Burga, Antonio, Hospital
+  Nacional Guillermo Almenara Irigoyen, EsSalud. Lima, Per\u00fa.; Facultad de Ciencias
+  de la Salud, Universidad Tecnol\u00f3gica del Per\u00fa. Lima, Per\u00fa.\\nFern\u00e1ndez-Oliva,
+  Danitza, Instituto Nacional de Salud del Ni\u00f1o. Lima, Per\u00fa; Facultad de
+  Medicina, Universidad Nacional Mayor de San Marcos. Lima, Per\u00fa.\\nFern\u00e1ndez-Oliva,
+  Justa D., Instituto Nacional de Salud del Ni\u00f1o. Lima, Per\u00fa. Facultad de
+  Medicina, Universidad Nacional Mayor de San Marcos. Lima\\nFernandini, Oscar, Facultad
+  de Medicina, Universidad Nacional Mayor de San Marcos, Lima, Per\u00fa\\n1 - 25
+  de 139 elementos 1 2 3 > >>\"", "\"\u00d1ahendu Hesu. Jueves 11a Semana TO\\n\u00d1ahendu
+  Hesu. S\u00e1bado 11a Semana TO\\nEscucha el evangelio y la reflexi\u00f3n en: https://youtu.be/0BqtMLEqk1A\\nSolemnidad
+  Hesu koras\u00f5 marangatu Mateo\\n11, 25 \u2013 30\\nUp\u00e9r\u00f5 Jes\u00fas
+  he\u2019i: Che Ru, nde p\u00f3pe niko o\u0129 yv\u00e1ga ha yvy. Romomba\u2019e
+  guasu re\u00f1omi hagu\u00e9re ko\u2019\u00e3 mba\u2019e umi i\u00f1arandu ha imba\u2019e
+  kua\u00e1vagui, ha reikuaauka hagu\u00e9re umi i\u00f1arandu\u2019\u1ef9vape. Up\u00e9icha
+  che Ru, p\u00e9ichante voi reipota vaekue ojehu.\\nChe Ru niko omo\u0129 opa mba\u2019e
+  che p\u00f3pe. Avave ndoikua\u00e1i \u00d1andej\u00e1ra Ra\u2019\u00fdpe, T\u00fava
+  a\u00f1\u00f3nte. Ha avave ndoikua\u00e1i T\u00favape, \u00d1andej\u00e1ra Ra\u2019y
+  a\u00f1\u00f3nte, ha umi che aikuaaukas\u00e9vape.\\n\u201cPeju che rend\u00e1pe
+  opa pe\u1ebd pene kane\u2019\u00f5 ha pemba\u2019apo poh\u00fdiva, ha che ndive
+  pepytu\u2019\u00fata. Peheja tamo\u0129 pende ap\u00e9re che j\u00fago, ha pejapo
+  che ha\u2019\u00e9va pe\u1ebdme. Ha peikua\u00e1ta che py\u2019a por\u00e3ha ha
+  ndajejapoiha, ha che ndive pejuh\u00fata pytu\u2019u. Pe j\u00fago amo\u0129 tava
+  pende ap\u00e9re niko ivev\u00faita pe\u1ebdme, ha ndaipoh\u00fdi mo\u2019\u00e3i
+  upe aipot\u00e1va peraha\u201d.\\n\u00d1andej\u00e1ra Jesucristo \u00f1e\u2019\u1ebd\\n\u00d1AMBOGUEJY
+  \u00d1ANDE REKOV\u00c9PE\\n\u201cChe koras\u00f5 s\u00e3\u201d. He\u2019i ningo
+  umi omo\u00f1e\u2019\u1ebdva hembiayh\u00fape, t\u00e9r\u00e3 imandu\u2019\u00e1va
+  pe m\u00e1va ohayhuet\u00e9vare. P\u00e9icha oim\u00e9ne ja\u2019e \u00f1a\u00f1and\u00fagui
+  pe mborayhu \u00f1anemos\u00e3 mbareteha umi jahayh\u00favare. Um\u00edva niko ndoje\u2019\u00f3i
+  p\u00e9icha p\u00e9ichante \u00f1ane koras\u00f5gui. Ha pe mborayhu \u00f1a\u00f1and\u00fava
+  ak\u00f3inte \u00f1anemopy\u2019a kyr\u1ef9i \u00f1anemandu\u2019\u00e1ramo hese
+  ku\u00e9ra. P\u00e9icha avei \u00f1a\u00f1and\u00faramo pe jahayh\u00fava nopen\u00e1i
+  \u00f1ande rehe, t\u00e9r\u00e3 katu \u00f1ande reko vai, \u00f1ande despresia mba\u2019e,
+  huguy syry vaicha \u00f1ane koras\u00f5.\\nKo \u00e1rape \u00f1ama\u2019\u1ebd h\u00edna
+  pe \u00d1andej\u00e1ra Hesukr\u00edsto koras\u00f5 rehe. \u00d1ama\u2019\u1ebd ha
+  jahecha ichupe o\u00f1emos\u00e3 ha osaingo jave kurus\u00fare. \u00d1ama\u2019\u1ebd
+  pe ipyti\u2019a ha ikoras\u00f5 o\u00f1embokua ha huguy syr\u00fdva hetaite ohasa
+  asy rire. \u00d1ama\u2019\u1ebd asy hese ha \u00f1a\u00f1andu ha\u2019e avei oma\u2019\u1ebd
+  asyha \u00f1ande rehe. He\u2019i ramo gu\u00e1icha \u00f1and\u00e9ve: Mborayhu opa
+  mba\u2019e ogueropu\u2019aka. Che aime nendive, aikuaa h\u00edna nde rehas\u00e1va.\\nHa\u2019e
+  niko nde\u2019\u00edre oipe\u2019\u00e1taha \u00f1ande ape \u00e1rigui pe j\u00fago.
+  Ha\u2019e ningo he\u2019i ombovevuitaha ha hendive \u00f1amboguat\u00e1ramo ndaipoh\u00fdi
+  mo\u2019\u00e3iha \u00f1and\u00e9ve upe jahup\u00edva. Pe Hesu \u00f1epytyv\u00f5
+  ndaha\u2019\u00e9i je\u2019u rei. Ha\u2019e niko \u00f1anemombarete ha \u00f1anembopy\u2019a
+  guasu jaropu\u2019aka ha \u00f1ahenonde\u2019a hagu\u00e3 opaichagua tembiapo poh\u00fdi,
+  opaichagua jejopy vai ha mba\u2019asy vai jepe ra\u2019e.\\nMba\u2019et\u00e9pa
+  h\u00edna che ir\u0169 ha nde che reindy pe j\u00fago ipohyiv\u00e9va nde aj\u00fara
+  \u00e1ri h\u00edna ko\u2019\u00e3ga ite. Mba\u2019et\u00e9pa upe nde py\u2019ap\u00fdva
+  ha ombohuguy syr\u00fdva h\u00edna ne koras\u00f5. Mba\u2019et\u00e9guipa oime nekane\u2019\u00f5
+  ha nde kuer\u00e1ima h\u00edna reik\u00f3vo. Mba\u2019\u00e9pa re\u00f1andu ha reipota
+  ombovev\u00fai nd\u00e9ve \u00d1andej\u00e1ra.\\n\u00d1A\u00d1EMBO\u2019E O\u00d1ONDIVE\\n\u00d1andej\u00e1ra
+  Hesukr\u00edsto, nde niko orerayhu etere\u00edgui eheja vaekue o\u00f1embohuguy
+  syry jepe ne koras\u00f5 ha p\u00e9icha eipe\u2019a or\u00e9ve ne mborayhu rok\u1ebd.
+  Che amo\u0129se nde p\u00f3pe che rekove, a\u00f1eme\u2019\u1ebdse nendive che rapicha
+  ku\u00e9rape nde re\u00f1eme\u2019\u1ebd h\u00e1icha. Aipota ches\u00e3mbyhy Tup\u00e3sy
+  Mar\u00eda p\u00f3rupi. Eme\u2019\u1ebd ch\u00e9ve umi mba\u2019e aikotev\u1ebdva
+  amboguata hagu\u00e3 che rekove nde rejapo hagu\u00e9icha. Am\u00e9n.\\nPa\u2019i
+  Alberto Luna.\"", "\"JEFATURA DE DEPARTAMENTO\\nCoordinadores de \u00c1rea:\\n\u00c1rea
+  cient\u00edfico-tecnol\u00f3gica: Juan Francisco Cano Rodr\u00edguez\\n\u00c1rea
+  social-ling\u00fc\u00edstca: Mar\u00eda Guadalupe de Toro Cruz\\n\u00c1rea art\u00edstica:
+  Francisco Casado Mestre\\n\u00c1rea de Formaci\u00f3n Profesional: Manuel Alfonso
+  Romero Caro\\nJefes/as de Departamento:\\nActividades Extraescolares: Alejandro
+  Ruiz Echeondo\\nAdministrativo: Mar\u00eda del Mar Ord\u00f3\u00f1ez Mart\u00ednez\\nCiencias
+  Naturales: Generoso Rozas Lozano\\nComercio y Marketing: Enriqueta Ortiz Cabanillas\\nConvivencia:
+  Gustavo Sergio B\u00e1\u00f1ez Iglesias\\nDibujo: Francisco Casado Mestre\\nEducaci\u00f3n
+  F\u00edsica/M\u00fasica: Juan Antonio Crivicich Lerate\\nFilosof\u00eda: Salvador
+  Delgado Antol\u00edn\\nF\u00edsica y Qu\u00edmica: Miguel \u00c1ngel Criado Alonso\\nFormaci\u00f3n,
+  Evaluaci\u00f3n e Innovaci\u00f3n Educativa: Ces\u00e1reo Rodr\u00edguez Valdivia\\nFormaci\u00f3n
+  y Orientaci\u00f3n Laboral y Econom\u00eda: Silvia Garc\u00eda Mart\u00ednez\\nGeograf\u00eda
+  e Historia: F\u00e1tima Conde Pedraja\\nInform\u00e1tica: Manuel Alfonso Romero
+  Caro\\nIngl\u00e9s: Mar\u00eda Guadalupe de Toro Cruz\\nLengua y Literatura: Roc\u00edo
+  Lepe Garc\u00eda\\nMatem\u00e1ticas: Juan Francisco Cano Rodr\u00edguez\\nOrientaci\u00f3n:
+  Antonio Jim\u00e9nez V\u00e1zquez\\nTecnolog\u00eda: Alicia Guerrero Colmenero\"",
+  "\"Mediante las Resoluciones N\u00ba0084, N\u00ba 4401 y N\u00ba4038 titularizaron
+  los siguientes compa\u00f1eros asistentes escolares.\\nResoluci\u00f3n N\u00ba4401:\\nNorma
+  Beatr\u00edz Ru\u00edz D\u00edaz, Maciel; Diego Nicol\u00e1s Gonz\u00e1lez, Cristian
+  Leonel Pozzo, Silvia Josefina Jullier, Ariel Alejandro Aranda de la localidad de
+  Santa Fe.\\nMar\u00eda Letizia Yacobe, Rafaela; Cristina Gisela Flappo, Esperanza;
+  Graciela Liliana Alisio, Santa Fe.\\nResoluci\u00f3n N\u00ba 4038:\\nJorge Daniel
+  Iturre, San Javier; Zulema Ofelia Ber\u00f3n, Santa Fe; Antonia Lidia Mart\u00ednez,
+  Helvecia; Irma Eva Malfanti, Laguna Paiva; Mar\u00eda Mercedes Gregorio, Laguna
+  Paiva; Mariela Alejandra Berlincourt, Santa Fe; Estela Beatriz Valle, Mario Alberto
+  Dichiara, M\u00e1xima del Rosario, Susana Silvia Liliana Garc\u00eda, de la localidad
+  de Rosario.\\nResoluci\u00f3n N\u00ba0084:\\nRam\u00f3n Eduardo Silva, Tacuarend\u00ed;
+  Rosa Alejandra Lizarraga, Rafalea; Mar\u00eda Eugenia Civalero, Plaza Clucellas;
+  Claudia Mercedes Monjes, Rafaela; Carina Marisa Raquel Ponce, Rafaela; Hugo Fabiana
+  Delfabro, Santa Fe; Noelia Magdalena Garc\u00eda, Alto Verde; Jose Luis Deiorgio,
+  Santa FE; Nilda Alejandra Carmona, Santa Rosa de Calchines; Carina Alejandra Teresa
+  Grimaldi, Las Parejas; Carlos Leonardo Villareal, San Lorenzo; Adriano Cintio, Venado
+  Tuerto; Gabriela Alejandra Fanfliet, Venado Tuerto.\\nLorena Lujan Sikora, Teodelina;
+  Ver\u00f3nica \u00c1ngela Bonavera Osci, Firmat; Viviana Lujan Cisilini, Ca\u00f1ada
+  de Ucle; M\u00f3nica Alejandra Olivera, San Jorge.\\nJ\u00e9sica Anal\u00eda Romero,
+  Elisabet Soledad Muntrion, Gisela Carolina Mangol, Ver\u00f3nica Graciela Cano,
+  de la localidad de Santa Fe.\\nNuestras compa\u00f1eras Gladis Ramirez, cocinera
+  de la escuela N\u00b0 438 y Matilde Campos, asistente escolar de Alejandra, les
+  ha llegado la etapa del disfrute luego de a\u00f1os de dedicaci&\""]'
 src_ngrams: '{"1": [[["de"], 2047032], [["y"], 698104], [["la"], 584857], [["del"],
   414024], [["en"], 336006]], "2": [[["de la"], 314938], [["nacional de"], 75170],
   [["universidad de"], 69521], [["universidad nacional"], 54325], [["facultad de"],

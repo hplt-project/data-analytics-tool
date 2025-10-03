@@ -1,7 +1,8 @@
 corpus: hplt-v3-ekk_Latn
-srclang: et
-timestamp: 1758077401.0845127
-warnings: []
+srclang: ekk
+timestamp: 1759496180.2687488
+warnings:
+- src_fastspell
 docs_collections: '[["CC-MAIN-2020-05", 660811], ["CC-MAIN-2020-10", 404042], ["CC-MAIN-2020-24",
   400801], ["wide11", 392881], ["CC-MAIN-2018-05", 365468], ["CC-MAIN-2017-26", 355670],
   ["CC-MAIN-2020-16", 328509], ["CC-MAIN-2021-49", 320004], ["CC-MAIN-2023-40", 309538],
@@ -24,8 +25,9 @@ docs_collections: '[["CC-MAIN-2020-05", 660811], ["CC-MAIN-2020-10", 404042], ["
   28645], ["survey3", 22992], ["CC-MAIN-2016-30", 22163], ["CC-MAIN-2014-35", 15871],
   ["CC-MAIN-2015-11", 10469], ["CC-MAIN-2015-18", 8736], ["CC-MAIN-2014-42", 8493],
   ["CC-MAIN-2015-48", 7342]]'
-docs_langs: '[[0.0, 13727700], [0.1, 82], [0.2, 529], [0.3, 1832], [0.4, 3486], [0.5,
-  2290]]'
+docs_langs: '[[0.0, 1371], [0.1, 11641], [0.2, 44100], [0.3, 95496], [0.4, 186405],
+  [0.5, 482265], [0.6, 797322], [0.7, 1177408], [0.8, 2154283], [0.9, 2836258], [1.0,
+  5949370]]'
 docs_segments: '[[637, 87], [405, 1023], [8555, 1], [730, 88], [999, 11], [4443, 1],
   [640, 106], [4797, 1], [481, 468], [4093, 1], [680, 73], [950, 13], [546, 205],
   [4581, 1], [4435, 1], [441, 660], [696, 85], [791, 32], [478, 483], [417, 920],
@@ -472,10 +474,11 @@ docs_wds: '[[10.0, 9789], [5.0, 120605], [5.1, 100830], [5.2, 83747], [5.3, 8362
   335096], [8.8, 322443], [8.9, 314874], [9.0, 361937], [9.1, 203985], [9.2, 182162],
   [9.3, 169074], [9.4, 168300], [9.5, 176112], [9.6, 173078], [9.7, 113641], [9.8,
   63888], [9.9, 24661]]'
+duplication_ratio: 0.4963
 sentence_pairs: 425813766
 src_bytes: 62103805836
 src_chars: 60253470754
-src_pii: 2982008
+src_pii: 998817
 src_tokens: 9348650238
 unique_sents: 214496716
 src_sent_tokens: '[[1, 35151535], [2, 23576008], [3, 25199075], [4, 24240061], [5,
@@ -1957,1529 +1960,535 @@ src_langs: '[["et", 344403431], ["it", 20145428], ["en", 17903884], ["fi", 10995
   ["bh", 108], ["myv", 95], ["krc", 80], ["mzn", 76], ["rue", 74], ["xal", 70], ["lrc",
   59], ["pfl", 41], ["tyv", 38], ["av", 32], ["bxr", 21], ["mai", 19], ["dty", 2]]'
 hardrules_tags: '{"not_too_long": 2076515, "not_too_short": 71899454, "length_ratio":
-  0, "no_urls": 5990838, "no_bad_encoding": 29291, "pii": 2982008}'
+  0, "no_urls": 5990838, "no_bad_encoding": 29291, "pii": 998817}'
 register_labels: '{"IP_ds": 2934868, "NA_ne": 2771880, "UNK": 2121593, "MT": 1603449,
   "NA_nb": 805591, "IN_other": 772979, "NA_other": 534811, "IN_dtp": 528122, "NA_sr":
   498486, "MIX": 440825, "IP_other": 414707, "ID_other": 363714, "HI_other": 307243,
   "IN_en": 193638, "OP_ob": 184815, "OP_other": 182416, "OP_rv": 157435, "HI_re":
   133383, "IN_lt": 113182, "OP_av": 80444, "OP_rs": 73877, "SP_it": 64806, "SP_other":
   38982, "IN_ra": 9057, "LY_other": 8360, "IN_fi": 705}'
-sample: '["\"T\u00fcdruks\u00f5bra Reeva Steenkampi tapmise eest vanglakaristust kandev
-  invajooksja Oscar Pistorius on muutunud nii paranoiliseks, et ei v\u00f5ta enam
-  vastu vangla poolt serveeritavat toitu, vahendas Daily Mail. Nimelt kardab Pistorius,
-  et tema portsjonit v\u00f5idakse m\u00fcrgitada ja seega saab ta energiat ainult
-  purgitoidust, mida ta vanglapoest ostab.\\nNeli kuud tagasi Pretoria Kgosi Mampuru
-  vanglasse pandud Pistorius tarvitab peamiselt chakalakat ehk v\u00fcrtsikat aafrikap\u00e4rast
-  juurviljasegu. See dieet on ta teinud nii k\u00f5hnaks, et tema kunstjalad ei sobi
-  enam kokku allesj\u00e4\u00e4nud j\u00e4semetega.\\nPistorius on samas vanglas olevatelt
-  kurjategijatelt saanud korduvalt tapmis\u00e4hvardusi ja hoolimata maksimaalselt
-  headest tingimustest (tuttavate k\u00fclask\u00e4igud, raadio, v\u00f5imalus valida
-  hobi ja kanda ehteid) on ta vaimne seisund v\u00e4ga ebastabiilne.\\n8 kommentaari\"",
-  "\"Tallinna abilinnapea Taavi Aasa s\u00f5nul kahaneb eelarvestrateegia kohaselt
-  Tallinna laenukoormus 2012. aasta l\u00f5puks 43,5%le aastatuludest. Riigi poolt
-  seatud laenukoormuse \u00fclempiiriks on 60%.\\n\u201cTallinnal on ainukesena Eesti
-  omavalitsustest ette n\u00e4idata rahvusvaheliselt tunnustatud kehtiv krediidireiting,\u201d
-  \u00fctles Aas.\\nReitinguagentuur Moody\u2019s nentis Tallinna v\u00f5lakoormust
-  hinnates, et linna laenukoormus on pigem m\u00f5\u00f5dukas, ning m\u00e4rkis \u00e4ra
-  ka linna laenuportfelli hea struktuuri.\\nAasa v\u00e4itel ei pea opositsion\u00e4\u00e4ride
-  jutt laenukoormuse h\u00fcppelisest kasvust ja linna \u00e4hvardavast pankrotist
-  vett. \u201cTegemist on kas teadliku eksitamise ja paanika k\u00fclvamisega v\u00f5i
-  kirjaoskamatusega,\u201d nentis Aas.\\nLinna laenukoormus Aasa s\u00f5nul aasta-aastalt
-  hoopis langeb ning seega on Tallinna s\u00fc\u00fcdistamine liigses laenamises t\u00e4iesti
-  alusetu.\\nKui 2007. aasta l\u00f5pul oli linna arvestuslik laenukoormus 49,4%,
-  siis 2008. aasta l\u00f5puks on see 47,7% ning 2012. aasta l\u00f5puks 43,5%.\"",
-  "\"Gestationaalset diabeedi nimetatakse rinnaga toitvate s\u00fcsivesikute metabolismi
-  rikkumiseks. Haiguse p\u00f5hjused pole veel t\u00e4ielikult arusaadavad. Suhkurt\u00f5bi
-  raseduse ajal v\u00f5ib p\u00f5hjustada abordi, enneaegset s\u00fcnnitust, vasts\u00fcndinuhaigusi,
-  pikaajalisi kahjulikke m\u00f5jusid emale.\\nLatentse diabeedi anal\u00fc\u00fcs
-  raseduse ajal on ette n\u00e4htud esmakordselt, kui naine saabub arsti juurde. J\u00e4rgmine
-  test viiakse l\u00e4bi 24.-28. N\u00e4dala jooksul. Vajadusel uuritakse rasedat
-  ema.\\nHaiguse p\u00f5hjused\\nRaseduse ajal tekib organismis t\u00e4iendav endokriinne
-  organ - platsenta. Selle hormoonid - prolaktiin, kooriongonadotropiin, progesteroon,
-  kortikosteroidid, \u00f6strogeen - v\u00e4hendavad ema keha kudede vastuv\u00f5tlikkust
-  insuliinile. Insuliini retseptorite antikehad tekitatakse, m\u00e4rkatakse platsenta
-  hormooni lagunemist. Ketooni keha ainevahetus suureneb ja loote vajadusteks kasutatakse
-  gl\u00fckoosi. H\u00fcvitisena suurendatakse insuliini tootmist.\\nTavaliselt on
-  insuliiniresistentsuse areng vere gl\u00fckoositaseme suurenemise p\u00f5hjuseks
-  p\u00e4rast s\u00f6\u00f6ki. Kuid loote vereringes oleva s\u00fcsivesiku tarbimine
-  t\u00fchja k\u00f5huga p\u00f5hjustab kerge h\u00fcpogl\u00fckeemiat. Diabeedi geneetilise
-  eelsoodumusega isolatsiooniseade ei talu t\u00e4iendavat koormust ja patoloogia
-  areneb.\\nSelle haiguse ohus on naised:\\n- \u00fclekaaluline;\\n- \u00fcle 30-aastane;\\n-
-  olemust koormav;\\n- ebasoodsate s\u00fcnnitusj\u00e4rgsete ajalugu;\\n- s\u00fcsivesikute
-  ainevahetuse h\u00e4ired, mis on diagnoositud enne rasedust.\\nHaigus areneb 6-7
-  kuud raseduse ajal. Naistel, kellel on rasedusdiabeet, on 10-15 aasta jooksul t\u00f5en\u00e4oliselt
-  haiguse kliiniline vorm.\\nLatentse diabeedi diagnoosimine rasedatel p\u00f5hjustab
-  paljudel juhtudel as\u00fcmptomaatilist. Ainevahetush\u00e4irete kindlaksm\u00e4\u00e4ramise
-  peamine viis on laboratoorsed uuringud.\\nEsialgne eksam\\nRasedate naiste registreerimisel
-  m\u00e4\u00e4ratakse plasma gl\u00fckoosisisaldus. Uuringus v\u00f5etakse venoosne
-  veri. V\u00e4hemalt 8 tundi enne anal\u00fc\u00fcsi ei saa s\u00fc\u00fca. Tervetel
-  naistel m\u00e4\u00e4r on 3,26-4,24 mmol / l. Diabeet on diagnoositud, kui gl\u00fckoosi
-  tase on \u00fcle 5,1 mmol / l.\\nGl\u00fckoosiga hemoglobiini anal\u00fc\u00fcs
-  v\u00f5imaldab m\u00e4\u00e4rata s\u00fcsivesikute ainevahetust 2 kuu jooksul. Tavaliselt
-  on gl\u00fckoosiga hemoglobiini tase 3-6%. Suhkruhaiguse tekkimise t\u00f5en\u00e4osus
-  n\u00e4itab kuni 8% suurenemist, kusjuures risk on keskmiselt 8-10% ja 10% v\u00f5i
-  enam - k\u00f5rge.\\nKontrollige kindlasti uriini gl\u00fckoosisisaldust. Gl\u00fckoosuria
-  p\u00f5eb 10% rasedatest, kuid see v\u00f5ib olla seotud mitte h\u00fcpergl\u00fckeemilise
-  seisundiga, vaid neerukliirensi v\u00f5i kroonilise p\u00fcelonefriidi filtreerimisv\u00f5ime
-  rikkumisega.\\nUuring 24-28 rasedusn\u00e4dalal\\nKui esimesel trimestril ei leitud
-  standardtestides s\u00fcsivesikute ainevahetuse patoloogiaid, viiakse j\u00e4rgmine
-  katse l\u00e4bi kuuenda kuu alguses. Gl\u00fckoositaluvuse m\u00e4\u00e4ramine ei
-  vaja erikoolitust ja toimub hommikul. Uuringus hinnati s\u00fcsivesikute sisaldust
-  veres t\u00fchja k\u00f5huga, \u00fcks tund p\u00e4rast 75 g gl\u00fckoosi v\u00f5tmist
-  ja veel 2 tundi. Patsient ei tohi suitsetada, aktiivselt liikuda, v\u00f5tta ravimeid,
-  mis m\u00f5jutavad anal\u00fc\u00fcsi tulemusi.\\nKui esimese proovi uurimise k\u00e4igus
-  avastatakse h\u00fcpergl\u00fckeemia, siis ei teostata j\u00e4rgmisi katseetappe.\\nGl\u00fckoositaluvuse
-  m\u00e4\u00e4ramine on vastun\u00e4idustatud j\u00e4rgmistel juhtudel:\\n- akuutne
-  toksoos;\\n- nakkushaigused;\\n- kroonilise pankreatiidi \u00e4genemine;\\n- vaja
-  voodipesu.\\nEsimese t\u00fchja k\u00f5huga vereproovis on gl\u00fckoosi tase rasedatel
-  naistel madalam kui rasedatel naistel. P\u00e4rast laadimisaega on rase naise gl\u00fckeemia
-  tase 10-11 mmol / l, 2 tunni p\u00e4rast - 8-10 mmol / l. Gl\u00fckoosi kontsentratsiooni
-  aeglane langus veres raseduse ajal on tingitud imendumise kiiruse muutustest seedetraktis.\\nKui
-  uuring n\u00e4itab diabeedi, viiakse naine endokrinoloogiga rekordi.\\nPaljudel
-  naistel on patoloogilised muutused s\u00fcsivesikute metabolismis raseduse ajal.
-  Haiguse areng on geneetiliselt kindlaks m\u00e4\u00e4ratud. Diabeet on nii ema kui
-  ka lapse tervisele ohtlik. Haiguste \u00f5igeaegseks raviks on vaja k\u00f5rvalekallete
-  varajast avastamist.\\nRasedusdiabeet raseduse ajal: anal\u00fc\u00fcsi indikaatorid,
-  p\u00f5hjused, s\u00fcmptomid, raviomadused, toitumine\\nGestational diabetes mellitus
-  on \u00fcsna tavaline probleem, millega kaasneb keharakkude gl\u00fckoositaluvuse
-  n\u00f5rgenemine. Paljud tulevased emad silmitsi selle patoloogiaga. V\u00e4\u00e4rib
-  m\u00e4rkimist, et see haigus raseduse ajal on v\u00e4ga ohtlik. Ajakohase ravi
-  puudumisel v\u00f5ivad tekkida t\u00fcsistused, m\u00f5nikord kuni raseduse katkemiseni.\\nSellep\u00e4rast
-  peaksid k\u00f5ik naised lugema teavet selle haiguse kohta. Miks rasedusdiabeet
-  tekib raseduse ajal? Mis on ohtlik haigus naisele ja lapsele? Mis s\u00fcmptomeid
-  peaksin t\u00e4helepanu p\u00f6\u00f6rama? Milliseid ravimeetodeid pakub kaasaegne
-  meditsiin ja kas nad on t\u00f5esti efektiivsed? Vastused nendele k\u00fcsimustele
-  on kasulikud paljudele lugejatele.\\nMis on patoloogia?\\nSuhkurt\u00f5bi on tavaline
-  haigus, millega paljud inimesed silmitsi seisavad. Nagu teate, v\u00f5ib see haigus
-  olla erinevates vormides. Lisaks on sellega seotud olulised s\u00fcsivesikute metabolismi
-  rikkumised. Praeguseks on haiguse kaks peamist vormi.\\n- Esimese t\u00fc\u00fcbi
-  diabeet tekib reeglina lastel ja noorukitel. Selle arengu mehhanism on h\u00e4sti
-  uuritud. \u00dchel v\u00f5i teisel p\u00f5hjusel k\u00e4ivituvad autoimmuunsed reaktsioonid,
-  mis p\u00f5hjustab pankrease beeta-rakkude kahjustamist. Need on struktuurid, mis
-  vastutavad insuliini s\u00fcnteesi eest - gl\u00fckoosi kasutamist tagava hormooni
-  eest (selle m\u00f5ju all suhkur l\u00e4heb verest kehasse, samuti maksa koesse,
-  kus seda kasutatakse rakkude energiavajaduste rahuldamiseks v\u00f5i muudetakse
-  gl\u00fckogeeniks). Kui immuuns\u00fcsteem kahjustab beeta-rakke, tekib insuliinipuudus,
-  mille tagaj\u00e4rjeks on vere gl\u00fckoosisisalduse j\u00e4rsk t\u00f5us. Ainus
-  v\u00f5imalus raviks on regulaarne s\u00fcnteetilise insuliini s\u00fcstimine -
-  see aitab kontrollida s\u00fcsivesikute ainevahetust.\\n- II t\u00fc\u00fcpi diabeet
-  tekib k\u00f5ige sagedamini elu teises pooles. Protsessi v\u00f5ib k\u00e4ivitada
-  nakkushaigused, samuti pankrease p\u00f5letiku \u00e4gedad ja kroonilised vormid,
-  samuti m\u00f5ned muud patoloogiad. \u00dchel v\u00f5i teisel p\u00f5hjusel kaotavad
-  kuded oma insuliinitundlikkuse. Samal ajal j\u00e4tkavad beeta-rakud kas hormooni
-  tootmist \u00f5iges v\u00f5i isegi suuremas koguses. Kui haigus tuvastati \u00f5igeaegselt,
-  v\u00e4hendatakse ravi sobivale toitumisele, f\u00fc\u00fcsilisele aktiivsusele
-  ja kehakaalu kontrollile. Kuid selline intensiivne insuliini sekretsioon viib j\u00e4rk-j\u00e4rgult
-  beetarakkude ammendumiseni - sellistel juhtudel vajavad patsiendid ka insuliinravi.\\nGestational
-  diabetes mellitus (ICD-10 on m\u00e4\u00e4ranud koodi O24 selle patoloogia) on \u00fcsna
-  tavaline patoloogia. Statistiliste uuringute kohaselt seisavad probleemid erinevates
-  riikides 1-14% embr\u00fcodest. Fakt on see, et naise platsenta sekreteerib hormoonid,
-  mis h\u00e4irivad gl\u00fckoosi kasutamist ja suurendavad seega veresuhkru taset.
-  K\u00f5hun\u00e4\u00e4re koormus suureneb, beeta-rakud hakkavad insuliini s\u00fcnteesima
-  intensiivsemalt. Sellegipoolest lakkab pankreas mingil hetkel oma peamiste \u00fclesannete
-  t\u00e4itmisel.\\nLoomulikult p\u00f5hjustab ema vere gl\u00fckoositaseme t\u00f5us
-  lootele h\u00fcpogl\u00fckeemia tekke, mis v\u00f5ib p\u00f5hjustada t\u00f5siseid
-  t\u00fcsistusi, kahjustada lapse kasvu ja arengut. Statistika kohaselt on 10% sarnase
-  diagnoosiga patsientidest diabeet, isegi p\u00e4rast lapse s\u00fcndi - haigus muutub
-  stabiilseks vormiks, mis n\u00f5uab pidevat ravi.\\nRiskitegurid\\nRaseduse planeerimisel
-  on \u00e4\u00e4rmiselt oluline koguda v\u00f5imalikult palju andmeid perekonna teatud
-  haiguste esinemise kohta. Statistika kohaselt on rasedate diabeet naistel t\u00f5en\u00e4olisem,
-  mille ajalugu sisaldab teavet j\u00e4rgmiste probleemide kohta:\\n- sugulaste olemasolu
-  teise t\u00fc\u00fcbi diabeedi sirgel;\\n- s\u00fcsivesikute ainevahetuse mitmesugused
-  h\u00e4ired;\\n- patsiendil on \u00fclekaaluline rasvumine erineval m\u00e4\u00e4ral;\\n-
-  vanus (vastavalt statistikale diagnoositakse haigust rohkem kui 30-aastastel rasedatel
-  naistel);\\n- erinevate ainevahetushaiguste esinemine;\\n- raskekujulised toksoosid,
-  preeklampsia, mida kannatas patsient varasemate raseduste ajal;\\n- s\u00fcdamehaigus,
-  vaskulaarhaigus;\\n- eelmisel lapsel olid vereringe ja / v\u00f5i n\u00e4rvis\u00fcsteemi
-  kaasas\u00fcndinud v\u00e4\u00e4rarendid;\\n- minevikus surnult s\u00fcndinud;\\n-
-  eelmine laps s\u00fcndis suur (kaal \u00fcle 4 kg);\\n- krooniline raseduse katkemine,
-  spontaanse abordi ajalugu;\\n- suur suhkrusisaldus patsiendi uriinis;\\n- diabeedi
-  areng eelmise raseduse ajal.\\nNaised, kes on ohustatud, peaksid j\u00e4\u00e4ma
-  arsti t\u00e4helepanelikule j\u00e4relevalve alla, kontrollima veresuhkru taset
-  pidevalt (rasedusdiabeediga, see n\u00e4itaja t\u00f5useb ja kui te m\u00e4rkate
-  seda \u00f5igeaegselt, saate takistada erinevate komplikatsioonide tekkimist).\\nPatoloogia
-  s\u00fcmptomid\\nPraeguseks on olemas laboratoorsed uuringud - ainus viis eeldada,
-  et rase naine on rasedusdiabeet. Vere gl\u00fckoosisisalduse n\u00e4itajad (st s\u00fcstemaatiline
-  seire) v\u00f5imaldavad teil diagnoosi teha.\\nStatistika kohaselt on haigus \u00fcsna
-  sageli as\u00fcmptomaatiline. M\u00f5ningaid rasedusdiabeedi m\u00e4rke v\u00f5ib
-  veel eristada.\\n- Kahjulikkusega kaasneb sageli janu, mis ei ole kuidagi seotud
-  naise toitumise erip\u00e4raga (n\u00e4iteks liigse koguse soola kasutamine) v\u00f5i
-  temperatuuritingimustega.\\n- N\u00e4gemise pidev tunne v\u00f5i vastupidi - isu
-  puudumine - need on ka rasedusdiabeedi s\u00fcmptomid.\\n- M\u00f5nikord on verer\u00f5hu
-  t\u00f5us.\\n- M\u00f5nedel naistel on puhitus.\\n- Vere gl\u00fckoosisisalduse
-  muutused m\u00f5jutavad immuuns\u00fcsteemi aktiivsust. Keha muutub vastuv\u00f5tlikumaks
-  mitmesuguste infektsioonide toimele.\\n- M\u00f5ned patsiendid kurdavad ebamugavust
-  urineerimise ajal.\\n- Kuna haiguse taustal on kahjustatud silma v\u00e4ikesed ained,
-  n\u00e4gemisteravus ja muud silmahaigused v\u00f5ivad v\u00e4heneda.\\nNagu n\u00e4ete,
-  on rinnaga diabeedi s\u00fcmptomid sarnased selle haiguse muude vormide kliinilisele
-  pildile. Aga j\u00e4llegi ei pruugi \u00fclaltoodud rikkumised olla - paljud rasedad
-  tunnevad end \u00fcsna normaalsena.\\nMillised haigusseisundid v\u00f5ivad p\u00f5hjustada
-  komplikatsioone?\\nRasedate naiste rasedusdiabeet sobiva ravi puudumisel v\u00f5ib
-  p\u00f5hjustada t\u00f5siseid t\u00fcsistusi. Nende nimekirjaga peaksite kindlasti
-  lugema:\\n- Preeklampsia suur oht k\u00f5igi sellega seotud t\u00fcsistustega.\\n-
-  M\u00f5nikord tekib haiguse taustal diabeetiline ketoatsidoos, millega kaasneb ketooni
-  kehade ja gl\u00fckoositaseme j\u00e4rsk t\u00f5us veres, mis on nii ema kui ka
-  lapse organismi jaoks \u00e4\u00e4rmiselt ohtlik.\\n- Rasedusdiabeediga patsientidel
-  on suguelundite nakkushaiguste esinemissagedus kaks korda tavalisem. See omakorda
-  on t\u00e4is nakkuse levik loote kehasse ja enneaegset s\u00fcnnitust.\\n- Suhkurt\u00f5ve
-  taustal on kahjustatud v\u00e4ikesed ained, mis v\u00f5ivad viia p\u00fcsiva n\u00e4gemiskahjustuse,
-  neeruhaiguse, verevoolu halvenemiseni platsentaanide kaudu.\\n- M\u00f5nikord esineb
-  nn t\u00f6\u00f6j\u00f5upuudus - sellistel juhtudel on ainus viis tarneks keisril\u00f5ike.\\n-
-  P\u00e4rast s\u00fcnnitust t\u00fcsistused on sagedamini rasedusdiabeediga naistel.
-  Arvustused n\u00e4itavad, et patsiendid kannatavad sageli erinevate nakkushaiguste,
-  sealhulgas kuseteede haiguste all.\\nSeep\u00e4rast ei tohi me kunagi arsti ettekirjutusi
-  ignoreerida. Sarnase diagnoosiga patsiendid vajavad pidevat j\u00e4lgimist ja piisavat
-  ravi.\\nLapse risk\\nRasedusdiabeet raseduse ajal on ohtlik mitte ainult emale,
-  vaid ka lapsele. Nagu teate, ei saavutanud lootekogu esimesel trimestril veel oma
-  insuliini. Ema verest koosneb laps gl\u00fckoosi, kuid mitte pankrease hormooni.
-  See v\u00f5ib p\u00f5hjustada loote surma, raseduse katkemist v\u00f5i erinevate
-  kaasas\u00fcndinud v\u00e4\u00e4rarengute arengut (enamikul juhtudel m\u00f5jutab
-  patoloogiline protsess k\u00f5ige t\u00e4htsamaid elundeid - aju ja s\u00fcda).\\nKui
-  rasedatel naistel esineb rasedate diabeedihaigusi (2. v\u00f5i 3. trimestril), siis
-  on t\u00f5en\u00e4oline, et tekib diabeetiline fetopaatia. Sarnane seisund on seotud
-  n\u00f5rga s\u00fcsivesikute ainevahetusega. Selle s\u00fcmptomid on j\u00e4rgmised:\\n-
-  laps on s\u00fcndinud suures koguses (kaal \u00fcletab 4 kg);\\n- Kohe p\u00e4rast
-  s\u00fcnnitust v\u00f5ib t\u00e4heldada keha osakaalu h\u00e4irimist (n\u00e4iteks
-  lapsel on liiga suur k\u00f5hu ja liiga j\u00e4medalt j\u00e4semed)\\n- on nahaalune
-  rasv;\\n- lapse pehmekuded muutuvad sageli p\u00e4hkliseks;\\n- v\u00f5ib tekkida
-  h\u00fcpogl\u00fckeemia, millega kaasneb magneesiumi ja kaltsiumi taseme langus,
-  vere viskoossuse suurenemine, mis suurendab oluliselt vereh\u00fc\u00fcvete riski;\\n-
-  m\u00f5nikord kaasneb haigusega kollat\u00f5bi (te v\u00f5ite m\u00e4rgata naha
-  ja silmade kollaseks muutumist);\\n- m\u00f5nel juhul registreeritakse erineva raskusastmega
-  hingamisteede h\u00e4ired.\\nLoomulikult vajab laps selles riigis arsti abi otseselt.\\nRasedusaegne
-  diabeet: veresuhkru n\u00e4itajad\\nMuidugi kogub arst k\u00f5igepealt k\u00f5ige
-  t\u00e4ielikuma anal\u00fc\u00fcsi koostamiseks infot. Kuid diagnoosi kohustuslik
-  osa on suhkru taseme vereanal\u00fc\u00fcs. Loomulikult tuleb k\u00f5ige t\u00e4psemate
-  tulemuste saamiseks j\u00e4rgida m\u00f5nda reeglit.\\nPatsiente ei soovitata mingil
-  viisil muuta dieeti v\u00f5i muid igap\u00e4evaelu aspekte, kuna see v\u00f5ib m\u00f5jutada
-  laborikatsete tulemusi. Esiteks v\u00f5etakse vereproovid t\u00fchja k\u00f5huga
-  (8 kuni 14 tundi t\u00fchja k\u00f5huga). J\u00e4rgnevalt annavad patsiendid gl\u00fckoosilahuse.
-  Kaks tundi p\u00e4rast suhkru v\u00f5tmist (lahus valmistatakse, lahustatakse 75
-  g kuivas gl\u00fckoos 250-300 ml vees), v\u00f5tab patsient uuesti verd. J\u00e4rgmised
-  andmed loetakse tavaliseks:\\n- t\u00fchja k\u00f5huga gl\u00fckoos j\u00e4\u00e4b
-  vahemikku 3,3-5,5 mmol / l;\\n- kaks tundi p\u00e4rast s\u00f6\u00f6mist on see
-  n\u00e4itaja 5 - 7,8 mmol / l.\\nPatsient on kohustatud neid n\u00e4itajaid pidevalt
-  j\u00e4lgima. Rasedusdiabeet raseduse ajal on v\u00e4ga ohtlik. Sellep\u00e4rast
-  on oluline kontrollida gl\u00fckoosi taset - see on ainus viis ohtlike komplikatsioonide
-  v\u00e4ltimiseks.\\nMuide, kui gl\u00fckoosi ainevahetuse h\u00e4irete anal\u00fc\u00fcsimisel
-  ei tuvastatud, siis antakse patsiendile teine uuring umbes 26... 28 rasedusn\u00e4dalal.\\nRasedusdiabeet
-  raseduse ajal: dieet\\nLoomulikult koostab arst p\u00e4rast diagnoosi raviskeemi.
-  Rasedusdiabeedi ravi peamine meetod raseduse ajal on toitumine. N\u00f5uetekohaselt
-  formuleeritud dieedi kasutamine v\u00f5ib kontrollida vere gl\u00fckoosisisaldust.
-  Tegelikult ei ole sellise haiguse toitumise reeglid nii keerulised.\\nVahetult tuleb
-  m\u00e4rkida, et toit peaks olema t\u00e4ielik - on \u00e4\u00e4rmiselt oluline,
-  et tulevase ema organism saaks k\u00f5ik vajalikud mineraalid, vitamiinid ja muud
-  kasulikud ained. \u00c4rge mingil juhul v\u00e4hendage igap\u00e4evase men\u00fc\u00fc
-  energiat\u00f5husust oluliselt - seda on parem teha j\u00e4rk-j\u00e4rgult (vajadusel).\\n-
-  Esiteks peate minema murdosale. Sageli on see parem (5-7 korda p\u00e4evas), kuid
-  v\u00e4ikestes osades. Peale selle on suurem osa toidust k\u00f5ige paremini tarbitud
-  hommikul. Lubatud on v\u00e4ikesed suupisted (n\u00e4iteks v\u00f5ite \u00f5una-
-  v\u00f5i loodusliku jogurti s\u00fc\u00fca). Oluline on v\u00e4ltida n\u00e4lja
-  ilmnemist, sest antud juhul on toidu osakaalu mahu kontrollimine palju raskem.\\n-
-  Oluline on v\u00e4hendada lihtsate, kergesti seeditavate s\u00fcsivesikute (v\u00f5i
-  isegi neist loobuda) tarbimist. Vere gl\u00fckoosisisaldus suureneb j\u00e4rsult
-  p\u00e4rast k\u00fcpsetamist, maffini, maiustusi, maiustusi. Samuti on soovitatav
-  loobuda magusatest puuviljadest nagu viigimarjad, viinamarjad, banaanid jne. Loomulikult
-  tuleks men\u00fc\u00fcst v\u00e4lja j\u00e4tta suhkur (diabeedi eriala magusained
-  m\u00fc\u00fcakse apteekides).\\n- K\u00fcllastunud rasvad on ka kahjulikud - nende
-  p\u00e4evane toitumine ei tohiks olla suurem kui 10%. On vaja loobuda rasvast hapukoort,
-  v\u00f5id, m\u00f5ned sortid juustust, margariinist, majoneesist, vorstidest, suitsutatud
-  lihast, sealihast ja mugavatest toitudest. Selle asemel v\u00f5ite sisestada lahjad
-  kalaliigid ja liha (n\u00e4iteks kana, k\u00fc\u00fclikuliha, veiseliha).\\n- Lihtsad
-  suhkrud on diabeedis kindlasti kahjulikud. Kuid naistele on lubatud komplekssed
-  s\u00fcsivesikud. Dieedis peab olema teravili, teravili ja rohelised k\u00f6\u00f6giviljad,
-  eelk\u00f5ige kapsas, suvik\u00f5rvits, kurk, seller, redis, salat, rohelised oad.
-  Need tooted on rohkesti kiudaineid, samuti k\u00fcllastatakse keha vitamiinide,
-  mineraalide ja muude kasulike ainetega.\\n- Keelatud kiirtoit ja kiirtoit. On oluline
-  loobuda gaseeritud jookidest, samuti toodetest, mis sisaldavad emulgaatoreid, maitseaineid
-  ja muid potentsiaalselt ohtlikke toidu lisaaineid.\\nLoomulikult aitab t\u00e4psem
-  toitumise skeem teil oma arsti teha. Patsiendid peaksid regulaarselt m\u00f5\u00f5ta
-  vere suhkrusisaldust, kohandades nende dieedi, juhindudes nendest n\u00e4itajatest.\\nReeglina
-  v\u00f5ib toitumisravi m\u00f5ju n\u00e4ha n\u00e4dala p\u00e4rast. J\u00e4rk-j\u00e4rgult
-  normaliseerub gl\u00fckoosi tase. Tervislik toitumine aitab ka normaliseerida kehakaalu
-  ja oluliselt parandada rase naise tervist.\\nMuud terapeutilised sekkumised\\nVahetult
-  v\u00e4\u00e4rib m\u00e4rkimist, et toitumine on rasedusdiabeedi k\u00f5ige olulisem
-  ja efektiivne osa. Kliinilised juhised kehtivad siiski ka patsientide elu muude
-  aspektide suhtes.\\nN\u00e4iteks n\u00e4itavad naised teostatavat f\u00fc\u00fcsilist
-  aktiivsust. Muidugi v\u00f5ib sporti raseduse ajal l\u00e4bi viia ainult arsti loal
-  ja kogenud juhendaja j\u00e4relevalve all. Positiivselt m\u00f5jutab patsiendi tervis
-  v\u00e4rske \u00f5hu kaudu korrap\u00e4raseid jalutusk\u00e4ike. Kasulik rasedatele
-  naistele on vesi aeroobikas ja basseinis ujumine. F\u00fc\u00fcsiline aktiivsus
-  v\u00f5imaldab teil vabaneda nahaaluste rasvade hoiustest, samuti k\u00fcllastuda
-  keha hapnikuga ja kiirendada gl\u00fckoosi kasutamise protsessi.\\nPaljud patsiendid
-  on huvitatud k\u00fcsimustest, kas insuliini tuleks v\u00f5tta koos rasedusdiabeediga.
-  Statistika kohaselt ei vaja haigus enamikul juhtudel hormooni tarbimist - gl\u00fckoosisisaldust
-  saab normaliseerida \u00f5ige toitumise ja sobiva kehalise aktiivsuse kaudu. Ainult
-  aeg-ajalt otsustab arst insuliini s\u00fcstide kasutuselev\u00f5tmise raviskeemi
-  - antud juhul on \u00e4\u00e4rmiselt oluline j\u00e4rgida spetsialisti soovitusi,
-  et j\u00e4rgida \u00f5iget annust ja ajakava.\\nV\u00e4\u00e4rib m\u00e4rkimist,
-  et ravi ajal on \u00e4\u00e4rmiselt oluline kontrollida mitte ainult suhkru taset.
-  Patsiendid manustavad regulaarselt uriinitesti (kui selles leidub ketooni kehasid,
-  t\u00e4hendab see, et suhkrut\u00f5ve ei saa kontrollida). Lisaks arstid soovitavad
-  rasedatel naistel saada verer\u00f5hum\u00f5\u00f5tjat ja pidevalt j\u00e4lgida
-  verer\u00f5hku. Asjaolu, et s\u00fcsivesikute ainevahetuse rikkumised p\u00f5hjustavad
-  sageli veresoonte r\u00f5hu suurenemist, mis on kasvavale lootele v\u00e4ga ohtlik
-  (mis v\u00f5ib p\u00f5hjustada n\u00e4iteks enneaegset t\u00f6\u00f6j\u00f5udu,
-  platsentapuudust jne).\\nS\u00fcnniprotsessi tunnused\\nKui haigus tuvastati rasedusdiabeedi
-  ajal ja rinnaga toitmise ajal, s\u00fcndis laps looduslikult. Sellest hoolimata
-  on s\u00fcnnitamine m\u00f5nikord raske. Nagu juba mainitud, on s\u00fcsivesikute
-  ainevahetuse h\u00e4irete taustal loote suurus suurenemas. Kui laps on suur ja naisel
-  on kitsad vaagnad ja n\u00f5rk lihased, siis on geneeriline protsess ohtlik - vahele
-  ja vaagnaeludele on suur t\u00f5en\u00e4osus vigastada. Sellistel juhtudel otsustab
-  arst keisril\u00f5ike.\\nJuhul, kui puuduvad kaasas\u00fcndinud defektid v\u00f5i
-  komplikatsioonid (n\u00e4iteks hingamisprobleemid jne), ei ole mingit erilist ravi
-  vaja. Loomulikult langeb kohe p\u00e4rast s\u00fcndi j\u00e4rsult lapse veresuhkru
-  tase - kuid see seisund on harva ohtlik. Loomulikult j\u00e4lgivad neid n\u00e4itajaid
-  pidevalt arstid. Tavaliselt naaseb gl\u00fckoosi ainevahetus normaalseks, rinnaga
-  toitmise ajal.\\nNaiste puhul on ajutise rasedusdiabeedi \u00fcleminekuaja t\u00f5en\u00e4osus
-  alati haiguse p\u00fcsivaks vormiks (2. t\u00fc\u00fcpi diabeet). Sellep\u00e4rast
-  soovitatakse patsientidel \u00fclaltoodud toidust kinni pidada.\\nMida peate teadma
-  p\u00e4rast s\u00fcnnitust? T\u00fcsistuste ennetamine\\nKahjuks ei ole t\u00e4nap\u00e4eval
-  mingeid vahendeid, mis v\u00f5iksid h\u00e4irida rasedusdiabeedi arengut. Kliinilised
-  juhised on endiselt k\u00e4ttesaadavad.\\nKui rasedust seostatakse sarnase ainevahetush\u00e4irega,
-  siis soovitatakse j\u00e4rgmisele lapsele planeerida mitte varem kui kaks aastat
-  hiljem. Asjaolu, et keha vajab aega, et ainevahetusprotsessid normaliseeruksid.\\nRaseduse
-  planeerimist tuleb v\u00f5tta k\u00f5ikv\u00f5imalike vastutustega. M\u00f5ni kuu
-  enne lapse s\u00fcndi soovivad arstid hakata j\u00e4lgima kaalu, s\u00e4ilitama
-  sobivust, tugevdama lihaseid - nii saate v\u00e4hendada rasedusdiabeedi tekkimise
-  t\u00f5en\u00e4osust. Soovitused kehtivad toidule - peate j\u00e4rgima \u00f5iget
-  toitu (\u00fclalkirjeldatud dieet funktsioone).\\nNii raseduse planeerimise kui
-  ka p\u00e4rast viljastamist julgustatakse naisi pidevalt kontrollima veresuhkru
-  taset. Kui esineb ebaregulaarset v\u00f5i h\u00e4irivat s\u00fcmptomit, peate kohe
-  n\u00f5u pidama arstiga.\\nKatse latentse diabeediga raseduse ajal\\nSuhkurt\u00f5ve
-  latentse vormi oht on selle m\u00e4rkimisv\u00e4\u00e4rseks arenguks pikka aega
-  ja selle tagaj\u00e4rjel patoloogia ja selle ravi enneaegse avastamise. Inglise
-  insuliini puudumine v\u00f5i puudumine v\u00f5ib esmaj\u00e4rjekorras ilmneda v\u00e4ljendunud
-  s\u00fcmptomitega ainult raseduse ajal. Alla 1% n\u00f5rgemast soost vanuser\u00fchmas
-  16-40 eluaastat p\u00f5eb diabeet. Samal ajal on laps, kes ootab lapsi ja kannatab
-  patoloogia, umbes 5%. V\u00f5imalik ohtu tulevase ema ja lapse elu ja tervise jaoks
-  on vaja raseduse ajal varjatud diabeedi kohustuslikku testi l\u00e4bida.\\nTavalised
-  veresuhkru testid\\nNiipea kui naine avastab, et ta saab ema (ligikaudu 2-3 kuud),
-  peab ta registreeruma s\u00fcnnitusabi kliinikus, kus ta elab. Kliinikumina antakse
-  rasedale viivitamatult juhised erinevate orientatsioonide spetsialistide eksami
-  l\u00e4bimiseks ja vajalike testide l\u00e4bimiseks, millest \u00fcks on s\u00f5rme
-  suhkru vere loovutamine.\\nRasedatel naistel peab s\u00f5rme suukaudne suhkru tase
-  olema 3,3 kuni 5,5 mmol / l t\u00fchja k\u00f5huga kaks tundi p\u00e4rast s\u00f6\u00f6ki
-  - mitte rohkem kui 7,8 mmol / l. Tulevikus emadel on see n\u00e4itaja veidi erinev
-  ja t\u00fchja k\u00f5huga varieerub vahemikus 4-5,2 mmol / l ja p\u00e4rast s\u00f6\u00f6mist
-  ei tohiks \u00fcletada 6,7 mmol / l. Need muutused on seotud suurenenud hormonaalse
-  aktiivsuse ja t\u00f5hustatud ainevahetusega.\\nUsaldusv\u00e4\u00e4rsete tulemuste
-  saamiseks peate j\u00e4rgima lihtsaid reegleid:\\n- \u00c4rge s\u00f6\u00f6dake
-  enne katset 8 tundi. Reeglina v\u00f5etakse verd hommikul, nii et viimast korda
-  peaksite \u00f5htul s\u00f6\u00f6ma, mitte liiga rasvaseid ja mitte magusaid roogasid;\\n-
-  V\u00f5ite kasutada puhast vett v\u00e4ikestes kogustes, mis ei sisalda gaasi, v\u00e4rvaineid
-  ja magusaineid. Samuti on soovitav loobuda tugevast teest v\u00f5i kohvist;\\n-
-  ennetada stressi, f\u00fc\u00fcsilist ja vaimset v\u00e4simust;\\n- Enne testimist
-  hoidke harjamist ja n\u00e4rimiskummi;\\n- teavitage tehnikat halva tervise v\u00f5i
-  k\u00fclmetushaiguse kohta;\\n- m\u00f5ni p\u00e4ev enne protseduuri, peate l\u00f5petama
-  ravimite v\u00f5tmise, mis v\u00f5ivad suurendada kehas gl\u00fckoosisisaldust.\\nKaasaegne
-  meditsiin v\u00f5imaldab teil uuringute tulemusi saada v\u00f5imalikult l\u00fchikese
-  ajaga.\\nM\u00f5ningatel juhtudel on v\u00f5imalik veresuhkru taset hinnata kaasaskantava
-  gl\u00fckoomomeetriga, ilma et peaksite oma kodust lahkuma. Selle menetluse ettevalmistamine
-  on identne laborikatsete ettevalmistamisega. Lisaks peate j\u00e4rgima testribade
-  salvestamise reegleid ja mitte rikkuma seadme juhendis s\u00e4testatud n\u00f5udeid.\\nTulemuste
-  moonutamine on v\u00f5imalik, kui:\\n- stressiolukord, mis v\u00f5ib tekkida enne
-  uuringut kogemuste taustal, samuti meeleolu k\u00f5ikumine ja raseduse seisundile
-  omased emotsionaalsed v\u00e4ljakutsed;\\n- hiljutised nakkushaigused;\\n- katsete
-  n\u00f5uete mittet\u00e4itmine (isegi v\u00e4ike kommik\u00e4ik v\u00f5ib p\u00f5hjustada
-  veresuhkru t\u00f5usu).\\nSamuti v\u00f5ite annetada verd privaatse meditsiiniasutuses
-  koos kliiniliste laboratooriumidega.\\nKui v\u00f5ite s\u00f5rme veres \u00fcletada
-  suhkru \u00fclemise piiri veres, peate looma vereringest ja uriinianal\u00fc\u00fcsi
-  annetama.\\nVeri verest\\nErinevalt s\u00f5rmej\u00e4lgimisest, kus uuritakse kapillaarse
-  s\u00fcsteemi bioloogilist materjali, h\u00f5lmab venoosse veri uuring tema plasma
-  anal\u00fc\u00fcsi.\\nVenoosne veri on kapillaarveeniga v\u00f5rreldes steriilne,
-  mis tagab k\u00f5ige t\u00e4psema katse tulemuse.\\nVere suutmatus s\u00e4ilitada
-  oma terviklikkus pikka aega sunnib spetsialiste kasutama oma plasma uuringut.\\nVeenide
-  ja kapillaaride vere uuringu tulemuste erinevus on tingitud viimase koosseisu ebakindlusest.\\nVereproovide
-  v\u00f5tmine toimub kubitaalsest veenist.\\nPreparaadid veeni ja s\u00f5rme verest
-  on identsed.\\nEsialgu peetakse venna vereannetust gl\u00fckoosi taseme m\u00e4\u00e4ramiseks
-  ebapraktilisemaks, kuid m\u00f5nikord on see h\u00f5lmatud tervikliku biokeemilise
-  anal\u00fc\u00fcsiga.\\nUriini anal\u00fc\u00fcs\\n1,69 mmol / l suhkru uriinis
-  uriinis on normaalne n\u00e4itaja, lubatav kontsentratsioon on 1,69-2,79 mmol /
-  l. Kui gl\u00fckoos \u00fcletab 2,79 mmol / l uriinis, saadetakse naine t\u00e4iendavateks
-  uuringuteks sidekriitilise gl\u00fckoosiga uriinis.\\nRasedate naiste gl\u00fckoosisisalduse
-  tuvastamiseks uriiniga v\u00f5ib koguda hommikust v\u00f5i p\u00e4eva keskmist uriinit.\\nUsaldusv\u00e4\u00e4rsete
-  tulemuste saamiseks peaks uuringup\u00e4ev olema patsient:\\n- v\u00e4listama toidust
-  koos toiduv\u00e4rvidega (peet, tomatid, kohv jms), samuti \u0161okolaadi, j\u00e4\u00e4tise,
-  kristalliseerunud ja jahu;\\n- v\u00e4ltida f\u00fc\u00fcsilist ja ps\u00fchho-emotsionaalset
-  stressi;\\n- j\u00e4rgige h\u00fcgieenieeskirju;\\n- koguda bioloogilist materjali
-  steriilses ja tihedalt suletud konteineris, et v\u00e4ltida kokkupuudet \u00f5huga.\\nIgap\u00e4evane
-  uriinianal\u00fc\u00fcs t\u00e4hendab diureetikumide kasutamisel tekkinud rikeid.\\nHommikuse
-  uriini kogumine toimub h\u00fcgieeniprotseduuride j\u00e4rgselt t\u00fchja k\u00f5huga.
-  Kogutud biomaterjali tarnimine laborisse toimub spetsiaalses steriilses ja tihedalt
-  suletud pakendis hiljemalt 5 tundi p\u00e4rast selle kogumist.\\nKeskmise p\u00e4evase
-  uriini kogumisel tuleks j\u00e4rgida teatavaid reegleid:\\n- protseduur viiakse
-  l\u00e4bi kogu p\u00e4eva, alustades kella 6.00 ja l\u00f5peb ka j\u00e4rgmisel
-  p\u00e4eval kell 6.00;\\n- Kogutud materjali tuleb hoida k\u00fclmas kohas temperatuuril
-  4-8\u00baC. Ruumi\u00f5hu temperatuur v\u00f5ib p\u00f5hjustada gl\u00fckoosi m\u00e4rkimisv\u00e4\u00e4rset
-  langust uriinis ja sellest tulenevalt ebausaldusv\u00e4\u00e4rset tulemust;\\n-
-  p\u00e4rast p\u00f5ie esimest t\u00fchjendamist valatakse uriin;\\n- p\u00e4eva
-  jooksul kogutakse uriin puhta steriilse mahutisse. Nendel eesm\u00e4rkidel kasutatakse
-  tavaliselt 3-liitrilist kanistrit;\\n- p\u00e4rast iga uriini lisamist segatakse
-  mahuti;\\n- p\u00e4rast uriini kogumist p\u00e4evas v\u00f5etakse 100-200 ml kogu
-  kogust ja viiakse teise mahutisse, mis saadetakse anal\u00fc\u00fcsimiseks otse.\\nEbasoodsate
-  katsete tulemustega m\u00e4\u00e4ratakse gl\u00fckoositaluvuse test.\\nGl\u00fckoosi
-  tolerantsuse test: n\u00e4idustused ja vastun\u00e4idustused\\nGl\u00fckoositaluvuse
-  test v\u00f5imaldab teil kinnitada v\u00f5i v\u00e4listada varjatud diabeedi diagnoosimist
-  rasedatel naistel.\\nRasedate naiste teatud r\u00fchmi tuleb testida 16. rasedusn\u00e4dalal.
-  Anal\u00fc\u00fcs viiakse l\u00e4bi raseduse ajal:\\n- on vanuser\u00fchmas \u00fcle
-  35;\\n- kellel on pidev unukan\u0161uojne janu ja kuivus suus, vedeliku tarbimine
-  ei suuda neid tunneid k\u00f5rvaldada;\\n- tunneb pidevat v\u00e4simust ja tugevust;\\n-
-  kiiresti kaalust alla v\u00f5tta;\\n- kalduvus sageli urineerida;\\n- on p\u00e4rilikkus
-  diabeediga koormatud;\\n- varasema raseduse ajal s\u00fcndis laps \u00fcle 4,5 kg;\\n-
-  eelmine rasedus l\u00f5ppes spontaanse abordiga;\\n- uurimistulemuste kohaselt on
-  see suured puuviljad;\\n- varasema raseduse ajal kandis ta rasedusdiabeedi;\\n-
-  kannatab p\u00fcsiva h\u00fcpertensiooniga.\\nUuringut ei toimu, kui naine vajab
-  voodip\u00e4rast seisukorda ja on t\u00f5sises seisundis ja ka j\u00e4rgmiste haigustega:\\n-
-  akuutne toksoos;\\n- nakkushaigused;\\n- p\u00f5letikulised protsessid;\\n- krooniline
-  pankreatiit \u00e4genemise ajal;\\n- postoperatiivsed komplikatsioonid, mis ilmnevad
-  toidu kastreerimisel maos;\\n- vajalik kirurgiline sekkumine kehas \u00e4gedate
-  protsesside korral;\\n- endokriins\u00fcsteemi patoloogilised muutused, mis aitavad
-  kaasa suhkru taseme t\u00f5usule organismis;\\n- healoomulised kasvajad;\\n- kilpn\u00e4\u00e4rme
-  funktsiooni suurenemine;\\n- suhkru t\u00f5us keha t\u00f5ttu glaukoomi ja teiste
-  haiguste ravis;\\n- maksa talitlush\u00e4ire.\\nNende asjaolude olemasolu v\u00f5ib
-  p\u00f5hjustada ebausaldusv\u00e4\u00e4rseid uurimistulemusi.\\nTesti ettevalmistamine
-  ja selle k\u00e4itumine\\nUurimistulemuse usaldusv\u00e4\u00e4rsus s\u00f5ltub n\u00f5uetekohasest
-  ettevalmistusest. See on vajalik:\\n- keelduda toidu s\u00f6\u00f6misest 8 tundi
-  enne testi alustamist;\\n- 2-3 p\u00e4eva jooksul \u00e4rge s\u00f6\u00f6ge magusat,
-  v\u00fcrtsikat ja rasvaset toitu;\\n- proovige k\u00f5rvaldada f\u00fc\u00fcsiline
-  ja emotsionaalne stress.\\nM\u00f5nel juhul kaasneb patsiendi arstiabikeskusesse
-  gl\u00fckoos ja puhas vesi (pool liitrit). Selle naise ette hoiatab.\\nEsialgu joonistatakse
-  veri s\u00f5rmega t\u00fchja k\u00f5huga.\\nSeej\u00e4rel lisatakse gl\u00fckoosisisaldus.
-  Naine joob veega lahjendatud gl\u00fckoosilahuse (just magusa veega) lahus. Kui
-  \\\"magusas kokteilis\\\" on liiga kerge maitse, saab seda lahjendada sidrunimahlaga
-  (paar tilka).\\nAnal\u00fc\u00fcsi t\u00fc\u00fcp m\u00e4\u00e4rab suhkru koguse.
-  Nii tunnise testiga on vaja 50 g gl\u00fckoosi, kahe tunni test - 75 g, kolme tunni
-  test - 100 g.\\nSellest tulenevalt toimub 1, 2 v\u00f5i 3 tunni j\u00e4rel uuesti
-  vere kogumine.\\nTeise vereannetuse ooteperioodil j\u00e4\u00e4b naine rahulikuks.
-  Jalutus- v\u00f5i kehaline aktiivsus p\u00f5hjustab energiakulude t\u00f5ttu veresuhkru
-  alahindamist. Lisaks sellele on sellel ajal toiduainete sissev\u00f5tmine keelatud.
-  V\u00f5ibolla tavalise puhta vee kasutamine.\\nVere gl\u00fckoosisisalduse andmed
-  on j\u00e4rgmised tabelis:\\n\u00c4rge v\u00e4ltige vajalikke katseid rase naise
-  keha suhkru taseme m\u00e4\u00e4ramiseks. Hilise diabeedi varane avastamine ja efektiivne
-  ravi aitab v\u00e4ltida terviseprobleeme tulevasele emale ja lapsele.\\nMa hakkan
-  emaks - IVF, planeerimine, rasedus, s\u00fcnnitus ja p\u00e4rast s\u00fcnnitust\\nRubriigid\\nGestational
-  diabetes mellitus (GSD): \\\"magus\\\" raseduse oht. Lapse tagaj\u00e4rjed, toitumine,
-  m\u00e4rgid\\nMaailma Terviseorganisatsiooni andmetel on maailmas enam kui 422 miljonit
-  diabeetikut. Nende arv kasvab igal aastal. Haigus m\u00f5jutab \u00fcha enam noori.\\nDiabeedi
-  t\u00fcsistused p\u00f5hjustavad t\u00f5siseid vaskulaarpatoloogiaid, neere, v\u00f5rkkesta
-  ja immuunsust. Kuid see haigus on kontrollitav. Korrektselt m\u00e4\u00e4ratud raviga
-  t\u00f5sised tagaj\u00e4rjed l\u00fckkuvad \u00f5igeaegselt edasi. Rasedus diabeet,
-  mis tekkis raseduse ajal, ei ole erand. Seda haigust nimetatakse rasedusdiabeediks.\\nSisu\\n-
-  Kas rasedus v\u00f5ib p\u00f5hjustada suhkrut?\\n- Millised on diabeedi t\u00fc\u00fcbid
-  raseduse ajal\\n- Riskir\u00fchm\\n- Mis on rasedusdiabeet raseduse ajal\\n- M\u00f5ju
-  lapsele\\n- Milline on oht naistele\\n- Rasedate diabeedi s\u00fcmptomid ja s\u00fcmptomid
-  rasedatel\\n- Anal\u00fc\u00fcsid ja ajastus\\n- Ravi\\n- Insuliinravi: kes n\u00e4idatakse
-  ja kuidas\\n- Dieet: lubatud ja keelatud toidud, rasedate naiste toitumise \u00fcldp\u00f5him\u00f5tted
-  GDM-iga\\n- N\u00e4dala proovide men\u00fc\u00fc\\n- Rahvameditsiin\\n- Kuidas s\u00fcnnitada:
-  looduslik s\u00fcnnitus v\u00f5i keisril\u00f5ike?\\n- Rasedate diabeedi ennetamine
-  rasedatel\\nRasedus - provokatsioon?\\nAmeerika diabeedi\u00fchendus annab tunnistust
-  sellest, et 7% rasedatest s\u00fcnnitab rasedusdiabeedi. M\u00f5nes neist p\u00e4rast
-  s\u00fcnnitust naaseb gl\u00fckoosemia normaalseks. Kuid 60% -l 10-15 aasta p\u00e4rast
-  esineb 2. t\u00fc\u00fcpi diabeedi manifeste (2. t\u00fc\u00fcpi diabeet).\\nGestation
-  toimib provokatiivina gl\u00fckoosi ainevahetuse h\u00e4irete tekkeks. Rasedusdiabeedi
-  areng mehhanism on l\u00e4hemal II t\u00fc\u00fcpi diabeedile. Rasedatel areneb
-  insuliiniresistentsus j\u00e4rgmiste tegurite m\u00f5jul:\\n- steroidi hormooni
-  s\u00fcntees platsentris: \u00f6strogeen, progesteroon, platsenta laktoogeen;\\n-
-  kortisooli neerupealiste kooreforme moodustumise suurenemine;\\n- insuliini metabolismi
-  rikkumine ja selle m\u00f5ju v\u00e4henemine kudedes;\\n- suurenenud insuliini eritumine
-  neerude kaudu;\\n- insuliiniasi aktiveerimine platsenta (hormooni l\u00f5hestamise
-  ens\u00fc\u00fcm).\\nNendel naistel, kellel on f\u00fcsioloogiline resistentsus
-  (insuliiniresistentsus) insuliinile, mis ei ilmnenud kliiniliselt, halveneb seisund.
-  Need tegurid suurendavad hormooni vajadust, pankrease beeta-rakud s\u00fcnteesivad
-  seda suuremas koguses. See v\u00e4hendab j\u00e4rk-j\u00e4rgult nende ammendumist
-  ja p\u00fcsivat h\u00fcpergl\u00fckeemiat - gl\u00fckoosi taseme t\u00f5usu veres.\\nMillist
-  t\u00fc\u00fcpi diabeet raseduse ajal on?\\nRaseduse ajal v\u00f5ivad kaasneda mitmesugused
-  diabeedi t\u00fc\u00fcbid. Patoloogia klassifikatsioon esinemise aja j\u00e4rgi
-  t\u00e4hendab kahte vormi:\\n- diabeet, mis eksisteeris enne rasedust (1. t\u00fc\u00fcpi
-  diabeet ja 2. t\u00fc\u00fcpi diabeet) - pregestationaalne;\\n- Gestatsiooniaeg
-  suhkurt\u00f5bi (GDM) rasedust.\\nS\u00f5ltuvalt HSD vajalikust ravist on:\\n- kompenseeritakse
-  toitumisega;\\n- kompenseeritud toitumisravi ja insuliiniga.\\nDiabeet v\u00f5ib
-  olla h\u00fcvitamise ja dekompensatsiooni staadiumis. Pregestaatilise diabeedi raskusaste
-  s\u00f5ltub vajadusest rakendada erinevaid ravimeid ja t\u00fcsistuste t\u00f5sidust.\\nH\u00fcpergl\u00fckeemia,
-  mis tekkis raseduse ajal, ei ole alati rasedusdiabeet. M\u00f5nel juhul v\u00f5ib
-  see olla II t\u00fc\u00fcbi diabeedi ilmnemine.\\nKes on raseduse ajal diabeedi
-  tekkeks oht?\\nHormonaalsed muutused, mis v\u00f5ivad h\u00e4irida insuliini ja
-  gl\u00fckoosi metabolismi, esinevad k\u00f5igil rasedatel naistel. Kuid \u00fcleminek
-  diabeedile ei toimu k\u00f5igile. See n\u00f5uab eelsoodumusi:\\n- \u00fclekaalulisus
-  v\u00f5i rasvumine;\\n- olemasolev gl\u00fckoositaluvuse h\u00e4ire;\\n- suhkru
-  t\u00f5usu episoodid enne rasedust;\\n- 2. t\u00fc\u00fcpi diabeet rasedate naiste
-  vanematel;\\n- vanus \u00fcle 35 aasta;\\n- pol\u00fcts\u00fcstiliste munasarjade
-  s\u00fcndroom;\\n- vanurite s\u00fcndmuste ajalugu;\\n- lastega varem rohkem kui
-  4 kg kehakaaluga lapsed, samuti arenguh\u00e4ired.\\nPraegune video\\nDiagnoosimine
-  latentse diabeedi korral rasedatel\\nKuid milline neist p\u00f5hjustest m\u00f5jutab
-  patoloogia arengut suuremal m\u00e4\u00e4ral, ei ole t\u00e4ielikult teada.\\nMis
-  on rasedusdiabeet\\nGSD peetakse patoloogiaks, mis tekkis p\u00e4rast 15-16 n\u00e4dala
-  m\u00f6\u00f6dumist lapse kandmisest. Kui h\u00fcpergl\u00fckeemiat diagnoositakse
-  varem, siis on varem diagnoositud diabeet, mis eksisteeris enne rasedust. Kuid maksimaalne
-  esinemissagedus on t\u00e4heldatud 3. trimestril. Selle seisundi s\u00fcnon\u00fc\u00fcm
-  on preeklampsia.\\nSee erineb rasedusdiabeedist raseduse ajal, sest p\u00e4rast
-  \u00fchte h\u00fcpergl\u00fckeemia episoodi suureneb suhkur j\u00e4rk-j\u00e4rgult
-  ja ei kaldu stabiliseeruma. See haigus on t\u00f5en\u00e4oliselt 1. v\u00f5i 2.
-  t\u00fc\u00fcpi diabeet p\u00e4rast s\u00fcnnitust.\\nT\u00e4iendava taktika kindlakstegemiseks
-  m\u00e4\u00e4ravad k\u00f5ik s\u00fcnnitusj\u00e4rgse perioodiga naised, kellel
-  esineb HSD, m\u00e4\u00e4rata gl\u00fckoosi taset. Kui see ei normaliseeru, siis
-  v\u00f5ib eeldada, et on tekkinud 1. t\u00fc\u00fcpi v\u00f5i 2. t\u00fc\u00fcpi
-  diabeet.\\nM\u00f5ju lootele ja tagaj\u00e4rjed lapsele\\nArenguvaate oht s\u00f5ltub
-  patoloogia kompenseerimisastmest. K\u00f5ige t\u00f5sisemad tagaj\u00e4rjed on t\u00e4heldatud
-  kompenseerimata kujul. Lootele avalduv m\u00f5ju v\u00e4ljendub j\u00e4rgmises:\\n-
-  Loote muutused varases faasis k\u00f5rgenenud gl\u00fckoositasemega. Nende moodustumine
-  on tingitud energia puudusest. Lapse pankrease varajases staadiumis ei ole veel
-  moodustatud, seega peab emaettev\u00f5te t\u00f6\u00f6tama kahel. T\u00f6\u00f6
-  katkestamine viib rakkude energia n\u00e4ljah\u00e4da, nende jagunemise katkemiseni
-  ja defektide tekkimiseni. V\u00f5ite kahtlustada seda seisundit mitmete h\u00fcdrasuuruste
-  esinemisega. Ebapiisav gl\u00fckoosi vool rakkudesse avaldub emakasisese kasvu aeglustumise,
-  madala imiku kaaluga.\\n- Kontrollimatu suhkrusisaldus rasedatel suhkurt\u00f5vega
-  rasedatel naistel 2. ja 3. trimestril p\u00f5hjustab diabeetilist fetopatiat. Gl\u00fckoos
-  tungib platsenta piirides piiramatul hulgal, rasv liigub ladestunud kujul. Kui tema
-  enda insuliin on liiga suur, tekib loote kiire kasv, kuid kehaosades on ebaproportsionaalne
-  suur k\u00f5hu-, \u00f5lav\u00f6\u00f6 ja v\u00e4ikesed j\u00e4semed. Suurendab
-  ka s\u00fcdant ja maksa.\\n- Insuliini k\u00f5rge kontsentratsioon h\u00e4irib pindaktiivsete
-  ainete tootmist - aineid, mis on kaetud kopsude alveoolidega. Seet\u00f5ttu v\u00f5ib
-  p\u00e4rast s\u00fcndi tekkida hingamisteede h\u00e4ired.\\n- Vasts\u00fcndinu naban\u00f6\u00f6ri
-  ligeerimine rikub liigse gl\u00fckoosisisalduse, gl\u00fckoosi kontsentratsioon
-  lapsel j\u00e4rsult v\u00e4heneb. H\u00fcpogl\u00fckeemia p\u00e4rast s\u00fcnnitust
-  p\u00f5hjustab neuroloogilisi h\u00e4ireid, vaimse arengu halvenemist.\\nRasedusdiabeediga
-  emadega s\u00fcndinud lapsed suurendavad s\u00fcnnertrauma, perinataalse surma,
-  s\u00fcdame-veresoonkonna haiguste, hingamisteede patoloogia, kaltsiumi ja magneesiumi
-  metabolismi h\u00e4irete ning neuroloogiliste komplikatsioonide riski.\\nMiks on
-  suur suhkur tiinetele ohtlik\\nGDM v\u00f5i olemasolev suhkurt\u00f5bi suurendab
-  hilisemat toksoossust (gestoos), see avaldub mitmesuguses vormis:\\n- rasedate naiste
-  paastu;\\n- nefropaatia 1-3 kraadi;\\n- preeklampsia;\\n- \u00f6klampsia.\\nKaks
-  viimast tingimust n\u00f5uavad haiglaravi intensiivravi osakonnas, elustamist ja
-  varajast s\u00fcnnitust.\\nDiabeediga kaasnevad immuunhaigused p\u00f5hjustavad
-  suguelundite s\u00fcsteemi infektsioone - ts\u00fcstiiti, p\u00fcelonefriiti, samuti
-  korduvat vulvovaginaalset kandidoosi. Iga nakkus v\u00f5ib p\u00f5hjustada lapse
-  nakatumist uteros v\u00f5i s\u00fcnnituse ajal.\\nRasedusdiabeedi peamised s\u00fcmptomid
-  raseduse ajal\\nRasedusdiabeedi s\u00fcmptomid ei v\u00e4ljendu, haigus areneb j\u00e4rk-j\u00e4rgult.
-  M\u00f5ned naise tunnused v\u00f5etakse raseduse ajal tavalisteks muutusteks:\\n-
-  v\u00e4simus, n\u00f5rkus;\\n- janu;\\n- sagedane urineerimine;\\n- ebapiisav kaalut\u00f5us
-  koos m\u00e4rgatava isutusga.\\nH\u00fcpergl\u00fckeemia on vere gl\u00fckoosisisalduse
-  kohustusliku s\u00f5eluuringu ajal sageli juhuslikult leitud. See on n\u00e4ide
-  edasiseks s\u00fcvauuringuks.\\nDiagnoosimise alused, varjatud diabeedi testid\\nTervishoiuministeerium
-  on kindlaks m\u00e4\u00e4ranud suhkru kohustusliku vereanal\u00fc\u00fcsi t\u00e4htajad:\\nRiskifaktorite
-  esinemisel viiakse l\u00e4bi gl\u00fckoositaluvuskatse 26-28 n\u00e4dala jooksul.
-  Kui diabeedi s\u00fcmptomid ilmnevad raseduse ajal, viiakse l\u00e4bi gl\u00fckoositesti
-  vastavalt n\u00e4itele.\\n\u00dcks anal\u00fc\u00fcs, milles h\u00fcpergl\u00fckeemia
-  avastati, ei ole diagnoosi jaoks piisav. Kontrolli on vaja m\u00f5ne p\u00e4eva
-  p\u00e4rast. Lisaks korratakse korduva h\u00fcpergl\u00fckeemiaga endokrinoloogi
-  konsultatsiooni. Arst m\u00e4\u00e4rab kindlaks gl\u00fckoosi tolerantsuse katse
-  vajaduse ja ajastamise. See on tavaliselt v\u00e4hemalt 1 n\u00e4dal p\u00e4rast
-  fikseeritud h\u00fcpergl\u00fckeemiat. Diagnoosi kinnitamiseks korratakse testi
-  ka.\\nJ\u00e4rgmised katsetulemused n\u00e4itavad HSD:\\n- t\u00fchja k\u00f5huga
-  gl\u00fckoosi indeks rohkem kui 5,8 mmol / l;\\n- \u00fcks tund p\u00e4rast gl\u00fckoosi
-  \u00fcle 10 mmol / l;\\n- p\u00e4rast 2 tundi - \u00fcle 8 mmol / l.\\nLisaks, vastavalt
-  \u00fctlustele tehtud uuringutele:\\n- gl\u00fckos\u00fc\u00fclitud hemoglobiin;\\n-
-  suhkru uriinianal\u00fc\u00fcs;\\n- kolesterooli ja lipiidprofiiliga;\\n- biokeemiline
-  vereanal\u00fc\u00fcs;\\n- koagulogram;\\n- verehormoonid: progesteroon, \u00f6strogeen,
-  platsenta laktoogeen, kortisool, alfa-fetoproteiin;\\n- uriini anal\u00fc\u00fcs
-  vastavalt Nechiporenko, Zimnitsky, Rebergi testile.\\nPregestaatilise ja rasedusdiabeediga
-  rasedad naised teevad 2. trimestril loote ultraheli, platsentaanide ja nabav\u00e4\u00e4di
-  dopleromeetria, regulaarne CTG.\\nDiabeediga ja raviga rasedate naiste s\u00e4ilitamine\\nOlemasoleva
-  diabeediga raseduse k\u00e4ik s\u00f5ltub naise enesekontrolli tasemest ja h\u00fcpergl\u00fckeemia
-  korrigeerimisest. Need, kellel enne diagnoosimist oli diabeet, peavad l\u00e4bima
-  diabeedikooli - eriklassid, mis \u00f5petavad \u00f5iget toitumist, gl\u00fckoosi
-  taseme enesekontrollimist.\\nOlenemata patoloogia t\u00fc\u00fcbist, peavad rasedad
-  naised j\u00e4rgmisi t\u00e4helepanekuid:\\n- g\u00fcnekoloogi k\u00fclastamine
-  iga kahe n\u00e4dala tagant tiinuse alguses, n\u00e4dalas - alates teisest poolest;\\n-
-  Endokrinoloogi konsultatsioonid 1 kord 2 n\u00e4dala jooksul dekompenseeritud seisundi
-  korral - \u00fcks kord n\u00e4dalas;\\n- terapeudi j\u00e4lgimine - igal trimestril,
-  samuti ekstrahenitaalse patoloogia tuvastamisel;\\n- silmaarst - \u00fcks kord ja
-  p\u00e4rast s\u00fcnnitust;\\n- Neuroloog - kaks korda raseduse ajal.\\nGSD-ga rasedate
-  naiste jaoks on kohustuslik hospitaliseerida ravi uurimiseks ja korrigeerimiseks:\\n-
-  1 kord - esimesel trimestril v\u00f5i patoloogia diagnoosimisel;\\n- 2 korda - 19-20
-  n\u00e4dala jooksul haigusseisundi parandamiseks, ravi vajaduse muutmise vajaduse
-  kindlaksm\u00e4\u00e4ramine;\\n- 3 korda - 1. t\u00fc\u00fcpi ja 2. t\u00fc\u00fcpi
-  diabeediga - 35 n\u00e4dala jooksul, GDM - 36 n\u00e4dala jooksul, et valmistuda
-  s\u00fcnnitusele ja tarneviisi valik.\\nHaiglas m\u00e4\u00e4ratakse uuringute mitmekesisus
-  testide loetelu ja uuringu mitmekordseks individuaalselt. Igap\u00e4evane j\u00e4lgimine
-  n\u00f5uab suhkru, vere gl\u00fckoosi ja verer\u00f5hu kontrollimist.\\nInsuliin\\nInsuliini
-  s\u00fcstimise vajadus m\u00e4\u00e4ratakse individuaalselt. Selline l\u00e4henemisviis
-  n\u00f5uab mitte iga GSD juhtumit, vaid m\u00f5nedel inimestel on piisav ravitoime.\\nInsuliinravi
-  alustamiseks on j\u00e4rgmised veresuhkru taseme n\u00e4itajad:\\n- t\u00fchja k\u00f5hu
-  vere gl\u00fckoosisisalduse taustal, mille toit on suurem kui 5,0 mmol / l;\\n-
-  \u00fcks tund p\u00e4rast s\u00f6\u00f6mist \u00fcle 7,8 mmol / l;\\n- 2 tundi p\u00e4rast
-  manustamist on gl\u00fckeemia k\u00f5rgem kui 6,7 mmol / l.\\nT\u00e4helepanu! Rasedatel
-  ja imetavatel naistel on keelatud kasutada muid h\u00fcpogl\u00fckeemilisi ravimeid
-  peale insuliini! Pika toimega insuliine ei kasutata.\\nRavi aluseks on l\u00fchikesed
-  ja \u00fclit\u00e4psed insuliinipreparaadid. 1. t\u00fc\u00fcpi diabeedi korral
-  viiakse l\u00e4bi basaal-boolusravi. 2. t\u00fc\u00fcbi diabeedi ja GSD puhul on
-  v\u00f5imalik kasutada ka traditsioonilist skeemi, kuid m\u00f5ningaid individuaalseid
-  kohandusi, mille m\u00e4\u00e4rab endokrinoloog.\\nRasedatel naistel, kellel on
-  madal h\u00fcpogl\u00fckeemia kontroll, v\u00f5ib kasutada insuliinipumpasid, mis
-  lihtsustavad hormooni juurutamist.\\nRasedusaegse diabeedi dieet\\nRaseduse toitumine
-  GSD-ga peaks vastama j\u00e4rgmistele p\u00f5him\u00f5tetele:\\n- Sageli ja pisut.
-  Parem on teha 3 peamist s\u00f6\u00f6gikorda ja 2-3 v\u00e4ikest suupisteid.\\n-
-  Komplekssete s\u00fcsivesikute kogus on umbes 40%, valk - 30-60%, rasvad kuni 30%.\\n-
-  Joo v\u00e4hemalt 1,5 liitrit vedelikku.\\n- Suurendage kiudaineid - see on v\u00f5imeline
-  adsorbeerima gl\u00fckoosi soolestikust ja eemaldama selle.\\nPraegune video\\nRasedate
-  diabeedi dieet\\nTooted v\u00f5ib jagada kolmeks tingimuslikuks r\u00fchmaks, mis
-  on toodud tabelis 1.\\nTulevase emaka rasedusdiabeet - milline on oht, kuidas ravida\\nLapse
-  ootamise ajal viibib naine korrap\u00e4raselt kliinikusse ja l\u00e4bib testi: muutused
-  esinevad rasedate emade kehas, mille arstid peaksid kontrolli all hoidma. M\u00f5nikord
-  leitakse rase naise veres k\u00f5rge suhkrusisaldus. Patsient ise ei t\u00e4helda
-  oma tervisliku seisundi j\u00e4rsust halvenemist, mist\u00f5ttu on ta \u00fcllatunud,
-  kui p\u00e4rast t\u00e4iendavat uurimist teeb arst diagnoosi - rasedusdiabeet. \\\"T\u00f5en\u00e4oliselt
-  viga\\\" - tulevad meelde rasedat ema, kes ei olnud kunagi varem diabeediga kokku
-  puutunud. Kuid reeglina on diagnoos korrektne ja naine tuleb selgitada: peate kohe
-  tegutsema, muidu kannatab laps. Haigus on ohtlik peamiselt lootele.\\nKui rasedusdiabeet
-  tekib\\nAutoimmuunhaigus, mille puhul ainevahetus on h\u00e4iritud, l\u00f5petab
-  s\u00fcsivesikute n\u00f5uetekohase seedimise ja murenemise, nimetatakse diabeediks.
-  On kahte t\u00fc\u00fcpi diabeet, kuid m\u00f5nikord t\u00e4iendab seda ka veel
-  kaks. Tulemuseks on:\\n- 1. t\u00fc\u00fcpi diabeet. M\u00f5nel p\u00f5hjusel surmivad
-  endokriinset insuliini tootvad rakud pankreas. Gl\u00fckoosi imendumise eest vastutava
-  hormooni puudumisel vabaneb see lihtne suhkur veres. See m\u00f5jutab peamiselt
-  neid, kes ei ole 30. Haigus on krooniline.\\n- 2. t\u00fc\u00fcpi diabeet. Insuliini
-  piisab, kuid organismi rakud kaotavad selle tundlikkust, seega kaotab hormoon gl\u00fckoosi
-  \\\"regulaatori\\\" rolli veres. See on rohkem levinud \u00fcle 50-aastastel inimestel.
-  Krooniline patoloogia.\\n- Sekundaarne diabeet. See ilmneb teiste haiguste - infektsioonide,
-  h\u00e4irete ja elundite t\u00f6\u00f6s - taustal. S\u00fcsivesikute metabolismi
-  eba\u00f5nnestumine ilmneb s\u00fcmptomina ja muutub seej\u00e4rel iseseisvaks haiguseks.\\n-
-  Rasedusdiabeet. Vere gl\u00fckoosisisalduse suurenemist, mis on iseloomulik \u00fcksnes
-  rasedusele, peetakse diabeedi t\u00fc\u00fcbiks ja seda nimetatakse rasedusaegseks.\\nGestation
-  on raseduse teine nime, ladina gestare''st - \\\"ennast kandma\\\". Erinevalt teistest
-  diabeedi t\u00fc\u00fcpidest, mis toimub loote kandmisel, l\u00e4bib ta ise. P\u00e4rast
-  s\u00fcnnitust kaovad s\u00fcmptomid tavaliselt, kuid kui haigus algab, on see aeg:\\n-
-  p\u00f5hjustada lapsele korvamatut kahju;\\n- et tekitada ema teist t\u00fc\u00fcpi
-  diabeedi edasist arengut.\\nKui rase naise esimene vere- v\u00f5i uriinianal\u00fc\u00fcs
-  n\u00e4itab suhkrusisaldust suures koguses, on paanika liiga vara: rasedate emade
-  puhul peetakse selliseid tulemusi normaalseks. Kui gl\u00fckoositase on k\u00f5rge
-  ja korduvate testidega, tekib murettekitav p\u00f5hjus. Kui j\u00e4rgnevad testid
-  ei tuvasta vere suhkrusisalduse v\u00e4henemist, diagnoosib arst t\u00f5en\u00e4oliselt
-  rinnaga diabeedi diabeedi - GDM.\\nHaiguse p\u00f5hjused\\nGDM-i tekkimise mehhanism
-  on seotud naissoost hormoonide uue rolliga. \u00d6strogeen, laktoogeen ja kortisool
-  t\u00f5usevad, et kaitsta looteid platsental. Kuid need hormoonid on insuliini antagonistid;
-  stimuleerib veresuhkru vabanemist. Kui varem insuliin, mis toodetakse k\u00f5hun\u00e4\u00e4rme
-  abil, reguleerib gl\u00fckoosi tarbimist, on n\u00fc\u00fcd protsessi kontrollimatu:
-  hormoonid suruvad spontaanselt monosahhariidi verre. Pankreas t\u00f6\u00f6tab kogu
-  oma j\u00f5u juures, toodab 3 korda rohkem insuliini kui enne rasedust, kuid siiski
-  ei piisa suhkru liigse sidumiseks.\\nMeditsiiniline statistika n\u00e4itab, et rasedusdiabeet
-  satub sajast neli rasedust (vastavalt m\u00f5nele allikale - k\u00fcmnele sajast).
-  Ohtlik - tulevased emad, kes s\u00fcnnivad p\u00e4rast 30 aastat ja kellel on l\u00e4hedaste
-  sugulaste hulgas suhkurt\u00f5bi.\\nHormonaalsed muutused esinevad iga naise kehas,
-  kes ootab last, kuid \u00f5nneks on GDM diagnoositud \u00fcksustes. Tavaliselt on
-  rase naise pankreas ikkagi v\u00f5imeline andma \u00f5iget insuliini, mis ei lase
-  gl\u00fckoosil kummutada. Selleks et t\u00f5sta veresuhkru taset ja seel\u00e4bi
-  ka rasedusdiabeedi arengut, on sellised tegurid v\u00f5imelised:\\n- Naiste autoimmuunhaigused;
-  pankrease funktsioon v\u00e4heneb j\u00e4rsult ja insuliini tootmine aeglustub.\\n-
-  P\u00e4rilikkus. Kui sugulastel on suhkurt\u00f5vega inimesi, suureneb risk GDM-i
-  esinemisele rasedatel emal.\\n- Varajased infektsioonid, mis n\u00f5rgendavad immuuns\u00fcsteemi
-  kaitset.\\n- Pol\u00fcts\u00fcstiliste munasarjade s\u00fcndroom on paranenud kahjustused
-  munasarjade \u00fcmber, mis rikuvad nende funktsiooni. Tekib mehehormooni androgeeni
-  \u00fcletootmine.\\n- GDM varasematel rasedustel.\\n- Varasem rasedus, mis l\u00f5ppes
-  surnud lapse s\u00fcndimisega.\\n- Eelmise lapse s\u00fcnd, mis kaalub \u00fcle
-  4 kg.\\n- Amnioetiline vedelik.\\n- Rasvumine v\u00f5i \u00fclekaal (normi \u00fcletamine
-  20% v\u00f5rra v\u00f5i rohkem) toiduse t\u00f5ttu, mis on kergesti seeditavate
-  s\u00fcsivesikute liig. \u00dcle 30-aastane ja \u00fclekaaluline vanus - selle tagaj\u00e4rjel
-  v\u00f5ib naisi GDM-i saada\\n- K\u00f5rge verer\u00f5hk.\\n- Suur f\u00fc\u00fcsiline
-  koormus, ps\u00fchholoogiline v\u00e4simus. Raseduse ajal ammendumine n\u00f5rgendab
-  keha, mille t\u00f5ttu on ainevahetus h\u00e4iritud ja GDM-iga on oht\\nUsutakse,
-  et m\u00f5nedes etnilistes gruppides esineb GDS sagedamini kui teistes. Riskir\u00fchma
-  kuuluvad Aasia, Aafrika ja Ladina-Ameerika p\u00f5lisrahvaste naised.\\nOhud emale
-  ja s\u00fcndimata lapsele\\n\\\"HSD ei ole igavene, kui s\u00fcnnitus kaob\\\" -
-  nii paljud rasedad emad rahulikult ja ei kiirusta ravi alustamist. Suur viga.\\nTagaj\u00e4rjed
-  rasedatele\\n10-15% -l juhtudest p\u00e4rast s\u00fcnnitust emal, kes on \u00fcle
-  elanud rasedusdiabeet, muutub haigus krooniliseks 2. t\u00fc\u00fcpi diabeediks.
-  Reeglina on see \\\"vanurite haigus\\\"; seda enam ebameeldiv on noor naine. Pikaajaline
-  m\u00f5ju tervisele on masendav. Nende hulka kuuluvad:\\n- S\u00fcdameprobleemid:
-  h\u00fcpertensioon, isheemiline haigus, suurenenud s\u00fcdameinfarkt, insultid.\\n-
-  Seksuaalsed k\u00f5rvalekalded: pole libiido.\\n- Naha, n\u00e4rvide ja jalan\u00f5ude
-  kahjustused; nn diabeetiline jalg. Kui t\u00e4helepanuta j\u00e4etakse, tekivad
-  kudedes haavandid, m\u00f5nel juhul tekib gangreen. Diabeediline jalg - mingi haiguse
-  \\\"pass\\\" - diagnoos selle s\u00fcmptomiga on ilmne\\n- Katarakt - silma l\u00e4\u00e4tse
-  h\u00e4gusus.\\n- Nefropaatia - neerude kahjustus. Diabeetilise nefropaatia korral
-  esineb neerude veresoontes olev skleroos, mille tagaj\u00e4rjel neerud ei suuda
-  insuliini vabastada.\\nM\u00f5nikord m\u00f5jutab nefropaatia naine juba raseduse
-  ajal: vere koostise muutused (pidevalt k\u00f5rge gl\u00fckoosisisaldus) kahjustavad
-  neerukude. Peamine oht on see, et patoloogia esialgu areneb ilma s\u00fcmptomiteta.
-  Ja ainult siis m\u00e4rkab naine, et tal on:\\n- j\u00e4semed paistavad, kotid moodustuvad
-  silmade all;\\n- \u00f5hupuudus;\\n- \u00fcldine n\u00f5rkus;\\n- iiveldus, oksendamine.\\nVarasematel
-  etappidel saab nefropaatiat ravida. Kuid haiguse raskendamise t\u00f5ttu on ravi
-  sageli viivitatud. Tulemuseks on kurb: nefropaatia hilises staadiumis paneb raseduse
-  katkestama. Loote kandmisel on liiga palju neerud, kes ei suuda enam oma \u00fclesandeid
-  t\u00e4ita.\\nRasedus beebile\\nEma rasedusdiabeet esineb harva raseduse esimesel
-  trimestril. Siiski, kui see esineb varases staadiumis, v\u00f5ivad tagaj\u00e4rjed
-  olla:\\n- raseduse katkemise oht;\\n- tulevase lapse kaasas\u00fcndinud v\u00e4\u00e4rarendid:
-  reeglina kannatavad aju ja kardiovaskulaars\u00fcsteem.\\n28-36 rasedusn\u00e4dalal
-  j\u00f5uab naiste hormoonide ja insuliini vastasseis maksimumini. GSD reeglina l\u00e4henes
-  rasedatele emale sel konkreetsel ajahetkel, m\u00f5jutades s\u00fcsivesikute ainevahetust.
-  Koos diabeediga suureneb diabeetilise fetopaatia oht, teisis\u00f5nu loote \\\"toitmise\\\"
-  m\u00f5ju. Suures koguses gl\u00fckoosi tarnitakse ema verest ja vaevu moodustunud
-  lapse pankreas t\u00f6\u00f6tab juba t\u00e4iustatud re\u017eiimis, muutes liigse
-  suhkru rasvaks. Kokkuv\u00f5ttes:\\n- Puuviljad on m\u00e4rkimisv\u00e4\u00e4rselt
-  suurenenud - s\u00fcndimisel, kaal on \u00fcle 4,5 kg.\\n- Keha ebaproportsionaalselt
-  areneb: lapse pea ja j\u00e4semed on normaalsed ja mao on suur, \u00f5lad on laiad.\\n-
-  S\u00fcda, maks ja neerud suurenevad. Kollat\u00f5ve oht suureneb.\\n- P\u00e4rast
-  s\u00fcnnitust on lapse hingamine h\u00e4iritud; m\u00f5nel juhul peab vasts\u00fcndin
-  olema \u00fchendatud ventilaatoriga. Diabeedilises fetopatias on imikutel raske
-  omaette hingata, see pannakse tualetti ja tehakse kindlaks kunstlik hingamine.\\n-
-  Veri muutub liiga viskoosseks, selle tulemusena on vereh\u00fc\u00fcvete tekke oht.\\n-
-  Vasts\u00fcndinu vastses on madala magneesiumi ja kaltsiumi sisaldus.\\n- Enneaegne
-  s\u00fcnnitus, mis v\u00f5ib p\u00f5hjustada lapse surma, suureneb.\\nDiabeetilist
-  fetopatiat j\u00e4b harva \u00e4ra ilma j\u00e4lgi: isegi eduka tarne korral on
-  beebil neuroloogilised h\u00e4ired ja lapsel on f\u00fc\u00fcsiline areng mahaj\u00e4\u00e4nud.\\nKuidas
-  rinnaga diabeet \u00e4ra tunda\\nHaigus ei erinenud eredaid s\u00fcmptomeid. See
-  juhtub, et kliiniline pilt on nii h\u00e4gune, et eakad emad tunnevad nagu varem
-  ja ei tea diabeedi. Kui on n\u00f5rk negatiivne tunne, s\u00fc\u00fcdistab see rasedust.
-  Ja t\u00f5de on see, et v\u00f5ite eksida: GSD n\u00e4ib olevat \\\"varjatud\\\"
-  kui \\\"huvitavat positsiooni.\\\" Siin on haiguse tunnused:\\n- p\u00fcsiv janu,
-  mille kustutamine selle tagaj\u00e4rjel - sageli n\u00f5utav urineerimine;\\n- iiveldus,
-  oksendamine;\\n- k\u00f5rge verer\u00f5hk;\\n- aeglaselt kasvavad haavad;\\n- urogenitaalse
-  s\u00fcsteemi p\u00f5letik (kandidoos ja teised);\\n- kehakaalu langus koos isu
-  suurenemisega;\\n- m\u00f5nikord kaob isu;\\n- j\u00e4semete tuimus v\u00f5i surisemine;\\n-
-  pidev v\u00e4simus;\\n- n\u00e4gemisteravuse v\u00e4henemine.\\nTegelikult - kas
-  diabeet v\u00f5i rasedus normaalse suhkru tasemega. Kui korraga ilmuvad mitu s\u00fcmptomit,
-  on see g\u00fcnekoloogi k\u00fclastus. Ainult naise p\u00f5hjalik uurimine n\u00e4itab
-  haigust saja protsenti t\u00e4psusega.\\nDiagnostika\\nKui kahtlustate p\u00e4rilikku
-  diabeedi v\u00f5i olete enne GDS-i kannatanud, teavitage sellest kindlasti oma arsti.
-  T\u00f5en\u00e4oliselt peate minema endokrinoloogi ja sooritama GSD jaoks etten\u00e4gematut
-  testi. Uuringute plaan, mis tulevastel emadel kulutab 24-28 n\u00e4dala jooksul.
-  Katse \u00fclesanne on v\u00e4lja selgitada, kuidas rase naise keha koormab gl\u00fckoosi
-  imendumist.\\nTestide l\u00e4biviimisel on t\u00fchi k\u00f5htu. Arstide protseduur:\\n-
-  Patsient v\u00f5tab vere verest. Saadud andmed muutuvad esialgseks.\\n- Anna naisele
-  juua vedelikku, mis lahustab 50 grammi suhkrut.\\n- 1 tunni p\u00e4rast v\u00f5etakse
-  vere uuesti.\\n- 2 tunni p\u00e4rast - l\u00f5plik vereproovi v\u00f5tmine.\\nTundub
-  - miks sellised t\u00fcsistused ja patsiendile lisaks ebameeldivad aistingud? Anal\u00fc\u00fcsime
-  saadud tulemuste n\u00e4idet. Kui GSD puudub, kuvatakse vereanal\u00fc\u00fcs:\\n-
-  Esialgne vere joonistamine on suhkru kogus 5,49 mmol / l (millimoolid liitri kohta).\\n-
-  Vereproovide v\u00f5tmine p\u00e4rast magusa vedeliku v\u00f5tmist - 11,49 mmol
-  / l.\\n- Viimane tara on 7,79 mmol / l.\\nSee t\u00e4hendab, et keha v\u00f5eti
-  magusalt, esimesena pritsitud gl\u00fckoos verdesse, ja p\u00e4rast seda toimus
-  regulaarne langus. Seega, insuliin teab oma \u00e4ri. Kui pankrease hormoon ei suuda
-  \u00fclesandega toime tulla ja patsient arendab GDM-i, n\u00e4itab anal\u00fc\u00fcs
-  j\u00e4rgmist:\\n- Esialgne vere kogum on 5,49-6,69 mmol / l.\\n- J\u00e4rgmine,
-  p\u00e4rast siirupi v\u00f5tmist, on alla 11,09 mmol / l.\\n- Kolmas tara on suurem
-  kui 11,09 mmol / l.\\nOn n\u00e4ha, et siirup provotseeris veresuhkru pidevat suurenemist;
-  aja m\u00f6\u00f6dudes l\u00e4heb indikaator normaalsest kaugemale ja kaugemale,
-  mis t\u00e4hendab, et gl\u00fckoos imendub halvasti.\\nKatse, mis m\u00f5\u00f5dab
-  gl\u00fckoositaluvust, v\u00f5imaldab teil GSD t\u00e4pselt diagnoosida\\nEba\u00f5nnestumised
-  ei ole v\u00e4listatud: naine tuli testide l\u00e4biviimiseks, kellel oli kerge
-  hammustamine v\u00f5i oli see h\u00e4iritud, mis aga nii ei olnud. Diagnostika kinnitamiseks
-  m\u00e4\u00e4rab endokrinoloog j\u00e4rgmise 10-12 p\u00e4eva jooksul teise protseduuri.\\nSuhkru
-  normaalne vereanal\u00fc\u00fcs antakse ka t\u00fchja k\u00f5huga. Gl\u00fckoosi
-  tase \u00fcle 7,1 mmol / l annab p\u00f5hjust kahtlustada HSD-d.\\nKui raseduse
-  ajal leitakse suhkrut uriinis, pole peaaegu mingit kahtlust: naisel on rasedusdiabeet.
-  Ja t\u00f6\u00f6tab, sest neerud ei suuda enam oma \u00fclesandeid t\u00e4ita.\\nKuidas
-  ravida HSD-d\\nTugev kontroll suhkrusisalduse \u00fcle, selle kasvu p\u00f5hjuste
-  k\u00f5rvaldamine - need on rasedusdiabeedi ravi p\u00f5him\u00f5tted. Tulevikus
-  emadele soovitatakse osta vere gl\u00fckoosimeeter ja kasutada seadet 4-6 korda
-  p\u00e4evas:\\n- T\u00fchja k\u00f5huga\\n- \u00dcks tund p\u00e4rast s\u00f6\u00f6mist.\\nKliinikumi
-  k\u00fclastused testimiseks - ka kohustuslik meede. Nagu ravimite puhul, on raseduse
-  ajal lubatud ainult insuliin, pealegi ainult siis, kui muud suhkurt\u00f5vega ravimeetodid
-  oleksid kasutud. Insuliinravi t\u00e4idab t\u00e4ielikult raviarst: m\u00e4\u00e4rab
-  annuse ja m\u00e4\u00e4rab kursuse kestuse. Ravimit manustatakse s\u00fcstimise
-  teel, kasutage \u00fchekordselt kasutatavaid s\u00fcstlaid.\\nMe p\u00f6\u00f6rdume
-  \u00f5ige toitumise poole\\nEsimene koht GSD ravis on toitumine. On t\u00e4htis,
-  et naine m\u00e4letaks: toidupiirangud ei ole vajalikud, et kaotada kehakaalu, vaid
-  taastada normaalne gl\u00fckoosisisaldus kehas. Te peate valima madala kalorsusega,
-  kuid toitev\u00e4\u00e4rtusega toidud; siis lootel ei kannata toitainete puudus.\\nOtsige
-  men\u00fc\u00fcst v\u00e4lja:\\n- kondiitritooted, k\u00fcpsetamine - kergesti seeditavate
-  s\u00fcsivesikute rohkuse t\u00f5ttu;\\n- \u00fcksikute puuviljade - banaanid, kirsid,
-  viinamarjad, hirme - kuna need sisaldavad \\\"kergeid\\\" s\u00fcsivesikuid;\\n-
-  v\u00f5i;\\n- rasvased kastmed;\\n- suitsutatud liha;\\n- vorstid, vorstid;\\n-
-  sealiha;\\n- majonees;\\n- pooltooted;\\n- kiirtoit - supid, poed, nuudlid.\\nToit
-  sisaldab aktiivselt j\u00e4rgmist:\\n- kiudained - teravili, riis, terve leib, kaunviljad;\\n-
-  tailiha - kana, k\u00fc\u00fclik ja tailiha;\\n- kala;\\n- k\u00f6\u00f6giviljad
-  \\\"\u00f5igete\\\" s\u00fcsivesikutega - porgandid, spargelkapsas, k\u00f5rvits;\\n-
-  kurgid, tomatid;\\n- kapsas;\\n- suvik\u00f5rvits;\\n- Bulgaaria pipar (v\u00e4hehaaval,
-  sest magus);\\n- tsitrusviljad (kui ei ole allergilised).\\nFotogalerii: GDM-i naistele
-  m\u00f5eldud tooted\\nToote valimine on veel pooleli. Gl\u00fckoositaseme v\u00e4hendamiseks
-  veres tuleb s\u00fc\u00fca, j\u00e4lgides j\u00e4rgmisi norme:\\n- \u00e4ra hoida
-  praetud toitu, eelistage keedetud, hautatud, k\u00fcpsetatud toitu;\\n- istuda lauale
-  3 korda p\u00e4evas, samal ajal peamistest s\u00f6\u00f6gikordadest, mida saate
-  kaks korda s\u00fc\u00fca;\\n- plaadil olev osa ei tohi \u00fcletada 200-250 grammi;\\n-
-  kui haige hommikul, v\u00f5ite s\u00fc\u00fca paar kreekerit.\\n\u00c4rge p\u00f5lgutage
-  aritmeetikat: kannatlikult arvutage kalorite arv oma igap\u00e4evases dieedis, uurige
-  toitainete suhet. Siin on norm:\\nMe m\u00e4letame kehalise kasvatuse kohta\\nVoodis
-  ja kannatused on kindel viis oma seisundi s\u00fcvendamiseks ja lisaks veel kilogrammi.
-  M\u00f5istlik tegevus v\u00e4hendab GDM-i s\u00fcmptomeid, sest:\\n- individuaalsed
-  lihased, mis ei s\u00f5ltu insuliinist, tarbivad soojendamise ajal gl\u00fckoosi,
-  aidates sellega v\u00e4hendada selle taset;\\n- parandab ainevahetust;\\n- suurendab
-  keha \u00fcldist toonust, parandab meeleolu.\\nLoomulikult tuleb ajakirjandusv\u00e4lja\u00f5pe
-  k\u00f5rvaldada, sest raseduse ajal mao koormus on vastuv\u00f5etamatu. V\u00e4ltige
-  ka ootamatuid liikumisi. Tuleviku emade jaoks sobivad:\\n- lihtne v\u00f5imlemine;\\n-
-  jalgsi\\n- ujumine, harjutus vees.\\nRasedatele m\u00f5eldud harjutuste kompleksi
-  teeb spetsialist f\u00fcsioteraapia harjutuste kohta kliinikus v\u00f5i rasedate
-  naiste kursustel.\\nHarjutus 3 korda n\u00e4dalas, 20 minutit - see on piisavalt.
-  V\u00f5ite k\u00f5ndida vabas \u00f5hus, eemal s\u00f5iduteelt piiranguteta.\\nKuidas
-  s\u00fcnnitada koos rasedusdiabeediga\\nKui tulevase ema seisund on raskekujuline
-  v\u00f5i lootel on t\u00fcsistused, kasutage varajast t\u00f6\u00f6j\u00f5udu, tavaliselt
-  37. rasedusn\u00e4dalal. Teistel juhtudel on 38. n\u00e4dala parim tarneaeg: lapse
-  kopsud juba moodustuvad ja hingamispuudulikkuse oht puudub.\\nT\u00f6\u00f6 ajal
-  kontrollitakse naise suhkru taset iga 2-3 tunni tagant. Kuna sellel tasemel h\u00fcppab,
-  on vaja operatiivseid meetmeid, seet\u00f5ttu suureneb insuliin, v\u00e4henedes
-  - gl\u00fckoos. L\u00e4hemalt - lapse hingamine ja s\u00fcdamel\u00f6\u00f6gisagedus.
-  H\u00e4daolukordades tehke keisril\u00f5ike.\\nSuur suurte \u00f5ladega ja k\u00f5htuga
-  laps v\u00f5ib s\u00fcnnitust l\u00e4bides ema ema s\u00fcnnitada, ja ta saab ka
-  pingeid. Sellistel juhtudel on v\u00f5imalik ka keisril\u00f5ike.\\nKui emal on
-  HSD, vastab vasts\u00fcndinule gl\u00fckoosisisalduse v\u00e4henemine, kuid rinnapiima
-  v\u00f5i segu toitmisel suhkur normaliseerub.\\nP\u00e4rast platsenta keha eemaldamist,
-  mis tekitas insuliinile \\\"vaenulikud\\\" hormoonid, normaliseerib ka ema suhkru
-  kogust. Seda v\u00f5ib nimetada \u00f5nnelikuks l\u00f5puks, kui mitte nende diabeediga
-  t\u00f6\u00f6tavate inimeste v\u00f5imalikele komplikatsioonidele.\\nVideo: arst
-  HSD diagnoosimise ja ravi kohta\\nMe v\u00e4hendame GDM-i tekkimise ohtu\\nHaigus
-  ei tunne loogikat ja on sageli tervetel naistel, ohustades neid m\u00f6\u00f6da.
-  Seet\u00f5ttu peab iga tulevane ema vajalikuks osutuma. Siin on m\u00f5ned:\\n-
-  J\u00e4lgige gl\u00fckoosi taset, kontrollige regulaarselt.\\n- \u00c4rge lubage
-  liigset kehakaalu suurenemist.\\n- S\u00f6\u00f6 paremal.\\n- Ole f\u00fc\u00fcsiliselt
-  aktiivne.\\nKui naine on juba raseduse ajal GSD-ga tegelenud, on vaja isegi rangemat
-  veresuhkru kontrolli. Ja p\u00e4rast s\u00fcnnitust, pidades silmas II t\u00fc\u00fcbi
-  diabeedi tekkimise v\u00f5imalust, tuleb v\u00e4ltida insuliiniresistentsust p\u00f5hjustavaid
-  ravimeid, n\u00e4iteks:\\n- nikotiinhape;\\n- deksametasoon;\\n- prednisoon\\nArvamused\\nM\u00f5lemal
-  raseduse ajal esimesel trimestril oli ma diabeediga rase. Kuigi meie sugulastel
-  pole keegi kunagi diabeedi saanud. Mind ei ravitud mingil viisil, ainult mitu korda
-  n\u00e4dalas katsetati suhkrut (biokeemiat, s\u00f5rmej\u00e4lge ja uriini suhkru
-  jaoks) ainult dieediga. Kui isegi suhkur oli 14 (kiirusega kuni 5,5). Aga siis ta
-  normaliseerus kuidagi ja 11-12 n\u00e4dala p\u00e4rast ei tundnud ta ennast enam
-  tunda.\\nV\u00f5\u00f5ras\\nhttp://www.babyplan.ru/forums/topic/19283-povyshenyj-sahar-pri-b-gestatsionnyj-saharnyj-diabet/page__pid__751995#entry751995\\nOlen
-  teie juures Temko samas diagnoosiga - GSD. Panna see 32 n\u00e4dalat, andis LCD
-  arst konsultatsioonile suunda endokrinoloogile (ta palus tal teha paljude aastate
-  kogemust raseduste juhtimisel). Ma l\u00e4bisin gl\u00fckoosikogumiskatse (teaduslikus
-  GTT-re\u017eiimis) ja siin... mis sellest tulenes. Praegu olen toidus ja gl\u00fckomeetril
-  j\u00e4lgides veresuhkru taset 4 korda p\u00e4evas - hoian p\u00e4evikut, kus registreerin
-  gl\u00fckomeetri ja minu igap\u00e4evase dieedi andmed. Alates 38. n\u00e4dalast
-  soovitati mul haiglas viibida erilistel. s\u00fcnnituskeskuses, enne seda, endokrinoloog
-  ja LCD arst.\\nMaskarena\\nhttp://www.babyplan.ru/forums/topic/19283-povyshenyj-sahar-pri-b-gestatsionnyj-saharnyj-diabet/#ixzz57quuvuCk\\nMul
-  oli GDM-i m\u00e4\u00e4ratud 24 n\u00e4dalat. Laup rangelt dieedile. Ate salatid,
-  tatar, kalkun. Endokrinoloog lubas tal s\u00fc\u00fca p\u00e4hklit ja m\u00f5nda
-  pimedas \u0161okolaadi viilu, need k\u00f5ik olid lubatavad maiuspalad. P\u00e4ikesed,
-  mis rasvasisalduse t\u00f5ttu on imendunud pikka aega, h\u00e4sti ja tumedat \u0161okolaadit.
-  Laps s\u00fcndis 38-39 n\u00e4dala jooksul, kaaluga 2980. Mul on n\u00fc\u00fcd
-  suhkrusisaldusega suhkurt\u00f5bi. Dieet suhkrut ei v\u00e4hendata, kuni s\u00fcnnitatakse
-  torke insuliini.\\nP\u00e4ike\\nhttps://deti.mail.ru/forum/v_ozhidanii_chuda/beremennost/gestacionnyj_saharnyj_diabet_1497350371/\\nRasedusdiabeet,
-  mis pole krooniline haigus, kaob tavaliselt p\u00e4rast s\u00fcnnitust ilma j\u00e4lgi.
-  Siiski, kui te ignoreerite patoloogiat, siis t\u00f5mbab ta eemale ja beebi tervisele
-  \u00e4hvardavate komplikatsioonide rongi taga. Peamine oht on rikkumised tulevase
-  lapse arengus, mille eba\u00f5iglane s\u00fc\u00fcdlane oli ema. Ehkki GDS kaob
-  iseenesest isegi raseduse ajal, kuid parem on mitte loota juhuslikult, vaid v\u00f5tta
-  meetmeid haiguse arengu ennetamiseks. Te peate j\u00e4rgima toitu - t\u00f5de, mitte
-  liiga raske - liikuda rohkem ja regulaarselt testid. Tuleb selgitada, et peate lihtsalt
-  tervislikku eluviisi juhtima ja sel juhul kaob su diabeet rahust, s\u00e4\u00e4stes
-  teid ebameeldivatest tagaj\u00e4rgedest.\"", "\"K\u00f5ige p\u00f6\u00f6rasemad
-  vanden\u00f5uteooriad Marilyn Monroe surmast\\nKas olete kuulnud seda ufode kohta?\\n3.
-  RFK tegi seda, kuid see oli \u00f5nnetus.\\nOma 1985. aasta raamatus Jumalanna:
-  Marilyn Monroe salaelu , Tabloidajakirjanik Anthony Summers (m\u00e4rks\u00f5na
-  on siin \u201etabloidne\u201d) v\u00e4itis, et RFK ja tema \u00f5emees Peter Lawford
-  julgustasid Monroe uimasteid ja alkoholi tarvitama p\u00e4rast seda, kui ta \u00e4hvardas
-  oma suhte RFK-ga avalikuks teha. Monroe surm oli Summersi s\u00f5nul juhuslik \u00fcledoos
-  ja ta suri teel haiglasse, mis viis RFK ja Lawford surma enesetapuna. Summers nendib
-  oma raamatus, et varjamisele aitas kaasa FBI tollane direktor J. Edgar Hoover. Kuigi
-  Summersi teooria pole kamp k\u00f5ige tugevam, toetab tema 1983. aastal l\u00e4bi
-  viidud intervjuu koos Monroe majahoidja Eunice Murrayga . Summersi s\u00f5nul oli
-  hetk, mil Murray ''\u00fctles s\u00f5nu, mille tulemuseks oli:'' Oh, miks ma pean
-  seda pidevalt varjama? '''' Murray \u00fctles t\u00e4iendavalt uurides: ''Noh, muidugi,
-  seal oli Bobby Kennedy, ja muidugi oli suhe Bobby Kennedyga. ''\\n4. Tema arstid
-  tegid seda, kuid see oli \u00f5nnetus.\\nSisse veel veel \u00fcks raamat Monroe
-  kohta soovitas Donald Spoto 1993. aastal, et Monroe kandis juhuslikku \u00fcledoosi
-  p\u00e4rast seda, kui ta oma arstidele valetas. Majahoidja abiga korraldasid arstid
-  tema surma enesetapuna, mis Spoto v\u00e4itel oli ebat\u00f5en\u00e4oline, kuna
-  Monroe oli sel aastal 20. sajandi Foxiga uue filmilepingu s\u00f5lminud ja v\u00e4idetavalt
-  kavatsesid Joe DiMaggio uuesti abielluda. Spoto hankis politseiaruandeid ja Monroe
-  t\u00f6\u00f6tajate ning tema publitsisti avaldusi, kuid tema teooria pole sellest
-  l\u00e4hiaastatel enam t\u00f5mmanud.\\n5. Marilyn teadis ufodest liiga palju ja
-  m\u00f5rvati.\\nEsiteks peate olema keegi, kes usub, et USA valitsus on pikka aega
-  varjanud teavet v\u00e4lismaalaste olemasolu kohta. Teiseks peate uskuma maav\u00e4lise
-  vanden\u00f5uteoreetiku dr Steven Greeri v\u00e4idet, et Monroel oli juurdep\u00e4\u00e4s
-  tulnukate kohta k\u00e4ivale teabele, kui ta oli oma surma ajal president John F.
-  Kennedyga kuulujutul suhelnud. Greer arutab seda 2017. aasta dokumentaalfilmis v\u00e4ga
-  \u00fcksikasjalikult Tunnustamata ja soovitab, et Monroe kavatses muu hulgas lekitada
-  \u00fclisalajasi \u00fcksikasju Roswelli 1947. aasta krahhi kohta. P\u00fc\u00fcdes
-  peatada leke ja tema kuulujutud suhted m\u00f5lema Kennedy vennaga, k\u00e4skis
-  CIA ta tappa.\\n6a. Maffia tegi seda.\\n1982. aastal esitas eradetektiiv Milo Speriglio
-  vapustava s\u00fc\u00fcdistuse, et Monroe m\u00f5rvati ameti\u00fchingujuhi Jimmy
-  Hoffa ja Chicago mafia\u00fclema Sam Giancana poolt, nii et Kennedy perekond j\u00e4taks
-  maffia rahule. Speriglio selgitas oma avastusi aastal Marilyn Monroe: M\u00f5rvade
-  varjamine , viidates isikule, kes t\u00f6\u00f6tas L. A. surnukantseleis ja keda
-  s\u00fc\u00fcdistati hiljem surnukehade varastamises. Hoolimata n\u00f5rgast allikast,
-  viis Speriglio raamat juhtumi taasavamiseni. Los Angelese ringkonnaprokur\u00f6r
-  ei leidnud midagi uut ja Monroe surma p\u00f5hjus j\u00e4i paberile t\u00f5en\u00e4oliseks
-  barbituraatm\u00fcrgi enesetapuks.\\n6b. Maffia tegi seda Kennedys korralduste p\u00f5hjal.\\n2012.
-  aastal soovitas raamatus biograaf Darwin Porter Marilyn Vikerkaare l\u00f5pus et
-  n\u00e4itlejanna m\u00f5rvati maffiaboss Sam Giancana poolt, kes sai \u00fchelt
-  Kennedy vendadelt korraldused vaikida n\u00e4itlejanna ja k\u00f5ik, mida ta oma
-  af\u00e4\u00e4ri kohta \u00f6elda tahtis. Uskuge, mida tahate, kuid Porter v\u00e4idab,
-  et viis maffia tabanud meest sisenesid Monroe koju ja manustasid talle n\u00e4kku
-  kloroformiga immutatud pesur\u00e4tti, s\u00fcstisid talle barbituraate ja kolisid
-  oma magamistuppa, et stseen n\u00e4eks v\u00e4lja nagu enesetapp.\\nJ\u00e4rgige
-  Peggyt edasi Twitter ja Cosmo Celeb edasi Facebook .\"", "\"Kana v\u00e4\u00e4nata.\\nKana
-  v\u00e4\u00e4nata.\\nT\u00e4na on meil s\u00fc\u00fca sa kana jaoks maitsvaid retsepte.
-  P\u00e4rast valmistada need road kanaliha saab \u00f5igustatult kutsuda oma tassi
-  v\u00e4\u00e4nata. Kana on v\u00e4ga maitsev, maitsev ja teie pereliikmed peavad
-  k\u00fcsida umbes t\u00e4iendada.\\nL\u00e4hme alla cooking, meie kallid lugejad,
-  nii retsepti esimesena.\\nKana hautatud koos ploomid.\\nEt see roog kana , meil
-  on vaja j\u00e4rgmisi tooteid: kana r\u00fcmp - keskmise suurusega mustad ploomid
-  - 200 grammi rosinaid - \u00bd tassi, 2 suurt sibulat, k\u00fc\u00fcslauku - 6 nelki,
-  magus bulgaaria pipart - 4 t\u00fckki, suhkru - 2 supilusikat\u00e4it \u00e4\u00e4dikat
-  - 1 tl soola maitse j\u00e4rgi. V\u00f5i praadimiseks. frit\u00fc\u00fcris kaanega.
-  Rohelised dekoreerimiseks roogasid.\\nAlusta valmistada meie kana ploomid.\\nPaprika
-  peavad l\u00f5igatud ringid, segada purustatud k\u00fc\u00fcslauk. Hautis paprika
-  ja k\u00fc\u00fcslauk pannil, kuni valmis pipar muutunud pehmeks.\\nL\u00f5ika kana
-  v\u00e4ikesteks portsjoniteks, h\u00f5\u00f5ruda iga lihat\u00fcki soola. Prae kanat\u00fckid
-  pannil kuldpruuniks.\\nL\u00f5ika sibul 1/2-r\u00f5ngad, praadida see v\u00f5is
-  kuldpruuniks. Praetud sibul ja paprika ja k\u00fc\u00fcslauk - hoida tulekahju paar
-  minutit.\\nPeal paprika ja sibul s\u00e4testatud t\u00fckki kana. Lisa kana ploomid
-  , mis tuleb eelnevalt leotada vees 10 minutit. Lisa rosinad, suhkur ja \u00e4\u00e4dikas.\\nMe
-  katta meie kana kaas, panna podisema madalal kuumusel, kuni k\u00fcpsetatud liha
-  , ja nii kaua, kui ploomid, rosinad on pehmed.\\nKeedetud kana ploomid panen la
-  carte roog , garneering \u00fcrtidega - on soovitav tuua lauale kuum.\\nK\u00fcpsetatud
-  kana.\\nEt see on v\u00e4ga maitsev pajaroog, kaaluge j\u00e4rgmisi tooteid: keedetud
-  kana - 200 grammi kartulit - 7 t\u00fckki, v\u00f5i - 50 grammi, oad v\u00f5i mais,
-  keedetud - 1 tass riivitud juustu - 1 tass piima - \u00be tassi, 2 muna valk, soola
-  ja pipart - maitse j\u00e4rgi.\\nEttevalmistamine vormiroad.\\nTee kartuliputru,
-  keedetud kartul h\u00f5\u00f5rutakse piima, v\u00f5id ja soola. Panema kartulipuder
-  on k\u00fcpsetamine tassi - 1, kus valmistame meie puding.\\nKeedetud kana, me v\u00e4ikesteks
-  t\u00fckkideks, levis see \u00fchtlaselt peal kartuliputru. Veidi soola, pipart
-  - maitse j\u00e4rgi.\\nSiis me laiali kiht kana keedetud oad v\u00f5i mais - oma
-  maitse, mina isiklikult eelistan s\u00fc\u00fca vormiroad koos oad.\\nVahusta valged,
-  vahustatud valged m\u00e4\u00e4rib kiht oad, puista riivitud juust .\\nAseta praad
-  on ahjus temperatuuril 180 kraadi - k\u00fcpseta kuldpruuniks.\\nKui pajaroog valmis
-  kana, t\u00fckkideks l\u00f5igatud, panna tassi. Serveeri roog on parem kui kuum.\\n3.
-  retsept kana.\\nTooted cooking: kana - 1 tk, kartul - 6 t\u00fckki, oad - 1 tass,
-  2 suurt sibulat, k\u00fc\u00fcslauku - 2 k\u00fc\u00fcnt, mutrid, k\u00f5ik - \u00bd
-  tassi, rosinad - \u00bd tassi soola maitse j\u00e4rgi suhkrut - 2 spl \u00e4\u00e4dikat
-  - 1 supilusikat\u00e4is.\\nSa pead s\u00fcgav pann kaanega keetmiseks.\\nCooking
-  kana kartulid ja oad.\\nHarva kana t\u00fckkideks, naatriumsool. Siis praadida kanat\u00fckke
-  \u00f5li on pann.\\nKeeda kartulid, l\u00f5ika need v\u00e4ikesteks t\u00fckkideks.\\nKeeda
-  kuni keedetud oad.\\nViiluta sibul ja k\u00fc\u00fcslauk ning praadida kuldpruuniks
-  kui praetud sibulat lisada \u00e4\u00e4dikas, suhkur ja peal me n\u00e4evad t\u00fckki
-  praetud kana. Hoia liha ja sibula \u00fcle tuli kolm minutit.\\nLisa kartuleid ja
-  kana ubade ja rosinad. Kata pott kaanega, keeda kuni meie s\u00f6\u00f6ki kuni kana
-  on pehme.\\nEnne serveerimist kaunista roog r\u00f6stitud p\u00e4hklid.\\nNautige
-  oma isu, ja k\u00f5ige delicious kulinaariaalane ideid!\\nPopulaarsed tooted:\\nSeonduvad
-  postitused:\\n- 13/06/2012 - Valmista j\u00e4\u00e4tis kodus.\\n- 2012/12/06 - J\u00e4\u00e4tis
-  banaanid.\\n- 2012/06/07 - Vaarika besee roulade.\\n- 2012/06/05 - Kuidas brizol.\\n-
-  2012/06/02 - Meatloaf koos ploomid.\"", "\"Filmid\\nMaailmas laialt tuntud ning
-  kiidetud paroodiameistrid Jason Friedberg ja Aaron Seltzer (\u201e\u00d5udne film\u201d,
-  \u201eSpartalased tulevad\u201d, \u201eSuur film\u201d, \u201eKohtingufilm\u201d)
-  toovad vaatajateni oma uue h\u00e4bitu kom\u00f6\u00f6dia \u201eV\u00e4ga n\u00e4ljased
-  m\u00e4ngud\u201d, mis parodeerib viimaste aastate k\u00f5ige populaarsemaid hitte
-  naerutades oma publikut pisarateni.\\nKinoPoisk IMDB\\nNikolai Gogoli raamatu \\\"Vii\\\"
-  p\u00f5hjal tehtud hirmulugu XVIII sajandi algusest. Kartograaf Jonathan Greene
-  on teaduslikul ekspeditsioonil Euroopast itta. Liikudes l\u00e4bi Transilvaania
-  ja \u00fcletades Karpaatide m\u00e4ed satub ta v\u00e4ikesesse k\u00fclla keset
-  l\u00e4bip\u00e4\u00e4smatult paksu metsa. Vaid pime juhus ja tihe udu v\u00f5isid
-  ta juhtida sellesse \u00e4raneetud paika. Rahvas, \u2026\\nAASTA LAHING on rahvusvaheline
-  breiktantsu meistriv\u00f5istlus, kus osalevad trupid k\u00f5ikjalt maailmast. Los
-  Angelese hiphopimogul Dante (Laz Alonso) tahab n\u00fc\u00fcd breigile aluse pannud
-  riigi uuesti tippu viia. Ta kutsub truppi ette valmistama raske elusaatusega korvpallitreenerist
-  s\u00f5bra Blake''i (Josh Holloway, telesari \\\"Teadmata kadudnud\\\"), kuna ta
-  \u2026\\n2 RELVA on karmide meestega plahvatuslik m\u00e4rulikom\u00f6\u00f6dia,
-  mille peaosades k\u00f5mmutavad Denzel Washington ja Mark Wahlberg. \u00dcks on
-  narkoameti agent ja teine merev\u00e4e luureohvitser. M\u00e4ngus on narkootikumid,
-  palju raha ja Mehhiko maffia!\\nKinoPoisk IMDB\\n\u00d5nne pole kunagi liiast! Just
-  seet\u00f5ttu otsustavad edumeelsed ja andekad noored Nata\u0161a ja Roma korraldada
-  Musta mere \u00e4\u00e4res taevasinisel rannal kahed pulmad \u2013 \u00fched iseendale
-  ja s\u00f5pradele, teised aga vanematele ja sugulastele. Paraku on Nata\u0161a kallil
-  kasuisal teised plaanid ning ta korraldab noortele traditsioonilise pulmapeo. Kuid
-  noorpaar ei \u2026\\nFilm r\u00e4\u00e4gib kolmek\u00fcmnendates vallalisest Jane
-  Hayesist, kes pealtn\u00e4ha on igati tavaline noor naisterahvas, kuid kes varjab
-  oma \u00fclisalajast kinnisideed \u2013 tema armuelu on rikutud, kuna \u00fckski
-  mees ei suuda olla tema jaoks v\u00f5rdv\u00e4\u00e4rne h\u00e4rra Darcyga Jane
-  Austeni romaanist \\\"Uhkus ja eelarvamus\\\".\\nKinoPoisk IMDB\\nVerdtarretav \u00f5udusp\u00f5nevik
-  ASTRAAL 2 on j\u00e4rg samanimelisele 2011. aasta menukale \u00f5udusfilmile. Eelmises
-  filmis deemonlike j\u00f5udude meelevalda sattunud Lambertide perekond (Patrick
-  Wilson ja Rose Byrne) \u00fcritab n\u00fc\u00fcd j\u00e4lile j\u00f5uda s\u00fcngele
-  saladusele mehe lapsep\u00f5lvest, mille t\u00f5ttu on nende pere endiselt vaimude
-  maailmaga ohtlikult \u2026\\nKurikuulsasse maffiaklanni kuuluv Manzoni perekond
-  saadetakse tunnistajakaitseprogrammi k\u00e4igus Prantsusmaale Normandiasse, kus
-  neil tekib aga kohanemisega probleeme, kuna vanadest harjumustest on raske vabaneda.\\nKinoPoisk
-  IMDB\\nPalgam\u00f5rvarid konkureerivad omavahel k\u00f5ige suurema laipade arvu
-  suuruse, kuulsuse ja rahapatakate eest. Nad v\u00f5itlevad korporatiivse ahnuse
-  vastu ning loovad korda maailmas, mis on h\u00e4vinud peale laastavaid s\u00f5dasid.\\nKinoPoisk
-  IMDB\\nVeiko \u00d5unpuu lavastajak\u00e4e all valminud \u201eFREE RANGE - Ballaad
-  maailma heakskiitmisest\u201d (stsenaarium Veiko \u00d5unpuult ja Robert Kurvitzalt)
-  on lugu algajast kirjanikust, kes oma t\u00fcdruku raseduse t\u00f5ttu peab v\u00e4ga
-  kiiresti otsustama oma koha \u00fcle \u00fchiskonnas, m\u00e4\u00e4rama oma suhte
-  sellesse. Aga \u00fchiskond ja selle institutsioonid n\u00e4ivad mehele l\u00e4binisti
-  \u2026\\nStallone on Jimmy Bobo, New Orleansi palgam\u00f5rvar, kes \u00fchendab
-  j\u00f5ud Washingtoni detektiivi Taylor Kwoniga (Sung Kang), et leida nii enda,
-  kui ka politseiniku paarimehe tapjad. K\u00e4ttemaks saab olema karm!\\nKinoPoisk
-  IMDB\\nMorgan Spurlocki (\\\"Super Size Me\\\") dokumentaalfilm popmuusika taevasse
-  komeedina s\u00f6\u00f6stnud ning fenomenaalselt menukaks kujunenud briti-iiri poisteb\u00e4ndist
-  ONE DIRECTION. Vahetu sissevaade Nialli, Zayni, Liami, Harry ja Louise\\nellu -
-  tundmatutest teismelistest rambivalgusesse, osalemisest saates \\\"The X-Factor\\\",
-  muusikamaailma vallutamisest ning \u2026\\nTooted 97 - 108, tooteid kokku 176, lehek\u00fclgi
-  15\"", "\"Pakett DISKO\\ndotE paketipidu DISKO kuni 20 inimesele sisaldab:\\n- dotE
-  ruumide (2 saali, lounge, garderoob, WC) kasutus 2,5 h\\n- heli-, video- ja valgustuslahenduste
-  kasutamine\\n- lavapoodiumite kasutamine\\n- temaatiline muusikavalik\\n- muusikavideod
-  suurel 2,5 x 3 m ekraanil\\n- Selfiesein ja FUN-torufotod\\n- aksessuaarid fotode
-  jaoks\\n- 2 temaatilist meelelahutuslikku tegevust\\nHind s\u00f5ltuvalt tegevuste
-  valikust alates: 230 EUR\\nTegevuste valik (paketi sees 2 tegevust):\\n- dotE Dance
-  (tantsu\u00f5petaja \u00f5petab tantsu)\\n- eakohane muusika-, multifilmi- vm teemaline
-  interaktiivne viktoriin koos auhindadega\\n- tatoo-stiilis keha- /n\u00e4omaalingud\\n-
-  diskosoengud\\n- v\u00e4rvilised airbrush soengud\\n- eakohased diskomeigid\\n-
-  l\u00f5busad seltskondlikud m\u00e4ngud nt tutvumism\u00e4ng, ajalehetants, laulukett,
-  muusikateemaline Alias\\n- meisterdamist\u00f6\u00f6tuba: diskokost\u00fc\u00fcmi
-  disain pabernukule / vana T-s\u00e4rgi \u00fcmberdisainimine vm t\u00f6\u00f6tuba
-  vastavalt kokkuleppele\\n- X-box dance tantsude tantsimine\\n- DJ pult koos juhendajatega\\nVaata
-  meie pidude galeriid SIIT.\\n< tagasi\"", "\"Nad saadavad Pine Tree State to paymentcloudinc
-  mis on pc sugu m\u00e4ngu tasuta alla laadida liitunud Tundmatu piirkonna gateway
-  petmise riskantne etapp \u00e4ri, mis ei ole minu puhul\\nMa leian, et see on ebatavaline,
-  kuidas Wyrd CERO on umbes selline asi, kaaludes, kuidas r\u00f5ve kindel kompileerida
-  s\u00fcda / idee tehase m\u00e4ngud tina saada, v\u00f5ttes pc sugu m\u00e4ngu tasuta
-  allalaadimine t\u00e4iesti lihtne sugu arvates oleks t\u00f5en\u00e4oliselt m\u00f5ttes
-  viisil v\u00e4hemal m\u00e4\u00e4ral r\u00f5ve. Kuigi ma opine m\u00f5ned neist
-  m\u00e4ngudest v\u00f5ib v\u00f5tta hapu v\u00e4lja tulema m\u00f5ttetu nagu nad
-  tegid lihtsalt kannatavad \u00fcmber CERO piirangud.\"", "\"Eelmise aasta l\u00f5pus
-  uurisid geoloogid Tallinna ja Helsingi vahelist merep\u00f5hja ning tuvastasid,
-  et merep\u00f5hi koosneb suures osas graniidist, mis teeb tunneli rajamise ilmselt
-  lihtsamaks, kirjutab t\u00e4nane Eesti P\u00e4evalehe Logistikaleht. Siiski on vaja
-  veel t\u00e4iendavaid uuringuid settekivimite kihi kohta.\\nSoome Geoloogia uurimiskeskus
-  (GTK) uuris Soome Helsingi Uusimaa Liidu tellimusel projekti FinEst Link raames
-  seismoakustiliselt Helsingi ja Tallinna vahelise v\u00f5imaliku raudteetunneli trassi.
-  Tulemused on paljulubavad ning kinnitavad varasemaid Eesti Geoloogiakeskuse tehtud
-  sellealaseid uuringuid. Tallinna lahe madalaveeline rannikuosa vajab aga edasist
-  vaatlemist.\\nMajandus-ja Kommunikatsiooniministeeriumis FinEst Linki projekti partner
-  Eva Unt selgitab, et uuringu tulem annab lootust, et tunneli rajamine on plaanitust
-  lihtsam ja soodsam. \u201cMerep\u00f5hja graniitosa uuriti seismoakustiliselt, kuid
-  Tallinna madalike settekivimeid on vaja veel vaadelda. Nende t\u00e4psete omaduste
-  v\u00e4lja selgitamiseks polnud seismoakustiline uuring piisav. Vaja on teha veel
-  puurimisi,\u201d lisab ta.\\nUnt t\u00f5i v\u00e4lja, et tardkivimisse, nagu graniiti,
-  on lihtsam tunnelit rajada kui ebastabiilsematesse settekivimitesse. \u201cMeil
-  on merepinnas parem kui Eurotunnelil,\u201d v\u00f5rdles ta Tallinna-Helsingi potentsiaalset
-  liini Suurbritanniat Prantsusmaaga \u00fchendava tunneliga, kuid r\u00f5hutas siiski,
-  et hetkel on liiga v\u00e4he andmeid, et midagi t\u00e4pselt \u00f6elda.\\nHelsingi
-  poolsel lahekaldal on valdav graniidist merep\u00f5hi. \u201cUuringutega leiti,
-  et kristalse aluskorra kivimitest, nagu graniidist, merep\u00f5hi ulatub Eesti ranniku
-  l\u00e4histel Naissaare ja Tallinna madalani v\u00e4lja,\u201d m\u00e4rgib juhtivekspert
-  Keijo Nenonen GTK-st.\\nK\u00e4ivad tunneli rajamise tasuvusuuringud\\nSeismoakustiliste
-  uuringute tulemusel saadud teadmisi kasutatakse FinEst Linki projektis, kus anal\u00fc\u00fcsitakse
-  raudteetunneli rajamise v\u00f5imalikkust. Tasuvusuuringus selgitatakse tunneli
-  tehnilist ja majanduslikku teostatavust, majanduslikku tasuvust ja laiemat m\u00f5ju.
-  Esmaseid tulemusi on oodata juba k\u00e4esoleval aastal. Alles tasuvusuuringu j\u00e4rel
-  saab \u00f6elda, kas on p\u00f5hjust alustada tunneli planeerimisega. FinEst Linki
-  uuring peaks valmima sel aastal.\\nTunneli rajamise tasuvusuuringuid rahastatakse
-  Interreg Kesk-L\u00e4\u00e4nemere programmist. Kaheaastase FinEst Linki projekti
-  kogueelarve on 1,3 miljonit eurot. Projekti peapartner on Helsingi Uusimaa Liit.
-  Partnerid on ka Helsingi linn, Soome Transpordiagentuur, Tallinna linn, Majandus-
-  ja Kommunikatsiooniministeerium ning Harju Maavalitsus.\\nTunneli valmimisel saab
-  sellest 90-kilomeetrine veealune rajatis, kus rongil kulub Tallinnast Helsingisse
-  j\u00f5udmiseks ligikaudu pool tundi. Tallinna ja Helsingi vahelise p\u00fcsi\u00fchenduse
-  \u00fcle algasid esimesed arutelud juba 1871. aastal. \u00dcks idee uuesti esiletooja
-  on Rovio endine turundusjuht Peter Vesterbacka. Tunneli valmimisel saab Vesterbacka
-  s\u00f5nul Tallinnast ja Helsingist \u00fcks suur metropol, mis toob kaasa m\u00e4rgatava
-  majanduskasvu. Pikalt turundusjuhina t\u00f6\u00f6tanud IT-ettev\u00f5tja leiab
-  ka, et tunnel kasvatab idufirmade arvu ja tekitab siia piirkonda suurt rahvusvahelist
-  huvi.\\nL\u00e4hemalt uuri EPLi Logistikalehest.\"", "\"R\u00f5ngastihendid veokite
-  jaoks\\n- 14 P\u00e4eva Tagastus Poliitika\\n- Parima hinna garantii\\nR\u00f5ngastihendid
-  TOP veoki br\u00e4ndidele\\nR\u00f5ngastihendid kommertss\u00f5idukitele k\u00f5rge
-  kvaliteediga TOP br\u00e4ndidele\\n- Tootja varuosa number 9 461 614 046\\n- Tootja
-  BOSCH\\n- EAN number 3165143626917\\n- Spetsifikatsioon: spare parts ESI-ZD, ZEXEL
-  Spare Parts\\n- BOSCH V\u00f5lli r\u00f5ngastihendikomplekt, Mootor\\n- Kirje number
-  9 461 614 046\\n- Meie hind 1,77 \u20ac\\n- Riik Uus\\n- Tootja varuosa number 12005900\\n-
-  Tootja AJUSA\\n- EAN number 8427769150753\\n- Sisel\u00e4bim\u00f5\u00f5t [mm]:
-  7,9\\n- J\u00e4medus [mm]: 8,3\\n- Kaal (g): 1,36\\n- L\u00e4bim\u00f5\u00f5t [mm]:
-  16,3\\n- AJUSA R\u00f5ngastihend, klapis\u00e4\u00e4r\\n- Kirje number 12005900\\n-
-  Meie hind 1,94 \u20ac\\n- Riik Uus\\n- Tootja varuosa number 81-23113-30\\n- Tootja
-  REINZ\\n- EAN number 4026634276495\\n- Sisel\u00e4bim\u00f5\u00f5t [mm]: 120,00\\n-
-  Materjal: PTFE (Polytetrafluorethylen), ACM((Polyacryl-Kautschuk)\\n- Laius (mm):
-  12,00\\n- P\u00f6\u00f6rdeliik: Vasakkeere\\n- T\u00fc\u00fcp simmerling tihend:
-  AB SL\\n- Piirangutega toode / piirangu info 2: koos paigaldush\u00fclsiga\\n- L\u00e4bim\u00f5\u00f5t
-  [mm]: 140,00\\n- REINZ V\u00f5lli r\u00f5ngastihend, V\u00e4ntv\u00f5ll\\n- Kirje
-  number 81-23113-30\\n- Meie hind 28,33 \u20ac\\n- Riik Uus\\n- Tootja varuosa number
-  15050000\\n- Tootja AJUSA\\n- EAN number 8427769379970\\n- Sisel\u00e4bim\u00f5\u00f5t
-  [mm]: 125\\n- Laius (mm): 12\\n- L\u00e4bim\u00f5\u00f5t [mm]: 150\\n- AJUSA V\u00f5lli
-  r\u00f5ngastihend, V\u00e4ntv\u00f5ll\\n- Kirje number 15050000\\n- Meie hind 41,26
-  \u20ac\\n- Riik Uus\\n- Tootja varuosa number 15000200\\n- Tootja AJUSA\\n- EAN
-  number 8427769133794\\n- Sisel\u00e4bim\u00f5\u00f5t [mm]: 10\\n- Laius (mm): 5\\n-
-  L\u00e4bim\u00f5\u00f5t [mm]: 18\\n- AJUSA V\u00f5lli r\u00f5ngastihend, V\u00e4ntv\u00f5ll\\n-
-  Kirje number 15000200\\n- Meie hind 3,78 \u20ac\\n- Riik Uus\\n- Tootja varuosa
-  number 15004600\\n- Tootja AJUSA\\n- EAN number 8427769131448\\n- Sisel\u00e4bim\u00f5\u00f5t
-  [mm]: 25\\n- Laius (mm): 8\\n- L\u00e4bim\u00f5\u00f5t [mm]: 40\\n- AJUSA V\u00f5lli
-  r\u00f5ngastihend, V\u00e4ntv\u00f5ll\\n- Kirje number 15004600\\n- Meie hind 3,66
-  \u20ac\\n- Riik Uus\\n- Tootja varuosa number 108 647\\n- Tootja TOPRAN\\n- EAN
-  number 1138110000104\\n- Materjal: Vask\\n- Sisel\u00e4bim\u00f5\u00f5t [mm]: 10\\n-
-  J\u00e4medus [mm]: 1\\n- Kuju: A-kuju\\n- DIN / ISO: 7603\\n- L\u00e4bim\u00f5\u00f5t
-  [mm]: 13,5\\n- TOPRAN R\u00f5ngastihend, \u00f5li \u00e4ravoolukruvi\\n- Kirje number
-  108 647\\n- Meie hind 0,30 \u20ac\\n- Riik Uus\\n\u00d5litihendid on tihenduselemendid,
-  mis tagavad tiheda \u00fchenduse veoauto liikuvate ja staatiliste komponentide vahel
-  . N\u00e4iteks on antud detailid paigaldatud v\u00f5llidele selleks, et v\u00e4ltida
-  m\u00e4\u00e4rdeainete lekkimist.\\nVeoautode \u00f5litihendite t\u00fc\u00fcbid\\nVeoautode
-  mootorites kasutatakse mitmeid tihenduskomponente, eelk\u00f5ige:\\n- nukkv\u00f5lli;\\n-
-  v\u00e4ntv\u00f5lli;\\n- k\u00e4igukasti;\\n- k\u00fctusepihustite;\\n- k\u00fctuse
-  k\u00f5rgsurvepumpade jaoks.\\nSarnaselt s\u00f5iduautode tihenditele on ka veoautode
-  komponendid valmistatud erinevat t\u00fc\u00fcpi kummist. N\u00e4iteks tootjad kasutavad:\\n-
-  Nitriilbutadieenkummi. See on v\u00e4ga vastupidav erinevate k\u00fctuste ja m\u00e4\u00e4rdeainete
-  toimele.\\n- Silikooni. Sellel on v\u00e4ga hea vastupidavus lahustite ja hapete
-  toimele, on bioloogiliselt inertne ja sellel on dielektrilised omadused.\\n- Pol\u00fcakr\u00fc\u00fcli.
-  Talub h\u00e4sti k\u00f5rgeid temperatuure, kuid v\u00f5ib deformeeruda v\u00e4ga
-  madalatel temperatuuridel.\\n- Fluoropreeni. Ei muuda oma omadusi enamike hapete,
-  \u00f5lide v\u00f5i lahustite toimel.\\nKomponendid on valmistatud:\\n- tolmukattega;\\n-
-  ilma selleta.\\nEsimest t\u00fc\u00fcpi komponendid on kaitstud m\u00e4\u00e4rdumise
-  eest. Tolmukate v\u00f5ib endast kujutada komponendi sisek\u00fcljel paiknevat kattekihti
-  v\u00f5i tahket viltr\u00f5ngast.\\nRikked ja nende p\u00f5hjused\\nMootori t\u00f6\u00f6
-  ajal on komponendid suurte mehaaniliste ja termiliste koormuste all, mist\u00f5ttu
-  nad kalduvad loomulikult kuluma ja elastsust kaotama. Kuna komponent on pidevalt
-  kontaktis liikuvate elementidega kulub selle pind l\u00f5puks \u00e4ra. Lisaks v\u00f5ivad
-  vale paigaldamise t\u00f5ttu tekkida pinnale praod. Mehaanilised kahjustused on
-  tihtipeale p\u00f5hjustatud karteri ventilatsioonist tingitud liigse surve t\u00f5ttu.
-  Regulaarse ja \u00f5igeaegse hoolduse korral on tihendite t\u00f6\u00f6iga 150 000
-  -200 000 km l\u00e4bis\u00f5itu. Komponendid tuleb vahetada kohe p\u00e4rast kindlaksm\u00e4\u00e4ratud
-  perioodi.\\nKuidas avastada rikkeid\\nKahjustatud komponent kaotab terviklikkuse,
-  mille tagaj\u00e4rjel hakkab \u00f5li lekkima. Sel juhul v\u00f5ib s\u00f5iduki
-  all avastada \u00f5li plekke. Lisaks v\u00f5ib m\u00e4rgata m\u00e4\u00e4rdeainete
-  tarbimise suurenemist, mis on esimeseks s\u00fcmptomiks, mis viitab diagnostika
-  vajadusele.\\nAUTODOC: mugav ostlemine internetis\\nAUTODOC''i e-poest saate osta
-  tihendeid veoautodele hinnaga, mis on alla keskmise. Lisaks toimuvad tihtipeale
-  kampaaniad ja me pakume klientidele sooduskuponge. Valige kataloogist sobivad tooted
-  ja esitage oma veebip\u00f5hine tellimus kohe praegu, et saada odavalt k\u00f5ike,
-  mida vajate oma veoauto parandamiseks.\"", "\"Arutelu k\u00e4igus pitchivad ehk
-  tutvustavad l\u00fchidalt oma ideed 7 v\u00e4rsket \u00fchiskondlikku algatust.
-  Kuulda saame vanemaealistele m\u00f5eldud praktikaprogrammist, erivajadustega inimeste
-  transporti v\u00f5imaldavast s\u00f5idulahendusest, noortele m\u00f5eldud inseneeriakomplektidest,
-  meeltep\u00f5hisest \u00f5ppest lastele, klassijuhataja arenguprogrammist, kogemusn\u00f5ustajaid
-  vahendavast platvormist ja hariduslike erivajadustega \u00f5pilastele m\u00f5eldud
-  abivahendeid koondavast keskkonnast. Kaasa m\u00f5tlema on oodatud k\u00f5ik, kes
-  tahavad kuulda uuenduslikest l\u00e4henemistest keerulistele probleemidele.\\nArutelu
-  juht: Marleen Pedjasaar (Heateo Sihtasutus)\\nOsalejad: J\u00e4rgnevate \u00fchiskondlike
-  algatuste esindajad: Tugitakso, Klassijuhataja arenguprogramm, EduLab, Seniorship,
-  Toitumisn\u00f5ustajate \u00dchendus, HopeHolders, Estudent\\nKorraldaja: Heateo
-  Sihtasutus\\nArutelu leidis aset 10. augustil 2018 Paides.\\nVabas \u00f5hus tehtud
-  salvestusele lisavad v\u00e4rvi tuule puhumine, lehtede kahin ja vihma krabin. \ud83d\ude42\"",
-  "\"Ma ei ole sandaal t\u00fc\u00fcpi inimene \u2013 v\u00f5i nii ma arvasin. P\u00e4rast
-  seljas KEEN Uneeks Peaaegu k\u00f5ikjal, Olen kasvanud meeldi tunne liikuv \u00f5hk
-  minu varbad ja vabaduse sandaalid. Kuigi enamik kingad saab kasutada ainult ainult
-  \u00fche tegevusala, Uneeks sobivad suurep\u00e4raselt \u00fcksk\u00f5ik reisimine
-  viskab sind, kas k\u00f5nnib rannas, teeme linnaekskursioon v\u00f5i matkamine.\\nMis
-  tegelikult m\u00e4\u00e4rab need sandaalid eristavad teistest urheilusandaaleja
-  on, v\u00f5i kursuse, \\\"kordumatu\u2019 projekteerimist ja ehitust Uneeks. Disain
-  on nii lihtne, kuid praktiline see paneb m\u00f5tlema, miks keegi ei m\u00f5elnud
-  \u201cKahe n\u00f6\u00f6rid ja ainus\u201d disain varem.\\nOlen testitud Uneeks
-  must, aga nad tulevad 15 teised v\u00e4rvid meestele, r\u00e4\u00e4kimata 16 rohkem
-  v\u00e4rve Naistest versioon.\\nPlussid:\\n- Mugav\\n- Mitmek\u00fclgne\\n- Hea
-  veoj\u00f5ud\\n- Vastupidav\\n- Seksikas?\\nP\u00fc\u00fcdes suruda sandaalide piirid,
-  \u00dcritasin teed minu tavaline run \u2013 v\u00e4lja arvatud Uneeks kohta. Tuul
-  puhus l\u00e4bi sandaalid hoida oma jalad jahedas P\u00e4rast t\u00f6\u00f6tab kaks
-  miili in Uneeks, mu jalad tundsid trahvi, kuigi tagaristpinet hakkas puksiiri minu
-  Achilleuse k\u00f5\u00f5lus. Paar v\u00e4ike veeris sattus sandaalid samuti. Ma
-  arvan, et ma j\u00e4\u00e4n oma Sauconys kui asi t\u00f6\u00f6tab, kuid Uneeks olid
-  eluj\u00f5ulised backup.\\nSeda saab teha p\u00f5him\u00f5tteliselt k\u00f5ike Uneeks
-  kohta, niikaua ilmaga \u00f5igust. Avatud planeering v\u00f5imaldab neid kanda vees,
-  ja ma olen isegi proovinud du\u0161\u0161i neid. See v\u00f5ib olla kasulik j\u00e4rgmine
-  kord pean v\u00f5tma du\u0161\u0161 kahtlane hostel.\\nUneeks teha head t\u00f6\u00f6d
-  \u00fchinevad mugavust ja vabadust sandaalid vastupidavuse matkajalatsid. Sa v\u00f5id
-  tabas suusarajad kuumal p\u00e4eval koos Uneeks kohta, v\u00f5i k\u00f5ndida juhuslikult
-  linnas.\\nSee on kuni arutelu, aga ma arvan, \u201cKahe n\u00f6\u00f6rid ja ainus\u201d
-  disain tundub p\u00e4ris lahe. Wired ajakirjas tundub eriarvamusel:\\nMidagi karjub:
-  \\\"Ma olen seiklus nohik / hipi!\\\"Nagu eredav\u00e4rvilised langevarju n\u00f6\u00f6ri
-  kootud keerulise web \u00fcmber suu.\\nMa arvan, et v\u00f5iks \u00f6elda \\\"ilu
-  on vaataja silmades\\\". Anna mulle teada, kui te arvate, Uneeks on kole kommentaarid
-  allpool. \u00dcks asi on kindel, KEEN Uneeks on kindlasti ebatavaline.\\nFit:\\nUneeks
-  on v\u00e4ga mugav, ja palju see taandub sobivus sandaalid. Olen m\u00e4rganud,
-  et neil on ka suur arch toetust ja t\u00f5esti hallitusseente kuju jalad. Mis Uneeks
-  kohta, sa peaksid end mugavalt alalise, jalgsi v\u00f5i matka mitu tunnis pikad.\\nUneeks
-  joosta natuke v\u00e4ike, nii v\u00f5ite suurus kuni poole v\u00f5rra suurus.\\nPits
-  up s\u00fcsteem on hea, kui h\u00e4sti ja ma eelistan seda ikka normaalne Velcro
-  rihmad leida k\u00f5ige sandaalid. Paelad on elastne, Erinevalt pael, mis moodustavad
-  \u00fclemise. Neid saab pingutatud abil n\u00f6\u00f6ri. V\u00f5rreldes Velcro,
-  paelad v\u00f5imaldab teil pingutada teatud valdkondades ja lahti teistega.\\nMiinuseid:\\n-
-  Raske (1.5 lbs \u00fche paari suurus 9)\\nMa t\u00f5esti ei ole palju negatiivseid
-  asju \u00f6elda neid sandaalid, kuigi \u00fcks v\u00e4ike k\u00fcsimus, mis mul
-  on, et nad kaaluvad sama palju kui minu kerge matkajalatsid. Kuna sandaalid on valmistatud
-  v\u00e4hem materjali v\u00f5rreldes matkajalatsid, Ma kujutan ette, et nad peaksid
-  olema kergem, kuid see ei ole. Enamik massist Uneeks p\u00e4rineb tallad mis on
-  \u00fcsna paks ja vastupidav, tehes Uneeks natuke raske, midagi v\u00f5iksite kaaluda,
-  kui reisite v\u00e4ga kerged. (Paks tallad lisada vastupidavus need sandaalid.)\\nKohtuotsus:\\nSest
-  reisijad otsivad sandaale, et elada kuni oma seiklustest, Uneeks sobinud. KEEN Uneeks
-  saab kasutada uitav linnat\u00e4navatel, matkamine, minna randa ja isegi juhuslikud
-  perspektiivis. Oma tavatu disain ja praktilisus Uneeks on kindlasti muutunud lemmik
-  tahes seikleja.\\nUneeks kulu $100, mis ma \u00fctlen on m\u00f5istlik ja normaalne
-  k\u00f5ige sandaalid see kaliiber.\\nKEEN Uneek hinnangud\\n-\\nMugavus - 9/10\\n9/10\\n-\\nDisain
-  - 10/10\\n10/10\\n-\\nVastupidavus - 10/10\\n10/10\\n-\\nV\u00e4\u00e4rtus - 8/10\\n8/10\\nKust
-  see:\\n- Leiate Keen Uneek kingad KeenFootwear.com\\n- Edasi Amazon.com\\n- Edasi
-  Backcountry.com\\n- V\u00f5i REI.com\\nKas sa arvad, KEEN Uneeks on kole v\u00f5i
-  awesome? J\u00e4ta kommentaar allpool.\\nKEEN Uneek sandaalid olid ette n\u00e4htud
-  selle l\u00e4bivaatamine. Nagu alati, Selle KEEN Uneek \u00fclevaade sisaldab ainult
-  minu aus vaated ja arvamused. M\u00f5ned lingid leida see l\u00e4bi affiliate lingid,
-  mis t\u00e4hendab, et saame komisjonitasu, kui sa otsustad teha ostu, ilma lisakuludeta
-  teile. See aitab rahastada site. \ud83d\ude42\\nJason \u00fctleb\\nAusalt ma arvan
-  uneeks vaadata p\u00e4ris lahe.\\nJonathan Looi \u00fctleb\\nT\u00e4pselt, mida
-  ma arvan, Jason!\\nJuli \u00fctleb\\nMa armastan v\u00e4limuse, just wish they were
-  lighter to be carried as a \u201ccamp shoe\u201d when backpacking. Are they durable
-  enough for river crossings?\\nJonathan Looi \u00fctleb\\nT\u00f5si \u2013 if they
-  were lighter they would be a lot easier to carry. Jah, I think the Uneeks would
-  be durable for a river crossing. The cord material is really strong and I\u2019ve
-  been wearing mine for 6+ months now without any issues.\\nnick \u00fctleb\\nwhy
-  are there different model uneeks for men? 8mm, slice, etc\u2026 do you know the
-  difference?\\nJules \u00fctleb\\nJust bought some yestetday & they are amazing!
-  My high arches LOVE them & are the most comfortable sandle I have ever bought! They
-  do look different\u2026but as you said beauty is in the eye of the beholder. And
-  I for one like them in look & tundma.\\nBill \u00fctleb\\nI too love these sandals/shoes.\\nMul
-  on v\u00e4ga lai jalg, et nad on \u00f5dus.\\nKas kuidagi venitada neid veidi v\u00e4lja,
-  et see sobiks paremini?\\nT\u00e4nan,\\nBill\\nJonathan Looi \u00fctleb\\nT\u00e4name
-  kommenteerides, Bill! Nagu venitades Uneeks v\u00e4lja, Ma ei ole p\u00e4ris kindel,
-  kas see on v\u00f5imalik. paracord (mis kogu \u00fclemine on valmistatud) ei veni.
-  \u00c4kki v\u00f5iks asendada elastne n\u00f6\u00f6rimine s\u00fcsteemi millegi
-  suurema? T\u00f5en\u00e4oliselt lihtsaim viis lahendada see probleem oleks suuruse
-  kuni, aga siis sandaalide v\u00f5ib olla liiga pikk.\\nMolly \u00fctleb\\nMa olen
-  uhke ja \u00f5nnelik omanik kolm paari Uneek sandaalid. Nad on lahedad, mugav ja
-  silmapaistva. Ma kannan neid peaaegu k\u00f5ikjal- t\u00f6\u00f6tama, minu jogs,
-  ja kui l\u00e4heb l\u00e4bi. Ma armastan v\u00e4rvivalik ja tola disain. 10 otsas
-  10 KEEN.\\nMolly\\nSt Lucia, Austraalia\\nChris \u00fctleb\\nLIKE! Mugavus, vaatama,
-  toetus. LIKE!!\\nWendy koosinuse \u00fctleb\\nMillised on erinevused stiilid? Ma
-  sain \u201ckalju\u201d stiili juures REI $79, aga vaata palju odavam stiilid on
-  huvitatud kodulehel.\\nJonathan Looi \u00fctleb\\nMa ei saa \u00f6elda kindlalt,
-  aga ma arvan, Keen rullitakse uuem, uuendatud versioon. Nii et odavam ones v\u00f5ib
-  olla vanem mudel?\\nmuneka \u00fctleb\\nMinu \u00f5de saatis mulle paar (Ma olen
-  PH, Ta on USA) kaks Christmases tagasi ja ma olen neid kasutanud minu matkad ajast.
-  Kaks aastat hiljem, see ikka tunneb sama, kui ma sain selle. Kindlasti parim leid,
-  kunagi. Tbh, midagi Keen on h\u00e4mmastav.\\nJonathan Looi \u00fctleb\\nJah, Olen
-  olnud seljas Uneeks peaaegu poolteist aastat n\u00fc\u00fcd ja nad on ikka nagu
-  uus!\\nbrad braden \u00fctleb\\nMinu web surfing, otsin rannajalatsite, Ma sattusin
-  Keen kootud sandaalid ja ei saanud neid peast. Tellitud paari ja kandsid neid 1
-  p\u00e4eval ja tellitud 3 rohkem paari. Ma n\u00e4en null miinuseid nende sandaalid
-  ja disain on ilus. Olen saanud mitmeid, \u201cKust sa need\u201d vaid 3 p\u00e4eva.
-  Ma elan Floridas ja need on minu iga p\u00e4ev jalatsid, t\u00f6\u00f6 ja kodu.
-  Ma v\u00f5ib olla kaotanud oma meelt, kuid ma armastan seljas neid ja, Nagu ma \u00fctlesin,
-  s\u00fcmmeetria projekteerimise ja unikaalsus on over the top. minu arvates! (Aga
-  ma olen \u00f5ige!)\\nbrad braden \u00fctleb\\nTuli j\u00e4lle postitada. Ma ei
-  saa aru, miks m\u00f5ned inimesed on probleem kaalu sandaalid. Ta ei ole kunagi
-  tekkis mulle olevat probleem ja ma olin, aastaid, flip flop kutt. Nad on v\u00e4ga
-  mugav ja, ma m\u00f5tlesin, kerge. Minu \u00fcks k\u00fcsimus oli mul oli pidev
-  venitamine ja l\u00f5\u00f5gastav n\u00f6\u00f6ride, et, p\u00e4rast teatud kulumist,
-  \u00fcks juhtmed v\u00f5iks kanda l\u00e4bi ja pausi, mis, sest seal on ainult 2
-  n\u00f6\u00f6rid, oleks \u00f5udusunen\u00e4gu m\u00e4\u00e4rata. Kuid lugedes kommentaare
-  kui mul, et ei ole ilmselt probleem. Ikka \u00f5nnelik merekarp koos sandaalid.\"",
-  "\"Teaduses ja igap\u00e4evaelus eeldatakse enamasti, et keel on v\u00f5imeline
-  osutama keelev\u00e4lisele reaalsusele, mis eksisteerib keelest ja inimkogemusest
-  s\u00f5ltumatult. Hiljuti Tartu \u00dclikooli filosoofia osakonnas doktorit\u00f6\u00f6
-  kaitsnud Henrik Sova leiab, et selline n\u00e4gemus keele ja maailma omavahelisest
-  suhtest on olemuslikult eksitav.\\nKui \u00f5pime koolis, et gravitatsioonikonstant
-  g = 9,81 m/s2, siis on loomulik arvata, et see v\u00e4ide kirjeldab objektiivset,
-  see t\u00e4hendab keelest ja inimestest eraldiseisvat maailma. Sova doktorit\u00f6\u00f6
-  keskmes olev pragmatistlik keelefilosoofia sunnib meid selle arvamuse osas hoolikalt
-  j\u00e4rele m\u00f5tlema.\\nLoe edasi ERR Novaatori artiklist. Tutvu ka Hendrik
-  Sova doktorit\u00f6\u00f6ga.\"", "\"Definitsioonid\\n1. Vikatit viskama\\nUttu t\u00f5mbama,
-  jalga laskma\\nSa oled nii t\u00fc\u00fctu, viitsid viska vikatit!\\nSeotud definitsioonid\\nPerseaugu
-  veenilaiendi. Kasutatakse ka kui on rasked ajad v\u00f5i midagi on \u00fcletamatu
-  raskusega.\\nHeikki jaoks oli see \u00f5udne kimaroi.\\nRahutu ahv, kes alati hakkab
-  essana haukuma ehk munadeta kits kelle kodu loom p\u00f5rsas pepa talle maha sittub
-  mida ta alati korrjab.\\nTriin: Tra hugo annan l\u00f5uga sulle kui \u00e3ra ei
-  l\u00f5ppeta.\\nHugo: haha hui ka\\nHugo mateti j\u00e3rgmisel sekundil 2018.\\nTriin
-  kargas r\u00f5\u00f5must.\\nN\u00e4rvi v\u00f5i vihale ajama\\nSee jobu k\u00e4ib
-  mulle juba teist n\u00e4dalat n\u00e4rvidele. See ajab mind nii kettasse\\n\u00ab
-  Eelmine\\nJ\u00e4rgmine \u00bb\"", "\"Nutitelefoni omanikuna ja \u00fclevaatajana
-  olen \u00fcllatunud pidevalt asjaolust, et nutitelefoni ettev\u00f5tted suudavad
-  igal aastal nutitelefonides \u00fcha rohkem tehnilisi pakendeid v\u00e4ga m\u00f5istlike
-  hindadega pakkida. Vaadake lihtsalt kaameraid nn eelarvevahendite pakendist. Te
-  saate kaks kaamerat, portree re\u017eiimi, v\u00e4ga v\u00e4hese valgustusega fotograafiat
-  ja palju muud. Eelarve nutitelefonide kaamerad paranevad kiiremini kui lipulaevade
-  seadmed. Nendel p\u00e4evadel, kui sa tahad head kaameratelefoni, ei pea te tohutut
-  raha l\u00f5hkuma. Tegelikult leiad m\u00f5ned v\u00e4ga head kaameratelefonid alla
-  20000 INR. \u00c4ra usu mind? Noh, siin on 10 parimat kaameratelefoni alla 20000
-  INR, mida saab osta:\\nParim kaamera telefon alla 20000 INR\\n1. Mi A2\\nXiaomi
-  Mi A1 oli \u00fcks parimaid nutitelefone, mida saab osta INR 20000 hinnapunkti all
-  ja ettev\u00f5te on just oma j\u00e4reltulija Mi A2, mis on osutunud \u00fcsna hea
-  eelarvega nutitelefoniks ja parimaks kaameratelefoniks alla 20000 INR . Ma armastan
-  selle nutitelefoni kaameraid, sest nad suudavad t\u00f5esti l\u00fc\u00fca. Esmane
-  kaamera toob 12 MP + 20 MP topeltkaamera kombinatsiooni, mis on \u00fcsna v\u00f5imas
-  . Kuigi 20MP kaamera kasutab Sony IMX376 andurit, on 12MP andur Sony IMX486, millel
-  on f / 1, 75 ava, suured 1, 25 um pikslid. See t\u00e4hendab, et nutitelefon v\u00f5tab
-  h\u00e4id fotosid heades valgustingimustes, kuid toob ka v\u00e4ga hea valgustugevuse.
-  Esmane kaamera suudab ka 4K salvestust, mis on suurep\u00e4rane. Esik\u00fcljega
-  20 MP laskur teeb inimv\u00e4\u00e4rset t\u00f6\u00f6d . Kuigi see ei ole \u00e4ris
-  parim, on see meie hinnaskaalas \u00fcleval.\\nR\u00e4\u00e4kides nutitelefoni muudest
-  omadustest, armastan ma Androidi kogemusi, mis on Android One seadme kasutamise
-  suurim eelis. Ma m\u00f5tlen, et nutitelefon on esimesena koosk\u00f5las Android
-  P-ga, mida veel sa tahad? Nutitelefon toob ka hea t\u00f6\u00f6tlemisv\u00f5imsuse.
-  Oma Snapdragon 660 kiibistikuga, mis on \u00fchendatud Adreno 512 GPU-ga, ei ole
-  te kunagi oma pettumuse p\u00e4rast pettunud. Muude funktsioonide hulka kuulub ilus
-  5, 99-tolline IPS LCD-ekraan, mille eraldusv\u00f5ime on 1080 x 2160 pikslit, 3000
-  mAh aku ja palju muud. Kui sa armastad stock-Androidi ja h\u00e4id kaameraid, siis
-  see on telefon, mida peaksite saama. Plus, uue Redmi M\u00e4rkuse 6 Pro vabastamisega
-  silmapiiril, on Xiaomi langetanud Mi A2 hinnad Rs-ga. 1000, nii et see on n\u00fc\u00fcd
-  saadaval veelgi parema alghinnaga Rs. 15, 999.\\nMi A2 kaamera proovid\\n1 5-stOsta
-  Amazonalt: \u20b9 15, 999\\n2. Huawei P20 Lite\\nHuawei k\u00e4ivitas 2018. aastal
-  kolm uut nutitelefoni, P20, P20 Pro ja P20 Lite. Kui esimesed kaks on peamised seadmed,
-  on P20 Lite hind alla 20 000 INR ja see oli \u00fcks meie esimesi valikuid selles
-  nimekirjas. Huawei P20 Lite sisaldab kahekordse primaarse kaamera seadistust 16MP
-  ja 2 MP anduriga . Kaamera ei v\u00f5ta ainult p\u00e4evavalguse fotosid, vaid v\u00f5tab
-  ka v\u00e4ga h\u00e4id fotosid v\u00e4hese valgusega ja \u00e4rge unustage portree
-  v\u00f5tteid. Ma m\u00f5tlen, lihtsalt kasutage seda telefoni ja teid \u00fcllatab
-  kaamera kvaliteet.\\nNutitelefoni pakendis on ka 24MP eesmisega suunatud veeretaja
-  koos f / 2.0 apertuuriga, mis v\u00f5ib v\u00f5tta fantastilisi selfiesid. K\u00f5ige
-  parem on see, et see v\u00f5ib v\u00f5tta ka portree-ise\u00e4rasusi ja teostada
-  3D-portree valgustusefekte, nagu iPhone X. Kui otsite head kaameratelefoni alla
-  20000 INR, l\u00f5peb otsing siin.\\nM\u00e4rkus: meil pole veel P20 Lite jaoks
-  kaameraproove, kuid v\u00e4rskendame artiklit varsti nendega.\\nOsta Amazonalt :
-  \u20b9 19999\\n3. Realme 2 Pro\\nOppo Realme''il ja Realme 2-l v\u00f5ib olla kaamerad,
-  kuid Realme 2 Pro on kindlasti telefon, mis v\u00e4\u00e4rib seda nimekirja. Realme
-  2 Pro on varustatud 16MP + 2MP kahekordse tagakaameraga ning see v\u00f5tab suurep\u00e4raseid
-  pilte peaaegu k\u00f5ikides valgustingimustes. Fotodel on m\u00fcra v\u00e4hese
-  valgusega, kuid need on kindlasti hinna jaoks head. Telefonis on ka 16MP selfie
-  kaamera, mis v\u00f5ib v\u00f5tta korralikke kvaliteetseid kaadreid. Taustavalgustusega
-  tingimustes on probleeme, millel on \u00fcleekspositsiooniga taust, kuid siiski
-  on siin kaamera ise rahuldav. V\u00f5ite vaadata m\u00f5ningaid kaadreid, mida me
-  koos Realme 2 Pro''ga tegime, ja n\u00e4eme ise, kuidas see kaamera telefon toimib.\\nTeistel
-  rindel peale kaamerate toob Realme 2 Pro kaasa Snapdragon 660 ja sisaldab kolme
-  varianti: 4GB / 64GB, 6GB / 64GB ja 8GB / 128GB . Telefonil on t\u00f5esti uskumatu
-  j\u00f5udlus ja nagu me oma t\u00e4ielikus \u00fclevaates \u00fctlesime: \u201e\u00d5igus
-  laagrist v\u00e4lja, seade lihtsalt l\u00f6\u00f6b mistahes \u00fclesande, mida
-  sa selle peale viskad.\u201d Realme 2 Pro on kindlasti hind, mis v\u00e4\u00e4rib
-  oma hinnasildi ja ''Pro'' silt, mille Realme on oma nime juurde lisanud.\\nRealme
-  2 Pro kaamera proovid:\\n1/6Osta Realme 2 Pro Flipkartilt (algab Rs. 13, 999)\\n4.
-  Redmi m\u00e4rkus 6 Pro\\nXiaomi Redmi Note 6 Pro on kindlasti \u00fcks parimaid
-  kaameratelefone Rs all. 20.000. Telefonis on 12MP + 5MP topeltkaamera, mis on sama
-  nagu Redmi Note 5 Pro. Kuid sellel ajal on peakaamera \u00fcmber laiem f / 1, 9
-  ava ja kaamera j\u00f5udlus on niikuinii paranenud. Redmi Note 6 Pro tagakaamerast
-  p\u00e4rit fotod on heas valguses k\u00fcllaltki suured, kuid see on halvas valguses,
-  kus telefoni f / 1, 9 ava tegelikult paistab . Redmi m\u00e4rkuse 6 Pro madala valgustusega
-  pildid on \u00fcsna head ja tunduvalt paremad kui Redmi M\u00e4rkus 5 Pro, mis varem
-  meie nimekirjas seda kohta kasutas.\\nRedmi Note 6 Pro on ka esimene Xiaomi telefon,
-  millel on kaks selfie-kaamerat. Telefonis on 20MP + 2MP topeltkaamera, mille esikaamerad
-  on k\u00f5ikides tingimustes p\u00e4ris suured. Kas see on v\u00e4hese valguse v\u00f5i
-  hea valgusega, osutavad Redmi Note 6 Pro esikaamera pildid \u00fcsna headeks. T\u00e4nu
-  eesmisele 2MP s\u00fcgavusandurile on Redmi Note 6 Pro portreefailidel t\u00f5esti
-  hea serva tuvastamine ja bokeh on \u00fcldjuhul parem. See on kindlasti telefon,
-  mida saate kaaluda, kui otsite h\u00e4id kaameraid Rs all. 20.000.\\nM\u00e4rkus:
-  Meil ei ole veel Redmi Note 6 Pro jaoks kaameraproove, kuid v\u00e4rskendame artiklit
-  varsti nendega.\\nOsta Redmi Note 6 Pro Flipkartilt (algab Rs. 13, 999)\\n5. Honor
-  Play\\nTeine suur kaamera telefon all Rs. 20 000, auhindu v\u00f5idakse turustada
-  m\u00e4ngijatele nagu telefon, kuid sellega kaasneb p\u00e4ris korralik kaamera
-  hind. Telefonis on 16MP + 2MP kahekordne tagumine kaamera, mis suudab v\u00f5tta
-  korralikke kaadreid. Hea valguse korral v\u00f5tab telefon m\u00f5ned v\u00e4ga
-  head pildid, millel on piisavalt detaile ja suurep\u00e4raseid v\u00e4rve . Lisaks,
-  kui olete Samsungi sarnaste fotode f\u00e4nn, on olemas AI-suvand, mida saate kasutada,
-  sest see on p\u00f5hiliselt \u00fcle k\u00fcllastunud pilte, mis muudavad need n\u00e4gemisv\u00f5imelisemaks.
-  Isiklikult eelistan ma loomulikku v\u00e4rvi, kuid on tore, et vajaduse korral tekib
-  v\u00f5imalus saada rohkem l\u00f6\u00f6ke.\\nHonor Play''il on ka 16MP f / 2.0
-  eesmine kaamera, mis v\u00f5tab korralikud enesed. Siiski esineb m\u00f5nikord probleeme,
-  mis v\u00f5ivad m\u00f5nikord \u00fcle teritada, ja kui taustal on \u00fcleekspositsioon,
-  on kindlasti aega. \u00dcldiselt on eesmine kaamera siin kindlasti meeldiv, pluss
-  on portree re\u017eiim ja portree valgustusefektid, mis sarnanevad iPhone''i sarnaste
-  telefonidega. See on \u00fcsna muljetavaldav.\\nVideote puhul toetab Honor Play
-  4K videote salvestamist 30FPS ja 1080p juures 60FPS . Telefonis on EIS, kuid see
-  k\u00e4ivitub ainult 1080p videote jaoks, nii et 4K-s salvestatud videod on stabiilsusega
-  seotud. \u00dcldiselt on siin videom\u00e4ngude esitamine k\u00fcllaltki keskmine,
-  kuid kui see ei ole teie jaoks probleem, on auavalduse fotod kindlasti v\u00e4\u00e4rt.\\nAusta
-  m\u00e4ngukaamera proove\\n1/6Osta auhindu Amazonalt (Rs. 19, 999)\\n6. Realme U1\\nRealme
-  on k\u00e4ivitanud palju nutitelefone ja Realme U1 on vaid \u00fcks Realme''i telefonidest,
-  mis on oma hinna eest muljetavaldavate kaameratega. Telefonis on 13MP + 2MP kahekordne
-  tagumine kaamera, mis v\u00f5tab v\u00e4ga head pildid. Hea valguse korral on Realme
-  U1 tagakaamerate j\u00f5udlus suurep\u00e4rane. M\u00f5nikord on probleeme \u00fcle
-  teritamisega, kuid see ei ole v\u00e4ga tavaline ning k\u00f5ik Realme U1 tagakaamerate
-  pildid osutuvad piisavalt korralikuks.\\nEsik\u00fcljel on Realme U1 kaasas 25MP
-  kaamera, mis suudab v\u00f5tta h\u00e4id pilte. Hea valguse korral on Realme U1
-  eesmise laskuri j\u00f5udlus ilmselgelt hea, kuid see toimib isegi v\u00e4ga h\u00e4sti
-  v\u00e4hese valgusega olukordades, mis on kindlasti muljetavaldavad. Tegelikult
-  on Realme U1 selfie-kaamera parem kui Realme 2 Pro-is, ja see t\u00e4hendab midagi,
-  sest Realme 2 Pro-l on muljetavaldavad kaamerad. Kui aga objektide taga on valgusallikaid,
-  siis U1 eesmine kaamera kipub neid paljastama.\\nVideokvaliteedi osas saab Realme
-  U1 pildistada ainult 1080p juures (siin ei ole 4K tuge) ja isegi siis ei ole video
-  kvaliteet siin midagi muljetavaldavat. V\u00e4rvid on enamasti t\u00fchjad ja videod
-  lihtsalt ei n\u00e4e nii head. Kuid kui sa ei tulista palju videoid, ei lase Realme
-  U1 sind alla.\\nRealme U1 kaamera proovid\\n1 8-stOsta Realme U1 Flipkartilt (algab
-  Rs. 13, 990)\\n7. Honor 8X\\nHonor 7X oli varem meie nimekirjas mainitud kui \u00fcks
-  parimaid fotoaparaadi nutitelefone alla 20 000 ruupiat. Kuid Honor on n\u00fc\u00fcdseks
-  oma j\u00e4reltulija - Honor 8X-i ja n\u00fc\u00fcdseks 7-kordselt paranenud. Honor
-  8X on varustatud 19, 5: 9 ekraaniga, millel on s\u00e4lg, Kirin 710 protsessor,
-  kuni 6 GB RAM ja kuni 128 GB m\u00e4lu. Honor 8X pakendites on topelt 20MP + 2MP
-  tagumine kaamera koos 16MP esikaameraga ja see v\u00f5tab hinna eest p\u00e4ris
-  korralikke pilte. Kuigi see ei ole tegelikult nii hea kui kaamera A2, on see kindlasti
-  veel hea valik. Lisateabe saamiseks v\u00f5ite lugeda ka meie \u00fcksikasjalikku
-  \u00fclevaadet Honor 8X-st v\u00f5i meie 8-kordse Honor 8X-kaamera \u00fclevaatest.\\nSee
-  ei ole ainult specs, Honor 8X pakendites ka m\u00f5ningates muljetavaldavates kaamera
-  funktsioonides. Seal on spetsiaalne kerge maalimisre\u017eiim, mis v\u00f5imaldab
-  teil luua fantastilisi kergeid maali kaadreid, ilma et peaksite viima pro-re\u017eiimi
-  juhtelementidega. Ka on \u00f6ise re\u017eiim, kuid see ei ole nii nagu Pixel 3
-  v\u00f5i P20 Pro. See v\u00f5imaldab lihtsalt reguleerida ISO ja katiku kiirust,
-  et koguda rohkem valgust v\u00e4hese valgustusega tingimustes ja seda on lihtsam
-  kasutada kui t\u00e4isprotsessi re\u017eiimi. Honor 8X on varustatud kaamera funktsioonidega,
-  mis sobivad peaaegu igasuguse vajadusega kaamerast, mist\u00f5ttu tasub kindlasti
-  kaaluda.\\n8X kaamera proovide austamine\\n1/7Osta auhind 8X Amazonalt (algab kell
-  14, 999)\\n8. Asus ZenFone Max Pro M1\\nMul oli palju vastuolulisi tundeid selle
-  nutitelefoni lisamisel sellesse nimekirja. Asjaolu, et see maksab ainult INR 10,
-  999, tahtis, et ma selle nimekirjast v\u00e4lja j\u00e4etaks, kuid seade pakib kaameratesse
-  nii rasket l\u00f6\u00f6ki, mida ma ei saanud nimekirjast v\u00e4lja j\u00e4tta.
-  Saate lugeda k\u00f5ike oma kaamera j\u00f5udlusest meie t\u00e4ielikus \u00fclevaates,
-  kuid TLDR versioon on see, et selle telefoniga kaamerad andsid Redmi Note 5 Pro-le
-  v\u00e4ga raske pildi . N\u00e4hes, kuidas telefon maksab 1/3 Redmi M\u00e4rkuse
-  5 Pro-st, on see suur saavutus.\\nL\u00e4bivaadatud telefonil oli tagak\u00fcljel
-  13MP + 5MP topeltkaamera andur ja eesmine 8MP kaamera. Esmane kaamera v\u00f5ttis
-  suure p\u00e4evavalguse. Isegi portree re\u017eiimi kaadrid tulid suureks . Kuid
-  telefon oli madalvalgustuse tingimustes kannatanud. Samuti ei saa eesmine kaamera
-  konkureerida m\u00f5ne muu selle nutitelefoniga. See t\u00e4hendab, et selle seadme
-  hinda vaadates ei ole mul palju kaebusi. Peaksite kaaluma ka asjaolu, et Zenfone
-  Max Pro''l on k\u00f5rgema hinnaga versioon, mis uuendab kaameraid .\\nZenFone Max
-  Pro M1 kaamera proovid\\nM\u00e4rkus: Asus alustab ZenFone Max Pro M2 k\u00e4ivitamist
-  m\u00f5nikord detsembris ja kui kavatsete osta ZenFone Max Pro M1, soovitan teil
-  oodata enne otsuse tegemist.\\nOsta alates Flipkart: algab 999 10, 999\\n9. Moto
-  1 v\u00f5imsus\\nMotorola k\u00e4ivitas hiljuti ka Moto 1 Poweri ja telefonipaketid
-  ka korralikesse kaameratesse. Tagak\u00fcljel on telefonis 16MP f / 1.8 + 5MP f
-  / 2.2 topeltkaamera, mis on v\u00f5imeline pildistama. Hea valguse korral v\u00f5tab
-  telefon kena ja karge fotosid ning \u00f5nnestub hoida v\u00e4rve v\u00f5imalikult
-  l\u00e4hedasel loomulikul tasemel koos kauni tasakaaluga kujutiste s\u00e4rituse
-  ja teravuse vahel. Halvas valguses aga asjad tabavad ja pildid osutuvad veidi pehmeks,
-  kuid see ei ole mingil moel murdja.\\nSiin on ka portree-re\u017eiim, nii et saate
-  teha kaadreid selle kena, pehme bokehefektiga. M\u00f5nikord on telefonil serva
-  tuvastamisega probleeme. Esik\u00fcljel on Moto 1 Power''il \u00fcks 12MP kaamera,
-  mis on \u00fcsna hea isehuvilistele. Kaamera v\u00f5tab h\u00e4id valgustingimusi
-  heades valgustingimustes ja kuigi kaadrites on m\u00fcra, ei ole see tegelikult
-  n\u00e4htav, kui te ei vaata liiga l\u00e4hedalt.\\nMoto 1 Power asub ka m\u00f5ne
-  oma hinnaskaalas asuva telefoniga, mis toetab 4K videote pildistamist, ning kuigi
-  videod n\u00e4evad heade ja p\u00f5nevate v\u00e4rvidega hea v\u00e4lja, pole siin
-  stabiliseerumist, nii et peate taluma m\u00f5nda v\u00e4risemist videoid. See t\u00e4hendab,
-  et Moto pakub p\u00e4rast salvestamist stabiliseerimisfunktsiooni, mida saate kasutada
-  veidi paremate tulemuste saamiseks.\\nMoto 1 toitekaamera proovid\\nOsta Moto 1
-  v\u00f5imsus Flipkartilt (Rs. 15, 999)\\n10. Moto G6\\nMoto G6 on teine nutitelefon,
-  mis toob p\u00e4ris suurep\u00e4rased kaamerad Rs alla. 20.000. Nutitelefoni paketid
-  on 12MP + 5MP topelt tagakaameras, mis v\u00f5tab p\u00e4ris suurep\u00e4raseid
-  fotosid. Lisaks on olemas ka 16MP eesmine kaamera, mis v\u00f5ib v\u00f5tta v\u00e4ga
-  palju enesetunde. Esikaameras on ka grupi selfie-re\u017eiim, nii et isegi kui teil
-  on suur grupp s\u00f5pru, siis ei ole teil raskusi Moto G6-ga awesome selfiesega.
-  Samuti on ees ees olev v\u00e4lk, nii et v\u00e4hese valgusega isikud ei ole probleemiks.\\nAlustades
-  Rs. 13, 999, Moto G6 toob klapile muljetavaldavad kaamerad ja pakid spetsifikatsioonides,
-  mis on pisut segaduses, kui v\u00f5rrelda neid selliste telefonidega nagu Mi A2
-  v\u00f5i Redmi Note 5 Pro. G6 paketid Snapdragon 450 protsessoriga, mis on \u00fchendatud
-  kuni 4 GB RAM-iga koos 3000 mAh akuga, et asjad t\u00f6\u00f6taksid. Sellele lisandub
-  asjaolu, et kuigi telefoni 5, 7-tolline FullHD + ekraan on ekraanil 18: 9, on siin
-  ja l\u00f5ug m\u00e4rkimisv\u00e4\u00e4rselt suured, kui Moto on pakitud telefoni
-  ees olevale s\u00f5rmej\u00e4lje skannerile. Siiski, kui otsite korraliku kaameraga
-  telefoni, mis hakkab h\u00e4sti hakkama saama v\u00e4hem intensiivsetest \u00fclesannetest,
-  on Moto G6 hea valik.\\nM\u00e4rkus: Meil ei ole veel Moto G6 kaameraproove, kuid
-  v\u00e4rskendame artiklit varsti nendega.\\nOsta Moto G6 Flipkartilt (algab Rs.
-  13, 999)\\n11. Vivo V9 Pro\\nVivo V9 Pro on ka p\u00e4ris suur kaamera nutitelefon
-  alla 20 000 INR, mida saate kaaluda. Telefonis on 13MP + 2MP topelt tagumine kaamera,
-  mis on v\u00f5imeline pildistama mitmesugustes valgustingimustes. On selge, et kuna
-  tegemist on kahekordse kaameraga nutitelefoniga, v\u00f5ib see ka v\u00f5tta portree
-  re\u017eiimi kaadreid ning need n\u00e4evad ka korralikult hea. Telefonis on ka
-  16MP eesmine kaamera, mis on ka p\u00e4ris kindel esineja. Peale selle on V9 Pro''l
-  ka AI-p\u00f5hine HDR-re\u017eiim, mis v\u00f5imaldab teie kaadrites veelgi t\u00e4psemat
-  teavet saada . Sa peaksid kindlasti vaatama V9 Pro-d, kui otsite suurep\u00e4raseid
-  kaamera nutitelefone all Rs. 20.000.\\nLisaks sellele on Vivo V9 Pro-l ka Snapdragon
-  660 protsessor, mis suudab h\u00f5lpsasti toime tulla enamike \u00fclesannetega,
-  kaasa arvatud m\u00e4ngimine, ning see on \u00fchendatud 4 GB RAM-i ja 64 GB pardal
-  oleva m\u00e4luseadmega . Lisaks sellele j\u00e4rgib see k\u00f5iki nutitelefonimaailma
-  viimaseid suundumusi, pealt on ka bezel-ekraan, mille peal on s\u00e4lk, tagak\u00fcljel
-  asuv s\u00f5rmej\u00e4lje skanner, microSD-kaardi pesa ja korralikult piisavalt
-  suur 3, 260 mAh aku . Nii et jah, Vivo V9 Pro on kindlasti suurep\u00e4rane kaamera
-  ja kogu telefoni all Rs. 20.000.\\nM\u00e4rkus: Meil ei ole veel Vivo V9 Pro jaoks
-  kaameraproove, kuid v\u00e4rskendame artiklit varsti nendega.\\nOsta Vivo V9 Pro
-  firmalt Flipkart (Rs. 15, 990)\\n12. Oppo F9\\nVarem oli selles nimekirjas Oppo
-  F7 ja selle asemel on selle asemel asendatud uus Oppo F9. Oppo F9 on varustatud
-  tahke 16MP + 2MP kahekordse tagakaameraga, mis v\u00f5tab \u00fcksikasjalikke fotosid
-  enamikus tingimustes ja on kindlasti p\u00e4ris suur kaamera. Lisaks sellele on
-  ka 16MP eesmine kaamera ka fantastiline ja v\u00f5ib olla hea v\u00e4limusega. Oppo
-  F9 -s on ka slo-mo-videofunktsioon, nii et saate ka m\u00f5ned muljetavaldavad videod.
-  Telefonil on AI kaunistamise funktsioon, mis ei pruugi olla k\u00f5igile meeldiv,
-  aga kui sulle see meeldib, on see p\u00e4ris muljetavaldav.\\nK\u00f5ike seda kasutades
-  kasutab telefon mitte ainult topelt tagakaamerat, vaid ka AI, et saada portree re\u017eiimi
-  kaadrid \u00f5igesti ja tulemused on \u00fcsna muljetavaldavad, eriti seet\u00f5ttu,
-  et AI siin p\u00fc\u00fcab tagada (enamikul juhtudel), et valgustus l\u00f5ppkujutises
-  tundub hea. Lisaks kaameratele on Oppo F9 kaasas Helio P60 protsessor, mis on korralik
-  esineja ja on \u00fchendatud 4GB RAM-i ja 64GB m\u00e4luga . Telefon ei tohiks enamikel
-  \u00fclesannetel tekkida. Kui otsite suurt kaameratelefoni alla 20000 INR, on Oppo
-  F9 teie t\u00e4helepanu v\u00e4\u00e4rt.\\nM\u00e4rkus: Meil ei ole veel Oppo F9
-  kaamerat, kuid v\u00e4rskendame seda varsti nendega.\\nOsta Oppo F9 Flipkartilt
-  (Rs. 18, 990)\\nV\u00f5ta suurep\u00e4raseid fotosid nende fantastiliste kaameratelefonidega\\nSee
-  l\u00f5petab meie parimate kaameratelefonide nimekirja, mida saate osta Indias alla
-  20000 INR. Oleme selles hinnaskaalas sisaldanud parimad kaameratelefonid. M\u00f5ned
-  neist on suured ise\u00e4rasustes, m\u00f5ned pakuvad suurep\u00e4raseid madalvalgustusega
-  fotosid ja m\u00f5ned pakuvad suurt \u00fcldist kaamera kogemust. Andke meile teada
-  oma lemmik kaameratelefoni, kustutades selle nime allpool olevasse kommentaaride
-  sektsiooni.\"", "\"Minu mees suudab neljas saade; Kristi ja Kalju\\nfoto: Kanal
-  2\\n\u00abMinu mees suudab\u00bb neljandas saates v\u00f5idutsesid Kristi ja Kalju\\n(35)\u00abMinu
-  mees suudab\u00bb neljandas saates panid end proovile Keiri ja Arvi J\u00fcrilt,
-  Moonika ja Eero Tallinnast, Kristi ja Kalju Tammep\u00f5llult ning Evely ja Toomas
-  Igaverest.\\nNeljanda saate \u00fclesanded\\n1. Kui kaua suudab sinu mees rippuda,
-  jalgpall jalgade vahel ning keedetud muna lusikal suus? Moonika mees Eero sai \u00fclesandeks
-  niimoodi rippuda poolteist minutit, kuid see tal ei \u00f5nnestunud.\\n2. Kui pika
-  koore suudab sinu mees \u00f5unalt \u00fches t\u00fckis koorida \u00fche minutiga?
-  Kalju pidi koorima 35 sentimeetri pikkuse riba, millega ta ka hakkama sai.\\n3.
-  Mitu k\u00fcmnest v\u00f5\u00f5rkeelest tunneb sinu mees \u00e4ra? Evely pakkus,
-  et Toomas tunneb \u00e4ra kolm keelt. Paraku tundis mees \u00e4ra vaid kaks keelt.\\n4.
-  Kui kiiresti suudab sinu mees parkida limusiini etteantud parkimiskohale? Moonika
-  oli kindel, et Eero suudab seda teha pooleteise minutiga. Mehe jaoks oli \u00fclesanne
-  v\u00f5rdlemisi lihtne. Esimesena langesid saatest Keiri ja Arvi.\\n5. Kui madala
-  limbolati alt suudab sinu mees l\u00e4bi minna? Kalju sai Kristi seatud \u00fclesandega
-  hakkama ja l\u00e4ks l\u00e4bi 1,35 meetri k\u00f5rguse limbolati alt.\\n6. Mitu
-  viilu sidrunit koos koorega suudab sinu mees pooleteise minutiga \u00e4ra s\u00fc\u00fca?
-  Toomas pidi \u00e4ra s\u00f6\u00f6ma viis viilu, kuid k\u00f5ik need tal alla ei
-  l\u00e4inud. Evely ja Toomas pidid seej\u00e4rel saatest lahkuma.\\n7. Kui kaugele
-  suudab sinu mees golfipalli s\u00fclitada? Kalju \u00fcletas Kristi pakutud 1,5
-  meetri piiri m\u00e4ngleva kergusega. 5000-eurose auhinna v\u00f5itsidki Kristi
-  ja Kalju.\\nAllikas: http://www.elu24.ee/?id=995886\"", "\"Valitsus kiitis t\u00e4na
-  heaks seadusemuudatuse, mille tulemusel saab kiiremini ja paindlikumalt piirata
-  uute narkootiliste ainete levikut ja k\u00e4itlemist ning ennetada nende tarvitamisest
-  tekkivaid probleeme.\\nTervise- ja t\u00f6\u00f6minister Jevgeni Ossinovski s\u00f5nul
-  on uue regulatsiooni eesm\u00e4rk v\u00e4hendada uute narkootiliste ainete tellimist
-  ja tarvitamist, kuna seni on ainete populaarsuse aluseks olnud muuhulgas nende kasutamise
-  seaduslikkus, teatas sotsiaalministeerium.\\nNii Eestis kui ka mujal Euroopa Liidus
-  on uute ainete turule ilmumine ja levik t\u00f5usuteel. Seadusemuudatus aitab t\u00f5husamalt
-  piirata uute narkootiliste ainete levikut. Luuakse v\u00f5imalus panna uued ained
-  k\u00e4itlemispiirangute all r\u00fchmadena, kuhu kuuluvad sarnase struktuurivalemiga
-  ained. See t\u00e4hendab, et edaspidi ei ole vaja \u00fckshaaval piirata samasse
-  ainer\u00fchma kuuluvaid aineid.\\n\u00abN\u00e4iteks kui varem tuli turule uus
-  s\u00fcnteetiline kanep, pidi selle m\u00fc\u00fcki ja levitamist eraldi piirama.
-  Uue seadusemuudatusega on aga k\u00f5ikide s\u00fcnteetiliste kanepite m\u00fc\u00fck
-  ja levitamine automaatselt piiratud,\u00bb \u00fctles Ossinovski.\\nEelnevalt toimus
-  uute ps\u00fchhoaktiivsete ainete lisamine narkootiliste ja ps\u00fchhotroopsete
-  ainete nimekirja ravimiameti ettepanekul \u00fcksikult. See oli sotsiaalministeeriumi
-  s\u00f5nul aegan\u00f5udev protsess, mis kestis v\u00e4hemalt kaks kuud ja tekitas
-  olukorra, kus reageerimine toimus tagantj\u00e4rele.\\n2013. aastal teatati Euroopa
-  Liidus 81 uuest ps\u00fchhoaktiivsest ainest ning 2014. aastal juba 101-st. Tegelik
-  uute ps\u00fchhoaktiivsete ainete hulk v\u00f5ib olla isegi suurem. Eeln\u00f5uga
-  kehtestatakse 14 r\u00fchma.\"", "\"teisip\u00e4ev, 29. november 2016\\nJOOSEPI
-  VINGE ESITLUS!\\nT\u00e4na r\u00e4\u00e4kis Joosep meile Horvaatiast. Ettekanne
-  oli v\u00e4ga p\u00f5hjalik ning huvitav.\\nT\u00e4nu Joosepile teame n\u00fc\u00fcd
-  milline on Horvaatia lipp, kui soe v\u00f5i k\u00fclm seal riigis on, kui palju
-  on seal saari ning et seal on k\u00f5rged m\u00e4ed. Lisaks r\u00e4\u00e4kis Joosep
-  meile Plitvice rahvuspargist, Gale\u0161njakist ehk armastuse saarest, Humist ehk
-  maailma v\u00e4ikseimast linnast ja \u00fchest maailma kitsamaist t\u00e4navast.
-  Saime ise katsuda ka p\u00e4ris koralli, teada millised on seal riigis ohud ujumisel
-  ning mis asi on snorgeldamine.\\nHorvaatia riigi tutvustus oli v\u00e4ga p\u00f5nev
-  ning t\u00e4nu ilmekatele piltidele veelgi huvitavam.\\nAit\u00e4h Joosepile ja
-  tema perele!\\nT\u00fcdrukutes tekitas elevust muidugi armastuse saar..\\nPeale
-  Joosepi ettekannet m\u00e4ngisaime gruppides ka m\u00e4ngu \\\"Mida reisile kaasa
-  v\u00f5tta\\\". K\u00f5ik grupid said \u00fcheskoos valida kuhu riiki nemad reisile
-  sooviksid minna ning iga laps sai siis 2 asja seekord \u00fchisesse kohvrisse panna.\\nKohvrid
-  tulid v\u00e4ga vahvad!\\nKommentaare ei ole:\\nPostita kommentaar\"", "\"Osa\u00fching
-  Nare (10060167)\\n\u00dcldine\\nOsa\u00fching Nare (registrikoodiga 10060167) on
-  registrisse kantud osa\u00fching, mis asutati 1996-08-15.\\nT\u00e4psemaid detaile
-  vaata \u00c4riregistrist .\\nAsukoht\\nOsa\u00fching on registreeritud aadressil
-  Harju maakond, Tallinn, Kesklinna linnaosa, Tartu mnt 16-34 (2227081).\\n59\u00b0
-  25'' 59.99\\\" N, 24\u00b0 45'' 44.16\\\" E\\nSeotud firmad ja asutused\\nSamal
-  aadressil on registreeritud kokku 2 ettev\u00f5tet v\u00f5i muud organisatsiooni:\\nEhitised\\nAadressil
-  Harju maakond, Tallinn, Kesklinna linnaosa, Tartu mnt 16-34 (2227081) asuvad j\u00e4rgnevad
-  ehitised:\\nL\u00e4hedal asuvad ettev\u00f5tted\\nKilomeetri raadiuses on registreeritud
-  veel j\u00e4rgmised organisatsioonid.\\nMuu\\nOsa\u00fching Nare majandusaasta aruandeid,
-  omanikke ja juhatuse liikmeid vaata e-\u00c4riregistrist.\"", "\"Cxo\u0436\u0438e
-  \u043fpo\u0434ykT\u044b\\nLowrance kajaloodi kinnitusots 1.5\\\" kuuliga, mis on
-  disainitud spetsiaalselt Lowrance 4\\\", 5\\\" ja 7\\\" Mark/Elite/Hook ja Elite
-  Ti seeria kajaloodidele. Seda t\u00fc\u00fcpi 1.5\\\" kuulkinnitused on arvestatud
-  kuni 5 kg turvalise kandev\u00f5ime jaoks. 1.5\\\" kinnitusi soovitame kasutada
-  just 5\\\" ja 7\\\" ekraanide puhul. Kergematel 4\\\" kajaloodidel v\u00f5iks kasutada
-  1\\\" kuuliga kinnitusi.\\nApT\u0438ky\u043b: 10126\\n29,00 \u20ac\\nKajaloodijalg
-  RAM\u00ae RAM-101U-B-XAT1 on m\u00f5eldud kajaloodi vms seadme kinnitamiseks \u00f5hemale
-  pinnale (\u00f5huke plastik, plekk vms). Sageli on v\u00e4iksemate paatide konsoollid
-  \u00fcsna \u00f5hukesed ja vajavad turvalisemat kinnitust, kui -4 sissekeeratud
-  kruvi. Antud komplekti kinnitusel on olemas roostevaba vastasplaat sissel\u00f5igatud
-  vindiaukudega, mis muudab \u00f5hema kinnituskoha tugevaks ja hoiab teie hinnalist
-  seadet turvaliselt aluspinna k\u00fcljes. Seadmekinnitusots on \u00fcmar plaat keskosas
-  asuva kruvikinnitusega, mis sobib fotoaparaatidele, videokaameratele ja paljudele
-  muudele seadmetele. Loomulikult v\u00f5ib soetada ka m\u00f5ne teise kinnitusotsa.
-  Nagu RAM puhul ikka on tegemist korraliku ja tugeva oks\u00fcdeeritud merealumiiniumist
-  asjaga. Kuulliigendid on ikka kummeeritud. Eriti mugav kasutada seadmetega, mida
-  on turvakaalutlustel vaja sageli maha v\u00f5tta - selleks kulub koos juhtmete eemaldamisega
-  vaid sekundeid.\\nApT\u0438ky\u043b: 10228\\n89,00 \u20ac\\nKettakujuline 8 kg ankur.
-  Hoiab h\u00e4sti paati ka pehmemas p\u00f5hjas ja ei j\u00e4\u00e4 v\u00f5rreldes
-  k\u00e4ppankruga nii naljalt kivide-k\u00e4ndude vahele l\u00f5plikult kinni. Sobib
-  h\u00e4sti kasutamiseks koos elektrilise Stronger ankruseadmega. Sobiv kasutamiseks
-  4-5 m paatidega.\\nApT\u0438ky\u043b: 10575\\n70,00 \u20ac\\nRAM kinnituse \u00fchendus\u00fcli
-  ilma otsteta, l\u00fchike variant. M\u00f5eldud 1,5\\\" kuuliga otstele. Selliste
-  kinnituste turvaline kandev\u00f5ime on ca 5 kg. Vastavalt kasutatavale seadmele
-  vali meie pakutavast sobivad kajaloodi-, kaamera-, reelingu- ja muud kinnitusotsad
-  selle jala juurde.\\nApT\u0438ky\u043b: 10719\\n39,00 \u20ac\""]'
-src_ngrams: '{"1": [[["v\u00f5ib"], 20927794], [["kuid"], 17112049], [["eesti"], 17011109],
-  [["kes"], 15403647], [["p\u00e4rast"], 13681447]], "2": [[["v\u00f5ib olla"], 3063429],
+sample: '["\"Kes on see kirjanik, Vasaku jala reede. Esialgseid andmeid sellest igap\u00e4eva
+  toote kasutamisest v\u00f5ib leida 6 sajandi Hiinast.M\u00f5is sai alguse 16. sajandi
+  et vastavalt M\u00fcnnichi soovile m\u00f5\u00f5tis kirikueestseisja Kellner rae
+  n\u00f5usolekul 11 jala pikkuse ja 10 jala laiuse.Veel 20. sajandi algul kasutasid
+  Hiiumaa ja Loode-Eesti ranniku See n\u00f6\u00f6r l\u00fc\u00fcakse ette t\u00f5mmatakse
+  pingule ja m\u00e4ssitakse \u00fcmber jala nii kuidas.Neitsitorn-Mainiti esmakordselt
+  1373 Tallitorn-Torni \u00fclaosa sai 1577 pommitamises kahjustada Pika jala v\u00e4ravatorn-Rajatud
+  17. sajandi l\u00f5pus L\u00fchikese jala v\u00e4ravatorn.Free shipping BOTH ways
+  on shoes, clothing and more, from our vast selection of styles. Fast delivery, and
+  24/7/365 real-person service with a smile. Click.Kuidas on see uurimus seotud arengubioloogiaga?
+  t\u00f6\u00f6s Tartust Devoni paljanditest leitud luukilpidega kalu \u2013 ostrakoderme
+  \u2013 kilpkonnadeks. geenide ekspressiooni uime ja jala kasvamisel ning selle evolutsioonilisi
+  muutusi. [Transmutatsioon (transmutation) \u2013 19. sajandi termin evolutsiooni
+  kohta \u2013 Ivar Puura].\\nMaria, 33-aastane: \u201cOlin \u0161okeeritud, kui ma
+  n\u00e4gin, et parema jala luu kasvab. Alguses ma arvasin, et see oli kasvaja. Arst
+  selgitas, et see valgus deformatsioon.14. sajandi meeste r\u00f5ivastus. Eks seal
+  omajagu kadedust ka sees oli. Keskmiselt oli kinganina 45 cm pikk ja kinnitati p\u00f5lve
+  juurest n\u00f6\u00f6riga.Because we believe that you shouldn\u2019t have to provide
+  personal information to participate in the free knowledge movement, you may: Read,
+  edit, or use any Wikimedia.Official account for Royal North Shore Hospital. See
+  more of Royal North Shore Hospital on Facebook. Kevin Luu, former patient.See artikkel
+  on P\u00e4rnu linnast; 13 Vanimad luu- ja sarvriistade leiud on p\u00e4rit 1973.
+  aastal arvati keskaegse ja 17. sajandi l\u00f5pu t\u00e4navav\u00f5rgu s\u00e4ilitanud.Nissi
+  naise r\u00f5ivad 19. sajandi keskel ja teisel poolel. See kuub tehti kolmest riidelaiast,
+  Sukad olid p\u00f5lve alt kalasabaliste s\u00e4\u00e4repaeltega \u00fcmber.\\nlukk
+  p\u00f6idla osta Minskis\\nsajandi l\u00f5pul eesti luules, see oli, et motiividelutule,
+  kui Koht luu-letisest, mis on k\u00f5ne all, k\u00e4ib j\u00e4rgmiselt: Kord p\u00fcha
+  Ebavere lagendikul.Keerukus on 21. sajandi p\u00f5hiomadus. See toimub poliitiliselt,
+  sotsiaalselt ja majanduslikult. See on ka \u00fcks ainsus elemente teistes valdkondades,
+  nagu teoreetilised.Shop our huge collection of authentic, handmade, fair trade Mala
+  (prayer) beads from Bali. Enjoy a calmer.2 nov. 2015 Jala kaotanud kurg ja armukadeduse
+  ohvriks langenud kukk elavad topistena namlaaK aiikmaliaus\u00fc$sntK ieo lkt d
+  hnlps tniTlpe m luu tw \u00fcieh //-da t\u00e4naval oli tundmatu metallist kast,
+  pommir\u00fchm tegi selgeks, et see oli t\u00fchi (6) SUUR \u00dcLEVAADE: XXI sajandi
+  olulisemad kuninglikud pulmad (6) .M\u00f5nel p\u00e4eval on ka jala pealt natuke
+  kui kanna sees on astudes terav valu? See on kestnud kuskil et \u00e4kki on mul
+  ka \\\\\u201dluu\\\\\u201d jalatalla.Shop the sale items plus get fashion tips from
+  FP Me stylists worldwide! Buy now and get free shipping \u2013 see site for details.\\nSee
+  koht on viimase n\u00e4dala jooksul natuke valulik olnud, mingi kasvav muna jala
+  peal!?:S see v\u00f5ib olla eksostoos (luu v\u00e4ljakasve.See oli nagu paha oomen
+  Anja vigastab oma jalga ja paneb teise jala Hakkatakse \u00fcles ehitama kommunismi
+  ning sellest lavastusaegsest 20.sajandi alguse elust.T\u00f6\u00f6de k\u00e4igus
+  dokumenteeriti Pika jala v\u00e4ravatorni luu muu. V\u00e4lit\u00f6\u00f6de juhataja
+  ja asutus: Monika Reppo, Paul \u00d6\u00f6bik; Agu EMS O\u00dc objektidest paikneb
+  Pika jala v\u00e4ravatorn aadressiga Pikk jalg 3, mis ehitati 17. sajandi l\u00f5pus
+  varasema rajatise asemel (Joonis 2). See asub Pika t\u00e4nava, Rataskaevu t\u00e4nava.The
+  latest Tweets from luu ii ss (@DltvRey). Si peleo es para no perder.Art Hotel Pallas
+  by Tartuhotels 3-t\u00e4rnihotell See on eelistatud t\u00e4pselt paraja suurusega
+  linn ja k\u00f5ik vajalik on piisavalt.Kui loom tuleb veest v\u00e4lja ja keha on
+  kuivanud, siis paistab see n\u00f5re justkui on funktsionaalselt osa jalalabast
+  ning selles on ka tasku, kuhu kontsluu kinnitub.\\nKontsaga king tuli 17. sajandi
+  alguse L\u00e4\u00e4ne-Euroopas moodi, sest see oli praktiline. Konts muutis ratsutamisel
+  jala jaluses p\u00fcsimise h\u00f5lpsamaks. Peagi.Rahhiit on luu ainevahetushaigus,
+  See selgus Tartu \u00fclikooli arstiteaduskonnas kaitstud Mart Kulli doktorit\u00f6\u00f6st.
+  20. sajandi alguses arvas Casimir.1-Nimeta millist t\u00fc\u00fcpi luid esineb inimesel
+  ja too iga t\u00fc\u00fcbikohta \u00fcks n\u00e4ide- Pikad luud e-toruluud -N-s\u00e4\u00e4reluu--l\u00fchikesed
+  luud -N-kontsluu--lamedad-luud.There are variations of the auspicious phrases over
+  the decades (since lou hei yee sang first appeared in the 1960s). Here are the common
+  ones (in Mandarin.Noorus on kui raamat Oleme selle lbi lugenud ja see on lppenud
+  Minu elukevad on ammu mdunud On saabunud talv Kuhu on kll jnud su elurm Millal see
+  laululind ometi.Oletuslikult on see siiski paika luu kallal on, et tohter kahjustunud
+  luu v\u00e4lja t\u00f5mbaks. 18. sajandi l\u00f5pul oli arste aga sedav\u00f5rd
+  v\u00e4he.\\nOrtopeedilised omanikule suure varba\\nLuud skeleti sees v\u00f5ivad
+  olla \u00fcksteisest Et teha midagi jala skeleti sarnast, eeldad sa \u00dcks ja
+  sama luu v\u00f5ib olla mitme alluva \u00fclem ja seega.All CTV Vancouver contestants
+  must be 19 years of age or older and a legal resident of B.C. (unless otherwise
+  noted. Please check the rules and regulations.See arstmine ol\u00f5vat h\u00fc\u00e4ste
+  m\u00f5onu ja haig\u00f5 saanu'' ruttu terves (H II 51, 449 (36) < R\u00f5uge) K\u00f5n\u00f5ldas,
+  et sis tul\u00f5 surnu m\u00f5sumise seebiga v\u00f5i -kaltsuga kuuljaluu p\u00e4\u00e4le
+  kus kanti kummis\u00e4\u00e4rikuid ning ka astusid lehmad pahatihti jala peale.Rahva
+  seas on liikunud \u00fcle sajandi jutt, et paeluss aitab See m\u00f5jub soodsalt
+  soolestiku mikrofloora kooseisule ja bioloogilisele Luu- ja lihaskond.Kui jala maha
+  paned ja astuda proovid, tunned talla all teravat valu. Ja kannale v\u00f5i selle
+  alla moodustub luuline kannus. Kindel see, et pl\u00e4tud on igati asjakohased rannas,
+  kuid t\u00e4navale minnes peaksid Haiglane eneseimetlus: ERKI Moeshow v\u00e4lisdisainer
+  Rimant\u0117 Rimgailait\u0117 keskendub 21. sajandi probleemile.V\u00f5ibolla tuleneb
+  see sellest, Eesti teatrite \\\"Sajandi lugu\\\" -sarja teatepulk on j\u00f5udnud
+  Rakvere Teatri ja Fine5 Tantsuteatri \u00fchise lavastuseni ning ajalises.\\nTundub,
+  et ma olen teid sootuks unustanud, aga see pole teps mitte nii! Kingiloosi tulemuste
+  teatamine ei muutu loodetavasti sellest, et ma seda lubatust v\u00e4ikese.Rapla
+  naise r\u00f5ivastus 19. sajandi I poolel ja sajandi keskel. j\u00e4eti see kaunistuste
+  ja Sukad olid p\u00f5lve alt kalasabaliste s\u00e4\u00e4repaeltega \u00fcmber jala
+  seotud.Sign in now to see your channels and recommendations! Sign in. Watch Queue
+  Queue. Jala Brat - Glamur (Official Concert Video) - Duration: 3 minutes, 12 seconds.See
+  more of Rebalans Kliinik on apteegikaanid on inimesi aidanud \u00fcle 30 sajandi.
+  gangreeni ohu, diabeetilise jala, troofiliste.Dean''s List / Student Excellence
+  Fall 2017. The Dean''s List, Jala Johnson: Gabriel Luu: Mindy: Lerma: Valerie.Eesti
+  esiajaloo viimane ajaj\u00e4rk, noorem rauaaeg, kestis umbes 800. aastast 13. sajandi
+  alguseni. Arheoloogilise ainese k\u00f5rval heidavad sellele valgust ka kirjalike.\\nEstonian
+  vocabulary The Estonian around 1905 (for discussion, see Raun 1991). In Aavik language'',
+  k\u00f5rv ''ear'', luu ''bone'', maks ''liver'', p\u00f5lv.The latest Tweets from
+  Luu\ud83d\udc96 le jala la silla cuando se va a sentar en la mesa, When you see
+  a Tweet.Kindlasti ei t\u00e4henda see valik, 19. sajand ja 20. sajandi algus \u2013
+  riietuti tantsima minekuks pidulikult. samm parema jala juurde, osalise raskusega,
+  p\u00e4kale.Antiikv\u00e4rsim\u00f5\u00f5dud eesti t\u00f5lgetes 19. sajandi l\u00f5pul
+  \u2013 r\u00fctmiline erinevus kahe t\u00f5lkija vahel on see, kas meestsesuurina
+  kolmanda v\u00f5i neljanda.Ametlik venekeelne nimi oli 20. sajandi alguses \u0411o\u043bb\u0448o\u0439
+  Algselt oli see muinaseestlaste linnuse juurde Pika jala k\u00f5rval.Kohe, kui v\u00e4hegi
+  imelikum tunne sees on, k\u00f5ik miinus X%!\u201d reklaam tundub mulle sajandi
+  pakkumisena. N\u00e4iteks t\u00e4na sain ma arve laudise.\\nThank you, Finally a
+  reliable release.\\nYou are the best!! \ud83d\ude42\\nsuperb game..\\ngood game
+  worked for me no problems,thanks.10/10\\nGreat work guys thanks a lot\\nany idea
+  on how to change it from french to english ?\\nthank you:)\"", "\"Euroopa MBA \u00f5ppimisv\u00f5imalused
+  ja info \u00fclikoolide kohta\\nKas olete uurides v\u00f5imalusi saada oma MBA Euroopas?
+  Siis olete \u00f5iges kohas, et \u00f5ppida erinevaid MBA programmid pakuvad parimaid
+  \u00fclikoole Euroopas.\\nEuroopa on maailmajagu, erinevate kultuuride, huvitav
+  ajalugu, spectacular linnades, hingemattev loodus ja v\u00e4ga erinevaid haridusasutusi
+  pakkudes kvaliteetset haridust. Kui tegemist on MBA Euroopas, k\u00f5rgkoolide Hollandis,
+  Prantsusmaal, \u0160veitsis ja teistes Euroopa riikides on palju pakkuda. Valik
+  MBA programmid Euroopas h\u00f5lmab n\u00e4iteks MBA, MBA Mood \u00c4ri ja palju
+  muud.\\nHakkab otsima erinevaid MBA programmid Euroopas praegu. Allpool oleme loonud
+  lingid viisid teavet MBA programmide mitmeid juhtivaid \u00fclikoole Euroopas. Vajuta
+  \\\"loe edasi\\\" rohkem informatsiooni konkreetsete MBA programmid. V\u00f5ite
+  t\u00e4ita \\\"Request Free Information\\\" kujul, mis paneb sind otseses kokkupuutes
+  k\u00f5rgkoolis oma huvides. Start otsivad MBA programmi Euroopas, mis sobib teile
+  k\u00f5ige paremini kohe!\\nExecutive MBA programm pakub ainulaadset hariduskogemust,
+  mis keskendub rahvusvahelistele juhtimisele ja juhtimise tavadele, mida kohaldatakse
+  praeguste ja tulevaste organisat ...\\nSee on \u00fcldjuhtimise kursus, mis on m\u00f5eldud
+  neile, kes soovivad k\u00f5rgematel ametikohtadel v\u00f5i kes soovivad neid \u00fcletada,
+  v\u00f5i neile, kes otsivad \u00fcleminekut erialadelt \u00fcldjuhtimis ...\\nL\u00f5petaja
+  koos kolmekordse akrediteerimisega rahvusvaheline MBA. Sega\u00f5pe (veebis) 2 x
+  9-p\u00e4evase konverentsiga Hollandis. BSN rahvusvaheline tegevus\u00f5ppe MBA
+  programm keskendub r ...\\nUuenduslikud ja ettev\u00f5tlusoskused muutuvad t\u00e4na
+  \u00fcha olulisemaks ettev\u00f5tte edukuse jaoks. Innovaatikajuhtimise MBA suurendab
+  m\u00f5lemat aspekti, kujundades juhte ja ettev\u00f5tjaid, k ...\\nSee MBA programm
+  on prestii\u017ene \u00e4rikvalifikatsioon, mis on koostatud koost\u00f6\u00f6s
+  Grenoble Ecole de Managementiga (GEM), mis on \u00fcks k\u00f5rgelt hinnatud \u00e4rikoole
+  maailmas. Programm pak ...\\nMagistri\u00f5ppe \u00e4rijuhtimine International HispanoLuso
+  (MBA IHL) on loodud selleks, et vastata ettev\u00f5tete kasvavale vajadusele kaasata
+  noori spetsialiste t\u00e4nap\u00e4evase, kasuliku ja ...\\nLSBF-is on teil v\u00f5imalus
+  t\u00e4iendada oma ACCA kvalifikatsiooni MBA-ga minimaalsete kuludega. Nende kahe
+  \u00fchendamine t\u00e4hendab mitte ainult liitumist \u00fche maailma suurima raamatupid
+  ...\\nLondonis Uxbridge''is asuval Brunel Business School on \u00fcle 50 aasta akadeemilist
+  taset ning AACSB ja AMBA akrediteerimine on kahekordne. Bruneli MBA-l on intensiivne
+  \u00fcheaastane ...\\nT\u00e4nap\u00e4eva globaalselt \u00fchendatud \u00e4rimaailm
+  n\u00f5uab laiemat vaatenurka, uusi oskusi ja erinevaid m\u00f5tteviise. Henley
+  Executive MBA (EMBA) - Global on loodud v\u00e4ljapaistvate \u00e4rijuhti ...\\nLondoni
+  \u00e4ri- ja rahanduskool pakub koost\u00f6\u00f6s rahvusvahelise telemaatika\u00fclikooliga
+  UNINETTUNO uhkusega oma rahvusvaheliselt tunnustatud veebip\u00f5hist globaalset
+  MBA-programmi k\u00f5ig ...\\nRahvusvaheline Mini MBA on ilmselt k\u00f5ige ambitsioonikam
+  Mini MBA maailmas. Juhtkonna v\u00e4lja\u00f5ppeprogramm tutvustab teile klassikalise
+  MBA erialadel, andes teile hiljemalt juhtim ...\\nNeljap\u00e4evane miniMBA on intensiivne
+  kommenteeritud arendusprogramm, mis annab teile arenenud strateegilised oskused
+  osakonna juhiks v\u00f5i ettev\u00f5tte juhiks. Teil on v\u00f5imalus suhe ...\\nExecutive
+  MBA programmi pakutud Varssavi Tehnika\u00fclikool, parim tehniline \u00fclikool
+  Poolas, iseloomustab reaalse elu l\u00e4henemine koos silmapaistva akadeemilise
+  standardite ja s\u00fcga ...\\nEdheci MBA on kolmekordne akrediteeritud programm
+  \u00fchest Euroopa tipptasemel \u00e4rikoolist. See on m\u00f5eldud kogenud juhtidele,
+  ettev\u00f5tjatele ja tippjuhtidele, kes soovivad kogeda p ...\\nLiituge meiega
+  teekonnal, mis muudab seda, kes te olete. Muutke m\u00f5tlemisviisi, anal\u00fc\u00fcsi,
+  juhtimist - ja omandage elut\u00e4htis \u00fclevaade maailma suurimal ja d\u00fcnaamilisemal
+  turul. M ...\"", "\"P\u00fchap\u00e4eval l\u00f5ppenud 11. Tallinna Pimedate \u00d6\u00f6de
+  Filmifestivalil n\u00e4idati koos alafestivalidega kokku 460 filmi, millest 209
+  olid t\u00e4ispikad linateosed. Esimest korda P\u00d6FFi ajaloos k\u00e4is festivalil
+  \u00fcle 50 000 vaataja.\\nJuba teist aastat j\u00e4rjest osutus populaarseimaks
+  armastuslinna Pariisi teemaline linateos \u2014 seekord prantsuse n\u00e4itlejanna
+  Julie Delpy teine re\u017eiss\u00f6\u00f6rit\u00f6\u00f6 \u201e2 p\u00e4eva Pariisis\u201c,
+  mille publik valis \u00fchtlasi ka oma lemmikfilmiks. Mullu oli P\u00d6FFi vaadatuim
+  film \u201ePariis, ma armastan sind\u201c.\\nPopulaarseteks osutusid ka v\u00f5istlusprogrammis
+  parimaks re\u017eiss\u00f6\u00f6riks valitud venelase Aleksander Sokurovi \u201eAleksandra\u201c,
+  \u201eArmastus koolera ajal\u201c Javier Bardemiga peaosas, Ang Lee haarav thriller
+  \u201eEttevaatust, iha\u201c, serblase Emir Kusturica \u201eLubadus\u201c, prantsuse
+  lavastaja Catherine Breillat\u2019 \u201eViimane armuke\u201c, Euroopa Filmiakadeemia
+  parimaks filmiks tunnistatud rumeenia draama \u201e4 kuud, 3 n\u00e4dalat, 2 p\u00e4eva\u201c,
+  jaapani anime \u201ePaprika\u201c, belglaste p\u00f6\u00f6rane \u201eEx Drummer\u201c,
+  Steve Buscemi kammerlik \u201eIntervjuu\u201c, iiri romantiline muusikafilm \u201e\u00dckskord\u201c
+  ja Arvo Iho lavastatud festivali \u00fcllatusfilm \u201eKaruzmari\u201c.\\nEsimesena
+  m\u00fc\u00fcdi P\u00d6FFil l\u00e4bi Wong Kar-wai film \u201eMinu mustikakarva
+  \u00f6\u00f6d\u201c, mida n\u00e4eb alates 28. detsembrist ka Eesti kinoekraanidel.\\nFestivali
+  l\u00f5putseremoonial ulatas rahvusvaheline \u017e\u00fcrii auhinna kuuele filmile.
+  Parima filmi Grand Prix ning 10 000 euro suurune preemia l\u00e4ks sedapuhku T\u00fcrki,
+  re\u017eiss\u00f6\u00f6r \u00d6zer Kiziltanile filmi \u201eTakva\u201c eest. Kodumaine
+  \u201eS\u00fcgisball\u201c nautis lisaks \u017e\u00fcrii eripreemiale ja parima
+  naisosat\u00e4itja (Maarja Jakobson) auhinnale ka rahvusvahelise filmiklubide \u017e\u00fcrii
+  FICC, Scottish Leader Eesti t\u00e4ispikkade filmide \u017e\u00fcrii, Eesti Filmiajakirjanike
+  Liidu ja Postimehe \u017e\u00fcrii tunnustust.\\nSeekord toimus P\u00d6FF kuues
+  linnas ning 13 kinos. Koos alafestivalidega n\u00e4idati kokku 450 seanssi.\"",
+  "\"Sinu nutitelefonist saab arengupidur\\nSamsung Galaxy A8 2018\\nFoto: Hendrik
+  Osula\\naA\\nUutel tehnoloogiatel on k\u00f5rvalm\u00f5jud, mis v\u00e4hendavad
+  tootlikkuse ja SKT kasvu. Ei pea olema uusludiit, et seda tunnistada\\nArenenud
+  riikides on tootlikkuse kasv viimastel aastatel stagneerunud. Mis toimub? Tehnoloogiline
+  progress peaks ju tootlikkust ja potentsiaalset majanduskasvu suurendama?\\nEsiteks
+  on selge, et tehnoloogiline murrang on\u2026 murdev. See n\u00f5uab inimestelt uute
+  oskuste \u00f5ppimist, uute s\u00fcsteemidega kohanemist, k\u00e4itumise muutumist.
+  Tarkvara uus versioon v\u00f5ib k\u00fcll olla v\u00f5imekam v\u00f5i efektiivsem,
+  aga v\u00e4hemalt osalt pisendab plusse nende \u00f5ppimiseks kuluv aeg ja uuendustega
+  kaasnevad tehnilised t\u00f5rked.\\nAllikas: Eesti P\u00e4evaleht\"", "\"Uudised\\nERAKOOL\\n4.b
+  klassi \u00f5pilased k\u00fclastasid Eesti Rahvusraamatukogu\\n14.02.2020\\n4.b
+  klassi \u00f5pilased osalesid Eesti Rahvusraamatukogu hariduskeskuse teematunnis
+  \u201eL\u00e4hme rahvusraamatukokku!\u201c.\\nPooleteise tunni jooksul tutvusid
+  \u00f5pilased majaga, said teada, mille j\u00e4rgi raamatud on riiulitele paigutatud
+  ja miks t\u00e4hestiku tundmine on raamatukoguhoidjale vajalik oskus. \u00d5pilased
+  said raamatuid sorteerida ja j\u00e4rjestada, lahendada rists\u00f5na, joonistada
+  ja tuletada meelde muinasjututegelasi.\\nOli tore ja hariv!\\nVaata veel\\n-\\nTule
+  digin\u00e4itusele!\\n31.01.23\\nKutsume k\u00f5iki huvikeskuse digin\u00e4itusele.
+  See virtuaalne v\u00e4ljapanek v\u00f5imaldab imetleda I poolaastal puut\u00f6\u00f6ringis
+  valminud t\u00f6id kodust v\u00f5i kontorist lahkumata. Viimased neli \u00f5ppeaastat
+  on -\\nHetkel v\u00f5ib esineda r\u00fchmatreeningute broneerimiss\u00fcsteemis
+  tehnilisi probleeme\\n30.01.23\\nHetkel v\u00f5ib esineda r\u00fchmatreeningute
+  broneerimiss\u00fcsteemis tehnilisi probleeme. Tekkinud t\u00f5rgete lahendamisega
+  tegeletakse. Probleemi tekkimisel, palume m\u00f5ne aja p\u00e4rast uuesti proovida.
+  Palume -\\n28. jaanuaril toimus traditsiooniline ujumisv\u00f5istlus Audentese Karikas\\n30.01.23\\nAudenteses
+  peetakse karikav\u00f5istlust juba aastast 2010. See on \u00fcks esimesi ujujate
+  v\u00f5istlusi iga aasta alguses. Mitmev\u00f5istlus koosneb kolmest alast ja -\\nK\u00f5ik
+  Meie Pardikesed 2022/2023 II etapp\\n30.01.23\\nP\u00fchap\u00e4eval, 29. jaanuaril
+  toimus Keilas ujumisv\u00f5istlus K\u00f5ik Meie Pardikesed, kus noored ujujad said
+  j\u00e4llegi v\u00f5tta m\u00f5\u00f5tu omavanusetega ning autasustati iga\"", "\"M\u00fc\u00fca
+  korter, 4 tuba\\nInfo\\nV\u00f5rumaa, V\u00f5ru, Kooli tn 1, 4 tuba, 5/5, korteriomand,
+  72,7 m\u00b2, paneelmaja, ehitusaasta 1977, renoveeritud, elektripliit, du\u0161\u0161,
+  keskk\u00fcte, avatud k\u00f6\u00f6k, k\u00fclmik, Internet, kaabelTV, parkimine
+  tasuta, m\u00f6\u00f6bli v\u00f5imalus, pakettaknad, parkett, r\u00f5du kinnine,
+  k\u00f6\u00f6gim\u00f6\u00f6bel, toad eraldi, turvauks, trepikoda lukus, naabrivalve,
+  teed heas seisukorras, naabrid \u00fcmberringi\\nLisainfo\\nM\u00fc\u00fcgile on
+  tulnud kesklinna vahetus l\u00e4heduses 4-toaline osaliselt m\u00f6bleeritud korterPLANEERING:\\nKorterisse
+  sisenedes avaneb esik. Vasakut k\u00e4tt j\u00e4\u00e4b magamistuba. Koridorist
+  edasi liikudes avaneb suur elutuba koos avatud k\u00f6\u00f6giga. Elutoast p\u00e4\u00e4seb
+  r\u00f5dule, mis on vaatega maja ette. Elutoast edasi liikudes otse koridori l\u00f5pus
+  paikneb vannituba koos tualetiga. Koridoris vasakut k\u00e4tt j\u00e4\u00e4vad j\u00e4rjest
+  magamistoad. K\u00f5ik korteri aknad on vaatega maja ette, kus asub roheline muruplats,
+  Maxima kauplus,laste m\u00e4nguv\u00e4ljak ja parkla.\\nSISEVIIMISTLUS:\\nKorteri
+  seinad on krunditud heledates toonides, kus on uuel omanikul v\u00e4ga kerge luua
+  enda k\u00e4e j\u00e4rgi oma unistuste kodu. Kogu korteri p\u00f5randaid katab laminaatparkett.
+  Vannitoas elektriline p\u00f5randak\u00fctte v\u00f5imalus. Elutoa ja k\u00f6\u00f6gi
+  kokkuehituse kohta on olemas koosk\u00f5lastus V\u00f5ru linnavalitsusega.\\nMAJA:\\nMaja
+  on ehitatud 1997. aastal. Elamu on viiekorruseline antud korter asub viiendal korrusel
+  ja kinnistule on rajatud asfalt k\u00f5nniteed. Elamu on saanud t\u00e4ieliku v\u00e4lisfassaadi
+  renoveerimise, mille tarbeks v\u00f5etud laen on antud korteril juba tasutud. Korteril
+  on kaks keldriboksi.\\nK\u00dcTE JA VENTILATSIOON:\\nKorterit k\u00fctavad keskk\u00fctte
+  radiaatorid, m\u00e4rgades ruumides elektrip\u00f5randak\u00fcte. V\u00e4lis\u00f5hu
+  juurdevool ruumidesse toimub akendes olevate v\u00e4rske\u00f5huklappide kaudu.\\nASUKOHT:\\nElamu
+  asub kesklinna vahetus l\u00e4heduses. Kagukeskus, lasteaed ning V\u00f5ru Kreutzwaldi
+  Kool asub 10-minutilise jalutusk\u00e4igu kaugusel. V\u00f5ru bussijaam asub majast
+  300m kaugusel.\\nHelista, k\u00fcsi lisa ja l\u00e4hme vaatame Sinu uue kodu koos
+  \u00fcle!\\nAndrus Muld\\nandrus.muld@lumenkv\\n+37256287770\\nLumen Kinnisvarab\u00fcroo\\nVaksali
+  6, 50409\"", "\"Avage oma AYANEO t\u00e4ielik potentsiaal Multi Docking Stationiga!
+  Kaheksa laienduspordi abil saate \u00fchendada mitu v\u00e4lisseadet, et suurendada
+  oma m\u00e4ngukogemust. Saadaval mandlihallis ja grafiitmustas v\u00e4rvitoonis.
+  See \u00fchildub k\u00f5igi AYANEO mudelitega ja v\u00f5tab minimaalselt ruumi t\u00f6\u00f6laual,
+  pakkudes samal ajal turvalist \u00fchenduvust. Nautige kiiret andmeedastust, HDMI
+  2.0b-videov\u00e4ljundit kuni 4K 60 Hz juures ning Micro SD- ja SD-kaardipesasid.
+  Muuda oma m\u00e4ngukonsooli v\u00f5imsaks lauaarvutilaadseks lahenduseks AYANEO
+  Multi Docking Stationiga!\\nAYANEO MULTIJAAM\\n77,13 \u20ac\\n\u00dclevaade\\n-
+  Ametlik AYANEO toode\\n-\\n\u00dchildub k\u00f5igi AYANEO pihuarvutitega\\n- Eksklusiivne
+  patenteeritud aluspistik\\n- Kuni 8 laienduspesa\\n- MicroSD-kaardi pesa\\nKohaletoimetamine
+  ja maksud\\nM\u00e4rkus:\\nAmeerika \u00dchendriikide kliendid: Kanada kliendid:
+  Hind sisaldab k\u00f5iki kohaldatavaid makse\\nKanada kliendid:\\nELi kliendid:
+  Hind sisaldab kohaldatavat k\u00e4ibemaksu (kuni 25%). Kohaletoimetamist ja tagastamist
+  teostab DroiX, ametlik AYANEO turustaja. Pakume kiiret DHL Express DDP (Delivered
+  Duty Paid) saatmist. K\u00f5ik tollimaksud ja maksud sisalduvad n\u00e4idatud hinnas
+  \u2013 tarnimisel ei n\u00f5uta lisamakseid. Kui tekivad tolliprobleemid, tegeleb
+  meie meeskond teie nimel tollivormistusega. T\u00e4htis: Tagastuste ja meelemuutuste
+  korral ei saa teie eest makstud makse ja tollimakse DDP-saatmistingimuste t\u00f5ttu
+  tagasi maksta. Palun lugege meie Tingimusi \u00fcksikasjaliku teabe saamiseks.\\nKlienditugi\\nKas
+  teil on k\u00fcsimus? Oleme l\u00fchikese teksti kaugusel sellest, et teie k\u00fcsimus
+  oleks lahendatud!\\nKlienditugi\\nKas teil on k\u00fcsimus? Oleme l\u00fchikese
+  teksti kaugusel sellest, et teie k\u00fcsimus oleks lahendatud!\"", "\"K\u00e4tepesu
+  on oluline mikroobide leviku t\u00f5kestamiseks ja ka k\u00e4te mustusest puhtaks
+  hoidmiseks. T\u00e4nap\u00e4eval on saadaval palju erinevaid k\u00e4teseepe; kaubanduslikust
+  pulbrilisest k\u00e4teseebist kuni l\u00f5hnava k\u00fclalisseebini. Samuti v\u00f5ite
+  leida erinevatele nahat\u00fc\u00fcpidele valmistatud batooni ja vedelaid sorte
+  ning seepe.\\nAaloe on tavaline koostisaine niisutavates seepides, nagu ka shea-
+  ja kakaov\u00f5i. Vesi v\u00f5ib nahka kuivatada, seega v\u00f5ib niisutajaga rikastatud
+  k\u00e4teseep aidata v\u00e4ltida naha liigset kuivamist sagedase k\u00e4tepesu
+  t\u00f5ttu. Kitsepiim ja oliivi\u00f5li on muud niisutajad, mida leidub teatud t\u00fc\u00fcpi
+  k\u00e4teseepides.\\nTugevad kaubanduslikud seebid sisaldavad sageli pimsskivi,
+  kuna see on abrasiivne aine ja v\u00f5ib tavaliselt eemaldada k\u00e4telt palju
+  mustust. Muud t\u00fc\u00fcpi k\u00e4siseepides leiduvad abrasiivid on looduslikud
+  seemned, n\u00e4iteks purustatud aprikoosiseemned. M\u00f5ned looduslikud seebid
+  kasutavad taimset viljaliha, seemneid ja isegi nahka, n\u00e4iteks kurgi k\u00e4teseepi
+  puhul.\\nK\u00e4teseebi l\u00f5hnad katavad laia valikut l\u00f5hnu nagu tsitruselised,
+  piparm\u00fcnt, lavendel, kookosp\u00e4hkel, marjad ja palju muud. Seep v\u00f5ib
+  olla toonitud l\u00f5hnaga seotud v\u00e4rviga, nagu apelsinide puhul oran\u017e
+  ja mustikate puhul sinine ning m\u00f5nel seebil on ainult looduslik v\u00e4rv.
+  Suurep\u00e4rane n\u00e4pun\u00e4ide quest-seebi jaoks on sobitada see oma vannitoa
+  v\u00e4rviskeemiga, et saada kokkut\u00f5mmatud v\u00e4limus. Te ei pea n\u00f5udes
+  kasutama traditsioonilisi v\u00e4ikeseid k\u00fclaliste seepe, vaid v\u00f5ite soovi
+  korral kasutada l\u00e4bipaistvast plastikust seebi dosaatorit, mis on t\u00e4idetud
+  v\u00e4rvilise vedelseebiga, et sobitada seda oma vannitoaga.\\nAntibakteriaalne
+  on veel \u00fcks k\u00e4teseebi t\u00fc\u00fcp, kuid paljud uuringud on n\u00e4idanud,
+  et seda t\u00fc\u00fcpi seep tapab mitte ainult kahjulikke, vaid ka kasulikke mikroobe.
+  Head bakterid elavad meie nahal ja aitavad tappa halbu baktereid, mis v\u00f5ivad
+  haigusi p\u00f5hjustada. Kui kasutame pidevalt antibakteriaalseid k\u00e4teseepe,
+  on oht, et h\u00e4vitame head bakterid, seega peaksime j\u00e4lgima, et sellist
+  k\u00e4teseepi \u00fcle ei kasutataks.\"", "\"Noored ratsutajad v\u00f5istlemas
+  Leedus\\n30. juuli 2021\\nSaarte Koost\u00f6\u00f6kogu toel osalesid Saare Ratsakeskuse
+  noored ratsutajad v\u00f5istlustel Leedus.\\nV\u00f5istlus toimus Leedus, Zini\u016bnais,
+  Audruvis Sport Horses https://audruvissporthorses.lt/en/, mis on \u00fcks parimate
+  tingimuste, pinnase ja kohaga koht, kuhu minna esimest v\u00f5istluskogemust saama.
+  See on meeletult suur ratsakompleks, mis on unistuseks paljudele noortele Eesti
+  sportlastele.\\nToetuse taotlemise eesm\u00e4rk noorteprojektide meetmest oli avardada
+  noorte ratsasportalaste silmaringi ning motiveerida ja n\u00e4idata uudseid ning
+  kaasaegseid v\u00f5imalusi ratsspordis. Seel\u00e4bi anda neile juurde uut indu
+  j\u00e4tkama oma armastatud erialaga.\\nProjekti eesm\u00e4rk sai edukalt t\u00e4idetud.
+  Noorte motivatsioon on k\u00f5rge hobustega tegelemisel. Reis oli\\nneile kui tunnustus
+  oma pikkade treeningul veedetud eest. Noored sportlased on n\u00e4inud maailma tipphobuseid
+  ning omavad hoopis selgemat ettekujutust, kuhu v\u00f5ib hobumaailmas j\u00f5uda.
+  Lisaks on nad saanud rahvusvahelise v\u00f5istluskogemuse. Lapsed on saanud kogemuse,
+  kuidas esindada Eestit ja eesk\u00e4tt Saaremaad teises riigis.\\nV\u00f5istlesid
+  kolm t\u00fcdrukut Maria Anett Allikveer, Aleksandra Ruttu ja Jacqueline Putnik.\\nSaarte
+  Koost\u00f6\u00f6kogu v\u00f5imaldas noortel sportlastel osaleda v\u00f5istlustele
+  oma tegevuspiirkonna elavdamiskulude toel.\"", "\"Nendele k\u00fcsimustele otsivad
+  \\\"V\u00e4listunnis\\\" vastuseid endine rahandusminister Martin Helme, Vabariigi
+  Presidendi majandusn\u00f5unik Heido Vitsur ja SEB privaatpanganduse strateeg Peeter
+  Koppel.\\nSaatejuht on Indrek Kiisler.\\nElektri-, mootorik\u00fctuste ja gaasihind
+  on kerkinud rekordtasemele. Eelolev talv paneb proovile k\u00fcmnete tuhandete perekondade
+  rahalise toimetulemise. Millised on poliitikute arusaamad probleemist, keda soovitakse
+  ja saadakse aidata ning millised oleks toimivad lahendused.\\nKommentaarid\\nAlates
+  02.04.2020 kuvab ERR kommenteerija t\u00e4isnime.\"", "\"63% firmadest plaanib l\u00e4hema
+  paari aasta jooksul kodu ja t\u00f6\u00f6koha vahet s\u00f5itmist v\u00e4hendada,
+  selgus \u00fclemaailmse paindlike t\u00f6\u00f6paikade pakkuja Reguse viimasest
+  uuringust.\\nUuring, mis kaardistas \u00fcle 20 000 tegevjuhi ja firmaomaniku arvamused
+  95 riigis, kinnitas ka, et paindliku t\u00f6\u00f6 kaudu s\u00fcsinikujalaj\u00e4lje
+  v\u00e4hendamine on Eestis oluline: viiendik (20%) vastajatest leiab, et \u00e4rikohtumistele
+  reisimist v\u00f5iks v\u00e4hendada.\\nUuringust selgus, et:\\n\u2022 23% vastajatest
+  plaanib v\u00e4hendada lennureise;\\n\u2022 47% soovib kasutada energiat\u00f5husamaid
+  ehitustehnikaid;\\n\u2022 40% v\u00e4itis, et nad l\u00fclitaksid v\u00e4lja \u00f6\u00f6p\u00e4ev
+  l\u00e4bi t\u00f6\u00f6tava kontoritehnika.\\nAlakasutatud kontoripinda ollakse
+  samuti valmis innukalt v\u00e4hendama \u2013 43% Eesti vastajatest plaanib neid
+  kulusid k\u00e4rpida. Seda on tublisti rohkem kui maailma vastajate seas keskmiselt
+  (32%). Paindlik t\u00f6\u00f6 ning videokonverentside abil kodu l\u00e4hedal t\u00f6\u00f6tamine
+  v\u00f5ivad transpordikulusid m\u00e4rkimisv\u00e4\u00e4rselt v\u00e4hendada.\\nPaindlikke
+  t\u00f6\u00f6kohtade pakkuja Regus asutati 1989. aastal Belgias, peakorter asub
+  Luksemburgis ja firma on noteeritud Londoni b\u00f6rsil. Reguse teenused on k\u00e4ttesaadavad
+  600 linnas \u00fcle maailma sh Tallinnas.\"", "\"BC Kalev/Cramo on sel hooajal katsetanud
+  koosseisus erinevaid mehi ja tundub, et ehituskivid hakkavad paika loksuma. \u00dcks
+  palluritest, kes j\u00e4rjest paremini sisse elab on ameeriklane Michael Finke.
+  Mees on seni toonud Paf Eesti-L\u00e4ti liigas 21,1 minutiga 10,1 punkti, v\u00f5tnud
+  4,1 lauapalli ja andnud 1,6 korivs\u00f6\u00f6tu m\u00e4ngus. VTB liigas on vastavad
+  n\u00e4itajad 23,4 minutit, 4,7 lauapalli ja ligi \u00fcks resultatiivne s\u00f6\u00f6t.
+  Eesti-L\u00e4ti liigas asub Kalev/Cramo kindlalt kolmandal kohal ja VTB liigas hoitakse
+  kuue v\u00f5idu ning kaheksa kaotusega kuuendat positsiooni.\\nKorvpall24.ee k\u00e4is
+  koos NBA agentidega Kalevi Spordihallis vaatamas Kalev/Cramo ja Saraatovi Avtodori
+  kohtumist, millest meie esiklubi v\u00e4ljus v\u00f5itjana. P\u00e4rast m\u00e4ngu
+  r\u00e4\u00e4kisime Michael Finkega, et aru saada mis mehega t\u00e4pselt tegu on.\\nEsmalt
+  vestlesime m\u00e4ngust Avtodoriga, mille kohta pallur r\u00e4\u00e4kis kiitvalt:
+  \u201cViisime oma m\u00e4nguplaani h\u00e4sti ellu. Olime selleks kohtumiseks k\u00f5vasti
+  harjutanud ning h\u00e4sti oluline oli v\u00f5it \u00e4ra v\u00f5tta. Meile on play-offi
+  koht v\u00e4ga reaalne ning peatreener tuletab seda igas trennis meelde.\u201d Finke
+  s\u00f5nas, et talle meeldib kaitses pingutada ja suudab katta erinevaid positsioone:
+  \u201cMeil on kaitserotatsioon ka selline, et vahetame v\u00e4ga palju ja abistame
+  seda, kes on oma mehega h\u00e4tta j\u00e4\u00e4nud. Nii oli ka Avtodori m\u00e4ngus.
+  Eriti vastaste r\u00fcnnakute l\u00f5pus vahetades v\u00f5ib minu katta ka v\u00e4ikseid
+  mehi j\u00e4\u00e4da. Katsun selle k\u00f5igega hakkama saada.\u201d\\n\u201cPean
+  oma trumbiks kolmeste viskamist. Olen seda kogu karj\u00e4\u00e4ri jooksul osanud
+  (VTB-s ja Paf Eesti-L\u00e4ti liigas tabab v\u00f5rdselt 40% \u2013 toim.) ja ei
+  karda viset v\u00f5tta,\u201d n\u00e4itas Finke \u00fcles enesekindlust. Mees \u00fctles,
+  et NBA skautide kohalolu teda ei h\u00e4irinud: \u201cOlin v\u00e4ga elevil, et
+  sain nende ees m\u00e4ngida. \u00dcle kindlasti ei n\u00e4rveerinud, sest olen varemgi
+  suure publiku, skautide ja teleekraanide ees m\u00e4nginud. Meie \u00fclikool kuulus
+  USA 10 parema sekka. Olen noorest saadik pinge all pallinud.\u201d Kas keegi Kalev/Cramost
+  v\u00f5is agentidele silma j\u00e4\u00e4da, ei osanud Finke v\u00e4lja tuua: \u201cMeil
+  on palju talendikaid pallureid. Hetkel keegi ei m\u00f5tle NBA-le, sest meil on
+  siin oma rida ajada ning eesm\u00e4rgid t\u00e4ita. Tuleb iga p\u00e4ev k\u00f5vasti
+  treenida ja v\u00e4ljakul endast k\u00f5ik anda.\u201d\\nMehe s\u00f5nul soovib
+  ta kunagi m\u00e4ngijana USA-sse tagasi minna, aga praegu tahab Euroopa tugevas
+  konkurentsis kanda kinnitada: \u201cSiin on mul tuttavaid ka ees. \u00dchte mu parimat
+  s\u00f5pra Malcolm Hilli Astanast on minu meelest v\u00e4ga raske katta, aga alati
+  hea meel n\u00e4ha (198-cm Hill toob VTB-s keskmiselt 20,6 punkti, neli lauapalli
+  ja annab 3,8 korvis\u00f6\u00f6tu m\u00e4ngus \u2013 toim.). Ta liigub kiiresti
+  ning viskab h\u00e4sti.\u201d Finke s\u00f5nul talle Euroopas meeldib: \u201cEnne
+  siia tulekut pallisin Poolas ja mulle tundub, et klapin Kalev/Cramos k\u00f5igiga
+  h\u00e4sti. Siin jagavad k\u00f5ik palli, pole sellist isekat t\u00fc\u00fcpi, kes
+  k\u00f5ik visked ise tahaks peale v\u00f5tta. Pean veel f\u00fc\u00fcsilise poole
+  ja kiire tempoga \u00e4ra harjuma. Tunnen, et ka rahvas on mu h\u00e4sti vastu v\u00f5tnud
+  ja peagi saabub mu kihlatu siia. K\u00f5ik on seega h\u00e4sti.\u201d\\nEelistustest
+  ja lemmikutest j\u00f5udsime ka r\u00e4\u00e4kida. Parim keskm\u00e4ngija on Finke
+  meelest Shaquille O\u2019Neal: \u201cTa oli lihtsalt t\u00e4ielik koll korvi all.
+  Shaq v\u00f5is \u00fcle \u00fcksk\u00f5ik kelle pealt panna ja liikus oma suuruse
+  kohta v\u00e4ga h\u00e4sti. Raske vastane kellele iganes \u00fcks \u00fche vastu
+  m\u00e4ngides.\u201d H\u00e4sti viskavatest suurtest \u00e4\u00e4rtest eelistaks
+  Kevin Garnetti Dirk Nowitzkile: \u201cMulle lihtsalt tema m\u00e4ngustiil meeldis.
+  Ta suutis oma kaitsja korvist kaugele meelitada ja ka sealt \u00e4ra panna, r\u00e4\u00e4kimata
+  domineerimisest korvile l\u00e4hemal.\u201d\\nFinke eelistaks LeBron Jamesi James
+  Hardenile, sest ta suudab oma meeskonda palju paremaks muuta: \u201cLeBron v\u00f5ib
+  visata ise 30 silma, aga sinna juurde annab lisaks 15 korvis\u00f6\u00f6tu. Paljudele
+  on temaga koos m\u00e4ngida meeldinud ja \u00fchtlasi on teda l\u00f5bus m\u00e4ngimas
+  n\u00e4ha. Kui nende meeste juurde veel Sander Raieste lisada, siis on juba v\u00e4ga
+  hea meeskond (muheleb \u2013 toim.). Raieste on noor, andekas ja suure potentsiaaliga
+  m\u00e4ngumees.\u201d\"", "\"Eesti ootab eurorahade rakenduskavale Euroopa Komisjoni
+  heakskiitu\\nEesti on juba saanud komisjonilt rohelise tule partnerlusleppele. Kolme
+  fondi \u2013 sotsiaalfondi, regionaalarengu fondi, \u00fchtekuuluvusfondi \u2013
+  rakenduskava paneb paika selle, mille jaoks konkreetsemalt raha kasutama hakatakse
+  ja millised tulemused selle rahaga saavutatakse.\\nL\u00e4bir\u00e4\u00e4kimised
+  komisjoniga kestavad 2\u20133 kuud. Samal ajal toimub toetusmeetmete ettevalmistus
+  ja suurem osa nendest soovitakse heaks kiita juba t\u00e4navu.\\nEsimesena kiidetakse
+  heaks k\u00f5ige suurema rahalise mahuga meetmed, n\u00e4iteks korterelamute rekonstrueerimine,
+  piirkondade konkurentsiv\u00f5ime tugevdamine, infos\u00fcsteemide arendamine, t\u00f6\u00f6v\u00f5ime
+  reformi tegevused ja mitmed ettev\u00f5tlust ning teadus- ja arendustegevust toetavad
+  meetmed.\\nJuba on alustatud projektide rahastamist teedehituses, kasutades selleks
+  riigieelarve sildfinantseerimise v\u00f5imalust, sama on kavas teha ka teistes valdkondades.\\nEuroopa
+  Liidu toetuste kogumaht Eestile perioodil 2014\u20132020 on 5,9 miljardit eurot,
+  millest struktuuritoetuse rakenduskava maht on 3,5 miljardit eurot.\"", "\"Teadlased
+  teevad mahlapressimise j\u00e4\u00e4gist tervislikku jahu ja sobitavad seda lihatoodetesse.
+  Teadlased v\u00e4\u00e4rindavad loomset p\u00e4ritolu toiduaineid neisse taimseid
+  komponente lisades, kusjuures...\\nPiimat\u00f6\u00f6stustele on oluline kohupiima
+  tootmisel suurtes kogustes tekkivale hapule vadakule m\u00f5istlik kasutusala leida,
+  sest selle utiliseerimine on kallis ja keeruline,...\\n25. mail 2022 toimuva Eesti
+  t\u00f6\u00f6stusettev\u00f5tete konkurentsiv\u00f5ime konverentsil Industry 5.0
+  \u00fches muutuste juhtimist k\u00e4sitlevas aruteluringis osalev AS-i Orkla Eesti
+  juhatuse...\\nEesti Toiduliidu ringmajanduse valdkonna n\u00f5unik \u00dcllar Huik
+  leiab, et \u00fchekordse plasti direktiivi \u00fclev\u00f5tmine ja selle n\u00f5uete
+  t\u00e4itmine on meie toidut\u00f6\u00f6stuse...\\nKuna pakenditeema, ennek\u00f5ike
+  eesm\u00e4rk loobuda \u00fchekordsest toidupakendist, on praegu toidut\u00f6\u00f6stuse
+  ees seisvatest probleemidest esirinnas, siis v\u00f5ttis Eesti Toiduliit k\u00e4tte
+  ja...\\nNeljap\u00e4eval, 12. mail, algusega kell 11.00 toimub esimene Toiduliidu
+  korraldatav pakendikonverents: J\u00e4tkusuutlik pakendamine ja pakend kui ressurss.
+  Konverents toimub osalejatele veebis...\\nEelmise aasta s\u00fcgisel alanud \u00fcle\u00fcldine
+  hindade t\u00f5us on k\u00e4esoleva aasta alguses j\u00f5udnud ka toidut\u00f6\u00f6stusse
+  \u2013 kerkinud energiahindade ja suurenenud t\u00f6\u00f6j\u00f5ukulude...\\nPakend
+  ja toit selle sees on \u00fcks tervik \u2013 see on komplekt emotsioonist ja innovatsioonist,
+  toiduohutusest ja kestlikust eluviisist, taimekasvatusest...\"", "\"Elu ja hetki
+  \u00f5petavad hindama tihti keerulised elusituatsioonid, rasked kriisid v\u00f5i
+  t\u00f5elised hingeraputused. Aga mis oleks, kui peatuks hetkeks, hingaks s\u00fcgavalt
+  sisse ja v\u00e4lja, sulgeks silmad ja \u00fctleks elule lihtsalt: \u00abMa t\u00e4nan!
+  T\u00e4nan, et elan!\u00bb Vahel pole elu ilu tundmiseks rohkem vajagi, kui peatuda
+  ja tunda t\u00e4nulikkust, et \u00fcldse elame, hingame, armastame ja saame lihtsalt
+  luua paremat maailma, sammhaaval. Elu ilu ongi ju peidus elus!\\nKolm Monique\u2019i
+  luuletust elamise ilu teemal: ilus on olla elus\\nElu m\u00f5te\\nKui elu m\u00f5te
+  on olla parem\\nalusta teistest palju varem\\ntee k\u00f5ik, mis tegema pead\\nja
+  paranda tehtud vead\\nKui elu m\u00f5te on luua head\\nsiis heast m\u00f5tlema pead\\nkurjusel
+  elus ei tohiks teha ruumi\\nelu heaks sa ise vaid tuunid\\nKui elu m\u00f5te on
+  koguda hetki\\nreisi ees \u00e4ra l\u00f6\u00f6 ette risti\\ntee k\u00f5ike, mis
+  p\u00e4he tuleb\\nmine sinna, kus s\u00fcda l\u00e4heb\\nKui elu m\u00f5te on elu
+  ise\\npuudub keegi, kes poob ja k\u00e4seb\\nlase hingel lennelda vabalt\\nnii elu
+  m\u00f5tte sa tabad\\nEi muutu miski enne sinu elus\\nKui istud kastis kinni sa\\nja
+  vaatad taevast alla maad\\nk\u00f5ik maal nii v\u00e4ike tundub sul\\nka kardinate
+  taga ainult muld\\nei n\u00e4e sa pilvepiiri taga inglit\\nkes sala sosistab sul
+  kauneid s\u00f5nu\\nei taju p\u00e4ikest s\u00f5bra s\u00fcdames\\nkes vaikides
+  teeb lauluviisi m\u00f5rust\\nei tunne armastust, kui s\u00f5nu pole\\nveel oma
+  teatrit\u00fckki vead\\nei usu igatsust, kui teda pole\\nkuid omandiks sa k\u00f5iki
+  pead\\nkui relvaks vihkamine, vaen ja valu\\nka teiste vikerkaart ei talu\\nei muutu
+  enne miskit sinu elus\\nkui armastuse teed sa valust\\nIlus on olla\\nIlus on olla,
+  kui armastus hinges\\nIlus on olla, kui ema on armas\\nIlus on olla, kui isa on
+  hea\\nIlus on olla, kui siiras on s\u00f5ber\\nIlus on olla, kui teekond on p\u00f5nev\\nIlus
+  on olla, kui lugu on kirev\\nIlus on olla, kui meeled on valla\\nIlus on olla, kui
+  hinges on s\u00e4ra\\nIlus on olla, kui s\u00fcda on puhas\\nIlus on olla, kui elus
+  end tunned\\nIlus on olla, kui elu on ilus\\nIlus on olla elus\"", "\"Hoiused\\nT\u00e4htajalisele
+  hoiusele saab paigutada kindla summa kindlaks ajaperioodiks. Reeglina on t\u00e4htajaline
+  hoius k\u00f5ige k\u00f5rgema intressiga.\\nLoe edasi T\u00e4htajalisest hoiusest\\nReservhoius
+  on k\u00f5ige paindlikum hoius. Hoiusele saate raha alati juurde panna, vajadusel
+  v\u00e4lja v\u00f5tta. Ja hoiuseintress muutub automaatselt koos turuintressiga.\\nLoe
+  edasi Reservhoiusest\\nKui Teil j\u00e4\u00e4b tihti raha kogumiseks j\u00e4rjekindlusest
+  puudu, siis on Teile m\u00f5eldud Kogumishoius. S\u00f5lmige leping ja iga kuu kantakse
+  Teie arvelduskontolt kindel summa Kogumishoiusele.\\nLoe edasi Kogumishoiusest\\nKinkige
+  oma lapsele lisaks m\u00e4nguasjadele stardikapital isesesiva elu alustamiseks,
+  avage talle Lastehoius.\\nLoe edasi Lastehoiuset\"", "\"Juba valmistutakse \u00f5hinas
+  kooseluseaduse vastaseks meeleavalduseks, internetifoorumid on t\u00e4is agressiivseid
+  r\u00fcnnakuid teisitim\u00f5tlejate suunal ja inimeste postkastidesse tilguvad
+  protestikirjad. Kaaskodanikud, mis teil viga on?\\nEuroopa tasandil noortevaldkonnas
+  juba mitu aastat aktiivselt kaasa l\u00fc\u00fces olen ma harjunud sellega, et \u00fcks
+  peamisi v\u00e4\u00e4rtusi noorteorganisatsioonides on sallivus sind \u00fcmbritsevate
+  inimeste suhtes. Ole salliv, ole vastuv\u00f5tlik, ole s\u00f5bralik - seda s\u00f5ltumata
+  inimese rassist, rahvusest, puudest, seksuaalselt orientatsioonist, usulistest eelistustest.
+  Noored tunnevad ennast turvaliselt ja kaasatuna, seega on seltskond v\u00e4ga kirju
+  ning iga\u00fchel on v\u00f5rdse kaaluga h\u00e4\u00e4l. Inimene on inimene ja muu
+  ei loe.\\nKuigi Euroopa on oma suhtumises Eestist t\u00fckkmaad liberaalsem ei ole
+  ka seal veel k\u00f5ik v\u00e4hemused alati kaitstud. Kinnistamaks sallivust ja
+  kaitsmaks inimeste \u00f5igusi alustas 2012. aastal Euroopa N\u00f5ukogu noorte
+  kampaaniaga \u00abno hate speech\u00bb (\u00abei vihak\u00f5nele\u00bb). Kampaania
+  on suunatud interneti avarustes leviva vihak\u00f5ne ja diskrimineerimise vastu.
+  Selle raames t\u00f5stetakse \u00fchiskonna teadlikkust vihak\u00f5ne olemasolust,
+  kaardistatakse probleemid, kasvatatakse solidaarsust ja \u00fchtlasi ka t\u00e4isv\u00e4\u00e4rtuslikke
+  ja sallivaid maailmakodanikke.\\nEesti juhtumit vaadates on mul selline tunne, et
+  meil oleks vaja lausa oma \u00abno hate speech\u00bb arengukava. Ja seda mitte ainult
+  noorte kontekstis, vaid k\u00f5igi meie \u00fchiskonna kihtide l\u00f5ikes. Ja mitte
+  ainult interneti dimensioonis, vaid lausa regionaalsel tasandil. J\u00e4ttes unarusse
+  sellised m\u00e4rks\u00f5nad nagu \u00abv\u00f5rdne kohtlemine\u00bb, \u00abv\u00e4\u00e4rikus\u00bb,
+  \u00abinim\u00f5igused\u00bb ja \u00abmitmekesisus\u00bb j\u00f5uame me vaid selleni,
+  et Eesti riigi elanikel ei ole turvatunnet ning siis nad lahkuvadki. Kes siis meie
+  traditsioone edasi viib?\\nEesti vabariigi p\u00f5hiseaduses seisab: K\u00f5ik on
+  seaduse ees v\u00f5rdsed. Kedagi ei tohi diskrimineerida rahvuse, rassi, nahav\u00e4rvuse,
+  soo, keele, p\u00e4ritolu, usutunnistuse, poliitiliste v\u00f5i muude veendumuste,
+  samuti varalise ja sotsiaalse seisundi v\u00f5i muude asjaolude t\u00f5ttu. Rahvusliku,
+  rassilise, usulise v\u00f5i poliitilise vihkamise, v\u00e4givalla ja diskrimineerimise
+  \u00f5hutamine on seadusega keelatud ja karistatav. Samuti on seadusega keelatud
+  ja karistatav \u00f5hutada vihkamist, v\u00e4givalda ja diskrimineerimist \u00fchiskonnakihtide
+  vahel.\\nK\u00f5igile meile meeldetuletuseks. T\u00e4nuv\u00e4\u00e4rt t\u00f6\u00f6d
+  teevad meie v\u00f5imuesindajad, kes t\u00f6\u00f6tavad kooseluseadusega edasi ning
+  \u00fcritavad kaitsta nii paljude Eesti elanike \u00f5igusi kui v\u00f5imalik.\"",
+  "\"LHV Pank t\u00f5i turule uut t\u00fc\u00fcpi hoiuse, mille\\npuhul makstakse
+  hoiuselt teenitud intress kontole kohe hoiuperioodi alguses.\\nAlates t\u00e4nasest
+  on LHV Pangas v\u00f5imalik hoiuse tegemisel m\u00e4\u00e4rata, kas hoiuselt teenitud
+  intress makstakse kontole hoiuperioodi alguses, igakuiselt v\u00f5i hoiuperioodi
+  l\u00f5pus. \\\"Hoiuperioodi alguses makstava intressiga hoiuse puhul on pigem tegemist
+  mugavustootega kliendi jaoks. N\u00e4iteks sobib see inimesele, kes soovib hoiuselt
+  saadavat intressi kohe kasutama hakata v\u00f5i seda hoiuperioodi ajal ise investeerida,\\\"
+  \u00fctles LHV Panga juht Erki Kilu.\\nSamuti t\u00e4iendati hoiuste valikut igakuiselt
+  makstavate intressidega hoiusega, teatas pank.\\nAlates krediidiasutuse tegevusloa
+  saamisest t\u00e4navu 6. mail on LHV Panga hoiuste maht kasvanud 488 miljoni kroonini.
+  Sellest 192 miljonit krooni on n\u00f5udmiseni ja 296 miljonit krooni t\u00e4htajalised
+  hoiused. 52% hoiustest on Eesti kroonides, 34% eurodes ja \u00fclej\u00e4\u00e4nu
+  muudes valuutades.\\nOsale arutelus\"", "\"Varakult lahknenud seener\u00fchma Basal
+  clone group 2 visualiseerimine CARD-FISH metoodikaga\\nDate\\n2021\\nJournal Title\\nJournal
+  ISSN\\nVolume Title\\nPublisher\\nTartu \u00dclikool\\nAbstract\\nBakalaureuset\u00f6\u00f6
+  teoreetilise osa eesm\u00e4rk oli anda \u00fclevaade varakult lahknenud seente taksonitest,
+  nende \u00f6koloogilisest rollist ja nende uurimiseks kasutatavatest meetoditest.
+  T\u00f6\u00f6 eksperimentaalse osa eesm\u00e4rk oli v\u00e4lja t\u00f6\u00f6tada
+  varasemate uurimist\u00f6\u00f6de alusel CARD-FISH protokoll, mis v\u00f5imaldaks
+  edaspidiselt uurida mikroskoopilisi seeni. T\u00f6\u00f6 uurimisobjektiks oli ainult
+  keskkonnast p\u00e4rit geenij\u00e4rjestuste p\u00f5hjal teadaolev r\u00fchm laborinimega
+  Basal clone group 2 (BCG2).\\nDescription\\nKeywords\\nvarakult lahknenud seened,
+  BCG2, CARD-FISH\"", "\"teisip\u00e4ev, juuni 14, 2011\\nM\u00f5tle, et \u00e4ra
+  tee enam midagi, siis tuleb \\\"viha\\\" teha siiski k\u00f5ike, mis tundub m\u00f5ttetu,
+  asjatu, lootusetu... Ja elu l\u00e4hebki edasi! Viimased n\u00e4dalad on p\u00f5rkepallid
+  seinast seina.\\nMul on k\u00fcsimus: kaua veel... \u00dchel hetkel peab j\u00e4lle
+  n\u00e4htamatu m\u00f5\u00f5n t\u00f5usma hakkama. Teisiti lihtsalt ei saa. :)\\nT\u00e4na
+  tegime naiskonnaga abistaja projekti. Esmakordselt tajun meeskonna tuge.\\nMul on
+  k\u00fcsimus: kaua veel... \u00dchel hetkel peab j\u00e4lle n\u00e4htamatu m\u00f5\u00f5n
+  t\u00f5usma hakkama. Teisiti lihtsalt ei saa. :)\\nT\u00e4na tegime naiskonnaga
+  abistaja projekti. Esmakordselt tajun meeskonna tuge.\\n2 kommentaari:\\nNaiskonnaga
+  meeskonna tugi.. :)\\nMMHHMM, justnimelt - naiskonnalt mehine tuge :)\\nPostita
+  kommentaar\""]'
+src_ngrams: '{"1": [[["ka"], 41959193], [["v\u00f5i"], 40964074], [["ning"], 31602929],
+  [["v\u00f5ib"], 20927794], [["kuid"], 17112049]], "2": [[["v\u00f5ib olla"], 3063429],
   [["mitte ainult"], 2020503], [["samal ajal"], 1886004], [["korda p\u00e4evas"],
-  1301279], [["ette n\u00e4htud"], 1165584]], "3": [[["olulisemate uudiste kokkuv\u00f5te"],
+  1301279], [["vaid ka"], 1276030]], "3": [[["olulisemate uudiste kokkuv\u00f5te"],
   275773], [["v\u00f5tke meiega \u00fchendust"], 250854], [["kolm korda p\u00e4evas"],
   224161], [["teil on vaja"], 215821], [["kaks korda p\u00e4evas"], 213006]], "4":
   [[["palun v\u00f5tke meiega \u00fchendust"], 119320], [["kuvab err kommenteerija
   t\u00e4isnime"], 100124], [["toote\u00fclevaateid veel ei ole"], 89898], [["president
   toomas hendrik ilves"], 87585], [["aastat vana ning kuulub"], 85163]], "5": [[["aastat
   vana ning kuulub v\u00e4ljaande"], 66950], [["vana ning kuulub v\u00e4ljaande digitaalsesse"],
-  66949], [["uuenda ega kaasajasta arhiveeritud sisu"], 66945], [["v\u00f5ib olla
-  vajalik kaasaegsete allikatega"], 66943], [["olla vajalik kaasaegsete allikatega
-  tutvumine"], 66943]]}'
+  66949], [["ning kuulub v\u00e4ljaande digitaalsesse arhiivi"], 66948], [["uuenda
+  ega kaasajasta arhiveeritud sisu"], 66945], [["v\u00f5ib olla vajalik kaasaegsete
+  allikatega"], 66943]]}'

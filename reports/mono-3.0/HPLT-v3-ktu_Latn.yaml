@@ -1,6 +1,6 @@
 corpus: hplt-v3-ktu_Latn
-srclang: kg
-timestamp: 1758081226.024725
+srclang: ktu
+timestamp: 1759490520.2506669
 warnings:
 - src_warning_tok_nltk_wordpunct
 - src_fastspell
@@ -21,7 +21,8 @@ docs_collections: '[["CC-MAIN-2020-16", 717], ["CC-MAIN-2021-39", 385], ["CC-MAI
   7], ["CC-MAIN-2018-34", 7], ["wide6", 6], ["survey3", 4], ["CC-MAIN-2018-22", 4],
   ["wide5", 3], ["wide17", 3], ["CC-MAIN-2018-43", 2], ["CC-MAIN-2017-04", 1], ["CC-MAIN-2016-30",
   1], ["CC-MAIN-2015-11", 1], ["CC-MAIN-2014-42", 1], ["CC-MAIN-2014-35", 1]]'
-docs_langs: '[[0.0, 4423]]'
+docs_langs: '[[0.1, 2], [0.2, 32], [0.3, 46], [0.4, 83], [0.5, 156], [0.6, 145], [0.7,
+  243], [0.8, 378], [0.9, 277], [1.0, 3061]]'
 docs_segments: '[[1, 29], [2, 67], [3, 203], [4, 208], [5, 316], [6, 452], [7, 331],
   [8, 228], [9, 231], [10, 158], [11, 124], [12, 134], [13, 137], [14, 96], [15, 80],
   [16, 88], [17, 67], [18, 67], [19, 74], [20, 111], [21, 79], [22, 61], [23, 68],
@@ -71,6 +72,7 @@ docs_wds: '[[5.0, 31], [5.1, 38], [5.2, 28], [5.3, 34], [5.4, 42], [5.5, 41], [5
   [7.9, 197], [8.0, 274], [8.1, 268], [8.2, 156], [8.3, 147], [8.4, 107], [8.5, 102],
   [8.6, 121], [8.7, 108], [8.8, 121], [8.9, 120], [9.0, 134], [9.1, 121], [9.2, 118],
   [9.3, 100], [9.4, 84], [9.5, 86], [9.6, 68], [9.7, 51], [9.8, 23], [9.9, 4]]'
+duplication_ratio: 0.0837
 sentence_pairs: 86549
 src_bytes: 22527167
 src_chars: 22319478
@@ -279,966 +281,994 @@ src_langs: '[["sw", 28217], ["en", 12508], ["eo", 12092], ["tl", 10823], ["id", 
   ["gv", 1], ["bg", 1], ["bar", 1], ["av", 1], ["arz", 1]]'
 hardrules_tags: '{"not_too_long": 1872, "not_too_short": 4183, "length_ratio": 0,
   "no_urls": 377, "no_bad_encoding": 36, "pii": 28}'
-sample: '["\"Inki mutindu bima ya ntama yina bo me zwaka ke ndimisa nde Belshasare
-  vandaka ntotila ya Babilone?\\nBAMVULA mingi, bantu yina ke tulaka ntembe na Biblia
-  ke tuba nde ntotila Belshasare, yina mukanda ya Daniele ke tubila zingaka ve. (Dan.
-  5:1) Bo tubaka mutindu yai sambu bo vandaka ve ti banzikisa ya ke monisa nde Belshasare
-  zingaka. Kansi na 1854 mambu sobaka. Sambu na nki?\\nNa mvula yina, J. G. Taylor
-  mfumu mosi ya politiki ya Angleterre kwendaka kutala mayumbu ya mbanza Ure (bubu
-  yai, Irak ya sudi). Yandi monaka bima mingi ya ntoto ya tuma, yo vandaka na nsi
-  ya ntoto na kati ya nzo mosi ya nene. Bima yango vandaka bonso batablo. Konso tablo
-  vandaka nda kiteso ya basantimetre 10 mpi yo vandaka ti bisono ya ntama. (inscription
-  cun\u00e9iforme) Bisono yina vandaka na tablo mosi, vandaka kisambu mosi yina bo
-  salaka sambu na kulomba Nzambi nde Nabonidus, ntotila ya Babilone mpi mwana na yandi
-  ya ntete Belshasare kuzinga mingi. Ata bantu yina ke tulaka ntembe ndimaka yo sambu
-  bima ya ntama yina bo zwaka monisaka kibeni nde Belshasare zingaka.\\nBiblia ke
-  monisa nde Belshasare zingaka mpi yandi vandaka ntotila. Kansi bantu yina ke tulaka
-  ntembe na mambu ya Biblia ndimaka ve nde yandi vandaka ntotila. Mu mbandu, William
-  Talbot muntu mosi ya mayele ya Angleterre sonikaka nde bantu ya nkaka ke tubaka
-  nde: \u201cBel-sar-ussur [Belshasare] yalaka na nsungi yina tata na yandi vandaka
-  kuyala. Kansi beto kele mpenza ve ti banzikisa ya ke ndimisa mambu yango.\u201d\\nNtembe
-  yina manaka ntangu tablo mosi ya ntoto ya tuma ya bo zwaka vandaka ti bisono yina
-  monisaka nde na nsungi mosi ya luyalu na yandi, ntotila Nabonidus, tata ya Belshasare
-  zingaka ve na ntu-mbanza bamvula mingi. Inki salamaka na bamvula yina yandi vandaka
-  ve na ntu-mbanza? Mukanda mosi (Encyclopaedia Britannica) ke tuba nde: \u201cNtangu
-  ntotila Nabonidus kwendaka na insi ya nkaka, yandi pesaka mwana na yandi Belshasare
-  kimfumu mpi basoda mingi.\u201d Yo yina, Belshasare yalaka Babilone ti tata na yandi
-  na bamvula yina. Alan Millard muntu mosi ya mayele yina ke sosaka bima ya ntama
-  na nsi ya ntoto mpi yina ke longukaka bandinga tubaka nde yo fwanaka nde \u201cMukanda
-  ya Daniele kubinga Belshasare \u2018ntotila.\u2019\u201d\\nYa kieleka, bansadi ya
-  Nzambi ke ndimaka nde mukanda ya Daniele kele mukanda ya kutudila ntima sambu Biblia
-  ke ndimisa nde bo sonikaka mukanda ya Daniele na ngolo ya mpeve santu ya Nzambi.\u20142
-  Tim. 3:16.\"", "\"Kibila mbi tufueti viokisila thangu na batu banzolanga Yave? Kibila
-  bakundi bitu balenda tukindisa kuvanga mambu mamboti voti mambi. (Zingana 13:20)
-  Dedi, Ntinu Yoasi wuvanga \u201cmambu masulama va mesu ma Yave\u201d bo kaba diatanga
-  na Nganga Nzambi Yoyada. (2 Lusansu 24:2) Vayi, bo Yoyada kafua, Yoasi wubanda Yave
-  mbusa mu kibila ki bakundi bambi.\u20142 Lusansu 24:17-19.\\nMu sekulu yitheti T.K.,
-  mvuala Polo wudedikisa kimvuka ki Baklisto buka \u201cnzo yinneni\u201d ayi batu
-  badi mu khati kimvuka buka \u201cbisadulu,\u201d voti bisadulu bi nzo. Tuntatamana
-  kuba \u201ckisadulu ki luzitu\u201d bo tuntina kuba kinkundi kifikama na woso mutu,
-  wumvanganga mambu makhambu kuangidika Yave, kuba kuandi muisi dikanda ditu voti
-  mu kimvuka. (2 Timoteo 2:20, 21) Diawu, tufueti tatamana kuvanga kikundi na batu
-  banzolanga Yave ayi batukindisa kunsadila.\\nTALANU VIDEO TINA MINKANGULU MIMBI,
-  BOSI VANA MIMVUTU MI BIUVU BINLANDA:\\nBuidi tulenda tonina kuviokisa thangu ayi
-  batu bambi?\\nMbi bisadisa zikhomba tuma mona mu video kumanisa kikundi baba na
-  batu bakhambu sadilanga Yave?\\nMinsua mbi mi Kibibila milenda kusadisa kusola bakundi
-  mu nduenga?\"", "\"Kibila mbi bapostolu bakhambu kindimina mu ziphukumunu?\\n14:29,
-  31\\nBawu bayifyatila. Petelo wumwena ti nandi wunkwiza luta ba wukwikama mu Yesu
-  ke bapostolu bankaka\\n14:32, 37-41\\nBawu basa tatamana ko kuba bakotuka ayi kusambila\\nBo
-  Yesu kavulubuka bapostolu banyongina masumu mawu, mbi bibasadisa kubika mona boma
-  bu mutu ayi kusamuna kheti mu zithotolo\\n13:9-13\\nBawu balunda mu ntima zindubu
-  zi Yesu ayi mawu maba sadisa kukindama mu ziphasi\\nBawu bafyatila Yave ayi basambila.\u2014Mavanga
-  4:24, 29\\nMambu mbi malenda thota kibakala kitu?\"", "\"NZOZULU YA NKENGI Februari
-  2014 | Mvita Yina Sobaka Nsi-Ntoto\\nNormal;Sambu na nki mvita ya ntete ya ntoto
-  ya mvimba sobaka mambu na nsi-ntoto? Keti bamvutu ke monisa diambu mosi sambu na
-  bilumbu yina ke kwisa?\\nDISOLO YINA KELE NA LUTITI YA LUYANTIKU\\nInki mutindu
-  mvita ya ntete ya ntoto ya mvimba, ya bo ke bingaka mpi \u201cMvita ya Nene,\u201d
-  sobaka nsi ntoto mpi ke landa kumonisa bantu mpasi tii bubu yai?\\nDISOLO YINA KELE
-  NA LUTITI YA LUYANTIKU\\nInki mutindu Biblia ke monisa nde bitumba yina salamaka
-  na zulu kele na kuwakana ti mvita mpi bampasi yina basikaka na ntoto ya mvimba?\\nBIBLIA
-  KE SOBAKA LUZINGU YA BANTU\\nIvars Vigulis kudipesaka mingi na kusosa kuzabana,
-  lukumu, mpi kiese ya kusala nsaka ya moto. Inki mutindu bakieleka ya Biblia sobaka
-  luzingu na yandi?\\nBATANGI NA BETO KE YULA\\nBiblia ke tendula mambu yina Nzambi
-  kele na kusala sambu na mambu ya nku bubu yai mpi yina yandi ta sala na bilumbu
-  ya ke kwisa.\\nLANDA MBANDU YA LUKWIKILU NA BO\\nKeti bo me sadilaka nge mambu ya
-  kukonda lunungu? Keti nge ke zola nde Nzambi kusukisa mambu ya kukonda lunungu?
-  Tala mutindu nge lenda landa mbandu ya Eliya muntu ya kwikama.\"", "\"\u201cSimoni
-  mwana ya Yoane, keti nge ke zolaka mono kuluta yai?\u201d\u2014YOANE 21:15.\\n1,
-  2. Inki dilongi Piere bakaka na nima ya kuloba mpimpa ya mvimba?\\nBALONGOKI ya
-  Yezu nsambwadi me loba mpimpa ya mvimba na Nzadi ya Galilea kansi bo me kanga ve
-  ata mbisi mosi. Na suka, Yezu yina futumukaka, me telama na dibungu mpi ke tala
-  bo. Yandi tubilaka bo nde: \u201c\u2018Beno losa bukondi na diboko ya kitata ya
-  maswa mpi beno ta kanga ndambu ya bambisi.\u2019 Yo yina bo losaka yo, kansi bo
-  kukaka diaka ve kubenda yo sambu bambisi vandaka mingi.\u201d\u2014Yoane 21:1-6.\\n2
-  Na nima, Yezu pesaka balongoki mampa mpi bambisi sambu bo dia. Ebuna yandi yulaka
-  Simoni Piere nde: \u201cSimoni mwana ya Yoane, keti nge ke zolaka mono kuluta yai?\u201d
-  Yezu zabaka mbote nde Piere vandaka kuzola mingi kuloba. Ziku Yezu zolaka kuzaba
-  kana Piere vandaka kuzola mingi kisalu ya kuloba kuluta mambu yina yandi longaka
-  bo. Piere vutulaka nde: \u201cMfumu, nge me zaba nde mono ke zolaka nge.\u201d (Yoane
-  21:15) Banda kilumbu yina, Piere zitisaka mambu yina yandi tubaka. Sambu na kumonisa
-  nde yandi vandaka kuzola Kristu, yandi kudipesaka mingi na kusamuna mpi bakaka mikumba
-  ya nene na dibundu.\\n3. Bakristu fwete keba na nki mambu?\\n3 Mambu yina Yezu songaka
-  Piere ke longa beto nki? Beto fwete bika ve nde zola na beto sambu na Kristu kukuma
-  madidi. Yezu zabaka nde luzingu na nsi-ntoto ta kuma mpasi mpi beto ta kutana ti
-  bampasi mingi. Na kingana ya muntu ya ke kuna, Yezu tubaka nde bantu ya nkaka ta
-  ndima \u201cndinga ya Kimfumu\u201d mpi bo ta yantika kulonga ti kikesa. Kansi na
-  nima, \u2018basusi ya ngidika yai ya bima mpi kiyeka ya kimvwama ya ke kusaka\u2019
-  ta kanga bo nzila mpi bo ta vanda diaka ve ti kikesa. (Matayo 13:19-22; Marko 4:19)
-  Kana beto ke kudiyangisa mingi sambu na luzingu, yo lenda kanga beto nzila ya kusadila
-  Yehowa mbote-mbote. Yo yina, Yezu songaka balongoki na yandi nde: \u201cBeno keba
-  sambu bantima na beno kukuma ve ata fioti kizitu na kudia mbiki, na kulutisa ndilu
-  na kunwa malafu, mpi na basusi ya luzingu.\u201d\u2014Luka 21:34.\\n4. Inki ta sadisa
-  beto na kuzaba kana beto ke zolaka Kristu mingi? (Tala kifwanisu ya luyantiku ya
-  disolo.)\\n4 Bonso Piere, beto fwete tula kisalu ya kusamuna na kisika ya ntete
-  sambu na kumonisa nde beto ke zolaka Kristu. Ngiufula yai lenda sadisa beto mingi,
-  kudiyula nde: \u2018Na luzingu na mono, inki mono ke zolaka mingi, kisalu ya Yehowa
-  to mambu ya nkaka?\u2019 Sambu na kupesa mvutu na ngiufula yai, beto tadila mambu
-  tatu yina lenda kanga beto nzila ya kulanda kuzola Kristu: kisalu ya kinsuni, bansaka
-  ya kulutisa ntangu mpi bima ya kinsuni.\\nTULA KISALU YA KINSUNI NA KISIKA NA YO\\n5.
-  Inki mukumba Yehowa me pesaka bamfumu ya mabuta?\\n5 Piere vandaka kuloba ve kaka
-  sambu na kulutisa ntangu, kansi yo vandaka kibeni kisalu yina vandaka kulungisa
-  bampusa ya dibuta na yandi. Bubu yai mpi, Yehowa me pesaka bamfumu ya mabuta mukumba
-  ya kulungisa bampusa ya mabuta na bo. (1 Timoteo 5:8) Bo fwete sala ngolo sambu
-  na kulungisa yo. Kansi na bilumbu yai ya nsuka, bantu lenda kuma ti basusi mingi
-  sambu na kisalu ya kinsuni.\\n6. Sambu na nki bantu ke kudiyangisaka sambu na kisalu
-  ya kinsuni?\\n6 Bantu mingi ke sosa kisalu kansi yo ke monana ve. Yo yina, bantu
-  ke salaka ngolo sambu na kuzwa kisalu, nkutu bankaka ke salaka bangunga mingi kuluta
-  bangunga yina bo fwete sala ata bo ke futa bo mbote ve. Bakompani ya nkaka ke salaka
-  bisalu mingi ti bantu fioti mpamba, bo ke zolaka ve kubaka bantu mingi. Yo yina,
-  bantu ya kisalu ke lembaka mingi, nkutu bankaka ke belaka. Bantu mingi ke waka boma
-  nde bo ta katula bo na kisalu, yo yina bo ke salaka mambu yonso yina mfumu ya kisalu
-  ke lomba bo.\\n7, 8. (a) Nani beto fwete zitisa ntete? (b) Inki dilongi mpangi mosi
-  na Tha\u00eflande bakaka sambu na kisalu?\\n7 Beto ke zitisaka Yehowa mingi kuluta
-  bantu yonso, ata bamfumu ya kisalu. (Luka 10:27) Kisalu ke sadisaka beto na kuzwa
-  bima yina beto kele na yo mfunu mpi kupesa makabu sambu kisalu ya kusamuna kukwenda
-  na ntwala. Kansi kana beto keba ve, kisalu lenda kanga beto nzila ya kusambila Nzambi
-  mbote. Mbandu ya mpangi-bakala mosi na Tha\u00eflande lenda sadisa beto. Yandi ke
-  tuba nde: \u201cMono vandaka ti kisalu ya mbote ya kuyidika baordinatere, kansi
-  yo vandaka kubaka mono ntangu mingi. Yo vandaka kubikila mono ve ntangu ya kusala
-  mambu ya kimpeve. Mono bakisaka nde sambu na kutula Kimfumu na kisika ya ntete,
-  mono fwete soba kisalu.\u201d Inki yandi salaka?\\n8 Yandi ke tuba nde: \u201cNa
-  nima ya kuyidika mambu kiteso ya mvula mosi, mono kumaka kuteka bima ya sukadi ya
-  madidi (cr\u00e8me glac\u00e9e). Na luyantiku, mono vandaka kibeni na mbongo ve,
-  yo lembisaka mono. Bantu yina mono vandaka kusala ti bo bisalu ya baordinatere vandaka
-  kuseka mono mpi bo vandaka kuyula sambu na nki mono me yambula kisalu yina ya mbote,
-  na biro ya kitoko mpi mono me kuma kuteka bima yina ya madidi. Mono sambaka Yehowa
-  sambu na kununga mpasi yina mpi kulungisa lukanu na mono ya kudipesa mingi na mambu
-  ya kimpeve. Ntangu fioti na nima, mambu yantikaka kubonga. Mono solulaka ti bantu
-  sambu na kutomisa kisalu na mono mpi mono kumaka kusala yo mbote. Na nima, kana
-  mono me sala cr\u00e8me, bantu kumaka kusumba yonso. Mono kumaka na mbongo mingi
-  kuluta yina mono vandaka kuzwa na kisalu na mono ya ntete. Mono kumaka na kiese
-  sambu mono vandaka kulemba diaka ve mutindu mono vandaka kulemba ntete. Kima ya
-  kuluta mfunu kele nde bubu yai, kinduku na mono ti Yehowa me kumaka ngolo.\u201d\u2014Tanga
-  Matayo 5:3, 6.\\n9. Inki lenda sadisa beto na kuvanda ti bukati-kati na kisalu na
-  beto ya kinsuni?\\n9 Yehowa ke sepelaka mingi kana beto ke sala kisalu. Kisalu ke
-  pesaka lufutu. (Bingana 12:14) Kansi beto fwete sala yonso sambu kisalu na beto
-  kukuma ve mfunu kuluta kisalu ya Yehowa. Yezu tubaka nde: \u201cBeno landa kusosa
-  ntete Kimfumu ti lunungu na yandi, ebuna yandi ta yika beno bima yina yonso ya nkaka.\u201d
-  (Matayo 6:33) Inki ta sadisa beto na kuzaba kana beto kele ti bukati-kati na kisalu
-  na beto ya kinsuni? Kudiyula nde: \u2018Keti mono ke sepelaka mingi na kisalu na
-  mono kansi mono ke monaka kisalu ya Yehowa bonso bisalu yonso, to nkutu kisalu ya
-  mpasi? Kuyindulula ngiufula yai ta sadisa beto na kuzaba kibeni mambu yina beto
-  ke zolaka.\\n10. Inki dilongi ya mfunu Yezu longaka?\\n10 Yezu me longaka beto mambu
-  yina beto fwete tula na kisika ya ntete. Kilumbu mosi, Yezu kwendaka kutala Maria
-  ti Marta. Na mbala mosi, Marta yantikaka kulambila yandi kansi Maria kwendaka na
-  Yezu sambu na kuwidikila yandi. Marta bokutaka nde Maria ke sadisa yandi ve. Yezu
-  tubilaka Marta nde: \u201cMaria me [pona] kima ya mbote, mpi bo ta botula yandi
-  yo ve.\u201d (Luka 10:38-42) Na dibaku yai, Yezu longaka dilongi ya mfunu kibeni.
-  Sambu banzala na beto kukatula beto ve dikebi na mambu ya mfunu mpi sambu na kumonisila
-  Kristu zola, beto fwete pona \u201ckima ya mbote,\u201d disongidila ntangu yonso
-  kinduku na beto ti Yehowa fwete baka kisika ya ntete.\\nMUTINDU BETO FWETE TADILA
-  BANSAKA YA KULUTISA NTANGU\\n11. Inki mambu Biblia ke tuba na yina me tala kupema
-  mpi bansaka ya kulutisa ntangu?\\n11 Beto ke salaka bisalu mingi, yo yina bantangu
-  ya nkaka beto ke vandaka na mfunu ya kupema mpi kubaka mupepe. Biblia ke tuba nde:
-  \u201cKima ya kuluta mbote sambu na muntu kele ve, katula kaka kudia, kunwa, mpi
-  kuwa kiese sambu na kisalu na yandi ya ngolo.\u201d (Longi 2:24) Yezu zabaka nde
-  bantangu ya nkaka balongoki na yandi fwete pema. Mu mbandu, kilumbu mosi bantumwa
-  longaka mingi, Yezu songaka bo nde: \u201cBeno kwisa, beno mosi, na kisika ya kingenga
-  mpi beno pema fioti.\u201d\u2014Marko 6:31, 32.\\n12. Sambu na nki beto fwete keba
-  na bansaka ya kulutisa ntangu? Pesa mbandu.\\n12 Bansaka ya kulutisa ntangu ke sadisaka
-  beto na kupema mpi kubaka mupepe. Kansi yo fwete baka ve kisika ya ntete na luzingu.
-  Na mvu-nkama ya ntete, bantu mingi vandaka kutuba nde: \u201cBeto dia mpi beto nwa,
-  sambu mbasi beto ta fwa.\u201d (1 Bakorinto 15:32) Bubu yai, bantu mingi ke tubaka
-  mpi mpidina. Mu mbandu, leke mosi ya bakala na Westi ya Eropa yantikaka kukwenda
-  na balukutakanu ya Bambangi ya Yehowa. Kansi yandi vandaka kuzola mingi bansaka,
-  yo yina yandi vandaka kukwenda diaka ve na balukutakanu. Na nima, yandi bakisaka
-  nde bansaka natilaka yandi bampasi mingi. Yandi yantikaka diaka kulonguka Biblia
-  mpi kumaka kulonga nsangu ya mbote ti kikesa. Na nima ya kubaka mbotika yandi tubaka
-  nde: \u201cMono ke waka mpasi mingi sambu mono lutisaka ntangu mingi na ntwala ya
-  kubakisa nde kusadila Yehowa ke pesaka kiese mingi kuluta bansaka ya nsi-ntoto.\u201d\\n13.
-  (a) Pesa mbandu ya ke monisa kigonsa ya kulutisa ntangu mingi na bansaka. (b) Inki
-  lenda sadisa beto na kuvanda ti bukati-kati na bansaka ya kulutisa ntangu?\\n13
-  Bansaka ya kulutisa ntangu ke sadisaka beto na kupema sambu na kubaka diaka ngolo.
-  Bantangu ikwa beto fwete lutisa na bansaka? Tadila mbandu yai. Bantu mingi ke zolaka
-  kudia bagato, mpi bima ya sukadi. Kansi beto me zaba nde kudia bima yai mingi lenda
-  natila muntu maladi. Kana muntu ke zola nde nitu na yandi kuvanda ngolo, yandi fwete
-  dia bima yina ke tungaka nitu. Mutindu mosi, kana beto ke lutisa ntangu mingi na
-  bansaka, yo ta bebisa kinduku na beto ti Yehowa. Inki lenda sadisa beto na kuzaba
-  kana beto kele ti bukati-kati na bansaka to ve? Beto lenda sonika bangunga yina
-  beto lutisaka na mposo mosi na kisalu ya Yehowa mu mbandu, na balukutakanu, na kisalu
-  ya kusamuna mpi na kulonguka Biblia. Na nima, beto lenda sonika mpi bangunga yina
-  beto lutisaka na mposo yina na bansaka, mu mbandu balo, televizio to bansaka ya
-  video. Kusala mutindu yai lenda sadisa beto na kuzaba kana beto fwete sala bansoba
-  to ve.\u2014Tanga Baefezo 5:15, 16.\\n14. Inki lenda sadisa beto na kupona nsaka
-  ya mbote?\\n14 Yehowa me pesaka beto nswa ya kupona bansaka, bamfumu ya mabuta lenda
-  pona bansaka sambu na bantu ya mabuta na bo. Bansiku ya Yehowa ke sadisaka beto
-  na kubakisa mabanza ya Yehowa. Bansiku yai ke sadisaka beto na kubaka balukanu ya
-  mbote. * Bansaka ya mbote kele \u201cdikabu ya Nzambi.\u201d (Longi 3:12, 13) Ya
-  kieleka bantu yonso ke zolaka ve bansaka ya mutindu mosi. (Bagalatia 6:4, 5) Ata
-  mpidina, beto fwete keba na konso nsaka ya beto ke pona. Yezu tubaka nde: \u201cKisika
-  kima na nge ya ntalu kele, ntima na nge mpi ta vanda pana.\u201d (Matayo 6:21) Sambu
-  beto ke zolaka Ntotila Yezu, beto fwete yindula, kutuba mpi kusala mambu yina ke
-  monisa nde Kimfumu ya Nzambi kele mfunu mingi kuluta bima yonso.\u2014Bafilipi 1:9,
-  10.\\nYALA MPUSA YA KUVANDA TI BIMA MINGI\\n15, 16. (a) Inki mutindu bima ya kinsuni
-  lenda kuma mutambu sambu na beto? (b) Inki ndongisila Yezu pesaka sambu na bima
-  ya kinsuni?\\n15 Bubu yai, bantu mingi ke yindulaka nde bo fwete vanda ti bima yonso
-  ya mpa ya ke basika, mu mbandu bilele, batelefone mpi baordinatere. Bo ke tulaka
-  dikebi mingi na bima ya kinsuni disongidila, bo ke zolaka bima mpi mbongo mingi
-  kuluta mambu yonso. Inki nge ke bakaka na mbalu mingi? Kudiyula nde: \u2018Keti
-  mono ke bakaka ntangu mingi na kuyindula bakamio to bima ya me katuka kubasika na
-  kisika ya kuyidika balukutakanu? Keti bisalu na mono ya konso kilumbu ke kangaka
-  mono nzila ya kusamba mpi kutanga Biblia?\u2019 Kana beto keba ve, beto lenda kuma
-  kuzola bima ya kinsuni kuluta Kristu. Beto fwete vila ve bangogo yai ya Yezu: \u201cBeno
-  keba na mitindu yonso ya lukasi.\u201d (Luka 12:15) Sambu na nki Yezu tubaka mambu
-  yai?\\n16 Yezu tubaka nde \u201cmuntu mosi ve lenda sala bonso mpika sambu na bamfumu
-  zole.\u201d Yandi yikaka nde: \u201cBeno lenda sala ve bonso bampika sambu na Nzambi
-  mpi sambu na Kimvwama.\u201d Beto ta kuka ve ata fioti kudipesa mingi na kisalu
-  ya Yehowa mpi na bisalu na beto ya kinsuni. Yezu tubaka nde beto ta \u201cmenga
-  mosi mpi ta zola ya nkaka to [beto] ta kangama na mosi mpi ta vweza ya nkaka.\u201d
-  (Matayo 6:24) Sambu beto kele bantu ya kukonda kukuka, beto fwete landa kuyala \u201cbanzala
-  ya nitu na beto,\u201d mu mbandu nzala ya kuvanda ti bima mingi.\u2014Baefezo 2:3.\\n17.
-  (a) Sambu na nki bantu mingi ke kukaka ve kuvanda ti bukati-kati na bima ya kinsuni?
-  (b) Inki lenda sadisa beto na kuyala nzala ya bima ya kinsuni?\\n17 Bantu mingi
-  ke zolaka kaka kulungisa banzala na bo mpi kusepela ntangu yonso, yo yina bo ke
-  kukaka ve kuvanda ti bukati-kati na bima ya kinsuni. (Tanga 1 Bakorinto 2:14.) Sambu
-  bo ke yindulaka diaka mbote ve, bo ke kukaka ve kubakisa mambu ya mbote ti ya mbi.
-  (Baebreo 5:11-14) Bo ke kumaka ti nzala ya ngolo ya bima ya kinsuni, ntangu bo ke
-  zwa bima yina bo vandaka kusosa, bo ke sosaka diaka ya nkaka. (Longi 5:10) Kutanga
-  Ndinga ya Nzambi mbala na mbala ta sadisa beto na kuyala nzala ya kuvanda ti bima
-  mingi. (1 Piere 2:2) Yezu vandaka kuyindula mingi mambu ya Yehowa, yo sadisaka yandi
-  na kubwa ve na mitambu ya Diabulu. (Matayo 4:8-10) Kana beto ke zola kuyala nzala
-  ya kuvanda ti bima mingi, beto fwete yindulaka mingi mambu ya Yehowa. Kana beto
-  sala mpidina, beto ta monisa nde beto ke zolaka Yezu mingi kuluta bima ya kinsuni.\\n18.
-  Inki lukanu nge me baka?\\n18 Ntangu Yezu yulaka Piere nde: \u201cKeti nge ke zolaka
-  mono kuluta yai?\u201d yandi vandaka kulonga Piere nde kusadila Yehowa fwete baka
-  kisika ya ntete na luzingu. Yo kele kiese na kuzaba nde zina ya Piere ke tendula
-  \u201cDitadi.\u201d Beto lenda fwanisa bikalulu ya mbote ya Piere ti ditadi. (Bisalu
-  4:5-20) Sambu beto ke vandaka na mfunu ya kuzola Kristu mingi, beto fwete sala bikesa
-  ya kutula kisalu ya kinsuni, bansaka ya kulutisa ntangu mpi bima ya kinsuni na kisika
-  na yo. Mpidina beto ta tuba bonso Piere nde: \u201cMfumu, nge me zaba nde mono ke
-  zolaka nge.\u201d\"", "\"\u201cBo me yobisaka beno, bo me santisaka beno.\u201d\u20141
-  BAK. 6:11.\\nBANTU ya Yeruzalemi ke tuba-tuba. Nzenza mosi ya me zabana ke zinga
-  na suku mosi ya tempelo. Balevi ke yambula bisalu na bo. Na kisika nde bantwadisi
-  ya Bayuda kudipesa na mambu ya lusambu, bo ke sala mumbongo na kilumbu ya Kisabatu.
-  Bantu mingi ya Izraele ke kwelana ti bantu yina kele ve Bayuda. Yai kele kaka mwa
-  mambu ya mbi yina Nehemia monaka ntangu yandi vutukaka na Yeruzalemi, ntangu fioti
-  na nima ya mvu 443 N.T.B.\u2014Neh. 13:6.\\n2. Inki mutindu bantu ya Izraele kumaka
-  dikanda yina bo santisaka?\\n2 Izraele vandaka dikanda yina kudipesaka na Nzambi.
-  Na mvu 1513 N.T.B., bantu ya Izraele vandaka na mpusa ya ngolo ya kulungisa luzolo
-  ya Yehowa. Bo tubaka nde: \u2018Beto ta sala mambu yonso yina Yehowa me tuba.\u2019
-  (Kub. 24:3) Yo yina, Nzambi santisaka bo, disongidila tulaka bo na kingenga sambu
-  na kuvanda bantu yina yandi ponaka. Yo vandaka dibaku ya mbote kibeni! Bamvula makumi
-  iya na nima, Moize yibusaka bo nde: \u2018Beno kele bantu ya santu sambu na Yehowa
-  Nzambi na beno, mpi Yehowa Nzambi na beno me solaka beno na kukuma bantu na yandi,
-  kima na yandi mosi kibeni na kati ya bantu yonso ya nsi-ntoto.\u2019\u2014Kul. 7:6.\\n3.
-  Inki vandaka nkadilu ya kimpeve ya Bayuda ntangu Nehemia kwisaka na Yeruzalemi sambu
-  na mbala ya zole?\\n3 Diambu ya mawa, kiese yina bantu ya Izraele vandaka ti yo
-  na luyantiku ya kuvanda dikanda ya santu zingaka ve mingi. Ata yo vandaka ntangu
-  yonso ti mwa bantu yina vandaka kusadila Nzambi, Bayuda mingi kumaka kutula dikebi
-  mingi na kumonana bantu ya santu to ya me kudipesaka, na kisika ya kusosa kusala
-  luzolo ya Nzambi. Ntangu Nehemia kwisaka na Yeruzalemi sambu na mbala ya zole, bamvula
-  kiteso ya nkama mosi lutaka tuka ndambu ya Bayuda ya kwikama yina katukaka na Babilone
-  vutukaka na Yeruzalemi sambu na kuvutula lusambu ya kieleka. Na mbala yai diaka,
-  kikesa ya dikanda yai sambu na mambu ya kimpeve yantikaka kumana.\\n4. Inki mambu
-  beto ta tadila ya lenda sadisa beto na kulanda kuvanda bantu yina bo me santisaka?\\n4
-  Bonso bantu ya Izraele, bubu yai Bambangi ya Yehowa kele bantu yina Nzambi me santisaka.
-  Yo vanda Bakristu yina bo me tulaka mafuta to bayina kele na \u2018kibuka ya nene,\u2019
-  bo yonso kele ya santu, disongidila Nzambi me tulaka bo na kingenga sambu na kisalu
-  ya santu. (Kus. 7:9, 14, 15; 1 Bak. 6:11) Bonso bantu ya Izraele, ata muntu mosi
-  ve na kati na beto ta zola kuvidisa dibaku ya kuvanda bantu yina bo me santisaka.
-  Inki lenda sadisa beto na kubuya nde diambu yina kukumina beto, na mpila nde beto
-  landa kuvanda bantu ya santu mpi bayina Yehowa lenda sadila na kisalu na yandi?
-  Na kulonguka yai, beto ta tadila mambu iya yina bo me tubila na Nehemia kapu ya
-  13: (1) Kubuya banduku ya mbi; (2) kupesa maboko na organizasio ya Nzambi; (3) kutula
-  mambu ya kimpeve na kisika ya ntete; mpi (4) kutanina zina na nge ya Mukristu. Ntangu
-  yai, bika beto tadila diambu mosi mosi.\\nBUYA BANDUKU YA MBI\\n5, 6. Eliashibi
-  ti Tobia vandaka banani, mpi ziku sambu na nki Eliashibi salaka kinduku ti Tobia?\\n5
-  Tanga Nehemia 13:4-9. Sambu beto ke zinga na nsi-ntoto yina me fuluka ti bantu yina
-  kele ve ya santu, yo kele ve pete sambu na kubikala ya santu. Beto tadila mbandu
-  ya Eliashibi mpi Tobia. Eliashibi vandaka nganga-nzambi ya nene, mpi Tobia vandaka
-  muntu ya Amoni mpi ziku nsadi na Yudea, mbanza yina bantu ya Persia vandaka kuyala.
-  Tobia mpi banduku na yandi telaminaka bikesa ya Nehemia sambu na kutunga diaka bibaka
-  ya Yeruzalemi. (Neh. 2:10) Nsiku buyisaka na bantu ya Amoni na kukota na kibansala
-  ya tempelo. (Kul. 23:3) Ebuna, sambu na nki nganga-nzambi ya nene pesaka Tobia,
-  muntu ya mutindu yina, kisika na nzo ya madia na tempelo?\\n6 Tobia kumaka nduku
-  ya ngolo ya Eliashibi. Tobia mpi mwana na yandi ya bakala Yohanani, kwelaka bankento
-  ya Bayuda, mpi Bayuda mingi vandaka kutuba mambu ya mbote sambu na Tobia. (Neh.
-  6:17-19) Mosi ya batekolo ya Eliashibi kwelaka mwana-nkento ya Sanebalati, guvernere
-  ya Samaria yina vandaka nduku ya ngolo ya Tobia. (Neh. 13:28) Bangwisana yai lenda
-  tendula kikuma yina nganga-nzambi ya nene, Eliashibi, bikaka nde mutelemini yina
-  vandaka ve Mukristu kuvanda ti bupusi na zulu na yandi. Kansi Nehemia monisaka kwikama
-  na Yehowa na mutindu yandi losaka bima yonso ya nzo ya Tobia, na nganda ya nzo ya
-  madia.\\n7. Bankuluntu mpi bampangi ya nkaka ke salaka inki sambu na kubebisa ve
-  dibaku na bo ya kuvanda bantu ya santu na meso ya Yehowa?\\n7 Sambu beto me kudipesaka
-  na Yehowa Nzambi, ntangu yonso beto fwete vanda ya kwikama ntete-ntete na yandi.
-  Sambu beto landa kuvanda bantu yina yandi me santisaka, beto fwete zitisa bansiku
-  na yandi ya lunungu. Beto fwete bika ve nde bangwisana na beto ti bantu ya dibuta
-  kufwa minsiku ya Biblia. Bankuluntu ke twadisamaka na mabanza ya Yehowa kansi ve
-  na bangindu to mawi na bo mosi. (1 Tim. 5:21) Bo ke kebaka na kusala ve mambu yina
-  lenda bebisa dibaku na bo ya kuvanda ya santu na meso ya Nzambi.\u20141 Tim. 2:8.\\n8.
-  Inki bansadi ya Yehowa yonso ya me kudipesaka fwete vila ve na yina me tala banduku?\\n8
-  Beto fwete vila ve nde: \u201cBanduku ya mbi ke bebisaka bikalulu ya mbote.\u201d
-  (1 Bak. 15:33) Bampangi na beto ya nkaka ya dibuta lenda vanda ti bupusi ya mbi
-  na luzingu na beto. Eliashibi bikaka mbandu ya mbote na mutindu yandi sadisaka Nehemia
-  na kutunga diaka bibaka ya Yeruzalemi. (Neh. 3:1) Kansi yo ke monana nde na nima
-  ya bamvula, bupusi ya mbi ya Tobia mpi ya bankaka pusaka Eliashibi na kusala diambu
-  yina kumisaka yandi mvindu na meso ya Yehowa. Banduku ya mbote ke siamisaka beto
-  na kulanda kusala mambu ya mbote na luzingu na beto ya Bukristu, mu mbandu kutanga
-  Biblia, kukwenda na balukutakanu ya Bukristu, mpi kusamuna. Beto ke zolaka mpi ke
-  tondaka mingi bampangi ya dibuta yina ke pusaka beto na kusala mambu ya mbote.\\nPESA
-  MABOKO NA ORGANIZASIO YA NZAMBI\\n9. Inki bangidika vandaka kusalama diaka ve na
-  tempelo, mpi Nehemia pesaka banani foti?\\n9 Tanga Nehemia 13:10-13. Yo ke monana
-  nde, ntangu Nehemia vutukaka na Yeruzalemi yandi monaka nde bantu yambulaka kupesa
-  makabu sambu na bisalu ya tempelo. Sambu Balevi vandaka diaka ve kubaka lusadisu,
-  bo yambulaka mikumba na bo mpi vutukilaka bisalu na bo ya bilanga. Nehemia pesaka
-  foti na bilandi ya bamfumu sambu na diambu yina. Yo ke monana nde, bo vandaka ve
-  kulungisa mikumba na bo. Mbala ya nkaka, bo vandaka diaka ve kukongula ndambu ya
-  kumi na bantu to bo vandaka kukongula kansi bo vandaka ve kutinda yo na tempelo,
-  mutindu yo lombaka nde bo sala. (Neh. 12:44) Yo yina, Nehemia bakaka bangidika sambu
-  nde bo landa kukongula ndambu ya kumi, mpi yandi ponaka babakala yina bo lendaka
-  kutudila ntima sambu na kupesa Balevi ndambu ya kumi.\\n10, 11. Inki dibaku bantu
-  ya Nzambi kele ti yo sambu na kupesa maboko na lusambu ya kieleka?\\n10 Inki dilongi
-  beto lenda baka na diambu yina? Beto fwete vila ve nde beto kele na dibaku ya kukumisa
-  Yehowa ti bima na beto ya mbalu. (Bing. 3:9) Ntangu beto ke pesaka makabu sambu
-  na kupesa maboko na kisalu na yandi, beto ke vutudilaka Yehowa bima na yandi mosi.
-  (1 Bans. 29:14-16) Beto lenda yindula ve nde sambu beto kele ti bima fioti ya kupesa,
-  makabu na beto kele fioti kibeni sambu na kukumisa Yehowa. Kansi, kana beto kele
-  na luzolo ya kupesa, yandi ta vanda na kiese ya kundima dikabu na beto.\u20142 Bak.
-  8:12.\\n11 Na nsungi ya bamvula mingi, dibuta mosi ya bana nana vandaka ti kikalulu
-  ya kubingisa bankwelani mosi ya minunu yina vandaka bapasudi-nzila ya nene, na kukwisa
-  kudia ti bo mbala mosi na mposo. Mama na bo vandaka kutuba nde: \u201cYo ta sala
-  inki kana mono yika malonga zole ya nkaka na mesa yina bantu kumi ke diaka?\u201d
-  Kupesa muntu madia mbala mosi na mposo lenda monana bonso kima mosi ya fioti, kansi
-  bapasudi-nzila yina vandaka na ntonda mpenza sambu na kikalulu ya kuyamba banzenza
-  yina bo monisilaka bo! Bo vandaka mpi lusakumunu sambu na dibuta yina. Bangogo na
-  bo ya kikesa mpi baeksperiansi na bo sadisaka bana yina na kuyela na kimpeve. Na
-  nima, bana yonso yantikaka kusala kisalu ya ntangu yonso.\\n12. Bampangi-babakala
-  yina kele ti mikumba na dibundu ke pesaka inki mbandu ya mbote?\\n12 Dilongi ya
-  nkaka kele nde: Bonso Nehemia, bampangi-babakala yina kele ti mikumba bubu yai,
-  fwete baka ntwala sambu na kupesa maboko na organizasio ya Nzambi. Mbandu na bo
-  ke natilaka bampangi ya nkaka ya dibundu mambote. Na diambu yai, bankuluntu ke landaka
-  mpi mbandu ya ntumwa Polo. Yandi pesaka maboko na lusambu ya kieleka mpi lutwadisu
-  ya mbote. Mu mbandu, yandi pesaka bandongisila ya mfunu na mutindu ya kupesa makabu.\u20141
-  Bak. 16:1-3; 2 Bak. 9:5-7.\\nTULA MAMBU YA KIMPEVE NA KISIKA YA NTETE\\n13. Na nki
-  mutindu Bayuda ya nkaka vandaka ve kuzitisa Kisabatu?\\n13 Tanga Nehemia 13:15-21.
-  Kana beto yantika kudiyangisa mingi sambu na bima ya kinsuni, malembe-malembe kimpeve
-  na beto lenda yantika kukulumuka. Na kutadila Kubasika 31:13, Kisabatu ya konso
-  mposo vandaka kuyibusa bantu ya Izraele nde bo vandaka bantu yina bo me santisaka.
-  Yo lombaka nde bo tula kilumbu ya Kisabatu na kingenga sambu na kusala lusambu ya
-  dibuta, kusamba, mpi kuyindulula Nsiku ya Nzambi. Kansi na bilumbu ya Nehemia, bantu
-  ya nkaka ya Izraele yantikaka kumona kilumbu ya Kisabatu bonso bilumbu yonso ya
-  nkaka\u2014kilumbu ya kusala mumbongo mutindu bo me yikanaka. Bo tulaka mambu ya
-  lusambu na nima. Ntangu Nehemia monaka mpidina, yandi kulaka banzenza yina vandaka
-  kukwisa kuteka mpi pesaka ntuma ya kukanga bakielo ya mbanza na nkokila ya kilumbu
-  ya sambanu, na ntwala nde kilumbu ya Kisabatu kuyantika.\\n14, 15. (a) Inki lenda
-  kumina beto kana beto ke tula ve bandilu na yina me tala kusosa mbongo? (b) Inki
-  mutindu beto lenda kota na kupema ya Nzambi?\\n14 Inki beto lenda longuka na mbandu
-  ya Nehemia? Dilongi mosi kele nde, beto fwete tula bandilu na yina me tala kusosa
-  mbongo. Kana ve, kisalu na beto lenda katula beto dikebi, mingi-mingi kana beto
-  ke zolaka yo mingi. Kuvila ve lukebisu ya Yezu ya me tala kusala bonso mpika sambu
-  na bamfumu zole. (Tanga Matayo 6:24.) Nehemia vandaka muntu ya mbongo, kansi inki
-  mutindu yandi sadilaka ntangu na yandi na Yeruzalemi? (Neh. 5:14-18) Na kisika ya
-  kulanda kusala mumbongo ti bantu ya Tire to bantu ya nkaka, yandi kudipesaka na
-  kusadisa bampangi na yandi mpi na kusala mambu yina ta santisa zina ya Yehowa. Mutindu
-  mosi bubu yai, bankuluntu mpi bansadi ya kisalu ke kudipesaka na kusadisa dibundu,
-  mpi bampangi ke zolaka bo sambu na nkadilu yina. Yo yina, bantu ya Nzambi ke zolanaka,
-  ke vandaka na ngemba mpi ke kudiwaka na lutaninu.\u2014Ezek. 34:25, 28.\\n15 Ata
-  Biblia ke lombaka ve Bakristu na kuzitisa Kisabatu ya konso mposo, Polo ke zabisa
-  beto nde: \u201cKele kaka ti kupema ya kisabatu sambu na bantu ya Nzambi.\u201d
-  Yandi ke yika nde: \u201cMuntu yina me kota na kupema ya Nzambi me pema mpi na bisalu
-  na yandi, kaka mutindu Nzambi pemaka na bisalu na yandi.\u201d (Baeb. 4:9, 10) Beto
-  Bakristu lenda kota na kupema ya Nzambi kana beto ke lemfukila yandi mpi ke sala
-  na kuwakana sambu na kunata lukanu na yandi na ntwala. Keti nge ti dibuta na nge
-  ke tulaka lusambu ya dibuta, balukutakanu ya dibundu mpi kisalu ya kusamuna na kisika
-  ya ntete na luzingu na beno? Yo lenda lomba nde beto solula ti mfumu na beto ya
-  kisalu to ti bantu yina beto ke salaka mumbongo ti bo, mingi-mingi kana bo ke monaka
-  ve nde mambu ya kimpeve kele mfunu. Na mutindu ya kifwani, beto lenda \u2018kanga
-  bakielo ya mbanza mpi kukula bantu ya Tire\u2019 sambu na kutula mambu ya santu
-  na kisika ya ntete mpi kutudila yo dikebi ya me fwana. Sambu bo me santisaka beto,
-  beto fwete kudiyula nde: \u2018Keti mutindu yina mono ke zingaka ke monisaka nde,
-  Yehowa me tulaka mono na kingenga sambu na kisalu na yandi?\u2019\u2014Mat. 6:33.\\nTANINA
-  ZINA NA NGE YA MUKRISTU\\n16. Na bilumbu ya Nehemia, nki mutindu bantu ya Izraele
-  kuditulaka na kigonsa ya kuvidisa zina na bo ya kuvanda dikanda yina bo me santisaka?\\n16
-  Tanga Nehemia 13:23-27. Na bilumbu ya Nehemia, bantu ya Izraele vandaka kukwela
-  bankento ya banzenza. Ntangu Nehemia kwisaka na Yeruzalemi sambu na mbala ya ntete,
-  yandi lombaka bambuta-bantu yonso na kutula diboko na ngwakana yina bo sonikaka
-  nde bo ta kwelaka ve bankento ya mimpani. (Neh. 9:38; 10:30) Kansi, bamvula fioti
-  na nima, yandi kutaka babakala ya Bayuda kwelaka bankento ya banzenza mpi zolaka
-  kuvidisa zina na bo ya kuvanda bantu yina Nzambi me santisaka! Bana yina bankento
-  ya mimpani vandaka kubuta zabaka ve kutanga to kutuba Kiebreo. Ntangu bo ta yela,
-  keti bo lendaka kuyindula nde bo kele bantu ya Izraele? To keti bo zolaka kuyindula
-  nde bo kele bantu ya Asdodi, ya Amoni, to ya Moabi? Sambu bo zabaka ve ndinga ya
-  Kiebreo, keti bo lendaka kubakisa Nsiku ya Nzambi? Inki mutindu bo lendaka kuzaba
-  Yehowa mpi kupona na kusadila yandi na kisika ya banzambi ya luvunu yina bamama
-  na bo vandaka kusambila? Yo lombaka kubaka lukanu mosi ya nswalu sambu kusungika
-  mambu, mpi Nehemia salaka mpidina.\u2014Neh. 13:28.\\n17. Inki mutindu bibuti lenda
-  sadisa bana na bo na kusala bangwisana ya mbote ti Yehowa?\\n17 Bubu yai, beto fwete
-  sala mambu ya mbote sambu kusadisa bana na beto na kubaka zina ya Bakristu. Bibuti,
-  beno kudiyula nde: \u2018Keti bana na mono ke tubaka mbote \u201cndinga ya kukonda
-  mvindu,\u201d ya kele na Masonuku ya kieleka. (Sof. 3:9, NW) Keti masolo yina bana
-  na mono ke taka ke monisaka nde, bo ke twadisamaka na mpeve ya Nzambi to ya nsi-ntoto?\u2019
-  Kulemba nitu ve kana nge mona nde, kele ti mambu yina bana fwete tomisa. Yo ke bakaka
-  ntangu sambu na kulonguka ndinga mosi, mingi-mingi kana beto kele kisika yina mambu
-  mingi ke katula beto dikebi. Bana na beno ke kutana ti bampasi ya ngolo yina ke
-  tula lukwikilu na bo na kumekama. Yo yina, na ntima-nda yonso sadila Lusambu ya
-  Dibuta mpi mabaku ya nkaka sambu na kusadisa bo na kuyedisa bangwisana ya ngolo
-  ti Yehowa. (Kul. 6:6-9) Beno monisa bana na beno mambote yina bo lenda baka kana
-  bo swaswana ti bantu ya nsi-ntoto ya Satana. (Yoa. 17:15-17) Mpi beno sala bikesa
-  sambu na kusimba ntima na bo.\\n18. Sambu na nki bibuti ya Bakristu me fwana na
-  kusadisa bana na bo na kudipesa na Yehowa?\\n18 Nsuka-nsuka, mwana yandi mosi ta
-  baka lukanu ya kusadila Nzambi to ve. Kansi, kele ti mambu mingi yina bibuti lenda
-  sala. Beno fwete pesa mbandu ya mbote, kumonisa bo pwelele nkadilu ya mbote yina
-  bo fwete monisa, mpi kusadisa bo na kuzaba mambu yina balukanu na bo lenda natila
-  bo. Bibuti, beno mosi me fwana sambu na kusadisa bana na beno na kudipesa na Yehowa,
-  muntu ya nkaka ve. Bo kele na mfunu ya lusadisu na beno sambu na kuzwa zina ya Bakristu
-  mpi kutanina yo. Ya kieleka, beto yonso fwete keba na mpila nde beto vidisa ve \u201cbilele
-  na [beto] ya zulu,\u201d disongidila bikalulu mpi minsiku yina ke monisaka nde beto
-  kele balongoki ya Kristu.\u2014Kus. 3:4, 5; 16:15.\\nNZAMBI TA YIBUKA BETO \u2018SAMBU
-  NA MAMBU YA MBOTE\u2019\\n19, 20. Inki beto lenda sala sambu Yehowa kuyibuka beto
-  \u2018sambu na mambu ya mbote\u2019?\\n19 Mosi ya bantu yina zingaka na bilumbu
-  ya Nehemia kele profete Malashi, yina tubaka nde: \u201cMukanda mosi ya ngibuka
-  yantikaka kusonama . . . sambu na bayina ke tinaka Yehowa boma mpi sambu na bayina
-  ke yindulaka na zina na yandi.\u201d (Mal. 3:16, 17, NW) Nzambi ta vila ve ata fioti
-  bantu yina ke tinaka yandi boma, ke zitisaka yandi mpi ke zolaka zina na yandi.\u2014Baeb.
-  6:10.\\n20 Nehemia sambaka nde: \u2018Nzambi na mono, yibuka mono sambu na mambu
-  ya mbote.\u2019 (Neh. 13:31) Bonso Nehemia, zina na beto ta kota na mukanda ya ngibuka
-  ya Nzambi kana beto landa kubuya banduku ya mbi, kupesa maboko na organizasio ya
-  Nzambi, kutula mambu ya kimpeve na kisika ya ntete, mpi kutanina zina na beto ya
-  Bakristu. Beto fwete \u201clanda na kudimeka sambu na kuzaba kana [beto] kele na
-  lukwikilu.\u201d (2 Bak. 13:5) Kana beto sala bikesa sambu na kulanda kuvanda bantu
-  yina Yehowa me santisaka, yandi ta yibuka beto \u2018sambu na mambu ya mbote.\u2019\"",
-  "\"- KINSHASA: Nsangu ya nene na suka yayi kele ya kukuma, mazono, awa na mbanza
-  Kinshasa ya ntotila ya Belgique, mbuta Philippe, mpe nkento nandi, Mathilde.\\n-
-  BUNIA: Mpe beto ta kwenda na kizunga ya Ituri, wapi bimpumbulu ya Codeco kotilaka
-  bwala mosi.\\n- KINSHASA: Na Senat, na dibaku ya kulonguka diaka mbote mbote nsiku
-  ya me tadila bisalu ya kuponama, bantumwa ya Fcc basikaka.\\n- RDC-Belgique: Mbala
-  yankaka beno ke na kuzaba yau ve, na dibaku ya nzietelo yayi ya kisalu ya ntotila
-  ya Belgique ke na kusala awa na nsi na beto, Radio na beno ya Ngemba, Radio Okapi
-  me bongisa manaka mingi samu na kusosa kuzaba inki mutindu ya ngwakana kele bubu
-  yayi na kati ya bansi nionso zole yayi?\\n- KIKWIT : Kizunga ya Kwilu ; nkangu ya
-  mbanza Kikwit kele na mpasi ya ngolo samu na kubumba bamvumi na banzo ya madidi.
-  Kikuma, kukonda ya mwinda ; mpe kubaka lukanu ya kutula mvumbi na nzo ya madidi,
-  kaka mosi ya mbanza Kikwit kele na yau, ta lomba mbongo mingi.\"", "\"BEFU TUNZINGILA
-  mu nza yiwedi makhema, diawu kulenda bela mwa phasi kubaka ndembama. Kheti bo twidi
-  mwa ndembama, tulenda zimbisa mvandi yawu. Mambu mbi Kibibila kintuba malenda tusadisa
-  kubaka ndembama yikyedika ayi yikayimani? Ayi bwidi tulenda sadisila bankaka kuvanga
-  mvandi mawu?\\nMBI TUFWETI VANGA?\\nMwingi kubaka ndembama yikyedika, tufweti baka
-  theti luvovomu ayi lukyebu mu luzingu. Tufweti baka bakundi bambote, ayi bilutidi
-  nkinza, tufweti ba kikundi kimbote na Nzambi. Bwidi tulenda vangila mawu?\\nZituhumu
-  ayi minswa mi Yave mamboti to ma tutwadisilanga. Befu kutumamana miawu, tummonisa
-  ti twidi lufyatu mu Yave ayi tutidi kuba kikundi kimbote ayi nandi. (Yelemia 17:7,
-  8; Yakobi 2:22, 23) Bosi Yave wala tufikama ayi wala tuvana ndembana yi ntima. Buku
-  yi Yesaya 32:17 yintuba: \u2018Lunungu lukyedika luntwadisanga ndembama, ayi mbutu
-  wu lunungu lukyedika wala ba luvovomu ayi nsika yikayimani.\u2019 Tulenda baka ndembama
-  yikyedika mu luzingu, mu kutumamana Yave mu khambu kukwiku.\u2014Yesaya 48:18, 19.\\nYave
-  wutuvana mvandi khayilu mweka yimbote yilenda ku tusadisa kubaka ndembama yikayimani.
-  Khayilu beni yidi phevi\u2019andi yinlongo.\u2014Mavanga 9:31.\\nPHEVE YI NZAMBI
-  YI TUSADISANGA KUBAKA NDEMBAMA\\nMvwala Polo wutuba ti ndembama yidi \u201cmbutu
-  wu kipheve.\u201d (Ngalatia 5:22, 23) Mu kuzaba ti pheve yi Nzambi yimvananga ndembama,
-  tufweti bika yawu yi tudyatisa boti tutidi kubaka ndembama. Bwidi tulenda vangila
-  mawu?\\nDitheti, tufweti tanganga Dyambu di Nzambi kadika kilumbu. (Minkunga 1:2,
-  3) Bo tunyindulanga phila tulenda sadila mambu tuntanga, pheve yinlongo yi tusadisanga
-  kuvisa phila Yave kanyindudilanga. Dedi, tulonguka bwidi nandi kadidi wukwikama
-  mu ndembam\u2019andi ayi kibila mbi ndembama yididi nkinza kwidi nandi. Befu kusadila
-  mambu tunlonguka mu Kibibila, twala bwela baka ndembama mu luzingu.\u2014Zingana
-  3:1, 2.\\nDimwadi, tufweti lombanga mu nsambu pheve yinlongo yi Nzambi. (Luka 11:13)
-  Yave wukanikisa baboso bandinda lusalusu lwandi: \u2018Buna ndembama yi Nzambi,
-  yoyi yivyokidi dyela dyoso, yela kyeba mintima minu ayi mayindu minu mu Klisto Yesu.\u2019
-  (Filipi 4:6, 7) Befu kufikama Yave ayi kufyatila mu pheve\u2019andi, nandi wala
-  tuvana ndembama yikyedika mu mayindu mitu.\u2014Loma 15:13.\\nKibibila kima sadisanga
-  batu bawombo kubalula nzingulu\u2019awu ayi bawu bubu badi mu kuzingila mu ndembama
-  na Yave, ndembama mu mayindu mawu, ayi ndembama kwidi bankaka. Bwidi bawu banungina
-  kuvangila mawu?\\nBWIDI BANKAKA BABAKILA NDEMBAMA YIKYEDIKA?\\nAva kulonguka kyedika,
-  zikhomba zitu ziwombo baba beni makhema ayi nganzi. Vayi bawu bavanga mangolo mwingi
-  kubaluka, ayi bubu bawu badi bavumbama, badi mvibudulu, ayi banzingila mu ndembama
-  na bankaka. * (Tala matangu madi va wanda.) (Zingana 29:22) Tala bwidi khomba mweka
-  bantedilanga Davidi ayi wunkaka Rachel, bavangila mangolo mwingi kubalula zikhadulu
-  ziawu.\\nAva Davidi kutona kulonguka kyedika, nandi wuba beni kimbeni na batu bankaka
-  ayi kabasa kolukanga ko mu phila yifwana na dikanda dyandi. Vayi nandi wuvisa ti
-  kafweti balula mavanga mandi. Bwidi nandi kabakila ndembama? Davidi wutuba, \u201cMinu
-  yitona kusadila minswa mi Kibibila mu luzingu lwama, bo yivanga mawu, lukinzu mu
-  minu ayi dikanka dyama lubwelama.\u201d\\nRachel wuyiza ba zikhadulu batu baba zinganga
-  yandi baba. Nandi wutuba, \u201cTi bubu, minu yikhidi nwana mwingi kubika ba mayindu
-  ma makhema kibila yiyonzukila va dikanda diba beni makhema.\u201d Mbi bisadisa Rachel
-  kubakula ndembama? Nandi wutuba, \u201cKusambila kwidi Yave mu lufyatu.\u201d\\nDavidi
-  ayi Rachel badi batu tulenda tubila babaka ndembama kibila bawu basadila minswa
-  mi Kibibila ayi bafyatila pheve yinlongo. Kheti tunzingila mu nza yiwedi batu badi
-  nganzi, tulenda baka ndembama mu ntima. Tulenda nunga kuvanga mawu befu kubundana
-  na batu ba dikanda ditu ayi zikhomba zitu zyoso mu kimvuka. Vayi Yave wu tukamba
-  \u2018tuzingila mu dembama ayi batu boso.\u2019 (Loma 12:18) Bukyedika ti mawu malenda
-  monika? Ayi kibila mbi tufweti zingila mu ndembama ayi batu bankaka?\\nVANGA MANGOLO
-  MWINGI WUZINGILA MU NDEMBAMA NA BANKAKA\\nMu kisalu kitu ki kusamuna, tunlonganga
-  tsangu yi ndembama yitedi Kintinu ki Nzambi. (Yesaya 9:6, 7; Matai 24:14) Bawombo
-  banzolanga kukuwa ayi bankikininanga zitsangu beni. Ayi ziawu ziba sadisanga babika
-  ba beni mu kyunda voti kuba mu nganzi mu kibila ki mambu mammonika mu nza. Bubu
-  bawu badi kivuvu kikyedika mu bilumbu binkwiza, ayi mawu mamvanganga bawu \u2018batomba
-  ndembama.\u2019\u2014Minkunga 34:14.\\nVa thonono, bankaka bazolanga ko tsangu tunlonganga.
-  (Yoane 3:19) Kheti batu bankuwa voti ndamba, Yave wutuvananga pheve\u2019andi. Yawu
-  yi tusadisanga tuba ndembama ayi lukinzu mu thangu tunsamuna. Mu phila ayoyi, befu
-  twidi mu kulandakana dilongi di Yesu: \u2018Thangu lukotidi mu nzo, luvana basi
-  nzo beni mboti. Ba kuluyamba mbote ku nzo beni, buna bika ndembam\u2019inu yisyala
-  yawu. Vayi boti basa kuluyamba ko mbote, buna bika ndembam\u2019inu yivutuka yinu.\u2019
-  (Matai 10:11-13) Befu kuba zikhadulu azyozyo, tulenda tatamana kubaka ndembama kheti
-  mu mambu mambi bankaka bantuba voti bamvanga. Ayi tufweti tebukanga moyo ti tulenda
-  baka lwaku lu kuba sadisa mu bilumbu binkwiza.\\nBefu tuntwadisanga mvandi ndembama
-  bo tummonisa lukinzu mu thangu tunkoluka na mintinu mi nza, kheti bawu bankandimina
-  kisalu kitu. Buka mambu mamonika ku tsi mweka yi \u00c1frica, mintinu basa tubika
-  ko tutunga Zinzo zi Kintinu. Zikhomba zitu bazaba ti bawu balenda zonzila mambu
-  beni mu ndembama. Bawu bafidisa khomba mweka wusala buka misyoni ku tsi beni mwingi
-  kukoluka na Mfumu Yinangama wuba mvwala yi luyalu lu Londres, Inglatenra ku tsi
-  beni, ayi kunzabikisa kisalu ki ndembama Zimbangi zi Yave bamvanganga.\\nKhomba
-  beni wutuba: \u201cBo yituka va kibwangu bantambudilanga batu, mu kibila ki phwatulu,
-  minu yivisa ti nkyeto waba sadila vana, wuba musi mvila mweka yizaba mu mimvu yilongila
-  ku tsi beni, ayi minu yilonguka mbembu\u2019awu. Diawu yimvanina mbote mu mbembo\u2019andi.
-  Nandi wundyuvula, \u2018Mambu mbi mabe kutwadisa akuku?\u2019 Mu lukinzu minu yinkamba
-  ti yaba tomba kumona Mfumu Yinangama wuba mvwala yi luyalu lu Londres. Nandi wutela
-  Mfumu beni mu nsinga mayo. Bo kabasika, wuphana mbote mu mbembo yi bwala. Bosi nandi,
-  wuyuwa bo minu yaba sudikisa kisalu ki ndembama Zimbangi zi Yave bamvanganga.\u201d\\nBo
-  Mfumu beni kayuwa mbote mambu khomba katuba, nandi wuyiza visa mbote kisalu kitu
-  ayi wubalula mayindu mambi kaba mu befu. Bosi kuntwala, zimfumu beni babalula makani
-  bawu baba ayi babika mwingi Zimbangi zi Yave batunga Zinzo zi Kintinu. Zikhomba
-  bayangalala beni! Diawu, befu kumonisa bankaka lukinzu, twala bwela twadisa ndembama.\\nZINGILA
-  MU NDEMBAMA THANGU ZYOSO\\nBubu, dikanda di Yave bankwangalala beni mu paladizu
-  yi kipheve, bo bambwongimina Yave mu ndembama. Kadika mutu mu befu kalenda bwedila
-  ndembama beni, mu kubwela vanga mangolo mwingi kubaka ndembama mu luzingu lwitu.
-  Mu phila ayoyi, tulenda ba lufyatu ti Yave, wunkwalalanga beni mu ndembama twidi.
-  Ayi mu nza yimona nandi wala tuvana ndembama yikayimani.\u20142 Petelo 3:13, 14.\"",
-  "\"21 Ebuna, mono monaka zulu ya mpa ti ntoto ya mpa;+ sambu zulu ya ntama ti ntoto
-  ya ntama vilaka,+ mpi nzadi-mungwa+ vandaka diaka ve. 2 Mono monaka mpi mbanza ya
-  santu, Yeruzalemi ya Mpa, ke kulumuka katuka na zulu, na Nzambi,+ mpi yo me kudibongisa
-  bonso nkento yina ke kwela yina me kudikumisa kitoko sambu na bakala na yandi.+
-  3 Ebuna mono waka ndinga mosi ya ngolo ke katuka na kiti ya kimfumu mpi ke tuba
-  nde: \u201cTala! Tenta ya Nzambi kele ti bantu, yandi ta zinga ti bo, mpi bo ta
-  vanda bantu na yandi. Mpi Nzambi yandi mosi ta vanda ti bo.+ 4 Mpi yandi ta kusula
-  mansanga yonso na meso na bo,+ lufwa ta vandaka diaka ve;+ mawa, bidilu, mpi mpasi
-  ta vandaka diaka ve.+ Mambu ya ntama me vila.\u201d\\n5 Ebuna Muntu yina me vanda
-  na kiti ya kimfumu+ tubaka nde: \u201cTala! Mono ke sala bima yonso ya mpa.\u201d+
-  Yandi tubaka diaka nde: \u201cSonika, sambu * mpi ya kieleka.\u201d 6 Mpi yandi
-  tubilaka mono nde: \u201cYo me lungana! Mono kele Alfa mpi Omega,* luyantiku mpi
-  nsuka.+ Konso muntu yina kele na nzala ya masa, mono ta pesa yandi masa ya nto ya
-  masa ya luzingu ya ofele.+ 7 Konso muntu yina ta nunga ta baka* bima yai, mpi mono
-  ta vanda Nzambi na yandi mpi yandi ta vanda mwana na mono. 8 Kansi, bantu yina me
-  konda kikesa, bantu yina me konda lukwikilu,+ bantu yina kele mvindu mpi nzanzi,
-  bantu yina ke fwaka bantu,+ bantu yina ke salaka pite,*+ bantu yina ke salaka bisalu
-  ya bampeve ya mbi, mpi bantu yina ke sambilaka biteki, mpi bantu yonso ya luvunu,+
-  dikabu na bo ta vanda na dizanga yina ke pela ti tiya mpi sufre.+ Yo ke monisa lufwa
-  ya zole.\u201d+\\n9 Wanzio mosi na kati ya bawanzio nsambwadi yina vandaka ti babolo
-  nsambwadi, ya kufuluka ti bampasi nsambwadi ya nsuka,+ kwisaka mpi tubilaka mono
-  nde: \u201cKwisa, mpi mono ta songa nge nkento yina ke kwela, nkento ya Mwana-Dimeme.\u201d+
-  10 Mpi na ngolo ya mpeve yandi nataka mono na ngumba mosi ya nene mpi ya nda, ebuna
-  yandi songaka mono Yeruzalemi, mbanza ya santu, ke kulumuka katuka na zulu, na Nzambi,+
-  11 mpi ya kele ti nkembo ya Nzambi.+ Yo vandaka kungenga bonso ditadi ya ntalu kibeni,
-  bonso ditadi ya yaspe yina ke ngenga bonso kristale.+ 12 Yo vandaka ti lupangu mosi
-  ya nene mpi ya nda, mpi bakielo 12; bawanzio 12 vandaka na bakielo yina, mpi bo
-  sonikaka bazina ya makanda 12 ya bana ya Izraele na bakielo yina. 13 Bakielo tatu
-  vandaka na esti, bakielo tatu na nordi, bakielo tatu na sudi, mpi bakielo tatu na
-  westi.+ 14 Lupangu ya mbanza mpi vandaka ti matadi 12 ya fondasio, mpi bazina 12
-  ya bantumwa 12+ ya Mwana-Dimeme vandaka na zulu ya matadi yina.\\n15 Ebuna wanzio
-  yina vandaka kutuba ti mono simbaka lukengi ya wolo bonso kitesilu, sambu na kutesa
-  mbanza, bakielo na yo, mpi lupangu na yo.+ 16 Bandambu yonso iya ya mbanza kele
-  kiteso mosi; nda na yo kele kiteso mosi ti nene na yo. Yandi tesaka mbanza ti mwa-nti
-  yina, yo vandaka ba stade 12 000;* nda, nene, mpi nda na yo katuka na ntoto tii
-  na zulu kele kiteso mosi. 17 Yandi tesaka mpi lupangu na yo, yo vandaka maboko 144*
-  na kutadila kitesilu ya bantu, yina kele mpi kitesilu ya wanzio. 18 Ebuna bo tungaka
-  lupangu ti yaspe,+ mpi mbanza vandaka wolo ya kukonda kuvukisa ti kima ya nkaka
-  bonso tala-tala ya ke sema. 19 Bo kumisaka bafondasio ya lupangu ya mbanza kitoko
-  ti matadi ya ntalu ya mutindu na mutindu: fondasio ya ntete vandaka yaspe, ya zole
-  safire, ya tatu kalasedoni, ya iya emerode, 20 ya tanu sardoniksi, ya sambanu sardwane,
-  ya nsambwadi krisolite, ya nana berile, ya uvwa topaze, ya kumi krisopraze, ya kumi
-  na mosi yasente, ya kumi na zole ametiste. 21 Diaka, bakielo 12 vandaka mayaka 12;
-  bo salaka konso kielo ti diyaka mosi.\\n22 Mono monaka ve tempelo na kati na yo,
-  sambu Yehowa* Nzambi Nkwa-Ngolo Yonso+ mpi Mwana-Dimeme kele tempelo na yo. 23 Mpi
-  mbanza vandaka ve na mfunu nde ntangu to ngonda kupesa yo nsemo, sambu nkembo ya
-  Nzambi vandaka kupesa yo nsemo,+ mpi Mwana-Dimeme+ vandaka mwinda na yo. 24 Makanda
-  ta tambula na nsemo na yo,+ mpi bantotila ya ntoto ta nata nkembo na bo na kati
-  na yo. 25 Bo ta kangaka ve bakielo na yo na mwini, sambu mpimpa ta vandaka ve kuna.+
-  26 Bo ta nata nkembo mpi lukumu ya makanda na kati na yo.+ 27 Kansi, konso kima
-  ya mvindu mpi konso muntu yina ke salaka mambu ya nzanzi mpi ya luvunu ta kota ve
-  kuna ata fioti;+ bantu ta kota kuna kele kaka bantu yina bo me sonikaka bazina na
-  bo na rulo ya luzingu ya Mwana-Dimeme.+\"", "\"\u2018Beno Landa na Kusala Mpidiyai
-  Sambu na Kuyindula Mono\u2019\\nBeto Tasungimina Lufwa ya Yezu na Aprili 2\\n1.
-  Sambu na nki Aprili 2, 2007, kele dati ya mfunu?\\n1 Na Aprili 2, 2007, na ntoto
-  ya mvimba, bamilio ya bantu tavukana sambu na kusungimina lufwa ya Yezu ya kimenga.
-  Yezu kufwaka sambu yandi vandaka kukotila kimfumu ya Tata na yandi ya zulu, mpi
-  yandi monisaka nde Satana Dyabulu kukusaka ntangu yandi tubaka nde bantu kesadilaka
-  Nzambi kaka sambu na bikuma ya bwimi. (Yobi 2:1-5) Madya ya Nkokila ya Mfumu keyibusaka
-  beto mpi nde na nzila ya lufwa na yandi bonso muntu ya kukuka mpi ya kukonda masumu,
-  Yezu kupesaka \u201cmoyo na yandi\u201d bonso nkudulu sambu na \u201ckukatula bantu
-  mingi na kimpika ya masumu.\u201d (Mat. 20:28) Yo yina, Yezu kusongaka balongoki
-  na yandi nde: \u2018Beno landa na kusala mpidiyai sambu na kuyindula mono.\u2019
-  (Luka 22:19) Keti ntonda sambu na dikabu yai ya kitoko ya mekatuka na Nzambi mepusaka
-  nge na kuyantika kudibongisa sambu na kusungimina dyambu yai ya kemonisa zola ya
-  kuluta nene?\u2014Yoa. 3:16.\\n2. Inki mutindu beto lenda yidika ntima na beto sambu
-  na Lusungiminu?\\n2 Yidika Ntima na Nge: Kana beto tadila mambu yina kusalamaka
-  na konso kilumbu na bilumbu ya nsuka ya luzingu ya Yezu ya kimuntu, beto lenda yidika
-  ntima na beto sambu na Lusungiminu yai. Sambu na kusadisa beto, beto lenda kuta
-  manaka ya sipesiali ya lutangu ya Biblia na kamukanda Beto Fimpa Masonuku Konso
-  Kilumbu\u20142007 mpi na Calendrier 2007. Manaka yai ya lutangu ya Biblia kewakana
-  mpenza ti bilumbu yina mambu ya kewakana ti lufwa ya Yezu kusalamaka na kutadila
-  kalandrie ya beto kesadilaka bubu yai. Bilumbu mpi badati ya bo ketubila na disolo
-  ya Biblia mekatuka na kalandrie ya Bayuda, yina bo ketangaka bilumbu banda na kudinda
-  ya ntangu ya kilumbu ya ntete tii na kudinda ya ntangu ya kilumbu yina melanda.
-  Beto tadilaka metode yai ya kutanga bilumbu mpi beto mesala manaka ya lutangu ya
-  Biblia sambu na Lusungiminu na kulandaka yo. Kutadila dyaka bansangu yai na lutangu
-  ya Biblia mpi kuyindulula na kisambu zola ya nene ya Nzambi, tasadisa beto na kubaka
-  mpenza mambote ya Lusungiminu.\\n3. Inki mutindu beto lenda sadisa bantu ya kesepelaka
-  na kyeleka mpi bayina melembaka na kubaka mambote ya Lusungiminu?\\n3 Binga Bantu
-  Yankaka: Ngika ya Kisalu na Beto ya Kimfumu ya Februari kutubilaka kampanye ya sipesiali
-  ya kubinga bantu na Lusungiminu. Keti nge mebaka dezia bangidika sambu na kusamuna
-  mingi na ntangu ya kampanye yango? Keti nge mesalaka dezia lisiti ya bantu ya nge
-  mezaba yina nge tabinga, mpi keti nge mesolula dezia ti bo? Kudibongisa sambu nge
-  kuma na ntwala kibeni na nkokila ya Lusungiminu na mpila nde nge yamba bantu yina
-  nge bingaka mpi bantu ya kesepelaka na kyeleka. Nge lenda vanda kisika mosi ti bo,
-  mpi kuzikisa nde bo kele ti Biblia mpi mukanda ya bankunga. Monisa bo na bampangi
-  yankaka ya dibundu. Na nima ya diskure, baka ntangu ya kupesa bamvutu na bangyufula
-  na bo. Lomba bo na kukwisa kulanda diskure ya sipesiali yina tasalama na Aprili
-  15. Mingimingi bankuluntu tazikisa nde bantu yina vandaka kuvukana ti dibundu kansi
-  yina melembaka mezwa emvitasio sambu na Lusungiminu mpi diskure ya sipesiali.\\n4.
-  Inki mutindu beto lenda sadisa bantu na kulanda na kuyela na kimpeve na nima ya
-  Lusungiminu?\\n4 Sadisa Bantu ya mpa ti Bayina Melembaka na Kuyela: Mpangi yina
-  tasala diskure ya Lusungiminu tatendula na bunkufi nde beto kelongukaka Biblia ya
-  ofele ti bantu mpi yandi tasyamisa bantu ya mpa na kulanda na kulonguka mambu ya
-  metala Yehowa. Nge lenda sadila bakomantere na yandi sambu na kulomba bantu yina
-  nge bingaka na kulonguka mambu mingi ya metala Yehowa. Kana bo meyantika ntete ve
-  kulonguka Biblia, kusukinina ve na kuvutukila bo na nima ya Lusungiminu mpi monisa
-  bo mutindu beto kelongukaka Biblia ya ofele ti bantu. Sambu bo yela na kimpeve,
-  yo kelomba mpi nde bo vukana na balukutakanu ya dibundu. (Baeb. 10:24, 25) Sambu
-  na kulungisa mambu yai, syamisa bo na kuyantika kukwisa na balukutakanu mbala na
-  mbala. Bankuluntu fwete baka bangidika sambu na kukwenda kutala Bakristu yonso yina
-  melembaka na kimpeve mpi yina kukwisaka na Lusungiminu sambu na kusadisa bo na kutadila
-  na mudindu bangindu yina bo tubilaka na diskure. Kusala mutindu yai lenda pesa bo
-  kikesa ya kuvukana dyaka na bisalu ya dibundu.\\n5. Inki mambote Lusungiminu lenda
-  natila beto?\\n5 Lusungiminu kepesaka beto dibaku ya kuyindula na mudindu na mambu
-  yina Yehowa ti Yezu mesalaka sambu na beto. Kuyindulula ya mutindu yai kekumisaka
-  zola na beto sambu na bo ngolo mpi yo kevandaka na bupusi ya mbote na bikalulu na
-  beto. (2 Kor. 5:14, 15; 1 Yoa. 4:11) Yai kele ntangu ya kuyantika kudibongisa mpi
-  ya kubongisa bantu ya kesepelaka na kyeleka sambu na dyambu yai ya mfunu yina ntangu
-  yo kesalamaka, beto \u2018kezabisaka bantu nsangu ya lufwa ya Mfumu.\u2019\u20141
-  Kor. 11:26.\"", "\"Khumbu zinkaka dilenda ba dyambu di phasi beni kuyilemvukila
-  befu veka mu mambi tuvanga kumbusa, kheti Yave wu tulemvukila. Vayi tulonguka mu
-  lukutukunu lu mavula tuba mu mvu 2016 lwaba tubila ntu dyambu: \u201cContinue Leal
-  a Jeova!\u201d mu dilongi diba ayi video. Sadila JW Library mwingi lu bwe tala theti
-  video beni, bosi vana mimvutu mi byuvu binlanda:\\nMimvu mi kwa Sonja kadukisa tona
-  kabotuka mu kimvuka?\\nMatangu mbi ma Kibibila bakhulutu ba kimvuka batangila Sonja,
-  ayi bwidi mawu mansadisila?\\nBwidi zikhomba baba tadilanga Sonja bo kavutuka mu
-  kimvuka?\\nMayindu mbi maba twadisa Sonja phasi, ayi bwidi tat\u2019andi kansadisila?\"",
-  "\"Ntendula ya Kuyantika 1:1\\nVerse yai ya ntete ya Biblia ke tubila bakieleka
-  zole ya mfunu. Ya ntete, \u201czulu ti ntoto,\u201d to luyalanganu ya ke monanaka,
-  kele ti luyantiku. Ya zole, Nzambi muntu gangaka yo.\u2014Kusonga 4:11.\\nBiblia
-  ke monisa ve banda bantangu ikwa Nzambi salaka zulu ti ntoto, yo ke tendula mpi
-  ve mutindu yandi salaka yo. Kansi yo ke tuba nde yandi salaka zulu ti ntoto na \u201cngolo
-  na yandi ya mingi kibeni mpi na ngolo na yandi ya ke pesaka boma.\u201d\u2014Yezaya
-  40:26.\\nBo me balula ngogo \u201cgangaka\u201d katuka na verbe mosi ya Kiebreo
-  yina bo ke sadilaka sambu na kutendula kima mosi yina Nzambi me gangaka. * Na Biblia,
-  bo ke bingaka Yehowa * Nzambi mpamba Ngangi.\u2014Yezaya 42:5; 45:18.\\nMambu ya
-  Bo Ke Tubila na Baverse Yina Kele na Ntwala mpi na Nima ya Kuyantika 1:1\\nVerse
-  yai ya ntete ya mukanda ya Kuyantika ke tubila luyantiku ya disolo ya lugangu yina
-  kele na Kuyantika kapu 1 mpi 2. Banda na Kuyantika 1:1 tii na 2:4, Biblia ke tubila
-  na bunkufi mambu ya Nzambi salaka sambu na kuganga ntoto mpi bima yonso ya ke zingaka
-  na zulu na yo, ata mpi bakala ti nkento ya ntete. Na nima ya kutubila mambu yina
-  na bunkufi, Biblia ke tubila na bunda disolo ya ke monisa mutindu Nzambi gangaka
-  bakala ti nkento.\u2014Kuyantika 2:7-25.\\nMukanda ya Kuyantika ke tuba nde Nzambi
-  salaka kisalu ya kuganga malembe-malembe na nsungi ya \u201cbilumbu\u201d sambanu.
-  Yo vandaka ve bilumbu ya kieleka ya ke vandaka ti bangunga 24, kansi bansungi ya
-  ntangu yina nda na yo me zabana ve. Ya kieleka, beto lenda sadila ngogo \u201ckilumbu\u201d
-  sambu na bansungi ya ntangu yina kele ti bangunga kuluta 24. Mbandu mosi kele na
-  Kuyantika 2:4, yina ke sadila ngogo \u201ckilumbu\u201d sambu na kutubila \u201cntangu\u201d;
-  yo ke tubila na bunkufi bisalu yonso ya kuganga yina Nzambi salaka na bilumbu sambanu
-  yina lutaka mpi yo ke tuba nde yo salamaka na \u201ckilumbu\u201d mosi.\\nBangindu
-  ya Luvunu na Yina Me Tala Kuyantika 1:1\\nNgindu ya luvunu: Kuyantika 1:1 ke monisa
-  nde Nzambi kele Butatu sambu ngogo ya Kiebreo ya bo me balula nde \u201cNzambi\u201d
-  na verse yai kele na ntalu bumbidi (pluriel).\\nDiambu ya kieleka: Titre \u201cNzambi\u201d
-  me katuka na ngogo ya Kiebreo\u2019Elo\u00b7him\u02b9, yina kele na ntalu bumbidi,
-  sambu na kumonisa bunene to lukumu, kansi ve ntalu ya bantu. Mukanda mosi (New Catholic
-  Encyclopedia) ke ndima nde ntalu ya bumbidi ya ngogo \u2019Elo\u00b7him\u02b9 mutindu
-  bo me sadila yo na Kuyantika 1:1 \u201cke vandaka ntangu yonso ti verbe ya ntalu
-  bumosi (singulier), mpi yo ke monisa nde, yo kele beto ya lukumu, ya luzitu, kansi
-  yo ke tubila ve ntalu ya bantu.\u201d\u2014Kubasika ya Zole, Volume 6, lutiti 272.\\nTanga
-  Kuyantika kapu 1 ti banoti na nsi ya lutiti yina ke tendula mambu mpi bareferanse
-  yina kele na kati-kati.\\n^ par. 5 Mukanda mosi (HCSB Study Bible) ke tuba mambu
-  yai sambu na ngogo yai: \u201cNa mutindu na yo ya kuluta ngolo, verbe ya Kiebreo
-  bara\u2019, ya ke tendula \u2018kuganga,\u2019 ke tubilaka ve ata fioti muntu. Yo
-  yina bara\u2019 ke tendula kisalu yina Nzambi mpamba me sala.\u201d\u2014Lutiti
-  7.\\n^ par. 8 Ntangu yo ke tubila nsungi yina ngogo ya Kiebreo ya bo me balula nde
-  \u201cna luyantiku\u201d ke monisa, mukanda mosi (The Expositor\u2019s Bible Commentary)
-  ke tuba nde: \u201cNgogo yina ke tubila ve bunda ya nsungi yina.\u201d\u2014Kubasika
-  ya Mpa, Volume I, lutiti 51.\"", "\"Nkunga 106 mpi Kisambu\\nBangogo ya Luyantiku
-  (Min. 3 to na nsi)\\nBIMVWAMA YA NDINGA YA NZAMBI\\n\u201cMalongi ya Mfunu ya Mukanda
-  ya Nehemia\u201d: (Min. 10)\\nNeh 13:4-9\u2014Buya banduku ya mbi (w13 8/15 4 \u00b65-8)\\nNeh
-  13:15-21\u2014Tula mambu ya kimpeve na kisika ya ntete (w13 8/15 5-6 \u00b613-15)\\nNeh
-  13:23-27\u2014Tanina zina na nge ya Mukristu (w13 8/15 6-7 \u00b616-18)\\nTimuna
-  Sambu na Kusosa Bimvwama ya Kimpeve: (Min. 8)\\nNeh 12:31\u2014Sambu na nki bo vandaka
-  ti bimvuka zole ya bantu yina vandaka kuyimba bankunga? (it-2-F 360 \u00a7 6)\\nNeh
-  13:31b\u2014Inki Nehemia lombaka na Yehowa? (w11 2/1 14 \u00b63-5)\\nLutangu ya
-  Biblia ya mposo yai ke longa mono nki sambu na Yehowa?\\nInki bangindu ya mfunu
-  ya lutangu ya Biblia ya mposo yai mono lenda sadila na kisalu ya kusamuna?\\nLutangu
-  ya Biblia: Neh 12:1-26 (Min. 4 to na nsi)\\nKUDIPESA NA KISALU YA BILANGA\\nNa Mbala
-  ya Ntete ya Beno Me Kutana: Pesa emvitasio ya Lusungiminu mpi Nzozulu ya Nkengi
-  na muntu yina me monisa kibeni mpusa. Tula fondasio sambu na mvutukilu ya mpa.\\nKulonguka
-  ya Biblia: (Min. 6 to na nsi) Tendudila longoki ya Biblia Lusungiminu na nsadisa
-  ya mukanda Biblia Kelongaka, balutiti 206-208. Sadisa longoki na kukwisa na Lusungiminu.\\nZINGA
-  MUTINDU BAKRISTU FWETE ZINGA\\nNkunga 5\\n\u201cBinga Bantu Yonso ya Teritware na
-  Nge na Kukwisa na Lusungiminu!\u201d: (Min. 15) Disolo ti Bawi. Tendula mutindu
-  dibundu ta samuna na teritware ya mvimba. Ntangu beno ke vutukila \u201cMambu ya
-  Kutadila,\u201d songa video ya Lusungiminu. Siamisa bampangi yonso na kusala mingi
-  na kampanye ya Lusungiminu mpi kuvutukila bantu yina me monisa mpusa. Sadisa nsonga
-  mosi.\\nKulonguka ya Biblia ya Dibundu: ia chap. 9 \u00b614-24, mvutukilu na lut.
-  82 (Min. 30)\\nMvutukilu mpi Mambu ya Beto Ta Longuka na Mposo Ke Kwisa (Min. 3)\\nNkunga
-  147 mpi Kisambu\"", "\"Nkunga 70 mpi Kisambu\\nBangogo ya Luyantiku (Min. 3 to na
-  nsi)\\nBIMVWAMA YA NDINGA YA NZAMBI\\n\u201cBika \u2018Kusosa Bima ya Nene Sambu
-  na Nge Mosi\u2019\u201d: (Min. 10)\\nYer 45:2, 3\u2014Bangindu ya mbi yina Baruki
-  vandaka ti yo salaka nde yandi kuma kudiyangisa (jr 104-105 \u00a7 4-6)\\nYer 45:4,
-  5a\u2014Yehowa sungikaka Baruki na mawete yonso (jr 103 \u00a7 2)\\nYer 45:5b\u2014Baruki
-  gulusaka luzingu na yandi sambu yandi tulaka dikebi na mambu ya kuluta mfunu (w16.07
-  8 \u00a7 6)\\nTimuna Sambu na Kusosa Bimvwama ya Kimpeve: (Min. 8)\\nYer 48:13\u2014Sambu
-  na nki bantu ya Moabi \u201cta wa nsoni sambu na Kemoshi\u201d? (it-2-F 91-92)\\nYer
-  48:42\u2014Sambu na nki mambu yina Yehowa tubaka sambu na Moabi lenda kumisa lukwikilu
-  na beto ngolo? (it-2-F 305 \u00a7 3)\\nLutangu ya Biblia ya mposo yai me longa nge
-  nki sambu na Yehowa?\\nInki bimvwama ya nkaka ya kimpeve nge me zwa na lutangu ya
-  Biblia ya mposo yai?\\nLutangu ya Biblia: (Min. 4 to na nsi) Yer 47:1-7\\nKUDIPESA
-  NA KISALU YA BILANGA\\nNa Mbala ya Ntete ya Beno Me Kutana: (Min. 2 to na nsi) hf
-  \u2014Tula fondasio sambu na mvutukilu ya mpa.\\nMvutukilu ya Mpa: (Min. 4 to na
-  nsi) hf\u2014Tula fondasio sambu na mvutukilu ya mpa.\\nKulonguka ya Biblia: (Min.
-  6 to na nsi) lv 199 \u00a7 9-10\u2014Songa longoki na bunkufi mutindu ya kusala
-  bansosa kana yandi me kutana ti mambu ya mpasi.\\nZINGA MUTINDU BAKRISTU FWETE ZINGA\\nBaleke\u2014Beno
-  Sosa Ve Bima ya Nene Sambu na Beno Mosi: (Min. 15) Beno yantika na kutala video
-  Bangiufula Yina Baleke Ke Kudiyulaka\u2014Inki Mono Ta Sala Ti Luzingu na Mono?\u2014Mambu
-  ya Me Lutaka; na nima beno tubila mambu ya kele na kati.\\nKulonguka ya Biblia ya
-  Dibundu: (Min. 30) kr \u201cKitini 4\u2014Kimfumu Me Nunga\u2014Leta Me Pesa Nswa
-  ya Kusamuna Nsangu ya Mbote,\u201d kapu 13 \u00a7 1-10\\nMvutukilu mpi Mambu ya
-  Beto Ta Longuka na Mposo Ke Kwisa (Min. 3)\\nNkunga 17 mpi Kisambu\"", "\"Moize
-  zingaka bamvula 40 na Madiani. Yandi kwelaka mpi butaka bana. Kilumbu mosi, ntangu
-  yandi vandaka kukeba mameme na yandi pene-pene ya Ngumba ya Sinai, yandi monaka
-  diambu mosi ya kuyituka. Nti ya bansende vandaka kupela tiya, kansi yo vandaka kuzika
-  ve! Ntangu Moize kwendaka pene-pene sambu na kubakisa mambu mbote, yandi waka ndinga
-  mosi na kati ya nti ke tuba nde: \u2018Moize! Kupusana ve pene-pene. Katula basandale
-  na nge sambu nge me telama na ntoto ya santu.\u2019 Yehowa muntu vandaka kutubila
-  yandi na nzila ya wanzio.\\nMoize waka boma, yo yina yandi fikaka luse. Ndinga tubaka
-  nde: \u2018Mono me mona bampasi ya bantu ya Izraele. Mono ta gulusa bo na maboko
-  ya bantu ya Ezipte mpi mono ta nata bo na ntoto ya mbote. Nge muntu ta twadisa bantu
-  na mono ntangu bo ta basika na Ezipte.\u2019 Keti nge ke yindula ve nde diambu yai
-  yitukisaka Moize?\\nMoize yulaka nde: \u2018Mono ta tuba nki kana bantu ku yula
-  mono nani me tinda mono?\u2019 Nzambi vutulaka nde: \u2018Songa bo nde Yehowa, Nzambi
-  ya Abrahami, Nzambi ya Izaki, mpi Nzambi ya Yakobi muntu me tinda nge.\u2019 Na
-  nima Moize tubaka nde: \u2018Ebuna kana bo buya kuwa mono?\u2019 Yehowa pesaka Moize
-  nzikisa ya ke monisa nde yandi ta sadisa yandi. Yandi songaka Moize na kulosa nti
-  na yandi na ntoto. Na nima nti yina kumaka nioka! Ntangu Moize simbaka nioka yina
-  na mukila, yo kumaka diaka nti. Yehowa tubaka nde: \u2018Ntangu nge ta sala kidimbu
-  yai, yo ta ndimisa nde mono me tinda nge.\u2019\\nMoize tubaka nde: \u2018Mono me
-  zaba ve kutuba mbote.\u2019 Yehowa silaka yandi nde: \u2018Mono ta songa nge mambu
-  ya nge ta tuba, mpi mono ta tinda mpangi na nge Aroni sambu na kusadisa nge.\u2019
-  Sambu Moize zabaka nde Yehowa kele ti yandi, yandi bakaka nkento na yandi ti bana
-  na yandi mpi bo vutukaka na Ezipte.\"", "\"Nga e mvutu zaku . . .\\nElo?\\nve?\\nnanga?\\nNKIA
-  NLUTA DILENDA KUTWASILA?\\nNGA TULENDA KWIKILA KIKILU DINA NKAND\u2019A NZAMBI UVOVANGA?\\nElo,
-  vena ye kuma tatu yamfunu:\\nNzambi i Mvangi a moyo. Nkand\u2019a Nzambi uyikilanga
-  Yave wa Nzambi vo \u201cnto a moyo.\u201d (Nkunga 36:9; Mavangu 17:24, 25) O Yave
-  ona ovananga moyo kwa vangwa yawonso ya moyo, ovwidi nkuma wavutulwisa moyo kwa
-  awana bafwa.\\nNzambi wafula mafwa kuna nz\u2019ankulu. Nkand\u2019a Nzambi uyikanga
-  wantu nana ana bafuluka. Vana kati kwau vakala aleke ye ambuta, akala ya akento.
-  Akaka bafulwa vana vau, kansi mosi muna yau lumbu y\u00e1 kavanga muna ziami.\u2014Yoane
-  11:39-44.\\nNzambi una y\u2019etima dia vanga wo diaka. Nzambi omenganga lufwa,
-  obadikilanga lo nze mbeni. (1 Korinto 15:26) Yave una y\u2019ekani dia sunda mbeni
-  ndioyo muna fukisa lufwa yo fula awana bafwa. Una y\u2019etima dia fula awana bena
-  muna nyindu andi kimana bazinga diaka ova ntoto.\u2014Yobi 14:14, 15.\"", "\"Mbot\u00e9
-  na b\u00e9no nyonso ba mpangi ya luzolo,\\nBilumbu m\u00e9 sa luta ntama, mu tanga
-  b\u00e9no v\u00e9.\\nNa lumbu ya 22/03/06, Mwasi zabisa b\u00e9to ti yandi k\u00e9l\u00e9
-  na kiadi mingi samu na b\u00e9to. Kibusi (ni faso yina ba k\u00e9 zonzaka, v\u00ea
-  ?) ya munu, kana b\u00e9to k\u00e9 na kusonikaka ndinga mosi ya kitoko v\u00ea,
-  ng\u00e9 l\u00e9nda ku p\u00e9sa b\u00e9to mwa maboko samu ti b\u00e9to bonga na
-  manima yina b\u00e9to mp\u00e9 kuma ngolo na kuzonzila ya kikongo ya ba nkoko ya
-  b\u00e9to.\\nMu zaba v\u00ea ti mpangi\\nMwasi butaka. Donc,\\nTrotski k\u00e9l\u00e9
-  tata ya dipasa mosi ? Putulu na ng\u00e9 mwana bakala yayi ! Ng\u00e9 m\u00e9 lakisa
-  b\u00e9to, faso tata\\nJacob ZUMA ti ng\u00e9 k\u00e9 na ngolo ku lutila. Donc,
-  dipasa ya kaka (\\nNtsimba to Znuzi ?) k\u00e9l\u00e9 mwana ya\\nWebmaster ya b\u00e9to
-  ? Mu vuandi banza ti yandi k\u00e9 sambilaka\\nNzambi ya Mpungu ku lutila, mp\u00e9
-  yandi k\u00e9 salaka ba mambu yina kaka na k\u00e9nto ya yandi ya makw\u00e9la\u2026\\nKok\u2019
-  mulolo\u2026\\nC\u00e9r\u00e9lac k\u00e9l\u00e9 v\u00ea kima ya imbi : mama l\u00e9nda
-  bumba yawu ti ntangu mwana k\u00e9 sa kukula. Muni mp\u00e9 k\u00e9 kwiza na ba
-  cadeaux ya munu :\\n\u00b7 t\u00e9tine na mwa pili-pili m\u00e9 mu m\u00e9 pakula
-  ; mwana k\u00e9 kuma ngolo ;\\n\u00b7 ba makasa ya mankondi faso ba vuatisa tata
-  ya munu (ba couches vuandi v\u00ea na ntangu ya bawu). Ya k\u00e9l\u00e9 \u00e9conomique
-  ;\\n\u00b7 cassette audio ya mabina ya ba ndimbu ya bwala. Yandi k\u00e9 kuwa yawu
-  na ntangu ya kulala ;\\nNa ba mambu ya\\nTin\u00e9e na\\nTrotski, mu k\u00e9 zonz\u2019ya
-  munu kima v\u00ea : Donc bizonzolo ya Trotski k\u00e9 inintelligibles ? Ng\u00e9
-  mwana k\u00e9nto yayi, ng\u00e9 k\u00e9 na mindondo\u2026\\nTrotski, ng\u00e9 m\u00e9
-  zonza ti ng\u00e9 m\u00e9 zaba ba mambu yina v\u00ea :\\nC\u2019est \u00e0 dire
-  ? Ng\u00e9 zaba v\u00ea faso ba salaka ba b\u00e9b\u00e9, to ng\u00e9 zaba v\u00ea
-  faso ba bakala na ba k\u00e9nto k\u00e9 yoka mampa ?\\n\u00ab\\nKiaku kiaku, Kiangana
-  kiangana\u00bb. Koko vuandi na mwa raison. Na bilumbu yayi, kana ng\u00e9 m\u00e9
-  zola mwa ndumba k\u00e9l\u00e9 na bana, ng\u00e9 fuana sala mwa ngolo na ku kip\u00e9
-  bana yina mbot\u00e9. Ata ng\u00e9 fuana sala ba phases, kana v\u00ea, ndumba yina
-  l\u00e9nda nimina ng\u00e9 bima ya livres.\\nDonc kubuta mp\u00e9 k\u00e9 vuanda
-  na mpasi ? Mu zaba v\u00ea ! Nkoko ya munu butaka na bilanga ; na manima ya kubuta,
-  yandi tula bana sa zulu ya liputa ya yandi mp\u00e9 yandi bandaka diaka kusala bilanga
-  ya yandi.\\nV\u00ea, kibusi\\nMwasi, mu k\u00e9l\u00e9 v\u00ea songu\u00e8r ! Mu
-  m\u00e9 zonza kaka samu ti, kana ng\u00e9 m\u00e9 buta, ya k\u00e9l\u00e9 ntsayi
-  ya b\u00e9to nyonso ! Donc, ng\u00e9 butaka ya ng\u00e9 v\u00ea ? Ntangu mu tangaka
-  \u00ab tata cyber \u00bb, mu vuandi banza ti ya k\u00e9 Webmaster ya b\u00e9to.
-  Matondo mama faso ng\u00e9 m\u00e9 fungola munu m\u00e9so.\\nNtcho bakala ya ng\u00e9
-  k\u00e9 vuanda na mindondo marque ina ? Mu k\u00e9 zonza diaka mambu ya ng\u00e9
-  v\u00ea, mbala mosi yandi k\u00e9 filisa ba mboti ya yandi k\u00e9 yaomisa munu
-  nkuba.\\n@+, M82\"", "\"- BUNIA : Na bansangu yayi, beto ta tubila nsuka ya lukutakanu
-  ya vukisaka bambuta ya luyalu ya nsi ya Ouganda mpe ya Kongo Kinshasa, nsi na beto
-  ya ke talaka mambu ya makesa.\\n- KINSHASA : Kaka na bansangu yayi, beto ta tubila
-  zola ya kimvuka ya Voix de sans Voix na nima ya maswekamu ya pulusi Paul Muilambwe,
-  basisaka na yayi me tadila lusambusu ya bantu ya me fundamaka na lufwa ya Floribert
-  Chebeya.\\n- KINDU : Mpe na kizunga ya Maniema, nsangu kele ya kubasika ya kimbefo
-  ya monkey Pox.\\n- BUNIA DJUGU : Beto bikala kuna na kizunga ya Ituri, wapi bimpumbulu
-  ya Codeco fwaka kiteso ya bantu makumi zole na mpimpa ya mazuzi, mingi na bwala
-  Nizi mpe Kpandroma, na Territoire ya Djugu.\\n- BUTEMBO : Mpe na Kivu ya zulu, ngemba
-  kele kaka ve na nsi ya Territoire ya Lubero. Kikuma, bumvuanzi ya konso ntangu ya
-  bimvuka ya bimpumbulu, mingi na mwa ntoto ya Batangi bwela diaka ya Bamate.\\n-
-  BUKAVU : Na kizunga ya Kivu ya nsi, mangundu kele diaka mingi na bandambu mingi
-  ya kizunga yayi. Bima nionso yina ya me bwelama na kulanda mvita ya mutindu na mutindu
-  kele kigonsa ya ngolo samu na nkangu.\\n- KINSHASA : Kimvuka ya Voix des Sans Voix
-  me lomba ti mbuta ya Senat, Joseph Kabila, g\u00e9n\u00e9ral Joseph ponde, du mfumu
-  ya Commune ya Limete, mbuta Douglas bwela diaka bantu nionso ya major Paul Mwilambwe
-  tanga na ntwala ya bazuzi, na bau kumonana mpe na ntwala ya bazuzi sambu na kusamba.\"",
-  "\"\u2018[Yave] zebi bwidi tuvangulu, wuntebukanga moyo ti twidi fundu fundu wu
-  ntoto.\u2019\u2014MINKUNGA 103:14\\nMINKUNGA: 30, 10\\n1, 2. (a) Bwidi Yave kammonisanga
-  diswasana na zimfumu zi nza mu phila kantadilanga batu? (b) Mbi tunkwiza longuka
-  mu dilongi adidi?\\nBATU badi kimfumu banyadilanga bankaka ayi ba kuba twadisanga
-  ziphasi. (Matai 20:25; Mpovi 8:9) Yave kalendi vanga ko mawu! Kheti nandi lutidi
-  Zangama, ayi Mutu wulutidi mangolo mu nza yimvimba, wumvwanga nkinza batu basumuka.
-  Nandi widi nkwa mamboti ayi wumvwanga nkinza mabanza mitu ayi zitsatu zitu. Nandi
-  wuntebukanga moyo ti twidi batu basumuka ayi zebi kitezu kitu, diawu kalendi kutu
-  dinda ko tuvanga mambu kazebi ti tulendi nunga ko kuvanga.\u2014Minkunga 103:13,
-  14.\\n2 Mu Kibibila, befu tunlonguka bwidi Yave kamvwanga nkinza dikabu dyandi.
-  Ndoko tutubila bifwani bitatu: Kitheti, phila yimboti Nzambi kasadisila mwana ditoko
-  Samueli mwingi kakamba tsangu yi lufundusu kwidi Nganza Nzambi Eli. Kimwadi, bwidi
-  Yave kamonisina mvibudulu mu thangu Mose kamona ti kalendi nunga ko kutwadisi basi
-  Isaeli mwingi kuba basisa ku Ngipiti. Ayi kintatu, bwidi Yave kamonisina ti wuba
-  vwa nkinza basi Isaeli mu phila kaba basisila ku Ngipiti. Mbi tulenda longuka matedi
-  Yave mu bifwani abyobi, ayi bwidi tulenda landikinina kifwani kyandi?\\nNANDI WUVWA
-  NKINZA MWANA DITOKO\\n3. Dyambu mbi di kukwitukila dimonikina Samueli va bwilu,
-  ayi kyuvu mbi tulenda yikuvusa? (Tala fikula yidi va thononu.)\\n3 Samueli wutona
-  sadila ku nzo yinlongo bo kaba mwana kilezi. (1 Samueli 3:1) Bwilu bumweka, ava
-  nandi kalala, vamonika dyambu di kukwitukila beni. * (Tala matangu madi va wanda.)
-  (Tanga 1 Samueli 3:2-10.) Nandi wuyuwa mbembu yitela dizina dyandi. Samueli kamwena
-  ti Nganga Nzambi Eli wuba kuntela. Diawu nandi wutumukina, wuyenda kwidi Eli ayi
-  wunkamba: \u2018Minu kawu, ngye wube kuthela?\u2019 Vayi Eli wunkamba: \u2018Minu
-  yisa kutela ko.\u2019 Bo mambu beni ma bwe monika khumbu wadi, Eli wuvisa ti Nzambi
-  wuba tela Samueli. Diawu Eli kakambila Samueli bwidi kafweti tambudila, ayi nandi
-  wuvangila buawu. Kibila mbi Yave kakhambu kambila Samueli mu khumbu yitheti ti Nandi
-  wuba kuntela? Kibibila kisintuba ko. Vayi \u1e3fba Yave wuvangila mambu mu phila
-  ayiyi bila nandi wuba vwa nkinza mabanza ma Samueli.\\n4, 5. (a) Mbi Samueli kavanga
-  bo Yave kamvana tsangu kakamba Eli? (b) Mbi mambu mamonikina Samueli ma kutulonga
-  mu matedi Yave?\\n4 Tanga 1 Samueli 3:11-18. Nsiku wu Yave wutuba ti bana balezi
-  bafweti kinzika bakulutu, kuvyoka vangila mawu kwidi bakulutu ba dikabu. (Esodu
-  22:28; Levitiku 19:32) Diawu, phasi beni kuyindula mwana ditoko buka Samueli, kukwenda
-  kwidi Eli va meni ayi mu kibakala kunkamba tsangu yingolu yi lufundusu lu Nzambi.
-  Kibibila kitu kamba ti Samueli \u2018wumona boma kukamba Eli kimona mesu beni.\u2019
-  Vayi, Nzambi wuzabikisa Eli ti Nandi wuba tela Samueli. Kiawu kibila Eli kakambila
-  Samueli kabika kunsweka ni kyuma mu mambu moso Nzambi kankamba. Samueli wutumukina
-  ayi \u2018wunkamba mamoso.\u2019\\nYave wusadisa Samueli mwingi katatamana kutumukina
-  ayi kumonisa lukinzu\\n5 Tsangu ayiyi, yisa vanga ko Eli kukwituka beni. Bila kumbusa,
-  \u201cmutu wu Nambi\u201d wuvana theti tsangu beni kwidi Eli. (1 Samueli 2:27-36)
-  Mambu amama, ma kutulonga bwidi Yave kamvwanga batu nkinza ayi ndwenga nandi kadi.\\n6.
-  Mbi tulenda longuka mu phila Nzambi kasadisila ditoko Samueli?\\n6 Ngye widi ditoko?
-  Boti widi, mambu mamonikina Samueli mammonisa ti Yave wumvisa ziphukumunu zyoso
-  wumvyokila ayi zebi mabanza maku. \u1e3eba ngye widi zitsoni ayi wummona ti phasi
-  kulonga bakulutu voti kuba diswasana ayi batu badi phung\u2019aku. Ngye wulenda
-  ba lufyatu ti Yave tidi kusadisa. Diawu zibula ntim\u2019aku kwidi nandi mu nsambu
-  ayi nkamba mabanza maku. (Minkunga 62:8) Yindula buboti bifwani bi Kibibila dedi
-  ki ditoko Samueli. Ayi yoluka na zikhomba mu Kimvuka badi phung\u2019aku voti na
-  bakulutu bama vyokila mu mambu mvaku widi mu kuvyokila. Bawu balenda kukamba bwidi
-  Yave kaba sadisila, \u1e3fba mu phila bakhambu yindudila.\\nNANDI WUVWA MOSE NKINZA\\n7,
-  8. Bwidi Yave kamonisina ti wuba vwa beni nkinza mabanza ma Mose?\\n7 Bo Mose kaba
-  80 di mimvu, Yave wumvana kiyeku kinneni beni: kubotula dikabu di Isaeli va kivika
-  ku Ngipiti. (Esodu 3:10) Mose wumona boma bo katambula kiyeku beni, bila nandi wusala
-  buka nsungi wu mamemi ku Midiani mu 40 ma mimvu. Diawu Mose katubila: \u2018Minu
-  yidi nani mwingi yiyenda kwidi Falawo ayi kubotula basi Isaeli ku Ngipiti?\u2019
-  Yave wukindisa Mose: \u2018Minu yela monisa ti yidi yaku.\u2019 (Esodu 3:11, 12)
-  Yave wunkanikisa mvandi ti bakulutu ba Isaeli \u2018bela kuwa mbembu\u2019andi.\u2019
-  Kheti bobo Mose wubwe tuba: \u2018Vayi boti bawu basi kukhikinina ko ayi basi kukhuwila
-  ko?\u2019 (Esodu 3:18; 4:1) Mose wuba tuba ti Yave kasa baka ko makani mamboti mu
-  kunsola. Vayi Yave wutatamana kuvibidila Mose. Nandi wumvana mangolo ma kuvanga
-  bimangu. Mose, nandi wuyiza ba mutu wutheti bantubila mu Kibibila wuba mangolo beni.\u2014Esodu
-  4:2-9, 21.\\n8 Kheti mu mambu moso Yave kankanikisa, Mose wutatamana kuyikakula.
-  Nandi wutuba ti kalendi nunga ko koluka buboti. Nzambi wunkamba: \u2018Minu yela
-  ba yaku bo wala koluka ayi yela kulonga mbi wufweti tuba.\u2019 Bukyedika ti Mose
-  wusukila vovo? Ndamba, bila nandi wudinda Nzambi kafila mutu wunkaka. Mu kibila
-  akyoki, Yave wuyiza dasuka. Vayi nandi wutatamana kumonisa ti wuba vwa nkinza mabanza
-  ma Mose, diawu nandi kafidila Aloni kaba mvwala wu Mose.\u2014Esodu 4:10-16.\\n9.
-  Bwidi mvibudulu ayi mamboti ma Yave masadisila Mose kuba ntwadisi wumboti?\\n9 Mbi
-  mambu amama ma kutulonga matedi Yave? Bo kadi Nzambi yilutidi Zangama, khanu wusadila
-  mangolo mandi mwingi kutula Mose boma ayi kunkwika kantumukina. Vayi Yave wuvibidila
-  ayi wumonisa mamboti, ayi nandi wukanikisa kisadi kyandi kikwikama ti wunkwiza kunsadisa.
-  Bukyedika ti mangolo moso Yave kavanga masunduka buboti? Ngete! Mose wuyiza ba ntwadisi
-  wumboti wu dikabu di Nzambi. Nandi wuvanga mangolo ma kuba mvibudulu ayi kuvwa bankaka
-  nkinza dedi bo Yave kabela mu nandi.\u2014Zintalu 12:3.\\n10. Ndandu mbi tulenda
-  baka befu vwa batu nkinza dedi Yave?\\n10 Malongi mbi befu tulenda longuka bubu?
-  Boti ngye widi nnuni, tata, voti nkulutu wu kimvuka, kiyeku kinneni widi. Mu kibila
-  akyoki, nkinza beni ngye kulandakana kifwani ki Yave mu kuvwa bankaka nkinza, kumonisa
-  mamboti ayi kuvibidila nkazi\u2019aku, bana baku, ayi zikhomba mu kimvuka. (Kolosai
-  3:19-21; 1 Petelo 5:1-3) Ngye kulandakana kifwani ki Yave Nzambi ayi ki Yesu Klisto,
-  ngye wala sadisa bankaka bazola koluka yaku ayi wala kuba kindisa beni. (Matai 11:28,
-  29) Ngye wala ba mvandi kifwani kimboti mwingi bawu balandakana.\u2014Ebeleo 13:7.\\nNANDI
-  WIDI NKWA NGOLO ZYOSO VAYI WIDI MVUKISI WUMVWANGA BATU NKINZA\\n11, 12. Bwidi Yave
-  kavangila basi Isaeli kumona ti baba nsika ayi lukyebu lwandi bo kaba botula ku
-  Ngipiti?\\n11 \u1e3eba kuvyoka bivevi di bivevi bitatu bi batu babasika ku Ngipiti
-  mu mvu 1513 ava thangu Klisto. Mu nkangu beni, muba bana belezi, biboba, ayi \u1e3fba
-  bankaka baba bimbevu, ayi bo babela binama bi nyitu. Mwingi kutwadisa phila nkangu
-  awowo, kwaba tombulu ntwadisi zebi kukyeba ayi kuvisa bankaka. Mu nzila Mose, Yave
-  wumonisa ti nandi wuba phila ntwadisi beni. Mu kibila beni, basi Isaeli babotuka
-  mu nsika ku tsi bazingila luzingu luawu loso.\u2014Minkunga 78:52, 53.\\n12 Bwidi
-  Yave kavangila dikabu dyandi kumona ti baba nsika ayi mu lukyebu lwandi? Nandi wukubika
-  dikabu di Isaeli buka \u2018nkangu wu masodi\u2019 bo babasika ku Ngipiti. (Esodu
-  13:18) Khubumunu yi phila ayiyi, yisadisa basi Isaeli kuvisa mu kyedika ti Nzambi
-  nandi wuba vantwal\u2019awu. Yave wuba vana mvandi \u2018ditudi va mwinya\u2019
-  ayi \u2018kyezila ki mbazu\u2019 va bwilu mwingi kuba tebula moyo ti nandi wuba
-  yawu, mwingi kuba twadisa ayi kuba kyeba. (Minkunga 78:14) Ayi dikabu di Isaeli
-  baba tomba khindusulu ayoyi mu kibila ki mambu mamonika kuntwala.\\n13, 14. (a)
-  Bwidi Yave kakyebila basi Isaeli mu \u1e3ebu Wubenga? (b) Bwidi Yave kamonisina
-  ti nandi wulutidi mangolo na basi Ngipiti?\\n13 Tanga Esodu 14:19-22. Wukiyindula
-  boti ngye widi ayi basi Isaeli. Wisi ko ni kuma ku kwenda. Bila masodi ma Falawo
-  badi kumbus\u2019aku ayi \u1e3ebu Wubenga kuntwal\u2019aku. Vayi mu thangu beni,
-  Nzambi wumvanga mangitukulu. Dituti diba kuntwal\u2019aku dimvutuka kumbusa mwingi
-  ku kuvasa ayi masodi basi Ngipiti. Bosi wummona bawu ku kitombi, vayi mu mangitukulu,
-  khonzo ngye widi yidi kyezila! Mu thangu beni, ngye wummona Mose wunnonuna koku
-  kwandi mu \u1e3fbu, bosi phemu yingolo yinkwizila ku khonzo leste, yinzibula nzila
-  va khati \u1e3fbu. Bosi ngyewu, dikanda dyaku, ayi bibulu byaku mundyata mu khati
-  \u1e3fbu mu phila yisulama ayi batu bankaka. Ngye wunkwituka, bila ntoto wisi ko
-  wubondama ni kyozi. Vayi widi wuyuma ayi wukinda mwingi kudyata. Kheti batu banluta
-  dyata malembi bannunga kuvyoka.\\n14 Tanga Esodu 14:23, 26-30. Mu thangu mambu beni
-  mammonika, Falawo wuku landakana ngye ayi basi Isaeli bankaka mu kibila ki lungundayi
-  ayi buvungisi bwandi. Bosi Mose wubwe nonuna koku kwandi mu \u1e3fbu, ayi nlangu
-  beni wuba buka bibaka, wuvutuka bwe kumba mu khonzo zyoso. Falawo ayi masodi mandi
-  basinda mu \u1e3fbu. Ni wumweka mu bawu wuvuka.\u2014Esodu 15:8-10.\\n15. Mbi mambu
-  amama ma kutulonga matedi Yave?\\n15 Vadi dyambu dimweka tulenda longuka matedi
-  Yave mu mambu amama. Tunlonguka ti Yave kasi ko Nzambi yi divunza, ayi khadulu beni
-  yitusadisa kuba nsika. (1 Kolinto 14:33) Buka nsungi wunzola ayi wunkyeba dimemi
-  dyandi, Yave wunkyebanga dikabu dyandi mu phila zimboti. Nandi wuku baswekanga ayi
-  wuku bakyebanga mu myoko mi zimbeni ziawu. Mawu ma kutu kindisa beni bo tumvyokila
-  mu mambu ma phasi va tsuka nza ayiyi.\u2014Zingana 1:33.\\n16. Ndandu mbi tulenda
-  baka befu yindulanga phila Yave kavukisila basi Isaeli?\\n16 Bubu mvandi, Yave wukhidi
-  kyeba dikabu dyandi buka dingumba. Yave wuku basadisa batatamana kukyeba kikundi
-  kiawu ayi nandi ayi wuku bakyeba mu myoko mi zimbeni ziawu. Ayi nandi wela tatamana
-  kuvanga mawu mu thangu ziphasi zinneni zinkwiza. (Nzaikusu 7:9, 10) Diawu kheti
-  badi matoko voti biboba, badi buvinya bumboti voti ndamba, dikabu di Nzambi dyalasa
-  mona ko boma mu thangu yi ziphasi zinneni. * (Tala Matangu madi va wanda.) Vayi,
-  mambu mankaka bela vanga. Bawu bela tebuka moyo mambu Yesu katuba: \u2018Lutelama
-  ayi luvumuna mintu minu, bila khudulu\u2019inu yidi mu kufikama.\u2019 (Luka 21:28)
-  Kheti bo Ngongi, dinsundula: batu boso va nza bakhambulu ku khonzu Yave bela monisa
-  ti balutidi mangolo na Falawo ayi bela kuba nwanisa, dikabu di Nzambi bela tatamana
-  kufyatila ti Yave wela kuba kyeba. (Yehezekeli 38:2, 14-16) Kibila mbi? Bila bawu
-  bazebi ti Yave kabalukanga ko. Nandi wala bwe monisa ti widi Mvukisi wu luzolo ayi
-  wunkyebanga dikabu dyandi.\u2014Yesaya 26:3, 20.\\n17. (a) Bwidi tulenda bakila
-  ndandu mu bifwani bi Kibibila bimmonisa phila Yave kankyebilanga dikabu dyandi?
-  (b) Mbi twala tubila mu dilongi dinkwiza?\\n17 Mu dilongi adidi, tuma mona bifwani
-  bimmonisa ti Yave wumvwa batu nkinza ayi wummonisa mamboti bo kankyeba, kantwadisa
-  ayi kamvukisa dikabu dyandi. Bo wunyindula binongu abyobi, vanga mangolo mwingi
-  wulonguka dyambu dimona ditedi Yave mu kutala buboti kheti bivisa bilwelu wukhambu
-  yindulanga. Bo wunlonguka zikhadulu zimboti zi Yave, luzolo ayi kiminu kyaku mu
-  nandi byela bwela kindama. Mu dilongi dinkwiza, twala longuka ziphila befu tulenda
-  landikinina kifwani ki Yave ki kuvwa bankaka nkinza va dikanda, mu kimvuka ayi mu
-  kisalu ki kusamuna.\\n^ Lut. 3 Nkwa binongu Yosefi musi Yuda, wutuba ti Samueli
-  wuba 12 di mimvu mu thangu mambu beni mamonika.\\n^ Lut. 16 Diawu, tulenda visa
-  ti batu bawombo bela vuka mu Alimagedoni, bela ba binama binyitu bibela. Bo Yesu
-  kaba va ntoto, nandi wubelusa \u2018bimbevu biphila mu phila.\u2019 Mambu kavanga,
-  ma tumonisa mbi nandi kala vanga kwidi batu bela vuka mu Alimagedoni. (Matai 9:35)
-  Batu bela vulubuka, zinyitu ziawu zyela ba buvinya.\"", "\"Ngola\\nNgola kele yinsi
-  mosi ya Afelika ya Sudi. Bayinsi ya pene-pene kele Repubilika ya K\u00f4ngo ya Dimokalasi,
-  Zambia na Namibia. Kiz\u00fbnga ya Kabinda kele na ndilu na Repubilika ya K\u00f4ngo.
-  Lwanda kele mb\u00e2nza-kimfumu ya Ngola.\\nKinkulu[soba | edit source]\\nBayinsi
-  ya ntotila ke tulama na sika ya Ngola na ntwala. Bawu vwandaka Kakongo n\u00e1 Kabinda,
-  K\u00f4ngo ya Ntotila na node, Ndongo mpe Matamba na katikati mpe Benguela na sudi.\\nNgola
-  vwandaka koloni ya Portugal.\\nBiz\u00fbnga[soba | edit source]\\n- Bengo\\n- Bengela\\n-
-  Biye\\n- Kabinda\\n- Kuando Kubango\\n- Kuanza Node\\n- Kuanza Sudi\\n- Kunene\\n-
-  Wambu\\n- Wila\\n- Luanda\\n- Lunda Node\\n- Lunda Sudi\\n- Malanzi\\n- Musiku\\n-
-  Namibe\\n- Wizi\\n- Nz\u00e2di\\nB\u00e2ntu[soba | edit source]\\nKimputulukesi
-  kele nd\u00eenga ya kisalu. Band\u00eenga ya bwala kele kisik\u00f4ngo, kimbundu,
-  ovimbundu, kitshokwe, kimbunda na kikwanyama.\""]'
+sample: '["\"BASI ISAELI baba kubama muingi kusabuka muila Yolidani. Bawu baba nduka
+  kukota ku ntoto Nzambi kakanikisa kuba vana. Kilumbu kimueka, bawu batambula zinzenza.
+  Baba bakieto ba mimvila minkaka bayiza tumisa babakala basi Yuda kukuenda mu nkungi
+  wumueka wunneni. Bakundi bamona, makinu, bidia bimboti\u2014nkungi awowo wuba buka
+  luaku lunneni kuidi bawu. Bakieto baneni baba bikhulu ayi mayindu maviakana matedi
+  kubundana nyitu na mambu Yave katuba mu Nsiku kavana basi Isaeli. Kheti bobo, \u1e3fba
+  babakala bankaka basi Isaeli bayindula: \u2018Befu tuzebi mambu mamboti ayi mambi.
+  Tunkuiza ba keba keba.\u2019\\nMambu mbi mayiza monika? Kibibila kintuba: \u2018Bo
+  basi Isaeli baba kalanga ku Sitim, dikabu ditona kuvanga kitsuza na bana ba bakieto
+  basi Moabi.\u2019 Vayi bakieto beni baba tomba muingi babakala basi Isaeli babuongimina
+  zinzambi ziawu zi luvunu. Ayi bawu babuongimina! Diawu, \u2018Diawu, basi Isaeli
+  batona kubuongimina Bali, ayi Yave wudasukila basi Isaeli.\u2019\u2014Zintalu 25:1-3.\\nBasi
+  Isaeli babundula Nsiku wu Yave mu ziphila ziwadi: bawu babuongimina bitumba ayi
+  bavanga kitsuza. Mu kibila akioki, bivevi bi batu basi Isaeli bafua. (Esodu 20:4,
+  5, 14; Deutelonomi 13:6-9) Zebi kibila mbi kinongo akioki ki tutuadisanga beni kiunda?
+  Kibila bawu baba nduka kukota ku Ntoto Yave Kakanikisa. Boti basi Isaeli boso bayiza
+  fua batumamana, khanu bawu basabuka Yolidani ayi kutambula mfutu\u2019awu kuidi
+  Yave.\u2014Zintalu 25:5, 9.\\nMu kutubila mambu amomo, mvuala Polo wusonika: \u201c[Mambu
+  amomo] maba buila madi kifuani kuidi [befu]. Mambu beni masonoko mu kutu lubula,
+  [befu] tulembo zingi mu thangu yitsuka.\u201d (1 Kolinto 10:7-11) Bukiedika, Satana
+  wuyangalala beni kumona bankaka mu basi Isaeli kuvola disumu dingolo ayi kubika
+  kota ku Ntoto Yave Kakanikisa. Diambu dinkinza beni kubika bayisa mambu maba monikina.
+  Vasi ko diambu dilenda luta kuangidika Satana kena kutu vanga kuzimbisa luaku lu
+  kuzinga mu nza yimona!\\nNTAMBU WULENDA TULA LUZINGU LUITU VA KINGELA\\nSatana wuntomba
+  Baklisto babua mu mintambu miandi. Diawu kansadilanga mintambu kazebi buboti, ayi
+  kama nunga kubuisa batu bawombo. Dedi bo tuma muena, nandi wusadila kitsuza muingi
+  kuvukumuna basi Isaeli. Mu bilumbu bitu, kitsuza widi ntambu wungolo kakhidi sadila.
+  Phila yimueka tulenda bua mu kitsuza yidi mu kumona mambu mammonisa batu bambundana
+  nyitu.\\nBubu wosokua mutu kalenda mona biuma bimmonisa batu bambundana nyitu ayi
+  ni mutu wunkaka kalendi zaba ko. Mu mimvu mima vioka, boti mutu wutidi kumona mambu
+  mammonisa batu bambundana nyitu, kafueti kukuenda ku kibuangu bammuenanga zivideo
+  zi bakulutu voti vama bansumbisanga zi levista zimmonisa batu bambundana nyitu.
+  Khumbu ziwombo, mutu waba banga boma bila balenda kummona ayi mawu maba kunsadisanga
+  kubika vanga mawu. Vayi bubu mu nzila internet, mutu kalenda mona biuma bimmonisa
+  batu bambundana nyitu bo badi mu kisalu voti mu dikalu. Ayi mu zitsi ziwombo, babakala
+  ayi bakieto balenda mona biuma mimmonisa batu bambundana nyitu mukhambu basika ku
+  nzo.\\nAyi masi ko to mawu. Zi telefoni ayi zi tablete zinsadisa beni batu kufika
+  mona biuma bimmonisa batu bambundana nyitu. Kuba kuandi kudiata kandiata, mu dikalu
+  kadi, mutu kalenda mona zifoto zi kitsuza.\\nBubu kifu ki kumonanga biuma bimmonisa
+  batu bambundana nyitu kidi mu kubivisa beni batu, kibila mutu kalenda mona biawu
+  bankaka mukhambu zaba. Bawombo bammonanga biawu bambivisanga dikuela diawu, babanga
+  ko lukinzu mu bawu veka ayi bambivisa kilunzi kiawu. Ayi bilutidi bubi, bawu bantulanga
+  kikundi kiawu na Nzambi va kingela. Disi ko diambu dimbi kutuba ti kumona biuma
+  abiobi kumvanganga bubi mutu wummona biawu. Kumona biuma bimmonisa batu bambundana
+  nyitu kumbivisanga bilunzi bi batu mu mimvu miwombo.\\nYave kalenda kutu kieba mu
+  ntambu awowo wu Satana. Vayi boti tutidi nandi katu kieba, tufueti vanga mambu basi
+  Isaeli bakhambu vanga\u2014kutumukina Yave mu bukiedika. (Esodu 19:5) Tufueti visa
+  ti kumona biuma bimmonisa batu bambundana nyitu didi diambu Nzambi kammonanga khenene.
+  Kibila mbi kamuenanga mawu khenene?\\nLANDAKANA KIFUANI KI YAVE\u2014MONA KHENENE
+  MAMBU MAMMONISA BATU BAMBUNDANA NYITU\\nYindula mu diambu adidi: minsiku Nzambi
+  kavana basi Isaeli miba disuasana na mimvila minkaka mu thangu yinani. Miawu miba
+  buka kibaka kinneni kiaba kiebanga basi Isaeli mu mambu mambi mimvila minkaka baba
+  vanganga. (Deutelonomi 4:6-8) Mu minsiku amiomi, diambu dimueka diluta ba nkinza:
+  Yave wummonanga khenene mambu ma kitsuza.\\nBo kamana kutuba mambu mambi mimvila
+  minkaka bamvanganga, Yave wukamba basi Isaeli: \u2018Bikanu kuvanga mambu basi Kanani
+  bamvanganga, ntoto minu yidi kumunata.\u2019 Kuidi Yave, Nzambi yinlongo yi basi
+  Isaeli, phila basi Kanani baba natinanga luzingu yiba beni yimbi ayi waba tadilanga
+  kibuangu baba zingilanga buka ti kisi ko kinlongo voti kisama.\u2014Levitiku 18:3,
+  25.\\nYave wufundisa basi Kanani, vayi mimvila minkaka miaba tatamana kuvanga kitsuza.
+  Bo vavioka 1.500 di mimvu, mvuala Polo wutuba ti Baklisto baba zingilanga va kimueka
+  na mimvila \u2018bazimbisa mambu moso ma kimutu\u2019. Bawu bakivana mu \u201cvanganga
+  mambu ma tsoni [muingi] bavanga mambu moso masumuka ma phila mu phila.\u201d (Efeso
+  4:17-19) Bubu, batu basi ko disuasana. Bawombo bannatanga luzingu lu kitsuza, badi
+  beni lungundayi ayi basi ko zitsoni kuvanga mawu. Vayi befu tuidi Baklisto bakiedika,
+  tufueti bika kuvanga mambu amomo mambi.\\nKumona biuma bimmonisa batu bambundana
+  nyitu yisi ko mbonosono yi lukinzu kuidi Nzambi. Nandi wuvanga batu mu kifuani kiandi
+  ayi wutu vana kilunzi kimboti muingi kusuasisa mamboti ayi mambi. Mu nduenga, Nzambi
+  wuvana minsiku mu matedi kubundana nyitu. Nandi wutuba ti kubundana nyitu kufueti
+  tuadisa nyenze kuidi nnuni ayi nkazi. (Ngenesi 1:26-28; Zingana 5:18, 19) Bukiedika
+  ti batu bamvanganga zivideo zi kubundana nyitu banyindudilanga dedi bo Yave kanyindudilanga?
+  Ndamba, bawu bambayisanga zithumu zi Nzambi. Bawu bamonisanga ko lukinzu kuidi Yave.
+  Ayi nandi wala fundisa batu boso bantuadisanga voti bamvanganga zivideo zitedi kubundana
+  nyitu.\u2014Loma 1:24-27.\\nVayi mbi tulenda tubila matedi batu bammonanga voti
+  bantanganga biuma bimmonisa batu bambundana nyitu? Bankaka banyindulanga ti disi
+  ko diambu dimbi kumona voti kutanga biawu. Vayi batu abobo, badi mu kubuela mioko
+  batu bakhambu kinzikanga zithumu zi Yave. \u1e3eba masi ko mawu makani babaka bo
+  batona kumona biawu. Vayi Kibibila kimmonisa ti batu bambuonginanga Nzambi yikiedika
+  bafueti mona khenene biuma bimmonisa batu bambundana nyitu. Minkunga 97:10 yitu
+  vana dilongi adidi: \u201cBabo beti zola Yave, balenda [mambi].\u201d\\nDilenda
+  ba diambu diphasi kubika mona biuma bimmonisa batu bambundana nyitu, kheti kuidi
+  batu bammanga kumona biawu. Befu tuidi basumuka ayi \u1e3fba tumvanga mangolo mawombo
+  muingi tununga zinzinunu zimbi. Ayi ntim\u2019itu widi wusumuka, wulenda tuvukumuna
+  kuyindula ti disi ko diambu dimbi kumona biuma bimmonisa batu bambundana nyitu.
+  (Yelemia 17:9) Boti widi mu kuviokila mu mawu, zaba ti bawombo bayiza ba bisadi
+  di Yave banunga mvita awowo. Mona buidi Diambu di Nzambi dilenda kusadisila kubika
+  bua mu ntambu awowo wu Satana.\\nBIKA YINDULANGA MU ZINZINUNU ZIMBI\\nDedi bo tuma
+  muena, bawombo mu basi Isaeli babika muingi zinzinunu zimbi ziyonzuka mu mintima
+  miawu. Mawu mvandi malenda monika bubu. Yakobi, khomba Yesu mu ngudi, wusudikisa
+  mawu mu phila ayiyi: \u2018Vayi kadika mutu weti vukumunu ayi kuvunuka kuidi zitsatu
+  ziandi zimbi. Bosi tsatu bo yiyedidi, yimbutanga masumu.\u2019 (Yakobi 1:14, 15)
+  Bo mutu kambika zinzinunu zimbi kukonzuka mu ntim\u2019andi, nandi kalenda vola
+  disumu. Diawu, befu kuba mayindu ma kitsuza, tufueti kubula mawu ayi kubika tatamana
+  kuyindula mu mawu.\\nBoti wuntona kuyindula mu mambu ma kitsuza, vanga dioso diambu.
+  Yesu wutuba: \u2018Boti koko kuaku voti kulu kuaku kuidi mu kubuisa mu masumu, buna
+  zenga ayi loza kuawu thama. . . . Boti dieso diaku dikubuisa mu masumu, dovula diawu
+  ayi loza diawu ku thama.\u2019 (Matai 18:8, 9) Yesu kasa tuba ko ti mutu kafueti
+  zenga nyitu\u2019andi. Nandi wuvana kifuani akioki muingi kumonisa ti mutu kafueti
+  tatuka mu kiuma ki kumvanga kusumuka\u2014kutatuka mu thinu ayi kubika kifu beni.
+  Buidi tulenda sadila dilongi adiodi mu matedi kumona biuma bimmonisa batu bambundana
+  nyitu?\\nNgie kudengana na biuma bimmonisa batu bambundana nyitu, bika yindula:
+  Bisi mbivisa ko mayindu mami.\u2019 Mu thinu viokisa thalu kunkaka. Vingisa muna
+  thangu biuma widi mu kumona mu televis\u00e3o. Zimisa mu thinu computador voti telefoni.
+  Tsikika mayindu mu mambu mamboti. Kuvanga mawu, kuala kusadisa kuyadila mabanza
+  maku, mu khambu bika zinzinunu zimbi ku kuyadila.\\nMBI TUFUETI VANGA BOTI TUKHIDI
+  YINDULANGA MU MAMBU MAMBI TUMONA KUMBUSA?\\n\u1e3eba ngie wununga kubika bue mona
+  biuma bimmonisa batu bambundana nyitu. Vayi, khumbu zinkaka biuma wumona kumbusa
+  bilenda kukuizila va kilunzi. Mbi wufueti vanga? Zifikula ayi mayindu ma kitsuza
+  malenda tatamana mu kilunzi mu mua mimvu miwombo. Ayi mu kinzimbukila zifikula beni
+  zilenda kukuizila va kilunzi. Bo mawu mammonika, \u1e3fba ngie wulenda tomba kuvanga
+  diambu dimbi, dedi kusakinina kibutulu kiaku\u2014voti kuvanga diambu dinkaka dilutidi
+  bubi. Diawu, ngie wufueti zaba ti mambu amomo malenda kukuizila mu kilunzi yosokua
+  thangu ayi wufueti banga wukubama muingi kununga mayindu amomo.\\nVanga mangolo
+  muingi kuyindudila mu phila Nzambi kanyindudilanga. Landakana kifuani ki mvuala
+  Polo, wuba wukubama muingi \u2018kunuanisa nyitu\u2019andi ayi kukiyala.\u2019 (1
+  Kolinto 9:27) Kawubikila zinzinunu zimbi zi kukitula mvika. Landakana dilongi di
+  Kibibila dintuba: \u2018Bika lukituka bamona mu kubalula mayindu minu, muingi luvisa
+  benu veka mambu mamboti, mafuana ayi luzolo lusonga lu Nzambi.\u2019 (Loma 12:2)
+  Tebuka moyo ti wulendi baka ko mayangi ngie kuvanga mambu ma kitsuza, vayi wala
+  baka to mayangi ngie kuyindula ayi kuvanga mambu mankuangidika Nzambi.\\nKuyindula
+  ayi kuvanga luzolo lu Nzambi kunluta tuadisanga mayangi kena kubika zinzinunu zimbi
+  zi kuyala\\nVanga mangolo ma kulunda mua matangu ma Kibibila. Bosi, boti mayindu
+  mambi mantomba kukuizila mu kilunzi, yindula mu matangu ma Kibibila. Dedi: Minkunga
+  119:37; Yesaya 52:11; Matai 5:28; Efeso 5:3; Kolosai 3:5; ayi 1 Tesalonika 4:4-8.
+  Matangu amomo, malenda kusadisa kutadila biuma bimmonisa batu bambundana nyitu dedi
+  bo Yave kantadilanga ayi kuvisa mbi Yave kantomba ngie wuvanga.\\nMbi ngie wulenda
+  vanga boti wisinnunga ko kubika mona voti kuyindula mu biuma bimmonisa batu bambundana
+  nyitu? Landakana buboti kifuani kimboti ki Yesu. (1 Petelo 2:21) Bo kamana kubotama,
+  Satana wuthota Yesu khumbu ziwombo. Mbi Yesu kavanga? Nandi wutatamana wukuikama.
+  Mu kusadila masonoko manlongo, nandi wumanga kuvukumuka mu zithotolo zi Nkadi\u2019ampemba.
+  Yesu wutuba: \u201cBotuka, Satana!\u201d ayi Satana wumbika. Yesu kasa bika ko kunuana
+  mu zithotolo zi Satana. Ngie mvaku wulendi bika ko. (Matai 4:1-11) Satana ayi nza
+  kanyadila bela tatamana ku kuthota mu kuvanga kuyindula mambu ma kitsuza vayi bika
+  vonga kunuana. Ngie wulenda nunga mvita wu kubika mona biuma bimmonisa batu bambundana
+  nyitu. Mu lusalusu lu Yave, ngie wulenda nunga mbeni ayoyi.\\nSAMBILA AYI TUMAMANA
+  YAVE\\nTatamana kusambila ayi kudinda lusalusu lu Yave. Polo wutuba: \u2018Bika
+  luzabikisa zitsatu zinu kuidi Nzambi mu lusambulu, ayi ndembama yi Nzambi, yoyi
+  yiviokidi diela dioso, yela kieba mintima minu ayi mayindu minu mu nzila Yesu Klisto.\u2019
+  (Filipi 4:6, 7) Nzambi kalenda kuvana ndembama yi ntima muingi yi kusadisa kubika
+  vanga mambu mambi. Ngie kufikama Yave, \u2018nandi wela kufikama.\u2019\u2014Yakobi
+  4:8.\\nTuala nunga mintambu mi Satana befu tatamana kukindisa kikundi kitu na Mfumu
+  Yilutidi Zangama, Yave. Yesu wutuba: \u2018Mfumu yi nza [Satana] widi mu kukuiza,
+  ayi nandi kasi ko ni lulendu mu minu.\u2019 (Yoane 14:30) Buidi Yesu kazabila mawu?
+  Nandi wusudikisa: \u2018Ayi mutu wuthuma widi yama; nandi kasa kumbika ko miveka,
+  kibila yimvanganga mambu ma kunkuangidika.\u2019 (Yoane 8:29) Ngie kuvanga mangolo
+  muingi kuvanga mambu mankuangidika Yave, nandi kalasa kubika ko ngieveka. Diawu,
+  bika bua mu ntambu wu Satana wu kumona biuma bimmonisa batu bambundana nyitu ayi
+  nandi kalasa ba ko lulendu mu ngiewu.\"", "\"Beki mi\u01f9swa\\n\u00a9 2014 Watch
+  Tower Bible and Tract Society of Pennsylvania, Inc. Mi\u01f9swa myoso mingana.\\nNkondi
+  ayiyi yi mayo yisamunwa kwidi Watchtower Bible and Tract Society of New York, Inc.
+  (\u201cWatchtower\u201d). Enati ti ba sa sudikisa ko, muna malongi ayi mambu moso
+  ma\u01f9kaka madi muawu ma twadusulu mu dyela Watch Tower Bible and Tract Society
+  of Pennsylvania.\\nMazina ma bisalulu bisonoma\\nAdobe ayi zi Logotipo zyandi, ayi
+  \u1e3fvandi Acrobat ayi zi Logotipo zyandi, madi mazina ma bisalulu bisonoma bi
+  Adobe Systems Incorporated. iTunes ayi iPod madi mazina ma bisalulu bisonoma ku
+  zi Apple Inc. Bisalulu byoso abyobyo ayi zi logotipo bidi bingana.\\nBu kusadila
+  ayi mi\u01f9swa mi kusadila nkondi mayo\\nKusadila nkondi ayiyi yi\u01f9tombila
+  kulandakana mi\u01f9swa midi va yilu. Kusadila nkondi ayiyi yi\u01f9sudula ti ngyewu
+  kikinini ma sonama ava. Ti wisi \u01f9landakana ko mi\u01f9swa beni, muna basika.\\nBwidi
+  wu lenda sadila nkondi ayiyi yi mayo? Wu lenda, tanga, kulula, ayi basisa mu nkondi
+  ayiyi zi foto, zi mfikula, mi\u01f9kunga, bilongulu bi\u01f9kaka mu eletronika,
+  matangu ayi bimona meso, bi wu\u01f9sadila ngye feka bika bi kusumbisa. Kikinini
+  ku kinzika mi\u01f9siku mi sonama va wanda voti mi\u01f9siku mi\u01f9kaka. Dyawu
+  ngye wulendi ko:\\nTula matangu ma Kibibila madi mu nkondi ayiyi mu zi nkondi zi\u01f9kaka\\nKu
+  be samuna mambu madi mu nkondi ayiyi mweni maku mu software yi\u01f9kaka\\nKufikula,
+  kubutisa kubonga voti kusadila madi mu nkondi ayiyi mwingi kusumbisa voti kuvingisa
+  mu zimbongo. Ma\u01f9sundula kukabula bisalulu bi tedi mu nkondi ayiyi voti zi\u01f9kaka
+  zi bundana mu nzila yi zi link.\\nSadila nkondi ayiyi mwingi zaba bo yi\u01f9sadilanga,
+  bisadulu bi\u01f9sadisanga yawu ayi madi mu nkati mo kusumbisa ove kuzabikisa kwidi
+  babonso.\\nKusadila nkondi mayo mu nkambu fwana. Mweni mu nkambu landakana ntwadusulu
+  ayi nkotolo yi bavana.\\nKusadila mpila yi wulenda vondila yawu voti dekudila mangolo
+  mandi. Ayi wu lendi ko kuyisadila mu ma nkambu fwana mweni kusadila yawu mo kwibila
+  voti mu vondila byuma bingana.\\nKusadila nkondi ayiyi mo kwamikisila mambu maku.\\nKulevula
+  mi\u01f9siku mi tedi bo busadila yawu\\nNgye kulevula mi\u01f9siku mi tedi bo bu
+  kusadila nkondi mayo yi Watchtower kavana, muna zaba kwaku ti bala kubakila makani
+  mu mi\u01f9swa mi sonama mu mi\u01f9siku mi lufundusu. Zaba ti ba lenda zenga nkotolo\u2019aku
+  mu nkondi mayo, kukandikila wu bika be yi kota, kuzibika nkotolo yi zi komputador
+  zyoso zi\u01f9sadilanga ntalu\u2019aku yi IP, kuzabikisa empresa wu kuvananga internet
+  mo ka zibika nkotolo\u2019aku mu nkondi mayo ove kubakila makani mu mi\u01f9swa
+  mi sonama mu mi\u01f9siku mi lufundusu.\\nKuvingisa\\nWatchtower wu lenda vingisa
+  bu kusadila nkondi ayiyi. Nsalulu yi mona yi\u01f9tona sala mu ntangu ba tudidi
+  yawu mu nkondi mayo. Dyawu kotanga ntangu ka ntangu va nsyelo ayiyi mo wu baka ntwadusulu
+  yi mona.\\n\u01f8siku ayi beki \u01f9swa\\nMi\u01f9siku mi kusadila nkondi mayo
+  ayiyi mi twadusulu mu mi\u01f9siku mi divula di Nova York, ku EUA. Dyoso kwa dyambu
+  di tedi mu mi\u01f9siku mi kusadila nkondi mayo ayiyi fweti nata dyawu ku divula
+  di Nova York EUA, nzo yi lufundusu ba twadisila mi\u01f9siku beni.\\n\u01f8swa mu
+  bindwika bi syedi ko nsalulu\\nBo ti nzo yi lufundusu be kubula mi\u01f9siku misonama
+  mi Watchtower kibila ti myawu mi sa zabakana ko kwidi zimfumu voti mi syedi ko nsalulu,
+  muna mi\u01f9kaka mi lenda kyeba nkondi mi fweti salama. Ku kubula mi\u01f9siku
+  mi\u01f9kaka mi sonama, masi \u01f9sundula ko ku nkambu landakana mi\u01f9kaka mi
+  sonama, kibila Watchtower \u01f9swa kadi mu kusadila myawu.\\nLuwawanu lu no wu
+  beka ayi wu\u01f9sadila\\nMi\u01f9siku mi kusadila nkondi mayo myawu midi luwawanu
+  lu Watchtower ayi ngyewu mu matedi kusadila nkondi mayo. Losukwa luwawanu lu tedi
+  nkondi mayo lu ma vyoka nkumbusa lusyedi ko nsalulu.\"", "\"Bo zimvula zikangama
+  ku tsi yi Isaeli, Yave wukamba Elia: \u2018Yenda ku Salapeta, kuawu nkyeto wumweka
+  wufwilu nnuni kala kuvanina bidya.\u2019 Bo Elia kavitila va mwelo wu divula beni
+  nandi wumona nkyeto waba nanguna bitini bi mabaya. Elia wudinda nkyeto beni nlangu
+  mwingi kanwa. Bo kayenda kwe landa nlangu beni, Elia wubwe nkamba kannatina dipha
+  mwingi kadya. Angi nkyeto beni wumvutudila: \u2018Minu yisi ko dipha ni dimweka
+  mwingi kuvana. Vayi yidi mwa farinha ayi nkadu mafuta yinkwiza vangila dipha mwingi
+  minu ayi mwan\u2019ami tubaka bubu ki kulalila. Elia wunkamba: \u2018Yave wukhanikisa
+  ti ngye kuphangila dipha mwingi yidya, muna farinha ayi mafuta maku malasa mana
+  ko ti zimvula zyala tona kunoka.\u2019\\nNkyeto beni wukota ku nzo ayi wuvanga dipha
+  mwingi kuvana mbikudi wu Yave. Dedi bo Yave kakanikina nkyeto beni ayi mwan\u2019andi,
+  basa khambu ko bidya. Ti zimvula zibwe tona kunoka, kilundulu kyandi ki farinha
+  ayi ki mafuta kiba kiwala kiwala.\\nAngi dyambu di phasi diyiza monika! Mwana wu
+  mfwizi beni, wiza bakana kimbevo ki ngolo ayi wiza fwa. Nkyeto beni wudinda Elia
+  lusalusu. Elia wunanguna mwana beni ayi wunnata ku quarto yiba ku kibanga ki tsuka,
+  wunlalisa va kika ayi wusambila: \u2018Yave, lemvuka vutula moyo mu mwana awuwu
+  mwingi kabwe zinga.\u2019 Mu mbwenu\u2019aku, diba dyambu diphasi mwingi Yave kuvulubula
+  mwana beni? Dedi bo tuzabidi tona nza yivangama ti mu thangu beni, ni mutu wumweka
+  wufwa wubwe vutuka mwingi kazinga. Dyambu dinkaka, nkyeto beni ayi mwan\u2019andi
+  basa ba ko basi Isaeli.\\nAngi mwana beni wuvutuka kubwe zinga ayi kuvumuka! Bosi
+  Elia wuzabikisa ngudi\u2019andi: \u2018Tala, mwan\u2019aku ma vulubuka.\u2019 Nandi
+  wuba beni mu mayangi ayi wukamba Elia: \u2018Bukyedika, ngye widi mutu wusolwa kwidi
+  Nzambi! Yizabidi mawu kibila mamoso ngye wunkoluka, madi mambu Nafeka Nzambi katumini
+  mwingi wuyoluka.\u2019\\n\u201cLutala zinuni zioso, zikunanga ko ayi zitotanga bidya
+  ko, zisi ko kadi nzo voti lundulu vayi Nzambi wuku zidikilanga. Kheti benu luvalu
+  luidi vyokila zinuni.\u201d\u2014Luka 12:24\"", "\"EYINGIDILU DIA NKANGU N.\u00ba
+  3 2021 | Aweyi Olenda Kadila ye Zingu Kiambote?\\nAdieyi olenda vanga muna kala
+  ye zingu kiambote kuna sentu? Eyingidilu diadi dikusadisa mu zaya dina wantu ayingi
+  bevanganga kimana bakala ye zingu kiambote. Dikusonga mpe vo vena ye diambu dimosi
+  kaka dilenda kusadisa mu kala ye zingu kiambote.\\nNdonga muna awaya betadilanga
+  e ntetembwa, vanda e vangu dia feng shui, sambila akulu yo kwikila muna luwutuluku,
+  beyindulanga vo vena ye lekwa kilembi monekanga kisikidisanga una ukala zingu kieto.\\nVava
+  tubakanga e nzengo, nkumbu miayingi tuvavanga luludiku lwa muntu una vo mbuta ye
+  utusundidi e ngangu. Diau dimosi mpe, tulenda solola luludiku lulenda kutusadisa
+  mu kala ye zingu kiambote.\"", "\"MFUNU NA YO: Yehowa ke bikaka nde nkeni ya kieleka
+  kuyela na bantima ya bantu yina kele ti \u2018nkadilu ya mbote sambu bo baka luzingu
+  ya mvula na mvula.\u2019 (Bis 13:48; 1Bk 3:7) Beto ke salaka ti yandi ntangu beto
+  ke salaka bikesa ya kutula dikebi na bantu yina ke ndimaka mambu yina bo ke longukaka.
+  (1Bk 9:26) Balongoki ya Biblia fwete bakisa nde mbotika ya Bukristu kele mfunu sambu
+  na kuguluka. (1Pi 3:21) Beto ke sadisaka bo na kukuma balongoki ntangu beto ke longaka
+  bo na kusala bansoba na luzingu na bo, na kusamuna, na kulonga mpi na kupesa luzingu
+  na bo ya mvimba na Yehowa.\u2014Mat 28:19, 20.\\nMUTINDU YA KUSALA YO:\\nYibusa
+  balongoki na nge ya Biblia nde kulonguka Biblia ta sadisa bo na \u2018kuzaba\u2019
+  Yehowa mpi na kusala mambu yina ke sepedisaka yandi.\u2014Yoa 17:3.\\nSadisa bo
+  na kuyela na kimpeve sambu bo nunga mimekamu, mu mbandu bikalulu ya mbi mpi banduku
+  ya mbi\\nSiamisa mpi pesa bo kikesa na ntwala mpi na nima ya mbotika.\u2014Bis 14:22\\nSONGA
+  VIDEO YEHOWA NZAMBI TA SADISA NGE MPI NA NIMA BENO PESA BAMVUTU NA BANGIUFULA YAI:\\nInki
+  lenda pesa muntu boma ya kudipesa na Yehowa mpi kubaka mbotika?\\nInki mutindu bankulutu
+  lenda sadisa balongoki ya Biblia na kuyela na kimpeve?\\nYezaya 41:10 ke longa beto
+  nki sambu na Yehowa?\\nInki bikalulu ta sadisa beto na kusadila Yehowa na mutindu
+  ya me fwana, ata beto kele bantu ya kukonda kukuka?\"", "\"Sambu na nki beto fwete
+  sala kinduku ti bantu yina ke zolaka Yehowa? Sambu banduku na beto lenda sadisa
+  beto na kusala mambu ya mbote to kupusa beto na kusala mambu ya mbi. (Bin 13:20)
+  Mu mbandu, ntotila Yehoashi salaka \u201cmambu ya mbote na meso ya Yehowa\u201d
+  ntangu yandi vandaka nduku ya nganga-nzambi ya nene Yehoyada. (2Bs 24:2) Na nima
+  lufwa ya Yehoyada, Yehoashi yambulaka Yehowa sambu yandi kumaka ti banduku ya mbi.\u20142Bs
+  24:17-19.\\nNa mvu-nkama ya ntete, ntumwa Polo fwanisaka dibundu ya Bukristu ti
+  \u201cnzo ya nene\u201d mpi bampangi ya dibundu ti \u201cbisadilu,\u201d to bima
+  ya nzo. Beto ta vanda \u201ckisadilu sambu na kisalu ya lukumu\u201d kana beto ke
+  buya kusala kinduku ti konso muntu yina; yo vanda muntu ya dibuta na beto to mpangi
+  ya dibundu yina ke salaka mambu yina ke sepedisaka ve Yehowa. (2Tm 2:20, 21) Yo
+  yina, beto landa kusala kinduku ti bantu yina ke zolaka Yehowa mpi yina ta sadisa
+  beto na kusadila yandi.\\nSONGA VIDEO BUYA BANDUKU YA MBI, MPI NA NIMA BENO PESA
+  BAMVUTU NA BANGIUFULA YAI:\\nInki mutindu beto lenda sala kinduku ti bantu ya mbi
+  kukonda kuzaba?\\nNa video yai, nki sadisaka Bakristu tatu na kufwa kinduku ya mbi?\\nInki
+  minsiku ya Biblia lenda sadisa nge na kupona banduku ya mbote?\"", "\"Yobi salaka
+  ve disumu na bikobo na yandi.\u2014Yobi 2:10.\\nSatana zolaka kupusa Yobi na kundima
+  nde yandi vandaka kuniokwama sambu Yehowa wilaka yandi makasi. Mu mbandu, Satana
+  sadilaka mupepe mosi ya ngolo sambu yo bwisa nzo yina bana yonso kumi ya Yobi vandaka
+  kudia kisika mosi. (Yobi 1:18, 19) Yandi salaka mpi nde tiya kukatuka na zulu mpi
+  kuyoka bambisi ya Yobi mpi bantu yina vandaka kutanina yo. (Yobi 1:16) Sambu mupepe
+  mpi tiya yina katukaka na zulu, Yobi yindulaka nde Yehowa muntu tindaka yo. Yo pusaka
+  Yobi na kundima nde yandi salaka mambu yina sepedisaka ve Yehowa. Ata mpidina, Yobi
+  tubaka ve mambu ya mbi sambu na Tata na yandi ya zulu. Yobi zabaka nde Yehowa pesaka
+  yandi bima mingi ya mbote na luzingu na yandi. Yo yina yandi tubaka nde mutindu
+  yandi ndimaka bima ya mbote yina Nzambi pesaka yandi, yo lombaka mpi nde yandi ndima
+  bampasi. Yo yina Yobi tubaka nde: \u201cBika nde zina ya Yehowa kulanda kubaka lukumu.\u201d\u2014Yobi
+  1:20, 21. w22.06 21 \u00a7 7\\nBantu yonso ta menga beno sambu na zina na mono.
+  Kansi muntu yina ta kanga ntima tii na nsuka ta guluka.\u2014Mar. 13:13.\\nYezu
+  songaka balongoki na yandi mpi mambu yina kele na Yoane 17:14 Ya kieleka, beto me
+  mona kulungana ya mbikudulu yina, mingi-mingi na bamvula 100 ya me katuka kuluta.
+  Inki mutindu? Ntangu Yezu kumaka Ntotila na 1914, ntangu fioti na nima, yandi kulaka
+  Satana na zulu. Sesepi yai Satana kele na ntoto, yandi ta vutuka diaka ve na zulu
+  ata fioti mpi yandi ke vingila kaka lufwa na yandi. (Kus. 12:9, 12) Satana me kanga
+  ve maboko. Yandi kele ti makasi ya ngolo, yo yina yandi ke nwanisa bansadi ya Nzambi.
+  (Kus. 12:13, 17) Nsi-ntoto ke menga diaka mingi bansadi ya Nzambi. Ata mpidina,
+  beto fwete banga ve Satana mpi bantu na yandi. Na kisika ya kuwa bo boma, beto fwete
+  vanda ti kundima bonso ntumwa Polo. Yandi sonikaka nde: \u201cKana Nzambi kele sambu
+  na beto, nani ta nwanisa beto?\u201d (Bar. 8:31) Beto fwete tudila Yehowa ntima
+  ya mvimba. w22.07 18 \u00a7 14-15\\nBo ta samuna nsangu yai ya mbote ya Kimfumu
+  na ntoto ya mvimba.\u2014Mat. 24:14.\\nYezu kudiyangisaka ve nde na bilumbu ya nsuka,
+  bantu ta vanda ve mingi sambu na kusala kisalu yango. Sambu yandi zabaka nde mambu
+  yina muyimbi-bankunga tubaka ta lungana. Yandi tubaka nde: \u201cBantu na nge ta
+  kudipesa na luzolo na bo mosi na kilumbu yina nge ta twadisa basoda na nge na bitumba.\u201d
+  (Nk. 110:3) Kana nge ke longaka nsangu ya mbote, yo ke monisa nde nge ke sadisa
+  Yezu ti mpika ya kwikama mpi nge ke sala nde mambu yina muyimbi-bankunga tubaka
+  kulungana. Kansi beto ke kutana mpi ti mambu ya mpasi na kisalu yango. Mpasi ya
+  ntete yina bansamuni ya Kimfumu ke kutana ti yo, kele mbangika. Baaposta, bamfumu
+  ya mabundu mpi bamfumu ya luyalu me songaka bantu mingi mambu ya luvunu na yina
+  me tala kisalu na beto. Kana bantu ya mabuta na beto, bantu yina beto me zaba mpi
+  bantu yina beto ke salaka ti bo kundima mambu yina ya luvunu, bo lenda pusa beto
+  na kuyambula kusadila Yehowa mpi na kuyambula kusamuna. Na bansi ya nkaka, bambeni
+  ke niokula bampangi na beto, bo ke nwanisa bo, bo ke kanga bo mpi nkutu bo ke tula
+  bo na boIoko. w22.07 8 \u00a7 1; 9 \u00a7 5-6\"", "\"Tony Mambo\\nMarch 25, 2009
+  8:36 AM\\nBana Muanda na Etats Unies, Bana Muanda diiiiiiii\\nKhumbu na munu Tony,
+  Munu vuandaka yundikila na cote ya cimetier no far from Terrain ya Balle diii.Mume
+  kumaka Vuanda na Boston, na Buala ya jonie Walker. ya ke vuanda kiese na kusolula
+  na Muana nioso ya Muanda na Etats-unies.Koso mutu lenda tuba ki Congo, ya Banka,
+  bana Razi, Bana kake, bana Moto, indepandama bana GESCOM, na Moyo, Couvant de soeur,Bana
+  ITECOM , na Mbu,munu zimbala ve bana Baki , na NsiaFumu,pe Banana, Muanda village.
+  Benga Munu na konso Portable na munu, Beto kesolula.\\nTony: 781 568 9976\\n857
+  251 7878 Kicongo na kisolongo, kiwoyo,kiyombe ,lenda vuanda avantage. ba pureDepuis
+  1989.\"", "\"WANTU ayingi babwilwa kala diambu diabatokanesa yo vava lusadisu. Landila
+  diambu dibwidi, tulenda vava nkundi una vo nkwa nkenda ye ovwidi ndekwa zafwana
+  muna singika e diambu tunwananga diau. E fu kia songa nkenda yo kala ye ndekwa,
+  kilenda kitula muntu se nkundi akieleka.\\nAkaka nanga balenda mona diau adimosi
+  mu kuma kia sambu. Vana fulu kia finama Nzambi una vo osundidi wantu awonso, oyau
+  besambilanga asantu. Beyindulanga vo, asantu balenda kubafwila e nkenda wau vo yau
+  babangikwa kala yo nwana ye mpasi zina benwananga zau o wantu. Muna bong\u2019e
+  nona, vava wantu bevidisanga lekwa, besambanga kwa Ant\u00f3nio P\u00e1dua wa \u201cMveledi\u201d
+  una vo i nzambi a lekwa yavila yovo yayiwa. Muna lomba lusadisu mu kuma kia bulu
+  kiyelanga, wantu besambanga kwa Francisco de Assis, vava bevidisanga e lekwa yovo
+  bekendalalanga besambanga kwa Judas Tadeu.\\nMun\u2019owu wa Nkand\u2019a Nzambi,
+  nga diambote mu samba kwa asantu? Wau vo vava tusambanga, Nzambi tumokenanga yandi,
+  tufwete vav\u2019o zaya e diambu edi: Nga Nzambi owanga e sambu yeto? Tufwete kukiyuvula
+  mpe: Aweyi Nzambi kebadikilanga e fu kia sambila asantu?\\nO NKAND\u2019A NZAMBI
+  ADIEYI ULONGANGA MU KUMA KIA SAMBILA ASANTU?\\nE fu kia sambila asantu, mun\u2019elongi
+  dia lomba lusadisu muna asantu kiatuka, dilongwanga muna dibundu dia Katolika. O
+  nkanda Nova Enciclop\u00e9dia Cat\u00f3lica, usasilanga e fu kiaki vo: \u201cLwakisa
+  e ndomba za muntu kwa Nzambi muna lusadisu lwa asantu.\u201d Ozevo, ndiona osambanga
+  kwa asantu nanga okwikilanga vo otambula edienga dia Nzambi, kadi oyindulanga vo
+  asantu basambulwa vana ndose a Nzambi.\\nNga i diau ulonganga o Nkand\u2019a Nzambi?
+  Akaka bevovanga vo Paulu wa ntumwa yandi wayantika evangu dia sambila asantu. Muna
+  bonga e nona, vava kasonekena esi Roma wavova vo: \u201cInudodokelele, abunzi, muna
+  Mfumu eto Yesu Kristu, yo muna zola kwa mwanda, nwansiamanena yame muna sambu kwa
+  Nzambi.\u201d (Roma 15:30) Nga Paulu walomba kwa mpangi zandi z\u2019Akristu vo
+  bansambidila? Ve. Kele vo i wau, konso lekwa bavwanga o mfunu badi kio lombela muna
+  nkumbu a Paulu wa ntumwa a Kristu. Paulu wasonga vo diamfunu mu lomba kwa mpangi
+  za Akristu mu samba kwa Nzambi muna wete dieto. Ediadi, diaswaswana yo samba kwa
+  muntu ona tukwikilanga vo una kun\u2019ezulu ye olenda lwakisa e ndomba zeto kwa
+  Nzambi. Ekuma?\\nMuna nsangu zambote kasoneka Yoane, Yesu wavova vo: \u201cMono
+  kwame i nzila, i ludi, i moyo mpe: Ke vena on\u2019okwiza kwa Se ko, ovo ke mu mono
+  ko.\u201d (Yoane 14:6) Yesu wavova diaka vo: \u2018Konso kina nulomba kwa Se muna
+  nkumbu ame, o kunuvana kio.\u2019 (Yoane 15:16) Yesu kavova ko vo tufwete fila sambu
+  yeto kwa yandi, i bosi kelwakisa yo kwa Nzambi muna wete dieto. Kansi, Yesu wasonga
+  vo e sambu yeto muna yo wakana, tufwete samba kwa Nzambi muna Yesu ke kwa muntu
+  akaka ko.\\nVava alongoki a Yesu banlomba vo kabalonga o samba, Yesu wavutula vo:
+  \u201cOvo se nusamba nuvova vo, e Tata yambula nkumbu aku yazitiswa.\u201d (Luka
+  11:2) Ozevo, konso ntangwa tusamba, tufwete fila sambu yeto kwa Nzambi ke kwa Yesu
+  ko ngatu kwa muntu akaka. Wau vo Yesu wakiesesa e diambu diadi muna malongi mandi,
+  diambote twafilanga e sambu yeto kwa Nzambi ke kwa Yesu ko ngatu kwa \u201casantu.\u201d\\nO
+  samba diambu diamfunu muna nsambil\u2019eto, kansi osambila muntu akaka ke mu Nzambi
+  ko, ke dina ngwizani ko ye malongi ma Nkand\u2019a Nzambi. (Yoane 4:23, 24; Lusengomono
+  19:9, 10) Muna kuma kiaki tufwete fila kaka e sambu yeto kwa Nzambi.\\nNGA OFWETE
+  KALA YO WONGA WA FINAMA NZAMBI?\\nMuna Elongi diandi vana Mongo, Yesu wayika e nona
+  kia mwana olombanga s\u2019andi m\u00e1 kia dia. Nga o se olenda kumvana e tadi
+  vana fulu kia kumvana e mbolo? Yovo nioka vana fulu kia kumvana mbizi a maza? (Matai
+  7:9, 10) O se dianzodi kalendi vanga diambu diadi ko.\\nBadika e nona eki: Yindula
+  vo mwan\u2019aku lekwa kazolele kulomba. Ongeye, otoma mokenanga yo mwan\u2019aku,
+  nutoma wizananga. Kansi, vana fulu kia lomba yandi kibeni dina kazolele, otumini
+  muntu akaka kanlombela kina kavwidi o mfunu. Aweyi omona? Adieyi ovanga kele vo
+  mwan\u2019aku okwamanene ye fu kiaki? Nga oyangalela e fu kiaki? Kieleka vo, ve.
+  Mase ma nzolwa bezolanga vo wan\u2019au babafinamanga yo lomba konso kina bazolele.\\nVava
+  kayika e nona kia mwana olombanga madia kwa s\u2019andi, Yesu wavova vo: \u201cDianu
+  vo, oyeno, nuna yo bi, ovo nuzeye o vana tukau twambote kwa wan\u2019eno, o S\u2019eno
+  wina kun\u2019ezulu, nkia nduta keluta vana lekwa yambote kw\u2019awana bekunlomba.\u201d
+  (Matai 7:11) Ka lukatikisu ko vo mase bezolanga vana lekwa yambote kwa wan\u2019au.
+  Kansi, o luzolo lwa S\u2019eto ezulu lwa w\u00e1 yo vana e mvutu za sambu yeto lusundidi
+  kikilu.\\nNzambi ozolele vo twamfinama muna sambu kana una vo tunwananga ye mazitu
+  ma masumu meto. Ke vananga mbebe kwa wantu akaka ko muna w\u00e1 e sambu yeto. Nkand\u2019a
+  Nzambi ukutuwondelelanga vo: \u201cYekek\u2019ezitu diaku kwa Yave, yandi okusikina.\u201d
+  (Nkunga 55:22) Vana fulu kia sadila asantu yovo akaka muna lwakisa sambu yeto kwa
+  Nzambi, diambote twazaya dina Yave wa Nzambi kazolele muna yeto.\\nO S\u2019eto
+  ezulu ovwanga konso muntu muna yeto o mfunu. Ozolele vo twamfinama ye una y\u2019etima
+  dia kutusadisa. (Yakobo 4:8) Ekwe nsambu za kala ye lau dia finama Nzambi wa Se
+  dieto, ona \u201cowanga sambu!\u201d\u2014Nkunga 65:2.\\nNze se ozolanga wan\u2019andi,
+  Nzambi ozolele vo twamokenanga yandi\"", "\"Beto vutuka fioti na nima. Nehemia,
+  nsadi ya ntotila Artazeresesi, ke muntu ya Izraele yina vandaka kuzinga na mbanza
+  Shushane na Persia. Mpangi ya Nehemia katukaka na Yuda mpi nataka bansangu ya mbi:
+  \u2018Bantu yina vutukaka na Yeruzalemi kele ve na lutaninu. Bibaka ti bakielo ya
+  mbanza yina bantu ya Babilone fwaka, bo me yidikaka yo ve.\u2019 Nehemia waka makasi.
+  Yandi zolaka kukwenda na Yeruzalemi sambu na kupesa maboko, yo yina yandi sambaka
+  sambu ntotila kupesa yandi nswa.\\nNa nima, ntotila monaka nde Nehemia ke mawa-mawa.
+  Yandi tubaka nde: \u2018Me monaka nge ntete ve mutindu yai. Inki me bwa?\u2019 Nehemia
+  tubaka nde: \u2018Sambu na nki mu fwete vanda ve mawa-mawa kana mbanza na mu, Yeruzalemi,
+  kele ya kubeba?\u2019 Ntotila yulaka yandi nde: \u2018Nge ke zola nde mu sala nki
+  sambu na nge?\u2019 Na mbala mosi, Nehemia sambaka na nsi ya ntima. Ebuna yandi
+  tubaka nde: \u2018Pardo, pesa mu nzila ya kukwenda na Yeruzalemi sambu na kutunga
+  diaka bibaka na yo.\u2019 Ntotila Artazeresesi songaka Nehemia nde yandi lenda kwenda,
+  mpi bakaka bangidika sambu yandi vanda na lutaninu na nzietelo yina ya nda. Yandi
+  tulaka Nehemia guvernere ya Bayuda mpi pesaka yandi mabaya sambu na bakielo ya mbanza.\\nNtangu
+  Nehemia kumaka na Yeruzalemi, yandi talaka bibaka ya mbanza. Ebuna yandi vukisaka
+  banganga-nzambi ti bamfumu mpi songaka bo nde: \u2018Yo ke mawa. Beto fwete sala
+  kisalu.\u2019 Bantu ndimaka, mpi bo yantikaka kutunga diaka bibaka.\\nKansi ndambu
+  ya bambeni ya bantu ya Izraele sekaka bo, mpi tubaka nde: \u2018Mukengi lenda bwisa
+  kibaka yina beno ke tunga.\u2019 Bantu yina vandaka kutunga tulaka ve dikebi na
+  mafingu yina mpi bo landaka kutunga. Kibaka vandaka kukuma nda mpi ngolo.\\nBambeni
+  bakaka lukanu ya kukatuka na bandambu ya kuswaswana mpi kukwisa kunwanisa Yeruzalemi
+  na kintulumukina. Ntangu Bayuda waka mambu yina, bo waka boma. Kansi Nehemia tubaka
+  nde: \u2018Beno wa boma ve. Yehowa kele ti beto.\u2019 Yandi tulaka bankengidi sambu
+  na kutanina bantu ya kisalu, ebuna bambeni kukaka ve kunwanisa bo.\\nBo manisaka
+  kuyidika bibaka ti bakielo na nima ya bilumbu 52 mpamba. Nehemia nataka Balevi yonso
+  na Yeruzalemi sambu na nkinsi ya kukangula bakielo. Yandi yidikaka bo na bimvuka
+  ya bayimbi. Bo mataka na kibaka na bimatinu na Kielo ya Nto ya Masa mpi na nima
+  bo tambulaka na nziunga ya mbanza. Bo vandaka kubula bampungi, basembale, ti bakidare
+  mpi bo yimbilaka Yehowa. Esdrasi kwendaka ti kimvuka mosi, mpi Nehemia ti kimvuka
+  ya nkaka, tii kuna bo kutanaka na tempelo. Bantu yonso\u2014babakala, bankento,
+  mpi bana\u2014pesaka bimenga na Yehowa mpi salaka nkinsi. Makelele na bo ya kiese
+  vandaka kuwakana ntama.\"", "\"6 Na ntangu yina, ntotila Dariusi pesaka nsiku, ebuna
+  bo zikisaka na mikanda* kisika bo vandaka kutula bimvwama na Babilone. 2 Bo monaka
+  rulo mosi na kisika ya ngolo na Ekbatane, na provense* ya Media, mpi na rulo yina
+  bo sonikaka bangogo yai:\\n3 Na mvula ya ntete ya ntotila Sirusi, ntotila Sirusi
+  pesaka nsiku sambu na nzo ya Nzambi na Yeruzalemi+ nde: \u2018Bika nde bo tunga
+  diaka nzo yina sambu yo vanda kisika ya bo fwete pesaka bimenga, mpi bo fwete tula
+  bafondasio na yo na kisika na yo; nda na yo katuka na ntoto tii na zulu fwete vanda
+  maboko* 60, mpi nene na yo maboko 60,+ 4 ti bandonga tatu ya matadi ya nene mpi
+  ndonga mosi ya mabaya;+ mpi mbongo yina bo ta sadila, bika nde bo baka yo na nzo
+  ya ntotila.+ 5 Diaka, bika nde bo vutula malonga ya wolo ti ya arza ya nzo ya Nzambi
+  yina Nebukadenezare basisaka na tempelo yina vandaka na Yeruzalemi mpi nataka na
+  Babilone,+ sambu bo tula yo na kisika na yo na tempelo na Yeruzalemi mpi bo tula
+  yo na nzo ya Nzambi.\u2019+\\n6 Ntangu yai, Tatenai mfumu ya luyalu ya ntoto yina
+  kele na Simu ya Nzadi,* Shetare-bozenai, mpi bantu yina beno ke salaka ti bo, bamfumu
+  ya nkaka ya bambanza ya ntoto yina kele na Simu ya Nzadi+\u2014beno vanda ntama
+  ti kisika yina. 7 Beno kota ve na mambu ya kisalu ya nzo yina ya Nzambi. Mfumu ya
+  mbanza ya Bayuda ti bankuluntu ya Bayuda ta tunga diaka nzo yina ya Nzambi na kisika
+  yina yo vandaka ntete. 8 Diaka, mono ke pesa nsiku sambu na mambu yina beno fwete
+  sala sambu na bankuluntu yai ya Bayuda sambu na kutunga diaka nzo yina ya Nzambi:
+  Mbongo yina bo + fwete katuka na bimvwama ya ntotila,+ na mpaku yina bo me baka
+  na ntoto yina kele na Simu ya Nzadi. 9 Ebuna konso kima yina bo kele na yo mfunu\u2014bana-bangombe
+  ya babakala,+ mameme ya babakala,+ ti bana-mameme+ sambu na makabu ya kuyoka sambu
+  na Nzambi ya zulu, ble,+ mungwa,+ vinu,+ mpi mafuta,+ kaka mutindu banganga-nzambi
+  yina kele na Yeruzalemi me tuba\u2014bo fwete pesa bo yo mbala na mbala mpi konso
+  kilumbu kukonda kusukinina, 10 na mpila nde bo pesa mbala na mbala makabu yina ke
+  sepedisaka Nzambi ya zulu mpi bo samba sambu na luzingu ya ntotila mpi ya bana na
+  yandi.+ 11 Mono me pesa mpi nsiku nde kana muntu mosi kufwa nsiku yai, bo ta tumuna
+  dibaya mosi na nzo na yandi mpi bo ta tedimisa yandi mpi ta kangisa yandi na zulu
+  na yo,* ebuna bo ta kumisa nzo na yandi kabine ya bantu yonso* sambu na mbi yai.
+  12 Bika nde Nzambi yina salaka nde zina na yandi kuvanda kuna+ kukatula konso ntotila
+  mpi konso muntu yina ta nangula diboko sambu na kufwa nsiku yai mpi kufwa nzo yina
+  ya Nzambi ya kele na Yeruzalemi. Mono, Dariusi, muntu me pesa nsiku yai. Bika nde
+  yo salama kukonda kusukinina.\u201d\\n13 Ebuna, Tatenai mfumu ya mbanza ya ntoto
+  yina kele na Simu ya Nzadi, Shetare-bozenai,+ mpi bantu yina bo vandaka kusala ti
+  bo nataka kukonda kusukinina bima yonso yina ntotila Dariusi pesaka nsiku. 14 Bankuluntu
+  ya Bayuda landaka kutunga mpi kukwenda na ntwala,+ mpi bambikudulu ya mbikudi Agai+
+  mpi mbikudi Zekaria+ mutekolo ya Ido vandaka kupesa bo kikesa; bo manisaka kutunga
+  yo na nsiku ya Nzambi ya Izraele+ mpi na nsiku ya Sirusi,+ ya Dariusi,+ ti ya Artazeresesi+
+  ntotila ya Persia. 15 Bo manisaka nzo yina na kilumbu ya tatu ya ngonda ya Adare,*
+  na mvula ya sambanu ya luyalu ya ntotila Dariusi.\\n16 Ebuna bantu ya Izraele, banganga-nzambi,
+  Balevi,+ mpi bantu ya nkaka yina vandaka ntete bampika yantikaka kusadila* nzo yina
+  ya Nzambi na kiese. 17 Sambu na kuyantika kusadila nzo yina ya Nzambi, bo nataka
+  bangombe ya babakala 100, mameme ya babakala 200, bana-mameme 400, mpi bankombo
+  ya babakala 12 bonso dikabu sambu na disumu sambu na Izraele ya mvimba, na kuwakana
+  ti ntalu ya makanda ya Izraele.+ 18 Ebuna bo tulaka banganga-nzambi na bimvuka na
+  bo mpi Balevi na bimvuka na bo sambu na kisalu ya Nzambi na Yeruzalemi,+ na kuwakana
+  ti mambu yina bo me sonikaka na mukanda ya Moize.+\\n19 Ebuna bantu yina vandaka
+  ntete bampika salaka Paki na kilumbu ya 14 ya ngonda ya ntete.+ 20 Banganga-nzambi
+  yonso ti Balevi yonso kudikumisaka bunkete,+ ebuna bo yonso vandaka bunkete; bo
+  fwaka kimenga ya Paki sambu na bantu yonso yina vandaka ntete bampika, sambu na
+  bampangi na bo banganga-nzambi, mpi sambu na bo mosi. 21 Ebuna bantu ya Izraele
+  yina katukaka na kimpika mpi kwisaka kuvutuka, bo diaka yo, kumosi ti konso muntu
+  yina vukanaka * Yehowa Nzambi ya Izraele.+ 22 Bo salaka mpi na kiese yonso Nkinsi
+  ya Mampa ya Kukonda Levire+ bilumbu nsambwadi, sambu Yehowa salaka nde bo wa kiese
+  mpi yandi salaka nde ntima ya ntotila ya Asiria kundima bo,+ yo yina yandi sadisaka
+  bo* na kisalu ya nzo ya Nzambi ya kieleka, Nzambi ya Izraele.\"", "\"MO\u00cfSE
+  zolaka kukota na insi Kana kumosi na bana ya Israele. Yau yina yandi sambaka mutindu
+  yai: \u2018J\u00e9hovah, bika mono luta Yurdani mpi kumona insi yina.\u2019 Kansi
+  J\u00e9hovah kutubilaka yandi nde: \u2018Imene! Kutubila mono yau dyaka ve!\u2019
+  Sambu na nki J\u00e9hovah kutubaka mutindu yina?\\nYau kele sambu na mambu yina
+  kulutaka ntangu Mo\u00efse kubulaka ditadi. Na kilumbu yina, ata yandi, ata Aaron
+  kukumisaka ve J\u00e9hovah. Bau vilaka na kutubila bantu nde J\u00e9hovah muntu
+  kubasisaka masa na ditadi. Sambu na yau, J\u00e9hovah kuzabisaka bau nde bau takota
+  ve na Kana.\\nSambu na yau, mwa bangonda na nima ya lufwa ya Aaron, J\u00e9hovah
+  tubaka na Mo\u00efse nde: \u2018Baka Josu\u00e9, tedimisa yandi na ntwala ya nganga-Nzambi
+  Eleazar mpi na ntwala ya bantu yonso. Mpi tuba na ntwala na bau yonso nde Josu\u00e9
+  kele ntwadisi ya mpa.\u2019 Mo\u00efse salaka bonso J\u00e9hovah kutubaka. (Tala
+  kifwanisu.)\\nNa nima J\u00e9hovah tubaka na Josu\u00e9 nde: \u2018Vanda kikesa
+  na ngolo. Kele nge muntu takotisa bana ya Israele na Kana, insi ya mono silaka sambu
+  na bau, mpi mono tavanda na nge.\u2019\\nNa nima ya mwa ntangu, J\u00e9hovah tubaka
+  na Mo\u00efse nde yandi tombuka na Ngumba Nebo, na nseke ya Moab. Ntangu yandi kumaka
+  na nsongi, Mo\u00efse talaka na simu ya Nzadi Yurdani mpi yandi monaka insi ya kitoko
+  ya Kana. J\u00e9hovah tubilaka yandi nde: \u2018Tala ntoto ya mono silaka na kupesa
+  na nkuna ya Abraham, ya Isaac, mpi ya Jacob. Mono ketadisa nge yau kansi nge takota
+  ve kuna.\u2019\\nMo\u00efse fwaka na Ngumba Nebo. Yandi vandaka na bamvula 120.
+  Yandi vandaka kaka ngolo mpi meso na yandi vandaka kaka mbote. Bantu dilaka Mo\u00efse
+  bilumbu mingi. Kansi bau vandaka na kyese ya kuvanda na ntwadisi bonso Josu\u00e9.\\nKutanga
+  27:12-23; Kulonga 3:23-29; 31:1-8; 14-23; 32:45-52; 34:1-12.\\nBangyufula\\n- Tanga
+  bazina ya babakala zole yina metelama ti Moize na kifwanisu.\\n- Inki Yehowa kutubilaka
+  Yozue?\\n- Sambu na nki Moize kumataka na nsongi ya Ngumba ya Nebo, mpi nki Yehowa
+  kutubilaka yandi?\\n- Moize kuvandaka ti bamvula ikwa ntangu yandi fwaka?\\n- Sambu
+  na nki bantu vandaka na mawa, kansi nki kikuma bo vandaka na yo sambu na kuvanda
+  na kyese?\\nBangyufula ya ngika\\n- Tanga Kutanga 27:12-23.\\nInki mukumba ya nene
+  Yehowa kupesaka Yozue, mpi nki mutindu Yehowa kesungiminaka bantu na Yandi bubu
+  yai? (Kut. 27:15-19; Bis. 20:28; Baeb. 13:7)\\n- Tanga Kulonga 3:23-29.\\nSambu
+  na nki Yehowa kupesaka ve Moize ti Aroni nzila ya kukota na ntoto ya lusilu, mpi
+  nki dilongi beto lenda baka na disolo yai? (Kul. 3:25-27; Kut. 20:12, 13)\\n- Tanga
+  Kulonga 31:1-8, 14-23.\\nInki mutindu bangogo ya nsuka yina Moize kutubilaka bantu
+  ya Izraele kemonisa nde yandi ndimaka disipline ya Yehowa na kudikulumusa yonso?
+  (Kul. 31:6-8, 23)\\n- Tanga Kulonga 32:45-52.\\nInki mutindu Ndinga ya Nzambi fwete
+  vanda na bupusi na luzingu na beto? (Kul. 32:47; Levi 18:5; Baeb. 4:12)\\n- Tanga
+  Kulonga 34:1-12.\\nAta Moize kumonaka ve Yehowa kimuntu-kimuntu, inki Kulonga 34:10
+  kemonisa na yina metala bangwisana na yandi ti Yehowa? (Kub. 33:11, 20; Kut. 12:8)\"",
+  "\"INKI beno kemona awa? Kibuka ya bakavalo na zulu ya bampunda ya mpembe. Bampunda
+  yai mekatuka na zulu na kutambulaka ntinu na matuti! Keti kele mpenza ti bampunda
+  na zulu? Ikele ve.\\nYau kele bampunda ya kyeleka ve. Mpunda lenda baka ve ntinu
+  na matuti. Kansi, Bible ketubila beto nde bampunda kele na zulu. Sambu na inki?\\nYau
+  kele sambu na ntangu ya ntama, bau vandaka kusadila bampunda sambu na mvita. Na
+  yau kana Bible ketubila beto sambu na bampunda mpi bakavalo kekulumuka na zulu,
+  yau kele sambu na kusonga nde Nzambi tanwana mvita na ntoto. Kisika yau tavanda
+  kebingama Armagedon. Mvita yina tasukisa mambi na ntoto.\\nYezu muntu tatwadisa
+  mvita yai ya Armagedon. Beno yibuka nde J\u00e9hovah kusolaka Yezu sambu na kuvanda
+  ntotila ya luyalu na Yandi. Tala sambu na nki yandi kele na mpu ya kintotila. Mbele
+  ketendula nde yandi tafwa bambeni ya Nzambi. Na yau, Nzambi tafwa bantu yonso ya
+  mbi. Keti yau keyitukisa beno?\\nBeno vutuka na Nkenda ya 10. Inki beno kemona na
+  kifwanisu? Mvula ya Ngolo yina kufwaka bantu ya mbi. Nani kunokisaka yau? J\u00e9hovah
+  Nzambi. Inki beno kemona na kifwanisu ya Nkenda ya 15? Lufwa ya Sodome na Gomore
+  na tiya yina J\u00e9hovah kutindaka.\\nBeno baka Nkenda ya 33. Beno kemona mambu
+  yina kebwila bampunda mpi bapusupusu ya bitumba ya bantu ya Egypte? Nani vukisaka
+  masa na kati na yau? Yau kele J\u00e9hovah, yina zolaka kugulusa kikanda na yandi.
+  Mpi Nkenda ya 76 kelonga beno inki? J\u00e9hovah kepesa nswa nde kikanda na yandi,
+  bantu ya Izraele, kufwa sambu na mambi na bo.\\nNa yau, beno yituka ve sambu J\u00e9hovah
+  kezola kutinda basoda na yandi ya zulu sambu na kusukisa mambi na ntoto. Beto tala
+  ntangu yai mambu yina tabwa na nima.\"", "\"6 Na ntangu yina Salomo tubaka nde:
+  \u201cYehowa tubaka nde yandi ta zinga na mpimpa ya ngolo.+ 2 Ntangu yai, mono me
+  tungila nge nzo ya lukumu, kisika ya ngolo yina nge ta zingaka kimakulu.\u201d+\\n3
+  Ebuna ntotila balukaka mpi yantikaka kusakumuna dibundu ya mvimba ya Izraele, mpi
+  dibundu ya mvimba ya Izraele vandaka ya kutelama.+ 4 Yandi tubaka nde: \u201cBika
+  nde bo kumisa Yehowa Nzambi ya Izraele, muntu yina na munoko na yandi mosi silaka
+  tata na mono Davidi, mpi yina me lungisa yo na maboko na yandi mosi, nde: 5 \u2018Yantika
+  kilumbu yina mono basisaka bantu na mono na insi ya Ezipte, mono me solaka ve ata
+  mbanza mosi na makanda yonso ya Izraele sambu na kutunga nzo sambu zina na mono
+  kubikala kuna,+ mpi mono me solaka ve muntu mosi sambu yandi kuma ntwadisi ya bantu
+  na mono Izraele. 6 Kansi mono me solaka Yeruzalemi+ sambu zina na mono kubikala
+  kuna, mpi mono me solaka Davidi sambu yandi yala bantu na mono Izraele.\u2019+ 7
+  Mpi nzala ya ntima ya tata na mono Davidi vandaka ya kutunga nzo sambu na zina ya
+  Yehowa Nzambi ya Izraele.+ 8 Kansi Yehowa tubilaka tata na mono Davidi nde, \u2018Nzala
+  ya ntima na nge vandaka ya kutunga nzo sambu na zina na mono, mpi nge salaka mbote
+  na kuvanda ti nzala yai na ntima na nge. 9 Ata mpidina, nge ta tunga ve nzo yina,
+  kansi mwana na nge yina nge ta buta,* yandi muntu ta tunga nzo sambu na zina na
+  mono.\u2019+ 10 Yehowa me lungisa mambu yina yandi silaka, sambu mono me yingaka
+  tata na mono Davidi mpi mono me vanda na kiti ya kimfumu ya Izraele,+ kaka mutindu
+  Yehowa silaka.+ Mono me tunga mpi nzo sambu na zina ya Yehowa Nzambi ya Izraele,
+  11 mpi kuna mono me tula Sanduku yina kele ti kuwakana+ yina Yehowa salaka ti bantu
+  ya Izraele.\u201d\\n12 Na nima, yandi telamaka na ntwala ya mesa-kimenga ya Yehowa
+  na meso ya dibundu ya mvimba ya Izraele, mpi yandi tandulaka maboko na zulu.+ 13
+  (Sambu Salomo salaka estrade ya kwivre mpi tulaka yo na kati-kati ya kibansala.*+
+  Yo vandaka nda maboko* tanu, nene maboko tanu, mpi maboko tatu katuka na ntoto tii
+  na zulu; mpi yandi telamaka na zulu na yo.) Yandi fukamaka na ntwala ya dibundu
+  ya mvimba ya Izraele mpi yandi tandulaka maboko na zulu,+ 14 mpi yandi tubaka nde:
+  \u201cO Yehowa Nzambi ya Izraele, kele ve ti Nzambi bonso nge na zulu to na ntoto,
+  yina ke taninaka kuwakana mpi ke monisaka zola ya kwikama na bansadi na nge yina
+  ke tambulaka na ntwala na nge na ntima na bo ya mvimba.+ 15 Nge me lungisa mambu
+  yina nge silaka na nsadi na nge Davidi tata+ na mono. Nge silaka na munoko na nge
+  mosi, mpi bubu yai nge me lungisa yo na maboko na nge mosi.+ 16 Ntangu yai, O Yehowa
+  Nzambi ya Izraele, lungisa mambu yina nge silaka na nsadi na nge Davidi, tata na
+  mono, ntangu nge tubaka nde: \u2018Ntangu yonso yo ta vandaka ti muntu mosi ya dibuta
+  na nge na ntwala na mono sambu na kuvanda na kiti ya kimfumu ya Izraele, kana bana
+  na nge kutula dikebi na nzila na bo mpi bo zitisa nsiku na mono,+ kaka mutindu nge
+  tambulaka na ntwala na mono.\u2019+ 17 Ntangu yai, O Yehowa Nzambi ya Izraele, bika
+  nde mambu yina nge silaka na nsadi na nge Davidi kulungana.\\n18 \u201cKansi, keti
+  Nzambi ta zinga kibeni ti bantu na ntoto?+ Tala! Zulu, ee, zulu ya zulu, lenda kuka
+  nge ve;+ ebuna nzo yai ya mono me tunga ta kuka nge ve ata fioti!+ 19 Ntangu yai,
+  tula dikebi na kisambu ya nsadi na nge mpi na diambu yina yandi ke lomba sambu nge
+  wila yandi mawa, O Yehowa Nzambi na mono, mpi wa kudila na mono sambu na kulomba
+  lusadisu mpi kisambu yina nsadi na nge ke sala na ntwala na nge bubu yai. 20 Bika
+  nde meso na nge kuvanda ya kukanguka na ndambu ya nzo yai mpimpa ti mwini, na ndambu
+  ya kisika yina nge tubaka nde nge ta tula zina na nge,+ sambu na kuwa kisambu yina
+  nsadi na nge ke sala na ndambu ya kisika yai. 21 Mpi wa mambu yina nsadi na nge
+  ke lomba sambu nge sadisa yandi mpi mambu yina bantu na nge Izraele ke lomba ntangu
+  bo ke samba na ndambu ya kisika yai,+ mpi bika nde nge wa katuka na kisika yina
+  nge ke zingaka, kuna na zulu;+ ee, bika nde nge wa mpi nge lolula.+\\n22 \u201cKana
+  muntu kusala disumu na ntwala ya nkweno na yandi ebuna bo lomba yandi na kudia ndefi*
+  mpi bo tula yandi na nsi ya kiyeka ya ndefi* yina, ebuna ntangu yandi kele na nsi
+  ya ndefi* yina, yandi kwisa na ntwala ya mesa-kimenga na nge na nzo yai,+ 23 wa
+  kuna na zulu, sala, sambisa bansadi na nge, mpi vutudila muntu ya mbi mbi na yandi
+  mpi tula mambu yina yandi salaka na zulu ya ntu na yandi,+ mpi zenga nde muntu ya
+  lunungu me sala mbi ve* mpi futa yandi na kutadila lunungu na yandi.+\\n24 \u201cKana
+  mbeni me bedisa bantu na nge Izraele sambu bo landaka kusala masumu na ntwala na
+  nge,+ ebuna bo vutukila nge, bo pesa zina na nge nkembo,+ bo samba,+ mpi bo bondila
+  nge na nzo yai sambu nge wila bo mawa,+ 25 wa kuna na zulu,+ lolula disumu ya bantu
+  na nge Izraele, mpi vutula bo na ntoto yina nge pesaka bo mpi ba-nkaka na bo.+\\n26
+  \u201cKana zulu kukangama mpi mvula ke noka diaka ve+ sambu bo landaka kusala masumu
+  na ntwala na nge,+ ebuna bo samba na ndambu ya kisika yai, bo pesa zina na nge nkembo,
+  mpi bo yambula disumu na bo sambu nge kulumusaka bo,*+ 27 wa kuna na zulu mpi lolula
+  disumu ya bansadi na nge, ya bantu na nge Izraele, sambu nge ta longa bo nzila ya
+  mbote yina bo fwete tambula;+ mpi nokisa mvula+ na ntoto na nge yina nge pesaka
+  bantu na nge bonso dikabu.\\n28 \u201cKana nzala me kota na ntoto,+ to kipupa,+
+  mwini ya ngolo, madia me bwa lubungi,+ bampasu ya ke tambulaka na kimvuka, to bampasu
+  ya lukasi;*+ to kana bambeni na bo me kwisa kuziunga bo na konso mbanza ya insi
+  yai,*+ to kana mpasi to maladi ya konso mutindu yina me kota,+ 29 konso kisambu,+
+  konso diambu yina konso muntu to bantu na nge yonso ya Izraele ta lomba sambu nge
+  wila bo mawa+ (sambu konso muntu me zaba mpasi na yandi mpi diambu ya ke niokula
+  yandi)+ ntangu bo ke tandula maboko na bo na ndambu ya nzo yai,+ 30 wa kuna na zulu,
+  kisika yina nge ke zingaka,+ mpi lolula;+ futa konso muntu na kutadila banzila na
+  yandi yonso, sambu nge me zaba ntima na yandi (nge mpamba muntu me zaba kibeni ntima
+  ya muntu),+ 31 sambu bo wa nge boma mpi bo tambula na banzila na nge bilumbu yonso
+  ya bo ke zinga na insi yina nge pesaka ba-nkaka na beto.\\n32 \u201cDiaka, sambu
+  na munzenza yina kele ve na kati ya bantu na nge Izraele mpi yina me katuka na insi
+  ya ntama sambu na zina* na nge ya nene,+ diboko na nge ya ngolo, mpi diboko na nge
+  ya kutandula, ebuna yandi kwisa mpi yandi samba na ndambu ya nzo yai,+ 33 wa kuna
+  na zulu, kisika yina nge ke zingaka, mpi sala mambu yonso yina munzenza ke lomba
+  nge, sambu bantu yonso ya ntoto kuzaba zina na nge+ mpi kuwa nge boma, mutindu bantu
+  na nge Izraele ke waka nge boma, mpi bo zaba nde bo ke bingaka zina na nge na nzo
+  yai ya mono me tunga.\\n34 \u201cKana bantu na nge kukwenda na bitumba sambu na
+  kunwana ti bambeni na bo na nzila yina nge me tinda bo,+ mpi bo samba+ nge na ndambu
+  ya mbanza yai ya nge me solaka mpi na ndambu ya nzo yina mono me tunga sambu na
+  zina na nge,+ 35 wa kuna na zulu kisambu na bo mpi diambu ya bo ke lomba sambu nge
+  wila bo mawa mpi zenga mambu sambu na mambote na bo.+\\n36 \u201cKana bo sala disumu
+  na ntwala na nge (sambu kele ve ti muntu yina ke salaka ve masumu),+ ebuna nge wila
+  bo makasi mpi nge yambula bo na maboko ya mbeni, mpi bantu yina me kanga bo kunata
+  bo na kimpika na insi mosi, ya ntama to ya pene-pene,+ 37 mpi bo vutukila mabanza
+  na bo na insi yina bo nataka bo na kimpika, bo vutukila nge, mpi bo bondila nge
+  na insi yina bo kele bampika sambu nge wila bo mawa, mpi bo tuba nde, \u2018Beto
+  me sala masumu, mpi beto me sala mbi; beto me sala mambu na mutindu ya mbi,\u2019+
+  38 ebuna bo vutukila nge na ntima na bo ya mvimba+ ti na moyo* na bo ya mvimba na
+  insi ya kimpika+ na bo kisika bo nataka bo na kimpika, mpi bo samba na ndambu ya
+  insi na bo yina nge pesaka na ba-nkaka na bo, ya mbanza yina nge me solaka,+ mpi
+  ya nzo yina mono me tunga sambu na zina na nge, 39 wa kuna na zulu, kisika yina
+  nge ke zingaka, kisambu na bo mpi diambu ya bo ke lomba sambu nge wila bo mawa,
+  mpi zenga mambu sambu na mambote na bo+ mpi lolula bantu na nge yina salaka disumu
+  na ntwala na nge.\\n40 \u201cNtangu yai, O Nzambi na mono, pardo, bika nde meso
+  na nge kuvanda ya kukanguka mpi makutu na nge kutula dikebi na kisambu yina bo ke
+  sala na* kisika yai.+ 41 Ntangu yai, O Yehowa Nzambi, tombuka na kisika na nge ya
+  kupema,+ nge ti Sanduku ya ngolo na nge. O Yehowa Nzambi, bika nde banganga-nzambi
+  na nge kulwata luguluku, mpi bika nde bantu na nge ya kwikama kuwa kiese na bumbote
+  na nge.+ 42 O Yehowa Nzambi, kubuya ve* muntu yina nge me tulaka mafuta.+ Bika nde
+  nge yibuka zola na nge ya kwikama na nsadi na nge Davidi.\u201d+\"", "\"\u2018Ngina
+  ye vuvu kiamonana yeno vava ikwenda kuna Espanha, se nwenda kumfila kimana yakala
+  ye kiese kia kangala yeno mu fikolo.\u2019\u2014Roma 15:24.\\nPAULU wa ntumwa wasoneka
+  mvovo miami kwa mpangi zandi z\u2019Akristu kuna Roma muna mvu wa 56 wa tandu kieto.
+  Nkand\u2019a Nzambi ke uyikanga ko kana vo Paulu wayenda kikilu kuna Espanha. Diakala
+  vo mu ngolo za Paulu yovo z\u2019Akristu akaka bakala misionario, e nsangu zambote
+  za Diambu dia Nzambi zalwaka kuna Espanha muna tandu kiazole kia tandu kieto.\\nKuna
+  kwalanda, nkutakani za Kikristu zayantika nungunuka yo wokela kuna Espanha. Muna
+  kuma kiaki, diavavanga vo Nkand\u2019a Nzambi wasekolwa muna ndinga Latim. Kadi
+  muna tandu kiazole kia tandu kieto e nsi a Espanha mu wisa kia luyalu lwa Roma yakala,
+  Latim i ndinga yatoma vovwanga.\\nNSEKOLA YA NKAND\u2019A NZAMBI MUNA NDINGA LATIM
+  YALUNGISA E NSATU ZA WANTU\\nAkristu kuna Espanha basekola kopi yayingi ya Nkand\u2019a
+  Nzambi muna ndinga Latim yayikilwanga vo Vetus Latina Espanhol. E kopi yayi, yamwangana
+  kuna Espanha vitila nsekola ya Jer\u00f4nimo yayikilwanga vo Vulgata latina yavaika
+  muna tandu kia tanu kia tandu kieto.\\nJer\u00f4nimo wafokola e nsekol\u2019andi
+  kuna Beteleme ya Palestina yo mwangana mu nzaki kuna Espanha. Vava Lucinius wa nlongoki
+  a Nkand\u2019a Nzambi kaw\u00e1 vo Jer\u00f4nimo Nkand\u2019a Nzambi kasekolanga
+  muna ndinga Latim, wazola vwa kopi kimosi kia nsekola yayina. Muna kuma kiaki, watuma
+  asoneki sambanu kuna Beteleme kimana bavanga kopi kia nsekola yayina yo nata kio
+  kuna Espanha. Muna mvu mialanda, e nsekola ya Vulgata latina yaluta sadilwa ke mu
+  nsekola ya Vetus Latina Espanhol ko. E nsekola zazi za ndinga Latim, zasadisa esi
+  Espanha mu bakula nsangu za Nkand\u2019a Nzambi. Kansi, vava luyalu lwa Roma lwafokoka,
+  vavaika nding\u2019ampa.\\nNKAND\u2019A NZAMBI WASONEKWA MU BABU YA MATADI\\nMuna
+  tandu kia tanu, e kanda dia Visigodos ye makanda makaka ma Alemanha bakutumuna nsi
+  a Espanha yo kotesa ndinga g\u00f3tica muna nsi yayina. Makanda mama masambilanga
+  nsambila yayikilwanga vo Arianismo, asambidi awaya ke bakwikilanga mu longi dia
+  nzambi mu ntatu ko. Bakala mpe ye nsekola au ya Nkand\u2019a Nzambi yayikilwanga
+  vo Ulfilas Gothic Bible. Nkangu kuna Espanha batanga nsekola yayi yakuna mfoko a
+  tandu kia sambanu vava Recaredo wa ntinu a kanda dia Visigodos kakota muna dibundu
+  dia Katolika yo bembola nsambila ya Arianismo. Recaredo wafwasa nkanda miawonso
+  mia ndinga Ariano kumosi ye nsekola ya Ulfilas Gothic Bible. Muna kuma kiaki, nkanda
+  miawonso mia ndinga g\u00f3tica miavila kuna Espanha.\\nKana una vo i wau, e Diambu
+  dia Nzambi diakwamanana mwangana kuna Espanha. Katula e ndinga g\u00f3tica vakala
+  ye ndinga ya latim yavovwanga kuna Espanha, muna ndinga yayi i mwatuka ndinga zakaka
+  za Roma zivovwanga kuna Pen\u00ednsula Ib\u00e9rica. * E nkanda miankulu mia ndinga
+  yayi miayikilwanga vo Las pizarras visigodas, kadi mu babu ya matadi miasonekenwa.
+  E nkanda miami miasonekwa muna tandu kia sambanu ye nsambwadi, mu fulu yakaka muna
+  ye sono yakaka ya Nkunga ye Nsangu Zambote basoneka antumwa. Muna tadi dimosi mwasonekwa
+  kapu kiamvimba kia 16 kia nkand\u2019a Nkunga.\\nE sono yayi ya Nkand\u2019a Nzambi
+  i ziku kisonganga vo wantu muna ntangwa yayina batanganga yo bandula Diambu dia
+  Nzambi. Nanga alongi a sikola basadilanga sono ya Nkand\u2019a Nzambi muna longa
+  aleke o tanga yo soneka. Nswaswani ye ngungu zafwanga ntalu ayingi zina mpelo basadilanga
+  muna sekola Nkand\u2019a Nzambi mina basianga e fwaniswa, e babu ya matadi ke yakala
+  ntalu ayingi ko.\\nImosi muna nsekola zazi za Nkand\u2019a Nzambi yasiwa e fwaniswa,
+  ina muna nzo a nzambi ya San Isidoro kuna Le\u00f3n, Espanha. Nsekola yayi ya mvu
+  wa 960 wa tandu kieto, ina ye 516 dia makaya, 47 ma Cm muna lambuka, 34 ma Cm muna
+  vula ye 18 dia yilo. E nsekola yakaka yasiwa muna elundilu dia Vaticano i Bible
+  of Ripoll, nanga yasekolwa muna mvu wa 1020 wa tandu kieto. E nsekola yayi ya mvu
+  wa 500 yakuna mvu wa 1500, i imosi muna zina zatoma siwa e fwaniswa. Muna sala salu
+  kiaki, diavavanga vo nsekodi kaviokesa lumbu kiamvimba muna vanga e sono kiantete
+  yovo lumingu lwamvimba muna kubika ntu a diambu wa lukaya. Wau vo nkanda miami ntalu
+  ayingi miafwanga, ke miasadisa kwayingi ko mu mwanganesa e Diambu dia Nzambi kwa
+  wantu.\\nNKAND\u2019A NZAMBI MUNA NDINGA \u00c1RABE\\nMuna tandu kia nana, asambidi
+  a Isl\u00e3o banwanisa yo kutumuna nsi ya Espanha yo kotesa ndinga akaka muna nsi
+  yayina. Muna zunga ina esi Mu\u00e7ulmano batuminanga, wantu balutanga vova ndinga
+  Ar\u00e1be ke mu ndinga Latim ko. Muna kuma kiaki, diavavanga vo Nkand\u2019a Nzambi
+  wasekolwa muna ndinga \u00c1rabe.\\nO Nkand\u2019a Nzambi muna ndinga Latim ye \u00c1rabe
+  wasadisa nkangu a Espanha mu tanga Diambu dia Nzambi tuka muna tandu kia tanu yamuna
+  tandu kia nana\\nNsekola zayingi za Nkand\u2019a Nzambi za ndinga \u00c1rabe musungula
+  Nsangu Zambote antumwa, basoneka zamwangana kuna Espanha. Nanga muna tandu kia nana
+  o bispo John wa mwisi Sevilha i ntangwa ina kasekola Nkand\u2019a Nzambi muna ndinga
+  Ar\u00e1be. Diankenda kikilu wau vo nsekola zayingi muna ndinga yayi zavila. Imosi
+  muna nsekola a\\nNsangu Zambote antumwa basoneka ya ndinga \u00c1rabe ya tandu kia
+  kumi, yasiwa muna lundilu dia Le\u00f3n kuna Espanha.NKAND\u2019A NZAMBI MUNA NDINGA
+  ESPANHOL WAVAIKISWA\\nMuna kolo kia mvu wa 500 yakuna mvu wa 1500, e ndinga Castelhano
+  yovo Espanhol yamwangana diaka kuna Espanha. E ndinga yayi yasadisa muna mwanganesa
+  e Diambu dia Nzambi. * La Fazienda de Ultra Mar i nsekola yantete yavaikiswa muna
+  ndinga Espanhol muna lubantiku lwa tandu kia 13. E nsekola yayi ina yo lusansu lwa
+  nkangalu a nkangu a Isaele, nkanda tatu miantete mia Nkand\u2019a Nzambi ye nkanda
+  miakaka mia sono ya Kiyibere, kumosi ye Nsangu Zambote basoneka antumwa.\\nMfumu
+  zayingi za mabundu ke bayangalela nsekola yayina ko. Muna mvu wa 1234, e kimvuka
+  kia mfumu za mabundu kiyikilwanga vo Tarragona kiabaka e nzengo vo nsekola zawonso
+  za Nkand\u2019a Nzambi muna ndinga za kingutukila zifwete fwaswa. Diakiese vo e
+  nzengo zazi ke za sima salu kia sekola Nkand\u2019a Nzambi ko. O Ntinu Alfonso X
+  (1252-1284) obadikilwanga vo yandi wasoka masono ma ndinga Espanhol, wazola vo sono
+  ya Nkand\u2019a Nzambi yasekolwa mu nding\u2019ampa ye wafuta nzimbu mu kuma kia
+  salu kiaki. Muna nsekola zazi za ndinga Espanhol mwakala ye nsekola ya Pre-Alfonsine
+  Bible. I bosi, e nsekola A B\u00edblia Afonsina yavinga vana fulu kiandi ye toma
+  zayakana.\\nE nsekola zazi, zasadisa mu toma sikidisa e ndinga Espanhol. Thomas
+  Montgomery wa nkwa ngangu wavova mu kuma kia nsekola ya Nkand\u2019a Nzambi ya Pre-Alfonsine
+  vo: \u201cNdiona wasekola nsekola yayi salu kiambote kavanga . . . Wasadila mvovo
+  mialeboka ye miaki\u00e1 muna sadisa awonso ke batoma zaya ndinga ya Latim ko.\u201d\\nE
+  nsekola zantete za Nkand\u2019a Nzambi muna ndinga Espanhol ke zasekolwelwa mu ndinga
+  Kiyibere ko ngatu Kingerekia, kansi mu nsekola ya Vulgata latina zasekolwelwa. Tuka
+  muna tandu kia 14, akwa ngangu Ayuda basekola nsekola zayingi za Sono ya Kiyibere
+  muna ndinga Espanhol tuka muna ndinga a Kiyibere. Kuna kwalanda, e nsi ya Espanha
+  yakala ye mavata ma Yuda vioka nsi zakaka za mputu. Asekodi Ayuda bakala ye sono
+  ya moko ya Kiyibere muna sala e salu kiau kia sekola. *\\nImosi muna nsekola zazi
+  i Alba Bible, yafokoka muna tandu kia 15. Luis de Guzm\u00e1n wa nkwa etunda wa
+  mwisi Espanha, wavana kiyekwa kia sekola Nkand\u2019a Nzambi muna ndinga castizo
+  (Espanhol) kwa Mois\u00e9s Arragel wa nlongi a dibundu. Wayika kuma yole yamfila
+  mu vangisa salu kiaki. Wavova vo, entete: \u201cE nsekola za ndinga Roma zisadilwanga
+  o unu ke za ziku ko.\u201d Dianzole, \u201cTuvwidi o mfunu a sono (notas marginais)
+  isasilanga e sono ina ke tutoma bakulanga ko.\u201d E ndomb\u2019andi i ziku kisonganga
+  vo wantu muna lumbu yayina bakala ye luzolo lwa tanga yo bakula Nkand\u2019a Nzambi.
+  Ediadi disonganga mpe vo e nsekola za Nkand\u2019a Nzambi muna ndinga kingutukila
+  zamwangana kuna Espanha muna ntangwa yayina.\\nMuna lusadilu lwa asekodi y\u2019asoneki
+  awaya, nkangu kuna Espanha batanganga Nkand\u2019a Nzambi muna nding\u2019au a kingutukila.
+  Muna kuma kiaki, Juan Orts Gonz\u00e1lez wa nzingudi a lusansu wavova vo: \u201cWantu
+  kuna Espanha batoma zaya Nkand\u2019a Nzambi lutila esi Alemanha ye Inglaterra vitila
+  lumbu ya Luther.\u201d\\n\u201cWantu kuna Espanha batoma zaya Nkand\u2019a Nzambi
+  lutila esi Alemanha ye Inglaterra vitila lumbu ya Luther.\u201d\u2014Juan Orts Gonz\u00e1lez
+  wa nzingudi a lusansu\\nKuna mfoko a tandu kia 15, afidi a dibundu dia Katolika
+  kuna Espanha bakanikina vo ka vena muntu ko ofwete kala yo Nkand\u2019a Nzambi ngatu
+  sekola wo muna konso ndinga. Muna kuma kiaki, Nkand\u2019a Nzambi wasimwa mu mvu
+  miayingi kuna Espanha. Muna kolo kiakina kiampasi, asekodi akete kaka a unkabu bakala
+  mu nsi zakaka bavanga nsekola muna ndinga Espanhol yo kotesa zo kuna Espanha muna
+  kinsweki. *\\nLusansu lwalu lusonganga vo atantu bavanga mawonso muna fukisa emvimba
+  e Diambu dia Nzambi. Kansi, ke mosi ko muna yau walenda fukisa Diambu dia Mpungu-ngolo.\u2014Nkunga
+  83:1; 94:20.\\nAkwa ngangu ayingi basala salu kia sekola yo vema kwawonso yo mwanganesa
+  Diambu dia Nzambi kuna Espanha. O unu, awana besalanga salu kiasekola, betangininanga
+  asekodi awaya basekola Sono ya Nkand\u2019a Nzambi muna ndinga Latim, G\u00f3tica
+  ye \u00c1rabe kuna Espanha. Muna kuma kiaki, wantu ayingi unu bevovanga Espanhol
+  betangilanga Diambu dia Nzambi muna nding\u2019au a kingutukila, ediadi disimbanga
+  ntima miau.\"", "\"\u2018Tumonasananu nkinza befu na befu. . . , vayi tukikindasananga
+  befu na befu mu kuzaba ti kilumbu ki Mfumu kima fikama.\u2019\u2014EBELEO 10:24,
+  25.\\nMINKUNGA: 90, 87\\n1. Kibila mbi mvwala Polo kakambila basi Ebeleo bakindasananga
+  bawu na bawu?\\nMU MBANDU yitheti, mvwala Polo wuvana basi Ebeleo dilongi adidi:
+  \u2018Tumonasananu nkinza befu na befu mwingi tuyikindasana mu luzolo ayi mavanga
+  mambote, tubika tinanga zikhutukunu dedi bumvangila batu bankaka, vayi tukikindasananga
+  befu na befu mu kuzaba ti kilumbu ki Mfumu kima fikama.\u2019 (Ebeleo 10:24, 25)
+  Zikhomba \u1e3fba bayiyuvusa kibila mbi mvwala Polo kabakambila mwingi babwela kuyikindasana
+  bawu yi bawu. Bo vavyoka mimvu mitanu, bosi bayiza zaba kibila mvwala Polo kaba
+  sonikina mawu. Mu thangu beni, bawu bayiza zaba ti kilumbu ki lufundusu lu Yave
+  kwidi divula di Yelusalemi kiba fikama. Babakula ti mwingi bavuka, baba tombila
+  kubika divula di Yelusalemi dedi bo Yesu kaba kambila. (Luka 21:20-22; Mavanga 2:19,
+  20) Kilumbu ki lufundusu lu Yave kiyiza mu mvu 70, mu thangu basi Loma batulula
+  divula di Yelusalemi.\\n2. Kibila mbi tufweti luta tomba kukindisana befu na befu
+  bubu?\\n2 Bubu, befu mvitu twidi mu kuvyokila mu mambu ma phila ayoyo. Kilumbu ki
+  nganzi yi Yave kima fikama. (Yoeli 2:11) Mambu mbikudi Sefania kabikula madi mvandi
+  ndandu mu thangu\u2019itu: \u2018Kilumbu kinnene ki Yave kima fikama, kiawu kima
+  fikama ayi kiawu kidi mu kwiza mu nswalu!\u2019 (Sefania 1:14) Diawu, tufweti \u2018monasananu
+  nkinza befu na befu mwingi tuyikindasana mu luzolo ayi mavanga mambote.\u2019 (Ebeleo
+  10:24, tala matangu madi va wanda mu nwt-TPO) Befu tufweti luta vwa zikhomba zitu
+  nkinza mwingi kuba kindisa mu thangu bawu bantomba khindusulu.\\nNANI WUNTOMBA KHINDUSULU?\\n3.
+  Mbi mwala Polo katuba mu matedi kukindasananga? (Tala fikula yidi va thonono dilongi.)\\n3
+  \u2018Mabanza mawombo mamfyetikisanga ntima wu mutu, vayi dyambu dimbote dinkwangidikanga
+  ntima.\u2019 (Zingana 12:25) Yoso kwa thangu befu boso tuntombanga khindusulu. Polo
+  wumonisa ti batu badi kiyeku ki kukindisa bankaka, mvawu bafweti bakanga khindusulu.
+  Nandi wusonika kwidi zikhomba ziba ku Loma: \u2018Phwila yiwombo yidi yama yi kulumona
+  mwingi yilutudisila dikaba di kipheve mu dyambu luba bakinda; voti mwingi tubombasana
+  va kimweka mu kiminu twidi, beno ayi minu.\u2019 (Loma 1:11, 12) Tulenda tuba mvandi
+  ti khumbu zinkaka mvwala Polo waba tomba khindusulu.\u2014Tanga Loma 15:30-32.\\n4,
+  5. Banani tulenda kindisa bubu ayi mu kibila mbi?\\n4 Bubu, tulenda kindisa bo badi
+  mu kisalu ki thangu ka thangu, ayi mintwami ntwala. Kibila bawombo mu bawu babika
+  bima biwombo baba zolanga mwingi kukota mu kisalu ki ntwami ntwala. Tulenda kindisa
+  mvandi ba misyoni, minsungi mi mavula ayi bakazi bawu, bansadilanga ku Beteli ayi
+  mu bibwangu bansekudilanga bilongulu bitu (RTO). Zikhomba beni babika bisalu biwombo
+  mwingi babwela kukivana mu kisalu ki Yave. Diawu tufweti bakindisilanga. Vadi mvandi
+  bankaka batidi kuba mu kisalu ki thangu ka thangu, vayi basi ko bu kubwe bela muawu.
+  Zikhomba beni mvawu bamvutulanga matondo ba kubaka khindusulu yimfumina kwidi zikhomba
+  zinkaka.\\n5 Nani wunkaka wuntomba khindusulu\u2019itu? Tulenda kindisa zikhomba
+  ziwombo zi babakala ayi zi bakyeto basola kukadila bobo mu khambu kwela mwingi kutumamana
+  nsiku wu Yave wu \u2018kukwedila to mu Mfumu.\u2019 (1 Kolinto 7:39) Bakazi bankinduswanga
+  beni bo banuni bawu ba kubakambanga ti baba zolanga ayi bantondanga mamoso bamvanganga.
+  (Zingana 31:28, 31) Baklisto bankindama mu kimbevo ki ngolo ayi mu zithotolo mu
+  kibila ki kiminu kiawu, mvawu tufweti kuba kindisa. (2 Tesalonika 1:3-5) Yave ayi
+  Yesu bankindisanga baboso bakwikama.\u2014Tanga 2 Tesalonika 2:16, 17.\\nBAKHULUTU
+  BA KIMVUKA BALENDA KUTUKINDISA\\n6. Mbi matangu ma Yesaya 32:1, 2 matulonga matedi
+  kiyeku ki bakhulutu ba kimvuka?\\n6 Tanga Yesaya 32:1, 2. Befu twidi mu kuzingila
+  mu bilumbu bi phasi ayi yosokwa thangu mutu kalenda ba mu nganzi voti mu kyunda
+  ayi kuvonga. Yesu Klisto wunsadilanga Baklisto basolwa ayi \u2018bana ba ntinu\u2019
+  voti bakhulutu ba kimvuka bakwikama mwingi kutukindisa. Bakhulutu beni, basi ko
+  \u201czimfumu\u201d zi kiminu kitu vayi \u2018batidi sala yitu va kimweka\u2019
+  mu kibila ki mamboti mitu. Bawu batidi kutusadisa tuba mayangi ayi bakindama mu
+  kiminu.\u20142 Kolinto 1:24.\\n7, 8. Bwidi bakhulutu ba kimvuka balenda kindisila
+  bankaka mu mambu bankoluka ayi bamvanga?\\n7 Mu thangu bankindisa zikhomba, bakhulutu
+  ba kimvuka balenda landakana ntungulu wu mvwala Polo. Nandi wusonika kwidi Baklisto
+  basi Tesalonika mu thangu baba vyokila mu zithotolo: \u2018Mu kibila ki luzolo luwombo
+  twidi mu beno, tubaka makani bika to ma kuluzabikisa zitsangu zimbote zi Nzambi,
+  vayi mwingi kuluyekudila luzingu lwitu, kibila tuluzolanga beni.\u2019\u20141 Tesalonika
+  2:8.\\n8 Bakhulutu ba kimvuka balenda vana khindusulu yiwombo mu mambu bantuba.
+  Buna mawu to balenda vanga? Mvwala Polo wukamba bakhulutu ba kimvuka ki Efeso: \u2018Minu
+  yimumonisinanga mu mambu moso ti mufweti sala ngolo; mwingi kusadisa batu badi mu
+  tsatu ayi mutebukanga moyo mambu Mfumu Yesu katuba: \u2018Mayangi ma kuvana, malutidi
+  mayangi madi mu kutambula.\u2019\u2019 (Mavanga 20:35) Mvwala Polo wuba wukubama
+  mwingi \u2018kukivana ayi kukivana nandi woso\u2019 mu kibila ki zikhomba zyandi.
+  Nandi wumonisa mu mavanga mandi ti nandi wuba wukubama mwingi kuvanga mamoso mu
+  kibila kiawu. (2 Kolinto 12:15) Bobuawu mvandi, bakhulutu ba kimvuka bafweti kukindisa
+  ayi kubomba bankaka kubika to mu mambu bankoluka vayi mu mambu bamvanga. Mawu malenda
+  monisa ti bawu ba kutukyebanga.\u20141 Kolinto 14:3.\\n9. Bwidi bakhulutu ba kimvuka
+  balenda vanina malongi mankindisa zikhomba?\\n9 Mwingi kukindisa zikhomba, bakhulutu
+  khumbu zinkaka bamvananga malongi. Bawu balenda longuka mu Kibibila bwidi balenda
+  vangila mawu mwingi kukindisa zikhomba. Bo Yesu kavulubuka, wuvana kifwani kimboti
+  mu phila yi kuvanina malongi mu zitsangu voti zithumu kafila kwidi bimvuka biba
+  ku Asia Menor. Nandi wuvana malongi mangolo kwidi bimvuka bi Efeso, Pelingami ayi
+  Tiatila. Vayi ava kavana malongi beni, nandi wutonda theti bimvuka byoso mu mambu
+  mamboti bawu baba vanganga. (Nzaikusu 2:1-5, 12, 13, 18, 19) Yesu wukamba kimvuka
+  ki Lawodise: \u2018Minu yintumbudilanga ayi yinsembanga baboso yinzolanga. Diawu,
+  monisa kifuza ayi balula mavanga.\u2019 (Nzaikusu 3:19) Bakhulutu ba kimvuka banlandakananga
+  ntungulu wu Yesu mu phila yi kuvanina malongi.\\nBASI KO TO BAKHULUTU BA KIMVUKA
+  BAFWETI KINDISA BANKAKA\\n10. Bwidi befu boso tulenda kindisila bankaka?\\n10 Basi
+  ko to bakhulutu ba kimvuka bafweti kindisa bankaka. Mvwala Polo wukamba Baklisto
+  boso batubanga to \u2018mambu madi mambote mankindisa bankaka, boso bwididi zitsatu
+  ziawu mwingi maba ndandu kwidi batu bankuwa mawu.\u2019 (Efeso 4:29) Kadika mutu
+  mu befu kafweti zaba ti bankaka batidi kubaka lusalusu lwitu. Mvwala Polo wusonikina
+  basi Ebeleo: \u2018Kindisanu myoko mivonga ayi makungulu malebakana, ayi tatamananu
+  kuludika nzila mu kibila ki malu minu, mwingi mutu widi kulu kubela, kabika luta
+  kufumbuka vayi kabeluka.\u2019 (Ebeleo 12:12, 13) Befu boso tulenda kindisa bankaka
+  mu mambu tunkoluka, kheti twidi matoko.\\n11. Mbi bisadisa Malata mu thangu kaba
+  mu kyunda?\\n11 Khomba yimweka bantedilanga Malata waba banga beni mu kyunda. *
+  (Tala matangu madi va wanda.) Nandi wusonika: \u201cKilumbi kimweka bo yimana kusambila
+  mwingi Yave kabwela kukhindisa, yizaba khomba yimweka weka kiboba wumbonisina mambote
+  yaba tomba kutambula mu thangu beni. Nandi wukhamba mambu mammonikina ayi mawu maba
+  madedakana na mambu yaba vyokila ayi kyunda kitona kumana.\u201d Khomba beni \u1e3fba
+  kasa zaba ko ti mambu katuba makindisa Malata!\\n12, 13. Bwidi tulenda sadila dilongi
+  didi mu Filipi 2:1-4?\\n12 Mvwala Polo wusonikina basi Filipi: \u2018Boti vadi khindusulu
+  mu nzila Klisto, boti vadi mbombolo yi luzolo, boti vadi nkangulu mu pheve, mbonosono
+  yi luzolo ayi yi kyadi, buna ludukisa mayangi mami mu kuba mayindu mamweka ayi luzolo
+  lumweka, mu kuba kithwadi, ayi mayindu minu maba madedakana. Lubika vangila mambu
+  mu ziphaka voti mu kutomba nkembo wuphamba; vayi mu kukikulula, luyindula ti bankaka
+  ba mulutidi, mwingi kadika mutu kabika tomba mamboti ma nafeka vayi ma batu bankaka.\u2019\u2014Filipi
+  2:1-4.\\n13 Befu boso tufweti tomba ziphila zi kusadisila bankaka. Tulenda kubavana
+  \u2018mbombolo yi luzolo,\u2019 \u2018nkangulu mu pheve\u2019 ayi \u2018mbonosono
+  yi luzolo ayi yi kyadi\u2019 mwingi kukindisa zikhomba zitu zi babakala ayi zi bakyeto.\\nZIPHILA
+  ZI KUKINDISILA BANKAKA\\n14. Mu phila mbi tulenda kindisila bankaka?\\n14 Tunkwangalalanga
+  beni kuzaba ti batu tusadisa kumbusa, bantatamana kusadila Nzambi. Diawu mvwala
+  Yoane kasonikina ti: \u2018Ndisi ko kibila kilutidi buka akiki: Kukuwa ti bana bami
+  bantatamana kudyatila mu kyedika.\u2019 (3 Yoane 4) Mintwami ntwala miwombo bankwangalalanga
+  beni bo bankwiza bakulanga ti batu basadisa kulonguka kyedika bantatamana kusadila
+  Yave, voti bawu mvawu badi mu kisalu ki ntwami ntwala. Diawu boti ntwami ntwala
+  tummona ti matona kulebakana, tulenda kuntebula moyo mamboti moso kamvanganga mwingi
+  kusadisa bankaka.\\n15. Mbi tulenda vanga mwingi kukindisa batu badi bakwikama mu
+  kusadila Yave?\\n15 Misungi miwombo mi mavula ayi bakazi bawu, bantubanga ti bambakanga
+  khindusulu mu thangu bantambulanga minkanda zikhomba bamfilanga mwingi kuba tonda
+  mu kisalu kiawu. Mawu mvandi bakhulutu ba kimvuka, ba misyoni, mintwami ntwala,
+  Zibetelita, ayi baboso bantatamana kusadila Yave bantubanga. Bo tubatebukila moyo,
+  tulenda kubakindisa mu phila yilutidi.\\nBWIDI BEFU BOSO TULENDA KINDISILA BANKAKA?\\n16.
+  Mambu mbi malwelo tulenda vanga mwingi kukindisa bankaka?\\n16 Mbi wulenda vanga
+  boti phasi wummonanga kukindisa bankaka? Bubu didi dyambu diphasi kukindisa bankaka.
+  Monisa disevu dimbote. Boti nandi mengi kuseva, malenda sundula ti mu mambu maphasi
+  kadi mu kuvyokila ayi mutu kantomba kayoluka yandi mwingi kabasisa madi mu ntim\u2019andi.
+  Ngye wulenda kumbomba mu kukuwa mambu kankoluka.\u2014Yakobi 1:19.\\n17. Bwidi Henrique
+  kabakila khindusulu?\\n17 Khomba yimweka bantanguninanga Henrique wuba beni mu kyunda
+  bo tat\u2019andi wuba nkulutu wu kimvuka ayi batu bankaka va dikanda dyandi babika
+  kusadila Yave. Bo nsungi wumweka wu divula kamona phila Henrique kabela mu kyunda,
+  wunnata kuma banwinanga kafi mwingi bayoluka. Nandi wuyuwa bo Henrique kaba kunkamba
+  mambu maba ku tsi ntim\u2019andi ayi wunkindisa mu kuntangila madi mu Minkunga 46,
+  Sefania 3:17, ayi Malako 10:29, 30.\\n18. (a) Mbi Ntinu Salomo kasonika matedi kukindisa
+  bankaka? (b) Diyindu mbi dimboti mvwala Polo kavana mu phila yi kukindisila bankaka?\\n18
+  Mbi tulenda longuka mu phila Malata ayi Henrique babakila khindusulu? Woso kwa mutu
+  mu befu kalenda bomba ayi kukindisa khomba wuntomba khindusulu. Ntinu Salomo wusonika:
+  \u2018Dyambu mu thangu yifwana\u2014dimbanga dimbote beni! Meso manlezama [thalu
+  yi mayangi] mankwangidikanga ntima; tsangu yimbote yinkindisanga mimvesi.\u2019
+  (Zingana 15:23, 30, tala matangu madi va wanda mu nwt-TPO.) Ngye zebi khomba widi
+  mu kyunda ayi wuntomba khindusulu? Kibila mbi wukhambu kumvangila mwa dyambu dikhambulu
+  phasi, buka kuntagila mwa kilongulu voti mwa dilongi mu khondi mayo? Mvwala Polo
+  mvandi wutuba ti kukuwa minkunga mi Kintinu va kimweka na zikhomba kulenda kutukindisa.
+  Nandi wusonika: \u2018Lutatamana kukilonga ayi kukindasana beno na beno mu minkunga
+  ayi kuzitisa Nzambi mu minkunga mi kipheve bankwimbidila mu matondo. Lutatamana
+  kukwimbidila Yave mu ntima woso.\u2019\u2014Kolosai 3:16; Mavanga 16:25.\\n19. Kibila
+  mbi khindusulu yala bela beni nkinza, ayi mbi tufweti vanga?\\n19 Bo kilumbu ki
+  Yave kidi mu kufikama, nkinza beni kuyikindasana befu boso. (Ebeleo 10:25) Twala
+  kwangalala befu kuvanga mambu mwala Polo katuba: \u2018Lutatamana kukindasana ayi
+  kubombasana beno na beno, dedi bo lweti vangila\u2019 (1 Tesalonika 5:11).\"", "\"Yave
+  Nzambi wutu vana zithumu zisonga tufweni landakana. Nandi wutuba ti dikwela difweti
+  vangimina mu batu bwadi to\u2014dibakala ayi nkyeto. (Matai 19:4-6, 9) Nandi katyanga
+  ko mambu moso matedi butsuza. (1 Kolinto 6:9, 10) Nandi wuvana nswa dikabu dyandi
+  bafweti landakana wutedi phwatulu.\u2014Deutelonomi 22:5; 1 Timoteo 2:9, 10.\\nMu
+  bilumbu bitu, bawombo bakhambu landakananga zithumu zi Yave. (Loma 1:18-32) Bawu
+  banlandakananga mayindu, phwatulu ayi mavanga ma batu bankaka. Bawombo ba kuyimonisanga,
+  ayi bantyanga ko kumona batu bankaka banlandakana mayindu ma Nzambi.\u20141 Petelo
+  4:3, 4.\\nBo twidi Zimbangi zi Yave, tufweni monisa kibakala mwingi tulandakana
+  zithumu zi Nzambi. (Loma 12:9) Vayi Bwidi? Befu tufweni kuba sadisa mu luzolo mwingi
+  bazaba mambu Yave kanzolanga. Angi befu veka tufweti zingila mambu beni, mwingi
+  tuba vana ntungulu. Bo tunsola mimvwatu, tufweti kuyikuvulanga: Mimvwatu myami mimmonisa
+  ti minu yinkinzikanga zithumu zi Yave voti yinlandakananga phwatulu yi nza? Mimvwatu
+  myami minsadisanga batu bazaba ti minu yidi kisadi kikyedika ki Nzambi? Ayi bo tunsola
+  mambu tuntala mu televis\u00e3o buka zi filmi, tulenda mvandi kuyikuvula: Yave kalenda
+  zola byuma yintala mu televis\u00e3o? Phila mambu mbi filmi beni yinlonga? Bisavu
+  yinzolanga, bilenda ku phanga yibika kulandakana zithumu zi Yave? (Minkunga 101:3)
+  Bwidi dikanda diami ayi bankaka bankwiza mwena?\u20141 Kolinto 10:31-33.\\nKibila
+  mbi kidi dyambu di nkinza kulandakana zithumu zi Yave? Kibila mu thangu yi lwelo,
+  Yesu Klisto wala bunga nza ayi mambi moso. (Yehezekeli 9:4-7) Bo bamvanganga luzolo
+  lu Nzambi, bawu to bela vuka. (1 Yoane 2:15-17) Diawu tufweti vanga mangolo mwingi
+  tulandakana zithumu zi Yave, mu dyambu tuvana kimbangi kwidi batu ayi tuzitisa dizina
+  di Yave mu mavanga mitu.\u20141 Petelo 2:11, 12.\\nTALANU VIDEO YINTUBA BA BUKUNDI
+  NA YAVE\u2014DIBAKALA DIMWEKA NKYETO WUMWEKA, BOSI VANA MIMVUTU MI BYUVU BINLANDA:\\nKibila
+  mbi kulandakana zithumu zi Yave yididi mbonosono yi ndwenga?\\nKibila mbi matata
+  bafweti tonina kulongisa bana bawu matedi Yave bo bakhidi balwelo?\\nBwidi befu
+  boso tulenda sadisila bankaka ba baka ndandu mboti yi Nzambi?\"", "\"Keti Bakristu
+  lenda yoka mvumbi na tiya na kisika ya kuzika yo?\\nBiblia kele ve ti nsiku mosi
+  ya ke buyisa kuyoka mvumbi na kisika ya kuzika yo.\\nBiblia ke tubila masolo ya
+  bafwa yina bo yokaka nitu to mikwa na bo na tiya. (Yoz. 7:25; 2 Bans. 34:4, 5) Mbala
+  ya nkaka sambu na kumonisa nde, yo fwanaka ve na kuzika bantu yina na mutindu mosi
+  ya mbote. Kansi, bamvumbi mingi yina bo vandaka kuyoka vandaka ve kutendula ntangu
+  yonso mutindu yina.\\nLufwa ya Ntotila Saule mpi ya bana na yandi tatu ya babakala
+  ke ndimisa diambu yina. Bo yonso iya fwaka na mvita yina bo nwanaka ti Bafilistia.
+  Mosi na kati ya bana ya Ntotila Saule vandaka Yonatani, nduku ya ngolo ya Davidi
+  yina sadisaka yandi na kwikama yonso. Ntangu basoda ya Izraele yina vandaka kuzinga
+  na Yabeshi-gileadi waka nsangu ya mambu yina salamaka, bo bakaka bamvumbi yina iya,
+  yokaka yo, mpi zikaka mikwa. Na nima, Davidi sikisaka bantu yina ya Izraele sambu
+  na diambu yina bo salaka.\u20141 Sam. 31:2, 8-13; 2 Sam. 2:4-6.\\nKivuvu ya Masonuku
+  ke pesa sambu na bafwa kele lufutumuku\u2014Nzambi ta vutula muntu yina fwaka na
+  luzingu. Ata bo yokaka mvumbi ya muntu yina na tiya to ve, Yehowa kele ti ngolo
+  ya mingi sambu na kuvutula yandi na luzingu ti nitu ya mpa. Baebreo tatu ya kwikama
+  yina Ntotila Nabukodonozore pesaka ntuma nde bo losa bo na dibulu ya tiya, waka
+  ve boma nde kana bo fwa na tiya, Nzambi lendaka diaka ve kuvutula bo na luzingu.
+  (Dan. 3:16-18) Yo kele mpi mutindu mosi sambu na bansadi ya Yehowa ya kwikama yina
+  fwaka na bakan ya konsatrasio na Nazi mpi yina bo yokaka bamvumbi na bo na tiya.
+  Bansadi ya Yehowa mingi me fwaka na tiya to na mitindu ya nkaka yina me bikaka ve
+  ata kidimbu mosi ya me tala bo. Ata mpidina, Biblia ke ndimisa beto nde bo ta futumuka.\u2014Kus.
+  20:13.\\nYehowa kele ve na mfunu ya kuvukisa bitini ya nitu ya muntu sambu na kufutumuna
+  yandi. Diambu yina ke monana pwelele na mutindu lufutumuku ya Bakristu yina bo me
+  tulaka mafuta ke salamaka. Bonso Yezu, yina \u201cNzambi futumunaka . . . na mpeve,\u201d
+  Bakristu yina bo me tulaka mafuta ke futumukaka kaka ti kimuntu na bo kansi na nitu
+  ya kimpeve. Bo ke kwendaka ve na zulu ata ti kitini mosi ya nitu na bo ya kinsuni.\u20141
+  Pie. 3:18; 1 Bak. 15:42-53; 1 Yoa. 3:2.\\nBeto ke ndimaka nde muntu lenda futumuka
+  sambu beto ke kwikilaka nde Nzambi kele ti ngolo mpi mpusa ya kulungisa balusilu
+  na yandi kansi ve sambu bo yokaka nitu na yandi na tiya to ve. (Bis. 24:15) Ya kieleka,
+  beto lenda bakisa ve mambu yonso na yina me tala mutindu Nzambi futumunaka bantu
+  na ntangu ya ntama to mutindu yandi ta sala yo na bilumbu ke kwisa. Kansi, beto
+  ke tulaka ntima na beto na Yehowa. Yandi me pesaka beto \u201ckipiku\u201d na mutindu
+  yandi me futumunaka Yezu.\u2014Bis. 17:31; Luka 24:2, 3.\\nYo ta vanda mbote nde
+  Bakristu kutadila minsiku ya bwala na bo, bansiku ya leta mpi mutindu bantu ya bwala
+  na bo ke tadila kuzika mvumbi. (2 Bak. 6:3, 4) Yo yina, kuyoka mvumbi na tiya to
+  ve kele desizio ya konso muntu to ya konso dibuta.\"", "\"Kaka bantu nana mpamba
+  kugulukaka na Mvula ya Ngolo, kansi na nima, bantu kumaka mingi na ntoto. Abraham
+  kubutukaka bamvula 352 na nima ya Mvula ya Ngolo. Nzambi kulungisaka lusilu na yandi
+  ya kupesa yandi mwana ya bakala Isaac. Na bana zole yina Isaac butaka, Nzambi solaka
+  Jacob.\\nJacob kubutaka bana ya babakala 12 mpi bana ya bankento. Na kati na bau,
+  bana 10 ya babakala mengaka leke na bau Joseph. Bau tekaka yandi na kimpika na Egypte.
+  Na nima, Joseph kukumaka muntu ya nene ya insi ya Egypte. Na nsungi ya nzala, yandi
+  mekaka bampangi na yandi sambu na kuzaba kana bau sobaka ntima na bau. Na nima ya
+  mwa ntangu, dibuta yonso ya Jacob; bana ya Israele kwendaka na Egypte. Mambu yina
+  kusalamaka bamvula 290 na nima ya lubutuku ya Abraham.\\nNa bamvula 215 yina kulandaka,
+  bana ya Israele kuzingaka na Egypte. Na nina ya lufwa ya Joseph, bau kumaka bampika.
+  Na nima Mo\u00efse kubutukaka, mpi Nzambi kusadilaka yandi sambu na kugulusa bantu
+  ya Israele na Egypte. Ndambu ya ZOLE ketubila mambu yina kusalamaka na nsungi ya
+  bamvula 857.\"", "\"Biblia na Internet | MBALULA YA NSI-NTOTO YA MPA YA MASONUKU
+  YA SANTU (2013 YA MPA)\\n-\\nZina ya mbote kele mbote kuluta kimvwama mingi (1)\\n-\\nMalongi
+  ya bo ke pesaka na kileke ta zinga luzingu ya mvimba (6)\\n-\\nMolo ke waka boma
+  ya ntambu yina kele na nganda (13)\\n-\\nNdola ke katulaka buzoba (15)\\n-\\nNsadi
+  ya me zaba kisalu mbote ke sadilaka bantotila (29)\\n22 Zina ya mbote kele mbote
+  kuluta kimvwama mingi;+\\nKuvanda ti luzitu kele mbote kuluta arza mpi wolo.\\n2
+  Mvwama mpi nsukami kele ti diambu yai na kimvuka:Yehowa muntu salaka bo.+\\n3 Muntu
+  ya mayele ke monaka kigonsa mpi ke bumbanaka,\\nKansi bantu yina me konda mayele
+  ke kwendaka kaka na ntwala mpi bo ke kutanaka ti bampasi.\\n4 Kudikulumusa mpi boma
+  ya Yehowa ke pesaka\\nBimvwama, nkembo, mpi luzingu.+\\n5 Bansende mpi mitambu kele
+  na nzila ya muntu ya nioka-nioka,\\nKansi muntu yina ke bakaka luzingu na yandi
+  na mfunu ke vandaka ntama ti yo.+\\n6 Longa mwana-bakala na nzila yina yandi fwete
+  kwenda;+\\nAta ntangu yandi ta kuma mbuta, yandi ta yambula yo ve.+\\n7 Mvwama ke
+  yalaka bansukami,\\nMpi muntu yina me defa kele mpika ya muntu yina defisaka yandi.+\\n8
+  Muntu yina ke kuna kukonda lunungu ta katula mpasi,+\\nMpi fimbu ya makasi na yandi
+  ta suka.+\\n9 Muntu ya ke kabaka ta baka lusakumunu,\\nSambu yandi ke kabulaka madia
+  na yandi ti nsukami.+\\n10 Kula muntu yina ke sekaka bantu,\\nEbuna kuswana ta mana;\\nBantembe
+  mpi mafingu ta mana.\\n11 Muntu yina ke zolaka ntima ya mpembe mpi yina ke tubaka
+  ti mawete\\nNtotila ta vanda nduku na yandi.+\\n12 Meso ya Yehowa ke taninaka nzayilu,\\nKansi
+  yandi ke bwisaka bangogo ya muyekudi.+\\n13 Molo ke tuba nde: \u201cNtambu kele
+  na nganda!Yo ta fwa mono na kati-kati ya bala-bala ya nene!\u201d+\\n14 Munoko ya
+  nkento ya ntu-ngolo kele dibulu ya mudindu.+Muntu yina Yehowa me bedisa ta bwa muna.\\n15
+  Buzoba kele ya kukangama na ntima ya mwana-bakala,+\\nKansi fimbu ya ndola ta katula
+  yo ntama ti yandi.+\\n16 Muntu yina ke kusa nsukami sambu na kukumisa kimvwama na
+  yandi mingi,+\\nMpi muntu yina ke pesa mvwama makabu,\\nBo ta kuma bansukami.\\n17
+  Tula dikutu mpi wa mambu yina bantu ya mayele ke tuba,+\\nSambu na kutula ntima
+  na nge na nzayilu na mono,+\\n18 Sambu yo kele mbote na kutanina yo na ntima na
+  nge,+\\nSambu mambu yina yonso kuvanda na munoko na nge ntangu yonso.+\\n19 Sambu
+  nge tudila Yehowa ntima,\\nMono ke pesa nge nzayilu bubu.\\n20 Keti mono me sonikilaka
+  nge ve\\nSambu na kupesa nge bandongisila mpi nzayilu,\\n21 Sambu na kulonga nge
+  bangogo ya kieleka mpi yina bo lenda tudila ntima,\\nSambu nge vutuka ti nsangu
+  ya sikisiki na muntu yina tindaka nge?\\n22 Kuyiba ve nsukami sambu yandi kele nsukami,+\\nMpi
+  kubedisa ve muntu ya kukonda mfunu na kielo ya mbanza,+\\n23 Sambu Yehowa yandi
+  mosi ta samba diambu na bo+\\nMpi yandi ta fwa bantu yina ke kusaka bo.\\n24 Kuvanda
+  ve na kinduku ti muntu yina ke waka makasi nswalu\\nMpi kuvukana ve ti muntu yina
+  ke waka nganzi mpamba-mpamba,\\n25 Sambu nge longuka ve ata fioti banzila na yandi\\nMpi
+  nge kudikotisa ve na mutambu.+\\n26 Kuvanda ve na kati ya bantu yina ke pesanaka
+  mbote ya maboko sambu na kuwakana,\\nYina ke ndimaka kufutila bantu bamfuka.+\\n27
+  Kana nge kele ve ti kima ya kufuta,\\nBo ta botula mbeto na nge!\\n28 Kuvutula ve
+  nima kidimbu ya ndilu ya ntama\\nYina ba-nkaka na nge tulaka.+\\n29 Keti nge me
+  mona muntu yina me zaba kisalu na yandi mbote?Yandi ta telama na ntwala ya bantotila;+\\nYandi
+  ta telama ve na ntwala ya bantu ya mpamba.\""]'
 src_ngrams: '{"1": [[["ve"], 36620], [["bantu"], 34673], [["nzambi"], 31738], [["mambu"],
   28186], [["mutindu"], 21102]], "2": [[["diaka ve"], 1402], [["kuma kia"], 1245],
   [["mutindu yehowa"], 838], [["mpeve santu"], 821], [["wavova kwa"], 770]], "3":
