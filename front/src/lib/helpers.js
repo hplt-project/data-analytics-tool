@@ -1,4 +1,27 @@
 import { getEnglishName } from "all-iso-language-codes";
+import yaml from "js-yaml";
+
+export function parseYamlFile(file) {
+  const doc = yaml.load(file);
+
+  const entries = Object.entries(doc);
+
+  const result = {};
+
+  for (const [key, value] of entries) {
+    if (typeof value === 'string') {
+      try {
+        result[key] = JSON.parse(value);
+      } catch (error) {
+        result[key] = value; // Keep original string if parsing fails
+      }
+    } else {
+      result[key] = value;
+    }
+  }
+  return result;
+
+}
 
 export function codeToLangTransformer(languagesArray) {
   let languageNames = new Intl.DisplayNames(["en"], { type: "language" });

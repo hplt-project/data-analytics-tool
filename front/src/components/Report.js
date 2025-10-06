@@ -59,7 +59,7 @@ export default function Report({ date, report }) {
 
   const datasetName = router.query.file;
 
-  const filename = router.query.file.replace(".yaml", "");
+  const filename = router.query.file ? router.query.file.replace(".yaml", "") : undefined;
 
   const sentences = sentence_pairs?.toLocaleString("en-US");
 
