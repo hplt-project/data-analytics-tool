@@ -20,37 +20,21 @@ export default function ExternalFileViewer() {
     const [status, setStatus] = useState("IDLE");
     const [url, setURL] = useState("");
 
-    const file = router.isReady ? router.query.file : undefined;
+    const { isReady, query } = router;
+
+    const file = typeof query.file === "string" ? query.file : "";
 
     useEffect(() => {
-        if (!router.isReady) return;
-        if (!file || file === "file") return;
-
-        let cancelled = false;
+        if (!isReady) return;
+        if (!file) return;
+        let aborted = false;
 
         (async () => {
-            setStatus("LOADING");
-            try {
-                const { data } = await axios.get(`/api/getstats/${encodeURIComponent(file)}`);
-                if (cancelled) return;
-                if (!data) {
-                    setStatus("FAILED");
-                    return;
-                }
-                setReport(data.report);
-                setDate(data.date);
-                setStatus("IDLE");
-            } catch (err) {
-                if (!cancelled) setStatus("FAILED");
-                console.error(err);
-            }
+            getFileFromURL(file)
         })();
 
-        return () => {
-            cancelled = true;
-        };
-    }, [router.isReady, file]);
-
+        return () => { aborted = true; };
+    }, [isReady, file]);
 
     function readSingleFile(e, hook) {
         setURL("");
@@ -64,13 +48,18 @@ export default function ExternalFileViewer() {
             reader.onload = function () {
                 const result = parseYamlFile(reader.result);
 
-                hook(result);
+                hook(result.report);
+                setDate(result.date)
                 setStatus("IDLE")
             };
         } catch (error) {
             setStatus("FAILED");
         }
 
+    }
+
+    function clearUrl() {
+        router.replace("/external-file", undefined, { shallow: true, scroll: false });
     }
 
 
@@ -84,11 +73,12 @@ export default function ExternalFileViewer() {
             const fileResult = await axios.get(url);
 
             const result = parseYamlFile(fileResult.data);
-            if (!result.corpus) {
+            if (!result.report.corpus) {
                 throw new Error("URL does not contain a YAML dataset file");
             }
 
-            setReport(result);
+            setReport(result.report);
+            setDate(result.date)
 
             setStatus("IDLE");
         } catch (error) {
@@ -113,6 +103,7 @@ export default function ExternalFileViewer() {
                             <label for="from-file" className={styles.fileLabel}>Browse...</label>
                             <input type="file" name="from-file" accept=".yaml, .yml" className={styles.fileInput} id="from-file"
                                 onChange={(e) => {
+                                    clearUrl();
                                     setURL("");
                                     setCurrentFile(e.target.files[0].name);
                                     readSingleFile(e, setReport);
@@ -124,7 +115,8 @@ export default function ExternalFileViewer() {
                     <div className={styles.singleInput}>
                         <label for="from-url">From URL</label>
                         <div className={styles.urlInput}>
-                            <input type="text" name="from-url" onChange={(e) => {
+                            <input type="text" name="from-url" value={url} onChange={(e) => {
+                                clearUrl();
                                 setCurrentFile("");
                                 setURL(e.target.value)
                             }} />

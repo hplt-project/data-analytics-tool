@@ -19,7 +19,18 @@ export function parseYamlFile(file) {
       result[key] = value;
     }
   }
-  return result;
+
+
+  let d;
+
+  if (doc) {
+    const timestamp_ms = doc["timestamp"];
+    const timestamp_secs = timestamp_ms * 1000;
+    d = new Date(timestamp_secs).toLocaleDateString();
+  } else {
+    d = "n/a;";
+  }
+  return { date: d, report: result };
 
 }
 
