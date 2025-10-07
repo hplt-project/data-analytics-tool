@@ -24,6 +24,8 @@
 .urlInput input {
   width: 300px;
   height: 32px;
+  padding: 3px 5px;
+  font-size: 15px;
 }
 
 .urlInput button {

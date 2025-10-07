@@ -82,7 +82,12 @@ export default function ExternalFileViewer() {
 
         try {
             const fileResult = await axios.get(url);
+
             const result = parseYamlFile(fileResult.data);
+            if (!result.corpus) {
+                throw new Error("URL does not contain a YAML dataset file");
+            }
+
             setReport(result);
 
             setStatus("IDLE");
@@ -108,6 +113,7 @@ export default function ExternalFileViewer() {
                             <label for="from-file" className={styles.fileLabel}>Browse...</label>
                             <input type="file" name="from-file" accept=".yaml, .yml" className={styles.fileInput} id="from-file"
                                 onChange={(e) => {
+                                    setURL("");
                                     setCurrentFile(e.target.files[0].name);
                                     readSingleFile(e, setReport);
                                 }}
@@ -118,7 +124,10 @@ export default function ExternalFileViewer() {
                     <div className={styles.singleInput}>
                         <label for="from-url">From URL</label>
                         <div className={styles.urlInput}>
-                            <input type="text" name="from-url" onChange={(e) => setURL(e.target.value)} />
+                            <input type="text" name="from-url" onChange={(e) => {
+                                setCurrentFile("");
+                                setURL(e.target.value)
+                            }} />
                             <button className={styles.activeGetFileBtn} disabled={!url} onClick={() => getFileFromURL(url)}>Get file</button>
                         </div>
                     </div>

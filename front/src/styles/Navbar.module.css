@@ -5,10 +5,15 @@
   padding: 8px 0;
 }
 
+.navLinks {
+  display: flex;
+  align-items: center;
+
+}
+
 .singleNavLink {
-  margin-left: 30px;
+  margin-left: 10px;
   text-decoration: none;
-  color: rgb(32, 30, 30);
 }
 
 .logo {

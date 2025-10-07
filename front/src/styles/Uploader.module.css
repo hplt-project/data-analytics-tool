@@ -245,6 +245,7 @@
   display: flex;
   cursor: pointer;
 }
+
 .hidden {
   display: none;
 }
@@ -253,6 +254,8 @@
 .button-27,
 .button-28,
 .button-32,
+.button-33,
+.button-34,
 .cmd button {
   appearance: button;
   background-color: #2c3452;
@@ -277,6 +280,7 @@
   text-decoration: none;
   display: flex;
 }
+
 .button-32 {
   background-color: #d30303;
   border: 1px solid #f01616;
@@ -287,6 +291,19 @@
 .cmd button {
   background-color: transparent;
   color: #2c3452;
+}
+
+.button-33 {
+  padding: 8px 16px;
+  margin-right: 0px;
+}
+
+.button-34 {
+  color: #2c3452;
+  border: 2px solid #2c345269;
+  background-color: transparent;
+  margin-right: 0;
+  padding: 8px 16px;
 }
 
 .button-28 {
