@@ -75,8 +75,8 @@ export default function LanguagePieChart({
     return (
         <div className={styles.languagePieChartContainer}>
             {warning && (
-                <p className={styles.warning}>
-                    *{warningLang} identification might be inaccurate<br></br> because it is not
+                <p className={styles.warning} style={{ "maxWidth": "40%" }}>
+                    *{warningLang} identification might be inaccurate because it is not
                     supported by FastSpell.
                 </p>
             )}
