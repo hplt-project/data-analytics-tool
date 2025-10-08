@@ -120,7 +120,7 @@ export default function ExternalFileViewer() {
                                 setCurrentFile("");
                                 setURL(e.target.value)
                             }} />
-                            <button className={styles.activeGetFileBtn} disabled={!url} onClick={() => getFileFromURL(url)}>Get file</button>
+                            <button className={styles.activeGetFileBtn} disabled={!url} onClick={() => router.push(`?file=${url}`, undefined, { shallow: true, scroll: false })}>Get file</button>
                         </div>
                     </div>
                 </div>

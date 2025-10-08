@@ -13,7 +13,7 @@ export default async function handler(req, res) {
 
     const result = parseYamlFile(statsData);
 
-    res.send({ date: d, report: result });
+    res.send({ date: result.date, report: result.report });
   } catch (error) {
     res.send(false);
     console.log(error, "Something went sideways");
