@@ -149,7 +149,7 @@ export default function ExternalFileViewer() {
                     </div>
                 )}
                 {status !== "LOADING" && (
-                    <Report date={date} report={report} external={true} externalFilename={currentFile ? currentFile : report.corpus} externalReport={yaml} />
+                    <Report date={date} report={report} external={true} externalFilename={report.corpus} externalReport={yaml} />
                 )}
             </div>
             <Footer />

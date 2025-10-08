@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import BicleanerScores from "./BicleanerScores";
 import LanguagePieChart from "./LanguagePieChart";
 import {
@@ -148,11 +148,14 @@ export default function Report({ date, report, external, externalFilename, exter
 
   const totalDocs = documentSizesObj.totalDocuments;
 
+
   useEffect(() => {
-    if (footNote) {
-      exportMultipleChartsToPdf(filename, offLoading);
-    }
+    if (ranOnceRef.current) return;   // prevent StrictMode second run
+    ranOnceRef.current = true;
+
+    exportMultipleChartsToPdf(external ? externalFilename : filename, offLoading);
   }, [footNote]);
+  const ranOnceRef = useRef(false);
 
   useEffect(() => {
     document.body.style.overflow = showSample ? "hidden" : "unset";
@@ -713,9 +716,9 @@ export default function Report({ date, report, external, externalFilename, exter
           onClick={() => {
             setFootNote(true);
             setLoadingPdf(true);
-            if (footNote) {
-              exportMultipleChartsToPdf(external ? externalFilename : filename, offLoading);
-            }
+            // if (footNote) {
+            //   exportMultipleChartsToPdf(external ? externalFilename : filename, offLoading);
+            // }
           }}
         >
           {!loadingPdf && <p> Export to PDF</p>}

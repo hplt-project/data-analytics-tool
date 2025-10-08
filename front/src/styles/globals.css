@@ -167,6 +167,15 @@
   fill: var(--slider);
 }
 
+.custom-chart .chart-title,
+.custom-chart h1,
+.custom-chart h2,
+.custom-chart h3,
+.custom-chart p {
+  letter-spacing: .003em;
+  width: fit-content;
+}
+
 .recharts-yAxis text,
 .recharts-xAxis text {
   fill: var(--graph-axis-text);
