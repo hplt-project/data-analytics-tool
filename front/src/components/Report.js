@@ -5,6 +5,7 @@ import {
   numberFormatter,
   languagePairName,
   handleDownload,
+  downloadYAML,
   convertSize,
 } from "@/lib/helpers";
 import { calculateDocumentSegments, processTokenFrequencies } from "@/lib/data";
@@ -32,7 +33,7 @@ import styles from "@/styles/Report.module.css";
 import NGrams from "./NGrams";
 import DocumentScores from "./DocumentScores";
 
-export default function Report({ date, report }) {
+export default function Report({ date, report, external, externalFilename, externalReport }) {
   if (!report) return;
 
   const router = useRouter();
@@ -702,7 +703,7 @@ export default function Report({ date, report }) {
       <div className={[styles.reportButtons, styles.desktopNum].join(" ")}>
         <button
           className={buttonStyles["button-27"]}
-          onClick={() => handleDownload(datasetName)}
+          onClick={() => external ? downloadYAML(externalReport, externalFilename) : handleDownload(datasetName)}
           type="button"
         >
           Download yaml
@@ -713,7 +714,7 @@ export default function Report({ date, report }) {
             setFootNote(true);
             setLoadingPdf(true);
             if (footNote) {
-              exportMultipleChartsToPdf(filename, offLoading);
+              exportMultipleChartsToPdf(external ? externalFilename : filename, offLoading);
             }
           }}
         >

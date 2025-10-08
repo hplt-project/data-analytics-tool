@@ -19,7 +19,7 @@ export default function ExternalFileViewer() {
     const [date, setDate] = useState("");
     const [status, setStatus] = useState("IDLE");
     const [url, setURL] = useState("");
-
+    const [yaml, setYaml] = useState("");
     const { isReady, query } = router;
 
     const file = typeof query.file === "string" ? query.file : "";
@@ -43,11 +43,13 @@ export default function ExternalFileViewer() {
         var myFile = e.target.files[0];
         var reader = new FileReader();
 
+        setYaml(myFile);
+
+
         try {
             reader.readAsText(myFile);
             reader.onload = function () {
                 const result = parseYamlFile(reader.result);
-
                 hook(result.report);
                 setDate(result.date)
                 setStatus("IDLE")
@@ -63,6 +65,7 @@ export default function ExternalFileViewer() {
     }
 
 
+
     async function getFileFromURL(url) {
         if (!url) return;
         setCurrentFile("");
@@ -71,12 +74,12 @@ export default function ExternalFileViewer() {
 
         try {
             const fileResult = await axios.get(url);
+            setYaml(fileResult.data)
 
             const result = parseYamlFile(fileResult.data);
             if (!result.report.corpus) {
                 throw new Error("URL does not contain a YAML dataset file");
             }
-
             setReport(result.report);
             setDate(result.date)
 
@@ -146,7 +149,7 @@ export default function ExternalFileViewer() {
                     </div>
                 )}
                 {status !== "LOADING" && (
-                    <Report date={date} report={report} />
+                    <Report date={date} report={report} external={true} externalFilename={currentFile ? currentFile : report.corpus} externalReport={yaml} />
                 )}
             </div>
             <Footer />

@@ -250,7 +250,19 @@ export function multipleFilter(item, value) {
 
   );
 }
-
+export function downloadYAML(yamlString, filename = "data.yaml") {
+  try {
+    const blob = yamlString;
+    const test = new File([blob], `${filename}`);
+    const url = window.URL.createObjectURL(test);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename.includes("yaml") || filename.includes("yml") ? `${filename}` : `${filename}.yaml`;
+    link.click();
+  } catch (error) {
+    console.log(error, "Something went wrong with the download.");
+  }
+}
 
 
 export function replaceStringsCaseInsensitive(text, stringsToReplace) {
