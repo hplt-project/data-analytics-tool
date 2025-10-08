@@ -95,6 +95,7 @@ export function languagePairName(languagesArray) {
   let codeToLang = languagesArray.map((lang, idx) => {
     if (!lang) return false;
     let correctCode = lang.replace("_", "-");
+
     const name = langs.find((el) => el.languageCode.split("_")[0] === correctCode);
 
     try {
@@ -103,7 +104,7 @@ export function languagePairName(languagesArray) {
         label:
           name
             ? name.languageName
-            : languageNames.of(correctCode) !== null ? languageNames.of(correctCode) : getEnglishName(correctCode) ? getEnglishName(correctCode) : correctCode,
+            : languageNames.of(correctCode) !== correctCode ? languageNames.of(correctCode) : getEnglishName(correctCode) ? getEnglishName(correctCode) : correctCode,
         id: idx,
       };
     } catch (error) {
