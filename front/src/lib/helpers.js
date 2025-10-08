@@ -1,4 +1,5 @@
 import { getEnglishName } from "all-iso-language-codes";
+import { langs } from "./langNames";
 
 export function codeToLangTransformer(languagesArray) {
   let languageNames = new Intl.DisplayNames(["en"], { type: "language" });
@@ -94,13 +95,16 @@ export function languagePairName(languagesArray) {
   let codeToLang = languagesArray.map((lang, idx) => {
     if (!lang) return false;
     let correctCode = lang.replace("_", "-");
+
+    const name = langs.find((el) => el.languageCode.split("_")[0] === correctCode);
+
     try {
       return {
         value: correctCode,
         label:
-          getEnglishName(correctCode) === null
-            ? `${languageNames.of(correctCode)} (${correctCode})`
-            : `${getEnglishName(correctCode)} (${correctCode})`,
+          name
+            ? name.languageName
+            : languageNames.of(correctCode) !== correctCode ? languageNames.of(correctCode) : getEnglishName(correctCode) ? getEnglishName(correctCode) : correctCode,
         id: idx,
       };
     } catch (error) {

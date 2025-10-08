@@ -1,3 +1,6 @@
+v1.3:
+- Removed language codes from interface, only language names are shown now.
+
 v1.2:
 - Support for  HPLTv3 documents.
 - Support for 3 letter language codes (but 2-letter codes are still adviced if possible)
