@@ -103,7 +103,7 @@ export function languagePairName(languagesArray) {
         label:
           name
             ? name.languageName
-            : getEnglishName(correctCode),
+            : languageNames.of(correctCode) !== null ? languageNames.of(correctCode) : getEnglishName(correctCode) ? getEnglishName(correctCode) : correctCode,
         id: idx,
       };
     } catch (error) {
