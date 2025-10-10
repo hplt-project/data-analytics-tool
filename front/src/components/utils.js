@@ -1,286 +1,4 @@
-// import jsPDF from "jspdf";
-// import * as htmlToImage from "html-to-image";
 
-// export async function exportMultipleChartsToPdf(pdfName, offLoading) {
-//   const doc = new jsPDF("p", "px", "a4", true); // (1)
-
-//   const elements = document.getElementsByClassName("custom-chart"); // (2)
-
-//   await creatPdf({ doc, elements }); // (3-5)
-
-//   offLoading();
-
-//   doc.save(`${pdfName}.pdf`); // (6)
-// }
-// async function ensurePngDataUrl(dataUrlOrBlobUrl) {
-//   // If it's already a PNG DataURL -> return
-//   if (typeof dataUrlOrBlobUrl === 'string' && dataUrlOrBlobUrl.startsWith('data:image/png;base64,')) {
-//     return dataUrlOrBlobUrl;
-//   }
-
-//   // If it's a blob: URL -> fetch it, then convert to PNG
-//   if (typeof dataUrlOrBlobUrl === 'string' && dataUrlOrBlobUrl.startsWith('blob:')) {
-//     const blob = await (await fetch(dataUrlOrBlobUrl)).blob();
-//     const imgBitmap = await createImageBitmap(blob);
-//     const canvas = document.createElement('canvas');
-//     canvas.width = imgBitmap.width;
-//     canvas.height = imgBitmap.height;
-//     const ctx = canvas.getContext('2d');
-//     ctx.drawImage(imgBitmap, 0, 0);
-//     return canvas.toDataURL('image/png');
-//   }
-
-//   // If it's a data: URL (svg, jpeg, etc.), draw onto canvas then export PNG
-//   if (typeof dataUrlOrBlobUrl === 'string' && dataUrlOrBlobUrl.startsWith('data:')) {
-//     const img = await dataUrlToImage(dataUrlOrBlobUrl);
-//     const canvas = document.createElement('canvas');
-//     canvas.width = img.naturalWidth || img.width;
-//     canvas.height = img.naturalHeight || img.height;
-//     const ctx = canvas.getContext('2d');
-//     ctx.drawImage(img, 0, 0);
-//     return canvas.toDataURL('image/png');
-//   }
-
-//   throw new Error('normalize: unsupported image source for PNG conversion');
-// }
-
-// function dataUrlToImage(dataUrl) {
-//   return new Promise((resolve, reject) => {
-//     const img = new Image();
-//     img.crossOrigin = 'anonymous'; // helps when the dataURL was created from CORS-safe sources
-//     img.onload = () => resolve(img);
-//     img.onerror = reject;
-//     img.src = dataUrl;
-//   });
-// }
-
-// async function creatPdf({ doc, elements }) {
-//   const padding = 20;
-//   const marginTop = 30;
-//   let top = marginTop;
-
-//   for (let i = 0; i < elements.length; i++) {
-//     const el = elements.item(i);
-
-//     let source;
-//     try {
-//       if (document.fonts?.ready) { await document.fonts.ready; }
-//       const canvas = await htmlToImage.toCanvas(el, {
-//         pixelRatio: 1.5,
-//         cacheBust: true,
-//         skipFonts: false,
-//       });
-//       source = canvas.toDataURL('image/png');
-//     } catch (e1) {
-//       try {
-//         source = await htmlToImage.toPng(el, {
-//           pixelRatio: 1.5,
-//           cacheBust: true,
-//           skipFonts: true,
-//         });
-//       } catch (e2) {
-//         // last resort: jpeg
-//         source = await htmlToImage.toJpeg(el, {
-//           pixelRatio: 1.5,
-//           cacheBust: true,
-//           skipFonts: true,
-//           quality: 0.95,
-//         });
-//       }
-//     }
-
-//     // Normalize (handles blob:, svg, jpeg, etc.)
-//     const imgData = await ensurePngDataUrl(source);
-//     let elHeight = el.offsetHeight;
-//     let elWidth = el.offsetWidth;
-
-//     const pageWidth = doc.internal.pageSize.getWidth();
-
-//     if (elWidth > pageWidth) {
-//       const ratio = pageWidth / elWidth;
-//       elHeight = elHeight * ratio - padding * 2;
-//       elWidth = elWidth * ratio - padding * 2;
-//     }
-
-//     const pageHeight = doc.internal.pageSize.getHeight();
-
-//     if (top + elHeight > pageHeight - 30) {
-//       doc.addPage();
-//       top = marginTop;
-//     }
-//     if (i == 0) {
-//       doc.addImage(
-//         imgData,
-//         "PNG",
-//         padding,
-//         5,
-//         elWidth,
-//         elHeight + 12,
-//         `image${i}`,
-//         "FAST"
-//       );
-//     } else if (i == 1) {
-//       doc.addImage(
-//         imgData,
-//         "PNG",
-//         padding,
-//         top - 15,
-//         elWidth,
-//         elHeight + 32,
-//         `image${i}`,
-//         "FAST"
-//       );
-//     } else if (i == elements.length - 1) {
-//       doc.addImage(
-//         imgData,
-//         "PNG",
-//         padding,
-//         top - 15,
-//         elWidth,
-//         elHeight + 26,
-//         `image${i}`,
-//         "FAST"
-//       );
-//     } else {
-//       doc.addImage(
-//         imgData,
-//         "PNG",
-//         padding,
-//         top - 5,
-//         elWidth,
-//         elHeight + 28,
-//         `image${i}`,
-//         "FAST"
-//       );
-//     }
-
-//     top += elHeight + marginTop + 5;
-//   }
-// }
-
-
-//////////////////////77
-// import jsPDF from "jspdf";
-// import * as domtoimage from "dom-to-image-more";
-
-// /** Keep your helpers if you want; dom-to-image-more.toPng already returns a PNG dataURL */
-// async function ensurePngDataUrl(dataUrlOrBlobUrl) {
-//   if (typeof dataUrlOrBlobUrl === 'string' && dataUrlOrBlobUrl.startsWith('data:image/png;base64,')) {
-//     return dataUrlOrBlobUrl;
-//   }
-//   if (typeof dataUrlOrBlobUrl === 'string' && dataUrlOrBlobUrl.startsWith('data:')) {
-//     // convert any non-png dataURL to PNG via canvas
-//     const img = await dataUrlToImage(dataUrlOrBlobUrl);
-//     const c = document.createElement('canvas');
-//     c.width = img.naturalWidth || img.width;
-//     c.height = img.naturalHeight || img.height;
-//     c.getContext('2d').drawImage(img, 0, 0);
-//     return c.toDataURL('image/png');
-//   }
-//   throw new Error('normalize: unsupported image source for PNG conversion');
-// }
-
-// function dataUrlToImage(dataUrl) {
-//   return new Promise((resolve, reject) => {
-//     const img = new Image();
-//     img.crossOrigin = 'anonymous';
-//     img.onload = () => resolve(img);
-//     img.onerror = reject;
-//     img.src = dataUrl;
-//   });
-// }
-
-// export async function exportMultipleChartsToPdf(pdfName, offLoading) {
-//   const doc = new jsPDF("p", "px", "a4", true);
-
-//   const elements = document.getElementsByClassName("custom-chart");
-
-//   await createPdf_domToImage({ doc, elements });
-
-//   offLoading?.();
-//   doc.save(`${pdfName}.pdf`);
-// }
-
-// async function createPdf_domToImage({ doc, elements }) {
-//   const padding = 20;
-//   const marginTop = 30;
-//   let top = marginTop;
-
-//   // Wait for fonts to settle so layout numbers are stable
-//   if (document.fonts?.ready) {
-//     try { await document.fonts.ready; } catch { }
-//   }
-
-//   const pageW = doc.internal.pageSize.getWidth();
-//   const pageH = doc.internal.pageSize.getHeight();
-//   const availW = Math.max(1, pageW - padding * 2);
-
-//   for (let i = 0; i < elements.length; i++) {
-//     const el = elements.item(i);
-//     if (!el) continue;
-
-//     // measure source
-//     const srcW = Math.max(1, el.offsetWidth);
-//     const srcH = Math.max(1, el.offsetHeight);
-
-//     // render DOM → PNG (dataURL)
-//     let imgData;
-//     try {
-//       imgData = await domtoimage.toPng(el, {
-//         // helps with FF stability
-//         cacheBust: true,
-//         bgcolor: "#ffffff",                 // force solid bg (no transparent “blank”)
-//         width: srcW,
-//         height: srcH,
-//         style: { width: `${srcW}px`, height: `${srcH}px` },
-//         // Optional: tiny clone-only CSS to avoid title wrapping/squeezing
-//         // (dom-to-image-more supports 'style' but not onclone; inject via <style> on the element itself if needed)
-//       });
-//     } catch {
-//       // fallback to JPEG then normalize to PNG for jsPDF
-//       const jpeg = await domtoimage.toJpeg(el, {
-//         quality: 0.95,
-//         cacheBust: true,
-//         width: srcW,
-//         height: srcH,
-//         style: { width: `${srcW}px`, height: `${srcH}px` },
-//         bgcolor: "#ffffff",
-//       });
-//       imgData = await ensurePngDataUrl(jpeg);
-//     }
-
-//     // scale to page safely (no subtract-after-scale)
-//     const scale = Math.min(1, availW / srcW);
-//     const drawW = Math.max(1, Math.round(srcW * scale));
-//     const drawH = Math.max(1, Math.round(srcH * scale));
-
-//     // page break
-//     if (top + drawH > pageH - 30) {
-//       doc.addPage();
-//       top = marginTop;
-//     }
-
-//     // y offsets: keep your existing logic
-//     const y =
-//       i === 0 ? 5 :
-//         i === 1 ? top - 15 :
-//           i === elements.length - 1 ? top - 15 :
-//             top - 5;
-
-//     const extraH =
-//       i === 0 ? 12 :
-//         i === 1 ? 32 :
-//           i === elements.length - 1 ? 26 :
-//             28;
-
-//     doc.addImage(imgData, "PNG", padding, y, drawW, drawH + extraH, `image${i}`, "FAST");
-//     top += drawH + marginTop + 5;
-//   }
-// }
-
-/// GOOOD
-
-// pdfExport.js
 import jsPDF from "jspdf";
 import * as domtoimage from "dom-to-image-more";
 
@@ -384,6 +102,7 @@ async function createPdf_domToImage({ doc, elements }) {
     let imgData;
     try {
       imgData = await domtoimage.toPng(el, {
+        quality: 2,
         cacheBust: true,
         bgcolor: "#ffffff", // solid background avoids “blank-looking” transparent pages
         width: srcW,
@@ -393,7 +112,7 @@ async function createPdf_domToImage({ doc, elements }) {
     } catch {
       // Fallback to JPEG, then normalize back to PNG for jsPDF
       const jpeg = await domtoimage.toJpeg(el, {
-        quality: 0.95,
+        quality: 2,
         cacheBust: true,
         width: srcW,
         height: srcH,
@@ -428,14 +147,14 @@ async function createPdf_domToImage({ doc, elements }) {
             : top - 5;
 
     // Optional extra spacing (applied after drawing, not by altering image height)
-    const extraSpacing =
-      i === 0 ? 12 : i === 1 ? 32 : i === elements.length - 1 ? 26 : 28;
+    // const extraSpacing =
+    //   i === 0 ? 12 : i === 1 ? 32 : i === elements.length - 1 ? 26 : 28;
 
     // Draw with preserved aspect ratio
-    doc.addImage(imgData, "PNG", padding, y, drawW, drawH, `image${i}`, "FAST");
+    doc.addImage(imgData, "PNG", padding, y, drawW, drawH, `image${i}`, "SLOW");
 
     // Advance cursor for next element (use spacing here, not in image height)
-    top += drawH + marginTop + 5 + extraSpacing;
+    top += drawH + marginTop;
   }
 }
 
@@ -620,5 +339,159 @@ async function createPdf_domToImage({ doc, elements }) {
 //     doc.addImage(imgData, "PNG", padding, y, drawW, drawH + extraH, `image${i}`, "FAST");
 
 //     top += drawH + marginTop + 5;
+//   }
+// }
+
+
+// // pdfExport.js
+// import jsPDF from "jspdf";
+// import * as domtoimage from "dom-to-image-more";
+
+// /**
+//  * Tweak these two to taste:
+//  * - RENDER_SCALE: how many device pixels to render per CSS pixel (2–3 is typical)
+//  * - GAP: vertical space between stacked charts in the PDF (px, in PDF units because we use "px")
+//  */
+// const RENDER_SCALE = 2; // ↑ increase for sharper output (and larger files)
+// const GAP = 16;         // consistent spacing between charts
+
+// export async function exportMultipleChartsToPdf(pdfName, offLoading) {
+//   // Keep your ctor shape; jsPDF "px" unit is fine. We rely on higher source bitmap.
+//   const doc = new jsPDF("p", "px", "a4", true);
+
+//   const elements = document.getElementsByClassName("custom-chart");
+
+//   await createPdf_domToImage({ doc, elements });
+
+//   offLoading?.();
+//   doc.save(`${pdfName}.pdf`);
+// }
+
+// /* ---------- helpers (same API you had) ---------- */
+
+// async function ensurePngDataUrl(dataUrlOrBlobUrl) {
+//   // If it's already a PNG DataURL → return
+//   if (
+//     typeof dataUrlOrBlobUrl === "string" &&
+//     dataUrlOrBlobUrl.startsWith("data:image/png;base64,")
+//   ) {
+//     return dataUrlOrBlobUrl;
+//   }
+
+//   // If it's a blob: URL → fetch it, then convert to PNG
+//   if (
+//     typeof dataUrlOrBlobUrl === "string" &&
+//     dataUrlOrBlobUrl.startsWith("blob:")
+//   ) {
+//     const blob = await (await fetch(dataUrlOrBlobUrl)).blob();
+//     const imgBitmap = await createImageBitmap(blob);
+//     const canvas = document.createElement("canvas");
+//     canvas.width = imgBitmap.width;
+//     canvas.height = imgBitmap.height;
+//     const ctx = canvas.getContext("2d");
+//     ctx.drawImage(imgBitmap, 0, 0);
+//     return canvas.toDataURL("image/png");
+//   }
+
+//   // If it's a data: URL (svg, jpeg, etc.), draw onto canvas then export PNG
+//   if (
+//     typeof dataUrlOrBlobUrl === "string" &&
+//     dataUrlOrBlobUrl.startsWith("data:")
+//   ) {
+//     const img = await dataUrlToImage(dataUrlOrBlobUrl);
+//     const canvas = document.createElement("canvas");
+//     canvas.width = img.naturalWidth || img.width;
+//     canvas.height = img.naturalHeight || img.height;
+//     const ctx = canvas.getContext("2d");
+//     ctx.drawImage(img, 0, 0);
+//     return canvas.toDataURL("image/png");
+//   }
+
+//   throw new Error("normalize: unsupported image source for PNG conversion");
+// }
+
+// function dataUrlToImage(dataUrl) {
+//   return new Promise((resolve, reject) => {
+//     const img = new Image();
+//     img.crossOrigin = "anonymous";
+//     img.onload = () => resolve(img);
+//     img.onerror = reject;
+//     img.src = dataUrl;
+//   });
+// }
+
+// /* ---------- main renderer (dom-to-image-more), hi-DPI + tight spacing ---------- */
+
+// async function createPdf_domToImage({ doc, elements }) {
+//   const marginTop = 30;
+//   const paddingX = 20; // left/right margin when placing image
+//   let top = marginTop;
+
+//   // Wait for fonts before snapshot so text metrics are stable
+//   if (document.fonts?.ready) {
+//     try { await document.fonts.ready; } catch { }
+//   }
+
+//   const pageW = doc.internal.pageSize.getWidth();
+//   const pageH = doc.internal.pageSize.getHeight();
+//   const availW = Math.max(1, pageW - paddingX * 2);
+
+//   for (let i = 0; i < elements.length; i++) {
+//     const el = elements.item(i);
+//     if (!el) continue;
+
+//     // 1) Measure the element at CSS size
+//     const srcW = Math.max(1, el.offsetWidth);
+//     const srcH = Math.max(1, el.offsetHeight);
+
+//     // 2) Render at higher resolution to improve sharpness
+//     const renderW = Math.max(1, Math.round(srcW * RENDER_SCALE));
+//     const renderH = Math.max(1, Math.round(srcH * RENDER_SCALE));
+
+//     // 3) Snapshot DOM → PNG (dataURL) at hi-DPI; white background avoids “blank-looking” transparent pages
+//     let imgData;
+//     try {
+//       imgData = await domtoimage.toPng(el, {
+//         cacheBust: true,
+//         bgcolor: "#ffffff",
+//         width: renderW,
+//         height: renderH,
+//         // Render the clone at hi-DPI too, so everything (text, SVG) gets more pixels
+//         style: { width: `${renderW}px`, height: `${renderH}px` },
+//       });
+//     } catch {
+//       // Fallback to JPEG, then normalize to PNG
+//       const jpeg = await domtoimage.toJpeg(el, {
+//         quality: 0.98, // quality only affects JPEG path
+//         cacheBust: true,
+//         width: renderW,
+//         height: renderH,
+//         style: { width: `${renderW}px`, height: `${renderH}px` },
+//         bgcolor: "#ffffff",
+//       });
+//       imgData = await ensurePngDataUrl(jpeg);
+//     }
+
+//     // Ensure we hand jsPDF a valid PNG data URL
+//     imgData = await ensurePngDataUrl(imgData);
+
+//     // 4) Compute the drawn size on the PDF (keep aspect ratio)
+//     //    Note: use *CSS* size (srcW/srcH) for scaling relative to page width.
+//     const scale = Math.min(1, availW / srcW); // don’t upscale beyond CSS width on the page
+//     const drawW = Math.max(1, Math.round(srcW * scale));
+//     // drawH honors the original aspect ratio based on CSS size
+//     const drawH = Math.max(1, Math.round((srcH * drawW) / srcW));
+
+//     // 5) Page break if it won’t fit
+//     if (top + drawH > pageH - marginTop) {
+//       doc.addPage();
+//       top = marginTop;
+//     }
+
+//     // 6) Place image (use SLOW compression for better quality)
+//     doc.addImage(imgData, "PNG", paddingX, top, drawW, drawH, `image${i}`, "SLOW");
+
+//     // 7) Advance cursor by image height + constant GAP
+//     top += drawH + GAP;
 //   }
 // }

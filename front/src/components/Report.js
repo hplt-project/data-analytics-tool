@@ -148,14 +148,17 @@ export default function Report({ date, report, external, externalFilename, exter
 
   const totalDocs = documentSizesObj.totalDocuments;
 
+  // const ranOnceRef = useRef(false);
 
   useEffect(() => {
-    if (ranOnceRef.current) return;   // prevent StrictMode second run
-    ranOnceRef.current = true;
+    // if (ranOnceRef.current) return;   // prevent StrictMode second run
+    // ranOnceRef.current = true;
 
-    exportMultipleChartsToPdf(external ? externalFilename : filename, offLoading);
+    if (footNote) {
+      exportMultipleChartsToPdf(external ? externalFilename : filename, offLoading);
+    }
+
   }, [footNote]);
-  const ranOnceRef = useRef(false);
 
   useEffect(() => {
     document.body.style.overflow = showSample ? "hidden" : "unset";
