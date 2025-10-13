@@ -1,4 +1,5 @@
 v1.3:
+- New feature "External Files": load stats from local yaml files or urls.
 - Removed language codes from interface, only language names are shown now.
 
 v1.2:
