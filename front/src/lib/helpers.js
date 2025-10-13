@@ -1,4 +1,38 @@
 import { getEnglishName } from "all-iso-language-codes";
+import yaml from "js-yaml";
+
+export function parseYamlFile(file) {
+  const doc = yaml.load(file);
+
+  const entries = Object.entries(doc);
+
+  const result = {};
+
+  for (const [key, value] of entries) {
+    if (typeof value === 'string') {
+      try {
+        result[key] = JSON.parse(value);
+      } catch (error) {
+        result[key] = value; // Keep original string if parsing fails
+      }
+    } else {
+      result[key] = value;
+    }
+  }
+
+
+  let d;
+
+  if (doc) {
+    const timestamp_ms = doc["timestamp"];
+    const timestamp_secs = timestamp_ms * 1000;
+    d = new Date(timestamp_secs).toLocaleDateString();
+  } else {
+    d = "n/a;";
+  }
+  return { date: d, report: result };
+
+}
 import { langs } from "./langNames";
 
 export function codeToLangTransformer(languagesArray) {
@@ -220,7 +254,19 @@ export function multipleFilter(item, value) {
 
   );
 }
-
+export function downloadYAML(yamlString, filename = "data.yaml") {
+  try {
+    const blob = yamlString;
+    const test = new File([blob], `${filename}`);
+    const url = window.URL.createObjectURL(test);
+    const link = document.createElement("a");
+    link.href = url;
+    link.download = filename.includes("yaml") || filename.includes("yml") ? `${filename}` : `${filename}.yaml`;
+    link.click();
+  } catch (error) {
+    console.log(error, "Something went wrong with the download.");
+  }
+}
 
 
 export function replaceStringsCaseInsensitive(text, stringsToReplace) {

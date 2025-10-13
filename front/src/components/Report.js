@@ -1,10 +1,11 @@
-import { useEffect, useState } from "react";
+import { useEffect, useState, useRef } from "react";
 import BicleanerScores from "./BicleanerScores";
 import LanguagePieChart from "./LanguagePieChart";
 import {
   numberFormatter,
   languagePairName,
   handleDownload,
+  downloadYAML,
   convertSize,
 } from "@/lib/helpers";
 import { calculateDocumentSegments, processTokenFrequencies } from "@/lib/data";
@@ -32,7 +33,7 @@ import styles from "@/styles/Report.module.css";
 import NGrams from "./NGrams";
 import DocumentScores from "./DocumentScores";
 
-export default function Report({ date, report }) {
+export default function Report({ date, report, external, externalFilename, externalReport }) {
   if (!report) return;
 
   const router = useRouter();
@@ -59,7 +60,7 @@ export default function Report({ date, report }) {
 
   const datasetName = router.query.file;
 
-  const filename = router.query.file.replace(".yaml", "");
+  const filename = router.query.file ? router.query.file.replace(".yaml", "") : undefined;
 
   const sentences = sentence_pairs?.toLocaleString("en-US");
 
@@ -147,10 +148,16 @@ export default function Report({ date, report }) {
 
   const totalDocs = documentSizesObj.totalDocuments;
 
+  // const ranOnceRef = useRef(false);
+
   useEffect(() => {
+    // if (ranOnceRef.current) return;   // prevent StrictMode second run
+    // ranOnceRef.current = true;
+
     if (footNote) {
-      exportMultipleChartsToPdf(filename, offLoading);
+      exportMultipleChartsToPdf(external ? externalFilename : filename, offLoading);
     }
+
   }, [footNote]);
 
   useEffect(() => {
@@ -702,7 +709,7 @@ export default function Report({ date, report }) {
       <div className={[styles.reportButtons, styles.desktopNum].join(" ")}>
         <button
           className={buttonStyles["button-27"]}
-          onClick={() => handleDownload(datasetName)}
+          onClick={() => external ? downloadYAML(externalReport, externalFilename) : handleDownload(datasetName)}
           type="button"
         >
           Download yaml
@@ -712,9 +719,9 @@ export default function Report({ date, report }) {
           onClick={() => {
             setFootNote(true);
             setLoadingPdf(true);
-            if (footNote) {
-              exportMultipleChartsToPdf(filename, offLoading);
-            }
+            // if (footNote) {
+            //   exportMultipleChartsToPdf(external ? externalFilename : filename, offLoading);
+            // }
           }}
         >
           {!loadingPdf && <p> Export to PDF</p>}
