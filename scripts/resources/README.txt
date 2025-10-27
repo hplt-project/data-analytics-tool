@@ -51,12 +51,22 @@ Self-built: ab, ace, ast, awa, ayr, azb, ba, ban, bem, bho, bjn, bm, bs, bug,
 	tum, tw, tzm, ug, umb, vec, war, wo, xh, ydd
 
 Mapped: 
+* aeb: ar
+* apc: ar
+* arb: ar
+* ars: ar
+* ary: ar
+* arz: ar
 * azj: az
+* cmn: zh
+* fil: tl
+* gug: gn
 * khk: mn
+* ktu: kg
 * lvs: lv
 * pes: fa
 * swh: sw
+* zgh: tzm
 * zsm: ms
-
 
 

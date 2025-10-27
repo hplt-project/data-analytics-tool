@@ -28,6 +28,8 @@ def initialization():
     parser.add_argument('srclang', type=str, help="Source language")
     parser.add_argument('trglang', type=str, help="Target language")
     parser.add_argument('output', nargs='?', type=argparse.FileType('wt'), default=sys.stdout, help="Output.")
+    parser.add_argument('srclang2', type=str, help="Source language, 2 letters")
+    parser.add_argument('trglang2', type=str, help="Target language, 2 letters")
     
     # Logging group
     groupL = parser.add_argument_group('Logging')
@@ -66,8 +68,8 @@ def main():
     #logging_setup(args)
     logging.info("Starting process")
       
-    src_tokenizer = CustomTokenizer(args.srclang)
-    trg_tokenizer = CustomTokenizer(args.trglang)
+    src_tokenizer = CustomTokenizer(args.srclang2)
+    trg_tokenizer = CustomTokenizer(args.trglang2)
 
     logging.info("Tokenizing " + args.srclang + " with " +src_tokenizer.toktype + " (" + str(src_tokenizer.getWarnings()) +")") 
     logging.info("Tokenizing " + args.trglang + " with " +trg_tokenizer.toktype + " (" + str(src_tokenizer.getWarnings()) +")") 
@@ -91,10 +93,10 @@ def main():
     #src_ngrams_warnings = set()    
     #trg_ngrams_warnings = set()
     
-    src_stopwords, nwarnings = get_stopwords(args.srclang)
+    src_stopwords, nwarnings = get_stopwords(args.srclang2)
     #for w in nwarnings:
     #    src_ngrams_warnings.add("src_"+w)
-    trg_stopwords, nwarnings = get_stopwords(args.trglang)
+    trg_stopwords, nwarnings = get_stopwords(args.trglang2)
     #for w in nwarnings:
     #    trg_ngrams_warnings.add("trg_"+w)
     
@@ -169,8 +171,8 @@ def main():
         
         #ngrams
         
-        src_ngrams_dict, nwarning = get_line_ngrams(args.srclang, srctoks, 5, src_stopwords)        
-        trg_ngrams_dict, nwarning = get_line_ngrams(args.trglang, trgtoks, 5, trg_stopwords)        
+        src_ngrams_dict, nwarning = get_line_ngrams(args.srclang2, srctoks, 5, src_stopwords)        
+        trg_ngrams_dict, nwarning = get_line_ngrams(args.trglang2, trgtoks, 5, trg_stopwords)        
 
         for g in src_ngrams_dict.get(1):
             src_onegrams.append(" ".join(g))

@@ -1,0 +1,1195 @@
+corpus: hplt-v3-wol_Latn
+srclang: wo
+timestamp: 1758171434.9342816
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2014-15", 425], ["CC-MAIN-2023-50", 405], ["CC-MAIN-2024-38",
+  262], ["CC-MAIN-2024-26", 193], ["CC-MAIN-2024-10", 191], ["CC-MAIN-2018-34", 191],
+  ["wide12", 180], ["CC-MAIN-2024-18", 173], ["CC-MAIN-2024-46", 153], ["CC-MAIN-2024-33",
+  151], ["CC-MAIN-2024-30", 140], ["CC-MAIN-2020-05", 131], ["CC-MAIN-2014-35", 129],
+  ["CC-MAIN-2020-10", 109], ["CC-MAIN-2024-42", 100], ["CC-MAIN-2020-40", 96], ["CC-MAIN-2020-24",
+  94], ["wide11", 88], ["CC-MAIN-2020-45", 79], ["CC-MAIN-2024-51", 78], ["CC-MAIN-2021-25",
+  78], ["CC-MAIN-2020-29", 76], ["CC-MAIN-2021-43", 75], ["CC-MAIN-2022-33", 74],
+  ["wide16", 70], ["CC-MAIN-2021-04", 68], ["CC-MAIN-2018-05", 65], ["CC-MAIN-2021-10",
+  62], ["CC-MAIN-2023-14", 61], ["CC-MAIN-2017-26", 59], ["CC-MAIN-2021-49", 57],
+  ["CC-MAIN-2022-05", 55], ["CC-MAIN-2021-39", 49], ["CC-MAIN-2021-31", 49], ["CC-MAIN-2020-16",
+  49], ["CC-MAIN-2018-22", 44], ["CC-MAIN-2022-40", 43], ["CC-MAIN-2022-27", 43],
+  ["CC-MAIN-2023-06", 41], ["CC-MAIN-2022-49", 40], ["CC-MAIN-2024-22", 39], ["CC-MAIN-2022-21",
+  39], ["CC-MAIN-2021-17", 39], ["CC-MAIN-2018-39", 37], ["CC-MAIN-2017-51", 36],
+  ["CC-MAIN-2020-34", 35], ["CC-MAIN-2023-40", 34], ["wide10", 31], ["CC-MAIN-2019-04",
+  30], ["CC-MAIN-2021-21", 29], ["CC-MAIN-2023-23", 23], ["wide15", 22], ["CC-MAIN-2014-42",
+  21], ["wide2", 14], ["wide17", 13], ["wide6", 11], ["CC-MAIN-2017-04", 11], ["CC-MAIN-2020-50",
+  10], ["CC-MAIN-2018-43", 10], ["CC-MAIN-2015-11", 10], ["CC-MAIN-2016-44", 8], ["wide5",
+  7], ["CC-MAIN-2015-18", 7], ["CC-MAIN-2015-48", 5], ["survey3", 4], ["CC-MAIN-2016-40",
+  4], ["CC-MAIN-2016-30", 1]]'
+docs_langs: '[[0.1, 14], [0.2, 40], [0.3, 76], [0.4, 78], [0.5, 181], [0.6, 138],
+  [0.7, 190], [0.8, 366], [0.9, 604], [1.0, 3369]]'
+docs_segments: '[[1, 393], [2, 137], [3, 178], [4, 225], [5, 281], [6, 287], [7, 286],
+  [8, 202], [9, 200], [10, 188], [11, 164], [12, 137], [13, 145], [14, 112], [15,
+  121], [16, 92], [17, 95], [18, 81], [19, 91], [20, 72], [21, 80], [22, 75], [23,
+  90], [24, 65], [25, 54], [26, 61], [27, 54], [28, 50], [29, 44], [30, 37], [31,
+  47], [32, 32], [33, 36], [34, 41], [35, 27], [36, 27], [37, 30], [38, 26], [39,
+  22], [40, 24], [41, 13], [42, 17], [43, 16], [44, 26], [45, 15], [46, 20], [47,
+  19], [48, 9], [49, 20], [50, 6], [51, 14], [52, 28], [53, 12], [54, 15], [55, 11],
+  [56, 10], [57, 6], [58, 14], [59, 12], [60, 6], [61, 10], [62, 7], [63, 14], [64,
+  12], [65, 11], [66, 11], [67, 9], [68, 9], [69, 4], [70, 4], [71, 9], [72, 7], [73,
+  4], [74, 9], [75, 6], [76, 2], [77, 4], [78, 5], [79, 3], [80, 4], [81, 2], [82,
+  6], [83, 4], [84, 3], [85, 3], [86, 3], [87, 2], [88, 10], [89, 3], [90, 8], [91,
+  1], [92, 4], [93, 4], [94, 2], [95, 4], [97, 5], [98, 2], [101, 3], [102, 1], [103,
+  3], [104, 3], [106, 2], [107, 2], [108, 3], [109, 2], [110, 2], [111, 2], [112,
+  2], [113, 4], [114, 2], [115, 2], [116, 2], [117, 2], [118, 2], [119, 1], [122,
+  2], [123, 2], [125, 1], [129, 1], [130, 4], [131, 1], [135, 2], [136, 4], [137,
+  3], [139, 1], [140, 1], [141, 2], [142, 1], [144, 1], [148, 1], [150, 1], [153,
+  2], [154, 1], [155, 1], [157, 2], [158, 2], [159, 1], [163, 2], [165, 2], [168,
+  1], [172, 1], [176, 2], [177, 1], [178, 1], [180, 1], [183, 1], [184, 1], [195,
+  1], [199, 1], [201, 1], [207, 1], [213, 1], [218, 1], [223, 1], [233, 1], [240,
+  1], [245, 1], [251, 1], [254, 1], [258, 1], [265, 1], [268, 1], [272, 1], [276,
+  1], [278, 2], [281, 1], [296, 1], [299, 1], [303, 2], [305, 1], [311, 1], [327,
+  1], [343, 1], [348, 1], [356, 1], [378, 1], [389, 1], [392, 1], [404, 1], [431,
+  1], [437, 1], [461, 1], [470, 1], [490, 1], [515, 1], [668, 1], [738, 1], [877,
+  1], [885, 1], [892, 1], [954, 1], [967, 1], [1003, 1], [1067, 1], [1080, 1], [1146,
+  1], [1226, 1], [1618, 1], [2407, 1], [6013, 1], [6615, 1], [9597, 1], [14408, 1]]'
+docs_segments_mean: 32
+docs_segments_median: 11
+docs_top100_domains: '[["defuwaxu.com", 1420], ["wikipedia.org", 487], ["ebible.org",
+  475], ["breakeveryyoke.com", 444], ["bible.is", 358], ["jw.org", 197], ["ettubwolof.org",
+  173], ["wolof-online.com", 125], ["iqna.ir", 101], ["al-habdul-xadiim.com", 94],
+  ["jangwolof.com", 83], ["almahdiyou.org", 41], ["osad-sn.com", 32], ["islamhouse.com",
+  32], ["senego.com", 31], ["sacred-texts.com", 27], ["wiktionary.org", 25], ["hadeethenc.com",
+  25], ["planete-senegal.com", 24], ["sciencegraph.net", 21], ["seneweb.com", 20],
+  ["torproject.org", 19], ["saabal.com", 19], ["classicistranieri.com", 18], ["xalimasn.com",
+  16], ["senegalhit.com", 16], ["afrikalyrics.com", 16], ["currah.download", 15],
+  ["argger.net", 15], ["galsengenius.com", 13], ["cvi2.org", 13], ["wolofii.com",
+  12], ["toubabelel.net", 12], ["toubamajalis.com", 11], ["windows-10-help.info",
+  10], ["soodaan.com", 10], ["kirinapost.com", 10], ["kasahorow.org", 10], ["kallaamayreewmi.sn",
+  10], ["illinois.edu", 10], ["agriguide.org", 10], ["skyrock.com", 9], ["islamenc.com",
+  9], ["gotquestions.org", 9], ["e-tic.net", 9], ["bibles.org", 9], ["blogspot.com",
+  8], ["shazam.com", 7], ["microsoft.com", 7], ["domanovic.org", 7], ["thewords.com",
+  6], ["scribd.com", 6], ["projectfichte.org", 6], ["mozilla.org", 6], ["mino.dk",
+  6], ["know.cf", 6], ["bio-oil.com", 6], ["bible.com", 6], ["anafa.org", 6], ["ikna.ir",
+  5], ["g3sm.org", 5], ["ejowolofbooks.com", 5], ["alkhadimiyyah.org", 5], ["accessagriculture.org",
+  5], ["1xbetapk-sn.com", 5], ["wordpress.com", 4], ["woloftech.sn", 4], ["toutgalsen.com",
+  4], ["sodefitex.sn", 4], ["seereer.org", 4], ["medic-help.ch", 4], ["daarayi.com",
+  4], ["buleenragal.com", 4], ["wikiplanet.click", 3], ["wikimedia.org", 3], ["sunuinfos.net",
+  3], ["sunufm.com", 3], ["over-blog.com", 3], ["nomadeducation.fr", 3], ["mp3paw.net",
+  3], ["mediawiki.org", 3], ["maadsene.com", 3], ["lemonde.fr", 3], ["lamaisondesreporters.com",
+  3], ["fsilngabou.com", 3], ["codicepostale.co", 3], ["canalactu.com", 3], ["boubacarborisdiop.com",
+  3], ["aodl.org", 3], ["al-himma.com", 3], ["worldbank.org", 2], ["webislam.com",
+  2], ["vatican.va", 2], ["toubainfos.com", 2], ["sunulink.com", 2], ["senegaldirect.com",
+  2], ["senefoot.sn", 2], ["seneclic.com", 2], ["sdskofficiel.com", 2], ["saasunekk.com",
+  2]]'
+docs_top100_tld: '[["com", 2772], ["org", 1556], ["is", 358], ["ir", 106], ["net",
+  86], ["info", 30], ["sn", 25], ["fr", 18], ["download", 15], ["edu", 12], ["dk",
+  6], ["cf", 6], ["it", 5], ["co", 4], ["ch", 4], ["space", 3], ["io", 3], ["fm",
+  3], ["eu", 3], ["de", 3], ["club", 3], ["click", 3], ["va", 2], ["ru", 2], ["online",
+  2], ["nl", 2], ["live", 2], ["in", 2], ["gov", 2], ["coop", 2], ["cat", 2], ["africa",
+  2], ["xn--p1ai", 1], ["top", 1], ["site", 1], ["mobi", 1], ["gm", 1], ["global",
+  1], ["es", 1], ["edu.it", 1], ["com.ng", 1], ["com.br", 1], ["co.za", 1], ["co.uk",
+  1]]'
+docs_total: 5056
+docs_wds: '[[5.0, 69], [5.1, 63], [5.2, 48], [5.3, 33], [5.4, 44], [5.5, 62], [5.6,
+  61], [5.7, 55], [5.8, 77], [5.9, 53], [6.0, 64], [6.1, 59], [6.2, 89], [6.3, 57],
+  [6.4, 76], [6.5, 91], [6.6, 117], [6.7, 91], [6.8, 115], [6.9, 85], [7.0, 141],
+  [7.1, 116], [7.2, 122], [7.3, 155], [7.4, 244], [7.5, 234], [7.6, 251], [7.7, 221],
+  [7.8, 230], [7.9, 240], [8.0, 263], [8.1, 248], [8.2, 188], [8.3, 130], [8.4, 112],
+  [8.5, 111], [8.6, 145], [8.7, 88], [8.8, 86], [8.9, 103], [9.0, 73], [9.1, 75],
+  [9.2, 26], [9.3, 18], [9.4, 12], [9.5, 8], [9.6, 4], [9.7, 2], [9.8, 1]]'
+sentence_pairs: 161394
+src_bytes: 21251727
+src_chars: 20359482
+src_pii: 56
+src_tokens: 4877575
+unique_sents: 143895
+src_sent_tokens: '[[1, 8470], [2, 3157], [3, 3727], [4, 4985], [5, 6272], [6, 6911],
+  [7, 6596], [8, 6311], [9, 5613], [10, 4815], [11, 4314], [12, 3636], [13, 3280],
+  [14, 3482], [15, 3524], [16, 3857], [17, 4205], [18, 4237], [19, 3872], [20, 3662],
+  [21, 3390], [22, 3387], [23, 3105], [24, 3028], [25, 2767], [26, 2680], [27, 2364],
+  [28, 2142], [29, 1948], [30, 1796], [31, 1721], [32, 1601], [33, 1503], [34, 1357],
+  [35, 1297], [36, 1222], [37, 1211], [38, 1045], [39, 990], [40, 978], [41, 903],
+  [42, 867], [43, 818], [44, 719], [45, 704], [46, 674], [47, 596], [48, 640], [49,
+  520], [50, 549], [51, 450], [52, 453], [53, 415], [54, 431], [55, 395], [56, 401],
+  [57, 364], [58, 364], [59, 345], [60, 318], [61, 304], [62, 347], [63, 306], [64,
+  269], [65, 304], [66, 272], [67, 240], [68, 259], [69, 237], [70, 212], [71, 242],
+  [72, 232], [73, 226], [74, 225], [75, 214], [76, 192], [77, 200], [78, 194], [79,
+  205], [80, 178], [81, 181], [82, 177], [83, 162], [84, 182], [85, 190], [86, 179],
+  [87, 146], [88, 177], [89, 168], [90, 180], [91, 149], [92, 153], [93, 166], [94,
+  141], [95, 153], [96, 127], [97, 144], [98, 141], [99, 125], [100, 128], [101, 126],
+  [102, 134], [103, 135], [104, 137], [105, 125], [106, 135], [107, 118], [108, 120],
+  [109, 136], [110, 124], [111, 112], [112, 99], [113, 103], [114, 103], [115, 117],
+  [116, 94], [117, 98], [118, 100], [119, 107], [120, 93], [121, 92], [122, 87], [123,
+  87], [124, 92], [125, 73], [126, 77], [127, 72], [128, 87], [129, 76], [130, 80],
+  [131, 86], [132, 71], [133, 65], [134, 62], [135, 80], [136, 62], [137, 63], [138,
+  59], [139, 68], [140, 78], [141, 61], [142, 68], [143, 63], [144, 51], [145, 54],
+  [146, 49], [147, 56], [148, 54], [149, 60], [150, 59], [151, 55], [152, 61], [153,
+  44], [154, 67], [155, 50], [156, 46], [157, 47], [158, 46], [159, 47], [160, 53],
+  [161, 48], [162, 49], [163, 46], [164, 53], [165, 34], [166, 36], [167, 33], [168,
+  33], [169, 38], [170, 36], [171, 27], [172, 28], [173, 37], [174, 26], [175, 28],
+  [176, 43], [177, 21], [178, 29], [179, 29], [180, 29], [181, 35], [182, 33], [183,
+  24], [184, 34], [185, 30], [186, 22], [187, 29], [188, 32], [189, 23], [190, 24],
+  [191, 19], [192, 18], [193, 24], [194, 32], [195, 26], [196, 21], [197, 24], [198,
+  21], [199, 21], [200, 14], [201, 24], [202, 16], [203, 20], [204, 12], [205, 25],
+  [206, 16], [207, 12], [208, 17], [209, 23], [210, 17], [211, 18], [212, 15], [213,
+  19], [214, 14], [215, 18], [216, 15], [217, 18], [218, 8], [219, 9], [220, 13],
+  [221, 22], [222, 8], [223, 10], [224, 7], [225, 10], [226, 11], [227, 9], [228,
+  15], [229, 15], [230, 18], [231, 18], [232, 22], [233, 13], [234, 12], [235, 9],
+  [236, 14], [237, 16], [238, 10], [239, 8], [240, 6], [241, 16], [242, 16], [243,
+  13], [244, 14], [245, 8], [246, 7], [247, 12], [248, 5], [249, 7], [250, 10], [251,
+  12], [252, 9], [253, 6], [254, 5], [255, 4], [256, 7], [257, 7], [258, 7], [259,
+  8], [260, 9], [261, 5], [262, 11], [263, 9], [264, 7], [265, 11], [266, 3], [267,
+  6], [268, 5], [269, 2], [270, 8], [271, 10], [272, 5], [273, 4], [274, 5], [275,
+  10], [276, 5], [277, 4], [278, 10], [279, 7], [280, 2], [281, 7], [282, 3], [283,
+  1], [284, 11], [285, 6], [286, 5], [287, 12], [288, 3], [289, 5], [290, 4], [291,
+  6], [292, 3], [293, 5], [294, 6], [295, 6], [296, 14], [297, 6], [298, 7], [299,
+  5], [300, 9], [301, 4], [302, 4], [303, 2], [304, 3], [305, 5], [306, 2], [307,
+  4], [308, 6], [309, 4], [310, 5], [311, 4], [312, 5], [313, 4], [314, 3], [315,
+  4], [316, 3], [317, 4], [318, 6], [319, 1], [320, 2], [321, 7], [322, 6], [323,
+  7], [324, 4], [325, 6], [326, 3], [327, 2], [328, 1], [329, 2], [330, 2], [331,
+  3], [332, 3], [333, 4], [334, 4], [336, 2], [337, 6], [338, 2], [339, 3], [340,
+  5], [342, 1], [343, 6], [344, 1], [345, 3], [346, 3], [347, 5], [348, 2], [349,
+  4], [350, 3], [351, 1], [352, 1], [353, 1], [354, 3], [356, 5], [357, 3], [359,
+  1], [361, 3], [362, 3], [363, 2], [364, 6], [365, 1], [366, 5], [367, 1], [368,
+  1], [370, 2], [372, 3], [373, 3], [374, 2], [375, 1], [376, 2], [377, 1], [378,
+  1], [380, 2], [381, 2], [382, 1], [383, 3], [384, 1], [385, 1], [386, 2], [388,
+  1], [389, 3], [390, 2], [391, 1], [392, 4], [393, 1], [395, 2], [397, 3], [398,
+  5], [400, 2], [402, 1], [403, 1], [404, 3], [405, 1], [406, 3], [407, 1], [408,
+  1], [411, 2], [412, 3], [414, 2], [415, 2], [416, 3], [417, 2], [419, 3], [420,
+  5], [423, 1], [427, 1], [428, 4], [429, 3], [431, 1], [432, 1], [433, 3], [435,
+  2], [437, 3], [440, 2], [441, 3], [442, 2], [443, 1], [444, 1], [446, 1], [447,
+  1], [448, 1], [450, 1], [451, 1], [454, 1], [458, 1], [459, 2], [461, 2], [465,
+  1], [469, 4], [470, 4], [472, 3], [473, 3], [475, 1], [476, 1], [477, 1], [478,
+  1], [479, 2], [480, 2], [483, 1], [484, 2], [485, 1], [486, 1], [487, 1], [488,
+  2], [490, 1], [492, 1], [494, 1], [495, 2], [496, 1], [497, 1], [498, 3], [499,
+  3], [501, 1], [502, 1], [505, 3], [506, 1], [509, 3], [512, 2], [513, 3], [514,
+  3], [515, 1], [516, 2], [517, 1], [518, 1], [519, 1], [520, 1], [521, 1], [522,
+  3], [523, 1], [526, 1], [527, 1], [529, 2], [530, 2], [533, 1], [534, 1], [535,
+  1], [536, 1], [541, 3], [542, 2], [546, 1], [547, 1], [549, 1], [550, 1], [551,
+  1], [555, 1], [558, 2], [560, 2], [562, 1], [563, 2], [566, 1], [569, 1], [572,
+  2], [573, 2], [575, 1], [576, 1], [577, 1], [578, 1], [580, 1], [581, 1], [582,
+  1], [584, 2], [585, 1], [588, 3], [589, 1], [590, 1], [594, 1], [595, 1], [596,
+  2], [599, 2], [602, 2], [604, 2], [607, 2], [608, 1], [609, 2], [611, 2], [618,
+  1], [620, 1], [628, 2], [631, 1], [641, 1], [646, 1], [647, 1], [648, 3], [649,
+  2], [653, 3], [654, 1], [656, 1], [657, 1], [659, 1], [661, 1], [663, 1], [666,
+  1], [669, 2], [673, 1], [678, 2], [680, 1], [682, 1], [683, 1], [685, 1], [686,
+  1], [687, 1], [692, 1], [702, 1], [703, 1], [704, 2], [711, 1], [714, 1], [716,
+  1], [717, 1], [723, 1], [724, 1], [725, 1], [726, 1], [727, 1], [728, 1], [731,
+  2], [732, 1], [736, 1], [743, 1], [744, 1], [746, 1], [749, 1], [750, 1], [752,
+  2], [755, 1], [759, 1], [762, 2], [764, 1], [768, 2], [773, 2], [775, 3], [779,
+  1], [780, 1], [787, 2], [788, 1], [793, 2], [798, 3], [799, 1], [804, 1], [806,
+  1], [808, 1], [809, 1], [816, 2], [817, 1], [824, 1], [829, 1], [832, 1], [833,
+  1], [834, 2], [838, 1], [842, 1], [846, 1], [850, 2], [851, 1], [853, 1], [855,
+  2], [861, 2], [862, 1], [863, 1], [867, 1], [870, 1], [871, 1], [873, 1], [874,
+  1], [878, 2], [879, 1], [880, 1], [884, 1], [891, 1], [892, 2], [895, 1], [903,
+  1], [905, 1], [909, 1], [910, 1], [922, 1], [926, 1], [931, 1], [936, 2], [937,
+  1], [938, 1], [947, 1], [950, 1], [961, 1], [962, 1], [966, 1], [967, 1], [971,
+  2], [972, 1], [984, 2], [996, 1], [1005, 1], [1007, 2], [1008, 1], [1009, 1], [1013,
+  1], [1020, 1], [1025, 1], [1026, 1], [1030, 1], [1031, 1], [1036, 1], [1040, 1],
+  [1043, 1], [1045, 1], [1049, 1], [1050, 1], [1052, 1], [1061, 1], [1063, 1], [1071,
+  1], [1074, 1], [1075, 2], [1078, 2], [1079, 1], [1084, 1], [1086, 1], [1089, 1],
+  [1090, 1], [1093, 1], [1097, 3], [1101, 1], [1102, 1], [1118, 1], [1120, 1], [1122,
+  2], [1124, 1], [1125, 1], [1126, 1], [1129, 1], [1134, 1], [1135, 1], [1136, 1],
+  [1142, 1], [1144, 1], [1145, 1], [1146, 2], [1149, 1], [1150, 1], [1152, 1], [1153,
+  1], [1154, 1], [1155, 1], [1158, 1], [1160, 1], [1161, 1], [1163, 1], [1165, 1],
+  [1171, 1], [1173, 1], [1180, 1], [1187, 1], [1188, 1], [1190, 1], [1195, 2], [1200,
+  1], [1212, 1], [1213, 1], [1218, 1], [1219, 1], [1222, 1], [1227, 1], [1231, 1],
+  [1234, 1], [1240, 1], [1243, 1], [1247, 1], [1252, 1], [1255, 1], [1262, 2], [1263,
+  1], [1265, 1], [1272, 1], [1276, 1], [1281, 1], [1287, 1], [1288, 1], [1297, 1],
+  [1303, 2], [1309, 1], [1313, 1], [1317, 1], [1319, 1], [1328, 1], [1329, 1], [1332,
+  1], [1340, 1], [1362, 1], [1367, 1], [1369, 1], [1376, 1], [1393, 1], [1394, 1],
+  [1395, 1], [1399, 1], [1406, 1], [1407, 1], [1411, 1], [1418, 1], [1419, 1], [1435,
+  2], [1440, 1], [1451, 1], [1452, 1], [1455, 1], [1460, 1], [1462, 1], [1468, 1],
+  [1488, 1], [1493, 1], [1496, 1], [1497, 1], [1501, 1], [1508, 1], [1509, 1], [1519,
+  1], [1532, 1], [1546, 1], [1549, 1], [1555, 1], [1562, 1], [1569, 1], [1572, 1],
+  [1580, 2], [1583, 1], [1606, 1], [1608, 1], [1618, 1], [1622, 2], [1623, 1], [1632,
+  1], [1637, 1], [1639, 1], [1646, 1], [1657, 1], [1670, 1], [1691, 1], [1696, 1],
+  [1715, 1], [1730, 1], [1742, 1], [1747, 1], [1748, 1], [1813, 1], [1821, 1], [1827,
+  1], [1831, 1], [1832, 1], [1898, 1], [1900, 1], [1901, 1], [1911, 1], [1913, 1],
+  [1914, 1], [1925, 1], [1937, 1], [1970, 1], [1981, 1], [2000, 1], [2009, 1], [2018,
+  1], [2024, 1], [2030, 1], [2038, 1], [2046, 2], [2050, 1], [2077, 1], [2121, 1],
+  [2123, 1], [2124, 1], [2125, 1], [2139, 1], [2193, 1], [2216, 1], [2239, 1], [2317,
+  1], [2460, 1], [2477, 1], [2518, 1], [2524, 1], [2532, 1], [2558, 1], [2568, 1],
+  [2577, 1], [2607, 1], [2643, 1], [2696, 1], [2889, 1], [2982, 1], [4101, 1]]'
+src_sent_tokens_mean: 30
+src_sent_tokens_median: 17
+src_unique_sents: '[[1, 2337], [2, 1988], [3, 2593], [4, 3876], [5, 5072], [6, 5895],
+  [7, 5880], [8, 5714], [9, 5207], [10, 4528], [11, 4110], [12, 3392], [13, 3123],
+  [14, 3315], [15, 3412], [16, 3770], [17, 4120], [18, 4128], [19, 3727], [20, 3589],
+  [21, 3322], [22, 3300], [23, 3042], [24, 2965], [25, 2707], [26, 2575], [27, 2309],
+  [28, 2083], [29, 1853], [30, 1707], [31, 1636], [32, 1540], [33, 1456], [34, 1317],
+  [35, 1259], [36, 1190], [37, 1176], [38, 1017], [39, 954], [40, 946], [41, 867],
+  [42, 820], [43, 794], [44, 704], [45, 667], [46, 647], [47, 583], [48, 621], [49,
+  506], [50, 533], [51, 434], [52, 435], [53, 394], [54, 415], [55, 385], [56, 386],
+  [57, 347], [58, 343], [59, 329], [60, 292], [61, 283], [62, 313], [63, 289], [64,
+  252], [65, 277], [66, 253], [67, 226], [68, 238], [69, 224], [70, 204], [71, 232],
+  [72, 222], [73, 221], [74, 212], [75, 207], [76, 187], [77, 187], [78, 186], [79,
+  194], [80, 172], [81, 170], [82, 166], [83, 157], [84, 180], [85, 182], [86, 175],
+  [87, 143], [88, 164], [89, 161], [90, 173], [91, 145], [92, 151], [93, 162], [94,
+  136], [95, 149], [96, 121], [97, 140], [98, 137], [99, 123], [100, 122], [101, 123],
+  [102, 132], [103, 128], [104, 131], [105, 121], [106, 129], [107, 110], [108, 116],
+  [109, 121], [110, 121], [111, 108], [112, 97], [113, 98], [114, 99], [115, 105],
+  [116, 92], [117, 92], [118, 97], [119, 99], [120, 91], [121, 90], [122, 80], [123,
+  86], [124, 88], [125, 71], [126, 75], [127, 70], [128, 83], [129, 74], [130, 77],
+  [131, 85], [132, 67], [133, 63], [134, 61], [135, 75], [136, 60], [137, 61], [138,
+  58], [139, 66], [140, 70], [141, 56], [142, 65], [143, 62], [144, 49], [145, 54],
+  [146, 48], [147, 56], [148, 47], [149, 58], [150, 56], [151, 51], [152, 57], [153,
+  36], [154, 62], [155, 46], [156, 45], [157, 43], [158, 44], [159, 45], [160, 52],
+  [161, 47], [162, 43], [163, 43], [164, 50], [165, 32], [166, 33], [167, 32], [168,
+  32], [169, 36], [170, 35], [171, 26], [172, 27], [173, 35], [174, 26], [175, 27],
+  [176, 34], [177, 21], [178, 29], [179, 29], [180, 27], [181, 33], [182, 31], [183,
+  24], [184, 34], [185, 29], [186, 22], [187, 27], [188, 27], [189, 22], [190, 22],
+  [191, 19], [192, 18], [193, 24], [194, 29], [195, 24], [196, 21], [197, 22], [198,
+  21], [199, 21], [200, 14], [201, 22], [202, 16], [203, 20], [204, 10], [205, 24],
+  [206, 14], [207, 11], [208, 16], [209, 23], [210, 17], [211, 17], [212, 15], [213,
+  17], [214, 14], [215, 16], [216, 15], [217, 17], [218, 8], [219, 9], [220, 13],
+  [221, 21], [222, 8], [223, 10], [224, 7], [225, 9], [226, 11], [227, 9], [228, 14],
+  [229, 15], [230, 18], [231, 18], [232, 19], [233, 13], [234, 10], [235, 9], [236,
+  14], [237, 14], [238, 9], [239, 8], [240, 6], [241, 15], [242, 16], [243, 13], [244,
+  13], [245, 8], [246, 7], [247, 12], [248, 5], [249, 7], [250, 10], [251, 12], [252,
+  7], [253, 6], [254, 5], [255, 3], [256, 7], [257, 6], [258, 7], [259, 8], [260,
+  7], [261, 5], [262, 10], [263, 8], [264, 7], [265, 11], [266, 2], [267, 5], [268,
+  5], [269, 2], [270, 8], [271, 7], [272, 5], [273, 4], [274, 5], [275, 10], [276,
+  4], [277, 4], [278, 8], [279, 7], [280, 2], [281, 7], [282, 3], [283, 1], [284,
+  11], [285, 6], [286, 5], [287, 9], [288, 3], [289, 4], [290, 4], [291, 6], [292,
+  3], [293, 4], [294, 6], [295, 6], [296, 10], [297, 5], [298, 7], [299, 5], [300,
+  7], [301, 4], [302, 4], [303, 2], [304, 3], [305, 5], [306, 2], [307, 4], [308,
+  6], [309, 4], [310, 4], [311, 4], [312, 5], [313, 4], [314, 3], [315, 4], [316,
+  3], [317, 4], [318, 6], [319, 1], [320, 2], [321, 7], [322, 5], [323, 7], [324,
+  4], [325, 6], [326, 3], [327, 2], [328, 1], [329, 2], [330, 2], [331, 3], [332,
+  3], [333, 4], [334, 4], [336, 2], [337, 4], [338, 2], [339, 3], [340, 5], [342,
+  1], [343, 6], [344, 1], [345, 2], [346, 3], [347, 5], [348, 2], [349, 4], [350,
+  3], [351, 1], [352, 1], [353, 1], [354, 3], [356, 5], [357, 3], [359, 1], [361,
+  3], [362, 2], [363, 2], [364, 5], [365, 1], [366, 5], [367, 1], [368, 1], [370,
+  2], [372, 3], [373, 3], [374, 2], [375, 1], [376, 2], [377, 1], [378, 1], [380,
+  2], [381, 2], [382, 1], [383, 3], [384, 1], [385, 1], [386, 2], [388, 1], [389,
+  3], [390, 2], [391, 1], [392, 4], [393, 1], [395, 2], [397, 3], [398, 4], [400,
+  2], [402, 1], [403, 1], [404, 3], [405, 1], [406, 3], [407, 1], [408, 1], [411,
+  2], [412, 3], [414, 2], [415, 2], [416, 2], [417, 2], [419, 3], [420, 5], [423,
+  1], [427, 1], [428, 4], [429, 2], [431, 1], [432, 1], [433, 3], [435, 2], [437,
+  2], [440, 2], [441, 2], [442, 2], [443, 1], [444, 1], [446, 1], [447, 1], [448,
+  1], [450, 1], [451, 1], [454, 1], [458, 1], [459, 2], [461, 2], [465, 1], [469,
+  4], [470, 3], [472, 2], [473, 3], [475, 1], [476, 1], [477, 1], [478, 1], [479,
+  2], [480, 2], [483, 1], [484, 2], [485, 1], [486, 1], [487, 1], [488, 2], [490,
+  1], [492, 1], [494, 1], [495, 2], [496, 1], [497, 1], [498, 3], [499, 3], [501,
+  1], [502, 1], [505, 2], [506, 1], [509, 3], [512, 2], [513, 3], [514, 2], [515,
+  1], [516, 2], [517, 1], [518, 1], [519, 1], [520, 1], [521, 1], [522, 3], [523,
+  1], [526, 1], [527, 1], [529, 2], [530, 2], [533, 1], [534, 1], [535, 1], [536,
+  1], [541, 3], [542, 2], [546, 1], [547, 1], [549, 1], [550, 1], [551, 1], [555,
+  1], [558, 2], [560, 2], [562, 1], [563, 2], [566, 1], [569, 1], [572, 2], [573,
+  2], [575, 1], [576, 1], [577, 1], [578, 1], [580, 1], [581, 1], [582, 1], [584,
+  2], [585, 1], [588, 3], [589, 1], [590, 1], [594, 1], [595, 1], [596, 2], [599,
+  2], [602, 2], [604, 2], [607, 2], [608, 1], [609, 2], [611, 2], [618, 1], [620,
+  1], [628, 1], [631, 1], [641, 1], [646, 1], [647, 1], [648, 3], [649, 2], [653,
+  3], [654, 1], [656, 1], [657, 1], [659, 1], [661, 1], [663, 1], [666, 1], [669,
+  2], [673, 1], [678, 2], [680, 1], [682, 1], [683, 1], [685, 1], [686, 1], [687,
+  1], [692, 1], [702, 1], [703, 1], [704, 2], [711, 1], [714, 1], [716, 1], [717,
+  1], [723, 1], [724, 1], [725, 1], [726, 1], [727, 1], [728, 1], [731, 2], [732,
+  1], [736, 1], [743, 1], [744, 1], [746, 1], [749, 1], [750, 1], [752, 2], [755,
+  1], [759, 1], [762, 2], [764, 1], [768, 2], [773, 2], [775, 3], [779, 1], [780,
+  1], [787, 2], [788, 1], [793, 2], [798, 3], [799, 1], [804, 1], [806, 1], [808,
+  1], [809, 1], [816, 2], [817, 1], [824, 1], [829, 1], [832, 1], [833, 1], [834,
+  2], [838, 1], [842, 1], [846, 1], [850, 2], [851, 1], [853, 1], [855, 2], [861,
+  2], [862, 1], [863, 1], [867, 1], [870, 1], [871, 1], [873, 1], [874, 1], [878,
+  2], [879, 1], [880, 1], [884, 1], [891, 1], [892, 2], [895, 1], [903, 1], [905,
+  1], [909, 1], [910, 1], [922, 1], [926, 1], [931, 1], [936, 2], [937, 1], [938,
+  1], [947, 1], [950, 1], [961, 1], [962, 1], [966, 1], [967, 1], [971, 2], [972,
+  1], [984, 2], [996, 1], [1005, 1], [1007, 2], [1008, 1], [1009, 1], [1013, 1], [1020,
+  1], [1025, 1], [1026, 1], [1030, 1], [1031, 1], [1036, 1], [1040, 1], [1043, 1],
+  [1045, 1], [1049, 1], [1050, 1], [1052, 1], [1061, 1], [1063, 1], [1071, 1], [1074,
+  1], [1075, 2], [1078, 2], [1079, 1], [1084, 1], [1086, 1], [1089, 1], [1090, 1],
+  [1093, 1], [1097, 3], [1101, 1], [1102, 1], [1118, 1], [1120, 1], [1122, 2], [1124,
+  1], [1125, 1], [1126, 1], [1129, 1], [1134, 1], [1135, 1], [1136, 1], [1142, 1],
+  [1144, 1], [1145, 1], [1146, 2], [1149, 1], [1150, 1], [1152, 1], [1153, 1], [1154,
+  1], [1155, 1], [1158, 1], [1160, 1], [1161, 1], [1163, 1], [1165, 1], [1171, 1],
+  [1173, 1], [1180, 1], [1187, 1], [1188, 1], [1190, 1], [1195, 2], [1200, 1], [1212,
+  1], [1213, 1], [1218, 1], [1219, 1], [1222, 1], [1227, 1], [1231, 1], [1234, 1],
+  [1240, 1], [1243, 1], [1247, 1], [1252, 1], [1255, 1], [1262, 2], [1263, 1], [1265,
+  1], [1272, 1], [1276, 1], [1281, 1], [1287, 1], [1288, 1], [1297, 1], [1303, 2],
+  [1309, 1], [1313, 1], [1317, 1], [1319, 1], [1328, 1], [1329, 1], [1332, 1], [1340,
+  1], [1362, 1], [1367, 1], [1369, 1], [1376, 1], [1393, 1], [1394, 1], [1395, 1],
+  [1399, 1], [1406, 1], [1407, 1], [1411, 1], [1418, 1], [1419, 1], [1435, 2], [1440,
+  1], [1451, 1], [1452, 1], [1455, 1], [1460, 1], [1462, 1], [1468, 1], [1488, 1],
+  [1493, 1], [1496, 1], [1497, 1], [1501, 1], [1508, 1], [1509, 1], [1519, 1], [1532,
+  1], [1546, 1], [1549, 1], [1555, 1], [1562, 1], [1569, 1], [1572, 1], [1580, 2],
+  [1583, 1], [1606, 1], [1608, 1], [1618, 1], [1622, 2], [1623, 1], [1632, 1], [1637,
+  1], [1639, 1], [1646, 1], [1657, 1], [1670, 1], [1691, 1], [1696, 1], [1715, 1],
+  [1730, 1], [1742, 1], [1747, 1], [1748, 1], [1813, 1], [1821, 1], [1827, 1], [1831,
+  1], [1832, 1], [1898, 1], [1900, 1], [1901, 1], [1911, 1], [1913, 1], [1914, 1],
+  [1925, 1], [1937, 1], [1970, 1], [1981, 1], [2000, 1], [2009, 1], [2018, 1], [2024,
+  1], [2030, 1], [2038, 1], [2046, 2], [2050, 1], [2077, 1], [2121, 1], [2123, 1],
+  [2124, 1], [2125, 1], [2139, 1], [2193, 1], [2216, 1], [2239, 1], [2317, 1], [2460,
+  1], [2477, 1], [2518, 1], [2524, 1], [2532, 1], [2558, 1], [2568, 1], [2577, 1],
+  [2607, 1], [2643, 1], [2696, 1], [2889, 1], [2982, 1], [4101, 1]]'
+src_langs: '[["cy", 22242], ["en", 21990], ["fr", 13017], ["su", 7676], ["tl", 7639],
+  ["la", 6036], ["it", 5857], ["es", 5606], ["et", 4401], ["nl", 3996], ["fi", 3509],
+  ["war", 2768], ["de", 2474], ["ku", 2358], ["tr", 2321], ["sw", 2289], ["br", 2138],
+  ["mt", 1929], ["sq", 1880], ["kw", 1838], ["ca", 1625], ["lmo", 1413], ["so", 1394],
+  ["scn", 1380], ["ur", 1287], ["hu", 1218], ["ms", 1135], ["wa", 1088], ["eo", 1001],
+  ["ast", 987], ["ht", 886], ["ml", 846], ["ilo", 836], ["ro", 784], ["gv", 738],
+  ["sl", 702], ["oc", 697], ["af", 697], ["yo", 667], ["fy", 666], ["id", 651], ["pl",
+  627], ["jbo", 617], ["ceb", 601], ["hr", 588], ["kn", 541], ["ar", 540], ["nb",
+  526], ["cs", 508], ["az", 508], ["jv", 498], ["eu", 481], ["sv", 470], ["fa", 461],
+  ["lb", 436], ["sco", 410], ["bn", 409], ["pms", 408], ["diq", 384], ["pt", 367],
+  ["ru", 327], ["rm", 327], ["qu", 303], ["ie", 302], ["io", 287], ["da", 282], ["nap",
+  273], ["gn", 270], ["vi", 258], ["sr", 253], ["ia", 249], ["uz", 244], ["sc", 244],
+  ["nah", 222], ["si", 220], ["als", 190], ["ga", 182], ["gd", 178], ["pam", 163],
+  ["co", 163], ["el", 156], ["nds", 155], ["gom", 146], ["zh", 145], ["azb", 145],
+  ["ja", 137], ["ta", 133], ["an", 133], ["bcl", 132], ["vec", 126], ["lo", 117],
+  ["mg", 116], ["lt", 110], ["ckb", 105], ["is", 102], ["tg", 100], ["tk", 98], ["ug",
+  94], ["uk", 92], ["bar", 92], ["hsb", 88], ["cbk", 85], ["hif", 81], ["gu", 81],
+  ["ne", 79], ["li", 77], ["nn", 76], ["gl", 70], ["lv", 67], ["dv", 66], ["min",
+  65], ["sk", 61], ["ps", 60], ["eml", 59], ["vls", 58], ["dsb", 51], ["hy", 50],
+  ["vep", 45], ["th", 45], ["pa", 44], ["mr", 42], ["lrc", 39], ["arz", 37], ["my",
+  36], ["hi", 36], ["bs", 34], ["pnb", 33], ["mn", 33], ["pfl", 25], ["mwl", 25],
+  ["te", 24], ["frr", 22], ["wuu", 18], ["vo", 17], ["mk", 17], ["bh", 17], ["new",
+  16], ["ky", 14], ["ko", 14], ["am", 14], ["mai", 13], ["kv", 12], ["mzn", 11], ["ce",
+  11], ["be", 9], ["krc", 8], ["kk", 8], ["os", 7], ["or", 7], ["he", 7], ["yi", 6],
+  ["sah", 6], ["mrj", 6], ["km", 6], ["as", 6], ["tyv", 5], ["sa", 5], ["xal", 4],
+  ["tt", 3], ["cv", 3], ["xmf", 2], ["mhr", 2], ["lez", 2], ["ka", 2], ["bg", 2],
+  ["ba", 2], ["sd", 1], ["myv", 1], ["bxr", 1], ["bpy", 1], ["bo", 1]]'
+hardrules_tags: '{"not_too_long": 1232, "not_too_short": 14444, "length_ratio": 0,
+  "no_urls": 563, "no_bad_encoding": 84, "pii": 56}'
+sample: '["\"Saar 22\\n1 J\u00ebw bu rafet a g\u00ebn barele,\\nwegeel g\u00ebn xaalis
+  ak wurus.\\n2 Ku am ak ku \u00f1\u00e0kk a bokk lenn:\\nAji Sax jee leen boole s\u00e0kk.\\n3
+  Kuy foog, gisu ay, l\u00e0qu;\\nab t\u00e9x\u00e9t ne ca t\u00eb\u00f1\u00ebx, loru.\\n4
+  Woyofal te ragal Aji Sax ji,\\nam alal, gudd fan ak daraja.\\n5 Yoonu njubla\u014b,
+  ay d\u00e9g aki fiir;\\nku s\u00e0mm sa bakkan sore ko.\\n6 Tegal gone ciw yoon,\\nba
+  bu m\u00e0ggee, du ko wacc.\\n7 Ku am ay yilif ku \u00f1\u00e0kk,\\nkoo leb di surgaam.\\n8
+  Ku ji njubadi, g\u00f3ob fitna,\\nyet wa muy d\u00f3ore, damm.\\n9 Ku tabe am barke,\\nmooy
+  kiy s\u00e9dd ku \u00f1\u00e0kk cib dundam.\\n10 D\u00e0qal kuy \u00f1aawle, ay
+  jeex,\\nxulooki saaga dakk.\\n11 Ku d\u00ebggu, wax ja yiw,\\nbuur di xaritam.\\n12
+  Aji Sax jeey s\u00e0mm liy d\u00ebgg,\\ndi weddi waxi fen-kat.\\n13 Bul yaafus,
+  ba naan: \u00abGayndee ngi ci biti,\\nda\u00f1u may rey ci mbedd mi!\u00bb\\n14
+  Waxi ndaw su yemadi am yeer la,\\nku Aji Sax ji r\u00ebbb moo cay t\u00e0bbi.\\n15
+  Y\u00ebfi dof daa sax ci xolu gone,\\nboo bantalee, mu t\u00e0ggook moom.\\n16 Not
+  n\u00e9ew-ji-doole ngir yokkule,\\nmbaa may boroom alal,\\nloo ci def mu w\u00e0\u00f1\u00f1i
+  la.\\nFanweeri tegtal a ngi\\n17 Teewlul te d\u00e9glu li boroom xel yi wax.\\nDefal
+  sam xel ci li ma lay xamal.\\n18 Soo mokkalee, ba man koo tari,\\nmuy sa mb\u00e9gte.\\n19
+  Yaw laa koy xamal tey jii,\\nndax nga w\u00f3olu Aji Sax ji.\\n20 Dama laa bindal
+  fanweeri d\u00e9nkaane,\\nci w\u00e0llu digal ak xam-xam,\\n21 ngir xamal la lu
+  w\u00e9r te d\u00ebggu,\\nnga y\u00f3bbaale k\u00e0dduy d\u00ebgg,\\nyoo tontoo
+  \u00f1a la yebal.\\n[1]\\n22 Bul xa\u00f1 n\u00e9ew-ji-doole; n\u00e9ew-ji-doole
+  la.\\nKu tumur\u00e0nke, bu ko soxore cib \u00e0tte,\\n23 Aji Sax ji da koy taxawu,\\nku
+  ko xa\u00f1, mu xa\u00f1 la bakkan.\\n[2]\\n24 Bul xaritook ku gaawa mer,\\nbul
+  \u00e0nd ak ku t\u00e0ng bopp.\\n25 Lu ko moy nga mel ni moom,\\nte kon nga lonku.\\n[3]\\n26
+  Bul bokk ci \u00f1iy dige,\\ndi g\u00e0ddul nit bor.\\n27 Soo amul loo ko feyale,\\n\u00f1u
+  y\u00e9kkatee la sab lal, nangu ko.\\n[4]\\n28 Bul toxal m\u00e0ndargam cosaan ci
+  l\u00e0ccu suuf\\nte say maam tegoon ko fa d\u00e9mb.\\n[5]\\n29 Seetlul ku man
+  ligg\u00e9eyam,\\nbuur lay ligg\u00e9eyal,\\ndu ligg\u00e9eyal baadoolo.\"", "\"PAAP
+  AALI J\u00c0LLO\\nGeorge Floyd, jamono jii, mooy n\u00e9ew bi g\u00ebn a siiw ci
+  \u00e0ddina s\u00e9pp. Li kob takk-der bu weex faat ci anam yu \u00f1aaw a \u00f1aaw,
+  nag, moo waral coow li jib boobaak l\u00e9egi.\\nBees sukkandikoo ci y\u00e9enekaayu
+  Amerig bi, \u201dNew York Times\u201d, l\u00e9pp a ngi door ci b\u00e9sub altine,
+  25eelu fan ci weeru Me. Dafa amoon ku woo takk-der yi, ne leen am na jenn waay ju
+  j\u00ebnd sigaret ci benn m\u00e0ngasin, feye kook sagarub 20i dolaar bu baaxul.
+  Nee \u00f1u, waa jooju, George Floyd la tuddoon. Moom, George Floyd, wattuwaafoonu
+  kaaraange la woon ci benn feccukaayu guddi. Waaye, dafa \u00f1\u00e0kkoon ligg\u00e9eyam
+  ci sababu mbas mi l\u00ebmbe \u00e0ddina.\\nBi 19iw57is jotee, la\u00f1 woo p\u00f3lis
+  ne leen George Floyd xaalis bu baaxul la j\u00ebnde ay sigaret. \u00d1u teg ci ne
+  dafa m\u00e0ndi, mel ni ku \u00e0ndul ak xelam. Nes-tuut, 2i takk-der agsi ca b\u00e9reb
+  ba, Thomas Lane ak J. Alexander Kueng ; \u00f1u daldi taxaw ci kanamu oto bi George
+  Floyd nekkoon. Thomas Lane daldi g\u00e9nne fetelam ci saa si te kenn xamul lu tax
+  mu def ko. Ci la sante George Floyd mu teg i loxoom ci wola\u014b bi. Noonu, ci
+  diirub 2i simili, Lane roofaat na fetelam ba g\u00e9nne Floyd ci oto bi, takkal
+  koy manot. Ci la ko beneen takk-der bi, Kueng, s\u00ebsale ci benn miir. Ba tey,
+  George Floyd fippuwul, xataraayuwul : lu\u00f1 ko defloo, mu def ko. Ginnaaw gi
+  la ko takk-der yi d\u00ebje ci suuf, beneen oto p\u00f3lis fekksi leen fa.\\n\u00ab
+  M\u00cbNUMAA NOYYI, MAA NGIY FATT ! \u00bb\\nBi\u00f1 ko j\u00e0ppee ba mu am 6i
+  simili la\u00f1 ko j\u00ebmale ci beneen oto p\u00f3lis. Waaye, dafa mujje daanu
+  ci wetu oto bi. Ci la waxe takk-der yi ne dafa ame j\u00e0ngoroy k\u00f3lostorofobi
+  (feebaru xel buy tax nit kiy ragal ku ko t\u00ebj, rawatina ci b\u00e9r\u00e9b bu
+  xat), l\u00e0nk ne du y\u00e9eg ci oto bi.\\nBenn kameraa bu m\u00e0ngasin Cup Foods,
+  te nekke boor boobu, mi ngi wone takk-der Kueng muy j\u00e9em a dugal George Floyd
+  ci toogu ginnaawu oto p\u00f3lis bi. Takk-der bi \u00f1uy wax Chauvin da koo mujjee
+  g\u00e9nne, d\u00ebpp ko ci tali bi, ci wetu oto p\u00f3lis bi. Ci la 2i nit \u00f1u
+  doon romb foofu, g\u00e9nne seen nj\u00e9ggil-k\u00e0ddu, di filme mbir mi.\\nWid\u00e9wo
+  bu j\u00ebkk bi day wone 4i takk-der yi w\u00ebr ko. 3i \u00f1i sukkandoo ci kowam,
+  t\u00e9ye ko. Takk-der Lane sukk ci t\u00e0nk yi di b\u00ebs, takk-der Kueng di
+  def noonu ci ndigg li, takk-der Chauvin j\u00ebl \u00f3om bi teg ci baat bi, di
+  b\u00ebs ak doole.\\nBi 20iw20is jotee, George Floyd t\u00e0mbalee saraxu takk-der
+  yi, naan leen m\u00ebnatul a noyyi. Ci la takk-der Lane nekkee di d\u00e0q \u00f1a
+  fekke woon mbir mi. Kenn ci takk-der yi woote wall, ne leen g\u00e9mmi\u00f1u Floyd
+  gaa ngiy n\u00e0cc. \u00d1u jagleel wooteem boobu kod 3 bi m\u00e9ngoo ak soxla
+  ndimbalug doktoor te mu jamp. Mu am beneen aji-fekke bu taxawe woon ci beneen boor,
+  di filme. Wid\u00e9wo bim filme day wone takk-der Chauvin, ba tey mu teg \u00f3omam
+  ci loosu Floyd, donte ne wootees na ndimbal mu jamp ba noppi. Wid\u00e9wo boobu
+  nag, Chauvin kese lay wone, wonewul Lane ak Kueng. Jamono jooju, George Floyd mi
+  ngi woon ci metit wu tar, naan leen :\\n\u00ab Maa ngiy fatt. Ngir Y\u00e0lla, teggil
+  sa \u00f3om ci sama baat bi. \u00bb\\nMu wax k\u00e0ddu googu, baamtu ko ay yoon.
+  Am ci takk-der yi ku ko ci tontu, ne ko : \u00ab Sama waa ji, bu la tollee noonu,
+  j\u00f3gal y\u00e9eg ci oto bi ! \u00bb George Floyd ne ko : \u00abDinaa ko def.
+  Fim ne nii, m\u00ebnatumaa y\u00ebngu ! \u00bb. Takk-der bi newaat ko : \u00ab Y\u00e9egal
+  ci oto bi ! \u00bb, Floyd waxaat ko ne m\u00ebnu ko, topp leen di leen wax ne mi
+  ngiy fatt. Wax na leen ko, waxaat leen ko 16i yoon ci diirub 5i simili.\\n\u00ab
+  XOOL-LEEN NDAX XOL BAA NGIY DAL ! \u00bb\\n20iw25is, George Floyd ne tekk, waxatul.
+  Mu mel ni ku x\u00ebm, daldi g\u00ebmm. Way-fekke yi tamit t\u00e0mbalee \u00f1aan
+  Chauvin ngir mu teggi \u00f3omam bim teg ci baatu Floyd. Am ci sax ku ne takk-der
+  yi \u00ab Y\u00e9en, lu leen dal ? \u00bb ; keneen xool ko, ne : \u00ab Kii y\u00ebngootul
+  ! \u00bb\\nBees sukkandikoo ci kayitu y\u00e9gle bi p\u00f3lisu Minneapolis g\u00e9nne
+  \u00f1eel anam yi takk-der yi war a j\u00e0ppe nit \u00f1i, wareesul a d\u00ebpp
+  nit, teg sab \u00f3om ci kowam lu dul ne dafa ba\u00f1 def li\u00f1 ko sant ba noppi
+  di xataraayu. George Floyd, moom, loolu fekku ko ci woon. Te, jamono jim x\u00ebmee,
+  benn takk-der xettaliwu ko ba ni \u00e0mbil\u00e3s bi \u00f1\u00ebwe. Kenn ci way-fekke
+  yi ne leen : \u00ab Xool-leen ndax xol baa ngiy dal ! \u00bb Nee \u00f1u Lane laaj
+  na \u00f1aari yoon Chauvin ndax m\u00ebn na koo may mu w\u00eblbati Floyd, naataangoom
+  bi ba\u00f1, ne ko d\u00e9ed\u00e9et.\\nBi 20iw27is jotee, la \u00e0mbil\u00e3s
+  bi agsi. \u00d1u xool ndax xol baa ngiy dal, g\u00e9nne benn barankaar ngir teg
+  ci Floyd. Ba tey, Chauvin w\u00e0ccagu ko. Bi ko ko wallkat bi santee lay door a
+  teggi \u00f3omam. Kon, ci xayma, Chauvin dafa teg \u00f3omam ci baatu George Floyd,
+  b\u00ebs ko ci diirub 8i simili ak 46i saa. \u00c0mbil\u00e3s bi dem, waaye da\u00f1u
+  woowaale woon p\u00f3mpiyee yi ngir \u00f1u j\u00e0ppale leen.\\nBi 20iw32is jotee,
+  p\u00f3mpiyee yi agsi ci b\u00e9r\u00e9b bi mbir mi xewe, ca s\u00e9l\u00e9be-yoonu
+  38th Street ak Chicago Avenue. Waaye, kenn ci takk-der yi nanguwu leen a wax naka
+  la George Floyd def ak wan yoon la \u00e0mbil\u00e3s bi jaar. Loolu moo leen tere
+  woon a dimbali waa \u00e0mbil\u00e3s bi. Ci la xolu Floyd bi taxawe ci biir \u00e0mbil\u00e3s
+  bi. Laata p\u00f3mpiyee yiy jot \u00e0mbil\u00e3s bi, def na\u00f1 5i simili ci
+  yoon wi.\\n21iw25is, ci la\u00f1u biral faatug George Floyd. Boobaak l\u00e9egi,
+  coow laa ngi ne kurr ca Etaasini. Nit \u00f1aa ngay \u00f1axtu ak a taal r\u00e9ew
+  ma. Dem na sax ba mbir mi rax c\u00e0cc. Ndege, am na ci \u00f1axtukat yi, \u00f1u
+  doon d\u00e0jji b\u00e9r\u00e9bi jaayukaay yi, di s\u00e0cc njaay ma fa nekk. Ayu-b\u00e9sug
+  l\u00ebmb a ngii, xeex biy g\u00ebn a takkarnaase. Njiitu Amerig, Donald Trump,
+  ne mbir mi dafa rax, \u00f1axtukat yi j\u00e0mm taxu leen a j\u00f3g te, bu dee
+  Jaraafi diiwaan yi m\u00ebnu\u00f1oo dakkal y\u00e0q geek c\u00e0cc gi, moom Trump
+  dina sant l\u00e0rme bi mu w\u00e0cc ci mbedd mi defanteek \u00f1oom. \u00d1\u00e9pp
+  a dal ci kow Trump, wax ne day xamb taal.\\nCi beneen boor, \u00e0ddina s\u00e9pp
+  sukk, samp benn \u00f3om ci suuf, y\u00e9kkati beneen bi ngir naqarlu b\u00f3omug
+  George Floyd gi. Waaye tamit, ngir \u014b\u00e0\u00f1\u00f1i doxalinu takk-der yiy
+  metital nit \u00f1i ak boddekonte \u00f1eel nit ku \u00f1uul ci \u00e0ddina si.
+  Artist yi, woykat yi, futbalkat yi, basketkat yi, way-moomeel yeek kur\u00e9l yiy
+  s\u00e0mm \u00e0qi doom-aadama, rawatina yiy xeexal nit ku \u00f1uul, \u00f1\u00e9pp
+  daal taxaw na\u00f1u temm, ne b\u00e9su dee du b\u00e9su dund, di j\u00e0mmaarlook
+  alkaati yi. Kur\u00e9l gi \u00f1uy wax \u2018\u2019Black Lives Matter\u2019\u2019
+  la\u00f1 ci g\u00ebn a r\u00e0\u00f1\u00f1ee. \u201dBlack Lives Matter\u201d a ngi
+  tekki ne bakkanu nit ku n1uul am na solo. Xanaa kon \u00f1u ne nit ku \u00f1uul
+  du xaru tabaski ba Tubaab bu j\u00f3g t\u00ebral ko rendi.\\nD\u00e9mb ci talaata
+  ji la\u00f1u rob George Floyd Houston ga mu juddoo, ci Texas. Ci la takk-der yi
+  tamit janook \u00e0ttekat bi. Kilifay goxub Minneapolis bi\u00f1 b\u00f3ome George
+  Floyd xamle na\u00f1 ne, dina\u00f1 indi ay coppite ci ligg\u00e9eyu p\u00f3lis
+  bi, yeesal ko. Rax-ci-dolli, l\u00e9egi, terees na b\u00e9pp takk-der muy metital,
+  di xoj walla sax di laal baatu nit ki muy j\u00e0pp.\"", "\"Kitsy klo nii pxaal
+  Pable lo me\u00f1 Tesal\u00f3nica\\n1\\n1 L\u00eb\u00eb Pable ni Sil ni Timoteo
+  xaal kitsy re lo me\u00f1 Tesal\u00f3nica nii xsoob xtiits Tat Tios ni xtiits Jesucrist.
+  L\u00eb\u00eb l\u00eb\u00ebsy Dios dyon kakni l\u00eb\u00eb do ni knee tiits nii
+  mb\u00eb\u00eb kpa\u00f1 do.\\nXa bniladzy me\u00f1 Tesal\u00f3nica xtiits Dios\\n2
+  Tugak xtee noo skizh lo Dios por kch\u00eb nii chuu\u00f1tsyey do ni tugak xsaladzy
+  noo l\u00eb\u00eb do tsi\u00f1ee chutiitsni noo Dios. 3 Cad nii chutiitsni noo Tat
+  Tios, xsaladzy noo kch\u00eb tsii\u00f1 nii bee\u00f1 do por\u00f1ee xniladzy to
+  xtiits xaa. Ni xtee noo skizh lo Dios por\u00f1ee bee\u00f1tsyey do kch\u00eb tsii\u00f1
+  go tyub styoo do. Ni por\u00f1ee gaa Jes\u00fasye xsaladzy to, ngo nii xekw to kch\u00eb
+  kyaln\u00eb nii xtsyool do. 4 Beetsy, xk\u00ebstyoo Dios to, ni ndon noo nii l\u00eb\u00eb
+  xaa kwle l\u00eb\u00eb do. 5 Por ngo, wor\u00f1ee bluuy noo xtiits Dios nii x\u00f1ee
+  cho nak Jesucrist lo do, l\u00ebdy singosy b\u00f1ee noow, sink l\u00eb\u00eb Kyalbini
+  Ntson bnee tiitspey b\u00f1ee noow, ni tyub kaa styoo noo ndon noo nii tiitsli nak
+  kch\u00eb tiits nii b\u00f1ee noo. Nan buen do nii ngui kok xmood noo wor\u00f1ee
+  ptsyo noo lady to por\u00f1ee pk\u00ebstyoo noo l\u00eb\u00eb do.\\n6 L\u00eb\u00eb
+  do byak sinak noo ni sinak Jes\u00fas, aan nikxe gaa mban kwtedy to wor\u00f1ee
+  bniladzy to xtiits Dios, l\u00eb\u00eb Kyalbini Ntson pchoobladzy styoo do. 7 Por
+  ngo, axte wi me\u00f1 Macedonia ni me\u00f1 Acaya nii xniladzy xtiits Dios bye\u00f1
+  nii ngui nak xmod to. 8 L\u00ebdy nonsy Macedonia ni Acaya pkaasy xtiits Dios nii
+  x\u00f1ee cho nak Jes\u00fas wor\u00f1ee bniladzy tow, sink wi tyub lo kislyu ni
+  ndaly gaa laa\u00f1ee nan me\u00f1 nii nli tyub styoo do xniladzy to xtiits Dios.
+  Por ngo xkii\u00f1tre nii kutiits noow. 9 Por kch\u00eb laa\u00f1ee xyo noo xaly
+  gaa me\u00f1 chutiits nii ngui kon do l\u00eb\u00eb noo wor\u00f1ee klootyee byoob
+  teedy noo lo do ni xaly gaa me\u00f1 chutiits nii l\u00eb\u00eb do psaan kch\u00eb
+  ximdyo do par ksoob to xtiits xaa nii nli nak Dios. 10 Chutiits me\u00f1 nii l\u00eb\u00eb
+  do k\u00ebmb\u00ebs kyety Xi\u00f1 Dios kpaa. L\u00eb\u00eb Dios bee\u00f1 kpa\u00f1
+  xaa wor\u00f1ee kuty xaa. L\u00eb\u00eb xaa kteelaa l\u00eb\u00eb no lo xkyalntseeb
+  Dios nii kiid.\"", "\"mko def thi f\u00eatou No\u00ebl (moy f\u00eat gi nasran yiy
+  def thi gouddig 24 ak bisoub 25 d\u00e9cembre\\n\u0628\u0633\u0645 \u0627\u0644\u0644\u0647
+  \u0627\u0644\u0631\u062d\u0645\u0646 \u0627\u0644\u0631\u062d\u064a\u0645\\nFatwa
+  bi chekh mouhammad ibnou salih alouthaymin (di ab brom xamxam boumak) mko def thi
+  f\u00eatou No\u00ebl (moy f\u00eat gi nasran yiy def thi gouddig 24 ak bisoub 25
+  d\u00e9cembre.\\nDangko ladie lan moy atteb ndokkel yefaryi thi f\u00eatou No\u00ebl?
+  Ak ndaka lagnouy def bode gnom gno gnou thi dnokkel? Ak ndakh dana dagan gnouy dem
+  fangiy defe f\u00eatou No\u00eblbi? Ak dnakh ko khamne dafa def bent thi yi ngou
+  wakh te limou thi dioublou moy rafetal ab digante wala mou defko gir bagne kouko
+  mere lan moy ab attem? Ak ndakh dana dagan gnou dilen toppando thi f\u00eatou thi
+  wakhtouw f\u00eatgii ?\\nChekhbi tontou moune:\\nNdokkel yefaryi thi f\u00eatou
+  No\u00eblbi ak benen f\u00eat boumou mana don thi sen f\u00eati dineyi lou aram
+  la, te mbolem brom xamxamyi deupponagnthi. Ibnou khayyim (ab brom xamxam boumagla)
+  toukhalnako thi terem bi toud (attey yefar yiy dounde thi bir dioullityi), mom ibnou
+  khayyim moune: ((ndokkel yefaryi thi yiy mandargal sen dine lou aram la thi wakhi
+  mbolem brom xamxamyi, loumelne mouleni ndokkel thi sen f\u00eatyi wala thi sen korgi,
+  mounan len dewentilen, wala lounimel.\\nKiy def li defna lou aram, limou def migimelne
+  kouy ndokkel yefarbi thi soudiood bimiy soudiodal Croix bi, limou def sakh mogeuna
+  reuy bakkar thi kouy ndokkel kouy nan sangara wala kouy ray nit wala kouy ngalo
+  walla youni mel.\\nTe ngou bari ngi sen dine diaraloul dara dagniy tabbi thi bakkar
+  bi, te doungou kham ngawayou lingou def.\\nKou ndokkel ken thi ak moy yall wala
+  ab bida wala ak kefar defna louka mana dioural meroum yalla)).\\nIbnou outhiaymin
+  moune: ndokkel yefaryi thi sen f\u00eati dineyi litakh mou aram te graw ba ague
+  thi lii ibnou khayyim wakh modine ndokkel lent hi sen f\u00eatyi day wanene dagay
+  sakhal kefar gingou nek,day wane ne yit geuramal galenko, donte sakh guerama loko
+  sabope, te day aram thi ab dioullit mouy greum louy mandar gal ak kefar, wala mou
+  thiay ndokkel kene, ndakhe yalla geuramoul lolou, yalla nena; ((dou geuramal diamamyi
+  ak kefar)), moune wat ((geuramal nalen lislaam moudon sen dine)).\\nLoloo takh dilin
+  ndokkel this en f\u00eat yoyou dafa aram, mokham dagno bookkak yaw ab leugeyou kay
+  wala deet.\\nNgom yefaryi mem bougn gnou dee ndokkel thi sougniy f\u00eat ngon dougnou
+  len ndkkel gnom thi seni f\u00eat, ndakh sen f\u00eat yoyou dou sougnouy f\u00eat
+  ngoun, te ay f\u00eat la you yalla greumoul, ndakh ay bidda la yougnou fent thi
+  sen dine, wala sakh mouy lou sakh thia sen dine waye lislam bamou ngawe la folli
+  sen dine yeeppe, yaalla nena: ((kep kou top benen dine boudoul islam disoukoko naggoul
+  te allakhira thia gnay perte lay book)).\\nDoudagan mouke ngou lendi wouyou bougne
+  gnou wowee thi sen f\u00eat yoyou, ndakh lolou moo geuna aram ndokkel len thia,ne
+  bookkok gnom lay don.\\nDay aram thi ab dioullit mouy nourou nouroulou ak yefaryi
+  thi di amal ay f\u00eat thi bisyiko yefaryi di amal, wala mouthiy diokhe ay cadeaux,
+  wala ay gateaux, walla mouthiy sedale aw ngam, walla mou thiy banga leugueyi, ndakh
+  yonnen tebi (yalla nako yalla dolli ay khewal) nena: kou nourou nouroulou ay gay
+  thi ngom gay book.\\nIbnou taymiya (ab brom xamxam la boumak) dane: ((nourog gnom
+  thi sene f\u00eat dafay waral gnom gnouy beeg thi lignou nek thi ak neen.))\\nIbnou
+  ousaymin moune koudef dara thi yii mou tddon legi defna bakkar, mokham dako def
+  guir bagn kouko mere wala lenen loutakh mou defko, ndakh lolou day doug thi bayyi
+  santaney yallayi guir wout gramal kenen, teyit day takh yefar di guena am dole,
+  di ndamou this en dine.\\nFollow us:\"", "\"J\u00ebyya ju metti amatina ci mb\u00ebkk
+  mi. Genn gaal gu yab ba fees, wutali woon tugal, moo suuxati. J\u00ebyya jaa nga
+  ame Mbuur, fa tollook \u00f1aar, j\u00e0pp \u00f1etti kilomeetar ci biir g\u00e9ej
+  gi. Gaal googu sax, Mbuur la bawoo woon. Bees sukkandikoo ci xibaar yi jot a rot,
+  lu \u00ebpp 200i doom-aadama \u00f1a nga woon ca biir. Jot na\u00f1u l\u00e0qi ci
+  \u00f1oom lu tollagum ci fanweeri n\u00e9ew ak jur\u00f3om-\u00f1eent, xettali \u00f1aar-fukk
+  ak lu teg. Ba tey jii, g\u00e9ej gaa ngi w\u00e9y di goqi ci tefes gi way-lab yi.
+  Wallukat yaa ngay w\u00e9y di seet \u00f1a ca des.\\nCi ngoonug dib\u00e9er jii
+  weesu la gaal ga suuxoon. Takk-der yi j\u00e0pp na\u00f1 kii di S\u00e9ex S\u00e0ll
+  mi doon y\u00f3bbaate. Moom, S\u00e9ex S\u00e0ll moomii, boroom gaal gi, nappkat
+  la, di mag ci meeru Mbuur bi, S\u00e9ex Isaa S\u00e0ll. Nee \u00f1u, moo dox dem
+  p\u00f3lis, booleji boppam. moom, 52i at la am. Mi ngi woon ci biir gaal gi ba muy
+  suux, waaye dafa f\u00e9ey, g\u00e9nn.\\nNee \u00f1u, Nguur gi dina yabal i ndaw
+  ngir \u00f1u jottaliji njaalu Njiiut r\u00e9ew mi ak elimaanu j\u00ebwri\u00f1 yi.
+  Soxna Xadi J\u00e9en Gay, j\u00ebwri\u00f1 jees d\u00e9nk ndaw \u00f1i, t\u00e0ggat-yaram
+  ak mbatiit mi mooy jiite ndaw \u00f1oo\u00f1ii. Tey ci \u00e0llarba ji la\u00f1
+  war a dem Mbuur. Perefe Mbuur bi, Aamadu J\u00f3ob, moo leen di dalal. Dina\u00f1u
+  \u00e0gg ca k\u00ebru delege k\u00e0rce bu \u201cThioc\u00e9 Ouest\u201d laata \u00f1uy
+  w\u00e9yal seen ug w\u00ebr ca d\u00ebkk ba.\"", "\"Seex Ahmadu Nd\u00f9mb\u00e9
+  Mb\u00e0kke mi ngi gann\u00e9 adduna 1859 ci d\u00ebkk bu\u00f1u naan Nja feet\u00e9
+  Mb\u00e0kke Baol, doomi S\u00ebri\u00f1 Zayd Mb\u00e0kke la, moom Sa\u00ebr Soxna
+  Bus\u00f3 moom Maam Mahram. Mi ngi yaroo ci kepparu wayjuram, and naak mom woot\u00e9
+  M\u00e0ba Jaxu Ba ca Saalum nekk Poroxan.\\nGinaaw ba wayjuram wa n\u00e9law\u00e9
+  la dem Mb\u00e0kke Kajj\u00f3or fekki fa Seri\u00f1 Tuuba, aggal\u00e9 fa\u2019b
+  njaggam, taqqoo\u2019k moom, ba ni miy dem\u00e9 Mb\u00e0kke Baol. D\u00ebkko joxon
+  leeppam, masta des ginaaw ci dara. Moo tax Se\u00f1 Mus\u00e0 Ka naan ko \u300aba
+  mu \u00f1\u00ebwee Mb\u00e0kke kajj\u00f3or feek na alarabaa\u2019ki dib\u00e9er
+  len x\u00e9waloon mu daal di buur s\u00f3obu y\u00f3onu ajjanah jeebal Seri\u00f1
+  bi ap nosam def gumba jox kop tumam, fum tool s\u00e0kkuy ng\u00ebram laajal Seri\u00f1
+  Daam Feek\u00e9 naa, kerok ba tey m\u00ebsla taayi, m\u00ebsla yaag ci\u2019g jotaay,
+  m\u00ebsla teggi laxasaay, m\u00ebsla wax ne soonu naa, m\u00ebsla x\u00e9y deelu
+  ginaaw, ta lu\u00f1 ko sant mu ne waaw, ta duko won kanam gu \u00f1aaw, m\u00ebsla
+  wax ne jambu naa.\u300b\\nBa S\u00ebri\u00f1 bi demee ca g\u00e9ej gi, dafa y\u00e9esalaat
+  laxas\u00e0yam, so\u00f1\u00f1i waat murid yi ci ligg\u00e9ey bi ni ko Se\u00f1
+  Basiiru waxe ca t\u00e9erem ba ji Minanul B\u00e0qil xadim ak ni ko Se\u00f1 Muhamad
+  lamin J\u00f3ob dagana andee ci Nubzatut taariqi wa nafsatul haamiya Ahmalu ahmaalihi.\\nGinaaw
+  ga la sanc d\u00ebkk bu\u00f1u naan k\u00ebr Mag\u00e9y Ndaw attum 1896: \u300a
+  Jur\u00f3om \u00f1aari at yi Se\u00f1 bi am ci g\u00e9ej la am fa k\u00ebr Mag\u00e9y
+  di g\u00e9ej\u300b. Lumu fa masa bey j\u00e9ebal nako S\u00ebri\u00f1am, ba ci xoolitu
+  geert\u00e9 yi, daan nako ko y\u00f3obul. Ba S\u00ebri\u00f1 bi nibi s\u00e9 ba
+  mu am at la sanc Xaab\u00e0n. Diggant\u00e9 1914 ak 1925 nak sanc na fi d\u00ebkk
+  yu bari ngir jangal\u00e9 ak yar\u00e9.\\nDiiru lu Se\u00f1 bi nek ci g\u00e9ej
+  gi nak Borom Daaru la t\u00f3opon. Batey ba fi Se\u00f1 bi b\u00e0yyi ko, bok na
+  ci ni nj\u00ebkk t\u00f3op S\u00ebri\u00f1 Muhamadu Mustafa. Borom jikko yu refet
+  la won, doonon ku r\u00e9y koolar\u00e9, tabb\u00e9, \u00f1am\u00e9 lool jox\u00e9
+  \u00e0ddiyah\\nCi attum 1933 la wuyu ji boromam!\\nLii \u00f1u bind Se\u00f1 M\u00f3odu
+  Daara Faal moo \u00f1uko xamal ginnaaw bimuko xamee ci Se\u00f1 Maxtaar Puy. Yalna
+  len y\u00e0lla subhanahu wa tahala defal yiiwu adduna ak alaaxira bakep se\u00f1
+  Ahmadu Mb\u00e0kke.\\nAl-Habdul Xadiim\\nGrenoble, 07/12/2019.\"", "\"Ndog mu metti
+  moo am am fa Njama Faal. Njama Faal mi ngi bokk ci gox bii di Nd\u00e0ngalma, nekk
+  departm\u00e3 bu B\u00e0mb\u00e9y. J\u00e9yya jaa ngi am ci fajaru tey jii, ay boori
+  jur\u00f3omi waxtu. Ay bakkan yu bari rot na\u00f1u ci. Bees sukkandikoo ci xibaar
+  yi jot a rotagum, am na tamit \u00f1oo xam ne j\u00eble na\u00f1u ci ay gaa\u00f1u-gaa\u00f1u.\\nNdog
+  yi y\u00e0gg na\u00f1oo am. Waaye, jamono jii, mbir mi dafa taqarnaase. Daanaka,
+  m\u00ebneesul a toog benn ayu-b\u00e9s te joteesul ci d\u00e9g-d\u00e9gu ndog. Saa
+  su \u00f1u demee ba j\u00e0pp ne w\u00e0\u00f1\u00f1eeku na\u00f1u rekk, fekk ne
+  booba la Waalo g\u00ebn a aay. Nde, bu y\u00e0ggul dara rekk, laata m\u00e0ggal
+  gi, nemmeeku woon na\u00f1 xeetu ndog mu ni fa Kumpentum. Lu jege fukki bakkan rotoon
+  fa ca saa sa. Benn biis moo dalante woon ak benn minikaar. Waaye, aksida\u014b bi
+  am tey jii, moo g\u00ebn a y\u00e9es. Ndax, limu bakkan ya ca rot ci saa si, dafa
+  j\u00e9ggi dayo.\\nDafa di, ndog (aksida\u014b) mu tay ji tamit, genn s\u00ebfaan
+  (camion) moo mb\u00ebkkante ak benn kaar. Fukki bakkan ak jur\u00f3om-benn rot fa
+  ci saa si. Limu \u00f1i ci j\u00eble ay gaa\u00f1u-gaa\u00f1u moom ba tey, kenn
+  biralagu ko. Li ci g\u00ebn a doyati waar mooy ne kaar ba moom dafa t\u00e0kk ginnaaw
+  ndog mi, bees sukkandikoo ci waa Seneweb. Jamono jii nag, muy kilifa yi di waa s\u00e0pp\u00eber,
+  \u00f1\u00e9pp a nga fa b\u00e9r\u00e9b ba. Su ko defee, \u00f1u m\u00ebn a saytu
+  mbir mi ba xam li ci war y\u00e9pp. Nde, lii moom, dafa nekk ndog moo xam ne metti
+  na ba fa metti yem.\"", "\"Tor Browser danu ko war a di yeesal saa su nekk. Sooy
+  w\u00e9y di j\u00ebfandikoo ab version bu y\u00e0gg bu t\u00ebralinu nosukaay bi,
+  m\u00ebn nga ubbi buntu kaar\u00e0nge gi nga amoon buy n\u00e9ewal doole sa kirlaay
+  ak n\u00ebbbu.\\nTor Browser dina la laaj nga yeesal sa mboolem j\u00ebfukaay su
+  xasee g\u00e9nne ab xeet bu bees bu nu genne: alluwa dugg bi (\u2261) dina wone
+  ab w\u00ebrng\u00ebl bu n\u00ebt\u00ebx bu am ab fitt bu j\u00ebm kaw ci kawam,
+  te di nga m\u00ebn a gis ab tegtalu yeesal bu nu bind soo ubbee Tor Browser. M\u00ebn
+  nga yeesal ci anam bu otomatik wala ak sa loxo.\\nYEESAL TOR BROWSER AUTOMATICALLY\\nSoo
+  b\u00ebgge yeesal Tor Browser, kilikeel ci alluwa dugg bi (\u2261), te nga t\u00e0nn
+  \\\"Yeesal bu j\u00e0ppandi \u2013 taalaatal l\u00e9egi\\\".\\nXaaral yeesal bi
+  ngir yebbi te samp, noonee Tor Browser dina taalaat boppam. Di nga j\u00ebfandikoo
+  version bu mujj bi.\\nYEESAL TOR BROWSER AK SA LOXO\\nSoo b\u00ebggee yeesal Tor
+  Browser, jeexalal session xuus bi te nga t\u00ebj t\u00ebr\u00eblin bi.\\nDindil
+  Tor Browser ci sa noosteg amalin jaaree ko ci dindi wayndaare bi mu nekk (xoolal
+  Sempi p\u00e0cc bi ngir xibaar yu g\u00ebn a yaatu).\\nXoolal https://www.torproject.org/download/
+  te nga yebbi ab sotti bu Tor Browser bu mujje genn, te nga defaat ko ne bu nj\u00ebkk.\"",
+  "\"Wolof (l\u00e0kk)\\nWolof l\u00e0kk la wu \u00f1uy wax ci Gaambi (Gaambi Wolof),
+  G\u00e0nnaar (G\u00e0nnaar Wolof), ak Senegaal (Senegaal Wolof). Mi ngi bokk nag
+  moom wolof ci b\u00e0nqaasub atlas bu l\u00e0kki kongoo yu kojug nit ku \u00f1uul
+  yi. Mbokkoo gi mu am ak l\u00e0kku p\u00ebl lu y\u00e0gg la. Am na it lu mu seq
+  ak yeneen l\u00e0kk ci gox bi niki s\u00e9er\u00e9er, joolaa ak basari.\\nUbbite[Soppi]\\nBi
+  \u00f1u demee ba gis j\u00ebmm ja, muy ku sew, tuuti te xaw a wow, waaye di ku \u00f1u
+  muure ab taar, ci anam gu woyof te loyox, di ku \u00f1u aare k\u00e0ttan, s\u00f3ob
+  ko ci ag fonk-sa-bopp doonte ag neen la, solal ko yerey y\u00ebgle ak jaral, te
+  ma j\u00ebli loolu ca jafeem gaa j\u00ebli. Bi loolu amee, da ma ne leen xanaa kay
+  du kii ngeen ma doon wax? \u00f1u ne aha kay, cis l\u00ebf, cig y\u00e9emu, ak \u00f1\u00e0kk
+  a xalaat ne di naa sikk mukk ci moom, ma jug man, xajal leen foofa f\u00e9pp.\\nMa
+  ne nag waaw ku mel nii, ci li mu l\u00e0mboo ciy melo, lu ko nit di doye ? Ginaaw
+  bi nag d\u00e9gg naa \u00f1u''y wax naan moom de bokk na ci \u00f1i g\u00ebn a jekk
+  ci boobule gox, \u00e0nd ak jaaxle ci sama aw j\u00ebfiin, ci ba nga ma ko fa ba,
+  ma ne leen man : moo xam! Lii mooy li am ci sunu l\u00e0kk wii, walla yii di yu
+  Afrig yi, da\u00f1u di yu am solo te man a dem ni y\u00e9pp di deme, am barab ci
+  digg barabi l\u00e0kk y\u00e9pp, waaye li nu dal nun waa Afrig, mooy li dal sunu
+  l\u00e9pp, dalaale ci li muy dal sunu k\u00e0llaama yii nga xam ne wii de bokk na
+  ci yi g\u00ebn a nosu, g\u00ebn cee nooy, g\u00ebn cee nangoo defaru, y\u00e9w\u00e9nu,
+  ruy, ci ku ko ruyal, tey way nag ca nanu b\u00ebgge mu waye ni.\\nAna nag ku am
+  janq bu mel ni bii cib taar, nangoo ni, jongee ni, jekke ni, man nee toppatoo, nangu
+  nee jeme-kanam, waaje ni ngir lemu ci say b\u00ebgg-b\u00ebgg, ana ku am ku mel
+  nii, looy xoolati ku sewe nii, r\u00e0gge ni, te taaroodi ni?\\nLi ma b\u00ebgg
+  a wax mooy naka lanu b\u00ebgg a b\u00e0yyee sunu l\u00e0kk yii, rawati na wii di
+  wolof, ca nooyam ga, ak nangoom ga, ak g\u00e0ttam ga ak noppaleem ga, taaram ba,
+  leeram ga, manam gaa leeral ak yaatoom ga, ak ruyu gi mu nangu, naan da nga''y j\u00eblati
+  weneen di ci sonn ak a sonle, naan day wa g\u00ebn? Ma ne \u00f1oom \u00f1oo gis
+  loolu man de d\u00e9et !\\nWolof mooy l\u00e0kk wi \u00f1u g\u00ebn a wax ci Senegaal,
+  waaye ngir doyodig waa Afrig yi ba leegi, franse mii nga xam ne lu matul fukk cib
+  t\u00e9em\u00e9er ci doomi Senegaal yi rekk a koy wax moo fiy l\u00e0kk wu nj\u00ebkk,
+  maanaam wi nguur gi di waxe di ci ligg\u00e9eye.\\nCosaanam[Soppi]\\nNi ko g\u00ebstukat
+  yi waxe, l\u00e0kku wolof am na ag mbokkoo ak yeneen l\u00e0kki Afrig yu bari, yu
+  mu bokkali maam. l\u00e0kk yi da\u00f1 leen a s\u00e9ddale ci ay w\u00e0ll: bu ci
+  nekk \u00f1i am ag mbokkoo la\u00f1u fa def. Nee na\u00f1u wolof ci w\u00e0ll gi
+  \u00f1u''y woowe b\u00e0nqaasub atlas bu l\u00e0kki kong\u00f3o yu kojug nit ku
+  \u00f1uul la bokk. Am na ag mbokkoo ak pulaar ak s\u00e9er\u00e9er ak joolaa ak
+  yeneen.\\nDaanaka \u00f1oo ngi koy l\u00e0kk ci senegaal g\u00e9pp, b\u00ebj-gannaar
+  ba b\u00ebj-saalum, penku ba sowwu. Donte wolof da di l\u00e0kku askanu \u00f1i
+  \u00f1uy woowe ay wolof, waaye k\u00e0llaama wolof amul aw dig. Dem na ba romb dig
+  (frontiere)yu Senegaal \u00e0gg ba Gaambi, G\u00e0nnaar ba Mali, ci \u00f1aari d\u00ebkk
+  yu nj\u00ebkk yi sax boole na\u00f1 ko ci seeni l\u00e0kki r\u00e9ew. Daanaka gox
+  boo dem ci Senegaal am na\u00f1u waxinu wolof wu wuute: am na wolofi waalo-waalo,
+  jolof-jolof, saalum-saalum, wu kajoor-kajoor, wu baol-baol ak wu lebu.\\nMbindin[Soppi]\\nAbajada
+  wolof[Soppi]\\na - \u00e0 - aa - b - bb - c - cc - d - dd- e - ee- \u00e9 - \u00e9e
+  - \u00eb - \u00ebe - f- g - gg - i - ii - j - jj - k - kk - l - ll- m - mm - mb
+  - n - nn - nc - nd - ng - nj - nk - nq - nt - \u00f1 - \u00f1\u00f1 - \u014b - \u014b\u014b
+  - o - oo - \u00f3 - \u00f3o - p - pp - q - r- rr - s - t - tt - u - uu - w - ww
+  - x - y - yy.\\n1- Doonte sax, li \u00f1u t\u00e9j ci biir lonk yi ngay d\u00e9gg,
+  nanga bind: xule, bu b\u00ebggee, pus, xuloo.\\nXool it[Soppi]\\n- commons:Category:Wolof
+  pronunciation Ngir d\u00e9glu waxiinu baat yi\\n- wikbaatukaay: ab baatukaay bu
+  matale ci wolof\\n- Xibaaryi.com : Y\u00e9glekaay bi nj\u00ebkk ci l\u00e0kk wolof\\n-
+  xLingua-Online-Dictionary German-Wolof / Wolof-German\"", "\"Pour contacter ce membre
+  vous devez vous connecter\\n-\\nde 1994 \u00e0 1998\\nAbdoulaye Dieye, Serigne Touba
+  Gueye, Ndiaga Gueye, Oley Mbaye, Seny Niass, Fatou Niang, A\u00efssatou Fam, Kounta
+  Niang, Cheikh Gueye, Aliou Diop, Cheikh Dione, Momar Thiam, Daouda Thiam, Djiby
+  Mbengue, Khadim Seye, Wagane Ndiaye, Malick Sow, Path\u00e9 Sow, Momadou Gueye,
+  Abib Cisse et tout ceux qui me reconnaitrons...\\n-\\nde 1998 \u00e0 2001\\nAliou
+  Diop, Abdoulaye Di\u00e9ye, Bassirou Ndao, Amar Mbingue, Adoulakhat Youme, Khadime
+  Diop, Younoussa Seydi, S\u00e9n\u00e9 Ndiaye, Ousseynou Ndiaye, Ouleye B\u00e2,
+  Arame Ndiaye, Nd\u00e9ye Fatou Ndiaye, arame Ndiaye....\"", "\"Coowal Riisii \u2013
+  Ikren moo l\u00ebmbe \u00e0ddina si. Daanaka, \u00f1aari ayu-b\u00e9s a ngi nii,
+  moom rekk la\u00f1uy waxtaane ci f\u00e9pp foo dem ci \u00e0ddina si. Boobaak l\u00e9egi,
+  wax ji bare na, nag\u2026 lool sax. Tele walla rajo boo j\u00e0pp, moom lees fay
+  waxtaane, li ci \u00ebpp. Y\u00e9enekaay yi di ko jagleel ay yaxal yu dul jeex.
+  Internet bi tamit fees ci dell. Waaye, saa bu coow baree, fen dana jaxasook d\u00ebgg,
+  muur ko. Te, ku deful nd\u00e0nk, dina\u00f1 la g\u00ebmloo lu safaanook d\u00ebgg.
+  Nde, bi xare bi jibee ba l\u00e9egi, booy seetaan tele yi, di d\u00e9glu rajo yi
+  ak a j\u00e0ng y\u00e9enekaay yi ci \u00ebpp, day mel ni Riisii moo sooke l\u00e9pp,
+  moom rekk a di ndeyu mbill ji. Waaye, ndax noonu la fa demee d\u00ebgg-d\u00ebgg
+  ? Ndax xare bi, diggante Riisii ak Ikren kese la ? Lan moo ko sabab ? Luy cosaan
+  li ? Yan njeexital la m\u00ebn a am ci \u00e0ddina si ? Seen y\u00e9enekaay LU DEFU
+  WAXU, ci xalima Paap Aali J\u00e0llo, fas y\u00e9ene leen indil ay leeral \u00f1eel
+  yuqub xare bi am tey, ci \u00f1aari xaaj. Xaaj bu nj\u00ebkk bii day biral xew-xew
+  yi dox diggante 1945 ba 1999, di wone cosaanul sabab yi sooke xareb tey bii.\\nBu
+  d\u00ebgg r\u00e9eree cim p\u00e9nc, mag ak a ci d\u00ebgg t\u00e0nkam\\nSaa bu
+  xare jibee, bala benn bakkan di rot, d\u00ebgg la\u00f1uy nj\u00ebkk a t\u00e0gge.
+  Nde, ni ko tubaab yiy waxe, ku b\u00ebgg a labal sab xaj, jii\u00f1 kob say. Waaw,
+  bi xare Riisii ak Ikren bi dooree ba tey, daanaka Riisii la \u00e0ddina s\u00e9pp
+  tam d\u00ebmm, rawatina r\u00e9ewi sowu yi. Kibaraan yi, muy tele yeek rajo yi,
+  y\u00e9enekaay yi ba ci internet bi, \u00f1\u00e9pp Vladmir Poutine, njiitu r\u00e9ewum
+  Riisii, la\u00f1 joxo\u00f1 baaraamu tuuma. Genn k\u00e0ddu rekk ngay d\u00e9gg
+  : \u00ab invasion russe en Ukraine \u00bb, maanaam congum Riisii ca Ikren.\\nCoow
+  li ne kurr. Poutine j\u00e0ppal fii, Poutine b\u00e0yyil fee. Faramf\u00e0ccekat
+  yi ame tele yeek rajo yi, boroomi xalima yiy bind, widewoo yi, nataal yeek nd\u00e9ggat
+  yiy \u00f1aawal ak a tilimal deru Riisii ak i njiitam di law. Ay daan yu mettiy
+  tegaloo ci kow r\u00e9ewum Riisii : ay daan ci w\u00e0llu koom-koom, politig, xare,
+  ba ci w\u00e0llu t\u00e0ggat-yaram. L\u00e9pp, nag, Amerig ne ci ginnaaw, di nos
+  ak a nocci ak a xamb taal nib jig\u00e9en ak wujjam. Xam naa yaa ngi naan waa Paap
+  Aali mii moom, day waxtu walla dafa faral Riisii ?\\nMa ni la \u00ab d\u00e9ed\u00e9et
+  ! Waxtuwuma wallaay, te sama yoon ci Riisii \u00bb. Dafa di, xareb Riisii beek Ikren,
+  Amerig setu ci te, ngir n\u00e0nd d\u00ebgg-d\u00ebgg ni coow li deme, f\u00e0ww
+  nu dellu d\u00e9mb. Ndege, lawal gi nuy gis boobaak l\u00e9egi, daf nuy r\u00e9eral.
+  Toppal samab xalima, nu d\u00ebpp jamono, xooli \u00f1aareelu xare bu mag ba, ndeem
+  dinan gindiku\u2026\\n1945 : xare jeex, xare juddu\\nJamono jooja, Almaa\u00f1 moo
+  \u00ebppoon doole ci \u00e0ddina si, raw \u00f1\u00e9pp ci l\u00e9pp : xam-xam,
+  koom-koom, xarala ak ng\u00e0nnaayi xare yu yees. Boroomi xam-xami alma\u014b yi,
+  ci ndigal ak ndimbalu Hitler, da\u00f1 sumboon ay naal yu bare ci f\u00e0nn yu yaatoo
+  yaatu, rawatina ci w\u00e0llu ng\u00e0nnaayi xare, tukkib nd\u00e9nneer ak w\u00e9r-gi-yaram.
+  Sore woon na\u00f1 lool nag ci seen i ligg\u00e9ey, ba tax leen a jiitu ci \u00e0ddina
+  si \u00f1eel f\u00e0nn yooyee. Loolu may leen xam-xam ak k\u00e0ttan, \u00f1uy jaay
+  doole yeneen r\u00e9ew yi, di songateek a nootaate. Hitler daldi bew, di buur, di
+  bummi. Fu b\u00ebtam tegu rekk, mu j\u00e0pp ne raayab Almaa\u00f1 war na faa jaayu.
+  Bi mbir mi demee ba \u00ebpp i loxo, 4i r\u00e9ew yii di France, USA, URSS ak Grande
+  Bretagne daldi booloo, j\u00e0mmaarlook Hitler. Looloo sabab 2eelu xare bu mag bi
+  \u00f1uy nettali ci t\u00e9ere mboor yi. Kon, Amerig ak Riisii (URSS ba woon) ay
+  farandoo la\u00f1u woon.\\nLemal sa baaraam, muy benn.\\nAmerig \u2013 Riisii :
+  xeexu suuf bi\\nCi njeexitalu 2eelu xare bu mag bi, Almaa\u00f1 da cee jaare nasax,
+  dooleem daanaka jeex t\u00e0q. Waaye, ndono lim fi b\u00e0yyi mooy juri beneen xare.
+  Ndege, li xeex biy tar y\u00e9pp, farandoo yi, Amerig, URSS, France ak Grande Bretagne,
+  \u00f1oo ngi teg b\u00ebt, di xemmem ndonol Almaa\u00f1 li. Waaye, x\u00ebccoo bi
+  ci diggante Amerig ak URSS lay mujje am, ndax \u00f1oo \u00ebppoon doole ci farandoo
+  yi.\\nAmerig dafa b\u00ebggoon aakimoo li alma\u014b yi b\u00e0yyi y\u00e9pp, Riisii
+  tamit noonu. Te sax, Amerig jotoon naa rawaley boroomi xam-xami alma\u014b ak i
+  naal yu\u00f1 sumboon y\u00e9pp, y\u00f3bbu leen Amerig, soppi seen i tur, dugal
+  leen ci laboraatuwaar yi ngir \u00f1u j\u00e0ppale leen, suuxatal leen seen xam-xam,
+  seen m\u00ebn-m\u00ebn ak seen k\u00e0ttan ci w\u00e0llu xarala ak \u00f1oom seen.
+  Bu dul woon loolu sax, Neil Armstrong du m\u00ebs a teg t\u00e0nk ci d\u00e9nduw
+  weer wi.\\nRiisii tamit, mi ngi doon def ay pexeem, di nos ak nocci. Moo tax, da\u00f1uy
+  mujje paacoo suufus Almaa\u00f1 bi. B\u00e9sub 23eel weeru me 1949, Amerig ak farandoomi
+  tugal daldi sos RFA, Bonn nekk seen p\u00e9eyub n\u00e9gandiku. Oktoobar 1949, Riisii
+  tamit taxawal RDA ca Berlin. Penkub Berlin ba dib p\u00e9eyub RDA. Ginnaaw gi, dina\u00f1
+  tabax ab maraaj buy dox ci diggante RFA ak RDA.\\nCa la Amerig xamee ni, bu b\u00ebggee
+  noot \u00e0ddina si, f\u00e0ww mu fexeel Riisii. Ndaxte, moom kesee ko m\u00ebnoon
+  diir mbagg. Looloo ko taxoon a r\u00e0bbalook waa Tugal, taxawal lees tudde ci nasaraan
+  \u00ab Plan Marshall \u00bb bi nga xam ne, ca la kur\u00e9lug OTAN giy sosoo. Amerig
+  duggewu ko woon lu dul beddi Riisii, dagg ko ci j\u00ebflante yi ngir n\u00e9ewal
+  ko doole.\\nNde, ci njiitalu Amerig, 3i r\u00e9ewi tugal yooyu \u00f1u lim ci kow
+  \u00f1ooy taxawali kur\u00e9lug xare, duppe ko ci nasaraan Organisation du Trait\u00e9
+  de l\u2019Atlantique Nord, g\u00e0ttal biy joxe OTAN. Booba, 12i r\u00e9ew \u00f1oo
+  ci bokkoon ; waaye tey jii, lu tollu ci 30i r\u00e9ew a ko s\u00e9kk, di ay kapitaalist.
+  OTAN, nag, benn jubluwaay kesee ko tax a j\u00f3g, te mooy xeex Riisii.\\nRiisii
+  xam loolu, daldi taxawal d\u00e9ggoob Varsovie ba ca atum 1955, ci nasaraan Pacte
+  de Varsovie. Mu \u00e0nd ceek r\u00e9ewi tugal yi f\u00e9ete penku, te nekkoon ay
+  kominist. Kur\u00e9l gu yaatu googu la\u00f1 daan woowe ci nasaraan Union des R\u00e9publiques
+  Socialistes Sovi\u00e9tiques, g\u00e0ttal biy joxe URSS. OTAN ak URSS di xeex ci
+  suuf, ciy pexe ak i doxalin. Ca la \u00ab guerre froide \u00bb t\u00e0mbalee diggante
+  Amerig ak Riisii. Farandoo ya woon, nekk na\u00f1uy noon. Xare jeex na, xare juddoo
+  ca.\\nLemal sa baaraam, muy \u00f1aar.\\n1989 : fiirug Amerig gi\\nXew-xew bi g\u00ebnoon
+  a f\u00e9s ci ati 1990 yi mooy m\u00e0bbub maraaju Berlin bi (chute du mur de Berlin).
+  Bi maraaj biy daanu, nag, dafa daanelaale URSS. Nde, Amerig daf leen tegoon xel,
+  b\u00e0yyi leen \u00f1uy xeex ak a reyante ba seen doole nasax. \u00d1u deele ay
+  nit \u00f1u baree bare, koom-koom gi n\u00ebrmeelu, r\u00e9ew ma nekk ciy jafe-jafe
+  yu tar a tar. Lu bare ciy r\u00e9ewi penku yi bokkoon ci URSS daldi t\u00e0mbalee
+  fippu. Ndege, maraaju Berlin bi daf leen n\u00ebbboon \u00e0ddina si. L\u00e9egi,
+  koom-koomu r\u00e9ewi sowu yi daldi am njeexital lu r\u00e9y ci \u00f1oom. \u00d1u
+  f\u00e9tteerlu, g\u00e9nn ci kur\u00e9l gi, daldi moom seen bopp.\\nCi atum 1991
+  la URSS tas. 15i r\u00e9ew yi ci bokkoon dem seen yoon. \u00d1u daldi sos R\u00e9ewum
+  Riisii mi nga xam ne, lum dee dee, mi ngi doon w\u00e9y di teg loxo lenn ci r\u00e9ew
+  yim bokkaloon URSS.\\nWaaye, Riisii xamoon na ne, jamono jooju, Amerig a ko jekku
+  woon. Te, lenn ci r\u00e9ewi penkub tugal yi fekki woon na\u00f1u OTAN. Mu xam ni
+  bu deful dara, OTAN dina ko w\u00ebr ndomb. Ca la muddaaranteek Amerig. George Herbert
+  Walker Bush ak r\u00e9ewi sowu yi dig Mikha\u00efl Gorbatchev ak Boris Eltsine ne,
+  dootu\u00f1u yaatal OTAN ci boori penku. \u00d1u daldi d\u00e9ggoo cig k\u00e0ddu
+  ne, OTAN warta cof dara ci w\u00e0llu penkoom, lu ko moy, dina jur coow.\\nWaaye,
+  Riisii, rawatina Gorbatchev, dafa def njuumte lu r\u00e9y a r\u00e9y ci lum laajulee
+  \u00f1u bind d\u00e9ggoo bi, xaatim ko. Ndaxte, li ko dale 1999 ba tey, OTAN mi
+  ngi w\u00e9y di raafal ay r\u00e9ewi penku, di g\u00ebn a jege Riisii. Dafa di,
+  tey jii, ci r\u00e9ew yi bokkoon ci URSS, \u00f1aari r\u00e9ew kesee ci duggagul
+  ci OTAN, muy Ikren ak Seworsi. Te, \u00f1aari r\u00e9ew yooyoo dox diggante Riisii
+  ak OTAN.\\nLi waral loolu mooy ne, njiiti r\u00e9ewu Riisii yi, da\u00f1oo x\u00ebroon
+  ci s\u00e0ngara, xawoon a nuur ciy caaxaan ba faf nasaxal r\u00e9ew ma. Moo tax,
+  ay jafe-jafey koom ak i y\u00ebngu-y\u00ebnguy politig yu bare \u00f1oo gaaraloon
+  nguurug Eltsine ga. Rax-ci-dolli, nger mi law ca r\u00e9ew ma, koom-koom biy doxe
+  benn t\u00e0nk. Amerig moom, nekk ci digg dooleem, di doxal lu ko neex, di buur,
+  di bummi, di \u00f1\u00e0kkal faayda Riisii ak di napp ak a noggatu r\u00e9ewi \u00e0ddina
+  si.\\nGinnaaw gi, Boris Eltsine day feebar ba sonn, n\u00e9ew doole lool. Noonu,
+  keroog 31eel ci des\u00e0mbar 1999, mu daldi tekki ndombog-t\u00e0nkam, daldi b\u00e0yyi
+  njiiteefu r\u00e9ew ma. Ca la ko Vladmir Poutine wuutoo ca boppu r\u00e9ew ma.\\nJ\u00ebmm
+  joojooy soppi xar-kanamu Riisii, daldi sumb beneen xeetu xeex bob, moo sabab congum
+  Ikren mii am tey.\\nLeningrad la Wladimir Putin yaroo. Leningrad googu, moo nekkaat
+  tey Saint-P\u00e9tersburg. Cib nettali, gone gi Wladimir, ku \u00ebsoon la, amoon
+  fit lool te bare...\\nFara\u014b ko f\u00f3ni\\n(Woy)\\nFara\u014b ko f\u00f3ni\\nMan
+  kat daa waaru\\nKaay l\u00e0ggi ci saaw l\u00e0mmi\u00f1\\nNa doon saw l\u00e0mmi\u00f1\\nTe
+  ba\u00f1 di aw l\u00e0kk\\nCi yow\\nWaaye kat yemal foofee\\nBu fi...\"", "\"Sab\u00f3or
+  60\\nY\u00e0llaa yor sunu mucc\\n1 Mu j\u00ebm ci njiital j\u00e0ngkat yi, d\u00ebppook
+  galan bu \u00f1uy wax Seedeb T\u00f3or-t\u00f3or, di taalifu j\u00e0ngle, \u00f1eel
+  Daawuda. 2 Mooy ba Daawuda di xareek waa Siri \u00f1a ca Mesopotami ak waa Siri
+  \u00f1a ca Soba te ba \u00f1u ca b\u00e0yyikoo, Yowab duma fukki junniy Edomeen
+  ak \u00f1aar (12 000) ca xuru Xorom wa*60.2 Seetal ci 2.Samiyel 8.3-14; 1.Jaar-jaar
+  ya 18.3-13..\\n3 \u00c9y Y\u00e0lla, wacc nga nu, b\u00ebtt sunu kiiraay.\\nMer
+  nga, waaye ngalla xettli nu.\\n4 Y\u00ebngal nga suuf, xar ko;\\nngalla jagalal,
+  mu t\u00ebju, mu ngi jaayu!\\n5 Won nga sa mbooloo lu metti,\\nn\u00e0ndal nu bii\u00f1u
+  mbugal, ba nu miir.\\n6 Artu nga \u00f1i lay jaamu,\\nngir mucc fitt.\\nSelaw.\\n7
+  Walloo nu sa ndijoor, nangul nu,\\nba say soppe xettliku.\\n8 Y\u00e0llaa \u00e0ddoo
+  fa k\u00ebram gu sell,\\nne: \u00abMaay damu, dogat suufas Sikem,\\ns\u00e9ddale
+  xuru Sukk\u00f3ot.\\n9 Maa moom diiwaanu Gal\u00e0dd, moom Manase,\\nEfrayim di
+  sama mbaxanam xare,\\nYuda di sama yetu nguur,\\n10 r\u00e9ewum Mowab di sama ndabal
+  raxasukaay,\\nEdom, ma teg t\u00e0nk;\\nFilisti, ma xaacoo fa.\u00bb\\n11 \u00c9y
+  Y\u00e0lla, ana ku may y\u00f3bbu d\u00ebkk ba tata w\u00ebr?\\nKu may jiite ba
+  Edom?\\n12 Xanaa kay du yaw, Y\u00e0lla mi nu wacc,\\nyaw Y\u00e0lla, mi ba\u00f1a
+  \u00e0nd ak sunu mboolooy xare?\\n13 Ngalla dimbali nu ci ba\u00f1aale;\\ndoom aadama,
+  wallam neen la.\\n14 Nook Y\u00e0lla, nu def nj\u00e0mbaar;\\nmoom mooy not sunuy
+  noon.\"", "\"Explorer les Livres \u00e9lectroniques\\nCat\u00e9gories\\nExplorer
+  les Livres audio\\nCat\u00e9gories\\nExplorer les Magazines\\nCat\u00e9gories\\nExplorer
+  les Documents\\nCat\u00e9gories\\nYaw Y\u00e0lla!Yaw r\u00e9kk Yaay aji Nj\u00ebkk,
+  te dara jiitu wula, te yaw r\u00e9kk yaay aji\\nMujj dara feete wula ginnaaw. Ak
+  Fee\u00f1 yaw la, dara tiimu la ak N\u00ebbbu yittam\\nyaw la, ludul yaw nekkul.
+  Kon yaw mii nekk nekk gii, nekkal \u00f1u!\\nYaw mu nj\u00ebk mi nekkal \u00f1u
+  ci sak nj\u00ebk gi, yaw mu mujj mi nekkal \u00f1u ci sak mujj\\ngi, yaw mu fee\u00f1
+  mi nekkal \u00f1u ci sak fee\u00f1 gi, yaw mu n\u00ebbbu mi nekkal \u00f1u ci sak\\nn\u00ebbbu
+  gi.\\nNekkal \u00f1u diku me\u014boo su\u00f1uy mbir y\u00ebpp di ku \u00f1uy dimbali
+  ci su\u00f1u l\u00e8pp.\\nYaw mi \u00f1uy \u00f1aan lii yaay ki me\u014boo su\u00f1uy
+  mbir yaw la\u00f1 ko \u00f1aan, te baax na ki\\nmengoo su\u00f1uy mbir te \u00f1u
+  \u00f1aan ka \u00f1aan gii, te baax na yit dimbalekkat bi \u00f1uy\\ndimbandiko
+  di ko \u00f1aan \u00f1aan yi.\\nYaw Y\u00e0lla \u00f1u\u014bi lay \u00f1aan te di
+  la \u00f1aanee ci ubbeeg ubbi gi \u014ba ubbee \u00f1u ci ubbi gu\\nmatale, ci mottalib
+  mottali gi batay la\u00f1 lay \u00f1aanee \u014ba may \u00f1u mujj gu rafet.\\nYaw
+  Y\u00e0lla \u00f1u\u014bi lay \u00f1aan yiw lepp\u00ebm lacca teew ak laccay n\u00ebw,
+  la\u00f1 ca xam ak\\nla\u00f1ca xamul, te \u00f1u\u014bi lay muslu ci ay lepp\u00ebm
+  lacca teew ak laccay n\u00ebw, la\u00f1 ca\\nxam ak la\u00f1 ca xamul.\\nYaw Y\u00e0lla
+  \u00f1u\u014bi lay \u00f1aan aljana ak l\u00e8pp lu\u00f1uy jeggeel aljana, moo
+  xam wax\\nmbaa j\u00ebf la , \u00f1u\u014bi lay \u00f1aan it \u014ba muss\u00ebl
+  \u00f1u ci safara ak l\u00e8pp luy jeggeel nit safara\\nmoo xam wax la moo xam j\u00ebff
+  l\u00eb.\\nYaw Y\u00e0lla \u00f1oo \u014bgi lay \u00f1aan njegg\u00ebl, ak jamm
+  , ak m\u00ebn\u00eb am jammalanteek su\u00f1u\\nbop ak mbooleem mbindeef yi , mu
+  doon nak lu sax nekkal \u00f1u ci su\u00f1u diine ,ci\\nsu\u00f1u adduna ak ci su\u00f1u
+  allaxira\\nYaw Y\u00e0lla defal \u00f1u l\u00e9pp lu\u00f1u b\u00ebgg rek mu d\u00ebppook
+  la\u014bga xamni yaw loola \u014ba\\nb\u00ebgg te loola \u014ba g\u00ebr\u00ebm.\\nYaw
+  Y\u00e0lla deffal l\u00e9pp loo xamni b\u00ebgg na\u00f1u ko ba diko t\u00e1nn rek
+  mu d\u00ebppook\\nla\u014bga xam ni moom \u014ba b\u00ebgg te moom \u014ba t\u00e1nn
+  jaam war caa nekk te bu\u00f1u demee\\nba lott ba jaaxle, bul\u00f1u xiir \u00f1uy
+  xettalikoo ci k\u00e9nn kudul yaw.\\nYaw Y\u00e0lla daxxal \u00f1u jaffe-jaffe yi
+  ak tiis yi, ak xiif yeek rafle yi, te \u014ba dindil \u00f1u\\nl\u00e8pp loo xamni
+  balaa la, naqqar la yi\u014ba xamni k\u00e9nn m\u00ebnuko dindi kudul yaw.\\nYaw
+  Y\u00e0lla wu\u00f1il\u00ebl xeetu muhammed (saw) l\u00e9pp luy seen ay jafe-jafe
+  daqqal leen\\nko.\\nYaw Y\u00e0lla jox \u00f1u ci adduna l\u00e9pp luy lu baax,
+  te ca allaaxira yitam kat may \u00f1u fa\\nl\u00e9pp luy lu baax, te \u014ba muss\u00ebl
+  \u00f1u ci mbug\u00eblum safara.\\nYaw su\u00f1u boroom, bu\u00f1u fattee ba def
+  lu\u00f1u w\u00ebrul def, walla \u00f1u bayyi lu\u00f1u\\nw\u00ebroona def jegg\u00ebl
+  \u00f1u r\u00e9kk te bul \u00f1u ko toppee, ndax su\u00f1u melokaan fatteek\\nnjumte
+  moo ci n\u00e9kk.\\nYaw su\u00f1u boroom bul \u00f1u y\u00e9n b\u00e9nn jaffe-jaffe
+  ninka yane woon xeet yi \u00f1u jiitu\\nwoon.Yaw su\u00f1u boroom bul \u00f1u yan
+  mukk loo xam ni amu\u00f1u kattanu m\u00ebn kaa\\ny\u00e8nu, jegg\u00ebl \u00f1u,
+  baal \u00f1u, y\u00ebr\u00ebm \u00f1u, ndax yaay su\u00f1u boroom kon dimbale \u00f1u
+  ci\\nk\u00e9pp koo xamni yeef\u00e9er la buy jok di\u00f1u jeema xeex.Yaw su\u00f1u
+  boroom bul je\u014b\u014bal\\nsu\u00f1uy xol gannaw ba\u014b\u00f1u jubelee ci njubuk
+  lislaam, te may \u00f1u may goo xamni\\ny\u00ebrmande lay doon jogge ci yaw, ndax
+  yaw kat yaay adji maye ji.\\nYaw Y\u00e0lla \u00f1un de degg na\u00f1u woote kat
+  buy woote ci g\u00ebm Y\u00e0lla naan g\u00ebm leen\\nseen boroom! ba\u00f1 deggee
+  wooteem ba \u00f1un dey g\u00ebm na\u00f1ko, kon jeggal \u00f1u su\u00f1uy\\nbakkaar,
+  daxxal \u00f1u su\u00f1uy lu bon te bu\u00f1 demee ba su\u00f1u dund di jeex \u00f1u\u014bi
+  lay\\n\u00f1aan \u014ba boole \u00f1ook \u00f1u baax \u00f1a.\\nYaw Y\u00e0lla \u00f1un
+  dey too\u00f1 na\u00f1u su\u00f1u bopp ci ay bakkaar yu bare, te boo\u00f1u\\njeggalulee
+  mbaa \u014ba y\u00ebr\u00ebm \u00f1u kon sanku rek la\u00f1uy mujjee.\\nYaw Y\u00e0lla
+  jox \u00f1u lu jogge fi yaw tedi y\u00ebrmaande te \u014ba def su\u00f1uy mbir muy
+  loo\\nxamni ci njub r\u00e9kk lay tegu .\\nYaw Y\u00e0lla \u00f1ungi lay \u00f1aan
+  \u014bga may \u00f1u ci su\u00f1u ay soxna ak su\u00f1u ay doom \u00f1uy\\namee
+  ci \u00f1oom xol bu s\u00e8dd,te may \u00f1u ci raggal yalla loo xamni \u00f1un
+  \u00f1ooy doon\\nnjiituk k\u00e9pp ku massa raggal yalla.\\nYaw Y\u00e0lla baalal
+  k\u00e9pp kuy dund ci \u00f1un, ak k\u00e9pp ku faatu ci \u00f1un, ak k\u00e9pp
+  kuy\\nmag ci \u00f1un, ak kuy ndaw ci \u00f1un, ak k\u00e9pp kuy goor ci \u00f1un
+  ak k\u00e9pp kuy jigg\u00e9en ci\\n\u00f1un, ay gor ci \u00f1un ak ay jaam ci \u00f1un
+  baal leen, \u00f1i teew ci \u00f1un ak \u00f1i bok ci \u00f1un te\\nteewu \u00f1u
+  baal leen, \u00f1iy top yalla ci \u00f1un di def limu b\u00ebgg ak limu g\u00ebr\u00ebm,
+  ak \u00f1iy\\nmoy yalla ci \u00f1unit \u00f1\u00ebpp baal leen.\\nAmiin.\"", "\"1Na
+  despuees ni de nu nde'' na, orze'' Shuaan na Jesuuz pcuim setent zub cyup mbecy.
+  Orze'' bzuu nez mi dey nu cha ga dey lom cyup ga dey tub ga gyedz o tub ga lugaar,
+  ze'' nu rlagy \u00f1i nu cham. 2Orze'' nam rab mi dey: \u2015De mbecy nu yu'' ii
+  na na dey gal na tub cosech. Rishli cosech tona'' la she\u00f1 \u00f1i. Tees de
+  mbecy nu gyicy rii\u00f1 lo\u00f1 \u00f1uu zi dey. Nde'' nu bdii\u00f1 der lo \u00d1gyoozh
+  Shuaan cosech ze'' nu gzeed zir mi de mbecy nu te'' cosech ze''. 3Orze'' gua der.
+  Na der gal nu na shily nu zuu neza\u0331 nu cha lat lob. 4Cue'' cha nu der gyish
+  gyit nir, nunu cue'' cha nu der bay ti\u00f1 nir. Ni cue'' cha nu re\u00f1 der gyid
+  lab ru. Nu ca gyi'' zi''l der cha nur. Nunu cue'' chi glaa der nez nu nii nur losa''r
+  \u00f1gyoozh. 5Na ornu chu'' der na\u00f1 tub yu'', orze'' nii nur de mbecy ze''
+  \u00f1gyoozh. Orze'' nii der: \u201c\u00d1gyoozh zeed mi gyel ri zu lat der\u201d,
+  niir. 6Benu na\u00f1 yu'' ze'' rcyii\u00f1 mbecy nu wagyet lagy gyel yuu, orze''
+  gyu'' ni\u00f1 gal nu mnii der. Tees benu walab ni, orze'' wayu'' ni\u00f1 gal nu
+  mnii der. 7Orze'' laab yu'' la ze'' gri der. Orze'' la zi''l coz nu yu'' ni de mbecy
+  nu yu'' ze'' gow der nunu go'' der. Gun yu nu ricy rii\u00f1 yad \u00f1i niy nu
+  gyad iy. Nunu cue'' gri der re\u00f1 re\u00f1 la yu''. 8Na ornu gru''\u00f1a der
+  tub gyedz ze'' nu shet ic dey nu cyii\u00f1 der na, orze'' gow der la zi''l coz
+  nu cuic dey. 9Orze'' gyicy yac der de mbecy rat nu yu'' ze''. Orze'' nii der lo
+  dey: \u201cS\u00f1uu ga cyid gyel gubier ni \u00d1gyoozh lat der\u201d, nii der.
+  10Ze'' benu gru''\u00f1a der tub gyedz ze'' nu washet ic dey nu cyii\u00f1 ru, orze''
+  cha der lat cay. Orze'' nii der: 11\u201c\u00a1Mas gashtal de yu gyedz nu yu'' gyedz
+  ni der nu ta'' gyid lab de\u0331 dib de\u0331 \u00f1ii par nu gabe nu a\u0331''
+  nap bicy der! Tees nap gad lagy der nu s\u00f1uu ga cyid gyel gubier ni \u00d1gyoozh
+  lat der\u201d, niir. 12Ya\u0331 ne\u0331e\u0331 lo der nu ornu shuub dzi nu gri
+  bee \u00d1gyoozh ni dela mbecy, dzi zir cashtig ily cuic mi ni de mbecy gyedz ze''
+  gaze'' ni de mbecy Sodoma. 13\u2019\u00a1Cuaa de ru mbecy gyedz Coraz\u00edn! \u00a1Nunu
+  cuaa ga'' de ru mbecy Betsaida! Gun benu \u00f1gyicy ya\u0331 nusuriidz lat de mbecy
+  nu yu'' gyedz Tiro nu lat de mbecy nu yu'' gyedz Sid\u00f3n gal nu bicya\u0331 lat
+  de ru, orze'' bi gulas mne'' dey de cyi nu ricy yu. Orze'' nzu dey shab cui\u00f1
+  yu, nunu ncoo dey di''\u00f1 tooy par nu gabe nu \u00f1gyac dey mbecy shni. 14Tees
+  ya\u0331 rne\u0331e\u0331 lo der ornu shuub dzi nu gri bee \u00d1gyoozh ni de mbecy,
+  cashtig ily zir cuic mi ni de ru gaze'' ni de mbecy nu yu'' gyedz Tiro nu Sid\u00f3n.
+  15Ze'' de ru mbecy gyedz Capernaum, \u00bfa rlagy der chup der gal gyibaa? Tees
+  gyet lag der gal ze'' nu blaazha'' zir gyi ni gabily. 16\u2019Yu nu rzuub gyidag
+  ni de ru ni'' zi''l rzuub gyidag yu ne\u0331 ya\u0331. Nunu yu nu rzu chu de ru
+  ni'' zi''l rzu chuy ya\u0331. Nunu yu nu rzu chu ya\u0331, ni'' zi''l rzu chuy \u00d1gyoozh,
+  bi\u00f1 nu bzuu nez ya\u0331 \u2015nam. 17Orze'' setent zub cyup mbecy ze'' gua
+  dey rii\u00f1. Na ornu bish cya dey na, orze'' tona'' la bet lagy dey. Orze'' na
+  dey: \u2015\u00a1Shuaan de\u0331, gashtal de nuras rzuub gyidag yu ni de\u0331 ornu
+  rne\u0331e\u0331 du\u0331 de\u0331 yu nu nac ru! \u2015na dey. 18Orze'' na Jesuuz:
+  \u2015Tees ya\u0331 bzaaca\u0331 nuras nu nay gal nu na tub gyi ni guzii nu bruuy
+  gyibaa bet lag yu. 19Ya\u0331 bicya\u0331 nu de ru cyii\u00f1 der nu zar too bily
+  nu too gune, nunu se la la zac der. Nunu bicya\u0331 nu gyicy der gan dela losa''
+  yuur mas tona'' la fert yu. Nunu se la la coz zac der. 20Orze'' cue'' gyet lagy
+  der nu nac nu rzuub gyidag de nuras ni der, sinu bet zir lagy der gun bi ca nu la
+  der lat de mbecy nu bi ya gyibaa \u2015nam. 21Laab or la ze'' Jesuuz tona'' la yet
+  lagy mi nu nac Espiriit Yon ni \u00d1gyoozh. Orze'' nam: \u2015\u00d1gyoozh uza\u0331,
+  bi\u00f1 nu nac Shuaan gyibaa gal nu gyishlombecy, ya\u0331 drica\u0331 gras nir
+  gun ru bicy ru nu gad lagy de yu nu na gal nu na mdoo de coz nu pcach ru lo de yu
+  nu yu'' shcab ni, nu lo de yu nu yet lag cuen. Ni bicy ru gun nde'' coz nu rlagy
+  ru \u2015nam rab mi \u00d1gyoozh. 22Orze'' nam: \u2015\u00d1gyoozh uza\u0331 bdu''m
+  rii\u00f1 ya\u0331a\u0331 nu gyub ica\u0331 dela coz. Nunu ni tub la mbecy wad lagy
+  yu cyu ya\u0331, i''\u00f1 \u00d1gyoozh. Nomaas \u00d1gyoozh uza\u0331, mi ze''
+  rad lagy mi. Nunu ni'' zi''l wagad lagy dey cyu nac \u00d1gyoozh, uza\u0331. Nomaas
+  ya\u0331 i''\u00f1 mi rad lagya\u0331. Nunu ni'' zi''l de mbecy nu rica\u0331 nu
+  gad lagy cyu nac mi, de yu ze'' gad lagy dey cyu nac mi \u2015nam. 23Orze'' gaze''
+  nu bish cyam lo de yu nu rsya'' lom. Orze'' mnii gare\u00f1 lam lo dey. Orze'' nam:
+  \u2015Dzi ni de mbecy nu zac dela coz nu de ru rzac ru. 24Gun zigy de mbecy nu mnii
+  por cuen ni \u00d1gyoozh, gal nu zigy de rey ngulagy dey nzac yu de coz nu de ru
+  rzac ru, tees wansac dey. Nunu ngulagy dey \u00f1gye\u00f1 yu de coz nu re\u00f1
+  de ru, tees wangye\u00f1 dey \u2015nam. 25Orze'' tub mbecy nu rlyuu leey ni \u00d1gyoozh
+  gua niiy lo Jesuuz ben a wad tub mod nu riib yu cyi ic mi. Orze'' nay rab yum: \u2015Masht,
+  \u00bflac mod rlagy \u00f1i gyicya\u0331 par nu gad nu cui mba\u00f1a\u0331 tub
+  la? \u2015nay. 26Orze'' Jesuuz nam rab mi yu: \u2015\u00bfLa coz ca lo leey ni Moisees?
+  \u00bfLac mod yaruu leey ze'' rziir? \u2015nam. 27Orze'' na mbecy ze'' rab yum:
+  \u2015Pca Shuaan ru, bi\u00f1 nu nac \u00d1gyoozh nir, nu dutuub la lardoor nu dela
+  gyel mba\u00f1 nir, nu dela fers nir, gal nu dela shcab nir. Nunu pca losa''r gal
+  nu rcar ub ru \u2015nay. 28Orze'' na Jesuuz rab mi yu: \u2015Nap rnii ru. Benu ni
+  gyicy ru, orze'' gad nu cui mba\u00f1 ru \u2015nam. 29Orze'' mbecy ze'', como rlagy
+  yu gyicy yu nu gabe nu nap yu par lo \u00d1gyoozh, orze'' nay rab yu Jesuuz: \u2015\u00bfCyu
+  nac losa\u0331''? \u2015nay. 30Orze'' na Jesuuz rab mi yu: \u2015Bzu tub mbecy.
+  Orze'' bruuy gyedz Jeric\u00f3 yay par Jerusaleeng. Orze'' nez nu yay bdzeel yu
+  gubaan. Orze'' de gubaan ze'' bgo la dey tooy. Orze'' bloo dey dela suuy. Dela shab
+  yu, dela bloo dey. Gaze'' nu bdi su dey yu. Orze'' gaze'' nu ya dey. Se nu gat zi''l
+  yu bzee\u00f1 de gubaan ze'' ya dey. 31Ze'' yad nu laab zi''l nez ze'' bded tub
+  uz. Tees ornu bzaac yu mbecy nu mbish ze'', orze'' zet byach yu ze'' nu mbish mbecy
+  nu guud g\u00fcii ze''. Orze'' yaa lay. 32Orze'' ni'' zi''l bru''\u00f1a tub mbecy
+  nez Lev\u00ed lugaar ze''. Ni'' yu ze'' nac yu tub yu nu ricy rii\u00f1 na\u00f1
+  yu'' nu driib zily mbecy \u00d1gyoozh. Na ornu bzaac yu mbecy nu mbish ze'', orze''
+  zeta'' byach yu ze'' nu mbish yu ze''. Orze'' yaa ga'' lay. 33Tees ornu bded tub
+  mbecy Samaria nez ze'', orze'' bzaac yu nu mbish mbecy ze''. Orze'' gushni lagy
+  yuy. 34Orze'' becha''y lo mbecy ze''. Gaze'' nu bicy nuy mbecy ze'' gu\u00f1aa.
+  Orze'' briily yu asecy nu \u00f1up ni urbyay ze'' nu guud g\u00fcii ni mbecy ze''.
+  Gaze'' nu ptiish yu negy ze'' nu guud g\u00fcii ni mbecy ze''. Orze'' briib yu mbecy
+  ze'' ich ba\u00f1cyug niy. Orze'' ya nuy yu na\u00f1 tub yu'', ze'' nu rgyii\u00f1
+  mbecy posad. Orze'' laab yu bg\u00fciiy yu. 35Na tuuba'' dzi na, orze'' mbecy Samaria
+  ze'' blooy cyup ti\u00f1 briic yu ni shuaan yu'' ze''. Orze'' nay rab yuy: \u201cNap
+  zi''l g\u00fciir mbecy ii. Nunu benu gyicy zir yu gasht, orze'' ya\u0331 risha\u0331
+  ornu cush cya\u0331\u201d, nay. 36Ze'' orze'' na, \u00bfca na lo chon de mbecy ze''
+  bicy nuy yu nu guud g\u00fcii ze'' gal mod nu rlagy \u00f1i nu gyicy mbecy nu losa''y?
+  \u2015nam. 37Orze'' na yu nu rlyuu leey ze'' rab yu Jesuuz: \u2015Yu nu gushni lagy
+  mbecy nu guud g\u00fcii ze'' \u2015nay. Orze'' na Jesuuz rab mi yu: \u2015Orze''
+  gua nunu ni'' zi''l gyicy ru \u2015nam. 38Orze'' ya Jesuuz. Gaze'' nu bru''\u00f1am
+  tub gyedz. Gyedz ze'' rcyii\u00f1 tub fi\u00f1 m\u00f1aa nu la Mart. Orze'' mnii\u00f1
+  lo Jesuuz nu chu''m na\u00f1 yu'' ni\u00f1. 39Ze'' bily \u00f1ii la\u00f1 Li. Orze''
+  gusub \u00f1i ye\u00f1 gyi'' Jesuuz par nu zuub gyidag \u00f1i de riidz nu rlyuum.
+  40Orze'' Mart rcha'' ic \u00f1i nu nac nu dzi yu'' rii\u00f1 ricy \u00f1i. Orze''
+  becha''\u00f1 lo Jesuuz. Orze'' na\u00f1: \u2015Shuaana\u0331, \u00bfa wagyicy cuen
+  ru nu bilya\u0331 dela rii\u00f1 bzee\u00f1 \u00f1i nu gyicya\u0331 ub zi\u0331?
+  Mnii lo\u00f1 nu locyuub \u00f1i ya\u0331 \u2015naa\u00f1. 41Orze'' na Jesuuz rab
+  mi Mart: \u2015Mart, Mart tona'' la rsug ic ru nunu deet rac na\u00f1 lardoor nu
+  nac za\u00f1 coz. 42Tees tub zi coz nu ricy \u00f1i presis. Ze'' Li pcui\u00f1 tub
+  coz nu nap zir par nu gyicy \u00f1i. Nunu se cyu la gac co ni\u00f1 \u2015nam.\"",
+  "\"Ginnaaw bi njureefi jo\u014bantey palum d\u00e9pite yi rotee, yenn ci d\u00e9pite
+  yi biral na\u00f1 seen p\u00e9ete. Ndax, kii di Paap J\u00f3ob moom, di Njiital
+  l\u00ebkkatoog Bokk Gis-Gis/Ligg\u00e9ey fekki na waa Bennoo Bokk Yaakaar \u00f1i
+  nga xam ne \u00f1oo fare ci Nguur gi. Loolu, terewul nag \u00f1eneen \u00f1i fare
+  woon ci yeneen l\u00ebkkatooy kujje gi moom, tey la waalo g\u00ebn a aay. Fa\u00f1
+  tegoon seen t\u00e0nk ci kujje gi teggiwu\u00f1u ko ba tey. Te, \u00f1aari l\u00ebkkatoo
+  yii di AAR SENEGAAL ak Les Serviteurs nga xam ne \u00f1aari d\u00e9pite la\u00f1u
+  am. Ba sax, \u00f1enn ci askan wi doon ruumandaat seen p\u00e9ete, biral na\u00f1u
+  fa \u00f1u bokk. Waaye, loolu taxul benn yoon \u00f1u fekki kenn ci \u00f1i leen
+  \u00ebppale muy ci Nguur gi di ci l\u00ebkkatoo YAW-WALLU. \u00d1oom, da\u00f1oo
+  fas y\u00e9ene f\u00e0kk seen yooni bopp ngir w\u00e9yal seen i s\u00e9mb. Kon l\u00e9egi,
+  lan lees m\u00ebn a xaar ci taxawaayu d\u00e9pitey kujje gi fale ca p\u00e9ncum
+  ndawi r\u00e9ew ma ?\\nTaxawaayu d\u00e9pitey kujje gi \u00ebll\u00ebg ca p\u00e9ncum
+  ndawi r\u00e9ew ma nar naa tagat\u00e9mbe. Day mel ni, ku nekk ci \u00f1oom dafa
+  namm a w\u00e9y ci li mu nekkoon laata njureefi n\u00e9gandiku yiy g\u00e9nn, ak
+  ginnaaw njureefi yu mujj yi. Ndax, kii di Paap Jibriil FAAL Njiital l\u00ebkkatoo
+  Les Serviteurs ci ndajem-waxtaanam mii j\u00e0ll, xamle na ci ne :\\n\u201c Taxawaay
+  bi m\u00ebnt a \u00f1\u00e0kk. Loolu, moo tax Senegaal rekk ci p\u00f3litig, askanu
+  Senegaal \u00f1oom la\u00f1u ci doon d\u00e9glu, \u00f1oo ciy sunu kilifa, \u00f1oom
+  rekk la\u00f1u fas y\u00e9ene taxawal. Du\u00f1u doon bu s\u00e0mba, du\u00f1u doon
+  bu demba (\u2026). Te, caytu gi \u00f1u b\u00ebgg a def ngir nga m\u00ebn ko def
+  f\u00e0ww nga moom sa bopp.\u201d\\nLii di ay k\u00e0ddu ngir biral p\u00e9eteem
+  ci l\u00e0ngug p\u00f3litig gi. Mu mel ni moom dafa b\u00ebgg a x\u00e0ll yoonu
+  boppam b\u00e9s bu \u00e0ggee ca p\u00e9nc ma. Ndax, dafa am s\u00e9mb bu mu yor
+  b\u00ebgg koo doxal. Moo tax, mu j\u00e0pp ne fare fenn da koy g\u00e0llankoor.
+  Donte ne sax, f\u00e9sal na bokkam ci kujje gi ngir soppi li fi nekk. Rax-ci-dolli,
+  saytu koppar yi (budget) ci w\u00e0ll y\u00e9pp (c\u00e0mm, mbey, napp, a\u00f1s).\\nCa
+  beneen boor ba tamit, kii di Usmaan SONKO bokk ci l\u00ebkkatoo YAW-WALLU biral
+  na ci ndajem-waxtaan ma mu doon amal, wax ci ne :\\n\u201c Dama ne duma seeti kenn,
+  duma woo kenn, duma negosiye ak kenn. Ku leen ne Usmaan SONKO woo na ma di wax ak
+  man ci nu may deme seen kippaango walla yooyu, loolu amul de. Man y\u00ebfu tappale
+  yooyu bokkuma ci. Kenn ku nekk danga demoon daje ak askan wi, ne man ci kujje gi
+  laa bokk, woteel-leen ma. Ba askan wi x\u00e9y am lu mu la jox, bari na n\u00e9ew
+  na, am na lu la askan wi jox (\u2026). Kon dogal boo j\u00ebl yaw ak askan woowu
+  la.\u201d\\nK\u00e0dduy \u00f1aari Njiital p\u00e0rti yooyu nag, junjul ag \u00e0nd
+  ci diggante \u00f1i fare ci kujje gi. Ndax kat, cin moom bu naree neex rekk, bu
+  baxee xee\u00f1. Ba tey, \u00f1ii di waa AAR SENEGAAL tamit nga xam ne am na \u00f1u
+  doon laam-laamee seen bokk ci kujje gi laata ak ginnaaw wote yi. Biral na\u00f1
+  seen ag bokk ci kujje gi ci ab saabal bu \u00f1u def ca Ndakaaru 12 ut 2022. Te,
+  taxul tamit \u00f1u fekki genn l\u00ebkkatoo tamit ci kujje gi. Ba ci sax \u00f1ii
+  di waa WALLU SENEGAAL tamit ci seen saabal bi \u00f1u def 16 ut 2022 ci la\u00f1u
+  yeesalaat seen ag bokk ci kujje gi donte ne sax, \u00f1oom ak YAW \u00f1oo \u00e0nd.
+  Ba tey jii, amagul seen benn d\u00e9pite bu fekki Nguur gi. Ndegam, fi mbir yi tollu
+  nii tembe nag, ku nekk ci kujje mi ngi r\u00e0cc di j\u00ebmale kanamam. Loolu terewul
+  ne Nguur gi moom, mi ngi w\u00e9y di yor doole ja fale ca p\u00e9ncum ndawi r\u00e9ew
+  ma. Moo tax, f\u00e9ewaloo du njari\u00f1al kujje ndax mbooloo kat mooy doole. Ba
+  tax na, \u00f1i fare ci kujje bu \u00f1u boolewul seen doole, ndax seen taxawaay
+  dina m\u00ebn a d\u00ebg\u00ebr ? Ndax tamit, dina\u00f1 m\u00ebn a w\u00e9yal seen
+  i s\u00e9mb yi \u00f1u jotoon won askan wi ba mu w\u00f3olu leen ?\\nWaaye, kii
+  di Ceerno B\u00d3OKUM, bokk ci waa AAR SENEGAAL ci aw waxtaan wu mu doon def fale
+  ca TFM moom dafa j\u00e0pp ne doole moom kenn amagu ko ca p\u00e9ncum ndawi r\u00e9ew
+  ma. Ci la biral ne :\\n\u201c Dama gis ne ba mbir mi g\u00e9nnee rekk, da\u00f1u
+  j\u00ebl \u00f1etti d\u00e9pite yi muy bu waa AAR SENEGAAL BOKK GIS-GIS/LIGGEEY,
+  LES SERVITEURS j\u00e0pp ne \u00f1oo war a leeral k\u00e0rt gi. Dama ne loolu ku
+  xamul lool nu p\u00e9ncum ndawi r\u00e9ew ma di doxe moo koy wax. Ca d\u00ebgg-d\u00ebgg,
+  \u00f1\u00e9pp a m\u00ebn leeral mbir yi. Ndax, doole (majorit\u00e9) ji ni muy
+  deme bu \u00f1u ko waree teg m\u00ebn na j\u00f3ge ci \u00f1i \u00ebpp doole (nguur
+  gi), m\u00ebn na j\u00f3ge tamit ci kujje gi.\u201d\\nMu mel ni loolu la kii di
+  Usmaan SONKO di d\u00ebggal ci waxam jii :\\n\u201c \u2026\u00f1\u00e9pp xam na\u00f1
+  ne p\u00e9ncum ndawi r\u00e9ew bala nga fay m\u00ebn a def li nga b\u00ebgg a def
+  d\u00ebgg nga am fa doole. Fim ne nii nag, amagu\u00f1u ko, \u00f1\u00e0kkagu\u00f1u
+  ko(\u2026). Kenn amagu fa doole. Bu soobe Y\u00e0lla fukki fan ak \u00f1eent ci
+  weeru S\u00e0ttumbar dinanu xam ku am doole ak ku ko \u00f1\u00e0kk.\u201d\\nBu
+  dee nag nii la mbir yi t\u00ebdde, te ba tey, \u00f1i fare ci kujje, ku nekk a ngi
+  \u014b\u00e0nk fi mu \u014b\u00e0nk. \u00c0nd moom du m\u00ebn a am. Te, loolu dina
+  g\u00e0kkal bu baax seen taxawaay ca p\u00e9ncum ndawi r\u00e9ew ma ngir ni \u00f1u
+  fa nar a \u00f1\u00e0kke doole. Te, dina bokk ci liy g\u00e0llankoor seen s\u00e9mb
+  yi ndax, foofa moom doole moo fay dox. Benn loxo moom du t\u00e0ccu. Te, lu kenn
+  m\u00ebn sax \u00f1aar a ko ko d\u00e0q. Rax-ci-dolli ne, cin moom ak lu mu fees
+  fees xorom xaj ca. Moo tax, taxawaay yi mat a settantalaat ngir \u00f1u m\u00ebn
+  taxawal askan wi leen fa teg. Kenn ci \u00f1oom ba\u00f1 a boddi moroomam ndax dafa
+  am lu tax askan rombu fi \u00f1eneen teg leen fa. Te, beykat nag bu b\u00e0yyee
+  tool buy t\u00f3or-t\u00f3or, dem ci digg m\u00e0ndi\u014b di fa ruuj, b\u00ebgg
+  ay tool taxul. Kon, na gaa \u00f1i jiital b\u00ebgg-b\u00ebggi \u00f1i leen fal,
+  f\u00e0tte seen i p\u00e9ete. Ndax, mag moom kenn du ko wax, danga koy won.\"",
+  "\"T\u00c9L\u00c9CHARGER TAYSIR PDF GRATUITEMENT\\nMan lam yakun yalqahu xadan yanalwajalan
+  Matlabou chifa-i version 2. Jamii-a hajaatinaa Y\u00e0llaahu Yallaahu Annaasiril
+  h\u00e0qi bil h\u00e0qil jalii wa ilaa Nuurun ahaa tabihil anwaaru haajibatan Di
+  yeurmand\u00e9 gou magg gi te matal mbindef yeup yow yalla Qawiiyu Muhsil Mu-iidul
+  Mubdi-u Samadu\\nAshkuu ilaa laahi haajan laysa yarfa-uhaa tayslr Savez-vous, ce
+  livre est \u00e9crit parEmmanuel Berl. Salli aleyhi salaatan salliman abadan Wadjahtou
+  Lil hadil haliimi hakhlii. Ci sa sopp\u00e9 bi ak njabootam, yaw Y\u00e0lla\\nLe
+  Titre Du Livre: Ndax am na ku man a dindi la Y\u00e0lla bi namm cib jaamam Ki mbind\u00e9ef
+  yiy noyy\u00e9e t\u00e9 mu yor ay mbooti boppam Dollil x\u00e9ewal ci sa \u00e0lluwa
+  ji nga sose mbind\u00e9ef yi Laa uhsiyannas sanaa aleyka anta kamaa T\u00e9l\u00e9charger
+  Monthly Bulletin of the International Pvf yaa H\u00e0yyu yaa Q\u00e0yyumu Y\u00e0llahu
+  Et si mes Serviteurs te posent des questions \u00e0 mon sujet, dit leur o Mohammad
+  que je Less.\\nCours du Coll\u00e8ge de France. Ini oukhatiboun nasara 1. Y\u00e0lla
+  dollil x\u00e9ewal, t\u00e9 j\u00e0mmal leer googu weur k\u00e9pp koo bind T\u00e9l\u00e9charger
+  Croisi\u00e8res et caravanes livre En ligne Fadila Bouamrane \u00c0 propos de l\u2019auteur:
+  Zuujaza-in ashifun Y\u00e0llaahu Y\u00e0llaahu Lam yabdou version 2.\\nMy blog Discover
+  More. T\u00e9l\u00e9charger La recherche biom\u00e9dicale en danger liv Musral Mukallami
+  Xayril Xalqi Y\u00e0llaahu Related publications Share Embed Add to favorites Comments.
+  Matlaboul fawzayni version 2. Matlabou chifa-i version fran\u00e7aise.\\nT\u00e9
+  mu t\u00e9dd ci b\u00e9pp mbindeef, yow Boroom yeurmand\u00e9, yow Y\u00e0lla Tazawwoudou
+  Sikhar version 1. Nafila w\u00e9rou Koor Wolof.\\nTAISSIR ET TEXTES ARABES \u00b7
+  FEMME MUSULMANE MOUSTARCHIDA\\nSalli tayir bihaa Rabbi tu-allilunaa Wa maa safiinatu
+  turjaa xayra rahmatikal Xaniyu Y\u00e0llahu yaa Xabiiru Y\u00e0llaahu Siwaaka yaa
+  Rabbannaa Y\u00e0llaahu Y\u00e0llaahu Dollil x\u00e9ewal \u00e0dduna ak \u00e0llaaxira
+  yeurmand\u00e9 ci sunu sang Faaxfirlanaa waliman min bayninaa nasabun Boroom dool\u00e9,
+  ki s\u00e0kk tey delloo ruuh yi tey tyasir, yow mi gneupp jublu Nafila du mois de
+  Ramadan fran\u00e7ais.\\nMoom miy tzysir, t\u00e9y mottali mbir y\u00e9pp, di sunu
+  Boroom. Wadjahtou kouli et Wadjahtou wadjhi.\\nYou can not consider simply how much
+  time I had spent ffor thnis information! Sunu Boroom, maa ngi gnan,xasida bii ma
+  bind Nga geureum ko, mu sant la, yow Tqysir yeurmand\u00e9,\"", "\"1Gannaaw gi Aji
+  Sax ji won ma Yosuwe sarxalkat bu mag ba, mu taxaw fa kanam malaakam Aji Sax ji,
+  Tuumaalkat bi taxaw f\u00e9ete ko ndijoor, ngir tuumaal ko.\\n2Aji Sax ji ne Tuumaalkat
+  bi: \u00abAji Sax ji r\u00ebbb na la, Yaw Tuumaalkat bi, Aji Sax ji taamu Yerusalem
+  r\u00ebbb na la. Xanaa Yosuwe mii du lenn lu moy gillit wu \u00f1u f\u00ebkke cib
+  taal?\u00bb\\n3Yosuwee ngi sol y\u00e9re yu dand, taxaw fi kanam malaaka mi.\\n4Malaaka
+  ma wax ak \u00f1a taxaw fa kanamam ne leen: \u00abSummileen y\u00e9reem yu dand
+  yi.\u00bb Mu teg ca ne Yosuwe: \u00abDama ne, far naa sa b\u00e0kkaar, te dinaa
+  la solal lu jekk.\u00bb\\n5Ma daldi ne: \u00abNa\u00f1u teg kaala gu set ci boppam.\u00bb
+  \u00d1u tegal ko kaala gu set ci boppam, solal ko yeneen y\u00e9re. Malaakam Aji
+  Sax jaa nga taxaw.\\n6Malaakam Aji Sax ji nag d\u00e9nk Yosuwe ne ko:\\n7\u00abAji
+  Sax ji Boroom g\u00e0ngoor yi dafa wax ne: Su fekkee ne samay yoon ngay awe te sama
+  nd\u00e9nkaane nga d\u00e9nkoo, su boobaa yaw it dinga saytu sama k\u00ebr, di s\u00e0mm
+  samay \u00ebtt. Te maa lay jox ay c\u00e9r yu la yaatal ci biir \u00f1ii fi taxaw.\\n8D\u00e9glul
+  bu baax, yaw Yosuwe sarxalkat bu mag bi, yaak sa xarit yi toog fi sa kanam te taxawe
+  ab tegtal, nde maa ngii di indi samab jaam, ki \u00f1uy wax Njebbit li.\\n9Doj waa
+  ngii ma teg fi kanam Yosuwe, te wenn doj wi, jur\u00f3om \u00f1aari g\u00ebt a ngi
+  ci kawam. Maa ngii di ci \u00f1aas mbind mi ci war,\u00bb k\u00e0ddug Aji Sax jee,
+  Boroom g\u00e0ngoor yi, \u00abte maay far b\u00e0kkaaru r\u00e9ew mii ci benn b\u00e9s.\u00bb\\n10\u00abB\u00e9sub
+  keroog,\u00bb k\u00e0ddug Aji Sax jee, Boroom g\u00e0ngoor yi, \u00abku nekk ci
+  yeen ay woo moroom ma ci ker garabu rese\u00f1am, ak ker garabu figgam.\u00bb\"",
+  "\"8\\nLu j\u00ebm ci \u00f1am wu \u00f1u sarxal ay tuur\\n1 Su dee w\u00e0llu \u00f1am
+  wu \u00f1u sarxal ay tuur, d\u00ebgg la, nun \u00f1\u00e9pp am nanu xam-xam ci moomu
+  mbir. Xam-xam nag day tax nit a r\u00e9y-r\u00e9ylu, waaye cofeel day yokke.\\n2
+  Ku xalaat ne yaa xam lenn, xamaguloo ni nga wara xame.\\n3 Waaye ku sopp Y\u00e0lla,
+  Y\u00e0lla xam la.\\n4 Kon su dee w\u00e0llu \u00f1am wu \u00f1u sarxal ay tuur,
+  xam nanu ne ay tuur du dara ci \u00e0ddina, te Y\u00e0lla kenn la.\\n5 Doonte am
+  na yu \u00f1uy wooye ay y\u00e0lla, te muy lu nekk ci asamaan mbaa ci suuf, te d\u00ebgg
+  la, bare na \u00f1u \u00f1u neey ay y\u00e0lla la\u00f1u, bare na it \u00f1u \u00f1u
+  neey ay sang la\u00f1u.\\n6 Teewul ci sunu w\u00e0llu bopp, jenn Y\u00e0llaa am,
+  muy Baay bi l\u00e9pp j\u00f3ge ci moom, te sunu bakkan \u00f1eel ko, benn Sang
+  do\u014b\u014b a am, muy Yeesu Almasi, bi l\u00e9pp ame ci moom, te sunu bakkan,
+  ci moom la ame.\\n7 Waaye du \u00f1\u00e9pp a xam loolu. Am na g\u00ebmkat \u00f1u
+  seen miineelu tuur yi b\u00e0yyeegul, ba l\u00e9egi, te moo tax bu \u00f1u lekkee
+  \u00f1am wu \u00f1u foog ne saraxi tuur la, seen xel mu daladi moo leen di foogloo
+  ne sobe toppe na leen ca \u00f1am wa.\\n8 Waaye du wenn \u00f1am wu nuy jegele ak
+  Y\u00e0lla. Nu lekk ko, ak nu ba\u00f1 koo lekk, du nu yokk, du nu w\u00e0\u00f1\u00f1i.\\n9
+  Waaye ni ngeen di dunde seen sa\u00f1-sa\u00f1u bopp, dangeen ciy xool \u00f1i seen
+  ng\u00ebm d\u00ebg\u00ebrul, ngir ngeen ba\u00f1 leena y\u00f3bbe b\u00e0kkaar.\\n10
+  Yaw mi r\u00e9y xam-xam, ku la gis ca ndab la ca jaamookaayu tuur ya, su dee ab
+  g\u00ebmkat bu xelam daladi ndax ng\u00ebm gu desee d\u00ebg\u00ebr, mbaa du ko
+  xiir ci roy la, ba mu lekk ca \u00f1amu sarax sa?\\n11 Te su demee noonu nag, su
+  boobaa sa xam-xam bu r\u00e9y ngay s\u00e0nke sa mbokkum g\u00ebmkat bu n\u00e9ew
+  doole boobu Almasi deeyal!\\n12 Su ngeen too\u00f1ee noonu bokki g\u00ebmkat \u00f1i,
+  ba y\u00e0q seen xel mu daladi, kon de Almasi ngeen too\u00f1.\\n13 Moo tax, su
+  dee aw \u00f1am wu ma lekk mooy tax ma b\u00e0kkaarloo sama mbokkum g\u00ebmkat,
+  dootuma lekk mukk aw y\u00e0pp ci \u00e0ddina, ngir ba\u00f1a b\u00e0kkaarloo sama
+  mbokkum g\u00ebmkat.\"", "\"6\\nDiggante waajur yi ak seen njaboot\\n1 Naka y\u00e9en
+  xale yi, nangeen d\u00e9ggal seeni waajur, ci li ngeen bokk ci Boroom bi, ndaxte
+  looloo rafet.\\n2 \u00abTeralal sa ndey ak sa baay,\u00bb mooy ndigal li j\u00ebkka
+  \u00ebmb dige,\\n3 maanaa: \u00abngir nga am gudd fan gu \u00e0nd ak j\u00e0mm.\u00bb\\n4
+  Y\u00e9en baay yi it, buleen bundxataal xale yi, waaye ngeen yar leen, di leen yemale
+  ak a yee ci Boroom bi.\\nDiggante jaam ak sangam\\n5 Y\u00e9en jaam yi, nangeen
+  d\u00e9ggal seeni sang yu \u00e0ddina, boole ci ragal ak wegeel, di ko def ak xol
+  bu laab, ni su doon ngir Kirist.\\n6 Buleen ko def rekk ci ngistal, ngir s\u00e0kku
+  ng\u00ebr\u00ebmu nit, waaye ni ay jaami Kirist, di j\u00ebfe coobarey Y\u00e0lla
+  ak seen xol b\u00e9pp.\\n7 Beyleen seen sas nag ak xol bu t\u00e0lli, ni su doon
+  ngir Boroom bi te du nit,\\n8 xam ne ku def lu baax, Boroom bi delloo la ko, muy
+  jaam, muy gor.\\n9 Y\u00e9en it sang yi, j\u00ebfeleen noonu seen diggante ak seeni
+  jaam, te d\u00ebddu g\u00e9pp raglu, xam ne y\u00e9ena bokk benn Boroom ci asamaan,
+  te \u00f1\u00e9pp a yem fi moom.\\nXeex ak Seytaane\\n10 L\u00e9egi nag doolewuleen
+  ci Boroom bi te soloo k\u00e0ttanam gu mag gi.\\n11 G\u00e0nnaayooleen y\u00e9rey
+  xarey Y\u00e0lla y\u00e9pp, ngir mana j\u00e0nkoonte ak pexey Seytaane.\\n12 Ndaxte
+  nd\u00ebndu xare jib na, waxuma sunu diggante ak nit \u00f1i, waaye ak kilifa yiy
+  n\u00ebxal \u00e0ddina si, \u00f1uy kilifa yi ak ay boroom sa\u00f1-sa\u00f1, di
+  gaayi Seytaane yi ci b\u00e9rab yu kawe yi.\\n13 Kon nag g\u00e0nnaayooleen y\u00e9rey
+  xarey Y\u00e0lla y\u00e9pp, ba mana j\u00e0nkoonte jamono ju xeex bi taree, not
+  l\u00e9pp te taxaw temm.\\n14 Taxawleen kon temm, ge\u00f1oo d\u00ebgg te s\u00e0ngoo
+  njub, muy seen kiiraayu d\u00ebnn.\\n15 Solooleen j\u00e0mm, ji xibaaru j\u00e0mm
+  biy joxe, ni ay d\u00e0ll ci seeni t\u00e0nk, ba jekk ci l\u00e9pp.\\n16 Defleen
+  it ng\u00ebm, muy seen pakk, ba mana f\u00e9l jum yi leen Seytaane di fitt.\\n17
+  Defleen mucc, muy seen mbaxanam xare, ak k\u00e0ddug Y\u00e0lla, muy jaasi ji leen
+  Xel mu Sell mi t\u00ebggal.\\n18 Deeleen \u00f1aan ci xeeti \u00f1aan y\u00e9pp
+  ci k\u00e0ttanu Xel mu Sell mi, te sax ci ak farlu gu mat s\u00ebkk, di \u00f1aanal
+  gaayi Y\u00e0lla yu sell yi y\u00e9pp.\\n19 Te buleen ma ci f\u00e0tte, ngir waxtu
+  wu ma ubbee sama g\u00e9mmi\u00f1, ma am lu ma wax, ba mana xamle ak fit wu d\u00ebg\u00ebr
+  mb\u00f3oti xibaaru j\u00e0mm bi.\\n20 Ndaw laa ci, lu \u00f1u j\u00e9ng; yal na
+  ma Y\u00e0lla may fit wu ma waxe, ni mu ma ware.\\nT\u00e0ggoo\\n21 Y\u00f3nnee
+  naa leen Tisig sama mbokk, mi ma sopp, te muy jawri\u00f1 ju takku ci ligg\u00e9eyu
+  Boroom bi, ngir mu xamal leen l\u00e9pp li aju ci man ak li may def.\\n22 Maa leen
+  ko y\u00f3nneel sama bopp, ngir ngeen xam li nu nekke, te mu d\u00ebfal seeni xol.\\n23
+  Y\u00e9en bokk yi, yal na leen Y\u00e0lla Baay bi ak Yeesu Kirist Boroom bi may
+  j\u00e0mm ak mb\u00ebggeel gu \u00e0nd ak ng\u00ebm.\\n24 Yal na yiwu Y\u00e0lla
+  \u00e0nd ak \u00f1\u00e9pp, \u00f1i b\u00ebgg Boroom bi Yeesu Kirist ak mb\u00ebggeel
+  gu sax.\"", "\"Waallu bitim reew b\u00ebr\u00ebbu aattekaay bu neekk ci gox biidi
+  (kufru sheyx) ci reewum Egypt yookkna tekk loxo bi nga xamni tekknako loxo njiitu
+  waa fr\u00e8res musulman\\nK\u00ebru tasukaayu xabaaru al xuraan yi (ikna) te neekk
+  ci Iran xabaarna j\u00ebleeko ci b\u00ebr\u00ebbu xabaar bi nga xamni moo neekk
+  ci internet (asharq) ni: aattekaay bii neekk ci gox biidi (kufru sheyx) yookkna
+  aapp bi nga xamni ci la\u00f1u waroona dee\u00f1 njiitu waa fr\u00e8res musulman
+  yi nga xamni toolluna\u00f1u ci 140 doomu aadama ci diiru fukki fan ak jurooom\\nSu\u00f1u
+  sukkandikoo ci xabaar bii dina\u00f1u wax ni b\u00ebr\u00ebbu aattekaay bii dafa
+  tuumaal njiitu waa fr\u00e8res musulman yin i da\u00f1oo bokkoon ci fitna yi nga
+  xamni ayy doomu aadama yu bari faatuna\u00f1u ci, njiitu waa fr\u00e8res musulman
+  da\u00f1u leen tuumaal ni da\u00f1oo \u00f1aakka woormaal aax ak yeelleefu doomu
+  aadam yi\\nGox biidi (kufru sheyx) been weer mungi nii ayy fitna amfa ba am juroom
+  been doomu aadama yoo xamni \u00f1aakkna\u00f1u ci seen bakan ak \u00f1aari teemeer
+  ak juroom fukk yoo xamni da\u00f1u ci am ayy gaa\u00f1u gaa\u00f1u\\nBi \u00f1u
+  daaxee Muhamad Morsi ci nguur gii ba leegi b\u00ebs bu yaalla saakk dina\u00f1u
+  amal ayy manifester ak ayy doxu \u00f1axtu\\n1307517\""]'
+src_ngrams: '{"1": [[["nii"], 12499], [["xaa"], 11176], [["aji"], 9538], [["yeesu"],
+  8873], [["lo"], 8165]], "2": [[["l\u00eb\u00eb xaa"], 2572], [["xaa nii"], 1740],
+  [["usmaan sonko"], 1541], [["maki s\u00e0ll"], 1395], [["me\u00f1 nii"], 1280]],
+  "3": [[["dina\u00f1uy wax tamit"], 1577], [["aan l\u00eb\u00eb xaa"], 598], [["aji
+  sax jee"], 574], [["xel mu sell"], 382], [["fan ci weeru"], 362]], "4": [[["nii
+  xniladzy xtiits dios"], 237], [["k\u00e0ddug aji sax jee"], 237], [["dund gu dul
+  jeex"], 209], [["me\u00f1 nii xniladzy xtiits"], 202], [["xaa nii x\u00f1abey lo"],
+  163]], "5": [[["me\u00f1 nii xniladzy xtiits dios"], 177], [["yal na ko y\u00e0lla
+  dolli"], 151], [["aji sax ji boroom g\u00e0ngoor"], 116], [["sunu boroom subhaanahu
+  wa tahaalaa"], 113], [["njiitu r\u00e9ew mi maki s\u00e0ll"], 107]]}'

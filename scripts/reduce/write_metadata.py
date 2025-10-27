@@ -20,7 +20,9 @@ def initialization():
     parser.add_argument('yamlfile', type=argparse.FileType('a'), help="Output YAML stats file.") 
     parser.add_argument('corpusname', type=str, help="Corpus name")
     parser.add_argument('srclang', type=str, help="Source language")
+    parser.add_argument('srclang2', type=str, help="Source language, 2 letters")    
     parser.add_argument('trglang', nargs='?',  type=str, default=None,  help="Target language")
+    parser.add_argument('trglang2', nargs='?',  type=str, default=None,  help="Target language, 2 letters")
     parser.add_argument('bicleanerconfig',  nargs='?', type=str, default=None , help="BicleanerAI config yaml file (optional)")    
     args = parser.parse_args()
     return args
@@ -39,14 +41,14 @@ def main():
     
     #stopwords
     src_ngrams_warnings = set()    
-    src_stopwords, nwarnings = get_stopwords(args.srclang)
+    src_stopwords, nwarnings = get_stopwords(args.srclang2)
     for w in nwarnings:
         src_ngrams_warnings.add("src_"+w)
     warnings.extend(src_ngrams_warnings)    
     
-    if args.trglang != None:
+    if args.trglang2 != None:
         trg_ngrams_warnings = set()  
-        trg_stopwords, nwarnings = get_stopwords(args.trglang)
+        trg_stopwords, nwarnings = get_stopwords(args.trglang2)
         for w in nwarnings:
             trg_ngrams_warnings.add("trg_"+w)
         warnings.extend(trg_ngrams_warnings)    
@@ -54,20 +56,20 @@ def main():
 
 
     #tokenizer
-    src_tokenizer = CustomTokenizer(args.srclang)  
+    src_tokenizer = CustomTokenizer(args.srclang2)  
     for w in src_tokenizer.getWarnings():
         warnings.append("src_"+w)
 
-    if args.trglang != None:    
-        trg_tokenizer = CustomTokenizer(args.trglang)        
+    if args.trglang2 != None:    
+        trg_tokenizer = CustomTokenizer(args.trglang2)        
         for w in trg_tokenizer.getWarnings():
             warnings.append("trg_"+w)
 
     #fastspell
-    if (args.srclang not in get_fastspell_langs()):
+    if (args.srclang2 not in get_fastspell_langs()):
         warnings.append("src_fastspell") 
-    if args.trglang != None:
-        if (args.trglang not in get_fastspell_langs()):
+    if args.trglang2 != None:
+        if (args.trglang2 not in get_fastspell_langs()):
             warnings.append("trg_fastspell")
 
     #bicleaner xx

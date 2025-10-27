@@ -8,6 +8,7 @@ srclang=$1
 format=$2
 inputfile=$3
 outfile="$OUT_DIR/$(basename $inputfile)"
+srclang2=$(python /work/scripts/lang_equivalent.py $1)
 
 if [ -z "${HQ_CPUS+x}" ]; then
     echo HQ_CPUS=$HQ_CPUS >&2
@@ -69,7 +70,7 @@ if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
 fi
 zstdcat $outfile.tsv.zst \
 | parallel --pipe -j$JOBS_LOW --block 10M --halt now,fail=1 \
-    python3 /work/scripts/readcorpus_mono.py $srclang --quiet \
+    python3 /work/scripts/readcorpus_mono.py $srclang $srclang2 --quiet \
 | zstdmt -10 \
 >$outfile.proc.zst \
 || {

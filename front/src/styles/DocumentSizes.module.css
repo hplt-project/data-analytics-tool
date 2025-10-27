@@ -1,0 +1,121 @@
+.docsSizesContainer {
+    width: 100%;
+    margin-right: 20px;
+}
+
+.title {
+    display: flex;
+}
+
+.title h3 {
+    margin-right: 5px;
+}
+
+.documentSizes {
+    height: 300px;
+}
+
+.reportScoresContainer {
+    height: 300px;
+}
+
+.tooltipOverlap {
+    background-color: var(--main-background);
+    padding: 15px;
+}
+
+.tooltipOverlap .labelOverlap {
+    margin-bottom: 15px;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.label {
+    font-weight: 600;
+    margin-bottom: 12px;
+    font-size: 16px;
+}
+
+.desc {
+    margin-bottom: 7px;
+}
+
+.overlapTitle {
+    margin: 40px 0 20px 0;
+}
+
+.graphContainer {
+    margin: 15px 0 0 -40px;
+}
+
+.overlapGraph h2 {
+    margin-bottom: 2px;
+}
+
+.overlapGraph p {
+    margin-bottom: 0px;
+}
+
+.reportTitle,
+.reportTitleSmall,
+.reportTitleDocsSizes {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-bottom: -10px;
+}
+
+.reportTitleDocsSizes {
+    margin-bottom: 0;
+}
+
+.reportTitle p,
+.reportTitleSmall p,
+.reportTitleDocsSizes p {
+    width: fit-content;
+    margin-left: auto;
+    margin-bottom: 5px;
+}
+
+.reportTitleSmall {
+    width: 98%;
+}
+
+/* - Docs sizes tooltip - ****/
+
+.tooltip {
+    background-color: white;
+    border: solid 1px rgb(199, 199, 199);
+    padding: 15px 35px 15px 15px;
+    border-radius: 5px;
+}
+
+.label {
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.perc {
+    margin-top: 5px;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+@media (max-width: 768px) {
+    .documentSizes {
+        height: 270px;
+    }
+
+    .reportTitle p,
+    .reportTitleDocsSizes p {
+        font-size: 13px;
+    }
+
+    .title {
+        font-size: 18px;
+    }
+
+    .containsTooltip h3 {
+        font-size: 18px;
+    }
+}

@@ -20,7 +20,7 @@ from tokenizer import CustomTokenizer
 def initialization():
     parser = argparse.ArgumentParser()
     
-    parser.add_argument('srclang', type=str, help="Source language")
+    parser.add_argument('srclang2', type=str, help="Source language")
     parser.add_argument('input',  nargs='?', type=argparse.FileType('rt', errors="replace"), default=io.TextIOWrapper(sys.stdin.buffer, errors="replace"),  help="Input TSV file.")
     parser.add_argument('output', nargs='?', type=argparse.FileType('wt'), default=sys.stdout, help="Output.")
     
@@ -55,10 +55,10 @@ def main():
     args = initialization() # Parsing parameters
     logging.info("Starting process")
 
-    src_tokenizer = CustomTokenizer(args.srclang)    
+    src_tokenizer = CustomTokenizer(args.srclang2)    
     logging.info("Tokenizing " + args.srclang + " with " +src_tokenizer.toktype + " (" + str(src_tokenizer.getWarnings()) +")" )
 
-    src_stopwords, nwarnings = get_stopwords(args.srclang)
+    src_stopwords, nwarnings = get_stopwords(args.srclang2)
     logging.debug("Starting reading corpus")
     
     src_pii_proc = get_pii_proc(args.srclang)
@@ -93,7 +93,7 @@ def main():
             pass
 
         #ngrams
-        src_ngrams_dict, nwarning = get_line_ngrams(args.srclang, srctoks, 5, src_stopwords)
+        src_ngrams_dict, nwarning = get_line_ngrams(args.srclang2, srctoks, 5, src_stopwords)
         for g in src_ngrams_dict.get(1):
             src_onegrams.append(" ".join(g))
         for g in src_ngrams_dict.get(2):

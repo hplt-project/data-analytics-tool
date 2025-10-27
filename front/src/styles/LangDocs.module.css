@@ -1,10 +1,22 @@
 .langDocs {
-  height: 380px;
+  height: 350px;
   width: 100%;
   border-radius: 5px;
   background-color: var(--language-pie-chart-bg);
   backdrop-filter: blur(5px);
-  padding: 10px 30px 10px 10px;
+  padding: 10px 30px 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.stats {
+  text-align: right;
+}
+
+.stats p span {
+  font-weight: 600;
 }
 
 .tooltip {
@@ -17,6 +29,7 @@
 .label {
   font-weight: 600;
   margin-bottom: 12px;
+  font-size: 16px;
 }
 
 .desc {

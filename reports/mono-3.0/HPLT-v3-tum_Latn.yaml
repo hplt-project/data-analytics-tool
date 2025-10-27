@@ -1,0 +1,1658 @@
+corpus: hplt-v3-tum_Latn
+srclang: tum
+timestamp: 1758211972.606767
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2017-04", 1738], ["CC-MAIN-2021-10", 610], ["CC-MAIN-2018-05",
+  455], ["CC-MAIN-2017-51", 419], ["CC-MAIN-2017-26", 415], ["wide16", 189], ["CC-MAIN-2024-46",
+  139], ["CC-MAIN-2019-04", 130], ["CC-MAIN-2024-42", 116], ["CC-MAIN-2024-38", 88],
+  ["wide12", 73], ["CC-MAIN-2024-30", 71], ["CC-MAIN-2022-05", 70], ["CC-MAIN-2024-18",
+  68], ["CC-MAIN-2023-40", 68], ["CC-MAIN-2023-23", 64], ["CC-MAIN-2024-33", 62],
+  ["wide11", 61], ["CC-MAIN-2021-17", 58], ["CC-MAIN-2023-50", 56], ["CC-MAIN-2022-40",
+  56], ["CC-MAIN-2024-22", 54], ["CC-MAIN-2024-10", 44], ["CC-MAIN-2024-26", 40],
+  ["wide15", 38], ["CC-MAIN-2023-14", 36], ["CC-MAIN-2020-40", 35], ["CC-MAIN-2021-31",
+  34], ["CC-MAIN-2020-10", 29], ["CC-MAIN-2021-39", 28], ["CC-MAIN-2022-21", 24],
+  ["CC-MAIN-2021-25", 24], ["CC-MAIN-2020-34", 24], ["CC-MAIN-2022-33", 23], ["CC-MAIN-2021-21",
+  21], ["CC-MAIN-2022-27", 20], ["CC-MAIN-2021-49", 18], ["CC-MAIN-2021-04", 16],
+  ["CC-MAIN-2020-24", 15], ["CC-MAIN-2024-51", 13], ["CC-MAIN-2022-49", 13], ["CC-MAIN-2018-22",
+  12], ["CC-MAIN-2023-06", 11], ["CC-MAIN-2021-43", 9], ["CC-MAIN-2020-29", 9], ["CC-MAIN-2020-05",
+  9], ["CC-MAIN-2018-39", 9], ["CC-MAIN-2014-15", 6], ["wide5", 5], ["wide17", 5],
+  ["CC-MAIN-2018-43", 5], ["CC-MAIN-2018-34", 5], ["CC-MAIN-2020-50", 4], ["wide10",
+  2], ["CC-MAIN-2020-45", 2], ["wide2", 1], ["survey3", 1], ["CC-MAIN-2020-16", 1],
+  ["CC-MAIN-2016-30", 1], ["CC-MAIN-2015-48", 1], ["CC-MAIN-2014-35", 1]]'
+docs_langs: '[[0.0, 1], [0.1, 3], [0.2, 11], [0.3, 51], [0.4, 121], [0.5, 211], [0.6,
+  247], [0.7, 302], [0.8, 532], [0.9, 1058], [1.0, 3117]]'
+docs_segments: '[[1, 31], [2, 73], [3, 129], [4, 147], [5, 244], [6, 382], [7, 248],
+  [8, 235], [9, 183], [10, 162], [11, 162], [12, 181], [13, 141], [14, 133], [15,
+  108], [16, 125], [17, 128], [18, 99], [19, 129], [20, 128], [21, 122], [22, 111],
+  [23, 146], [24, 109], [25, 62], [26, 62], [27, 63], [28, 52], [29, 49], [30, 52],
+  [31, 50], [32, 47], [33, 46], [34, 56], [35, 58], [36, 61], [37, 81], [38, 78],
+  [39, 79], [40, 91], [41, 75], [42, 52], [43, 56], [44, 55], [45, 57], [46, 44],
+  [47, 51], [48, 32], [49, 35], [50, 24], [51, 27], [52, 26], [53, 21], [54, 18],
+  [55, 14], [56, 28], [57, 17], [58, 16], [59, 10], [60, 9], [61, 12], [62, 16], [63,
+  8], [64, 12], [65, 12], [66, 8], [67, 12], [68, 8], [69, 12], [70, 8], [71, 5],
+  [72, 5], [73, 4], [74, 5], [75, 4], [76, 10], [77, 8], [78, 2], [79, 2], [80, 5],
+  [81, 7], [82, 2], [83, 4], [84, 1], [85, 1], [86, 3], [87, 4], [88, 2], [89, 2],
+  [90, 1], [91, 1], [92, 2], [93, 2], [94, 3], [95, 3], [96, 3], [98, 3], [99, 1],
+  [100, 2], [101, 4], [103, 1], [104, 1], [105, 1], [106, 2], [107, 1], [108, 1],
+  [109, 4], [111, 1], [113, 3], [114, 2], [115, 1], [116, 1], [118, 2], [119, 2],
+  [120, 2], [121, 2], [124, 1], [126, 1], [127, 2], [129, 1], [130, 1], [131, 1],
+  [132, 2], [133, 3], [136, 1], [141, 1], [144, 1], [146, 1], [148, 1], [149, 1],
+  [151, 1], [153, 1], [154, 2], [155, 1], [157, 2], [158, 2], [159, 1], [161, 1],
+  [163, 1], [164, 2], [166, 1], [169, 1], [171, 1], [173, 1], [174, 1], [176, 1],
+  [179, 1], [187, 1], [188, 1], [196, 1], [199, 1], [200, 1], [201, 1], [206, 1],
+  [210, 1], [212, 1], [215, 1], [217, 1], [227, 1], [231, 1], [239, 2], [240, 1],
+  [245, 1], [254, 1], [257, 1], [260, 1], [276, 1], [280, 1], [282, 2], [283, 1],
+  [284, 1], [287, 1], [290, 1], [294, 1], [303, 1], [309, 1], [316, 1], [318, 1],
+  [326, 1], [331, 1], [332, 1], [335, 1], [336, 2], [339, 1], [341, 1], [348, 1],
+  [350, 1], [351, 1], [366, 1], [370, 1], [376, 1], [381, 1], [386, 1], [387, 1],
+  [399, 1], [414, 1], [421, 1], [446, 1], [459, 1], [462, 1], [464, 1], [477, 2],
+  [502, 1], [508, 1], [546, 1], [558, 2], [625, 1], [673, 1], [705, 1], [716, 1],
+  [2143, 1]]'
+docs_segments_mean: 28
+docs_segments_median: 18
+docs_top100_domains: '[["jw.org", 5019], ["wikipedia.org", 370], ["nkhanimchitumbuka.com",
+  58], ["wordpress.com", 33], ["islamhouse.com", 18], ["fountainofvictory.org", 17],
+  ["globalrecordings.net", 15], ["bywiki.com", 13], ["quranenc.com", 11], ["bible.com",
+  11], ["malawi24.com", 9], ["watchtower.org", 6], ["accessagriculture.org", 6], ["bjnewlife.org",
+  5], ["bible.is", 5], ["becomingfathers.org", 5], ["maravipost.com", 4], ["malawiguardian.com",
+  4], ["wikimedia.org", 3], ["ebible.org", 3], ["vallalar.net", 2], ["mbc.mw", 2],
+  ["cprf.co.uk", 2], ["biblearc.com", 2], ["zhitov.com", 1], ["yamlungu.com", 1],
+  ["wikiplanet.click", 1], ["wikiless.org", 1], ["whdl.org", 1], ["vietnamimmigration.org",
+  1], ["twr360.org", 1], ["transology.info", 1], ["tiekoetter.com", 1], ["sciencegraph.net",
+  1], ["ressourceschretiennes.com", 1], ["paton.com.tr", 1], ["onlineconvert.com",
+  1], ["mozesi.tech", 1], ["mirhan.wiki", 1], ["malawiki.club", 1], ["makewana.org",
+  1], ["locatemyname.com", 1], ["gospelgo.com", 1], ["fni.no", 1], ["entropik.io",
+  1], ["egwwritings.org", 1], ["ecmmw.org", 1], ["duhoctrungquoc.vn", 1], ["doczz.com.br",
+  1], ["distance2.com", 1], ["digitallibrary.io", 1], ["da-no.ru", 1], ["bibleforchildren.org",
+  1], ["africanstorybook.org", 1], ["africanbookscollective.com", 1]]'
+docs_top100_tld: '[["org", 5443], ["com", 172], ["net", 18], ["is", 5], ["mw", 2],
+  ["io", 2], ["co.uk", 2], ["wiki", 1], ["vn", 1], ["tech", 1], ["ru", 1], ["no",
+  1], ["info", 1], ["com.tr", 1], ["com.br", 1], ["club", 1], ["click", 1]]'
+docs_total: 5654
+docs_wds: '[[10.0, 1], [5.0, 27], [5.1, 31], [5.2, 31], [5.3, 32], [5.4, 49], [5.5,
+  50], [5.6, 44], [5.7, 38], [5.8, 49], [5.9, 50], [6.0, 44], [6.1, 49], [6.2, 49],
+  [6.3, 49], [6.4, 53], [6.5, 61], [6.6, 68], [6.7, 86], [6.8, 85], [6.9, 98], [7.0,
+  99], [7.1, 101], [7.2, 124], [7.3, 116], [7.4, 160], [7.5, 154], [7.6, 167], [7.7,
+  195], [7.8, 266], [7.9, 246], [8.0, 374], [8.1, 283], [8.2, 217], [8.3, 194], [8.4,
+  142], [8.5, 145], [8.6, 134], [8.7, 128], [8.8, 134], [8.9, 172], [9.0, 151], [9.1,
+  146], [9.2, 134], [9.3, 137], [9.4, 140], [9.5, 130], [9.6, 110], [9.7, 80], [9.8,
+  25], [9.9, 6]]'
+sentence_pairs: 157200
+src_bytes: 33631689
+src_chars: 32873782
+src_pii: 15
+src_tokens: 5753666
+unique_sents: 143819
+src_sent_tokens: '[[1, 4799], [2, 3245], [3, 3166], [4, 5362], [5, 4431], [6, 5221],
+  [7, 6264], [8, 5625], [9, 5924], [10, 4370], [11, 3608], [12, 3298], [13, 3057],
+  [14, 3101], [15, 2662], [16, 2383], [17, 2456], [18, 2442], [19, 2306], [20, 2327],
+  [21, 2234], [22, 2201], [23, 2127], [24, 2154], [25, 2117], [26, 2123], [27, 2084],
+  [28, 1913], [29, 1827], [30, 1876], [31, 1758], [32, 1688], [33, 1516], [34, 1525],
+  [35, 1491], [36, 1312], [37, 1276], [38, 1231], [39, 1138], [40, 1053], [41, 1024],
+  [42, 988], [43, 946], [44, 866], [45, 868], [46, 810], [47, 777], [48, 735], [49,
+  736], [50, 696], [51, 699], [52, 661], [53, 680], [54, 650], [55, 601], [56, 603],
+  [57, 631], [58, 628], [59, 576], [60, 587], [61, 598], [62, 585], [63, 582], [64,
+  554], [65, 535], [66, 519], [67, 545], [68, 521], [69, 547], [70, 541], [71, 527],
+  [72, 493], [73, 524], [74, 482], [75, 483], [76, 449], [77, 462], [78, 467], [79,
+  493], [80, 451], [81, 436], [82, 424], [83, 410], [84, 430], [85, 421], [86, 436],
+  [87, 405], [88, 459], [89, 378], [90, 378], [91, 377], [92, 392], [93, 380], [94,
+  335], [95, 350], [96, 362], [97, 330], [98, 335], [99, 380], [100, 352], [101, 350],
+  [102, 365], [103, 338], [104, 334], [105, 301], [106, 290], [107, 301], [108, 321],
+  [109, 272], [110, 274], [111, 260], [112, 261], [113, 254], [114, 271], [115, 285],
+  [116, 253], [117, 275], [118, 252], [119, 238], [120, 236], [121, 231], [122, 225],
+  [123, 189], [124, 225], [125, 189], [126, 176], [127, 187], [128, 183], [129, 164],
+  [130, 205], [131, 207], [132, 149], [133, 151], [134, 147], [135, 155], [136, 147],
+  [137, 140], [138, 139], [139, 146], [140, 131], [141, 108], [142, 140], [143, 125],
+  [144, 114], [145, 125], [146, 92], [147, 96], [148, 95], [149, 91], [150, 100],
+  [151, 99], [152, 91], [153, 100], [154, 88], [155, 89], [156, 86], [157, 78], [158,
+  102], [159, 86], [160, 66], [161, 84], [162, 71], [163, 61], [164, 70], [165, 50],
+  [166, 57], [167, 48], [168, 66], [169, 59], [170, 62], [171, 53], [172, 60], [173,
+  55], [174, 46], [175, 53], [176, 42], [177, 49], [178, 47], [179, 41], [180, 30],
+  [181, 46], [182, 37], [183, 32], [184, 26], [185, 41], [186, 27], [187, 30], [188,
+  27], [189, 23], [190, 29], [191, 37], [192, 18], [193, 30], [194, 13], [195, 24],
+  [196, 21], [197, 20], [198, 24], [199, 23], [200, 32], [201, 28], [202, 17], [203,
+  18], [204, 14], [205, 15], [206, 20], [207, 13], [208, 18], [209, 15], [210, 11],
+  [211, 11], [212, 18], [213, 21], [214, 14], [215, 14], [216, 16], [217, 8], [218,
+  11], [219, 8], [220, 10], [221, 10], [222, 5], [223, 12], [224, 5], [225, 7], [226,
+  10], [227, 7], [228, 6], [229, 6], [230, 12], [231, 5], [232, 14], [233, 7], [234,
+  9], [235, 5], [236, 8], [237, 6], [238, 6], [239, 5], [240, 8], [241, 5], [242,
+  7], [243, 6], [244, 7], [245, 9], [246, 5], [247, 4], [248, 4], [249, 3], [250,
+  3], [251, 4], [252, 3], [253, 3], [254, 5], [255, 2], [256, 4], [257, 2], [258,
+  2], [259, 5], [260, 1], [261, 4], [262, 2], [263, 5], [264, 6], [265, 1], [266,
+  5], [267, 5], [268, 2], [270, 3], [271, 1], [272, 1], [273, 2], [274, 1], [275,
+  1], [276, 2], [277, 4], [278, 1], [279, 1], [280, 2], [281, 1], [282, 9], [283,
+  7], [285, 1], [286, 2], [287, 2], [289, 2], [290, 1], [291, 3], [293, 2], [294,
+  2], [295, 2], [296, 1], [298, 1], [302, 1], [303, 4], [304, 1], [305, 2], [306,
+  3], [307, 1], [308, 1], [309, 1], [310, 1], [312, 2], [314, 2], [315, 1], [316,
+  5], [318, 1], [319, 2], [320, 1], [321, 1], [322, 2], [323, 1], [324, 1], [325,
+  1], [327, 1], [328, 1], [330, 1], [331, 4], [332, 1], [333, 2], [334, 1], [335,
+  2], [336, 1], [337, 2], [338, 1], [342, 1], [343, 1], [348, 2], [351, 1], [352,
+  1], [353, 1], [354, 1], [358, 2], [364, 1], [366, 1], [369, 1], [371, 1], [378,
+  1], [379, 1], [387, 1], [392, 2], [398, 1], [400, 1], [405, 1], [415, 1], [417,
+  2], [422, 1], [423, 2], [424, 3], [426, 1], [433, 1], [441, 1], [448, 1], [449,
+  1], [452, 1], [453, 1], [454, 1], [456, 1], [467, 1], [479, 1], [480, 1], [485,
+  1], [488, 1], [490, 1], [494, 1], [497, 1], [498, 1], [503, 1], [509, 1], [570,
+  1], [581, 1], [582, 2], [583, 1], [587, 1], [600, 1], [604, 1], [608, 1], [624,
+  1], [625, 1], [654, 1], [661, 1], [670, 1], [682, 1], [686, 1], [711, 1], [734,
+  1], [750, 1], [755, 1], [772, 1], [822, 1], [826, 1], [830, 1], [850, 1], [873,
+  1], [881, 1], [913, 1], [947, 1], [949, 1], [961, 1], [967, 1], [1015, 1], [1036,
+  1], [1041, 1], [1042, 1], [1105, 1], [1212, 1], [1224, 1], [1243, 1], [1322, 1],
+  [2245, 1]]'
+src_sent_tokens_mean: 37
+src_sent_tokens_median: 22
+src_unique_sents: '[[1, 1116], [2, 2040], [3, 2249], [4, 3447], [5, 3968], [6, 4795],
+  [7, 5394], [8, 5301], [9, 5002], [10, 4107], [11, 3567], [12, 3137], [13, 2818],
+  [14, 2684], [15, 2552], [16, 2342], [17, 2405], [18, 2349], [19, 2232], [20, 2214],
+  [21, 2188], [22, 2155], [23, 2090], [24, 2108], [25, 2055], [26, 2059], [27, 2030],
+  [28, 1887], [29, 1805], [30, 1804], [31, 1735], [32, 1658], [33, 1510], [34, 1503],
+  [35, 1463], [36, 1298], [37, 1259], [38, 1204], [39, 1130], [40, 1035], [41, 1017],
+  [42, 979], [43, 928], [44, 856], [45, 863], [46, 790], [47, 768], [48, 723], [49,
+  733], [50, 688], [51, 689], [52, 651], [53, 675], [54, 644], [55, 593], [56, 602],
+  [57, 621], [58, 604], [59, 570], [60, 585], [61, 594], [62, 584], [63, 577], [64,
+  550], [65, 531], [66, 513], [67, 543], [68, 517], [69, 541], [70, 535], [71, 526],
+  [72, 493], [73, 522], [74, 481], [75, 472], [76, 447], [77, 460], [78, 466], [79,
+  490], [80, 450], [81, 436], [82, 423], [83, 407], [84, 430], [85, 419], [86, 432],
+  [87, 402], [88, 453], [89, 377], [90, 378], [91, 374], [92, 390], [93, 379], [94,
+  334], [95, 349], [96, 362], [97, 330], [98, 333], [99, 379], [100, 352], [101, 348],
+  [102, 364], [103, 337], [104, 331], [105, 298], [106, 287], [107, 298], [108, 321],
+  [109, 270], [110, 274], [111, 260], [112, 261], [113, 253], [114, 269], [115, 282],
+  [116, 253], [117, 274], [118, 252], [119, 238], [120, 234], [121, 230], [122, 225],
+  [123, 189], [124, 225], [125, 187], [126, 176], [127, 186], [128, 183], [129, 164],
+  [130, 205], [131, 206], [132, 148], [133, 151], [134, 147], [135, 154], [136, 147],
+  [137, 139], [138, 139], [139, 146], [140, 130], [141, 105], [142, 138], [143, 125],
+  [144, 112], [145, 125], [146, 92], [147, 96], [148, 95], [149, 89], [150, 100],
+  [151, 99], [152, 91], [153, 100], [154, 86], [155, 87], [156, 86], [157, 77], [158,
+  95], [159, 86], [160, 66], [161, 83], [162, 71], [163, 61], [164, 70], [165, 50],
+  [166, 55], [167, 47], [168, 66], [169, 59], [170, 58], [171, 53], [172, 58], [173,
+  54], [174, 46], [175, 53], [176, 42], [177, 49], [178, 47], [179, 41], [180, 30],
+  [181, 46], [182, 33], [183, 32], [184, 26], [185, 39], [186, 27], [187, 30], [188,
+  27], [189, 23], [190, 29], [191, 37], [192, 18], [193, 30], [194, 13], [195, 24],
+  [196, 20], [197, 17], [198, 24], [199, 21], [200, 27], [201, 27], [202, 17], [203,
+  18], [204, 14], [205, 15], [206, 19], [207, 13], [208, 18], [209, 15], [210, 11],
+  [211, 11], [212, 18], [213, 21], [214, 12], [215, 14], [216, 16], [217, 8], [218,
+  11], [219, 8], [220, 10], [221, 10], [222, 5], [223, 12], [224, 5], [225, 7], [226,
+  10], [227, 7], [228, 6], [229, 6], [230, 12], [231, 5], [232, 13], [233, 6], [234,
+  9], [235, 5], [236, 8], [237, 5], [238, 6], [239, 5], [240, 8], [241, 5], [242,
+  7], [243, 6], [244, 7], [245, 8], [246, 5], [247, 4], [248, 4], [249, 3], [250,
+  3], [251, 4], [252, 3], [253, 3], [254, 5], [255, 2], [256, 4], [257, 2], [258,
+  2], [259, 5], [260, 1], [261, 4], [262, 2], [263, 3], [264, 6], [265, 1], [266,
+  5], [267, 5], [268, 2], [270, 3], [271, 1], [272, 1], [273, 2], [274, 1], [275,
+  1], [276, 2], [277, 4], [278, 1], [279, 1], [280, 2], [281, 1], [282, 4], [283,
+  7], [285, 1], [286, 2], [287, 2], [289, 2], [290, 1], [291, 3], [293, 2], [294,
+  1], [295, 2], [296, 1], [298, 1], [302, 1], [303, 2], [304, 1], [305, 2], [306,
+  3], [307, 1], [308, 1], [309, 1], [310, 1], [312, 2], [314, 2], [315, 1], [316,
+  5], [318, 1], [319, 2], [320, 1], [321, 1], [322, 2], [323, 1], [324, 1], [325,
+  1], [327, 1], [328, 1], [330, 1], [331, 4], [332, 1], [333, 2], [334, 1], [335,
+  2], [336, 1], [337, 2], [338, 1], [342, 1], [343, 1], [348, 2], [351, 1], [352,
+  1], [353, 1], [354, 1], [358, 2], [364, 1], [366, 1], [369, 1], [371, 1], [378,
+  1], [379, 1], [387, 1], [392, 2], [398, 1], [400, 1], [405, 1], [415, 1], [417,
+  2], [422, 1], [423, 2], [424, 1], [426, 1], [433, 1], [441, 1], [448, 1], [449,
+  1], [452, 1], [453, 1], [454, 1], [456, 1], [467, 1], [479, 1], [480, 1], [485,
+  1], [488, 1], [490, 1], [494, 1], [497, 1], [498, 1], [503, 1], [509, 1], [570,
+  1], [581, 1], [582, 2], [583, 1], [587, 1], [600, 1], [604, 1], [608, 1], [624,
+  1], [625, 1], [654, 1], [661, 1], [670, 1], [682, 1], [686, 1], [711, 1], [734,
+  1], [750, 1], [755, 1], [772, 1], [822, 1], [826, 1], [830, 1], [850, 1], [873,
+  1], [881, 1], [913, 1], [947, 1], [949, 1], [961, 1], [967, 1], [1015, 1], [1036,
+  1], [1041, 1], [1042, 1], [1105, 1], [1212, 1], [1224, 1], [1243, 1], [1322, 1],
+  [2245, 1]]'
+src_langs: '[["en", 63726], ["sw", 30194], ["tl", 16334], ["id", 11398], ["es", 5619],
+  ["it", 4742], ["eo", 3178], ["war", 3097], ["pl", 2923], ["hr", 2830], ["de", 2081],
+  ["tr", 1155], ["fi", 796], ["fr", 694], ["sl", 530], ["eu", 528], ["nl", 527], ["ceb",
+  508], ["ms", 371], ["pt", 359], ["hu", 358], ["la", 327], ["jv", 283], ["mg", 248],
+  ["sr", 239], ["rm", 231], ["lt", 209], ["ur", 206], ["uz", 198], ["et", 181], ["sv",
+  168], ["kw", 149], ["su", 143], ["qu", 142], ["ca", 130], ["yo", 126], ["vi", 123],
+  ["cs", 118], ["bs", 113], ["io", 111], ["lv", 103], ["sq", 97], ["vo", 87], ["ilo",
+  86], ["ru", 80], ["sk", 77], ["ar", 77], ["ro", 64], ["br", 61], ["my", 60], ["nb",
+  56], ["is", 53], ["az", 51], ["kn", 48], ["bar", 48], ["tg", 44], ["zh", 42], ["min",
+  41], ["jbo", 40], ["ja", 40], ["cy", 38], ["mt", 27], ["he", 27], ["uk", 25], ["bn",
+  24], ["gn", 22], ["ht", 21], ["gl", 21], ["el", 19], ["da", 19], ["hi", 18], ["oc",
+  17], ["si", 14], ["hsb", 14], ["so", 13], ["ia", 12], ["ga", 12], ["ko", 11], ["lmo",
+  10], ["af", 10], ["mk", 9], ["fa", 9], ["dv", 9], ["co", 9], ["yi", 8], ["vep",
+  8], ["bcl", 8], ["scn", 7], ["ta", 6], ["pms", 6], ["ku", 6], ["ie", 6], ["als",
+  6], ["ug", 5], ["th", 5], ["ml", 5], ["diq", 5], ["ast", 5], ["an", 5], ["vls",
+  4], ["pam", 4], ["nds", 4], ["lrc", 4], ["tk", 3], ["lo", 3], ["hy", 3], ["te",
+  2], ["km", 2], ["kk", 2], ["fy", 2], ["frr", 2], ["cv", 2], ["wa", 1], ["vec", 1],
+  ["sco", 1], ["pfl", 1], ["pa", 1], ["nn", 1], ["mrj", 1], ["li", 1], ["lb", 1],
+  ["hif", 1], ["gom", 1], ["gd", 1], ["bo", 1], ["bg", 1]]'
+hardrules_tags: '{"not_too_long": 1566, "not_too_short": 10165, "length_ratio": 0,
+  "no_urls": 1757, "no_bad_encoding": 0, "pii": 15}'
+sample: '["\"Mulimo winu: Malo yakuwoneskerapo Chiuta \u2013 Wakutumika Joseph Ziba\\nMBUTO
+  ZA KUTONDA \u2013 Monday, 4th March 2019\\nMulimo winu: Malo yakuwoneskerapo Chiuta
+  \u2013 Na Wakutumika Joseph Ziba\\nVyakumera vya mu minda vikawa vindamere pa charo,
+  ndiposo vivwati vya mu thondo vikawa vindambe kumera, Chifukwa FUMU Chiuta wakawa
+  wandarokweske vula pacharu, ndiposo kukawavye munthu wakulima charu chose. Mutendeko
+  2:5\\nChaputala chakudanga cha Mutendeko chikulongosola za kulenga. Chikudumba za
+  umo Chiuta wakalengela kuchanya na pasi na vinthu vyose vyakukharamo. Chakuziziswa
+  ntchakuti ivyo Chiuta wakalenga vikawapo pa charu nyengo yeneyiyo chara\u2014 Vyose
+  ivyo Chiuta wakalenga vikawonekera mu charu cha uzimu pera. Ivyi ndivo vyalongosoleka
+  muchigawa chakudanga cha vesi lapachanya apo. Nchifukwa wuli vinthu vikawa mwa ntheura?\\nBaibulo
+  likuti chifukwa \u2026 FUMU Chiuta wakawa wandarokweske vula , ndiposo KUKAWAVYE
+  MUNTHU WAKULIMA CHARU CHOSE .\\nLizgu lakuti kulima mu vesi ili likung\u2019anamula
+  kuti kugwira ntchito panji kutokatoka. Pachifukwa ichi, Vyose ivyo Chiuta wakalenga
+  vikatondeka kuwonekera pa charu pakuti pakawavye munthu wakuti wagwire ntchito panji
+  kutokatoka.\\nWonani ichi, Milimo kwa mwana wa Chiuta yikupelekeka kuti wasange
+  waka ndalama yaye, kweniso ni malo ghakuwoneskerapo Chiuta. Mulimo ni chinthu icho
+  Chiuta wakugwiriska ntchito kuti wawoneskere Wezi wakhe, Vitumbiko na kuphakazgika
+  uko kuli pa moyo winu. Ichi chikulongola kuti para mundasange mulimo wakuchita,
+  ndikuti mwakanizgika mpata wakuwoneskera Chiuta muvigawa vyose.\\nChifukwa cha ichi
+  mungazomeranga yaye kuti satana wamukanizgani kugwira milimo. Imwe nga mwana wa
+  Chuita mungakhalanga waka yaye. Sangani ntchito, Chitani malonda panji kwamba masambiro
+  navinyake vyantheura.; ndipo muwe wakulimbikira mu ivyi. Pala mwachita ivyi mupangiskenge
+  Vitumbiko, Wezi, Kutemweleka na kuphakazgika kwa Chiuta kumulondezgani munthowa
+  yinu.\\nLUROMBO\\nAdada wakutemweka, Muzina lamazaza la Yesu, nkhumuwongani chifukwa
+  cha vinjeru vya kufuma mu mazgu yinu. Mwanijula maso yane ndipo kwamba mwahuno kuluta
+  munthazi, Nikhalenge waka yaye nesi kuwa mukata mu mulimo wane. Nilimbikirenge mu
+  vyose ivyo nkhuchita zuwa na zuwa pakukumbukira ichi; kuti mumulimo ni malo yakuwoneskerapo
+  imwe . Ameni.\\n#Vimanyikwiro vyambula chikaiko #Umoyo wambura kukanizgika\\n#ApostleJosephZiba
+  #FountainofVictory #InfallibleProofs #LifeUndenied\"", "\"Edith Roger (wakababika
+  pa Meyi 29, 1922 m''paka Febuluwale 24, 2023) waka\u0175a mweneko wa vyakuvina,
+  choreographer, na director.\\nWakamba kuvina pa Ny Norsk Ballet kufuma waka apo
+  yikambira, ndipo pamanyuma wakavinira pa Norwegian National Opera and Ballet. Pamanyuma
+  pa ute\u0175eti wake wa kuvina, wakatumika ku Nationaltheatret ku\u0175a mulongozgi
+  wa mase\u0175ero kwa vilimika pafupifupi 30. Waka\u0175a wakupokera chawanangwa
+  cha Arts Council Norway Honorary Award, ndipo wakapika chawanangwa ichi chifukwa
+  cha ivyo wakachita pa kuvina, kweniso chifukwa cha ivyo wakachita pa mase\u0175ero.\\nUmoyo
+  wa munthu[lemba | kulemba source]\\nRoger wakababika mu Son (lero ni Vestby) pa
+  Meyi 29, 1922, mwana wa Conrad Hansen na Sigrid Larsen. Waka\u0175a wakutengwa kwa
+  Ole-Carl \u00d8ien kufuma mu 1950 mpaka 1975.\\nNtchito[lemba | kulemba source]\\nWakati
+  wasamukira ku Oslo na mbumba yake, Roger wakasambira kuvina ballet na Rita Tori,
+  ndipo mu nyengo ya Nkhondo Yachi\u0175iri ya Caru Cose wakasambiraso kuvina na Gerd
+  Kj\u00f8laas. Wakamba kuvina pa pulatifomu ya Rogaland Theatre mu 1945. Kweniso
+  wakase\u0175eranga pa chiga\u0175a cha Chat Noir, ndipo wakavinanga pa Svenska Dansteatern.
+  Kwambira mu 1948, wakaluta ku Ny Norsk Ballet, ndipo waka\u0175a yumoza wa \u0175anthu
+  \u0175akumanyikwa chomene pa gulu ili. Kufuma mu 1958 m''paka mu 1962, wakachitanga
+  ntchito ya ku Norway National Opera and Ballet.\\nNtchito zake zikuru zikusazgapo
+  \\\"Maria\\\" mu filimu ya Bibliska bilder ya Ivo Cram\u00e9r mu 1951, Medea, iyo
+  yikapangika na Birgit Cullberg mu 1955, na \\\"Columbine\\\" mu ballet Carnaval
+  ya Michel Fokine mu 1958.\\nWakamba kuchita mase\u0175ero gha kuvina mu 1954, apo
+  wakawovwira kupanga The Saint Olav Drama, mase\u0175ero ghakukumbukira Nkhondo ya
+  ku Stiklestad mu 1030. Mu 1958, wakalemba sumu ya Haugtussa, yakufuma mu buku la
+  Arne Garborg, ndipo mu 1959, wakalemba sumu ya Dans ropte fela, iyo yika\u0175a
+  na sumu na kuvina. Mu 1969, wakalemba Mot Solen, chiwonetsero cholimbikitsidwa ndi
+  umoyo wa Edvard Munch.\\nKufuma mu 1967 m''paka mu 1999, Roger wakagwiranga nchito
+  ku Nationaltheatret. Ntchito yake yakwamba yika\u0175a yakuti Peter Weiss wachitenge
+  se\u0175ero lakuti Sangen om utyske pa pulatifomu ya Amfiscenen, ndipo Ludvig Holberg
+  wakachita se\u0175ero lakuti Den stundesl\u00f8se pa pulatifomu yikuru. Apo waka\u0175a
+  ku Nationaltheatret wakalongosora mase\u0175ero pafupifupi 50. Vinthu ivi ni se\u0175ero
+  la Ibsen lakuti A Doll''s House (1971), Shakespeare''s A Midsummer Night''s Dream
+  (1973), Ibsen''s Peer Gynt (1975 na 1985), na Ballerina (1976), Further, Konsert
+  for lukket avdeling (1979), kusinthika kwa se\u0175ero la Tom Stoppard lakuti Every
+  Good Boy Deserves Favour, Fra regnormenes liv (1982), na Hedda Gabler (1988).\\nMu
+  2005 wakawelera ku ntchito yake ya kuvina, apo wakachitanga mu Memento Mori, uyo
+  wakalemba na S\u00f8lvi Edvardsen.\\nMu Meyi 2022, Roger wakafiska vyaka 100, ndipo
+  wakafwa pa Febuluwale 24, 2023.\"", "\"VO ACHITANGA: Alongozi andali ndi alongozi
+  avisopa anandi agwirisiyanga ntchitu fundu zawu m\u2019malu mwakugwirisiya ntchitu
+  fundu za m\u2019Bayibolu. Kanandi akanizanga \u0175anthu kugula, kusindikiza ndipuso
+  kufwatuliya Bayibolu. \u0174ana\u0175aniyani vakuwoniyapu vi\u0175i ivi:\\nCham\u2019ma
+  167 B.C.E.: Fumu Seleucid Antiochus Epiphanes yo wakhumbanga kuti Ayuda alondongi
+  chisopa cha Agiriki, wangulamula kuti \u0175anthu anangi mipukutu yosi ya Malemba
+  Ngachiheberi. Wakulemba mbiri munyaki, zina laki Heinrich Graetz, wangulemba kuti:
+  Fumu Seleucid yingutuma \u0175anthu kuti, \u201cAkeluwengi ndi kuwotcha mipukutu
+  ya Malangu peposi po ayisaniya, ndipuso kuti abayengi weyosi yo wadandaula kuti
+  aleki kunanga mipukutu yeniyi.\u201d\\nM\u2019vyaka vapakati pa 476 AD ndi 1500
+  AD: Alongozi anyaki a chisopa cha Katolika angukwiya chifukwa chakuti \u0175anthu
+  a mutchalitchi lawu asambizanga vo Bayibolu likamba m\u2019malu mwakusambiza visambizu
+  va Chikatolika. Munthu weyosi yo wasanilika ndi Bayibolu m\u2019malu mwakusanilika
+  ndi buku la m\u2019Bayibolu la Sumu mu Chilatini, amuwonanga kuti ngwakugaluka.
+  Yiwu angujalikisa dangu ndipu angutuma \u0175anthu \u0175awu kuti afufuzengi mwakuphwere
+  ndipuso mwaphamphu panyumba yeyosi kuti asaniyi munthu yo wawoneka kuti ngwakugaluka.
+  Ndipuso angutumika kuti abayengi munthu weyosi yo amusaniya kuti ngwakugaluka.\\nAsani
+  \u0175anthu angulinanga nadi Bayibolu uthenga waki mphanyi kulivi.\\nVO VAWOVYA
+  KUTI BAYIBOLU LIFIKI MPAKA SONU: Fumu Antiochus yalimbananga ndi Ayuda wo ajanga
+  mu Yisraele, kweni pa nyengu iyi, Ayuda anyaki ajanga m\u2019vyaru vinyaki. Akufwatuliya
+  Bayibolu anyaki angukamba kuti cham\u2019ma 100 C.E., Ayuda anandi ajanga m\u2019vyaru
+  vinyaki. Ayuda \u0175ena\u0175a asunganga mipukutu ya Malemba mumasinagogi ndipu
+  Malemba yanga ndingu \u0175ana \u0175awu kweniso Akhristu agwirisiyanga ntchitu.\\nM\u2019vyaka
+  vapakati pa 476 AD ndi 1500 AD, \u0175anthu wo ayanjanga Bayibolu angulutiriza kulifwatuliya
+  chinanga kuti atombozekanga. Mu chaka cha 1400 C.E., viga\u0175a vinyaki va Bayibolu
+  vasanilikanga mu vineneru 33, kweni pa nyengu iyi ndipu makina ngakusindikiziya
+  mabuku kulivi. Pavuli paki, \u0175anthu angufwatuliya ndi kusindikiza Mabayibolu
+  nganandi.\\nMO VAWOVYE: Chinanga kuti mafumu ndipuso alongozi avisopa akhumbanga
+  kuti Bayibolu limali kweni sonu Bayibolu lisanilika ndi \u0175anthu anandi ndipu
+  lafwatulikiya mu vineneru vinandi kuluska buku lelosi. Bayibolu lawovya \u0175anthu
+  m\u2019vyaru vinyaki kupanga malangu, lasintha mijalidu ndipuso vakuchita va \u0175anthu
+  anandi.\"", "\"\u201cNyengu yaku\u0175ikika yakwana, ndipu Ufumu waku Chiuta we
+  pafupi. Lapani, ndipu jani ndi chivwanu mu uthenga wamampha.\u201d\u2014Mariko 1:15,
+  Bayibolu la Charu Chifya.\\n\u201cNyengu yakwana, ndipu Ufumu waku Chiuta we pafupi.
+  Lapani, ndipu jani ndi chivwanu mu uthenga wamampha.\u201d\u2014Mariko 1:15, English
+  Standard Version.\\nVo Lemba la Mariko 1:15 Ling\u2019anamuwa\\nYesu Khristu wangukamba
+  kuti Ufumu waku Chiuta a \u201cwe pafupi\u201d chifukwa pa nyengu yo, Fumu yamunthazi
+  ya Ufumu wenuwu ndipu yilipu kali.\\nYesu wachikamba mazu ngenanga, wang\u2019anamuwanga
+  kuti Ufumu wo Wayamba kali cha kulamuliya. Ndipu vo iyu wangukambiya akusambira
+  \u0175aki pavuli paki, vingulongo kuti Ufumu wo uzengi munthazi. (Machitidu 1:6,
+  7) Kweni iyu wanguza pa nyengu yaki chayiyu pamwenga kuti mu chaka chayichu cho
+  Bayibolu lingukambiya limu kuti iyu wazamuwoneke nge Fumu yamunthazi. b Mwaviyo
+  penga pakuvwika kuti Yesu wakambi kuti: \u201cNyengu yaku\u0175ikika yakwana,\u201d
+  Kung\u2019anamuwa kuti nyengu yakuti iyu wayambi ute\u0175eti waki wakupharazga
+  Ufumu yakwana.\u2014Luka 4:16-21, 43.\\nKuti \u0175anthu ayanduwi ndi uthenga wamampha
+  wa Ufumu, akhumbikanga kulapa, kung\u2019anamuwa kuti akhumbikanga kujivwiya lisungu
+  chifukwa cha maubudi ngo achitanga ndi kungaleka kweniso kuja mwakukoliyana ndi
+  fundu zaku Chiuta. Wo angulapa angulongo kuti \u0175e ndi chivwanu mu uthenga wamampha
+  kweniso mwa Fumu yamunthazi.\\nNkhani ya pa Mariko 1:15\\nYesu wangukamba mazu ngenanga
+  kukwamba kwa ute\u0175eti waki ku Galileya. Lemba la Mateyu 4:17 lo ndakuyanana
+  nalu likamba kuti: \u201cKutuliya pa nyengu yeniyo,\u201d Yesu wapharazganga vakukwaskana
+  ndi Ufumu waku Chiuta. Ufumu ndiwu wenga fundu yikulu pa ute\u0175eti waki. Kweniso
+  mazu ngakuti Ufumu ngazumbulika maulendu ngakujumpha 100 m\u2019mabuku nganayi nga
+  Uthenga Wamampha, c ndipu mumalu nganandi ngangukambika ndi Yesu. Mu Bayibolu, Yesu
+  wangukamba ukongwa vakukwaskana ndi Ufumu waku Chiuta kuluska nkhani yinyaki yeyosi.\\n\u0174erengani
+  Mariko chaputala 1 limoza ndi mazu ngamumphata, kweniso malemba nganyaki ngo ngakoliyana
+  ndi nkhani yeniyi, vithuzi ndipuso mapu.\\na Ufumu kwaku Chiuta ndi boma la kuchanya
+  lo Chiuta wakulijalikiska kuti lizifiski Khumbu laki lakukwaskana ndi charu chapasi.
+  (Daniyeli 2:44; Mateyu 6:10) Kuti muzi\u0175i vinandi, wonani nkhani ya mutu wakuti
+  \u201cKumbi Ufumu waku Chiuta Ntchinthu Wuli?\u201d\\nb Yesu wangwenere kuja fumu
+  kuti wafiski udindu waki nge Mesiya wakulayizgika yo wamiya Chiuta. Kuti muzi\u0175i
+  vinandi vakukwaskana ndi mauchimi nga mu Bayibolu ngo ngalongo kuti Yesu ndi Mesiya,
+  wonani pamutu wakuti: \u201cKumbi Mauchimi Ngasimikizgiya Kuti Yesu Wenga Nadi Mesiya?\u201d\\nc
+  Mabuku nganayi ngakwamba mu Malemba nga Chigiriki Ngachikhristu ngo kanandi ngadanika
+  kuti Chipanganu Chasonu, ndingu ngadanika kuti Uthenga wamampha. Mabuku ngenanga
+  ndingu ngakonkhoska umoyu waku Yesu ndi ute\u0175eti waki.\"", "\"Ndinguwiya munyumba
+  yamathabwa yambula chipinda mutawuni ya Liberty, muchiga\u0175a cha Indiana ku U.S.A.
+  Pa nyengu yo ndawiyangaku apapi \u0175angu ndipu abala kali \u0175ana atatu, munthulumi
+  yumoza ndi anthukazi \u0175a\u0175i. Ini ndati ndawaku angubala so \u0175ana atatu,
+  anthulumi \u0175a\u0175i ndi munthukazi yumoza.\\nPA NYENGU yo ndasambiranga sukulu,
+  palivi cho chingusintha pa sukulu ndi mutawuni yidu. Pa sukulu yo ndasambiranga,
+  \u0175ana wo ndingwamba kusambira nawu mu sitandadi 1 ndiwu ndingumaliza nawu. Mwakuti
+  ndazi\u0175anga \u0175anthu anandi mutawuni yidu ndipu nawu andizi\u0175anga.\\nMutawuni
+  ya Liberty \u0175anthu anandi \u0175enga alimi ndipu ayanjanga kulima vingoma. Pa
+  nyengu yo ndawiyangaku, ada agwiranga ntchitu kumunda wa munthu munyaki. Ndati ndafika
+  vyaka va pakati pa 13 ndi 19 ndingusambira kwendesa gandaganda. Ndinguzi\u0175a
+  so vinthu vinyaki vakukwaskana ndi ulimi.\\nPa nyengu yo ndawiyangaku, ada \u0175enga
+  ndi vyaka 56 ndipu ama \u0175enga ndi vyaka 35. Chinanga kuti ada \u0175enga ara,
+  kweni \u0175enga anthazi ndipu atamangatamanga cha. Yiwu ayanjanga kugwira ntchitu
+  ndipu angusambiza so ta\u0175ana kuti tiyanjengi kugwira ntchitu. Asaniyanga ndalama
+  zinandi cha, kweni awonesesanga kuti te ndi pakugona, vakurya ndi vakuvwara ndipu
+  nyengu zosi achezanga nasi. Ada angufwa ndi vyaka 93 ndipu ama angufwa ndi vyaka
+  86. Kweni pengavi yo wangute\u0175etiyapu Yehova. Mvurwa wangu yumoza pe ndiyu wate\u0175ete
+  Yehova mwakugomezgeka. Iyu wangwamba kute\u0175ete nge mura kwambiya kukwamba kwa
+  vyaka va m\u2019ma 1970.\\nPA NYENGU YO NDENGA MWANA\\nAma ayanjanga kupemphera.
+  Yiwu alutanga nasi ku tchalitchi la Babatisiti pa Sabata peposi. Ndingwamba kuvwa
+  kuti kwe chiuta dada, chiuta mwana ndi chiuta mzimu po ndenga ndi vyaka 12. Mwaviyo,
+  ndingufumba ama kuti: \u201cKumbi Yesu wangaja wuli Mwana ndi Da pa nyengu yimoza?\u201d
+  Ndikumbuka mo angundimukiya. Yiwu anguti: \u201cVakusuzga kuvwisa mwana wangu. Ta\u0175anthu
+  tingavivwisa cha.\u201d Ini ndavwisanga nadi cha chinanga nkhamanavi. Chinanga kuti
+  venga viyo, ndingubatizika ndati ndafika vyaka 14 mu kamsinji ko kenga pafupi ndi
+  ko tajanga. Angundibizga katatu mumaji. Venivi vamiyanga chiuta dada, chiuta mwana
+  ndi chiuta mzimu.\\nKu sekondale ndenga ndi munyangu yo wachitanga masaza nga nkhonyu.
+  Vo wangukamba vingundikhorweska mwakuti ndingwamba kusambira masaza yanga. Ndinguchilembesa
+  ku wupu wo wawoneriyanga masaza nga nkhonyu. Ndenga mujira kupuma. Mwaviyo, ndinguleka
+  ndati ndapumanapu ndi \u0175anthu amanavi. Pavuli paki, angundidana kuti nkhayambi
+  usilikali ndipu angunditumiza ku Germany. Wo atiwoneriyanga angunditumiza kusukulu
+  ya asilikali ya Noncommissioned Officers Academy. Yiwu anguchita viyo chifukwa a\u0175ana\u0175ananga
+  kuti ndingalongozga umampha asilikali anyangu. Akhumbanga kuti ndije msilikali umoyu
+  wangu wosi. Kweni ini ndakhumbanga cha. Mwaviyo, ndati ndamaliza vyaka vi\u0175i
+  vo angundilangiya, ndinguleka usilikali mu 1956. Kweni pati pajumpha nyengu yimanavi,
+  ndingwamba usilikali wamtundu unyaki.\\nMO NDINGUSAMBIRIYA UNENESKA\\nNdechendasambiri
+  uneneska, nda\u0175ana\u0175ananga kuti munthulumi watenere ku\u0175a wavinthazi.
+  Nda\u0175ana\u0175ananga viyo chifukwa cha mafilimu ngo ndawoneriyanga ndipuso \u0175anthu
+  wo ndachezanga nawu. Ndawonanga kuti \u0175anthu wo apharazganga \u0175enga akupepera
+  timali\u0175avu. Kweni ndingwamba kusambira vinthu vo vingusintha umoyu wangu. Zu\u0175a
+  linyaki po ndayendesanga galimotu yangu mutawuni, asungwana \u0175a\u0175i angundibayibisa.
+  Asungwana ya\u0175a nda\u0175azi\u0175anga. \u0174enga azichi a mulamu wangu yo
+  wanguto mzichi wangu mura. Yiwu \u0175enga Akaboni aku Yehova. Nyengu yinyaki angundipaska
+  Chigongwi cha Alinda ndi Jani Masu! Kweni ini ndawonanga kuti Chigongwi cha Alinda
+  ntchakusuzga ukongwa kuchivwisa. Pa zu\u0175a ili angundidaniya ku Sambiru la Buku
+  la Mpingu lo achitiyanga munyumba yawu. Ndingu\u0175akambiya kuti panyaki ndizengi.
+  Uku amwemwete, asungwana ya\u0175a angundifumba kuti, \u201cUneneska?\u201d Ndingu\u0175amuka
+  kuti, \u201cHinya, ndineneska.\u201d\\nNdakhumbanga cha kuluta, kweni chifukwa chakuti
+  ndingu\u0175alayizga kali, ndinguwona kuti ndingasintha cha. Mwaviyo, ndinguluta.
+  \u0174ana ndiwu angundikondwesa ukongwa pa sambiru ili. Yiwu azi\u0175anga vinandi
+  vakukwaskana ndi Bayibolu! Chinanga kuti ndalutanga ku tchalitchi ndi ama pa Sabata
+  peposi, kweni ndazi\u0175anga vimanavi ukongwa vakukwaskana ndi Bayibolu. Pa nyengu
+  iyi ndakhumbanga kuzi\u0175a vinandi. Ndinguzomera kusambira Bayibolu. Ndati ndayamba
+  \u0175aka kusambira, ndinguzi\u0175a kuti zina laku Chiuta Wanthazizosi ndi Yehova.
+  Vyaka vakuvuli, ndingufumba ama za Akaboni aku Yehova. Yiwu angundimuka kuti, \u201cApemphera
+  munthu munyaki wakukota zina laki Yehova.\u201d Kweni pa nyengu iyi ndinguwona kuti
+  ndayamba kujulika kumasu!\\nNdinguswera cha kuluta panthazi mwauzimu chifukwa ndinguzi\u0175a
+  kuti ndasaniya uneneska. Ndingubatizika mu March, 1957. Pangujumpha myezi 9 pe kutuliya
+  po ndingulutiya ku sambiru la buku kakwamba. Ndingusintha mo ndawoniyanga vinthu.
+  Kali nda\u0175ana\u0175ananga kuti munthulumi watenere kuja wavinthazi. Kweni chifukwa
+  chakuti ndikusambira Bayibolu, ndikondwa ukongwa kuti ndizi\u0175a mo munthulumi
+  wanthazi watenere kujaliya. Yesu wenga wambula ubudi. Iyu wenga wanthazi kuphara
+  munthulumi weyosi. Kweni wapumananga ndi \u0175anthu cha. Mumalu mwaki \u2018wanguzomera
+  kutambuzgika,\u2019 nge mo Malemba ngangukambiya. (Yesa. 53:2, 7) Ndinguzi\u0175a
+  kuti wakusambira waku Yesu \u201cwakhumbika kuja wakuzika ku \u0175anthu wosi.\u201d\u20142
+  Timo. 2:24.\\nNdingwamba upayiniya mu 1958 kweni ndinguleka kwa nyengu yimanavi
+  chifukwa ndinguto munthukazi zina laki Gloria. Iyu wenga yumoza wa asungwana wo
+  angundidaniya ku sambiru la buku. Ndidandawula cha chifukwa cha kuto Gloria. Iyu
+  wenga wakutowa pa nyengu yo ndipu weche wakutowa mpaka sonu. Kwaku ini Gloria ngwakuzirwa
+  ukongwa kuluska mwa wa dayamondi. Ndikondwa ukongwa kuti ndikumuto. Uli ndimupaski
+  mwa\u0175i kuti wakukambiyenipu vimanavi vakukwaskana ndi iyu:\\n\u201cMu banja
+  mwidu tengamu \u0175ana 17. Ama \u0175enga Kaboni wakugomezgeka. Yiwu angufwa nde
+  ndi vyaka 14. Pa nyengu iyi ndipu ada angwambiya kusambira Bayibolu. Ama \u0175ati
+  \u0175afwa, Ada angupempha mura wa pasukulu yo tasambiranga kuti ini ndi mku wangu,
+  tisinthanengi pakuluta kusukulu. Pa nyengu iyi, mku wangu ndipu waja kamanavi kuti
+  wamalizi sukulu ya sekondale. Asani ini ndaluta musanawale iyu walutanga mawa laki.
+  Ivi vawovyanga kuti yo waja panyumba waphweriyengi \u0175ana ndi kubika chakurya
+  Ada \u0175echendawe ku ntchitu. Mura wa pasukulu wanguzomereza ndipu tachitanga
+  viyo mpaka po mku wangu wangumaliziya sukulu. Mabanja nga\u0175i nga Akaboni ngasambiranga
+  nasi Bayibolu ndipu ta\u0175ana 11 tinguja Akaboni aku Yehova. Ndayanjanga kupharazga
+  chinanga kuti ndenga ndi soni. Sam wangundiwovya kuti ndileki kuchita soni.\u201d\\nIni
+  ndi Gloria tingutolana mu February, 1959 ndipu tachitiyanga limoza upayiniya. Mu
+  July chaka chenichi tingulemba fomu yakupempha ute\u0175eti wa pa Beteli ku likulu
+  lidu. Mubali Simon Kraker ndiyu watifumbanga mafumbu. Iyu wangutikambiya kuti pa
+  Beteli akhumbanga \u0175anthu akutorana cha pa nyengu iyi. Takhumbanga mbwenu kuchite\u0175ete
+  pa Beteli kweni pangujumpha nyengu yitali kuti ivi vichitiki.\\nTingupempha ku likulu
+  lidu kuti atitumizi ko kukhumbika apharazgi anandi. Yiwu angutikambiya kuti tiluti
+  mutawuni ya Pine Bluff ku Arkansas. Pa nyengu iyi mutawuni ya Pine Bluff mwenga
+  mipingu yi\u0175i, wazungu pe ndi wafipa pe. Isi angutitumiza ku mpingu wafipa wo
+  wenga ndi apharazgi 14 pe.\\nKUSANKHANA MTUNDU\\nPanyaki mungajifumba kuti, \u2018Ntchifukwa
+  wuli mumipingu ya Akaboni aku Yehova mwenga sankhu?\u2019 Kumuka nkhwakuti tatingi
+  tichitiyengi munyaki cha pa nyengu iyi. Boma lingujalikiska marangu kuti \u0175anthu
+  a mitundu yakupambana angawungananga pamoza cha ndipu asani ivi vachitika, pa\u0175anga
+  viwawa. Mumalu nganandi, abali awopanga kuti asani mitundu yi\u0175i yingawungana
+  pamoza, mbwenu \u0175anthu awiskengi Nyumba ya Ufumu. Nyengu zinyaki venivi vachitikanga.
+  Asani afipa apharazga muchiga\u0175a cho mwajanga azungu, a\u0175amanganga ndipu
+  nyengu zinyaki a\u0175apumanga. Mwaviyo, kuti ntchitu yakupharazga yilutiriyi, tavwiyanga
+  marangu nga boma ndipu tagomezganga kuti kunthazi vinthu vazamuja umampha.\\nTakumananga
+  ndi masuzgu mu ute\u0175eti. Asani tipharazga, nyengu zinyaki tagogodanga panyumba
+  ya azungu kwambula kuzi\u0175a. Takhumbikanga ku\u0175a\u0175erenge lemba mwalu\u0175i
+  pamwenga ku\u0175apepesa \u0175aka ndi kuluta. Ivi ndivu vachitikanga mumalu nganyaki.\\nTakhumbikanga
+  kugwira ntchitu mwaphamphu kuti tisaniyi ndalama zakutiwovya pakuchita upayiniya.
+  Ntchitu zinandi zo tagwiranga talondiyanga ndalama zimanavi. Gloria wagwiranga ntchitu
+  ya munyumba ku \u0175anthu anandi. Kunyumba yinyaki ko wagwiranga ntchitu angundizomereza
+  kumuwovya kuti wamalizengi li\u0175i. Angutipaska chakurya cha msana ndipu tinguga\u0175ana
+  ini ndi Gloria. Sabata yeyosi Gloria wasitanga malaya nga banja linyaki. Ini ndagwiranga
+  ntchitu za pabwalu, kupuputa mawindu ndi ntchitu zinyaki zawuliwuli. Panyumba yinyaki
+  ya mzungu tapuputanga mawindu. Ini ndapuputanga kubwalu ndipu Gloria wapuputanga
+  mukati. Tingugwira ntchitu iyi kwa zu\u0175a losi lamphumphu. Mwaviyo, angutipaska
+  chakurya cha msana. Gloria waryiyanga munyumba kweni pakuyija ndipu ini ndaryiyanga
+  kubwalu mugaraja. Ndingudandawula cha ndi venivi chifukwa chenga chakurya chamampha
+  ukongwa. Banja ili lenga lamampha ukongwa. Yiwu achitanga \u0175aka vo \u0175anthu
+  wosi achitanga. Ndikumbuka vo vinguchitika nyengu yinyaki tati tama pakumwese mafuta
+  galimotu. Tati tamaliza kumwesa mafuta galimotu yidu, ndingupempha yo wagulisanga
+  mafuta asani muwolu wangu wangaluta kunyumba yikulu. Iyu wangundileleska \u0175aka
+  kumasu batata ndi kukamba kuti, \u201cNtchakujala.\u201d\\nVINTHU VAMAMPHA VO ABALI
+  ATICHITIYANGA\\nChinanga kuti takumananga ndi masuzgu yanga, kweni takondwanga asani
+  takumana ndi abali ndi azichi. Kweniso tawuyanjanga ukongwa ute\u0175eti widu! Tati
+  tafika mutawuni ya Pine Bluff, tingufikiya kunyumba ya mubali yo wenga mte\u0175eti
+  wa mpingu (sonu wadanika kuti wakukumaniska ntchitu za wupu wa \u0175ara.) Pa nyengu
+  iyi, muwolu waki wenga Kaboni cha ndipu Gloria wangwamba kusambira nayu Bayibolu.
+  Ini ndasambiranga ndi mwana wawu munthukazi ndi mulumu waki. Muwolu wa mubali uyu
+  ndipuso mwana wawu munthukazi angusankha kute\u0175ete Yehova ndipu angubatizika.\\nTenga
+  ndi anyidu mumpingu wa azungu. Yiwu azanga kuzitito kuti tikaryi chakurya kunyumba
+  kwawu, kweni azanga ndi usiku kuti \u0175anthu aleki ku\u0175awona. Penga wupu unyaki
+  wo wadanikanga kuti Ku Klux Klan (KKK). Wupu uwu wachiskanga \u0175anthu kuti asankhanengi
+  mtundu ndi kuchitiyana nkhaza. Zu\u0175a linyaki ndi mazulu ndinguwona munthu yo
+  wanguja pakhondi la nyumba yaki. Iyu wanguvwara nge mo avwaliyanga a gulu la KKK.
+  Kweni abali anguleka cha kuchitiyana vinthu vamampha chifukwa cha vinthu ivi. Nyengu
+  yinyaki takhumbanga ndalama kuti tiluti ku unganu mwaviyo tingukambiya mubali munyaki
+  kuti waguli galimotu yidu. Iyu wanguzomera kuti wagulengi. Zu\u0175a linyaki pati
+  pajumpha mwezi umoza, tinguvuka ukongwa chifukwa chakupharazga mu lumwi ndi kusambira
+  Bayibolu ndi \u0175anthu. Tati tafika panyumba, tinguzizwa ukongwa kuwona Galimotu
+  yidu ayimika kumasu kwa nyumba yidu. Pagilasi la kunthazi la galimotu angulembapu
+  kuti: \u201cGalimotu yinu yo, ndakupaskani nge mphasu. Ndini mubali winu.\u201d\\nNdingukwaskika
+  ukongwa ndi lisungu lo mzichi munyaki wangundilongo. Mu 1962, angundidana ku Sukulu
+  ya Ute\u0175eti wa Ufumu yo yinguchitikiya kumwera kwa tawuni ya Lansing, ku New
+  York. Sukulu iyi yenga ya \u0175ara, akuwonere dera ndi akuwonere chiga\u0175a.
+  Yenga ya mwezi wamphumphu. Pa nyengu yo ndingudanikiya, ndenga pa ulova ndipu ndalama
+  yandisuzganga. Kweni kampani ya mafoni ku Pine Bluff yingundifumba mafumbu kuti
+  yiwoni asani ndenga wakwenere kugwira ntchitu pa kampani iyi. Asani ndingusere,
+  ndatingi nkhajengi mufipa wakwamba kugwiraku ntchitu. Angundikambiya kuti anditongi.
+  Kumbi ndatingi ndichitengi wuli? Ndengavi ndalama zakulutiya kusukulu ku New York.
+  Ndingu\u0175ana\u0175ana kuti ndiyambi ntchitu mumalu mwakuluta kusukulu. Pa nyengu
+  yo ndenga pafupi kulemba kalata yakuzi\u0175isa abali kuti ndilutengeku cha kusukulu,
+  panguchitika chinthu chinyaki cho ndiluwengi cha.\\nZu\u0175a linyaki mzichi munyaki
+  wa mumpingu widu wanguza kunyumba kwidu ndi mlenjilenji. Iyu wangundipaska nevulupu
+  ndipu mu nevulupu yeniyi, mwenga ndalama zinandi. Mulumu wa mzichi uyu wenga Kaboni
+  cha. Mzichi uyu ndi \u0175ana \u0175aki anyaki ayukanga ndi mlenjilenji kuchilimiliya
+  thonji. Yiwu achitanga viyo kuti asaniyi ndalama zakuti ini ndilutiyi kusukulu ku
+  New York. Iyu wangundikambiya kuti: \u201cLuta kusukulu kuti ukasambiri ndipu ukazi
+  so kuti uzitisambizi vo wamusambira!\u201d Ndingupempha kampani ya mafoni kuti ndiziyambi
+  ntchitu asani pajumpha masabata ngankhondi kutuliya pa zu\u0175a lo angundikambiya
+  kuti nkhayambi ntchitu. Yiwu angukana. Kweni ndingudandawula cha chifukwa ndipu
+  ndasankha kali chakuchita. Ndikondwa ukongwa chifukwa ndingusere cha ntchitu iyi.\\nGloria
+  wakumbuka mo ute\u0175eti wayendiyanga ku Pine Bluff. Avwani vo wakambengi: \u201cNdachiyanjanga
+  ukongwa chiga\u0175a cho tapharazgangaku! Nyengu zinyaki ndasambiranga Bayibolu
+  ndi \u0175anthu 15 pamwenga 20. Ndi mulenji tapharazga kunyumba ndi nyumba. Pavuli
+  paki tachitiskanga masambiru nga Bayibolu. Nyengu zinyaki tafikanga 11 koloku usiku.
+  Ute\u0175eti wandikondwesanga ukongwa! Ndatingi ndidandawulengi cha asani ndenga
+  ndeche kute\u0175ete kwenuku. Ndakhumbanga cha kusintha ute\u0175eti wangu ndi kwamba
+  ute\u0175eti wakuwonere dera. Kweni Yehova wangutisungiya chinthu chinyaki.\u201d
+  Wangutisungiya nadi chinthu chinyaki.\\nUTE\u0174ETI WAKUWONERE DERA\\nPa nyengu
+  yo tenga ku Pine Bluff, tingusayina fomu yakupempha upayiniya wapade. Takayikanga
+  cha kuti atizomerezengi kuja apayiniya apade. Tikamba viyo chifukwa wakuwonere chiga\u0175a
+  wakhumbanga kuti tikawovyi mpingu unyaki wo wenga muchiga\u0175a cha Texas. Iyu
+  wakhumbanga kuti tiluti kwenuku nge apayiniya apade. Nkhani iyi yenga yakukondwesa
+  ukongwa kwaku isi. Tingulindizga kwa nyengu yitali kuti atimuki kweni tingulonde
+  kalata yeyosi cha. Kuvulivuli tingulonde kalata ndipu angutipaska ute\u0175eti wakuwonere
+  dera. Ivi vinguchitika mu January 1965. Mubali Leon Weaver nayu angumupaska ute\u0175eti
+  wakuwonere dera pa nyengu yeniyi. Sonu mubali Weaver ndiyu wawonere ntchitu za Komiti
+  ya Nthambi ya United States.\\nNdawopanga kuja wakuwonere dera. Chaka chimoza kuvuli
+  ivi vechendachitiki, mubali James A. Thompson yo wenga wakuwonere chiga\u0175a,
+  wangundifumba mafumbu kuti wawoni asani ndenga wakwenere kuja wakuwonere dera. Iyu
+  wangundikambiya vo ndakhumbikanga kunozga kuti ndije wakuwonere dera wamampha. Ndati
+  ndachita ute\u0175eti uwu kwa nyengu yimanavi, ndinguzi\u0175a kuti ulongozgi waki
+  wenga wakukhumbika nadi. Mubali Thompson ndiyu wenga wakuwonere chiga\u0175a wakwamba
+  kute\u0175ete nayu ndati nda\u0175ikika kuja wakuwonere dera. Ndingusambiraku vinandi
+  kwa mubali wakugomezgeka mwenuyu.\\nPa nyengu iyi akuwonere dera asambiranga vinthu
+  vinandi cha. Ndingwenda ndi wakuwonere dera kwa sabata yimoza kuti ndiwoni mo wachitiya
+  asani wachezesa mpingu. Tati taluta ku mpingu unyaki, iyu wawonanga \u0175aka mo
+  ini ndachitiyanga. Wangundipaska masachizgu ndi ulongozgi. Kweni pavuli paki wangutileka
+  tija. Zu\u0175a linyaki ndingukambiya Gloria kuti, \u201cMbwenu viyo penapa wamala
+  kundisambiza?\u201d Kweni pati pajumpha nyengu ndinguzi\u0175a chinthu chinyaki
+  chakukhumbika ukongwa. Nyengu zosi patu\u0175a abali wo angatiwovya asani titi\u0175azomereza
+  kuti atiwovyi. Ndeche kuwonga mo mubali J. R. Brown ndi mubali Fred Rusk angundiwovye.
+  Pa nyengu iyi Mubali Brown wenga wakuwonere dera ndipu Mubali Rusk wate\u0175etiyanga
+  pa Beteli.\\nKusankhana mitundu yenga suzgu yikulu ukongwa pa nyengu iyi. Zu\u0175a
+  linyaki, a wupu wa KKK agubanga mutawuni yinyaki po tacheziyanga mpingu muchiga\u0175a
+  cha Tennessee. Nyengu yinyaki te mu ute\u0175eti, abali ndi azichi anguma pa resitilanti
+  kuti aryi chakurya cha mlenji. Ndinguluta kunyumba yikulu kuti nkhajiwovyi. Munthu
+  munyaki yo wangujilembalemba muli\u0175avu wandilondonga ndipu wawonekanga wakofya.
+  Munthu uyu wawonanga kuti azungu mbapachanya kuphara mitundu yinyaki. Kweni mubali
+  munyaki yo wenga mukhomi ukongwa kuphara ini ndipuso yo wandilondonga, wazanga muvuli
+  mwidu. Mubali uyu wangundifumba kuti, \u201cPe suzgu lelosi Mubali Herd?\u201d Munthu
+  wakofya yo wandilondonga wangutuwapu nyengu yeniyo kwambula kusere munyumba yikulu.
+  Pa umoyu wangu, ndawona kuti \u0175anthu asankhana mitundu chifukwa cha kupambana
+  khungu cha, kweni chifukwa cha ubudi wo tikuyambuwa kwaku Adamu. Ndasambira kuti
+  mubali ndi mubali chinanga mungasiyana khungu. Iyu wangatifwiya asani mphakwenere
+  kuchita viyo.\\nSONU NDE WAKUKHUPUKA\\nNdinguchita ute\u0175eti wakuwonere dera
+  kwa vyaka 12 ndipu kwa vyaka 21 ndenga wakuwonere chiga\u0175a. Ivi venga vyaka
+  vakukondwesa ukongwa. Kweni penga so vitumbiku vinyaki vo Chiuta wangutisungiya.
+  Mu August 1997, vinthu vo takhumbanga kwanyengu yitali vingufiskika. Tingudanika
+  kuti tikate\u0175etiyengi pa Beteli ya ku United States. Pangujumpha vyaka 38 kutuliya
+  po tingusayiniya fomu yakupemphe ute\u0175eti uwu. Tingwamba kute\u0175ete pa Beteli
+  mu September. Nda\u0175ana\u0175ananga kuti abali akhumbanga kuti nkha\u0175awovyi
+  kwa nyengu yimanavi, kweni ndimu venge cha.\\nNdati ndafika \u0175aka angundi\u0175ika
+  ku dipatimenti yakuwonere ute\u0175eti. Ndingusambira vinandi ku dipatimenti iyi.
+  Abali a mu dipatimenti iyi aphwere nkhani zakusuzga kutuliya ku mawupu nga \u0175ara
+  ndipuso kwa akuwonere madera mu charu chosi cha United States. Ndiwonga ukongwa
+  kuti abali anguzikira nani pakundisambiza. Kweni ndiwona kuti asani ndingawere so
+  ku dipatimenti iyi, ndamuja nge ndayamba \u0175aka sonu.\\nIni ndi Gloria titanja
+  ute\u0175eti wapa Beteli. Nyengu zosi tiyuka ndi mlenjilenji ndipu kuchita viyo
+  kutitiwovya ukongwa pa Beteli. Pati pajumpha chaka chimoza, ndingwamba kovya mu
+  Komiti ya Ute\u0175eti ya Wupu Wakulongozga. Mu 1999, ndingusankhika kuti ndite\u0175etiyengi
+  mu Wupu Wakulongozga. Ndasambira vinandi ukongwa pa ute\u0175eti uwu. Kweni chinthu
+  chakukhumbika ukongwa cho ndasambira ntchakuti Yesu Khristu ndiyu mutu wa mpingu,
+  munthu munyaki weyosi cha.\\nAsani ndikumbuka vo ndakumana navu pa umoyu wangu,
+  nyengu zinyaki ndituvwa nge mo wangukambiya mchimi Amosi. Yehova wangukweza muliska
+  wakujiyuyuwa mweniyu yo wachitanga ntchitu ya wuliwuli yakuphwere nkhuyu. Mtundu
+  wa nkhuyu zo Amosi waphweriyanga aryanga akavu pe. Kweni Chiuta wangumusankha kuti
+  waje mchimi. Iyi yenga ntchitu yakuzirwa ukongwa. (Amosi 7:14, 15) Mwakuyanana \u0175aka,
+  Yehova wangundisankha, mwana wa munthu mukavu wa mutawuni ya Liberty, muchiga\u0175a
+  cha Indiana ndi kundipaska vitumbiku vinandi vakuti ndingafiska cha kukonkhoska.
+  (Nthanthi 10:22) Ndenga mukavu nadi pakwamba, kweni sonu nde wakukhupuka mwauzimu.
+  Nda\u0175ana\u0175aniyangaku cha kuti ndingaja wakukhupuka viyo!\"", "\"\u2018Jwatemi
+  pacitengu ca ucimwene soni Mwanace Jwangondolo aku\u0175ajilwa kumlumba soni kupocela
+  ucimbicimbi ni macili mpaka kalakala.\u2019\u2014CIU. 5:13.\\nNYIMBO: 9, 14\\n1.
+  Ligongo cici \u0175andu \u0175ane akusosekwa kwacimbicisya, soni ana mungani ajino
+  citutagulilane cici?\\nKUMCIMBICISYA mundu jwine jwakwe kukusagopolela kum\u2019wona
+  mundujo ku\u0175a jwakusosekwa mnope. Mwambone, tukusayiwona kuti mundu jwine ali
+  jwakusosekwa kumcimbicisya ligongo lyakuti atesile cinecakwe caku\u0175ajilwa kupocela
+  naco ucimbicimbi kapena ali pa ukumu wapajika. M\u2019yoyo, tukusosekwa kuliwusya
+  kuti, Ana \u0175ani \u0175aku\u0175ajilwa kwacimbicisya, soni ligongo cici? Citutagulilane
+  yeleyi mungani ajino.\\n2, 3. (a) Ligongo cici Yehofa ali jwaku\u0175ajilwa kupocela
+  ucimbicimbi? (Alole ciwulili cacili penanipa.) (b) Mwakamulana ni Ciunukuko 5:13,
+  ana Mwanace Jwangondolo ali \u0175ani, soni ligongo cici ali jwaku\u0175ajilwa kupocela
+  ucimbicimbi?\\n2 Lilemba lya Ciunukuko 5:13 likusati, \u201cJwatemi pacitengu ca
+  ucimwene soni Mwanace Jwangondolo\u201d aku\u0175ajilwa kupocela ucimbicimbi. Patuku\u0175alanga
+  caputala 4 ca bukuji, tukusasimana ligongo limo lyele Yehofa akusosekwela kupocela
+  ucimbicimbi. Yakupanganyikwa yausimu yikusa\u0175eceta pampepe mwagumila malo\u0175e
+  gakumlumba Yehofa, \u201cjucacitama ni umi mpaka kalakala.\u201d Yikusati, \u201cAli
+  \u0175aku\u0175ajilwa wawo Yehofa Mlungu jwetu kupocela lumbili ni ucimbicimbi soni
+  macili, ligongo \u0175apanganyisye yosope, soni ligongo lyakusaka kwawo yapali soni
+  \u0175ayipanganyisye.\u201d\u2014Ciu. 4:9-11.\\n3 Yesu Klistu ali \u201cMwanace
+  Jwangondolo jwa Mlungu jwakutyosya ulemwa pacilambo capasi.\u201d (Yoh. 1:29) Baibulo
+  jikusatusalila kuti jwalakwe ali jwapenani mnope kupunda mayimwene gosope. Jikusati,
+  \u201cJwalakwe ali Mwenye jwa \u0175akulamulila mpela mayimwene soni Ambuje jwa
+  \u0175akulamulila mpela acambuje. Jwalakwe jika ni jwakwete umi wangawa, jwali m\u2019lilanguka
+  lyangakomboleka kuliyicila. Pangali jwalijose ju\u0175am\u2019weni kapena jwampaka
+  apakombole kum\u2019wona.\u201d (1 Tim. 6:14-16) Ana pana mwenye jwine ju\u0175alipelece
+  kuti awe pakutuwombola ku yakulemwa yetu? Ana wawojo ngakusapikana mumtima mpela
+  mwagakusapikanila malayika gagakusajimba kuti, \u201cMwanace Jwangondolo ju\u0175awulajidwe
+  ali jwaku\u0175ajilwa kupocela macili, cipanje, lunda, ucimbicimbi, lumbili ni majali\u201d?\u2014Ciu.
+  5:12.\\n4. Ligongo cici kumcimbicisya Yehofa soni Yesu kuli kwakusosekwa mnope?\\n4
+  Kumcimbicisya Yehofa soni Klistu kuli kwakusosekwa mnope. Kuti citupate umi wangamala
+  yikwegamila pa kwacimbicisya jemanjaji. Malo\u0175e ga Yesu gatukusa\u0175alanga
+  pa Yohane 5:22, 23 gakutukamucisya kupikanicisya cenene yeleyi. Malo\u0175ega gakusati,
+  \u201cAtati ngakulamula jwalijose, nambo apelece ukumu wosope kwa Mwanace kuti wosope
+  am\u2019cimbicisye Mwanacejo mpela mwakusacimbicisya Atati. Jwalijose jwangakumcimbicisya
+  Mwanacejo nikuti ngakwacimbicisya Atati \u0175a\u0175amtumile jwalakwe.\u201d\u2014A\u0175alanje
+  Salimo 2:11, 12.\\n5. Ligongo cici tukusosekwa kwacimbicisyaga \u0175andu?\\n5 \u0174andu
+  \u0175apanganyidwe \u201cm\u2019ciwanicisyo ca Mlungu.\u201d (Gen. 1:27) Ni ligongo
+  lyakwe \u0175andu \u0175ajinji akusakombola kulosya ndamo sya Mlungu m\u2019matala
+  gakulekanganalekangana. \u0174andu \u0175apanganyidwe m\u2019litala lyakuti akomboleje
+  kulosyana cinonyelo, umbone mtima soni kutendelana canasa. \u0174apagwilesoni ni
+  cikumbumtima, cacili lunda lwalukusakamucisya kumanyilila yambone soni yakusakala,
+  yacilungamo soni yangali cilungamo, yaku\u0175ajilwa soni yanga\u0175ajilwa. (Alo.
+  2:14, 15) \u0174andu \u0175ajinji akusasangalala ni yindu yayili yacasa soni yakusalala.
+  Akusa\u0175asoni \u0175akusacilila kutama ni \u0175ane mwamtendele. Cinga akusamanyilila
+  kapena ngakusamanyilila, pakutenda yeleyi akusa\u0175a ali mkulosya ucimbicimbi
+  wa Yehofa. Pa ligongo lyeleli ali \u0175aku\u0175ajilwa kupocela ucimbicimbi.\u2014Sal.
+  8:5.\\nTWACIMBICISYEJE \u0174ANE MWAKU\u0174AJILWA\\n6, 7. Pangani jakupeleka ucimbicimbi,
+  ana Mboni sya Yehofa sikusalekangana catuli ni \u0175andu \u0175ajinji?\\n6 Tukusosekwa
+  kumanyilila \u0175andu \u0175akusosekwa ucimbicimbi soni malile gakwapela ucimbicimbiwo.
+  Ligongo lya ungali umlama, \u0175andu \u0175ajinji akusalosya msimu wakusakala wa
+  cilambo ca Satanaci. Ni ligongo lyakwe \u0175andu akusayikana pakwalambila acalume
+  kapena acakongwe \u0175ane m\u2019malo mwakwamba kwacimbicisya mwaku\u0175ajilwa.
+  Akusi\u0175awona acimlongola \u0175adini ni \u0175andale, \u0175akutenda maung\u2019asi,
+  soni \u0175andu \u0175akupikanika ku\u0175a \u0175akusosekwa mnope. Ni ligongo lyakwe
+  \u0175anace soni acakulungwa akusi\u0175awona jemanjaji ku\u0175a yisyasyo yawo
+  soni akusalingalinga kusyasya katende kawo ka yindu, kawale kawo soni ndamo syawo.\\n7
+  Aklistu \u0175asyesyene akusakana msimu wa cilambo wakwacimbicisya \u0175andu mwanga\u0175ajilwa.
+  Mwa \u0175andu wosope \u0175a\u0175atemi pacilambo capasi, Klistu ni mundu jumopejo
+  jwali cisyasyo cambone cakuti tucikuyeje. (1 Pet. 2:21) Mlungu ngakusasangalala
+  patukupeleka ucimbicimbi mwanga\u0175ajilwa kwa \u0175andu. Nda\u0175i syosope,
+  tukusosekwa tukumbucileje malo\u0175e ga m\u2019Baibulo gakuti \u2018Wosope \u0175alemwisye
+  soni ali \u0175akupelembela pa lumbili lwa Mlungu.\u2019 (Alo. 3:23) Mwakamulana
+  ni malo\u0175e gelega, pangali mundu jwalijose jwali jwaku\u0175ajilwa kupocela
+  ucimbicimbi wakupundanganya malile.\\n8, 9. (a) Ana \u0174amboni sya Yehofa akusi\u0175awona
+  mwatuli \u0175akulamulila \u0175a boma? (b) Ana mpaka twacimbicisyeje soni kwakamucisya
+  \u0175akulamulila \u0175a boma malile papi?\\n8 M\u2019maboma ga cilambo, \u0175andu
+  \u0175ane akusatumicilaga pa maukumu gakulekanganalekangana. \u0174akulamulila \u0175a
+  boma akusasosekwa kutamilikasya ni kusunga malamusi soni kusamalila yakusosekwa
+  ya \u0175andu \u0175awo. Yeleyi yikusa\u0175a yakamucisya kwa \u0175andu wosope.
+  Ni ligongo lyakwe ndumetume Paulo, \u0175asalile Aklistu kuti akusosekwa kwawonaga
+  \u0175akulamulila \u0175ele\u0175a ku\u0175a \u2018maulamusi gamakulungwa,\u2019
+  gatukusosekwa kugapikanilaga. Jwalakwe \u0175asalile kuti, \u201cM\u2019pelece kwa
+  wosope yakusosekwa kupocela; kwa jwakusaka msongo, mumpe msongo; . . . kwa jwakusaka
+  ucimbicimbi, mumpe ucimbicimbi wakwe.\u201d\u2014Alo. 13:1, 7.\\n9 Mpela Mboni sya
+  Yehofa, tukusatenda yiliyose yampaka tukombole kuti twacimbicisyeje \u0175akulamulila
+  mwakamulana ni mwakusasacila jemanjajo soni ndamo sya m\u2019cilamboco. Tukusapikanila
+  jemanjaji pakukamula masengo gawo. Nambope, Malemba gakusatu\u0175icila malile gakwapela
+  jemanjaji ucimbicimbi soni kwakamucisya. Naga jemanjaji akutusalila kuti tutende
+  yindu yakututendekasya kuti tukampikanila Mlungu, nganitu\u0175a tukundile. Panda\u0175i
+  jeleji tukusampikanila soni kumcimbicisya Yehofa m\u2019malo mwakupikanila \u0175andu.\u2014A\u0175alanje
+  1 Petulo 2:13-17.\\n10. Ana \u0175akutumicila \u0175a Yehofa \u0175akala \u0175apelece
+  cisyasyo catuli pangani jakamulana ni \u0175akulamulila \u0175a boma?\\n10 \u0174akutumicila
+  \u0175a Yehofa \u0175akala \u0175apelece cisyasyo cambone pangani jakamulana ni
+  maboma soni \u0175akulamulila. Mwambone, panda\u0175i jele Boma ja Loma jasalile
+  \u0175andu kuti akalembesye m\u2019kawundula, Yosefe ni Maliya \u0175atesile yeleyi.
+  Jemanjaji \u0175atyosile ku Nasaleti ni kwawula ku Betelehemu kukulembesya atamose
+  kuti Maliya \u0175aliji ali asigele panandi ku\u0175eleka mwanace jwakwe jwandanda.
+  (Luk. 2:1-5) Nambosoni, Paulo pa\u0175amjimbaga magambo, jwalakwe \u0175ali\u0175icile
+  kunyuma mwaucimbicimbi soni \u0175apelece ucimbicimbi waku\u0175ajilwa kwa Mwenye
+  Helodi Agilipa soni kwa Fesito ju\u0175aliji bwanamkubwa jwa Loma mu upande wa Yudeya.\u2014Mase.
+  25:1-12; 26:1-3.\\n11, 12. (a) Ligongo cici tukusalekanganya pakupeleka ucimbicimbi
+  kwa \u0175akulamulila \u0175aboma ni kwa acimlongola \u0175adini? (b) Ana papali
+  yakuyicisya yambone yapi ligongo lyakuti Jwamboni sya Yehofa ku Austria jwalosisye
+  ucimbicimbi kwa jwandale?\\n11 Nambope, \u0174amboni sya Yehofa akusa\u0175ambala
+  kupeleka ucimbicimbi wapajika kwa acimlongola \u0175adini atamose kuti jemanjajo
+  mpaka asace kuti twapeje ucimbicimbi wapajikawu. Ligongo cici? Ligongo lyakuti dini
+  syaunami ngasikusajiganya usyesyene wakwamba Mlungu soni Malo\u0175e gakwe. M\u2019yoyo,
+  tukusacimbicisya acimlongola\u0175a mpela \u0175andu \u0175ane wosope, nambo ngatukusapa
+  ucimbicimbi wapajika. Tukusakumbucila kuti Yesu \u0175akolasile acimlongola \u0175adini
+  \u0175amunda\u0175i jakwe kuti \u0175aunami soni acimlongola \u0175angalola. (Mat.
+  23:23, 24) Nambo mwakulekangana ni yeleyi, naga tukupeleka ucimbicimbi waku\u0175ajilwa
+  kwa \u0175akulamulila \u0175a boma, nda\u0175i sine pakusa\u0175a yakuyicisya yambone.\\n12
+  Leopold Engleitner \u0175aliji Mboni jamtawu mnope ku Austria. Nda\u0175i jine \u0175acipani
+  ca Nazi \u0175amta\u0175ile ni kumtumisya pasitima japamkuli ku kampu ja Buchenwald.
+  Mundu jwine jwandale jwa ku Austria peko lina lyakwe Heinrich Gleissner \u0175ata\u0175idwesoni
+  ni \u0175acipani ca Nazi ni \u0175alijisoni mu sitimamo. Pa ulendo wawo wakwawula
+  ku kampuwo, M\u2019bale Engleitner \u0175alondesye mwaucimbicimbi yikulupi yakwe
+  kwa Gleissner, soni \u0175apikanilaga mwakusamala. Panyuma pa ngondo ja\u0175ili
+  japacilambo cosope, Gleissner \u0175akamulicisye masengo ukumu wakwe pakwakamucisya
+  \u0174amboni ku Austria. Kombolekasoni kuti jemanja akukumbucila yisyasyo yine yakulosya
+  yakuyicisya yambone yayapali ligongo lyakupeleka ucimbicimbi waku\u0175ajilwa kwa
+  \u0175akulamulila mwakamulana ni yajikusasala Baibulo kuti Aklistu atendeje.\\n\u0174ANE
+  \u0174AKU\u0174AJILWA KUPOCELA UCIMBICIMBI\\n13. Ana \u0175ani \u0175atukusosekwa
+  kwacimbicisya, soni ligongo cici?\\n13 Aklistu acimjetu, mnopemnope \u0175akusalongolela
+  pasikati petu aku\u0175ajilwa kupocela ucimbicimbi. (A\u0175alanje 1 Timoteo 5:17.)
+  Tukusacimbicisya abale \u0175akusalongolela\u0175a mwangajigalila ya mtundu wawo,
+  majiganyo gawo, kumanyika kwawo kapena kapate kawo ka mbiya. Baibulo jikusakolanga
+  jemanjaji kuti \u201cmituka mwa acalume,\u201d soni akusakamula masengo gamakulungwa
+  mnope gakusamalila yakusosecela ya \u0175andu \u0175a Mlungu. (Aef. 4:8) Aganicisye
+  ya acakulungwa \u0175a mumpingo, \u0175akulolela mkuli, abale \u0175a m\u2019Komiti
+  ja Nyambi soni \u0175a m\u2019Likuga Lyakulongolela. Abale ni alongo \u0175a m\u2019yaka
+  100 yandanda \u0175acimbicisyaga mnope abale \u0175a\u0175alongolelaga pasikati
+  pawo, m\u2019yoyo m\u2019wejisoni tukusosekwa kutenda yakulandanayo. Ngatukusacimbicisya
+  mwakupundanganya \u0175andu \u0175akusalongolela\u0175a kapena kutenda yindu yakulosya
+  mpela kuti tuli ni malayika. Nambo tukusacimbicisya jemanjaji ligongo lya masengo
+  gamakulungwa gakusatenda soni kulinandiya kwawo.\u2014A\u0175alanje 2 Akolinto 1:24;
+  Ciunukuko 19:10.\\n14, 15. Ana \u0175akucinga \u0175aciklistu \u0175asyesyene akusalekangana
+  catuli ni acimlongola \u0175adini syaunami?\\n14 Abale \u0175akusalongolela pasikati
+  petu ali \u0175akucinga \u0175ausimu \u0175akulinandiya. Jemanjaji ngakusakunda
+  kuti \u0175ane \u0175awoneje mpela \u0175apenani mnope. Yeleyi yili yakulekangana
+  ni acimlongola \u0175adini \u0175ajinji \u0175amo\u0175a agano soni \u0175a m\u2019yaka
+  100 yandanda. Yesu \u0175asasile ya jemanjaji kuti, \u201cAkusanonyela malo gapenani
+  mnope pakulya yakulya yaligulo soni kutama kusogolo m\u2019nyumba syakulambilila.
+  Akusanonyelasoni kuti \u0175andu \u0175akomasyeje m\u2019misika.\u201d\u2014Mat.
+  23:6, 7.\\n15 \u0174akucinga \u0175aciklistu \u0175asyesyene akusapikanila mwakulinandiya
+  malo\u0175e ga Yesu gakuti, \u201cMkasimkolanjikwaga kuti Labi, paku\u0175a Mkwiganya
+  jwenu ali jumo soni wosopemwe mli abale. Mkasimumkolangagasoni jwalijose pacilambopa
+  kuti atati, paku\u0175a Atati \u0175enu ali \u0175amo, Atati \u0175akwinani. Mkasimkolanjikwaga
+  kuti acimlongola, paku\u0175a Mlongola jwenu ali jumo, Klistu. Nambo jwali jwamkulungwa
+  pasikati penu a\u0175e jwakutumicila. Jwalijose jwakulikwesya cacimtulusya, soni
+  jwalijose jwakulinandiya cacimkwesya.\u201d (Mat. 23:8-12) Ni ligongo lyakwe yili
+  yakupikanika kuti abale ni alongo m\u2019mipingo josope ja Mboni sya Yehofa pacilambopa
+  akusi\u0175acimbicisya soni kwanonyela acakulungwa \u0175a mumpingo ligongo lya
+  kulinandiya kwawo.\\n16. Ligongo cici tukusosekwa kulingalinga kuya yajikusasala
+  Baibulo pangani jakupeleka ucimbicimbi?\\n16 Kusala yisyene, mpaka yijigale nda\u0175i
+  nditu kuti tukombole kwacimbicisya \u0175ane mwaku\u0175ajilwa. Yeleyi yatendecelesoni
+  Aklistu \u0175andanda. (Mase. 10:22-26; 3 Yoh. 9, 10) Nambope, yili yakusosekwa
+  mnope kuti tulinjelinjeje kuya yajikusasala Baibulo pangani jakupeleka ucimbicimbi.
+  Patukutenda yeleyi, tucipata majali gejinji.\\nUMBONE WAKUPELEKA UCIMBICIMBI WAKU\u0174AJILWA
+  KWA \u0174ANE\\n17. Ana pakusa\u0175a umbone watuli naga tukwacimbicisya \u0175akulamulila?\\n17
+  Patukulosya ucimbicimbi kwa \u0175akulamulila, jemanjaji akusakamucisya kuti tukole
+  ufulu wakulalicila. Jemanjaji mpaka agawonejesoni masengo getu gakulalicila ku\u0175a
+  gakusosekwa mnope. Yaka yejinji yipiteyo, Birgit ju\u0175aliji mpayiniya ku Germany,
+  \u0175asimanikwe panda\u0175i jele mwanagwe \u0175awugalilaga sukulu. \u0174akwiganya
+  ku sukuluji \u0175amsalile Birgit kuti yaliji yakusangalasya mnope kola \u0175anace
+  \u0175amboni pa sukulujo. \u0174asasilesoni kuti yikaliji yangasangalasya yika\u0175e
+  kuti pasukulu pawo pangali \u0175anace \u0175amboni. Birgit \u0175asalile kuti,
+  \u201c\u0174anace \u0175etu akusajiganyidwa kuti akuyeje ndamo syambone sya Mlungu,
+  kupwatikapo kwacimbicisya \u0175akwiganya.\u201d Jwakwiganya jwine \u0175asasile
+  kuti, \u201cYika\u0175e kuti \u0175anace wosope ali mpela \u0175enu, sukulu jikaliji
+  mpela paladaiso.\u201d Pali papitile yijuma yaku\u0175alanjika, jumo mwa \u0175akwiganyawo
+  \u0175asimanikwe pamsongano waupande ku Leipzig.\\n18, 19. Ligongo cici kupeleka
+  ucimbicimbi waku\u0175ajilwa kwa acakulungwa \u0175a mumpingo jili ngani jekulungwa?\\n18
+  Yagakusasala Malo\u0175e ga Mlungu mpaka yitukamucisye kuti tupeleceje ucimbicimbi
+  waku\u0175ajilwa kwa acakulungwa \u0175a mumpingo. (A\u0175alanje Ahebeli 13:7,
+  17.) Tukusosekwa kwayamicila jemanjaji ligongo lya masengo gakusatenda soni tulinjelinjeje
+  kamulana ni yakusatusalila. Patukutenda yeleyi yicakamucisya jemanjajo kuti akamuleje
+  masengo gawo mwakusangalala. Nambo yeleyi ngayikugopolela kuti tujigalileje kawale,
+  kalisalalisye, kajiganye soni ka\u0175ecete ka jwamkulungwa jwa mumpingo \u2018jwakumanyika.\u2019
+  Yika\u0175e kuti tukutenda yeleyi nitukalosisye kuti tukukuya mundu. Tukali\u0175alilaga
+  kuti jwalakwesoni ali jwangali umlama. Cisyasyo cambone mnope catukusosekwa kucikuya
+  cili ca Klistu.\\n19 Patukwapa acakulungwa \u0175a mumpingo ucimbicimbi waku\u0175ajilwa,
+  nga\u0175aga kwawona mpela \u0175apenani, tukusa\u0175a tuli mkwakamucisya jemanjajo.
+  Tukusakamucisya kuti akagwila m\u2019citega cakulikwesya, mwakuliwona ku\u0175a
+  \u0175apenani kapena \u0175akulungama.\\n20. Ana kupeleka ucimbicimbi kwa \u0175ane
+  kukusatukamucisya catuli?\\n20 Kupeleka ucimbicimbi kwa \u0175andu \u0175aku\u0175ajilwa
+  ucimbicimbi kukusatukamucisya kuti tuka\u0175a \u0175akulikwesya. Kukusatukamucisyasoni
+  kuti tulinandiye \u0175ane pakutupa ucimbicimbi wapajika. Tukusa\u0175asoni tuli
+  mkutenda yindu mwakamulana ni likuga lya Yehofa lyalikusa\u0175ambala kupeleka ucimbicimbi
+  wakupundanganya kwa \u0175andu, cinga \u0175akulupilila kapena \u0175angakulupilila.
+  Nambosoni, kukusatukamucisya kuti tukatenguka naga mundu jutwamcimbicisyaga mnope
+  atesile yakulemweceka.\\n21. Ana umbone wekulungwa wakupelecela ucimbicimbi kwa
+  \u0175andu \u0175aku\u0175ajilwa ucimbicimbi uli watuli?\\n21 Umbone wine wekulungwa
+  wakupeleka ucimbicimbi kwa \u0175andu \u0175aku\u0175ajilwa ucimbicimbi uli wakuti
+  tukusamsangalasya Mlungu. Tukusatenda yindu mwakamulana ni mwakusasacila Yehofa
+  pakulosya kuti tuli \u0175akulupicika kwa jwalakwe. Patukutenda yeleyi tukusamkamucisya
+  jwalakwe kumjanga jwalijose jwakumnyosya. (Miy. 27:11) M\u2019cilamboci mugumbele
+  \u0175andu \u0175angakusamanyilila kupeleka ucimbicimbi mwaku\u0175ajilwa. Nambo
+  m\u2019weji tuli \u0175akusangalala mnope ligongo lyakuti tukusamanyilila mwampaka
+  tupelecele ucimbicimbi mwakamulana ni mwakusasacila Yehofa.\"", "\"APRIL 7, 2017\\nRUSSIA\\nKhoti
+  Likuru Chomene la Russian Federation Supreme Court likulutilizga mulandu wa \u0174akaboni
+  \u0175a Yehova. Muhanya uno ni zu\u0175a lachitatu kufuma apo khoti ili likambira
+  kutegherezga mulandu wakukhumba kukanizga \u0174akaboni \u0175a Yehova mu Russia.
+  \u0174akaboni \u0175a Yehova \u0175angususka ivyo Unduna wa vya Malango uku\u0175ayowoyera.\\nSergey
+  Cherepanov wangususka ivyo Unduna uwu ukuyowoya kuti ofesi ya \u0174akaboni \u0175a
+  Yehova yikuchita vinthu mwakutalulira. Nangauli Unduna uwu ukuti ofesi ya \u0174akaboni
+  \u0175a Yehova yikuswa malango, kweni ukulongosora yayi umo ofesi iyi yikuswera
+  malango kweniso umo yingalekera. Munyake uyo wakwimira ofesi ya \u0174akaboni \u0175a
+  Yehova, Vasiliy Kalin, wangulongosora kuti ofesi iyi yagwira ntchito kwa vyaka 26.
+  Pamanyuma wangufumba kuti: \u201cPa vyaka vyose ivi, ni mpha apo tikachita vinthu
+  mwakutalulira?\u201d Iyo wangulongosoraso kuti \u0174akaboni \u0175a Yehova \u0175andasinthe,
+  nyengo zose \u0175akupulikira \u0175alara \u0175a boma na kulondezga malango agho
+  ghakovwira kuti \u0175anthu \u0175akhalenge mwamtende. Kalin wanguti wakufipa mtima
+  na ivyo boma likuchita chifukwa vikulongora kuti lambapo kale kutambuzga \u0174akaboni
+  \u0175a Yehova.\\nJaji wazamulutirizga mulandu uwu pa April 12, 2017, nyengo ya
+  10:00 a.m.\"", "\"MUTU 35\\nKasi Ningachita Wuli Kuti Ni\u0175e Paubwezi na Chiuta?\\nJeremy
+  wakati wasangana na suzgo ndipo wakamanya kuzirwa kwaku\u0175a paubwezi na Chiuta.
+  Iyo wakati: \u201cApo nkha\u0175a na vyaka 12, adada \u0175akatichimbira. Zu\u0175a
+  linyake usiku nkhamba kulomba kwa Yehova kuti adada \u0175izeso panyumba.\u201d\\nJeremy
+  wakasuzgika chomene maghanoghano, mbwenu wakamba ku\u0175erenga Baibolo. Lemba la
+  Salimo 10:14 ndilo likamufika pamtima. Pakuyowoya za Yehova lemba ili likuti: \u201cWa
+  soka wakujipereka mu mawoko ghinu; ndimwe movwiri wa \u0175aranda.\u201d Jeremy
+  wakati: \u201cNkhajipulika nga Yehova wakuniphalira kuti, ndine movwiri wako kweniso
+  dada wako. Nakuti palije dada muwemi kuluska Yehova.\u201d\\nKWALI namwe mukukumana
+  na masuzgo nga agho wakakumana nagho Jeremy panji yayi, kweni Baibolo likuti Yehova
+  wakukhumba kuti mu\u0175e nayo paubwezi. Nakuti Baibolo likuti: \u201cSendelerani
+  kwa Chiuta, ndipo iyo wasendelerenge kwa imwe.\u201d (Yakobe 4:8) Kasi mazgu agha
+  ghakung\u2019anamurachi? Nangauli Yehova mungamuwona yayi kweniso ngwapachanya chomene
+  kuluska waliyose, kweni wakumupemphani kuti mu\u0175e nayo paubwezi.\\nKweni kuti
+  mu\u0175e paubwezi na Chiuta mukwenera kufwilirapo chomene. Tiyelezgere kuti mwapanda
+  lu\u0175a mu nyumba, kasi lingakura kwambura kulipwelelera? Mukwenera kulithilira
+  maji pafupipafupi kweniso kuli\u0175ika pa malo ghawemi kuti likure makora. Ndimo
+  viliriso na ubwezi withu na Chiuta. Kasi mungachita wuli kuti mu\u0175e paubwezi
+  wakukhora na Yehova?\\nUwemi wa Ku\u0175erenga Baibolo\\n\u0174anthu awo \u0175ali
+  paubwezi \u0175akwenera kuyowoyeskana kweniso kutegherezgana. Ndivyo tikweneraso
+  kuchita kuti tilutilire ku\u0175a paubwezi na Chiuta. Para tiku\u0175erenga na kusambira
+  Baibolo ndikuti tikutegherezga kwa Chiuta.\u2014Salimo 1:2, 3.\\nPanji mukutemwa
+  yayi kusambira Baibolo. \u0174achinyamata \u0175anandi \u0175akutemwa waka kuwonelera
+  TV, kuchita mase\u0175ero panji kuchezga na \u0175anyawo m\u2019malo mwaku\u0175erenga
+  Baibolo. Kweni kuti mu\u0175e paubwezi na Chiuta mukwenera kuyezgayezga kuchita
+  ivyo wakukhumba. Kuti mupulike ivyo Yehova wakuyowoya mukwenera kusambira Mazgu
+  ghake.\\nKweni kufipa mtima yayi. Lekani kuwona kuti ku\u0175erenga Baibolo ni mphingo.
+  Namwe vingamunozgerani chomene ku\u0175erenga Baibolo nangauli panji mukutemwa yayi
+  vyaku\u0175erenga. Chakwamba mukwenera kupatura nyengo yakuti musambirenge Baibolo.
+  Msungwana munyake zina lake Lais wakati: \u201cNili na ndondomeko ya ku\u0175erenga
+  Baibolo. Para nawuka waka mulenji uliwose, nkhu\u0175azga Baibolo chaputara chimoza.\u201d
+  Maria wa vyaka 15, nayo wali na ndondomeko yake yaku\u0175azgira Baibolo. Iyo wakati:
+  \u201cPambere nindagone, nkhu\u0175erenga Baibolo pachoko waka.\u201d\\nKuti mu\u0175e
+  na ndondomeko yinu yakusambilira Baibolo, wonani bokosi ilo lili pa peji 292. Ndipo
+  lembani nyengo iyo mukuwona kuti mungasambilira Mazgu gha Chiuta kwa maminiti 30
+  panji kujumphirapo.\\n\u2024\u2024\u2024\u2024\u2024\\nKupanga ndondomeko mphakwambira
+  waka. Para mwamba kusambira Baibolo, panji muzamuwona kuti nkhwakusuzga chomene
+  kuchita nthena. Panji namwe muzamukolerana na fundo iyo wakayowoya munyamata munyake
+  wa vyaka 11 zina lake Jezreel, uyo wakati: \u201cNkhani zinyake mu Baibolo ni zakusuzga
+  chomene kuzipulikiska ndipo zikunozga yayi.\u201d Para namwe ndimo mukuwonera, kugongowa
+  yayi. Nyengo zose mukwenera kuwona kuti para mukusambira Baibolo ndikuti mukutegherezga
+  kwa mubwezi winu Yehova Chiuta. Para muku\u0175ikapo mtima kusambira Baibolo, muzamuwona
+  kuti nkhwakukondweska kweniso nkhwakovwira chomene.\\nLurombo Ndakuzirwa Chomene\\nLurombo
+  ntchawanangwa chapadera chomene chifukwa ni nthowa iyo tikuyowoyera na Chiuta. Mungayowoya
+  na Yehova nyengo yiliyose. Iyo ngwakunozgeka kutegherezga kwa imwe nyengo yiliyose.
+  Kweniso ngwakukhumbiskiska kupulika ivyo mukukhumba kuyowoya. Lekani Baibolo likutichiska
+  kuti: \u201cMu vinthu vyose, mu lurombo na ma\u0175eyelero pamoza na kuwonga, madandawuro
+  ghinu ghamanyikwe kwa Chiuta.\u201d\u2014\u0174afilipi 4:6.\\nKuyana na ivyo lemba
+  ili likuyowoya, pali vinthu vinandi ivyo mungamuphalira Yehova. Mungamuphalira masuzgo
+  agho mukukumana nagho kweniso ivyo mukwenjerwa navyo. Kweniso mungawonga pa vinthu
+  viwemi ivyo wakumuchitirani. Asi namwe mukuwonga \u0175abwezi \u0175inu para \u0175amuchitirani
+  vinthu viwemi? Yehova nayo mukwenera kumuwonga chomene chifukwa pali vinandi ivyo
+  wamuchitirani kuluska mubwezi winu waliyose.\u2014Salimo 106:1.\\nPasi apa, lembanipo
+  vinthu ivyo mungawonga Yehova.\\n\u2024\u2024\u2024\u2024\u2024\\nTikumanya kuti
+  pali vinthu vinandi ivyo vikumupangiskani kuti mwenjerwenge kweniso kufipa navyo
+  mtima. Lemba la Salimo 55:22 likuti: \u201cKatundu wako umuthwikiske Yehova, ndipo
+  wakovwirenge. Wazomerezgenge chara kuti murunji wawe.\u201d\\nPa mizere iyo yili
+  pasi apa, lembani vinthu ivyo mukufipa navyo mtima ivyo mukukhumba kuti muvizunure
+  mu lurombo.\\n\u2024\u2024\u2024\u2024\u2024\\nIvyo Mwakumana Navyo pa Umoyo\\nPaliso
+  chinthu chinyake icho chingamovwirani kuti mulutilire ku\u0175a paubwezi na Chiuta.
+  Wamasalimo Davide wakalemba kuti: \u201cChetani mwe, muwone kuti Yehova ni muwemi.\u201d
+  (Salimo 34:8) Apo Davide wakalembanga Salimo 34, waka\u0175a kuti wakumana waka
+  na masuzgo ghakuru. Pa nyengo iyi wakachimbiranga Themba liheni Sauli ndipo ivi
+  vikamutimbanizga chomene maghanoghano. Kufuma apo wakabisama pakati pa Wafilisiti
+  awo \u0175aka\u0175a \u0175alwani \u0175ake. Pakopa kuti \u0175angamukoma, Davide
+  wakapusikizgira kuti ngwakufuntha ndipo wakapona.\u20141 Samuyeli 21:10-15.\\nDavide
+  wakakajilumba yayi kuti panji wakapona na mahara ghake, m\u2019malo mwake wakalumba
+  Yehova kuti ndiyo wakamovwira. Kukwambilira kwa salimo 34 wakalemba kuti: \u201cNkhafumba
+  Yehova, ndipo wakanizgora. Wakanithaska ku wofi wane wose.\u201d (Salimo 34:4) Davide
+  wakawona umo Yehova wakamovwilira lekani wakutichiska kuti \u201cchetani mwe, muwone
+  kuti Yehova ni muwemi.\u201d *\\nKasi chilipo icho chili kumuchitikiranipo pa umoyo
+  icho chikulongora kuti Yehova kumupwelelerani? Usange chilipo chilembani pasi apa.
+  Nakuti chinthu icho chikwenera ku\u0175a chakuzukumiska yayi. Ghanaghanirani vinthu
+  viwemi ivyo vikuchitika pa umoyo winu nanga vingawoneka vichoko wuli.\\n\u2024\u2024\u2024\u2024\u2024\\nPanji
+  \u0175apapi \u0175inu \u0175ali kumusambizganipo vyakukhwaskana na Baibolo. Usange
+  ndimo viliri, mbwenu muli na mwa\u0175i chomene. Ndipouli, namwe pamwekha mukwenera
+  ku\u0175ikapo mtima kuti mu\u0175e paubwezi na Chiuta. Para mundayambepo ku\u0175a
+  paubwezi na Chiuta, mungagwiliskira ntchito fundo za nkhani iyi kuti zimovwirani
+  ku\u0175a nayo paubwezi. Yehova wazamutumbika chomene kuyezgayezga kwinu. Baibolo
+  likuti: \u201cLutilirani kulomba, ndipo mupikenge. Lutilirani kupenja, ndipo musangenge.\u201d\u2014Mateyu
+  7:7.\\n\u0174ERENGANI VINANDI PA NKHANI IYI MU BUKU LAKWAMBA, MUTU 38 NA 39\\nKasi
+  vikumusuzgani kuphalirako \u0175anyinu vya Chiuta? Wonani ivyo mungachita kuti muvikilire
+  chipulikano chinu.\\n[Mazgu Ghamusi]\\n^ ndime 24 Mu Mabaibolo ghanyake mazgu ghakuti
+  \u201cchetani mwe, muwone\u201d \u0175ali kung\u2019anamura kuti \u201cJiwonerani
+  mwekha\u201d kweniso kuti \u201cmuzamumanya para vyamuchitikirani.\u201d\u2014Today\u2019s
+  English Version, na The Bible in Basic English.\\nLEMBA ILO LINGAMOVWIRANI\\n\u201cMbakukondwa
+  awo \u0175akumanya kuti \u0175ali na njara yauzimu.\u201d\u2014Mateyu 5:3\\nFUNDO
+  YAKOVWIRA\\n\u0174erengani Baibolo mapeji ghanayi zu\u0175a lililose, ndipo mumalizgenge
+  Baibolo lose pambere chaka chindamare.\\nKASI MUKUMANYA . . .?\\nChifukwa chakuti
+  muku\u0175erenga buku ili kweniso mukulondezga ulongozgi wa mu Baibolo uwo wuli
+  mu buku lino, mbukaboni wakukwana wakuti Yehova wakumutemwani.\u2014Yohane 6:44.\\nVYAKUTI
+  NICHITE!\\nKuti nisangenge chandulo para nkhusambira Baibolo, nichitenge ivi \u2024\u2024\u2024\u2024\u2024\\nKuti
+  nyengo zose nipempherenge, nichitenge ivi \u2024\u2024\u2024\u2024\u2024\\nIvyo
+  nkhukhumba kufumba \u0175apapi pa nkhani iyi ni ivi \u2024\u2024\u2024\u2024\u2024\\nKASI
+  MUKUWONA WULI?\\n\u25cf Kasi mungachita wuli kuti mukondwenge para mukusambira Baibolo?\\n\u25cf
+  Chifukwa wuli Yehova wakukhumba chomene kutegherezga malurombo gha \u0175anthu \u0175akwananga?\\n\u25cf
+  Kasi mungachita wuli kuti mulombenge malurombo ghawemi?\\n[Mazgu ghakukhozgera]\\nEve
+  wakati: Apo nkha\u0175a mwana, nkhalombanga malurombo ghakuchita kusunga waka pamtima.
+  Pasono para nkhulomba nkhuyezgeska kuzunura vinthu viwemi na viheni ivyo vyanichitikira
+  pa zu\u0175a ilo. Pakuti ivyo vikuchitika pa zu\u0175a viku\u0175a vyakupambanapambana,
+  ivi vikunovwira kuti malurombo ghane ghaleke ku\u0175a ghakusunga waka pamtima.\\n[Bokosi/Chithuzithuzi]\\nLimanyani
+  Makora Baibolo\\n1. Sankhani nkhani iyo mukukhumba ku\u0175erenga. Lombani Yehova
+  kuti wamupani vinjeru kuti muyipulikiske.\\n2. \u0174erengani mwakupwelelera chomene.
+  Kuchimbilira yayi. Apo muku\u0175erenga, mughanaghanirengepo, ndipo mujitore nga
+  namwe muka\u0175apo: Mu\u0175e nga mukuwona ivyo vikuchitika, mukupulika mazgu gha
+  \u0175anthu \u0175akuyowoya, ka mphepo kakuputa makora, mukucheta kachakurya, na
+  vinyake. Ndipo wonani kuti nkhani iyo muku\u0175erenga yikachitika nadi!\\n3. Ghanaghaniranipo
+  pa ivyo mwa\u0175erenga. Jifumbani mafumbo nga agho ghali pasi apa:\\n\u25cf Chifukwa
+  wuli Yehova wakalemba nkhani iyi mu Baibolo?\\n\u25cf Kasi pa \u0175anthu awo \u0175akuzunulika
+  mu nkhani iyi ninjani uyo ningamuyezga, ndipo ninjani uyo nkhwenera yayi kumuyezga?\\n\u25cf
+  Kasi ni fundo wuli iyo nasambira mu nkhani iyi iyo yinganovwira pa umoyo wane?\\n\u25cf
+  Kasi nkhani iyi yikunisambizga vichi vya Yehova na umo wakuchitira vinthu?\\n4.
+  Lombani lurombo lufupi kwa Yehova. Muphalirani ivyo mwasambira mu Baibolo kweniso
+  umo muchitirenge kuti mulondezge ivyo mwasambira. Nyengo zose muwongenge Yehova
+  chifukwa cha chawanangwa icho wamupani, Mazgu ghake, Baibolo!\\n[Chithuzithuzi]\\n\u201cMazgu
+  ghinu ni nyali ku malundi ghane, na ungweru mu nthowa yane.\u201d\u2014Salimo 119:105.\\n[Bokosi/Chithuzithuzi]\\nMu\u0175ikenge
+  pakwamba vinthu vyakuzirwa\\nKasi mukutondeka kulomba panji kusambira Baibolo chifukwa
+  chakuso\u0175a nyengo? Usange ndimo viliri, ndikuti suzgo ni umo mukuwonera vinthu
+  ivyo ni vyakukhumbikwa chomene pa umoyo winu.\\nYezgani kuchita ivi: \u0174ikani
+  malibwe mu ndowo. Kufuma apo, thiranimo mchenga mpaka muzuzge.\\nPasono khuturani
+  mchenga na malibwe ghara pa malo ghawemi. Kufuma apo, yambani ku\u0175ika mchenga
+  mu ndowo na kumalizgira na malibwe. Mwawona kuti pasono mu ndowo mulije malo ghakukwana
+  ghakuti malibwe ghose ghanjire chifukwa mwambira ku\u0175ikamo mchenga.\\nKasi tikusambirapo
+  vichi apa? Baibolo likuti: \u201cMusande ivyo ni vinthu vyakuzirwa chomene.\u201d
+  (\u0174afilipi 1:10) Para muku\u0175ika vinthu vichokovichoko nga, vyakusanguluska
+  pa malo ghakwamba, mungasanga yayi nyengo yakuchitira vinthu vyauzimu ivyo ni vyakuzirwa
+  chomene. Kweni para mukulondezga ulongozgi wa mu Baibolo uwo wuli pa \u0174afilipi
+  1:10, munga\u0175a na nyengo yakwana yakuchitira vinthu vyauzimu kweniso vyakusanguluska.
+  Kweni kuti ivi vichitike, vikuthemba pa vinthu ivyo mwasankha ku\u0175ika pa malo
+  ghakwamba.\\n[Chithuzithuzi]\\nPara mwapanda lu\u0175a mu nyumba mukwenera kulipwelelera
+  kuti likure makora, ndimo viliso na ubwezi winu na Chiuta\"", "\"Kumbi Bayibolo
+  Lisambizanji Weniukongwa?\\nIli ndi buku lakusambiriya Bayibolu ndipu likulembeka
+  kuti likuwovyeni kuzi\u0175a vo Bayibolu likamba pa nkhani zakupambanapambana nge
+  yakuti nchifukwa wuli tisuzgika, nchinthu wuli chichitika asani tafwa, kumbi tingachita
+  wuli kuti banja lidu lije lalikondwa ndipuso nkhani zinyaki zinandi.\\nMungajifumba
+  kuti nchifukwa wuli pacharu pe masuzu nganandi viyo mazu\u0175a nganu? Kumbi muzi\u0175a
+  kuti Bayibolu likamba kuti vinthu visinthengi ndipu namwi mungayanduwa?\\nMUTU 11\\n\u0174anthu
+  anandi awona kuti Chiuta ndiyu wachitisa masuzgu ngo tikumana nangu. Imwi muwona
+  wuli? Chiuta wakonkhoska vifukwa vo tisuzgikiya, \u0175erengani vifukwa venivi m\u2019mutu
+  uwu.\\nFUNDU ZAKUKUMALIYA\\nZina laku Chiuta likutuzikamu m\u2019Mabayibolu nganyaki.
+  Chifukwa wuli? Kumbi kugwirisiya ntchitu zina laku Chiuta nkhwakukhumbika?\\nFUNDU
+  ZAKUKUMALIYA\\nKweche vyaka 500, Chiuta wanguzumbuliya limu chaka cho Mesiya waziziyanga.
+  Zi\u0175ani vakukwasana ndi uchimi wakukhumbika wenuwu!\\nFUNDU ZAKUKUMALIYA\\nYesu
+  wangufiska mauchimi ngosi nga m\u2019Bayibolu ngakukwasana ndi Mesiya. Simikiziyani
+  m\u2019Bayibolu linu kuti muwoni asani mauchimi yanga ngangufisika nadi ndendende.\\nFUNDU
+  ZAKUKUMALIYA\\nAkhristu akulamulika kuti achitengi mwambu wa Chikumbusu cha nyifwa
+  yaku Khristu. Kumbi mwambu wenuwu utenere kuchitika wuli ndipuso zukwanji?\\nFUNDU
+  ZAKUKUMALIYA\\n\u0174anthu anandi a\u0175ana\u0175ana kuti asani munthu wafwa chinthu
+  chinyaki chituwamu mu li\u0175avu laki ndipu chitachija ndi umoyu kunyaki. Kumbi
+  mazu ngaku Chiuta ngatiti wuli?\\nFUNDU ZAKUKUMALIYA\\nM\u2019Mabayibolu nganyaki
+  akugwirisiya ntchitu mazu ngakuti \u201cmuunda\u201d pamwenga \u201chelu\u201d m\u2019malu
+  mwa Shelo ndi Hadesi. Kumbi mazu ngenanga ngang\u2019anamuwanji?\\nFUNDU ZAKUKUMALIYA\\nBayibolu
+  likamba vakukwaskana ndi mungeru munyaki wanthazi ukongwa. Zi\u0175ani vinandi vakukwaskana
+  ndi mungelu mwenuyu kweniso ntchitu yo iyu wagwira sonu.\"", "\"Ivyo Baibolo likuyowoya\\nMunthu
+  waliyose wali na zina. Chiuta nayo wali na zina. \u0174anthu awo \u0175ali paubwezi
+  \u0175akuchemana mazina. \u0174abwezi \u0175a Chiuta \u0175akwenera kuzunura zina
+  lake.\\nChiuta wakuti: \u201cIne ndine Yehova; ili ndilo zina lane.\\n\u201d (Yesaya
+  42:8) Chiuta wali na mazina ghanandi gha vithokozo, nga ni \u2018Chiuta Wankhongonozose,\\n\u2019
+  \u201cFumu Yikuru,\\n\u201d na \u201cMlengi\\n.\u201d Kweni wakukhumba kuti \u0175anthu
+  awo \u0175akumusopa \u0175azunurenge zina lake.\u2014Genesis 17:1; Milimo 4:24;
+  1 Petrosi 4:19.\\nMu Mabaibolo ghanandi zina la Chiuta likusangika pa Exodus 6:3.
+  Baibolo likuti: \u2018Nkhawoneka kwa Abraham, kwa Isaac, na kwa Jacob nga ndi Chiuta
+  Wankhongonozose, kweni nkhamanyikwa chara kwa iwo na zina lane Yehova.\\n\u2019\\nMu
+  Mabaibolo ghanandi zina lakuti Yehova lilimo. \u0174anthu \u0175anyake \u0175akulemba
+  kuti \u201cYahweh,\u201d kweni \u0175anandi \u0175akulemba kuti Yehova. Mabuku gha
+  Genesis m\u2019paka Malaki, ghakalembeka mu Chihebere. Paku\u0175erenga Chihebere
+  \u0175akufuma kumalyero kuluta kumazere. Mu Chihebere zina la Chiuta likulembeka
+  nthe \u05d9\u05d4\u05d5\u05d4. Zina ili lingalembekaso nthe YHWH.\"", "\"CHIGONGWI
+  CHA ALINDA\\nCHIGONGWI CHA ALINDA (peji lakumaliya)\\nFumbu: Anyaki a\u0175ana\u0175ana
+  kuti Ufumu waku Chiuta we mumtima wa munthu ndipu anyaki a\u0175ana\u0175ana kuti
+  ndi vo \u0175anthu achita kuti pacharu paje chimangu. Kumbi imwi mu\u0175ana\u0175ana
+  wuli?\\nLemba: Dan. 2:44\\nGa\u0175iyani: Mwakukoliyana ndi vo Bayibolu likamba,
+  Ufumu waku Chiuta ndi boma chayilu. Magazini iyi yikonkhosa so vinthu vinyaki vo
+  Bayibolu likamba vakukwasana ndi Ufumu waku Chiuta.\\nSAMBIZANI UNENESKA\\nLEMBANI
+  VO MWANOZEKE KUCHIKAMBA\\nGwiriskiyani ntchitu vakuyeruzgiyapu vo valembeka pakulemba
+  vo mwanozgeke kuchikamba.\"", "\"Wona! Ngara\u0175a yili mu suzgo! Yikusweka! Kasi
+  wawona \u0175anthu awo \u0175adukira mu maji? \u0174anyake \u0175afika kale pa mtunda.
+  Kasi Paulosi walipo? Tiye tiwone vinthu ivyo vikamucitikira.\\nKumbukira kuti, kwa
+  vilimika vi\u0175iri, Paulosi wa\u0175a mu jere mu msumba wa Kesareya. Pa nyengo
+  yinyake, iyo na \u0175akayidi \u0175anyake \u0175aphalirika kuti \u0175anjire mu
+  ngara\u0175a na kwamba ulendo wakuya ku Roma. Apo \u0175akajumphanga pafupi na cirwa
+  ca Kirete, cimphepo cikuru cika\u0175asuzga. Cimphepo cikaputa comene mwakuti \u0175analume
+  \u0175akatondekanga kwendeska ngara\u0175a. \u0174akatondekanga kuwona dazi nyengo
+  ya muhanya panji kuwona nyenyezi nyengo ya usiku. Pamanyuma pa mazu\u0175a ghanandi,
+  \u0175anthu awo \u0175akakwera ngara\u0175a \u0175akakayika kuti \u0175aponoskekenge.\\nPaulosi
+  wakayimilira na kuyowoya kuti: \u2018Palije uyo wafwenge, ngara\u0175a pera ndiyo
+  yibwangandukenge. Cifukwa usiku wajumpa mungelo wa Ciuta wakiza kwa ine na kuniphalira
+  kuti, \u201cKopa yayi Paulosi; ukwenera iwe kwimilira panthazi pa Kesare, muwusi
+  wa Roma; Ciuta waponoskenge wose awo u\u0175enge nawo mu ngara\u0175a.\u2019 \u201d\\nCa
+  pakati pa usiku wa zu\u0175a la fotini (14) kufuma apo cimphepo cikayambira, awo
+  \u0175akakwera ngara\u0175a \u0175akamanya kuti apo \u0175aka\u0175a paka\u0175a
+  pakunjira comene yayi! Cifukwa ca wofi wakuti \u0175angaganda malibwe pakuti kuka\u0175a
+  mdima, \u0175akaponya vyakwimikira ngara\u0175a pa maji. Kukati kwaca, mtunda ukawoneka.
+  Antheura \u0175akakhumba comene kuti \u0175akafike pa mtunda para.\\n\u0174akati
+  \u0175aneng\u2019enera kufika pa mtunda, ngara\u0175a yikaganda ciduli ca mcenga
+  ndipo yikaphatira penepapo. Majigha ghakamba kutimba ngara\u0175a, ndipo yikamba
+  kusweka tuviduswa tucokotucoko. Msilikari wakayowoya kuti: \u2018Mose imwe mukumanya
+  kusyamba ndimwe mwambe kudukira mu nyanja kuti mukafike ku mtunda. Ndipo imwe mwakhalapo
+  namwe mujiponye mu nyanja, ndipo mukoreske vibenthu vya ngara\u0175a.\u2019 \u0174akacita
+  mwakulondezga ivyo \u0175akaphalirika. Mwa nthowa iyi, \u0175anthu wose \u0175akukwana
+  276 awo \u0175aka\u0175a mu ngara\u0175a \u0175akafika pa mtunda makoraghene, vikayana
+  ndendende na umo mungelo wakayowoyera.\\nCirwa ici cikucemeka Melita. \u0174anthu
+  \u0175a pa cirwa ici \u0175aka\u0175a \u0175alusungu comene, \u0175akapwelelera
+  wose awo \u0175akafuma mu ngara\u0175a. Apo cimphepo cikati cazika, Paulosi \u0175akamukwezga
+  mu ngara\u0175a yinyake ndipo \u0175akaluta nayo ku Roma.\\nMilimo 27:1-44; 28:1-14.\\nMafumbo\\n-
+  Kasi nchivici ico cikacitikira ngara\u0175a iyo Paulosi wakakwera apo yikajumphanga
+  pafupi na cirwa ca Kirete?\\n- Kasi Paulosi waka\u0175aphaliraci \u0175anthu awo
+  \u0175aka\u0175a mu ngara\u0175a?\\n- Nchivici ico cikapangiska kuti ngara\u0175a
+  yisweke?\\n- Kasi ni ulongozgi wuli uwo msilikari wakayowoya, ndipo ni \u0175anthu
+  \u0175alinga awo \u0175akafika pa mtunda?\\n- Kasi zina la cirwa ico \u0175akafikapo
+  ni vici, ndipo nchivici cikamucitikira Paulosi apo cimphepo cikati cazika?\\nMafumbo
+  ghanyake\\n- \u0174azgani Milimo 27:1-44.\\nKasi tikukhozgeka wuli para tikuwona
+  unenesko wa nkhani izo zili kulembeka mu Baibolo zakukhwaskana na ulendo wa Paulosi
+  wakuya ku Roma? (Mil. 27:16-19, 27-32; Luka 1:3; 2 Tim. 3:16, 17)\\n- \u0174azgani
+  Milimo 28:1-14.\\nUsange \u0175anthu \u0175ambura kusopa \u0175a ku Melita \u0175akapokelera
+  makora Paulosi na \u0175anyake awo ngala\u0175a yika\u0175aswekera na \u2018ku\u0175akora
+  na lusungu lukuru,\u2019 kasi \u0174akhristu \u0175akuciskika kuti \u0175alongore
+  vici, ndipo mwauli? (Mil. 28:1, 2; Heb. 13:1, 2; 1 Pet. 4:9)\"", "\"Daress waposita
+  foto yake kuwoneska uwemi wa sukulu ndipo kwa iye nkhani za ufwiti wandazipulikepo.\\n\u201cIwe
+  Admin vakuti kuli ufwiti panji \u0175anyake \u0175ana masalamusi nkhuwona ngeti
+  nkhuchepa kwa masambilo kusazgana na ukavu\u201d\\n\u201cPala munthu wakulila ku
+  mizi mbwenu nkhani zake ziku\u0175a zene zizi izi chifukwa imwe palije icho mungabekaso
+  chinyake kuluska mphazi, sungununu, vindundu, nyengo zinyake mbwenu muliskepo ng\u2019ombe,
+  mbuzi, mbelele, kwali mbwenu musinthe vakuvwala muvwalepo malaya yala yakuchemeka
+  kuti nyifwa yili nkhuni\u201d\\nMwawona sono kuti mukusu\u0175ilila na vinthu va
+  ziiiiii mumalo mwakuti muganizenge ivo vingatukula umoyo winu. Mbwenu pawumalilo
+  muli angana \u0175anilowa.\\nTumizga Admin nilindizgenge ma comment pano.\"", "\"AWONA
+  boti lo lasweke m\u2019nyanja. Kumbi uti\u0175awona \u0175anthu wo \u0175e m\u2019maji
+  mo? Anyaki afika kali kumtunda. Kumbi wamuwona Paulo yo? Tiyi tiwoni vo vamuchitikiyanga.\\nKumbuka
+  kuti Paulo wanguja m\u2019jeri vyaka vi\u0175i ku Kaisarea. Pavuli paki, iyu ndi
+  akayidi anyaki angukwera boti ndipu angwamba ulendu wakuluta ku Roma. Sonu achijumpha
+  pafupi ndi chilumba cha Krete, kungwamba chimphepu chikulu chakofya. Chimphepu chingulutirizga
+  mbwenu ndipu \u0175anthu angutondeka kwendeska umampha boti. Ndipu ndi msana lumwi
+  aliwonanga cha, kweniso usiku nyenyezi aziwonanga cha. Sonu pati pajumpha mazu\u0175a
+  nganandi, \u0175anthu wosi wo \u0175enga mu boti angufipa mtima kuti apozomokengi
+  cha.\\nSonu Paulo wangusoka ndipu wangukamba kuti: \u2018Palivi yo watayengi umoyu
+  waki kweni boti pe ndilu liswekengi. Pakuti usiku, m\u2019ngelu waku Chiuta wanguza
+  ndipu wangundikambiya kuti: \u201cUngawopanga cha Paulo! Utenere kuchima pamasu
+  paku Kaisare, fumu ya Roma. Ndipu Chiuta wapozomoskengi iwi limoza ndi wo wenawu.\u201d\u2019\\nPazu\u0175a
+  la nambala 14 nyengu ye pafupi kukwana 12 koloku usiku, kutuliya po chimphepu chingwambiya,
+  akwendeska boti angwamba kuwona kuti \u0175enga pafupi kufika kumtunda. Sonu chifukwa
+  cha kuwopa kuti angachitchayiska boti mu mya ndi usiku, yiwu angwamba kusiska ndondowa.
+  Ndipu kwati kwacha anguwona dowoku. Sonu yiwu angu\u0175ana\u0175ana kuti ayesi
+  kwendeska boti kuti akafiki padowoku.\\n\u0174e pafupi kufika kumtunda, boti linguphata
+  m\u2019chimbumila cha mchenga. Pavuli paki, mayi\u0175a ngangwamba kupuma boti ndipu
+  lingwamba kusweka. Ndipu kapitawu wa asilikali wangukamba kuti: \u2018Yosi yo wazi\u0175a
+  kusambira wadukiyi m\u2019maji ndipu wasambiri kuchifika kumtunda. Imwi muleka kuzi\u0175a
+  kusambira namwi muduki ndipu muko vimathabwa vo vasweka ku boti ili.\u2019 Ndipu
+  ivi ndivu anguchita. Sonu \u0175anthu wosi 276 wo \u0175enga mu boti anguchifika
+  umampha ku mtunda nge po mungelu wangulayizgiya.\\nChilumba ichi chadanikanga kuti
+  Malta. \u0174anthu a pachilumba ichi \u0175enga amampha ukongwa ndipu yiwu anguphwere
+  \u0175anthu wo \u0175enga mu boti. Sonu mphepu yati yagowoka, Paulo angumukweza
+  mu boti linyaki ndipu anguluta nayu ku Roma.\\nMachitidu 27:1-44; 28:1-14.\\nMafumbu\\n-
+  Kumbi nchinthu wuli chinguchitikiya boti lo Paulo wangukwera panyengu yo lajumphanga
+  pafupi ndi chilumba cha Krete?\\n- Kumbi Paulo wangu\u0175akambiyanji \u0175anthu
+  wo \u0175enga mu boti?\\n- Kumbi nchinthu wuli chinguchitika kuti boti lisweki?\\n-
+  Kumbi kapitawu wa asilikali wangukamba kuti \u0175anthu achitenji, nanga mbanthu
+  alinga wo angufika umampha kumtunda?\\n- Kumbi chilumba cho angufikiyapu chadanikanga
+  kuti wuli, ndipu nchinthu wuli chinguchitikiya Paulo mphepu yati yagowoka?\\nMafumbu
+  ngakusazgiyapu\\n- \u0174erenga Machitidu 27:1-44.\\nKumbi chigomezgu chidu pankhani
+  zauneneska zo zikulembeka m\u2019Bayibolo chikuwa wuli asani ti\u0175erenga nkhani
+  ya ulendu waku Paulo wakuluta ku Roma? (Machi. 27:16-19, 27-32; Luka 1:3; 2 Timo.
+  3:16, 17)\\n- \u0174erenga Machitidu 28:1-14.\\nAsani \u0175anthu ambula kusopa
+  Chiuta wo ajanga pachilumba cha Malta anguwovya Paulo ndi anyaki wo wangubira nawu
+  limoza mwa \u2018ku\u0175achitiya lisungu lapade,\u2019 kumbi Akhristu atenele kuchitanji
+  kweniso munthowa wuli? (Machi. 28:1, 2; \u0174ahe. 13:1, 2; 1 Pet. 4:9)\"", "\"Kenneth
+  David Kaunda GCIH SCOT (28 Epulero, 1924 - 17 Juni, 2021),[1] Wakuchemekaso KK,[2]monga
+  wandale wa ku Zambia uyo waka\u0175a purezidenti wakwamba wa Zambia kufuma 1964
+  mpaka 1991. Waka\u0175a panthazi chomene pakulwera wanangwa wa \u0175anthu. Wakakondwa
+  yayi na umo Harry Nkumbula wakalongozgera Northern Rhodesian African National Congress,
+  ndipo wakafumako na kukhazikiska Zambia African National Congress, ndipo pamanyuma
+  wakazgoka mutu wa Socialist United National Independence Party (UNIP).\\nKaunda
+  waka\u0175a pulezidenti wakwamba wa Zambia. Mu 1973, pamanyuma pa vivulupi vya mafuko
+  na vyaru vinyake, vyaru vyose vya ndyali kupatulako UNIP vikakanizgika kwizira mu
+  kusintha kwa dango la boma pamanyuma pa kusazgirako Chima Declaration. Pa nyengo
+  yeneyira, Kaunda wakala\u0175iliranga kugura masheya ghanandi mu makampani ghakufuma
+  ku vyaru vinyake. Cifukwa ca suzgo la mafuta ilo likacitika mu 1973 na kunangika
+  kwa ndalama izo \u0175anthu \u0175akasanganga para \u0175akuguliska vinthu ku vyaru
+  vinyake, Zambia yika\u0175a mu suzgo la vya cuma. \u0174anthu \u0175a mitundu yose
+  \u0175akamucicizga Kaunda kuti wasinthe malango agho ghakamovwira kuti walutilire
+  kuwusa. Mu 1991, paka\u0175a mavoti gha vyaru vinandi, ndipo Frederick Chiluba,
+  mulongozgi wa Movement for Multi-Party Democracy, wakawuskapo Kaunda.\\nMu 1999,
+  wakawuskika wanangwa wake wa kukhala mu Zambia, kweni wakawuskako wanangwa uwu mu
+  chaka chakulondezgapo.[3]\\nMbili ya umoyo[lemba | kulemba source]\\nKenneth Kaunda
+  wakababika pa 28 April 1924.[4]ku Lubwa Mission ku Chinsali, ku Northern Rhodesia,
+  sono ku Zambia,[5] Mu banja lithu tika\u0175amo \u0175ana 8 ndipo ine nkha\u0175a
+  waumaliro. Awiske, Reverend David Kaunda, \u0175aka\u0175a mishonale kweniso msambizgi
+  wa Church of Scotland, uyo wakababikira ku Nyasaland (uko sono ni Malawi) ndipo
+  wakasamira ku Chinsali, kukagwira nchito ku Lubwa Mission. Amama \u0175ake \u0175aka\u0175a
+  \u0175asambizgi ndipo \u0175aka\u0175a mwanakazi wakwamba wa ku Africa kusambizga
+  mu Northern Rhodesia. Wose \u0175aka\u0175a \u0175asambizgi \u0175a fuko la Bemba
+  ilo lili kumpoto kwa Zambia. Awiske \u0175akafwa apo Kenneth waka\u0175a mwana.
+  Apa ndipo Kenneth Kaunda wakasambilira m''paka m''ma 1940. Pamasinda wakalondezga
+  mendero gha \u0175apapi \u0175ake na ku\u0175a msambizgi; pakwamba ku Northern Rhodesia
+  kweni pakati pa m''ma 1940 wakasamira ku Tanganyika Territory (sono ni Tanzania).
+  Wakagwiraso nchito ku Southern Rhodesia. Wakasambira ku Munali Training Centre ku
+  Lusaka pakati pa 1941 na 1943. Kukwambilira kwa umoyo wake, waka\u0175azga mabuku
+  gha Mahatma Gandhi agho wakati \\\"ghakanikhwaska comene\\\".\\nKaunda waka\u0175a
+  msambizgi pa sukulu ya Upper Primary School na Boarding Master ku Lubwa ndipo pamanyuma
+  wakaba Headmaster ku Lubwa kufuma mu 1943 mpaka 1945. Wakagwira nchito ku migodi
+  ya Salisbury na Bindura. Kukwambilira kwa 1948, wakazgoka msambizgi mu Mufulira
+  ku United Missions to the Copperbelt (UMCB). Kufuma apo, waka\u0175a movwiri wa
+  wupu wakuwona vya umoyo wa \u0175anthu ku Africa na msambizgi wa sukulu ya migodi
+  ku Mufulira. Pa nyengo iyi, wakalongozganga gulu la \u0175awukirano ndipo waka\u0175a
+  mulongozgi wa gulu la \u0175akwimba mu mpingo wa Church of Central Africa. Waka\u0175aso
+  Vice-Secretary wa Mpingo wa Nchanga.[6]\\nNkhondo ya kujithemba na kuwusa[lemba
+  | kulemba source]\\nMu 1949, Kaunda wakanjira mu ndyali ndipo waka\u0175a yumoza
+  wa awo \u0175akambiska Northern Rhodesian African National Congress. Pa 11 November
+  1953 wakasamira ku Lusaka kuti waka\u0175e Secretary General wa African National
+  Congress (ANC), pasi pa muwuso wa Harry Nkumbula. Kaunda na Nkumbula \u0175akatondeka
+  kusonkhaniska \u0175anthu \u0175a ku Africa kuti \u0175awukire charu cha Rhodesia
+  na Nyasaland. Mu 1955, Kaunda na Nkumbula \u0175akakakika kwa myezi yi\u0175iri
+  cifukwa ca kuga\u0175ira mabuku ghakwambukira boma. \u0174alongozgi \u0175a\u0175iri
+  a\u0175a \u0175akapatukana apo Nkumbula wakakhwaskika chomene na \u0175anthu \u0175atu\u0175a
+  ndipo wakatondeka kuvikilira \u0175anthu \u0175a ku Africa, Kuanda wakalongozga
+  gulu la \u0175anthu \u0175akususkana na Nkumbula ilo pamasinda likamazga ubwezi
+  na ANC ndipo wakambiska chipani chake, Zambia African National Congress (ZANC) mu
+  Okutobala 1958. ZANC yikakanizgika mu Malichi 1959 ndipo mu Kaunda wakalangika kuti
+  wakhale mu jele myezi yinkhondi na umoza.[7]\\nApo Kaunda waka\u0175a mu jele, Mainza
+  Chona na \u0175anthu \u0175anyake awo \u0175akakhumbanga kuti vinthu vyende makora
+  \u0175akafumamo mu ANC, ndipo mu Okutobala 1959, Chona waka\u0175a pulezidenti wakwamba
+  wa United National Independence Party (UNIP). Ndipouli, Chona wakajiwonanga kuti
+  ni mweneko wa chipani yayi. Apo Kaunda wakafumanga mu jele mu 1960 wakasankhika
+  ku\u0175a pulezidenti wa UNIP. Mu 1960 wakaluta kukawona Martin Luther King Jr.
+  ku Atlanta ndipo pamanyuma, mu Julayi 1961, Kaunda wakambiska kampeni ya kuleka
+  kupulikira mu Northern Province, iyo yikamanyikwanga kuti kampeni ya Cha-cha-cha,
+  iyo yikang''anamuranga kunjizga moto na kujandizga misewu yikuruyikuru. Kaunda wakaluta
+  ku mavoti gha UNIP mu chaka cha 1962. Ivi vikapangiska kuti pa\u0175e boma la wupu
+  wa UNIPANC, ndipo Kaunda waka\u0175a nduna ya boma na umoyo wa \u0175anthu. Mu Janyuwale
+  1964, UNIP yikathereska \u0175alwani \u0175awo \u0175a ANC na kusanga Kaunda ku\u0175a
+  nduna yikuru. Pa 24 Okutobala 1964 wakazgoka purezidenti wakwamba wa Zambia wakujiyimira
+  yekha, ndipo wakasankha Reuben Kamanga ku\u0175a wachi\u0175iri wake.[8]\\nEducational
+  policies[lemba | kulemba source]\\nPa nyengo iyo Zambia yikapokera wanangwa wake,
+  mulimo wake wa kunozga vinthu uka\u0175a kuti undamalizgike. Pa vyaru ivyo vika\u0175a
+  pasi pa Britain, caru ici cika\u0175a na masambiro ghapacanya comene. Mu caru ici
+  muka\u0175a waka \u0175anthu 100 awo \u0175akamalizga masambiro ghapacanya. Cifukwa
+  ca ici, Zambia yikakhumbikwiranga ku\u0175ika ndalama zinandi pa masambiro gha viga\u0175a
+  vyose. Kaunda wakambiska ndondomeko yakuti \u0175ana wose, kwali \u0175apapi \u0175awo
+  \u0175angafiska kulipira, \u0175apikenge mabuku, mapepara, na maphesulu kwawanangwa.
+  \u0174apapi \u0175aka\u0175a na mulimo wa kugura yunifomu, kulipira \\\"tundalama\\\"
+  na kuwoneseska kuti \u0175ana \u0175akuluta ku sukulu. Fundo iyi yikang''anamuranga
+  kuti \u0175ana \u0175awemi comene ndiwo \u0175akalongozgekanga kuti \u0175afiske
+  vilato vyawo, kwambira ku pulayimale mpaka ku yunivesite. Mwaciyelezgero, ni \u0175ana
+  wose yayi awo \u0175akasambiranga masambiro ghapacanya, kweni awo \u0175akasambiranga
+  \u0175aka\u0175a \u0175akusambira comene.\\nYunivesite ya Zambia yikajulika mu Lusaka
+  mu 1966, pamanyuma pakuti \u0175anthu \u0175a ku Zambia \u0175akaciskika kuti \u0175apeleke
+  ndalama izo zinga\u0175awovwira pakuzenga yunivesite iyi. Kaunda wakasankhika ku\u0175a
+  Chancellor ndipo wakacitiska ungano wakwamba wa kumalizga masambiro mu 1969. Msumba
+  ukuru uka\u0175a pa Great East Road, apo msumba wa vyadokotala uka\u0175a ku Ridgeway
+  kufupi na University Teaching Hospital. Mu 1979, ku Zambia Institute of Technology
+  ku Kitwe, kukapangikaso sukulu yinyake. Mu 1988, sukulu ya Kitwe yikasinthika zina
+  na kucemeka Copperbelt University, ndipo yikamba kusambizga vya bizinesi, vyamakampani,
+  na vya cilengiwa. Masukulu ghanyake agho ghaka\u0175ako mu nyengo ya Kaunda ghaka\u0175a
+  gha masukulu gha masambiro gha ku sekondare ndipo ghaka\u0175a pasi pa Dipatimenti
+  ya Masambiro gha Ute\u0175eti. [Vinyake mwa vyaru ivi ni Evelyn Hone College na
+  Natural Resources Development College (vyose vili ku Lusaka), Northern Technical
+  College ku Ndola, [Pakukhumbika ukaboni apa] Livingstone Trades Training Institute
+  ku Livingstone, na makoleji ghakusambizga \u0175asambizgi.[9]\\nEconomic policies[lemba
+  | kulemba source]\\nBoma liphya la Kaunda likapokera caru ico nchimoza mwa vyaru
+  ivyo vika\u0175a na cuma cikuru comene mu caru ca Africa kumwera kwa Sahara, comenecomene
+  cifukwa ca malo agho ghaka\u0175a na visulo vinandi, nangauli ghaka\u0175a pasi
+  pa mazaza gha vyaru vinyake. Mwaciyelezgero, kampani ya British South Africa Company
+  (BSAC, iyo yikazengeka na Cecil Rhodes) yika\u0175a kuti yicali na katundu wa malonda
+  ndiposo wanangwa wakuzenga vinthu vyakuthupi ivyo yikasanga cifukwa ca phangano
+  ilo yikacita na Litunga wa ku Bulozi mu 1890. Waka\u0175a Kaunda pera uyo wakawoneseska
+  kuti boma la BSAC limupokelere.\\nCifukwa cakuti wakacitanga makora yayi vinthu
+  vya cuma, caru cake cikalutilira kukura. Nangauli Kaunda waka\u0175a na minda yiwemi
+  comene mu Africa, kweni nayo wakacitanga vinthu nga ni Tanzania.\\nPakughanaghana
+  za kuzenga vyaru vyakupambanapambana, Zambia yikambiska pulogiramu ya vyaru vyakupambanapambana,
+  mwakulongozgeka na National Commission for Development Planning, iyo yikambiska
+  \\\"Transitional Development Plan\\\" na \\\"First National Development Plan\\\".
+  Vinthu vi\u0175iri ivi vikawovwira kuti pa\u0175e ndalama zinandi mu viga\u0175a
+  vya vyakuzenga na kupanga vinthu. Mu Epulero 1968, Kaunda wakambiska ndondomeko
+  ya Mulungushi Reforms, iyo yikakhumbanga kuti mabungwe gha vyaru vinyake gha mu
+  Zambia gha\u0175e pasi pa boma. Mu vilimika vyakulondezgapo, mabungwe ghanandi gha
+  migodi ghaka\u0175a gha boma, nangauli mabanki gha mu caru ici, nga ni Barclays
+  na Standard Chartered, ghaka\u0175a gha \u0175anthu \u0175akufuma ku vyaru vinyake.
+  Vinthu vikasintha mu Zambia mu 1973 apo mitengo ya mafuta yikakwera ndipo mku\u0175a
+  ukakhira. Charu ichi chika\u0175a na ngongoli zinandi na International Monetary
+  Fund (IMF), ndipo ndondomeko yacitatu ya vyakuzenga yikaleka kugwira nchito cifukwa
+  cakuti ndondomeko ya nyengo yitali yikanjira m''malo mwa ndondomeko ya suzgo. Ivyo
+  wakachita kuti wasinthe vinthu pa nkhani ya vyachuma mu ma 1980 vikapangiska kuti
+  vinthu vifike paheni chomene mu Zambia. Pamasinda, Kaunda wakadumbiskana na wupu
+  wa IMF, ndipo mu 1990 wakachichizgika kuti waguliske vinthu vinyake vya boma. Paumaliro,
+  masuzgo gha vya cuma ghakamupangiska kuti waleke kuwusa.[10][11]\\nBoma la chipani
+  cimoza na \\\"cisopa ca ku Africa\\\"[lemba | kulemba source]\\nMu 1964, pambere
+  charu chindambe kujiyimira pa\u0175ekha, pakawuka vivulupi pakati pa \u0175alondezgi
+  \u0175a mpingo wa Lumpa, awo \u0175akalongozgekanga na Alice Lenshina. Kaunda wakazomerezga
+  yayi kuti tchalitchi ili li\u0175epo, ndipo wakalangura kuti Lumpa wakoleke.\\nPulezidenti
+  wa Malawi Hastings Banda wakumana na Kaunda\\nKwambira mu 1964, boma la Kaunda likamba
+  ku\u0175a na mazaza. Kaunda wakazomerezga yayi vyaru vinyake padera pa UNIP. Ndipouli,
+  mu 1972, wakasangana na suzgo liphya apo Simon Kapwepwe wakafumamo mu UNIP ndipo
+  wakasanga chipani chinyake, cha United Progressive Party, icho Kaunda wakayezga
+  kukanizga. Kufuma apo, wakasora Komiti ya Chona, iyo yikapangika na Mainza Chona
+  mu Febuluwale 1972. Mulimo wa Chona uka\u0175a wakupeleka ulongozgi wa dango liphya
+  la Zambia ilo lingapangiska kuti caru ci\u0175e na chipani cimoza. Komiti iyi yikazomerezgekanga
+  yayi kudumbiskana ivyo Kaunda wakabuda, kweni yikadumbiskana waka fundo zakukhwaskana
+  na kusintha kwa boma la chipani chimoza. Paumaliro, Kaunda wakawuskapo Nkumbula
+  mwa kumupangiska kuti wanjire UNIP na kuzomera Choma Declaration pa 27 June 1973.
+  Pa Ogasiti 25 mu chaka chenechichi, \u0175akalemba dango liphya. Pa mavoti ghakwamba
+  agho ghakacitika mu Disembala, Kaunda ndiyo waka\u0175a yekha wakwimilira.\\nPakuti
+  \u0175akususka wose \u0175akamara, Kaunda wakazomerezga kuti \u0175anthu \u0175ambe
+  kusopa \u0175anthu \u0175ambura kwenelera. Wakamba kulondezga fundo za chisopa icho
+  chikachemekanga kuti Zambia Humanism. Fundo iyi yikajintha pa fundo za pakati pa
+  vyaka vya m''ma 1900 zakukhwaskana na kunozgekera vinthu na boma kweniso ivyo iyo
+  wakawonanga kuti ni fundo za mu Africa: wovwiri, kugomezgana, na kugomezgeka ku
+  \u0175anthu. Kwame Nkrumah (\\\"Consciencism\\\") ndiyo wakambiska fundo zakuyana
+  na izi mu Ghana, ndipo Julius Nyerere (\\\"Ujamaa\\\") ndiyo wakambiska fundo iyi
+  mu Tanzania. Kuti walongosore makora maghanoghano ghake, Kaunda wakalemba mabuku
+  ghanandi: Humanism in Zambia and a Guide to its Implementation, Parts 1, 2 na 3.
+  Mabuku ghanyake ghakulongosora vya \u0175anthu \u0175a ku Zambia ni: Fundamentals
+  of Zambian Humanism, by Timothy Kandeke; Zambian Humanism, religion and social morality,
+  by Rev. Fr. Cleve Dillion-Malone, S.J., and Zambian Humanism: some major spiritual
+  and economic challenges, by Justin B. \u0174azulu. Kaunda on Violence (zina la ku
+  United States lakuti The Riddle of Violence) likalembeka mu 1980.\\nPaku\u0175a
+  purezidenti wa UNIP, ndipo pasi pa boma la chipani chimoza, Kaunda waka\u0175a yekha
+  uyo wakasankhika ku\u0175a purezidenti wa charu mu mavoti gha 1978, 1983, na 1988,
+  nyengo yiliyose na ma results gha boma agho ghakulongora kuti \u0175anthu \u0175akujumpha
+  80 peresenti \u0175akakolerana nayo. Kaunda ndiyo wakalamuliranga pa nyengo ya maungano
+  gha pa caru cose. Mu mavoti gha UNIP mu 1978, Kaunda wakasintha malango gha chipani
+  ichi kuti wa\u0175ikemo malango agho ghakazomerezganga yayi \u0175anthu awo \u0175akasuskanga:
+  Kapwepwe wakaphalirika kuti wangasankha yayi chifukwa \u0175anthu awo \u0175aka\u0175a
+  mamembala kwa vyaka vinkhondi pera ndiwo \u0175angasankhika ku\u0175a pulezidenti
+  (wakawelera waka ku UNIP vyaka vitatu kumasinda).[12]\\nNdondomeko ya vyaru vinyake[lemba
+  | kulemba source]\\nPa nyengo iyo waka\u0175a pulezidenti, Kaunda wakakhozganga
+  chomene gulu lakususkana na apartheid ndipo wakasuskanga muwuso wa \u0175anthu \u0175atu\u0175a
+  ku Southern Rhodesia. Nangauli boma lake likakanizga kugwiliskira nchito migodi
+  ya mkuwa mu vyaka vya m''ma 1960 na kusinthasintha kwa mitengo ya mkuwa pa caru
+  cose, kweni vinthu vikasazgikira cifukwa ca wovwiri wake ku magulu gha \u0175anthu
+  \u0175a mitundu yinyake mu Rhodesia, South West Africa, Angola, na Mozambique. Boma
+  la Kaunda likayezga kuti li\u0175e mupayiniya pakati pa maboma gha \u0175azungu
+  na maboma gha \u0175akoloni. Kwamba mu ma 1970, wakayamba kuzomerezga mabungwe gha
+  banthu \u0175akumanyikwa chomene, nga ni ZANU ya ku Rhodesia na African National
+  Congress, kugwiliskira nchito Zambia nga ni malo ghawo ghakucitira milimo yawo.
+  Oliver Tambo, uyo kale waka\u0175a pulezidenti wa ANC, wakakhala vyaka vinandi ku
+  Zambia. Joshua Nkomo, mulongozgi wa ZAPU, nayo wakazenga misasa ya \u0175asilikari,
+  nga ni umo wakacitira SWAPO na gulu lake la \u0175asilikari, la People''s Liberation
+  Army of Namibia.[13]\\nMu vyaka 20 vyakwambilira vya muwuso wa Kaunda, iyo na \u0175abali
+  \u0175ake \u0175akayezgapo kanandi waka kusanga vilwero vya mazu\u0175a ghano ku
+  United States. Mu kalata iyo wakalembera pulezidenti wa ku America Lyndon B. Mu
+  1967, Kaunda wakafumba usange boma la United States lingamupa mabomba gha misili
+  ghatali. Pakukhumba vilwero vya mazu\u0175a ghano paka\u0175aso mabomba gha nyukiliya.
+  Boma la United States likakana kupempha vilwero vyamahara. Mu 1980, Kaunda wakagura
+  ndege 16 za MiG-21 ku Soviet Union, ndipo paumaliro United States yikakwiya. Kaunda
+  wakazgora ku United States, wakati wati watondeka kugura vilwero vinandi, kugura
+  ku Soviet kuka\u0175a kwaurunji cifukwa ca mulimo wake wa kuvikilira \u0175anthu
+  \u0175ake na kuvikilira wanangwa wa Zambia. Wakayezga kugura vilwero vya mazu\u0175a
+  ghano vya ku America kuti wawovwirepo pa ndyali.\\nKwambira mu Epulero 1975, apo
+  wakaluta kwa pulezidenti wa ku United States, Gerald Ford ku White House ku Washington,
+  D.C., na kuyowoya nkhani yankhongono yakuchiska kuti United States yi\u0175e na
+  mulimo wakuzirwa comene na wakukhozga \u0175anthu mu vyaru vya kumwera kwa Africa.
+  Kufika mu 1984, Kaunda waka\u0175a mulongozgi wa ku Africa uyo wakacitanga vinthu
+  vya ndyali pa nkhani ya nkhondo mu Angola, Rhodesia (Zimbabwe), na Namibia. Mu 1976,
+  Henry Kissinger wakaluta ku Zambia, ndipo wakakolerana makora na Jimmy Carter, kweniso
+  wakate\u0175eteranga lumoza na Chester Crocker, movwiri wa pulezidenti Ronald Reagan.
+  Nangauli paka\u0175a mphindano pakati pa Kaunda na \u0175alongozgi \u0175a ku United
+  States (nga ni apo Zambia yikagura ndege za Soviet za MiG panji apo yikapusikizgira
+  \u0175adipuloma \u0175a\u0175iri \u0175a ku America kuti mbapenjere), Kaunda waka\u0175a
+  na ubwezi uwemi na United States mu vyaka ivi.\\nPa Ogasiti 26, 1975, Kaunda wakacita
+  nga ni muphemaniski pamoza na nduna yikuru ya South Africa, B. J. Wakayama Vorster,
+  pa Ungano wa Victoria Falls kuti wadumbiskane na Ian Smith na \u0175anthu \u0175a
+  fuko la \u0175anthu \u0175abuluu za umo \u0175angamazgira suzgo la ku Southern Rhodesia.
+  Pamanyuma pa phangano la nyumba ya Lancaster, Kaunda wakayezgayezga kuti wa\u0175e
+  na mazaza ghakuyana waka ku South West Africa. Wakakumana na P. W. Botha ku Botswana
+  mu 1982 kuti \u0175akadumbiskane fundo iyi, kweni vikuwoneka kuti \u0175akatondeka
+  kucita makora.[14]\\nPa nyengo yeneyira, nkhondo izo \u0175anthu \u0175acoko\u0175acoko
+  \u0175akacitanga kumwera kwa Africa zikalutilira kunanga cuma ca Zambia cifukwa
+  boma la \u0175anthu \u0175acoko\u0175acoko \u0175aka\u0175a \u0175abwezi \u0175a
+  caru ici. Pakuzgora, Kaunda wakadumbiskana za nthowa ya TAZARA Railway (Tanzam)
+  iyo yikakhwaskananga Kapiri Mposhi mu Zambia Copperbelt na dowoko la Tanzania la
+  Dar-es-Salaam ku Indian Ocean. Msewu uwu ukamara kuzengeka mu 1975, ndipo ndiwo
+  uka\u0175a wekha uwo \u0175anthu \u0175akendangamo kwambura kuluta mu viga\u0175a
+  ivyo \u0175anthu \u0175azungu ndiwo \u0175akendangamo. Vinthu vika\u0175a makora
+  yayi kwa vyaka vyakujumpha 20, m''paka apo boma la apartheid likamalira mu South
+  Africa.\\nMu nyengo ya Nkhondo Yakuzizima, Kaunda wakakhozgera comene gulu la \u0175anthu
+  \u0175ambura kukolerana. Wakachitiska ungano wa NAM ku Lusaka mu 1970 ndipo waka\u0175a
+  mula\u0175iliri wa gulu ili kwambira mu 1970 m''paka 1973. Wakalutilira ku\u0175a
+  paubwezi na Josip Broz Tito, mulongozgi wa Yugoslav uyo waka\u0175apo nyengo yitali.
+  Wakalutaso na kupokelera pulezidenti wa ku Romania, Nicolae Ceau\u0219escu, mu ma
+  1970. Mu 1986, Yunivesite ya Belgrade, ku Yugoslavia, yikamupa digiri ya udokotala.[15]\\nKaunda
+  waka\u0175a na mphindano zinandi kweni zaubwezi na pulezidenti wa ku US Ronald Reagan
+  uyo wakakumana nayo mu 1983 na nduna yikuru ya Britain Margaret Thatcher comenecomene
+  cifukwa ca ivyo wakawona kuti ni kujara maso ku apartheid ya ku South Africa. Nyengo
+  zose waka\u0175anga paubwezi uwemi na \u0175anthu \u0175a ku China awo \u0175akawovwira
+  pa milimo yinandi mu Zambia, kusazgapo njanji ya Tazara.\\nPambere nkhondo yakwamba
+  ya ku Gulf yindambe, Kaunda waka\u0175a paubwezi na pulezidenti wa ku Iraq, Saddam
+  Hussein. Msewu unyake mu Lusaka ukacemeka kuti Saddam, kweni pamanyuma pake zina
+  ili likasinthika apo \u0175alongozgi \u0175a\u0175iri a\u0175a \u0175akaleka mazaza.\\nMu
+  Ogasiti 1989, Farzad Bazoft \u0175akamukaka mu Iraq cifukwa ca kusopa vige\u0175enga.
+  Waka\u0175a pamoza na nesi munyake wa ku Britain, Daphne Parish, uyo nayo wakakika.
+  Bazoft waka\u0175a mulembi wa nyuzipepara wakubabika ku Iran uyo wakayezga kuvumbura
+  umo Saddam wakakomera \u0175anthu \u0175anandi \u0175a ku Iraq. Pamanyuma pake Bazoft
+  wakeruzgika, wakakomeka, na kukomeka, kweni Kaunda wakafiska kufumiska mwanakazi
+  munyake.\\nKaunda waka\u0175a mulongozgi wa Organisation of African Unity (OAU)
+  kufuma mu 1970 mpaka 1971 ndipo kufuma mu 1987 mpaka 1988.[16]\\nKuleka mazaza[lemba
+  | kulemba source]\\nMu 1990, vinthu vikasintha comene. Mu Julayi, pakati pa mazu\u0175a
+  ghatatu gha vivulupi mu msumba wa Kaunda, Kaunda wakapharazga kuti pa Okutobala
+  kuzamucitika referendum ya usange maboma ghanyake ghazomerezgekenge. Ndipouli, wakayowoya
+  kuti UNIP ndiyo yikwenera ku\u0175a na mazaza pa nkhani iyi. Pakajumpha maora ghacoko
+  waka, ndipo mulara wa \u0175asilikari uyo wakakwiya nayo wakaluta pa wayilesi kuti
+  wakapharazge kuti Kaunda wapokeka. Kuyezga kupoka boma kukamara pati pajumpha maora
+  ghatatu panji ghanayi, kweni cika\u0175a cakumanyikwa kuti Kaunda na UNIP \u0175akagongowa.
+  Kaunda wakayezga kukhozga \u0175akususka mwa kusamuskira referendum mu Ogasiti 1991;
+  \u0175akususka \u0175akayowoya kuti zu\u0175a lakwamba likapeleka nyengo yinandi
+  yayi yakulembera \u0175anthu.\\nApo wakayowoyanga kuti wakukhumba kuti \u0175anthu
+  \u0175a ku Zambia \u0175avoterenge ndondomeko ya vyaru vinandi, Kaunda wakati boma
+  la chipani cimoza pera ndilo lingawovwira kuti kusankhana mafuko na nkhaza vileke
+  kunjilira mu caru. Kweni mu Seputembala, Kaunda wakasintha maghanoghano chifukwa
+  cha ivyo \u0175akamususkanga. Wakakanaso fundo ya \u0175anthu wose, ndipo m''malo
+  mwake wakapeleka ulongozgi wakuti \u0175asintheso dango ilo likovwira kuti UNIP
+  yileke ku\u0175a na mazaza. Kweniso wakapharazga kuti mu chaka chakulondezgapo pa\u0175enge
+  maungano ghaci\u0175iri gha boma. Mu Disembala, wakalembapo ivyo vikakhumbikwanga.\\nPa
+  mavoti agha, gulu la Movement for Multiparty Democracy (MMD), ilo likalongozgekanga
+  na Frederick Chiluba, likathereska UNIP. Pa mavoti gha purezidenti, Kaunda wakatondeka,
+  wakatora waka mavoti 24 pa 100 gha Chiluba. Gulu la UNIP likakhala waka mu Nyumba
+  ya Malango 25. Chimoza mwa vinthu ivyo vika\u0175a mu kampeni iyi chika\u0175a chakuti
+  Kaunda wapeleke chiga\u0175a chimoza pa viga\u0175a vinayi vya charu ku Maharishi
+  Mahesh Yogi, munthu wa ku India uyo wakalayizga kuti wazamugwiliskira ntchito malo
+  agha pakukhozga vyaru ivyo \u0175anthu \u0175akugomezga kuti ni \\\"Mwamba pa Charu\\\".
+  Kaunda wakacicizgika kughanaghana kuti wakulondezga yayi ivyo wakasambira. Apo Kaunda
+  wakapelekanga mazaza kwa Chiluba pa Novembala 2, 1991, wakazgoka mulongozgi waci\u0175iri
+  wa chalo ca ku Africa uyo wakazomerezga mavoti gha vyaru vinandi na kuleka mazaza
+  mwa mtende wati watondeka. Mathieu K\u00e9r\u00e9kou wa ku Benin ndiyo waka\u0175a
+  wakwamba kucita nthena mu Malici wa caka ceneci.[17]\\nPost-presidency[lemba | kulemba
+  source]\\nWakati wafumapo pa udindo wake, Kaunda wakakumana kanandi waka na boma
+  la Chiluba na MMD. Pamanyuma, Chiluba wakayezga kumusezga Kaunda cifukwa cakuti
+  waka\u0175a wa ku Malawi. Boma la MMD ilo likulongozgeka na Chiluba likasintha dango
+  la chalo, ndipo likakanizga \u0175anthu \u0175a ku vyaru vinyake kuti \u0175aleke
+  kwimilira pa udindo wa pulezidenti. Pamanyuma pa kuwukira boma mu 1997, pa Zu\u0175a
+  la Sabata mu 1997 \u0175akamukora na \u0175apolisi. Ndipouli, \u0175alara \u0175a
+  boma \u0175akadandawura, ndipo pa Zu\u0175a la Chaka Chiphya mu chaka chenechichi,
+  \u0175akamujalira mu nyumba yake m''paka apo wakeruzgikira. Mu 1999, Khoti Likuru
+  la Ndola likati Kaunda walije wanangwa wa ku\u0175a mwenekaya. Kweni Kaunda wakadandawura
+  ku Khoti Likuru Chomene mu Zambia, ilo likati iyo ni mwenekaya wa Zambia mu mulandu
+  wa Lewanika and Others v. Khoti likadumura mulandu wa Chiluba.\\nPa 4 June 1998,
+  Kaunda wakapharazga kuti wafumengepo pa udindo wa United National Independence Party
+  ndipo wafumengepo pa ndyali. Wakati wapumura pa nchito mu 2000, wakacitako milimo
+  yakupambanapambana. Cinthu ico wakacitapo cikuru comene nchakuti wakalimbikiranga
+  comene kulimbana na HIV na AIDS. Mwana munyake wa Kaunda wakafwa na nthenda iyi
+  mu ma 1980. Kufuma mu 2002 mpaka 2004, waka\u0175a African President-in-Residence
+  ku African Presidential Archives and Research Center ku Boston University.\\nMu
+  Seputembala 2019, Kaunda wakayowoya kuti nchakukwiyiska kuti pulezidenti Robert
+  Mugabe wakasuzgika na \u0175anthu \u0175anyake pa caru, awo \u0175akasuskanga ivyo
+  wakacita kuti wa\u0175ike urunji na urunji mu Zimbabwe.[18]\\nUmoyo na nyifwa[lemba
+  | kulemba source]\\nKaunda wakatora Betty Banda mu 1946, ndipo \u0175aka\u0175a
+  na \u0175ana 8.[19] Wakafwa pa Seputembala 19, 2012, wali na vyaka 84, apo wakalutanga
+  kukawona mwana wawo msungwana ku Harare, Zimbabwe. Pakuti Kenneth Kaunda wakavwaranga
+  malaya gha safari (jacket ya safari pamoza na mathalauza) nyengo zose, malaya agha
+  ghakumanyikwa kuti \\\"kaunda suit\\\" mu vyaru vya ku sub-Saharan Africa.\\nKweniso
+  wakalemba sumu zakulongosora za wanangwa uwo wakakhumbanga, nangauli \u0175anthu
+  \u0175anandi \u0175a ku Zambia \u0175akumanya sumu yimoza pera (\\\"Tiyende pamodzi
+  ndi mtima umo\\\" kung''anamura kuti \\\"Tiyendenge lumoza na mtima umoza\\\").\\nPa
+  14 June 2021, Kaunda wakala\u0175iskika ku chipatala cha Maina Soko Military Hospital
+  ku Lusaka kuti wakachizgike chifukwa cha suzgo la matenda. Boma la Zambia likati
+  \u0175adokotala \u0175akucita vyose ivyo \u0175angafiska kuti wa\u0175eso makora,
+  nangauli nchambura kupulikikwa umo waliri. Pa 15 Juni 2021, vikamanyikwa kuti wakulwara
+  nthenda ya nthenda ya nthumbo, iyo dokotala wake wakati yika\u0175a suzgo la umoyo
+  wake. Pa 17 June 2021 vikamanyikwa kuti wakafwa pa vyaka 97 pamanyuma pa kulwara
+  kwa nyengo yichoko waka ku chipatala cha Maina Soko Military Hospital. Waka\u0175a
+  na \u0175azukuru 30 na \u0175azukuru\u0175ana 11.\\nKaunda wakati wakukhala umoyo
+  utali cifukwa ca kurya vyakurya vyambura nthukumusi. Kweniso wakaleka kumwa mo\u0175a
+  ndipo mu 1953 wakaleka kumwa tiyi.[20]\\nPulezidenti Edgar Lungu wakapharazga pa
+  peji lake la Facebook kuti Zambia yizamu\u0175a na mazu\u0175a 21 gha kulira. Pa
+  21 June, Vice-President Inonge Wina wakapharazga kuti viwangwa vya Kaunda vizamutolekera
+  ku viga\u0175a vyose vya chalo ichi, na ma church services mu capital ya chiga\u0175a
+  chilichose, pambere wandafike pa state funeral pa National Heroes Stadium ku Lusaka
+  pa 2 July na burial pa Presidential Burial Site pa 7 July.\\nVyaru vinyake vinandi
+  navyo vikamba kulira nyifwa ya munthu. Zimbabwe yikapharazga mazu\u0175a khumi na
+  ghanayi gha kulira; South Africa yikapharazga mazu\u0175a khumi gha kulira; Botswana,
+  Malawi, Namibia na Tanzania vyose vikapharazga mazu\u0175a ghankhondi na gha\u0175iri
+  gha kulira; Mozambique yikapharazga mazu\u0175a ghankhondi na limoza gha kulira;
+  South Sudan yikapharazga mazu\u0175a ghatatu gha kulira; Cuba yikapharazga zu\u0175a
+  limoza la kulira. Purezidenti wa Singapore Halimah Yacob wapeleka chitima chake
+  ku banthu \u0175a ndyali na banthu ba Zambia pa nyifwa ya Kaunda.[21]\\nVyakupeleka
+  na malumbo[lemba | kulemba source]\\nForeign honours\\n- Grand Cross of the Order
+  of Prince Henry (Portugal)\u201428 May 1975[22]\\n- Supreme Companion of O. R. Tambo
+  (South Africa)\u201410 December 2002[23]\\n- Commander of the Most Courteous Order
+  of Lesotho (Lesotho)\u20144 October 2007[24]\\n- Honorary Member of the Order of
+  Jamaica[25][ukaboni wasowa apa]\\nAwards\\n- On 21 May 1963, he received an honorary
+  degree of Doctor of Laws from Fordham University.[26]\\n- On 19 October 2007 Kaunda
+  was the recipient of the 2007 Ubuntu Award.[27]\\nVyakulemba[lemba | kulemba source]\\n-
+  Kaunda, Kenneth David (1958). Dominion Status for Central Africa?. Union of Democratic
+  Control Publications.[28][29][30]\\n- Kaunda, Kenneth David (1962). Zambia Shall
+  Be Free: An Autobiography (illustrated, reprint ed.). Heinemann. ISBN 9780435900045.[31]\\n-
+  Kaunda, Kenneth David (1966). Zambia, Independence and Beyond: The Speeches of Kenneth
+  Kaunda. Nelson.[32][33][34]\\n- Kaunda, Kenneth David (1969). A Humanist in Africa:
+  Letters to Colin M. Morris from Kenneth D. Kaunda, President of Zambia. Longmans,
+  Green. ISBN 9780582640030.[35]\\n- Kaunda, Kenneth D (1973). The Humanist Outlook.
+  London: Longman.\\n- Kaunda, Kenneth (1974). Humanism in Zambia: A Guide to Its
+  Implementation. Lusaka.[36]\\n- Kaunda, Kenneth (1980). Morris, Colin (ed.). The
+  Riddle of Violence. San Francisco: Harper & Rowe.[37][38][39][40][41]\\n- Morris,
+  Collin M., ed. (1980). Kaunda on Violence. London: Collins.[42][43][44][45][46]\\nWonaniso[lemba
+  | kulemba source]\\nLua error: bad argument #2 to ''title.new'' (unrecognized namespace
+  name ''Portal'').\\nUkaboni[lemba | kulemba source]\\n- Arnold, Guy (17 Juni 2021).
+  \\\"Kenneth Kaunda obituary\\\". The Guardian. Retrieved 17 Juni 2021.\\n- The Listener
+  Archived 18 Juni 2021 at the Wayback Machine, Volume 110, BBC, 1983, page 13\\n-
+  \\\"How Zambia''s first president had to go to court in 1999 to prove he was not
+  a Malawian\\\". Face2Face Africa (in English). 24 Okutobala 2018. Retrieved 18 Juni
+  2021.\\n- Kasuka, Bridgette (7 Febuluwale 2012). Independence Leaders of Africa.
+  Bankole Kamara Taylor. ISBN 978-1-4700-4175-5. Retrieved 15 Okutobala 2019 \u2013
+  via Google Books.\\n- \\\"Former Zambian president Kenneth Kaunda dies | eNCA\\\".
+  enca.com (in English). Archived from the original on 18 Juni 2021. Retrieved 17
+  Juni 2021.\\n- Kasuka, Bridgette (8 Febuluwale 2012). Prominent African Leaders
+  Since Independence (in English). Bankole Kamara Taylor. ISBN 978-1-4700-4358-2.
+  Archived from the original on 28 Disembala 2022. Retrieved 18 Meyi 2021.\\n- \\\"Kenneth
+  Kaunda: Zambia''s independence hero\\\". BBC. 17 Juni 2021. Retrieved 18 Juni 2021.\\n-
+  \\\"10 Things You Didn''t Know About Reuben Chitandika Kamanga | Youth Village Zambia\\\"
+  (in British English). Archived from the original on 18 Meyi 2021. Retrieved 18 Meyi
+  2021.\\n- \\\"Livingstone Institute of Business and Engineering Studies \u2013 Confucius
+  Institute\\\". unza.zm. Archived from the original on 18 Meyi 2021. Retrieved 18
+  Meyi 2021.\\n- Maier, Karl (2 Novembala 1991). \\\"Kaunda Swept From Office In Lopsided
+  Zambian Vote\\\". The Washington Post. Retrieved 19 Juni 2021.\\n- Williams, Geoffrey
+  J. \\\"Zambia \u2013 Economy\\\". Encyclopedia Britannica. Retrieved 19 Juni 2021.\\n-
+  \\\"Zambia: 1973 and 1978 one-party elections\\\". African Democracy Encyclopaedia
+  Project. Archived from the original on 18 Juni 2021. Retrieved 18 Juni 2021.\\n-
+  April 27 1976 \u2013 an event exiled in history Archived 3 Sekutembala 2017 at the
+  Wayback Machine, The Namibian, 27 April 2007\\n- Lelyveld, Joseph (1 Meyi 1982).
+  \\\"SOUTH AFRICAN AND ZAMBIAN MEET IN BUSH COUNTRY (Published 1982)\\\". The New
+  York Times. Retrieved 19 Juni 2021.\\n- \\\"University of Belgrade: Honorary Doctors\\\".
+  Archived from the original on 3 Meyi 2012. Retrieved 11 Juni 2012.\\n- Appiah, Anthony;
+  Gates, Henry Louis (2010). Encyclopedia of Africa, Volume 1. OUP. p. 636. ISBN 978-0-19-533770-9.
+  Retrieved 18 Juni 2021.\\n- Matiashe, Farai Shawn (17 Juni 2021). \\\"Obituary:
+  Zambia''s Kenneth Kaunda helped liberate Southern African countries\\\". The Africa
+  Report.com. Retrieved 19 Juni 2021.\\n- \\\"Zambia : President Mugabe was maligned
+  because of his crusade to bring social justice and equity to Zimbabwe-KK\\\". 6
+  Sekutembala 2019. Archived from the original on 6 Disembala 2019. Retrieved 18 Juni
+  2021.\\n- \\\"Mama Betty Kaweche Kaunda \u2013 First Lady from 1964 to 1991\\\".
+  Government of Zambia. Archived from the original on 24 Juni 2021. Retrieved 18 Juni
+  2021.\\n- \\\"Kaunda attributed his long life to being a vegetarian\\\". kulinji.com.
+  Retrieved 4 February 2023.\\n- \\\"President Halimah Yacob sends condolences after
+  former Zambian president dies\\\". The Straits Times (Singapore). 25 Juni 2021.
+  Retrieved 25 Juni 2021.\\n- \\\"Entidades Estrangeiras Agraciadas Com Ordens Portuguesas
+  \u2013 P\u00e1gina Oficial das Ordens Honor\u00edficas Portuguesas\\\". ordens.presidencia.pt.
+  Archived from the original on 17 Janyuwale 2013. Retrieved 30 Julayi 2019.\\n- \\\"Presidency\\\".
+  Archived from the original on 12 Novembala 2014. Retrieved 15 Okutobala 2019.\\n-
+  \\\"Lesotho Celebrates 40 Years of Independence\\\". scoop.co.nz. Scoop Independent
+  News. 10 Okutobala 2006. Archived from the original on 16 Epulelo 2017. Retrieved
+  15 Epulelo 2017.\\n- \\\"Order of Jamaica\\\". JIS.gov. Retrieved 9 Julayi 2022.\\n-
+  Kaunda, Kenneth D (1963). Speech by The Honorable Kenneth D. Kaunda at the ceremonies
+  at which he received the honorary degree of Doctor of Laws from Fordham University,
+  Tuesday, May 21, 1963. Duquesne University Press. OCLC 13884584.\\n- \\\"Zambia''s
+  President: Kenneth Kaunda\\\". The New York Times. 9 Disembala 1965. Template:ProQuest.\\n-
+  Kaunda, Kenneth D. (1958). Dominion status for Central Africa?. Published by Union
+  of Democratic Control Publications for the Union of Democratic Control. OCLC 2977403.\\n-
+  Kaunda, Kenneth D (1958). Dominion status for Central Africa? (in English). London:
+  Published by Union of Democratic Control Publications for the Union of Democratic
+  Control. OCLC 2977403.\\n- Kaunda, Kenneth David (1958). Dominion Status for Central
+  Africa? (in English). Union of Democratic Control Publications.\\n- D. S. (Epulelo
+  1963). \\\"Zambia Shall be Free\\\". African Affairs. 62 (247): 170\u2013171. doi:10.1093/oxfordjournals.afraf.a095104.
+  ISSN 1468-2621.\\n- Kaunda, Kenneth D (1966). Zambia, independence and beyond: the
+  speeches of Kenneth Kaunda; (in English). London: Nelson. OCLC 1312519.\\n- \\\"Zambia,
+  Independence and Beyond : The Speeches of Kenneth Kaunda by Kaunda, Kenneth David
+  [ Legum, Colin ; editor: ]: orig. boards (1966) | Expatriate Bookshop of Denmark\\\".
+  abebooks.com (in English). Retrieved 28 Meyi 2022.\\n- Kaunda, Kenneth David (1978).
+  Zambia: Independence and Beyond the Speeches of Kenneth Kaunda (in English). Nelson.\\n-
+  Kaunda, Kenneth David (1969). A Humanist in Africa: Letters to Colin M. Morris from
+  Kenneth D. Kaunda, President of Zambia (in English). Longmans, Green. ISBN 978-0-582-64003-0.\\n-
+  Kaunda, Kenneth David (1971). Humanism in Zambia and a Guide to Its Implementation
+  (in English). Zambia Information Services.\\n- \\\"The riddle of violence by Kaunda,
+  Kenneth D: New Paperback (1981) | Save With Sam\\\". abebooks.com (in English).
+  Retrieved 28 Meyi 2022.\\n- \\\"The riddle of violence book by Kenneth D. Kaunda\\\".
+  ThriftBooks (in English). Retrieved 28 Meyi 2022.\\n- Kaunda, Kenneth D; Morris,
+  Colin (1981). The riddle of violence (in English). ISBN 978-0-06-250450-0. OCLC
+  6815260.\\n- Kaunda, Kenneth David (1981). The Riddle of Violence (in English).
+  Harper & Row. ISBN 978-0-06-250450-0.\\n- \\\"The Riddle of Violence\\\". goodreads.com.
+  Retrieved 28 Meyi 2022.\\n- \\\"Kaunda on Violence by Kaunda, Kenneth David Hardback
+  Book The Fast Free Shipping\\\". eBay (in American English). Retrieved 28 Meyi 2022.\\n-
+  \\\"Kaunda on Violence book by Kenneth D. Kaunda\\\". ThriftBooks (in English).
+  Retrieved 28 Meyi 2022.\\n- Kaunda, Kenneth D; Morris, Colin (1980). Kaunda on violence
+  (in English). London: Collins. ISBN 978-0-00-216143-5. OCLC 7004165.\\n- Kaunda,
+  Kenneth David (1980). Kaunda on Violence (in English). Collins. ISBN 978-0-00-216143-5.\\n-
+  \\\"Kaunda on Violence \u2013 Lengthy Personal Inscription by Kaunda\\\". abebooks.com
+  (in English). Retrieved 28 Meyi 2022.\\nBibliography[lemba | kulemba source]\\n-
+  DeRoche, Andy. Kenneth Kaunda, the United States and Southern Africa (London: Bloomsbury,
+  2016)\\n- \\\"Kaunda, Kenneth\\\". Encyclop\u00e6dia Britannica. Retrieved 19 May
+  2006.\\n- Hall, Richard. The High Price of Principles: Kaunda and the White South
+  (1969)\\n- Ipenburg, At. All Good Men: The Development of Lubwa Mission, Chinsali,
+  Zambia, 1905\u20131967 (1992)\\n- Macpherson, Fergus. Kenneth Kaunda: The Times
+  and the Man (1974)\\n- Mulford, David C. Zambia: The Politics of Independence, 1957\u20131964
+  (1967)\\nExternal links[lemba | kulemba source]\\n- 1964: President Kaunda takes
+  power in Zambia\\n- Kaunda on the non-aligned movement\\n- Kaunda on Mugabe\\n-
+  Kenneth Kaunda, the United States and Southern Africa by Andy deRoche Archived 2
+  Okutobala 2016 at the Wayback Machine\\n- Faces of Africa\\n- Appearances on C-SPAN\\n-
+  Portraits of Kenneth Kaunda at the National Portrait Gallery, London\"", "\"MARCH
+  16, 2021\\nRUSSIA\\nNyengu yo Khoti Liyeruzgiyengi Mulandu\\nVakukwaskana ndi \u0174anthu
+  Ya\u0175a\\nAndrey Andreyev\\nChaka cho Wakuwiya: 1976 (Ku Kursk)\\nMo Wakukuliya:
+  Wakutolana ndi Svetlana mu 1999 ndipu \u0175e ndi \u0175ana \u0175a\u0175i. Wangwamba
+  kuliyanja Bayibolu wati wasambira vakukwaskana ndi kufiskika kwa mauchimi nga mu
+  Bayibolu. Wakubatizika mu 2002\\nAlevtina Bagratyan\\nChaka cho Wakuwiya: 1977 (Ku
+  Kursk)\\nMo Wakukuliya: Weche mwana wayanjanga vakujambulajambula. Wangwamba kusambira
+  Bayibolu weche munamana. Wakubatizika mu 1997. Wakutolana ndi Artem mu 2012. Wagwiranga
+  ntchitu yakunozga \u0175anthu sisi uku walera anyina\\nArtem Bagratyan\\nChaka cho
+  Wakuwiya: 1972 (Ku Abovyan, Armenia)\\nMo Wakukuliya: Wangusama ku Armenia kuluta
+  ku Russia. Wangukumana ndi Alevtina ku Kursk. Banja ili litanja kuwona chilengedu.
+  Wakubatizika mu 2000\\nAndrey Ryshkov\\nChaka cho Wakuwiya: 1987 (Kursk)\\nMo Wakukuliya:
+  Awisi akutayika iyu weche munamana. Weche munamana kanandi wajanga ndi ambuyaki
+  panyengu iyi anyina agwiranga ntchitu zi\u0175i. Wangwamba kuliyanja Bayibolu wati
+  wasaniya kwamuka kwa mafumbu ngo ngangumusuzga kwa nyengu yitali. Wakubatizika mu
+  2011. Wakutolana ndi Marina mu 2016. Wagwiranga ntchitu yakunozga nyumba\\nVo Vinguchitika
+  Kuti Ambiki Mulandu\\nPa 16 October 2019, apolisi a gulu la Federal Security Service
+  (FSB) anguchifufuza nyumba zinandi za Akaboni aku Yehova ku Kursk ndipu anandi angufumbika
+  mafumbu. Venivi vinguchitiska kuti Mubali Andrey Andreyev ndipuso banja la Mubali
+  Bagratyan amangiki. Ndipu pa 21 January 2020, apolisi angumanga Mubali Ryshkov.
+  Pa 17 December 2020, Mzichi Alevtina Bagratyan wangutuzgika mujeri, wati wajamu
+  kwa myezi 13 kulindizgiya mulandu waki. Ndipu pasonu panu wagwira ukayidi wa panyumba.
+  Abali atatu \u0175eche mujeri kulindizgiya mulandu wawu.\\nMubali Artem Bagratyan
+  wasuzgika ndi matenda nga shuga. Alevtina wakumbuka nyengu yo iyu ndi mulumu \u0175enga
+  mujeri kweni mumalu ngakupambana. Iyu wangukamba kuti: \u201cKwa nyengu yitali,
+  ndazi\u0175anga cha vo mulumu wangu wachitanga asani matenda ngaki ngamuyukiya.
+  Ndamuso\u0175a ukongwa.\u201d\\nAlevtina wangukamba kuti pa nyengu yo wenga mujeri
+  wangulutirizga kuja ndi chigomezgu kuti Yehova wamuphweriyengi kweniso waphweriyengi
+  abali anyaki wosi. Iyu wangukamba kuti: \u201cNyengu zosi [Yehova] wandipaskanga
+  nthazi. Ndizi\u0175a kuti iyu walutirizgengi kuchita venivi. Nditimukayikiya cha.\u201d\\nTigomezga
+  kuti Yehova walutirizgengi kuja malu nkhakukho kwa abali \u0175idu atatu kweniso
+  mzichi widu pa nyengu yakusuzga iyi.\u2014Nthanthi 18:10.\"", "\"Akwanjiwa Abali
+  ndi Azichi:\\nNkhani zakukondweska za mutu wakuti, \u201cYezgani Chivwanu Chawu,\u201d
+  zingwamba kulembeka mu Chigongwi cha Alinda cha January 1, 2008. Chituliyi nyengu
+  iyi, nkhani izi zilembeka mu Chigongwi cha Alinda, asani pajumpha myezi yitatu yeyosi.\\nKumbi
+  \u0175anthu wo a\u0175erenga magazini iyi, akambanjipu? Munthukazi munyaki wati
+  wa\u0175erenga nkhani yaku Marta wangulemba kuti: \u201cNdinguseka ukongwa ndati
+  nda\u0175erenga nkhani iyi chifukwa ndivu nani ndichita, nyengu zosi nditangwanika
+  ndi kubika asani kwaza alendu mwakuti ndiluwaku kulekezga dankha nchitu kuti ndichezengi
+  ndi anyangu.\u201d Wampupuka munyaki wangukamba vo vingumukondweska ukongwa wati
+  wa\u0175erenga nkhani yaku Estere, iyu wanguti: \u201cNdi\u0175ana\u0175ana kuti
+  ta\u0175anthu titanja kufipiya mtima nkhani ya vakuvwala ndi mafashoni ngasonu.
+  Mbuneneska kuti tikhumbika kuvwala umampha, kweni tingajumphiskanga mwesu cha.\u201d
+  Iyu wangukamba so kuti: \u201cYehova wakhorwa ndi umunthu widu wamkati.\u201d Mzichi
+  munyaki wangukwaskika ukongwa wati wa\u0175erenga nkhani ya wakutumika Petro, ndipu
+  wangukamba kuti: \u201cNdingukwaskika ukongwa mwakuti ndawonanga nge kuti vo vinguchitikiya
+  Petro vachitikiyanga ini. Ndinguja nge ndengaku. Ndayesesanga kujiserezga m\u2019nkhani
+  yaki ndi kuwona nge kuti vinthu vo nkhani yikonkhoska vichitika sonu.\u201d\\n\u0174anthu
+  ya\u0175a azumbulika yapa kweniso anyaki anandi wo akulemba ma\u0175ana\u0175anu
+  ngawu pakuwonga nkhani zo angu\u0175erenga, azomerezgana ndi vo wakutumika Paulo
+  wakulemba kuti: \u201cVo vosi vingulembeke limu, vingulembeke kusambizika kwidu.\u201d
+  (\u0174ar. 15:4) Yehova wakulemba nadi nkhani zosi izi m\u2019Bayibolo ndi chilatu
+  chakuti tisambirepu kanthu. Kwali taja vyaka vilinga mu uneneska, weyosi waku isi
+  wangayanduwa ukongwa ndi nkhani izi.\\nTitikuchiskani mosi kuti mu\u0175erengi buku
+  ili asani mwalilonde \u0175aka. Ligwiriskiyeni nchitu pa Kusopa kwa Pabanja ndipu
+  muwonengi kuti \u0175ana aliyanjengi ukongwa. Asani mwaziyamba kulisambira pa Sambiru
+  la Bayibolo la Mpingu, muzisanirikengepu sabata yeyosi kuti lingazikujumphaningi
+  chinanga ndi sambiru limoza cha. Li\u0175erengeni mwakufwasa ndipu mujengi nge kuti
+  muwona vo vachitikanga; mujengi nge kuti vo mu\u0175erenga vichitikiya imwi. Yesani
+  kuvwa nge mo \u0175anthu wo akambika m\u2019nkhani yo mu\u0175erenga avwiyanga kuti
+  muwoni vo akumananga navu. Yeruzgiyani mo yiwu anguchitiya pa vo angukumana navu
+  ndi vo imwi mwatingi muchitengi asani vinguchitikiya imwi.\\nTe akukondwa ukongwa
+  kukupaskani buku ili. Tipempha kuti likuwovyeni ukongwa pamoza ndi banja linu. Titikuyanjani
+  ukongwa kweniso titikukhumbiyani vamampha vosi,\\nWupu Wakulongozga wa Akaboni aku
+  Yehova\"", "\"\u0174anthu anandi avwisa cha vo Bayibolu likamba vakukwaskana ndi
+  chilengedu ndipu anyaki akamba kuti ndi nthanu \u0175aka. Kumbi vo Bayibolu likamba
+  vauneneska nadi?\\nCharu chapasi che ndi vinthu vinandi vakutowa ukongwa. Chiuta
+  wakuchi\u0175ika pa mtunda wakwenere kutuliya po pe lumwi, ndipu wakuchipanga kuti
+  chizunguliyengi mwakuyegama kweniso kuti chizunguliyengi pa sipidi yamampha. Ntchifukwa
+  wuli Chiuta wangu\u0175ikiyapu mtima kulenga charu chakutowa viyo?\\nPa nyengu ya
+  ute\u0175eti waki Yesu wasambizanga ukongwa za Ufumu waku Chiuta kuluska nkhani
+  yinyaki yeyosi. Kwa vyaka vinandi akusambira \u0175aki nawu apempheranga ukongwa
+  kuti Ufumu waku Chiuta uzi.\\n\u0174anthu anandi afumba chifukwa cho pacharu chapasi
+  pe masuzgu nganandi viyo. Bayibolu lititiwovya kuti tisaniyi kwamuka kwa kukhorwesa
+  pa nkhani iyi.\"", "\"KUMBI munthurumi wangavikiliya wuli muwolu waki? \u0174anthu
+  anandi awona kuti chinthu chakukhumbika ukongwa cho munthurumi watenere kuchita
+  nkhusaniriya ndalama banja laki. Kweni viwoneka kuti anthukazi anyaki asuzgika mbwenu
+  ma\u0175ana\u0175anu chinanga kuti akutorana ndi munthurumi wakukhupuka. Mwakuyeruzgiyapu,
+  Rosa wa ku Spain wangukamba kuti, \u201cAsani te pagulu la \u0175anthu murumu wangu
+  wawonekanga nge munthu wamampha, kweni asani tafika kunyumba wachitanga vinthu mwankhaza.\u201d
+  Joy wa ku Nigeria wangukamba kuti, \u201cAsani tapambana ma\u0175ana\u0175anu ndi
+  murumu wangu, wandikambiyanga kuti, \u2018Uchitengi vosi vo ndakamba chifukwa nde
+  murumu waku.\u2019\u201d\\nKumbi munthurumi wangafiska wuli udindu waki mwachanju?
+  Kumbi wangachita wuli kuti nyumba yaki yije nge malu \u201cngakupumuliyapu\u201d
+  muwolu waki?\\nKUMBI BAYIBOLO LIKAMBA KUTI MUNTHURUMI WE NDI UDINDU WULI M\u2019BANJA?\\nChinanga
+  kuti Chiuta wawona kuti munthurumi ndi munthukazi ayanana \u0175aka, kweni Bayibolo
+  likamba kuti weyosi we ndi udindu waki m\u2019banja. Lemba la \u0174aroma 7:2 likamba
+  kuti munthukazi wakuyirwa \u201cwamangika ndi dangu ku murumu waki.\u201d Nge mo
+  mawupu ngakupambanapambana ngasankhiya munthu kuti walongozgengi vakuchita, Chiuta
+  nayu wakusankha munthurumi m\u2019banja kuti waje mutu wa muwolu waki. (1 \u0174akorinte
+  11:3) Anthurumi ndiwu atenere kulongozga mabanja ngawu.\\nKumbi anthurumi angalongozga
+  wuli mabanja ngawu? Bayibolo likambiya anthurumi kuti, \u201cYanjani awolu \u0175inu,
+  uli ndimo Khristu nayu wangwanjiya eklesiya.\u201d (\u0174aefesu 5:25) Chinanga
+  kuti Yesu wenga wambula kuto, kweni chakuwoniyapu chaki chingawovya anthurumi kuti
+  alongozgengi umampha mabanja ngawu. Tiyeni tiwoni mo angachitiya.\\nATHURUMI ATENERE
+  KUCHITA VINTHU NGE MO YESU WACHITIYANGA\\nYesu wayesesanga kupembuzga \u0175anthu
+  ndipuso ku\u0175awovya. Yesu wangukambiya \u0175anthu wosi wo asuzgikanga m\u2019nthowa
+  zakupambanapambana kuti: \u201cZani kwaku ini, . . . ndipu ini ndikupumuzganingi.\u201d
+  (Mateyu 11:28, 29) Kanandi iyu wa\u0175awovyanga mwakuli\u0175avu kweniso kuti aje
+  pa ubwezi ndi Yehova. Ndichu chifukwa chaki \u0175anthu anandi azanga kwaku Yesu
+  ndipu agomezganga ndi mtima wosi kuti wa\u0175awovyengi.\\nMo anthurumi angayezge
+  Yesu. Muyesesengi ku\u0175awovya nchitu awolu \u0175inu. Anthukazi anandi adandawula
+  nge mo Rosa wangukambiya kuti: \u201cMurumu wangu wandiwonanga nge wanchitu waki.\u201d
+  Munthu munyaki yo we ndi banja lalikondwa zina laki Kweku, wangukamba kuti: \u201cKanandi
+  nditimufumba muwolu wangu asani pe nchitu zinyaki zo ndingamuwovya. Chifukwa chakuti
+  nditimuyanja ukongwa nditimuwovya nchitu zapakhomu.\u201d\\nYesu wa\u0175ana\u0175aniyanga
+  \u0175anthu ndipu wa\u0175achitiyanga lisungu. Munthukazi munyaki wangutama nthenda
+  yakusuluwa ndopa kwa vyaka 12. Wati wavwa vakuziziswa vo Yesu wachitanga, nyengu
+  zosi wakambanga kuti, \u201cAsani ndingakwaska chinanga ndi minjilira yaki pe nkhachiranga.\u201d
+  Waneneskanga nadi. Iyu wanguza kwaku Yesu ndipu wanguko mphonji za chakuvwala chaki
+  ndipu wanguchira nyengu yeniyo. Chinanga kuti \u0175anthu anyaki awonanga nge kuti
+  munthukazi uyu wanguchita vinthu mwakujikuzga, kweni Yesu wanguzi\u0175a kuti chenga
+  chifukwa chakuti wakhumbanga chovyu. * Yesu wangumukambiya mwachanju kuti: \u201cMwana
+  munthukazi we, . . . uchizgiki ku nthenda yaku.\u201d Iyu wangukhumba cha kuti wamuchitiski
+  soni pamwenga kumunena. M\u2019malu mwaki, wanguzomera kuti wamuchizgi. Ivi vingulongo
+  kuti Yesu wenga wachanju ndipuso wachitiyanga \u0175anthu lisungu.\\nMo anthurumi
+  angayezge Yesu. Asani muwolu winu watama, longoni kuti mutimuyanja. Yesesani kuchita
+  vinthu mwakukoliyana ndi ma\u0175ana\u0175anu ngaki ndipuso mumuvwisisengi. Mwakuyeruzgiyapu,
+  Ricardo wangukamba kuti, \u201cAsani muwolu wangu wakwiya ukongwa nditesesa kujiko
+  kuti ndileki kukamba vinthu vo vingamukwiyisa so ukongwa.\u201d\\nYesu wakambiskananga
+  ndi akusambira \u0175aki. Yesu wakambiskananga ndi akusambira \u0175aki vinthu vakupambanapambana.
+  Iyu wangukamba kuti, \u201cNdakuzi\u0175iskani vosi vo ndavwa ku Ada.\u201d (Yohane
+  15:15) Mbuneneska kuti nyengu zinyaki Yesu wakhumbanga malu ngakuyija kuti walunguruki
+  kweniso kuromba. Kweni kanandi wa\u0175akambiyanga akusambira \u0175aki vo wa\u0175ana\u0175ana
+  mumtima. Usiku wakuti wafwengi mawa, wangukambiya akusambira \u0175aki kutuliya
+  pasi pamtima kuti wenga \u2018walisungu ukongwa.\u2019 (Mateyu 26:38) Chinanga kuti
+  nyengu zinyaki akusambira \u0175aki amugu\u0175iskanga, Yesu walekanga cha kukambiskana
+  nawu.\\nMo anthurumi angayezge Yesu. Mukambiskanengi ndi awolu \u0175inu mwakufwatuka.
+  Nyengu zinyaki munthukazi wangadandawula kuti murumu waki wafwatuka kukambiskana
+  ndi \u0175anthu anyaki, kweni kunyumba waja \u0175aka cheti. Chifukwa chakuti murumu
+  waki wakambiskana nayu mwakufwatuka, Ana wangukamba kuti, \u201cNdiwona kuti murumu
+  wangu watindiyanja ukongwa ndipu nani nditimuyanja.\u201d\\nLekani kuja \u0175aka
+  cheti ndi chilatu chakuti mukhawuliski awolu \u0175inu. Munthukazi munyaki wangukamba
+  kuti, \u201cAsani murumu wangu wandikwiyiya, wajanga mazu\u0175a nganandi kwambula
+  kukambiskana nani. Ndajimbanga mlandu ndipuso ndajiwonanga nge wambula kukhumbika.\u201d
+  Kweni Edwin wayesesa kuyezga Yesu. Ndipu iyu wanguti, \u201cAsani ndakondwa navu
+  cha, ndimuka nyengu yeniyo cha. Ndisaniya nyengu yamampha kuti tikambiskani.\u201d\\nJoy
+  yo tamuzumbuwa kukwamba kwa nkhani iyi, wawona kuti murumu waki wasintha ukongwa
+  kutuliya po wangwambiya kusambira Bayibolo ndi Akaboni aku Yehova. Iyu wangukamba
+  kuti, \u201cWasintha ukongwa ndipu wayesesa kuchita nani vinthu mwachanju nge mo
+  Yesu wachitiyanga ndi \u0175anthu.\u201d Mabanja nganandi ngawovyeka ndi ulongozgi
+  wa m\u2019Bayibolo. Kumbi namwi mungayanja kusambira Bayibolo? Kambiskanani ndi
+  Akaboni aku Yehova kuti musambirengi Bayibolo kwawezi.\"", "\"Mu 2014, awo \u0175akufukura
+  vinthu vyakale \u0175ali kusanga ukaboni uwo ukukhozgera kuti Baibolo likuneneska
+  pa nkhani ya mbiri. Mu magazini yinyake ya mu 2014 muka\u0175a fumbo lakuti: \u201cKasi
+  mbanthu \u0175alinga awo \u0175akuzunulika mu Malemba Ghachihebere (Testamente la
+  Kale) awo \u0175asayansi \u0175ali kubowozga kuti \u0175aka\u0175ako nadi?\u201d
+  (Biblical Archaeology Review) Zgoro lika\u0175a lakuti: \u201cPafupifupi 50.\u201d
+  Kweni Tattenai paka\u0175avya pa \u0175anthu a\u0175a. Kasi iyo waka\u0175a njani
+  ndipo waka\u0175a na udindo wuli? Tiyeni tiwone nkhani yake mu Baibolo.\\nNyengo
+  yinyake msumba wa Yerusalemu uka\u0175a pasi pa Ufumu wa \u0174aperesiya. Msumba
+  uwu uka\u0175a mu chiga\u0175a icho \u0174aperesiya \u0175akachichemanga kuti Kusirya
+  kwa Mlonga uko nkhumanjiliro gha dazi kwa Yufurate. \u0174akati \u0175athereska
+  msumba wa Babuloni, \u0174aperesiya \u0175akafwatura \u0174ayuda ku wuzga na ku\u0175azomerezga
+  kuti \u0175akazenge tempele la Yehova ku Yerusalemu. (Ezira 1:1-4) Kweni \u0175alwani
+  \u0175awo \u0175akalimbana nawo ndipo \u0175akati \u0174ayuda \u0175akugalukira
+  Themba la Peresiya. (Ezira 4:4-16) Ntheura, mu nyengo ya muwuso wa Dariyasi I (522-486
+  B.C.E.), Tattenai kazembe Wachiperesiya wakafufuza kuti wamanye unenesko. Baibolo
+  likuti Tattenai waka\u0175a \u201ckazembe wa chiga\u0175a cha Kusirya kwa Mlonga.\u201d\u2014Ezira
+  5:3-7.\\nPasono \u0175anthu awo \u0175akufukura vinthu vyakale \u0175ali kusanga
+  viphapha vya dongo ivyo pali kulembeka zina lakuti Tattenai, ilo likusangikaso mu
+  Baibolo. Pa chiphapha chinyake pali kulembeka ndalama izo \u0175akapangana kuzakapeleka
+  mu chaka cha 20 cha Dariyasi I, mu 502 B.C.E. Uyo wakasayinira waka\u0175a mute\u0175eti
+  wa Tattannu. Tattannu waka\u0175a kazembe wa chiga\u0175a cha Kusirya kwa Mlonga.\u201d
+  Tattannu uyu ndiyo mu Baibolo mu buku la Ezira wakuzunulika kuti Tatenayi.\\nKasi
+  munthu uyu waka\u0175a na udindo wuli? Mu 535 B.C.E., Sayirasi Mukuru wakanozga
+  vyakuti viga\u0175a vinyake \u0175alamulirenge mbakazembe \u0175ake. Ndipo chimoza
+  mwa viga\u0175a ivi ndicho chikachemekanga \u201cBabuloni na Kusirya kwa Mlonga.\u201d
+  Pamasinda, chiga\u0175a ichi nacho chikaga\u0175ika pa\u0175iri, ndipo chimoza chake
+  chikachemekanga kuti \u201cKusirya kwa Mlonga.\u201d Chiga\u0175a ichi chikapangika
+  na Coele-Syria, Fonike, Samariya, na Yuda ndipo uyo wakawusanga wakwenera kuti wakakhalanga
+  ku Damaseko. Tattenai wakawusanga chiga\u0175a ichi kwamba m\u2019ma 520 m\u2019paka
+  502 B.C.E.\\nDariyasi wakatuma Tattenai ku Yerusalemu kuti wakamanye unenesko usange
+  \u0174ayuda \u0175agaluka nadi. \u0174ayuda \u0175akamuphalira kuti Sayirasi ndiyo
+  wali ku\u0175azomerezga kuti \u0175azengeso tempele la Yehova. Nkhani iyi yikusangikaso
+  mu Baibolo ilo ni buku lakugomezgeka. (Ezira 5:6, 7, 11-13; 6:1-3) Ntheura Tattenai
+  wakaphalirika kuti waleke kunjilirapo, ndipo wakapulikira.\u2014Ezira 6:6, 7, 13.\\nNangauli
+  Tattenai \u201ckazembe wa chiga\u0175a cha Kusirya kwa Mlonga,\u201d wakachita vinandi
+  yayi, kweni Baibolo likuzunura zina lake na udindo wake wuwo. Fundo iyi yikutovwira
+  kumanya kuti nyengo zose Baibolo likuneneska chifukwa ivyo \u0175asayansi \u0175akusanga
+  vikukolerana na ivyo vili mu Baibolo.\\nManyani Vinandi\\nGONGWE LA MULINDA\\nPalije
+  buku linyake ilo, kwa nyengo yitali chomene, lawovwira \u0175anthu kusintha vigomezgo
+  vyawo kuluska Baibolo. Kweni kasi Baibolo tingaligomezga?\""]'
+src_ngrams: '{"1": [[["\u0175anthu"], 46274], [["ndi"], 38099], [["yehova"], 33372],
+  [["chiuta"], 25995], [["yesu"], 22127]], "2": [[["\u0175anthu \u0175a"], 4920],
+  [["\u0175anthu \u0175anandi"], 3267], [["\u0175anthu wo"], 2535], [["from the"],
+  2356], [["the original"], 2201]], "3": [[["from the original"], 2195], [["archived
+  from the"], 2066], [["the original on"], 2035], [["\u0175akaboni \u0175a yehova"],
+  1504], [["anamuliro gha charu"], 1159]], "4": [[["archived from the original"],
+  2066], [["from the original on"], 2035], [["anamuliro gha charu chiphya"], 1159],
+  [["malemba ghakupatulika mu mang"], 1045], [["baibolo la pa intaneti"], 1016]],
+  "5": [[["archived from the original on"], 1906], [["kumbi ndi vinthu wuli vo"],
+  243], [["vyaru vya kumanjiliro gha dazi"], 137], [["sambiru la bayibolu la mpingu"],
+  108], [["ndicho fumu yikuru yehova yayowoya"], 98]]}'

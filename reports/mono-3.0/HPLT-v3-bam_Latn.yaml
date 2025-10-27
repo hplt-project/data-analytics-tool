@@ -1,0 +1,1726 @@
+corpus: hplt-v3-bam_Latn
+srclang: bm
+timestamp: 1758068417.0887232
+warnings:
+- src_warning_tok_nltk_wordpunct
+- src_fastspell
+docs_collections: '[["CC-MAIN-2018-39", 244], ["CC-MAIN-2014-15", 155], ["CC-MAIN-2020-29",
+  127], ["CC-MAIN-2023-23", 125], ["CC-MAIN-2020-24", 113], ["CC-MAIN-2023-06", 110],
+  ["CC-MAIN-2023-50", 108], ["CC-MAIN-2018-05", 106], ["wide12", 97], ["wide16", 96],
+  ["CC-MAIN-2024-18", 95], ["CC-MAIN-2023-14", 94], ["CC-MAIN-2014-35", 86], ["CC-MAIN-2024-26",
+  85], ["CC-MAIN-2017-26", 82], ["CC-MAIN-2020-10", 78], ["CC-MAIN-2024-42", 76],
+  ["CC-MAIN-2024-22", 76], ["CC-MAIN-2022-21", 75], ["CC-MAIN-2022-49", 73], ["CC-MAIN-2021-17",
+  71], ["CC-MAIN-2018-34", 71], ["CC-MAIN-2022-27", 70], ["CC-MAIN-2021-21", 68],
+  ["CC-MAIN-2024-46", 67], ["CC-MAIN-2024-30", 66], ["CC-MAIN-2024-33", 62], ["CC-MAIN-2024-38",
+  61], ["CC-MAIN-2021-25", 61], ["CC-MAIN-2023-40", 57], ["CC-MAIN-2020-05", 56],
+  ["wide11", 52], ["CC-MAIN-2022-40", 50], ["CC-MAIN-2022-33", 47], ["CC-MAIN-2024-51",
+  45], ["CC-MAIN-2021-43", 42], ["CC-MAIN-2021-10", 42], ["CC-MAIN-2020-34", 42],
+  ["CC-MAIN-2019-04", 42], ["CC-MAIN-2021-31", 41], ["CC-MAIN-2021-04", 41], ["CC-MAIN-2022-05",
+  38], ["CC-MAIN-2021-39", 37], ["CC-MAIN-2024-10", 35], ["CC-MAIN-2020-45", 26],
+  ["CC-MAIN-2017-51", 23], ["wide10", 22], ["CC-MAIN-2020-50", 22], ["CC-MAIN-2021-49",
+  21], ["CC-MAIN-2014-42", 17], ["CC-MAIN-2018-22", 16], ["CC-MAIN-2020-40", 14],
+  ["wide17", 13], ["CC-MAIN-2020-16", 13], ["wide5", 11], ["CC-MAIN-2016-44", 11],
+  ["CC-MAIN-2016-40", 10], ["survey3", 8], ["CC-MAIN-2016-30", 8], ["CC-MAIN-2015-11",
+  8], ["CC-MAIN-2017-04", 7], ["wide15", 6], ["CC-MAIN-2015-18", 6], ["CC-MAIN-2015-48",
+  5], ["wide2", 3], ["CC-MAIN-2018-43", 2], ["wide6", 1]]'
+docs_langs: '[[0.0, 2], [0.1, 27], [0.2, 45], [0.3, 88], [0.4, 42], [0.5, 319], [0.6,
+  233], [0.7, 372], [0.8, 653], [0.9, 663], [1.0, 1194]]'
+docs_segments: '[[1, 370], [2, 172], [3, 282], [4, 222], [5, 180], [6, 240], [7, 249],
+  [8, 250], [9, 130], [10, 117], [11, 145], [12, 100], [13, 86], [14, 73], [15, 47],
+  [16, 44], [17, 43], [18, 60], [19, 37], [20, 28], [21, 24], [22, 36], [23, 29],
+  [24, 28], [25, 27], [26, 24], [27, 23], [28, 21], [29, 23], [30, 20], [31, 19],
+  [32, 42], [33, 22], [34, 18], [35, 18], [36, 16], [37, 8], [38, 15], [39, 6], [40,
+  8], [41, 8], [42, 11], [43, 12], [44, 10], [45, 16], [46, 6], [47, 8], [48, 7],
+  [49, 8], [50, 12], [51, 18], [52, 9], [53, 4], [54, 6], [55, 10], [56, 9], [57,
+  6], [58, 7], [59, 3], [60, 5], [61, 5], [62, 2], [63, 2], [64, 6], [65, 4], [66,
+  5], [67, 3], [68, 3], [69, 3], [70, 4], [71, 1], [72, 3], [73, 7], [75, 2], [76,
+  2], [77, 3], [78, 2], [80, 1], [81, 6], [82, 4], [83, 2], [84, 4], [85, 3], [86,
+  2], [87, 2], [88, 1], [89, 4], [90, 5], [91, 3], [92, 2], [94, 1], [95, 3], [96,
+  1], [97, 2], [98, 3], [100, 1], [102, 1], [103, 1], [104, 3], [105, 2], [108, 1],
+  [114, 2], [115, 1], [116, 2], [117, 1], [125, 1], [127, 2], [128, 1], [129, 1],
+  [131, 3], [135, 1], [136, 1], [140, 1], [144, 1], [149, 1], [150, 1], [153, 1],
+  [162, 1], [163, 1], [164, 1], [166, 1], [168, 1], [174, 1], [176, 1], [179, 1],
+  [183, 1], [196, 1], [200, 1], [207, 1], [211, 1], [248, 1], [281, 1], [321, 1],
+  [345, 1], [376, 1], [404, 1], [534, 1], [978, 1], [1141, 1], [1236, 1], [1588, 1],
+  [1706, 1]]'
+docs_segments_mean: 18
+docs_segments_median: 8
+docs_top100_domains: '[["fakan.ml", 457], ["rfi.fr", 386], ["dokotoro.org", 297],
+  ["bible.is", 259], ["voabambara.com", 196], ["wikipedia.org", 179], ["donkibaru.ml",
+  167], ["islamhouse.com", 161], ["thieme.com", 128], ["jw.org", 116], ["wordpress.com",
+  107], ["ana-kids.net", 90], ["voa.gov", 81], ["iqna.ir", 55], ["zhitov.ru", 43],
+  ["breakeveryyoke.com", 29], ["sanita.toscana.it", 28], ["toutafrica.com", 26], ["sicubeshop.com",
+  25], ["mali-pense.net", 21], ["nxcdmmy.com", 19], ["realsuntime.com", 18], ["player.fm",
+  18], ["fasokan.com", 18], ["db-city.com", 18], ["coastsystems.net", 18], ["earthquakes24.com",
+  17], ["divmagic.com", 17], ["alimamali.com", 17], ["lemonde.fr", 16], ["kahnou.com",
+  16], ["twr360.org", 15], ["opexflow.com", 15], ["codicepostale.co", 15], ["oraesatta.co",
+  13], ["gsartificial.com", 13], ["amap.ml", 13], ["sciencegraph.net", 12], ["radiowebsite.co",
+  11], ["afrikalyrics.com", 11], ["scirp.org", 10], ["giveamenu.com", 9], ["jucelinoluz.news",
+  8], ["ikna.ir", 8], ["distance2.com", 8], ["codethoi.com", 8], ["wikimedia.org",
+  7], ["oratlas.com", 7], ["sewone.africa", 6], ["openedition.org", 6], ["medic-help.ch",
+  6], ["lyrics.com", 6], ["globalsouvenirshop.com", 6], ["expulsesmaliens.info", 6],
+  ["bible.com", 6], ["sejoygroup.com", 5], ["kasahorow.org", 5], ["ebible.org", 5],
+  ["sensagent.com", 4], ["ohchr.org", 4], ["moresiteslike.org", 4], ["kayira.info",
+  4], ["jungyulkim.com", 4], ["hexup.tech", 4], ["chinasprayer.com", 4], ["bibles.org",
+  4], ["balikukalansoba.org", 4], ["accessagriculture.org", 4], ["triphun.com", 3],
+  ["plagiarism-detector.com", 3], ["muziekweb.nl", 3], ["mishenin-art-studio.com",
+  3], ["malifootball.com", 3], ["hangaotech.com", 3], ["encyclocine.com", 3], ["ebay.fr",
+  3], ["classicistranieri.com", 3], ["amarenkama.com", 3], ["africultures.com", 3],
+  ["wojakugh.com", 2], ["winamp.com", 2], ["wikisource.org", 2], ["wikiplanet.click",
+  2], ["wikibooks.org", 2], ["weloveukulele.com", 2], ["vietnamimmigration.org", 2],
+  ["uzone-group.com", 2], ["tvlakru.com", 2], ["tobaccodeath.com", 2], ["tikder.com",
+  2], ["team-mfg.com", 2], ["soninkara.org", 2], ["soninkara.com", 2], ["simon-marius.net",
+  2], ["scribd.com", 2], ["rapatriement.com", 2], ["radioline.co", 2], ["planeteterreaterretv.bj",
+  2], ["planete-senegal.com", 2], ["orange.com", 2]]'
+docs_top100_tld: '[["com", 1095], ["org", 697], ["ml", 644], ["fr", 414], ["is", 259],
+  ["net", 163], ["gov", 81], ["ir", 63], ["ru", 47], ["co", 41], ["toscana.it", 28],
+  ["fm", 20], ["info", 11], ["ch", 9], ["news", 8], ["de", 6], ["africa", 6], ["tech",
+  4], ["nl", 3], ["win", 2], ["lol", 2], ["edu", 2], ["click", 2], ["bj", 2], ["az",
+  2], ["xyz", 1], ["ws", 1], ["top", 1], ["tn", 1], ["sa", 1], ["pub", 1], ["no",
+  1], ["mobi", 1], ["ma", 1], ["it", 1], ["io", 1], ["gov.bf", 1], ["fun", 1], ["film",
+  1], ["eu", 1], ["edu.kw", 1], ["edu.jo", 1], ["dk", 1], ["com.tr", 1], ["co.za",
+  1], ["cn", 1], ["cf", 1], ["cat", 1], ["ca", 1], ["biz", 1], ["ac.uk", 1]]'
+docs_total: 3638
+docs_wds: '[[5.0, 98], [5.1, 89], [5.2, 83], [5.3, 63], [5.4, 66], [5.5, 59], [5.6,
+  68], [5.7, 55], [5.8, 66], [5.9, 66], [6.0, 60], [6.1, 64], [6.2, 59], [6.3, 75],
+  [6.4, 69], [6.5, 73], [6.6, 61], [6.7, 90], [6.8, 96], [6.9, 60], [7.0, 80], [7.1,
+  96], [7.2, 100], [7.3, 111], [7.4, 99], [7.5, 147], [7.6, 142], [7.7, 128], [7.8,
+  170], [7.9, 182], [8.0, 175], [8.1, 193], [8.2, 115], [8.3, 95], [8.4, 77], [8.5,
+  74], [8.6, 91], [8.7, 35], [8.8, 38], [8.9, 20], [9.0, 19], [9.1, 18], [9.2, 4],
+  [9.3, 8], [9.5, 1]]'
+sentence_pairs: 64632
+src_bytes: 12077167
+src_chars: 11222879
+src_pii: 60
+src_tokens: 2617136
+unique_sents: 51831
+src_sent_tokens: '[[1, 3438], [2, 4244], [3, 3159], [4, 2468], [5, 2090], [6, 1969],
+  [7, 1803], [8, 2305], [9, 1500], [10, 1634], [11, 1335], [12, 1239], [13, 1197],
+  [14, 1185], [15, 1628], [16, 976], [17, 1030], [18, 951], [19, 895], [20, 846],
+  [21, 862], [22, 726], [23, 743], [24, 618], [25, 600], [26, 603], [27, 600], [28,
+  531], [29, 500], [30, 480], [31, 501], [32, 456], [33, 441], [34, 456], [35, 394],
+  [36, 437], [37, 401], [38, 381], [39, 393], [40, 384], [41, 308], [42, 413], [43,
+  351], [44, 423], [45, 429], [46, 411], [47, 334], [48, 311], [49, 289], [50, 338],
+  [51, 293], [52, 268], [53, 334], [54, 273], [55, 285], [56, 236], [57, 343], [58,
+  388], [59, 250], [60, 273], [61, 264], [62, 238], [63, 218], [64, 212], [65, 200],
+  [66, 218], [67, 219], [68, 201], [69, 181], [70, 212], [71, 204], [72, 167], [73,
+  178], [74, 175], [75, 153], [76, 151], [77, 138], [78, 151], [79, 120], [80, 148],
+  [81, 133], [82, 128], [83, 135], [84, 140], [85, 150], [86, 122], [87, 127], [88,
+  98], [89, 118], [90, 125], [91, 105], [92, 126], [93, 92], [94, 129], [95, 106],
+  [96, 103], [97, 78], [98, 97], [99, 89], [100, 77], [101, 95], [102, 93], [103,
+  94], [104, 90], [105, 87], [106, 86], [107, 73], [108, 91], [109, 72], [110, 83],
+  [111, 82], [112, 76], [113, 78], [114, 89], [115, 66], [116, 67], [117, 68], [118,
+  72], [119, 48], [120, 76], [121, 52], [122, 59], [123, 65], [124, 70], [125, 53],
+  [126, 57], [127, 38], [128, 54], [129, 42], [130, 40], [131, 51], [132, 62], [133,
+  49], [134, 49], [135, 49], [136, 39], [137, 43], [138, 39], [139, 41], [140, 36],
+  [141, 54], [142, 41], [143, 34], [144, 49], [145, 38], [146, 42], [147, 29], [148,
+  37], [149, 30], [150, 24], [151, 27], [152, 34], [153, 30], [154, 36], [155, 32],
+  [156, 36], [157, 31], [158, 27], [159, 38], [160, 27], [161, 44], [162, 24], [163,
+  42], [164, 27], [165, 38], [166, 27], [167, 32], [168, 28], [169, 33], [170, 32],
+  [171, 29], [172, 30], [173, 24], [174, 33], [175, 17], [176, 21], [177, 20], [178,
+  26], [179, 24], [180, 13], [181, 28], [182, 16], [183, 24], [184, 20], [185, 33],
+  [186, 22], [187, 20], [188, 20], [189, 14], [190, 15], [191, 18], [192, 18], [193,
+  28], [194, 18], [195, 17], [196, 15], [197, 15], [198, 18], [199, 20], [200, 23],
+  [201, 7], [202, 16], [203, 10], [204, 16], [205, 21], [206, 13], [207, 11], [208,
+  12], [209, 14], [210, 16], [211, 17], [212, 11], [213, 20], [214, 22], [215, 12],
+  [216, 14], [217, 12], [218, 5], [219, 9], [220, 14], [221, 15], [222, 16], [223,
+  13], [224, 7], [225, 9], [226, 10], [227, 13], [228, 12], [229, 5], [230, 12], [231,
+  7], [232, 10], [233, 8], [234, 13], [235, 8], [236, 6], [237, 8], [238, 7], [239,
+  10], [240, 12], [241, 7], [242, 8], [243, 5], [244, 7], [245, 4], [246, 6], [247,
+  4], [248, 11], [249, 7], [250, 12], [251, 7], [252, 6], [253, 6], [254, 7], [255,
+  2], [256, 8], [257, 3], [258, 9], [259, 5], [260, 3], [261, 10], [262, 11], [263,
+  4], [264, 2], [265, 9], [266, 8], [267, 7], [268, 10], [269, 5], [270, 8], [271,
+  4], [272, 4], [273, 7], [274, 2], [275, 3], [276, 2], [277, 4], [278, 6], [279,
+  2], [280, 8], [281, 6], [282, 6], [284, 5], [285, 5], [286, 5], [287, 7], [288,
+  3], [289, 3], [290, 4], [291, 6], [292, 4], [293, 1], [294, 2], [295, 5], [296,
+  6], [297, 4], [298, 4], [299, 3], [301, 1], [302, 4], [303, 3], [304, 2], [305,
+  3], [306, 2], [307, 7], [308, 3], [309, 2], [310, 3], [311, 1], [312, 1], [313,
+  2], [314, 5], [316, 4], [318, 3], [319, 4], [320, 3], [321, 1], [322, 3], [323,
+  6], [324, 1], [325, 2], [326, 2], [327, 3], [328, 3], [329, 4], [330, 1], [332,
+  3], [333, 1], [334, 1], [335, 4], [337, 1], [338, 1], [339, 1], [340, 3], [341,
+  1], [342, 2], [343, 1], [344, 1], [345, 1], [346, 1], [347, 5], [349, 1], [350,
+  1], [351, 2], [353, 4], [354, 3], [355, 1], [356, 4], [357, 2], [358, 1], [359,
+  1], [360, 3], [361, 4], [362, 4], [363, 2], [364, 3], [365, 2], [368, 3], [369,
+  2], [370, 3], [371, 2], [372, 2], [374, 1], [375, 4], [376, 4], [377, 1], [378,
+  2], [380, 1], [381, 1], [382, 3], [383, 1], [384, 1], [385, 2], [386, 1], [387,
+  3], [388, 2], [389, 2], [390, 1], [391, 1], [393, 1], [394, 2], [395, 2], [396,
+  3], [397, 2], [398, 2], [399, 1], [401, 1], [403, 1], [406, 1], [407, 1], [409,
+  1], [411, 3], [412, 1], [413, 2], [414, 1], [415, 2], [417, 1], [419, 2], [420,
+  1], [421, 1], [423, 1], [425, 1], [427, 1], [429, 1], [430, 2], [431, 2], [433,
+  1], [437, 1], [438, 1], [441, 1], [443, 1], [444, 1], [445, 1], [447, 1], [448,
+  2], [450, 1], [451, 3], [452, 2], [453, 1], [454, 3], [456, 1], [458, 1], [459,
+  2], [464, 2], [465, 2], [470, 1], [471, 2], [473, 1], [475, 1], [476, 1], [477,
+  1], [478, 2], [482, 2], [488, 1], [489, 1], [491, 2], [495, 4], [496, 2], [497,
+  1], [499, 2], [501, 2], [502, 1], [504, 1], [505, 4], [508, 1], [509, 1], [510,
+  1], [513, 2], [515, 1], [516, 2], [519, 1], [521, 2], [522, 1], [523, 1], [525,
+  1], [529, 1], [534, 1], [535, 2], [548, 1], [551, 2], [553, 1], [558, 2], [561,
+  1], [563, 1], [564, 2], [565, 1], [566, 1], [567, 1], [569, 1], [570, 1], [573,
+  1], [575, 1], [576, 1], [583, 3], [590, 2], [591, 1], [592, 1], [596, 1], [598,
+  1], [601, 2], [606, 1], [611, 1], [613, 1], [614, 2], [615, 1], [617, 1], [618,
+  1], [619, 1], [620, 2], [625, 1], [626, 1], [628, 2], [635, 1], [636, 1], [643,
+  1], [651, 2], [652, 1], [655, 1], [660, 1], [662, 1], [663, 1], [670, 1], [672,
+  1], [680, 1], [683, 2], [684, 2], [687, 1], [690, 2], [694, 1], [698, 1], [702,
+  1], [703, 1], [706, 1], [708, 1], [714, 3], [716, 2], [718, 1], [723, 1], [726,
+  1], [729, 1], [735, 1], [741, 1], [742, 1], [749, 1], [755, 2], [756, 1], [758,
+  1], [761, 1], [762, 1], [764, 1], [766, 1], [769, 1], [777, 1], [780, 1], [783,
+  1], [784, 2], [789, 1], [790, 1], [794, 2], [798, 1], [804, 2], [806, 1], [809,
+  1], [810, 1], [814, 1], [815, 1], [816, 1], [818, 1], [824, 1], [826, 1], [833,
+  2], [834, 1], [837, 2], [839, 1], [844, 1], [847, 4], [855, 2], [856, 1], [857,
+  1], [865, 1], [866, 1], [872, 2], [876, 2], [879, 2], [882, 2], [887, 1], [889,
+  1], [890, 1], [895, 3], [897, 1], [903, 1], [904, 1], [905, 1], [907, 1], [913,
+  1], [916, 1], [920, 1], [923, 1], [924, 1], [926, 2], [932, 2], [934, 1], [937,
+  1], [947, 1], [949, 1], [951, 1], [953, 1], [955, 1], [957, 1], [964, 1], [969,
+  1], [980, 1], [981, 1], [984, 1], [985, 1], [988, 1], [989, 1], [1001, 1], [1005,
+  1], [1010, 1], [1012, 1], [1020, 1], [1025, 1], [1038, 1], [1040, 2], [1044, 1],
+  [1048, 1], [1051, 1], [1062, 1], [1074, 1], [1081, 1], [1089, 2], [1091, 1], [1096,
+  1], [1098, 1], [1099, 1], [1101, 2], [1102, 1], [1105, 1], [1106, 1], [1107, 1],
+  [1111, 1], [1112, 1], [1118, 1], [1120, 1], [1126, 2], [1129, 1], [1130, 1], [1131,
+  1], [1133, 1], [1149, 1], [1151, 2], [1155, 2], [1162, 1], [1163, 1], [1168, 1],
+  [1176, 1], [1187, 1], [1191, 2], [1192, 2], [1194, 2], [1197, 1], [1203, 1], [1206,
+  1], [1207, 1], [1212, 1], [1215, 1], [1217, 1], [1220, 3], [1223, 1], [1226, 1],
+  [1229, 1], [1236, 1], [1242, 1], [1248, 1], [1261, 1], [1262, 1], [1269, 1], [1304,
+  1], [1308, 1], [1309, 1], [1335, 1], [1339, 1], [1340, 1], [1348, 1], [1350, 1],
+  [1352, 1], [1357, 1], [1359, 1], [1363, 1], [1369, 1], [1388, 1], [1389, 1], [1390,
+  1], [1396, 1], [1417, 1], [1431, 1], [1432, 1], [1437, 1], [1441, 1], [1442, 1],
+  [1458, 1], [1465, 1], [1492, 1], [1493, 1], [1509, 1], [1513, 1], [1519, 1], [1528,
+  1], [1537, 1], [1538, 1], [1559, 1], [1563, 1], [1570, 1], [1573, 1], [1594, 1],
+  [1601, 1], [1632, 1], [1648, 1], [1649, 1], [1653, 2], [1664, 1], [1673, 1], [1674,
+  1], [1710, 1], [1733, 1], [1739, 1], [1749, 1], [1782, 1], [1803, 1], [1866, 1],
+  [1878, 1], [1904, 1], [1910, 1], [1913, 2], [1938, 1], [1964, 1], [1995, 1], [2059,
+  1], [2092, 1], [2138, 1], [2168, 1], [2255, 1], [2315, 1], [2456, 1], [2474, 1],
+  [2565, 1], [2855, 1], [3755, 1], [4852, 1], [5780, 1]]'
+src_sent_tokens_mean: 40
+src_sent_tokens_median: 17
+src_unique_sents: '[[1, 1219], [2, 2021], [3, 1718], [4, 1808], [5, 1618], [6, 1537],
+  [7, 1434], [8, 1855], [9, 1269], [10, 1349], [11, 1209], [12, 1080], [13, 1063],
+  [14, 1021], [15, 1304], [16, 881], [17, 910], [18, 848], [19, 797], [20, 767], [21,
+  739], [22, 662], [23, 662], [24, 543], [25, 559], [26, 535], [27, 523], [28, 476],
+  [29, 459], [30, 444], [31, 454], [32, 427], [33, 407], [34, 422], [35, 379], [36,
+  382], [37, 371], [38, 363], [39, 332], [40, 370], [41, 282], [42, 323], [43, 334],
+  [44, 324], [45, 318], [46, 299], [47, 302], [48, 277], [49, 275], [50, 283], [51,
+  271], [52, 254], [53, 285], [54, 261], [55, 258], [56, 229], [57, 237], [58, 227],
+  [59, 235], [60, 253], [61, 231], [62, 218], [63, 202], [64, 202], [65, 189], [66,
+  193], [67, 198], [68, 190], [69, 172], [70, 157], [71, 183], [72, 155], [73, 170],
+  [74, 161], [75, 144], [76, 144], [77, 128], [78, 142], [79, 115], [80, 138], [81,
+  123], [82, 124], [83, 126], [84, 124], [85, 139], [86, 117], [87, 116], [88, 92],
+  [89, 112], [90, 121], [91, 104], [92, 121], [93, 88], [94, 127], [95, 102], [96,
+  97], [97, 77], [98, 92], [99, 84], [100, 71], [101, 92], [102, 90], [103, 90], [104,
+  86], [105, 82], [106, 81], [107, 73], [108, 86], [109, 66], [110, 79], [111, 79],
+  [112, 73], [113, 72], [114, 86], [115, 63], [116, 66], [117, 62], [118, 70], [119,
+  47], [120, 74], [121, 52], [122, 57], [123, 64], [124, 67], [125, 52], [126, 57],
+  [127, 38], [128, 50], [129, 42], [130, 39], [131, 48], [132, 59], [133, 48], [134,
+  49], [135, 46], [136, 39], [137, 43], [138, 39], [139, 41], [140, 36], [141, 54],
+  [142, 39], [143, 34], [144, 48], [145, 38], [146, 40], [147, 29], [148, 35], [149,
+  29], [150, 24], [151, 27], [152, 31], [153, 30], [154, 36], [155, 32], [156, 35],
+  [157, 30], [158, 27], [159, 38], [160, 24], [161, 42], [162, 23], [163, 39], [164,
+  27], [165, 35], [166, 27], [167, 30], [168, 27], [169, 31], [170, 32], [171, 29],
+  [172, 29], [173, 24], [174, 33], [175, 17], [176, 21], [177, 20], [178, 26], [179,
+  24], [180, 13], [181, 28], [182, 15], [183, 24], [184, 20], [185, 31], [186, 19],
+  [187, 20], [188, 20], [189, 14], [190, 15], [191, 18], [192, 18], [193, 28], [194,
+  18], [195, 17], [196, 14], [197, 15], [198, 17], [199, 19], [200, 23], [201, 7],
+  [202, 16], [203, 10], [204, 15], [205, 20], [206, 13], [207, 11], [208, 11], [209,
+  14], [210, 16], [211, 16], [212, 11], [213, 15], [214, 19], [215, 12], [216, 14],
+  [217, 12], [218, 5], [219, 9], [220, 14], [221, 15], [222, 16], [223, 13], [224,
+  7], [225, 9], [226, 10], [227, 13], [228, 12], [229, 5], [230, 12], [231, 7], [232,
+  10], [233, 8], [234, 13], [235, 8], [236, 6], [237, 8], [238, 5], [239, 9], [240,
+  12], [241, 7], [242, 8], [243, 5], [244, 7], [245, 3], [246, 5], [247, 4], [248,
+  11], [249, 7], [250, 12], [251, 7], [252, 6], [253, 6], [254, 7], [255, 2], [256,
+  8], [257, 3], [258, 9], [259, 5], [260, 3], [261, 10], [262, 10], [263, 4], [264,
+  2], [265, 9], [266, 8], [267, 7], [268, 9], [269, 5], [270, 7], [271, 4], [272,
+  4], [273, 7], [274, 2], [275, 2], [276, 2], [277, 3], [278, 6], [279, 2], [280,
+  8], [281, 6], [282, 6], [284, 4], [285, 5], [286, 5], [287, 7], [288, 3], [289,
+  3], [290, 4], [291, 6], [292, 4], [293, 1], [294, 2], [295, 5], [296, 6], [297,
+  4], [298, 4], [299, 3], [301, 1], [302, 4], [303, 3], [304, 2], [305, 3], [306,
+  2], [307, 7], [308, 3], [309, 2], [310, 3], [311, 1], [312, 1], [313, 2], [314,
+  5], [316, 4], [318, 3], [319, 4], [320, 3], [321, 1], [322, 3], [323, 6], [324,
+  1], [325, 2], [326, 2], [327, 3], [328, 3], [329, 4], [330, 1], [332, 3], [333,
+  1], [334, 1], [335, 4], [337, 1], [338, 1], [339, 1], [340, 3], [341, 1], [342,
+  2], [343, 1], [344, 1], [345, 1], [346, 1], [347, 5], [349, 1], [350, 1], [351,
+  2], [353, 4], [354, 3], [355, 1], [356, 4], [357, 2], [358, 1], [359, 1], [360,
+  1], [361, 4], [362, 4], [363, 2], [364, 3], [365, 2], [368, 3], [369, 2], [370,
+  3], [371, 2], [372, 2], [374, 1], [375, 3], [376, 4], [377, 1], [378, 2], [380,
+  1], [381, 1], [382, 3], [383, 1], [384, 1], [385, 2], [386, 1], [387, 3], [388,
+  2], [389, 2], [390, 1], [391, 1], [393, 1], [394, 2], [395, 2], [396, 3], [397,
+  2], [398, 2], [399, 1], [401, 1], [403, 1], [406, 1], [407, 1], [409, 1], [411,
+  3], [412, 1], [413, 2], [414, 1], [415, 2], [417, 1], [419, 2], [420, 1], [421,
+  1], [423, 1], [425, 1], [427, 1], [429, 1], [430, 2], [431, 2], [433, 1], [437,
+  1], [438, 1], [441, 1], [443, 1], [444, 1], [445, 1], [447, 1], [448, 2], [450,
+  1], [451, 3], [452, 2], [453, 1], [454, 3], [456, 1], [458, 1], [459, 2], [464,
+  2], [465, 2], [470, 1], [471, 2], [473, 1], [475, 1], [476, 1], [477, 1], [478,
+  2], [482, 2], [488, 1], [489, 1], [491, 2], [495, 4], [496, 2], [497, 1], [499,
+  2], [501, 2], [502, 1], [504, 1], [505, 4], [508, 1], [509, 1], [510, 1], [513,
+  2], [515, 1], [516, 2], [519, 1], [521, 2], [522, 1], [523, 1], [525, 1], [529,
+  1], [534, 1], [535, 2], [548, 1], [551, 2], [553, 1], [558, 2], [561, 1], [563,
+  1], [564, 2], [565, 1], [566, 1], [567, 1], [569, 1], [570, 1], [573, 1], [575,
+  1], [576, 1], [583, 2], [590, 2], [591, 1], [592, 1], [596, 1], [598, 1], [601,
+  2], [606, 1], [611, 1], [613, 1], [614, 2], [615, 1], [617, 1], [618, 1], [619,
+  1], [620, 2], [625, 1], [626, 1], [628, 2], [635, 1], [636, 1], [643, 1], [651,
+  2], [652, 1], [655, 1], [660, 1], [662, 1], [663, 1], [670, 1], [672, 1], [680,
+  1], [683, 2], [684, 2], [687, 1], [690, 2], [694, 1], [698, 1], [702, 1], [703,
+  1], [706, 1], [708, 1], [714, 3], [716, 2], [718, 1], [723, 1], [726, 1], [729,
+  1], [735, 1], [741, 1], [742, 1], [749, 1], [755, 2], [756, 1], [758, 1], [761,
+  1], [762, 1], [764, 1], [766, 1], [769, 1], [777, 1], [780, 1], [783, 1], [784,
+  2], [789, 1], [790, 1], [794, 2], [798, 1], [804, 2], [806, 1], [809, 1], [810,
+  1], [814, 1], [815, 1], [816, 1], [818, 1], [824, 1], [826, 1], [833, 2], [834,
+  1], [837, 2], [839, 1], [844, 1], [847, 4], [855, 2], [856, 1], [857, 1], [865,
+  1], [866, 1], [872, 2], [876, 2], [879, 2], [882, 2], [887, 1], [889, 1], [890,
+  1], [895, 3], [897, 1], [903, 1], [904, 1], [905, 1], [907, 1], [913, 1], [916,
+  1], [920, 1], [923, 1], [924, 1], [926, 2], [932, 2], [934, 1], [937, 1], [947,
+  1], [949, 1], [951, 1], [953, 1], [955, 1], [957, 1], [964, 1], [969, 1], [980,
+  1], [981, 1], [984, 1], [985, 1], [988, 1], [989, 1], [1001, 1], [1005, 1], [1010,
+  1], [1012, 1], [1020, 1], [1025, 1], [1038, 1], [1040, 2], [1044, 1], [1048, 1],
+  [1051, 1], [1062, 1], [1074, 1], [1081, 1], [1089, 1], [1091, 1], [1096, 1], [1098,
+  1], [1099, 1], [1101, 2], [1102, 1], [1105, 1], [1106, 1], [1107, 1], [1111, 1],
+  [1112, 1], [1118, 1], [1120, 1], [1126, 2], [1129, 1], [1130, 1], [1131, 1], [1133,
+  1], [1149, 1], [1151, 2], [1155, 2], [1162, 1], [1163, 1], [1168, 1], [1176, 1],
+  [1187, 1], [1191, 2], [1192, 2], [1194, 2], [1197, 1], [1203, 1], [1206, 1], [1207,
+  1], [1212, 1], [1215, 1], [1217, 1], [1220, 3], [1223, 1], [1226, 1], [1229, 1],
+  [1236, 1], [1242, 1], [1248, 1], [1261, 1], [1262, 1], [1269, 1], [1304, 1], [1308,
+  1], [1309, 1], [1335, 1], [1339, 1], [1340, 1], [1348, 1], [1350, 1], [1352, 1],
+  [1357, 1], [1359, 1], [1363, 1], [1369, 1], [1388, 1], [1389, 1], [1390, 1], [1396,
+  1], [1417, 1], [1431, 1], [1432, 1], [1437, 1], [1441, 1], [1442, 1], [1458, 1],
+  [1465, 1], [1492, 1], [1493, 1], [1509, 1], [1513, 1], [1519, 1], [1528, 1], [1537,
+  1], [1538, 1], [1559, 1], [1563, 1], [1570, 1], [1573, 1], [1594, 1], [1601, 1],
+  [1632, 1], [1648, 1], [1649, 1], [1653, 2], [1664, 1], [1673, 1], [1674, 1], [1710,
+  1], [1733, 1], [1739, 1], [1749, 1], [1782, 1], [1803, 1], [1866, 1], [1878, 1],
+  [1904, 1], [1910, 1], [1913, 2], [1938, 1], [1964, 1], [1995, 1], [2059, 1], [2092,
+  1], [2138, 1], [2168, 1], [2255, 1], [2315, 1], [2456, 1], [2474, 1], [2565, 1],
+  [2855, 1], [3755, 1], [4852, 1], [5780, 1]]'
+src_langs: '[["en", 15406], ["tl", 6481], ["fr", 5888], ["su", 4952], ["cy", 3678],
+  ["it", 2000], ["de", 1579], ["id", 1571], ["es", 1429], ["fi", 1300], ["kn", 1257],
+  ["eo", 1173], ["ca", 1041], ["ms", 951], ["war", 757], ["so", 727], ["kw", 718],
+  ["eu", 714], ["tr", 679], ["gd", 594], ["sw", 575], ["hu", 573], ["hr", 541], ["ceb",
+  489], ["sr", 476], ["et", 463], ["zh", 426], ["pt", 407], ["pl", 350], ["ar", 317],
+  ["diq", 308], ["sl", 305], ["nl", 295], ["rm", 286], ["la", 279], ["sv", 262], ["jbo",
+  255], ["ilo", 205], ["az", 203], ["br", 197], ["ro", 193], ["bh", 193], ["uz", 190],
+  ["cs", 189], ["ru", 183], ["ur", 149], ["nb", 139], ["lmo", 135], ["tg", 122], ["jv",
+  122], ["ja", 121], ["lt", 120], ["da", 119], ["vi", 115], ["mt", 107], ["ku", 106],
+  ["ta", 103], ["bn", 103], ["ht", 95], ["ga", 90], ["uk", 82], ["lo", 81], ["oc",
+  76], ["sah", 75], ["ne", 75], ["vo", 74], ["qu", 73], ["ml", 71], ["io", 66], ["fy",
+  65], ["pms", 60], ["pam", 56], ["sq", 48], ["gu", 47], ["lb", 40], ["yo", 39], ["ko",
+  39], ["el", 39], ["fa", 36], ["mg", 32], ["gn", 32], ["als", 31], ["gl", 29], ["wa",
+  27], ["sk", 27], ["ia", 27], ["eml", 23], ["mrj", 22], ["ast", 21], ["pa", 20],
+  ["hi", 20], ["bs", 20], ["nn", 19], ["nds", 19], ["cbk", 19], ["bcl", 18], ["is",
+  17], ["ie", 14], ["gom", 14], ["ug", 13], ["th", 12], ["scn", 11], ["lez", 11],
+  ["an", 11], ["vec", 10], ["min", 9], ["lv", 9], ["arz", 8], ["af", 8], ["wuu", 7],
+  ["tt", 7], ["te", 7], ["ky", 7], ["kv", 7], ["co", 7], ["mn", 6], ["kk", 6], ["gv",
+  6], ["si", 5], ["pnb", 5], ["nap", 5], ["ce", 5], ["mr", 4], ["hy", 4], ["be", 4],
+  ["bar", 4], ["vep", 3], ["pfl", 3], ["new", 3], ["mk", 3], ["km", 3], ["hsb", 3],
+  ["bg", 3], ["azb", 3], ["tk", 2], ["mwl", 2], ["ckb", 2], ["am", 2], ["sc", 1],
+  ["os", 1], ["mzn", 1], ["my", 1], ["hif", 1], ["he", 1], ["dsb", 1], ["cv", 1]]'
+hardrules_tags: '{"not_too_long": 1059, "not_too_short": 9161, "length_ratio": 0,
+  "no_urls": 481, "no_bad_encoding": 8, "pii": 60}'
+sample: '["\"F\u025bn\u0272\u025bn\u025bma damin\u025bna!\\nAn ka WordPress j\u025b-ka-baara
+  b\u025b s\u0254r\u0254 sisan. I b\u025b Se k\u2019a K\u025b k\u2019i ka f\u025bn
+  kopilenw Lasegin WordPress Gutenberg s\u025bb\u025bnnik\u025blan k\u0254n\u0254
+  k\u2019a \u0272\u025bsin a ma.\\nDivMagic ka WordPress j\u025b-ka-baara b\u2019a
+  to i b\u025b se k\u2019i ka f\u025bnw kopilenw bila WordPress Gutenberg s\u025bb\u025bnnik\u025blan
+  k\u0254n\u0254 k\u2019a s\u0254r\u0254 i ma c\u025bsiri k\u025b. Nin f\u025b\u025br\u025b
+  in b\u025b danfara min b\u025b \u025bnt\u025brin\u025bti hakililadon ni WordPress
+  k\u0254n\u0254kow dab\u0254li c\u025b, o b\u025b k\u025b sababu ye k\u2019i ka baarak\u025bcogo
+  n\u0254g\u0254ya ani ka baara k\u025b ka \u0272\u025b ka t\u025bm\u025bn f\u0254l\u0254
+  kan.\\nDakun b\u025b\u025b kopi k\u025b ni digi kelen ye.\\nF\u025bn minnu kopilen
+  don, olu b\u025b u ka jaabi cogoyaw mara.\\nA b\u025b CSS \u0272\u025bnab\u0254
+  a y\u025br\u025bma WordPress b\u025bnkan kama.\\nA b\u025b f\u025bnw kopilenw s\u025bm\u025bntiya
+  ni hakilitigiya ye ka k\u025b Gutenberg bloki b\u025bnnenw ye.\\nWalasa ka baara
+  damin\u025b ni nin f\u025b\u025br\u025b in ye, i k\u2019a laj\u025b ko DivMagic
+  b\u0254ko laban b\u025b i bolo. WordPress j\u025b-ka-baara dab\u0254ra ka baara
+  k\u025b ka b\u0254 k\u025bsu k\u0254n\u0254 ni lab\u025bn w\u025br\u025b ma k\u025b.\\n\u00a9
+  2024 DivMagic, Inc. Hak\u025b b\u025b\u025b b\u025b a bolo.\"", "\"Yeelen\\nTitre
+  original :\\nR\u00e9alis\u00e9 par : Souleymane Ciss\u00e9\\nProduit par : Souleymane
+  Ciss\u00e9\\nMarie-Fran\u00e7oise Mascaro\\nJ\u00e9r\u00f4me Cl\u00e9ment\\nAtriascop\\nMidas\\nAtriascop
+  Paris\\nCNC\\nMinist\u00e8re fran\u00e7ais de la Coop\u00e9ration et du D\u00e9veloppement\\nGenre
+  : Conte social\\nDur\u00e9e : 01:45:00\\nAnn\u00e9e : 1987\\nDate de sortie en salle
+  : 02/12/1987\\nPays : Mali/France/Burkina Faso\\nActeurs\\nIssiaka Kane Niamanto
+  Sanogo Balla-Moussa Keita Ismaila Sarr Youssouf Tennin Ciss\u00e9 Koke Sangare Sidi
+  Jalo Youssouf Coulibaly Manzon Coumare Souleymane Coumare Sidi Diallo Nadje Doumbla
+  Zan Doumbla Bremira Dumbla Tienon Fone Sibiri Kone Sekou Konote Seyba M''Baye Toumani
+  Soumaoro Djemori Traor\u00e9 Dounanke Traor\u00e9 Med Hondo* Henri Virlojeux*\"",
+  "\"La Tour de Garde ani R\u00e9veillez-vous! s\u0254n ni s\u0254n gafeninw b\u0254len
+  kuraw kalan ani u ta int\u025brin\u025bti kan, ka fara s\u025bb\u025bn w\u025br\u025bw
+  kan. An ka gafew kalannen lam\u025bn fu, kan caman na. Wideyow laj\u025b walima
+  u ta kan caman na, bobo kanw fana sen b\u2019o la.\\nKan d\u0254 sugandi kanw sugandi
+  y\u0254r\u0254 la, ani \u0272inini k\u025by\u0254r\u0254 digi walasa ka s\u025bb\u025bnw
+  ni u k\u025bcogow ye minnu b\u025b s\u0254r\u0254 o kan na.\\nMun na an ka kan ka
+  Bibulu kalan?\\nSan 2016 tile saba laj\u025bba weleli s\u025bb\u025bn\\nBibulukalan
+  b\u025b k\u025b cogo di?\\nMun de b\u025b k\u025b Masaya So k\u0254n\u0254?\\nJ\u025bkulu
+  ka laj\u025bw welelli s\u025bb\u025bn\\nAla ka kuma kalanni \u0272\u025bmin\u025blan\\nD\u0254nniya
+  min b\u025b s\u0254r\u0254 Ala ka kuma k\u0254n\u0254\\nF\u025bn minnu s\u0254r\u0254la
+  tile saba laj\u025bba la\\nF\u025bn kura minnu s\u0254r\u0254la tile saba laj\u025bba
+  la, olu laj\u025b walima u ta int\u025brin\u025bti kan o tile saba laj\u025bba tile
+  kelen o kelen bannen k\u0254.\\nY\u025bl\u025bma minnu k\u025blen don s\u025bb\u025bn
+  k\u0254n\u0254 int\u025brin\u025bti kan laala olu t\u025b s\u0254r\u0254 s\u025bb\u025bn
+  k\u0254n\u0254 k\u025bn\u025bma.\"", "\"Sigida 19 Denbaw ni mat\u0254r\u0254niw
+  ka kunnafoniw\\nI n\u2019a f\u0254 an y\u2019a \u0272\u025bf\u0254 cogo min na sigida
+  tannan na, jiginni k\u0254f\u025b, muso b\u025b se ka dumuni sugu b\u025b\u025b
+  dun, k\u025br\u025bnk\u025br\u025bnnenya la: n\u0254n\u0254, foromazi, sh\u025b,
+  sh\u025bfan, sogo, jiriden ni nak\u0254f\u025bnw. Ni sh\u0254 d\u0254r\u0254n de
+  b\u025b aw bolo, a ka kan k\u2019o dun dumuni b\u025b\u025b la. N\u0254n\u0254 ni
+  n\u0254n\u0254ma f\u025bnw minnu b\u025b ji jigin ba sin na, a ka kan k\u2019olu
+  fana dun. A ka kan ka ji walima jimaf\u025bn caman min ka caya ka t\u025bm\u025b
+  a k\u0254r\u0254len kan. Balocogo \u0272uman b\u025b ji caman jigin denba sin na.\\nWaajibi
+  don denba k\u2019a y\u025br\u025b saniya jiginni don f\u0254l\u0254w la. Don f\u0254l\u0254w
+  la, a b\u025b se k\u2019a fari j\u0254si ni fini \u0272iginnen d\u0254 ye. Saniya
+  t\u025b t\u0254\u0254r\u0254 foyi lase m\u0254g\u0254 ma. Muso min mana tile mugan
+  k\u025b kobaliya la, o n\u2019a a den b\u025b\u025b b\u025b se ka bana s\u0254r\u0254.
+  Sani basi ka j\u0254 pewu, a b\u025b se k\u2019a ko ka s\u0254r\u0254 a ma don ji
+  la.\\nTile dama d\u0254 walima d\u0254g\u0254kun dama d\u0254 (tile 40 \u0272\u0254g\u0254n)
+  jiginni k\u0254f\u025b, muso ka kan:\\nJiginni k\u0254f\u025b, bana caman sababu
+  ye tinmin\u025bmuso ka saniya baliya ye i n\u2019a f\u0254 k\u2019a bolok\u0254ni
+  n\u0254g\u0254len don musoya k\u0254n\u0254.\\nJibaat\u0254banaw taamasi\u0272\u025bw:
+  y\u025br\u025by\u025br\u025bliw, farigan, kungolodimi walima k\u0254dimiw; tuma
+  d\u0254w la, k\u0254n\u0254dimi ani jin\u0254g\u0254 kasa goman b\u0254li.\\nFura
+  3 b\u025b k\u025b ka jibaat\u0254bana furak\u025b: anpisilini pikiri b\u025b k\u025b
+  si\u0272\u025b fila. F\u0254l\u0254 ye pikiri garamu fila (2 g) ye, filanan ye garamu
+  kelen (1 g) ye si\u0272\u025b 4 tile k\u0254n\u0254. Ani fana, aw b\u025b zantamisini
+  (gentamicine) pikiri k\u2019a la si\u0272\u025b fila. F\u0254l\u0254, aw b\u025b
+  miligaramu 80 k\u025b a la. O k\u0254, aw b\u025b miligaramu 60 k\u025b a la si\u0272\u025b
+  saba tile k\u0254n\u0254. Fura sabanan ye metoronidaz\u0254li (m\u00e9tronidazole)
+  ye. Aw b\u025b o miligaramu 500 di a ma si\u0272\u025b saba tile k\u0254n\u0254.
+  Aw b\u025b t\u025bm\u025b ni nin fura ninnu dili ye fo ka se tile fila ma farigan
+  bannen k\u0254f\u025b.\\nJiginni k\u0254f\u025b, ni muso ka banaw ma ban joona,
+  aw b\u025b taa n\u2019a ye d\u0254g\u0254t\u0254r\u0254so la sani a ka juguya.\"",
+  "\"An ka La\u0272innin\\nMaciwe 19:14 Yesu y\u2018a f\u0254, \u2018 A ye demisenninw
+  to ye u ka na ne ma, ani aw kana u bali, ka sabuk\u025b nin de ye arijina masajamana.\u2019\\nBible
+  For Children be ye ka demisenninw k\u025b ka Yesu Krista d\u0254n ni Bibulu baro
+  ja maw tila tilali ye ani a mina suguya w\u025br\u025bw ka fara kunafodisira kan,
+  B\u0254nl\u0254l\u0254 kanna, talifoni / PDAw, s\u025bb\u025bnfura kurul\u025brimaw
+  ani gafe minw ni kurul\u025bri be k\u2019 u la, kan o kan ni demisen bese ka f\u0254
+  o b\u025b a la.\\nBibulu njiirinw ninnu be tila tila de duniya demisen miliy\u0254n
+  waa kelen ani miliy\u0254n segin c\u025b fu y\u0254r\u0254y\u0254r\u0254 n\u2019a
+  be se kak\u025b.\"", "\"\u00ab A ka kan an k\u2019an ka sugon d\u0254w hakilina
+  \u0272uman bila senkan yanni an k\u2019an miiri u la ten k\u2019u bila ka t\u025bm\u025b.
+  Yali a ma se, an k\u2019an ka togodala m\u0254g\u0254w sen don kunnafoni ni kuma\u0272\u0254g\u0254nya
+  t\u025bkinolozi kuraw la wa? Sira b\u025b\u025b kan, o jaabi ye \u0254w\u0254 ye
+  bawo a na k\u025b sababu ye u ka kunnafoniw s\u0254r\u0254, ka kunnafoniw di, ka
+  kuma\u0272\u0254g\u0254nya k\u025b ka hakilinaw falen falen ani k\u2019u seko ni
+  d\u0254nkow jira m\u0254g\u0254 w\u025br\u025bw la.\\nO t\u025b se ka k\u025b habada
+  f\u0254 ni an ye \u025bnt\u025brin\u025bti kalanw bila sen kan an ka sigidaw la
+  walasa ka togodala m\u0254g\u0254w taabolo d\u0254n nin baara k\u025b min\u025b
+  nafama ba in kun kan, u ma deli ka min ye kuma t\u025b ka maga a la. O la, an b\u2019a
+  d\u0254n an ka kan ka cogoya min bila sen ka walasa ka kunnafoni ni kuma\u0272\u0254g\u0254nya
+  t\u025bkinolozi kuraw lase an ka togodala m\u0254g\u0254 c\u025bsirilen ninnu ma.
+  O na k\u025b sababu ye u ka d\u0254nniya kuraw s\u0254r\u0254 \u025bnt\u025btin\u025bti
+  kan, minnu b\u2019u d\u025bm\u025b k\u2019u ka s\u025bn\u025bkow ni nak\u0254kow
+  yiriwa ani u ka b\u0254n\u0254g\u0254la wale t\u0254w.\\nO de kama, \u025bnt\u025brin\u025bti
+  kalanni min bila la senkan poroz\u025b \u00ab Alisa an ma k\u025b hakilitigi ye
+  \u00bb f\u025b n\u2019o b\u025b ka k\u025b Boukary Konate f\u025b Mali, Albertine
+  ni Caroline, olu minnu nana ka b\u0254 Pari o kalan in kama ani Claire, n\u2019o
+  b\u2019a to Pari ka kalan in k\u025b, o kalan in taabolo \u0272\u025bna kos\u025bb\u025b
+  Segu dugu k\u0254n\u0254. (Aw b\u2019o jaw b\u025b\u025b s\u0254r\u0254 flickr kan).\\nKalan
+  in k\u025bra tile 5 k\u0254n\u0254, c\u025b ni muso b\u025b\u025b tun ye hak\u025b
+  kelen ye: c\u025b 5 ani muso 5 maak\u0254r\u0254ba kunda; c\u025bmannin 5 ani musomannin
+  5 demis\u025bn kunda. \u0190nt\u025brin\u025bti kalan in sen f\u025b, Caroline tun
+  b\u025b demis\u025bn ninnu kalan tubabukan na. Boukary Konate b\u025b t\u025bm\u025b
+  ni kalan in t\u0254 ye kalo fila k\u0254n\u0254 n\u2019an ka karam\u0254g\u0254
+  hakilitigi ninnu seginna ka taa Pari. U b\u2019u to Pari k\u2019an d\u025bm\u025b
+  kalan in na \u025bnt\u025brin\u025bti sira f\u025b.\\nAn ka m\u0254g\u0254 kalanta
+  ninnu c\u025bra, mayili tun b\u025b m\u0254g\u0254 kelen d\u0254r\u0254n de bolo
+  Gugolu \u00ab Google \u00bb kan, wa a tun b\u025b se cikan bilali n\u2019a kalanni
+  d\u0254r\u0254n de la. M\u0254g\u0254t\u0254w si tun t\u2019a d\u0254n \u025bnt\u025brin\u025bti
+  ye min ye. Bi, u b\u025b\u025b b\u025b se k\u2019u magow \u0272\u025bnab\u0254 \u025bnt\u025brin\u025bti
+  kan.\\nAn ka nin \u025bnt\u025brin\u025bti kalan siy\u025bn f\u0254l\u0254 in taabolo
+  \u0272\u025bna kos\u025bb\u025b bawo kalandenw ye f\u025bn caman kalan, u y\u2019a
+  jira an na fana k\u2019u ye f\u025bn caman faamu k\u2019a sabu k\u025b an ye kim\u025bli
+  fitinin minnu k\u2019u kunna ye \u025bnt\u025brin\u025bti kan. Kalan in sanga k\u0254n\u0254,
+  kalanden b\u025b\u025b tun b\u025b na waati la, u b\u025b\u025b tun b\u025b na don
+  don wa u y\u2019a jira an na fana k\u2019u ye nafa s\u0254r\u0254 a la.\\nKalan
+  in tun b\u025b \u0272\u025bsin m\u0254g\u0254w ma fana minnu ye bamanankan kalan.
+  O kalan in tun sinsinnen b\u025b kunnafoni carinni ni kunnafoni kalanni ma \u025bnt\u025brin\u025bti
+  kan Maneno Bamanankan \u0272\u025b kan. Dantig\u025bli sen f\u025b kalan in bant\u0254,
+  b\u025b\u025b y\u2019i sinsin an ka kanw donni kan ba la \u00ab Kunnafoni ni kuma\u0272\u0254g\u0254nya
+  t\u025bkinilozi kuraw \u00bb hukumu k\u0254n\u0254.\\nKalanden b\u025b\u025b fana
+  y\u2019i hakilina f\u0254 \u00ab hakilitigiya \u00bb kan. U y\u2019a jira ko hakilina
+  falen falen \u00ab hakilitigiya \u00bb kan, o ye wale ye min ka kan ka taa\u0272\u025b
+  walasa b\u025b\u025b ka se ka d\u0254 s\u0254r\u0254 hakilitigiw ka faamuya la.
+  U y\u2019a jira fana ko siti in nafa ka bon demis\u025bnw ma kos\u025bb\u025b.\\nDemis\u025bnw
+  fana ye daamu s\u0254r\u0254 u ka nin s\u025bg\u025bn lafiy\u025bnb\u0254 waati
+  in k\u0254n\u0254 k\u2019a sabu k\u025b u ka nin waati kunkurunin in kalan n\u2019a
+  tulon k\u025b ye Caroline f\u025b.\\nNin \u025bnt\u025brin\u025bti kalan kun f\u0254l\u0254
+  y\u2019a jira an na ko togodala m\u0254g\u0254w mago b\u025b \u025bnt\u025brin\u025bti
+  \u0272\u025bf\u0254li n\u2019a kalanni d\u0254r\u0254n de la walsa u ka k\u025b
+  \u025bnt\u025brin\u025bti matarafabaw ye.\\nLaban na, kalanden b\u025b\u025b y\u2019a
+  jira k\u2019u nis\u0254ndiyara, u ye dugaw k\u025b fana walasa nin \u025bnt\u025brin\u025bti
+  kalan in ka carin Mali sigida b\u025b\u025b la walasa \u025bnt\u025brin\u025bti
+  ka d\u0254n fan b\u025b\u025b f\u025b.\\nU ye foli \u0272\u025bsin kos\u025bb\u025b
+  Oranzi ka d\u025bm\u025bnj\u025bkulu ma Mali la, ( la Fondation orange Mali) ONG
+  Jigitugut\u0254n m\u0254g\u0254w, ani m\u0254g\u0254 minnu b\u0254ra Pari ka na
+  an kalan f\u0254 Mali la yan ani m\u0254g\u0254 o m\u0254g\u0254 ye d\u025bm\u025b
+  ni hakilina \u0272uman k\u025b k\u2019an bila sira walasa nin kalan in ka se ka
+  k\u025b. An ye \u0272\u0254g\u0254n t\u025bg\u025b min\u025b.\\nAn y\u2019an lab\u025bn
+  ka ban ka taa kalan in damin\u025b Zeana Gara la sinin, tarata Utikalo tile 18 san
+  2009. Aw b\u025b se k\u2019o kunnafoniw b\u025b\u025b s\u0254r\u0254 siti kan.\\nPoroz\u025b
+  \u00ab Alisa an ma k\u025b hakilitigi ye tiwit\u025bri (twitter) sira ye @toujourspassage\\nPublicit\u00e9s\\nchacun
+  a fait preuve de ponctualit\u00e9\\nc\u2019est africain \u00e7\u00e0?\"", "\"Amerika
+  ka Kelenyalen Jamanaw\\nAmerika ka kelenyalen Jamanaw (a donnen ni Kelenyalen Jamanaw
+  Inglizi la United States of America walima United States, the US walima USA walima
+  Amerika) ye kurufa Shariyanbaju Fasojamana ye min lakafolen jamana biduuru la ani
+  kurufa Faaba. jamana fanba sigilen Saheli Amerika cema, tumamin a jamana binanani
+  ni shengin minu tugunen nyuwanna ani Washington (Washinton) DC faaba dalen Pasifiki
+  ani Atilantik kogojiw ninyuwance, a be danbo ni Kanada ye Saheli, ni M\u025bkisiki
+  worodugu.\"", "\"Uganda\\nUganda ka Fasojamana ye jamana das\u0254g\u0254len ye
+  K\u0254r\u0254n Afrika, a b\u025b danb\u0254 k\u0254r\u0254n f\u025b ni Kenya, saheli
+  f\u025b Sudan, tlebi f\u025b ni Kongo ka B\u025bj\u025bfanga Fasojamana, worodugutlebi
+  ni Rwanda, ani worodugu f\u025b ni Tanzania. Jamana k\u0254r\u0254nf\u025b fan b\u025b
+  talik\u025b fan caman na Dala Viktoria la ani Kenya ni Tanzania j\u025blen min na.
+  Uganda y\u2019a t\u0254g\u0254 ta Buganda Mansamara f\u025b, min b\u025b lakafolik\u025b
+  jamana worodugu fan caman na faaba Kampala b\u2019o la. Jona sigibaw d\u0254nnen
+  bii Uganda, kera donso jirikarilaw ye. Seginnen k\u0254 ni san 2000 ani san 1500
+  c\u025bla, Bantu f\u0254la m\u0254g\u0254, ad\u0254la minu b\u0254ra c\u025bma ani
+  tlebi Afrika, wilira ka n\u2019u sigi jamana k\u0254r\u0254nfe fan na. Ni jama kuluw
+  nara u bolo ani ka yiriwalik\u025b n\u025bg\u025bbaara \u0272ad\u0254w ye ani hakilina
+  kuraw sigi and mara lab\u025bnni kan. Kitara Mansamara taninaninan ani tanidurunan
+  k\u025bm\u025bdaw k\u0254n\u0254, b\u025b jiralik\u025b k\u025bjogo jonaw la lab\u025bnni
+  d\u0254nnen la. Bunoro-Kitara Mansamana tugura o k\u0254, k\u0254san na k\u025bm\u025bdaw
+  k\u0254n\u0254, Buganda ani Ankole.\\nA bo\u0273a b\u025b 241 038 km2 (bametri k\u025bn\u025b)
+  juk\u0254r\u0254 a jamanaden jate ye m\u0254g\u0254 41 487 965 (2016).\"", "\"F\u00f9rakeso
+  ka dem\u00e8 ka gn\u00e8si musso dunaw munu konoma do\\nAw bess\u00e8 ka kunafoni
+  soro f\u00f9rakeso ka dem\u00e8 mi gnesinendo duna musso kono maw ma\\nAw ka hak\u00e8
+  y\u00e8 furakeli djume y\u00e8?\\nYa jaamana kono musso kono maw b\u00e8 dem\u00e8
+  ka ta seg\u00e8 seg\u00e8 lu la dogotoros\u00f4 la wa a be fu fo ka tass\u00e9 na
+  djigina wati mi wa musso ma bo musso la I kera dunaye walima dugule aw b\u00e8 dama
+  ka kan\\nWa sariya y\u00e8 a yira kafo ni musso mi kono ni seb\u00e8 ta bolo a bess\u00e8
+  ka konoma ya seb\u00e8 gnini i na fo sariya ya fo togomi walassa aw bess\u00e8 ka
+  aw togo seb\u00e8 dem\u00e8 so la (SSR )\\nFurak\u00e8 seb\u00e8 b\u00e8 di hali
+  musso konoma tiema mubato a fana bess\u00e8 ka a togo seb\u00e8 dem\u00e8 so la
+  (SSR )\\nAw mago b\u00e8 muna walassa ka aw togo seb\u00e8 dem\u00e8 so la ni aw
+  bora dogotoros\u00f4 la?\\nWalassa ka furak\u00e8 seb\u00e8 soro musso munu konoma
+  do aw mago be:\\n- Seb\u00e8 mi bi bolo ko foto copi k\u00e8\\n- Konomaya seb\u00e8
+  ani i kan ka djigi watimi.\\n- Teburu ni o b\u00e8 ben ero tani nani ani tama biworo
+  ni fula\\n- I kugolo foto nani\\nNi aw y\u00e8 konoma ya seb\u00e8 gnamariyale soro
+  watimina walissa ka aw togo seb\u00e8 dem\u00e8 so la (SSR ) aw mago b\u00e8 :\\n-
+  Gnamariya seb\u00e8, walima aw y\u00e8 seb\u00e8 do watimina a y\u00e8 wari mi sara
+  o sebe\\n- K\u00e8neya seb\u00e8 ni nimoro ba kan\\n- Kalan seb\u00e8, walima i
+  y\u00e8 r\u00e9 ka s\u00e8be lab\u00e8 ne i kan kata yoro mina i ka sigi da la\\nDem\u00e8
+  so (SSR )kuntagala y\u00e8 Djoli munu y\u00e8 konoma ya seb\u00e8 soro?\\nAw bess\u00e8
+  ka aw togo seb\u00e8 dem\u00e8 so la (SSR )ka ta watimina a yira la ko aw konoma
+  do ani kalo woro kof\u00e8 fo kata se den wolo wati la\\nGnamariya seb\u00e8 b\u00e8
+  min\u00e8 aw la ni a y\u00e8 kono tchie y\u00e8, aw bess\u00e8 ka fali kalo woro
+  kof\u00e8 ni aw ma ko tchi y\u00e8 kata den wolo wati la, a bess\u00e8 ka fali fana
+  ni den fatula wolo wati la.\"", "\"Sigida 19 Denbaw ni mat\u0254r\u0254niw ka kunnafoniw\\nLadoncogo
+  k\u025br\u025bnk\u025br\u025bnnen ka \u0272\u025bsin den d\u0254g\u0254manniw ni
+  den sebaliw ma\\nNka bi den sebaliw (minnu t\u025b kilogaramu 2,5 b\u0254), ladoncogo
+  k\u025br\u025bnk\u025br\u025bnnen w\u025br\u025b b\u025b yen aw b\u025b se ka min
+  k\u025b. Ni aw b\u025b se, aw b\u025b taa ni a ye d\u0254g\u0254t\u0254r\u0254so
+  la. O denw suguya b\u025b bila funteni na w\u025bri k\u0254n\u0254 d\u0254g\u0254t\u0254r\u0254so
+  la.\\nA f\u0254ra ko ladoncogo w\u025br\u025b b\u025b yen min b\u025b wele ko kanguru
+  ka den ladoncogo. O b\u025b k\u025b denw na bana t\u025b den minnu na. Olu baw b\u025b
+  se ka u ladon nin cogo la:\\n- Aw b\u025b den lankolon to ka a da aw disi kan. (A
+  ka fisa ka duloki don min labilalen don).\\n- Aw b\u025b sin di a ma ni a nege ye
+  a min\u025b nka a ka fisa aw ka a di a ma l\u025bri 2 o l\u025bri 2.\\n- Ni aw b\u025b
+  aw da, aw b\u025b a k\u025b cogo b\u025b\u025b la den tilennen ka to.\\n- Aw b\u025b
+  den \u0272\u025b ni a k\u0254 ko don o don.\\n- Aw b\u025b aw jija den ka to funteni
+  na.\\nNi n\u025bn\u025b b\u025b, aw b\u025b fini w\u025br\u025bw fara den ka fini
+  kan, ka a kungolo datugu.\\n- Ni aw b\u025b taa aw ko walima ni aw b\u025b aw lafi\u0272\u025b,
+  aw b\u025b a \u0272ini den fa walima duden w\u025br\u025b f\u025b a ka kanguru ka
+  den ladoncogo k\u025b den na.\\n- Aw b\u025b to ka taa ni den ye d\u0254g\u0254t\u0254r\u0254so
+  la. Aw b\u025b aw jija ka den ka boloci b\u025b\u025b dafa. (Aw ye gafe \u0272\u025b
+  Boloci laj\u025b).\\n- Aw b\u025b joliseginfuraw ni witamini di den ma k\u025br\u025bnk\u025br\u025bnnenya
+  la witamini D. (Aw ye gafe \u0272\u025b N\u025bg\u025b ni a dugumaf\u025b).\\n\ud83d\udcd6
+  Gafe k\u0254n\u0254kow\\n\u2190 Segin k\u0254f\u025b | Taa \u0272\u025bf\u025b \u2192\"",
+  "\"AFRIQUE SUBSAHARIENNE\\nEconoler est pr\u00e9sente en Afrique subsaharienne depuis
+  20 ans et y a r\u00e9alis\u00e9 des mandats dans les pays suivants :\\nAfrique du
+  Sud, B\u00e9nin, Botswana, Burkina Faso, Burundi, Cameroun, Cap Vert, C\u00f4te
+  d\u2019Ivoire, \u00c9thiopie, Guin\u00e9e \u00e9quatoriale, Gabon, Ghana, Guin\u00e9e,
+  Guin\u00e9e Bissau, Kenya, Lesotho, Lib\u00e9ria, Madagascar, Malawi, Mali, Maurice,
+  Mauritanie, Mozambique, Namibie, Nig\u00e9ria, R\u00e9publique centrafricaine, R\u00e9publique
+  D\u00e9mocratique du Congo, Rwanda, S\u00e9n\u00e9gal, Sierra Leone, Tanzanie, Tchad,
+  Togo, Ouganda, Zambie, Zimbabwe.\"", "\"Le karit\u00e9 un est arbre tr\u00e8s avantageux.
+  Dans le champ, les paysans s\u2019asseyent sous le karit\u00e9 pour prier, pour
+  manger ou pour se reposer car son ombre est tr\u00e8s agr\u00e9able. Le karit\u00e9
+  est un arbre qui donne du fruit pendant l\u2019hivernage. Les animaux et les oiseaux
+  mangent ces fruits, les cultivateurs aussi les mangent avant l\u2019arriv\u00e9e
+  du repas au champ.\\nLes femmes partent ramasser les noix de karit\u00e9, les emmener
+  en famille et tout le monde mange. Elles font s\u00e9cher les noix sous le soleil
+  ou \u00e0 la grillade et elles vendent. Elles utilisent cette somme pour leurs petits
+  probl\u00e8mes financiers et viennent en aide \u00e0 leurs maris pour les d\u00e9penses
+  de la famille.\\nPlusieurs de femmes pilent les noix de karit\u00e9 pour en faire
+  du beurre de karit\u00e9. Nous revenons sur \u00e7a apr\u00e8s sinon, si ce n\u2019est
+  pas aujourd\u2019hui, le jour du travail du beurre de karit\u00e9 \u00e9tait un
+  grand jour pour les femmes \u00e0 cause des chansons et d\u2019autres activit\u00e9s
+  de joie et aussi dans nos famille surtout si c\u2019est le haricot qui est pr\u00e9par\u00e9
+  la nuit pour les Coulibaly, les Samak\u00e9 et les Tour\u00e9.\\nVous verrez dans
+  ce billet une image de fabrication de beurre de karit\u00e9 fait \u00e0 S\u00e9gou
+  et la vente de noix, de beurre et de savon de karit\u00e9 par des femmes au Burkina-Faso.
+  Ces photos sont de C. Hugues\\nSi le beurre de karit\u00e9 est fait, on en garde
+  en famille pour beaucoup d\u2019autres choses et le reste est \u00e0 vendre. Les
+  vieilles personnes et les gu\u00e9risseurs traditionnels font beaucoup de m\u00e9dicaments
+  \u00e0 partir du beurre de karit\u00e9. C\u2019est pour quoi on trouve toujours
+  du beurre de karit\u00e9 gard\u00e9 avec les vieilles personnes dans nos villages
+  \u00e0 cause de sa grande n\u00e9cessit\u00e9 dans nos pratiques traditionnelles
+  africaines.\\nSi ce n\u2019est pas aujourd\u2019hui, le beurre de karit\u00e9 est
+  beaucoup utilis\u00e9 aussi par les femmes en milieu rural comme pommade pour se
+  masser surtout les vieilles femmes qui continuent \u00e0 le faire. Le beurre de
+  karit\u00e9 est aussi utilis\u00e9 en milieu rural pour pr\u00e9parer la sauce et
+  on le met aussi dans beaucoup d\u2019autres aliments comme le haricot et le poids
+  de terre.\\nLes vielles femmes m\u00e9langent le beurre de karit\u00e9 avec de la
+  potasse \u00e0 base de tige de mil pour faire du savon. On se lave, on lave les
+  habits et les ustensiles avec ce savon. Apr\u00e8s tout cela, ce savon est utilis\u00e9
+  pour beaucoup d\u2019autres choses par les connaisseurs traditionnels africains.\\nCe
+  qui est destin\u00e9 pour vente, les femmes le vendent pour satisfaire leurs petits
+  besoins, ceux de leurs enfants et aident leurs maris dans les petites d\u00e9penses
+  familiales avec cette somme. C\u2019est comme \u00e7a que les femmes jouent un grand
+  r\u00f4le dans la famille en milieu rural car apr\u00e8s leurs travaux familiaux
+  quotidiens, elles m\u00e8nent des petites activit\u00e9s de revenue qui leur permettent
+  de subvenir \u00e0 leur besoin et d\u2019aider leurs maris dans la famille malgr\u00e9
+  les d\u00e9penses de ces derniers pour elles, car chez nous en Afrique, dans le
+  milieu rural, c\u2019est une fiert\u00e9 pour le mari, un plaisir et une grande
+  joie pour une femmes d\u2019avoir pu attribuer un boubou \u00e0 son mari ou \u00e0
+  son beau-fr\u00e8re et aussi un pagne \u00e0 sa belle-s\u0153ur chaque fois que
+  cette derni\u00e8re mari\u00e9e dans d\u2019autres villages ou d\u2019autres familles,
+  venait leur rendre visite.\\nCe travail de karit\u00e9 est une des grandes activit\u00e9s
+  de revenue pour les femmes en milieu rural. Si tu essayes de voir, tu trouves que
+  beaucoup de d\u00e9penses surtout en mati\u00e8re de savon et de condiment sont
+  couvertes par les femmes \u00e0 partir du beurre de karit\u00e9 et de la m\u00eame
+  mani\u00e8re, elles contribuent aux d\u00e9penses avec la somme qu\u2019elles re\u00e7oivent
+  de la vente soit de la noix de karit\u00e9 ou du beurre de karit\u00e9. Ainsi, le
+  karit\u00e9 joue un grand r\u00f4le dans nos localit\u00e9s rurales et m\u00eame
+  dans nos villes car le savon et le beurre de karit\u00e9 sont utilis\u00e9s partout
+  dans un domaine ou un autre.\\nDans ces derni\u00e8res ann\u00e9es, nous constatons
+  que certaines femmes en milieu rural se regroupent pour transformer le beurre de
+  karit\u00e9 en savon et en pommade utilisable par tout le monde \u00e0 cause de
+  sa qualit\u00e9 et de sa composition qui sont utilises pour la peau. Cela est encourageant
+  car \u00e7a ne fait que cr\u00e9er des activit\u00e9s de revenue pour les femmes
+  en milieu rural.\\nCela montre qu\u2019on doit bien prot\u00e9ger les karit\u00e9s,
+  les entretenir et de ne pas les couper et si ces braves femmes rurales sont appuy\u00e9es
+  avec du mat\u00e9riel de transformation du karit\u00e9, \u00e7a peut servir d\u2019activit\u00e9
+  de revenue pour elles et un domaine de lutte contre la pauvret\u00e9 en milieu rural.\\nSi
+  nafa Mali.\\nSi ye jiri nafaba ye. Foro k\u0254n\u0254, cik\u025blaw b\u2019u sigi
+  a k\u0254r\u0254 seli waati, dumunik\u025b waati walima lafi\u0272\u025bb\u0254
+  waati bawo a suma kadi kos\u025bb\u025b.\\nSi ye jiri ye min b\u025b den kos\u025bb\u025b
+  sami\u0272\u025b f\u025b. Baganw ni k\u0254n\u0254w b\u2019a den dun, cik\u025blaw
+  b\u2019a dun kos\u025bb\u025b fana yanni dumuni ka na foro la.\\nMusow b\u025b taa
+  sim\u0254 t\u0254m\u0254 ka na n\u2019a ye so, b\u025b\u025b b\u2019a dun. U b\u2019a
+  k\u0254l\u0254 ja tile la walima dibi la k\u2019o feere. O wari b\u025b musaka caman
+  dila du k\u0254n\u0254 bawo musow b\u2019u ka musaka caman k\u025b ni o wari ye
+  wa u b\u2019u c\u025bw fana d\u025bm\u025b tumad\u0254w la du musakako la.\\nA ka
+  can a la fana, muso caman b\u2019u ka sik\u0254l\u0254 ja k\u2019a susu k\u2019a
+  k\u025b tulu ye. An da b\u025bna se o ma k\u0254f\u025b, n\u2019o t\u025b, ni bi
+  t\u025b, situlu b\u0254don ye don dumanba ye musow bolo ka da a d\u0254nkiliw n\u2019a
+  nis\u0254ndiyakow kan, a ni an ka duw k\u0254n\u0254, jango ni s\u0254 tobira a
+  su Kulubalilakaw, samak\u025blakaw ani Turelakaw kama.\\nAw b\u025bna o tulu dila
+  ja in d\u0254 ye kunnafoni in na min k\u025bra S\u00e9gou ani sik\u0254l\u0254,
+  situlu ni safun\u025b feeret\u0254 musow f\u025b Burukina. Ja ninnu k\u025bra C.
+  Hugues f\u025b.\\nNi situlu b\u0254ra, d\u0254 b\u025b mara f\u025bn caman kama
+  du k\u0254n\u0254, d\u0254 fana b\u025b k\u025b feereta ye. Maak\u0254r\u0254baw
+  ni farafin furak\u025blaw b\u025b situlu k\u025b fura caman ye. O de la a ka g\u025bl\u025b
+  situlu maralen ka ban an ka maak\u0254r\u0254baw bolo togodaw la sabula a \u0272\u025bci
+  ka bon kos\u025bb\u025b an ka farafinna taabolow la. Ni bi t\u025b, muso caman tun
+  b\u025b situlu k\u025b u munnitulu ye jango musok\u0254r\u0254baw, olu b\u2019a
+  k\u025b ali sisan.\\nSitulu b\u025b k\u025b ka na tobi, a b\u025b k\u025b dumuni
+  caman na I n\u2019a f\u0254 s\u0254, tiganingurun ani dumuni caman w\u025br\u025bw.\\nMusok\u0254r\u0254baw
+  b\u025b situlu ni \u0272\u0254kala s\u025bg\u025b \u0272aami k\u2019a k\u025b safun\u025b
+  ye. Ni bi t\u025b b\u025b\u025b tun b\u025b ko o safun\u025b na togodaw la. U b\u025b
+  finiw ko a la ka min\u025bn n\u0254g\u0254w ko a la fana. O b\u025b\u025b k\u0254f\u025b,
+  o safun\u025b in b\u025b k\u025b f\u025bn caman w\u025br\u025b ye farafinna d\u0254nnibaw
+  f\u025b.\\nFeereta min b\u0254ra a la, musow b\u2019o feere k\u2019o fana k\u2019u
+  musaka ye. U b\u025b to ka u c\u025bw fana d\u025bm\u025b du musakako la n\u2019o
+  wari ye, ali n\u2019a y\u2019a s\u0254r\u0254 u c\u025bw b\u2019u d\u025bm\u025b
+  bawo anw f\u025b yan farafinna, an ka togodaw la, o ye kunnawoloko ye c\u025b bolo,
+  muso diyanyeko n\u2019a nis\u0254ndiyako don fana a ka de ka forokiya don a c\u025b
+  kan na walima a nim\u0254g\u0254k\u025b a ni ka taafe di a nim\u0254g\u0254muso
+  ma, o furulen dugu w\u025br\u025b k\u0254n\u0254 walima du w\u025br\u025b k\u0254n\u0254
+  n\u2019o b\u025b to kana b\u0254 u ye. o de la a f\u0254ra ko musow j\u0254y\u0254r\u0254
+  ka bon du kungo la bawo, u ka tile baaraw k\u0254f\u025b, u b\u025b waris\u0254r\u0254
+  baara caman w\u025br\u025bw k\u025b, u b\u025b se k\u2019u musakaw dila cogo min
+  na ani ka u c\u025bw d\u025bm\u025b du musaka tali la. Nin situlu baara in y\u2019o
+  d\u0254 ye. N\u2019i y\u2019a laj\u025b, situlu b\u025b k\u025b f\u025bn o f\u025bn
+  ye du k\u0254n\u0254, o b\u025b\u025b ye warib\u0254 musaka ye. Nga wari t\u025b
+  b\u0254 olu la k\u2019a sabu k\u025b musow ka tulu maralen ye. O b\u025b\u025b k\u0254f\u025b,
+  musow b\u025b sik\u0254l\u0254 ni situlu feereli min k\u025b o b\u025b\u025b b\u025b
+  d\u0254 ta du kungo la. O la, j\u0254y\u0254ba b\u025b si la an ka togodaw la ani
+  an ka dugubaw k\u0254n\u0254 bawo situlu b\u025b mago \u0272\u025b fan b\u025b\u025b
+  ko caman fana na.\\nNin san damad\u0254 in na, an ka togodala musod\u0254w b\u025b
+  ka k\u025b j\u025bkulu ye ka situlu baara cogoya la walasa a b\u025b se ka mara
+  ka \u0272\u025b k\u2019a b\u025bn m\u0254g\u0254w mago\u0272\u025bnan ma I n\u2019a
+  f\u0254 munni tulu ni f\u025bn w\u025br\u025bw.\\nNi b\u2019a jira ko an ka kan
+  ka siw lakana k\u2019u ladon ka \u0272\u025b, an kana u tig\u025b wa, ni nin togodala
+  muso c\u025bsirilen ninnu d\u025bm\u025bna ni min\u025bn ye si bay\u025bl\u025bmali
+  kama, o b\u025b se ka k\u025b nafas\u0254r\u0254 sira ye ani fantaya k\u025bl\u025bli
+  sira ye an ka togodaw la.\\nL\u2019hospitalit\u00e9 est une des bonnes pratiques
+  au Mali et cela depuis autrefois jusqu\u2019aujourd\u2019hui. Si tu regardes, tu
+  verras que le mot hospitalit\u00e9 en bambara nous donne sons propre sens. \u00ab
+  Dans diyatiyatigiya \u00bb, il y a \u00ab di \u00bb qui veut dire le miel. Cela
+  nous montre que \u00ab diyatiyatigiya \u00bb signifie rendre agr\u00e9able \u00e0
+  l\u2019\u00e9tranger son s\u00e9jour comme le miel est doux. Bien l\u2019accueillir,
+  qu\u2019il n\u2019ait ni faim ni soif. Le prot\u00e9ger et lui dire les pratiques
+  et les totems du lieu car on dit en bambara : \u00ab L\u2019\u00e9tranger a de gros
+  yeux, mais il ne voit pas bien loin. Alors, \u00ab diyatigi \u00bb repr\u00e9sente
+  les yeux de l\u2019\u00e9tranger pour lui faire \u00e9viter les totems.\\nTout le
+  monde doit accomplir ces gestes pour l\u2019\u00e9tranger dans la famille, dans
+  le village et dans le pays. Chacun s\u2019occupe de l\u2019\u00e9tranger pour qu\u2019il
+  n\u2019ait pas de probl\u00e8me pendant son s\u00e9jour.\\nSi tu parles de \u00ab
+  diyatigi \u00bb, tu parles de \u00ab dunan \u00bb qui est l\u2019\u00e9tranger.
+  Ce mot en bambara nous dicte aussi son sens. Dans le mot \u00ab dunan \u00bb, il
+  ya \u00ab nan \u00bb qui veut dire la sauce pr\u00e9par\u00e9e dans la famille.
+  Si tu regardes, tous les membres de la famille sont \u00e9gaux face \u00e0 la sauce
+  et de la m\u00eame mani\u00e8re, tous les membres de la famille sont \u00e9gaux
+  face \u00e0 l\u2019\u00e9tranger qui arrive. L\u00e0, l\u2019\u00e9tranger aussi
+  doit conna\u00eetre cette \u00e9galit\u00e9 envers lui et ainsi ne doit pas faire
+  de diff\u00e9rence entre les membres de la famille. Il ne doit faire d\u2019acte
+  permettant \u00e0 l\u2019un des membres de la famille de constater une id\u00e9e
+  de diff\u00e9rence cr\u00e9\u00e9e par l\u2019\u00e9tranger. C\u2019est pour quoi,
+  il doit toujours plaider pour la paix et la concorde au sein de la famille et cela
+  aide les membres de la famille de lui rendre agr\u00e9able son s\u00e9jour. Il doit
+  adopter le m\u00eame comportement dans le village et dans le pays. C\u2019est pour
+  quoi on dit en bambara : \u00ab Mieux vaut quitter le village que de changer de
+  diyatigila \u00bb\\nC\u2019est pour quoi au Mali, n\u2019importe o\u00f9 que tu
+  partes, tu te sens chez toi car on te met dans toutes les conditions que tu m\u00e9rites.\\nDiyatigiya
+  ye Mali taabolo \u0272uman d\u0254 ye. kabini watijan f\u0254 kana a bila bi la.\\nN\u2019i
+  y\u2019a laj\u025b, i b\u2019a ye ko diyatigiya da\u0272\u025b b\u2019a y\u025br\u025b
+  k\u0254r\u0254f\u0254 an ye. Diyatigiya la, i b\u025b di ye a k\u0254n\u0254. O
+  b\u2019a jira an na ko diyatigiya k\u0254r\u0254 ye ka dunan ka dunanya diya don
+  a la i ko di b\u025b cogo min na. K\u2019a bisimila ka \u0272\u025b, a kana k\u0254n\u014b\u0254n,
+  a kana min\u0254g\u0254. K\u2019a k\u0254l\u0254si, ka y\u0254r\u0254 taabolow ni
+  y\u0254r\u0254 tanaw f\u0254 a ye bawo a b\u025b f\u0254 bamanankan na ko \u00ab
+  dunan \u0272\u025b ka bon, nga a t\u025b yeli b\u025br\u025b k\u025b \u00bb. O la
+  diyatigi b\u025b k\u025b dunan \u0272\u025b ye walasa k\u2019a kisi y\u0254r\u0254
+  tanamakow ma. O k\u025bwale ninnu dama ka kan b\u025b\u025b la du k\u0254n\u0254,
+  dugu k\u0254n\u0254, ani jamana k\u0254n\u0254 dunan fanf\u025b. B\u025b\u025b b\u2019i
+  hakili to dunan na walasa a kana t\u0254r\u0254 s\u0254r\u0254 a ka dunanya k\u0254n\u0254.\\nN\u2019i
+  ko diyatigi i ko dunan. Dunan fana da\u0272\u025b b\u2019a y\u025br\u025b k\u0254r\u0254
+  f\u0254 an ye. Dunan o de ye maa min b\u0254ra a ka so ka taa y\u0254r\u0254 w\u025br\u025b.
+  N\u2019i y\u2019a laj\u025b, nan dama kakan duden b\u025b\u025b la. Wa, nan dama
+  ka kan duden b\u025b\u025b la cogo min na, dunan min nana du k\u0254n\u0254, o dama
+  ka kan duden b\u025b\u025b la ten. A man surun d\u0254 la ka t\u025bm\u025b d\u0254
+  kan. O de la, dunan fana ka kan k\u2019a d\u0254n ko ale dama ka kan b\u025b\u025b
+  la, o la, a man kan ka d\u0254 fisaya ni d\u0254 ye, a man kan ka ko k\u025b min
+  b\u2019a to duden d\u0254 b\u2019a k\u0254l\u0254si ko a b\u025b ka don u ni \u0272\u0254g\u0254n
+  c\u025b. O de la, a ka kan ka k\u025b \u0272\u025blik\u025bla ye du k\u0254n\u0254
+  walasa ka dudenw d\u025bm\u025b ka dunanya diya don a la. A b\u2019o k\u025b du
+  k\u0254n\u0254 cogo min na, a b\u2019o k\u025b dugu ani jamana k\u0254n\u0254 ten.
+  O de la, a b\u025b f\u0254 bamanankan na ko \u00ab Dugu bila ka fisa diyatigila
+  y\u025bl\u025bma ye \u00bb\\nO de la Mali la, i taara y\u0254r\u0254 o y\u0254r\u0254,
+  a b\u2019i ko i b\u2019i ka so bawo i ni min\u025b cogo \u0272uman f\u025bn o f\u025bn
+  ka kan, o b\u025b k\u2019i ye.\\nEn Afrique, l\u2019\u00e9ducation et l\u2019instruction
+  de l\u2019enfant passent par plusieurs chemins.\\nUn de ces grands chemins \u00e9tait
+  le conte. Les enfants se regroupaient \u00e0 tout moment autours de leurs grand-p\u00e8res
+  ou grand-m\u00e8res pour apprendre des contes. Ce regroupement des enfants avaient
+  plusieurs significatifs. \u00c7a permettait aux enfants de se retrouver, de cr\u00e9er
+  de l\u2019estime entre eux et d\u2019apprendre le sens de la cohabitation depuis
+  \u00e0 cet \u00e2ge. Cela donnait aux enfants l\u2019envie de se retrouver \u00e0
+  c\u00f4t\u00e9 des vieillards pour beaucoup apprendre sur le pass\u00e9 et sur l\u2019avenir.\\nLe
+  conte en Afrique avait le grand objectif d\u2019\u00e9duquer les enfants et d\u2019ouvrir
+  leur intelligence pour qu\u2019ils sachent la diff\u00e9rence entre la bont\u00e9
+  et la m\u00e9chancet\u00e9 afin d\u2019opter pour le bien et \u00e9viter le mal.
+  Le conte apprenait \u00e0 l\u2019enfant le sens de la collaboration, de l\u2019amiti\u00e9
+  et du patriotisme. Ainsi, \u00e7a cr\u00e9ait chez l\u2019enfant la stabilit\u00e9
+  qui \u00e9veille en lui le sens de l\u2019esprit de famille.\\nL\u2019enfant africains
+  apprenait \u00e0 c\u00f4t\u00e9 de ses grands parents, le savoir faire et le savoir
+  parler afin de pouvoir mieux vivre partout o\u00f9 il se trouve, chez lui aussi
+  qu\u2019\u00e0 l\u2019\u00e9tranger.\\nC\u2019est pour quoi en Afrique, les r\u00e8gles
+  de conduite sont presque les m\u00eames partout. Cette unit\u00e9 de conduite, de
+  compr\u00e9hension, prend appui pour une grande partie sur le conte. Les m\u00eames
+  contes \u00e9taient relat\u00e9s presque partout. Cela montre encore l\u2019efficacit\u00e9
+  de l\u2019oralit\u00e9 africaine \u00e0 travers laquelle, la culture et les traditions
+  \u00e9taient transmises de g\u00e9n\u00e9ration en g\u00e9n\u00e9ration.\\nPar exemple,
+  cette ann\u00e9e 2009, 6 enfants de 10 ans se sont retrouv\u00e9s chez moi pour
+  causer. Ils ont commenc\u00e9 \u00e0 faire des contes. Je les \u00e9coutais attentivement.\\nL\u00e0,
+  ils ont commenc\u00e9 un conte que j\u2019avais d\u00e9j\u00e0 \u00e9cout\u00e9
+  avec ma grand-m\u00e8re depuis mon enfance \u00e0 S\u00e9gou. J\u2019ai imm\u00e9diatement
+  imagin\u00e9 le nombre d\u2019ann\u00e9es entre ces petites enfants et moi et encore
+  la distance entre S\u00e9gou et Bamako. C\u2019est l\u00e0 que j\u2019ai compris
+  pour quoi les pratiques sont presque les m\u00eames partout. Ainsi, j\u2019ai compris
+  que ces choses l\u00e0 sont des pratiquent avantageuses car elles nous ouvrent l\u2019esprit.\\nNous
+  remarquons tous leur tentative de disparition, et apr\u00e8s m\u2019avoir pos\u00e9
+  beaucoup de questions, la solution que j\u2019ai trouv\u00e9e pour leur conservation,
+  c\u2019est de les \u00e9crire authentiquement \u00e0 nos langues, les traduire en
+  d\u2019autres langues et les garder sur sur Internet. Cela \u00e9vitera leur disparition
+  et permet \u00e0 d\u2019autres personnes de les conna\u00eetre.\\nSi cela est possible,
+  \u00e7a doit \u00eatre commenc\u00e9 rapidement car chaque vieillard qui meurt en
+  Afrique est une biblioth\u00e8que qui br\u00fble.\\nPour la sauvegarde de ces patrimoines
+  culturels, cela est mon point de vue. Si quelqu\u2019un d\u2019autre \u00e0 des
+  points de vue ou des commentaires, il peut nous en faire part, pour qu\u2019\u00e0
+  l\u2019issu de ces \u00e9changes, peut ressortir une solution concr\u00e8te.\\nFarafinna,
+  demis\u025bnw ka lam\u0254 n\u2019u ka kalan b\u025b t\u025bm\u025b sira caman f\u025b.O
+  siraw la belebele d\u0254 ye nziirin ye. Tuma caman, demis\u025bnw y\u025br\u025bdama
+  tun b\u025b \u0272\u0254g\u0254n s\u0254r\u0254 u m\u0254 musow walima u m\u0254k\u025bw
+  k\u025br\u025bf\u025b ka nziirin da. A tun b\u025b u \u0272\u025bnaj\u025b, nga
+  o b\u025b\u025b k\u0254f\u025b,Nafa caman w\u025br\u025bw tun b\u2019a la. A tun
+  b\u2019a to demis\u025bnw b\u025b fara \u0272\u0254g\u0254n kan, k\u2019u tin don
+  \u0272\u0254g\u0254n na. U tun b\u025b sigi\u0272\u0254g\u0254n gasi kalan kabini
+  o wati. A tun b\u025b m\u0254g\u0254k\u0254r\u0254baw k\u025br\u025bf\u025b sigili
+  nege don u la walasa u ka f\u025bn caman d\u0254n ko t\u025bm\u025bnnenw ni ko nataw
+  la.\\nNziirin kunba d\u0254 tun ye ka demis\u025bnw kalan k\u2019u hakili day\u025bl\u025b.
+  U ka \u0272umanya ni juguya d\u0254n ka b\u0254 \u0272\u0254g\u0254n na, ka \u0272umanya
+  nafa d\u0254n ani ka juguya kungo d\u0254n walasa u ka k\u025b \u0272umank\u025blaw
+  ye ka juguya to yen.Nziirin tun b\u025b demis\u025bnw kalan j\u025b\u0272\u0254g\u0254nya,
+  teriya, fasokanu ani fasoden \u0272umanya la. A tun b\u2019a to demis\u025bn b\u025b
+  basigi, k\u2019a k\u025b m\u0254g\u0254 j\u0254len ye, k\u2019a k\u025b c\u025bntigi
+  ye ani ka du k\u0254r\u0254 n\u2019a nafa d\u0254n. Farafinna, demis\u025bnw tun
+  b\u025b taabolo \u0272uman ni kuma cogo \u0272uman kalan m\u0254g\u0254k\u0254r\u0254baw
+  f\u025b nziirin senf\u025b walasa u ka se j\u025bnlatig\u025b k\u025bko \u0272uman
+  na u ka so ani dunanyay\u0254r\u0254 la.\\nFarafinna taabolow ni famuyaw b\u0254len
+  b\u025b \u0272\u0254g\u0254n f\u025b ko caman na, fan caman. Nziirin j\u0254y\u0254r\u0254ba
+  b\u025b o taabolo kelenya ni o famuyali kelenya in na. A b\u2019i n\u2019a f\u0254
+  nziirin kelenw de tun b\u025b da fan caman f\u025b bawo i b\u025b nziirin min m\u025b
+  fan d\u0254, i b\u025b se k\u2019o kelen de m\u025b fan w\u025br\u025b. O b\u025b
+  kuma j\u0254y\u0254r\u0254 d\u0254 fana jira farafinna bawo farafinna k\u0254r\u0254lenko
+  caman tun b\u025b kalan kuma f\u025b.\\nMisali la nziirinko sira f\u025b, \u0272inan,
+  san 2009, demis\u025bn 6, san 10 \u0272\u0254g\u0254nw, tun sigilen b\u025b ne ka
+  so don d\u0254. U tun b\u025b ka nziirin da. N tun b\u025b k\u2019u lam\u025b. U
+  binna ka nziirin d\u0254 da surukuba ni nzozanni na. Ne fana fitinin deli la k\u2019o
+  lam\u025b ka n to Segu.\\nNe sigilen miiri la min na, o de ye Segu ni Bamak\u0254
+  c\u025b janya ani si hak\u025b min b\u025b ne ni npogotiginin fitinin ninnu c\u025b.
+  O de la n y\u2019a famu, kun min na, Mali fan b\u025b\u025b taabolo ye kelen ye.
+  Ali ni danfara b\u2019u ni \u0272\u0254g\u0254n c\u025b, o man bon. O de la n y\u2019a
+  famu ko nziirin ye koba y\u2019an f\u025b yan, a nafa t\u025b f\u0254 ka ban, bawo
+  a b\u2019a to an b\u025b f\u025bn caman, wa, a b\u2019an hakili day\u025bl\u025b.\\nBi
+  bi in na, an b\u025b\u025b b\u025b k\u2019a k\u0254l\u0254si sisan k\u2019o ko ninnu
+  b\u025b ka ban d\u0254\u0254ni d\u0254\u0254ni. N k\u025blen k\u0254 ka n y\u025br\u025b
+  \u0272ininkan, ye jaabi min s\u0254r\u0254, o de ye ka u s\u025bb\u025ben an ka
+  kanw na, k\u2019u bay\u025bl\u025bma kan w\u025br\u025bw la, k\u2019u bila \u025bnt\u025brin\u025bti
+  kan. O b\u2019a to u t\u025b tunun wa u na lakod\u0254n m\u0254g\u0254 w\u025br\u025bw
+  f\u025b.\\nN\u2019o b\u025b se ka k\u025b, o ka damin\u025b joona, bawo maak\u0254r\u0254
+  o maak\u0254r\u0254 mana sa Farafinna, o ye d\u0254nniso kelen jeninen ya.\\nNin
+  de ye ne hakilina ye walasa k\u2019an ka nin d\u0254nko ninnu mara. Ni hakilina
+  b\u025b maa w\u025br\u025b min f\u025b, o k\u2019o f\u0254 walasa o hakilina falen
+  falen ka k\u025b b\u025bnkan j\u0254nj\u0254n ye min b\u025b k\u2019a fura ye\\nBamoussobougou
+  est un village situ\u00e9 dans la commune rurale de Cinzana Gare (cercle) r\u00e9gion
+  de S\u00e9gou.\\nLes principales activit\u00e9s des populations de Bamoussobougou
+  sont l\u2019agriculture et le petit \u00e9levage. La r\u00e9solution de leurs probl\u00e8mes
+  financiers quotidiens est bas\u00e9e sur la vente de leurs productions c\u00e9r\u00e9ali\u00e8res
+  et animales au march\u00e9 hebdomadaire de Cinzana Gare pr\u00e9vu pour chaque jeudi.\\nC\u2019est
+  le seul moyen pour eux de vivre et de subvenir \u00e0 leurs besoins financiers.\\nPour
+  ces diff\u00e9rentes activit\u00e9s, ces populations sont confront\u00e9es \u00e0
+  un grand probl\u00e8me de route. La route qui relie ce village au march\u00e9 est
+  impraticable pendant l\u2019hivernage \u00e0 cause de son mauvais \u00e9tat par
+  la pluie.\\nCette seule route qui relie Bamoussobougou au march\u00e9 de Cinzana
+  Gare est limit\u00e9e des deux c\u00f4t\u00e9s par les champs.\\nDes qu\u2019il
+  pleut, c\u2019est la fin du bonheur de ces populations pour se rendre au march\u00e9.
+  La route se remplit d\u2019eau, et il n\u2019ya pas d\u2019autres pas passages.
+  A cause de l\u2019\u00e9tat argileux du sol, l\u2019eau reste longtemps \u00e0 sa
+  surface et c\u2019est encore tr\u00e8s glissant. Alors, si les populations doivent
+  amener au march\u00e9 des sacs de c\u00e9r\u00e9ales, des animaux, des canaris fabriqu\u00e9s
+  par des forgeronnes et des mat\u00e9riels agricoles, \u00e0 pied ou \u00e0 dos d\u2019animaux,
+  on doit se faire une id\u00e9e de tout ce qu\u2019ils subissent comme souffrance
+  avant d\u2019atteindre le march\u00e9.\\nCe n\u2019est pas seulement le village
+  de Bamoussobougou, il y a beaucoup d\u2019autres villages dont les populations passent
+  par Bamoussobougou pour aller au march\u00e9. Ainsi, ils subissent le m\u00eame
+  sort.\\nEn tant que ressortissant de ce village, vivant \u00e0 Bamako comme enseignant,
+  je viens de temps en temps rendre visite aux parents au village pendant les cong\u00e9s.
+  A chaque arriv\u00e9e, je trouve que l\u2019\u00e9tat de la route se d\u00e9grade
+  d\u2019ann\u00e9e en ann\u00e9e.\\nL\u2019an pass\u00e9, Pendant les vacances, quand
+  je suis descendu du car, j\u2019ai eu du mal \u00e0 retrouver la route de mon village.\\nL\u2019eau
+  avait d\u00e9bord\u00e9 la route et s\u2019\u00e9tait d\u00e9vers\u00e9e dans les
+  champs sur une longue distance. Je me suis fait une id\u00e9e de toutes les souffrances
+  que subissent ces populations.\\nJe me suis dit ceci : Ces populations dont la seule
+  solution financi\u00e8re d\u00e9pend des petites activit\u00e9s qu\u2019ils m\u00e8nent
+  au march\u00e9, et si ces populations n\u2019ont plus de voie pour y acc\u00e9der,
+  alors comment vont-ils faire ?\\nJ\u2019ai march\u00e9 dans l\u2019eau jusque dans
+  mon village. Je glisse par l\u00e0, je me retiens, mon pied se pose sur un objet
+  pointu par ici ne pouvant me faire de mal \u00e0 cause de mon soulier, tout mouill\u00e9
+  et dont la vie a d\u2019ailleurs pris fin ce jour.\\nTout ce dont j\u2019avais peur,
+  c\u2019\u00e9tait comment \u00e7a se passerait si un jour, quelqu\u2019un se faisait
+  bless\u00e9 par un objet pointu ? Mais que nous pr\u00e9serve. Cela ne s\u2019est
+  pas produit et je souhaite que cela ne se produise jamais \u00e0 quelqu\u2019un
+  sur ce chemin.\\nArriv\u00e9e au village, les gens n\u2019ont qu\u2019un seul souci
+  : le probl\u00e8me de route.\\nToute personne que j\u2019ai rencontr\u00e9e, toute
+  personne que j\u2019ai salu\u00e9e, toute famille o\u00f9 je suis all\u00e9 saluer,
+  il y avait une seule question : comment r\u00e9soudre ce probl\u00e8me de route
+  ? Je me suis senti interpell\u00e9 en tant que le seul intellectuel du village vivant
+  dans la capitale.\\nPersonne dans le village n\u2019a la capacit\u00e9 financi\u00e8re
+  de r\u00e9parer cette route, moi non plus. Mais je dois publier ce probl\u00e8me
+  de route \u00e0 travers le monde, pour que les autorit\u00e9s du pays, aux personnes
+  de bonne volont\u00e9 et les ONG pour nous secourir \u00e0 faire cette route. Sinon,
+  ce probl\u00e8me de route devient de plus en plus s\u00e9rieux.\\nJe ne peux faire
+  d\u2019autres, mais \u00ab Si on veut que les autres nous aide \u00e0 chercher des
+  m\u00e9dicaments pour notre maladie, il faut qu\u2019ils soient inform\u00e9s de
+  la maladie \u00bb c\u2019est pour cela, sur le blog de fasokan, je lance un appel
+  au nom de tous les habitants de Bamoussobougou et tous ceux qui fr\u00e9quentent
+  cette route, pour que chaque personne, chaque autorit\u00e9s et ONG, qui a le pouvoir
+  de r\u00e9parer cette route, nous vienne au secours pour r\u00e9soudre ce probl\u00e8me
+  de route afin que nous puissions aller au march\u00e9 \u00e0 l\u2019aise.\\nBamusobugu
+  ye dugu ye min b\u025b Zezana Gara komini na, Segu mara la.\\nBamusobugukaw ka baara
+  ye s\u025bn\u025b ni baganmara ye. U k a wariko kungo b\u025b\u025b dulonnen b\u2019u
+  ka s\u025bn\u025bf\u025bnw ni bagan mis\u025bnninw feereli la, Zezana Gara sugu
+  la min b\u025b j\u0254 alamisa o alamisa. O dama de y\u2019u ka nafoloko kungow
+  \u0272\u025bnab\u0254li sira ye. Numuw fana b\u025b taa n\u2019u ka f\u025bn dilannenw
+  ye sugu la, i n\u2019a f\u0254 daa ani s\u025bn\u025bk\u025bmin\u025bnw.\\nWalasa
+  k\u2019o feeref\u025bn ninnu k\u025b ka sugu la s\u0254r\u0254, bamusobugukaw b\u025b
+  s\u025bg\u025bn caman k\u025b sirakan sami\u0272\u025b f\u025b.\\nSira kelen d\u0254r\u0254n
+  de b\u025b bamusobugu ni Zezana Gara c\u025b.Ni sami\u0269\u025bsanji binna ka ban,
+  o ye bamusobugukaw ni h\u025br\u025b faralen ye sirako la.\\nJi b\u025b j\u0254
+  sira fan b\u025b\u025b, t\u025bm\u025bnsira w\u025br\u025b foyi t\u025b ye bawo
+  sira fan fila b\u025b ye foro ye , wa ji b\u025b j\u0254 o b\u025b\u025b la. Sira
+  in ye j\u025bdugukolo ye, a ji t\u025b ja joona, wa a b\u025b c\u025bn\u025b fana.
+  O la, ni m\u0254g\u025bw b\u025b taa n\u2019u ka sumaw,baganw, s\u025bn\u025bk\u025bmin\u025bnw
+  ni daw ye feerey\u0254r\u0254l a, u sen na walima wotoro la, o k\u0254nin ye s\u025bg\u025bn
+  ni t\u0254\u0254r\u0254 dan ye.\\nBamusobugu dama t\u025b, dugu caman w\u025br\u025b
+  m\u0254g\u025bw b\u025b t\u025bm\u025bn sira in f\u025b ka taa sugu la. Olu fana
+  sen b\u025b s\u025bg\u025bn in na.\\nNe ye dugu in den d\u0254 ye, n b\u025b lak\u0254li
+  karam\u0254g\u0254ya la bamak\u0254, n b\u025b to ka na b\u0254 n som\u0254g\u0254w
+  ye an ka dugu la s\u025bg\u025bnlafi\u0272\u025bb\u0254 waatiw la. N na o na, n
+  b\u2019a s\u0254r\u0254 d\u0254 fara la sira c\u025bnni kan.\\nSa o, s\u025bg\u025bnlafi\u0272\u025bb\u0254
+  waati, n jiginnen ka b\u0254 m\u0254bili k\u0254n\u0254 walasa ka taa an ka dugu
+  la, n ma se k\u2019a d\u0254n n b\u025b taa sira min f\u025b bawo, fan b\u025b\u025b
+  falen b\u025b ji la hali i t\u2019a d\u0254n fan min ye sira ye.\\nO la, n ka dugum\u0254g\u0254w
+  hin\u025b ye n min\u025b, n yen nin f\u0254 n y\u025bre k\u0254n\u0254 : s\u0254r\u0254
+  k\u025b cogoya w\u025br\u025b foyi t\u025b nin m\u0254g\u0254 minnu bolo ni nin
+  sugu in j\u0254li t\u025b n\u2019u ka feeref\u025bnw ye, ni o sugu sira b\u025b
+  nin cogo in na, olu b\u2019a k\u025b cogo di ?\\nSe t\u025b ne ye k\u2019a dilan,
+  se t\u025b dugu m\u0254g\u0254 w\u025br\u025b ye k\u2019a dilan, o dun b\u025bna
+  k\u025b cogo di ?\\nN ye taama damin\u025b ji k\u0254n\u0254 o la, n b\u025b c\u025bn\u025b
+  yan f\u025b, n b\u025b jija n kana bin, n sen b\u025b da f\u025bn d\u0254 kan fan
+  d\u0254 f\u025b, nga o t\u025b f\u025bn k\u025b n na, bawo sabara b\u025b n sen
+  na. O sabarako bana o don, bawo, wolosabara don. N miiri la min na o don, o de ye,
+  ni m\u0254g\u0254 d\u0254 sen dara f\u025bn nunb\u0254len d\u0254 kan don min dun,
+  o b\u025b k\u025b cogodi ? hali cinnif\u025bn b\u025b se ka k\u025b ji in k\u0254r\u0254,
+  Ala k\u2019an kisi.\\nN selen so, n y\u2019a s\u0254r\u0254 haminanko kelen d\u0254r\u0254n
+  de b\u025b bamusobugukaw la f\u0254l\u0254 : sirako.\\nN ni m\u0254g\u0254 o m\u0254g\u0254
+  b\u025bnna, n ye m\u0254g\u0254 o m\u0254g\u0254 fo, n taara du o du k\u0254n\u0254
+  foli la, kuma kelen de b\u2019a b\u025b\u025b da, \u0272ininkali kelen de b\u2019a
+  b\u025b\u025b bolo : an dun b\u025bna nin sirako in k\u025b cogodi ?\\nO la, ne
+  y\u2019a ye n y\u025br\u025b k\u0254n\u0254 ko wele bilalen b\u025b ne ma, ne min
+  kelen ye dugu in m\u0254g\u0254 kalanen ye min sigilen b\u025b jamana faaba k\u0254n\u0254
+  lak\u0254li karam\u0254g\u0254ya la. Sira dilanni se t\u025b dugu in m\u0254g\u0254
+  si ye, a se t\u025b ne fana ye, nga, ne ka kan ka k\u025b sababu ye ka sirako in
+  kunafoni j\u025bns\u025b walasa jamana \u0272\u025bm\u0254g\u0254w, j\u025bn m\u0254g\u0254
+  \u0272umanw ni d\u025bm\u025bnj\u025bkuluw n\u2019a m\u025bn walasa ka d\u025bm\u025bn
+  don an ma sirako in na, walasa k\u2019a k\u025b b\u025bl\u025bbilensira ye. N\u2019o
+  t\u025b, a k\u025bra baara ye sa d\u025b.\\nSe w\u025br\u025b t\u025b ne ye, nga
+  \u00ab n\u2019i y\u2019a ye ko m\u0254g\u0254w b\u2019i d\u025bm\u025bn k\u2019i
+  ka bana fura \u0272inin, o k\u2019a s\u0254r\u0254, u b\u2019i ka banako kala ma.
+  \u00bb\\nO de kama, fasokan bul\u0254gu kan, n ye n kan b\u0254 j\u025bn b\u025b\u025b
+  ma, Bamusobugu ni nin sira in matarafabaa b\u025b\u025b t\u0254g\u0254 la, maa o
+  maa, \u0272\u025bm\u0254g\u0254 o \u0272\u025bm\u0254g\u0254, d\u025bm\u025bnj\u025bkulu
+  o d\u025bm\u025bnj\u025bkulu, ni sira in dilanni se b\u2019i ye, i ka d\u025bm\u025bn
+  lase anw ma ni sirako in na walasa ka lafiya sabati anw ka d\u0254g\u0254j\u0254ko
+  la.\\nCe salon est mis en place par les autorit\u00e9s du Mali pour les chercheurs
+  afin qu\u2019ils exposent au public leur savoir faire.\\nLe salon est mis en place
+  du 2 au 6 juillet 2009 ; C\u2019est un grand salon avec une tr\u00e8s grande importance,
+  arriv\u00e9 au salon tu te rends compte de l\u2019effort fourni par nos chercheurs,
+  car tu verras beaucoup de choses dont tu ne savais pas que nos chercheurs sont capables
+  de produire.\\nCette grosse machine que tu vois est une d\u00e9cortiqueuse de ma\u00efs.
+  Elle a \u00e9t\u00e9 fabriqu\u00e9e au Mali ici par un forgeron. Cela seulement,
+  n\u2019est pas son travail, il fabrique \u00e9galement beaucoup d\u2019autres mat\u00e9riels
+  agricoles. Il ya beaucoup d\u2019autres choses au salon comme une machine pour moudre
+  le jinjinbre et d\u2019autres machine pour le travail du lait. Si on arrive \u00e0
+  d\u00e9velopper ces initiatives, \u00e7a facilitera le travail \u00e0 la main.\\nL\u2019importance
+  de ce salon n\u2019est pas seulement le prix de l\u2019innovation, c\u2019est une
+  sc\u00e8ne d\u2019\u00e9change commerciale, de d\u00e9couverte et de d\u2019apprentissage,
+  c\u2019est aussi une sc\u00e8ne qui permet \u00e0 nos chercheurs de se conna\u00eetre
+  et d\u2019\u00e9changer ; cela cr\u00e9e une opportunit\u00e9 de partage de savoir
+  et d\u2019exp\u00e9rience. C\u2019est \u00e9galement un lieu de d\u00e9veloppement
+  du commerce. Les visiteurs y trouvent beaucoup de mat\u00e9riels de leur choix qu\u2019ils
+  peuvent acheter. Cela est profitable pour eux et c\u2019est aussi un grand avantage
+  pour les inventeurs. \u00c7a les aide \u00e0 progresser dans leur travail de recherche
+  pour mettre beaucoup de mat\u00e9riels \u00e0 la port\u00e9e des populations.\\nL\u2019organisation
+  de ce salon a \u00e9t\u00e9 une bonne initiative de la part des autorit\u00e9s du
+  pays, c\u2019est une occasion pour que nos chercheurs isol\u00e9s puissent \u00eatre
+  connus et aid\u00e9s facilement ; C\u2019est aussi une occasion pour que nos chercheurs
+  puissent se regrouper davantage, afin d\u2019\u00eatre aid\u00e9s facilement.\\nNin
+  ye k\u025bn\u025b ye min lab\u025bn na jamana \u0272\u025bm\u0254g\u0254w f\u025b
+  Mali la, \u0272ininik\u025blaw kama walasa u kana u ka mago\u0272\u025b f\u025bnkura
+  b\u0254lenw jira jama la.\\nK\u025bn\u025b in b\u2019a ta zuluyekalo tile fila ka
+  taa a bila a tile 6 la, K\u025bne in ye k\u025bn\u025bba ye wa a nafa ka bon kos\u025bb\u025b.
+  N\u2019i sera k\u025bn\u025b in ka, i b\u2019a d\u0254n ko \u0272ininik\u025blaw
+  c\u025bsirilen b\u025b bawo i b\u025b f\u025bn caman ye, i tun t\u2019a d\u0254n
+  ko minnu b\u025b se ka dilan an y\u025br\u025b ka jamana jinink\u025bla f\u025b.I
+  \u0272\u025b b\u025b nin mansin min na, o ye kaba (ma\u0272\u0254) w\u0254r\u0254lan
+  ye. A dilan na Mali la yan. Numuk\u025b d\u0254 de y\u2019a dilan. O dama t\u025b
+  a ka baara ye, a b\u025b f\u025bn caman w\u025br\u025bw dilan n\u025bg\u025b la.
+  O k\u0254 f\u025b,f\u025bn caman w\u025br\u025bw b\u025b k\u025bn\u025b in i n\u2019a
+  f\u0254 n\u0254n\u0254 baralan ani \u0272amaku baaralan. Ni nin f\u025bn ninnu yiriwara
+  kos\u025bb\u025b, o b\u025b n\u0254g\u0254ya caman don an ka bolola baara la.\\nK\u025bn\u025b
+  in nafa t\u025b lajalif\u025bnw s\u0254r\u0254li dama ye, sanni ni feere k\u025bn\u025b,
+  kokura ye ni kokura d\u0254n k\u025bn\u025b don, k\u025bn\u025b don fana min b\u2019a
+  to an ka jamana \u0272ininik\u025bla y\u025br\u025bdama b\u025b \u0272\u0254g\u0254n
+  d\u0254n, ka hakilina falenfalen k\u025b,min b\u025b k\u025b sababu ye ka d\u0254
+  fara b\u025b\u025b ka d\u0254nta kan. K\u025bn\u025b in ye s\u0254r\u0254 yiriwasira
+  d\u0254 fana ye! minnu b\u025b taa ka segin k\u025b k\u025bn\u025b in k\u0254n\u0254,
+  olu b\u2019u \u0272\u025bnaf\u025bn caman ye, u b\u025b minnu san, olu mago b\u025b
+  \u0272\u025b, wa a b\u025b nafaba lase \u0272ininik\u025bla nnnu fana ma min b\u2019u
+  d\u025bm\u025b k\u2019u \u0272inini yiriwa, ka f\u025bnkura caman bila jamanadenw
+  sgo la u b\u025b se ka minnu s\u0254r\u0254 n\u0254g\u0254ya la ka s\u0254r\u0254
+  u ma s\u025bg\u025bn.\\nNin k\u025bn\u025b in bilali sen kan, o k\u025bra hakilina
+  \u0272uman ye an ka jamana \u0272\u025bm\u0254g\u0254w f\u025b; bawo a na k\u025b
+  sababu ye, an ka \u0272ininik\u025bla caman ka b\u0254 dibi la, k\u2019u lako d\u0254n
+  walasa u na d\u025bm\u025bn diya. O la, a na k\u025b sababu ye an ka \u0272ininik\u025blaw
+  ka k\u025b kuluba kelen ya halisa, o de b\u2019u d\u025bm\u025bn diya.\"", "\"tile
+  j\u0254y\u0254r\u0254 ye di\u0272\u025b b\u025b\u025b k\u0254n\u0254ko ye, o b\u025b\u025b
+  n'' a ta an kelen-kelen b\u025b\u025b b'' an y\u025br\u025b ka tile waati k\u025br\u025bnk\u025br\u025bnnen
+  s\u0254r\u0254 ka k\u025b\u0272\u025b n'' an sigiy\u0254r\u0254 ye dugukolo kan.\\ntile
+  j\u0254y\u0254r\u0254 d\u0254nni tigitigi b\u025b f\u025bn suguya caman jatemin\u025b,
+  waati ni dugukolo cogoyaw fana sen b\u025b o la.\\ntile j\u0254y\u0254r\u0254 d\u0254nni
+  nafa ka bon baara caman na i n'' a f\u0254 sankololaf\u025bnw, s\u025bg\u025bs\u025bg\u025bli,
+  kurunbokari, waati jatemin\u025b, waati cogoya, tile fanga, ani tile wagati dilanni.\\nKa
+  da a kan tile ye nafolo j\u025blen ye, a b\u025b yeelen b\u0254 an b\u025b\u025b
+  kan ni fanga kelen ye don o don.\\nSo j\u0254cogo: tile j\u0254y\u0254r\u0254 faamuyali
+  f\u025b,. aw b\u025b se ka aw ka so dilanni k\u025bcogo \u0272\u025b walasa ka sumaya
+  ni n\u025bn\u025b k\u025bcogo \u0272uman s\u0254r\u0254.\\nTile fanga: tile j\u0254y\u0254r\u0254
+  d\u0254nni b'' a to i b\u025b se k'' a d\u0254n angle \u0272uman ani a bilay\u0254r\u0254
+  min b\u025b k\u025b ka tile pannew sigi i ka y\u0254r\u0254 k\u025br\u025bnk\u025br\u025bnnen
+  na.\\nWaati tolen: Waati bolodacogo: i mana k\u025b y\u0254r\u0254 o y\u0254r\u0254
+  la di\u0272\u025b k\u0254n\u0254, aw b\u025b se ka aw jigi da o kunnafoniw kan walasa
+  ka waati min tora fo tilebin nata, tile su tilanc\u025b, tile b\u0254, walima tile
+  tilelafana na, o d\u0254n ka \u0272\u025b.\\nTile j\u0254y\u0254r\u0254 seko dab\u0254
+  walasa k'' i ka don o don \u0272\u025bnamaya \u0272\u025b ani ka latig\u025bw k\u025b
+  ni kunnafoni ye.\\naw b''aw y\u025br\u025b \u0272ininka tile b\u025b y\u0254r\u0254
+  min na sisan wa ? I b\u2019a f\u025b k\u2019a d\u0254n waati min na tile b\u025b
+  se a dan na tilelafana na, ka a d\u0254g\u0254ya waati min na su tilanc\u025b la
+  wa? Aw kana \u0272inini k\u025b ka t\u025bm\u025b an ka tile wagati kan! A b\u025b
+  tile j\u0254y\u0254r\u0254 tigitigi jira i la, ka b\u0254 i sigiy\u0254r\u0254 la.
+  Hali n'' a ma ye, i b\u025b se k'' a y\u0254r\u0254jan caman yeli k\u0254l\u0254si
+  hali bi.\\n\ud83c\udf0d An ka Di\u0272\u025b Kabako Ani jamanadenw ka waati jateb\u0254lan
+  tubabukan na\\n\ud83c\udf1e Tile tubabukan na\\n\ud83d\udcd6 Tile j\u0254y\u0254r\u0254
+  Kunnafoni tubabukan na\\n\ud83c\udf1d Kalo ye tubabukan na\\n\ud83d\ude80 Kalo dakunw
+  jirali tubabukan na\\n\ud83d\udcd6 Kalo j\u0254y\u0254r\u0254 Kunnafoni tubabukan
+  na\\n\ud83c\udf0e Tile wagati int\u025brin\u025bti kan laj\u025b tubabukan na\\n\u231a
+  N ka Waati tubabukan na\\n\ud83c\udf10 i ka GPS y\u0254r\u0254 tubabukan na\\n\ud83c\udfe0
+  Tile waati y\u025br\u025by\u025br\u025b So tubabukan na\\n\u2139\ufe0f Tile waati
+  y\u025br\u025by\u025br\u025b Kunnafoniw tubabukan na\\n\ud83c\udfd6\ufe0f Tile ni
+  i ka K\u025bn\u025bya tubabukan na\\n\ud83c\udf26\ufe0f N ka Sigida Weele y\u0254r\u0254
+  tubabukan na\\n\u270d\ufe0f Kanko bay\u025bl\u025bmaniw tubabukan na\\n\ud83d\udcb0
+  d\u025bm\u025bbagaw ni bolomafaraw tubabukan na\\n\ud83e\udd70 Tile waati y\u025br\u025by\u025br\u025b
+  Baarak\u025bla ka d\u0254nniya tubabukan na\\n\ud83c\udf07 Ka Tile Min\u025b tubabukan
+  na\\nA to The, Tile ka b\u0254\"", "\"Donald Trump lab\u0254ra k\u025bn\u025b kan
+  Pennsylvanie, marifa cilenw k\u0254f\u025b\\nDonald Trump lab\u0254ra k\u025bn\u025b
+  kan jamalaj\u025b d\u0254 la Butler, Pennsylvanie, mankan ba d\u0254w b\u0254ra
+  jama c\u025bma.\\nTrump tun b\u025b ka danc\u025b tig\u025b jatew jateb\u0254s\u025bb\u025bn
+  d\u0254 jira, tuma min na, bangs y\u2019a damin\u025b ka mankan b\u0254 jama c\u025bma.
+  Trump tun b\u025b se ka ye k\u2019a bolo se a kininbolo ma k\u2019a \u0272\u025bsin
+  a kan ma. A k\u025bra i n\u2019a f\u0254 joli tun b\u025b a \u0272\u025bda la.\\nA
+  ye teliya ka dulon tuma min na ciden minnu b\u0254ra a ka lakanani y\u0254r\u0254
+  la, olu girinna ka taa sangaso la ani kulekanw b\u0254ra jama la. Bang\u025bw tora
+  senna k\u2019a s\u0254r\u0254 cidenw tun b\u2019a ladon sangabon kan.\\nA ka mobili
+  bolila b\u0254ra k\u025bn\u025b kan. A ka lahaalaya ma d\u0254n o y\u0254r\u0254nin
+  b\u025b\u025b.\\nAni, AP .\\nForum\"", "\"YESU diminnen b\u025b yan y\u0254r\u0254
+  la d\u025b! Ti\u0272\u025b t\u025b? I b\u2019a d\u0254n mun na a diminna nin cogo
+  la wa? A kun ye ko m\u0254g\u0254 minnu nana u sigi Alabatoso k\u0254n\u0254 yan
+  Jerusal\u025bm, olu tun b\u025b wari f\u025b kojugu. U b\u2019a \u0272ini ka wari
+  caman b\u0254 m\u0254g\u0254w kun minnu b\u025b na Alabatoso k\u0254n\u0254 walisa
+  ka Jehova bato.\\nI \u0272\u025b b\u025b misiw, sagaw ni ntubanin ninnu b\u025b\u025b
+  la wa? Nin baganw b\u025b ka feere Alabatoso y\u025br\u025b de k\u0254n\u0254. I
+  b\u2019a d\u0254n mun na wa? O b\u025b k\u025b bawo Isra\u025blkaw mago b\u025b
+  baganw ni k\u0254n\u0254ninw na walisa k\u2019olu di Ala ma saraka ye.\\nAla ka
+  sariya y\u2019a jira ko ni Isra\u025blkaw ye kojugu k\u025b, u ka kan ka saraka
+  b\u0254 Ala ye. Ala ka sariya y\u2019a jira fana ko Isra\u025blkaw tun ka kan ka
+  sarakaw b\u0254 waati w\u025br\u025bw la fana na. Nka, Isra\u025blkaw tun b\u025b
+  se ka k\u0254n\u0254ninw ni baganw s\u0254r\u0254 y\u0254r\u0254 jum\u025bn na walisa
+  k\u2019olu k\u025b saraka ye?\\nIsra\u025blka d\u0254w tun b\u025b yen baganw ni
+  k\u0254n\u0254ninw tun b\u025b minnu bolo walisa ka olu k\u025b saraka ye. Nka,
+  Isra\u025blka caman tun b\u025b yen baganw walima k\u0254n\u0254ninw tun t\u025b
+  minnu bolo. Hali ni baganw walima k\u0254n\u0254ninw tun b\u025b d\u0254w fana bolo,
+  u tun sigilen b\u025b dugu min na, o ni Jerusal\u025bm y\u0254r\u0254 tun ka jan
+  \u0272\u0254g\u0254n na kos\u025bb\u025b, fo u tun t\u025b se ka na ni u ka bagan
+  si ye Alabatoso la. O de y\u2019a to, m\u0254g\u0254w tun b\u025b na yan, ka baganw
+  walima ka k\u0254n\u0254ninw san. Nka, nin c\u025b minnu sigilen b\u025b Alabatoso
+  k\u0254n\u0254 yan Jerusal\u025bm, u tun b\u025b baganw ani k\u0254n\u0254ninw s\u0254ng\u0254
+  g\u025bl\u025bya kos\u025bb\u025b m\u0254g\u0254w ma. U tun b\u025b u nanbara. Ka
+  fara o kan, u tun man kan ka o f\u025bnw feere Alabatoso k\u0254n\u0254.\\nO kow
+  de ye Yesu ladimin. O kos\u0254n, a ye u ka tabaliw dafiri, ka warimis\u025bnw b\u025b\u025b
+  j\u025bns\u025bn duguma. A ye jurukis\u025b d\u0254 fana k\u025b g\u025b\u0272\u025b
+  ye ka baganw b\u025b\u025b g\u025bn ka b\u0254 Alabatoso k\u0254n\u0254. A ko ntubaninfeerelaw
+  ma: \u2018Aw ka nin f\u025bnw ta ka b\u0254 yan! Aw k\u2019a dabila ka ne Fa ka
+  so k\u025b jagok\u025by\u0254r\u0254 ye.\u2019\\nYesu ni a ka kalanden d\u0254w
+  tun b\u025b \u0272\u0254g\u0254n f\u025b Alabatoso k\u0254n\u0254 Jerusal\u025bm.
+  A balala kalandenw la kos\u025bb\u025b ka Yesu ye ka o ko k\u025b. U hakili jiginna
+  Bibulu y\u0254r\u0254 la min b\u2019a f\u0254 Ala Denk\u025b ko la: \u2018Ala ka
+  so kanuya b\u025bna k\u025b a la i ko tasuma.\u2019\\nYesu tun b\u025b Jerusal\u025bm
+  tuma min na T\u025bm\u025bnkan seli kama, a ye kabako caman k\u025b. O k\u0254f\u025b,
+  Yesu b\u0254ra Jude, ka taama jan damin\u025b ka segin Galile. Nka o taama k\u0254n\u0254na
+  na, a t\u025bm\u025bna Samari f\u025b. F\u025bn min k\u025bra o y\u0254r\u0254 la,
+  an ka o laj\u025b \u0272\u0254g\u0254n f\u025b.\\nYuhana 2:13-25; 4:3, 4.\\n\u019dininkaliw\\n-
+  Mun na baganw tun b\u025b feere Alabatoso k\u0254n\u0254?\\n- Mun ye Yesu ladimin?\\n-
+  I ko ja b\u2019a jira yan cogo min na, Yesu ye mun k\u025b? Yesu ye mun f\u0254
+  ntubaninfeerelaw ye?\\n- Yesu n\u0254f\u025bm\u0254g\u0254w ye o ye tuma min na,
+  u hakili jiginna mun na?\\n- Yesu t\u025bm\u025bna y\u0254r\u0254 jum\u025bn na
+  walisa ka segin Galile?\\n\u019dininkali w\u025br\u025b\\n- I ka Yuhana 2:13-25
+  kalan.\\nYesu diminna cogo min na warifalennaw k\u0254r\u0254 alabatoso k\u0254n\u0254,
+  ni an ye jatemin\u025b k\u025b o kan, an ka kan ka hakilila b\u025bnnen jum\u025bn
+  s\u0254r\u0254 jago kow kan Masaya so k\u0254n\u0254? (Yuh. 2:15, 16; 1 K\u0254r.
+  10:24, 31-33)\"", "\"Misra jamana kow k\u0511l\u0511yali morsi kiritig\u0511 wati
+  suru\u03c0alen\\nDi\u03c0\u0511 \u019dun kulu: ko misra jamana \u03c0\u0511ma min
+  ni k\u0186kan kale k\u0511ra alela, ale bena j\u0186 b\u0186g\u0186 jeninen kan
+  nt\u0511n\u0511n nata 5/11/2013, k''adakan k''aleye shulik\u0511 koka wulikaj\u0186law
+  faga, wa ko misra jamana denw y''ajira k''ulu ben''u ka wulikaj\u0186w caya nin
+  watiyna\\nIkna kibaru laselaw y''amin\u0511 kab\u0186(anba-a mosku) kibaru cariny\u0186r\u0186la
+  ko:misra jamana k\u0186r\u0186 (muhammad mursi) min ni k\u0186kan kale k\u0511ra
+  alela, k''aka kiri bena tik\u0511 nten\u0511 nata 5/11/2013, k''o sabuk\u0511 aka
+  shulila maw fagali la wulikaj\u0186w senf\u0511 jamanay masa bon dala.\\nWa ko k''ada
+  ni kiriy tik\u0511li surun \u03c0alikan moursi n\u0186f\u0511 maw ka wulikaj\u0186w
+  beka caaya kat''af\u0511 , mamduh iwad n''ale beta san 48 ale ko: ko jatemin\u0511w
+  y''ajira ko kiritik\u0511 wati surun\u03c0ali kama mursi n\u0186f\u0511 maw fana
+  ka wulikaj\u0186w cayara ka''af\u0511.\\nMamduh iwad kakuma k\u0186n\u0186 ako:
+  k''ale j\u0186r\u0186lendo k''af\u0186 ko wulikaj\u0186 nunun tena g\u0511l\u0511ya
+  kat''af\u0511 kiritik\u0511 y\u0186r\u0186y na.\\nMisra jamana dene d\u0186w\u0511r\u0511
+  (seyyid abdu rrauf)fana y''ajira k''af\u0186 ko: moursi ni moubaarak laj\u0186li
+  b\u0186g\u0186 jeninen ka k''ob''ajira k''af\u0186 ko ni misra jamanadenw ye ko
+  min la\u03c0ini k''odebe k\u0511.\\nAhmad tarsoun fana ko: moursi n\u0186f\u0511
+  maw ye wele wele mada k\u0511 kat''u t\u0186n\u03c0\u0186g\u0186nw ma walasa ukab\u0186
+  ka caaya ni kiritik\u0511 dony na.\\n1309881\"", "\"O b\u025b\u025b damin\u025bna
+  kari don na, waati min na Irisi jamana ka s\u0254r\u0254dasi-j\u025bkuluw Wagn\u025br
+  ye dugu lamini min t\u0254g\u0254 ye ko Nia ouro min b\u025b Fakala cafo k\u0254n\u0254,
+  Djenn\u00e9 s\u025br\u025bkili la. U t\u0254ra yen tile saba k\u0254n\u0254.\\nO
+  k\u025bra tile sabanan ye u taara \u0272\u025b ka c\u025bw min\u025b minnu b\u025b
+  ka da siranba d\u0254 k\u025bra sigida la ka k\u025b\u0272\u025b ni m\u0254g\u0254
+  d\u0254 ye min ye \u0272\u025bnamaya s\u0254r\u0254. Muso, denmis\u025bnw ani m\u0254g\u0254k\u0254r\u0254baw,
+  o d\u0254r\u0254n de ye min b\u025b se ka i y\u025br\u025b kisi. B\u025b\u025b b\u025b
+  ka boli ki d\u0254g\u0254 la k\u0254ng\u0254 tuba la. Sigida in lankolon don a sigibagaw
+  la wa u b\u025b\u025b b\u025b yen j\u025bns\u025bnnen don sigida la. O waati de
+  la d\u0254nz\u0254d\u0254nna dugu k\u0254n\u0254 ka na f\u025bnw c\u025b k\u0254l\u0254n
+  b\u025b duguden d\u0254 sinsin min ye dogoy\u0254r\u0254 s\u0254r\u0254 S\u0254fara.
+  A ka f\u0254 la, u ye misiw ta, sanu, wari, kuma surun na, masirif\u025bnw musow
+  u ye minnu s\u0254r\u0254 so \u0272ininiw k\u0254f\u025b. F\u025bn b\u025b\u025b
+  b\u025b k\u025b juk\u0254r\u0254 s\u0254r\u0254dasi finmanw \u0272\u025b k\u0254l\u0254silen
+  b\u025b sigida kunnafonis\u025bb\u025bn d\u0254 f\u025b. Tandiama dugu min b\u025b
+  Fakala caf\u0254 na halibi, o fana ye o s\u0254r\u0254 faraje finitigiw ka, fangafin
+  boli a sigida k\u0254n\u0254 seere d\u0254 ka f\u0254la min tun b\u2019a f\u025b
+  ka to t\u0254g\u0254ko f\u0254li d\u0254g\u0254 la. O k\u025bwal\u025b k\u025blin
+  \u0272\u0254g\u0254na om ni,musow minnu tun b\u025b an t\u0254\u0254r\u0254 ani
+  f\u025bn minnu b\u025b taa ni u ye, olu b\u025b seere d\u0254 fara a kan. Hakililajigin
+  na, a b\u025b d\u0254g\u0254kun saba b\u0254, Sofara k\u025bn\u025b donw na, a...
+  Risi s\u0254r\u0254dasiw ye m\u0254g\u0254w n\u2019u som\u0254g\u0254w min\u025b
+  kibaruya si t\u025b u bolo.\"", "\"Yesu j\u0254y\u0254r\u0254 ye jum\u025bn ye k\u025br\u025bnk\u025br\u025bnnenya
+  la?\\nA b\u0254ra min?\\nM\u0254g\u0254 sugu jum\u025bn tun don?\\nM\u0186G\u0186
+  minnu t\u0254g\u0254 b\u0254len b\u025b, olu ka ca di\u0272\u025b k\u0254n\u0254.
+  D\u0254w d\u0254nnen b\u025b u ka y\u0254r\u0254 la, walima u ka dugu la, walima
+  u ka jamana na. D\u0254w fana d\u0254nnen b\u025b di\u0272\u025b b\u025b\u025b k\u0254n\u0254.
+  Nka, n\u2019i b\u025b o m\u0254g\u0254 sugu d\u0254 t\u0254g\u0254 d\u0254r\u0254n
+  de d\u0254n, o k\u0254r\u0254 t\u025b ko i b\u025b o tigi d\u0254n ti\u0272\u025b
+  na. O k\u0254r\u0254 t\u025b fana ko i b\u025b f\u025bn caman d\u0254n o tigi kan,
+  i n\u2019a f\u0254 a ye m\u0254g\u0254 sugu min ye tigitigi ani a y\u2019a ka \u0272\u025bnamaya
+  k\u025b cogo min na.\\n2 Di\u0272\u025b y\u0254r\u0254 b\u025b\u025b la, m\u0254g\u0254w
+  ye Yesu Krisita kom\u025bn k\u2019a s\u0254r\u0254 a y\u2019a ka \u0272\u025bnamaya
+  k\u025b dugukolo kan a b\u025b san 2 000 \u0272\u0254g\u0254n b\u0254 sisan. Nka,
+  Yesu ye min ye tigitigi, m\u0254g\u0254 caman \u0272agaminen don o ko la. M\u0254g\u0254
+  d\u0254w b\u2019a f\u0254 ko m\u0254g\u0254 \u0272uman d\u0254r\u0254n tun don.
+  D\u0254w b\u2019a f\u0254 ko f\u025bn w\u025br\u025b t\u025b kira k\u0254. D\u0254
+  w\u025br\u025bw bolo, Yesu ye Ala de ye, wa ko a ka kan ka bato. Nka, yala ti\u0272\u025b
+  na Yesu ka kan ka bato wa?\\n3 A nafa ka bon i ka ti\u0272\u025b d\u0254n Yesu ko
+  la. Mun na? Bawo Bibulu b\u2019a f\u0254 ko: \u201c\u019d\u025bnamaya banbali ye
+  nin de ye ko, u b\u025b e d\u0254n ko i ye Ala s\u025bb\u025b kelenpe ye, ka Yesu
+  Krisita d\u0254n, i ye o min ci.\u201d (Anw de ye da\u0272\u025bw s\u025bb\u025bn
+  k\u2019a j\u025bg\u025bn; Yuhana 17:3.) O la sa, ka ti\u0272\u025b d\u0254n Jehova
+  Ala ni Yesu Krisita ko la, o b\u025b se ka na ni \u0272\u025bnamaya banbali ye alijin\u025b
+  k\u0254n\u0254, dugukolo kan yan. (Yuhana 14:6) Ka fara o kan, an ka kan ka an ka
+  \u0272\u025bnamaya k\u025b cogo min na ani an ka kan ka an m\u0254g\u0254\u0272\u0254g\u0254n
+  min\u025b cogo min na, Yesu ye o misali b\u025b\u025b la \u0272uman jira an na.
+  (Yuhana 13:34, 35) Min de ye ti\u0272\u025b ye Ala ko la, an ye o baro k\u025b nin
+  gafe tilay\u0254r\u0254ba f\u0254l\u0254 la. An k\u2019a laj\u025b sisan, Bibulu
+  b\u025b min f\u0254 tigitigi Yesu Krisita ko la.\\nMASIYA MIN KOF\u0186RA\\n4 Ala
+  tun b\u025bna m\u0254g\u0254 min ci i ko Masiya walima Krisita, Bibulu tun ye o
+  nali kof\u0254 waati jan sani Yesu tun ka bange. Mankutulan minnu ye ko \u201cMasiya\u201d
+  (n\u2019o b\u025b b\u0254 Heburukan da\u0272\u025b d\u0254 la) ani \u201cKrisita\u201d
+  (n\u2019o b\u025b b\u0254 G\u025br\u025bkikan da\u0272\u025b d\u0254 la) k\u0254r\u0254
+  ye ko \u201cMunnen.\u201d O la sa, M\u0254g\u0254 min kof\u0254ra, o tun b\u025bna
+  mun. O k\u0254r\u0254 ye ko Ala b\u025bna o tigi bila j\u0254y\u0254r\u0254 k\u025br\u025bnk\u025br\u025bnnen
+  na. Masiya j\u0254y\u0254r\u0254 ka bon cogo min na Ala ka layiduw tiim\u025bni
+  na, an b\u025bna f\u025bn caman w\u025br\u025bw kalan o kan nin gafe tilay\u0254r\u0254ba
+  nataw la. Yesu b\u025b se ka dugawu minnu lase an ma kabini sisan, an b\u025bna
+  o fana ye. O b\u025b\u025b n\u2019a ta, sani Yesu tun ka bange, m\u0254g\u0254 caman
+  tun ye u y\u025br\u025b \u0272ininka ko: \u2018J\u0254ni de b\u025bna k\u025b Masiya
+  ye?\u2019\\n5 San k\u025bm\u025b f\u0254l\u0254 la, Yesu Nazar\u025btika ka kalandenw
+  tun dalen b\u2019a la tigitigi ko ale de ye Masiya ye min kof\u0254ra. (Yuhana 1:41)
+  A ka kalandenw d\u0254 la kelen, n\u2019o ye c\u025b d\u0254 ye min t\u0254g\u0254
+  ye ko Sim\u0254n Pi\u025br\u025b, o y\u2019a f\u0254 Yesu ye k\u025bn\u025b kan
+  ko: \u201cI ye Krisita\u2026ye.\u201d (Matiyu 16:16) Nka, cogo jum\u025bn na a ka
+  kalandenw tun b\u025b se ka da a la ko Yesu de ye Masiya ye tigitigi min kof\u0254ra,
+  ani cogo jum\u025bn na an y\u025br\u025b b\u025b se ka da o la?\\n6 Ala ka kira
+  minnu nana Yesu \u0272\u025b, olu tun ye kunnafoni camanba f\u0254 Masiya kan. O
+  kunnafoniw tun b\u025b m\u0254g\u0254 d\u025bm\u025b k\u2019a d\u0254n j\u0254ni
+  ye Masiya ye tigitigi. O ko b\u025b se ka \u0272\u025bf\u0254 nin misali f\u025b:
+  A ka k\u025b ko a \u0272inina i f\u025b i ka taa m\u0254g\u0254 d\u0254 ta mobili
+  gari la, walima t\u025br\u025bn gari la, walima awiy\u0254n jiginy\u0254r\u0254
+  la, i ma deli ka m\u0254g\u0254 min ye f\u0254l\u0254. Ni m\u0254g\u0254 d\u0254
+  ye kunnafoni damad\u0254 di i ma o tigi cogo kan, yala o t\u025bna i d\u025bm\u025b
+  kos\u025bb\u025b wa? O cogo kelen na, Masiya tun b\u025bna min k\u025b ani ko minnu
+  tun b\u025bna k\u025b a la, Jehova ye kunnafoni camanba di o kow kan Bibulu k\u0254n\u0254.
+  O kirayakuma caman tiim\u025bni tun b\u025bna kantigiw d\u025bm\u025b u k\u2019a
+  d\u0254n j\u0254ni de ye Masiya ye k\u2019a s\u0254r\u0254 u ma fili.\\n7 An ka
+  misali fila d\u0254r\u0254n laj\u025b. Misali f\u0254l\u0254: San 700 sani Yesu
+  ka bange, kira Mise y\u2019a f\u0254 ko m\u0254g\u0254 Min kof\u0254ra, o b\u025bna
+  bange dugu mis\u025bnnin d\u0254 la min t\u0254g\u0254 ye ko B\u025btileh\u025bm,
+  Juda mara la. (Mise 5:1) Yesu wolola min? A wolola B\u025btileh\u025bm dugu de la
+  tigitigi. (Matiyu 2:1, 3-9) Misali filanan: San k\u025bm\u025b caman sani Masiya
+  ka na, kirayakuma min b\u025b Dani\u025bl 9:25 na, o y\u2019a jira Masiya tun ka
+  kan ka b\u0254 k\u025bn\u025b kan san min y\u025br\u025b la, n\u2019o ye san 29
+  ye Krisita tile la.* O kirayakuma ni kirayakuma w\u025br\u025bw tiim\u025bni y\u2019a
+  jira ko Yesu de ye Masiya ye min kof\u0254ra.\\n8 Dalilu w\u025br\u025b min b\u2019a
+  jira ko Yesu tun ye Masiya ye, o k\u025bra san 29 nan bantuma na Krisita tile la.
+  O san de la Yesu taara Yuhana batiselik\u025bla f\u025b walisa a ka a batise Jurd\u025bn
+  baji la. Jehova tun ye layidu ta Yuhana ye ko a b\u025bna taamasy\u025bn d\u0254
+  jira a la min tun b\u025bna a to Yuhana b\u025b se ka Masiya d\u0254n. Yuhana ye
+  o taamasy\u025bn ye Yesu ka bat\u025bmu sen f\u025b. Bibulu b\u2019a f\u0254 min
+  k\u025bra. A ko: \u201cYesu batiselen k\u0254, a b\u0254ra ji la. O y\u0254r\u0254nin
+  kelen, sankolo day\u025bl\u025bla. A ye Ala Ni [\u201chakili,\u201d LK] jigint\u0254
+  ye i ko j\u025bn\u025bntuban, ka na sigi a kan. Kumakan d\u0254 b\u0254ra sankolo
+  la ko: \u2018Nin ye ne Denk\u025b kanulen ye, a ko ka di ne ye haali.\u2019 \u201d
+  (Matiyu 3:16, 17) Yuhana k\u025blen k\u0254 k\u2019a ye min k\u025bra ani ka kumakan
+  m\u025bn, a k\u025bra ko j\u025blen ye a bolo ko Yesu de cira Ala f\u025b. (Yuhana
+  1:32-34) Tuma min na Ala ka hakili senu walima a ka barika walek\u025bbaat\u0254
+  jiginna Yesu kan o don na, Yesu k\u025bra Masiya walima Krisita ye, min k\u025bra
+  Kuntigi ni Masak\u025b ye.\u2014Esayi 55:4.\\n9 Bibulu kirayakumaw tiim\u025bni
+  ani Jehova Ala y\u025br\u025b ka seereya b\u2019a jira k\u2019a j\u025bya ko Yesu
+  ye Masiya ye min kof\u0254ra. Nka Bibulu b\u025b \u0272ininkali nafama fila w\u025br\u025bw
+  fana jaabi Yesu Krisita ko la: A b\u0254ra min? A tun ye m\u0254g\u0254 sugu jum\u025bn
+  ye?\\nYESU B\u0186RA MIN?\\n10 Bibulu b\u2019a f\u0254 ko Yesu tun b\u025b sankolo
+  la sani a ka na dugukolo kan. Mise y\u2019a f\u0254 ko Masiya b\u025bna bange B\u025btileh\u025bm,
+  ani fana ko a tun b\u025b yen \u201ckabini f\u0254l\u0254f\u0254l\u0254.\u201d (Mise
+  5:1) Tuma caman na, Yesu y\u025br\u025b y\u2019a f\u0254 ko ale tun b\u025b sankolo
+  la sani a ka bange i ko hadamaden. (Yuhana 3:13; 6:38, 62; 17:4, 5) Tuma min na
+  a tun b\u025b sankolo la, j\u025b\u0272\u0254g\u0254nya k\u025br\u025bnk\u025br\u025bnnen
+  tun b\u025b Yesu ni Jehova c\u025b.\\n11 Jehova denk\u025bw b\u025b\u025b la, Yesu
+  de ka ko ka di a ye ka t\u025bm\u025b a denk\u025b t\u0254w b\u025b\u025b kan, k\u2019a
+  da kun \u0272\u025bnama kan. Yesu welela ko \u201cDaf\u025bn b\u025b\u025b la f\u0254l\u0254
+  bangelen,\u201d bawo ale de ye Ala ka f\u025bn dalen f\u0254l\u0254 ye.# (Kolosekaw
+  1:15) F\u025bn w\u025br\u025b fana y\u2019a to Yesu ye Denk\u025b k\u025br\u025bnk\u025br\u025bnnen
+  ye. Yesu de ye Ala \u201cDenk\u025b kelenpe bangelen\u201d ye. (Yuhana 3:16, NW)
+  O k\u0254r\u0254 ye ko f\u025bn w\u025br\u025b si ma a bolo don Ala f\u025b Yesu
+  dali la. Yesu kelenpe de dara ten. Ala ye m\u0254g\u0254 kelenpe min fana ta walisa
+  k\u2019a ka baara k\u025b tuma min na a tun b\u025b ka danf\u025bn t\u0254w da,
+  o k\u025bra ale de ye. (Kolosekaw 1:16) Ka fara o kan fana, Yesu welela ko \u201cKuma.\u201d
+  (Yuhana 1:14) O b\u2019a jira an na ko Yesu kumana Ala t\u0254g\u0254 la, wa siga
+  t\u2019a la fana ko a ye Ala ka ciw ni a ka cikanw f\u0254 Fa denk\u025b t\u0254w
+  ye, m\u025bl\u025bk\u025bw ni hadamadenw.\\n12 I ko d\u0254w b\u2019a miiri cogo
+  min na, yala o denk\u025b f\u0254l\u0254 ni Ala ye kelen ye wa? Bibulu t\u025b o
+  f\u0254. I ko an y\u2019a ye cogo min na dakun t\u025bm\u025bnen na, Denk\u025b
+  dara de. O la sa, a j\u025blen don ko damin\u025b b\u025b Denk\u025b la, k\u2019a
+  s\u0254r\u0254 damin\u025b ni laban t\u025b Jehova Ala la. (Zaburu 90:2) Denk\u025b
+  kelenpe bangelen ma a \u0272ini abada ale ni a Fa ka k\u025b kelen ye. Bibulu b\u2019a
+  jira cogo j\u025blen na ko Fa ka bon ni Denk\u025b ye. (Yuhana 14:28; 1 K\u0254r\u025bntekaw
+  11:3) Jehova kelenpe de ye \u201cAla Sebaayab\u025b\u025btigi ye.\u201d (Jen\u025bse
+  17:1) O la sa, a b\u0254\u0272\u0254g\u0254nko t\u025b yen.%\\n13 Jehova ni a Denk\u025b
+  f\u0254l\u0254 bangelen tun c\u025b ka di san miliyari caman k\u0254n\u0254, waati
+  jan sani sankolow ni dolow ani dugukolo tun ka da. A j\u025blen don ko Fa ni a Denk\u025b
+  tun b\u025b \u0272\u0254g\u0254n kanu kos\u025bb\u025b. (Yuhana 3:35; 14:31) O Denk\u025b
+  kanulen tun b\u025b tigitigi i ko a Fa. O de kos\u0254n, Bibulu b\u2019a f\u0254
+  Denk\u025b ko la ko a ye \u201cAla yebali ja ye.\u201d (Kolosekaw 1:15) Den b\u025b
+  se ka b\u0254 a fa f\u025b sira caman na i ko a b\u025b ye cogo min na hadamadenw
+  f\u025b. O Denk\u025b min b\u025b b\u0254 sankolo la, a y\u2019a jira cogo dafalen
+  na a Fa jogo \u0272umanw ye min ye ani a Fa ye min ye tigitigi.\\n14 Jehova Denk\u025b
+  f\u0254l\u0254 bangelen b\u0254ra sankolo la ka na a ka \u0272\u025bnamaya k\u025b
+  dugukolo kan i n\u2019a f\u0254 hadamaden, a y\u025br\u025b de sago la. Nka, i b\u025b
+  se k\u2019i y\u025br\u025b \u0272ininka ko: \u2018Cogo jum\u025bn na Yesu min tun
+  b\u025b sankolo la, o b\u025b se ka bange dugukolo kan i ko hadamaden?\u2019 O sera
+  ka k\u025b bawo Jehova ye kabako d\u0254 de k\u025b. A ye a Denk\u025b f\u0254l\u0254
+  bangelen ka \u0272\u025bnamaya b\u0254 sankolo la ka na o bila Yahutumuso d\u0254
+  wolonugu la min tun ma c\u025b d\u0254n, n\u2019a tun t\u0254g\u0254 ye ko Mariyama.
+  Fa hadamadenlama si sen ma don o la. O cogo la Mariyama ye denk\u025b dafalen d\u0254
+  bange, k\u2019a t\u0254g\u0254 da ko Yesu.\u2014Luka 1:30-35.\\nYESU TUN YE M\u0186G\u0186
+  SUGU JUM\u0190N YE?\\n15 Yesu ye min f\u0254 ani a ye min k\u025b tuma min na a
+  tun b\u025b dugukolo kan, o b\u2019an d\u025bm\u025b k\u2019a d\u0254n ka \u0272\u025b.
+  Min nafa ka bon n\u2019o ye, o ye ko Yesu sababu f\u025b, an b\u025b d\u0254 fara
+  an ka d\u0254nniya kan Jehova ko la. Cogo jum\u025bn na? I hakili to a la ko o Denk\u025b
+  ye a Fa ja y\u025br\u025b de ye. O de kos\u0254n Yesu y\u2019a f\u0254 a ka kalandenw
+  d\u0254 la kelen ye ko: \u201cMin \u0272\u025b dara ne kan, o \u0272\u025b dara
+  ne Fa kan.\u201d (Yuhana 14:9) Bibulu kitabu naani minnu b\u025b wele tubabukan
+  na ko Evangiles ani bamanakan na ko kibaru duman, n\u2019olu ye Matiyu, Marka, Luka
+  ani Yuhana ye, u b\u025b f\u025bn caman f\u0254 an ye Yesu Krisita ka di\u0272\u025blatig\u025b
+  kan: A ka k\u025bwalew ni a jogo \u0272umanw.\\n16 Yesu tun d\u0254nnen don ko\u0272uman
+  i ko \u201cKaram\u0254g\u0254.\u201d (Yuhana 1:38; 13:13) A tun b\u025b m\u0254g\u0254w
+  kalan mun de la? A ka cikan tun ye k\u025br\u025bnk\u025br\u025bnnenya la \u201cMasaya
+  kibaru duman\u201d ye, n\u2019o ye Ala ka Masaya ye walima sankolo la gof\u025br\u025bn\u025bman
+  min b\u025bna dugukolo kuuru b\u025b\u025b mara ani min b\u025bna h\u025br\u025b
+  banbali lase hadamadenw ma minnu b\u025b Ala kan min\u025b. (Matiyu 4:23) A ka cikan
+  tun b\u025b b\u0254 j\u0254ni y\u0254r\u0254? Yesu y\u025br\u025b y\u2019a f\u0254
+  ko: \u201cNe b\u025b m\u0254g\u0254 kalan min na, o t\u025b ne ta ye, ne cibaa ta
+  don,\u201d n\u2019o ye Jehova ye. (Yuhana 7:16) Yesu tun b\u2019a d\u0254n ko a
+  Fa b\u2019a f\u025b hadamadenw ka Masaya kibaru duman kuma m\u025bn. An b\u025bna
+  f\u025bn caman w\u025br\u025bw kalan Ala ka Masaya kan ani a b\u025bna min k\u025b
+  Tilay\u0254r\u0254ba 8nan na.\\n17 Yesu tun b\u025b m\u0254g\u0254w kalan min? A
+  tun b\u025b m\u0254g\u0254w s\u0254r\u0254 y\u0254r\u0254 o y\u0254r\u0254 la: Bugufy\u025b
+  daf\u025blaw la, dugubaw ni dugumis\u025bnninw na, sugufy\u025bw la ani m\u0254g\u0254w
+  ka sow k\u0254n\u0254. Yesu tun m\u2019a bila a kun na ko m\u0254g\u0254w ka na
+  ale ma. Ale y\u025br\u025b de taara u ma. (Marka 6:56; Luka 19:5, 6) Kun jum\u025bn
+  na Yesu ye o y\u0254r\u0254 jan suguw taama, ka o waatiba sugu k\u025b waajuli ni
+  m\u0254g\u0254w kalanni la? Katuguni o k\u025bli tun ye a Fa sago ye ka \u0272\u025bsin
+  a ma. Yesu tun b\u025b a Fa sago de k\u025b tuma b\u025b\u025b. (Yuhana 8:28, 29)
+  Nka, Yesu tun b\u025b waajuli k\u025b kun w\u025br\u025b la. Jamakulu minnu tun
+  b\u025b na a laj\u025b, olu hin\u025b tun b\u025b don a la. (Matiyu 9:35, 36) Diin\u025b
+  karam\u0254g\u0254 minnu tun ka kan ka m\u0254g\u0254w kalan ti\u0272\u025b ko la
+  Ala ni a sagonata kan, o diin\u025b karam\u0254g\u0254w tun t\u025b u mago don m\u0254g\u0254w
+  la. Yesu tun b\u2019a d\u0254n ko m\u0254g\u0254w tun mago b\u2019a la kos\u025bb\u025b
+  ka Masaya kibaru m\u025bn.\\n18 Yesu tun b\u025b m\u0254g\u0254w min\u025b ko\u0272uman
+  ani hin\u025b tun b\u2019a dusukun na. M\u0254g\u0254w tun b\u025b se ka g\u025br\u025b
+  a la, a tun ka \u0272i fana. Hali denmis\u025bnninw tun t\u025b siran tuma min na
+  olu ni Yesu b\u025b \u0272\u0254g\u0254n f\u025b. (Marka 10:13-16) Yesu tun t\u025b
+  m\u0254g\u0254 b\u0254 m\u0254g\u0254 la. A tun b\u025b namara ni tilenbaliya koniya.
+  (Matiyu 21:12, 13) Yesu tun b\u025b bonya ni karama da musow kan, k\u2019a s\u0254r\u0254
+  o waati la, c\u025bw tun t\u025b bonya b\u025br\u025b da musow kan ani u joy\u0254r\u0254
+  tun ka d\u0254g\u0254. (Yuhana 4:9, 27) Yesu tun majiginnen don ti\u0272\u025b na.
+  Don d\u0254, a y\u2019a ka cidenw senw ko, k\u2019a s\u0254r\u0254 o tun ye baarak\u025bden
+  ka baara ye tuma caman na.\\n19 M\u0254g\u0254w mago tun b\u025b min na, Yesu tun
+  b\u025b o k\u0254l\u0254si. O tun b\u025b lasa k\u025br\u025bnk\u025br\u025bnnenya
+  la tuma min na Yesu tun b\u025b kabakow k\u025b ka m\u0254g\u0254w k\u025bn\u025bya
+  ni Ala ka hakili senu fanga ye. (Matiyu 14:14) Misali la, kunat\u0254 d\u0254 taara
+  Yesu s\u025bg\u025br\u025b k\u2019a f\u0254 a ye ko: \u201cNi i b\u025b s\u0254n,
+  i b\u025b se ka ne saniya.\u201d Dimin ni t\u0254\u0254r\u0254 minnu tun b\u025b
+  c\u025b kan, Yesu y\u2019a faamu. C\u025b hin\u025b donna Yesu la. O la, a y\u2019a
+  bolo m\u0254\u0254n\u0254b\u0254 ka maga c\u025b la, k\u2019a f\u0254 a ye ko: \u201cNe
+  s\u0254nna. I ka saniya.\u201d Wa, c\u025b k\u025bn\u025byara. (Marka 1:40-42) Yala
+  i b\u025b se ka miiri o ye min k\u025b c\u025b la k\u2019a y\u025br\u025b k\u025bn\u025byalen
+  ye wa?\\nA TORA KANTIGIYA LA FO LABAN\\n20 Yesu ye misali b\u025b\u025b la \u0272uman
+  de jira min ye ka Ala kan min\u025b ni kantigiya ye. A tora kantigiya la a sankolola
+  Fa ma ko sugu b\u025b\u025b la, hali k\u2019a s\u0254r\u0254 m\u0254g\u0254w y\u2019a
+  k\u025bl\u025b cogo sugu b\u025b\u025b la ani ko a t\u0254\u0254r\u0254la cogo sugu
+  b\u025b\u025b la. Yesu kolog\u025bl\u025byalen tora Sitan\u025b ka k\u0254r\u0254b\u0254liw
+  b\u025b\u025b la, wa a ye se s\u0254r\u0254 Sitan\u025b kan. (Matiyu 4:1-11) Waati
+  d\u0254 la, a som\u0254g\u0254 d\u0254w tun dalen t\u025b a la, u y\u2019a f\u0254
+  y\u025br\u025b ko a \u201chakili wulila.\u201d (Marka 3:21) Nka o ma Yesu k\u025bcogo
+  y\u025bl\u025bma; A taara a f\u025b Ala ka baara la. K\u2019a s\u0254r\u0254 m\u0254g\u0254w
+  y\u2019a n\u025bni, k\u2019a t\u0254\u0254r\u0254, o b\u025b\u025b n\u2019a ta,
+  Yesu y\u2019a y\u025br\u025b min\u025b tuma b\u025b\u025b, a m\u2019a \u0272ini
+  abada ka kojugu k\u025b a k\u025bl\u025bbagaw la.\u20141 Pi\u025br\u025b 2:21-23.\\n21
+  Yesu tora kantigiya la fo ka sa a juguw bolo, m\u0254n\u025b ni dimi juguba k\u0254n\u0254.
+  (Filipekaw 2:8) I ka miiri a hadamadenlama ye min mu\u0272u a ka di\u0272\u025blatig\u025b
+  don laban na. U y\u2019a min\u025b. Seere nkalontig\u025blaw nana a jalaki. Kiiritig\u025bla
+  namarat\u0254w y\u2019a \u0272angi ni saya ye. Jamaw y\u025bl\u025bla a ma. S\u0254r\u0254dasiw
+  ye nijuguyakow da a kan. A gengennen jiri la, Yesu ninakiliko laban na, a kulela
+  ko: \u201cA dafara!\u201d (Yuhana 19:30) Tile sabanan a salen k\u0254f\u025b, a
+  sankolola Fa y\u2019a su kunu walisa a ka k\u0254segin ka taa \u0272\u025bnamaya
+  k\u025b sankolo la. (1 Pi\u025br\u025b 3:18) D\u0254g\u0254kun damad\u0254 o k\u0254f\u025b,
+  a seginna sankolo la. O y\u0254r\u0254 la yen, a \u201cy\u2019i sigi Ala kinin f\u025b\u201d
+  ka mak\u0254n\u0254ni k\u025b walisa Ala k\u2019a sigi k\u2019a k\u025b masak\u025b
+  ye.\u2014Heburuw 10:12, 13.\\n22 Ikomi Yesu tora kantigiya la fo ka sa, o y\u2019a
+  to mun k\u025bra? Yesu ka saya y\u2019a to sira day\u025bl\u025bla an ye walisa
+  an ka se ka \u0272\u025bnamaya banbali s\u0254r\u0254 alijin\u025b k\u0254n\u0254
+  dugukolo kan yan, ka k\u025b\u0272\u025b ni Jehova sagonata ye kabini f\u0254l\u0254-f\u0254l\u0254.
+  Yesu ka saya sera k\u2019o k\u025b cogo min na, tilay\u0254r\u0254ba nata b\u025bna
+  kuma o kan.\\nBIBULU B\u0190 MIN F\u0186\\n- Kirayakumaw tiim\u025bni ani Ala y\u025br\u025b
+  ka seereya b\u2019a jira ko Yesu ye Masiya walima Krisita ye.\u2014Matiyu 16:16.\\n-
+  Yesu tun ye m\u025bl\u025bk\u025b ye sankolo la waati jan k\u0254n\u0254 sani a
+  ka na dugukolo kan.\u2014Yuhana 3:13.\\n- Yesu tun ye karam\u0254g\u0254 ye. A tun
+  b\u025b m\u0254g\u0254w min\u025b ko\u0272uman. A k\u025bra misali \u0272uman ye
+  min ye ka Ala kan min\u025b cogo dafalen na.\u2014Matiyu 9:35, 36.\\n* Walisa ka
+  \u0272\u025bf\u0254li w\u025br\u025b s\u0254r\u0254 Dani\u025bl ka kirayakumaw tiim\u025bni
+  kan Yesu ko la, \u019d\u025bf\u0254li farankanw laj\u025b.\\n# Jehova welela ko
+  Fa katuguni ale de ye f\u025bn b\u025b\u025b Dabaga ye. (Esayi 64:7) Ikomi Ala de
+  ye Yesu da, Yesu b\u025b wele ko Ala Denk\u025b. O kun kelen de kos\u0254n minnu
+  b\u025b sankolo la Ala k\u025br\u025b f\u025b, olu b\u025b wele ko Ala denk\u025bw.
+  O de kos\u0254n Hadama fana b\u025b wele ko Ala denk\u025b.\u2014Job 1:6; Liki 3:38,
+  LK.\\n% Walisa ka dalilu w\u025br\u025bw s\u0254r\u0254 minnu b\u2019a jira ko Ala
+  ni Denk\u025b f\u0254l\u0254 bangelen t\u025b kelen ye, \u019d\u025bf\u0254li farankanw
+  laj\u025b.\\n\u019dininkaliw\\n1, 2. (a) N\u2019i b\u025b f\u025bn d\u0254 d\u0254n
+  m\u0254g\u0254 d\u0254 kan min t\u0254g\u0254 b\u0254ra, mun na o k\u0254r\u0254
+  t\u025b ko i b\u025b o tigi d\u0254n ti\u0272\u025b na? (b) Mun de b\u025b f\u0254
+  Yesu ko la, ni o ye m\u0254g\u0254 caman \u0272agamin?\\n3. Mun na a nafa ka bon
+  i ka ti\u0272\u025b d\u0254n Yesu ko la?\\n4. Mankutulan minnu ye \u201cMasiya\u201d
+  ani \u201cKrisita\u201d ye, olu k\u0254r\u0254 ye mun ye?\\n5. Yesu ka kalandenw
+  tun dalen b\u025b mun de la tigitigi Yesu ko la?\\n6. A jira misali f\u025b, Jehova
+  ye kantigiw d\u025bm\u025b cogo min na walisa u k\u2019a d\u0254n j\u0254ni ye Masiya
+  ye tigitigi.\\n7. Kirayakuma minnu tiim\u025bna Yesu kan, olu fila f\u0254?\\n8,
+  9. Dalilu jum\u025bn b\u2019a jira k\u2019a j\u025bya ko Yesu de tun ye Masiya ye
+  a ka bat\u025bmu sen f\u025b?\\n10. Bibulu b\u025b mun f\u0254 Yesu ka \u0272\u025bnamaya
+  ko la sani a ka na dugukolo kan?\\n11. Cogo jum\u025bn na Bibulu b\u2019a jira ko
+  Yesu de ye Ala denk\u025b ye min ko ka di a ye ka t\u025bm\u025b a denk\u025b t\u0254w
+  b\u025b\u025b kan?\\n12. An b\u2019a d\u0254n cogo jum\u025bn na ko Denk\u025b f\u0254l\u0254
+  bangelen ni Ala t\u025b kelen ye?\\n13. Bibulu b\u2019a f\u025b ka mun de f\u0254
+  ni a b\u2019a f\u0254 Denk\u025b ko la ko a ye \u201cAla yebali ja ye\u201d?\\n14.
+  Jehova Denk\u025b bangelen kelenpe sera ka bange i ko hadamaden cogo jum\u025bn
+  na?\\n15. Mun na an b\u025b se k\u2019a f\u0254 ko Yesu sababu f\u025b, an b\u025b
+  se ka Jehova d\u0254n kos\u025bb\u025b?\\n16. Yesu ka cikan tun ye mun ye k\u025br\u025bnk\u025br\u025bnnenya
+  la? A ka kalansiraw tun b\u025b b\u0254 j\u0254ni y\u0254r\u0254?\\n17. Yesu tun
+  b\u025b waajuli k\u025b min? Kun jum\u025bnw na a ye y\u0254r\u0254 janw taama walisa
+  ka m\u0254g\u0254w kalan?\\n18. E f\u025b, Yesu jogo \u0272uman jum\u025bnw de ka
+  di i ye kos\u025bb\u025b?\\n19. Misali jum\u025bn b\u2019a jira ko m\u0254g\u0254w
+  mago tun b\u025b min na, Yesu tun b\u025b o k\u0254l\u0254si?\\n20, 21. Yesu ye
+  misali \u0272uman di an ma Ala kanmin\u025bni ko la ni kantigiya ye cogo jum\u025bn
+  na?\\n22. Ikomi Yesu tora kantigiya la fo ka sa, o y\u2019a to mun k\u025bra?\"",
+  "\"An b\u2019a siri an dusukun na k\u2019a f\u00c9 Ala \u2013 a ka se k\u00c9r\u00c9talen
+  do \u2013 kelen do, kelen pew foyi taa cogo la, k\u00c9nen do, a be yen kunu a be
+  yen bi, ale de ye f\u00c9l\u00c9 ye ale de ye laaban ye, d\u00c9nnibaa do, kod\u00c9nbaa
+  do meni-nbaa do yelibaa do, a te mankutu ni fen ye adamadenw be mankutu ni fen min
+  ye, ale farikoloma fen te, wa ja yere fana te, giriya t\u2019a la wa fegeya yere
+  fana t\u2019a la wa waati yere fana t\u2019a la, wa bonfen p\u00c9g\u00c9n t\u2019a
+  la, sina t\u2019a la, wa jep\u00c9g\u00c9n (kalifa) muso yere t\u2019a la, den t\u2019a
+  fe, wa demebaa (jep\u00c9g\u00c9n) t\u2019a la wa demebaa ma k\u2019a la abada,
+  pekise t\u2019a ye, unka ale de be pema fenw ye.\\nNi maa min y\u2019a b\u00c9nfe
+  p\u00c9g\u00c9nya a ka danfenw na, ka ja k\u2019a la walima peda ni bolo ani pekise
+  walima k\u2019a f\u00c9 ko ale Ala be jigin ka na jipe sankolo la, walima k\u2019a
+  f\u00c9 k\u2019a be banke alijine k\u00c9n\u00c9 I n\u2019a f\u00c9 kalo n\u2019a
+  p\u00c9g\u00c9nna, I k\u2019a don o tigi be kaafiri pilasi la Ala y\u00c9r\u00c9,
+  o tigi te Ala lakiika d\u00c9n min ye danbaaa ye min sanuyalen do ka b\u00c9 nakasi
+  bee ma, o tigi mana fen o fen woloma n\u2019a ka miirinaw ye, a k\u00c9n\u00c9 misemani
+  na o ye danfen ye, o ye gilalen ye an cogo la, o be segin ka na anw ma, I n\u2019a
+  f\u00c9 imaamu Baakiru y\u2019a f\u00c9 cogo min na \u2013 kisi b\u2019a kan -.\\n\u00e6\u00f3\u00e3\u00f3\u00c7
+  \u00c3\u00f3\u00cc\u00f3\u00e1\u00f8\u00f3\u00e5\u00f5 \u00e3\u00e4 \u00ca\u00f3\u00da\u00c8\u00f6\u00ed\u00d1\u00f2
+  \u00cd\u00f3\u00df\u00f6\u00ed\u00e3\u00f2! \u00e6\u00e3\u00f3\u00c7 \u00c3\u00c8\u00da\u00cf\u00f3\u00e5
+  \u00e3\u00e4 \u00e3\u00d1\u00e3\u00ec \u00da\u00f6\u00e1\u00e3\u00f6\u00ed\u00f2
+  \u00cf\u00f3\u00de\u00f6\u00ed\u00de\u00f2.\\nA ka b\u00c9n pef\u00c9li labenen
+  puma ma, w\u2019a y\u00c9r\u00c9 ka jan ka b\u00c9 d\u00c9nni ka pepinini miseman
+  ma, pef\u00c9li te Ala s\u00c9r\u00c9, wa d\u00c9nni yere t\u2019a ye!.\\nW\u2019a
+  b\u2019o cogo la maa be fara kaafiruw kan min b\u2019a f\u00c9 ko: Ala b\u2019a
+  yere yira a ka danfenw na alikiyama don, ali n\u2019o tigi ye a b\u00c9p\u00c9g\u00c9nfeya
+  bali, k\u2019a f\u00c9 farikoloma fen te sabu o be ke nenkun lamaga ye, I k\u2019a
+  d\u00c9n nunu p\u00c9g\u00c9nnaw minu be ni kuma in p\u00c9g\u00c9nna f\u00c9, u
+  y\u2019u yere simi kurana sanfe k\u00c9r\u00c9w kan ani hadiisaw sanfe k\u00c9r\u00c9w,
+  u y\u2019u hakili bali k\u2019a f\u00c9 baara ma kan ka ke n\u2019o ye, u y\u2019a
+  bila u bolo k\u00c9fe, u ma se ka hakili don y\u00c9r\u00c9 s\u00c9r\u00c9 kurana
+  ni hadiisa sanfe k\u00c9r\u00c9w la minu ni hakili miiri ni dalilu be ben ani larabu
+  kan siganni n\u2019a kuma nasira bentaw.\\nAn b\u2019a siri an dusukun na k\u2019a
+  f\u00c9 Ala kelenbantiya be waajibiya \u2013 a ka se k\u00c9r\u00c9talen do \u2013
+  fan beelajelen fe, I n\u2019a f\u00c9 a kelenbantiya be waajibiya a yerekun na,
+  an b\u2019a siri an dusukun na k\u2019a f\u00c9 kelen do a yerekun na, an\u2019a
+  s\u00c9r\u00c9li ye waajibi ye, a b\u2019o cogo la a be waajibiya filana na a ka
+  kelenbantiya a mankutu fana na, o be ke n\u2019a sirili ye dusukun na k\u2019a f\u00c9
+  a mankutu y\u2019a yere jaatika ye, I n\u2019a f\u00c9 a be na pef\u00c9 k\u00c9fe
+  cogo min na, ani k\u2019a siri dusukuna na k\u2019a f\u00c9 b\u00c9nfe p\u00c9g\u00c9ya
+  t\u2019a la, a mankutu y\u2019a yere jaati ye, ale Ala d\u00c9nni ni se ye sangan
+  p\u00c9g\u00c9n t\u2019a la, danni ni garijege la jep\u00c9g\u00c9n t\u2019a la,
+  dafalenya beelajelen na filana t\u2019a la.\\nA be waajibiya sabana na ka Ala kelen
+  bantiya bato la, a te ben fen were si ka bato ale yere k\u00c9 pe o pe kan, a b\u2019o
+  cogo la foyi makan ka fara a kan batola, a mana k\u2019a fen o fen ye, a kera a
+  ka bato waajibiyalen ye o walima min te waajibiyalen ye, a kera seli ye o wali o
+  n\u2019a p\u00c9g\u00c9na batow la\\nNi maa min ye fen were fara a kan bato la o
+  tigi ye mushiriku ye, I n\u2019a f\u00c9 m\u00c9g\u00c9 min b\u2019a yere yira a
+  ka bato la, n\u2019a yere surupa ye ka taa fen ma min te Ala ye, o tiki ka kiti
+  be I n\u2019a f\u00c9 boli batola ni jo batola, danfara t\u2019u ni p\u00c9g\u00c9n
+  ce.\\nUnka kaburu jurali ani sanga sigili o te jate surupali ye ka taa fen were
+  la min te Ala ye \u2013 a ka se k\u00c9r\u00c9talen do \u2013 bat\u00c9 hukumu k\u00c9n\u00c9,
+  I n\u2019a f\u00c9 d\u00c9w b\u2019a jatemine cogo min na minu b\u2019a fe ka dankari
+  imaamiya taasira la, pine kos\u00c9n lahala lakiika la, o toyi o ye surupali suguya
+  d\u00c9 ye ka taa Ala ma \u2013 a ka se k\u00c9r\u00c9talen do \u2013 ni baara pumaw
+  ye I n\u2019a f\u00c9 lasurupali be ke ka taa ma ni banabat\u00c9 laje ye, su bilasira,
+  ani balima diine kelen m\u00c9g\u00c9w lajeli, ani fantanw demeni, I k\u2019a d\u00c9n
+  banaba-gat\u00c9 yere lajeli \u2013 misaali la \u2013 a yerekun na, o ye baara puma
+  ye, masurupali be ke n\u2019o ye ka taa Ala ma, a ka j\u00c9n pumaw fe \u2013 Ala
+  ka se k\u00c9r\u00c9talen do \u2013 o te masu-rupali ye ka taa banabagat\u00c9 ma
+  dee, walasa k\u2019o ke bato ye ka taa fen were ma min te Ala ye \u2013 a ka se
+  k\u00c9r\u00c9talen do \u2013 walima k\u2019a ke filankafoya ye a bato la, a b\u2019o
+  cogo la ni p\u00c9g\u00c9n na baara bee be ten, baara puma minu d\u00c9 ye kaburu
+  jura ni sangaso sigi ni su bilasira ani balima laje ye.\\nKaburu jura ni sangaso
+  sigi, o be jate sariya baara pumaw d\u00c9 ye, o min ye ni ye o be sabati fiku gafew
+  k\u00c9n\u00c9, yan t\u2019o sabati y\u00c9r\u00c9 ye.\\nLapini min be yen k\u2019a
+  f\u00c9 ni baara nunu te filankafoya ye batola in\u2019a f\u00c9 d\u00c9w b\u2019a
+  mmiri cogo min na, lapini te Imaamuw batoli ye, unka lapini ye u ka kow n\u2019u
+  ka baaraw panamayali ye, ani k\u2019u hakililajigi kuraya, ani ka Ala ka j\u00c9nj\u00c9n
+  (darapo) bonpa, Ala ko a ka se k\u00c9r\u00c9talen do.\\n]\u00e6\u00f3\u00e3\u00f3\u00e4
+  \u00ed\u00f5\u00da\u00f3\u00d9\u00f6\u00e3\u00f5 \u00d4\u00f3\u00da\u00f3\u00c7\u00c6\u00f6\u00d1\u00f3
+  \u00c7\u00e1\u00e1\u00e5\u00f6 \u00dd\u00f3\u00c5\u00f6\u00e4\u00f8\u00f3\u00e5\u00f3\u00c7
+  \u00e3\u00f6\u00e4 \u00ca\u00f3\u00de\u00e6\u00f3\u00ec \u00c7\u00e1\u00de\u00f5\u00e1\u00f5\u00e6\u00c8\u00f6[\\nMaa
+  min be Ala ka j\u00c9nj\u00c9nw bonpa, I k\u2019a d\u00c9n o ye Ala pesirape ye
+  dusukun na.\\nNi beelajelen ye baara pumaw ye sariya y\u2019a kanuni sabati, ni
+  adamaden nana n\u2019a ye lasurupali kos\u00c9n ka taa Ala ma, a ka se k\u00c9r\u00c9talen
+  do, walasa k\u2019a ka jipe pini, o tiki ni baraji ka kan, w\u2019o be sara s\u00c9r\u00c9.\\nAn
+  b\u2019a siri an dusukun na k\u2019a f\u00c9 Ala mankutu dafalen lakiika sabatilen,
+  min be weele ko (dafalenpa cepuma) o d\u00c9 ye, d\u00c9nni ni sebaaya, ni kaari
+  ni lapini, ani panamaya ye ni bee y\u2019a yerekun jaatika ye, mankutu te min faralen
+  do a kan, wa mankutu nunu s\u00c9r\u00c9li te foyi yira f\u00c9 n\u2019a kera a
+  yerekun jaatika s\u00c9r\u00c9li ye,o tuma, Ala ka sebaaya s\u00c9r\u00c9li ta fan
+  fe o y\u2019a ka panamaya ye, w\u2019a ka panamaya y\u2019a ka sebaaya ye, o toyi
+  a f\u00c9 sebaa do tuma min panama do, wa panama do tumamin na sebaa do, filaya
+  t\u2019a mankutuw la, filaya t\u2019a s\u00c9r\u00c9li la, w\u2019a mankutu dafalen
+  t\u00c9w fana be ten.\\nTipa do a mankutuw f\u00c9len do p\u00c9g\u00c9n k\u00c9
+  u k\u00c9r\u00c9w n\u2019a faamuyaw la, unka a lakiikaw n\u2019a s\u00c9r\u00c9liw
+  f\u00c9len te p\u00c9g\u00c9n k\u00c9, o bee ye fen kelen ye, sabu n\u2019an y\u2019a
+  ke k\u2019a f\u00c9 k\u2019u f\u00c9len do p\u00c9g\u00c9nk\u00c9 s\u00c9r\u00c9li
+  la, k\u2019a f\u00c9 k\u2019u bee ye k\u00c9r\u00c9len ye, k\u2019u bee s\u00c9r\u00c9li
+  waajibiyalen do, o be ke sabu ye ka waajibiyalen s\u00c9r\u00c9len caya, hakili
+  ka sinsinni na, n\u2019o keera kelen kunkelen lakiika be ci ci ka caya o ni kelenbanciya
+  te don da kelen fe, o be kelenbanciya dusukunnasiri bali \u2013 tawhiidu-.\\nUnka
+  mankutu sabatilen minu be danbeya ka taa Ala ma, I n\u2019a f\u00c9 danbaaya, ni
+  gerejigeya ni pekunya ani sabuya, o bee be segin a lakiika la ka taa mankutu kelen
+  ma min ye lakiika kelen pe ye o ye \u2013 Danbaa pumaya ye \u2013 a ka danfenw ma,
+  o ye mankutu kelen ye mankutu damad\u00c9 be fosi ka b\u2019a k\u00c9n\u00c9, n\u2019a
+  k\u00c9r\u00c9w n\u2019a dapew f\u00c9li jate mine ye p\u00c9g\u00c9n k\u00c9.\\nUnka
+  mankutu fositaw, a be f\u00c9 minu ma ko \u2013 k\u00c9r\u00c9ta mankutuw- o bee
+  be segin ka taa fosili kelen pe ma, o ye besekake fosili ye ka b\u00c9 ale Ala la
+  \u2013 a ka se k\u00c9r\u00c9talen do \u2013 besekake k\u00c9r\u00c9 ye fen o fen
+  ye farikoloma fen ye, walima danfen farikolotan a be f\u2019o ma k\u2019u be se
+  ka ke o tuma o besekake dape min file ni ye o be fosi ka b\u00c9 Ala la, o te f\u2019a
+  ma abada, o de ye besekake ye (imikaanu).\\nBesekake fosili ka b\u00c9 Ala la o
+  ye jaaguya ye, sabu o k\u00c9r\u00c9 ye, farikoloya ni ja ni lamagali ni basikili
+  ni giriya ani fegeya o n\u2019a p\u00c9g\u00c9nnaw fosili ye ka b\u00c9 Ala la,
+  o toyi, nakasi bee ka kan ni fosili ye ka b\u2019a la, I k\u2019a d\u00c9n besekake
+  fosili ka b\u2019a la, o be segin ka taa a s\u00c9r\u00c9li waajibiya ma, a s\u00c9r\u00c9li
+  waajibiya be segin ka taa a ka dafalenpa mankutuw sabatili ma, a ka k\u00c9r\u00c9ta
+  mankutuw be segin ka taa a ka dafalenpa mankutuw ma (sabatilen) Ala ye kelen ye
+  fan beelajelen fe, a te caya a yerekun jaati la min saniyalen do, kelen pe lakiika
+  do min semenen do a yerekun na siki sikili t\u2019a la a yerekun na\\nKabako te
+  teme m\u00c9g\u00c9 ka kuma kan min be taa f\u00c9li fe ko Ala sabatili mankutuw
+  be taa laban mankutu fosilenw la, k\u2019a sabu ke a bonpala a ma ka se k\u2019a
+  faamuya ko Ala mankutu be se ka ke a yerekun jaatika ye cogo di? a y\u2019a bisikiya
+  o la ko sabatili mankutuw be segin ka taa mankutu fosilenw ma, walasa a ka se ka
+  danganiya s\u00c9r\u00c9 k\u2019a f\u00c9 ko Ala yerekun jaatika ye kelen ye, k\u2019a
+  ma can- k\u2019a cayabaliya bali \u2013a kilala ka bin digen k\u00c9n\u00c9 min
+  ka jugu ka teme k\u00c9r\u00c9len kan, sabu a ye Ala yerekun jaatika ke besekake
+  fen ye a yerekun min y\u2019a s\u00c9r\u00c9li yere jaatika ye, min ye s\u00c9r\u00c9li
+  nakasi yere kunjalan ye, min tapanen do nakasi bee la, a ye Ala yerekun ke untapali
+  kun kelen ye ani fosili kunjalan, Ala k\u2019an kiisi ka b\u00c9 miiri lankolow
+  ma ani kalemu ceeneni.\\nI n\u2019a f\u00c9 kabako te maa ka kuma ye maa min b\u2019a
+  f\u00c9 ko Ala sabatili mankutuw faralen do a yerekun kan, o tikilam\u00c9g\u00c9
+  y\u2019a yira k\u2019a f\u00c9 ko k\u00c9r\u00c9lenw ka can, w\u2019a y\u2019a yira
+  k\u2019a f\u00c9 ko jep\u00c9g\u00c9nw be Ala la min s\u00c9r\u00c9li ye waajibi
+  ye walima a ko Ala siki sikilen do p\u00c9g\u00c9n kan \u2013 Ala ka se k\u00c9r\u00c9talen
+  do ka b\u2019o ma \u2013 an ka pem\u00c9g\u00c9 ko min ye Amiiru muuminuuna ye ani
+  kelenbantiyalaw kuntigi \u2013 kiisi b\u2019a kan.\\n(\u00e6\u00df\u00f3\u00e3\u00f3\u00c7\u00e1\u00f5
+  \u00c7\u00e1\u00c5\u00ce\u00e1\u00c7\u00d5\u00f6 \u00e1\u00e5 \u00e4\u00f3\u00dd\u00ed\u00f5
+  \u00c7\u00e1\u00d5\u00f8\u00f6\u00dd\u00f3\u00c7\u00ca\u00f6 \u00da\u00e4\u00e5\u00f5\u00a1
+  \u00c8\u00d4\u00e5\u00c7\u00cf\u00c9\u00f6 \u00df\u00e1\u00f8\u00f6 \u00d5\u00dd\u00c9\u00f2
+  \u00c3\u00e4\u00f8\u00f3\u00e5\u00c7 \u00db\u00f3\u00ed\u00d1\u00f5 \u00c7\u00e1\u00e3\u00f3\u00e6\u00d5\u00f5\u00e6\u00dd\u00a1
+  \u00e6\u00d4\u00f3\u00e5\u00c7\u00cf\u00f3\u00c9\u00f6 \u00df\u00e1\u00f8\u00f6
+  \u00e3\u00f3\u00e6\u00d5\u00f5\u00e6\u00dd\u00f2 \u00c3\u00e4\u00f8\u00f0\u00e5
+  \u00db\u00f3\u00ed\u00d1\u00f5 \u00d5\u00dd\u00c9\u00f2\u00a1 \u00dd\u00f3\u00e3\u00f3\u00e4
+  \u00e6\u00d5\u00dd\u00f0\u00e5 \u00d3\u00f5\u00c8\u00cd\u00c7\u00e4\u00f3\u00e5
+  \u00dd\u00de\u00cf \u00de\u00f3\u00d1\u00f3\u00e4\u00f3\u00e5\u00f5\u00a1 \u00e6\u00e3\u00f3\u00e4
+  \u00de\u00f3\u00d1\u00f3\u00e4\u00f3\u00e5\u00f5 \u00dd\u00f3\u00de\u00f3\u00cf
+  \u00cb\u00f3\u00e4\u00f8\u00f3\u00c7\u00e5\u00f5\u00a1 \u00e6\u00e3\u00f3\u00e4
+  \u00cb\u00f3\u00e4\u00f8\u00f3\u00c7\u00e5\u00f5 \u00dd\u00f3\u00de\u00f3\u00cf
+  \u00cc\u00f3\u00d2\u00c3\u00f3\u00e5\u00f5\u00a1 \u00e6\u00e3\u00f3\u00e4 \u00cc\u00d2\u00f3\u00c3\u00e5\u00f5
+  \u00dd\u00de\u00cf \u00cc\u00f3\u00e5\u00f6\u00e1\u00f3\u00e5\u00f5).\\nK\u00c9n\u00c9nanjeya
+  dafalen Ala ye o ye mankutu\\nBalili y\u2019a la, ka sereya ko mankutu ni mankutulen
+  te kelen ye, ka sereya ko mankutulen ni mankutu te kelen ye. ni maa min y\u2019a
+  mankutu o y\u2019a suma ni danfenw ye k\u2019a surupa danfenw na, ni maa min y\u2019a
+  surupa, o tigi y\u2019a ke fila ye, ni maa min y\u2019a ke fila ye o tigi y\u2019a
+  kilan, ni ma min y\u2019a kilan o tigi m\u2019a d\u00c9n.\\nAn b\u2019a siri an
+  dusukun na k\u2019a f\u00c9 Ala ka dafalenya mankutu min b\u2019a sabati o d\u00c9
+  ye a ka danapa ni kilenneya ye, a kilennen do t\u00c9p\u00c9likela te a te t\u00c9np\u00c9li
+  ke, a ka kiti la a te janfa ni namara ke, a ka kiti tige la, maa minu tukula a n\u00c9fe
+  a b\u2019olu sara, wa maa minu y\u2019a kota a b\u2019olu fana sara, a t\u2019a
+  ka j\u00c9nw bila fen na u te se ka min ke, w\u2019a t\u2019u pangata ni fen ye
+  min b\u2019u ka pagata san fe an\u2019u ma kan ni min ye, an b\u2019a siri an dusukun
+  na k\u2019a f\u00c9 ale Ala -sanuya b\u2019a ye- a te puma toyi n\u2019a y\u2019a
+  s\u00c9r\u00c9 balina t\u2019a la, w\u2019a te juguman ke, sabu a be se puma keli
+  la, a be se juguma toli la, k\u2019a sabu ke a b\u2019a d\u00c9n ko puma keli kapi,
+  a b\u2019a d\u00c9n ko juguman keli mapi, an\u2019a kaarilen do ka b\u00c9 puman
+  toli ma a kaarilen do ka b\u00c9 juguman keli ma, puma keli t\u2019a t\u00c9\u00c9r\u00c9
+  sanko a mako ka se a kebaliya ma, w\u2019a te t\u00c9\u00c9r\u00c9 ni juguman keli
+  ye sanko a mako ka siri a keli la, o n\u2019a ta bee ale Ala ye kod\u00c9nbaa ye,
+  a te ben f\u2019a ka baara ka ben n\u2019a ka kod\u00c9n ye, fenw labenni dafalenw
+  siratige kos\u00c9n.\\nN\u2019a y\u2019a s\u00c9r\u00c9 Ala be topoli ni juguman
+  ke \u2013 a sanupalen do ka b\u2019o ma \u2013 I k\u2019a d\u00c9n o ko pef\u00c9li
+  te teme cogoya naani kan:\\n1-Ala ka ke fen d\u00c9nbali ye a t\u2019a d\u00c9n
+  k\u2019o ko ye juguman ye.\\n2-Ala ka ke a b\u2019a d\u00c9n unka a jaaguyalen do
+  o ko keli la, a deselen do a toli la.\\n3-Ala b\u2019a d\u00c9n w\u2019a jaaguyalen
+  fana te unka a mako b\u2019a keli la.\\n4-Ala b\u2019a d\u00c9n, w\u2019a jaaguyalen
+  te a keli la w\u2019a mako t\u2019a keli la, o b\u2019a yira k\u2019a ka baara keli
+  ye neke mine ni baara lankolon ye ani kulonke nafa te min na.\\nWa ni cogoya nunu
+  bee ye cogoya ye min te ben Ala la \u2013 a ka se k\u00c9r\u00c9talen do \u2013
+  sabu o be nakasi danbeya ka taa Ala ma k\u2019a s\u00c9r\u00c9 ale Ala ye dafalenya
+  kun kelen ye, a be waajibiya an k\u2019a sanuya ka b\u00c9 tonp\u00c9li ni juguman
+  keli la.\\nK\u2019a s\u00c9r\u00c9 silaama d\u00c9w y\u2019a ben k\u2019a f\u2019a
+  be juguman ke \u2013 a ka se k\u00c9r\u00c9talen do \u2013 a t\u00c9g\u00c9w sanuyalen
+  do ka b\u2019o ma, u y\u2019a ben k\u2019a f\u00c9 ko Ala be se k\u2019a labatobaaw
+  paganta, ani maa minu y\u2019a kota fana, k\u2019a be ben a k\u2019olu don Alijine
+  na, w\u2019o toyi kaafiriw fana be ten, u y\u2019a ben fana k\u2019a b\u2019a ka
+  j\u00c9n bila fen na a te se ka min ke, w\u2019o n\u2019a ta bee a be kila k\u2019u
+  paganta u y\u2019a ben k\u2019a be ben Ala ka tonp\u00c9li ni danteme wali ke ani
+  ungalon ni negenni, ami k\u2019a be kow ke ka s\u00c9r\u00c9 n\u2019a ma ke ni kond\u00c9n
+  ye, a ma ke ni lapini ni nafa ye, k\u2019u ka dalilu ke ko, Ala te piniga a ka ketaw
+  la, unka m\u00c9g\u00c9w de be piniga u ka ketaw la.\\nA d\u00c9 la nunu p\u00c9g\u00c9nna
+  m\u00c9g\u00c9w de y\u2019a ja ta u hakiliw la k\u2019a f\u00c9 ko Ala ye t\u00c9np\u00c9likela
+  ye janfati do naloman do, kulonkela do ungalontigela do negelikela do, a be juguma
+  ke a be puma keli toyi, Ala ka se k\u00c9r\u00c9talen do ka b\u2019o ma k\u00c9r\u00c9taba
+  la.\\nWa ni yere de ye kaafiriya kun kelen ye, Ala dun ko a ka gafeba k\u00c9n\u00c9:\\n]\u00e6\u00c7\u00e1\u00e1\u00e5\u00f5
+  \u00e1\u00c7 \u00ed\u00f5\u00cd\u00f6\u00c8\u00f5 \u00c7\u00e1\u00dd\u00f3\u00d3\u00c7\u00cf\u00f3[
+  \u00e6\u00de\u00c7\u00e1 \u00c3\u00ed\u00d6\u00f0\u00c7 ]\u00e6\u00e3\u00f3\u00c7
+  \u00c7\u00e1\u00e1\u00e5\u00f5 \u00ed\u00f5\u00d1\u00f6\u00ed\u00cf\u00f5 \u00d9\u00f5\u00e1\u00e3\u00c7\u00f0
+  \u00e1\u00e1\u00da\u00c8\u00c7\u00cf\u00f6[ \u00e6\u00de\u00dc\u00c7\u00e1: ]\u00e6\u00e3\u00c7
+  \u00ce\u00f3\u00e1\u00de\u00e4\u00f3\u00c7 \u00c7\u00e1\u00d3\u00f8\u00f3\u00e3\u00c7\u00e6\u00c7\u00ca\u00f6
+  \u00e6\u00c7\u00e1\u00c3\u00d1\u00d6\u00f3 \u00e6\u00e3\u00c7 \u00c8\u00ed\u00e4\u00e5\u00e3\u00c7
+  \u00e1\u00c7\u00da\u00f6\u00c8\u00f6\u00ed\u00e4\u00f3[ \u00e6\u00de\u00c7\u00e1:\\n]\u00e6\u00e3\u00f3\u00c7
+  \u00ce\u00f3\u00e1\u00de\u00ca\u00f5 \u00c7\u00e1\u00cc\u00f6\u00e4\u00f8\u00f3
+  \u00e6\u00c7\u00e1\u00c5\u00e4\u00d3\u00f3 \u00c5\u00e1\u00c7 \u00e1\u00f6\u00ed\u00f3\u00da\u00f5\u00c8\u00cf\u00f5\u00e6\u00e4\u00f3[.\\nAla
+  te ceni fe, a ko tun: Ala t\u2019a fe k\u2019a ka j\u00c9nw t\u00c9np\u00c9, a ko
+  tun: anw ma sankolo ni dukumakolo dan ani fen min b\u2019o fila ni p\u00c9g\u00c9n
+  ce, kulonke kos\u00c9n, a ko tun: ne ma jine ni adamaden dan f\u00c9yi kama f\u2019u
+  ka n bat\u00c9. o n\u2019a p\u00c9g\u00c9nnaw kurana Aayaw la Ala sanuyalen do ka
+  b\u2019o ma sanupa b\u2019e masaba in ye E ma ni dan gaansan ko lankoloya la\\nAn
+  b\u2019a siri an dusukunana k\u2019a f\u00c9 Ala \u2013 a ka se k\u00c9r\u00c9talen
+  do \u2013 a t\u2019a ka j\u00c9n bila (yamaroya) fen na f\u2019a kelen k\u00c9 ka
+  dalilu j\u00c9 u kan w\u2019a t\u2019u yamaroya ni fen ye f\u2019u tofanga be se
+  ka min ke an\u2019u be se ka min d\u00c9n, sabu desebaat\u00c9 ni kunfin bilali
+  fen na, O ye tonp\u00c9li ye, f\u00c9 n\u2019a kera maa bannen ye, o ka dese b\u2019a
+  yere la, o te Ala la abada.\\nUnka kunfin min n\u2019a bana diine kitiw n\u2019a
+  yamaroyaw d\u00c9nni ma, o pinigalen do Ala fe \u2013 a ka se k\u00c9r\u00c9talen
+  do \u2013 w\u2019a be paganta a ka banbagaciya la \u2013 yerekun dese \u2013 sabu
+  a be waajibiya adamaden bee kan, a ka fen kalan k\u2019a pepini a mako be se min
+  ma a ka diine kitiw la.\\nAn b\u2019a siri an dusukun na k\u2019a f\u00c9 masa k\u00c9r\u00c9talen
+  in, a te ben abada f\u2019a k\u2019a ka j\u00c9nw yamaroya, ka sariya sira don u
+  k\u00c9r\u00c9 an\u2019u ka pa ni heere be min na k\u2019o sira don u k\u00c9r\u00c9,
+  walasa a ka heere ni kunaja bada bada sira don u k\u00c9r\u00c9, a b\u2019u kandan
+  ka taa fen ma u ka pali be fen min na, a b\u2019u papa ka b\u00c9 fen ma u ka cenni
+  ni t\u00c9\u00c9r\u00c9 ni labankojuguya be fen min na ali n\u2019a y\u2019a d\u00c9n
+  k\u2019a f\u00c9 ko m\u00c9g\u00c9 t\u00c9w n\u2019a labato, sabu o ye hine ni makari
+  ye a ka j\u00c9nw na, k\u2019a sabu ke u t\u2019u ka nafamafenw bee d\u00c9n, w\u2019u
+  t\u2019a siraw yere fana bee d\u00c9n jipe ni laahara k\u00c9n\u00c9, wa fen caama
+  beyi min be t\u00c9\u00c9r\u00c9 ni b\u00c9ne lase u ma u t\u2019o d\u00c9n.\\nAla
+  - a ka se k\u00c9r\u00c9tal en do - ale de ye jipe hine l\u00c9\u00c9k\u00c9len
+  ni laahara hine kerenkerennen tigi ye n\u2019a yerekun kunkelen ye, ale ka dafalenpa
+  bawoy\u00c9, min y\u2019a yerekun jaatika ye min ni hakili te s\u00c9n o ka faran
+  ka b\u2019a la abada, unka ni hine ni makari in t\u2019a bali m\u00c9g\u00c9 d\u00c9w
+  ka muriti ka b\u2019a batoli ma. w\u2019u te tuku a ka yamaroya n\u2019a ka balilima
+  fenw k\u00c9.\\nMaa d\u00c9w taara a f\u00c9li sira fe \u2013 n\u2019o ye Mujibira
+  m\u00c9g\u00c9w ye \u2013 ko Ala a ka se k\u00c9r\u00c9talen do \u2013ale de ye
+  danfenw ka walekebaa ye, o k\u00c9r\u00c9 be ke k\u2019ale de ye maaw bila k\u2019u
+  jaaguya kota keli la, w\u2019o n\u2019a ta bee a be kila k\u2019u paganta o la w\u2019a
+  y\u2019u jaaguya labatoli keli la, o n\u2019a ta bee a b\u2019u sara o la, u ka
+  daliluya ye o la ko: danfenw ka kewalew lakiika yere la o ye Ala kewalew ye.\\nUnka
+  a be danbeya ka ta m\u00c9g\u00c9w ma k\u2019a sabu ke a be ben yen, sabu m\u00c9g\u00c9w
+  de ye walew kebaaw ye kene kan, n\u2019o te k\u2019a kebaa lakiika ye Ala ye, w\u2019o
+  be segin ka taa t\u00c9biya sababuyaw balili ma \u2013 dancogo- min be fenw bee
+  ni p\u00c9g\u00c9n ce, ko Ala de ye sababu lakiika ye sababu were t\u2019a k\u00c9fe.\\nI
+  k\u2019a d\u00c9n u ye dancogo \u2013 t\u00c9biya \u2013 sababuyaw k\u00c9n, sabu
+  u y\u2019a bisikiya ko masa k\u00c9r\u00c9talen in de ye danbaa ye min ni jep\u00c9g\u00c9n
+  t\u2019a la, k\u2019o de ni f\u00c9len in be taa ni p\u00c9g\u00c9n ye, n\u2019o
+  ye t\u00c9biya sababuya k\u00c9nni ye fen bee ni p\u00c9g\u00c9n ce.\\nMaa werew
+  y\u2019a f\u00c9, n\u2019o ye (Mufawida m\u00c9g\u00c9w) ye ko Ala \u2013 a ka se
+  k\u00c9r\u00c9talen do \u2013 k\u2019a ye walew seme danfenw na k\u2019a ka se n\u2019a
+  ka latige n\u2019a ka hake ta ka b\u2019a kan k\u2019a sabu ke ko walew danbeyali
+  ka taa masa k\u00c9r\u00c9talen ma, o be dese sabati a la, ko sr\u00c9limafen bee
+  n\u2019a sababuya kerenkerennen do ali n\u2019a bee kilala ka laban ka taa sababuyaw
+  sababu f\u00c9l\u00c9 ma, o de ye Ala ye \u2013 a ka se k\u00c9r\u00c9talen do \u2013maa
+  min be ni kuma in f\u00c9, I k\u2019a d\u00c9n o ye Ala b\u00c9 a ka sebaaya n\u2019a
+  ka fanga n\u2019a ka masaya k\u00c9n\u00c9, o tigi ye fen were fara a kan a ka danni
+  na.\\nAn ka dusukunnasiri a la, o y\u2019an ka imaamu sanumaw nana ni min ye \u2013
+  kisi b\u2019u kan \u2013 ko, ko b\u2019o fila ni p\u00c9g\u00c9n ce, jaaguyali ni
+  semeni, cemance sira b\u2019o fila ni p\u00c9g\u00c9n ce min ni s\u00c9s\u00c9likelaw
+  n\u2019u p\u00c9g\u00c9nnaw tun be dese o faamuyali la, dusukunnasiri kumakelaw
+  la, m\u00c9g\u00c9 d\u00c9w ye dan teme a pef\u00c9li la, m\u00c9g\u00c9 d\u00c9w
+  were y\u2019a pef\u00c9li k\u00c9r\u00c9n, d\u00c9nni ni filozofi ma se k\u2019a
+  bange k\u2019a d\u00c9n, f\u00c9 seekili damad\u00c9 temenen k\u00c9 fe, wa kabako
+  te k\u2019a f\u00c9 m\u00c9g\u00c9 d\u00c9w ma imaamuw ka k\u00c9d\u00c9n ye u pen
+  na k\u2019a d\u00c9n k\u2019a d\u00c9nnakari \u2013 kisi b\u2019u kan \u2013 w\u2019u
+  m\u2019u ka kumaw faamuya o de la u y\u2019a f\u00c9 kumakan k\u00c9n\u00c9 n\u2019o
+  ye ko: (kopew be ko fila ni p\u00c9g\u00c9n ce) n\u2019o ye jaaguya ni semenni ye
+  k\u2019o ye k\u00c9r\u00c9nfe bolo filozofi d\u00c9nna laaban d\u00c9w ka kuma bangelen
+  ye, k\u2019a s\u00c9r\u00c9 an ka imaamuw y\u2019u k\u00c9n a f\u00c9li la, ka k\u00c9n
+  seekili tan b\u00c9p\u00c9go pe.\\nI k\u2019a d\u00c9n an ka imaamu s\u00c9\u00c9diku
+  ko \u2013 kisi b\u2019a kan \u2013 a ket\u00c9 ka cemance sira pef\u00c9 n\u2019a
+  ka kumakan lakod\u00c9nnen ye:\\n(\u00e1\u00c7 \u00cc\u00c8\u00d1 \u00e6\u00e1\u00c7
+  \u00ca\u00dd\u00e6\u00ed\u00d6 \u00e6\u00e1\u00df\u00e4 \u00c3\u00e3\u00d1 \u00c8\u00ed\u00e4
+  \u00c3\u00e3\u00d1\u00ed\u00e4)\\nJaaguya te wa semeli te, unka kope in b\u2019o
+  fila ni p\u00c9g\u00c9n ce, a kan be jaaguya ni semeni ma.\\nFen ma b\u00c9n ka
+  ni kuma lapini b\u00c9, wa fen ma misen k\u2019a k\u00c9r\u00c9 b\u00c9, a k\u00c9r\u00c9
+  lasuruman, o ye k\u2019a f\u00c9 an kewalew, fan d\u00c9 fe an kewalew do lakiika
+  yere la, w\u2019anw de y\u2019a keli sababuya ye, w\u2019a b\u2019an ka se n\u2019a
+  sako la an b\u2019a suganti an yere la, wa fan d\u00c9were fe a b\u2019e Ala ka
+  sebaaya k\u00c9n\u00c9 \u2013 a ka se k\u00c9r\u00c9talen do \u2013 w\u2019a b\u2019a
+  ka fanga n\u2019a ka sebaaya juk\u00c9r\u00c9, sabu ale ye s\u00c9r\u00c9li dibaa
+  ye a m\u2019an jaaguya an kewalew la, sanko a ka f\u00c9 k\u2019a y\u2019an t\u00c9p\u00c9
+  an pagatali la kotali kos\u00c9n sabu se b\u2019an ye sugantili b\u2019an bolo an
+  ka ketaw la, w\u2019a m\u2019an kewalew seme an na, kewalew danni ta fan fe, sanko
+  a ka f\u00c9 k\u2019a ye kewalew b\u00c9 an ka sebaaya k\u00c9n\u00c9, o toyi danni
+  ni kiti ni kow bee y\u2019a ta ye, ale de be se fen bee la, w\u2019a ka d\u00c9nni
+  ye fen bee lab\u00c9.\\nA mana kecogo o cogo an ka dusukunna siri latige ni hake
+  la o ye Ala ka gindo d\u00c9 ye \u2013 a ka se k\u00c9r\u00c9talen do \u2013ni maa
+  min sera k\u2019a faamuya a pe lakiika kan k\u2019a s\u00c9r\u00c9 n\u2019a ma ke
+  ni danteme ye, a ma ke ni k\u00c9r\u00c9n ye o do n\u2019o te a te waajibiya a k\u2019a
+  yere yamaroya ni pepinini miseman ye ka se hake ma min b\u2019a fili ka b\u2019a
+  ka diine na, n\u2019a b\u2019a ka diine cen a bolo sabu kow lamiseman do, o toyi
+  filozofi d\u00c9nni pepini miseman d\u00c9 do, min ni bee t\u2019o ye f\u00c9 n\u2019a
+  kela maa kelen kelen ye caama ceenena u sen kan ni faamuya la.\\nO tuma na yamaroyali
+  a pepinini na o be m\u00c9g\u00c9 gansanw seko sanfe, a be m\u00c9g\u00c9w wasa
+  u ka d\u2019a la ka s\u00c9n a ma bakurumaya la, ka da imaamu sanumaw ka kumakan
+  kan min b\u2019a f\u00c9 ko- ko be fen fila ni p\u00c9g\u00c9n ce \u2013 jaaguya
+  ni semeni. o tuma na, adamadenw kewalew te jaaguya ye w\u2019a semenen t\u2019u
+  la abada, w\u2019a dusukun-nasiriw lasili te, sanko k\u2019a f\u00c9 k\u2019a ke
+  waajibiya m\u00c9g\u00c9 kelen kelen bee k\u2019a siri a dusukun na, k\u2019a fese
+  fese k\u2019a sinsin f\u00c9 ka misepa.\\nBangeli adamaden na: o ye hakilina d\u00c9
+  ka bange a ye fen d\u00c9 la, min tun ma bange a ye ka k\u00c9r\u00c9, I n\u2019a
+  f\u00c9 a ka lapini ka falen baara d\u00c9 keli la, a tun b\u2019a fe ka min ke,
+  sabu fen be n\u2019a yerekun na k\u2019a ka lapini n\u2019a ka d\u00c9nni yalama
+  o ko la, o ko toli be bange a ye, k\u2019a s\u00c9r\u00c9 a tun b\u2019a fe k\u2019a
+  ke, o n\u2019a p\u00c9g\u00c9nna be ke k\u2019a sabu ke a t\u2019a ka nafanw d\u00c9n,
+  walima nimisa k\u00c9r\u00c9len kelenw na.\\nBangeli k\u00c9r\u00c9 temenen in na,
+  a te ben o ka danbeya ka taa Ala ma \u2013 a ka se k\u00c9r\u00c9talen do \u2013
+  sabu o ye kunfiya ni nakasi ye o dun ye benbali ye Ala la, wa imaamiya t\u2019o
+  f\u00c9 abada s\u00c9\u00c9diku ko \u2013 kiisi b\u2019a kan -:\\n(\u00e3\u00f3\u00e4
+  \u00d2\u00f3\u00da\u00e3\u00f3 \u00c3\u00e4\u00f8\u00f3 \u00c7\u00e1\u00e1\u00e5\u00f3
+  \u00ca\u00f3\u00da\u00c7\u00e1\u00f3\u00ec \u00c8\u00cf\u00f3\u00c7 \u00e1\u00f3\u00e5\u00f5
+  \u00dd\u00f6\u00ed \u00d4\u00ed\u00c1\u00f2 \u00c8\u00f3\u00cf\u00f3\u00c7\u00c1
+  \u00e4\u00cf\u00c7\u00e3\u00c9 \u00dd\u00e5\u00e6 \u00da\u00f6\u00e4\u00cf\u00e4\u00f3\u00c7
+  \u00df\u00f3\u00c7\u00dd\u00d1\u00f5 \u00c8\u00c7\u00e1\u00e1\u00e5 \u00c7\u00e1\u00da\u00d9\u00ed\u00e3\u00f6)
+  \u00e6\u00de\u00c7\u00e1 \u00c3\u00ed\u00d6\u00c7\u00f0: (\u00e3\u00e4 \u00d2\u00f3\u00da\u00e3
+  \u00c3\u00e4\u00f8\u00f0 \u00c7\u00e1\u00e1\u00e5\u00f3 \u00c8\u00cf\u00c7 \u00e1\u00e5\u00f5
+  \u00dd\u00ed \u00d4\u00ed\u00c1\u00f2 \u00e6\u00e1\u00e3 \u00ed\u00f3\u00da\u00e1\u00e3\u00f5\u00e5
+  \u00c3\u00e3\u00d3\u00f6 \u00dd\u00c3\u00c8\u00d1\u00c3\u00f3 \u00e3\u00f6\u00e4\u00e5\u00f5).\\nNi
+  maa min y\u2019a miiri ko fen bangela Ala ye, nimisali bangeli la, o tigi ye kaafiri
+  ye Ala ma, min ye masaba ye.\\nAko tun: Ni maa min y\u2019a miiri ko fen bangela
+  a ye fen d\u00c9 la, a tun te min d\u00c9n kunu, I k\u2019a d\u00c9n a y\u2019a
+  yere sanuya ka b\u2019o ma\\nUnka lakalili d\u00c9w minena ka b\u00c9 an ka imaamuw
+  la, min be bangeli k\u00c9r\u00c9 temenen sabati, a k\u00c9r\u00c9 jatemine na,
+  I n\u2019a f\u00c9 a minena ka b\u00c9 s\u00c9\u00c9diku la \u2013 kiisi b\u2019a
+  ka \u2013ko:\\n(\u00e3\u00c7 \u00c8\u00f3\u00cf\u00f3\u00c7 \u00e1\u00e1\u00e5\u00f6
+  \u00dd\u00f6\u00ed \u00d4\u00f3\u00ed\u00c1\u00f2 \u00df\u00f3\u00e3\u00c7 \u00c8\u00f3\u00cf\u00f3\u00c7
+  \u00e1\u00f3\u00e5\u00f5 \u00dd\u00f6\u00ed \u00c5\u00d3\u00e3\u00c7\u00da\u00ed\u00e1\u00f3
+  \u00c5\u00c8\u00e4\u00f6\u00ed).\\nF\u00c9yi ma bange Ala ye ka teme fen kan min
+  bangela a ye ne dence ismaa-ila ka kope la.\\nO de la gafegilanna d\u00c9w ye danbeyali
+  ke silaamaya taabolow la ka taa imaamiya ma k\u2019olu de be bangeli (Badaa-a) f\u00c9
+  Ala la, ni k\u00c9r\u00c9temenen in ye d\u00c9nni d\u00c9nbaliya k\u00c9fe u ka
+  lapini ye imaamiya taabolo lagosili ye, ani kira s\u00c9m\u00c9g\u00c9w ka taasira
+  juguyabaw d\u00c9 ye.\\nNi kuma in bee lakenema ye Ala ka f\u00c9len ye a ka kuranaba
+  k\u00c9n\u00c9:\\n(\u00ed\u00f3\u00e3\u00cd\u00f5\u00e6 \u00c7\u00e1\u00e1\u00e5\u00f5
+  \u00e3\u00f3\u00c7 \u00ed\u00f3\u00d4\u00f3\u00c7\u00c1\u00f5 \u00e6\u00ed\u00f5\u00cb\u00c8\u00f6\u00ca\u00f5
+  \u00e6\u00da\u00f6\u00e4\u00cf\u00f3\u00e5\u00f5 \u00c3\u00f5\u00e3\u00f8\u00f5
+  \u00c7\u00e1\u00df\u00f6\u00ca\u00f3\u00c7\u00c8\u00f6).\\nAla be fen baare (j\u00c9si)
+  min y\u2019a diya, a be fen sabati, wa gafew bee ba b\u2019a bolo.\\nNi k\u00c9r\u00c9
+  ye k\u2019a f\u00c9 ko Ala be fen bange a ka cibaa nenkun kan, walima a ka waliju
+  nenkun kan min n\u2019o ni waati nafa be ben, a be s\u00c9r\u00c9 k\u2019o baare.
+  a be ke fen were ye min ni f\u00c9l\u00c9 te kelen ye, k\u2019a s\u00c9r\u00c9 a
+  b\u2019a lahala fila bee d\u00c9n, I n\u2019a f\u00c9 a be Isimaa-ila ka kisa la
+  cogo min na, tuma min na a faa y\u2019a ye k\u2019a b\u2019a faga, o tuma na Imaamu
+  s\u00c9\u00c9diku ka kuma lapini be ke, ko fen ma bange Ala ye \u2013a ka se k\u00c9r\u00c9talen
+  do \u2013 ko la I n\u2019a f\u00c9 a bangela a ye a dence Isimaa-ila ka ko la, sabu
+  a y\u2019a ka kalifa - saya - mine a la ka k\u00c9n Imaam s\u00c9\u00c9diku yere
+  pe, walasa m\u00c9g\u00c9w k\u2019a d\u00c9n k\u2019a f\u00c9 ko Imaamu te, sabu
+  kenekanta tun ye ko ale de ye Imaamu ye a k\u00c9fe, sabu dence k\u00c9r\u00c9len
+  tun do.\\nMin ka suru bangeli la k\u00c9r\u00c9ta fan fe o ye sariya k\u00c9r\u00c9lenw
+  baareli ye ni kira Munamadu ka sariyaw ye (ki - so) o yere toyi ali kira yere nana
+  ni sariya minu ye o d\u00c9 ye d\u00c9 baare \u2013 kisi ni neema b\u2019a n\u2019a
+  s\u00c9m\u00c9w kan.\\nAn b\u2019a siri an dusukunna k\u2019a f\u00c9 Ala \u2013
+  a ka se k\u00c9r\u00c9talen do - a y\u2019a ka kitiw bila m\u00c9g\u00c9w kan, a
+  waajibiyalew n\u2019a haramuyalen o n\u2019a p\u00c9g\u00c9nnaw adamadenw ka nafa
+  kos\u00c9n u yerew kewalew la, ni nafa sinsinnen be min na a y\u2019o ke waajibi
+  ye, ni ceniba be min na a y\u2019o ke haraamu ye k\u2019o bali ni nafa be min na
+  n\u2019a ka fusa, a y\u2019o ke fen kanunen ye an kan k\u2019a keli nege don an
+  na \u2026.wa kiti t\u00c9w be ni cogo la,wa ni y\u2019a ka hine n\u2019a ka makari
+  ye a ka j\u00c9nw na, w\u2019a te ben f\u00c9 kiti ka k\u2019a bolo kow bee la,
+  ani ketaw bee, wa fen o fen beyi a te f\u00c9 kiti lakiika ka k\u2019o la Ala bolo,
+  ali n\u2019o d\u00c9nni sira tukula an pe.\\nW\u2019an b\u2019a f\u00c9 k\u2019a
+  cekajugu Ala ka ymaroya ke fen na ceni be min na, n\u2019a t\u00c9\u00c9r\u00c9
+  be segin kana m\u00c9g\u00c9w ma, walima a ka balili ke fen na nafa be min na, unka
+  silaamaya taabolo d\u00c9w b\u2019a f\u00c9: ko Ala mana balili ke ka b\u00c9 min
+  ma o de ye juguman ye, w\u2019a mana yamaroya ke min na o de ye puman ye, ko n\u2019o
+  te, nafa te walew yerekun na, wa ceni t\u2019a yerekun na, wa puman yerekun teyi.\\nNi
+  kuma in ni hakili f\u00c9len do p\u00c9g\u00c9n k\u00c9 kene kan, I n\u2019a f\u2019u
+  y\u2019a ben ko Ala be juguman ke a be yamaroya-like ni fen ye min ye juguman ye
+  a be balili ke ka b\u00c9 fen na min ye puman ye, a dun temena sisan k\u2019a f\u00c9
+  o kuma min file ni ye, o ye ngalonba ye, sabu a be kunfinpa ni dese sabati Ala la,
+  Ala sanupalen do ka b\u2019o ma, wa y\u00c9r\u00c9 janba be Ala ye ka b\u2019o ma.\\nLasurupa
+  la: tipe ye an k\u2019a f\u00c9 ko Ala \u2013 a ka se k\u00c9r\u00c9talen do \u2013
+  a ka nafa ni heere te an yamaroyali la ni waajibiw keli ye ani balili haraamu keli
+  la, o toyi, a nafa be segin ka na anw yere de ma yamaroya bee la, o tuma na k\u00c9r\u00c9
+  te s\u00c9r\u00c9 a f\u00c9li la ko nafa teyi, walima t\u00c9\u00c9r\u00c9 ni ceni
+  te an ka walew la an yamaroyala ni minu keli ye, ani an balila ka b\u00c9 minu toli
+  ma, I k\u2019a d\u00c9n Ala \u2013 a ka se k\u00c9r\u00c9talen do \u2013 a te yamaroyali
+  ke gansa k\u2019a s\u00c9r\u00c9 kun t\u2019a la, w\u2019a te balili fana ke gansa
+  k\u2019a s\u00c9r\u00c9 kun t\u2019a la ale de ye masa ye min kaarilen do ka b\u00c9
+  a ka j\u00c9nw ma.\"", "\"Sigida 3 Banabagat\u0254 laj\u025bcogo\\nAw b\u025b banabagat\u0254
+  ka ninakili jatemin\u025b ka \u0272\u025b: f\u0254l\u0254, a ninakilicogo, ni a
+  ka g\u025bl\u025bn ani ni a disi fan fila b\u025b\u025b wulicogo ni u jigincogo
+  ye kelen ye. O k\u0254, aw b\u025b banabagat\u0254 ninakili teliya jatemin\u025b
+  sango ni ninakili ka g\u025bl\u025bn a ma.\\nNi m\u0254nturu walima waatisumanan
+  w\u025br\u025b b\u025b aw bolo, aw b\u025b ninakili hak\u025b dan miniti kelen k\u0254n\u0254.
+  Baliku walima denk\u0254r\u0254baw ka ninakili hak\u025b ye 12 fo ka se 25 ma miniti
+  kelen k\u0254n\u0254. Denfitiniw ka ninakili hak\u025b b\u025b taa fo 30 la miniti
+  kelen k\u0254n\u0254; a b\u025b taa fo 40 na ni deny\u025br\u025bniw don. Farigant\u0254baw
+  walima ninakilibana b\u025b m\u0254g\u0254 minnu na, olu ka ninakili ka teli ka
+  t\u025bm\u025b hak\u025b kof\u0254len kan. Misali la, ni ka baliku ka ninakiliko
+  hak\u025b ye 30 ye ani a b\u025b a k\u025b ni fanga ye walima ka dan sira la miniti
+  kelen k\u0254n\u0254, o b\u025b k\u025br\u025bdimi kof\u0254, nka deny\u025br\u025bni
+  ka ninakiliko 60 b\u025b k\u025br\u025bdimi kof\u0254.\\nAw b\u025b ninakili mankan
+  jatemin\u025b ka \u0272\u025b. Misali:\\nNi banabagat\u0254 b\u025bka fi\u0272\u025b
+  sama, aw b\u025b a jatemin\u025b ni a galakakolow b\u025bka b\u0254, ni a kank\u0254r\u0254la
+  ding\u025b b\u025b jigin kos\u025bb\u025b walima ni a golo f\u0254s\u0254nnen don,
+  o b\u025b a jira ko g\u025bl\u025bya b\u025b fi\u0272\u025b t\u025bm\u025bni na.
+  O la aw b\u025b jatemin\u025bk\u025b nin f\u025bn ninnu na: ni f\u025bn d\u0254
+  balannen t\u025b a kan k\u0254n\u0254 (s\u025bb\u025bn \u0272\u025b Joginni); ni
+  k\u025br\u025bdimi t\u025b (s\u025bb\u025bn \u0272\u025b Sink\u0254r\u0254k\u025br\u025bdimi);
+  ni sisan (s\u025bb\u025bn \u0272\u025b Sisan) t\u025b walima disidimi don (golo
+  f\u0254s\u0254nnen don d\u0254\u0254ni, aw ye s\u025bb\u025bn \u0272\u025b Disidimi
+  laj\u025b).\\nNi banabagat\u0254 b\u025b s\u0254g\u0254s\u0254g\u0254, aw b\u025b
+  a \u0272ininka ni s\u0254g\u0254s\u0254g\u0254 in t\u025bka a bali ka sun\u0254g\u0254.
+  Aw b\u025b jatemin\u025bk\u025b ni kaari b\u025b b\u0254 a ka s\u0254g\u0254s\u0254g\u0254
+  f\u025b; o kaari hak\u025b ni a \u0272\u025b cogoya ani ni joli de b\u025b a la.\""]'
+src_ngrams: '{"1": [[["ee"], 27294], [["eee"], 25379], [["na"], 22468], [["eeee"],
+  18078], [["k"], 14224]], "2": [[["ee eee"], 5449], [["eeeeeeee ee"], 3254], [["eeeeeeeee
+  ee"], 2736], [["eee eeeeeeee"], 2654], [["eee eeee"], 2595]], "3": [[["ee eee eeeeeeee"],
+  860], [["eee eeeeeeee ee"], 830], [["eee eeeeeeeee ee"], 779], [["cogo min na"],
+  712], [["eeeeeeee ee eee"], 698]], "4": [[["ee eee eeeeeeee ee"], 343], [["jamanakuntigi
+  koloneli asimi goyita"], 266], [["access the full content"], 249], [["ee eee eeeeeeeee
+  ee"], 239], [["eee eeeeeeeee ee eee"], 151]], "5": [[["up for a free trial"], 147],
+  [["trial to access the full"], 147], [["sign up for a free"], 147], [["please login
+  or sign up"], 147], [["login or sign up for"], 147]]}'
