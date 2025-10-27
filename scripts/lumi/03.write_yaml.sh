@@ -14,6 +14,7 @@ yaml_file_path=$1
 srclang=$2
 corpusname=$3
 filename=$4
+srclang2=$(python3 /work/scripts/lang_equivalent.py $srclang)
 
 rm -rf $yaml_file_path	
 touch $yaml_file_path	
@@ -22,7 +23,7 @@ touch $yaml_file_path
 if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
 	source /work/venvs/venv-bnlp/bin/activate       
 fi
-python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $corpusname $srclang 
+python3 /work/scripts/reduce/write_metadata.py $yaml_file_path $corpusname $srclang $srclang2
 if [ "$srclang" = "bn" ]  || [ "$srclang" = "ben" ]; then
 	deactivate
 fi

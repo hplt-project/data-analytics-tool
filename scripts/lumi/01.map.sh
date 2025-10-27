@@ -8,7 +8,7 @@ srclang=$1
 format=$2
 inputfile=$3
 outfile="$OUT_DIR/$(basename $inputfile)"
-srclang2=$(python /work/scripts/lang_equivalent.py $1)
+srclang2=$(python3 /work/scripts/lang_equivalent.py $srclang)
 
 if [ -z "${HQ_CPUS+x}" ]; then
     echo HQ_CPUS=$HQ_CPUS >&2

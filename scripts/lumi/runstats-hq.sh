@@ -8,9 +8,9 @@ format=hplt-v3
 corpusname=hplt-v3-$lang3
 yaml_file_path=yamls-hplt-v3/$lang3.yaml
 work_dir=/scratch/project_465001890/zaragoza/data-analytics-processing
-#input_files=/scratch/project_465001890/zaragoza/monotextor-processing/bigs-samples/$lang3.jsonl.zst
+input_files=/scratch/project_465001890/zaragoza/monotextor-processing/bigs-samples/$lang3.jsonl.zst
 #input_files=/scratch/project_465001890/zaragoza/monotextor-processing/cleaned/$lang3/*.jsonl.zst
-input_files=/scratch/project_465001890/zaragoza/monotextor-processing/ungrouped/data.hplt-project.org/$lang3/*.jsonl.zst
+#input_files=/scratch/project_465001890/zaragoza/monotextor-processing/ungrouped/data.hplt-project.org/$lang3/*.jsonl.zst
 
 input_files=$(realpath $input_files)
 work_dir=$(realpath $work_dir)
