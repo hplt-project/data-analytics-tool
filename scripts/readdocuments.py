@@ -25,7 +25,7 @@ def initialization():
     # Optionals
     groupO = parser.add_argument_group("Optional")
     groupO.add_argument('--langs', type=argparse.FileType('wt'), help="Save sentence languages in this file.")
-    groupO.add_argument('--format', type=str, help="Document format.", choices=["hplt", "hplt-v3", "nemotron", "fineweb"])
+    groupO.add_argument('--format', type=str, help="Document format.", choices=["hplt", "hplt-v3", "nemotron", "fineweb", "finepdfs"])
     
     # Logging group
     groupL = parser.add_argument_group('Logging')
@@ -61,7 +61,7 @@ def main():
     elif args.format=="nemotron":
         text_field="text"        
         url_field="url"
-    elif args.format=="fineweb":
+    elif args.format=="fineweb" or args.format == "finepdfs":
         text_field="text"
         url_field="url"
         collection_field="dump"
@@ -124,6 +124,13 @@ def main():
                 ds_doc["text"] = ("\n").join(sents)
                 ds_doc["script"] = doc.get("language_script")
                 ds_doc["id"] = doc.get("id")
+            elif args.format == "finepdfs":
+                ds_doc["document_lang"] = doc["language"]
+                ds_doc["langs"] = langs
+                ds_doc["text"] = doc["text"]
+                ds_doc["script"] = doc["language"].split("_")[1]
+                ds_doc["id"] = doc.get("id")
+
     
             document_score = ds.score_document(ds_doc, raw_score=True) 
             #document_score = ds.score_document(json_line, only_final_score=True)

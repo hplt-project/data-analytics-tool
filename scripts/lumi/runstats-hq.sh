@@ -2,15 +2,16 @@
 set -euo pipefail
 
 
-lang=$1
-lang3=$2
-format=hplt-v3
-corpusname=hplt-v3-$lang3
-yaml_file_path=yamls-hplt-v3/$lang3.yaml
-work_dir=/scratch/project_465001890/zaragoza/data-analytics-processing
-input_files=/scratch/project_465001890/zaragoza/monotextor-processing/bigs-samples/$lang3.jsonl.zst
-#input_files=/scratch/project_465001890/zaragoza/monotextor-processing/cleaned/$lang3/*.jsonl.zst
-#input_files=/scratch/project_465001890/zaragoza/monotextor-processing/ungrouped/data.hplt-project.org/$lang3/*.jsonl.zst
+langsc=$1
+lang=${langsc%_*}
+format=finepdfs
+corpusname=finepdfs-$langsc
+yaml_file_path=yamls-finepdf/$langsc.yaml
+work_dir=/scratch/project_465002259/zaragoza/datan-processing
+input_files=/appl/local/openeurollm/training/catalogue/finepdfs/1.0.0/data/$langsc/train/*.jsonl.zst
+#input_files=/scratch/project_465001890/zaragoza/monotextor-processing/bigs-samples/$langsc.jsonl.zst
+#input_files=/scratch/project_465001890/zaragoza/monotextor-processing/cleaned/$langsc/*.jsonl.zst
+#input_files=/scratch/project_465001890/zaragoza/monotextor-processing/ungrouped/data.hplt-project.org/$langsc/*.jsonl.zst
 
 input_files=$(realpath $input_files)
 work_dir=$(realpath $work_dir)
@@ -26,7 +27,7 @@ DEBUGFLAG=true
 echo "Running on $work_dir" >&2
 mkdir -p $log_dir $sort_tmp $work_dir
 input_dir=$(dirname $input_files | tail -1)
-jobname=$lang-$corpusname
+jobname=$langsc-$corpusname
 echo $jobname >$work_dir/jobname
 
 # print singularity command with profiling
