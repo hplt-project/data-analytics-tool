@@ -1,5 +1,4 @@
 import os
-import re
 import json
 import io
 import sys
@@ -19,14 +18,14 @@ from urllib.parse import urlparse
 def initialization():
     parser = argparse.ArgumentParser(prog=os.path.basename(sys.argv[0]), formatter_class=argparse.ArgumentDefaultsHelpFormatter, description=__doc__)
     
-    parser.add_argument('input', nargs='?', type=argparse.FileType('rt', errors="replace"), default=io.TextIOWrapper(sys.stdin.buffer, errors="replace"),  help="Input documents file.")
     parser.add_argument('srclang', type=str, help="Source language")
+    parser.add_argument('input', nargs='?', type=argparse.FileType('rt', errors="replace"), default=io.TextIOWrapper(sys.stdin.buffer, errors="replace"),  help="Input documents file.")
     parser.add_argument('output', nargs='?', type=argparse.FileType('wt'), default=sys.stdout, help="Output.")
 
     # Optionals
     groupO = parser.add_argument_group("Optional")
     groupO.add_argument('--langs', type=argparse.FileType('wt'), help="Save sentence languages in this file.")
-    groupO.add_argument('--format', type=str, help="Document format.", choices=["hplt2", "hplt3", "nemotron", "fineweb", "madlad"])
+    groupO.add_argument('--format', type=str, help="Document format.", choices=["hplt", "hplt-v3", "nemotron", "fineweb"])
     
     # Logging group
     groupL = parser.add_argument_group('Logging')
@@ -50,18 +49,15 @@ def main():
     wds_field=None
 
 
-    if args.format == "hplt2":
+    if args.format.startswith("hplt"):
         text_field="text"
         seglangs_field="seg_langs"
         url_field="u"
-        collection_field="collection"
         wds_field="doc_scores"
-    elif args.format == "hplt3":
-        text_field="text"
-        seglangs_field="seg_langs"
-        url_field="u"
-        collection_field="crawl_id"
-        wds_field="doc_scores"
+        if args.format == "hplt-v3":
+            collection_field="crawl_id"
+        else:
+            collection_field="collection"
     elif args.format=="nemotron":
         text_field="text"        
         url_field="url"
@@ -69,21 +65,17 @@ def main():
         text_field="text"
         url_field="url"
         collection_field="dump"
-    elif args.format=="madlad":
-        text_field="text"
         
         
     langident = heli_otr.Identifier()
-    ds = docscorer.DocumentScorer()
-
-    domain_cache = {}
+    ds = docscorer.DocumentScorer()     
+    tldextractor = tldextract.TLDExtract(cache_dir=None)
     
     for json_line in args.input:
-        doc = json.loads(json_line)
+        doc = json.loads(json_line)         
     
         #Sentences
-        #raw_sents = doc.get(text_field).split("\n")
-        raw_sents = re.split(r'\\n|\n', doc.get(text_field))
+        raw_sents = doc.get(text_field).split("\n")
         sents = []
         for s in raw_sents:
             if len(s) > 0:
@@ -108,30 +100,14 @@ def main():
         if collection_field != None:
             collection = doc.get(collection_field)
         
-        #Segments in the document language (docs_lang)
-        if len(args.srclang) == 2:
-            #The documents have 3-letter langcodes
-            langobj = iso639.Lang(args.srclang)
-            lang3 = langobj.pt3
-        else:
-            lang3 = args.srclang
-        lang_matches = sum(1 for item in langs if item.split("_")[0] == lang3) #this accepts both "hbs_cyr" and "hbs_lat" when target language is "hbs", for example
-        lang_matches_rate = round((lang_matches/len(langs)), 1)
-
         #WDS
         if wds_field != None:
             docscores = doc.get(wds_field)
             document_score = docscores[0]
         else:
             ds_doc = {}
-            if args.format=="hplt2":
-                ds_doc["document_lang"] = lang3
-                ds_doc["langs"] = langs
-                ds_doc["text"] = ("\n").join(sents)
-                ds_doc["script"] = doc.get("lang")[0].split("_")[1].lower()
-                ds_doc["id"] = doc.get("id")
-            elif args.format=="hplt3":
-                ds_doc["document_lang"] = lang3
+            if args.format=="hplt":
+                ds_doc["document_lang"] = args.srclang #doc_lang + "_" + doc.get("language_script").lower()
                 ds_doc["langs"] = langs
                 ds_doc["text"] = ("\n").join(sents)
                 ds_doc["script"] = doc.get("lang")[0].split("_")[1].lower()
@@ -141,42 +117,41 @@ def main():
                 ds_doc["langs"] = langs
                 ds_doc["text"] = ("\n").join(sents)
                 ds_doc["script"] = "latn"
-                ds_doc["id"] = doc.get("warc_record_id")
+                ds_doc["id"] = doc.get("warc_record_id")       
             elif args.format=="fineweb":
                 ds_doc["document_lang"] = doc.get("language") # + "_" + doc.get("language_script").lower()
                 ds_doc["langs"] = langs
                 ds_doc["text"] = ("\n").join(sents)
-                ds_doc["script"] = doc.get("language_script").lower()
-                ds_doc["id"] = doc.get("id")       
-            elif args.format=="madlad":
-                ds_doc["document_lang"] = lang3
-                ds_doc["langs"] = langs
-                ds_doc["text"] = ("\n").join(sents)
-                ds_doc["script"] = "latn"
+                ds_doc["script"] = doc.get("language_script")
                 ds_doc["id"] = doc.get("id")
     
             document_score = ds.score_document(ds_doc, raw_score=True) 
             #document_score = ds.score_document(json_line, only_final_score=True)
  
+            
+        #Segments in the document language (docs_lang)
+        if len(args.srclang) == 2:
+            #The documents have 3-letter langcodes
+            langobj = iso639.Lang(args.srclang)
+            lang3 = langobj.pt3
+        else:
+            lang3 = args.srclang
+        lang_matches = sum(1 for item in langs if item.split("_")[0] == lang3) #this accepts both "hbs_cyr" and "hbs_lat" when target language is "hbs", for example
+        lang_matches_rate = round((lang_matches/len(langs)), 1)
+        
         #Top-level domain and domain
         #Domain
-        tld = ""
-        domain = ""
-        if url_field:
-            url = doc.get(url_field)
-            try:
-                fulldomain = urlparse(url).netloc #This includes subdomain
-                if fulldomain in domain_cache:
-                    domain, tld = domain_cache[fulldomain]
-                else:
-                    extract_res = tldextract.extract(fulldomain)
-                    rawdomain = extract_res.domain #This does not include subdomain
-                    tld = extract_res.suffix #This is the TDL removing the preceeding dot
-                    domain = rawdomain + "." + tld
-                    domain_cache[fulldomain] = (domain, tld)
-            except Exception as ex:
-                logging.error("Bad url: " + url)
-                logging.error(ex)
+        url = doc.get(url_field)
+        try:
+            fulldomain = urlparse(url) #This includes subdomain
+            rawdomain = tldextractor.extract_urllib(fulldomain).domain #This does not include subdomain
+            tld = tldextractor.extract_urllib(fulldomain).suffix #This is the TDL removing the preceeding dot
+            domain = rawdomain+"."+tld
+        except Exception as ex:            
+            logging.error("Bad url: " + url)
+            logging.error(ex)
+            raise ex
+
 
         args.output.write("\t".join([str(doclength), str(document_score), str(lang_matches_rate), collection, domain, tld ]) + "\n")
         #Extract segments for further segment processing

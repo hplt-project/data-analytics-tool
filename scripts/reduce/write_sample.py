@@ -26,4 +26,3 @@ with open(sample_file, "r") as samples:
 with open(yaml_file, "a", encoding="utf-8") as yf:
     stats["sample"] = json.dumps(sample_array, ensure_ascii=True)
     yaml.dump(stats, yf)
-

@@ -5,8 +5,7 @@ import argparse
 import logging
 import timeit
 import json
-#from util import logging_setup
-import registerlabels
+from util import logging_setup, refine_labels
 
 THRESHOLD = 0.5
 
@@ -14,6 +13,7 @@ def initialization():
     parser = argparse.ArgumentParser(prog=os.path.basename(sys.argv[0]), formatter_class=argparse.ArgumentDefaultsHelpFormatter, description=__doc__)
     parser.add_argument('input',  nargs='?', type=argparse.FileType('rt', errors="replace"), default=io.TextIOWrapper(sys.stdin.buffer, errors="replace"),  help="Input sentences.")
     parser.add_argument('output', nargs='?', type=argparse.FileType('wt'), default=sys.stdout, help="Output of the register identification.")
+    parser.add_argument('-f','--field', default="web-register", type=str, help="JSON metadata field containing the register labels")
     
     args = parser.parse_args()
 
@@ -25,7 +25,7 @@ def main():
     args = initialization() # Parsing parameters
 
     for line in args.input:
-        raw_labels = json.loads(line)
+        raw_labels = json.loads(line)[args.field]
 
         filtered_labels=[]
 
@@ -33,8 +33,9 @@ def main():
             if float(raw_labels.get(item)) > THRESHOLD:
                 filtered_labels.append(item)
         
-        refined_labels = registerlabels.refine_labels(filtered_labels)
+        refined_labels = refine_labels(filtered_labels)
         for label in refined_labels:
             args.output.write(label.strip()+"\n")
+
 if __name__ == '__main__':
     main()

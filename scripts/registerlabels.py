@@ -8,7 +8,7 @@ import json
 import torch
 from datasets import load_dataset
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
-from util import logging_setup
+from util import logging_setup, refine_labels
 
 def initialization():
     parser = argparse.ArgumentParser(prog=os.path.basename(sys.argv[0]), formatter_class=argparse.ArgumentDefaultsHelpFormatter, description=__doc__)
@@ -89,89 +89,6 @@ class RegisterLabels:
             refined_labels.append(refine_labels(predicted_labels))
         #assert len(docs_text) == len(refined_labels)            
         return refined_labels
-
-def is_main_class(label):
-    return (label in  ["LY",  "SP", "ID", "NA", "HI", "IP", "IN", "OP"])     
-    
-def get_main_class(label):
-    #if label in ["MT"]: return "MT"
-    if label in ["LY"]: return "LY"
-    if label in ["it", "SP"]: return "SP"
-    if label in ["ID"]: return "ID"
-    if label in ["ne", "sr", "nb", "NA"]: return "NA"
-    if label in ["re", "HI"]: return "HI"
-    if label in ["ds", "ed", "IP"]: return "IP"
-    if label in ["en", "ra", "dtp", "fi", "lt", "IN"]: return "IN"
-    if label in ["rv", "ob", "rs", "av", "OP"]: return "OP"
-    raise ValueError("Unknown label: " + label)
-
-
-def get_class(label):
-    if is_main_class(label):
-        return label + "_other"
-    else:
-        return get_main_class(label) + "_" + label
-
-
-def refine_labels(filtered_labels):
-        #MT label is treated independently
-        refined_labels = []
-        if "MT" in filtered_labels:
-            #classes["MT"] += 1
-            filtered_labels.remove("MT")
-            logging.debug("MT")
-            refined_labels.append("MT")
-
-
-        #No matching registers --> UNK
-        if len(filtered_labels) == 0:
-            #classes["UNK"] += 1
-            logging.debug("UNK")
-            refined_labels.append("UNK")
-            return refined_labels
-
-        #Many matching registers --> MIX
-        main_labels = set([get_main_class(label) for label in filtered_labels])
-        if len(main_labels) > 1:
-            #classes["MIX"] += 1
-            logging.debug("MIX")
-            refined_labels.append("MIX")
-            return refined_labels
-
-        #Only one main register at this point
-        raw_classes = [get_class(label) for label in filtered_labels] 
-
-        #only one label -->  return the label
-        if len(raw_classes) == 1:
-            logging.debug(raw_classes[0])
-            #classes[raw_classes[0]] += 1
-            refined_labels.append(raw_classes[0])
-            return refined_labels
-
-        subclasses = [cls.split("_")[1] for cls in raw_classes]
-        subclasses_main = []
-        if "other" in subclasses:
-            subclasses_main = ["other"]
-            subclasses.remove("other")
-
-        #two labels, one is a parent of the other --> return child     
-        if len(subclasses_main) == 1 and len(subclasses) == 1:
-            final_label = get_main_class(subclasses[0]) + "_" + subclasses[0]
-            logging.debug(final_label)
-            #classes[final_label] += 1
-            refined_labels.append(final_label)
-            return refined_labels
-
-        #more than two labels in total (by definition, at least two of them are siblings)--> return the main label (regardless it is or it is not in the list) 
-        if len(subclasses) > 1:
-            #take the first one for example
-            final_label = get_main_class(subclasses[0]) + "_other"
-            logging.debug(final_label)
-            #classes[final_label]+= 1
-            refined_labels.append(final_label)
-            return refined_labels
-
-        logging.error(" =============== YOU SHOULD NOT BE READING THIS ====================")
 
 
 def perform_identification(args):
