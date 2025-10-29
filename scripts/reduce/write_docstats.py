@@ -51,27 +51,37 @@ def main():
     
     
     #WDS
-    wds = []
+    wds = Counter()
+    wds_list = []
     for line in args.wdsfile:
         parts = line.strip().split()
         if len(parts) < 2:
             continue
         freq = parts[0]
         score = parts[1]
-        wds.append([float(score), int(freq)])
-    stats["docs_wds"] = json.dumps(wds)
-    
+        wds[float(score)] = int(freq)
+        wds_list.append([float(score), int(freq)])
+    stats["docs_wds"] = json.dumps(wds_list)
+    docs_wds_elements = sorted(wds.elements())
+    stats["docs_wds_mean"] = round(statistics.mean(docs_wds_elements))
+    stats["docs_wds_median"] = round(statistics.median(docs_wds_elements))
+        
     #Doc langs
-    docs_langs = []
+    docs_langs = Counter()
+    docs_langs_list  = []
     for line in args.docslangsfile:
         parts = line.strip().split()
         if len(parts) < 2:
             continue
         freq = parts[0]
         ratio = parts[1]
-        docs_langs.append([float(ratio), int(freq)])
-    stats["docs_langs"] = json.dumps(docs_langs)
-
+        docs_langs[float(ratio)] = int(freq)
+        docs_langs_list.append([float(ratio), int(freq)])
+    stats["docs_langs"] = json.dumps(docs_langs_list)
+    docs_langs_elements = sorted(docs_langs.elements())
+    stats["docs_langs_mean"] = round(statistics.mean(docs_langs_elements), 2)
+    stats["docs_langs_median"] = round(statistics.median(docs_langs_elements), 2)
+    
     #Collections
     docs_collections = []
     for line in args.collectionsfile:
