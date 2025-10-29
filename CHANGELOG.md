@@ -1,6 +1,7 @@
 v1.3:
 - New feature "External Files": load stats from local yaml files or urls.
 - Removed language codes from interface, only language names are shown now.
+- Added mean and median values for docs_langs and docs_wds.
 
 v1.2:
 - Support for  HPLTv3 documents.
