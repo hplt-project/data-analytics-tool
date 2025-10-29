@@ -69,6 +69,8 @@ The stats generated with this tool come in a handy yaml format with the followin
 - `docs_collections`: Distribution of documents per origin collection (only for monoligual documents and HPT parallel datasets)
 - `collections`: Distribution of segments per origin collection (only for HPLT parallel datasets)
 - `docs_langs`: Distribution of documents having a certain percentage of its segments in the declared document language (only for monolingual documents)
+- `docs_langs_mean`: Mean value of `docs_langs` (only for monolingual documents)
+- `docs_langas_median`: Median value of `docs_langs` (only for monolingual documents)
 - `docs_segments`: Distribution of documents having a certain amount of segments (only for monolingual documents)
 - `docs_segments_mean`: Mean value of `docs_segments` (only for monolingual documents)
 - `docs_segments_median`: Median value of `docs_segments` (only for monolingual documents)
@@ -79,6 +81,8 @@ The stats generated with this tool come in a handy yaml format with the followin
 - `docs_warning`: List of issues encountered while processing documents (only for monolingual documents)
   - `docs_unmatching_xxx`: Some documents (a total of xxx) in the corpus had a different amount of segments and LM scores or language identification, so they were discarded.
 - `docs_wds`: Distribution of documents having a certain [Document Score](https://github.com/pablop16n/web-docs-scorer/) (only for monolingual documents)
+- `docs_wds_mean`: Mean value of `docs_wds` (only for monolingual documents)
+- `docs_wds_median`: Median value of `docs_wds` (only for monolingual documents)
 - `hardrules_tags`: List of possible issues in the segments, detected by [Hardrules](https://github.com/bitextor/bicleaner-hardrules)
   -  `not_too_long`: Percentage of segments being larger than 1024 characters.
   -  `not_too_short`: Percentage of segments being shorter than 3 tokens.
