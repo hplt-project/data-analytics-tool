@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import HorizonLogo from "@/../../public/images/logos/horizon.svg";
-import UKRILogo from "@/../../public/images/logos/ukri-logo.svg";
-import EUFlag from "@/../../public/images/logos/eu-flag.svg";
-import XLogo from "@/../../public/images/logos/logo-x.svg";
+import HorizonLogo from "@/../public/images/logos/horizon.svg";
+import UKRILogo from "@/../public/images/logos/ukri-logo.svg";
+import EUFlag from "@/../public/images/logos/eu-flag.svg";
+import XLogo from "@/../public/images/logos/logo-x.svg";
 
 import styles from "@/styles/Footer.module.css";
 

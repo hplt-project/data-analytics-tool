@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "@/../../public/images/logos/HPLTAnalytics-light.svg";
+import Logo from "@/../public/images/logos/HPLTAnalytics-light.svg"
 
 import { Spiral as Hamburger } from "hamburger-react";
 import { useState } from "react";

@@ -1,5 +1,5 @@
 import Image from "next/image";
-import Logo from "@/../../public/images/logos/logo.svg";
+import Logo from "@/../public/images/logos/logo.svg";
 
 import styles from "@/styles/ReportTitle.module.css";
 

@@ -1,3 +1,4 @@
+"use client";
 import { useEffect, useState, useRef } from "react";
 import BicleanerScores from "./BicleanerScores";
 import LanguagePieChart from "./LanguagePieChart";
