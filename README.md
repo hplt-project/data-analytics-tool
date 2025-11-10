@@ -161,9 +161,7 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
 
 ### Exporting the report to PDF
 
-Use the **Export to PDF** button at the bottom of the viewer to generate a PDF containing all charts displayed on the page, including register and domain labels when available.
-
-We also display samples for some of the datasets. These are currently obtained out of the HPLTAnalytics tool and all the storage and the logic of which sample/labels must be displayed is currently happening in Javascript. Further versions of HPLTAnalytics will properly handle this.
+Use the **Export to PDF** button at the bottom of the viewer to generate a PDF containing all charts and stats displayed on the page.
 
 # Output examples: 
 
