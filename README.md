@@ -143,6 +143,7 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
   - Documents (only for monolingual documents)
   - Segments
   - Unique segments (only for monolingual)
+  - Duplication ratio (only for monolingual)
   - Size in tokens, of source (monolingual), or source and target (parallel)
   - Size in characters, of source (monolingual), or source and target (parallel)
   - File size, of source (monolingual), or source and target (parallel)
@@ -153,7 +154,7 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
 - Collections (parallel) / Documents by collection (monolingual) (when available)
 - Language distribution.
     - Number of segments: Shows percentage of automatically identified languages in source (monolingual) or source and target (parallel).
-    - Percentage of segments in the declared languge, inside documents (only for monolingual documents)
+    - Percentage of segments in the declared language, inside documents (only for monolingual documents)
 - Document Score distribution: Histogram showing the distribution of Document Score (only for monolingual documents)
 - Segment length distribution: Histogram showing the distribution of tokens per segment in source (monolingual) or source and target (parallel), showing total, unique and duplicate segments or segment pairs
 - Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences being URLs, bad encoding, sentences containing poor language, etc.).
