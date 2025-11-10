@@ -149,6 +149,8 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
   - File size, of source (monolingual), or source and target (parallel)
 - Top 10 domains (excluding subdomains) (when available), of source (monolingual), or source and target (parallel)
 - Top 10 TLDs (when available), of source (monolingual), or source and target (parallel)
+- Register labels (only for monolingual documents)
+- Domain labels (only for monolingual documents)
 - Document size (in segments). Histogram showing the distribution of document sizes (only for monolingual documents)
 - Translation likelihood: Histogram showing the distribution of sentence pairs having a certain bicleaner score (tool that computes the likelihood of two sentences of being mutual translations) (only for parallel corpora)
 - Collections (parallel) / Documents by collection (monolingual) (when available)
