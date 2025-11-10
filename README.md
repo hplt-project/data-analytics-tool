@@ -157,7 +157,7 @@ HPLTAnalytics comes with a webapp that is able to display the generated yaml fil
     - Percentage of segments in the declared language, inside documents (only for monolingual documents)
 - Document Score distribution: Histogram showing the distribution of Document Score (only for monolingual documents)
 - Segment length distribution: Histogram showing the distribution of tokens per segment in source (monolingual) or source and target (parallel), showing total, unique and duplicate segments or segment pairs
-- Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences being URLs, bad encoding, sentences containing poor language, etc.).
+- Noise distribution: the result of applying hard rules and computing which percentage is affected by them (too short or too long sentences, sentences containing URLs, bad encoding, sentences containing personal information, etc.).
 - Frequent n-grams: 1-5 more frequent n-grams
 
 ### Exporting the report to PDF
