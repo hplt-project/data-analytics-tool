@@ -4,6 +4,7 @@ if [ ! -z "${HQ_CPUS+x}" ]; then
 else
     JOBS=$(nproc)
 fi
+JOBS=$((JOBS/2))
 SORT_MEM="-S 80%"
 if [ ! -z "${HQ_RESOURCE_REQUEST_mem+x}" ]; then
     # If HQ has a specified requested mem, use it
@@ -167,6 +168,8 @@ reduce_ngrams() {
     | uniq -c \
     | zstdmt \
     >$sorted_ngrams
+
+    sleep 10s
 
     zstdcat $sorted_ngrams \
     | LC_ALL=C sort -nr $SORT_MEM --compress-program=zstd --parallel $JOBS \

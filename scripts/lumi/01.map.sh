@@ -17,7 +17,7 @@ else
     JOBS=$(nproc)
 fi
 echo Running with $JOBS cpus >&2
-JOBS_LOW=$((JOBS/3*2))
+JOBS_LOW=$((JOBS/2))
 JOBS_LOW=$(($JOBS_LOW>1 ? $JOBS_LOW : 1))
 echo Running with $JOBS_LOW cpus for high memory processes >&2
 
