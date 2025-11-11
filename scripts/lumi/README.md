@@ -32,12 +32,13 @@ An example of an automatic allocation queue could be
 hq alloc add slurm \
     --name datan --max-workers-per-alloc 1 \
     --max-worker-count 200 --backlog 20 \
-    --time-limit 24h --idle-timeout 30s \
+    --time-limit 72h --idle-timeout 30s \
     --cpus 256 \
+    --resource "mem=sum(224000)" \
     -- -p small -A project_account \
     --ntasks 1 \
     --cpus-per-task 128 --mem-per-cpu 1750 \
-    -o "/path/to/worker_%x_logs" # Note the use of %x to set the fileneme according to the worker id
+    -o "/path/to/worker_%x.logs" # Note the use of %x to set the fileneme according to the worker id
 ```
 this queue will submit at most 200 slurm single node jobs and a worker on each node.
 The idle timeout is set to 30s, so if a worker does not receive a task within that time, it will finish along with its allocation (slurm job).
@@ -45,6 +46,7 @@ Therefore the queue can stay up if no jobs are left because it won't waste resou
 Note that some parameters are particular to LUMI HPC and may be different on other HPCs:
  - The queue allocates at most 200 jobs, which is the limit on small partition.
  - The number of cpus in the slurm parameter is 128, which corresponds to physical cores on LUMI-C. However HQ will detect 256 because of hyper-threading, that's why `--cpus 256` is used.
+ - A constraint on the amount of memory each worker should have (224000 MB which is 1750\*128) is added to avoid HQ detecting a higher amount of ram of LUMI if a node with more memory is handed because slurm would OOM kill the HQ job if it uses more memory than requested even if the node has more.
  - The time limit and memory might differ from other clusters.
 So please carefully read your HPC documentation about submitting Slurm or PBS jobs.
 
