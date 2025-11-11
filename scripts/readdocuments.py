@@ -125,10 +125,10 @@ def main():
                 ds_doc["script"] = doc.get("language_script")
                 ds_doc["id"] = doc.get("id")
             elif args.format == "finepdfs":
-                ds_doc["document_lang"] = doc["language"]
+                ds_doc["document_lang"] = doc["language"].split('_')[0] # doclang must be without script suffix
                 ds_doc["langs"] = langs
-                ds_doc["text"] = doc["text"]
-                ds_doc["script"] = doc["language"].split("_")[1]
+                ds_doc["text"] = ("\n").join(sents)
+                ds_doc["script"] = doc["language"].split("_")[1].lower() # lowercase to match heliport codes
                 ds_doc["id"] = doc.get("id")
 
     
