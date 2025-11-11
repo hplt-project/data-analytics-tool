@@ -105,7 +105,7 @@ export default function NoiseDistribution({
                 +parseFloat((val[1] * 100) / sentences).toFixed(2)
               }
               fill="#D99002"
-              name="% of corpus"
+              name="% of segments"
             >
               <LabelList
                 dataKey={(val) =>
