@@ -86,7 +86,7 @@ registerlabels_langs=(af sq am ar hy as az eu be bn bs br bg my ca zh hr cs da n
 	bos hrv srp hbs est ekk )
 
 # NVIDIA multilingual-domain-classifier allowlist (52 languages)
-domainlabels_langs=(ar az bg bn ca cs da de el es et fa fi fr gl he hi hr hu hy id is it ka kk kn ko lt lv mk ml mr ne nl no pl pt ro ru sk sl sq sr sv ta tr uk ur vi ja zh)
+domainlabels_langs=(ar az bg bn ca cs da de el en es et fa fi fr gl he hi hr hu hy id is it ka kk kn ko lt lv mk ml mr ne nl no pl pt ro ru sk sl sq sr sv ta tr uk ur vi ja zh)
 
 
 mkdir -p $datapath

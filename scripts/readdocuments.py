@@ -7,6 +7,7 @@ import logging
 import traceback
 import argparse
 import json
+import math
 import tldextract
 import docscorer
 import iso639
@@ -155,7 +156,13 @@ def main():
                 ds_doc["script"] = "latn"
                 ds_doc["id"] = doc.get("id")
     
-            document_score = ds.score_document(ds_doc, raw_score=True) 
+            document_score = round(round(ds.score_document(
+                ref_lang = ds_doc["document_lang"],
+                ref_script = ds_doc["script"],
+                lang_segments = ds_doc["langs"],
+                document_text = ds_doc["text"],
+                doc_id = ds_doc["id"],
+                raw_score=True), 2) * 10, 1)   #TO DO: This is to make WDS 1.3.0 (scores 0-1) with the current HPLTAnalytics interface (scores 0-10)
             #document_score = ds.score_document(json_line, only_final_score=True)
  
         #Top-level domain and domain
