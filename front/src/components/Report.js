@@ -149,11 +149,7 @@ export default function Report({ date, report, external, externalFilename, exter
 
   const totalDocs = documentSizesObj.totalDocuments;
 
-  // const ranOnceRef = useRef(false);
-
   useEffect(() => {
-    // if (ranOnceRef.current) return;   // prevent StrictMode second run
-    // ranOnceRef.current = true;
 
     if (footNote) {
       exportMultipleChartsToPdf(external ? externalFilename : filename, offLoading);
@@ -477,6 +473,7 @@ export default function Report({ date, report, external, externalFilename, exter
               }>
                 <CollectionsGraph
                   collection={report.docs_collections}
+                  footNote={footNote}
                   docs={true}
                 />
               </div>

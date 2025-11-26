@@ -1,7 +1,7 @@
 import styles from "@/styles/SampleButton.module.css";
 import buttonStyles from "@/styles/Uploader.module.css";
 
-function SampleButton({ setShowSample, dName }) {
+function SampleButton({ setShowSample }) {
 
   return (
     <>

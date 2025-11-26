@@ -1,79 +1,204 @@
+/* styles/CollectionsGraph.module.css */
+
+/* Layout */
+.collectionsContainer {
+  margin-left: 20px;
+}
+
+.title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .collectionsGraph {
   height: 300px;
   margin: 20px 0;
   width: fit-content;
 }
 
-.collectionsContainer {
-  margin-left: 20px
-}
-
-.title {
-  display: flex;
-  justify-content: space-between;
-}
-
 .collectionsPercCont {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
-  width: fit-content;
   margin-left: auto;
+  width: fit-content;
 }
 
 .collectionsPercCont p {
   font-weight: 600;
 }
 
-.tooltip {
-  background-color: white;
-  border: solid 1px rgb(199, 199, 199);
-  padding: 15px 35px 15px 15px;
-  border-radius: 5px;
+/* Tooltip — tidy, non-scrolling; absolute so it can overlay charts.
+   Recharts positions the wrapper; we style the inner panel. */
+.tip,
+.tipWide {
   position: absolute;
-  min-width: 390px;
-  max-width: 430px;
+  z-index: 30000;
+  background: var(--surface, #fff);
+  color: var(--main-copy);
+  border: 1px solid var(--border, #e2e2e6);
+  border-radius: 12px;
+  padding: 14px 16px;
+  box-shadow: 0 12px 28px rgba(0, 0, 0, .14);
+  right: -60px;
+  /* fine-tune horizontally if needed in your layout */
+  pointer-events: none;
+  /* keeps it hover-driven; remove if you later add interactivity */
 }
 
-/* .breakdown {
-  overflow-y: auto;
-  max-height: 200px;
-  -webkit-overflow-scrolling: touch;
-} */
-
-.label {
-  font-weight: 600;
-  font-size: 16px;
-  margin-bottom: 12px;
+/* Widths:
+   - tip: for 2 columns
+   - tipWide: for 4 columns (wider) */
+.tip {
+  min-width: 520px;
+  max-width: 640px;
 }
 
-.othersCont {
-  margin-top: 5px;
+.tipWide {
+  min-width: 840px;
+  max-width: 920px;
+}
+
+/* Header inside tooltip */
+.tipHead {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 8px;
+}
+
+.tipDot {
+  width: 12px;
+  height: 12px;
+  border-radius: 999px;
+}
+
+.tipTitle {
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.2;
+}
+
+.tipStats {
+  display: flex;
+  align-items: baseline;
+  gap: 10px;
+  margin-bottom: 10px;
+  font-size: 13.5px;
+}
+
+.tipNum {
+  font-weight: 700;
+}
+
+.tipPct {
+  opacity: .9;
+  font-variant-numeric: tabular-nums;
+}
+
+.sep {
+  opacity: .45;
+}
+
+/* Breakdown */
+.tipBreakTitle {
+  margin: 10px 0 8px;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: .02em;
+  opacity: .7;
+}
+
+.tipList {
   display: grid;
-  grid-template-columns: repeat(2, 2fr);
-  column-gap: 30px;
-  row-gap: 7px;
+  gap: 8px 12px;
 }
 
-.twoColumns {
-  display: grid;
-  grid-template-columns: repeat(2, 2fr);
+/* Conditional columns */
+.cols2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
-.perc {
-  margin-top: 5px;
-  margin-bottom: 7px;
-  font-weight: 600;
+.cols4 {
+  grid-template-columns: repeat(5, minmax(0, 1fr));
 }
 
-.singleOther {
-  font-weight: 600;
-  margin: 3px 0;
-  font-size: 13px;
+.tipItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  padding: 6px 10px;
+  border: 1px solid var(--border, #e6e7ea);
+  border-radius: 999px;
+  background: color-mix(in oklab, var(--banner-background, #f7f7f9) 70%, #fff 30%);
+  font-size: 11px;
+}
+
+.token {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.freq {
+  white-space: nowrap;
+  font-variant-numeric: tabular-nums;
+}
+
+/* Trigger button (kept from your previous style) */
+.popupBtn {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 9px 14px;
+  border-radius: 10px;
+  border: 1px solid color-mix(in oklab, var(--brand, #F39200) 45%, #e7e7e9 55%);
+  background: color-mix(in oklab, var(--brand, #F39200) 10%, #fff 90%);
+  color: inherit;
+  cursor: pointer;
+  transition: transform .12s ease, box-shadow .12s ease, background .12s ease, border-color .12s ease;
+}
+
+.popupBtn:hover {
+  transform: translateY(-1px);
+  background: color-mix(in oklab, var(--brand, #F39200) 14%, #fff 86%);
+  border-color: color-mix(in oklab, var(--brand, #F39200) 55%, #e7e7e9 45%);
+  box-shadow: 0 8px 18px rgba(0, 0, 0, .08);
+}
+
+.popupBtn:active {
+  transform: translateY(0);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, .06);
+}
+
+.popupBtn:focus-visible {
+  outline: 2px solid color-mix(in oklab, var(--brand, #F39200) 65%, #000 35%);
+  outline-offset: 2px;
+}
+
+@media (max-width: 920px) {
+  .tip {
+    min-width: 420px;
+    max-width: 86vw;
+  }
+
+  .tipWide {
+    min-width: 620px;
+    max-width: 92vw;
+  }
 }
 
 @media (max-width: 768px) {
   .collectionsGraph {
     height: 300px;
   }
+
+  .cols4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  /* collapse to 2 cols on small screens */
 }
