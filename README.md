@@ -179,3 +179,8 @@ Use the **Export to PDF** button at the bottom of the viewer to generate a PDF c
 - Monolingual Basque corpus from HPLT: it shows that at least half of the corpus is not in Basque, and that a very high percentage of segments are very short.
 
 <img alt="Data Analytics Viewer" src="https://github.com/hplt-project/data-analytics-tool/blob/main/img/HPLT-eu.png" width=600 />
+
+# Acknowledgements
+
+This project has received funding from the European Union’s Horizon Europe research and innovation programme under grant agreement No 101070350 and from UK Research and Innovation (UKRI) under the UK government’s Horizon Europe funding guarantee [grant number 10052546]
+
