@@ -1,126 +1,244 @@
 .blur {
   position: fixed;
-  top: 0;
-  left: 0;
+  inset: 0;
   z-index: 1040;
   width: 100vw;
   height: 100vh;
-  backdrop-filter: blur(15px);
+  background: rgba(15, 23, 42, 0.28);
+  -webkit-backdrop-filter: blur(14px);
+  backdrop-filter: blur(14px);
 }
 
 .sampleModal {
   position: fixed;
+  inset: 0;
   z-index: 1000;
-  background-color: #fff;
-  -webkit-backdrop-filter: blur(3px);
-  backdrop-filter: blur(3px);
-  padding: 20px;
-  border: 0.5px solid #ebebeb;
-  width: 75%;
-  border-radius: 5px;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  margin: auto;
+  width: min(75%, 1180px);
   max-height: 85vh;
-  box-shadow: 0 6px 12px -2px rgba(50, 50, 93, 0.176),
-    0 3px 7px -3px rgba(0, 0, 0, 0.137);
+  margin: auto;
+  padding: 24px;
   overflow-y: auto;
-}
-
-.sampleContent,
-.sampleContentRTL {
-  line-height: 1.45;
-  padding: 3px 6px;
-}
-
-.sampleContentRTL {
-  direction: rtl;
+  background:
+    linear-gradient(180deg, rgba(255, 255, 255, 0.98), rgba(248, 250, 252, 0.98));
+  border: 1px solid rgba(226, 232, 240, 0.95);
+  border-radius: 10px;
+  box-shadow:
+    0 24px 70px rgba(15, 23, 42, 0.24),
+    0 2px 10px rgba(15, 23, 42, 0.08);
 }
 
 .modalHead {
+  position: sticky;
+  top: -24px;
+  z-index: 1;
   display: flex;
-  justify-content: space-between;
   align-items: flex-start;
-  padding: 15px 0;
+  justify-content: space-between;
+  gap: 18px;
+  margin: -24px -24px 20px;
+  padding: 22px 24px 18px;
+  background: rgba(255, 255, 255, 0.94);
+  border-bottom: 1px solid rgba(226, 232, 240, 0.9);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
 }
 
-.modalHead button {
-  background-color: transparent;
-  border: none;
+.modalHead h2 {
+  max-width: 86%;
+  color: #0f172a;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.25;
 }
 
-.sampleButtons {
-  display: flex;
+.closeSampleBtn,
+.sampleButtons button {
+  display: inline-flex;
   align-items: center;
   justify-content: center;
-  bottom: 15px;
-  width: 100%;
-}
-
-.sampleButtons p {
-  margin: 0 30px;
+  border: 1px solid rgba(203, 213, 225, 0.95);
+  background: #ffffff;
+  color: #334155;
+  cursor: pointer;
+  transition:
+    background-color 0.16s ease,
+    border-color 0.16s ease,
+    color 0.16s ease,
+    box-shadow 0.16s ease,
+    transform 0.12s ease;
 }
 
 .closeSampleBtn {
-  margin-left: auto;
-  cursor: pointer;
+  flex: 0 0 auto;
+  width: 36px;
+  height: 36px;
+  border-radius: 999px;
 }
 
 .closeSampleBtn:hover {
-  color: rgb(207, 13, 13);
-  transition: all 0.2s;
+  color: #b91c1c;
+  background: #fff1f2;
+  border-color: #fecdd3;
+}
+
+.closeSampleBtn:focus-visible,
+.sampleButtons button:focus-visible {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.22);
+}
+
+.sampleSentenceContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.singleSentence {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
 }
 
 .srcSentence,
 .trgSentence {
-  box-shadow: inset 0 2px 4px 0 rgba(0, 0, 0, 0.144);
-  padding: 9px 10px 9px 7px;
-  max-height: calc(100% - 140px);
-  position: aboslute;
-  overflow-y: auto;
-  height: fit-content;
   display: flex;
-  border-radius: 3px;
-  align-items: center;
+  align-items: flex-start;
+  gap: 12px;
+  height: fit-content;
+  max-height: calc(100% - 140px);
+  padding: 14px 16px;
+  overflow-y: auto;
+  background: #ffffff;
+  border: 1px solid #e2e8f0;
+  border-radius: 8px;
+  box-shadow: 0 1px 2px rgba(15, 23, 42, 0.04);
 }
 
 .trgSentence {
-  background-color: rgba(128, 128, 128, 0.117);
+  background: #f8fafc;
 }
 
 .srcTag,
 .trgTag {
+  flex: 0 0 auto;
+  min-width: 42px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  color: #9f1239;
+  background: #fff1f2;
+  border: 1px solid #ffe4e6;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
   text-transform: uppercase;
-  font-weight: 600;
-  font-size: 18px;
-  color: rgba(207, 13, 13, 0.384);
-  margin-right: 15px;
+  letter-spacing: 0.04em;
 }
 
 .trgTag {
-  color: rgba(13, 207, 117, 0.384);
+  color: #047857;
+  background: #ecfdf5;
+  border-color: #d1fae5;
 }
 
-.stripe {
-  color: #e0eefb5d;
-  margin: 9px 0;
+.sampleContent,
+.sampleContentRTL {
+  flex: 1 1 auto;
+  min-width: 0;
+  padding: 1px 0;
+  color: #1e293b;
+  font-size: 15px;
+  line-height: 1.65;
+  white-space: pre-wrap;
+  overflow-wrap: anywhere;
+}
+
+.sampleContentRTL {
+  direction: rtl;
+  text-align: right;
+}
+
+.sampleButtons {
+  position: sticky;
+  bottom: -24px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 18px;
+  width: calc(100% + 48px);
+  margin: 22px -24px -24px;
+  padding: 16px 24px;
+  background: rgba(255, 255, 255, 0.94);
+  border-top: 1px solid rgba(226, 232, 240, 0.9);
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+.sampleButtons p {
+  min-width: 230px;
+  margin: 0;
+  color: #475569;
+  font-size: 14px;
+  font-weight: 600;
+  text-align: center;
 }
 
 .sampleButtons button {
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  padding: 8px 20px;
-  font-size: 16px;
-  font-weight: 500;
-  color: #333;
-  background-color: #f8f9fa;
-  border: 1px solid #e0e3eb;
+  width: 42px;
+  height: 36px;
   border-radius: 8px;
-  cursor: pointer;
-  transition: all 0.2s ease;
-  position: relative;
-  overflow: hidden;
+}
+
+.sampleButtons button:hover:not(:disabled) {
+  color: #111827;
+  background: #f8fafc;
+  border-color: #94a3b8;
+  transform: translateY(-1px);
+}
+
+.sampleButtons button:active:not(:disabled) {
+  transform: translateY(0);
+}
+
+.sampleButtons button:disabled {
+  color: #cbd5e1;
+  background: #f8fafc;
+  cursor: not-allowed;
+}
+
+@media (max-width: 768px) {
+  .sampleModal {
+    width: calc(100% - 24px);
+    max-height: 90vh;
+    padding: 18px;
+  }
+
+  .modalHead {
+    top: -18px;
+    margin: -18px -18px 16px;
+    padding: 18px;
+  }
+
+  .modalHead h2 {
+    max-width: calc(100% - 48px);
+    font-size: 18px;
+  }
+
+  .srcSentence,
+  .trgSentence {
+    padding: 12px;
+  }
+
+  .sampleButtons {
+    bottom: -18px;
+    width: calc(100% + 36px);
+    margin: 18px -18px -18px;
+    padding: 14px 18px;
+    gap: 12px;
+  }
+
+  .sampleButtons p {
+    min-width: 0;
+    font-size: 13px;
+  }
 }

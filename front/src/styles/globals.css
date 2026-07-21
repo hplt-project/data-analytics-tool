@@ -29,21 +29,6 @@
   --table-main: #ffffff;
 }
 
-[data-theme="dark"] {
-  --main-background: #1d1f28;
-  --banner-background: #2a2538;
-  --main-copy: #e0e7ee;
-  --secondary-copy: #8d9cab;
-  --input-background-color: #2c2a39;
-  --list-option-hover: #403e45;
-  --slider: white;
-  --graph-axis-text: #c2c5ff;
-  --desc-link-color: #24aaf7;
-  --tooltip-link: #24aaf7;
-  --language-pie-chart-bg: rgba(255, 255, 255, 0.077);
-  --dropdown-border: 1px solid #413761;
-}
-
 .rw-widget-input,
 .rw-popup {
   background-color: var(--input-background-color);
