@@ -223,7 +223,7 @@ export default function Report({ date, report, external, externalFilename, exter
                   </p>
                 </div>
               </div>
-              <div className={styles.volumes} style={{ marginTop: "20px" }}>
+              <div className={[styles.volumes, styles.volumesOffset].join(" ")}>
                 <h3>Volumes</h3>
                 <table>
                   <thead>
@@ -232,11 +232,11 @@ export default function Report({ date, report, external, externalFilename, exter
                       <th>
                         <div className={styles.containsTooltip}>
                           Segments{" "}
-                          <a className="segments-info" >
-                            {!footNote && <InfoCircle style={{ marginBottom: "-2px", marginLeft: "3px" }} />}
+                          <a className={["segments-info", styles.tooltipTrigger].join(" ")} >
+                            {!footNote && <InfoCircle />}
                           </a>
-                          <Tooltip anchorSelect=".segments-info" place="top" style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}>
-                            <p style={{ fontSize: "14px" }}> Segments correspond to paragraph and list boundaries
+                          <Tooltip anchorSelect=".segments-info" place="top" className={styles.tooltip}>
+                            <p className={styles.tooltipText}> Segments correspond to paragraph and list boundaries
                               as defined by HTML elements{" "}
                               <code>
                                 ({"<"}p{">"}, {"<"}ul{">"}, {"<"}ol{">"}, etc.)
@@ -255,15 +255,16 @@ export default function Report({ date, report, external, externalFilename, exter
                         <th className={styles.desktopData}>
                           <div className={styles.containsTooltip}>
                             Tokens{" "}
-                            <a className="tokens-info">
-                              {!footNote && <InfoCircle style={{ marginBottom: "-2px", marginLeft: "3px" }} />}
+                            <a className={["tokens-info", styles.tooltipTrigger].join(" ")}>
+                              {!footNote && <InfoCircle />}
                             </a>
                             <Tooltip
                               anchorSelect=".tokens-info"
                               place="top"
-                              clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 100000 }}
+                              clickable
+                              className={styles.tooltipPriority}
                             >
-                              <p style={{ fontSize: "14px" }}>  Tokenized with{" "}
+                              <p className={styles.tooltipText}>  Tokenized with{" "}
                                 <a
                                   href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
                                   target="_blank"
@@ -356,7 +357,7 @@ export default function Report({ date, report, external, externalFilename, exter
                     </tr>
                   </tbody>
                 </table>
-                <table style={{ marginLeft: "auto" }}>
+                <table className={styles.targetTable}>
                   <thead>
                     <tr>
                       {trglang && trgTokens && (
@@ -457,20 +458,16 @@ export default function Report({ date, report, external, externalFilename, exter
         <div className="custom-chart">
           <div className={styles.langDocsContainer}>
             <div
-              style={
+              className={
                 report.docs_collections
-                  ? { width: "70%", marginBottom: "40px" }
-                  : { width: "100%", marginBottom: "40px" }
+                  ? styles.primaryChartWithAside
+                  : styles.primaryChartFull
               }
             >
               <DocumentSizes documentSizesObj={documentSizesObj} />
             </div>
             {report.docs_collections && (
-              <div className={styles.collectionsGraphPie} style={
-                report.docs_collections
-                  ? { width: "30%", marginBottom: "40px" }
-                  : ""
-              }>
+              <div className={[styles.collectionsGraphPie, styles.asideChart].join(" ")}>
                 <CollectionsGraph
                   collection={report.docs_collections}
                   footNote={footNote}
@@ -496,16 +493,16 @@ export default function Report({ date, report, external, externalFilename, exter
 
                     </h3>
                     <>
-                      <a className="lang-distribution-info" style={{ marginLeft: "5px" }}>
+                      <a className={["lang-distribution-info", styles.titleTooltipTrigger].join(" ")}>
                         {!footNote && <InfoCircle />}
                       </a>
                       <Tooltip
                         anchorSelect=".lang-distribution-info"
                         place="top"
                         clickable
-                        style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}
+                        className={styles.tooltip}
                       >
-                        <p style={{ fontSize: "14px" }}>   Language identified with FastSpell (
+                        <p className={styles.tooltipText}>   Language identified with FastSpell (
                           <a
                             href="https://github.com/mbanon/fastspell"
                             target="_blank"
@@ -538,7 +535,7 @@ export default function Report({ date, report, external, externalFilename, exter
 
                   </h3>
                   <>
-                    <a className="lang-distribution-info-second" style={{ marginLeft: "5px" }}>
+                    <a className={["lang-distribution-info-second", styles.titleTooltipTrigger].join(" ")}>
                       {!footNote && (
                         <InfoCircle
                         />
@@ -548,9 +545,9 @@ export default function Report({ date, report, external, externalFilename, exter
                       anchorSelect=".lang-distribution-info-second"
                       place="top"
                       clickable
-                      style={{ fontWeight: 400, backgroundColor: "rgba(24, 18, 17, 1)", zIndex: 10000 }}
+                      className={styles.tooltipWarm}
                     >
-                      <p style={{ fontSize: "14px" }}>   Language identification at segment-level based on Heliport: (
+                      <p className={styles.tooltipText}>   Language identification at segment-level based on Heliport: (
                         <a
                           href="https://github.com/ZJaume/heliport"
                           target="_blank"
@@ -592,10 +589,10 @@ export default function Report({ date, report, external, externalFilename, exter
         <div className={styles.anotherContainer}>
           {bicleaner_scores && (
             <div
-              style={
+              className={
                 collections
-                  ? { width: "70%", marginBottom: "40px" }
-                  : { width: "100%", marginBottom: "40px" }
+                  ? styles.primaryChartWithAside
+                  : styles.primaryChartFull
               }
             >
               <BicleanerScores
@@ -606,8 +603,7 @@ export default function Report({ date, report, external, externalFilename, exter
           )}
           {collections && (
             <div
-              className={styles.collectionsGraphPie}
-              style={{ width: "30%" }}
+              className={[styles.collectionsGraphPie, styles.asideChart].join(" ")}
             >
               <CollectionsGraph collection={report.collections} docs={false} />
             </div>
@@ -628,17 +624,17 @@ export default function Report({ date, report, external, externalFilename, exter
                   ? "Segment length distribution by token"
                   : "Source segment length distribution by token"}
               </h3>
-              <a className="segment-length-info">
-                {!footNote && <InfoCircle style={{ marginBottom: "-3px", marginLeft: "3px" }} />}
+              <a className={["segment-length-info", styles.tooltipTriggerSmall].join(" ")}>
+                {!footNote && <InfoCircle />}
               </a>
               <Tooltip
                 anchorSelect=".segment-length-info"
                 place="top"
                 clickable
-                style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}
+                className={styles.tooltip}
 
               >
-                <p style={{ fontSize: "14px" }}> Tokenized with{" "}
+                <p className={styles.tooltipText}> Tokenized with{" "}
                   <a
                     href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
                     target="_blank"
@@ -717,9 +713,6 @@ export default function Report({ date, report, external, externalFilename, exter
           onClick={() => {
             setFootNote(true);
             setLoadingPdf(true);
-            // if (footNote) {
-            //   exportMultipleChartsToPdf(external ? externalFilename : filename, offLoading);
-            // }
           }}
         >
           {!loadingPdf && <p> Export to PDF</p>}

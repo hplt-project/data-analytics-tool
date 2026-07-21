@@ -3,11 +3,22 @@ import { randDarkColor, languagePairName, numberFormatter } from "../lib/helpers
 
 import styles from "@/styles/LanguagePieChart.module.css";
 
+const getPercentage = (value, total) => {
+    const numericValue = Number(value);
+    const numericTotal = Number(total);
+
+    if (!Number.isFinite(numericValue) || !Number.isFinite(numericTotal) || numericTotal === 0) {
+        return "0.0";
+    }
+
+    return ((numericValue * 100) / numericTotal).toFixed(1);
+};
+
 const CustomTooltip = ({ active, payload, label, total }) => {
     if (active && payload && payload.length) {
         const freq = payload[0].value;
 
-        const percentage = parseFloat((freq * 100) / total).toFixed(2)
+        const percentage = getPercentage(freq, total);
         return (
             <div className={styles.tooltipPie}>
                 <p className={styles.pieLabel}>{`${payload[0].name.includes("Others") ? "Others" : payload[0].payload.lang}`}</p>
@@ -21,6 +32,26 @@ const CustomTooltip = ({ active, payload, label, total }) => {
     }
 
     return null;
+};
+
+const CustomLegend = ({ data, total }) => {
+    return (
+        <ul className={styles.legendList}>
+            {data.map((entry) => (
+                <li className={styles.legendItem} key={entry.name}>
+                    <span
+                        className={styles.legendIcon}
+                        style={{ backgroundColor: entry.fill }}
+                        aria-hidden="true"
+                    />
+                    <span className={styles.legendText}>
+                        {entry.name}{" "}
+                        <span style={{ fontWeight: 600 }}>({getPercentage(entry.val, total)}%)</span>
+                    </span>
+                </li>
+            ))}
+        </ul>
+    );
 };
 
 export default function LanguagePieChart({
@@ -37,13 +68,13 @@ export default function LanguagePieChart({
 
         const processedItem = {
             lang: langName,
-            val: item[1],
+            val: Number(item[1]),
             name: name,
             fill: randDarkColor()
         };
         acc.processedItems.push(processedItem);
 
-        acc.totalValue += item[1];
+        acc.totalValue += Number(item[1]);
 
         return acc;
     }, {
@@ -51,7 +82,8 @@ export default function LanguagePieChart({
         processedItems: []
     });
 
-    const { processedItems, totalValue } = values;
+    const { totalValue } = values;
+    const processedItems = [...values.processedItems].sort((a, b) => b.val - a.val);
 
 
     let graphValues;
@@ -66,7 +98,12 @@ export default function LanguagePieChart({
 
         graphValues = processedItems.toSpliced(10);
 
-        graphValues.push({ name: `${othersLength} Others - ${numberFormatter(final)}`, val: final, fill: "grey" });
+        graphValues.push({
+            name: `${othersLength} Others - ${numberFormatter(final)}`,
+            lang: "Others",
+            val: final,
+            fill: "grey"
+        });
 
     } else {
         graphValues = processedItems;
@@ -80,8 +117,8 @@ export default function LanguagePieChart({
                     supported by FastSpell.
                 </p>
             )}
-            <ResponsiveContainer width="100%" height="100%" aspect={1.6}>
-                <PieChart width={300} height={400}>
+            <ResponsiveContainer width="100%" height="100%">
+                <PieChart>
                     <Pie
                         dataKey="val"
                         isAnimationActive={false}
@@ -95,10 +132,7 @@ export default function LanguagePieChart({
                         layout="vertical"
                         verticalAlign="top"
                         align="right"
-                        formatter={(value, entry, index) => {
-                            return <nobr className={styles.legendText} >{entry.payload.name}{" "}<span style={{ fontWeight: 600 }}>({(entry.payload.percent * 100).toFixed(1)}%)</span></nobr>
-                        }
-                        }
+                        content={<CustomLegend data={graphValues} total={totalValue} />}
                     />
                     <Tooltip content={<CustomTooltip total={totalValue} />} />
                 </PieChart>
