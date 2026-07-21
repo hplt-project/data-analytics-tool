@@ -11,8 +11,7 @@ import {
 } from "recharts";
 import styles from "@/styles/DomainLabels.module.css";
 import { DataFormatter, numberFormatter } from "@/lib/helpers";
-import { Info } from "lucide-react";
-import { Tooltip as InfoTooltip } from "react-tooltip";
+import InfoTooltip from "./InfoTooltip";
 import JSON5 from "json5";
 
 function DomainLabels({ labels, footNote }) {
@@ -153,24 +152,16 @@ function DomainLabels({ labels, footNote }) {
         <div >
           <div className={styles.title}>
             <h2>Domain labels</h2>
-            <a className="domain-labels-graph">
-              {!footNote && (
-                <Info className={[styles.helpCircle, styles.desktopData].join(" ")} strokeWidth={2} color="#022831" width={18} />
-              )}
-            </a>
-            <InfoTooltip
-              anchorSelect=".domain-labels-graph"
-              place="top"
-              clickable
-              style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}
-            >
-              <p className={styles.tooltipText}>
-                Obtained with{" "}
-                <a className={styles.tooltipLink} href={"https://huggingface.co/nvidia/multilingual-domain-classifier"} target="_blank">
-                  https://huggingface.co/nvidia/multilingual-domain-classifier
-                </a>
-              </p>
-            </InfoTooltip>
+            {!footNote && (
+              <InfoTooltip>
+                <p>
+                  Obtained with{" "}
+                  <a href="https://huggingface.co/nvidia/multilingual-domain-classifier" target="_blank">
+                    https://huggingface.co/nvidia/multilingual-domain-classifier
+                  </a>
+                </p>
+              </InfoTooltip>
+            )}
           </div>
           <div className={styles["domain-labels"]} style={{ marginBottom: "50px" }}>
 

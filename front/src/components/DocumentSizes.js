@@ -1,6 +1,5 @@
 import styles from "@/styles/DocumentSizes.module.css";
-import { Info } from "lucide-react";
-import { Tooltip as InfoTooltip } from "react-tooltip";
+import InfoTooltip from "./InfoTooltip";
 
 import {
   BarChart,
@@ -57,26 +56,18 @@ function NewDocumentSizes({ documentSizesObj }) {
         <div className={styles.docsSizesContainer}>
           <div className={styles.title}>
             <h3>Documents size (in segments) </h3>
-            <a className="segments-info-graph">
-              {!footNote && (
-                <Info
-                  className={[styles.helpCircle, styles.desktopData].join(
-                    " "
-                  )}
-                  strokeWidth={2}
-                  color="#022831"
-                  width={18}
-                />
-              )}
-            </a>
-            <InfoTooltip anchorSelect=".segments-info-graph" place="top" style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}>
-              <p style={{ fontSize: "14px" }}> Segments correspond to paragraph and list boundaries as
-                defined by HTML elements{" "}
-                <code>
-                  ({"<"}p{">"}, {"<"}ul{">"}, {"<"}ol{">"}, etc.)
-                </code>{" "}
-                replaced by newlines.</p>
-            </InfoTooltip>
+            {!footNote && (
+              <InfoTooltip>
+                <p>
+                  Segments correspond to paragraph and list boundaries as defined
+                  by HTML elements{" "}
+                  <code>
+                    ({"<"}p{">"}, {"<"}ul{">"}, {"<"}ol{">"}, etc.)
+                  </code>{" "}
+                  replaced by newlines.
+                </p>
+              </InfoTooltip>
+            )}
           </div>
           <div className={styles.documentSizes}>
             {percentageOfTotal && remainingSum >= 0 && (

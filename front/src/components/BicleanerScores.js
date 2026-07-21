@@ -11,8 +11,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { numberFormatter, DataFormatter } from "@/lib/helpers";
-import { Tooltip as InfoTooltip } from "react-tooltip";
-import InfoCircle from "./InfoCircle";
+import InfoTooltip from "./InfoTooltip";
 
 import styles from "@/styles/BicleanerScores.module.css";
 
@@ -91,21 +90,15 @@ export default function BicleanerScores({ scores, footNote }) {
       <div className={styles.title}>
         <h3>
           Translation likelihood{" "}
-          <a className="bicleaner-info-second" style={{ marginLeft: "3px" }}>{!footNote && <InfoCircle />}</a>
-          <InfoTooltip
-            anchorSelect=".bicleaner-info-second"
-            place="top"
-            clickable
-            style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}
-          >
-            <p style={{
-              fontSize: "14px", fontWeight: 400
-            }}>Scores computed by Bicleaner-AI: (
-              <a href="https://github.com/bitextor/bicleaner-ai" target="_blank" style={{ color: "#24aaf7;" }}>
-                https://github.com/bitextor/bicleaner-ai
-              </a>
-              )</p>
-          </InfoTooltip>
+          {!footNote && (
+            <InfoTooltip>
+              <p>Scores computed by Bicleaner-AI: (
+                <a href="https://github.com/bitextor/bicleaner-ai" target="_blank">
+                  https://github.com/bitextor/bicleaner-ai
+                </a>
+                )</p>
+            </InfoTooltip>
+          )}
         </h3>
         <div className={styles.numbers}>
           <p>

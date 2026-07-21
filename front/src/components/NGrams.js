@@ -1,7 +1,6 @@
 import styles from "../styles/Report.module.css";
 import NGramsTable from "./NGramsTable";
-import { Info } from "lucide-react";
-import { Tooltip } from "react-tooltip";
+import InfoTooltip from "./InfoTooltip";
 
 function NGrams({ which, ngrams, trg, footNote }) {
     return (
@@ -15,26 +14,14 @@ function NGrams({ which, ngrams, trg, footNote }) {
                             ) : (
                                 <h3>Frequent n-grams</h3>
                             )}
-                            <a className="ngrams-info">
-                                {!footNote && (
-                                    <Info
-                                        className={[styles.helpCircle, styles.desktopData].join(
-                                            " "
-                                        )}
-                                        strokeWidth={2}
-                                        color="#022831"
-                                        width={18}
-                                    />
-                                )}
-                            </a>
-                            <Tooltip anchorSelect=".ngrams-info" place="top" clickable>
-                                <div style={{ display: "flex", flexDirection: "column", fontSize: "14px", lineHeight: "1.6" }}>
+                            {!footNote && (
+                                <InfoTooltip>
+                                    <div className={styles.tooltipStack}>
                                     <span>
                                         Tokenized with{" "}
                                         <a
                                             href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
                                             target="_blank"
-                                            className={styles.tooltipLink}
                                         >
                                             https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
                                         </a>
@@ -46,15 +33,15 @@ function NGrams({ which, ngrams, trg, footNote }) {
                                     </span>
                                     <span>
                                         <a
-                                            className={styles.tooltipLink}
                                             href="https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt"
                                             target="_blank"
                                         >
                                             https://github.com/hplt-project/data-analytics-tool/blob/main/scripts/resources/README.txt
                                         </a>
                                     </span>
-                                </div>
-                            </Tooltip>
+                                    </div>
+                                </InfoTooltip>
+                            )}
                         </div>
                         <NGramsTable NGrams={ngrams} />
                     </div>

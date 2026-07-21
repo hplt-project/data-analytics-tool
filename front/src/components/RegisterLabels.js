@@ -12,8 +12,7 @@ import {
 } from "recharts";
 import styles from "@/styles/RegisterLabels.module.css";
 import { DataFormatter, numberFormatter, colors, labelEquivalences } from "@/lib/helpers";
-import { Info } from "lucide-react";
-import { Tooltip as InfoTooltip } from "react-tooltip";
+import InfoTooltip from "./InfoTooltip";
 import JSON5 from "json5";
 
 function RegisterLabels({ labels, footNote }) {
@@ -248,25 +247,14 @@ function RegisterLabels({ labels, footNote }) {
                 <div className="custom-chart">
                     <div className={styles.title}>
                         <h2>Register labels</h2>
-                        <a className="register-labels-graph">
-                            {!footNote && (
-                                <Info
-                                    className={[styles.helpCircle, styles.desktopData].join(
-                                        " "
-                                    )}
-                                    strokeWidth={2}
-                                    color="#022831"
-                                    width={18}
-                                />
-                            )}
-                        </a>
-                        <InfoTooltip anchorSelect=".register-labels-graph" place="top" clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}>
-                            <p className={styles.tooltipText}>  Obtained with{" "}
-                                <a className={styles.tooltipLink} href={"https://huggingface.co/TurkuNLP/web-register-classification-multilingual"} target="_blank">
+                        {!footNote && (
+                            <InfoTooltip>
+                                <p>Obtained with{" "}
+                                <a href="https://huggingface.co/TurkuNLP/web-register-classification-multilingual" target="_blank">
                                     https://huggingface.co/TurkuNLP/web-register-classification-multilingual
                                 </a></p>
-
-                        </InfoTooltip>
+                            </InfoTooltip>
+                        )}
                     </div>
                     <div
                         style={{

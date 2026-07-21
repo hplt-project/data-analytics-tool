@@ -2,8 +2,7 @@
   color: var(--main-copy);
 }
 
-.reportMainStats,
-.generalOverview {
+.reportMainStats {
   width: 100%;
 }
 
@@ -13,9 +12,6 @@
   font-size: 20px;
 }
 
-.tables,
-.tablesLeft,
-.bilingualTables,
 .anotherContainer,
 .languagesPieReports,
 .langDocsContainer,
@@ -23,19 +19,6 @@
 .containsTooltip,
 .reportButtons {
   display: flex;
-}
-
-.tables {
-  justify-content: space-between;
-  padding-bottom: 40px;
-}
-
-.tablesLeft {
-  justify-content: normal;
-}
-
-.overviewTables {
-  margin-right: 15px;
 }
 
 .anotherContainer,
@@ -97,6 +80,13 @@
   font-size: 14px;
 }
 
+.tooltipStack {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  line-height: 1.6;
+}
+
 .tooltipLink {
   color: var(--tooltip-link);
   text-decoration: none;
@@ -117,10 +107,6 @@
   margin-left: 5px;
 }
 
-.percSpan {
-  color: rgb(29, 89, 62);
-}
-
 .dataReportContainer h3.smaller {
   font-size: 18px;
   font-weight: 600;
@@ -129,70 +115,6 @@
 
 .containsTooltip {
   align-items: center;
-}
-
-.volumes {
-  width: fit-content;
-}
-
-.volumesOffset {
-  margin-top: 20px;
-}
-
-.targetTable {
-  margin-left: auto;
-}
-
-.tables table {
-  text-align: left;
-  border-collapse: collapse;
-  margin: 5px 0 0;
-  border: 1px solid #eeeeee;
-  border-radius: 3px;
-}
-
-.tables table thead {
-  color: #333333;
-}
-
-.tables table thead tr {
-  border-bottom: 1.5px solid #5e5d5d;
-}
-
-.tables table thead th {
-  padding: 12px 8px;
-  font-weight: bold;
-}
-
-.tables table thead th:first-child {
-  padding: 10px 8px 10px 14px;
-}
-
-.tables table thead th:last-child {
-  padding: 10px 14px 10px 8px;
-}
-
-.tables table tr td {
-  color: #666666;
-  font-size: 14px;
-  padding: 10px 8px;
-}
-
-.tables table tr td:first-child {
-  padding: 7px 8px 7px 14px;
-}
-
-.tables table tr td:last-child {
-  padding: 7px 14px 7px 8px;
-}
-
-.tables table tr:not(:last-child) {
-  border-bottom: 1px solid #5e5d5d;
-}
-
-.tables table tr td a {
-  color: rgb(1, 95, 236);
-  text-decoration: none;
 }
 
 .reportButtons {
@@ -230,19 +152,8 @@
   margin-bottom: 40px;
 }
 
-.mobileNum,
-.mobileData {
+.mobileNum {
   display: none;
-}
-
-@media (max-width: 1260px) {
-  .tables {
-    flex-direction: column;
-  }
-
-  .tablesLeft {
-    margin-bottom: 20px;
-  }
 }
 
 @media (max-width: 1100px) {
@@ -274,17 +185,8 @@
 }
 
 @media (max-width: 768px) {
-  .tables h3,
   .dataReportContainer h3 {
     font-size: 18px;
-  }
-
-  .overviewTables {
-    margin-right: 0;
-  }
-
-  .dataReportContainer table {
-    margin: 5px 0 15px;
   }
 
   .desktopNum {
@@ -293,24 +195,5 @@
 
   .mobileNum {
     display: block;
-  }
-}
-
-@media (max-width: 640px) {
-  .tablesLeft {
-    flex-direction: column;
-  }
-
-  .desktopData {
-    display: none;
-  }
-
-  .mobileData {
-    display: block;
-    margin: 10px 0 20px;
-  }
-
-  .mobileData p {
-    margin: 5px 0;
   }
 }

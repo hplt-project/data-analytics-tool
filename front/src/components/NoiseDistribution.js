@@ -10,8 +10,7 @@ import {
   LabelList,
 } from "recharts";
 import { percFormatter, correctNoiseTag } from "@/lib/helpers";
-import InfoCircle from "./InfoCircle";
-import { Tooltip as InfoTooltip } from "react-tooltip";
+import InfoTooltip from "./InfoTooltip";
 
 import styles from "@/styles/NoiseDistributionGraph.module.css";
 
@@ -53,18 +52,18 @@ export default function NoiseDistribution({
         <h3 className={styles.noiseDistributionTitle} style={{ marginRight: "3px" }}>
           Segment {trglang && "pair"} noise distribution
         </h3>
-        <a className="noise-info">{!footNote && <InfoCircle />}</a>
-        <InfoTooltip anchorSelect=".noise-info" place="top" clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}>
-          <p style={{ fontSize: "14px" }}> Obtained with Bicleaner Hardrules (
-            <a
-              className={styles.tooltipLink}
-              href="https://github.com/bitextor/bicleaner-hardrules/"
-              target="_blank"
-            >
-              https://github.com/bitextor/bicleaner-hardrules/
-            </a>
-            )</p>
-        </InfoTooltip>
+        {!footNote && (
+          <InfoTooltip>
+            <p>Obtained with Bicleaner Hardrules (
+              <a
+                href="https://github.com/bitextor/bicleaner-hardrules/"
+                target="_blank"
+              >
+                https://github.com/bitextor/bicleaner-hardrules/
+              </a>
+              )</p>
+          </InfoTooltip>
+        )}
       </div>
       <div className={styles.container}>
         <ResponsiveContainer width="100%" height="100%">

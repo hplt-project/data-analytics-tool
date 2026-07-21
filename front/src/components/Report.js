@@ -1,13 +1,11 @@
 "use client";
-import { useEffect, useState, useRef } from "react";
+import { useEffect, useState } from "react";
 import BicleanerScores from "./BicleanerScores";
 import LanguagePieChart from "./LanguagePieChart";
 import {
-  numberFormatter,
   languagePairName,
   handleDownload,
   downloadYAML,
-  convertSize,
 } from "@/lib/helpers";
 import { calculateDocumentSegments, processTokenFrequencies } from "@/lib/data";
 import SegmentDistribution from "./SegmentDistribution";
@@ -15,24 +13,21 @@ import { exportMultipleChartsToPdf } from "./utils";
 import NoiseDistribution from "./NoiseDistribution";
 import LangDocs from "./LangDocs";
 import { useRouter } from "next/router";
-import { Tooltip } from "react-tooltip";
 import CollectionsGraph from "./CollectionsGraph";
 import DocumentSizes from "./DocumentSizes";
 import Footnotes from "./Footnotes";
-import DomainTable from "./DomainTable";
-import TLDTable from "./TLDTable";
 import SampleButton from "./SampleButton";
 import Loader from "./Loader";
 import ReportTitle from "./ReportTitle";
-import BilingualTable from "./BilingualTable";
 import Sample from "./Sample";
 import RegisterLabels from "@/components/RegisterLabels";
 import DomainLabels from "@/components/DomainLabels";
-import InfoCircle from "@/components/InfoCircle";
+import InfoTooltip from "@/components/InfoTooltip";
 import buttonStyles from "@/styles/Uploader.module.css";
 import styles from "@/styles/Report.module.css";
 import NGrams from "./NGrams";
 import DocumentScores from "./DocumentScores";
+import ReportOverviewTables from "./ReportOverviewTables";
 
 export default function Report({ date, report, external, externalFilename, externalReport }) {
   if (!report) return;
@@ -46,11 +41,8 @@ export default function Report({ date, report, external, externalFilename, exter
   const {
     srclang,
     trglang,
-    sentence_pairs,
     warnings,
     docs_langs,
-    src_tokens,
-    trg_tokens,
     sample,
     src_ngrams,
     trg_ngrams,
@@ -62,8 +54,6 @@ export default function Report({ date, report, external, externalFilename, exter
   const datasetName = router.query.file;
 
   const filename = router.query.file ? router.query.file.replace(".yaml", "") : undefined;
-
-  const sentences = sentence_pairs?.toLocaleString("en-US");
 
   const srcLangIDWarning = warnings?.includes("src_fastspell") ? true : false;
 
@@ -96,58 +86,11 @@ export default function Report({ date, report, external, externalFilename, exter
     setLoadingPdf(false);
   };
 
-  const docsDomains = report.docs_top100_domains?.length ? report.docs_top100_domains.slice(0, 10) : undefined;
-
-  const docsTLDs = report.docs_top100_tld?.length
-    ? report.docs_top100_tld.slice(0, 10)
-    : undefined;
-
-  const docs_total = report.docs_total;
-
-  const srcDomains = report.src_top100_domains?.slice(0, 10);
-
-  const trgDomains = report.trg_top100_domains?.slice(0, 10);
-
-  const srcTLDs = report.src_top100_tld?.slice(0, 10);
-
-  const trgTLDs = report.trg_top100_tld?.slice(0, 10);
-
-  const dataset = report?.corpus ?? "";
-
-  const totalDocsOverview = report?.docs_total ?? "";
-
   const src = srclang ? languagePairName([srclang]) : "";
 
   const trg = trglang ? languagePairName([trglang]) : "";
 
-  const srcSize = report.src_bytes
-    ? typeof report.src_bytes === "number"
-      ? convertSize(report.src_bytes)
-      : report.src_bytes.toLocaleString("en-US")
-    : "";
-
-  const trgSize = report.trg_bytes
-    ? typeof report.trg_bytes === "number"
-      ? convertSize(report.trg_bytes)
-      : report.trg_bytes.toLocaleString("en-US")
-    : "";
-
-  const srcChars = report.src_chars?.toLocaleString("en-US") ?? "";
-
-  const trgChars = report.trg_chars
-    ? report.trg_chars.toLocaleString("en-US")
-    : "";
-
-  const uniqueSegments = report.unique_sents ? report.unique_sents : "";
-  const duplicationRatio = report.duplication_ratio ?? "";
-
-  const srcTokens = numberFormatter(src_tokens) ?? "";
-
-  const trgTokens = numberFormatter(trg_tokens) ?? "";
-
   const documentSizesObj = calculateDocumentSegments(report);
-
-  const totalDocs = documentSizesObj.totalDocuments;
 
   useEffect(() => {
 
@@ -175,272 +118,13 @@ export default function Report({ date, report, external, externalFilename, exter
       <div className="custom-chart">
         <div className={styles.reportMainStats}>
           <ReportTitle />
-          <div className={styles.tables}>
-            <div className={styles.overviewTables}>
-              <div className={styles.generalOverview}>
-                <h3>General overview</h3>
-                <table>
-                  <thead>
-                    <tr>
-                      <th>Corpus</th>
-                      <th>Date</th>
-                      {trglang ? (
-                        <>
-                          <th className={styles.desktopData}>SL</th>
-                          <th className={styles.desktopData}>TL</th>{" "}
-                        </>
-                      ) : (
-                        <th className={styles.desktopData}>Language</th>
-                      )}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      <td>{dataset ? dataset : "Not specified"}</td>
-                      <td>
-                        {date === "Invalid Date" ? "Not specified" : date}
-                      </td>
-                      <td className={styles.desktopData}>
-                        {src &&
-                          (src[0].value === "hbs"
-                            ? "Croatian-Bosnian-Serbian"
-                            : src[0].label)}
-                      </td>
-                      {trg && (
-                        <td className={styles.desktopData}>{trg[0].label}</td>
-                      )}
-                    </tr>
-                  </tbody>
-                </table>
-                <div className={styles.mobileData}>
-                  <h4>Language</h4>
-                  <p>
-                    {src &&
-                      (src[0].value === "hbs"
-                        ? "Croatian-Bosnian-Serbian"
-                        : src[0].label)}
-                    {trglang && `-${trglang[0].label}`}
-                  </p>
-                </div>
-              </div>
-              <div className={[styles.volumes, styles.volumesOffset].join(" ")}>
-                <h3>Volumes</h3>
-                <table>
-                  <thead>
-                    <tr>
-                      {totalDocsOverview && <th>Docs</th>}
-                      <th>
-                        <div className={styles.containsTooltip}>
-                          Segments{" "}
-                          <a className={["segments-info", styles.tooltipTrigger].join(" ")} >
-                            {!footNote && <InfoCircle />}
-                          </a>
-                          <Tooltip anchorSelect=".segments-info" place="top" className={styles.tooltip}>
-                            <p className={styles.tooltipText}> Segments correspond to paragraph and list boundaries
-                              as defined by HTML elements{" "}
-                              <code>
-                                ({"<"}p{">"}, {"<"}ul{">"}, {"<"}ol{">"}, etc.)
-                              </code>{" "}
-                              replaced by newlines.</p>
-                          </Tooltip>
-                        </div>
-                      </th>
-                      {!trglang && uniqueSegments && (
-                        <th className={styles.desktopData}>Unique segments</th>
-                      )}
-                      {duplicationRatio !== "" && (
-                        <th className={styles.desktopData}>Duplication ratio</th>
-                      )}
-                      {!trglang && Number(src_tokens) > 0 && (
-                        <th className={styles.desktopData}>
-                          <div className={styles.containsTooltip}>
-                            Tokens{" "}
-                            <a className={["tokens-info", styles.tooltipTrigger].join(" ")}>
-                              {!footNote && <InfoCircle />}
-                            </a>
-                            <Tooltip
-                              anchorSelect=".tokens-info"
-                              place="top"
-                              clickable
-                              className={styles.tooltipPriority}
-                            >
-                              <p className={styles.tooltipText}>  Tokenized with{" "}
-                                <a
-                                  href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
-                                  target="_blank"
-                                  className={styles.tooltipLink}
-                                >
-                                  https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
-                                </a></p>
-                            </Tooltip>
-                          </div>
-                        </th>
-                      )}
-                      {trglang && Number(src_tokens) > 0 && (
-                        <th className={styles.desktopData}>SL tokens</th>
-                      )}
-                      {trglang && srcChars && (
-                        <th className={styles.desktopData}>SL characters</th>
-                      )}
-                      {trglang && srcSize && (
-                        <th className={styles.desktopData}>SL size</th>
-                      )}{" "}
-                      {!trglang && srcChars && (
-                        <th className={styles.desktopData}>Characters</th>
-                      )}
-                      {!trglang && <th className={styles.desktopData}>Size</th>}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      {totalDocs && (
-                        <td>
-                          <p className={styles.desktopNum}>
-                            {totalDocsOverview.toLocaleString("en-US")}
-                          </p>
-                          <p className={styles.mobileNum}>
-                            {numberFormatter(totalDocsOverview)}
-                          </p>
-                        </td>
-                      )}
-                      <td>
-                        <p className={styles.desktopNum}>{sentences}</p>
-                        <p className={styles.mobileNum}>
-                          {numberFormatter(+report.sentence_pairs)}
-                        </p>
-                      </td>
-                      {!trglang && uniqueSegments && (
-                        <td className={styles.desktopData}>
-                          <p className={styles.desktopNum}>
-                            {uniqueSegments.toLocaleString("en-US")}
-                            {uniqueSegments && sentences && (
-                              <span className={styles.percSpan}>
-                                {" ("}
-                                {(
-                                  (report.unique_sents * 100) /
-                                  report.sentence_pairs
-                                ).toFixed(2)}{" "}
-                                %)
-                              </span>
-                            )}
-                          </p>
-                          <p className={styles.mobileNum}>
-                            {numberFormatter(+uniqueSegments)}
-                            {uniqueSegments && sentences && (
-                              <span className={styles.percSpan}>
-                                {" ("}
-                                {(
-                                  (report.unique_sents * 100) /
-                                  report.sentence_pairs
-                                ).toFixed(2)}{" "}
-                                %)
-                              </span>
-                            )}
-                          </p>
-                        </td>
-                      )}
-                      {duplicationRatio !== "" && (
-                        <td className={styles.desktopData}>
-                          {(duplicationRatio * 100).toFixed(2)}%
-                        </td>)}
-                      {Number(src_tokens) > 0 &&
-                        (<td className={styles.desktopData}>{srcTokens}</td>
-                        )}
-
-
-                      {srcChars && (
-                        <td className={styles.desktopData}>{srcChars}</td>
-                      )}
-                      {srcSize && (
-                        <td className={styles.desktopData}>{srcSize}</td>
-                      )}
-                    </tr>
-                  </tbody>
-                </table>
-                <table className={styles.targetTable}>
-                  <thead>
-                    <tr>
-                      {trglang && trgTokens && (
-                        <th className={styles.desktopData}>TL tokens</th>
-                      )}
-                      {trglang && trgChars && (
-                        <th className={styles.desktopData}>TL characters</th>
-                      )}
-                      {trglang && trgSize && (
-                        <th className={styles.desktopData}>TL size</th>
-                      )}
-                    </tr>
-                  </thead>
-                  <tbody>
-                    <tr>
-                      {trglang && trgTokens && (
-                        <td className={styles.desktopData}>{trgTokens}</td>
-                      )}
-                      {trgChars && (
-                        <td className={styles.desktopData}>{trgChars}</td>
-                      )}
-                      {trgSize && (
-                        <td className={styles.desktopData}>{trgSize}</td>
-                      )}
-                    </tr>
-                  </tbody>
-                </table>
-                <div className={styles.mobileData}>
-                  {!trglang && uniqueSegments && (
-                    <p className={styles.mobileNum}>
-                      Unique segments - {numberFormatter(+uniqueSegments)}
-                      {uniqueSegments && sentences && (
-                        <span className={styles.percSpan}>
-                          {" ("}
-                          {(
-                            (srcUniqueTokens && srcUniqueTokens.length * 100) /
-                            report.sentence_pairs
-                          ).toFixed(2)}{" "}
-                          %)
-                        </span>
-                      )}
-                    </p>
-                  )}
-                  {duplicationRatio !== "" && (
-                    <p className={styles.mobileNum}>
-                      Duplication ratio - {(duplicationRatio * 100).toFixed(2)}%
-                    </p>
-                  )}
-                  {!trglang && srcTokens && <p>Tokens - {srcTokens}</p>}
-                  {trglang && <p>SL tokens - {srcTokens}</p>}
-                  {trglang && <p>TL tokens - {trgTokens}</p>}
-                  {!trglang && srcSize && <p>Size -{srcSize}</p>}
-                  {trglang && <p>SL size - {srcSize}</p>}
-                  {trglang && <p>TL size - {trgSize}</p>}
-                </div>
-              </div>
-            </div>
-            <div className={styles.tablesLeft}>
-              {docsDomains && (
-                <DomainTable domains={docsDomains} docsTotal={docs_total} />
-              )}
-
-              {docsTLDs && <TLDTable tlds={docsTLDs} docsTotal={docs_total} />}
-            </div>
-            <div className={styles.bilingualTables}>
-              {srcDomains && trgDomains && (
-                <BilingualTable
-                  src={srcDomains}
-                  trg={trgDomains}
-                  type={"domains"}
-                  sentences={report.sentence_pairs}
-                />
-              )}
-              {srcTLDs && trgTLDs && (
-                <BilingualTable
-                  src={srcTLDs}
-                  trg={trgTLDs}
-                  type={"TLDs"}
-                  sentences={report.sentence_pairs}
-                />
-              )}
-            </div>
-          </div>
+          <ReportOverviewTables
+            report={report}
+            date={date}
+            src={src}
+            trg={trg}
+            footNote={footNote}
+          />
         </div>
       </div>
       {report["register_labels"] && (
@@ -492,27 +176,18 @@ export default function Report({ date, report, external, externalFilename, exter
                       Number of segments in the {src && src[0].label} corpus
 
                     </h3>
-                    <>
-                      <a className={["lang-distribution-info", styles.titleTooltipTrigger].join(" ")}>
-                        {!footNote && <InfoCircle />}
-                      </a>
-                      <Tooltip
-                        anchorSelect=".lang-distribution-info"
-                        place="top"
-                        clickable
-                        className={styles.tooltip}
-                      >
-                        <p className={styles.tooltipText}>   Language identified with FastSpell (
+                    {!footNote && (
+                      <InfoTooltip className={styles.titleTooltipTrigger}>
+                        <p>Language identified with FastSpell (
                           <a
                             href="https://github.com/mbanon/fastspell"
                             target="_blank"
-                            className={styles.tooltipLink}
                           >
                             https://github.com/mbanon/fastspell
                           </a>
                           )</p>
-                      </Tooltip>
-                    </>
+                      </InfoTooltip>
+                    )}
                   </div>
                 ) : (
                   <h3 className={styles.smaller}>Source</h3>
@@ -534,30 +209,18 @@ export default function Report({ date, report, external, externalFilename, exter
 
 
                   </h3>
-                  <>
-                    <a className={["lang-distribution-info-second", styles.titleTooltipTrigger].join(" ")}>
-                      {!footNote && (
-                        <InfoCircle
-                        />
-                      )}
-                    </a>
-                    <Tooltip
-                      anchorSelect=".lang-distribution-info-second"
-                      place="top"
-                      clickable
-                      className={styles.tooltipWarm}
-                    >
-                      <p className={styles.tooltipText}>   Language identification at segment-level based on Heliport: (
+                  {!footNote && (
+                    <InfoTooltip className={styles.titleTooltipTrigger}>
+                      <p>Language identification at segment-level based on Heliport: (
                         <a
                           href="https://github.com/ZJaume/heliport"
                           target="_blank"
-                          className={styles.tooltipLink}
                         >
                           https://github.com/ZJaume/heliport
                         </a>
                         )</p>
-                    </Tooltip>
-                  </>
+                    </InfoTooltip>
+                  )}
                 </div>
                 <LangDocs
                   langDocs={docs_langs}
@@ -624,25 +287,17 @@ export default function Report({ date, report, external, externalFilename, exter
                   ? "Segment length distribution by token"
                   : "Source segment length distribution by token"}
               </h3>
-              <a className={["segment-length-info", styles.tooltipTriggerSmall].join(" ")}>
-                {!footNote && <InfoCircle />}
-              </a>
-              <Tooltip
-                anchorSelect=".segment-length-info"
-                place="top"
-                clickable
-                className={styles.tooltip}
-
-              >
-                <p className={styles.tooltipText}> Tokenized with{" "}
-                  <a
-                    href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
-                    target="_blank"
-                    className={styles.tooltipLink}
-                  >
-                    https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
-                  </a></p>
-              </Tooltip>
+              {!footNote && (
+                <InfoTooltip className={styles.titleTooltipTrigger}>
+                  <p>Tokenized with{" "}
+                    <a
+                      href="https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md"
+                      target="_blank"
+                    >
+                      https://github.com/hplt-project/data-analytics-tool/blob/main/tokenizers-info.md
+                    </a></p>
+                </InfoTooltip>
+              )}
             </div>
             <div className={styles.desktopNum}>
               <SegmentDistribution

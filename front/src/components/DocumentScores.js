@@ -10,8 +10,7 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import { numberFormatter, DataFormatter } from "@/lib/helpers";
-import { Info } from "lucide-react";
-import { Tooltip as InfoTooltip } from "react-tooltip";
+import InfoTooltip from "./InfoTooltip";
 
 import styles from "@/styles/ReportScores.module.css";
 
@@ -91,26 +90,12 @@ export default function DocumentScores({ scores, footNote }) {
     <div className="custom-chart">
       <div className={styles.title}>
         <h3>Distribution of documents by document score</h3>
-        <a className="doc-scores-distribution-info">
-          {!footNote && (
-            <Info
-              className={[styles.helpCircle, styles.desktopData].join(" ")}
-              strokeWidth={2}
-              color="#022831"
-              width={18}
-            />
-          )}
-        </a>
-        <InfoTooltip
-          anchorSelect=".doc-scores-distribution-info"
-          place="top"
-          clickable style={{ fontWeight: 400, backgroundColor: "rgba(17, 21, 24, 1)", zIndex: 10000 }}
-        >
-          <div style={{ display: "flex", flexDirection: "column", fontSize: "14px" }}>
+        {!footNote && (
+          <InfoTooltip>
+            <div>
             <span>
               Obtained with Web Docs Scorer (
               <a
-                className={styles.tooltipLink}
                 href="https://github.com/pablop16n/web-docs-scorer/"
                 target="_blank"
               >
@@ -118,8 +103,9 @@ export default function DocumentScores({ scores, footNote }) {
               </a>
               )
             </span>
-          </div>
-        </InfoTooltip>
+            </div>
+          </InfoTooltip>
+        )}
       </div>
       <div className={styles.documentScoresContainer}>
         {percUnderFive >= 0 && percOverFive >= 0 && (
