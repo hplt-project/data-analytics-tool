@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Logo from "@/../public/images/logos/HPLTAnalytics-light.svg"
 
-import { Spiral as Hamburger } from "hamburger-react";
 import { useState } from "react";
 
 import Link from "next/link";
@@ -27,7 +26,17 @@ export default function Navbar() {
         </Link>
       </div>
       <div className={styles.hamburger}>
-        <Hamburger toggled={isOpen} toggle={setOpen} />
+        <button
+          className={[styles.menuButton, isOpen ? styles.menuButtonOpen : ""].join(" ")}
+          type="button"
+          aria-label={isOpen ? "Close navigation menu" : "Open navigation menu"}
+          aria-expanded={isOpen}
+          onClick={() => setOpen((open) => !open)}
+        >
+          <span />
+          <span />
+          <span />
+        </button>
       </div>
       <div className={isOpen ? styles.navbarDropdown : styles.hidden}>
         <Link href="/viewer" className={styles.singleNavLink}>

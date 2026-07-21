@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 import { DropdownList } from "react-widgets";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Oval } from "react-loader-spinner";
+import Spinner from "@/components/Spinner";
 import { languagePairName, multipleFilter, replaceStringsCaseInsensitive, removalWords } from "@/lib/helpers";
 
 import pillStyles from "@/styles/NGramsTable.module.css";
@@ -123,15 +123,7 @@ export default function Home({ fileNames }) {
         {status === "LOADING" && (
           <div className={styles.loader}>
             <h1>Loading stats...</h1>
-            <Oval
-              visible={true}
-              height="100"
-              width="100"
-              color="#4fa94d"
-              ariaLabel="oval-loading"
-              wrapperStyle={{}}
-              wrapperClass=""
-            />
+            <Spinner size="large" label="Loading stats" />
           </div>
         )}
         {status === "FAILED" && (

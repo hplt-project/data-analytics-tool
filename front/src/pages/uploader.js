@@ -5,7 +5,7 @@ import Navbar from "@/components/Navbar";
 import { copyTextToClipboard } from "@/lib/clipboard";
 import { languagePairName } from "@/lib/helpers";
 import { DropdownList } from "react-widgets/cjs";
-import { ColorRing } from "react-loader-spinner";
+import Spinner from "@/components/Spinner";
 import { useRef } from "react";
 import toast, { Toaster } from "react-hot-toast";
 
@@ -239,15 +239,7 @@ export default function Uploader({ languageList }) {
                 <div className={styles.loaderContainer}>
                     <div className={styles.loader}>
                         <h1>Your dataset is being uploaded...</h1>
-                        <ColorRing
-                            visible={true}
-                            height="100"
-                            width="100"
-                            color="#4fa94d"
-                            ariaLabel="oval-loading"
-                            wrapperStyle={{}}
-                            wrapperClass=""
-                        />
+                        <Spinner size="large" label="Uploading dataset" />
                     </div>
                 </div>
             )}

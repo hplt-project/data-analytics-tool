@@ -1,0 +1,30 @@
+.spinner {
+  --spinner-size: 56px;
+  --spinner-track: rgba(79, 69, 140, 0.14);
+  --spinner-accent: #4f458c;
+
+  display: inline-block;
+  width: var(--spinner-size);
+  height: var(--spinner-size);
+  border: 4px solid var(--spinner-track);
+  border-top-color: var(--spinner-accent);
+  border-right-color: color-mix(in srgb, var(--spinner-accent) 72%, transparent);
+  border-radius: 999px;
+  animation: spinnerRotate 0.78s linear infinite;
+}
+
+.large {
+  --spinner-size: 84px;
+  border-width: 5px;
+}
+
+.light {
+  --spinner-track: rgba(255, 255, 255, 0.28);
+  --spinner-accent: #ffffff;
+}
+
+@keyframes spinnerRotate {
+  to {
+    transform: rotate(360deg);
+  }
+}

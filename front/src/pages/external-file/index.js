@@ -3,7 +3,7 @@ import { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
-import { Oval } from "react-loader-spinner";
+import Spinner from "@/components/Spinner";
 import { parseYamlFile } from "@/lib/helpers";
 
 import styles from "@/styles/Home.module.css";
@@ -135,15 +135,7 @@ export default function ExternalFileViewer() {
                 {status === "LOADING" && (
                     <div className={styles.loader}>
                         <h1>Loading stats...</h1>
-                        <Oval
-                            visible={true}
-                            height="100"
-                            width="100"
-                            color="#4fa94d"
-                            ariaLabel="oval-loading"
-                            wrapperStyle={{}}
-                            wrapperClass=""
-                        />
+                        <Spinner size="large" label="Loading stats" />
                     </div>
                 )}
                 {status === "FAILED" && (
