@@ -50,8 +50,6 @@ const fileConsumer = (acc) => {
 };
 
 export default async function handler(req, res) {
-  const axios = require("axios");
-
   if (req.method !== "POST") return res.status(404).end();
 
   try {
@@ -75,20 +73,33 @@ export default async function handler(req, res) {
 
     const apiBase = process.env.API_URL;
 
-    const response = await axios.post(
-      `${apiBase}getcmd`,
-      attachments,
-      {
-        headers: {
-          "Content-Type": "multipart/form-data",
-        },
+    const formData = new FormData();
+    Object.entries(attachments).forEach(([key, value]) => {
+      if (Buffer.isBuffer(value)) {
+        formData.set(key, new Blob([value]));
+        return;
       }
-    );
+      formData.set(key, value);
+    });
 
-    return res.json(response.data);
+    const response = await fetch(`${apiBase}getcmd`, {
+      method: "POST",
+      body: formData,
+    });
+    if (!response.ok) {
+      throw new Error("Failed to get command");
+    }
+
+    const responseText = await response.text();
+    let responseData = responseText;
+    try {
+      responseData = JSON.parse(responseText);
+    } catch {
+      responseData = responseText;
+    }
+
+    return res.json(responseData);
   } catch (err) {
     return res.status(500).json({ error: "Internal Server Error" });
   }
 }
-
-

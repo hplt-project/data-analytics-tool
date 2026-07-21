@@ -1,5 +1,3 @@
-import axios from "axios";
-
 export default async function handler(request, response) {
   const filename = request.query.filename;
 
@@ -15,9 +13,12 @@ export default async function handler(request, response) {
     );
     response.setHeader("Content-Type", "application/text/yaml");
 
-    const stats = await axios.get(`${apiBase}file/${filename}`);
+    const stats = await fetch(`${apiBase}file/${filename}`);
+    if (!stats.ok) {
+      throw new Error("Failed to download file");
+    }
 
-    const statsData = stats.data;
+    const statsData = await stats.text();
 
     response.json(statsData);
   } catch (error) {

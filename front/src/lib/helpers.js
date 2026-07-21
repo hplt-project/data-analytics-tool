@@ -223,16 +223,14 @@ export const numberFormatter = (num) => {
   return formatted;
 };
 
-import axios from "axios";
-
 export const handleDownload = async (filename) => {
   try {
-    const response = await axios.get(`/api/download/${filename}`);
+    const response = await fetch(`/api/download/${filename}`);
 
-    if (response.status !== 200) {
-      console.error(response.status, response.statusText);
+    if (!response.ok) {
+      throw new Error(`${response.status} ${response.statusText}`);
     }
-    const blob = response.data;
+    const blob = await response.json();
     const test = new File([blob], `${filename}.yaml`);
     const url = window.URL.createObjectURL(test);
     const link = document.createElement("a");

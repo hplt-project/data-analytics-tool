@@ -1,10 +1,9 @@
 import { useState } from "react";
-import axios from "axios";
 import Footer from "@/components/Footer";
 import { CheckSquare2, Copy, XCircle } from "lucide-react";
 import Navbar from "@/components/Navbar";
+import { copyTextToClipboard } from "@/lib/clipboard";
 import { languagePairName } from "@/lib/helpers";
-import CopyToClipboard from "react-copy-to-clipboard";
 import { DropdownList } from "react-widgets/cjs";
 import { ColorRing } from "react-loader-spinner";
 import { useRef } from "react";
@@ -102,20 +101,18 @@ export default function Uploader({ languageList }) {
             toastMessage("file");
             return;
         }
-        let config = {
-            method: "POST",
-            url: "/api/new-uploader",
-            data: formdata,
-            headers: { "Content-Type": "multipart/form-data" },
-        };
-
         try {
-            const res = await axios(config);
-            if (res.status === 200) {
+            const res = await fetch("/api/new-uploader", {
+                method: "POST",
+                body: formdata,
+            });
+            if (res.ok) {
                 setUploadStatus("");
                 setUpload(true);
                 toastMessage("upload");
                 clearFields();
+            } else {
+                throw new Error("Request failed");
             }
         } catch (err) {
             setFailedUpload(true);
@@ -141,18 +138,16 @@ export default function Uploader({ languageList }) {
             return;
         }
 
-        let config = {
-            method: "POST",
-            url: "/api/getcmd/cmd",
-            data: formdata,
-            headers: { "Content-Type": "multipart/form-data" },
-        };
-
         try {
-            const res = await axios(config);
-            if (res.status === 200) {
-                setCmd(res.data);
+            const res = await fetch("/api/getcmd/cmd", {
+                method: "POST",
+                body: formdata,
+            });
+            if (res.ok) {
+                setCmd(await res.json());
                 clearFields();
+            } else {
+                throw new Error("Request failed");
             }
         } catch (err) {
             setFailedCMD(true);
@@ -170,6 +165,15 @@ export default function Uploader({ languageList }) {
         setLangList +
             (data => [newOption, ...data])
     }
+
+    const copyCmd = async () => {
+        try {
+            await copyTextToClipboard(cmd);
+            toast.success("CMD Copied to clipboard!");
+        } catch {
+            toast.error("Couldn't copy CMD");
+        }
+    };
 
 
     return (
@@ -222,12 +226,10 @@ export default function Uploader({ languageList }) {
                         <div className={styles.cmdContainer}>
                             <p>{cmd}</p>
                         </div>
-                        <CopyToClipboard text={cmd}>
-                            <button onClick={() => toast.success("CMD Copied to clipboard!")}>
-                                Copy CMD
-                                <Copy className={styles.copyIcon} strokeWidth={1.3} />
-                            </button>
-                        </CopyToClipboard>
+                        <button onClick={copyCmd} type="button">
+                            Copy CMD
+                            <Copy className={styles.copyIcon} strokeWidth={1.3} />
+                        </button>
                         <Toaster />
                     </div>
                 </div>
@@ -583,12 +585,13 @@ export default function Uploader({ languageList }) {
 }
 
 export async function getServerSideProps() {
-    const axios = require("axios");
-
     const apiBase = process.env.API_URL;
-    const apiList = await axios.get(`${apiBase}opus_langs`);
+    const apiList = await fetch(`${apiBase}opus_langs`);
+    if (!apiList.ok) {
+        throw new Error("Failed to fetch language list");
+    }
 
-    const list = apiList.data;
+    const list = await apiList.json();
 
     const index = list.languages.indexOf("v1");
     if (index > -1) {

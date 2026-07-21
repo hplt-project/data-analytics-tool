@@ -1,6 +1,5 @@
 import Report from "@/components/Report";
 import { useState, useEffect } from "react";
-import axios from "axios";
 import { useRouter } from "next/router";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -73,10 +72,14 @@ export default function ExternalFileViewer() {
         setStatus("LOADING");
 
         try {
-            const fileResult = await axios.get(url);
-            setYaml(fileResult.data)
+            const fileResult = await fetch(url);
+            if (!fileResult.ok) {
+                throw new Error("Failed to fetch file");
+            }
+            const fileData = await fileResult.text();
+            setYaml(fileData)
 
-            const result = parseYamlFile(fileResult.data);
+            const result = parseYamlFile(fileData);
             if (!result.report.corpus) {
                 throw new Error("URL does not contain a YAML dataset file");
             }

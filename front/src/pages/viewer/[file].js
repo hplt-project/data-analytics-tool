@@ -1,6 +1,5 @@
 import Report from "@/components/Report";
 import { useState, useEffect } from "react";
-import axios from "axios";
 import { useRouter } from "next/router";
 import { DropdownList } from "react-widgets";
 import Navbar from "@/components/Navbar";
@@ -32,7 +31,11 @@ export default function Home({ fileNames }) {
     (async () => {
       setStatus("LOADING");
       try {
-        const { data } = await axios.get(`/api/getstats/${encodeURIComponent(file)}`);
+        const response = await fetch(`/api/getstats/${encodeURIComponent(file)}`);
+        if (!response.ok) {
+          throw new Error("Failed to fetch stats");
+        }
+        const data = await response.json();
         if (cancelled) return;
         if (!data) {
           setStatus("FAILED");
@@ -145,13 +148,14 @@ export default function Home({ fileNames }) {
   );
 }
 export async function getServerSideProps() {
-  const axios = require("axios");
-
   const apiBase = process.env.API_URL;
 
-  const apiList = await axios.get(`${apiBase}list`);
+  const apiList = await fetch(`${apiBase}list`);
+  if (!apiList.ok) {
+    throw new Error("Failed to fetch dataset list");
+  }
 
-  const list = await apiList.data;
+  const list = await apiList.json();
 
 
   const datasetList = list.map((el) => {

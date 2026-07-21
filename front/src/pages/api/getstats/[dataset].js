@@ -1,15 +1,17 @@
 import { parseYamlFile } from "@/lib/helpers";
 
 export default async function handler(req, res) {
-  const axios = require("axios");
   const dataset = req.query.dataset;
 
   const apiBase = process.env.API_URL;
 
   try {
-    const stats = await axios.get(`${apiBase}file/${dataset}`);
+    const stats = await fetch(`${apiBase}file/${dataset}`);
+    if (!stats.ok) {
+      throw new Error("Failed to fetch dataset");
+    }
 
-    const statsData = stats.data;
+    const statsData = await stats.text();
 
     const result = parseYamlFile(statsData);
 

@@ -1,5 +1,3 @@
-import axios from "axios";
-
 export const config = {
     api: {
         bodyParser: false,
@@ -15,16 +13,19 @@ export default async function handler(req, res) {
         const { headers: { cookie, ...rest }, method } = req;
 
         try {
-            await axios({
-                url: `${apiBase}upload`,
+            const headers = {
+                'content-type': rest['content-type'],
+            };
+
+            if (rest['content-length']) {
+                headers['content-length'] = rest['content-length'];
+            }
+
+            await fetch(`${apiBase}upload`, {
                 method: 'post',
-                data: req,
-                headers: {
-                    'content-type': rest['content-type'],
-                    'content-length': rest['content-length']
-                }
-            }).then(function (response) {
-                console.log(response);
+                body: req,
+                headers,
+                duplex: 'half',
             })
                 .catch(function (error) {
                     console.log("-");
