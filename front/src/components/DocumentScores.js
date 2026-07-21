@@ -15,6 +15,12 @@ import { Tooltip as InfoTooltip } from "react-tooltip";
 
 import styles from "@/styles/ReportScores.module.css";
 
+const normalizeScore = (score, multiplier) => {
+  const normalizedScore = Number(score) * multiplier;
+
+  return Number(normalizedScore.toFixed(1));
+};
+
 const CustomTooltip = ({ active, payload, label, measurement, total }) => {
   if (active && payload && payload.length) {
     return (
@@ -37,19 +43,27 @@ const CustomTooltip = ({ active, payload, label, measurement, total }) => {
 };
 
 export default function DocumentScores({ scores, footNote }) {
+  const numericScores = scores
+    .map((item) => Number(item[0]))
+    .filter((score) => Number.isFinite(score));
+  const maxScore = numericScores.length ? Math.max(...numericScores) : 0;
+  const scoreMultiplier = maxScore > 0 && maxScore <= 1 ? 10 : 1;
+
   const processedScores = scores.reduce(
     (acc, item) => {
+      const normalizedScore = normalizeScore(item[0], scoreMultiplier);
+
       const processedItem = {
-        token: item[0],
+        token: normalizedScore,
         freq: item[1],
-        freqFormatted: numberFormatter(item.freq),
+        freqFormatted: numberFormatter(item[1]),
         fill: "#E9C46A",
       };
 
-      if (parseFloat(item[0]) < 5) {
+      if (normalizedScore < 5) {
         acc.underFive += item[1];
       }
-      if (parseFloat(item[0]) >= 5) {
+      if (normalizedScore >= 5) {
         acc.overFive += item[1];
       }
 
