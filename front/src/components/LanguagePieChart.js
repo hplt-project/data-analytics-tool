@@ -1,5 +1,6 @@
 import { PieChart, Pie, Legend, Tooltip, ResponsiveContainer } from "recharts";
 import { randDarkColor, languagePairName, numberFormatter } from "../lib/helpers";
+import useIsMobile from "@/lib/useIsMobile";
 
 import styles from "@/styles/LanguagePieChart.module.css";
 
@@ -59,6 +60,7 @@ export default function LanguagePieChart({
     warning,
     warningLang,
 }) {
+    const isMobile = useIsMobile();
 
     const values = langs.reduce((acc, item) => {
 
@@ -112,7 +114,7 @@ export default function LanguagePieChart({
     return (
         <div className={styles.languagePieChartContainer}>
             {warning && (
-                <p className={styles.warning} style={{ "maxWidth": "40%" }}>
+                <p className={styles.warning}>
                     *{warningLang} identification might be inaccurate because it is not
                     supported by FastSpell.
                 </p>
@@ -124,14 +126,14 @@ export default function LanguagePieChart({
                         isAnimationActive={false}
                         legendType="circle"
                         data={graphValues}
-                        cx="35%"
-                        cy="45%"
-                        outerRadius="85%"
+                        cx={isMobile ? "50%" : "35%"}
+                        cy={isMobile ? "38%" : "45%"}
+                        outerRadius={isMobile ? "52%" : "85%"}
                     />
                     <Legend
                         layout="vertical"
-                        verticalAlign="top"
-                        align="right"
+                        verticalAlign={isMobile ? "bottom" : "top"}
+                        align={isMobile ? "center" : "right"}
                         content={<CustomLegend data={graphValues} total={totalValue} />}
                     />
                     <Tooltip content={<CustomTooltip total={totalValue} />} />

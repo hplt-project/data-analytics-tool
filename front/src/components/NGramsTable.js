@@ -1,14 +1,11 @@
 import styles from "@/styles/NGramsTable.module.css";
 import NgramPill from "./NgramPill";
-import { Copy } from "lucide-react";
-import { Toaster } from "react-hot-toast";
 import AllNgrams from "./AllNgrams";
 
 export default function NGramsTable({ NGrams }) {
   if (!NGrams) return;
   return (
     <div className={styles.nGramsTableContainer}>
-      <Toaster />
       <table>
         <thead>
           <tr className={styles.firstRow}>

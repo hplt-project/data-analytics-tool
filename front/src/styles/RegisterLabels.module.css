@@ -4,14 +4,46 @@
   margin-left: 30px;
 }
 
+.legendColumns {
+  display: flex;
+}
+
 .legendListStacked li {
   margin: 3px 16px 7px 0;
+}
+
+.legendItem,
+.tooltipMetric,
+.mtInfo {
+  display: flex;
+  align-items: center;
+  color: #1c1d2c;
+}
+
+.legendSwatch,
+.tooltipSwatch {
+  width: 12px;
+  height: 12px;
+  margin-right: 4px;
+  border-radius: 2px;
+}
+
+.tooltipSwatchLarge {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-right: 4px;
+  border-radius: 2px;
+}
+
+.tooltipRow {
+  margin: 4px 0;
 }
 
 .graph-cont {
   height: 400px;
   width: 25%;
-  margin-right: 70px
+  margin-right: 70px;
 }
 
 .graph-cont-bars {
@@ -28,17 +60,22 @@
   margin-top: -1px
 }
 
-.tooltipLink {
-  color: var(--tooltip-link);
-  text-decoration: none;
-}
-
-.tooltipText {
-  font-size: 14px;
-}
-
 .mtInfo {
-  display: flex;
+  gap: 5px;
+}
+
+.mtIcon {
+  margin-top: -5px;
+}
+
+.mtLabel,
+.mtDivider {
+  font-weight: 800;
+}
+
+.mtDivider {
+  display: inline-block;
+  margin: 0 5px;
 }
 
 .tooltip {
@@ -56,13 +93,13 @@
   align-items: flex-start;
 }
 
+.registerLabelsBlock {
+  margin-bottom: 50px;
+}
+
 .label {
   font-weight: 600;
   margin-bottom: 12px;
-}
-
-.register-labels-container {
-  height: fit-content;
 }
 
 .perc {
@@ -78,11 +115,12 @@
     height: auto;
   }
 
-  .register-labels-container {
-    height: fit-content;
+  .graph-cont {
+    width: 100%;
+    margin-right: 0;
   }
 
-  .graph-cont {
+  .graph-cont-bars {
     width: 100%;
   }
 }
@@ -90,5 +128,24 @@
 @media (max-width: 750px) {
   .labellist {
     display: none;
+  }
+
+  .register-labels {
+    gap: 20px;
+  }
+
+  .graph-cont,
+  .graph-cont-bars {
+    height: 380px;
+  }
+
+  .legendListStacked {
+    margin-left: 0;
+  }
+
+  .mtInfo {
+    flex-wrap: wrap;
+    font-size: 13px;
+    line-height: 1.35;
   }
 }

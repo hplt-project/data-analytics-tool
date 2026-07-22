@@ -1,59 +1,74 @@
 .title {
-    display: flex;
-    justify-content: space-between;
+  display: flex;
+  justify-content: space-between;
+  gap: 16px;
 }
 
 .title h3 {
-    display: flex;
-}
-
-.title h3 a {
-    color: #24aaf7;
+  display: flex;
+  align-items: center;
 }
 
 .container {
-    height: 300px;
-    margin: 20px 0;
+  height: 300px;
+  margin: 20px 0;
 }
 
 .numbers {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-bottom: -10px;
-    width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: -10px;
+  width: fit-content;
 }
 
 .numbers p {
-    width: fit-content;
-    margin-left: auto;
-    margin-bottom: 4px;
+  width: fit-content;
+  margin-left: auto;
+  margin-bottom: 4px;
 }
 
 .tooltip {
-    background-color: white;
-    border: solid 1px rgb(199, 199, 199);
-    padding: 15px 35px 15px 15px;
-    border-radius: 5px;
+  background-color: white;
+  border: solid 1px rgb(199, 199, 199);
+  padding: 15px 35px 15px 15px;
+  border-radius: 5px;
 }
 
 .label {
-    font-weight: 600;
-    margin-bottom: 12px;
+  font-weight: 600;
+  margin-bottom: 12px;
 }
 
 .desc {
-    margin-bottom: 7px;
+  margin-bottom: 7px;
 }
 
 .perc {
-    margin-top: 5px;
-    margin-bottom: 7px;
-    font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 7px;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
-    .container {
-        height: 270px;
-    }
+  .title {
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .numbers {
+    width: 100%;
+    margin-bottom: 8px;
+  }
+
+  .numbers p {
+    margin-left: 0;
+    font-size: 13px;
+    line-height: 1.35;
+  }
+
+  .container {
+    height: 350px;
+    margin: 12px 0 24px;
+  }
 }

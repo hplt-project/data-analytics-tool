@@ -192,13 +192,27 @@
 }
 
 @media (max-width: 768px) {
+  .collectionsContainer {
+    margin-left: 0;
+  }
+
+  .title {
+    align-items: flex-start;
+    gap: 12px;
+  }
+
   .collectionsGraph {
-    height: 300px;
+    width: 100%;
+    height: 340px;
+  }
+
+  .collectionsPercCont {
+    align-items: flex-start;
+    margin-left: 0;
+    font-size: 13px;
   }
 
   .cols4 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
-
-  /* collapse to 2 cols on small screens */
 }

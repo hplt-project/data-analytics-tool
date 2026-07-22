@@ -31,15 +31,17 @@
 
 @media (max-width: 768px) {
   .segmentDistributionContainer {
-    height: 300px;
+    height: 360px;
+    margin-bottom: 42px;
   }
 
   .segmentTitle {
     font-size: 13px;
+    align-items: flex-start;
+    text-align: left;
   }
 
   .segmentTitle p {
     margin-top: 5px;
   }
-
 }

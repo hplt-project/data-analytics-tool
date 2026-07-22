@@ -452,12 +452,12 @@
 @media (max-width: 634px) {
   .form-control {
     width: 50%;
-    min-width: none;
+    min-width: 0;
   }
 
   .file-input {
     width: 50%;
-    min-width: none;
+    min-width: 0;
   }
 
   .dropdown-cont {

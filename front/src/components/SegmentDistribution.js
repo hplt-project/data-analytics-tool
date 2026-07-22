@@ -1,4 +1,5 @@
 import { DataFormatter, numberFormatter } from "@/lib/helpers";
+import useIsMobile from "@/lib/useIsMobile";
 import styles from "@/styles/SegmentDistribution.module.css";
 
 import {
@@ -39,6 +40,7 @@ const CustomTooltip = ({ active, payload, label, total }) => {
 };
 
 export default function SegmentDistribution({ data, which, fontSize }) {
+  const isMobile = useIsMobile();
 
   const filteredData = data.filter((item) => item.token < 50);
 
@@ -90,7 +92,10 @@ export default function SegmentDistribution({ data, which, fontSize }) {
   const fiftyPlusFormatted = numberFormatter(finalBar);
   const fiftyPlusDupesFormatted = numberFormatter(finalBarDupes);
 
-  const numbers = Array.from(Array(50).fill(0), (_, index) => index);
+  const numbers = isMobile
+    ? [0, 10, 20, 30, 40, 50]
+    : Array.from(Array(50).fill(0), (_, index) => index);
+  const chartFontSize = isMobile ? 11 : fontSize;
 
   return (
     <div className={styles.segmentDistributionContainer}>
@@ -110,16 +115,16 @@ export default function SegmentDistribution({ data, which, fontSize }) {
         <BarChart
           data={filteredData}
           margin={{
-            top: 25,
-            right: 0,
+            top: isMobile ? 18 : 25,
+            right: isMobile ? 8 : 0,
             left: 10,
-            bottom: 5,
+            bottom: isMobile ? 24 : 5,
           }}
         >
           <CartesianGrid strokeDasharray="3 3" />
           <XAxis
             dataKey="token"
-            fontSize={fontSize}
+            fontSize={chartFontSize}
             tickMargin={5}
             type="number"
             domain={[0, 50]}
@@ -129,30 +134,26 @@ export default function SegmentDistribution({ data, which, fontSize }) {
               angle: 0,
               position: "bottom",
               offset: 0,
-              fontSize: fontSize,
+              fontSize: chartFontSize,
             }}
             padding={{ left: 10, right: 10 }}
           />
           <YAxis
             tickFormatter={DataFormatter}
-            fontSize={fontSize}
+            fontSize={chartFontSize}
             label={{
               value: "Segments",
               angle: 0,
               position: "top",
               offset: 12,
-              fontSize: fontSize,
+              fontSize: chartFontSize,
             }}
           />
           <Tooltip
             content={<CustomTooltip total={total} />}
             wrapperStyle={{ outline: "none" }}
           />
-          <Legend
-            wrapperStyle={{
-              paddingTop: "20px",
-            }}
-          />
+          <Legend wrapperStyle={{ paddingTop: isMobile ? "8px" : "20px" }} />
           <Bar
             dataKey="freqUnique"
             stackId="a"

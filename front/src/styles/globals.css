@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   font-family: "Roboto", sans-serif;
-  transition: all 0.25s;
 }
 
 
@@ -86,6 +85,25 @@
   margin: 8px 0;
   line-height: 1.2;
   min-width: 240px;
+}
+
+@media (max-width: 640px) {
+  .custom-chart {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+
+  .recharts-cartesian-axis-tick-value {
+    font-size: 11px;
+  }
+
+  .recharts-label {
+    font-size: 12px;
+  }
+
+  .recharts-default-legend li {
+    min-width: 0;
+  }
 }
 
 

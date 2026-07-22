@@ -9,8 +9,8 @@ import styles from "@/styles/Footer.module.css";
 
 export default function Footer() {
   return (
-    <div className={styles.footer}>
-      <div className={styles["footer-text-left"]}>
+    <footer className={styles.footer}>
+      <div className={styles.footerTextLeft}>
         <p className={styles["hplt-copyright"]}>Ⓒ HPLT 2025</p>
         <div className={styles.logosLeft}>
           <a
@@ -48,7 +48,7 @@ export default function Footer() {
           government’s Horizon Europe funding guarantee [grant number 10052546]
         </p>
       </div>
-      <div className={styles["footer-text-middle"]}>
+      <div className={styles.footerTextMiddle}>
         <Image
           src={EUFlag}
           alt="eu flag"
@@ -61,15 +61,15 @@ export default function Footer() {
           HPLT consortium and do not necessarily reflect the opinion of the
           European Union.
         </p>
-        <p style={{ marginTop: "10px" }}>
+        <p className={styles.iconCredit}>
           Icons by{" "}
           <Link href="https://lucide.dev/" target="_blank">
             Lucide
           </Link>
         </p>
       </div>
-      <div className={styles["footer-text-right"]}>
-        <a href="https://twitter.com/hplt_eu" target="_blank" rel="noreferrer" style={{ color: "black" }}>
+      <div className={styles.footerTextRight}>
+        <a href="https://twitter.com/hplt_eu" target="_blank" rel="noreferrer" className={styles.socialLink}>
           <Image
             src={XLogo}
             alt="x logo"
@@ -79,6 +79,6 @@ export default function Footer() {
           />
         </a>
       </div>
-    </div>
+    </footer>
   );
 }

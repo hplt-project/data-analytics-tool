@@ -1,121 +1,83 @@
 .docsSizesContainer {
-    width: 100%;
-    margin-right: 20px;
+  width: 100%;
+  margin-right: 20px;
 }
 
 .title {
-    display: flex;
+  display: flex;
+  align-items: center;
+  gap: 5px;
 }
 
 .title h3 {
-    margin-right: 5px;
+  margin-right: 5px;
 }
 
 .documentSizes {
-    height: 300px;
-}
-
-.reportScoresContainer {
-    height: 300px;
-}
-
-.tooltipOverlap {
-    background-color: var(--main-background);
-    padding: 15px;
-}
-
-.tooltipOverlap .labelOverlap {
-    margin-bottom: 15px;
-    font-weight: 600;
-    font-size: 18px;
+  height: 300px;
 }
 
 .label {
-    font-weight: 600;
-    margin-bottom: 12px;
-    font-size: 16px;
+  font-weight: 600;
+  margin-bottom: 12px;
+  font-size: 16px;
 }
 
 .desc {
-    margin-bottom: 7px;
-}
-
-.overlapTitle {
-    margin: 40px 0 20px 0;
-}
-
-.graphContainer {
-    margin: 15px 0 0 -40px;
-}
-
-.overlapGraph h2 {
-    margin-bottom: 2px;
-}
-
-.overlapGraph p {
-    margin-bottom: 0px;
+  margin-bottom: 7px;
 }
 
 .reportTitle,
-.reportTitleSmall,
 .reportTitleDocsSizes {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    margin-bottom: -10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  margin-bottom: -10px;
 }
 
 .reportTitleDocsSizes {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .reportTitle p,
-.reportTitleSmall p,
 .reportTitleDocsSizes p {
-    width: fit-content;
-    margin-left: auto;
-    margin-bottom: 5px;
+  width: fit-content;
+  margin-left: auto;
+  margin-bottom: 5px;
 }
-
-.reportTitleSmall {
-    width: 98%;
-}
-
-/* - Docs sizes tooltip - ****/
 
 .tooltip {
-    background-color: white;
-    border: solid 1px rgb(199, 199, 199);
-    padding: 15px 35px 15px 15px;
-    border-radius: 5px;
-}
-
-.label {
-    font-weight: 600;
-    margin-bottom: 12px;
+  background-color: white;
+  border: solid 1px rgb(199, 199, 199);
+  padding: 15px 35px 15px 15px;
+  border-radius: 5px;
 }
 
 .perc {
-    margin-top: 5px;
-    margin-bottom: 7px;
-    font-weight: 600;
+  margin-top: 5px;
+  margin-bottom: 7px;
+  font-weight: 600;
 }
 
 @media (max-width: 768px) {
-    .documentSizes {
-        height: 270px;
-    }
+  .docsSizesContainer {
+    margin-right: 0;
+  }
 
-    .reportTitle p,
-    .reportTitleDocsSizes p {
-        font-size: 13px;
-    }
+  .documentSizes {
+    height: 340px;
+  }
 
-    .title {
-        font-size: 18px;
-    }
+  .reportTitle,
+  .reportTitleDocsSizes {
+    margin-bottom: 8px;
+    align-items: flex-start;
+  }
 
-    .containsTooltip h3 {
-        font-size: 18px;
-    }
+  .reportTitle p,
+  .reportTitleDocsSizes p {
+    margin-left: 0;
+    font-size: 13px;
+    line-height: 1.35;
+  }
 }

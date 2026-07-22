@@ -14,8 +14,10 @@ import styles from "@/styles/RegisterLabels.module.css";
 import { DataFormatter, numberFormatter, colors, labelEquivalences } from "@/lib/helpers";
 import InfoTooltip from "./InfoTooltip";
 import JSON5 from "json5";
+import useIsMobile from "@/lib/useIsMobile";
 
 function RegisterLabels({ labels, footNote }) {
+    const isMobile = useIsMobile();
     if (typeof labels === "string") {
         labels = JSON5.parse(labels)
     }
@@ -104,28 +106,17 @@ function RegisterLabels({ labels, footNote }) {
 
         return (
             <div className={styles.labellist}>
-                <div style={{ display: "flex" }}>
+                <div className={styles.legendColumns}>
                     <ul className={styles.legendListStacked}>
                         {firstColumn.map((entry, index) => {
                             const color = entry.color;
 
                             return (
-                                <li
-                                    key={`item-${index}`}
-                                    style={{
-                                        display: "flex",
-                                        alignItems: "center",
-                                        color: "#1c1d2cff"
-                                    }}
-                                >
+                                <li key={`item-${index}`} className={styles.legendItem}>
                                     <div
+                                        className={styles.legendSwatch}
                                         style={{
                                             backgroundColor: color,
-                                            width: "12px",
-                                            height: "12px",
-                                            marginRight: "4px",
-                                            borderRadius: "2px",
-
                                         }}
                                     ></div>
                                     {`${entry.value} - ${entry.payload.percent.toFixed(1)}%`}
@@ -138,21 +129,11 @@ function RegisterLabels({ labels, footNote }) {
                             const color = entry.color;
 
                             return (
-                                <li
-                                    key={`item-${index}`}
-                                    style={{
-                                        display: "flex",
-                                        alignItems: "center",
-                                        color: "#1c1d2cff"
-                                    }}
-                                >
+                                <li key={`item-${index}`} className={styles.legendItem}>
                                     <div
+                                        className={styles.legendSwatch}
                                         style={{
                                             backgroundColor: color,
-                                            width: "12px",
-                                            height: "12px",
-                                            marginRight: "4px",
-                                            borderRadius: "2px",
                                         }}
                                     ></div>
                                     {`${entry.value} - ${entry.payload.percent.toFixed(1)}%`}
@@ -171,22 +152,12 @@ function RegisterLabels({ labels, footNote }) {
                     <p className={styles.label}>{labelEquivalences[label]}</p>
                     {payload.map((item, idx) => {
                         return (
-                            <div style={{ marginTop: "4px", marginBottom: "4px" }} key={`custom-tooltip--${idx}`}>
-                                <p
-                                    key={idx}
-                                    className={styles.desc}
-                                    style={{
-                                        color: "#222222",
-                                        display: "flex",
-                                        alignItems: "center",
-                                    }}
-                                >
+                            <div className={styles.tooltipRow} key={`custom-tooltip--${idx}`}>
+                                <p key={idx} className={[styles.desc, styles.tooltipMetric].join(" ")}>
                                     <div
+                                        className={styles.tooltipSwatch}
                                         style={{
-                                            height: "12px",
-                                            width: "12px",
                                             backgroundColor: item.fill,
-                                            marginRight: "4px",
                                         }}
                                     ></div>
                                     {`${item.name.includes("other")
@@ -208,23 +179,12 @@ function RegisterLabels({ labels, footNote }) {
                     <p className={styles.label}>{labelEquivalences[label]}</p>
                     {payload.map((item, idx) => {
                         return (
-                            <div style={{ marginTop: "4px", marginBottom: "4px" }} key={`group-tooltip--${idx}`}>
-                                <p
-                                    key={idx}
-                                    className={styles.desc}
-                                    style={{
-                                        color: "#222222",
-                                        display: "flex",
-                                        alignItems: "center",
-                                    }}
-                                >
+                            <div className={styles.tooltipRow} key={`group-tooltip--${idx}`}>
+                                <p key={idx} className={[styles.desc, styles.tooltipMetric].join(" ")}>
                                     <div
+                                        className={styles.tooltipSwatchLarge}
                                         style={{
-                                            height: "20px",
-                                            display: "inline-block",
-                                            width: "20px",
                                             backgroundColor: item.payload.fill,
-                                            marginRight: "4px",
                                         }}
                                     ></div>
                                     {`${item.name.includes("other")
@@ -256,11 +216,7 @@ function RegisterLabels({ labels, footNote }) {
                             </InfoTooltip>
                         )}
                     </div>
-                    <div
-                        style={{
-                            marginBottom: "50px",
-                        }}
-                    >
+                    <div className={styles.registerLabelsBlock}>
                         <div
                             className={styles["register-labels"]}
                         >
@@ -275,7 +231,7 @@ function RegisterLabels({ labels, footNote }) {
                                             paddingAngle={1}
                                             minAngle={1}
                                             cx={"50%"}
-                                            outerRadius={115}
+                                            outerRadius={isMobile ? 88 : 115}
                                         />
                                         <Tooltip content={<CustomTooltipGroup />} />
                                         <Legend
@@ -285,16 +241,7 @@ function RegisterLabels({ labels, footNote }) {
                                             align="right"
                                             formatter={(value, entry, index) => {
                                                 return (
-                                                    <span
-                                                        className={styles.legendText}
-                                                        style={{
-                                                            marginBottom: "4px",
-                                                            marginTop: "4px",
-                                                            marginLeft: "5px",
-                                                            display: "inline-block",
-                                                            color: "#1e1f2cff",
-                                                        }}
-                                                    >{`${value} - ${(entry.payload.percent * 100).toFixed(
+                                                    <span className={styles.legendText}>{`${value} - ${(entry.payload.percent * 100).toFixed(
                                                         1
                                                     )}%`}</span>
                                                 );
@@ -308,10 +255,10 @@ function RegisterLabels({ labels, footNote }) {
                                     <BarChart
                                         data={groupedLabelsTotalBarChart}
                                         margin={{
-                                            top: 42,
-                                            right: 20,
-                                            left: 10,
-                                            bottom: 25,
+                                            top: isMobile ? 24 : 42,
+                                            right: isMobile ? 8 : 20,
+                                            left: isMobile ? 0 : 10,
+                                            bottom: isMobile ? 18 : 25,
                                         }}
                                         legendType="circle"
                                     >
@@ -351,25 +298,14 @@ function RegisterLabels({ labels, footNote }) {
                             </div>
                         </div>
                         {mtLabels.length > 0 && (
-                            <div
-                                className={styles.mtInfo}
-                                style={{ display: "flex", alignItems: "center" }}
-                            >
-                                <span style={{ marginTop: "-5px" }}>🤖{" "}</span>
-                                <span style={{ fontWeight: "bolder", marginLeft: "5px", color: "#1e1f2cff" }}> MT </span>
-                                :{" "}<p style={{ color: "#1e1f2cff" }}>{" "}{((mtLabels[0][1][0].value / groupedLabelsSum) * 100).toFixed(1)}%{" "}</p>
-                                <span
-                                    style={{
-                                        display: "inline-block",
-                                        fontWeight: "800",
-                                        marginLeft: "5px",
-                                        marginRight: "5px",
-                                        color: "#1e1f2cff"
-                                    }}
-                                >
+                            <div className={styles.mtInfo}>
+                                <span className={styles.mtIcon}>🤖{" "}</span>
+                                <span className={styles.mtLabel}> MT </span>
+                                :{" "}<p>{" "}{((mtLabels[0][1][0].value / groupedLabelsSum) * 100).toFixed(1)}%{" "}</p>
+                                <span className={styles.mtDivider}>
                                     |
                                 </span>
-                                <p style={{ color: "#1e1f2cff" }}>{numberFormatter(mtLabels[0][1][0].value)} Documents</p>
+                                <p>{numberFormatter(mtLabels[0][1][0].value)} Documents</p>
                             </div>
                         )}
                     </div>

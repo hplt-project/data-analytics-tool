@@ -11,6 +11,7 @@ import {
 } from "recharts";
 import { numberFormatter, DataFormatter } from "@/lib/helpers";
 import InfoTooltip from "./InfoTooltip";
+import useIsMobile from "@/lib/useIsMobile";
 
 import styles from "@/styles/ReportScores.module.css";
 
@@ -42,6 +43,7 @@ const CustomTooltip = ({ active, payload, label, measurement, total }) => {
 };
 
 export default function DocumentScores({ scores, footNote }) {
+  const isMobile = useIsMobile();
   const numericScores = scores
     .map((item) => Number(item[0]))
     .filter((score) => Number.isFinite(score));
@@ -84,7 +86,7 @@ export default function DocumentScores({ scores, footNote }) {
 
   const percOverFive = (overFive * 100) / totalValue;
 
-  const docScoresNums = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+  const docScoresNums = isMobile ? [0, 2, 4, 6, 8, 10] : [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
   return (
     <div className="custom-chart">
@@ -125,16 +127,16 @@ export default function DocumentScores({ scores, footNote }) {
             height={300}
             data={processedItems}
             margin={{
-              top: 32,
-              right: 0,
-              left: 10,
-              bottom: 25,
+              top: isMobile ? 18 : 32,
+              right: isMobile ? 8 : 0,
+              left: isMobile ? 0 : 10,
+              bottom: isMobile ? 18 : 25,
             }}
           >
             <CartesianGrid strokeDasharray="2 1" />
             <XAxis
               dataKey="token"
-              fontSize={12}
+              fontSize={isMobile ? 11 : 12}
               tickMargin={5}
               type="number"
               allowDecimals
@@ -146,18 +148,18 @@ export default function DocumentScores({ scores, footNote }) {
                 value="Scores"
                 offset={10}
                 position="bottom"
-                fontSize={16}
+                fontSize={isMobile ? 12 : 16}
               />
             </XAxis>
 
             <YAxis
-              fontSize={12}
+              fontSize={isMobile ? 11 : 12}
               label={{
                 value: "Documents",
                 angle: 0,
                 position: "top",
                 offset: 12,
-                fontSize: 14,
+                fontSize: isMobile ? 12 : 14,
               }}
               tickFormatter={DataFormatter}
             />

@@ -1,13 +1,13 @@
 import Link from "next/link";
+import styles from "@/styles/BilingualTable.module.css";
 const punycode = require("punycode/");
 
 function BilingualTable({ src, trg, type, sentences }) {
   return (
-    <div
-      style={type === "domains" ? { marginRight: "15px" } : {}}
-    >
+    <div className={type === "domains" ? styles.withGap : undefined}>
       <h2>Dataset top 10 {type}</h2>
-      <table>
+      <div className={styles.tableShell}>
+        <table>
         <thead>
           <tr>
             <th>SL domain</th>
@@ -23,7 +23,7 @@ function BilingualTable({ src, trg, type, sentences }) {
             const srcPercentage = sentences ? (el[1] * 100) / sentences : "";
             const trgPercentage = sentences ? (trg[idx][1] * 100) / sentences : "";
             return (
-              <tr>
+              <tr key={`${type}-${srcName}-${trgName}`}>
                 {type === "domains" && (
                   <td>
                     <Link
@@ -56,8 +56,8 @@ function BilingualTable({ src, trg, type, sentences }) {
             );
           })}
         </tbody>
-        <tfoot></tfoot>
       </table>
+      </div>
     </div>
   );
 }

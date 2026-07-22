@@ -7,12 +7,13 @@ import { languagePairName } from "@/lib/helpers";
 import { DropdownList } from "react-widgets/cjs";
 import Spinner from "@/components/Spinner";
 import { useRef } from "react";
-import toast, { Toaster } from "react-hot-toast";
+import { useToast } from "@/components/ToastProvider";
 
 import styles from "@/styles/Uploader.module.css";
 import "react-widgets/styles.css";
 
 export default function Uploader({ languageList }) {
+    const toast = useToast();
     const [upload, setUpload] = useState(false);
     const [fileExtension, setFileExtension] = useState("");
     const [corpusName, setCorpusName] = useState("");
@@ -230,7 +231,6 @@ export default function Uploader({ languageList }) {
                             Copy CMD
                             <Copy className={styles.copyIcon} strokeWidth={1.3} />
                         </button>
-                        <Toaster />
                     </div>
                 </div>
             )}

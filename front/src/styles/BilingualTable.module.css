@@ -1,0 +1,30 @@
+.withGap {
+  margin-right: 15px;
+}
+
+.tableShell {
+  overflow-x: auto;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  background: #ffffff;
+}
+
+.tableShell table {
+  min-width: 460px;
+}
+
+.tableShell th,
+.tableShell td {
+  padding: 8px 10px;
+}
+
+@media (max-width: 768px) {
+  .withGap {
+    margin-right: 0;
+    margin-bottom: 18px;
+  }
+
+  .tableShell table {
+    min-width: 100%;
+  }
+}

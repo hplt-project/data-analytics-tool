@@ -95,20 +95,14 @@ function DomainLabels({ labels, footNote }) {
         <div className={styles.tooltip}>
           <p className={styles.label}>{fullName}</p>
           {payload.map((item, idx) => (
-            <div style={{ marginTop: "4px", marginBottom: "4px" }} key={`domain-tooltip--${idx}`}>
-              <p
-                className={styles.desc}
-                style={{ color: "#222222", display: "flex", alignItems: "center" }}
-              >
+            <div className={styles.tooltipRow} key={`domain-tooltip--${idx}`}>
+              <p className={[styles.desc, styles.tooltipMetric].join(" ")}>
                 <div
+                  className={styles.tooltipSwatch}
                   style={{
-                    height: "12px",
-                    width: "12px",
                     backgroundColor:
                       // Robustly resolve color both for Pie and Bar tooltips
                       item.fill || item.color || item.payload?.fill || item.payload?.payload?.fill || "#8884d8",
-                    marginRight: "4px",
-                    borderRadius: "2px",
                   }}
                 ></div>
                 {`${numberFormatter(item.value)} documents`}{" "} (<span style={{ fontWeight: 600 }}>{((item.value / total) * 100).toFixed(1)}%</span>)
@@ -123,14 +117,11 @@ function DomainLabels({ labels, footNote }) {
 
   const renderLegend = () => {
     const items = withColors;
-    const splitIndex = Math.ceil(items.length / 2);
-    // const firstColumn = items.slice(0, splitIndex);
-    // const secondColumn = items.slice(splitIndex);
     const LegendList = ({ items }) => (
       <ul className={styles.legendListStacked}>
         {items.map((entry, index) => (
-          <li key={`item-${index}`} style={{ display: "flex", alignItems: "center", color: "#1c1d2cff" }}>
-            <div style={{ backgroundColor: entry.fill, width: "12px", height: "12px", marginRight: "4px", borderRadius: "2px" }}></div>
+          <li key={`item-${index}`} className={styles.legendItem}>
+            <div className={styles.legendSwatch} style={{ backgroundColor: entry.fill }}></div>
             {`${shortName(entry.name)} - ${((entry.value / total) * 100).toFixed(1)}%`}
           </li>
         ))}
@@ -140,7 +131,6 @@ function DomainLabels({ labels, footNote }) {
       <div className={styles.labellist}>
         <div>
           <LegendList items={items} />
-          {/* <LegendList items={secondColumn} /> */}
         </div>
       </div>
     );
@@ -163,7 +153,7 @@ function DomainLabels({ labels, footNote }) {
               </InfoTooltip>
             )}
           </div>
-          <div className={styles["domain-labels"]} style={{ marginBottom: "50px" }}>
+          <div className={styles["domain-labels"]}>
 
             <div className={styles["graph-cont-bars"]}>
               <ResponsiveContainer width={"85%"} height={"100%"}>

@@ -5,11 +5,8 @@
 
 .title {
   display: flex;
-}
-
-.tooltipLink {
-  color: var(--tooltip-link);
-  text-decoration: none;
+  align-items: center;
+  gap: 5px;
 }
 
 .tooltip {
@@ -26,7 +23,12 @@
 }
 
 @media (max-width: 768px) {
-  .noiseDistributionGraphContainer {
-    height: 260px;
+  .container {
+    height: 360px;
+    margin-top: 10px;
+  }
+
+  .title {
+    align-items: flex-start;
   }
 }

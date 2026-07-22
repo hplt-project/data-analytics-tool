@@ -121,46 +121,6 @@
   gap: 3px;
 }
 
-.tooltip,
-.tooltipPriority {
-  font-weight: 400;
-  background-color: rgba(17, 21, 24, 1);
-  text-transform: none;
-  letter-spacing: 0;
-  z-index: 10000;
-}
-
-.tooltipPriority {
-  z-index: 100000;
-}
-
-.tooltipText {
-  max-width: 360px;
-  font-size: 14px;
-  line-height: 1.5;
-  font-weight: 400;
-  text-transform: none;
-  letter-spacing: 0;
-}
-
-.tooltipLink {
-  color: var(--tooltip-link);
-  text-decoration: none;
-}
-
-.tooltipLink:hover {
-  text-decoration: underline;
-}
-
-.tooltipTrigger {
-  display: inline-flex;
-  align-items: center;
-}
-
-.tooltipTrigger svg {
-  margin-bottom: -2px;
-}
-
 .percSpan {
   color: rgb(29, 89, 62);
   font-weight: 600;
@@ -173,7 +133,8 @@
 
 @media (max-width: 1260px) {
   .tables {
-    flex-direction: column;
+    grid-template-columns: 1fr;
+    gap: 24px;
   }
 
   .overviewTables {
@@ -181,7 +142,17 @@
   }
 
   .tablesLeft {
+    width: 100%;
+    min-width: 0;
     margin-bottom: 20px;
+    gap: 24px;
+    overflow-x: auto;
+  }
+
+  .bilingualTables {
+    width: 100%;
+    min-width: 0;
+    overflow-x: auto;
   }
 }
 
@@ -192,6 +163,24 @@
 
   .tableShell {
     width: 100%;
+  }
+
+  .tables {
+    padding-bottom: 30px;
+  }
+
+  .summaryPanel h3 {
+    margin-bottom: 8px;
+  }
+
+  .tables th {
+    padding: 11px 12px;
+    font-size: 11px;
+  }
+
+  .tables td {
+    padding: 12px;
+    font-size: 13px;
   }
 
   .desktopNum {
@@ -206,6 +195,8 @@
 @media (max-width: 640px) {
   .tablesLeft {
     flex-direction: column;
+    gap: 18px;
+    overflow-x: visible;
   }
 
   .desktopData {

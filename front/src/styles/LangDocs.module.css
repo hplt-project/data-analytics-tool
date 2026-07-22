@@ -39,15 +39,21 @@
 @media (max-width: 1100px) {
   .langDocs {
     margin-right: 0;
-    height: 300px;
-    width: none;
-    padding: 0;
-    background-color: transparent;
+    height: 340px;
+    padding: 12px;
+    border-radius: 8px;
   }
 }
 
 @media (max-width: 768px) {
   .langDocs {
-    height: 260px;
+    height: 380px;
+    align-items: stretch;
+  }
+
+  .stats {
+    text-align: left;
+    font-size: 13px;
+    line-height: 1.4;
   }
 }

@@ -1,6 +1,7 @@
 import "@/styles/globals.css";
 
 import { Roboto } from "next/font/google";
+import { ToastProvider } from "@/components/ToastProvider";
 
 // If loading a variable font, you don't need to specify the font weight
 const roboto = Roboto({
@@ -12,7 +13,9 @@ const roboto = Roboto({
 export default function App({ Component, pageProps }) {
   return (
     <main className={roboto.className}>
-      <Component {...pageProps} />
+      <ToastProvider>
+        <Component {...pageProps} />
+      </ToastProvider>
     </main>
   );
 }

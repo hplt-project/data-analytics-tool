@@ -1,12 +1,13 @@
 import { copyTextToClipboard } from "@/lib/clipboard";
 import { unEscape } from "@/lib/helpers";
-import toast from "react-hot-toast"
 import { Copy } from "lucide-react";
+import { useToast } from "./ToastProvider";
 
 import styles from "@/styles/NGramsTable.module.css";
 
 
 function AllNgrams({ ngrams }) {
+    const toast = useToast();
     const cleanNgrams = ngrams.map(el => unEscape(el[0].join(""))).join("\n");
     const handleCopy = async () => {
         try {

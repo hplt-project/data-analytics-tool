@@ -1,22 +1,49 @@
 .topDomains {
   margin-right: 30px;
 }
+
+.topDomains table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.topDomains th,
+.topDomains td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #e8edf3;
+  white-space: nowrap;
+}
+
+.topDomains th {
+  background: #edf2f7;
+  color: #172033;
+  font-size: 12px;
+  font-weight: 750;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
 .domainLink {
   text-decoration: none;
   color: var(--desc-link-color);
 }
-.bilingualTable {
-  margin-bottom: 20px;
-}
-.bilingualTable h2 {
-  font-size: 20px;
-}
-.bilingualTable table th,
-.bilingualTable table td {
-  padding: 4px 6px !important;
-}
 
-.bilingualTable table th span,
-.bilingualTable table td span {
-  font-weight: 600;
+@media (max-width: 768px) {
+  .topDomains {
+    margin-right: 0;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #ffffff;
+  }
+
+  .topDomains h3 {
+    padding: 14px 14px 4px;
+  }
+
+  .topDomains th,
+  .topDomains td {
+    padding: 9px 14px;
+    font-size: 13px;
+  }
 }

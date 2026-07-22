@@ -65,6 +65,8 @@ export default function ReportOverviewTables({ report, date, src, trg, footNote 
     srcSize,
   ].filter(Boolean).length;
   const splitSourceVolumes = sourceVolumeColumnCount > 4;
+  const hasDocTables = docsDomains || docsTLDs;
+  const hasBilingualTables = (srcDomains && trgDomains) || (srcTLDs && trgTLDs);
 
   return (
     <div className={styles.tables}>
@@ -334,12 +336,14 @@ export default function ReportOverviewTables({ report, date, src, trg, footNote 
         </section>
       </div>
 
-      <div className={styles.tablesLeft}>
-        {docsDomains && <DomainTable domains={docsDomains} docsTotal={docsTotal} />}
-        {docsTLDs && <TLDTable tlds={docsTLDs} docsTotal={docsTotal} />}
-      </div>
+      {hasDocTables && (
+        <div className={styles.tablesLeft}>
+          {docsDomains && <DomainTable domains={docsDomains} docsTotal={docsTotal} />}
+          {docsTLDs && <TLDTable tlds={docsTLDs} docsTotal={docsTotal} />}
+        </div>
+      )}
 
-      <div className={styles.bilingualTables}>
+      {hasBilingualTables && <div className={styles.bilingualTables}>
         {srcDomains && trgDomains && (
           <BilingualTable
             src={srcDomains}
@@ -356,7 +360,7 @@ export default function ReportOverviewTables({ report, date, src, trg, footNote 
             sentences={report.sentence_pairs}
           />
         )}
-      </div>
+      </div>}
     </div>
   );
 }

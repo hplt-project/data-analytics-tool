@@ -15,6 +15,7 @@ import {
 } from "recharts";
 
 import { DataFormatter, numberFormatter } from "@/lib/helpers";
+import useIsMobile from "@/lib/useIsMobile";
 
 const CustomTooltip = ({ active, payload, label, total }) => {
   if (active && payload && payload.length) {
@@ -38,7 +39,8 @@ const CustomTooltip = ({ active, payload, label, total }) => {
 };
 
 function NewDocumentSizes({ documentSizesObj }) {
-  const numbers = Array.from({ length: 25 }, (_, i) => i + 1);
+  const isMobile = useIsMobile();
+  const numbers = isMobile ? [1, 5, 10, 15, 20, 25] : Array.from({ length: 25 }, (_, i) => i + 1);
   const footNote = false;
 
   const {
@@ -49,6 +51,10 @@ function NewDocumentSizes({ documentSizesObj }) {
     remainingPercentage,
     total
   } = documentSizesObj;
+  const chartData = segments?.map(([segmentCount, docs]) => ({
+    segmentCount,
+    docs,
+  }));
 
   return (
     <>
@@ -90,19 +96,19 @@ function NewDocumentSizes({ documentSizesObj }) {
               <BarChart
                 width={500}
                 height={300}
-                data={segments}
+                data={chartData}
                 margin={{
-                  top: 32,
-                  right: 20,
-                  left: 10,
-                  bottom: 25,
+                  top: isMobile ? 18 : 32,
+                  right: isMobile ? 8 : 20,
+                  left: isMobile ? 0 : 10,
+                  bottom: isMobile ? 18 : 25,
                 }}
               >
                 <CartesianGrid strokeDasharray="2 1" />
                 <XAxis
-                  dataKey={(val) => val[0]}
+                  dataKey="segmentCount"
                   type="number"
-                  fontSize={12}
+                  fontSize={isMobile ? 11 : 12}
                   tickMargin={5}
                   domain={[0, 25]}
                   ticks={numbers}
@@ -113,17 +119,17 @@ function NewDocumentSizes({ documentSizesObj }) {
                     value="Segments"
                     offset={10}
                     position="bottom"
-                    fontSize={16}
+                    fontSize={isMobile ? 12 : 16}
                   />
                 </XAxis>
                 <YAxis
-                  fontSize={14}
+                  fontSize={isMobile ? 11 : 14}
                   label={{
                     value: "Documents",
                     angle: 0,
                     position: "top",
                     offset: 12,
-                    fontSize: 14,
+                    fontSize: isMobile ? 12 : 14,
                   }}
                   tickFormatter={DataFormatter}
                 />
@@ -133,20 +139,20 @@ function NewDocumentSizes({ documentSizesObj }) {
                 />
                 <ReferenceLine y={0} stroke="#000" />
                 <Bar
-                  dataKey={(val) => val[1]}
+                  dataKey="docs"
                   fill="#38686aff"
                   maxBarSize={30}
                 >
                   {" "}
-                  <LabelList
-                    dataKey={(val) =>
-                      numberFormatter(val[1])
-                    }
-                    fill="#244446ff"
-                    position="top"
-                    fontWeight={800}
-                    fontSize={11}
-                  />
+                  {!isMobile && (
+                    <LabelList
+                      dataKey={(value) => numberFormatter(value.docs)}
+                      fill="#244446ff"
+                      position="top"
+                      fontWeight={800}
+                      fontSize={11}
+                    />
+                  )}
                 </Bar>
               </BarChart>
             </ResponsiveContainer>

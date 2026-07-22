@@ -11,15 +11,16 @@ import {
 } from "recharts";
 import { percFormatter, correctNoiseTag } from "@/lib/helpers";
 import InfoTooltip from "./InfoTooltip";
+import useIsMobile from "@/lib/useIsMobile";
 
 import styles from "@/styles/NoiseDistributionGraph.module.css";
 
 const CustomTooltip = ({ active, payload, label, total }) => {
   if (active && payload && payload.length) {
 
-    const freq = payload[0].payload[1];
+    const freq = payload[0].payload.freq;
 
-    const tag = payload[0].payload[0];
+    const tag = payload[0].payload.tag;
 
     const percentage = parseFloat((freq * 100) / total).toFixed(2)
     return (
@@ -44,12 +45,20 @@ export default function NoiseDistribution({
   trglang,
   footNote,
 }) {
-  const numbers = [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+  const isMobile = useIsMobile();
+  const numbers = isMobile ? [0, 25, 50, 75, 100] : [10, 20, 30, 40, 50, 60, 70, 80, 90, 100];
+  const chartData = noiseData.map(([tag, freq]) => ({
+    tag,
+    label: correctNoiseTag(tag),
+    freq,
+    percentage: +parseFloat((freq * 100) / sentences).toFixed(2),
+    percentageLabel: `${((freq * 100) / sentences).toFixed(2)}%`,
+  }));
 
   return (
     <div className="custom-chart">
       <div className={styles.title}>
-        <h3 className={styles.noiseDistributionTitle} style={{ marginRight: "3px" }}>
+        <h3 className={styles.noiseDistributionTitle}>
           Segment {trglang && "pair"} noise distribution
         </h3>
         {!footNote && (
@@ -71,12 +80,12 @@ export default function NoiseDistribution({
             layout="vertical"
             width={300}
             height={200}
-            data={noiseData}
+            data={chartData}
             margin={{
               top: 0,
-              right: 10,
-              left: 35,
-              bottom: 15,
+              right: isMobile ? 22 : 10,
+              left: isMobile ? 8 : 35,
+              bottom: isMobile ? 8 : 15,
             }}
           >
             <CartesianGrid strokeDasharray="3 3" />
@@ -84,37 +93,31 @@ export default function NoiseDistribution({
               type="number"
               tickFormatter={percFormatter}
               ticks={numbers}
-              fontSize={12}
+              fontSize={isMobile ? 11 : 12}
             />
             <YAxis
-              dataKey={(el) => {
-                const value = el[0];
-                return correctNoiseTag(value);
-              }}
+              dataKey="label"
               type="category"
-              fontSize={14}
+              fontSize={isMobile ? 11 : 14}
               tickFormatter={(value) =>
                 value.toLocaleString().replace(/ /g, "\u00A0")
               }
             />
             <Tooltip content={<CustomTooltip total={sentences} />} />
-            <Legend />
+            {!isMobile && <Legend />}
             <Bar
-              dataKey={(val) =>
-                +parseFloat((val[1] * 100) / sentences).toFixed(2)
-              }
+              dataKey="percentage"
               fill="#D99002"
               name="% of segments"
             >
-              <LabelList
-                dataKey={(val) =>
-                  `${((val[1] * 100) / sentences).toFixed(2)}%`
-                }
-                position="right"
-                fontWeight={800}
-                fill="#b97c02ff"
-
-              />
+              {!isMobile && (
+                <LabelList
+                  dataKey="percentageLabel"
+                  position="right"
+                  fontWeight={800}
+                  fill="#b97c02ff"
+                />
+              )}
             </Bar>
           </BarChart>
         </ResponsiveContainer>

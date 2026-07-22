@@ -1,9 +1,44 @@
-.dataReportContainer .topTLDs table thead th,
-.dataReportContainer .topTLDs table tr td {
-  padding: 5px 30px 50px 8px;
-  font-size: 14px;
-}
-
 .topTLDs {
   margin-bottom: 50px;
+}
+
+.topTLDs table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.topTLDs th,
+.topTLDs td {
+  padding: 10px 14px;
+  border-bottom: 1px solid #e8edf3;
+  white-space: nowrap;
+}
+
+.topTLDs th {
+  background: #edf2f7;
+  color: #172033;
+  font-size: 12px;
+  font-weight: 750;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .topTLDs {
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 1px solid #e5e7eb;
+    border-radius: 8px;
+    background: #ffffff;
+  }
+
+  .topTLDs h3 {
+    padding: 14px 14px 4px;
+  }
+
+  .topTLDs th,
+  .topTLDs td {
+    padding: 9px 14px;
+    font-size: 13px;
+  }
 }

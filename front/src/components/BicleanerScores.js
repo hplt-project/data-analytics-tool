@@ -12,6 +12,7 @@ import {
 } from "recharts";
 import { numberFormatter, DataFormatter } from "@/lib/helpers";
 import InfoTooltip from "./InfoTooltip";
+import useIsMobile from "@/lib/useIsMobile";
 
 import styles from "@/styles/BicleanerScores.module.css";
 
@@ -39,6 +40,7 @@ const CustomTooltip = ({ active, payload, label, measurement, total }) => {
 };
 
 export default function BicleanerScores({ scores, footNote }) {
+  const isMobile = useIsMobile();
   const processedScores = scores.reduce(
     (acc, item) => {
       const processedItem = {
@@ -83,7 +85,7 @@ export default function BicleanerScores({ scores, footNote }) {
   const percOverEqualFive = (overEqualFive * 100) / totalValue;
   const percOverEqualEight = (overEqualEight * 100) / totalValue;
 
-  const numbers = [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
+  const numbers = isMobile ? [0, 0.25, 0.5, 0.75, 1] : [0, 0.1, 0.2, 0.3, 0.4, 0.5, 0.6, 0.7, 0.8, 0.9, 1];
 
   return (
     <div className={styles.container}>
@@ -121,32 +123,32 @@ export default function BicleanerScores({ scores, footNote }) {
           height={300}
           data={processedItems}
           margin={{
-            top: 25,
-            right: 0,
-            left: 5,
-            bottom: 25,
+            top: isMobile ? 18 : 25,
+            right: isMobile ? 8 : 0,
+            left: isMobile ? 0 : 5,
+            bottom: isMobile ? 18 : 25,
           }}
         >
           <CartesianGrid strokeDasharray="2 1" />
           <XAxis
             dataKey="token"
-            fontSize={14}
+            fontSize={isMobile ? 11 : 14}
             tickMargin={5}
             type="number"
             allowDecimals
             ticks={numbers}
-            padding={{ left: 50, right: 50 }}
+            padding={{ left: isMobile ? 18 : 50, right: isMobile ? 18 : 50 }}
           >
-            <Label value="Scores" offset={10} position="bottom" fontSize={16} />
+            <Label value="Scores" offset={10} position="bottom" fontSize={isMobile ? 12 : 16} />
           </XAxis>
           <YAxis
-            fontSize={14}
+            fontSize={isMobile ? 11 : 14}
             label={{
               value: "Segments",
               angle: 0,
               position: "top",
               offset: 12,
-              fontSize: 14,
+              fontSize: isMobile ? 12 : 14,
             }}
             tickFormatter={DataFormatter}
           />
@@ -158,12 +160,14 @@ export default function BicleanerScores({ scores, footNote }) {
           />
           <ReferenceLine y={0} stroke="#000" />
           <Bar dataKey="freq" maxBarSize={100}>
-            <LabelList
-              dataKey="freqFormatted"
-              position="top"
-              fontWeight={600}
-              fontSize={12}
-            />
+            {!isMobile && (
+              <LabelList
+                dataKey="freqFormatted"
+                position="top"
+                fontWeight={600}
+                fontSize={12}
+              />
+            )}
           </Bar>
         </BarChart>
       </ResponsiveContainer>

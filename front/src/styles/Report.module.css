@@ -60,47 +60,11 @@
   height: 30px;
 }
 
-.tooltip,
-.tooltipWarm,
-.tooltipPriority {
-  font-weight: 400;
-  background-color: rgba(17, 21, 24, 1);
-  z-index: 10000;
-}
-
-.tooltipWarm {
-  background-color: rgba(24, 18, 17, 1);
-}
-
-.tooltipPriority {
-  z-index: 100000;
-}
-
-.tooltipText {
-  font-size: 14px;
-}
-
 .tooltipStack {
   display: flex;
   flex-direction: column;
   gap: 3px;
   line-height: 1.6;
-}
-
-.tooltipLink {
-  color: var(--tooltip-link);
-  text-decoration: none;
-}
-
-.tooltipTrigger svg,
-.titleTooltipTrigger svg {
-  margin-bottom: -2px;
-  margin-left: 3px;
-}
-
-.tooltipTriggerSmall svg {
-  margin-bottom: -3px;
-  margin-left: 3px;
 }
 
 .titleTooltipTrigger {
@@ -180,13 +144,35 @@
   }
 
   .collectionsGraphPie {
-    margin-top: 60px;
+    margin-top: 34px;
   }
 }
 
 @media (max-width: 768px) {
+  .dataReportContainer {
+    overflow-x: hidden;
+  }
+
   .dataReportContainer h3 {
     font-size: 18px;
+    line-height: 1.25;
+  }
+
+  .languagesPieReportsContainer {
+    margin-top: 22px;
+  }
+
+  .languageDistributionContainer {
+    margin-bottom: 8px;
+  }
+
+  .singleDistribution {
+    margin-bottom: 18px;
+  }
+
+  .anotherContainer,
+  .langDocsContainer {
+    gap: 18px;
   }
 
   .desktopNum {
