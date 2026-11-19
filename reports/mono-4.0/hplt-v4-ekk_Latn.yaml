@@ -1,4 +1,4 @@
-corpus: hplt-v4-ekk
+corpus: hplt-v4-ekk_Latn
 srclang: ekk
 timestamp: 1789857889.6607816
 warnings:
@@ -2003,7 +2003,1507 @@ src_langs: '[["et", 348419998], ["it", 20422234], ["en", 16574562], ["fi", 10814
   43], ["pfl", 38], ["tyv", 36], ["av", 31], ["mai", 23], ["bxr", 17], ["dty", 2]]'
 hardrules_tags: '{"not_too_long": 1699413, "not_too_short": 69130380, "length_ratio":
   0, "no_urls": 6005014, "no_bad_encoding": 25489, "pii": 983214}'
-sample: hplt-v4-ekk_Latn-sample
+sample: '["\"T\u00e4helepanu! Artikkel on enam kui 5 aastat vana ning kuulub v\u00e4ljaande
+  digitaalsesse arhiivi. V\u00e4ljaanne ei uuenda ega kaasajasta arhiveeritud sisu,
+  mist\u00f5ttu v\u00f5ib olla vajalik kaasaegsete allikatega tutvumine.\\nKasulik
+  tulekahju?\\nOktoobri l\u00f5pus puhkenud p\u00f5leng v\u00f5is k\u00f5rvaldada
+  olulise takistuse Tallinna kesklinna magusas piirkonnas kinnisvara arendamisel.\\nEsitanud
+  tellimuse, j\u00f5uab Tallinna linnaplaneerimise ameti arhiivist pruun kaust minu
+  lauale, selle v\u00e4limus sosistab: ole minuga hell! Lehed kausta vahel on vanad,
+  esimene dokument hiljuti p\u00f5lenud Maakri 28 maja kohta on aastast 1879, markidega
+  kinnitatud saksakeelne dokument, mille \u00e4\u00e4red on koltunud ja narmendavad.
+  Silmad lausa naudivad kalligraafia ilmekust ja osavust.\\nKinnisvaraarendajale t\u00e4hendab
+  Maakri 28 hoone aga k\u00f5ike muud kui naudingut. Tegemist on kultuurim\u00e4lestisega.
+  See fakt on takistanud hoone asemele 24korruselise pilvel\u00f5hkuja rajamist.\\nHoone
+  \u00fcks omanikke, tuntud kinnisvarafirma SRV Kinnisvara on koguni \u00fcritanud
+  Maakri 28 hoovipoolse hoone demonteerida ja panna taas p\u00fcsti krundile Wismari
+  23. Sellega ei olnud n\u00f5us maa-amet, sest tegemist on kinnism\u00e4lestisega
+  ja see v\u00e4listab \u00fcldjuhul objekti asukoha muutmise, r\u00e4\u00e4kimata
+  hoone \u00fcmberprojekteerimisest.\\nTuli tegi oma t\u00f6\u00f6. Aastaid vindunud
+  probleemile v\u00f5is aga saabuda ootamatu lahendus 25. oktoobril, kui kinnil\u00f6\u00f6dud
+  ukse- ja aknaavadega majas p\u00e4\u00e4ses valla punane kukk, mis tekitas hoonele
+  palju kahju. P\u00e4\u00e4steamet sai teate kell \u00fcksteist \u00f5htul. Kuna
+  tulekahju ohustas k\u00f5rval paiknevaid maju ja asutusi, siis keskenduti tule edasileviku
+  takistamisele.\\nP\u00e4\u00e4steameti pressiesindaja \u00fctles p\u00f5lengule
+  j\u00e4rgnenud p\u00e4eval, et hoonesse murti sisse ja keegi tegi majja tule. Kuna
+  s\u00fc\u00fctevedeliku j\u00e4lgi ei leitud, siis otseselt s\u00fc\u00fctamiseks
+  teiselt korruselt alguse saanud p\u00f5lengut ei defineeritud. P\u00f5lengu s\u00fc\u00fcdlast
+  politsei otsima ei hakka, sest omanik ei ole p\u00f5lengu asjaolude uurimisest huvitatud.\\n\u201cPolitsei
+  ei saa ju uurimist alustada, kui omanik avaldust ei tee. Kui toimub sissemurdmine
+  ja korteris toimub vargus, aga omanik avaldust ei tee, siis ei saa ka politsei midagi
+  uurida,\u201d selgitas p\u00e4\u00e4steameti pressiesindaja Annika Koppel.\\n\u00c4rip\u00e4ev
+  p\u00f5rkus hoone omaniku otsimisel kokku \u00fcllatava probleemiga \u2013 omanikku
+  sellel p\u00f5lenud hoonel justkui ei olekski. Kuna Maakri 28 ei ole kinnistatud,
+  siis pole hoonet ka ehitisregistrites. Ametnikud viitavad aga justkui \u00fchest
+  suust, et hoone omanik on SRV Kinnisvara t\u00fctarettev\u00f5te Mark Invest O\u00dc,
+  kes siiani maja puudutavatel teemadel alati kaasa r\u00e4\u00e4kivat.\\nOmanik ei
+  taha olla omanik. Esimese p\u00e4rimise peale teatab SRV Kinnisvara arendusjuht
+  \u00dclar Hallikivi, et tegemist ei ole nende omanduses oleva majaga. Neil on seal
+  ainult paar korterit ja nad ei tea t\u00e4pselt, kus maja otsas need korterid asuvad.\\n\u201cMa
+  v\u00f5in eksida, kes selle omanik on. K\u00fcll ei ole selle maja v\u00f5i maa
+  omanik SRV Kinnisvara, see on n\u00fc\u00fcd k\u00fcll fakt. Kes t\u00e4pselt selle
+  maja omanik on, kas see on linn v\u00f5i riik v\u00f5i keegi teine, aga praegu ei
+  saa kindlasti omanik olla SRV Kinnisvara, sest me lihtsalt ei ole seda,\u201d toonitab
+  Hallikivi esimeses intervjuus.\\nSRV Kinnisvara on ikkagi omanik. N\u00e4dalap\u00e4evad
+  hiljem vastas Hallikivi aga juba teisiti:\\nAjakirjanik: Aga te \u00fctlesite, et
+  see maja ei kuulu SRV Kinnisvarale. Hallikivi: T\u00e4hendab ma siis t\u00e4psustan
+  v\u00f5ib olla nii palju, et see maa maja all ei kuulu meile. Tegemist ei ole kinnisvaraga,
+  tegemist on vallasvaraga. Et meile kuuluvad need korteriomandid, ehk siis, vabandust
+  mitte isegi korteriomandid, korteriomand on ka asja\u00f5iguslik m\u00f5iste, aga
+  meile kuuluvad korterid... kui vallasvara, ehk siis kinnistut kui sellist veel ei
+  ole. Seda alles moodustatakse.\\nAjakirjanik: Sellest ma sain aru, aga sellegipoolest.
+  Praegu on SRV Kinnisvara, kes selle maja eest kaasa r\u00e4\u00e4gib ja selle maja
+  eest vastutab? Hallikivi: Tegelikult SRV Kinnisvara \u00fcks t\u00fctarettev\u00f5tetest.\\nAjakirjanik:
+  Mark Invest? Hallikivi: Jah, t\u00e4pselt.\\nSRV Kinnisvara juhatuse liige Priit
+  Sauk, \u00fctleb hiljem, et hoone teatud osa kasutamis\u00f5igus on olnud SRV Kinnisvaral
+  alates 2001. aastast. T\u00e4psustamise m\u00f5ttes lisavad Sauk ja Hallikivi, et
+  korteriomanikke on veel. T\u00e4psemalt \u00fcks omanik kahe korteriga. Sellest
+  omanikust ei tea aga ka SRV Kinnisvara midagi, sest mingit kontakti pole olnud.
+  Objekti kinnistamisel loodavad Sauk ja Hallikivi, et v\u00e4ikeomanik ikka notarisse
+  ilmub, muidu v\u00f5ib maja kinnistamata j\u00e4\u00e4dagi.\\nMaa maja all ja \u00fcmber
+  ei ole kinnistatud ja seega on tegemist vallasvaraga, mille enamusosa omanik on
+  siiski SRV Kinnisvara t\u00fctarettev\u00f5ttele Mark Invest O\u00dc, \u00fcks kolmandik
+  majast kuulub aga isikule, keda ei \u00f5nnestunud tabada ka \u00c4rip\u00e4eval.
+  Ent hoolimata sellest on ka vallasvara varaomaniku kohus talle kuuluvat kultuuriv\u00e4\u00e4rtust
+  kaitsta.\\nHoone tulevik s\u00f5ltub ekspertiisist. Mis tules h\u00e4vinud majast
+  edasi saab, pole veel teada, ent kultuuriv\u00e4\u00e4rtuste ameti peaspetsialist
+  Artur \u00dcmar loodab, et hoone koopiana siiski \u00fcles ehitatakse. V\u00f5imalik,
+  et v\u00e4\u00e4rtuslikud detailid korjatakse kokku ja need \u00fcritatakse \u00e4ra
+  kasutada. \u201cArendaja kindlasti tahab sinna uut k\u00f5rghoonet ehitada,\u201d
+  on \u00dcmar veendunud.\\nSelle aastaid seisnud, lagunenud ja korduvalt ka p\u00f5lenud
+  ajaloolise hoone saatus s\u00f5ltub n\u00fc\u00fcd Tallinna kultuuriv\u00e4\u00e4rtuste
+  ameti tellitud insenertehnilisest ekspertiisist. Varasemate p\u00f5lengute korral
+  on s\u00fc\u00fcdistatud ikka kodutuid, neid keda s\u00fc\u00fcdi m\u00f5ista ja
+  vastutusele v\u00f5tta ei saa ning kes p\u00e4rast \u00f5nnetusi j\u00e4ljetult
+  kaovad. Naabermajas t\u00f6\u00f6tava naise s\u00f5nul ei ole tema viimase poole
+  aasta jooksul selles hoones kodutuid n\u00e4inud. Varemalt nad selles majas olid
+  k\u00fcll.\\nP\u00e4rast iga p\u00f5lengut on jutt olnud sarnane \u2013 maja tuleb
+  \u00fcles ehitada, kas v\u00f5i koopiana ja suurt k\u00f5rghoonet sinna ehitada
+  ei tohi. Kas see jutt kordub ka n\u00fc\u00fcd, s\u00f5ltubki ekspertiisi tulemustest.
+  Erinevalt varasematest p\u00f5lengutest oli seekord tule laastamist\u00f6\u00f6
+  v\u00f5imsam ja seet\u00f5ttu v\u00f5ib juhtuda, et hoone taastamist enam ei n\u00f5uta.\\nTallinnas
+  on t\u00fchjalt seisvaid ja k\u00fclmade saabudes kodutuid majutavaid hooneid umbes
+  500, neist ligi 100 kuulub linnale. P\u00e4\u00e4steameti menetleja Vello Teinemaa
+  s\u00f5nul linna majadega ravaliselt probleeme ei ole. Eraomanikele kuuluvate hoonete
+  kohta sama \u00f6elda ei saa.\\nKonkurss on pooleli\\nPraegu k\u00e4ib Tallinnas
+  asuva Maakri kvartali arhitektuurikonkurss. Selle korraldaja arhitekt Toomas Paaver
+  kinnitas, et SRV Kinnisvara konkursi tingimustele vastuseisu n\u00e4idanud ei ole.Paaveri
+  s\u00f5nul on konkursi teise etapi arhitektuuritingimustes kirjas, et Maakri 28
+  kuulub s\u00e4ilitamisele ja arhitektid \u00fcritavad leida parimaid v\u00f5imalikke
+  lahendusi kultuuriv\u00e4\u00e4rtuse sobitamisel k\u00f5rghoonete vahele.Paaveri
+  s\u00f5nul tundus talle, et omanikud on selle maja alles j\u00e4\u00e4misega leppinud,
+  ent varen on sellega probleeme esinenud k\u00fcll, nimelt on omanikud soovinud sinna
+  ikka midagi uut ehitada.Kuna aga Maakri kvartalis on palju eri huvide ja soovidega
+  omanikke, ei ole siiani rahuldavate kompromissideni j\u00f5utud ja kvartali arenemine
+  on liikunud teosammul. SRV Kinnisvara esindajate v\u00e4itel on riigi venitamine
+  maja kinnistamisel takistanud kultuuriv\u00e4\u00e4rtust kaitsta. Linnaplaneerimise
+  amet vaidleb vastu ning kinnitab, et ehitise kuuluvuse \u00fcle pole vaidlust olnud.
+  Ehitise omanik on kohustatud tagama ehitise ohutuse selle kasutajatele ning teiste
+  inimeste elule ja tervisele, varale ja keskkonnale. Maja teenindamiseks vajaliku
+  maa m\u00e4\u00e4ramise menetlus ei oma seejuures mingit t\u00e4htsust.Tallinna
+  kultuuriv\u00e4\u00e4rtuste ameti peaspetsialist Artur \u00dcmar \u00fctles, et
+  t\u00f5en\u00e4oliselt ei j\u00f5ua arhitektuurikonkursi teine etapp tulemuseni,
+  sest kvartalis asuvate kinnistute omanikud ei leia ka seekord \u00fchist keelt.\\nTaust\\nKodu
+  t\u00f6\u00f6stustele\\nMaakri 28 asunud hoones on olnud:kangaste kudumise t\u00f6\u00f6stuskompveki-
+  ja \u0161okolaadit\u00f6\u00f6stusOrnlichi trikoo- ja pesut\u00f6\u00f6stustr\u00fckikoda
+  EDUTallinna Mere rajooni T\u00f6\u00f6stuskombinaadi puidut\u00f6\u00f6stuse laduAjaloolise
+  Lenderi g\u00fcmnaasiumi \u00f5petajate majaAjakirjanduses on ka kirjutatud, et
+  hoones on kunagi korter olnud praegusel Tallinna linnapeal Edgar Savisaarel.\"",
+  "\"Eesti reiting t\u00f5otab t\u00f5usta\\nReitinguagentuuri Fitch kiitev hinnang
+  Eesti majandusele langeb \u00fcldjoontes kokku Eesti Panga n\u00e4gemusega ning
+  kinnitab keskpanga teatel, et kasvu j\u00e4tkumiseks on vajalik tasakaalustada riigi
+  tulud ja kulud.\\nSeet\u00f5ttu tuleb majanduskasvu kiirenedes arvestada eelarve
+  \u00fclej\u00e4\u00e4giga, v\u00e4ltida jooksevkonto defitsiidi olulist kasvu ja
+  tagada selle finantseerimine eelk\u00f5ige otseinvesteeringute ja muude pikaajaliste
+  stabiilsete rahavoogudega, teatas keskpank. Eesti Pank r\u00f5hutab ka, et l\u00f5pule
+  tuleb viia majandusstruktuuri reform, eelk\u00f5ige infrastruktuuriettev\u00f5tete
+  \u00fcmberstruktureerimine ja erastamine.\\nRahvusvaheline reitinguagentuur Fitch
+  teatas esmasp\u00e4eval, et kaalub Eesti riigireitingu t\u00f5stmist.\\nBNS\\nFond
+  toetab ettev\u00f5tjaid\\nMajandusministeeriumi haldusalas Euroopa Liidu Phare projekti
+  abiga loodud Stardiabifondi n\u00f5ukogu toetab nelja ettev\u00f5tluse alustamise
+  projekti 214 581 krooniga.\\nStardiabi n\u00f5ukogu otsustas eraldada 50 000 krooni
+  P\u00f5lvamaale palkmajade t\u00f6\u00f6stuse seadmete soetamiseks, 15 000 krooni
+  V\u00f5rumaale m\u00e4ngukeskuse sisseseade soetamiseks, Ida-Virumaale 100 000 krooni
+  plekktoodete valmistamise sisseseade ostmiseks ja 49 581 krooni akende ja uste tootmise
+  tehnika soetamiseks, teatas stardiabifondi projektijuht Heidi Kohlman.\\nEPL\\nEesti
+  ootab EXPOl miljonendat k\u00fclastajat\\nMaailman\u00e4ituse EXPO 2000 Eesti paviljoni
+  Hannoveris peaks t\u00e4na hommikul tulema miljones k\u00fclastaja.\\nEesti peakomissar
+  Andres Armand Pajuste s\u00f5nul on nii suur k\u00fclastatavus t\u00e4helepanuv\u00e4\u00e4rne.
+  Paviljonis on juba viibinud pea sama arv inimesi kui on Eestis kokku elanikke. 1,4
+  miljoni k\u00fclastaja piir on lootust \u00fcletada augusti l\u00f5puks. Eesti paviljoni
+  auk\u00fclaline saab kingituseks tunnistuse, mis t\u00f5endab, et enne teda on virtuaalse
+  Eestiga paviljonis tutvunud 999 999 inimest ning miljonenda k\u00fclastaja au kuulub
+  talle.\\nHuvi Eesti ekspositsioonivastu on kasvanud. Kui juunis oli p\u00e4evas
+  keskmiselt 12 500 k\u00fclastust, siis augustis on olnud k\u00fclastusi keskmiselt
+  16 200 p\u00e4evas.\\nEXPO 2000 on avatud Hannoveris 31. oktoobrini.\\nAare Reivart\"",
+  "\"Neoviiri \u00fclevaated prostatiidi kohta\\nSiin on Vitafoni seadme kohta arstide
+  \u00fclevaated videodest ning lingid kasutajate arvustustega saitidele, sealhulgas
+  negatiivseid kommentaare. K\u00f5igepealt toome teie t\u00e4helepanu arstide ja
+  kasutajate videovestlusele Vitafoni kasutamise kohta. Veenduge, et video esitaks
+  arstide tegelikku \u00fclevaadet, saate m\u00f5nedele neist n\u00f5ustuda. N\u00f5uetekohase
+  ravi korral saate retsidiivi t\u00e4ielikku puudumist. Isegi kui inimene on hiljaks
+  muutunud ja tal on p\u00e4rast p\u00fcelonefriiti komplikatsioon - neerude v\u00f5i
+  neerupuuduse kokkut\u00f5mbumine, siis v\u00e4hendavad suguartiklid neeru kiulisi
+  protsesse ja suurendavad uriini voolu. Sama kehtib ka prostatiidi kohta.Meeste suguelundite
+  s\u00fcgeluse p\u00f5hjused on sageli prostatiit, vesikuliit. Sama v\u00f5ib \u00f6elda
+  ka prurituse kohta rinna\u00e4\u00e4rmetes raseduse ajal. kortikosteroidid (Metipred,
+  prednisoloon), interferoonid (alfa-2b-interferoon, neoviir), ravimid koos A-vitamiin
+  (\\\"Tigazon\\\", Don: kasutusjuhised, n\u00e4idustused, \u00fclevaated ja analoogid.
+  Lisateavet analoogide, nende hindade ja nende asendajate kohta saate selle artikli
+  l\u00f5pus. Laste interferooni \u00fclevaated v\u00f5imaldavad meil j\u00e4reldada,
+  et ravim ei Candida, Gardnerella, Trichomonas, papillomatoosi, prostatiit jne).
+  Lisaks tuleb m\u00e4rkida, et IFN indutseerijate, nagu Neoviir, Amiksin, Cycloferon
+  jne.- Mul on prostatiit, aga mul olid lapsed\\n- Tseftriaksoon prostatiidi ravis\\n-
+  Eesn\u00e4\u00e4rme adenoomin\u00e4itus\\n- M\u00fcostimulatsioon prostatiidiga\\nSpemaan
+  prostatiidi jaoks: kuidas ravida ravimeid ja milliseid analooge on olemas Eelneva
+  p\u00f5letikulise protsessi nimetatakse prostatiidiks. T\u00e4nap\u00e4eval diagnoositakse
+  seda haigust \u00fcsna sageli erinevate vanuser\u00fchmade patsientidel ning need
+  v\u00f5ivad olla nii \u00e4gedad kui ka kroonilised. Valuvaigistid ja p\u00f5letikuvastased
+  k\u00fc\u00fcnlad: nimekiri, kasutusjuhised ja \u00fclevaated - Narkootikume - Sooles
+  on suur hulk kasulikke baktereid, mis suudavad seedida toitu ja kaitsta organismi
+  kahjulike mikroorganismide eest. Kasulik teave k\u00f5igi \u00fcle aastaste meeste
+  kohta. aastal viidi l\u00e4bi 38 Euroopa naise seas anon\u00fc\u00fcmsed uuringud.
+  Nende k\u00fcsitluste tulemuste p\u00f5hjal selgus, et v\u00e4hem kui 15% on seksieluga
+  t\u00e4iesti rahul, 67% soovib rohkem mehi ja 12% petab oma abikaasat teiste meestega.
+  Welcome to the website of Riigi Teataja! Here you can look up consolidated texts
+  of English translations of Estonian legislation, subscribe to the MY RT service
+  which notifies you about new translations by e-mail, and look at statistics. Selles
+  artiklis saate lugeda ravimi Ciprofloxacin kasutamise juhiseid. Esitanud saidi k\u00fclastajate
+  - selle ravimi tarbijate - \u00fclevaated, samuti tsiprofloksatsiini kasutamise
+  spetsialistide arvamused nende praktikas Suur soov lisada oma tagasisidet ravimi
+  kohta aktiivsemalt: ravim h\u00f5lmas v\u00f5i ei aidanud haigusest vabaneda, milliseid
+  t\u00fcsistusi ja k\u00f5rvaltoimeid t\u00e4heldati, mida tootja ei ole.ug toimeainet
+  ampulli kohta, mis on terapeutiline annus. Herpes- ja Kroonilise bakteriaalse prostatiidi
+  \u00e4genemise v\u00e4ltimiseks kasutatakse 5 Panavir (geel, k\u00fc\u00fcnlad,
+  lahus, pihustid) - kasutusjuhised, analoogid, \u00fclevaated, hind Neoviir See on
+  kaasaegne ravim, mida kasutatakse erineva iseloomuga ja p\u00e4ritoluga. K\u00f5ige
+  ettekirjutatud on: Esberitox (taimne ravim), Neoviir (s\u00fcnteetiline ravim),
+  g Hypericumi v\u00e4rskete lilledega ja j\u00e4tta pimedasse kohta 20 p\u00e4eva,
+  unustamata. Kuid k\u00f5ik valats\u00fckloviiri ravimid on \u00fcsna kallid ( rubla
+  pakendi kohta). Raske herpese infektsiooni korral v\u00f5ib kasutada: famtsikloviiri
+  ravimid (famvir);. n\u00e4iteks prostatiidi ravi l\u00f5ppgonoga, mida internetis
+  on laialdaselt reklaamitud gonorr\u00f6a saamist, mis annab \u00fclevaate haiguse
+  vormist ja m\u00e4\u00e4rab patogeeni tundlikkuse teatud Antibiootikumid gonorr\u00f6a
+  jaoks on peamine koht. Samuti kasuta ts\u00fckloferooni, neoviiri, mis normaliseerib
+  keha immuunrakkude funktsiooni. Linaseemne\u00f5li veenilaiendite kohta \u00fclevaateid
+  Prostatiit veenilaiendite kuidas Antibiootikum, prostatiit meestel \u00fclevaateid
+  kuidas erutada. ja mittet\u00e4ielik seksuaalvahekord \u00b7 Kes s\u00fcstis neoviiri
+  prostatiidi arvustustega? Neoviir v\u00e4hendab kasvaja nekroosifaktori (herpese,
+  HIV-nakkuse) teket ja prostatiit, epidid\u00fcmiit, klam\u00fc\u00fcdiaetoloogia
+  uretriit;; Onkoloogilised haigused;; Gripp ja Me v\u00f5tsime m\u00f5ned \u00fclevaated
+  inimestest, kes kasutasid ravimit Neovir: +. K\u00f5ige sagedamini kasutatavad neoviir,
+  viferoon, ts\u00fckloferoon ja sellega seotud ravimid. Arstid pakuvad t\u00f5husaid
+  ravimeetodeid prostatiidi raviks, mis aitab haiguse ravimisel kuidas nad t\u00f6\u00f6tavad
+  - seda on \u00fcksikasjalikult k\u00e4sitletud farmaatsiatoodete \u00fclevaates.
+  Prostatiidi t\u00f5husate ravimite kohta r\u00e4\u00e4gitakse videost. Prostatiidi
+  diagramm galavit Psoriaas salvi vitaprost Prostatiit kohta v\u00e4ljaheide veres
+  v\u00f5ib olla ise eesn\u00e4\u00e4rme Galavit;; Amiksin;; Pol\u00fcoksidoonium;;
+  Neoviir. N\u00f5rgenenud immuunsus on k\u00f5ige levinum ja p\u00f5hiline selgitus
+  selle kohta, miks see toimub. nefriit, meestel - uretriit ja prostatiit;; s\u00fcdamehaigus;;
+  liigeste artriitilised kahjustused; K\u00f5ige ettekirjutatud on: Esberitox (taimne
+  ravim), Neoviir (s\u00fcnteetiline ravim), Erespal: kasutusjuhised, n\u00e4idustused,
+  \u00fclevaated ja analoogid. Eesn\u00e4\u00e4rmev\u00e4hk on v\u00f5imalik ravida
+  Hiina ravimid prostatiit \u00fclevaateid. M\u00e4\u00e4ratud Spray Derinat ja nina
+  jaoks.. ja selle analoogide hindade kohta, ravimi.\\nTelli n\u00fc\u00fcd Men\u2019s
+  Defence: V\u00f5it prostatiidi \u00fcle kolme sammuga! Leevendab p\u00f5letikku
+  ja valu. Kui \u00fckskord kehas, hakkavad aktiiv komponendid toimima koheselt, elimineerides
+  valu ja p\u00f5letik raku tasandil, eemaldades lihastspasmid, eemaldades klombid
+  ja parandades limaskesta membraani. Jalakatted pruunid laigud on m\u00e4rgid patrioomsete
+  protsesside kohta, mis esinevad naha kihtides ja teistes keha s\u00fcsteemides.
+  Piirkondade v\u00e4limus - jalgade, jalgade, s\u00f5rmede v\u00f5i k\u00fc\u00fcnte
+  pigment, ainult harvadel juhtudel \u00fclem\u00e4\u00e4rane parkimistulemus v\u00f5i
+  hoolas juuste eemaldamine v\u00f5i depilatsioon, muudel juhtudel n\u00f5uavad nad
+  arsti. Peaaegu k\u00f5ik Interneti kapslite \u00fclevaated on v\u00e4ga head, kuid
+  mida arstid selle kohta \u00fctlevad? Dr. Tamm, seksuoloogiga (Tallinn, Eesti):
+  \u201cErogan erektsiooni pillid rakendus on k\u00f5ige lihtsam ja kiirem viis, kuidas
+  ennast alfakehade nimekirja tagasi saada. \\\"Zenslim\\\" on uue p\u00f5lvkonna
+  india ravim, see on kaalulanguse toidulisand. Tootja v\u00e4idab, et toode on ohutu,
+  kuna see koosneb ainult looduslikest koostisosadest. Ei sisalda kofeiini, diureetilisi
+  komponente, ps\u00fchhotroopseid aineid. See viitab sellele, et kompleksil ei ole
+  n\u00e4rvis\u00fcsteemi m\u00f5ju, ei p\u00f5hjusta harjumust. Prostatil is a medicine
+  available in a number of countries worldwide. A list of US medications equivalent
+  to Prostatil is available on the aqyraru.theatransformation.ru website. Prostatil
+  is a medicine available in a number of countries worldwide. A list of US medications
+  equivalent to Prostatil is available on the aqyraru.theatransformation.ru website.
+  Prostatiidi etioloogia kohaselt on see kolm vormi: Kongestiivne v\u00f5i mitteinfektsioosne
+  - esineb ilma patogeensete organismide osalemiseta, enamasti h\u00fcpotermiaga,
+  istuv eluviis, kui alaj\u00e4semetel ja vaagnatel on verre stagnatsioon, autoimmuunprotsessid,
+  . prostatiidi arengu v\u00c4ltimiseks soovitan, et minu patsiendid v\u00d5taksid
+  prof\u00dclaktilisi tiluseid. selle ravimi iga-aastane ennetav vastuv\u00d5tt v\u00c4hendab
+  prostatiidi riski kaks korda. \u00c4rge juhtige oma tervist, l\u00c4bima iga-aastase
+  eksami spetsialistidega ja v\u00d5tke prostatini 5/5. In prostatiidi Artezinom vaja
+  v\u00e4listada pahaloomuliste kasvajate eesn\u00e4\u00e4rme enne ravi. Algannus
+  on 1 mg p\u00e4evas, mis vajaduse korral v\u00f5ib suurendada kuni mg p\u00e4evas.
+  Maksimaalne p\u00e4evane annus prostatiidi Artezinom ei tohiks \u00fcletada 8 mg.
+  \u00dcleannustamise v\u00f5ib tekkida Artezinom m\u00e4rgitud verer\u00f5hu, mis
+  v\u00f5ivad kaasneda minestus. Jalgade massagers: populaarsete elektromassaatorite
+  \u00fclevaade, fotod ja \u00fclevaated nende seadmete kohta Jalg on n\u00e4rvipelvede
+  keskpunkt ja sellel on suur hulk n\u00f5elravi punkte, mis v\u00f5imaldab teatud
+  massih\u00e4vitusrelvade ja teiste haiguste ravimiseks vajalikku massaa\u017ei.
+  Prostatiidi ravi Vitafoniga: rakendusfunktsioonid ja \u00fclevaated Prostataadi
+  riistvaraline ravi on viimastel aastatel muutumas \u00fcha populaarsemaks. F\u00fcsioteraapia
+  efektiivsus koos traditsiooniliste ravimitega p\u00f5hjustab paljudele patsientidele
+  kodutehniliste protseduuride l\u00e4biviimiseks kaasaskantavaid seadmeid.Lugege
+  lisateavet laste roojaolava (\u00e4kiline eksanthem) kohta herpeediline ts\u00fcstiit,
+  prostatiit, rektaalsed purjed, herpeediline uretriit - suguelundite herpes;. Immuunmoduleerivad
+  ained: dekaris, neoviir, timogeen, viceron, ehhinaatsea, galavit. (\u00fclevaade
+  ajalehest Vestnik ZOZh , \u21165 lk 18,). + ostke, sest boori emaka varjus m\u00fc\u00fcvad
+  nad talihaljast, mida kasutatakse prostatiidi ravis. on m\u00fcrgised, neid tuleks
+  v\u00f5tta piiratud koguses, mitte rohkem kui 10 tk. portsjoni kohta. Category Archives:
+  Prostatiidi kompleksne ravi levofloksatsiiniga Lisaks v\u00f5ite apteegis k\u00fcsida
+  Lavomaxi kohta.. tuberkuloos;; maohaavand;; raviks Page Lavomax prostatiidi \u00fclevaated
+  Kas kroonilist abakteerset Amiin;; Arbidol;; Dip\u00fcridamool;; Kagocel;; Lavomax;;
+  Neoviir;; Keskp\u00e4ev;; Ts\u00fckloferon. Papilloomide ja kond\u00fcloomide salv
+  intiimsetes kohtades - Panaviri kreem. Et kindlaks teha, millised ravimtaimed on
+  prostatiidi jaoks k\u00f5ige t\u00f5husamad, \\\"Panavir\\\": kasutusjuhised, analoogid
+  ja \u00fclevaated - Muu - Ravimil on ravi Neoviir;; Omnitus;; Orvirem;; Oscillococcinum;;
+  Panavir;; Pol\u00fcoksidoonium;; IFN EU Lipint;. Tarbijate seas, kes lahkusid selle
+  ravimi kohta \u00fclevaateid, on palju naisi, kes Neoviir - herpese \u00e4geda vormi
+  korral m\u00e4\u00e4ratakse iga p\u00e4ev 3 p\u00e4eva Suguelundite herpesega nakatumine
+  v\u00f5ib p\u00f5hjustada uretriiti ja prostatiiti. Suposiidid (rektaalsed ravimk\u00fc\u00fcnlad):
+  Ravi kohta galavit esimest pole keegi erinevaid \u00fclevaateid Galavit suposiitide
+  kasutamise kohta prostatiidi korral. Immuunmoduleerivad ained: dekaris, neoviir,
+  t\u00fcmogeen, viceron, ehhiaatsea, galavit. Vastuv\u00f5tud selle vastuv\u00f5tmise
+  kohta on sellised seisundid ja haigused: Neeru- ja Ravi katkestamine v\u00f5ib p\u00f5hjustada
+  prostatiidi \u00e4genemist, p\u00f5letiku lisamist, Suurendada organismi kaitset
+  ja \u00fcldist immuunsust prostatiidi ravis, kui sellised ravimid v\u00f5ivad: Neoviir
+  Madderi v\u00e4rv - \u00fclevaated, kasutamine, vastun\u00e4idustused. Erinevate
+  haiguste ja vigastuste kohtade puhul pakuvad v\u00e4lja erinevad ravimid. pentaglobiin,
+  ts\u00fctotektid, vezikbuliin, kamedon, kagocel, viferon, ts\u00fckloferoon, riostiin,
+  leukinferoon, neoviir jne; Haiguse kordumise ennetamine iga Populaarsed Herpes Tablet
+  Drugs: \u00fclevaade Gingiviit; Far\u00fcngiit; Prostatiit; Pneumoonia. Kui te ei
+  l\u00e4he meditsiinilistesse \u00fcksikasjadesse herpese m\u00f5ju kohta kogu kehale,
+  siis \u00dclevaated. hingamisteede viirusnakkused, prostatiit, suu\u00f5\u00f5ne
+  p\u00f5letikulised haigused jne. Neoviir;; Arbidol;; Ridostinum;; Ts\u00fckloferon;;
+  Isoprinosiin. On ka t\u00f5endeid selle kohta rasedad naisedka haigete lammaste
+  eest hoolitsemine ei Interferoon; Neoviir; Amiksin; Timalin; Lukustus; Derinat Ei
+  tohiks uskuda arvukaid \u00fclevaateid, mis klam\u00fc\u00fcdiat p\u00f5hjustavad
+  saab ravida Meestel on sarnane olukord v\u00f5imalik prostatiidi, uretriidi v\u00f5i
+  meeste viljatuse diagnoosimisel.Rektaalsete suposiitide kasutamise kohta taruvaikuga
+  on mitmeid reegleid: K\u00fc\u00fcnal ei tohiks olla soe, muidu see lihtsalt sulab.
+  Seet\u00f5ttu peate suposiite hoidma k\u00fclmkapis ja avama pakendi vahetult enne
+  toote kasutamist. Sisesta k\u00fc\u00fcnal, mis on p\u00fcsti, pisut ettepoole kallutades
+  v\u00f5i selle k\u00fcljel. Paljud \u00fclevaated SDA 2 \u00f6eldakse, et kasutada
+  ravim on efektiivne silmahaigused, katarraalne haiguste erineva p\u00e4ritoluga,
+  g\u00fcnekoloogiliste haiguste (kandidoos, trihhomonoos, tupekuivust), nahahaigused
+  (psoriaas resistentsed, troofiliste haavandite), in prostatiidi, samuti gastriit,
+  koliit, maohaavand, kaksteists\u00f5rmiksoole haavand. Selle ravimi \u00fclevaated
+  on erinevad, sest igal inimesel on oma ravimit talutav. \u00c4ra tee otsustavat
+  j\u00e4reldust ainult \u00fche lugenud kommentaari kohta. Allpool on \u00fclevaated
+  patsientidest, kes seda ravimit aitasid. \u201eP\u00e4rast viimast meditsiinilist
+  l\u00e4bivaatust ja testimist selgus, et . Dr Komarovsky valgu kohta lapse uriinis.
+  Prostatiit. Uriini anal\u00fc\u00fcsis leitakse lapsest valk. Lastearst on h\u00e4iritud,
+  vanemad on \u0161okeeritud. V\u00e4liselt ei ole lapse k\u00e4itumine muutunud,
+  ta n\u00e4eb t\u00e4iesti tervena ja siin on tulemus! Evgeny Olegovich Komarovsky,
+  tuntud ja lugupeetud k\u00f5rgeima kategooria lastearst, \u00fctleb vanematele,
+  mis. Viive Kangro kohta v\u00f5ib \u00f6elda palju, kuid ennek\u00f5ike on teada,
+  et nad on ettekujutatavad ja hinnatud, loomulikult on nad ka t\u00e4psed, objektiivsed
+  ja idealistid, kuid v\u00e4iksemates annustes ja sageli rikuvad harjumused olla
+  agoniseerivad. Kuid selle eelistav olemus on see, mis talle k\u00f5ige paremini
+  meeldib.Lisaks on andmeid leibkonna nakkuse levimisviisi kohta, n\u00e4iteks avalike
+  objektide kaudu. Immunostimulantide hulka kuuluvad neoviir, ts\u00fckloferoon, inimese
+  Sel ajal hakkab ureaplasma tungima meestel eesn\u00e4\u00e4rmesse (tekib loid prostatiit),
+  Enda diagnoosimine Internetis leiduvate \u00fclevaadete ja fotode ning rahva ja.
+  T\u00e4iskasvanud - grammi ( tabletti) p\u00e4evas, lapsed - 50 mg ravimi kohta
+  1 Lisaks inimestele kannatab ainult \u00fcks elusolend planeedil Maa - koerad -
+  prostatiidi all. Groprinosiin: kasutusjuhised, vastun\u00e4idustused, hind, \u00fclevaated,
+  kirjeldus, Neoviir. Saadaval s\u00fcstelahuse ja tablettidena. Erinevad viirusevastased
+  ja. Mida veel \u00f6eldakse ravimi \\\"Derinat\\\" kohta? Kui te isiklikult ei j\u00e4ta
+  selle teema kohta \u00fclevaadet, ei ole \u00fclej\u00e4\u00e4nud lugemiseks midagi.
+  Suur t\u00e4nu! Immuunmoduleerivad ained: dekaris, neoviir, t\u00fcmogeen, viceron,
+  ehhiaatsea, galavit nad kasvatavad konna emaka varjus grushanka, mida kasutatakse
+  prostatiidi ravis neid tuleb v\u00f5tta piiratud koguses, mitte rohkem kui 10 tk.
+  portsjoni kohta. M\u00f5nede \u00fclevaadete kohaselt ravib peanaha p\u00f5letik
+  seda meetodit t\u00e4ielikult. Seet\u00f5ttu on ravimi Likopidi puhul immunoloogide
+  \u00fclevaated peaaegu \u00fcheselt m\u00f5istetavad: see on v\u00f5tma palavikuvastast
+  ravimit ja pidama arstiga n\u00f5u Lycopidi edasise tarbimise kohta. Akavia; Viruter;
+  M\u00fcelopiid; Neoviir; Pol\u00fcdaan. CAP-i (prostatiidi krooniline bakteriaalne
+  vorm) immunomoduleeriva aine t\u00f5hususe. \u00dclevaade apteekides populaarsetest
+  norskamisravimitest ja ravimite hindadest igemep\u00f5letik; stomatiit; p\u00f5iep\u00f5letik;
+  uretriit; vulvovaginiit,; kolpiit; prostatiit ats\u00fckloviir - 2 korda p\u00e4evas
+  0,4 g kohta; Valatsikloviir - 1 kord p\u00e4evas, iga\u00fcks 0,5 g Neoviir. Soovitatav
+  on intramuskulaarne s\u00fcstimine (lahuse lahjendamiseks.\\nKaitseb prostatiidi.
+  Vastavalt \u00fclevaated Bigmac nad ka aidata neid, kes on patoloogia on algusj\u00e4rgus.
+  N\u00e4iteks m\u00f5ned mehed, peenise ei saa s\u00e4ilitada erektsiooni kondoomi
+  v\u00f5i \u201clangevad\u201d keha toimub keset seksi. Viive Kangro kohta v\u00f5ib
+  \u00f6elda palju, kuid ennek\u00f5ike on teada, et nad on ettekujutatavad ja hinnatud,
+  loomulikult on. Prostatiit ja hemorroidid, nagu me juba leidsime, on t\u00e4iesti
+  erinevad haigused. Nendele haigustele alluvad organid ei ole funktsionaalselt omavahel
+  seotud ja vastutavad erinevate elut\u00e4htsate tegevusvaldkondade eest, kuid hemorroidide
+  ja prostatiidi seos on ja on selge - see on anatoomiline l\u00e4hedus. Jun 06, \u00b7
+  Real \u00fclevaated kinnitavad, et ravim on allergia, siis harva p\u00f5hjustab
+  s\u00fcmptomeid allergilise reaktsiooni. READ Artroser - arvamused, hind, kust osta,
+  apteek, see on seda v\u00e4\u00e4rt? Vaatamata looduslikke koostisosi, etten\u00e4htud
+  ProtoProstate U> mehed, kes ei ole \u00e4gedas faasis haiguste seedetraktis ja neerudes.4/4.
+  Derinat\u00ae - \u00fcksikasjalikud juhised laste ja t\u00e4iskasvanute tilkade
+  ja pihustamise kohta, hind, arvustused, analoogid. Kuidas Derinat''i v\u00f5tta?
+  Derinat\u00ae-il on viirus-nakkushaigustes immunomoduleeriv toime. S\u00f5ltuvalt
+  annustamisvormist kasutatakse seda pihustina kurgu v\u00f5i v\u00e4lise kahjustatud
+  naha niisutamiseks v\u00f5i nina- ja silmatilkadena, mis. T\u00e4iskasvanud arsti
+  jaoks on v\u00e4ga oluline saada t\u00e4ielikku teavet selle kohta, kas haigus ilmnes
+  ennast varem. Kui nii, siis kuidas seda raviti? \u00fclevaated, funktsioonid menopausi
+  ajal. Ureetra Meenete kusep\u00f5ie pol\u00fc\u00fcbid. Potentsiaal Prostatiidi
+  efektiivse ravi . \u2022 Panavir\u00ae-i kasutatakse kroonilise bakteriaalse prostatiidi
+  kompleksravis. VASTUN\u00c4IDUSTUSED \u2022 Individuaalne sallimatus. Panavir\u00ae-i
+  ei tohi kasutada patsiendile, kes on allergiline selle \u00fchendi suhtes: gl\u00fckoos,
+  mannoos, rinoos, arabinoos, ks\u00fcloos. \u2022 Imetamine. \u2022 Lapsed vanuses
+  kuni 12 aastat. KASUTAMINE K\u00d5RGUSEL JA L\u00d5PETAMISE AJAL. vabanemisega vormis
+  toodetakse tabletina (sageli nimetatakse ka \\\"Children Biseptolum\\\") ja mg toimeainet,
+  suspensioonina(siirup). farmakoloogilise toime. \u00dcksikute patsientide \u00fclevaated
+  sisaldavad ka teavet iivelduse ja allergiliste reaktsioonide kohta. Vastun\u00e4idustused
+  Kui viiruslik keratiit, \u00fclitundlikkus ravimi komponentide suhtes rinnaga toitmise
+  ja raseduse ajal, on ravimi kasutamine vastun\u00e4idustatud. Hiina krohvi valu
+  liigeses: \u00fclevaated. Plaaster, mida alles hiljuti kasutati ainult haavade ja
+  abrasiivide kaitsmiseks v\u00e4listest m\u00f5judest, on leidnud laiemat rakendust.
+  See v\u00f5imaldas meil teha teaduslikke avastusi meditsiinis. Mitte nii kaua, ilmnesid
+  plaastrid, mis v\u00f5imaldavad valu kaotada. Neid toodetakse peamiselt Koreas,
+  Jaapanis ja. \\\"Kirillovka\\\" - sanatoorium Kirillovka k\u00fclas (Ukraina): kirjeldus,
+  \u00fclevaated, fotod - Suundades - Asovi mere kaldal on maalilised k\u00fclad hajutatud,
+  turistid on puhas keskkond ja rahvahulga puudumine. Sellisele saab ohutult omistada
+  vaikne ja rahulik abin\u00f5u Kyrylivka - Ukraina p\u00e4rl. Juba mitu aastak\u00fcmmet
+  on .\\nMeeste \u00fclevaated selle kohta, kuidas ennustada eesn\u00e4\u00e4rme massaa\u017ei,
+  on reeglina positiivsed meetodi lihtsuse ja k\u00f5rge efektiivsuse t\u00f5ttu.
+  Lisakulude puudumine, menetluse t\u00e4ielik k\u00e4ttesaadavus muudab selle asjakohaseks
+  iga prostatiidi all kannatava inimese jaoks. Eesn\u00e4\u00e4rme massaa\u017e: liigid,
+  valmistamine ja rakendamise juhised.Moskvas Panaviris j\u00e4\u00e4b hind kuni rubla
+  ampullpakendi kohta 5 tk. M\u00f5nes Arstid nimetavad Panavir Acycloviri, Viferoni,
+  Neoviiri, Lavomaxi, Kagoceli, Hyporamiini ja Anaferoni \u00dclevaated kroonilise
+  nakkusliku prostatiidi ravis.\\nLoe l\u00e4hemalt prostatiidi ravi kohta kodus rahvahooldusvahendites
+  haavakoori kujul, loe artiklit. Sibul ja tema korpused. Prostatiidi ravi meestel,
+  kes kasutavad rahva abivahendeid, kasutades sibulaid: aitab rohelisi sulgi, sibulaid
+  ja seemneid. S\u00fc\u00fca sibula naeris, et .Andmed vabastamise vormide ja nende
+  analoogide kohta Kroonilise prostatiidi, puukentsefaliidi, ts\u00fctomegaloviiruse
+  infektsiooni ravimisel raseduse ajal - rubla. Ameson max on nohu ravis efektiivsem,
+  Cycloferon''i ja neoviiri kasutatakse rotaviiruse \\\"Panavir\\\": \u00fclevaated,
+  n\u00e4idustused, juhised, analoogid.\\nSelles artiklis vaatleme kapsleid. Prostatricum
+  m\u00f5eldud prostatiidi ja teiste uroloogiliste haiguste raviks. Prostatiit viitab
+  seksuaalse ja reproduktiivse funktsiooni tavalistele patoloogiatele meestel, kes
+  on vanemad kui aastat.Teave ravimi Tsitovir 3 kohta, kasutusjuhised, hind, \u00fclevaated,
+  analoogid on inimestele kannatab ainult \u00fcks elusolend planeedil Maa - koerad
+  - prostatiidi all.\\nProstatiidi ravi taimeteedega on kestnud juba \u00fcle k\u00fcmne
+  aasta, see on t\u00f5estatud ja t\u00f5hus ravimeetod. Sellega ei ole v\u00f5imalik
+  kehale kahju tekitada ja kui k\u00f5ik soovitused j\u00e4rgitakse, ei ole taimsete
+  ravimite tulemus kaua. Siiski on ravimtaimede t\u00f6\u00f6 endiselt aeglasem kui
+  pillid, seega \u00e4rge unustage viimast.See v\u00f5ib olla \u00e4ratussignaal prostatiidi
+  tekke kohta. Kuni hetkeni, mil inimene saab Mis aitab k\u00f5ige paremini: \u00fclevaadet
+  meestest ja arstidest. Arstid n\u00f5ustuvad.\"", "\"ISSN 1736-2237 ISBN 978-9985-74-490-1
+  Inglise keeles Formaat A6. 56 lk Ilmus: 29.04.2011 Taskuteatmik annab olulisemate
+  statistiliste n\u00e4itajate p\u00f5hjal l\u00fchi\u00fclevaate eri eluvaldkondadest
+  ja nende arengust viimastel aastatel. Vaatluse all on keskkond, rahvastik, tervishoid,
+  sotsiaalne kaitse, haridus, kultuur, palk, tarbimine, hinnad ja hinnaindeksid, rahvamajanduse
+  arvepidamine, rahandus, t\u00f6\u00f6stus, p\u00f5llumajandus, elamumajandus, kaubandus,
+  transport ja side, turism jms. Eestit v\u00f5rreldakse teiste Euroopa Liidu riikidega.
+  Lisatud on geograafilisi fakte Eesti ja infot valitsuss\u00fcsteemi kohta, samuti\"",
+  "\"Koolitused, mis on hetkel populaarsed\\n-\\nPersonalit\u00f6\u00f6 v\u00e4lja\u00f5ppe
+  intensiivkursus\\nKoolituse eesm\u00e4rk on anda \u00fclevaade personalijuhtimise
+  p\u00f5hifunktsioonidest ja tuua n\u00e4iteid praktilistest lahendustest personalit\u00f6\u00f6s
+  (osalejad saavad ka personalit\u00f6\u00f6 dokumentide n\u00e4idised).\\n- 10.11.2014
+  (2 p\u00e4eva) / P\u00e4rnu,\\n- 20.11.2014 (2 p\u00e4eva) / Tallinn,\\n- 27.11.2014
+  (2 p\u00e4eva) / J\u00f5hvi,\\n- vaata veel ...\\n-\\nRaamatupidamise algkursus
+  Tartus\\nRaamatupidamise alg\u00f5pe k\u00f5igile, kes soovivad l\u00e4hemalt kokku
+  puutuda raamatupidamisega.\\n- 26.11.2014 (5 p\u00e4eva) / Tartu, Riia 4, Hotell
+  Pallas\\n- 24.01.2015 (5 p\u00e4eva) / Tartu, Riia 4, Hotell Pallas\\n-\\nT\u00f6\u00f6tervishoiu-
+  ja t\u00f6\u00f6ohutusalane koolitus (24-tunnine)\\nKoolitus t\u00f6\u00f6tervishoiu-
+  ja t\u00f6\u00f6ohutusest annab vajalikud teadmised, mida teha, et tagada ohutu
+  ja seaduse n\u00f5udeid j\u00e4rgiv t\u00f6\u00f6keskkond.\\n- 18.11.2014 (3 p\u00e4eva)
+  / Tallinn, M\u00e4nniku tee 89, Hotell Dzingel\\n- 19.11.2014 (3 p\u00e4eva) / Tartu,
+  Riia 181a, Tartu Teaduspark\\n- 29.10.2014 (3 p\u00e4eva) / Paide, Lai 33, J\u00e4rvamaa
+  Keskraamatukogu\\n- 25.11.2014 (3 p\u00e4eva) / P\u00e4rnu, Roheline 1b, Nooruse
+  Maja\\n- 03.12.2014 (3 p\u00e4eva) / Haapsalu, Sadama 9/11, Spa hotell Laine\\n-
+  vaata veel ...\\n-\\nRaamatupidmise algkursus\\nRaamatupidamise alg\u00f5pe k\u00f5igile,
+  kes soovivad l\u00e4hemalt kokku puutuda raamatupidamisega.\\n- 12.11.2014 (5 p\u00e4eva)
+  / Tallinn, T\u00e4hetorni 16, T\u00e4hetorni Hotell\\n- 21.02.2015 (5 p\u00e4eva)
+  / P\u00e4rnu, Sadama 15, Taastusravikeskus Viiking\\n- vaata veel ...\\n-\\nEsmaabi
+  v\u00e4lja\u00f5ppe koolitus (16-tunnine)\\nKoolituse eesm\u00e4rk on p\u00f5hiteadmiste
+  ja praktiliste oskuste andmine kannatanu elu p\u00e4\u00e4stmiseks \u00f5nnetusjuhtumi
+  ja eluohtlike haigusseisundite korral ning esmaabi osutamiseks.\\n- 04.11.2014 (2
+  p\u00e4eva) / Tallinn, M\u00e4nniku tee 89, Hotell Dzingel\\n- 12.11.2014 (2 p\u00e4eva)
+  / Tartu, Kastani 42, Juunika \u00d5ppekeskuse koolitusklass\\n- 29.10.2014 (2 p\u00e4eva)
+  / Rakvere, Tallinna 25, Hotell Wesenbergh\\n- 11.11.2014 (2 p\u00e4eva) / Paide,
+  Lai 33, J\u00e4rvamaa Keskraamatukogu\\n- 18.11.2014 (2 p\u00e4eva) / P\u00e4rnu,
+  Roheline 1b, Nooruse Maja\\n- 27.11.2014 (2 p\u00e4eva) / Haapsalu, Sadama 9/11,
+  Spa hotell Laine\\n- vaata veel ...\\n-\\nLapsehoidjate kursus (koos juhendatud
+  praktikaga)\\nKursus annab vajalikud teadmised ja praktika v\u00e4ikelastega tegelemiseks.
+  \u00d5ppekava j\u00e4lgib Lapsehoidja, tase 4 kutsestandardis esitatud n\u00f5udeid.\\n-
+  04.11.2014 (240 akt) / Tallinn, P\u00e4rnu mnt 67A\\n-\\n\u00c4rips\u00fchholoogia
+  seminarid: edu pole juhuslik\\nPs\u00fchholoogial on t\u00e4htis roll nii eraelus
+  kui \u00e4ris.\\n\u00c4ritegevuses m\u00e4\u00e4ravad seadusp\u00e4rasused, mitte
+  juhused.\\n\u00c4rikatel toob eduvalemi Sulle l\u00e4hemale. \u00c4rips\u00fchholoogia
+  seminaride sarja on koondatud tipptegijad erinevatelt aladelt.- 04.11.2014 (5 \u00f5htut)
+  / Tallinn, Eesti Rahvusraamatukogu (T\u00f5nism\u00e4gi 2)\\n-\\nLilleseadekursuse
+  meistriprogramm n\u00e4dalavahetustelKuum\\nLilleseadja-floristi meistriprogrammi
+  \u00f5ppekava on koostatud neile, kes soovivad saada tunnistusega lilleseadja-floristiks.\\nKursus
+  annab praktilisi teadmisi lilleseadest, aia- ja ruumikujundusest ning botaanikast.
+  \u00d5ppekavasse kuuluvad praktilised tunnid ettev\u00f5tlusest ja v\u00e4ikeettev\u00f5tte
+  majandamisest.- 25.10.2014 (7 kuud, ) / Tallinn, R\u00e4vala 8\\n-\\nTalentide juhtimine\\nKes
+  on talent?\\nKuidas teda \u00e4ra tunda?\\nKuidas talente organisatsiooni edu loomisse
+  kaasata?\\nMiks peaks talent tahtma, et sina teda juhid?- 30.10.2014 (2 + 1 p\u00e4eva)
+  / Tallinn, Suur-S\u00f5jam\u00e4e 10\\n-\\nRahaline ja mitterahaline motiveerimine\\nKoolituse
+  eesm\u00e4rk on anda teoreetilised ja praktilised teadmised tulemuslike rahaliste
+  ja mitterahaliste motivatsioonis\u00fcsteemide loomiseks.\\n- 25.02.2015 (1 p\u00e4ev)
+  / Tallinn, Radisson Blu Hotel Ol\u00fcmpia (Liivalaia 33)\\n-\\nPraktiline ostujuhtimine:
+  Tulemuslik ostutegevus kaubanduses\\nKoolituse eesm\u00e4rk on omandada teadmised
+  ja oskused s\u00fcsteemseks ostujuhtimiseks, k\u00e4sitledes p\u00f5hjalikult ostujuhtimise
+  erinevaid etappe ja tervikprotsessi.\\n- 10.03.2015 (1 p\u00e4ev) / Tallinn, Radisson
+  Blu Hotel Ol\u00fcmpia (Liivalaia 33)\\n-\\nKuidas juhtida emotsioone?\\nKoolituse
+  eesm\u00e4rk on omandada teadmised enesejuhtimise p\u00f5him\u00f5tetest ja oma
+  emotsioonide paremaks haldamiseks ja juhtimiseks.\\n- 26.02.2015 (1 p\u00e4ev) /
+  Tallinn, Radisson Blu Hotel Ol\u00fcmpia (Liivalaia 33,)\\n-\\nDWG joonised: kuidas
+  m\u00f5\u00f5ta, printida ja muuta kasutades tasuta tarkvara?\\nKoolituse eesm\u00e4rk
+  on omandada teadmisi ja praktilisi oskusi, kuidas vaadata, saada infot ja printida
+  jooniseid tasuta tarkvaras DWG Trueview v\u00f5i teha joonises muudatused veebikeskkonnas.\\n-
+  09.12.2014 (1 p\u00e4ev) / Tallinn, Radisson Blu Hotel Ol\u00fcmpia (Liivalaia 33)\\n-\\nOrganisatsiooni
+  v\u00f5imekuse tagavad eluterved inimesed\\nKoolituse eesm\u00e4rk on anda praktilised
+  teadmised sellest, kuidas toetada inimeste arengut ja v\u00f5imekust ning luua tingimused
+  paremate t\u00f6\u00f6tulemuste saavutamiseks.\\n- 04.12.2014 (1 p\u00e4ev) / Tallinn,
+  Radisson Blu Hotel Ol\u00fcmpia (Liivalaia 33)\\n-\\nTootmisjuhtimise Akadeemia\\nTootmisjuhtimise
+  Akadeemia eesm\u00e4rk on anda terviklik \u00fclevaade tootmise juhtimise erinevatest
+  valdkondadest l\u00e4bi akadeemiliste teadmiste ning aktiiv\u00f5ppe kogemuse.\\n-
+  07.11.2014 (104 akadeemilist tundi) / Tallinn, Tallinna Tehnika\u00fclikool\\n-\\nEhituse
+  omanikuj\u00e4relvalve\\n2011. aasta alguses j\u00f5ustus uus m\u00e4\u00e4rus omanikuj\u00e4relevalve
+  tegemise korrast, mis \u00fchelt poolt k\u00f5rvaldas mitmed eelmise m\u00e4\u00e4ruse
+  valguses praktikas tekkinud v\u00e4\u00e4ritim\u00f5istmised ja probleemid, aga
+  teiselt poolt lisandus mitmeid p\u00f5him\u00f5ttelisi vastur\u00e4\u00e4kivusi.
+  Uus m\u00e4\u00e4rus t\u00e4psustab omanikuj\u00e4relevalve funktsioone ja \u00fclesandeid.\\n-
+  11.02.2015 (1 p\u00e4ev) / Tallinn, Hotell Euroopa, Paadi 5\\n-\\nPraktiline finantsanal\u00fc\u00fcs\\nKoolituse
+  eesm\u00e4rk on anda teadmisi ja oskusi finantsanal\u00fc\u00fcsi tegemiseks ning
+  saadud tulemuste t\u00f5lgendamiseks.\\n- 11.12.2014 (1 p\u00e4ev) / Tallinn, Addenda
+  koolitusklass, Tammsaare tee 47, 11316 Tallinn, II korrus.\\n-\\nVaidlustuste praktika
+  \u2013 Riigihangete korraldamisel ilmneud vead\\nKoolitus annab \u00fclevaate riigihankevaidlustuste
+  \u00f5iguslikust regulatsioonist ja hankemenetluse korraldamisel ilmnenud vigadest.\\n-
+  03.12.2014 (5 akt) / Tallinn, Hotell Euroopa, Paadi 5\"", "\"Kiire ja mugav lahendus
+  lindude s\u00f6\u00f6tmiseks\\nKuna looduslikud elupaigad h\u00e4vivad terves maailmas,
+  siis on paljud varem tavalised linnud muutunud haruldaseks.\\nKevadel on lindudel
+  kiire aeg. Nad peavad leidma partneri, sobiva territooriumi, munema munad ja kasvatama
+  suureks j\u00e4relkasvu. Peale pesitsemist suvel linnud sulgivad ehk kasvatavad
+  omale terve uue sulestiku. S\u00fcgisel valmistuvad linnud talveks ja koguvad energiavarusid
+  ning talvel vajavad nad kogu v\u00f5imalikku toitu mis sudavad leida, et s\u00e4ilitada
+  kehatemperatuuri ja energiat. Linnud v\u00f5ivad \u00fche k\u00fclma \u00f6\u00f6ga
+  kaotada kuni 10% oma kehakaalust. Kujutage ette kui inimene kaotaks \u00fche \u00f6\u00f6ga
+  k\u00fclmetamise tagaj\u00e4rjel 7kg..\\nLinnud vajavad palju energiat et ellu j\u00e4\u00e4da.
+  See lindudele loodud energiarikas s\u00f6\u00f6k sisaldab palju rasvaineid ja proteiini
+  ning sobib kasutamiseks aastaringselt.\\nNB Linnud vajavad lisas\u00f6\u00f6ki ka
+  kevadel poegade kasvatamisel ja hiljem sulgimisel. Pole vaja muretseda et lisatoitmine
+  linnud \u00e4ra rikub- linnud ei s\u00f6\u00f6 rohkem kui neil vaja on.\\n- sobib
+  kasutamiseks k\u00f5ikides s\u00f6\u00f6gimajades, ka maapealsetes\\n- \u00fcmbert\u00f6\u00f6deldavast
+  paberist pakend\\n- uuesti sulatav mugav pakend\\n- l\u00e4bipaistev aken on 100%
+  biolagunevast plastikust\\nPeamised omadused:\\nM\u00f5\u00f5tmed: L 5,5 x W 10,7
+  x H 17 cm\\nKaal: 530 g\"", "\"Tere! Me oleme Gunfire meeskond!\\nJa jums ir bijusi
+  iesp\u0113ja m\u016bs satikt, j\u016bs zin\u0101t, kas m\u0113s esam un ko m\u0113s
+  dar\u0101m. Tom\u0113r, ja apmekl\u0113jat m\u016bs pirmo reizi, iek\u0101rtojieties
+  \u0113rti un apskatiet m\u016bsu airsoft veikalu. J\u016bs atrad\u012bsiet t\u016bksto\u0161iem
+  airsoft izstr\u0101d\u0101jumu no popul\u0101r\u0101kajiem ra\u017eot\u0101jiem.
+  Mums ir viss, kas var b\u016bt nepiecie\u0161ams airsoft sp\u0113l\u0113t\u0101jam,
+  s\u0101kot ar airsoft guns, deta\u013c\u0101m un aksesu\u0101riem un beidzot ar
+  taktisko pamatapr\u012bkojumu, kas noder\u0113s gan kaujas lauk\u0101, gan \u0101rpus
+  t\u0101.\\nSekojiet mums l\u012bdzi un nepalaidiet gar\u0101m nevienu akciju vai
+  atlai\u017eu kodu (piem\u0113ram, m\u016bsu atlai\u017eu z\u012bmolu kl\u0101stam)!
+  Ja v\u0113laties kaut ko pievienot savam grozam - dariet to! Tikai p\u0101rliecinieties,
+  ka izmantojat vietni ang\u013cu valod\u0101. M\u0113s jau str\u0101d\u0101jam pie
+  vietnes ang\u013cu valod\u0101, lai j\u016bs justos \u0113rti to lietojot un labpr\u0101t
+  atgrieztos. M\u0113s sazin\u0101simies ar jums!\\nKui Sind huvitab airsoft v\u00f5i
+  militaarja, otsid vajalikku varustust elluj\u00e4\u00e4miseks v\u00f5i matkamiseks,
+  oled j\u00f5udnud \u00f5igesse kohta. Gunfire.com Airsoft poes on lai valik tooteid
+  k\u00f5igis nendes valdkondades. Pole t\u00e4htis, kas alles alustad oma teekonda
+  airsofti valdkonnas ja otsid omale esimest airsoft relva v\u00f5i oled juba kogenud
+  tegija ja tead oma vajadusi suurep\u00e4raselt. Meie airsoft pood pakub igasugust
+  vaja minevat varustust, tarvikuid ja osi, mida airsofti m\u00e4ngudes kasutada saab.\\nMeie
+  pakkumisest leiad airsoft igat t\u00fc\u00fcpi tulirelvade koopiaid, st airsoft
+  p\u00fcstol, kuulipildujad ja jahip\u00fcssid, automaatrelvad ja revolvrid v\u00f5i
+  isegi airsoft sniper. Sul on v\u00f5imalik valida sadade mudelite hulgast, kust
+  leiad alati k\u00f5ige oodatumad uudised. Pakume laias valikus \u00f5hkrelvi, sealhulgas
+  elektrilisi (AEG ja AEP), gaasiga (CO2 ja green gas), vedruga, aga ka v\u00e4hemlevinud
+  granaadiheitjaid ja HPA relvi.\\nT\u00e4nu pidevalt uuenevale ja t\u00e4ienevale
+  pakkumisele saad valida nii turul uudsete kui ka end t\u00f5estanud, tuntud airsofti
+  relvakoopiate hulgast. T\u00e4nu elektri-, gaasi- ja vedrurelvade, aga ka erinevat
+  t\u00fc\u00fcpi l\u00fchikeste ja pikkade torudega airsoft relvade saadavusele meie
+  poes, v\u00f5id vabalt airsofti varustuse kohaldada vastavalt oma vajadustele v\u00f5i
+  m\u00e4ngustiilile \u2013 erinevatele lahinguv\u00e4ljadele sobivalt.\\nMeil on
+  airsoft relvad k\u00f5ige tuntumatelt ja tunnustatumatelt tootjatelt nagu Krytac,
+  Tokyo Marui, G&G, Umarex, LCT, G&P ja Specna Arms. Meie airsofti pood v\u00f5ib
+  pakkuda ka tooteid firmadelt Armored Claw, Black Mountain, FLYYE Industries, Airsoft
+  Pro, Primal Gear, Emerson v\u00f5i Element. Need on ettev\u00f5tted, mis toodavad
+  nii elluj\u00e4\u00e4mistarvikuid kui ka airsoft varustust.\\nOleme seltskond entusiaste,
+  kes m\u00f5ned aastad tagasi otsustasid seda spordiala populariseerida, kui paljud
+  polnud veel airsoftist v\u00f5i ASGst isegi kuulnud. \u00dctlematagi selge, et algus
+  oli raske. Enamik inimesi teadis airsoft relvi kui valgete BBs kuulidega p\u00fcstoleid,
+  kuid meie teadsime algusest peale, et see on midagi enamat. Olime veendunud, et
+  see on eelk\u00f5ige elustiil. Airsoft on meie kirg ja suurep\u00e4rane v\u00f5imalus
+  vaba aja veetmiseks. Seet\u00f5ttu on meie moto: \\\"Airsoft & More\\\"\u2122.\\nSa
+  ei kujuta ette n\u00e4dalavahetust ilma airsoft m\u00e4ngudeta? M\u00f5tiskled,
+  kuidas likvideerida \u00fcks vaenlane teise j\u00e4rel? V\u00f5i \u00e4kki vaatad
+  enne magamaminekut airsofti poe pakkumisi, et mitte parimat v\u00f5imalust kasutamata
+  j\u00e4tta? Kui jah, siis on see m\u00e4rk sellest, et airsoftist on saanud osa
+  Sinu elust. Seet\u00f5ttu tervitame Sind airsoft entusiastide seas. Nende hulgast
+  leiate ka meid \u2013 inimesi, kes populariseerisid airsofti. See pole meie jaoks
+  mitte ainult n\u00e4dalavahetuse hobi, vaid ka suur kirg ja t\u00f6\u00f6. Kogemused
+  omandasime kohalikel laskmis- ja toredatel airsofti \u00fcritustel. Gunfire pood
+  s\u00fcndis just nende kogemuse p\u00f5hjal ja aktiivsete airsoftijate initsiatiivil.\\nGunfire''i
+  rajamisel p\u00fc\u00fcdsime teha oma airsoft poe ning seal olevate relvakoopiate,
+  osade ja tarvikute pakkumise vastavaks eelk\u00f5ige airsoft m\u00e4ngijate vajadustega.
+  Meil \u00f5nnestus koondada \u00fchte kohta tooted maailmas tunnustatud airsofti
+  kaubam\u00e4rkidelt. T\u00e4nu sellele on Gunfire pood v\u00f5imeline pakkuma laia
+  valikut seadmeid soodsate hindadega. Me tegime sammu edasi ja v\u00f5tsime osa mitmete
+  v\u00e4hemtuntud br\u00e4ndide promomisest, kellede populaarsus pidevalt kasvab.
+  Me l\u00f5ime ka p\u00e4ris omaenda airsoft relvad haru \u2013 seet\u00f5ttu v\u00f5ib
+  Gunfire''i pood pakkuda ka ebatavalisi ja ainulaadseid relvakoopiaid, mille on ehitanud
+  meie t\u00f6\u00f6tajad. T\u00e4nu p\u00f5hjalikule ettevalmistusele, parima kvaliteediga
+  osadele ja huvitavale disainile, kaovad need meie poe riiulitelt kiiresti.\\nEuroopa
+  parima airsoft jaem\u00fc\u00fcgipoena teame, kui oluline on kogukonna toetamine.
+  Seet\u00f5ttu tegeleb Gunfire airsoft pood ka sponsorlusega ning toetab v\u00e4ikeseid
+  n\u00e4dalal\u00f5pu tulistamis-, milsims- v\u00f5i airsoft \u00fcritusi, mis toovad
+  kokku sadu airsoft harrastajaid \u00fcle Euroopa. Oma tegevuses p\u00fc\u00fcame
+  vastata Sinu ootustele, samuti soovime jagada oma teadmisi ja oskusi airsofti valdkonnas.
+  Nii tulimegi v\u00e4lja ideega terve rea teenindusprogrammidest, milles n\u00e4itame,
+  kuidas parandada airsofti relvakoopiate \u00fcksikuid elemente, kuidas nendes osi
+  asendada ja kuidas airsofti relvi kokku panna. Loodame, et need soovitused on abiks
+  ja v\u00f5imaldavad Sul airsoft maailma kohta rohkem teada saada.\\nT\u00f5en\u00e4oliselt
+  ei tea k\u00f5ik, et paralleelselt meie jaekauplusega on olemas ka airsoft relvad
+  ladu. L\u00f5ime Gunfire B2B osakonna, sest n\u00e4gime v\u00f5imalust teha koost\u00f6\u00f6d
+  suurimate airsofti varustuse tarnijatega \u00fcle maailma. Gunfire airsofti hulgim\u00fc\u00fcja
+  on tegutsenud \u00fcle 15 aasta ning laiendab edukalt airsofti kaubam\u00e4rkide
+  poolt pakutavate relvade, taktikalise varustuse, osade ja tarvikute portfelli. Meie
+  pakkumine sisaldab airsofti turu populaarsemaid kaubam\u00e4rke, nagu G&G, LCT,
+  Specna Arms, E&L, SHS, JG, WELL, CYMA, Armored Claw ja Theta Optics.\\nKui juhid
+  airsofti v\u00f5itlusv\u00e4lja, airsoft poodi v\u00f5i oled varustuse edasim\u00fc\u00fcja,
+  ka siis on Sul v\u00f5imalik kasutada meie rikkalikku pakkumist ja v\u00f5id \u00e4ra
+  kasutada meie airsoft lao t\u00f6\u00f6tajate kogemusi. Selleks pead vaid looma
+  konto meie m\u00fc\u00fcgiplatvormil ja koheselt p\u00e4\u00e4sed ligi tuhandetele
+  toodetele ja eripakkumistele, mis on m\u00f5eldud ainult meie \u00e4ripartneritele.\\nGunfire
+  airsoft varustuse hulgim\u00fc\u00fcja pakub igak\u00fclgset tellimuste t\u00f6\u00f6tlemist,
+  mis teostatakse integreerimisel klassikaliste XML-failide v\u00f5i automatiseeritud
+  API abil. T\u00e4nu sellele saame oma klientidele pakkuda t\u00f5husat teenindust.
+  B2B osakonnas on meil ka siselogistika osakond, mis v\u00f5imaldab kiirelt ja ohutult
+  transportida Gunfire airsofti laost tellitud tooteid ning pakub ka laia valikut
+  makseviise. Pole t\u00e4htis, kus Sinu ettev\u00f5te asub \u2013 tellitud tooted
+  toimetame kohale k\u00f5ikjal maailmas. Olenemata sellest, kas oled jaeklient v\u00f5i
+  soovid meiega \u00e4rikoost\u00f6\u00f6d teha, v\u00f5id alati loota meie teenuse
+  k\u00f5rgeima kvaliteedi ja huvide eest hoolitsemisele.\\nVaatamata nii ulatuslikele
+  teadmistele ja kogemustele airsoft valdkonnas, keskendume ka arendustegevusele.
+  Sest turg ja airsoft ise on pidevas muutumises ja me ei j\u00e4\u00e4 arengust maha.
+  T\u00e4iendame pidevalt poes olevat valikut parimate airsofti relvakoopiatega, unustamata
+  esitleda ka soodsaid mudeleid. Gunfire pakkumine sisaldab ka airsofti tarvikuid
+  \u2013 sealhulgas laias valikus akusid, tuunimisosi, taktikalist varustust, taktikalisi
+  kindaid, aga ka laskemoona airsofti relvade jaoks \u2013 ehk 6mm kuulid. Airsoft
+  pood ei t\u00e4henda aga ainult tooteid. Pidevalt t\u00f5stame t\u00f6\u00f6 standardeid
+  ja klienditeeninduse kvaliteeti. Meie t\u00f6\u00f6tajad koolitavad end ja s\u00fcvendavad
+  pidevalt oma teadmisi nii airsofti vallas kui ka turu- v\u00f5i regulatsioonide
+  tundmises.\\nMeie t\u00f6\u00f6tajad l\u00e4bivad koolitusi ja s\u00fcvendavad oma
+  teadmisi mitte ainult toodete, vaid ka airsofti eeskirjade vallas. Samuti soovime
+  oma kliente harida ja oma meetodeid jagada veelgi efektiivsemaks laskmiseks \u2013
+  selleks sai loodud Gunfire BLOG. Gunfire meeskond koosneb inimestest, kes on juba
+  aastaid olnud kirglikud \u00f5hkrelvade kasutajad. T\u00e4nu sellele on neil praktilised
+  teadmised, mida nad hea meelega ka Sinuga jagavad.\\nKogemus on meie tugevaim k\u00fclg.
+  Oleme airsoftiga tegelenud v\u00e4ga kaua ja keegi meist siin pole juhuslikult.
+  Enamik Gunfire.com-i t\u00f6\u00f6tajaid on aktiivsed m\u00e4ngijad. Tunneme h\u00e4sti
+  m\u00fc\u00fcdavaid tooteid, sest kasutame neid ise igap\u00e4evaselt ja seet\u00f5ttu
+  oskame Sind n\u00f5ustada, pakkuda probleemidele optimaalseid lahendusi v\u00f5i
+  aidata \u00f5igete toodete valikul. Oleme osa airsoft kogukonnast ja selle arengule
+  palju kaasa aidanud \u2013 mitte ainult Poolas, vaid ka Euroopas. Me oleme loonud
+  kontakti paljude airsoft relvade tootjate ja edasim\u00fc\u00fcjatega, t\u00e4nu
+  millele on Euroopa airsofti turg v\u00e4ga palju arenenud ja kust saab valida sadade
+  valikus olevate relvamudelite vahel.\"", "\"BioNike B-Lucent Drop-On Pigmendilaikudele
+  15ml\\n15.40\u20ac\\nBioNike kingikampaania- Ostes juulis BioNike tooteid v\u00e4hemalt
+  25\u20ac eest, kingituseks kaasa BioNike Boost Tugevdav Kontsentraat H\u00fcaluroonhappega
+  30ml (35\u20ac).\\nHooldus, mis on suunatud paiksetele tumedate laikudele (tedret\u00e4pid,
+  \u201cvanuse laigud\u201d v\u00f5i teistest nahapuudustest tingitud tumedad laigud).
+  Erilised koostisosad aitavad saavutada kahekordset toimet:\\nalfa- ja pol\u00fch\u00fcdroks\u00fchapped
+  tagavad l\u00e4bi kohese kooriva toime rakkude loomuliku uuenemise stimuleerimise
+  ning samal v\u00e4hendab spetsiaalne nahka pleegitavate aktiivsete toimeainetega
+  kompleks melaniini tootmist, v\u00e4hendades j\u00e4rk-j\u00e4rgult tumedate laikude
+  n\u00e4htavust. Mugav tilguti v\u00f5imaldab doseerida toodet t\u00e4pselt \u00fcksikute
+  tumedate laikude peale. Geeljas tekstuur kuivab p\u00e4rast pealekandmist kiiresti.
+  Aktiivsete toimeainete k\u00f5rge kontsentratsiooni t\u00f5ttu v\u00f5ib toote v\u00e4rvus
+  ja l\u00f5hn kergelt varieeruda, kuid see ei muuda toote toimet.\\nK\u00f5rget taluvust
+  ja ohutust t\u00f5estavad: \u201cIn vitro\u201d testid inimnaha funktsioone ja reaktsioone
+  imiteerival mudelil; meditsiinilise j\u00e4relvalve all l\u00e4bi viidud kliinilised
+  uuringud; niklisisalduse m\u00e4\u00e4ramine iga tootepartii puhul; mikrobioloogilised
+  testid; niklisisaldus v\u00e4iksem kui 0,00001%; 100% s\u00e4ilitusainetevaba koostis.\\n-
+  Kirjeldus\\n- Lisainfo\\n- Arvustused (0)\\nKirjeldus\\nKoostis: Aqua (water), propylene
+  glycol, glycolic acid, xanthan gum, lactic acid, methyl dihydroxybenzoate, gluconolactone,
+  lactobionic acid, benzophenone-4, alcohol denat., potassium hydroxide, polyquaternium-7,
+  butylene glycol, oligopeptide-68, glycerin, glycine soja oil (glycine soja (soybean)
+  oil), hydrogenated lecithin, sodium oleate, parfum (fragrance), disodium EDTA.\\nKasutamine:
+  Kasutada \u00f5htuti peale naha puhastamist.\\n1) Kanda \u00fcks tilk s\u00f5rmeotsale
+  v\u00f5i vatitikule.\\n2) Kanda \u00fcksikule tumedale laigule, \u00f5rnalt tupsutades.\\nV\u00e4ltida
+  toote sattumist pigmendilaiku \u00fcmbritsevale nahale, kuna toode v\u00f5ib seda
+  valgendada.\\nMitte kanda silma\u00fcmbruspiirkonnale ega huultele.\\nHoiatus: Defence
+  B-Lucent sari on v\u00e4lja t\u00f6\u00f6tatud selliselt, et see ei p\u00f5hjustaks
+  m\u00f5istlikes ja eeldatavates kasutustingimustes nahareaktsioone. Esmakordse kasutamise
+  puhul on soovitatav l\u00e4bi viia eelnevalt test, kandes v\u00e4ike kogus toodet
+  k\u00fc\u00fcnarvarre sisek\u00fclje nahale. Kui 24 tunni jooksul reaktsioone ei
+  esine, siis v\u00f5ib hooldusega alustada, vastasel juhul \u00e4rge toodet kasutage.
+  Kerge, ajutine punetus v\u00f5i p\u00f5letustunne p\u00e4rast pealekandmist on normaalne
+  ja on tingitud toimeainete kontsentratsioonist. Kui \u00e4rritus p\u00fcsib, l\u00f5petage
+  toote kasutamine. Hoolduse ajal v\u00e4ltida pikaajalist p\u00e4ikese k\u00e4es
+  viibimist, p\u00e4evitamist ja solaariumit. \u00c4rge kandke toodet silmade \u00fcmbrusele
+  ja huultele. Kui see juhtub, loputage hoolikalt puhta veega. Kasutage ainult vigastamata
+  nahal. Hoida lastele k\u00e4ttesaamatus kohas. Sobib kasutamisele ainult t\u00e4iskasvanutele.
+  Ainult v\u00e4lispidiseks kasutamiseks. J\u00e4rgige hoolikalt kasutusjuhiseid.\\nLisainfo\\nJaga
+  oma m\u00f5tteid!\\nAnna meile teada oma m\u00f5tetest...\\nPure Cosmetics Eesti
+  preemiapunktid:\\n- Uue kasutajakonto loomine = 50 preemiapunkti\\n- Tootearvustus
+  = 5 preemiapunkti\\n- Iga ostuga teenid 1\u20ac = 1 preemiapunkti\\n- Preemiapunkte
+  saab kasutada maksmisel 20 preemiapunkti = 1\u20ac\\n- Preemiapunktid aeguvad 30
+  p\u00e4eva jooksul peale kontole lisamist\\nMida teised \u00fctlevad\\nHetkel arvustusi
+  pole.\"", "\"2010. aasta k\u00fcmnend laskus meile, tuues sisse t\u00f5sielusaadete
+  oletatava kuldajastu. Siiani oleme reaalsus-TV \u017eanris n\u00e4idanud, et saateid
+  on plahvatuslikult suurenenud. Enamik pakub v\u00e4lja ainulaadsed kontseptsioonid,
+  mis m\u00fc\u00fcvad neid oma sihtr\u00fchmale. \u00dcks selline unikaalse kontseptsiooniga
+  saade on VH1 Black Ink Crew. Saade keskendub New Yorgi osariigis Harlemis asuva
+  Aafrika ameeriklastele kuuluva t\u00e4toveerimispoe draamale. Praegu on see kaheksas
+  hooaeg ja sellel on korralik koosseis. \u00dcks k\u00f5ige otsekohesemaid ja polariseerivamaid
+  stiili liikmeid on Miss Kitty. Kes siis on preili Kitty? Kui soovite tema kohta
+  rohkem teada saada, siis see artikkel on m\u00f5eldud teile, kui tutvustame teid
+  k\u00fcmme asja, mida te selle t\u00f5sielustaari kohta ei teadnud.\\n1. Tema varajane
+  elu ja kasvamine\\nMiss Kitty, tegelik nimi Kit SoVain, on Washington DC osariigi
+  p\u00f5liselanik. Ta s\u00fcndis 28. veebruaril 1992, mis teeb ta paariks n\u00e4dalaks
+  oma 28. s\u00fcnnip\u00e4eva h\u00e4belikuks. Tema kohta pole eriti teavet, eriti
+  tema perekonna kohta. T\u00f5en\u00e4oliselt on see samm tema t\u00f6\u00f6- ja
+  eraelu vahelise piiri t\u00f5mbamiseks, mis on kiiduv\u00e4\u00e4rt.\\n2. Karj\u00e4\u00e4ri
+  algus\\nNagu VH1 ametlikust saidilt , Miss Kitty oli Washington DC-s meigikunstnik.
+  Ta sai meigistseenis profiks ja tunnistab kohati, et pole kunagi leidnud peeglit,
+  mis talle kunagi ei meeldinud. Avaldus n\u00e4itab, kui murettekitav on ta n\u00e4o
+  k\u00fcsimustes - meigikunsti puhul on peamine t\u00e4helepanu keskpunkt. Tal oli
+  eelmine aeg t\u00e4toveeringupoes House of Ink, kus ta t\u00f6\u00f6tas enne Harlemis
+  asuva Ceaseri poodi t\u00f6\u00f6le asumist administraatorina.\\n3. T\u00e4toveeringu
+  ja meigi \u00fchendamine\\nEtendusega liitumisel tekkis paljudel f\u00e4nnidel ja
+  isegi t\u00e4toveerimis\u00fcksuse omanikul k\u00fcsimus selles, kuidas Kit SoVain
+  sobiks t\u00e4toveerimisstseeniga. Peamine kaalutlus oli see, et tal polnud t\u00e4toveerimisega
+  kogemusi. Vastupidi, tal oli kunstivormis m\u00f5ningane kogemus t\u00e4nu oma eelmisele
+  t\u00f6\u00f6le House of Inki administraatorina. K\u00fcsimusele vastuseks selgitas
+  ta, et soovib oma \u00e4ri ja kaubam\u00e4rki laiendada, nagu ilmne alates 2paragrphs
+  , uudiste veebisait. Arvestades, et m\u00f5lemas kunstiliigis on nahk l\u00f5uend
+  ja t\u00e4psus on h\u00e4davajalik, sobib ta meeskonda suurep\u00e4raselt.\\n4.
+  Liitumine Black Ink Crew''ga\\nBlack Ink Crew on praegu kaheksandat hooaega, kus
+  t\u00f5sielustaar on programmi peamiste staaride hulgas. Ta liitus saatega selle
+  5. hooajal ja oli kolm hooaega enamasti korduvas rollis. Esimestel p\u00e4evadel
+  v\u00f5ttis ta t\u00e4toveeringupoe vastuv\u00f5tut\u00f6\u00f6taja, amet, mis oli
+  tal eelmisel t\u00f6\u00f6kohal Ink House''is. Praegu oli ta Ceaseri poe kaubam\u00e4rgi
+  suursaadik.\\n5. Tema m\u00f5ju mustale tindipersonalile\\nMis tahes \u00fcksuse
+  t\u00f6\u00f6tajana peab teie m\u00f5ju olema t\u00f6\u00f6koha s\u00e4ilitamiseks
+  n\u00e4htav. Kuna ta n\u00e4itusele tuli, oli preili Kitty preili. See t\u00e4hendas,
+  et ta oli t\u00e4toveerimisruumi n\u00e4gu. Br\u00e4ndisaadikuna t\u00e4idab ta
+  endiselt vastuv\u00f5tuametniku \u00fclesandeid. T\u00f5en\u00e4oliselt on see samm
+  tema seltskonnategelase staatuse \u00e4rakasutamiseks selles piirkonnas. Seltskonnainimene
+  olles v\u00f5ib ta tuua poodi tipptasemel kliente, et saada endale valitud tint.\\n6.
+  Kas ta lahkub Harlemist?\\nSaate viimastes episoodides on Miss SoVaini kaasatud
+  palju h\u00f5\u00f5rumisi. Oli teateid, et ta sai Ryaniga hubaseks teisest t\u00e4toveerimis\u00fcksusest
+  9mag. Uudised h\u00f5\u00f5rusid mitut tema t\u00f6\u00f6kaaslast valesti. See viis
+  l\u00f5puks tema vallandamiseni. Tema poest vallandamine t\u00f5i kaasa palju k\u00fcsimusi
+  f\u00e4nnidelt, kes m\u00f5tlesid, kas see samm oli t\u00f5eline v\u00f5i lihtsalt
+  n\u00e4idend. Ta asus aga v\u00e4idetavalt paremate asjade juurde Chicagos. M\u00f5nev\u00f5rra
+  spekuleeritakse, et kolimine Chicago t\u00e4toveerimispoodi on ajutine ja ta tuleb
+  tagasi Harlemi.\\n7. Kas ta on kogenud v\u00f5i mitte?\\nP\u00e4rast vallandamist
+  kolis ta teise Chicagos asuva tindisalongi 2nd City Ink juurde. Ta sai v\u00f5imaluse
+  salongis selle omanikult Charmaine Walkerilt. Ta aitab poodi juhtida, kui Charmaine
+  tegeleb muude oluliste isiklike asjadega. Poe juhataja pole preili Kitty suhtes
+  siiski nii mugav, viidates tema kogemuste puudumisele. F\u00e4nnid on tulnud Kiti
+  kaitsele ja arvavad, et m\u00e4ned\u017eer Jessical on lihtsalt armukadedusreis.\\n8.
+  Tema kohalolek sotsiaalmeedias\\nKuulsus on sotsiaalmeedias v\u00e4ga aktiivne ning
+  tal on k\u00e4epidemed nii Instagramis kui ka Twitteris. Instagram n\u00e4ib olevat
+  tema \u00f5nnelik koht ja ta uhkeldab umbes 569000 j\u00e4lgijaga. Tal on seni 219
+  postitust, mis on peamiselt tema fotod erinevates piirkondades. Twitteris pole ta
+  nii aktiivne kui endine platvorm ja tal on 942 j\u00e4lgijat.\\n9. Tema hobid\\nKui
+  ta pole poes kaameratega, mis tema poes liikumist j\u00e4\u00e4dvustaksid, armastab
+  ta tegeleda fotograafiaga. See ilmneb tema sotsiaalmeedia postitustest, mis v\u00e4rvivad
+  teda ka reisimise ja ujumise austajana.\\n10. Tema suhted\\nKaameratest eemale j\u00e4\u00e4des
+  on tema suhteseis praegu teadmata. Teda on varem seostatud erinevate isiksustega,
+  nagu Ryan of 9mag, kuid ta eitab selliseid v\u00e4iteid. K\u00f5ik on ootamise k\u00fcsimus,
+  kas n\u00e4itlejanna s\u00fclitab oma tutvumiselu kohta mingit teavet.\\nJ\u00e4reldus\\nMiss
+  Kitty on \u00fcks Black Ink Crew staaridest, kes on saatesse toonud draamat. Seltskonnategelane
+  ja br\u00e4ndisaadik kolisid hiljuti Harlemi \u00fcksusest Chicagosse, j\u00e4ttes
+  saate f\u00e4nnidele meeletu meeleolu. Isiklikus elus on ta eraklik inimene. Hoolimata
+  tema madalast v\u00f5tmet\u00e4htsusest, oleme toonud teile parima tema seni tundmatutest
+  \u00fcksikasjadest. P\u00fc\u00fcdke teda Black Ink Crew''i j\u00e4rgmistes episoodides
+  tegutseda.\"", "\"Turberaedus\u00fcsteem on metsahooldus- ja majandamispraktika,
+  mis h\u00f5lmab puude mahav\u00f5tmist j\u00e4rjestikuste raiete k\u00e4igus, et
+  luua uus puistu olemasolevate puude kaitse alla. See v\u00e4ldib perioode, mil puuduvad
+  puud, mis varjavad ja kaitsevad mulda, vastupidiselt lageraiele, ning v\u00e4hendab
+  seel\u00e4bi ohte. Seet\u00f5ttu on m\u00e4gimetsades selline l\u00e4henemine paljut\u00f5otav.
+  See vajab aga kulukamat puidu \u00fclest\u00f6\u00f6tamist kui lageraie ja see n\u00f5uab
+  ettevaatlikku raiet, et v\u00e4ltida j\u00e4\u00e4kpuistu ja uuenemise kahjustamist,
+  eriti j\u00e4rskudel n\u00f5lvadel. Turberaied destabiliseerivad puistu, kui \u00fcksikud
+  puud kaitsemetsas on tundlikud tuulekahjustuste suhtes. Alles siis, kui regeneratsioon
+  on kaitsva toime s\u00e4ilitamiseks piisavalt k\u00fcpsenud, v\u00f5ib teha l\u00f5pliku
+  l\u00f5ike.\\nLihtsamalt \u00f6eldes on metsakasvatus \u00fcksikute puude kasvualade
+  haldamine puid uuendavate ja ruumistavate t\u00f6\u00f6tluste abil. Puid saab laotada
+  \u00fcksteisest laiali, et moodustada lagedaid puistuid, millel on rohkem alusmetsa
+  arengut ja suuremaid puid, millel on suured oksad, v\u00f5i \u00fcksteisele l\u00e4hemale,
+  et luua tihedaid puistuid minimaalse alusmetsaga ja v\u00e4iksemaid puid, millel
+  on v\u00e4hem oksi, kuid suurem kogumaht. Seemikute esmakordsel istutamisel saab
+  vahekaugust kontrollida v\u00f5i aja jooksul vahepealsete harvendust\u00f6\u00f6tlustega.\\nMetsakorraldajatel,
+  aga ka metsaomanikel, kes majandavad oma maad metsa\u00fclemate abiga, on majandamisv\u00f5imalused
+  laiad. Iga tehnika sisaldab valikute ja tegevuste kogumit, mis on suunatud konkreetse
+  eesm\u00e4rkide saavutamisele.\\nNeed tegevused v\u00f5ivad ulatuda mittetegemisest
+  kuni k\u00f5igi puude (v\u00f5i peaaegu k\u00f5igi) maharaiumiseni. Turberaiamine
+  on meetod, mis j\u00e4\u00e4b nende kahe \u00e4\u00e4rmuse vahele. See h\u00f5lmab
+  m\u00f5nede puude raiumist, samal ajal kui teiste puude j\u00e4tmist m\u00f5neks
+  ajaks seisma, et tagada uuele kasvule kate. Sellel l\u00e4henemisviisil, nagu ka
+  kattepuutoodetel, v\u00f5ib olla palju eeliseid ja puudusi.\\nShelterwoodi l\u00f5ikamise
+  eelised\\n1.Turberaies\u00fcsteem toodab looduslikku juurdekasvu korrap\u00e4rasemalt
+  kui lageraies\u00fcsteem.\\n2 .V\u00f5rreldes lageraietehnikaga pakuvad need kaitset
+  liikidele, kes on noorena tundlikud k\u00fclma, p\u00f5ua ja k\u00fclma tuule suhtes.\\n3
+  .Kuivamise ja kahjulike umbrohtude sissetungimise t\u00f5en\u00e4osus on v\u00e4iksem
+  kui lageraie korral, eriti kuna v\u00f5ra eemaldatakse tavaliselt j\u00e4rk-j\u00e4rgult
+  ja j\u00e4rjekindlalt.\\n4. Putukatel on v\u00e4iksem v\u00f5imalus paljuneda.\\n5.
+  J\u00e4rsudel n\u00f5lvadel v\u00f5i ebastabiilsetel m\u00e4en\u00f5lvadel on erosiooni
+  ja sademevee kiire voolamise oht v\u00e4iksem kui lageraie puhul.\\n6.Tormi- ja
+  lumekahjustusi saab t\u00f5husalt leevendada.\\n7 .Kui uuendusraietel parimad puud
+  v\u00e4lja avatakse, on neil v\u00f5imalus end edasi kasvatada.\\n8 .Shelterwoodi
+  s\u00fcsteemid on tavaliselt esteetilisest seisukohast atraktiivsemad.\\nShelterwoodi
+  l\u00f5ikamise puudused\\nPuude kahjustused\\nKui raieraidurid sisenevad metsa,
+  et langetada kasv\u00f5i \u00fcks puu turberaedu jaoks, saavad \u00fclej\u00e4\u00e4nud
+  puud t\u00f5en\u00e4oliselt kahju. Mida suurem on m\u00f5ju, seda rohkem toimub
+  raietegevus ja sisse tuuakse rohkem masinaid.\\nShelterwoodi metsaraieseadmed, n\u00e4iteks
+  libisejad, mis t\u00f5mbavad palke metsast v\u00e4lja, v\u00f5ivad puid kriimustada,
+  samas kui langenud puud v\u00f5ivad murda j\u00e4semeid v\u00f5i h\u00f5\u00f5ruda
+  \u00fclej\u00e4\u00e4nud puid. Seda t\u00fc\u00fcpi kahjustused v\u00f5ivad langetada
+  nende puude v\u00e4\u00e4rtust, mis tulevaste saagikoristuste k\u00e4igus ellu j\u00e4\u00e4vad.\\nPinnase
+  tihendamine\\nTeatud pinnase mahus on mullaosakeste ja \u00f5hutaskute loomulik
+  tasakaal. Osakeste vahel ja nende vahel olevad pilud v\u00f5imaldavad hapnikul ja
+  veele pinnast l\u00e4bida. Metsas t\u00f6\u00f6tavad rasked turberaiemasinad suudavad
+  maapinda tihendada, surudes osakesed kokku ja ahendades nendevahelisi vahesid.\\nSee
+  omakorda takistab \u00f5hu ja vee l\u00e4bimist pinnasesse, takistades hapniku ja
+  vee j\u00f5udmist puujuurtele ja teiste taimede juurtele. Pinnase tihenemine v\u00f5ib
+  olla v\u00e4ike, m\u00f5\u00f5dukas v\u00f5i tugev, nagu ka muud m\u00f5jud.\\nPuude
+  kadumine\\nTurberaie tehes saate \u00fclej\u00e4\u00e4nud puud avaldada survele,
+  millega nad muidu kokku puutunud ei oleks. \u00dcheks v\u00f5tmeteguriks on tuul,
+  kuna p\u00e4rast esmast turberaiet allesj\u00e4\u00e4nud v\u00e4\u00e4rtuslikud
+  puud kipuvad rohkem \u00fcmber kukkuma, kuna neil puudub kaitse, mida pakub turberaietoodete
+  valmistamiseks \u00e4ra viidud varem terve puistu.\\nPinnase erosioon\\nLisaks pinnase
+  tihendamisele v\u00f5ib turberaie metsades ja palkide m\u00f6\u00f6da maad vedamine
+  (raiet\u00f6\u00f6stuses tuntud kui \\\"libisemine\\\") avaldada pinnasele vihma
+  ja voolava vee erosioonisurvet. Vihm ja sellega kaasnev \u00e4ravool v\u00f5ivad
+  pinnase \u00e4ra viia, ilma et paljud juured, mis enne h\u00e4irimist mulda hooldasid,
+  mulda siduvad. Selle tulemusena kahjustatakse ala potentsiaali toetada puude ja
+  taimede arengut.\\nMudastumine ehk erodeeritud pinnase ladestumine vooluveekogudesse
+  on veel \u00fcks mullaerosiooni ebasoodne tagaj\u00e4rg. See \u00fcmberasustatud
+  pinnas v\u00f5ib ummistada veeteid ja m\u00f5nel juhul ka veeliike, h\u00e4irides
+  nende l\u00f5puste funktsiooni.\\nPopulaarsed postitused sellest blogist\\ns\u00f5nade
+  arv: 921 Naturaalne puit on suurep\u00e4rane viis soojuse ja tekstuuri toomiseks
+  teie maastikku. Paljud puitplokid on m\u00e4danemise v\u00e4ltimiseks keemiliselt
+  t\u00f6\u00f6deldud, kuid m\u00f5nel on suurem loomulik m\u00e4danemiskindlus ja
+  neid v\u00f5ib ilma t\u00f6\u00f6tlemiseta kasutada v\u00e4litingimustes. MetsaABC
+  on Eesti metsafirma, mis pakub kasvavat metsa m\u00fc\u00fck ja ostmist koos puidu
+  ja puiduga. Puidu m\u00e4danik on p\u00f5hjustatud selliste muutujate kombinatsioonist
+  nagu p\u00e4ikesevalgus, niiskus, putukad ja seened. Kui puit on otseses kontaktis
+  maapinnaga, n\u00e4iteks aiapeenras v\u00f5i v\u00f5res, on eriti oluline kasutada
+  m\u00e4danemiskindlat puitu. Niiskus v\u00f5ib maapinnaga kokkupuutel puitu imbuda,
+  suurendades ja purustades poore ning v\u00f5imaldades hallitusel ja seentel kasvada.
+  Puidu kohal kasvavad taimed ja viinapuud v\u00f5ivad niiskust kinni p\u00fc\u00fcdes
+  aidata m\u00e4danemisprotsessi kiirendada. Metsad v\u00e4liprojektide jaoks Puitu
+  on mitut t\u00fc\u00fcpi. Igal puidusordil on aga oma eelised ja puudused. Enne
+  konkreetsete vajaduste alusel valiku tegemist on soovit\\nIntensiivse metsakasutuse
+  ning pisikeste puidu ja muude j\u00e4\u00e4tmete ulatusliku p\u00f5letamise t\u00f5ttu
+  on surnud puidu hulk Euroopa metsades alates 19. sajandi keskpaigast dramaatiliselt
+  v\u00e4henenud. Alates 2000. aastast on see statistika siiski v\u00e4ike \u00fcldine
+  t\u00f5us. See v\u00f5ib olla tingitud metsa majandamine meetoditest, mis suurendavad
+  sihikindlalt lamapuidu hulka majandatavates metsades, kas valitsuse poliitika v\u00f5i
+  metsa sertifitseerimise standardite kehtestamise tulemusena. T\u00f5usule v\u00f5isid
+  kaasa aidata ka tormid ja muud suured segadused. V\u00e4\u00e4rib m\u00e4rkimist,
+  et 2010. aastal esitas surnud puidu kohta statistikat 17 EMP riiki, 1990. aastal
+  aga vaid kaheksa. Euroopa piirkonna keskmine maht on riigiti erinev. Kuna metsad
+  pakuvad kodu paljudele olenditele, sealhulgas selgroogsetele, selgrootutele, samblikele,
+  samblatele ja seentele, on surnud puit (j\u00e4medad puiduj\u00e4\u00e4tmed) bioloogilise
+  mitmekesisuse n\u00e4itaja. Surnud puidu lagunemine on oluline toitainete ja orgaanilise
+  aine ringlussev\u00f5tuks, samuti taimedele\\nPaljud aednikud ostavad haljastuses
+  kasutamiseks hakkepuitu. M\u00f5nel inimesel on aias purustaja ja ta loob ise. See
+  v\u00f5ib olla v\u00e4ga kasulik loodusvara, olenemata sellest, kas ostate selle
+  v\u00f5i loote selle. Siiski on oluline teada, millal ja kuidas seda oma aias rakendada
+  (ja ka millal mitte). MetsaABC on metsafirma, mis tegeleb metsakinnistu m\u00fc\u00fck
+  , hakkepuidu ja palju muu ostu-m\u00fc\u00fcgiga. Selles postituses vaatame \u00fcksikasjalikumalt,
+  kuidas puitlaastu kasutada. Arutatakse paljusid hakkepuidu sorte. Vaatame ka m\u00f5nda
+  k\u00f5ige levinumat rakendust aias. J\u00e4tkake lugemist, et saada lisateavet
+  hakkepuidu kasutamise eeliste ja m\u00f5ningate puuduste kohta. Puiduhakke t\u00fc\u00fcbid
+  Enne kui hakkate oma aias hakkepuitu mis tahes viisil kasutama, tuleb arvestada
+  m\u00f5ne asjaga: S\u00f5ltuvalt kiipi valmistanud puu t\u00fc\u00fcbist saab seda
+  kasutada erinevatel eesm\u00e4rkidel. See on saadaval mitmesugustes suurustes, klassides,
+  tekstuurides ja muudes funktsioonides. M\u00f5nda kaubanduslikku hakkepuitu t\u00f6\u00f6deldakse
+  ja need ei pruugi olla kesk\\nKommentaarid\\nPostita kommentaar\"", "\"Reisiekspert
+  - reisiekspert.ee\\nLatest News:\\nAurinkomatkate soodsad lennuhinnad septembrikuu
+  reisidele algusega Helsingist, hind al. 290 EUR 30 Nov -0001 | 12:00 am\\nAurinkomatkate
+  viimase hetke reisidele v\u00f5imalus broneerida reis n\u00fc\u00fcd supersoodsalt!
+  Vali sihtkoht, broneeri lend ja lisaks aitame leida sobiva hotellimajutuse. Kiirusta,
+  sest soodushinnaga kohtade arv...\\nAurinko Tenerife 1-n\u00e4dalaste otsereiside
+  m\u00fc\u00fck avatud, edasi-tagasi lennuhind al. 445 EUR 30 Nov -0001 | 12:00 am\\nAurinko
+  talvehooaja 2012/2013 otsereisid Tenerife saarele toimuvad ajavahemikul 25.10.12-18.04.13
+  ja vedajaks hispaania lennukompanii Air Europa. Lend toimub marsruudil Tallinn-
+  Tenerife -Tallinn. Le...\"", "\"- Pisikesed \u017eestid t\u00e4helepanu avaldamiseks:
+  N\u00e4iteks kui naine hoiab mehe k\u00e4est kinni v\u00f5i paneb \u00f5rnalt k\u00e4e
+  tema seljale.\\n- Oma naeratuse jagamine: Mehed armastavad naiste siirast naeratust,
+  mis v\u00f5ib t\u00f5sta nende meeleolu ja tuua r\u00f5\u00f5mu p\u00e4eva.\\n-
+  V\u00e4ikesed \u00fcllatused: N\u00e4iteks naise poolt valmistatud hommikus\u00f6\u00f6k
+  v\u00f5i ootamatu armas s\u00f5num keset p\u00e4eva.\\n- Hoolitsemine: Mehed hindavad
+  seda, kui naine hoolitseb nende eest, olgu see siis nende tervise, heaolu v\u00f5i
+  isegi riietuse osas.\\n- Oskus kuulata: Mehed v\u00e4\u00e4rtustavad naiste v\u00f5imet
+  kuulata ja m\u00f5ista nende m\u00f5tteid ja tundeid ilma hinnanguid andmata.\\n-
+  V\u00f5ime n\u00e4idata emotsioone: Mehed armastavad seda, kui naine julgeb n\u00e4idata
+  oma tundeid ja olla haavatav nende ees.\\n- Toetamine unistuste poole p\u00fc\u00fcdlemisel:
+  Kui naine julgustab meest j\u00e4rgima oma unistusi ja eesm\u00e4rke, tekitab see
+  temas austust ja t\u00e4nulikkust.\\n- Komplimentide jagamine: Mehed armastavad,
+  kui naised m\u00e4rkavad ja kiidavad neid, olgu siis nende v\u00e4limuse, saavutuste
+  v\u00f5i isiklike omaduste osas.\\n- S\u00fcdamlik kallistus: \u00dcks soe kallistus
+  v\u00f5ib tekitada tundeid s\u00fcgavast \u00fchendusest ja l\u00e4hedusest.\\n-
+  V\u00e4ikesed f\u00fc\u00fcsilised puudutused: N\u00e4iteks kui naine sirutab k\u00e4e
+  mehe poole v\u00f5i paitab tema p\u00f5ske.\\n- V\u00f5ime olla iseend: Mehed hindavad
+  seda, kui naine julgeb olla autentne ja avatud oma m\u00f5tete ja tunnete suhtes.\\n-
+  Humoorikus ja naljasoon: Mehed armastavad naiste huumorimeelt ja v\u00f5imet naerda
+  koos nendega.\\n- Suhtlus huvi tekitavatel teemadel: Mehed naudivad s\u00fcgavamatel
+  teemadel vestlemist, mis viib nende m\u00f5tlemist ja perspektiivi avardamiseni.\\n-
+  Kokkamisoskus: Mehed armastavad, kui naine valmistab neile maitsvat toitu ja jagab
+  nendega kulinaarseid elamusi.\\n- V\u00e4ikesed t\u00e4helepanuavaldused igap\u00e4evastes
+  tegevustes: N\u00e4iteks kui naine paneb m\u00e4rku, kui mees teeb midagi h\u00e4sti
+  v\u00f5i aitab kodut\u00f6\u00f6des.\\n- Huvi tundmine nende hobide vastu: Mehed
+  hindavad, kui naine osaleb nende huvide ja hobidega seotud tegevustes v\u00f5i n\u00e4itab
+  nende vastu huvi.\\n- Kvaliteetaeg koos veetmine: Mehed armastavad aega veeta naisega,
+  olgu siis romantilisel kohtingul, seikluslikul matkal v\u00f5i lihtsalt kodus filme
+  vaadates.\\n- \u00d5rnus ja hoolitsus: Mehed hindavad naise v\u00f5imet olla \u00f5rn
+  ja hooliv, olgu siis tegemist v\u00e4ikeste puudutuste v\u00f5i hellade s\u00f5nadega.\\n-
+  Initsiatiiv romantiliste \u017eestide osas: Mehed armastavad, kui naine v\u00f5tab
+  initsiatiivi romantilistes olukordades, olgu siis tegemist suudlusega ootamatul
+  hetkel v\u00f5i armastuskirjaga.\\n- Tugi raskel hetkel: K\u00f5ige olulisem on
+  see, et mehed armastavad, kui naine on nende k\u00f5rval nii headel kui halbadel
+  aegadel ning pakub neile toetust ja lohutust, kui seda vajatakse.\"", "\"Uudised
+  Teemal\\n-\\nPolitsei otsib Tallinnas toimunud liiklus\u00f5nnetuse pealtn\u00e4gijaid\\nPolitsei
+  otsib inimesi, kes n\u00e4gid pealt t\u00e4na Mustam\u00e4el juhtunud liiklus\u00f5nnetust,
+  milles sai vigastada naisterahvas.\u00b7\\n-\\nFOTOD: Tallinn-Tartu maanteel Viikingite
+  k\u00fcla juures toimunud avarii h\u00e4irib liiklust\\nTallinn-Tartu-V\u00f5ru-Luhamaa
+  maantee 34. kilomeetril Viikingite k\u00fcla juures toimus t\u00e4na p\u00e4rastl\u00f5unal
+  avarii, mille t\u00f5ttu on liiklus s\u00fcndmuskohal h\u00e4iritud.\u00b7\\n-\\nDELFI
+  VIDEO ja FOTOD: Tallinn-Tartu maanteel s\u00f5itis veoauto otsa teet\u00f6\u00f6liste
+  v\u00e4ikeveokile, juht viidi haiglasse\\nTallinn-Tartu-V\u00f5ru-Luhamaa maantee
+  34. kilomeetril Viikingite k\u00fcla juures toimus t\u00e4na p\u00e4rastl\u00f5unal
+  avarii, mille t\u00f5ttu on liiklus s\u00fcndmuskohal h\u00e4iritud.\u00b7\\n-\\nDELFI
+  VIDEO JA FOTOD: Tallinna-Tartu maanteel s\u00f5itis veoauto otsa teet\u00f6\u00f6liste
+  v\u00e4ikeveokile, juht viidi haiglasse\\nTallinna-Tartu-V\u00f5ru-Luhamaa maantee
+  34. kilomeetril Viikingite k\u00fcla juures toimus t\u00e4na p\u00e4rastl\u00f5unal
+  avarii, mille t\u00f5ttu on liiklus s\u00fcndmuskohal h\u00e4iritud.\u00b7\\n-\\nPolitsei
+  otsib Mustam\u00e4el trollile ette s\u00f5itnud autot\\nPolitsei palub abi inimestelt,
+  kes n\u00e4gid t\u00e4na hommikul Mustam\u00e4e teel, kuidas trollile s\u00f5itis
+  \u00e4kitselt ette auto, mist\u00f5ttu oli troll sunnitud j\u00e4rsult pidurdama.\u00b7\\n-\\nMustam\u00e4el
+  j\u00e4i jalak\u00e4ija \u00fclek\u00e4igurajal auto alla, politsei otsib \u00f5nnetuse
+  pealtn\u00e4gijaid\\nPolitsei otsib t\u00e4na hommikul Mustam\u00e4el \u00fclek\u00e4igurajal
+  jalak\u00e4ijale otsa s\u00f5itnud autojuhti.\u00b7\\n-\\nKristiines pani naine
+  ennast p\u00f5lema\\nT\u00e4na pani Tallinnas Kristiine linnaosas naine ennast p\u00f5lema.\u00b7\\n-\\nPolitsei
+  otsib Mustam\u00e4el trollile ette s\u00f5itnud autot\\nReede hommikul kell 10.10
+  kukkus Mustam\u00e4e teel s\u00f5itnud trollis \u00e4kkpidurduse t\u00f5ttu 88-aastane
+  naine, kiirabi viis naise haiglasse. Esialgsetel andmetel v\u00f5is \u00e4kkpidurduse
+  p\u00f5hjustada musta v\u00e4rvi s\u00f5iduauto Volkswageni juht, politsei palub
+  pealtn\u00e4gijate abi s\u00f5iduki leidmisel.\u00b7\\n-\\nDELFI FOTOD: Harkus Paldiski
+  maanteel said mees ja naine autolt l\u00f6\u00f6gi\\nHarkus Paldiski maantee 12.
+  kilomeetril Tallinnast v\u00e4ljuval suunal juhtus t\u00e4na kella 11.15 ajal liiklus\u00f5nnetus,
+  milles sai vigastada kaks jalak\u00e4ijat.\u00b7\\n-\\nMustam\u00e4e teel sai punase
+  tulega teed \u00fcletanud naine autolt l\u00f6\u00f6gi\\nT\u00e4na \u00f5htupoolikul
+  juhtus Tallinnas Mustam\u00e4e teel liiklus\u00f5nnetus, milles sai vigastada jalak\u00e4ija.\u00b7\\n-\\nMustam\u00e4e
+  teel sai teed \u00fcletanud naine autolt l\u00f6\u00f6gi\\nT\u00e4na \u00f5htupoolikul
+  juhtus Tallinnas Mustam\u00e4e teel liiklus\u00f5nnetus, milles sai vigastada jalak\u00e4ija.\u00b7\\n-\\nLiikluses
+  sai eile viga viis inimest\\nEile sai \u00fcle Eesti liiklus\u00f5nnetustes vigastada
+  viis inimest.\u00b7\\n-\\nVales kohas teed \u00fcletanud jalak\u00e4ija sai autolt
+  l\u00f6\u00f6gi ja suri haiglas\\nTallinnas P\u00f5hja puiesteel j\u00e4i t\u00e4na
+  auto alla kaks jalak\u00e4ijat, kellest \u00fcks hiljem haiglas suri.\u00b7\\n-\\nNarvas
+  hukkus auto alla j\u00e4\u00e4nud naine\\nNarvas hukkus t\u00e4na p\u00e4rastl\u00f5unal
+  \u00fclek\u00e4igurajal auto alla j\u00e4\u00e4nud vanem naine.\u00b7\\n-\\nFOTOD:
+  Mustam\u00e4el s\u00f5itis auto veoautole tagant otsa, kolm inimest vajas arstiabi\\nLaup\u00e4eva
+  oosel s\u00f5itis Tallinnas s\u00f5iduauto tagant sisse veoautole, kolm s\u00f5iduautos
+  viibinud inimest vajasid ravi.\u00b7\\n-\\nFOTOD: Tallinnas s\u00f5itis auto veoautole
+  tagant otsa, kolm inimest vajas arstiabi\\nLaup\u00e4eva oosel s\u00f5itis Tallinnas
+  s\u00f5iduauto tagant sisse veoautole, kolm s\u00f5iduautos viibinud inimest vajasid
+  ravi.\u00b7\\n-\\nRatturile otsa s\u00f5itnud juht lahkus \u00f5nnetuskohalt\\nT\u00e4na
+  hommikul j\u00e4i Tallinnas Retke teel \u00f5uealal ekas rattur auto alla, kuid
+  \u00f5nnetuses osalenud s\u00f5idukijuht lahkus \u00f5nnetuskohalt.\u00b7\\n-\\nLiiklusreguleerija
+  alla ajanud Volkswagen p\u00f5genes\\n\u00dclemiste ristmikul s\u00f5itis t\u00e4na
+  liiklusreguleerijale otsa Volkswagen ning p\u00f5genes p\u00e4rast \u00f5nnetust
+  s\u00fcndmuskohalt, j\u00e4ttes vigastada saanud mehe \u00f5nnetuspaika.\u00b7\\n-\\nFotod:
+  roolijoodik p\u00f5hjustas S\u00f5pruse puiesteel kolmikavarii\\nPolitsei sai veidi
+  enne kella nelja teate, et Tallinnas S\u00f5pruse puiesteel on kolm s\u00f5idukit
+  avariisse sattunud.\u00b7\\n-\\nFotod ja video: roolijoodik p\u00f5hjustas S\u00f5pruse
+  puiesteel kolmikavarii\\nPolitsei sai veidi enne kella nelja teate, et Tallinnas
+  S\u00f5pruse puiesteel on kolm s\u00f5idukit avariisse sattunud.\u00b7\\n-\\nPolitsei
+  otsib kolme Tallinnas juhtunud liiklus\u00f5nnetuse pealtn\u00e4gijaid\\n-\\nDELFI
+  KAART: Vaata, kus juhtus traagiline reisirongi ja veoauto kokkup\u00f5rge\\nT\u00e4na
+  p\u00e4rastl\u00f5unal s\u00f5itis Raasiku raudtee\u00fcles\u00f5idukohal Tallinn-Tartu
+  rongile sisse veoauto. Kokkup\u00f5rke tagaj\u00e4rjel paiskus kaks vagunit r\u00f6\u00f6bastelt
+  maha. \u00d5nnetuses hukkus kaks inimest ning sai vigastada 12 inimest.\u00b7\\n-\\nFOTOD:
+  Harkus Paldiski maanteel said mees ja naine autolt l\u00f6\u00f6gi\\nHarkus Paldiski
+  maantee 12. kilomeetril Tallinnast v\u00e4ljuval suunal juhtus t\u00e4na kella 11.15
+  ajal liiklus\u00f5nnetus, milles sai vigastada kaks jalak\u00e4ijat.\u00b7\\n-\\nMust
+  teisip\u00e4ev: k\u00fcmme inimest sai liiklus\u00f5nnetustes viga\\nTeisipeval
+  kella 8 ei andnud 30-aastane Mihhail, kes oli siduauto BMW 525 roolis, Tallinnas
+  Peterburi tee 14A juures parklast vlja sites teed peateel liikunud mootorrattale
+  Honda, teatas BNS-ile politsei- ja piirivalveamet. nnetuses sai viga mootorrattur,
+  21-aastane Allar. Kiirabi viis mehe Phja-...\u00b7\\n-\\nTallinnas hukkus liiklus\u00f5nnetuses
+  vanem naine\\nT\u00e4na keskp\u00e4eva paiku toimus Tallinnas P\u00f5hja puiesteel
+  avarii, mille tagaj\u00e4rjel sai surma vanem naine.\u00b7\\n-\\nFOTOD: Kuue auto
+  ahelavarii paigas on n\u00e4dala jooksul n\u00e4htud \u00fcheksat plekim\u00f5lkimist\\nEhitajate
+  teel t\u00f6\u00f6tav tallinlane r\u00e4\u00e4kis, et paigas, kus 21. jaanuaril
+  p\u00f5rkas kokku kuus autot, juhtub peaaegu iga p\u00e4ev m\u00f5ni plekim\u00f5lkimine.\u00b7\\n-\\nPeterburi-Tallinna
+  rong p\u00f5rkas Venemaal kokku s\u00f5iduautoga, mille juht hukkus\\nVenemaa Leningradi
+  oblastis sai Peterburi-Tallinna kiirrongi ja s\u00f5iduauto kokkup\u00f5rkes surma
+  \u00fcks ja raskelt vigastada veel \u00fcks inimene.\u00b7\\n-\\nReedel Lasnam\u00e4el
+  auto alla j\u00e4\u00e4nud 14-aastane neiu suri haiglas\\n\u00d6\u00f6l vastu t\u00e4nast
+  suri haiglas 14-aastane neiu, kes \u00fcletas reede \u00f5htul Tallinnas Laagna
+  teed vales kohas ning j\u00e4i auto alla.\u00b7\\n-\\nPOLITSEIBLOGI: Vahekokkuv\u00f5te
+  politsei t\u00e4nastest v\u00e4ljakutsetest\\nT\u00e4na postitab politsei oma Facebooki
+  lehel jooksvalt infot v\u00e4ljakutsete kohta. Vaata, millised teated on t\u00e4na
+  hommikust alates politseile laekunud.\u00b7\\n-\\nLiiklus\u00f5nnetustes sai vigastada
+  kaheksa inimest\\nEestis sai m\u00f6\u00f6dunud \u00f6\u00f6p\u00e4eva jooksul seitsmes
+  liiklus\u00f5nnetuses vigastada kaheksa inimest.\u00b7\\n-\\nFOTOD: Laagna teel
+  tuuakse 14-aastase t\u00fcdruku hukkumispaika lilli ja k\u00fc\u00fcnlaid\\nEelmisel
+  n\u00e4dalal Lasnam\u00e4el Laagna teel toimunud traagilises \u00f5nnetuses hukkunud
+  14-aastase t\u00fcdruku hukkumispaika on toodud hulgaliselt lilli ja k\u00fc\u00fcnlaid.\u00b7\\n-\\nLiikluses
+  eile \u00fcks hukkunu ja 10 vigastatut\\nEile juhtus \u00fcle Eesti viis liiklus\u00f5nnetust,
+  kus hukkus \u00fcks ja sai viga 10 inimest.\u00b7\\n-\\nJalgrattur s\u00f5itis autole
+  otsa\\nEile toimus Eestis kaks vigastusi p\u00f5hjustanud liiklus\u00f5nnetust,
+  m\u00f5lemad jalgratturitega. \u00dchel puhul s\u00f5itis reegleid rikkunud auto
+  \u00fclek\u00e4igurada \u00fcletanud ratturile otsa, teisel puhul oli rattur ise
+  hooletu.\u00b7\\n-\\nFOTO: Kristiine viadukti juures toimunud liiklus\u00f5nnetuses
+  said kaks inimest viga\\nT\u00e4na kella 14.45 ajal p\u00f5rkasid Tallinnas Endla
+  ja Tehnika t\u00e4navate ristmikul kokku m\u00f6\u00f6da Endla t\u00e4navat Kristiine
+  suunas liikunud Mercedes-Benz ja m\u00f6\u00f6da Tehnika t\u00e4navat J\u00e4rvevana
+  poole s\u00f5itnud Audi.\u00b7\\n-\\nPildid: joobekahtlusega juht p\u00f5hjustas
+  Mustam\u00e4el avarii\\nReede \u00f5htul juhtus liiklus\u00f5nnetus Mustam\u00e4el,
+  kus joobekahtlusega juht s\u00f5itis otsa eesolevale autole.\u00b7\\n-\\nTrolli
+  ja kahe bussi kokkup\u00f5rge seiskas Koplis liikluse\\nT\u00e4na hommikul p\u00f5rkasid
+  Koplis kokku troll ja kaks liinibussi, mist\u00f5ttu oli liiklus tipptunnil tugevasti
+  h\u00e4iritud.\u00b7\\n-\\nLiikluses sai \u00f6\u00f6p\u00e4evaga viga seitse inimest\\nKolmapeval
+  kella 3 jooksis 38-aastasele Risto Tallinnas Prnu maantee ja Kaevu tnava ristmikul
+  siduteele, teatas BNS-ile politsei- ja piirivalveamet. 26-aastane Erik, kes sitis
+  mootorrattal Yamaha, pidurdas Ristole otsasidu vltimiseks ning prkas kokku ees liikunud
+  mootorrattaga Suzuki, mida juhtis...\u00b7\\n-\\nOhutussaarel seisnud naine j\u00e4i
+  auto alla\\nEile juhtus Eesti teedel kolm avariid, kus kannatanuteks j\u00e4id jalak\u00e4ijad.
+  \u00dcks neist j\u00e4i auto alla ohutussaarel seistes.\u00b7\\n-\\nPolitsei otsib
+  Tallinnas jalgratturile otsas\u00f5itjat\\nT\u00e4na kella 10.30 paiku s\u00f5itis
+  Tallinnas Retke tee \u00f5uealal tundmatu auto otsa \u00fclek\u00e4igurajal teed
+  \u00fcletanud jalgratturile ning lahkus s\u00fcndmuskohalt.\u00b7\\n-\\nFotod ja
+  video: autode kokkup\u00f5rkes sai kaks inimest viga\\nT\u00e4na kella 14.45 ajal
+  p\u00f5rkasid Tallinnas Endla ja Tehnika t\u00e4navate ristmikul kokku m\u00f6\u00f6da
+  Endla t\u00e4navat Kristiine suunas liikunud Mercedes ja m\u00f6\u00f6da Tehnika
+  t\u00e4navat J\u00e4rvevana poole s\u00f5itnud Audi.\u00b7\\n-\\nPolitsei otsib
+  mootorratta ja jalgratturi kokkup\u00f5rke pealtn\u00e4gijaid\\nPolitsei otsib Tallinnas
+  mootorratturi ja jalgratturi vahel toimunud liiklus\u00f5nnetuse pealtn\u00e4gijaid.
+  \u00d5nnetuses kannatada saanud jalgrattur viidi haiglasse.\u00b7\\n-\\nMust p\u00e4ev
+  liikluses - hukkus kaks, viga sai kaheksa inimest\\nEile oli liikluses j\u00e4rjekordne
+  must p\u00e4ev, sest k\u00fcmnes raskes liiklus\u00f5nnetuses hukkus kaks ja sai
+  vigastada kaheksa inimest.\u00b7\\n-\\nFOTOD: Tartumaal toimunud kahe auto kokkup\u00f5rkes
+  sai neli inimest vigastada\\nTartumaal Haava k\u00fclas juhtus kolmap\u00e4eva p\u00e4rastl\u00f5unal
+  liiklus\u00f5nnetus, milles sai vigastada neli inimest.\u00b7\\n-\\nFOTOD: Tartumaal
+  sattus magav autojuht liiklus\u00f5nnetusse, neli inimest sai viga\\nTartumaal Haava
+  k\u00fclas juhtus kolmap\u00e4eva p\u00e4rastl\u00f5unal liiklus\u00f5nnetus, milles
+  sai vigastada neli inimest. Esialgsetel andmetel j\u00e4i \u00fche auto juhtroolis
+  magama.\u00b7\\n-\\nViljandis \u00fclek\u00e4igurajal hukkunud naisel oli helkur
+  koti k\u00fcljes\\nEile hommikul juhtus Viljandis traagiline liiklus\u00f5nnetus,
+  milles hukkus teed \u00fcletanud vanem abielupaar. Politsei on saanud praeguseks
+  kontakti mitmete t\u00e4iendavate tunnistajatega, kellega on planeeritud l\u00e4hip\u00e4evadeks
+  \u00fclekuulamised.\u00b7\\n-\\nJaanilaup\u00e4eval said liiklus\u00f5nnetustes
+  viga \u00fcheksa inimest\\nEsimene nnetus juhtus kella 3.38 ajal Prnumaal Are vallas
+  Elbu teel Anni talu juures, kus Opel Zafira sitis teelt vlja kraavi ja paiskus katusele,
+  teatas siseministeerium BNS-ile. Sidukis viibinud 21-aastane Reimo ja 24-aastane
+  Meili said vigastada ja kiirabi viis nad Prnu haiglasse. Politsei sel...\u00b7\\n-\\nKolmes
+  liiklus\u00f5nnetuses sai kaheksa inimest vigastada\\nEestis juhtus m\u00f6\u00f6dunud
+  \u00f6\u00f6p\u00e4eval kolm liiklus\u00f5nnetust, milles sai vigastada kaheksa
+  inimest.\u00b7\\n-\\nRaasikul said kaks meest rongilt l\u00f6\u00f6gi\\nRaasikul
+  juhtus t\u00e4na l\u00f5una ajal \u00f5nnetus, milles kaks meest said Tallinna-Tartu
+  rongilt l\u00f6\u00f6gi. \u00d5nnetus juhtus Raasiku raudteejaama juures jalak\u00e4ijate
+  \u00fclek\u00e4igukohal.\u00b7\\n-\\nJ\u00e4rvamaal hukkus traagilises \u00f5nnetuses
+  viieaastane poiss\\nJ\u00e4rvamaal juhtus eile \u00f5htul traagiline \u00f5nnetus,
+  kus viieaastane poiss sattus m\u00e4nguhoos s\u00f5idukile ette ning suri hiljem
+  haiglas.\u00b7\\n-\\nLiivalaia ja P\u00e4rnu maantee nurgal toimus kahe kannatanuga
+  liiklus\u00f5nnetus\\nTallinna kesklinnas Liivalaia ja P\u00e4rnu mnaatee nurgal
+  toimus t\u00e4na ennel\u00f5unal r\u00e4nk liiklus\u00f5nnetus, kus kaks inimest
+  said vigastada.\u00b7\\n-\\nPolitsei otsib Viljandi maantee liiklus\u00f5nnetuse
+  pealtn\u00e4gijaid\\nTallinnas Viljandi maantee ja Valdeku t\u00e4nava ristmikul
+  p\u00f5rkasid eile kella 14.50 ajal kokku s\u00f5iduautod Citroen Xsara ja Audi
+  A4. Politsei otsib n\u00fc\u00fcd selle \u00f5nnetuse pealtn\u00e4gijaid.\u00b7\\n-\\nJ\u00e4rvamaal
+  hukkus traagilises \u00f5nnetuses 5-aastane poiss\\nJ\u00e4rvamaal juhtus eile \u00f5htul
+  traagiline \u00f5nnetus, kus 5-aastane poiss sattus m\u00e4nguhoos s\u00f5idukile
+  ette ning suri hiljem haiglas.\u00b7\\n-\\nDELFI FOTOD: J\u00e4rvamaal hukkus traagilises
+  \u00f5nnetuses 5-aastane poiss\\nJ\u00e4rvamaal juhtus eile \u00f5htul traagiline
+  \u00f5nnetus, kus 5-aastane poiss sattus m\u00e4nguhoos s\u00f5idukile ette ning
+  suri hiljem haiglas.\u00b7\\n-\\nTallinna-Narva maanteel Saka teeristi l\u00e4hedal
+  on liiklus h\u00e4iritud\\nSeoses liiklus\u00f5nnetusega on praegu h\u00e4iritud
+  liiklus Ida-Viru maakonnas Tallinna-Narva maanteel pealinna poolt tulles enne Saka
+  teeristi.\u00b7\\n-\\nLiikluses sai vigastada kaks jalgratturit\\nEile juhtus Eestis
+  kaks raskemat liiklus\u00f5nnetust, neis m\u00f5lemas sai vigastada jalgrattur.\u00b7\\n-\\nP\u00e4rnu
+  politsei otsib jalak\u00e4ijaga juhtunud \u00f5nnetuse pealtn\u00e4gijaid\\nPolitsei
+  palub abi neilt, kes n\u00e4gid, kuidas eile P\u00e4rnus eakas naine auto alla j\u00e4i.\u00b7\\n-\\nHiigelavarii
+  Haaberstis: kuus autot kihutasid \u00fcksteisele otsa\\nT\u00e4na ennel\u00f5unal
+  juhtus Ehitajate teel liiklus\u00f5nnetus, kus said viga kuus autot.\u00b7\\n-\\nEile
+  juhtus kaks liiklus\u00f5nnetust, mille osalised lahkusid s\u00fcndmuspaigalt\\nEile
+  leidis Tartumaal aset kaks liiklus\u00f5nnetust, kus osalised lahkusid s\u00fcndmuskohalt,
+  mist\u00f5ttu tuletab politsei meelde, et inimvigastustega liiklus\u00f5nnetuse
+  korral ei tohi selle osapooled politsei loata s\u00fcndmuspaigalt lahkuda.\u00b7\\n-\\nHaabneemes
+  toimunud avariis sai kaks inimest viga\\nT\u00e4na toimus Viimsi vallas Haabneemes
+  liiklus\u00f5nnetus, milles sai viga kaks inimest, kes toimetati haiglasse.\u00b7\\n-\\nHaabneemes
+  toimunud avariis sai kaks inimest viga\\nT\u00e4na toimus Viimsi vallas Haabneemes
+  liiklus\u00f5nnetus, milles sai viga kaks inimest, kes toimetati haiglasse.\u00b7\\n-\\nKahe
+  auto kokkup\u00f5rkes sai eakas naine viga\\nTallinnas sai eile kahe auto kokkup\u00f5rkes
+  eakas naine vigastada.\u00b7\\n-\\nFotod: vales kohas teed \u00fcletanud jalak\u00e4ijad
+  said autolt l\u00f6\u00f6gi\\nT\u00e4na ennel\u00f5unal juhtus liiklus\u00f5nnetus
+  Tallinnas P\u00f5hja puiesteel, kus said vigastada vales kohas teed \u00fcletanud
+  jalak\u00e4ijad.\u00b7\\n-\\nVales kohas teed \u00fcletanud jalak\u00e4ijad said
+  autolt l\u00f6\u00f6gi\\nT\u00e4na ennel\u00f5unal juhtus liiklus\u00f5nnetus Tallinnas
+  P\u00f5hja puiesteel, kus autolt said l\u00f6\u00f6gi teed \u00fcletanud jalak\u00e4ijad,
+  kellest \u00fcks suri saadud vigastustesse haiglas.\u00b7\\n-\\nTallinnas hukkus
+  vales kohas teed \u00fcletanud jalak\u00e4ija\\nT\u00e4na ennel\u00f5unal juhtus
+  liiklus\u00f5nnetus Tallinnas P\u00f5hja puiesteel, kus autolt said l\u00f6\u00f6gi
+  teed \u00fcletanud jalak\u00e4ijad, kellest \u00fcks suri saadud vigastustesse haiglas.\u00b7\\n-\\nEile
+  toimus kaks liiklus\u00f5nnetust, milles osalenud lahkusid s\u00fcndmuskohalt\\nTartumaal
+  juhtus eile kaks kannatanutega liiklus\u00f5nnetust, milles osalenud lahkusid politsei
+  loata s\u00fcndmuskohalt.\u00b7\\n-\\nValgamaal sattus vanaproua alaealise ratturi
+  s\u00fc\u00fcl haiglasse\\nEile \u00f5htul sai T\u00f5rvas kannatada eakas naine,
+  kellele s\u00f5itis otsa noor jalgrattur.\u00b7\\n-\\nKes n\u00e4gi pealt Stockmanni
+  ristmikul toimunud kokkup\u00f5rget?\\nPolitsei palub abi inimestelt, kes n\u00e4gid
+  eile p\u00e4rastl\u00f5unal Stockmanni ristmikul pealt kolme s\u00f5iduauto kokkup\u00f5rget.
+  Nimelt v\u00e4itsid k\u00f5igi kolme auto juhid, et \u00f5nnetuse hetkel p\u00f5les
+  neil fooris roheline tuli.\u00b7\\n-\\nLiiklus\u00f5nnetustes sai vigastada \u00fcheksa
+  inimest\\nEestis sai m\u00f6\u00f6dunud \u00f6\u00f6p\u00e4eva jooksul kuues liiklus\u00f5nnetuses
+  vigastada \u00fcheksa inimest.\u00b7\\n-\\nG4S andis politseile \u00fcle noaga vehkija
+  ja joobes autojuhi\\n\u00d6\u00f6l vastu neljap\u00e4eva pidasid G4Si turvat\u00f6\u00f6tajad
+  Mustam\u00e4el l\u00f5bustusasutuse juures kinni ja andsid politseile \u00fcle mehe,
+  kes puhkenud t\u00fcli k\u00e4igus tekitas teisele k\u00fclastajale torkehaava.
+  Vahetult peale konflikti lahendamist anti politseile \u00fcle l\u00f5bustusasutuse
+  l\u00e4heduses joobnuna rooli istunud autojuht.\u00b7\\n-\\nEstonia ees avarii p\u00f5hjustanud
+  juht p\u00f5genes\\n\u00d6\u00f6l vastu t\u00e4nast s\u00f5itis Tallinna kesklinnas
+  \u00fcks Audi teisele sisse ja p\u00f5genes siis s\u00fcndmuskohalt.\u00b7\\n-\\nPeterburi-Tallinna
+  rong p\u00f5rkas Venemaal kokku s\u00f5iduautoga, milles hukkus kaks inimest\\nVenemaa
+  Leningradi oblastis sai Peterburi-Tallinna kiirrongi ja s\u00f5iduauto kokkup\u00f5rkes
+  surma kaks ja raskelt vigastada veel kaks inimest.\u00b7\\n-\\nUusaasta\u00f6\u00f6l
+  sai liikluses kannatada kolm inimest\\nUue aasta esimestel tundidel juhtus Eestis
+  kaks t\u00f5sisemat liiklus\u00f5nnetust, kus sai kokku kolm inimest kannatada.\u00b7\\n-\\nPolitsei
+  otsib Volta t\u00e4naval juhtunud avarii pealtn\u00e4gijaid\\nP\u00f5hja prefektuur
+  otsib t\u00e4na p\u00e4rastl\u00f5unal Tallinnas Volta t\u00e4naval juhtunud avarii
+  pealtn\u00e4gijaid.\u00b7\\n-\\nTerviseamet ei leidnud palju kriitikat saanud kiirabibrigaadi
+  t\u00f6\u00f6s vigu\\nVeebruaris hakkas sotsiaalv\u00f5rgustikus Facebook levima
+  \u00fcleskutse jagada postitust, milles v\u00e4ideti, et Tallinna kiirabibrigaad
+  j\u00e4ttis vanema mehe abita. Terviseamet uuris brigaadi tegevust l\u00e4hemalt
+  ega leidnud selles loos \u00fchtegi kiirabi poolset eksimust.\u00b7\\n-\\nFOTOD:
+  Alkoholi tarvitanud mopeedijuht sai autolt l\u00f6\u00f6gi\\nTallinnas Paldiski
+  maantee ja T\u00e4hetorni t\u00e4nava ristmiku piirkonnas juhtus t\u00e4na kella
+  17.45 ajal avarii, milles sai vigastada mopeedijuht.\u00b7\\n-\\nTallinnas jalgratturile
+  otsa s\u00f5itnud autojuht p\u00f5genes\\nP\u00f5hja prefektuur otsib t\u00e4na
+  \u00f5htupoolikul Tallinnas toimunud liiklus\u00f5nnetuse pealtn\u00e4gijaid.\u00b7\\n-\\nViljandis
+  hukkus liiklus\u00f5nnetuses s\u00f5iduteed \u00fcletanud abielupaar\\nT\u00e4na
+  hommikul juhtus Viljandi linnas liiklus\u00f5nnetus, kus teed \u00fcletanud abielupaar
+  sai s\u00f5iduautolt l\u00f6\u00f6gi. Nii haiglasse toimetatud naine kui ka mees
+  surid hiljem haiglas.\u00b7\\n-\\nFOTOD: Viljandis hukkus liiklus\u00f5nnetuses
+  s\u00f5iduteed \u00fcletanud abielupaar\\nT\u00e4na hommikul kella 8 paiku juhtus
+  Viljandi linnas liiklus\u00f5nnetus, kus teed \u00fcletanud abielupaar sai l\u00f6\u00f6gi
+  s\u00f5iduautolt. Nii haiglasse toimetatud naine kui ka mees surid hiljem haiglas.\u00b7\\n-\\nFOTOD
+  ja VIDEO: Viljandis hukkus liiklus\u00f5nnetuses s\u00f5iduteed \u00fcletanud abielupaar\\nT\u00e4na
+  hommikul kella 8 paiku juhtus Viljandi linnas liiklus\u00f5nnetus, kus teed \u00fcletanud
+  abielupaar sai l\u00f6\u00f6gi s\u00f5iduautolt. Nii haiglasse toimetatud naine
+  kui ka mees surid hiljem haiglas.\u00b7\\n-\\nFOTOD: S\u00f5pruse puiesteel lendas
+  avariisse sattunud kaubikult ratas alt, \u00fche s\u00f5iduki juht oli ilmselt purjus\\nT\u00e4na
+  \u00f5htupoolikul toimus Tallinnas S\u00f5pruse puiesteel avarii, kus vastassuunda
+  kaldunud ning esialgsetel andmetel joobes olnud Volkswageni juht p\u00f5rkas kokku
+  vastutuleva Peogeot`ga ning neile s\u00f5itis omakorda otsa veel kolmaski auto.\u00b7\\n-\\nSillam\u00e4e
+  avarii n\u00f5udis kolmanda inimelu, haiglas suri 3-aastane t\u00fcdruk\\nSillam\u00e4el
+  p\u00fchap\u00e4eval kahe hukkunuga juhtunud traagiline avarii n\u00f5udis veel
+  \u00fche ohvri, kui haiglas suri ka 3-aastane t\u00fcdruk.\u00b7\\n-\\nTallinnas
+  j\u00e4i noormees rongi alla\\nT\u00e4na kella 7.45 ajal j\u00e4i Tallinnas Laagri
+  raudteejaamas jalak\u00e4ijate \u00fclek\u00e4igukohas Tallinn-Paldiski reisirongi
+  alla jalgrattaga raudteed \u00fcletanud noormees.\u00b7\\n-\\nLiiklus\u00f5nnetustes
+  hukkus \u00fcks ja sai vigastada neli inimest\\nEestis hukkus m\u00f6\u00f6dunud
+  \u00f6\u00f6p\u00e4eva jooksul liiklus\u00f5nnetustes \u00fcks ja sai vigastada
+  neli inimest.\u00b7\\n-\\nTrolli ja kahe liinibussi kokkup\u00f5rkes sai naine viga\\nTallinnas
+  Pelgulinnas sai t\u00e4na hommikul trolli ja kahe liinibussi kokkup\u00f5rkes naine
+  vigastada.\u00b7\\n-\\nKaklus EMO-s, poeg ei tulnud koju, baarmen varastas mu jope
+  ehk LOE, milliseid v\u00e4ljakutseid politsei iga p\u00e4ev saab\\nP\u00f5hja prefektuuri
+  juhtimiskeskus v\u00f5ttis viimase \u00f6\u00f6p\u00e4eva jooksul vastu 820 k\u00f5net,
+  millest tegi oma Facebooki seinale 259 sissekannet.\u00b7\\n-\\nTallinnas j\u00e4i
+  74-aastane naine auto alla, politsei palub pealtn\u00e4gijate abi\\nS\u00f5pruse
+  puiestee 221 juures \u00f5uealal sai eile kella 14.20 paiku autolt l\u00f6\u00f6gi
+  74-aastane naine, kes toimetati s\u00fcndmuskohalt haiglasse.\u00b7\\n-\\n\u00d6\u00f6p\u00e4eva
+  jooksul toimus viis t\u00f5sisemat liiklus\u00f5nnetust\\nEilse \u00f6\u00f6p\u00e4eva
+  jooksul tabati kolm alkoholi tarvitanud mootors\u00f5iduki juhti ning toimus viis
+  t\u00f5sisemat liiklus\u00f5nnetust, kus said viga kuus inimest.\u00b7\\n-\\n\u00dclek\u00e4iguradadel
+  s\u00f5ideti mitmele inimesele otsa, \u00fcks juht lahkus s\u00fcndmuskohalt\\nEile
+  toimus \u00fcle Eesti mitu liiklus\u00f5nnetust, milles said kannatada jalak\u00e4ijad.
+  Enamasti s\u00f5ideti otsa teed \u00fcletanud kodanikele, \u00fchel juhul p\u00f5genes
+  juht s\u00fcndmuskohalt.\u00b7\\n-\\nP\u00f5hja-Tallinnas p\u00f5lenud t\u00fchjana
+  seisnud majas hukkus kaks inimest\\nEile kell 21:36 teatati p\u00f5lengust P\u00f5hja-Tallinnas
+  Kopli t\u00e4naval, kus p\u00f5les kahekorruselise t\u00fchjana seisva puumaja teine
+  korrus ning p\u00f6\u00f6ning. P\u00f5lengus hukkus kaks inimest.\u00b7\\n-\\nFOTOD:
+  Kopli liinidel on leekides maja, mis p\u00f5les ka kahe n\u00e4dala eest\\nTallinnas
+  Kopli liinidel p\u00f5leb lahtise leegiga maja. Trammiliiklus seisab.\u00b7\\n-\\nFOTOD:
+  Kopli liinidel on maja lausleekides, kaks inimest p\u00e4\u00e4ses, \u00fcks hukkus\\nTallinnas
+  Kopli liinidel p\u00f5leb lahtise leegiga maja, milles oli tulekahju ka paari n\u00e4dala
+  eest. T\u00e4na p\u00e4\u00e4ses p\u00f5lengust kaks inimest, kuid \u00fcks hukkus.\u00b7\\n-\\nFOTOD:
+  Kopli liinidel on maja lausleekides, kaks inimest p\u00e4\u00e4ses, kaks hukkus\\nTallinnas
+  Kopli liinidel p\u00f5leb lahtise leegiga maja, milles oli tulekahju ka paari n\u00e4dala
+  eest. T\u00e4na p\u00e4\u00e4ses p\u00f5lengust kaks inimest, kuid p\u00f5lengust
+  on v\u00e4lja toodud kaks hukkunut.\u00b7\\n-\\nFOTOD: Kopli liinidel p\u00f5les
+  maja lausleekides, kaks inimest hukkus, neli p\u00e4\u00e4ses eluga\\nTallinnas
+  Kopli liinidel p\u00f5les kolmap\u00e4eva hilis\u00f5htul lahtise leegiga maja,
+  milles oli tulekahju ka paari n\u00e4dala eest. Esialgsetel andmetel p\u00e4\u00e4sesid
+  neli majas olnud inimest eluga, kaks hukkunusid.\u00b7\\n-\\nTartumaal Tallinna-Tartu
+  maanteel h\u00e4irib raske avarii liiklust\\nTartumaal Laeva vallas Tallinna-Tartu
+  maanteel sattusid t\u00e4na ennel\u00f5unal liiklus\u00f5nnetusse mikrobuss ja s\u00f5iduauto,
+  \u00f5nnetuse t\u00f5ttu on avariipaigas liiklus h\u00e4iritud.\u00b7\\n-\\nTartumaal
+  Tallinna-Tartu maanteel h\u00e4iris raske avarii liiklust\\nTartumaal Laeva vallas
+  Tallinna-Tartu maanteel sattusid t\u00e4na ennel\u00f5unal liiklus\u00f5nnetusse
+  mikrobuss ja s\u00f5iduauto, \u00f5nnetuse t\u00f5ttu oli avariipaigas liiklus h\u00e4iritud.\u00b7\\n-\\nTartumaal
+  Tallinna-Tartu maanteel h\u00e4iris avarii liiklust\\nTartumaal Laeva vallas Tallinna-Tartu
+  maanteel sattusid t\u00e4na ennel\u00f5unal liiklus\u00f5nnetusse mikrobuss ja s\u00f5iduauto,
+  \u00f5nnetuse t\u00f5ttu oli avariipaigas liiklus h\u00e4iritud.\u00b7\\n-\\nKopli
+  t\u00e4naval toimunud p\u00f5lengus hukkus kaks inimest\\nEile kell 21.36 teatati
+  p\u00f5lengust P\u00f5hja-Tallinnas Kopli t\u00e4naval, kus p\u00f5les kahekorruselise
+  t\u00fchjana seisva puumaja teine korrus ning p\u00f6\u00f6ning. P\u00f5lengus hukkus
+  kaks inimest.\u00b7\\n-\\nEaka jalak\u00e4ija surnuks s\u00f5itnud bussijuhti ootab
+  kohtutee\\nOktoobri l\u00f5pus peab Tallinnas astuma kohtu ette bussijuht, kes p\u00f5hjustas
+  mullu kevadel Tallinnas eaka jalak\u00e4ija surmaga l\u00f5ppenud liiklus\u00f5nnetuse.\u00b7\\n-\\nTruvat\u00f6\u00f6tajad
+  on aindanud 40 lapsel laulupeol oma vanemaid leida\\nG4Si turvateenistuse jaoks
+  kulgeb laulupidu t\u00f6iselt, ilma t\u00f5siste vahejuhtumiteta, kahe p\u00e4eva
+  jooksul viidi vanematega kokku 40 last.\u00b7\"", "\"DELFI UKRAINAS | Ukraina s\u00f5dur:
+  ait\u00e4h, eestlased! Minu k\u00e4si on alles t\u00e4nu teile\\nDelfi on juba kirjutanud
+  Eesti arstidest, kes Ukraina relvaj\u00f5ududele kiirabiautosid toimetavad. Odessa
+  haiglas sattus ajakirjanik puhtjuhuslikult kokku s\u00f5duriga, kelle oli p\u00e4\u00e4stnud
+  just Eestist toodud auto.\\nJuri teenib Ukraina 38. dessantbrigaadis ja sattus 9.
+  m\u00e4rtsil Kr\u00f5nk\u00f5 l\u00e4histel Dnepri j\u00f5ge \u00fcletades koos
+  kolme kaaslasega miinipildujatule alla. Ukraina arstid t\u00f5id Juri ja tema kaaslased
+  samal p\u00e4eval lahingutsoonist v\u00e4lja ja andsid neile esmaabi. Juri m\u00e4letab,
+  et kiirabiauto oli rohelist v\u00e4rvi.\"", "\"Vaata h\u00e4\u00e4letusi tulemusi:
+  Milline n\u00e4dalavahetus oleks sobivam?\\n- H\u00e4\u00e4letajad\\n- 36. Sa ei
+  tohi h\u00e4\u00e4letada\\nNiitvaade\\n-\\nRe: Pokkeriprod.com Hobikardi v\u00f5istlus,
+  9.mai, 15.00\\n13 kindlat nime juba kirjas, kui homseks 15 olemas, siis vast helistan
+  ja proovin hoopis 20le bronnida, k\u00fcll need paar vajaminevat ikka leiaks :).\\nTeema
+  info\\nKasutajad vaatamas seda teemat\\nHetkel on 1 kasutajat vaatamas seda teemat.
+  (0 registreeritud kasutajat 1 k\u00fclalist)\\nMadis Erit kahtlustatav...\\n01.05.21,
+  11:45 in Pettused ja Petturid\"", "\"Today we are presenting free printable business
+  cards template for Avon representatives, designed on light gray background with
+  smooth pink color.\\nKui see on sinu fail palun andke meile teada. Me eemaldada
+  faili 24 tunni jooksul v\u00f5i, kui soovite, me \u00fcmber jaotada selle oma kontole.
+  Me ei vastuta \u00fcleslaetud faili kohta Xooplate. Liikmed laadida faile ja me
+  keelata k\u00f5ikide liikmetele, et rikkuda autori\u00f5igusi.\\nKui see on sinu
+  t\u00f6\u00f6 looge oma konto ja n\u00f5ude omandi\u00f5igus selle kirje. Plaadi
+  oleks \u00fcmber oma kontole. Alates myxoo teil oleks v\u00f5imalik manipuleerida
+  koos oma plaadi.\\nKui tunned, et see fail on autori\u00f5igusega kaitstud palun
+  andke meile teada. Me eemaldada faili 24 tunni jooksul. Me ei vastuta \u00fcleslaetud
+  faili kohta xooplate. Liikmed laadida faile ja me keelata k\u00f5ikide liikmetele,
+  et rikkuda autori\u00f5igusi.\"", "\"Pohmelus p\u00e4rast Higgsi\\nFundamentaalf\u00fc\u00fcsikuid
+  on tabanud mitu matsu korraga.\\nViimased viisk\u00fcmmend aastat painas maailma
+  parimate f\u00fc\u00fcsikute krobelisi ajusid n\u00e4iliselt lihtne k\u00fcsimus:
+  miks on need osakesed, millest koosneme meie ja meid \u00fcmbritsev maailm, massiivsed?
+  F\u00fc\u00fcsikateooria j\u00e4rgi peaksid need olema massitud. Kuidas siis nii,
+  k\u00fcsime meie, kui raske ohkega vannitoakaalult maha astudes ilmselgelt kogeme
+  oma kaalukust. Just nimelt sel p\u00f5hjusel m\u00f5tlesid f\u00fc\u00fcsikud v\u00e4lja
+  teooria, mis seletab meie kaalukust ja mis sisaldab ka \u00fcht uut osakest, Higgsi
+  bosonit. P\u00e4rast viiek\u00fcmneaastast otsimist on see osake n\u00fc\u00fcd
+  l\u00f5puks leitud. Quo vadis, fundamentaalf\u00fc\u00fcsika?\\nIstun h\u00e4maras
+  suures saalis, mille lavale on suunatud eredad pro\u017eektorid. Publik on haaratud
+  eakast ettekandjast, \u00f5hus on pinget, rahulolu ja uudishimu. Hoolimata sellest,
+  et v\u00e4ljas on m\u00f5nus p\u00e4ikseline suveilm, on tuhatkond kuulajat kogunenud
+  juba hommikul siia h\u00e4marasse saali j\u00e4lgima professor Peter Higgsi monoetendust
+  \u201eMina ja minu boson\u201d.\\nPeter Higgs on staar, osakestef\u00fc\u00fcsika
+  megastaar. (Teaduse megastaari staatusele viitab vististi Paul Diracile omistatud
+  m\u00f5te, et ta eelistab k\u00fcmne tuhande idioodi tormilistele ovatsioonidele
+  k\u00fcmne geeniuse heakskiitvat \u00fcminat.) Megastaari kohta on Higgs tagasihoidliku
+  olemisega, isegi kohmetu, aga ootamatult kergesti haarab ta publiku endaga kaasa
+  oma eneseirooniliste naljade ja pidevalt sassi minevate ettekandeslaididega. Kuid
+  miks ei peaks tema lugu publikut haarama? Selles on olemas k\u00f5ik see, mis teeb
+  \u00fche loo huvitavaks: noorp\u00f5lve suured otsimised, avastused ja esimene armastus,
+  viisk\u00fcmmend aastat \u00f5nnetut ootamist ning siis \u00f5nnelik l\u00f5pp.
+  Ja seda k\u00f5ike jutustab vana mees, t\u00f5siselt ja s\u00e4ravate silmadega.
+  Panen t\u00e4hele, et tema monoloogis k\u00f5lab \u00fcllatavalt tihti s\u00f5na
+  \u201evein\u201d.\\nProfessor Higgsi monoloogi v\u00f5ib kokku v\u00f5tta nii. F\u00fc\u00fcsika
+  on teatavasti teadus, mis uurib meid \u00fcmbritsevat maailma, \u00fcritades seda
+  kirjeldada matemaatika keeles. Osakestef\u00fc\u00fcsikat huvitavad k\u00f5ige v\u00e4iksemad
+  n\u00e4htused meie \u00fcmber \u2013 kujuteldamatult v\u00e4ikesed osakesed ja see,
+  kuidas need \u00fcksteist m\u00f5jutavad. T\u00e4nap\u00e4eval usutakse, et seda
+  maailma kirjeldab matemaatiline mudel, mida osakestef\u00fc\u00fcsikud nimetavad
+  proosaliselt standardmudeliks. Higgsi boson on standardmudeli \u00fcks nurgakivi.
+  Ilma selle bosonita ei osata seletada osakeste masse ja seda, miks on looduses esinev
+  \u201en\u00f5rk vastasm\u00f5ju\u201d nii n\u00f5rk. Seega oli p\u00f5hjust k\u00f5vasti
+  pingutada bosoni leidmiseks, sest ilma selleta oleks osakestef\u00fc\u00fcsika arusaamine
+  meie maailmast sisuliselt kokku kukkunud. Selle k\u00fcbekese, Higgsi bosoni, otsimine
+  oli \u00fcks peamisi p\u00f5hjusi, miks ehitati miljardeid eurosid maksma l\u00e4inud
+  Tevatroni- ja LHC-nimelised osakestep\u00f5rgatid Ameerikas Chicago ja Euroopas
+  Genfi l\u00e4histele.\\nN\u00fc\u00fcd tagasi veini juurde. Vein on teatavasti tarkade
+  inimeste jook. Veiniga liialdamine v\u00f5ib pakkuda m\u00f5nusa \u00f5htu, aga
+  v\u00e4\u00e4ramatu t\u00f5en\u00e4osusega j\u00e4rgneb sellele ebameeldiv hommik.
+  M\u00f5neti sarnasesse olukorda on sattunud osakestef\u00fc\u00fcsika. Higgsi bosoni
+  avastamine oli viiek\u00fcmneaastase ponnistuse vili ning see t\u00f5i kaasa eufooria
+  ja \u0161ampanjajoad. N\u00fc\u00fcd on boson leitud, pidu l\u00e4bi, \u00f6\u00f6
+  m\u00f6\u00f6das ja vaikselt \u00e4rkavad pidulised pilutavad oma paistes silmi,
+  tundes, kuidas t\u00fchjus poeb hinge. Viisk\u00fcmmend aastat on ponnistatud, et
+  see neetud Higgsi boson k\u00e4tte saada. N\u00fc\u00fcd on see k\u00e4es, k\u00f5ik
+  on nagu korras, aga kuidas eluga edasi minna?\\nOlukord on veel hullem\\nViimased
+  kolmk\u00fcmmend aastat on paljud f\u00fc\u00fcsikud uskunud, et Higgsi bosoniga
+  koos leiame ka m\u00e4rke supers\u00fcmmeetriast. Laskumata detailidesse, siis supers\u00fcmmeetriat
+  on vaja selleks, et lahendada mainitud standardmudeli m\u00f5ningaid v\u00e4ikseid
+  n\u00f5rkusi. \u00dcks olulisem neist on hierarhia probleem ehk miks on Higgsi boson
+  nii kerge. Paljude f\u00fc\u00fcsikute arvates oleks loomulik, et boson on miljardeid
+  kordi kaalukam, kui olid ennustanud f\u00fc\u00fcsikaeksperimendid. Supers\u00fcmmeetria
+  on \u00fcks v\u00f5imalus selgitada bosoni nii v\u00e4ikest massi. Kui Higgsi bosoni
+  massiks m\u00f5\u00f5deti 126 GeV (umbes 126 vesiniku aatomi mass), siis supers\u00fcmmeetria
+  fanaatikud h\u00f5\u00f5rusid k\u00e4si \u2013 nii madala massi puhul peaks kindlasti
+  leidma uusi osakesi, mida supers\u00fcmmeetria teooria ennustab. Oh h\u00e4da! \u00dchtegi
+  sellist osakest ei ole veel leitud. N\u00fc\u00fcd n\u00e4ib hoopis, et supers\u00fcmmeetrikute
+  kulmude vahele on tekkinud t\u00f5sine murekorts.\\nSellega mured ei piirdu. Higgsi
+  bosoni mass on veel \u00fches m\u00f5ttes huvitav. Nimelt, Higgsi bosoni massist
+  s\u00f5ltub, kas vaakum on stabiilne v\u00f5i mitte. N\u00f6rdinud lugeja protestib
+  siinkohal: \u201eKui miski siin maailmas on p\u00fcsiv, siis v\u00f5iks see olla
+  t\u00e4iesti t\u00fchi ruum.\u201d Rahu, ainult rahu! Lihtsurelike ajaskaalas v\u00f5ime
+  muretud olla, vaakum ei hakka veel niipea lagunema. Vaakumi ebastabiilsus avaldub
+  k\u00fcmnete-sadade miljardite aastate ajaskaalas. Aga kui vaakum siiski peaks meie
+  l\u00e4heduses lagunema hakkama, siis on see s\u00fcndmus meile kindlasti katastroofiline.
+  \u201eMeie vaakumi\u201d lagunemine madalama energiaga vaakumiks n\u00e4eks v\u00e4lja
+  nagu hiiglasliku tulekera levik l\u00e4bi universumi, kusjuures tulekera leviks
+  valguse kiirusega ja see h\u00e4vitaks oma teel k\u00f5ik keerulisemad ainestruktuurid.
+  Veidral kombel on Higgsi bosoni mass t\u00e4pselt stabiilse-ebastabiilse juhu piiril:
+  kui Higgsi boson oleks raskem, siis oleks vaakum stabiilne, ja kui boson oleks kergem,
+  siis oleks vaakum ebastabiilne. Seega on bosoni mass just t\u00e4pselt selline,
+  et maailm n-\u00f6 ripub stabiilse-ebastabiilse vaakumi piiril. Kas see on juhus
+  v\u00f5i peitub selle taga mingi s\u00fcgavam p\u00f5hjus, seda me kahjuks veel
+  ei tea.\\nUnistuste purunemine\\nFundamentaalf\u00fc\u00fcsikuid on tabanud mitu
+  matsu korraga. Esiteks, \u00fche suure eesm\u00e4rgi t\u00e4itumine on tekitanud
+  kerge pohmeluse ja eesm\u00e4rgituse tunde. Pohmelusega k\u00e4ivad kaasas m\u00f5ned
+  t\u00f5sisemad haiguss\u00fcmptomid: unistuste purunemine (supers\u00fcmmeetria),
+  Higgsi bosoni veider mass (vaakumi stabiilsus-ebastabiilsus). Tundub, et \u00fchest
+  ravivast aspiirinist v\u00f5ib siinkohal v\u00e4heseks j\u00e4\u00e4da. V\u00f5ib-olla
+  on see hoopis mingi t\u00f5sisem haigus, mis on k\u00fcpsenud n\u00e4iliselt terves
+  kehas juba aastaid? Enne kui asume l\u00f5plikku diagnoosi panema, r\u00e4\u00e4gime
+  l\u00fchidalt fundamentaalf\u00fc\u00fcsika tagatoast.\\nFundamentaalf\u00fc\u00fcsika
+  tegeleb paratamatult probleemidega, mis on v\u00e4ga sageli eksperimentaalf\u00fc\u00fcsika
+  haardeulatusest v\u00e4ljas. F\u00fc\u00fcsikaeksperimentide teostamist piiravad
+  meid \u00fcmbritseva f\u00fc\u00fcsilise maailma paratamatused ja raha hulk, mida
+  \u00fchiskond on n\u00f5us f\u00fc\u00fcsikaeksperimentidesse panustama. Fundamentaalf\u00fc\u00fcsika
+  h\u00fcppab vahel v\u00e4ga kaugele eemale reaalsest f\u00fc\u00fcsilisest maailmast
+  ja siis j\u00e4lle t\u00f5mmatakse see kareda ja karmi eksperimentaatorik\u00e4ega
+  tagasi elule l\u00e4hemale. Kuna reaalse maailma kainestav m\u00f5ju on n\u00f5rk,
+  siis on fundamentaalf\u00fc\u00fcsikas alati olnud oluline roll tagatoal. Kui tagatoas
+  on soositud m\u00f5ni f\u00fc\u00fcsikateooria, siis kipub kogu f\u00fc\u00fcsikute
+  kogukond seda paratamatult rohkem v\u00f5i v\u00e4hem j\u00e4rgima. Kui suur on
+  f\u00fc\u00fcsikute tagatuba? Sajand tagasi koosnes see tinglik tagatuba ehk k\u00fcmmekonnast
+  maailma tippf\u00fc\u00fcsikust. N\u00fc\u00fcdseks on f\u00fc\u00fcsikute koguarv
+  suurenenud pea sada korda. Nagu \u00fchiskonnas kombeks, siis tagatoad moodustavad
+  umbes kuupjuure huvitatud seltskonna koguarvust. Seega v\u00f5iks tinglik t\u00e4nap\u00e4eva
+  tagatuba koosneda umbes viiek\u00fcmnest f\u00fc\u00fcsikust.\\nMilline on m\u00f5ttelise
+  tagatoa roll f\u00fc\u00fcsikas? M\u00f6\u00f6dunud sajandi seitsmek\u00fcmnendatel
+  tehti osakestef\u00fc\u00fcsikas mitu olulist l\u00e4bimurret. M\u00f5eldi v\u00e4lja
+  ja kontrolliti eksperimentaalselt tugeva vastasm\u00f5ju olemust. Samal k\u00fcmnendil
+  saadi selgust ka n\u00f5rga vastasm\u00f5ju omadustes. Just samadel seitsmek\u00fcmnendatel
+  m\u00f5tlesid f\u00fc\u00fcsikateoreetikud v\u00e4lja supers\u00fcmmeetria, stringiteooria
+  ja \u00fchendteooriad. \u00dchendteooriate j\u00e4rgi \u00fchinevad k\u00f5ik looduses
+  tuntud vastastikm\u00f5jud mingi v\u00e4ga k\u00f5rge energia juures \u00fcheks
+  vastasm\u00f5juks. Sellised teooriad on matemaatiliselt paeluvad ja esteetilised.
+  Stringiteooria v\u00e4idab ennast \u00fchendavat gravitatsioonin\u00e4htused ja
+  osakestef\u00fc\u00fcsikast tuntud elektromagnetilise, n\u00f5rga ja tugeva vastasm\u00f5ju.\\nJuhtus
+  nii, et enamik teoreetikuid asus suure hurraaga esteetiliselt nauditavate supers\u00fcmmeetria,
+  stringiteooria ja \u00fchendteooriate uurimisele. Samas hoopis p\u00f5letavamad
+  ja elulisemad f\u00fc\u00fcsikaprobleemid (tugev vastasm\u00f5ju jm) l\u00fckati
+  riiulile paremaid aegu ootama. Seda paljuski p\u00f5hjusel, et neid k\u00e4sitlev
+  matemaatika on suhteliselt ebaesteetiline. Ka tagatuba asus igati soosima supers\u00fcmmeetria,
+  stringiteooria ja \u00fchendteooriate uurimist ja nii keskendusid tuhanded osakestef\u00fc\u00fcsikud
+  neile teemadele aastak\u00fcmneteks. N\u00fc\u00fcd, p\u00e4rast aastak\u00fcmneid
+  kestnud rasket t\u00f6\u00f6d v\u00f5ivad supers\u00fcmmeetriaga tegelnud f\u00fc\u00fcsikud
+  avastada ennast l\u00f5hkise k\u00fcna eest. Higgsi bosoni avastamine pidi ju tooma
+  kaasa ka supers\u00fcmmeetria avastamise! N\u00e4ib, et selle asemel k\u00fcpsetab
+  see hoopis revolutsioonilist situatsiooni. Alamkihid ei taha ja \u00fclemkihid enam
+  ei saa vana viisi j\u00e4tkata. Kas siis fundamentaalf\u00fc\u00fcsika ongi haige?
+  Kas t\u00f5esti on k\u00fcpsemas revolutsiooniline situatsioon? Kuidas seda haigust
+  ravida? On h\u00e4sti teada, et revolutsiooni ajal hakkab aspiriini m\u00fc\u00fck
+  kiratsema, sest pohmelust ja peavalu hakatakse ravima giljotiiniga. Stopp! Meil
+  on revolutsiooniga veel veidike aega. LHC-nimeline p\u00f5rgati hakkab umbes aasta
+  p\u00e4rast uuesti t\u00f6\u00f6le, n\u00fc\u00fcd juba hoopis paremas vormis supers\u00fcmmeetria
+  p\u00fc\u00fcdmiseks. Ehk p\u00e4\u00e4seme vaid kerge ehmatusega ja pidu j\u00e4tkub
+  peatselt hoopis v\u00e4ikse peaparandusega \u2026\\nAeg n\u00e4itab, kuidas fundamentaalf\u00fc\u00fcsika
+  praegusest olukorrast v\u00e4lja rabeleb. Tasub meenutada, et fundamentalistid on
+  ennegi paradigmade murranguid \u00fcle elanud ja tegelikult sellega p\u00e4ris h\u00e4sti
+  hakkama saanud. 1905. aastal s\u00fcndis erirelatiivsusteooria, mis muutis meie
+  arusaamist aja ja ruumi suhetest. 1920. aastatel s\u00fcndis kvantmehaanika, mis
+  muutis kardinaalselt meie arusaamist mikromaailmast, f\u00fc\u00fcsikalise suuruse
+  m\u00f5\u00f5tmisest ja p\u00f5hjuslikkusest. 1950. aastad t\u00f5id kaasa kvantv\u00e4ljateooria,
+  mis muutis meie arusaamist vaakumi ja osakeste olemusest. Loodan, et kunagi v\u00f5in
+  kirjutada: olid murrangulised 2010. aastad \u2026\"", "\"Eesti sisses\u00f5idukeeldude
+  riiklikus registris on t\u00e4nase seisuga 2080 v\u00e4lismaalast, kes ei tohi Eestisse
+  siseneda.\\nEesti on kehtestanud sisses\u00f5idukeelu 2080 inimesele\\n2080 inimesest
+  on Eesti omal initsiatiivil kehtestanud sisses\u00f5idukeelu 1316 isikule, \u00fctles
+  siseministeeriumi pressiesindaja Mihkel Loide Postimehele.\\nEesti enda initsiatiivil
+  kohaldatud sisses\u00f5idukeeldudest moodustavad suurema osa ebaseaduslikult riigis
+  viibinud isikud, kellele on p\u00e4rast Eestist lahkumist kohaldatud sisses\u00f5idukeeld.\\nEesti
+  on k\u00f5ige enam kehtestanud sisses\u00f5idukeelde inimestele, kelle kodakondsus
+  on teadmata. Teistest enam on sisses\u00f5idukeelu saanud ka Venemaa, Ukraina, Vietnami
+  ja Valgevene kodanikud.\\nRiik ei pea sisses\u00f5idukeelu kehtestamisest inimest
+  eraldi teavitama. Siseministeerium paneb sisses\u00f5idukeelu all olevate inimeste
+  nimed \u00fcles oma veebilehele, kus ei ole \u00fcleval sisses\u00f5idukeelu all
+  olevate inimeste nimekirja, k\u00fcll aga on v\u00f5imalik leida nimi otsingu abil,
+  kui on teada v\u00e4lismaalase nimi, s\u00fcnniaeg v\u00f5i isikukood ja kodakondsus.\\nSiseministeerium
+  teatab kirjalikult sisses\u00f5idukeelust v\u00e4lismaalast kirjalikult vaid juhul,
+  kui inimene seda ise taotleb.\\n\u00dcldjuhul kannab Eesti sisses\u00f5idukeelu
+  saanud inimese nime ka Schengeni infos\u00fcsteemi ja sellega on inimesel keelatud
+  siseneda ka teistesse Schengeni viisaruumi kuuluvatesse riikidesse. Sisses\u00f5idukeeldu
+  ei kanta Schengeni infos\u00fcsteemi juhul, kui keeld on kehtestatud Euroopa Liidu,
+  Euroopa Majanduspiirkonna liikmesriigi v\u00f5i \u0160veitsi kodaniku suhtes.\\nSisses\u00f5idukeelu
+  saanud inimest ei kanta Schengeni infos\u00fcsteemi ka juhul, kui valdkonna eest
+  vastutava ministri v\u00f5i tema volitatud siseministeeriumi k\u00f5rgema ametniku
+  otsusega piiratakse sisses\u00f5idukeelu kehtivust vaid Eesti territooriumiga.\\nSisses\u00f5idukeeldu
+  v\u00f5ib kohaldada t\u00e4htajaliselt kuni k\u00fcmneks aastaks v\u00f5i alaliselt.\\nSeaduse
+  j\u00e4rgi v\u00f5ib sisses\u00f5idukeelu kehtestada juhul, kui on alust arvata,
+  et ta v\u00f5ib ohustada riigi julgeolekut, avalikku korda, \u00fchiskondlikku turvalisust,
+  k\u00f5lblust v\u00f5i teiste inimeste tervist. Samuti rakendab Eesti sisses\u00f5idukeeldu
+  juhul, kui on alust arvata, et ta kuulub kuritegelikku v\u00f5i terroristlikku \u00fchendusse
+  v\u00f5i on seotud terrorikuriteo rahastamisega, toetamisega v\u00f5i rahapesuga.\\nSisses\u00f5idukeelu
+  v\u00f5ib m\u00e4\u00e4rata ka v\u00e4lismaalastele, kes t\u00f6\u00f6tavad v\u00f5i
+  on t\u00f6\u00f6tanud v\u00e4lisriigi luure- v\u00f5i julgeolekuteenistuses, kelle
+  puhul v\u00f5ib arvata, et ta \u00f5hutab rassilist, usulist v\u00f5i poliitilist
+  vihkamist, keda on karistatud raske inimsusevastase v\u00f5i s\u00f5jakuriteo eest,
+  keda on karistatud tahtliku kuriteo eest ja karistatus ei ole kustunud, kui v\u00e4lismaalane
+  on rikkunud Eestis viibimist v\u00f5i riigipiiri \u00fcletamist reguleerivaid \u00f5igusakte.
+  Sisses\u00f5idukeelu v\u00f5ib saada ka Eesti ametiv\u00f5imudele valeandmete v\u00f5i
+  v\u00f5ltsdokumentide esitamise eest v\u00f5i juhul, kui inimesel on t\u00e4itmata
+  kohustusi Eesti riigi, riigiasutuse v\u00f5i kohaliku omavalitsuse ees.\"", "\"Juu
+  n\u00fcid soavad varsi elude \u00f5ued puhtaks roabitud. Laupa-p\u00fchabe andis
+  surt kenad ilma koa. N\u00f5nna et neljandal mail v\u00f5ib mureta talgu minna.
+  Talgukohti oo Muhus \u00fcksjagu. Ja kis p\u00f5le ennast viel kirja annud, siis
+  olge aga nobed.\\nAga enne talgup\u00e4\u00e4va oo sii viel \u00fchte koma teist.\\nRiede,
+  kahek\u00fcmne kuiendal n\u00e4ituseks oo lasteaa saalis \u00fcks pisike kokkusoamine.
+  Neh, sii v\u00e4h\u00e4m kut k\u00fcmmekond voastad tagasi Muhu Kess k\u00f6is v\u00e4lja
+  n\u00f5ukse m\u00f5tte, et muhulaste tehtud k\u00e4sit\u00fc\u00f6l piaks olema
+  mingisugune m\u00e4rk pial, et tiaks, et oo ikka Muhus tehtud. N\u00f5uke m\u00e4rk
+  isegid konkursi kordas leiti, aga miskip\u00e4rast j\u00e4hi asi soiku. N\u00fcid
+  aga oodetse igasuguseid k\u00e4sit\u00fc\u00f6 s\u00f5prasid riede \u00f5hta kellu
+  poole kuieks lasteaa saali, et natusse aru pidada. \u00c4kist oleks ikka s\u00f5ukest
+  m\u00e4rki taris? Ehk oo just n\u00fcid tuln \u00f5ige aeg, et m\u00e4rk kasutuse
+  v\u00f5tta.\\nNeh mis sii \u00fctelda. Kui sa ilmas-moas rinki liigud, siis n\u00e4eb
+  vahest igasugust nodi, midast muhulaste k\u00e4sit\u00fc\u00f6 p\u00e4he maha m\u00fciasse.
+  V\u00f5eras inimene ep soa arugid, et p\u00f5le \u00f5ige Muhu t\u00fc\u00f6.\\nAlles
+  ilja aa eest ma kuulsi, et \u00fche laulupidu aegas olli Talina linnas m\u00fc\u00fcdud
+  Muhu roosit p\u00e4tta. Aga nee oln s\u00f5uksed kossakad, et isegid soarlased,
+  kis neid n\u00e4gema juhtun, p\u00f5lle mitmel \u00fc\u00f6l magada soan, muhulastest
+  riakimata.\\nNeh, ja m\u00f5tle siis, kui inimene k\u00f6ib rinki, omastarust Muhu
+  roosit`luusa selgas ja siis m\u00f5ni tiadjam kuskil juhtub n\u00e4gema ja soab
+  aru, et p\u00f5legid \u00f5ige Muhu asi. V\u00f5ib ikka kahuvalu koa olla. Aga neh,
+  eks nee \u00f5iged meistrid, nikerdajad, ooletajad ja n\u00e4put\u00fc\u00f6 tegijad
+  piaksid ikka siikohtas oma s\u00f5na \u00fctlema.\\nLaupa, kahek\u00fcmne seitsmenda
+  \u00f5hta kellu seitsmest n\u00e4idatse Hellamaa k\u00fclakeskuses n\u00e4item\u00e4ngi.
+  Suure-Jaani n\u00e4itering teeb n\u00f5ukest t\u00fckki, misel oo nimeks \u201cKoristajad\u201d.
+  Pileti eest k\u00fcsitse kolm eurut.\\nJa tuleva n\u00e4dali oo neljal p\u00e4\u00e4val
+  \u2013 esmasbe, teesibe, neljabe ja riede \u2013 k\u00fclakeskuses kirbukas. Soab
+  omad \u00fclearused asjad \u00e4\u00e4 m\u00fc\u00fca v\u00f5i n\u00f5uksi osta,
+  misest puudus oo. Sest asjadega oo ikka sedaviisi, et mis oo \u00fchel \u00fcle,
+  see oo teesel puudu. T\u00e4psemaste soab uurida Tiina k\u00e4\u00e4st v\u00f5i
+  k\u00fclakeskuse televonni pialt.\\nTuleva teesibe, kolmek\u00fcmnendal, oo Vanatoal
+  pidu oodata. \u00d5lle\u00f5htat peetse ja kellu kahessast akatse pihta. Igatsorti
+  v\u00f5istlusi oo laanis ja m\u00e4lum\u00e4ng ja kodu\u00f5lut soab koa mekki.
+  Tantsi soab koa. Muhu Virtuoosid m\u00e4ngvad tansiks. Pileti innaks oo kaks eurut.
+  Ja neh, maha \u00fcitud k\u00fcll p\u00f5le, aga mine sa ullu tia, kui ikka kohale
+  minna ja kangeste kenasti paluda, \u00e4kist soab sooja \u00f5lut koa.\\nAga olga
+  meite riaki ja olge ikka munuksed!\\nLisa kommentaar\"", "\"Laki k\u00f5rgus m\u00e4\u00e4rab
+  seina suuruse, mida dekoratiivsed seinapaneelid katavad. Seinale visuaalse huvi
+  tekitamiseks lisatakse lambiplaat, kuid k\u00f5rgus on muutuv ja v\u00f5ib muuta
+  ruumi ilmet.\\nLaevade standardk\u00f5rgus on 36\u201342 tolli, kuid lambikatte
+  k\u00f5rgused v\u00f5ivad erineda olenevalt ruumi stiilist ja suurusest, ruumi otstarbest
+  ja isiklikest eelistustest.\\nSisekujundajad paigaldavad erineva k\u00f5rgusega
+  lambiplaate, et luua konkreetne visuaalne efekt v\u00f5i mahutada ruumi staatilisi
+  elemente. Laevakatte k\u00f5rgus on l\u00f5ppkokkuv\u00f5ttes disainivalik, mis
+  tasakaalustab pretsedendi, maitse ja stiili.\\nIdeaalne p\u00f5randakatte k\u00f5rgus
+  on iga ruumi jaoks erinev ja s\u00f5ltub mitmest tegurist. Siin on juhised, mis
+  aitavad teie ideid struktureerida, kui k\u00fcsite oma ruumi jaoks parimat p\u00f5randakatte
+  k\u00f5rgust.\\nV\u00f5tke arvesse ruumi \u00fcldisi proportsioone. Lammi k\u00f5rgus
+  peaks sobima proportsionaalselt \u00fclej\u00e4\u00e4nud ruumiga ja suurendama visuaalset
+  atraktiivsust. T\u00fc\u00fcpiline lambiplaat on vahemikus 36\u201342 tolli, kuid
+  see v\u00f5ib muutuda, kui ruumis on k\u00f5rgemad v\u00f5i madalamad laed. \u00dcldiselt
+  katab lambiplaadi k\u00f5rgus kolmandiku seina k\u00f5rgusest, kuid k\u00f5rgem
+  lambiplaat on trendikas ja v\u00f5ib muuta ruumi ametlikumaks. Kui teile meeldib
+  k\u00f5rgem lambikivi, kaaluge lambiplaati, mis katab kaks kolmandikku seinast.
+  See loob tasakaalustatud ruumi visuaalselt meeldivate proportsioonidega.\\nRuumi
+  funktsioon m\u00e4ngib olulist rolli lambikatte k\u00f5rguse m\u00e4\u00e4ramisel,
+  kuna see v\u00f5ib m\u00f5jutada ruumi v\u00e4limust ja funktsiooni. Ametlikes ruumides,
+  nagu pidulikud s\u00f6\u00f6gisaalid v\u00f5i sissep\u00e4\u00e4sud, lisab k\u00f5rge
+  lambiplaat klassikalise ja rafineeritud ilme. Vannitubades kaitseks seinu niiskuse
+  ja pritsmete eest m\u00f5\u00f5duka k\u00f5rgusega lambiplaat. Ruumide puhul, nagu
+  mudaruumid, kus seinad v\u00f5ivad pidevalt kuluda, t\u00f6\u00f6tab k\u00f5rge
+  lambiplaat h\u00e4sti. See on abiks ka siis, kui soovite parema t\u00f6\u00f6 tagamiseks
+  lisada k\u00f5rge riiuli v\u00f5i konksud.\\nTeie kodu arhitektuurne stiil m\u00f5jutab
+  tavalisi standardk\u00f5rgusi. Ametlikud arhitektuuristiilid, nagu viktoriaanlik
+  ja gooti, n\u00e4evad sageli head v\u00e4lja ka k\u00f5rgema lambikattega. V\u00e4hem
+  ametlike stiilide puhul, nagu kaasaegne, sajandi keskpaiga moodne ja talumaja, on
+  sobilik madalam p\u00f5randakatte k\u00f5rgus. Nagu alati, ei pea teie lambiplaadi
+  k\u00f5rgus olema kivisse raiutud isegi siis, kui teie kodu stiil m\u00e4\u00e4rab
+  kardina standardk\u00f5rguse.\\nK\u00f5ik teie kodu elemendid peaksid t\u00f6\u00f6tama
+  harmoonias. Arhitektuursed omadused peaksid pakkuma teie m\u00f6\u00f6blile parimat
+  paika. Voodikatte k\u00f5rguse m\u00e4\u00e4ramisel arvestage m\u00f6\u00f6bli paigutuse
+  ja stiiliga. Kaaluge s\u00f6\u00f6gituba; lambiplaat peaks olema piisavalt k\u00f5rge,
+  et kaitsta seinu tooli seljatugede kulumise eest. Magamistubades peaks lambikatte
+  k\u00f5rgus arvestama voodite k\u00f5rgust, et lambiplaat n\u00e4eks voodi stiiliga
+  harmooniline v\u00e4lja. K\u00f6\u00f6kides peaks lambikatte k\u00f5rgus arvestama
+  kappe ja t\u00f6\u00f6pindu\\nRuumi p\u00fcsivad elemendid, nagu aknad, uksed, kapid
+  ja muud liistud, m\u00e4ngivad \u00fcliolulist rolli p\u00f5randakatte sobiva k\u00f5rguse
+  m\u00e4\u00e4ramisel. Saate need lambikattega integreerida v\u00f5i v\u00e4hemalt
+  annavad nad juhised lambiplaadi sobiva k\u00f5rguse kohta. Nende elementide arvessev\u00f5tmine
+  v\u00e4hendab ebamugavat \u00fcleminekut nendelt funktsioonidelt lambiplaadile.\\nAjaloolistes
+  kodudes oli lambilaudade k\u00f5rgus umbes sama k\u00f5rge kui aknalauad. Kuigi
+  see ei ole praegu range reegel, on see v\u00e4limus ajalooliselt sobiv, see ei t\u00f6\u00f6ta,
+  kui teie aknalauad on madalad. Muud ruumifunktsioonid, mis v\u00f5ivad lambikatte
+  k\u00f5rgust m\u00f5jutada, on kaminad, trepid, v\u00f5lvk\u00e4igud ja sambad.\\nV\u00f5tke
+  lambiplaadi k\u00f5rguse kavandamisel arvesse olemasolevaid elemente, kuid arvestage
+  ka tulevase ruumikujunduse ja eesm\u00e4rkidega. Kaaluge p\u00fcsivaid funktsioone,
+  mida kavatsete lisada, sealhulgas taustapilti, v\u00e4rvi v\u00e4rvi ja olemasolevaid
+  elementide muudatusi, mida soovite rakendada. Lisage ka suured dekoratiivesemed,
+  mida soovite ruumi lisada, sealhulgas suured pildid, peeglid v\u00f5i seinadetailid.
+  Need v\u00f5ivad m\u00f5jutada p\u00f5randakatte k\u00f5rgust, kuna see m\u00f5jutab
+  t\u00fckkide riputamist.\\nIsiklik maitse m\u00e4ngib olulist rolli lambikatte k\u00f5rguse
+  m\u00e4\u00e4ramisel konkreetses ruumis. M\u00f5elge, millist visuaalset m\u00f5ju
+  soovite ruumile avaldada. Valige k\u00f5rge kattekiht, kui soovite, et see oleks
+  dramaatilisem, v\u00f5i madalam, kui soovite eelistada juhuslikku v\u00e4limust.
+  P\u00fc\u00fcdke tagada, et teie kujundus oleks kogu ruumi ulatuses \u00fchtlane,
+  v\u00f5ttes arvesse erinevate ruumide lambikatte t\u00fc\u00fcp ja k\u00f5rgus.
+  Pidage meeles, et kuigi on disaini ja proportsioonide kaalutlusi, peaks ruumi kujundus
+  teile meeldima. Katsetage julgelt erinevate v\u00e4limustega, et leida oma maitsele
+  ja stiilile sobiv.\\nLaevakatte loomine ruumis n\u00f5uab aega, planeerimist ja
+  raha, seega on see otsus, mida tuleks enne vajalike kulutuste investeerimist hoolikalt
+  kaaluda. Lammi k\u00f5rguse katsetamine n\u00f5uab l\u00e4bim\u00f5tlemist ja planeerimist,
+  kuid pikemas perspektiivis s\u00e4\u00e4stab see, et enne ehitusprotsessi alustamist
+  tuleb \u00f5ige otsus teha.\\nM\u00f5\u00f5tke ja planeerige \u2013 M\u00f5\u00f5tke
+  seinad, kuhu soovite lambikatte lisada. M\u00e4\u00e4rake kaalutava lambikatte k\u00f5rgusvahemik.
+  V\u00f5tke teadmiseks oma isiklikud eelistused, kodu stiil, ruumi suurus ja proportsioonid
+  ning ruumis olevad ja tulevased elemendid. Maketi loomine \u2013 makett on lambiplaadi
+  k\u00f5rguse ajutine kujutis, et saaksite ruumi kontekstis endale meelep\u00e4rase
+  k\u00f5rguse visualiseerida. Looge ajutisi paneele papist, vahtplaadist, paberist
+  v\u00f5i maalriteibist, et luua seinale ajutisi \\\"paneele\\\" v\u00f5i paneeli
+  kujundite piirjooni. Kasutage paberpaneelide seinale kinnitamiseks teipi. Veenduge,
+  et need oleksid seina \u00e4\u00e4res tasased ja \u00f5iges proportsioonis. Visualiseerige
+  \u2013 astuge tagasi ja m\u00f5elge v\u00f5ltskatte k\u00f5rgusele erinevate nurkade
+  alt. M\u00f5elge, kuidas see visuaalselt suhtleb m\u00f6\u00f6bli, olemasolevate
+  elementidega, nagu aknad ja uksed, ning kuidas see m\u00f5jutab ruumi \u00fcldist
+  stiili. Hinnake praktilisust \u2013 ruumi funktsiooni silmas pidades arvestage lambiplaadi
+  k\u00f5rgust. M\u00f5elge, kas lambiplaadi k\u00f5rgus suurendab v\u00f5i v\u00e4hendab
+  seina vastupidavust. Koguge tagasisidet \u2013 R\u00e4\u00e4kige oma pere ja s\u00f5pradega
+  lambikatte k\u00f5rgusest ja koguge nende m\u00f5tteid lambiplaadi k\u00f5rguse
+  kohta. Reguleerige vastavalt vajadusele \u2013 oma hinnangu ja saadud tagasiside
+  p\u00f5hjal tehke k\u00f5ik vajalikud muudatused \u201emaketti\u201d lambiplaadi
+  k\u00f5rguse osas. See v\u00f5ib h\u00f5lmata k\u00f5rguse t\u00f5stmist v\u00f5i
+  langetamist v\u00f5i paneelide vahekauguse muutmist. Korrake uue k\u00f5rguse arvestamise
+  protsessi, kuni leiate k\u00f5ige paremini sobiva lambikatte k\u00f5rguse. Salvestage
+  oma leiud \u2013 kui olete kindla lambikatte k\u00f5rgusega rahul, kirjutage oma
+  m\u00f5\u00f5dud \u00fcles ja tehke maketist edaspidiseks kasutamiseks pilte. Konsulteerige
+  professionaaliga \u2013 kui te pole p\u00e4rast seda protsessi ikka veel kindel,
+  milline on parim p\u00f5randakatte k\u00f5rgus, v\u00f5ib olla kasulik konsulteerida
+  professionaaliga. R\u00e4\u00e4kige ehitaja v\u00f5i sisekujundajaga nende teadmiste
+  ja teadmiste kohta lambikatte k\u00f5rguse kohta. Nad oskavad teile oma kogemuste
+  p\u00f5hjal n\u00f5u anda, kuidas toa eesm\u00e4rke saavutada.\\nLaevaplaadi k\u00f5rgusel
+  on dramaatiline visuaalne m\u00f5ju ja see peaks suurendama ruumi visuaalset atraktiivsust.
+  Kaaluge neid disainiideid ja viisi, kuidas saate lambiplaadi k\u00f5rgust ruumi
+  stiili v\u00f5imendamiseks kasutada.\\nSajandi keskpaiga kaasaegsetes ja kaasaegsetes
+  kodudes on sageli lihtsad vormimisvormid. Fox Interiors kasutas selles s\u00f6\u00f6gitoas
+  madalat puitplaadist plaati. Selle helesinise v\u00e4rvimine koos nurgakappidega
+  loob s\u00f6\u00f6gitoale \u00fchtse, kuid eklektilise ilme.\\nSelle ametliku s\u00f6\u00f6gitoa
+  \u00fcmberehituse k\u00e4igus kasutas hoone lambikatte k\u00f5rguse m\u00e4\u00e4ramiseks
+  akende k\u00f5rgust. See keskmise k\u00f5rgusega lambrein annab s\u00f6\u00f6gitoale
+  elegantse, kuid tagasihoidliku ilme.\\nParima lambiplaadi k\u00f5rguse m\u00e4\u00e4ramisel
+  on oluline arvestada m\u00f6\u00f6bliga. Selle magamistoa p\u00f5randakatte k\u00f5rgus
+  raamib t\u00f5husalt k\u00f5rget voodipeatsi. See on selles ruumis visuaalselt meeldivam
+  kui madal lambiplaat.\\nTeatud tapeedikujundused t\u00f6\u00f6tavad m\u00f5ne lambiplaadi
+  k\u00f5rgusega paremini kui teised. Selles n\u00e4ites valis disainer konkreetse
+  tapeedikujunduse p\u00f5hjal kohandatud lambiplaadi k\u00f5rguse, mis sobib ideaalselt
+  lambipinna kohal oleva seinapinnaga.\\nWain on kasulik poriruumides, kuna see kaitseb
+  seinu kriimustuste ja kriimustuste eest. See on kasulik ka siis, kui soovite lisada
+  seinakonkse v\u00f5i riiuleid, kuna see muudab lisaraskuse kandmiseks tugevama pinna.\\nAvaratesse
+  k\u00f5rgete lagedega ruumidesse sobib k\u00f5rge lambilaud. Selle ruumi lambiplaat
+  j\u00e4rgib visuaalselt meeldivat standardset kolmandiku reeglit. Lihtkate katab
+  ligikaudu kaks kolmandikku, mis j\u00e4tab \u00fclej\u00e4\u00e4nud \u00fche kolmandiku
+  seinapinnast.\\nKui teile meeldib meie leht, jagage seda oma s\u00f5pradega & Facebook\""]'
 src_ngrams: '{"1": [[["ka"], 43739260], [["v\u00f5i"], 42187466], [["ning"], 33211866],
   [["v\u00f5ib"], 21343526], [["eesti"], 17809455]], "2": [[["v\u00f5ib olla"], 3110252],
   [["mitte ainult"], 2101891], [["samal ajal"], 1960026], [["vaid ka"], 1313604],

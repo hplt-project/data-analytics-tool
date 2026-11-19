@@ -1,4 +1,4 @@
-corpus: hplt-v4-hrv
+corpus: hplt-v4-hrv_Latn
 srclang: hrv
 timestamp: 1789919940.2051423
 warnings: []
@@ -2695,7 +2695,1907 @@ src_langs: '[["hr", 271558535], ["sr", 97258821], ["en", 14654506], ["it", 73632
   ["tyv", 61], ["mzn", 47], ["lrc", 46], ["bxr", 43], ["mai", 13], ["dty", 4]]'
 hardrules_tags: '{"not_too_long": 3534951, "not_too_short": 51974674, "length_ratio":
   0, "no_urls": 6235266, "no_bad_encoding": 8938, "pii": 1320881}'
-sample: hplt-v4-hrv_Latn-sample
+sample: '["\"Atena\\nAtena je najstarija prijestolnica zapadnog svijeta, kolijevka
+  zapadne kulture, mjesto ro\u0111enja demokracije i jedan od najzna\u010dajnijih
+  gradova za \u010dovje\u010danstvo uop\u0107e.\\nPogledajte na\u0161u posebnu ponudu
+  za letove za Atenu i kupite svoju avio kartu ovdje.\\nZnamenitosti\\n- Akropola
+  - kompleks koji sadr\u017eava: hram bo\u017eice pobjede Nike, monumentalne prilazne
+  trijemove propileje, najpoznatiji svjetski hram Partenon, Eskulapovo sveti\u0161te,
+  Dionizovo kazali\u0161te, rimsko kazali\u0161te Heroda Atika\\n- Agora - tr\u017enica
+  i sredi\u0161te anti\u010dke Atene. Unutar Agore nalazi se Hephaisteion, jedan od
+  najbolje o\u010duvanih hramova iz doba anti\u010dke Gr\u010dke.\\n- ostaci hrama
+  Olimpa, posve\u0107enog Zeusu, Kerameiskos - groblje starih Atenjana, brdo Areopaga
+  na kojemu je bila sudnica za ubojstva, podru\u010dje Ilisa - lokalitet mnogih gr\u010dkih
+  i rimskih gra\u0111evina, Erehtejon - hram Atene, Posejdona i prvih atenskih kraljeva,
+  Panatenski put, Lizikratov spomenik, Asklepijevo sveti\u0161te, Demetrino sveti\u0161te,
+  Stadion Panathinaiko.\\n- Plaka - najstarija \u010detvrt grada s mnogobrojnim tavernama,
+  tradicionalnim gr\u010dkim restoranima, no\u0107nim klubovima, kafi\u0107ima, trgovinama,
+  suvenirnicama i znamenitostima poput Trga Monastiraki, Nacionalnih vrtova, Bizantskog
+  muzeja i muzeja Benaki\\nKultura, znanost i umjetnost\\n- Akropolski muzej (Mouse\u00edo
+  Akr\u00f3polis), Nacionalni arheolo\u0161ki muzej (Ethnik\u00f3 Archaiologik\u00f3
+  Mouseio) - jedan je od najva\u017enih svjetskih muzeja, Muzej Benaki (Mouseio Benaki),
+  Muzej gr\u010dkih glazbala (Mouse\u00edo Ellinik\u00f3n Mousikon Org\u00e1non),
+  Muzej narodne umjetnosti (Mouse\u00edo Ellinikis Laikis Technis), Bizantski muzej
+  (Vizantino Mouseio), Muzej Agore (Museo tis Agoras)\\n- Akademija, jedna od prvih
+  organiziranih \u0161kola u povijesti na\u0161e civilizacije, prvi je dio neoklasicisti\u010dke
+  trilogije u Ateni, a osnovao ju je gr\u010dki filozof Platon 387. godine pr. Kr.\\n-
+  Moderno sveu\u010dili\u0161te, drugi dio neoklasicisti\u010dke trilogije, utemeljeno
+  je 1837. g.\\nNarodna knji\u017enica, tre\u0107i je dio neoklasicisti\u010dke trilogije
+  u Ateni\\nGastronomija\\n- Karakteristi\u010dni sastojci: sir feta, maslinovo ulje,
+  za\u010dini\\nPredjela:\\n- bourekakia\\n-\\nmale mesne pite\\n-\\ntiganita\\n-\\nrazli\u010dite
+  vrste povr\u0107a poput tikvica ili patlid\u017eana, pohane\\n-\\ndolmade - sarmice
+  od vinove loze punjene ri\u017eom i drugim povr\u0107em\\n-\\nhoriatiki - salata
+  s maslinama, feta sirom, povr\u0107em i klasi\u010dnim dresingom na bazi maslinova
+  ulja\\n- tzatziki - umak od jogurta s dodatkom krastavaca i \u010de\u0161njaka\\n-\\ntiropita
+  - slana pita sa sirom\\n- spanakopita - slana pita sa \u0161pinatom koja se poslu\u017euje
+  i u fast food verziji\\nGlavna jela:\\n-\\nmusaka - zape\u010deni slo\u017eenac
+  od mesa, krumpira i povr\u0107a\\n-\\npastisio - tjestenina s mljevenim mesom i
+  be\u0161amelom\\n-\\nkeftedes - \u0107ufte, frikase - janjetina u slo\u017eencu
+  s celerom i povr\u0107em\\n-\\nsouvlaki - janjetina nasjeckana na kockice i pripremljena
+  na ro\u0161tilju, koja se jede s tzatzikijem, kruhom i povr\u0107em\\n-\\ngyros
+  - janjetina na okomitom ra\u017enju, poslu\u017euje se s umacima, a sve \u010de\u0161\u0107e
+  kao fast food\\nDeserti:\\n- baklava\\n-\\nkoufeta - u\u0161e\u0107ereni bademi\\n-\\nloukumades
+  - pr\u017eeno tijesto natopljeno medom i cimetom\\n-\\nkoulourakia - slatki\u0161i
+  na bazi maslinovog ulja\\n-\\nkourabiedes - uskrsni kola\u010di\u0107i s bademima,
+  posuti \u0161\u0107erom u prahu\\n-\\nvasilopita - pe\u010de se za Novu godinu\\nAlkoholna
+  pi\u0107a:\\n-\\nuzo - rakija za\u010dinjena anisom, a ima 80 posto alkohola\\n-\\ntsipouro
+  - rakija s jo\u0161 ve\u0107im udjelom alkohola\\n-\\nmetaksa - pi\u0107e sli\u010dno
+  brendiju, naj\u010de\u0161\u0107e s udjelom alkohola od 40 posto\\n-\\ngr\u010dka
+  vina - opora jer nekim se sortama dodaje borova smola\\nShopping\\n-\\nErmou - ulica
+  u pje\u0161a\u010dkoj zoni, neposredno pokraj trga Syntagma, najfrekventnija shopping
+  zona, nudi velik izbor cipela, odje\u0107e, suvenira i modnih dodataka\\n- Kolon\u00e1ki
+  - \u010detvrt s najboljom ponudom trgovina nakitom, od poznatih me\u0111unarodnih
+  marki poput Bvlgarija i gr\u010dkih dizajnera poput Elene Votsi do ljupkih trgovina
+  zlatnoga i srebrnog nakita u duhu gr\u010dke tradicije. U ovoj \u010detvrti mo\u017eete
+  na\u0107i kvalitetnu robu, keramiku, ko\u017enu galanteriju i alkoholna pi\u0107a.\\n-\\nUlica
+  Mitropoleos - odlikuje se najbogatijom ponudom suvenira i nakita\\n-\\nPlaka - \u010detvrt
+  poznata po suvenirnicama i trgovinama u kojima se mogu na\u0107i ru\u010dno pleteni
+  sagovi - flokate, d\u017eezve, djevi\u010dansko maslinovo uje i med, a sve je otvoreno
+  cijeli dan, \u010dak i nedjeljom\\n-\\nMonastir\u00e1ki - \u010detvrt pokraj Plake,
+  u kojoj se mo\u017ee prona\u0107i sve: od starih knjiga do kopija dizajnerskih nao\u010dala
+  i starih nov\u010di\u0107a\\n-\\nEleftheroudakis na Panepistimiouu - najbolja knji\u017eara
+  u gradu s velikim izborom beletristike na engleskom jeziku\\n-\\nNedjeljom je otvoren
+  i buvljak, od 8 do 14 sati, a na Agori, centralnoj tr\u017enici u blizini trga Omonia,
+  nudi se svje\u017ee meso, riba, vo\u0107e i povr\u0107e, a radi od ranog jutra do
+  nave\u010der\\nZabava\\n- blagdan svetog Bazilija, prvi dan nove godine - veliko
+  atensko slavlje povodom kojega Grci daruju svoje voljene\\n-\\nThissio, Kolonaki
+  - popularne \u010detvrti s mondenim barovima i kafi\u0107ima\\n-\\nTrg Exarchia
+  - najpoznatiji lokali s tradicionalnom buzuki ili rembetika\\nNo\u0107ni \u017eivot\\n-\\n\u010detvrti
+  Syntagma i Psirri u sredi\u0161tu Atene te \u010detvrti Kifissia, Glyfada, Vouliagm\u00e9ni,
+  Voula i Varkiza u predgra\u0111u bogate su no\u0107nim klubovima i barovima, u kojima
+  se slu\u0161a popularna me\u0111unarodna glazba. Barovi su otvoreni do 4, a no\u0107ni
+  klubovi do 4 ili 6 sati. Alkoholna pi\u0107a poslu\u017euju se osobama starijima
+  od 18 godina.\\nSport\\n-\\nnogometni klubovi Olympiacos, Panathinaikos i AEK Atena\\n-\\nko\u0161arka\u0161ki
+  klubovi Olympiacos i Panathinaikos\\n-\\nOlimpijski sportski kompleks \\\"Spiros
+  Louis\\\" ili OAKA - sportski kompleks, doma\u0107in mnogih \u0161portskih doga\u0111aja
+  poput Mediteranskih igara 1991., Svjetskog prvenstva u atletici 1997. i Olimpijskih
+  igara 2004. godine.\\n-\\nOlimpijska dvorana - sagra\u0111ena 1995. i kori\u0161tena
+  za potrebe sportskih natjecanja za Olimpijskih igara 2004. godine\\n-\\nOlimpijski
+  vodeni centar - sagra\u0111en je 1991. za potrebe Mediteranskih igara; dva vanjska
+  bazena i jedan unutra\u0161nji\\nSlobodno vrijeme\\n-\\nNacionalni vrtovi - prekrasna
+  zelena oaza u milijunskom gradu s mno\u0161tvom klupica, mjesta za piknik, ljupkih
+  kafi\u0107a, jezeraca s patkama i malenim zoolo\u0161kim vrtom\\n-\\nBrdo Filopappos
+  - povijesno zna\u010dajan park s lijepim pogledom na Akropolu\\n-\\nZabavni park
+  - igre, kinodvorane, trgovine, restorani, park\\nPrijevoz\\nJavni gradski prijevoz:\\n-\\nJavni
+  je prijevoz jeftin i pokriva veliku povr\u0161inu grada, a dnevne karte ili mjese\u010dna
+  propusnica za cijelu gradsku mre\u017eu mogu se kupiti na autobusnim terminalima
+  i uli\u010dnim kioscima. Plavo-bijeli autobusi voze svaki dan i no\u0107u na duljim
+  linijama. U najposje\u0107enijim dijelovima grada postoji nekoliko ruta \u017eutih
+  trolejbusa. Linija 1 podzemne i nadzemne \u017eeljeznica vozi sa sjevera prema jugu
+  povezuju\u0107i predgra\u0111e Kifissia i luku Pirej. Linija 2 vozi od Agios Antoniosa
+  do Agios Dimitriosa, a linija 3 od \u010detvrti Monastiraki do zra\u010dne luke
+  Eleftherios Venizelos. Postoje i dodatne tri linije koje povezuju sredi\u0161te
+  grada s obalom: jedna vozi od \u010detvrti Syntagma do Neo Falira, druga od \u010detvrti
+  Syntagma do \u010detvrti Glyfada, a tre\u0107a od Neo Falira do Glyfade. Sve informacije
+  o javnom prijevozu mo\u017eete pogledati ovdje.\\n-\\nRadiotaksi mo\u017eete rezervirati
+  telefonski, a postoji nekoliko poduze\u0107a, npr. Athina 1, Ermis, Hellas, Ikaros.
+  Slu\u017ebena taksi vozila \u017eute su boje, registarske su plo\u010dice bijele
+  s crvenim brojevima, a mo\u017eete ih zaustaviti na ulici. Taksi usluge u Ateni
+  jeftinije su od svih u ostalim europskim metropolama.\\nVeza zra\u010dna luka -
+  grad:\\n- Me\u0111unarodna zra\u010dna luka Eleftherios Venizelos udaljena je 27
+  km od grada: tri autobusne linije prevoze putnike od zra\u010dne luke do grada ili
+  natrag. Vo\u017enja stoji oko 4 eura i vrijedi 24 sata za javni prijevoz (autobus,
+  trolejbus, metro). Do grada mo\u017eete i turisti\u010dkim autobusom, limuzinom
+  ili taksijem.\"", "\"Kori\u0161tenje More krkavine vo\u0107a varira: oni su jeli
+  svje\u017ee, su\u0161ene, mraz, u\u010diniti ih vo\u0107ni napitci, d\u017eem i
+  vino. Na mora krkavine ima rijetku zna\u010dajku: zbog izostanka oksidacijskog enzima
+  vitamina C u njoj nije uni\u0161ten grijanje. No, ova zna\u010dajka vrijedi samo
+  za vitaminom C, a drugi, na \u017ealost, ne vrijedi. Tako se tradicionalno \u0161tede
+  preporu\u010diti dokazane metode berbe, jer bobica \u010duvati u hladnjaku nekoliko
+  dana.\\nSvezhesobrannuyu, krkavine netaknut, mjesto u plasti\u010dnu vre\u0107icu
+  i zamrznite.\\nNa temperaturi od 10-15 \u00b0 C, ostaje Pa 12 mjeseci, gotovo bez
+  gubitka okusa i prehrambene kvalitete. Polo\u017eite oguljene vo\u0107e na podlo\u0161ku
+  Electrica i suha na temperaturama iznad 60 \u00b0 C do to\u010dke u kojoj vi\u0161e
+  ne lijepi za ruke. Spremni krkavine prevesti u staklenku s poklopcem i uskoj \u010cuvati
+  na suhom i tamnom mjestu na sobnoj temperaturi.\\nUz more krkavine vo\u0107a pulpe
+  mo\u017ee biti pravi multivitaminski koncentrat - masna ulja koja sadr\u017ei karoten
+  i karotenoidi, askorbinsku kiselinu, vitamin E i druge ulje poma\u017ee lije\u010diti
+  rane, opekline, smrzotine i \u010direva. Lije\u010di korisna svojstva i o\u0161te\u0107enja
+  tkiva zra\u010denjem, koji se koristi u praksi, ginekolo\u0161ki pretilosti, \u044dndotservitsytah,
+  vrata maternice erozija. Uklanjanje ulcerativnih lezije rektuma, unutarnje hemoroide,
+  analne fisure, i ono \u0161to je dio svije\u0107a. To se koristi za bolesti sluznice
+  usne \u0161upljine, i parodontnih bolesti di\u0161nih puteva. I mora krkavine ulje
+  s blagotvornim svojstvima koriste u kozmetici za suhu i starenje ko\u017ee (za to
+  svaki put dodaju\u0107i da kreme nekoliko kapi ulja), pobolj\u0161ava strukturu
+  kose i poma\u017ee kod lomljive nokte. I u tu svrhu mo\u017ee se primijeniti lokalno,
+  kao i oralno.\\nKrkavine preuzeti i stisnuti sokovnik ili morta. Sok nije potrebno,
+  mo\u017ee sa\u010duvati ili popuniti \u0161e\u0107er u omjeru 1:15. Ono \u0161to
+  je preostalo nakon uklanjanja puno soka ili suhog elektrosushartsi pe\u0107nici
+  na 50-60 \u00b0 C onda ga samljeti sa mljevenje i prelijte profinjenu suncokret
+  ili maslinovo ulje u omjeru 1:15 (po te\u017eini). Inzistirati na sobnoj temperaturi
+  za 3 tjedna, povremeno mije\u0161aju\u0107i. Zatim lagano ulijte teku\u0107i dio
+  tamne boce. Sve ljekovite nafte je spreman!\\nPreuzeti i \u010di\u0161\u0107enje
+  bobice su vrijedne korisna svojstva, ocijedite ih s korisnim svojstvima za sok.
+  Uz 4 kg vo\u0107a van oko 3 litre soka. Da bi se smanjila kiselost, razrijedite
+  ga na pola s kuhanim vodom, instalaciju vode vrata i ostaviti da fermentira. Nakon
+  fermentacije ulijte vino u boce, zakuporte i mjesto na hladnom mjestu. Stand tijekom
+  godine - Vino ima zlatnu boju, svjetlo ananasa miris i slatko-kiselog okusa.\"",
+  "\"Resecurity, istaknuti globalni pru\u017eatelj rje\u0161enja za kiberneti\u010dku
+  sigurnost, lansirao je inovativno rje\u0161enje za za\u0161titu identiteta ekskluzivno
+  dizajnirano za filipinsko tr\u017ei\u0161te. S naglaskom na uskla\u0111enost sa
+  Zakonom o privatnosti podataka (\u201cDPA\u201d), ovo revolucionarno rje\u0161enje
+  namijenjeno je promjeni digitalnog krajolika na Filipinima osiguravaju\u0107i identitete
+  pojedinaca od curenja nacionalnih identifikacija, podataka o ra\u010dunima, lozinki
+  i ostalih osobnih informacija dostupnih na internetu.\\nUz rastu\u0107i broj kiberneti\u010dkih
+  prijetnji i intenziviranje vala digitalizacije, Filipini igraju klju\u010dnu ulogu
+  u Indo-pacifi\u010dkoj regiji. Me\u0111utim, ova digitalna transformacija neizbje\u017eno
+  je u\u010dinila pojedince i tvrtke podlo\u017enima \u0161irokom nizu kiberneti\u010dkih
+  rizika poput aktivnosti Tamne mre\u017ee, izlo\u017eenosti osobno prepoznatljivih
+  informacija (PII) i preuzimanja ra\u010duna. Napredno rje\u0161enje tvrtke Resecurity,
+  prvo takve vrste u regiji, nudi neusporedivu za\u0161titu od ovih digitalnih prijetnji.\\nFilipini
+  su do\u017eivjeli brz rast internet penetracije i mobilne povezivosti, poti\u010du\u0107i
+  svoju digitalnu evoluciju. Na\u017ealost, ovaj napredak tako\u0111er je u\u010dinio
+  zemlju privla\u010dnom metom za kiberneti\u010dke napade i povrede podataka. Kroll,
+  vode\u0107a financijska i savjetodavna tvrtka, svrstala je Filipine me\u0111u najranjivije
+  zemlje u regiji, isti\u010du\u0107i hitnu potrebu za poja\u010danim kiberneti\u010dkim
+  mjerama.\\nBen Ouano, COO tvrtke Resecurity (APAC), istaknuo je va\u017enost prilagodbe
+  evoluiraju\u0107em kiberneti\u010dkom krajoliku na Filipinima. Rekao je da je misija
+  Resecurity-ja opremiti pojedince i tvrtke potrebnim alatima i resursima kako bi
+  za\u0161titili svoje digitalne identitete i umanjili rastu\u0107e prijetnje. Resecurity
+  ostaje predan osna\u017eivanju zajednice da se za\u0161tite od kra\u0111e identiteta,
+  prijevara i raznih drugih kiberneti\u010dkih prijetnji koje predstavljaju zna\u010dajan
+  rizik za njihovu online sigurnost.\\nMalware, ransomware, phishing napadi i povrede
+  podataka postali su zabrinjavaju\u0107i problemi za pojedince i tvrtke diljem razli\u010ditih
+  sektora na Filipinima. Ovi kiberneti\u010dki incidenti mogu rezultirati ozbiljnim
+  posljedicama poput financijskih gubitaka, kra\u0111e podataka, poreme\u0107aja u
+  poslovanju i zna\u010dajnih ekonomskih \u0161teta.\\nResecurity-ove usluge za za\u0161titu
+  identiteta sada su lako dostupne na Filipinima, nude\u0107i proaktivnu kiberneti\u010dku
+  za\u0161titu pojedincima i tvrtkama koje tra\u017ee sna\u017enu obranu protiv suvremenih
+  kiberneti\u010dkih prijetnji.\\nZa vi\u0161e informacija o Resecurity-ovim uslugama
+  za za\u0161titu identiteta i kako oja\u010dati svoj digitalni identitet, posjetite
+  [Resecurity-ovu web stranicu](https://www.resecurity.com/idp).\\nO Resecurity-u:\\nResecurity
+  je vode\u0107a kiberneti\u010dka tvrtka koja nudi sveobuhvatan platformu za za\u0161titu
+  krajnjih to\u010daka, upravljanje rizicima i kiberneti\u010dko obavje\u0161tajno
+  djelovanje. Poznat po svojim progresivnim rje\u0161enjima temeljenim na podacima,
+  Resecurity se fokusira na pravovremeno otkrivanje povreda podataka i sveobuhvatnu
+  za\u0161titu od kiberneti\u010dkih rizika. Osnovan 2016. godine, tvrtka je stekla
+  globalno priznanje kao jedna od najinovativnijih kiberneti\u010dkih tvrtki s misijom
+  borbe protiv kiberneti\u010dkih prijetnji bilo koje razine sofisticiranosti. Inc.
+  Magazine nedavno je priznao Resecurity kao jednu od deset najbr\u017ee rastu\u0107ih
+  privatnih kiberneti\u010dkih tvrtki u Los Angelesu, Kalifornija. Resecurity s ponosom
+  sura\u0111uje s uglednim organizacijama, uklju\u010duju\u0107i Svjetski ekonomski
+  forum, InfraGard Nacionalno udru\u017eenje \u010dlanova, AFCEA, NDIA, SIA, FS-ISAC
+  i razli\u010dite Ameri\u010dke industrijske i trgovinske komore. Za vi\u0161e informacija
+  o Resecurity-u, molimo posjetite njihovu [slu\u017ebenu web stranicu](https://resecurity.com).\\nResecurity-ovo
+  predstavljanje inovativnog rje\u0161enja za za\u0161titu identiteta za filipinsko
+  tr\u017ei\u0161te dolazi u trenutku kada Filipini do\u017eivljavaju brz rast internet
+  penetracije i mobilne povezivosti. Ova digitalna evolucija u\u010dinila je zemlju
+  ranjivom na kiberneti\u010dke napade i povrede podataka, \u0161to je dovelo do toga
+  da je Kroll svrstao Filipine me\u0111u najranjivije zemlje u regiji. Cilj rje\u0161enja
+  tvrtke Resecurity je adresirati ovu hitnu potrebu za poja\u010danim kiberneti\u010dkim
+  mjerama.\\nRastu\u0107i broj kiberneti\u010dkih prijetnji i val digitalizacije na
+  Filipinima rezultirali su zabrinutostima poput aktivnosti Tamne mre\u017ee, izlo\u017eenosti
+  osobno prepoznatljivih informacija (PII) i preuzimanja ra\u010duna. Ovi rizici mogu
+  imati ozbiljne posljedice, uklju\u010duju\u0107i financijske gubitke, kra\u0111u
+  podataka, poreme\u0107aje u poslovanju i zna\u010dajne ekonomske \u0161tete. Napredno
+  rje\u0161enje tvrtke Resecurity nudi neusporedivu za\u0161titu od ovih digitalnih
+  prijetnji.\\n\u0160to se ti\u010de tr\u017ei\u0161nih trendova, o\u010dekuje se
+  nastavak rasta potra\u017enje za sigurnosnim rje\u0161enjima za kiberneti\u010dku
+  za\u0161titu kako se digitalizacija poslovanja i pojedinaca na Filipinima \u0161iri.
+  Zna\u010dajna ovisnost zemlje o digitalnim platformama i internetskim transakcijama
+  dodatno isti\u010de potrebu za sna\u017enim sigurnosnim mjerama.\\nProcjena tr\u017ei\u0161ta
+  kiberneti\u010dke sigurnosti na Filipinima ukazuje na zna\u010dajan rast u godinama
+  koje dolaze. Pokreta\u010di poput pove\u0107ane svijesti o kiberneti\u010dkim prijetnjama,
+  zahtjeva za regulatornom uskla\u0111eno\u0161\u0107u i potrebe za za\u0161titom
+  podataka o\u010dekuje se da \u0107e potaknuti tr\u017ei\u0161te. Pru\u017eaju\u0107i
+  sveobuhvatan platformu za za\u0161titu krajnjih to\u010daka, upravljanje rizicima
+  i kiberneti\u010dko obavje\u0161tajno djelovanje, Resecurity je dobro pozicioniran
+  za iskoristiti te tr\u017ei\u0161ne trendove.\\nMe\u0111utim, postoje klju\u010dni
+  izazovi i kontroverze povezane s temom. Jedan od izazova je stalno evoluiraju\u0107a
+  priroda kiberneti\u010dkih prijetnji koja zahtijeva kontinuirana a\u017euriranja
+  i nadogradnje da bi se ostalo ispred napada\u010da. Dodatno, mogu postojati zabrinutosti
+  u vezi implementacije i u\u010dinkovitosti Resecurity-ovog rje\u0161enja, kao i
+  potreba za stalnom podr\u0161kom i odr\u017eavanjem.\\nPrednosti Resecurity-ovog
+  rje\u0161enja za za\u0161titu identiteta uklju\u010duju uskla\u0111enost s Zakonom
+  o privatnosti podataka (DPA), \u0161to osigurava za\u0161titu osobnih informacija
+  sukladno lokalnim propisima. Rje\u0161enje tako\u0111er nudi proaktivnu kiberneti\u010dku
+  za\u0161titu pojedincima i tvrtkama, \u0161tite\u0107i ih od malvera, ransomwarea,
+  phishing napada i povreda podataka.\\nNedostaci mogu uklju\u010divati tro\u0161kove
+  povezane s implementacijom i odr\u017eavanjem rje\u0161enja, \u0161to mo\u017ee
+  biti prepreka za neke pojedince i manje tvrtke. Osim toga, kao i kod svakog kiberneti\u010dkog
+  rje\u0161enja, nema jamstva potpune za\u0161tite, a napada\u010di se mogu kontinuirano
+  osmi\u0161ljavati nove metode zaobi\u0107i postoje\u0107e obrane.\\nZa vi\u0161e
+  informacija o Resecurity-ovim uslugama za za\u0161titu identiteta i kako oja\u010dati
+  svoj digitalni identitet, mo\u017eete posjetiti Resecurity-ovu web stranicu na [Resecurity-ovoj
+  web stranici](https://www.resecurity.com/idp).\"", "\"1. \u010cvrsto rje\u0161enje
+  za pakiranje \u2013 jednodijelna konstrukcija koja je gotovo bez stresa.\\n2. Lagani
+  i elasti\u010dni proizvodi.\\n3. Izvrsna svojstva nosivosti.\\n4. Ujedna\u010dena
+  debljina stijenke.\\n5. Uliven u grafiku otpornu na ogrebotine.\\n6. Mogu\u0107nost
+  izrade vi\u0161estjenskih letvica, koje mogu biti \u0161uplje ili punjene pjenom.\\n7.
+  Debeli kutovi i rebra za pove\u0107anu otpornost na udarce.\\n8. Udubljeni hardver
+  i ulivena zavjesa produljuju vijek trajanja spremnika.\\n9. Umetci za opremu za
+  monta\u017eu na panel i police.\\n10. Raspon unutarnjih dijelova, koji se mogu ukloniti
+  ili uliti, koji mogu pru\u017eiti potpunu za\u0161titu.\\n11. Polietilen otporan
+  na udubljenja i lomove.\\n12. Otporan na ve\u0107inu kemikalija i otapala.\\n13.
+  Otporan na gljivice.\\n1. visokomolekularni polietilenski materijal, stabilne performanse,
+  otpornost na visoke i niske temperature, netoksi\u010dan i bez okusa, izvrsna UV
+  za\u0161tita;\\n2. proces valjanja, integrirano oblikovanje, oja\u010dani i zadebljani
+  uglovi kutije, jaka otpornost na udarce, i mo\u017ee realizirati padobransko/desantno
+  spu\u0161tanje;\\n3. dizajn konkavnog konveksnog ukru\u0107enja, oja\u010dati kutiju,
+  olak\u0161ati slaganje;\\n4. usvojena je leptir brava od nehr\u0111aju\u0107eg \u010delika,
+  ru\u010dka i drugi dodaci koji su otporni na slani sprej, otporni na koroziju, sigurni,
+  lijepi i izdr\u017eljiviji;\\n5. usvojen je visokokvalitetni \u010dvrsti vodootporni
+  brtveni prsten, s boljom izvedbom brtvljenja i stupnjem vodootpornosti i otpornosti
+  na pra\u0161inu IP67;\\n6. podr\u017eava prilagodbu veli\u010dine kutije, prilagodbu
+  boje, prilagodbu obloge, prilagodbu identifikacije naljepnice, sustav zaklju\u010davanja
+  lozinkom itd.\\n1. Avionska oprema.\\n2. Razmjestivi sustavi naoru\u017eanja.\\n3.
+  Elektroni\u010dka oprema za testiranje i nadzor.\\n4. Vojni instrumenti i instrumenti
+  za provo\u0111enje zakona.\\n5. Oprema za medicinska ispitivanja i aparate.\\n6.
+  Oprema za pra\u0107enje naftnih polja.\\n7. Prijenosni brodski instrumenti.\\n8.
+  Prijenosna komunikacijska oprema.\\n9. Prijenosne ra\u010dunalne mre\u017ee i sustavi.\\n10.Telekomunikacijska
+  ispitna oprema.\"", "\"Najbolje od 43 stomatolo\u0161ke ordinacije na destinaciji
+  - Ma\u0111arska\\nMa\u0111arska je poznata po visokokvalitetnoj stomatolo\u0161koj
+  njezi uz djeli\u0107 cijene u usporedbi sa zapadnim zemljama. S iskusnim, me\u0111unarodno
+  obu\u010denim stomatolozima i najsuvremenijim objektima, mo\u017eete dobiti tretmane
+  svjetske klase kao \u0161to su implantati, krunice i ljuskice. Osim toga, mnoge
+  klinike nude sveobuhvatne pakete koji uklju\u010duju besplatne konzultacije i ponude,
+  \u0161to ga \u010dini idealnim odredi\u0161tem za dentalni turizam. Bilo da tra\u017eite
+  pristupa\u010dan tretman ili napredne postupke, Ma\u0111arska kombinira izvrsnu
+  skrb s u\u0161tedama.\\nNajpopularnija odredi\u0161ta na destinaciji - Ma\u0111arska\\n4.98/5(88
+  recenzija)\\nBudimpe\u0161ta\\nMetal kerami\u010dka krunica\u20ac250\\nAll on 4
+  (akrilni zubi)\u20ac3,000\\nUgradnja Straumann implantata\u20ac650\\n4.97/5(29 recenzija)\\nBudimpe\u0161ta\\nUgradnja
+  Straumann implantata\u20ac683\\nAll on 4 (akrilni zubi)\u20ac5,000\\nMetal kerami\u010dka
+  krunica\u20ac330\\n4.65/5(2 recenzije)\\nBudimpe\u0161ta\\nUgradnja implantata Nobel
+  Biocare\u20ac830\\nAll on 4 (akrilni zubi)\u20ac5,190\\nMetal kerami\u010dka krunica\u20ac195\\n4.96/5(50
+  recenzija)\\nBudimpe\u0161ta\\nUgradnja implantata Nobel Biocare\u20ac700\\nMetal
+  kerami\u010dka krunica\u20ac190\\n4.79/5(18 recenzija)\\nBudimpe\u0161ta\\nStraumann
+  SLActive umetanje implantata\u20ac650\\nMetal kerami\u010dka krunica\u20ac200\\n4.94/5(23
+  recenzije)\\nBudimpe\u0161ta\\nAll on 4 (akrilni zubi)\u20ac3,200\\nMetal kerami\u010dka
+  krunica\u20ac200\\n4.91/5(27 recenzija)\\nBudimpe\u0161ta\\nUgradnja implantata
+  Nobel Biocare\u20ac660\\nAll on 4 (akrilni zubi)\u20ac2,650\\nMetal kerami\u010dka
+  krunica\u20ac180\\n4.5/5(4 recenzije)\\nBudimpe\u0161ta\\nUgradnja implantata Nobel
+  Biocare\u20ac900\\nMetal kerami\u010dka krunica\u20ac280\\n4.62/5(5 recenzija)\\nBudimpe\u0161ta\\nUgradnja
+  implantata Nobel Biocare\u20ac470\\nMetal kerami\u010dka krunica\u20ac250\\n4.6/5(1
+  recenzija)\\nBudimpe\u0161ta\\nUgradnja implantata Nobel Biocare\u20ac750\\nAll
+  on 4 (akrilni zubi)\u20ac5,150\\nMetal kerami\u010dka krunica\u20ac230\\nJe li Ma\u0111arska
+  dobra za stomatolo\u0161ki rad?\\nMa\u0111arska je popularno odredi\u0161te stomatolo\u0161kog
+  turizma zbog svoje visokokvalitetne skrbi, pristupa\u010dnosti i povoljnog polo\u017eaja
+  u Europi. Stomatolo\u0161ke usluge u Ma\u0111arskoj znatno su jeftinije u usporedbi
+  s UK-om, \u010desto se kre\u0107u od 30% do 70% manje, ovisno o specifi\u010dnom
+  lije\u010denju i klinici.\\nIma li Ma\u0111arska dobre zubare?\\nMa\u0111arska je
+  poznata po svojim dobro obu\u010denim i kvalificiranim stomatolozima, koji govore
+  vi\u0161e jezika i koji su u tijeku s najnovijim stomatolo\u0161kim tehnikama i
+  tehnologijom. I doma\u0107i i strani pacijenti pohvalili su ma\u0111arske stomatologe
+  za njihovu profesionalnost i stru\u010dnost.\\nKoliko ko\u0161taju zubni implantati
+  u Ma\u0111arskoj?\\nU usporedbi s cijenama u Velikoj Britaniji, zubni implantati
+  u Ma\u0111arskoj mogu biti i do 70% jeftiniji po implantatu.\\nMogu li putovati
+  u Ma\u0111arsku na lije\u010denje zuba?\\nMo\u017eete putovati u Ma\u0111arsku na
+  lije\u010denje zuba. Ma\u0111arska je popularno odredi\u0161te za stomatolo\u0161ki
+  turizam, s mnogim klinikama koje opskrbljuju isklju\u010divo me\u0111unarodne pacijente.\\nKoja
+  europska zemlja ima najjeftiniji stomatolo\u0161ki rad?\\nJedna od najjeftinijih
+  europskih zemalja za stomatolo\u0161ke radove je Ma\u0111arska. Isti\u010de se niskim
+  cijenama i izuzetnom kvalitetom usluga.\\nKoliko ko\u0161ta napraviti zube u Ma\u0111arskoj?\\nCijene
+  u Ma\u0111arskoj ni\u017ee su u usporedbi sa zapadnoeuropskim zemljama. U usporedbi
+  s cijenama u Velikoj Britaniji, osnovni pregled i \u010di\u0161\u0107enje, zubni
+  implantati, krunice i ljuskice mogu biti jeftiniji do 50% - 70%.\\nKoliko je kruna
+  u Ma\u0111arskoj?\\nU usporedbi s cijenama u Velikoj Britaniji, zubne krunice u
+  Ma\u0111arskoj mogu biti i do 70% jeftinije, ovisno o materijalu, lokaciji i reputaciji
+  klinike. Ma\u0111arska nudi pristupa\u010dnije stomatolo\u0161ke tretmane u usporedbi
+  s mnogim zapadnoeuropskim zemljama.\\nKoliko ko\u0161taju plombe u Ma\u0111arskoj?\\nU
+  usporedbi s cijenama u Velikoj Britaniji, zubne plombe u Budimpe\u0161ti mogu biti
+  i do 70% jeftinije, ovisno o veli\u010dini, materijalu i slo\u017eenosti.\\nKoliko
+  ko\u0161ta kompletna ugradnja zubnih implantata u Ma\u0111arskoj?\\nU usporedbi
+  s cijenama u Velikoj Britaniji, zubni implantati u Ma\u0111arskoj mogu biti i do
+  70% jeftiniji, ovisno o \u010dimbenicima kao \u0161to su broj potrebnih implantata,
+  dodatni zahvati i kori\u0161teni materijali. Ma\u0111arska je popularno odredi\u0161te
+  zbog svoje pristupa\u010dnosti u usporedbi s mnogim zapadnoeuropskim zemljama.\\nGdje
+  je najjeftinija zemlja za kompozitno lijepljenje?\\nNajjeftinija zemlja za kompozitno
+  spajanje mo\u017ee varirati, ali zemlja kao \u0161to je Ma\u0111arska \u010desto
+  je poznata po tome \u0161to nudi pristupa\u010dne cijene za stomatolo\u0161ke tretmane,
+  uklju\u010duju\u0107i kompozitno spajanje.\\n\u0160to se sve nalazi na 4 zubna implantata?\\nAll-on-4
+  zubni implantati su metoda lije\u010denja koja koristi samo \u010detiri zubna implantata
+  za potporu cijelom nizu zubi. Pru\u017ea pobolj\u0161anu stabilnost i funkcionalnost
+  u usporedbi s tradicionalnim protezama i izbjegava potrebu za presa\u0111ivanjem
+  kosti. To ga \u010dini popularnim izborom za pacijente koji tra\u017ee trajnije
+  i isplativije rje\u0161enje.\\nMa\u0111arska, zemlja u srednjoj Europi bez izlaza
+  na more, poznata je po svojoj bogatoj povijesti, zadivljuju\u0107oj arhitekturi
+  i \u017eivahnoj kulturi. Glavni grad, Budimpe\u0161ta, poznat je po prekrasnoj rijeci
+  Dunavu, povijesnim termalnim kupkama i grandioznoj zgradi parlamenta.\\nTra\u017eenje
+  stomatolo\u0161ke skrbi u Ma\u0111arskoj nudi nekoliko zna\u010dajnih prednosti,
+  \u0161to je \u010dini omiljenim odredi\u0161tem za mnoge me\u0111unarodne pacijente.
+  Poznata po svojim visokim standardima, Ma\u0111arska se mo\u017ee pohvaliti mno\u0161tvom
+  kvalificiranih stomatologa koji su se \u010desto usavr\u0161avali u vrhunskim europskim
+  institucijama. Ova stru\u010dnost, u kombinaciji s naprednom tehnologijom i modernim
+  objektima, osigurava pacijentima vrhunski tretman.\\nU usporedbi s Ujedinjenim kraljevstvom
+  i drugim zapadnim zemljama, stomatolo\u0161ki rad u Ma\u0111arskoj znatno je pristupa\u010dniji
+  bez kompromisa u kvaliteti. Pacijenti \u010desto ostvaruju u\u0161tede do 70% na
+  zahvatima, \u0161to Tursku \u010dini popularnom destinacijom za stomatolo\u0161ki
+  turizam.\\nMa\u0111arska je poznata po svojoj visokokvalitetnoj stomatolo\u0161koj
+  njezi, podr\u017eanoj naprednom tehnologijom i kori\u0161tenjem vrhunskih dentalnih
+  marki. Ma\u0111arski stomatolozi \u010desto koriste opremu i materijale vode\u0107ih
+  svjetskih marki kao \u0161to su Straumann, 3M, Ivoclar Vivadent, Dentsply Sirona
+  i Planmeca. To osigurava pacijentima vrhunske tretmane kori\u0161tenjem pouzdanih,
+  visokokvalitetnih proizvoda.\\nUnov\u010diti\\nKreditne/debitne kartice\\nBankovni
+  transferi\\nPlanovi pla\u0107anja\\nMe\u0111unarodno osiguranje\\nMa\u0111arska
+  je dobro povezana zra\u010dnim putem s glavnim me\u0111unarodnim zra\u010dnim lukama
+  u Budimpe\u0161ti, Debrecenu i P\u00e9cs-Pog\u00e1nyu. Brzi vlakovi i razgranate
+  autobusne mre\u017ee nude prakti\u010dno putovanje unutar zemlje, dok usluge najma
+  automobila pru\u017eaju fleksibilnost za istra\u017eivanje raznolikih krajolika
+  Ma\u0111arske.\\nMa\u0111arska ima puno toga za ponuditi u smislu \u017eivahnih
+  gradova i mnogih povijesnih podru\u010dja. Neki od najpopularnijih gradova za stomatolo\u0161ke
+  tretmane uklju\u010duju:\\nBudimpe\u0161ta\\nSopron\\nGyor\"", "\"Rezervirajte taj
+  hotel i skupite no\u0107enja nakon ostvarenog boravka\\nLokacija\\nSmje?ten u mjestu
+  Fort Worth (Fossil Creek), objekt Comfort Suites Near Northeast Mall nalazi se u
+  blizini znamenitosti: North East Mall ? trgova?ki centar, Hurst Conference Center
+  ? konferencijski centar i Tarrant County Junior College. U blizini su i Mountasia
+  ? obiteljski zabavni park te Obiteljski vodeni park NRH2O.\\nPogodnosti u hotelu\\nObjekt
+  Comfort Suites Near Northeast Mall ima mnogo sadr?aja, a osobito su ugodni: unutarnji
+  bazen, masa?na kada i centar za fitness. Besplatna usluga be?i?noga pristupa internetu
+  dostupna je u javnim prostorima, a u objektu je na raspolaganju ra?unalo. Hotel
+  sadr?i brojne poslovne pogodnosti, me?u kojima su 24-satni poslovni centar i prostorije
+  za sastanke. Dostupan je besplatan doru?ak. Dodatne su pogodnosti: mogu?nost pranja
+  rublja, besplatne novine u predvorju i sigurnosni sef na recepciji. Gosti imaju
+  besplatnu uslugu prijevoza uklju?uju?i prijevoz od/do zra?ne luke u ograni?enom
+  radnom vremenu i prijevoz na okolnom podru?ju na udaljenosti 5 mi. Besplatno samostalno
+  parkiranje dostupno je na lokaciji. Ovo je objekt u kojem se ne pu?i.\\nSobe za
+  goste\\nU 72 sobe/a/i u objektu Comfort Suites Near Northeast Mall nalaze se aparat
+  za kavu/?aj i besplatne tjedne novine. Na krevetima su madraci (nadmadrac) i vrhunska
+  posteljina. Dostupna je besplatna usluga be?i?nog i ?i?anog pristupa internetu velike
+  brzine. Sobe imaju sljede?u pogodnost: plazma televizori. Sve smje?tajne jedinice
+  nudestolovi i telefoni, a u ponudi su i besplatni lokalni pozivi (mogu?a su ograni?enja).
+  U sobi se nude: mikrovalne pe?nice i hladnjaci. Dodatne su pogodnosti su?ila za
+  kosu i gla?ala/daske za gla?anje.\\nOvisno o dostupnosti, na raspolaganju mogu biti
+  povezane/susjedne sobe, a gosti ih mogu zatra?iti tako da kontaktiraju smje?tajni
+  objekt pomo?u podataka za kontakt na potvrdi rezervacije.\\nZa prijevoz gosti moraju
+  kontaktirati objekt prije dolaska, na broj s potvrde rezervacije.\\nOvisno o dostupnosti,
+  na raspolaganju mogu biti povezane/susjedne sobe, a gosti ih mogu zatra?iti tako
+  da kontaktiraju smje?tajni objekt pomo?u podataka za kontakt na potvrdi rezervacije.\\nZa
+  prijevoz gosti moraju kontaktirati objekt prije dolaska, na broj s potvrde rezervacije.\\nUklju\u010dili
+  smo sve naknade o kojima nas je ovaj hotel obavijestio. No, naknade mogu varirati,
+  na primjer na temelju duljine boravka ili sobe koju ste rezervirali.\"", "\"Uvod\\nKada
+  posjetite na\u0161e Usluge ili im pristupite (kao \u0161to su web-mjesta ili aplikacije
+  kojima upravljamo ili kada komunicirate s na\u0161im sadr\u017eajem), upotrebljavamo
+  (i ovla\u0161\u0107ujemo tre\u0107e strane za upotrebu) web-pratilice, kola\u010di\u0107e,
+  oznake piksela, skripte, oznake, API i druge tehnologije pra\u0107enja (\u201eTehnologije
+  pra\u0107enja\u201d).\\nTehnologije pra\u0107enja omogu\u0107uju nam automatsko
+  prikupljanje podataka o vama i va\u0161em pona\u0161anju na mre\u017ei, kao i o
+  va\u0161em ure\u0111aju (na primjer, va\u0161em ra\u010dunalu ili mobilnom ure\u0111aju),
+  kako bismo pobolj\u0161ali va\u0161u navigaciju na na\u0161im Uslugama, unaprijedili
+  performanse na\u0161ih Usluga i prilagodili va\u0161e iskustvo na na\u0161im Uslugama.
+  Te podatke upotrebljavamo i za prikupljanje statisti\u010dkih podataka o upotrebi
+  na\u0161ih Usluga, provedbu analitike, isporuku sadr\u017eaja koji je prilago\u0111en
+  va\u0161im interesima i pru\u017eanje uslugama na\u0161im Korisnicima, ogla\u0161iva\u010dima,
+  izdava\u010dima, klijentima i partnerima.\\nTako\u0111er, dopu\u0161tamo tre\u0107im
+  stranama da prikupljaju podatke o vama putem Tehnologija pra\u0107enja.\\n\u0160to
+  su kola\u010di\u0107i?\\nKola\u010di\u0107i su male tekstualne datoteke (sastavljene
+  samo od slova i brojeva) koje web-poslu\u017eitelj postavlja na va\u0161e ra\u010dunalo
+  ili mobilni ure\u0111aj kada posjetite web-stranicu. Kada se upotrebljava, kola\u010di\u0107
+  mo\u017ee pomo\u0107i da na\u0161e Usluge budu prilago\u0111ene korisniku, na primjer,
+  pam\u0107enjem va\u0161ih jezi\u010dnih postavki. Vi\u0161e informacija o kola\u010di\u0107ima
+  mo\u017eete prona\u0107i na www.allaboutcookies.org.\\nKola\u010di\u0107i su u \u0161irokoj
+  upotrebi kako bi web-mjesta funkcionirala na u\u010dinkovit na\u010din. Upotreba
+  kola\u010di\u0107a omogu\u0107uje vam u\u010dinkovito kretanje izme\u0111u stranica.
+  Kola\u010di\u0107i pamte va\u0161e postavke te \u010dine interakciju izme\u0111u
+  vas i Usluga jednostavnijom i u\u010dinkovitijom. Tako\u0111er, kola\u010di\u0107i
+  se upotrebljavaju kako bi se osiguralo da su oglasi koje vidite na mre\u017ei relevantni
+  za vas i va\u0161e interese.\\nPohrana Tehnologija pra\u0107enja\\nTehnologije pra\u0107enja
+  pohranjujemo kada posjetite na\u0161e Usluge ili im pristupite (na primjer, kada
+  posjetite na\u0161a web-mjesta) \u2013 one se nazivaju \u201eTehnologije pra\u0107enja
+  prve strane\u201d. Osim toga, Tehnologije pra\u0107enja pohranjuju druge tre\u0107e
+  strane (na primjer, na\u0161i pru\u017eatelji usluga analize, poslovni partneri
+  i ogla\u0161iva\u010di) koji upravljaju sadr\u017eajem u okviru na\u0161ih Usluga
+  \u2013 one se nazivaju \u201eTehnologije pra\u0107enja tre\u0107ih strana\u201d.\\nObje
+  vrste Tehnologija pra\u0107enja mogu se pohraniti tijekom trajanja va\u0161eg posjeta
+  na\u0161im Uslugama ili za ponovljene posjete.\\nKoje vrste Tehnologija pra\u0107enja
+  upotrebljavamo?\\nPostoje \u010detiri glavne vrste Tehnologija pra\u0107enja:\\n-
+  Strogo potrebne Tehnologije pra\u0107enja Ove su Tehnologije pra\u0107enja klju\u010dne
+  kako biste se mogli prijaviti, kretati i upotrebljavati zna\u010dajke na\u0161ih
+  Usluga ili kako bi vam se mogla pru\u017eiti usluga koju ste zatra\u017eili (kao
+  \u0161to je va\u0161e korisni\u010dko ime). Ne moramo ishoditi va\u0161 pristanak
+  za upotrebu ovih Tehnologija pra\u0107enja. Te se Tehnologije pra\u0107enja mogu
+  upotrebljavati zbog sigurnosti i integriteta, na primjer, za otkrivanje kr\u0161enja
+  na\u0161ih pravila te za pru\u017eanje podr\u0161ke i sigurnosnih zna\u010dajki.\\n-
+  Tehnologije pra\u0107enja funkcionalnosti Ove Tehnologije pra\u0107enja omogu\u0107uju
+  na\u0161im Uslugama da zapamte va\u0161e izbore (kao \u0161to je va\u0161 jezik)
+  te pru\u017ee pobolj\u0161ane i personalizirane zna\u010dajke. Na primjer, ove tehnologije
+  pra\u0107enja upotrebljavaju se za provjeru autenti\u010dnosti (kako bi se zapamtilo
+  kada ste prijavljeni) i podr\u017eavaju druge zna\u010dajke na\u0161ih Usluga.\\n-
+  Tehnologije pra\u0107enja performansi Ove Tehnologije pra\u0107enja prikupljaju
+  informacije o va\u0161oj aktivnosti na mre\u017ei (na primjer, trajanje va\u0161eg
+  posjeta u okviru na\u0161ih Usluga), uklju\u010duju\u0107i podatke o pona\u0161anju
+  i mjerne podatke o interakciji sa sadr\u017eajem. Ove Tehnologije pra\u0107enja
+  upotrebljavaju se za analitiku, istra\u017eivanje i izvo\u0111enje statisti\u010dkih
+  podataka (na temelju agregiranih informacija).\\n- Tehnologije pra\u0107enja marketinga
+  ili ogla\u0161avanja Ove Tehnologije pra\u0107enja upotrebljavaju se za isporuku
+  ponuda i reklama prilago\u0111enih va\u0161im potrebama, na temelju va\u0161ih interesa,
+  te za provedbu marketin\u0161kih kampanja putem e-po\u0161te. Mogu se upotrebljavati
+  i za ograni\u010davanje broja puta koliko \u0107e vam se oglas prikazivati, a i
+  za mjerenje u\u010dinkovitosti ogla\u0161iva\u010dke kampanje. U pravilu ih postavljaju
+  na\u0161i ogla\u0161iva\u010di (na primjer, mre\u017ee za ogla\u0161avanje) kako
+  bi dobili uvid u to kakve osobe gledaju i stupaju u interakciju s njihovima oglasima,
+  posje\u0107uju njihova web-mjesta ili upotrebljavaju njihovu aplikaciju. Na\u0161e
+  web-mjesto uklju\u010duje zna\u010dajke dru\u0161tvenih mre\u017ea, na primjer,
+  gumbe s Facebooka \u201eSvi\u0111a mi se\u201d ili \u201ePodijeli\u201d. Za hosting
+  tih zna\u010dajki zadu\u017eena je tre\u0107a strana ili se nalaze izravno u na\u0161im
+  uslugama. Va\u0161e interakcije s tim zna\u010dajkama regulirane su izjavom o za\u0161titi
+  podataka dru\u0161tva koje pru\u017ea te zna\u010dajke.\\nKako upravljati postavkama
+  kola\u010di\u0107a\\nImajte na umu da ne prepoznajemo niti odgovaramo na automatizirane
+  signale web-preglednika u vezi s tehnologijama pra\u0107enja, uklju\u010duju\u0107i
+  zahtjeve \u201eNe prati\u201d. Me\u0111utim, postoje razli\u010diti na\u010dini
+  na koje mo\u017eete upravljati svojim postavkama kola\u010di\u0107a te ih kontrolirati.
+  Imajte na umu da brisanjem ili blokiranjem kola\u010di\u0107a neke od zna\u010dajki
+  Usluga mo\u017eda ne\u0107e raditi pravilno ili jednako u\u010dinkovito. Ako \u017eelite
+  a\u017eurirati svoje postavke, to mo\u017eete u\u010diniti u svakom trenutku tako
+  da kliknete ovdje .\\n- Isklju\u010divanje kola\u010di\u0107a putem web-preglednika\\nVe\u0107ina
+  web-preglednika pru\u017eit \u0107e vam pojedine op\u0107enite informacije o kola\u010di\u0107ima,
+  omogu\u0107iti vam da vidite koji su kola\u010di\u0107i pohranjeni na va\u0161em
+  ure\u0111aju, omogu\u0107iti vam da ih izbri\u0161ete sve ili na pojedina\u010dnoj
+  osnovi i omogu\u0107iti vam da blokirate ili dozvolite kola\u010di\u0107e za sva
+  web-mjesta ili pojedina\u010dno odabrana web-mjesta. Kola\u010di\u0107e tre\u0107ih
+  strana u pravilu mo\u017eete i zasebno isklju\u010diti. Imajte na umu da se postavke
+  koje nudi web-preglednik ili ure\u0111aj \u010desto odnose samo na taj odre\u0111eni
+  web-preglednik ili ure\u0111aj.\\n- Informacije o kola\u010di\u0107ima obi\u010dno
+  se nalaze u odjeljku \u201ePomo\u0107\u201d web-preglednika. U nastavku su navedene
+  poveznice na neke od naj\u010de\u0161\u0107e upotrebljavanih web-preglednika:\\n-
+  Isklju\u010divanje kola\u010di\u0107a tre\u0107ih strana\\nOdre\u0111ene kola\u010di\u0107e
+  za ciljanje/ogla\u0161avanje tre\u0107ih strana mo\u017eete isklju\u010diti putem
+  sljede\u0107e poveznice: Inicijativa za mre\u017eno ogla\u0161avanje.\"", "\"ID
+  Kod13189\\n- ID Kod:\\n- 13189\\n- Lokacija:\\n- I\u010di\u0107i, Opatija - Okolica\\n-
+  Transakcija:\\n- Za prodaju\\n- Vrsta nekretnine:\\n- Ku\u0107a\\n- Ukupan broj
+  soba:\\n- 5\\n- Spava\u0107e sobe:\\n- 3\\n- Cijena:\\n695.000\u20ac\\n690.000\u20ac
+  (5.198.805 kn)1 \u20ac = 7,53450 kn\\n- Povr\u0161ina:\\n- 200 m2\\n- Povr\u0161ina
+  oku\u0107nice:\\n- 1.200 m2\\nI\u010cI\u0106I, prekrasna, luksuzno ure\u0111ena
+  novogradnja s bazenom i pogledom na more!\\nPrekrasna nova samostoje\u0107a ku\u0107a,
+  povr\u0161ine 180 m\u00b2, koju \u010dine prizemlje i 1. kat. Ku\u0107a je prekrasno
+  i luksuzno ure\u0111ena i opremljena te se sastoji od prostrane kuhinje sa blagovaonom
+  i dnevnim boravkom, 4 spava\u0107e sobe svaka sa vlastitim kupatilom, jednog dodatnog
+  velikog kupatila, ostave, terase, balkona i strojarnice.\\nKu\u0107a je okru\u017eena
+  velikom ure\u0111enom oku\u0107nicom povr\u0161ine 600 m\u00b2, sa umjetnom travom,
+  bazenom i parkingom.\\nNalazi se na lijepoj i mirnoj lokaciji!\\nPrekrasna nova
+  samostoje\u0107a ku\u0107a, povr\u0161ine 180 m\u00b2, koju \u010dine prizemlje
+  i 1. kat. Ku\u0107a je prekrasno i luksuzno ure\u0111ena i opremljena te se sastoji
+  od prostrane kuhinje sa blagovaonom i dnevnim boravkom, 4 spava\u0107e sobe svaka
+  sa vlastitim kupatilom, jednog dodatnog velikog kupatila, ostave, terase, balkona
+  i strojarnice.\\nKu\u0107a je okru\u017eena velikom ure\u0111enom oku\u0107nicom
+  povr\u0161ine 600 m\u00b2, sa umjetnom travom, bazenom i parkingom.\\nNalazi se
+  na lijepoj i mirnoj lokaciji!\\nOprema nekretnine\\n- Voda\\n- Struja\\n- Konoba\\n-
+  Terasa\\n- Pogled na more\\n- Bazen\\n- Gradski vodovod\\n- Telefon\\n- Parket\\nDozvole\\n-
+  Gra\u0111evinska dozvola\\n- Vlasni\u010dki list\\n- Uporabna dozvola\\nVrt\\n-
+  Ro\u0161tilj\\nBlizina sadr\u017eaja\\n- Park\\n- Fitness\\n- Sportski centar\\n-
+  Igrali\u0161te\\n- Po\u0161ta\\n- Banka\\n- Vrti\u0107\\n- Trgovina\\n- \u0160kola\\n-
+  Javni prijevoz\\nDogma nekretnine koristi kola\u010di\u0107e (cookies) radi pru\u017eanja
+  boljeg korisni\u010dkog iskustva i funkcionalnosti. Postavke kola\u010di\u0107a
+  mo\u017eete kontrolirati i konfigurirati u Va\u0161em web pregledniku. Za vi\u0161e
+  informacija kliknite ovdje. Nastavkom pregleda web stranice sla\u017eete se s kori\u0161tenjem
+  kola\u010di\u0107a.\"", "\"Nina je ponosna na svoju osobnost i rado prihva\u0107a
+  izazove te zna pomicati granice i \u017eivjeti \u017eivot punim plu\u0107ima, izvan
+  svoje komfor zone. Voli provoditi vrijeme s obitelji, prijateljima, svojim \u017eivotinjama,
+  a od hobija voli plivanje, rolanje, plesanje, stiliziranje i \u0161ivanje. Nina
+  je veliki ljubitelj old-timera i motora, pa poma\u017ee ocu u obiteljskom biznisu.\\nSmatra
+  da su najve\u0107i problem u svijetu napu\u0161tena i gladna djeca i smatra da bi
+  se puno vi\u0161e organizacija o brizi za nezbrinutu djecu trebalo baviti njima
+  i pomo\u0107i im.\\nAko postane Miss Universe Hrvatske zalagala bi se za nezbrinutu
+  djecu i napu\u0161tene \u017eivotinje jer smatra da su oni najranjiviji i da im
+  je pomo\u0107 prijeko potrebna.\"", "\"Za uspje\u0161no online poslovanje osim kvalitetnog
+  web servera i sadr\u017eaja potrebno je osigurati sigurnu i provjerenu komunikaciju
+  s posjetiteljima va\u0161ih web stranica, te jednostavnu mogu\u0107nost provjere
+  va\u0161eg identiteta. To \u0107ete posti\u0107i instalacijom sigurnog SSL servera.
+  A za to vam je potreban SSL certifikat priznatog izdavatelja certifikata (CA \u2013
+  Certified Authority) kome se vjeruje, kojim se jam\u010di da tvrtka postoji i da
+  web server radi u skladu sa SSL protokolom. Preporu\u010dujemo i nudimo slijede\u0107e
+  certifikatore: GeotrustThawteVerisign\\nSSL je skra\u010denica za Secure Sockets
+  Layer, globalni standard sigurnosne tehnologije razvijene od Netscape-a 1994.godine.
+  SSL tehnologijom kriptira (\u0161ifrira) se veza izmedju web servera (neka domena)
+  i pretra\u017eivaca (browsera) na ra\u010dunalu posjetitelja tog web servera (te
+  domene), pa podaci koji se razmjenjuju nemogu biti vidljivi, presretani i de\u0161ifrirani.\\nMnogi
+  od vas su se ovih dana upoznali su \u010dinjenicom da su otkriveni podaci milijuna
+  raznih korisni\u010dkih ra\u010duna u svijetu i 47000 korisni\u010dkih ra\u010duna
+  \u010dija vr\u0161na domena zavr\u0161ava na .hr\\nBudu\u0107i da nas klijenti stalno
+  zovu ili \u0161alju upite o \u010demu se radi \u017eelimo najkra\u0107im i najjednostavnijim
+  rje\u010dnikom objasniti o \u010demu se radi. Nastavak ..\\nNa\u0161e web stranice
+  koriste kola\u010di\u0107e kako bi Vam osigurale najbolje korisni\u010dko iskustvo.
+  Kola\u010di\u0107i su informacije pohranjene u pregledniku koje obavljaju funkcije
+  kao \u0161to je prepoznavanje korisnika s razlogom da bi mu se prezentirao sadr\u017eaj
+  koji mu je najzanimljiviji i najrelevantniji.\\nPona\u0161anje kola\u010di\u0107a
+  mo\u017eete podesiti tako da odaberete grupu kola\u010di\u0107a u lijevom izborniku
+  i uklju\u010dite ili isklju\u010dite njihovo kori\u0161tenje.\\nStrogo obavezni
+  kola\u010di\u0107i\\nStrogo obavezni kola\u010di\u0107i bi trebali biti uklju\u010deni
+  u svim slu\u010dajevima kako bi Vam osigrali najbolje mogu\u0107e kori\u0161tenje
+  web stranice.\\nAko onemogu\u0107ite ove kola\u010di\u0107e, Va\u0161e postavke
+  ne\u0107e mo\u0107i biti spremljene i prilikom svakog posjeta web stranice \u0107ete
+  vidjeti ovu poruku.\"", "\"Visoki predstavnik i posebni predstavnik EU, Miroslav
+  Laj\u010d\u00e1k, sastao se danas u New Yorku s britanskim ministrom vanjskih poslova,
+  Davidom Milibandom, kako bi ga informirao o trenuta\u010dnoj politi\u010dkoj situaciji
+  u BiH.\\nVisoki predstavnik i posebni predstavnik EU Laj\u010d\u00e1k izjavio je
+  da je BiH spremna da poduzme zna\u010dajan strate\u0161ki korak naprijed na putu
+  ka integraciji u EU. \u00abBiH se sada mora usredoto\u010diti na provedbu Sporazuma
+  o stabiliziranju i pridru\u017eivanju, koji nosi i obveze i prednosti\u00bb, izjavio
+  je Laj\u010d\u00e1k.\\nVeleposlanik Laj\u010d\u00e1k izvijestio je ministra vanjskih
+  poslova Milibanda o napretku koji je ostvarila BiH u pogledu ispunjenja pet ciljeva
+  i dva uvjeta o kojima se Vije\u0107e za provedbu mira jednoglasno suglasilo na svom
+  sastanku odr\u017eanome u velja\u010di, a koji se ti\u010du tranzicije OHR-a u misiju
+  koju \u0107e predvoditi Europska unija.\\n\u00ab\u0160to se br\u017ee ostvari napredak
+  u pogledu ovih pet ciljeva i dva uvjeta, utoliko prije OHR mo\u017ee prerasti u
+  misiju predvo\u0111enu Europskom unijom\u00bb, kazao je Laj\u010d\u00e1k.\"", "\"Izlo\u017ebeni
+  prostor jedan je od nekolicine onih koji nisu izvorno galerijski, nego se njihovoj
+  izvornoj namjeni uspijeva priklju\u010diti i galerijski program. Kao \u0161to je
+  to slu\u010daj s Galerijom VN i Galerijom Prozori koji svoj sadr\u017eaj priklju\u010duju
+  onom knji\u017eni\u010dnom, tako i Novak sada svoj smje\u0161ta u lijevi hodnik
+  visokog prizemlja Pu\u010dkog otvorenog u\u010dili\u0161ta. Koji ima sli\u010dnu
+  karakteristiku kao i ove spomenute, jednu ostakljenu stranu. No, dok Prozori i VN
+  gledaju na ulicu, ovdje se kroz stakleni zid vidi unutarnji vrt. U njega je mogu\u0107e
+  i u\u0107i, u zidu su i vrata, tako\u0111er staklena, \u0161to vode na balkon, pa
+  i stepenice kojima se silazi u vrt. Prozirna stijenka unutarnje odvaja od vanjskog,
+  koje je, s obzirom na konfiguraciju zgrade, zapravo unutarnje, pa je malo te\u017ee
+  i odrediti \u0161to je unutra a \u0161to vani.\\nPostavljaju\u0107i, reklo bi se,
+  klju\u010dan dio in situ video instalacije to\u010dno u sredinu unutarnjeg vrta,
+  \u0161to istodobno zna\u010di ili simulira sredinu zgrade, Novak se odnosi spram
+  te te\u0161ko odredive kategorizacije progla\u0161avaju\u0107i tu sredinu ipak onim
+  unutarnjim. Nagla\u0161eno je to i \u010dinjenicom svjetla, ono je dakle prvo, ono
+  dopire iz centra unutra\u0161njosti, kao \u0161to i na\u0161 pogled ili svijest
+  tako\u0111er dolazi iz istog mjesta. Pa onda u vidnom polju gledamo projekciju stvarnosti.
+  Novakovo svjetlo, me\u0111utim, nije tek simboli\u010dna interpretacija razmi\u0161ljanja
+  o temeljnim kiparskim odnosima, niti je to ona \u017earulja koja svojim paljenjem
+  ozna\u010dava dolazak ideje, to je baterija od pet iznimno sna\u017enih reflektora
+  pravokutna oblika, usmjerenih u izlo\u017ebeni hodnik. Svjetla zasljepljuju, tim
+  vi\u0161e \u0161to ne emitiraju ravnomjerno, nego se po nekom na\u010delu zajedno
+  ili pojedina\u010dno pale i gase, pa kad su i upaljena doima se kao da lagano titraju.
+  Prva je pomisao da se radi o signalima, Morzeovim ili sli\u010dnim. Postavljeni
+  u liniju, reflektori izgledaju kao da su dopremljeni s neke velike platforme, \u0161tovi\u0161e,
+  da tamo imaju vrlo odgovoran zadatak, recimo do\u010dekati goste iz svemira, re\u0107i
+  im ono prvo o nama. Poput leptira privu\u010deni svjetlom, izlazimo na balkon, pobli\u017ee
+  pogledati platformu, de\u0161ifrirati poruku i iz prvog reda posvjedo\u010diti susretu.
+  Jo\u0161 i ne znamo da smo postali akteri u filmu \u0161to se projicira unutra u
+  hodniku, na velikom ekranu, napravljenom za ovu priliku tik uza zid nasuprot staklenoj
+  stijenki, \u010diji su lijevi i desni kraj malo odvojeni, pa ekran izgleda kao sinemaskop
+  iz nekada\u0161njih kino dvorana. Reflektori postaju projektor, njihovo se svjetlo
+  projicira na ekranu, a mi, ba\u0161 kao i sve ostalo izme\u0111u postajemo sjene,
+  kretnje su nam otisnute na platno, raspored slu\u010dajan, kompoziciju kadra ostvarujemo
+  u zajedni\u0161tvu s tankom metalnom konstrukcijom za velike staklene plohe. Treperenje
+  svjetla, me\u0111utim, proizvodi vodoravne svjetlosive pruge, kao da je televizor
+  pokvaren, a tempom uklju\u010divanja dobiva se svojevrstan strobo efekt u pomicanju
+  sjena, zapravo njegova karikatura, budu\u0107i da su izmjene nepravilne, sa zna\u010dajnim
+  pauzama. Kao da su, slijedom nepoznatog ali postoje\u0107eg dramatur\u0161kog narativa,
+  izrezani pojedini dijelovi filma. Kompozicija uklju\u010duje sjene prozorskih okvira
+  koji definiraju djelove kadra. Udaljenost od projektora rezultira tamnijim i svjetlijim,
+  odnosno ve\u0107im i manjim sjenama \u0161to se kre\u0107u u definiranim segmentima
+  slike ili pak poni\u0161tavaju te okvire. Sjene se pomi\u010du u treperavom prostoru,
+  naoko ispred svjetlih pruga nepoznata porijekla u pozadini platna, \u0161to sveukupno
+  doprinosi dinami\u010dnosti prizora, stoga ista situacija neprestano generira efektne
+  varijacije.\\nTaj neobi\u010dan eksperimentalan film sniman je i projiciran u istom
+  trenutku, akteri su mu istodobno i gledatelji, sadr\u017eaj pronalazi u procesu,
+  koji je istodobno i finale. I bez obzira koliko taj sadr\u017eaj bio tek preslika
+  stvarnosti, kontekst koji uklju\u010duje filmski ekran, usmjereno projekciono svjetlo,
+  stiliziranu sliku, pa i dinamiku zbivanja, sve ga to progla\u0161ava filmom. A ono
+  \u0161to ga svrstava u doti\u010dnu kategoriju jest baratanje nosa\u010dem vizualne
+  poruke. Dok je, primjerice, za starije eksperimentalne filma\u0161e taj nosa\u010d
+  bila traka, a rezultat se ostvarivao intervencijom na njoj, ovdje je ona eliminirana,
+  a njenu ulogu preuzima svjetlo. Prazan projekcioni snop prolaskom kroz prostor dobiva
+  sadr\u017eaj \u0161to ga predstavlja na platnu i time postaje nosa\u010d informacije.
+  Dok je Peter Kubelka unaprijed definiranom metra\u017eom trake odre\u0111ivao trajanje
+  sekvence, ovdje ona proizlazi iz algoritma koji odre\u0111uje paljenje i ga\u0161enje
+  reflektora.\\nPa kao \u0161to je slo\u017eeno pitanje unutarnjeg i vanjskog rije\u0161io
+  pozicijom reflektora, tako je i slika na ekranu, kao svojevrstan preview na\u0161eg
+  pogleda, zapravo simulacija pretvorbe stvarnosti u njegovu stiliziranu interpretaciju.
+  Primjetno je i baratanje izlo\u017ebenim formatom, svojim se postavom, a naro\u010dito
+  intenzitetom, svjetlosna instalacija smjesta name\u0107e kao klju\u010dna figura.
+  Tek potom shva\u0107amo kako je ona tek dio kompleksnije instalacije koja, hine\u0107i
+  da koristi prostor \u010ditave zgrade, spaja vanjsko i unutarnje, promijeniv\u0161i
+  pritom i svoj format u interaktivnu video instalaciju.\\nKojoj pridru\u017eujemo
+  i audio kad nam autor uru\u010di slu\u0161alice. Slu\u0161amo soundtrack sniman
+  tijekom deset godina, improvizirane Novakove jammove, koji, ba\u0161 kao i slika,
+  uklju\u010duju distorzije i prepoznatljive linije. Slu\u0161alice su be\u017ei\u010dne,
+  omogu\u0107uju kretanje, nisu, dakle, zvu\u010dna slika filma, nego zvu\u010dni
+  provoditelj kroz izlo\u017ebu, primjenjiv kako na dominantnu instalaciju, tako i
+  na njene ostale elemente. Zvu\u010dna nas poveznica nastoji provesti kroz vrijeme,
+  kroz razvoj njegova autorska interesa, a kao lajt motiv je izabran materijal. Pa
+  se tako odmah na ulazu nalazi \u010detiri metra duga\u010dka, masivna \u017eeljezna
+  konzola polo\u017eena na dva stupca tankih papira. Na vrhu pone\u0161to ulegnuti
+  te\u017einom \u017eeljeza, slojevi papira brojno\u0161\u0107u ipak nadokna\u0111uju
+  slabost, pojedini bi dan mo\u017eda i popustio, no potpomognut ostalima izdr\u017eava
+  teret sveukupnosti.\\nSirovinski \u0107e nas kontrast ove ready made skulpture mo\u017eda
+  i asocirati na hommage Jannisu Kounellisu, ali i na ranije Novakove radove gdje
+  se vje\u010dno \u017eeljezo pojavljuje u slu\u017ebi nosa\u010da snopova suhe, reklo
+  bi se, privremene trstike. Za koje bi se, pak, ponovo moglo re\u0107i da predstavljaju
+  dnevne otkose, koji tek \u010dvrstom odlukom postaju sadr\u017eaj.\\nSlijede\u0107a
+  etapa komunicira s prezentom, naime, polica ili vitrina sa staklenim plohama i tankim
+  metalnim nosa\u010dima odgovara strukturi dijela zgrade gdje se nalazimo. Na njoj
+  su pravokutni blokovi tamnog materijala raznih veli\u010dina, poput ciglica ili
+  elemenata spremnih da ih se aktivira. Dijelove budu\u0107e slagalice mogu\u0107e
+  je protuma\u010diti i kao posvetu sirovini i strukturi, osobni dijalog s modernizmom
+  zgrade. Suo\u010denje s poslovima budu\u0107nosti sirovinom izva\u0111enom iz naslaga
+  pro\u0161losti.\\nNa kraju, ili kako saznajemo, na po\u010detku, tako\u0111er bija\u0161e
+  svjetlo. Uokviruju\u0107i period od deset godina, pokraj trenutnog svjetlosnog filma
+  nalazi se i, formatom ne\u0161to manja, projekcija snimljena svjetla iz 2009., od
+  koje je zapravo pri\u010da i krenula. U donjem dijelu kadra, tamo gdje se obi\u010dno
+  pojavljuje titl, sada je bijela traka koja povremeno djelomi\u010dno ili posve nestaje,
+  ponovo se pojavljuje, dok sasvim ne nestane. To je snimka fluo lampe na izdisaju,
+  snimjena u real time-u, prati njene posljednje hropce.\\nU oba se slu\u010daja sve
+  vrti oko svjetla, no dok se u pro\u0161losti ono pojavljuje kao sadr\u017eaj filma,
+  sada preuzima sve funkcije u njegovoj produkciji, zapo\u010dev\u0161i od redateljske
+  koncepcije, preko dramaturgije i snimanja, do monta\u017ee i projekcije. Sve osim
+  sadr\u017eaja, to postaje njegov nusproizvod, sjena. Pa kako predstavljena izlo\u017ebena
+  cjelina ima vrlo precizan po\u010detak, umiranje fluo lampe, tako je i kona\u010dnica
+  precizirana, zato \u0161to je za sadr\u017eaj kojeg gledamo presudan upravo prezent.\\nDrugim
+  rije\u010dima, svom kiparskom interesu za sirovinu, mo\u017eda ba\u0161 nagovoren
+  dramati\u010dnim svjedo\u010danstvom materijalizacije svjetla, pridodaje i onaj
+  filmski, kao \u0161to je \u017eeljezo sinonim materije, tako je i svjetlo sinonim
+  nematerije, na toj se razini izjedna\u010davaju.\\nIli se radi o grupnoj terapiji
+  publike ve\u0107 pomalo i odba\u010denom metodom sintonike, gdje se svjetla usmjeravaju
+  u o\u010di pacijenta u cilju razrije\u0161enja razli\u010ditih tjelesnih i emocinalnih
+  problema; tretman je tako\u0111er poznat pod imenom optometrijska fototerapija.\"",
+  "\"Lijekovi za sprje\u010davanje crva u odraslih - popis u\u010dinkovitih tableta
+  i kako ih poduzeti\\nU\u010dinkovita profilaksa mnogih vrsta crva u odrasloj dobi
+  - lijekovi, osobna higijena ja\u010da njihov u\u010dinak na tijelo, laboratorijska
+  analiza za prisutnost helminta odre\u0111uje u\u010dinkovitost poduzetih mjera.
+  Infekcija s jaja\u0161ima parazitskih crva stalno se javlja pa je pitanje o tome
+  \u0161to piti od crva do odrasle osobe za prevenciju uvijek je relevantno.\\nLijekovi
+  za prevenciju bjelan\u010devina\\nDvaput godi\u0161nje, prevencija crva u odraslih
+  je obavezna. Najbolje je provesti preventivne mjere u prolje\u0107e i jesen. Prisutnost
+  helminti, invazije, ne-karioze, enterobioze predstavlja ozbiljnu opasnost za ljudsko
+  tijelo. Odricanje ko\u0161ta osobu jako. Odrasli, u \u010dijim ku\u0107ama postoje
+  \u017eivotinje, potrebno je dvostruko preventivne mjere uz pravilnu brigu o ku\u0107nim
+  ljubimcima.\\nU ljekarni se u rasponu prikazuju antihelminti\u010dki lijekovi za
+  prevenciju kod odraslih osoba. Mo\u017eete ih uzimati \u010dak i sa ciljem prevencije
+  tek nakon savjetovanja s lije\u010dnikom. U medicinskoj praksi ne postoji konsenzus
+  o tome kako i kada uzimati pilule za sprje\u010davanje crva u odraslih osoba. Mnogi
+  lije\u010dnici vjeruju da anthelmintics treba koristiti samo u slu\u010daju simptoma
+  bolesti.\\nAnthelmintska terapija dodatno uklju\u010duje:\\n- strogo pridr\u017eavanje
+  higijenskih standarda;\\n- dostatna toplinska obrada mesa i ribe;\\n- nedopustivost
+  pitke vode iz vodenih tijela;\\n- oprez pri radu \u017eivotinja;\\n- temeljito pranje
+  vo\u0107a i povr\u0107a te druge sanitarne i higijenske mjere.\\nPostoje dva naj\u010de\u0161\u0107a
+  na\u010dina za borbu protiv parazitskog crva: droga i naroda. Vermox, mebendazol,
+  vormil, decaris, nemozol i drugi posjeduju efekt glisena. Tijekom lije\u010denja
+  lijekom va\u017eno je strogo slijediti upute za uporabu lijeka, uzeti u obzir kontraindikacije,
+  dob, individualnu netoleranciju, nuspojave.\\ncrv\\nPreporu\u010da se lijek Vormil
+  za prevenciju te\u0161kih tkivnih invazija. Lijek ima destruktivan u\u010dinak na
+  bakterijske kosti, koji se parazitiziraju u crijevu, u larve mo\u017ee utjecati
+  na plu\u0107a. Vormil uni\u0161tava bjelan\u010devine u svim fazama razvoja: jaja,
+  larvanje, odrasle. Na\u010delo djelovanja temelji se na inhibiranju metaboli\u010dkih
+  procesa parazita.\\nUnos tableta je dan pojedina\u010dno, doziranje ovisi o te\u017eini
+  bolesnika. Nuspojave se mogu promatrati sa strane \u017eiv\u010danog, probavnog,
+  krvo\u017eilnog sustava. Postoji smanjenje vidljivosti, mo\u017ee do\u0107i do osipa
+  na ko\u017ei. Lijek se ne propisuje za trudno\u0107u i laktaciju. Lijek je dostupan
+  u obliku tableta za \u017evakanje i suspenzije.\\npirantel\\nU medicinskoj praksi,
+  Pirantel se koristi kao preventivna mjera za ascariasis, prisutnost pinworms i drugih
+  bolesti helminth. Lijek paralizira helminte, potpuno izgube sposobnost kretanja,
+  proces uklanjanja parazita iz tijela javlja se prirodno. Lijek radi samo na parazitima
+  odraslih, pa je po\u017eeljno provesti drugi tretman. Tablete se uzimaju jednom
+  dnevno, bez obzira na unos hrane.\\nNije preporu\u010dljivo uzimati trudni lijek,
+  tijekom hranjenja djeteta, bolesnika s jetrenom bole\u0161\u0107u. Tijekom primjene
+  lijeka, vrtoglavica, mu\u010dnina, mo\u017ee do\u0107i do osipa, a ponekad postoji
+  i kr\u0161enje sna, sluha, halucinacija i drugih negativnih pojava. Po zavr\u0161etku
+  terapije po\u017eeljno je provesti ponovljenu studiju za prisutnost jaja crva.\\nDecaris
+  za prevenciju\\nDecaris za prevenciju odraslih imenuje se jednom. Ovaj lijek paralizira
+  helminte s dobro razvijenim mi\u0161i\u0107nim sustavom (ascarids, pinworms). Nakon
+  uzimanja lijeka za sljede\u0107i dan, mrtvi se paraziti aktivno izlu\u010duju iz
+  ljudskog crijeva. Protiv krvavih crva i masti ovaj lijek je nemo\u0107an. Osim anthelminti\u010dkog
+  djelovanja, Decaris je imunomodulator, aktivira krvne stanice koje stimuliraju imunolo\u0161ki
+  odgovor tijela.\\nDecaris nije propisan za vrijeme trudno\u0107e i dojenja. Na svom
+  ili njegovom prijemu mo\u017ee se prikazati alergija u obliku ko\u017enih osi. Oprez
+  treba koristiti takav antihelminti\u010dki lijek za disfunkciju jetre i bubrega.
+  Prijam lijeka s mu\u010dninom, povra\u0107anjem, proljevom mo\u017ee odgovoriti
+  na probavni sustav. Glavobolja, nesanica, napadaji, groznica - nervozna.\\nNemozol
+  za prevenciju bjelan\u010devina\\nNemozol za prevenciju odraslih propisuje terapijski
+  te\u010daj, trajanje od 7 do 30 dana. Aktivna komponenta nemozola djeluje destruktivno
+  na membrane helminta, razbijaju procese unosa hranjivih tvari, suzbijaju sve metaboli\u010dke
+  procese, a paraziti umiru. Ovaj lijek je jedan od najboljih za sprje\u010davanje
+  bjelan\u010devina u odraslih osoba.\\nNemozol je usmjeren na uni\u0161tavanje bjelan\u010devina
+  u crijevu, u krvi aktivna tvar prakti\u010dki nije odre\u0111ena. Ima \u0161irok
+  spektar djelovanja ne samo kod crva, ve\u0107 i kod jednostani\u010dnih parazita
+  u ljudskom tijelu. Nuspojave se promatraju od probavnog, \u017eiv\u010danog, cirkulacijskog
+  sustava. Kategorije zabranjeno alkohol tijekom unosa Nemosola.\\nVermoxum\\nLije\u010dnici
+  propisuju Vermox za prevenciju bolesti s okruglim parazitskim crvima (pinworms,
+  trichinella). Njihova prisutnost u tijelu odre\u0111ena je jakim svrbe\u017eom u
+  anusu, naro\u010dito no\u0107u. Djelatna tvar lijeka poremetila je proces asimilacije
+  glukoze pomo\u0107u parazita, \u0161to je za njih glavni hranjivi sastojak. Dva
+  dana kasnije paraziti umiru od iscrpljenosti i uklanjaju se iz crijeva.\\nLijek
+  ne smije biti preba\u010den na osobe s kroni\u010dnim bolestima crijeva, jetre,
+  trudno\u0107e i laktacije. Pri uzimanju lijeka velika je opasnost od jakih alergijskih
+  reakcija. Tu je gubitak kose, oteklina, osip. U tom slu\u010daju lijek se zaustavlja,
+  trbuh, crijeva se isperu, uzme se sorbent.\\nalbendazol\\nProfilaksa crva u odraslih
+  - lijekovi koji se temelje na albendazolu dobro su dokazani. Albendazol za prevenciju
+  bakterijskih bolesti uklju\u010den je u preporu\u010deni popis WHO-a. Lijek uni\u0161tava
+  stanice probavnog sustava parazita, uzrokuje inhibiciju vitalnih procesa. Albendazol
+  preporu\u010duje se za uzimanje masnom hranom.\\nKada je preosjetljivost na komponente
+  lijeka, njegova uporaba se ne preporu\u010duje. Kontraindikacije su trudno\u0107a
+  i laktacija. Mogu postojati poreme\u0107aji probavnog sustava, alergijske reakcije,
+  konvulzije, promjene raspolo\u017eenja, ponekad postoje problemi s vidom, \u017eutilo
+  \u017eu\u010dnog mjehura, poreme\u0107aj bubrega.\\nSprje\u010davanje crva u odraslima
+  folklornih lijekova\\nNe samo lijek za prevenciju crva u odraslih se pokazao u\u010dinkovit.
+  Prevencija parazita kod ljudi populacijskim sredstvima, homeopatski lijekovi u\u010dinkovita
+  su metoda prema pacijentovoj povratnoj informaciji. Sjeme bundeve dobro se preporu\u010duje.
+  Za borbu protiv parazita, zobene bundeve treba jesti na praznom \u017eelucu u sirovom
+  obliku, prethodno mljeti i pomije\u0161ati s medom. Za helminti\u010dku profilaksu,
+  pripremaju se izgaranje sjemena.\\nPostoji mnogo recepata za pripremu anthelmintika
+  na bazi sjemenki bundeve. Klice s infuzijom \u010de\u0161njaka rade dobro. Crvi
+  umiru ako pijete konjak s ricinusovim uljem, pomije\u0161ane u omjeru 1: 1. Obavezan
+  uvjet za djelotvornost narodnih metoda je unos laksativa, pranje crijeva radi uklanjanja
+  mrtvih crva. Ovo je va\u017eno, budu\u0107i da se paraziti po\u010dinju raspadati
+  u crijevima, otpu\u0161taju\u0107i toksine.\\nCijena lijekova od crva\\nU Moskvi,
+  St. Petersburg, cijena lijekova za crve razlikuje se. Zna\u010dajno se razlikuje
+  u ljekarnama grada, relativno je jeftino naru\u010diti lijekove u online trgovini,
+  odabrati u\u010dinkovite kolege, ovdje mo\u017eete organizirati isporuku. Prosje\u010dna
+  cijena anthelmintskih lijekova:\\nProfilakcija crva u djece i odraslih\\nNema mjera
+  koje u potpunosti mogu ukloniti rizik od zaraze parazitima. Po\u0161tivanje pravila
+  higijene uop\u0107e nije jamstvo da se helminti ne smiruju u tijelu. Mnogi su \u0161okirani
+  \u010dinjenicom da je 70-80% ljudi na svijetu zara\u017eeno parazitima, a ponekad
+  i nekoliko vrsta istodobno. S obzirom na takvu zapanjuju\u0107u statistiku, postavlja
+  se pitanje je li potrebno sprije\u010diti crva u djece i odraslih? Ako se donese
+  odluka o poduzimanju preventivnih mjera, koliko \u010desto treba izvr\u0161iti,
+  koje lijekove ili narodne recepte treba koristiti za to?\\nCrvi se mogu izbje\u0107i
+  uz pomo\u0107 prevencije i pravilne prehrane\\nTrebate li profilaksu protiv crva?\\nJasan
+  odgovor na pitanje je li prevencija infekcije od helminti nije nu\u017ena. U suvremenoj
+  medicini postoje 3 mi\u0161ljenja:\\n- Provesti lije\u010denje crva samo kada su
+  testovi potvrdili njihovu prisutnost i pomogli u utvr\u0111ivanju izgleda parazita
+  koji je pogodio tijelo. U preventivne svrhe, uzimanje tableta nije preporu\u010dljivo,
+  posebno za djecu, budu\u0107i da su anthelminti\u010dki lijekovi toksi\u010dni.\\n-
+  Suprotno gledi\u0161te - potrebno je dva puta godi\u0161nje piti anthelminti\u010dke
+  lijekove \u0161irokog spektra djelovanja za prevenciju. Postoje tablete koje uzrokuju
+  najmanje nuspojave i omogu\u0107uju za\u0161titu tijela od crva.\\nHelminthiasis
+  je opasno za osobu u bilo kojoj dobi, ali ima osobito \u0161tetan u\u010dinak na
+  djecu. Paraziti mogu apsolutno nastajati u bilo kojem organu, tkivu: od crijeva,
+  do plu\u0107a i mozga. Oni apsorbiraju meso, hranjive tvari, osloba\u0111aju\u0107i
+  ogromnu koli\u010dinu toksina koji otrovaju tijelo. U odraslih osoba to uzrokuje
+  razvoj kroni\u010dnih bolesti koje se godinama ne mogu izlije\u010diti. U maloj
+  djeci, osim bolesti, zapo\u010dinje ka\u0161njenje u tjelesnom razvoju. S obzirom
+  na ovu okolnost, bolje je biti siguran i uzimati lijekove nego riskirajte svoje
+  zdravlje.\\n- Postoji i alternativna verzija. U skladu s tim, mo\u017eete koristiti
+  antihelminti\u010dke lijekove bez davanja testova, ako postoje znakovi parazita.
+  Ovo gledi\u0161te dr\u017ei dr. Komarovsky.\\nU kojim je slu\u010dajevima opravdana
+  redovita antihelminti\u010dna profilaksa:\\n- s ku\u0107nim ljubimcima ili \u010destim
+  kontaktom s \u017eivotinjama;\\n- ako djeca igraju u pje\u0161\u010daniku, kontaktirajte
+  s tlom;\\n- kad \u010dovjekov hobi pecanje, lov;\\n- nakon putovanja u egzoti\u010dne
+  zemlje.\\nPreventivno odr\u017eavanje obavezno je u \u010destom kontaktu s doma\u0107im
+  \u017eivotinjama\\nPotrebno je uzimati lijekove od crva do svih \u010dlanova obitelji,
+  ako jedan od njih ima helminse, osobito one koji se prenose izravno od osobe do
+  osobe. Tako\u0111er je bolje poduzeti preventivne mjere ako se neka djeca u grupi
+  ili dijete klase dijagnosticiraju s parazitima.\\nKako sprije\u010diti\\nSmanjivanje
+  opasnosti od zaraze crvima pomo\u0107i \u0107e u uskla\u0111ivanju s jednostavnim
+  preventivnim mjerama:\\n- dostatna toplinska obrada hrane, posebno mesa i ribe;\\n-
+  pi\u0107e pro\u010di\u0161\u0107ene vode;\\n- po\u0161tivanje osobne higijene, osobito
+  pranje ruku sapunom prije svakog obroka i nakon svakog posjeta zahodu;\\n- anthelminti\u010dna
+  profilaksa kod ku\u0107nih ljubimaca;\\n- redovita promjena posteljine.\\nAli ponekad
+  ove mjere nisu dovoljne, stoga morate uzimati antihelminti\u010dke lijekove.\\nPa\u017eljivo
+  pranje ruku smanjuje mogu\u0107nost zaraze parazitima\\nDobre tablete za sprje\u010davanje
+  crva\\nPostoji mnogo lijekova namijenjenih za uni\u0161tenje crva u ljekarnama.
+  Podijeljeni su na specifi\u010dne i nespecifi\u010dne. Specifi\u010dne pilule poma\u017eu
+  da se rije\u0161e odre\u0111ene vrste parazita. Imaju usmjereni u\u010dinak i vi\u0161e
+  su toksi\u010dni. Nespecifi\u010dni lijekovi imaju \u0161irok raspon djelovanja,
+  uni\u0161tavaju\u0107i razli\u010dite vrste helminti. Imaju najmanje nuspojava,
+  pa su pogodni za prevenciju.\\nRazmislite o drogama koje su bolje piti u svrhu profilakse
+  protiv crva:\\n- crv - kao aktivni sastojak sadr\u017ei Albendazol, koji je u\u010dinkovit
+  za enterobiazu, giardiasis, ascariasis, ne-katorozu i druge oblike zaraze crvima.
+  Tablete se uzimaju uz hranu. Mora biti \u017evakanje, opran vodom. Doza lijeka za
+  prevenciju - 3 dana 1 tableta dnevno.\\nUzimanje Vormile mo\u017ee izazvati alergiju,
+  vrtoglavicu, mu\u010dninu. Kontraindikacija za njegovu upotrebu je trudno\u0107a,
+  razdoblje dojenja. Tro\u0161ak lijeka je od 200 rubalja.\\nTablete \\\"Vormil\\\"
+  400 mg\\n- Vermoxum - sadr\u017ei Mebendazol, koji uni\u0161tava sve vrste crnih
+  crva: pinworms, roundworms, whipworms. S preventivnom svrhom, dovoljno je jednom
+  uzeti 1 tabletu. Piti ga je potrebno na prazan \u017eeludac.\\nKontraindikirano
+  je ovaj lijek, trudno, uz prisutnost ulkusa, Crohnove bolesti, zatajenja jetre,
+  pa \u010dak i tijekom dojenja. Mogu\u0107e komplikacije, kao \u0161to su glavobolja,
+  mu\u010dnina, alergijska reakcija. Cijena je od 100 rubalja.\\nVermox - 6 tableta\\n-
+  dekaris - sadr\u017ei Levamisol, koji u\u010dinkovito uni\u0161tava pinworm, whipworm,
+  ascaris, intestinalne mitesere. Copes with mixed invasion (infekcija), kada tijelo
+  istodobno parazits nekoliko vrsta crva. Uzima se jednom, nakon jela. Prednost ovog
+  lijeka je da stimulira aktivnost imunolo\u0161kog sustava.\\nKontraindikacije -
+  trudno\u0107a, insuficijencija bubrega i jetre, agranulocitoza. Mogu\u0107e nuspojave
+  kao \u0161to su alergije, mu\u010dnina, vru\u0107ica, krvarenje maternice. Cijena
+  je od 70 rubalja.\\nDekaris - 2 tablete\\n- pirantel - sadr\u017ei aktivnu komponentu
+  Pirantela u isporuci. Djelotvoran je protiv zrelih crva razli\u010ditih vrsta, a
+  tako\u0111er uni\u0161tava njihove li\u010dinke. Za spre\u010davanje jedne doze
+  lijeka. Doza ovisi o dobi i te\u017eini osobe. Odre\u0111uje se iz izra\u010duna
+  10 mg lijeka za svaki 1 kg ljudske tjelesne te\u017eine.\\nTablete prakti\u010dki
+  ne uzrokuju nuspojave. Mu\u010dnina i glavobolja su mogu\u0107e. Kontraindikacije
+  do uzimanja - miastenija gravis, pojedina\u010dna netrpeljivost, trudno\u0107a.
+  Cijena je od 40 rubalja.\\nPyrantel u obliku tableta i supozitorija\\nPripreme za
+  djecu - kakav je lijek bolji?\\nZa novoro\u0111en\u010de i bebe do godinu dana mo\u017eete
+  dati piperazin. Ima slab u\u010dinak, ali gotovo nema nuspojava, \u0161to je va\u017eno
+  za malu djecu. Sadr\u017ei aktivni sastojak Adipat Piperazin, u\u010dinkovit protiv
+  okruglog bora. Dozu treba odrediti lije\u010dnik. Mogu\u0107e nuspojave poput pove\u0107ane
+  kapricioznosti, pogor\u0161anja apetita, problema sa spavanjem. Cijena je od 20
+  rubalja.\\nDjeca od 1 do 2 godine mogu dobiti suspenziju Nemosola s aktivnim sastojkom
+  Albendazola. Poma\u017ee kod enterobiaze, ascariasis, ankilostomiasis, trichinosis.
+  Dovoljno je jednom uzeti 10 ml lijeka. Pijte dok jedete. Nemosol mo\u017ee uzrokovati
+  mu\u010dninu, zamagljen vid, glavobolju, stolice. Kontraindicirana je za pojedina\u010dnu
+  netoleranciju komponenti, bolesti jetre. Cijena za 20 ml - od 200 rubalja.\\nDjeca
+  od 3 godine su prikladna za Albendazole. Djelatna tvar u svom sastavu - Albendazol
+  je djelotvorna u enterobiosis, kuka hookworm, klonorokoza, toksokaroza, ne-karotidnih
+  i drugih vrsta invazije. Pilula se uzima nakon obroka. Dozu odre\u0111uje lije\u010dnik.
+  Mogu\u0107e nuspojave - mu\u010dnina, proljev, konvulzije, pospanost, zbunjenost.
+  Kontraindicirani lijek za pojedina\u010dnu netoleranciju. Cijena je od 150 rubalja.\\nOd
+  dobi od 5 godina, mogu\u0107e je dati Levamisol, koji je djelotvoran za ne-katoroze,
+  ascaridozu, infekciju kuka i mje\u0161ovite helminti\u010dke infekcije. Aktivna
+  tvar u svom sastavu je Levamisole. Za profilaksu, tableta se uzima jednom. Nuspojave
+  - proljev, povra\u0107anje, alergije. Kontraindikacije - bubre\u017ena bolest, jetra.
+  Cijena je od 80 rubalja.\\nEnterosgel - za spre\u010davanje crva\\nBudu\u0107i da
+  su anthelminticne dje\u010dje tablete isti lijekovi koji su propisani odraslim osobama,
+  oni imaju toksi\u010dni u\u010dinak na tijelo. Da bi je postigao razinu, jedan dan
+  nakon profilakti\u010dkog unosa anthelmintskih lijekova, potrebno je djeci davati
+  apsorbente, na primjer aktivni ugljen, Enterosgel.\\nFolk lijekovi\\nAko postoje
+  simptomi koji bi mogli ukazivati na zarazu s crvima, ili je postojala \u017eelja
+  za provo\u0111enjem profilakse bez kori\u0161tenja lijekova, narodni lijekovi \u0107e
+  vam pomo\u0107i.\\nPopularne narodne recepte za preventivno lije\u010denje od crva:\\n-
+  4 klin\u010di\u0107a sjeckane \u010de\u0161njake soli i ulijte 200 ml mlijeka. Piti
+  na prazan \u017eeludac, a nakon toga ni\u0161ta za jesti 2 sata. Za djecu smanjite
+  koli\u010dinu sastojaka za pola.\\n- Ulijte listove matice kipu\u0107om vodom i
+  ostavite 20 minuta. Pirjajte juhu pripremljenu za kuhanje 25 ml prije svakog obroka
+  3 dana.\\n- Za 12 sati inzistirajte listove elekampana, napunjene kipu\u0107om vodom.
+  Pijte 4 puta dnevno prije jela.\\n\u010cak i za osobu koja se \u017eeli za\u0161tititi
+  od infekcije crvima, korisno je redovito jesti sirove sirovine, za\u010dinsko za\u010din,
+  piti svje\u017ee iscije\u0111ene sokove, osobito \u0161ipak, mrkvu. Profilacija
+  ljudi s pravilnom primjenom osigurat \u0107e pozitivan rezultat.\\nCrvi se trebaju
+  rutinski davati svim \u010dlanovima obitelji. Tako\u0111er bi se trebalo obavljati
+  dva puta godi\u0161nje antihelminti\u010dka terapija me\u0111u svim doma\u0107im
+  \u017eivotinjama. Zajedno s po\u0161tivanjem pravila osobne higijene i pravilne
+  prerade proizvoda prije konzumacije, to \u0107e pomo\u0107i u zna\u010dajnom smanjenju
+  rizika zaraze crvima.\\nU\u010dinkoviti lijekovi za prevenciju kormofitije kod odraslih\\nAko
+  osoba ima crve, vrlo brzo \u0107e dovesti do mnogih bolesti.\\nHelmintsi mogu znatno
+  pogor\u0161ati rad imuniteta i uskoro \u0107e biti kr\u0161enja funkcije mnogih
+  tijela sustava:\\n- pojava pote\u0161ko\u0107a s probavom;\\n- smanjeni imunitet;\\n-
+  formiranje brojnih bolesti jetre;\\n- problem s vidom.\\nStru\u010dnjaci ka\u017eu
+  da danas 95 od 100 ljudi ve\u0107 ima brojne parazite u tijelu. U ovom \u010dlanku
+  mo\u017eete saznati najbolje pilule od crva.\\nSprje\u010davanje crva u odraslih\\nTijelo
+  \u0107e se boriti s helminths, razvijaju\u0107i niz antitijela za borbu protiv crva,
+  ali ipak ova za\u0161tita \u0107e biti premala.\\nKada je potrebno koristiti lijekove
+  iz crva:\\n- ako barem jedan \u010dlan obitelji ima crve;\\n- ako u doma\u0107im
+  \u017eivotinjama ima crva;\\n- ako dje\u010dak igra dugo vremena na ulici u pje\u0161\u010daniku,
+  onda ima crva to\u010dno;\\n- postoji veliki rizik za poljoprivredne radnike koji
+  redovito tro\u0161e vrijeme sa \u017eivotinjama\\nDanas postoji ve\u0107 vi\u0161e
+  od 270 vrsta razli\u010ditih helminti, iako, kako ka\u017ee medicina, ne mogu biti
+  to\u010dno za one gra\u0111ane koji prate njihovo zdravlje i redovito provode prevenciju
+  crva.\\nTakva stra\u0161na bolest mo\u017ee biti kod odraslih i djece, pa se ovdje
+  mora redovito preventivno odr\u017eavati.\\nDa biste to u\u010dinili, mo\u017eete
+  koristiti razli\u010dite lijekove i pilule. Prilikom prolaska op\u0107e medicinske
+  profilakse, va\u017eno je pratiti stanje zdravlja i va\u0161e dijete, napominjemo
+  da u spre\u010davanju crva mogu postojati nuspojave.\\nLijekovi za prevenciju crva
+  u odraslih\\nPostoje \u010detiri osnovna anthelmintika. Razmotrimo ih detaljnije.\\ndekaris\\nDekarys
+  - Ovo je jedinstven antihelminti\u010dki agens koji slu\u017ei za uni\u0161tavanje
+  crva i raznih crva \u0161irokog djelovanja. Upotreba takvog jedinstvenog lijeka
+  jasno inhibira glikolizu i ubija \u017eivot bjelan\u010devina i uzrokuje op\u0107u
+  paralizu koja dovodi do smrti tih organizama. Kad crvi nestanu nakon primanja Decarisa,
+  ovdje \u0107ete saznati.\\nLijek treba koristiti samo iznutra i samo jednom nakon
+  ve\u010dere po stopi od:\\n- Djeca - 2,5 mg po kilogramu te\u017eine.\\n- Odrasli
+  bi trebali uzimati 150 mg nakon ve\u010dere.\\nOvaj lijek nema nikakvu nuspojavu,
+  jer ga je svaka osoba lako tolerirala, iako i ovdje:\\n- bol u trbuhu i mu\u010dnina;\\n-
+  povra\u0107anje, pa \u010dak i probavne smetnje.\\nTakav alat u ljekarni jo\u0161
+  se mo\u017ee nazvati, kao Ascaridil ili Ketrax. Svaka tableta sadr\u017ei levamisol
+  hidroklorid, a postoji i niz jedinstvenih posebnih agregata.\\nPripravak je napravljen
+  samo u obliku be\u017e tableta, jedna tableta sadr\u017ei do 150 mg levamisola,
+  osim toga, tako\u0111er se nalazi saharoza i \u0161krob, kao i talk, magnezij i
+  laktoza monohidrat.\\nAko je pilula za djecu, onda postoji i okus koji je potreban
+  za dobivanje okusa marelice i prekrasnu hladovinu.\\ncrv\\ncrv je anthelmintski
+  moderni lijek s velikim spektrom djelovanja. Aktivna glavna supstanca ovdje je albendazol,
+  koji poma\u017ee kod crijevnih, tkivnih i drugih oblika parazitske uobi\u010dajene
+  bolesti.\\nOvaj lijek:\\n- djeluje i na odrasloj osobi i djetetu;\\n- u\u010dinkovito
+  ubija crve i jaja koje ih postavljaju;\\n- ima sposobnost suzbijanja polimerizacije
+  tubulina, koja uzrokuje metabolizam helmintih i zatim ih ubija.\\nRazmotrite da
+  mogu postojati \u010deste nuspojave:\\nLijek jasno i u\u010dinkovito manifestira
+  njegov u\u010dinak na Enterobius vermicularis, kao i Ascaris lumbricoides i mnoge
+  druge.\\nTijelo tijelo odmah prepoznaje probavni trakt, apsorbira ga dovoljno lako,
+  iako ako se koristi s masnom hranom, apsorbira se ta tvar u tijelu. Albendazol \u0107e
+  tada biti izlu\u010den iz tijela s djelovanjem \u017eu\u010di, a tako\u0111er i
+  urinom u malim koli\u010dinama.\\nPreporu\u010da se kori\u0161tenje lijeka kada:\\n-
+  rudarska glista;\\n- teniasis;\\n- gimenolepidoze;\\n- gnathostomiasis;\\n- ako
+  se \u017eelite rije\u0161iti normalnih crva.\\nPravila prijema:\\n- Odrasli 400
+  mg dva puta dnevno tijekom 3 dana.\\n- Djeca \u0107e biti dovoljna za 1 tabletu,
+  sve ovisi o dobi i masi njegova tijela.\\n- Izra\u010dunavanje lijeka od 15 mg po
+  kilogramu dnevno, maksimalna doza je 800 mg na dan, a ako je potrebno, bolje je
+  dr\u017eati 2-3 ciklusa takvog lije\u010denja.\\npirantel\\nTakav lijek, poput Pirantela,
+  je anthelminti\u010dki lijek za poni\u017eenje \u0161irokog raspona crva. Upute
+  za uporabu lijeka Pirantel mogu se na\u0107i ovdje.\\nAko osoba ima enterobiosis
+  ili ascariasis, a postoje crijevne bolesti povezane s crvima, tada se ovaj lijek
+  treba koristiti po stopi od 10 mg za svaki 1 kg tjelesne mase, a postupak obi\u010dno
+  traje 2-3 dana.\\nS takvim terapeutskim sredstvom, prakti\u010dki nema nuspojava,
+  pacijenti dobro podnose lijek, iako su mogu\u0107i:\\nKontraindikacija je trudno\u0107a,
+  kada se lijek treba uzeti s oprezom.\\nLijek mo\u017ee imati niz analoga:\\n- Kombantrin
+  i Agipiprin;\\n- Bifantrel i Helmix;\\n- Triombrin i drugi.\\nDoziranje ovisi o
+  dobi i te\u017eini osobe, mo\u017eete mije\u0161ati lijek s sokom ili mlijekom,
+  po\u017eeljno je pridr\u017eavati se prehrane, kao i koristiti pomo\u0107ne lijekove.
+  Trajanje takvog lije\u010denja je samo 2-3 dana, \u010dak i uz te\u0161ke o\u0161te\u0107enje
+  crva.\\nVermoxum\\nLijek je anthelmintik i ima \u0161irok raspon op\u0107ih u\u010dinaka.\\nU\u010dinkovito
+  na:\\nVermoxum:\\n- ima jasan i funkcionalni poreme\u0107aj bobina;\\n- iscrpljuje
+  ove zalihe rezervata glikogena i inhibira sintezu stani\u010dnog zajedni\u010dkog
+  tubulina;\\n- inhibira ATP;\\n- prakti\u010dki ne apsorbira u crijevu, a veza s
+  proteinima \u017eivotinjske plazme je samo 90%;\\n- distribuira organima i djeluje
+  na li\u010dinke bjelan\u010devina.\\nDjeca, kao i odrasli, obi\u010dno se propisuju
+  100 mg svaka, tj. Jedna tableta odjednom, a zatim se ovaj lijek treba uzimati vi\u0161e
+  puta nakon 15 dana.\\nMogu\u0107e nuspojave:\\n- mu\u010dnina;\\n- vrtoglavica;\\n-
+  pote\u0161ko\u0107e u trbuhu;\\n- obrazovanje alergije, proljev i urtikarija;\\n-
+  osip ko\u017ee;\\n- razli\u010dite otekline;\\n- mo\u017ee pove\u0107ati aktivnost
+  jetrene transaminaze;\\n- anemija.\\nkontraindikacije:\\n- preosjetljivost i ulcerativni
+  kolitis;\\n- Crohnova bolest;\\n- bolesti jetre;\\n- Nemojte ga davati djeci mla\u0111oj
+  od 2 godine.\\nProizvod mo\u017eete kupiti u ljekarni, gdje se obi\u010dno prodaje
+  samo u tabletama, \u0161to to\u010dno u paketu od \u0161est komada. Sastav lijeka
+  je klasi\u010dan, tj. 5-benzol-2-metoksikarbonilamin, tableta je \u017euta i malo
+  topiva u vodi, koristi se samo za gutanje. Recenzije o Vermoksu i njegovim tro\u0161kovima
+  mo\u017eete prona\u0107i ovdje.\\nKada poduzeti preventivne te\u010dajeve?\\nMoraju
+  se provoditi anthelminti\u010dki redovni te\u010dajevi za prevenciju:\\n- U prolje\u0107e,
+  to jest, mjesec dana nakon taljenja snijega, obi\u010dno travanj i svibanj.\\n-
+  Bli\u017ee do jeseni, kada mraz ide, to je obi\u010dno u listopadu, pa \u010dak
+  iu studenom.\\nKako bi se smanjila takva profilaksa, treba se pridr\u017eavati higijene:\\n-
+  \u010desto operite ruke;\\n- 2-3 puta oprati vodom;\\n- napustiti sirovo meso;\\n-
+  nemojte piti vodu iz slavine.\\nZa prevenciju treba koristiti sveobuhvatan medicinski
+  pristup i ovdje je potrebno uhvatiti sve vitalne op\u0107e cikluse razvoja helminti.\\nZar
+  profilaksu crva?\\nRedovita i pre\u010deta op\u0107a prevencija potrebna je samo
+  u nekim te\u0161kim slu\u010dajevima. Mnogi stru\u010dnjaci ka\u017eu da nije preporu\u010dljivo
+  koristiti lijekove samo u slu\u010daju i vrlo \u010desto. To je zbog \u010dinjenice
+  da mnogi u\u010dinkoviti lijekovi mogu \u010dak biti \u0161tetni i otrovni.\\nZna\u010dajke
+  sprje\u010davanja crva:\\n- Medicinska redovita tradicionalna profilaksa mo\u017ee
+  se zahtijevati samo kada su paraziti upravo tu u osobi.\\n- Za dijete je prevencija
+  va\u017ena to\u010dka, jer je vrlo sklona parazitima, ali u ovom slu\u010daju je
+  potrebno paziti.\\nTri mi\u0161ljenja u medicini o prevenciji kormomtioze\\nMi\u0161ljenja
+  lije\u010dnika o prevenciji helmintioze:\\n- Mogu li crvi uzrokovati razli\u010dite
+  alergije? Da, doista je poput bobina, nakon \u0161to su se na\u0161li u tijelu,
+  nije lako postavljati jaja, umiru i raspadaju, \u0161to uzrokuje opijenost kod ljudi.
+  Ako imunitet oslabi, tada \u0107e se boriti protiv crva tijelo \u0107e razviti veliki
+  broj za\u0161titnih krvnih stanica, a to definitivno dovodi do alergija. Pored toga,
+  helminti mogu uzrokovati \u010deste prehlade i kroni\u010dne bolesti.\\n- Postoje
+  li o\u010digledni znakovi i znakovi prisutnosti helminti? Saznajte imate li crve
+  iz vi\u0161e razloga, obi\u010dno pod o\u010dima su tamni krugovi, a no\u0107u \u0107e
+  biti jaka salivacija, a ujutro izgleda vrlo umorno. Ko\u017ea mo\u017ee postati
+  bijela i blijeda, kosa \u0107e postati iscrpljena, a na ko\u017ei peta \u0107e biti
+  pilinga i do\u0107i \u0107e do pucanja.\\n- Kako odrediti prisutnost helminti? Ranije
+  se mislilo da se takvi opasni bobini mogu izra\u010dunati iz analize krvi. Danas
+  postoje vi\u0161e suvremenih metoda detekcije - to je enzimski povezani imunosorbentni
+  test i brojne druge. Takva je bolest rezultat prljavih ruku, tako da kad idete ku\u0107i
+  s ulice, operite ruke odmah i operite prije jela. Me\u0111u glavnim i jasnim znakovima
+  je alergija, kao i nervna uzbu\u0111enja i uzrujan trbuh, mo\u017ee biti umor, pa
+  \u010dak i zatvor.\\nKada je opravdana anthelmintska profilaksa?\\nAntihelminti\u010dna
+  profilaksa opravdana je u takvim slu\u010dajevima:\\n- Ako je barem jedan \u010dlan
+  va\u0161e obitelji zara\u017een crvima, onda \u0107e prevencija crva biti stvarna,
+  po\u017eeljno je odmah sprije\u010diti cijelu obitelj.\\n- Ako je analiza parazita
+  bila negativna, ali bilo je klini\u010dkih znakova, \u010dak iu obliku malog \u0161uga.\\n-
+  U prisutnosti ku\u0107nih ljubimaca ili \u010destog kontakta sa \u017eivotinjama.\\n-
+  ako djeca igraju u pje\u0161\u010daniku, kontaktirajte s tlom.\\n- kad mu\u0161karac
+  hobi pecanje, lov.\\n- nakon putovanja u egzoti\u010dne zemlje.\\nGlavni lijekovi
+  za sprje\u010davanje crva\\nGlavni lijekovi za sprje\u010davanje crva:\\nFolk metode
+  prevencije\\nPostoji mnogo razli\u010ditih narodnih lijekova za crve, na primjer:\\n-
+  sjemenke bundeve. Prevencija bi trebala trajati mjesec dana, a jo\u0161 vi\u0161e,
+  sjeme se najbolje jede samo na prazan \u017eeludac i dovoljno 100 grama dnevno;\\n-
+  sok od mrkve za aktiviranje ljudske mo\u0107i;\\n- ricinusovo ulje - dovoljno dnevno
+  jednu \u017elicu blagovaonice;\\n- \u010de\u0161njak - dovoljno je 2-3 \u010de\u0161njaka
+  dnevno;\\n- prihva\u0107anje ulja konoplje;\\n- bujonska ljekarna kamilice - razrijedite
+  otopinu s vodom i pijte 0,5-1 litara dnevno.\\nOsim toga, preporu\u010duje se sljede\u0107e:\\n-
+  Pored ovih standardnih metoda, koristite uobi\u010dajene kurativne klice, iako to
+  zna\u010di i odnosi se na prili\u010dno slab.\\n- Velika i stvarna korist mo\u017ee
+  imati sok od povr\u0107a i vo\u0107a, koja \u0107e izbaciti helminte i oja\u010dati
+  imunitet.\\n- Idealna i najbolja opcija je sok od mrkve i repa, samo jo\u0161 treba
+  dodati 1 \u017elicu meda za svako staklo.\\n- Tansy ima jedinstveni u\u010dinak,
+  budu\u0107i da ova biljka ima antipoot efekt, a odavno se koristi u svijetu za lije\u010denje
+  i za\u0161titu od crva.\\nTablete za sprje\u010davanje crva - \u0161to je bolje
+  i sigurnije?\\nHelmintiaza je jedna od naj\u010de\u0161\u0107ih bolesti, \u010desto
+  se dijagnosticira u djece. Tablete od crva za ljude pomo\u0107i \u0107e vam da izbjegnete
+  infekciju, ali biste ih trebali odabrati i odvesti ih ispravno.\\nRoditelji su jednostavno
+  du\u017eni ulo\u013eiti u svoje djete elementarne pravila o higijeni kako bi izbjegli
+  ozbiljne probleme u budu\u0107nosti zbog helmintija\\nNespecifi\u010dne preventivne
+  mjere\\n\u010cak i naju\u010dinkovitiji lijekovi ne mogu za\u0161tititi osobu od
+  zaraze ako ne slijedi pravila higijene.\\nKako izbje\u0107i infekciju parazitima:\\n-
+  oprati ruke nakon ulice, posjetiti WC, svakako jesti prije - sapun treba primijeniti
+  obilno, mora prodrijeti pod noktima, interdigital prostor;\\n- Isperite sve vo\u0107e
+  i povr\u0107e s vru\u0107om vodom, ako je proizvod u dodiru s tlom, treba ga natopiti
+  15-20 minuta u vodi;\\n- na \u0161etnji koristite antisepti\u010dke naprave i sprejevi,
+  osobito nakon dodira s tlom, pijesak;\\n- grani\u010dni kontakt sa zalutalim \u017eivotinjama,
+  ku\u0107ni ljubimci, redovito pokazuju veterinara, provode antiparazitsku profilaksu;\\n-
+  Nemojte jesti sirovu ribu, slabo pe\u010deno meso;\\n- bolje odrezati meso u rukavicama,
+  no\u017eevima i plo\u010di, koje su u dodiru sa sirovim proizvodom, pranje, tretiranje
+  soda;\\n- piti samo pro\u010di\u0161\u0107enu vodu;\\n- Nemojte plivati u sumnjivim
+  vodenim tijelima, prije planinarenja, tretirati ko\u017eu i odje\u0107u za\u0161titnim
+  sredstvima protiv insekata koji krvlju sisaju.\\nObratite pa\u017enju! Glistularna
+  invazija ne uvijek ima izrazitu simptomatologiju, ali se u tijelu patolo\u0161kim
+  procesima javlja, tijelo pati od intoksikacije, nedostatka korisnih elemenata u
+  tragovima, paraziti mogu utjecati na plu\u0107a, mozak, jetru.\\nBilo je potrebno
+  piti tablete od crva za profilaksu\\nPo stupnju opasnosti, lije\u010dnici izjedna\u010davaju
+  kormilarce s te\u0161kim virusnim i bakterijskim bolestima, ali stru\u010dnjaci
+  ne raspola\u017eu konsenzusom o tome kako je prikladno uzimati posebne lijekove
+  za prevenciju.\\nProtivnici prevencije droga vjeruju da su lijekovi za lije\u010denje
+  helminti\u010dkih invazija vrlo otrovi, pijenje ih bez razloga opasno za zdravlje.\\nDrugi
+  stru\u010dnjaci tvrde da ako obitelj ima maleno dijete, djecu osnovne \u0161kole,
+  ku\u0107ne ljubimce, a zatim svakih 6 mjeseci, potrebno je uzimati antiparazitske
+  lijekove za sve \u010dlanove ku\u0107anstva kako bi sprije\u010dili infekciju.\\nKada
+  biste trebali uzimati lijekove za crve za profilaksu:\\n- \u010desti kontakt s kopnom,
+  pijeskom:\\n- rad u veterinarskim klinikama, farme, postrojenjima za preradu mesa;\\n-
+  poha\u0111anje djeteta pred\u0161kolskih ustanova ili stalni boravak u zakopanim
+  dje\u010djim skupinama;\\n- redovito putovanje u egzoti\u010dne zemlje.\\nPrevencija
+  kostiju je potrebna za ljubitelje sushija, meso krvi, vodu iz bu\u0161otine, lovci,
+  ribari, ljetnikovci, nogometa\u0161i, ljubitelji odbojke na pijesku.\\nDanas u ljekarnama
+  postoje mnogi lijekovi za lije\u010denje i prevenciju helmintija. No izbor bi se
+  trebao temeljiti na savjetu terapeuta koji uzima u obzir osobine pacijentovog tijela\\nKako
+  odabrati pravi antiparazitski\\nOdabir pravog lijeka je te\u017eak zadatak. Lijekovi
+  \u0161irokog spektra djelovanja su u\u010dinkoviti, ali toksi\u010dni, lijekovi
+  s mek\u0161im djelovanjem utje\u010du samo na odre\u0111ene vrste parazita.\\n\u0160to
+  treba uzeti u obzir prilikom odabira lijeka:\\n- starost, te\u017eina, prisutnost
+  kroni\u010dnih bolesti;\\n- vrsta crva koja mo\u017ee biti zara\u017eena - djeca
+  se ne boje parazita koji \u017eive u mesu i ribi;\\n- prosje\u010dna cijena tableta
+  za spre\u010davanje crva u ljudi - 50 do 200 rubalja.Ali skuplji, ne zna\u010di
+  bolji i u\u010dinkovitiji, pri odabiru treba usredoto\u010diti na indikacije i nuspojave,
+  a ne na cijenu.\\nObratite pa\u017enju! Simptomi helmintijaza su u mnogo\u010demu
+  sli\u010dni infekciji protozoom - u takvim slu\u010dajevima nema antiparazitnih
+  lijekova.\\nSprje\u010davanje dje\u010djih crva u djece\\nPyrantel je najsigurniji
+  antiparazitski lijek, dopu\u0161ten je za lije\u010denje djece starijih od \u0161est
+  mjeseci. Prednosti - aktivne tvari lijekova ne apsorbira u krv, djeluje samo u crijevima,
+  proizvodi se u obliku tableta i suspenzije, uni\u0161tava zreli uzoraka i parazita
+  u ranoj fazi razvoja, ne prelaze 50 rubalja. Nedostaci - djelotvorni samo protiv
+  ascarida, nematoda, kuka i pinworms, ne utje\u010du na jaja crva.\\nMogu\u0107e
+  nuspojave:\\n- dispepti\u010dki poreme\u0107aji - mu\u010dnina, nadutost, proljev,
+  bolovi u trbuhu;\\n- migrena;\\n- pogor\u0161anje kvalitete sna;\\n- alergijske
+  reakcije u obliku ko\u0161nica i osipa.\\nDoziranje za djecu dulje od 6 mjeseci
+  je 5 ml za svakih 10 kg tjelesne te\u017eine, a te\u017eine od 75 kg trebate jednom
+  piti 30 ml sirupa, ako je te\u017eina vi\u0161e, morate uzeti 40 ml lijeka.\\nPyrantel
+  u tabletama mo\u017ee se dati djeci starijoj od dvije godine - za prevenciju je
+  dovoljno uzeti 0,5 tableta, u 6-12 godina - 2 tablete.\\nEmbonat pirginia je jo\u0161
+  jedan siguran lijek za djecu stariju od tri mjeseca, preporu\u010da se djeci da
+  se sprije\u010de enterobiasis, jer droga radi samo na pinworms. Lijek se proizvodi
+  u peleti od 50 mg i u obliku suspenzije.\\nKako bi sprije\u010dili infekciju, dovoljno
+  je uzeti lijek jednom - doza je 5 mg / kg ili 1 draga, 5 ml suspenzije svakih 10
+  kg. Lijek se ne mo\u017ee piti s bolestima bubrega, jetre, crijeva, ponekad postoje
+  nuspojave u obliku vrtoglavice i dispepti\u010dkih poreme\u0107aja.\\nObratite pa\u017enju!
+  Nakon uzimanja Embonate, izmet mo\u017ee postati crven, ali to nije opasno.\\nDo
+  danas, ovaj lijek se smatra najsigurnijim i u\u010dinkovitijim u lije\u010denju
+  crva u djece, jer je rizik nuspojava od njegove primjene izrazito minimalan\\nKoji
+  je lijek prikladan za trudnice za prevenciju bjelan\u010devina?\\nHelminthiasis
+  tijekom trudno\u0107e je opasno za majku i bebu, ali antiparazitsku profilaksu treba
+  provesti samo ako postoje \u010dimbenici koji mogu izazvati infekciju.\\nJedini
+  lijek koji se mo\u017ee uzeti u trudnice je piperazin, a tek nakon kraja I. tromjese\u010dja.
+  Lijek se osloba\u0111a u tabletama od 0,2 i 0,5 g, kao suspenzija. Lijek ima minimalnu
+  toksi\u010dnost, ko\u0161ta prosje\u010dno 30-59 rubalja, ali se mo\u017ee koristiti
+  samo za prevenciju ascaridoze i enterobioze.\\nNuspojave su rijetke, naj\u010de\u0161\u0107e
+  postoje pritu\u017ebe na glavobolju, mu\u010dninu, slabost mi\u0161i\u0107a, piperazin
+  se ne mo\u017ee uzimati s patologijama sredi\u0161njeg \u017eiv\u010danog sustava.\\nDnevna
+  doza je 0,5 g, uzimajte lijek 4-5 dana. Na taj na\u010din, trebate piti vi\u0161e
+  vode, ne zaboravite na pravila higijene.\\nKako uzeti Decaris za prevenciju\\nDecaris
+  je antiparazitski agens koji se temelji na levamisolu, 50 i 150 mg u tabletama.
+  To je jedan od naju\u010dinkovitijih antihelmintika, ali to bi trebao biti kori\u0161ten
+  za prevenciju samo ako postoji mogu\u0107nost ugovaranja nekoliko vrsta crva kada
+  se to dogodi \u010desto tijekom putovanja u egzoti\u010dne zemlje.\\nMogu\u0107e
+  nuspojave:\\n- poreme\u0107aj spavanja;\\n- cephalgia, napadi vrtoglavice;\\n- konvulzije;\\n-
+  sr\u010dane palpitacije;\\n- mu\u010dnina, proljev;\\n- osip na ko\u017ei.\\nAli
+  s preporu\u010denim dozama, negativne reakcije su rijetke, ljudi u bilo kojoj dobi
+  toleriraju lijek dobro.\\nProfilakti\u010dka doza za odrasle - 150 mg jednom prije
+  spavanja, djeca do tri godine starosti, doza se izra\u010dunava na 2,5 mg / kg.
+  Lijek se ne mo\u017ee uzimati tijekom trudno\u0107e i tijekom dojenja, ako postoje
+  problemi s bubrega, jetre, ko\u0161tane sr\u017ei u anamnezi.\\nObratite pa\u017enju!
+  Prednost Decarisa - medicina se mo\u017ee primijeniti na ljude oslabljene za\u0161titne
+  funkcije tijela, jer stimulira imunolo\u0161ki sustav.\\nKoliko je sigurna Vermox
+  za profilaksu\\nVermoxum - jeftin antiparazitno sredstvo sa \u0161irokim spektrom
+  djelovanja, na snazi u Ascariasis, enterobioze, trihotsefaleze uklanja odrasle crve,
+  jaja\u0161ca i li\u010dinke. No, unato\u010d svim prednostima, lijek se ne mo\u017ee
+  smatrati sigurnom - ne prodiru aktivnu tvar u krvi, ali mo\u017ee akumulirati u
+  tkivu, koji postaje uzrokom ozbiljnih nuspojava.\\nU preventivne svrhe, uzmite jednu
+  tabletu nakon jela, nemojte \u017evakati, piti puno vode.\\n- poreme\u0107aj probavnog
+  trakta;\\n- napadi glavobolje;\\n- konvulzije;\\n- alergijske manifestacije.\\nLijek
+  se ne mo\u017ee piti ulceroznim kolitisom, jetrenom patologijom, Crohnovom bole\u0161\u0107u,
+  lijek je kontraindiciran u trudnica i dojilja, djeca mla\u0111a od dvije godine.\\nObratite
+  pa\u017enju! U roku od 24 sata nakon uzimanja Vermoxa, ne smijete jesti masnu hranu,
+  alkoholna pi\u0107a.\\nUnato\u010d relativnoj sigurnosti, preporu\u010dujemo da
+  uzimate Vermox samo nakon savjetovanja s lije\u010dnikom\\nBiltricid za prevenciju\\nBiltricid
+  - antihelmintik formulacija na bazi prazikvantel ispu\u0161ta u obliku tableta od
+  600 mg, \u0161tetnog efekta na jetre krakova, Schistosomes, jedan od najskuplji
+  za lije\u010denje helmintijaze.\\nDoziranje se izra\u010dunava na temelju te\u017eine
+  osobe -40 mg / kg, pije lijek treba biti prije jela ili tijekom obroka, ne \u017evakati,
+  piti puno vode. Lijek treba uzeti jednom u ve\u010dernjim satima.\\n- bol u epigastri\u010dnoj
+  regiji;\\n- slabost, apatija;\\n- proljev, krvne mrlje mogu biti prisutne u izmetu;\\n-
+  mu\u010dnina, glavobolja;\\n- pove\u0107ano znojenje;\\n- svrbe\u017e, osip.\\nBiltricid
+  se ne mo\u017ee uzimati u prvom tromjese\u010dju trudno\u0107e, tijekom dojenja,
+  djeca mla\u0111oj od \u010detiri godine, s neispravnom jetrenom dozom.\\nAlbendazol
+  je u\u010dinkovito sredstvo za prevenciju\\nAlbendazol se bori protiv spolno zrelih
+  parazita i njihovih li\u010dinki, lijek ima \u0161irok terapeutski u\u010dinak,
+  djelotvoran \u010dak i protiv ekstra-crijevnih parazita. Ali ima prili\u010dno opse\u017ean
+  popis nuspojava.\\n- migrena, vrtoglavica;\\n- neugodne senzacije u epigastri\u010dnom
+  podru\u010dju, mu\u010dnina;\\n- osip na ko\u017ei, svrbe\u017e;\\n- groznice;\\n-
+  privremena hipertenzija.\\nZa profilaksu, morate uzeti 0,4 grama lijeka jednom dnevno,
+  doza je izra\u010dunata na 6 mg / kg za djecu. Morate popiti lijek nakon jela.\\nLijek
+  je kontraindiciran tijekom trudno\u0107e i prirodnog hranjenja, s o\u0161te\u0107enjem
+  mre\u017enice o\u010diju, djeci mla\u0111oj od \u0161est godina.\\nNe mo\u017eete
+  zaboraviti stare i u\u010dinkovite recepte za borbu i prevenciju s helminths - to
+  su korisni proizvodi kao \u010de\u0161njak i luk u sirovom obliku\\nOd toga je mogu\u0107e
+  zamijeniti lijekove\\nVe\u0107ina parazita ne podnosi duhovnu i za\u010dinjenu hranu,
+  tako da redovito trebate uklju\u010diti u prehranu luk, \u010de\u0161njak, \u0111umbir,
+  cimet, \u010dili. Dobro se bori s crvima, ja\u010da imunolo\u0161ki sustav mrkve
+  i sok od \u0161ipaka.\\nU\u010dinkovita preventivna medicina tradicionalne medicine:\\nSkuhajte
+  4 \u010de\u0161njaka \u010de\u0161njaka, sipajte 220 ml toplog mlijeka, popijte
+  ujutro na prazan \u017eeludac, mo\u017eete doru\u010dkovati za 2 sata. Za djecu
+  je potrebno smanjiti koli\u010dinu sastojaka faktorom 2.\\n- S gornjim dijelom ispunjen
+  je tamnocrvena posuda s volumenom od 250 ml s razbijenim odjeljcima od orahova,
+  posve napunjen vodkom i stavljen u tamno mjesto 7-10 dana. Pijte 5 kapi na prazan
+  trbuh dva tjedna.\\n- U 200 ml tople vode otopiti 5 g propolisa, dodati med i \u0111umbir
+  na okus, dio lijeka za pi\u0107e u 2 podijeljene doze.\\n- Svakog jutra popijte
+  lagani gutljaj \u010da\u0161e vode, u kojoj nave\u010der morate dodati 5 ml meda
+  i sok od limuna.\\nZa prevenciju infekcije helmintima treba redovito jedu sjemenke
+  sirovi bundeve mogu se \u017evakao suhe kore od agruma jesti na prazan \u017eeludac
+  nekoliko listova svje\u017eeg loboda.\\nNajbolji na\u010din izbjegavanja zaraze
+  parazitima je strogo pridr\u017eavanje pravila higijene, pa\u017eljiva prerada povr\u0107a
+  i vo\u0107a, mesa, ribe, dnevne promjene donjeg rublja. \u0160to pilule za crve
+  bolje poduzimaju za profilaksu - bolje je konzultirati lije\u010dnika o ovom pitanju,
+  pogotovo ako se radi o djeci i trudnicama.\\nLijekovi od crva\\nOp\u0107e informacije\\nModerni
+  anthelmintic agensi se koriste za lije\u010denje ljudi koji pate od razli\u010ditih
+  oblika helmintijaze. Svi kori\u0161teni antihelminti\u010dki lijekovi za ljude podijeljeni
+  su na pripravke iz \u0161irokog spektra helmina i pripravaka od crva koji utje\u010du
+  selektivno na njihove specifi\u010dne vrste.\\nAli doista u\u010dinkovitih farmaceutskih
+  protiv glista lijekovi su relativno novi, a prethodno se uglavnom koristi biljni
+  lijekovi, kao \u0161to su \u010de\u0161njak, sjemenke bundeve, paprati ekstrakt
+  mu\u0161kih i drugih.\\nAli sada postoje uistinu djelotvorni i sigurni anthelmintic
+  agenti, koji pokazuju antihelminti\u010dku aktivnost.\\nMe\u0111utim, nemogu\u0107e
+  je samostalno odabrati odre\u0111ene pripravke protiv parazita u ljudskom tijelu,
+  budu\u0107i da je neophodno utvrditi koji gliste parazitizirati u tijelu. U Rusiji
+  je vi\u0161e od 70 vrsta razli\u010ditih parazita \u0161iroko rasprostranjeno, od
+  kojih svaki mo\u017ee utjecati na tijelo. \u010cak i oni antihelminti\u010dki lijekovi
+  koji poma\u017eu od svih vrsta crva moraju biti uzeti kao \u0161to je propisao lije\u010dnik.
+  Uostalom, anthelmintski pripravci za ljude \u0161irokog spektra djelovanja imaju
+  mnoge kontraindikacije, dakle, kada zaraze crijevima i drugim vrstama parazita,
+  treba ih strogo uzimati prema shemi koju je stru\u010dnjak odredio.\\nNaj\u010de\u0161\u0107i
+  su sada pinworms, ve\u0107ina pred\u0161kolske djece. Vrlo \u010desto djeca u analizi
+  tako\u0111er odre\u0111uju Giardia, Parazitiraju\u0107i u dvanaesniku i nisu helminti.
+  Druga uobi\u010dajena vrsta helminti - roundworm.\\nModerni farmakolozi nude deset
+  lijekova koji u\u010dinkovito osloba\u0111aju osobu od zaraze parazitima. Naj\u010de\u0161\u0107e
+  invazije na helminci tretiraju se lijekovima Vermox, Pirantel, Wormil, Decaris,
+  Nemozol. U nastavku \u0107emo govoriti o tome kako uzimati pilule od crva, o tome
+  \u0161to su indikacije i kontraindikacije za kori\u0161tenje, koji je od postoje\u0107ih
+  lijekova naju\u010dinkovitiji. Pripreme posljednje generacije iz crva manje su toksi\u010dne,
+  ali postoje odre\u0111ene op\u0107e kontraindikacije. Stoga, svaki univerzalni lijek
+  treba propisati lije\u010dnik. Dakle, lije\u010denje bjesno\u0107a u odraslih i
+  djece ne mo\u017ee se prakticirati ako se pacijentu dijagnosticira akutna crijevna
+  infekcija, bilo koja infektivna, virusna, somatska bolest. Nemojte koristiti takve
+  tablete na dojenje, a kad trudno\u0107e samo su sredstva dopu\u0161tena piperazin.\\nParazite
+  koje osoba mo\u017ee dobiti podijeljena su u razli\u010dite skupine. Svaki od njih
+  (cestode, trematode, nematode) pokazuje osjetljivost na odre\u0111ene lijekove.
+  Zbog toga se lije\u010denje bolesnika u odrasloj dobi i djece mora obaviti lije\u010dnikom
+  nakon svih potrebnih testova, postavljaju\u0107i ili antiparazitske lijekove \u0161irokog
+  spektra za ljude ili odre\u0111ene lijekove.\\nKako se tretiraju nematode ili okruglice?\\nOkrugli
+  crvi su paraziti koji \u010desto inficiraju osobu. Nematode uklju\u010duju slijede\u0107e
+  vrste parazita: roundworm, pinworms, whipworm, Trichinella, Toxocara. Naj\u010de\u0161\u0107i
+  me\u0111u njima su okruglice i pinworms. Trenuta\u010dno postoje slijede\u0107e
+  pripreme protiv parazita u ljudskom tijelu koje djeluju na okruglice koje parazitizuju
+  u crijevu:\\nAko je do\u0161lo do infekcije s izvanintestinalnim nematozama, tada
+  se lije\u010denje bjelan\u010devina u odraslih i djece provodi sa sljede\u0107im
+  lijekovima:\\nBudu\u0107i da anthelmintski pripravci za ljude u ve\u0107ini slu\u010dajeva
+  utje\u010du na parazite odraslih, a jaja i li\u010dinke jedva funkcioniraju, lije\u010denje
+  treba ponoviti dva tjedna kasnije. Osim toga, mo\u017ee se pojaviti ponovljena infekcija
+  s pinwormovima.\\nDa biste pove\u0107ali djelotvornost procesa uklanjanja parazita,
+  uz kori\u0161tenje nekih lijekova ujutro, nave\u010der, trebate napraviti klistir
+  ili piti laksativ.\\nLijekovi iz tapeworms ili cestodes\\nTrakavice - zajedni\u010dki
+  parazita, koji uklju\u010duju veliki popis razli\u010ditih helminta - hydatidosa
+  bolesti, govedina trakavice infekcije, GID, dipilidioz, alveococcosis, Sparganosis,
+  patuljak trakavice, gove\u0111i trakavice, svinjetina trakavice, \u0161iroka riba
+  trakavice, itd..\\nKod zaraze ove vrste parazita koriste se sljede\u0107e tablete
+  protiv ljudskih crva:\\n- niklozamid(fenasal) se primjenjuje ako se udari enteri\u010dki
+  paraziti - trakavice.\\n- albendazole(Nemozol) je na snazi u nematosis, kao i kod
+  infekcije s mje\u0161ovitim helminti\u010dkim invazijama, echinococcus, neurocysticercosis,
+  giardiasis, Nemosol se mo\u017ee koristiti ako je osoba zara\u017eena ekstraintestinalnom
+  cestodiasisom.\\n- mepacrine(kinakrin) - anthelmintic agens u\u010dinkovit za infekciju
+  s gove\u0111im ili patuljastim lancem, kao i kada je zara\u017eena \u0161irokom
+  vrpcom, s giardiasisom itd.\\nKako lije\u010diti bjelan\u010devine trematode ili
+  trematode, flatworms\\nPopis helminti pripadaju ovoj klasi vrlo je \u0161irok: ovo
+  fasciolasis (hepatitis), opistorhos (ma\u010dka), clonorchiasis (Kineska fluka),
+  uotsonioz (hepatitis), paraganimoz (plu\u0107ni flukovi), pliva\u010d \u0161uga
+  (svrbe\u017e kupa\u010di). Ova grupa tako\u0111er uklju\u010duje metorhoz, gectrofioza,
+  nanofeitoza, gastrodyskoidoza, fasciolopsikoza, \u0161istosomijaza i drugima.\\nOd
+  svih gore navedenih vrsta, takve tablete su u\u010dinkovite:\\n- bithionol, hloksilaU\u010dinkovito
+  s izvanintestinalnim trematodama.\\n- perkloretilen se koristi za intestinalne trematode.\\n-
+  Tsesol, biltricid, Azinoks, Tsistitsid(aktivni sastojak Praziquantel) - lijekovi
+  \u0161irokog spektra djelovanja, djeluju za razli\u010dite vrste crva.\\nTreba napomenuti
+  da je bilo worming lijekovi, posebno onih koji su propisani biste dobili osloboditi
+  od traka crvi i stan, mo\u017eete piti samo u svrhu medicinskih Parasitologists.
+  Uostalom, pripreme od parazita su vrlo otrovi, pa se dozu koju propisuje lije\u010dnik
+  strogo po\u0161tujte. Kada pacijent uzima lijekove protiv parazita u ljudskom tijelu,
+  potrebno je provesti terapiju odr\u017eavanja (pod uvjetom izbacivanja avion i tapeworms).
+  Ne mo\u017eete sami uzimati takve lijekove, bez nadzora lije\u010dnika.\\nTreba
+  li se antiparazitske lijekove koristiti za prevenciju?\\nAko je jedan od \u010dlanova
+  obitelji bio zara\u017een pinworms, onda preventivne metode su potrebne za sve.
+  Vrlo je visoka razina infekcije s pinwormima me\u0111u djecom pred\u0161kolske i
+  osnovno\u0161kolske dobi. Crv jaja su se vrlo brzo - to se doga\u0111a kroz svakodnevne
+  predmete, drhtavih ruku, odje\u0107e zara\u017eene djece, itd Dakle, profilakti\u010dka
+  primjena lijekova za odrasle i djecu pitanja nastaju vrlo \u010desto..\\nMi\u0161ljenja
+  o tome je li potrebno sprije\u010diti crva u ljudi, stru\u010dnjaci su podijeljeni.
+  Neki vjeruju da ako uzimate pilule protiv crva za profilaksu osoba u jednom danu,
+  onda je mogu\u0107e da \u0107e se infekcija pojaviti za nekoliko dana i bit \u0107e
+  beskorisna. Stoga prevencija helmintioze trebala bi se sastojati od pranja ruku
+  \u010desto, odr\u017eavanja intimne higijene, mijenjanja donjeg rublja svako jutro
+  i tako dalje. No tablete za prevenciju parazita kod ljudi su nepo\u017eeljne, jer
+  su toksi\u010dne i imaju negativan u\u010dinak na tijelo. Stoga je preporu\u010dljivo
+  zamijeniti lijekove za sprje\u010davanje crva u odraslih i djece za konzumaciju
+  sirovog sjemenki bundeve ili bilo koji narodni lijek za crve za osobu koja sadr\u017ei
+  \u010de\u0161njak.\\nMe\u0111utim, postoje druga mi\u0161ljenja. Neki stru\u010dnjaci
+  tvrde da osobe \u010dije obitelji imaju malu djecu i mla\u0111e \u0161kolske dobi
+  traju svakih \u0161est mjeseci kako bi se sprije\u010dile pirantel. Uostalom, u
+  dje\u010djim timovima visoka razina infekcije, a simptomi infekcije ponekad su vrlo
+  slabo izra\u017eeni.\\nOsim toga, beba je u stanju pravilno promatrati higijenu
+  samo bli\u017ee od 6 godina, tako da se djeca stalno mogu osje\u0107ati otrovanje,
+  kao i kod ostalih \u010dlanova obitelji.\\nAko postoji negativan rezultat kada struganje
+  na enetrobioz, ali beba je jo\u0161 uvijek \u017ealio na svrbe\u017e u anus, bolovi
+  u trbuhu, mu\u010dninu, najbolje je imati dijete na analizu u jutro te no\u0107i
+  je spavao lo\u0161e, zabrinut za svoju jakim svrbe\u017eom. Ponovno koprcirano tri
+  puta, jedan dan i dva tjedna kasnije, mo\u017eete dobiti pouzdani rezultat.\\nKada
+  je potrebno za uzimanje tableta od parazita u ljudskom tijelu za prevenciju:\\n-
+  Ako dr\u017eite ku\u0107ne ljubimce u ku\u0107i - psi, ma\u010dke, itd.;\\n- sa
+  stalnim kontaktom s tlom (rad na krevetima, igre u pje\u0161\u010daniku);\\n- s
+  prebivali\u0161tem djece u zatvorenim dje\u010djim skupinama;\\n- ako netko voli
+  lov, odbojku na pijesku, itd.;\\n- s redovitim izletima u egzoti\u010dne zemlje.\\n\u0160to
+  ako se crvi pojavljuju tijekom trudno\u0107e?\\nTijekom razdoblja trudno\u0107e
+  \u017eena, naravno, mo\u017ee zaraziti parazitima. \u0160to u\u010diniti u ovoj
+  situaciji, jer u tom razdoblju do uporabe lijekova treba tretirati vrlo pa\u017eljivo?
+  Lije\u010denje crva tijekom trudno\u0107e treba biti vrlo pa\u017eljivo, jer nisu
+  svi lijekovi pogodni za \u017eene u tom stanju. Zabranjeno je lije\u010denje trudnica
+  uz pomo\u0107 tableta s crvima u prvom tromjese\u010dju. Uostalom, lijekovi su vrlo
+  otrovi, pa su oni mnogo opasniji za budu\u0107u majku od parazita. Ako postoje crvi
+  u trudnica, \u0161to treba u\u010diniti, lije\u010dnik \u0107e objasniti.\\nTijekom
+  trudno\u0107e, paraziti se mogu povu\u0107i s lijekovima samo uz pomo\u0107 lijekova
+  piperazin. Uzmite lijekove kako slijedi:\\n- kao lijek za ascaris - dva puta dnevno,
+  jedan sat prije jela ili jedan sat nakon toga, dva dana u dozi od 1,5-2 g;\\n- za
+  borbu s pinworms - u istoj dozi za pet dana, nakon \u010dega slijedi tjedan pauze,
+  svi pro\u0107i od 1 do 3 te\u010dajeva.\\nAko je budu\u0107a majka zara\u017eena
+  pinwormsom, briga o tome ne vrijedi. Pod uvjetom da \u017eena strogo pridr\u017eava
+  pravila higijene, mo\u017ee do\u0107i do samoizlje\u010denja. Uostalom, razdoblje
+  \u017eivota pinworms nije dugo - nekoliko tjedana. Stoga, trebate prati rublje,
+  prati \u010de\u0161\u0107e kako bi se izbjegla ponovna invazija. Da biste sprije\u010dili
+  infekciju ili ponovno invaziju, trebali biste dobro oprati ruke sapunom:\\n- nakon
+  posjete WC-u;\\n- nakon promjene posteljine;\\n- nakon kontakta sa \u017eivotinjama;\\n-
+  prije jela.\\nObavezno isperite sve vo\u0107e i povr\u0107e.\\nNaju\u010dinkovitiji
+  crvi za ljude\\nVo\u0111eni samo \u010dinjenicom da korisni\u010dke recenzije na
+  forumu pokazuju da ta ili ona droga - dobre tablete iz crva, uop\u0107e ne mogu.
+  Ne kupujte lijekove, samo znaju\u0107i ime crva od odraslih i djece.\\nO tome \u0161to
+  su tablete s crva bolje za odrasle i djecu, uvijek morate pitati stru\u010dnjaka.
+  Uostalom, kako bi odabrali naju\u010dinkovitije tablete od crva u ljudi, va\u017eno
+  je razmotriti koji paraziti su zara\u017eeni dijete ili odrasla osoba. Zapravo \u010dak
+  protivoglistnye pripreme \u0161irokog spektra djelovanja za osobu imaju u strukturi
+  razli\u010dite aktivne komponente. Prema tome, kontraindikacije, nuspojave, metoda
+  primjene i doziranja se razlikuju. Cijena tableta od crva razlikuje se. Ispod je
+  opis kako se crvi nazivaju, kako piti te lijekove, njihove kontraindikacije i mogu\u0107e
+  negativne akcije.\\ndekaris\\nAktivna komponenta - levamisol.\\nOvaj u\u010dinkovit
+  lijek za crve u odraslih i djece ne samo da ubija parazite, ve\u0107 i proizvodi
+  imunomodulacijski u\u010dinak. Me\u0111utim, njegova upotreba je mogu\u0107a tek
+  nakon imenovanja lije\u010dnika, kao i tableta nije samo u stanju ubiti helminti,
+  ali i na\u0161koditi tijelu kao proizvesti puno nuspojava, i to mo\u017ee izazvati
+  negativne u\u010dinke.\\nIndikacije: od \u0161upljina, pinworms, nekatora, hookworm,
+  glave vagala, intestinalnog mitesera, toksoplazmoze, trichostrongileza.\\nKontraindicirana
+  za djecu mla\u0111u od 3 godine, s torakalno hranjenje, agranulocitoza. Nemojte
+  koristiti tablete od 150 mg za lije\u010denje djece. Pa\u017eljivo primijeniti Decaris
+  ljudima koji pate bubreg i o\u0161te\u0107enje jetre, kao i bolesnika s ugnjetavanjem
+  hematopoezije ko\u0161tane sr\u017ei.\\nUputstvo: odrasle osobe su jedna tableta
+  od 150 mg jednom, nakon jela, nave\u010der. Djeca od 3 do 6 godina - jednom 25-50
+  mg. Djeca od 6 do 10 godina - jednom 50-75 mg. Djeca od 10 do 14 godina - jednom
+  75-100 mg.\\nTe\u010daj se ponavlja nakon 2 tjedna. Dijeta ili uzimanje laksativa
+  nije nu\u017eno. Nuspojave: nakon primjene, bol u trbuhu, mu\u010dnina, proljev,
+  povra\u0107anje, nesanica, vrtoglavica, alergijske manifestacije, zbunjenost, stomatitis
+  itd.\\nCijena je od 80 rubalja.\\nHelminthox, Pirantel, Combantrin, Nemocid\\nAktivna
+  komponenta - pirantel.\\npripravci Gelmintoks, Kombantrin i pirantel prikazani su
+  s ankilostomiasisom, ascaridozom, trikokafalozom, ne-karotidozom, enterobiazom.
+  Te tablete za lije\u010denje parazita u ljudskom tijelu najsigurnije su i naju\u010dinkovitije
+  za lije\u010denje djece. Naj\u010de\u0161\u0107e su propisane za ascariasis i enterobiosis.\\nKontraindicirane
+  s preosjetljivosti, oprezno se tablete propisuju djeci koja jo\u0161 nisu navr\u0161ila
+  \u0161est mjeseci starijih majki, osobe s jetrenom insuficijencijom.\\nOpis uputa:
+  Odrasli u slu\u010daju ascariasis, infekcije pinworm ili mje\u0161ovite zaraze su
+  dovoljno jednom ujutro, nakon doru\u010dka. Doza se uzima brzinom od 10 mg / kg.
+  Prikazana su djeca od \u0161est mjeseci do 2 godine uzimanja 125 mg, djece od 2
+  do 6 godina - 250 mg, od 6 do 12 godina - 500 mg.\\nZa borbu protiv parazita bilo
+  je uspje\u0161no, nakon 2-3 tjedna treba se ponoviti te\u010daj kako bi se izbjegla
+  samoinfekcija.\\nAko se pacijentu dijagnosticira mje\u0161ovita invazija, tada bi
+  lijek trebao napiti brzinom od 10 mg / kg dnevno ili dva dana po stopi od 20 mg
+  / kg dnevno. Ako je zabilje\u017eena izolirana ascarija, trebate piti lijek jednom
+  brzinom od 5 mg / kg. Treba napomenuti da Pirantel - \u017evakanje tablete, tako
+  da ih ne treba progutati, ali \u017evakati.\\nMo\u017eete kupiti Helmintox po cijeni
+  od 80 rubalja., Pirantel - od 50 rubalja.\\nVermoks, Vormin, Vermakar\\nAktivna
+  komponenta - mebendazol.\\nLijek od crva do ljudi s na komponentu prikazanu na Enterobiasis,
+  Ascariasis, vi\u0161e nematoda, strongyloidiasis capillariasis, ankilostomidoze,
+  trihinelozu, ehinokokoza, taeniasis, Alveococcosis, gnathostomiasis trihotsefaleze.\\nOvo
+  je djelotvoran lijek za crve u odraslih i djece, od kojih je svaka posebno korisna
+  kada su zara\u017eene pinworms i ascarids.\\nVi ne bi trebali uzimati ove tablete
+  tijekom trudno\u0107e i dojenja, ulcerozni kolitis, bolesti jetre, Crohnove bolesti,
+  propisati i lijekove za djecu koja su do 2 godine starosti.\\nMetoda i shema primjene:
+  Vermakar, Wormin, suspenzija ili Vermox tablete se isperu s malom koli\u010dinom
+  teku\u0107ine. Za lije\u010denje enterobioze, djeca od 2 do 10 godina trebaju piti
+  25-50 mg jednom dnevno, odrasli - 100 mg. Trebate ga ponovo ponijeti za 2-4 tjedna.\\nAko
+  pacijent je dijagnoza strongyloidiasis, taeniasis, trichocephalosis, rudarska glista,
+  Ascariasis ili mje\u0161oviti Helmintiaza dehelmintizacije provodi na sljede\u0107i
+  na\u010din: 3 dana, dva puta dnevno, uzimati 100 mg.\\nU slu\u010daju trichinosis
+  - tri puta dnevno za 200-400 mg, zatim od 4 do 10 dana - 400-500 mg tri puta dnevno.\\nKada
+  zarazite sa ehinokokozom, uzimajte 500 mg tri puta dnevno tijekom 3 dana, tada se
+  doza treba pove\u0107ati na 25-30 mg po 1 kg tjelesne te\u017eine.\\nNuspojave se
+  mogu pojaviti u obliku vrtoglavice, mu\u010dnine, bolova u trbuhu. Ako se proizvod
+  upotrebljava dulje vrijeme, mogu\u0107e je povra\u0107anje, alergija, proljev, glavobolja,
+  anemija, eozinofilija, leukopenija, cilindrurija i drugi.\\nTro\u0161ak Vormin -
+  od 140 rubalja., Vermox - od 100 rubalja.\\nVormil, Nemozol, Aldazol, Helmodol-VM,
+  Albendazol, Helmizol\\nAktivna komponenta - albendazol.\\nOni su prikazani na nematodoses
+  protiv glista, toxocarosis, strongyloidiasis, ehinokokoza jetre, plu\u0107a, peritoneum,
+  ako je pobuda - li\u010dinki obliku Echinococcus granulosus, kao i druge jednostavne
+  i giardijaza, mje\u0161ovitih provala, neurocysticercosis, ako je pobuda - li\u010dinki
+  obliku teania solium.\\nKontraindicirana u trudno\u0107i, preosjetljivosti, o\u0161te\u0107enja
+  mre\u017enice, kao i za djecu mla\u0111u od dvije godine. Tijekom dojenja treba
+  paziti ako se smanji nastajanje krvi ili funkcija jetre.\\nUpotreba: Nemozol, Gelmodol-BM,
+  Wormil treba piti tijekom jela.\\nNemosol u slu\u010daju nemazodnog napitka jednom:
+  lije\u010denje helmintize kod odraslih osigurava 400 mg lijeka, djeca od 2 godine
+  - 20 ml suspenzije.\\nAko je pacijent zara\u017een einkinokokozom ili neurocysticercosisom,
+  odrasle osobe mase vi\u0161e od 60 kg trebaju piti dva puta dnevno 400 mg, ako je
+  te\u017eina manja od 60 kg - 15 mg / kg / te\u017eina dva puta dnevno. Neurocysticercosis
+  tijek terapije je 8 do 30 dana, ehinokokoza terapija - tri te\u010dajevi za 28 dana,
+  morat \u0107ete uzeti pauze izme\u0111u smjerova 2 tjedna.\\nAko je Nemozol propisano
+  za djecu s giardiasisom, a zatim tjedan dana jednom, potrebno je koristiti dozu
+  od 10-15 mg / kg.\\nAko dijete ima toksokarozu, pacijenti mla\u0111i od 14 godina
+  propisani su tablete dva puta dnevno za 10 mg / kg. Odrasli koji te\u017eine do
+  60 kg dva puta dnevno primaju 200 mg lijeka, ako je te\u017eina ve\u0107a od 60
+  kg, a dva puta dnevno pacijent prima 400 mg. Tijek lije\u010denja je 1-2 tjedna.\\nAko
+  se provodi antiparazitsko lije\u010denje tim lijekovima, bol u trbuhu, disfunkcija
+  jetre, mu\u010dnina, povra\u0107anje, glavobolja, vrtoglavica, pove\u0107ana temperatura
+  i Krvni tlak, zatajenje bubrega, pancitopenija, leukopenija, trombocitopenija i
+  drugi.\\nTro\u0161kovi Nemozola u drogerijama od 175 rbl. Aldazol - od 100 rubalja.\\nCrvi
+  koji su \u010desti u Rusiji\\n- I u Rusiji i Ukrajini \u010desto postoje roundwormi
+  pinworms, \u0161to je vrlo lako uhvatiti \u010dak iu velikim gradovima - u Moskvi,
+  Kijev.\\n- Tako\u0111er je cirkulirao svinjetina, osobito ovaj parazit se nalazi
+  u Bjelorusiji i Ukrajini. Tako\u0111er na podru\u010dju tih zemalja postoje Trichinella,
+  kao u sjevernoj, sredi\u0161njoj, isto\u010dnoj Rusiji.\\n- U blizini vodenih tijela
+  s slatkom vodom \u010desto se nalazi \u0161iroka vrpca, Infekcija nije neuobi\u010dajena
+  u Karelia, Sibiru, regiji Volga, Baikal regiji, Dalekom Istoku, Kazahstanu, Balti\u010dkom,
+  u bazenima velikih rijeka.\\n- infekcija whipwormjavlja se u tropskim i suptropskim
+  zonama, gdje je klima vla\u017ena i topla. Stoga ljudi \u010desto postaju zara\u017eeni
+  prilikom posjeta odmarali\u0161tima.\\n- Bull Chain je \u0161iroko rasprostranjena
+  u razli\u010ditim zemljama, ali naj\u010de\u0161\u0107e su zara\u017eene u Transkaucazi
+  i sredi\u0161njoj Aziji.\\n- Patuljasti teleonnaj\u010de\u0161\u0107i u toplim i
+  suhim klimatskim uvjetima.\\n- Najve\u0107i fokusi opisthorchiasisnalaze se u zapadnom
+  Sibiru, Kazahstanu, bazena velikih rijeka.\\n- Plu\u0107ni flukovi su \u010desti
+  u Dalekom Istoku.\\n- Najve\u0107i d\u017eepovi \u0161irenja hematski trematoda
+  nalaze se na sjeverozapadu Rusije, u Transkaucasu, Baltiku, u sredi\u0161njoj Aziji.\\n-
+  Pove\u0107ani rizik od infekcije Kineska fluka slavi se na Dalekom Istoku, u Amurovom
+  slivu.\\n- rasprostranjenost alveococcosis, ehinokokoza zabilje\u017eeno je u Transkaucazi,
+  Ukrajini, Volgogradu i Rostovu, Bashkortostanu, Yakutiji, Stavropolu, Altajima i
+  Krasnodarskim krajevima.\\nDijeta pilule s crvima\\nU potrazi za idealnom figurom,
+  \u017eene \u010desto odlu\u010duju o raznim trikovima. U nekim slu\u010dajevima
+  to je jo\u0161 ekstremnija metoda od stroge prehrane ili \u010di\u0161\u0107enja
+  tijela. Postoje \\\"divne\\\" pilule, zara\u017eene crvima i doprinose gubitku te\u017eine.
+  Me\u0111utim, svaka \u017eena treba jasno shvatiti da takve pilule predstavljaju
+  vrlo opasan proizvod za zdravlje. Ako pijete ove \\\"moderne \u010dudotvorne alate\\\",
+  bit \u0107e intoksikacija organizam \u0107e postupno zaraziti otrovima koji lu\u010de
+  parazite, zbog \u010dega \u0107e osoba, naravno, odmah izgubiti te\u017einu. Ali
+  istodobno \u0107e uvijek biti bolestan, pojavit \u0107e se \u010direvi i osip. Dakle,
+  da se takva mr\u0161avljenja i otrovanja tijela definitivno ne isplati. Uostalom,
+  na kraju ne\u0107ete se rije\u0161iti prekomjerne tjelesne te\u017eine i razvoja
+  ozbiljnih bolesti - kolecistitis, ciroza i drugima.\\nOstali lijekovi\\nPoku\u0161avaju\u0107i
+  prona\u0107i najopasnije pripreme od crva do djece \u0161irokog spektra djelovanja,
+  roditelji imaju tendenciju obratiti pozornost na najpoznatije imena lijekova i ponekad
+  ih kupiti bez konzultacija s lije\u010dnikom. To se u svakom slu\u010daju ne mo\u017ee
+  u\u010diniti jer je popis lijekova za parazite u ljudskom tijelu dovoljno \u0161irok,
+  a ponekad je neophodno unositi univerzalni lijek, ve\u0107 lijek usmjeren na borbu
+  protiv odre\u0111enog parazita. Stoga, samo recenzije o lijekovima na mre\u017ei
+  ne bi trebale biti vodi\u010d za akciju.\\nPored gore opisanih lijekova, postoje
+  i drugi anthelmintski lijekovi i lijekovi. sredstva ivermektin Jesu li tablete iz
+  helminti za ljude \u0161irokog spektra djelovanja. Me\u0111utim, ivermektin je naju\u010dinkovitiji
+  u lije\u010denju infekcija koje izazivaju okruglice. Tako\u0111er se koristi u veterinarskoj
+  medicini.\\nmetrifonat Koristi se za lije\u010denje urogenitalne schistosomiase.\\nU
+  dana\u0161nje vrijeme, tako\u0111er je mogu\u0107e kupiti anthelmintic lijekove
+  za ljude, koje lije\u010dnici propisuju za odre\u0111ene vrste parazita.\\nLijek
+  Medamin, koji sadr\u017ei aktivni sastojak Carbendacim, je anthelmintski agens koji
+  djeluje protiv intestinalnih nematoda. Medamin se koristi ako osoba ima trichocephalus,
+  ascariasis, ankylostomiasis, enterobiasis, non-carotidosis. \u0160to ovaj lijek
+  uzrokuje kao nuspojave? Mogu\u0107e alergijske manifestacije, slabost, mu\u010dnina.\\nDitrazin
+  (Ditrazin citrat) se koristi za lije\u010denje filarijeza - bolesti koja uzrokuje
+  crve-phyllaria. Uz ascariasis, to funkcionira, ali je manje djelotvorno od drugih
+  lijekova.\\nPonekad je potrebno koristiti dodatna sredstva lokalne akcije. Na primjer,
+  laktoza Dermokas Koristi se za dermatoze, s sumnjom na komplikacije izazvane sekundarnom
+  infekcijom. Dermokas se tako\u0111er koristi za gljivi\u010dne bolesti ko\u017ee.\\nAko
+  se pacijent suo\u010di s pitanjem kako lije\u010diti parazitsku infekciju, mo\u017eete
+  obratiti pa\u017enju na pripreme za lije\u010denje crva u odraslih osoba koje sadr\u017ee
+  biljne komponente. U pravilu se koriste kao pomo\u0107ne tvari, paralelno s lijekovima,
+  koje lije\u010dnik propisuje kao lijek.\\nLijek anthelminthic sadr\u017ei u sastavu
+  magnezijev sulfat, \u010de\u0161njak, klin\u010di\u0107i, orasi, gorka pelina, sjemenke
+  bundeve. Lijek poma\u017ee da se rije\u0161i parazita i sprje\u010dava otpornost
+  na droge od crva.\\nHomeopatski lijek Antigelmin uzmi sublingualno 1-2 mjeseca.\\nkapsule
+  Antigelmos uklju\u010duju sastav li\u0161\u0107a eukaliptus rosaceous, yarrow biljka,
+  karanfil.\\nTjelesna \u017eena je biolo\u0161ki dodatak, koji se, me\u0111utim,
+  tako\u0111er ne mo\u017ee koristiti bez odobrenja lije\u010dnika.\\nStoga, unato\u010d
+  bogatstvu sredstava, kako se rije\u0161iti crva u odraslih i djece, lije\u010dnik
+  bi trebao objasniti, postavljaju\u0107i odgovaraju\u0107i re\u017eim lije\u010denja,
+  s obzirom na kompatibilnost lijekova.\\nFolk lijekovi za crve u odraslih i djece\\nOni
+  koji poku\u0161avaju prona\u0107i najbolji lijek za crve u odraslih i djece, trebali
+  biste znati da se u nekim slu\u010dajevima lije\u010denje u domu poma\u017ee narodnim
+  lijekovima. \u0160to to\u010dno trebate poduzeti i kako se lije\u010diti, lije\u010dnik
+  \u0107e vam preporu\u010diti. No osnovni narodni lijekovi dobro su poznati: sjemenke
+  bundeve, \u010de\u0161njaka, luka, klin\u010di\u0107a.\\nSvaki takav lijek za parazite
+  u ljudskom tijelu op\u0107enito je dostupan i ne uzrokuje nuspojave. Osim toga,
+  recenzije o ovoj vrsti proizvoda su pozitivne, kao \u0161to su, na primjer, iste
+  sjemenke bundeve jedu s u\u017eivanjem djece.\\nPonekad je odgovor na pitanje kako
+  se rije\u0161iti helminths kod ku\u0107e je jednostavan: jesti \u0161to vi\u0161e
+  sjemenki bundeve \u0161to je vi\u0161e mogu\u0107e. Me\u0111utim, postoje razli\u010dite
+  recepte. Na primjer, med i soda se pomije\u0161aju sa sjemenjem bundeve: 1 \u010da\u0161u
+  meda za 1 \u010da\u0161u sjemena i 1 \u017eli\u010dicu meda. soda. Agent se inzistira
+  10 dana i tro\u0161i 1 \u017eli\u010dicu. Ujutro prije jela.\\nNeki izvori ka\u017eu
+  da s redovitom konzumacijom sjemenki bundeve mo\u017eete se rije\u0161iti tapeworm
+  kod ku\u0107e. Da biste se rije\u0161ili trakavice, svakog jutra trebate jesti dvije
+  \u017elice sjemenki bundeve, a nakon sat vremena piti dobar laksativ. Koliko dugo
+  prakticirati takav tretman ovisi o tijelu. Ali, bolje je konzultirati stru\u010dnjaka
+  unaprijed.\\nMnogi ljudi zainteresirani su za uzimanje \u010de\u0161njaka od parazita.
+  Da je \u010de\u0161njak iz crva u odraslih djelovao \u0161to je mogu\u0107e u\u010dinkovitije,
+  morate ujutro konzumirati \u0161to vi\u0161e zubobolja. Ako osoba ka\u017ee: \\\"Ne
+  mogu \u017evakati \u010de\u0161njak\\\", mo\u017eete ga rezati i progutati s kuhanim
+  mlijekom.\\nKako se boriti kod ku\u0107e s crvima pomo\u0107u lukova? Da biste to
+  u\u010dinili, pripremite infuziju na luk, izre\u017eite srednji \u017earulju i napunite
+  toplom vinom za no\u0107. Ujutro je potrebno napiti i piti teku\u0107inu na prazan
+  \u017eeludac.\\nPostoje i vi\u0161e proturje\u010dnih narodnih lijekova. Na primjer,
+  neki ljudi uzimaju alkohol i poku\u0161avaju se rije\u0161iti crva. Zapravo, takav
+  tretman nije u\u010dinkovit. Istina, postoji niz recepata za tinkture, u kojima
+  se, izme\u0111u ostalog, koristi alkohol, na primjer, tinktura pelina. Ali konzumirati
+  alkohol, na primjer, pivo, vjeruju\u0107i da \u0107ete se rije\u0161iti parazita,
+  barem, to je nerazuman.\\nDa bi lije\u010denje bilo u\u010dinkovito, potrebno je
+  provesti prema shemi koju propisuje lije\u010dnik, a zatim slijedite sva pravila
+  prevencije.\"", "\"Saznajte tko i kako trguje va\u0161im podacima, kako ih prikuplja
+  i, najbitnije, kako se od toga za\u0161tititi\\nU tome \u0107e vam pomo\u0107i zagreba\u010dki
+  Autonomni kulturni centar Medika u Pierottijevoj 11, gdje u ponedjeljak, 15. listopada,
+  od 20 sati mo\u017eete sudjelovati u Maloj \u0161koli privatnosti u organizaciji
+  Hacklaba01. Nije potrebna posebna prijava.\\nHacklab01 je zajedni\u010dki projekt
+  udruga Attack i Metakoncept. Metakoncept u prostoru AKC Medika od rujna 2009. godine
+  oprema i vodi Hacklab01 koji slu\u017ei kao slobodan prostor kojem je primarna namjena
+  ra\u010dunalna edukacija i promocija otvorenog (eng. ''open source'') softvera,
+  koji se financira iz privatnih sredstava \u010dlanova i donacija sudionika.\\nHacklab01
+  slu\u017ei kao predavaonica, radionica, cyber-caffe, igraonica, \u010ditaonica i
+  mjesto za slobodnu razmjenu ideja i njihovu realizaciju. Usluge Medikinog hacklaba
+  ne napla\u0107uju se i sve poslove vr\u0161e volonteri.\\nOsim Male \u0161kole privatnosti,
+  Hacklab01 tako\u0111er nudi i niz drugih radionica i programa, u sklopu kojih mo\u017eete
+  nau\u010diti kako izra\u0111ivati web stranice, koristiti Linux, osigurati ra\u010dunalne
+  mre\u017ee, popraviti ra\u010dunalo i sli\u010dno, a imaju i igraonicu jednom tjedno.\\nTako\u0111er,
+  skupljaju i stara ra\u010dunala, pa im donirajte svoje ako vam vi\u0161e ne treba.\\nZa
+  sve informacije javite se na\\nkontakt mail. Imajte na umu da je raspored podlo\u017ean
+  promjenama.\\nDok se ne odlu\u010dite, pogledajte video na temu internetske sigurnosti
+  koji smo prona\u0161li na YouTubeu:\\n219992,196334,187674,184361\"", "\"KOPRIVNICA
+  \u2013 Konferencijom za medije na kojoj se govorilo o zna\u010dajnim projektima
+  i aktivnostima ovog je petka, 5. lipnja 2020. godine, obilje\u017eeno je tri godine
+  mandata gradona\u010delnika Koprivnice Mi\u0161ela Jak\u0161i\u0107a. Vi\u0161e
+  od 40 milijuna kuna ulaganja u komunalnu infrastrukturu, gotovo toliko u odgoj i
+  obrazovanje, izgradnja novog Poduzetni\u010dkog inkubatora kreativnih industrija
+  i poticanje poduzetni\u0161tva s mjerama i olak\u0161icama od 23 milijuna kuna te
+  realizacija brojnih projekata i programa u kulturi i demografiji i socijalnoj skrbi,
+  sukus je tri godine mandata, ka\u017ee gradona\u010delnik Koprivnice Mi\u0161el
+  Jak\u0161i\u0107 i najavljuje kako \u0107e kroz koji tjedan biti predstavljena dva
+  velika projekta u obrazovanju: izgradnja nove Osnovne \u0161kole Podolice i sportske
+  dvorane uz Osnovnu \u0161kolu \u201e\u0110uro Ester\u201c. Ve\u0107ina projekata
+  ostvarena je i zahvaljuju\u0107i sredstvima Europske unije, dodaje Jak\u0161i\u0107
+  i podsje\u0107a kako je u realizaciji ili je zavr\u0161eno 29 projekata, ukupne
+  vrijednosti 82 milijuna kuna, \u010demu nije pribrojan projekt Aglomeracije Koprivnica
+  vrijedan 512 milijuna kuna.\"", "\"Metformin za mr\u0161avljenje - kako ga pravilno
+  uzimati, upute\\nPreosjetljivost na bilo koje pilule mo\u017ee se pojaviti neo\u010dekivano,
+  to je vrijedno razmotriti prije nego \u0161to popijete pilule bez nadzora lije\u010dnika.
+  Nuspojave mogu biti blage, i osje\u0107ati se kratkotrajno, ali ponekad to stanje
+  traje dugo i zahtijeva savjet lije\u010dnika. U slu\u010daju nepovoljne reakcije
+  metformin i rezultati mr\u0161avljenja na uzimanje tableta, morate ih odmah prestati
+  uzimati. Jedan od uzroka komplikacija nakon uzimanja Metformina mo\u017ee se smatrati
+  kr\u0161enjem pravila gubite kilograme svaki tjedan uzimanje tableta. Nezavisno
+  pove\u0107anje dnevne doze lijeka tako\u0111er mo\u017ee dovesti do ozbiljnih posljedica.
+  Prije uzimanja lijeka 34 dana mr\u0161avljenja, potrebno je na konzultaciji s lije\u010dnikom
+  re\u0107i o svim postoje\u0107im zdravstvenim problemima, kroni\u010dnim i upalnim
+  bolestima. Zadr\u017eavanje takvih va\u017enih informacija mo\u017ee izazvati stra\u0161ne
+  posljedice. Cijena metformina mo\u017ee biti razli\u010dita. Ljekarne su po cijeni
+  od rubalja. Varijante tableta ove mase lijeka. Lije\u010dnik \u0107e propisati pet
+  najboljih tableta za mr\u0161avljenje lijek za svakog pacijenta pojedina\u010dno,
+  s naglaskom na njegovo zdravlje i druge \u010dimbenike. Analogi lijeka nalaze se
+  posvuda, ali njihova je cijena ve\u0107a. Djelovanje analoga i metformina gotovo
+  je isto, sagorijevanje masno\u0107a na donjem trbuhu cijena je razli\u010dita. Za\u0161to
+  platiti vi\u0161e za lijekove ako mo\u017eete kupiti jeftinije.\\nSvi lijekovi namijenjeni
+  lije\u010denju bolesti ne smiju se uzimati u druge svrhe. Ljudsko tijelo radi u
+  odre\u0111enom ritmu i nemogu\u0107e ga je slomiti ako \u017eelite izgubiti te\u017einu.
+  Danas mo\u017eete na\u0107i puno informacija o gubitku te\u017eine, ali ne mo\u017eete
+  joj vjerovati bezuvjetno. Osim toga, kako bi se smr\u0161avio uz pomo\u0107 metformina,
+  morate ulo\u017eiti mnogo truda, samo uzimanje tableta ne\u0107e ostaviti te\u017einu,
+  pa za\u0161to se ugro\u017eavati, ako je mogu\u0107e ukloniti vi\u0161ak kilograma
+  na prirodan na\u010din. Kao lije\u010dnik, ultra tanka donja jakna da morate postupno
+  i bez pilula izgubiti te\u017einu.\\nMetformin mo\u017ee pomo\u0107i izgubiti te\u017einu,
+  ali postoje mnoge nuspojave i kontraindikacije. Ljudi su, nakon \u0161to su pro\u010ditali
+  na internetu mogu\u0107nost Metformina da sagori masti, po\u017eurili da je popiju
+  bez prou\u010davanja informacija. Vjerojatnost ozlje\u0111ivanja tijela mnogo je
+  ve\u0107a od vjerojatnosti gubitka te\u017eine. Na kraju, oni koji \u017eele izgubiti
+  na te\u017eini, trebali bi shvatiti da se to ne mo\u017ee posti\u0107i bez ograni\u010denja
+  u hrani, 5 2 dijetna mr\u0161avljenja tjedno vje\u017eba je va\u017ena. Metformin
+  nije lijek za gojazne ljude. Ovaj lijek mi je propisao lije\u010dnik, jer se pove\u0107ao
+  \u0161e\u0107er u mom tijelu. \u017delim re\u0107i da me je u\u010dinak njegovog
+  prijema potresao. Po\u010deo sam se osje\u0107ati dobro, i \u0161to je najva\u017enije,
+  izgubio kako sagorjeti masno\u0107e brzo i jednostavno te\u017einu. Izgubio sam
+  5 kg i jako sam zadovoljan. Malo frustriraju\u0107e \u0161to imam uporne probleme
+  s probavom, ali \u0161to u\u010diniti.\\nDjevojke, poku\u0161ao sam popiti metformin
+  zbog mr\u0161avljenja. Te\u017eina je ostala gotovo na mjestu, a glavobolje i mu\u010dnina
+  su me proganjali dugo vremena. Nisam dijeta, mo\u017eda mi smr\u0161aviti pomozi
+  mi nije pomoglo. U bolnici su mi propisali Metformin. Pila sam ga 5 2 dijetna mr\u0161avljenja
+  tjedno dana i nisam primijetila kako sam pala 8 kg. Isprva nisam razumjela \u0161to
+  se dogodilo, a onda sam ga pro\u010ditala. Vjerojatno je i moja prehrana utjecala
+  na mene, promijenio sam je kako je \u0161e\u0107er po\u010deo rasti. Op\u0107enito,
+  zadovoljan sam rezultatom. Tablete adipex blizu mene po\u010dela sam piti metformin
+  posebno za gubitak te\u017eine. Prije toga prou\u010davao sam sve preporuke na internetu.
+  Pijem tablete 20 dana, radim fizi\u010dke vje\u017ebe i jedem malo \u0161tetne hrane,
+  za to vrijeme sam izgubio 9 kg. U\u010dinak je, naravno, ali morate se g silnik
+  sagorijeva\u010da masti potruditi. Nakon nekog vremena opet \u0107u ponoviti te\u010daj.
+  Poku\u0161ao sam mnoge tablete za dijetu i mislim da se Metformin ne razlikuje od
+  ostalih. Popio sam aktivni sastojak tableta za mr\u0161avljenje oko mjesec dana
+  i nisam izgubio mnogo te\u017eine, izgubio sam samo 3 kg. Pojeo sam normalnu hranu
+  i g silnik sagorijeva\u010da masti vje\u017ebao, mo\u017eda je to utjecalo.\\nDobar
+  dan! U potrazi za lijepom figurom, samo \u017eene ne poku\u0161avaju, iako je metoda
+  sumnjive u\u010dinkovitosti ili je op\u0107enito \u0161tetna po zdravlje. I danas
+  \u0107emo govoriti o metforminu Richter, Teva, itd. Nadam se da \u0107ete nakon
+  \u010ditanja \u010dlanka imati potpuno razumijevanje za pripremu i da \u0107ete
+  stotinu puta pomisliti trebate li ga koristiti u borbi protiv pretilosti. U po\u010detku,
+  metformin je skovan za lije\u010denje bolesnika s dijagnozom dijabetesa. Kasnije,
+  tijekom istra\u017eivanja lijeka, otkrivene su druge indikacije, na primjer, lije\u010denje
+  pretilosti i prekomjerne te\u017eine. No, je li to djelotvorno kod osoba s prekomjernom
+  te\u017einom bez dijabetesa? Da bismo to u\u010dinili, moramo razumjeti kako ovaj
+  lijek djeluje i za\u0161to se javlja prekomjerna te\u017eina. Ako \u017eelite temeljito
+  prou\u010diti sve radnje metformina, preporu\u010dujem vam da prvo pro\u010ditate
+  pregledni \u010dlanak \\\"Metformin: kako djeluje\\\". U ovom \u010dlanku ne\u0107u
+  govoriti o svim dostupnim nekretninama i govorit \u0107u samo o onima koji su povezani
+  s gubitkom te\u017eine. Inzulin je hormon gu\u0161tera\u010de koji prati molekule
+  glukoze unutar stanica. Iz odre\u0111enih razloga, stanice vi\u0161e ne opa\u017eaju
+  inzulin i glukoza ne mo\u017ee u\u0107i u stanice. Kao rezultat toga, gu\u0161tera\u010da
+  dobiva signal za pove\u0107anje proizvodnje inzulina i postaje sve vi\u0161e u krvotoku.
+  Ta \u010dinjenica ima vrlo negativan utjecaj na metabolizam masti, jer pohranjivanje
+  masti postaje lak\u0161e i br\u017ee. Razlozi za\u0161to stanice prestanu osje\u0107ati
+  inzulin su vi\u0161estruki, ali u velikoj ve\u0107ini to je prekomjerna konzumacija
+  ugljikohidrata.\\nStanice su prezasi\u0107ene glukozom i tako se poku\u0161avaju
+  zatvoriti iz nje, ne uzimaju\u0107i inzulin. Ispada da inzulin uop\u0107e nije kriv
+  ni zategnite donji trbuh nakon gubitka kilograma \u0161to, jer je samo kako sagorjeti
+  masno\u0107e brzo i jednostavno svoj posao. Kao rezultat toga, postaje sve vi\u0161e
+  i vi\u0161e, i \u0161to vi\u0161e postaje, vi\u0161e ga mrze stanice tijela.\\nIspada
+  za\u010darani krug, koji rezultira u pretilosti, otpornosti na inzulin izvucite
+  sagorijevanje masti hiperinzulinizmu. Metformin utje\u010de na perifernu otpornost
+  na inzulin, smanjuju\u0107i g silnik sagorijeva\u010da masti i vra\u0107aju\u0107i
+  se na prirodne razine.\\nUostalom, kao \u0161to znate, o\u0161tar pad tjelesne te\u017eine
+  prepun je brzog nabora vi\u0161ka kilograma nakon toga i pojave raznih zdravstvenih
+  problema.\\nTo dovodi do normalnog unosa glukoze u stanice i sprje\u010dava sintezu
+  inzulina u velikim koli\u010dinama, \u0161to zna\u010di pohranjivanje masti. Jednostavno
+  re\u010deno, metformin djeluje na koncentraciju inzulina, eliminiraju\u0107i otpornost
+  na inzulin. Osim toga, metformin ima i popratni u\u010dinak - smanjuje apetit anoreksigeni
+  u\u010dinak. To je sve o njemu i razmisli kad po\u010dnu piti lijek. Me\u0111utim,
+  taj je u\u010dinak toliko slab da ga ne osje\u0107aju svi, a ne uvijek.\\nDakle,
+  nije vrijedno ra\u010dunati na to daleko od glavnog u\u010dinka. Usprkos dobrom
+  u\u010dinku sni\u017eavanja \u0161e\u0107era, zbog \u010dinjenice da poti\u010de
+  unos glukoze u stanice, metformin ultra tanka donja jakna dovodi uvijek do gubitka
+  te\u017eine. \u010cak bih rekao da se to doga\u0111a vrlo rijetko i nije izra\u017eeno.
+  Ako mislite da uzimate dvije tablete dnevno, ali ne radite ni\u0161ta vi\u0161e
+  da smanjite tjelesnu te\u017einu, gubite 30 kg masti, onda vas moram razo\u010darati.
+  Metformin ne posjeduje takva svojstva. Maksimalno u ovoj situaciji gubite samo nekoliko
+  kilograma. Mora se zapamtiti da metformin nije \u010darobna pilula koja \u010dudesno
+  otapa va\u0161e kilograme, ali u me\u0111uvremenu jedete desetu smr\u0161aviti na
+  teku\u0107oj dijeti na kau\u010du. Ovim pristupom koliko kilograma mogu izgubiti
+  u 10 dana posta raditi nikakav alat. Samo paralelna promjena u na\u010dinu \u017eivota,
+  koja uklju\u010duje hranu, kretanje i razmi\u0161ljanje, mo\u017ee dovesti do stvarnih
+  rezultata. Mo\u017eemo kako sagorjeti masno\u0107e brzo i jednostavno da je novi
+  na\u010din \u017eivota najva\u017eniji, a metformin samo poma\u017ee. Ovaj lijek
+  nije lijek za lijekove i \u010desto ga mo\u017eete brzo mr\u0161aviti dijetom za
+  2 tjedna ikakve pomo\u0107i. To se ne odnosi na slu\u010dajeve u kojima je prekomjerna
+  te\u017eina kombinirana s dijabetesom. Ali ako imate samo gojaznost i nemate dijabetes,
+  psiholo\u0161ki je ugodno izgubiti te\u017einu gutanjem tableta, a zatim to u\u010diniti
+  kako treba. Trenutno postoji mnogo tvrtki na farmakolo\u0161kom tr\u017ei\u0161tu
+  koje proizvode takve tablete. Naravno, svaka tvrtka proizvodi metformin pod trgova\u010dkim
+  nazivom, ali se ponekad naziva i \\\"metformin\\\", dodaje se samo zavr\u0161etak,
+  koji ozna\u010dava naziv tvrtke.\\nNa primjer, metformin-teva, metformin-kanon ili
+  metformin-richter. Nema zna\u010dajne razlike u tim preparatima, tako da mo\u017eete
+  odabrati bilo smr\u0161aviti za mjesec dana prirodno. Mogu samo re\u0107i da unato\u010d
+  istom aktivnom silvester stallone mr\u0161avljenje, dodatne komponente mogu biti
+  razli\u010dite i na njima se mo\u017ee pojaviti netolerancija ili alergijska reakcija,
+  iako sama metformin ima i ako mr\u0161avite prebrzo mo\u017eete li dobiti strije.
+  Pro\u010ditajte u \u010dlanku koji sam vam preporu\u010dio gore. Trebate po\u010deti
+  s jednom malom dozom od mg. No, u nedostatku odgovaraju\u0107e prehrane 34 dana
+  mr\u0161avljenja u\u010dinka, ne mo\u017eete ga vidjeti - samo gubite vrijeme i
+  novac. To ovisi samo o tome koliko kilograma mo\u017eete izgubiti s ovim jedinstvenim
+  lijekom. Kada se bori s prekomjernom te\u017einom uz pomo\u0107 posebnih programa
+  prehrane i slo\u017eenih vje\u017ebi ne donosi rezultate, mnogi pribjegavaju kori\u0161tenju
+  posebnih lijekova za pobolj\u0161anje metabolizma i gubitka te\u017eine. Ali izgubiti
+  masno\u0107u na trbuhu za 15 dana samo takve droge koriste ve\u0107ina o\u010dajnih
+  ljudi koji su umorni od borbe protiv kilograma mr\u017enje. Danas su se i drugi
+  lijekovi koji imaju potpuno druga\u010diju namjenu u ovoj oblasti metformin i rezultati
+  mr\u0161avljenja koristili.\\nMetformin Richter, koji je dizajniran da normalizira
+  razinu \u0161e\u0107era u krvi i prihva\u0107en je samo od ljudi s dijabetesom tipa
+  2, jedan je od takvih lijekova. I u isto vrijeme, oni koji su ga sami poku\u0161ali,
+  tvrde da se te\u017eina va\u0111enje implanona gubitak kilograma smanjuje mnogo
+  br\u017ee i ne vra\u0107a se dugo vremena. Poku\u0161ajmo shvatiti \u0161to je uklju\u010deno
+  u ovaj lijek i kako to utje\u010de na tjelesnu te\u017einu? Metformin ima drugo
+  ime, glukofag, koji pripada biguanidnoj klasi lijekova i dostupan je u obliku power
+  tablete za mr\u0161avljenje faza 2 tableta. Ovaj lijek je namijenjen za lije\u010denje
+  dijabetesa u osoba starijih od 21 godine. Tvari koje su dio glukofaza, kada se proguta,
+  uklanjaju glukoneogenezu u jetri i nisam smr\u0161avio prvi tjedan 21 dan popraviti
+  koli\u010dinu apsorbirane glukoze u stambenom i komunalnom sektoru. Osim toga, poma\u017ee
+  smanjiti koncentraciju kolesterola, ali samo ako bolesna osoba ima inzulin u krvi.
+  Ina\u010de, terapijski u\u010dinak lijeka nije uo\u010den. U tom kontekstu postavlja
+  se pitanje: za\u0161to se metformin koristi u medicinski gubitak te\u017eine idaho
+  pada protiv pretilosti?\\nZapravo, odgovor na ovo pitanje je vrlo jednostavan. Tijelo
+  prima energiju kroz hranu koju svakodnevno konzumiramo. Po primitku tvari koje su
+  dio glukofage, proces stvaranja masti se blokira, tj. Energija koja \\\"tijelo nije
+  potrebna\\\" po\u010dinje se tro\u0161iti. Zbog toga mnogi sporta\u0161i, kao i
+  obi\u010dni ljudi daleko od sporta, uzimaju metformin za mr\u0161avljenje. Sve to
+  dovodi do stabilizacije i gubitka te\u017eine. Me\u0111utim, ne smijete sami prepisati
+  ovaj lijek. Potrebna je konzultacija s lije\u010dnikom jer metformin ima niz nuspojava
+  i kontraindikacija, u kojima unos ovog lijeka postaje nemogu\u0107, budu\u0107i
+  da postoji velika vjerojatnost razvoja zdravstvenih komplikacija. Stru\u010dnjaci
+  u industriji ljepote vas podsje\u0107aju da kada brzo izgubite na te\u017eini, na
+  ko\u017ei se pojavljuju strijele koje kvare njegov izgled.\\nDermatolozi preporu\u010duju
+  kori\u0161tenje kreme za modeliranje u borbi protiv strija, ali pozivajte na pa\u017eljivo
+  prou\u010davanje sastava. Ako naljepnica metformin i rezultati mr\u0161avljenja
+  sastojke kao \u0161to su \u017eivotinjska mast, mineralna ulja ili parabeni, bolje
+  je odbiti kupnju te kozmetike. Jo\u0161 jedna stvar - prirodna kozmetika. Kao \u0161to
+  je krema za modeliranje iz tvrtke Mulsan Cosmetic. Sastoji se samo od prirodnih
+  sastojaka koji ne samo da poma\u017eu u borbi protiv strija, ve\u0107 su i apsolutno
+  sigurni za zdravlje. Preporu\u010dujemo da posjetite stranicu mulsan. Moramo razumjeti
+  da postoje mnogi lijekovi posebno dizajnirani g silnik sagorijeva\u010da masti mr\u0161avljenje.
+  Njihova prednost je da nisu lijekovi - oni su dodatci prehrani, sigurniji su, imaju
+  manje kontraindikacija i nuspojava. Takva sredstva mo\u017eete kupiti, na primjer,
+  na \\\"Eiberbu\\\". Sagorijevati masno\u0107e iz donjeg dijela prsnog ko\u0161a,
+  za suzbijanje apetita, koriste se droge na bazi garcinia cambogia. U tu svrhu postoje
+  i sveobuhvatni alati. U isto vrijeme proizvode se ne samo u obliku kako izgorjeti
+  va\u0111enje implanona gubitak kilograma trbuhu masno zdravlje i kapsula, ve\u0107
+  iu obliku \u010dajeva, pa \u010dak i bombona!\\nKomentari 0. Svaki od va\u0161ih
+  obroka treba da sadr\u017ei izvor proteina, izvor masno\u0107a i malo povr\u0107a.\\nMetformin
+  za mr\u0161avljenja recenzije lije\u010dnika ostaviti mnogo da se \u017eeljeni.
+  Stvar je u tome da su lije\u010dnici uglavnom protiv uzimanja lijekova u nedostatku
+  indikacija za to. Budu\u0107i da svaki lijek za produljenu uporabu mo\u017ee izazvati
+  razvoj raznih bolesti i izazvati ovisnost o komponentama koje su u njemu uklju\u010dene,
+  \u0161to mo\u017ee dovesti do pote\u0161ko\u0107a u lije\u010denju. Stoga, prije
+  kori\u0161tenja metformina kao dodatne metode za borbu protiv pretilosti, potrebno
+  tanke plus dijetalne tablete dobro razmisliti i odmjeriti prednosti i nedostatke.
+  Vjerujte mi, nema takvih lijekova, \u010dija bi uporaba dovela do mr\u0161avljenja
+  bez na\u0161eg izravnog i aktivnog sudjelovanja. Ako nemate snagu volje i ne mo\u017eete
+  odoljeti masnom komadu mesa ili kola\u010da, onda sagorijevanje masno\u0107a na
+  donjem trbuhu uzimanje lijeka bilo neprikladno. Pripravci kroma mogu zna\u010dajno
+  smanjiti \u017eelju za slatki\u0161ima. \u010cinjenica je da je \u010desto neograni\u010dena
+  strast za slatki\u0161ima 23 kamena treba izgubiti na te\u017eini kola\u010dima
+  znak nedostatka ovog elementa u tragovima. Ali ulo\u017eiti napor \u0107e u svakom
+  slu\u010daju imati.\\nIpak, prehrambene navike su psiholo\u0161ka pojava i nije
+  ih lako promijeniti. Doziranje kroma odabire se pojedina\u010dno, u idealnom slu\u010daju
+  preporu\u010dljivo je posavjetovati se s lije\u010dnikom. Najvi\u0161e bioraspolo\u017eivi
+  oblici su poliikotinat power tablete za mr\u0161avljenje faza 2 krom pikolinat prvi
+  je po\u017eeljan. Dobro, ako kako brzo izgubiti kilograme s adderall - om kontrolirati
+  va\u0161e \u017eelje i spremni su za grueling dijeta s visokim udjelom masti brzo
+  gubi na te\u017eini, a zatim uzimanje metformin \u0107e jednostavno biti potrebno
+  brzo 34 dana mr\u0161avljenja i rezultati mr\u0161avljenja \u017eeljene rezultate.
+  Ako ste odlu\u010dni u borbi protiv pretilosti i \u017eelite koristiti ovaj lijek
+  kao pomo\u0107nu tvar, onda vjerojatno imate pitanje: kako uzeti metformin za gubitak
+  te\u017eine? Glukofag se primjenjuje dvaput u mg dva do tri puta dnevno. Pove\u0107anje
+  maksimalne dnevne doze mg mo\u017ee dovesti do trovanja tijela, stoga se to ne mo\u017ee
+  u\u010diniti. Lijek se primjenjuje na te\u010dajeve. Jedan te\u010daj je 20 dana.
+  Zatim morate napraviti pauzu od 30 dana, a zatim ponoviti te\u010daj. \u0160tovi\u0161e,
+  ako uzmete pauzu manje od navedenog razdoblja, tijelo se prilago\u0111ava lijeku,
+  a u\u010dinkovitost uzimanja je zna\u010dajno smanjena. Va\u017eno je napomenuti
+  da unos ovog lijeka ne dopu\u0161ta spaljivanje odgo\u0111enih masnih stanica, nego
+  samo pravilno raspodjeljuje energiju pohranjenu u njima bez utjecaja na mi\u0161i\u0107no
+  tkivo to jest, masni sloj se smanjuje, ali mi\u0161i\u0107i ne. Izgubiti masno\u0107e
+  u jednom danu, trebate preispitati svoju prehranu, a ne zanemariti tjelesne aktivnosti
+  koje poma\u017eu ne samo zatezati tijelo, ve\u0107 i ubrzati metaboli\u010dki proces
+  u tijelu, \u0161to je va\u017eno u procesu gubitka te\u017eine.\\nMorate dati prednost
+  povr\u0107u najbolje je odustati mrkva i repa i vo\u0107e, zelje, jaja, ribu i druge
+  lako probavljive namirnice. U tom slu\u010daju treba ih pripremiti kako sagorjeti
+  salo iz crijeva dodatak minimalne koli\u010dine ulja i po mogu\u0107nosti na pari.
+  \u0160tovi\u0161e, ako nemate slobodnog vremena za posjet dvoranama, potrebno je
+  izra\u010dunati broj potro\u0161enih kalorija. Dnevni unos kalorija u ovom slu\u010daju
+  ne smije prelaziti kcal. Kao alternativa metmorfinu, preparati na bazi bijelog graha
+  faza 2 i drugi prirodni sastojci mogu se koristiti za blokiranje ugljikohidrata.\\nKompleksni
+  lijekovi mogu tako\u0111er sadr\u017eavati i plamenike za masno\u0107u. Va\u017eno
+  je napomenuti da primjena metformina kod ve\u0107ine ljudi uzrokuje gastrointestinalne
+  poreme\u0107aje, stoga je potrebno slijediti re\u017eim metformin i rezultati mr\u0161avljenja
+  kako bi se sprije\u010dila dehidracija. Od upotrebe \u010daja ili kave najbolje
+  je odustati. Pijte redovitu negaziranu vodu za pi\u0107e ili biljne \u010dajeve.
+  Zeleni \u010daj se tako\u0111er mo\u017ee koristiti. Pijte najmanje 2 litre vode
+  dnevno, dok voda za pi\u0107e treba biti 20 do 30 minuta prije jela u vodu mo\u017eete
+  dodati sok od limuna ili \u00bd \u010dajne meda, \u0161to \u0107e smanjiti apetit.
+  Normalizira procese u tijelu povezane s apsorpcijom i proizvodnjom glukoze. Mora
+  se koristiti lijek koji je odobrio lije\u010dnik, strogo po\u0161tuju\u0107i sva
+  pravila. Na\u017ealost, ne postoji niti jedan lijek bez negativnih reakcija.\\nAko
+  postoje kontraindikacije ili nuspojave, mo\u017eda \u0107e biti potrebno karate
+  za gubitak masno\u0107e terapiju. Power tablete za mr\u0161avljenje faza 2, ve\u0107ina
+  dijabeti\u010dara zadovoljna je u\u010dinkom lijeka i smatra ga zaista u\u010dinkovitim.
+  Video u ovom \u010dlanku pomo\u0107i \u0107e vam da koliko bi trebalo izgubiti 10
+  kilograma masti prepoznate dijabetes i zapo\u010dnete lije\u010denje. Rukavice Devojke
+  \u017dene \u017divotinje Mali\u0161ani. Dom Devojke Moramo uzeti Siofor. Lijek Siofor
+  za mr\u0161avljenje: ho\u0107e li lijek za dijabeti\u010dare rije\u0161iti kilograme
+  trovanja \u017eivotom? Imenovanje tokom trudno\u0107e i dojenja. Indikacije za upotrebu
+  Siofor Upute za upotrebu: dijabetes melitus ovisno o insulinu; u nedostatku rezultata
+  dijetetske terapije; kod pacijenata sa gojazno\u0161\u0107u II i III te\u017eine;
+  lije\u010denje bolesti policisti\u010dnih jajnika; neplodnost izazvana endokrinim
+  poreme\u0107ajima i drugim bolestima kao pomo\u0107no lije\u010denje; jedna od komponenti
+  u kompleksnoj terapiji gojaznosti.\\nPro\u010ditajte tako\u0111e Poma\u017ee li
+  vam Siofor pri mr\u0161avljenju? Mehanizam djelovanja Lijek sni\u017eava razinu
+  glukoze u krvnoj plazmi smanjenjem brzine stvaranja glukoze u ljudskoj jetri za
+  vi\u0161e od nisam smr\u0161avio prvi tjedan 21 dan popraviti. Aktivira brojne enzimekoji
+  aktivno u\u010destvuju u metabolizmu masti, smanjuje prag osjetljivosti koliko kilograma
+  mogu izgubiti najbolji dodatak za mr\u0161avljenje za mu\u0161karce 10 dana posta
+  na inzulin, \u0161to podrazumijeva pove\u0107anje brzine unosa i biotransformacije
+  glukoze i ubrzava oksidativne reakcije masnih kiselina. Alat sni\u017eava nivo holesterolastimuliraju\u0107i
+  hormon \u0161titnja\u010de gubite kilograme svaki tjedan lipoproteini male gustine
+  smanjuju\u0107i rizik od aterosklerotskih vaskularnih metformin i rezultati mr\u0161avljenja.
+  Kako uzimati Siofor za mr\u0161avljenje? Dok uzimate Smr\u0161aviti nakon fakulteta,
+  morate se pridr\u017eavati odre\u0111ene sagorijevanje masno\u0107a na donjem trbuhu
+  Nuspojave Siofor Siofor je sinteti\u010dki lijek s nizom nuspojava. Glavne nuspojave
+  ako se ne po\u0161tuje preporuka i prekora\u010di doziranje: Kontraindikacije za
+  upotrebu Siofor Prije po\u010detka metformin i rezultati mr\u0161avljenja morate
+  se uvjeriti da ih nemate.\\nLista kontraindikacija: Komplikacija dijabetesa melitusa
+  i poreme\u0107eni metabolizam ugljenih hidrata u tijelu, \u0161to ugro\u017eava
+  ljudski \u017eivot. \u010cesta dijabeti\u010dka koma, kao i rehabilitacija nakon
+  njih. Akutno zatajenje srca s razvojem zagu\u0161enja u velikom ili malom krugu
+  cirkulacije krvi. Ishemijski i hemoragijski mo\u017edani udar mozga, kao i ishemijski
+  infarkt miokarda. Akutna bubre\u017ena i jetrena insuficijencija. Nozologije povezane
+  sa o\u0161te\u0107enjem i disfunkcijom \u017eu\u010dne kese.\\nMetformin i mr\u0161avljenje:
+  \u0161to biste trebali znati\\nPatolo\u0161ki procesi koji ultra tanka donja jakna
+  hroni\u010dnu cerebralnu ishemiju. Akutno kr\u0161enje ravnote\u017ee vode i elektrolita.
+  Uzimanje lijeka nije kompatibilno s uzimanjem alkoholnih pi\u0107a, \u010dak ni
+  u malim dozama. Post nekoliko dana ili dugotrajno ograni\u010denje dnevnog unosa
+  kalorija sagorijevanje masti s utezima manje od kcal. Pove\u0107ana osjetljivost
+  na ovaj lijek ili njegove sastojke, \u0161to mo\u017ee izazvati akutnu alergijsku
+  reakciju. Upotreba ovog smr\u0161aviti za mjesec dana prirodno tokom trudno\u0107e
+  zna\u010dajno pove\u0107ava rizik od fetalnih malformacija i perinatalnog mortaliteta.
+  Pro\u010ditajte tako\u0111e Relativne kontraindikacije za upotrebu: Patolo\u0161ke
+  promjene koje za sobom povla\u010de kroni\u010dno o\u0161te\u0107enje funkcije ultra
+  tanka donja jakna i bubrega nisu apsolutni pokazatelj. Ovaj lijek mo\u017eete nastaviti
+  uzimati nakon savjetovanja s lije\u010dnikom. Starost od smr\u0161aviti za mjesec
+  dana prirodno do 60 godina. Razne zarazne bolesti. Siofor-ovi analozi Oni uklju\u010duju:
+  Metformin. Za i protiv uzimanja Siofora za mr\u0161avljenje Prednosti lijeka Upotreba
+  kako sagorjeti masno\u0107e brzo i jednostavno lijeka i za sagorijevati masno\u0107e
+  iz donjeg dijela prsnog ko\u0161a i gubitak kilograma vas mijenja prevenciju razvoja
+  dijabetesa melitusa nisam smr\u0161avio prvi tjedan 21 dan popraviti rizik od razvoja
+  ve\u0107ine oblika dijabetes melitusa. Siofor re\u017eim je jednostavan i ne zahtijeva
+  nikakve druge slo\u017eene radnje i medicinske manipulacije.\\nLijek je lako dostupan
+  u bilo kojoj ljekarni ili ljekarni u gradu. Metformin suzbija, \u0161to povoljno
+  utje\u010de na potrebu za prilago\u0111avanjem te\u017eine kod pacijenta. A tako\u0111e
+  sagorijevanje masti s utezima omogu\u0107ava da se ne iscrpljujete jakim fizi\u010dkim
+  naporima ili gladovanjem. Mane lijeka Siofor je sinteti\u010dki lijek dobiven umjetnim
+  putem. Nekontroliranim ili produ\u017eenim unosom visokih doza Siofora mogu\u0107e
+  je predoziranje, \u0161to mo\u017ee dovesti i do smrti. Opse\u017ene studije za
+  utvr\u0111ivanje u\u010dinka supstance na metabolizam masti nisu provedene, a sli\u010dan
+  je fenomen slu\u010dajno otkriven u brojnim klini\u010dkim studijama. Kompatibilnost
+  s alkoholom Tokom perioda mr\u0161aviti odr\u017eivo alkoholna pi\u0107a su strogo
+  zabranjena, jer se mogu javiti nepovratne promjene jetre, i to: fibroza sa naknadnom
+  masnom degeneracijom hepatitis.\\nRazvoj g silnik sagorijeva\u010da masti stanja
+  brzo se javlja sagorijevanje masno\u0107a na donjem trbuhu nekoliko sati, sa brzo
+  rastu\u0107im simptomima: Mu\u010dnina, bolovi u trbuhu, povra\u0107anje. Pojava
+  patolo\u0161kih respiratornih zvukova. Ultra tanka donja jakna acetona iz usta.
+  Smanjeni fiziolo\u0161ki refleksi. Kr\u0161enje acido-bazne ravnote\u017ee acidoza.
+  Razvoj sr\u010dane insuficijencije. Cijena za Siofor Trenutno je ovaj lijek prili\u010dno
+  popularan i pristupa\u010dan lijek. Mi\u0161ljenje ljekara Medicinski radnici sna\u017eno
+  odvra\u0107aju Siofor od gubitka kilograma bez prethodnog savjetovanja s lije\u010dnikom.
+  Napomene o primjeni i upozorenja Prije upotrebe po\u017eeljno je posjetiti medicinsku
+  sobu, dijagnostiku, gdje \u0107ete izvr\u0161iti funkcionalnu studiju bubrega i
+  jetre. Ne\u017eeljeno je koristiti alat tokom predstoje\u0107eg rendgenskog pregleda.
+  Prijem treba prekinuti prije predstoje\u0107e operacije intravenskom anestezijom,
+  potrebno je tijek lije\u010denja zamijeniti analogima ovog lijeka hipoglikemijske
+  serije na primjer, insulinom. Terapiju treba nastaviti sljede\u0107ih nekoliko dana
+  nakon manipulacije. Kombiniraju\u0107i unos Siofora sa derivatima sulfoniluree,
+  neophodno je pratiti razinu glukoze u krvi.\\nZaklju\u010dak Siofor je sredstvo
+  za lije\u010denje i prevenciju dijabetesa ovisnog o insulinu, kao i vrijedan dodatak
+  u lije\u010denju prekomjerne te\u017eine. Klini\u010dka i farmakolo\u0161ka grupa
+  Oralni hipoglikemijski lijek. Uslovi prodaje iz apoteka Mo\u017ee se kupiti na recept
+  ljekara. Cijena Koliko ko\u0161ta Siofor mg u apotekama? Prosje\u010dna cijena je
+  rubalja. Sastav i oblik izdanja Oblik doziranja - bijelo oblo\u017eene tablete:
+  Siofor okrugli, bikonveksni 10 kom. U blisterima, u kartonskoj kutiji 3, 6 ili kako
+  izgubiti 50 kilograma masti blistera ; Siofor duguljasti, sa obostranim rizikom
+  15 kom.\\nU blisterima, u kartonskoj kutiji 2, 4 ili 8 blistera ; Siofor duguljasti,
+  s urezom na jednoj strani i klinastim jezi\u010dkom na drugoj strani 15 kom. U blisterima,
+  u kartonskoj kutiji od 2, 4 ili 8 blistera. Dodatne komponente: Pomo\u0107ne supstance:
+  povidon, hipromeloza, magnezijum stearat; Sastav ljuske: makrogolhipromeloza, titan
+  dioksid E Jedinstveni sastav lijeka omogu\u0107ava ljudima koji ga uzimaju da postignu
+  tako pozitivne rezultate kao \u0161to su: Usporavanje apsorpcije aktivne glukoze
+  u probavnim organima; Smanjenje brzine proizvodnje glukoze u jetri; Pobolj\u0161anje
+  op\u0161te osetljivosti perifernih tkiva na hormone koji sadr\u017ee \u0161e\u0107er.
+  Pacijenti koji uzimaju lijekove i slijede jednostavnu dijetu brzo posti\u017eu gubitak
+  kilograma. Ostali lijekovi tako\u0111er mogu uzrokovati gubitak kilograma. Lijekovi
+  za kemoterapiju to mogu u\u010diniti smanjenjem apetita. Odre\u0111eni lijekovi
+  za \u0161titnja\u010du poja\u010davaju va\u0161 metabolizam, \u0161to mo\u017ee
+  uzrokovati gubitak kilograma.\\nTi lijekovi uklju\u010duju levotiroksin, liotironin
+  i liotriks. Imajte na umu da je metformin relativno siguran lijek s nuspojavama
+  koje obi\u010dno s vremenom odlaze. Ali ako ste zabrinuti za koli\u010dinu kilograma
+  koju ste izgubili tijekom uzimanja metformina, razgovarajte kako sagorjeti masno\u0107e
+  brzo i jednostavno lije\u010dnikom. On ili ona mogu vam pomo\u0107i da utvrdite
+  \u0161to uzrokuje gubitak kilograma i treba li ne\u0161to poduzeti u vezi s tim.
+  Bez obzira uzimate li metformin ili sagorijevanje masno\u0107a na donjem trbuhu,
+  trebali biste nazvati svog lije\u010dnika ako brzo gubite kilograme i nemate energije
+  ili apetita. Ocd lijekovi koji uzrokuju mr\u0161avljenje biste trebali nazvati svog
+  lije\u010dnika ako ste izgubili vi\u0161e od 10 kilograma u posljednjih \u0161est
+  do 12 mjeseci i ne znate za\u0161to. Op\u0107enito, slobodno se nazovite u bilo
+  kojem trenutku kada imate pitanja ili nedoumice u vezi sa svojim zdravljem ili te\u017einom.
+  Put do gubitka kilograma varira od osobe do osobe. Pakira se u prozirne blistere
+  s metalnom folijom u koli\u010dini od 30, 60 i komada u jednoj kutiji. Mi\u0161ljenja
+  lije\u010dnika sla\u017eu se da nijedan pacijent ne smije sam sebi propisati lijek.
+  Doziranje i u\u010destalost primjene mo\u017ee odabrati samo specijalist, i to samo
+  power tablete za mr\u0161avljenje faza 2 rezultatima ispitivanja. Prema pregledima,
+  postaje jasno da lijek ne\u0107e djelovati bez naznaka. A da bi utvrdio postoje
+  li takvi dokazi, va\u0111enje implanona gubitak kilograma bi stru\u010dnjak.\\nAko
+  je jedini cilj takvog lije\u010denja gubitak kilograma, tada se Metformin ne smije
+  piti vi\u0161e od mjesec dana. Zapo\u010dnite gubitak kilograma vas mijenja minimalnom
+  doziranjem od mg dva puta sagorijevanje masno\u0107a na donjem trbuhu uz obroke.
+  Svakog dana pove\u0107avajte dozu na mg. I ostaju na njemu tri tjedna. Ovo je zanimljivo:
+  polisorb za mr\u0161avljenje. Lije\u010denje treba pratiti posebna prehrana i fizi\u010dka
+  aktivnost. Obavezno isklju\u010dite sve brze ugljikohidrate: bra\u0161no, slatki\u0161e,
+  slastice, previ\u0161e slatko vo\u0107e, \u010dokoladu. Ina\u010de se probavni problemi
+  ne mogu izbje\u0107i.\"", "\"Roditelj Mahse Amini podignuli su tu\u017ebu protiv
+  policajaca koji su uhitili njihovu k\u0107i 13. rujna zbog nepo\u0161tivanja strogih
+  iranskih propisa o odijevanju, rekao je u srijedu odvjetnik obitelji, javlja agencija
+  ISNA.\\nDvadesetdvogodi\u0161nja Amini umrla je 16. rujna u bolnici u Teheranu,
+  tri dana po\u0161to je uhi\u0107ena.\\n\\\"Roditelji Mahse Amini podnijeli su tu\u017ebu
+  protiv osoba koje su privele njihovu k\u0107er (policajci) i onih koje su s njom
+  razgovarale kada je do\u0161la u stanicu \u0107udoredne policije\\\", rekao je odvjetnik
+  Saleh Nikbakht.\\nKazao je da je od dr\u017eavnog odvjetni\u0161tva i istra\u017enog
+  suca zatra\u017eio provedbu iscrpne istragu o na\u010dinu na koji je privo\u0111enje
+  provedeno sve do trenutka kada je bila prevezena u bolnicu.\\nZatra\u017eio je da
+  vlasti prilo\u017ee \\\"sve videosnimke i fotografije\\\" koje pokrivaju svo vrijeme
+  koje je Mahsa Amini provela u rukama \u0107udoredne policije.\\nDr\u017eavni odvjetnik
+  \\\"obe\u0107ao je provesti cjelovitu istraga i uzeti u obzir svi na\u0161i zahtjevi\\\",
+  rekao je odvjetnik.\\nObe\u0107ano je i da \u0107e \\\"medicinska ekipa koju odabere
+  obitelj Mahse Amini biti obavije\u0161tena o tijeku istrage\\\".\\nSvjedoci tvrde
+  da je policija odvela Amini u vozilo i tukla je i ona je u bolnicu prevezena po\u0161to
+  je pala u komu.\\nProsvjedi se odr\u017eavaju svaku ve\u010der od 16. rujna i unato\u010d
+  me\u0111unarodnim pozivima da prestane primjena sile nad prosvjednicima vlast i
+  dalje grubo postupa s njima nazivaju\u0107i ih \\\"pobunjenicima\\\" koji \\\"nanose
+  \u0161tetu sigurnosti i javnoj imovini\\\".\\nUhi\u0107eno je prema podacima od
+  subote vi\u0161e od 700 ljudi, me\u0111u kojima i 18 novinara od po\u010detka prosvjeda,
+  objavio je u ponedjeljak Odbor za za\u0161titu novinara (CPJ).\"", "\"Navlake za
+  jastuk Junior - 2 u setu\\nOpis\\nDje\u010dji jastuk izra\u0111en je od 100% nebijeljenog
+  pamuka za potpunu njegu za njegu osjetljive dje\u010dje ko\u017ee. Zanimljiv uzorak
+  s motivom pti\u010dice apsolutno \u0107e odu\u0161eviti najmla\u0111e.\\n2 navlake
+  u setu\\nU setu su pakirane dvije navlake za dje\u010dji jastuk. Budu\u0107i da
+  na\u0161i najmla\u0111i \u010desto uprljaju navlaku jastuka, potrebno ju je \u010desto
+  mijenjati. Stoga smo mi u set stavili dvije navlake za jastuk, \u010dime va\u0161e
+  dijete dobije svje\u017eu i \u010distu navlaku, a druga se u isto vrijeme pere.
+  Va\u0161e dijete mo\u017ee spavati na posteljini s istim motivom pti\u010dice koje
+  \u0107e odgovarati uz navlaku za jastuk. Predla\u017eemo posteljinu za spavanje
+  Junior Bamboo ili vre\u0107u za spavanje iz iste linije.\\n100% nebijeljeni pamuk
+  kao dar od prirode\\nJunior nje\u017ena tkanina dje\u010dje navlake izra\u0111ena
+  je od 100% prirodnog, nebijeljenog pamuka. Nebijeljeni pamuk je izuzetno zdrav materijal
+  koji stvara ugodnu i zdravu okolinu za spavanje bebe. Kori\u0161tenje nebijeljenog
+  pamuka tako\u0111er osigurava potpunu brigu za osjetljivu dje\u010dju ko\u017eu.
+  Visoka kvaliteta dje\u010dje posteljine s zanimljivim uzorkom i \u010disti pamuk
+  bez umjetnih dodataka, odu\u0161evit \u0107e va\u0161e najmla\u0111e kao i Vas.\\nJednostavno
+  presvla\u010denje\\nNavlaku jastuka \u0107ete lako skinuti i ponovo staviti natrag
+  na jastuk, jer je cijela Junior posteljina izra\u0111ena tako da nema skrivenih
+  zatvara\u010da. Sistem presvla\u010denja posteljine \u201ena preklop\u201c ne samo
+  da \u0107e vam olak\u0161ati mijenjanje posteljine, ve\u0107 se va\u0161a beba ne\u0107e
+  mo\u0107i izgrebati ili ozlijediti na skrivene zatvara\u010de. Ovaj na\u010din presvla\u010denja
+  ne\u0107e vam oduzeti puno vremena. Tako \u0107e navlake mo\u0107i uvijek biti \u010diste,a
+  va\u0161a beba spavati u zdravoj i \u010distoj okolini.\\nMotiv malene pti\u010dice\\nTkaninu
+  navlake od nebijeljenog pamuka krasi pa\u017eljivo izvezen uzorak malene pti\u010dice.
+  Nasmijana pti\u010dica s cvijetom u kljunu, odu\u0161evit \u0107e i djevoj\u010dice
+  i dje\u010dake. Uzorak tkanine navlake i njen dizajn savr\u0161eno se uklapa s dje\u010djom
+  posteljinom Junior i ostalim proizvodima iz Vitapurove linije za djecu.\\nOdr\u017eavanje\\nDodatne
+  informacije\\n- 100% nebijeljeni pamuk.\\n- Zanimljiv uzorak.\\n- U setu 2 navlake.\\n-
+  Jednostavno presvla\u010denje - na preklop.\"", "\"Mjesto tepisi dolje u sredini
+  sobe po kojojkabel mora pokrenuti. Ponekaduti\u010dnicu je na suprotnoj strani sobe
+  odakle ti bi radije stavite televizije , na primjer . Ako se odlu\u010dite za mjesto
+  deka dolje na vrhu kabela , pobrinite se da jekabel je u dobrom stanju . Tako\u0111er
+  treba provjeriti kabel redovito kako bi bili sigurni da nije cijepanje ili habanje
+  . Izgla\u0111eni elektri\u010dni kabeli lako mo\u017ee izazvati po\u017ear .\\nNamje\u0161taj\\nstolovi
+  i televizijskih tribinama koje imaju otvorenih le\u0111a ili donje dijelove , \u017eice
+  mo\u017ee biti priklju\u010den na donjoj povr\u0161inu da ih dr\u017eati izvan izravnim
+  pogledom . To se mo\u017ee u\u010diniti primjenom posebnim kabelom kuke, ili ukrasne
+  kukice kupljene od hardvera du\u0107an , u bilo koji dio namje\u0161taja koji je
+  gotovo ili potpuno skriven od pogleda . Ponekad ne\u0107ete biti u mogu\u0107nosti
+  da se sakriju svaki zalogaj mo\u017edine , ali jo\u0161 uvijek \u010dine veliki
+  napredak . Ako ne \u017eelite da se materijalna \u0161teta od namje\u0161taja komad
+  , mo\u017eete kupiti i priklju\u010diti ljepljive \u010di\u010dak trake, koja se
+  mo\u017ee omotati oko \u017eice da ih dr\u017ee na mjestu . Srpski\\nelektronika
+  male\\nZa male elektronike kao \u0161to su mp3 playeri, mobitela i digitalnih fotoaparata,
+  punjenje postaja dostupni su na lancu i elektroni\u010dkom opremom . Ovi dolaze
+  opremljeni s ladicama i policama s otvorima u le\u0111a da vodi\u010d kabeli prema
+  elektri\u010dnu uti\u010dnicu dok se skrivao obje \u017eice i uti\u010dnice . Osim
+  toga , mnoge vrste su na raspolaganju kako bi odgovarao svoj dekor . Nakon \u0161to
+  je punjenje mo\u017ee vam pomo\u0107i pratiti va\u0161e malih elektroni\u010dkih
+  ure\u0111aja koji se lako mogu biti izgubljeni me\u0111u nereda sklone domova i
+  ureda .\\nFlat Panel TV\\nVise\u0107i flat-screen TV na dnevni boravak i spava\u0107a
+  soba zidove je vrlo popularan , ali nazidno zahtijeva \u017eice da visi s televizije
+  na izlazu . Jednostavno rje\u0161enje za ovaj problem je kupiti plastike , zaobljeni
+  obloge koje maskirnim kabele . Mo\u017eete slikati ove obloge odgovarati boje na
+  zidovima . Mediji stolovi i kratke police za knjige tako\u0111er pomo\u0107i sakriti
+  \u017eice i uti\u010dnice , a mo\u017ee biti ukra\u0161ena ukrasnim biljem ili okviri
+  za slike na daljnje pomo\u0107i u prikrivanje kablova .\\nTupperware je vjerojatnonajpoznatiji
+  tvrtka koja \u010dini posude za hranu zbog Tupperware stranaka koje traju od 1946
+  Postoje , me\u0111utim , i druge tvrtke koje prodaju pouzdane posude za hranu koja
+  se lako mo\u017ee kupiti . off policama trgovina ili online . T\\nV\u00edce >\"",
+  "\"Sestre Ugarkovi\u0107 iz Judo kluba Sakura na postolju!\\n09.10.2019.\\nU \u017dupi
+  dubrova\u010dkoj je 5. listopada 2019. odr\u017ean je me\u0111unarodni \u201eMemorijal
+  Matea Knego\u201c, koji je okupio 23 kluba, s ukupno 298 natjecatelja iz Hrvatske,
+  Bosne i Hercegovine, Crne Gore i Ukrajine.\\nSvetonedeljske Sakure nastupile su
+  s tri natjecatelja u sastavu: Petra Ugarkovi\u0107, U10 -32kg, Ana Ugarkovi\u0107,
+  U14 -52kg i Karlo Ve\u0161ligaj, U14 +66kg. Sestre Ugarkovi\u0107 nastavljaju svoj
+  pobjedni\u010dki niz te na ovom natjecanju Ana je osvojila zlatno, a Petra je izborila
+  srebrno odli\u010dje. Karlo Ve\u0161ligaj na \u017ealost izgubio je borbu za tre\u0107e
+  mjesto, te u ukupnom poretku zauzima peto mjesto.\""]'
 src_ngrams: '{"1": [[["godine"], 15764910], [["ima"], 13976362], [["bez"], 13449112],
   [["dana"], 12664009], [["kod"], 12644736]], "2": [[["osim toga"], 2216774], [["ove
   godine"], 1657029], [["bez obzira"], 1553227], [["kod ku\u0107e"], 1513203], [["puta

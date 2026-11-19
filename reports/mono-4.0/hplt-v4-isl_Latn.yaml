@@ -1,4 +1,4 @@
-corpus: hplt-v4-isl
+corpus: hplt-v4-isl_Latn
 srclang: isl
 timestamp: 1789903249.0534685
 warnings: []
@@ -1309,7 +1309,1467 @@ register_labels: '{"NA_ne": 995716, "IP_ds": 664018, "UNK": 553302, "MT": 350354
   "IN_en": 50799, "IN_lt": 50644, "HI_other": 48065, "ID_other": 47076, "HI_re": 43824,
   "OP_rv": 34965, "OP_rs": 31103, "OP_av": 14724, "SP_it": 13165, "IN_ra": 9988, "SP_other":
   6815, "LY_other": 3738, "IN_fi": 1398}'
-sample: hplt-v4-isl_Latn-sample
+sample: '["\"Sk\u00ed\u00f0atilbo\u00f0 hj\u00e1 Lamb Inn! Tilbo\u00f0 \u00e1 gistingu
+  og morgunver\u00f0i \u00ed tv\u00e6r n\u00e6tur og einn 3ja r\u00e9tta kv\u00f6ldver\u00f0ur
+  (drykkir ekki innifaldir) \u00e1 Lamb Inn sem er hl\u00fdlegt gistiheimili og veitingasta\u00f0ur
+  \u00ed Eyjafjar\u00f0arsveit, a\u00f0eins 10 km su\u00f0ur af Akureyri. Ver\u00f0
+  fyrir tveggja manna herbergi er 36.800,- kr.\\n\u00d6ll herbergin eru me\u00f0 s\u00e9r
+  ba\u00f0herbergi og h\u00e6gt er a\u00f0 nota snertilausa afgrei\u00f0slu vi\u00f0
+  innskr\u00e1ningu \u00e1 gistiheimili\u00f0.\\n\u00d6ruggt umhverfi \u00ed sveitinni
+  og heillandi \u00fats\u00fdni yfir bygg\u00f0ina og formf\u00f6gur fj\u00f6ll. \u00c1
+  sta\u00f0num er upphitu\u00f0 geymsla fyrir sk\u00ed\u00f0ab\u00fana\u00f0 og vinnuherbergi
+  fyrir vi\u00f0hald og vi\u00f0ger\u00f0ir. Innifali\u00f0 er a\u00f0gangur a\u00f0
+  heitum potti me\u00f0 fallegri fjallas\u00fdn. Bar og matur \u00e1 Fimbul Caf\u00e9.\"",
+  "\"Helga \u00de\u00f3rsd\u00f3ttir s\u00fdningarstj\u00f3ri r\u00e6\u00f0ir vi\u00f0
+  gesti um s\u00fdninguna R\u00e1s \u00ed Hafnarborg sunnudaginn 14. september kl.
+  15.\\nHelga \u00de\u00f3rsd\u00f3ttir er menningarfr\u00e6\u00f0ingur auk \u00feess
+  sem h\u00fan er menntu\u00f0 \u00ed myndlist og innanh\u00fassarkitekt\u00far. Helga
+  hefur starfa\u00f0 sem innanh\u00fasarkitekt, vi\u00f0 h\u00f6nnun, verkefnastj\u00f3rnun,
+  h\u00f6nnun leikmynda og s\u00fdningarb\u00e1sa og sem lei\u00f0s\u00f6guma\u00f0ur
+  \u00e1 \u00cdslandi og \u00ed Par\u00eds. Sem myndlistarma\u00f0ur hefur h\u00fan
+  haldi\u00f0 og teki\u00f0 \u00fe\u00e1tt \u00ed fj\u00f6lda s\u00fdninga og einnig
+  komi\u00f0 a\u00f0 textaskrifum um myndlist, en s\u00fdningin \u00ed Hafnarborg
+  er hennar fyrsta sj\u00e1lfst\u00e6\u00f0a s\u00fdningarstj\u00f3rnarverkefni.\\nR\u00e1s
+  er s\u00fdning \u00fear sem teflt er saman verkum \u00e1hugaver\u00f0ra listamanna
+  sem \u00feekktir eru fyrir a\u00f0 gera hugl\u00e6gri reynslu efnisleg skil \u00e1
+  \u00e1hrifar\u00edkan h\u00e1tt. \u00c1 s\u00fdningunni eru n\u00fd verk eftir myndlistarmennina
+  Dan\u00edel Magn\u00fasson (f. 1958), Gu\u00f0r\u00fanu Hr\u00f6nn Ragnarsd\u00f3ttur
+  (f. 1956), \u00cdvar Brynj\u00f3lfsson (f. 1960), \u00cdvar Valgar\u00f0sson (f.
+  1954), S\u00f3lveigu A\u00f0alsteinsd\u00f3ttur (f. 1955) og \u00de\u00f3ru Sigur\u00f0ard\u00f3ttur
+  (f. 1954). Markmi\u00f0 s\u00fdningarstj\u00f3rans me\u00f0 stefnum\u00f3ti \u00feessara
+  listamanna er a\u00f0 varpa lj\u00f3si \u00e1 samt\u00edmalistsk\u00f6pun sem afl
+  umbreytinga og farveg fyrir n\u00fdjar hugsanir og hugmyndir.\"", "\"Fars\u00e6l
+  innlei\u00f0ing stefnu. Ranns\u00f3kn me\u00f0al \u00edslenskra fyrirt\u00e6kja\\n\u00cdslensk
+  fyrirt\u00e6ki eiga langt \u00ed land me\u00f0 a\u00f0 st\u00edga markvisst til
+  jar\u00f0ar \u00feegar kemur a\u00f0 innlei\u00f0ingu stefnum\u00f3tunar \u00fe\u00f3
+  f\u00e6ra megi r\u00f6k fyrir \u00fev\u00ed a\u00f0 \u00fea\u00f0 s\u00e9 eitt mikilv\u00e6gasta
+  skrefi\u00f0 \u00ed ferlinu. Styrkja \u00fearf skipulag innlei\u00f0ingar verulega
+  b\u00e6\u00f0i me\u00f0 betri a\u00f0ger\u00f0abindingu \u00e1 stefnu og \u00e1rangursmati
+  \u00fat fr\u00e1 sk\u00fdrum markmi\u00f0um sem og \u00fe\u00e1ttt\u00f6ku starfsmanna
+  \u00ed ferlinu.\\n\u00cd s\u00ed\u00f0asta t\u00f6lubla\u00f0i Strauma voru kynntar
+  ni\u00f0urst\u00f6\u00f0ur ranns\u00f3knar um st\u00f6\u00f0u \u00fdmissa \u00fe\u00e1tta
+  tengda stefnum\u00f3tun hj\u00e1 fyrirt\u00e6kjum \u00e1 \u00cdslandi. \u00dea\u00f0
+  kom t\u00f6luvert \u00e1 \u00f3vart \u00ed \u00feeirri k\u00f6nnun hversu afdr\u00e1ttarlausar
+  margar af \u00feeim ni\u00f0urst\u00f6\u00f0um voru. \u00dear kom me\u00f0al annars
+  fram a\u00f0 58% fyrirt\u00e6kja telja sig hafa sk\u00fdra a\u00f0greiningu \u00e1
+  marka\u00f0i og 77% stj\u00f3rnenda t\u00f6ldu a\u00f0 \u00ed stefnunni f\u00e6list
+  sk\u00fdr s\u00fdn \u00e1 lykilmarkh\u00f3pa. Okkar reynsla \u00ed vinnu me\u00f0
+  fyrirt\u00e6kjum hefur hins vegar oftar en ekki leitt \u00ed lj\u00f3s a\u00f0 \u00feessir
+  \u00fe\u00e6ttir \u00fearfnast sko\u00f0unar og betri skilgreiningar. \u00dea\u00f0
+  sem g\u00e6ti sk\u00fdrt \u00feessar ofurj\u00e1kv\u00e6\u00f0u ni\u00f0urst\u00f6\u00f0ur
+  getur haft me\u00f0 mannlegt e\u00f0li a\u00f0 gera. Ef \u00fe\u00fa spyr\u00f0
+  hvern sem er hvort hann s\u00e9 betri b\u00edlstj\u00f3ri en me\u00f0alb\u00edlstj\u00f3rinn
+  eru um 80% manna l\u00edkleg til a\u00f0 segja a\u00f0 \u00feau s\u00e9u yfir me\u00f0allagi.
+  \u00deetta er sk\u00fdrt \u00ed fr\u00e6\u00f0unum sem skynvilltir yfirbur\u00f0ir
+  (e. illusory superiority). Skynvilltir yfirbur\u00f0ir l\u00fdsa \u00feannig raunverulegri
+  og \u00fatbreiddri heg\u00f0un \u00fear sem einstaklingar ofmeta eigin afrek og
+  getu \u00ed samanbur\u00f0i vi\u00f0 a\u00f0ra. \u00deetta er \u00f3sj\u00e1lfr\u00e1tt
+  mannlegt e\u00f0li, en um lei\u00f0 \u00f3skhyggja um hvernig hlutir eiga a\u00f0
+  falla. Ein lei\u00f0in til a\u00f0 komast framhj\u00e1 svona matsskekkjum er a\u00f0
+  spyrja s\u00e9rt\u00e6kari spurninga um afmarka\u00f0a \u00fe\u00e6tti sem saman
+  gefa v\u00edsbendingu um st\u00f6\u00f0u hinnar st\u00e6rri ranns\u00f3knarspurningar.
+  Til a\u00f0 fylgja \u00feessu eftir og rannsaka m\u00e1li\u00f0 n\u00e1nar ger\u00f0i
+  Capacent n\u00fdja ranns\u00f3kn sem sneri a\u00f0 \u00fev\u00ed hversu vel \u00edslensk
+  fyrirt\u00e6ki v\u00e6ru a\u00f0 vinna a\u00f0 innlei\u00f0ingu stefnu sinnar.\\nEr
+  stefna til sta\u00f0ar?\\nHugtaki\u00f0 stefnum\u00f3tun og s\u00fa vinna sem h\u00fan
+  kallar \u00e1 hefur \u00e1 undanf\u00f6rnum \u00e1rum n\u00e1\u00f0 a\u00f0 festast
+  betur \u00ed sessi \u00ed \u00edslensku atvinnul\u00edfi. M\u00f6rg fyrirt\u00e6ki
+  \u00feurftu nau\u00f0synlega a\u00f0 breyta \u00e1herslum s\u00ednum eftir hrun
+  og mikilv\u00e6gara var en \u00e1\u00f0ur a\u00f0 marka \u00fe\u00e6r \u00e1herslur
+  sem einkenna \u00e6ttu n\u00fdja framt\u00ed\u00f0. \u00cd grunninn er m\u00f3tun
+  stefnu einfaldlega s\u00fdn \u00e1 hvert fyrirt\u00e6ki\u00f0 stefnir og hver s\u00fa
+  verjanlega s\u00e9rsta\u00f0a er sem gerir \u00fev\u00ed kleift a\u00f0 sigra \u00ed
+  samkeppni. M\u00f3tun stefnu sn\u00fdst \u00fev\u00ed fyrst og s\u00ed\u00f0ast
+  um herna\u00f0ar\u00e1\u00e6tlun.\\n\u00cd skynsamlegri framt\u00ed\u00f0ars\u00fdn
+  koma \u00feessir \u00fe\u00e6ttir fram.\\nS\u00e9 horft til ranns\u00f3knar okkar
+  m\u00e1 sj\u00e1 a\u00f0 t\u00e6plega 40% stj\u00f3rnenda t\u00f6ldu sig ekki vera
+  me\u00f0 skilgreinda og kynnta framt\u00ed\u00f0ars\u00fdn. N\u00fa m\u00e1 velta
+  fyrir s\u00e9r hvort \u00f3e\u00f0lilegt s\u00e9 a\u00f0 spyrja um tilveru og kynningu
+  \u00ed s\u00f6mu spurningunni, en hafa ber \u00ed huga a\u00f0 ef framt\u00ed\u00f0ars\u00fdnin
+  er einungis \u00ed sk\u00faffu \u00e6\u00f0sta stj\u00f3rnanda \u00fe\u00e1 hefur
+  sl\u00edk s\u00fdn enga hvatningu \u00ed f\u00f6r me\u00f0 s\u00e9r gagnvart starfsm\u00f6nnunum
+  sem hafa \u00fe\u00f3 mest \u00e1hrif \u00e1 \u00fea\u00f0 hvernig s\u00fa s\u00fdn
+  getur or\u00f0i\u00f0 a\u00f0 veruleika.\\nS\u00e9 r\u00fdnt n\u00e1nar \u00ed greiningarbreytur
+  m\u00e1 sj\u00e1 a\u00f0 \u00ed fyrirt\u00e6kjum me\u00f0 yfir 100 starfsmenn eru
+  enn um 27% fyrirt\u00e6kja ekki me\u00f0 skilgreinda og kynnta framt\u00ed\u00f0ars\u00fdn.
+  H\u00e9r er tv\u00edm\u00e6lalaust \u00fe\u00f6rf \u00e1 a\u00f0 gera betur.\\n\u00c1
+  t\u00edmum i\u00f0na\u00f0arsamf\u00e9lagsins voru starfsmannam\u00e1l oft falin
+  \u00ed launadeild innan fj\u00e1rm\u00e1lasvi\u00f0s en s\u00ed\u00f0an hefur miki\u00f0
+  breyst. \u00d6flugir mannau\u00f0sstj\u00f3rar hafa fengi\u00f0 meira v\u00e6gi
+  innan skipulags fyrirt\u00e6kja sem er \u00ed takti vi\u00f0 \u00fer\u00f3un atvinnul\u00edfsins
+  \u00fear sem s\u00edfellt fleiri starfsmenn eru \u00feekkingarstarfsmenn en ekki
+  f\u00f3lk sem er \u201er\u00e1\u00f0i\u00f0 upp a\u00f0 h\u00e1lsi\u201c eins og
+  algengt var \u00e1\u00f0ur fyrr. S\u00fa mikla vakning sem \u00e1tt hefur s\u00e9r
+  sta\u00f0 \u00ed umr\u00e6\u00f0unni um mikilv\u00e6gi mannau\u00f0s ger\u00f0um
+  vi\u00f0 r\u00e1\u00f0 fyrir a\u00f0 myndi skila s\u00e9r \u00ed stefnu \u00ed mannau\u00f0sm\u00e1lum,
+  en a\u00f0eins 35% stj\u00f3rnenda t\u00f6ldu sig hafa sl\u00edka stefnu \u00ed
+  s\u00ednu fyrirt\u00e6ki.\\nA\u00f0 okkar mati er b\u00e6\u00f0i stefna \u00ed mannau\u00f0sm\u00e1lum
+  og gildi lykil\u00fe\u00e6ttir vi\u00f0 a\u00f0 hrinda stefnu \u00ed framkv\u00e6md.
+  L\u00edmi\u00f0 \u00ed mannau\u00f0sm\u00e1lum eru lifandi og virk gildi og stj\u00f3rnun
+  me\u00f0 gildum (e. management by values) er grunnforsenda langt\u00edma\u00e1rangurs
+  fyrirt\u00e6kja og stofnana. Stundum eru gildi einungis or\u00f0 upp \u00e1 vegg
+  en hafa \u00ed raun ekki veri\u00f0 innleidd me\u00f0 \u00feeim h\u00e6tti a\u00f0
+  \u00feau hafi raunveruleg \u00e1hrif \u00e1 innri og ytri samskipti og heg\u00f0un
+  starfsmanna. \u00deegar vel valin og skilgreind gildi eru hluti af fyrirt\u00e6kjamenningunni
+  \u00fe\u00e1 geta \u00feau hins vegar ein og s\u00e9r mynda\u00f0 sterka og verjanlega
+  s\u00e9rst\u00f6\u00f0u \u00e1 marka\u00f0i.\\nRanns\u00f3knin s\u00fdndi a\u00f0
+  a\u00f0eins 40% af fyrirt\u00e6kjum t\u00f6ldu sig hafa samkeppnis- e\u00f0a marka\u00f0sgreiningu
+  um \u00fea\u00f0 sem skapar \u00feeim forskot \u00e1 marka\u00f0i. \u00dea\u00f0
+  er ekki g\u00f3\u00f0 ni\u00f0ursta\u00f0a. \u00dea\u00f0 er lykilatri\u00f0i a\u00f0
+  stj\u00f3rnendur \u00feekki markh\u00f3pana og \u00fearfir \u00feeirra, \u00fev\u00ed
+  s\u00e9rsta\u00f0a fyrirt\u00e6kis er einskis vir\u00f0i nema einsleitir, n\u00f3gu
+  fj\u00f6lmennir h\u00f3par vi\u00f0skiptavina me\u00f0 kaupgetu og -vilja s\u00e9u
+  \u00e1 marka\u00f0num. Br\u00fdnt er a\u00f0 huga a\u00f0 \u00fev\u00ed hverjir
+  eru raunverulegir yfirbur\u00f0ir gagnvart \u00feessum markh\u00f3pum \u00e1 hverjum
+  t\u00edma, hverjar eru \u00fe\u00e6r almennu kr\u00f6fur sem marka\u00f0urinn gerir
+  og eru n\u00e1nast a\u00f0eins a\u00f0g\u00f6ngumi\u00f0i a\u00f0 leiknum og hva\u00f0a
+  \u00fe\u00e6ttir skapa samkeppnisyfirbur\u00f0i gagnvart tilteknum markh\u00f3pum.\\n\u00deekking
+  \u00e1 stefnu me\u00f0al starfsmanna\\n\u00deeir sem ekki t\u00f6ldu sig hafa m\u00f3ta\u00f0
+  og kynnt stefnu \u00ed s\u00ednu fyrirt\u00e6ki voru ekki spur\u00f0ir frekari spurninga.
+  \u00c1hugavert var hins vegar a\u00f0 f\u00e1 fram hj\u00e1 hinum hversu vel \u00feeir
+  telji a\u00f0 starfsmenn \u00feeirra \u00feekki stefnu fyrirt\u00e6kisins. H\u00e9r
+  \u00e1 s\u00ed\u00f0unni m\u00e1 sj\u00e1 ni\u00f0urst\u00f6\u00f0ur \u00feessarar
+  spurningar en um 76% stj\u00f3rnenda t\u00f6ldu a\u00f0 starfsmenn hafi mj\u00f6g
+  e\u00f0a frekar mikla \u00feekkingu \u00e1 stefnu fyrirt\u00e6kisins. \u00deetta
+  eru \u00e1n\u00e6gjulegar ni\u00f0urst\u00f6\u00f0ur en vonandi er ekki h\u00e9r
+  um a\u00f0 r\u00e6\u00f0a skynvillta yfirbur\u00f0i. \u00c1hugavert v\u00e6ri a\u00f0
+  spyrja starfsf\u00f3lk \u00feessara fyrirt\u00e6kja hver s\u00e9 \u00feeirra \u00feekking
+  \u00e1 stefnu fyrirt\u00e6kis s\u00edns. Margir stj\u00f3rnendur velta fyrir s\u00e9r
+  hva\u00f0 s\u00e9 vi\u00f0eigandi a\u00f0 verja miklum t\u00edma til a\u00f0 tala
+  um stefnum\u00f3tun fyrirt\u00e6kisins \u00ed einhverri mynd. \u00dev\u00ed spur\u00f0um
+  vi\u00f0 hvort stj\u00f3rnendur teldu a\u00f0 \u00feeir ver\u00f0u of miklum e\u00f0a
+  of litlum t\u00edma til a\u00f0 tala um stefnuna. Um 40% af stj\u00f3rnendum fyrirt\u00e6kja
+  \u00ed ranns\u00f3kninni t\u00f6ldu sig ekki verja n\u00e6gum t\u00edma til a\u00f0
+  tala um stefnuna. Ef ekki er vari\u00f0 t\u00edma til a\u00f0 tala um stefnuna eru
+  minni l\u00edkur \u00e1 a\u00f0 innlei\u00f0ing takist \u00fev\u00ed \u00ed \u00feekkingarsamf\u00e9laginu
+  \u00feurfa allir starfsmenn a\u00f0 leggja sitt af m\u00f6rkum til a\u00f0 fyrirt\u00e6ki\u00f0
+  n\u00e1i settu marki. Samkv\u00e6mt okkar reynslu er ekki n\u00f3g a\u00f0 beina
+  umr\u00e6\u00f0u um stefnu \u00ed \u201es\u00e9rt\u00e6ka vi\u00f0bur\u00f0i\u201c
+  s.s. stefnum\u00f3tunardag, heldur \u00fearf umr\u00e6\u00f0a um stefnu og \u00e1herslur
+  a\u00f0 vera e\u00f0lilegur \u00fe\u00e1ttur \u00ed samskiptum innan fyrirt\u00e6kis
+  hvort sem tala\u00f0 er vi\u00f0 einn, t\u00f3lf e\u00f0a hundra\u00f0 og tuttugu
+  og einn. \u00cd \u00feeim tilfellum sem vi\u00f0 sj\u00e1um \u00feetta best heppna\u00f0
+  hefur regluleg umr\u00e6\u00f0a s\u00eda\u00f0 \u00feessi m\u00e1l inn \u00ed vitund
+  allra starfsmanna.\\nE\u00f0lilegt er fyrir stj\u00f3rnanda a\u00f0 hafa \u00fe\u00e1
+  tilfinningu a\u00f0 hann e\u00f0a h\u00fan s\u00e9 st\u00f6\u00f0ugt a\u00f0 tala
+  um stefnuna. K\u00fanstin er a\u00f0 nota fj\u00f6lbreyttar lei\u00f0ir vi\u00f0
+  a\u00f0 mi\u00f0la stefnu og lykil\u00e1herslum hennar \u00e1 markvissan og au\u00f0skiljanlegan
+  h\u00e1tt. Ranns\u00f3knir hafa s\u00fdnt a\u00f0 starfsf\u00f3lk \u201ekaupir\u201c
+  ekki stefnu\u00e1herslur fr\u00e1 yfirstj\u00f3rn fyrr en \u00fea\u00f0 hefur fengi\u00f0
+  samst\u00e6\u00f0 skilabo\u00f0 me\u00f0 \u00f3l\u00edkum lei\u00f0um s.s. \u00e1
+  fundum, \u00ed t\u00f6lvup\u00f3stum, samt\u00f6lum, kynningum og s\u00ed\u00f0ast
+  en ekki s\u00edst, verkum yfirstj\u00f3rnar. Vi\u00f0 fylgdum \u00feessari spurningu
+  eftir me\u00f0 \u00fev\u00ed a\u00f0 spyrja hva\u00f0 stj\u00f3rnendur telji sig
+  verja m\u00f6rgum klukkustundum a\u00f0 me\u00f0altali \u00ed viku hverri til a\u00f0
+  tala um stefnum\u00e1l. Um 55% stj\u00f3rnenda v\u00f6r\u00f0u 2 klukkustundum \u00e1
+  viku e\u00f0a minna \u00ed \u00feessa umr\u00e6\u00f0u. Ef vi\u00f0 setjum \u00feetta
+  \u00ed samhengi \u00fe\u00e1 segist me\u00f0alstj\u00f3rnandi \u00e1 \u00cdslandi
+  vinna um 50 - 55 klst. \u00e1 viku sem \u00fe\u00fd\u00f0ir a\u00f0 flestir stj\u00f3rnendur
+  setja 3 - 4% af vinnut\u00edma s\u00ednum \u00ed a\u00f0 r\u00e6\u00f0a stefnum\u00f3tandi
+  m\u00e1l. G\u00f3\u00f0u fr\u00e9ttirnar eru samt a\u00f0 30% \u00feeirra sem telja
+  sig verja h\u00e6filega miklum t\u00edma til umr\u00e6\u00f0u um stefnu eru a\u00f0
+  verja 5 - 6 klst \u00e1 viku til \u00feessarar umr\u00e6\u00f0u. Markmi\u00f0i\u00f0
+  er a\u00f0 tenging vi\u00f0 stefnu og framt\u00ed\u00f0ars\u00fdn fyrirt\u00e6kis
+  ver\u00f0i e\u00f0lilegur og \u00f3rj\u00fafanlegur \u00fe\u00e1ttur \u00ed or\u00f0i
+  og \u00e6\u00f0i stj\u00f3rnandans alla daga.\\nM\u00e6lingar \u00e1 \u00e1rangri\\nStefna
+  er sett til a\u00f0 n\u00e1 fram \u00e1rangri \u00ed starfsemi fyrirt\u00e6kisins.
+  Hvernig s\u00e1 \u00e1rangur er m\u00e6ldur er \u00e1hugaver\u00f0ur vinkill. \u00dev\u00ed
+  spur\u00f0um vi\u00f0 \u00edslenska stj\u00f3rnendur hverjir \u00feeirra \u00e1rangursm\u00e6likvar\u00f0ar
+  v\u00e6ru. \u00dea\u00f0 sem vekur strax athygli er a\u00f0 70% fyrirt\u00e6kja
+  hafa ekki neina m\u00e6likvar\u00f0a \u00e1 svi\u00f0i mannau\u00f0s. \u00deetta
+  eru sl\u00e6mar ni\u00f0urst\u00f6\u00f0ur enda um m\u00e6likvar\u00f0a a\u00f0
+  r\u00e6\u00f0a sem hafa mikil forsp\u00e1rgildi um g\u00e6\u00f0i \u00fej\u00f3nustu
+  sem aftur tengist \u00e1n\u00e6gju vi\u00f0skiptavina og \u00feannig vi\u00f0haldi
+  og vexti tekjustofna. M\u00e6lingar geta byggt \u00e1 vinnusta\u00f0agreiningum,
+  starfsmannaveltu, \u00feekkingu, vi\u00f0horfi og fleiru.\\n\u00deessar ni\u00f0urst\u00f6\u00f0ur
+  eru v\u00edsbendingar um skort \u00e1 skilningi um mikilv\u00e6gi mannau\u00f0sins.
+  Ef stj\u00f3rnandi veit ekki um l\u00ed\u00f0an starfsmanna getur honum yfirs\u00e9st
+  r\u00f3t vandam\u00e1la sem valda \u00fev\u00ed a\u00f0 stefna er ekki innleidd
+  og fyrirt\u00e6ki\u00f0 n\u00e6r ekki markmi\u00f0um s\u00ednum. Einnig vekur athygli
+  a\u00f0 \u00e1 t\u00edmum sem \u00feessum \u00fear sem samkeppni er har\u00f0nandi,
+  b\u00e6\u00f0i erlendis fr\u00e1 og me\u00f0 n\u00fdjum dreifilei\u00f0um \u00e1
+  v\u00f6rum og \u00fej\u00f3nustu, a\u00f0 innan vi\u00f0 40% stj\u00f3rnenda fylgjast
+  me\u00f0 m\u00e6likv\u00f6r\u00f0um um \u00e1rangur \u00e1 marka\u00f0i. \u00deetta
+  eru m\u00e6likvar\u00f0ar sem m\u00e6la g\u00e6\u00f0i \u00fej\u00f3nustu, \u00edmynd,
+  hlutdeild \u00e1 marka\u00f0i, hlutfall heildarvi\u00f0skipta vi\u00f0skiptavinar
+  (e. share of wallet) og fleira. Ef ekki er m\u00e6lt eru markmi\u00f0 tilgangsl\u00edtil
+  og erfitt a\u00f0 sty\u00f0ja vi\u00f0 \u00e1kvar\u00f0anir og a\u00f0ger\u00f0ir
+  \u00ed tengslum vi\u00f0 innlei\u00f0ingu stefnunnar \u00darb\u00f3tavinna ver\u00f0ur
+  \u00f3markviss og \u00e1rangursmat hugl\u00e6gt.\\nTv\u00f6 af hverjum \u00feremur
+  fyrirt\u00e6kjum \u00ed ranns\u00f3kninni hafa fj\u00e1rhagslega m\u00e6likvar\u00f0a.
+  E\u00f0li sl\u00edkra m\u00e6likvar\u00f0a er a\u00f0 \u00feeir eru oftast afturvirkir.
+  \u00deeir gefa uppl\u00fdsingar um tekjur og kostna\u00f0 sem b\u00fai\u00f0 er
+  skr\u00e1. M\u00e6lingar um \u00e1n\u00e6gju og trygg\u00f0 vi\u00f0skiptavina og
+  l\u00ed\u00f0an starfsmanna hafa hins vegar forsp\u00e1rgildi um hva\u00f0 fj\u00e1rhagsm\u00e6likvar\u00f0arnir
+  muni m\u00e6la \u00e1 n\u00e6stu misserum. S\u00e9u spurningar aftur sko\u00f0a\u00f0ar
+  \u00ed samhengi m\u00e1 sj\u00e1 a\u00f0 fyrirt\u00e6ki sem gerir reglulegar \u00fej\u00f3nustu-
+  og marka\u00f0sm\u00e6lingar er r\u00edflega tv\u00f6falt l\u00edklegra til a\u00f0
+  telja starfsmenn vel uppl\u00fdsta um stefnu fyrirt\u00e6kisins.\\nUm 20% fyrirt\u00e6kja
+  sta\u00f0festu a\u00f0 \u00feau geri engar reglulegar \u00e1rangursm\u00e6lingar.
+  \u00dea\u00f0 eru l\u00edklega fyrirt\u00e6kin \u00fear sem \u201ea\u00f0 vera\u201c
+  er markmi\u00f0i\u00f0 frekar en \u201ea\u00f0 ver\u00f0a\u201c. \u00cd \u00feessum
+  h\u00f3pi felast s\u00f3knarf\u00e6ri fyrir samkeppnisa\u00f0ila og fj\u00e1rfesta.\\nTengsl
+  starfsmanna vi\u00f0 \u00e1rangur\\nMikilv\u00e6gt er a\u00f0 m\u00e6likvar\u00f0ar
+  um \u00e1rangur hr\u00edslist ni\u00f0ur fyrirt\u00e6ki\u00f0 \u00feannig a\u00f0
+  allar einingar innan skipulags hafi sk\u00fdra s\u00fdn \u00e1 hva\u00f0 \u00ed
+  stefnu\u00e1herslum f\u00e9lagsins fellur undir \u00feeirra \u00e1hrifasv\u00e6\u00f0i.
+  Best er ef \u00e1rangursm\u00e6likvar\u00f0ar n\u00e1 alla lei\u00f0 ni\u00f0ur
+  \u00e1 einstaklingana og \u00fe\u00e1 \u00feannig a\u00f0 sta\u00f0an s\u00e9 r\u00fdnd
+  reglulega af starfsmanni og n\u00e6sta yfirmanni \u00ed frammist\u00f6\u00f0usamtali.
+  \u00dev\u00ed spur\u00f0um vi\u00f0: \u201eFer fram reglulegt og formlegt frammist\u00f6\u00f0umat
+  og endurgj\u00f6f me\u00f0al starfsmanna/stj\u00f3rnenda \u00ed \u00fe\u00ednu fyrirt\u00e6ki?\u201c\\nInnan
+  vi\u00f0 helmingur fyrirt\u00e6kja \u00ed k\u00f6nnuninni kanna\u00f0ist vi\u00f0
+  a\u00f0 skipuleggja samt\u00f6l sem hafa \u00e1herslu \u00e1 frammist\u00f6\u00f0u
+  einstaklings \u00ed starfi. \u00deetta er d\u00f6pur ni\u00f0ursta\u00f0a. \u00d6ll
+  fyrirt\u00e6ki me\u00f0 metna\u00f0 \u00e6ttu a\u00f0 skipuleggja sl\u00edk samt\u00f6l.
+  Ekki a\u00f0eins eru \u00feau mikilv\u00e6g til a\u00f0 hafa \u00e1hrif \u00e1 heg\u00f0un
+  me\u00f0 \u00fev\u00ed a\u00f0 benda \u00e1 hva\u00f0 starfsma\u00f0ur hefur b\u00e6tt
+  \u00ed frammist\u00f6\u00f0u sinni heldur er \u00fearna einstakt t\u00e6kif\u00e6ri
+  til a\u00f0 tengja starf starfsmannsins vi\u00f0 mikilv\u00e6ga \u00e1rangursm\u00e6likvar\u00f0a.
+  Sl\u00edk samt\u00f6l eru auk \u00feess upphafspunktur \u00e1 \u00fdmiskonar lei\u00f0r\u00e9ttandi
+  endurgj\u00f6f sem getur hvatt starfsmann til \u00farb\u00f3tavinnu e\u00f0a til
+  a\u00f0 s\u00e6kja vi\u00f0b\u00f3tar\u00feekkingu. Stj\u00f3rnendur \u00ed dag
+  finna fyrir \u00fev\u00ed a\u00f0 or\u00f0i\u00f0 hefur breyting \u00e1 kr\u00f6fum
+  starfsf\u00f3lks til endurgjafar.\\nUngt f\u00f3lk er ekki a\u00f0 r\u00e1\u00f0a
+  sig til \u00e6vilangrar vistar hj\u00e1 fyrirt\u00e6kjum heldur l\u00edtur \u00e1
+  hvert starf sem vegfer\u00f0 \u00fear sem saman fara t\u00e6kif\u00e6ri til a\u00f0
+  \u00feroska og efla einstaklinginn og n\u00e1 \u00e1rangri \u00ed skapandi umhverfi.
+  \u00de\u00f3 vi\u00f0 m\u00e6lum ekki me\u00f0 a\u00f0 frammist\u00f6\u00f0usamt\u00f6l
+  ein og s\u00e9r s\u00e9u notu\u00f0 til \u00e1kvar\u00f0ana um \u00e1rangurstengingu
+  launa \u00fe\u00e1 m\u00e6lir almenn skynsemi og langt\u00edmahagsmunir hluthafa
+  me\u00f0 \u00fev\u00ed a\u00f0 starfsmenn s\u00e9u \u00e1rangurstengdir var\u00f0andi
+  \u00fe\u00e1 \u00fe\u00e6tti sem \u00feeir hafa \u00e1hrif \u00e1 og lei\u00f0a
+  \u00e1 endanum til fj\u00e1rhagslegs \u00e1vinnings fyrirt\u00e6kisins. Vi\u00f0
+  spur\u00f0um \u00fev\u00ed me\u00f0 hva\u00f0a h\u00e6tti laun v\u00e6ru \u00e1kv\u00f6r\u00f0u\u00f0
+  \u00ed fyrirt\u00e6kjunum og komu ni\u00f0urst\u00f6\u00f0urnar ekki \u00e1 \u00f3vart
+  en \u00ed yfir 80% tilfella eru flestir starfmenn \u00e1 f\u00f6stum launum. \u00cd
+  um 10% fyrirt\u00e6kja er \u00fe\u00f3 sta\u00f0an \u00feannig a\u00f0 flestir starfsmenn
+  eru \u00e1 \u00e1rangurstengdum launum samhli\u00f0a grunnlaunum.\\nVi\u00f0 spur\u00f0um
+  \u00fe\u00e1 sem nota \u00e1rangurstengingar \u00e1 laun \u00e1 hverju \u00fe\u00e6r
+  v\u00e6ru bygg\u00f0ar. Sv\u00f6rin voru f\u00e1 og \u00fev\u00ed varasamt a\u00f0
+  draga afgerandi ni\u00f0urst\u00f6\u00f0ur en \u00ed lj\u00f3s kom a\u00f0 b\u00e6\u00f0i
+  fj\u00e1rhagslegir m\u00e6likvar\u00f0ar og lykil\u00e1rangursm\u00e6likvar\u00f0ar
+  eru lag\u00f0ir til grundvallar. Einnig er teki\u00f0 tillit til mats yfirmanns
+  og s\u00e9 \u00fea\u00f0 gert formlega eins og \u00ed gegnum sta\u00f0la\u00f0 frammist\u00f6\u00f0usamtal
+  m\u00e1 telja \u00fea\u00f0 sanngjarnan m\u00e6likvar\u00f0a til hli\u00f0sj\u00f3nar
+  vi\u00f0 sl\u00edka \u00e1rangurstengingu.\\n\u00cd \u00feessum m\u00e1laflokki
+  eiga \u00edslensk fyrirt\u00e6ki langa lei\u00f0 \u00ed land a\u00f0 nota r\u00e9tta
+  \u00e1rangursm\u00e6likvar\u00f0a og tengja saman umbun og frammist\u00f6\u00f0u.\\nA\u00f0
+  s\u00ed\u00f0ustu var spurt hvort markvisst v\u00e6ri teki\u00f0 \u00e1 \u00fev\u00ed
+  \u00feegar frammista\u00f0a starfsmanna v\u00e6ri undir v\u00e6ntingum/vi\u00f0mi\u00f0um?
+  Um 60% t\u00f6ldu a\u00f0 markvisst s\u00e9 brug\u00f0ist vi\u00f0 og af \u00feeim
+  voru 42% sem ekki k\u00f6nnu\u00f0ust vi\u00f0 a\u00f0 hafa neina formlega endurgj\u00f6f
+  e\u00f0a \u00e1rlegt frammist\u00f6\u00f0usamtal. Ef frammista\u00f0a er ekki r\u00e6dd
+  me\u00f0 formlegum h\u00e6tti en teki\u00f0 markvisst \u00e1 slakri frammist\u00f6\u00f0u
+  m\u00e1 lei\u00f0a getum a\u00f0 \u00fev\u00ed a\u00f0 \u00fea\u00f0 sem \u00feessi
+  fyrirt\u00e6ki telji vera markvisst s\u00e9 einfaldlega a\u00f0 segja vi\u00f0komandi
+  upp st\u00f6rfum.\\nA\u00f0 lokum;\\nLj\u00f3st er a\u00f0 innlei\u00f0ing stefnu,
+  og \u00fea\u00f0 sem til \u00fearf vi\u00f0 \u00fea\u00f0 verkefni, er ekki \u00ed
+  n\u00f3gu skipul\u00f6g\u00f0um farvegi hj\u00e1 st\u00f3rum h\u00f3pi \u00edslenskra
+  fyrirt\u00e6kja. \u00dea\u00f0 er grundvallaratri\u00f0i a\u00f0 n\u00fdta \u00fe\u00e1
+  vinnu sem \u00f6flug stefnum\u00f3tun felur \u00ed s\u00e9r og innlei\u00f0a hugmyndafr\u00e6\u00f0i,
+  s\u00fdn og \u00e1herslur \u00e1 skipulag\u00f0an h\u00e1tt me\u00f0 \u00fe\u00e1ttt\u00f6ku
+  allra starfsmanna. Lykilforsendan er a\u00f0 fyrirt\u00e6ki\u00f0 hafi sk\u00fdra
+  og skynsamlega stefnu sem fyrst og s\u00ed\u00f0ast tilgreinir \u00fe\u00e1 s\u00e9rst\u00f6\u00f0u
+  sem fyrirt\u00e6ki\u00f0 vill skapa \u00e1 marka\u00f0i og \u00fear me\u00f0 \u00feann
+  samkeppnisstyrk sem fyrirt\u00e6ki\u00f0 \u00e6tlar s\u00e9r a\u00f0 byggja s\u00edna
+  st\u00f6\u00f0u \u00e1. Ef stefnan sj\u00e1lf er fro\u00f0a er hins vegar tilgangsl\u00edti\u00f0
+  a\u00f0 mi\u00f0la henni til starfsmanna; \u00fea\u00f0 b\u00e6tir ekki innihaldi\u00f0
+  \u00fe\u00f3tt \u00fev\u00ed s\u00e9 pakka\u00f0 inn \u00ed glansandi umb\u00fa\u00f0ir.
+  \u00dea\u00f0 sem \u00e1 eftir kemur sn\u00fdst um a\u00f0ger\u00f0ir og starfsmannam\u00e1l.
+  A\u00f0ger\u00f0ir sem skapa hreyfingu \u00e1 st\u00f6\u00f0u fyrirt\u00e6kis \u00ed
+  samhlj\u00f3mi vi\u00f0 stefnuna \u00fear sem byggt er \u00e1 markmi\u00f0um og
+  m\u00e6lingu \u00e1rangurs \u00e1 lykilsvi\u00f0um starfseminnar sem um lei\u00f0
+  eru tengdir frammist\u00f6\u00f0u starfsmanna. Frammist\u00f6\u00f0u sem byggir
+  \u00e1 gildum fyrirt\u00e6kis, metna\u00f0i, helgun og vilja til a\u00f0 n\u00e1
+  \u00e1rangri me\u00f0 hagsmuni allra \u00ed huga. Ranns\u00f3kn Capacent s\u00fdndi
+  svo ekki ver\u00f0ur um villst a\u00f0 \u00edslensk fyrirt\u00e6ki gl\u00edma vi\u00f0
+  veika st\u00f6\u00f0u \u00ed fj\u00f6lm\u00f6rgum \u00fe\u00e1ttum sem sn\u00faa
+  a\u00f0 stefnum\u00f3tun og innlei\u00f0ingu. \u00c1 \u00feetta ber a\u00f0 l\u00edta
+  sem raki\u00f0 s\u00f3knarf\u00e6ri fyrir \u00edslenska stj\u00f3rnendur. \u00deeir
+  sem sj\u00e1 \u00feessi t\u00e6kif\u00e6ri og n\u00fdta s\u00e9r \u00feau skapa
+  me\u00f0 \u00fev\u00ed \u00e1kve\u00f0na yfirbur\u00f0i gagnvart keppinautum \u00e1
+  marka\u00f0i sem ekki er au\u00f0velt a\u00f0 herma eftir.\\n\u00de\u00f3r\u00f0ur
+  Sverrisson er r\u00e1\u00f0gjafi hj\u00e1 Capacent.\\nGreinin birtist \u00ed Straumum,
+  t\u00edmariti Capacent, \u00ed n\u00f3vember 2012\\n\u00a9 Capacent/\u00de\u00f3r\u00f0ur
+  Sverrisson\"", "\"Eins og \u00edtreka\u00f0 hefur komi\u00f0 fram \u00e1 \u00feessum
+  vettvangi tilheyri \u00e9g ekki hraustasta hluta \u00fej\u00f3\u00f0arinnar. \u00deessi
+  sta\u00f0reynd veldur \u00fev\u00ed a\u00f0 \u00e9g ver\u00f0 a\u00f0 gera \u00fdmislegt
+  sem \u00e9g vildi kannski sleppa, svo sem taka inn eitru\u00f0 lyf, halda mig til
+  hl\u00e9s svona almennt og passa matar\u00e6\u00f0i\u00f0. Undanfari\u00f0 hef \u00e9g
+  ekki sta\u00f0i\u00f0 mig \u00ed \u00feessu s\u00ed\u00f0astnefnda. \u00c9g hef
+  takmarka\u00f0 saltnotkunina t\u00f6luvert, en um j\u00f3lin datt \u00e9g hressilega
+  \u00ed \u00fea\u00f0. Ekki \u00ed \u00e1fengi\u00f0 \u2013 heldur sykurinn. Sykursukki\u00f0
+  h\u00e9lt svo \u00e1fram alveg \u00feanga\u00f0 til \u00ed g\u00e6r. En n\u00fa
+  er \u00e9g h\u00e6tt. Algerlega, alveg. H\u00c6TT. \u00c9g skal geta \u00feetta.
+  SKAL.\\n- Sunnudagur\\n- Dugleg\"", "\"\u00dea\u00f0 vir\u00f0ist sem lei\u00f0
+  okkar til a\u00f0 da\u00f0ra er or\u00f0in miklu br\u00e1\u00f0fyndnari, og fleira
+  ef vi\u00f0 viljum gera \u00fea\u00f0 \u00e1 s\u00fdndarlegan h\u00e1tt. N\u00fana
+  tekur hann a\u00f0 da\u00f0ra vi\u00f0 stelpu \u00ed gegnum f\u00e9lagsleg net,
+  \u00fear sem \u00fea\u00f0 vir\u00f0ist miklu au\u00f0veldara og \u00f6ruggara a\u00f0
+  gera \u00fea\u00f0 \u00ed eigin pers\u00f3nu. En langt fr\u00e1 raunveruleikanum
+  er besti kosturinn, \u00fear sem konum l\u00edkar \u00fea\u00f0 ekki. \u00deeir
+  t\u00e1kna hj\u00e1 str\u00e1kum l\u00edtill \u00e1hugi \u00e1 skilabo\u00f0um og
+  \u00feeir b\u00e6ta engum f\u00ednum sm\u00e1atri\u00f0um vi\u00f0 samtali\u00f0
+  \u00feitt.\\nEf lei\u00f0 \u00fe\u00edn er a\u00f0 gera \u00fea\u00f0 augliti til
+  auglitis, vi\u00f0 tr\u00faum \u00fev\u00ed er besti kosturinn. \u00de\u00fa ver\u00f0ur
+  a\u00f0 v\u00edkka sj\u00f3ndeildarhringinn og vita hvar \u00fe\u00fa getur leita\u00f0
+  a\u00f0 fallegu st\u00falkunni og kannski vertu opin fyrir \u00fev\u00ed a\u00f0
+  vilja hitta \u00feig. Bestu sta\u00f0irnir eru opinberir sta\u00f0ir, \u00ed vinnunni,
+  \u00e1 g\u00f6tunni e\u00f0a \u00e1 m\u00f6tuneyti, n\u00e6turkl\u00fabbum, b\u00f6rum
+  ... \u00fear sem f\u00f3lk sem fer \u00fat um \u00feessa sta\u00f0i \u00fearf \u00feegar
+  a\u00f0 hitta n\u00fdtt andlit og sj\u00e1 annars konar umhverfi.\\nIndex\\n\u00c1\u00f0ur
+  en \u00fe\u00fa da\u00f0rar skaltu reyna a\u00f0 skilja hvernig st\u00falkunni l\u00ed\u00f0ur\\n\u00dea\u00f0
+  getur veri\u00f0 erfitt verkefni fyrir suma karla a\u00f0 reyna a\u00f0 taka upp
+  e\u00f0a t\u00e6la konu. Mun minna fr\u00e1 raunveruleikanum \u00fea\u00f0 getur
+  veri\u00f0 miklu au\u00f0veldara en vi\u00f0 h\u00f6ldum, \u00fe\u00fa ver\u00f0ur
+  bara a\u00f0 b\u00faa til \u00fea\u00f0 hugrekki og vita hvernig \u00feessi stelpa
+  sem \u00fe\u00fa \u00feekkir ekki mun haga s\u00e9r.\\nKonum l\u00edkar ekki vi\u00f0
+  karla sem vilja hafa barn \u00e1 brj\u00f3sti e\u00f0a reyna a\u00f0 b\u00faa til
+  hrokafullt samtal. \u00deeim l\u00edkar heldur ekki vi\u00f0 gamaldags hr\u00f3s
+  sem eing\u00f6ngu leita afs\u00f6kunar \u00e1 \u00fev\u00ed a\u00f0 stytta veginn.
+  \u00deessi lei\u00f0 \u00ed dag virkar alls ekki.\\n\u00dea\u00f0 sem \u00feeim
+  l\u00edkar er a\u00f0 \u00feeir s\u00e9u t\u00e6ldir \u00e1 hlutlausan h\u00e1tt,
+  ekki s\u00fdna \u00feeim \u00fea\u00f0 \u00feeir vilja alvarlegt og varanlegt sambandEn
+  \u00feeir vilja heldur ekki a\u00f0 karlmenn sem eru bara a\u00f0 leita a\u00f0
+  \u00fev\u00ed a\u00f0 stunda kynl\u00edf um kv\u00f6ldi\u00f0. \u00dea\u00f0 ver\u00f0ur
+  t\u00e1kna\u00f0 a\u00f0 \u00e6tlun \u00fe\u00edn \u00fea\u00f0 er eitthva\u00f0
+  afslappa\u00f0, En ef \u00fe\u00fa vilt a\u00f0 h\u00fan gangi miklu lengra, \u00fe\u00e1
+  ver\u00f0ur \u00fe\u00fa a\u00f0 b\u00faa til samtal sem gr\u00edpur til, finnur
+  fyrir \u00fev\u00ed a\u00f0 \u00fe\u00fa ert vi\u00f0kv\u00e6m og a\u00f0 henni
+  finnst h\u00fan vera heyr\u00f0. Tilfinningahlutinn veldur miklum \u00feunga \u00ed
+  fyrstu snertingu.\\nEinf\u00f6ld skref um hvernig \u00e1 a\u00f0 da\u00f0ra vi\u00f0
+  stelpu\\n\u00de\u00fa ver\u00f0ur a\u00f0 finna r\u00e9tta t\u00edmann til a\u00f0
+  geta kynnt \u00fe\u00e9r st\u00falkuna. Komdu n\u00e6r og s\u00fdndu kurteisi \u00fe\u00edna,
+  \u00e1n sl\u00e6mrar framkomu og \u00e1n \u00feess a\u00f0 segja sl\u00e6m or\u00f0.
+  Reyndu umfram allt a\u00f0 tryggja a\u00f0 samtali\u00f0 s\u00e9 virt, ekki reyna
+  a\u00f0 segja d\u00f3naleg or\u00f0 e\u00f0a d\u00e6ma neitt um l\u00edkama hennar,
+  sama hversu fallegt \u00fea\u00f0 er.\\nFyrst af \u00f6llu leita\u00f0u a\u00f0
+  eigin styrk og trausti, me\u00f0 \u00feessum h\u00e6tti ver\u00f0ur miklu au\u00f0veldara
+  fyrir \u00feig a\u00f0 eiga samtal \u00e1n \u00feess a\u00f0 \u00f3ttast neitt.
+  Ef \u00fe\u00fa s\u00fdnir allan \u00feennan \u00f6ryggiskraft ver\u00f0ur mun au\u00f0veldara
+  fyrir \u00fea\u00f0 a\u00f0 gerast traust\u00e1hrif.\\n- \u00dea\u00f0 mikilv\u00e6ga
+  er a\u00f0 halda l\u00ednunni \u00feinni vertu \u00fe\u00fa sj\u00e1lfur og ekki
+  \u00fatg\u00e1fa pers\u00f3nuleika \u00feinn. Konur eru mj\u00f6g inns\u00e6i og
+  taka strax eftir \u00fev\u00ed \u00feegar \u00fe\u00fa ert a\u00f0 leika anna\u00f0
+  hlutverk e\u00f0a \u00feykjast. Ef \u00fe\u00fa heldur a\u00f0 stefnum\u00f3t s\u00e9
+  ekki hlutur \u00feinn en \u00fe\u00fa ert a\u00f0 reyna, ekki gefast upp. Stelpum
+  l\u00edkar hugrekki og \u00fear ertu a\u00f0 s\u00fdna \u00feann hluta sem innbyr\u00f0ir
+  \u00feig.\\n- Halda r\u00e9ttri l\u00edkamsst\u00f6\u00f0u. Handleggirnir ver\u00f0a
+  a\u00f0 vera slakir og axlirnar aftur, \u00e1n \u00feess a\u00f0 reyna a\u00f0 fara
+  yfir handleggi og f\u00f3tleggjum. \u00deannig tileinkar\u00f0u \u00fe\u00e9r m\u00f3tt\u00e6kilega
+  l\u00edkamsst\u00f6\u00f0u.\\n- Reyndu alltaf a\u00f0 halda bros \u00e1 v\u00f6r
+  og ekki reyna a\u00f0 reyna st\u00f6\u00f0ugt a\u00f0 horfa \u00e1 l\u00edkama \u00feeirra
+  \u00fear sem \u00fea\u00f0 getur reynst \u00f3hei\u00f0arlegt. Konum finnst gaman
+  a\u00f0 s\u00fdna fram \u00e1 l\u00edkama sinn, en \u00fea\u00f0 sem \u00feeim finnst
+  skemmtilegast er a\u00f0 \u00fe\u00e6r reyna \u00feekki innr\u00e9ttingu \u00feess.\\n-
+  Ef \u00fe\u00fa ert a\u00f0 spjalla halla l\u00edkamanum a\u00f0 henniVirkja\u00f0u
+  skilningarvitin \u00fe\u00edn fimm til a\u00f0 \u00e1tta \u00feig \u00e1 \u00f6llu
+  sem hann segir. \u00de\u00fa ver\u00f0ur a\u00f0 halda l\u00edkamsst\u00f6\u00f0u
+  og \u00e1huga, en ekki l\u00edta t\u00f6frandi \u00fat, ekki vita hva\u00f0 \u00e9g
+  \u00e1 a\u00f0 gera. \u00deessi hluti er a\u00f0eins erfi\u00f0ari, \u00fear sem
+  ef \u00fe\u00fa ert mj\u00f6g kv\u00ed\u00f0in ver\u00f0ur erfitt a\u00f0 halda
+  afslappa\u00f0 samtali, en ekki reyna a\u00f0 stama e\u00f0a stama.\\n- Sj\u00e1
+  \u00f6ll merki a\u00f0 h\u00fan s\u00e9 a\u00f0 s\u00fdna \u00fe\u00e9r. Ef h\u00fan
+  brosir til \u00fe\u00edn og heldur augnsambandi, \u00fe\u00e1 er \u00fea\u00f0 vegna
+  \u00feess hefur \u00e1huga \u00e1 a\u00f0 hitta \u00feig. Ef \u00fe\u00fa ert a\u00f0
+  spjalla og h\u00fan er mj\u00f6g gaum er \u00fea\u00f0 gott merki. Aftur \u00e1
+  m\u00f3ti, ef \u00fe\u00fa s\u00e9r\u00f0 hana annars hugar e\u00f0a horfir undan
+  \u00fea\u00f0 er vegna \u00feess a\u00f0 \u00fea\u00f0 s\u00fdnir enga hrifningu.\\n\u00c1
+  \u00feeim t\u00edmapunkti sem \u00fe\u00fa ver\u00f0ur a\u00f0 lj\u00faka samtalinu
+  getur\u00f0u \u00fea\u00f0 kve\u00f0ja kurteislega og \u00e1 j\u00e1kv\u00e6\u00f0an
+  h\u00e1tt getur\u00f0u be\u00f0i\u00f0 um s\u00edman\u00fameri\u00f0 hans e\u00f0a
+  pr\u00f3f\u00edlinn hans f\u00e9lagslegur net. \u00de\u00fa getur sagt bless a\u00f0
+  segja a\u00f0 \u00fea\u00f0 hafi veri\u00f0 \u00e1n\u00e6gjulegt og a\u00f0 \u00fe\u00fa
+  hafir \u00fea\u00f0 mj\u00f6g gott, en \u00fe\u00fa ver\u00f0ur a\u00f0 gera a\u00f0rar
+  \u00e1\u00e6tlanir. Ef \u00fe\u00fa getur ekki fengi\u00f0 s\u00edman\u00fameri\u00f0
+  \u00feeirra skaltu bi\u00f0ja bless og segja \u201ehaf\u00f0u \u00fea\u00f0 gott\u201c.
+  \u00devert \u00e1 m\u00f3ti, ef \u00fe\u00fa gerir \u00fea\u00f0 skaltu b\u00ed\u00f0a
+  \u00ed nokkra daga eftir a\u00f0 hafa samband.\\nVertu fyrstur til a\u00f0 tj\u00e1\"",
+  "\"\u00d3lafur \u00de\u00f3r Gunnarsson, fulltr\u00fai VG \u00ed b\u00e6jarr\u00e1\u00f0i
+  K\u00f3pavogs, hefur lagt fram till\u00f6gu \u00feess efnis a\u00f0 b\u00e6jarr\u00e1\u00f0
+  komi \u00e1 laggirnar s\u00e9rstakri ranns\u00f3knarnefnd um efnahagshruni\u00f0
+  eins og \u00fea\u00f0 sn\u00fdr a\u00f0 b\u00e6num.\\nTillagan var l\u00f6g\u00f0
+  fram \u00e1 fundi \u00ed dag en henni var fresta\u00f0 til n\u00e6sta fundar. Tillaga
+  \u00d3lafs er svohlj\u00f3\u00f0andi:\\n- B\u00e6jarr\u00e1\u00f0 sam\u00feykkir
+  a\u00f0 kj\u00f3sa fimm manna nefnd \u00f3h\u00e1\u00f0ra s\u00e9rfr\u00e6\u00f0inga
+  er hafi \u00fea\u00f0 verkefni a\u00f0 rannsaka, a\u00f0draganda, orsakir og aflei\u00f0ingar
+  efnahagshrunsins \u00e1 b\u00e6jarf\u00e9lagi\u00f0 og fj\u00e1rhag \u00feess A\u00f0alverkefni
+  nefndarinnar ver\u00f0i:\\n- A\u00f0 kanna stj\u00f3rns\u00fdslu b\u00e6jarins og
+  a\u00f0komu stj\u00f3rnm\u00e1lamanna a\u00f0 fj\u00e1rhagslegum \u00e1kv\u00f6r\u00f0unum
+  \u00e1 undanf\u00f6rnum \u00e1rum.\\n- A\u00f0 kanna hvort einstakir a\u00f0ilar
+  eins og verktakar, bankar og fyrirt\u00e6kjasamsteypur hafi nokkurn t\u00edmann
+  fengi\u00f0 \u00f3e\u00f0lilega fyrirgrei\u00f0slu.\\n- A\u00f0 kanna hvort fj\u00e1rsterkir
+  a\u00f0ilar hafa beint e\u00f0a \u00f3beint haft \u00e1hrif \u00e1 p\u00f3lit\u00edskar
+  og stj\u00f3rns\u00fdslulegar \u00e1kvar\u00f0anir.\\n- A\u00f0 kanna hvort fj\u00e1rsterkir
+  a\u00f0ilar hafi hagnast \u00e1 tengslum vi\u00f0 b\u00e6inn og einstaka emb\u00e6ttismenn
+  e\u00f0a b\u00e6jarfulltr\u00faa.\\n- A\u00f0 kanna hvort einstakir emb\u00e6ttismenn,
+  b\u00e6jarfulltr\u00faar e\u00f0a frambj\u00f3\u00f0endur til b\u00e6jarstj\u00f3rnar
+  hafi hagn\u00fdtt s\u00e9r pers\u00f3nulega e\u00f0a \u00ed \u00fe\u00e1gu s\u00edns
+  flokks tengsl vi\u00f0 fj\u00e1rsterka a\u00f0ila sem hafa \u00e1tt \u00ed vi\u00f0skiptum
+  vi\u00f0 b\u00e6inn.\\n- \\\"A\u00f0 koma me\u00f0 \u00e1bendingar og till\u00f6gur
+  a\u00f0 breytingum \u00e1 l\u00f6gum, reglum, vinnubr\u00f6g\u00f0um og skipulagi
+  stj\u00f3rns\u00fdslu b\u00e6jarins\\\"\\nGreinarger\u00f0: Um lei\u00f0 og b\u00e6jarr\u00e1\u00f0
+  sam\u00feykkir ofangreinda till\u00f6gu sam\u00feykkir r\u00e1\u00f0i\u00f0 a\u00f0
+  mi\u00f0a vi\u00f0 a\u00f0 nefndin ver\u00f0i skipu\u00f0 \u00feannig a\u00f0 fullt
+  samkomulag ver\u00f0i um skipan hennar. Nefndin skal skila fyrir 15. ma\u00ed till\u00f6gum
+  um \u00fea\u00f0 hvernig a\u00f0 verkinu ver\u00f0i unni\u00f0 en heildarverkinu
+  skal skila\u00f0 eigi s\u00ed\u00f0ar en 31. \u00e1g\u00fast n\u00e6stkomandi.\"",
+  "\"Till\u00f6gurnar b\u00e1rust v\u00ed\u00f0s vegar a\u00f0 \u00e1 Nor\u00f0url\u00f6ndum
+  og veita spennandi inns\u00fdn \u00ed \u00feau \u00f3tr\u00falega fj\u00f6lbreytilegu
+  verkefni sem er a\u00f0 finna \u00e1 svi\u00f0i n\u00e1tt\u00farumi\u00f0a\u00f0ra
+  lausna \u00e1 Nor\u00f0url\u00f6ndum. Hvert og eitt \u00feeirra vill me\u00f0 s\u00ednum
+  h\u00e6tti leggja l\u00f3\u00f0 s\u00edn \u00e1 vogarsk\u00e1larnar til a\u00f0
+  leysa \u00feann loftslags- og umhverfisvanda sem a\u00f0 okkur ste\u00f0jar.\\n\u201e\u00d6llum
+  er frj\u00e1lst a\u00f0 stinga upp \u00e1 tilnefningum til ver\u00f0launanna og
+  \u00fev\u00ed f\u00e1um vi\u00f0 einstaka og brei\u00f0a mynd af verkefnum fr\u00e1
+  Nor\u00f0url\u00f6ndum \u00f6llum. \u00dea\u00f0 er alltaf \u00e1hugavert a\u00f0
+  fara yfir listann og \u00e9g m\u00e6li eindregi\u00f0 me\u00f0 \u00fev\u00ed a\u00f0
+  f\u00f3lk geri \u00fea\u00f0,\u201c segir Sauli Rouhinen, forma\u00f0ur d\u00f3mnefndar
+  umhverfisver\u00f0launa Nor\u00f0urlandar\u00e1\u00f0s.\\nFj\u00f6ldi fr\u00e6\u00f0imanna,
+  n\u00fdr landb\u00fana\u00f0arsk\u00f3li, gr\u00e6n byggingarstarfsemi og fyrirt\u00e6ki
+  sem kaupir upp elstu sk\u00f3ga \u00ed Sv\u00ed\u00fej\u00f3\u00f0. Alls b\u00e1rust
+  till\u00f6gur um 68 verkefni \u00fear sem unni\u00f0 er me\u00f0 n\u00e1tt\u00farumi\u00f0a\u00f0ar
+  lausnir.\\nHva\u00f0 eru n\u00e1tt\u00farumi\u00f0a\u00f0ar lausnir?\\nN\u00e1tt\u00farumi\u00f0a\u00f0ar
+  lausnir eru alltaf h\u00e1\u00f0ar e\u00f0a innbl\u00e1snar af n\u00e1tt\u00farunni.
+  D\u00e6mi um \u00fea\u00f0 er \u201erewilding\u201c sem felst \u00ed a\u00f0 endurvekja
+  gr\u00f3\u00f0ur- og d\u00fdral\u00edf sem ekki er lengur til sta\u00f0ar me\u00f0
+  n\u00e1tt\u00farulegum h\u00e6tti \u00e1 tilteknu sv\u00e6\u00f0i. Anna\u00f0 d\u00e6mi
+  er a\u00f0 l\u00e1ta n\u00e1tt\u00faruna sj\u00e1 um sig sj\u00e1lfa svo n\u00e1tt\u00faruleg
+  ferli m\u00f3ti l\u00f6nd og h\u00f6f, gr\u00e6\u00f0i l\u00f6sku\u00f0 vistkerfi
+  og endurheimti ofn\u00fdtt land. \u00cd b\u00e6jum og borgum geta n\u00e1tt\u00farumi\u00f0a\u00f0ar
+  lausnir n\u00fdst vi\u00f0 a\u00f0 jafna hita, draga \u00far h\u00e1va\u00f0a og
+  hreinsa fr\u00e1rennslisvatn, taka upp rigningarvatn og verja \u00edb\u00faabygg\u00f0
+  fyrir fl\u00f3\u00f0um af v\u00f6ldum rigninga.\\n\u201eHnignun l\u00edffr\u00e6\u00f0ilegrar
+  fj\u00f6lbreytni og ska\u00f0leg \u00e1hrif hennar \u00e1 heilsu og velfer\u00f0
+  f\u00f3lks kemur \u00e6 betur \u00ed lj\u00f3s. \u00dea\u00f0 fer ekki \u00e1 milli
+  m\u00e1la a\u00f0 vaxandi \u00fe\u00f6rf er \u00e1 lausnum \u00fear sem n\u00e1tt\u00faran
+  er \u00ed brennidepli,\u201c sag\u00f0i Saulu Rouhinen, forma\u00f0ur d\u00f3mnefndar
+  umhverfisver\u00f0launa Nor\u00f0urlandar\u00e1\u00f0s fyrr \u00ed \u00e1r \u00feegar
+  tilkynnt var um \u00feema\u00f0.\\nN\u00e1tt\u00faran er grundvallarforsenda allra
+  mannlegra athafna. \u00deannig tengjast sk\u00f3gar okkar, bersv\u00e6\u00f0i, almenningsgar\u00f0ar,
+  h\u00fasagar\u00f0ar og \u00f6nnur vistkerfi hl\u00fdnun jar\u00f0ar, orku\u00f6flun,
+  vatns\u00f6flun, matv\u00e6laframlei\u00f0slu, skipulagi bygg\u00f0ar og heilbrig\u00f0i.\\nOft
+  er liti\u00f0 svo \u00e1 \u00ed umr\u00e6\u00f0u um umhverfism\u00e1l a\u00f0 vi\u00f0
+  verndun, var\u00f0veislu og eflingu n\u00e1tt\u00farunnar halli \u00e1 hina f\u00e9lagslegu
+  e\u00f0a efnahagslegu hli\u00f0 en \u00feannig \u00fearf \u00fea\u00f0 alls ekki
+  a\u00f0 vera. K\u00f3r\u00f3nuveirufaraldurinn sem h\u00f3fst \u00e1ri\u00f0 2020
+  hefur til d\u00e6mis auki\u00f0 vitund okkar um mikilv\u00e6gi a\u00f0gengis a\u00f0
+  n\u00e1tt\u00farunni og l\u00edffr\u00e6\u00f0ilegrar fj\u00f6lbreytni fyrir velfer\u00f0
+  okkar og afkomu.\\n\u00deema umhverfisver\u00f0launa Nor\u00f0urlandar\u00e1\u00f0s
+  2022 er n\u00e1tt\u00farumi\u00f0a\u00f0ar lausnir. Me\u00f0 \u00feessu \u00feema
+  viljum vi\u00f0 vekja athygli \u00e1 \u00fev\u00ed a\u00f0 n\u00e1tt\u00faran og
+  n\u00e1tt\u00farustj\u00f3rnun getur lagt l\u00f3\u00f0 s\u00edn \u00e1 vogarsk\u00e1larnar
+  me\u00f0 alhli\u00f0a lausnum vi\u00f0 loftslagsvandanum og hnignun l\u00edffr\u00e6\u00f0ilegrar
+  fj\u00f6lbreytni \u00e1samt \u00fev\u00ed a\u00f0 tryggja \u00e1rangursr\u00edka
+  loftslagsa\u00f0l\u00f6gun \u00ed borgarumhverfi og um lei\u00f0 b\u00e6ta heilbrig\u00f0i
+  og velfer\u00f0 f\u00f3lks.\\nMarkmi\u00f0i\u00f0 me\u00f0 n\u00e1tt\u00farumi\u00f0u\u00f0um
+  lausnum er vitaskuld misjafnt \u00e1 milli landa, sv\u00e6\u00f0a og verkefna en
+  a\u00f0 inntaki eru \u00fe\u00e6r alltaf h\u00e1\u00f0ar e\u00f0a innbl\u00e1snar
+  af n\u00e1tt\u00farunni. D\u00e6mi um \u00fea\u00f0 er a\u00f0ger\u00f0 sem l\u00edkir
+  eftir n\u00e1tt\u00farunni me\u00f0 tilliti til forms, uppbyggingar e\u00f0a ferlis
+  vi\u00f0 framlei\u00f0slu loftslagsv\u00e6nna og endurn\u00fdtanlegra efna. Anna\u00f0
+  d\u00e6mi er \u201erewilding\u201c sem felst \u00ed a\u00f0 endurvekja gr\u00f3\u00f0ur-
+  og d\u00fdral\u00edf sem ekki er lengur til sta\u00f0ar me\u00f0 n\u00e1tt\u00farulegum
+  h\u00e6tti \u00e1 tilteknu sv\u00e6\u00f0i, \u00e1samt \u00fev\u00ed a\u00f0 l\u00e1ta
+  n\u00e1tt\u00faruna sj\u00e1 um sig sj\u00e1lfa svo n\u00e1tt\u00faruleg ferli m\u00f3ti
+  l\u00f6nd og h\u00f6f, gr\u00e6\u00f0i l\u00f6sku\u00f0 vistkerfi og endurheimti
+  ofn\u00fdtt land. \u00cd b\u00e6jum og borgum geta n\u00e1tt\u00farumi\u00f0a\u00f0ar
+  lausnir n\u00fdst vi\u00f0 a\u00f0 jafna hita, draga \u00far h\u00e1va\u00f0a og
+  hreinsa fr\u00e1rennslisvatn, taka upp rigningarvatn og verja \u00edb\u00faabygg\u00f0
+  fyrir fl\u00f3\u00f0um af v\u00f6ldum rigninga. Jafnframt getur gr\u00e6nt og sj\u00e1lfb\u00e6rt
+  borgarumhverfi b\u00e6tt velfer\u00f0 r\u00e9tt eins og tengsl vi\u00f0 \u00f3l\u00edkar
+  ger\u00f0ir n\u00e1tt\u00faru geta styrkt \u00f3n\u00e6miskerfi l\u00edkamans og
+  vari\u00f0 okkur gegn sj\u00fakd\u00f3mum, l\u00e6kka\u00f0 bl\u00f3\u00f0\u00fer\u00fdsting
+  og b\u00e6tt andlega heilsu.\\nN\u00e1tt\u00farumi\u00f0a\u00f0ar lausnir efla \u00fev\u00ed
+  ekki a\u00f0eins umhverfi\u00f0 og l\u00edffr\u00e6\u00f0ilega fj\u00f6lbreytni
+  heldur m\u00e1 einnig b\u00faa svo um a\u00f0 \u00fe\u00e6r skapi f\u00e9lagslegt,
+  menningarlegt og fj\u00e1rhagslegt vir\u00f0i.\\nN\u00e1tt\u00farumi\u00f0a\u00f0ar
+  lausnir sty\u00f0ja vi\u00f0 heimsmarkmi\u00f0 S\u00de um sj\u00e1lfb\u00e6ra \u00fer\u00f3un
+  nr. 14 og 15 sem sn\u00faa a\u00f0 l\u00edfi \u00ed vatni og l\u00edfi \u00e1 landi.
+  Me\u00f0 n\u00e1tt\u00farumi\u00f0u\u00f0um lausnum er h\u00e6gt a\u00f0 sty\u00f0ja
+  vi\u00f0 \u00feau markmi\u00f0 sem t.a.m. tengjast heilsu og vell\u00ed\u00f0an
+  (3), hreinu vatni og hreinl\u00e6tisa\u00f0st\u00f6\u00f0u (6), n\u00fdsk\u00f6pun
+  og uppbyggingu (9), sj\u00e1lfb\u00e6rum borgum og samf\u00e9l\u00f6gum (11) og
+  a\u00f0ger\u00f0um \u00ed loftslagsm\u00e1lum (13). \u00der\u00f3un n\u00e1tt\u00farumi\u00f0a\u00f0ra
+  lausna er eitt \u00feeirra svi\u00f0a sem Norr\u00e6na r\u00e1\u00f0herranefndin
+  leggur \u00e1herslu \u00e1 \u00ed framt\u00ed\u00f0ars\u00fdn sinni um gr\u00e6n
+  Nor\u00f0url\u00f6nd.\\nFerli\u00f0 framundan\\nTilkynnt ver\u00f0ur um \u00fea\u00f0
+  vi\u00f0 ath\u00f6fn \u00ed Nor\u00f0urlandah\u00fasinu \u00ed F\u00e6reyjum hver
+  \u00feessara 68 verkefna ver\u00f0a tilnefnd til ver\u00f0launanna. Tilkynnt ver\u00f0ur
+  um handhafa umhverfisver\u00f0launa Nor\u00f0urlandar\u00e1\u00f0s 2022 \u00e1 \u00feingi
+  Nor\u00f0urlandar\u00e1\u00f0s \u00ed Helsingfors \u00ed n\u00f3vember. Ver\u00f0launahafinn
+  hl\u00fdtur a\u00f0 launum 300 \u00fe\u00fasund danskar kr\u00f3nur.\\nFyrri ver\u00f0launahafar\\nUmhverfisver\u00f0laun
+  Nor\u00f0urlandar\u00e1\u00f0s voru fyrst veitt \u00e1ri\u00f0 1995 og markmi\u00f0i\u00f0
+  me\u00f0 \u00feeim er a\u00f0 efla vitund um n\u00e1tt\u00faru- og umhverfisvernd
+  \u00e1 Nor\u00f0url\u00f6ndum.\"", "\"Vir\u00f0ulegi forseti. \u00c9g fagna \u00fev\u00ed
+  a\u00f0 vi\u00f0 r\u00e6\u00f0um \u00feessa till\u00f6gu \u00ed dag \u00fev\u00ed
+  a\u00f0 mikilv\u00e6gt er a\u00f0 taka \u00e1 \u00fev\u00ed grafalvarlega m\u00e1li
+  sem h\u00e9r er til umr\u00e6\u00f0u.\\n\u00deetta vandam\u00e1l hefur veri\u00f0
+  \u00feekkt um svol\u00edtinn t\u00edma en aldrei veri\u00f0 teki\u00f0 neitt \u00e1
+  \u00fev\u00ed. \u00deegar sl\u00edkt vandam\u00e1l kom upp fyrir austan voru g\u00f3\u00f0
+  r\u00e1\u00f0 d\u00fdr \u00fev\u00ed a\u00f0 enginn farvegur var til. \u00c1 endanum
+  m\u00e1 \u00feakka fyrir \u00fea\u00f0 a\u00f0 \u00feeir a\u00f0ilar sem komu a\u00f0
+  byggingu \u00feeirra h\u00fasa n\u00e1\u00f0u samkomulagi, \u00f6rugglega t\u00edmam\u00f3tasamkomulagi
+  um hvernig a\u00f0ilar geta sameinast \u00e1n \u00feess a\u00f0 leggja mikil d\u00f3msm\u00e1l
+  og vesen \u00e1 \u00edb\u00faana. \u00dev\u00ed ber a\u00f0 fagna.\\nVan\u00feekking
+  f\u00f3lks \u00e1 \u00feessum m\u00e1lum og hversu l\u00edti\u00f0 \u00feau hafa
+  veri\u00f0 \u00ed umr\u00e6\u00f0unni getur valdi\u00f0 miklu tj\u00f3ni. \u00deess
+  vegna er mj\u00f6g mikilv\u00e6gt a\u00f0 vi\u00f0 hefjum \u00feessa umr\u00e6\u00f0u
+  og reynum a\u00f0 koma henni \u00ed \u00feann farveg a\u00f0 koma \u00feessum m\u00e1lum
+  \u00ed fastar skor\u00f0ur, vegna \u00feess a\u00f0 \u00feetta tj\u00f3n n\u00e6r
+  n\u00e1tt\u00farlega b\u00e6\u00f0i til heilsutj\u00f3ns eins og h\u00e9r hefur
+  veri\u00f0 raki\u00f0, \u00feetta er kl\u00e1rlega heilbrig\u00f0ism\u00e1l, og
+  svo til fj\u00e1rhagslegs tj\u00f3ns. Hi\u00f0 fj\u00e1rhagslega tj\u00f3n getur
+  l\u00edka haft \u00e1hrif \u00e1 heilsu f\u00f3lks, \u00fea\u00f0 setur \u00fea\u00f0
+  algj\u00f6rlega \u00ed uppn\u00e1m. \u00dev\u00ed erum vi\u00f0 a\u00f0 s\u00fdna
+  mikla \u00e1byrg\u00f0 me\u00f0 \u00fev\u00ed a\u00f0 setja \u00feessa vinnu af
+  sta\u00f0 og \u00e9g hlakka miki\u00f0 til a\u00f0 taka \u00fe\u00e1tt \u00ed henni.
+  F\u00f3lk er algj\u00f6rlega berskjalda\u00f0 \u00feegar svona laga\u00f0 kemur
+  upp, \u00e9g tala n\u00fa ekki um \u00fea\u00f0 s\u00e1lr\u00e6na \u00e1stand sem
+  getur skapast \u00feegar heimili ver\u00f0a s\u00fdkt af myglu \u00feannig a\u00f0
+  f\u00f3lk getur ekki b\u00fai\u00f0 \u00fear. \u00dea\u00f0 tekur s\u00e1lr\u00e6nt
+  \u00e1 f\u00f3lk.\\n\u00dea\u00f0 sem vi\u00f0 gerum \u00ed \u00feessu er a\u00f0
+  vi\u00f0 erum a\u00f0 fara af sta\u00f0 me\u00f0 forvarnir. Vi\u00f0 erum a\u00f0
+  \u00fatb\u00faa hvernig vi\u00f0 komum \u00ed veg fyrir a\u00f0 \u00feetta vandam\u00e1l
+  st\u00e6kki, \u00fea\u00f0 er \u00fev\u00ed mi\u00f0ur komi\u00f0 af sta\u00f0,
+  og n\u00fa \u00feurfum vi\u00f0 a\u00f0 leggja \u00e1herslu \u00e1 forvarnir \u00feannig
+  a\u00f0 vi\u00f0 komum \u00ed veg fyrir vandann. Og s\u00ed\u00f0an a\u00f0 til
+  ver\u00f0i eitthvert ferli sem fer af sta\u00f0 \u00feegar sl\u00edkt m\u00e1l kemur
+  upp \u00feannig a\u00f0 f\u00f3lk ver\u00f0i ekki jafn berskjalda\u00f0 og \u00f3\u00f6ruggt
+  og standi ekki frammi fyrir a\u00f0 missa heimili sitt \u00e1n \u00feess a\u00f0
+  f\u00e1 \u00fea\u00f0 nokku\u00f0 b\u00e6tt.\\n\u00c9g hlakka \u00fev\u00ed til
+  a\u00f0 f\u00e1 m\u00e1li\u00f0 \u00ed umhverfis- og samg\u00f6ngunefnd \u00fear
+  sem \u00e9g \u00e1 s\u00e6ti og mun \u00e9g vinna \u00fev\u00ed framgang \u00fear
+  eins og \u00e9g get. N\u00e1kv\u00e6mleg \u00fatf\u00e6rsla mun ver\u00f0a r\u00e6dd
+  \u00fear og munum vi\u00f0 \u00fe\u00e1 hafa samr\u00e6\u00f0ur vi\u00f0 h\u00e6stv.
+  fors\u00e6tisr\u00e1\u00f0herra um hugmyndir hans \u00ed \u00fev\u00ed, eins og
+  hann hefur tala\u00f0 og h\u00e6stv. r\u00edkisstj\u00f3rn. \u00c9g veit ekki hvort
+  \u00d6ssur Skarph\u00e9\u00f0insson vilji ver\u00f0a sj\u00f3\u00f0stj\u00f3ri yfir
+  \u00feeim sj\u00f3\u00f0i.\\n\u00c9g veit a\u00f0 vinna f\u00f3r af sta\u00f0 hj\u00e1
+  fyrrverandi r\u00edkisstj\u00f3rn \u00ed fors\u00e6tisr\u00e1\u00f0uneytinu a\u00f0
+  sko\u00f0a \u00feessi hamfaram\u00e1l og hvernig s\u00e9 best a\u00f0 taka \u00e1
+  \u00feeim. \u00c9g veit ekki til \u00feess a\u00f0 \u00feeirri vinnu s\u00e9 loki\u00f0
+  en mikil vinna hefur fari\u00f0 fram \u00fear me\u00f0 Almannav\u00f6rnum og fleirum
+  og \u00fea\u00f0 er um a\u00f0 gera a\u00f0 b\u00e6ta \u00feessu bara inn \u00ed
+  \u00fe\u00e1 vinnu, \u00fe.e. hvort \u00feetta eigi heima \u00ed \u00fev\u00ed ferli
+  og kannski ekki \u00e1st\u00e6\u00f0a til a\u00f0 b\u00faa til s\u00e9rsj\u00f3\u00f0
+  fyrir \u00feetta endilega. En vi\u00f0 \u00feurfum a\u00f0 taka heildst\u00e6tt
+  \u00e1 m\u00e1lunum, ekki a\u00f0 dreifa \u00feeim v\u00ed\u00f0a. \u00c9g held
+  a\u00f0 \u00feetta s\u00e9 m\u00e1l sem vi\u00f0 getum \u00f6ll sameinast um.\"",
+  "\"-\\n2024-04-12\\n\u00deegar h\u00e1t\u00ed\u00f0irnar eru \u00e1 enda, hefur
+  verksmi\u00f0jan okkar bo\u00f0a\u00f0 anna\u00f0 h\u00e1marksp\u00f6ntunart\u00edmabil.
+  Vi\u00f0skiptavinir fr\u00e1 Su\u00f0ur-K\u00f3reu heims\u00f3ttu verksmi\u00f0juna
+  okkar \u00ed vikunni og sta\u00f0festu mj\u00f6g g\u00e6\u00f0i v\u00f6ru okkar.
+  Vi\u00f0skiptavinurinn heims\u00f3tti einnig n\u00fdlega verkefnas\u00ed\u00f0u
+  okkar og n\u00e1\u00f0i...\\nLestu meira -\\n2024-03-28\\n\u00cd vor langar okkur
+  a\u00f0 kynna \u00fe\u00e9r n\u00fdjar v\u00f6rur okkar. Fj\u00f6lnota klefi, \u00fea\u00f0
+  getur veri\u00f0 s\u00edmaklefi, skrifstofa, samtalsherbergi e\u00f0a rafr\u00e6nt
+  \u00ed\u00fer\u00f3ttaherbergi. \u00ddmsar a\u00f0ger\u00f0ir, vali\u00f0 er \u00feitt!\\nLestu
+  meira -\\n2024-03-21\\nVori\u00f0 er komi\u00f0, fullt af l\u00edfskrafti og allt
+  er endurvaki\u00f0. Framlei\u00f0slul\u00ednan \u00ed verksmi\u00f0junni er full
+  af vinnu og hefur teki\u00f0 \u00e1 m\u00f3ti n\u00fdjum vinum. Vinir fr\u00e1 Sp\u00e1ni
+  og R\u00fasslandi heims\u00f3ttu verksmi\u00f0juna \u00ed vikunni og l\u00fdstu
+  yfir \u00e1n\u00e6gju me\u00f0 g\u00e6\u00f0i framlei\u00f0slu okkar...\\nLestu
+  meira -\\n2024-03-13\\nVi\u00f0skiptavinir fr\u00e1 Kasakstan s\u00ed\u00f0astli\u00f0inn
+  laugardag og vi\u00f0skiptavinir fr\u00e1 \u00c1stral\u00edu \u00feennan \u00feri\u00f0judag
+  sko\u00f0u\u00f0u verksmi\u00f0juna okkar \u00ed s\u00f6mu r\u00f6\u00f0. B\u00e1\u00f0ir
+  vi\u00f0skiptavinirnir voru mj\u00f6g \u00e1n\u00e6g\u00f0ir me\u00f0 g\u00e6\u00f0i
+  v\u00f6ru okkar og \u00fej\u00f3nustu. Vinir alls sta\u00f0ar a\u00f0 \u00far heiminum
+  eru velkomnir \u00ed heims\u00f3kn. Framlei\u00f0sla okkar...\\nLestu meira -\\n2024-02-29\\nFr\u00e1
+  29. febr\u00faar til 3. mars var Camping & Picnic Fair \u00ed Su\u00f0ur-K\u00f3reu
+  hleypt af stokkunum. Velkomin vinir fr\u00e1 \u00f6llum heimshornum til a\u00f0
+  heims\u00e6kja b\u00e1sinn okkar, Hall3 H213. H\u00e9r munt \u00fe\u00fa sj\u00e1
+  st\u00f3rkostlega framlei\u00f0sluferli\u00f0 geimhylkja og f\u00e1 uppl\u00fdsingar
+  fr\u00e1 fyrstu hendi...\\nLestu meira -\\n2024-02-21\\nVi\u00f0 h\u00f3fum formlega
+  vinnu aftur \u00feann 18. febr\u00faar, n\u00edunda dag fyrsta tunglm\u00e1na\u00f0ar!
+  \u00c1 s\u00ed\u00f0asta \u00e1ri viljum vi\u00f0 \u00feakka \u00f6llum vi\u00f0skiptavinum
+  okkar fr\u00e1 \u00f6llum heimshornum fyrir stu\u00f0ninginn og skilninginn. \u00c1
+  n\u00fdju \u00e1ri munum vi\u00f0 \u00f3sveigjanlega fylgja kv...\\nLestu meira
+  -\\n2024-01-24\\n\u00cd s\u00ed\u00f0ustu viku kom kanad\u00edskur vi\u00f0skiptavinur
+  \u00ed heims\u00f3kn \u00ed verksmi\u00f0juna okkar og vi\u00f0 r\u00e6ddum saman
+  \u00e1\u00e6tlanir \u00e1 skrifstofunni. Vi\u00f0 viljum \u00feakka vi\u00f0skiptavinum
+  okkar fyrir a\u00f0 heims\u00e6kja verksmi\u00f0juna okkar og einnig \u00feakka
+  vi\u00f0skiptavinum okkar fyrir miki\u00f0 lof hans um okkur. Vi\u00f0 h\u00f6ldum
+  \u00e1fram a\u00f0 athuga t...\\nLestu meira -\\n2024-01-17\\nVi\u00f0 ger\u00f0um
+  beina \u00fatsendingu \u00ed verksmi\u00f0junni \u00ed s\u00ed\u00f0ustu viku og
+  vi\u00f0t\u00f6kurnar voru fr\u00e1b\u00e6rar. Verksmi\u00f0jan okkar framlei\u00f0ir
+  slatta af eplask\u00e1lum. Verkfr\u00e6\u00f0ingar og starfsmenn eru mj\u00f6g uppteknir.
+  Velkomi\u00f0 alla til a\u00f0 heims\u00e6kja verksmi\u00f0juna okkar!\\nLestu meira
+  -\\n2024-01-10\\nHorf\u00f0u upp \u00e1 bjartan stj\u00f6rnuhimininn \u00ed herberginu
+  stj\u00f6rnuhimininn, finndu v\u00ed\u00f0\u00e1ttuna og \u00f3endanleika alheimsins
+  og slaka\u00f0u algj\u00f6rlega \u00e1 huganum. \u00deegar \u00fe\u00fa liggur \u00e1
+  mj\u00faku r\u00fami, umkringdur stj\u00f6rnum, eins og \u00fe\u00fa s\u00e9rt \u00ed
+  mi\u00f0ju alheimsins, gerir \u00feessi fr\u00e1b\u00e6ra upplifun...\\nLestu meira\"",
+  "\"L\u00edft\u00edmi kortasj\u00e1a hefur veri\u00f0 nokku\u00f0 til umr\u00e6\u00f0u
+  vegna hra\u00f0ra breytinga \u00ed t\u00e6kni \u00e1 netinu. \u00dea\u00f0 vir\u00f0ist
+  vera a\u00f0 f\u00e1ar kortasj\u00e1r s\u00e9u opnar lengur en \u00e1ratug \u00e1n
+  umtalsver\u00f0ra uppf\u00e6rslna e\u00f0a breytinga.\\nVi\u00f0 \u00fea\u00f0 a\u00f0
+  kortasj\u00e1 er loka\u00f0 \u00e1 netinu hverfa allar uppl\u00fdsingar \u00ed einu
+  vetfangi. Verkefni sem hafa yfirleitt teki\u00f0 gr\u00ed\u00f0arlegan t\u00edma
+  og kosta\u00f0 umtalsver\u00f0a peninga eru \u00fear me\u00f0 afl\u00f6g\u00f0 og
+  oft engar heimildir til eftir \u00fea\u00f0 um \u00fatlit og efnisinnihald hinna
+  afl\u00f6g\u00f0u kortasj\u00e1a. \u00de\u00f3 svo a\u00f0 \u00ed verkefninu vefsafn.is
+  sem er afritunarverkefni \u00e1 vegum Landsb\u00f3kasafns \u00cdslands fyrir \u00edslenska
+  vefi, n\u00e6st \u00fear ekki a\u00f0 afrita \u00edslenskar kortasj\u00e1r \u00fear
+  sem \u00fe\u00e6r munu vera of fl\u00f3knar hugb\u00fana\u00f0arlausnir. Sama er
+  a\u00f0 segja um erlenda afritunarvefi vefs\u00ed\u00f0na eins og Wayback Machine,
+  a\u00f0 \u00fe\u00e6r afrita ekki heldur kortasj\u00e1r. Eina \u00feekkta d\u00e6mi\u00f0
+  h\u00e9r \u00e1 landi um \u00fatlitsafritun hefur veri\u00f0 afritun Orkustofnunar
+  \u00e1 \u00fatliti Gagnavefsj\u00e1r og N\u00e1tt\u00faruvefsj\u00e1r. Til a\u00f0
+  vi\u00f0 gerum okkur almennt grein fyrir umfangi lokana og umbreytinga \u00fe\u00e1
+  eru l\u00edklega aflag\u00f0ar n\u00e6r allar \u00fe\u00e6r r\u00famlega 40 kortasj\u00e1r
+  sem til voru \u00feegar vefg\u00e1ttin landakort.is opna\u00f0i \u00e1ri\u00f0 2007
+  og birti tengla \u00ed \u00fe\u00e6r \u00e1 fors\u00ed\u00f0u. Oftast hefur veri\u00f0
+  skipt um hugb\u00fana\u00f0, e\u00f0a uppf\u00e6rslur og \u00fatf\u00e6rslur \u00fea\u00f0
+  miki\u00f0 breyttar a\u00f0 um n\u00fd verkefni er a\u00f0 r\u00e6\u00f0a \u00fe\u00f3
+  s\u00f6mu vefsl\u00f3\u00f0ir s\u00e9u nota\u00f0ar \u00ed m\u00f6rgum tilfellum.
+  Kortasj\u00e1m hefur einnig fj\u00f6lga\u00f0 miki\u00f0, enda eru opinberlega birtar
+  \u00edslenskar kortasj\u00e1r n\u00fa \u00e1 anna\u00f0 hundra\u00f0i\u00f0.\\nOrkustofnun
+  hefur n\u00fdlega loka\u00f0 \u00feeim \u00feremur kortasj\u00e1m sem stofnunin
+  bygg\u00f0i upp fyrir um t\u00edu \u00e1rum me\u00f0 notkun hugb\u00fana\u00f0ar
+  Gagar\u00edn (Flashmap), en frumger\u00f0 \u00feess hugb\u00fana\u00f0ar var ger\u00f0
+  fyrir verkefni\u00f0 N\u00e1tt\u00faruvefsj\u00e1 nokkrum \u00e1rum fyrr. Um er
+  a\u00f0 r\u00e6\u00f0a Orkuvefsj\u00e1, Landgrunnsvefsj\u00e1 og tilraunaverkefni
+  sem s\u00fdndi kort \u00ed m\u00e6likvar\u00f0a 1:25 000. Hugb\u00fana\u00f0urinn
+  \u00fe\u00f3tti \u00e1 s\u00ednum t\u00edma leysa fullkomlega \u00fe\u00e6r \u00fearfir
+  sem stofnunin haf\u00f0i \u00e1 \u00feessu svi\u00f0i og gengu \u00f6ll verkefnin
+  vel fyrstu \u00e1rin. Me\u00f0 \u00fev\u00ed a\u00f0 Ve\u00f0urstofa \u00cdslands
+  og Umhverfisr\u00e1\u00f0uneyti\u00f0 h\u00e6ttu a\u00f0 sty\u00f0ja vi\u00f0 N\u00e1tt\u00faruvefsj\u00e1
+  sem var \u00e1 \u00feeirra fag\u00e1byrg\u00f0, \u00fe\u00e1 h\u00e6tti Gagar\u00edn
+  a\u00f0 \u00fer\u00f3a grunnhugb\u00fana\u00f0inn. \u00dear me\u00f0 \u00feurfti
+  Orkustofnun eftir \u00fev\u00ed sem t\u00edmar li\u00f0u a\u00f0 f\u00e6ra birtingu
+  landfr\u00e6\u00f0ilegra gagna sinna anna\u00f0, sem hefur veri\u00f0 gert \u00e1
+  nokkrum undanf\u00f6rnum misserum. \u00dear me\u00f0 hafa or\u00f0i\u00f0 til n\u00fdjar
+  kortasj\u00e1r. Kortasj\u00e1 OS sem tekur vi\u00f0 hlutverki Orkuvefsj\u00e1r er
+  unnin \u00ed samstarfi vi\u00f0 Loftmyndir ehf, en Landgrunnssj\u00e1 sem tekur
+  vi\u00f0 af Landgrunnsvefsj\u00e1 og kortasj\u00e1 fyrir kortasafn OS sem tekur
+  vi\u00f0 af Kortasj\u00e1 1:25 000 eru unnar \u00ed samstarfi vi\u00f0 Alta ehf.\\nOrkuvefsj\u00e1
+  (2010-2019) birti uppl\u00fdsingar um landfr\u00e6\u00f0ileg g\u00f6gn Orkustofnunar.
+  Landgrunnsvefsj\u00e1 (2009-2019) birti uppl\u00fdsingar um g\u00f6gn fr\u00e1 Drekasv\u00e6\u00f0inu
+  vegna ol\u00edum\u00e1la og vefsj\u00e1 um kort 1:25 000 (2014-2019) birti uppl\u00fdsingar
+  um kort nokkurra stofnana (Landm\u00e6linga \u00cdslands, Landsvirkjunar, N\u00e1tt\u00farufr\u00e6\u00f0istofnunar
+  og Orkustofnunar) \u00ed m\u00e6likvar\u00f0a 1:25 000, sem ger\u00f0 voru og \u00fatgefin
+  \u00e1 s\u00ed\u00f0ustu tveimur \u00e1ratugum s\u00ed\u00f0ustu aldar. \u00d6ll
+  hin landfr\u00e6\u00f0ilegu g\u00f6gn og uppl\u00fdsingar um \u00feau sem \u00e1\u00f0ur
+  birtust \u00ed eldri kortasj\u00e1m OS hafa n\u00fa veri\u00f0 sett fram me\u00f0
+  n\u00fdjum h\u00e6tti og eru a\u00f0gengileg \u00ed \u00feeim kortasj\u00e1m sem
+  teki\u00f0 hafa vi\u00f0 af \u00feeim sem loka\u00f0 var. Sl\u00edkt er hins vegar
+  ekki alltaf raunin vi\u00f0 lokun kortasj\u00e1a. Til \u00feess a\u00f0 h\u00e6gt
+  s\u00e1 a\u00f0 sj\u00e1 hvernig kortasj\u00e1rnar litu \u00fat og hva\u00f0a uppl\u00fdsingar
+  voru birtar \u00ed \u00feeim hefur \u00fatlitsafritun af \u00feeim veri\u00f0 birt
+  \u00e1 vef Orkustofnunar. Tv\u00e6r fyrrnefndu kortasj\u00e1rnar Orkuvefsj\u00e1
+  og Landgrunnsvefsj\u00e1 voru b\u00e6\u00f0i \u00ed enskum og \u00edslenskum \u00fatg\u00e1fum
+  en s\u00fa \u00feri\u00f0ja (Kortavefsj\u00e1 1:25 000) a\u00f0eins \u00e1 \u00edslensku.\\nS\u00fa
+  sta\u00f0reynd a\u00f0 ekki er lengur h\u00e6gt a\u00f0 finna uppl\u00fdsingar um
+  og sj\u00e1 hvernig meira en helmingur \u00edslenskra kortasj\u00e1a leit \u00fat
+  \u00ed fyrstu \u00fatg\u00e1fu er miki\u00f0 umhugsunarefni. \u00dea\u00f0 a\u00f0
+  opinberar var\u00f0veislustofnanir (lykils\u00f6fnin) skuli v\u00edsa fr\u00e1 s\u00e9r
+  \u00e1byrg\u00f0 \u00e1 a\u00f0 finna lausn \u00e1 afritunarm\u00e1lum kortasj\u00e1a
+  er ekki vi\u00f0unandi.\\nSpyrja m\u00e6tti hvers vegna afritun \u00e1 \u00fatliti
+  kortasj\u00e1a fer ekki fram me\u00f0 samr\u00e6mdum h\u00e6tti? Eins m\u00e6tti
+  hafa \u00ed huga til samanbur\u00f0ar a\u00f0 \u00fea\u00f0 \u00e1 til d\u00e6mis
+  a\u00f0 geyma \u00f6ll afrit br\u00e9fa og t\u00f6lvup\u00f3sta \u00far skjalaskr\u00e1ningarkerfum
+  stofnana og sveitarf\u00e9laga, allar \u00fatg\u00e1fur tiltekinna b\u00f3ka (b\u00e6\u00f0i
+  endurprentanir og erlendar \u00fatg\u00e1fur), afrit sem tekin eru reglulega og
+  oft \u00e1 \u00e1ri af \u00f6llum \u00edslenskum vefs\u00ed\u00f0um, en kortasj\u00e1m
+  er sleppt og enginn vir\u00f0ist hafa \u00e1hyggjur af \u00fev\u00ed. \u00deetta
+  eru st\u00f3rmerkilegar heimildir sem \u00e1 a\u00f0 geyma, einhver kalla\u00f0i
+  \u00feetta kortaatlasa n\u00fat\u00edmans. \u00dea\u00f0 a\u00f0 geyma a\u00f0eins
+  mismunandi \u00fatg\u00e1fur landfr\u00e6\u00f0ilegu frumgagnasettanna \u00far landuppl\u00fdsingakerfunum
+  sem liggja til grundvallar (\u00fe\u00f3 \u00fea\u00f0 s\u00e9 \u00fev\u00ed mi\u00f0ur
+  ekki gert alls sta\u00f0ar eins og \u00e1 a\u00f0 gera), leysir engan vanda \u00fear
+  sem \u00fatliti\u00f0 \u00e1 birtingunni vantar. Sagan \u00e1 \u00feessu svi\u00f0i
+  er a\u00f0 glatast. \u00dea\u00f0 er au\u00f0vita\u00f0 ekki \u00e1s\u00e6ttanlegt.\\n\u00deorvaldur
+  Bragason\"", "\"Efnisyfirlit\\nDagur \u00ed sorphaugunum er hluti af \u00e1standi
+  mannsins. Dagar \u00feegar vonin er glatu\u00f0, \u00feunglyndi sk\u00fdlir huganum
+  og l\u00edfi\u00f0 finnst of \u00feungt til a\u00f0 bera eru bara hluti af l\u00edfinu.
+  Hins vegar, \u00feegar \u00feessir dagar halda \u00e1fram me\u00f0 \u00f3gle\u00f0i,
+  er kominn t\u00edmi til a\u00f0 sko\u00f0a d\u00fdpra hvers vegna sorg \u00fe\u00edn
+  er vi\u00f0lo\u00f0andi og hvernig \u00e1 a\u00f0 gera meira en bara a\u00f0 fl\u00fdja
+  s\u00e1rsaukann.\\nSannleikurinn er s\u00e1 a\u00f0 \u00feunglyndi og ni\u00f0urdrepandi
+  tilfinning eru af v\u00f6ldum fj\u00f6lda \u00fe\u00e1tta, efnafr\u00e6\u00f0ilegra
+  til a\u00f0st\u00e6\u00f0na, og hver og einn hefur \u00e1hrif \u00e1 tilfinningar
+  okkar \u00e1 s\u00e9rstakan en samt svipa\u00f0an h\u00e1tt. \u00dea\u00f0 eru endalausar
+  greinar sem l\u00fdsa \u00fev\u00ed hva\u00f0 \u00fe\u00fa getur gert til a\u00f0
+  b\u00e6ta skap \u00feitt, en \u00fe\u00e6r fjalla a\u00f0eins um einkennin en ekki
+  undirr\u00f3t tiltekinnar sorgar \u00feinnar.\\nArist\u00f3teles skrifa\u00f0i:
+  \u201eEin svala gerir ekki sumar, ekki heldur einn g\u00f3\u00f0an ve\u00f0urdag;
+  a\u00f0 sama skapi gerir einn dagur e\u00f0a stuttur t\u00edmi hamingju manneskju
+  ekki alveg hamingjusama.\u201c A\u00f0 b\u00e6ta skap \u00feitt me\u00f0 reynslu
+  getur veri\u00f0 einn g\u00f3\u00f0an ve\u00f0urdag um mi\u00f0jan vetur, en \u00fea\u00f0
+  er ekki n\u00f3g til a\u00f0 draga \u00feig \u00fat \u00far myrkri \u00feunglyndis
+  og \u00feessar miklu depur\u00f0artilfinningar sem draga \u00feig ni\u00f0ur.\\nAllir
+  eru mismunandi og getur upplifa\u00f0 sorgartilfinningu \u00e1 einstakan h\u00e1tt,
+  en \u00fea\u00f0 eru nokkrir lykil\u00fe\u00e6ttir sem geta valdi\u00f0 \u00fev\u00ed
+  a\u00f0 \u00fe\u00fa ert ni\u00f0urdreginn og l\u00e6kningin vi\u00f0 hverri af
+  \u00feessum undirr\u00f3tum er mismunandi.\\n1) Heilsa\\nAu\u00f0veldasti sta\u00f0urinn
+  til a\u00f0 byrja \u00feegar kafa\u00f0 er \u00ed \u00fea\u00f0 sem g\u00e6ti valdi\u00f0
+  \u00fev\u00ed a\u00f0 \u00fe\u00fa ert ni\u00f0urdreginn er a\u00f0 l\u00edta vel
+  \u00e1 heilsuna \u00fe\u00edna -og gle\u00f0i getur l\u00e1ti\u00f0 s\u00f3lr\u00edka
+  s\u00e1l l\u00ed\u00f0a kalt og hrj\u00f3strugt, en l\u00e6kning er m\u00f6guleg.
+  \u00d6r missis og s\u00e1rsauka geta byrja\u00f0 a\u00f0 gr\u00f3a, en \u00feau
+  skilja eftir sig spor og minna okkur \u00e1 hva\u00f0 vi\u00f0 h\u00f6fum misst
+  og hver vi\u00f0 erum or\u00f0in.\\n7) Einmanaleiki\\n\u00de\u00fa g\u00e6tir veri\u00f0
+  l\u00ed\u00f0a ni\u00f0ur vegna einmanaleika og skorts \u00e1 tilfinningalegum tengslum
+  vi\u00f0 a\u00f0ra. \u00de\u00f3 a\u00f0 f\u00f3lk s\u00e9 mismunandi \u00ed \u00fev\u00ed
+  hversu miki\u00f0 og styrkleiki \u00fea\u00f0 \u00fearfnast pers\u00f3nulegrar tengingar,
+  er \u00fea\u00f0 v\u00edsindalega sanna\u00f0 a\u00f0 algj\u00f6r einangrun fr\u00e1
+  mannheiminum getur skapa\u00f0 ge\u00f0r\u00e6n vandam\u00e1l og alvarlegt \u00feunglyndi.\\nEf
+  \u00fe\u00fa ert \u00ed erfi\u00f0leikum me\u00f0 a\u00f0 l\u00ed\u00f0a ni\u00f0ur,
+  skaltu \u00edhuga \u00fdta \u00fe\u00e9r \u00fat fyrir \u00fe\u00e6gindarammann
+  \u00feinn og byrja a\u00f0 s\u00e6kjast eftir meiri tilfinningalegum tengslum vi\u00f0
+  f\u00f3lk. A\u00f0 setja hi\u00f0 raunverulega \u00feig \u00fat \u00ed heiminn getur
+  leitt til raunverulegra mannlegra samskipta sem fylla s\u00e1l \u00fe\u00edna \u00e1
+  sama h\u00e1tt og upp\u00e1halds m\u00e1lt\u00ed\u00f0in \u00fe\u00edn fyllir magann.
+  \u00dea\u00f0 yljar \u00fe\u00e9r inn \u00ed kjarnann og veitir vell\u00ed\u00f0an
+  sem gefur l\u00edfinu brag\u00f0.\\nEinmanaleiki er eitthva\u00f0 sem \u00fe\u00fa
+  getur sigra\u00f0. L\u00e6kningin er einf\u00f6ld og v\u00ed\u00f0a f\u00e1anleg
+  - f\u00f3lk. Hvort sem \u00fe\u00fa byrjar sm\u00e1tt me\u00f0 \u00fev\u00ed a\u00f0
+  gr\u00edpa \u00ed kaffi \u00ed hverri viku \u00e1 kaffih\u00fasi \u00e1 sta\u00f0num
+  og spjalla vi\u00f0 baristana, e\u00f0a \u00fe\u00fa kafar algerlega me\u00f0 samf\u00e9lagi
+  f\u00f3lks til a\u00f0 deila s\u00e1lu \u00feinni me\u00f0, \u00fe\u00e1 mun \u00feessi
+  reynsla byrja a\u00f0 losna vi\u00f0 einmanaleikatilfinningu og koma \u00ed sta\u00f0inn
+  \u00fe\u00e1 me\u00f0 tilfinningar um a\u00f0 tilheyra. Mundu a\u00f0 allir eru
+  a\u00f0 leita a\u00f0 tilheyrandi og raunverulegum mannlegum tengslum, svo vertu
+  ekkihr\u00e6ddur vi\u00f0 a\u00f0 fara fyrst. Kannski ver\u00f0ur varnarleysi \u00feitt
+  tengingin sem einhver annar hefur veri\u00f0 a\u00f0 leita a\u00f0.\\n8) Skortur
+  \u00e1 merkingu og tilgangi\\nS\u00ed\u00f0asta ors\u00f6k ni\u00f0url\u00e6gingar
+  sem vi\u00f0 munum kafa ofan \u00ed er skortur \u00e1 merkingu og tilgangi. \u00dea\u00f0
+  er tilfinningin a\u00f0 \u00fea\u00f0 s\u00e9 meira \u00ed l\u00edfinu en bara a\u00f0
+  vera til. L\u00edklegt er a\u00f0 \u00fe\u00fa hafir einhvern t\u00edma spurt spurninga
+  um tilgang \u00feinn og tilgang l\u00edfs \u00fe\u00edns. \u00cd raun og veru erum
+  vi\u00f0 \u00f6ll a\u00f0 leita a\u00f0 \u00feessum d\u00fdpri hv\u00f6tum fyrir
+  a\u00f0 vera \u00e1 l\u00edfi og spurningunni: \u201eSkiptir tilvist okkar m\u00e1li?
+  er ein sem vi\u00f0 \u00fer\u00e1um \u00f6ll a\u00f0 vita.\\nSj\u00e1 einnig: 10
+  vi\u00f0v\u00f6runarmerki f\u00e9lagi \u00feinn er a\u00f0 missa tilfinningar til
+  \u00fe\u00edn (og hva\u00f0 \u00e1 a\u00f0 gera)Hins vegar er \u00feetta umfram
+  allt erfi\u00f0asta spurningin a\u00f0 svara. Er tilgangur okkar a\u00f0 elska f\u00f3lk?
+  Er veri\u00f0 a\u00f0 bjarga j\u00f6r\u00f0inni? Er a\u00f0 elta mestu langanir
+  okkar? Og svo \u00feegar vi\u00f0 n\u00e1um \u00f6llu \u00fev\u00ed sem vi\u00f0
+  h\u00f6fum skilgreint \u00ed hj\u00f6rtum okkar sem tilgang okkar, og \u00feeir
+  hlutir finnast enn tilgangslaust, hva\u00f0 \u00fe\u00e1?\\n\u00cd kjarnanum er
+  \u00feessi spurning andleg spurning. Spurningar og sv\u00f6r eru miki\u00f0 \u00e1
+  \u00feessum vettvangi, svo \u00e9g mun ekki reyna a\u00f0 gefa \u00fe\u00e9r neinar,
+  en \u00e9g segi \u00feetta: a\u00f0 uppg\u00f6tva svari\u00f0 vi\u00f0 \u00feessari
+  spurningu g\u00e6ti teki\u00f0 \u00feig \u00ed mesta fer\u00f0alag l\u00edfs \u00fe\u00edns
+  og afhj\u00fapa\u00f0 d\u00fdpri merkingu tilveru \u00feinnar sem getur l\u00fdst
+  upp heiminn \u00feinn \u00e1 \u00feann h\u00e1tt sem varla er h\u00e6gt a\u00f0
+  hugsa s\u00e9r. \u00dea\u00f0 hefur vissulega gert fyrir mig.\\nHins vegar er \u00feetta
+  ekki fer\u00f0 sem einhver getur fari\u00f0 fyrir \u00feig. \u00c9g heyr\u00f0i
+  einu sinni a\u00f0 s\u00e1 sem leitar mun finna. Kannski a\u00f0 leita svara vi\u00f0
+  spurningunni \u201eAf hverju geri \u00e9g \u00fea\u00f0til?\u201d er sta\u00f0urinn
+  \u00fear sem vi\u00f0 finnum raunverulega merkingu l\u00edfs okkar.\\nVictor Hugo
+  skrifa\u00f0i \u00ed Les Miserables: \u201eN\u00e1aldurinn v\u00edkkar \u00fat \u00ed
+  myrkri og finnur a\u00f0 lokum lj\u00f3s, eins og s\u00e1lin v\u00edkkar \u00fat
+  \u00ed \u00f3g\u00e6fu og \u00e1 endanum finnur Gu\u00f0. .\u201d Kannski eru allir
+  dagar \u00fe\u00ednir \u00fear sem \u00fe\u00fa ert ni\u00f0urdreginn og fastur
+  \u00ed myrkri bara a\u00f0 lei\u00f0a \u00feig til lj\u00f3ssins.\\nLokunarhugsanir\\nDepur\u00f0artilfinning,
+  \u00fe\u00f3 h\u00fan s\u00e9 e\u00f0lileg, getur koma fr\u00e1 margv\u00edslegum
+  a\u00f0st\u00e6\u00f0um og upplifunum - allar mismunandi og einstakar. \u00dea\u00f0
+  er au\u00f0velt a\u00f0 vilja for\u00f0ast a\u00f0 l\u00ed\u00f0a ni\u00f0ur, en
+  \u00fea\u00f0 er ekki alltaf gagnlegt. \u00dea\u00f0 eru t\u00edmar \u00feegar sorgin
+  kemur upp og \u00ed sta\u00f0 \u00feess a\u00f0 hlaupa fr\u00e1 henni og reyna \u00f6nnur
+  8 hagn\u00fdt r\u00e1\u00f0 til a\u00f0 b\u00e6ta skapi\u00f0 \u00feurfum vi\u00f0
+  a\u00f0 horfast \u00ed augu vi\u00f0 hana og upplifa virkilega \u00f3\u00fe\u00e6gindin
+  sem fylgja henni.\\nTilfinninga\u00feoli\u00f0 f\u00f3lk er ekki f\u00f3lki\u00f0
+  sem l\u00ed\u00f0ur vel allan t\u00edmann heldur er f\u00f3lki\u00f0 sem getur gengi\u00f0
+  \u00ed gegnum s\u00e1rsauka l\u00edfsins og \u00e1skoranir, og jafnvel eigin sorg
+  og sorg, og ekki hlaupi\u00f0 \u00ed burtu og reynt a\u00f0 fl\u00fdja \u00fea\u00f0.
+  A\u00f0 fl\u00fdja s\u00e1rsauka okkar getur leitt til mesta ska\u00f0a sem vi\u00f0
+  getum upplifa\u00f0 \u00ed l\u00edfinu, hluti eins og f\u00edkn sem getur sogi\u00f0
+  mann undir. Vandam\u00e1li\u00f0 er ekki a\u00f0 f\u00edklar elska eiturlyf, kynl\u00edf,
+  \u00e1fengi e\u00f0a a\u00f0ra f\u00edkn of miki\u00f0 til a\u00f0 gefast upp; vandam\u00e1li\u00f0
+  er a\u00f0 f\u00f3lk ver\u00f0ur f\u00edkill til a\u00f0 fl\u00fdja s\u00e1rsaukann.
+  \u00de\u00e1 er of erfitt a\u00f0 h\u00e6tta f\u00edkn sinni vegna \u00feess a\u00f0
+  \u00fea\u00f0 \u00fe\u00fd\u00f0ir a\u00f0 \u00feeir ver\u00f0a a\u00f0 horfast
+  \u00ed augu vi\u00f0 raunveruleika eigin s\u00e1rsauka, sorgar,sorg, missi og einmanaleika.\\nHvort
+  sem \u00fe\u00fa ert einfaldlega ni\u00f0urdreginn e\u00f0a \u00e1 erfitt me\u00f0
+  a\u00f0 \u00feola grj\u00f3t sorgar og \u00feunglyndis, \u00fe\u00e1 getur vali\u00f0
+  um a\u00f0 ganga \u00ed gegnum \u00feennan eld \u00e1n deyfingar e\u00f0a h\u00f6rfa
+  veri\u00f0 \u00fea\u00f0 sem f\u00e6rir \u00feig til hins hli\u00f0. Stundum \u00feurfum
+  vi\u00f0 a\u00f0 finna fyrir s\u00e1rsauka okkar og sorg til a\u00f0 halda \u00e1fram
+  me\u00f0 l\u00edf okkar. Ekki l\u00e1ta tilfinninguna svelta \u00feig og draga \u00feig
+  undir, heldur horfast \u00ed augu vi\u00f0 hana og velja a\u00f0 ganga me\u00f0
+  henni \u00feanga\u00f0 til \u00fe\u00fa hefur gengi\u00f0 framhj\u00e1 henni.\\nhva\u00f0
+  \u00fe\u00fa bor\u00f0ar (og hven\u00e6r), hversu oft \u00fe\u00fa hreyfir \u00feig,
+  hversu mikinn svefn \u00fe\u00fa ert a\u00f0 f\u00e1 og hvort \u00fe\u00fa gl\u00edmir
+  vi\u00f0 heilsufarsvandam\u00e1l e\u00f0a tekur lyf sem geta haft \u00e1hrif \u00e1
+  skap \u00feitt.Margir me\u00f0fer\u00f0ara\u00f0ilar hvetja sj\u00faklinga s\u00edna
+  til a\u00f0 byrja vinna a\u00f0 \u00fev\u00ed a\u00f0 b\u00e6ta l\u00edkamlega heilsu
+  s\u00edna \u00ed gegnum matar\u00e6\u00f0i, hreyfingu og heilan n\u00e6tursvefn,
+  samhli\u00f0a \u00fev\u00ed a\u00f0 kafa ofan \u00ed d\u00fdpri tilfinningabar\u00e1ttu
+  \u00ed r\u00e1\u00f0gj\u00f6f. Margir sinnum geta \u00feessar heildr\u00e6nu breytingar
+  laga\u00f0 depur\u00f0 og \u00feunglyndi. Reyndar getur \u00feunglyndi \u00ed sumum
+  tilfellum stafa\u00f0 algj\u00f6rlega af \u00f3greindu f\u00e6\u00f0uofn\u00e6mi.\\nReyndar
+  gl\u00edmdi k\u00e6r vinkona m\u00edn alvarlega vi\u00f0 \u00feunglyndi og kv\u00ed\u00f0a
+  \u00fear til h\u00fan f\u00f3r a\u00f0 hitta heildr\u00e6nan l\u00e6kni sem lag\u00f0i
+  til nokkrar breytingar \u00e1 matar\u00e6\u00f0i. Fyrir hana olli \u00fea\u00f0
+  verulegum breytingum \u00e1 ge\u00f0heilsu hennar a\u00f0 skera \u00fat gl\u00faten.
+  Enn \u00feann dag \u00ed dag, ef h\u00fan bor\u00f0ar \u00f3vart eitthva\u00f0 me\u00f0
+  gl\u00fateni, gl\u00edmir h\u00fan vi\u00f0 \u00feunglyndi \u00fear til \u00fea\u00f0
+  er fari\u00f0 \u00far kerfinu hennar. \u00deetta er eitt d\u00e6mi sem undirstrikar
+  tengslin milli matar\u00e6\u00f0is okkar og ge\u00f0heilsu okkar.\\nAuk \u00feess
+  hafa n\u00fdlegar ranns\u00f3knir leitt \u00ed lj\u00f3s a\u00f0 hreyfing getur
+  framleitt efni \u00ed heilanum sem er \u00e1hrifar\u00edkara en lyfse\u00f0ilsskyld
+  \u00feunglyndislyf. \u00deetta \u00fe\u00fd\u00f0ir a\u00f0 hreyfing er \u00ed raun
+  \u00e1hrifar\u00edk lei\u00f0 til a\u00f0 me\u00f0h\u00f6ndla \u00feunglyndi og
+  \u00feunglyndi og h\u00fan hefur engar neikv\u00e6\u00f0ar aukaverkanir.\\n\u00deegar
+  \u00fe\u00fa festist \u00ed bl\u00e1lokunum skaltu ney\u00f0a \u00feig \u00far s\u00f3fanum
+  til a\u00f0 gera \u00fea\u00f0.eitthva\u00f0 eins einfalt og a\u00f0 fara \u00ed
+  g\u00f6ngut\u00far. Ef ve\u00f0ri\u00f0 er hr\u00e6\u00f0ilegt skaltu finna verslunarmi\u00f0st\u00f6\u00f0
+  e\u00f0a g\u00f6ngulei\u00f0 innandyra og koma l\u00edkamanum \u00e1 hreyfingu.
+  Endorf\u00edni\u00f0 mun hj\u00e1lpa \u00fe\u00e9r a\u00f0 berjast gegn \u00feunglyndi
+  og \u00fe\u00fa g\u00e6tir enda\u00f0 me\u00f0 a\u00f0 l\u00ed\u00f0a betur en \u00fe\u00fa
+  myndir hafa ef \u00fe\u00fa l\u00e6tur sorgartilfinningarnar sigra.\\nEf hreyfing
+  finnst yfir\u00feyrmandi skaltu byrja \u00e1 litlum matar\u00e6\u00f0isbreytingum.
+  Skeri\u00f0 sykur e\u00f0a hreinsu\u00f0 kolvetni \u00fat \u00fear sem \u00feetta
+  getur veri\u00f0 st\u00f3r \u00fe\u00e1ttur \u00ed \u00feunglyndi. \u00deessi einf\u00f6ldu
+  skref \u00ed \u00e1tt a\u00f0 heilbrig\u00f0ari l\u00edkama geta leitt til heilbrig\u00f0ari
+  hugsana og tilfinninga. \u00de\u00fa g\u00e6tir veri\u00f0 hissa \u00e1 \u00fev\u00ed
+  a\u00f0 finna a\u00f0 s\u00f6kud\u00f3lg \u00feunglyndis \u00fe\u00edns er eitthva\u00f0
+  sem ekki er teki\u00f0 \u00e1 \u00ed l\u00edkamlegri heilsu \u00feinni.\\n2) Kl\u00edn\u00edskt
+  \u00feunglyndi\\n\u00c1 me\u00f0an \u00fe\u00fa b\u00e6tir l\u00edkamlega heilsu
+  \u00fe\u00edna. getur verulega b\u00e6tt jafnvel kl\u00edn\u00edskt \u00feunglyndi,
+  sumt f\u00f3lk \u00fej\u00e1ist af alvarlegu \u00feunglyndi sem g\u00e6ti ekki batna\u00f0
+  me\u00f0 l\u00edfsst\u00edl e\u00f0a heilsubreytingum. Ef \u00feig grunar a\u00f0
+  \u00fe\u00fa \u00fej\u00e1ist af alvarlegu \u00feunglyndi, vinsamlegast haf\u00f0u
+  samband vi\u00f0 heilbrig\u00f0isstarfsmann eins flj\u00f3tt og au\u00f0i\u00f0
+  er.\\nMajor Depressive Disorder (MDD), tegund alvarlegs \u00feunglyndis, einkennist
+  af:\\n- Listaleysi\\n- Algert tap \u00e1 \u00e1huga \u00e1 \u00f6llu sem \u00e1\u00f0ur
+  hefur veri\u00f0 noti\u00f0\\n- Tilfinning um einskis vir\u00f0i\\n- \u00d3\u00fatsk\u00fdr\u00f0ur
+  s\u00e1rsauki\\n- \u00dereyta\\n- H\u00f6fu\u00f0verkur\\n- Minni kynhv\u00f6t\\n-
+  Rei\u00f0akast\\n- Hugsunar- e\u00f0a einbeitingarvandam\u00e1l\\n- Og \u00ed sumum
+  tilfellum fylgja ofskynjanir og ranghugmyndir\\n\u00cdf\u00f3lk me\u00f0 alvarlegt
+  kl\u00edn\u00edskt \u00feunglyndi, \u00fe\u00e1 er best a\u00f0 hafa samband vi\u00f0
+  ge\u00f0heilbrig\u00f0isstarfsmann sem getur hj\u00e1lpa\u00f0 til vi\u00f0 a\u00f0
+  me\u00f0h\u00f6ndla og veita l\u00e9ttir fyrir \u00feunglyndi \u00feitt.\\nJK Rowling,
+  h\u00f6fundur Harry Potter b\u00f3kaser\u00edunnar. , bar\u00f0ist vi\u00f0 \u00feunglyndi
+  og l\u00fdsti \u00fev\u00ed sem \u00fev\u00ed \u00f3\u00fe\u00e6gilegasta sem h\u00fan
+  hefur upplifa\u00f0. H\u00fan skrifar:\\n\u201e\u00dea\u00f0 er \u00feessi fjarvera
+  a\u00f0 geta s\u00e9\u00f0 fyrir s\u00e9r a\u00f0 \u00fe\u00fa munt nokkurn t\u00edma
+  ver\u00f0a k\u00e1t aftur. Fjarvera vonar. \u00deessi mj\u00f6g deyf\u00f0u tilfinning,
+  sem er svo allt \u00f6nnur en sorgm\u00e6dd. Sorglegt s\u00e1rt en \u00fea\u00f0
+  er heilbrig\u00f0 tilfinning. \u00dea\u00f0 er nau\u00f0synlegt a\u00f0 finna til.
+  \u00deunglyndi er allt \u00f6\u00f0ruv\u00edsi.\u201c \u2014 J.K. Rowling\\n\u00cd
+  sumum tilfellum getur\u00f0u gert raunh\u00e6far r\u00e1\u00f0stafanir til a\u00f0
+  breyta skapi \u00fe\u00ednu e\u00f0a tilfinningum, en \u00feegar \u00fe\u00fa berst
+  vi\u00f0 skr\u00edmsli \u00feunglyndis er mikilv\u00e6gt a\u00f0 f\u00e1 hj\u00e1lp.\\n3)
+  Ve\u00f0ur\\n\u00dea\u00f0 eru nokkrar tegundir af kl\u00edn\u00edsku \u00feunglyndi,
+  e\u00f0a sorgartilfinningu, sem h\u00e6gt er a\u00f0 hr\u00edfast \u00ed burtu me\u00f0
+  sm\u00e1 s\u00f3lskini. \u00cd raun er h\u00e6gt a\u00f0 b\u00e6ta \u00e1rst\u00ed\u00f0abundin
+  \u00e1hrifar\u00f6skun (SAD) einfaldlega me\u00f0 \u00fev\u00ed a\u00f0 fara \u00fat
+  \u00ed s\u00f3lina. L\u00edkamar okkar gleypa D-v\u00edtam\u00edn \u00far s\u00f3linni
+  sem hefur leitt til \u00feess a\u00f0 l\u00e6knasamf\u00e9lagi\u00f0 m\u00e6lir
+  me\u00f0 \u00fev\u00ed a\u00f0 f\u00e1 s\u00e9r s\u00f3larlj\u00f3sslampa, taka
+  D-v\u00edtam\u00edn f\u00e6\u00f0ub\u00f3tarefni e\u00f0a flytja \u00ed s\u00f3lr\u00edkara
+  loftslag sem lei\u00f0 til a\u00f0 me\u00f0h\u00f6ndla SAD.\\n\u201c\u00c9g s\u00e1
+  heiminn \u00ed sv\u00f6rtu og hv\u00edtu \u00ed sta\u00f0 l\u00edflegra lita og
+  t\u00f3na sem \u00e9g vissi a\u00f0 v\u00e6ru til.\u201c \u2015 Katie McGarry, Pushing
+  the Limits\\nEf \u00fe\u00fa hefur komist a\u00f0 \u00fev\u00ed a\u00f0 \u00fe\u00fal\u00ed\u00f0a
+  ni\u00f0ur \u00e1 dimmum d\u00f6gum vetrarins, pr\u00f3fa\u00f0u \u00feessa valkosti
+  og sj\u00e1\u00f0u hvort \u00feeir b\u00e6ta skap \u00feitt. Kannski skipulegg\u00f0u
+  su\u00f0r\u00e6nt fr\u00ed \u00e1 gr\u00e1um m\u00e1nu\u00f0um vetrarins svo \u00fe\u00fa
+  getir drekki\u00f0 allt \u00feetta D-v\u00edtam\u00edn vi\u00f0 sundlaugarbakkann
+  og drukki\u00f0 pi\u00f1a colada.\\n4) Streita\\nStreita getur veri\u00f0 st\u00f3r
+  \u00fe\u00e1ttur \u00ed \u00fe\u00e9r. tilfinningalega vell\u00ed\u00f0an. N\u00fdlegar
+  ranns\u00f3knir hafa s\u00fdnt a\u00f0 tengsl eru \u00e1 milli s\u00e1lr\u00e6nna
+  streituvalda og \u00fer\u00f3un \u00feunglyndis. Ef \u00fe\u00fa ert ni\u00f0urdreginn
+  vegna streitu e\u00f0a umhverfis\u00fe\u00e1tta, eins og vinnu \u00feinnar, g\u00e6ti
+  veri\u00f0 kominn t\u00edmi til a\u00f0 \u00edhuga breytingu.\\nUmhverfi\u00f0 \u00feitt
+  spilar st\u00f3ran \u00fe\u00e1tt \u00ed tilfinningalegri l\u00ed\u00f0an \u00feinni
+  og er eitthva\u00f0 sem \u00fe\u00fa hefur l\u00edklega getu til a\u00f0 breyta.
+  Kannski getur\u00f0u ekki selt allt og flutt til Hawaii, en \u00fe\u00fa g\u00e6tir
+  \u00edhuga\u00f0 a\u00f0 minnka l\u00edfsst\u00edlinn \u00feinn til a\u00f0 taka
+  vinnu sem er minna streituvaldandi.\\nEf streita \u00fe\u00edn stafar af tengsla\u00e1t\u00f6kum
+  skaltu \u00edhuga a\u00f0 leita til r\u00e1\u00f0gjafa sem s\u00e9rh\u00e6fir sig.
+  \u00ed samskiptam\u00e1lum. \u00dea\u00f0 g\u00e6ti veri\u00f0 kominn t\u00edmi
+  til a\u00f0 gera \u00fattekt \u00e1 \u00fev\u00ed hva\u00f0 er a\u00f0 virka \u00ed
+  l\u00edfi \u00fe\u00ednu og samb\u00f6ndum og hverju er h\u00e6gt a\u00f0 breyta
+  til a\u00f0 b\u00e6ta hlutina. \u00dea\u00f0 eru \u00f3tr\u00falegar forsendurnar
+  sem vi\u00f0 gerum um hvernig l\u00edf okkar \u00e6tti a\u00f0 l\u00edta \u00fat
+  sem er kannski ekki \u00fea\u00f0 sem er best fyrir okkur.\\n\u00c9g h\u00e9lt einu
+  sinni a\u00f0 til a\u00f0 vera g\u00f3\u00f0 mamma \u00feyrfti \u00e9g a\u00f0 vera
+  heima hj\u00e1- heima mamma. Hins vegar, \u00feegar t\u00edminn lei\u00f0 og \u00e9g
+  \u00e1tti erfitt me\u00f0 a\u00f0 finnast \u00e9g fulln\u00e6gja hlutverki m\u00ednu
+  heima, \u00e1tta\u00f0i \u00e9g mig \u00e1 \u00fev\u00ed a\u00f0 \u00e9g var me\u00f0
+  d\u00fafurhola\u00f0i mig inn \u00ed l\u00edfsst\u00edl sem passa\u00f0i ekki vi\u00f0
+  \u00fea\u00f0 sem \u00e9g er. A\u00f0 finna vinnu sem \u00e9g elska\u00f0i - a\u00f0
+  skrifa og hj\u00e1lpa til \u00ed samf\u00e9lags\u00e1\u00e6tlun sem lei\u00f0beindir
+  unglingum m\u00e6\u00f0rum - veitti s\u00e1l minni svo miki\u00f0 l\u00edf og l\u00edfsfyllingu
+  a\u00f0 ofgn\u00f3tt \u00feessara breytinga streymdi \u00fat \u00ed l\u00edf fj\u00f6lskyldu
+  minnar. \u00cd fyrstu fannst m\u00e9r \u00fea\u00f0 eigingjarnt a\u00f0 taka t\u00edma
+  fr\u00e1 b\u00f6rnunum m\u00ednum og fj\u00f6lskyldunni, en \u00e1 endanum hefur
+  \u00feetta veri\u00f0 ein besta \u00e1kv\u00f6r\u00f0un sem \u00e9g hef teki\u00f0
+  fyrir fj\u00f6lskylduna m\u00edna. Stundum \u00feurfum vi\u00f0 a\u00f0 hugsa \u00f6\u00f0ruv\u00edsi
+  um \u00fe\u00e6r forsendur sem vi\u00f0 h\u00f6fum gefi\u00f0 okkur um hvernig l\u00edfi\u00f0
+  \u00e6tti a\u00f0 l\u00edta \u00fat og \u00edhuga a\u00f0 gera \u00fea\u00f0 sem
+  vi\u00f0 h\u00f6fum brennandi \u00e1huga \u00e1 og bj\u00f3\u00f0a vinum okkar og
+  fj\u00f6lskyldu inn \u00ed \u00fe\u00e1 \u00e1str\u00ed\u00f0u. \u00dea\u00f0 g\u00e6ti
+  veitt \u00fe\u00e9r l\u00edf og gle\u00f0i, heldur f\u00f3lkinu sem elskar \u00feig
+  l\u00edka.\\nSj\u00e1 einnig: Tilfinningalegur farangur fr\u00e1 fyrri samb\u00f6ndum:
+  10 merki um a\u00f0 \u00fe\u00fa s\u00e9rt me\u00f0 hann og hvernig \u00e1 a\u00f0
+  takast \u00e1 vi\u00f0 \u00fea\u00f0Ef \u00fe\u00fa lendir \u00ed a\u00f0st\u00e6\u00f0um
+  sem \u00fe\u00fa getur ekki e\u00f0a vilt ekki breyta, g\u00e6tir\u00f0u vilja\u00f0
+  \u00edhuga a\u00f0 l\u00e6ra a\u00f0fer\u00f0ir til a\u00f0 hj\u00e1lpa \u00fe\u00e9r
+  a\u00f0 stj\u00f3rna streitu \u00feinni, eins og huglei\u00f0slu og einbeitt \u00f6ndun.
+  Litlar breytingar \u00e1 \u00fev\u00ed hvernig \u00fe\u00fa bregst vi\u00f0 streitu
+  g\u00e6ti dregi\u00f0 \u00far heildar tilfinningum \u00fe\u00ednum um sorg og \u00feunglyndi.
+  \u00dea\u00f0 eru \u00fdmsar \u00f3tr\u00falegar lei\u00f0ir til a\u00f0 halda r\u00f3
+  sinni \u00feegar \u00fe\u00fa ert stressa\u00f0ur sem mun hj\u00e1lpa \u00fe\u00e9r
+  a\u00f0 l\u00e6ra a\u00f0 takast \u00e1 vi\u00f0 streituvaldandi a\u00f0st\u00e6\u00f0ur
+  \u00e1 \u00feann h\u00e1tt sem er heilbrig\u00f0ur fyrir l\u00edkama \u00feinn og
+  huga.\\nOg ef allt anna\u00f0 mistekst, eins og Dodie Smith segir: \\\"G\u00f6fug
+  verk og heit b\u00f6\u00f0 eru bestu l\u00e6kningarnar vi\u00f0 \u00feunglyndi.\\\"
+  Far\u00f0u a\u00f0 gera eitthva\u00f0 gott fyrir einhvern og far\u00f0u \u00ed langt
+  heitt ba\u00f0. \u00de\u00fa g\u00e6tir veri\u00f0 undrandi a\u00f0 finna hvernig
+  einf\u00f6ld ath\u00f6fnumhyggja fyrir \u00f6\u00f0rum og sj\u00e1lfum s\u00e9r
+  getur fari\u00f0 langt \u00ed a\u00f0 draga \u00far depur\u00f0 og \u00feunglyndi.\\n5)
+  Neikv\u00e6\u00f0ar hugsanir\\n\u00deegar \u00fe\u00fa ert ni\u00f0urdreginn, \u00fea\u00f0
+  er \u00f3tr\u00falegt hva\u00f0 neikv\u00e6\u00f0ar hugsanir geta fari\u00f0 a\u00f0
+  r\u00e1\u00f0ast inn \u00ed hugann. Tilfinning um mist\u00f6k og vonleysi getur
+  lo\u00f0a\u00f0 eins og vatnsmikill hringi\u00f0ur og dregi\u00f0 \u00feig ni\u00f0ur
+  undir \u00f6ldurnar. \u00deessi innri gagnr\u00fdnandi getur l\u00e1ti\u00f0 \u00fe\u00e9r
+  l\u00ed\u00f0a eins og \u00fe\u00fa s\u00e9rt b\u00f6l samf\u00e9lagsins og b\u00f6l
+  heimsins. Hvort sem \u00feessar hugsanir eru vegna l\u00f6gm\u00e6tra mistaka sem
+  \u00fe\u00fa hefur gert e\u00f0a eru tilh\u00e6fulausar og \u00f3\u00e6skilegar,
+  \u00fe\u00e1 eru \u00fea\u00f0 \u00feessar tegundir af innri samt\u00f6lum sem halda
+  okkur ni\u00f0ri og \u00feunglyndum \u00ed daga, vikur, m\u00e1nu\u00f0i og \u00e1r.\\n\u00c9g
+  heyr\u00f0i einu sinni a\u00f0 \u00fe\u00fa s\u00e9rt \u00fea\u00f0 sem \u00fe\u00fa
+  tr\u00fair. Ef \u00fe\u00fa tr\u00fair \u00fev\u00ed a\u00f0 \u00feegar \u00fe\u00fa
+  gengur inn \u00e1 g\u00f6tuna ver\u00f0ur \u00fe\u00fa fyrir b\u00edl, \u00fe\u00fa
+  munt ekki ganga inn \u00e1 g\u00f6tuna. S\u00fa tr\u00fa mun halda \u00fe\u00e9r
+  fr\u00e1 \u00fev\u00ed a\u00f0 halda \u00e1fram. \u00dea\u00f0 sama \u00e1 vi\u00f0
+  um neikv\u00e6\u00f0ar hugsanir. Ef \u00fe\u00fa tr\u00fair \u00fev\u00ed a\u00f0
+  \u00fe\u00e9r s\u00e9 \u00e6tla\u00f0 a\u00f0 mistakast, muntu aldrei reyna. Ef
+  \u00fe\u00fa tr\u00fair \u00fev\u00ed a\u00f0 l\u00edf \u00feitt s\u00e9 einskis
+  vir\u00f0i muntu ekki fara fram \u00far r\u00faminu. Ef \u00fe\u00fa tr\u00fair
+  \u00fev\u00ed a\u00f0 enginn \u00feurfi \u00e1 \u00fe\u00e9r a\u00f0 halda muntu
+  aldrei hj\u00e1lpa neinum.\\nA\u00f0 takast \u00e1 vi\u00f0 \u00feessar neikv\u00e6\u00f0u
+  hugsanir er fl\u00f3ki\u00f0 og getur veri\u00f0 krefjandi. Hins vegar er ekki \u00f3m\u00f6gulegt
+  a\u00f0 vera laus vi\u00f0 \u00fe\u00e1. Byrja\u00f0u \u00e1 \u00fev\u00ed a\u00f0
+  skr\u00e1 allar neikv\u00e6\u00f0ar hugsanir sem \u00fe\u00fa hefur. \u00deegar
+  \u00fe\u00fa hefur loki\u00f0 vi\u00f0 listann skaltu byrja a\u00f0 strika yfir
+  \u00fe\u00e1 og skrifa \u00fat hva\u00f0 er satt \u00ed sta\u00f0inn. Eins og \u00fe\u00fa
+  breytir \u00fev\u00ed sem \u00fe\u00fatr\u00fa\u00f0u \u00e1 sj\u00e1lfan \u00feig
+  og lygar innri gagnr\u00fdnandans innra me\u00f0 \u00fe\u00e9r, \u00fe\u00fa munt
+  komast a\u00f0 \u00fev\u00ed a\u00f0 \u00feeir fara a\u00f0 missa vald sitt yfir
+  \u00fe\u00e9r.\\nVeldu a\u00f0 tala vingjarnlega vi\u00f0 sj\u00e1lfan \u00feig
+  og segja bara hluti sem \u00fe\u00fa myndir vilja a\u00f0 a\u00f0rir seg\u00f0u
+  um \u00fe\u00fa. Ef \u00fe\u00e9r mistekst, seg\u00f0u vi\u00f0 sj\u00e1lfan \u00feig
+  a\u00f0 \u00fe\u00fa hafir gert mist\u00f6k og \u00e1 morgun er n\u00fdr dagur \u00e1n
+  \u00feess a\u00f0 gera mist\u00f6k. Ef \u00fe\u00fa ger\u00f0ir eitthva\u00f0 heimskulegt,
+  seg\u00f0u vi\u00f0 sj\u00e1lfan \u00feig a\u00f0 \u00fe\u00fa hafir l\u00e6rt af
+  \u00fev\u00ed og \u00e1 morgun muntu ver\u00f0a vitrari. Burts\u00e9\u00f0 fr\u00e1
+  \u00fev\u00ed hva\u00f0 innri gagnr\u00fdnandi \u00feinn segir, strika\u00f0u yfir
+  \u00fea\u00f0 \u00ed huga \u00fe\u00ednum og skiptu honum \u00fat fyrir l\u00edfgefandi
+  sannleika.\\n\u00dea\u00f0 eru \u00fdmsar lei\u00f0ir til a\u00f0 b\u00e6ta andlega
+  heilsu \u00fe\u00edna og hamingju og horfast \u00ed augu vi\u00f0 neikv\u00e6\u00f0ar
+  hugsanir sem koma \u00ed veg fyrir a\u00f0 \u00fe\u00fa lifir \u00ed raun og veru
+  l\u00edfi \u00fe\u00ednu er fr\u00e1b\u00e6r sta\u00f0ur til a\u00f0 byrja a\u00f0
+  \u00fdta ni\u00f0ur myrkrinu og finna gle\u00f0ina.\\nKatie McGarry, \u00ed Pushing
+  the Limits, sag\u00f0i: \u201e\u00c9g s\u00e1 heiminn svart \u00e1 hv\u00edtu \u00ed
+  sta\u00f0 \u00feess l\u00edflega litir og litbrig\u00f0i sem \u00e9g vissi a\u00f0
+  v\u00e6ru til.\\\" \u00deegar \u00fe\u00fa stendur frammi fyrir myrkri neikv\u00e6\u00f0ra
+  hugsana skaltu m\u00e1la \u00fe\u00e1 liti sem \u00fe\u00fa veist a\u00f0 eru til
+  sta\u00f0ar. \u00de\u00fa g\u00e6tir veri\u00f0 hissa \u00e1 fegur\u00f0 meistaraverksins
+  sem \u00fe\u00fa hannar \u00feegar \u00fe\u00fa tekur gr\u00e1an heim og m\u00e1lar
+  hann bjartan.\\n6) Sorg & \u00c1f\u00f6ll\\nEf \u00fe\u00fa gengur n\u00f3gu lengi
+  \u00e1 \u00feessari j\u00f6r\u00f0 muntu ver\u00f0a fyrir mj\u00f6g raunverulegu
+  og varanlegu \u00e1falli e\u00f0a missi. Vandam\u00e1li\u00f0 vi\u00f0 a\u00f0 b\u00faa
+  \u00ed brotnum heimi, \u00fear sem f\u00f3lk deyr og stundum mei\u00f0ir a\u00f0ra,
+  er a\u00f0 \u00fea\u00f0 er n\u00e6stum \u00f3m\u00f6gulegt a\u00f0 gera \u00fea\u00f0\u00ed
+  gegnum l\u00edfi\u00f0 \u00e1n \u00feess a\u00f0 upplifa s\u00e1rsauka vi\u00f0
+  a\u00f0 missa einhvern e\u00f0a ver\u00f0a fyrir ska\u00f0a af \u00f6\u00f0rum.
+  \u00deessar tegundir taps - innra og ytra - breyta landslagi l\u00edfs \u00fe\u00edns
+  og hjarta. \u00de\u00f3 l\u00e6kning s\u00e9 m\u00f6guleg \u00ed b\u00e1\u00f0um
+  a\u00f0st\u00e6\u00f0um skilja \u00feau eftir sig \u00f6r sem hafa varanlega \u00e1hrif
+  \u00e1 hjarta \u00feitt og huga.\\n\u00c1f\u00f6ll breyta \u00fev\u00ed hvernig
+  heilinn \u00feinn vinnur \u00far l\u00edfi \u00fe\u00ednu. \u00deegar \u00fe\u00fa
+  lendir \u00ed \u00e1fallandi l\u00edfsatbur\u00f0i getur hippocampus \u00feinn (hluti
+  heilans sem fjallar um \u00e1kvar\u00f0anat\u00f6ku og r\u00f6kr\u00e9tta hugsun)
+  b\u00e6lt ni\u00f0ur, en amygdala (heimili\u00f0 fyrir e\u00f0lisl\u00e6gar tilfinningar
+  \u00fe\u00ednar eins og \u00f3tta og rei\u00f0i) eykst. \u00deessar breytingar geta
+  haft svo mikil \u00e1hrif \u00e1 l\u00edf \u00feitt a\u00f0 \u00feunglyndi \u00fer\u00f3ast
+  samhli\u00f0a. \u00dea\u00f0 eru spurningar um hvort \u00fer\u00f3un kl\u00edn\u00edsks
+  \u00feunglyndis s\u00e9 einkenni \u00feess a\u00f0 upplifa \u00e1fallatbur\u00f0
+  e\u00f0a hvort \u00fea\u00f0 \u00fer\u00f3ast sem svar vi\u00f0 l\u00edfsbreytingum
+  sem ver\u00f0a eftir \u00e1falli\u00f0 e\u00f0a missinn.\\n\u00d3h\u00e1\u00f0 \u00fer\u00f3un
+  \u00feess, ganga \u00ed gegnum sorgina. og \u00e1f\u00f6ll eru l\u00edfsbreytandi
+  reynsla sem krefst \u00feess a\u00f0 leita\u00f0 s\u00e9 til hj\u00e1lpar. \u00dea\u00f0
+  eru r\u00e1\u00f0gjafar sem s\u00e9rh\u00e6fa sig \u00ed bata \u00e1f\u00f6llum
+  og sorg, stu\u00f0ningsh\u00f3pum og \u00farr\u00e6\u00f0um sem bj\u00f3\u00f0a
+  upp \u00e1 hagn\u00fdt skref um hvernig \u00e1 a\u00f0 komast \u00ed gegnum sorgina.\\nHenry
+  Wadsworth Longfollow skrifa\u00f0i: \u201eS\u00e9rhver ma\u00f0ur hefur s\u00ednar
+  leyndu sorgir sem heimurinn veit. ekki; og oft k\u00f6llum vi\u00f0 mann kalt \u00feegar
+  hann er bara dapur.\u201c \u00deessi dj\u00fapa sorg sem r\u00e6nir heiminn litum\"",
+  "\"Fyrir viku s\u00ed\u00f0an var kapella H\u00e1sk\u00f3la \u00cdslands tekin \u00ed
+  notkun eftir gagngerar endurb\u00e6tur. Miki\u00f0 hefur veri\u00f0 lagt \u00ed
+  endurb\u00e6turnar og m\u00e9r skilst a\u00f0 fj\u00f6ldi handlaginna i\u00f0na\u00f0armanna
+  hafi lagt miki\u00f0 \u00ed verki\u00f0. Eins og s\u00e9st \u00e1 me\u00f0fylgjandi
+  mynd var miki\u00f0 um d\u00fdr\u00f0ir \u00ed kapellunni \u00feennan dag, biskup
+  \u00cdslands messa\u00f0i og s\u00f6ngm\u00e1lastj\u00f3ri sat vi\u00f0 orgeli\u00f0.\\nPr\u00e9dikun
+  biskups haf\u00f0i yfirskriftina V\u00edsindin efla alla d\u00e1\u00f0 og h\u00fan
+  er a\u00f0 sj\u00e1lfs\u00f6g\u00f0u birt \u00e1 tr\u00fa.is.\\n\u00c1 vef Independent
+  er Richard Dawkins spur\u00f0ur nokkurra spurninga. Ein kemur fr\u00e1 James Radford:\\nWhy
+  have you not engaged in public debate with Alister McGrath, Mary Midgley, Michael
+  Ruse, Keith Ward, or indeed anyone else who would present you with a serious challenge?\\nDawkins
+  svarar:\\nThe producers of my Channel 4 documentary [Root of All Evil?] invited
+  the Archbishop of Canterbury, the Cardinal Archbishop of Westminster and the Chief
+  Rabbi to be interviewed by me. All declined, doubtless for good reasons. I don\u2019t
+  enjoy the debate format, but I once had a public debate with the then Archbishop
+  of York, and The Observer quoted the verdict of one disconsolate clergyman as he
+  left the hall: \u201cThat was easy to sum up - Lions 10, Christians nil.\u201d\\nTvennt
+  \u00feykir m\u00e9r athyglisvert \u00ed \u00feessu sambandi: Annars vegar a\u00f0
+  Dawkins v\u00edkur s\u00e9r undan \u00fev\u00ed a\u00f0 svara spurningunni, a\u00f0
+  \u00f6\u00f0ru leyti en \u00fev\u00ed a\u00f0 hann segist hafa litla \u00e1n\u00e6gju
+  af \u00feessu samr\u00e6\u00f0uformi. Hann nefnir a\u00f0 v\u00edsu kirkjulei\u00f0togarnir,
+  en \u00fea\u00f0 \u00fearf ekki a\u00f0 vera jafngilt \u00fev\u00ed fr\u00e6\u00f0imennirnir
+  sem spyrjandi nefnir eru s\u00e9rfr\u00e6\u00f0ingar \u00e1 svi\u00f0i gu\u00f0fr\u00e6\u00f0i
+  og heimspeki sem hafa heilmikla inns\u00fdn \u00ed \u00feau svi\u00f0 sem Dawkins
+  hefur gefi\u00f0 sig a\u00f0. Hins vegar a\u00f0 \u00fe\u00f3tt kirkjulei\u00f0togarnir
+  \u00fer\u00edr sem nefnir eru h\u00e9r a\u00f0 ofan hafi neita\u00f0 vi\u00f0t\u00f6lum
+  \u00fe\u00e1 ger\u00f0i McGrath \u00fea\u00f0 ekki. Hann hefur sj\u00e1lfur sagt
+  a\u00f0 r\u00e6tt hafa veri\u00f0 vi\u00f0 hann vegna Root of all Evil? Vi\u00f0t\u00f6lin
+  r\u00f6tu\u00f0u bara ekki \u00ed myndina. Hva\u00f0 skyldi mega r\u00e1\u00f0a
+  af \u00fev\u00ed?\\nGu\u00f0,\\nl\u00e1t alla okkar vinnu,\\n\u00e1 heimili, \u00ed
+  sk\u00f3la og \u00e1 vinnust\u00f6\u00f0um,\\nvera til uppbyggingar og styrkingar.\\nGef
+  a\u00f0 enginn gleymist,\\nog a\u00f0 allir m\u00e6ti vin\u00e1ttu og k\u00e6rleika
+  \u00ed \u00f6\u00f0rum.Gu\u00f0,\\ngef okkur kraft til a\u00f0 takast \u00e1 vi\u00f0
+  hva\u00f0eina sem \u00ed\u00feyngir\\nog gef a\u00f0 vi\u00f0 megum \u00f6ll b\u00e6ta
+  heiminn\\nme\u00f0 l\u00edfi okkar og starfi.\\nFyrir Jes\u00fa Krist, Drottin vorn.\\n\u00dea\u00f0
+  kom \u00ed minn hlut a\u00f0 semja hluta af almennri kirkjub\u00e6n sem var lesin
+  \u00ed 1. des messunni \u00ed H\u00cd. \u00deema\u00f0 var vinna og heimili. \u00deetta
+  var ni\u00f0ursta\u00f0an, innbl\u00e1sin af b\u00e6nab\u00f3kinni s\u00e6nsku.\"",
+  "\"Pernilla b\u00fd\u00f0ur: S\u00e9rherbergi \u00ed leigueining\\n2 gestir, 1 svefnherbergi,
+  1 r\u00fam, 1,5 ba\u00f0herbergi\\n\u00cdtarlegri r\u00e6stingar\\n\u00deessi gestgjafi
+  hefur lofa\u00f0 a\u00f0 fylgja 5 skrefa ferli Airbnb um \u00edtarlegri r\u00e6stingar.\\nPernilla
+  er ofurgestgjafi\\nOfurgestgjafar eru reyndir gestgjafar me\u00f0 h\u00e1a einkunn
+  sem leggja sig fram um a\u00f0 veita gestum s\u00ednum fram\u00farskarandi gistingu.\\nFr\u00e1b\u00e6r
+  sta\u00f0setning\\n100% n\u00fdlegra gesta g\u00e1fu 5 stj\u00f6rnur \u00ed einkunn
+  fyrir sta\u00f0setninguna.\\nSvefna\u00f0sta\u00f0a\\nVeldu innritunardag\\nB\u00e6ttu
+  vi\u00f0 fer\u00f0ad\u00f6gunum \u00fe\u00ednum til a\u00f0 f\u00e1 n\u00e1kv\u00e6mt
+  ver\u00f0\\n- 12 umsagnir\\n- Au\u00f0kenni votta\u00f0\\n- Ofurgestgjafi\\n\u00cd
+  dv\u00f6linni\\nTillg\u00e4nglig f\u00f6r sms, mail och samtal(fr\u00e4mst kv\u00e4llstid)\\nPernilla
+  er ofurgestgjafi\\nOfurgestgjafar eru vel metnir og reyndir gestgjafar sem leggja
+  sig fram um a\u00f0 veita gestum s\u00ednum fram\u00farskarandi gistingu.\\nMikilv\u00e6g
+  atri\u00f0i\\nHeilsa og \u00f6ryggi\\nLei\u00f0beiningar Airbnb um n\u00e1ndarm\u00f6rk
+  og \u00f6nnur vi\u00f0mi\u00f0 var\u00f0andi COVID-19 eiga vi\u00f0\\nSt\u00f6\u00f0uvatn
+  e\u00f0a \u00e1 \u00ed n\u00e1grenninu\\nReykskynjari\"", "\"L\u00e9ttara l\u00edf
+  \u00e1n lyfja\\nK\u00e6ru sj\u00fakrali\u00f0ar!\\nYkkur er bo\u00f0i\u00f0 \u00e1
+  n\u00e1mskei\u00f0i\u00f0:\\n\u00deriggja t\u00edma n\u00e1mskei\u00f0 laugardaginn
+  23. mars 2013 kl:10-13:15 (Skr\u00e1ning hefst kl. 9:45)\\nSta\u00f0setning: Lifandi
+  marka\u00f0ur, Borgart\u00fani 24, 105 Reykjav\u00edk\\n\u00c1 \u00e1rinu 2012 voru
+  LifeWave lj\u00f3sgjafarnir vi\u00f0urkenndir og skr\u00e1\u00f0ir sem lj\u00f3sorkume\u00f0fer\u00f0
+  (phototherapy) \u00ed Evr\u00f3pu.\\nN\u00fa er bo\u00f0i\u00f0 upp \u00e1 n\u00e1mskei\u00f0
+  til a\u00f0 kynna \u00feessa n\u00fdjung innan heilsugeirans. N\u00e1mskei\u00f0i\u00f0
+  er \u00fe\u00e1tttakendum a\u00f0 kostna\u00f0arlausu en seldar ver\u00f0a veitingar
+  \u00ed h\u00e1degishl\u00e9inu.\\n\u00dear sem s\u00e6tafj\u00f6ldi er takmarka\u00f0ur
+  viljum vi\u00f0 bi\u00f0ja \u00fe\u00e1 sem hafa \u00e1huga a\u00f0 l\u00e1ta vita
+  sem fyrst me\u00f0 t\u00f6lvup\u00f3sti \u00e1 netfangi\u00f0 This email address
+  is being protected from spambots. You need JavaScript enabled to view it.\\\" e\u00f0a
+  \u00ed s\u00edma 696 8609.\\nLifeWave er \u00f3d\u00fdr og \u00e1hrifar\u00edk me\u00f0fer\u00f0art\u00e6kni
+  sem skilar oft skj\u00f3tum \u00e1rangri. T\u00e6knin notar innrau\u00f0ar lj\u00f3sbylgjur,
+  en \u00fe\u00e6r eru ekki innan hins sj\u00e1anlega litr\u00f3fs lj\u00f3ssins.
+  Lj\u00f3sgjafarnir \u00f6rva orkufl\u00e6\u00f0i og efla styrk orku af \u00e1kve\u00f0num
+  t\u00ed\u00f0num. Af \u00feessu er mikill heilsufarslegur \u00e1vinningur og lj\u00f3sgjafarnir
+  geta haft \u00fdmis g\u00f3\u00f0 \u00e1hrif:\\nG\u00f3\u00f0 lausn \u00e1 svefnvanda\\n\u00d6flug
+  verkjastilling\\nAukin orka og \u00fathald\\nG\u00f3\u00f0 hj\u00e1lp vi\u00f0 \u00feyngdarstj\u00f3rnun\\nG\u00f3\u00f0
+  v\u00f6rn gegn streitu\\nVinnur \u00e1 b\u00f3lgum\\nEflir afeitrunarh\u00e6fni
+  og andoxunarvarnir l\u00edkamans\\nT\u00e6knina n\u00fdtir f\u00f3lk sem hefur \u00e1huga
+  \u00e1 forv\u00f6rnum og / e\u00f0a vill b\u00e6ta \u00e1rangur sinn \u00ed \u00ed\u00fer\u00f3ttum.
+  Jafnframt hefur fj\u00f6ldi sj\u00faklinga greint fr\u00e1 \u00fev\u00ed hvernig
+  t\u00e6knin hefur hj\u00e1lpa\u00f0 \u00feeim a\u00f0 \u00f6\u00f0last b\u00e6tt
+  l\u00edfsg\u00e6\u00f0i.\\n\u00c1 n\u00e1mskei\u00f0inu ver\u00f0ur m.a. greint
+  fr\u00e1 \u00fev\u00ed hvernig lj\u00f3sgjafarnir eru nota\u00f0ir og s\u00fdnt
+  hvar \u00feeim er komi\u00f0 fyrir \u00e1 n\u00e1lastungupunktum til a\u00f0 veita
+  mismunandi me\u00f0fer\u00f0ir.\\nSj\u00e1 n\u00e1mskei\u00f0sdagskr\u00e1 \u00ed
+  vi\u00f0hengi.\\nFyrirlesarar eru: Gunnar J\u00f3nasson t\u00e6knifr\u00e6\u00f0ingur,
+  Steinar \u00deorsteinsson tannl\u00e6knir, Hanna El\u00edsd\u00f3ttir heilsur\u00e1\u00f0gjafi
+  og Krist\u00edn Bj\u00f6rg Gu\u00f0mundsd\u00f3ttir d\u00fdral\u00e6knir Ph.D.\\nHlakka
+  til a\u00f0 heyra fr\u00e1 \u00fe\u00e9r.\\nMe\u00f0 kve\u00f0ju,\\nKrist\u00edn
+  Bj\u00f6rg Gu\u00f0mundsd\u00f3ttir\\nAl\u00fej\u00f3\u00f0legur bar\u00e1ttudagur
+  kvenna 8. mars var haldinn \u00ed I\u00f0n\u00f3.\\nFullt var \u00fat \u00far dyrum
+  \u00e1 fundinum.\\nMe\u00f0al r\u00e6\u00f0umanna var Krist\u00edn \u00c1. Gu\u00f0mundsd\u00f3ttir,
+  forma\u00f0ur Sj\u00fakrali\u00f0af\u00e9lags \u00cdslands\\nH\u00fan f\u00f3r yfir
+  st\u00f6\u00f0u kvenna \u00e1 vinnumarka\u00f0i og lag\u00f0i fram krefjandi spurningar
+  um hva\u00f0 valdi l\u00e1gri atvinnu\u00fe\u00e1tt\u00f6ku kvenna.\\n\u00de\u00e1
+  kom h\u00fan inn \u00e1 st\u00f6\u00f0u heilbrig\u00f0iskerfisins og gagnr\u00fdndi
+  \u00e1 \u00fe\u00e1 \u00fe\u00f6ggun vi\u00f0gengst heilbrig\u00f0iskerfinu.\\n\u00dear
+  sem fullb\u00f3ka\u00f0 er \u00e1 fyrra n\u00e1mskei\u00f0i\u00f0 og f\u00e6rri
+  komust a\u00f0 en vildu h\u00f6fum vi\u00f0 \u00e1kve\u00f0i\u00f0 a\u00f0 b\u00e6ta
+  vi\u00f0 \u00f6\u00f0ru n\u00e1mskei\u00f0i 19. og 20. mars. N\u00e1mskei\u00f0i\u00f0
+  ver\u00f0ur me\u00f0 sama h\u00e6tti og \u00fea\u00f0 fyrra, kennt \u00ed Skeifunni
+  11b en einnig fjarkennt.\\nFjalla\u00f0 ver\u00f0ur um minnissj\u00fakd\u00f3ma
+  og s\u00e9rstaklega fjalla\u00f0 um Alzheimer sj\u00fakd\u00f3minn greiningu hans
+  og einkenni. Fari\u00f0 ver\u00f0ur yfir \u00fer\u00f3un sj\u00fakd\u00f3msins og
+  me\u00f0fer\u00f0ar\u00farr\u00e6\u00f0i. F\u00e9lagsleg \u00farr\u00e6\u00f0i og
+  me\u00f0fer\u00f0 vi\u00f0 l\u00edfslok.\\nLei\u00f0beinandi: J\u00f3n Eyj\u00f3lfur
+  J\u00f3nsson, yfirl\u00e6knir \u00e1 br\u00e1\u00f0a\u00f6ldrunarl\u00e6kningadeild
+  LSH\\nN\u00e1mskei\u00f0i\u00f0 er einnig sent \u00fat \u00ed fjarkennslu, n\u00e1nari
+  uppl\u00fdsingar um fjarkennslu er a\u00f0 finna h\u00e9r. Skr\u00e1ning \u00e1
+  heimas\u00ed\u00f0u Framvegis h\u00e9r\\n\u00cd dag m\u00e6lti Gu\u00f0bjartur Hannesson
+  velfer\u00f0arr\u00e1\u00f0herra fyrir frumvarpi \u00e1 Al\u00feingi sem felur \u00ed
+  s\u00e9r heildarendursko\u00f0un \u00e1 almannatryggingal\u00f6ggj\u00f6finni og
+  grundvallarbreytingar \u00e1 r\u00e9ttindum ellil\u00edfeyris\u00feega.\\nMeginmarkmi\u00f0i\u00f0
+  er a\u00f0 einfalda l\u00f6ggj\u00f6fina, sk\u00fdra betur r\u00e9ttindi l\u00edfeyris\u00feega
+  og styrkja st\u00f6\u00f0u aldra\u00f0ra. Frumvarpi\u00f0 er byggt \u00e1 ni\u00f0urst\u00f6\u00f0um
+  starfsh\u00f3ps um endursko\u00f0un almannatryggingalaga sem skipa\u00f0ur var hausti\u00f0
+  2009.\\n\u00cd marga \u00e1ratugi hefur veri\u00f0 r\u00e6tt um mikilv\u00e6gi \u00feess
+  a\u00f0 taka almannatryggingakerfi\u00f0 til allsherjar endursko\u00f0unar.\\nN\u00fana
+  eftir nokkurra \u00e1ra undirb\u00faning og \u00fe\u00fasundir vinnustunda er lag\u00f0ur
+  fram grunnur a\u00f0 n\u00fdju kerfi sem byggir \u00e1 \u00feverp\u00f3lit\u00edskri
+  s\u00e1tt.\\nAllar n\u00e1nari uppl\u00fdsingar m\u00e1 sj\u00e1 h\u00e9r. http://www.velferdarraduneyti.\\nN\u00e6stu
+  daga munu f\u00e9lagsmenn a\u00f0ildarf\u00e9laga BSRB f\u00e1 senda til s\u00edn
+  kjarak\u00f6nnun BSRB fyrir \u00e1ri\u00f0 2013 \u00e1 t\u00f6lvup\u00f3stnetf\u00f6ng
+  s\u00edn. \u00dea\u00f0 er Capacent sem framkv\u00e6mir k\u00f6nnunina fyrir BSRB.
+  Bandalagi\u00f0 hvetur sem flesta til a\u00f0 taka \u00fe\u00e1tt \u00ed k\u00f6nnuninni
+  \u00fear sem uppl\u00fdsingarnar sem h\u00fan veitir munu gagnast BSRB til a\u00f0
+  f\u00e1 betri yfirs\u00fdn yfir kjaram\u00e1l f\u00e9lagsmanna bandalagsins. K\u00f6nnunin
+  hefur reynst vera \u00f6flugt t\u00e6ki \u00ed r\u00e9ttindabar\u00e1ttunni og \u00feess
+  vegna er mikilv\u00e6gt a\u00f0 \u00fe\u00e1tttaka \u00ed k\u00f6nnuninni s\u00e9
+  me\u00f0 besta m\u00f3ti.\\nMe\u00f0al \u00feess sem s\u00ed\u00f0asta k\u00f6nnun
+  s\u00fdndi gl\u00f6gglega fram \u00e1 var a\u00f0 \u00e1lag \u00e1 opinbera starfsmenn
+  hefur aukist miki\u00f0 \u00e1 milli \u00e1ra og a\u00f0 margir hafa ekki enn fengi\u00f0
+  lei\u00f0r\u00e9ttingar launa sinna vegna kjarasker\u00f0inga \u00ed kj\u00f6lfar
+  efnahagshrunsins. Eins s\u00fdndi k\u00f6nnunin fram \u00e1 mikinn kynbundinn launamun
+  hj\u00e1 r\u00edki og sveitarf\u00e9l\u00f6gum fyrir utan mikilv\u00e6gar uppl\u00fdsingar
+  um grunnlaun, yfirvinnu, vinnut\u00edma og l\u00ed\u00f0an \u00ed starfi svo nokkur
+  atri\u00f0i s\u00e9u talin til. R\u00e9tt er a\u00f0 benda f\u00f3lki \u00e1 a\u00f0
+  fari\u00f0 ver\u00f0ur me\u00f0 allar uppl\u00fdsingar sem tr\u00fana\u00f0arm\u00e1l.\\n\u00deegar
+  sv\u00f6r hafa borist ver\u00f0ur s\u00ed\u00f0an dregi\u00f0 \u00far innsendum
+  sv\u00f6rum og hlj\u00f3ta nokkrir \u00fe\u00e1tttakendur gjafabr\u00e9f fr\u00e1
+  Icelandair a\u00f0 upph\u00e6\u00f0 60 \u00fe\u00fasund kr\u00f3nur.\\n\u00dea\u00f0
+  er \u00f3sk BSRB og a\u00f0ildarf\u00e9laga bandalagsins a\u00f0 f\u00e9lagsmenn
+  taki bei\u00f0ni okkar um \u00fe\u00e1ttt\u00f6ku \u00ed k\u00f6nnuninni me\u00f0
+  opnum hug svo a\u00f0 ni\u00f0urst\u00f6\u00f0ur hennar ver\u00f0i sem \u00e1rei\u00f0anlegastar
+  og gagnist okkur \u00feannig sem best \u00ed \u00e1framhaldandi bar\u00e1ttu okkar
+  fyrir b\u00e6ttum hag f\u00e9lagsmanna bandalagsins.\\nEf einhverjar spurningar
+  vakna var\u00f0andi k\u00f6nnunina mun starfsf\u00f3lk BSRB eftir fremsta megni
+  reyna a\u00f0 svara \u00feeim \u00ed samr\u00e1\u00f0i vi\u00f0 Capacent. S\u00edminn
+  \u00e1 skrifstofu BSRB er 525 8300 og netfangi\u00f0 erThis email address is being
+  protected from spambots. You need JavaScript enabled to view it.\\\" target=\\\"_blank\\\"
+  style=\\\"color:rgb(17, 85, 204)\\\">This email address is being protected from
+  spambots. You need JavaScript enabled to view it..\\n\u00c1 starfatorgi sj\u00fakrali\u00f0af\u00e9lagsins
+  er augl\u00fdst eftir sj\u00fakrali\u00f0um til starfa \u00e1 n\u00fdju hj\u00fakrunarheimili
+  vi\u00f0 Sj\u00e1land \u00ed Gar\u00f0ab\u00e6.\\nSj\u00fakrali\u00f0af\u00e9lag
+  \u00cdslands hvetur sj\u00fakrali\u00f0a til \u00feess a\u00f0 kynna s\u00e9r a\u00f0st\u00e6\u00f0ur
+  \u00e1 hinu n\u00fdja heimili.\\nVann\u00e6ring hj\u00e1 \u00f6ldru\u00f0um og langveikum
+  - l\u00e6r\u00f0u a\u00f0 greina, fyrirbyggja og me\u00f0h\u00f6ndla-Einnig fjarkennt
+  N\u00ddTT\\n\u00dear sem fullb\u00f3ka\u00f0 er \u00e1 fyrra n\u00e1mskei\u00f0i\u00f0
+  og f\u00e6rri komust a\u00f0 en vildu h\u00f6fum vi\u00f0 \u00e1kve\u00f0i\u00f0
+  a\u00f0 b\u00e6ta vi\u00f0 \u00f6\u00f0ru n\u00e1mskei\u00f0i 29. og 30. apr\u00edl.
+  N\u00e1mskei\u00f0i\u00f0 ver\u00f0ur me\u00f0 sama h\u00e6tti og \u00fea\u00f0
+  fyrra, kennt \u00ed Skeifunni 11b en einnig fjarkennt.\\n\u00c1 n\u00e1mskei\u00f0inu
+  ver\u00f0ur fjalla\u00f0 um hvernig n\u00e6ringar\u00e1stand einstaklingsins hefur
+  \u00e1hrif \u00e1 l\u00edfsl\u00edkur og \u00e1rangur me\u00f0fer\u00f0ar. Markmi\u00f0
+  n\u00e1mskei\u00f0sins er a\u00f0 sj\u00fakrali\u00f0ar \u00feekki lei\u00f0ir til
+  a\u00f0 koma \u00ed veg fyrir vann\u00e6ringu og a\u00f0 greina einstaklinga \u00ed
+  \u00e1h\u00e6ttu a\u00f0 f\u00e1 vann\u00e6ringu.\\nLei\u00f0beinandi: \u00d3l\u00f6f
+  Gu\u00f0n\u00fd Geirsd\u00f3ttir, n\u00e6ringarfr\u00e6\u00f0ingur \u00e1 LSH og
+  doktorsnemi \u00ed n\u00e6ringarfr\u00e6\u00f0i. N\u00e1mskei\u00f0i\u00f0 er einnig
+  sent \u00fat \u00ed fjarkennslu, n\u00e1nari uppl\u00fdsingar um fjarkennslu er
+  a\u00f0 finna h\u00e9r. Skr\u00e1ning \u00e1 heimas\u00ed\u00f0u Framvegish\u00e9r\"",
+  "\"Innihaldsl\u00fdsing:\\n\u00cdslensk gr\u00edsarif 90%, vatn, sykur, t\u00f3mat\u00feykkni,
+  edik, umbreytt ma\u00edssterkja, salt, SOJABAUNIR, HVEITI, hv\u00edtlaukur, engifer,
+  laukur, rotvarnarefni (E202), \u00feurrka\u00f0 chilli 28%, s\u00edtr\u00f3nugras,
+  hv\u00edtlaukur, skalottlaukur, salt, limeb\u00f6rkur, k\u00f3r\u00edanderfr\u00e6,
+  k\u00famen.\\nN\u00e6ringargildi:\\nOrka\\nFita\\n\u00dear af mettu\u00f0 fita\\nKolvetni\\n\u00dear
+  af sykurtegundir\\nPr\u00f3tein\\nSalt\\n1424 kj / 343 kkal\\n26,5 g\\n9,8 g\\n6,9
+  g\\n6 g\\n18,3 g\\n0,8 g\\nATH : \u00deessi rif eru fersk!\\nInnihaldsl\u00fdsing:\\nGr\u00edsarif,
+  vatn, salt, gl\u00fak\u00f3sa- fr\u00fakt\u00f3sas\u00edr\u00f3p, t\u00f3matp\u00farra,
+  edik, eplasafi, umbreytt ma\u00edssterkja, krydd, laukduft, litarefni (E150c), repjuol\u00eda,
+  hv\u00edtlauksduft, bindiefni (E415), reykbrag\u00f0efni, sykur, melassi, brag\u00f0efni,
+  malt\u00f3dextr\u00edn, chilli, krydd\u00feykkni\\nN\u00e6ringargildi:\\nOrka\\nFita\\n\u00dear
+  af mettu\u00f0 fita\\nKolvetni\\n\u00dear af sykurtegundir\\nPr\u00f3tein\\nSalt\\n1.111
+  kj / 267 kkal\\n19,2 g\\n7,1 g\\n11,4 g\\n9,7 g\\n13,3 g\\n0,6 g\\nATH : \u00deessi
+  rif eru fulleldu\u00f0\\nEldunarlei\u00f0beiningar\\nHvernig hitaru fulleldu\u00f0u
+  rifin?\\nRifin fr\u00e1 St\u00f6rnugr\u00eds eru h\u00e6geldu\u00f0 \u00e1 l\u00e1gum
+  hita \u00ed nokkra klukkut\u00edma. Varan er fulleldu\u00f0 og \u00fearf \u00fev\u00ed
+  bara a\u00f0 hita.\\nKveiki\u00f0 \u00e1 grillinu og l\u00e1ti\u00f0 \u00fea\u00f0
+  n\u00e1 mi\u00f0lungs h\u00e1um hita.\\nOpni\u00f0 pakkningarnar en geymi\u00f0
+  umb\u00fa\u00f0irnar \u00fev\u00ed gott er a\u00f0 nota afgangs marineringu til
+  a\u00f0 pennsla kj\u00f6ti\u00f0.\\nGrilli\u00f0 rifin \u00ed 3-5 m\u00edn\u00fatur
+  \u00e1 hvorri hli\u00f0 og pensli\u00f0 rifin \u00feegar \u00fei\u00f0 sn\u00fai\u00f0
+  \u00feeim.\\nEinnig er h\u00e6gt a\u00f0 hita rifin \u00ed ofni vi\u00f0 190\u00b0C
+  \u00ed 10 m\u00edn\u00fatur.\\nHvernig eldaru fersku rifin?\\nBara Grill:\\nSetji\u00f0
+  rifin \u00ed \u00e1lpapp\u00edr og grilli\u00f0 \u00e1 \u00f3beinum hita \u00e1
+  180\u00b0 \u00ed 2 - 3 t\u00edma \u00fear til \u00feau eru or\u00f0inn meyr.\\nrifinn
+  tekin af grillinu og leyft a\u00f0 hv\u00edla \u00ed 10 min\u00fatur,\\nrifinn tekin
+  \u00far \u00e1lpapp\u00edrnum, pennsli\u00f0 svo me\u00f0 BBQ og kl\u00e1ri\u00f0
+  \u00feau \u00e1 heitu grillinu.\\nOfn & Grill:\\nPakki\u00f0 rifjunum vandlega \u00ed
+  \u00e1lpapp\u00edr e\u00f0a grillpapp\u00edr og leggi\u00f0 \u00ed ofnsk\u00faffu
+  og baki\u00f0 \u00ed 2-3 klst \u00e1 160 gr\u00e1\u00f0um e\u00f0a \u00fear til
+  kj\u00f6ti\u00f0 er or\u00f0i\u00f0 alveg meyrt. taki\u00f0 rifin \u00far ofninum
+  og hv\u00edli\u00f0 \u00ed 10 m\u00edn\u00fatur, taki\u00f0 svo rifinn \u00far \u00e1lpapp\u00edrnum
+  pennsli\u00f0 me\u00f0 BBQ s\u00f3su e\u00f0a samb\u00e6rilegri s\u00f3su , n\u00fa
+  eru rifin tilb\u00fain beint \u00e1 grilli\u00f0 e\u00f0a \u00ed ofninn.\\nKl\u00e1ra\u00f0
+  \u00e1 grilli:\\nHiti\u00f0 grilli\u00f0 \u00e1 h\u00e1an hita og sn\u00fai\u00f0
+  reglulega og pennsli\u00f0 me\u00f0 bbq \u00ed sirka 8 - 10 m\u00edn\u00fatur.\\nKl\u00e1ra\u00f0
+  \u00ed ofni:\\nHiti\u00f0 ofninn \u00ed 190\u00b0C. pennsli\u00f0 rifinn me\u00f0
+  bbq og leggji\u00f0 \u00ed eldfast m\u00f3t og baki\u00f0 \u00ed 10 m\u00edn\u00fatur.\"",
+  "\"Efnisyfirlit\\nFl\u00f6ktart\u00e1kn & Merking\\n\u00dearftu sm\u00e1 auka orku
+  til a\u00f0 komast \u00ed gegnum verkefni? Viltu tj\u00e1 ekta sj\u00e1lf \u00feitt?
+  Flicker, sem anda, totem og kraftd\u00fdr, getur hj\u00e1lpa\u00f0! Flicker kennir
+  \u00fe\u00e9r hvernig \u00e1 a\u00f0 teygja au\u00f0lindir \u00fe\u00ednar og beisla
+  innri eldinn \u00feinn, allt \u00e1 sama t\u00edma og \u00fe\u00fa s\u00fdnir \u00fe\u00e9r
+  hvernig \u00e1 a\u00f0 l\u00e1ta pers\u00f3nuleika \u00feinn sk\u00edna! Far\u00f0u
+  dj\u00fapt \u00ed fl\u00f6ktandi t\u00e1knm\u00e1l og merkingu til a\u00f0 komast
+  a\u00f0 \u00fev\u00ed hvernig \u00feessi Animal Spirit Guide getur styrkt, a\u00f0sto\u00f0a\u00f0
+  og lei\u00f0beint \u00fe\u00e9r!\\nFlicker Symbolism & Merking\\nThe Flicker Bird
+  er \u00f3kunnugur me\u00f0limur sk\u00f3gar\u00fer\u00f6starfj\u00f6lskyldunnar
+  fyrir marga, en b\u00e1\u00f0ir fuglarnir deila m\u00f6rgum t\u00e1knr\u00e6num
+  eiginleikum. \u00d3l\u00edkt sk\u00f3gar\u00fer\u00f6stnum grafa Flickers hins vegar
+  \u00ed j\u00f6r\u00f0ina til a\u00f0 finna snakki\u00f0 sitt frekar en a\u00f0 banka
+  \u00e1 vi\u00f0inn. \u00deeir flytja \u00e1rlega, \u00fear sem sk\u00f3gar\u00fer\u00f6stur
+  gera \u00fea\u00f0 ekki, sem \u00fe\u00fd\u00f0ir a\u00f0 fl\u00f6kt endurspeglar
+  hringr\u00e1s n\u00e1tt\u00farunnar \u00ed kennslustundum s\u00ednum. Samt, \u00fer\u00e1tt
+  fyrir a\u00f0 \u00feeir s\u00e9u \u00f3l\u00edkir, getur lestur Woodpecker t\u00e1knfr\u00e6\u00f0i
+  og merkingu veitt frekari inns\u00fdn \u00ed \u00fatlit Flicker sem Animal Spirit
+  Guide.\\nEins og allir Woodpeckers, Flickers eru meistarar \u00ed samskiptum. \u00deeir
+  pikka \u00fat takt, hlj\u00f3ma eins og \u00e6ttb\u00e1lka \u00ed trj\u00e1num.
+  E\u00f0a, ef \u00feeir geta fundi\u00f0 annan \u00e1hugaver\u00f0an h\u00e1v\u00e6ran
+  hlut, nota \u00feeir hann \u00ed sta\u00f0inn. Blikk\u00fe\u00f6k vir\u00f0ast vera
+  upp\u00e1haldshlj\u00f3\u00f0f\u00e6ri; \u00fe\u00fa getur heyrt \u00e1berandi hlj\u00f3\u00f0i\u00f0
+  \u00ed k\u00edl\u00f3metra fjarl\u00e6g\u00f0. Flickers eru ekki feimin vi\u00f0
+  a\u00f0 gera l\u00e6ti! \u00deeir syngja bo\u00f0skap til anda \u00fe\u00edns: \u201eLeiktu
+  hamingjusamurt\u00f3nlist h\u00e1v\u00e6r og l\u00f6ng!\u201c\\nFl\u00f6kt verpir
+  sjaldan \u00ed trj\u00e1holunum sem \u00feeir b\u00e1ru. \u00cd sta\u00f0inn, eins
+  og t\u00f3nlistin \u00feeirra, finna \u00feeir \u00f3hef\u00f0bundnar sta\u00f0i
+  til a\u00f0 verpa. Sv\u00e6\u00f0i fela \u00ed s\u00e9r yfirgefina sta\u00f0i sem
+  \u00feeir nota me\u00f0 \u00fev\u00ed a\u00f0 festa \u00fe\u00e1 \u00e1 r\u00e9ttan
+  h\u00e1tt. Enda n\u00e6r snj\u00f6ll l\u00edtil a\u00f0l\u00f6gun langt; h\u00e9r
+  kemur fuglinn til a\u00f0 t\u00e1kna \u00fatsj\u00f3narsemi og hugvit.\\nFl\u00f6ktir
+  f\u00e1 nafn sitt af litum v\u00e6ngjanna. Undirhli\u00f0 fja\u00f0ranna er glampandi
+  gul og rau\u00f0, eins og fl\u00f6ktandi eldslogi. Ef \u00fe\u00fa stendur fyrir
+  austan fuglsins muntu sj\u00e1 gult fyrst. \u00deegar \u00fe\u00fa stendur vestan
+  vi\u00f0 fl\u00f6kti\u00f0 s\u00e9r\u00f0u fyrst rautt. B\u00e1\u00f0ir litirnir
+  gefa Flicker tengsl vi\u00f0 loft- og eldfrumurnar.\\nLj\u00f3sstarfsmenn benda
+  til \u00feess a\u00f0 rau\u00f0i liturinn \u00e1 h\u00f6f\u00f0i Flicker, me\u00f0
+  litarefni \u00feess svipa\u00f0 r\u00f3tarst\u00f6\u00f0inni, t\u00e1knar \u00feol
+  og sk\u00f6punarg\u00e1fu, og r\u00f3tgr\u00f3na \u00e1str\u00ed\u00f0u. Svarti
+  h\u00e1lfm\u00e1ninn l\u00edtur \u00fat eins og fyrsta fl\u00eds n\u00fdja tunglsins
+  og b\u00fd\u00f0ur upp \u00e1 von, n\u00e6mni og ferskan hring. F\u00e6tur Flicker
+  gefa \u00fev\u00ed enn meiri merkingu. \u00dea\u00f0 eru tv\u00e6r t\u00e6r fyrir
+  framan og aftan, sem veitir fullkomi\u00f0 jafnv\u00e6gi.\\nSamb\u00f6nd milli fl\u00f6ktanna
+  hefjast me\u00f0 danss\u00fdningu. Vals me\u00f0al karlanna \u00fej\u00f3nar ekki
+  a\u00f0eins til a\u00f0 bi\u00f0ja um kvenkyns Flicker heldur sendir hann str\u00f6ng
+  skilabo\u00f0 til annarra karld\u00fdra \u00e1 sv\u00e6\u00f0inu. Karlkyns Flickers
+  mun hafa starandi eldsp\u00fdtu, \u00ed fyrstu standa a\u00f0eins nokkrar tommur
+  \u00e1 milli \u00ed kyrr\u00f0.\u00de\u00e1 hallar annar af tveimur karld\u00fdrum
+  h\u00f6f\u00f0inu, hli\u00f0 vi\u00f0 hli\u00f0. Annar karlma\u00f0urinn gerir \u00fea\u00f0
+  sama \u00e1n l\u00edkamlegrar snertingar. Ef annar karlinn tekur ekki v\u00edsbendingu,
+  \u00fe\u00e1 blikkar s\u00e1 fyrsti me\u00f0 gulum v\u00e6ngjum s\u00ednum og kallar.
+  Annar karlkyns Flicker fl\u00fdgur \u00ed burtu, eftir a\u00f0 hafa or\u00f0i\u00f0
+  lei\u00f0ur \u00e1 \u00f6llu rigmar\u00f3linu. F\u00e6rasti og \u00feolinm\u00f3\u00f0ur
+  dansarinn vinnur. Einstakt p\u00f6runarath\u00f6fn \u00feeirra gerir Flicker a\u00f0
+  t\u00e1kni \u00ferautseigju og a\u00f0 vinna \u00ed gegnum \u00e1skoranir \u00e1n
+  \u00e1r\u00e1sargirni.\\nFlicker Spirit Animal\\n\u00deegar Flicker Spirit Animal
+  fl\u00fdgur inn \u00ed tilveru \u00fe\u00edna , vertu tilb\u00fainn fyrir sm\u00e1
+  eld \u00ed l\u00edfi \u00fe\u00ednu. Kannski \u00fearftu a\u00f0 koma \u00fe\u00e9r
+  af sta\u00f0 \u00ed \u00fer\u00f6ngs\u00fdni verkefni. E\u00f0a kannski \u00fearf
+  r\u00f3mant\u00edska l\u00edf \u00feitt a\u00f0 taka mig upp. Flicker mun gera greinarmun
+  \u00e1 mismunandi skilabo\u00f0um sem \u00fea\u00f0 flytur og s\u00fdna raunverulegan
+  tilgang sinn \u00ed samskiptum s\u00ednum vi\u00f0 \u00feig.\\n\u00d6nnur \u00e1st\u00e6\u00f0a
+  fyrir \u00fev\u00ed a\u00f0 Flicker kemur inn \u00ed l\u00edf \u00feitt er \u00feegar
+  \u00fe\u00fa ert \u00far jafnv\u00e6gi. \u00de\u00e9r g\u00e6ti fundist \u00fe\u00fa
+  vera \u00ed hringi\u00f0u og vi\u00f0 \u00fea\u00f0 a\u00f0 missa alla ge\u00f0heilsu.
+  Flicker Spirit Animal kennir \u00fe\u00e9r hvernig \u00e1 a\u00f0 nota \u201ef\u00e6turna\u201c,
+  standa \u00feig og standa af \u00fe\u00e9r storminn.\\nFlicker, sem andad\u00fdr,
+  hvetur \u00feig til a\u00f0 vera sveigjanlegri. Skilabo\u00f0 fuglsins benda til
+  \u00feess a\u00f0 \u00fe\u00fa fylgir fl\u00e6\u00f0inu sem er til sta\u00f0ar \u00ed
+  l\u00edfi \u00fe\u00ednu og a\u00f0 \u00fe\u00fa l\u00e6tur ekki sj\u00e1lf \u00feitt
+  hindra \u00fea\u00f0 sem g\u00e6ti veri\u00f0 eitthva\u00f0 \u00f3tr\u00falegt.
+  Au\u00f0m\u00fdkt n\u00e6r langt. A\u00f0 vera h\u00f3gv\u00e6r \u00fe\u00fd\u00f0ir
+  ekki a\u00f0 missa sig fyrir s\u00fdn annarra, heldur a\u00f0 veraf\u00fas til a\u00f0
+  gera m\u00e1lami\u00f0lanir til a\u00f0 \u00f6\u00f0last umbun samstarfs.\\n\u00dea\u00f0
+  er engin spurning a\u00f0 Flicker Spirit Animal talar til \u00fe\u00edn um takta
+  og hringr\u00e1s l\u00edfsins. Hver manneskja hefur andlegan hjartsl\u00e1tt innprenta\u00f0a
+  \u00ed s\u00e1l s\u00edna. Innlifun \u00fe\u00edn getur stillt taktinn, b\u00e6tt
+  vi\u00f0 hann, st\u00e6kka\u00f0 hann, en grunnur er alltaf eftir sem hi\u00f0 ekta
+  sj\u00e1lf. Flicker skorar \u00e1 \u00feig a\u00f0 finna og geyma heilaga taktinn
+  \u00feinn og hamra hana heim. \u00deegar \u00fe\u00fa gerir \u00fea\u00f0 muntu
+  sj\u00e1 mynstur koma fram \u00ed l\u00edfi \u00fe\u00ednu sem lei\u00f0a \u00feanga\u00f0
+  sem \u00fe\u00fa ert \u00ed dag.\\nFlicker Totem Animal\\nF\u00f3lk me\u00f0 Flicker
+  Totem Animal hefur \u00f6fluga samhverfu tilfinningu \u00ed l\u00edfi s\u00ednu
+  og er samt g\u00f3\u00f0ur m\u00e6likvar\u00f0i \u00e1 \u00f3hef\u00f0bundi\u00f0.
+  Lei\u00f0in sem \u00feeir n\u00e1lgast hva\u00f0a vandam\u00e1l e\u00f0a a\u00f0st\u00e6\u00f0ur
+  sem er er einstakt, skapandi og sanngjarnt. H\u00f3gv\u00e6rt e\u00f0li gerir f\u00f3lk
+  me\u00f0 Flicker Totem a\u00f0 fr\u00e1b\u00e6rum stj\u00f3rnendum og samningam\u00f6nnum
+  sem halda alltaf s\u00ednu striki.\\nEf Flicker is your Birth Totem, t\u00e1kna
+  hindranir t\u00e6kif\u00e6ri til a\u00f0 flj\u00faga og s\u00fdna pers\u00f3nulega
+  fegur\u00f0. Eg\u00f3i\u00f0 rekur ekki h\u00e1t\u00ed\u00f0ina, en sj\u00e1lfs\u00e1st
+  gerir \u00fea\u00f0. \u00de\u00fa \u00feekkir bestu eiginleika \u00fe\u00edna og
+  hvernig \u00e1 a\u00f0 beita \u00feeim. \u00de\u00fa hefur h\u00e6fileika til a\u00f0
+  fara yfir hva\u00f0a markmi\u00f0 sem \u00fe\u00fa setur \u00fe\u00e9r vegna \u00feess
+  a\u00f0 \u00fe\u00fa ert tilb\u00fainn a\u00f0 breyta n\u00e1lgun \u00feinni eftir
+  \u00fev\u00ed sem hlutirnir \u00fer\u00f3ast.\\nS\u00e9rkenni fl\u00f6ktsins g\u00e6ti
+  tj\u00e1\u00f0 sig \u00ed vali \u00fe\u00ednu \u00e1 starfsframa. A\u00f0 \u00e6fa
+  n\u00e1lastungur, vera Doula e\u00f0a Distiller g\u00e6ti vaki\u00f0 athygli \u00fe\u00edna.
+  Mundu l\u00edka, fl\u00f6kti\u00f0notar gogginn til a\u00f0 tromma \u00fat yfirr\u00e1\u00f0asv\u00e6\u00f0i
+  \u00feeirra og la\u00f0a a\u00f0 maka, vernda fj\u00f6lskyldu s\u00edna og b\u00faa
+  til lagi\u00f0 \u00feeirra. Svo getur t\u00f3nlist gegns\u00fdrt s\u00e1l \u00fe\u00edna.
+  Tromman \u00ed b\u00fa\u00f0arhorninu kallar \u00e1 \u00feig!\\nFlicker Power Animal\\nKalla\u00f0u
+  \u00e1 Flicker sem Power Animal \u00feegar \u00fe\u00fa vilt b\u00faa utan kassans,
+  en finna sj\u00e1lfan \u00feig \u00e1 skj\u00f6n vi\u00f0 v\u00e6ntingar. The Flicker
+  s\u00fdnir \u00fe\u00e9r hvernig \u00e1 a\u00f0 flj\u00faga yfir hva\u00f0a myndir
+  sem f\u00f3lk hefur af \u00fe\u00e9r svo \u00fea\u00f0 geti s\u00e9\u00f0 fegur\u00f0
+  \u00fe\u00edna og s\u00e9rst\u00f6\u00f0u. Fr\u00e1 n\u00fdju st\u00f6\u00f0unni
+  \u00feinni getur\u00f0u s\u00fdnt sj\u00e1lfst\u00e6\u00f0i \u00feitt og n\u00fdjung.
+  \u00d6flug undirskrift Flicker \u00e1 l\u00edka vi\u00f0 um samb\u00f6nd \u00fe\u00edn;
+  ef \u00fe\u00fa hefur fundi\u00f0 fyrir \u00fev\u00ed a\u00f0 \u00fe\u00fa la\u00f0ast
+  a\u00f0 \u00f3v\u00e6ntu sambandi, \u00fe\u00e1 er t\u00e6kif\u00e6ri\u00f0 \u00feitt
+  n\u00fana!\\nSj\u00e1 einnig: Chinchilla t\u00e1knm\u00e1l & amp; Merking\u00d6nnur
+  \u00e1st\u00e6\u00f0a fyrir \u00fev\u00ed a\u00f0 kalla \u00e1 Flicker sem kraftd\u00fdr
+  er \u00feegar \u00fe\u00fa \u00fearft a\u00f0sto\u00f0 vi\u00f0 samskipti. Hugsa\u00f0u
+  um Morse k\u00f3\u00f0a: Hann er s\u00e9rstakur, me\u00f0 n\u00e1kv\u00e6mu, \u00e6f\u00f0u
+  mynstri, svo vi\u00f0takandinn skilur skilabo\u00f0in. Sk\u00fdr hugsun, tal og
+  skrifu\u00f0 or\u00f0 eru f\u00e6rni Flicker Bird Energy ber \u00ed sp\u00f6\u00f0um.
+  Nota\u00f0u \u00fea\u00f0 og horf\u00f0u \u00e1 skilningsr\u00edka bl\u00f3ma.\\nT\u00e1knr\u00e6n
+  merking innf\u00e6ddra amer\u00edskra fl\u00f6kta\\nIndf\u00e6ddir \u00e6ttkv\u00edslir
+  \u00ed Nor\u00f0ur-Amer\u00edku segja a\u00f0 afi s\u00f3l hafi streika\u00f0 h\u00f6fu\u00f0
+  Flicker rautt, sem vekur lukku. A\u00f0 finna rau\u00f0u fj\u00f6\u00f0ur fl\u00f6ktsins
+  gefur til kynna j\u00e1kv\u00e6\u00f0a breytingu \u00e1 \u00f6rl\u00f6gum, s\u00e9rstaklega
+  \u00e1 svi\u00f0i vin\u00e1ttu e\u00f0a almennrar hamingju \u00feinnar. \u00c1 me\u00f0an
+  b\u00fd\u00f0ur gula fj\u00f6\u00f0urinn l\u00e6kningu og endurn\u00fdjun.\\nMe\u00f0al
+  Hopi,Flicker er verndari Southern Quarter of Creation. Chippewa-hj\u00f3nin l\u00edta
+  \u00e1 Flicker sem hugr\u00f6kk veru. Lyfi\u00f0 er \u00f6flugast \u00e1 t\u00edmabilinu
+  21. j\u00fan\u00ed - 22. j\u00fal\u00ed.\\nSj\u00e1 einnig: Antilope Symbolism &
+  amp; MerkingFlicker Dreams\\nRau\u00f0 fl\u00f6kt \u00ed draumnum \u00fe\u00ednum
+  t\u00e1knar \u00fe\u00f6rfina fyrir hj\u00e1lp vi\u00f0 vandam\u00e1l. Vertu me\u00f0vitu\u00f0
+  um a\u00f0 \u00fe\u00fa g\u00e6tir gert \u00e1standi\u00f0 fl\u00f3knara en \u00fe\u00f6rf
+  krefur. Fornm\u00f6nnum fannst draumar um fl\u00f6ktandi fugl hafa tengsl vi\u00f0
+  i\u00f0kun t\u00f6fralistar. Ef \u00fe\u00fa hefur veri\u00f0 nemandi \u00e1 \u00e1kve\u00f0inni
+  dulr\u00e6nni braut, \u00fe\u00e1 eru h\u00e6fileikar \u00fe\u00ednir vi\u00f0 \u00fea\u00f0
+  a\u00f0 vaxa. Nota\u00f0u skapandi e\u00f0lishv\u00f6t \u00fe\u00edna sem lei\u00f0beiningar
+  um helgisi\u00f0i, galdra og huglei\u00f0slu.\\nFl\u00f6kt sem hamrar stanslaust
+  \u00ed draumi \u00fe\u00ednum t\u00e1knar manneskju sem er versnandi, n\u00f6ldrandi
+  og sem leggur \u00f3\u00fearfa \u00fer\u00fdsting \u00e1 \u00feig. Far\u00f0u varlega.
+  Ef \u00fe\u00fa gefur eftir g\u00e6tir\u00f0u lent \u00ed fj\u00e1rhagsvandr\u00e6\u00f0um.\\nA\u00f0
+  halda fl\u00f6kti \u00f6ruggum \u00ed draumnum s\u00fdnir sterka l\u00f6ngun \u00ed
+  hjarta \u00fe\u00ednu eftir sam\u00fa\u00f0, g\u00f3\u00f0vild og a\u00f0 b\u00e6ta
+  heiminn, e\u00f0a a\u00f0 minnsta kosti \u00feinn horn af honum. Ef fl\u00f6kti\u00f0
+  er \u00fe\u00f6gult og hefur baki\u00f0 til \u00fe\u00edn, ertu a\u00f0 horfa framhj\u00e1
+  einhverju mikilv\u00e6gu.\\nTv\u00f6 e\u00f0a fleiri fl\u00f6kt sem g\u00e6gja \u00ed
+  draumnum \u00fe\u00ednum er vi\u00f0v\u00f6run. F\u00f3lk er a\u00f0 reyna a\u00f0
+  tala yfir hvert anna\u00f0. \u00dea\u00f0 er engin virk hlustun n\u00fana enda or\u00f0in
+  keppni. A\u00f0 gr\u00edpa fl\u00f6kt \u00ed draumi s\u00fdnir \u00e1herslu \u00e1
+  a\u00f0 b\u00e6ta sj\u00e1lfan \u00feig; ekki l\u00e1ta trufla \u00feig fr\u00e1
+  \u00feeirri vi\u00f0leitni.\\nFl\u00f6kt sem f\u00e6rist fr\u00e1 hrei\u00f0ri \u00ed
+  hrei\u00f0ur gefur til kynna eir\u00f0arleysi. \u00de\u00fahefur ekki fundi\u00f0
+  sta\u00f0inn \u00fear sem \u00fe\u00e9r l\u00ed\u00f0ur heima \u00ed einka- og atvinnul\u00edfi
+  \u00fe\u00ednu. A\u00f0 horfa \u00e1 fl\u00f6kt \u00far fjarska \u00e1 me\u00f0an
+  \u00fe\u00fa finnur fyrir gle\u00f0i \u00ed hjarta \u00fe\u00ednu gefur til kynna
+  veglegt tilefni, oft me\u00f0 einni manneskju sem hefur veri\u00f0 fjarl\u00e6g
+  \u00ed nokkurn t\u00edma. Draumurinn \u00feinn er skilabo\u00f0 sem \u00fe\u00fa
+  munt f\u00e1 t\u00e6kif\u00e6ri til a\u00f0 tengjast aftur.\\nFl\u00f6ktandi t\u00e1knr\u00e6n
+  merkingarlykill\\n- Jafnv\u00e6gi\\n- Samskipti\\n- Sk\u00f6punarg\u00e1fa\\n- Eldur
+  & Air Elements\\n- Sveigjanleiki\\n- Von\\n- Einstaklingur\\n- Heppni\\n- Sj\u00e1lfs\u00e1st\\n-
+  \u00d3hef\u00f0bundin\"", "\"Fyrr \u00ed sumar fundust \u00f3\u00fatgefnar handt\u00f6kuskipanir
+  \u00e1 hendur Donham, \u00fe\u00e1verandi eiginmanni hennar og m\u00e1gi. Eiginma\u00f0urinn
+  og m\u00e1gurinn voru handteknir og s\u00fdkna\u00f0ir af mor\u00f0inu \u00e1 Till
+  en Donham s\u00e6tti aldrei g\u00e6sluvar\u00f0haldi vegna m\u00e1lsins. Mennirnir
+  j\u00e1tu\u00f0u s\u00ed\u00f0ar a\u00f0 hafa or\u00f0i\u00f0 Till a\u00f0 bana.\\n\u00cd
+  \u00f3\u00fatefnum endurminningum Donham kemur fram a\u00f0 h\u00fan hafi ekki haft
+  vitneskju um \u00feau \u00f6rl\u00f6g sem bi\u00f0u Till. Donham sag\u00f0i a\u00f0
+  mennirnir hef\u00f0u komi\u00f0 me\u00f0 Till til s\u00edn um mi\u00f0ja n\u00f3tt
+  til a\u00f0 h\u00fan g\u00e6ti bori\u00f0 kennsl \u00e1 hann og h\u00fan hef\u00f0i
+  reynt a\u00f0 bjarga honum me\u00f0 \u00fev\u00ed a\u00f0 segja a\u00f0 \u00feetta
+  v\u00e6ri ekki drengurinn sem hef\u00f0i \u00e1reitt hana.\\nH\u00e9lt Donham \u00fev\u00ed
+  fram a\u00f0 Till hef\u00f0i sj\u00e1lfur komi\u00f0 upp um sig.\\nVi\u00f0 r\u00e9ttarh\u00f6ldin
+  yfir m\u00f6nnunum sag\u00f0i Donham a\u00f0 Till hef\u00f0i gripi\u00f0 \u00ed
+  sig og l\u00e1ti\u00f0 \u00f3s\u00e6mileg or\u00f0 falla en h\u00fan er s\u00f6g\u00f0
+  hafa j\u00e1ta\u00f0 \u00fea\u00f0 seinna a\u00f0 \u00fea\u00f0 hef\u00f0i ekki
+  veri\u00f0 satt. Samkv\u00e6mt vitnum ku Till hafa flauta\u00f0 a\u00f0 henni, \u00ed
+  mesta lagi.\\nIlla fari\u00f0 l\u00edk Till fannst \u00ed Tallahatchie-\u00e1nni
+  nokkrum d\u00f6gum s\u00ed\u00f0ar og m\u00e1li\u00f0 komst \u00ed heimsfr\u00e9ttirnar
+  \u00feegar m\u00f3\u00f0ir hans, Mamie Till Mobley, \u00e1kva\u00f0 a\u00f0 hafa
+  kistu hans opna til vitnisbur\u00f0ar um barsm\u00ed\u00f0arnar sem hann haf\u00f0i
+  s\u00e6tt.\\nH\u00f6f\u00f0u myndir af l\u00edkamsleifum Till gr\u00ed\u00f0arleg
+  \u00e1hrif \u00e1 mannr\u00e9ttindabar\u00e1ttu svartra \u00feegar \u00fe\u00e6r
+  voru birtar \u00ed Bandar\u00edkjunum.\"", "\"Miracle Age Cotton Mask\\nMiracle
+  Age Cotton Mask er rakagefandi og einstaklega n\u00e6randi andlitsmaski sem dregur
+  \u00far \u00f6ldrun h\u00fa\u00f0arinnar. Maskinn l\u00fdsir d\u00f6kka bletti og
+  dregur \u00far hrukkum. Maskinn inniheldur 100% umhverfisv\u00e6na b\u00f3mull (skv.
+  Evr\u00f3pusta\u00f0li).\\nInniheldur fimm n\u00e1tt\u00faruleg rakagefandi efni
+  og virk efni \u00far gerju\u00f0u geri(83): Ceramide NP, Lecithin, Glycerin, Hyaluronic
+  Acid, Cholesterol og 18 n\u00e1tt\u00farulegar ol\u00edur (Calendula, Peonyl).\\nHentar
+  \u00f6llum h\u00fa\u00f0ger\u00f0um, s\u00e9rstaklega \u00feurri h\u00fa\u00f0.\\nAthugi\u00f0
+  a\u00f0 ekki er h\u00e6gt a\u00f0 skipta e\u00f0a skila snyrti-og h\u00fa\u00f0v\u00f6rum
+  ef umb\u00fa\u00f0ir hafa veri\u00f0 opna\u00f0ar og/e\u00f0a innsigli rofi\u00f0.\"",
+  "\"\ufffdstars\ufffdgur\\nOv\ufffdnt kynni\\nL\ufffdsing\\n\ufffdEf \ufffd\ufffd
+  \ufffdtlar a\ufffd jagast \ufffd m\ufffdr ver\ufffdur\ufffdu a\ufffd giftast m\ufffdr.
+  Brody Wilson, fyrrverandi li\ufffd\ufffdj\ufffdlfi \ufffd hernum, stundi \ufffdreytulega
+  og halla\ufffdi s\ufffdr fram \ufffd glj\ufffdandi vi\ufffdarbor\ufffdi\ufffd vi\ufffd
+  afgrei\ufffdslukassann \ufffd kramb\ufffd\ufffdinni vi\ufffd L\ufffdmavatn. Hinum
+  megin vi\ufffd bor\ufffdi\ufffd ota\ufffdi hin r\ufffdmlega sj\ufffdtuga Octavia
+  Whatley, sem jafnan var k\ufffdllu\ufffd Tavie, gigtveikum fingri a\ufffd honum.
+  \ufffdGu\ufffd er til vitnis um \ufffda\ufffd a\ufffd \ufffd\ufffd st\ufffd\ufffdst
+  n\ufffdkv\ufffdmlega \ufffd \ufffdessum sta\ufffd, Brody Wilson, og s\ufffdrst og
+  s\ufffdrt vi\ufffd lag\ufffdir a\ufffd \ufffd\ufffd v\ufffdrir h\ufffdttur a\ufffd
+  br\ufffdka \ufffdessa l\ufffdkkistunagla. \ufffd\ufffdg var h\ufffdttur \ufffdv\ufffd,
+  sag\ufffdi Brody og d\ufffdsti. \ufffdOg mun gera \ufffda\ufffd aftur. Hann hristi
+  h\ufffdfu\ufffdi\ufffd. \ufffdb\ufffdar L\ufffdmavatns voru vissulega s\ufffdrvitrir,
+  en \ufffdeir voru l\ufffdka gott f\ufffdlk og umhyggjusamt. Hann naut \ufffdess
+  a\ufffd b\ufffda \ufffd \ufffdessu s\ufffdrkennilega samf\ufffdlagi \ufffd Vermontr\ufffdki.
+  En stundum\ufffd Allt benti til \ufffdess a\ufffd \ufffdetta yr\ufffdi einn af \ufffdessum
+  \ufffdstundum\ufffd d\ufffdgum. Ef hann byggi \ufffd borg v\ufffdri hann \ufffd\ufffdekktur
+  og \ufffdllum v\ufffdri sama \ufffd\ufffdtt hann reykti sig \ufffd hel. En \ufffdv\ufffd
+  mi\ufffdur haf\ufffdi konan l\ufffdg a\ufffd m\ufffdla. Ef hann kveikti s\ufffdr
+  \ufffd s\ufffdgarettu n\ufffdna v\ufffdri hann a\ufffd rj\ufffdfa \ufffdrj\ufffdt\ufffdu
+  og tveggja m\ufffdna\ufffda reykbindindi. Ma\ufffd var erfi\ufffdur m\ufffdnu\ufffdur
+  fyrir hann, en s\ufffdgarettur myndu ekki breyta \ufffdv\ufffd li\ufffdna og a\ufffdeins
+  fl\ufffdkja framt\ufffd\ufffdina. J\ufffd, \ufffda\ufffd var heimskuleg hugdetta
+  a\ufffd fara a\ufffd reykja. Engu a\ufffd s\ufffd\ufffdur hvessti hann augun \ufffd
+  Tavie eins og henni hef\ufffdi or\ufffdi\ufffd \ufffd \ufffd messunni. Tavie hnussa\ufffdi.
+  \ufffdOg l\ufffdttu ekki eins og \ufffd\ufffd getir brosa\ufffd framan \ufffd sm\ufffdstelpurnar
+  \ufffd matv\ufffdrub\ufffd\ufffdinni og fengi\ufffd \ufffd\ufffdr til a\ufffd selja
+  \ufffd\ufffdr t\ufffdbak. \ufffdg \ufffdekki m\ufffdmmur \ufffdeirra\\nEignastu
+  \ufffdessa b\ufffdk sem rafb\ufffdk n\ufffdna!\\nRafb\ufffdkurnar fr\ufffd okkur
+  getur \ufffd\ufffd hla\ufffdi\ufffd beint ni\ufffdur af s\ufffd\ufffdunni okkar
+  \ufffdegar \ufffd\ufffd kaupir b\ufffdk\"", "\"ADD: Middle of North 3 Rd, efnahags\u00fer\u00f3unarsv\u00e6\u00f0i,
+  Zichuan Zibo K\u00edna\\nS\u00e9rsni\u00f0in Coil Compression List og handverk Metal
+  Spring\\nSpring, Craft Spring, \u00dej\u00f6ppun Vor framlei\u00f0andi / birgir
+  \u00ed K\u00edna, bj\u00f3\u00f0a upp \u00e1 S\u00e9rsni\u00f0in Coil \u00dej\u00f6ppun
+  Art og Handverk Metal Vor, Hot Sale Custom Logo Prentun Plast / Metal / Tin / Magnetic
+  / Lapel Pin Button Badge fyrir kynningar gj\u00f6f, Custom Tin Button merki\u00f0
+  Cmyk Silkscreen Prenta\u00f0 merki og svo framvegis.\\nproduct details\\nVeldu \u00far
+  fr\u00e1b\u00e6rt \u00farval af s\u00e9rsni\u00f0num sp\u00f3lu\u00fej\u00f6ppunarkrafti
+  og handverki \u00far m\u00e1lmi \u00ed K\u00edna fyrir \u00feann sem hefur r\u00e9ttan
+  forskrift h\u00e9r me\u00f0 Gold-Star Spring. Vi\u00f0 erum eitt af lei\u00f0andi
+  K\u00edna framlei\u00f0endum og birgjum \u00e1 \u00feessu svi\u00f0i, bj\u00f3\u00f0a
+  \u00fe\u00e9r s\u00e9rsni\u00f0nar v\u00f6rur me\u00f0 l\u00e1gt ver\u00f0.\\nSj\u00e1lfvirk:
+  keilulaga / hle\u00f0slut\u00e6ki / ry\u00f0fr\u00edtt st\u00e1l\\nV\u00e9lr\u00e6nni:
+  Ventill Vor / L\u00edtil / keilulaga\\nFlat: St\u00e1l Flat Spiral Vor / Rafhla\u00f0a\\nN\u00e1kv\u00e6mni:
+  H\u00e1r n\u00e1kv\u00e6mni / stillanleg / b\u00fana\u00f0ur\\nV\u00f6rumerki: GOLDSTAR-SPRING\\nSpecification:
+  S\u00e9rsni\u00f0in\\nHS K\u00f3\u00f0i: 73202090\\nV\u00f6rul\u00fdsing\\nMetal
+  i\u00f0n vor\\nKosturinn okkar: (1) MOQ: Fyrir flestar v\u00f6rur okkar h\u00f6fum
+  vi\u00f0 ekki MOQ, og vi\u00f0 getum veitt \u00f3keypis s\u00fdnishorn svo lengi
+  sem \u00fe\u00fa ert tilb\u00fain til a\u00f0 hafa samband vi\u00f0 afhendingu.\\n(2)
+  Grei\u00f0sla: Vi\u00f0 t\u00f6kum grei\u00f0slu me\u00f0 T / T, Western Union og
+  PayPal. Fyrir h\u00e1g\u00e6\u00f0a pantanir sam\u00feykkjum vi\u00f0 einnig L /
+  C grei\u00f0slu.\\n(3) Sta\u00f0setning: Vi\u00f0 erum verksmi\u00f0ju sta\u00f0sett
+  \u00ed SHANDONG K\u00edna, \u00fatflutnings helstu borg.\\n(4) \u00dea\u00f0 sem
+  vi\u00f0 gerum: Vi\u00f0 gerum m\u00e1lmpinnar, merkin, mynt, medal\u00edur, lyklask\u00f3r
+  osfrv .; eins og heilbrig\u00f0ur eins og lanyards, carabiners, nafnspjald eigenda,
+  hugsandi tags, k\u00edsill wristbands, bandanas, PVC atri\u00f0i, Vor osfrv.\\n(5)
+  Lei\u00f0slut\u00edmi: Til a\u00f0 taka s\u00fdni tekur \u00fea\u00f0 a\u00f0eins
+  4 til 10 daga eftir h\u00f6nnuninni; fyrir massaframlei\u00f0slu tekur \u00fea\u00f0
+  a\u00f0eins minna en 14 daga fyrir magn undir 5.000 stk. (mi\u00f0lungs st\u00e6r\u00f0).\\n(6)
+  Afhending: Vi\u00f0 notum mj\u00f6g samkeppnish\u00e6f ver\u00f0 fyrir DHL dyrnar
+  a\u00f0 dyrum, og FOB gjaldi\u00f0 okkar er einnig ein l\u00e6gsta \u00ed Su\u00f0ur-K\u00edna.\\n(7)
+  Svar: 30 manna h\u00f3pur stendur fyrir meira en 14 klukkustundir \u00e1 dag og
+  p\u00f3stur \u00feinn ver\u00f0ur svara\u00f0ur innan klukkustundar.\\n(8) N\u00fdsk\u00f6pun:
+  A 5 manna h\u00f6nnunarteymi hefur komi\u00f0 \u00e1 f\u00f3t fr\u00e1 2011 og n\u00fa
+  h\u00f6fum vi\u00f0 n\u00fa \u00feegar unni\u00f0 me\u00f0 BMW, AUDI, Volkswagen,
+  T-Mobile og fleiri Global 500s fyrirt\u00e6kjum.\\nA Sendu spurninguna \u00fe\u00edna,
+  \u00e9g er viss um a\u00f0 \u00fe\u00fa munt f\u00e1 \u00e1n\u00e6g\u00f0 og faglegt
+  svar. A Senda kr\u00f6fu \u00fe\u00edna, \u00fe\u00fa munt f\u00e1 fullkomi\u00f0
+  listaverk. A \u00c9g er viss um a\u00f0 \u00fe\u00fa munt nj\u00f3ta framlei\u00f0slu
+  okkar fyrir \u00feig.\\nHaf\u00f0u samband okkar Tel: +86 15006436588 Vefur: www.GOLDSTAR-SPRING.com\\nHot
+  Tags: s\u00e9rsni\u00f0in sp\u00f3lu \u00fej\u00f6ppun list og i\u00f0n m\u00e1lmur
+  vor, K\u00edna, framlei\u00f0endur, s\u00e9rsni\u00f0in, l\u00e1gt ver\u00f0, gert
+  \u00ed K\u00edna\""]'
 src_ngrams: '{"1": [[["var"], 12358833], [["veri\u00f0"], 6169374], [["a\u0161"],
   4665609], [["s\u00e9"], 4407186], [["h\u00e9r"], 3708739]], "2": [[["hafi veri\u00f0"],
   767225], [["gr. laga"], 313246], [["getur veri\u00f0"], 281519], [["taka \u00fe\u00e1tt"],

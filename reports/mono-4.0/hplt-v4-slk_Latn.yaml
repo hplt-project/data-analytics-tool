@@ -1,4 +1,4 @@
-corpus: hplt-v4-slk
+corpus: hplt-v4-slk_Latn
 srclang: slk
 timestamp: 1789915580.7158315
 warnings: []
@@ -4164,7 +4164,1513 @@ register_labels: '{"IP_ds": 13622061, "NA_ne": 6797582, "UNK": 4740868, "MT": 36
   744649, "OP_rv": 615589, "HI_re": 492340, "OP_ob": 372593, "OP_av": 364162, "OP_other":
   348266, "IN_lt": 304662, "OP_rs": 302067, "IN_en": 189127, "SP_it": 188677, "SP_other":
   59006, "LY_other": 21259, "IN_ra": 9638, "IN_fi": 8699}'
-sample: hplt-v4-slk_Latn-sample
+sample: '["\"Zatia\u013e \u010do 46% spotrebite\u013eov sa pok\u00fasilo nakupova\u0165
+  online, iba 15% to rob\u00ed pravidelne. Mnoh\u00ed maj\u00fa pochybnosti oh\u013eadom
+  svie\u017eosti, dodac\u00edch leh\u00f4t \u2013 a \u013eudia sa st\u00e1le c\u00edtia
+  lep\u0161ie zo sk\u00fasenosti v obchode. Ale t\u00ed, ktor\u00ed sa obr\u00e1tia
+  na online nakupovanie, nebud\u00fa \u013eutova\u0165.\\nInternetov\u00fd trh s potravinami
+  m\u00e1 st\u00e1le ve\u013ea priestoru na rast, s pochybnos\u0165ami o svie\u017eosti,
+  doru\u010den\u00ed a neochotou zbavi\u0165 sa spolo\u010denskej str\u00e1nky n\u00e1kupu
+  v\u0161etk\u00fdch prek\u00e1\u017eok jeho roz\u0161\u00edrenia. Maloobchodn\u00edci
+  tak prich\u00e1dzaj\u00fa s digitaliz\u00e1ciou a z\u013eavami. Ako sme u\u017e
+  uviedli, hoci 46% \u013eud\u00ed sk\u00fasilo nakupova\u0165 online aspo\u0148 raz,
+  len 15% z nich to rob\u00ed nieko\u013eko kr\u00e1t mesa\u010dne. To nazna\u010duje,
+  \u017ee v\u00e4\u010d\u0161ina st\u00e1le pou\u017e\u00edva klasick\u00e9 supermarkety
+  pre ve\u013ek\u00fa \u010das\u0165 svojho nakupovania frisure.\\nNavy\u0161e online
+  nakupuj\u00faci \u2013 ako t\u00ed, ktor\u00ed nakupuj\u00fa len v obchode \u2013
+  robia aj men\u0161ie n\u00e1kupy na dop\u013a\u0148anie. Takmer dev\u00e4\u0165
+  z desiatich \u013eud\u00ed, ktor\u00ed nakupovali potraviny online, povedalo, \u017ee
+  je viac pravdepodobn\u00e9, \u017ee bud\u00fa robi\u0165 men\u0161ie n\u00e1kupy
+  po\u010das cel\u00e9ho t\u00fd\u017ed\u0148a, a to namiesto alebo navy\u0161e k
+  svojej hlavnej objedn\u00e1vke v obchode.\\nZistenia s\u00fa v s\u00falade s ned\u00e1vnymi
+  \u00fadajmi, ktor\u00e9 ukazuj\u00fa, \u017ee napriek tomu, \u017ee zna\u010dka
+  supermarketov po\u017eaduje, aby zlep\u0161ili svoju ponuku na internete, iba 6%
+  z celkov\u00e9ho predaja sa uskuto\u010d\u0148uje online. Spolu s \u010fal\u0161\u00edmi
+  \u00fadajmi to nazna\u010duje, \u017ee trh m\u00f4\u017ee v\u00fdrazne r\u00e1s\u0165
+  \u2013 a z\u00e1rove\u0148 poukazuje na bezpe\u010dn\u00fa dlhodob\u00fa bud\u00facnos\u0165
+  fyzick\u00fdch supermarketov.\\nV spr\u00e1ve sa uv\u00e1dza, \u017ee najv\u00e4\u010d\u0161ou
+  prek\u00e1\u017ekou pre spotrebite\u013eov vyu\u017e\u00edvaj\u00facich online slu\u017eby
+  v oblasti potrav\u00edn je neschopnos\u0165 dotkn\u00fa\u0165 sa a c\u00edti\u0165
+  v\u00fdrobky sk\u00f4r, ne\u017e ich k\u00fapite. Viac ako sedem z desiatich (71%)
+  z\u00e1kazn\u00edkov, ktor\u00ed nenakupuj\u00fa online, tvrd\u00ed, \u017ee s\u00fa
+  z tohto d\u00f4vodu skeptick\u00ed vo\u010di n\u00e1kupu z webov\u00fdch str\u00e1nok
+  obchodu. \u00dadaje ukazuj\u00fa, \u017ee viac ako \u0161tyria z desiatich (44%),
+  ktor\u00ed urobili online n\u00e1kup s potravinami, ver\u00ed, \u017ee je to negat\u00edvny
+  aspekt procesu.\\nS\u00favis\u00ed to s rozsiahlou neistotou, pokia\u013e ide o
+  stav, v ktorom tovar doraz\u00ed. Takmer \u0161es\u0165 z desiatich (57%) z\u00e1kazn\u00edkov,
+  ktor\u00ed nenakupuj\u00fa online, ned\u00f4veruje kvalite a svie\u017eosti produktov,
+  ktor\u00e9 si m\u00f4\u017eu k\u00fapi\u0165 na internete, \u010do je znova odzrkadlen\u00e9
+  zna\u010dn\u00fdm po\u010dtom (31%) \u013eud\u00ed, ktor\u00ed kupuj\u00fa potraviny
+  online, a tie\u017e si to myslia. T\u00ed, ktor\u00ed nakupuj\u00fa potraviny v
+  obchode, klad\u00fa tie\u017e v\u00e4\u010d\u0161iu v\u00e1hu na soci\u00e1lnu str\u00e1nku
+  nakupovania. Viac ako polovica respondentov (51%) tvrd\u00ed, \u017ee maj\u00fa
+  rados\u0165 chodi\u0165 do supermarketu, zatia\u013e \u010do tretina (34%) ver\u00ed,
+  \u017ee keby sa rozhodli pre n\u00e1kupy online, stratili by soci\u00e1lny kontakt,
+  ktor\u00fd je s\u00fa\u010das\u0165ou cesty do obchodov vejr.\\nMedzi ot\u00e1zkami
+  n\u00e1kladov na doru\u010denie a pohodlie sa medzi z\u00e1kazn\u00edkmi zistilo,
+  \u017ee pribli\u017ene \u0161tyria z desiatich (38%) spotrebite\u013eov, ktor\u00ed
+  nakupuj\u00fa v klasickom obchode a viac ako tretina (35%) t\u00fdch, ktor\u00ed
+  nakupovali online, ver\u00ed, \u017ee dodato\u010dn\u00e9 n\u00e1klady na dodanie
+  s\u00fa pr\u00edli\u0161 vysok\u00e9. Jeden z piatich (19%), ktor\u00ed sa nepok\u00fa\u0161al
+  nakupova\u0165 online sa tie\u017e ob\u00e1va, \u017ee dodacie lehoty s\u00fa nepr\u00edjemn\u00e9
+  \u2013 n\u00e1zor zdie\u013ean\u00fd jedn\u00fdm z \u00f4smich (13%) online kupuj\u00facich.
+  Sp\u00e4tn\u00e1 v\u00e4zba je vo v\u0161eobecnosti pozit\u00edvna \u2013 ale probl\u00e9mom
+  je oslovi\u0165 n\u00e1kupn\u00e9ho partnera. Ak by boli tieto prek\u00e1\u017eky
+  postupne prekonan\u00e9 a vn\u00edmanie sa zmenilo, online trh s potravinami by
+  mohol r\u00e1s\u0165 exponenci\u00e1lne. Spr\u00e1va ukazuje, \u017ee ke\u010f si
+  \u013eudia objedn\u00e1vaj\u00fa online, maj\u00fa tendenciu spravi\u0165 to e\u0161te
+  raz, ke\u010f\u017ee viac ako dev\u00e4\u0165 z desiatich (92%) je spokojn\u00fdch
+  so slu\u017ebou, ktor\u00fa dostali. Ako mo\u017eno o\u010dak\u00e1va\u0165, pohodlie
+  je hodnoten\u00e9 pozit\u00edvnym aspektom preva\u017enej v\u00e4\u010d\u0161iny
+  \u013eud\u00ed (82%).\"", "\"po\u017eadovan\u00fa \u010das\u0165 lode. Met\u00f3da
+  5S, ako ju pozn\u00e1me teraz, bola sformulovan\u00e1 ako s\u00fa\u010das\u0165
+  Toyota Production System (TPS). Vymyslel ho Taiichi Ohno (1912 \u20131990) v Toyote
+  po 2. svetovej vojne v Japonsku, ako v\u00fdchodisko z kr\u00edzy automobilky Toyota,
+  ktor\u00e1 bojovala o svoju existenciu na trhu. Vych\u00e1dzal z predpokladu, \u017ee
+  \u010das, ktor\u00fd pracovn\u00edci venuj\u00fa h\u013eadaniu pom\u00f4cok, n\u00e1radia,
+  pr\u00edpravkov a podobne, mo\u017eno investova\u0165 do produkt\u00edvnej\u0161\u00edch
+  \u010dinnost\u00ed. Z Japonska sa met\u00f3da postupne dostala do USA, aj do Eur\u00f3py.
+  Cie\u013eom met\u00f3dy je udr\u017eiava\u0165 na pracovisku iba to, \u010do je
+  tam potrebn\u00e9 a na miestach, ktor\u00e9 s\u00fa na to ur\u010den\u00e9. Zl\u00e9
+  podmienky na pracovisku umo\u017e\u0148uj\u00fa vznik, \u010di n\u00e1rast v\u0161etk\u00fdch
+  druhov str\u00e1t. Patria sem zbyto\u010dn\u00e9 pohyby, z d\u00f4vodu vyhnutia
+  sa prek\u00e1\u017ekam, straty \u010dasu pri h\u013eadan\u00ed potrebn\u00fdch polo\u017eiek,
+  oneskorenia z d\u00f4vodu zlej kvality, por\u00fach zariaden\u00ed a in\u00fdch
+  nezh\u00f4d. Podnik bez str\u00e1t m\u00f4\u017ee r\u00fdchlej\u0161ie a bezpe\u010dnej\u0161ie
+  vyr\u00e1ba\u0165 v\u00fdrobky vysokej kvality, pri n\u00edzkych n\u00e1kladoch.
+  Tento pr\u00edstup je zalo\u017een\u00fd na zv\u00fd\u0161en\u00ed samostatnosti
+  zamestnancov, na t\u00edmovej pr\u00e1ci a veden\u00ed \u013eud\u00ed. Metodika
+  m\u00e1 z\u00e1kladn\u00fdch 5 krokov, ktor\u00e9 nesta\u010d\u00ed len zrealizova\u0165,
+  ale ich aj neust\u00e1le opakova\u0165 a zdokona\u013eova\u0165!\\nVlastn\u00e9
+  ozna\u010denie met\u00f3dy 5S je tvoren\u00e9 za\u010d\u00ednaj\u00facim p\u00edsmenom
+  S, s piatimi japonsk\u00fdmi slovami, ozna\u010duj\u00facimi jednotliv\u00e9 kroky:\\nSeiri
+  - Separova\u0165 - vytriedenie a odstr\u00e1nenie nepotrebn\u00e9ho na pracovisku,\\nSeiton
+  - Systematizova\u0165 - vizu\u00e1lne usporiadanie v\u0161etk\u00fdch potrebn\u00fdch
+  vec\u00ed na pracovisku,\\nSeiso - St\u00e1le \u010disti\u0165 - vy\u010distenie
+  a upratanie pracoviska,\\nSeikutsu - \u0160tandardizova\u0165 - vytvorenie \u0161tandardov,
+  ktor\u00e9 napom\u00e1haj\u00fa udr\u017eiava\u0165 dosiahnut\u00fd stav,\\nShitsuke
+  - Sebadiscipl\u00edna - vylep\u0161ovanie a dodr\u017eiavanie vytvoren\u00fdch \u0161tandardov.\\n1.
+  SEIRI - cie\u013eom je oddeli\u0165 potrebn\u00e9 a nepotrebn\u00e9 veci. Tie nepotrebn\u00e9
+  odde\u013ete a odstr\u00e1\u0148te z pracoviska. Prem\u00fd\u0161\u013eajte o tom,
+  \u010do a ako je vlastne pou\u017e\u00edvan\u00e9, a ako \u010dasto potrebn\u00e9.
+  Na z\u00e1klade tejto z\u00e1sady si urobte poriadok na pracovisku. Ide\u00e1lne
+  je aspo\u0148 raz za mesiac skontrolova\u0165 dodr\u017eiavanie tejto z\u00e1sady.\\n2.
+  Seiton - zmyslom tohto slova je umiesti\u0165 potrebn\u00e9 a pou\u017e\u00edvan\u00e9
+  veci tak, aby mohli by\u0165 jednoducho a r\u00fdchlo pou\u017eit\u00e9, tzn. \u017ee
+  by ste mali bli\u017e\u0161ie umiestni\u0165 \u010dastej\u0161ie pou\u017e\u00edvan\u00e9
+  veci. Jasne ozna\u010dte ich umiestnenie, aby ka\u017ed\u00fd vedel, kde a \u010do
+  je. Dbajte i na bezpe\u010dnos\u0165 ich ulo\u017eenia a zoh\u013eadnite aj \u0161peci\u00e1lne
+  vlastnosti (citlivos\u0165 na vlhkos\u0165, sveteln\u00e9 \u017eiarenie, teplotu,
+  at\u010f.). Miesta pre ulo\u017eenie nezhodn\u00fdch v\u00fdrobkov alebo odpadu
+  musia by\u0165 bl\u00edzko, aby sa skr\u00e1til \u010das neprodukt\u00edvnej manipul\u00e1cie.\\n3.
+  Seiso - znamen\u00e1 udr\u017eiavanie \u010distoty na pracovisku a v jeho okol\u00ed.
+  Vhodn\u00e9 je stanovi\u0165 zodpovednos\u0165 konkr\u00e9tnych pracovn\u00edkov
+  za upratanie, resp. za poriadok. V rozde\u013eovan\u00ed pr\u00e1ce mus\u00edme
+  by\u0165 spravodliv\u00ed, aby sa predi\u0161lo zbyto\u010dn\u00fdm nezhod\u00e1m
+  a ukrivdeniu.\\n4. Seiketsu - \u0161tandardiz\u00e1cia, znamen\u00e1 neust\u00e1le
+  a opakovan\u00e9 zlep\u0161ovanie organiz\u00e1cie pr\u00e1ce, usporiadanie pracoviska
+  a \u010distoty na pracovisku. Ide o preh\u013eadnos\u0165 pracoviska (v\u0161etko
+  m\u00e1 svoje miesto a je dostupn\u00e9), o upravenos\u0165 pracovn\u00edkov (vhodn\u00fd
+  pracovn\u00fd odev, obuv, at\u010f.), ich hygienu (napr. pou\u017e\u00edvanie zne\u010disten\u00fdch
+  alebo znehodnoten\u00fdch OOPP zvy\u0161uje pravdepodobnos\u0165 ko\u017en\u00fdch
+  chor\u00f4b). \u010eal\u0161\u00edm cie\u013eom je zlep\u0161i\u0165 pracovn\u00e9
+  prostredie, aby bolo mo\u017en\u00e9 pracova\u0165 r\u00fdchlo, kvalitne a efekt\u00edvne.
+  Tu je u\u017e nutn\u00e9 vyu\u017e\u00edva\u0165 tzv. visual management, t.j. vizualiz\u00e1ciu
+  po\u017eadovan\u00e9ho stavu a vyzna\u010denie k\u013e\u00fa\u010dov\u00fdch miest.\\n5.
+  Shitsuke - pri dodr\u017eiavan\u00ed z\u00e1sad 5S je ve\u013emi d\u00f4le\u017eit\u00e1
+  discipl\u00edna. Pr\u00edkladom musia \u00eds\u0165 hlavne ved\u00faci pracovn\u00edci.
+  V\u0161etci zamestnanci musia by\u0165 obozn\u00e1men\u00ed so z\u00e1sadami 5S
+  a s firemn\u00fdmi pravidlami. Nako\u013eko opakovanie je matka m\u00fadrosti, ur\u010dite
+  prospeje opakovanie \u0161kolen\u00ed a v r\u00e1mci nich porovn\u00e1vanie stavu
+  pred zaveden\u00edm, s\u00fa\u010dasn\u00fd a cie\u013eov\u00fd stav. T\u00fdmto
+  sp\u00f4sobom je mo\u017en\u00e9 vytvori\u0165 vhodn\u00e9 n\u00e1vyky u star\u0161\u00edch
+  pracovn\u00edkov a u novoprijat\u00fdch je nutn\u00e9 budova\u0165 ich u\u017e od
+  ich prv\u00e9ho n\u00e1stupu na pracovisko.\\nZ\u00e1kladn\u00fdm probl\u00e9mom
+  zav\u00e1dzania met\u00f3dy 5S v na\u0161ich klimatick\u00fdch podmienkach je n\u00e1rodn\u00e1
+  mentalita. V\u0161etky metodiky na zavedenie 5S s\u00fa vypracovan\u00e9 pre japonsk\u00fa
+  (\u00e1zijsk\u00fa) mentalitu. Japonci s\u00fa ako mrav\u010deky, usilovn\u00ed,
+  pracovit\u00ed, \u00factiv\u00ed, dodr\u017euj\u00fa pravidl\u00e1 a vz\u00e1jomne
+  spolupracuj\u00fa. S\u00fa ale netolerantn\u00ed, a nestaraj\u00fa sa jeden o druh\u00e9ho.
+  Pri pr\u00e1ci ods\u00favaj\u00fa svoju identitu do \u00fazadia. V\u0161etci sa
+  jednotne stoto\u017enia a usiluj\u00fa sa o spolo\u010dn\u00e9 dosiahnutie stanoven\u00e9ho
+  cie\u013ea. Ich pracovn\u00e9 tempo stanovuj\u00fa t\u00ed najlep\u0161\u00ed.\\nNaproti
+  tomu s\u00fa Slov\u00e1ci s\u00edce usilovn\u00ed, pracovit\u00ed, ale staraj\u00fa
+  sa navz\u00e1jom o seba, vz\u00e1jomne si pom\u00e1haj\u00fa a aj ke\u010f si to
+  neuvedomuj\u00fa, s\u00fa k sebe mimoriadne tolerantn\u00ed. Svoje pracovn\u00e9
+  tempo prisp\u00f4sobuj\u00fa slab\u00fdm a neradi sa podria\u010fuj\u00fa nov\u00fdm
+  pravidl\u00e1m. Pri pr\u00e1ci v kolekt\u00edve dosahuj\u00fa rovnak\u00e9 a pri
+  dobrom veden\u00ed aj ove\u013ea lep\u0161ie v\u00fdsledky ako Japonci. Ale v\u017edy
+  si uchov\u00e1vaj\u00fa svoju identitu a individualitu a daj\u00fa sa prirovna\u0165
+  k v\u010deli\u010dk\u00e1m. Zavedenie met\u00f3dy 5S predstavuje ur\u010dit\u00fa
+  po\u010diato\u010dn\u00fa prek\u00e1\u017eku - nov\u00e9 pravidl\u00e1, na ktor\u00e9
+  si kolekt\u00edv mus\u00ed zvykn\u00fa\u0165. Ke\u010f postav\u00edte do cesty prek\u00e1\u017eku
+  mrav\u010dekom - tie ju presk\u00famaj\u00fa, n\u00e1jdu vhodn\u00fa cestu, r\u00fdchlo
+  si na \u0148u zvykn\u00fa a pokra\u010duj\u00fa vo svojej obvyklej pr\u00e1ci. Ke\u010f
+  postav\u00edte do cesty prek\u00e1\u017eku v\u010deli\u010dk\u00e1m - ur\u010dite
+  budete ma\u0165 o z\u00e1bavu postaran\u00e9, k\u00fdm si na \u0148u zvykn\u00fa
+  a bud\u00fa pokra\u010dova\u0165 vo svojej obvyklej pr\u00e1ci. Jednoducho povedan\u00e9,
+  ke\u010f metodicky (spoza stola) zavediete 5S, dostanete pracovisko do stavu, \u017ee
+  nikto nevie ni\u010d n\u00e1js\u0165, v\u0161etci hundr\u00fa ako chor\u00e9 vrany,
+  mota\u0165 sa tam ako muchy po mlie\u010dniku a ak sa im \u010do len trochu umo\u017en\u00ed,
+  za\u010dn\u00fa nov\u00e9 pravidl\u00e1 ignorova\u0165 a okam\u017eite vracaj\u00fa
+  pracovisko do p\u00f4vodn\u00e9ho stavu.\\nJedin\u00e1 mo\u017enos\u0165, ako sa
+  t\u00fdmto probl\u00e9mom vyhn\u00fa\u0165, je budova\u0165 5S reverzn\u00fdm chodom,
+  t.j. vyu\u017ei\u0165 doteraj\u0161ie n\u00e1vyky a postupne ich vylep\u0161ova\u0165,
+  \u010d\u00edm sa posledn\u00e1 etapa Shitsuke (vylep\u0161ovanie a dodr\u017eiavanie
+  vytvoren\u00fdch \u0161tandardov) stane prvou a Seiri (vytriedenie a odstr\u00e1nenie
+  nepotrebn\u00e9ho na pracovisku) poslednou.\\nPostup je nasledovn\u00fd:\\nV\u0161etci
+  zamestnanci sa vhodnou formou obozn\u00e1mia s princ\u00edpom a \u00fa\u010delom
+  met\u00f3dy 5S. Ako ve\u013emi efekt\u00edvne sa v tak\u00fdchto pr\u00edpadoch
+  uk\u00e1zalo prehr\u00e1vanie prezent\u00e1ci\u00ed a video sekvenci\u00ed zaoberaj\u00facich
+  sa danou problematikou na ve\u013ekoplo\u0161n\u00fdch obrazovk\u00e1ch v priestoroch,
+  kde sa zamestnanci ur\u010dit\u00fd \u010das zdr\u017euj\u00fa, ale nevykon\u00e1vaj\u00fa
+  pr\u00e1cu. Napr\u00edklad: \u010dakanie na stravu, v\u00fddaj materi\u00e1lu a
+  pod. Ved\u00faci zamestnanci si pospytuj\u00fa svedomie a za\u010dn\u00fa is\u0165
+  pr\u00edkladom. Za\u010dn\u00fa u seba a svojich podriaden\u00fdch pestova\u0165
+  z\u00e1kladn\u00e9 n\u00e1vyky a disciplinovanos\u0165. Bud\u00fa dba\u0165, aby
+  sa v novoprijat\u00fdch zamestnancoch tieto n\u00e1vyky budovali u\u017e od ich
+  prv\u00e9ho n\u00e1stupu na pracovisko.\\nNa z\u00e1klade zau\u017e\u00edvan\u00e9ho
+  syst\u00e9mu sa vytvor\u00ed \u0161tandardiz\u00e1cia pracoviska. Po dosiahnut\u00ed
+  uspokojuj\u00faceho stavu sa vytvoria \u0161tandardiza\u010dn\u00e9 listy pracov\u00edsk
+  a zariaden\u00ed, v ktor\u00fdch je zdokumentovan\u00fd po\u017eadovan\u00fd stav.
+  Organizovanie pr\u00e1ce, usporiadanie, \u010distota a preh\u013eadnos\u0165 pracoviska
+  musia by\u0165 podriaden\u00e9 zabehnut\u00e9mu syst\u00e9mu a n\u00e1vykom. Ako
+  n\u00e1hle si zamestnanci na stanoven\u00fd \u0161tandard zvykn\u00fa, za\u010dneme
+  meni\u0165 a zlep\u0161ova\u0165 pracovn\u00e9 prostredie do po\u017eadovan\u00e9ho
+  stavu a vyzna\u010dova\u0165 k\u013e\u00fa\u010dov\u00e9 miesta s cie\u013eom -
+  umo\u017eni\u0165 plynulej\u0161iu a t\u00fdm aj r\u00fdchlej\u0161iu, kvalitnej\u0161iu
+  a efekt\u00edvnej\u0161iu pr\u00e1cu. Podrobne sa zmapuje a zdokumentuje pracovisko,
+  pop\u00ed\u0161eme \u010dinnosti jednotliv\u00fdch zamestnancov. Ozna\u010d\u00edme
+  \u00falo\u017en\u00e9 miesta a vytvor\u00edme matice zodpovednosti, v ktor\u00fdch
+  sa ur\u010d\u00ed zodpovednos\u0165 konkr\u00e9tnych pracovn\u00edkov za upratanie,
+  resp. za poriadok v jednotliv\u00fdch \u00fasekoch pracov\u00edsk a zariadeniach,
+  a vypracujeme jednoduch\u00fd, ale \u00fa\u010dinn\u00fd postup pre pr\u00edpad
+  zistenia nezhody s po\u017eadovan\u00fdm stavom. Po v\u017eit\u00ed sa s predch\u00e1dzaj\u00facimi
+  etapami, za\u010dneme prehodnocova\u0165 umiestnenie potrebn\u00fdch veci tak, aby
+  mohli by\u0165 jednoducho a r\u00fdchlo pou\u017eit\u00e9. Pri\u010dom berieme oh\u013ead
+  na ich vyu\u017eite\u013enos\u0165 a potrebnos\u0165, \u010d\u00edm zn\u00ed\u017eime
+  mno\u017estvo vydan\u00e9ho n\u00e1radia a skr\u00e1time \u010das potrebn\u00fd
+  na jeho dosiahnutie. Rovnako prehodnot\u00edme miesta pre ulo\u017eenie nezhodn\u00fdch
+  v\u00fdrobkov a odpadu, aby sa skr\u00e1til \u010das neprodukt\u00edvnej manipul\u00e1cie.
+  Filozofia je jednoduch\u00e1 - k\u013e\u00fa\u010d \u010d.13 nebudem vyd\u00e1va\u0165
+  ka\u017ed\u00e9mu zamestnancovi, ktor\u00fd ho potrebuje na nastavenie stroja, ale
+  pridel\u00edm ho do invent\u00e1ra tohto stroja a ka\u017ed\u00e9mu z t\u00fdchto
+  zamestnancov pridel\u00edm zodpovednos\u0165 za tento k\u013e\u00fa\u010d. V\u00fdsledkom
+  je, \u017ee ka\u017ed\u00fd zamestnanec m\u00e1 k\u013e\u00fa\u010d, ktor\u00fd
+  potrebuje pri svojej pr\u00e1ci a ja som namiesto \u0161tyroch doteraz pou\u017e\u00edvan\u00fdch
+  k\u013e\u00fa\u010dov, potreboval len jeden. A ak sa tento k\u013e\u00fa\u010d strat\u00ed,
+  zaplat\u00ed ho ten, kto ho stratil alebo jeho stratu nezistil. V pr\u00edpade,
+  \u017ee sa k\u013e\u00fa\u010d opotrebuje, jednoducho ho vymen\u00edme. V poslednej
+  f\u00e1ze u\u017e len z pracoviska odstr\u00e1nime nepotrebn\u00e9 veci a v r\u00e1mci
+  plnenia ostatn\u00fdch pracovn\u00fdch \u00faloh budeme na v\u0161etk\u00fdch \u00farovniach
+  riadenia neust\u00e1le a d\u00f4sledne vykon\u00e1va\u0165 kontroly dodr\u017eiavania
+  z\u00e1sad met\u00f3dy 5S.\\nZ poh\u013eadu extern\u00e9ho aud\u00edtora je zabezpe\u010denie
+  dodr\u017eiavania z\u00e1sad met\u00f3dy 5S z\u00e1kladn\u00fdm orienta\u010dn\u00fdm
+  prvkom pri hodnoten\u00ed syst\u00e9mu kvality. Pri\u010dom jeho logika je ne\u00faprosn\u00e1
+  a vych\u00e1dza z jednoduchej postupnosti. Ak niekto nie je schopn\u00fd zabezpe\u010di\u0165
+  funk\u010dn\u00fa jednoduch\u00fa met\u00f3du 5S, nem\u00f4\u017ee udr\u017ea\u0165
+  funk\u010dn\u00fd zlo\u017eit\u00fd syst\u00e9m riadenia kvality.\\nZ\u00e1kladn\u00e9
+  vizualiza\u010dn\u00e9 n\u00e1stroje met\u00f3dy 5S:\\n- matica zodpovednosti,\\n-
+  \u0161tandardiza\u010dn\u00fd list pracoviska,\\n- \u0161tandardiza\u010dn\u00fd
+  list v\u00fdrobn\u00e9ho zariadenia.\\nV \u017deleziar\u0148ach Podbrezov\u00e1
+  je z\u00e1kladn\u00fdm dokumentom pre zavedenia a udr\u017eiavanie met\u00f3dy 5S
+  smernica \u010d\u00edslo S 322 \u201eKontrola v\u00fdrobn\u00fdch zariaden\u00ed,
+  odovzd\u00e1vanie zmien a uplat\u0148ovanie met\u00f3dy 5S\u201c, z ktorej s\u00fa
+  definovan\u00e9 tri z\u00e1kladn\u00e9 dokumenty:\\n\u25cf matica zodpovednosti
+  je dokument, v ktorom je pre ur\u010den\u00e9 pracovisko, v r\u00e1mci jednotliv\u00fdch
+  stup\u0148ov riadenia resp. vykon\u00e1vania profesie, ur\u010den\u00e1 zodpovednos\u0165
+  a spoluzodpovednos\u0165 za udr\u017eanie po\u017eadovan\u00e9ho stavu dan\u00e9ho
+  zariadenia, \u00falo\u017en\u00e9ho miesta, raj\u00f3nu alebo ostatn\u00fdch priestorov
+  a vykon\u00e1vanie kontroly. V riadku je v\u00fdpis v\u00fdrobn\u00fdch zariaden\u00ed,
+  \u00falo\u017en\u00fdch miest, pl\u00f4ch, skladov a in\u00fdch objektov nach\u00e1dzaj\u00facich
+  sa na danom pracovisku. V st\u013apci je v\u00fdpis zamestnancov pracuj\u00facich
+  na danom pracovisku. Ich vz\u00e1jomn\u00e1 z\u00e1vislos\u0165 je ur\u010den\u00e1
+  zna\u010dkou v prieniku st\u013apca a riadka,\\n\u25cf \u0161tandardiza\u010dn\u00fd
+  list pracoviska obsahuje sch\u00e9mu pracoviska s jasn\u00fdm vyzna\u010den\u00edm
+  umiestnenia jednotliv\u00fdch zariaden\u00ed, \u00falo\u017en\u00fdch miest, kancel\u00e1ri\u00ed,
+  raj\u00f3nov a ostatn\u00fdch priestorov nach\u00e1dzaj\u00facich sa v danom pracovisku
+  v ich po\u017eadovanom stave, spolu s vyzna\u010den\u00edm k\u013e\u00fa\u010dov\u00fdch
+  miest. Ka\u017ed\u00fd tak\u00fdto objekt alebo ich skupina, m\u00e1 pridelen\u00e9
+  \u010d\u00edslo. Na \u0161tandardiza\u010dnom liste s\u00fa z\u00e1rove\u0148, fotografie
+  s popisom a zobrazen\u00edm po\u017eadovan\u00e9ho stavu. Jednotliv\u00e9 fotografie
+  s\u00fa ozna\u010den\u00e9 \u010d\u00edslami, aby ich bolo mo\u017en\u00e9 priradi\u0165
+  k objektom v sch\u00e9me.\\nV \u0161tandardiza\u010dnom liste pracoviska sa v\u00fdrobn\u00e9
+  zariadenia zobrazuj\u00fa len informat\u00edvne, preto\u017ee maj\u00fa vlastn\u00e9
+  \u0161tandardiza\u010dn\u00e9 listy. K\u013e\u00fa\u010dov\u00e9 miesta s\u00fa
+  miestami, ktor\u00e9 s\u00fa potenci\u00e1lne rizikov\u00e9 a v r\u00e1mci vykon\u00e1vania
+  kontrol nesm\u00fa by\u0165 v \u017eiadnom pr\u00edpade vynechan\u00e9,\\n\u25cf
+  \u0161tandardiza\u010dn\u00fd list v\u00fdrobn\u00e9ho zariadenia obsahuje fotografie
+  k\u013e\u00fa\u010dov\u00fdch miest zariadenia so zobrazen\u00edm po\u017eadovan\u00e9ho
+  stavu. \u0160tandardiza\u010dn\u00fd list je mo\u017en\u00e9 vytvori\u0165 pod\u013ea
+  potreby pre r\u00f4zne objekty, ako s\u00fa - sklad, laborat\u00f3rium, kancel\u00e1riu
+  alebo ak\u00fdko\u013evek \u013eubovo\u013en\u00fd priestor. \u0160tandardiza\u010dn\u00fd
+  list v\u00fdrobn\u00e9ho zariadenia je umiestnen\u00fd na zariaden\u00ed, najlep\u0161ie
+  pri ovl\u00e1dacom pulte.\\nMatica zodpovednosti, \u0161tandardiza\u010dn\u00fd
+  list pracoviska a \u0161tandardiza\u010dn\u00fd list v\u00fdrobn\u00e9ho zariadenia
+  s\u00fa verejn\u00fdmi dokumentmi a b\u00fdvaj\u00fa umiestnen\u00e9 na miestach
+  ur\u010den\u00fdch na vizualiz\u00e1ciu met\u00f3dy 5S.\\nTPS definuje\\n, v porovnan\u00ed
+  s na\u0161imi predpismi, aj nezhodu s po\u017eadovan\u00fdm stavom a jej rie\u0161enie.
+  V praktickom \u017eivote to znamen\u00e1, \u017ee ak d\u00f4jde k zisteniu nezhody
+  je zamestnanec, ktor\u00fd nezhodu zistil, povinn\u00fd zap\u00edsa\u0165 ju do
+  denn\u00edka v\u00fdrobn\u00e9ho zariadenia a bezodkladne ju nahl\u00e1si\u0165
+  priamemu nadriaden\u00e9mu. Nadriaden\u00fd je povinn\u00fd nezhodu zdokumentova\u0165,
+  zabezpe\u010di\u0165 jej odstr\u00e1nenie a vykona\u0165 pr\u00edslu\u0161n\u00e9
+  person\u00e1lne opatrenia. N\u00e1klady spojen\u00e9 s odstra\u0148ovan\u00edm nezhody
+  uhrad\u00ed zamestnanec, ktor\u00fd nezhodu sp\u00f4sobil alebo zamestnanec, ktor\u00fd
+  nezhodu ignoroval a neohl\u00e1sil ju - aj napriek tomu, \u017ee na danom zariaden\u00ed
+  pracoval. Ak sa nezist\u00ed, ktor\u00fd zamestnanec nezhodu sp\u00f4sobil, n\u00e1klady
+  spojen\u00e9 s jej odstra\u0148ovan\u00edm uhrad\u00ed riadiaci zamestnanec, ktor\u00fd
+  je v matici zodpovednosti poveren\u00fd kontrolou. V skuto\u010dnosti v\u0161ak
+  tak\u00e9to prehre\u0161ky prakticky neexistuj\u00fa. Vo v\u0161eobecnosti sa nie\u010do
+  tak\u00e9 pova\u017euje za osobn\u00e9 zlyhanie a hanbu nielen pre doty\u010dn\u00e9ho
+  zamestnanca, ale aj pre jeho cel\u00fa rodinu.\\nAutor (zdroj): Ing. V\u00e1clav
+  Kort\u00e1n\"", "\"BEJZBALOV\u00c9 MEDAILY\\nNA\u0160A V\u00ddHODA:\\nV\u00fdrobcovia
+  medail\u00ed vych\u00e1dzaj\u00fa z medaily a obalov\u00e9ho boxu vo vlastnom dizajne.\\nPon\u00fakame
+  100% z\u00e1ruku kvality. V pr\u00edpade nespr\u00e1vnej v\u00fdroby v\u00e1m vr\u00e1time
+  peniaze, alebo v\u00e1m produkty r\u00fdchlo prerob\u00edme.\\nPros\u00edm, nev\u00e1hajte
+  zada\u0165 svoju objedn\u00e1vku.\\n100% ekologick\u00e1, ne\u0161kodn\u00e1, netoxick\u00e1
+  medaila\\npodporova\u0165 vr\u00e1tenie pe\u0148az\u00ed v pr\u00edpade zlej kvality\\nNa\u0161e
+  bejzbalov\u00e9 medaily bud\u00fa s va\u0161imi hr\u00e1\u010dmi ur\u010dite domovom!
+  ZADARMO n\u00e1kr\u010dn\u00edky a ve\u013ea mo\u017enost\u00ed. Porazili sme na\u0161ich
+  konkurentov a vy m\u00e1te v\u00e4\u010d\u0161iu istotu, \u017ee budete obchodova\u0165
+  s renomovan\u00fdm ocenen\u00fdm v\u00fdrobcom s tis\u00edckami spokojn\u00fdch
+  z\u00e1kazn\u00edkov! Nakupujte n\u00e1\u0161 obrovsk\u00fd v\u00fdber baseballov\u00fdch
+  medail\u00ed ni\u017e\u0161ie a pozrite si na\u0161e mno\u017estevn\u00e9 z\u013eavy
+  na baseballov\u00e9 medaily v\u00fdberom medaily ni\u017e\u0161ie! Sna\u017eili
+  sme sa \u010do najlep\u0161ie pon\u00faknu\u0165 pekn\u00fd v\u00fdber kvalitn\u00fdch
+  baseballov\u00fdch medail\u00ed spolu s niektor\u00fdmi vlastn\u00fdmi v\u00fdbermi
+  baseballov\u00fdch medail\u00ed. D\u00fafajme, \u017ee budete s\u00fahlasi\u0165,
+  \u017ee na\u0161e v\u00fdbery baseballov\u00fdch medail\u00ed s\u00fa vysoko kvalitn\u00e9
+  a dostato\u010dne jedine\u010dn\u00e9 na to, aby va\u0161e ocenenia vyzerali ako
+  homerun. M\u00e1me tie\u017e pekn\u00fd v\u00fdber baseballov\u00fdch trofej\u00ed
+  a plakiet.\\nBejzbal je sp\u00e4\u0165 a m\u00e1me pre v\u00e1s bejzbalov\u00e9
+  trofeje a medaily na pripomenutie si impozantnej sez\u00f3ny 2020 (ak bude odlo\u017een\u00e1).
+  Vyberte si medzi na\u0161imi dom\u00e1cimi plaketami a na\u0161ou najob\u013e\u00fabenej\u0161ou
+  trofejou baseballov\u00fdch rukav\u00edc. Dostupn\u00e9 v to\u013ek\u00fdch r\u00f4znych
+  ve\u013ekostiach, \u0161t\u00fdloch a farb\u00e1ch, m\u00e1me nie\u010do pre ka\u017ed\u00fd
+  \u0161t\u00fdl a rozpo\u010det a samozrejme bezplatn\u00e9 a neobmedzen\u00e9 grav\u00edrovanie!
+  Prisp\u00f4sobte si svoju baseballov\u00fa trofej e\u0161te dnes a u\u0161etrite
+  s na\u0161imi n\u00edzkymi cenami a mno\u017estevn\u00fdmi z\u013eavami!\"", "\"Staronov\u00fd
+  prim\u00e1tor Richard Rybn\u00ed\u010dek povedie mesto aj v najbli\u017e\u0161\u00edch
+  \u0161tyroch rokoch.\\nAko hodnot\u00ed predvolebn\u00fa kampa\u0148, \u010do pod\u013ea
+  neho rozhodlo? Ak\u00e9 bud\u00fa jeho priority, \u010do hovor\u00ed na nov\u00e9
+  zlo\u017eenie mestsk\u00e9ho zastupite\u013estva?\\nV\u00e1\u0161 volebn\u00fd v\u00fdsledok
+  bol jednozna\u010dn\u00fd. Aj vzh\u013eadom na to, ak\u00e1 bola v Tren\u010d\u00edne
+  pred vo\u013ebami atmosf\u00e9ra, prekvapilo v\u00e1s to?\\n\u2013 \u00c1no. Bolo
+  to obrovsk\u00e9 prekvapenie a doteraz to tak vn\u00edmam. Dokonca som chv\u00ed\u013eami
+  pochyboval, \u010di to v\u00f4bec d\u00e1m, \u010di to bude tesn\u00e9 a ako. To,
+  \u017ee pri 42-percentnej \u00fa\u010dasti prekro\u010d\u00edm 70 percent, mi ani
+  vo sne nenapadalo. Dostal som vy\u0161e 13-tis\u00edc hlasov, \u010do je obrovsk\u00e9
+  \u010d\u00edslo.\\n\u010co pod\u013ea v\u00e1s rozhodlo?\\n\u2013 Rozhodla agresivita
+  kampane protikandid\u00e1tov a nen\u00e1vis\u0165, ktor\u00e1 z toho posledn\u00e9
+  t\u00fd\u017edne sr\u0161ala. To, \u017ee \u013eudia nec\u00edtili, \u017ee chc\u00fa
+  odtia\u013eto vyhna\u0165 m\u0148a ako prim\u00e1tora. Mo\u017eno ich nahnevala
+  parkovacia politika, mo\u017eno sa robili niekde chyby, ale nec\u00edtili to tak,
+  \u017ee by ma chceli odtia\u013eto vyhna\u0165.\\nMo\u017eno by boli ochotn\u00ed
+  hlasova\u0165 za kandid\u00e1ta, ktor\u00fd by pon\u00fakol rozumnej\u0161\u00ed
+  program a presved\u010dil ich t\u00fdm, \u017ee by dok\u00e1zal mesto posun\u00fa\u0165
+  inak. Ale postavi\u0165 to na hranu, \u017ee nech je prim\u00e1tor ktoko\u013evek
+  in\u00fd, len nie ja, mysl\u00edm, \u017ee \u013eudia si povedali, \u017ee toto
+  nie je politika, ktor\u00fa tu chceme ma\u0165.\\nKtor\u00e9 veci pova\u017eujete
+  z predch\u00e1dzaj\u00facich \u0161tyroch rokov za nedokon\u010den\u00e9? \u010co
+  by ste chceli zmeni\u0165?\\n\u2013 Ur\u010dite regul\u00e1ciu parkovania. To mus\u00edme
+  podo\u0165ahova\u0165, je to ve\u013emi d\u00f4le\u017eit\u00e9. Som si vedom\u00fd
+  toho, \u017ee sa mus\u00edme viac obu\u0165 do rekon\u0161trukcie chodn\u00edkov
+  a ciest, tie s\u00fa v zlom stave. V posledn\u00fdch rokoch sme viac preferovali
+  \u0161koly a \u0161k\u00f4lky pr\u00e1ve na \u00fakor ciest a chodn\u00edkov.\\nChceme
+  pokra\u010dova\u0165 v projekte Tren\u010d\u00edn SiTy a rie\u0161en\u00edm dopravy.
+  Je ot\u00e1zkou desiatich rokov, kedy n\u00e1m to tu skolabuje. Mus\u00edme to ve\u013emi
+  v\u00e1\u017ene rie\u0161i\u0165 so \u0161t\u00e1tom, aby sme za\u010dali prij\u00edma\u0165
+  opatrenia na rie\u0161enie dopravy v centre mesta.\\nM\u00e1me premyslen\u00e9,
+  \u017ee na hlavn\u00fdch kri\u017eovatk\u00e1ch budeme meni\u0165 radi\u010de tak,
+  aby sme zaviedli zelen\u00fa vlnu. Plus budeme rie\u0161i\u0165 ot\u00e1zku vyrie\u0161enia
+  dopravy v centre prelo\u017ekou cesty I/61 \u00fazemn\u00e9ho pl\u00e1nu \u010d\u00edslo
+  \u0161tyri.\"", "\"Metalick\u00e9 strieborn\u00e9 top\u00e1nky s\u00fa t\u00fato
+  sez\u00f3nu skuto\u010dn\u00fdm hitom a hodia sa ku kabelke akejko\u013evek farby.
+  V ka\u017edom obchode s obuvou n\u00e1jdete aspo\u0148 nieko\u013eko n\u00e1vrhov
+  na strieborn\u00e9 top\u00e1nky \u2013 form\u00e1lne aj vo\u013eno\u010dasov\u00e9.
+  Padol v\u00e1m ned\u00e1vno do oka jeden model, ale ob\u00e1vate sa, \u017ee ho
+  nebudete ma\u0165 k \u010domu nosi\u0165? T\u00fdmto \u010dl\u00e1nkom v\u00e1s
+  chceme presved\u010di\u0165, \u017ee strieborn\u00e9 top\u00e1nky sa daj\u00fa rovnako
+  \u013eahko \u0161tylizova\u0165 ako biele alebo \u010dierne. A vhodn\u00fa kabelku
+  u\u017e m\u00e1 v \u0161atn\u00edku asi ka\u017ed\u00e1 z n\u00e1s.\\nHoci s\u00fa
+  strieborn\u00e9 top\u00e1nky leskl\u00e9 a p\u00fatav\u00e9, nem\u00f4\u017eeme
+  si ich dovoli\u0165 len na rande alebo na svadbu. V poslednom \u010dase sa jedn\u00fdm
+  z najhor\u00facej\u0161\u00edch m\u00f3dnych trendov stali strieborn\u00e9 tenisky,
+  obuv, ktor\u00e1 sp\u00e1ja \u0161portov\u00fd \u0161t\u00fdl s n\u00e1dychom elegancie.
+  Ot\u00e1zka znie: ktor\u00e9 farby a \u0161t\u00fdly kabeliek sa najlep\u0161ie
+  hodia k strieborn\u00fdm tenisk\u00e1m? Odpove\u010f pozn\u00e1me a radi by sme
+  sa s vami o tieto poznatky podelili.\\nTepl\u00e1 hned\u00e1 a\u017e kovovo strieborn\u00e1\\nPravidlom
+  je nekombinova\u0165 pr\u00edli\u0161 ve\u013ea metalick\u00fdch prvkov dohromady,
+  preto\u017ee v\u00fdsledkom m\u00f4\u017ee by\u0165 prehnan\u00fd styling a m\u00f4\u017eeme
+  vyzera\u0165 ako chodiaci viano\u010dn\u00fd strom\u010dek. Preto je najbezpe\u010dnej\u0161ie
+  strieborn\u00e9 top\u00e1nky kombinova\u0165 s doplnkami v tlmenej\u0161\u00edch
+  farb\u00e1ch. Ide\u00e1lne s\u00fa hned\u00e9 farby vo v\u0161etk\u00fdch odtie\u0148och,
+  od jemn\u00fdch b\u00e9\u017eov\u00fdch a\u017e po karamelov\u00e9 a tmavohned\u00e9.
+  Pri le\u017e\u00e9rnych outfitoch so strieborn\u00fdmi top\u00e1nkami bude skvele
+  vyzera\u0165 hned\u00e1 n\u00e1kupn\u00e1 ta\u0161ka, vreckovka alebo listov\u00e1
+  ta\u0161ka. Na druhej strane, ak chcete p\u00f4sobi\u0165 form\u00e1lnej\u0161ie,
+  biznisovo, vyberte si hned\u00fd alebo b\u00e9\u017eov\u00fd kufor. V kombin\u00e1cii
+  so strieborn\u00fdmi lodi\u010dkami na podp\u00e4tku alebo mokas\u00ednami vytvor\u00ed
+  \u0161t\u00fdlov\u00e9 duo. Alebo sa rozhodnite pre b\u00e9\u017eov\u00fa a strieborn\u00fa
+  kabelku, ktor\u00e1 sa hod\u00ed k v\u00e1\u0161mu be\u017en\u00e9mu oble\u010deniu.\\nBezpe\u010dn\u00e1
+  siv\u00e1 v kombin\u00e1cii so striebornou\\nFarba, ktor\u00e1 najviac s\u00favis\u00ed
+  so striebornou, je siv\u00e1. Nie je preto prekvapen\u00edm, \u017ee hitom bud\u00fa
+  kabelky v odtie\u0148och popola a grafitovej. Tak\u00e1to kabelka je nad\u010dasov\u00e1
+  a aj ke\u010f sa obnos\u00ed, st\u00e1le ju m\u00f4\u017eeme nosi\u0165 v kombin\u00e1cii
+  s obuvou inej farby. V internetovom obchode panikabelkova.sk n\u00e1jdeme ve\u013ea
+  kabeliek v sivej farbe, s r\u00f4znymi ve\u013ekos\u0165ami, tak\u017ee ka\u017ed\u00fd
+  si n\u00e1jde nie\u010do ide\u00e1lne pre seba. Pri v\u00fdbere konkr\u00e9tneho
+  k\u00fasku sa oplat\u00ed venova\u0165 pozornos\u0165 tomu, aby mal strieborn\u00e9
+  doplnky v pos\\nKombin\u00e1cia pre odv\u00e1\u017enych a temperamentn\u00fdch\\nAk
+  sa radi hr\u00e1te s m\u00f3dou a konzervativizmus je to posledn\u00e9, na \u010do
+  mysl\u00edte pri zostavovan\u00ed outfitu a v\u00fdbere doplnkov, potom m\u00f4\u017eete
+  strieborn\u00e9 top\u00e1nky kombinova\u0165 s v\u00fdrazn\u00fdm farebn\u00fdm
+  akcentom. Pr\u00edkladom m\u00f4\u017ee by\u0165 \u010derven\u00e1. Strieborn\u00e9
+  top\u00e1nky m\u00f4\u017eete zladi\u0165 nielen s \u010dervenou kabelkou, ale aj
+  so \u0161atami alebo oblekom. Tento vzh\u013ead nebude m\u00f4c\u0165 nikto ignorova\u0165.
+  Ak nechcete ma\u0165 cel\u00fa kabelku vo v\u00fdraznej farbe, m\u00f4\u017eete
+  si vybra\u0165 tak\u00fa, ktor\u00e1 m\u00e1 len vlo\u017eku v \u010dervenej, tmavomodrej,
+  smaragdovo zelenej alebo kobaltovej farbe. Tak\u00e9to kombin\u00e1cie vytvoria
+  elegantn\u00fd, \u0161t\u00fdlov\u00fd s\u00fabor, ktor\u00fd je z\u00e1rove\u0148
+  origin\u00e1lny.\\nStrieborn\u00e1 kabelka a top\u00e1nky \u2013 bude to vyzera\u0165
+  \u0161t\u00fdlovo?\\nVzory s\u00fa stvoren\u00e9 na to, aby sa poru\u0161ovali.
+  V minulosti bolo farebn\u00e9 zladenie top\u00e1nok a kabelky pravidlom, dnes sa
+  to \u010dasto pova\u017euje za pas\u00e9. Nezab\u00fadajme v\u0161ak, \u017ee s
+  m\u00f3dou sa treba hra\u0165, a ak sa v\u00e1m p\u00e1\u010di kombin\u00e1cia strieborn\u00fdch
+  top\u00e1nok a kabelky v rovnakej farbe, ni\u010d v\u00e1m nebr\u00e1ni nosi\u0165
+  ju na ulici. V skuto\u010dnosti, ak tenisky zlad\u00edte s mal\u00fdm mestsk\u00fdm
+  chrbtom v striebornej farbe a zladen\u00fdm sakom a nohavicami, m\u00f4\u017eete
+  dosiahnu\u0165 vzh\u013ead, za ktor\u00fd by sa nemusel hanbi\u0165 \u017eiadny
+  m\u00f3dny stylista. S doplnkami to v\u0161ak sk\u00faste nepreh\u00e1\u0148a\u0165.
+  Ak je striebornej pr\u00edli\u0161 ve\u013ea, nemus\u00ed to vyzera\u0165 dobre.\\nDetail
+  na top\u00e1nkach, celkom na kabelke\\nObuv, ktor\u00fa m\u00e1me v predaji, nie
+  je v\u017edy cel\u00e1 vyroben\u00e1 zo strieborn\u00e9ho materi\u00e1lu. V pr\u00edpade
+  tenisiek alebo baler\u00ednok m\u00f4\u017eeme \u010dasto n\u00e1js\u0165 strieborn\u00e9
+  prvky, zatia\u013e \u010do zvy\u0161ok je biely alebo inej farby. K takejto obuvi
+  m\u00f4\u017eeme bez v\u00e1hania nosi\u0165 strieborn\u00fa kabelku, ktor\u00e1
+  m\u00f4\u017ee by\u0165 vyroben\u00e1 z materi\u00e1lov, ako s\u00fa napr:\\n\u2013
+  zrnit\u00e1 ko\u017ea;\\n\u2013 lakovan\u00e1 ko\u017ea;\\n\u2013 ekologick\u00e1
+  ko\u017ea;\\n\u2013 semi\u0161.\\nStrieborn\u00e1 kabelka z pr\u00edrodnej ko\u017ee
+  je kabelka, ktor\u00e1 n\u00e1m bude sl\u00fa\u017ei\u0165 roky a bude sa perfektne
+  hodi\u0165 k le\u017e\u00e9rnym aj elegantnej\u0161\u00edm outfitom, ktor\u00e9
+  zlad\u00edme s top\u00e1nkami so strieborn\u00fdm mot\u00edvom.\\nNeobvykl\u00e9
+  kabelky s ozdobami\\nKabelky k strieborn\u00fdm top\u00e1nkam nemusia by\u0165 nudn\u00e9,
+  oby\u010dajn\u00e9 a bez \u0161mrncu. Hoci pr\u00e1ve top\u00e1nky bud\u00fa hra\u0165
+  prv\u00e9 husle, doplnky, a medzi nimi aj kabelka, nemusia by\u0165 nevidite\u013en\u00e9.
+  Aj ke\u010f sa rozhodneme pre bezpe\u010dn\u00fa b\u00e9\u017eov\u00fa alebo siv\u00fa
+  farbu, m\u00f4\u017eu ma\u0165 ozdoby, ktor\u00e9 kabelku urobia origin\u00e1lnou.
+  Hovor\u00edme najm\u00e4 o kabelk\u00e1ch s strapcami, cvo\u010dkami alebo flitrov\u00fdmi
+  prvkami. Hod\u00ed sa zlat\u00e1 kabelka k strieborn\u00fdm top\u00e1nkam? Mnoh\u00fdm
+  sa t\u00e1to kombin\u00e1cia zd\u00e1 \u0165a\u017eko predstavite\u013en\u00e1.
+  A to je chyba. Preto\u017ee na ve\u010dern\u00e9 vych\u00e1dzky si t\u00fato kombin\u00e1ciu
+  ur\u010dite m\u00f4\u017eete dovoli\u0165. Strieborn\u00e9 ihli\u010dkov\u00e9 top\u00e1nky,
+  strieborn\u00e1 suk\u0148a, zlat\u00e1 kabelka a zlat\u00e9 \u0161perky bud\u00fa
+  vyzera\u0165 dokonale.\\nHoci strieborn\u00e9 top\u00e1nky s\u00fa nepochybne v\u00fdrazn\u00fdm
+  stylingov\u00fdm prvkom, ktor\u00fd nemo\u017eno prehliadnu\u0165, nie je v\u00f4bec
+  \u0165a\u017ek\u00e9 zladi\u0165 ich s kabelkou. Dokonalou kombin\u00e1ciou bud\u00fa
+  bezpe\u010dn\u00e9 farby, ako s\u00fa hned\u00e1, b\u00e9\u017eov\u00e1, siv\u00e1
+  alebo biela. T\u00fdm to v\u0161ak nekon\u010d\u00ed, preto\u017ee strieborn\u00e9
+  top\u00e1nky si zamiluj\u00fa spolo\u010dnos\u0165 smaragdovo zelenej, tmavomodrej
+  a tie\u017e \u010dervenej. Ako vid\u00edte, je z \u010doho vybera\u0165 a v\u0161etky
+  m\u00f3dne a \u0161t\u00fdlov\u00e9 po\u0161tov\u00e9 schr\u00e1nky, n\u00e1kupn\u00e9
+  ta\u0161ky, aktovky a mnoho \u010fal\u0161\u00edch \u0161t\u00fdlov n\u00e1jdete
+  na str\u00e1nke panikabelkova.sk. Nechajte sa in\u0161pirova\u0165 a vytvorte si
+  kr\u00e1sny \u0161t\u00fdl priamo z ob\u00e1lky m\u00f3dneho \u010dasopisu.\"",
+  "\"Verejnopr\u00e1vna telev\u00edzia to po druh\u00fdkr\u00e1t sk\u00fasi so \u0161portov\u00fdm
+  telev\u00edznym okruhom.\\nJedna z najdiskutovanej\u0161\u00edch t\u00e9m okolo
+  RTVS sa tento rok do\u010dk\u00e1 definit\u00edvneho rie\u0161enia. Roky \u017eiadan\u00fd
+  \u0161portov\u00fd telev\u00edzny okruh je pre tento rok fin\u00e1lne s\u013e\u00faben\u00fd,
+  pri\u010dom aktu\u00e1lne telev\u00edzia pracuje na finaliz\u00e1cii v\u0161etk\u00fdch
+  procesov.\\nAko bolo zn\u00e1me u\u017e vlani, RTVS v pr\u00edpade \u0161portov\u00e9ho
+  kan\u00e1la, ktor\u00fd nazve jednoducho \u0160port, a teda nie \u0160tvorka ako
+  \u0161tvrt\u00fd okruh v porad\u00ed, stanovila nieko\u013eko d\u00e1tumov, dokedy
+  vysielanie novej stanice spust\u00ed. Pravidlom pri ka\u017edej mo\u017enosti bolo
+  spustenie kan\u00e1la spolo\u010dne s v\u00fdznamne sledovanou \u0161portovou udalos\u0165ou,
+  pri ktorej by mohla RTVS ako nov\u00fd kan\u00e1l najefekt\u00edvnej\u0161ie odkomunikova\u0165
+  a spromova\u0165, tak aj nau\u010di\u0165 div\u00e1kov nach\u00e1dza\u0165 \u0161portov\u00e9
+  prenosy na verejnopr\u00e1vnej obrazovke na novom okruhu miesto Jednotky a Dvojky.\\nPod\u013ea
+  \u00faplne prv\u00fdch pl\u00e1nov mohol kan\u00e1l \u0160port za\u010da\u0165 vysiela\u0165
+  u\u017e v \u010dase vla\u0148aj\u0161ieho hokejov\u00e9ho \u0161ampion\u00e1tu na
+  Slovensku, n\u00e1sledne sa re\u00e1lne odhady ust\u00e1lili na polovicu tohto roka.
+  K\u00fdm v pr\u00edpade \u00faspechu slovenskej futbalovej reprezent\u00e1cie v
+  boji o postup na EURO 2020, ktor\u00e9 \u0161tartuje 12. j\u00fana, bola RTVS pripraven\u00e1
+  spusti\u0165 nov\u00fa stanicu s\u00fabe\u017ene s t\u00fdmto \u0161ampion\u00e1tom,
+  aktu\u00e1lne gener\u00e1lny riadite\u013e Jaroslav Rezn\u00edk potvrdil term\u00edn
+  spustenia \u0161portov\u00e9ho kan\u00e1la.\\nAko aktu\u00e1lne uviedol, pl\u00e1n
+  je spusti\u0165 stanicu \u0160port po\u010das leta, a teda najpravdepodobnej\u0161\u00edm
+  term\u00ednom bude spustenie z\u00e1rove\u0148 so za\u010diatkom letn\u00fdch olympijsk\u00fdch
+  hier v Tokiu. Tie sa ofici\u00e1lne za\u010dn\u00fa otv\u00e1rac\u00edm ceremoni\u00e1lom
+  24. j\u00fala 2020.\\n\u201c\u0160tvrt\u00fd telev\u00edzny okruh \u0160port pl\u00e1nujeme
+  spusti\u0165 v lete. M\u00e1me nieko\u013eko mesiacov na to, aby sme vy\u0161perkovali
+  programov\u00fa \u0161trukt\u00faru. Nebude to iba o \u0161porte. Bude to \u0161port
+  a \u017eivotn\u00fd \u0161t\u00fdl. Nie\u010do v zmysle: H\u00fdb sa a bude\u0161
+  zdrav\u00fd. M\u00e1me pr\u00e1va na v\u0161etky v\u00fdznamn\u00e9 \u0161portov\u00e9
+  udalosti, okrem Ligy majstrov. Na\u0161ou k\u013e\u00fa\u010dovou \u00falohou bude
+  prin\u00e1\u0161a\u0165 kvalitn\u00fd \u0161port. Ale \u010do je dominantn\u00e9,
+  chceme podporova\u0165 slovensk\u00fd \u0161port. Tro\u0161ku chceme prispie\u0165
+  k tomu, aby sa zvy\u0161ovalo kult\u00farne z\u00e1zemie na \u0161portov\u00fdch
+  podujatiach. Nech sa z ich n\u00e1v\u0161tev stane aj s podporou RTVS kult\u00farna
+  z\u00e1le\u017eitos\u0165. A z\u00e1rove\u0148, t\u00fdm, \u017ee stanicu obohat\u00edme
+  o lifestyle, chceme uk\u00e1za\u0165, \u017ee \u017eivotn\u00fd \u0161t\u00fdl,
+  ktor\u00fd je zalo\u017een\u00fd na pohybe, na \u0161porte, zvy\u0161uje vitalitu,
+  zdravie, vek. V roku 2020 zmen\u00edme div\u00e1cky poh\u013ead na \u0161port a
+  n\u00e1stoj\u010divo povieme, \u017ee h\u00fdba\u0165 sa je dobr\u00e9,\u201d povedal
+  pre Strat\u00e9gie.sk.\"", "\"E-commerce celosvetovo - \u0161tatistiky a fakty\\nZa
+  posledn\u00e9 roky sa E-commerce stal neodmyslite\u013enou s\u00fa\u010das\u0165ou
+  glob\u00e1lneho maloobchodu. Ako mnoh\u00e9 \u010fal\u0161ie odvetvia, n\u00e1kup
+  a predaj tovaru pre\u0161li po n\u00e1stupe internetu podstatnou transform\u00e1ciou
+  a v\u010faka prebiehaj\u00facej digitaliz\u00e1cii modern\u00e9ho \u017eivota teraz
+  spotrebitelia na celom svete profituj\u00fa z v\u00fdhod online transakci\u00ed.
+  S r\u00fdchlym n\u00e1rastom glob\u00e1lneho pr\u00edstupu k internetu a jeho osvojenia,
+  s viac ako piatimi miliardami pou\u017e\u00edvate\u013eov internetu na celom svete,
+  po\u010det \u013eud\u00ed, ktor\u00ed nakupuj\u00fa online, neust\u00e1le narast\u00e1.
+  V roku 2022 sa odhaduje, \u017ee maloobchodn\u00e9 tr\u017eby v e-commerce presiahnu
+  5,7 bili\u00f3na americk\u00fdch dol\u00e1rov na celom svete a o\u010dak\u00e1va
+  sa, \u017ee toto \u010d\u00edslo v nasleduj\u00facich rokoch dosiahne nov\u00fa
+  v\u00fd\u0161ku.\\nL\u00eddri na trhu elektronick\u00e9ho obchodu\\nPou\u017e\u00edvatelia
+  internetu si m\u00f4\u017eu vybra\u0165 z r\u00f4znych platforiem na prehliadanie,
+  porovn\u00e1vanie a n\u00e1kup tovaru a slu\u017eieb, ktor\u00e9 potrebuj\u00fa.
+  Zatia\u013e \u010do niektor\u00e9 webstr\u00e1nky sa zameriavaj\u00fa na B2B (business-to-business)
+  klientov, individu\u00e1lnym spotrebite\u013eom sa tie\u017e pon\u00faka obrovsk\u00e9
+  mno\u017estvo mo\u017enost\u00ed. Od roku 2022 predstavuj\u00fa online trhovisk\u00e1
+  najv\u00e4\u010d\u0161\u00ed podiel online n\u00e1kupov na celom svete. Na \u010dele
+  svetov\u00e9ho rebr\u00ed\u010dka internetov\u00fdch maloobchodn\u00fdch webov\u00fdch
+  str\u00e1nok z h\u013eadiska n\u00e1v\u0161tevnosti je Amazon.\\nGigant elektronick\u00e9ho
+  obchodu so s\u00eddlom v Seattli, ktor\u00fd pon\u00faka elektronick\u00fd maloobchod,
+  po\u010d\u00edta\u010dov\u00e9 slu\u017eby, spotrebn\u00fa elektroniku a digit\u00e1lny
+  obsah, zaznamenal v m\u00e1ji 2022 viac ako 5,6 miliardy priamych n\u00e1v\u0161tev
+  na svojej webovej lokalite .com. Pokia\u013e ide o hrub\u00fa hodnotu tovaru (GMV),
+  Amazon je na tre\u0165om mieste za \u010d\u00ednskymi konkurentmi Taobao a Tmall.
+  Obe platformy prev\u00e1dzkuje skupina Alibaba, popredn\u00fd poskytovate\u013e
+  online obchodu v \u00c1zii.\\nMobil zvy\u0161uje n\u00e1v\u0161tevnos\u0165 e-commerce\\nJedn\u00fdm
+  z najvidite\u013enej\u0161\u00edch trendov vo svete e-commerce je bezprecedentn\u00e9
+  pou\u017e\u00edvanie mobiln\u00fdch zariaden\u00ed. Koncom roka 2022 predstavovali
+  smartf\u00f3ny viac ako 70 percent v\u0161etk\u00fdch n\u00e1v\u0161tev maloobchodn\u00fdch
+  webov\u00fdch str\u00e1nok na celom svete a na druhej strane tie\u017e generovali
+  v\u00e4\u010d\u0161inu online objedn\u00e1vok v porovnan\u00ed s po\u010d\u00edta\u010dmi
+  a tabletmi. Ke\u010f\u017ee zav\u00e1dzanie mobiln\u00fdch zariaden\u00ed napreduje
+  r\u00fdchlym tempom, najm\u00e4 v regi\u00f3noch, ktor\u00e9 nemaj\u00fa in\u00fa
+  digit\u00e1lnu infra\u0161trukt\u00faru, mobiln\u00e1 integr\u00e1cia bude aj na\u010falej
+  formova\u0165 nakupovanie bud\u00facnosti. M-commerce je obzvl\u00e1\u0161\u0165
+  popul\u00e1rny v \u00c1zii, kde krajiny ako \u010c\u00edna alebo Ju\u017en\u00e1
+  K\u00f3rea generuj\u00fa viac ako dve tretiny svojho celkov\u00e9ho online predaja
+  prostredn\u00edctvom mobiln\u00fdch zariaden\u00ed.\\n\u010co maj\u00fa spolo\u010dn\u00e9
+  glob\u00e1lni digit\u00e1lni nakupuj\u00faci?\\nZatia\u013e \u010do online nakupuj\u00faci
+  sa zna\u010dne l\u00ed\u0161ia v z\u00e1vislosti od ich pr\u00edslu\u0161n\u00fdch
+  regi\u00f3nov na celom svete, existuj\u00fa v\u0161eobecn\u00e9 ukazovatele, ktor\u00e9
+  pom\u00e1haj\u00fa pochopi\u0165 z\u00e1kladn\u00e9 spr\u00e1vanie digit\u00e1lnych
+  spotrebite\u013eov. Popredn\u00e9 trhovisk\u00e1 sl\u00fa\u017eia ako zdroj in\u0161pir\u00e1cie
+  a prim\u00e1rne miesto na vyh\u013ead\u00e1vanie produktov online pred samotn\u00fdm
+  n\u00e1kupom. Aj ke\u010f je online nakupovanie menej interakt\u00edvne ako v obchode,
+  online nakupuj\u00faci oce\u0148uj\u00fa jednoduchos\u0165 a flexibilitu e-commerce.
+  Pokia\u013e ide o preferencie doru\u010denia, doru\u010denie produktov domov je
+  v porovnan\u00ed s in\u00fdmi mo\u017enos\u0165ami vyzdvihnutia najob\u013e\u00fabenej\u0161\u00edm
+  sp\u00f4sobom prij\u00edmania online objedn\u00e1vok.\\nVo sf\u00e9re Business-to-Consumer
+  (B2C) patria m\u00f3da a spotrebn\u00e1 elektronika medzi popredn\u00e9 e-commerce
+  vertik\u00e1ly k dne\u0161n\u00e9mu d\u0148u a prispievaj\u00fa k najv\u00e4\u010d\u0161iemu
+  podielu online maloobchodn\u00e9ho predaja.\"", "\"Nov\u00fdch technol\u00f3gii
+  je mnoho, \u010dlovek niekedy m\u00e1 probl\u00e9m zorientova\u0165 sa v takom mno\u017estve
+  flexibiln\u00fdch m\u00e9di\u00ed. Iba jednej technol\u00f3gii sa v\u0161ak pripisuje
+  mimoriadna z\u00e1sluha na tom, \u017ee kazety to u\u017e maj\u00fa \\\"za p\u00e1r\\\".
+  DVD revol\u00facia je definit\u00edvne tu - spo\u013eahlivos\u0165, pohodlnos\u0165,
+  jednoduchos\u0165 pou\u017e\u00edvania tohto form\u00e1tu a neskuto\u010dn\u00e1
+  popularita DVD prehr\u00e1va\u010dov predznamen\u00e1va, \u017ee DVD sa pravdepodobne
+  stane form\u00e1tom bud\u00facnosti.\\nDVD ako \u0161tandard\\nP\u00f4vodne Digital
+  Video Disc, podporovan\u00fd ve\u013ek\u00fdmi filmov\u00fdmi spolo\u010dnos\u0165ami,
+  sl\u00fa\u017eil ako m\u00e9dium pre z\u00e1znam obrazu. Nesk\u00f4r sa pretransformoval
+  na disk v\u0161estrann\u00e9ho pou\u017eitia Digital Versatile Disc ako ho pozn\u00e1me
+  dnes. Expanzia form\u00e1tu DVD bola r\u00fdchlej\u0161ia, ne\u017e tomu bolo pri
+  akomko\u013evek inom audio-video form\u00e1te v hist\u00f3rii.\\nSkratka DVD v\u0161ak
+  m\u00f4\u017ee znamena\u0165 aj nie\u010do in\u00e9. Pre Jozefa Kraj\u010dovi\u010da
+  zo spolo\u010dnosti Dikrama je DVD v pracovnom slangu Dokonale Viden\u00e9 Dielo.
+  Ide o firemn\u00fa filozofiu pr\u00edstupu k \u0161tandardu ako tak\u00e9mu. Predstavte
+  si konzumenta, ktor\u00fd m\u00e1 dom\u00e1ce kino, do ktor\u00e9ho vrazil zna\u010dn\u00e9
+  peniaze. Z nosi\u010dov si kupuje len svetov\u00fa \u0161pi\u010dku a te\u0161\u00ed
+  sa z toho, \u017ee m\u00e1 dobr\u00fd obraz aj zvuk. Jedn\u00e9ho d\u0148a prejav\u00ed
+  z\u00e1ujem k\u00fapi\u0165 si slovensk\u00e9, alebo \u010desk\u00e9 DVD a odrazu
+  spozornie, \u017ee sa mu nie\u010do pokazilo. Zist\u00ed, \u017ee kvalita obrazu
+  a zvuku je niekde \u00faplne inde. A to je pod\u013ea Jozefa Kraj\u010dovi\u010da
+  probl\u00e9m, ktor\u00fd sa t\u00fdka ka\u017ed\u00e9ho, kto podnik\u00e1 na Slovensku
+  v oblasti DVD. V\u00fd\u0161ka latky je v\u010faka Hollywoodu nastaven\u00e1 stra\u0161ne
+  vysoko t\u00fdm, \u017ee sa filmy skenuj\u00fa v digit\u00e1lnom dvojkilovom, alebo
+  \u0161tvorkilovom rozl\u00ed\u0161en\u00ed. T\u00fdm, \u017ee u\u017e pri v\u00fdrobe
+  filmov s\u00fa dopredu vy\u010dlenen\u00e9 nemal\u00e9 prostriedky na to, aby sa
+  pripravila aj DVD verzia titulu. Spom\u00ednan\u00fd tlak Hollywoodu poc\u00edti
+  predov\u0161etk\u00fdm mal\u00fd slovensk\u00fd vydavate\u013e, ktor\u00fd sa pok\u00fa\u0161a
+  v reg\u00e1li div\u00e1ka n\u00e1js\u0165 rovnak\u00e9 miesto pre svoje dielo, ako
+  maj\u00fa zahrani\u010dn\u00e9 DVD tituly. Tu za\u010d\u00edna probl\u00e9m filozofie
+  ako k nosi\u010dom DVD prist\u00fapi\u0165.\\nPrepis a re\u0161taurovanie\\nTechnick\u00fd
+  prepis je len o nie\u010do dlh\u0161\u00ed ako samotn\u00fd titul. Ak by sme zobrali
+  kinofilm, ktor\u00fd trv\u00e1 asi hodinu a pol, tak s potrebnou pr\u00edpravou
+  je prepis hotov\u00fd pribli\u017ene za dve hodiny. Potom prich\u00e1dza na rad
+  \\\"videnie\\\" DVD\u010dka - odsledova\u0165 kvalitu, farebnos\u0165 materi\u00e1lu.
+  V podstate by sa do toho zasahova\u0165 nemalo, lebo ide o autorsk\u00e9 dielo,
+  ale probl\u00e9my okolo archivovania filmov\u00fdch materi\u00e1lov s\u00fa u\u017e
+  zn\u00e1me aj \u0161irokej verejnosti.\\nCie\u013eom spolo\u010dnosti Dikrama je
+  na Slovensku vyda\u0165 v priebehu nasleduj\u00facich 5-6 rokov tzv. digit\u00e1lnu
+  videot\u00e9ku Slovenska, ktor\u00e1 by obsahovala 100 najv\u00fdznamnej\u0161\u00edch
+  filmov\u00fdch a telev\u00edznych diel z arch\u00edvu Slovensk\u00e9ho filmov\u00e9ho
+  \u00fastavu a Slovenskej telev\u00edzie.\\nZbierka by mala obsahova\u0165 tak div\u00e1cky
+  \u00faspe\u0161n\u00fa \u010das\u0165, ako aj \u010das\u0165 umeleck\u00fa. Ak sa
+  pozrieme na tituly, ktor\u00e9 doteraz vy\u0161li, d\u00e1 sa skon\u0161tatova\u0165,
+  \u017ee toto predsavzatie sa zatia\u013e nap\u013a\u0148a\u0165 dar\u00ed. V ponuke
+  je J\u00e1no\u0161\u00edkovsk\u00e1 tril\u00f3gia (J\u00e1no\u0161\u00edk, Pacho,
+  hybsk\u00fd zbojn\u00edk, Zbojn\u00edk Jurko), na viano\u010dnom trhu sa objavila
+  zre\u0161taurovan\u00e1 telev\u00edzna klasika Neberte n\u00e1m princezn\u00fa,
+  vych\u00e1dza Na skle ma\u013eovan\u00e9 a Kubo. \\\"Kuba sme re\u0161taurovali
+  skoro tri mesiace, preto\u017ee materi\u00e1l bol zlom stave. Na tomto diele sme
+  si odsk\u00fa\u0161ali \u010do vlastne re\u0161taurovanie je a \u010do sa d\u00e1
+  z nepou\u017eite\u013en\u00e9ho materi\u00e1lu spravi\u0165\\\" hovor\u00ed Jozef
+  Kraj\u010dovi\u010d.\\nCel\u00fd proces za\u010d\u00edna vstupom diela v nekomprimovanej
+  podobe do po\u010d\u00edta\u010da. S\u0165ahuje sa z anal\u00f3gov\u00e9ho p\u00e1su,
+  pr\u00edpadne digit\u00e1lneho betaz\u00e1znamu. U\u017e tu vznik\u00e1 probl\u00e9m
+  s nedostato\u010dnou kvalitou, preto\u017ee tieto prepisy diela nie s\u00fa vytvoren\u00e9
+  vo vysokom rozl\u00ed\u0161en\u00ed, ale v re\u00e1lnom \u010dase z videoprojektora.
+  N\u00e1sledne sa cel\u00e9 dielo rozoberie na jednotliv\u00e9 sn\u00edmky. V celom
+  filme je asi 120 000 obr\u00e1zkov, pri\u010dom ka\u017ed\u00e9mu obr\u00e1zku je
+  potrebn\u00e9 venova\u0165 nejak\u00fd \u010das. Po\u010det kazov sa pohybuje pod\u013ea
+  toho, nako\u013eko je z\u00e1znam po\u0161koden\u00fd, ale spravidla je to asi 80
+  na jednom pol\u00ed\u010dku. Tak\u00fdto zd\u013ahav\u00fd a na v\u00fdpo\u010dtov\u00fd
+  v\u00fdkon n\u00e1ro\u010dn\u00fd proces re\u0161taurovania si vy\u017eaduje vhodn\u00fd
+  softv\u00e9r aj hardv\u00e9r. Existuj\u00fa \u010disto hardv\u00e9rov\u00e9 technol\u00f3gie,
+  tie nejak\u00fdm prepo\u010dtom odstr\u00e1nia to, \u010do je \u0161pecificky zadefinovan\u00e9
+  ako chyba. Potom nastupuje softv\u00e9r, ktor\u00fd odstr\u00e1ni zost\u00e1vaj\u00face
+  chyby \u010do sa nedali programovo zada\u0165. Softv\u00e9r je n\u00e1stroj plne
+  v ruk\u00e1ch \u010dloveka, jeho oko a cit rozhoduj\u00fa o tom, ak\u00fdm sp\u00f4sobom
+  a do akej h\u013abky mo\u017eno do filmu zasiahnu\u0165, aby odstr\u00e1nenie chyby
+  nebolo vidite\u013en\u00e9. V\u00e4\u010d\u0161inou ide o z\u00e1kladn\u00e9 chyby
+  ako napr. do\u0161kriaban\u00fd film. Vtedy sa na pol\u00ed\u010dkach objavuj\u00fa
+  zvisl\u00e9 \u010diary a ak je zrno ve\u013emi ve\u013ek\u00e9, za\u010d\u00edna
+  by\u0165 obraz za\u0161umen\u00fd. Pod\u013ea sk\u00fasenost\u00ed Jozefa Kraj\u010dovi\u010da
+  je najviac ch\u00fdb v podobe \u010dierno bielych blikancov, ktor\u00e9 vznikaj\u00fa
+  z vypadanej emulzie na origin\u00e1loch filmov. Objavuj\u00fa sa aj \u010dierne
+  f\u013eaky, hlavne tie nepredv\u00eddan\u00e9, ke\u010f je zate\u010den\u00e9 pol\u00ed\u010dko,
+  alebo je na \u0148om v\u00e4\u010d\u0161ia \u0161pina. Pri takomto re\u0161taurovan\u00ed
+  sa ide do plochy a treba ve\u013ek\u00fa citlivos\u0165 na odstr\u00e1nenie chyby,
+  aby sa nepo\u0161kodila spodn\u00e1 \u010das\u0165 obrazu.\\nTechnol\u00f3gia\\n\\\"T\u00e1
+  ktor\u00fa pou\u017e\u00edvame my, patr\u00ed medzi svetov\u00fa \u0161pi\u010dku.
+  Poviem to tro\u0161ku nadnesene, pou\u017e\u00edva sa aj v hollywoodskych \u0161t\u00fadi\u00e1ch.
+  Trvalo n\u00e1m to tri roky, k\u00fdm sme si zmapovali \u010do je na trhu a s \u010d\u00edm
+  by sme my chceli pracova\u0165. Odsk\u00fa\u0161ali sme si to na z\u00e1kazkov\u00fdch
+  objedn\u00e1vkach v Nemecku a v Rak\u00fasku. Nakoniec sme v\u0161ak spokojn\u00ed
+  neboli z toho d\u00f4vodu, \u017ee ten v\u00fdstup nebol tak\u00fd, ak\u00fd sme
+  po\u017eadovali\\\"- vysvet\u013euje Kraj\u010dovi\u010d. Ono samozrejme by ten
+  v\u00fdsledok aj mohol by\u0165 tak\u00fd, ale tak vysok\u00e1 \u00farove\u0148
+  re\u0161taurovania si vy\u017eaduje aj nemal\u00fa finan\u010dn\u00fa invest\u00edciu.
+  Re\u0161taurovanie filmov v zahrani\u010d\u00ed sa pohybuje od 150 000 Sk a\u017e
+  do dvoch mili\u00f3nov kor\u00fan. T\u00fdm je povedan\u00e9 jasne, \u017ee limitom
+  na po\u017eiadavku partnera v zahrani\u010d\u00ed, nie je to \u010do chcete dosiahnu\u0165,
+  ale to, ko\u013eko dok\u00e1\u017eete zaplati\u0165. \\\"Keby sme Kuba re\u0161taurovali
+  vonku, len strojov\u00fd \u010das toho \u010do sme my tomu dielu venovali sa pribli\u017euje
+  k sume 1,2 mili\u00f3na kor\u00fan. P\u00fdtam sa kto to na Slovensku zaplat\u00ed
+  a kedy sa to v predaji DVD vr\u00e1ti?\\\" dod\u00e1va Jozef Kraj\u010dovi\u010d.\\nNajsk\u00f4r
+  obraz potom zvuk\\nDom\u00e1ce kino je v ponuke hypermarketov pon\u00edman\u00e9
+  ako prehr\u00e1va\u010d DVD so zostavou produkuj\u00facou zvuk potrebn\u00fd na
+  vtiahnutie div\u00e1ka do deja. Multikan\u00e1lov\u00fd zvuk z VHS kazety nedostanete.
+  \\\"Mne je zvuk najbli\u017e\u0161\u00ed, preto\u017ee vo svojej bran\u017ei som
+  v\u00e4\u010d\u0161inou p\u00f4sobil vo zvuku, \u010di u\u017e v \u0161t\u00fadiu
+  Va\u0161a Patejdla, alebo v Slovenskej telev\u00edzii,\\\" prizn\u00e1va Jozef Kraj\u010dovi\u010d.
+  No hovor\u00ed sa, \u017ee obuvn\u00edk je bos\u00fd a toho sa asi dr\u017eali aj
+  v Dikrame. Za\u010dali najsk\u00f4r vylep\u0161ova\u0165 obraz, preto\u017ee vraj
+  sa na DVD v\u017edy najsk\u00f4r pozriete a\u017e potom si ho vypo\u010dujete. Audiostopa
+  sa zre\u0161tauruje \\\"len\\\" tak, aby zvuk nepraskal, z\u00e1znam ne\u0161umel,
+  pr\u00edpadne aby z mona vzniklo aspo\u0148 nejak\u00e9 pseudostereo. \\\"Na\u0161im
+  snom je urobi\u0165 J\u00e1no\u0161\u00edka v 5.1 zvuku s obrazov\u00fdm remastrom\\\"
+  pod\u013ea Kraj\u010dovi\u010da je to titul, ktor\u00fd si to istotne zasl\u00fa\u017ei.
+  Z toho vypl\u00fdva, \u017ee s prv\u00fdm J\u00e1no\u0161\u00edkom, re\u0161taurovan\u00fdm
+  v Nemecku, v Dikrame spokojn\u00ed nie s\u00fa.\\nD\u00f4stojn\u00e1 prezent\u00e1cia\\nMohli
+  by sme polemizova\u0165 \u010di div\u00e1k pri tak\u00fdchto star\u0161\u00edch
+  filmoch vy\u017eaduje DVD kvalitu, ale prezent\u00e1cia kult\u00farneho dedi\u010dstva
+  Slovenska sa pohybuje tro\u0161ku v inej rovine. V rovine prezent\u00e1cie dovn\u00fatra
+  a prezent\u00e1cie navonok. Eur\u00f3pa je jeden ve\u013ek\u00fd \u0161t\u00e1t,
+  no ka\u017ed\u00e1 krajina sa sna\u017e\u00ed prezentova\u0165 svoju kult\u00faru
+  aj prostredn\u00edctvom audiovizu\u00e1lnych diel pon\u00fakan\u00fdch v maxim\u00e1lnej
+  technickej kvalite.\\nMus\u00edme ju dotiahnu\u0165 na tak\u00fa \u00farove\u0148,
+  aby sp\u013a\u0148ala technick\u00e9 po\u017eiadavky dne\u0161nej doby. V r\u00e1mci
+  filmov\u00e9ho priemyslu sa za form\u00e1t archivovania st\u00e1le pova\u017euje
+  film. Ale fenom\u00e9n DVD je v tom, \u017ee \u017eiaden form\u00e1t nemal tak\u00fd
+  prudk\u00fd \u0161tart ako pr\u00e1ve tento. Je a\u017e fascinuj\u00face ko\u013eko
+  DVD prehr\u00e1va\u010dov sa vo svete predalo. Pre umelcov tento form\u00e1t zrovnopr\u00e1vnil
+  svet. Ak na Slovensku vyjde DVD \u010do m\u00e1 osem jazykov\u00fdch mut\u00e1ci\u00ed,
+  dok\u00e1\u017eeme ho pon\u00faknu\u0165 \u013eu\u010fom na celom svete. Tak\u00e1to
+  prezent\u00e1cia smerom navonok uk\u00e1\u017ee \u010do krajina, akou je Slovensko,
+  pre kult\u00farne dedi\u010dstvo sprav\u00ed. \u010ci v\u00fdsledkom bude len do\u0161kriaban\u00fd
+  film, alebo produkt, ktor\u00fd bude odr\u00e1\u017ea\u0165 to, \u017ee \u0161t\u00e1t
+  sa tomu seri\u00f3zne venuje. P\u00fdta\u0165 sa na referencie vydan\u00fdch titulov
+  Jozefa Kraj\u010dovi\u010da bolo zbyto\u010dn\u00e9: \\\"Ja m\u00f4\u017eem poveda\u0165
+  iba jednu kritiku nato \u010do sme robili. Bohu\u017eia\u013e na\u0161u pr\u00e1cu
+  ohodnotili len v \u010cech\u00e1ch, nie na Slovensku. Recenzia na J\u00e1no\u0161\u00edkovsk\u00fa
+  trojed\u00edciu vy\u0161la v tom zmysle, \u017ee treba z\u00e1vidie\u0165 Slov\u00e1kom
+  ako pristupuj\u00fa k svojmu kult\u00farnemu dedi\u010dstvu.\\\"\\nNedostatok vydan\u00fdch
+  titulov\\nNeviem, \u010di je vhodn\u00e9 porovn\u00e1va\u0165 trh \u010desk\u00fd
+  a ten n\u00e1\u0161, \u010do sa t\u00fdka mno\u017estva pon\u00fakan\u00fdch diel
+  dom\u00e1cej produkcie. Jozef Kraj\u010dovi\u010d tvrd\u00ed, \u017ee po\u010det
+  vydan\u00fdch titulov odr\u00e1\u017ea kult\u00farnos\u0165 toho ktor\u00e9ho n\u00e1roda.
+  V \u010cech\u00e1ch, \u010di u\u017e na kni\u017enom trhu, alebo na poli filmu je
+  kult\u00farnos\u0165 nieko\u013ekon\u00e1sobne vy\u0161\u0161ia. Slovensko je v
+  tomto smere sebazni\u010duj\u00faci n\u00e1rod. Dne\u0161n\u00fd stav v oblasti
+  kult\u00fary \u010di u\u017e z poh\u013eadu rozpo\u010dtu, alebo samotn\u00e9ho
+  pr\u00edstupu je toho d\u00f4kazom. Mus\u00ed by\u0165 ka\u017ed\u00e9mu jasn\u00e9,
+  \u017ee ak m\u00e1 projekt Digit\u00e1lnej videot\u00e9ky Slovenska obsahova\u0165
+  sto audiovizu\u00e1lnych diel, nepodar\u00ed sa to urobi\u0165 bez podpory sponzorov.
+  \\\"V ka\u017edom obdob\u00ed, sta\u010d\u00ed sa pozrie\u0165 na star\u00e9 Gr\u00e9cko,
+  kult\u00fara ktor\u00e1 z tej doby vy\u0161la, presne odr\u00e1\u017ea dan\u00e9
+  obdobie len v\u010faka podpore mecen\u00e1\u0161ov kult\u00fary. Ak sa aj na Slovensku
+  n\u00e1jdu tak\u00e9to osobnosti v podnikate\u013eskom svete, ktor\u00e9 bud\u00fa
+  ochotn\u00e9 podpori\u0165 audiovizu\u00e1lny projekt, tak sa n\u00e1m to ur\u010dite
+  bude robi\u0165 \u013eah\u0161ie\\\" hovor\u00ed Kraj\u010dovi\u010d. No ale ak
+  sa na projekt pozrieme z inej strany, potom je za\u010diatok digitaliz\u00e1cie
+  kult\u00farneho dedi\u010dstva s\u00fa\u010das\u0165ou jedn\u00e9ho z pr\u00edstupov\u00fdch
+  rokovan\u00ed, ktor\u00e9 Slovensko podp\u00edsalo. Teraz je len ot\u00e1zne, ak
+  sme t\u00fato cestu nast\u00fapili, ak\u00fdm sp\u00f4sobom sa k tomu postavia in\u0161tit\u00facie,
+  ktor\u00e9 vlastnia arch\u00edvy. Ak\u00fdm sp\u00f4sobom sa k tomu postav\u00ed
+  \u0161t\u00e1t? Bude ma\u0165 z\u00e1ujem bohatstvo osobnost\u00ed v r\u00e1mci
+  filmu a telev\u00edznych arch\u00edvov dosta\u0165 medzi \u013eud\u00ed v digit\u00e1lnej
+  kvalite? n\"", "\"Ban\u00edci ostali v nemom \u00fa\u017ease: Pod zemou vykopali
+  neskuto\u010dn\u00fd poklad\\nZdroj: topky.sk 07.10.2019 (13:30) zaujimavosti\\nJAKUTSK
+  - Pri trieden\u00ed drahokamov v ruskom hlavnom meste diamantov - Jakutsku - bol
+  objaven\u00fd jedine\u010dn\u00fd n\u00e1lez. Ide o 800 mili\u00f3nov rokov star\u00fd
+  diamant v diamante, podobn\u00fd ruskej matrio\u0161ke. Rusk\u00e1 spolo\u010dnos\u0165
+  zaoberaj\u00faca sa \u0165a\u017ebou diamantov prezradila, \u017ee ide o prv\u00fd
+  tak\u00fdto \u00fakaz v hist\u00f3rii \u0165a\u017eby drahokamov. \u010d\u00edtaj
+  cel\u00fd \u010dl\u00e1nok\\nZdroj: topky.sk 19.05.2019 (19:30) zaujimavosti\\nORLANDO
+  - Na soci\u00e1lnej sieti zverejnila Carrie Jaboorov\u00e1 svoj z\u00e1\u017eitok,
+  ktor\u00fd sa stal v apr\u00edli 2017 po\u010das letu z americk\u00e9ho Orlanda
+  do Pittsburghu a natrvalo sa jej vryl do pam\u00e4ti. Sp\u00f4sob, ak\u00fdm dok\u00e1zal
+  steward zo spolo\u010dnosti Southwest Airlines ut\u00ed\u0161i\u0165 ro\u010dn\u00e9
+  diev\u010datko, dojal nielen ju, ale aj tis\u00edcky u\u017e\u00edvate\u013eov.\\nZdroj:
+  topky.sk 31.01.2019 (17:30) zaujimavosti\\nPAMPAS - Nosi\u010d rakvy sa na pohrebe
+  postaral o poriadne nepr\u00edjemn\u00fd incident. Pri prekra\u010dovan\u00ed hrobu
+  toti\u017e spadol rovno na truhlu, ktor\u00fa sa jeho dvaja kolegovia sna\u017eili
+  polo\u017ei\u0165 do jamy. Rakva s telom sa v d\u00f4sledku p\u00e1du prevr\u00e1tila
+  nabok a jej vrch povolil. Neboh\u00e1 pred v\u0161etk\u00fdmi pozostal\u00fdmi v
+  d\u00f4sledku toho takmer vyk\u013azla von.\\nZdroj: topky.sk 07.02.2020 (05:00)
+  zaujimavosti\\nCHACHOENGSAO - V thajskom meste Chachoengsao pri\u0161lo na svet
+  jednook\u00e9 \u0161teniatko. Napriek abnormalite si ho \u013eudia z okolia ve\u013emi
+  ob\u013e\u00fabili a pomenovali ho po sl\u00e1vnej rozpr\u00e1vkovej postavi\u010dke.
+  Majite\u013e ps\u00edka si \u017eel\u00e1, aby zostalo na\u017eive \u010do najdlh\u0161ie
+  a venuje mu ve\u013ek\u00fa pozornos\u0165.\\nZdroj: topky.sk 28.07.2019 (19:30)
+  zaujimavosti\\nNEW YORK - Mlad\u00e1 \u017eena zverejnila na soci\u00e1lnej sieti
+  spr\u00e1vu od svojho expriate\u013ea, ktor\u00fa jej poslal de\u0148 pred svojou
+  svadbou. U\u017e\u00edvate\u013eov prekvapuje citlivos\u0165 a v\u010fa\u010dnos\u0165,
+  ktor\u00fa mlad\u00edk vyjadril svojej b\u00fdvalej partnerke. Aj toto je d\u00f4kaz,
+  \u017ee po rozchode m\u00f4\u017eu ma\u0165 partneri pekn\u00fd vz\u0165ah. Na\u0161li
+  sa v\u0161ak aj tak\u00ed, ktor\u00ed d\u00f4veryhodnos\u0165 riadkov spochyb\u0148uj\u00fa
+  a ozna\u010duj\u00fa ich za \u010dudn\u00e9.\\nZdroj: topky.sk 07.07.2019 (19:30)
+  zaujimavosti\\nFARMINGTON HILLS - Dvadsa\u0165ro\u010dn\u00e9ho Ameri\u010dana s\u00edce
+  zasiahol pr\u00fad, ale lek\u00e1rom sa podarilo zachr\u00e1ni\u0165 mu \u017eivot.
+  Jeho pr\u00edbeh pripom\u00edna osud nezni\u010dite\u013en\u00e9ho hrdinu, person\u00e1l
+  nemocnice Beaumont Hospital v Michigane hovor\u00ed o jeho z\u00e1chrane ako o z\u00e1zraku.
+  Odborn\u00edci v tejto s\u00favislosti pripom\u00ednaj\u00fa, ak\u00e9 je d\u00f4le\u017eit\u00e9
+  neprest\u00e1va\u0165 v podobn\u00fdch pr\u00edpadoch s mas\u00e1\u017eou srdca,
+  aj ke\u010f sa u\u017e zd\u00e1, \u017ee ide o m\u00e1rny boj.\\nZdroj: topky.sk
+  08.07.2019 (08:44) zaujimavosti\\nFARMINGTON HILLS - Dvadsa\u0165ro\u010dn\u00e9ho
+  Ameri\u010dana s\u00edce zasiahol pr\u00fad, ale lek\u00e1rom sa podarilo zachr\u00e1ni\u0165
+  mu \u017eivot. Jeho pr\u00edbeh pripom\u00edna osud nezni\u010dite\u013en\u00e9ho
+  hrdinu, person\u00e1l nemocnice Beaumont Hospital v Michigane hovor\u00ed o jeho
+  z\u00e1chrane ako o z\u00e1zraku. Odborn\u00edci v tejto s\u00favislosti pripom\u00ednaj\u00fa,
+  ak\u00e9 je d\u00f4le\u017eit\u00e9 neprest\u00e1va\u0165 v podobn\u00fdch pr\u00edpadoch
+  s mas\u00e1\u017eou srdca, aj ke\u010f sa u\u017e zd\u00e1, \u017ee ide o m\u00e1rny
+  boj.\\nZdroj: topky.sk 04.11.2019 (13:30) zaujimavosti\\nCHRYSI - Archeol\u00f3govia
+  v gr\u00e9ckej osade z doby bronzovej objavili obrovsk\u00fd poklad minojsk\u00e9ho
+  p\u00f4vodu. Sklad\u00e1 sa zo \u0161perkov, sklenen\u00fdch kor\u00e1likov a zvy\u0161kov
+  vtedaj\u0161ej pe\u0148a\u017enej meny. Ide o jeden z najd\u00f4le\u017eitej\u0161\u00edch
+  pokladov minojskej kult\u00fary.\\nZdroj: topky.sk 28.09.2019 (08:20) zaujimavosti\\nBRATISLAVA
+  - Ak by i\u0161lo v\u0161etko pod\u013ea pl\u00e1nov, v Bratislave sme u\u017e takmer
+  20 rokov mohli jazdi\u0165 metrom. Jeho v\u00fdstavba za\u010dala u\u017e v roku
+  1988 s pl\u00e1novan\u00fdm dokon\u010den\u00edm v roku 2000. Ako ti je asi jasn\u00e9,
+  vlaky pod zemou v hlavnom meste nikdy neza\u010dali prem\u00e1va\u0165.\\nZdroj:
+  topky.sk 14.08.2019 (10:00) zaujimavosti\\nMELBOURNE - Na facebookovej str\u00e1nke
+  Downshift sa objavila fotografia zachyt\u00e1vaj\u00faca zvl\u00e1\u0161tny sp\u00f4sob
+  prepravy telev\u00edzora v osobnom aute. N\u00e1zory u\u017e\u00edvate\u013eov na
+  adrenal\u00ednov\u00fa prepravu ve\u013ekoplo\u0161nej obrazovky sa r\u00f4znia,
+  a to si v\u00e4\u010d\u0161ina z nich ani nev\u0161imla to, \u010do, \u010di sk\u00f4r
+  kto, sa ukr\u00fdva pod \u0148ou.\\nZdroj: topky.sk 08.11.2019 (16:30) zaujimavosti\\nHELSINKI
+  - Tis\u00edce \u013eadov\u00fdch vaj\u00ed\u010dok r\u00f4znych ve\u013ekost\u00ed
+  cez v\u00edkend zaplnili pl\u00e1\u017e vo F\u00ednsku. Nezvy\u010dajn\u00fa situ\u00e1ciu
+  pod\u013ea expertov sp\u00f4sobila kombin\u00e1cia n\u00edzkych tepl\u00f4t, siln\u00e9ho
+  vetra a v\u013an. Informoval o tom dnes spravodajsk\u00fd web BBC.\"", "\"Za norm\u00e1lneho
+  trvania spustite nov\u00e9 probl\u00e9my. Stres sprev\u00e1dza n\u00e1s cel\u00fd
+  de\u0148 a nov\u00e9 probl\u00e9my st\u00e1le buduj\u00fa svoju moc k testu. Finan\u010dn\u00e9
+  probl\u00e9my, rodinn\u00e9 probl\u00e9my, pretekanie v hodnote je len spolo\u010dnos\u0165ou
+  toho, s \u010d\u00edm v\u0161etci bojujeme. Ni\u010d neuverite\u013en\u00e9, \u017ee
+  v ur\u010ditom \u0161t\u00e1diu, so zameran\u00edm faktov alebo jednoducho vo vy\u0161\u0161om
+  momente, v\u00e1s m\u00f4\u017ee chyti\u0165, \u017ee u\u017e nem\u00f4\u017eete
+  rie\u0161i\u0165 svoju profesiu, stres alebo neur\u00f3zu. Dlhodob\u00fd stres,
+  ktor\u00fd rob\u00edte pre mnoh\u00e9 ve\u013ek\u00e9 chyby, m\u00f4\u017ee nel\u00e9\u010den\u00e1
+  depresia kon\u010di\u0165 tragicky a preteky v rade m\u00f4\u017eu \u00eds\u0165
+  do jej rozdelenia. Najhor\u0161ie obdobie je, \u017ee v \u00faspechu psychologick\u00fdch
+  probl\u00e9mov, okrem pacienta, trpiav\u0161etky jeho bl\u00edzke priate\u013eky.S
+  tak\u00fdmito probl\u00e9mami sa mus\u00edte vysporiada\u0165 s obrovsk\u00fdmi
+  probl\u00e9mami. H\u013eadanie slu\u017eby nie je d\u00f4le\u017eit\u00e9, internet
+  zav\u00e1dza ve\u013ea pomoci v \u010fal\u0161om smere. V ka\u017edom centre sa
+  nach\u00e1dzaj\u00fa \u0161peci\u00e1lne centr\u00e1 alebo kancel\u00e1rie, ktor\u00e9
+  sa spr\u00e1vaj\u00fa s odbornou psychologickou pomocou. Ak je v Krakove potrebn\u00fd
+  psychol\u00f3g, ako typick\u00e9 mesto, existuje obrovsk\u00fd v\u00fdber apartm\u00e1nov,
+  kde m\u00f4\u017eeme n\u00e1js\u0165 lek\u00e1ra. V sieti \u013eahk\u00fdch je st\u00e1le
+  nieko\u013eko n\u00e1uiek a odkazov na skuto\u010dnos\u0165 jednotliv\u00fdch psychol\u00f3gov
+  a psychoterapeutov, \u010do rob\u00ed v\u00fdber ove\u013ea jednoduch\u0161\u00edm.Uskuto\u010dnenie
+  sch\u00f4dzky pre ten ist\u00fd ide\u00e1l, najd\u00f4le\u017eitej\u0161ie \u0161t\u00e1dium,
+  ktor\u00e9 umiestnime na formul\u00e1ri pre zdravie. S t\u00fdmito l\u00e1tkami
+  s\u00fa uveden\u00e9 spr\u00e1vne d\u00e1tumy na vytvorenie probl\u00e9mu tak, aby
+  sa dosiahla spr\u00e1vna kvalifik\u00e1cia a sp\u00f4sob pr\u00e1ce. Tak\u00e9to
+  incidenty s\u00fa zalo\u017een\u00e9 na \u00fazkom rozhovore s pacientom, ktor\u00fd
+  bude schopn\u00fd z\u00edska\u0165 \u010do najviac \u00fadajov, aby porozumel probl\u00e9mu.Diagnostick\u00fd
+  proces je slab\u00fd. Podporuje nielen slovo probl\u00e9mu, ale aj pokus nau\u010di\u0165
+  sa jeho pr\u00ed\u010diny. Iba v nasleduj\u00facom pohybe je v\u00fdvoj met\u00f3d
+  Rady a \u0161pecifick\u00e1 akcia.V z\u00e1vislosti od povahy toho, s \u010d\u00edm
+  z\u00e1pas\u00edme, sa mo\u017enosti lie\u010dby l\u00ed\u0161ia. Niekedy skupinov\u00e1
+  terapia poskytuje lep\u0161ie v\u00fdnosy, \u010dasto s probl\u00e9mami s v\u00e1\u0161\u0148ou.
+  Sila podpory, ktor\u00e1 je v\u00fdsledkom stretnut\u00ed s psychol\u00f3gom, spolu
+  so skupinou \u017eien z\u00e1pasiacich s touto skuto\u010dnos\u0165ou, je obrovsk\u00e1.
+  Za nezn\u00e1mych okolnost\u00ed m\u00f4\u017eu terapie vytvori\u0165 pohodlnej\u0161ie.
+  Atmosf\u00e9ra, \u017ee jeden pr\u00edde na cestu s odborn\u00edkom sp\u00f4sobuje
+  lep\u0161\u00ed \u0161tart, a niekedy to viac nasmeruje na ka\u017edodenn\u00fa
+  konverz\u00e1ciu. Terapeut pon\u00fakne dobr\u00fd pr\u00edklad terapie na ceste
+  subjektu, chrbtice a nad\u0161enia.V modeli rodinn\u00e9ho konfliktu s\u00fa man\u017eelsk\u00e9
+  terapie a medi\u00e1cie mimoriadne m\u00f3dne. Psychol\u00f3g sa prezentuje a je
+  potrebn\u00fd v pr\u00edpadoch v\u00fdchovn\u00fdch probl\u00e9mov. Detsk\u00ed
+  psychol\u00f3govia, ktor\u00ed sa \u0161pecializuj\u00fa na detsk\u00e9 a detsk\u00e9
+  obchody, vedia v\u0161etko o f\u00f3bii, detskej medic\u00edne alebo poruch\u00e1ch
+  spr\u00e1vania.V n\u00e1hodn\u00fdch knih\u00e1ch, kedyko\u013evek je potrebn\u00e9
+  psychoterapeutick\u00e9 zariadenie, psychol\u00f3g Krakov je slu\u017eba av tejto
+  \u00farovni n\u00e1jde dobr\u00e9ho \u010dloveka. S tak\u00fdmi inform\u00e1ciami,
+  \u017ee ka\u017ed\u00fd, kto len uzn\u00e1va, \u017ee je v skuto\u010dnosti zisky.\\nPozri
+  tie\u017e: Kurz psychoterapie v Krakove, J\u00f3zef\"", "\"Polro\u010dn\u00e9 pr\u00e1zdniny
+  s\u00fa za dverami, tak\u017ee koncom janu\u00e1ra \u010dak\u00e1 \u0161kol\u00e1kov
+  vysved\u010denie. Po \u0148om si v pondelok 3.2. u\u017eij\u00fa zasl\u00fa\u017een\u00e9
+  vo\u013eno. Pripravili sme pre v\u00e1s zauj\u00edmav\u00e9 tipy, ako odmeni\u0165
+  v\u0161etk\u00fdch \u0161ikovn\u00fdch \u017eiakov za vysved\u010denie. Je to skvel\u00fd
+  sp\u00f4sob ako oceni\u0165 dobr\u00e9 v\u00fdsledky, pr\u00edpadne mal\u00e1 motiv\u00e1cia
+  k zlep\u0161eniu v \u010fal\u0161om polroku. Navy\u0161e tento pred\u013a\u017een\u00fd
+  v\u00edkend si s nimi par\u00e1dne u\u017eijete aj vy! :)\\nZa odmenu par\u00e1dna
+  ly\u017eova\u010dka\\n\u0160ikovn\u00ed \u017eiaci si za dobr\u00e9 vysved\u010denie
+  ur\u010dite zasl\u00fa\u017eia fantastick\u00fa ly\u017eova\u010dku. \u013dahko
+  dostupn\u00e9 ly\u017eiarske stredisko Skalka arena le\u017e\u00ed vo vysokej nadmorskej
+  v\u00fd\u0161ke 1 252 m n.m. Pohodlne zaparkujete rovno v bl\u00edzkosti hlavnej
+  lanovky a ide sa na to! N\u00e1jdete tu trate v\u0161etk\u00fdch n\u00e1ro\u010dnost\u00ed
+  a pre za\u010d\u00ednaj\u00facich ly\u017eiarov je k dispoz\u00edcii baby vlek a
+  2 detsk\u00e9 vleky.\\nPozrie\u0165 ponuku\\nTip na v\u00fdlet v okol\u00ed:\\nPozrite
+  si, ako sa v Skalka arene p\u00e1\u010dilo na\u0161ej profesion\u00e1lnej snowboardistke
+  Ba\u0161i \u0160tevulovej:\\nLy\u017eova\u010dka v po\u013esk\u00fdch Tatr\u00e1ch\\n\u010eal\u0161\u00ed
+  tip na skvel\u00fa rodinn\u00fa ly\u017eova\u010dku. Len kilometer od hran\u00edc
+  s Po\u013eskom le\u017e\u00ed ob\u013e\u00faben\u00e9 stredisko Slov\u00e1kov, Jurgow
+  Ski. N\u00e1jdete tu a\u017e 7 upraven\u00fdch ly\u017eiarskych zjazdoviek, dve
+  lanovky, \u0161tyri vleky a n\u00e1dhern\u00fd panoramatick\u00fd v\u00fdh\u013ead
+  na Tatry. Die\u0165a do 120 cm m\u00e1 vstup zdarma a zjazdovky s\u00fa vhodn\u00e9
+  pre za\u010diato\u010dn\u00edkov aj sk\u00fasen\u00fdch ly\u017eiarov. Celodenn\u00fd
+  skipas plat\u00ed navy\u0161e aj na ve\u010dern\u00e9 ly\u017eovanie.\\nPozrie\u0165
+  ponuku\\nTip na v\u00fdlet v okol\u00ed:\\nBa\u0161a \u0160tevulov\u00e1 vysk\u00fa\u0161ala
+  svahy aj v tomto ob\u013e\u00fabenom po\u013eskom stredisku:\\nPo\u013esk\u00fd
+  aquapark Olza\\nU na\u0161ich severn\u00fdch susedov e\u0161te chv\u00ed\u013eu
+  zostaneme. Po\u010fte sa so svojimi \u0161kol\u00e1kmi vybl\u00e1zni\u0165 do ob\u013e\u00faben\u00e9ho
+  aquaparku Olza, kde n\u00e1jdete baz\u00e9n (30 \u00b0C), tobogan, sauny aj so\u013en\u00fa
+  jasky\u0148u. V okol\u00ed le\u017e\u00ed prekr\u00e1sny pr\u00edrodn\u00fd park
+  v srdci Besk\u00fdd a n\u00e1jdete tu aj minizoo len p\u00e1r krokov od aquaparku.
+  Hne\u010f ved\u013ea je svah, tak\u017ee po ly\u017eova\u010dke m\u00f4\u017eete
+  sko\u010di\u0165 do hor\u00facej vody.\\nPozrie\u0165 ponuku\\nTip na v\u00fdlet
+  v okol\u00ed:\\nRelax v AquaCity Poprad alebo dobrodru\u017estvo v Slovenskom raji\\nDivok\u00e9
+  rokliny, ka\u0148ony, n\u00e1dhern\u00e9 vodop\u00e1dy, nedotknut\u00e1 pr\u00edroda
+  - tento rok osl\u00e1vte vysved\u010denie v Slovenskom raji. V ponuke m\u00e1me
+  aj pobyt s celodenn\u00fdm vstupom do ob\u013e\u00faben\u00e9ho AquaCity Poprad,
+  kde sa va\u0161e deti vyja\u0161ia dos\u00fdta.\\nPozrie\u0165 ponuku\\nTip na v\u00fdlet
+  v okol\u00ed:\\nHotel s v\u00fdh\u013eadom na Lomnick\u00fd \u0161t\u00edt\\nHotel
+  Lesana je skvel\u00e9 miesto na rodinn\u00fa dovolenku. Rodi\u010dia si u\u017eij\u00fa
+  neobmedzen\u00fd wellness a deti sa zasa zamiluj\u00fa do herne KINDERLAND. \u010cak\u00e1
+  ich tu lezenie a nah\u00e1\u0148a\u010dky na ihrisku, \u0161m\u00fdka\u010dky a
+  prelieza\u010dky, k\u00fatik pln\u00fd farebn\u00fdch guli\u010diek, trampol\u00edny,
+  stoln\u00fd futbal, stoln\u00fd tenis, air hockey aj spolo\u010densk\u00e9 hry.\\nPozrie\u0165
+  ponuku\\nTip na v\u00fdlet v okol\u00ed:\\nRozpr\u00e1vkov\u00e9 Donovaly\\n4-hviezdi\u010dkov\u00fd
+  RESIDENCE HOTEL & CLUB pon\u00faka \u0161irok\u00fa \u0161k\u00e1lu mo\u017enost\u00ed
+  relaxu, z\u00e1bavy a dobrodru\u017estva pre cel\u00fa rodinu. 250 m od hotela je
+  ly\u017eiarsky vlek, ka\u017ed\u00e1 izba m\u00e1 balk\u00f3n s v\u00fdh\u013eadom
+  na hory a deti sa ur\u010dite dobre zabavia v MOMO detskom k\u00fatiku, kde maj\u00fa
+  vo\u013en\u00fd vstup. No a rodi\u010dia si zatia\u013e m\u00f4\u017eu odd\u00fdchnu\u0165
+  napr\u00edklad v saune, hm? :)\\nPozrie\u0165 ponuku\\nTip na v\u00fdlet v okol\u00ed:\\nPohoda
+  na Liptove\\nN\u00e1dhern\u00e9 a tich\u00e9 prostredie v strede Liptova je ako
+  stvoren\u00e9 na oddych po n\u00e1ro\u010dnom \u0161kolskom polroku. M\u00f4\u017eete
+  sa vybra\u0165 na ly\u017eova\u010dku do ne\u010falek\u00fdch SKI centier (Jasn\u00e1,
+  Ru\u017eomberok, Donovaly, \u0160trbsk\u00e9 pleso). Alebo nechajte deti \u0161anti\u0165
+  na atrakci\u00e1ch v skvele vybavenom Sojka resorte a vy si zatia\u013e u\u017e\u00edvajte
+  pohodu vo wellness. Nech z tej dovolenky tie\u017e nie\u010do m\u00e1te :)\\nPozrie\u0165
+  ponuku\\nTipy na v\u00fdlet v okol\u00ed:\\nScience workshop\\nM\u00e1te doma mal\u00e9ho
+  ved\u00e1tora? V tom pr\u00edpade ho tak\u00fdto dar\u010dek ur\u010dite pote\u0161\u00ed!
+  Deti od 5 do 12 rokov si tu z\u00e1bavnou formou roz\u0161iruj\u00fa vedomosti z
+  matematiky, fyziky, ch\u00e9mie a pr\u00edrodovedn\u00fdch odborov. \u010cakaj\u00fa
+  ich aj netradi\u010dn\u00e9 vedeck\u00e9 experimenty, samozrejme pod doh\u013eadom
+  sk\u00fasen\u00fdch lektorov.\\nPozrie\u0165 ponuku\\nHistoryLand z mili\u00f3na
+  k\u00faskov LEGA\\nKto v mladosti nemal r\u00e1d LEGO? Stav\u00edme sa, \u017ee
+  t\u00fato legend\u00e1rnu d\u00e1nsku stavebnicu miluj\u00fa aj va\u0161e deti!
+  Urobte si spolu v\u00fdlet do po\u013esk\u00e9ho Krakova za v\u00fdnimo\u010dnou
+  interakt\u00edvnou v\u00fdstavou, ktor\u00e1 sa sklad\u00e1 z viac ako mili\u00f3na
+  kociek. M\u00e1te odvahu \u010deli\u0165 drsn\u00fdm bojom priamo na fronte? Postavi\u0165
+  sa zo\u010di-vo\u010di drakovi? Vidie\u0165, po\u010du\u0165 a pre\u017ei\u0165
+  hist\u00f3riu na vlastnej ko\u017ei? Presne to v\u00e1s toti\u017e \u010dak\u00e1
+  v interakt\u00edvnom HistoryLande, kde sa zabavia mal\u00ed aj ve\u013ek\u00ed!\\nPozrie\u0165
+  ponuku\\nLen si dajte dobr\u00fd pozor, kam st\u00fapate :)\\nN\u00e1\u0161 tip:
+  Spojte v\u00fdlet za Lego kockami rovno s ubytovan\u00edm v tejto po\u013eskej metropole.
+  M\u00e1me pre v\u00e1s vo\u013en\u00e9 pobyty na tento pred\u013a\u017een\u00fd
+  v\u00edkend. Pozrite ubytovanie v Krakove\\nNajnov\u0161ia Laser tag ar\u00e9na
+  v Bratislave\\nZoberte svojich hunc\u00fatov vybl\u00e1zni\u0165 sa na re\u00e1lnu
+  strie\u013ea\u010dku, ktor\u00e1 nebol\u00ed :) Odme\u0148te sa za vysved\u010denie
+  ob\u013e\u00faben\u00fdm Laser Tagom v najnov\u0161ej a najmodernej\u0161ej SWAT
+  ar\u00e9ne v Bratislave. U\u017eije si to a\u017e 12 hr\u00e1\u010dov a va\u0161u
+  hru obohat\u00ed niektor\u00ed z 5 hudobn\u00fdch mot\u00edvov s mega ozvu\u010den\u00edm
+  \u010di hust\u00e1 hmla. N\u00e1jdete tu aj PS4 Gameroom. Sme presved\u010den\u00ed,
+  \u017ee si to budete chcie\u0165 vysk\u00fa\u0161a\u0165 aj vy. No a vlastne, pre\u010do
+  nie? :)\\nPozrie\u0165 ponuku\\nDetsk\u00e9 taburetky so zvierac\u00edm mot\u00edvom\\nV\u010faka
+  t\u00fdmto vesel\u00fdm zvieratkovsk\u00fdm taburetk\u00e1m urob\u00edte z oby\u010dajnej
+  detskej izby rozpr\u00e1vkov\u00e9 kr\u00e1\u013eovstvo. S\u00fa vyroben\u00e9 z
+  m\u00e4kk\u00e9ho ply\u0161u, udr\u017eia a\u017e 60 kg a pr\u00eddu k v\u00e1m
+  do 3 dn\u00ed od objednania.\\nPozrie\u0165 ponuku\\nNa z\u00e1ver m\u00e1me jeden
+  \u0161peci\u00e1lny tip. Ako odmeni\u0165 \u0161kol\u00e1ka, ak jeho vysved\u010denie
+  nedopadlo tak \u00faplne pod\u013ea va\u0161ich predst\u00e1v? Tak\u00fdto dar\u010dek
+  ho bude ur\u010dite motivova\u0165 k lep\u0161\u00edm v\u00fdsledkom. Zoberte ho
+  \\\"za odmenu\\\" k zub\u00e1rovi! :)\\nDent\u00e1lna hygiena pre deti s in\u0161trukt\u00e1\u017eou
+  pom\u00f4cok + detsk\u00e1 kefka zadarmo\\nAle teraz v\u00e1\u017ene, starostlivos\u0165
+  o z\u00fabky nemus\u00ed by\u0165 stra\u0161iak. \u010c\u00edm sk\u00f4r sa to de\u0165\u00farence
+  nau\u010dia, t\u00fdm lep\u0161ie. Zoberte ich na dent\u00e1lnu hygienu kde sa zozn\u00e1mia
+  s ordin\u00e1ciou a nau\u010dia sa spr\u00e1vne stara\u0165 o svoje z\u00fabky.
+  U\u017e sa viac nebud\u00fa b\u00e1\u0165 n\u00e1v\u0161tevy u zub\u00e1ra!\\nPozrie\u0165
+  ponuku\\nZdie\u013eaj \u010dl\u00e1nok na soci\u00e1lnych sie\u0165ach:\"", "\"Aj
+  napriek svojej ve\u013ekosti a skvel\u00fa cenu disponuje pokro\u010dilou protiprachovou
+  kon\u0161trukciou lo\u017e\u00edsk a protiprachovou \u00fapravou rotora a statora.\\nTelo
+  br\u00fasky je \u0161t\u00edhlej kon\u0161trukcie, skvele padne do ruky, pohodlne
+  sa dr\u017e\u00ed.\\nKryt br\u00fasky je ergonomicky tvarovan\u00fd.\\nAret\u00e1cia
+  vretena pre jednoduch\u00fa v\u00fdmenu kot\u00fa\u010dov.\\nPr\u00eddavn\u00e1
+  bo\u010dn\u00e1 rukov\u00e4\u0165 s 2 polohami.\\nAntirestart - nov\u00fd bezpe\u010dnostn\u00fd
+  prvok pod\u013ea bezpe\u010dnostn\u00fdch noriem E\u00da.\\nPr\u00edkon: 720 W\\nOt\u00e1\u010dky
+  napr\u00e1zdno: 11.000 min./1\\nPriemer br\u00fasneho kot\u00fa\u010da: 125 mm\\nZ\u00e1vit
+  vretena: M14\"", "\"Nov\u00e9 trendy\\nRobotick\u00e9 technol\u00f3gie prin\u00e1\u0161aj\u00fa
+  revol\u00faciu v balen\u00ed\\nRobotika prin\u00e1\u0161a mno\u017estvo v\u00fdhod
+  v aplik\u00e1ci\u00e1ch v celom priemyselnom sektore. V porovnan\u00ed s manu\u00e1lnymi
+  procesmi prin\u00e1\u0161aj\u00fa roboty r\u00fdchlos\u0165, presnos\u0165 a produktivitu,
+  ktor\u00fdmi je robotick\u00e1 automatiz\u00e1cia zn\u00e1ma, a to v\u0161etko pri
+  relat\u00edvne r\u00fdchlej n\u00e1vratnosti invest\u00edci\u00ed (ROI), ak s\u00fa
+  spr\u00e1vne nasaden\u00e9. Roboty na balenie a ukladanie tovaru s\u00fa navrhnut\u00e9
+  tak, aby vykon\u00e1vali \u00falohy, ktor\u00e9 zefekt\u00edvnia proces balenia.
+  M\u00f4\u017eu pres\u00fava\u0165 produkty, vklada\u0165 tovar do \u0161kat\u00fa\u013e,
+  ozna\u010dova\u0165 bal\u00edky, ale aj paletizova\u0165. Ak\u00e9 novinky v\u00fdrobcovia
+  prin\u00e1\u0161aj\u00fa?\"", "\"Dnes sme si pripomenuli sc\u00e9nku s doktorom
+  z filmu Vesni\u010dko m\u00e1 st\u0159ediskov\u00e1 a od toho sme rozvinuli debatu
+  o doktoroch a ich praktik\u00e1ch v dne\u0161n\u00fdch d\u0148och.\\nTie\u017e sme
+  rozvinuli, ako to je, ak s\u00fa v\u0161etci \u013eudia, ktor\u00fdch stret\u00e1vame,
+  rozdelen\u00ed na u\u010dite\u013eov a zrkadl\u00e1 a \u010do to vlastne znamen\u00e1.\\nPre\u010d\u00edtali
+  sme si aj b\u00e1sni\u010dku od posluch\u00e1\u010da, po \u010fal\u0161om maili
+  sme varili ovsen\u00fa ka\u0161u, n\u00e1sledne sme ot\u00e1\u010dali energiu \u017eal\u00fadka
+  kv\u00f4li p\u00e1leniu z\u00e1hy. V \u010fal\u0161om maili sme spom\u00ednali na
+  straten\u00fa rel\u00e1ciu, ktor\u00e1 sa akosi do arch\u00edvu neulo\u017eila a
+  p\u00fdtali sa na histam\u00ednov\u00fa intoleranciu spojen\u00fa s alergiou a ekz\u00e9mom,
+  pri\u0161la aj ot\u00e1zka na me\u0161kanie men\u0161tru\u00e1cie.\\nPri\u0161iel
+  aj email s radou ako si poradi\u0165 s prehnan\u00fdm poten\u00edm a postupne sme
+  sa rozl\u00fa\u010dili op\u00e4\u0165 o t\u00fd\u017ede\u0148.\"", "\"Partnersk\u00e9
+  vz\u0165ahy (12.5.2024 20:05)\\nVedeck\u00e9 \u0161t\u00fadie opakovane ukazuj\u00fa,
+  \u017ee spokojn\u00e9 vz\u0165ahy maj\u00fa na na\u0161e zdravie, dlhovekos\u0165
+  a celkov\u00fa kvalitu \u017eivota ve\u013ek\u00fd v\u00fdznam. Osamel\u00ed \u013eudia
+  s\u00fa menej \u0161\u0165astn\u00ed a aj ich zdravie je hor\u0161ie ne\u017e u
+  t\u00fdch s kvalitn\u00fdmi vz\u0165ahmi. Najk\u013e\u00fa\u010dovej\u0161\u00ed
+  vz\u0165ah je ten partnersk\u00fd a tak je hlavnou t\u00e9mou aj v Z\u00e1had\u00e1ch
+  mysle. Pozvanie do \u0161t\u00fadia prijal p\u00e1rov\u00fd terapeut Vladim\u00edr
+  Hamb\u00e1lek. | Partnersk\u00e9 vz\u0165ahy. | Moderuje: Andrea Maz\u00farov\u00e1.
+  | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas,
+  R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu
+  Slovensko.\\n29:28\\n12. 5. 2024\\nEm\u00f3cie (28.4.2024 20:05)\\nSme s nimi od
+  \u00fatleho detstva, ovplyv\u0148uj\u00fa na\u0161e kroky v pr\u00e1ci i v s\u00fakrom\u00ed.
+  Em\u00f3cie s\u00fa s nami v ka\u017edej chv\u00edli. So psychoterapeutkou Luciou
+  Ben\u010d Orlickou vysvetl\u00edme, ko\u013eko druhov em\u00f3ci\u00ed m\u00e1me,
+  pre\u010do ich nepotl\u00e1\u010da\u0165 ale na\u010d\u00fava\u0165 im, a porad\u00edme
+  aj ako \u017ei\u0165 s nimi v s\u00falade. | Em\u00f3cie. | Moderuje: Andrea Maz\u00farov\u00e1.
+  | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas,
+  R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu
+  Slovensko.\\n28:35\\n28. 4. 2024\\nRozhodovanie a omyly v \u0148om (14.4.2024 20:05)\\nSchopnos\u0165
+  urobi\u0165 spr\u00e1vne rozhodnutie je v na\u0161om \u017eivote d\u00f4le\u017eit\u00e1.
+  Denno denne toti\u017e rob\u00edme mnoh\u00e9 rozhodnutia \u2013 od celkom ban\u00e1lnych
+  a\u017e po v\u00fdznamn\u00e9. A tak bud\u00fa rozhodnutia t\u00e9mou aj v \u010fal\u0161ej
+  epiz\u00f3de Z\u00e1hady mysle. Pre\u010do s\u00fa niektor\u00ed z n\u00e1s rozhodnej\u0161\u00ed
+  ako in\u00ed? Ak\u00e9 faktory ovplyv\u0148uj\u00fa na\u0161e rozhodnutia? A dozviete
+  sa aj, ak\u00e9 rob\u00edme pri rozhodovan\u00ed omyly \u010di kedy veri\u0165 svojej
+  intu\u00edcii. Pozvanie do \u0161t\u00fadia prijal psychol\u00f3g Branislav Uhreck\u00fd
+  z \u00fastavu experiment\u00e1nej psychol\u00f3gie SAV. | Rozhodovanie a omyly v
+  \u0148om. | Moderuje: Andrea Maz\u00farov\u00e1. | Rel\u00e1ciu Z\u00e1hady mysle
+  pripravuje RTVS \u2013 Slovensk\u00fd rozhlas, R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa
+  druh\u00fa nede\u013eu o 20:05 v R\u00e1diu Slovensko.\\n27:59\\n14. 4. 2024\\nSymboly
+  (31.3.2024 20:05)\\nZaja\u010diky, kuriatka \u010di vaj\u00ed\u010dka - inokedy
+  oby\u010dajn\u00e9 zvierat\u00e1 \u010di potraviny, po\u010das Ve\u013ekej noci
+  v\u0161ak jej jasn\u00e9 symboly. Rovnako ako aj korb\u00e1\u010d a oblieva\u010dka.
+  O na\u0161om mozgu a symboloch bude v Z\u00e1had\u00e1ch mysle hovori\u0165 neurokou\u010d
+  Peter Strcula, ktor\u00fd \u0161kol\u00ed \u013eud\u00ed v 15-tich krajin\u00e1ch
+  pr\u00e1ve v oblasti budovania novodob\u00fdch symbolov \u2013 obchodn\u00fdch zna\u010diek.
+  | Symboly. | Moderuje: Andrea Maz\u00farov\u00e1. | Rel\u00e1ciu Z\u00e1hady mysle
+  pripravuje RTVS \u2013 Slovensk\u00fd rozhlas, R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa
+  druh\u00fa nede\u013eu o 20:05 v R\u00e1diu Slovensko.\\n28:21\\n31. 3. 2024\\nKr\u00edza
+  stredn\u00e9ho veku (17.3.2024 20:05)\\nV Z\u00e1had\u00e1ch mysle sa budeme venova\u0165
+  kr\u00edze stredn\u00e9ho veku. T\u00e1 b\u00fdva t\u00e9mou mnoh\u00fdch vtipov,
+  ale ak v\u00e1s naplno zasiahne nepripraven\u00fdch, nie je to v\u00f4bec z\u00e1bavn\u00e9.
+  Pozvanie do \u0161t\u00fadia prijala \u017eivotn\u00e1 a vz\u0165ahov\u00e1 kou\u010dka
+  Janette \u0160imkov\u00e1, ktor\u00e1 vysvetl\u00ed: \u010co je to stredn\u00fd
+  vek, ak\u00e9 v\u00fdzvy na \u013eud\u00ed v tomto obdob\u00ed \u010dakaj\u00fa
+  a ako to v\u0161etko zvl\u00e1dnu\u0165. | Kr\u00edza stredn\u00e9ho veku. | Moderuje:
+  Andrea Maz\u00farov\u00e1. | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013
+  Slovensk\u00fd rozhlas, R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu
+  o 20:05 v R\u00e1diu Slovensko.\\n28:41\\n17. 3. 2024\\nZbera\u010di a vz\u0165ah
+  k veciam (3.3.2024 20:05)\\n\u017dijeme v konzumnej spolo\u010dnosti a v\u0161etko
+  je \u013eahko dostupn\u00e9. Vz\u0165ah k veciam okolo n\u00e1s budeme v Z\u00e1had\u00e1ch
+  mysle rie\u0161i\u0165 s Katkou Stan\u010dekovou z Ligy za du\u0161evn\u00e9 zdravie,
+  ktor\u00e1 pom\u00e1ha aj pacientom v klinike Du\u0161evn\u00e9ho zdravia CALMA.
+  A re\u010d bude aj o zbera\u010doch, ktor\u00ed s\u00fa schopn\u00ed zaprata\u0165
+  cel\u00fd dom. | Zbera\u010di a vz\u0165ah k veciam. | Moderuje: Andrea Maz\u00farov\u00e1.
+  | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas,
+  R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu
+  Slovensko.\\n28:43\\n3. 3. 2024\\n\u010co je to pozornos\u0165? Ktor\u00e9 podnety
+  n\u00e1s najviac rozpty\u013euj\u00fa? (18.2.2024 20:05)\\n\u010co je to pozornos\u0165?
+  Ktor\u00e9 podnety n\u00e1s najviac rozpty\u013euj\u00fa? Je pravda, \u017ee \u017eeny
+  sa s\u00fastredia \u013eah\u0161ie? Je roztr\u017eitos\u0165 probl\u00e9m s\u00fa\u010dasnosti?
+  A existuj\u00fa triky a met\u00f3dy na zlep\u0161enie koncentr\u00e1cie, ktor\u00e9
+  funguj\u00fa u ka\u017ed\u00e9ho? Na v\u0161etky tieto ot\u00e1zky budeme h\u013eada\u0165
+  odpovede so psychol\u00f3gom Radovanom Kyrinovi\u010dom, ktor\u00fd m\u00e1 s\u00e1m
+  diagn\u00f3zu ADHD. V nede\u013eu po 20tej na frekvenci\u00e1ch R\u00e1dia Slovensko.
+  | \u010co je to pozornos\u0165? Ktor\u00e9 podnety n\u00e1s najviac rozpty\u013euj\u00fa?
+  | Moderuje: Andrea Maz\u00farov\u00e1. | Rel\u00e1ciu Z\u00e1hady mysle pripravuje
+  RTVS \u2013 Slovensk\u00fd rozhlas, R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa
+  druh\u00fa nede\u013eu o 20:05 v R\u00e1diu Slovensko.\\n28:36\\n18. 2. 2024\\nKlamstvo
+  u det\u00ed (4.2.2024 20:05)\\nS klamstvom sa stret\u00e1va ka\u017ed\u00fd z n\u00e1s.
+  V nede\u013eu ve\u010der budeme spolu so psychologi\u010dkou Romanou Mr\u00e1zovou
+  rozobera\u0165 t\u00e9mu klamstva u det\u00ed. Pon\u00fakneme odpovede na ot\u00e1zky:
+  Pre\u010do deti klam\u00fa, v akom veku s\u00fa klamstv\u00e1 naj\u010dastej\u0161ie,
+  ako na klamstv\u00e1 reagova\u0165, \u010di detsk\u00fdch klam\u00e1rov potresta\u0165
+  a povieme aj to, ak\u00e9 chyby robia pri budovan\u00ed d\u00f4very rodi\u010dia.
+  | Klamstvo u det\u00ed. | Moderuje: Andrea Maz\u00farov\u00e1. | Rel\u00e1ciu Z\u00e1hady
+  mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas, R\u00e1dio Slovensko, SRo1.
+  Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu Slovensko.\\n28:28\\n4.
+  2. 2024\\nV\u00fdpredaje a na\u0161a psychika (21.1.2024 20:05)\\nNa v\u00fdhodn\u00e9
+  ponuky n\u00e1s vo v\u00fdpredajoch l\u00e1kaj\u00fa teraz v\u0161etci obchodn\u00edci.
+  Pre\u010do im pod\u013eahneme? Ako sa br\u00e1ni\u0165 proti psychologick\u00fdm
+  trikom market\u00e9rov? Pre\u010do je nakupovanie o em\u00f3ci\u00e1ch a ako sa
+  prejavuje n\u00e1kupn\u00e1 z\u00e1vislos\u0165? Na tieto a mnoh\u00e9 \u010fal\u0161ie
+  ot\u00e1zky odpovie expert na psychol\u00f3giu predaja \u2013 neurokou\u010d Peter
+  Strcula. | V\u00fdpredaje a na\u0161a psychika. | Moderuje: Andrea Maz\u00farov\u00e1.
+  | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas,
+  R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu
+  Slovensko.\\n29:56\\n21. 1. 2024\\n\u0160\u0165astie. \u010co je to \u0161\u0165astie?
+  (7.1.2024 20:05)\\n\u010co je to \u0161\u0165astie? Ako sa l\u00ed\u0161i od spokojnosti?
+  D\u00e1 sa n\u00e1chylnos\u0165 na \u0161\u0165astie zdedi\u0165? Ako sa k nemu
+  dopracova\u0165? Na v\u0161etky tieto ot\u00e1zky budeme h\u013eada\u0165 odpovede
+  v Z\u00e1had\u00e1ch mysle. Hos\u0165om je lektor Patrik Pauko, ktor\u00fd sa venuje
+  t\u00e9me \u0161\u0165astia a psychickej odolnosti. | \u0160\u0165astie. \u010co
+  je to \u0161\u0165astie? | Moderuje: Andrea Maz\u00farov\u00e1. | Rel\u00e1ciu Z\u00e1hady
+  mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas, R\u00e1dio Slovensko, SRo1.
+  Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu Slovensko.\\n27:39\\n7.
+  1. 2024\\nVianoce (10.12.2023 20:05)\\nPre\u010do niektor\u00ed z n\u00e1s Vianoce
+  miluj\u00fa a in\u00ed ich nemusia? Ako sa vyhn\u00fa\u0165 predviano\u010dn\u00e9mu
+  stresu? Ako pre\u017ei\u0165 sviatky s najbli\u017e\u0161\u00edmi bez h\u00e1dok
+  a aj to, \u010di poveda\u0165, \u017ee sa n\u00e1m dar\u010dek nep\u00e1\u010di
+  \u2013 na to v\u0161etko budeme h\u013eada\u0165 odpovede v nede\u013en\u00fdch
+  Z\u00e1had\u00e1ch mysle. Pozvanie do \u0161t\u00fadia prijala autorka knihy \u201ePrv\u00e1
+  pomoc pre du\u0161u\u201c \u017eivotn\u00e1 a vz\u0165ahov\u00e1 kou\u010dka Janette
+  \u0160imkov\u00e1. | Vianoce. | Moderuje: Andrea Maz\u00farov\u00e1. | Rel\u00e1ciu
+  Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas, R\u00e1dio Slovensko,
+  SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu Slovensko.\\n28:40\\n10.
+  12. 2023\\nNakupovanie a na\u0161a myse\u013e; Rad\u00ed neurokou\u010d Peter Strcula
+  (26.11.2023 20:05)\\nAk\u00e9 triky pou\u017e\u00edvaj\u00fa na z\u00e1kazn\u00edkov
+  obchodn\u00edci, ako na n\u00e1\u0161 mozog p\u00f4sobia z\u013eavy a aj o tom,
+  ako nenak\u00fapi\u0165 hl\u00faposti na bl\u00ed\u017eiace sa sviatky? Hos\u0165om
+  je odborn\u00edk na psychol\u00f3giu predaja \u2013 neurokou\u010d Peter Strcula.
+  | Nakupovanie a na\u0161a myse\u013e. | Moderuje: Andrea Maz\u00farov\u00e1. | Rel\u00e1ciu
+  Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas, R\u00e1dio Slovensko,
+  SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu Slovensko.\\n28:14\\n26.
+  11. 2023\\nKonflikty (12.11.2023 20:05)\\nMnoh\u00ed hovoria, \u017ee konflikty
+  k \u017eivotu patria a odborn\u00edci dokonca vravia, \u017ee s\u00fa pre vz\u0165ahy
+  prospe\u0161n\u00e9. \u010ci naozaj neexistuje \u017eivot bez konfliktov, pre\u010do
+  s\u00fa niektor\u00ed \u013eudia h\u00e1dav\u00ed a in\u00ed sa naopak nikdy h\u00e1da\u0165
+  nechc\u00fa a aj to ako rie\u0161i\u0165 konflikty spr\u00e1vne a kon\u0161trukt\u00edvne.
+  T\u00e9mou v Z\u00e1had\u00e1ch mysle s\u00fa tentokr\u00e1t konflikty. Pozvanie
+  do \u0161t\u00fadia prijala psychologi\u010dka Zuzana \u0160ofranekov\u00e1. | Konflikty.
+  | Moderuje: Andrea Maz\u00farov\u00e1. | Rel\u00e1ciu Z\u00e1hady mysle pripravuje
+  RTVS \u2013 Slovensk\u00fd rozhlas, R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa
+  druh\u00fa nede\u013eu o 20:05 v R\u00e1diu Slovensko.\\n26:45\\n12. 11. 2023\\nDu\u0161a
+  seniora (29.10.2023 20:05)\\nV roku 1990 bol mesiac okt\u00f3ber vyhl\u00e1sen\u00fd
+  Organiz\u00e1ciou spojen\u00fdch n\u00e1rodov za Mesiac \u00facty k star\u0161\u00edm.
+  Posledn\u00e9 s\u010d\u00edtanie obyvate\u013estva uk\u00e1zalo, \u017ee \u013eudia
+  nad 65 rokov tvoria viac ako 17 % popul\u00e1cie na Slovensku. Ako s nimi v rodin\u00e1ch
+  spr\u00e1vne komunikova\u0165 budeme rie\u0161i\u0165 v tejto epiz\u00f3de rel\u00e1cie
+  Z\u00e1hady mysle s psychologi\u010dkou Petrou Brandoburovou z katedry psychol\u00f3gie
+  Filozofickej fakulty Univerzity Komensk\u00e9ho v Bratislave, ktor\u00e1 sa seniorom
+  venuje aj v centre Memory. | Du\u0161a seniora. | Moderuje: Andrea Maz\u00farov\u00e1.
+  | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas,
+  R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu
+  Slovensko.\\n28:39\\n29. 10. 2023\\nLinka d\u00f4very (15.10.2023 20:05)\\nPsychick\u00e9
+  probl\u00e9my m\u00e1 \u010doraz viac \u013eud\u00ed a ke\u010f\u017ee na term\u00edn
+  u odborn\u00edka sa \u010dak\u00e1 aj nieko\u013eko mesiacov \u2013 vyh\u013ead\u00e1van\u00e9
+  s\u00fa ak\u00e9ko\u013evek druhy pomoci. Napr\u00edklad linky d\u00f4very. Niektor\u00ed
+  \u013eudia toti\u017e nechc\u00fa o svojich probl\u00e9moch hovori\u0165 s bl\u00edzkymi
+  \u010di kamar\u00e1tmi. In\u00ed sa jednoducho nemaj\u00fa komu zd\u00f4veri\u0165.
+  S ak\u00fdmi t\u00e9mami \u013eudia volaj\u00fa, v ak\u00fdch \u010dasoch zvon\u00ed
+  telef\u00f3n najviac a aj to, ako spr\u00e1vne po\u010d\u00fava\u0165 \u2013 budeme
+  rie\u0161i\u0165 v tejto epiz\u00f3de Z\u00e1had mysle. Hos\u0165om je psychologi\u010dka
+  Elena z linky d\u00f4very Nez\u00e1budka. | Linka d\u00f4very. | Moderuje: Andrea
+  Maz\u00farov\u00e1. | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd
+  rozhlas, R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05
+  v R\u00e1diu Slovensko.\\n27:23\\n15. 10. 2023\\nJesenn\u00e1 depresia (1.10.2023
+  20:05)\\nS krat\u0161\u00edmi d\u0148ami a sychrav\u00fdm po\u010das\u00edm sa u
+  mnoh\u00fdch sp\u00e1ja smutnej\u0161ia n\u00e1lada a men\u0161ia v\u00fdkonnos\u0165.
+  U niektor\u00fdch \u013eud\u00ed je tento stav v\u00e1\u017eny a prejav\u00ed sa
+  ako sez\u00f3nna afekt\u00edvna porucha a to pr\u00e1ve v tomto obdob\u00ed. O tom,
+  kedy ju treba rie\u0161i\u0165 s odborn\u00edkmi, v \u010dom sa odli\u0161uje od
+  depresie a ako vyzer\u00e1 terapia svetlom, budeme hovori\u0165 v Z\u00e1had\u00e1ch
+  mysle so psychologi\u010dkou Martou Za\u0165kovou. | Jesenn\u00e1 depresia. | Host:
+  Marta Za\u0165kov\u00e1. | Moderuje: Andrea Maz\u00farov\u00e1. | Rel\u00e1ciu Z\u00e1hady
+  mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas, R\u00e1dio Slovensko, SRo1.
+  Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu Slovensko.\\n27:13\\n1.
+  10. 2023\\nViera a jej vplyv na na\u0161u du\u0161u (17.9.2023 20:05)\\nViera a
+  jej vplyv na na\u0161u du\u0161u. | Niekto ver\u00ed v Boha, in\u00fd v osud, v
+  dobro \u010di s\u00e1m v seba. Viera v \u010doko\u013evek je pre n\u00e1\u0161 osobn\u00fd
+  \u017eivot aj pre fungovanie spolo\u010dnosti d\u00f4le\u017eit\u00e1. Pre\u010do
+  je to tak, \u010do viera prin\u00e1\u0161a na\u0161ej du\u0161i i telu a ako sa
+  bli\u017e\u0161ie dosta\u0165 k podstate viery a do hlb\u00edn seba sam\u00e9ho
+  \u2013 na to budeme h\u013eada\u0165 odpovede v tejto epiz\u00f3de Z\u00e1had mysle
+  s teologi\u010dkou a psychoterapeutkou \u0160tef\u00e1niou Hriv\u0148\u00e1kovou.
+  | Host: \u0160tef\u00e1nia Hriv\u0148\u00e1kov\u00e1. | Moderuje: Andrea Maz\u00farov\u00e1.
+  | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas,
+  R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu
+  Slovensko.\\n27:19\\n17. 9. 2023\\nZmeny a prisp\u00f4sobivos\u0165 (3.9.2023 20:05)\\nMo\u017eno
+  aj vy m\u00e1te niekedy pocit, \u017ee sa v\u00e1\u0161 \u017eivot oto\u010dil hore
+  nohami. Koniec vz\u0165ahu, zmena zamestnania, ne\u010dakan\u00e1 choroba \u010di
+  strata bl\u00edzkeho. R\u00f4zne situ\u00e1cie n\u00e1s n\u00fatia prisp\u00f4sobi\u0165
+  sa nov\u00fdm podmienkam - ide\u00e1lne \u010do najr\u00fdchlej\u0161ie, ke\u010f\u017ee
+  \u017eivot ide jednoducho \u010falej. A pr\u00e1ve zmeny bud\u00fa t\u00e9mou v
+  nede\u013en\u00fdch Z\u00e1had\u00e1ch mysle s neuropsychol\u00f3gom Robertom Krause.
+  | Zmeny a prisp\u00f4sobivos\u0165. | Host: Dr. Robert Krause. | Moderuje: Andrea
+  Maz\u00farov\u00e1. | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd
+  rozhlas, R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05
+  v R\u00e1diu Slovensko.\\n27:38\\n3. 9. 2023\\nPevn\u00e1 v\u00f4\u013ea (20.8.2023
+  20:05)\\nAmerick\u00e1 asoci\u00e1cia psychol\u00f3gov sa zhodla na tom, \u017ee
+  pr\u00e1ve nedostatok pevnej v\u00f4le je pr\u00ed\u010dinou, pre\u010do \u013eudia
+  nedosahuj\u00fa svoje ciele. \u010co to presne pevn\u00e1 v\u00f4\u013ea je, ako
+  sa l\u00ed\u0161i od vytrvalosti a najm\u00e4 \u010di a ako sa d\u00e1 vytr\u00e9nova\u0165
+  zist\u00edme v nede\u013eu ve\u010der v rel\u00e1cii Z\u00e1hady mysle. Pozvanie
+  do \u0161t\u00fadia prijala psychologi\u010dka Zuzana \u0160ofranekov\u00e1. | Pevn\u00e1
+  v\u00f4\u013ea. | Moderuje: Andrea Maz\u00farov\u00e1. | Rel\u00e1ciu Z\u00e1hady
+  mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas, R\u00e1dio Slovensko, SRo1.
+  Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu Slovensko.\\n28:04\\n20.
+  8. 2023\\nCharita (6.8.2023 20:05)\\nAj toto leto pom\u00e1hame. V r\u00e1mci charitat\u00edvneho
+  R\u00e1dio Slovensko Slovensku predstav\u00edme od pondelka postupne vo vysielan\u00ed
+  15 ne\u013eahk\u00fdch \u013eudsk\u00fdch pr\u00edbehov. Je kr\u00e1sne, \u017ee
+  ke\u010f nesta\u010d\u00ed pomoc \u0161t\u00e1tu a bl\u00edzkych, n\u00e1jdu sa
+  cudz\u00ed \u013eudia, ktor\u00ed nezav\u00e1haj\u00fa. A pr\u00e1ve charite a jej
+  benefitom na na\u0161u du\u0161u bude venovan\u00e1 aj t\u00e1to epiz\u00f3da rel\u00e1cie
+  Z\u00e1hady mysle. | St\u00e1ly host: Dr. Robert Krause. | Moderuje: Andrea Maz\u00farov\u00e1.
+  | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas,
+  R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu
+  Slovensko.\\n27:36\\n6. 8. 2023\\nPr\u00e1zdniny (23.7.2023 20:05)\\nSlovensk\u00ed
+  \u0161kol\u00e1ci si naplno ochutn\u00e1vaj\u00fa dva mesiace pr\u00e1zdnin. A pr\u00e1ve
+  pr\u00e1zdniny a ich vplyv na detsk\u00fa du\u0161u bud\u00fa v nede\u013eu ve\u010der
+  na\u0161ou t\u00e9mou v Z\u00e1had\u00e1ch mysle. S doktorom Robertom Krause sa
+  porozpr\u00e1vame o tom, \u017ee je vhodn\u00e9 po\u010das leta pos\u00fava\u0165
+  deti v samostatnosti, aj necha\u0165 ich nudi\u0165 sa a budeme rie\u0161i\u0165
+  aj to, \u010di by sa mali deti cez pr\u00e1zdniny u\u010di\u0165. | Moderuje: Andrea
+  Maz\u00farov\u00e1. | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd
+  rozhlas, R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05
+  v R\u00e1diu Slovensko.\\n28:41\\n23. 7. 2023\\nDovolenky (9.7.2023 20:05)\\nZa\u010dala
+  sa hlavn\u00e1 dovolenkov\u00e1 sez\u00f3na. Viete ko\u013eko dn\u00ed by mala trva\u0165
+  dovolenka, aby to malo zmysel? Alebo to, pre\u010do sa na dovolenke \u010dasto h\u00e1dame
+  a \u010do o n\u00e1s vypoved\u00e1, ak chod\u00edme ka\u017ed\u00fd rok dovolenkova\u0165
+  na to ist\u00e9 miesto? Odpovede aj na tieto ot\u00e1zky budeme h\u013eada\u0165
+  v tejto epiz\u00f3de programu Z\u00e1hady mysle s na\u0161\u00edm st\u00e1lym hos\u0165om
+  neuropsychol\u00f3gom Robertom Krause. | Moderuje: Andrea Maz\u00farov\u00e1. |
+  Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas, R\u00e1dio
+  Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu Slovensko.\\n29:01\\n9.
+  7. 2023\\nHodnotenie a zhodnotenie (25.6.2023 20:05)\\nHodnoti\u0165 a s\u00fadi\u0165
+  in\u00fdch mnoh\u00ed pova\u017euj\u00fa sa svoje z\u00e1kladn\u00e9 pr\u00e1vo.
+  Ako hodnoti\u0165 tak, aby sme neubli\u017eovali a \u010di sa v\u00f4bec d\u00e1
+  vytvori\u0165 svet bez hodnotenia \u2013 zist\u00edme v tejto epiz\u00f3de programu
+  Z\u00e1hady mysle s na\u0161\u00edm st\u00e1lym hos\u0165om neuropsychol\u00f3gom
+  Robertom Krause. | Hodnotenie a zhodnotenie | Moderuje: Andrea Maz\u00farov\u00e1.
+  | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas,
+  R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu
+  Slovensko.\\n28:30\\n25. 6. 2023\\nNa\u0161e spr\u00e1vanie sa na cest\u00e1ch (11.6.2023
+  20:05)\\nSlovensk\u00e9 cesty nepatria medzi tie najbezpe\u010dnej\u0161ie \u2013
+  prem\u00e1vka hustne, prib\u00fada v\u00e1\u017enych neh\u00f4d, zranen\u00fdch
+  cyklistov, kolobe\u017ek\u00e1rov i chodcov. Pre\u010do je na na\u0161ich cest\u00e1ch
+  st\u00e1le viac agresie a bezoh\u013eadnosti? Dopravnej psychol\u00f3gii sa budeme
+  venova\u0165 v tejto epiz\u00f3de Z\u00e1had mysle. Tentoraz so \u0161peci\u00e1lnou
+  hostkou, dopravnou psychologi\u010dkou Romanou Mr\u00e1zovou. | Moderuje: Andrea
+  Maz\u00farov\u00e1. | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd
+  rozhlas, R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05
+  v R\u00e1diu Slovensko.\\n28:12\\n11. 6. 2023\\nSebal\u00e1ska (14.5.2023 20:05)\\nMo\u017eno
+  aj vy pozn\u00e1te vetu: \u201eAk chce\u0161 milova\u0165 ostatn\u00fdch, najsk\u00f4r
+  mus\u00ed\u0161 milova\u0165 seba\u201c. \u010co v\u0161ak presne SEBAL\u00c1SKA
+  znamen\u00e1? Ako m\u00f4\u017ee zdrav\u00e1 sebal\u00e1ska zmeni\u0165 v\u0161etko
+  okolo n\u00e1s a ako sa k nej dosta\u0165? To budeme zis\u0165ova\u0165 s Dr. Krause
+  v tejto epiz\u00f3de programu Z\u00e1hady mysle. | Moderuje: Andrea Maz\u00farov\u00e1.
+  | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas,
+  R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu
+  Slovensko.\\n27:52\\n14. 5. 2023\\nPr\u00edroda a na\u0161a du\u0161a (30.4.2023
+  20:05)\\n\u010c\u00edm viac zelene, t\u00fdm menej liekov. V\u00fdskumy ukazuj\u00fa,
+  \u017ee obklopen\u00ed pr\u00edrodou sme jednoducho zdrav\u0161\u00ed a \u0161\u0165astnej\u0161\u00ed.
+  Ko\u013eko pr\u00edrody v\u0161ak \u013eudsk\u00e1 du\u0161a potrebuje? Zauj\u00edmav\u00e9
+  v\u00fdskumy o vplyve pr\u00edrody na na\u0161u psychiku predstav\u00edme v nede\u013eu
+  ve\u010der v Z\u00e1had\u00e1ch mysle. | Pr\u00edroda a na\u0161a du\u0161a. | Moderuje:
+  Andrea Maz\u00farov\u00e1. | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013
+  Slovensk\u00fd rozhlas, R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu
+  o 20:05 v R\u00e1diu Slovensko.\\n28:11\\n30. 4. 2023\\nOdkladanie vec\u00ed na
+  nesk\u00f4r (prokrastin\u00e1cia) (16.4.2023 20:05)\\nOdkladanie vec\u00ed na nesk\u00f4r
+  (prokrastin\u00e1cia) | Asi ka\u017ed\u00fd pozn\u00e1 situ\u00e1ciu, ke\u010f namiesto
+  povinnost\u00ed, ktor\u00e9 potrebuje splni\u0165, tr\u00e1vi \u010das nie\u010d\u00edm
+  in\u00fdm a pritom sa nesplnen\u00fdmi \u00falohami tr\u00e1pi. Odkladanie vec\u00ed
+  na nesk\u00f4r (prokrastin\u00e1cia) je be\u017en\u00fd probl\u00e9m mnoh\u00fdch
+  \u013eud\u00ed v r\u00f4znom veku nielen v pr\u00e1ci, ale aj v s\u00fakrom\u00ed.
+  O form\u00e1ch, pr\u00ed\u010din\u00e1ch aj rie\u0161eniach prokrastin\u00e1cie
+  bude re\u010d v tejto epiz\u00f3de Z\u00e1had mysle s neuropsychol\u00f3gom Robertom
+  Krause. | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas,
+  R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu
+  Slovensko.\\n28:13\\n16. 4. 2023\\n\u010co znamen\u00e1 traumatizuj\u00faci z\u00e1\u017eitok
+  pre na\u0161u psychiku a ako traumy spracova\u0165? (2.4.2023 20:05)\\nDopravn\u00e9
+  hav\u00e1rie, pr\u00edrodn\u00e9 katastrofy, zlo\u010diny \u010di \u00famrtie milovanej
+  osoby. Ka\u017ed\u00fd za\u017eije po\u010das \u017eivota ur\u010dit\u00fd druh
+  traumy. Niekto sa so situ\u00e1ciou sk\u00f4r \u010di nesk\u00f4r vyrovn\u00e1,
+  in\u00e9mu sp\u00f4sob\u00ed dlhodob\u00fd probl\u00e9m. \u010co znamen\u00e1 traumatizuj\u00faci
+  z\u00e1\u017eitok pre na\u0161u psychiku a ako traumy spracova\u0165? Povieme v
+  tejto epiz\u00f3de programu Z\u00e1hady mysle. | Hostka: psychologi\u010dka Zuzana
+  Ga\u017eov\u00e1. | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013 Slovensk\u00fd
+  rozhlas, R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05
+  v R\u00e1diu Slovensko.\\n26:55\\n2. 4. 2023\\n\u013dudsk\u00fd mozog (19.3.2023
+  20:05)\\n\u013dudsk\u00fd mozog je fascinuj\u00faci org\u00e1n, ktor\u00fd mnoh\u00ed
+  prirov\u00e1vaj\u00fa k superpo\u010d\u00edta\u010du. Sp\u00e1jaj\u00fa sa v \u0148om
+  kilometre ciev a miliardy neur\u00f3nov, ka\u017ed\u00fa sekundu vyhodnot\u00ed
+  mili\u00f3ny podnetov a za tri\u0161tvrte roka by dok\u00e1zal nabi\u0165 n\u00e1\u0161
+  smartf\u00f3n. Mozog a jeho fungovanie bude t\u00e9mou aj v Z\u00e1had\u00e1ch mysle.
+  Pozrieme sa na rozdiely medzi mu\u017emi a \u017eenami a zist\u00edme pre\u010do
+  prich\u00e1dzaj\u00fa dobr\u00e9 n\u00e1pady v sprche. | Rel\u00e1ciu Z\u00e1hady
+  mysle pripravuje RTVS \u2013 Slovensk\u00fd rozhlas, R\u00e1dio Slovensko, SRo1.
+  Ka\u017ed\u00fa druh\u00fa nede\u013eu o 20:05 v R\u00e1diu Slovensko.\\n27:26\\n19.
+  3. 2023\\n\u010c\u00edtanie (5.3.2023 20:05)\\nMarec je mesiac knihy a tak bude
+  t\u00e9mou v Z\u00e1had\u00e1ch mysle \u201e\u010c\u00edtanie\u201c. Ukazuje sa,
+  \u017ee \u010d\u00edtanie kn\u00edh je prospe\u0161n\u00e9 od skor\u00e9ho detstva
+  a\u017e po starobu. Ak\u00fdko\u013evek text aktivuje n\u00e1\u0161 mozog, vyn\u00e1raj\u00fa
+  sa obrazy, preb\u00fadzaj\u00fa pocity. Je dokonca dok\u00e1zan\u00e9, \u017ee \u010d\u00edtanie
+  fyzicky men\u00ed \u0161trukt\u00faru na\u0161ej mysle. Ako? To sa dozviete v tejto
+  epiz\u00f3de a dr. Robert Krause v\u00e1m aj porad\u00ed, ako \u010d\u00edta\u0165
+  efekt\u00edvnej\u0161ie. | Rel\u00e1ciu Z\u00e1hady mysle pripravuje RTVS \u2013
+  Slovensk\u00fd rozhlas, R\u00e1dio Slovensko, SRo1. Ka\u017ed\u00fa druh\u00fa nede\u013eu
+  o 20:05 v R\u00e1diu Slovensko.\\n28:50\\n5. 3. 2023\"", "\"Mas\u00e1\u017ene pr\u00edstroje\\nMas\u00e1\u017eny
+  pr\u00edstroj na nohy BEURER FM 60\\nPre unaven\u00e9 chodidl\u00e1 alebo pre pr\u00edjemn\u00fa
+  relax\u00e1ciu po dlhom dni pon\u00faka zna\u010dka Beurer mas\u00e1\u017e na nohy
+  BEU-FM60. Pr\u00edstroj pre dom\u00e1ce pou\u017eitie si ob\u013e\u00fabia v\u0161etci
+  \u010dlenovia..\\nStimul\u00e1tor na potla\u010denie bolesti PainGone\\nPain\u00aeGone
+  je n\u00edzkofrekven\u010dn\u00fd, piezoelektrick\u00fd pr\u00edstroj s krem\u00edkov\u00fdmi
+  kry\u0161t\u00e1lmi, ktor\u00fd u\u013eavuje od bolesti. Pr\u00edstroj vyu\u017e\u00edva
+  met\u00f3du TENS (Transcutaneous Electrical Nerve..\\nModom Antistresov\u00fd n\u00e1stroj
+  pre mas\u00e1\u017e hlavy, 24 cm, SJH 210B\\nNavo\u010fte si pr\u00edjemn\u00fd
+  pocit uvo\u013enenia a pohody v\u010faka tejto popul\u00e1rnej mas\u00e1\u017enej
+  metli\u010dke. \u00da\u010dinne p\u00f4sob\u00ed proti stresu, stavoch \u00fazkosti,
+  podr\u00e1\u017edenosti alebo nespavosti. Pomal\u00fdm..\\nBeurer MG 280 mas\u00e1\u017ena
+  yoga podlo\u017eka, 127 x 55 x 10 cm\\nTr\u00e1pia v\u00e1s bolesti chrbta, kr\u010dnej
+  chrbtice alebo m\u00e1te stuhnut\u00e9 svaly? Mas\u00e1\u017ena yoga podlo\u017eka
+  je pre v\u00e1s skvel\u00fdm rie\u0161en\u00edm. \u013dahko sa pou\u017e\u00edva
+  a dok\u00e1\u017ee u\u013eavi\u0165 od bolesti..\\nModom Dreven\u00fd mas\u00e1\u017eny
+  akupres\u00farny val\u010dek na chodidl\u00e1, , 22 x 4 cm, SJH 207\\nTento val\u010dek
+  ocen\u00edte najm\u00e4 pri \u00fanave, n\u00e1mahe alebo po dlh\u0161ej ch\u00f4dzi.
+  Pohybom chodidla docielite ve\u013emi pr\u00edjemnej a uvol\u0148ujc\u00edcej mas\u00e1\u017ee
+  v\u0161etk\u00fdch akupres\u00farnych bosov na..\\nBeurer MG 10 mas\u00e1\u017eny
+  bal\u00f3nik s vibr\u00e1ciami, pr. 8 cm\\nTr\u00e1pia v\u00e1s bolesti chrbta,
+  kr\u010dnej chrbtice alebo m\u00e1te stuhnut\u00e9 svaly? Mas\u00e1\u017eny bal\u00f3nik
+  s vibr\u00e1ciami je pre v\u00e1s skvel\u00fdm rie\u0161en\u00edm. Vyu\u017eijete
+  ho pre cielen\u00fa mas\u00e1\u017e..\\nModom Akupres\u00farny mas\u00e1\u017eny
+  roler na chodidl\u00e1 s hrotmi 23 x 18 cm, SJH 309\\nMas\u00e1\u017eny roler je
+  ur\u010den\u00fd pre mas\u00e1\u017e cel\u00fdch chodidiel. Pohybom n\u00f4h na
+  val\u010dekoch docielite \u00fa\u010dinn\u00fa stimul\u00e1ciu akupres\u00farnych
+  bodov. S\u00fa\u010dasne t\u00fdm podpor\u00edte funkciu v\u0161etk\u00fdch..\\nModom
+  Mas\u00e1\u017eny vibra\u010dn\u00fd pr\u00edstroj na nohy, biela, SJH 308\\nTento
+  pr\u00edstroj je ur\u010den\u00fd pre \u00fa\u010dinn\u00fa reflexn\u00fa mas\u00e1\u017e
+  chodidiel. M\u00e1 dve \u00farovne intenzity a oto\u010dn\u00e9 mas\u00e1\u017ene
+  val\u010deky, ktor\u00e9 spolo\u010dne s vibr\u00e1ciami dokonale namas\u00edruj\u00fa
+  a..\\nMas\u00e1\u017en\u00ed podlo\u017eka BEURER MG 260 \u010dern\u00e1\\nShiatsu
+  mas\u00e1\u017ena podlo\u017eka Beurer BEU-MG260 v\u00e1m umo\u017en\u00ed komfortn\u00fa
+  mas\u00e1\u017e chrbta aj krku v pohodl\u00ed a k\u013eude domova. Tlakov\u00e1
+  shiatsu mas\u00e1\u017e je ob\u013e\u00faben\u00e1 pri bolestiach chrbta,..\\nAkupres\u00farna
+  kamienkov\u00e1 podlo\u017eka GOGO\\nMas\u00e1\u017ena akupres\u00farna podlo\u017eka
+  s umel\u00fdmi kamienkami \u00fa\u010dinne posl\u00fa\u017ei a nahrad\u00ed prirodzen\u00fa
+  ch\u00f4dzu naboso ako pri mori na drobn\u00fdch kamienkoch. Pravideln\u00fdm le\u017ean\u00edm
+  na podlo\u017eke..\\nModom Bankov\u00fd set, 24 ks\\nObjavte k\u00fazlo bankovania
+  na o\u010distenie organizmu a celkovej \u00fa\u013eavy stuhnutostisvalov, ktor\u00e1
+  sp\u00f4sobuje bolesti. Tradi\u010dn\u00e1 a starobyl\u00e1 met\u00f3da bankovania
+  doma a pohodlne. Vyu\u017e\u00edva..\\nOrava MP-800, Mas\u00e1\u017eny pr\u00edstroj
+  s infra\u010derven\u00fdm \u017eiaren\u00edm\\nTento pr\u00edstroj v\u00e1m sprostredkuje
+  uk\u013eud\u0148uj\u00facu a relaxa\u010dn\u00fa infra\u010derven\u00fa vibra\u010dn\u00fa
+  mas\u00e1\u017e. Pom\u00e1ha zlep\u0161i\u0165 krvn\u00fd obeh v poko\u017eke. M\u00e1
+  3 prev\u00e1dzkov\u00e9 re\u017eimy: mas\u00e1\u017e,..\\nMas\u00e1\u017eny pr\u00edstroj
+  BEURER MG 21\\nDoprajte si pr\u00edjemn\u00fa relaxa\u010dn\u00fa mas\u00e1\u017e
+  v pohodl\u00ed v\u00e1\u0161ho domova v\u010faka ru\u010dn\u00e9mu mas\u00e1\u017enemu
+  pr\u00edstroju Beurer BEU-MG21, ktor\u00fd p\u00f4sob\u00ed do h\u013abky tkaniva
+  a svalov v\u010faka..\\nHor\u00face kamene, \u010derven\u00e1\\nViete, \u010do je
+  najlep\u0161ie na relax\u00e1ciu? Da\u0165 si mas\u00e1\u017e hor\u00facimi kame\u0148mi.
+  Sta\u010d\u00ed ich nahria\u0165 v hor\u00facej vode a potom ich postupne priklada\u0165
+  na svaly, k\u00fdm sa nedostav\u00ed pocit..\\nBEU-MG55 mas\u00e1\u017e poklepov\u00e1
+  BEURER\\nDoprajte si pr\u00edjemn\u00fa ru\u010dn\u00e1 poklepov\u00fa mas\u00e1\u017e
+  tie\u017e v pohodl\u00ed domova. Mas\u00e1\u017eny pr\u00edstroj Beurer BEU-MG55
+  je skvel\u00fdm pomocn\u00edkom pre chv\u00edle relax\u00e1cie a odpo\u010dinku.
+  Poskytne v\u00e1m..\\nMas\u00e1\u017eny pr\u00edstroj n\u00f4h SFM 3721 VT SENCOR,
+  zelen\u00e1\\nMas\u00e1\u017eny pr\u00edstroj Sencor pre dokonal\u00fa relax\u00e1ciu
+  a regener\u00e1ciu unaven\u00fdch n\u00f4h. Perli\u010dkov\u00e1 mas\u00e1\u017ena
+  vani\u010dka p\u00f4sob\u00ed blahod\u00e1rne na va\u0161e chodidl\u00e1. Skvele
+  stimuluje prekrvenie..\\nMODOM BI 13 Relax Tone Maripol\\nMas\u00e1\u017eny pr\u00edstroj
+  Relax Tone Maripol je \u00fa\u010dinn\u00fd, mas\u00e1\u017eny, zo\u0161t\u00edh\u013euj\u00faci
+  a tvaruj\u00faci pr\u00edstroj, ktor\u00fd vyu\u017eijete na cel\u00e9 telo. Relax
+  Tone prispieva k celkovej fyzickej i..\\nModom Mas\u00e1\u017en\u00e1 frekven\u010dn\u00e1
+  my\u0161\\nV\u010faka tejto frekven\u010dnej my\u0161i docielite \u00fa\u010dinn\u00e9
+  pulzn\u00e9 mas\u00e1\u017ee brucha, chrbta, zadku a stehien. M\u00e1 preuk\u00e1zate\u013ene
+  uti\u0161uj\u00faci vplyv na svalov\u00fa boles\u0165 a nap\u00e4tie. Docielite
+  tie\u017e..\\nModom Akupres\u00farny mas\u00e1\u017eny roller na chodidl\u00e1,
+  31 x 16 cm - SJH 310\\nTento dreven\u00fd mas\u00e1\u017eny roler je ur\u010den\u00fd
+  pre mas\u00e1\u017e cel\u00fdch chodidiel. Pohybom n\u00f4h na val\u010dekoch ROLER
+  docielite \u00fa\u010dinnej stimul\u00e1cie akupres\u00farnych bodov. Akupres\u00farnou
+  mas\u00e1\u017eou..\\nMas\u00e1\u017eny pr\u00edstroj BEURER MG 16 \u010derven\u00fd\\nTr\u00e1pia
+  V\u00e1s bolesti chrbta, kr\u010dnej chrbtice alebo m\u00e1te stuhnut\u00e9 svaly?
+  Mini ru\u010dn\u00fd mas\u00e1\u017eny pr\u00edstroj Beurer BEU-MG16RED je pre v\u00e1s
+  skvel\u00fdm rie\u0161en\u00edm. S pr\u00edstrojom m\u00f4\u017eete..\\nECG MN 105\\nMas\u00e1\u017ena
+  vani\u010dka ECG MN 105pre nohy disponuje 3 prev\u00e1dzkov\u00fdmi prednastaven\u00fdmi
+  programami, ktor\u00e9 zah\u0155\u0148aj\u00fa vibra\u010dn\u00fa mas\u00e1\u017e,
+  bublinkov\u00fa mas\u00e1\u017e, tepl\u00fd k\u00fape\u013e a kombin\u00e1cie..\\nModom
+  Akupres\u00farna podlo\u017eka YUHUA s pr\u00edrodn\u00fdmi kame\u0148mi\\nVysk\u00fa\u0161ajte
+  t\u00fato novinku na trhu - mas\u00e1\u017enu akupres\u00farnu podlo\u017eku YUHUA
+  s pr\u00edrodn\u00fdmi kame\u0148mi. Odpor\u00fa\u010dame pou\u017e\u00edva\u0165
+  pre polohu le\u017emo a pre ch\u00f4dzu. Mas\u00e1\u017e stimuluje reflexn\u00fa..\\nModom
+  Mas\u00e1\u017ena vibra\u010dn\u00e1 pom\u00f4cka Chrob\u00e1k, zelen\u00e1, BI
+  41\\nK\u00fapte si t\u00fato roztomil\u00fa mas\u00e1\u017enu pom\u00f4cku v tvare
+  chrob\u00e1ka, ktor\u00e1 podpor\u00ed krvn\u00fd obeh mas\u00edrovanej \u010dasti,
+  zr\u00fdchli l\u00e1tkov\u00fa v\u00fdmenu a ur\u00fdchli regenar\u00e1ciu. Skvele
+  \u0148ou..\\nModom Dreven\u00fd mas\u00e1\u017eny p\u00e1s na chrb\u00e1t, 110 cm
+  - SJH 209\\nTento \u00fa\u010dinn\u00fd p\u00e1s s rota\u010dn\u00fdmi dreven\u00fdmi
+  val\u010dekmi s v\u00fdstupkami pom\u00f4\u017ee uvo\u013eni\u0165 nap\u00e4t\u00e9
+  svaly a zlep\u0161i\u0165 krvn\u00fd obeh. Mas\u00e1\u017e vzpru\u017e\u00ed telo,
+  zmierni \u00fanavu, odb\u00fara nap\u00e4tie a..\\nAkupres\u00farny vank\u00fa\u0161
+  - Aplik\u00e1tor Kuzn\u011bcova, fialov\u00e1\\nAkupres\u00farny vank\u00fa\u0161
+  stimuluje akupres\u00farne body na hlave a t\u00fdm napom\u00e1ha pri bolestiach
+  krku a chrbta, bolestiach hlavy, chronickej \u00fanave a nespavosti. Vank\u00fa\u0161
+  m\u00e1 stovky..\\nModom Mas\u00e1\u017ena vibra\u010dn\u00e1 pom\u00f4cka Hr\u00edbik,
+  biela, BI 46\\nZak\u00fapte si t\u00fato \u00fa\u010dinn\u00fa vibra\u010dn\u00fa
+  pom\u00f4cku, ktorou namas\u00edrujete oblas\u0165 medzilopatkov\u00fdch svalov,
+  chrbta, ramien, zadku, stehien, chodidiel, l\u00fdtok aj oblas\u0165 k\u013e\u00fa\u010dnych
+  kost\u00ed...\\nMas\u00e1\u017eny pr\u00edstroj BEURER MG 147\\nBeurer BEU-MG147
+  SHIATSU mas\u00e1\u017eny vank\u00fa\u0161ik je ve\u013emi praktick\u00fd, \u013eahko
+  sa pou\u017e\u00edva a dok\u00e1\u017ee u\u013eavi\u0165 od bolesti svalov, chrbta
+  a hlavy.Vlastnosti a \u0161pecifik\u00e1cie: mas\u00e1\u017eny..\\nDigit\u00e1lny
+  mas\u00e1\u017eny pr\u00edstroj - Neurostimul\u00e1tor Tempo\\nmas\u00e1\u017eny
+  pr\u00edstroj s displejom dve um\u00fdvate\u013en\u00e9 elektr\u00f3dy pre dom\u00e1cu
+  elektrolie\u010dbu nieko\u013eko typy mas\u00e1\u017ee 7 stimula\u010dn\u00fdch
+  re\u017eimov regul\u00e1cia intenzity a frekvencie..\\nTOPSHOP ENERGIZER AKUPRESURNY
+  MASAZNY PRISTROJ\\nMAS\u00c1\u017dNY PR\u00cdSTROJ . Revitalizujte svoj \u017eivot
+  s akupres\u00farnym mas\u00e1\u017enym pr\u00edstrojom . \u010c\u00edm sme star\u0161\u00ed,
+  t\u00fdm..\\nBEURER EM 50\\nELEKTROSTIMULA\u010cN\u00dd PR\u00cdSTROJ PRI MEN\u0160TRU\u00c1CI\u00cd
+  . Trp\u00edte men\u0161trua\u010dnou boles\u0165ou? M\u00e1me tu nov\u00e9ho pomocn\u00edka
+  -..\\nBEURER EM 26\\nELEKTROSTIMULA\u010cN\u00dd PR\u00cdSTROJ NA RAMENO . Daj bolesti
+  ramena studen\u00fa sprchu s elektrostimula\u010dn\u00fdm pr\u00edstrojom Beurer..\\nBEURER
+  RELEAZER COMPACT\\nMAS\u00c1\u017dNY PR\u00cdSTROJ PROTI CELULIT\u00cdDE . Ergonomick\u00fd
+  tvar a kompaktn\u00e1 d\u013a\u017eka ty\u010de znamenaj\u00fa, \u017ee mas\u00e1\u017eny..\\nWELLNEO
+  SHIATZU MASAZNA PODLOZKA CHRBTA A NOH\\nMAS\u00c1\u017dNA PODLO\u017dKA CHRBTA A
+  N\u00d4H . Dokonal\u00fd mas\u00e1\u017eny z\u00e1\u017eitok s personalizovan\u00fdmi
+  mo\u017enos\u0165ami - technika shiatsu,..\\nBEURER MG 149\\nMAS\u00c1\u017dNY VANK\u00da\u0160
+  . Mas\u00e1\u017eny vank\u00fa\u0161 BEURER MG 149 uspokoj\u00ed v\u0161etky va\u0161e
+  potreby! Doprajte si v\u0161estrann\u00fa..\\nBEURER MG 280\\nMAS\u00c1\u017dNA
+  PODLO\u017dKA . Mas\u00e1\u017ena podlo\u017eka Beurer MG 280 joga a stre\u010ding
+  je vybaven\u00e1 vzduchov\u00fdmi komorami, ktor\u00e9 sa..\\nBEURER MG 135\\nMAS\u00c1\u017dNY
+  SHIATSU VANK\u00da\u0160 . Mas\u00e1\u017eny Shiatsu vank\u00fa\u0161 Shiatsu Beurer
+  MG135 bol vyvinut\u00fd na z\u00e1klade Shiatsu..\\nBEURER FM 150 PRO\\nMAS\u00c1\u017dNY
+  PR\u00cdSTROJ NA NOHY . Mas\u00e1\u017eny pr\u00edstroj na nohy Beurer FM150 Pro
+  v\u00fdrazne zlep\u0161uje cirkul\u00e1ciu krvi..\\nBEURER EM 22\\nELEKTROSTIMULA\u010cN\u00dd
+  PR\u00cdSTROJ . Kone\u010dne fit! Podporte svoj svalov\u00fd tr\u00e9ning za pomoci
+  elektrostimula\u010dn\u00e9ho..\\nWELLIFE MASAZNY PRISTROJ CHODIDIEL S INFRA VYHRIEVANIM
+  SHIATSU MD00091\\nMAS\u00c1\u017dNY PR\u00cdSTROJ . S elektrick\u00fdm mas\u00e1\u017enym
+  pr\u00edstrojom SHIATSU si m\u00f4\u017eete dopria\u0165 komfortn\u00fa reflexn\u00fa
+  mas\u00e1\u017e..\\nREVLON RVFB7021\\nMAS\u00c1\u017d NA NOHY + PEDIK\u00daRA .
+  Doprajte si relaxa\u010dn\u00fa bublinkov\u00fa mas\u00e1\u017e pred pedik\u00farou
+  v k\u00fape\u013eoch REVLON PEDIPRED...\\nSANITAS SMG 141\\nVYHRIEVACIA A MAS\u00c1\u017dNA
+  PODLO\u017dKA. V\u00fdhrevn\u00e1 a mas\u00e1\u017ena podlo\u017eka od spolo\u010dnosti
+  Sanitas s ozna\u010den\u00edm SMG 141 V\u00e1m..\\nBEURER MG 520 TO GO\\nMAS\u00c1\u017dNY
+  PR\u00cdSTROJ. U\u017eite si dokonal\u00fa relax\u00e1ciu a uvo\u013enenie v pohodl\u00ed
+  v\u00e1\u0161ho domova s mas\u00e1\u017enym pr\u00edstrojom..\\nBEURER MG 151\\nMAS\u00c1\u017dNY
+  PR\u00cdSTROJ. Beurer MG 151 je mas\u00e1\u017eny p\u00e1s, ktor\u00fd sa d\u00e1
+  flexibilne pou\u017ei\u0165 na r\u00f4znych miestach tela -..\\nBEURER MG 80\\nMAS\u00c1\u017dNY
+  PR\u00cdSTROJ. ru\u010dn\u00e1 infra\u010derven\u00e1 mas\u00e1\u017e. infra\u010derven\u00e1
+  poklepov\u00e1 mas\u00e1\u017e. 2 mas\u00e1\u017ene nadstavce. ..\\nBEURER MG 850\\nMAS\u00c1\u017dNY
+  PR\u00cdSTROJ. zvy\u0161uje prietok krvi. zvy\u0161uje hydrat\u00e1ciu (regener\u00e1cia
+  celul\u00f3zy). omladzuje a regeneruje..\\nBEURER ST 100\\nANTISTRESOV\u00dd PR\u00cdSTROJ
+  . Antistresov\u00fd pr\u00edstroj Beurer ST100 stress releaZer je relaxa\u010dn\u00e1
+  pom\u00f4cka a tr\u00e9ning..\\nBEURER FM 250\\nNO\u017dN\u00dd EMS STIMUL\u00c1TOR
+  KRVN\u00c9HO OBEHU. Stimula\u010dn\u00fd pr\u00edstroj Beurer EMS FM250 Vital Legs
+  uvo\u013e\u0148uje svalov\u00e9 nap\u00e4tie..\\nBEURER EM 95\\nDOM\u00c1CE ELEKTROSTIMULA\u010cN\u00c9
+  \u0160T\u00daDIO . \u0160pi\u010dkov\u00e9 vysokov\u00fdkonn\u00e9 elektrostimula\u010dn\u00e9
+  \u0161t\u00fadio Beurer EM 95 v\u00e1m..\\nBEURER FC 72\\nIONIZA\u010cN\u00dd \u010cISTI\u010c
+  PLETI. Ioniza\u010dn\u00e1 tv\u00e1rov\u00e1 sauna Beurer FC 72.. I\u00f3ny poskytuj\u00fa
+  hlbok\u00fa hydrat\u00e1ciu poko\u017eky...\\nBEURER FM 200\\nMAS\u00c1\u017dNY
+  PR\u00cdSTROJ. Vylep\u0161ite v\u00e1\u0161 krvn\u00fd obeh s mas\u00e1\u017enym
+  pr\u00edstrojom achilovky Beurer FM 200 Achillomed\u00ae.. M\u00e1..\\nBEURER CM
+  100\\nMAS\u00c1\u017dNY PR\u00cdSTROJ PROTI CELULIT\u00cdDE . Technol\u00f3gia vibr\u00e1ci\u00ed
+  mas\u00e1\u017eneho pr\u00edstroja proti celulit\u00edde Beurer CM 100..\\nBEURER
+  EM 27 TENS\\nELEKTROSTIMUL\u00c1CIA \u010cLENKU. Elektrostimul\u00e1cia \u010dlenku
+  Beurer EM27 TENS m\u00f4\u017ee by\u0165 pou\u017eit\u00e1 na boles\u0165 \u010dlenku
+  a..\\nBEURER EM 28 TENS\\nELEKTROSTIMUL\u00c1CIA Z\u00c1P\u00c4STIA. Elektrostimul\u00e1ciu
+  z\u00e1p\u00e4stia Beurer EM 28 TENS m\u00f4\u017eete pou\u017ei\u0165 na lie\u010dbu
+  bolesti v..\\nWELLNEO TLAKOVY MASAZNY PRISTROJ 4V1\\nTLAKOV\u00c1 TERAPIA 4V1. Ob\u013e\u00faben\u00e1
+  mas\u00e1\u017e tlakom vzduchu v pohodl\u00ed domova. Mas\u00e1\u017e tlakom vzduchu
+  je celkom nov\u00e1..\\nBEURER FB 21\\nMAS\u00c1\u017dNY PR\u00cdSTROJ NA NOHY.
+  Mas\u00e1\u017ena vani\u010dka BEURER FB 21 posl\u00fa\u017ei na dom\u00e1cu mas\u00e1\u017e
+  n\u00f4h. M\u00f4\u017eete navoli\u0165 jednu..\\nBEURER MG 510 TO GO\\nMAS\u00c1\u017dNY
+  PR\u00cdSTROJ. Mas\u00e1\u017eny pr\u00edstroj Beurer MG 510 V\u00e1m prin\u00e1\u0161a
+  nov\u00fd z\u00e1\u017eitok z relax\u00e1cie a uvo\u013enenia, bez..\\nBEURER FM
+  39\\nMAS\u00c1\u017dNY PR\u00cdSTROJ. Beurer FM39 je no\u017en\u00e1 mas\u00e1\u017e,
+  ktor\u00e1 m\u00e1 priazniv\u00e9 \u00fa\u010dinky na krvn\u00fd obeh, svalov\u00fa
+  relax\u00e1ciu..\\nBEURER MG 260\\nMAS\u00c1\u017dNY PR\u00cdSTROJ. Shiatsu mas\u00e1\u017e
+  hlavy a krku. 2 hlavice na krk. 4 hlavice na chrb\u00e1t. 3 individu\u00e1lne..\\nBEURER
+  MG 145\\nMAS\u00c1\u017dNY PR\u00cdSTROJ. Mas\u00e1\u017eny pr\u00edstroj v tvare
+  vank\u00fa\u0161a od nemeck\u00e9ho v\u00fdrobcu Beurer s ozna\u010den\u00edm Beurer
+  MG 145 je..\\nBEURER EM 39 2IN1\\nELEKTR\u00d3DOV\u00dd STIMULA\u010cN\u00dd OPASOK.
+  Elektrostimula\u010dn\u00fd opasok - posil\u0148ovac\u00ed p\u00e1s Beurer EM39
+  vyu\u017eijete pri..\\nBEURER MG 300\\nMAS\u00c1\u017dNY PR\u00cdSTROJ . Urobte
+  si prest\u00e1vku z v\u00e1\u0161ho ru\u0161n\u00e9ho d\u0148a a upokojte unaven\u00e9
+  svaly pomocou podlo\u017eky Beurer..\\nBEURER MG 206\\nMAS\u00c1\u017dNY PR\u00cdSTROJ.
+  Relaxa\u010dn\u00e1 podlo\u017eka MG 206 Shiatsu poskytne pr\u00edjemn\u00fa a ide\u00e1lnu
+  mas\u00e1\u017e chrbta za ka\u017edej jazdy..\\nBEURER MG 295 HD BLACK\\nMAS\u00c1\u017dNY
+  PR\u00cdSTROJ. rota\u010dn\u00e1 Shiatsu mas\u00e1\u017e krku a chrbta. 4 Shiatsu
+  mas\u00e1\u017ene, rota\u010dn\u00e9 hlavice. 3 individu\u00e1lne..\"", "\"- Odovzdajte
+  z v\u00e1\u0161ho zariadenia\\n- Odovzda\u0165 z Disku Google\\n- Odovzda\u0165
+  z DropBoxu\\nVa\u0161e s\u00fabory s\u00fa v bezpe\u010d\u00ed!\\nNa ochranu va\u0161ich
+  \u00fadajov pou\u017e\u00edvame najlep\u0161ie met\u00f3dy \u0161ifrovania.\\nV\u0161etky
+  dokumenty sa automaticky odstr\u00e1nia z na\u0161ich serverov po 30 min\u00fatach.\\nAk
+  chcete, m\u00f4\u017eete svoj s\u00fabor odstr\u00e1ni\u0165 ru\u010dne hne\u010f
+  po spracovan\u00ed kliknut\u00edm na ikonu bin.\\nAko prev\u00e1dza\u0165 dokument
+  z PowerPointu do PDF online:\\n- Ak chcete za\u010da\u0165, presu\u0148te svoj s\u00fabor
+  PowerPoint alebo ho nahrajte zo zariadenia alebo z cloudovej \u00falo\u017enej slu\u017eby.\\n-
+  N\u00e1\u0161 n\u00e1stroj za\u010dne automaticky prev\u00e1dza\u0165 s\u00fabor.\\n-
+  Prevezmite preveden\u00fd s\u00fabor PDF do svojho po\u010d\u00edta\u010da alebo
+  ho ulo\u017ete priamo do slu\u017eby cloudov\u00e9ho \u00falo\u017eiska.\\nVedel
+  si?\\nCie\u013eom bolo vyvin\u00fa\u0165 \u013eahko pou\u017eite\u013en\u00fd prezenta\u010dn\u00fd
+  program pre podniky zalo\u017een\u00fd na s\u00e9rii sn\u00edmok vr\u00e1tane textov\u00fdch
+  a grafick\u00fdch prvkov. Nazvali program Presenter a p\u00f4vodne bol navrhnut\u00fd
+  pre po\u010d\u00edta\u010de Macintosh spolo\u010dnosti Apple. V d\u00f4sledku probl\u00e9mov
+  s ochrann\u00fdmi zn\u00e1mkami bol n\u00e1zov v roku 1987 zmenen\u00fd na PowerPoint.\\nOfici\u00e1lne
+  vydanie programu PowerPoint v roku 1987 pril\u00e1kalo prv\u00e1 invest\u00edcia
+  do rizikov\u00e9ho kapit\u00e1lu, ktor\u00fa kedy spolo\u010dnos\u0165 Apple uskuto\u010dnila
+  , V ironickom zvrate udalost\u00ed, nesk\u00f4r v tomto roku, Microsoft, ktor\u00fd
+  pracoval na prezenta\u010dnej aplik\u00e1cii svojej vlastnej, k\u00fapil pr\u00e1va
+  na Power Point za 14 mili\u00f3nov dol\u00e1rov. Bola to prv\u00e1 v\u00fdznamn\u00e1
+  akviz\u00edcia spolo\u010dnosti Microsoft, ktor\u00e1 Gaskins dr\u017eala na \u010dele
+  projektu \u010fal\u0161\u00edch p\u00e4\u0165 rokov. S\u00fa\u010das\u0165ou bal\u00edka
+  Microsoft Office je od za\u010diatku PowerPoint prezenta\u010dn\u00fd program najpou\u017e\u00edvanej\u0161\u00ed
+  v dne\u0161nom svete.\\nZnalci aplik\u00e1cie PowerPoint tvrdia, \u017ee prezenta\u010dn\u00e9
+  sn\u00edmky n\u00e1s robia menej inteligentn\u00fdmi. K dispoz\u00edcii je dokonca
+  aj kniha: Ako PowerPoint z v\u00e1s urob\u00ed hl\u00fape, Franck Frommer. Existuj\u00fa
+  dva hlavn\u00e9 d\u00f4vody. Po prv\u00e9, nuansy \u010dasto nem\u00f4\u017eu by\u0165
+  interpretovan\u00e9 odr\u00e1\u017ekami a ikonami, ktor\u00e9 m\u00f4\u017eu skresli\u0165
+  realitu t\u00fdm, \u017ee ju zjednodu\u0161ia. Samozrejme by sa dalo namieta\u0165,
+  \u017ee \u00falohou moder\u00e1tora je \u010do najpresnej\u0161ia prezent\u00e1cia.
+  Potom je tu v\u0161ak \u010fal\u0161\u00ed probl\u00e9m: \u013eudia nem\u00f4\u017eu
+  s\u00fa\u010dasne \u010d\u00edta\u0165 a po\u010d\u00fava\u0165. Ke\u010f prid\u00e1te
+  grafick\u00e9 a interakt\u00edvne prvky, m\u00f4\u017eete sp\u00f4sobi\u0165 v\u00fdznamn\u00fd
+  kognit\u00edvne za\u0165a\u017eenie pre verejnos\u0165. Z tohto d\u00f4vodu Amazon
+  (a mnoho \u010fal\u0161\u00edch spolo\u010dnost\u00ed) dokonca zak\u00e1zali prezent\u00e1cie
+  programu PowerPoint v prospech starom\u00f3dnej pozn\u00e1mky.\\nVedeli ste, \u017ee
+  americk\u00e1 arm\u00e1da je \u010dasto poukazovan\u00e1 na obsedantn\u00e9 pou\u017e\u00edvanie
+  programu PowerPoint? Existuje dokonca v\u00fdraz: \u201ePowerPoint Ranger\u201c!
+  Za\u0161lo to tak \u010faleko, \u017ee v roku 2010 gener\u00e1l James N. Mattis
+  , ktor\u00fd sa nesk\u00f4r stal ministrom obrany USA, sa proti nemu vyjadril.\\nAk\u00e9
+  s\u00fa hlavn\u00e9 rozdiely medzi PPT a PPTX?\\nPo prv\u00e9, s\u00fabory .pptx
+  m\u00f4\u017eu by\u0165 a\u017e o 75% men\u0161ie ako ich n\u00e1protivky .ppt.
+  Potom dostanete menej po\u0161koden\u00e9 s\u00fabory s verziou .pptx. \u00darove\u0148
+  bezpe\u010dnosti je v\u00fdrazne vy\u0161\u0161ia, preto\u017ee je mo\u017en\u00e9
+  identifikova\u0165 a vyl\u00fa\u010di\u0165 makr\u00e1 a osobn\u00e9 \u00fadaje.\\nMicrosoft
+  Office Open XML je norma (ISO / IEC 29500); to znamen\u00e1, \u017ee ktoko\u013evek
+  m\u00e1 pr\u00edstup k \u0161pecifik\u00e1ci\u00e1m a vytv\u00e1ra programy, ktor\u00e9
+  m\u00f4\u017eu prezera\u0165, prev\u00e1dza\u0165 a upravova\u0165 s\u00fabory PPTX.\\nVedeli
+  ste, \u017ee existuj\u00fa \u010fal\u0161ie form\u00e1ty pre prezenta\u010dn\u00e9
+  sn\u00edmky?\\nForm\u00e1t PPSX je podobn\u00fd form\u00e1tu PPTX s t\u00fdm rozdielom,
+  \u017ee zobraz\u00ed prezent\u00e1ciu priamo, zatia\u013e \u010do s\u00fabory PPTX
+  sa otvoria v re\u017eime editora. PPTM je form\u00e1t prezent\u00e1cie, ktor\u00fd
+  obsahuje pokro\u010dil\u00fa podporu pre makr\u00e1, a POTX sa venuje vytv\u00e1raniu
+  \u0161abl\u00f3n.\"", "\"Bu\u010fte pozorn\u00ed a v\u017edy sa uistite, \u017ee
+  zdie\u013eate inform\u00e1cie iba cez zabezpe\u010den\u00fa webov\u00fa str\u00e1nku
+  verejnej spr\u00e1vy SR. Zabezpe\u010den\u00e1 str\u00e1nka v\u017edy za\u010d\u00edna
+  https:// pred n\u00e1zvom dom\u00e9ny webov\u00e9ho s\u00eddla.\\nTretie strany
+  m\u00f4\u017eu predlo\u017ei\u0165 \u00faradu svoje pripomienky, n\u00e1mietky a
+  inform\u00e1cie k ozn\u00e1menej koncentr\u00e1cii.\\nProtimonopoln\u00fd \u00farad
+  Slovenskej republiky, odbor koncentr\u00e1ci\u00ed, (\u010falej len \u201e\u00farad\u201c)
+  d\u0148a 17. 01. 2023 za\u010dal spr\u00e1vne konanie vo veci koncentr\u00e1cie,
+  ktor\u00e1 pod\u013ea ozn\u00e1menia koncentr\u00e1cie spo\u010d\u00edva v nadobudnut\u00ed
+  v\u00fdlu\u010dnej kontroly podnikate\u013ea SANAGRO, a.s., Bratislava nad podnikate\u013emi
+  AGROSID, a.s., Dunajsk\u00e1 Streda a Po\u013enohospod\u00e1rske dru\u017estvo Jahodn\u00e1.\\nSektor:\\nA
+  01.1 Pestovanie netrv\u00e1cnych plod\u00edn\\nG 46.21 Ve\u013ekoobchod s obil\u00edm,
+  nespracovan\u00fdm tabakom, semenami a krmivom\\nTretie strany, teda fyzick\u00e9
+  a pr\u00e1vnick\u00e9 osoby m\u00f4\u017eu predlo\u017ei\u0165 \u00faradu svoje
+  pripomienky, n\u00e1mietky a inform\u00e1cie k ozn\u00e1men\u00fdm koncentr\u00e1ci\u00e1m.
+  \u017diadame tretie strany, aby svoje pripomienky predkladali \u00faradu \u010do
+  najsk\u00f4r po zverejnen\u00ed ozn\u00e1menia, aby sa \u00farad, vzh\u013eadom
+  na dodr\u017eiavanie z\u00e1konn\u00fdch leh\u00f4t, mohol t\u00fdmito pripomienkami
+  zaobera\u0165 v prvej f\u00e1ze posudzovania ozn\u00e1menej koncentr\u00e1cie.\\n\u0160\u00edri\u0165
+  inform\u00e1ciu\\nBoli pre V\u00e1s tieto inform\u00e1cie u\u017eito\u010dn\u00e9?\\n\u010eakujeme
+  za Va\u0161u sp\u00e4tn\u00fa v\u00e4zbu.\\n\u010eakujeme za Va\u0161u sp\u00e4tn\u00fa
+  v\u00e4zbu.\\nPom\u00f4\u017ete n\u00e1m zlep\u0161i\u0165 webov\u00e9 s\u00eddlo
+  www.antimon.gov.sk\\nAby sme vedeli zlep\u0161i\u0165 obsah na tejto str\u00e1nke,
+  chceli by sme sa dozvedie\u0165 o Va\u0161ej sk\u00fasenosti so str\u00e1nkou. Po\u0161leme
+  V\u00e1m link na formul\u00e1r sp\u00e4tnej v\u00e4zby. Jeho vyplnenie V\u00e1m
+  zaberie iba 2 min\u00faty.\"", "\"N\u00e1vnada na hlodavce Goodnature s pr\u00edchu\u0165ou
+  orechov\u00e9ho masla je \u0161peci\u00e1lne vyvinut\u00e1 na pril\u00e1kanie potkanov
+  a in\u00fdch hlodavcov. Tento produkt neobsahuje ara\u0161idy a je dod\u00e1van\u00fd
+  v praktickom 200 g s\u00e1\u010dku s uzatv\u00e1rate\u013en\u00fdm vie\u010dkom
+  pre jednoduch\u00e9 pou\u017eitie a skladovanie.\\nHlavn\u00e9 vlastnosti:\\n- Efekt\u00edvne
+  odstr\u00e1nenie: N\u00e1vnada bola \u00faspe\u0161ne pou\u017eit\u00e1 na Novom
+  Z\u00e9lande na elimin\u00e1ciu cel\u00fdch popul\u00e1ci\u00ed potkanov z pobre\u017en\u00fdch
+  a pevninsk\u00fdch ostrovov v n\u00e1rodn\u00fdch parkoch. Je rovnako efekt\u00edvna
+  v britsk\u00fdch z\u00e1hrad\u00e1ch, skladoch a in\u00fdch miestach.\\n- Vedecky
+  vyvinut\u00e9: Vytvoren\u00e1 vedcami, aby bola trvale atrakt\u00edvna pre hlodavce
+  v r\u00f4znych klimatick\u00fdch podmienkach, od tropick\u00fdch oblast\u00ed Pacifiku
+  po britsk\u00e9 podnebie.\\n- Netoxick\u00e1: Neobsahuje \u017eiadne toxick\u00e9
+  l\u00e1tky, \u010do eliminuje riziko sekund\u00e1rnej otravy dom\u00e1cich zvierat.\\n-
+  Predkrmovanie: S\u00e1\u010dok bol navrhnut\u00fd tak, aby u\u017e\u00edvatelia
+  mohli predk\u0155mi\u0165 miesta pred pou\u017eit\u00edm pasc\u00ed Goodnature A24.
+  Pravideln\u00e9 predkrmovanie zvy\u0161uje \u00fa\u010dinnos\u0165 pasc\u00ed t\u00fdm,
+  \u017ee potkany za\u010dn\u00fa pova\u017eova\u0165 n\u00e1vnadu za bezpe\u010dn\u00fa.\\n-
+  Univerz\u00e1lne pou\u017eitie: N\u00e1vnadu mo\u017eno pou\u017ei\u0165 aj v klasick\u00fdch
+  mechanick\u00fdch pasc\u00e1ch na hlodavce.\\n- Praktick\u00e9 balenie: S\u00e1\u010dok
+  s uzatv\u00e1rate\u013en\u00fdm vie\u010dkom zabezpe\u010duje jednoduch\u00e9 pou\u017eitie
+  a dlhodob\u00e9 skladovanie.\\n- Trvanlivos\u0165: N\u00e1vnada m\u00e1 trvanlivos\u0165
+  18 mesiacov, \u010do zabezpe\u010duje dlhodob\u00fa efekt\u00edvnos\u0165 a skladovate\u013enos\u0165.\\n-
+  Bezpe\u010dn\u00e1 pre alergikov: Obsahuje lieskov\u00e9 orechy, ktor\u00e9 s\u00fa
+  rovnako atrakt\u00edvne ako \u010dokol\u00e1dov\u00e1 pr\u00edchu\u0165, ale s\u00fa
+  bezpe\u010dn\u00e9 pre osoby s alergiou na ara\u0161idy.\\nN\u00e1vnada Goodnature
+  je ide\u00e1lnym rie\u0161en\u00edm pre efekt\u00edvne a bezpe\u010dn\u00e9 odstr\u00e1nenie
+  hlodavcov bez rizika pre va\u0161e dom\u00e1ce zvierat\u00e1. Pre maxim\u00e1lnu
+  \u00fa\u010dinnos\u0165 sa odpor\u00fa\u010da predkrmova\u0165 miesta pl\u00e1novan\u00e9ho
+  hubenia potkanov.\"", "\"\u010cestn\u00e1 pocta SSS Radomirovi Andri\u010dovi\\nNa
+  tohtoro\u010dnej Tatranskej liter\u00e1rnej jari, ktor\u00e1 sa konala v d\u0148och
+  11. a\u017e 14. 4. t. r. v meste Vysok\u00e9 Tatry a jeho okol\u00ed, sa z\u00fa\u010dastnil
+  aj srbsk\u00fd b\u00e1snik Radomir Andri\u0107 (* 3. 3. 1944 v dedinke \u013dubane,
+  Ljubanje, pri U\u017eiciach v Srbsku), ktor\u00fd je \u010destn\u00fd predseda Zdru\u017eenia
+  spisovate\u013eov Srbska (ZSS) a \u010destn\u00fd \u010dlen Spolku slovensk\u00fdch
+  spisovate\u013eov. Pri pr\u00edle\u017eitosti jeho v\u00fdznamn\u00e9ho okr\u00fahleho
+  jubilea mu predseda SSS Miroslav Bielik odovzdal 12. 4. t. r. v Domove slovensk\u00fdch
+  spisovate\u013eov Timrava \u010cestn\u00fa poctu SSS. Ocenenie R. Andri\u0107 z\u00edskal
+  s prihliadnut\u00edm na rozvoj dlhoro\u010dnej intenz\u00edvnej vz\u00e1jomnej spolupr\u00e1ce
+  medzi ZSS a SSS a osobitne aj vzh\u013eadom na dnes u\u017e \u00faspe\u0161n\u00fd
+  projekt Ve\u013ek\u00fd p\u00e1n Dunaj.\\nPredseda SSS Miroslav Bielik (vpravo)
+  odovzd\u00e1va \u010destn\u00fa poctu SSS\\nb\u00e1snikovi Radomirovi Andri\u0107ovi,
+  \u010destn\u00e9mu predsedovi Zdru\u017eenia spisovate\u013eov Srbska,\\npri pr\u00edle\u017eitosti
+  jeho 75. naroden\u00edn. Foto: Milan Pani\u0107\\nV\u00fdnimo\u010dn\u00fd medzin\u00e1rodn\u00fd
+  projekt Ve\u013ek\u00fd p\u00e1n Dunaj, v r\u00e1mci ktor\u00e9ho 9 podunajsk\u00fdch
+  \u0161t\u00e1tov vyd\u00e1va antol\u00f3gie po\u00e9zie klasikov o eur\u00f3pskej
+  ve\u013erieke Dunaj \u2013 v preklade do 8 jazykov \u2013 a pl\u00e1nuje vyda\u0165
+  aj antol\u00f3gie \u013eudovej slovesnosti a s\u00fa\u010dasnej po\u00e9zie na uveden\u00fa
+  t\u00e9mu, vznikol pr\u00e1ve z iniciat\u00edvy R. Andri\u0107a ako predsedu ZSS
+  (2010 a\u017e 2018) a predsedu SSS M. Bielika a zapojili sa do\u0148 spisovate\u013esk\u00e9
+  zdru\u017eenia v\u0161etk\u00fdch \u0161t\u00e1tov, ktor\u00fdmi pretek\u00e1 rieka
+  Dunaj Projekt predstavuje v\u00fdznamn\u00fd po\u010din vo vz\u00e1jomnom kult\u00farno-liter\u00e1rnom
+  spozn\u00e1van\u00ed sa podunajsk\u00fdch \u0161t\u00e1tov, prehlbovan\u00ed vz\u0165ahov
+  ich spisovate\u013esk\u00fdch organiz\u00e1ci\u00ed i pr\u00edslu\u0161n\u00edkov
+  n\u00e1rodov, ktor\u00fdm sa tak spr\u00edstup\u0148uj\u00fa klenoty klasickej po\u00e9zie
+  jednotliv\u00fdch n\u00e1rodn\u00fdch kult\u00far. Slovensk\u00e1 antol\u00f3gia
+  Ve\u013ek\u00fd p\u00e1n Dunaj (SSS, 2019) sa prezentovala pr\u00e1ve na tohtoro\u010dnej
+  TLJ 2019 vo vile Fl\u00f3ra v Starom Smokovci, kde ju uv\u00edtal pr\u00edhovorom
+  aj R. Andri\u010d.\""]'
 src_ngrams: '{"1": [[["ve\u013emi"], 21200374], [["roku"], 20134621], [["v\u00e1s"],
   16146368], [["v\u0161etky"], 15812539], [["po\u010das"], 14693747]], "2": [[["u
   n\u00e1s"], 2425575], [["napriek tomu"], 2425197], [["slovenskej republiky"], 2093232],

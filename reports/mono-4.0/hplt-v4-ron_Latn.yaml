@@ -1,4 +1,4 @@
-corpus: hplt-v4-ron
+corpus: hplt-v4-ron_Latn
 srclang: ron
 timestamp: 1789915715.5566068
 warnings: []
@@ -3837,7 +3837,753 @@ register_labels: '{"NA_ne": 34553338, "IP_ds": 21310209, "UNK": 6934571, "IN_oth
   1659549, "OP_other": 1577533, "HI_re": 1460756, "HI_other": 1267917, "OP_rs": 1218492,
   "OP_av": 1115582, "OP_rv": 973826, "IN_lt": 894856, "IN_en": 488629, "SP_it": 364192,
   "LY_other": 350440, "SP_other": 135431, "IN_ra": 29286, "IN_fi": 7440}'
-sample: hplt-v4-ron_Latn-sample
+sample: '["\"Metamfetamina mea obsedat\u0103, creatura mea iubit\u0103,\\nIubita mea,
+  studenta mea\u2026eu nu voi r\u0103m\u00e2ne l\u00e2ng\u0103 tine mai t\u00e2rziu
+  de momentul \u00een care zorii \u00ee\u0163i vor \u00eempleti diminea\u0163a pe
+  chip. Nu am s\u0103 r\u0103m\u00e2n aici s\u0103 te privesc cum cobori ca o zeitate
+  greceasc\u0103 din umbra draperiilor amanetate nop\u0163ii. Voi pleca \u00eenaintea
+  primei noastre dimine\u0163i \u00eempreun\u0103. M\u0103 voi strecura ca o n\u0103luc\u0103
+  afar\u0103 din cuibul bra\u0163elor tale, voi evada din colivia pieptului t\u0103u
+  direct \u00een inima de ghea\u0163\u0103 a buc\u0103t\u0103riei tale.\\nVroiam ca
+  pentru prima dat\u0103 c\u00e2nd suntem \u00eempreun\u0103, eu s\u0103 \u00ee\u0163i
+  g\u0103tesc. S\u0103 \u00eemi pun sufletul cheza\u015f \u015fi s\u0103 \u00eencropesc
+  ceva, orice\u2026numai pentru tine. Am reu\u015fit \u00een scurt timp ceva ce nimeni
+  dar nimeni nu a mai izbutit: am ars cafeaua, am stricat filtrul, am v\u0103rsat
+  laptele prin toata buc\u0103t\u0103ria, am t\u0103iat fructele \u00een forme necunoscute
+  nim\u0103nui iar ou\u0103le\u2026ei bine, ou\u0103le au c\u0103p\u0103tat un sens
+  nemai\u00eent\u00e2lnit.\\nCe era de f\u0103cut? \u015etiu c\u0103 iube\u015fti
+  s\u0103 ai mereu vasele sp\u0103late, dar eu unul (sincer) ur\u0103sc tigaia aia
+  a ta! Tigaia aia nenorocit\u0103! O ur\u0103sc pentru c\u0103 nu se poate sp\u0103la.
+  \u015ei mereu, dar mereu, Eu trebuie s\u0103 o sp\u0103l. \u00cens\u0103 de aceast\u0103
+  dat\u0103,chiar \u015fi tigaia a c\u0103p\u0103tat un suflet ars. Singura \u015fans\u0103,
+  de a o elibera pe ea \u015fi de a te mul\u0163umi pe tine era s\u0103 o arunc. O
+  decizie cu adev\u0103rat grea, dar trebuie s\u0103 fie cineva \u00een aceast\u0103
+  \u00eenc\u0103pere capabil s\u0103 o fac\u0103. Totu\u015fi crima nu se putea produce
+  chiar \u00een interiorul cuibului t\u0103u de cle\u015ftar. Simplitatea \u015fi
+  frumuse\u0163ea casei tale nu puteau fi p\u0103tate cu o a\u015fa amintire. A\u015fa
+  c\u0103 eu, cavaler de sticl\u0103 al luptei tale \u00eempotriva aragazului \u015fi
+  a propriei persoane, trebuia s\u0103 iau \u00een m\u00e2inile mele problema. R\u0103ul
+  trebuia t\u0103iat din r\u0103d\u0103cini! Pardesiul m\u0103 a\u015ftepta t\u0103cut,
+  complice al aventurilor mele \u015fi evad\u0103rilor subtile. \u00cen\u0163eleg\u00e2ndu-ne
+  parc\u0103, protagoni\u015fti ai aceluia\u015fi roman,am p\u0103r\u0103sit \u00een
+  cea mai mare lini\u015fte micul t\u0103u apartament.\\nTigaia a fost \u00eemnorm\u00e2ntat\u0103
+  cu surle \u015fi tr\u00e2mbi\u0163e \u00een tomberonul de la col\u0163ul blocului
+  t\u0103u, \u00eentr-o atmosfer\u0103 \u00eenmiresmat\u0103 de parfumul unui Cocolino
+  de ciocolat\u0103 \u015fi\u2026ment\u0103. Cred. At\u00e2t. F\u0103r\u0103 prea
+  multe cuvinte. Evident, f\u0103r\u0103 regrete inutile.\\nAcum o singur\u0103 problem\u0103
+  ar mai trebui rezolvat\u0103: ce \u00eei voi d\u0103rui frumoasei mele studente
+  obsesiv-compulsiv\u0103 ca mic dejun? Brio\u015fe? O cafea? Nu \u015ftiu cum se
+  nimere\u015fte, poate chiar acolo undeva exist\u0103 cineva c\u0103ruia \u00eei
+  place s\u0103 m\u0103 aduc\u0103 \u00een situa\u0163ii f\u0103r\u0103 ie\u015fire.
+  Brio\u015fe nu puteam g\u0103si nic\u0103ieri. De preparat singur nici nu putea
+  fi vorba. Nu puteam risca s\u0103 stric altceva. Problema cafelei\u2026nu o putea
+  rezolva dec\u00e2t benzin\u0103ria din cap\u0103tul str\u0103zii. Acolo..pierdut
+  printre at\u00e2tea g\u00e2nduri \u015fi planuri practic inutile, chiar l\u00e2ng\u0103
+  morm\u00e2ntul tig\u0103ii tale \u2026.m-a fulgerat! Am avut o revela\u0163ie! Voi
+  g\u0103ti ceva, pentru tine, ceva s\u0103n\u0103tos \u015fi plin de savoare. \u00ce\u0163i
+  voi \u00eenc\u00e2nta papilele, \u00ee\u0163i voi d\u0103rui una dintre cele mai
+  frumoase dimine\u0163i, iar eu \u00eemi voi pava drumul c\u0103tre inima ta cu mult\u0103
+  apreciere.\\nAm decis! \u00ce\u0163i voi face un suc din fructe proaspete! Pu\u0163ine
+  mere, struguri, un mango, rodii. Sau poate unul din legume: morcovi, sfecl\u0103
+  ro\u0219ie, ridiche \u2026orice! Sau a\u015f putea folosi pu\u0163in lapte de soia
+  \u015fi migdale. Totul! Tocmai am realizat c\u0103 buc\u0103t\u0103ria ta este templul
+  unui zeu al sucului de fructe: Hurom( chiar \u015fi numele s\u0103u pare desprins
+  din legendele grece\u015fti). \u00cemi amintesc c\u0103 mi-ai povestit cum l-ai
+  cump\u0103rat: de la un magazin online. C\u0103utai ceva care s\u0103 te mul\u0163umeasc\u0103
+  \u00een totalitate, \u0163in\u00e2nd cont c\u0103 ai un curaj neobi\u015fnuit \u00een
+  materie de experimente \u00een realizarea sucurilor de fructe \u015fi nu numai.\\nA\u015fadar\u2026
+  ai ales un storc\u0103tor de fructe care prezint\u0103 o tehnologie cel pu\u0163in
+  remarcabil\u0103. Este vorba despre sistemului patentat Slow Squeezing System, un
+  nou sistem inovator de stoarcere f\u0103r\u0103 frecarea \u015fi \u00eenc\u0103lzirea
+  sucului la viteze mari, fara aerarea sucului ci doar prin presare la rece la viteza
+  mic\u0103, reu\u015findu-se prin aceast\u0103 nou\u0103 tehnologie o stoarcere natural\u0103,
+  maximizarea cantit\u0103\u0163ii de suc, cu p\u0103strarea culorii \u015fi a gustului
+  natural. Ce s\u0103 mai spun despre el? Are o putere de 150W, 70 de rota\u0163ii
+  pe minut \u015fi o carcas\u0103 de inox.Pe mine m-au convins! Oricum\u2026pentru
+  tine detaliile astea tehnice nu prea conteaz\u0103. Te \u015ftiu prea bine, iubito.
+  Pe tine te-a atras design-ul s\u0103u. Argintiu, decupat din pove\u015fti( a\u015fa
+  cum \u00ee\u0163i place s\u0103 \u00eel descrii) te-a cucerit chiar din primul moment.
+  La \u00eenceput ai fost pu\u0163in reticent\u0103 \u00eens\u0103 \u00een momentul
+  \u00een care l-ai avut \u00een casa ta ai realizat c\u0103 este exact ce \u00ee\u0163i
+  dore\u015fti.\\nIubita mea, \u0163i-am v\u0103zut chipul \u00een momentul \u00een
+  care ai descoperit c\u0103 po\u0163i face cu ajutorul lui nu numai suc de fructe
+  \u015fi legume ci \u015fi de frunze, iarb\u0103 de gr\u00e2u, germeni \u015fi r\u0103d\u0103cinoase.
+  De fapt\u2026puteai visa \u015fi creativitatea ta o putea lua la galop. Asta este
+  ceea ce \u0163i-ai dorit cu adev\u0103rat.\\nA\u015fadar\u2026\u00een diminea\u0163a
+  asta mi-am g\u0103sit aliatul! Storc\u0103torul cu presare la rece mi-a oferit nu
+  numai \u015fansa de a crea un mic dejun s\u0103n\u0103tos ci m-a ajutat s\u0103
+  aduc pe chipul t\u0103u proasp\u0103t rupt din parfumul nop\u0163ii un z\u00e2mbet
+  minunat. A\u015fa c\u0103, f\u0103r\u0103 team\u0103 \u015fi \u00eenarmat cu mult\u0103
+  creativitate am \u00eenceput s\u0103 amestec migdale cu struguri, rodii cu mango,
+  morcovi cu mere. Buc\u0103t\u0103ria a fost acaparat\u0103 de o mireasm\u0103 parc\u0103
+  adus\u0103 din rai. Nu \u015ftiu exact dac\u0103 storc\u0103torul \u0103sta este
+  cornul abunden\u0163ei, dar este cu siguran\u0163\u0103 salvarea \u00eendr\u0103gosti\u0163ilor
+  ce se lupt\u0103 zilnic cu tig\u0103ile \u015fi mic dejun-urile anoste.\\nExact
+  c\u00e2nd am terminat,ai sosit ademenit\u0103 parc\u0103 de prezen\u0163a mea \u00een
+  mijlocul acelui v\u00e2rtej de perfec\u0163iune \u015fi s\u0103n\u0103tate pur\u0103.
+  Aveai ochii \u0103ia plini de dorin\u0163\u0103, ochii aceia de bestie n\u0103scut\u0103
+  sub limba mea \u00een timp ce priveai t\u0103cut\u0103 din pragul camerei. Nu \u00ee\u0163i
+  sim\u0163eam prezen\u0163a \u00een spatele meu, nu sim\u0163eam izvorul de v\u0103paie
+  din ochi. M\u0103 coboram t\u0103cut \u00een abisul pe care trupul meu \u00eel cerea
+  atunci. \u00cens\u0103 \u00een momentul \u00een care trupul meu t\u00e2njea mai
+  mult dup\u0103 atingerile tale, atunci m-ai \u00eembr\u0103\u0163i\u015fat a\u015fa
+  cum un leu \u00ee\u015fi prinde hrana, cu poft\u0103, cu dorin\u0163\u0103\u2026\\nEram
+  stupefiat, speriat chiar. Deodat\u0103 \u2026\u00eentreaga mea dimensiune s-a spulberat.
+  \u015ei este de \u00een\u0163eles de ce: erai prezent\u0103,chiar l\u00e2ng\u0103
+  mine, \u00eens\u0103 erai a\u015fa cum te creionasem eu, numai o imagine de abur
+  \u015fi dorin\u0163\u0103. Era minunat! Era locul perfect \u00een care s\u0103 m\u0103
+  refugiez atunci c\u00e2nd \u00ee\u0163i sim\u0163eam lipsa suficient de mult. Imediat
+  ce m-ai \u00eembr\u0103\u0163i\u015fat \u0163i-am sim\u0163it toracele cum se mi\u015fc\u0103
+  sacadat \u015fi to\u0163i mu\u015fchii \u00eencorda\u0163i, de parc\u0103 vroiai
+  s\u0103 r\u0103m\u00e2nem mereu prizonierii acelei \u00eembr\u0103\u0163i\u015f\u0103ri.\\n\u2013
+  Mi-ai lipsit at\u00e2t de mult salamandra mea, mi-ai \u015foptit ca o zei\u0163\u0103
+  \u00een timp ce bra\u0163ele tale m\u0103 cuprindeau ca \u00eentr-o cu\u015fc\u0103
+  din care nu vroiam s\u0103 evadez vreodat\u0103. Hmm\u2026miroase at\u00e2t de bine!\\nA\u015fadar\u2026acesta
+  este remediul nostru contra unei dimine\u0163i crude prin mitul trezirii la realitate.
+  Noi ne amestec\u0103m cu mirosul de suc proasp\u0103t \u015fi o iubire de nep\u0103truns.
+  Cred c\u0103 la urma urmei storcatoarele Hurom sunt cele care m-au salvat \u00een
+  acea diminea\u0163\u0103! \u00cendr\u0103gostit\u0103 de surpriza mea, ai neglijat
+  lipsa tig\u0103ii tale mult iubite, oferindu-mi timp s\u0103 o \u00eenlocuiesc cu
+  una\u2026mai frumoas\u0103 \u015fi mai u\u015for de cur\u0103\u0163at. \u00cens\u0103
+  asta\u2026este o poveste care r\u0103m\u00e2ne pe alt\u0103 dat\u0103.\\nBun\u0103
+  diminea\u0163a!\\nfrumos!\\nMultumesc!\\ntie nu mie\\nMie? De ce?:)\\nca nu e autorul:)\\nimi
+  place povestea ta\u2026 buna dimineata \ud83d\ude09\\nBun\u0103 diminea\u0163a!
+  Sper c\u0103 \u0163i-am adus un z\u00e2mbet pe ziua de azi:)\"", "\"To\u021bi ru\u0219ii
+  responsabili pentru r\u0103zboiul lansat de Kremlin? Asta \u00eel \u00eentreab\u0103
+  un jurnalist rus din exil pe un avocat, la fel, de na\u021bionalitate rus\u0103,
+  specializat \u00een dreptul interna\u021bional. Potrivit juristulului, \u00eentr-un
+  stat precum e Rusia, cet\u0103\u021benii nu de\u021bin o putere real\u0103. Dezbaterea
+  a fost lansat\u0103 \u00een cadrul unui interviu realizat de Novaya Gazeta Europe,
+  publica\u021bie de opozi\u021bie, aflat\u0103 \u00een exil.\\n\u00cen prezent, \u00een
+  Uniunea European\u0103 se discut\u0103 al \u0219aptelea pachet de sanc\u021biuni
+  \u00eempotriva Federa\u021biei Ruse, documentul incluz\u00e2nd m\u0103suri dure
+  pentru cet\u0103\u021benii acestei \u021b\u0103ri. \u00cencetarea emiterii vizelor
+  Schengen pentru ru\u0219i este una dintre restric\u021biile aflate \u00een dezbatere.\\nCel
+  mai frecvent motiv invocat de sus\u021bin\u0103torii embargoului este acela c\u0103,
+  pe baza sondajelor, aproape 80% din ru\u0219i sus\u021bin r\u0103zboiul, deci ar
+  putea prezenta o amenin\u021bare \u00een str\u0103in\u0103tate.\\nTotu\u0219i, avocatul
+  specializat \u00een drept interna\u021bional Gleb Bogu\u0219, consider\u0103 c\u0103
+  dac\u0103 \u201edecidem c\u0103 sondajele sunt de \u00eencredere, ne putem uita
+  la c\u00e2\u021bi oameni sus\u021bin partidul lui Putin, Rusia Unit\u0103\u201d.\\nRezultatele
+  unui sondaj efectuat \u00een luna iunie 2022 au ar\u0103tat c\u0103 doar 42% din
+  cet\u0103\u021benii Rusiei ar fi votat cu Rusia Unit\u0103. Circa 20% dintre participan\u021bi
+  au spus c\u0103 nu s-ar prezenta la vot.\\nPentru cele mai importante \u0219tiri,
+  aboneaz\u0103-te la canalul nostru de TELEGRAM!\\nBogu\u0219 spune c\u0103 asoptarea
+  m\u0103surii de pedepsire comun\u0103 a ru\u0219ilor ar \u00eensemna o \u201e\u00eenc\u0103lcare
+  a dreptului interna\u021bional\u201d.\\nPotrivit avocatului, sus\u021bin\u0103torii
+  sanc\u021biunilor par s\u0103 aib\u0103 standarde duble. Pe de o parte, e corect
+  s\u0103 pedepseasc\u0103 crimele de r\u0103zboi. Pe de alt\u0103 parte, \u021b\u0103rile
+  care azi se g\u00e2ndesc la interzicerea accesului ru\u0219ilor \u00een Europa,
+  \u00eentre\u021bineau rela\u021bii economice profitabile cu statul condus de Putin,
+  \u00een timp ce Rusia \u00eenc\u0103lca drepturile propriilor cet\u0103\u021beni
+  timp de decenii.\\n\u201eAcelea\u0219i state care vorbesc prin politicienii lor
+  despre responsabilitatea colectiv\u0103 a ru\u0219ilor au condamnat practica alegerilor
+  din Rusia. Acestea au spus c\u0103 alegerile nu au fost corecte \u0219i libere timp
+  de mul\u021bi ani. Iar acum spun c\u0103 ru\u0219ii i-au ales pe ace\u0219ti oameni?\u201d.\\nRestric\u021bia
+  propus\u0103 are la baz\u0103 conceptul de responsabilitate colectiv\u0103, care,
+  sus\u021bine avocatul, nu se poate aplica \u00een aceast\u0103 instan\u021b\u0103,
+  deoarece \u201ecet\u0103\u021benia nu e rezultatul unei alegeri libere\u201d. \u00cen
+  special \u00eentr-un stat ca Rusia, cet\u0103\u021benii nu au responsabilitate,
+  pentru c\u0103 nu au niciun control real pentru ac\u021biunile regimului s\u0103u.\\nJuristul
+  aduce drept exemplu crimele comise de nazi\u0219ti.\\n\u201eLa Nurenberg nu au fost
+  judecate firmele care au colaborat cu nazi\u0219tii \u0219i nici m\u0103car Wehrmacht-ul,
+  ca armat\u0103, ci autorii efectivi ai crimelor\u201d, conchide Gleb Bogu\u0219.\"",
+  "\"Corona Bra\u0219ov a c\u00e2\u0219tigat cele dou\u0103 partide jucate la Tg.
+  Secuiesc cu Steaua Bucure\u0219ti \u00een Liga Na\u021bional\u0103 de hochei pe
+  ghea\u021b\u0103.\\nLuni, \u201elupii\u201d s-au impus cu 5-1 (Tendler 2, Borysenko,
+  Zoltan Molnar, Gliga / Zadoienko), pentru ca mar\u021bi scorul s\u0103 fie \u0219i
+  mai mare, 9-1 (Borysenko 3, Zsombor Molnar, Zsok, Carlson, Peretyagin, Zoltan Molnar,
+  Gergo Biro / Grigori).\\n\u00cen clasamentul Ligii Na\u021bionale, Corona ocup\u0103
+  locul secund, cu 27 p, la o lungime \u00een spatele liderului Sport Club Miercurea
+  Ciuc, care are, \u00eens\u0103, \u0219i un meci \u00een minus.\\nFOTO: Arhiv\u0103\"",
+  "\"La capitolul desene cu drumuri \u015fi autostr\u0103zi, de-a lungul vremii, guvernele
+  Rom\u00e2niei au stat foarte bine. Suntem printre primele \u0163\u0103ri din Europa
+  la capitolul autostr\u0103zi pe h\u00e2rtie. Avem studii, SF-uri \u015fi mul\u0163i
+  bani cheltui\u0163i pe h\u0103r\u0163i \u015fi desene \u00een power-point. Cu ocazia
+  zilei Unirii Principatelor, politicienii de frunte s-au bulucit la Ia\u015fi cu
+  cocarde tricolore [\u2026]\\n\u00centocmai ca \u00een celebra scen\u0103 din Cuibul
+  de viespi \u00een care Dinic\u0103 cheam\u0103 l\u0103utarii s\u0103 c\u00e2nte
+  \u00een cavou, judec\u0103torii de la Curtea Constitu\u0163ional\u0103 au pus-o
+  de-un parastas cu l\u0103utari \u00een amintirea referendumului. Le-au luat vreo
+  13 ore ca s\u0103-\u015fi dea seama c\u0103, \u00een aritmetica de pe D\u00e2mbovi\u0163a,
+  46,24 este, uneori, mai mare dec\u00e2t 50 plus [\u2026]\"", "\"Pentru 5200 de copii\\nPe
+  parcursul \u00eentregii perioade, 90 de elevi din cele 22 de \u015fcoli din municipiul
+  Arad au fost implica\u0163i, sf\u0103tui\u0163i \u015fi instrui\u0163i, iar ace\u015ftia,
+  la r\u00e2ndul lor, vor preda cuno\u015ftin\u0163ele acumulate celor 5200 de copii,
+  colegi de clas\u0103 sau de \u015fcoal\u0103. Campania a fost lansat\u0103 pe 8
+  octombrie, la Liceul Sabin Dr\u0103goi, \u015fi este \u00eemp\u0103r\u021bit\u0103
+  \u00een patru module. Cele patru module sunt: Cum p\u0103str\u0103m inima s\u0103n\u0103toas\u0103
+  \u2013 \u00een care elevii au \u00eenv\u0103\u021bat rolul inimii, forma ei, structura
+  \u0219i cum s\u0103 aib\u0103 grij\u0103 de ea; Micii eroi salveaz\u0103 vie\u021bi
+  \u2013 \u00een care cei mici au \u00eenv\u0103\u021bat principiile de baz\u0103
+  pentru a acorda primul ajutor; Alimente prietene \u2013 unde elevii au \u00eenv\u0103\u021bat
+  ce \u00eenseamn\u0103 un stil de via\u021b\u0103 s\u0103n\u0103tos, bolile cardiovasculare
+  \u0219i principiile generale ale unei alimenta\u021bii s\u0103n\u0103toase; Dreptul
+  la s\u0103n\u0103tate \u2013 \u00een care tinerii au \u00eenv\u0103\u021bat c\u0103
+  un copil are drepturi dar \u0219i responsabilit\u0103\u021bi.\\nCele mai multe decese\\n\u201eEducarea
+  copiilor este un lucru extraordinar deoarece ace\u0219ti copii informa\u021bi se
+  vor transforma \u00een adul\u021bi mult mai pu\u021bin expu\u0219i riscului de boal\u0103
+  cardiovascular\u0103. Avem un exemplu excep\u021bional \u00een Spania, unde educa\u021bia
+  cardiologic\u0103 au \u00eenceput-o de la gr\u0103dini\u021b\u0103, copiii fiind
+  \u00eemp\u0103r\u021bi\u021bi pe grupe de v\u00e2rst\u0103. Au realizat programe
+  de informare adaptate capacit\u0103\u021bii de \u00een\u021belegere pentru fiecare
+  grup\u0103 de v\u00e2rst\u0103. Toate \u021b\u0103rile au de \u00eenv\u0103\u021bat
+  din acest program. Noi nu trebuie s\u0103 facem excep\u021bie deoarece \u021bara
+  noastr\u0103, din p\u0103cate, \u00een contextul european, are cea mai mult\u0103
+  \u00eenc\u0103rc\u0103tur\u0103 de boal\u0103 cardiovascular\u0103 \u0219i de decese
+  cardiovasculare\u201d, a declarat doctorul Cristian Din\u0103, membru al Comisiei
+  Consultative din cadrul CJA.\"", "\"Sa avem grija cui ii oferim un loc in sufletul
+  nostru\\nSa avem grija cui ii oferim un loc in sufletul nostru - Sugubat.ro are
+  cele mai bune poze cu mesaje, imagini cu texte, statusuri, poze pentru facebook
+  pe care le gasesti pe internet. (Vezi tot)\\nCele 5 secrete care te vor propulsa
+  rapid pe drumul catre prosperitate.\\nAcces INSTANTANEU & GRATUIT, la ghid \u00een
+  format MP3, PDF si Kindle.\\nMi-e scarba de oamenii lasi\\nMi-e scarba de oamenii
+  lasi - Sugubat.ro are cele mai bune poze cu mesaje, imagini cu texte, statusuri,
+  poze pentru facebook pe care le gasesti pe internet. (Vezi tot)\\nHolborn Books
+  - Make Money Onlne Creating & Selling Books\\nSee related links to what you are
+  looking for.\"", "\"Esti pregatit? Atunci hai drum, dar ai grija, nu e o calatorie
+  obisnuita! Ia un loc langa Amanda...este in pericol... mare pericol. In Las Vegas
+  ea si iubitul ei Alan au \u201eimprumutat\u201d bani de la seful ei, acum au o datorie
+  de 250.000 $ si sunt urmariti de mafie.Ce sa faca acum? Se intoarce la singura ei
+  speranta, dragul ei bunic bogat, Nathan Tucker. Batranul o va scoate cu siguranta
+  din bucluc, nu-i asa? Ei bine, nu chiar! Bunicul se dovedeste a fi un om abil, plin
+  de bunatate si compasiune. Cu o inima slaba, dar cu o credinta puternica in Dumnezeu,
+  batranul Tucker intuieste planul Amandei. Mai mult, el are propriul plan si ii propune
+  nepoatei lui o afacere. Astfel, iat-o in drum spre Lacul Redemption, o destinatie
+  care nu se regaseste pe harta, alaturi de bunicul ei.\\nTitlu: Drumul spre Redemption
+  \u2013 Film artistic\\nTitlu original: Road to Redemption\\nDurata: 01:30:00\\nProducator:
+  World Wide Pictures\\nRegie: Robert Vernon\\nActori: Pat Hingle (Grandpa Nathan
+  Tucker), Julie Condra (Amanda Tucker), Johnny Meyer (Cop)\"", "\"Se pare c\u0103,
+  \u00eencet-\u00eencet moda selfie-urilor a \u00eenceput s\u0103 apun\u0103 sau s\u0103
+  \u00ee\u015fi pierd\u0103 din importan\u021b\u0103. \u00cen ultimul timp, vedetele
+  au lansat o nou\u0103 mod\u0103 \u00een materie de fotografii, care prinde foarte
+  bine. Este vorba de [...]\\nAdelina Pestri\u021bu este deja una dintre femeile din
+  Rom\u00e2nia care fac bani din imaginea sa, astfel c\u0103 lucreaz\u0103 foarte
+  mult la aspectul fizic. \u00cens\u0103, pentru a avea succes, trebuie s\u0103 interac\u021bioneze
+  foarte mult \u015fi cu fanii ei de pe re\u021belele [...]\\nO fotografie cu un poli\u0163ist
+  din Noua Zeeland\u0103 face \u00eenconjurul lumii, dup\u0103 ce omul legii a f\u0103cut
+  un gest mai mult dec\u00e2t amuzant \u00een timpul unei ac\u0163iuni de prindere
+  a unui suspect. \u00cen timp ce voia s\u0103 \u00eendrepte arma asupra [...]\\nO
+  fotografie incredibil\u0103 a fost realizat\u0103 de un client al unul restaurant
+  McDonald''s din apropiere de Quebec (Canada). Un client s-a dus s\u0103 fac\u0103
+  o comand\u0103 la McDrive, c\u0103lare pe un cal. V\u00e2nz\u0103torul a r\u0103mas
+  ca la dentist, iar ceilal\u0163i clien\u0163i nu [...]\\nLa 55 de ani, Nadia Com\u0103neci
+  nu uit\u0103 s\u0103 treac\u0103 pe la sal\u0103 nici c\u00e2nd pleac\u0103 \u00een
+  c\u0103l\u0103torii. A\u0219a s-a \u00eent\u00e2mplat \u0219i \u00een capitala Spaniei,
+  unde legendara campioan\u0103 olimpic\u0103 a fost atras\u0103 de Mutua Madrid Open,
+  turneul de tenis [...]\\nDe cur\u00e2nd a ap\u0103rut o fotografie pe internet care
+  \u00ee\u0163i pune serios ochii \u015fi aten\u0163ia la \u00eencercare. Printre
+  frunze \u015fi vreascuri se afl\u0103 un \u015farpe, \u00eens\u0103 foarte pu\u0163ini
+  oameni reu\u015fesc s\u0103 vad\u0103 din prima unde se afl\u0103 reptila. \u015earpele
+  [...]\\nDoi fotografi au documentat, \u00een ultimii doi ani, toate turneele de
+  oin\u0103 care au avut loc \u00een Rom\u00e2nia Bogdan Boghi\u021boi \u0219i Sorin
+  Vidi\u0219 au ajuns at\u00e2t la meciuri oficiale, c\u00e2t \u0219i la partide jucate
+  la sat. Au f\u0103cut 2.000 de [...]\\nC\u00e2nd ar\u0103\u021bi bine, aproape c\u0103
+  nu mai conteaz\u0103 ce e \u00een jurul t\u0103u. A\u0219a s-a g\u00e2ndit \u0219i
+  o tip\u0103 frumoas\u0103 care nu a mai \u021binut cont de modul \u00een care ar\u0103ta
+  camera ei c\u00e2nd \u0219i-a f\u0103cut un selfie. Chiar dac\u0103 \u00een oglind\u0103
+  ar\u0103ta [...]\\nO fotografie realizat\u0103 de \u0219ase prietene \u00eentr-un
+  bar s-a transformat \u00eentr-o mare dilem\u0103. \u00cen imagine se poate vedea
+  cu ochiul liber c\u0103 sunt \u0219ase fete, \u00eens\u0103 ciud\u0103\u021benia
+  apare atunci c\u00e2nd te ui\u021bi \u0219a picioarele lor: apar [...]\\nInna vrea
+  s\u0103 demonstreze, chiar \u0219i atunci c\u00e2nd este departe de cas\u0103, c\u0103
+  iube\u0219te Rom\u00e2nia.De Ziua Na\u021bional\u0103 a postat o fotografie \u00een
+  care apare \u00eembr\u0103cat\u0103 \u00een ie.Bine\u00een\u021beles, artista a
+  purtat ia \u00een stilul-i [...]\\nFiltreaza cele 64 de rezultate ale cautarii dupa
+  urmatoarele filtre:\"", "\"Huse de protectie pentru praf, ploaie, vant, la comanda,
+  conform dimensiunilor primite.\\nHusele sunt ideale pentru protectia articolelor
+  de mobilier: canapea, fotolii, scaune, mese.\\nHusele se pot folosi atat in interior
+  (camere, garaj, depozit, subsol), cat si la exterior (terasa, foisor).\\nTesatura
+  este rezistenta la praf, hidrofoba \u2013 rezistenta la stropire (apa nu trebuie
+  sa balteasca pe husa, poate trece). Disponibila in mai multe culori.\\nPoate sta
+  in ploaie, vant, dar in soare direct se recomanda sa stea in mod ocazional pentru
+  o durata de viata cat mai lunga (razele UV in timp afecteaza tesaturile si stratul
+  de impermeabilizare).\\nOptional se pot realiza cu snur de strangere jos, daca se
+  folosesc la exterior \u2013 pentru zilele cu vant puternic.\\nPentru comanda ne
+  sunt necesare dimensiunile conform schitei:\\n- Masurati exact cu ruleta sau metrul,
+  apoi recomadam sa adaugati cativa centimetri (1-3) la latime, pe fiecare latura
+  pentru a fi sigur ca husa va incape cu usurinta peste articolul protejat\\n- Selectati
+  culoarea\\n- Selectati cu sau fara snur strangere la baza\\n- Daca optati pentru
+  snur de strangere jos, luati in calcul si varianta (posibilitatea) in care inaltimea
+  husei sa fie mai mare cu 3-4 cm, astfel incat cand strangeti snurul, marginile de
+  jos ale husei sa intre sub articolul protejat, pentru a sta ermetic. Aceasta tip
+  este recomandat daca piesele de mobilier stau in zone cu vant, sa nu fie desfacuta
+  husa protectie\\nNota: tesatura are latime cca 150 cm. La huse de dimensiuni mari
+  pot aparea elemente innadite.\\nHUSELE SE EXECUTA DOAR LA COMANDA SI TREBUIE ACHITATE
+  IN AVANS!\\nTesaturile se taie si se cos la comanda clientului, nu se pot returna!\\nPretul
+  este pentru 1 bucata.\\nInstructiuni de intretinere:\\n- Spalare la maxim 40 grade\\n-
+  Se calca la temperaturi cat mai scazute\\n- Se calca pe fata ce nu are membrana
+  de impermeabilizare\\n- Nu se curata chimic\\nA nu se amplasa langa surse de caldura:
+  gratar, sobe, semineu, surse foc! Husele pentru gratar sau sobe se pot monta doar
+  dupa ce respectivul obiect s-a racit complet!\\nAtentie: culorile pot diferi in
+  functie de setarile monitorului. Puteti solicita mostra pentru a putea vedea tesatura
+  sau culoarea cu exactitate. Mostra este gratuita, clientul achita taxa de transport.\\nRecenzii\\nNu
+  exist\u0103 recenzii p\u00e2n\u0103 acum.\"", "\"Detalii incredibile si revoltatoare,
+  referitoare la afacerile din jurul \u201emuribundului\u201d Fortus SA, la care statul
+  este actionar majoritar. S-a ajuns pina acolo incit unele firme vindeau dinainte
+  utilaje ce urmau sa fie cumparate la licitatie de la Fortus. \u201eZiarul de Iasi\u201d
+  a intrat in dedesubturile unei astfel de licitatii, de aproape 2 milioane euro,
+  organizata in noiembrie 2010. In total au fost semnate patru contracte intre Mereva
+  Tools Piatra Neamt, in calitate de vinzator, si Seralex Dej, in calitate de cumparator,
+  ultima firma fiind din acelasi judet cu administratorul judiciar al combinatului
+  . Culmea: trei dintre ele s-au semnat inainte de licitatie.\\nLicitatia prin care
+  administratorii judiciari de la Fortus au vindut utilaje in valoare de 1,87 de milioane
+  de euro are increngaturi ciudate. Pe linga faptul ca organizarea vinzarii este contestata
+  atit de creditorul principal, cit si de actionarii firmei, afacerea ridica si alte
+  semne de intrebare. \u00abZiarul de Iasi\u00bb a reusit sa intre in posesia unor
+  documente care arata cum s-au plimbat, in acte, la mai multe firme, utilajele combinatului.
+  Interesant este ca o serie de utilaje de la Fortus SA au facut obiectul unui contract
+  de vinzare chiar inainte ca una din firmele care a cistigat licitatia sa participe
+  la actiunea de vinzare. Cum a fost posibil sa se intimple asa ceva? Cititi in rindurile
+  de mai jos despre jongleriile cu bunurile combinatului iesean.\\nInceputurile afacerii\\nIn
+  luna noiembrie 2010, Casa de Insolventa Transilvania (CITR) Cluj Napoca si Sigma
+  IPURL Iasi, administratorii judiciari ai combinatului, au scos la vinzare doua pachete
+  de utilaje. La licitatie, desi s-au prezentat opt societati, bunurile au fost adjudecate,
+  din prima, de doua: Mereva Tools din Piatra Neamt si Colet Metal din Iasi. Prima
+  a luat pachetul cel mai consistent, in valoare de 1,42 milioane euro, iar cea de
+  a doua, pe cel de 450.000 euro. Conform site-ului Ministerului de Finante, firma
+  din Neamt a fost infiintata pe data de 3 noiembrie, deci cu doua saptamini inainte
+  de licitatie. Mereva Tools are doi actionari: Florin Braescu, care detine 25%, si
+  Tudor Cristian Hodis (75%), un tinar in virsta de 21 de ani. Braescu este si administratorul
+  societatii.\\nCircuitul utilajelor\\nInainte de licitatie, mai exact pe 11 noiembrie
+  2010 \u2013 cu o saptamina inainte -, Mereva Tools, in calitate de vinzator, incheie
+  un contract de vinzare-cumparare cu societatea Seralex Dej (judetul Cluj), in calitate
+  de cumparator. La firma din urma asociat unic si administrator este Sebastian Precup.
+  \u201ePrezentul contract are ca obiect vinzarea (respectiv) cumpararea de utilaje,
+  instalatii, dispozitive, dotari auxiliare, obiective de inventar si deseuri metalice
+  din cele care vor fi proprietatea vinzatorului, in urma licitatiei din data de 18.11.2010
+  la SC Fortus SA Iasi. Cumparatorul va sustine financiar vinzatorul cu suma de 117.000
+  de euro la cursul de 4,2839 de RON/EUR pentru acoperirea partiala a unei garantii
+  de participare la licitatie\u201c, se arata in contractul incheiat intre cele doua
+  parti. Pe 13 decembrie, tot inainte de licitatie, un nou contract este incheiat
+  intre cele doua parti, de aceasta data obiectul contractului fiind vinzarea a 1.000
+  de deseuri feroase de la Fortus SA, la pretul de 1.000 de lei tona. O zi mai tirziu,
+  pe 14 decembrie, contractul cu numarul trei, semnat intre Mereva Tools Piatra Neamt
+  si Seralex Cluj, presupunea vinzarea de bunuri ce au apartinut combinatului Fortus,
+  in valoare totala de 2,2 milioane de lei. Ultimul contract dintre parti a fost incheiat
+  pe data de 10 ianuarie 2011, este in valoare de 1,55 milioane lei si viza achizitia
+  de masini si utilaje. Adunind valorile din contracte rezulta o suma de 1,2 milioane
+  de euro. Contactat telefonic, Radu Lotrean, asociat coordonator la Casa de Insolventa
+  Transilvania, nu a vrut sa precizeze data la care Mereva Tools a devenit proprietara
+  urilajelor de la Fortus SA. Insa, in joc mai sint inca doua contracte. De data aceasta
+  sint incheiate intre Seralex si Remat Iasi si prevad achizitia de catre firma ieseana
+  a 1.750 si respectiv 1.000 tone de deseuri de fier vechi detinute de societatea
+  din judetul Cluj la combinatul de utilaj greu.\\nExplicatii putine\\n\u201cZiarul
+  de Iasi\u201d a incercat sa desluseasca traseul cel putin ciudat al utilajelor vindute
+  la licitatia de la Fortus SA. \u201eNu am participat la licitatie pentru ca nu am
+  avut banii necesari la momentul respectiv. Am cumparat mai mult fier vechi de la
+  Mereva Tools si apoi am mai luat si niste utilaje. Acei 117.000 de euro au fost
+  un avans. Am luat fierul vechi si l-am vindut mai departe mai scump\u201c, a precizat
+  Precup. Intrebat cum a ajuns sa vinda fierul vechi tocmai la Remat Iasi, acesta
+  a pus capat discutiei: \u201eHaideti, ca deja ma trageti de limba. Ei mi-au oferit
+  un pret bun si l-am dat. Multumesc. La revedere\u201c. Cum a ajuns Mereva Tools
+  sa faca afaceri cu Seralex din Cluj? \u201ePrin asociatul meu, Tudor Hodis. Domnul
+  Hodis il cunoaste pe domnul Precup. Doar stiti cum este in afaceri: conteaza foarte
+  mult cine cu cine se cunoaste. Am preferat sa lucram cu ei pentru ca ei sint specializati
+  in fier vechi si deseuri. Noi am vindut utilajele casate si am pastrat o parte foarte
+  mica, care mai erau functionale. Cea mai mare parte din bunurile cumparate erau
+  vandalizate, desfacute, incomplete, distruse\u201c, a precizat Florin Braescu, administratorul
+  companiei Mereva Tools. De cealalta parte, conducerea Remat sustine ca nu a participat
+  la licitatie din cauza preturilor mari. \u201eCei de la Seralex ne-au contactat
+  si ne-au intrebat daca vrem fier vechi. Din aproximativ 5.000 de tone, cite au cumparat,
+  ei noua ne-au vindut 2.750 de tone, fiind emise doua facturi si marfa achitata.
+  Noi cu masinile noastre si cu oamenii nostri am mers la Fortus si am dezasamblat
+  utilajele. Sint total dezafectate si la cit de ruginite sint nu mai puteau fi readuse
+  in stare de functionare. Din 2.750 de tone de fier cumparat, noi am reusit sa ridicam
+  doar 1.500 de tone, pentru ca s-a inghetat ridicare bunurilor\u201c, a sutinut Catalin
+  Zelinschi, director general Remat Iasi. Explicatiile oferite de cei implicati sint
+  putine si nu ofera o imagine clara. Ramin in continuare multe intrebari fara raspuns,
+  care nu fac decit sa adinceasca misterul si sa lase loc de interpretari.\\nOrdin
+  judecatoresc, simpla hirtie\\nIntr-un articol publicat in urma cu o saptamina, \u201cZiarul
+  de Iasi\u201d a aratat ca o serie de utilaje de la Fortus, vindute in urma licitatiei
+  din noiembrie 2010, au fost scoase din firma in ciuda unui ordin judecatoresc care
+  interzicea acest lucru. \u201eBunurile au fost predate odata cu achitarea lor, in
+  luna ianuarie. Cumparatorii au timp pina pe 1 august sa-si ridice marfa, Fortus
+  SA nemaiavind obligatii asupra acelor bunuri. Cumparatorii au propria firma care
+  asigura paza utilajelor cumparate\u201c, explica situatia Marinela Chelu, director
+  general al Fortus SA. Aceasta situatia i-a nemultumit si pe reprezentantii creditorului
+  principal (ANAF), care au cerut instantei sa-i schimbe pe administratorii judiciari
+  ai combinatului iesean. \u201eAdministratorii judiciari au procedat la valorificarea
+  activelor in afara cadrului legal. Astfel, se poate observa faptul ca in lipsa confirmarii
+  planului de reorganizare judiciara, nu se poate proceda la executarea acestuia,
+  iar pina la indeplinirea acestui act procedural se pot valorifica bunuri in conditiile
+  stabilite de lege\u201c, se arata in cererea depusa de catre ANAF pe data de 29
+  martie la Tribunalul sindic de la Tirgu Mures, unde se judecata insolventa Fortus
+  SA. Combinatul are datorii totale de 261 milioane de lei, din care Finantele au
+  de recuperat 154 milioane lei.\"", "\"Prima victim\u0103 la nivel \u00eenalt \u00een
+  UE din cauza vaccinului rusesc: premierul Slovaciei\\nPremierul Slovaciei, conservatorul
+  Igor Matovic, a anun\u021bat duminic\u0103 seara t\u00e2rziu c\u0103 va preda postul
+  s\u0103u de \u0219ef al executivului ministrului de Finan\u021be, Eduard Heger,
+  \u00een v\u00e2rst\u0103 de 44 de ani.\\nDecizia vine la c\u00e2teva s\u0103pt\u0103m\u00e2ni
+  dup\u0103 ce a izbucnit o criz\u0103 \u00een guvern, c\u00e2nd a ie\u0219it la iveal\u0103
+  faptul c\u0103 Matovic a negociat \u00een secret \u2013 f\u0103r\u0103 a-\u0219i
+  informa partenerii de coali\u021bie \u2013 cump\u0103rarea a dou\u0103 milioane
+  de doze de vaccin rusesc \u00eempotriva coronavirusului, Sputnik V.\\n\u0218ase
+  mini\u0219tri din cele patru forma\u021biuni politice care alc\u0103tuiesc guvernul
+  de coali\u021bie \u0219i-a anun\u021bat demisia \u00een ultimele zile.\\nAchizi\u021bionarea
+  a aproximativ dou\u0103 milioane de doze de vaccin rusesc a fost f\u0103cut\u0103
+  f\u0103r\u0103 aprobarea a dou\u0103 dintre cele patru partide care alc\u0103tuiesc
+  coali\u021bia de guvernare de centru-dreapta.\\nSlovacia are 5,5 milioane de locuitori
+  \u0219i, \u00een ultimele s\u0103pt\u0103m\u00e2ni, a ie\u0219it \u00eencet din
+  cel mai grav val de coronavirus de p\u00e2n\u0103 acum, cu spitale pr\u0103bu\u0219ite
+  \u0219i una dintre cele mai mari rate de deces din Uniunea European\u0103.\\nSlovacia
+  a \u00eenregistrat aproximativ 9.500 de decese din cauza covid-19. La \u00eenceputul
+  lunii octombrie, Bratislava raportase doar 54 de decese cauzate de boal\u0103.\\n\u021aara
+  din Europa Central\u0103 a primit 200.000 de doze de vaccinuri Sputnik, dar nu a
+  efectuat \u00eenc\u0103 testele de lot relevante pentru a \u00eencepe injectarea
+  dozelor \u00een popula\u021bie.\\nDac\u0103 va trece la vaccinarea f\u0103r\u0103
+  avize, Slovacia va fi a doua \u021bar\u0103 din Uniunea European\u0103, dup\u0103
+  Ungaria, care va vaccina cu un produs neaprobat de Agen\u021bia European\u0103 pentru
+  Medicamente.\\nDisputa a dus, s\u0103pt\u0103m\u00e2na trecut\u0103, la demisia
+  ministrului s\u0103n\u0103t\u0103\u021bii, Marek Krajci.\\nDar partidul liberal-conservator
+  Libertate \u0219i Solidaritate (SAS) \u0219i partidul de centru-dreapta pentru oameni
+  (Za ludi) au cerut acum \u0219i demisia premierului.\\nDe asemenea, el vrea ca,
+  odat\u0103 cu el, s\u0103 demisioneze \u0219i vicepremierul Richard Sulik, lider
+  al SAS, \u0219i ministrul Justi\u021biei, Maria Kolikova, din partidul Za ludi.
+  De asemenea, SAS trebuie \u201es\u0103 renun\u021be la un minister\u201d, a mai
+  spus Matovic.\\nPremierul a sus\u021binut cump\u0103rarea de vaccin Sputinik V,
+  motiv\u00e2nd c\u0103 va accelera campania de vaccinare a \u021b\u0103rii, dar alia\u021bii
+  s\u0103i din Guvern spun c\u0103 aceast\u0103 decizie pune la \u00eendoial\u0103
+  orientarea prooccidental\u0103 a Slovaciei.\\n\u201ePartenerii no\u0219tri de coali\u021bie
+  s-au folosit de importurile de vaccin Sputnik pentru a provoca o criz\u0103\u201d,
+  a acuzat Matovic.\\nPe de alt\u0103 parte, Richard Sulik a spus c\u0103 oferta de
+  a demisiona a lui Matovic e binevenit\u0103, dar a respins condi\u021biile acesteia,
+  spun\u00e2nd c\u0103 e vorba despre \u201eo r\u0103zbunare politic\u0103\u201d.\\n\u201ePremierul
+  are animozit\u0103\u021bi personale \u0219i nu este interesat de \u021bar\u0103\u201d,
+  a spus el.\\nSulik s-a declarat gata s\u0103 demisioneze dac\u0103 pleac\u0103 premierul,
+  dar c\u0103 nu este dispus s\u0103 renun\u021be la un portofoliu de ministru al
+  SAS.\"", "\"BREAKING Victor Ponta a pierdut la \u00cenalta Curte procesul \u00eempotriva
+  Ministerului Educa\u021biei: plagiatul este definitiv / Monica Anisie: \u00cen sf\u00e2r\u0219it,
+  se face dreptate!\\nVictor Ponta a pierdut definitiv la \u00cenalta Curte de Casa\u021bie
+  \u0219i Justi\u021bie procesul cu Ministerul Educa\u021biei. Ponta contestase ordinul
+  emis de ministrul Mircea Dumitru prin care acesta \u00eei retr\u0103gea, \u00een
+  2016, titlul de doctor. Informa\u021bia a fost confirmat\u0103 pentru Edupedu.ro
+  de ministrul Educa\u021biei, Monica Anisie, care a declarat: \u201c\u00cen sf\u00e2r\u0219it,
+  se face dreptate! Sper ca aceast\u0103 decizie s\u0103 fie un mesaj clar pentru
+  cei care au vrut s\u0103 plagieze: acest lucru se pedepse\u0219te. S\u0103 fie descuraja\u021bi\u201d.\\n\u201cRespinge
+  recursul declarat de recurentul-reclamant PONTA VICTOR VIOREL, \u00eempotriva Sentin\u0163ei
+  civile nr. 363 din 07 februarie 2017, a Cur\u0163ii de Apel Bucure\u015fti \u2013
+  Sec\u0163ia a VIII-a contencios administrativ \u015fi fiscal, ca nefondat. Definitiv\u0103.
+  Pronun\u0163at\u0103 \u00een \u015fedin\u0163\u0103 public\u0103, ast\u0103zi, 13
+  iulie 2020\u201d \u2013 se arat\u0103 \u00een minuta instan\u021bei.\\nInforma\u021bia
+  a fost publicat\u0103 ini\u021bial de jurnalista Emilia \u0218ercan, pe pagina sa
+  de Facebook. Surse din cadrul Ministerului Educa\u021biei au confirmat pentru Edupedu.ro
+  informa\u021bia, preciz\u00e2nd c\u0103 solu\u021bia \u00cenaltei Cur\u021bi de
+  Casa\u021bie \u0219i Justi\u021bie (ICCJ) este definitiv\u0103 \u0219i irevocabil\u0103.
+  \u201cDin punct de vedere procedural, \u00een acest moment plagiatul este irevocabil\u201d,
+  au precizat sursele Edupedu.ro.\\nContactat\u0103 de Edupedu.ro, ministrul Educa\u021biei,
+  Monica Anisie, a declarat \u201cvoi pune \u00een aplicare decizia ICCJ\u201c.\\nAmintim
+  c\u0103 afacerea de plagiat a fostului premier Victor Ponta este cel mai mare scandal
+  de corup\u021bie intelectual\u0103 din istoria Rom\u00e2niei.\\nPlagiatul din teza
+  de doctorat a premierului \u00een func\u021bie la acea vreme a fost dezv\u0103luit
+  \u00een 2012 de Revista Nature, care a scris c\u0103 Victor Ponta este acuzat ca
+  a plagiat \u00een lucrarea de doctorat publicat\u0103 \u00een 2003. \u201eNature
+  a v\u0103zut documente compilate de o surs\u0103 anonim\u0103 (\u201ewhistle-blower\u201d
+  in original \u2013 N.red.) care arat\u0103 c\u0103 mai mult de jum\u0103tate din
+  teza de 432 de pagini \u00een limba romana a lui Ponta const\u0103 \u00een texte
+  duplicate\u201e, se arata \u00een articolul din Nature, citat atunci de HotNews.ro.\\nPlagiatul
+  a fost confirmat apoi de Consiliul Na\u021bional de Atestare a Titlurilor, Diplomelor
+  \u0219i Certificatelor Universitare (CNATDCU), institu\u021bie \u00eent\u00e2rit\u0103
+  \u00een baza legii educa\u021biei aplicate de Daniel Funeriu. Ponta a desfiin\u021bat,
+  \u00eens\u0103, forul, chiar \u00een ziua \u00een care acesta a anun\u021bat verdictul.\\n\u00centr-o
+  conferin\u021b\u0103 sus\u021binut\u0103 \u00een ziua \u00een care Nature a dezv\u0103luit
+  plagiatul, Victor Ponta l-a acuzat pe fostul ministru Daniel Funeriu c\u0103 ar
+  fi sursa informa\u021biilor referitoare la plagiatul s\u0103u. Nature \u201eeste
+  revista la care d\u0103 interviuri domnul Funeriu\u201d, a declarat Ponta (sursa).\\nFOTO:
+  Mircea Rosca / Inquam Photos\\nDoneaz\u0103 lunar pentru sus\u021binerea proiectului
+  G4Media\\nDoneaz\u0103 suma dorit\u0103 pentru sus\u021binerea proiectului G4Media\\nCONT
+  LEI: RO89RZBR0000060019874867\\nDeschis la Raiffeisen Bank\"", "\"Deputa\u021bii
+  au adoptat miercuri ordonan\u021ba de urgen\u021b\u0103 de modificare a legilor
+  Justi\u021biei. Ce prevede\\nPlenul Camerei Deputa\u0163ilor a adoptat, miercuri,
+  Ordonan\u0163a de Urgen\u0163\u0103 92/2018 care modific\u0103 legile Justi\u0163iei.\\nDecizia
+  a fost adoptat\u0103 cu 170 voturi \u201epentru\u201d, 92 \u201e\u00eempotriv\u0103\u201d
+  \u015fi \u015fase ab\u0163ineri.\\nCamera Deputa\u0163ilor a adoptat pe articole,
+  luni, OUG 92/2018. Toate amendamentele Opozi\u0163iei au fost respinse, iar deputa\u0163ii
+  au adoptat ordonan\u0163a \u00een forma Comisiei speciale pentru legile Justi\u0163iei.\\nPotrivit
+  celor adoptate, judec\u0103torii \u015fi procurorii vor putea fi elibera\u0163i
+  din func\u0163ie \u015fi \u00een cazul ne\u00eendeplinirii condi\u0163iei privind
+  buna reputa\u0163ie.\\nCite\u0219te \u0219i: PSD vrea s\u0103 conteste raportul
+  MCV la Curtea European\u0103 de Justi\u0163ie\\n\u201eJudec\u0103torii \u015fi procurorii
+  sunt elibera\u0163i din func\u0163ie \u00een cazul ne\u00eendeplinirii condi\u0163iilor
+  prev\u0103zute la art. 14 alin. (2) lit. a) \u015fi e) ori a condi\u0163iei privind
+  buna reputa\u0163ie, dac\u0103 \u00een acest ultim caz se apreciaz\u0103 c\u0103
+  nu se impune men\u0163inerea \u00een func\u0163ie\u201d, prevede textul adoptat,
+  la propunerea PSD.\\nDe asemenea, a fost abrogat\u0103, la propunerea PSD, prevederea
+  din Legea 303/2004 care se refer\u0103 la auditarea sistemului de repartizare aleatorie
+  a cauzelor pe completuri de judecat\u0103.\\nTextul abrogat prevedea c\u0103 \u201esistemul
+  de repartizare aleatorie a cauzelor pe completuri de judecat\u0103 se auditeaz\u0103
+  extern, la fiecare doi ani, sub conducerea Ministerului Justi\u0163iei \u015fi cu
+  implicarea societ\u0103\u0163ii civile \u015fi a organiza\u0163iilor profesionale
+  ale magistra\u0163ilor, iar concluziile auditului sunt publice\u201d.\\nTotodat\u0103,
+  a fost abrogat\u0103 \u015fi atribu\u0163ia Colegiului de conducere al \u00cenaltei
+  Cur\u0163i de Casa\u0163ie \u015fi Justi\u0163ie de a propune Sec\u0163iei pentru
+  judec\u0103tori a Consiliului Superior al Magistraturii judec\u0103torii care vor
+  face parte din comisiile de concurs pentru promovarea \u00een func\u0163ia de judec\u0103tor
+  la ICCJ.\\nParchetul de pe l\u00e2ng\u0103 \u00cenalta Curte are \u00een structur\u0103
+  direc\u0163ii \u015fi sec\u0163ii conduse de procurori-\u015fefi, care pot fi ajuta\u0163i
+  de adjunc\u0163i. \u00cen cadrul direc\u0163iilor pot func\u0163iona sec\u0163ii,
+  servicii \u015fi birouri, iar \u00een cadrul sec\u0163iilor pot func\u0163iona servicii
+  \u015fi birouri conduse de procurori-\u015fefi, prevede un alt text adoptat.\\nProcurorii
+  din DIICOT \u015fi DNA vor fi numi\u0163i pe baza unui concurs, iar o condi\u0163ie
+  este ca ace\u015ftia s\u0103 nu fi fost sanc\u0163iona\u0163i disciplinar \u00een
+  ultimii trei ani \u015fi s\u0103 aib\u0103 o vechime de cel pu\u0163in 10 ani.\\nUn
+  nou articol introdus prevede c\u0103 \u201eori de c\u00e2te ori Codul de procedur\u0103
+  penal\u0103 sau alte legi speciale fac trimitere la \u201eprocurorul ierarhic superior\u201d
+  \u00een cazul infrac\u0163iunilor de competen\u0163a Sec\u0163iei pentru investigarea
+  infrac\u0163iunilor din justi\u0163ie, prin acesta se \u00een\u0163elege procurorul
+  \u015fef al sec\u0163iei, inclusiv \u00een cazul solu\u0163iilor dispuse anterior
+  opera\u0163ionaliz\u0103rii acesteia\u201d.\\nTot la propunerea PSD au fost adoptate
+  mai multe prevederi referitoare la deta\u015farea ofi\u0163erilor sau agen\u0163ilor
+  de poli\u0163ie pentru func\u0163ionarea sec\u0163iei speciale\\n\u201e\u00cen vederea
+  desf\u0103\u015fur\u0103rii activit\u0103\u0163ilor specifice prev\u0103zute de
+  Codul de procedur\u0103 penal\u0103, \u00een cadrul Sec\u0163iei func\u0163ioneaz\u0103,
+  prin deta\u015fare, ofi\u0163eri sau agen\u0163i de poli\u0163ie judiciar\u0103,
+  sub directa conducere \u015fi controlul nemijlocit al procurorilor Sec\u0163iei,
+  \u00een limita posturilor prev\u0103zute de lege.\\nDeta\u015farea ofi\u0163erilor
+  \u015fi agen\u0163ilor de poli\u0163ie judiciar\u0103 se dispune la solicitarea
+  procurorului \u015fef al Sec\u0163iei pentru investigarea infrac\u0163iunilor din
+  justi\u0163ie, de c\u0103tre ministrul Afacerilor Interne, pe o perioad\u0103 de
+  cel mult 3 ani, cu posibilitatea prelungirii din trei \u00een trei ani, cu acordul
+  acestora.\\nNumirea \u00een func\u0163ii a ofi\u0163erilor \u015fi agen\u0163ilor
+  de poli\u0163ie judiciar\u0103 se face prin ordin al procurorului \u015fef al Sec\u0163iei
+  pentru investigarea infrac\u0163iunilor din justi\u0163ie\u201d, prevede textul
+  adoptat.\\nDe asemenea, ace\u015ftia au drepturile \u015fi obliga\u0163iile prev\u0103zute
+  de lege pentru ofi\u0163erii de poli\u0163ie \u015fi agen\u0163ii de poli\u0163ie,
+  cu excep\u0163iile prev\u0103zute \u00een prezenta lege, \u015fi beneficiaz\u0103,
+  \u00een mod corespunz\u0103tor, de drepturile prev\u0103zute \u00een OUG 27/2006
+  privind salarizarea \u015fi alte drepturi ale judec\u0103torilor, procurorilor \u015fi
+  altor categorii de personal din sistemul justi\u0163iei.\\nSalarizarea ofi\u0163erilor
+  \u015fi agen\u0163ilor de poli\u0163ie judiciar\u0103 se realizeaz\u0103 potrivit
+  dispozi\u0163iilor legale aplicabile ofi\u0163erilor \u015fi agen\u0163ilor de poli\u0163ie
+  judiciar\u0103 din cadrul Direc\u0163iei Na\u0163ionale Anticorup\u0163ie.\\nA fost
+  abrogat\u0103, la propunerea PSD, prevederea potrivit c\u0103reia \u201e\u00een
+  situa\u0163ia \u00een care mai multe sesiz\u0103ri privesc aceea\u015fi fapt\u0103
+  \u015fi aceea\u015fi persoan\u0103, sesiz\u0103rile se conexeaz\u0103\u201d.\\nTotodat\u0103,
+  a fost decis\u0103 abrogarea, ca urmare a deciziei CCR, \u015fi a prevederii care
+  permitea continuarea deta\u015f\u0103rilor pe perioada exercit\u0103rii Pre\u015fedin\u0163iei
+  rotative a Consiliului UE.\\nCe se \u00eent\u00e2mpl\u0103 cu pensionarea judec\u0103torilor\\nAstfel,
+  textul abrogat din OUG 92/2018 stipula c\u0103 \u201eprevederile art. I pct. 97
+  \u015fi 98 din Legea nr. 242/2018 pentru modificarea \u015fi completarea Legii nr.
+  303/2004 privind statutul judec\u0103torilor \u015fi procurorilor, cu referire la
+  art. 58 alin. (11) \u015fi (12) din Legea nr. 303/2004 privind statutul judec\u0103torilor
+  \u015fi procurorilor, republicat\u0103, cu modific\u0103rile \u015fi complet\u0103rile
+  ulterioare, intr\u0103 \u00een vigoare la data de 30 iunie 2019, data finaliz\u0103rii
+  exercit\u0103rii Pre\u015fedin\u0163iei rotative a Consiliului Uniunii Europene
+  de c\u0103tre Rom\u00e2nia\u201d \u2013 articol abrogat ca urmare a deciziei CCR.\\nPrevederea
+  referitoare la pensionarea judec\u0103torilor \u015fi procurorilor nu a fost modificat\u0103.
+  Potrivit OUG 92, pensionarea la 20 de ani vechime \u00een magistratur\u0103 a fost
+  am\u00e2nat\u0103 p\u00e2n\u0103 la 1 ianuarie 2020. Pre\u015fedintele comisiei,
+  Florin Iordache, a spus c\u0103 a\u015fteapt\u0103 din partea CSM o evaluare, p\u00e2n\u0103
+  c\u00e2nd proiectul ajunge \u00een dezbaterea Senatului, care este for decizional.\\nfoto:
+  hepta.ro\"", "\"Departamentul pentru informare \u0219i comunica\u021bii \u00een
+  mas\u0103 din cadrul Ministerului rus al Ap\u0103r\u0103rii a anun\u021bat c\u0103,
+  pe 22.12.2020, dou\u0103 bombardiere strategice ruse\u0219ti \u0219i patru chineze\u0219ti
+  au \u00eendeplinit o misiune de patrulare comun\u0103 deasupra apelor neutre ale
+  M\u0103rii Japoniei \u0219i M\u0103rii Chinei de Est.\\n\u201cUn grup de avia\u021bie,
+  format din dou\u0103 bombardiere strategice Tu-95MS ale For\u021belor Aerocosmice
+  ale Rusiei \u0219i patru bombardiere strategice Hun-6K din cadrul For\u021belor
+  Aeriene ale Chinei, a patrulat deasupra acvatoriilor M\u0103rii Japoniei \u0219i
+  M\u0103rii Chinei de Est\u201d, se arat\u0103 \u00een comunicatul de pres\u0103
+  al ministerului.\\n\u201cPe timpul \u00eendeplinirii misiunilor, avioanele din cele
+  dou\u0103 \u021b\u0103ri au ac\u021bionat \u00een str\u00e2ns\u0103 conformitate
+  cu regulile dreptului interna\u021bional. Nu au fost \u00eenc\u0103lcate spa\u021biile
+  aeriene ale altor state\u201d, au precizat reprezentan\u021bii ru\u0219i.\\nDup\u0103
+  cum au anun\u021bat militarii din Federa\u021bia Rus\u0103 este vorba despre a doua
+  misiune comun\u0103 de patrulare desf\u0103\u0219urat\u0103 de cele dou\u0103 state
+  \u00een Regiunea Asia-Pacific.\\nAgen\u021bia de pres\u0103 rus\u0103 Interfax a
+  informat c\u0103 prima patrulare comun\u0103 deasupra apelor neutre ale M\u0103rii
+  Japoniei \u0219i M\u0103rii Chinei de Est a fost efectuat\u0103 pe 23 iulie 2019,
+  cu dou\u0103 bombardiere ruse\u0219ti Tu-95MS \u0219i dou\u0103 bombardiere chineze\u0219ti
+  Hun-6K. Atunci, Coreea de Sud a acuzat Rusia de \u00eenc\u0103lcarea spa\u021biului
+  s\u0103u aerian deasupra M\u0103rii Japoniei. La r\u00e2ndul s\u0103u, Ministerul
+  rus al Ap\u0103r\u0103rii a anun\u021bat c\u0103 avioanele de v\u00e2n\u0103toare
+  ale Coreii de Sud au \u00eencercat s\u0103 interfereze cu trecerea bombardierelor
+  din Rusia \u0219i China.\\nComentariu remnmilitaryblog.com: Ministerul rus al Ap\u0103r\u0103rii
+  a postat pe canalul s\u0103u de YouTube un material video cu cadre din timpul \u00eendeplinirii
+  misiunii. Acesta poate fi vizualizat aici.\\nDin analiza materialului rezult\u0103
+  faptul c\u0103 avioanele ruse\u0219ti au decolat pe timp de noapte \u0219i au aterizat
+  \u00een acela\u0219i condi\u021bii. Acest lucru \u00eenseamn\u0103 c\u0103 zborul
+  aeronavelor ruse\u0219ti a durat cel pu\u021bin 12 ore. Pe o por\u021biune a traiectului
+  de zbor, bombardierele strategice ruse\u0219ti au fost escortate de avioane de v\u00e2n\u0103toare
+  proprii, cel mai probabil de tip Su-35S. Unul dintre bombardierele Tu-95MS participant
+  la misiune are num\u0103rul de bord 53 ro\u0219u.\\nMisiunea bombardierelor strategice
+  ruse\u0219ti a fost semnalat\u0103 \u0219i de sursele de monitorizare a avia\u021biei
+  de pe Twitter. Potrivit acestora, la activit\u0103\u021bi au participat trei bombardiere
+  strategice de tip Tu-95MS. Probabil, unul dintre ele a r\u0103mas \u00een proximitatea
+  frontierelor ruse din Extremul Orient, asigur\u00e2nd retransla\u021bia comunica\u021biilor
+  dintre baz\u0103 \u0219i cele dou\u0103 avioane care au patrulat \u00een Marea Japoniei
+  \u0219i Marea Chinei de Est. Cele dou\u0103 bombardiere aflate \u00een misiunea
+  de patrulare au \u00eentrebuin\u021bat indicativele radio 26935 \u0219i 26936.\\nAvioanele
+  ruse\u0219ti au decolat de pe aerodromul Ukrainka din Regiunea Amur \u0219i apar\u021bin
+  unui regiment de avia\u021bie al Diviziei 326 Avia\u021bie de Bombardament \u2013
+  Ukrainka a Avia\u021bie cu raz\u0103 lung\u0103 de ac\u021biune (Avia\u021bia Strategic\u0103).\\nDesf\u0103\u0219urarea
+  misiunilor comune ale bombardierelor strategice din Rusia \u0219i China demonstreaz\u0103
+  rela\u021biile str\u00e2nse dintre cele dou\u0103 state \u00een domeniul militar.
+  Probabil c\u0103, \u00een caz de necesitate, acestea \u00ee\u0219i pot uni eforturile
+  pentru promovarea unor interese comune \u00een Regiunea Asia-Pacific \u0219i nu
+  numai.\"", "\"cumpar;-nordcaucazieni,siberieni,waisbruster,volga negrii,cap de maur.rostov
+  negrii si maro,zburatori de3 nicolaev,fata de gusat de cehia,fata de straseri pe
+  negru\\nTrimite mesaj\u00cenapoiNu po\u021bi trimite un mesaj f\u0103r\u0103 con\u021binut!Nu
+  este permis\u0103 folosirea de cod HTML in mesaje.Mesajul nu a fost trimis din motive
+  de securitate. Va rugam sa ne contactati prin email pe adresa office@sunphoto.roMesajul
+  nu a fost trimis din motive de posibil spam. Va rugam sa ne contactati prin email
+  pe adresa office@sunphoto.roMesajul nu a fost trimis din motive de posibil spam.
+  Ati trimis prea multe mesaje in ultimul timp.A ap\u0103rut o eroare \u00een timpul
+  trimiterii mesajului. V\u0103 rog \u00eencerca\u021bi din nou.Mesajul a fost trimis.\\nroleri
+  cluj si persan 60 ron perekea voiajori sport\\ncochinchina urias alb\\ncochin. urias
+  negru\\njucatori rosow\"", "\"Compania Nikon a anuntat printr-un comunicat de presa
+  atingerea pragului de 95 de milioane de obiective din gama Nikkor produse pana in
+  acest moment. Este vorba despre gama de obiective Nikkor pentru DSLR-uri si gama
+  de obiective pentru sistemul mirrorless Nikon 1.\\nAtingerea acestui prag vine la
+  aproximativ 8 luni de la atingerea pragului de 90 de milioane de obiective care
+  au iesit de pe linia de productie a niponilor. In acest ritm, probabil ca in luna
+  Martie a anului viitor vom asista la atingerea pragului de 100 de milioane de obiective
+  Nikon fabricate.\\nAnuntul de acum a precedat stirea de saptamana trecuta, in care
+  Nikon anunta lansarea a trei noi obiective pentru aparatele sale cu senzori Full
+  Frame: Nikon 24-70mm f/2.8 VR, Nikon 28mm f/1.8 si noul teleobiectiv 200-500mm f/5.6.\\nComunicatul
+  Nikon vine la o luna dupa ce Canon a publicat un anunt similar: atingerea a 110
+  milioane de obiective fabricate din gama Canon EF, obiectivul cu acest numar fiind
+  un Canon 11-24mm f/4 L, pe care l-am testat aici.\"", "\"In cazul\\ntitularilor
+  de diplome, certficate \u015fi alte titluri de medic, medic dentist,\\nfarmacist,
+  asistent medical generalist \u015fi moas\u0103 eliberate de un stat ter\u0163 \u015fi\\nechivalate
+  conform legii, care au exercitat efectiv \u015fi legal activitatea\\nprofesional\u0103
+  \u00een baza acestor titluri de calificare pe o durata de 3 ani \u00een\\nRom\u00e2nia,
+  Ministerul S\u0103n\u0103t\u0103\u0163ii elibereaz\u0103 o adeverin\u0163\u0103\\ncare
+  atest\u0103 experien\u0163a profesional\u0103 necesar\u0103 procedurii de recunoa\u015ftere
+  \u00een\\ncelelalte state membre.\\nDocumente necesare eliberarii acestei adeverin\u0163e
+  sunt:\\n-\\ncerere in care se vor preciza \u015fi datele de contact;\\n-\\ncopie
+  act de identitate;\\n-\\ncopie legalizat\u0103 dupa atestatul de echivalare;\\n-\\ncopie
+  legalizat\u0103 dupa diploma echivalat\u0103;\\n-\\ncopie legalizat\u0103 dupa foaia
+  matricola;\\n-\\ncopie dupa cartea de munc\u0103 sau adeverin\u0163a de la unitatea
+  angajatoare\\ndin care sa rezulte experien\u0163a profesional\u0103 de 3 ani;\\n-\\ncopie
+  dup\u0103 documentele de schimbare a numelui (dac\u0103 este cazul).\\n\u00cen cazul
+  documentelor care atest\u0103 experien\u0163a profesional\u0103\\ncerut\u0103 de
+  normele comunitare pentru recunoa\u015fterea calific\u0103rii \u00een celelalte\\nstate
+  membre UE, iar solicitan\u0163ii nu pot depune copia legalizat\u0103 a c\u0103r\u0163ii
+  de\\nmunc\u0103 sau din cartea de munc\u0103 nu rezult\u0103 func\u0163ia, specialitatea
+  \u00een care desf\u0103\u015foar\u0103\\nactivitatea \u0219i cuantumul normei de
+  \u00eencadrare, ace\u015ftia vor prezenta contractul\\nde munc\u0103 vizat de ITM
+  sau o adeverin\u0163\u0103 eliberat\u0103 de unitatea sanitar\u0103 de\\n\u00eencadrare,
+  \u00eentocmit\u0103 numai dup\u0103 modelul de mai jos.\\nDac\u0103 angajatorul
+  este chiar persoana \u00een cauz\u0103, adeverin\u021ba va fi\\n\u00eenso\u021bit\u0103
+  de o declara\u021bie notarial\u0103 din care s\u0103 rezulte c\u0103 datele din
+  adeverin\u021ba\\nrespectiv\u0103 sunt corecte \u0219i copia legalizat\u0103 a certificatului
+  de \u00eenmatriculare a\\ncabinetului medical, respectiv a societ\u0103\u021bii
+  comerciale medicale.\\nPreciz\u0103m c\u0103 pentru datele \u00eenscrise \u00een
+  Adeverin\u0163\u0103, \u00eentreaga\\nresponsabilitate cu privire la autenticitatea
+  \u015fi legalitatea acestora revine \u00een\\nexclusivitate unit\u0103\u0163ii de
+  \u00eencadrare emitent\u0103.\\nModel adeverinta\"", "\"Asfaltarea este un proces
+  esen\u021bial \u00een dezvoltarea infrastructurii oric\u0103rui ora\u0219, iar Bucure\u0219tiul
+  nu face excep\u021bie. O re\u021bea rutier\u0103 bine \u00eentre\u021binut\u0103
+  \u0219i modernizat\u0103 asigur\u0103 un trafic fluid \u0219i sigur, contribuind
+  la cre\u0219terea confortului \u0219i eficien\u021bei transportului. \u00cen acest
+  articol, vom explora beneficiile asfalt\u0103rii \u00een Bucure\u0219ti, vom oferi
+  informa\u021bii utile \u0219i v\u0103 vom prezenta oferta celor de la Asfalterra
+  Beta Construct Srl, specializa\u021bi \u00een servicii de asfaltare \u00een Bucure\u0219ti
+  \u0219i Ilfov.\\nBeneficiile asfalt\u0103rii \u00een Bucure\u0219ti:\\n- Siguran\u021b\u0103
+  rutier\u0103: Un strat de asfalt nou \u0219i bine \u00eentre\u021binut ofer\u0103
+  o aderen\u021b\u0103 mai bun\u0103 \u0219i reduce riscul de accidente rutiere cauzate
+  de derapaje sau denivel\u0103ri ale carosabilului.\\n- Confort sporit: Un carosabil
+  neted \u0219i f\u0103r\u0103 gropi asigur\u0103 o c\u0103l\u0103torie confortabil\u0103
+  pentru \u0219oferi \u0219i pasageri, reduc\u00e2nd vibra\u021biile \u0219i zgomotul
+  generat de ma\u0219ini.\\n- Prolongarea duratei de via\u021b\u0103 a drumurilor:
+  Prin asfaltarea periodic\u0103 a drumurilor, se previne deteriorarea accelerat\u0103
+  \u0219i se prelungesc durata de via\u021b\u0103 a acestora, reduc\u00e2nd astfel
+  costurile de \u00eentre\u021binere a infrastructurii rutiere.\\n- \u00cembun\u0103t\u0103\u021birea
+  aspectului urban: Str\u0103zile asfaltate \u0219i bine \u00eentre\u021binute contribuie
+  la estetica ora\u0219ului, transmit\u00e2nd o imagine de ordine \u0219i cur\u0103\u021benie.\\nInforma\u021bii
+  utile despre asfalt\u0103ri:\\n- Tipuri de asfalt: Exist\u0103 mai multe tipuri
+  de asfalt utilizate \u00een asfalt\u0103rile moderne, precum asfaltul cald, asfaltul
+  reciclat \u0219i asfaltul colorat. Alegerea tipului potrivit depinde de necesit\u0103\u021bile
+  \u0219i condi\u021biile specifice ale fiec\u0103rei zone.\\n- Procesul de asfaltare:
+  Asfaltarea const\u0103 \u00een mai multe etape, inclusiv preg\u0103tirea terenului,
+  stabilizarea funda\u021biei, turnarea stratului de asfalt \u0219i compactarea acestuia.
+  Fiecare etap\u0103 necesit\u0103 experien\u021b\u0103 \u0219i echipamente specializate
+  pentru a ob\u021bine rezultate durabile \u0219i de \u00eenalt\u0103 calitate.\\n-
+  Mentenan\u021b\u0103 rutier\u0103: Dup\u0103 finalizarea asfalt\u0103rii, este important\u0103
+  implementarea unui program regulat de \u00eentre\u021binere rutier\u0103 pentru
+  a prelungi durata de via\u021b\u0103 a drumurilor \u0219i a men\u021bine calitatea
+  suprafe\u021bei asfaltate. Aceasta include repara\u021bii rapide ale eventualelor
+  denivel\u0103ri, umplerea gropilor \u0219i aplicarea unor straturi de protec\u021bie,
+  cum ar fi stratul de sigilare.\\nOferta de la Asfalterra Beta Construct Srl: Asfalterra
+  Beta Construct Srl este o companie specializat\u0103 \u00een servicii de asfaltare
+  \u00een Bucure\u0219ti \u0219i Ilfov, oferind solu\u021bii profesionale \u0219i
+  calitative pentru nevoile de infrastructur\u0103 rutier\u0103. Compania se angajeaz\u0103
+  s\u0103 ofere servicii de \u00eenalt\u0103 calitate la pre\u021buri competitive,
+  av\u00e2nd o experien\u021b\u0103 vast\u0103 \u00een domeniul asfalt\u0103rilor
+  \u0219i o echip\u0103 de profesioni\u0219ti specializa\u021bi.\\nOferta lor cuprinde:\\n-
+  Asfalt\u0103ri pentru drumuri, str\u0103zi, alei, parc\u0103ri \u0219i alte suprafe\u021be
+  rutiere.\\n- Utilizarea de materiale de \u00eenalt\u0103 calitate \u0219i echipamente
+  moderne pentru a asigura rezultate durabile \u0219i estetice.\\n- Preg\u0103tirea
+  temeinic\u0103 a terenului \u0219i aplicarea unui strat de asfalt conform standardelor
+  de calitate.\\n- Respectarea termenelor de execu\u021bie \u0219i a cerin\u021belor
+  specifice ale fiec\u0103rui proiect.\\n- Pre\u021buri competitive, \u00eencep\u00e2nd
+  de la 50 lei/mp, adaptate necesit\u0103\u021bilor \u0219i bugetului fiec\u0103rui
+  client.\\nPentru a beneficia de serviciile oferite de Asfalterra Beta Construct
+  Srl, pute\u021bi contacta echipa lor prin:\\n- Website: https://asfaltaribucuresti.ro/\\n-
+  Telefon: 0737 230 230\\n- E-mail: office@asfaltaribucuresti.ro\\n- Program de lucru:
+  Luni-Vineri, \u00eentre 8:00-20:00\\nAsfaltarea reprezint\u0103 o investi\u021bie
+  esen\u021bial\u0103 \u00een dezvoltarea infrastructurii rutiere din Bucure\u0219ti.
+  Beneficiile unei re\u021bele rutiere bine \u00eentre\u021binute sunt multiple, de
+  la siguran\u021ba rutier\u0103 \u0219i confortul sporit pentru \u0219oferi \u0219i
+  pasageri, p\u00e2n\u0103 la reducerea costurilor de \u00eentre\u021binere a drumurilor.
+  Compania Asfalterra Beta Construct Srl se remarc\u0103 prin servicii de \u00eenalt\u0103
+  calitate \u0219i ofer\u0103 solu\u021bii personalizate pentru asfalt\u0103ri \u00een
+  Bucure\u0219ti \u0219i Ilfov, cu pre\u021buri competitive. Pentru a beneficia de
+  expertiza lor \u0219i a ob\u021bine o infrastructur\u0103 rutier\u0103 modern\u0103
+  \u0219i durabil\u0103, pute\u021bi lua leg\u0103tura cu Asfalterra Beta Construct
+  Srl folosind datele de contact men\u021bionate mai sus.\"", "\"Murray a avut parte
+  de drum liber \u00een sferturile de final\u0103, dup\u0103 ce adversarul s\u0103u,
+  croatul Marin Cilic s-a retras din competi\u0163ie din cauza unei accident\u0103ri
+  le glezn\u0103.\\nMurray ar putea profita de turul liber din sferturi pentru a se
+  odinhi, mai ales c\u0103 britanicul are \u015fi el probleme cu glezna.\\n\u00cen
+  ultimul meci din optimi, disputat ast\u0103zi, britanicul James Ward l-a \u00eenvins
+  surpinz\u0103tor pe americanul Sam Querrey, scor 3-6, 6-3, 6-4 \u015fi \u00eel va
+  \u00eent\u00e2lni mai departe pe Adrian Mannarino din Fran\u0163a, cel care a trecut
+  \u00een optimi de Juan Martin Del Potro, favorit 12, cu scorul de 7-6, 7-6.\"",
+  "\"Pentru a doua \u0219edin\u021b\u0103 de plen al Consiliului Local Timi\u0219oara,
+  primarul Dominic Fritz a retras de pe ordinea de zi proiectul de majorare al pre\u021bului
+  gigacaloriei livrate de Colterm c\u0103tre popula\u021bie. \u201dVinovat\u0103\u201d
+  a fost Federa\u021bia Asocia\u021biilor de Locatari Timi\u0219oara, \u00een fapt
+  singurul intervenient \u00een cadrul dezbaterii publice organizat\u0103 de prim\u0103rie
+  pe aceast\u0103 tem\u0103. Consilierii locali au aprobat majorarea sumei alocate
+  spre Colterm, cu 15 milioane de lei.\\nCel mai probabil, Dominic Fritz a surprins
+  membrii Consiliului Local, atunci c\u00e2nd, \u00een debutul \u0219edin\u021bei
+  de plen extraordinare, a anun\u021bat c\u0103 retrage (din nou) de pe ordinea de
+  zi proiectul prin care propunea dublarea pre\u021bului gigacaloriei.\\n\u201dO s\u0103
+  retrag de pe ordinea de zi proiectul cu gigacaloria. De\u0219i este urgent, a intrat
+  acum, dup\u0103 dezbaterea public\u0103, FALT a mai f\u0103cut o adres\u0103 scris\u0103
+  cu o list\u0103 lung\u0103 de \u00eentreb\u0103ri. \u0218tiu c\u0103 \u0219i dumnevoastr\u0103
+  ave\u021bi \u00eentreb\u0103ri. Vreau s\u0103 d\u0103m \u0219ansa ca Colterm s\u0103
+  r\u0103spund\u0103 \u00een scris, ca s\u0103 clarific\u0103m totul, \u00een plus
+  chiar azi au mai fost discu\u021bii cu ANRE \u0219i despre felul \u00een care Guvernul
+  va finan\u021ba din bugetul de stat modul \u00een care se va pl\u0103ti termia.
+  \u0218ti\u021bi c\u0103 s\u0103pt\u0103m\u00e2na trecut\u0103 a fost votat\u0103
+  \u0219i legea plafon\u0103rii care prevede \u0219i o parte de subven\u021bionare
+  direct c\u0103tre UAT. De aceea \u00eel retrag, s\u0103 putem r\u0103spunde la toate
+  \u00eentreb\u0103rile, atunci avem un proiect f\u0103r\u0103 dubii. Pe fond, va
+  trebui s\u0103 existe o majorare, pentru c\u0103 altfel este foarte greu s\u0103
+  acoperim costurile. Disputele despre modul \u00een care ajungem s\u0103 calcul\u0103m,
+  despre ce metodologie folosim s\u0103 ajungem la un pre\u021b, e absolut clar c\u0103
+  costurile actuale sunt mai mari dec\u00e2t tariful. E clar c\u0103 va veni acest
+  HCL sau o variant\u0103 pu\u021bin modificat\u0103\u201d, a spus Dominic Fritz.\\nRoxana
+  Iliescu a cerut ca p\u00e2n\u0103 la urm\u0103torul plen s\u0103 se precizeze care
+  va fi contribu\u021bia prim\u0103riei, dar \u0219i subven\u021bia de la stat la
+  noul pre\u021b.\\n\u201dDac\u0103 \u0219tiam r\u0103spunsul la cele dou\u0103 \u00eentreb\u0103ri,
+  nu mai retr\u0103geam proiectul de pe ordinea de zi\u201d, a r\u0103spuns Fritz.\\nDe
+  asemenea, Dan Diaconu a cerut s\u0103 se precizeze c\u0103 cel mai bine ar fi ca
+  prim\u0103ria s\u0103 retrimit\u0103 pentru a se recalcula pre\u021bul \u00eenapoi
+  la Colterm, \u00een caz contrar vor da faliment \u0219i Colterm \u0219i familiile
+  beneficiare.\\n\u201dEu nu am nevoie de o metodologie s\u0103 \u0219tiu ce ne cost\u0103
+  la Colterm \u00een aceste luni. Pentru c\u0103 eu \u0219tiu c\u00e2t intr\u0103
+  \u00een fiecare zi la Colterm prin \u00eencas\u0103rile de la popula\u021bie \u0219i
+  c\u00e2\u021bi bani \u00eencerc eu s\u0103 str\u00e2ng prin toate sertarele \u0219i
+  \u00een contul prim\u0103riei. Speran\u021ba c\u0103 un nou mod de calcul va duce
+  la un pre\u021b miraculos, mult mai mic nu este neap\u0103rat fondat\u0103\u201d,
+  a r\u0103spuns Fritz.\\nEl a mai spus c\u0103 retragerea nu a fost \u201do retragere
+  tactic\u0103\u201d, ci un mod ca cei de la Colterm s\u0103 poat\u0103 r\u0103spunde
+  la toate \u00eentreb\u0103rile.\\nImportant, consilierii locali au aprobat majorarea
+  sumei alocate spre Colterm, cu 15 milioane de lei.\\nComentarii prin facebook\""]'
 src_ngrams: '{"1": [[["\u0219i"], 623618789], [["ani"], 71248697], [["s-a"], 59791889],
   [["trebuie"], 58942652], [["timp"], 57597305]], "2": [[["precum \u0219i"], 6565860],
   [["anul trecut"], 4606265], [["de-a lungul"], 4254533], [["termen lung"], 3367636],

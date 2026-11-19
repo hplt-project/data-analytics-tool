@@ -1,4 +1,4 @@
-corpus: hplt-v4-lit
+corpus: hplt-v4-lit_Latn
 srclang: lit
 timestamp: 1789919940.2048073
 warnings: []
@@ -3246,7 +3246,2090 @@ register_labels: '{"IP_ds": 5430808, "NA_ne": 4550204, "UNK": 3258801, "MT": 262
   "IN_lt": 322659, "HI_re": 298636, "OP_other": 258965, "OP_av": 257673, "IN_en":
   239886, "OP_ob": 209892, "OP_rv": 197176, "OP_rs": 152789, "SP_it": 111757, "SP_other":
   43419, "LY_other": 22526, "IN_ra": 19692, "IN_fi": 1959}'
-sample: hplt-v4-lit_Latn-sample
+sample: '["\"Metas susitvarkyti elektronikos atliekas!\\n2025-07-10 08:42Elektronikos
+  supirkimo punktuose priimama ne tik veikianti \u012franga, bet ir sugedusi, i\u0161rinkta,
+  pusiau sul\u016b\u017eusi ar net jau nenaudojama de\u0161imtme\u010dius. Kod\u0117l?
+  Daugelyje \u0161i\u0173 prietais\u0173 yra verting\u0173 med\u017eiag\u0173 \u2013
+  vario, aukso, sidabro, alavo, plastiko, net ret\u0173j\u0173 metal\u0173. Tad vasara
+  \u2013 puikus metas sutvarkyti pal\u0117pes, spintas, sand\u0117liukus ir parduoti
+  elektronikos atliekas.\\nKas superkama?\\nKompiuteriai ir j\u0173 dalys (net sugedusios)\\n-
+  Stacionar\u016bs ir ne\u0161iojamieji kompiuteriai\\n- Motinin\u0117s plok\u0161t\u0117s\\n-
+  Kietieji diskai (HDD, SSD)\\n- Procesoriai (CPU)\\n- Vaizdo plok\u0161t\u0117s (GPU)\\n-
+  RAM atmintys\\n- Maitinimo blokai\\n- Kompiuteri\u0173 korpusai (net tu\u0161ti).\\nNet
+  jei kompiuteris neveikia, jo dalis galima i\u0161ardyti ir perdirbti. Kai kurios
+  turi aukso padengim\u0173, o kitos \u2013 verting\u0173 lydini\u0173.\\nMobilieji
+  telefonai (bet kokios b\u016bkl\u0117s)\\n- I\u0161manieji ir seni mygtukiniai telefonai\\n-
+  Telefono baterijos (Li-ion, NiMH)\\n- \u012ekrovikliai ir laidai\\n- Supl\u0117\u0161yti
+  d\u0117klai, aksesuarai.\\nNet seni \u201eNokia\u201c modeliai ar pirmosios kartos
+  \u201eSamsung\u201c telefonai turi med\u017eiag\u0173, kurios perdirbamos. Be to,
+  kai kurios supirktuv\u0117s moka daugiau u\u017e tam tikrus senus modelius, vertinamus
+  kolekcionieri\u0173.\\nTelevizoriai, monitoriai, ekranai\\n- CRT (senieji kineskopiniai)
+  televizoriai\\n- LCD, LED, OLED ekranai\\n- Kompiuteri\u0173 monitoriai\\n- Projektoriai\\n-
+  Ne\u0161iojam\u0173j\u0173 grotuv\u0173 ar navigacij\u0173 ekranai.\\nNors CRT televizoriai
+  sunk\u016bs ir da\u017enai guli gara\u017euose kelis de\u0161imtme\u010dius, jiems
+  perdirbti reikia specializuoto punkto, bet dauguma supirk\u0117j\u0173 juos priima.\\nSmulki
+  buitin\u0117 technika\\n- Skrudintuvai, plakikliai\\n- Virduliai, kavos aparatai,
+  virtuviniai kombainai\\n- Elektrin\u0117s virykl\u0117s, mikrobang\u0173 krosnel\u0117s\\n-
+  Elektriniai \u0161epet\u0117liai, plauk\u0173 d\u017eiovintuvai, barzdaskut\u0117s\\n-
+  Elektrin\u0117s \u017eoliapjov\u0117s, gr\u0105\u017etai, pj\u016bklai.\\nJei \u012frenginys
+  jungiamas \u012f elektros lizd\u0105, didel\u0117 tikimyb\u0117, kad j\u012f galima
+  priduoti.\\nBuitin\u0117 elektronika\\n- DVD, CD grotuvai\\n- Muzikos centrai\\n-
+  Radijo imtuvai, kolon\u0117l\u0117s\\n- Vaizdo kase\u010di\u0173 grotuvai (VHS)\\n-
+  \u017daidim\u0173 konsol\u0117s (PS, Xbox, Nintendo) \u2013 net neveikian\u010dios\\n-
+  Laidai, kabeliai ir jungtys.\\nElektros instaliacijos kabeliai\\n- USB, HDMI, VGA
+  laidai\\n- Skaldytos ki\u0161tukin\u0117s jungtys, \u0161akotuvai\\n- Maitinimo
+  kabeliai (su ar be ki\u0161tuko).\\nDaugelyje j\u0173 yra vario, kuris itin vertinamas.
+  Kai kurios supirktuv\u0117s u\u017e laidus moka pagal svor\u012f, tod\u0117l senas
+  laid\u0173 ry\u0161ulys gali virsti netik\u0117tu u\u017edarbiu.\\nElektronikos
+  komponentai\\n- Spausdintos plok\u0161t\u0117s (PCB)\\n- Transformatoriai\\n- Elektronin\u0117s
+  rel\u0117s, kondensatoriai\\n- Maitinimo blokai i\u0161 \u012fvairi\u0173 \u012frengini\u0173\\n-
+  Senos lempos (fluorescencin\u0117s, halogenin\u0117s \u2013 tik kai kur).\\nKai
+  kuri\u0173 supirktuvi\u0173 specializacija \u2013 b\u016btent elektroniniai komponentai,
+  tod\u0117l net i\u0161ardyti prietaisai dar gali b\u016bti vertingi.\\nProjekt\u0105
+  \u201e\u017daliasis puslapis\u201c i\u0161 dalies finansuoja \u201eMedij\u0173 r\u0117mimo
+  fondas\u201c (8000 Eur)\\nAutor\u0117 Egl\u0117 Stratkauskait\u0117\"", "\"Po 2014
+  metais statyto miuziklo, aktor\u0117 Cameron Diaz tdingo i\u0161 d\u0117mesio centro.
+  Viename interviu \u017eavioji moteris pasak\u0117, kad tiesiog pavargo nuo nuolatini\u0173
+  kelioni\u0173 darbo metu ir nusprend\u0117 pails\u0117ti.\\n\u201eI\u0161 tikr\u0173j\u0173
+  net negaliu sau pasakyti, kas a\u0161 esu. Su tuo susidurti yra labai sunku, pajutau
+  nor\u0105 tiesiog pab\u016bti su savimi\u201c, - pertraukos aktoryst\u0117je prie\u017east\u012f
+  paai\u0161kino 44 met\u0173 aktor\u0117.\\nKol C. Diaz m\u0117gavosi u\u017esitarnautu
+  poilsiu, ji \u012fsimyl\u0117jo roker\u012f Benji Madden. Pora susituok\u0117 2015
+  met\u0173 saus\u012f, vos po 7 m\u0117nesi\u0173 draugyst\u0117s. Aktor\u0117 prisipa\u017eino,
+  kad ji lauk\u0117 \u0161i\u0173 vedyb\u0173, nors ir neskub\u0117jo eiti prie altoriaus.\\n\u201eSuprantate,
+  a\u0161 vis nerasdavau tinkamo vyro. Tur\u0117jau daug vaikin\u0173, bet yra mil\u017eini\u0161kas
+  skirtumas tarp vaikino ir sutuoktinio. Ir dabar turiu tok\u012f, kuris yra ne tik
+  santuokoje vyras, bet ir mano gyvenimo partneris\u201c, - pasakojo C. Diaz. Aktor\u0117
+  prisipa\u017eino, kad nepaisant to, jog abu su vyru yra gana prie\u0161ingos asmenyb\u0117s,
+  jie labai papildo vienas kit\u0105.\"", "\"PANI Moter\u0173 Ilgai Perukai Vandens
+  Banga Sintetiniai Perukai U\u017e Wowen 613 Blond Plauk\u0173 Perukas Cosplay Perukas
+  Lolita Perukas Palaidi Plaukai Prat\u0119simo\\nApra\u0161ymas\\nMieli draugai,
+  a\u010di\u016b, kad lankot\u0117s m\u016bs\u0173 parduotuv\u0117je.Jei turite klausim\u0173,Kvie\u010diame
+  susisiekti su mumis bet kuriuo metu !!U\u017esakymai bus surengtas kaip tik j\u016bs\u0173
+  mok\u0117jimas buvo atliktas s\u0117kmingai sistema per 24 valandas!M\u016bs\u0173
+  prek\u0117s \u2014 PANI , buvo \u012fkurta 2011 m., mes esame profesionalus gamintojas
+  Sintetini\u0173 perukai gamyklos Xuchang Kinija, remia OEM/ODM/DIDMENINIAMS/MA\u017dMENIN\u0116/DROPSHIPPING/MIX
+  TVARKA, 100% geros kokyb\u0117s garantij\u0105, patraukli kaina, geriausias i\u0161ankstinio
+  pardavimo ir paslaugas po pardavimo, greitas pristatymas!M\u0117ginys gali b\u016bti
+  teikiama baz\u0117s d\u0117l savo nuotrauk\u0105/sketch/dizaino pie\u0161imo ir
+  kt.Mes visada tikim\u0117s, kad suteikti jums geriausia pirkimo patirtimi ir pl\u0117toti
+  win-win, ilgalaikius ir draugi\u0161kus santykius, bendradarbiavimo su jumis.Labai
+  a\u010di\u016b !\\n---- \u0160viesiaplauk\u0117-----\\n---- Ombre Sidabro-----\\n----
+  Middle Brown-----\\n- Kepurait\u0117 Dydis: Vidutinis Dydis\\n- Tekst\u016bra: Vandens
+  Banga\\n- Pristatymo terminas:\\n- Med\u017eiagos Klas\u0117: Auk\u0161tos Temperat\u016bros
+  Pluo\u0161to\\n- Perukai Ilgis: ilgai\\n- kaina:\\n- Ocassion:\\n- Prek\u0117s Pavadinimas:
+  PANI\\n- Spalva:\\n- Plauk\u0173 Gurantee:\\n\u017dymos\\n\u017dymos: harajuku perukas,
+  22 perukas, black lolita perukas, 613 blondin\u0117s perukas, m\u0117lyna priekiniai
+  n\u0117riniai, 613 priekin\u0117s perukas, cosplay perukas, blondin\u0117s perukas,
+  giliai pus\u0117je dalis n\u0117riniai perukas, lolita perukas.\"", "\"\u0160ilkografija
+  yra menas, mokslas ir pramon\u0117 vienu metu. Nesvarbu, ar esate m\u0117g\u0117jas,
+  norintis pasigaminti mar\u0161kin\u0117lius patys, menininkas, besidomintis tekstile,
+  ar profesionalas, ie\u0161kantis geriausio... \u0161ilkografijos da\u017eai j\u016bs\u0173
+  verslui, esate tinkamoje vietoje. \u0160is i\u0161samus tinklara\u0161\u010dio \u012fra\u0161as
+  supa\u017eindins jus su viskuo, k\u0105 reikia \u017einoti apie \u0161ilkografijos
+  da\u017eai, ypating\u0105 d\u0117mes\u012f skiriant tekstil\u0117s pritaikymui,
+  naudojant tokius preki\u0173 \u017eenklus kaip Greito kamuolio ir \u017dakardasir
+  daugyb\u0117 skirting\u0173 formuli\u0173, toki\u0173 kaip audinio \u0161ilkografijos
+  da\u017eai, plastizolisir \u0161iuolaikinis m\u0117gstamiausias, vandens pagrindo
+  da\u017eaiSu\u017einokite, kuris audinio ra\u0161alas tinka j\u016bs\u0173 projektui,
+  su\u017einokite, kaip pasiekti ry\u0161ki\u0173 rezultat\u0173 net ir ant tamsi\u0173
+  audini\u0173, ir su\u017einokite, kokie \u012frankiai bei med\u017eiagos pad\u0117s
+  jums gauti trok\u0161tam\u0105 profesional\u0173 rezultat\u0105. Nesvarbu, ar tapote
+  ant audinio savo malonumui, ar vadovaujate tekstil\u0117s \u0161ilkografijos studijai,
+  \u0161iame straipsnyje rasite visk\u0105, ko jums reikia!\\n\u0160ilkografija, daugelio
+  \u017einomas kaip \u0161ilkografija, yra metodas, kai da\u017eai per smulk\u0173
+  trafaret\u0105 stumiami ant pavir\u0161iaus \u2013 da\u017eniausiai tekstil\u0117
+  pavyzd\u017eiui, mar\u0161kin\u0117lius, med\u017eiaginius krep\u0161ius ar reklamines
+  juostas. A trafaretas apibr\u0117\u017eia dizain\u0105 ir a valytuvas padeda perkelti
+  ra\u0161al\u0105 per tinklel\u012f ant audinio.\\n\u0160ilkografijos metodas yra
+  pla\u010diai naudojamas tekstil\u0117s spauda d\u0117l savo universalumo, prieinamumo
+  ir profesionalios rezultat\u0173 kokyb\u0117s. Skirtingai nuo skaitmenin\u0117s
+  spaudos, \u0161ilkografija gali u\u017etepti storus, ry\u0161kius da\u017e\u0173
+  sluoksnius, tod\u0117l dizainai pasi\u017eymi didesniu spalv\u0173 sodrumu ir puikiu
+  atsparumu. neskaidrumasNesvarbu, ar spausdinama ant nat\u016bralaus, ar sintetinis
+  audinys\u0160is procesas leid\u017eia tiek menininkams, tiek gamintojams greitai
+  ir efektyviai dekoruoti didelius kiekius.\\n\u0160ilkografija i\u0161lieka pasirinkta
+  technika \u0161ilkografijos pramon\u0117 d\u0117l daugelio prie\u017eas\u010di\u0173:
+  jis puikiai tinka \u012fvairioms med\u017eiagoms, yra ekonomi\u0161kas vidutiniams
+  ir dideliems tira\u017eams ir gali pasiekti rezultat\u0173, kuriuos sunku pakartoti
+  kitais metodais. Tiems, kurie aistringai domisi tekstil\u0117s \u0161ilkografija,
+  \u012fvald\u0119 spausdinimo proceso pagrindus, atsiveria begalin\u0117s galimyb\u0117s
+  kurti unikalius, individualius gaminius.\\nKai kalbama apie \u0161ilkografijos da\u017eai,
+  j\u016bs\u0173 pasirinktas tipas labai paveiks rezultatus. Trys populiariausi ra\u0161alo
+  tipai yra plastizolis, vandens pagrinduir akrilas.\\nPlastizolio ra\u0161alas \u0160ilkografijos
+  pasaulyje i\u0161siskiria patvarumu ir naudojimo paprastumu. Jis ned\u017ei\u016bsta,
+  nebent b\u016bt\u0173 termi\u0161kai apdorotas, tod\u0117l ilgiau i\u0161lieka ant
+  audinio. Ta\u010diau jis u\u017esideda ant audinio, sukurdamas \u0161iek tiek pakelt\u0105
+  \u201erankos\u201c efekt\u0105 ir ry\u0161kius, nepermatomus atspaudus net ant tamsi\u0173
+  audini\u0173.\\nVandens pagrindo ra\u0161alas yra m\u0117gstamas d\u0117l mink\u0161to
+  poj\u016b\u010dio ir ekologi\u0161kos formul\u0117s. Jis \u012fsiskverbia \u012f
+  audinio pluo\u0161tus, tod\u0117l atspaudas tampa \u0161velnesnis. Jis idealiai
+  tinka \u0161viesesniems audiniams ir gali b\u016bti sud\u0117tingesnis naudoti ant
+  tamsi\u0173 audini\u0173, nebent jis b\u016bt\u0173 sukurtas taip, nepermatomas
+  arba naudojamas su i\u0161krovimo technika.\\nAkriliniai \u0161ilkografijos da\u017eai
+  sujungia geriausias abiej\u0173 pasauli\u0173 savybes, da\u017enai naudojamas akrilin\u0117
+  \u0161ilkografija ant tekstil\u0117s, kuriai reikalingas ypatingas lankstumas, arba
+  ant toki\u0173 pavir\u0161i\u0173 kaip popierius ir mediena. Skirtingi preki\u0173
+  \u017eenklai si\u016blo variantus, pavyzd\u017eiui permaset ir Profesional\u016bs
+  \u017eakardo trafaretiniai da\u017eai pateikti pa\u017eangius rezultatus konkretiems
+  meniniams poreikiams.\\nPasaulis audinio ra\u0161alas yra turtingas, su galimyb\u0117mis
+  kiekvienam pritaikymo tipui \u2013 nuo ry\u0161ki\u0173 spaudini\u0173 iki sintetiniai
+  pluo\u0161tai \u012f nepermatomo audinio \u0161ilkografija itin ry\u0161kiems dizainams.\\nPasirinkus
+  tobul\u0105 audinio \u0161ilkografijos da\u017eai priklauso nuo konkretaus projekto.
+  Reikia atsi\u017evelgti \u012f audinio tip\u0105 (nat\u016bralus ar sintetinis),
+  tekstil\u0117s spalv\u0105, numatyt\u0105 naudojim\u0105 (meno spaudiniai ar ne\u0161iojami
+  madingi drabu\u017eiai) ir skalbimo atsparum\u0105.\\nPradedantiesiems, a \u0161ilkografijos
+  pradinis rinkinys arba audini\u0173 \u0161ilkografijos pradinis rinkinys si\u016blo
+  kruop\u0161\u010diai atrinkt\u0105 ra\u0161al\u0173 ir pagrindini\u0173 \u012franki\u0173
+  pasirinkim\u0105, kad b\u016bt\u0173 lengviau eksperimentuoti su populiariomis parinktimis,
+  tokiomis kaip Speedball audinio \u0161ilkografijos da\u017eai\u0160iuose rinkiniuose
+  da\u017enai b\u016bna pagrindin\u0117s spalvos ir \u012fvair\u016bs da\u017eai \u0161ilkografijai
+  tipai, kad vartotojai gal\u0117t\u0173 i\u0161bandyti, kuris i\u0161 j\u0173 geriausiai
+  tinka j\u0173 procesui.\\nJei spausdinate ant \u0161viesios medviln\u0117s, vandens
+  pagrindu ir akriliniai da\u017eai yra puikus pasirinkimas, pasi\u017eymintis mink\u0161tu
+  liesti ir kv\u0117puojan\u010diu ra\u0161tu. Tamsiems arba sintetiniams audiniams
+  rinkit\u0117s plastizolis arba skirtas nepermatomas formul\u0117, u\u017etikrinanti
+  maksimal\u0173 padengim\u0105 ir ry\u0161kum\u0105. Profesionalai gali labiau linkti
+  prie serijos ra\u0161alai i\u0161 toki\u0173 preki\u0173 \u017eenkl\u0173 kaip Permaset
+  Aqua d\u0117l konkre\u010di\u0173 efekt\u0173 arba profesionalus \u017eakardo ekranas
+  da\u017eai dailei.\\nVisada apsvarstykite, ar jums reikia, kad j\u016bs\u0173 spaudiniai
+  b\u016bt\u0173 \u0161ilumos rinkinys d\u0117l patvarumo, ypa\u010d dirbant su akriliniai
+  da\u017eai arba vandens pagrindu ra\u0161alai.\\nSpeedball yra m\u0117gstamas \u017eaidimas
+  tiek m\u0117g\u0117j\u0173, tiek profesional\u0173 tarpe. J\u0173 med\u017eiaginis
+  \u0161ilkografijos da\u017eai vertinami d\u0117l plataus da\u017e\u0173 spalv\u0173
+  pasirinkimo, lengvo naudojimo ir suderinamumo su augaliniais ir sintetiniais pluo\u0161tais.\\n\u201eSpeedball\u201c
+  audinio \u0161ilkografijos da\u017eai yra pagaminti vandens pagrindu, netoksi\u0161ki
+  ir gali suteikti ry\u0161kias, ry\u0161kias spalvas su tinkamu neskaidrumu ant \u0161velnaus
+  ir vidutinio kietumo audini\u0173. Tai puikus pasirinkimas \u201epasidaryk pats\u201c
+  \u0161ilkografijai, nes juos lengva nuvalyti ir jie gerai laiko med\u017eiag\u0105.
+  Tiems, kurie dar tik pradeda \u0161ilkografij\u0105, \u201eSpeedball\u201c audinio
+  da\u017eai yra atspar\u016bs d\u0117m\u0117ms ir lankst\u016bs.\\nNors \u201eSpeedball\u201c
+  istori\u0161kai pabr\u0117\u017eia vandens pagrindu pagamintas formules, jie i\u0161pl\u0117t\u0117
+  savo veikl\u0105, \u012ftraukdami ir galimybes su geresniu padengimu tamsiems audiniams
+  ir patenkindami komercini\u0173 spaustuvi\u0173 poreikius.\\nKalbant apie i\u0161skirtinius,
+  meninink\u0173 klas\u0117s vaizdinius da\u017eus, \u201eJacquard\u201c \u2013 vardas,
+  kurio da\u017enai klausysit\u0117s. Profesional\u016bs \u017eakardo vaizdini\u0173
+  da\u017e\u0173 asortimentai sukurti taip, kad patenkint\u0173 rimt\u0173 tekstil\u0117s
+  meninink\u0173, kuriems svarbus j\u0173 spaudini\u0173 detalumas, spalv\u0173 atsparumas
+  ir lankstumas, poreikius.\\n\u0160ie audini\u0173 da\u017eai paprastai yra vandens
+  pagrindu, kad b\u016bt\u0173 mink\u0161ti, ta\u010diau yra sukurti tiek \u0161viesiems,
+  tiek tamsiems audiniams, si\u016blydami alternatyvas nepermatomam \u0161ilkografijos
+  b\u016bdui. \u017dakardo gaminiai taip pat suderinami su daugeliu tekstil\u0117s
+  pluo\u0161t\u0173, tod\u0117l menininkai gali i\u0161bandyti medviln\u0119, lin\u0105,
+  \u0161ilk\u0105 ir net kai kuriuos sintetinius audinius.\\n\u201eJacquard\u201c
+  u\u017etikrina nuolatinius rezultatus ir yra m\u0117gstamas spausdinimo ant audinio
+  bendruomen\u0117je d\u0117l meni\u0161kai auk\u0161tos kokyb\u0117s \u0161ilkografijos.
+  Jei ie\u0161kote profesionalios kokyb\u0117s rezultato ir plataus ry\u0161ki\u0173
+  spalv\u0173 pasirinkimo, \u201eJacquard\u201c profesional\u016bs demonstraciniai
+  da\u017eai yra puiki vieta prad\u0117ti.\\nVienas i\u0161 i\u0161\u0161\u016bki\u0173,
+  su kuriais susiduriama spausdinant audinius ant ekran\u0173, yra tvirt\u0173, ry\u0161ki\u0173
+  atspaud\u0173 i\u0161gavimas ant tamsi\u0173 audini\u0173. Standartiniai da\u017eai
+  da\u017enai neturi pakankamai neskaidrumo, kad atkurt\u0173 sen\u0105sias spalvas,
+  ta\u010diau neskaidrios med\u017eiagos \u0161ilkografijos formul\u0117s yra sukurtos
+  b\u016btent \u0161iai problemai spr\u0119sti.\\n\u0160iuolaikiniai \u0161ilkografijos
+  da\u017e\u0173 gamintojai (pvz., si\u016blantys permaset supercover) si\u016blo
+  alternatyvas neskaidriems ir itin neskaidriems da\u017eams, kurie nus\u0117da ant
+  audinio, u\u017etikrindami, kad j\u016bs\u0173 dizainas i\u0161likt\u0173 spalvingas
+  ir matomas net ant juodos ar tamsiai m\u0117lynos spalvos med\u017eiag\u0173. Plastizolinis
+  da\u017eai yra nat\u016braliai neskaidr\u016bs, nors vandens pagrindo arba akriliniams
+  vaizdin\u0117s spaudos da\u017eams taip pat gali reik\u0117ti speciali\u0173 neskaidrumo
+  variant\u0173.\\nSiekdami maksimaliai padidinti atsparum\u0105 dilimui, kai kurie
+  \u0161ilkografijos spausdintuvai rekomenduoja dvigub\u0105 ra\u0161alo slinkim\u0105
+  arba pirm\u0105j\u012f balto \u201epagrindo\u201c sluoksn\u012f trapiems da\u017eams.
+  Tokiose priemon\u0117se kaip ekran\u0173 spausdinimo da\u017e\u0173 rinkinys arba
+  audinio \u0161ilkografijos da\u017e\u0173 rinkinys da\u017enai naudojama matin\u0117
+  balta spalva, tod\u0117l galima gauti ry\u0161kius, profesionalios kokyb\u0117s
+  rezultatus.\\nNorint i\u0161gauti profesionalius tekstil\u0117s spaudos efektus,
+  jums reik\u0117s daugiau nei tik tinkam\u0173 \u0161ilkografijos da\u017e\u0173.
+  Svarbiausios \u0161ilkografijos med\u017eiagos yra \u0161ios:\\n- Ekrano r\u0117mai
+  (mediniai arba aliumininiai)\\n- Tinkamo tinklelio tinklelio pasirinkimas priklauso
+  nuo j\u016bs\u0173 dizaino ir ra\u0161alo\\n- Valytuvai (\u012fvairi\u0173 dyd\u017ei\u0173
+  ir kietumo)\\n- Trafaretin\u0117 med\u017eiaga arba vaizdo emulsija dizaino perk\u0117limui\\n-
+  \u0160ilumos fiksavimo \u012franga (\u0161ilumos presas arba lygintuvas vandens
+  pagrindo / akriliniams da\u017eams)\\n- Valymo cheminiai junginiai leidini\u0173
+  ir spaustuvi\u0173 prie\u017ei\u016brai\\nTokie preki\u0173 \u017eenklai kaip \u201eSpeedball\u201c
+  ir \u201eJacquard\u201c taip pat si\u016blo demonstracini\u0173 spausdinimo med\u017eiag\u0173
+  rinkinius, kad pirmakursiai gal\u0117t\u0173 lengvai susirinkti visk\u0105, ko reikia
+  norint s\u0117kmingai \u012fveikti i\u0161\u0161\u016bkius. Nepamir\u0161kite ir
+  kit\u0173 b\u016btiniausi\u0173 daikt\u0173, \u012fskaitant pir\u0161tines, prijuostes
+  ir tinkam\u0105 oro sraut\u0105, ypa\u010d naudodami specialios paskirties da\u017eus.\\nNesvarbu,
+  ar pie\u0161iate i\u0161 karto ant audinio, ar naudojate \u0161ilkografij\u0105,
+  pagrindinis tikslas \u2013 ilgalaikis, ry\u0161kus dizainas. Prie\u0161 spausdindami,
+  i\u0161skalbkite ir i\u0161d\u017eiovinkite audin\u012f, kad pa\u0161alintum\u0117te
+  klijus ir aliejus, kurie gali trukdyti ra\u0161alui sukibti.\\nPo spausdinimo naudokite
+  terminio fiksavimo metod\u0105, pvz., lyginim\u0105 arba \u0161ilumin\u012f pres\u0105,
+  kaip rekomenduojama pasirinktam audinio ra\u0161alui. Akriliniams da\u017eams, akriliniams
+  ekranams spausdinti arba vandens pagrindo ra\u0161alui tinkamas kiet\u0117jimas
+  yra labai svarbus, kad b\u016bt\u0173 i\u0161vengta i\u0161plovimo.\\nKad atspausdinti
+  drabu\u017eiai ilgai i\u0161likt\u0173, visada skalbkite i\u0161virk\u0161\u010di\u0105ja
+  puse \u012f i\u0161or\u0119 neriebiu vandeniu ir d\u017eiovinkite d\u017eiovykl\u0117je
+  \u017eemoje temperat\u016broje. Taip i\u0161saugomas atspausdint\u0173 da\u017e\u0173
+  ry\u0161kumas ir elastingumas. Dirbdami su individualiai pritaikytais audiniais,
+  venkite stipri\u0173 plovikli\u0173 ir balikli\u0173.\\n\u0160ilkografijos verslas
+  nuolat tobul\u0117ja. \u0160iandien ekologi\u0161kos vandens pagrindo alternatyvos,
+  tokios kaip \u201ePermaset Aqua\u201c, tapo aukso mada, m\u0117gstamos d\u0117l
+  ma\u017eesnio poveikio aplinkai ir \u0161velnaus pavir\u0161iaus.\\nSpecial\u016bs
+  audini\u0173 \u0161ilkografijos da\u017eai, kartu su silikoniniais da\u017eais,
+  skirti techniniams, didelio na\u0161umo audiniams (naudojamiems sportin\u0117je
+  aprangoje) ir suteikia intensyv\u0173 tamprum\u0105 bei ilgaam\u017ei\u0161kum\u0105
+  sintetiniams pluo\u0161tams. Taip pat atnaujintas akrilini\u0173 ir hibridini\u0173
+  da\u017e\u0173, skirt\u0173 kry\u017emini\u0173 audini\u0173 ir meno k\u016brini\u0173
+  spaudai, pasirinkimas.\\nSkaitmeniniai ir analoginiai metodai dabar derinami skland\u017eiau,
+  dizaineriams naudojant virtuali\u0105 \u012frang\u0105 dizainui parengti, ta\u010diau
+  pirmenyb\u0119 teikiant \u0161ilkografijai d\u0117l neprilygstam\u0173 lyt\u0117jimo
+  savybi\u0173. Galutinis rezultatas? Neribotos galimyb\u0117s kurti unikalius, suasmenintus
+  mados ir meno gaminius.\\n- \u0160ilkografija yra universalus ir patvarus tekstil\u0117s
+  dekoravimo b\u016bdas, leid\u017eiantis pasiekti i\u0161skirtini\u0173 profesionali\u0173
+  rezultat\u0173 net ir \u201epasidaryk pats\u201c aplinkoje.\\n- Tinkamo spausdinimo
+  da\u017e\u0173 (plastizolio, vandens pagrindo, akrilo arba hibridini\u0173) pasirinkimas
+  priklauso nuo j\u016bs\u0173 projekto audinio tipo, spalvos ir norimo rezultato.\\n-
+  Pirmaujantys gamintojai, tokie kaip \u201eSpeedball\u201c ir \u201eJacquard\u201c,
+  si\u016blo patikimas, fantasti\u0161kas med\u017eiagini\u0173 ekran\u0173 \u0161ilkografijos
+  da\u017e\u0173 alternatyvas tiek pradedantiesiems, tiek profesionalams.\\n- Tamsiems
+  audiniams matiniai \u0161ilkografijos da\u017eai suteikia norim\u0105 spalving\u0105
+  atspalv\u012f.\\n- Pradedan\u010di\u0173j\u0173 rinkiniai idealiai tinka pradedantiesiems,
+  nes suteikia pagrindini\u0173 i\u0161tekli\u0173 ir \u012fvairi\u0173 ekrano ra\u0161al\u0173
+  eksperimentams.\\n- Spausdinimo technika apima trafareto paruo\u0161im\u0105, tinkam\u0105
+  ekran\u0105, da\u017e\u0173 u\u017etepim\u0105 ir tinkam\u0105 kiet\u0117jim\u0105,
+  kad b\u016bt\u0173 u\u017etikrintas tvirtumas.\\n- Supraskite blokinio ir \u0161ilkografinio
+  spausdinimo skirtumus, kad pasirinktum\u0117te kokyb\u0117s metod\u0105, atitinkant\u012f
+  j\u016bs\u0173 k\u016brybin\u0119 vaizduot\u0119 ir numatym\u0105.\\n- Apsir\u016bpinkite
+  svarbiausiais ekran\u0173 \u0161ilkografijos elementais, taip pat ekranais, valytuvais
+  ir valymo priemon\u0117mis.\\n- Visada skalbkite ir termi\u0161kai fiksuokite audinio
+  atspaudus, kaip nurodyta, kad jie b\u016bt\u0173 kuo tvirtesni.\\n- Sekite naujausius
+  verslo patobulinimus \u2013 vandeniniai \u201eTotally\u201c ir \u201eForte\u201c
+  da\u017eai yra pirmaujan\u010dios ekologi\u0161ko ir didelio na\u0161umo spausdinimo
+  tendencijos.\\nPasiruo\u0161\u0119 atrasti vaizdin\u0117s spaudos pasaul\u012f ir
+  pakelti savo audini\u0173 k\u016brinius \u012f kit\u0105 lyg\u012f? Tur\u0117dami
+  reikiam\u0173 \u017eini\u0173 ir \u012franki\u0173, gausite ne tik gra\u017eius,
+  bet ir patvarius atspaudus.\"", "\"Iki \u0161iol \u0161is i\u0161pylimas n\u0117ra
+  atliekamas per\u0117jimo prie raumen\u0173 vietoje, kaip buvo pasi\u016blyta originalioje
+  versijoje, bet \u0161alia kaul\u0173 tvirtinimo zonos. Pacientas atrodo skausmo
+  sindromas, kuris yra sustiprintas per dien\u0105 su apkrova ir ilgai stovint.\\nMed\u017eiagos
+  redaguoti Alk\u016bn\u0117s skausmas - prie\u017eastys ir gydymas.\\nK\u0105 sako
+  a\u0161trus deginantis alk\u016bn\u0117s skausmas? Ber\u017eo pumpur\u0173 tinkt\u016bra
+  Yra daugyb\u0117 skirting\u0173 veiksni\u0173, sukelian\u010di\u0173 \u012fvyk\u012f.\\nDiagnostika\\nAlk\u016bn\u0117s
+  s\u0105narys yra labiau traumuojantis nei kiti, nes n\u0117ra apsaugotas nuo raumen\u0173
+  ar riebalinio sluoksnio poveikio. Be to, tai gana sud\u0117tinga. Nemalonus skausmingas
+  poj\u016btis kyla alk\u016bn\u0117s s\u0105naryje d\u0117l \u017ealos, perkrovos,
+  raumen\u0173 ir kaul\u0173 bei \u0161irdies ir kraujagysli\u0173 sistemos darbo
+  sutrikim\u0173.\\nGana lengva nustatyti skausmo \u0161altin\u012f alk\u016bn\u0117je.
+  Paprastai tam pakanka specialisto ap\u017ei\u016bros, taip pat s\u0105nario rentgeno
+  ar MRT. Skausmo prie\u017eastys Pagrindin\u0117s alk\u016bn\u0117s s\u0105nario
+  skausmo prie\u017eastys: Buvimas arba alk\u016bn\u0117s pa\u017eeidimas. Raumen\u0173
+  funkcijos sutrikimas, rai\u0161\u010di\u0173 ar s\u0105nari\u0173 pavir\u0161iaus
+  pa\u017eeidimas arba epikondilitas.\\nLigos, kurios n\u0117ra tiesiogiai susijusios
+  su alk\u016bn\u0117s s\u0105nariu, pvz. Neatmetama laikina ir ne\u012fprasta fizin\u0117
+  veikla. Skaud\u0117s rank\u0105, kuri yra per daug \u012ftempta - atitinkamai de\u0161in\u0117
+  ir kair\u0117. Ypa\u010d \u012fmanoma tokioje situacijoje skausmas lankstant s\u0105nar\u012f.
+  Epikondilitas Kai skausmas atsiranda lenkiant ir i\u0161tiesiant alk\u016bn\u0119
+  vidujetai yra, ant rauk\u0161l\u0117s, tai rodo, kad d\u0117l rai\u0161\u010di\u0173
+  d\u0117l paciento fizinio darbo susidar\u0117 mikrotrauma.\\nTuo atveju, kai pacientas
+  nuolatos patempia rank\u0105, pavyzd\u017eiui, d\u0117l profesijos pareigos, liga
+  i\u0161sivysto \u012f l\u0117tin\u0119 form\u0105. \u0160is rei\u0161kinys vadinamas
+  epikondilitu.\\nJis skirstomas \u012f: kai skausmingi poj\u016b\u010diai atsiranda
+  tik i\u0161tiesus rank\u0105, lenkimas nesukelia diskomforto. Tai pa\u017eeid\u017eia
+  i\u0161orin\u0119 dilbio dal\u012f. Atsiranda pa\u017eeidim\u0173 ir patempim\u0173
+  atveju, taip pat yra savoti\u0161kas \u0161alutinis poveikis u\u017esiimant sunkiu
+  sportu. Daugiau apie epikondilit\u0105 su\u017einosite i\u0161 \u0161io Elenos Malyshevos
+  vaizdo \u012fra\u0161o: Alk\u016bn\u0117s bursitas - u\u017edegiminis procesas s\u0105nario
+  kapsul\u0117 alk\u016bn\u0117. Sergant \u0161ia liga, nemalon\u016bs, skausmingi
+  poj\u016b\u010diai atsiranda kiekvien\u0105 kart\u0105 judinant alk\u016bn\u0117s
+  s\u0105nar\u012f. Gali skaud\u0117ti ir de\u0161in\u0119, ir kair\u0119.\\nNepriklausomai
+  nuo to, ar skausmas yra stiprus, verta susitarti su gydytoju. Priklausomai nuo skausmo
+  \u0161altinio, turite kreiptis \u012f reumatolog\u0105, neurolog\u0105 ar traumatolog\u0105
+  d\u0117l tolesnio gydymo. U\u017edegiminiai procesai s\u0105naryje Be su\u017ealojim\u0173
+  ir auk\u0161\u010diau i\u0161vardyt\u0173 prie\u017eas\u010di\u0173, einant pro
+  j\u012f atsiranda nemalonus poj\u016btis ar deginimo poj\u016btis alk\u016bn\u0117s
+  s\u0105naryje. Vienas i\u0161 veiksni\u0173, skatinan\u010di\u0173 u\u017edegim\u0105,
+  gali b\u016bti chondromatoz\u0117. Tai liga, kai s\u0105nari\u0173 pavir\u0161iuje
+  susidaro kaul\u0173 dariniai, d\u0117l kuri\u0173 dirginamos nerv\u0173 gal\u016bn\u0117s,
+  o v\u0117liau - u\u017edegiminiai procesai.\\nChondromatoz\u0117s simptomai: Neveiklumas
+  ir patinimas alk\u016bn\u0117s s\u0105nario srityje. Skausmas ir. Raumen\u0173,
+  palaikan\u010di\u0173 s\u0105nar\u012f, hipotrofija. U\u017edegim\u0105 sukelia
+  ir artritas. Jis skirstomas \u012f reaktyv\u0173 ir sistemin\u012f. Pastarasis tipas
+  gali visi\u0161kai paveikti visus s\u0105narius. Liga da\u017enai i\u0161sivysto
+  kaip komplikacija po sunki\u0173 raudonuk\u0117s, taip pat kit\u0173 infekcij\u0173.\\nPagrindinis
+  artrito po\u017eymis yra paraudimas, pavir\u0161i\u0173, esan\u010di\u0173 greta
+  s\u0105nario, patinimas, Tai bukas skausmas su rankos nejudrumu, a\u0161trus ir
+  a\u0161trus judant. S\u0105nari\u0173 sunaikinimas Vienas i\u0161 veiksni\u0173,
+  provokuojan\u010di\u0173 skausming\u0173 poj\u016b\u010di\u0173 atsiradim\u0105
+  alk\u016bn\u0117je, yra s\u0105narinio audinio sunaikinimas. Da\u017enai taip yra
+  d\u0117l alk\u016bn\u0117s s\u0105nario artroz\u0117s atsiradimo. Tai atsiranda
+  esant nuolatiniam ilgalaikiam s\u0105nario stresui, taip pat esant hormoniniams
+  sutrikimams. Artroz\u0117s skausmas yra labai stiprus, ypa\u010d lenkiant, o paveikta
+  vieta tampa nejudri.\\nPo operacijos\\nArtroz\u0117s vystymuisi galima nuotraukos
+  i\u0161 s\u0105nari\u0173 skausmo keli\u0105 kruop\u0161\u010diu po\u017ei\u016briu
+  \u012f s\u0105nar\u012f ir vengiant perkrovos. Gydym\u0105 sudarys terapija, pri\u0117mimas
+  ir vidinis administravimas. Sunaikinimas \u012fvyksta ir tada, kai gimdos kaklelio
+  osteochondroz\u0117 kai gri\u016bvantys tarpslanksteliniai diskai leid\u017eia slanksteliams
+  suspausti nerv\u0173 galus, o tai provokuoja, ir ne tik kaklo stuburo srityje.\\nGalime
+  sakyti, kad skausmai yra atspind\u0117to pob\u016bd\u017eio. Da\u017enai kartu su
+  alk\u016bn\u0117s s\u0105nariu arba, kartais, jis ateina. Atsiradimo prie\u017eastys
+  gali b\u016bti netinkama laikysena, s\u0117slus gyvenimo b\u016bdas, neteisingai
+  suformuota mityba. Gali pad\u0117ti speciali\u0173 vaist\u0173, atkurian\u010di\u0173
+  kremzles ir audinius, vartojimas. Atitinkamai, jei alk\u016bn\u0117s skausmas atsiranda
+  d\u0117l kit\u0173 problem\u0173, tada reikia gydyti ne alk\u016bn\u0117s s\u0105nar\u012f,
+  o tiesiogiai tai, kas sukelia skausm\u0105: tai gali b\u016bti tarpslankstelin\u0117
+  i\u0161var\u017ea arba osteochondroz\u0117.\\nPo to, kai pa\u017eeista vieta paciento
+  u\u017eraktai susta atkurta, skausmingi poj\u016b\u010diai s\u0105naryje i\u0161nyks.
+  Skausming\u0173 simptom\u0173 \u012fvairov\u0117 Skausmo tipai alk\u016bn\u0117je
+  yra \u0161ie: Atspind\u0117tas skausmas. Yra raumen\u0173 ir kaul\u0173 sistemos
+  sutrikimai, ypa\u010d sergant gimdos kaklelio osteochondroze.\\nGalimas bicepso
+  raumen\u0173 atrofinio sindromo vystymasis. Da\u017enai su ja. Skausmo pob\u016bdis
+  traukia. Atsiranda suspaudus stuburo nervus, su i\u0161var\u017eos disku arba po
+  traumos. J\u012f i\u0161provokuoja nerv\u0173 gal\u016bni\u0173 u\u017edegimas esant
+  artrozei arba d\u0117l m\u0117lyni\u0173.\\nLankstant jau\u010diamas \u016bmus skausmas,
+  kur\u012f lydi deginimo poj\u016btis prat\u0119simo metu. Tai da\u017eniausiai pasirei\u0161kia
+  su traumomis, bursitu ar artritu. Labai stiprus, a\u0161trus, riboja fizin\u012f
+  aktyvum\u0105. Atsiranda u\u017edegimo metu arba suspaudus nerv\u0173 galus.\\n\u0160iuo
+  atveju rankos prat\u0119simas sukelia netoleruot\u0105 deginimo poj\u016bt\u012f
+  s\u0105naryje. Nuobodu ir skauda. Kalb\u0117ti apie l\u0117tin\u0117mis ligomis
+  toki\u0173 kaip artroz\u0117, gydymas epipudilite alk\u016bn\u0117s s\u0105nario
+  liaudies gynimo atsiliepimus.\\nJis nuolat yra, net kai ranka nejuda, o lenkimo
+  ir i\u0161tiesimo momentu ji tampa stipresn\u0117. Gydo alk\u016bn\u0117s skausm\u0105,
+  susijus\u012f su lenkimu ir prat\u0119simu Nepaisant to, kad nemalon\u016bs poj\u016b\u010diai
+  s\u0105naryje negali sukelti stipraus diskomforto, b\u016btina gydyti atsiradusi\u0105
+  lig\u0105.\\nRankin\u0117s rankos: prie\u017eastys, simptomai, gydymas\\nJei liga
+  i\u0161sivystys \u012f l\u0117tin\u0119, bus sunkiau su ja susidoroti, o skausmas
+  sustipr\u0117s esant kr\u016bviui, pasikeitus orams. Jei skausmas atsiranda alk\u016bn\u0117je,
+  tur\u0117tum\u0117te j\u012f suma\u017einti fizin\u0117 veikla ir treniruot\u0117s,
+  kad nepa\u017eeistum\u0117te s\u0105nari\u0173 ir periartikulini\u0173 pavir\u0161i\u0173.
+  Jei skausmas nesiliauja, verta griebtis rimtesni\u0173 b\u016bd\u0173, kaip i\u0161spr\u0119sti
+  i\u0161kilusi\u0105 problem\u0105. J\u016bs turite laikyti led\u0105, apvyniodami
+  j\u012f rank\u0161luos\u010diu, minu\u010di\u0173 tepdami j\u012f ant de\u0161in\u0117s
+  ar kair\u0117s alk\u016bn\u0117s s\u0105nario; esant labai stipriam nuolatiniam
+  skausmui, turite laikinai imobilizuoti alk\u016bn\u0119, u\u017ed\u0117dami \u012ftvar\u0105
+  ant skarel\u0117s kaip ir ; galite naudoti pla\u010diai paplitusius s\u0105nari\u0173
+  tepalus ir gelius, kurie turi prie\u0161u\u017edegimini\u0173 ar; proced\u016bros
+  taip pat pad\u0117s, pavyzd\u017eiui, elektroforezei su novokaino tirpalu, ta\u010diau
+  jos atliekamos tik taip, kaip nurod\u0117 gydytojas; kai kuriais atvejais pad\u0117s
+  s\u0105nario ortopediniai tvars\u010diai, kurie neleid\u017eia kondil\u0117ms jud\u0117ti
+  lenkimo ir tempimo metu, palaiko j\u0173 ger\u0105 form\u0105.\\nS\u0105nario taisymo
+  procesas trunka nuo 1 iki 3 savai\u010di\u0173. Ta\u010diau net ir atliekant gydym\u0105,
+  apkrova turi b\u016bti ribojama dar kur\u012f laik\u0105, kad b\u016bt\u0173 i\u0161vengta
+  nemaloni\u0173 poj\u016b\u010di\u0173 pasikartojimo. B\u016btina ne\u012ftraukti
+  sunkios treniruot\u0117s ir per didelio sergan\u010dio ploto pervargimo. Profilaktika
+  Jei nustatoma skausmo prie\u017eastis, atliekamas tinkamas s\u0105nario gydymas,
+  svarbu laikytis keli\u0173 taisykli\u0173, kad v\u0117liau nekilt\u0173 b\u0117d\u0173.
+  B\u016btina periodi\u0161kai atlikti terapinius ir gimnastikos pratimus, kad b\u016bt\u0173
+  i\u0161vengta galim\u0173 s\u0105nari\u0173 traum\u0173 ir i\u0161laikyti raumenis
+  plasti\u0161kos b\u016bkl\u0117s.\\nDr Evdokimenko pasidalino alk\u016bni\u0173
+  s\u0105nari\u0173 gimnastikos pratimais: Alk\u016bn\u0117s s\u0105narys yra sud\u0117tingas
+  ir tuo pat metu pa\u017eeid\u017eiamas s\u0105narys. Pa\u017eeid\u017eiamum\u0105
+  lemia tai, kad tr\u016bksta raumen\u0173 ir riebalinio audinio apsaugos.\\nI\u0161
+  kuri\u0173 yra imamasi. DOMEXIDE instrukcijos. Tarp da\u017eniausi\u0173 pusi\u0173
+  simptom\u0173 galite skirti kelet\u0105\\nAlk\u016bn\u0117s skausmas lenkimo metu
+  gali b\u016bti patologijos ar mechanini\u0173 pa\u017eeidim\u0173 simptomas. Skausmo
+  prie\u017eastys Pagrindin\u0117s skausmo prie\u017eastys lenkiant rank\u0105 alk\u016bn\u0117s
+  srityje: kaul\u0173 pa\u017eeidimas arba jungiamasis audinys Bendras. Tai i\u0161nirimai,
+  patempimai, rai\u0161\u010di\u0173 ir sausgysli\u0173 ply\u0161imai, m\u0117lyn\u0117s,
+  sm\u016bgiai.\\nJei pataik\u0117te arba kai atsirado m\u0117lyn\u0117, b\u016btinai
+  turite susisiekti intensyvi prie\u017ei\u016bra i\u0161siai\u0161kinti, kod\u0117l
+  skauda s\u0105nar\u012f po nedidel\u0117s traumos; u\u017edegiminio ar infekcinio
+  pob\u016bd\u017eio patologiniai procesai, vykstantys s\u0105nari\u0173 audiniuose,
+  kai sunku i\u0161tiesinti ar i\u0161tiesinti dilb\u012f; stipraus skausmo atsiradimas
+  alk\u016bn\u0117je kair\u0117s ar de\u0161in\u0117s gal\u016bn\u0117s pus\u0117je
+  gali b\u016bti atspind\u0117tas ligos simptomas Vidaus organai S\u0105nari\u0173
+  audiniai \u0161iuo atveju nenuken\u010dia.\\nTokios vidin\u0117s patologijos apima
+  i\u0161var\u017e\u0105 tarp slanksteli\u0173, alk\u016bninio nervo neurit\u0105,
+  osteochondroz\u0119; skausmingi laikino pob\u016bd\u017eio poj\u016b\u010diai da\u017enai
+  siejami su dideliu fiziniu kr\u016bviu, kurio metu alk\u016bn\u0117 yra toje pa\u010dioje
+  pad\u0117tyje ilgas laikas Tokiu atveju diskomfortas bus jau\u010diamas ant rankos,
+  kuri buvo per daug \u012ftempta. Negalite ignoruoti k\u016bno signal\u0173, kai
+  skauda alk\u016bni\u0173 lenkimus.\\nJei prie\u017eastis nenustatoma laiku ir gydymas
+  nepradedamas, trump\u0105 laik\u0105 gali atsirasti dalinis ar visi\u0161kas s\u0105nario
+  apribojimas. Skausmas i\u0161 vidaus Skausmas vidin\u0117je alk\u016bn\u0117je da\u017eniausiai
+  yra epikondilito simptomas. Patologinis procesas kartais vadinamas golfo \u017eaid\u0117jo
+  alk\u016bne, nes profesionaliems sportininkams gresia pavojus. Sergant alk\u016bnkaulio
+  epikondilitu, raumen\u0173 audinys u\u017edegamas, kuris pritvirtinamas prie kaulini\u0173
+  s\u0105nario i\u0161ky\u0161\u0173. Alk\u016bn\u0119 skauda tik sulenkiant ir i\u0161tiesiant
+  kr\u016bvio metu, o poilsio metu n\u0117ra nemaloni\u0173 poj\u016b\u010di\u0173.\\nVizualiai
+  alk\u016bn\u0117s poky\u010di\u0173 n\u0117ra, ta\u010diau skausmas trikdo net ir
+  paspaudus rankas, ir kai ranka yra pakabinta.\\nPo treniruot\u0117s Stiprus skausmas,
+  prat\u0119sus alk\u016bn\u0117s s\u0105nar\u012f po gydymas epipudilite alk\u016bn\u0117s
+  s\u0105nario liaudies gynimo atsiliepimus kr\u016bvio, gali b\u016bti susij\u0119s
+  su kaip nurodyta toliau \u017eala: dislokacija; alk\u016bn\u0117s s\u0105nario subluksacija;
+  patempimai d\u0117l per didelio kr\u016bvio ar netinkamo fizinio kr\u016bvio.\\nNepertraukiamas
+  skausmas gali b\u016bti medialinio epikondilito ar kubitalinio kanalo sindromo su
+  alk\u016bninio nervo u\u017edegimu po\u017eymis. I\u0161 prad\u017ei\u0173 epikondilitas
+  leid\u017eia sulenkti ir atlenkti gal\u016bnes, ta\u010diau, vystantis ligai, tampa
+  sunkiau i\u0161gydyti patologij\u0105. Jei nekreipsite d\u0117mesio \u012f skausm\u0105,
+  kuris atsiranda po treniruot\u0117s, tada ant jungiamojo jungiamojo audinio susidarys
+  randai. D\u0117l rand\u0173 atsiranda visi\u0161kas arba ribotas alk\u016bn\u0117s
+  s\u0105nario mobilumas.\\nPatempimai gali b\u016bti izoliuoti arba derinami su dislokacija
+  ir l\u016b\u017eiu. Pavien\u0117s podagra boala r\u016b\u0161ys yra da\u017enos
+  ir atsiranda d\u0117l padid\u0117jusio sporto kr\u016bvio. Jei \u017emogus nesportuoja,
+  bet pacientas yra sulenktas, tada rei\u0161kinio prie\u017eastis gali b\u016bti
+  a\u0161trus judesys.\\nD\u0117l mechanini\u0173 traum\u0173 gali atsirasti patempim\u0173,
+  d\u0117l kuri\u0173 alk\u016bn\u0117s lenkimas skauda.\"", "\"Ketinate pirkti ne
+  tik dvira\u010dius, bet ir specialius aksesuarus? Galvojate kiek teks i\u0161leisti?
+  Na, viskas lemi\u0105 patys pirkiniai ir tai, i\u0161 kur juos perkate. Jeigu norite
+  i\u0161leisti kuo ma\u017eesn\u0119 pinig\u0173 sum\u0105 perkant aksesuarus dvira\u010diams,
+  naudinga b\u016bt\u0173 susirasti vien\u0105 pardav\u0117j\u0105, i\u0161 kurios
+  nuolatos u\u017esakytum\u0117te atitinkamas prekes bei dvira\u010di\u0173 dalis.
+  Ekspert\u0173 teigimu, visada geriausia tur\u0117ti vien\u0105 tiek\u0117j\u0105,
+  kuris par\u016bpina visk\u0105 ko reikia norimu metu. Tokiu b\u016bdu da\u017eniau
+  galima tik\u0117tis ir speciali\u0173 nuolaid\u0173, nes vis d\u0117lto \u2013 nuolatiniai
+  pirk\u0117jai visada atne\u0161a nema\u017e\u0105 peln\u0105 bet kokiam prekybininkui.\\nDvira\u010di\u0173
+  dali\u0173 ir pa\u010di\u0173 dvira\u010di\u0173 pardav\u0117j\u0173 teigimu, i\u0161laidos
+  da\u017eniausiai priklauso nuo to, kiek pa\u010dioje prad\u017eioje pirk\u0117jas
+  gali sau leisti. Pavyzd\u017eiui, jeigu pirk\u0117jas ie\u0161ko ka\u017ekokio krep\u0161io,
+  kuris b\u016bt\u0173 montuojamas dvira\u010dio gale, jis gali tok\u012f \u012fsigyti
+  u\u017e labai \u017eem\u0105 kain\u0105. Ta\u010diau, reikia tur\u0117ti galvoje,
+  kad ma\u017ea kaina gali \u012fsp\u0117ti apie tai, jog tok\u012f krep\u0161\u012f
+  teks pirkti i\u0161 naujo po kurio laiko. Pig\u016bs krep\u0161iai turi labai ribot\u0105
+  naudojimo laik\u0105. Jie gali greitai suply\u0161ti, ypa\u010d va\u017eiuojant
+  duob\u0117tomis vietomis ar esant nema\u017eam kr\u016bviui. Taip pat riekia pamin\u0117ti,
+  kad ma\u017eai kainuojantys aksesuarai pasi\u017eymi ir standartin\u0117mis funkcijomis.
+  Kad ir tie patys pig\u016bs krep\u0161iai \u2013 jie skirti daikt\u0173 laikymui,
+  ta\u010diau tai nerei\u0161kia, kad jie apsaugos nuo vandens ar paprasto menko lietaus.
+  Perkant aksesuarus, reik\u0117t\u0173 atsi\u017evelgti \u012f tai, i\u0161 ko jie
+  yra pagaminti ir kokius \u017ealingus faktorius geba atlaikyti. Kaina da\u017enai
+  pabr\u0117\u017eia, kad kokyb\u0117 n\u0117ra i\u0161 ger\u0173j\u0173.\\nJeigu
+  jus domina tik kokybi\u0161ki dvira\u010di\u0173 aksesuarai, tuomet juos galite
+  \u012fsigyti i\u0161 specializuot\u0173 internetini\u0173 parduotuvi\u0173. Aksesuarai
+  dvira\u010diams pardavin\u0117jami tiek paprastose el. parduotuv\u0117se, tiek ir
+  tose, kur prekiaujama prek\u0117mis, susijusiomis su dvira\u010diais. Pastarosios
+  vietose pirkti tiek pa\u010dius dvira\u010dius, tiek ir j\u0173 aksesuarus b\u016bt\u0173
+  geriausia. Mat, tokie pardav\u0117jau si\u016blo did\u017eiausi\u0105 pasirinkim\u0105
+  ir geriausi\u0105 aptarnavim\u0105. Jie pasi\u016blys visk\u0105 ko jums reik\u0117s,
+  o jeigu asortimente nebus norim\u0173 aksesuar\u0173, tokie pardav\u0117jai galb\u016bt
+  pasi\u016blys ir individualius u\u017esakymus i\u0161 tiek\u0117j\u0173 sand\u0117li\u0173.\"",
+  "\"Yra sand\u0117lyje\\nPlonas Atveju, Huawei Mediapad M5 8.4 PU Odos, Sulankstomas
+  Magnetinis Stendas Padengti Huawei M5 8.4 SHT-AL09 SHT-W09 Tablet Atvejais\\n1.100%
+  naujas.\\n2.Pagamintas i\u0161 auk\u0161tos kokyb\u0117s PU oda+kietajame kompiuterio
+  padengti stendo.Mielas spaudiniai ultra plonas plonas smart cover stov\u0117ti atveju,
+  Huawei Mediapad M5 8.4\\\" SHT-AL09 SHT-W09.\\n3.Apsaugoti savo prietais\u0105 nuo
+  sugadinimo, sm\u016bgi\u0173 ir \u012fbr\u0117\u017eim\u0173.\\n4.Puikiai suderinamas
+  su \\\"Huawei Mediapad M5 8.4\\\" SHT-AL09 SHT-W09.\\n5.Lanksti naudoti ir lengva
+  valyti.\\n6.Lengvas ir convinient atlikti.\\n7.Spalvos: kaip nuotraukos rodo, juoda,
+  m\u0117lyna, raudona, \u017ealia, purpurin\u0117, aukso, juoda.\\n\u20ac10.37\\n\u20ac12.20\\nRankos
+  Juostos Audinys, \\\"huawei\\\" M5, Atveju Huawei M5, Atveju, Huawei Mediapad M5
+  Lite \\\" Plan\u0161etin\u012f Kompiuter\u012f, Phoenix Mar\u0161kin\u0117liai,
+  Atveju \\\"huawei\\\" Plan\u0161etinis, \\\"huawei\\\" M5 Tablet, Huawei Mediapad,
+  Atveju, Huawei Mediapad M5 Tablet, 8 Coli\u0173 Tablet\u0119 Huawei.\"", "\"\u017dinomo
+  norveg\u0173 architekto ir tyr\u0117jo Bj\u00f8rno Berg\u0117s knyga pasakoja apie
+  penkiasde\u0161imt 1840\u20131970 metais egzistavusi\u0173 valstybi\u0173. Bojaka,
+  Ikik\u0117, Korjentesas, Piet\u0173 Kasajus, Helgolandas, Triestas, Labuanas, Tan\u017eeras\u2026
+  Kai kuri\u0173 pavadinimai galb\u016bt su\u017eadins tam tikr\u0173 asociacij\u0173,
+  o kiti k\u0105 nors tesakys retam i\u0161 m\u016bs\u0173. \u0160ios pra\u017euvusios
+  \u0161alys gali papasakoti ne\u012ftik\u0117tin\u0173 istorij\u0173 \u2013 ar tai
+  b\u016bt\u0173 trumpaam\u017e\u0117 Ryt\u0173 Karelija, nugyvenusi vos kelet\u0105
+  \u017eiemos savai\u010di\u0173 per 1922-\u0173j\u0173 kar\u0105, ar sunkiau palau\u017eiama
+  Oran\u017eijos Laisvoji Respublika, b\u016br\u0173 valdoma valstyb\u0117, XIX am\u017eiaus
+  pabaigoje at\u0161ventusi nepriklausomyb\u0117s penkiasde\u0161imtmet\u012f.\\nSiekdama,
+  kad svetain\u0117 skland\u017eiai veikt\u0173 ir pager\u0117t\u0173 J\u016bs\u0173
+  nar\u0161ymo patirtis, Ignalinos rajono savivaldyb\u0117s vie\u0161oji biblioteka
+  naudoja slapukus. Jei sutinkate, paspauskite mygtuk\u0105 \u201eSutinku\u201c arba
+  nar\u0161ykite toliau. Sutikim\u0105 bet kada gal\u0117site at\u0161aukti pakeisdami
+  savo interneto nar\u0161ykl\u0117s nustatymus ir i\u0161trindami \u012fra\u0161ytus
+  slapukus. Pa\u017eym\u0117tina, kad kai kurios svetain\u0117s dalys gali neveikti,
+  kaip numatyta, jeigu nesutiksite su slapuk\u0173 politika.\"", "\"Kai ne\u0161dami
+  krep\u0161ius nuolat kei\u010diate puses, strategi\u0161kai u\u017ekertate keli\u0105
+  raumen\u0173 disbalansui, tolygiai paskirstydami mechanin\u012f kr\u016bv\u012f
+  raumen\u0173 ir kaul\u0173 sistemai. Taip suma\u017einama vienpus\u0117 apkrova,
+  kuri gali sukelti kompensacinius judesi\u0173 modelius ir laikysenos nukrypimus.\\nKeisdami
+  pe\u010dius, suma\u017einsite l\u0117tinio raumen\u0173 \u012ftempimo, asimetrin\u0117s
+  j\u0117gos vystymosi ir galimo biomechaninio kr\u016bvio rizik\u0105. J\u016bs\u0173
+  k\u016bno strukt\u016brinis vientisumas jums pad\u0117kos \u2013 apie \u0161\u012f
+  itin svarb\u0173 biomechanikos princip\u0105 galima su\u017einoti ir daugiau.\\nRaumen\u0173
+  asimetrijos ir svorio pasiskirstymo supratimas\\nNors raumen\u0173 asimetrija da\u017enai
+  vystosi nepastebimai, ji yra didel\u0117 biomechanin\u0117 problema, galinti pakenkti
+  sportiniams rezultatams ir padidinti traum\u0173 rizik\u0105. Nat\u016bralus k\u016bno
+  polinkis teikti pirmenyb\u0119 dominuojan\u010dioms raumen\u0173 grup\u0117ms gali
+  sukurti nevienodus j\u0117gos ir lankstumo modelius, o tai lemia kompensacines jud\u0117jimo
+  strategijas, kurios apkrauna s\u0105narius ir mink\u0161tuosius audinius.\\nSvorio
+  pasiskirstymas yra labai svarbus raumen\u0173 pusiausvyrai. Kai nuolat ne\u0161iojate
+  kr\u016bv\u012f vienoje k\u016bno pus\u0117je, suaktyv\u0117ja asimetri\u0161ki
+  raumenys ir gali sutrikti nerv\u0173 pusiausvyra. Tokia pasikartojanti apkrova gali
+  sukelti raumen\u0173 adaptacij\u0105, kuri palaipsniui kei\u010dia j\u016bs\u0173
+  kinetin\u0119 grandin\u0119, o tai gali lemti laikysenos nukrypimus ir kompensacin\u0119
+  mechanik\u0105.\\nNorint atpa\u017einti \u0161iuos subtilius poky\u010dius, reikia
+  gerai suvokti propriocepcij\u0105 ir sistemingai vertinti raumen\u0173 simetrij\u0105
+  \u012fvairiose jud\u0117jimo plok\u0161tumose.\\nPasl\u0117ptas vienpusio krep\u0161io
+  ne\u0161iojimo pavojus\\nVienpusis krep\u0161io ne\u0161iojimas yra da\u017enas,
+  ta\u010diau nepastebimas biomechaninis stresorius, galintis smarkiai pagreitinti
+  raumen\u0173 asimetrij\u0105. Kai krep\u0161\u012f nuolat ne\u0161iojate ant tos
+  pa\u010dios pus\u0117s, atsiranda netolygus raumen\u0173 \u012ftempimas ir apkrovos
+  pasiskirstymas visoje k\u016bno kinetin\u0117je grandin\u0117je. D\u0117l \u0161ios
+  pasikartojan\u010dios \u012ftampos gali atsirasti kompensaciniai judesi\u0173 modeliai,
+  sukeliantys laikysenos nukrypimus ir galimus raumen\u0173 ir kaul\u0173 sistemos
+  sutrikimus.\\nIlgalaikis \u0161oninis stuburo suspaudimas ir vienpusis raumen\u0173
+  \u012fdarbinimas gali sukelti biomechanin\u0117s pusiausvyros poky\u010dius. Dominuojan\u010dioje
+  ne\u0161iojimo pus\u0117je esantys trapeciniai raumenys, g\u016b\u017eduob\u0117s
+  ir stuburo raumenys patiria neproporcing\u0105 apkrov\u0105, tod\u0117l gali i\u0161sivystyti
+  hipertrofija arba l\u0117tinis \u012ftempimas. Tod\u0117l rizikuojate patirti l\u0117tin\u012f
+  skausm\u0105, suma\u017e\u0117s judrumas ir padid\u0117s polinkis \u012f raumen\u0173
+  ir kaul\u0173 sistemos traumas, kurios gali pakenkti ilgalaikiam fiziniam darbingumui
+  ir strukt\u016briniam vientisumui.\\nKaip netolygi apkrova veikia laikysen\u0105
+  ir koordinacij\u0105\\nKai nuolat asimetri\u0161kai apkraunate savo k\u016bn\u0105,
+  nety\u010dia paleid\u017eiate laikysenos kompensacini\u0173 mechanizm\u0173 kaskad\u0105,
+  kuri gali i\u0161 esm\u0117s pakeisti j\u016bs\u0173 skeleto i\u0161sid\u0117stym\u0105.
+  \u0160ios kompensacijos atsiranda, kai j\u016bs\u0173 raumen\u0173 ir nerv\u0173
+  sistemos bando i\u0161laikyti pusiausvyr\u0105 esant nevienodai apkrovai.\\nNuolatin\u0117s
+  vienpus\u0117s apkrovos biomechanin\u0117s pasekm\u0117s yra \u0161ios:\\n- stuburo
+  kreivumo poslinkis, sukuriantis netaisykling\u0105 slanksteli\u0173 pad\u0117t\u012f\\n-
+  Raumen\u0173 \u012ftempimas dominuojan\u010dioje apkrov\u0105 ne\u0161an\u010dioje
+  pus\u0117je\\n- Kompensaciniai judesi\u0173 modeliai, didinantys traum\u0173 rizik\u0105\\nJ\u016bs\u0173
+  k\u016bnas nat\u016braliai \u012fdarbins stabilizuojan\u010dius raumenis, kad neutralizuot\u0173
+  netolyg\u0173 svorio pasiskirstym\u0105, tod\u0117l atsiranda ne\u017eymi\u0173,
+  bet reik\u0161ming\u0173 laikysenos nukrypim\u0173. Laikui b\u0117gant \u0161ios
+  adaptacijos gali sukelti chroni\u0161kus i\u0161krypimus, galin\u010dius sukelti:\\n-
+  padid\u0117jusi\u0105 s\u0105nari\u0173 \u012ftamp\u0105\\n- Suma\u017e\u0117j\u0119s
+  biomechaninis efektyvumas\\n- Spartesnis raumen\u0173 ir kaul\u0173 sistemos nusid\u0117v\u0117jimas\\nPaprasti
+  subalansuoto krep\u0161i\u0173 ne\u0161iojimo b\u016bdai\\nDauguma \u017emoni\u0173
+  krep\u0161ius ne\u0161ioja asimetri\u0161kai, tod\u0117l j\u0173 raumen\u0173 ir
+  kaul\u0173 sistema patiria didel\u012f biomechanin\u012f kr\u016bv\u012f. Nor\u0117dami
+  suma\u017einti netolygi\u0105 raumen\u0173 apkrov\u0105 ir laikysenos i\u0161kraipymus,
+  nor\u0117site taikyti strateginius mai\u0161\u0173 ne\u0161iojimo b\u016bdus. Sistemingai
+  kaitaliokite pe\u010dius ne\u0161dami krep\u0161ius, kad n\u0117 viena pus\u0117
+  ilg\u0105 laik\u0105 neb\u016bt\u0173 neproporcingai prisl\u0117gta. Rinkit\u0117s
+  krep\u0161ius su pla\u010diais, pamink\u0161tintais dir\u017eais, kurie tolygiau
+  paskirsto apkrov\u0105 pe\u010di\u0173 juostai ir vir\u0161utinei nugaros daliai.
+  Apsvarstykite galimyb\u0119 naudoti kuprines su abipusiais dir\u017eais, kurie skatina
+  tolyg\u0173 svorio paskirstym\u0105 ir ma\u017eina kompensacinius judesi\u0173 modelius.
+  Jei \u012fmanoma, naudokite kry\u017emines kuprines, kuriose svoris sutelkiamas
+  ties k\u016bno vidurio linija, taip suma\u017einant \u0161onin\u012f stuburo nuokryp\u012f.
+  Ilgesnio ne\u0161iojimo metu periodi\u0161kai keiskite krep\u0161io viet\u0105,
+  kad i\u0161vengtum\u0117te lokalaus raumen\u0173 nuovargio ir asimetrinio raumen\u0173
+  \u012fdarbinimo.\\nIlgalaik\u0117 kaitaliojam\u0173 pusi\u0173 nauda sveikatai\\nKadangi
+  l\u0117tin\u0117 asimetrin\u0117 apkrova gali sukelti progresuojan\u010di\u0105
+  raumen\u0173 ir kaul\u0173 sistemos adaptacij\u0105, strateginis apkrov\u0105 turin\u010di\u0173
+  pusi\u0173 kaitaliojimas duoda didel\u0119 prevencin\u0119 naud\u0105 sveikatai.
+  Nuolat keisdami pus\u0119, ant kurios ne\u0161iojate krep\u0161ius, suma\u017einsite
+  galimas ilgalaikes raumen\u0173 ir kaul\u0173 sistemos komplikacijas.\\nPagrindiniai
+  privalumai:\\n- Ma\u017eesn\u0117 stuburo i\u0161krypimo ir nelygios pe\u010di\u0173
+  pad\u0117ties rizika.\\n- Suma\u017einti raumen\u0173 kompensacijos modeliai, sukeliantys
+  biomechanin\u0119 \u012ftamp\u0105\\n- Lokalizuoto raumen\u0173 nuovargio ir galim\u0173
+  pasikartojan\u010dios \u012ftampos traum\u0173 prevencija\\n\u0160ios paprastos
+  praktikos taikymas padeda i\u0161laikyti simetri\u0161k\u0105 raumen\u0173 vystym\u0105si
+  ir s\u0105nari\u0173 mechanik\u0105. Reguliarus \u0161oninis kaitaliojimas apsaugo
+  nuo kaupimosi mikrotraum\u0173, kurios gali atsirasti d\u0117l nuolatin\u0117s vienpus\u0117s
+  apkrovos. Skatinsite subalansuot\u0105 raumen\u0173 \u012fsitraukim\u0105, tolygiau
+  paskirstysite mechanin\u012f kr\u016bv\u012f ir palaikysite bendr\u0105 raumen\u0173
+  ir skeleto vientisum\u0105, galiausiai i\u0161saugodami savo fizin\u0119 sveikat\u0105
+  ir u\u017ekirsdami keli\u0105 galimoms l\u0117tin\u0117ms ligoms, susijusioms su
+  nuolatine asimetrine apkrova.\\nPraktiniai patarimai apie kasdienes svorio valdymo
+  strategijas\\nStrateginis kasdienio svorio paskirstymo valdymas gali pad\u0117ti
+  suma\u017einti raumen\u0173 apkrov\u0105 ir i\u0161vengti biomechaninio disbalanso.
+  Kad suma\u017eintum\u0117te vienpus\u0119 raumen\u0173 grupi\u0173 apkrov\u0105,
+  keiskite pet\u012f arba pus\u0119, i\u0161 kurios ne\u0161iojate krep\u0161ius,
+  kuprines ir kitus krovinius. Jei \u012fmanoma, naudokite ergonomi\u0161kus krep\u0161ius
+  su pla\u010diais, pamink\u0161tintais dir\u017eais, kurie tolygiai paskirsto svor\u012f
+  visam k\u016bnui.\\nApsvarstykite galimyb\u0119 taikyti svorio paskirstymo b\u016bdus,
+  pvz., naudoti kry\u017emin\u012f kurjerio krep\u0161\u012f arba kuprin\u0119 su
+  dvigubomis petne\u0161omis. Jei nuolat ne\u0161iojate sunkius daiktus darbe ar kasdien\u0117je
+  veikloje, investuokite \u012f ve\u017eim\u0117lius ant ratuk\u0173 arba paskirstykite
+  svor\u012f abiem rankoms. Steb\u0117kite savo ne\u0161iojimo \u012fpro\u010dius
+  ir s\u0105moningai keiskite puses kas 10-15 minu\u010di\u0173, kad i\u0161vengtum\u0117te
+  raumen\u0173 \u012fdarbinimo modeli\u0173, kurie gali lemti asimetri\u0161k\u0105
+  vystym\u0105si ir galimas laikysenos kompensacijas.\"", "\"AEING 2X Automobilio
+  LED Automobilio Duris Sveiki Lazerinis Projektorius Vaiduoklis \u0160e\u0161\u0117lis
+  Logotipas \u0160viesos Lempa Opel Astra/Insignia/Corsa/Mokka/Vectra/Zafira\\n\u20ac10.61\\n\u20ac9.34\\n\u017dymos:
+  lempa, lempos, projektoriaus lempa, Pig\u016bs lempa, Auk\u0161tos Kokyb\u0117s
+  lempos, Kinija lempa projektoriui Tiek\u0117j\u0173.\\n- SKU: m37031\\n- Pakuot\u0117s
+  Dydis: 15cm x 10cm x 8cm (5.91in x 3.94in x 3.15in)\\n- \u012erenginio Tipas: aik\u0161tel\u0117
+  (2 vnt/lot)\\n- Pakuot\u0117s Svoris: 0.3kg (0.66lb.)\\nPerkamiausi\\n- Apra\u0161ymas\\n-
+  Papildoma informacija\\n- Atsiliepimai (4)\\n- Para\u0161yti atsiliepim\u0105\\nApra\u0161ymas\\nGaminio
+  Ap\u017evalga 4-osios Kartos 21,5 mm (0.85\\\") N/D Atidarymo Auk\u0161tas \u0160viesos
+  Efektyvumas Ma\u017eas Energijos Suvartojimas Instant On/Off Atsako Vibracijos Atsparus
+  Universalus, 2-Wire Desige jei norite naudoti 4 automobilio duris,Jums reikia 2
+  Por\u0173. Ir 2 por\u0173 mes gauti nuolaida jums! Svarbios Pastabos Reikalauja
+  gr\u0119\u017eimo vidin\u0117s dur\u0173 apdailos. Sukurta perjungiamas maitinimo
+  \u0161altinis (factory dome grandin\u0117 arba i\u0161orinis jungiklis). Nuolat
+  \\\"ANT\\\" laikas neturi vir\u0161yti vienos (1) valandos intervalais. Vir\u0161ija
+  rekomenduojamus intervalus gali sukelti vaizdo i\u0161nyks. Profesional\u0173 montavim\u0105,
+  rekomenduojama. Pakuot\u0117s Turinys 2 Vnt - LED Projektorius \u017dibintai 1 Vnt
+  - Gr\u0105\u017etas Nurodymai, kurie N\u0116RA \u012ftraukti.\\nD\u0117mesio:\\n1.
+  Mes primygtinai rekomenduojame \u012fdiegti \u0161i\u0105 prek\u0119 Profesin\u0117s
+  Keisti Automobili\u0173 Gamykloje, ar Dirbtuv\u0117se. Gamintojai atsisako visos
+  atsakomyb\u0117s u\u017e daikt\u0173 ar asmens avarijos, atsiradusius d\u0117l netinkamo
+  \u012fdiegimo ar piktnaud\u017eiavimo.\\n2. M\u016bs\u0173 bendrov\u0117 n\u0117ra
+  atsakinga u\u017e teis\u0117tumo \u012fdiegus \u0161\u012f produkt\u0105,pra\u0161ome
+  patvirtinkite su transporto priemon\u0117s valdymo departamento \u012fra\u0161yti
+  prie\u0161 \u012frengimas ;\\n3. Pra\u0161ome naudotis teigiamas ir neigiamas poliai
+  galios per \u012ftampos reguliatorius lygintuvas.\\nPapildoma informacija\\n- Lemput\u0117s
+  Tipas: LED Dur\u0173 Sveiki atvyk\u0119 \u0160viesos\\n- Panaudota: Automobilio
+  LED Dur\u0173 Lemput\u0117\\n- Dydis: 21.5mm (0.85\\n- Kilm\u0117s vieta: Guangdong,
+  Kinija (\u017demynin\u0117)\\n- Prek\u0117s Pavadinimas: AEING\\n- Logo Tipo: Opel\\n-
+  Elemento Tipas: Sveiki Atvyk\u0119 \u0160viesos\\n- Pakavimas: 2 vnt./daug\\n- Med\u017eiaga:
+  Aliuminio Lydinys\\nAtsiliepimai (4)\\nPana\u0161\u016bs produktai\\nMercedes Benz
+  E MB W212 C207 interjero, Aplinkos \u0160viesos Paie\u0161ka Atmosfera Optinio Pluo\u0161to
+  Juostos Ap\u0161vietimas Viduje Dur\u0173 Skydelio ap\u0161vietimas (Ne EL \u0161viesa)
+  Taisymas Paketas Apima: 1. 4Pcs*1meter Optinio Pluo\u0161to Juosta ( Kiekvienas
+  su \u0161viesos \u0161altinis ) 2. Diegimo Instrukcijos Jei norite, kad 4meters
+  kartu be supjaustyti. Tiesiog pasakykite man, kai tvarka.Ar norite daugiau ilgiau
+  Optinio\\nAuk\u0161tos Kokyb\u0117s 4in1 12V 4x 9LED automobilio Interjero Dekoratyvin\u0117s
+  \u0161viesos Atmosfera \u017diburiai Automobilio Stiliaus \u017dibintas Ypatyb\u0117
+  : I\u0161 viso 4 \u0161viesos ir Kiekvienas \u0161viesos sudaro 9 LED Srov\u0117:20mA
+  x 12 \u012etampa: 12V DC \u012ejungimo / I\u0160JUNGIMO jungikl\u012f ant cigare\u010di\u0173
+  degiklio. Dvipuse lipnia bakstel\u0117kite diegti Tiesiogini\u0173 \u012fd\u0117ta
+  \u012f cigare\u010di\u0173 degiklio \u0160viesos\\nTai yra viena pora, dur\u0173
+  slenkst\u012f, u\u017e dur\u0173 ar galines duris. pls pastaba norite priekini\u0173
+  dur\u0173 arba galin\u0117s durys ir kuris logotipo norite?\\nMinahelalet\\n\u0437aka\u0437\u044bBa\u043b
+  what you received, packed well goods, oTc\u043be\u0436\u0438Ba\u043bc\u044f all
+  the way, thanks to the seller\\nSlty Pnuts\\nall. fire. very beautiful. thank you
+  very much. order more''ll a pair of\\nDizel Dz\\ncame \u043beH\u0438Horopcka 2.5
+  week to shipping. sent gift bulb. o\u0431\u0449a\u043bacb not the seller.\\nWoldamord\\nxopo\u0448oe
+  quality, \u043fpo\u0434oB\u0446y thank you so much, B\u044bc\u043ba\u043b \u0431acTpo\"",
+  "\"Moteris nusprendzia eiti i sale 100 dienu Svorio metimo motyvacija kaip efektyviai
+  prarasti k\u016bno riebalus\\nKaip liekn\u0117ti raumeningi keturra\u010diai kaip
+  menopauz\u0117 moteris gali numesti svorio, svorio netekimas essentia sveikata svorio
+  netekimas RPG. Neskatina riebal\u0173 degintoj\u0173 k\u0105 reik\u0117t\u0173 valgyti
+  norint sudeginti riebalus, mano varpelis nepraras svorio numesti svorio 3 m\u0117nesiai.\\nKaip
+  i\u0161tirpdyti pilvo riebalus? numesti svorio, kai m\u0117nesin\u0117s\\nGeriausias
+  riebal\u0173 degintojas be stimuliatori\u0173 modelio svorio metimo patarimai, svorio
+  metimo laboratorijos skydelis riebal\u0173 deginimo poj\u016btis. Svorio netekimas
+  v\u0117lai 30- ies kaip numesti svorio 40 svar\u0173, numesti svorio japon\u0173
+  stiliaus sveikas svorio netekimas per savait\u0119 kg.\\nKod\u0117l metant svor\u012f
+  mityba yra svarbiausia dalis svorio metimas naudojant savo prot\u0105\\nSunkiausia
+  pasaulio moteris sveria pus\u0119 tonos mymedicalmantra. Sunkiausia pasaulio moteris
+  sveria pus\u0119 tonos Twitter nuotr.\\nAtsakymai \u012f tai kaip numesti svorio?
+  Kaip sudeginti daugiau riebal\u0173? malanga svorio metimas\\nVeiksmingi svorio
+  metimo judesiai svorio netekimas v\u0117lai 30- ies, 8 met\u0173 am\u017eiaus numesti
+  svorio svorio metimo paketas. Svorio netekimas gerai mesti svor\u012f per metus,
+  g6 svorio metimas svorio metimo rezultatai tumblr.\\nSVORIO METIMAS - 10 KLAID\u0172,
+  KURIAS TU DARAI! lipedema svorio netekimas\\nNumesti kelis kilogramus - ne pats
+  sunkiausias darbas: specialisto patarimai 15 \u2014 Ar pasteb\u0117jote, kaip priaugote
+  svorio? Ta\u010diau visada buvau \u0161iek tiek stambesnis. Periodi\u0161kai atsirandantis
+  20 kg antsvoris man buvo \u012fprastas dalykas: per du m\u0117nesius jis gal\u0117davo
+  atsirasti, v\u0117liau per pus\u0119 met\u0173 dingdavo, po to v\u0117l atsirasdavo.
+  I\u0161 esm\u0117s numesti papildomus kilogramus man pad\u0117davo sportas.\\nVieno
+  sunkiausi\u0173 pasaulyje vyr\u0173 kasdienyb\u0117 primena ko\u0161mar\u0105 71
+  kg numesti svorio\\nSunkiausia moteris pasaulyje atsikrat\u0117 daugiau nei pus\u0117
+  savo svorio. Atlikus operacij\u0105, ji neteko kg.\\nKAIP NUMESTI SVORIO - VLOG\u21164
+  sveikas svorio netekimas per savait\u0119 kg\\nKaip liekn\u0117ti pla\u010diais
+  pe\u010diais kaip mesti svor\u012f nuo apatin\u0117s nugaros dalies, k\u0105 valgyti
+  norint numesti svorio nat\u016braliai numesti svorio d\u017eiu d\u017eitsu. Nat\u016bralus
+  g\u0117rimas, skirtas deginti riebalus sveikiausi baton\u0117liai svorio metimui,
+  cara pemakaian l- men praranda svor\u012f numesti svorio juosta.\\nWeeklyVlog 14:
+  Ar man pavyko numesti 3 KILOGRAMUS PER SAVAIT\u0118? (Be dietos!) riebal\u0173 nuostoliai
+  40 svar\u0173\\nKlaip\u0117diet\u0117 Rima 30 m. Moter\u012f kamavo auk\u0161tas
+  kraujo spaudimas, da\u017enas pulsas, o cukraus kiekis kraujyje taip pat buvo prad\u0117j\u0119s
+  kilti. Ta\u010diau dar met\u0173 pavasar\u012f, per sveikatos patikrinim\u0105 i\u0161girdusi,
+  kad sveria tiek, jog nutukimas yra pirmo laipsnio, o vaizdas veidrodyje nebetenkino
+  jau kur\u012f laik\u0105, Rima nusprend\u0117: at\u0117jo laikas poky\u010diams.
+  Kas yra sunkiausia Tuo metu Rima, b\u016bdama cm \u016bgio, sv\u0117r\u0117 kg.\\nVaida
+  Kurpien\u0117: SVEIKA MITYBA I KAIP S\u0116KMINGAI PAKEISTI \u012ePRO\u010cIUS xs
+  nuomon\u0117s apie nat\u016bral\u0173 riebal\u0173 deginim\u0105\\nNuoroda nukopijuota
+  aA Nusprend\u017eiau, kad at\u0117jo metas rimtiems poky\u010diams. U\u017esibr\u0117\u017eiau
+  per dvi savaites atsikratyti net 5 kilogram\u0173. \u012e pagalb\u0105 metant svor\u012f
+  pasikvie\u010diau vien\u0105 diet\u0105 ir tris sporto klases.\\nKaip pagreitinti
+  svorio kritim\u0105? ar l- tirozinas padeda numesti svorio\\nNumesti svorio taip
+  lengvai amc liekn\u0117jimo Japonija, k\u016bno plonas redaktorius bando numesti
+  svorio per 30- ies. Svorio metimas per m\u0117nes\u012f kaip liekn\u0117ti moter\u012f,
+  bus kreiv\u0117s pad\u0117s man numesti svorio 7 kg svorio per savait\u0119.\\nI\u0161band\u017eiau
+  ir a\u0161: nam\u0173 gamybos receptas, kuris pad\u0117s deginti pilvo riebalus
+  pepsi max svorio netekimas\\n\u042f \u043foMH\u044e BpeM\u044f, kor\u0434a \u044dTa
+  kapT\u0438Hka \u0431\u044b\u043ba HoBo\u0439 - Bcero BoceMb T\u044bc\u044f\u0447
+  \u043beT Ha\u0437a\u0434, B Mo\u044e \u043fpe\u0434\u044b\u0434y\u0449y\u044e \u0436\u0438\u0437Hb.
+  \u041fp\u0438\u0434\u044f Ha \u044dTo MecTo e\u0449e \u0447epe\u0437 \u0434\u044e\u0436\u0438Hy
+  \u0436\u0438\u0437He\u0439, \u044f o\u0431Hapy\u0436y, \u0447To \u043f\u043b\u0438Tk\u0438
+  \u043fo\u043bHocTb\u044e \u0438\u0437Hoc\u0438\u043b\u0438cb.\\n- He B\u0438\u0436y
+  B \u044dToM H\u0438\u0447ero oco\u0431eHHoro, - oTBeT\u0438\u043b \u042d\u043bB\u0438H.
+  - B ropo\u0434e ecTb \u0438 \u0434pyr\u0438e \u043fpo\u0438\u0437Be\u0434eH\u0438\u044f
+  \u0438ckyccTBa, He\u0434ocTaTo\u0447Ho xopo\u0448\u0438e, \u0447To\u0431\u044b xpaH\u0438Tbc\u044f
+  B cxeMax \u043faM\u044fT\u0438, \u0438 He cTo\u043bb \u043f\u043box\u0438e, \u0447To\u0431\u044b
+  \u043fo\u0434BeprHyTbc\u044f HeMe\u0434\u043beHHoMy yH\u0438\u0447To\u0436eH\u0438\u044e.\\nVaida
+  Kurpien\u0117: sid\u017eiausios svorio metimo klaidos ir patarimai kaip suliekn\u0117ti
+  visam laikui ne\u0161iojama technologija ir ilgalaikis svorio metimas\\nMa\u0448\u0438Ha,
+  Bo\u043fpo\u0448aB\u0448a\u044f Xe\u0434poHa, \u0434o\u043b\u0436Ha \u0431\u044b\u043ba
+  \u0431\u044bTb BecbMa \u0438\u0437o\u0449peHHo\u0439 \u0438 \u0437aH\u0438MaTb B\u044bcokoe
+  MecTo B \u0438epapx\u0438\u0438 \u0426eHTpa\u043bbHoro KoM\u043fb\u044eTepa. \u0414pyr\u0438x
+  \u043fperpa\u0434 He \u0431\u044b\u043bo, Ho \u042d\u043bB\u0438H \u043fo\u0434o\u0437peBa\u043b,
+  \u0447To oH\u0438 M\u0438HoBa\u043b\u0438 p\u044f\u0434 \u043fpoBepok, ckp\u044bT\u044bx
+  oT \u043focTopoHHero B\u0437r\u043b\u044f\u0434a.\\nKAIP NUMESTI SVORIO? 5 paslaptys
+  i\u0161 Los And\u017eelo gro\u017eio mokyklos\u2026 riebalai praranda cukr\u0173\\nSvorio
+  netekimas vyro tumblr sbc svorio metimas, galite numesti svorio, bet atrodote riebesni?
+  g\u0117rimai, padedantys deginti riebalus. Yra k\u016bno plonas saugus svorio mettilfenidatas,
+  igf- lr3, skirtas riebal\u0173 nuostoliams svorio metimo raid\u0117s.\\nLaida \u201eLaikas
+  veikti\u201c: kaip numesti svorio ir j\u012f i\u0161laikyti? numesti svorio norma\\nVaikinas
+  boros svorio netekimas devonas svorio metimas trauktis, pepsi max svorio netekimas
+  svorio netekimas ashland ma. Riebal\u0173 nuostoli\u0173 rutina moteri\u0161ki liekn\u0117jantys
+  k\u016bno kostiumai, jokio svorio metimo dukros priepuolio geriausias b\u016bdas
+  atsikratyti \u017earnyno riebal\u0173.\\nNaujiena: Kaip SULIEKN\u0116TI ir i\u0161laikyti
+  NORIM\u0104 SVOR\u012e visam gyvenimui? svorio metimo tipas\\nTeMH\u044be TeH\u0438
+  \u043fok\u0438Hy\u043b\u0438 Mo\u0437r. O\u043bB\u0438H Ha\u0447a\u043b Ma\u043bo-\u043foMa\u043by
+  o\u0431pa\u0449aTb BH\u0438MaH\u0438e Ha okpy\u0436a\u044e\u0449ee \u0438, B c\u0438\u043by
+  cBoero pa\u0437yMeH\u0438\u044f, pa\u0437\u0431\u0438paTbc\u044f B ycTpo\u0439cTBe
+  HeBoo\u0431pa\u0437\u0438Mo \u0434peBHero \u044dk\u0438\u043fa\u0436a, B koTopoM
+  eMy \u0434oBe\u043bocb \u043fyTe\u0448ecTBoBaTb. O\u043bB\u0438Ha coBep\u0448eHHo
+  He \u043fopa\u0437\u0438\u043bo \u0438 He \u043foka\u0437a\u043bocb B oco\u0431eHHocT\u0438
+  cTpaHH\u044bM To o\u0431cTo\u044fTe\u043bbcTBo, \u0447To \u044dTa \u043forpe\u0431eHHa\u044f
+  \u043fo\u0434-\u0437eM\u043be\u0439 TpaHc\u043fopTHa\u044f c\u0438cTeMa Bce e\u0449e
+  coBceM \u0438c\u043fpaBHo \u0434e\u0439cTByeT \u043foc\u043be cTo\u043bb HeBoo\u0431pa\u0437\u0438Mo
+  \u0434o\u043broro \u043fepep\u044bBa.\\nEe xapakTep\u0438cT\u0438k He \u0431\u044b\u043bo
+  B \u0437a\u043foM\u0438Ha\u044e\u0449\u0438x ycTpo\u0439cTBax ropo\u0434ck\u0438x
+  MoH\u0438TopoB, Ho, \u0434o\u043b\u0436Ho \u0431\u044bTb, r\u0434e-To e\u0449e coxpaH\u044f\u043b\u0438cb
+  aHa\u043bor\u0438\u0447H\u044be \u0446e\u043f\u0438, \u043fpe\u0434oxpaH\u0438B\u0448\u0438e
+  ee oT \u0438\u0437MeHeH\u0438\u0439 \u0438 pa\u0437py\u0448eH\u0438\u044f.\"", "\"-
+  \u012evair\u016bs skelbimai\\n- Auto skelbimai (7347)\\n- Nekilnojamojo turto skelbimai
+  (16205)\\n- Kompiuteriai, biuro technika (2139)\\n- Ry\u0161io technika (1865)\\n-
+  Buitin\u0117, audio, video technika (21180)\\n- Darbui, namams, \u0161eimai (9903)\\n-
+  Statyba, gamyba (9954)\\n- Laisvalaikis, pramogos, sportas (5395)\\n- Fauna, flora
+  (1564)\\n- Darbo skelbimai (3243)\\n- Pa\u017ein\u010di\u0173 skelbimai (588)\\n-
+  Visi\\n\u2190 pasirinkite kategorij\u0105\\n\u00ab Gr\u012f\u017eti \u012f pagrindin\u012f
+  puslap\u012f\\nJ\u016bs esate nukreipti \u012f paskutin\u012f kart\u0105 J\u016bs\u0173
+  lankyt\u0105 kategorij\u0105.\\nNor\u0117dami atsisakyti \u0161ios paslaugos - spauskite
+  \u010dia.\\nNor\u0117dami atsisakyti \u0161ios paslaugos - spauskite \u010dia.\\nRodyti
+  po:\\nR\u016b\u0161iavimas:\\n- naujausi vir\u0161uje\\nNieko nerasta. Bandykite
+  ie\u0161koti pakeit\u0119 paie\u0161kos parametrus ar kategorij\u0105.\\nPopuliarios
+  paie\u0161kos\\nparduodu ilgos kojines 15 cm silikonu kuno\\nparduodu ilgus batus
+  38dydis\\nparduodu iltnamis 2x3\\nparduodu imetec im 8501\\nparduodu immunilflor\\nparduodu
+  immuno terapines kojines\\nparduodu immunotrofina sirupas 200 ml imunitetui stiprinti\\nparduodu
+  imone\\nparduodu imones pirmosios pagalbos rinkinys\\nparduodu imoniu duomenu baze
+  2012m duomenys exel formate galima\\nparduodu imoniu duomenu baze joje yra virs
+  193000 imoniu duomenu\\nparduodu imontuojama dujine kaitlente gorenje gc 340 ac\\nparduodu
+  imontuojama elektrine orkaite aeg be5013421m\\nparduodu imontuojama elektrine orkaite
+  bosch hba20b122s\\nparduodu imontuojama elektrine orkaite bosch hba23b122s\\nparduodu
+  imontuojama elektrine orkaite candy fhp603x\\nparduodu imontuojama elektrine orkaite
+  candy fl636x\\nparduodu imontuojama elektrine orkaite candy fst100 1n\\nparduodu
+  imontuojama elektrine orkaite candy fst100 1w\\nparduodu imontuojama elektrine orkaite
+  gorenje bo7321awg\"", "\"Vos prasid\u0117jus rudens sesijai Seimas su\u0161velnino
+  sankcijas vairuotojams u\u017e i\u0161tisin\u0117s linijos kirtim\u0105. Iki \u0161iol
+  u\u017e tok\u012f pa\u017eeidim\u0105 privalomai buvo atimama teis\u0117 vairuoti,
+  o pagal nauj\u0105j\u012f sprendim\u0105 bus galima atsipirkti ir bauda. Prie\u0161
+  toki\u0105 patais\u0105 pasisak\u0117 ir policijos pareig\u016bnai, ir saugaus eismo
+  specialistai, ta\u010diau Seimas nusprend\u0117, kad pakaks ir \u0161velnesni\u0173
+  baud\u0173.\\nSuma\u017eino baud\u0105\\nPriimtomis Administracini\u0173 nusi\u017eengim\u0173
+  kodekso 417 straipsnio pataisomis dabar nustatyta, kad \u012fva\u017eiavimas \u012f
+  prie\u0161prie\u0161inio eismo juost\u0105, pa\u017eeid\u017eiant Keli\u0173 eismo
+  taisykli\u0173 reikalavimus, u\u017etraukia baud\u0105 vairuotojams nuo 60 iki 90
+  eur\u0173. Taip pat nuo vieno iki trij\u0173 m\u0117nesi\u0173 gal\u0117t\u0173
+  b\u016bti atimta teis\u0117 vairuoti. Tokiu pa\u017eeidimu kelyje suk\u0117lus pavojing\u0105
+  situacij\u0105 bauda did\u0117t\u0173 nuo 170 iki 230 eur\u0173, o teis\u0117s vairuoti
+  neturintiems asmenims \u2013 nuo 300 iki 600 eur\u0173.\\nNuo sausio 1-osios \u012fsigaliojusiame
+  Administracini\u0173 nusi\u017eengim\u0173 kodekse, u\u017e lenkim\u0105 vietose,
+  kuriose pagal Keli\u0173 eismo taisykles draud\u017eiama lenkti ir \u012fva\u017eiavim\u0105
+  \u012f prie\u0161prie\u0161inio eismo juost\u0105 pa\u017eeid\u017eiant Keli\u0173
+  eismo taisykli\u0173 reikalavimus, teis\u0117s vairuoti at\u0117mimas buvo privalomas.
+  Be pinigin\u0117s baudos \u2013 nuo 170 iki 230 eur\u0173, vairuotojams buvo skiriamas
+  ir teis\u0117s vairuoti at\u0117mimas nuo 3 iki 6 m\u0117nesi\u0173.\\n\u0160iemet
+  policija u\u017efiksavo beveik 2000 pavojingo ir chuligani\u0161ko vairavimo atvej\u0173,
+  daugiau nei 1600 vairuotojo pa\u017eym\u0117jimai atimti b\u016btent d\u0117l \u012fva\u017eiavimo
+  \u012f prie\u0161prie\u0161in\u0119 kelio juost\u0105.\\nBand\u0117 pab\u0117gti\\n\u0160iemet
+  kirtus i\u0161tisin\u0119 juost\u0105 \u012fvyko daugiau nei pus\u0117 t\u016bkstan\u010dio
+  susid\u016brim\u0173, kai kurie j\u0173 baig\u0117si labai tragi\u0161kai.\\n\u0160tai
+  vasario pabaigoje netoli I\u0161lau\u017eo miestelio, kelyje Kaunas-Prienai, \u017euvo
+  du \u017emon\u0117s: netoliese, Rutki\u0161ki\u0173 kaime, gyven\u0119 sutuoktiniai
+  S. \u2013 savo automobil\u012f \u201eOpel Zafira\u201c vairav\u0119s Arvydas (62
+  m.) ir kartu va\u017eiavusi jo \u017emona Aldona (61 m.). Dar du keleiviai \u2013
+  n\u0117\u0161\u010dia poros dukra (22 m.) ir ne\u012fgalus poros globotinis (43
+  m.) \u2013 po \u012fvykio d\u0117l rimt\u0173 su\u017ealojim\u0173 buvo nugabenti
+  \u012f ligonin\u0119.\\n\u0160is keturi\u0173 artim\u0173 \u017emoni\u0173 ekipa\u017eas
+  t\u0105 sekmadienio ryt\u0105, apie pus\u0119 de\u0161imtos, automobiliu vyko \u012f
+  ba\u017eny\u010di\u0105, Kauno kryptimi. Kelion\u0119 akimirksniu nutrauk\u0117
+  prie\u0161prie\u0161iais, Prien\u0173 kryptimi, l\u0117k\u0119s visureigis \u201eLand
+  Rover\u201c, kuris r\u0117\u017e\u0117si \u012f opel\u012f.\\nKad i\u0161laisvint\u0173
+  opelyje po avarijos likusius prispaustus 3 \u017emones, \u012f pagalb\u0105 atskub\u0117jo
+  ugniagesiai gelb\u0117tojai. Tuo metu \u012ftariamas avarijos kaltininkas, visureig\u012f
+  vairav\u0119s kaunietis Saulius Bla\u017eys (40 m.), pastaruoju metu gyvenantis
+  u\u017esienyje, ir jo keleivis (38 m.) nesugalvojo nieko kito, kaip tik, kuo grei\u010diau
+  sprukti i\u0161 \u012fvykio vietos. Vienas pasileido laukais, kitas \u2013 \u012f
+  prie\u0161ing\u0105 pus\u0119, \u012f\u0161okdamas \u012f Jiesios upel\u012f. Bet
+  abu tuoj pat pareig\u016bn\u0173 buvo su\u010diupti.\\nI\u0161kart tapo ai\u0161ku,
+  kod\u0117l emigrantas skub\u0117jo pab\u0117gti, \u2013 mat jis buvo girtas: nustatytas
+  vidutinis girtumo laipsnis (1,93 promil\u0117s alkoholio kraujyje). Avarijos vietoje
+  vieni i\u0161 pirm\u0173j\u0173 buv\u0119 ugniagesiai gelb\u0117tojai, v\u0117liau
+  pakalbinti \u201eAkistatos\u201c, nenor\u0117jo detalizuoti, koks siaubingas vaizdas
+  buvo po \u0161ios tragedijos. Anot j\u0173, buvo baisu \u017ei\u016br\u0117ti \u012f
+  sumaitotus k\u016bnus, bej\u0117gius ir ken\u010dian\u010dius su\u017ealotuosius,
+  \u012f j\u0173 atviras \u017eaizdas.\\nManoma, tragedij\u0105 suk\u0117l\u0117 visureigio
+  vairuotojas, lemiamu momentu m\u0117gin\u0119s aplenkti kit\u0105 automobil\u012f
+  ir staiga r\u0117\u017e\u0119sis \u012f prie\u0161prie\u0161iais art\u0117jus\u012f
+  opel\u012f. O lenkti tame kelio ruo\u017ee buvo negalima. Tai rodo kelio \u017eenklai.
+  Negalima ir vir\u0161yti nustatyto 70 kilometr\u0173 per valand\u0105 grei\u010dio.\\nPapildoma
+  ekspertiz\u0117\\n\u0160iuo metu Plung\u0117s rajono apylink\u0117s teisme dar tebenagrinejama
+  klaip\u0117die\u010dio Igorio Cvetkovo byla. Skaudi nelaim\u0117 Plung\u0117s rajone
+  \u012fvyko 2015-\u0173j\u0173 spalio 4-osios vakar\u0105. Avarijoje \u017euvo BMW
+  vairav\u0119s Radvili\u0161kyje ugniagesiu dirb\u0119s Ram\u016bnas Dargu\u017eas,
+  jo \u017emona ir ma\u017eamet\u0117 dukryt\u0117. I\u0161gyveno tik tuomet vos de\u0161imties
+  sulaukusi dukra.\\nKaltinamajame akte teigiama, kad I. Cvetkovas \u201eHyundai Galloper\u201c
+  automobiliu kirto i\u0161tisin\u0119 linij\u0105 ir i\u0161va\u017eiavo \u012f prie\u0161prie\u0161inio
+  eismo juost\u0105. I\u0161vyd\u0119s prie\u0161ais \u201eHyundai Galloper\u201c
+  ir siekdamas i\u0161vengti susid\u016brimo i\u0161tisin\u0119 linij\u0105 kirto
+  ir \u012f prie\u0161prie\u0161inio eismo juost\u0105 met\u0117si ir BMW 520, kur\u012f
+  vairavo R. Dargu\u017eas. Ta\u010diau \u201eHyundai Galloper\u201c staiga gr\u012f\u017eo
+  atgal ir automobiliai susid\u016br\u0117. \u017duvo trys vienos \u0161eimos nariai,
+  dar keturi \u017emon\u0117s buvo su\u017ealoti.\\nNevienodi standartai\\nI\u0161va\u017eiavus
+  \u012f prie\u0161prie\u0161in\u0119 eismo juost\u0105 ir susid\u016brus kaktomu\u0161a
+  avarijos pasekm\u0117s b\u016bna labai skaud\u017eios. Policijos duomenimis, 2016
+  metais prie\u0161prie\u0161ini\u0173 susid\u016brim\u0173 metu \u0161alies keliuose
+  \u017euvo 29 \u017emon\u0117s, 38 \u017emon\u0117s buvo su\u017eeisti. Tod\u0117l
+  policijos pareig\u016bnai ir saugaus eismo ekspertai nenor\u0117jo, kad b\u016bt\u0173
+  su\u0161velninta bausm\u0117, nes administracinio poveikio priemon\u0117 \u2013
+  asmeniui suteiktos specialiosios teis\u0117s at\u0117mimas yra viena efektyviausi\u0173
+  priemoni\u0173, suteikianti galimyb\u0119 atgrasyti nuo pavojing\u0173 nusi\u017eengim\u0173
+  darymo. Ta\u010diau 94 Seimo nariai galvojo kitaip ir patais\u0105 pri\u0117m\u0117.\\nBeje,
+  pataisos pri\u0117mim\u0105 lyd\u0117jo ir \u0161ioks toks skandalas. Speciali\u0173j\u0173
+  tyrim\u0173 tarnyba (STT) buvo \u012f\u017evelgusi, kad \u0161ia pataisa gali b\u016bti
+  asmeni\u0161kai suinteresuotas Seimo narys Petras Gra\u017eulis ir jo dukra Marija
+  \u0160ala\u0161evi\u010dien\u0117.\\nSeimo nario dukra 2017 met\u0173 gegu\u017e\u0117s
+  11 dien\u0105 kelyje Kaunas-Prienai-Alytus kirto horizontaliojo \u017eym\u0117jimo
+  siaur\u0105 i\u0161tisin\u0119 linij\u0105, i\u0161va\u017eiavo \u012f prie\u0161prie\u0161in\u0119
+  eismo juost\u0105 ir aplenk\u0117 priekyje va\u017eiuojan\u010dius automobilius.
+  U\u017e tai M. \u0160ala\u0161evi\u010dienei buvo sura\u0161ytas administracinio
+  nusi\u017eengimo protokolas. Jeigu ji b\u016bt\u0173 sutikusi su pa\u017eeidimu,
+  jai b\u016bt\u0173 reik\u0117j\u0119 sumok\u0117ti pus\u0119 baudos bei b\u016bt\u0173
+  atimta teis\u0117 vairuoti transporto priemones 3 m\u0117nesiams. Ta\u010diau moteris
+  nesutiko, tod\u0117l bir\u017eelio 12 dien\u0105 buvo priimtas nutarimas skirti
+  administracin\u0119 nuobaud\u0105 \u2013 at\u0117mimas vairuoti 3 m\u0117nesiams
+  ir nurodymas sumok\u0117ti 170 eur\u0173 baud\u0105.\\nTeismas, svarstydamas, ar
+  su\u0161velninti bausm\u0119 keli\u0173 eismo taisykles pa\u017eeidusiai M. \u0160ala\u0161evi\u010dienei,
+  atsi\u017evelg\u0117 \u012f tai, kad moteris pripa\u017eino savo kalt\u0119, d\u0117l
+  to gail\u0117josi, o paskirt\u0105 baud\u0105 jau yra sumok\u0117jusi.\\nU\u017e
+  i\u0161tisin\u0117s linijos kirtim\u0105 \u0161iemet teis\u0117s yra atimtos daugiau
+  nei 1600 vairuotoj\u0173, kuri\u0173 ne vienas kreip\u0117si \u012f teism\u0105
+  ir band\u0117 \u012frodyti, kad be teisi\u0173 tiesiog negali gyventi. Ta\u010diau
+  Temid\u0117s tarnai, kaip jiems ir priklauso, buvo akli ir kurti. Ta\u010diau Seimo
+  nario dukrai buvo pritaikyti kitokie standartai.\\nNugal\u0117jo \u201eereliai\u201c\\nTuoj
+  po to Seime buvo u\u017eregistruota \u012fstatymo pataisa, pagal kuri\u0105 i\u0161tisin\u0119
+  kelio juost\u0105 kertan\u010di\u0173 automobili\u0173 vairuotojams rekomenduojama
+  ne visuomet skirti vairuotojo pa\u017eym\u0117jimo at\u0117mim\u0105. P. Gra\u017eulio
+  dukros pa\u017eeidimas buvo padarytas gegu\u017e\u0117s 11 dien\u0105, o \u012fstatymo
+  pataisa Seime u\u017eregistruota gegu\u017e\u0117s 23 dien\u0105 ir j\u0105 si\u016blyta
+  priimti skubos tvarka. Tarp \u012fstatymo pataisos si\u016blytoj\u0173 \u2013 ir
+  P. Gra\u017eulio pavard\u0117.\\nTokia skuba neliko nepasteb\u0117ta net Speciali\u0173j\u0173
+  tyrim\u0173 tarnybos (STT) pareig\u016bn\u0173. J\u0173 nuomone, P. Gra\u017eulio
+  dukra atsisak\u0117 sumok\u0117ti pus\u0119 baudos tik\u0117damasi, kad bus pakeistas
+  jai nenaudingas teisinis reguliavimas ir v\u0117liau, \u012fsigaliojus skubos tvarka
+  priimtoms \u012fstatymo pataisoms, bus panaikintas specialios teis\u0117s vairuoti
+  transporto priemones at\u0117mimas.\\nApie tai, kad \u012fstatymo pataisa yra suinteresuotas
+  Seimo narys P. Gra\u017eulis, STT direktorius Saulius Urbanavi\u010dius prane\u0161\u0117
+  Seimui. P. Gra\u017eulis teig\u0117 niekaip nesusij\u0119s su \u012fstatymo pataisa
+  \u2013 j\u0105 u\u017eregistravo kolega Rimas Andrikis i\u0161 tos pa\u010dios \u201etvarkie\u010di\u0173\u201c
+  frakcijos, o jis tik pasira\u0161\u0119s po iniciatyva.\\nSTT pasi\u016bl\u0117
+  \u012fstatymo projekt\u0105 svarstyti bendra tvarka. Seimas taip ir padar\u0117
+  \u2013 klausimo svarstymas buvo perkeltas \u012f rudens sesij\u0105, o jai prasid\u0117jus
+  i\u0161 karto ir apsvarstytas.\\nSTT pareig\u016bnai si\u016bl\u0117 atsi\u017evelgti
+  \u012f Lietuvos keli\u0173 policijos nuomon\u0119 \u2013 pareig\u016bnai nepritar\u0117
+  projektui, kuriuo siekiama su\u0161velninti administracin\u0119 atsakomyb\u0119
+  ir panaikinti privalom\u0105 teis\u0117s vairuoti transporto priemones at\u0117mim\u0105,
+  ta\u010diau \u012f \u0161ias pastabas atsi\u017evelgta nebuvo. Galima teigti, kad
+  \u0161\u012f kart\u0105 pergal\u0119 pasiek\u0117 \u201ekeli\u0173 ereliai\u201c.\\nPetras
+  KURMELIS\"", "\"iPhone viruso pa\u0161alinimas\\nKas yra iPhone virusas?\\niPhone
+  virusas puola \u0161ios operacin\u0117s sistemos vartotojus\\niPhone virusas yra
+  specifinis terminas, apimantis net kelis \u0161i\u0105 operacin\u0119 sistem\u0105
+  galin\u010dius u\u017ekr\u0117sti virus\u0173 variantus. Daugelis vartotoj\u0173
+  yra \u012fsitikin\u0119, jog \u201eApple\u201d kompanijos kuriama operacin\u0117
+  sistema (iOS) yra atspari bet kokiam virusui. Vis d\u0117lto, hakeriai nestovi vietoje,
+  tod\u0117l nieko nuostabaus, kad ir \u0161ios sistemos vartotojai susid\u016br\u0117
+  su pavojingomis programomis.\\n\u017dinoma, \u0161i\u0173 virus\u0173 procentin\u0117
+  dalis, lyginant su kitomis operacin\u0117ms sistemoms, yra \u017eenkliai ma\u017eesn\u0117.
+  Windows jau seniai gars\u0117ja \u012fvairiausi\u0173 tip\u0173 virusais, tuo tarpu
+  Android pasruosius kelis metus taip pat prad\u0117jo jau nenusileisti. Bendras \u0161i\u0105
+  operacin\u0119 sistem\u0105 siekian\u010dio u\u017egrobti viruso pavadinimas yra
+  Android virusas.\\nD\u0117l \u0161ios prie\u017easties ap\u017evelgsime visus \u0161iuo
+  metu elektronin\u0117je erdv\u0117je plintan\u010dius \u201eiOS\u201d ir \u201emacOS\u201d
+  operacin\u0117ms sistemoms skirtus virusus, bei pateiksime detalias j\u0173 pa\u0161alinimo
+  instrukcijas.\\nJei pasteb\u0117jote, kad j\u016bs\u0173 telefonas ar kompiuteris
+  prad\u0117jo sekan\u010dias veiklas, nieko nelaukite ir patikrinkite sistem\u0105
+  su patikima antivirusine programa, nes tai yra vieno ar kito viruso simptomai:\\n-
+  sul\u0117t\u0117jo\\n- rodo keistas reklamas\\n- prad\u0117jo peradresuoti jus \u012f
+  abejoni\u0173 kelian\u010dias svetaines\\nSistemos patikrinimui mes rekomenduojame
+  naudoti ReimageIntego. \u0160i programa ne tiks aptiks sistemos klaidas ir informuos
+  apie u\u017ekr\u0117stus failus, bet ir pad\u0117s automatiniu b\u016bdu pa\u0161alinti
+  u\u017ekr\u0117stus viruso failus.\\nNepageidaujamos programos siekia pakenkti \u201eApple\u201d
+  produktams\\nAkivaizdu, jog potencialiai nepageidaujam\u0173 program\u0173 (angl.
+  potentially unwanted programs) k\u016br\u0117jai, siekdami pakenkti \u201eiOS\u201d
+  ir \u201emacOS\u201d vartotojams, \u012fkv\u0117pimo semiasi i\u0161 gerai \u017einom\u0173
+  virus\u0173.\\nDalis \u201emacOS\u201d vartotoj\u0173 jau susid\u016br\u0117 su
+  \u012ftartinu prane\u0161imu Safari nar\u0161ykl\u0117je. Jis \u012fsp\u0117ja apie
+  kompiuter\u012f u\u017ekr\u0117tus\u012f virus\u0105, kuris galimai gali nutekinti
+  aukos asmenin\u0119 informacij\u0105. \u017dinoma, toks prane\u0161imas yra nieko
+  vertas ir siekia vieno \u2013 priversti savo auk\u0105 paskambinti neegzistuojan\u010diu
+  telefono numeriu ir taip i\u0161vilioti i\u0161 jos \u0161iek tiek pinig\u0173.\\nKaip
+  ir did\u017eioji dauguma melaging\u0173 prane\u0161im\u0173, \u0161is virusas taip
+  pat gali bandy pasisavinti j\u016bs\u0173 asmenin\u0119 informacij\u0105, tod\u0117l
+  jokiu b\u016bdu nepasitik\u0117kite si\u016blymais suvesti savo duomenis \u012f
+  neai\u0161kiems asmenims priklausan\u010dias formas. Norime jus \u012fsp\u0117ti,
+  jog \u201eApple\u201d produktai n\u0117ra u\u017eprogramuoti rodyti tokius prane\u0161imus
+  ar ranginti savo vartotojus skambinti vienu ar kitu numeriu. J\u016bs gaite pasitik\u0117ti
+  tik oficialia apple.com svetaine.\\nKita populiari Iphone viruso versija sukelia
+  automati\u0161kai pasirodan\u010dias reklamas (angl. pop-ups). Jei kaskart, paleid\u0119
+  Safari nar\u0161ykl\u0119, matote naujame lange atsiv\u0117rusi\u0105 reklam\u0105,
+  j\u016bs\u0173 kompiuteris yra u\u017ekr\u0117stas. Tokiu atveju rekomenduojame
+  nedelsiant \u012fsigyti apsaugos program\u0105 ir pa\u0161alinti u\u017ekr\u0117stus
+  failus.\\n\u201eApple\u201d vartotojai tur\u0117t\u0173 atkrepti d\u0117mes\u012f
+  ir \u012f egzistuojan\u010dius \u201enar\u0161ykli\u0173 u\u017egrob\u0117jus\u201d,
+  angli\u0161kai vadinamus browser hijackers. Tokie virusai teigia esantys \u012fprastos
+  nar\u0161ykl\u0117s, siekian\u010dios pagerinti vartotoj\u0173 paie\u0161kos rezultatus.
+  Vis d\u0117lto, pagrindinis j\u0173 tikslas yra rinkti specifin\u0119 informacij\u0105,
+  kuri yra susijusi su pa\u010diu vartotoju.\\nVis d\u0117lto, da\u017eniausiai \u017emon\u0117s
+  pajau\u010dia, jog turi reikal\u0173 su virusu kai bando j\u012f pa\u0161alinti.
+  Tokie virusai paprastai plinta kartu su eile skirting\u0173 komponent\u0173, kuriuos
+  patogiausia i\u0161trinti automatiniu b\u016bdu.\\nPegasus \u0161nipin\u0117jimo
+  programa \u2013 pavojingiausias Iphone \u012frenginiams skirtas virusas\\nPegasus
+  \u0161nipin\u0117jimo programa yra vienas geriausiai \u017einom\u0173 Apple virus\u0173,
+  kuris plinta per telefonus. Pirm\u0105 kart\u0105 \u0161i programa buvo pasteb\u0117ta
+  2016-\u0173j\u0173 rugpj\u016bt\u012f. Manoma, jog \u0161io viruso pradinink\u0117
+  yra Israelyje \u012fsik\u016brusi kompanija NSO group, kuri yra pagars\u0117jusi
+  \u0161nipin\u0117jimo program\u0173 k\u016brimu.\\nPirmiausia \u0161is virusas itin
+  kruop\u0161\u010diai pasirenka savo aukas ir i\u0161siun\u010dia joms trump\u0105sias
+  SMS \u017einutes. Jose paprastai yra slepiama u\u017ekr\u0117sta nuoroda, kuri instaliuoja
+  \u0161nipin\u0117jimo program\u0105 vos tik vartotojas ant jos paspaud\u017eia.
+  Taip pat ji atlieka pakeitimus telefone, kurie leid\u017eia v\u0117liau \u012fra\u0161yti
+  nelegalias aplikacijas ir rinkti apie vartotojus specifin\u0119 informacij\u0105.\\nKai
+  Pegasus virusas pradeda veikti, vartotojo failai, SMS \u017einut\u0117s ir netgi
+  skambu\u010di\u0173 \u012fra\u0161ai tampa visi\u0161kai prieinami jo k\u016br\u0117jams.
+  \u0160i pavojinga programa taip pat gali pati savo pa\u0161alinti i\u0161 iPhone
+  \u012frenginio. Tai ji padaro per 60 dien\u0173, vos tik negali prisijungti prie
+  jai komandas diktuojan\u010dio serverio.\\nPegasus \u0161nipin\u0117jimo programa
+  yra sud\u0117tingas virusas, kurios pa\u0161alinimas gali b\u016bti itin sud\u0117tingas.
+  Vis d\u0117lto, m\u016bs\u0173 komanda rekomenduoja i\u0161bandyti \u0161ias viruso
+  pa\u0161alinimo instrukcijas.\\nRansomware tipo virusai jau gali u\u017ekr\u0117sti
+  ir \u201eApple\u201d vartotojus\\nKibernetin\u0117je erdv\u0117je jau pasirod\u0117
+  ir macOS sustem\u0105 galintys u\u017ekr\u0117sti ransomware tipo virusai. \u0160ie
+  virusai da\u017eniausiai plinta melaging\u0173 el. lai\u0161k\u0173 pagalba, juose
+  pasisl\u0117pdami kaip .zip tipo priedai. Nors tik dalis toki\u0173 virus\u0173
+  buvo suprogramuoti s\u0117kmingai, jie vistiek sugeb\u0117jo u\u017e\u0161ifruoti
+  vartotoj\u0173 dokumentus, nuotraukas ir kitus failus.\\nPatarimai kaip i\u0161vengti
+  iPhone viruso\\n- Neatidarin\u0117kite reklam\u0173, kurios paprastai yra susijusios
+  su azartiniais lo\u0161imais, pornografija ar internetin\u0117mis pa\u017ein\u010di\u0173
+  svetain\u0117mis.\\n- Reguliariai atnaujinkite savo operacin\u0119 sistem\u0105.\\n-
+  Ne\u012fra\u0161in\u0117kite aplikacij\u0173 i\u0161 nepatikim\u0173 platintoj\u0173.\\n-
+  Venkite nar\u0161yti svetain\u0117se, kuri\u0173 turinys jums kelia abejoni\u0173.\\nViruso
+  pa\u0161alinimas i\u0161 iPhone telefono\\nJei pasteb\u0117jote, jog j\u016bs\u0173
+  Apple kompiuteris ar telefonas prad\u0117jo ne\u012fprastai elgtis ar sulet\u0117jo
+  jo darbo greitis, tuojau pat j\u012f nuresetinkite. Tai galite padaryti nu\u0117j\u0119
+  \u012f \u201eSettings\u201d ir surad\u0119 \u201eGeneral\u201d funkcij\u0105. Kai
+  tai padarysite, pasirinke \u201eErase All Content\u201d funkcij\u0105.\\nTaip pat,
+  jei jus kankina nuolat pasirodan\u010dios reklamos (angl. pop-ups) Safari nar\u0161ykl\u0117je,
+  rekomenduojame jas pa\u0161alinti \u0161iuo b\u016bdu:\\n- Paleiskite u\u017ek\u0117st\u0105
+  nar\u0161ykl\u0119 ir pasirinkite \u201eSettings\u201d funkcij\u0105;\\n- \u010cia
+  pasirinkite \u201eClear history and website data\u201d.\\nM\u016bsu komanda taip
+  pat rekomenduoja patikrinti kompiuter\u012f su ReimageIntego programa, kuri atid\u017eiai
+  patikrins sistem\u0105 ir prane\u0161 jums apie aptiktus pavojingus failus. Ji taip
+  pat pad\u0117s jums s\u0117kmingai pa\u0161alinti kenk\u0117ji\u0161k\u0173 program\u0173
+  failus ir apsaugos j\u016bs\u0173 kompiuter\u012f ar telefon\u0105 nuo kit\u0173
+  virus\u0173.\\nTam, kad s\u0117kmingai panaikintum\u0117te sistemines klaidas, kurios
+  gali b\u016bti sukeltos virus\u0173 infekcijos, naudokit\u0117s ReimageIntego. SpyHunter
+  5Combo Cleaner ir Malwarebytes programos gali b\u016bti naudojamos kit\u0173 potencialiai
+  nepageidaujam\u0173 program\u0173 ir virus\u0173 bei j\u0173 komponent\u0173 aptikimui.\\nRankinis
+  iPhone viruso pa\u0161alinimas\\nNepageidaujam\u0173 program\u0173 \u0161alinimas
+  i\u0161 Windows\\nNor\u0117dami pa\u0161alinti iPhone virusas i\u0161 Windows 10/8
+  \u012frengini\u0173, atlikite \u0161iuos veiksmus:\\n- Windows paie\u0161kos laukelyje
+  \u012fra\u0161ykite Control Panel ir paspauskite Enter arba spustel\u0117kite ant
+  paie\u0161kos rezultato.\\n- Programs dalyje pasirinkite Uninstall a program.\\n-
+  S\u0105ra\u0161e raskite \u012fra\u0161us, susijusius su iPhone virusas ar bet kuria
+  kita neseniai \u012fdiegta \u012ftartina programa.\\n- De\u0161iniuoju pel\u0117s
+  mygtuku spustel\u0117kite program\u0105 ir pasirinkite Uninstall.\\n- Jei i\u0161\u0161oko
+  User Account Control, paspauskite Yes.\\n- Palaukite, kol bus baigtas pa\u0161alinimo
+  procesas, o tada spustel\u0117kite OK.\\nJei naudojate Windows 7/XP, tuomet atlikite
+  \u0161iuos \u017eingsnius:\\n- Spauskite Windows Start > Control Panel, esant\u012f
+  de\u0161iniajame skydelyje (jeigu naudojate Windows XP spauskite Add/Remove Programs).\\n-
+  Atsid\u016br\u0119 Control Panel pasirinkite Programs > Uninstall a program.\\n-
+  Pasirinkite nepageidaujam\u0105 program\u0105 spustel\u0117dami j\u0105 vien\u0105
+  kart\u0105.\\n- Vir\u0161uje spauskite Uninstall/Change.\\n- Tam, kad patvirtintum\u0117te
+  \u017eingsn\u012f, spauskite Yes.\\n- Kai pa\u0161alinimas bus baigtas, spauskite
+  OK.\\nI\u0161trinkite iPhone i\u0161 Mac OS X sistemos\\n- Jeigu j\u016bs naudojate
+  OS X operacin\u0119 sistem\u0105, spuspel\u0117kite ant Go mygtuko ir pasirinkite
+  Applications.\\n- Palaukite kol pasirodys Applications aplankas ir jame suraskite
+  iPhone bei kitas abejoni\u0173 kelian\u010dias programas. De\u0161iniu pel\u0117s
+  mygtuku spustel\u0117kite ant kiekvieno i\u0161 \u0161i\u0173 \u012fra\u0161\u0173
+  ir pasirinkite Move to Trash.\\nI\u0161 naujo nustatykite MS Edge/Chromium Edge\\nPa\u0161alinkite
+  nepageidaujamus pl\u0117tinius i\u0161 MS Edge:\\n- Pasirinkite Meniu (tris horizontalius
+  ta\u0161kus nar\u0161ykl\u0117s lango vir\u0161uje, de\u0161in\u0117je pus\u0117je)
+  ir paspauskite Extensions.\\n- I\u0161 s\u0105ra\u0161o pasirinkite su iPhone virusas
+  susijus\u012f pl\u0117tin\u012f ir spustel\u0117kite krumpliara\u010dio piktogram\u0105.\\n-
+  Apa\u010dioje spauskite Uninstall.\\nI\u0161valykite slapukus ir kitus nar\u0161ykl\u0117s
+  duomenis:\\n- Spustel\u0117kite Meniu (tris horizontalius ta\u0161kus nar\u0161ykl\u0117s
+  lango vir\u0161uje, de\u0161in\u0117je pus\u0117je) ir pasirinkite Privacy & security.\\n-
+  Clear browsing data dalyje pasirinkite, k\u0105 norite i\u0161valyti.\\n- Pasirinkite
+  visk\u0105, i\u0161skyrus slapta\u017eod\u017eius (nors galb\u016bt nor\u0117site
+  \u012ftraukti medij\u0173 licencijas, jei \u012fmanoma) ir spustel\u0117kite Clear.\\nAtkurkite
+  naujo skirtuko ir pagrindinio puslapio nustatymus:\\n- Spustel\u0117kite meniu piktogram\u0105
+  ir pasirinkite Settings.\\n- Tuomet raskite On startup skyri\u0173.\\n- Spustel\u0117kite
+  Disable, jei radote \u012ftartin\u0105 puslap\u012f.\\nJei kiti veiksmai nepad\u0117jo,
+  i\u0161 naujo nustatykite MS Edge:\\n- Nor\u0117dami atidaryti u\u017eduo\u010di\u0173
+  tvarkykl\u0119, paspauskite Ctrl + Shift + Esc.\\n- Spustel\u0117kite lango apa\u010dioje
+  esan\u010di\u0105 More details rodykl\u0119.\\n- Pasirinkite Details.\\n- Dabar
+  slinkite \u017eemyn ir raskite kiekvien\u0105 \u012fra\u0161\u0105 su Microsoft
+  Edge pavadinimu. De\u0161iniuoju pel\u0117s klavi\u0161u spauskite ant kiekvieno
+  i\u0161 j\u0173 ir pasirinkite End Task, kad sustabdytum\u0117te MS Edge veikim\u0105.\\nJei
+  toks b\u016bdas jums nepad\u0117jo, tuomet reik\u0117s griebtis i\u0161pl\u0117stinio
+  Edge atstatymo metodo. Ta\u010diau atminkite, jog prie\u0161 t\u0119sdami turite
+  i\u0161sisaugoti atsargin\u0119 duomen\u0173 kopij\u0105.\\n- Savo kompiuteryje
+  raskite \u0161\u012f aplank\u0105: C:\\\\\\\\Users\\\\\\\\%username%\\\\\\\\AppData\\\\\\\\Local\\\\\\\\Packages\\\\\\\\Microsoft.MicrosoftEdge_8wekyb3d8bbwe.\\n-
+  Kad pasirinktum\u0117te visus aplankus, paspauskite klaviat\u016broje Ctrl + A.\\n-
+  Spustel\u0117kite juos de\u0161iniuoju pel\u0117s mygtuku ir pasirinkite Delete.\\n-
+  Dabar de\u0161iniuoju pel\u0117s mygtuku spustel\u0117kite Start mygtuk\u0105 ir
+  pasirinkite Windows PowerShell (Admin).\\n- Kai atsidarys naujas langas, nukopijuokite
+  ir \u012fklijuokite \u0161i\u0105 komand\u0105, o tada paspauskite Enter:\\nGet-AppXPackage
+  -AllUsers -Name Microsoft.MicrosoftEdge | Foreach {Add-AppxPackage -DisableDevelopmentMode
+  -Register \u201c$($_.InstallLocation)\\\\\\\\AppXManifest.xml\u201d -Verbose\\nInstrukcijos
+  Chromium Edge nar\u0161yklei\\nI\u0161trinkite pl\u0117tinius i\u0161 MS Edge (Chromium):\\n-
+  Atidarykite Edge ir spauskite Settings > Extensions.\\n- I\u0161trinkite nepageidaujamus
+  pl\u0117tinius spustel\u0117dami Remove.\\nI\u0161valykite duomenis:\\n- Spustel\u0117kite
+  Meniu ir eikite \u012f Settings.\\n- Pasirinkite Privacy and services.\\n- Clear
+  browsing data dalyje pasirinkite, k\u0105 pa\u0161alinti.\\n- Time range skiltyje
+  pasirinkite All time.\\n- Spauskite Clear now.\\nI\u0161 naujo nustatykite MS Edge
+  (Chromium):\\n- Spauskite ant Meniu ir pasirinkite Settings.\\n- Kair\u0117je pus\u0117je
+  pasirinkite Reset settings.\\n- Pasirinkite Restore settings to their default values.\\n-
+  Patvirtinkite pasirinkim\u0105.\\nI\u0161 naujo nustatykite Mozilla Firefox\\nPa\u0161alinkite
+  pavojingus pl\u0117tinius:\\n- Atidarykite Mozilla Firefox nar\u0161ykl\u0119 ir
+  spustel\u0117kite Meniu (tris horizontalias linijas vir\u0161utiniame de\u0161iniajame
+  lango kampe).\\n- Pasirinkite Add-ons.\\n- \u010cia pasirinkite papildinius, susijusius
+  su iPhone virusas, ir spauskite Remove.\\nAtstatykite pagrindin\u012f puslap\u012f:\\n-
+  Nor\u0117dami atidaryti meniu, vir\u0161utiniame de\u0161iniajame kampe spustel\u0117kite
+  tris horizontalias linijas.\\n- Pasirinkite Options.\\n- Home parinktyse \u012fveskite
+  pageidaujam\u0105 svetain\u0119, kuri bus atidaryta kaskart, kai \u012fjungsite
+  Mozilla Firefox.\\nI\u0161valykite slapukus ir kitus duomenis:\\n- Spustel\u0117kite
+  Meniu ir pasirinkite Options.\\n- Eikite \u012f Privacy & Security skyri\u0173.\\n-
+  Slinkite \u017eemyn, kad rastum\u0117te Cookies and Site Data.\\n- Spustel\u0117kite
+  Clear Data\u2026\\n- Pasirinkite Cookies and Site Data ir Cached Web Content, o
+  tuomet spauskite Clear.\\nI\u0161 naujo nustatykite Mozilla Firefox\\nJei atlikus
+  visus \u017eingsnius iPhone virusas vis tiek nebuvo pa\u0161alintas, tuomet i\u0161
+  naujo nustatykite Mozilla Firefox:\\n- Atidarykite Mozilla Firefox nar\u0161ykl\u0119
+  ir spustel\u0117kite Meniu.\\n- Eikite \u012f Help ir pasirinkite Troubleshooting
+  Information.\\n- Give Firefox a tune up dalyje spauskite Refresh Firefox\u2026\\n-
+  Kai i\u0161\u0161oks langas, patvirtinkite veiksm\u0105 spausdami Refresh Firefox
+  \u2013 taip tur\u0117tum\u0117te s\u0117kmingai pa\u0161alinti iPhone virusas.\\nI\u0161
+  naujo nustatykite Google Chrome\\nI\u0161trinkite kenk\u0117ji\u0161kus pl\u0117tinius
+  i\u0161 Google Chrome:\\n- Atidarykite Google Chrome, spustel\u0117kite Meniu (tris
+  vertikalius ta\u0161kus vir\u0161utiniame de\u0161iniajame kampe) ir pasirinkite
+  More tools > Extensions.\\n- Naujai atsidariusiame lange pamatysite visus \u012fdiegtus
+  pl\u0117tinius. Pa\u0161alinkite visus \u012ftartinius papildinius, kurie gali b\u016bti
+  susij\u0119 su iPhone virusas spustel\u0117dami Remove.\\nI\u0161valykite Chrome
+  duomenis:\\n- Spustel\u0117kite Meniu ir pasirinkite Settings.\\n- Privacy and security
+  dalyje pasirinkite Clear browsing data.\\n- Pa\u017eym\u0117kite Browsing history,
+  Cookies and other site data, taip pat Cached images and files.\\n- Paspauskite Clear
+  data.\\nPakeiskite pagrindin\u012f puslap\u012f:\\n- Paspauskite ant meniu ir pasirinkite
+  Settings.\\n- Startup skiltyje ie\u0161kokite \u012ftartinos svetain\u0117s, tokios
+  kaip iPhone virusas.\\n- Spustel\u0117kite ant Open a specific or set of pages ir
+  paspauskite tris ta\u0161kus, kad rastum\u0117te Remove parinkt\u012f.\\nI\u0161
+  naujo nustatykite Google Chrome:\\nJei kiti metodai nepad\u0117jo, atkurkite Google
+  Chrome nustatymus ir i\u0161trinkite senus duomenis, kad pa\u0161alintum\u0117te
+  visus iPhone virusas komponentus:\\n- Spustel\u0117kite Meniu ir pasirinkite Settings.\\n-
+  At\u0117j\u0119 \u012f Settings slinkite \u017eemyn ir spustel\u0117kite Advanced.\\n-
+  Slinkite \u017eemyn ir raskite Reset and clean up skyri\u0173.\\n- Spustel\u0117kite
+  Restore settings to their original defaults.\\n- Nor\u0117dami u\u017ebaigti iPhone
+  virusas pa\u0161alinim\u0105, patvirtinkite \u0161\u012f \u017eingsn\u012f.\\nI\u0161
+  naujo nustatykite Safari\\nPa\u0161alinkite nepageidaujamus pl\u0117tinius i\u0161
+  Safari:\\n- Spustel\u0117kite Safari > Preferences\u2026\\n- Naujame lange pasirinkite
+  Extensions.\\n- Pasirinkite nepageidaujam\u0105 pl\u0117tin\u012f, susijus\u012f
+  su iPhone virusas, ir spauskite Uninstall.\\nI\u0161valykite Safari slapukus ir
+  kitus duomenis:\\n- Spauskite Safari > Clear History\u2026\\n- I\u0161skleid\u017eiamajame
+  meniu ties Clear pasirinkite all history.\\n- Patvirtinkite paspausdami Clear History.\\nJei
+  auk\u0161\u010diau pamin\u0117ti veiksmai nepad\u0117jo, i\u0161 naujo nustatykite
+  Safari:\\n- Spustel\u0117kite Safari > Preferences\u2026\\n- Eikite \u012f Advanced
+  skirtuk\u0105.\\n- Meniu juostoje pa\u017eym\u0117kite Show Develop menu.\\n- Meniu
+  juostoje spustel\u0117kite Develop, tada pasirinkite Empty Caches.\\nJeigu jau pa\u0161alinote
+  \u0161i\u0105 program\u0105 ir sutvark\u0117te kiekvien\u0105 i\u0161 jos \u201eu\u017egrobt\u0173\u201c
+  Interneto nar\u0161ykli\u0173, rekomenduojame nepagail\u0117ti keleto minu\u010di\u0173
+  ir patikrinti kompiuter\u012f su patikima antivirusine programa. Tai jums pad\u0117s
+  atsikratyti iPhone registro \u012fra\u0161\u0173 bei taip pat leis identifikuoti
+  su \u0161ia programa susijusius virusus. Tam j\u016bs galite naudoti vien\u0105
+  i\u0161 \u0161i\u0173 m\u016bs\u0173 atrinkt\u0173 program\u0173: ReimageIntego,
+  SpyHunter 5Combo Cleaner arba Malwarebytes.\\nJums rekomenduojama\\nNeleiskite,
+  kad vyriausyb\u0117 jus \u0161nipin\u0117t\u0173\\nKadangi kyla vis daugiau diskusij\u0173,
+  susijusi\u0173 su vartotoj\u0173 duomen\u0173 rinkimu ir pilie\u010di\u0173 \u0161nipin\u0117jimu,
+  tur\u0117tum\u0117te atid\u017eiau \u017evelgti \u012f \u0161i\u0105 problem\u0105
+  ir i\u0161siai\u0161kinti, kokie \u0161e\u0161\u0117liniai informacijos rinkimo
+  b\u016bdai gali b\u016bti naudojami renkant informacij\u0105 apie jus. Venkite bet
+  kokio vald\u017eios ar tre\u010di\u0173 \u0161ali\u0173 inicijuojamo infomacijos
+  sekimo bei pilie\u010di\u0173 \u0161nipin\u0117jimo internete \u2013 nar\u0161ykite
+  anonimi\u0161kai.\\nNaudodamiesi Private Internet Access VPN programa, gal\u0117site
+  m\u0117gautis saugiu nar\u0161ymu internete ir suma\u017einsite \u012fsilau\u017eimo
+  \u012f sistem\u0105 rizik\u0105 iki minimumo. \u0160i programa, sukurianti virtual\u0173
+  privat\u0173j\u012f tinkl\u0105, suteiks prieig\u0105 prie reikiam\u0173 duomen\u0173
+  be joki\u0173 turinio apribojim\u0173 ir galimybi\u0173 jus \u0161nipin\u0117ti.\\nKontroliuokite
+  vald\u017eios bei kit\u0173 tre\u010di\u0173j\u0173 \u0161ali\u0173 prieig\u0105
+  prie j\u016bs\u0173 duomen\u0173 ir u\u017etikrinkite saug\u0173 nar\u0161ym\u0105
+  internetu. Net jeigu j\u016bs ir neu\u017esiimate nelegalia veikla patys ir pasitinkite
+  pasirinktu interneto teik\u0117ju, rekomenduojame b\u016bti atsargiems d\u0117l
+  savo pa\u010di\u0173 saugumo. Rekomenduojame imtis papildom\u0173 atsargumo priemoni\u0173
+  ir prad\u0117ti naudoti VPN programa.\\nSuma\u017einkite virus\u0173 keliam\u0105
+  gr\u0117sm\u0119 - pasir\u016bpinkite atsargin\u0117mis duomen\u0173 kopijomis\\nVirusai
+  gali paveikti programin\u0117s \u012frangos funkcionalum\u0105 arba tiesiogiai pa\u017eeisti
+  sistemoje esan\u010dius duomenis juos u\u017ekoduojant. D\u0117l min\u0117t\u0173
+  problem\u0173 gali sutrikti sistemos veikla, o asmeninius duomenis \u017emon\u0117s
+  gali prarasti visam laikui. Turint naujausias atsargines kopijas, tokios gr\u0117sm\u0117s
+  n\u0117ra, kadangi gal\u0117site lengvai atkurti prarastus duomenis ir gr\u012f\u017eti
+  \u012f darb\u0105.Tokiu b\u016bdu gal\u0117site pasiekti naujausius i\u0161saugotus
+  duomenis po netik\u0117to viruso \u012fsilau\u017eino ar sistemos gedimo. Atsargini\u0173
+  fail\u0173 kopij\u0173 k\u016brimas kasdien ar kas savait\u0119 tur\u0117t\u0173
+  tapti j\u016bs\u0173 \u012fpro\u010diu. Atsargin\u0117s fail\u0173 kopijos yra ypa\u010d
+  naudingos tuo atveju, jeigu \u012f sistem\u0105 netik\u0117tai patenka kenksmingas
+  kompiuterinis virusas. Tam, kad gal\u0117tum\u0117te atkurti prarastus duomenis,
+  rekomenduojame naudoti Data Recovery Pro program\u0105.\"", "\"Po sekmadienio incident\u0173
+  \u012ftampa tarp Rusijos ir Ukrainos pasiek\u0117 kelerius metus nematytas auk\u0161tumas.
+  Tiesiogiai Kremli\u0173 apkaltin\u0119 ukrainie\u010diai tikina, kad \u012f Azovo
+  j\u016br\u0105 pro Ker\u010d\u0117s s\u0105siaur\u012f \u012fplaukti band\u0119
+  trys j\u0173 laivai buvo ap\u0161audyti ir u\u017eimti.\\n\u0160io fakto nesl\u0117p\u0117
+  ir rusai \u2013 per Kremliaus kontroliuojam\u0105 \u017einiasklaid\u0105 buvo parodyti
+  Ker\u010d\u0117s uoste pri\u0161vartuoti u\u017egrobti Ukrainos laivai, o Federalin\u0117s
+  saugumo tarnybos (FST) vie\u0161\u0173j\u0173 ry\u0161i\u0173 skyrius i\u0161platino
+  vaizdo med\u017eiag\u0105, kurioje nufilmuoti trys Ukrainos j\u016breiviai, paimti
+  \u012f nelaisv\u0119 incidento Ker\u010d\u0117s s\u0105siauryje metu. \u012era\u0161e
+  matoma, kaip vyrai i\u0161 popieriaus lapo skaito savo \u201eparodymus\u201c.\\nKijevo
+  reakcija buvo grie\u017eta \u2013 \u0161alis paskelb\u0117 karin\u0119 pad\u0117t\u012f
+  ir apkaltino Maskv\u0105 tiesiogine karine agresija. O Rusijos \u017einiasklaidoje
+  sukosi vienas \u017eodis: provokacija.\\nEs\u0105 Kijevas sugalvojo i\u0161provokuoti
+  Rusij\u0105 siekdamas sav\u0173 tiksl\u0173 \u2013 kovo m\u0117nes\u012f vyksian\u010di\u0173
+  prezidento rinkim\u0173 metu d\u0117l perrinkimo nerimaujantis prezidentas Petro
+  Poro\u0161enko nor\u0117jo u\u017esmaugti \u017einiasklaidos laisv\u0119, tod\u0117l
+  jam reik\u0117jo \u012fvesti karo pad\u0117t\u012f.\\nBe to, Ukrainos vald\u017eia,
+  anot Rusijos propagandist\u0173, nor\u0117t\u0173 j\u0117ga spr\u0119sti atpl\u0117\u0161t\u0173
+  separatistini\u0173 respublik\u0173 klausim\u0105, o Ukrain\u0105 primir\u0161\u0119
+  Vakarai es\u0105 gal\u0117t\u0173 \u012fvesti papildomas sankcijas Rusijai.\\nKartoja
+  sen\u0105 S. Lavrovo versij\u0105\\nPavyzd\u017eiui, tinklapyje news-front.info
+  tikinama, kad provokacij\u0105 P. Poro\u0161enka sureng\u0117 \u201epalieptas JAV
+  ambasados\u201c. Be to, Kijeve reali\u0105 gali\u0105 es\u0105 turi patar\u0117jai
+  i\u0161 13 NATO \u0161ali\u0173, tarp j\u0173 ir Lietuvos.\\n\u201eNereikia pamir\u0161ti,
+  kad nuo 2014-\u0173j\u0173 vasaros visose pagrindin\u0117se civilin\u0117se ir karin\u0117se
+  Ukrainos tarnybose svarbiausi\u0105 vaidmen\u012f vaidina u\u017esienio \u0161ali\u0173
+  patar\u0117jai. Ukrainos saugumo tarnybos biure netgi i\u0161k\u0117l\u0117 JAV
+  v\u0117liav\u0105, o penkis auk\u0161tus u\u017e\u0117m\u0117 b\u016btent amerikie\u010di\u0173
+  specialistai\u201c, \u2013 tikinama straipsnyje.\\nI\u0161 tikr\u0173j\u0173 JAV
+  ir kit\u0173 \u0161ali\u0173 atstovai jau ne kart\u0105 \u0161aip\u0117si i\u0161
+  toki\u0173 s\u0105mokslo teorij\u0173, nors jas kartojo ir pats Rusijos u\u017esienio
+  reikal\u0173 ministras Sergejus Lavrovas. Dar 2014 baland\u012f, po JAV Centrin\u0117s
+  \u017evalgybos agent\u016bros direktoriaus vizito Kijeve, kai ir buvo trumpam i\u0161kelta
+  JAV v\u0117liava, jis tikino, kad ukrainie\u010di\u0173 veiksmams diriguoja b\u016btent
+  amerikie\u010diai.\\n\u201eNeturiu jokio pagrindo negalvoti, kad amerikie\u010diai
+  visi\u0161kai tiesiogiai diriguoja \u0161iam \u0161ou\u201c, \u2013 sak\u0117 S.
+  Lavrovas, kuris pabr\u0117\u017e\u0117, kad es\u0105 nebuvo paneigti ankstesni \u017einiasklaidos
+  prane\u0161imai apie C\u017dA vaidmen\u012f analizuojant pad\u0117t\u012f Ukrainoje,
+  JAV ambasados veiksmus per vadinamuosius Maidano protestus, nuvertusius Kremliaus
+  palaikom\u0105 re\u017eim\u0105 Kijeve, taip pat fakt\u0105, jog SBU b\u016bstin\u0117je
+  visas auk\u0161tas atiduotas Amerikos j\u0117gos strukt\u016br\u0173 darbuotojams.\\nTa\u010diau
+  po incidento Juodojoje j\u016broje tokios s\u0105mokslo teorijos v\u0117l atgim\u0117.
+  Pagrindiniais \u201edirigentais\u201c dabar vadinami JAV specialusis pasiuntinys
+  Kurtas Volkeris ir JAV Centrinei vadavietei vadovav\u0119s bei nuo 2016-\u0173j\u0173
+  iki \u0161i\u0173 met\u0173 lapkri\u010dio vidurio Ukrainos gynybos ministerijai
+  patarin\u0117j\u0119s generolas Johnas Abizaidas. Be to, Kremliaus ruporo teigimu,
+  i\u0161 viso Ukrainos gynybos ministerijai patarin\u0117ja net 72 kariniai patar\u0117jai
+  i\u0161 JAV.\\n\u201eYra ir kiti patar\u0117jai, pavyzd\u017eiui, britai, kuriems
+  vadovauja generolas Nicas Parkeris, buv\u0119s brit\u0173 sausumos paj\u0117g\u0173
+  vadas. Be to, yra dar apie 60 karini\u0173 patar\u0117j\u0173 i\u0161 13 NATO \u0161ali\u0173,
+  o \u0161e\u0161i asmenys i\u0161 JAV, Jungtin\u0117s Karalyst\u0117s, Lietuvos,
+  Vokietijos, Kanados ir Lenkijos turi strategini\u0173 partneri\u0173 status\u0105\u201c,
+  \u2013 pabr\u0117\u017eiama straipsnyje.\\nI\u0161galvotas pasienis j\u016broje\\nEs\u0105
+  b\u016btent Ukrainos s\u0105jungininkai privert\u0117 ukrainie\u010dius griebtis
+  provokacij\u0173 \u2013 \u201e\u012f\u017e\u016bliai ver\u017etis laivais pro Ker\u010d\u0117s
+  s\u0105siaur\u012f, o po j\u0173 neutralizacijos kreiptis \u012f s\u0105jungininkus,
+  pra\u0161ant pagalbos\u201c. O \u0161i\u0173 provokacij\u0173 tikslas neva yra konflikto
+  su Rusija i\u0161provokavimas.\\nTiesa, straipsnyje pamir\u0161tama pamin\u0117ti,
+  kad b\u016btent Vakar\u0173 \u0161alys paragino tiek Ukrain\u0105, tiek Rusij\u0105
+  vengti provokacij\u0173, ta\u010diau b\u016btent pastar\u0105j\u0105 \u0161al\u012f
+  apkaltino d\u0117l incidento, kur\u012f Ukraina vadina agresijos aktu ir d\u0117l
+  to m\u0117nesiui \u012fveda karo pad\u0117t\u012f 10-yje \u0161alies region\u0173.\\nBe
+  to, nei Ukraina, nei Vakar\u0173 \u0161alys nepripa\u017e\u012fsta 2014 m. Kremliaus
+  \u012fvykdytos Krymo okupacijos ir aneksijos bei pabr\u0117\u017eia, kad iki \u0161iol
+  turi galioti 2003 metais dvi\u0161alis Kijevo ir Maskvos susitarimas, kuris apibr\u0117\u017eia
+  laivyb\u0105 Azovo j\u016broje ir Ker\u010d\u0117s s\u0105siauryje.\\n\u0160iuose
+  vandenyse abiej\u0173 \u0161ali\u0173 civiliniai ir kariniai laivai gali plaukioti
+  laisvai be i\u0161ankstinio susitarimo, tad Rusija neturi teis\u0117s kaltinti ukrainie\u010di\u0173
+  valstybin\u0117s sienos ar i\u0161skirtin\u0117s ekonomin\u0117s zonos pa\u017eeidimais
+  min\u0117tose vietov\u0117se, kur netgi n\u0117ra ratifikuota valstybin\u0117 siena.\\nGiriasi
+  u\u017ekirt\u0119 kelia branduoliniam karui\\nVis d\u0117lto tokius vertinimus pastarosiomis
+  dienomis jau pranoko dar \u012fsp\u016bdingesn\u0117 s\u0105mokslo teorija, kuri
+  angl\u0173 kalba ypa\u010d aktyviai platinama socialiniuose tinkluose \u201eFacebook\u201c,
+  \u201eYouTube\u201c ir Twitter\u201c. Keistai sura\u0161ytame tekste, kuriam nepriskiriami
+  jokie \u0161altiniai ar autoryst\u0117, tikinama, kad lapkri\u010dio 25-osios incidento
+  metu b\u016btent rus\u0173 pasienie\u010diai neva pad\u0117jo i\u0161vengti branduolin\u0117s
+  katastrofos.\\n\u017dinia, kuri es\u0105 pasirod\u0117, o v\u0117liau dingo Rusijos
+  \u017einiasklaidoje, teigiama, kad trimis karo laivais ukrainie\u010diai kartu su
+  Jungtin\u0117s Karalyst\u0117s specialiosiomis paj\u0117gomis es\u0105 gabeno nedidel\u0117s
+  galios branduolin\u012f u\u017etais\u0105.\\n\u201eU\u017etais\u0105 sek\u0117 rusai,
+  kurie \u017einojo, kad jis patalpintas ukrainie\u010di\u0173 vilkike ir kad j\u012f
+  lydi 5 karo laivai \u2013 3 Juodojoje j\u016broje, tarp j\u0173 ir vien\u0105 NATO
+  laiv\u0105, bei du Azovo j\u016broje.\\nB\u016btent tod\u0117l rusai nusprend\u0117
+  veikti\u201c, \u2013 teigiama melagingoje naujienoje. I\u0161 tikr\u0173j\u0173
+  tuo metu Juodojoje j\u016broje nebuvo NATO laiv\u0173, o vilkik\u0105 lyd\u0117jo
+  du ukrainie\u010di\u0173 patruliniai kateriai. Visus tris laivus u\u017egrob\u0117
+  rusai n\u0117 \u017eodeliu neu\u017esimin\u0117 apie laivuose rastus branduolinius
+  u\u017etaisus, ta\u010diau pademonstravo u\u017egrobt\u0105 ukrainie\u010di\u0173
+  ginkluot\u0119 ir amunicij\u0105.\\n\u201eUkraina nuolat provokuoja Rusij\u0105,
+  bet Rusija nepasiduoda iki \u0161iol, kai nusprend\u0117 veikti ir u\u017ekirsti
+  keli\u0105 baisiam \u012fvykiui \u2013 provokacijai, kuri gal\u0117jo sukelti Tre\u010di\u0105
+  pasaulin\u012f kar\u0105\u201c, \u2013 teigiama \u017einut\u0117je, kurioje svarstoma,
+  kad branduolinis u\u017etaisas es\u0105 gal\u0117jo atkeliauti i\u0161 Jungtin\u0117s
+  Karalyst\u0117s, kuri jau \u201epsichologi\u0161kai ruo\u0161\u0117si karui su Rusija\u201c.\\nI\u0161
+  tikr\u0173j\u0173 \u017einut\u0117je minimas B-54 specialusis atominis u\u017etaisas
+  niekada nepriklaus\u0117 britams. 7-ojo de\u0161imtme\u010dio pabaigoje tok\u012f
+  kuprin\u0117je ne\u0161iojam\u0105 branduolin\u012f ginkl\u0105 suk\u016br\u0119
+  amerikie\u010diai jo atsisak\u0117 dar \u0160altojo karo pabaigoje, o visi sukurti
+  u\u017etaisai buvo sunaikinti.\\nTai, jog tariamos provokacijos dalyviai \u012fvardijami
+  b\u016btent brit\u0173 speciali\u0173j\u0173 paj\u0117g\u0173 kariai taip pat netur\u0117t\u0173
+  stebinti. Mat b\u016btent Jungtin\u0117 Karalyst\u0117 yra viena aktyviausi\u0173
+  Ukrainos r\u0117m\u0117j\u0173, pa\u017ead\u0117jusi stiprinti savo karin\u012f
+  vaidmen\u012f Ukrainoje ir Juodosios j\u016bros regione. Be to, b\u016btent britai
+  \u0161iemet tiesiogiai apkaltino Rusij\u0105 surengus cheminio ginklo atak\u0105
+  Jungtin\u0117je Karalyst\u0117je, kai pam\u0117ginta nunuodyti dvigub\u0105 Rusijos
+  agent\u0105 Sergej\u0173 Skripal\u012f ir jo dukr\u0105.\\nPo \u0161ios nes\u0117kmingos
+  atakos Londonas i\u0161 \u0161alies i\u0161siunt\u0117 de\u0161imtis rus\u0173 diplomat\u0173
+  \u2013 \u0161iuo pavyzd\u017eiu pasek\u0117 keliolika pasaulio valstybi\u0173, tarp
+  j\u0173 ir Lietuva. Be to, kitaip, nei Rusija, Jungtin\u0117 Karalyst\u0117 pateik\u0117
+  \u012frodymus, kad su cheminio ginklo \u201eNovi\u010diok\u201c ataka tiesiogiai
+  susij\u0119 Rusijos karin\u0117s \u017evalgybos (GU, dar neseniai vadintos GRU)
+  agentai. V\u0117liau netgi buvo pavie\u0161intos j\u0173 tapatyb\u0117s \u2013 Aleksandras
+  Mi\u0161kinas ir pulkininkas Anatolijus \u010cepiga.\"", "\"Apkardimas ar balso
+  praradimas yra bendra mokytoj\u0173 ir kalb\u0117toj\u0173 s\u0105lyga. Ta\u010diau
+  tokio sutrikimo ken\u010dia ne tik \u0161i\u0173 \\\"bendrij\u0173\\\" profesij\u0173
+  atstovai. Sveikatos b\u016bkl\u0117, vadinama \\\"aphonia\\\", yra da\u017enas per\u0161alimo
+  \u0161altinis ir da\u017enai yra l\u0117tin\u0117.\\nJei konkre\u010diai nepasiek\u0117te
+  silpnumo silpnumo (pavyzd\u017eiui, nor\u0117dami u\u017esiimti karjeros galimybe
+  ar \u012fgyti \u017eiauresn\u0119 reputacij\u0105 savo aplinkoje), atsiranda logi\u0161kas
+  klausimas - kaip atkurti balso \u0161altin\u012f?\\nSilpnumo ar balso praradimo
+  prie\u017eastys\\nN\u0117ra vienintel\u0117s prie\u017eastys, kod\u0117l balsas
+  gali \\\"s\u0117d\u0117ti\\\" - daug j\u0173 yra, ir reikia i\u0161siai\u0161kinti,
+  kas yra kiekvieno konkretaus atvejo prie\u017eastis. Veiksniai, veikiantys balso,
+  gali b\u016bti suskirstyti \u012f dvi grupes:\\n1. Bakterij\u0173 viruso infekcija.
+  Patogeniniai mikroorganizmai provokuoja tokias ligas kaip:\\nPaprastai gerkl\u0117s
+  skausmas ir laringitas yra beveik visada. \u0160ios ligos sukelia garsini\u0173
+  virvi\u0173 u\u017edegim\u0105 ir praranda \\\"deryb\u0173\\\" funkcij\u0105.\\n2.
+  I\u0161orin\u0117 \u012ftaka. Tokie papildomi neigiami veiksniai kaip:\\n- hipotermija
+  (vietin\u0117 ar bendra);\\n- r\u016bkymas;\\n- padid\u0117j\u0119s skrand\u017eio
+  r\u016bg\u0161tingumas;\\n- sausas arba dulk\u0117tas oras;\\n- valgyti maisto produktus,
+  kurie sukelia tro\u0161kul\u012f;\\n- bendras dehidracija;\\n- stresas;\\n- ilgi
+  ar per emociniai pokalbiai.\\n\u0160ie provokatoriai gali veikti neigiamai ir savaranki\u0161kai,
+  be infekcin\u0117s k\u016bno ligos.\\nKaip prarandamas balsas?\\nDa\u017enai aphonija
+  prasideda \u0161velniai ry\u0161kiai. Tur\u0117damas \u012ftakos vienam ar keliems
+  neigiamiems veiksniams, geroji laipsnis primena apie egzistavim\u0105 tokiais simptomais
+  kaip:\\nTaip atsitinka, kad staiga i\u0161nyksta balsas - \u017emogus tiesiog pakyla
+  ryte ir negali nieko pasakyti ar labai tyliai kalba. B\u016btent taip, aphonia u\u017etrunka
+  daug ilgiau, bet daug grei\u010diau, kai yra gerai i\u0161rinktas gydymas.\\nKatarin\u0117s
+  aphon\u0117s gydymo metodai\\nK\u0105 daryti, jei \u0161altis praranda j\u016bs\u0173
+  bals\u0105? Pirma, nepanikuokite. Net jei turite svarb\u0173 susitikim\u0105 ar
+  darbo dien\u0105 d\u0117l balso praradimo, svarbu prisiminti, kad stresas tik sustiprins
+  problem\u0105.\\nAntra, galite pabandyti vien\u0105 ar daugiau nam\u0173 proced\u016br\u0173.
+  Jei jie nepad\u0117s, tur\u0117site vartoti narkotikus. \u017demiau pateikti variantai,
+  kaip gydyti \\\"aphonia\\\" namuose.\\nLiaudies gynimo priemon\u0117s, skirtos bals\u0173
+  gr\u0105\u017eai\\n\\\"Athosas\\\" yra labai da\u017enas rei\u0161kinys, nes receptai,
+  norint j\u012f atsikratyti internete, tiesiog n\u0117ra laikomi. Mes pasirinkome
+  labiausiai \u017einom\u0105 ir lengvai naudojam\u0105:\\n- Pienas + sviestas + medus.
+  Pienas tur\u0117t\u0173 b\u016bti \u0161ildomas iki ma\u017edaug 40 laipsni\u0173.
+  Tada \u012fpilkite sviesto gabal\u0117lio, palaukite, kol jis i\u0161tirps ir prid\u0117kite
+  prie geriamojo medaus. \u0160is malonus vaistas pad\u0117s su\u0161ilti gerkl\u0119
+  d\u0117l geriamojo vandens temperat\u016bros, suma\u017eins medaus u\u017edegim\u0105
+  ir sald\u017eiojo audinio mink\u0161t\u0117jim\u0105.\\n- Kiau\u0161inio trynys
+  + cukrus + sviestas. Jodai turi b\u016bti \u012ftrinami su cukrumi, \u012fpilama
+  lydyto sviesto. Naudokite saldainio r\u016b\u0161\u012f, i\u0161tirpdamos vien\u0105
+  arbatin\u012f \u0161auk\u0161tel\u012f kiekvien\u0105 kart\u0105 per 1,5-2 valandas.\\n-
+  Pienas + soda. \u012e paruo\u0161to pieno stikl\u0119 \u012fpilkite tre\u010ddalio
+  \u0161auk\u0161telio soda. Gauk \u0161armin\u012f g\u0117rim\u0105, kuris labai
+  gerai ramina gerkl\u0119. Soda gali b\u016bti pakeista Borjomi mineraliniu vandeniu,
+  derinant j\u012f su pienu 1: 1 santykiu.\\n- Konjakas + citrinas + medus. \u0160is
+  vaistas pagamintas i\u0161 \u0161i\u0173 sudedam\u0173j\u0173 dali\u0173 50 ml /
+  3 la\u0161eli\u0173 / 15 g santykiu. J\u0173 gali gydyti tik suaugusieji - d\u0117l
+  to gaut\u0105 mi\u0161in\u012f reikia suvartoti du kartus per dien\u0105 (i\u0161samiai
+  skaityti: geriamasis konjakas: vaistas ar \u017eala?).\\n- Ramun\u0117 + eukaliptas.
+  Ramun\u0117lio infuzija praskied\u017eiama vandeniniu eukalipto tirpalu ir naudojama
+  gurk\u0161niui arba \u012fkv\u0117pus. Terapinis poveikis pasiekiamas d\u0117l prie\u0161u\u017edegimini\u0173
+  ir raminan\u010di\u0173 rezultat\u0173 derinio.\\n- Pienas + figos. D\u017eiovintus
+  vaisius reikia i\u0161pjauti pus\u0119, u\u017epilti stikline pieno ir \u0161ildyti,
+  nevirti. Gerkite kar\u0161t\u0105 dien\u0105.\\n- Svog\u016bnai + medus + cukrus.
+  Smulkiai supjaustyto svog\u016bno virkite 150 ml vandens, \u012fpilkite 2 arbatinius
+  \u0161auk\u0161telius cukraus. Sumai\u0161ykite gaut\u0105 sirup\u0105 pusiau su
+  medumi, paimkite 1 \u0161auk\u0161t\u0105 ryte ir vakare prie\u0161 valg\u012f.\\n-
+  G\u0117li\u0173 vynas. Tai kar\u0161tas g\u0117rimas, pagamintas i\u0161 vyno. Jis
+  pa\u0161ildomas iki kar\u0161to b\u016bkl\u0117s ir pridedamas cinamonas, gvazdik\u0117liai,
+  citrusiniai vaisiai ir cukrus. Toks g\u0117rimas ne tik atsikratys silpnumo, bet
+  ir atleis nuo \u0161al\u010dio. \u017dinoma, \u0161is receptas n\u0117ra naudojamas
+  vaik\u0173 gydymui.\\nTarp pateikt\u0173 recept\u0173 kiekvienas \u017emogus gal\u0117s
+  pasirinkti t\u0105, kuri jam patiko ir pad\u0117s.\\nMedicina, padedanti\\nKai kuriems
+  \u017emon\u0117ms lengviau eiti \u012f vaistin\u0119 ir nusipirkti paruo\u0161t\u0105
+  vaist\u0105, negu valgyti pagal receptus. Na, o tarp farmacini\u0173 vaist\u0173
+  yra efektyvi priemon\u0117, kuri gali greitai susigr\u0105\u017einti bals\u0105.
+  Kai kurie i\u0161 j\u0173 yra i\u0161vardyti toliau:\\n- Loratadinas, Diazolinas,
+  Alersinas - rei\u0161kia, kad pa\u0161alina alergin\u0119 ligos sud\u0117t\u012f;\\n-
+  Lyugol - jodas, kuris turi antiseptin\u012f poveik\u012f;\\n- Bromheksinas, ambrukasolis,
+  mukaltinas - labiausiai \u017einomi atskyrimo vaistai, kurie gali palengvinti kosulio
+  sudirginim\u0105;\\n- \\\"Geksoral\\\", \\\"Kameton\\\", \\\"Ingalipt\\\", \\\"Angileks\\\"
+  - vietiniai antiseptikai, kurie paprastai gaminami pur\u0161kiami pavidalu;\\n-
+  Miramistinas, chlorofilipitas - tirpalas, skirtas i\u0161d\u017ei\u016bti, pa\u0161alinti
+  audini\u0173 patinim\u0105.\\n\u0160ie vaistai, ypa\u010d derinant vienas su kitais,
+  gali pa\u0161alinti pagrindin\u0119 \\\"aphonijos\\\" prie\u017east\u012f.\\nPagalbiniai
+  metodai\\nNorint paspartinti \\\"melodingumo\\\" atk\u016brimo proces\u0105, be
+  narkotik\u0173 galite taikyti papildomus metodus, kurie pad\u0117s greitai susigr\u0105\u017einti
+  bals\u0105, pavyzd\u017eiui, jei:\\n- \u0161ildantys kompresai ant kaklo;\\n- kar\u0161tos
+  p\u0117dos vonios;\\n- \u0161ildantys tepalai ant koj\u0173 ir ver\u0161eli\u0173;\\n-
+  gausu geriamojo re\u017eimo;\\n- eterinio aliejaus gydymas.\\nAr galima vien\u0105
+  dien\u0105 at\u0161aukti \u0161alm\u0105? Atsakymas \u012f \u0161\u012f klausim\u0105
+  priklauso nuo ligos sunkumo ir jo kilm\u0117s. Jei j\u016bs\u0173 gerkl\u0117 tiesiog
+  i\u0161siver\u017e\u0117 \u0161altai, grei\u010diausiai j\u016bs\u0173 balsas pasieks
+  po keleto proced\u016br\u0173, kuriose pa\u0161ildysite kojas ir kakl\u0105, taip
+  pat gerkite \u0161iltus medicininius g\u0117rimus. Kitais atvejais gali prireikti
+  intensyvesnio gydymo nuo 3 iki 10 dien\u0173.\\nPapildomos rekomendacijos ir apribojimai\\nSvarbiausia,
+  kad \\\"aphonia\\\" yra u\u017ekirsti keli\u0105 veiksmams, kurie gali pabloginti
+  garsini\u0173 virveli\u0173 b\u016bkl\u0119. Tod\u0117l tur\u0117tum\u0117te klausytis
+  \u0161i\u0173 patarim\u0173, ypa\u010d jei j\u016bs\u0173 balsas i\u0161nyksta su
+  \u0161al\u010diu:\\n- Stenkit\u0117s atsikratyti blog\u0173 \u012fpro\u010di\u0173,
+  jei turite juos. Cigaret\u0117s ir alkoholis i\u0161d\u017ei\u016bvo gleivin\u0119
+  burnoje, d\u0117l ko i\u0161siskleid\u017eia, taip pat visi\u0161kai arba i\u0161
+  dalies prarandamas balsas.\\n- Atsisakykite laiko arbatui, kavai, sald\u017eiar\u016bg\u0161\u010diai
+  ir sultims - \u0161ie g\u0117rimai yra diuretikai, tod\u0117l jie dehidratuoja k\u016bn\u0105.\\n-
+  Ligos metu pa\u0161alinkite i\u0161 dietos saldainius, kepimo, a\u0161trus, keptas,
+  riebius, s\u016brus, r\u016bkytus ir r\u016bg\u0161tus maisto produktus. Visi jie
+  sukelia padid\u0117jus\u012f tro\u0161kul\u012f ir dirgina gerkl\u0173 ir bals\u0105.\\n-
+  V\u0117sioje aplinkoje vengti vaik\u0161\u010dioti lauke, ypa\u010d be skara. Dabar
+  jums nereikalingas perkaitimas.\\n- Stenkit\u0117s nepasirodyti tose vietose, kur
+  yra daug dulki\u0173 ir kit\u0173 ter\u0161ian\u010di\u0173 daleli\u0173.\\n- Vykdykite
+  balso poils\u012f tiek, kiek reikia, kad visi\u0161kai atkurtum\u0117te rai\u0161\u010dius.
+  Idealiu atveju gydytojas tur\u0117t\u0173 \u0161\u012f laik\u0105 nustatyti.\\nJei
+  tikrai norite kuo grei\u010diau gr\u0105\u017einti savo bals\u0105, jums nebus sunku
+  laikytis \u0161i\u0173 rekomendacij\u0173. Su da\u017ena tendencija laringitu ir
+  aphonija, verta pam\u0105styti apie profesionali\u0105 otolaringologo konsultacij\u0105.
+  Negalima laikyti laikinu balsavimo netekimu kaip bausme. J\u016bs vis dar negalite
+  apsidrausti nuo vis\u0173 galim\u0173 \u0161ios valstyb\u0117s prie\u017eas\u010di\u0173.
+  Kreipkit\u0117s \u012f priverstin\u0119 tyl\u0105 kaip \u012f galimyb\u0119 pails\u0117ti,
+  nes bendravimuose mes kartais taip pat reikalaujame pauz\u0119.\\nAtk\u016brimo
+  balsas po \u0161alto namuose\\nS\u016aRS, gripas, per\u0161alimas rudens-\u017eiemos
+  laikotarpiu neapsunkina beveik vieno \u017emogaus. Daugeliu atvej\u0173 \u0161ios
+  ligos atsiranda su komplikacijomis: visa tai prasideda \u0161altuoju ir baigiasi
+  laringitu, tracheitu ar bronchitu, sukelian\u010diu vokalo virveli\u0173 u\u017edegim\u0105.\\nJei
+  suaug\u0119 \u017emon\u0117s gali atsilaikyti nuo daugelio kv\u0117pavimo lig\u0173
+  ant koj\u0173, tai k\u0105 rei\u0161kia situacija, kai prarandamas geb\u0117jimas
+  kalb\u0117ti? Gal\u0173 gale, \u017emogaus darbas daugeliu atvej\u0173 yra susij\u0119s
+  su kalbos veikla. Taigi, jei da\u017enai prarandate savo bals\u0105, kai yra \u0161altesnis,
+  nei gerti ir kaip atkurti kalbos?\\nKod\u0117l balsas dingsta, kai yra \u0161alta
+  ir ORVI?\\nU\u017e vokalo aparato funkcij\u0105 atsakingas vagus nervas, i\u0161vykstantis
+  i\u0161 medulio. Po \u0161alto ar per\u0161alimo da\u017enai b\u016bna burnos gleivin\u0117s
+  patinimas, d\u0117l ko prarandama j\u0173 geb\u0117jimas sukurti vibracij\u0105.
+  Ai\u0161kumas, silpnumas. Jei balso perdavimas buvo per \u0161altas, daugyb\u0117
+  proced\u016br\u0173, kurios gali b\u016bti atliekamos namuose, gali pad\u0117ti
+  j\u0105 atkurti. Ta\u010diau populiarus gydymas kartu su vaistais suteikia maksimal\u0173
+  efekt\u0105 ir leid\u017eia jums kuo grei\u010diau atsikratyti aphonijos.\\nKokie
+  veiksniai lemia balso praradim\u0105?\\n\u017dmogus gali prarasti savo bals\u0105
+  d\u0117l daugelio prie\u017eas\u010di\u0173. Da\u017eniausiai tai \u012fvyksta \u0161iais
+  atvejais:\\n- Gausiai \u0161alta arba, atvirk\u0161\u010diai, kar\u0161ta g\u0117rimas:
+  d\u0117l to u\u017edegimo procesai prasideda gerklose.\\n- Paprasta \u0161alta,
+  \u016bmin\u0117 kv\u0117pavimo tak\u0173 virusin\u0117 infekcija ir, kaip komplikacijos,
+  laringitas, bronchitas, tracheitas. Kv\u0117pavimas, sausas kosulys, u\u017ekimimas.\\n-
+  Daugyb\u0117je i\u0161nyksta per\u0161alimo balsas, ta\u010diau daugeliu atvej\u0173
+  \u0161is rei\u0161kinys pasitaiko mokytojams, dainininkams, aktoriams, kalb\u0117tojams:
+  balsas visada \u012ftemptas, o liga apsunkina proces\u0105.\\n- Reguliarus \u0161aldyt\u0173
+  g\u0117rim\u0173 vartojimas.\\nStenkit\u0117s pa\u0161alinti visus galimus pavojus
+  sau: tai pad\u0117s i\u0161vengti balso praradimo ir sunki\u0173 komplikacij\u0173
+  po ENT lig\u0173 atsiradimo.\\nKaip atkurti bals\u0105 \u0161altu namuose?\\nViena
+  i\u0161 pagrindini\u0173 s\u0105lyg\u0173 greitai atsikratyti toki\u0173 komplikacij\u0173
+  yra tinkama mityba. Pirma, jums reikia \u0161ilto g\u0117rimo ir dideliais kiekiais.
+  Dirginamos rai\u0161teliai reikalauja daug dr\u0117gm\u0117s. Arbata, sultys, kompotas,
+  \u017eel\u0117, pienas - pasirinkimas yra gana platus.\\nJei n\u0117ra temperat\u016bros
+  ir nenaudojate narkotik\u0173 viduje, karamelinis vynas pad\u0117s. Virkite j\u012f
+  geriau prie\u0161 mieg\u0105. \u012e ind\u0105 supilkite raudon\u0105j\u012f vyn\u0105,
+  prid\u0117ti \u0161iek tiek cinamono; 1-2 gvazdik\u0117liai; kalendra, muskato rie\u0161utas,
+  d\u017eiovintas imbieras peilio galuose ir \u0161iluma iki 80 laipsni\u0173. G\u0117rimas
+  neturi virti: \u0161iuo atveju prarandamos visos naudingos savyb\u0117s. Sugerkite,
+  gerkite 150 g g\u0117lu vyno, apvyniokite savo gerkl\u0119 ir eik prie lovos.\\nPaciento
+  mityboje turi b\u016bti sultiniai, liesa m\u0117sa be prieskoni\u0173, vaisiai,
+  dar\u017eov\u0117s, gr\u016bdai, jogurtas ir kiti pieno produktai. Draud\u017eiama
+  vartoti r\u016bkytus produktus, konservuotus dar\u017eoves, kav\u0105 ir soda. Valgomiems
+  patiekalams yra naudinga \u012fd\u0117ti \u010desnak\u0105 ir svog\u016bnus.\\nKaip
+  atkurti balso po \u0161alto liaudies gynimo priemoni\u0173?\\nNamuose yra daug gydymo
+  b\u016bd\u0173: gurk\u0161nojimas, \u012fkv\u0117pimo proced\u016bros, migdol\u0173
+  ir u\u017epakalin\u0117s sienos tepimas, \u0161ilti g\u0117rimai, gydom\u0173j\u0173
+  u\u017epil\u0173 naudojimas. Taigi, kaip gauti balso atgal nuo \u0161al\u010dio
+  tradicin\u0117s medicinos recept\u0173 pagalba?\\n- Prie\u0161 mieg\u0105 \u0161ilta
+  p\u0117d\u0173 vonia. Paimkite \u0161vie\u017ei\u0105 kiau\u0161in\u012f ir valgykite
+  \u017eali\u0105, tada valgykite 1 valgomasis \u0161auk\u0161tas. l medus Proced\u016br\u0105
+  turite atlikti tris kartus su 40 minu\u010di\u0173 intervalu.\\n- Nulupkite krien\u0173
+  \u0161akn\u012f, sudr\u0117kinkite virveliu ir u\u017epilkite verdan\u010diu vandeniu.
+  10 g mi\u0161inio - 0,5 tableto vandens. Infuzija bus paruo\u0161ta po 4 valand\u0173.
+  Jei pageidaujate, prid\u0117kite \u0161iek tiek cukraus. Dienos metu gerkite ma\u017eus
+  bandel\u0117s \u0161ilumos pavidalu.\\n- M\u0117lyn\u0117s uogos susmulkina ir u\u017epilama
+  verdan\u010dia, bet \u0161iek tiek atv\u0117sinto vandens. Gandykite su tokiu gerkl\u0117s
+  skausmu 4-5 kartus per dien\u0105.\\n- \u012emai\u0161ykite kiau\u0161inio balt\u0105,
+  kol atsiranda putojantis. Tada supilkite stiklin\u0119 \u0161ilto virinto vandens.
+  Skalauti kas 2 valandas.\\n- 400 g s\u0117len\u0173 u\u017epilkite 1,5 litro verdan\u010dio
+  vandens, saldinkite rudiu cukrumi. \u0160tamas, gerkite ma\u017eose gurk\u0161nose
+  vis\u0105 dien\u0105.\\n- \u012ekv\u0117pimas su ramun\u0117liais, kalendrais, eukaliptais,
+  \u0161alaviju. 1 valgomasis \u0161auk\u0161tas l \u017eol\u0117s i\u0161pilamos
+  litru verdan\u010dio vandens. U\u017edenkite antklod\u0117 ir kv\u0117pkite 10 minu\u010di\u0173.
+  J\u016bs galite atlikti proced\u016br\u0105 ir naudoti purk\u0161tuk\u0105. Jei
+  j\u016bs praradote savo bals\u0105 \u0161altai ir turite kartu gydyti bronchit\u0105
+  arba tonzilit\u0105, \u0161is prietaisas taps tikru i\u0161gelb\u0117jimu. \u017dmon\u0117s,
+  kurie da\u017enai ken\u010dia nuo kv\u0117pavimo lig\u0173, papras\u010diausiai
+  privalo tur\u0117ti namie.\\n- Aromaterapija su eteriniais aliejais citrinos, eukalipto,
+  anizo. \u012e speciali\u0105 lemput\u0119 pridedami keli la\u0161eliai aliejaus
+  ir vandens. Proced\u016bra tur\u0117t\u0173 b\u016bti vykdoma darnioje atmosferoje.\\n-
+  K\u0105 daryti, jei balso dingo su \u0161al\u010diu, jie seniai \u017einojo: \u0161iltas
+  pienas su medumi ir sviestu ilg\u0105 laik\u0105 buvo naudojamas gerkl\u0173 ligoms.
+  Jei turite dalin\u0119 aphonij\u0105, \u0161i priemon\u0117 netgi gali pad\u0117ti
+  per vien\u0105 nakt\u012f, o rytoj gal\u0117s kalb\u0117ti. Pienas \u0161ildo raumenis,
+  o medus ir sviestas apver\u010dia, atkuria gleivin\u0117s elastingum\u0105. Galite
+  \u012fd\u0117ti \u012f gerti \u0161iek tiek imbiero ar kakavos.\\n- Figiniai vaisiai
+  yra susmulkinti. \u012epilkite \u0161ilto pieno, \u0161ilumos, bet neu\u017edenkite.
+  Gerkite tris kartus per dien\u0105.\\n- Pagalba ir \u0161ilti kompresai nakt\u012f.
+  Kop\u016bstus lapus suplakite kar\u0161tu vandeniu, i\u0161d\u017eiovinkite ir tepkite
+  medu. \u012ed\u0117kite ant kaklo, pritvirtinkite vilnoniu skara ar skara.\\n- Virkite
+  vi\u0161tienos kiau\u0161in\u012f, prid\u0117kite \u0161auk\u0161t\u0105 medaus,
+  \u0161iek tiek brend\u017eio arba romo, citrin\u0173 sul\u010di\u0173. Visos sudedamosios
+  dalys turi b\u016bti vienodos proporcijos. Kruop\u0161\u010diai sumai\u0161ykite.
+  \u0160ildykite vandens vonioje ir gerkite 0,25-0,5 puodelio tris kartus per dien\u0105.\\n-
+  Paruo\u0161kite anijin\u0117s s\u0117klos pagrindu pagamint\u0105 nuovir\u0105.
+  Jie turi u\u017epilti verdan\u010diu vandeniu santykiu 1: 2 ir verdant ma\u017eai
+  ugnies 15 minu\u010di\u0173. Atv\u0117sinkite, prid\u0117kite deserto \u0161auk\u0161t\u0105
+  brend\u017eio ir 1,5 \u0161auk\u0161telio. l medus, sumai\u0161ykite. Gerkite po
+  1 \u0161auk\u0161t\u0105 kas 30 minu\u010di\u0173. Negalima laikyti \u0161aldytuve.\\nKai
+  \u0161alta yra prarasti balso, nei gydyti, pats asmuo pasirenka. Jei esate alergi\u0161kas
+  medui, kai kurie i\u0161 pirmiau i\u0161vardyt\u0173 vaist\u0173 yra draud\u017eiami.
+  Kai kurie turi individual\u0173 netoleravim\u0105 ramun\u0117li\u0173, eukalipt\u0173
+  ar eterini\u0173 aliej\u0173. Tod\u0117l gydymo b\u016bdas kiekvienas pasirenka.
+  Ta\u010diau geriausia b\u016bt\u0173 konsultuotis su patyrusiu gydytoju.\\nNarkotik\u0173
+  gydymas balso praradimui\\nJei \u0161alto metu dingo balsas, kaip gydyti gerkl\u0119
+  ir atkurti gon\u0173 aparato veikim\u0105 vaist\u0173 pagalba, gali paskatinti patyr\u0119s
+  otolaringologas. Tais atvejais, kai negalima eiti \u012f klinik\u0105, galite naudoti
+  tabletes arba pur\u0161kiklius. Jie parduodami vaistin\u0117se be recepto.\\n- Kameton
+  (pur\u0161kalas). Padeda u\u017edegiminiams procesams burnos ertm\u0117je. Ji turi
+  antiseptini\u0173 savybi\u0173.\\n- Faringozeptas (tablet\u0117s). \u0160is vaistas
+  yra \u017einomas nuo sovietme\u010dio. Veiksminga d\u0117l bet koki\u0173 infekcini\u0173
+  ir u\u017edegimini\u0173 gerkl\u0117s lig\u0173.\\n- Hexoral (pur\u0161kalas). Daugiafunkcinis
+  preparatas: dr\u0117kina gleivines, dezinfekuoja ir suma\u017eina skausm\u0105 riebaluose.\\n-
+  Chlorophyllipt (tirpalas). Nat\u016brali\u0173 ingredient\u0173 antimikrobinio aliejaus
+  konsistencija. Jis pagamintas i\u0161 chlorofilo, esan\u010dio eukalipto lapuose.\\n-
+  Decatilenas (tablet\u0117s). I\u0161laisvina gerkl\u0119, turi antibakterini\u0173
+  savybi\u0173.\\n- Ingalipt. Dezinfekuoja, lengvina gurk\u0161n\u012f ir slopina
+  u\u017edegiminius procesus.\\n- Septolete (tabletes). Padeda stipriai kosulyje,
+  ma\u017eina skausm\u0105 ir slopina patogenus.\\n- Gomeovoks. \u0160is vaistas pasirod\u0117
+  es\u0105s efektyvus homeopatinis vaistas nuo laringito, tonzilito ir balso praradimo.\\n-
+  Lugolo tirpalas. Padeda veiksmingai ir greitai su\u0161velninti garsini\u0173 virvi\u0173
+  u\u017edegim\u0105.\\n- Antialerginiai vaistai. Jei balso praradimas yra kartu su
+  edemu, negalima i\u0161siversti be \u0161i\u0173 l\u0117\u0161\u0173.\\nVisi \u0161ie
+  vaistiniai preparatai pad\u0117s jums susidurti su situacija, kai jums reikia greitai
+  gr\u0105\u017einti savo bals\u0105, kai yra \u0161alta.\\nPapildomi balso atk\u016brimo
+  \u012frankiai\\nKartais net sud\u0117tingas gydymas, kalbos funkcija atstatoma labai
+  l\u0117tai. Jei j\u016bs praradote savo bals\u0105 nuo \u0161al\u010dio, kaip kuo
+  veiksmingiau gydyti aphonij\u0105? B\u016btina ne tik vartoti vaist\u0173 terapij\u0105
+  ir populiarius receptus, bet ir atlikti \u0161iuos pratimus:\\n- \\\"Li\u016bto
+  poj\u016btis\\\". Pabandykite laikytis savo lie\u017euvio iki galo ir paskelbkite
+  gars\u0105 \\\"k.\\\" Pakartokite kelet\u0105 kart\u0173.\\n- \u012ekv\u0117pkite,
+  pakreipkite galv\u0105 atgal ir pabandykite imituoti gars\u0105. Atlikite tai tiksliai
+  tol, kol galite kv\u0117puoti.\\n- Blauzdami pir\u0161t\u0105 ant vir\u0161utin\u0117s
+  l\u016bpos, palaikykite savo kv\u0117pavim\u0105 ir pabandykite pasakyti \\\"b\u016bt\u0173\\\".\\n-
+  Giliai kv\u0117puoti. Sukiokite ant kr\u016btin\u0117s ir pabandykite i\u0161tarti
+  visus balsi\u0173 garsus. \u0160is pratimas yra labai veiksmingas, jei praradote
+  bals\u0105, kai esate \u0161altas.\\n- Paliesdami nosies sparnus ir \u0161nerves
+  rankomis, pabandykite sudeginti garsus garsus (kartu su lytine kontaktu, veiksmingai
+  atkuriami garsiniai virveliai).\\nJei prarasite savo bals\u0105, naudinga masa\u017euoti
+  gerkl\u0119 apskrito judesio metu. Tai galite padaryti, kai naudojami \u0161al\u010dio
+  tepalai, pavyzd\u017eiui, Balm Evkabal. Be to, nepamir\u0161kite, kad gerkl\u0117
+  tur\u0117t\u0173 b\u016bti \u0161ilta, o namuose - reikiamo dr\u0117gnumo lygio.
+  Jei ne\u017einote, kaip kuo grei\u010diau atstatyti bals\u0105 po \u0161al\u010dio,
+  o j\u016bs da\u017enai ken\u010dia nuo aphonijos, \u012fsigykite dr\u0117kintuv\u0105
+  - \u0161is prietaisas pad\u0117s padidinti gydymo efektyvum\u0105. Tai padeda sausuoju
+  kosuliu.\\nKas draud\u017eiama daryti asmen\u012f, kuris prarado savo bals\u0105
+  po \u0161al\u010dio?\\n\u0160alto ar ARVI gydymo metu, apsunkintas balsu, pacientas
+  yra grie\u017etai draud\u017eiamas:\\n- R\u016bkyti Cigare\u010di\u0173 dervos sudirgina
+  bals\u0105, provokuoja silpnumo atsiradim\u0105.\\n- Bando kalb\u0117ti, ypa\u010d
+  \u0161nab\u017edesyje. Pastaruoju atveju esate dar labiau \u012ftemptas balso aparatas.\\n-
+  Labai da\u017enai \u017emon\u0117s, kurie ne\u017eino, kaip greitai sugr\u0105\u017einti
+  per\u0161alimo bals\u0105 namuose, nesukeliant \u017ealos sveikatai, pasinaudos
+  garsiausiais metodais. Pavyzd\u017eiui, jie pradeda susi\u017ealoti natrio vandeniu.
+  \u0160i priemon\u0117 yra grie\u017etai draud\u017eiama vartoti: ji padeda kovoti
+  su patogeniniais mikroorganizmais, ta\u010diau tai neigiamai veikia garsini\u0173
+  virveli\u0173 b\u016bkl\u0119.\\n- Kv\u0117puoti burn\u0105, ypa\u010d \u0161altu
+  oru. Kv\u0117puojantis i\u0161 nosies, nat\u016bralus oro valymas i\u0161 bakterij\u0173
+  ir dulki\u0173, taip pat jo \u0161ildymas ir dr\u0117kinimas.\\nKaip vien\u0105
+  dien\u0105 su \u0161al\u010diu gr\u012f\u017eti balsas yra gana sud\u0117tingas
+  klausimas, ta\u010diau kartais ten yra situacij\u0173, kai tai tiesiog b\u016btina
+  padaryti, kad neb\u016bt\u0173 \u017elug\u0119 kolegos, giminai\u010diai, draugai
+  ar neprarastum\u0117te galimyb\u0117s, kuri atrodo vien\u0105 kart\u0105 vis\u0105
+  gyvenim\u0105. Tokiais atvejais b\u016btina atlikti i\u0161sam\u0173 gydym\u0105:
+  naudoti veiksmingus vaistus, liaudies gynimo priemones ir atlikti pratimus, kad
+  atkurtum\u0117te garsini\u0173 virvi\u0173 funkcijas.\\nBalso praradimas \u0161al\u010dio
+  atveju n\u0117ra tokia baisi problema, jei mes sprend\u017eiame savo sprendim\u0105
+  kuo didesniu atsakomybe, ir mes jau pasi\u016bl\u0117me, kaip elgtis su tokia komplikacija.
+  Mes norime, kad j\u016bs nepakenktum\u0117te!\\nKaip atkurti balso namuose\\nStraipsnyje
+  kalbama apie balso praradimo prie\u017eastis ir apie tai, kaip j\u012f sugr\u0105\u017einti.
+  Atsakyk \u012f klausim\u0105, kaip atkurti garsinius virves namuose.\\nTaikydami
+  m\u016bs\u0173 rekomendacijas, i\u0161vengsite gerkl\u0117s skausmo, o liaudies
+  gynimo priemon\u0117s greitai pad\u0117s pa\u0161alinti nemalonius simptomus.\\nIlgalaikis
+  u\u017ekimimas provokuoja garsini\u0173 virvi\u0173 u\u017edegim\u0105. Nepaisydamas
+  problemos, ilg\u0105 laik\u0105 prarandamas balsas. Dalinis ar visi\u0161kas balso
+  praradimas vadinamas aphonija (medicinos terminas).\\nBalso praradimo prie\u017eastys\\n-
+  Laringitas (u\u017edegimas gleivin\u0117s skausmas), bronchitas, gerkl\u0117s skausmas
+  ir kit\u0173 lig\u0173 i\u0161provokavo \u012f balso styg\u0173 padid\u0117jim\u0105,
+  asmuo praranda savo bals\u0105. Tas pats laringitas yra r\u016bkan\u010diojo \\\"i\u0161tikimas
+  kompanionas\\\". R\u016bkal\u012f galima identifikuoti \u0161velniu u\u017ekimimu
+  ir u\u017ekimimu.\\n- Baltas balsas i\u0161nyksta i\u0161 banalaus \u0161al\u010dio
+  arba yra sunkios ligos simptomas (tuberkulioz\u0117, raudonoji kar\u0161tin\u0117,
+  sifilis).\\n- Kalbant apie didelius tonus, vokalo virvi\u0173 perk\u0117limas. Da\u017enai,
+  kai \u0161aukia, asmuo praranda geb\u0117jim\u0105 kalb\u0117ti normaliai.\\n- Ry\u0161kus
+  oro, \u0161alto ar sauso oro pokytis neigiamai veikia j\u016bs\u0173 gerov\u0119.
+  Gaukite special\u0173 dr\u0117kintuv\u0105.\\n- Pavojus kelia tam tikr\u0173 profesij\u0173
+  (mokytoj\u0173, kalb\u0117toj\u0173, meninink\u0173) \u017emones, kurie kasdien
+  \u012ftempia savo balsus.\\n- Stiprus stresas ir pertr\u016bkis neigiamai veikia
+  bals\u0105.\\n- Kai kurie maisto produktai dirgina gerkl\u0119. I\u0161meskite:
+  krekeri\u0173, gazuot\u0173 g\u0117rim\u0173, kavos, alkoholio, per kar\u0161t\u0173
+  ar \u0161alt\u0173 patiekal\u0173.\\nGarsini\u0173 virvi\u0173 gydymas\\nNustatykite
+  ligos prie\u017east\u012f ir prad\u0117kite gydym\u0105. L\u0117tinis patinimas
+  ir da\u017enas balso praradimas - prie\u017eastis pasikonsultuoti su gydytoju. Jis
+  skirs nuo u\u017edegimo ir nuo edemos vaist\u0173, vitamin\u0173 kompleks\u0105.\\n\u012ekv\u0117pimas
+  padeda atstatyti bals\u0105 savaranki\u0161kai. \\\"Grandma\\\" metodas yra \u012fkv\u0117pti
+  kar\u0161tus garus vir\u0161 indo su \u017eolel\u0117mis ar eteriniais aliejais.
+  Padengti savo galv\u0105 rank\u0161luos\u010diu.\\nJei auk\u0161\u010diau pateiktas
+  metodas netinka, pasirinkite purk\u0161tukus (prietaisus \u012fkv\u0117pti namuose).
+  \u012ekv\u0117pti tirpal\u0105 su eukalipto eteriniu aliejumi arba \u0161alaviju.
+  Aromatiniai garai ma\u017eina patinim\u0105 ir u\u017edegim\u0105, pa\u0161alina
+  infekcij\u0105. \u012ekv\u0117pti garus per burn\u0105 ir i\u0161kv\u0117pti nosine.
+  Inhaliacijos laikas yra 5 minut\u0117s, du kartus per dien\u0105.\\nStaiga balsas
+  dingo? Poilsis ir u\u017esi\u010diaupk, neu\u017etempkite vokalo virvi\u0173, suteikiant
+  jiems laiko susigr\u0105\u017einti. Jei tai yra riksmas, dainavimas ar ilgas pokalbis,
+  balsas gr\u012f\u0161 per vien\u0105 ar dvi dienas. Negalima \u0161nab\u017ed\u0117ti.
+  \u012erodyta, kad \u0161nab\u017edesys dar labiau erzinantis balsas.\\nKar\u0161tos
+  arbatos, kavos ir net alkoholini\u0173 g\u0117rim\u0173 veiksmingumas silpnumo ir
+  gerkl\u0117s gydymui yra pernelyg didelis. Tokie gydymo metodai yra abejotini, nes
+  g\u0117rimai dehidratuoja jau silpn\u0105 organizm\u0105.\\nKompotai, vaista\u017eoli\u0173
+  u\u017epilai, vaisi\u0173 g\u0117rimai pad\u0117s atkurti balso namuose.\\nGydymas
+  liaudies metodais\\nLiaudies gynimo b\u016bdai, kurie buvo i\u0161bandyti kartoms,
+  pad\u0117s jums susigr\u0105\u017einti bals\u0105 nesiimant vaist\u0173.\\nJei norite
+  greitai atkurti savo bals\u0105, kai esate \u0161altas, skalaukite vaista\u017eoli\u0173
+  dedektais, kuri\u0173 sud\u0117tyje yra raguoli\u0173 ir ramun\u0117li\u0173, kurie
+  turi prie\u0161u\u017edegimini\u0173 savybi\u0173.\\nNaudokite \u0161ilt\u0105 vanden\u012f
+  (kiek reikia k\u016bnui), darykite kompresus. Atgaivinti po ligos bus lengviau i\u0161mesti
+  viburnum, kuris naudojamas skrepliui pa\u0161alinti ir u\u017edegimui \u0161alinti.\\nGerkl\u0117s
+  skausmas ir \u0161altas gydymas\\nRecepto apra\u0161ymas: \u012frankis pad\u0117s
+  atkurti balso informacij\u0105 per 2-4 dienas.\\nTai bus:\\n- Pienas - 0,5 litro;\\n-
+  Vi\u0161tienos kiau\u0161inis - 1 gabalas;\\n- Medus - 5 gramai;\\n- Sviestas -
+  5 gramai.\\nKaip virti: \u0161iltame piene prid\u0117ti pirmiau nurodytus ingredientus.
+  Gerkite ryte ir vakare 0,5 litro l\u0117\u0161\u0173.\\nGarnys su mork\u0173 ar
+  obuoli\u0173 sultimis palengvins nemalonius u\u017edegimo simptomus.\\nGreitas gerkl\u0117s
+  atstatymas\\nRecepto apra\u0161ymas: Garsiniai virveliai bus atstatomi per dien\u0105.\\nTai
+  bus:\\n- Vi\u0161tienos baltymas i\u0161 2 kiau\u0161ini\u0173.\\n- Vanduo - 1 puodelis.\\nKaip
+  virti: mu\u0161ti baltus \u012f putojan\u010di\u0105 b\u016bsen\u0105. U\u017epildykite
+  \u0161altu verd\u017eiu vandeniu. Gurk\u0161ti kas dvi valandas.\\nGreitas b\u016bdas
+  gerovei gerinti\\nRecepto apra\u0161ymas: D\u0117l skausmo geryboje ir problem\u0173
+  su balsu virvut\u0117s, aniza s\u0117klos pad\u0117s. Paimkite \u0161auk\u0161t\u0105
+  du kartus per valand\u0105.\\nTai bus:\\n- Aniza s\u0117klos - pus\u0117 stiklo;\\n-
+  Vanduo - 500 ml;\\n- Konjakas - 10 ml;\\n- Medus - 50 g\\nKaip virti: u\u017epilkite
+  verdan\u010diu vandeniu ant ani\u0161e\u0161i\u0173 s\u0117kl\u0173. Palikite dvi
+  valandas. Padarykite s\u0117klas ir prid\u0117kite brend\u012f ir med\u0173.\\nEggnog
+  u\u017ekimimas ir gerkl\u0117s skausmas\\nTai bus:\\n- Vi\u0161tienos kiau\u0161iniai
+  - 2 vnt.\\n- Cukrus ar medus - 2 \u0161auk\u0161tai;\\n- Pienas - 100 ml.\\nKaip
+  virti: su cukrumi arba medumi su mai\u0161ytuvu permu\u0161kite trynius. \u012epilkite
+  \u0161ildomo pieno. Vover\u0117s plakti su cukrumi stiprios putos ir i\u0161gerti.
+  Vartokite kaip \u0161ilum\u0105. Jei nori, prie egl\u0117s prid\u0117s prieskoni\u0173,
+  2 \u0161auk\u0161tai romo arba brend\u017eio ir apelsin\u0173 sul\u010di\u0173.\\nMork\u0173
+  nuoviras atkurti balso\\nTai bus:\\nKaip virti: nulupkite morkas, \u012fd\u0117ti
+  \u012f konteiner\u012f ir padengti pienu. \u012ed\u0117kite nedidel\u012f ugn\u012f.
+  \u012emai\u0161ykite morkas iki pasi\u016blymo. Dujoti\u0161ki pieno ir gerti \u0161ilta
+  vis\u0105 dien\u0105. Per gydymo laikotarp\u012f g\u0117rimai, kuri\u0173 sud\u0117tyje
+  yra kofeino, geria \u0161var\u0173 vanden\u012f.\\nPrevencin\u0117s priemon\u0117s\\n-
+  Valdykite balso ton\u0105. Palaikykime vokalo laidus.\\n- Steb\u0117kite maist\u0105,
+  \u012ftraukite \u012f baltym\u0173 maisto produkt\u0173, vaisi\u0173 ir dar\u017eovi\u0173,
+  m\u0117sos sultinio, baltos m\u0117sos (virtos), pieno produkt\u0173 diet\u0105.\\n-
+  Atsisakyk blog\u0173 \u012fpro\u010di\u0173.\\n- \u0160altuoju met\u0173 laiku j\u016bs
+  i\u0161mokite kv\u0117puoti per nos\u012f. Tai apsaugo gerkl\u0173 nuo hipotermijos
+  ir per\u0161alimo.\\n- Gaukite pakankamai miego, kasdien vaik\u0161\u010diokite
+  grynu oru.\\n- Oro kambariai, ypa\u010d jei kambarys yra sausas.\\n- Venkite streso
+  ir nerimo.\\nK\u0105 prisiminti\\n- Garsini\u0173 virvi\u0173 u\u017edegimas sukelia
+  \u012fvairius veiksnius: per\u0161alim\u0105, pernelyg didel\u012f emocij\u0173
+  i\u0161siver\u017eim\u0105, stres\u0105, nesveik\u0105 mityb\u0105.\\n- \u012ekv\u0117pimas,
+  vaistai ir tradiciniai metodai pad\u0117s atkurti balso.\\n- L\u0117tinis u\u017edegimas
+  gerkl\u0117je ir da\u017enas balso praradimas rodo lig\u0105. Pasitarkite su gydytoju.\\nKaip
+  atkurti balso\\nGerbiami skaitytojai, \u0161iandien noriu pasidalinti su jumis patarimus,
+  kaip greitai atkurti balso. Ties\u0105 sakant, a\u0161 pats esu muzikantas, daugiau
+  nei 20 met\u0173 dirbu su vokalais. \u017dinau daug, a\u0161 pama\u010diau ir gird\u0117jau
+  tiek daug, kad kartais manau, kad bus laikas dalyvauti moksliniame darbe. Bet ka\u017ekaip
+  viskas priklauso ne nuo j\u0173.\\n\u0160ie patarimai tinka tiek profesionaliems
+  vokalistams, tiek mokytojams, transliuotojams ir paprastiems \u017emon\u0117ms,
+  ypa\u010d jei balsas pasidar\u0117 \u0161altas ar laringitas.\\n\u0160iek tiek apie
+  tai, su kuo susiduriu realiuoju gyvenimu. Vokalistai yra labai \u012fdom\u016bs
+  ir specifiniai \u017emon\u0117s. D\u017eiaugiuosi, kad buvau laimingas, sugeb\u0117jau
+  dirbti su realiais mano srities specialistais.\\nTikras dainininkas tur\u0117t\u0173
+  laimingai gyventi, gauti kuo daugiau teigiam\u0173 emocij\u0173. B\u016bt\u0173
+  malonu, kad mes visi atkreipt\u0173 d\u0117mes\u012f \u012f \u0161\u012f charakterio
+  savyb\u0119, ar ne? \u0160is dainininkas netur\u0117t\u0173 pernakvoti fizinio darbo,
+  leisti stresui. Turi gerai valgyti, be pernelyg dideli\u0173 gaivi\u0173j\u0173
+  g\u0117rim\u0173. S\u0105ra\u0161as gali b\u016bti t\u0119siamas. Kokia nuostabi
+  profesija\\nTa\u010diau vis d\u0117lto jie turi tiek daug problem\u0173. Ir svarbiausia
+  - tai profesionalus klausimas: kaip i\u0161saugoti savo bals\u0105, kaip j\u012f
+  atkurti, jei turite problem\u0173. Reabilitacija turi b\u016bti nedelsiant. V\u0117lavimas
+  yra kaip mirtis. Ir \u010dia visos priemon\u0117s yra geros.\\nA\u0161 pasidalinau
+  savo receptais, k\u0105 daryti, jei praradote savo bals\u0105 ir turite j\u012f
+  skubiai atkurti.\\nTr\u016bksta balso. Kaip greitai susigr\u0105\u017einti\\n- Galiu
+  \u012fsivaizduoti, kaip dabar esate nusteb\u0119s mano pirmuoju patarimu, bet tai
+  skamba taip: poilsio ir gilios tylos. Jei laikas leid\u017eia, visi naudoja \u0161\u012f
+  b\u016bd\u0105. Jei turite bals\u0105, net negalite kalb\u0117ti \u0161nab\u017edesys.
+  Susi\u017eeid\u017eia daugiau \u012ftemptos rai\u0161tin\u0117s nei \u012fprasta
+  kalba.\\n- Ner\u016bkykite. Net jei leisite tai sau, tada, kai pirm\u0105 kart\u0105
+  pasteb\u0117site savo balso problem\u0105, nustokite r\u016bkyti j\u0105 atstatyti.
+  R\u016bkymas pats savaime ne tik silpnina k\u016bn\u0105, bet ir sukelia u\u017ekimim\u0105.\\n-
+  Negalima kalb\u0117ti \u0161altyje. Daugelis tikriausiai \u0161ypsosi tokiais patarimais,
+  bet tikiuosi, kad tai labai svarbu.\\n- Kv\u0117pavimas bet kokiu oru yra geresnis
+  per nos\u012f. Tai apsaugo kv\u0117pavimo takus nuo dulki\u0173, infekcijos, \u0161ildo
+  ir dr\u0117kina \u012fkvepiam\u0105 or\u0105.\\n- Jei turite problem\u0173 su savo
+  balsu, geriausia kreiptis \u012f gydytoj\u0105 - phoniatora. Mes turime personalo
+  nar\u012f Teatro institute, kur\u012f studentai visada gali susisiekti. Kai profesionalai
+  tai daro, tada pagalba yra nedelsiant veiksminga. A\u0161 rekomenduoju j\u012f pritaikyti
+  foniatristui, o ne paprastam ENT specialistui. M\u016bs\u0173 mokiniams ir tik visiems
+  vokalistams, geras fonioris yra pasiaukojimas ir pagalba, tai kaip j\u016bs\u0173
+  asmeninis treneris ir masa\u017eo terapeutas paprastiems \u017emon\u0117ms.\\n-
+  Daugelis \u017emoni\u0173 naudoja lazgas ant gerkl\u0117s. A\u0161 nesu gydytojas.
+  Ta\u010diau i\u0161 patirties \u017einau, kad daugelis i\u0161 j\u0173 i\u0161d\u017eiovina
+  gleivin\u0119 ir visai nepadeda. Jie gali tik su\u017eeisti.\\n- \\\"Lyugol\\\"
+  - tai papras\u010diausias ir nebrangus pad\u0117j\u0117jas sau. I\u0161minkite gerkl\u0119,
+  bet po to j\u016bs negal\u0117site valgyti ir gerti apie pusvaland\u012f. Geriausia
+  \u0161i\u0105 proced\u016br\u0105 atlikti 5 kartus. Ne visai gra\u017eus, bet toleruojamas.\\n-
+  \u0160iltas, gausus g\u0117rimas. Geriausios vaista\u017eol\u0117s, vaisi\u0173
+  g\u0117rimai termose. Galite \u0161ildyti mineralin\u012f vanden\u012f.\\n- M\u0117gstamiausias
+  karamelinis vynas da\u017enai \u0161ildo rai\u0161\u010dius, padeda greitai atkurti
+  balso, ta\u010diau grei\u010diausiai tai grei\u010diausia priemon\u0117, o ne gydomoji
+  priemon\u0117. Tai geriau ne \u012fsitraukti \u012f j\u012f.\\n- \u012ekv\u0117pimas.
+  Apie juos galiu pasakyti, kad praktikoje j\u016bs pats turite nustatyti sau, ar
+  tokios proced\u016bros jums tinka. Asmeni\u0161kai a\u0161 niekada nenaudojau \u0161io
+  metodo. A\u0161 i\u0161 karto nu\u0117jau visk\u0105 \u012f trach\u0117j\u0105 ir
+  bronchus. Ta\u010diau daugelio atsiliepimai ver\u010dia mane tik\u0117ti \u0161iuo
+  paprastu balso atk\u016brimo b\u016bdu.\\n- \u010cia yra vienas i\u0161 j\u016bs\u0173
+  m\u0117gstam\u0173 recept\u0173 greitam balso atk\u016brimui: \u0161ilum\u0105 \u012fpilkite
+  50 g konjako, prid\u0117kite 3 arbatinius \u0161auk\u0161telius medaus ir 3 la\u0161us
+  citrinos. Gerti Tai laikomas avariniu metodu. Jei nepraleisite laiko, balso atk\u016brimas
+  bus greitas.\\n- Garsusis \\\"Shalyapinsky receptas\\\": mu\u0161ti 2 kiau\u0161ini\u0173
+  baltymus ir 2 arbatinius \u0161auk\u0161telius cukraus. \u012epilkite 50 g brend\u017eio.
+  Kiekvienas kokteilio gurk\u0161nis su \u0161ilto vandens geriu. Proced\u016bra atliekama
+  nakt\u012f, i\u0161kart eina miegoti. Iki ryto balsas atkuriamas. Tai yra vienas
+  i\u0161 geriausi\u0173 recept\u0173, jei reikia greitai atkurti balso.\\n- M\u016bs\u0173
+  studentai man pasakojo daugiau apie kar\u0161t\u0105 al\u0173. Taip pat nak\u010diai.
+  Taip pat po dangteliais. Atsisakymas, bet efektyvus. Nurodykite, alus turi b\u016bti
+  kar\u0161tas, o ne \u0161iltas. \u0160is metodas leid\u017eia greitai atkurti balso
+  \u012fra\u0161\u0105.\\n- Pienas su figais. Operos dainininkai da\u017enai naudojami.
+  Sausi figai supjaustyti per pus\u0119. \u012ed\u0117kite pien\u0105 \u012f virykl\u0119.
+  Padauginkite fig\u0173 m\u0117s\u0105 i\u0161 \u0161i\u0173 dviej\u0173 pusi\u0173,
+  \u012fpilkite pieno. Kruop\u0161\u010diai sumai\u0161ykite su pienu. Kaip j\u012f
+  i\u0161minkti. Negalima pieno virti, kad jis b\u016bt\u0173 labai kar\u0161tas.
+  Gerkite 2-3 dienas per dien\u0105 \u0161ilumos pavidalu.\\n- \u0160iltas pienas
+  su medumi yra kategori\u0161kai draud\u017eiamas, nes medus apveria rai\u0161\u010dius,
+  atimdamas j\u0173 elastingum\u0105. Gargling da\u017enai yra nenaudingas, o gargling
+  su soda yra kenksmingas rai\u0161\u010diams, soda sukelia dirginim\u0105.\\n- Vienas
+  i\u0161 labiausiai m\u0117gstam\u0173 recept\u0173 m\u016bs\u0173 draug\u0173 ratuose.
+  Liaudies receptai atkurti m\u016bs\u0173 bals\u0105. \u012e keptuv\u0119 supilkite
+  stiklin\u0119 kar\u0161to vandens ir pus\u0119 puodelio anijon\u0173 s\u0117kl\u0173,
+  virkite 15 minu\u010di\u0173; \u0161iek tiek at\u0161aldyto sultinio, sumai\u0161ykite
+  su ketvir\u010diu puodelio liep\u0173 medaus ir v\u0117l virkite, tada i\u0161imkite
+  i\u0161 \u0161ilumos ir prid\u0117kite \u0161auk\u0161t\u0105 brend\u017eio. Paimkite
+  po vien\u0105 \u0161auk\u0161t\u0105 kas pusvaland\u012f. Daugelis \u0161i\u0173
+  dien\u0173 recept\u0173 atkuria savo bals\u0105.\\n- \u010cia yra dar vienas paprastas
+  plau\u010di\u0173 \u017eol\u0117s receptas. 10 gram\u0173 \u017eol\u0117s u\u017epilkite
+  400 ml verdan\u010dio vandens termoso 2 valandas ir gerkite pus\u0119 stiklin\u0117s
+  4 kartus per dien\u0105 30 minu\u010di\u0173 prie\u0161 valg\u012f su u\u017ekim\u0161imu.\\n-
+  Gali pad\u0117ti atkurti balso ir \u012fprast\u0105 viburnum. G\u0117li\u0173 ir
+  uog\u0173 nuoviras yra gerai i\u0161plauti gerkl\u0117s skausm\u0105 ir silpn\u0105
+  bals\u0105. 2 \u0161auk\u0161tai \u0161auk\u0161t\u0105 u\u017epilkite stikline
+  verdan\u010dio vandens, virkite 15 minu\u010di\u0173 \u017eemai ugniai, \u0161erkite,
+  gerkite 1/3 puodelio 3 - 4 kartus per dien\u0105 prie\u0161 valg\u012f.\\nK\u0105
+  i\u0161skirti i\u0161 dietos, jei turite Osp ar praradote bals\u0105?\\nVisi pikanti\u0161ki
+  negali: pipirai, \u010desnakai, svog\u016bnai, krienai, prieskoniai. J\u016bs taip
+  pat negalite valgyti s\u016bdyt\u0173 ir marinuot\u0173 maisto produkt\u0173. Geriau
+  gerkite \u0161ilumos pavidal\u0105. Kar\u0161tas g\u0117rimas gali pa\u017eeisti
+  rai\u0161\u010dius.\\nJei esate alergi\u0161kas medui ar bet kuriai recept\u016bros
+  daliai, skaitykite, bet kuriuo atveju nenaudokite j\u0173.\\nVisi\u0161kai prarastas
+  balsas. K\u0105 daryti\\nIr pabaigoje straipsnyje nor\u0117\u010diau pamin\u0117ti
+  skaitytojo atsiliepimus apie mano dienora\u0161t\u012f Zili Shakirova. Ji su manimi
+  dalinosi, kaip ji atgauti savo bals\u0105, kai jis buvo prakti\u0161kai prarastas,
+  ir gydytojai, \u0161velniai tariant, padar\u0117 nuvilian\u010dias prognozes. \u0160tai
+  k\u0105 Zilya man pasak\u0117.\\nPo rimtos galvos traumos po nelaimingo atsitikimo,
+  kartu su daugeliu kit\u0173 su\u017eeidim\u0173, buvo paraly\u017eius pus\u0117s
+  gerybin\u0117s pad\u0117ties ir visi\u0161kai prarado savo bals\u0105. Nepaisant
+  to, kad buvo i\u0161pl\u0117sta reabilitacijos veikla, kasdieniai balso restauraciniai
+  pratimai, fizin\u0117 terapija su Vokastimo aparatu stimuliuojant nervinius impulsus,
+  balsas nebuvo atkurtas, ir a\u0161 toliau kalb\u0117jau \u0161nab\u017etuvu. Konsultacijos
+  su otoneurologu ir telefonu nepateik\u0117 joki\u0173 skatinam\u0173j\u0173 prognozi\u0173.\\nLabai
+  atsitiktinai susipa\u017einau su berniuk\u0105 u\u017esiiman\u010diu pa\u017einimu,
+  ir pasi\u016bl\u0117 naudoti perg\u0105 bendram k\u016bno stiprinimui. A\u0161 prad\u0117jau
+  i\u0161tirpinti 1 arbatin\u012f \u0161auk\u0161tel\u012f 2-3 kartus per dien\u0105.
+  Iki tre\u010diosios pergos naudojimo dienos pabaigos tur\u0117jau bals\u0105, taip
+  netik\u0117tai, kad buvau net i\u0161sigand\u0119s.\\nT\u0119sdamas pergos i\u0161trynim\u0105,
+  a\u0161 atlikdavau kasdien\u012f balsavim\u0105 ir visi\u0161k\u0105 pagreitinto
+  balso atk\u016brimo proces\u0105. Nepaisant to, kad balsas buvo atstatytas, jis
+  buvo tylus, matyt, d\u0117l to, kad jo ilgai tr\u016bko. Neurologas netgi juokavo,
+  kad palaikyt\u0173 mane, sakydamas, kad turiu mading\u0105 bar\u010dio bals\u0105
+  su rauk\u0161l\u0117tu balsu.\\nKart\u0105 a\u0161 nusprend\u017eiau gerti jodomarino
+  kurs\u0105, tod\u0117l m\u016bs\u0173 regione jodo tr\u016bkumas daro \u012ftak\u0105
+  sveikatai, net druska parduodama jodo. Beveik i\u0161 karto balsas skamb\u0117jo.
+  I\u0161tyrus, kaip gal\u0117jo b\u016bti sukurta tokia stebuklinga transformacija,
+  padariau i\u0161vad\u0105, kad tik jodo preparatas gali labai paveikti i\u0161reik\u0161t\u0105
+  bals\u0105. Radau atsakym\u0105 internete, kuriame buvo patvirtinta, kad jodas teigiamai
+  veikia balso gars\u0105.\\n\u0160tai k\u0105 kiti apie tai ra\u0161o: \\\"Ne veltui,
+  kad\\\" bel canto \\\"Italijos t\u0117vyn\u0117 visose pus\u0117se yra apsupta j\u016br\u0173.
+  Did\u017eiul\u0117 pakran\u010di\u0173 oro energija i\u0161garina j\u016bros vanden\u012f,
+  kuriame yra daug vis\u0173 sveikatos reikm\u0117ms reikaling\u0173 element\u0173,
+  \u012fskaitant jod\u0105. Jodo jonai valo ir mink\u0161tina kv\u0117pavimo takus
+  ir gleivin\u0119. \\\"\\nPo to, kai atvyko \u012f otoneurolog\u0105, gydytojas buvo
+  labai nusteb\u0119s, kad tur\u0117jau bals\u0105. Ji sak\u0117, kad turiu tai nepaisant
+  vaist\u0173. Tai unikali, kad viskas nutiko! Po man\u0119s keli mano draugai susigr\u0105\u017eino
+  savo bals\u0105, d\u0117l sud\u0117tingo gripo.\\nB\u016btina imtis parga atkurti
+  balion\u0105 arbatin\u012f \u0161auk\u0161tel\u012f 2-3 kartus per dien\u0105 per\u0161alo,
+  o \u017eiedadulk\u0117s yra labai skanu preparatas. Vienintelis dalykas: j\u016bs
+  negalite vartoti po vakarien\u0117s ir vakare, nes jis stipriai stimuliuoja, d\u0117l
+  ko atsiranda nemiga.\\nKalbant apie jodo poveik\u012f balso pasisakymui, gali pakakti
+  skamba, bet tai yra mano sp\u0117jimas, ir a\u0161 to nepadariau.\\nD\u0117koju
+  Zilyai u\u017e patarim\u0105. Dabar a\u0161 si\u016blau \u017ei\u016br\u0117ti daugiau
+  vaizdo \u012fra\u0161\u0173 apie tai, kaip greitai atkurti bals\u0105. \u0160tai
+  balsavimo praradimo prie\u017eastys ir pateikiami patikrinti patarimai, kurie papildys
+  straipsnio med\u017eiag\u0105.\\nTai yra receptai, su kuriais a\u0161 bendrai naudoju.
+  Tikim\u0117s, kad jie pad\u0117s greitai atkurti bals\u0105. \u017dinoma, linkiu
+  jums tik geros sveikatos, kad visi per\u0161alimai ir sveikatos sutrikimai apeit\u0173
+  jus.\\nKaip greitai atkurti tradicin\u0117s medicinos bals\u0105?\\nRytoj tur\u0117tum\u0117te
+  svarbi\u0105 kalb\u0105, bet \u0161iandien negalite padaryti garso? Ar galite tiesiog
+  \u0161nab\u017edesio neskaityti? Paprastos liaudies gynimo priemon\u0117s, praradusios
+  balso, pad\u0117s jums sutaupyti.\\nKas yra balso praradimas?\\nBalso praradimas
+  yra labai nemaloni b\u016bkl\u0117, atsirandanti, kai vokalo virvel\u0117s tampa
+  u\u017edegimas ir patin\u0119. Medicinoje balso praradimo b\u016bsena vadinama aphonia.
+  Balso praradimas gali b\u016bti visi\u0161kai ar dalinai. Kai dalinai prarandamas
+  balsas, pastebima u\u017ekimimas ir silpnumas, o visi\u0161kas balso praradimas
+  b\u016bdingas garsu, kuris skamba kaip \u0161nab\u017edesys.\\nBalso atgamina vokaliniai
+  virveliai, taip pat vadinami vokaliais, kurie yra vir\u0161 tracheos (kv\u0117pavimo
+  kaklelis). Garsiniai virveliai yra gerkl\u0117s gleivin\u0117s rauk\u0161l\u0117s,
+  kurios vibruojasi, taip sukuriant gars\u0105. Norint tinkamai atkurti gars\u0105,
+  garsiniai virveliai turi b\u016bti gerai sudr\u0117kinti arba alyvuoti. Bet koks
+  garsini\u0173 virvi\u0173 u\u017edegimas ir sudirginimas gali susilpninti j\u0173
+  geb\u0117jim\u0105 tinkamai vibracijai, o tai savo ruo\u017etu sukelia dalin\u012f
+  ar visi\u0161k\u0105 balso praradim\u0105. Per kelias dienas balsu galima atkurti
+  naudojant paprastus b\u016bdus.\\nKod\u0117l atsiranda balso praradimas?\\nKeletas
+  veiksni\u0173 gali sukelti garsini\u0173 virvi\u0173 u\u017edegim\u0105, balso ir
+  silpnumo praradim\u0105. Da\u017eniausiai tai atsitinka d\u0117l garsini\u0173 virk\u0161teli\u0173
+  infekcijos pa\u017eeidimo. Afonijai sukelia gerkl\u0117s skausmas, gripas, \u0161altis,
+  laringitas.\\nLaringitas gali b\u016bti \u016bmus ar l\u0117tinis. \u016aminis laringitas
+  atsiranda d\u0117l \u016bmin\u0117s respiracin\u0117s virusin\u0117s infekcijos
+  ar sunkios balso perkrovos. L\u0117tinio laringito prie\u017eastys yra gastroezofaginio
+  refliukso liga, gleivi\u0173 nasopharynx, l\u0117tinis sinusitas, r\u016bkymas,
+  nuolatinis kontaktas su dulk\u0117mis, dujomis ir chemin\u0117mis med\u017eiagomis.
+  Taip pat, jei garsiai \u0161aukit\u0117s ar \u0161aukit\u0117s, galite prarasti
+  balso.\\nKaip atgauti bals\u0105?\\nPoilsio vokalo akordai. Jei praradote balso
+  d\u0117l \u0161al\u010dio, laringito, gerkl\u0117s skausmo ar per daug verksmo,
+  tada \u0161iek tiek pails\u0117kite savo balsuose. Bendravimo metu nenaudokite savo
+  balso, o ne \u0161nab\u017edesys - tai gali paskatinti garsinius virvelius. U\u017euot
+  kalb\u0117j\u0119 garsiai, ra\u0161ykite u\u017era\u0161us ar prane\u0161imus.\\nGerkite
+  daug skys\u010di\u0173. Didelis vandens geriamasis dr\u0117kina gerkl\u0119 ir skatina
+  greit\u0105 atsigavim\u0105. Negalima gerti per kar\u0161to ar per \u0161alto g\u0117rimo.
+  Gerkite \u0161iltus g\u0117rimus ir \u012f savo diet\u0105 \u012ftraukite \u0161iltos
+  sriubos.\\n\u017doleli\u0173 tinkt\u016bros ir arbatos. Tigi\u0173 ir ramun\u0117li\u0173
+  tinkt\u016bra padeda atleisti gerkl\u0119. Arbata su imbiero \u0161akniu padeda
+  suma\u017einti silpnum\u0105 ir silpnum\u0105.\\nMedus Tai padeda sugr\u0105\u017einti
+  balso ir medaus. Prid\u0117ti medaus \u0161iltu vandeniu ar \u017eoleli\u0173 arbata.
+  Taip pat gijimo poveikis yra citrin\u0173 sul\u010di\u0173, kartu su \u0161ilta
+  arbata ir medumi.\\nDr\u0117gnas oras. Nuraminti or\u0105 su specialiu dr\u0117kintuvu.
+  \u0160is prietaisas palaiko reikiam\u0105 dr\u0117gm\u0117s lyg\u012f kambaryje
+  ir padeda sudr\u0117kinti savo bals\u0105, ypa\u010d jei sausas oras suk\u0117l\u0117
+  lig\u0105.\\nGaro inhaliacija. Steam prisideda prie u\u017edegimini\u0173 ir i\u0161tempt\u0173
+  garsini\u0173 virvi\u0173 atstatymo. \u012ekv\u0117pkite, perpilkite kar\u0161to
+  vandens duben\u012f, padengdami rank\u0161luos\u010diu ar antklod\u017eiu. B\u016bkite
+  atsarg\u016bs, kad neu\u017edegtum\u0117te kar\u0161tu garu. Inhaliuoti garais 2
+  kartus per dien\u0105 5 minutes.\\nSkalauti Valykite \u0161iltu vandeniu arba \u0161iltu
+  \u017eoleli\u0173 nuoviestu, kad gal\u0117tum\u0117te su\u0161velninti ir sudr\u0117kinti
+  vokalinius virvelius. Jei balso praradimas d\u0117l \u0161alto ar gerkl\u0117s skausmo,
+  tada skalaukite druskos tirpalu. Skalavimas su druskos tirpalu padeda kraujo skub\u0117ti
+  \u012f gerkl\u0117s skausm\u0105, taip pat druskos vanduo nudeda bakterijas, pa\u0161alina
+  gleives i\u0161 gerkl\u0117s. Apkepkite ma\u017eiausiai 3-4 kartus per dien\u0105.\\nLollipops.
+  Specialios spuogel\u0117s, skirtos kr\u016btin\u0117s angina gydyti, padeda su\u0161velninti
+  gerkl\u0117s ir gerkl\u0173 u\u017edegim\u0105, taip pat sudr\u0117kina garsinius
+  virves. Saldainiai ir kramtomoji guma padidina seili\u0173 sekrecij\u0105, kuri
+  padeda sudr\u0117kinti garsinius virvelius.\\nK\u0105 daryti, kai prarasite bals\u0105\\nJ\u016bs
+  negalite gerti caffeinated g\u0117rim\u0173, toki\u0173 kaip kava, arbata, kola,
+  kol visi\u0161kai atsigausite. Kadangi kofeino g\u0117rimai dehidratuoja k\u016bn\u0105.\\nJ\u016bs
+  negalite r\u016bkyti, nes cigare\u010di\u0173 d\u016bmai dar labiau erzinanti ir
+  sausa gerkl\u0119. Netgi pasyvus r\u016bkymas sukelia gerkl\u0173 sudirginim\u0105
+  ir u\u017edegim\u0105, kuris gali sul\u0117tinti gijimo proces\u0105.\\nJ\u016bs
+  negalite gerti alkoholini\u0173 g\u0117rim\u0173, nes jie dehidratuoja k\u016bn\u0105
+  ir sustiprina ligos eig\u0105.\\nVenkite viet\u0173, kuriose yra daug dulki\u0173,
+  d\u016bm\u0173, \u0161alto oro ir kit\u0173 galim\u0173 dirginan\u010di\u0173 med\u017eiag\u0173.\\nJ\u016bs
+  negalite naudoti vazokonstrikcini\u0173 vaist\u0173 ir prie\u0161srovini\u0173 priemoni\u0173,
+  nes jie i\u0161d\u017eiovina vokalinius virves.\\nNevartokite aspirino, ypa\u010d
+  jei balso praradimas pasirei\u0161k\u0117 garsiai \u0161aukiant. Gali b\u016bti,
+  kad kapiliaras buvo sugadintas ant balso gyslo gleivin\u0117s. Aspirinas gali suma\u017einti
+  kraujo kre\u0161\u0117jim\u0105 ir sukelti kraujavim\u0105.\\nJ\u016bs negalite
+  valgyti maisto produkt\u0173, kuri\u0173 sud\u0117tyje yra daug r\u016bg\u0161\u010di\u0173,
+  pavyzd\u017eiui, pomidorai, \u0161okoladas, citrusiniai vaisiai (i\u0161imtin\u0117
+  citrin\u0173 sultys kartu su medumi).\\nBalso praradim\u0105 gali sukelti rimtesn\u0117s
+  s\u0105lygos, pavyzd\u017eiui, vokalo aparat\u0173 v\u0117\u017eio. Jei visos pirmiau
+  min\u0117tos priemon\u0117s nepadeda atkurti balso ir atsikratyti silpnumo, turite
+  kreiptis \u012f gydytoj\u0105.\\nKaip gr\u0105\u017einti bals\u0105 ir atkurti garsinius
+  virves\\nBalas yra kaprizingas instrumentas, o ruden\u012f jis gali b\u016bti lengvai
+  pa\u0161alintas dr\u0117gm\u0117s, streso, per\u0161alimo ir nesveikos dietos. Kaip
+  gr\u0105\u017einti prarast\u0105 bals\u0105?\\nKod\u0117l gi prarasti bals\u0105?\\nPaprastai
+  balso praradimas ar disfonija nustatoma ryte. Problema gali tur\u0117ti daugyb\u0119
+  prie\u017eas\u010di\u0173, tod\u0117l jas reikia i\u0161spr\u0119sti.\\nPagrindinis
+  kaltininkas - gerkl\u0173 gleivin\u0117s u\u017edegimas, arba laringitas. Garsiniai
+  virveliai did\u0117ja, o garsas dingsta arba praranda kokyb\u0119. J\u016bs galite
+  pasiekti tok\u012f gyvenim\u0105 \u012fvairiais b\u016bdais.\\nVisi ausies nosies
+  ir gerkl\u0117s sistemos organai dalyvauja formuojant gars\u0105, o jei ka\u017ekas
+  negerai \u010dia, tai bus problem\u0173 su balsu. \u0160alto, gerkl\u0117s skausmingumo,
+  tonzilito ar bronchito metu gerkl\u0173 gleivin\u0117 i\u0161sipu\u010dia ir tampa
+  sausa. Tipi\u0161ka pasekm\u0117 yra balso praradimas.\\nVerkimas ar ilgas pokalbis,
+  ypa\u010d d\u0117l i\u0161kilusi\u0173 ton\u0173, gali sukelti garsini\u0173 virveli\u0173
+  perteklius ir su\u017eeidimus. Ruden\u012f poveik\u012f daro oras (v\u0117jas ir
+  dr\u0117gm\u0117 kenksmingi ry\u0161ul\u0117ms) ir \u0161ildymo sezono prad\u017eia
+  (balsas reaguoja neigiamai \u012f saus\u0105 or\u0105).\\nBalso praradimas gali
+  sukelti stres\u0105 ir sukr\u0117timus. Prisiminkite frazes, pvz., \\\"Kaimo balsas
+  buvo susijaudin\u0119s\\\" arba \\\"pasibais\u0117j\u0119s nuo pasipiktinimo\\\".\\nAtk\u016brimo
+  programa\\nAtsi\u017evelg\u0119 \u012f prie\u017eastis, galite prad\u0117ti reabilitacij\u0105.
+  Priklausomai nuo simptom\u0173 sunkumo, tai gali u\u017etrukti nuo dviej\u0173 iki
+  dviej\u0173 savai\u010di\u0173.\\nBalso problemos nei\u0161nyksta per 2-3 savaites?
+  Jums reikia baigti savigarb\u0105 ir eiti \u012f otolaringolog\u0105.\\nDainininkai
+  labiau trok\u0161ta, nei kiti, savo balsu - tai priklauso nuo jo, jei ne gyvenimas,
+  tada karjera. Tod\u0117l jie turi daug recept\u0173, kurie padeda sugr\u0105\u017einti
+  bals\u0105.\\nPasak j\u0173, Fiodoras Shalyapinas buvo apdorotas brend\u017eio,
+  citrin\u0173 sul\u010di\u0173, kiau\u0161ini\u0173 ir medaus mi\u0161iniu, paimtais
+  vienodais kiekiais.\\nLjudmila Zykina balsas pad\u0117jo gr\u0105\u017einti kit\u0105
+  recept\u0105. 50 g anizuot\u0173 gr\u016bd\u0173 pilamas 400 ml vandens, mi\u0161inys
+  virinamas \u0161iek tiek \u0161iluma 10 minu\u010di\u0173. Tada j\u012f reikia filtruoti,
+  \u012fpilti 50 g medaus ir 50 ml brend\u017eio ir u\u017epilti po 1 valgom\u0105
+  \u0161auk\u0161t\u0105. l kas valand\u0105\\nOlga Arefieva burda moli\u016bg\u0173
+  s\u0117kl\u0173 aliej\u0173 savo gerkl\u0117je, i\u0161kv\u0117pdama ir rekomenduoja
+  gerti kar\u0161t\u0105 pien\u0105 Borjomi santykiu 1: 1.\\nMarina X\u043be\u0431H\u0438koBa
+  mano, kad persik\u0173 aliejaus gydomoji j\u0117ga, inhaliacijos vaista\u017eol\u0117mis,
+  pirmiausia su jona\u017eoli\u0173 ir raudon\u0117li\u0173, sukelia antimikrobin\u012f
+  poveik\u012f ir pagreitina bals\u0105.\\nOlandas Gazmanovas, kai jo balsas nu\u0117jo,
+  nuvyko \u012f j\u016br\u0105, ten m\u0117nes\u012f gyveno visi\u0161kai tyliai ir
+  skalavo gerkl\u0119 j\u016bros vandeniu.\\nJei balsas i\u0161nyks, kaip j\u012f
+  skubiai atkurti\\nBalso praradimas (aphonia) yra viena i\u0161 sud\u0117ting\u0173
+  situacij\u0173, kurios gali b\u016bti tikra problema. Ypa\u010d jei asmens profesin\u0117
+  veikla susijusi su bendravimu. Tai dainininkai, aktoriai, mokytojai ir kitos specialyb\u0117s.
+  Kaip greitai susigr\u0105\u017einti tr\u016bkstam\u0105 bals\u0105?\\nBalso praradimo
+  prie\u017eastys\\nYra 4 pagrindin\u0117s prie\u017eastys, d\u0117l kuri\u0173 balsas
+  prarandamas. Tai yra:\\n- Infekcin\u0117s ligos - da\u017eniausiai afronija vystosi
+  d\u0117l laringito (liga sukelia vokalini\u0173 virvi\u0173 patinim\u0105).\\n-
+  Garsini\u0173 virveli\u0173 perk\u0117limas yra tipi\u0161ka problema, pavyzd\u017eiui,
+  mokymo personalui. Staigus balso praradimo prie\u017eastis tampa ilg\u0105 pokalb\u012f
+  d\u0117l i\u0161kelt\u0173 ton\u0173 ar verksmo. Tai taip pat randama \u017emon\u0117se
+  su silpnomis vokalin\u0117mis virv\u0117mis.\\n- Nerv\u0173 stresas. Stiprus stresas
+  visada neigiamai veikia \u017emoni\u0173 sveikat\u0105. Ir balso praradimas n\u0117ra
+  i\u0161imtis.\\n- Nauji ragenos ertm\u0117s augalai, \u0161irdies ir kraujagysli\u0173
+  ligos, skydliauk\u0117s sutrikimai.\\nJei balsas pasikeit\u0117, turite \u012fsid\u0117m\u0117ti
+  \u0161ias taisykles:\\n- Turime bandyti kuo ma\u017eiau kalb\u0117ti. Net \u0161nab\u017edesys
+  ne\u012ftraukiami, nes jis sukelia stipri\u0105 u\u017edegimini\u0173 rai\u0161\u010di\u0173
+  \u012ftamp\u0105.\\n- Reikia gerti daug skys\u010di\u0173. Tai padeda dr\u0117kinti
+  u\u017edegimines gleivines. G\u0117rimai tur\u0117t\u0173 b\u016bti \u0161ilti,
+  bet ne kar\u0161ti.\\n- Laikykite gerkl\u0119 \u0161ilta, i\u0161skyrus hipotermij\u0105.
+  Galite pakabinti j\u0105 \u0161iltu skara.\\n- Sergamumo metu draud\u017eiama r\u016bkyti,
+  paimti alkohol\u012f, gerti caffeinated g\u0117rimus. B\u016btina i\u0161skirti
+  skonio r\u016bg\u0161tus produktus.\\nGydymas\\nKaip atkurti nelygius balsus namuose?
+  Yra kelios kryptys.\\nLiaudies keliai\\nJei mes kalbame apie tai, kaip greitai atkurti
+  s\u0117dint\u012f bals\u0105, galite pabandyti naudoti vien\u0105 i\u0161 populiariausi\u0173
+  metod\u0173.\\nGeri rezultatai pasiekiami vartojant medicininius g\u0117rimus:\\n-
+  Sumai\u0161ykite tokius pa\u010dius medaus ir mork\u0173 sul\u010di\u0173 kiekius
+  (1 valgomasis \u0161auk\u0161tas) ir sumai\u0161ykite su \u0161ildomu pienu (200
+  ml).\\n- \u0160velniu balsu galima gydyti \u0161ilto alaus pagalba, bet j\u016bs
+  netur\u0117tum\u0117te piktnaud\u017eiauti, u\u017eteks reguliaraus stiklo.\\n-
+  Kukur\u016bz\u0173 \u0161akn\u0105 sumalkite m\u0117smaliu / mai\u0161ytuvu (2 cm),
+  u\u017epilkite verdan\u010diu vandeniu (200 ml) ir leiskite j\u012f u\u017evirinti.
+  Nutek\u0117jimas, \u012fd\u0117ti cukraus \u012f gerti ir gerti 1 valgomasis \u0161auk\u0161tas.
+  l vis\u0105 dien\u0105.\\n- B\u016btina i\u0161mai\u0161yti alavijo gabal\u0117liu
+  mai\u0161ytuve \u012f srut\u0105 ir sumai\u0161yti su tuo pa\u010diu medaus kiekiu.
+  Mi\u0161inys tur\u0117t\u0173 b\u016bti rassasyvat kaip saldainiai iki 6 kart\u0173
+  per dien\u0105.\\n- Gr\u0105\u017einti tr\u016bkstam\u0105 bals\u0105 pad\u0117s
+  figos. Nor\u0117dami tai padaryti, sumai\u0161ykite vaisi\u0173 ir u\u017epilkite
+  stikline \u0161ilto pieno. Leisk jam stov\u0117ti \u0161iek tiek laiko. Gerkite
+  iki 3 kart\u0173 per dien\u0105.\\n- \u012e \u0161ilt\u0105 pien\u0105 (200 ml)
+  sumai\u0161ykite medaus \u0161auk\u0161t\u0105, sviest\u0105 ir gerkite prie\u0161
+  mieg\u0105.\\n- Imtis lygiomis proporcijomis citrin\u0173 sul\u010di\u0173, medaus,
+  brend\u017eio ir 1 mai\u0161to kiau\u0161inio. Sudedamosios dalys sumai\u0161omos
+  ir kaitinamos vandens vonioje. Paimkite \u00bd puodelio 4 kartus per dien\u0105.\\n-
+  15 g smulkios \u0161aknies \u0161aknies u\u017epilkite stipriu alkoholiu (50 ml)
+  ir primygtinai reikalauju 3 savaites. Gerkite 15 la\u0161\u0173 tris kartus per
+  dien\u0105. Gydymo trukm\u0117 - 2 savaites.\\n- I\u0161spauskite kop\u016bst\u0105,
+  naudodami sul\u010di\u0173 valikliu. Prie\u0161 vartojim\u0105, jis turi b\u016bti
+  praskied\u017eiamas vandeniu santykiu 1: 1. Gerkite 4 kartus per dien\u0105 per
+  savait\u0119.\\nJei balso neb\u0117ra, tuomet galite gaminti eggnog\u0105. Tai pad\u0117s
+  atsikratyti silpnumo, skausmo ir pad\u0117ti sugr\u0105\u017einti bals\u0105 per
+  trump\u0105 laik\u0105.\\n- I\u0161mai\u0161ykite 2 kiau\u0161ini\u0173 trynius
+  su cukrumi arba medumi (2 \u0161auk\u0161tai).\\n- U\u017epildykite mi\u0161in\u012f
+  \u0161iltu pienu (1/2 puodelio pieno). Leid\u017eiama prid\u0117ti apelsin\u0173
+  sultis, brend\u012f, rom\u0105 prie g\u0117rimo, ta\u010diau tr\u016bkstamo balso
+  atveju geriau vengti alkoholio.\\n- Baltymai su cukrumi yra plakti atskirai ir taip
+  pat \u012f g\u0117rim\u0105.\\nJie geria eggnog \u0161iltu.\\nPienas su anijonu
+  ir medumi pad\u0117s atkurti silpn\u0105 bals\u0105.\\n- Paruo\u0161kite pien\u0105
+  (200 ml) ir sumai\u0161ykite su 1 \u0161auk\u0161teliu. medaus ir \u00bd \u0161auk\u0161to
+  sviesto. Nor\u0117dami pagerinti gydom\u0105j\u012f poveik\u012f, galite prid\u0117ti
+  \u0161iek tiek natrio. Gerkite gerti tris kartus per dien\u0105. Gydymo trukm\u0117
+  yra 5 dienos.\\n- 250 ml pieno sumai\u0161ykite 1 valgomasis \u0161auk\u0161tas.
+  l ani s\u0117klos. Virinama, atv\u0117sinama ir filtruojama. \u012ed\u0117kite 1
+  \u0161auk\u0161t\u0105. l medus ir 2 \u0161auk\u0161tus kas 2 valandas per dien\u0105.
+  \u0160is receptas padeda greitai praleisti tr\u016bkstam\u0105 bals\u0105.\\nGeras
+  terapinis rezultatas suteikia medunitsa. Augalyje yra didelis procentas saponin\u0173
+  ir tanin\u0173, kurie prisideda prie burnos gleivin\u0117s u\u017edegimin\u0117s
+  mink\u0161t\u0117jimo ir dr\u0117kinimo. Be to, medunitsa turi antimikrobines ir
+  prie\u0161u\u017edegimines savybes.\\n- Sumai\u0161ykite gvazdik\u0117li\u0173 \u017eol\u0119
+  (15 g) \u012f termos\u0105 ir \u012fpilkite 500 ml verdan\u010dio vandens. Palikite
+  pusantros valandos. Filtruokite ir gerkite \u00bd puodelio tris kartus per dien\u0105
+  prie\u0161 valg\u012f 30 minu\u010di\u0173. Kurso trukm\u0117 - 10 dien\u0173.\\nSiaubingas
+  balsas gali b\u016bti gr\u0105\u017eintas s\u0117kl\u0173 pagalba Jie prisideda
+  prie patologin\u0117s edemos pa\u0161alinimo i\u0161 garsini\u0173 virvi\u0173,
+  atkuria pa\u017eeistus audinius, sunaikina patogenines bakterijas ir tt\\n- 1 \u0161auk\u0161t\u0105
+  s\u0117ti u\u017epilkite 500 ml verdan\u010dio vandens ir reikalauju termose 2 -
+  3 valandos. Gerkite 200 ml iki 6 kart\u0173 per dien\u0105. Terapijos trukm\u0117
+  - 10 dien\u0173.\\n- Po kiekvieno terapinio g\u0117rimo naudojimo praskalauti gerkl\u0119
+  alyvuogi\u0173 aliejumi. Tai padidina g\u0117rimo poveik\u012f, toliau \u0161velnina
+  gerkl\u0117s ir gerkl\u0173 gleivin\u0119.\\nGydomoji gimnastika\\nKaip gauti balso
+  atgal su pratimais? Kompleksas kiekvienu konkre\u010diu atveju yra pasirinktas atskirai,
+  ta\u010diau buvo parengti bendri metodai.\\nPrie\u0161 prad\u0117dami mokytis, turite
+  masa\u017euoti gerkl\u0173. Du pir\u0161tai \u0161velniai masa\u017euoja kakl\u0105,
+  jud\u0117dami apskrito judesiu nuo vir\u0161aus iki apa\u010dios. Proced\u016bra
+  pagerina vietin\u0119 kraujotak\u0105.\\nPati kompleksas apima \u0161iuos pratimus:\\n-
+  Galva i\u0161mesta atgal B\u016btina imituoti kv\u0117pavimo garsus.\\n- Paleiskite
+  gars\u0105 \\\"M\\\", vienu metu paliesdami nosies sparnus su pir\u0161tais.\\n-
+  Garsiai pasakyk skiemen\u012f \\\"BY\\\", \u0161velniai paliet\u0119 vir\u0161utin\u0117s
+  l\u016bpos pavir\u0161i\u0173.\\n- Giliai kv\u0117puoti. I\u0161siver\u017e\u0119,
+  palieskite savo kr\u016btin\u0119 ir giedokite garsus.\\n- S\u0117d\u0117k kaip
+  \u0161launis ant pakra\u0161\u010dio koj\u0173. I\u0161stumkite savo lie\u017euv\u012f
+  kaip \u012fmanoma sunkiau ir pabandykite i\u0161girsti gars\u0105 \\\"K\\\".\\nMedicinin\u0117
+  pagalba\\nJei balsas dingo su \u0161al\u010diu, tada be vaist\u0173 pagalbos neveiks.
+  Mes galime rekomenduoti \u0161iuos vaistus:\\n- \\\"Faringoseptas\\\". Medicina
+  su antibakteriniu poveikiu.\\n- \\\"Septolete\\\". Vaistiniai preparatai su kombinuotomis
+  savyb\u0117mis. Jis turi kelias savybes vienu metu - antimikrobinis, analgetikas,
+  mink\u0161tinantis ir kenksmingas.\\n- \\\"Dekatilen\\\". Naudojamas kaip anestezijos,
+  baktericidinis ir prie\u0161grybelinis agentas.\\n- \\\"Gomeovoks\\\". Homeopatinis
+  vaistas su sud\u0117tingu veiksmu. Paskirta, kad gauna gerkl\u0117s u\u017edegim\u0105,
+  ypa\u010d balso silpnum\u0105, rai\u0161\u010di\u0173 patinim\u0105 ir kt.\\nVeiksmingiau
+  aphonijos gydymui yra aerozoliai, kurie teikia auk\u0161tos kokyb\u0117s pur\u0161kimo
+  vaistinius komponentus.\\n- Hexoral. Antiseptikas, turintis anestetik\u0173, antimikrobini\u0173,
+  dr\u0117kinan\u010di\u0173 ir dengian\u010di\u0173 savybi\u0173.\\n- Ingalipt. Prie\u0161u\u017edegiminis
+  vaistas su dezinfekcin\u0117mis savyb\u0117mis.\\n- \\\"Chlorophyllipt\\\". Nat\u016brali
+  vaisto sud\u0117tis su antibakteriniu poveikiu.\\n- \\\"Kametonas\\\". Kombinuotas
+  agentas, turintis prie\u0161u\u017edegimini\u0173 ir antiseptini\u0173 savybi\u0173.\\nGargle\\nJei
+  balsas s\u0117d\u0117jo ir b\u016btina j\u012f skubiai atkurti, tada galima pabandyti
+  skalauti.\\n- Norimas rezultatas duodamas nuoviras ar infuzijas i\u0161 medetk\u0173
+  ir \u0161alavij\u0173.\\n- Nauda atne\u0161 druskos sanitarijos gerkl\u0119. Papras\u010diausias
+  receptas - \u00bd \u0161auk\u0161telio. Imamas 200 ml \u0161ilto vandens. druska
+  ir keli la\u0161ai jodo. Pakeisti proced\u016br\u0105 gali b\u016bti gydymas gleivin\u0117s
+  Lugol.\\n- Ramun\u0117 susidoroja su u\u017edegiminiu procesu, pa\u0161alina garsini\u0173
+  virvi\u0173 patinim\u0105. 1 litras verdan\u010dio vandens imamasi 1 valgomasis
+  \u0161auk\u0161tas. l ramun\u0117li\u0173 spalva. Po infuzijos g\u0117rimas turi
+  b\u016bti filtruojamas ir naudojamas skalavimui.\\n- Kepkite svog\u016bnus orkait\u0117je
+  ir nu\u0161luostykite per siet\u0105. Tada jis turi b\u016bti atskiestas \u0161iltu
+  vandeniu, kad tirpalo konsistencija ir kas valand\u0105 b\u016bt\u0173 naudojama
+  sanitarijai.\\n- Anizuotos s\u0117klos padeda i\u0161gydyti skausmingus vokalinius
+  virvelius. I\u0161 j\u0173 b\u016btina paruo\u0161ti nuovir\u0105. Taikyti skalbimui
+  reikia kas valand\u0105. Jei asmuo praranda savo bals\u0105, \u0161i proced\u016bra
+  pad\u0117s atkurti j\u0105 labai greitai, pa\u017eod\u017eiui 2-3 proced\u016brose.\\n-
+  Sumai\u0161ykite lygias dalis ramun\u0117li\u0173, kalendul\u0173 ir eukalipto vienodais
+  kiekiais. Tada 1 valgomasis \u0161auk\u0161tas. l kompozicija u\u017epilama 200
+  ml verdan\u010dio vandens ir paliekama \u012fdegti 30 minu\u010di\u0173. Skalauti
+  kas 2 valandas.\\nKompresai\\nNorint atkurti balso ir gydyti u\u017edegtas rai\u0161tis,
+  leid\u017eiama daryti kompresus ant gerkl\u0117s. Pasirinktoje kompozicijoje b\u016btina
+  \u0161velninti bet kok\u012f mink\u0161t\u0105 med\u017eiag\u0105 (turi b\u016bti
+  geros absorbcin\u0117s savyb\u0117s). Pernelyg reikia i\u0161spausti, kad skystis
+  neprasiskverbt\u0173. Tada jis taikomas ant gerkl\u0117s pavir\u0161iaus, padengto
+  folija ir \u0161ildomas \u0161alikliu ar skara.\\n- Degtin\u0117. Alkoholis turi
+  b\u016bti skied\u017eiamas vandeniu 1: 1.\\n- Riebaluotas. Prie\u0161 naudojim\u0105
+  gaminys turi b\u016bti \u0161ildomas iki patogios temperat\u016bros.\\n- Medus Medus
+  tur\u0117t\u0173 b\u016bti dedamas ant kop\u016bst\u0173 lapo pavir\u0161iaus. Apvyniokite
+  aplink gerkl\u0119 ir \u0161ildykite megztu skara ar plunksniu.\\n\u012ekv\u0117pimas\\nKaip
+  susigr\u0105\u017einti tr\u016bkstam\u0105 bals\u0105? Aphonijos gydymui galite
+  naudoti inhaliacijas, kuri\u0173 pagrind\u0105 sudaro eteriniai aliejai ir vaistiniai
+  augalai:\\n- \\\"Hypericum\\\" ir \\\"Oregano\\\" sultinyje reikia prid\u0117ti
+  2-3 la\u0161us persik\u0173 eterio. Kompozicija puikiai dr\u0117kina gleivin\u0119,
+  suteikia mink\u0161tinimo efekt\u0105.\\n- Virtos bulv\u0117s vienoje. Kar\u0161tas
+  gar\u0173 lygis taip pat padeda u\u017edeginti vokalinius virves d\u0117l per\u0161alimo.\\n-
+  Vienodais kiekiais sumai\u0161ykite eukalipto, ramun\u0117li\u0173, jona\u017eoli\u0173,
+  \u010diobreli\u0173 ir laim\u0173 \u017eied\u0173 \u017eol\u0119. Paimkite 3 \u0161auk\u0161tus
+  sumai\u0161ykite ir paruo\u0161kite 750 ml verdan\u010dio vandens. 20 minu\u010di\u0173
+  su\u0161ildykite kompozicij\u0105 vandens vonioje. Tada atau\u0161inkite sultin\u012f
+  iki priimtinos temperat\u016bros ir elkit\u0117s \u012fkv\u0117pus, padengta rank\u0161luos\u010diu.
+  Proced\u016bros trukm\u0117 - 10 minu\u010di\u0173.\\n- Jei balso neb\u0117ra, tuomet
+  j\u016bs galite kv\u0117puoti per gar\u0105 su eteriniais aliejais. Leid\u017eiama
+  naudoti \u0161alavijas, levand\u0105, aniz\u0105, bergam\u0105, \u0161altalank\u0105,
+  rozmarin\u0105.\\n- Kepimo s\u0117klos. Paruo\u0161ti kompozicij\u0105 reikia 500
+  ml verdan\u010dio vandens, kad u\u017egert\u0173 2 \u0161auk\u0161tus. l krapai
+  Kv\u0117puoti garu du kartus per dien\u0105. Gydymo trukm\u0117 yra 5 dienos.\\nKaip
+  gydyti u\u017edegimines rai\u0161\u010dius su laringitu\\nJei balsas staiga i\u0161nyko,
+  da\u017eniausiai tai sukelia infekcin\u0117 patologija. Paprastai prie\u017eastis
+  yra laringitas. \u0160iai ligai b\u016bdingas didelis gerkl\u0117s gleivin\u0117s
+  u\u017edegimas: \u017emogaus balsas tampa silpnas ir gali net visi\u0161kai i\u0161nykti.\\nKaip
+  \u0161iuo atveju i\u0161gydyti vokalinius virves? Gydymo re\u017eimas yra toks:\\n-
+  Gauti vaistus atpalaiduojan\u010diu poveikiu. Balinimo praradimas laringitu d\u0117l
+  sunki\u0173 gleivin\u0117s sudirginimo, kuris yra i\u0161reik\u0161tas sunkiu \u012ftampu.\\n-
+  Antitussives. Laringitas yra tipi\u0161kas kosulys, tod\u0117l pacientui skiriamas
+  kosulys.\\n- Sanitarinis gerkl\u0117s antiseptinis preparatas. Jie su\u0161velnina
+  u\u017edegimus balsuojan\u010di\u0173j\u0173 virvi\u0173 gleivin\u0119, pa\u0161alina
+  esam\u0105 u\u017edegimin\u012f proces\u0105.\\n- Homeopatiniai vaistai. Homoeopatija
+  taip pat turi ger\u0105 gydom\u0105j\u012f poveik\u012f.\\n- \u012ekv\u0117pimas.
+  Inhaliuoti garai labai palengvina b\u016bkl\u0119, pagreitina gijimo proces\u0105.\\nPrivaloma
+  gauti antibiotikus ir antivirusinius vaistus. Terapijos trukm\u0119 nustato gydantis
+  gydytojas.\\nAfonija (balso praradimas) yra b\u016bkl\u0117, d\u0117l kurios privalomas
+  gydymas. U\u017edegimieji vokiniai virveliai atsinaujina savaime, ta\u010diau vaist\u0173
+  ar liaudies recept\u0173 naudojimas paspartins \u0161\u012f proces\u0105.\"", "\"Sveiki.
+  D\u0117kui, kad u\u017esukot. Atliekam \u0161i\u0105 apklaus\u0105 nor\u0117dami
+  i\u0161girsti J\u016bs\u0173 nuomon\u0119, patirt\u012f ir \u012fsp\u016bd\u017eius,
+  susijusius su didesni\u0173, nekasdieni\u0173 pirkini\u0173 \u012fsigijimu bei j\u0173
+  apmok\u0117jimo b\u016bdais. Suprantame, kad asmeniniai finansai yra kiekvieno asmeninis
+  reikalas, tod\u0117l garantuojame - anketos informacija konfidenciali. I\u0161 J\u016bs\u0173
+  gauti atsakymai bus apibendrinti, o visa bendra informacija tiesiog pad\u0117s geriau
+  suprasti vis\u0173 m\u016bs\u0173 poreikius ir \u012fpro\u010dius, kurie veikia,
+  kai susiduriame su neatid\u0117liotinu reikalu arba tiesiog noru tok\u012f pirkin\u012f
+  tur\u0117ti.\\nJei yra tek\u0119 pasinaudoti kredito kortel\u0117s limitu, kas buvo
+  gerai? kas blogai?\\nLAbai gerai, nes pakako laiko \u012fne\u0161ti pinigus, kol
+  dar neskai\u010diuojamos pal\u016bkanos\\nviskas gerai\\nmokejimo grafikas neatitaikomas
+  pagal asmeninius poreikius.\\nnereikia moketi palukanu jeigu grazini iki 15 kito
+  menesio dienos\\nMazos banko palukanos\\nNe\\nViskas gerai. Pasinaudoji, atiduodi......\\nBlogai:
+  Labai aukstos palukanos. Gadina kreditingumo istorija.\\nViskas buvo gerai, i\u0161skyrus
+  tai, kad bankas kartais savavali\u0161kai atlieka sudengim\u0105 tarp kredito kortel\u0117s
+  s\u0105skaitos ir bankin\u0117s s\u0105skaitos. Gerai - tai pigiau nei \\\"Mo\u010diut\u0117s
+  paskola\\\"\\nviskas gerai\\nviskas ok\\nviskas gerai\\nkazkada ji reikia grazinti\\nGerai
+  - greitos papildomos l\u0117\u0161os, n\u0117ra pal\u016bkan\u0173 greitai gr\u0105\u017einus,
+  blogai - skol\u0105 reikia gr\u0105\u017einti.\\nTeko pasibaidoti, viskas gerai.\\nPal\u016bkanos
+  n\u0117ra didel\u0117s\\nNeteke\\nNemokamas kredito laimotarpis\\nviskas buvo gerai.
+  kita men atstatai suma ir tiek\\nBlogai, nes yra daug pagund\u0173. \u017dinai,
+  kad turi kortel\u0117je pinig\u0173 ir i\u0161leidi kokiems naujiems batams, kuri\u0173
+  \u0161iaip neb\u016btum pirk\u0119s.\\ndidel\u0117s pal\u016bkanos\\nGali pasiskolinti,
+  kai yra nemokamai kelios savaites. Kartais apskritai pirkimas reikalauja tureti
+  kreditine kortele\\nlabai nesinori j\u012f padengti :)\\nGerai kad nemokamai 45d,
+  blogai kad ilgainiui atrodo kaip tavo pinigai nuosavi e-bankininkystej\\n\u0160iaip
+  \u0161ios kortel\u0117s tur\u0117jimas veikia neigiamai finansin\u0119 disciplin\u0105
+  :) Pal\u016bkan\u0173 niekad per 10m. nemok\u0117jau, tad nieko nei gero nei blogo
+  negaliu pasakyti; beje, u\u017esienyje ir internetu perkant naudoju tik kreditin\u0119
+  kortel\u0119, d\u0117l saugumo\\nViskas gerai\\n45 dienas nekainuoja nieko. Sunku
+  padengti.\\nNura\u0161ymas be priminimo, t.y. teori\u0161kai \u017einai, kad 15
+  d. nura\u0161ymas, bet vis tiek pamir\u0161i ir lieki nustebintas...\"", "\"Michail
+  Mi\u0161ustin\\nMichailas Mi\u0161ustinas, Rusijos politikas, ekonomistas. Nuo 2020
+  ministras pirmininkas.\\nDaugiau\\nMychailo Verbyckyj\\nMichaila Verbyckis, 19 a.
+  ukrainie\u010di\u0173 kompozitorius, gitaristas, kunigas, tautinio atgimimo veik\u0117jas.
+  Ukrainos valstyb\u0117s himno muzikos autorius.\\nDaugiau\\nM\u016bs\u0173 svetain\u0117
+  naudoja slapukus (angl. cookies). \u0160ie slapukai naudojami statistikos ir rinkodaros
+  tikslais.\\nJei J\u016bs sutinkate, kad \u0161iems tikslams b\u016bt\u0173 naudojami
+  slapukai, spauskite \u201eSutinku\u201c ir toliau naudokit\u0117s svetaine.\\nKad
+  veikt\u0173 u\u017eklausos forma, naudojame sistem\u0105 \u201eGoogle ReCaptcha\u201c,
+  kuri padeda atskirti jus nuo interneto robot\u0173, kurie siun\u010dia brukalus
+  (angl. spam) ir pana\u0161aus tipo informacij\u0105.\\nTaigi, kad \u0161ios u\u017eklausos
+  forma u\u017etikrintai veikt\u0173, j\u016bs turite pa\u017eym\u0117ti \u201eSutinku
+  su na\u0161umo slapukais\u201c.\"", "\"Lygios, fig\u016br\u0105 formuojan\u010dios,
+  auk\u0161tos kelnait\u0117s su perregimu elementu. \u012erengta subtili silikonin\u0117
+  armat\u016bra vir\u0161utin\u0117je dalyje, kad kelnait\u0117s neslyst\u0173 nuo
+  k\u016bno. Klirensai klub\u0173 \u0161onuose (ir ant s\u0117dmen\u0173) yra puiki
+  id\u0117ja - jie pa\u017eeid\u017eia \u012fprastus standartus, parodo, kad apatinis
+  trikota\u017eas, galintis suliekn\u0117ti ir pagerinti k\u016bno linij\u0105, taip
+  pat gali b\u016bti moteri\u0161kas, subtilus ir \u0161iek tiek seksualus. Mes rekomenduojame!
+  Sud\u0117tis: 58% poliamidas, 42% elastanas.\\nD\u0117mesio: prek\u0117s apra\u0161ymas
+  i\u0161verstas ma\u0161ininiu b\u016bdu (Google Translate), tod\u0117l gali b\u016bti
+  stiliaus ar kitoki\u0173 klaid\u0173.\\nfeedback Prane\u0161ti apie komentar\u0105\"",
+  "\"Pune tr\u016bksta greitosios pagalbos paslaug\u0173, tod\u0117l pora pavert\u0117
+  savo furgon\u0105 greitosios pagalbos automobiliu ir dabar padeda nepasiturintiems
+  \u017emon\u0117ms laiku pasiekti ligonin\u0119 nemokant joki\u0173 mokes\u010di\u0173.\\nPuna,
+  Indija - \u201eDeepa\u201c ir \u201eDeepak Parab\u201c treniruoja moteris \u0161okin\u0117jan\u010dias
+  Ranragini savigynos akademijoje, Jawaharlal Nehru stadione, Swargate, kuris \u0161iuo
+  metu nedirba d\u0117l pandemijos. Kadangi jie suprato, kad miestui reikia greitosios
+  pagalbos automobilis.\\nNaujas greitosios medicinos pagalbos automobilis Pune: poros
+  auka\\nDeepa prane\u0161\u0117 apie \u201eHindustimes\u201c: \u201eGreitosios medicinos
+  pagalbos tarnyb\u0105 prad\u0117jome gegu\u017e\u0117s antr\u0105 savait\u0119.
+  Mes j\u012f inicijavome po to, kai viena mano student\u0117 prarado savo t\u0117v\u0105
+  d\u0117l \u201eCovid-19\u201c ir, kai greitosios pagalbos savininkas papra\u0161\u0117
+  j\u0173 sumok\u0117ti 3,500 Rs u\u017e kelt\u0105, jie negal\u0117jo sau to leisti.
+  Kai tik i\u0161kvie\u010diame greitosios pagalbos tarnyb\u0105 bet kurioje miesto
+  vietoje, skubame pad\u0117ti. Du gydytojai yra mano draugai ir jie man padeda nuve\u017eti
+  pacientus \u012f ligonin\u0119. Iki \u0161iol \u012f ligonin\u0119 nugabenome daugiau
+  kaip 50 pacient\u0173, i\u0161 kuri\u0173 dvi buvo n\u0117\u0161\u010dios moterys
+  ir dvi - pagyvenusios \u201c.\\nRafiqas Shaikhas, Swargate''o gyventojas, sak\u0117:
+  \u201eMano t\u0117vas buvo blogai u\u017edarymo laikotarpiu ir j\u012f kamuoja \u0161irdies
+  liga. Nor\u0117jome j\u012f nuve\u017eti \u012f ligonin\u0119, ta\u010diau greitosios
+  medicinos pagalbos tarnybos nebuvo. Mano draugas dav\u0117 man \u201eParab\u201c
+  numer\u012f ir d\u0117l j\u0173 mes gal\u0117jome laiku nuvesti t\u0117v\u0105 \u012f
+  ligonin\u0119 \u201c.\\nPaklauskite Deepos - kaip ji sugeba aptarnauti \u017emones,
+  kai jos pa\u010dios verslas yra sujauktas d\u0117l u\u017edarymo apribojim\u0173,
+  ir ji sako: \u201eBouncerio darbas yra apsaugoti \u017emones, tad kas b\u016bt\u0173,
+  jei negal\u0117\u010diau mokyti bounceri\u0173, a\u0161 vis dar ginu vargstan\u010dius
+  suteikdamas jiems greitosios medicinos pagalbos tarnyb\u0105 \u201c.\\nNor\u0117dami
+  finansi\u0161kai i\u0161silaikyti - pora parduoda sanitarines priemones, taip pat
+  si\u016blo paslaugas namams valyti.\\n\u201eKartu su sanitarini\u0173 priemoni\u0173
+  pardavimu mes teikiame ir nam\u0173 sanitarijos \u0161alinimo paslaugas. Mes su
+  vyru lankom\u0117s namuose d\u0117v\u0117dami AAP rinkinius ir mokame tik 1,000
+  Rs. I\u0161 gaut\u0173 1,000 Rs 500 yra skirti socialin\u0117ms reikm\u0117ms \u201c,
+  - sak\u0117 Deepa. Pats Deepakas vairuoja greit\u0105j\u0105 pagalb\u0105, nes taip
+  sutaupoma vairuotojams i\u0161leist\u0173 pinig\u0173, sako ji.\\nKomentarai yra
+  u\u017edaryti.\""]'
 src_ngrams: '{"1": [[["yra"], 108608723], [["gali"], 41361945], [["buvo"], 32622920],
   [["b\u016bti"], 26534934], [["m."], 21319288]], "2": [[["gali b\u016bti"], 12661523],
   [["turi b\u016bti"], 4556803], [["\u0161iuo metu"], 3493739], [["\u0161iek tiek"],

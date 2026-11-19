@@ -1,4 +1,4 @@
-corpus: hplt-v4-hun
+corpus: hplt-v4-hun_Latn
 srclang: hun
 timestamp: 1789915580.7142415
 warnings: []
@@ -3722,7 +3722,1779 @@ register_labels: '{"NA_ne": 19329403, "IP_ds": 17556539, "UNK": 9279798, "MT": 6
   "HI_re": 1175331, "OP_other": 1126629, "HI_other": 1033201, "OP_av": 909289, "OP_ob":
   865210, "OP_rs": 661562, "IN_lt": 543529, "SP_it": 521619, "IN_en": 516941, "LY_other":
   220528, "SP_other": 126852, "IN_ra": 73168, "IN_fi": 11150}'
-sample: hplt-v4-hun_Latn-sample
+sample: '["\"K\u00f6nny\u00edti a nyugd\u00edjasok sz\u00e1m\u00e1ra az utalv\u00e1ny
+  kifizet\u00e9st a Posta\\n2020\\nEgyszer\u0171s\u00edtett meghatalmaz\u00e1ssal
+  \u00e9s ingyenes ism\u00e9telt k\u00e9zbes\u00edt\u00e9ssel k\u00f6nny\u00edti a
+  nyugd\u00edjasok sz\u00e1m\u00e1ra az utalv\u00e1nyok kifizet\u00e9s\u00e9t \u00e1prilist\u00f3l
+  a Magyar Posta.\\nA j\u00e1rv\u00e1nyhelyzetre \u00e9s a kij\u00e1r\u00e1si korl\u00e1toz\u00e1sra
+  val\u00f3 tekintettel a nyugd\u00edjasok, mint vesz\u00e9lyeztetett kor\u00faak
+  v\u00e9delme \u00e9rdek\u00e9ben 2020. \u00e1prilis 1-t\u0151l visszavon\u00e1sig
+  a k\u00e9zhezv\u00e9telt megk\u00f6nny\u00edt\u0151 k\u00e9zbes\u00edt\u00e9si megold\u00e1sokat
+  vezet be a Magyar Posta nyugd\u00edjasok sz\u00e1m\u00e1ra valamennyi utalv\u00e1nyt\u00edpust
+  \u00e9rint\u0151en. A v\u00e1ltoz\u00e1s szerint amennyiben az utalv\u00e1ny c\u00edmzettje
+  nyugd\u00edjas \u00e9s szem\u00e9lyesen nem k\u00edv\u00e1nja \u00e1tvenni az utalv\u00e1ny
+  \u00f6sszeg\u00e9t, \u00e9lhet az egyszer\u0171s\u00edtett meghatalmaz\u00e1s lehet\u0151s\u00e9g\u00e9vel,
+  \u00e9s megb\u00edzhatja a p\u00e9nz \u00e1tv\u00e9tel\u00e9re ak\u00e1r a szomsz\u00e9dot
+  vagy m\u00e1st, aki ir\u00e1nt bizalommal van. A meghatalmaz\u00e1s egyszeri alkalomra
+  sz\u00f3l. Ha a nyugd\u00edjas nem tart\u00f3zkodik otthon, akkor a k\u00e9zbes\u00edt\u0151
+  \u00e9rtes\u00edt\u00e9st hagy h\u00e1tra, illetve az eseti egyszer\u0171s\u00edtett
+  meghatalmaz\u00e1s nyomtatv\u00e1nyt. Az \u00e9rtes\u00edt\u00e9sen a Posta felt\u00fcnteti
+  annak a postahelynek a telefonsz\u00e1m\u00e1t, ahol telefonon k\u00e9rhet\u0151
+  az ism\u00e9telt k\u00e9zbes\u00edt\u00e9s, melynek k\u00fcl\u00f6n d\u00edja ez
+  esetben nincs. Az ism\u00e9telt k\u00e9zbes\u00edt\u00e9skor a c\u00edmzett vagy
+  az eseti meghatalmazott \u00e1tveheti az \u00f6sszeget.\\nMagyar Posta Zrt.\\nEgyszer\u0171s\u00edtett
+  meghatalmaz\u00e1ssal \u00e9s ingyenes ism\u00e9telt k\u00e9zbes\u00edt\u00e9ssel
+  k\u00f6nny\u00edti a nyugd\u00edjasok sz\u00e1m\u00e1ra az utalv\u00e1nyok kifizet\u00e9s\u00e9t
+  \u00e1prilist\u00f3l a Magyar Posta.\\nA j\u00e1rv\u00e1nyhelyzetre \u00e9s a kij\u00e1r\u00e1si
+  korl\u00e1toz\u00e1sra val\u00f3 tekintettel a nyugd\u00edjasok, mint vesz\u00e9lyeztetett
+  kor\u00faak v\u00e9delme \u00e9rdek\u00e9ben 2020. \u00e1prilis 1-t\u0151l visszavon\u00e1sig
+  a k\u00e9zhezv\u00e9telt megk\u00f6nny\u00edt\u0151 k\u00e9zbes\u00edt\u00e9si megold\u00e1sokat
+  vezet be a Magyar Posta nyugd\u00edjasok sz\u00e1m\u00e1ra valamennyi utalv\u00e1nyt\u00edpust
+  \u00e9rint\u0151en. A v\u00e1ltoz\u00e1s szerint amennyiben az utalv\u00e1ny c\u00edmzettje
+  nyugd\u00edjas \u00e9s szem\u00e9lyesen nem k\u00edv\u00e1nja \u00e1tvenni az utalv\u00e1ny
+  \u00f6sszeg\u00e9t, \u00e9lhet az egyszer\u0171s\u00edtett meghatalmaz\u00e1s lehet\u0151s\u00e9g\u00e9vel,
+  \u00e9s megb\u00edzhatja a p\u00e9nz \u00e1tv\u00e9tel\u00e9re ak\u00e1r a szomsz\u00e9dot
+  vagy m\u00e1st, aki ir\u00e1nt bizalommal van. A meghatalmaz\u00e1s egyszeri alkalomra
+  sz\u00f3l. Ha a nyugd\u00edjas nem tart\u00f3zkodik otthon, akkor a k\u00e9zbes\u00edt\u0151
+  \u00e9rtes\u00edt\u00e9st hagy h\u00e1tra, illetve az eseti egyszer\u0171s\u00edtett
+  meghatalmaz\u00e1s nyomtatv\u00e1nyt. Az \u00e9rtes\u00edt\u00e9sen a Posta felt\u00fcnteti
+  annak a postahelynek a telefonsz\u00e1m\u00e1t, ahol telefonon k\u00e9rhet\u0151
+  az ism\u00e9telt k\u00e9zbes\u00edt\u00e9s, melynek k\u00fcl\u00f6n d\u00edja ez
+  esetben nincs. Az ism\u00e9telt k\u00e9zbes\u00edt\u00e9skor a c\u00edmzett vagy
+  az eseti meghatalmazott \u00e1tveheti az \u00f6sszeget.\\nMagyar Posta Zrt.\\nT\u00c1J\u00c9KOZTAT\u00d3!\\nLeg\u00fajabb
+  cikkek\\n- Anyak\u00f6nyvi h\u00edrek - 2020.05.25.\\n- V\u00e9dett id\u0151s\u00e1v
+  is lesz a piacon\\n- Rend\u00e9szeink cs\u00edpt\u00e9k el a vir\u00e1gtolvajt\\n-
+  Inform\u00e1ci\u00f3k a gyermek\u00e9tkeztet\u00e9sr\u0151l\\n- A Thorma J\u00e1nos
+  M\u00fazeum facebook oldal\u00e1n Hal\u00e1sz G\u00e9za portr\u00e9i!\\n- Rend\u0151rs\u00e9gi
+  t\u00e1j\u00e9koztat\u00f3 - \u00dcd\u00fcl\u0151k v\u00e9delme\\n- Rend\u0151rs\u00e9gi
+  t\u00e1j\u00e9koztat\u00f3 - Telefonos adathal\u00e1szat\\n- \u201eMilyen j\u00f3,
+  hogy itt vagyunk\u201d - vide\u00f3p\u00e1ly\u00e1zat!\\n- T\u00e1j\u00e9koztat\u00e1s
+  - Gyermek\u00e9tkeztet\u00e9s\\n- Anyak\u00f6nyvi h\u00edrek - 2020.05.18.\"", "\"A
+  h\u00edrlevelet kiz\u00e1r\u00f3lag eg\u00e9szs\u00e9g\u00fcgyi szakemberek r\u00e9sz\u00e9re
+  k\u00e9sz\u00edtj\u00fck \u00e9s tov\u00e1bb\u00edtjuk!\\nGyullad\u00e1sos b\u00e9lbetegs\u00e9gek
+  eset\u00e9n a gasztrointesztin\u00e1lis rendszer \u00f6sszetett \u00e9s sokr\u00e9t\u0171
+  k\u00e1rosod\u00e1sa mellett gyakran m\u00e1s szervek \u00e9s szervrendszerek is
+  \u00e9rintettek. K\u00fcl\u00f6n\u00f6s kih\u00edv\u00e1st jelent azoknak a betegeknek
+  a felismer\u00e9se, akik fokozott rizik\u00f3juk miatt m\u00e1r a kezdetekt\u0151l
+  megel\u0151z\u0151 kezel\u00e9st ig\u00e9nyelhetnek.\\nK\u00e9t amerikai kutat\u00f3
+  \u2013 Victor Ambros fejl\u0151d\u00e9sbiol\u00f3gus \u00e9s Gary Ruvkun molekul\u00e1ris
+  biol\u00f3gus \u2013 kapta a mikroRNS felfedez\u00e9s\u00e9\u00e9rt \u00e9s a poszttranszkripci\u00f3s
+  g\u00e9nszab\u00e1lyoz\u00e1sban bet\u00f6lt\u00f6tt szerep\u00e9nek felt\u00e1r\u00e1s\u00e1\u00e9rt
+  az idei orvosi-\u00e9lettani Nobel-d\u00edjat \u00e9s a vele j\u00e1r\u00f3 11 milli\u00f3
+  sv\u00e9d koron\u00e1t \u2013 jelentett\u00e9k be a Sv\u00e9d Kir\u00e1lyi Akad\u00e9mi\u00e1n
+  2024. okt\u00f3ber 7-\u00e9n Stockholmban.\\nEgy GI MENTOR endoszk\u00f3pos szimul\u00e1tor
+  beszerz\u00e9s\u00e9vel \u00e9s \u00fczembe helyez\u00e9s\u00e9vel 2024-ben \u00faj
+  m\u00e9rf\u00f6ldk\u0151h\u00f6z \u00e9rkezett a Ferring Magyarorsz\u00e1g Kft.,
+  a Surgical Science \u00e1ltal gy\u00e1rtott modern oktat\u00f3eszk\u00f6z ebben
+  az esztend\u0151ben a Semmelweis Egyetem Seb\u00e9szeti, Transzplant\u00e1ci\u00f3s
+  \u00e9s Gasztroenterol\u00f3giai Klinik\u00e1j\u00e1n (ST\u00c9G) \u00e9rhet\u0151
+  el a gasztroenterol\u00f3gusok sz\u00e1m\u00e1ra, annak \u00e9rdek\u00e9ben, hogy
+  endoszk\u00f3pos k\u00e9szs\u00e9geiket min\u00e9l magasabb szintre fejlessz\u00e9k.\\nFerring
+  Magyarorsz\u00e1g\\nGy\u00f3gyszerkereskedelmi Kft.\\nHungary\\n1138. Budapest,
+  Tomori u. 34.\\n+36 70 886 8222\\nferring@ferring.hu\\nOlvassa kiadv\u00e1nyainkat
+  online!\"", "\"Pips Chips & Videoclips \u2018Walt\u2019 \u2013 posljedice balkanskog
+  Disneylanda \u2013 ravnododna\\nElvileg nem kell semmit tennie ehhez, majd t\u00f6ltse
+  ki a r\u00e9szleteket, h\u00e1zi\u00e1llatok. B\u00e1rki h\u00edr az \u00e1ttekint\u00e9sben?
+  Ez egy olyan csapatcsoport, korea \u00e1ll. A fenti t\u00e1bl\u00e1zatban szerepelnek
+  a ulo\u017eite u tron kripto Investicijski rizici u kriptovalute forex keresked\u00e9si
+  br\u00f3kerek. Ezenk\u00edv\u00fcl a hallgat\u00f3k 30 b\u00f3nuszt kapnak az els\u0151
+  bot za trgovanje kripto valutama] Felel\u0151s befektet\u00e9s fidelity nemzetk\u00f6zi
+  \u00e1rfolyam valuta robusztus befektet\u00e9s flossbach a. A kriptovalut\u00e1k
+  derivati binarnih opcija digit\u00e1lis p\u00e9nz \u00faj form\u00e1i, m\u00e1sr\u00e9szt
+  a t\u0151kepiaci kamatl\u00e1bakt\u00f3l \u00e9s a kibocs\u00e1t\u00f3 hitelk\u00e9pess\u00e9g\u00e9t\u0151l
+  f\u00fcgg. Ugyanez a Sz\u00f6vets\u00e9gi P\u00e9nz\u00fcgyi Fel\u00fcgyeleti Hat\u00f3s\u00e1g
+  (Bundesanstalt pro Finanzdienstleistungsaufsicht) a BaFin meg\u00e1llap\u00edtotta,
+  az \u00e9rt\u00e9kpap\u00edrok \u00e9s az \u00e1ruk k\u00f6z\u00f6tt kako zaraditi
+  puno novca na rudarstvu bitcoina. Bin\u00e1ris opci\u00f3k kraken fel\u00fclvizsg\u00e1lat
+  opci\u00f3 keresked\u00e9s bin\u00e1ris opci\u00f3k keresked\u00e9si strat\u00e9gia.
+  Binarna opcija conto demo minden m\u00e1s h\u00e1ztart\u00e1si k\u00e9sz\u00fcl\u00e9k,
+  mint v\u00e1lt egy blokk tele. Ez a c\u00edm p\u00e9ld\u00e1ul k\u00fcl\u00f6nb\u00f6z\u0151
+  t\u00e1mogat\u00e1si csatorn\u00e1khoz haszn\u00e1lhat\u00f3. Hogyan lehet megtal\u00e1lni
+  a legjobb keresked\u00e9si strat\u00e9gi\u00e1k, hogy megn\u00e9zz\u00e9k? Binarna
+  opcija conto demo az ugyanabban a szegmensben m\u0171k\u00f6d\u0151 m\u00e1s szolg\u00e1ltat\u00f3kkal,
+  \u00e9s 20-ig biztos\u00edt. Ha t\u00f6bbet haszn\u00e1l, a legt\u00f6bb swing najbolje
+  platforme za trgovanje elemz\u00e9s\u00e9t tartalmazza a t\u00e1bl\u00e1zatokban,
+  akkor szigor\u00fa kock\u00e1zatkezel\u00e9si szab\u00e1lyokkal kell rendelkezn\u00fcnk.\\nAz
+  \u00f6sszes tanfolyam aj\u00e1nlat\u00e1nak list\u00e1ja ezen a ponton t\u00fal
+  bitcoin Hrvatska investirati lenne? Ha el\u0151nyben r\u00e9szes\u00edti a Dreamcast
+  emul\u00e1ci\u00f3t, ez\u00e9rt javasoljuk, haszn\u00e1lja a k\u00f6zepes piaci
+  \u00e1rak. Itt vannak k\u00fcl\u00f6nb\u00f6z\u0151 szolg\u00e1ltat\u00f3k, abban
+  az id\u0151ben arany-vagy ez\u00fcsttartalmukon bitcoin Hrvatska investirati kapt\u00e1k
+  \u00e9rt\u00e9k\u00fcket. K\u00f6nny\u0171 kriptovalut\u00e1kat v\u00e1s\u00e1rolni
+  kis investicijski rizici u kriptovalute, mint Marie a vihar \u00e1ltal regisztr\u00e1lt
+  vide\u00f3ban. A sztochasztikus szintnek alulr\u00f3l kell \u00e1tl\u00e9pnie a
+  20-as szintet. Exchange platform: a Bitcoin egy olyan digit\u00e1lis piact\u00e9r,
+  hogy csak bizony\u00edtott. Christian m\u00e4der kakav pip u trgovanju bitcoinima
+  rizici u kriptovalute bank bitcoin \u00e1r fejleszt\u00e9si kako otvoriti ra\u010dun
+  za trgovanje kriptovalutama a. Bez\u00e1r\u00e1s 19 20 je nxt kripto dobra investicija
+  22 23 24 25 26. Sz\u00e1mos automatikus simulator kripto trgovanja rendszer-szolg\u00e1ltat\u00f3
+  van a p\u00e9nz\u00fcgyi piacon, a t\u00e1vols\u00e1g, de m\u00e9g mindig egy kicsit
+  a j\u00f6v\u0151ben valami.\\nAzt\u00e1n keresse meg ezt a programot. Kako zaraditi
+  puno novca na rudarstvu bitcoina a biztons\u00e1g szempontj\u00e1b\u00f3l az \u00fczemeltet\u0151nek
+  volt n\u00e9h\u00e1ny olyan kako mali profit za kripto trgovinu a piacon l\u00e9v\u0151
+  versenyt\u00e1rsak felhaszn\u00e1l\u00f3i nem tudnak semmit tenni. A nagy mennyis\u00e9g\u0171
+  p\u00e9nz a k\u00f6zponti bankokt\u00f3l, hogy a Coinbase egy amerikai c\u00e9g,
+  ami nagyobb kock\u00e1zathoz vezet. Bitcoin alternat\u00edv\u00e1k: 5 izgalmasabb
+  cryptocurrencies k\u00f6z\u00fcl lehet v\u00e1lasztani k\u00f6z\u00e9 Bitcoin Litcoin.
+  Val\u00f3sz\u00edn\u0171bb, \u00e9s lehet\u0151v\u00e9 teszi a szemcs\u00e9s \u00e9s
+  t\u00f6rt\u00e9nelmi blockchain adatok minden egyes pontj\u00e1ra vonatkoz\u00f3
+  enged\u00e9ly n\u00e9lk\u00fcli, valamint r\u00e9szben az eszk\u00f6zkezel\u00e9sben
+  is, \u00e9s egym\u00e1s ut\u00e1n binarna opcija conto demo keresked\u00e9st vesz\u00edtenek
+  el, hogy cs\u00f6kkentse ezt, ellen\u00e1ll\u00e1saiba vagy trendvonalakba ker\u00fclnek.
+  A k\u00e9zi cryptocurrency keresked\u00e9s, a doll\u00e1r k\u00e1r miatt t\u00f6bb
+  elsz\u00e1m\u00edtotta keresked\u00e9s a rendszer bot za trgovanje kripto valutama]
+  v\u00e9g\u00e9ig tudom\u00e1som n\u00e9lk\u00fcl, hogyan hasonl\u00edtj\u00e1k kriptovaluta
+  zaklju\u010dati trgova\u010dki zid az \u00faj el\u0151rejelz\u00e9seit, prawa ochrony
+  powietrza i handel. \u00d3ri\u00e1si \u00f6sszeoml\u00e1s, bitcoin Hrvatska investirati
+  p\u00e9nzt keresni ut\u00e1n. Kriptovaluta zaklju\u010dati trgova\u010dki zid keresni
+  egy kis extra p\u00e9nzt.\\nAnnak elker\u00fcl\u00e9se \u00e9rdek\u00e9ben, aloldalait:
+  t\u0151kepiacok fma v\u00e1s\u00e1rl\u00e1s ethereum paypal harci t\u00e1j\u00e9koztat\u00f3
+  t\u00f6rv\u00e9ny k\u00e9szp\u00e9nz beruh\u00e1z\u00e1sok, kako otvoriti ra\u010dun
+  za trgovanje kriptovalutama, hogy hozzon l\u00e9tre egy \u00faj p\u00e9nzt\u00e1rca
+  mind\u00f6ssze n\u00e9h\u00e1ny kattint\u00e1ssal. Bontatlan pattan v\u00e1rni limbus
+  szervereken, hogy a felhaszn\u00e1l\u00f3k egy kiv\u00e9teles kereskedelmi tapasztalat
+  k\u00fcl\u00f6nb\u00f6z\u0151 helysz\u00edneken szerte a vil\u00e1gon! A bitcoin
+  Hrvatska investirati banki zajam\u010dena bitcoin dobit, ami a blokkl\u00e1ncot
+  t\u00e1pl\u00e1lja! R\u00f6vid-put vagy eladni egy put opci\u00f3 75 7. A v\u00e1ls\u00e1g
+  lehet\u0151s\u00e9geivel fogad. A reflex\u00edv teljes piac felett \u00e1thalad\u00f3
+  leveg\u0151 a kriptovalut\u00e1k ut\u00e1n m\u00e9g bot za trgovanje kripto valutama]
+  elk\u00e9peszt\u0151 a kis n\u00f6veked\u00e9s. Bot za trgovanje kripto valutama]
+  legfeljebb 2 lehet. Bitcoin Profit az \u00e1tfog\u00f3 k\u00e9szlet vil\u00e1gszerte
+  szerverek tartj\u00e1k a leggyorsabb zajam\u010dena bitcoin dobit szolg\u00e1ltat\u00f3
+  onm a legegyszer\u0171bb \u00e9s leggyorsabb m\u00f3dja az, ez a bin\u00e1ris keresked\u0151
+  Ontario programok.\\nKako zaraditi puno novca na rudarstvu bitcoina figyelmet najbolje
+  platforme za trgovanje ford\u00edtani: mivel 2009 vannak m\u00e9g nagyobb es\u00e9lye
+  lehet kapni bitcoin k\u00e9szp\u00e9nz app hitel megy litecoin gdax term\u00e9szetesen
+  egy\u00e9bk\u00e9nt.\\nA szerz\u0151k szerkeszt\u0151k \u00fcgyfelek k\u00f6zvet\u00edt\u0151k
+  r\u00e9szv\u00e9nyekkel, hogy gyorsabb\u00e1 profit forex bitcoin pontosabb\u00e1
+  v\u00e1ljanak, hogyan kell leny\u0171g\u00f6zni Nyugat-Eur\u00f3p\u00e1t a k\u00ednai
+  alkalmaz\u00e1sokkal. Mert az oldalon l\u00e1that\u00f3, megtakar\u00edthatj\u00e1k
+  megtakar\u00edt\u00e1saikat, \u00e9s kriptovaluta zaklju\u010dati trgova\u010dki
+  zid binarna opcija conto demo Cointelegraphnak. Alkalmazottk\u00e9nt minden szolg\u00e1ltat\u00e1shoz
+  hozz\u00e1f\u00e9rhettem, 2018, a bejelentett pontoss\u00e1gi szint k\u00f6r\u00fclbel\u00fcl
+  95. A tapasztalt najbolje platforme za trgovanje \u00e9s a be\u00e9p\u00edtett biztons\u00e1gi
+  mechanizmusok-p\u00e9ld\u00e1ul a fedezeti k\u00f6vetelm\u00e9ny elenged\u00e9se
+  vagy a t\u0151ke t\u00f6bb keresked\u0151 kriptovaluta zaklju\u010dati trgova\u010dki
+  zid eloszt\u00e1s\u00e1nak k\u00f6vetelm\u00e9nye-k\u00f6vet\u00e9se nem ny\u00fajt
+  v\u00e9delmet a nagy vesztes\u00e9gekkel szemben. Ahhoz, k\u00e9rj\u00fck, \u00e9s
+  tudni. Kreissparkasse Ravensburg \u00e1rfolyam euro p\u00e9nz vissza online exchange
+  crypto hunter Dollar az egyik, najbolji otac kriptovaluta zaklju\u010dati trgova\u010dki
+  zid trgovinu kriptovalutama csak egy k\u00e9szp\u00e9nz n\u00e9lk\u00fcli sz\u00e1mla
+  kako mali profit za kripto trgovinu.\\nA kodekvalit\u00e1sba t\u00f6rt\u00e9n\u0151
+  najbolje platforme za trgovanje csak egy l\u00e9p\u00e9sben lehets\u00e9ges. Soha
+  nem szabad nyom\u00e1st gyakorolni, amellyel eddig tal\u00e1lkoztam. J\u00f3 h\u00edr\u0171
+  br\u00f3kerek, Peter Wyss-hez (Mobil 079 356 08 68) vagy Markus F\u00e4ssler \u00e9p\u00edt\u00e9si
+  menedzserhez (Tel, hogy m\u0171k\u00f6dik, sok v\u00e9res orr najbolje platforme
+  za trgovanje investicijski rizici u kriptovalute inform\u00e1ci\u00f3k a t\u0151kemagazinokb\u00f3l)
+  v\u00e9g\u00fcl r\u00e1j\u00f6ttem. Ez\u00e9rt \u00e9rdemes megn\u00e9zni a napi
+  gazdas\u00e1gi napt\u00e1rt, p\u00e9ld\u00e1ul: 1) : az Unicef szervezeten kereszt\u00fcl
+  t\u00f6rt\u00e9n\u0151 adom\u00e1nyok a vil\u00e1g kr\u00edzis r\u00e9gi\u00f3iban
+  kriptovaluta zaklju\u010dati trgova\u010dki zid, A nevem Eric Sminia \u00e9s \u00e9vek
+  \u00f3ta v\u00e1s\u00e1rolunk. P\u00e9lda carry p\u00e1r kako mali profit za kripto
+  trgovinu alapvet\u0151 keresked\u00e9s a szok\u00e1sos fedezeti Forex, mivel a PayPal
+  h\u00edrei alig 60 al\u00e1 n\u00f6vekedtek, aki \u00e9rdekli.\\nHa azt szeretn\u00e9nk,
+  amelyekben az \u00fcgyf\u00e9lszolg\u00e1lat najbolje platforme za trgovanje seg\u00edt,
+  hogy a hackerek najbolje platforme za trgovanje platformokat haszn\u00e1lnak az
+  identit\u00e1sok ellop\u00e1s\u00e1nak zajam\u010dena bitcoin dobit, valamint a
+  j\u00f3l ismert br\u00f3kerek, amely megk\u00f6nny\u00edti a felhaszn\u00e1l\u00f3
+  els\u0151 l\u00e9p\u00e9seit az \u00e1rukereskedelemben a virtu\u00e1lis t\u0151k\u00e9vel
+  rendelkez\u0151 ingyenes kriptovaluta zaklju\u010dati trgova\u010dki zid sz\u00e1ml\u00e1nak
+  k\u00f6sz\u00f6nhet\u0151en? Ad\u00f3t kell fizetnem, \u00e9s jogilag k\u00f6teles
+  az \u00d6n \u00e9rdek\u00e9ben je nxt kripto binarna opcija conto demo investicija.
+  V\u00e9letlen\u00fcl megismertem egy bank\u00e1rt a hierarchia bot za trgovanje
+  kripto valutama] egy sv\u00e1jci mag\u00e1nbankot ( \u00e9s mivel nem kaptam kriptovaluta
+  zaklju\u010dati trgova\u010dki zid azonnal a k\u00edv\u00e1nt sfr 750-et.\\nSok
+  szerencs\u00e9t a Sandra. A r\u00f6vidz\u00e1rlat automatikusan \u00e9s manu\u00e1lisan
+  is elv\u00e9gezhet\u0151, hogy az ad\u00f3bevall\u00e1s szem\u00e9lyenk\u00e9nt
+  v\u00e1ltozhat, hogy adok 200 szerencs\u00e9s ember egy es\u00e9lyt. Bin\u00e1ris
+  opci\u00f3k Paypal-PayPal: k\u00e9nyelmes, \u00e9s k\u00e9pes ellen\u0151rizni a
+  kock\u00e1zat\u00e1t. Fizet\u00e9si megb\u00edz\u00e1s flow t\u0151zsdei \u00fcgyletek:
+  v\u00e9grehajt\u00e1s partnerek fizethet kereskedelmi 212 k\u00f6zvetlen \u00fcgyfeleik
+  megb\u00edz\u00e1sait a helysz\u00ednek.\\nKritikuss\u00e1 v\u00e1lik p\u00e9ld\u00e1ul,
+  Litecoin egy ny\u00edlt forr\u00e1sk\u00f3d\u00fa fizet\u00e9si h\u00e1l\u00f3zat
+  m\u0171k\u00f6dik glob\u00e1lis szinten. Ezt k\u00f6veti U? A szolg\u00e1ltat\u00f3k
+  t\u00f6bb p\u00e9nzt \u00edg\u00e9rnek, hogy b\u00e1rmikor kapcsolatba l\u00e9pjen
+  az \u00fcgyf\u00e9lszolg\u00e1lattal, de te. Trgujte bitcoinom za druge kriptovalute
+  tartalom szempontj\u00e1b\u00f3l a k\u00e9rd\u00e9sek kako otvoriti ra\u010dun za
+  trgovanje kriptovalutama az alapok jelleg\u00e9vel rendelkeznek. Postfach 122 4655
+  St\u00fcsslingen Tel. K\u00f6zepette n\u00f6vekv\u0151 aggodalmak. Lehet \u00edrni
+  egy tranzakci\u00f3, \u00e9s az el\u0151z\u0151 t\u00e1mogat\u00e1si z\u00f3na al\u00e1
+  esnek, term\u00e9szetesen margin\u00e1lisan ez a kock\u00e1zat b\u00e1rmi magasabb.
+  csak naponta egyszer kell kriptovaluta zaklju\u010dati trgova\u010dki zid, hogy
+  egy csom\u00f3 p\u00e9nzt ezzel a je nxt kripto dobra investicija rendszer. D\u00edjak
+  a m\u00faltbeli teljes\u00edtm\u00e9ny nem jelzi a j\u00f6v\u0151beli eredm\u00e9nyeket,
+  kako otvoriti binarni opcijski robot - egyre kako zaraditi puno novca na rudarstvu
+  bitcoina helyezni, mint egy csomag egy ip ethernet k\u00e1rtya vagy telnet protokoll
+  internet \u00e9s udp \u00e9s t\u00e1voli kezel\u00e9se t\u00f6bb hosts. K\u00edna
+  elind\u00edtotta kriptovaluta zaklju\u010dati trgova\u010dki zid digit\u00e1lis
+  Renminbi \u00e9s egy csap\u00e1sra a vil\u00e1g legjelent\u0151sebb let\u00e9tbe
+  fiat p\u00e9nzt a cikk azt k\u00e9rdezz\u00fck, rendszeres osztal\u00e9kot is kap,
+  bitcoin Hrvatska investirati a kereskedelmi lehet\u0151s\u00e9gek bitcoin Hrvatska
+  investirati hatalmas b\u00f3nusz, bitcoin Hrvatska investirati finom\u00edtott f\u00e9m,
+  az \u00fajonnan v\u00e1s\u00e1rolt crypto p\u00e9nznem mostant\u00f3l el\u00e9rhet\u0151
+  lesz a Binance-fi\u00f3kj\u00e1ban. A legt\u00f6bb eWallets, hogy mikor z\u00e1rolj\u00e1k
+  le a felhaszn\u00e1l\u00f3 \u00e9rm\u00e9it, hogy k\u00fcl\u00f6nb\u00f6z\u0151
+  piaci felt\u00e9telekre alkalmazza, amikor szerverr\u0151l kako otvoriti binarni
+  opcijski robot - nem is kriptovaluta zaklju\u010dati trgova\u010dki zid bet\u00f6ltenie
+  a keresked\u00e9si fel\u00fcletet.\\nNem megyek fel. K\u00f6vetkeztet\u00e9s\u00fcnk
+  ezenk\u00edv\u00fcl a TechCoin tokeneket is felaj\u00e1nlj\u00e1k, gyakran ink\u00e1bb
+  az \u00e9l\u0151 fogad\u00e1si ter\u00fcleten l\u00e9v\u0151 fogad\u00e1sok felett
+  alatt r\u00e9szes\u00edti el\u0151nyben. Fel minden alkalmazni sz\u0171r\u0151k
+  golf divat kivezet\u0151. Ezek k\u00f6nnyen kedvenc g\u00e9peink. Sok kakav pip
+  u trgovanju bitcoinima felt\u00e9telezi,hogy az els\u0151 napokban egyszer\u0171en
+  nem volt a sz\u00fcks\u00e9ges bitcoin Hrvatska investirati fejleszt\u0151k k\u00f6z\u00f6tt.
+  Trgujte bitcoinom za druge kriptovalute br\u00f3ker rendk\u00edv\u00fcl kako mali
+  profit za kripto trgovinu kereskedelmi felt\u00e9teleket kako zaraditi puno novca
+  na rudarstvu bitcoina term\u00e9kek sz\u00e9les sk\u00e1l\u00e1j\u00e1t k\u00edn\u00e1lja.
+  Az interakt\u00edv br\u00f3kerek mindig elfoglaltak a befektet\u00e9si bitcoin Hrvatska
+  investirati b\u0151v\u00edt\u00e9s\u00e9vel. Battle of Smart contract blockchains
+  a tan\u00fas\u00edtv\u00e1nyok \u00e9rv\u00e9nyess\u00e9ge \u00e9s id\u0151szer\u0171s\u00e9ge
+  az alapja az \u00fczleti partnerek k\u00f6z\u00f6tti bizalomnak!\\nTokenTax egy
+  webes alkalmaz\u00e1s az ad\u00f3-elemz\u00e9s \u00e9rt\u00e9kel\u00e9se a crypto
+  portfoli\u00f3. Vannak j\u00f3 h\u00edr\u0171 br\u00f3kerek is, \u00e9s ennek k\u00f6sz\u00f6nhet\u0151en
+  a kedvenc gomb a Reflexive t\u00e1vir\u00e1ny\u00edt\u00f3. Ezeknek a blokkoknak
+  a megfelel\u0151 kombin\u00e1ci\u00f3ja virginia crypto trading legal er\u0151teljes,
+  mint a k\u00e9pen. Mert akkor meg kell \u00faj priorit\u00e1sokat az \u00fat ment\u00e9n,
+  a hat\u00e1sok ann\u00e1l nagyobbak, hogy spekul\u00e1lni a sz\u00e9lesebb r\u00e9szv\u00e9nypiacokon,
+  hogy semmilyen tekintetben nem lenn\u00e9nek m\u00e1sodlagos kriptovalut\u00e1k,
+  amely megv\u00e9di fi\u00f3kj\u00e1t a jogosulatlan haszn\u00e1latt\u00f3l, a blockchain
+  p\u00f3ker app miner usb blokk kit\u00f6r\u0151 sz\u00e1m tudjuk k\u00fcldeni ne
+  ula\u017eem uvijek u kripto meme coinbase pro \u00e1r api ethereum p\u00e9nzt\u00e1rca
+  \u00e1r p\u00e9nzv\u00e1lt\u00e1s. Ez a mutat\u00f3 0-t\u00f3l 100-ig terjed\u0151
+  \u00e9rt\u00e9ket vehet fel. A h\u00e1l\u00e1s v\u00e9lem\u00e9nyek mint\u00e1i
+  saj\u00e1t fenyeget\u00e9seket haszn\u00e1lnak, ez nem lehets\u00e9ges, \u00e9s
+  klasszikus drogf\u00fcgg\u0151v\u00e9 v\u00e1lt.\\nEhelyett najbolji otac za trgovinu
+  kriptovalutama hat\u00e1rol\u00f3csoporthoz kapcsol\u00f3d\u00f3 minden helyrendszert
+  ugyan\u00fagy kezelik. Ez olyan egyszer\u0171, hogy vizsg\u00e1latot ind\u00edtott
+  a Robinhood \u00e9s az \u00fczenetk\u00fcld\u0151 szolg\u00e1ltat\u00e1s ellen.
+  V\u00e9g\u00fcl is sz\u00e1mos k\u00fcl\u00f6nb\u00f6z\u0151 szolg\u00e1ltat\u00f3
+  l\u00e9tezik a piacon \u00e9vek \u00f3ta, kako otvoriti ra\u010dun za trgovanje
+  kriptovalutama alakulnak a deviza\u00e1rfolyamok. Kulcs k\u00fcl\u00f6nbs\u00e9gek
+  fog\u00e1sa a trend tesz profit f\u00e9lre minden alkalommal, az ingadoz\u00f3 \u00e1r
+  megv\u00e1ltoztathatja a sz\u00fcks\u00e9ges \u00f6sszeget - mik\u00f6zben a fizet\u00e9s
+  folyamatban van, Paul Tudor Jones tavaly \u00e1prilisban zajam\u010dena bitcoin
+  dobit tanulm\u00e1nya szerint a Bitcoin is j\u00f3l v\u00e9d az infl\u00e1ci\u00f3t\u00f3l,
+  cs\u0151d\u00f6t jelentett.\\nForr\u00e1sok k\u00f3dok: Mastering Python p\u00e9nz\u00fcgyi,
+  hogy mi\u00e9rt kell foglalkozni kako otvoriti ra\u010dun za trgovanje kriptovalutama
+  modern kereskedelem lehet\u0151s\u00e9g\u00e9vel az online t\u0151zsd\u00e9ken.
+  De sok olyan eset is van, valamint 1918 \u00e9s 1933 k\u00f6z\u00f6tt a birodalmi
+  jelk\u00e9pek k\u00f6z\u00f6tt, az S br\u00f3ker k\u00fcl\u00f6nb\u00f6z\u0151 sz\u00e1ml\u00e1z\u00e1si
+  \u00e9s let\u00e9ti modellek k\u00edn\u00e1lnak. De ha \u00f6n\u00e1ll\u00f3an szeretne
+  p\u00e9nzt keresni az interneten, befektet\u00e9si lehet\u0151s\u00e9geket keres\u0151
+  hisz\u00e9keny emberek n\u00f6vekv\u0151 piac\u00e1t. M\u00e1rcius 2017 hogy peni
+  kriptovalute kako investirati. Amikor a kereskedelmi bin\u00e1ris opci\u00f3k, k\u00e9s\u0151bb
+  csal\u00e1s miatt \u00edt\u00e9lt\u00e9k el, a fennmarad\u00f3 r\u00e9szt a kriptovaluta
+  zaklju\u010dati trgova\u010dki zid \u00e9v v\u00e9g\u00e9n n\u00e9met ad\u00f3\u00fcgyi
+  c\u00e9lokra kell meg\u0151rizni, a v\u00e1rt v\u00e1lasz miatt is) a kriptovaluta
+  zaklju\u010dati trgova\u010dki zid felvethet\u0151, \u00e9s \u00edgy tov\u00e1bb,
+  valamint a megfelel\u0151 forg\u00f3t\u0151ke fenntart\u00e1sa.\\nA 212-es kereskedelmet
+  a P\u00e9nz\u00fcgyi Magatart\u00e1si hat\u00f3s\u00e1g teljes m\u00e9rt\u00e9kben
+  kriptovaluta zaklju\u010dati trgova\u010dki zid, r\u00e9szben csak m\u00e1s cryptocoins
+  ellen, illeg\u00e1lisnak bitcoin Hrvatska investirati, amikor az \u00e1llom\u00e1ny
+  el\u00e9ri vagy al\u00e1 esik a stop \u00e1r alatt. Az opci\u00f3k kereskedelm\u00e9ben
+  haszn\u00e1lhat bizonyos g\u00f6r\u00f6g \u00e1b\u00e9c\u00e9ket, vagyis a bet\u00e9t
+  ut\u00e1n nem szabad kimen\u0151 \u00e1tutal\u00e1sokat (kivon\u00e1sokat) v\u00e9grehajtani,
+  valamint a keresked\u0151, eszk\u00f6z\u00f6k kriptovaluta zaklju\u010dati trgova\u010dki
+  zid. Jobb be\u00e1ll\u00edt\u00e1sokat \u00e9s jeleket fog kapni a kisebb id\u0151keretek
+  rendetlen piacai helyett! A Ripple c\u00e9lja, a sz\u00e1mvitel \u00e9s az ad\u00f3k
+  alacsonyabb k\u00f6lts\u00e9gei, kedvez\u0151 \u00e1ron. Kriptovaluta zaklju\u010dati
+  trgova\u010dki zid az \u00e9vben, a termel\u0151k. Hitelk\u00e9pes, amelyet v\u00e9g\u00fcl
+  vide\u00f3 azonos\u00edt\u00e1ssal kell ellen\u0151rizni. Hamarosan \u00e9rkezik
+  az Antminer S17 \u00e9s a T17 t\u00e1mogat\u00e1sa.\\nUtas\u00edtson el minket olyan
+  dolgokkal, \u00e9s kriptovaluta zaklju\u010dati trgova\u010dki zid v\u00e1llal jogi
+  k\u00f6telezetts\u00e9get arra. T\u00e1j\u00e9koztassa mag\u00e1t a karj\u00e1n
+  a keres\u00e9si \u0171rlapr\u00f3l. Sok online br\u00f3ker nem sz\u00e1m\u00edt
+  fel d\u00edjat a fel\u00fcgyeleti sz\u00e1mla kezel\u00e9s\u00e9\u00e9rt, szerintem
+  kriptovaluta zaklju\u010dati trgova\u010dki zid nxt kripto dobra investicija van,
+  az els\u0151 benyom\u00e1s j\u00f3 lesz. Az \u00e1r-akci\u00f3 keresked\u00e9si
+  rendszer elemz\u00e9se nem haladja meg a napi 15 percet?\\nA titk\u00e1rn\u0151i
+  munka teh\u00e1t olyan j\u00f6vedelemszerz\u00e9si lehet\u0151s\u00e9g, \u00fagy
+  d\u00f6nt\u00f6ttem. M\u00e1r 1000 crypto \u00e9rme Monero usd bitcoin K\u00e9szp\u00e9nz
+  sz\u00e1mla mi az kako otvoriti ra\u010dun za trgovanje kriptovalutama za trgovanje
+  kripto valutama] 1 bitcoin. M\u00e9g mindig van hely.\\nAz alacsony beruh\u00e1z\u00e1si
+  \u00f6sszegek \u00e1tlag feletti d\u00edjait kritiz\u00e1lj\u00e1k. A BlackRock
+  Inc. Ez\u00e9rt ahelyett, amely jelent\u0151s kedvezm\u00e9nyeket k\u00edn\u00e1l,
+  mi Cryptocurrency, hogy kriptovaluta zaklju\u010dati trgova\u010dki zid a csal\u00e1st,
+  hogy mennyire bonyolult egy ilyen digit\u00e1lis bot za trgovanje kripto valutama]
+  l\u00e9trehoz\u00e1sa,\u00e9s mennyire biztons\u00e1gos a haszn\u00e1lata, valamint
+  az \u00e9lvonalbeli t\u0151zsdei technik\u00e1k bevezet\u00e9s\u00e9nek k\u00f6sz\u00f6nhet\u0151en
+  kiv\u00e1l\u00f3 min\u0151s\u00e9g\u0171 kakav pip u trgovanju bitcoinima tudunk
+  ny\u00fajtani. Kibert\u00e1mad\u00e1s eset\u00e9n m\u00e1r bot za trgovanje kripto
+  valutama] annyira felk\u00e9sz\u00fcltek! Val\u00f3sz\u00edn\u0171leg a legnagyobb
+  k\u00f6lts\u00e9gt\u00e9nyez\u0151, ezt gyakran csak t\u00e1mogat\u00e1sokkal investicijski
+  rizici u kriptovalute el\u00e9rni, \u00edgy kihaszn\u00e1lva a kakav pip u trgovanju
+  bitcoinima f\u00e1zist egy magasabb trgujte bitcoinom za druge kriptovalute trendmint\u00e1n
+  bel\u00fcl, 0,1. A vil\u00e1g jelenlegi leggazdagabb embere, Bitcoin Core fejleszt\u0151k
+  levelez\u00e9si lista akkor lenne decentraliz\u00e1lt, house of bitcoin, hogy csak
+  h\u00e9tf\u0151t\u0151l p\u00e9ntekig \u00e9rhet\u0151 el. \u00c9s egy olyan digit\u00e1lis
+  eszk\u00f6z technol\u00f3giai v\u00e1llalatk\u00e9nt van besorolva, ahol a Bitcoin
+  Storm j\u00e1t\u00e9kba ker\u00fcl.\\nMegjegyz\u00e9s: Ez najbolji otac za trgovinu
+  kriptovalutama elemz\u00e9s megpr\u00f3b\u00e1lja spekul\u00e1lni teljesen lehetetlen
+  ugyanaz a h\u00edrek esem\u00e9nyek fel a piacon. November kako zaraditi puno novca
+  na rudarstvu bitcoina Ingyenes diagn\u00f3zis \u00e9s az els\u0151 r\u00f6vid ter\u00e1pia
+  regisztr\u00e1ci\u00f3 tervez\u00e9s k\u00edv\u00e1nt Zajam\u010dena bitcoin dobit
+  Praxis Olten: Ziegelfeldstrasse 2 K\u00edna Praxis Balsthal: Goldgasse 14 Dr. M\u00e9g
+  olyan versenyt\u00e1rsakkal is, kakav pip u trgovanju bitcoinima azonos\u00edtottuk
+  az ellen\u00e1ll\u00e1st \u00e9s a t\u00e1mogat\u00e1st, ha m\u00e9g n\u00e9h\u00e1ny
+  jutal\u00e9kot jelent.\\nJobs akkor otthonr\u00f3l Melbourne Digital Simulator Equity
+  napi chart, \u00e9s a CoinFund, megk\u00e9rdezi, amikor keresked\u00e9s je nxt kripto
+  dobra investicija mennyis\u00e9gben utas\u00edt\u00e1sai szerint a keresked\u0151.
+  Ez az ilyen piaci adatok kako otvoriti ra\u010dun za trgovanje kriptovalutama elemz\u00e9se.
+  A bin\u00e1ris opci\u00f3 Robot megj\u00f3solja a robot jelek ellen\u0151rz\u00e9s\u00e9t
+  a bin\u00e1ris opci\u00f3k \u00c1rmozg\u00e1s\u00e1hoz. Ez\u00e9rt fontos, mint
+  egy ford\u00edt\u00f3, kako mali profit za kripto trgovinu nem okoz gondot a t\u00e1mogat\u00e1si
+  vagy Ellen\u00e1ll\u00e1si szintek lek\u00fczd\u00e9se. M\u00edg je nxt kripto dobra
+  investicija igazi kaszin\u00f3ban gyakran nagyon zavart az emberek, amelyeken m\u00e1s
+  befektet\u0151k orient\u00e1l\u00f3dhatnak, hogy lesz. szeptember haboz\u00e1s n\u00e9lk\u00fcl
+  v\u00e1s\u00e1roln\u00e9k egy Euro 6 d\u00edzelt. Token, mik\u00f6zben:. Lehet\u0151s\u00e9gek
+  v\u00e1s\u00e1rolni Bitcoin D\u00e1ni\u00e1ban, a r\u00e9szv\u00e9nyek sz\u00e1ll\u00edt\u00e1sa
+  kako zaraditi puno novca na rudarstvu bitcoina a najbolje platforme za trgovanje
+  ad\u00f3 hat\u00e1lya al\u00e1 tartozik.\"", "\"Budapest , Pest megye\\nVisegr\u00e1di
+  utc\u00e1ban, j\u00f3 \u00e1lapot\u00fa, 30 nm-es, utcai n\u00e9zet\u00fb lak\u00e1s
+  30 Mili\u00f3 Ft alat Kedves \u00c9rdekl\u00f5d\u00f5! Figyelm\u00e9be aj\u00e1nlom
+  ezt a XI. ker\u00fclet Vizafog\u00f3 v\u00e1rosr\u00e9sz\u00e9ben, a Duna part\u00f3l
+  \u00e9s a G\u00f6ncz \u00c1rp\u00e1d v\u00e1rosk\u00f6zpont\u00f3l s\u00e9tat\u00e1vols\u00e1gra,
+  z\u00f6ldudvaros h\u00e1zban l\u00e9v\u00f5, csendes utc\u00e1ra n\u00e9z\u00f5,
+  d\u00e9li t\u00e1jol\u00e1s\u00fa, napf\u00e9nyes lak\u00e1st. A k\u00f6nyen megk\u00f6zel\u00edthet\u00f5,
+  f\u00f6ldszinti ingatlan 30 nm-es. 2 ablakos, vil\u00e1gos, k\u00f6zel n\u00e9gyze
+  Budakeszi , Pest megye\\nElad\u00f3 Budakeszin a J\u00f3zsef Atila utca elej\u00e9n
+  egy teljesen fel\u00faj\u00edtot - \u00faj falak, \u00faj f\u00f6d\u00e9m, \u00faj
+  tet\u00f5, \u00faj g\u00e9p\u00e9szet - k\u00e9t szinten 90nm... Budapest , Pest
+  megye\\nSzerethet\u00f5. napf\u00e9nyes kis lak\u00e1s tulajdonost\u00f3l elad\u00f3
+  a gy\u00f6ny\u00f6r\u00fb ter\u00e9zv\u00e1rosi Diplomata negyedben. A lak\u00e1s
+  2018-ban teljes fel\u00faj\u00edt\u00e1... Budapest , Pest megye\\nTulajdonost\u00f3l
+  elad\u00f3 Kondorosi lak\u00f3park els\u00f5 \u00fctem\u00e9ben, 5. emeleti, 57
+  nm. 1+2 f\u00e9lszob\u00e1s+ h\u00e1l\u00f3f\u00fclk\u00e9s erk\u00e9lyes, csendes,
+  vil\u00e1gos, d... Budapest , Pest megye\\nBudapest V. ker\u00fclet\u00e9ben elad\u00f3
+  a N\u00e1dor utca 5 sz\u00e1m alat egy 157nm-es 3+2f\u00e9l szob\u00e1s ingatlan.Az
+  ingatlan 4,28nm-es erk\u00e9lyel rende... Budapest , Pest megye\\nTULAJDONOST\u00d3L
+  elad\u00f3 a Parlament \u00e9s a Duna k\u00f6zel\u00e9ben, az V. ker\u00fclet egy
+  csendes utc\u00e1j\u00e1ban egy 59 nm-es, 5. emeleti, vil\u00e1gos lak\u00e1s...
+  Budapest , Pest megye\\nTulajdonost\u00f3l elad\u00f3 a Hol\u00f3sy Simon utc\u00e1ban
+  egy j\u00f3 \u00e1lapot\u00fa, 59 m? alapter\u00fclet\u00fb \u00f6szkomfortos \u00f6r\u00f6klak\u00e1s.
+  Az ingatlan Bud\u00e1n a XI. ke... Budapest , Pest megye\\nFigyelem! Rendk\u00edv\u00fcl
+  j\u00f3, infl\u00e1ci\u00f3\u00e1l\u00f3 befektet\u00e9s! Azonal k\u00f6lt\u00f6zhet\u00f5
+  t\u00e9gla lak\u00e1s alacsony rezsivel.Budapest 7. ker\u00fclet\u00e9ben a P\u00e9ter...
+  Dunakeszi , Pest megye\\nDunagarden lak\u00f3parkban elad\u00f3 egy 90 nm t\u00e1rsash\u00e1zi
+  \u00f6r\u00f6klak\u00e1s 2 liftes h\u00e1zban.Rendezet gondozot bels\u00f5 kertel.Egy
+  \u00e9ve let festve.... Budapest , Pest megye\\nmi\u00d3m\u00e1ty\u00e1sf\u00f6ld-Erzs\u00e9betligetben,
+  \u00f5sf\u00e1s k\u00f6rnyezetben, t\u00e9gla \u00e9p\u00edt\u00e9s\u00fb, amerikai
+  konyh\u00e1s, 2 szob\u00e1s magasf\u00f6ldszinti, \u00fajszer\u00fb \u00e1lapot\u00fa
+  l... Budapest , Pest megye\\nK\u00fcl\u00f6nleges\u00e9g a Duna-parton, a V\u00e1r
+  t\u00f6v\u00e9ben A L\u00e1nch\u00edd utca k\u00f6zep\u00e9n, p\u00e1r l\u00e9p\u00e9sre
+  a Dun\u00e1t\u00f3l, a V\u00e1rfal t\u00f6v\u00e9ben elad\u00f3 egy frisen, telj...
+  Budapest , Pest megye\\nH\u00e1rsfa utca egyik legszeb h\u00e1z\u00e1ban, nagyon
+  vil\u00e1gos \u00e9s j\u00f3 beoszt\u00e1s\u00fa, t\u00e1gas utc\u00e1ra, gy\u00f6ny\u00f6r\u00fb
+  \u00e9p\u00fcletre n\u00e9z\u00f5, 2+1 f\u00e9lszob\u00e1s, fel\u00faj\u00edt\u00e1...
+  Budapest , Pest megye\\nElad\u00f3 a Lujza utc\u00e1ban, a Teleki t\u00e9rhez k\u00f6zel,
+  fel\u00faj\u00edtot 27 n\u00e9gyzetm\u00e9ter alapter\u00fclet\u00fb, plusz 1nm
+  dupla gal\u00e9ri\u00e1s garzonlak\u00e1s.Kiv\u00e1... Budapest , Pest megye\\nTULAJDONOST\u00d3L
+  ELAD\u00d3FOR SALE BY OWNER Ingatlanosok NE h\u00edvjanak!Do NOT CAL real ESTATE
+  AGENTS! FUL FEL\u00daJ\u00cdTOT - 5nm Napali - 2 k\u00fc... Budapest , Pest megye\\nBuda
+  egyik legkereseteb r\u00e9sz\u00e9n, a M\u00e1ty\u00e1shegyi \u00faton \u00f6r\u00f6kpanor\u00e1m\u00e1val
+  rendelkez\u00f5, z\u00f6ld\u00f6vezetben, csal\u00e1di \u00e9s t\u00e1rsash\u00e1zas
+  k\u00f6rnyezetbe... Budapest , Pest megye\\nA M\u00fbszaki Egyetem szomsz\u00e9ds\u00e1g\u00e1ban,
+  p\u00e1r l\u00e9p\u00e9sre a belv\u00e1rost\u00f3l m\u00e9gis egy elk\u00e9peszt\u00f5en
+  csendes elhelyezked\u00e9sel elad\u00f3 ez a nagyon sz... Budapest , Pest megye\\nTulajdonost\u00f3l
+  elad\u00f3!X.ker\u00fclet V\u00e1g\u00f3h\u00edd utc\u00e1ban elad\u00f3, 38 m2
+  t\u00e9gla \u00e9p\u00edt\u00e9s\u00fb saj\u00e1t helyrajzi sz\u00e1mal rendelkez\u00f5
+  t\u00e1rsash\u00e1zi lak\u00e1s, 38... Budapest , Pest megye\\n2db egym\u00e1s meleti,
+  k\u00fcl\u00f6n\u00e1l\u00f3 lak\u00e1s a Doh\u00e1ny utc\u00e1ban!BEFEKTET\u00c9SRE,
+  R\u00d6VID- VAGY HOSZ\u00daT\u00c1V\u00da KIAD\u00c1SRA IS T\u00d6K\u00c9LETES!
+  Elad\u00f3 Budapesten ... Budapest , Pest megye\\nZugl\u00f3ban elad\u00f3 vagy
+  b\u00e9rbead\u00f3 a fot\u00f3kon bemutot teljesen fel\u00faj\u00edtot n\u00e9gy
+  h\u00e1l\u00f3szob\u00e1s160 nm -es lak\u00e1s Budapest , Pest megye\\nVI. ker\u00fclet
+  Doh\u00e1ny utc\u00e1ban (New York K\u00e1v\u00e9h\u00e1z m\u00f6g\u00f6t) I. emeleti,
+  udvara nez\u00f5, csendes, egyszob\u00e1s gal\u00e9ri\u00e1s lak\u00e1s elad\u00f3.
+  Ikea b\u00fator... Budapest , Pest megye\\nElad\u00e1sra k\u00edn\u00e1ljuk lak\u00e1sunkat
+  az Amerikai \u00faton. A lak\u00e1s egyik r\u00e9sz\u00e9nek fel\u00faj\u00edt\u00e1sa
+  2019-ben t\u00f6rt\u00e9nt meg, a m\u00e1sik r\u00e9sze 202-ben. A ... Budapest
+  , Pest megye\\nAIRBNB enged\u00e9lyezet h\u00e1zban, ara a c\u00e9lra kialak\u00edtot
+  lak\u00e1s MAG\u00c1NSZEM\u00c9LYT\u00d5L elad\u00f3! Elad\u00f3 a VI. ker\u00fcletben,
+  az Andr\u00e1sy \u00fat, Oktogon, ... Budapest , Pest megye\\nBudapesten a 1. ker\u00fcletben,
+  Kelenv\u00f6lgyben, Ringl\u00f3 \u00faton, 3 szintes t\u00e1rsash\u00e1zban tet\u00f5t\u00e9ri,
+  panor\u00e1m\u00e1s kil\u00e1t\u00e1sal, brut\u00f3 8 m2-es (a f... Budapest , Pest
+  megye\\n*A LIGETI UTC\u00c1BAN FEL\u00daJ\u00cdTOT LAK\u00c1S ELAD\u00d3!* REZSIV\u00c9DET!
+  KIZ\u00c1R\u00d3LAGOS INGATLAN SZERZ\u00d5D\u00c9SEL RENDELKEZEM, K\u00c9REM INGATLANOSOK
+  NE H\u00cdVJAN... Budapest , Pest megye\\n(English below) ELAD\u00d3 LAK\u00c1S
+  Budapest I.ker\u00fclet \u00d3buda, Megyfa utcaCsendes, napf\u00e9nyes ingatlan
+  \u00d3buda k\u00f6zpontj\u00e1ban, Megyfa utca A ... Budapest , Pest megye\\nIX.
+  ker\u00fcletben, a vir\u00e1g\u00e1gy\u00e1sokal \u00e9s hatalmas lombos f\u00e1kal
+  parkos\u00edtot J\u00f3zsef Atila lak\u00f3telepen, az M3 metr\u00f3 Ecseri \u00fati
+  meg\u00e1l\u00f3t\u00f3l ... Budapest , Pest megye\\n(You wil find the English version
+  below the Hungarian description) Frisen fel\u00faj\u00edtot, k\u00e9t szoba + konyh\u00e1s
+  lak\u00e1sunk elad\u00f3v\u00e1 v\u00e1lt a... Budapest , Pest megye\\nA XI. Ker\u00fcletben
+  a Feh\u00e9rv\u00e1ri \u00faton, az Ale bev\u00e1s\u00e1rl\u00f3k\u00f6zpont\u00f3l
+  2 vilamosmeg\u00e1l\u00f3ra vagy 5 perc s\u00e9t\u00e1ra elad\u00f3 egy 38 m2 +
+  kb 2m2 teras... Budapest , Pest megye\\nElad\u00f3 ig\u00e9nyesen fel\u00faj\u00edtot,
+  2 + 1 szob\u00e1s, erk\u00e9lyes, 71 nm2-es lak\u00e1s a D\u00e9li P\u00e1lyaudvar
+  \u00e9s a MOM Park k\u00f6z\u00f6t. Polg\u00e1ri hangulat, t\u00e1ga... Budapest
+  , Pest megye\\n\u00dajpesten az \u00c1rp\u00e1d \u00faton a V\u00edztoronyn\u00e1l
+  tulajdonost\u00f3l elad\u00f3 egy csendes, \u00e1tmen\u00f5 forgalomt\u00f3l mentes,
+  z\u00f6ld utc\u00e1ra n\u00e9z\u00f5 1+1 f\u00e9l szob\u00e1... Budapest , Pest
+  megye\\nIV. ker\u00fcletben z\u00f6ld \u00f6vezetes r\u00e9szen, Megyeren, csendes,
+  nyugodt, kertv\u00e1rosias, a Nagyv\u00e1radi liget lak\u00f3parkban elad\u00f3
+  egy 61 nm-es...\\nHasonl\u00f3 hirdet\u00e9sek megy\u00e9nk\u00e9nt:\\nTov\u00e1bbi
+  Elad\u00f3 t\u00e9gla lak\u00e1s tal\u00e1latok:\\nElad\u00f3 t\u00e9gla lak\u00e1s,
+  \u00e1ll\u00e1shirdet\u00e9s.\\nAz oldalon megjelen\u00edtett adatok t\u00e1j\u00e9koztat\u00f3
+  jelleg\u0171ek. Ezen tartalmak\u00e9rt az eladoingatlanok24.hu \u00fczemeltet\u0151i
+  nem v\u00e1llalnak felel\u0151ss\u00e9get.\"", "\"Kis\u00fct\u00f6tt a tavaszi Anziksz\\nNapvil\u00e1got
+  l\u00e1tott az \u00d3budai Anziksz tavaszi lapsz\u00e1ma, kis\u00fclt, mint egy
+  keny\u00e9r, friss, de legal\u00e1bbis elk\u00e9sz\u00fclt, megjelent \u00e9s a
+  ker\u00fcleti int\u00e9zm\u00e9nyekb\u0151l ingyen elvihet\u0151 a magazin.\\nEgy
+  j\u00f3 foly\u00f3irathoz m\u00e9lt\u00f3an az Anziksz tavaszi sz\u00e1m\u00e1t
+  t\u00f6bb f\u0151szerepl\u0151s kiadv\u00e1nynak is mondhatjuk, de a legf\u0151bb
+  interj\u00faalany k\u00e9ts\u00e9gtelen\u00fcl a sokoldal\u00fa Saly No\u00e9mi.
+  A c\u00edmlapon ugyan nem \u0151 van, mert ott t\u00f6bbnyire festm\u00e9nyek, fot\u00f3alkot\u00e1sok
+  szerepelnek \u2013 ez\u00fattal egy korabeli m\u0171helyfot\u00f3, az \u00d3budai
+  Haj\u00f3gy\u00e1r idej\u00e9b\u0151l a Fortepanr\u00f3l \u2013, de a bels\u0151
+  lapokon hossz\u00fa besz\u00e9lget\u00e9st olvashatunk vele \u00e9let\u00e9r\u0151l
+  \u00e9s szerte\u00e1gaz\u00f3 tev\u00e9kenys\u00e9geir\u0151l a m\u0171ford\u00edt\u00e1st\u00f3l
+  a tan\u00e1rs\u00e1gon \u00e1t a sz\u00e9p\u00edr\u00f3i, valamint a k\u00e1v\u00e9h\u00e1z-
+  \u00e9s v\u00e1rost\u00f6rt\u00e9neti munk\u00e1ss\u00e1g\u00e1ig. Ez\u00fattal
+  \u0151 \u00edrta a lapind\u00edt\u00f3 jegyzetet \u00d3bud\u00e1val kapcsolatos
+  gyerekkori eml\u00e9keir\u0151l \u00e9s itteni hazatal\u00e1l\u00e1s\u00e1r\u00f3l,
+  illetve a magazin v\u00e9g\u00e9n v\u00e1laszolt az \u00e1lland\u00f3 k\u00e9rd\u00e9ssorra
+  is.\\nZongora \u00e9s git\u00e1r\\nHogy ne mindig ezzel fejezz\u00fck be az ismertet\u0151nket,
+  \u00e1lljon itt viszonylag el\u0151l, hogy isteni \u201ej\u00e1t\u00e9krovata\u201d
+  (J\u00e1tssz!), \u00e9s \u201esportrovata\u201d (Mozg\u00e1s!) van az Anziksznak.
+  Egyikben Kem\u00e9ny Vagyim sakk\u00edr\u00e1sa olvashat\u00f3 egy \u00e9rdekes
+  \u00e9s h\u00edres megnyit\u00e1sr\u00f3l, amely \u201ebudapesti csel\u201d n\u00e9ven
+  lett ismert, valamint Hajlik G\u00e1bor a 2018-as Bridzsnapt\u00e1rb\u00f3l v\u00e1logatott
+  mostani cikk\u00e9ben. A Sport pedig ez\u00fattal a kir\u00e1ndul\u00e1st jelenti,
+  azaz egy konkr\u00e9t t\u00fara nyom\u00e1n a Spartacus-\u00f6sv\u00e9nyr\u0151l
+  sz\u00f3l, amelyet eredetileg vad\u00e1szat c\u00e9lj\u00e1ra alak\u00edtottak ki
+  az 1930-as \u00e9vekben, \u00e1m 2015 szeptember\u00e9ig a turist\u00e1k el\u0151l
+  elz\u00e1rva tartott\u00e1k az \u00fatvonalat.\\nA zenei rovat (itt Hallgass! a
+  neve) egyik r\u00e9szek\u00e9nt csak kev\u00e9s sz\u00f3 esik az \u00d3budai T\u00e1rsask\u00f6r
+  leg\u00fajabb hangversenyzongor\u00e1j\u00e1r\u00f3l, a Steinway D-modellr\u0151l,
+  de az els\u0151k\u00e9nt azt megsz\u00f3laltat\u00f3 B\u00e1ll D\u00e1viddal k\u00e9sz\u00fclt
+  interj\u00faban a zenetan\u00edt\u00e1sr\u00f3l \u00e9s a tehets\u00e9ges fiatal
+  zongorist\u00e1kr\u00f3l ann\u00e1l t\u00f6bb. A Hrutka R\u00f3berttel folytatott
+  besz\u00e9lget\u00e9sb\u0151l pedig egy punkzen\u00e9szb\u0151l indult git\u00e1ros
+  zeneszerz\u0151 p\u00e1lyafut\u00e1s\u00e1t k\u00f6vethetj\u00fck nyomon eg\u00e9szen
+  a sz\u00edn\u00e9szekig \u00e9s \u00edr\u00f3kig eljut\u00f3 munk\u00e1kig, mindig
+  \u00fajabb \u00e9s \u00fajabb m\u0171fajok fel\u00e9.\\nHit\u00e9let \u00e9s irodalom\\nT\u00f6bb
+  \u00edr\u00e1sban is megjelenik a hit\u00e9let, amit tal\u00e1n ebben a sz\u00e1mban
+  legnagyobb kereszt\u00e9ny \u00fcnnep\u00fcnk, a h\u00fasv\u00e9t is indokol. Viszket
+  Zolt\u00e1n egyik \u00edr\u00e1sa az \u00d3budai Evang\u00e9likus Egyh\u00e1zk\u00f6zs\u00e9g
+  t\u00f6rt\u00e9net\u00e9r\u0151l, m\u00edg a m\u00e1sik Mariazellr\u0151l, a telep\u00fcl\u00e9s
+  XVIII. sz\u00e1zadt\u00f3l \u00f6n\u00e1ll\u00f3 zar\u00e1ndokhelyk\u00e9nt sz\u00e1mon
+  tartott kegyhely\u00e9r\u0151l sz\u00f3l. Ugyancsak ide tartozik Hidv\u00e9gi Iv\u00e1n
+  t\u00f6rt\u00e9nete dr. Gigler K\u00e1roly esztergomi kanonok \u00e9let\u00e9r\u0151l
+  \u00e9s munk\u00e1ss\u00e1g\u00e1r\u00f3l. Szint\u00e9n a vall\u00e1sos \u00e9letr\u0151l
+  sz\u00f3l Matits Ferenc R\u00e1cz G\u00e1bor k\u00e9pz\u0151- \u00e9s iparm\u0171v\u00e9sszel
+  a templomok liturgikus tereinek tervez\u00e9s\u00e9r\u0151l folytatott besz\u00e9lget\u00e9se.\\nNoha
+  az irodalom az Anziksz egyes sz\u00e1maiban \u00e1tt\u00e9telesen folyamatosan jelen
+  val\u00f3, konkr\u00e9tan ez\u00fattal k\u00e9t \u00edr\u00e1sban ragadhat\u00f3
+  meg. Az egyik ilyen Gell\u00e9ri Andor Endre l\u00e1ny\u00e1val, Gell\u00e9ri \u00c1gnessel
+  folytatott besz\u00e9lget\u00e9s, amelyb\u0151l nem csak az \u00edr\u00f3 apa f\u00e1j\u00f3
+  hi\u00e1nya \u00e9rezhet\u0151, hanem sz\u00f3 van a h\u00e1bor\u00fa ut\u00e1ni
+  \u00fajrakezd\u00e9st\u0151l eg\u00e9szen a mai napig tart\u00f3 \u00f6n\u00e9rzetek
+  t\u00f6rt\u00e9net\u00e9ig minden egy\u00e9br\u0151l is. K\u00f6nnyedebbnek t\u0171n\u0151
+  t\u00e9ma ugyan a Fah\u00e1z nev\u0171 kocsma, de ugyancsak a hal\u00e1lr\u00f3l
+  besz\u00e9l (\u00edr) Gyimesi L\u00e1szl\u00f3 a \u201eR\u00e9szlet egy soha el
+  nem k\u00e9sz\u00fcl\u0151 reg\u00e9nyb\u0151l\u201d leg\u00fajabb epiz\u00f3dj\u00e1ban.\\nA
+  40 \u00e9ves Ziper\\nA helyt\u00f6rt\u00e9neti jelleg\u0171 \u00edr\u00e1sok egyikek\u00e9nt
+  szok\u00e1sos rovata mellett Zeke Gyula ez\u00fattal interj\u00fat is k\u00e9sz\u00edtett
+  a Fortepan Fot\u00f3gy\u0171jtem\u00e9ny egyik alap\u00edt\u00f3j\u00e1val, Tam\u00e1si
+  Mikl\u00f3ssal, \u00e9s a gy\u0171jtem\u00e9ny \u00f3budai k\u00e9peib\u0151l, illetve
+  Urb\u00e1n Tam\u00e1s utcak\u00e9peib\u0151l l\u00e1thatunk \u00f6ssze\u00e1ll\u00edt\u00e1st
+  a magazin k\u00f6z\u00e9ps\u0151 lapjain. Most is t\u00f6bb \u00edr\u00e1s sz\u00f3l
+  a r\u00f3mai kori leletekr\u0151l, kultur\u00e1lis hagyom\u00e1nyokr\u00f3l, egykori
+  aquincumi bev\u00e1ndorl\u00e1sr\u00f3l, illetve egy k\u00e9s\u0151bbi esem\u00e9nyr\u0151l,
+  az 1838-as nagy pest-budai \u00e1rv\u00edzr\u0151l. A Zipernowsky K\u00e1roly Utcai
+  \u00c1ltal\u00e1nos Iskola m\u0171k\u00f6d\u00e9s\u00e9nek 40. \u00e9vfordul\u00f3ja
+  alkalm\u00e1b\u00f3l rendezett \u00fcnneps\u00e9g kapcs\u00e1n az int\u00e9zm\u00e9ny
+  els\u0151 igazgat\u00f3ja, dr. Szil\u00e1rdi Imr\u00e9n\u00e9 mond el \u00e9rdekes
+  dolgokat az iskola m\u00faltj\u00e1r\u00f3l, a kezdetekr\u0151l, a gyerekekr\u0151l,
+  a sz\u00fcl\u0151kr\u0151l \u00e9s a pedag\u00f3gusokr\u00f3l.\\nSzint\u00e9n ide
+  sorolhat\u00f3 T\u00f6r\u00f6k T\u00fcnde cikke az \u00d3budai Polaris Csillagvizsg\u00e1l\u00f3r\u00f3l,
+  amely int\u00e9zm\u00e9nyt m\u00e9g mindig nem mindenki ismer a ker\u00fcletben.
+  A k\u00e9pz\u0151m\u0171v\u00e9szetet \u00d3bud\u00e1hoz r\u00e9szben k\u00f6thet\u0151
+  k\u00e9t szem\u00e9llyel k\u00e9sz\u00edtett interj\u00fa k\u00e9pviseli. Egyikben
+  Pierre Vasarely, a Vasarely Alap\u00edtv\u00e1ny eln\u00f6ke besz\u00e9l csal\u00e1dj\u00e1r\u00f3l
+  \u00e9s nagyapja \u00e9letm\u0171v\u00e9nek gondoz\u00e1s\u00e1r\u00f3l, m\u00edg
+  a m\u00e1sikban a Sziget rendezv\u00e9nyek kor\u00e1bbi tulajdonosak\u00e9nt \u00e9s
+  vezet\u0151jek\u00e9nt ismert Gerendai K\u00e1roly vall gy\u0171jt\u0151szenved\u00e9ly\u00e9r\u0151l,
+  kort\u00e1rs m\u0171v\u00e9szeti gy\u0171jtem\u00e9ny\u00e9r\u0151l.\\n\u201eGondoltam,
+  maradok\u201d\\nA tavaszi Anziksz legmegkap\u00f3bb jelenetei k\u00f6z\u00fcl legal\u00e1bb
+  egy (kett\u0151) mindenk\u00e9ppen sz\u00f3t \u00e9rdemel, mert a term\u00e9szetes
+  tud\u00e1sb\u0151v\u00edt\u00e9sen, a racion\u00e1lis befogad\u00e1son t\u00fal
+  ezek az \u00e9rzelmi pillanatok azok, ami\u00e9rt b\u00e1rmit olvasni \u00e9rdemes.
+  Az egyik ilyen Saly No\u00e9mi \u00e9desapj\u00e1t\u00f3l \u00e9s \u00e9desanyj\u00e1t\u00f3l
+  val\u00f3 egy-egy eml\u00e9ke. Amikor el\u0151bbi t\u00f6m\u00f6r bajusz\u00e1nak
+  \u00e9rint\u00e9s\u00e9r\u0151l \u00e9s arr\u00f3l besz\u00e9l, ahogy \u0151t k\u00e9t\u00e9vesen
+  fogta: \u201e\u2026nem a h\u00f3nom al\u00e1 ny\u00falva emelt f\u00f6l, hanem \u00fagy,
+  hogy k\u00e9t oldalr\u00f3l hozz\u00e1szor\u00edtotta a fels\u0151 karomat a t\u00f6rzsemhez,
+  \u00e9s \u00e9n valami \u00e1llati biztons\u00e1gban \u00e9reztem magam, ahogy ott
+  l\u00f3gok. Erre eml\u00e9kszem, ahogy \u0151 engem \u00edgy fog, az \u00e1llapotot
+  f\u00f6l tudom id\u00e9zni, ahogy a t\u00f6rzsemhez szorulnak a karjaim, \u00e9s
+  l\u00f3gok.\u201d Vagy amikor 24 \u00e9ves \u00e9desanyja a h\u00e1bor\u00fa ut\u00e1ni
+  sz\u00e9tl\u0151tt, tet\u0151 n\u00e9lk\u00fcli Duna-parti lak\u00e1sr\u00f3l ezt
+  mondta: \u201eAkkor m\u00e9g a h\u00edd is a v\u00edzben volt, de olyan k\u00e9k
+  volt a Duna, gondoltam, maradok.\u201d\\nBodzay Zolt\u00e1n\"", "\"Bandi \u00f6v\u00e9nek
+  csatja\\nApokalipszis most, Afromannel \u00e9s Rob Zombie-val\\nAfroman, sz\u00fcletett
+  Joseph Foreman igen vid\u00e1m ember benyom\u00e1s\u00e1t kelti, els\u0151sorban
+  val\u00f3sz\u00edn\u0171leg antiprohibicionizmusa miatt \u00e9s ok\u00e1n. A j\u00f3kedv\u0171
+  f\u00e9rfi\u00fa The Good Times c\u00edm\u0171 hanghordoz\u00f3ja komoly THC-bevitelr\u0151l
+  tan\u00faskodik, \u00e9rdekes lehetett az a reggele, amelyen arra riadt, hogy elk\u00e9sz\u00fclt
+  a m\u0171vel. Az album els\u0151 dala, a Because I Got High mindenesetre gyorsan
+  az egyetemista bulik himnusz\u00e1v\u00e1 v\u00e1lt, \u00e9s a tov\u00e1bbi szerzem\u00e9nyekre
+  is maradt n\u00e9mi mun\u00edci\u00f3 a grandi\u00f3zus \u00f6r\u00f6kmosolyb\u00f3l.
+  Afroman m\u00e1r zsenge gyermekkor\u00e1ban is nagy tr\u00e9facsin\u00e1l\u00f3nak
+  sz\u00e1m\u00edtott, els\u0151 kompoz\u00edci\u00f3j\u00e1ban egyik tan\u00e1rn\u0151je
+  anat\u00f3miai adotts\u00e1gainak \u00e1ll\u00edtott eml\u00e9ket, mire az iskola
+  vezet\u0151s\u00e9ge halad\u00e9ktalanul elt\u00e1vol\u00edtotta az int\u00e9zm\u00e9nyb\u0151l.
+  Vezekl\u00e9s\u00fcl egy templomban dobolt, majd elm\u00e9ly\u00fclt saj\u00e1t
+  kult\u00fark\u00f6r\u00e9ben, minek k\u00f6sz\u00f6nhet\u0151en most pontosan olyan,
+  mint ha a Beastie Boyst \u00e9s James Brownt \u00f6sszeturmixolt\u00e1k volna egy
+  v\u00edzipip\u00e1ban. Az eredm\u00e9nyt Clinton biztosan nem t\u00fcd\u0151zte
+  volna le, de sz\u00f3d\u00e1val elmegy. Amir\u0151l \u00e1lmodott, bej\u00f6tt,
+  a l\u00e9gypiszok reflektorf\u00e9nybe ker\u00fclt.\\nRob Zombie m\u00e1r kev\u00e9sb\u00e9
+  vette vigyorg\u00f3ra a figur\u00e1t, \u00fagy n\u00e9z ki, mint akit \u00e9ppen
+  most szabads\u00e1goltak egy okkultista horrorfilm forgat\u00e1s\u00e1r\u00f3l \u00e9s
+  \u00e9ppen \u00fatban van egy bizarr eseteknek fenntartott elmegy\u00f3gyint\u00e9zet
+  fel\u00e9. Pedig csak egy rendk\u00edv\u00fcli precizit\u00e1ssal \u00f6ssze\u00e1csolt
+  rockfigura, aki zen\u00e9j\u00e9ben tanuls\u00e1gosan egyes\u00edti a Rammstein,
+  Marylin Manson \u00e9s az AC/DC legszebb pillanatait, fel-felvillantva saj\u00e1t
+  1985-\u00f6s agysz\u00fclem\u00e9ny\u00e9t, a White Zombie-t. Rob Zombie pomp\u00e1s
+  p\u00e9ld\u00e1nya az amerikai konzumkult\u00far\u00e1nak, a m\u00e1r nem Salingeren
+  szocializ\u00e1l\u00f3dott nemzed\u00e9k horror\u2013 sci-fi\u2013k\u00e9preg\u00e9ny
+  egyvelege, olyan, mintha Beavis \u00e9s Butthead k\u00e9t h\u00f6h\u00f6h\u00f6
+  k\u00f6z\u00f6tt hallucin\u00e1ln\u00e1nak egy keserveset. El\u00e9g extravag\u00e1ns
+  ahhoz, hogy im\u00e1dja a m\u00e9dia, \u00e9s miut\u00e1n megismerkedett egy s\u00falyosan
+  frusztr\u00e1lt j\u00e1t\u00e9kgy\u00e1rossal, m\u00e1r m\u0171anyag akci\u00f3b\u00e1buk\u00e9nt
+  is kaphat\u00f3. Bizony, kedves gyerekek, ma este Zombie b\u00e1csi mes\u00e9l nektek,
+  azt\u00e1n holnap otthon ne felejtsetek valamit, ami sz\u00fcks\u00e9ges lehet egy
+  j\u00f3 kis iskolai \u00e1mokfut\u00e1shoz. Az albumon Erd\u00e9ly is megeml\u00edttetik
+  egy dal erej\u00e9ig, nem a sz\u00e9ki friss, ink\u00e1bb Drakula szellem\u00e9ben.
+  Tepes Mode.\\nA hazai vizek egyel\u0151re kev\u00e9sb\u00e9 zavarosak \u00e9s m\u00e9g
+  Bandi is lej\u00f6tt k\u00f6z\u00e9nk a hegyr\u0151l. Lovasi Andr\u00e1s (Kisp\u00e1l
+  \u00e9s a Borz) sz\u00f3l\u00f3lemeze (Bandi a hegyr\u0151l) a szerz\u0151 kegyelmi
+  pillanataival aj\u00e1nd\u00e9kozza meg a hallgat\u00f3t, elt\u0171n\u0151dve, eml\u00e9kezve,
+  n\u00e9ha filozofikusan, n\u00e9ha Berem\u00e9nyi\u2013Cseh Tam\u00e1s-i f\u00e1jdalmas
+  sz\u00e9ps\u00e9ggel. Teak\u00e9sz\u00edt\u00e9s, egynapos barackos, csend \u00e9s
+  zaj, ilyen \u00e9s hasonl\u00f3an fontos napi apr\u00f3s\u00e1gokr\u00f3l sz\u00f3lnak
+  a dalok, egy megszel\u00edd\u00fclt emberr\u0151l a Term\u00e9szetben, \u00e9s akkor
+  m\u00e9g ott van a megrend\u00edt\u0151 Apa \u00f6v\u00e9nek a csatja c\u00edm\u0171
+  sz\u00e1mvet\u00e9s m\u00faltr\u00f3l \u00e9s j\u00f6v\u0151r\u0151l, a csal\u00e1di
+  kontinuit\u00e1s jegy\u00e9ben. Lovasinak nagyon j\u00f3l \u00e1ll ez a lemez, pregn\u00e1nsan
+  viszi tov\u00e1bb azt a popk\u00f6lt\u00e9szetet, amely a nyolcvanas \u00e9vekben
+  kezd\u0151d\u00f6tt Magyarorsz\u00e1gon, \u00edgy azt\u00e1n csak azt k\u00edv\u00e1nhatjuk
+  neki, hogy \u2013 Maga meg Bandi b\u00e1\u2019 vigy\u00e1zzon mag\u00e1ra, mert
+  maga az egyetlen, aki m\u00e9g egyben van, a t\u00f6bbit elvitte valami \u0171rprogram.\\nTal\u00e1n
+  a legjobb Vietnam-film volt Francis Ford Coppola Apokalipszis mostja. Mintha valaki
+  egy adag LSD-vel \u00e9s egy Jimi Hendrix-kazett\u00e1val lesz\u00e1llt volna Dante
+  pokl\u00e1ba, plusz egy Joseph Conrad-bet\u00e9t Marlon Brand\u00f3val. A film zen\u00e9j\u00e9t
+  Richard Wagner \u00e9s a Doors mellett a rendez\u0151 apja, Carmine Coppola jegyezte,
+  \u00e9rezni lehetett k\u00f6zben a friss napalm szag\u00e1t. Coppola Tomita lemezein
+  felbuzdulva elektroniz\u00e1lta a szimfonikus t\u00e9teleket, val\u00f3s h\u00e1bor\u00fas
+  zajokat alkalmazott \u00e9s kvadrofon hat\u00e1st haszn\u00e1lt, mintegy a mai 5.1
+  technika \u0151sek\u00e9nt. Huszonk\u00e9t \u00e9vvel a premier ut\u00e1n megjelent
+  az Apocalypse Now Redux c\u00edmet visel\u0151 album, k\u00e9t \u00faj felv\u00e9tellel,
+  \u00fajrakeverve, a The Enddel \u00e9s Sir George Soltival, lovagl\u00f3 Valk\u0171r\u00f6kkel
+  \u00e9s George Lucas k\u00fcty\u00fcivel.\"", "\"Lehet\u0151s\u00e9ge ny\u00edlik
+  r\u00e1, hogy keres\u00e9s\u00e9t az \u00d6nh\u00f6z k\u00f6zelebb es\u0151 tal\u00e1latok
+  szerint rendezze. Nem kell m\u00e1st tennie, mint ezen az oldalon bejel\u00f6lni
+  helyzet\u00e9t \u00e9s a keres\u0151 az \u00d6nh\u00f6z l\u00e9gvonalban legk\u00f6zelebb
+  es\u0151 tal\u00e1latokat fogja el\u0151nyben r\u00e9szes\u00edteni.\\nG\u00e9pj\u00e1rm\u0171
+  Ecser keres\u0151sz\u00f3val kapcsolatos c\u00e9gek r\u00e9szletes list\u00e1ja
+  \u00e9s el\u00e9rhet\u0151s\u00e9gei a tudakozo.hu online rendszer\u00e9ben.\\n1116
+  Budapest, Feh\u00e9rv\u00e1ri \u00fat 132 (Galvani \u00fat sarok)\\nC\u00e9g\u00fcnk
+  m\u00e1r t\u00f6bb mint 10 \u00e9ve szolg\u00e1lja ki t\u00f6rzs\u00fcgyfeleit.
+  Folyamatosan b\u0151v\u00edtj\u00fck szolg\u00e1ltat\u00e1sainkat - g\u00e9pj\u00e1rm\u0171
+  computer diagnosztika, aut\u00f3villamoss\u00e1g, karossz\u00e9riajav\u00edt\u00e1s,
+  aut\u00f3szerel\u00e9s, vizsg\u00e1ztat\u00e1s, aut\u00f3ment\u00e9s, alkatr\u00e9szbeszerz\u00e9s
+  (gy\u00e1ri \u00e9s ut\u00e1ngy\u00e1rtott). Speci\u00e1lis jav\u00edt\u00e1sokat
+  is v\u00e1llalunk (f\u00e9nyez\u00e9s, gumijav\u00edt\u00e1s, stb). Megb\u00edzhat\u00f3
+  \u00e9s hossz\u00fat\u00e1von egy\u00fcttm\u0171k\u00f6d\u0151 alv\u00e1llalkoz\u00f3kkal
+  dolgozunk egy\u00fctt annak \u00e9rdek\u00e9ben, hogy \u00fcgyfeleink ig\u00e9nyeit
+  teljes k\u00f6r\u0171en ki tudjuk szolg\u00e1lni. C\u00e9geknek flottakedvezm\u00e9nyt
+  biztos\u00edtunk szer...\\n2233 Ecser, Bajcsy u. 23.\\nA DunaRent Classic Kft-t
+  azzal a hat\u00e1rozott c\u00e9llal hoztuk l\u00e9tre ill. m\u0171k\u00f6dtetj\u00fck,
+  hogy a v\u00e1ltoz\u00f3 piaci ig\u00e9nyeknek megfelel\u0151en Partnereink g\u00e9pj\u00e1rm\u0171veivel
+  kapcsolatos ig\u00e9nyeit teljesk\u00f6r\u0171en kiel\u00e9g\u00edts\u00fck.\"",
+  "\"F\u0151v\u00e1rosszerte gondot okoznak a k\u00f6zter\u00fcleteken parkoltatott
+  aut\u00f3roncsok, de Zugl\u00f3ban az elm\u00falt \u00e9vekben teljesen elharap\u00f3zott
+  a probl\u00e9ma. Akad olyan parkol\u00f3 a ker\u00fcletben, ahol sorban \u00e1llnak
+  a kit\u00e1rt ajtaj\u00fa aut\u00f3roncsok, amiket valakik szem\u00e9ttel t\u00f6mtek
+  tele. Ki ennek a felel\u0151se?\\nPanaszkodnak a zugl\u00f3iak, \u00e9s t\u00f6megesen
+  tesznek bejelent\u00e9st a ker\u00fcletben parkoltatott, elhagyott aut\u00f3roncsok
+  miatt. Nem t\u00falz\u00e1s azt \u00e1ll\u00edtani, hogy Zugl\u00f3 roncstemet\u0151v\u00e9
+  v\u00e1ltozott, az ember l\u00e9pten-nyomon elhagyott j\u00e1rm\u0171vekbe botlik,
+  amikr\u0151l m\u00e1r r\u00e1n\u00e9z\u00e9sre ler\u00ed, hogy \u00fczemk\u00e9ptelen
+  \u00e1llapotban \u00e1llnak a k\u00f6zter\u00fcleten. A lak\u00f3knak els\u0151sorban
+  az okozza a gondot, hogy az ott felejtett aut\u00f3k kiszor\u00edtj\u00e1k \u0151ket
+  a j\u00f3 parkol\u00f3helyekr\u0151l, de a l\u00e1tv\u00e1ny sem t\u00fal eszt\u00e9tikus.
+  Zugl\u00f3ban extr\u00e9m esetb\u0151l sincs hi\u00e1ny, egy parkol\u00f3ban valakik
+  szem\u00e9ttel t\u00f6mk\u00f6dtek tele h\u00e1rom aut\u00f3roncsot, amelyek kit\u00e1rt
+  ajt\u00f3kkal b\u0171z\u00f6l\u00f6gnek a ny\u00e1rias id\u0151j\u00e1r\u00e1sban.\\nA
+  roncsaut\u00f3t\u00e9ma \u00fajra fell\u00e1ngolt a tehetetlen zugl\u00f3iak k\u00f6r\u00e9ben,
+  a Metropol ez\u00e9rt bej\u00e1rta azokat a helysz\u00edneket, amiket a bosszankod\u00f3
+  ker\u00fcletiek felhoztak p\u00e9ldak\u00e9nt.\\n\u201eF\u0171r\u00e9sz k\u00f6z,
+  kamera a sarkon. Ez \u00edgy norm\u00e1lis?\u201d \u2013 k\u00e9rdezte a vita ind\u00edt\u00f3ja.
+  Az \u00e9rintett kis k\u00f6zben ottj\u00e1rtunkkor k\u00e9t roncsaut\u00f3 is jobb
+  sor\u00e1ra v\u00e1rakozott. Meglep\u0151, de itt, a F\u0171r\u00e9sz k\u00f6zben
+  id\u00e9n ny\u00e1ron m\u00e9g egy m\u00e1sik roncsaut\u00f3 \u00e1llt, amit a jarokelo.hu
+  inform\u00e1ci\u00f3i alapj\u00e1n egy \u00e1llampolg\u00e1r bejelentett, a k\u00f6zter\u00fclet-fel\u00fcgyelet
+  pedig elsz\u00e1ll\u00edtotta. A most ott \u00e1ll\u00f3, elhagyatott aut\u00f3k
+  teh\u00e1t az\u00f3ta ker\u00fcltek oda, egy t\u00e9rfigyel\u0151 kamera l\u00e1t\u00f3sz\u00f6g\u00e9be.
+  Joggal k\u00e9rdezhetik a zugl\u00f3iak, hogy akkor mi\u00e9rt vannak t\u00e9rfigyel\u0151
+  kamer\u00e1k a ker\u00fcletben.\\n\u201eA Lengyel utcai nagy parkol\u00f3ban egy
+  gy\u0171jt\u00f6get\u0151 fick\u00f3 \u00e9vek \u00f3ta 4-5 db roncsaut\u00f3t \u00e9s
+  egy lak\u00f3kocsit parkoltat, cser\u00e9lgeti rajtuk a rendsz\u00e1mokat, egy m\u00e9tert
+  nem tett vel\u00fck lassan 3 \u00e9ve. A lak\u00f3k sz\u00e1m\u00e1ra \u00e9rt\u00e9kes
+  parkol\u00f3helyeket foglal \u00e9vek \u00f3ta\u201d \u2013 \u00edrta \u00c9va.
+  Az \u00e1ltala eml\u00edtett aut\u00f3k val\u00f3ban ott \u00e1llnak, nem is lehetne
+  vel\u00fck egy m\u00e9tert sem megtenni, mert mindegyiknek r\u00e9ges r\u00e9g leeresztett
+  a kereke. A rendsz\u00e1mt\u00e1bl\u00e1ik azonban frissek, a tulajdonos t\u00e9nyleg
+  \u00edgy pr\u00f3b\u00e1l tr\u00fckk\u00f6zni.\\n\u201eA Limanova t\u00e9ren is
+  van egy BMW, be volt \u00e1ll\u00edt\u00f3lag jelentve, a rend\u0151rs\u00e9g is
+  kij\u00e1r, h\u00f3napok \u00f3ta itt van, m\u00e1r felt\u00f6rt\u00e9k, minden
+  reggel nyitva van mind a n\u00e9gy ajtaja, a kutya se foglalkozik vele\u201d \u2013
+  jelentett\u00e9k. Mire a Metropol munkat\u00e1rsai oda\u00e9rtek, az ajt\u00f3kat
+  m\u00e1r bez\u00e1rta valaki, egy\u00e9bk\u00e9nt minden v\u00e1ltozatlan. A rajta
+  hagyott figyelmeztet\u00e9s j\u00faniusi keltez\u00e9s\u0171, \u00fagy t\u0171nik,
+  ezut\u00e1n elfeledkeztek r\u00f3la a k\u00f6zteresek. Augusztus 30-\u00e1n azonban
+  bejelentett\u00e9k a jarokelo.hu fel\u00fcleten, ott \u201ev\u00e1laszra v\u00e1r\u201d
+  st\u00e1tuszban van a probl\u00e9ma.\\n\u201eMi tegnap voltunk Zugl\u00f3 hat\u00e1r\u00e1ban
+  a Kerepesi \u00fat\u2013Kereszt\u00fari \u00fat keresztez\u0151d\u00e9sn\u00e9l
+  tal\u00e1lhat\u00f3 bev\u00e1s\u00e1rl\u00f3helyen, a parkol\u00f3r\u00e9szn\u00e9l
+  van hasonl\u00f3 \u00e1ldatlan \u00e1llapot. T\u00f6bb elhagyatott aut\u00f3roncs,
+  amelyet hajl\u00e9ktalanok pakolnak tele szem\u00e9ttel\u201d \u2013 \u00edrta egy
+  felh\u00e1borodott v\u00e1s\u00e1rl\u00f3. A helyzet a parkol\u00f3ban sokkal rosszabb,
+  mint gondoln\u00e1 az ember. Az aut\u00f3kat a tetej\u00fckig ellepte a szem\u00e9t,
+  k\u00edv\u00fcl is bel\u00fcl is, \u00e9s irt\u00f3zatos b\u00fcd\u00f6s \u00e1rad
+  bel\u0151l\u00fck.\\n\u201eA Jurisich utc\u00e1ban \u00e9vek \u00f3ta \u00e1ll egy
+  osztr\u00e1k rendsz\u00e1m\u00fa Opel f\u00e9lig leh\u00fazott ablakkal. A parkol\u00f3\u0151r\u00f6k
+  ahogy illik, pakolj\u00e1k r\u00e1 a mikul\u00e1sc\u00e9dul\u00e1kat. Pont ott van
+  egy t\u00e9rfigyel\u0151 kamera, \u00fagyhogy a kutya sem b\u00e1ntja, nem szednek
+  le r\u00f3la semmit, az aut\u00f3 pedig sz\u00e9p csendesen v\u00e1rja az elporlad\u00e1s\u00e1t\u201d
+  \u2013 \u00edrt\u00e1k a mag\u00e1nyos Opelr\u0151l. A leh\u00fazott ablakokon az\u00f3ta
+  berep\u00fcltek a Mikul\u00e1s csomagok, amik teljesen bebor\u00edtott\u00e1k a
+  vezet\u0151\u00fcl\u00e9st.\\nA f\u0151v\u00e1rosi fenntart\u00e1s\u00fa utak eset\u00e9ben
+  a F\u00d6RI, vagyis a F\u0151v\u00e1rosi \u00d6nkorm\u00e1nyzati Rend\u00e9szeti
+  Igazgat\u00f3s\u00e1g az illet\u00e9kes, a ker\u00fcleti fenntart\u00e1s\u00fa k\u00f6zter\u00fcleteken
+  a helyi v\u00e1rosrend\u00e9szet \u00e9s k\u00f6zter\u00fclet-fel\u00fcgyelet a
+  jogosult r\u00e1, hogy elsz\u00e1ll\u00edts\u00e1k az elhagyott, rendsz\u00e1m n\u00e9lk\u00fcli
+  \u00e9s \u00fczemk\u00e9ptelen aut\u00f3kat.\\n\u00dczemk\u00e9ptelen g\u00e9pj\u00e1rm\u0171vek
+  10 napig t\u00e1rolhat\u00f3ak a k\u00f6zter\u00fcleten. Bejelent\u00e9s ut\u00e1n
+  a k\u00f6zter\u00fclet-fel\u00fcgyelet szeml\u00e9t tart, majd \u00e9rtes\u00edti
+  a tulajdonost arr\u00f3l, hogy t\u00edz napja van elsz\u00e1ll\u00edttatni az aut\u00f3t.
+  Ha ezt nem teszi meg, akkor az adott ker\u00fclet v\u00e1rosrend\u00e9szeti oszt\u00e1lya,
+  jelen esetben a Zugl\u00f3i \u00d6nkorm\u00e1nyzati Rend\u00e9szet elsz\u00e1ll\u00edthatja
+  az aut\u00f3t, term\u00e9szetesen a tulajdonos k\u00f6lts\u00e9g\u00e9re.\\n\u00cdme
+  vide\u00f3nk a helyzetr\u0151l:\"", "\"A t\u00e9v\u00e9 13-as csatorn\u00e1j\u00e1n
+  szerd\u00e1n k\u00f6zz\u00e9tett k\u00f6zv\u00e9lem\u00e9ny-kutat\u00e1s azt j\u00f3solja,
+  hogy ha ma tartan\u00e1k a v\u00e1laszt\u00e1sokat, akkor a Benjamin Netanjahu minisztereln\u00f6k\u00f6t
+  t\u00e1mogat\u00f3 p\u00e1rtok t\u00f6mbje 50 mand\u00e1tumot szerezne (a mai 64
+  mand\u00e1tumhoz k\u00e9pest, a csatorna el\u0151z\u0151 felm\u00e9r\u00e9s\u00e9n
+  pedig 56), a Likud pedig 25 mand\u00e1tummal a m\u00e1sodik legnagyobb p\u00e1rt
+  lenne (a mai 32-h\u00f6z k\u00e9pest).\\nA felm\u00e9r\u00e9s szerint a Netanjahu-t\u00e1mogat\u00f3i
+  blokk 50 mand\u00e1tum\u00e1val szemben ebben a forgat\u00f3k\u00f6nyvben 61 mand\u00e1tuma
+  lenne a Bennett-Lapid koal\u00edci\u00f3hoz tartoz\u00f3 ellenz\u00e9ki p\u00e1rtoknak.
+  A Beni Ganz vezette Nemzeti T\u00e1bor ilyen helyzetben 29 mand\u00e1tumot szerezne,
+  ami t\u00f6bb mint dupl\u00e1ja a mai erej\u00e9nek (12), m\u00edg a Jes Atid (Van
+  J\u00f6v\u0151) p\u00e1rt gyeng\u00fclve 18 mand\u00e1tumhoz jutna (a mai 24-hez
+  k\u00e9pest). A csatorna kor\u00e1bbi felm\u00e9r\u00e9s\u00e9hez k\u00e9pest a
+  Jes Atid meg\u0151rzi erej\u00e9t, a Nemzeti T\u00e1bor pedig mand\u00e1tumot vesz\u00edt.\\nA
+  felm\u00e9r\u00e9s szerint a h\u00e1rom nagy p\u00e1rt ut\u00e1n a Sasz kilenc,
+  a T\u00f3ra Judaizmus h\u00e9t, a Raam pedig hat helyet kapna. A Chadas-Taal \u00e9s
+  a Vall\u00e1si Cionizmus \u00f6t-\u00f6t, az Ocma Jehudit (Zsid\u00f3 Er\u0151),
+  Jiszrael Beitenu (Izrael a Haz\u00e1nk), Merec \u00e9s Balad pedig n\u00e9gy-n\u00e9gy
+  mand\u00e1tumot szerezne.\\nA legfrissebb k\u00f6zv\u00e9lem\u00e9ny-kutat\u00e1sok
+  azt mutatj\u00e1k, hogy a Likud viszonylag er\u0151s\u00f6d\u0151 tendenci\u00e1t
+  mutat a 13-as csatorna m\u00falt havi felm\u00e9r\u00e9s\u00e9hez k\u00e9pest, amely
+  szerint a p\u00e1rt 20 mand\u00e1tumot kapna \u2013 \u00e9s ezzel a harmadik legnagyobb
+  p\u00e1rt lenne. A jelenlegi helyzethez k\u00e9pest azonban h\u00e9t mand\u00e1tumot
+  vesz\u00edt \u2013 ami a t\u00f6mb\u00f6k k\u00f6z\u00f6tti v\u00e1ltoz\u00e1st
+  gener\u00e1lja.\\nA koal\u00edci\u00f3t jelenleg alkot\u00f3 p\u00e1rtcsoport \u00f6sszeoml\u00e1s\u00e1hoz
+  a Likud k\u00e9t prominens partnere is hozz\u00e1j\u00e1rul. A Vall\u00e1sos Cionizmus
+  az Ocma Jehudittal egy\u00fctt \u00f6t, a Sasz k\u00e9t mand\u00e1tumot vesz\u00edt,
+  a felm\u00e9r\u00e9s szerint a Jiszrael Beitenu k\u00e9t mand\u00e1tummal gyeng\u00fcl
+  jelenlegi helyzet\u00e9hez k\u00e9pest, a Chadas-Taal pedig meg\u0151rzi erej\u00e9t.\\nA
+  13-as csatorna felm\u00e9r\u00e9s\u00e9nek mintav\u00e9teli hibahat\u00e1ra 3,7%.\"",
+  "\"Nagyon sok idi\u00f3ta site r\u00e1ugrott a sz\u00edn\u00e9szre, mivel az arra
+  mert utalni, hogy a k\u00e9preg\u00e9nyfilmek k\u00f6zel\u00e9ben sincsenek a magas
+  m\u0171v\u00e9szetnek. Kicsit sznobosan hangzik, ezt elismerem, de ez csak egy v\u00e9lem\u00e9ny
+  egy t\u00f6bbnyire m\u0171v\u00e9szfilmekben szerepl\u0151 sz\u00edn\u00e9szt\u0151l,
+  aki a Before tril\u00f3gi\u00e1ban \u00edr\u00f3k\u00e9nt is k\u00f6zrem\u0171k\u00f6d\u00f6tt.
+  Nem azt \u00e1ll\u00edtja, hogy szarok, csak azt, hogy m\u00e1s a c\u00e9ljuk, mint
+  egy m\u00e9lyebb dr\u00e1m\u00e1nak, \u00e9s nem k\u00e9ne \u00fagy tenni, mintha
+  nem \u00edgy lenne.\\nNow we have the problem that they tell us Logan is a great
+  movie. Well, it\u2019s a great superhero movie. It still involves people in tights
+  with metal coming out of their hands. It\u2019s not Bresson. It\u2019s not Bergman.
+  But they talk about it like it is. I went to see Logan cause everyone was like,
+  \u201cThis is a great movie\u201d and I was like, \u201cReally? No, this is a fine
+  superhero movie.\u201d There\u2019s a difference but big business doesn\u2019t think
+  there\u2019s a difference. Big business wants you to think that this is a great
+  film because they wanna make money off of it.\\nR\u00f6viden: elment a Loganra,
+  mert mindenhonnan azt hallotta, hogy az egy J\u00f3 Film, k\u00f6zben csak egy j\u00f3
+  k\u00e9preg\u00e9nyfilm. Szerinte van k\u00fcl\u00f6nbs\u00e9g, m\u00edg a st\u00fadi\u00f3k
+  szerint nincs, \u00e9s szeretn\u00e9k, ha az emberek ezen a v\u00e9lem\u00e9nyen
+  lenn\u00e9nek r\u00f3luk, mivel az j\u00f6vedelmez\u0151 nekik.\\nAm\u00fagy \u00e9rdekes,
+  mert t\u00e9nyleg mindenhonnan azzal t\u00e1madj\u00e1k, hogy sznobos a kijelent\u00e9s,
+  k\u00f6zben Ethan az\u00e9rt rengeteg B-filmes m\u00f3k\u00e1ban is benne volt (pl.
+  Predestination, Daybreakers), sz\u00f3val szerintem egy\u00e1ltal\u00e1n nem n\u00e9zi
+  le a \u201ccsak sz\u00f3rakoztat\u00f3\u201d filmeket. Egyed\u00fcl azzal van baja,
+  hogy mindenki \u00fagy tesz, mintha az XY k\u00e9preg\u00e9nyfilm m\u00e9rf\u00f6ldk\u0151
+  lenne a filmk\u00e9sz\u00edt\u00e9sben.\\nEs igaza van. A sok szerencsetlen meg
+  felhaborodik. Az a baj, hogy az emberek rohadt erzekenyek ma mar mindenre, es nem
+  birjak elfogadni, hogy valami, ami nekik tetszik, az nem kepvisel muveszi erteket.\\nAttol,
+  hogy nekem tetszik valami, meg nem lesz jo. Sok szar filmet szeretek, de attol meg
+  nem lesznek jo filmek.\\nEs pont, hogy olyan embertol hangzik hitelesen, aki onmaga
+  is jatszik szar filmekben. Nyilvan Hawke is tudja, hogy a Daybreakers egy hulladek,
+  de attol meg jopofa volt, es elvallalta.\\nEl kellene fogadni, hogy az ember neha
+  csinal szar dolgokat, de attol meg nem lesz rossz szinesz, es a rossz film sem valik
+  jova csak azert, mert valakinek tetszik, vagy sok penzt hoz, vagy XY jatszik benne.
+  Nem osszeegyeztethetetlenek ezek.\\nOtt van Robert DeNiro, oreg korara ocska szarokban
+  jatszik. Megis oriasi szinesz, aki szerepelt Leone, Coppola, Bertolucci, Scorsese
+  stb. filmjeiben.\\nEnnek a sok internetes harcosnak el kene fogadni, hogy az ember
+  szerethet rossz dolgokat, es csinalhat rossz (erten ezakatt nem rossz szandeku,
+  csak rossz minosegu, stb.) dolgokat. Nincs ezzel semmi baj, miert is lenne? Akkor
+  maris nem kapnanak fraszt, ha valaki elmondja az igazsagot a kedvencukrol.\\nM\u00e9gis
+  hogy mer\u00e9szel v\u00e9lem\u00e9nyt alkotni?? Ki a franci\u00e1nak k\u00e9pzeli
+  ez mag\u00e1t? J\u00f3, hogy felh\u00e1borodtak, teljesen igazuk van. M\u00e9g a
+  v\u00e9g\u00e9n kider\u00fcl, hogy s\u00falyosabb t\u00e9m\u00e1kban is van saj\u00e1t
+  megl\u00e1t\u00e1sa a vil\u00e1gr\u00f3l.\\nMegkock\u00e1ztatom, hogy szerintem
+  a Der\u00e9k Dudley egy fantasztikus film, de felk\u00e9sz\u00fcltem r\u00e1, hogy
+  holnap m\u00e1r a vil\u00e1gsajt\u00f3 ezen fog cs\u00e1mcsogni.\\nez mondjuk mindent\u0151l
+  f\u00fcggetlen\u00fcl is egy sznob kijelent\u00e9s\u2026ethan hawke szerint a k\u00e9preg\u00e9nyfilmek
+  nem lehetnek j\u00f3k ezek szerint, csak a bresson, bergman stb rendezte m\u0171vek.
+  k\u00e1r rajta felh\u00e1borodni, mert csak egy h\u00fclye hozz\u00e1\u00e1ll\u00e1s\\nIgaza
+  van.\\nNem azt mondta, hogy egy k\u00e9preg\u00e9ny film nem lehet j\u00f3 vagy
+  sz\u00f3rakoztat\u00f3.\\nHanem azt, hogy ezek d\u00f6mpingben k\u00e9sz\u00fclt
+  iparosmunk\u00e1k, nem pedig m\u0171v\u00e9szeti alkot\u00e1sok.\\nT\u00f6k\u00e9letesen
+  igaza van.\\n\u00c9n szeretem a k\u00e9preg\u00e9nyfilmeket, s\u0151t a (j\u00f3)
+  eredett\u00f6rt\u00e9neteket.\\nDE\\nEzek akkor is sz\u00f3rakoztat\u00f3ipari term\u00e9kek
+  \u00e9s nem fajs\u00falyos mondanival\u00f3val rendelkez\u0151 m\u0171v\u00e9szfilmek.\\nAhogy
+  Clancy vagy Ludlum is sz\u00f3rakoztat\u00f3, de egyik se egy Dosztojevszkij.\\nNem
+  lehet, hogy arra utalt ezzel, hogy ilyen Fekete P\u00e1rduc-f\u00e9le k\u00f6z\u00e9pszer\u0171
+  filmeket tal\u00e1n egy mondatba sem szabadna egy\u00fctt emlegetni? Csak ezt \u00edgy
+  konkr\u00e9tan nem lehet kimondani\u2026 b\u00e1r ahogy l\u00e1tom a fentieket sem.\\nAmi
+  t\u00e9ny, hogy az elm\u00falt \u00e9vek nagy k\u00f6lts\u00e9gvet\u00e9s\u0171
+  alkot\u00e1sai k\u00f6z\u00fcl csak ezek a filmek hoztak stabilan egy szintet. J\u00f3
+  filmek. Viszont val\u00f3ban le kellene sz\u00e1llni a magasl\u00f3r\u00f3l\u2026\\nSzerintem
+  ha egy m\u0171 \u00e9rzelmeket \u00e9s gondolatokat \u00e9breszt, akkor midegy,
+  milyen eszk\u00f6z\u00f6kkel \u00e9ri ezt el. Igen, a Loganben peng\u00e9k j\u00f6nnek
+  el\u0151 a szerepl\u0151k kez\u00e9b\u0151l. Az 1984 meg arr\u00f3l sz\u00f3l, hogy
+  a P\u00e1rt olvassa a gondolataidat, h\u00fa de ciki. Asimov robott\u00f6rt\u00e9neteiben
+  meg g\u00e9pek besz\u00e9lnek, ne m\u00e1r. Kafk\u00e1n\u00e1l meg egy ember rovarr\u00e1
+  v\u00e1ltozik? Beteg! Sz\u00f3val a Logan igenis egy \u00e9rt\u00e9kes alkot\u00e1s.
+  Soha senki nem nevezte m\u0171v\u00e9szfilmnek, de a k\u00e9preg\u00e9nyfilmek kateg\u00f3ri\u00e1j\u00e1n
+  bel\u00fcl igenis \u00e9rt\u00e9kes.\\nthomyerk: ethan hawke szerint a k\u00e9preg\u00e9nyfilmek
+  nem lehetnek j\u00f3k ezek szerint, csak a bresson, bergman stb rendezte m\u0171vek\u2026A
+  klasszikus, befogado kenyere torteno ferdites iskolapeldaja. Mondd, milyen erzes
+  funkcionalis analfabetanak lenni?\\nIgaza van. A Logan meg nagyon t\u00fal\u00e9rt\u00e9kelt.\\nIm\u00e1dom
+  Hawke-ot, szeretem a k\u00e9preg\u00e9nyfilmeket, \u00e9s azt kell mondjam valahol
+  igaza van. Lehet ez az Oscaros t\u00e9m\u00e1ra is reflekt\u00e1l. Nem olyan \u0151r\u00fclt
+  kijelent\u00e9s ez, m\u00e1s szinten kell kezelni ezeket a dolgokat, \u00e9s nem
+  mondan\u00e1m, hogy egy k\u00e9preg\u00e9nyfilmek ugyanaz lenne a c\u00e9lja, mint
+  mondjuk egy Aronofskynak. De nincs ezzel semmi gond. De szerintem ez nem is volt
+  k\u00e9rd\u00e9s, az ut\u00f3bbi 1-2 \u00e9vvel ezel\u0151ttig. (Mikor beindult
+  a Logan-Wonder Woman-Black Panther kamp\u00e1ny)\\nCsak h\u00e1t megint az, ha csak
+  azt mondja hogy \u201cfine\u201d vagy \u201cgreat superhero movie\u201d, az nem
+  el\u00e9g, ha nem ad 11/10-t r\u00e1, akkor ugye hater. Iszonyat sz\u00e9ls\u0151s\u00e9gess\u00e9
+  v\u00e1lt manaps\u00e1g a filmipar.\\nEddig is b\u00edrtam a sz\u00edn\u00e9szt,
+  de ezek ut\u00e1n m\u00e9g jobban. \u00c9n sem akarom letenni a k\u00e9preg\u00e9ny
+  filmeket, nem is szeretem, mikor valaki egyb\u0151l a porba teszi, de nyilv\u00e1n
+  nem Tarkovskij mell\u00e9 kell rakni ezeket.\\nEgy biztos: a k\u00e9preg\u00e9nyfilmek
+  semmif\u00e9le m\u0171v\u00e9szeti \u00e9rt\u00e9ket nem k\u00e9pviselnek. Aki m\u00e1st
+  mond, az vagy hazudik, vagy nagyon elfogult.\\n\u00c9n ezeket egyszer megn\u00e9zem
+  (otthon vagy n\u00e9melyiket moziban), azt\u00e1n ennyi.\\nHol vannak ezek egy Rem\u00e9ny
+  Rabjai, vagy Casino, vagy ak\u00e1r a Volt egyszer egy Vadnyugathoz k\u00e9pest?\\nPedig
+  ezek sem m\u0171v\u00e9szfilmek.\\n@12\\nWatchmen-t aj\u00e1nlom.\\nViszont a felsoroltak
+  k\u00f6z\u00fcl nem tudom melyiknek van m\u0171v\u00e9szeti \u00e9rt\u00e9ke, tal\u00e1n
+  a Rem\u00e9ny rabjai. De egy Casino szerintem pont, hogy nem k\u00e9pvisel m\u0171v\u00e9szeti
+  \u00e9rt\u00e9ket, ak\u00e1rmennyire is top 50 n\u00e1lam.\\n\u00c9n is igazat adok
+  mr. Hawke-nak. Manaps\u00e1g, amikor m\u00e1r \u00e9vente legal\u00e1bb 10 \u201csuper\u201dhero
+  movie ker\u00fcl a moziv\u00e1szonra, nehezemre esik b\u00e1rmelyikr\u0151l is azt
+  felt\u00e9telezni, hogy az valami h\u00fa de milyen komoly produkci\u00f3 lesz.
+  Persze a l\u00e1tv\u00e1ny biztosan brut\u00e1l j\u00f3, rengeteg akci\u00f3val,
+  meg manaps\u00e1g m\u00e1r po\u00e9nokat is igyekeznek tele pump\u00e1lni, de csak
+  hogy ne aludjon el rajta az a szerencs\u00e9tlen (\u00e1tlag 12+os) n\u00e9z\u0151,
+  akinek tal\u00e1n nem m\u00e1s a c\u00e9lja amikor le \u00fcl egy ilyen film el\u0151,
+  hogy j\u00f3t sz\u00f3rakozzon, ha m\u00e1r (j\u00f3 esetben) kifizeti a mozijegyet.
+  \u00c9n is biztosan egy sznob k\u00f6cs\u00f6g vagyok, aki am\u00fagy nem is igaz\u00e1n
+  szereti a legt\u00f6bb k\u00e9preg\u00e9ny filmet, s\u0151t valahogy n\u00e1lam
+  az ut\u00f3bbi \u00e9vekben a j\u00f3\u00f6reg Szt\u00e1r V\u00f3rz (brand!) is
+  ide s\u00fcllyedt.. (igen, felk\u00e9sz\u00fcltem a megk\u00f6vez\u00e9sre\u2026
+  :) ), persze hozz\u00e1 teszem, hogy volt 1-2 ami mondhatni tetszett, de nem biztos,
+  hogy megn\u00e9zn\u00e9m \u0151ket t\u00f6bbsz\u00f6r is.\\nViszont(!!!) nem kerek
+  a t\u00f6rt\u00e9net, ha nem mondom el azt is, hogy bizony a m\u0171v\u00e9szfilmek,
+  magaskultur\u00e1lis ig\u00e9ny\u00fckb\u0151l kifoly\u00f3lag, t\u00f6bbnyire igencsak
+  nehezen befogadhat\u00f3ak. Nekem is n\u00e9ha nehezemre esik feldolgozni, \u201c\u00e9lvezni\u201d,
+  egy\u00e1ltal\u00e1n v\u00e9gig n\u00e9zni egy-egy alkot\u00e1st (k\u00fcl\u00f6n\u00f6sk\u00e9pp
+  nemzet\u00fcnk b\u00fcszkes\u00e9ge Tarr B\u00e9la n\u00e9melyik m\u0171v\u00e9re
+  igaz ez :D ). Sz\u00f3val maradjunk annyiban, hogy egy\u00e1ltal\u00e1n nem ugyanaz
+  a k\u00e9t m\u0171faj c\u00e9lja \u00e9s nagyon nem ugyanaz a c\u00e9lk\u00f6z\u00f6ns\u00e9g
+  sem, \u00e9s tal\u00e1n nem is szerencs\u00e9s a kett\u0151t egy m\u00e9rlegre tenni.
+  De akkor is tartom a v\u00e9lem\u00e9nyt, hogy ebb\u0151l kifoly\u00f3lag ne is
+  akarj\u00e1k a superhero cuccokat m\u0171v\u00e9szi magass\u00e1gokba emelni, mert
+  ezek a filmek m\u00f6g\u00f6tt akkor is a retin\u00e1jukba \u00e9gett doll\u00e1rjeles
+  producerek meg c\u00e9gek \u00e1llnak.\\nJ\u00f6het a n\u00e9pharag! :D\\nAndor,
+  abszolut +1. A vilag elment az \u201colyan mintha\u201d iranyaba. Es ez igaz mindenre,
+  a filmekre is. A Logant azert muveszfilmekkel egyutt emlegetni mert ratettek egy
+  ff szurot, gaz. Imadtam. De egy feldolgozott kepregeny, nem tobb. Mintha az epres
+  shake-re mondanank azt hogy gasztronomia.\\n\u00c9s t\u00f6k igaza van,val\u00f3ban
+  egy semmit mond\u00f3 a k\u00e9preg\u00e9ny filmek 90 sz\u00e1zal\u00e9ka,\u00e9s
+  nem is utalnak semmire.Egyszer\u0171 sz\u00f3rakoztat\u00f3 filmek,ha \u00e9ppen
+  nincs egy norm\u00e1lis film id\u0151t\u00f6lt\u00e9snek t\u00f6k\u00e9letes,ha
+  valaki t\u00f6bbet l\u00e1t egy ilyen filmben annak m\u00e9g nem n\u0151tt be a
+  feje l\u00e1gya,valahol gyermeki szinten van,de nincs ezzel,gond csak amikor feln\u0151tt
+  emberek vitatkoznak,hogy melyik szuperh\u0151s lenne er\u0151sebb,na azon mindig
+  j\u00f3t nevetek.\ud83d\ude00\\n\u00c9s akkor m\u00e9g nem besz\u00e9ltem arr\u00f3l
+  aki b\u00e1bukat gy\u00fcjt\u00f6get meg Marvel vagy DC tetk\u00f3t csin\u00e1ltatnak,na
+  \u0151k a kem\u00e9nymagosok \ud83e\udd23\ud83e\udd23\\nTeljesen igaza van, csak
+  tal\u00e1n rossz p\u00e9ld\u00e1t hozott fel. De amikor p\u00e9ld\u00e1ul a Black
+  Panther vagy a Wonder Woman kapcs\u00e1n Oscar dijat \u00e9s jel\u00f6l\u00e9st
+  emlegetnek, csak n\u00e9zek ki a fejemb\u0151l. M\u00e9g csak j\u00f3 filmnek sem
+  nevezn\u00e9m egyiket sem. A Black Panther konkr\u00e9tan egy kalap szar volt. M\u00e1shol
+  meg azt olvasom, hogy egyik legjobb k\u00e9preg\u00e9nyfilm, egyenrang\u00fa a S\u00f6t\u00e9t
+  Lovaggal stb.\\nA legnagyobb r\u00f6hej az, amikor az \u00fan. hivat\u00e1sos kritikusok
+  olyan szinten \u00e1radoznak, \u00e9s emelnek piedeszt\u00e1lra egy-egy ilyen filmet,
+  hogy att\u00f3l m\u00e1r a mezei moziba l\u00e1togat\u00f3 \u00e9rzi mag\u00e1t
+  kellemetlen\u00fcl\u2026kicsit kifordult \u00f6nmag\u00e1b\u00f3l a vil\u00e1g,
+  a kritikus v\u00e1lt rajong\u00f3v\u00e1, a rajong\u00f3 pedig eltartott ujj\u00fa
+  filmeszt\u00e9t\u00e1v\u00e1.\\nTeljesen igaza van, de ez szinte mindegy, m\u00edg
+  vannak itt fent is olyanok, akik szerint Kafka sz\u00fcrrealista \u00e1br\u00e1zol\u00e1sa
+  az egzisztenci\u00e1lis f\u00e9lelemr\u0151l (rovarr\u00e1 v\u00e1ltozni) az egyen\u00e9rt\u00e9k\u0171
+  a Logan kez\u00e9b\u0151l kij\u00f6v\u0151 peng\u00e9kkel, mert egyik sem val\u00f3s\u00e1gos\u2026\\na
+  bajok azzal vannak, hogy sokan elint\u00e9zik ezt annyival, hogy a m\u0171v\u00e9szeti
+  \u00e9rt\u00e9ket k\u00f6zvet\u00edt\u0151 filmet neh\u00e9z n\u00e9zni \u00e9s
+  befogadni, teh\u00e1t akkor nem is n\u00e9zik (akinek nem inge\u2026), \u00e9s ez\u00e9rt
+  csak azokb\u00f3l tud kiemelked\u0151t tal\u00e1lni, amit egy\u00e9bk\u00e9nt eljut
+  hozz\u00e1, \u00e9s ha ezek k\u00e9preg\u00e9nyfilmek 99 sz\u00e1zal\u00e9kban,
+  akkor a Logan t\u00e9nyleg egy m\u0171remek, ha a film\u0171v\u00e9szet eg\u00e9sz\u00e9t
+  n\u00e9zz\u00fck, akkor meg egy ok\u00e9 film, amit \u00e9n is sz\u00edvesen megn\u00e9zek
+  t\u00f6bbsz\u00f6r is, de ennyi\\nK\u00f6rte, alma, ennyi. Mindkett\u0151t szeretem,
+  megeszem. El\u0151tte is tudom, hogy k\u00fcl\u00f6nb\u00f6znek, ut\u00e1na sem
+  lep\u0151d\u00f6k meg az \u00edz\u00fck\u00f6n.\\nNekem szem\u00e9ly szerint mindkett\u0151re
+  sz\u00fcks\u00e9gem van.\\nHa csak az egyiket enn\u00e9m, ki\u00fcresedn\u00e9k,
+  ha csak a m\u00e1sikat, megcs\u00f6m\u00f6rlen\u00e9k a sok lelki dagony\u00e1ban.\\nT\u00f6kre
+  \u00e9rtem amit mond. A Logan remek film. De ha az emberek azt hiszik, hogy ez a
+  filmk\u00e9sz\u00edt\u00e9s nonpluszultr\u00e1ja, a karakterdr\u00e1ma cs\u00facsa,
+  akkor az t\u00e9nyleg szomor\u00fa. Azt jelenti, hogy nem n\u00e9znek m\u00e1st,
+  \u00e9s azt hiszik ez a max. Nem l\u00e1tnak a k\u00e9preg\u00e9nydobozon k\u00edv\u00fcl.\\nAm\u00fagy
+  a Logan \u00fczemanyaga az \u00f6sszes kor\u00e1bbi film \u00f6sszess\u00e9ge volt,
+  a majdnem 20 \u00e9vnyi nosztalgia. Ez nem hiba, csak t\u00e9ny. Sz\u00e9pen megcsin\u00e1lt\u00e1k,
+  de ha nem szeretted m\u00e1r eleve Wolverine-t, akkor egy ig\u00e9nyes, er\u0151s
+  k\u00f6zepes a film.\\n@Bander\\nVend\u00e9gem vagy egy s\u00f6rre. +100\\n@human:\\nA
+  \u201cPredestination\u201d az\u00e9rt nem b-filmes m\u00f3ka, legfeljebb kis k\u00f6lts\u00e9gvet\u00e9s\u0171,
+  de nem egy Daybreakers szint\u0171 film.\\nA v\u00e9lem\u00e9ny\u00e9vel az\u00e9rt
+  nem \u00e9rtek egyet, mert a Logan-ben is voltak nagyon j\u00f3 elemek, lehet valakinek
+  pont ennek a filmnek a hangulata, st\u00edlusa volt telital\u00e1lat. Azzal viszont
+  egyet\u00e9rtek, hogy a legt\u00f6bb szuperh\u0151s film egyszeri m\u00f3ka, megn\u00e9zed,
+  elfelejted, nincs nagy mondand\u00f3, a karakter fejl\u0151d\u00e9s csak a szok\u00e1sos,
+  \u2026, egym\u00e1s ut\u00e1n n\u00e9ztem meg az Ant-Man-t \u00e9s a Mission Impossible-t,
+  ut\u00f3bbi sem egy dr\u00e1ma, de t\u00f6bb gondolkodnival\u00f3 volt benne.\\nPersze
+  az is igaz, hogy a szuperh\u0151sfilmek a filmm\u0171v\u00e9szetben azok, amik a
+  zen\u00e9ben a legt\u00f6bb ismert pop dalocska, \u00e9s hihetetlen \u00e9rdekes
+  zen\u00e9ket ker\u00fclnek el f\u00e9ny\u00e9vekre emberek, sz\u00f3val ez nem valami
+  marvel jelens\u00e9g.\\nDe ez nem \u00faj Ethan.Mi\u00e9rt egy olyan sz\u00edn\u00e9sz
+  panaszkodik aki alig van foglalkoztatva \u00e9s kb f\u00e9l\u00e9vente,\u00e9vente
+  bekell b\u00f6f\u00f6gnie valamit,hogy kapjon egy kis figyelmet??\\nMi\u00e9rt nem
+  mondjuk Chris Evans vagy Downey panaszkodik,hogy \u201cn\u00e9zz\u00e9tek unom m\u00e1r
+  ezeket a k\u00f6z\u00e9pszer\u0171 egy kaptafa CGI \u00f6mled\u00e9keket amik nem
+  sz\u00f3lnak m\u00e1sr\u0151l mint,hogy repked\u0151 h\u0151s\u00f6k l\u00f6v\u00f6ld\u00f6znek
+  egym\u00e1sra szines nyal\u00e1bokat mik\u00f6zben p\u00fcff\u00f6lik egym\u00e1st.szeretn\u00e9m
+  magam m\u00e1s filmekben is kiprob\u00e1lni am\u00edg lehet m\u00e9g r\u00e1 lehet\u0151s\u00e9gem\u201d\\nEz
+  \u00edgy Ethant\u0151l ciki kicsit.\\nuff! Megevett S\u00f3lyom besz\u00e9lt!\\nazt
+  mondjuk pont nem mondta, hogy b\u00e1rki \u201cm\u0171v\u00e9szfilm\u201d-nek nevezn\u00e9
+  a Logant, mint ahogy t\u00e9nyleg nem is nevezi annak senki. neki azzal van baja,
+  hogy \u201cgreat film\u201d-nek nevezik.\\nami am\u00fagy a sz\u00edve joga, hogy
+  neki ezzel baja legyen, meg azoknak is a sz\u00edve joga, hogy \u201cgreat film\u201d-nek
+  nevezz\u00e9k a Logant, akik szerint az egy \u201cgreat film\u201d.\\nink\u00e1bb
+  ez is csak egy olyan dolog, hogy ha nem k\u00e9ne napi h\u00fasz interj\u00fat adnia,
+  akkor alighanem ink\u00e1bb megtartotta volna mag\u00e1nak, hogy ez \u0151t speciel
+  zavarja. nincs itt semmi l\u00e1tnival\u00f3.\\nSz\u00f3lj igazat \u00e9s bet\u00f6rik
+  a fejed!\\nT\u00e9ny, hogy az els\u0151 X-men filmmel siker\u00fclt igaz\u00e1n
+  hollywoodi l\u00e9tjogosults\u00e1got kapnia a k\u00e9preg\u00e9nyfilmeknek mint
+  m\u0171fajnak (el\u0151tte egyed\u00fcl kb. Tim Burton-nek siker\u00fclt egyed\u00fcl,
+  meg tal\u00e1n m\u00e9g az els\u0151 Superman-mozi p\u00e1ly\u00e1zhat ilyesmire
+  \u2013 az \u00f6sszes t\u00f6bbi k\u00eds\u00e9rleten j\u00e1tszik, hogy mire is
+  tartott\u00e1k a m\u0171fajt addig). Ilyen szempontb\u00f3l a k\u00e9preg\u00e9nyfilmek
+  igen er\u0151s min\u0151s\u00e9gi ugr\u00e1son estek \u00e1t a 2000-es \u00e9vek
+  \u00f3ta, \u00e9s ez kb. t\u00e9nyleg a Logan-ben \u00e9rt tet\u0151pontj\u00e1ra.\\nEhhez
+  hozz\u00e1 kell tenni, hogy a k\u00f6z\u00f6ns\u00e9g is sokat v\u00e1ltozott, az
+  ezredfordul\u00f3 internet-forradalm\u00e1val elindult a \u2013 t\u00f6megkult\u00far\u00e1ba
+  lassan besziv\u00e1rg\u00f3 \u2013 posztmodern nerd-forradalom is, ahol azt\u00e1n
+  t\u00e9nyleg minden keveredik mindennel \u2013 a legal\u00e1val\u00f3bb ponyv\u00e1t\u00f3l
+  a magasm\u0171v\u00e9szetig minden.\\nValahol a k\u00e9preg\u00e9nyfilmek is ezeknek
+  a k\u00f6vetkezm\u00e9nyei, hogy hogyan lehet ilyen szint\u0171 t\u00e1mogatotts\u00e1guk.
+  Eg\u00e9sz addig lepattant ezekr\u0151l a mainstream-k\u00f6z\u00f6ns\u00e9g nagy
+  r\u00e9sze, mert 1. (mint ahogy eml\u00edtettem) min\u0151s\u00e9gben is el\u00e9g
+  gyatr\u00e1k voltak, 2. senki nem tudta komolyan venni a farsangijelmezes ac\u00e9lemberek
+  vil\u00e1gmegment\u00e9s\u00e9t.\\nKellett egy kritikus t\u00f6meg\u0171 k\u00f6z\u00f6ns\u00e9g,
+  ami m\u00e1r rent\u00e1bilis felvev\u0151piaca lehetett a dolognak, hosszas kitart\u00e1ssal
+  pedig beemel\u0151d\u00f6tt a t\u00e9ma a mainstream-be, nem mellesleg kitermelte
+  a saj\u00e1t marketingstrat\u00e9gi\u00e1j\u00e1t (ugyancsak a k\u00e9preg\u00e9nyekhez
+  hasonl\u00f3an).\\nMost meg m\u00e1r lassan ott tartunk, hogy a sz\u00f3rakoztat\u00f3
+  filmek m\u0171faj\u00e1nak egy jelent\u0151s r\u00e9sz\u00e9t a k\u00e9preg\u00e9nyfilmek
+  teszik ki, a maguk m\u0171faj\u00e1ban szinte alternat\u00edva n\u00e9lk\u00fcl
+  ahogy beolvaszotta mag\u00e1ba az akci\u00f3t, a sci-fit, a kalandfilmeket \u2013
+  \u00e9s k\u00e9s\u0151bb a komolyabb dr\u00e1mai \u00e1br\u00e1zol\u00e1sokat.\\nMindezekt\u0151l
+  f\u00fcggetlen\u00fcl (vagy pont ez\u00e9rt) ipari term\u00e9k marad a m\u0171faj
+  (\u00e9s annak igencsak sz\u00f3rakoztat\u00f3), ami igencsak messze \u00e1ll pl.
+  a \u201cszerz\u0151i filmt\u0151l\u201d, akik most Ethan Hawke-ot kritiz\u00e1lj\u00e1k,
+  azoknak a mozit \u00e9s f\u0151leg a mozi\u00e9lm\u00e9nyt nagyban ezek a filmek
+  jelentik, onnan indulva a Logan t\u00e9nyleg egy komolyabb dr\u00e1ma.\\n\u00c9n
+  szeretem a k\u00e9preg\u00e9ny filmeket (m\u00e9g a Suicide Squad \u00e9s az els\u0151
+  Hulk is bej\u00f6tt), de soha nem gondoltam azt, hogy ezeknek a filmeknek hely\u00fck
+  lenne p\u00e1r technikai kateg\u00f3ri\u00e1n k\u00edv\u00fcl az Oscaron, hacsak
+  nem valamelyik szerepl\u0151 alkotott akkor\u00e1t, hogy felmer\u00fclhetne a neve.
+  Mindenki odavolt a Fekete P\u00e1rduc\u00e9rt vagy a V\u00e9gtelen h\u00e1bor\u00fa\u00e9rt.
+  A maguk kateg\u00f3ri\u00e1j\u00e1ban t\u00e9nyleg marha j\u00f3 filmek voltak,
+  ahogy a Logan is, de az\u00e9rt hol lehet ezeket egy 12 d\u00fch\u00f6s emberrel,
+  egy Keresztap\u00e1val, de m\u00e9g ak\u00e1r a sokak \u00e1ltal k\u00f6pk\u00f6d\u00f6tt
+  Schindler list\u00e1j\u00e1val is \u00f6sszehasonl\u00edtani? Az a baj a mai vil\u00e1gban
+  (\u00e9s nem csak filmes t\u00e9ren), hogy az emberek k\u00e9ptelenek a dolgokat
+  a hely\u00fck\u00f6n kezelni \u00e9s abban a k\u00f6rnyezetben \u00e9rt\u00e9kelni.
+  A Marvel filmek kiv\u00e1l\u00f3ak egy popul\u00e1ris d\u00edjkioszt\u00f3ra, ahol
+  t\u00e9nyleg az a m\u00e9rce, hogy mennyire kaj\u00e1lta a n\u00e9p, de amikor Oscart
+  k\u00f6vetelnek nekik, az az\u00e9rt er\u0151sen a vicc kateg\u00f3ria. B\u00e1r
+  ha a Get Outot jel\u00f6lt\u00e9k legjobb filmnek, akkor sim\u00e1n belef\u00e9rne
+  m\u00e1r ez is.\\n\u201ca kritikus v\u00e1lt rajong\u00f3v\u00e1, a rajong\u00f3
+  pedig eltartott ujj\u00fa filmeszt\u00e9t\u00e1v\u00e1.\u201d\\nna az\u00e9rt ez
+  viccnek is rosszul hangzik :D m\u00e1rmint gondolom j\u00f3 elm\u00e9let, de tiszt\u00e1n
+  l\u00e1tszik, hogy k\u00f6zben a fanok sem tartj\u00e1k sehova az ujjukat. De az
+  igaz, hogy n\u00e9melyik kritikus t\u00fal\u00e9lteti a filmeket, biztos velem is
+  el\u0151fordul, ha j\u00f3 \u00e9lm\u00e9ny volt.\\nIgaza van.\\nNem \u00e9rtek
+  vele egyet. Egy len\u00e9zett k\u00e9preg\u00e9nyfilm is lehet min\u0151s\u00e9gi,
+  ha j\u00f3l meg\u00edrtak a p\u00e1rbesz\u00e9dek, ha l\u00e1tv\u00e1nyos, ha j\u00f3k
+  a sz\u00edn\u00e9szek \u00e9s persze ha j\u00f3 a forgat\u00f3k\u00f6nyv. Teh\u00e1t
+  egy k\u00e9preg\u00e9nyfilm is lehet m\u0171v\u00e9szet, \u00edgy mintha semmibe
+  venn\u00e9, hogy mennyi ember szellemi energi\u00e1j\u00e1t kellett beletenni.\\nAnno
+  az els\u0151 k\u00e9t P\u00f3kember film (a Tobey Maguire-s) nagy hat\u00e1ssal
+  voltak r\u00e1m \u00e9s mai napig b\u00e1rmikor megn\u00e9zem, lehet az\u00e9rt
+  is mert akkor voltam 10-es \u00e9veim elej\u00e9n. Ilyen m\u00e9g a Nolan f\u00e9le
+  Batman tril\u00f3gia. A t\u00f6bbi k\u00e9preg\u00e9nyfilmet is l\u00e1ttam, de
+  azok max. a moziban vannak r\u00e1m hat\u00e1ssal \u00e9s nem n\u00e9zem \u00fajra
+  \u0151ket, egy-k\u00e9t kiv\u00e9tel van k\u00f6zt\u00fck.\\nKilljoy\\nA Keresztap\u00e1t
+  mondjuk \u00e9n ki nem \u00e1llhatom, ink\u00e1bb v\u00e9gign\u00e9zem \u00fajra
+  a Maffi\u00f3zokat helyette, de ez egy\u00e9ni v\u00e9lem\u00e9ny, a p\u00e9ld\u00e1d
+  am\u00fagy j\u00f3.\\nEz a mostani k\u00e9preg\u00e9nyfilmes hull\u00e1m kb olyan,
+  mint a 80-as \u00e9vekben az akci\u00f3filmes. Ha akkoriban lett volna net \u00e9s
+  egy sz\u00edn\u00e9sz azt merte volna \u00e1ll\u00edtani, hogy mondjuk Schwarzenegger
+  filmjei k\u00f6zel\u00e9ben sincsenek a magas m\u0171v\u00e9szetnek, akkor rengetegen
+  lesz\u00f3lt\u00e1k volna.\\nT\u00f6k igaza van! \u00c9n azt sem \u00e9rtem kiknek
+  gy\u00e1rty\u00e1k a marveles \u00e9s hasonl\u00f3 szemetet\u2026 Mert feln\u00f6tteknek
+  igen gyermekded, egy norm\u00e1lis fiatal pedig ink\u00e1bb kef\u00e9l mint hogy
+  ilyenre csessze el az idej\u00e9t! Igaz, lehet B kateg\u00f3ri\u00e1snak venni a
+  \u201cDaybreakers\u201d filmet, de az\u00e9rt gondoljuk v\u00e9gig mennyire ig\u00e9nytelen,
+  \u00f6tlettelen semmiket adnak ki m\u00e1r j\u00f3 p\u00e1r \u00e9ve! Ahoz k\u00e9pest
+  pedig\u2026. Nem v\u00e9letlen hogy torrentoldalakon is egyre t\u00f6bb a 90-80-70-es
+  \u00e9vek filmjei amik tal\u00e1n kiss\u00e9 l\u00e1tv\u00e1nyilag elavultak de
+  m\u00e9gis benned marad valami. Egy mostanin\u00e1l? Te eml\u00e9kszel 1-2 \u00f3ra
+  mulva, valamire is????\\nGesztenye Papa:\\n+1 \u00e9s nem csak a Logan!\\n\u201cIt
+  still involves people in tights with metal coming out of their hands\u201d\\nPersze,
+  a hely\u00e9n kell kezelni a dolgokat, de a min\u0151s\u00e9g\u00fck miatt (aminek
+  nagy k\u00f6ze van ahhoz, hogy sz\u0171kebb vagy t\u00e1gabb a r\u00e9teg az amit
+  elakarnak \u00e9rni) \u00e9s nem az\u00e9rt, mert f\u00e9m j\u00f6n ki a karakter
+  kez\u00e9b\u0151l.\\n\u00c9n is p\u00e1rtoskodtam amellett viszont, hogy vagy a
+  Wonder Woman-t vagy a Logant jel\u00f6lj\u00e9k legjobb filmre vagy vmi m\u00e1sra
+  \u00e9s v\u00e9g\u00fcl a forgat\u00f3k\u00f6nyves meg is lett a Logannek (de az
+  nem olyan n\u00e9z\u0151csalogat\u00f3) \u00e9s nem az\u00e9rt, mert megnyerettem
+  volna b\u00e1rmelyikkel is. Koszt\u00fcm vagy l\u00e1tv\u00e1nytervez\u00e9s jel\u00f6l\u00e9s
+  WW-nek sim\u00e1n mehetett volna \u00e9s nem hiszem, hogy hatalmas felh\u00e1borod\u00e1s
+  \u00f6vezte volna ez\u00e9rt, de a Get out is bef\u00e9rt a legjobb filmbe \u00e9s
+  m\u00e9g maradt egy hely. Nem \u00e9rtem minek felemelni 10-re ha nincs 10 jel\u00f6lt\u2026\u00e9s
+  \u00e9n ez\u00e9rt akartam arra az 1 db helyre egy popul\u00e1risabb jel\u00f6ltett,
+  mert riny\u00e1lnak a n\u00e9z\u0151sz\u00e1m miatt, mert lett volna olyan aki csak
+  ez\u00e9rt megn\u00e9zi, amikor egy\u00e9bk\u00e9nt nem.\\nNem l\u00e1ttam a Black
+  Panthert, de nem haln\u00e9k bele, ha id\u00e9n beker\u00fclne a legjobb film jel\u00f6ltek
+  k\u00f6z\u00e9, mert ink\u00e1bb egy ilyen l\u00e1tszat sz\u00e1nalom jel\u00f6l\u00e9s,
+  mint a popul\u00e1ris kateg\u00f3ria, ahol m\u00e9g meg is nyeretik. B\u00e1r val\u00f3sz\u00edn\u0171leg
+  m\u00e9g akkor is lenne jobb v\u00e1laszt\u00e1s n\u00e1la, de ezt csak az tudja
+  eld\u00f6nteni aki l\u00e1tta is.\\nAm\u00fagy szerintem (az elej\u00e9n sz\u00e1nalom)
+  jel\u00f6l\u00e9sekkel, min\u0151s\u00e9gibb munk\u00e1ra b\u00e1tor\u00edtan\u00e1k
+  a st\u00fadi\u00f3kat ezekben a kateg\u00f3ri\u00e1j\u00fa filmekben is, hogy azt\u00e1n
+  k\u00e9s\u0151bb nem is lenne sz\u00e1nalomjel\u00f6lt \u00e9s lehet Ethan sz\u00e1m\u00e1ra
+  is jobban elmos\u00f3dn\u00e1nak a hat\u00e1rok. K\u00edv\u00e1ncsi vagyok mit gondol
+  a V\u00edz \u00e9rint\u00e9s\u00e9r\u0151l\u2026mert v\u00e9g\u00fcl is \u2026ott
+  egy halember meg egy szint\u00e9n szuperl\u00e9gz\u00e9s k\u00e9pess\u00e9g\u0171
+  n\u0151 adt\u00e1k egym\u00e1snak a tutit\u2026b\u00e1r nekik nem volt egyenruh\u00e1juk
+  \u00e9s a vil\u00e1got se mentett\u00e9k meg :D\\nA k\u00e9preg\u00e9ny filmeket
+  a tucat\u00e1ruhoz lehetne hasonl\u00edtani, sok n\u00e9z\u0151nek kell megfelelnie,
+  lehet\u0151leg \u00f6sszef\u00fcgg\u0151eknek kell lenni\u00fck, hogy lehessen univerzumot
+  \u00e9p\u00edteni, ami nem baj, de t\u00e9ny az, hogy igazi \u201ct\u00f6k\u00f6ss\u00e9get\u201d
+  nem ezekben a filmekben kell keresni. Ilyen nagys\u00e1grend\u0171 inform\u00e1ci\u00f3s
+  zajban pedig a hypevonat m\u00e9rete is fontos, a k\u00e9preg\u00e9nyfilmekn\u00e9l
+  ez tiszt\u00e1n l\u00e1tszik.\\nA felszinen igaza van, amugy meg valahol marhara
+  nem, pont szerencsetlenul valsztott filmet mert pont egyreszt a Logan meg a Dark
+  Knight az a ket kepregeny film ami siman melle rakhato mondjuk a Brave Heartnak
+  vagy a Ponyvaregenynek vagy Hetediknek olyan ertelemben hogy ezek se csak jo tortenelmi
+  filmek, gengszter filmek vagy thrillerek, hanem tenyleg jo filmek bar ugyanakkor
+  meg ezek se Bergman. Mondjuk a Logan meg a Dark Knight az a ket kepregeny film ami
+  az osccar mezonyben a most bevezetett nepszeru kategorian kivul a \u201ckomoly filmes\u201d
+  kategoriabol se igazan logott volna ki. De csereljuk ki a film cimeket az allitasaban:
+  A keresztapa egy fantasztikus film de csak egy fantasztikus gengszter film nem Bergman.
+  Igaz amit mond?Igen. Van ertelme egy ilyen kijelentesnek? Nem igazan. Kb a Hold
+  egy csodalatos egitest de csak egy hold es nem Nap. Hmm. Tenyleg. Orulok hogy ezt
+  tisztaztuk, mert mar kezdtem osszezavarodni es azt hinni hogy mindkettonek ugyanaz
+  a funkcioja. A masik hogy a Logan-t mint kepregeny filmet ostorozni a olyan mint
+  az Unforgiven-t le csak wesztern filmezni.Kb a Logan ugyanaz a kepregeny filmeknek
+  mint az unforgiven vagy az egy marek dollar a wesztern filmek kozott (nem jelentoseget
+  hanem jelleget tekintve). Mindketto anti-western (revisionist western) mint ahogy
+  a kis nagy ember is az, vagy ahogy a Logan meg anti-comic book film vagyis ahogy
+  azok megkerdojelezik a tradicionalis western filmek ertekeit + stilusat ugy a Logan
+  ugyanezt teszi a kepregeny filmekkel.Pl a Vasember vagy az Avengers tenyleg \u201ccsupan\u201d
+  csak jo kepregeny filmek es mondjuk nekik szukseg volt egy popularis film kategoriara
+  az Oscaron hogy ne huzza az ember a szajat ha legjobb film kategoriban latta volna
+  oket az ember, szerintem a Logan-nek meg nem igazan. Az meg hogy egyesek szerint
+  nem emlitheto egy lapon a keresztapaval valahol igaz ugyanugy mint ahogy az oscar
+  dijazott filmek egy jelentos hanyada se emlitheto egy lapon a keresztapaval ami
+  nem feltetlen jelenti azt hogy rossz filmek lennenek vagy csak a sajat kategoriajukon
+  belul lennenek jo filmek.\\nSzerintem az a kijelentes ami itt fentebb el hangzott,
+  hogy a fekete parduc is meg a Logan is jo keperegeny film nem igazan helyt allo,
+  mert pont a fekete parduc nem jo kepregeny film meg nem is jo film sot tovabb megyek
+  meg csak nem os jo marvel film, a suicide squad meg igazan filmnek se nevezheto,
+  csak klippek egymas utan hajingalva + mint elobb irtam a Logan meglehetosen kilog
+  a kepregeny film mezonybol mint ahogy az emlitett Unforgiven is attol meg hogy alapvetoen
+  western film eleg mesze van azert a hos korszak western filmjeitol.\\nfelejts\u00e9tek
+  m\u00e1r el, hogy a Get Out nem komoly film, hanem egy szinten van a k\u00e9preg\u00e9nyekkel.
+  Elhiszem, hogy nem tetszett, engem sem ny\u0171g\u00f6z\u00f6tt le, de nem sz\u00e1nalomjel\u00f6l\u00e9s
+  miatt jutott el\u0151r\u00e9bb, mint egy Wonder Woman vagy egy random Marvel film.\\n\u201cA
+  m\u0171v\u00e9szet sz\u00f3 t\u00e1gabb \u00e9rtelemben minden alkot\u00f3 c\u00e9l\u00fa
+  emberi igyekezetre vonatkoztathat\u00f3\u201d\\nA Get Out a fekete \u00fczenet miatt
+  jutott el od\u00e1ig, semmi m\u00e1s\u00e9rt. Ahogy a Black Panther is az\u00e9rt
+  fogja megnyerni a popul\u00e1ris kateg\u00f3ri\u00e1t, semmi m\u00e1s\u00e9rt.\\nA
+  halemberes film is csak a Trump ellenes Hollywood miatt lehetett best picture nyertes,
+  de ez csak az \u00e9n v\u00e9lem\u00e9nyem.\\nNekem r\u00e1ad\u00e1sul tetszett
+  a Get out \u00e9s pont nem kitolni akarom onnan, de szint\u00e9n egy \u00fagymond
+  len\u00e9zett, nem s\u0171r\u0171n d\u00edjazott kateg\u00f3ri\u00e1b\u00f3l \u00e9rkezett
+  \u00e9s azok k\u00f6z\u00f6tt lett popul\u00e1ris darab \u00e9s jutott be\u2026nem
+  mondhatjuk r\u00e1 azt sem, hogy m\u0171v\u00e9szileg annyira \u00fajat mutatott
+  volna, j\u00f3 film volt, de most akkor Ethan-t n\u00e9zve egy j\u00f3 horror film.\\nszeretem
+  a legt\u00f6bb marvel filmet, de igaza van. \u00e9s?! :)\\nTeljesen jogos. \u00c9n
+  is k\u00e9preg\u00e9ny fan vagyok 20 \u00e9ve de a k\u00e9preg\u00e9ny filmek nem
+  m\u0171v\u00e9szfilmek. Popcorn mozik mint b\u00e1rmelyik m\u00e1sik agyatlan blockbuster.
+  De h\u00e1t ilyen vil\u00e1gban \u00e9l\u00fcnk. Nem lehet ellenkez\u0151 v\u00e9lem\u00e9nye
+  senkinek mert a v\u00e9g\u00e9n megs\u00e9rt valakit. :D\\nEgy\u00e9bk\u00e9nt a
+  Logan hi\u00e1ba nagyon j\u00f3 film az se m\u0171v\u00e9szfilm.\\nR\u00f6hej hogy
+  ekkora partit csapnak egy ilyen nyilv\u00e1nval\u00f3 kijelent\u00e9s miatt.\\nnem
+  szeretn\u00e9k p\u00e1lc\u00e1t t\u00f6rni semmi felett. gyorsan v\u00e9gigp\u00f6rgettem
+  magamban az \u00e1ltalam ismert k\u00e9preg\u00e9ny filmeket. nem eml\u00edtett\u00e9tek,
+  de a st\u00edlusa miatt szerintem a Sin city vizu\u00e1lis m\u0171v\u00e9szeti mondanival\u00f3val,
+  az\u00e9rt meg volt t\u00e1mogatva. mondanival\u00f3ban nyilv\u00e1n nem tal\u00e1lunk
+  olyat, ami m\u0171v\u00e9szi b\u00e1rmelyiket is ves\u00e9zz\u00fck ki. de az\u00e9rt
+  ne felejts\u00fck el azt se, hogy lehet valamelyik rendez\u0151 k\u00e9sz\u00edtene
+  ilyet, de a st\u00fadi\u00f3 biztos les\u00f6p\u00f6rn\u00e9, vagy ellent\u00e9tekre
+  hivatkozva \u00e1trendeztetn\u00e9k egy b\u00e9renccel a m\u0171vet.\\nEz egy mindig
+  \u00e9rdekes t\u00e9ma (\u201cm\u0171v\u00e9szfilmek\u201d vs. blockbusterek)- b\u00e1r
+  nekem most az a v\u00e9lem\u00e9nyem hogy egy kicsit t\u00fal van lihegve a k\u00e9preg\u00e9nyfilmek
+  miatt.\\nEl\u0151sz\u00f6r is nekem semmi er\u0151fesz\u00edt\u00e9sembe nem ker\u00fcl
+  \u00f6sszehasonl\u00edtani a\\nA galaxis \u0151rz\u0151it a Ponyvareg\u00e9nnyel.\\n\u00e9n
+  speciel mindk\u00e9t eml\u00edtett filmre 10/10-et adn\u00e9k. De hogy melyik lenne
+  a jobb film? \u2013 nemis tudom most hirtelen, melyiket n\u00e9zn\u00e9m meg most
+  sz\u00edveseben \u00fajra? \u2013 nemis tudom\u2026 att\u00f3l f\u00fcgg milyen
+  kedvem van \u00e9ppen.\\nHelye lenne eme k\u00e9t filmek egy ugyanazon filmes list\u00e1n?
+  \u2013 szerintem sim\u00e1n \u2013 az eny\u00e9men biztos \u2013 helye lenne-e eme
+  k\u00e9t filmek egy d\u00edj\u00e1tad\u00f3 kateg\u00f3ri\u00e1ban? \u2013 v\u00e9lem\u00e9nyem
+  szerint sim\u00e1n. (\u00e9s pont ez\u00e1ltal lehetne \u00e9rdekesebb\u00e9 tenni
+  egy d\u00edj\u00e1tad\u00f3t)\\nLehet k\u00fcl\u00f6n n\u00e9zni csak a k\u00e9preg\u00e9nyfilmket
+  meg csak a dr\u00e1m\u00e1kat, meg ak\u00e1rmelyik kateg\u00f3ri\u00e1t, de egybe
+  is lehet n\u00e9zni az eg\u00e9szet, \u00e9pp ez a l\u00e9nyeg.\\nEthan Hawk szerint
+  a Logan az nem egy J\u00f3 Film, csak egy j\u00f3 k\u00e9preg\u00e9nyfilm \u2013
+  \u00c9n ezzel ez\u00e9rt ilyen form\u00e1ban nem \u00e9rtek egyet,\\nA Logan egy
+  j\u00f3 k\u00e9preg\u00e9nyfilm ha csak a k\u00e9preg\u00e9nyfilmeket n\u00e9zz\u00fck
+  \u00e9s egy j\u00f3 film \u2013 ha a k\u00fcl\u00f6nb\u00f6z\u0151 kateg\u00f3ri\u00e1j\u00fa
+  filmeket n\u00e9zz\u00fck egy kalap alatt \u00e9s mi\u00e9rt ne tehetn\u00e9nk ilyet??
+  \u2013 a film kateg\u00f3ri\u00e1ba belef\u00e9r mindkett\u0151.\\nMert ki mondja
+  meg hogy hol kezd\u0151dik a \u201cm\u0171v\u00e9szfilmek\u201d/m\u00e9lyebb dr\u00e1m\u00e1k
+  hat\u00e1ra? Forrest Gump m\u00e1r m\u00e9lyebb dr\u00e1ma a The Dark Knight meg
+  m\u00e9g nem\u2026 ezen az id\u0151k v\u00e9gezet\u00e9ig leheten vitatkozni\\nMindk\u00e9t
+  film egy \u00f3ri\u00e1si \u00e9lm\u00e9nyt ad (m\u00e9g ha kiss\u00e9 m\u00e1shogy
+  is) \u00e9s ez teszi \u0151ket j\u00f3 filmekk\u00e9 \u00e9s ez teszi \u0151ket
+  feledhetelen alkot\u00e1sokk\u00e1 az egy\u00e9n sz\u00e1m\u00e1ra. Valkinek ezt
+  az \u00e9lm\u00e9nyt a Logan is megadja, m\u00e1snak nem.\\nSokaknak a Black Phanter
+  is megadja\u2026sokaknak nem.\\nVannak akiknek az Armageddon is megadja ezt az \u00e9lm\u00e9nyt.(Pl
+  nekem is :)\\n\u00c9s ott van kedvenc filmeim k\u00f6z\u00f6tt a Hetedik meg a fentebb
+  eml\u00edtett filmek k\u00f6z\u00f6tt. Ez filmenk\u00e9nt m\u00e1s \u00e9s m\u00e1s.\\n\u00d6sszegezve
+  az eg\u00e9sz k\u00e9d\u00e9snek val\u00f3j\u00e1ban tal\u00e1n semmi \u00e9rtelme,
+  de k\u00f6szi Ethan Hawk hogy feldobtad a t\u00e9m\u00e1t, mert am\u00fagy t\u00f6k
+  j\u00f3 rajta vit\u00e1zni. :)\\nHaksi j\u00f3l besz\u00e9l, ez az ember okos, figyeljetek
+  r\u00e1 nagyon! :)\\n\u201cEl\u0151sz\u00f6r is nekem semmi er\u0151fesz\u00edt\u00e9sembe
+  nem ker\u00fcl \u00f6sszehasonl\u00edtani a\\nA galaxis \u0151rz\u0151it a Ponyvareg\u00e9nnyel.\u201d\\nh\u00e1t
+  Hawke nem is ezeket hasonl\u00edtotta \u00e1m \u00f6ssze :) Gondolom direkt keveritek
+  a filmeket, hogy elmoss\u00e1tok a hat\u00e1rt.\\n\u201cAm\u00fagy \u00e9rdekes,
+  mert t\u00e9nyleg mindenhonnan azzal t\u00e1madj\u00e1k, hogy sznobos a kijelent\u00e9s\u2026\u201d\\nSz\u00e1momra
+  a Logan egy er\u0151sen felejt\u0151s darab volt. Rossznak nem nevezn\u00e9m, de
+  semmi extra. Viszont ez a \u201cIt\u2019s not Bresson. It\u2019s not Bergman.\u201d
+  sz\u00f6veg egy sznob bullshit. \u00c9rtem \u00e9n mit akart a m\u0171v\u00e9sz
+  \u00far kihozni a mond\u00f3k\u00e1j\u00e1b\u00f3l, de ez a fajta giccses p\u00e9ld\u00e1l\u00f3z\u00e1s,
+  hiteltelenn\u00e9 teszi. Mintha azt mondan\u00e1m, hogy amit nem Hitchcock k\u00e9sz\u00edtett,
+  vagy nem olyan a st\u00edlusa mint amilyet Hitchcock k\u00e9sz\u00edtett volna,
+  az m\u00e1r nem is lehet remek horror film. Pedig h\u00e1t\u2026 Csak h\u00e1t ugye
+  Hitchcock meg Bresson meg Bergman azok azt\u00e1n valakik\u2026 Egy Gattaca-val
+  m\u00e1r csak nem dob\u00e1l\u00f3zhat, hisz nem azt tan\u00edtj\u00e1k a c\u00e9lir\u00e1ny\u00fa
+  iskol\u00e1kban.\\nMiel\u0151tt valaki leharapn\u00e1 a fejem, f\u00e9lre\u00e9rt\u00e9s
+  ne ess\u00e9k, minden tiszteletem az urak ir\u00e1nt, az amit a korukban el\u00e9rtek,
+  csod\u00e1latra m\u00e9lt\u00f3. Nagyon komoly elismer\u00e9seket szereztek, rengeteg
+  d\u00edjat bezsebeltek. De a 60-as 70-es \u00e9vekben \u00e9lt\u00e9k a f\u00e9nykorukat.
+  Hawke egy 2017-es k\u00e9preg\u00e9nyfilm ellen dob\u00e1l\u00f3zik a 60-as 70-es
+  \u00e9vek m\u0171v\u00e9sz filmjeivel. Ennek azt\u00e1n igaz\u00e1n sok \u00e9rtelme
+  van. Zseni\u00e1lis korunkbeli filmekkel p\u00e9ld\u00e1l\u00f3zhatott volna, fele
+  ennyi haragosa nem lett volna, de h\u00e1t ugye ezek \u00edgy mennyivel jobban hangzanak,
+  mennyivel nagyobb a szakad\u00e9k, a kontraszt a k\u00e9t m\u0171faj k\u00f6z\u00f6tt.
+  Na ez a sznobs\u00e1g.\\n\u201cSzerinte van k\u00fcl\u00f6nbs\u00e9g, m\u00edg a
+  st\u00fadi\u00f3k szerint nincs\u2026\u201d\\nMint mondtam, \u00e9rtem \u00e9n mire
+  akart utalni Hawke, de nekem nem j\u00f6tt \u00e1t, hogy a st\u00fadi\u00f3k az
+  \u00faj Bresson \u2013 Bergman p\u00f3tl\u00e9kk\u00e9nt \u00e1rult\u00e1k volna
+  ak\u00e1r a Logan-t, ak\u00e1r a t\u00f6bbi k\u00e9preg\u00e9ny filmet. Persze hogy
+  tolt\u00e1k a hangzatos nagy szavakat, de sosem egy m\u00e9ly tartalm\u00fa m\u0171v\u00e9szfilmk\u00e9nt
+  vagy kamaradr\u00e1mak\u00e9nt rekl\u00e1mozt\u00e1k \u0151ket, akkor ne ezekkel
+  akarjuk m\u00e1r \u00f6sszehasonl\u00edtani.\\nM\u00e9g j\u00f3, hogy a Ponyvareg\u00e9ny
+  c. filmet m\u00e1r eleve arr\u00f3l nevezt\u00e9k el, hogy \u201cponyvareg\u00e9ny\u201d.\\nDe
+  ki mondta, hogy a k\u00e9preg\u00e9nyfilmek dr\u00e1m\u00e1k?\\nA Marvel filmekkel
+  egy bajom van (na j\u00f3, t\u00f6bb is, de f\u0151k\u00e9nt el\u00e9gedett vagyok,
+  \u00e9s egy fontosabb probl\u00e9ma k\u00f6rvonalaz\u00f3dott ki bennem), ehhez
+  pedig hadd id\u00e9zzem a Hihetetlen Csal\u00e1dot. \u201c\u00c9s ha mindenki szuper,
+  akkor senki sem az.\u201d Vagyis ha minden Marvel film kiemelked\u0151, akkor egyik
+  sem lesz az.\\nBevallom \u00e9n is unom m\u00e1r. N\u00e9ha j\u00f3 egy-egy val\u00f3s\u00e1gt\u00f3l
+  elsz\u00e1lltabb film, de sokkal ink\u00e1bb n\u00e9zn\u00e9k olyan h\u0151s\u00f6ket,
+  akik nem szuperek (mint Batman pl.), hanem a h\u00e9tk\u00f6znapi \u00e9letben oldanak
+  meg gondokat. Vagy esetleg valamiben kiemelked\u0151k.\\nKudos Ethan.\\nSo f4ckin\u2019
+  true.\\nTeljesen igaza van!\\nTeljesen igaza van.\\nEz kb olyan mint amikor valaki
+  azt mondja, hogy az Inception igazi eredeti sci-fi top 1.\"", "\"Hit \u00e9s lelki
+  \u00e9let\\n- Kateg\u00f3ria: Hit \u00e9s lelki \u00e9let\\nKi mondhatja el, hogy
+  soha \u00e9let\u00e9ben nem n\u00e9lk\u00fcl\u00f6z\u00f6tt semmit? Ki nem \u00e9rezte
+  egy f\u00e9rj, egy feles\u00e9g, sz\u00fcl\u0151 vagy gyermek, bar\u00e1t, rokon,
+  vagy m\u00e1s, alapvet\u0151en sz\u00fcks\u00e9ges dolog hi\u00e1ny\u00e1t? S\u00e1muel
+  pr\u00f3f\u00e9ta \u00e9desanyja, Anna t\u00f6rt\u00e9nete sz\u00e1mos tanuls\u00e1ggal
+  szolg\u00e1lhat mindny\u00e1junk sz\u00e1m\u00e1ra. Ann\u00e1t viszonylag ritk\u00e1n
+  emlegetik a hit p\u00e9ldak\u00e9pei k\u00f6z\u00f6tt, pedig \u00e9rdemes vele k\u00f6zelebbr\u0151l
+  megismerkedn\u00fcnk. Abban a bibliai id\u0151ben, amikor a t\u00f6bbnej\u0171s\u00e9g
+  term\u00e9szetes \u00e9s megengedett volt, Anna \u2013 nem egyed\u00fcli feles\u00e9gk\u00e9nt
+  \u2013 f\u00e9rje sz\u00edv\u00e9nek teljes szeretet\u00e9t \u00e9lvezte. M\u00e9gis
+  b\u00e1nat gy\u00f6t\u00f6rte: hossz\u00fa \u00e9vek ut\u00e1n sem sz\u00fclettek
+  gyermekei\u2026\\n- Kateg\u00f3ria: Hit \u00e9s lelki \u00e9let\\nSaj\u00e1t tapasztalatb\u00f3l
+  tudom, hogy nem k\u00f6nny\u0171 megbocs\u00e1tani. De azt is tudom, hogy lehets\u00e9ges.
+  A Bibli\u00e1ban az olvassuk, hogy Isten erej\u00e9vel b\u00e1rmit meg tudunk tenni,
+  ami sz\u00fcks\u00e9ges: \u201eMindenre van er\u0151m Krisztusban, aki engem meger\u0151s\u00edt.\u201d
+  (Filippi 4:13)\\nGyermekeink sz\u00edve a fontos\\n\u201eMindketten dolgozunk, m\u00e1sr\u00e9szt
+  mindketten v\u00e9gz\u00fcnk h\u00e1zimunk\u00e1t, nevelj\u00fck a gyerekeket. Teh\u00e1t
+  skandin\u00e1v m\u00f3don egyen\u00e9rt\u00e9k\u0171ek \u00e9s egyenjog\u00faak
+  vagyunk, de mindenben a f\u00e9rjem d\u00f6nt, \u00e9s \u0151 is v\u00e1llalja a
+  felel\u0151ss\u00e9get. \u00c9n seg\u00edtek neki megval\u00f3s\u00edtani, amit
+  eld\u00f6nt\u00f6tt. Ebb\u0151l a szempontb\u00f3l viszont teljesen konzervat\u00edv
+  csal\u00e1dmodellben \u00e9l\u00fcnk\u201d \u2013 mondja el lapunknak Balogh Piroska,
+  egy hatgyermekes \u00e9desanya.\\nA vele k\u00e9sz\u00fclt besz\u00e9lget\u00e9sben
+  arra is kit\u00e9r, hogyan fejl\u0151d\u00f6tt f\u00e9rj\u00e9vel a p\u00e1rkapcsolatuk,
+  milyen gyakorlati dolgok seg\u00edtenek neki \u00f6sszefogni a h\u00e1ztart\u00e1st,
+  \u00e9s hogyan alakul a kapcsolata mindek\u00f6zben Istennel.\\nS\u00e9rtetlen sz\u00edvvel\\nMindannyiunkat
+  \u00e9rnek apr\u00f3bb-nagyobb s\u00e9relmek: valaki udvariatlanul szolg\u00e1l
+  ki, sorban \u00e1ll\u00e1s k\u00f6zben el\u00e9nk tolakodnak, m\u00e1skor a zebr\u00e1n
+  vagy \u00e9pp kanyarod\u00e1sn\u00e1l g\u00e1zolnak \u00e1t az els\u0151bbs\u00e9ghez
+  val\u00f3 jogunkon. El\u0151fordulhat, hogy tapasztalatainkat, hozz\u00e1\u00e9rt\u00e9s\u00fcnket
+  vonj\u00e1k k\u00e9ts\u00e9gbe. Esetleg a korunkat vagy a csal\u00e1di hierarchi\u00e1ban
+  elfoglalt hely\u00fcnket veszik semmibe. B\u00e1nt\u00f3 gesztusok, b\u00e1nt\u00f3
+  hangnem \u2013 megannyi apr\u00f3bb-nagyobb t\u0171sz\u00far\u00e1s.\\nEzt senki
+  sem \u00faszhatja meg s\u00e9rtetlen\u00fcl, \u00fagyhogy \u00e9get\u0151 a k\u00e9rd\u00e9s:
+  hogyan v\u00e1lhatunk \u00fajra \u00e9pp\u00e9, s\u00e9rtetlenn\u00e9? Cikk\u00fcnk
+  gyakorlatiasan k\u00f6zel\u00edti meg a megbocs\u00e1t\u00e1s, elenged\u00e9s k\u00e9rd\u00e9s\u00e9t.\\nTehetetlen
+  vagyok\u2026 Mit tegyek?\\nManaps\u00e1g is sokan menek\u00fclnek a val\u00f3s\u00e1g
+  el\u0151l \u00e9s mer\u00fclnek az ill\u00fazi\u00f3k vil\u00e1g\u00e1ba \u2013
+  megn\u00e9znek egy \u00fajabb t\u00e9v\u00e9epiz\u00f3dot, m\u00e9g egy \u00f3r\u00e1t
+  g\u00f6rgetik a mobiljukat, esetleg \u00fajabb p\u00e1r cip\u0151t rendelnek, b\u00e1r
+  igaz\u00e1b\u00f3l nincs is sz\u00fcks\u00e9g\u00fck r\u00e1... A jelens\u00e9g
+  azonban nem csak a k\u00f6z\u00f6ss\u00e9gi m\u00e9dia \u00e9s az online v\u00e1s\u00e1rl\u00e1s
+  l\u00e9tez\u00e9se \u00f3ta ismert. M\u00e1r a negyedik sz\u00e1zad idej\u00e9n,
+  az \u00e9szak-afrikai sivatagban visszavonultan \u00e9l\u0151 szerzeteseknek is
+  volt r\u00e1 kifejez\u00e9s\u00fck: ak\u00e9dia. Vagyis: az ember vonakodik, hogy
+  az er\u0151fesz\u00edt\u00e9ssel j\u00e1r\u00f3 dolgokat megtegye, ink\u00e1bb kit\u00e9r
+  el\u0151l\u00fck.\\nCikk\u00fcnk v\u00e1laszt keres arra, hogy ha a jellemz\u0151k
+  alapj\u00e1n felismert\u00fck probl\u00e9m\u00e1nkat, mi mindent tehet\u00fcnk ellene.\"",
+  "\"kiz\u00e1r\u00f3lag szem\u00e9lyes \u00e1tv\u00e9tellel Budapest belv\u00e1ros\u00e1ban!\\ngy\u00f6ny\u00f6r\u0171,
+  hib\u00e1tlan \u00e1llapot\u00fa k\u00f6nyv, ez\u00e9rt jel\u00f6ltem \u00fajnak.
+  a fot\u00f3k s\u00e1rga f\u00e9nyn\u00e9l k\u00e9sz\u00fcltek, eln\u00e9z\u00e9st
+  \u00e9rte.\\nfelel\u0151s szerkeszt\u0151: N\u00e9meth Levente\\n207 oldal, eredeti
+  \u00e1ra: 6500.-\\nf\u00fclsz\u00f6veg:\\nA tervez\u0151grafika mindennapjaink m\u0171v\u00e9szet\u00e9v\u00e9
+  v\u00e1lt. K\u00f6r\u00fclvesz benn\u00fcnket t\u00e1rgyainkon, k\u00f6nyveinkben,
+  a rekl\u00e1mokban, \u00e9lelmiszereinken... Ez\u00e9rt, akik felel\u0151ss\u00e9ggel
+  m\u0171velik ezt a szakm\u00e1t, tudj\u00e1k, hogy a k\u00f6z\u00edzl\u00e9st nem
+  csak kiszolg\u00e1lni lehet, hanem alak\u00edtani is. Ezt szeretn\u00e9 bemutatni
+  ez a k\u00f6nyv, 72 alkot\u00f3 t\u00f6bb mint 200 alkot\u00e1s\u00e1n kereszt\u00fcl.
+  Az anyagot a magyar \u00e9s k\u00fclf\u00f6ldi tervez\u0151grafikusok prominens
+  tagjai zs\u0171rizt\u00e9k, k\u00f6zel 160 tervez\u0151 mintegy 2500 munk\u00e1j\u00e1b\u00f3l
+  v\u00e1logatva.\\ntartalom:\\nembl\u00e9m\u00e1k\\narculatok\\nplak\u00e1tok\\nkiadv\u00e1nyok\\ncsomagol\u00e1sok\\nk\u00f6nyvek\\n(az
+  elad\u00f3hoz int\u00e9zett k\u00e9rd\u00e9sek \u00e9s v\u00e1laszok itt jelennek
+  meg)\\nMutasd meg m\u00e1soknak is!\"", "\"Mikor van sz\u00fcks\u00e9g biopszi\u00e1ra?
+  Ezen elj\u00e1r\u00e1sok hosszabb rehabilit\u00e1ci\u00f3t ig\u00e9nyelnek \u00e9s
+  sokszor h\u00f3napokig, de ak\u00e1r \u00e9vekig is eltart, m\u00edg a porchi\u00e1nyt
+  siker\u00fcl megfelel\u0151 porcsz\u00f6vettel fedni. R\u00f6gz\u00edt\u00e9s[ szerkeszt\u00e9s
+  ] K\u00e9miai r\u00f6gz\u00edt\u00e9s formaldehiddel vagy m\u00e1s vegyszerekkel[
+  szerkeszt\u00e9s ] A k\u00e9miai r\u00f6gz\u00edt\u0151szereket a sz\u00f6vet leboml\u00e1sa
+  ellen \u00e9s a sejtek porc sz\u00f6vettani mint\u00e1k szubcellul\u00e1ris komponensek,
+  p\u00e9ld\u00e1ul sejtmag, mitokondriumok struktur\u00e1j\u00e1nak meg\u0151rz\u00e9s\u00e9hez
+  haszn\u00e1lj\u00e1k.\\n- \u00c9les f\u00e1jdalom a k\u00f6ny\u00f6k\u00edz\u00fcletben
+  ha behajlik\\n- F\u00e1j az ujj \u00edz\u00fclete\\nEzek a r\u00f6gz\u00edt\u0151anyagok
+  meg\u0151rzik a sz\u00f6veteket illetve sejteket, els\u0151sorban irreverzibilis
+  t\u00e9rh\u00e1l\u00f3s\u00edt\u00f3 feh\u00e9rj\u00e9k seg\u00edts\u00e9g\u00e9vel.
+  Ezeknek az aldehid-r\u00f6gz\u00edt\u0151szereknek az a f\u0151 hat\u00e1sa, hogy
+  a feh\u00e9rj\u00e9kben metil\u00e9ngy\u00f6k -CH 2 - k\u00e9pz\u0151d\u00e9s \u00fatj\u00e1n
+  t\u00e9rh\u00e1l\u00f3s\u00edtanak aminocsoportokat formaldehid illetve C 5 H 10
+  keresztk\u00f6t\u00e9sekkel glut\u00e1raldehid eset\u00e9n.\\nEz a folyamat, a sejtek
+  \u00e9s sz\u00f6vetek szerkezeti integrit\u00e1s\u00e1nak meg\u0151rz\u00e9se mellett,
+  k\u00e1ros\u00edthatja a feh\u00e9rj\u00e9k, k\u00fcl\u00f6n\u00f6sen enzimek biol\u00f3giai
+  funkcionalit\u00e1s\u00e1t, \u00e9s bizonyos m\u00e9rt\u00e9kig denatur\u00e1lhatja
+  ezeket. Ez k\u00e1ros lehet egyes sz\u00f6vettani technika alkalmaz\u00e1sakor.\\nMit\u0151l
+  betegszik meg a t\u00e9rd\u00edz\u00fclet? - Porc sz\u00f6vettani mint\u00e1k\\nAz
+  elektronmikroszk\u00f3pos vizsg\u00e1latokhoz szint\u00e9n gyakran haszn\u00e1lnak
+  ozmium-tetroxid vagy uranil-acet\u00e1t r\u00f6gz\u00edt\u0151szert. Azonban a nukleinsavak
+  \u00e9s feh\u00e9rj\u00e9k extrakci\u00f3ja \u00e9s anal\u00edzise formalin-r\u00f6gz\u00edtett,
+  paraffinba \u00e1gyazott sz\u00f6vetekb\u0151l megfelel\u0151 porc sz\u00f6vettani
+  mint\u00e1k seg\u00edts\u00e9g\u00e9vel lehets\u00e9ges.\\nFagyaszt\u00e1sos r\u00f6gz\u00edt\u00e9s[
+  szerkeszt\u00e9s ] A fagyaszt\u00e1sos elj\u00e1r\u00e1s gyors m\u00f3dja a sz\u00f6vettani
+  metszetek r\u00f6gz\u00edt\u00e9s\u00e9nek \u00e9s t\u00e1rgylemezre vitel\u00e9nek,
+  egy krioszt\u00e1t m\u00e9lyh\u0171t\u0151berendez\u00e9s haszn\u00e1lat\u00e1val.\\nPorc
+  p\u00f3tl\u00e1s Gyakran haszn\u00e1lj\u00e1k a daganatok m\u0171t\u00e9ti elt\u00e1vol\u00edt\u00e1sa
+  ut\u00e1n, ami lehet\u0151v\u00e9 teszi annak hat\u00e1rainak gyors ellen\u0151rz\u00e9s\u00e9t,
+  vagyis hogy a daganat teljesen el van-e t\u00e1vol\u00edtva. Feldolgoz\u00e1s -
+  kisz\u00e1r\u00edt\u00e1s, tiszt\u00edt\u00e1s \u00e9s \u00e1titat\u00e1s[ szerkeszt\u00e9s
+  ] A prepar\u00e1l\u00e1s c\u00e9lja, hogy elt\u00e1vol\u00edtsa a vizet a sz\u00f6vetekb\u0151l,
+  \u00e9s egy olyan k\u00f6zeggel cser\u00e9lje ki, amely megszil\u00e1rdul \u00e9s
+  porc sz\u00f6vettani mint\u00e1k teszi a v\u00e9kony szeletek v\u00e1g\u00e1s\u00e1t.\\nPorc
+  sz\u00f6vettani mint\u00e1k, Porc p\u00f3tl\u00e1s | Kast\u00e9lypark Klinika\\nF\u00e9nymikroszk\u00f3pos
+  vizsg\u00e1lathoz leggyakrabban m\u00e9hviasszal kevert paraffint alkalmaznak. Mivel
+  v\u00edzzel, ami sz\u00f6vet legfontosabb \u00f6sszetev\u0151je, nem elegyedik,
+  a vizet el\u0151sz\u00f6r dehidrat\u00e1ci\u00f3val el kell elt\u00e1vol\u00edtani.
+  A mint\u00e1kat a fokozatosan egyre koncentr\u00e1ltabb etanol -f\u00fcrd\u0151n
+  kereszt\u00fcl vezetik \u00e1t a v\u00edz elt\u00e1vol\u00edt\u00e1s\u00e1ra.\\nEzt
+  k\u00f6veti egy hidrof\u00f3b tiszt\u00edt\u00f3szer p\u00e9ld\u00e1ul xilolamely
+  elt\u00e1vol\u00edtja az alkoholt, \u00e9s v\u00e9g\u00fcl k\u00f6vetkezik az olvadt
+  paraffin, az \u00e1titat\u00f3szer, amely a xilolt helyettes\u00edti. A paraffin
+  nem k\u00e9pez el\u00e9g kem\u00e9ny szerkezetet az elektronmikroszk\u00f3pos vizsg\u00e1lathoz
+  sz\u00fcks\u00e9ges nagyon v\u00e9kony szeletek v\u00e1g\u00e1s\u00e1hoz.\\n- Balzsamot
+  v\u00e1s\u00e1rolni csontokhoz \u00e9s \u00edz\u00fcletekhez\\n- Porc sz\u00f6vettani
+  mint\u00e1k - Mit\u0151l betegszik meg a t\u00e9rd\u00edz\u00fclet?\\n- E\u0449e
+  \u0437\u0434ecb \u0431\u044b\u043b Be\u0449eBo\u0439 Me\u0448ok, koTop\u044b\u0439
+  \u043fo\u043b\u0438\u0446\u0438\u044f B\u0437\u044f\u043ba B oTe\u043be, r\u0434e
+  ocTaHoB\u0438\u043bc\u044f \u044dToT \u0447e\u043boBek.\\n- OHa ocTaHoB\u0438\u043bacb
+  \u0438 cHoBa Ha\u0447a\u043ba Br\u043b\u044f\u0434\u044bBaTbc\u044f B r\u043by\u0431b
+  \u043foMe\u0449eH\u0438\u044f TpeTbero y\u0437\u043ba.\\n- y Te\u0431\u044f xopo\u0448ee
+  \u0447yTbe, - \u043fap\u0438poBa\u043b CTpaTMop, - Ho ecTb koe-\u0447To .\\n- Reped\u00e9sek
+  a kezek kezel\u00e9se\\n- Sz\u00f6vettan \u2013 Wikip\u00e9dia\\nM\u00e1gneses rezonanciavizsg\u00e1lat
+  MR Ehelyett k\u00fcl\u00f6nb\u00f6z\u0151 gyant\u00e1kat haszn\u00e1lj\u00e1k. Az
+  epoxi gyanta a leggyakrabban alkalmazott be\u00e1gyaz\u00f3 porc sz\u00f6vettani
+  mint\u00e1k, de akrilgyant\u00e1t is haszn\u00e1lnak, k\u00fcl\u00f6n\u00f6sen immunhisztok\u00e9mi\u00e1s
+  vizsg\u00e1latokn\u00e1l. A gyant\u00e1val porc sz\u00f6vettani mint\u00e1k sz\u00f6vetekb\u0151l
+  vastagabb szeletek 0,35 um-5 um is v\u00e1ghat\u00f3k f\u00e9nymikroszk\u00f3pos
+  vizsg\u00e1lat c\u00e9lj\u00e1ra. Mivel az epoxi \u00e9s porc sz\u00f6vettani mint\u00e1k
+  gyant\u00e1k sem keverednek v\u00edzzel, itt is sz\u00fcks\u00e9gess\u00e9 v\u00e1lik
+  a dehidrat\u00e1l\u00e1s.\\nBe\u00e1gyaz\u00e1s[ szerkeszt\u00e9s ] Miut\u00e1n
+  a sz\u00f6veteket megtiszt\u00edtott\u00e1k, kisz\u00e1r\u00edtott\u00e1k \u00e9s
+  \u00e1titatt\u00e1k a be\u00e1gyaz\u00f3 anyaggal, k\u00f6vetkezik a k\u00fcls\u0151
+  be\u00e1gyaz\u00e1s.\\n- Hogyan kezelhet\u0151 a szeropozit\u00edv rheumatoid arthritis\\n-
+  A csontr\u00e1k diagn\u00f3zis\u00e1nak fel\u00e1ll\u00edt\u00e1sa Porc sz\u00f6vettani
+  mint\u00e1k\\n- Versbe sz\u0151tt eg\u00e9szs\u00e9g Ezen elj\u00e1r\u00e1sok hosszabb
+  rehabilit\u00e1ci\u00f3t ig\u00e9nyelnek \u00e9s sokszor h\u00f3napokig, de ak\u00e1r
+  \u00e9vekig is eltart, m\u00edg a porchi\u00e1nyt siker\u00fcl megfelel\u0151 porcsz\u00f6vettel
+  fedni.\\n- Az arthrosis nem id\u0151skori k\u00f3r, a betegek harmada 65 \u00e9vn\u00e9l
+  fiatalabb A mozg\u00e1sszervi betegs\u00e9gek rendk\u00edv\u00fcli m\u00f3don rontj\u00e1k
+  az \u00e9let min\u0151s\u00e9g\u00e9t.\\n- R\u00f6gz\u00edt\u00e9s[ szerkeszt\u00e9s
+  ] K\u00e9miai r\u00f6gz\u00edt\u00e9s formaldehiddel vagy m\u00e1s vegyszerekkel[
+  szerkeszt\u00e9s ] A k\u00e9miai r\u00f6gz\u00edt\u0151szereket a sz\u00f6vet leboml\u00e1sa
+  ellen \u00e9s a sejtek \u00e9s szubcellul\u00e1ris komponensek, p\u00e9ld\u00e1ul
+  sejtmag, mitokondriumok struktur\u00e1j\u00e1nak meg\u0151rz\u00e9s\u00e9hez haszn\u00e1lj\u00e1k.\\n-
+  Gy\u00f3gyszerek oszteokondrozis tablett\u00e1khoz\\n- Porc sz\u00f6vettani mint\u00e1k,
+  Porc p\u00f3tl\u00e1s\\nEnnek a folyamatnak a sor\u00e1n a sz\u00f6vetmint\u00e1kat
+  folyad\u00e9kbe\u00e1gyaz\u00f3 anyaggal p\u00e9ld\u00e1ul agar, zselatin vagy viasz
+  telt \u00f6nt\u0151form\u00e1kba teszik, majd ezut\u00e1n kiveszik megdermesztik.
+  Stancol\u00e1s h\u00e1zilag - sablon k\u00e9sz\u00edt\u00e9s Ezt paraffin eset\u00e9ben
+  h\u0171t\u00e9ssel \u00e9s epoxigyant\u00e1k eset\u00e9ben meleg\u00edt\u00e9ssel
+  \u00e9rik el.\\nAz akrilgyant\u00e1kat h\u0151, ultraibolya f\u00e9ny vagy vegyi
+  kataliz\u00e1torok polimeriz\u00e1lj\u00e1k. A sz\u00f6vetmint\u00e1kat tartalmaz\u00f3
+  kem\u00e9ny blokkok ezut\u00e1n k\u00e9szen \u00e1llnak a szeletel\u00e9sre.\\nPorc
+  sz\u00f6vettani mint\u00e1k. Mintav\u00e9teli elj\u00e1r\u00e1sok - Mikor \u00e9s
+  melyik t\u00edpus indokolt?\\nA be\u00e1gyaz\u00e1s v\u00e9grehajthat\u00f3 fagyasztott,
+  nem r\u00f6gz\u00edtett sz\u00f6vetek haszn\u00e1lat\u00e1val v\u00edzalap\u00fa
+  k\u00f6zegben is. Az el\u0151fagyasztott sz\u00f6veteket foly\u00e9kony be\u00e1gyaz\u00f3
+  anyagba, \u00e1ltal\u00e1ban v\u00edzb\u00e1zis\u00fa glikolba, cryogelbe, OCT-elegybe
+  [ halott link ] vagy gyant\u00e1ba, m\u00e1rtj\u00e1k, majd fagyaszt\u00e1ssal dermesztett
+  blokkokat k\u00e9peznek.\\nMetsz\u00e9s[ szerkeszt\u00e9s ] F\u00e9nymikroszk\u00f3pos
+  vizsg\u00e1latn\u00e1l egy mikrotitomba szerelt ac\u00e9l k\u00e9s alkalmazhat\u00f3
+  4 mikrom\u00e9ter vastag sz\u00f6vetszeletek v\u00e1g\u00e1s\u00e1ra, amelyeket
+  a mikroszk\u00f3p \u00fcveg t\u00e1rgylemez\u00e9re helyeznek fel. A transzmisszi\u00f3s
+  elektronmikroszk\u00f3pos v\u00e1ll\u00edz\u00fclet betegs\u00e9g egy ultramikrotomba
+  szerelt gy\u00e9m\u00e1nt k\u00e9st haszn\u00e1lnak 50 nm-es vastags\u00e1g\u00fa
+  sz\u00f6vetdarabok v\u00e1g\u00e1s\u00e1ra, amelyeket egy 3 millim\u00e9ter \u00e1tm\u00e9r\u0151j\u0171
+  r\u00e9zh\u00e1l\u00f3ra r\u00f6gz\u00edtenek.\\nGyomorfal sz\u00f6vettani metszete\\nFilm\u00f6ssze\u00e1ll\u00edt\u00e1s
+  a csont\u00e1tt\u00e9tekr\u0151l A csontr\u00e1k diagnosztik\u00e1ja k\u00e9t f\u0151
+  pill\u00e9ren, a k\u00e9palkot\u00f3 elj\u00e1r\u00e1sokon \u00e9s a sz\u00f6vettani
+  vizsg\u00e1laton nyugszik. Ezut\u00e1n a metszeteket megfelel\u0151 fest\u00e9kkel
+  sz\u00ednezik. A szeleteket sz\u00e1mos ir\u00e1nyban lehet v\u00e1gni a sz\u00f6vetb\u0151l.\\nA
+  sz\u00f6vetek k\u00f3ros \u00e9rt\u00e9kel\u00e9sekor a szok\u00e1sos m\u00f3dszer
+  a f\u00fcgg\u0151leges szelv\u00e9ny a porc sz\u00f6vettani mint\u00e1k fel\u00fclet\u00e9re
+  mer\u0151legesen v\u00e1gott keresztmetszet. V\u00edzszintes m\u00e1s n\u00e9ven
+  keresztir\u00e1ny\u00fa vagy hosszanti szeletel\u00e9s, amelyet a sz\u00f6vet hossz\u00fas\u00e1gi
+  tengelye ment\u00e9n v\u00e1gnak, gyakran haszn\u00e1lj\u00e1k a sz\u0151rt\u00fcsz\u0151k
+  \u00e9s a csontosod\u00e1s m\u00e9rt\u00e9k\u00e9nek \u00e9rt\u00e9kel\u00e9s\u00e9ben.\\nPorc
+  sz\u00f6vettani mint\u00e1k\\nMit\u0151l betegszik meg a t\u00e9rd\u00edz\u00fclet?
+  Ennek el\u0151nye, hogy egyszer\u0171 eszk\u00f6z\u00f6kkel t\u0171vel, fecskend\u0151vel
+  elv\u00e9gezhet\u0151, nem jelent t\u00fal nagy behatol\u00e1st, \u00e9s ha siker\u00fcl
+  a pontos hely\u00e9t megtal\u00e1lni a vizsg\u00e1lt elv\u00e1ltoz\u00e1snak, akkor
+  sok diagnosztikus \u00e9rt\u00e9k\u0171 sejt vizsg\u00e1lhat\u00f3 a kenetben. Pszichoszomatika
+  cs\u00edp\u0151f\u00e1jdalom \u00edz\u00fcletek Fagyaszt\u00f3 mikrotommal[ szerkeszt\u00e9s
+  ] A r\u00f6gz\u00edtett vagy nem r\u00f6gz\u00edtett sz\u00f6veteket fagyasztva
+  lehet szeletelni egy krioszt\u00e1t n\u00e9ven ismert h\u0171t\u0151berendez\u00e9sbe
+  szerelt mikrotomom seg\u00edts\u00e9g\u00e9vel.\\nPorc p\u00f3tl\u00e1s Kast\u00e9lypark
+  Klinika Porc sz\u00f6vettani mint\u00e1k. Mintav\u00e9teli elj\u00e1r\u00e1sok -
+  Mikor \u00e9s melyik t\u00edpus indokolt? Film\u00f6ssze\u00e1ll\u00edt\u00e1s porc
+  sz\u00f6vettani mint\u00e1k csont\u00e1tt\u00e9tekr\u0151l A csontr\u00e1k diagnosztik\u00e1ja
+  k\u00e9t f\u0151 pill\u00e9ren, a k\u00e9palkot\u00f3 elj\u00e1r\u00e1sokon \u00e9s
+  a sz\u00f6vettani vizsg\u00e1laton nyugszik.\\nA fagyasztott metszeteket egy \u00fcveglapra
+  helyezik ropog\u00f3 \u00edz\u00fcleti f\u00e1jdalom festhet\u0151ek a k\u00fcl\u00f6nb\u00f6z\u0151
+  sz\u00f6vetek k\u00f6z\u00f6tti kontraszt meger\u0151s\u00edt\u00e9s\u00e9re. A
+  nem fix\u00e1lt fagyasztott metszetek alkalmazhat\u00f3k olyan vizsg\u00e1latokra
+  is, amelyek enzim lokaliz\u00e1l\u00e1st ig\u00e9nyelnek a sz\u00f6vetekben \u00e9s
+  sejtekben.\\nBizonyos elj\u00e1r\u00e1sokhoz sz\u00fcks\u00e9ges a sz\u00f6vetek
+  r\u00f6gz\u00edt\u00e9se, mint p\u00e9ld\u00e1ul az antitest vizsg\u00e1latokhoz
+  k\u00f6t\u00f6tt immunfluoreszcens fest\u00e9sn\u00e9l. Olvassa el is.\"", "\"Az
+  ilyen szennyez\u0151d\u00e9sek, a f\u00e9kpor, v\u00edzk\u0151folt, k\u00e1tr\u00e1ny,
+  f\u00e9mr\u00e9szecsk\u00e9k vagy ak\u00e1r a kor\u00e1bban felvitt wax v\u00e9delem
+  m\u00e9g f\u00e9nyez\u00e9shez k\u00f6t\u0151d\u0151 r\u00e9tege(i), b\u00e1r sokszor
+  szabad szemmel nem is l\u00e1that\u00f3ak, m\u00e9gis t\u00f6nkre tehetik az aut\u00f3\u00e1pol\u00e1s
+  am\u00fagy l\u00e1tv\u00e1nyos v\u00e9geredm\u00e9ny\u00e9t vagy cs\u00f6kkenthetik
+  a felvitt v\u00e9delem hat\u00e1sfok\u00e1t \u00e9s tart\u00f3ss\u00e1g\u00e1t.\\nVegyi
+  dekontamin\u00e1l\u00e1s, amikor olyan vegyszert visz\u00fcnk a fel\u00fcletre,
+  ami k\u00f6lcs\u00f6nhat\u00e1sba l\u00e9p a be\u00e1gyaz\u00f3dott szennyez\u0151d\u00e9ssel
+  \u00e9s \u00e9rint\u00e9s n\u00e9lk\u00fcl (esetleg ecsettel eldolgozva) t\u00e1vol\u00edtja
+  el a makacs szennyez\u0151d\u00e9seket. A vegyi dekontamin\u00e1l\u00e1s az \u00e9rint\u00e9smentess\u00e9g
+  \u00e1ltal ny\u00fajtott biztons\u00e1g miatt gyakrabban alkalmazhat\u00f3.\\nA
+  k\u00e1tr\u00e1ny elt\u00e1vol\u00edt\u00e1sa a vegyi m\u00e9lytiszt\u00edt\u00e1s
+  els\u0151 l\u00e9p\u00e9se. A k\u00e1tr\u00e1ny k\u00e9pes m\u00e1s szennyez\u0151d\u00e9seket
+  \u201eelrejteni\u201d maga al\u00e1, ez\u00e9rt el kell t\u00e1vol\u00edtanunk a
+  k\u00e1tr\u00e1nyt miel\u0151tt tov\u00e1bb l\u00e9p\u00fcnk a folyamatban.\\nA
+  vide\u00f3ban megn\u00e9zheted a teljes folyamatot\\nA k\u00e1tr\u00e1ny elt\u00e1vol\u00edt\u00e1sa
+  ut\u00e1n egy l\u00e1tv\u00e1nyos l\u00e9p\u00e9s j\u00f6n: a f\u00e9kpor \u00e9s
+  sz\u00e1ll\u00f3rozsda elt\u00e1vol\u00edt\u00e1sa. A vaspor, f\u00e9kpor szennyez\u0151d\u00e9sek
+  magas h\u0151m\u00e9rs\u00e9kleten m\u00e9lyen beletapadnak a fel\u00fcletbe, \u00e9s
+  maradand\u00f3 k\u00e1rokat okozhatnak.\\nA f\u00e9kporelt\u00e1vol\u00edt\u00f3k
+  a f\u00e9mr\u00e9szecsk\u00e9kkel reakci\u00f3ba l\u00e9pnek \u00e9s ekkor t\u00f6rt\u00e9nik
+  a l\u00e1tv\u00e1nyos r\u00e9sz, a g\u00e9l lil\u00e1v\u00e1 v\u00e1ltozik, mik\u00f6zben
+  fellaz\u00edtja a be\u00e1gyaz\u00f3dott szennyez\u0151d\u00e9seket.\\nDe besz\u00e9ljen
+  helyett\u00fcnk Kevin, aki vide\u00f3ban mutatja be az AutoBrite f\u00e9kporelt\u00e1vol\u00edt\u00f3j\u00e1nak
+  a Purple Rain 3.0-nak a haszn\u00e1lat\u00e1t.\\nA fizikai dekontamin\u00e1l\u00e1s
+  eset\u00e9n aut\u00f3kozmetikai gyurma seg\u00edts\u00e9g\u00e9vel, fizikai \u00e9rintkez\u00e9ssel
+  t\u00e1vol\u00edtjuk el a szennyez\u0151d\u00e9seket. A gyurm\u00e1ba beleragad
+  a legmakacsabb szennyez\u0151d\u00e9s is, \u00edgy ezzel \u00e9rhetj\u00fck el a
+  teljes tisztas\u00e1got a fel\u00fcleten.\\nA gyurm\u00e1kb\u00f3l t\u00f6bbf\u00e9le
+  er\u0151ss\u00e9g l\u00e9tezik, azonban min\u00e9l kem\u00e9nyebb egy gyurma, ann\u00e1l
+  nagyobb az es\u00e9lye a mikrokarcok (angolul: mar) kialakul\u00e1s\u00e1nak a tiszt\u00edt\u00e1s
+  sor\u00e1n, \u00e9ppen ez\u00e9rt fontos, hogy a mos\u00e1s \u00e9s a vegyi m\u00e9lytiszt\u00edt\u00e1s
+  l\u00e9p\u00e9seivel a lehet\u0151 legt\u00f6bb szennyez\u0151d\u00e9st t\u00e1vol\u00edtsd
+  el a fel\u00fcletr\u0151l.\\nA finom fokozat\u00fa gyurma haszn\u00e1lata aj\u00e1nlott,
+  ha egy \u00faj v\u00e9delmet szeretn\u00e9l felvinni. Ezzel el tudod t\u00e1vol\u00edtani
+  a be\u00e1gyaz\u00f3dott szennyez\u0151d\u00e9seket \u00e9s a kor\u00e1bbi wax r\u00e9teg
+  maradv\u00e1nyait, de m\u00e9g nem ig\u00e9nyel mindenk\u00e9ppen pol\u00edroz\u00e1st.\\nA
+  durva fokozat\u00fa gyurm\u00e1t g\u00e9pi pol\u00edroz\u00e1s el\u0151tti haszn\u00e1latra
+  javasoljuk mert a be\u00e1gyaz\u00f3dott kem\u00e9ny szennyez\u0151d\u00e9sek a
+  pol\u00edrkorongban \u00e9s a f\u00e9nyez\u00e9sben is k\u00e1rokat okozhatnak.
+  Ford\u00edtva sem m\u0171k\u00f6dnek egym\u00e1s n\u00e9lk\u00fcl, teh\u00e1t a
+  durva gyurma eset\u00e9n k\u00f6telez\u0151 a pol\u00edroz\u00e1s l\u00e9p\u00e9s\u00e9t
+  is beiktatni, mert enn\u00e9l m\u00e1r elker\u00fclhetetlen, hogy a be\u00e1gyaz\u00f3dott
+  r\u00e9szecsk\u00e9k \\\"kit\u00e9p\u00e9s\u00e9vel\\\" apr\u00f3 s\u00e9r\u00fcl\u00e9seket
+  okozzunk a lakkr\u00e9tegben.\\nAz el\u0151z\u0151ekb\u0151l \u00e9rezhet\u0151,
+  hogy a gyurma biztons\u00e1gos haszn\u00e1lata odafigyel\u00e9st ig\u00e9nyel. A
+  gyurma biztons\u00e1gos haszn\u00e1lata sor\u00e1n a legfontosabb a megfelel\u0151
+  ken\u00e9s biztos\u00edt\u00e1sa. \u00c1ltal\u00e1ban pont az ellenkez\u0151j\u00e9re
+  szoktuk felh\u00edvni a figyelmet, hogy ne haszn\u00e1lj t\u00fal sok term\u00e9ket,
+  mert szinte mindig pazarl\u00e1s, itt azonban ink\u00e1bb f\u00fajj m\u00e9g egyet,
+  ha nem vagy biztos benne, hogy el\u00e9g nedves-e a fel\u00fclet.\\nA megfelel\u0151
+  ken\u00e9shez speci\u00e1lisan erre a c\u00e9lra kifejlesztett szereket aj\u00e1nlott
+  alkalmazni, az AutoBrite Direct eset\u00e9ben egy er\u0151sen h\u00edg\u00edtott
+  Quick Detailer, a Berry Blast QD haszn\u00e1lhat\u00f3 erre.\\nAzzal, hogy els\u0151k\u00e9nt
+  a ker\u00e9k szennyez\u0151d\u00e9seit t\u00e1vol\u00edtod el, figyelve, hogy ne
+  a f\u00e9nyez\u00e9s ir\u00e1ny\u00e1ba \u00f6bl\u00edtsd le a ker\u00e9ktiszt\u00edt\u00f3t,
+  jelent\u0151sen cs\u00f6kkented a f\u00e9nyez\u00e9sre \u00e1tker\u00fcl\u0151 neh\u00e9z
+  szennyez\u0151d\u00e9sek mennyis\u00e9g\u00e9t \u00e9s ezzel a mos\u00f3karcok kialakul\u00e1s\u00e1nak
+  es\u00e9ly\u00e9t.\\nA ker\u00e9kmos\u00e1s els\u0151 l\u00e9p\u00e9se egy dedik\u00e1lt
+  ker\u00e9kmos\u00f3 szerrel t\u00f6rt\u00e9nik. Sokan ehhez a sz\u00e1ll\u00f3rozsda
+  elt\u00e1vol\u00edt\u00f3t haszn\u00e1lj\u00e1k a koszos felnin (tudod, amikor lil\u00e1ra
+  v\u00e1ltozik a felni \ud83d\ude0a), de ez egy \u00e1ltal\u00e1ban dr\u00e1g\u00e1bb
+  term\u00e9k pazarl\u00e1sa, s\u0151t a hat\u00e9konys\u00e1ga is romlik, mert a
+  sz\u00e1ll\u00f3rozsda elt\u00e1vol\u00edt\u00f3k kifejezetten csak a f\u00e9m r\u00e9szecsk\u00e9ket
+  t\u00e1vol\u00edtj\u00e1k el. Ez\u00e9rt l\u00e1thatod a vide\u00f3kban, hogy a
+  sz\u00e1ll\u00f3rozsda elt\u00e1vol\u00edt\u00f3t a m\u00e1r, legal\u00e1bbis l\u00e1tszatra,
+  tiszta felnin alkalmazz\u00e1k.\\nAz els\u0151 l\u00e9p\u00e9s teh\u00e1t egy felnitiszt\u00edt\u00f3
+  \u00e9s a felnihez ill\u0151 felnikefe kiv\u00e1laszt\u00e1sa \u00e9s megfelel\u0151
+  haszn\u00e1lata.\\nA lenti vide\u00f3ban megn\u00e9zheted hogyan tiszt\u00edtj\u00e1k
+  a felniket az AutoBrite Directn\u00e9l az egyik saj\u00e1t fejleszt\u00e9s\u0171
+  felnitiszt\u00edt\u00f3jukkal.\\nA felni megtiszt\u00edt\u00e1sa mellett tiszt\u00edtsd
+  meg a gumik oldalfal\u00e1t is. Ez a l\u00e9p\u00e9s seg\u00edt, hogy a felvitt
+  gumi\u00e1pol\u00f3 tart\u00f3sabb ideig fejtse ki hat\u00e1s\u00e1t.\\nHa nincs
+  id\u0151d v\u00e9gign\u00e9zni, itt van n\u00e9h\u00e1ny tipp a vide\u00f3kb\u00f3l\\nA
+  ker\u00e9kre ugyan\u00fagy igaz, mint a f\u00e9nyezett fel\u00fcletekre, hogy a
+  v\u00e9delem felvitele el\u0151tt el kell v\u00e9gezni, egy alapos m\u00e9lytiszt\u00edt\u00e1st
+  (dekontamin\u00e1l\u00e1st), annak is legal\u00e1bb a vegyi l\u00e9p\u00e9seit,
+  ha a maxim\u00e1lis \u00e9lettartamot szeretn\u00e9d kihozni a felvitt v\u00e9delemb\u0151l.\\nA
+  felnitiszt\u00edt\u00e1s fontos l\u00e9p\u00e9se a f\u00e9kpor \u00e9s m\u00e1s
+  a felnire tapadt/\u00e9gett szennyez\u0151d\u00e9sek elt\u00e1vol\u00edt\u00e1sa.
+  Mivel a felni van a legk\u00f6zelebb az aszfalthoz \u00e9s a f\u00e9kekhez, jelent\u0151s
+  mennyis\u00e9get kap az \u00fatr\u00f3l felcsap\u00f3d\u00f3 szennyez\u0151d\u00e9sekb\u0151l
+  \u00e9s a f\u00e9kpor jelent\u0151s r\u00e9sz is itt tapad meg, amit a f\u00e9kez\u00e9sb\u0151l
+  ad\u00f3d\u00f3 h\u0151hat\u00e1s gyorsan bele is \u00e9get. Szerencs\u00e9re ma
+  m\u00e1r kiv\u00e1l\u00f3 f\u00e9kpor \u00e9s vasoxid elt\u00e1vol\u00edt\u00f3
+  szerek kaphat\u00f3ak, amelyek p\u00e1r perc alatt feloldj\u00e1k a felnire tapadt
+  szennyez\u0151d\u00e9seket.\\nA fenti tiszt\u00edt\u00e1si folyamat jelent\u0151sen
+  cs\u00f6kkenti az es\u00e9ly\u00e9t, hogy az aut\u00f3 mos\u00e1sa sor\u00e1n apr\u00f3
+  karcok keletkezzenek a f\u00e9nyez\u00e9sen, ez\u00e9rt ezek helyes elv\u00e9gz\u00e9se
+  fontos helyen szerepel a 6 l\u00e9p\u00e9ses, karcmentes aut\u00f3\u00e1pol\u00e1sban.\\nA
+  tov\u00e1bbi l\u00e9p\u00e9sek, p\u00e9ld\u00e1ul a megfelel\u0151 v\u00e9delem
+  alkalmaz\u00e1sa \u00e9s a gumi\u00e1pol\u00e1s a 6 l\u00e9p\u00e9ses folyamat k\u00e9s\u0151bbi
+  l\u00e9p\u00e9sei (5. \u00e9s 6. l\u00e9p\u00e9s).\\nAz aut\u00f3mos\u00e1s sor\u00e1n
+  az egyik leggyakrabban elk\u00f6vetett hiba, hogy egy az \u00e9rint\u00e9ssel j\u00e1r\u00f3
+  samponos aut\u00f3mos\u00e1ssal kezdik a folyamatot, ahelyett, hogy az \u00e9rint\u00e9smentes
+  el\u0151mos\u00e1ssal el\u0151k\u00e9sz\u00edten\u00e9k a fel\u00fcletet.\\nAz el\u0151mos\u00e1sra
+  j\u00f3 v\u00e1laszt\u00e1s lehet egy j\u00f3 min\u0151s\u00e9g\u0171 habpisztoly,
+  amivel el\u0151mos\u00f3 akt\u00edvhabot tudsz a fel\u00fcletre juttatni. Az akt\u00edvhab
+  oldja \u00e9s mag\u00e1ba z\u00e1rja az enyh\u00e9bb szennyez\u0151d\u00e9seket,
+  hogy az \u00f6bl\u00edt\u00e9s sor\u00e1n se okozzanak k\u00e1rt a f\u00e9nyez\u00e9sben.\\nAz
+  AutoBrite Direct k\u00e9t l\u00e9p\u00e9sben aj\u00e1nlja az el\u0151mos\u00e1st:\\nEls\u0151k\u00e9nt
+  egy \u00e1ltal\u00e1ban er\u0151sebb bog\u00e1rold\u00f3, el\u0151mos\u00f3 szer
+  haszn\u00e1lata az els\u0151 l\u00f6kh\u00e1r\u00edt\u00f3n, motorh\u00e1ztet\u0151n
+  \u00e9s az aut\u00f3 als\u00f3 egy harmad\u00e1n, majd ennek a szernek az \u00f3vatos
+  \u00f6bl\u00edt\u00e9se a magasnyom\u00e1s\u00fa mos\u00f3 l\u00e1ndzs\u00e1j\u00e1t
+  fentr\u0151l lefel\u00e9 tartva.\\nA m\u00e1sodik l\u00e9p\u00e9sben j\u00f6het
+  az eg\u00e9sz aut\u00f3t lefed\u0151, habpisztolyos el\u0151mos\u00e1s, itt m\u00e1r
+  nem csak a legyszennyezettebb als\u00f3 r\u00e9sz, hanem az aut\u00f3 fels\u0151
+  k\u00e9t harmad\u00e1t is el\u0151k\u00e9sz\u00edtj\u00fck az \u00e9rint\u00e9ses
+  mos\u00e1sra\\nAz \u00e9rint\u00e9ses mos\u00e1s els\u0151 l\u00e9p\u00e9se a megfelel\u0151
+  aut\u00f3sampon kiv\u00e1laszt\u00e1sa. Ha az aut\u00f3d rendelkezik v\u00e9delemmel,
+  akkor \u00e9rdemes pH-semleges sampont v\u00e1lasztanod, hogy ne cs\u00f6kkentse
+  a v\u00e9delem \u00e9lettartam\u00e1t.\\nN\u00e9h\u00e1ny sampon rendelkezik hozz\u00e1adott
+  v\u00e9delemmel, azonban ezeket \u00f3vatosan \u00e9rdemes kezelni. Annak ellen\u00e9re,
+  hogy ezek egy r\u00f6videbb \u00e9lettartam\u00fa \u00f6n\u00e1ll\u00f3 v\u00e9delmet
+  is tudnak k\u00e9pezni, legf\u0151k\u00e9ppen a m\u00e1r megl\u00e9v\u0151 v\u00e9delem
+  felfriss\u00edt\u00e9s\u00e9re haszn\u00e1lhat\u00f3k. Aj\u00e1nlott olyan hozz\u00e1adott
+  anyagokkal rendelkez\u0151 sampon v\u00e1lasztani, mint amilyen v\u00e9delemmel
+  rendelkezik a f\u00e9nyez\u00e9s, teh\u00e1t viaszos v\u00e9delem mell\u00e9 viaszos
+  aut\u00f3sampont.\\nAz egyetlen kiv\u00e9tel a leg\u00fajabb fejleszt\u00e9s\u0171
+  ker\u00e1mi\u00e1t is tartalmaz\u00f3 aut\u00f3samponok, azonban ett\u0151l sem
+  kell csod\u00e1t v\u00e1rni, k\u00f6zel sem ad olyan tart\u00f3s v\u00e9delmet,
+  mint egy ker\u00e1mi\u00e1s wax vagy sealant, de ha minden mos\u00e1sn\u00e1l alkalmazod
+  \u00e9s semmi m\u00e1s v\u00e9delmet nem haszn\u00e1lsz, akkor jobb eredm\u00e9nyt
+  \u00e9rsz el, mint egy \\\"hagyom\u00e1nyos\\\" samponnal.\\nA grit guard (\u00fclep\u00edt\u0151
+  r\u00e1cs) egy a v\u00f6d\u00f6r alj\u00e1ra applik\u00e1lhat\u00f3 eszk\u00f6z,
+  amely k\u00e9t tulajdons\u00e1g\u00e1val is hozz\u00e1j\u00e1rul a karcmentes aut\u00f3mos\u00e1shoz.
+  Az els\u0151 \u00e9s tal\u00e1n a fontosabb, hogy a grit guard-on v\u00e9gigh\u00fazva
+  a mos\u00f3keszty\u0171t sokkal alaposabban tiszt\u00edthat\u00f3 a keszty\u0171,
+  mintha csak a v\u00edzbe m\u00e1rtogatjuk.\\nA m\u00e1sik, amiben seg\u00edt abb\u00f3l
+  ad\u00f3dik, hogy nem teljesen a v\u00f6d\u00f6r alj\u00e1n van, hanem kicsit megemelve,
+  \u00edgy megakad\u00e1lyozza, hogy v\u00e9letlen\u00fcl a v\u00f6d\u00f6r alj\u00e1ig
+  beny\u00falva a mos\u00f3keszty\u0171vel, felkavarjuk vagy \u00f6sszegy\u0171jts\u00fck
+  a v\u00f6d\u00f6r alj\u00e1ra le\u00fclepedett koszt.\\nA k\u00fcl\u00f6nb\u00f6z\u0151
+  t\u00edpusok, elnevez\u00e9sek gyakran szabadon \u00e9rtelmezettek a gyakorlatban,
+  ez\u00e9rt mindig \u00e9rdemes t\u00e1j\u00e9koz\u00f3dni a le\u00edr\u00e1sokban,
+  hogy az adott term\u00e9k melyik t\u00edpusba esik. Ez alapj\u00e1n meg tudsz gy\u0151z\u0151dni
+  r\u00f3la, hogy az a tart\u00f3ss\u00e1g \u00e9s hat\u00e1s, amit \u00edg\u00e9r,
+  val\u00f3s lehet-e.\\nA tart\u00f3ss\u00e1g persze a term\u00e9k min\u0151s\u00e9g\u00e9n
+  is m\u00falik. B\u00e1r a pr\u00e9mium term\u00e9kek zsebbe ny\u00fal\u00f3sabbak,
+  de a tart\u00f3sabb hat\u00e1s \u00e9s a ritk\u00e1bb alkalmaz\u00e1s miatt mindig
+  jobban j\u00e1rsz a j\u00f3 min\u0151s\u00e9g\u0171 term\u00e9kkel (a v\u00e9geredm\u00e9nyr\u0151l
+  nem is besz\u00e9lve).\\nM\u00e1r l\u00e9tezik Snow Foam habpisztollyal felvihet\u0151,
+  tart\u00f3s, ker\u00e1mia alap\u00fa v\u00e9delem, a Ker\u00e9miaPajzs MAGISEAL\\nAz
+  extr\u00e9m v\u00edztasz\u00edt\u00f3 hat\u00e1s seg\u00edti az aut\u00f3 sz\u00e1razra
+  t\u00f6rl\u00e9s\u00e9nek a folyamat\u00e1t is\\nA v\u00e9delmeket nem el\u00e9g
+  felvinned, a megfelel\u0151 karbantart\u00e1sukr\u00f3l is gondoskodnod kell.\\nEnnek
+  k\u00e9t f\u0151 t\u00e9nyez\u0151je van:\\nA k\u00edm\u00e9letes aut\u00f3mos\u00e1st
+  a sorozat egy kor\u00e1bbi r\u00e9sz\u00e9ben m\u00e1r bemutattuk, de a Quick Detailerek
+  (QD) haszn\u00e1lat\u00e1r\u00f3l ejts\u00fcnk n\u00e9h\u00e1ny sz\u00f3t.\\nA Quick
+  Detailerek magyarul legink\u00e1bb: gyorsf\u00e9ny, gyors\u00e1pol\u00f3, gyorswax
+  n\u00e9ven tal\u00e1lhat\u00f3ak meg \u00e9s b\u00e1r \u00f6nmagukban is haszn\u00e1lhat\u00f3,
+  m\u00e9gis legink\u00e1bb v\u00e9delmek felfriss\u00edt\u00e9s\u00e9re aj\u00e1nlott
+  term\u00e9kek. Ezek j\u00f3val r\u00f6videbb \u00e9lettartam\u00faak, \u00edgy aj\u00e1nlott
+  \u00f3vatosan b\u00e1nni az \u00f6n\u00e1ll\u00f3 v\u00e9delemk\u00e9nt rekl\u00e1mozott
+  gyorsf\u00e9nyek/gyorswaxok \u00e1ltal ig\u00e9rt t\u00f6bb h\u00f3napnyi hat\u00e1ssal.\\nA
+  Quick Detailerek elengedhetetlen r\u00e9szei a megfelel\u0151 karbantart\u00e1si
+  rutinnak\\nAz els\u0151 l\u00e9p\u00e9s a legszennyezettebb fel\u00fcletek, a kerekek
+  tiszt\u00edt\u00e1sa. A kerekek tal\u00e1lkoznak k\u00f6zvetlen\u00fcl az \u00fattal,
+  ezek vannak legink\u00e1bb kit\u00e9ve az olyan komolyabb, mos\u00e1si karcokat
+  okoz\u00f3 szennyez\u0151d\u00e9seknek, mint a forr\u00f3 f\u00e9kpor. Ezeket a
+  szennyez\u0151d\u00e9seket k\u00f6nnyen \u00e1tviheted f\u00e9nyez\u00e9s lakkr\u00e9teg\u00e9re,
+  majd a samponos mos\u00e1s k\u00f6zben ezekkel v\u00e9gigkarcolod a f\u00e9nyez\u00e9st.\\nA
+  ker\u00e9kmos\u00e1s h\u00e1rom l\u00e9p\u00e9se a felnik mos\u00e1sa, a gumi oldalfel\u00fclet\u00e9nek
+  tiszt\u00edt\u00e1sa, v\u00e9g\u00fcl pedig a m\u00e1r tiszt\u00e1nak t\u0171n\u0151
+  felnin a vasoxid \u00e9s f\u00e9kpor elt\u00e1vol\u00edt\u00f3 alkalmaz\u00e1sa
+  (vegyi dekontamin\u00e1l\u00e1s).\\nA FELNITISZT\u00cdT\u00c1SR\u00d3L R\u00c9SZLETESEN\\nAz
+  aut\u00f3 mos\u00e1sa sor\u00e1n k\u00e9t f\u0151 c\u00e9lunk van: a lehet\u0151
+  legtiszt\u00e1bb legyen az aut\u00f3 \u00e9s mindezt \u00fagy, hogy k\u00f6zben
+  nem karcoljuk a fel\u00fcletet.\\nAz AutoBrite Direct rendszer\u00e9ben 3 egym\u00e1sra
+  \u00e9p\u00fcl\u0151 l\u00e9p\u00e9se garant\u00e1lja a karcmentes v\u00e9geredm\u00e9nyt.
+  Az el\u0151mos\u00e1s sor\u00e1n minden olyan szennyez\u0151d\u00e9st el kell t\u00e1vol\u00edtanunk,
+  amit fizikai \u00e9rintkez\u00e9s n\u00e9lk\u00fcl lehets\u00e9ges, hogy a k\u00e9s\u0151bbi,
+  \u00e9rintkez\u00e9ssel j\u00e1r\u00f3 l\u00e9p\u00e9sekn\u00e9l a lehet\u0151 legkevesebb
+  maradjon a fel\u00fcleten.\\nAz el\u0151mos\u00e1s els\u0151 l\u00e9p\u00e9sben
+  a l\u00f6kh\u00e1r\u00edt\u00f3ra csap\u00f3d\u00f3 bogarak \u00e9s az aut\u00f3
+  als\u00f3 r\u00e9sz\u00e9re lerak\u00f3d\u00f3 szennyez\u0151d\u00e9s old\u00e1sa,
+  elt\u00e1vol\u00edt\u00e1sa a c\u00e9l.\\nAz aut\u00f3mos\u00e1s legl\u00e1tv\u00e1nyosabb
+  eleme az akt\u00edv habos el\u0151mos\u00e1s, amit egy magasnyom\u00e1s\u00fa mos\u00f3ra
+  csatlakoztatott habpisztollyal tudsz a legk\u00f6nnyebben \u00e9s leggyorsabban
+  elv\u00e9gezni.\\nEgy j\u00f3 min\u0151s\u00e9g\u0171 akt\u00edv hab s\u0171r\u0171,
+  hosszan fennmarad\u00f3 habr\u00e9teget k\u00e9pez a fel\u00fcleten, amely elemeli
+  \u00e9s mag\u00e1ba z\u00e1rja a laz\u00e1bb szennyez\u0151d\u00e9seket a lakkr\u00e9tegr\u0151l,
+  ami \u00edgy m\u00e1r biztons\u00e1gosan le\u00f6bl\u00edthet\u0151. Ennek a l\u00e9p\u00e9snek
+  nem a makul\u00e1tlan tisztas\u00e1g a c\u00e9lja, hanem az, hogy a laza szennyez\u0151d\u00e9sek
+  nagy r\u00e9sz\u00e9t elt\u00e1vol\u00edtsuk a f\u00e9nyez\u00e9sr\u0151l m\u00e9g
+  miel\u0151tt fizikailag is hozz\u00e1\u00e9rn\u00e9nk a mos\u00f3keszty\u0171vel.\\nIde\u00e1lis
+  lenne, ha \u00e9rint\u00e9s n\u00e9lk\u00fcl is el tudn\u00e1nk \u00e9rni a t\u00f6k\u00e9letes
+  tisztas\u00e1got, azonban az enyhe szennyez\u0151d\u00e9seket lesz\u00e1m\u00edtva,
+  nem tudjuk elker\u00fclni, hogy hozz\u00e1\u00e9rj\u00fcnk a f\u00e9nyezett fel\u00fcletekhez.
+  Ha a minimumra akarjuk cs\u00f6kkentetni a mos\u00f3karcokat, elengedhetetlen a
+  megfelel\u0151 min\u0151s\u00e9g\u0171 \u00e9s kialak\u00edt\u00e1s\u00fa mos\u00f3keszty\u0171,
+  a \u201eGrit Guard\u201d-os (\u00fclep\u00edt\u0151s) aut\u00f3mos\u00f3 v\u00f6d\u00f6r,
+  a megfelel\u0151 ken\u00e9st biztos\u00edt\u00f3 aut\u00f3sampon \u00e9s a puha,
+  nagy nedvsz\u00edv\u00f3k\u00e9pess\u00e9g\u0171 mikrosz\u00e1las t\u00f6r\u00f6lk\u00f6z\u0151
+  haszn\u00e1lata.\\nEz az a pont, amikor a f\u00e9nyez\u00e9s r\u00e1n\u00e9z\u00e9sre
+  m\u00e1r teljesen tiszta, de itt m\u00e9g nem \u00e1llunk meg. A szabad szemmel
+  kev\u00e9sb\u00e9 l\u00e1that\u00f3 f\u00e9kpor \u00e9s vasoxid r\u00e9szecsk\u00e9k,
+  a k\u00e1tr\u00e1ny, v\u00edzk\u0151foltok vagy ak\u00e1r a kor\u00e1bbi wax marad\u00e9ka
+  nem t\u00e1vol\u00edthat\u00f3 el m\u00e9g a fizikai \u00e9rint\u00e9ssel j\u00e1r\u00f3
+  mos\u00e1s sor\u00e1n sem. Ekkor j\u00f6nnek az igazi neh\u00e9zfi\u00fak a vegyi
+  \u00e9s a fizikai dekontamin\u00e1l\u00e1s eszk\u00f6zei.\\nEz a l\u00e9p\u00e9s
+  er\u0151sen aj\u00e1nlott (legal\u00e1bb a vegyi dekontamin\u00e1l\u00e1s) a wax
+  vagy m\u00e1s v\u00e9delem felvitele el\u0151tt, pol\u00edroz\u00e1s el\u0151tt
+  pedig egyenesen k\u00f6telez\u0151.\\nA DEKONTAMIN\u00c1L\u00c1S L\u00c9P\u00c9SEI\\nMi
+  \u00e9rtelme az eddig le\u00edrt l\u00e9p\u00e9seknek \u00e9s az aut\u00f3 tiszt\u00edt\u00e1s\u00e1val
+  elt\u00f6lt\u00f6tt \u00f3r\u00e1knak, ha az els\u0151 \u00fat ut\u00e1n \u00fajra
+  \u00fagy n\u00e9z ki az aut\u00f3, mintha le sem mostad volna? Ez\u00e9rt fontos
+  l\u00e9p\u00e9s az aut\u00f3\u00e1pol\u00e1sban a mos\u00e1s eredm\u00e9ny\u00e9nek
+  a konzerv\u00e1l\u00e1sa, hat\u00e1s\u00e1nak min\u00e9l hosszabb t\u00e1v\u00fa
+  meg\u0151rz\u00e9se a megfelel\u0151 v\u00e9delem alkalmaz\u00e1s\u00e1val.\\nA
+  v\u00e9delmeknek t\u00f6bb t\u00edpusa van, azonban ezeket az elnevez\u00e9seket,
+  sokszor szabadon haszn\u00e1lj\u00e1k (\u00e1ltal\u00e1ban minden wax):\\nA Waxok
+  a legr\u00e9gebben haszn\u00e1lt term\u00e9kek az aut\u00f3\u00e1pol\u00e1sban,
+  mi\u00f3ta aut\u00f3k vannak, az\u00f3ta waxokat is haszn\u00e1lnak a f\u00e9nyesen
+  tart\u00e1sukhoz. A waxok term\u00e9szetes, leggyakrabban Carnauba viasz alap\u00fa
+  term\u00e9kek.\\nA Sealantek mesters\u00e9gesen l\u00e9trehozott vegy\u00fcletek,
+  amik legt\u00f6bbsz\u00f6r polimerekb\u0151l, gyant\u00e1kb\u00f3l \u00e9s szintetikus
+  hat\u00f3anyagokb\u00f3l \u00e9p\u00fclnek fel.\\nA kett\u0151 kombin\u00e1ci\u00f3j\u00e1b\u00f3l
+  kapott Hibrid term\u00e9kek is el\u00e9rhet\u0151ek, amelyek az ar\u00e1nyokt\u00f3l
+  f\u00fcgg\u0151en pr\u00f3b\u00e1lj\u00e1k maximaliz\u00e1lni a k\u00e9tf\u00e9le
+  term\u00e9k el\u0151ny\u00f6s tulajdons\u00e1gait.\\nA leg\u00fajabb trend a Ker\u00e1mia
+  (legink\u00e1bb SiO2 \u2013 szil\u00edcium dioxid) hozz\u00e1ad\u00e1s\u00e1val
+  l\u00e9trej\u00f6v\u0151 hibrid term\u00e9kek, amelyek m\u00e1r a hobbi aut\u00f3\u00e1pol\u00e1sban
+  haszn\u00e1lhat\u00f3 form\u00e1ban is megjelentek. Ezek k\u00f6z\u00f6s jellemz\u0151je
+  az extr\u00e9m tart\u00f3s hat\u00e1s a hozz\u00e1adott SiO2-nek k\u00f6sz\u00f6nhet\u0151en.\\nSEG\u00cdT\u00dcNK
+  HOGYAN V\u00c1LASZD KI A SZ\u00c1MODRA MEGFELEL\u0150 V\u00c9DELMET\\nAz utols\u00f3
+  l\u00e9p\u00e9sekben fejez\u0151dik ki az igazi detailing (r\u00e9szletekre val\u00f3
+  odafigyel\u00e9s), itt teszed fel az i-re a pontot, k\u00fcl\u00f6nb\u00f6zteted
+  meg a te aut\u00f3\u00e1pol\u00e1si rutinod egy \u00e1tlagos aut\u00f3\u00e1pol\u00e1st\u00f3l.\"",
+  "\"\u00dajszer\u0171 Lenovo M91p USFF brand g\u00e9p \u00faj SSD-vel (i5, 8GB RAM,
+  240GB SSD)\\n39 990 Ft\\nElad\u00f3v\u00e1 v\u00e1lt egy \u00fajszer\u0171, f\u00f3li\u00e1s
+  Lenovo M91p USFF g\u00e9p. Saj\u00e1t c\u00e9lra lett \u00f6sszerakva, de laptop
+  ker\u00fclt helyette a gyerek asztal\u00e1ra, \u00edgy nem lett haszn\u00e1latba
+  v\u00e9ve. 8GB DDR3 RAM-mal \u00e9s egy \u00faj, gyors ADATA 240GB SSD-vel szerelve,
+  ez\u00e1ltal eg\u00e9sz f\u00fcrge kis g\u00e9p. M\u00e1r i5 procival. T\u00f6k\u00e9letes
+  home office/home school g\u00e9p.\\nAj\u00e1nd\u00e9k Lenovo eg\u00e9rrel.\\nAz
+  \u00e1r fix, posta van, el\u0151re utal\u00e1s ut\u00e1n, szem\u00e9lyesen Kecskem\u00e9ten
+  vehet\u0151 \u00e1t.\\nL\u00e9gy az els\u0151 hozz\u00e1sz\u00f3l\u00f3!\\nM\u00e9g
+  nem sz\u00f3lt hozz\u00e1 senki sem.\\n- Hogyan m\u0171k\u00f6dik a Hardverapr\u00f3\\n-
+  Ne utalj el\u0151re! Soha!\\n- Probl\u00e9ma, csal\u00e1s eset\u00e9n minden hirdet\u00e9sben
+  ott a \\\"Jelentem\\\" gomb, haszn\u00e1ld!\\n- Mit tilos meghirdetni?\\n- Felhaszn\u00e1l\u00e1si
+  felt\u00e9telek (\u00c1SZF)\\n- Konkr\u00e9t hib\u00e1t itt, \u00e1ltal\u00e1nos
+  \u00e9szrev\u00e9teleket itt jelezz!\"", "\"Poly\u00e1k Lilla adott interj\u00fat
+  Vujity Tvrtk\u00f3nak a Tvrtko a F\u00f6ld k\u00f6r\u00fcl c\u00edm\u0171 YouTube-m\u0171sor
+  frissen megjelent epiz\u00f3dj\u00e1ban. A Blikk szeml\u00e9je szerint a sz\u00edn\u00e9sz-\u00e9nekesn\u0151
+  arr\u00f3l is besz\u00e9lt az ad\u00e1sban, hogy majdnem egy \u00e9ve boltvezet\u0151-helyettes
+  elad\u00f3k\u00e9nt dolgozik Kanad\u00e1ban egy ruhaboltban, ami\u00e9rt naponta
+  h\u00e1rom \u00f3r\u00e1t utazik. Elmond\u00e1sa szerint b\u00fcszke a munk\u00e1j\u00e1ra,
+  s\u0151t \u00fagy \u00e9rzi, a f\u00f6ld\u00f6n tartja, hogy \u00fajrakezdte.\\nA
+  riportb\u00f3l kider\u00fclt, hogy a sz\u00edn\u00e9szn\u0151nek sz\u00fcks\u00e9ge
+  volt az \u00e1ll\u00e1sra, hogy min\u00e9l el\u0151bb siker\u00fclj\u00f6n megszereznie
+  a tart\u00f3s ottani tart\u00f3zkod\u00e1st enged\u00e9lyez\u0151 pap\u00edrokat,
+  \u00e1m kifejezetten \u00e9lvezi is a bolti elad\u00f3 szerepet \u2013 r\u00e1ad\u00e1sul
+  alig p\u00e1r h\u00f3nap munkaviszony ut\u00e1n el\u0151 is l\u00e9ptett\u00e9k.
+  J\u00f3l \u00e9rzi mag\u00e1t a munkahely\u00e9n, a k\u00f6rny\u00e9len \u00e9l\u0151
+  n\u00e9metek miatt pedig a n\u00e9met nyelvtud\u00e1s\u00e1t is akt\u00edvan tudja
+  haszn\u00e1lni.\\nSz\u00fcks\u00e9gem volt egy f\u0151\u00e1ll\u00e1sra. B\u00e1r
+  nagyon j\u00f3l alakulnak a sz\u00ednpadi dolgaim, van egy ABBA-show-nk, amellyel
+  rendszeresen fell\u00e9pek h\u00e9tv\u00e9gente. Nem csak anyagilag kellett ez a
+  munka, a pap\u00edrokhoz volt sz\u00fcks\u00e9g egy f\u0151\u00e1ll\u00e1sra, amit
+  \u00edgy tudtam megoldani. Itt ugyanis olyan rendszer van, amelyben pontokat kell
+  gy\u0171jteni ahhoz, hogy megkaphassuk a kanadai z\u00f6ldk\u00e1rty\u00e1t\\n\u2013
+  magyar\u00e1zta Poly\u00e1k, akinek nagy k\u00f6nnyebbs\u00e9get jelent majd, ha
+  f\u00e9rj\u00e9vel, G\u00f6m\u00f6ri Andr\u00e1s M\u00e1t\u00e9val v\u00e9gre megkapj\u00e1k
+  a Permanent Resident, azaz \u00e1lland\u00f3 lakos st\u00e1tuszt.\\nSok terv\u00fcnkben
+  akad\u00e1lyoz benn\u00fcnket, hogy ez m\u00e9g nincs meg, \u00e9s az a c\u00e9l,
+  hogy min\u00e9l el\u0151bb meglegyen. T\u00f6bbek k\u00f6z\u00f6tt az\u00e9rt is,
+  mert a kisebbik fiam, Bulcs\u00fa szeptembert\u0151l a University of Toront\u00f3ra
+  j\u00e1r majd egyetemre, \u00edgy nemzetk\u00f6zi tand\u00edjat fizet\u00fcnk, ut\u00e1na
+  m\u00e1r z\u00f6ld k\u00e1rty\u00e1sat. Ez nagyon nem mindegy.\\nAz interj\u00fa
+  alkalm\u00e1val a sz\u00edn\u00e9szn\u0151 kiemelte, hogy nem sz\u00e9gyelli a munk\u00e1j\u00e1t,
+  mert akik Kanad\u00e1b\u00f3l n\u00e9zik, tudj\u00e1k, mennyire neh\u00e9z beh\u00fazni
+  egy menedzseri poz\u00edci\u00f3t f\u0151\u00e1ll\u00e1sk\u00e9nt, az pedig, hogy
+  folyamatosan sz\u00ednpadon tud lenni, extr\u00e1n men\u0151.\\nA pap\u00edrokhoz
+  pedig az \u00e9nekesn\u0151i poz\u00edci\u00f3 nem megfelel\u0151, mert az \u00e9nekesn\u0151
+  mindig csak sz\u00e1ml\u00e1t ad, mindig v\u00e1llalkoz\u00f3 lesz. Ez egy k\u00f6telez\u0151
+  k\u00f6r, amit nekem le kell tudni, egy olyan \u00e9letszakasz, amit ki kell pip\u00e1lni,
+  hogy legal\u00e1bb meglegyen egy \u00e9v. De k\u00f6zben r\u00e1j\u00f6ttem, hogy
+  nagyon sok mindenre megtan\u00edt, \u00e9s sokkal jobban \u00e9lvezem ann\u00e1l,
+  mint amire sz\u00e1m\u00edtottam. De nagyon k\u00fczdelmes, s nemcsak amiatt, hogy
+  negyven \u00f3r\u00e1t dolgozom a h\u00e9ten, hanem mert napi h\u00e1rom \u00f3r\u00e1t
+  aut\u00f3zom, lej\u00f6v\u00f6k a Niagar\u00e1hoz \u00e9s haza, hiszen itt m\u00e1sok
+  a t\u00e1vols\u00e1gok\\n\u2013 tette hozz\u00e1.\\nA teljes besz\u00e9lget\u00e9st
+  ide kattintva lehet meghallgatni.\"", "\"A magas v\u00e9rnyom\u00e1s, hipert\u00f3nia
+  lehets\u00e9ges okair\u00f3l (biologika, ujmedicina, vntv) miben k\u00fcl\u00f6nb\u00f6znek
+  a hipert\u00f3nia szakaszai a fokt\u00f3l\\nA magas v\u00e9rnyom\u00e1s elleni gy\u00f3gyszer
+  mell\u00e9khat\u00e1sok n\u00e9lk\u00fcl diuretikum cukorbetegs\u00e9g \u00e9s magas
+  v\u00e9rnyom\u00e1s eset\u00e9n, magas v\u00e9rnyom\u00e1s gyakorl\u00f3 k\u00e9pek
+  magas v\u00e9rnyom\u00e1s viilma. Magas v\u00e9rnyom\u00e1s orrcseppek aki legy\u0151zte
+  a magas v\u00e9rnyom\u00e1st, magas v\u00e9rnyom\u00e1s tengeri s\u00f3 Seg\u00edtek
+  megszabadulni a magas v\u00e9rnyom\u00e1st\u00f3l.\\n\u00c9trendi tan\u00e1csad\u00e1s
+  magas v\u00e9rnyom\u00e1s \u00e9s enyhe t\u00fals\u00faly eset\u00e9n desszertek
+  magas v\u00e9rnyom\u00e1s ellen\\nHa a v\u00e9rnyom\u00e1s a gy\u00f3gyszerszed\u00e9s
+  ellen\u00e9re sem normaliz\u00e1l\u00f3dik, akkor az orvos a gy\u00f3gyszercsere
+  mellett d\u00f6nthet, de ak\u00e1r sz\u00fcks\u00e9g lehet \u00fajabb \u00e9s \u00fajabb
+  gy\u00f3gyszerek fel\u00edr\u00e1s\u00e1ra is. Az a gy\u00f3gyszer, amely az \u00f6n
+  sz\u00e1m\u00e1ra megfelel\u0151, nem biztos, hogy seg\u00edteni fog a csal\u00e1dtagjain,
+  ismer\u0151sein. Gy\u00f3gyszer\u00e9t rendszeresen kell szednie ahhoz, hogy v\u00e9rnyom\u00e1sa
+  tart\u00f3san norm\u00e1l\u00e9rt\u00e9k\u0171 legyen.\\nMagas v\u00e9rnyom\u00e1s
+  kezel\u00e9se j\u00f3g\u00e1val, avagy j\u00f3ga gyakorlatsor a magas v\u00e9rnyom\u00e1s
+  term\u00e9szetes gy\u00f3gy\u00edt\u00e1s\u00e1ra a pokol a hipert\u00f3nia norm\u00e1ja\\nAz
+  iszk\u00e9mi\u00e1s hipert\u00f3nia kialakul\u00e1s\u00e1nak oka \u00e9let 3 fok\u00fa
+  hipert\u00f3ni\u00e1val, magas v\u00e9rnyom\u00e1s testnevel\u00e9s vide\u00f3 fok\u00fa
+  magas v\u00e9rnyom\u00e1s \u00e9s csoport. Magas v\u00e9rnyom\u00e1s vizsg\u00e1lata
+  magas v\u00e9rnyom\u00e1s okozta k\u00e1rosod\u00e1s, magas v\u00e9rnyom\u00e1s
+  elleni gy\u00f3gyszer 160 izom hipert\u00f3nia szindr\u00f3ma.\\nAjurv\u00e9dikus
+  tipp reggeli magas v\u00e9rnyom\u00e1s eset\u00e9n a magas v\u00e9rnyom\u00e1s kezel\u00e9s
+  t\u00fcneteit jelzi\\nIszk\u00e9mi\u00e1s stroke magas v\u00e9rnyom\u00e1ssal A
+  magas v\u00e9rnyom\u00e1st l\u00e9gz\u00e9ssel kezelem, unokatestv\u00e9r hipert\u00f3nia
+  legjobb receptek nem hagyom\u00e1nyos massz\u00e1zs magas v\u00e9rnyom\u00e1s eset\u00e9n.
+  Hogyan kezelik a szem magas v\u00e9rnyom\u00e1s\u00e1t mit verjen magas v\u00e9rnyom\u00e1s
+  eset\u00e9n, fizikai aktivit\u00e1s m\u00e1sodfok\u00fa magas v\u00e9rnyom\u00e1s
+  eset\u00e9n doh\u00e1nyz\u00e1s \u00e9s a magas v\u00e9rnyom\u00e1s kock\u00e1zata.\\nSzauder
+  Ipoly: Magas v\u00e9rnyom\u00e1s, korunk n\u00e9pbetegs\u00e9ge (Mindenki Akad\u00e9mi\u00e1ja)
+  \u00e9rsz\u0171k\u00edt\u0151 orrcseppek magas v\u00e9rnyom\u00e1s eset\u00e9n\\nSokan
+  feladt\u00e1k az eg\u00e9szs\u00e9ges \u00e9tkez\u00e9st a koronav\u00edrus m\u00e1sodik
+  hull\u00e1m\u00e1ra: a magyarok benyomt\u00e1k az egyszer \u00e9l\u00fcnk gombot
+  Hirdet\u00e9s Egy \u00fajabb kutat\u00e1s bebizony\u00edtotta, hogy ha m\u00e1r
+  a at meghaladta, de m\u00e9g nem sz\u00e1rnyalta t\u00fal a es \u00e9rt\u00e9ket
+  a v\u00e9rnyom\u00e1s, akkor is cs\u00f6kkenteni kell - ezzel meg lehet el\u0151zni
+  s\u00falyos betegs\u00e9gek kialakul\u00e1s\u00e1t. Ha siker\u00fclt reduk\u00e1lni,
+  kisebb az es\u00e9lye a sz\u00edvrohamnak, stroke -nak, s\u0151t a hal\u00e1loz\u00e1sok
+  ar\u00e1nya is cs\u00f6kken. A magas v\u00e9rnyom\u00e1s kezel\u00e9se Sokan haszn\u00e1lnak
+  olyan gy\u00f3gyszert, amivel k\u00f6r\u00fcl tudj\u00e1k tartani a v\u00e9rnyom\u00e1sukat.
+  N\u00e9h\u00e1nyan m\u00e9g Maratont is futnak, eg\u00e9szs\u00e9gesen \u00e9lnek,
+  de egyszer\u0171en nem tudj\u00e1k a norm\u00e1lis \u00e9rt\u00e9khez k\u00f6zel
+  vinni a v\u00e9rnyom\u00e1sukat, mivel val\u00f3sz\u00edn\u0171leg genetikailag
+  k\u00f3dolt benn\u00fck a magas v\u00e9rnyom\u00e1s.\\nMagas v\u00e9rnyom\u00e1s
+  ellen 6 megold\u00e1s amiksin hipert\u00f3nia\\nA magas v\u00e9rnyom\u00e1s ecetes
+  kezel\u00e9se a magas v\u00e9rnyom\u00e1s kock\u00e1zati t\u00e9nyez\u0151je vagy
+  t\u00e1rsult \u00e1llapota, k\u00f6szv\u00e9ny \u00e9s magas v\u00e9rnyom\u00e1s
+  hogyan kell kezelni magas v\u00e9rnyom\u00e1s v\u00edzmennyis\u00e9g. A magas v\u00e9rnyom\u00e1s
+  orvosi vizsg\u00e1lata magas v\u00e9rnyom\u00e1sban szenved\u0151 tiltott szakm\u00e1k,
+  magas v\u00e9rnyom\u00e1s-rohammal k\u00fczd\u0151 szem\u00e9lynek sz\u00fcks\u00e9ge
+  van magas v\u00e9rnyom\u00e1s kezel\u00e9s\u00e9re szolg\u00e1l\u00f3 komplex.\\nMagas
+  v\u00e9rnyom\u00e1s kialakul\u00e1s\u00e1nak okai - Dr Magony M\u00f3nika magok
+  magas v\u00e9rnyom\u00e1s ellen\\nMagas a v\u00e9rnyom\u00e1sa, \u00e9s kevesebb
+  gy\u00f3gyszert szeretne r\u00e1 szedni? Akkor van egy j\u00f3 h\u00edr\u00fcnk,
+  ugyanis n\u00e9h\u00e1ny esetben ak\u00e1r egy-egy term\u00e9szetes m\u00f3don is
+  seg\u00edthet. Ilyeneket gy\u0171jt\u00f6tt\u00fcnk egybe. Mozg\u00e1s Egy j\u00f3l
+  \u00e1tgondolt \u00e9s kidolgozott edz\u00e9stervvel, ak\u00e1r 10 higanymillim\u00e9terrel
+  is cs\u00f6kkenthetj\u00fck a v\u00e9rnyom\u00e1sunkat.\\nId\u0151sek akad\u00e9mi\u00e1ja
+  2019: A magas v\u00e9rnyom\u00e1s sz\u00f6v\u0151dm\u00e9nye a diabetes kark\u00f6t\u0151k
+  seg\u00edtenek a magas v\u00e9rnyom\u00e1sban\\nMi\u00e9rt alattomos ez a betegs\u00e9g?
+  Alattomos, mert kezdetben nem vev\u0151dik \u00e9szre. Lappangva, n\u00e9m\u00e1n,
+  mintegy lopakodva kezd\u0151dik. Panaszt, t\u00fcnetet kezdetben nem okoz.\\nB\u00e1nfi
+  Ibolya - Magas v\u00e9rnyom\u00e1s legy\u0151z\u00e9se j\u00e1tszi k\u00f6nnyeds\u00e9ggel
+  s\u00fcrg\u0151ss\u00e9gi ell\u00e1t\u00e1s magas v\u00e9rnyom\u00e1s\\nA megel\u0151z\u00e9s
+  szempontj\u00e1b\u00f3l fontos, hogy ezekre a t\u00e9nyez\u0151kre odafigyelj. Ez
+  fokozottan igaz az \u00e9letkor el\u0151rehaladt\u00e1val, illetve ha a csal\u00e1dban
+  m\u00e1r el\u0151fordult magasv\u00e9rnyom\u00e1s-betegs\u00e9g. A magas v\u00e9rnyom\u00e1s
+  megel\u0151z\u00e9se Ford\u00edts gondot a megfelel\u0151 \u00e9tkez\u00e9sre. Ez
+  els\u0151sorban a z\u00f6lds\u00e9gekben, gy\u00fcm\u00f6lcs\u00f6kben, teljes ki\u0151rl\u00e9s\u0171
+  gabon\u00e1kban, rostokban, vitaminokban gazdag \u00e9lelmiszerek fogyaszt\u00e1s\u00e1t
+  jelenti.\"", "\"K\u00f6rmendy-\u00c9kes Judit, az Orsz\u00e1gos R\u00e1di\u00f3
+  \u00e9s Telev\u00edzi\u00f3 Test\u00fclet (ORTT) eln\u00f6ke cs\u00fct\u00f6rt\u00f6k\u00f6n
+  a\\nparlament informatikai bizotts\u00e1ga \u00fcl\u00e9s\u00e9n kijelentette: a
+  jelenlegi m\u00e9diat\u00f6rv\u00e9ny alkalmatlan az \u00faj technol\u00f3gi\u00e1k
+  kezel\u00e9s\u00e9re \u00e9s messze \u00e1ll az Eur\u00f3pai Uni\u00f3 elv\u00e1r\u00e1saiban
+  megfogalmazott technol\u00f3giai semlegess\u00e9gt\u0151l is. K\u00f6rmendy-\u00c9kes
+  Judit szerint az \u00faj szab\u00e1lyoz\u00e1snak a v\u00e9deni k\u00edv\u00e1nt
+  \u00e9rt\u00e9kekb\u0151l - egyebek k\u00f6zt a v\u00e9lem\u00e9nyszabads\u00e1gb\u00f3l,
+  a szem\u00e9lyis\u00e9gv\u00e9delemb\u0151l, a kiskor\u00faak v\u00e9delm\u00e9b\u0151l,
+  valamint a m\u0171sorok soksz\u00edn\u0171s\u00e9g\u00e9b\u0151l - kell kiindulnia.
+  R\u00e1mutatott: jelenleg a kommunik\u00e1ci\u00f3s h\u00e1l\u00f3zatok \u00e1ltal
+  szolg\u00e1ltatott tartalom nem sz\u0171rik. Hi\u00e1nyoss\u00e1gk\u00e9nt \u00e9rt\u00e9kelte
+  azt is, hogy a szab\u00e1lyoz\u00e1s nem \u00e9rinti a v\u00e9lem\u00e9nymonop\u00f3lium
+  kialakul\u00e1s\u00e1t. K\u00f6rmendy-\u00c9kes Judit szerint bizonyos szint\u0171
+  \u00e1llami szab\u00e1lyoz\u00e1sra sz\u00fcks\u00e9g lesz az interneten megjelen\u0151
+  tartalomszolg\u00e1ltat\u00e1sn\u00e1l is, azon t\u00fal, hogy az \u00f6nszab\u00e1lyoz\u00e1s
+  is m\u0171k\u00f6dhetne. V\u00e9lem\u00e9nye szerint a tartalomszolg\u00e1ltat\u00f3k
+  \u00e9s k\u00f6zte kialakult hangos vit\u00e1nak is k\u00f6sz\u00f6nhet\u0151, hogy
+  az \u00e9rintettek \u00f6nszab\u00e1lyoz\u00f3 egyes\u00fcletet \u00e9s etikai k\u00f3dexet
+  hoztak l\u00e9tre. Az \u00e1llami szab\u00e1lyoz\u00e1st egyebek k\u00f6zt azzal
+  indokolta, hogy nem el\u00e9g a tartalomszolg\u00e1ltat\u00f3k \u00e1ltal meghat\u00e1rozott
+  \\\"mor\u00e1lis szankci\u00f3\\\".\\nRovataink a facebookon\"", "\"\u00dagy t\u0171nik,
+  a hossz\u00fa borult id\u0151szakok ut\u00e1n v\u00e9gre szebb id\u0151k j\u00e1rnak
+  fel\u00e9nk, t\u00f6bb a der\u00fclt \u00e9g, \u00e9s meg\u00e9rkeztek az \u00fajabb
+  \u00e9gi l\u00e1tnival\u00f3k is.\\nMizser Attila, Csillagtanya\\nA min\u00e9l v\u00e9konyabb
+  (az esti \u00e9gen min\u00e9l fiatalabb, a hajnalin min\u00e9l id\u0151sebb) holdsarl\u00f3
+  megfigyel\u00e9s\u00e9nek t\u00f6bb \u00e9vtizedes hagyom\u00e1nyai vannak haz\u00e1nkban.
+  A c\u00e9l az \u00fajhold id\u0151pontj\u00e1hoz min\u00e9l k\u00f6zelebb es\u0151,
+  jellemz\u0151en halv\u00e1ny, c\u00e9rnav\u00e9kony, csak a sz\u00fcrk\u00fcleti
+  \u00e9gen, alacsonyan megfigyelhet\u0151 sarl\u00f3hold megtal\u00e1l\u00e1sa, \u00e9szlel\u00e9se,
+  esetleg lef\u00e9nyk\u00e9pez\u00e9se. A sokf\u00e9le felt\u00e9telb\u0151l l\u00e1thatjuk,
+  hogy nem is olyan egyszer\u0171 ez a feladat, amint arr\u00f3l Cseh Viktor blogj\u00e1n
+  is olvashatunk. A m\u00e1sf\u00e9l- k\u00e9tnapos Hold l\u00e1tv\u00e1nya is eml\u00e9kezetes,
+  azonban igazi sport\u00e9rt\u00e9ke azoknak az \u00e9szlel\u00e9seknek van, amikor
+  24 \u00f3r\u00e1n\u00e1l fiatalabb vagy id\u0151sebb holdsarl\u00f3t tudunk megpillantani.\\nJanu\u00e1r
+  14-\u00e9n kora este sokan l\u00e1thatt\u00e1k a v\u00e9kony holdsarl\u00f3t a nyugati
+  \u00e9gen. A viharos, hideg sz\u00e9l persze t\u00f6bbeknek kedv\u00e9t szegte,
+  de n\u00e9h\u00e1ny percet igaz\u00e1n meg\u00e9rt egy kis esti l\u00e1tv\u00e1nyoss\u00e1g.
+  A sarl\u00f3 kora 35 \u00f3ra volt, vagyis \u00fajhold ut\u00e1n 35 \u00f3r\u00e1val
+  j\u00e1rtunk a f\u00e9nyk\u00e9p elk\u00e9sz\u00edt\u00e9sekor. A felv\u00e9tel
+  2021. janu\u00e1r 14-\u00e9n 17 \u00f3rakor k\u00e9sz\u00fclt, Canon Powershot SX
+  240HS f\u00e9nyk\u00e9pez\u0151g\u00e9ppel (ISO 800, expoz\u00edci\u00f3s id\u0151:
+  1/8 s).\"", "\"Hamarosan es\u0151sre fordul id\u0151j\u00e1r\u00e1sunk\\n2020. janu\u00e1r.
+  27 13:28Kedd hajnalban nyugat fel\u0151l egy hidegfront \u00e9ri el az orsz\u00e1got,
+  amelynek hat\u00e1s\u00e1ra egyre t\u00f6bb helyen elered az es\u0151 haz\u00e1nkban,
+  helyenk\u00e9nt \u00f3nos es\u0151 kialakul\u00e1s\u00e1ra is sz\u00e1m\u00edtani
+  kell.\\nKedden er\u0151sen felh\u0151s vagy borult lesz az \u00e9g, csak este nyugaton
+  lehet szakadozottabb a felh\u0151zet. T\u00f6bbfel\u00e9, t\u00f6bb hull\u00e1mban
+  alakul ki es\u0151, z\u00e1por, \u00e9szakkeleten, valamint k\u00e9s\u0151 d\u00e9lut\u00e1n
+  nyugaton, d\u00e9lnyugaton a hegyekben havas es\u0151, h\u00f3 is el\u0151fordulhat.
+  D\u00e9lnyugaton egy-egy zivatar sem kiz\u00e1rt. \u00c9l\u00e9nk, helyenk\u00e9nt
+  er\u0151s lesz a d\u00e9li, d\u00e9lnyugati sz\u00e9l, amely d\u00e9lut\u00e1n nyugaton
+  \u00e9szaknyugatira fordul, \u00e9s viharos sz\u00e9ll\u00f6k\u00e9sek is lehetnek.
+  A legalacsonyabb \u00e9jszakai h\u0151m\u00e9rs\u00e9klet +2 \u00e9s -3 fok k\u00f6z\u00f6tt
+  val\u00f3sz\u00edn\u0171. A legmagasabb nappali h\u0151m\u00e9rs\u00e9klet t\u00f6bbnyire
+  4 \u00e9s 11 fok k\u00f6z\u00f6tt v\u00e1rhat\u00f3, de \u00e9szakkeleten hidegebb
+  lesz.\\nszerda\\n- Kezdetben er\u0151sen felh\u0151s lesz az \u00e9g, majd napk\u00f6zben
+  cs\u00f6kken a felh\u0151zet, t\u00f6bb-kevesebb naps\u00fct\u00e9s mindenhol lesz.\\n-
+  Hajnalban keleten lehet n\u00e9hol es\u0151, \u00f3nos es\u0151, majd napk\u00f6zben
+  sz\u00f3rv\u00e1nyosan alakulhatnak ki z\u00e1porok, h\u00f3z\u00e1porok.\\n- Este
+  d\u00e9lnyugaton \u00fajra el\u0151fordulhat \u00f3nos es\u0151.\\n- A nyugati sz\u00e9l
+  id\u0151nk\u00e9nt meger\u0151s\u00f6dik.\\n- A legalacsonyabb \u00e9jszakai h\u0151m\u00e9rs\u00e9klet
+  -4, +1, a legmagasabb nappali h\u0151m\u00e9rs\u00e9klet 3, 8 fok k\u00f6z\u00f6tt
+  alakul.\\ncs\u00fct\u00f6rt\u00f6k\\n- Kiss\u00e9 vagy k\u00f6zepesen felh\u0151s
+  lesz az \u00e9g.\\n- Helyenk\u00e9nt alakulhat ki z\u00e1por, h\u00f3z\u00e1por.\\n-
+  Reggel a d\u00e9li, d\u00e9lnyugati orsz\u00e1gr\u00e9szben \u00f3nos es\u0151 sem
+  kiz\u00e1rt.\\n- A nyugati, \u00e9lnyugati id\u0151nk\u00e9nt meger\u0151s\u00f6dik.\\n-
+  A legalacsonyabb \u00e9jszakai h\u0151m\u00e9rs\u00e9klet -8, +1, a legmagasabb
+  nappali h\u0151m\u00e9rs\u00e9klet 2, 9 fok k\u00f6z\u00f6tt alakul.\\np\u00e9ntek\\n-
+  A nap els\u0151 fel\u00e9ben er\u0151sen felh\u0151s vagy borult lesz az \u00e9g,
+  majd napk\u00f6zben szakadozik, cs\u00f6kken a felh\u0151zet, de a nap v\u00e9g\u00e9ig
+  k\u00f6zepesen felh\u0151s marad az \u00e9g.\\n- Sz\u00f3rv\u00e1nyosan v\u00e1rhat\u00f3
+  es\u0151, z\u00e1por, hajnalban \u00e9szakkeleten n\u00e9hol \u00f3nos es\u0151
+  is.\\n- Az d\u00e9lnyugati, nyugati sz\u00e9l er\u0151s lesz, helyenk\u00e9nt viharos
+  sz\u00e9ll\u00f6k\u00e9sek is el\u0151fordulhatnak.\\n- A legalacsonyabb \u00e9jszakai
+  h\u0151m\u00e9rs\u00e9klet \u00e1ltal\u00e1ban -1, +4, \u00e9szakkeleten -5, -1
+  fok k\u00f6z\u00f6tt alakul.\\n- A legmagasabb nappali h\u0151m\u00e9rs\u00e9klet
+  5, 13 fok k\u00f6z\u00f6tt val\u00f3sz\u00edn\u0171.\\nszombat\\n- T\u00f6bbnyire
+  er\u0151sen felh\u0151s lesz az \u00e9g.\\n- Sz\u00f3rv\u00e1nyosan v\u00e1rhat\u00f3
+  es\u0151, z\u00e1por.\\n- A d\u00e9lnyugati sz\u00e9l helyenk\u00e9nt meger\u0151s\u00f6dik.\\n-
+  A legalacsonyabb \u00e9jszakai h\u0151m\u00e9rs\u00e9klet -2, +4, a legmagasabb
+  nappali h\u0151m\u00e9rs\u00e9klet 5, 13 fok k\u00f6z\u00f6tt alakul.\\nvas\u00e1rnap\\n-
+  K\u00f6zepesen vagy er\u0151sen felh\u0151s lesz az \u00e9g.\\n- Sz\u00f3rv\u00e1nyosan
+  alakulhat ki es\u0151, z\u00e1por.\\n- Az \u00e9szaknyugati, nyugati sz\u00e9l t\u00f6bbfel\u00e9
+  meger\u0151s\u00f6dik, f\u0151k\u00e9nt az orsz\u00e1g \u00e9szakkeleti harmad\u00e1n
+  viharos erej\u0171 sz\u00e9ll\u00f6k\u00e9sek is lehetnek.\\n- A legalacsonyabb
+  \u00e9jszakai h\u0151m\u00e9rs\u00e9klet -1, +7 fok k\u00f6z\u00f6tt, a legmagasabb
+  nappali h\u0151m\u00e9rs\u00e9klet 8, 15 fok k\u00f6z\u00f6tt alakul.\""]'
 src_ngrams: '{"1": [[["is"], 422985781], [["ha"], 149493469], [["magyar"], 54585204],
   [["k\u00e9t"], 43921665], [["els\u0151"], 43802585]], "2": [[["tov\u00e1bbra is"],
   6463783], [["magas v\u00e9rnyom\u00e1s"], 5391658], [["lehet\u0151v\u00e9 teszi"],

@@ -1,8 +1,9 @@
-corpus: hplt-v4-azj
+corpus: hplt-v4-azj_Latn
 srclang: azj
-timestamp: 1789055512.825499
+timestamp: 1792812952.897159
 warnings:
 - src_warning_tok_nltk_wordpunct
+- src_fastspell
 docs_collections: '[["CC-MAIN-2024-10", 424546], ["CC-MAIN-2016-44", 388998], ["CC-MAIN-2024-18",
   346074], ["CC-MAIN-2023-50", 334108], ["wide00011", 296107], ["CC-MAIN-2020-05",
   290197], ["CC-MAIN-2020-24", 287574], ["CC-MAIN-2024-22", 262352], ["CC-MAIN-2024-33",
@@ -28,7 +29,8 @@ docs_collections: '[["CC-MAIN-2024-10", 424546], ["CC-MAIN-2016-44", 388998], ["
   58892], ["CC-MAIN-2014-15", 17423], ["CC-MAIN-2016-40", 5571], ["CC-MAIN-2014-35",
   4002], ["CC-MAIN-2016-30", 3300], ["CC-MAIN-2014-42", 2042], ["CC-MAIN-2015-11",
   1726], ["CC-MAIN-2015-48", 1409], ["CC-MAIN-2015-18", 972]]'
-docs_langs: '[[0.0, 12225288]]'
+docs_langs: '[[0.2, 13192], [0.3, 40380], [0.4, 85577], [0.5, 278167], [0.6, 385081],
+  [0.7, 568089], [0.8, 1403612], [0.9, 2339239], [1.0, 7111951]]'
 docs_segments: '[[637, 5], [320, 72], [405, 42], [305, 142], [730, 3], [999, 1], [1761,
   1], [640, 8], [2038, 8], [481, 23], [2524, 1], [680, 7], [336, 88], [1801, 1], [5263,
   1], [2138, 2], [2092, 1], [950, 6], [2403, 2], [156, 946], [546, 18], [2118, 1],
@@ -1399,7 +1401,7 @@ src_unique_sents: '[[1, 254104], [2, 1271327], [3, 2199516], [4, 3030313], [5, 3
   1], [62338, 1], [66024, 1], [66046, 1], [68644, 1], [70195, 1], [70514, 1], [72498,
   1], [80630, 1], [81731, 1], [87147, 1], [93173, 1], [99417, 1], [110771, 1], [115253,
   1], [116125, 1], [118441, 1], [121558, 1]]'
-src_langs: '[["az", 236012268], ["tr", 9002650], ["en", 6910045], ["it", 4951185],
+src_langs: '[["az", 233142083], ["tr", 11872835], ["en", 6910045], ["it", 4951185],
   ["de", 1553222], ["ru", 1278128], ["fr", 747865], ["es", 434372], ["pt", 355606],
   ["uz", 324669], ["zh", 321472], ["eo", 304617], ["nl", 296992], ["sr", 285895],
   ["et", 245301], ["ko", 226879], ["sv", 209700], ["hu", 207737], ["pl", 188548],
@@ -1432,7 +1434,1705 @@ src_langs: '[["az", 236012268], ["tr", 9002650], ["en", 6910045], ["it", 4951185
   ["sc", 24], ["pfl", 10], ["rue", 9], ["mai", 7], ["dty", 1]]'
 hardrules_tags: '{"not_too_long": 1745046, "not_too_short": 25157457, "length_ratio":
   0, "no_urls": 8134620, "no_bad_encoding": 5293, "pii": 190861}'
-sample: hplt-v4-azj-sample
+register_labels: '{"NA_ne": 6175197, "UNK": 2733638, "MT": 2288422, "NA_sr": 572260,
+  "IP_ds": 566692, "IN_other": 441473, "NA_other": 321723, "IN_dtp": 184663, "IP_other":
+  173325, "IN_en": 156471, "MIX": 131093, "OP_rs": 125809, "OP_other": 103473, "SP_it":
+  97642, "HI_other": 64103, "IN_lt": 52071, "OP_ob": 49868, "OP_av": 45276, "NA_nb":
+  45216, "HI_re": 43165, "ID_other": 43027, "SP_other": 40752, "OP_rv": 30962, "LY_other":
+  23749, "IN_ra": 2445, "IP_ed": 1129, "IN_fi": 66}'
+sample: '["\"Bak\u0131da m\u0259nzild\u0259 69 ya\u015fl\u0131 qad\u0131n\u0131n meyiti
+  tap\u0131l\u0131b.\\nF\u00f6vq\u0259lad\u0259 Hallar Nazirliyind\u0259n (FHN) Yenicag.az-a
+  bildirilib ki, qurumun \u201c112\u201d qaynar telefon x\u0259ttin\u0259 daxil olan
+  m\u0259lumata \u0259sas\u0259n, Bak\u0131 \u015f\u0259h\u0259rinin Sabun\u00e7u
+  rayonunda 1 n\u0259f\u0259r m\u0259nzild\u0259 ba\u011fl\u0131 qap\u0131 arxas\u0131nda
+  k\u00f6m\u0259ksiz v\u0259ziyy\u0259td\u0259 qal\u0131b.\\nHadis\u0259 yerin\u0259
+  c\u0259lb olunan X\u00fcsusi Riskli Xilasetm\u0259 Xidm\u0259tinin m\u00fcvafiq
+  xilasetm\u0259 q\u00fcvv\u0259l\u0259ri m\u0259nzil\u0259 daxil olaraq orada a\u015fkarlanan
+  1950-ci il t\u0259v\u0259ll\u00fcdl\u00fc Mayilova S\u0259d\u0259q\u0259d Xanbala
+  q\u0131z\u0131n\u0131n meyitini aidiyy\u0259ti \u00fczr\u0259 t\u0259hvil veribl\u0259r.\\nwww.yenicag.az\"",
+  "\"\u018fsas q\u0259l\u0259b\u0259y\u0259 \u0259lav\u0259 olaraq, oyun\u00e7u h\u0259l\u0259
+  d\u0259 daha b\u00f6y\u00fck m\u00fckafat alaca\u011f\u0131n\u0131 g\u00f6zl\u0259y\u0259
+  bil\u0259r. Prosedur qorxusuz t\u0259rtibat\u00e7\u0131n\u0131n sayt\u0131nda Aviator
+  game m\u0259rc etm\u0259y\u0259 v\u0259 qazanma\u011fa ba\u015flama\u011fa imkan
+  ver\u0259c\u0259k. \u015e\u0259xsi hesaba daxil olduqdan sonra oyun\u00e7u hesab\u0131
+  doldura v\u0259 Aviator game m\u0259rc etm\u0259y\u0259 ba\u015flaya bil\u0259r.
+  Dig\u0259r oyunlar aras\u0131nda Aviator qrafikas\u0131 il\u0259 diqq\u0259t \u00e7\u0259kib.
+  \u0130st\u0259nil\u0259n m\u0259rc \u00f6l\u00e7\u00fcs\u00fcn\u00fc se\u00e7\u0259
+  bil\u0259rsiniz v\u0259 h\u0259tta minimum bir m\u0259rc olduqca g\u00f6z\u0259l
+  bir qalibiyy\u0259t g\u0259tirir.\\n- Pulsuz rejim qeydiyyatdan ke\u00e7mi\u015f
+  m\u00fc\u015ft\u0259ril\u0259r v\u0259 kazino sayt\u0131na qeydiyyatdan ke\u00e7m\u0259mi\u015f
+  ziyar\u0259t\u00e7il\u0259r \u00fc\u00e7\u00fcn m\u00f6vcuddur.\\n- H\u0259r g\u00fcn
+  istifad\u0259\u00e7i kvalifikasiyan\u0131 tamamlad\u0131\u011f\u0131 t\u0259qdird\u0259
+  bonus spinl\u0259ri ala bil\u0259r.\\n- Bunun \u00fc\u00e7\u00fcn m\u00fcv\u0430fiq
+  d\u00fcym\u0259l\u0259r s\u0430yt\u0131nd\u0430 \u0259s\u0430s s\u0259hif\u0259sinin
+  yux\u0430r\u0131 s\u043el hiss\u0259sind\u0259 y\u0435rl\u0259\u015fir.\\nPrinsipc\u0259,
+  oyun adrenalin dozas\u0131 almaq ist\u0259y\u0259nl\u0259r v\u0259 statistika h\u0259v\u0259skarlar\u0131
+  \u00fc\u00e7\u00fcn uy\u011fundur. S\u00fcbut edil\u0259 bil\u0259n \u0259dal\u0259tli
+  sistem yeni format\u0131n qumar \u0259yl\u0259nc\u0259sinin \u0259sas\u0131n\u0131
+  t\u0259\u015fkil edir. Aviator game q\u0259za game minimum s\u0259rmay\u0259 il\u0259
+  ist\u0259nil\u0259n qumarbaz\u0131n 100 d\u0259f\u0259 \u00e7ox pul \u0259ld\u0259
+  etm\u0259k \u015fans\u0131 var. Aviator sport vizual dizayn\u0131 janr\u0131n p\u0259r\u0259sti\u015fkarlar\u0131n\u0131
+  prosesd\u0259n yay\u0131nd\u0131rmayacaq. Qumarbaz sakitc\u0259 t\u0259yyar\u0259nin
+  nec\u0259 u\u00e7du\u011funu izl\u0259y\u0259c\u0259k v\u0259 laz\u0131mi kamu pulu
+  na\u011fdla\u015fd\u0131rma d\u00fcym\u0259sini basacaq. Potensial qazanc ekrandak\u0131
+  t\u0259yyar\u0259nin h\u00fcnd\u00fcrl\u00fcy\u00fcnd\u0259n as\u0131l\u0131d\u0131r.\\nMostbet
+  Aviator oyna: nas\u0131l \u00fccretsiz oynan\u0131r?\\nBu g\u00fcn u\u00e7an slot
+  machine 1xbet giri\u015f 2022 ma\u015f\u0131n\u0131 Mostbet-in onlayn kazino kataloqunun
+  zirv\u0259sind\u0259 m\u00f6hk\u0259m dayan\u0131r. \u0130stehlak\u00e7\u0131lar
+  sevdikl\u0259ri mat\u00e7lar\u0131 canl\u0131 izl\u0259y\u0259 bil\u0259rl\u0259r.
+  30-dan \u00e7ox virtual idman m\u00f6vcuddur (futbol, xokkey, tennis v\u0259 daha
+  \u00e7ox). Virtual hiss\u0259d\u0259 daha \u00e7evik bahisl\u0259r v\u0259 daha
+  \u00e7ox qazanc var.\\n- Aviator game Mostbet oyununun n\u0259tic\u0259sini proqnozla\u015fd\u0131rmaq
+  \u00fc\u00e7\u00fcn alqoritm m\u00fcr\u0259kk\u0259bdir v\u0259 bir \u00e7ox amill\u0259r\u0259
+  \u0259saslan\u0131r.\\n- Spribe ixtisasla\u015fm\u0131\u015f qumar komissiyalar\u0131nda
+  18 milli lisenziya verib.\\n- Eyni zamanda, h\u0259r iki halda x60 m\u0259bl\u0259\u011find\u0259
+  m\u0259rc \u00fc\u00e7\u00fcn m\u0259rc t\u0259yin edilir.\\n- Oyuna a\u015fa\u011f\u0131
+  gedi\u015fl\u0259rl\u0259 ba\u015flad\u0131qdan sonra n\u00f6vb\u0259ti strategiya
+  m\u0259rc m\u0259bl\u0259\u011fini art\u0131rmaqd\u0131r.\\nBunun \u00fc\u00e7\u00fcn
+  h\u0259r turda i\u015ftirak etm\u0259y\u0259 \u00e7al\u0131\u015faraq ki\u00e7ik
+  m\u0259rcl\u0259r etm\u0259k laz\u0131md\u0131r. S\u00f6z kitab\u0131n redaktoru
+  \u015fair Mirs\u0259yyaf Zamanl\u0131ya verildi. Onlar\u0131n \u00e7ald\u0131\u011f\u0131
+  q\u0259dim saz havalar\u0131 oxucular\u0131n https://unazerbaijan.org/qeydiyyat/
+  z\u00f6vq\u00fcn\u00fc ox\u015fay\u0131rd\u0131. Sonra s\u00f6z Filalogiya elml\u0259ri
+  namiz\u0259di \u0130lham M\u0259mm\u0259dliy\u0259 verildi. [newline]Ohe\u00e7 bir
+  t\u0259hsil almayan Sevda xan\u0131m\u0131n fitri istedad\u0131ndan s\u00f6hb\u0259t
+  a\u00e7d\u0131.\\nAviator Oyununda pul Qazanmaq\\nM\u0259s\u0259l\u0259n, son 15
+  raundda alt\u0131s\u0131 2.00-\u0131, d\u00f6rd\u00fc 3.00-\u0131, ikisi is\u0259
+  4.00-\u0131 ke\u00e7ib. Yeni ba\u015flayanlar \u00fc\u00e7\u00fcn hans\u0131 oyun
+  taktikas\u0131n\u0131n daha s\u0259rf\u0259li oldu\u011funu d\u0259rhal qiym\u0259tl\u0259ndirm\u0259k
+  \u00e7\u0259tindir. Buna g\u00f6r\u0259 d\u0259 onlar ekran\u0131n sol t\u0259r\u0259fin\u0259
+  y\u00f6n\u0259ldilmi\u015fdir.\\n- Sonra s\u00f6z Filalogiya elml\u0259ri namiz\u0259di
+  \u0130lham M\u0259mm\u0259dliy\u0259 verildi.\\n- El\u0259c\u0259 d\u0259 m\u00f6ht\u0259\u015f\u0259m
+  slot ma\u015f\u0131nlar\u0131m\u0131z\u0131 s\u0131nay\u0131n v\u0259 ya Mostbet-d\u0259
+  Poker, Bakkara, Keno \u00fc\u00e7\u00fcn Canl\u0131 dilerl\u0259rl\u0259 masaya
+  qo\u015fulun.\\n- Xo\u015f g\u0259ldin bonusunun bir hiss\u0259si kimi Pin-Up ilk
+  depozit \u00fc\u00e7\u00fcn 2500 manata q\u0259d\u0259r bonus v\u0259 two hundred
+  and fifty pulsuz f\u0131rlanma t\u0259klif edir.\\n- Q\u0131sa bir anket doldurduqdan
+  sonra, bir slot machine game azarke\u015fi onu \u015f\u0259xsi hesab\u0131na aparacaq
+  bir ke\u00e7id alacaq mostbet oyunu.\\n- Oynama\u011fa ba\u015flamaq \u00fc\u00e7\u00fcn
+  ikinci vacib add\u0131m Mostbet Aviator oyna \u2013 hesab\u0131n doldurulmas\u0131d\u0131r.\\nMobil
+  t\u0259tbiqetm\u0259l\u0259ri y\u00fckl\u0259m\u0259k \u00fc\u00e7\u00fcn 1xbet
+  (yukle) veb s\u0259hif\u0259sin\u0259 ke\u00e7in. M\u043ebil v\u0435rsiy\u0430 s\u00fcr\u0259tli
+  bir \u015f\u0259kild\u0259 i\u015fl\u0259yir v\u0259 nisb\u0259t\u0259n d\u0430h\u0430
+  \u0430z int\u0435rn\u0435t tr\u0430fikind\u0259n istif\u0430d\u0259 \u0435dir. M\u043estb\u0435t
+  bukm\u0435yk\u0435r \u015firk\u0259tinin q\u0430nuni \u043el\u0430r\u0430q 18 y\u0430\u015f\u0131n\u0131
+  t\u0430m\u0430ml\u0430m\u0131\u015f h\u0259r bir \u015f\u0259xs q\u0435ydiyy\u0430td\u0430n
+  k\u0435\u00e7\u0259 bil\u0259rsiniz. M\u0259r\u0441 \u015firk\u0259tini h\u0259m\u00e7inin
+  \u0410z\u0259rb\u0430y\u0441\u0430nd\u0430n \u043el\u0430n istif\u0430d\u0259\u00e7il\u0259ri
+  d\u0259 q\u0259bul \u0435dir.\\nMostbet Aviator oyunu n\u0259dir?\\nPulsuz rejim
+  qeydiyyatdan ke\u00e7mi\u015f m\u00fc\u015ft\u0259ril\u0259r v\u0259 kazino sayt\u0131na
+  qeydiyyatdan ke\u00e7m\u0259mi\u015f ziyar\u0259t\u00e7il\u0259r \u00fc\u00e7\u00fcn
+  m\u00f6vcuddur. Slot ma\u015f\u0131n\u0131 aviator oyna t\u0259min etmir, lakin
+  y\u00fcks\u0259k \u0259msallar varifr? Turlar\u0131n statistikas\u0131nda one thousand
+  v\u0259 ya daha \u00e7ox \u0259msalla 1xbet azerbaycan qalibl\u0259r var. Bel\u0259
+  bir qalibiyy\u0259ti slotlarda cekpot almaqla m\u00fcqayis\u0259 etm\u0259k olar.
+  Bunun \u00fc\u00e7\u00fcn m\u00fcv\u0430fiq d\u00fcym\u0259l\u0259r s\u0430yt\u0131nd\u0430
+  \u0259s\u0430s s\u0259hif\u0259sinin yux\u0430r\u0131 s\u043el hiss\u0259sind\u0259
+  y\u0435rl\u0259\u015fir.\\n- \u00d6z\u00fcn\u00fcz\u0259 \u0259min deyilsinizs\u0259,
+  t\u0259cr\u00fcb\u0259li Aviator azarke\u015fl\u0259ri bunu Mostbet AZ-da etdikl\u0259ri
+  anda na\u011fd pul \u00e7\u0131xar\u0131n.\\n- Bel\u0259likl\u0259, ziyar\u0259t\u00e7i
+  yat\u0131rd\u0131\u011f\u0131 pula q\u0259na\u0259t ed\u0259 v\u0259 eyni zamanda
+  laz\u0131mi bacar\u0131qlar\u0131 \u0259ld\u0259 ed\u0259 bil\u0259c\u0259k.\\n-
+  Provayder \u0259dal\u0259tli qumar oyunlar\u0131na, y\u0259ni m\u00fcxt\u0259lif
+  ehtimallar\u0131n tamamil\u0259 t\u0259sad\u00fcfi ard\u0131c\u0131ll\u0131\u011f\u0131na
+  z\u0259man\u0259t verir.\\n- Avtostavkan\u0131n istifad\u0259sini dayand\u0131rmaq
+  \u00fc\u00e7\u00fcn \u0259lav\u0259 parametrl\u0259ri d\u0259 se\u00e7\u0259 bil\u0259rsiniz.\\n-
+  B\u00fct\u00fcn oyun\u00e7ular ist\u0259s\u0259l\u0259r bahisl\u0259rini dayand\u0131ra
+  bil\u0259rl\u0259r.\\n- Yeni ba\u015flayanlar \u00fc\u00e7\u00fcn hans\u0131 oyun
+  taktikas\u0131n\u0131n daha s\u0259rf\u0259li oldu\u011funu d\u0259rhal qiym\u0259tl\u0259ndirm\u0259k
+  \u00e7\u0259tindir.\\nB\u00f6y\u00fck m\u0259bl\u0259\u011fl\u0259r\u0259 m\u0259rc
+  ed\u0259n oyun\u00e7ular\u0131n h\u0259r\u0259k\u0259tl\u0259rini g\u00f6st\u0259rir.
+  \u00d6z\u00fcn\u00fcz\u0259 \u0259min deyilsinizs\u0259, t\u0259cr\u00fcb\u0259li
+  Aviator azarke\u015fl\u0259ri bunu Mostbet AZ-da etdikl\u0259ri anda na\u011fd pul
+  \u00e7\u0131xar\u0131n. \u0130nternetd\u0259 Aviator alqoritmini \u201cs\u0131nd\u0131ran\u201d
+  v\u0259 qazan-qazan oyun sxeml\u0259rini t\u0259klif ed\u0259n \u201cm\u00fct\u0259x\u0259ssisl\u0259rd\u0259n\u201d
+  \u00e7oxlu m\u0259sl\u0259h\u0259tl\u0259r var. Provayder \u0259dal\u0259tli qumar
+  oyunlar\u0131na, y\u0259ni m\u00fcxt\u0259lif ehtimallar\u0131n tamamil\u0259 t\u0259sad\u00fcfi
+  ard\u0131c\u0131ll\u0131\u011f\u0131na z\u0259man\u0259t verir. A\u015fa\u011f\u0131
+  v\u0259 y\u00fcks\u0259k sitatlar\u0131n bir-birini \u0259v\u0259z ed\u0259n m\u0259ntiqi
+  z\u0259ncirinin oldu\u011funa inanmay\u0131n.\\nYeni giri\u015fl\u0259r\\nUdu\u015flar\u0131n\u0131
+  n\u0259 vaxt almaq ist\u0259diyini v\u0259 bunun n\u0259 q\u0259d\u0259r olaca\u011f\u0131n\u0131
+  oyun\u00e7u \u00f6z\u00fc q\u0259rar verir. Aviator video game slot ma\u015f\u0131n\u0131nda
+  istifad\u0259 edil\u0259n yeni konsepsiya oyun\u00e7ulara qalib olmaq \u015fanslar\u0131n\u0131
+  \u0259h\u0259miyy\u0259tli d\u0259r\u0259c\u0259d\u0259 art\u0131rma\u011fa imkan
+  verir. Bil\u0259r oynaya Bird\u0259n \u00e7ox oyun\u00e7uOnlar dig\u0259r m\u00fc\u015ft\u0259ril\u0259rin
+  m\u0259rcl\u0259rini v\u0259 udu\u015flar\u0131n\u0131 g\u00f6r\u00fcrl\u0259r.
+  \u0130stifad\u0259\u00e7il\u0259rin mesajlar, sirl\u0259r, udu\u015flar m\u00fcbadil\u0259si
+  ed\u0259 bil\u0259c\u0259yi \u00fcmumi bir s\u00f6hb\u0259t var.\\n- Dig\u0259r
+  oyunlar aras\u0131nda Aviator qrafikas\u0131 il\u0259 diqq\u0259t \u00e7\u0259kib.\\n-
+  Bu oyun \u0259sas menyuda hiperke\u00e7idli ayr\u0131 bir d\u00fcym\u0259 il\u0259
+  t\u0259chiz edilib, bu da onun statusunu ayd\u0131nla\u015fd\u0131r\u0131r.\\n-
+  H\u0259r iki funksiya ist\u0259nil\u0259n zaman istifad\u0259\u00e7i t\u0259r\u0259find\u0259n
+  \u0259lg\u00f6t\u00fcr\u0259n rejimd\u0259 dayand\u0131r\u0131la bil\u0259r.\\n-
+  Risk etm\u0259k ist\u0259m\u0259y\u0259n oyun\u00e7ular \u00fc\u00e7\u00fcn minimal
+  x\u0259rcl\u0259rl\u0259 oynamaq t\u0259klif olunur.\\nOnlar istifad\u0259\u00e7iy\u0259
+  sistem\u0259 qeydiyyat \u00fc\u00e7\u00fcn be\u015f \u0259d\u0259dind\u0259 t\u0259yin
+  olunur. \u015eirk\u0259t m\u00fc\u015ft\u0259ril\u0259rin\u0259 bel\u0259 bonuslar\u0131
+  f\u0259rdi s\u0131radan da t\u0259qdim ed\u0259 bil\u0259r. Aviator, t\u0259yyar\u0259nin
+  u\u00e7u\u015f alqoritmini hesablama\u011fa imkan verm\u0259y\u0259n t\u0259sad\u00fcfi
+  \u0259d\u0259dl\u0259r generatoru \u00fcz\u0259rind\u0259 i\u015fl\u0259yir. Onlar
+  oyunu sisteml\u0259\u015fdirm\u0259y\u0259 v\u0259 x\u0259rcl\u0259rin s\u0259viyy\u0259sin\u0259
+  n\u0259zar\u0259t etm\u0259y\u0259 k\u00f6m\u0259k edir. Onlar m\u00fcr\u0259kk\u0259blik
+  s\u0259viyy\u0259sin\u0259 v\u0259 potensial m\u0259nf\u0259\u0259tin \u00f6l\u00e7\u00fcs\u00fcn\u0259
+  g\u00f6r\u0259 f\u0259rql\u0259nirl\u0259r. Lkinci strategiya daha riskli m\u0259rcl\u0259r
+  qoymaq \u00fc\u00e7\u00fcn a\u015fa\u011f\u0131 \u0259msal m\u0259lumatlar\u0131ndan
+  istifad\u0259 edir.\\nMostbet Casino\u2019da Aviator oynamaya nas\u0131l ba\u015flan\u0131r?\\nYeni
+  ba\u015flayanlar \u00fc\u00e7\u00fcn a\u015fa\u011f\u0131da oyunun prinsipi, h\u0259m\u00e7inin
+  m\u0259rcl\u0259rin qoyulmas\u0131 v\u0259 udu\u015flar\u0131n nec\u0259 al\u0131nmas\u0131
+  bar\u0259d\u0259 \u0259trafl\u0131 t\u0259limat va. Masa\u00fcst\u00fc versiyas\u0131na
+  \u0259lav\u0259 olaraq, Mostbet onlayn kazino m\u00fc\u015ft\u0259ril\u0259ri d\u0259
+  mobil telefonlar\u0131nda aviator mostbet game oynaya bil\u0259rl\u0259r! Oyun art\u0131q
+  m\u00f6vcuddur v\u0259 smartfon v\u0259 iPhone-larda asanl\u0131qla a\u00e7\u0131la
+  bil\u0259r. Aviator game Mostbet oyununun n\u0259tic\u0259sini proqnozla\u015fd\u0131rmaq
+  \u00fc\u00e7\u00fcn alqoritm m\u00fcr\u0259kk\u0259bdir v\u0259 bir \u00e7ox amill\u0259r\u0259
+  \u0259saslan\u0131r. Mobil telefonunuza g\u00f6nd\u0259ril\u0259n SMS-d\u0259 \u0259ld\u0259
+  ed\u0259c\u0259yiniz kod h\u0259m\u00e7inin q\u0259bzd\u0259 \u0259ks olunur.\\nPrinsipl\u0259ri
+  \u00f6yr\u0259nm\u0259k v\u0259 \u00f6z strategiyan\u0131z\u0131 qurmaq vacib idi.
+  Bel\u0259likl\u0259, ziyar\u0259t\u00e7i yat\u0131rd\u0131\u011f\u0131 pula q\u0259na\u0259t
+  ed\u0259 v\u0259 eyni zamanda laz\u0131mi bacar\u0131qlar\u0131 \u0259ld\u0259 ed\u0259
+  bil\u0259c\u0259k. Olar \u0130nternetd\u0259 t\u0259qdim olunan he\u00e7 bir sxem
+  v\u0259 ya strategiya 100% n\u0259tic\u0259y\u0259 z\u0259man\u0259t ver\u0259 bilm\u0259z.
+  Ad\u0259t\u0259n oldu\u011fu kimi, uy\u011funla\u015fman\u0131 g\u00f6zl\u0259m\u0259k
+  \u0259v\u0259zin\u0259 dinamikan\u0131 se\u00e7dik. Oyunun u\u011furu oyun\u00e7unun
+  reaksiya s\u00fcr\u0259ti, ehtiyatl\u0131l\u0131\u011f\u0131 v\u0259 s\u0259bri
+  il\u0259 m\u00fc\u0259yy\u0259n edilir.\\nAndroid I\u00e7in Mobil Uygulama\\n1xBet
+  veb-sayt\u0131n\u0131n mobil versiyas\u0131 tamamil\u0259 istifad\u0259\u00e7i dostu
+  bir t\u0259rtibata sahibdir. Da Bu maraql\u0131 oyun SmartSoft provayderi t\u0259r\u0259find\u0259n
+  2021-ci ilin yaz\u0131nda yarad\u0131lm\u0131\u015fd\u0131r. Provayder biz\u0259
+  bir elle \u0259vv\u0259l yarad\u0131lm\u0131\u015f mostbet az aviator m\u0259\u015fhur
+  atraksion ma\u015f\u0131n\u0131n\u0131n \u00f6z versiyas\u0131n\u0131 t\u0259qdim
+  etmi\u015fdir. Bu g\u00fcn u\u00e7an slot ma\u015f\u0131n\u0131 Mostbet-in onlayn
+  kazino kataloqunun zirv\u0259sind\u0259 m\u00f6hk\u0259m dayan\u0131r.\\n- Aviator
+  video game vizual dizayn\u0131 janr\u0131n p\u0259r\u0259sti\u015fkarlar\u0131n\u0131
+  prosesd\u0259n yay\u0131nd\u0131rmayacaq.\\n- Turlar\u0131n statistikas\u0131nda
+  one thousand v\u0259 ya daha \u00e7ox \u0259msalla 1xbet azerbaycan qalibl\u0259r
+  var.\\n- Avtonaqdla\u015fd\u0131rma \u2013 g\u00f6st\u0259ril\u0259n koeffisient\u0259
+  \u00e7atd\u0131\u011f\u0131nda avtomatik olaraq bahisi hesablama\u011fa imkan tan\u0131r.\\n-
+  Aviator oyununda insanlar t\u0259yyar\u0259 u\u00e7u\u015funun y\u00fcks\u0259kliyin\u0259
+  g\u00f6r\u0259 m\u0259rc edib, udu\u015flar qazan\u0131rlar.\\nMostbet-d\u0259 qeydiyyat\u0131
+  tamamlad\u0131qdan sonra minimum 3 AZN depozit qoymal\u0131s\u0131n\u0131z. Daha
+  sonra is\u0259 Mostbet Aviator oynayaraq udu\u015flar qazana bil\u0259rsiniz. Qoydu\u011funuz
+  m\u0259bl\u0259\u011f\u0259 g\u00f6r\u0259 d\u0259rhal kredit \u0259ld\u0259 ed\u0259c\u0259ksiniz.
+  Bukmekerin sayt\u0131nda qeydiyyat\u0131 tamamlay\u0131n v\u0259 balans\u0131n\u0131z\u0131
+  art\u0131r\u0131n.\\nSlot ma\u015f\u0131n interfeysi\\nMasa\u00fcst\u00fcn\u00fczd\u0259
+  Mostbet Android os q\u0131sayolu g\u00f6r\u00fcn\u0259nd\u0259 siz daxil olub ondan
+  istifad\u0259 etm\u0259y\u0259 ba\u015flaya bil\u0259rsiniz. IOS \u00fc\u00e7\u00fcn
+  Mostbet-i y\u00fckl\u0259m\u0259k daha asand\u0131r, \u00e7\u00fcnki um, App Store-da
+  m\u00f6vcuddur. M\u00fcs\u0430biq\u0259l\u0259rin \u0259ms\u0430ll\u0430r\u0131
+  s\u0430bit \u043elur v\u0259 \u0259vv\u0259l\u0441\u0259d\u0259n t\u0259s\u0430d\u00fcfi
+  n\u00f6mr\u0259 g\u0435n\u0435t\u0430ru t\u0259r\u0259find\u0259n t\u0259yin \u0435dilir.
+  Virtu\u0430l idm\u0430n n\u00f6vl\u0259ri \u00fc\u00e7\u00fcn t\u0259klif \u0435dil\u0259n
+  b\u0430hisl\u0259rd\u0259 \u00e7\u043exs\u0430yl\u0131 m\u00fcs\u0430biq\u0259l\u0259r
+  v\u0430rd\u0131r v\u0259 bunl\u0430r\u0131 siz 1xB\u0435t \u00fcz\u0259rind\u0259
+  n\u0259z\u0259rd\u0259n k\u0435\u00e7ir\u0259 bil\u0259rsiniz.\\nBahis ba\u011flama
+  sah\u0259sind\u0259 \u201cAvtomatik\u201d d\u00fcym\u0259sini bas\u0131n v\u0259
+  laz\u0131m olan funksiyas\u0131n\u0131 se\u00e7in. Sonra bu se\u00e7imin aktiv olaca\u011f\u0131
+  raundlar\u0131n say\u0131n\u0131 g\u00f6st\u0259rin. Avtostavkan\u0131n istifad\u0259sini
+  dayand\u0131rmaq \u00fc\u00e7\u00fcn \u0259lav\u0259 parametrl\u0259ri d\u0259 se\u00e7\u0259
+  bil\u0259rsiniz.\"", "\"AB\u015e-\u0131n Kanzas \u015ftat\u0131n\u0131n D\u00f6vl\u0259t
+  Universitetinin aliml\u0259ri koronavirusa qar\u015f\u0131 terapevtik vasit\u0259ni
+  u\u011furla s\u0131naqdan ke\u00e7iribl\u0259r.\\nBiG.AZ-\u0131n verdiyi x\u0259b\u0259r\u0259
+  g\u00f6r\u0259, bu bar\u0259d\u0259 \\\"Science Daily\\\" elmi n\u0259\u015frinin
+  sayt\u0131nda bildirilib.\\nM\u0259lum olub ki, \\\"3CLpro\\\" kimi tan\u0131nan
+  3C-vari proteaza \\\"SARS-CoV-2\\\"nin inki\u015faf\u0131nda \u0259sas ferment rolunu
+  oynay\u0131r.\\nAliml\u0259r tap\u0131lan proteaza inhibitorlar\u0131n\u0131 MERS
+  koronavirusuna yoluxan laboratoriya si\u00e7anlar\u0131n\u0131n \u00fcz\u0259rind\u0259
+  s\u0131naqdan ke\u00e7iribl\u0259r. N\u0259tic\u0259d\u0259, yoluxucu x\u0259st\u0259liyin
+  z\u0259if n\u00f6qt\u0259sin\u0259 y\u00f6nl\u0259ndiril\u0259n terapevtik vasit\u0259
+  virusun yay\u0131lmas\u0131n\u0131 dayand\u0131r\u0131b.\\nAliml\u0259rin fikrinc\u0259,
+  d\u0259rmanlar d\u0259sti yaln\u0131z MERS-in deyil, h\u0259m d\u0259 insanlar aras\u0131nda
+  geni\u015f yay\u0131lan MERS-CoV v\u0259 SARS-CoV-2 koronaviruslar\u0131n\u0131n
+  yay\u0131lmas\u0131n\u0131n qar\u015f\u0131s\u0131n\u0131 al\u0131r.\\nT\u0259cr\u00fcb\u0259d\u0259
+  istifad\u0259 olunan d\u0259rmanlar \\\"Cocrystal Pharma\\\" \u015firk\u0259ti t\u0259r\u0259find\u0259n
+  patentl\u0259\u015fdirilib v\u0259 lisenziyaya al\u0131n\u0131b.\\nM\u00fct\u0259x\u0259ssisl\u0259r
+  bildirirl\u0259r ki, d\u0259rmanlar\u0131n insanlarda n\u0259 d\u0259r\u0259c\u0259d\u0259
+  effektiv oldu\u011funu yoxlamaq laz\u0131md\u0131r.\\nXat\u0131rladaq ki, iyul ay\u0131nda
+  amerikal\u0131 aliml\u0259r SARS-CoV-2 \u0259leyhin\u0259 potensial olaraq istifad\u0259
+  edil\u0259 bil\u0259n bir ne\u00e7\u0259 d\u0259rman haz\u0131rlay\u0131blar. Bu
+  d\u0259rmanlar insan h\u00fcceyr\u0259l\u0259rind\u0259 koronavirusun replikasiyas\u0131n\u0131
+  dayand\u0131ra bil\u0259r. X\u00fcsusil\u0259, \\\"Hepatit C\\\"y\u0259 qar\u015f\u0131
+  istifad\u0259 olunan botseprevir v\u0259 \\\"GC-376\\\" adl\u0131 antiviral d\u0259rman
+  koronavirusun \u00e7oxalmas\u0131nda \u0259sas rol oynayan Mpro viral proteazaya
+  qar\u015f\u0131 effektiv olub.\\nNat\u0259van Bax\u015fiyeva\"", "\"Prezidenti \u0130lham
+  \u018fliyev Nazirl\u0259r Kabinetinin iclas\u0131nda xarici i\u015fl\u0259r naziri
+  Elmar M\u0259mm\u0259dyarovu s\u0259rt t\u0259nqid etdi v\u0259 ert\u0259si g\u00fcn
+  onu v\u0259zif\u0259d\u0259n k\u0259narla\u015fd\u0131rd\u0131. Bu v\u0259zif\u0259y\u0259
+  t\u0259hsil naziri Ceyhun Bayramov t\u0259yin olundu. Ke\u00e7mi xarici i\u015fl\u0259r
+  naziri Tofiq Z\u00fclf\u00fcqarov \u201cPress Klub\u201da m\u00fcsahib\u0259sind\u0259
+  prezidentin E. M\u0259mm\u0259dyarovla ba\u011fl\u0131 s\u00f6yl\u0259diyi t\u0259nqidl\u0259r\u0259
+  m\u00fcnasib\u0259tini a\u00e7\u0131qlay\u0131b. Sabiq nazir h\u0259m d\u0259 xarici
+  siyas\u0259td\u0259ki bo\u015fluqlardan, Da\u011fl\u0131q Qaraba\u011f m\u00fcnaqi\u015f\u0259sinin
+  h\u0259lli perspektivl\u0259rind\u0259n dan\u0131\u015f\u0131b:\\n\u2013 Prezidentin
+  xarici i\u015fl\u0259r nazirin\u0259 \u00fcnvanlad\u0131\u011f\u0131 iradlarlar
+  \u00e7ox \u0259sasl\u0131 t\u0259nqidl\u0259rdir. Bel\u0259 ba\u015fa d\u00fc\u015fd\u00fcm
+  ki, t\u0259nqidl\u0259rin k\u00f6k\u00fcnd\u0259 nazirliyin f\u0259aliyy\u0259tind\u0259ki
+  qanun pozuntular\u0131 il\u0259 yana\u015f\u0131, bu yax\u0131nlarda ba\u015f ver\u0259n
+  h\u0259bsl\u0259r, korrupsiya v\u0259 b\u00fcdc\u0259 v\u0259saitl\u0259rinin m\u0259nims\u0259nilm\u0259si
+  hallar\u0131 da dayan\u0131r. Bununla yana\u015f\u0131, siyasi x\u0259ttd\u0259
+  d\u0259 h\u0259r \u015fey hamar deyil. Prezident x\u00fcsusi vur\u011fulad\u0131
+  ki, xarici siyas\u0259td\u0259 s\u0259hvl\u0259r \u00e7ox b\u00f6y\u00fckd\u00fcr.
+  A\u00e7\u0131q s\u00f6yl\u0259nildi ki, Da\u011fl\u0131q Qaraba\u011f m\u00fcnaqi\u015f\u0259si
+  il\u0259 h\u0259m i\u015f\u011fal\u00e7\u0131 \u00f6lk\u0259nin n\u00fcmay\u0259nd\u0259l\u0259ri,
+  h\u0259m d\u0259 beyn\u0259lxalq t\u0259\u015fkilatlarla birba\u015fa apar\u0131lan
+  dan\u0131\u015f\u0131qlar imitasiya xarakteri da\u015f\u0131y\u0131r. Bu m\u0259s\u0259l\u0259d\u0259
+  Lavrovdan ba\u015fqa Minsk Qrupunun dig\u0259r h\u0259ms\u0259dr \u00f6lk\u0259l\u0259rinin
+  n\u00fcmay\u0259nd\u0259l\u0259ri v\u0259 dioplomatlarla yana\u015f\u0131, Az\u0259rbaycan\u0131n
+  Xarici \u0130\u015fl\u0259r Nazirliyinin d\u0259 g\u00fcnah\u0131 var. Bu, \u00e7ox
+  b\u00f6y\u00fck siyasi ittihamd\u0131r v\u0259 hesab edir\u0259m ki, bel\u0259 ittihamlar\u0131n
+  davam\u0131 olacaq.\\n\u2013 \u0130ttihamlar\u0131 bir q\u0259d\u0259r konkretl\u0259\u015fdirm\u0259k
+  olarm\u0131 ki, Elmar M\u0259mm\u0259dyarovun siyasi yanl\u0131\u015fl\u0131qlar\u0131
+  n\u0259d\u0259n ibar\u0259tdir, n\u0259 vaxt v\u0259 harada olub?\\n\u2013 Bu bar\u0259d\u0259
+  Prezident \u0130lham \u018fliyev \u00f6z fikirl\u0259rini a\u00e7\u0131q-a\u015fkar
+  s\u00f6yl\u0259di. C\u0259nab Prezident b\u0259yan etdi ki, biz\u0259 imitasiya
+  \u015f\u0259klind\u0259 qurulan dan\u0131\u015f\u0131qlar laz\u0131m deyil. Qism\u0259n
+  d\u0259 vur\u011fulad\u0131 ki, koronavirus epidemiyas\u0131 il\u0259 m\u00fcbariz\u0259
+  m\u0259s\u0259l\u0259sind\u0259 d\u00fc\u015fm\u0259n \u00f6lk\u0259nin n\u00fcmay\u0259nd\u0259l\u0259ri
+  il\u0259 m\u00fczakir\u0259 aparmaq n\u0259y\u0259 laz\u0131md\u0131r?! Bu, onu
+  g\u00f6st\u0259rir ki, m\u0259nas\u0131z dan\u0131\u015f\u0131qlar\u0131n apar\u0131lmas\u0131nda,
+  ictimaiyy\u0259td\u0259 hans\u0131sa prosesl\u0259rin getdiyin\u0259 dair g\u00f6r\u00fcnt\u00fc
+  yarad\u0131lmas\u0131nda Elmar M\u0259mm\u0259dyarovun \u00f6z\u00fc d\u0259 i\u015ftirak
+  edib.\\n\u2013 Y\u0259ni Elmar M\u0259mm\u0259dyarovun \u00f6z\u00fc d\u0259 imtasiya
+  il\u0259 m\u0259\u015f\u011ful olub?\\n\u2013 B\u0259li, tamamil\u0259 do\u011frudur.
+  Elmar M\u0259mm\u0259dyarov \u00f6z\u00fc d\u0259 imitasiya prosesinin aktiv i\u015ftirak\u00e7\u0131s\u0131
+  olub. C\u0259nab Prezident \u201cDan\u0131\u015f\u0131qlar x\u0259trin\u0259 apar\u0131lan
+  dan\u0131\u015f\u0131qlar biz\u0259 laz\u0131m deyil\u201d fikrini x\u00fcsusi olaraq
+  bir daha xat\u0131rlatd\u0131 v\u0259 dedi ki, bu m\u0259s\u0259l\u0259ni d\u0259f\u0259l\u0259rl\u0259
+  vur\u011fulay\u0131b. \u018fsas irad da bundan ibar\u0259tdir ki, Prezidentin d\u0259f\u0259l\u0259rl\u0259
+  s\u00f6yl\u0259diyi bu fikirl\u0259rd\u0259n sonra imitasiya prosesi davam etdirilib.
+  \u0130ndi m\u0259lum olur ki, Elmar M\u0259mm\u0259dyarovun f\u0259aliyy\u0259ti
+  Prezidentin siyasi x\u0259ttind\u0259n \u2013 \u0259l\u0259lx\u00fcsus, Erm\u0259nistan-Az\u0259rbaycan
+  konfliktin\u0259 m\u00fcnasib\u0259td\u0259 \u2013 ciddi \u015f\u0259kild\u0259
+  f\u0259rql\u0259nir. Nazir h\u0259tta m\u00fcnaqi\u015f\u0259nin Az\u0259rbaycan\u0131n
+  maraqlar\u0131 \u00e7\u0259r\u00e7iv\u0259sind\u0259 h\u0259llin\u0259 dair k\u0259skin
+  \u015f\u0259kild\u0259 b\u0259yanatlar da verm\u0259yib. Prezidentin \u201cM\u0259n
+  Elmar M\u0259mm\u0259dyarovdan bel\u0259 b\u0259yanatlar g\u00f6rm\u0259mi\u015f\u0259m\u201d
+  dem\u0259si d\u00f6vl\u0259tin siyasi x\u0259ttinin d\u00fczg\u00fcn yerin\u0259
+  yetirilm\u0259diyin\u0259 ciddi iradd\u0131r. Y\u0259ni, Prezidentin \u0259sas irad\u0131
+  odur ki, bu adam ictimaiyy\u0259tl\u0259 i\u015fl\u0259m\u0259yib. M\u0259n d\u0259
+  Prezidentin iradlar\u0131n\u0131, bununla ba\u011fl\u0131 fikirl\u0259ri haql\u0131
+  say\u0131ram. Elmar M\u0259mm\u0259dyarov \u00f6z\u00fc ciddi f\u0259aliyy\u0259t
+  g\u00f6st\u0259rm\u0259yib, h\u0259r \u015feyi m\u0259tbuat xidm\u0259ti idar\u0259sinin
+  r\u0259isi Leyla Abdullayevan\u0131n \u00fcst\u00fcn\u0259 y\u0131x\u0131b v\u0259
+  ham\u0131da bel\u0259 t\u0259s\u0259vv\u00fcr yaran\u0131r ki, Xarici \u0130\u015fl\u0259r
+  Nazirliyind\u0259 cavdeh \u015f\u0259xs bu g\u0259nc xan\u0131md\u0131r. Bu is\u0259
+  t\u0259bii ki, ciddi i\u015f \u00fcslubu deyil.\\n\u2013 Amma bu iradlar niy\u0259
+  m\u0259hz b\u00f6lg\u0259d\u0259 h\u0259rbi v\u0259ziyy\u0259tin g\u0259rginl\u0259\u015fdiyi
+  v\u0259 faktiki olaraq, d\u00fc\u015fm\u0259nl\u0259 aktiv m\u00fcharib\u0259nin
+  getdiyi m\u0259qamda s\u0259sl\u0259ndirilir? Bunu nec\u0259 izah ed\u0259rdiniz?\\n\u2013
+  Bu, iradlar\u0131n bir hiss\u0259sidir. M\u0259n \u0259min\u0259m ki, Prezidentin
+  xarici i\u015fl\u0259r nazirin\u0259 bir \u00e7ox iradlar\u0131 var, sad\u0259c\u0259,
+  ham\u0131s\u0131n\u0131 a\u00e7\u0131q \u015f\u0259kild\u0259 dil\u0259 g\u0259tirm\u0259k
+  ist\u0259m\u0259di. O, \u00f6z\u00fc d\u0259 s\u00f6yl\u0259di ki, nazir\u0259 olan
+  iradlar\u0131n ham\u0131s\u0131n\u0131 a\u00e7\u0131q s\u00f6yl\u0259m\u0259k niyy\u0259tind\u0259
+  deyil. Hesab edir\u0259m ki, deyilm\u0259y\u0259n iradlarda b\u0259lk\u0259 d\u0259
+  hans\u0131sa ciddi m\u0259s\u0259l\u0259l\u0259r var ki, onu ictimaiyy\u0259t\u0259
+  a\u00e7\u0131qlamaq d\u00fczg\u00fcn olmazd\u0131.\\n\u2013 Erm\u0259nistan\u0131n
+  Tovuz istiqam\u0259tind\u0259 t\u00f6r\u0259tdiyi t\u0259xribatlardan sonra Az\u0259rbaycana
+  beyn\u0259lxalq d\u0259st\u0259yi qaneedici saymaq olarm\u0131?\\n\u2013 M\u0259n
+  hesab edir\u0259m ki, region \u00f6lk\u0259l\u0259ri Az\u0259rbaycana ciddi \u015f\u0259kild\u0259
+  d\u0259st\u0259k n\u00fcmayi\u015f etdirdi. X\u00fcsusil\u0259 T\u00fcrkiy\u0259
+  v\u0259 \u0130ran\u0131n a\u00e7\u0131q d\u0259st\u0259k verm\u0259si \u00e7ox m\u00fcsb\u0259t
+  hald\u0131r. G\u00fcrc\u00fcstan\u0131n v\u0259 Ukraynan\u0131n da m\u00f6vqeyi,
+  hesab edir\u0259m ki, bizim maraqlar\u0131m\u0131z\u0131 t\u0259min edir. N\u0259z\u0259r\u0259
+  almaq laz\u0131md\u0131r ki, indiki m\u0259rh\u0259l\u0259d\u0259 d\u00fcnyan\u0131n
+  qar\u015f\u0131s\u0131nda dayanan b\u00f6y\u00fck siyasi probleml\u0259r he\u00e7
+  bu q\u0259d\u0259r diqq\u0259ti c\u0259lb etmir. H\u0259m d\u0259, kim n\u0259 deyir-desin,
+  biz \u00f6z Prezidentimizin dilind\u0259n e\u015fitmi\u015fik ki, bu siyas\u0259tin
+  m\u0259qs\u0259di i\u015f\u011fal alt\u0131ndak\u0131 torpaqlar\u0131m\u0131z\u0131
+  azad etm\u0259k v\u0259 suverenliyi b\u0259rpa etm\u0259kd\u0259n ibar\u0259tdir.
+  Az\u0259rbaycan xalq\u0131 bu tezisi bir daha e\u015fitdi. Biz ham\u0131m\u0131z
+  b\u0259yan olunan bu siyasi x\u0259tti d\u0259st\u0259kl\u0259yirik.\\n\u2013 Sizc\u0259,
+  Prezident yerind\u0259 tapmad\u0131\u011f\u0131 Elmar M\u0259mm\u0259dyarov xarici
+  i\u015fl\u0259r naziri olaraq, d\u00fc\u015fm\u0259nin \u00fcz\u0259rimiz\u0259
+  h\u00fccuma ke\u00e7diyi vaxt n\u0259 etm\u0259li, \u00f6z i\u015fini nec\u0259
+  qurmal\u0131 idi?\\n\u2013 S\u00f6hb\u0259t he\u00e7 d\u0259 onun evd\u0259, yaxud
+  kabinetd\u0259 i\u015fl\u0259yib-i\u015fl\u0259m\u0259m\u0259sind\u0259n getmir,
+  o, sad\u0259c\u0259 olaraq v\u0259zif\u0259sinin icras\u0131nda tap\u0131lmay\u0131b.
+  Beyn\u0259lxalq t\u0259\u015fkilatlar\u0131n n\u00fcmay\u0259nd\u0259likl\u0259rin\u0259,
+  xarici diplomatlara telefon z\u0259ngini evd\u0259n d\u0259 etm\u0259k olar. Prezidentin
+  irad\u0131 o idi ki, Elmar M\u0259mm\u0259dyarovun d\u00f6vl\u0259tin maraqlar\u0131na
+  \u00fcr\u0259yi yanm\u0131r. M\u0259n Prezidentin dedikl\u0259rind\u0259n bel\u0259
+  ba\u015fa d\u00fc\u015fd\u00fcm.\\n\u2013 H\u0259m d\u0259 m\u0259lumat yox idi
+  ki, Elmar M\u0259mm\u0259dyarov s\u0259rh\u0259dd\u0259 ba\u015f ver\u0259n toqqu\u015fmalarla
+  ba\u011fl\u0131 beyn\u0259lxalq t\u0259\u015fkilatlar\u0131 m\u0259lumatland\u0131r\u0131b,
+  ya yox\u2026\\n\u2013 S\u00f6hb\u0259t ondan gedir d\u0259, \u00e7\u0131xs\u0131n
+  camaat\u0131n qar\u015f\u0131s\u0131na, jurnalistl\u0259ri \u00e7a\u011f\u0131r\u0131b
+  brifinq ke\u00e7irsin, n\u0259 i\u015f g\u00f6rd\u00fcy\u00fc bar\u0259d\u0259 ictimaiyy\u0259ti
+  m\u0259lumatland\u0131rs\u0131n. M\u0259n he\u00e7 bir v\u0259zif\u0259 da\u015f\u0131madan,
+  sad\u0259c\u0259, \u00f6z\u00fcm\u0259 v\u0259t\u0259nda\u015fl\u0131q borcu hesab
+  ed\u0259r\u0259k bunlar\u0131 deyir\u0259m. Amma ax\u0131, bu i\u015fl\u0259ri o
+  g\u00f6rm\u0259lidir, m\u0259tbuat konfrans\u0131 ke\u00e7irm\u0259li, h\u0259rbi
+  atta\u015fel\u0259ri, xarici \u00f6lk\u0259l\u0259rin s\u0259firl\u0259rini d\u00f6y\u00fc\u015f
+  b\u00f6lg\u0259sin\u0259 apar\u0131b, d\u00fc\u015fm\u0259nin biz\u0259 vurdu\u011fu
+  ziyanlar\u0131, da\u011f\u0131nt\u0131lar\u0131 g\u00f6st\u0259rm\u0259lidir. S\u0259firlikl\u0259r
+  b\u0259yanat yaymal\u0131, m\u0259tbuat v\u0259 sosial \u015f\u0259b\u0259k\u0259l\u0259r
+  vasit\u0259sil\u0259 m\u0259lumatlar payla\u015f\u0131lmal\u0131, m\u00fcxt\u0259lif
+  dill\u0259rd\u0259 y\u0131\u011fcam, faktlarla z\u0259ngin m\u0259lumatlar haz\u0131rlanmal\u0131,
+  da\u011f\u0131nt\u0131lar\u0131n g\u00f6r\u00fcnt\u00fcl\u0259ri internetd\u0259
+  yerl\u0259\u015fdirilm\u0259lidir. Erm\u0259nistan-Az\u0259rbaycan s\u0259rh\u0259dind\u0259
+  ba\u015f ver\u0259nl\u0259rl\u0259 \u0259laq\u0259dar h\u0259r bir \u00f6lk\u0259d\u0259ki
+  s\u0259firlikl\u0259rimiz press-relizl\u0259r yaymal\u0131 idi. Y\u0259ni, Xarici
+  \u0130\u015fl\u0259r Nazirliyinin g\u00f6r\u0259c\u0259yi i\u015fl\u0259r o q\u0259d\u0259rdir
+  ki, sadalamaqla qurtarmaz. Bunlar\u0131n ham\u0131s\u0131 pe\u015f\u0259kar \u00fc\u00e7\u00fcn
+  b\u0259lli olan m\u0259s\u0259l\u0259dir. Amma g\u00f6r\u00fcn\u00fcr ki, Elmar
+  M\u0259mm\u0259dyarov bu istiqam\u0259td\u0259 he\u00e7 bir i\u015f g\u00f6rm\u0259yib.\\n\u2013
+  Otuz il\u0259 yax\u0131nd\u0131r Da\u011fl\u0131q Qaraba\u011f\u0131 v\u0259 \u0259traf
+  7 rayonu i\u015f\u011fal alt\u0131nda saxlayan Erm\u0259nisan b\u00fct\u00fcn d\u00fcnyan\u0131n
+  g\u00f6z\u00fc qar\u015f\u0131s\u0131nda tamamil\u0259 ba\u015fqa istiqam\u0259td\u0259n,
+  d\u00f6vl\u0259t s\u0259rh\u0259dind\u0259n \u00f6lk\u0259mizin \u00fcz\u0259rin\u0259
+  silahl\u0131 h\u00fccuma ke\u00e7ir. Lakin i\u015f\u011fal\u00e7\u0131ya qar\u015f\u0131
+  beyn\u0259lxalq etirazlar yen\u0259 d\u0259 z\u0259if t\u0259sir ba\u011f\u0131\u015flad\u0131.
+  Bu, sizin \u00fc\u00e7\u00fcn g\u00f6zl\u0259nil\u0259n idimi?\\n\u2013 \u018fvv\u0259la,
+  d\u00f6vl\u0259timizin \u0259razi b\u00fct\u00f6vl\u00fcy\u00fc bizim konstitusion
+  h\u00fcququmuzdur. Beyn\u0259lxalq t\u0259\u015fkilatlar\u0131n buna m\u00fcnasib\u0259t
+  bildirib-bildirm\u0259m\u0259si ikinci d\u0259r\u0259c\u0259li m\u0259s\u0259l\u0259dir.
+  Bizd\u0259 buna \u00e7ox \u00f6n\u0259m verirl\u0259r, b\u0259z\u0259n fikirl\u0259\u015fir\u0259m
+  ki, bu, psixoloji prioritetdir, kim\u0259s\u0259 \u015fikay\u0259t ed\u0259k, onlar
+  da g\u0259lib bizim h\u00fcququmuzu pozanlara n\u0259s\u0259 desinl\u0259r. Beyn\u0259lxalq
+  t\u0259\u015fkilatlar\u0131n bizim h\u00fcququmuzun pozuldu\u011funu deyib-dem\u0259m\u0259si
+  il\u0259 n\u0259 d\u0259yi\u015f\u0259c\u0259k ki? Guya onlar bunu dem\u0259kl\u0259
+  torpaqlar\u0131m\u0131z azad olunacaq? Xeyr, m\u0259n bel\u0259 fikirl\u0259\u015fmir\u0259m.
+  Bu problemin h\u0259llinin \u00f6z yolu var. B\u0259li, t\u0259bli\u011fat i\u015fl\u0259ri
+  apar\u0131lmal\u0131d\u0131r, amma he\u00e7 kim fikirl\u0259\u015fm\u0259sin ki,
+  kims\u0259 g\u0259lib bizim yerimiz\u0259 torpaqlar\u0131m\u0131z\u0131 i\u015f\u011faldan
+  azad ed\u0259r\u0259k \u00f6z\u00fcm\u00fcz\u0259 qaytaracaq. Bu m\u00fcnaqi\u015f\u0259nin
+  h\u0259llind\u0259 \u0259sas \u015feyl\u0259r \u00f6z\u00fcm\u00fczd\u0259n as\u0131l\u0131d\u0131r.
+  \u0130yunun 14-d\u0259 ax\u015fam Bak\u0131da v\u0259 Sumqay\u0131tda orduya d\u0259st\u0259k
+  aksiyas\u0131n\u0131n ke\u00e7irilm\u0259si v\u0259 ictimai h\u0259mr\u0259ylik
+  h\u0259m Az\u0259rbaycan c\u0259miyy\u0259tin\u0259, h\u0259m d\u0259 beyn\u0259lxalq
+  ictimaiyy\u0259t\u0259 \u00e7ox ciddi mesajd\u0131r. Y\u0259ni, sizin dediyiniz
+  kimi, aradan 30 il\u0259 yax\u0131n vaxt ke\u00e7s\u0259 d\u0259, Az\u0259rbaycan
+  xalq\u0131 \u00f6z irad\u0259sini ortaya qoyub, ordumuza v\u0259 d\u00f6vl\u0259timiz\u0259
+  d\u0259st\u0259yini n\u00fcmayi\u015f etdirib. Bu, \u00e7ox vacib bir mesajd\u0131r.
+  \u00c7\u00fcnki h\u0259min aksiyalarda i\u015ftirak ed\u0259n g\u0259ncl\u0259r
+  siyasi m\u00f6vqeyini, i\u015f\u011fal alt\u0131ndak\u0131 torpaqlar\u0131m\u0131za
+  m\u00fcnasib\u0259tini g\u00f6st\u0259rdil\u0259r. Fikrimc\u0259, bu, beyn\u0259lxalq
+  ictimaiyy\u0259tin d\u0259 g\u00f6z\u00fcnd\u0259n yay\u0131nmad\u0131.\\n\u2013
+  \u201cOrdu niy\u0259 t\u0259mas x\u0259ttind\u0259 c\u0259bh\u0259 x\u0259ttini
+  yar\u0131b, i\u015f\u011fal alt\u0131ndak\u0131 torpaqlar\u0131m\u0131za do\u011fru
+  ir\u0259lil\u0259mir\u201d sual\u0131 \u0259traf\u0131nda sosial \u015f\u0259b\u0259k\u0259l\u0259rd\u0259
+  m\u00fczakir\u0259l\u0259r gedir. Prezident is\u0259 sonuncu iclasda diplomatik
+  \u015f\u0259kild\u0259 dedi ki, biz h\u0259l\u0259 t\u0259l\u0259smirik, m\u00fc\u0259yy\u0259n
+  m\u0259rh\u0259l\u0259l\u0259r var v\u0259 \u00f6z planlar\u0131m\u0131za uy\u011fun
+  \u015f\u0259kild\u0259 siyas\u0259timizi davam etdir\u0259c\u0259yik. Sizc\u0259,
+  s\u00f6hb\u0259t hans\u0131 m\u0259rh\u0259l\u0259d\u0259n gedir, n\u0259yi g\u00f6zl\u0259yirik?\\n\u2013
+  C\u0259miyy\u0259tin ist\u0259yi v\u0259 adi v\u0259t\u0259nda\u015flarda olan m\u0259lumatlar
+  \u00f6z yerind\u0259, Prezidentd\u0259 olan informasiyalar \u00e7ox f\u0259rqlidir,
+  daha geni\u015f v\u0259 dol\u011fundur. Prezidentd\u0259 olan informasiyalar siyasi
+  m\u0259nz\u0259r\u0259ni daha yax\u015f\u0131 g\u00f6st\u0259rir. \u018flb\u0259tt\u0259,
+  ictimaiyy\u0259t d\u0259 \u00f6z m\u00f6vqeyind\u0259 v\u0259 ist\u0259yind\u0259
+  haql\u0131d\u0131r, m\u0259n d\u0259 t\u0259cr\u00fcb\u0259li insan kimi g\u00f6zl\u0259yirdim
+  ki, s\u0259rh\u0259dd\u0259 t\u0259xribat t\u00f6r\u0259d\u0259n d\u00fc\u015fm\u0259n\u0259
+  qar\u015f\u0131 daha k\u0259skin add\u0131mlar at\u0131la bil\u0259r. Amma Prezident
+  sakit \u015f\u0259kild\u0259 dedi ki, bizd\u0259 plan \u00fcz\u0259rind\u0259 h\u0259yata
+  ke\u00e7iril\u0259n siyas\u0259t var v\u0259 bu siyas\u0259tin h\u0259d\u0259fi
+  i\u015f\u011fal alt\u0131ndak\u0131 \u0259razil\u0259ri azad etm\u0259kdir. Bu bax\u0131mdan
+  o, dig\u0259r m\u0259s\u0259l\u0259r\u0259 toxunmad\u0131, \u00e7\u00fcnki bu, h\u0259rbi
+  v\u0259 d\u00f6vl\u0259t sirridir. Fikrimc\u0259, Az\u0259rbaycan d\u00f6vl\u0259tinin
+  n\u00fcmayi\u015f etdirdiyi t\u0259mkin i\u015f\u011fal\u00e7\u0131da daha \u00e7ox
+  t\u0259\u015fvi\u015f yarada bil\u0259r. Ona g\u00f6r\u0259 d\u0259 g\u00f6zl\u0259y\u0259k.
+  H\u0259r halda, h\u0259d\u0259f bar\u0259sind\u0259 fikirl\u0259r s\u00f6yl\u0259nilib
+  v\u0259 b\u0259yan edilib ki, i\u015f\u011fal alt\u0131ndak\u0131 torpaqlar azad
+  edil\u0259c\u0259k, Az\u0259rbaycan\u0131n \u0259razi b\u00fct\u00f6vl\u00fcy\u00fc
+  t\u0259min olunacaq. Bunun hans\u0131 \u015f\u0259kild\u0259 h\u0259yata ke\u00e7iril\u0259c\u0259yi
+  t\u0259bii ki, sirr olaraq qalmal\u0131d\u0131r. G\u00f6r\u0259c\u0259yik. H\u0259r
+  halda, Prezident s\u00f6yl\u0259di ki, \u015f\u0259hidl\u0259rimizin qan\u0131 yerd\u0259
+  qalmayacaq, d\u00fc\u015fm\u0259n\u0259 z\u0259rb\u0259l\u0259r endirilib v\u0259
+  endiril\u0259c\u0259k.\\n\u2013 Y\u0259ni, siz hesab edirsiniz ki, proses davam
+  ed\u0259c\u0259k?\\n\u2013 \u018fslind\u0259, proses h\u0259l\u0259 ba\u015fa \u00e7atmay\u0131b
+  v\u0259 hadis\u0259l\u0259r davam edir. Kims\u0259 dem\u0259sin ki, h\u0259r \u015fey
+  qurtard\u0131, h\u0259l\u0259 hadis\u0259l\u0259r inki\u015faf edir.\\n\u2013 T\u0259hsil
+  naziri Ceyhun Bayramov prezidentin s\u0259r\u0259ncam\u0131 il\u0259 xarici i\u015fl\u0259r
+  naziri t\u0259yin olundu. Sizc\u0259, yeni nazir etimad\u0131 do\u011frulda bil\u0259c\u0259kmi?\\n\u2013
+  M\u0259n ilk n\u00f6vb\u0259d\u0259 yeni naziri t\u0259brik edir, ona u\u011furlar
+  arzulay\u0131ram. Yax\u015f\u0131 ba\u015fa d\u00fc\u015f\u00fcr\u0259m ki, Ceyhun
+  Bayramovun qar\u015f\u0131s\u0131nda hans\u0131 \u00e7\u0259tin v\u0259zif\u0259l\u0259r
+  durur. Elmar M\u0259mm\u0259dyarovun v\u0259zif\u0259d\u0259n uzaqla\u015fd\u0131r\u0131lmas\u0131
+  il\u0259 diplomatiyam\u0131z\u0131n qara s\u0259hif\u0259si ba\u011fland\u0131.
+  \u0130n\u015fallah, diplomatiyam\u0131zda a\u011f s\u0259hif\u0259 a\u00e7\u0131l\u0131b
+  v\u0259 biz tezlikl\u0259 u\u011furlu f\u0259aliyy\u0259tl\u0259rin ba\u015flad\u0131\u011f\u0131n\u0131
+  g\u00f6r\u0259 bil\u0259c\u0259yik. Son ill\u0259r Xarici \u0130\u015fl\u0259r Nazirliyi
+  olaraq ad\u0131m\u0131z gah hans\u0131sa qalmaqallarda, gah da m\u00fcxt\u0259lif
+  cinay\u0259t \u0259m\u0259ll\u0259rind\u0259 hallan\u0131rd\u0131. Ona g\u00f6r\u0259
+  \u201cad\u0131m\u0131z\u201d deyir\u0259m ki, indi Xarici \u0130\u015fl\u0259r Nazirliyind\u0259
+  i\u015fl\u0259m\u0259s\u0259m d\u0259, oran\u0131 \u00f6z\u00fcm\u0259 do\u011fma
+  bilir\u0259m. \u00c7\u00fcnki uzun m\u00fcdd\u0259t m\u0259nim d\u0259 f\u0259aliyy\u0259tim
+  birba\u015fa ora il\u0259 ba\u011fl\u0131 olub. T\u0259\u0259ss\u00fcf ki, dimplomatiyam\u0131zdak\u0131
+  qara l\u0259k\u0259l\u0259r bizim xalq aras\u0131ndak\u0131 imicimizi a\u015fa\u011f\u0131
+  sal\u0131rd\u0131. \u0130ndi is\u0259 bu qara s\u0259hif\u0259 ba\u011flan\u0131r
+  v\u0259 art\u0131q nazirliy\u0259 yeni \u015f\u0259xs r\u0259hb\u0259rlik ed\u0259c\u0259k.
+  Yeni nazir haqq\u0131nda onu dey\u0259 bil\u0259r\u0259m ki, m\u00fcxt\u0259lif
+  yerl\u0259rd\u0259 i\u015fl\u0259yib, t\u0259cr\u00fcb\u0259li insand\u0131r v\u0259
+  \u0259n \u0259sas\u0131, c\u0259nab Prezident ona etibar edir. \u015e\u0259xs\u0259n
+  tan\u0131\u015f deyil\u0259m, amma m\u0259lumatlar\u0131 izl\u0259yir\u0259m v\u0259
+  g\u00f6r\u00fcr\u0259m ki, yax\u015f\u0131 t\u0259cr\u00fcb\u0259si var. Hesab edir\u0259m
+  ki, \u00e7oxdan qalm\u0131\u015f probleml\u0259ri h\u0259ll edib, xarici diplomatiyam\u0131za
+  u\u011fur qazand\u0131ra v\u0259 Xarici \u0130\u015fl\u0259r Nazirliyini yax\u015f\u0131
+  v\u0259ziyy\u0259t\u0259 g\u0259tirib \u00e7\u0131xara bil\u0259r. Onun t\u0259hsili
+  v\u0259 t\u0259cr\u00fcb\u0259si xarici i\u015fl\u0259r naziri kimi funksiyalar\u0131
+  icra etm\u0259y\u0259 kifay\u0259t edir. \u00c7\u00fcnki menecer kimi b\u00f6y\u00fck
+  kollektivl\u0259rl\u0259 v\u0259 camaatla i\u015fl\u0259m\u0259k bacar\u0131\u011f\u0131na
+  malikdir. H\u0259m iqtisadiyyat, h\u0259m d\u0259 h\u00fcquq sah\u0259sind\u0259
+  t\u0259hsil \u00e7ox vacibdir. Eyni zamanda, nazirliyin \u00f6z\u00fcnd\u0259 d\u0259
+  \u00e7ox bilikli v\u0259 t\u0259cr\u00fcb\u0259li kadrlar var. Hesab edir\u0259m
+  ki, bu komanda il\u0259 nazirliyin \u00fcz\u0259rin\u0259 d\u00fc\u015f\u0259n v\u0259zif\u0259
+  \u00f6hd\u0259likl\u0259rini u\u011furla yerin\u0259 yetir\u0259 bil\u0259r. Bir
+  daha yeni naziri t\u0259brik edir, f\u0259aliyy\u0259tind\u0259 u\u011furlar arzulay\u0131ram.\\nElxan
+  Salahov\"", "\"D\u00f6vl\u0259t \u0130mtahan M\u0259rk\u0259zinin (D\u0130M) Direktorlar
+  \u015euras\u0131n\u0131n s\u0259dri M\u0259leyk\u0259 Abbaszad\u0259 magistratura
+  imtahanlar\u0131n\u0131n ke\u00e7iril\u0259c\u0259yi tarixl\u0259 ba\u011fl\u0131
+  a\u00e7\u0131qlama verib.\\nM.Abbaszad\u0259 bildirib ki, imtahanlar\u0131n ke\u00e7irilm\u0259
+  vaxt\u0131 Nazil\u0259r Kabineti il\u0259 m\u0259sl\u0259h\u0259tl\u0259\u015fm\u0259l\u0259rd\u0259n
+  sonra d\u0259qiql\u0259\u015f\u0259c\u0259k:\\n\u201cPandemiya \u015f\u0259raiti
+  il\u0259 ba\u011fl\u0131 m\u00fc\u0259yy\u0259n d\u0259qiql\u0259\u015fdirm\u0259l\u0259r
+  apar\u0131r\u0131q. Biz c\u0259dv\u0259li Nazirl\u0259r Kabineti il\u0259 raz\u0131la\u015fd\u0131randan
+  sonra magistratura imtahanlar\u0131n\u0131n d\u0259qiq zaman\u0131n\u0131 a\u00e7\u0131qlayaca\u011f\u0131q.
+  Bundan sonra imtahanlar\u0131n ke\u00e7irilm\u0259 c\u0259dv\u0259li haz\u0131r
+  olan kimi D\u00f6vl\u0259t \u0130mtahan M\u0259rk\u0259zinin (D\u0130M) sayt\u0131nda
+  yerl\u0259\u015fdiril\u0259c\u0259k\u201d.\\n//milli.az\"", "\"X\u0259b\u0259r Lenti\\n\u0130nfoqrafika\\nArxiv\\nYazar\\nQ\u00fctb
+  t\u0259dqiqat\u00e7\u0131lar\u0131n\u0131n beyni Antarktida ekspedisiyas\u0131nda
+  14 ay ke\u00e7irdikd\u0259n sonra ki\u00e7ilib.\\nFaktX\u0259b\u0259r-in m\u0259lumat\u0131na
+  g\u00f6r\u0259, bu bar\u0259d\u0259 t\u0259dqiqat \\\"New England Journal of Medicine\\\"
+  jurnal\u0131n\u0131n sayt\u0131nda d\u0259rc edilib.\\nM\u0259lumatda bildirilir
+  ki, almaniyal\u0131 aliml\u0259ri maraql\u0131 t\u0259cr\u00fcb\u0259 ke\u00e7irib.
+  Onlar t\u0259dqiqat\u00e7\u0131lar\u0131n beynini eks\u00f6edisiyadan qabaq v\u0259
+  sonda \u00f6lcd\u00fcl\u0259r. M\u00fct\u0259x\u0259ssisl\u0259r beyin h\u0259cmind\u0259
+  \u0259h\u0259miyy\u0259tli bir azalma, h\u0259m\u00e7inin beyind\u0259ki h\u00fcceyr\u0259l\u0259rin
+  b\u00f6l\u00fcnm\u0259sind\u0259n m\u0259sul olan qanda protein miqdar\u0131n\u0131n
+  azald\u0131\u011f\u0131n\u0131 da qeyd etdil\u0259r. Bundan \u0259lav\u0259, m\u00fct\u0259x\u0259ssisl\u0259r,
+  q\u00fctb t\u0259dqiqat\u00e7\u0131lar\u0131n\u0131n evd\u0259 qalmas\u0131ndan
+  sonra protein konsentrasiyas\u0131n\u0131n normala qay\u0131tmad\u0131\u011f\u0131n\u0131
+  da m\u00fc\u015fahid\u0259 edib.\\nH\u0259m\u00e7inin m\u0259lumatda qeyd eidlir
+  ki, t\u0259xmin\u0259n eyni ya\u015fda olan q\u00fctb t\u0259dqiqat\u00e7\u0131lar\u0131
+  ekspedisiya boyunca m\u00fctamadi olaraq qan analizl\u0259rini v\u0259 idrak qabiliyy\u0259tl\u0259ri
+  \u00fc\u00e7\u00fcn testl\u0259r verdil\u0259r. Eyni zamanda eksperement i\u015ftirak\u00e7\u0131lar\u0131
+  s\u0259f\u0259rd\u0259n \u0259vv\u0259l v\u0259 sonra MRI-dan ke\u00e7irilib.\\nMut\u0259x\u0259ssisl\u0259rin
+  dediyin\u0259 g\u00f6r\u0259, beynin \u0259sas ki\u00e7ilm\u0259si yar\u0131mk\u00fcr\u0259l\u0259rin
+  gicgaha aid olan hippokamp\u0131n b\u00f6lg\u0259sind\u0259 m\u00fc\u015fahid\u0259
+  edilib.\\nQeyd ed\u0259k ki, t\u0259dqiqat m\u00fc\u0259llifl\u0259ri d\u0259yi\u015fiklikl\u0259rin
+  d\u0259qiq s\u0259b\u0259bini a\u00e7\u0131qlamay\u0131b. Onla\u0131rn fikrinc\u0259,
+  sosial t\u0259crid v\u0259 beynin ki\u015film\u0259si q\u00fctb t\u0259dqiqat\u00e7\u0131lar\u0131n\u0131n
+  sa\u011flaml\u0131\u011f\u0131na v\u0259 d\u0259vran\u0131\u015f\u0131na t\u0259sir
+  g\u00f6st\u0259r\u0259 bil\u0259r.\\n27\\nFevral27\\nFevral27\\nFevral27\\nFevral-
+  17-02-2020 16:53 AB\u015e-da itirdi, 47 il sonra Finlandiyada tapd\u0131 - FOTO\\n-
+  17-02-2020 16:24 Daxili Monqolustan sakinl\u0259ri s\u0259mada be\u015f G\u00fcn\u0259\u015f
+  g\u00f6r\u00fcb - V\u0130DEO\\n- 17-02-2020 13:39 8 ya\u015f\u0131nda qocal\u0131qdan
+  \u00f6ld\u00fc\\n- 14-02-2020 10:39 Antarktidadak\u0131 Seymur adas\u0131nda yeni
+  istilik rekordu qeyd\u0259 al\u0131n\u0131b\\n- 11-02-2020 16:44 \\\"Nokia\\\" \u015firk\u0259ti
+  \\\"N9\\\" smartfonunun yeni versiyas\u0131n\u0131 t\u0259qdim ed\u0259 bil\u0259r\\n-
+  10-02-2020 17:17 \\\"Samsung\\\" \u00f6z smartfonlar\u0131ndan t\u0259hl\u00fck\u0259li
+  proqram\u0131 silib\\n- 10-02-2020 16:27 Y\u00fcks\u0259k s\u0259sl\u0259 musqiy\u0259
+  qulaq asan a\u011fsaqqal h\u0259bsxanaya d\u00fc\u015fd\u00fc\\n- 10-02-2020 10:07
+  \\\"Oskar-2020\\\"ni kim n\u0259y\u0259 g\u00f6r\u0259 ald\u0131? - S\u0130YAHI\\n-
+  06-02-2020 10:13 \\\"Google Play\\\"d\u0259 24 t\u0259hl\u00fck\u0259li proqram
+  a\u015fkar edilib\\n- 04-02-2020 15:31 Koronavirusa g\u00f6r\u0259 \\\"Xiaomi\\\"
+  smartfonlar\u0131n\u0131n t\u0259qdimat\u0131 l\u0259\u011fv edilib\\n- 03-02-2020
+  14:14 \\\"Google\\\"un t\u0259rc\u00fcm\u0259 xidm\u0259ti jest dilini \u00f6yr\u0259nib\\n-
+  24-01-2020 16:28 \\\"Twitter\\\"d\u0259 mesajlara reaksiya bildirm\u0259k imkan\u0131
+  \u0259l\u00e7atan olub\\n- 24-01-2020 13:08 Osloda \u0259n m\u0259\u015fhur ad \\\"M\u0259h\u0259mm\u0259d\\\"dir\\n-
+  23-01-2020 16:55 Xilasedicil\u0259ri g\u00f6zl\u0259m\u0259d\u0259n yanan ma\u015f\u0131n\u0131
+  xilas etdi - V\u0130DEO\\n- 23-01-2020 13:49 \\\"Xiaomi Mi10\\\" smartfonunun t\u0259qdimat
+  tarixi m\u0259lum olub\\n- 22-01-2020 15:53 Saniy\u0259d\u0259 trilyon kadr \u00e7\u0259k\u0259n
+  \u00e7ox s\u00fcr\u0259tli kamera t\u0259qdim olunub\\n- 22-01-2020 15:37 \\\"Pakistanl\u0131
+  Halk\\\" \u0259n az\u0131 100 kiloqraml\u0131q h\u0259yat yolda\u015f\u0131 axtar\u0131r\\n-
+  21-01-2020 13:53 D\u00fcnyada \u0259n \u00e7ox mesaj g\u00f6nd\u0259ril\u0259n t\u0259tbiq
+  a\u00e7\u0131qland\u0131\\n- 18-01-2020 11:13 Dinozavrlar\u0131n yegan\u0259 \u00f6l\u00fcm
+  s\u0259b\u0259bi a\u00e7\u0131qlan\u0131b\\n- 16-01-2020 18:45 Smartfonda batareyan\u0131n
+  \u015farj\u0131n\u0131 azaldan proqramlar m\u0259lum olub\\n- 16-01-2020 15:49 Komp\u00fcterind\u0259
+  \\\"Windows 7\\\" olanlar diqq\u0259tl\u0259 oxusunlar\\n- 15-01-2020 11:47 Az\u0259rbaycanda
+  sevil\u0259r\u0259k bax\u0131lan serial niy\u0259 yay\u0131mlanm\u0131r? - Oktay
+  Kaynarca a\u00e7\u0131qlad\u0131\\n- 15-01-2020 10:50 Kosmosda bi\u015firil\u0259n
+  ilk yem\u0259k tarix\u0259 d\u00fc\u015fd\u00fc\\n- 13-01-2020 11:47 \\\"Samsung\\\"
+  bazara 5 kameral\u0131, 108 meqapikselli smartfon \u00e7\u0131xar\u0131r - FOTO\\n-
+  13-01-2020 11:24 D\u0259v\u0259 Moskvaya ged\u0259n qatar\u0131 bir saata yax\u0131n
+  l\u0259ngitdi - V\u0130DEO\"", "\"X\u0259b\u0259r Lenti\\n\u0130nfoqrafika\\nArxiv\\nYazar\\nAB\u015e
+  D\u00f6vl\u0259t Katibi Mayk Pompeo \\\"\u015eimal ax\u0131n\u0131-2\\\" layih\u0259si
+  il\u0259 Avropaya qaz verili\u015fin\u0259 imkan verm\u0259m\u0259 planlar\u0131ndan
+  dan\u0131\u015f\u0131b. FaktXeber.com-un Lenta.ru-ya istinadla verdiyi m\u0259lumata
+  g\u00f6r\u0259, bu bar\u0259d\u0259 AB\u015e N\u00fcmay\u0259nd\u0259l\u0259r Palatas\u0131n\u0131n
+  xarici m\u0259s\u0259l\u0259l\u0259r \u00fczr\u0259 komit\u0259sinin YouTube kanal\u0131nda
+  d\u0259rc olunub.\\nQeyd ed\u0259k ki, bu k\u0259m\u0259rl\u0259 Ukrayna \u0259razisind\u0259n
+  olan mar\u015frutlardan yan ke\u00e7m\u0259kl\u0259, Rusiyadan birba\u015fa Almaniyaya
+  t\u0259bii qaz n\u0259ql olunmal\u0131d\u0131r.\\nAmerika diplomatiyas\u0131n\u0131n
+  r\u0259hb\u0259ri iddia edir ki, enerji resurslar\u0131n\u0131n t\u0259chizi il\u0259
+  \u0259laq\u0259dar olaraq AB praktiki olaraq Moskvaya qar\u015f\u0131 g\u0259l\u0259
+  bilmir v\u0259 AB\u015e K\u00f6hn\u0259 d\u00fcnya \u00f6lk\u0259l\u0259rin\u0259
+  dig\u0259r qaz m\u0259nb\u0259l\u0259rini, o c\u00fcml\u0259d\u0259n Qafqazdan ke\u00e7m\u0259kl\u0259
+  h\u0259yata ke\u00e7iril\u0259 bil\u0259n layih\u0259l\u0259ri g\u00f6st\u0259rm\u0259yi
+  \u00f6z\u00fcn\u0259 borc bilir.\\n\\\"\\\"\u015eimal-Ax\u0131n\u0131-2\\\"nin i\u015f\u0259
+  d\u00fc\u015fm\u0259m\u0259si \u00fc\u00e7\u00fcn t\u0259zyiql\u0259r g\u00f6st\u0259rm\u0259liyik.
+  Biz AB-nin Rusiya qaz\u0131ndan daha \u00e7ox as\u0131l\u0131 olmas\u0131na imkan
+  verm\u0259m\u0259liyik. Rusiyan\u0131n \u00f6z h\u0259d\u0259fl\u0259rin\u0259 bu
+  as\u0131l\u0131l\u0131\u011fa g\u00f6r\u0259 \u00e7atmas\u0131 variant\u0131na imkan
+  ver\u0259 bilm\u0259rik\\\", - dey\u0259 Pompeo bildirib.\\nQeyd ed\u0259k ki, may\u0131n
+  18-d\u0259 Rusiya prezidenti Aladimir Putin Rusiyan\u0131n h\u0259r zaman bu qaz
+  k\u0259m\u0259rin\u0259 istisnas\u0131z iqtisadi layih\u0259 kimi baxd\u0131\u011f\u0131n\u0131
+  bildir\u0259r\u0259k, layih\u0259ni siyasil\u0259\u015fdirm\u0259m\u0259y\u0259
+  \u00e7a\u011f\u0131rm\u0131\u015fd\u0131.\\nD\u0259y\u0259ri 9,5 milyard dollar
+  \u0259traf\u0131nda olmas\u0131 g\u00f6zl\u0259nil\u0259n \\\"\u015eimal Ax\u0131n\u0131-
+  2\\\" layih\u0259si il\u0259 ild\u0259 55 milyard kubmetr rus qaz\u0131n\u0131n
+  Baltik d\u0259nizi \u00fcz\u0259rind\u0259n Almaniyaya da\u015f\u0131nmas\u0131
+  planla\u015fd\u0131r\u0131l\u0131r.\\n- 19-08-2018 16:34 \u0130srail Q\u0259zzayla
+  aras\u0131ndak\u0131 Beyt Xanun s\u0259rh\u0259d qap\u0131s\u0131n\u0131 ba\u011flad\u0131\\n-
+  19-08-2018 15:55 Ke\u00e7mi\u015f Tunis prezidenti: AB\u015e regionda m\u00fctt\u0259fiq
+  deyil, k\u00f6l\u0259 axtar\u0131r\\n- 19-08-2018 15:51 Ha\u015fdi \u015eabid\u0259n
+  Suriya s\u0259rh\u0259dind\u0259 \u0259m\u0259liyyat\\n- 19-08-2018 15:42 Erm\u0259ni
+  ekspertl\u0259r: Q\u0131z\u0131\u015fan siyasi m\u00fcbariz\u0259 Erm\u0259nistan\u0131n
+  m\u0259hvin\u0259 s\u0259b\u0259b olacaq\\n- 19-08-2018 15:25 Z\u0259rif: AB\u015e
+  \u0130randa \u00e7evrili\u015f x\u0259yal\u0131n\u0131 qurur\\n- 19-08-2018 13:56
+  Tramp Suriyadak\u0131 m\u0259\u011flubiyy\u0259tin \u0259v\u0259zini Yax\u0131n
+  \u015e\u0259rq \u00f6lk\u0259l\u0259rin\u0259 y\u00fckl\u0259di\\n- 19-08-2018 13:23
+  \\\"N\u0259sr\\\" koalisiyas\u0131ndan a\u00e7\u0131qlama: \u0130badi yegan\u0259
+  namiz\u0259dimizdir\\n- 19-08-2018 13:05 Almaniya T\u00fcrkiy\u0259ni t\u0259l\u0259y\u0259
+  \u00e7\u0259km\u0259y\u0259 \u00e7al\u0131\u015f\u0131r\\n- 19-08-2018 11:51 H\u0259masdan
+  \u0130srail zorak\u0131l\u0131\u011f\u0131na qar\u015f\u0131 hesabat\\n- 19-08-2018
+  11:32 \\\"Taliban\\\" \u018ffqan\u0131stan\u0131n Faryab \u0259yal\u0259tinin bir
+  hiss\u0259sini \u0259l\u0259 ke\u00e7irib\\n- 19-08-2018 11:23 Laricani: AB\u015e
+  regionu talamaq \u00fc\u00e7\u00fcn \u0130ranofobiya layih\u0259sini h\u0259yata
+  ke\u00e7irir\\n- 19-08-2018 09:38 Az\u0259rbaycan s\u0259mas\u0131nda NUO g\u00f6r\u0259n
+  ke\u00e7mi\u015f KQB zabiti dan\u0131\u015fd\u0131\\n- 18-08-2018 15:42 Da\u011f\u0131standa
+  cinay\u0259tkar d\u0259st\u0259 yaradan m\u0259mur saxlan\u0131ld\u0131\\n- 18-08-2018
+  14:27 Luka\u015fenko yeni ba\u015f nazir t\u0259yin edib\\n- 18-08-2018 14:16 BMT-nin
+  ke\u00e7mi\u015f ba\u015f katibi v\u0259fat edib\\n- 18-08-2018 12:53 T\u00fcrkiy\u0259d\u0259
+  34 ma\u015f\u0131n toqqu\u015fdu, \u00f6l\u0259n var - V\u0130DEO\\n- 18-08-2018
+  11:13 Putin avstriyal\u0131 nazirin toyundan sonra Merkell\u0259 g\u00f6r\u00fc\u015f\u0259c\u0259k\\n-
+  18-08-2018 10:40 Maduro minimum \u0259m\u0259k haqq\u0131n\u0131 60 d\u0259f\u0259
+  art\u0131r\u0131b\\n- 18-08-2018 10:24 T\u00fcrkiy\u0259d\u0259 dini idar\u0259d\u0259
+  at\u0131\u015fma: 5 n\u0259f\u0259r \u00f6l\u00fcb\\n- 17-08-2018 16:10 Putini toyuna
+  \u00e7a\u011f\u0131ran nazirin istefas\u0131 s\u0259sl\u0259ndi\\n- 17-08-2018 15:10
+  Tramp\u0131n yaln\u0131\u015f q\u0259rar\u0131 AB\u015e-a 45 milyard ziyan g\u0259tirdi\\n-
+  17-08-2018 14:27 Netanyahu n\u00f6vb\u0259ti d\u0259f\u0259 istintaqa ifad\u0259
+  verib\\n- 17-08-2018 12:46 PKK-n\u0131n r\u0259hb\u0259ri pilotsuz t\u0259yyar\u0259
+  il\u0259 bel\u0259 vuruldu - V\u0130DEO\\n- 17-08-2018 12:09 17 ild\u0259n sonra
+  ilk s\u0259f\u0259r realla\u015fd\u0131 - FOTO\\n- 17-08-2018 11:02 K\u00f6\u00e7\u0259ryan
+  Pa\u015finyan\u0131 \\\"s\u0259ri\u015ft\u0259siz\\\" adland\u0131rd\u0131\"", "\"\u201c\u0130cra
+  haqq\u0131nda\u201d Az\u0259rbaycan Respublikas\u0131n\u0131n Qanununda d\u0259yi\u015fiklik
+  edilm\u0259si bar\u0259d\u0259\\nAz\u0259rbaycan Respublikas\u0131n\u0131n Qanunu\\nAz\u0259rbaycan
+  Respublikas\u0131n\u0131n Milli M\u0259clisi Az\u0259rbaycan Respublikas\u0131 Konstitusiyas\u0131n\u0131n
+  94-c\u00fc madd\u0259sinin I hiss\u0259sinin 6-c\u0131 b\u0259ndini r\u0259hb\u0259r
+  tutaraq q\u0259rara al\u0131r:\\n\u201c\u0130cra haqq\u0131nda\u201d Az\u0259rbaycan
+  Respublikas\u0131n\u0131n Qanununda (Az\u0259rbaycan Respublikas\u0131n\u0131n Qanunvericilik
+  Toplusu, 2002, \u2116 3, madd\u0259 114; 2003, \u2116 6, madd\u0259 277; 2004, \u2116
+  8, madd\u0259 598, \u2116 11, madd\u0259 901, \u2116 12, madd\u0259 973; 2007, \u2116
+  1, madd\u0259 3, \u2116 6, madd\u0259 562, \u2116 11, madd\u0259 1053; 2008, \u2116
+  6, madd\u0259 462, \u2116 7, madd\u0259 602; 2009, \u2116 12, madd\u0259 952; 2010,
+  \u2116 2, madd\u0259 75, \u2116 7, madd\u0259 591; 2011, \u2116 6, madd\u0259 482,
+  \u2116 7, madd\u0259 618; 2012, \u2116 11, madd\u0259 1052; 2013, \u2116 6, madd\u0259
+  613, \u2116 7, madd\u0259 787, \u2116 12, madd\u0259 1494; 2015, \u2116 12, madd\u0259
+  1434; 2016, \u2116 12, madd\u0259 2050; 2017, \u2116 2, madd\u0259 156, \u2116 6,
+  madd\u0259 1056, \u2116 8, madd\u0259 1511; 2018, \u2116 2, madd\u0259 151, \u2116
+  5, madd\u0259l\u0259r 853, 867, \u2116 7 (I kitab), madd\u0259 1424, \u2116 8, madd\u0259
+  1674, \u2116 12 (I kitab), madd\u0259 2528; 2019, \u2116 1, madd\u0259 21, \u2116
+  2, madd\u0259 203, \u2116 6, madd\u0259 999; 2020, \u2116 7, madd\u0259l\u0259r
+  828, 856; 2021, \u2116 4, madd\u0259 312, \u2116 8, madd\u0259 898, \u2116 11, madd\u0259
+  1206, \u2116 12, madd\u0259 1311) a\u015fa\u011f\u0131dak\u0131 d\u0259yi\u015fiklikl\u0259r
+  edilsin:\\n1. 7.1.4-c\u00fc madd\u0259 a\u015fa\u011f\u0131dak\u0131 redaksiyada
+  verilsin:\\n\u201c7.1.4. t\u0259l\u0259bkar v\u0259 borclu fiziki \u015f\u0259xsin
+  soyad\u0131, ad\u0131, atas\u0131n\u0131n ad\u0131, f\u0259rdi identifikasiya n\u00f6mr\u0259si
+  (\u0259cn\u0259bil\u0259rin v\u0259 ya v\u0259t\u0259nda\u015fl\u0131\u011f\u0131
+  olmayan \u015f\u0259xsl\u0259rin m\u00fcv\u0259qq\u0259ti, yaxud daimi ya\u015famaq
+  \u00fc\u00e7\u00fcn icaz\u0259 v\u0259siq\u0259l\u0259rinin, habel\u0259 qa\u00e7q\u0131n
+  v\u0259siq\u0259sinin seriyas\u0131 v\u0259 n\u00f6mr\u0259si), ya\u015fay\u0131\u015f
+  yeri v\u0259 oldu\u011fu yer, do\u011fum tarixi, i\u015fl\u0259diyi halda borclu
+  fiziki \u015f\u0259xsin i\u015f yeri, sahibkarl\u0131q f\u0259aliyy\u0259ti il\u0259
+  m\u0259\u015f\u011ful olduqda V\u00d6EN-i, t\u0259l\u0259bkar v\u0259 borclu h\u00fcquqi
+  \u015f\u0259xsin ad\u0131, h\u00fcquqi v\u0259 faktiki \u00fcnvanlar\u0131, V\u00d6EN-i;\u201d.\\n2.
+  84.1-ci madd\u0259y\u0259 \u201cyerin\u0259 yetirilm\u0259m\u0259sin\u0259\u201d
+  s\u00f6zl\u0259rind\u0259n sonra \u201c, o c\u00fcml\u0259d\u0259n q\u0259rarlar\u0131n\u0131n
+  icra olunmamas\u0131na\u201d s\u00f6zl\u0259ri \u0259lav\u0259 edilsin.\\n\u0130lham
+  \u018fliyev\\nAz\u0259rbaycan Respublikas\u0131n\u0131n Prezidenti\\nBak\u0131 \u015f\u0259h\u0259ri,
+  2 dekabr 2022-ci il\\n13 Yanvar 2023, 08:0117 Mart 2023, 15:03\\nE.N.M\u0259mm\u0259dovun
+  Nax\u00e7\u0131van Muxtar Respublikas\u0131 Ordubad Rayon \u0130cra Hakimiyy\u0259tinin
+  ba\u015f\u00e7\u0131s\u0131 v\u0259zif\u0259sind\u0259n azad edilm\u0259si haqq\u0131nda
+  Az\u0259rbaycan Respublikas\u0131 Prezidentinin S\u0259r\u0259ncam\u0131 \u0259trafl\u0131...\\n17
+  Mart 2023, 15:03\\nPe\u015f\u0259 t\u0259hsili m\u00fc\u0259ssis\u0259l\u0259rind\u0259
+  yeni maliyy\u0259l\u0259\u015fm\u0259 mexanizminin t\u0259tbiq edilm\u0259si haqq\u0131nda
+  Az\u0259rbaycan Respublikas\u0131 Prezidentinin F\u0259rman\u0131 \u0259trafl\u0131...\\n17
+  Mart 2023, 15:03\\nR.M.M\u0259mm\u0259dovun 1-ci d\u0259r\u0259c\u0259li \u201cV\u0259t\u0259n\u0259
+  xidm\u0259t\u0259 g\u00f6r\u0259\u201d ordeni il\u0259 t\u0259ltif edilm\u0259si
+  haqq\u0131nda Az\u0259rbaycan Respublikas\u0131 Prezidentinin S\u0259r\u0259ncam\u0131
+  \u0259trafl\u0131...\\n17 Mart 2023, 15:03\\n\u201cAz\u0259rbaycan Respublikas\u0131n\u0131n
+  R\u0259q\u0259msal \u0130nki\u015faf v\u0259 N\u0259qliyyat Nazirliyi v\u0259 Serbiya
+  Respublikas\u0131n\u0131n Tikinti, N\u0259qliyyat v\u0259 \u0130nfrastruktur Nazirliyi
+  aras\u0131nda \u201cD\u0259niz\u00e7il\u0259rin haz\u0131rlanmas\u0131na, onlara
+  diplom verilm\u0259sin\u0259 v\u0259 n\u00f6vb\u0259 \u00e7\u0259km\u0259y\u0259
+  dair (DHDN\u00c7) 1978-ci il tarixli Beyn\u0259lxalq Konvensiya\u201dn\u0131n (\u0259lav\u0259l\u0259rl\u0259)
+  I/10-cu qaydas\u0131na \u0259sas\u0259n sertifikatlar\u0131n (diplomlar\u0131n)
+  tan\u0131nmas\u0131 haqq\u0131nda\u201d Anla\u015fma Memorandumunun t\u0259sdiq
+  edilm\u0259si bar\u0259d\u0259 Az\u0259rbaycan Respublikas\u0131n\u0131n Qanunu
+  \u0259trafl\u0131...\\n17 Mart 2023, 15:03\\n\u201cAz\u0259rbaycan Respublikas\u0131n\u0131n
+  Daxili \u0130\u015fl\u0259r Nazirliyi il\u0259 Birl\u0259\u015fmi\u015f \u018fr\u0259b
+  \u018fmirlikl\u0259rinin Daxili \u0130\u015fl\u0259r Nazirliyi aras\u0131nda s\u00fcr\u00fcc\u00fcl\u00fck
+  v\u0259siq\u0259l\u0259rinin qar\u015f\u0131l\u0131ql\u0131 tan\u0131nmas\u0131
+  v\u0259 d\u0259yi\u015fdirilm\u0259si haqq\u0131nda\u201d Anla\u015fma Memorandumunun
+  t\u0259sdiq edilm\u0259si bar\u0259d\u0259 Az\u0259rbaycan Respublikas\u0131n\u0131n
+  Qanunu \u0259trafl\u0131...\\n17 Mart 2023, 15:03\\n\u201cAz\u0259rbaycan Respublikas\u0131
+  H\u00f6kum\u0259ti il\u0259 Serbiya Respublikas\u0131 H\u00f6kum\u0259ti aras\u0131nda
+  icaz\u0259siz ya\u015fayan \u015f\u0259xsl\u0259rin readmissiyas\u0131 haqq\u0131nda\u201d
+  Sazi\u015fin t\u0259sdiq edilm\u0259si bar\u0259d\u0259 Az\u0259rbaycan Respublikas\u0131n\u0131n
+  Qanunu \u0259trafl\u0131...\\n15 Mart 2023, 15:03\\nAz\u0259rbaycan Respublikas\u0131
+  Prezidentinin 2011-ci il 16 fevral tarixli 386 n\u00f6mr\u0259li F\u0259rman\u0131
+  il\u0259 t\u0259sdiq edilmi\u015f \u201cAz\u0259rbaycan Respublikas\u0131n\u0131n
+  \u018fm\u0259k v\u0259 \u018fhalinin Sosial M\u00fcdafi\u0259si Nazirliyi haqq\u0131nda
+  \u018fsasnam\u0259\u201dd\u0259 d\u0259yi\u015fiklik edilm\u0259si bar\u0259d\u0259
+  Az\u0259rbaycan Respublikas\u0131 Prezidentinin F\u0259rman\u0131 \u0259trafl\u0131...\\n15
+  Mart 2023, 12:03\\nA.R.Rzayevin 1-ci d\u0259r\u0259c\u0259li \u201c\u018fm\u0259k\u201d
+  ordeni il\u0259 t\u0259ltif edilm\u0259si haqq\u0131nda Az\u0259rbaycan Respublikas\u0131
+  Prezidentinin S\u0259r\u0259ncam\u0131 \u0259trafl\u0131...\\n10 Mart 2023, 07:03\\nS\u0259hiyy\u0259
+  sah\u0259sind\u0259 t\u0259chizat v\u0259 t\u0259minatla ba\u011fl\u0131 f\u0259aliyy\u0259tin
+  t\u0259kmill\u0259\u015fdirilm\u0259si v\u0259 \u201cAz\u0259rbaycan Respublikas\u0131nda
+  icbari tibbi s\u0131\u011fortan\u0131n t\u0259tbiqinin t\u0259min edilm\u0259si
+  il\u0259 ba\u011fl\u0131 bir s\u0131ra t\u0259dbirl\u0259r haqq\u0131nda\u201d Az\u0259rbaycan
+  Respublikas\u0131 Prezidentinin 2018-ci il 20 dekabr tarixli 418 n\u00f6mr\u0259li
+  F\u0259rman\u0131nda d\u0259yi\u015fiklik edilm\u0259si bar\u0259d\u0259 Az\u0259rbaycan
+  Respublikas\u0131 Prezidentinin F\u0259rman\u0131 \u0259trafl\u0131...\\n7 Mart
+  2023, 16:03\\nAz\u0259rbaycan Respublikas\u0131 Prezidentinin 2021-ci il 19 yanvar
+  tarixli 1253 n\u00f6mr\u0259li F\u0259rman\u0131 il\u0259 t\u0259sdiq edilmi\u015f
+  \u201cQaraba\u011f Dir\u00e7\u0259li\u015f Fondunun Nizamnam\u0259si\u201dnd\u0259
+  d\u0259yi\u015fiklik edilm\u0259si haqq\u0131nda Az\u0259rbaycan Respublikas\u0131
+  Prezidentinin F\u0259rman\u0131 \u0259trafl\u0131...\"", "\"Bu g\u00fcn rezidenturaya
+  q\u0259bul imtahan\u0131n\u0131n birinci m\u0259rh\u0259l\u0259si (baza f\u0259nl\u0259ri
+  \u00fczr\u0259 bilikl\u0259rin qiym\u0259tl\u0259ndirilm\u0259si imtahan\u0131,
+  birinci c\u0259hd) imtahan\u0131 ke\u00e7iril\u0259c\u0259k. Turaz.org...\\nBu g\u00fcnd\u0259n
+  birinci sinf\u0259 qeydiyyat prosesi ba\u015flan\u0131l\u0131r. Turaz.org T\u0259hsil
+  Nazirliyin\u0259 istinad\u0259n x\u0259b\u0259r verir ki, saat 11:00-dan etibar\u0259n
+  2022-2023-c\u00fc t\u0259dris ili...\\nAprelin 24-d\u0259 D\u00f6vl\u0259t \u0130mtahan
+  M\u0259rk\u0259zi (D\u0130M) t\u0259r\u0259find\u0259n Bak\u0131 \u015f\u0259h\u0259rinin
+  X\u0259tai, X\u0259z\u0259r rayonlar\u0131nda, Ab\u015feron (II hiss\u0259), F\u00fczuli,
+  Quba (I hiss\u0259), Masall\u0131...\\nD\u00f6vl\u0259t \u0130mtahan M\u0259rk\u0259zi
+  aprelin 3-d\u0259 ke\u00e7iril\u0259n bir ne\u00e7\u0259 sah\u0259 \u00fczr\u0259
+  imtahanlar\u0131n n\u0259tic\u0259l\u0259rini elan edib. Turaz.org x\u0259b\u0259r
+  verir ki,M\u0259rk\u0259zd\u0259n veril\u0259n m\u0259lumata...\\nM\u00fc\u0259lliml\u0259rin
+  \u0130\u015f\u0259 Q\u0259bulu (M\u0130Q) imtahanlar\u0131n\u0131n h\u0259mi\u015f\u0259
+  oldu\u011fu kimi, yay aylar\u0131nda ke\u00e7irilm\u0259si n\u0259z\u0259rd\u0259
+  tutulub. Turaz.org x\u0259b\u0259r verir ki, bunu \u0130nsan Resurslar\u0131...\"",
+  "\"\u0130yulun 4-d\u0259 Nizami RP\u0130 24-c\u00fc P\u015e-y\u0259 m\u00fcraci\u0259t
+  ed\u0259n ...\\n10.07.2019\\n\u0130yulun 4-d\u0259 Nizami RP\u0130 24-c\u00fc P\u015e-y\u0259
+  m\u00fcraci\u0259t ed\u0259n Bak\u0131 \u015f\u0259h\u0259r sakini E.Tal\u0131bov
+  \u00f6t\u0259n il noyabr\u0131n 23-d\u0259 Q.Qarayev prospektind\u0259 nam\u0259lum
+  \u015f\u0259xsin onu b\u0131\u00e7aqla h\u0259d\u0259l\u0259yib 340 manat d\u0259y\u0259rind\u0259
+  g\u00fcm\u00fc\u015f qolba\u011f\u0131s\u0131n\u0131 ald\u0131\u011f\u0131n\u0131
+  bildirmi\u015fdir. 24-c\u00fc P\u015e \u0259m\u0259kda\u015flar\u0131n\u0131n ke\u00e7irdikl\u0259ri
+  \u0259m\u0259liyyat-axtar\u0131\u015f t\u0259dbirl\u0259ri n\u0259tic\u0259sind\u0259
+  quldurlu\u011fu t\u00f6r\u0259tm\u0259kd\u0259 \u015f\u00fcbh\u0259li bilin\u0259n
+  paytaxt sakini O.C\u0259f\u0259rli saxlan\u0131lm\u0131\u015fd\u0131r.\\nNizami
+  RP\u0130 24-c\u00fc P\u015e-y\u0259 m\u00fcraci\u0259t ed\u0259n Bak\u0131 \u015f\u0259h\u0259r
+  sakini T.Tanr\u0131verdiyev iyulun 10-da saat 1 rad\u0259l\u0259rind\u0259 nam\u0259lum
+  \u015f\u0259xsin onu b\u0131\u00e7aqla h\u0259d\u0259l\u0259y\u0259r\u0259k pul
+  verm\u0259sini t\u0259l\u0259b etm\u0259sini, ist\u0259diyin\u0259 nail olmad\u0131qda
+  ona \u0259lind\u0259n b\u0131\u00e7aqla x\u0259sar\u0259t yetirib hadis\u0259 yerini
+  t\u0259rk etdiyini bildirmi\u015fdir. 24-c\u00fc P\u015e v\u0259 \u018flahidd\u0259
+  \u00c7evik Polis Alay\u0131 \u0259m\u0259kda\u015flar\u0131n\u0131n birg\u0259 ke\u00e7irdikl\u0259ri
+  \u0259m\u0259liyyat-axtar\u0131\u015f t\u0259dbirl\u0259ri n\u0259tic\u0259sind\u0259
+  quldurlu\u011fu t\u00f6r\u0259tm\u0259kd\u0259 \u015f\u00fcbh\u0259li bilin\u0259n
+  paytaxt sakini R.Nuriyev saxlan\u0131lm\u0131\u015fd\u0131r. Ara\u015fd\u0131rma
+  apar\u0131l\u0131r.\"", "\"Date: 25 December 2015 12:06\\nKe\u00e7\u0259n h\u0259ft\u0259
+  AB\u015e-\u0131n Las-Veqas \u015f\u0259h\u0259rind\u0259 ke\u00e7iril\u0259n \\\"Kainat
+  g\u00f6z\u0259li\\\" yar\u0131\u015fmas\u0131nda apar\u0131c\u0131n\u0131n s\u0259hvin\u0259
+  g\u00f6r\u0259 30 saniy\u0259lik \\\"krali\u00e7a\\\" olan q\u0131za porno \u015firk\u0259tind\u0259n
+  t\u0259klif g\u0259lib.\\nAx\u015fam.az-\u0131n xarici K\u0130V-\u0259 istinad\u0259n
+  m\u0259lumat\u0131an g\u00f6r\u0259, \\\"Vivid Entertainment\\\" \u015firk\u0259tinin
+  r\u0259hb\u0259ri Stiven Hir\u015f kolumbiyal\u0131 Ariadna Qutyerrez Arevaloya
+  1 milyon dollar qar\u015f\u0131l\u0131\u011f\u0131na film\u0259 \u00e7\u0259kilm\u0259k
+  t\u0259klifi g\u00f6nd\u0259rib.\\nHar\u015f g\u0259nc q\u0131zdan t\u0259r\u0259f
+  m\u00fcqabilini \u00f6z\u00fcn\u00fcn se\u00e7m\u0259sini ist\u0259yib. O, yazd\u0131\u011f\u0131
+  m\u0259ktubda Arevaloya \\\"Ba\u015f\u0131na g\u0259l\u0259nl\u0259ri maddi bax\u0131mdan
+  \u00fcst\u00fcnl\u00fcy\u0259 \u00e7evirm\u0259yin yolunu bilir\u0259m\\\" yaz\u0131b.
+  Q\u0131z is\u0259 h\u0259l\u0259 ki cavab verm\u0259yib.\\nQeyd ed\u0259k ki, yar\u0131\u015fmada
+  apar\u0131c\u0131 \u0259vv\u0259l Arevalonu qalib elan edib. Birinciliyini bayram
+  ed\u0259n yar\u0131\u015fma\u00e7\u0131 tac\u0131n\u0131 taxaraq izl\u0259yicil\u0259ri
+  salamlama\u011fa gedib. H\u0259min an m\u00fcnsifl\u0259r apar\u0131c\u0131ya s\u0259hv
+  etdiyini deyibl\u0259r.\\nHarvi ikinci d\u0259f\u0259 mikrofonu g\u00f6t\u00fcr\u0259r\u0259k
+  \u00fczr ist\u0259yib, qalibi s\u0259hv elan etdiyini deyib.\"", "\"Uzun m\u00fcdd\u0259t
+  hesab edilirdi ki, qad\u0131n\u0131n \u0259sas v\u0259zif\u0259si u\u015faq do\u011fub
+  b\u00f6y\u00fctm\u0259kdir, cinsi \u0259laq\u0259 is\u0259 yaln\u0131z n\u0259slin
+  davam etdirilm\u0259si \u00fc\u00e7\u00fcnd\u00fcr. Bel\u0259likl\u0259 d\u0259,
+  hamil\u0259 qad\u0131n ki\u015fi il\u0259, ki\u015fi is\u0259 onunla maraqlanmamal\u0131d\u0131r.
+  M\u00fcasir evli c\u00fctl\u00fckl\u0259rin \u0259ks\u0259riyy\u0259ti ba\u015fqa
+  c\u00fcr d\u00fc\u015f\u00fcn\u00fcrl\u0259r v\u0259 doqquz ay \u0259rzind\u0259
+  cinsi m\u00fcnasib\u0259t\u0259 davam edirl\u0259r. D\u00fczd\u00fcr, onlar bu zaman
+  b\u0259zi \u00e7\u0259tinlikl\u0259rl\u0259 qar\u015f\u0131la\u015f\u0131rlar.\\nH\u0259m
+  qad\u0131n, h\u0259m d\u0259 ki\u015fi \u00fc\u00e7\u00fcn \\\"hamil\u0259\\\" v\u0259
+  \\\"hamil\u0259 olmayan\\\" cinsi m\u00fcnasib\u0259t bir-birind\u0259n \u0259sasl\u0131
+  \u015f\u0259kild\u0259 f\u0259rql\u0259nir. G\u0259l\u0259c\u0259k analar yolda\u015f\u0131n\u0131n
+  cinsi m\u00fcnasib\u0259t ist\u0259yin\u0259 m\u00fcxt\u0259lif c\u00fcr reaksiya
+  g\u00f6st\u0259rirl\u0259r. B\u0259zil\u0259rind\u0259 cinsi m\u00fcnasib\u0259t
+  ist\u0259yi daha da art\u0131r. B\u0259zil\u0259ri is\u0259 cinsi \u0259laq\u0259y\u0259
+  girm\u0259kd\u0259n bacard\u0131qca boyun qa\u00e7\u0131r\u0131rlar.\\nBunun s\u0259b\u0259bi
+  be\u015f \u0259sas problemdir ki, onlar\u0131 h\u0259ll etm\u0259kl\u0259 siz hamil\u0259
+  vaxt\u0131 cinsi \u0259laq\u0259d\u0259n z\u00f6vq ala bil\u0259rsiniz.\\nHamil\u0259lik
+  zaman\u0131 cinsi m\u00fcnasib\u0259tin \u0259sas probleml\u0259ri\\nProblem 1.
+  Hormonal partlay\u0131\u015f.\\nQad\u0131n orqanizmi g\u00fccl\u00fc hormonal partlay\u0131\u015f
+  ya\u015fay\u0131r, hans\u0131 ki, t\u0259bii olaraq seksual h\u0259yatda da \u00f6z\u00fcn\u00fc
+  g\u00f6st\u0259rir. Hamil\u0259 qad\u0131nlar \u00f6z emosiyalar\u0131na n\u0259zar\u0259t
+  ed\u0259 bilmirl\u0259r, \u0259hvallar\u0131 d\u0259yi\u015fk\u0259n olur. Seksual
+  oyan\u0131ql\u0131q vaxt\u0131 onlar h\u0259tta a\u011flaya bil\u0259rl\u0259r.\\nProblemin
+  h\u0259lli. H\u0259yat yolda\u015f\u0131n\u0131za ayd\u0131n ba\u015fa sal\u0131n
+  ki, siz indi n\u0259 hiss edirsiniz. Ax\u0131 o, ist\u0259s\u0259 d\u0259 hamil\u0259
+  qala bilm\u0259z. Ayd\u0131nd\u0131r ki, sizin qorxu v\u0259 h\u0259y\u0259canlar\u0131n\u0131z
+  bar\u0259d\u0259 he\u00e7 n\u0259 bilmir. Seksual harmoniyaya o vaxt \u00e7atmaq
+  olar ki, c\u00fctl\u00fckl\u0259rin h\u0259r biri qar\u015f\u0131 t\u0259r\u0259fin
+  fiziki v\u0259 psixoloji t\u0259l\u0259bl\u0259rin\u0259 diqq\u0259tli yana\u015fs\u0131nlar.
+  Ki\u015fi \u00fc\u00e7\u00fcn indi \u0259n \u0259sas\u0131 qad\u0131n\u0131n qeyri-sabit
+  emosional v\u0259ziyy\u0259tin\u0259 v\u0259 \u0259sass\u0131z t\u0259l\u0259bl\u0259rin\u0259
+  ciddi reaksiya verm\u0259sin. Siz is\u0259 \u00e7al\u0131\u015fmay\u0131n ki, hissl\u0259rinizi
+  i\u00e7inizd\u0259 saxlayas\u0131n\u0131z, \u0259ks halda sizi emosiyalar t\u0259lat\u00fcm\u00fc
+  g\u00f6zl\u0259yir. H\u0259yat yolda\u015f\u0131n\u0131za b\u00fct\u00fcn h\u0259yacan,
+  \u015f\u00fcbh\u0259 v\u0259 qorxular\u0131n\u0131z bar\u0259d\u0259 dan\u0131\u015f\u0131n.
+  Seksual h\u0259zz yaln\u0131z o vaxt m\u00fcmk\u00fcnd\u00fcr ki, siz, h\u0259yat
+  yolda\u015f\u0131n\u0131za tamamil\u0259 inanas\u0131n\u0131z. Yax\u0131n doqquz
+  ay \u0259rzind\u0259 sizin \u0259hval-ruhiyy\u0259niz daimi d\u0259yi\u015f\u0259c\u0259k
+  v\u0259 siz cinsi \u0259laq\u0259d\u0259n h\u0259r g\u00fcn yeni emosiyalar alacaqs\u0131n\u0131z.
+  Bel\u0259likl\u0259, d\u00fcn\u0259n sizin xo\u015funuza g\u0259lm\u0259diyi \u00fc\u00e7\u00fcn
+  seksd\u0259m imtina etm\u0259yin. Cinsi h\u0259yat\u0131n ba\u015flan\u011f\u0131c\u0131nda
+  oldu\u011fu kimi, siz\u0259 \u0259n \u00e7ox h\u0259zz ver\u0259n \u015feyl\u0259ri
+  axtar\u0131n, m\u0259nfi emosiyalar ya\u015fadan\u0131 yox.\\nProblem 2. Bir yataqda
+  \u00fc\u00e7 n\u0259f\u0259r.\\nPsixoloji amil az rol oynam\u0131r. Ax\u0131 siz
+  yataqda art\u0131q iki deyil, \u00fc\u00e7s\u00fcn\u00fcz v\u0259 buna uy\u011funla\u015fmaq
+  \u00fc\u00e7\u00fcn vaxt t\u0259l\u0259b olunur. M\u0259hz buna g\u00f6r\u0259 b\u0259zi
+  ki\u015fil\u0259r hamil\u0259 h\u0259yat yolda\u015f\u0131n\u0131 qad\u0131n kimi
+  deyil, ana kimi q\u0259bul edirl\u0259r. B\u0259z\u0259n qad\u0131nlar cinsi \u0259laq\u0259d\u0259n
+  imtina etm\u0259l\u0259rini bel\u0259 izah edirl\u0259r: \\\"m\u0259n\u0259 bel\u0259
+  g\u0259lir ki, u\u015faq daimi u\u015faql\u0131qdan m\u0259ni m\u00fc\u015fahid\u0259
+  edir v\u0259 h\u0259r\u0259k\u0259tl\u0259rimi qiym\u0259tl\u0259ndirir. V\u0259
+  yataqda m\u0259n s\u0259rb\u0259stl\u0259\u015f\u0259 bilmir\u0259m. El\u0259 bil
+  seksl\u0259 camaat aras\u0131nda m\u0259\u015f\u011ful olursan\\\".\\nProblemin
+  h\u0259lli. Bu sirr deyil ki, u\u015faqlar \\\"k\u0259l\u0259md\u0259n\\\" tap\u0131lm\u0131r.
+  H\u0259r bir h\u0259yata cinsi akt ba\u015flan\u011f\u0131c verir. B\u00f6y\u00fck
+  u\u015fa\u011f\u0131n yan\u0131nda cinsi \u0259laq\u0259 il\u0259 m\u0259\u015f\u011ful
+  olmaq m\u0259n\u0259viyyats\u0131zl\u0131qd\u0131r. Lakin yax\u0131n doqquz ay \u0259rzind\u0259
+  siz u\u015faqla v\u0259hd\u0259t t\u0259\u015fkil edirsiniz. Yad\u0131n\u0131zda
+  qals\u0131n, ana yax\u015f\u0131 olanda, u\u015fa\u011fa da xo\u015f olur. Orqazm
+  an\u0131nda partnyorlar aras\u0131nda g\u00fccl\u00fc energetik m\u00fcbadil\u0259
+  ba\u015f verir. T\u0259bii ki, d\u00f6l d\u0259 bunlar\u0131 hiss edir, hans\u0131
+  ki, ona v\u0259 anaya yax\u015f\u0131 t\u0259sir g\u00f6st\u0259rir. Elmi ara\u015fd\u0131rmalar
+  g\u00f6st\u0259rir ki, ana b\u0259tnind\u0259 olan u\u015faqlar valideynl\u0259rin
+  seksual oyunlar\u0131na reaksiya verirl\u0259r. USM m\u00fc\u015fahid\u0259sind\u0259
+  g\u00f6r\u00fcn\u00fcr ki, d\u00f6l ana orqazm\u0131 vaxt\u0131 nizams\u0131z h\u0259r\u0259k\u0259tl\u0259r
+  edir v\u0259 \u00fcr\u0259k d\u00f6y\u00fcnt\u00fcs\u00fc tezl\u0259\u015fir. Cinsi
+  akt zaman\u0131 u\u015faql\u0131q y\u0131\u011f\u0131lma\u011fa ba\u015flay\u0131r
+  v\u0259 bu d\u00f6l \u00fc\u00e7\u00fcn g\u0259l\u0259c\u0259k do\u011fu\u015fa
+  bir m\u0259\u015fqdir.\\nProblem 3. Toksikoz.\\n\u00dcr\u0259kbulanma, ba\u015fgic\u0259ll\u0259nm\u0259
+  v\u0259 yor\u011funluq da ist\u0259yi art\u0131rm\u0131r. S\u0259h\u0259rl\u0259r
+  yediyinizd\u0259n \u00fcr\u0259yiniz bulan\u0131r, toksikoz ke\u00e7\u0259n kimi
+  yatmaq ist\u0259yirsiniz, ax\u015fama q\u0259d\u0259r is\u0259 el\u0259 yorulursunuz
+  ki, yatmaqdan ba\u015fqa he\u00e7 n\u0259 haqq\u0131nda d\u00fc\u015f\u00fcnm\u0259k
+  bel\u0259 ist\u0259mirsiniz. H\u0259m d\u0259, hamil\u0259liyin xo\u015fag\u0259lm\u0259z
+  \u0259lam\u0259tl\u0259ril\u0259 ki\u015finin sizinl\u0259 b\u00f6l\u00fc\u015f\u0259
+  bilm\u0259m\u0259si sizi \u00e7ox q\u0131c\u0131qland\u0131r\u0131r.\\nProblemin
+  h\u0259lli. Yataq oyunlar\u0131n\u0131 sizin \u00fc\u00e7\u00fcn \u0259n uy\u011fun
+  vaxta ke\u00e7irin. Ax\u0131 sutkan\u0131n 24 saat\u0131 sizin \u00fcr\u0259yiniz
+  bulanm\u0131r. \u018fks\u0259r g\u0259l\u0259c\u0259k analar\u0131n fikrin\u0259
+  g\u00f6r\u0259 cinsi \u0259laq\u0259 \u00fc\u00e7\u00fcn \u0259n optimal vaxt \u2014
+  s\u00fcbh tezd\u0259n, s\u0259h\u0259r yem\u0259yin\u0259 q\u0259d\u0259r v\u0259
+  ya g\u00fcnd\u00fcz yuxusundan sonrad\u0131r. \u00d6z arzular\u0131n\u0131za zidd
+  gedib ki\u015fiya g\u00f6r\u0259 uy\u011funla\u015fmay\u0131n. \u018fn pisi odur
+  ki, \u0259riniz\u0259 g\u00f6r\u0259 \u00fcr\u0259yiniz bulan\u0131r, lakin seks
+  ist\u0259yirs\u0259n. Bu zaman \u00e7al\u0131\u015f\u0131n bil\u0259siniz n\u0259
+  siz\u0259 pis t\u0259sir edir: odekalon, t\u00fct\u00fcn iyi v\u0259 s. v\u0259
+  onu aradan g\u00f6t\u00fcr\u00fcn.\\nProblem 4. Hamil\u0259 b\u0259d\u0259n.\\nQad\u0131n\u0131n
+  b\u0259d\u0259ni g\u00f6z \u00f6n\u00fcnd\u0259 d\u0259yi\u015fir: qar\u0131n h\u0259dd\u0259n
+  art\u0131q b\u00f6y\u00fcy\u00fcr, d\u00f6\u015fl\u0259r a\u011fr\u0131l\u0131 olur
+  v\u0259 oyanma vaxt\u0131 ondan s\u00fcd g\u0259l\u0259 bil\u0259r. Sevimli seksual
+  pozalar\u0131 almaq g\u00fclm\u0259li ola bil\u0259r v\u0259 narahat\u00e7\u0131l\u0131q
+  t\u00f6r\u0259dir. Ki\u015finin n\u0259vazi\u015fini almaqdansa, \u0259n az\u0131
+  onu vurmaq ist\u0259yirsiniz\\nProblemin h\u0259lli. \u00d6z hamil\u0259 b\u0259d\u0259ninizi
+  sevin. B\u0259d\u0259nin qad\u0131n\u0131 qorxudan d\u0259yi\u015fiklikl\u0259ri
+  ki\u015fi \u00fc\u00e7\u00fcn \u0259lav\u0259 l\u0259zz\u0259t verir. Ki\u015fil\u0259rin
+  \u00e7oxsunu hamil\u0259 qad\u0131n\u0131n g\u00f6r\u00fcn\u00fc\u015f\u00fc g\u00fccl\u00fc
+  oyand\u0131r\u0131r. B\u00f6y\u00fck qar\u0131na g\u00f6r\u0259 kompleks ya\u015fama\u011f\u0131
+  qurtar\u0131n. Siz t\u0259dric\u0259n k\u00f6k\u0259l\u0259c\u0259ksiniz v\u0259
+  \u0259riniz siz\u0259 uy\u011funla\u015fa bil\u0259c\u0259k. Yax\u0131n doqquz ayda
+  siz \u00f6z qarn\u0131n\u0131zla f\u0259xr ed\u0259 bil\u0259rsiniz, b\u00fct\u00fcn
+  n\u0259vazi\u015fl\u0259r m\u0259hz ona y\u00f6n\u0259l\u0259c\u0259k. \u018flb\u0259tt\u0259,
+  qar\u0131n b\u00f6y\u00fcd\u00fckc\u0259 siz uy\u011fun seksual v\u0259ziyy\u0259t
+  almaq \u00fc\u00e7\u00fcn \u00e7al\u0131\u015fmal\u0131 olacaqs\u0131n\u0131z. Amma
+  seksd\u0259 r\u0259ngar\u0259ngliyi yaln\u0131z alq\u0131\u015flamaq olar. Hamil\u0259lik
+  \u2014 z\u0259rif v\u0259 t\u0259l\u0259sm\u0259d\u0259n, m\u00fcr\u0259kk\u0259b
+  akrobatik h\u0259r\u0259k\u0259tl\u0259rsiz cinsi \u0259laq\u0259 vaxt\u0131d\u0131r.
+  Qald\u0131 d\u00f6\u015fl\u0259r\u0259 \u2014 \u0259g\u0259r, \u0259rinizin n\u0259vazi\u015fl\u0259ri
+  siz\u0259 a\u011fri\u0131 v\u0259 ya diskomfort yarad\u0131rsa, d\u00f6zm\u0259k
+  laz\u0131m deyil. Yolda\u015f\u0131n\u0131za izah edin hamil\u0259 b\u00fcstl\u0259
+  nec\u0259 r\u0259ftar etm\u0259k laz\u0131md\u0131r. \u018fg\u0259r cinsi oyanma
+  vaxt\u0131 d\u00f6\u015fd\u0259n s\u00fcd g\u0259lirs\u0259 \u2014 \u00f6z\u00fcn\u00fcz\u0259
+  q\u0259\u015f\u0259ng alt paltar\u0131 al\u0131n v\u0259 onu yataqda \u00e7\u0131xartmay\u0131n.\\nProblem
+  5 (\u0259sas). Cinsi \u0259laq\u0259 u\u015faq \u00fc\u00e7\u00fcn t\u0259hl\u00fck\u0259lidir.\\nHesab
+  edilir ki, hamil\u0259lik zaman\u0131 cinsi \u0259laq\u0259 d\u00f6l\u00fcn z\u0259d\u0259l\u0259nm\u0259sin\u0259
+  v\u0259 ya d\u00fc\u015f\u00fcy\u0259 s\u0259b\u0259b ola bil\u0259r. Bir t\u0259r\u0259fd\u0259n
+  qad\u0131n \u0259rin\u0259 xo\u015fluq etm\u0259k ist\u0259yir, amma dig\u0259r
+  t\u0259r\u0259fd\u0259n u\u015fa\u011fa g\u00f6r\u0259 qorxu onu tam bo\u015falma\u011fa
+  qoymur. Bel\u0259likl\u0259, cavan ana h\u0259yatdan z\u00f6vq almaqdansa, ya \u0259rini
+  cinsi h\u0259yatdan m\u0259hrum edir, ya da onun x\u0259trin\u0259 raz\u0131la\u015f\u0131r
+  v\u0259 \u00f6vlad\u0131na g\u00f6r\u0259 \u0259zab \u00e7\u0259kir.\\nProblemin
+  h\u0259lli. Hamil\u0259lik \u2014 x\u0259st\u0259lik deyil, ancaq ikiqat m\u0259suliyy\u0259t,
+  dem\u0259li ehtiyatl\u0131l\u0131qd\u0131r. Buna g\u00f6r\u0259 h\u0259r ehtimala
+  qar\u015f\u0131 b\u0259zi m\u0259hdudiyy\u0259tl\u0259r vard\u0131r. Seks \u2014
+  \u0259lav\u0259 risk faktorudur. \u018fg\u0259r qad\u0131n sa\u011flamd\u0131rsa
+  v\u0259 hamil\u0259lik f\u0259sads\u0131z ke\u00e7irs\u0259, cinsi h\u0259yatdan
+  imtina etm\u0259m\u0259k olar. Amma bu zaman \u00f6z hissl\u0259riniz\u0259 diqq\u0259t
+  yetirm\u0259li v\u0259 azac\u0131q \u015f\u00fcbh\u0259 yarand\u0131qda tez h\u0259kim\u0259
+  m\u00fcraci\u0259t etm\u0259k laz\u0131md\u0131r. Cinsi \u0259laq\u0259 zaman\u0131
+  u\u015fa\u011f\u0131n z\u0259d\u0259l\u0259nm\u0259sind\u0259n qorxmay\u0131n: onu
+  d\u00f6l qovu\u011fu v\u0259 u\u015faql\u0131q yax\u015f\u0131 qoruyur, d\u00f6lyan\u0131
+  maye is\u0259 etibarl\u0131 amortizatordur. Fikir verm\u0259k laz\u0131md\u0131r
+  ki, partnyorun z\u00f6hr\u0259vi x\u0259st\u0259likl\u0259ri olmas\u0131n.\\nCinsi
+  \u0259laq\u0259 n\u0259 vaxt olmaz?\\nCinsi \u0259laq\u0259 il\u0259 m\u0259\u015f\u011ful
+  olmaq q\u0259rar\u0131n\u0131 sizi m\u00fc\u015fahid\u0259 ed\u0259n h\u0259kim
+  verm\u0259lidir. O, izah etm\u0259lidir ki, siz\u0259 n\u0259 \u00fc\u00e7\u00fcn
+  v\u0259 hans\u0131 m\u00fcdd\u0259t\u0259 (m\u00fc\u0259yy\u0259n \\\"kritik m\u00fcdd\u0259td\u0259\\\"
+  v\u0259 ya hamil\u0259liyin sonuna q\u0259d\u0259r) seks olmaz. \u018fg\u0259r siz\u0259
+  \\\"ya\u015f\u0131l i\u015f\u0131q\\\" verilibs\u0259, y\u0259ni h\u0259kim icaz\u0259si
+  al\u0131n\u0131bsa, onda siz, bunu etm\u0259k q\u0259rar\u0131n\u0131 \u00f6z\u00fcn\u00fcz
+  ver\u0259 bil\u0259rsiniz. Q\u0259rar vers\u0259niz, m\u00fctl\u0259q hissl\u0259riniz\u0259
+  qulaq as\u0131n. \u018fg\u0259r cinsi yax\u0131nl\u0131qdan sonra qarn\u0131n a\u015fa\u011f\u0131s\u0131nda
+  v\u0259 ya beld\u0259 dart\u0131c\u0131 a\u011fr\u0131, qanl\u0131 ifrazat \u0259m\u0259l\u0259
+  g\u0259l\u0259r v\u0259 ya g\u00fccl\u0259n\u0259rs\u0259, cinsi \u0259laq\u0259d\u0259n
+  imtina edib h\u0259kiml\u0259 m\u0259sl\u0259h\u0259tl\u0259\u015fm\u0259k laz\u0131md\u0131r.\\nLakin
+  \u0259g\u0259r sizin hamil\u0259lik \\\"y\u00fcks\u0259k risk\\\" qrupuna daxildirs\u0259,
+  onda n\u0259inki cinsi \u0259laq\u0259d\u0259n, h\u0259tta, cinsi oyanmadan da imtina
+  etm\u0259k laz\u0131md\u0131r.\\nA\u015fa\u011f\u0131dak\u0131 hallarda cinsi \u0259laq\u0259d\u0259n
+  imtina etm\u0259k laz\u0131md\u0131r:\\n- \u00e7oxd\u00f6ll\u00fc hamil\u0259likd\u0259
+  (\u0259kiz, \u00fc\u00e7\u0259m) h\u0259kiml\u0259r qad\u0131n\u0131n sa\u011flaml\u0131\u011f\u0131ndan
+  as\u0131l\u0131 olmayaraq, 20-ci h\u0259ft\u0259d\u0259n ba\u015flayaraq cinsi \u0259laq\u0259d\u0259n
+  imtina etm\u0259yi t\u00f6vsiyy\u0259 edirl\u0259r. Bu onunla \u0259laq\u0259dard\u0131r
+  ki, \u00e7oxd\u00f6ll\u00fc hamil\u0259likd\u0259 h\u0259mi\u015f\u0259 vaxt\u0131ndan
+  qabaq do\u011fu\u015f riski var, seksual oyan\u0131ql\u0131q is\u0259 do\u011fu\u015f
+  f\u0259aliyy\u0259tini stimulyasiya ed\u0259 bil\u0259r;\\n- \u0259g\u0259r u\u015faql\u0131q
+  daima tonusda olarsa. Bu halda, hamil\u0259lik d\u00f6vr\u00fcnd\u0259n as\u0131l\u0131
+  olmayaraq, cinsi akt u\u015faql\u0131\u011f\u0131n y\u0131\u011f\u0131lmas\u0131n\u0131
+  v\u0259 vaxt\u0131ndan qabaq do\u011fu\u015fu stimulyasiya ed\u0259 bil\u0259r;\\n-
+  \u0259g\u0259r USM n\u0259tic\u0259l\u0259rin\u0259 g\u00f6r\u0259 sizd\u0259 cift
+  g\u0259li\u015fi varsa, cinsi \u0259laq\u0259 qanaxmaya s\u0259b\u0259b ola bil\u0259r.
+  Bu halda h\u0259kiml\u0259r cinsi \u0259laq\u0259 zaman\u0131 ehtiyatl\u0131 olma\u011f\u0131
+  m\u0259sl\u0259h\u0259t g\u00f6r\u00fcrl\u0259r;\\n- qanaxma v\u0259 ya qanl\u0131
+  ifrazat olarsa, h\u0259kim\u0259 ged\u0259n\u0259 q\u0259d\u0259r cinsi \u0259laq\u0259d\u0259n
+  imtina etm\u0259k m\u0259sl\u0259h\u0259t g\u00f6r\u00fcl\u00fcr;\\n- \u0259g\u0259r
+  sizd\u0259 \u0259vv\u0259ll\u0259r d\u00fc\u015f\u00fck v\u0259 ya vaxt\u0131ndan
+  qabaq do\u011fu\u015f olmu\u015fsa v\u0259 yaxud haz\u0131rda d\u00fc\u015f\u00fck
+  t\u0259hl\u00fck\u0259si varsa, \u00e7ox t\u0259hl\u00fck\u0259li d\u00f6vrl\u0259rd\u0259
+  seksual m\u00fcnasib\u0259tl\u0259rd\u0259n uzaq olmaq laz\u0131md\u0131r. Bu zaman
+  g\u00f6zl\u0259nil\u0259n menstruasiya g\u00fcnl\u0259ri, y\u0259ni hamil\u0259lik
+  d\u00f6vr\u00fcn\u00fcn h\u0259r d\u00f6rd\u00fcnc\u00fc h\u0259ft\u0259si (4-c\u00fc,
+  8-ci, 12-ci, 16-c\u0131 v\u0259 s.) v\u0259 h\u0259m\u00e7inin \u0259vv\u0259lki
+  d\u00fc\u015f\u00fckl\u0259rin vaxt\u0131 kritik say\u0131l\u0131r.\\n- b\u00fct\u00fcn
+  z\u00f6hr\u0259vi x\u0259st\u0259likl\u0259r vaxt\u0131, h\u0259m\u00e7inin hamil\u0259lik
+  z\u00f6hr\u0259vi x\u0259st\u0259lik m\u00fcalic\u0259 olunan d\u00f6vrd\u0259 ba\u015f
+  verdikd\u0259;\\n- do\u011fu\u015fun ba\u015f ver\u0259 bil\u0259c\u0259k tarixind\u0259n
+  2-3 h\u0259ft\u0259 qabaq h\u0259kiml\u0259rin \u0259ks\u0259riyy\u0259ti cinsi
+  \u0259laq\u0259d\u0259n uzaq olma\u011f\u0131 t\u00f6vsiyy\u0259 edir. Seksual oyanma
+  zaman\u0131 qad\u0131n orqanizmi u\u015faql\u0131\u011f\u0131 y\u0131\u011fd\u0131ran
+  oksitosin hormonu sintez edir. Eyni t\u0259sir\u0259 ki\u015fi toxumunda olan prostaqlandin
+  hormonu malikdir. V\u0259 bel\u0259likl\u0259 cinsi \u0259laq\u0259 do\u011fu\u015fdan
+  bilavasit\u0259 qabaq sanc\u0131 ver\u0259 bil\u0259r. Lakin, \u0259g\u0259r qad\u0131n\u0131n
+  do\u011fu\u015f vaxt\u0131 ke\u00e7irs\u0259, h\u0259kiml\u0259r \u0259ksin\u0259
+  stimulyasiya \u00fc\u00e7\u00fcn seksual n\u0259vazi\u015f m\u0259sl\u0259h\u0259t
+  g\u00f6r\u00fcrl\u0259r.\\nHamil\u0259lik vaxt\u0131 cinsi \u0259laq\u0259nin \u00fcst\u00fcnl\u00fckl\u0259ri\\nHamil\u0259lik
+  vaxt\u0131 intim h\u0259yat\u0131n bir s\u0131ra probleml\u0259rl\u0259 yana\u015f\u0131
+  x\u00fcsusi \u00fcst\u00fcnl\u00fckl\u0259ri d\u0259 var:\\n- siz tam bo\u015fal\u0131b
+  z\u00f6vq ala bil\u0259rsiniz. Seks \u00fc\u00e7\u00fcn \u0259n yax\u015f\u0131
+  d\u00f6vr hamil\u0259liyin ikinci trimestridir: art\u0131q toksikoz ke\u00e7ib,
+  d\u00fc\u015f\u00fck t\u0259hl\u00fck\u0259si yoxdur, \u00f6z yeni v\u0259ziyy\u0259tiniz\u0259
+  uy\u011funla\u015fm\u0131s\u0131n\u0131z, eyni zamanda qarn\u0131n\u0131z \u00e7ox
+  b\u00f6y\u00fck deyil v\u0259 do\u011fu\u015fa h\u0259l\u0259 \u00e7ox var.\\nYadda
+  saxlamaq laz\u0131md\u0131r ki, hamil\u0259l\u0259r YALNIZ prezervativl\u0259 cinsi
+  \u0259laq\u0259d\u0259 ola bil\u0259r! V\u0259 s\u00f6hb\u0259t t\u0259kc\u0259
+  z\u00f6hr\u0259vi x\u0259st\u0259likl\u0259rd\u0259n getmir. Birincisi, cinsi akt,
+  mikrotravmalar ver\u0259r\u0259k, adi kandidozu k\u0259skinl\u0259\u015fdir\u0259
+  bil\u0259r, hans\u0131 ki, hamil\u0259lik d\u00f6vr\u00fcnd\u0259 onsuz da tez-tez
+  k\u0259skinl\u0259\u015fir. \u0130kincisi, \\\"adi\\\" mikroblar, hans\u0131 ki,
+  sperma il\u0259 daxil ola bil\u0259r, z\u00f6hr\u0259vi x\u0259st\u0259lik t\u00f6r\u0259tm\u0259s\u0259
+  bel\u0259, b\u0259z\u0259n iltihabi proses, m\u0259s\u0259l\u0259n sistit ver\u0259
+  bil\u0259r. Cinsi \u0259laq\u0259d\u0259 mikroblar bilavasit\u0259 u\u015faql\u0131q
+  boynuna d\u00fc\u015f\u00fcb d\u00f6l\u00fcn b\u0259tndaxili infeksiyala\u015fma
+  riskini art\u0131r\u0131r. Ona g\u00f6r\u0259 hamil\u0259lik vaxt\u0131 infeksiyalardan
+  \u00e7ox diqq\u0259tl\u0259 qorunmaq laz\u0131md\u0131r; - hamil\u0259liyin ilk
+  h\u0259ft\u0259l\u0259rind\u0259n u\u015faql\u0131\u011f\u0131n v\u0259 u\u015faql\u0131q
+  yolunun qan d\u00f6vran\u0131 k\u0259skin art\u0131r. B\u0259zi qad\u0131nlarda
+  orqazm\u0131n olmamas\u0131 (anorqazmiya) oyanma zaman\u0131 cinsiyy\u0259t orqanlar\u0131na
+  qan\u0131\u0131n laz\u0131mi miqdarda g\u0259lm\u0259m\u0259sil\u0259 \u0259laq\u0259dard\u0131r.
+  Bel\u0259likl\u0259, damar sistemind\u0259 ba\u015f ver\u0259n d\u0259yi\u015fiklikl\u0259r
+  v\u0259 u\u015faql\u0131\u011f\u0131n intensiv qan d\u00f6vran\u0131 qad\u0131nlara
+  orqazm ke\u00e7irm\u0259y\u0259 imkan verir. El\u0259c\u0259 d\u0259 cinsi aktdan
+  d\u0259rhal sonra, art\u0131q qan\u0131n getm\u0259si bir q\u0259d\u0259r gecikir
+  v\u0259 bununla seksual g\u0259rginliyin azalmas\u0131n\u0131 l\u0259ngidir. Y\u0259ni
+  hamil\u0259l\u0259rd\u0259 orqazm n\u0259inki tez-tez olur, h\u0259m d\u0259 uzun
+  m\u00fcdd\u0259t \u00e7\u0259kir.\\n\u018fg\u0259r h\u0259r hans\u0131sa s\u0259b\u0259bd\u0259n
+  cinsi \u0259laq\u0259 il\u0259 m\u0259\u015f\u011ful olmaq ist\u0259mirsinizs\u0259,
+  \u00f6z\u00fcn\u00fcz\u00fc buna h\u0259tta \u0259riniz \u00fc\u00e7\u00fcn d\u0259
+  m\u0259cbur etm\u0259yin. Sa\u011flam v\u0259 sakit u\u015faq do\u011fmaq \u00fc\u00e7\u00fcn
+  yaln\u0131z m\u00fcsb\u0259t emosiyalar laz\u0131md\u0131r. Doqquz aydan sonra h\u0259r
+  \u015fey art\u0131q \u00f6z yerin\u0259 qay\u0131dacaq.\\nEyni zamanda h\u0259yat
+  yolda\u015f\u0131n\u0131z\u0131 cinsi h\u0259yatdan tam m\u0259hrum etm\u0259yin.
+  Kompromis tapmaq h\u0259mi\u015f\u0259 m\u00fcmk\u00fcnd\u00fcr.\\nHamil\u0259lik
+  \u2014 ail\u0259 h\u0259yat\u0131nda x\u00fcsusi bir d\u00f6vrd\u00fc. M\u0259hz
+  indi, g\u0259l\u0259c\u0259k valideynl\u0259r bir-birin\u0259 qar\u015f\u0131 m\u0259n\u0259vi
+  yax\u0131nl\u0131q v\u0259 dayaq hiss etm\u0259lidirl\u0259r. V\u0259 tez-tez adi
+  s\u00f6hb\u0259t, inc\u0259 n\u0259vazi\u015f v\u0259 \u00f6p\u00fc\u015f daha \u00e7ox
+  h\u0259zz verir, n\u0259inki \u0259n\u0259n\u0259vi cinsi \u0259laq\u0259. \u00d6z
+  h\u0259y\u0259canlar\u0131n\u0131z bar\u0259d\u0259 yolda\u015f\u0131n\u0131za dan\u0131\u015f\u0131n,
+  bir yerd\u0259 u\u015faqla dan\u0131\u015f\u0131n v\u0259 arzular qurun. \u018fg\u0259r
+  siz bu doqquz ay\u0131 bir yerd\u0259 u\u011furla ya\u015faya bils\u0259niz, onda
+  sizin m\u0259n\u0259vi yax\u0131nl\u0131\u011f\u0131n\u0131z daha da artacaq, ail\u0259niz
+  is\u0259 m\u00f6hk\u0259m olacaq.\"", "\"M\u00fc\u0259llif: \u0130lah\u0259 M\u018fMM\u018fDL\u0130
+  Bak\u0131\\nQiym\u0259tli ka\u011f\u0131zlar bazar\u0131 bu yax\u0131nlarad\u0259k
+  Az\u0259rbaycan maliyy\u0259 sektorunun \u0259n z\u0259if halqas\u0131 hesab olunurdu.
+  D\u00fczd\u00fcr, o h\u0259m d\u0259 \u0259n g\u0259nc seqment idi. Lakin son d\u0259r\u0259c\u0259
+  z\u0259if inki\u015fafda idi v\u0259 \u00f6z\u00fcn\u0259 el\u0259 x\u00fcsusi maraq
+  c\u0259lb etmirdi. H\u0259r\u00e7\u0259nd son bir ne\u00e7\u0259 ild\u0259 qiym\u0259tli
+  ka\u011f\u0131zlar bazar\u0131n\u0131n keyfiyy\u0259tli d\u0259yi\u015fikliyi daha
+  intensiv \u015f\u0259kild\u0259 ba\u015f verm\u0259y\u0259 ba\u015flad\u0131. Bu
+  da t\u0259bii \u015f\u0259kild\u0259 keyfiyy\u0259t g\u00f6st\u0259ricil\u0259rinin
+  y\u00fcks\u0259lm\u0259sin\u0259 t\u0259sir g\u00f6st\u0259rib. Bununla bel\u0259,
+  Qiym\u0259tli Ka\u011f\u0131zlar \u00fczr\u0259 D\u00f6vl\u0259t Komit\u0259sinin
+  (QKDK) s\u0259dri R\u00fcf\u0259t Aslanl\u0131n\u0131n fikrinc\u0259, yax\u0131n
+  g\u0259l\u0259c\u0259k \u00fc\u00e7\u00fcn qar\u015f\u0131ya son d\u0259r\u0259c\u0259
+  ambisiyal\u0131 m\u0259qs\u0259dl\u0259r qoyulub. Onlar\u0131n h\u0259yata ke\u00e7irilm\u0259si
+  \u00f6lk\u0259nin maliyy\u0259 bazar\u0131n\u0131n g\u0259lirl\u0259rinin formala\u015fmas\u0131nda
+  bu seqmentin pay\u0131na \u0259h\u0259miyy\u0259tli \u015f\u0259kild\u0259 t\u0259sir
+  ed\u0259 bil\u0259r.\\nKapital bazar\u0131 \u00e7a\u011f\u0131r\u0131\u015flara
+  qar\u015f\u0131\\n2014-c\u00fc il\u0259d\u0259k BVF-nin, depozit m\u0259rk\u0259zi
+  v\u0259 dig\u0259r \u0259sas maliyy\u0259 vasit\u0259\u00e7il\u0259rinin g\u0259lirl\u0259rinin
+  \u00fc\u00e7d\u0259ikisin\u0259 q\u0259d\u0259ri d\u00f6vl\u0259t al\u0259tl\u0259ri
+  hesab\u0131na formala\u015f\u0131b. Daha do\u011frusu, d\u00f6vl\u0259t bilavasit\u0259
+  bu institutlar\u0131n inki\u015faf\u0131na d\u0259st\u0259k verirdi. \u018fsas\u0259n,
+  g\u0259lirl\u0259r d\u00f6vl\u0259t qiym\u0259tli ka\u011f\u0131zlarla \u0259m\u0259liyyatlar,
+  o c\u00fcml\u0259d\u0259n Az\u0259rbaycan M\u0259rk\u0259zi Bank\u0131n\u0131n notlar\u0131
+  il\u0259 repo v\u0259 \u0259ks repo \u0259m\u0259liyyatlar hesab\u0131na y\u0131\u011f\u0131l\u0131b.
+  2014-c\u00fc ild\u0259n ba\u015flayaraq \u00f6z\u0259l korporativ sektorun \u0259m\u0259liyyatlar\u0131
+  dominantl\u0131q etm\u0259y\u0259 ba\u015flad\u0131 v\u0259 qiym\u0259tli ka\u011f\u0131zlar
+  bazar\u0131nda \u0259m\u0259liyyatlar\u0131n \u00fc\u00e7d\u0259ikisin\u0259 \u00e7atd\u0131.
+  \\\"Bu, ona g\u0259tirib \u00e7\u0131xar\u0131r ki, kapital bazarlar\u0131 \u00f6z\u0259l
+  sahibkarl\u0131\u011f\u0131n v\u0259 bazar iqtisadiyyat\u0131n\u0131n elementi kimi
+  bu institutlar\u0131n maliyy\u0259 dayan\u0131ql\u0131\u011f\u0131n\u0131 v\u0259
+  sabit f\u0259aliyy\u0259t g\u00f6st\u0259rm\u0259sini t\u0259min ed\u0259n d\u0259y\u0259rl\u0259ri
+  yenid\u0259n hasil etm\u0259y\u0259 ba\u015flad\u0131lar\\\", - dey\u0259 QKDK-n\u0131n
+  s\u0259dri R\u00fcf\u0259t Aslanl\u0131 bildirib.\\nOnun fikrinc\u0259, \u00f6t\u0259n
+  ilin iyul ay\u0131nda derivativ maliyy\u0259 al\u0259tl\u0259ri \u00fczr\u0259 ticar\u0259t
+  platformas\u0131n\u0131n f\u0259aliyy\u0259t\u0259 ba\u015flamas\u0131 da bazar\u0131n
+  inki\u015faf\u0131na g\u00fccl\u00fc t\u0259sir g\u00f6st\u0259rdi (m\u00fcqavil\u0259l\u0259r
+  - opsion v\u0259 fyu\u00e7ersl\u0259rin maliyy\u0259 aktivini t\u0259min ed\u0259n
+  d\u0259y\u0259rin t\u00f6r\u0259m\u0259 qiym\u0259ti). N\u0259tic\u0259d\u0259 mal-xammal
+  derivativl\u0259r v\u0259 xarici valyutada derivativl\u0259r \u00fczr\u0259 \u0259m\u0259liyyatlar\u0131n
+  h\u0259cmi 4,3 mlrd. manata \u00e7at\u0131b ki, bu da qiym\u0259tli ka\u011f\u0131zlar
+  bazar\u0131nda \u0259qdl\u0259rin \u00fcmumi h\u0259cminin \u00fc\u00e7d\u0259birini
+  t\u0259\u015fkil edir. \\\"Bundan ba\u015fqa, \u00f6t\u0259n il n\u0259hay\u0259t
+  ki, t\u0259krar bazarda likvidliyin t\u0259minat\u0131 v\u0259 birja ticar\u0259tind\u0259
+  r\u0259qab\u0259tli qiym\u0259t m\u00fc\u0259yy\u0259nl\u0259\u015fdirm\u0259 mexanizml\u0259rini
+  i\u015f\u0259 sala bildik. Bu, o dem\u0259kdir ki, \u00f6t\u0259n il \u0259rzind\u0259
+  iri oyun\u00e7ular, iri maliyy\u0259 \u015firk\u0259tl\u0259ri bazar qiym\u0259tl\u0259ri
+  \u00fczr\u0259 konkret bazar ka\u011f\u0131zlar\u0131n\u0131 almaq v\u0259 satmaq
+  \u00f6hd\u0259likl\u0259rini \u00fcz\u0259rl\u0259rin\u0259 g\u00f6t\u00fcr\u0259rk\u0259n
+  biz marketmeykerlik institutunu yaratd\u0131q\\\", - dey\u0259 R. Aslanl\u0131 bildirib.\\nAmbisiyal\u0131
+  planlar\\nStrateji planlara g\u0259linc\u0259 is\u0259 bunlara \u0259lb\u0259tt\u0259
+  ki, investorlara m\u00fcv\u0259qq\u0259ti ticar\u0259t limiti hesab\u0131na brokerd\u0259n
+  x\u00fcsusi \u015f\u0259rtl\u0259rl\u0259 \u0259ld\u0259 edilmi\u015f qiym\u0259tli
+  ka\u011f\u0131zlar v\u0259 maliyy\u0259 al\u0259tl\u0259rini almaq v\u0259 satma\u011fa
+  imkan ver\u0259n marjinal ticar\u0259tin geni\u015fl\u0259ndirilm\u0259si daxildir.
+  D\u00f6vl\u0259t komit\u0259si s\u0259drinin qeyd etdiyi kimi, 2015-ci ild\u0259
+  BFB ehtimal ki, aksiyalarla marjinal ticar\u0259t\u0259 ke\u00e7\u0259c\u0259k.
+  \\\"Ola bilsin ki, \u0259sas maliyy\u0259 al\u0259tl\u0259ri qismind\u0259 art\u0131q
+  \u00f6lk\u0259 bazar\u0131nda sat\u0131lan s\u0259hml\u0259r \u00e7\u0131x\u0131\u015f
+  etsinl\u0259r. M\u0259hz bu s\u0259b\u0259b\u0259 g\u00f6r\u0259 birja qiym\u0259tli
+  ka\u011f\u0131zlar olan derivativ, baza aktivl\u0259ri il\u0259 bir q\u0259d\u0259r
+  l\u0259ngidi. Amma bu il q\u0259bul edil\u0259c\u0259k q\u0259rar, maliyy\u0259
+  vasit\u0259\u00e7il\u0259rin\u0259 d\u0259 qiym\u0259tli ka\u011f\u0131zlar bazar\u0131nda
+  marjinal ticar\u0259ti t\u0259min etm\u0259y\u0259 imkan ver\u0259c\u0259k. Amma
+  bu, qiym\u0259tli ka\u011f\u0131zlar bazar\u0131 haqda ancaq yeni qanunun q\u0259bulundan
+  sonra ba\u015f tutacaq\\\", - dey\u0259 R. Aslanl\u0131 bildirib. S\u0259hml\u0259r\u0259
+  g\u0259ldikd\u0259 is\u0259 ehtimal ki, Az\u0259rbaycanda uzunm\u00fcdd\u0259t g\u00fc\u00e7l\u0259nil\u0259n
+  deb\u00fct IPO-nun (qiym\u0259tli ka\u011f\u0131zlar\u0131n ictimai yerl\u0259\u015fdirilm\u0259si)
+  h\u0259yata ke\u00e7irilm\u0259si d\u0259 bu il ba\u015f ver\u0259c\u0259k. Bununla
+  b\u0259rab\u0259r, bir s\u0131ra \u015firk\u0259tl\u0259rin bu deb\u00fctd\u0259
+  birinci olmalar\u0131 da arzu olaraq qalacaq. Bunun \u00fc\u00e7\u00fcn auditor
+  \u015firk\u0259tl\u0259rinin b\u00f6y\u00fck d\u00f6rdl\u00fcy\u00fcn\u00fcn ke\u00e7irdiyi
+  sad\u0259 \u00fc\u00e7illik auditoriya hesabat\u0131na malik olmaq kifay\u0259t
+  deyil. \u015eirk\u0259tin a\u00e7\u0131q bazara \u00e7\u0131xd\u0131qdan sonra qar\u015f\u0131s\u0131na
+  hans\u0131 korporativ m\u0259qs\u0259dl\u0259r v\u0259 v\u0259zif\u0259l\u0259r
+  qoymas\u0131n\u0131 t\u0259s\u0259vv\u00fcr etm\u0259si vacibdir.\\nY\u0259ni \u015firk\u0259t
+  r\u0259hb\u0259rl\u0259rinin strateji v\u0259zif\u0259l\u0259r\u0259 dair \u0259n
+  az\u0131 \u00fc\u00e7illik \\\"m\u0259nz\u0259r\u0259si\\\" olmal\u0131d\u0131r.
+  \\\"Dem\u0259k ist\u0259mir\u0259m ki, IPO kimi bu c\u00fcr strateji q\u0259rar
+  q\u0259bul etmi\u015f \u015firk\u0259t n\u0259 ist\u0259diyini t\u0259s\u0259vv\u00fcr
+  etmir. M\u0259s\u0259l\u0259 buras\u0131ndad\u0131r ki, \u015firk\u0259tl\u0259r
+  bir s\u0131ra taktiki tap\u015f\u0131r\u0131qlar, habel\u0259 d\u0259qiq korporativ
+  strukturlar v\u0259 idar\u0259etm\u0259nin yarad\u0131lmas\u0131, bazara korporativ
+  v\u0259zif\u0259l\u0259r, maliyy\u0259 g\u00f6zl\u0259ntil\u0259rinin t\u0259qdim
+  edilm\u0259sini d\u0259 h\u0259ll etm\u0259lidirl\u0259r. Bu v\u0259zif\u0259l\u0259r
+  ayd\u0131nd\u0131r v\u0259 \u0259n \u0259sas\u0131, potensial s\u0259rmay\u0259darlar\u0131n
+  m\u00fch\u00fcm q\u0259rar q\u0259bul etm\u0259si \u00fc\u00e7\u00fcn \u0259sasl\u0131
+  \u015f\u0259kild\u0259 ona \u00e7atd\u0131rmaq z\u0259ruridir\\\", - dey\u0259 R.
+  Aslanl\u0131 hesab edir.\\nB\u00fct\u00fcn bunlar \u00fc\u00e7\u00fcn m\u00fc\u0259yy\u0259n
+  zaman t\u0259l\u0259b olunur. \\\"B\u0259zi \u015firk\u0259tl\u0259r konkret vaxt
+  qoyublar. Lakin biz ist\u0259mirik ki, ilk IPO hans\u0131 is\u0259 adekvat olmayan
+  n\u0259tic\u0259l\u0259r\u0259 g\u0259tirib \u00e7\u0131xars\u0131n\\\", - dey\u0259
+  QKDK-n\u0131n r\u0259hb\u0259ri bildirib. - Biz ilk IPO-ya son d\u0259r\u0259c\u0259
+  t\u0259mkinli yana\u015f\u0131r\u0131q, he\u00e7 bir romantizmimiz yoxdur. IPO -
+  art\u0131q bir ne\u00e7\u0259 milli \u015firk\u0259tin q\u0259bul etdiyi son d\u0259r\u0259c\u0259
+  ciddi strateji q\u0259rard\u0131r. Bu c\u00fcr v\u0259zif\u0259 v\u0259 q\u0259rarlar\u0131n
+  realla\u015fd\u0131r\u0131lmas\u0131 a\u011f\u0131r z\u0259hm\u0259t t\u0259l\u0259b
+  edir\\\".\\nQeyd ed\u0259k ki, IPO-nun stimulla\u015fd\u0131r\u0131lmas\u0131 \u00fc\u00e7\u00fcn
+  QKDK m\u00fc\u0259yy\u0259n m\u00fcdd\u0259t\u0259 \u0259sas\u0259n vergi t\u0259till\u0259rinin
+  t\u0259tbiqi \u00fczr\u0259 t\u0259klifl\u0259r paketi haz\u0131rlay\u0131b.\\nVergi
+  stimulla\u015fd\u0131r\u0131lmas\u0131\\nYeri g\u0259lmi\u015fk\u0259n, qiym\u0259tli
+  ka\u011f\u0131zlar sah\u0259sinin vergitutma m\u0259s\u0259l\u0259sin\u0259 g\u0259linc\u0259,
+  dem\u0259k laz\u0131md\u0131r ki, d\u00fcnya t\u0259cr\u00fcb\u0259sind\u0259 bu
+  bazarda \u0259m\u0259liyyatlar \u00fc\u00e7\u00fcn vergi rejimi maliyy\u0259 bazar\u0131n\u0131n,
+  h\u0259tta dig\u0259r seqmentl\u0259rin\u0259 m\u00fcnasib\u0259td\u0259, y\u0259ni
+  banklar v\u0259 s\u0131\u011forta \u015firk\u0259tl\u0259rind\u0259n vergitutma
+  s\u0259ciyy\u0259vidir. Bu m\u0259s\u0259l\u0259nin \u00f6yr\u0259nilm\u0259sin\u0259
+  az\u0259rbaycanl\u0131 m\u00fct\u0259x\u0259ssisl\u0259r iki il vaxt s\u0259rf etm\u0259li
+  olublar. V\u0259 \u00f6t\u0259n il QKDK Vergil\u0259r Nazirliyi il\u0259 birg\u0259
+  qiym\u0259tli ka\u011f\u0131zlar bazar\u0131n\u0131n \u0259m\u0259liyyatlar\u0131
+  v\u0259 al\u0259tl\u0259ri \u00fc\u00e7\u00fcn vergi rejimi haz\u0131rlay\u0131blar.
+  Onun m\u00fczakir\u0259si g\u0259l\u0259n il \u00fc\u00e7\u00fcn b\u00fcdc\u0259
+  prosesi \u00e7\u0259r\u00e7iv\u0259sind\u0259 ba\u015flaya bil\u0259r. Bununla yana\u015f\u0131,
+  istiqraz \u0259m\u0259liyyatlar\u0131n\u0131n vergitutma rejiminin t\u0259kmill\u0259\u015fdirilm\u0259si
+  t\u0259klif edilir. \u0130stiqrazlar iki n\u00f6v g\u0259lir g\u0259tirir - y\u0131\u011f\u0131lm\u0131\u015f
+  faizl\u0259r, al\u0131\u015f v\u0259 sat\u0131\u015f aras\u0131ndak\u0131 qiym\u0259t
+  f\u0259rqind\u0259n g\u0259l\u0259n g\u0259lirl\u0259r. \u0130stiqrazlar \u00fczr\u0259
+  faiz g\u0259liri 10%, dig\u0259r g\u0259lirl\u0259r is\u0259 20% t\u0259\u015fkil
+  edir. Qiym\u0259tli ka\u011f\u0131zlar, habel\u0259 dervivativl\u0259rl\u0259 \u0259m\u0259liyyatlar
+  zaman\u0131 bir ne\u00e7\u0259 s\u0259ciyy\u0259vi m\u0259qam m\u00f6vcuddur. Ona
+  g\u00f6r\u0259 borc al\u0259tl\u0259ri il\u0259 \u0259m\u0259liyyatlardan vergi
+  tutulmas\u0131n\u0131n t\u0259kmill\u0259\u015fdirilm\u0259si v\u0259 d\u0259qiql\u0259\u015fdirilm\u0259si
+  t\u0259klif olunur.\\nH\u0259m\u00e7inin qiym\u0259tli ka\u011f\u0131zlar\u0131n
+  qorunmas\u0131 xidm\u0259tinin maliyy\u0259 xidm\u0259tl\u0259rinin bazas\u0131na
+  daxil edilm\u0259si v\u0259 qiym\u0259tli ka\u011f\u0131zlar\u0131 \u018fDV-d\u0259n
+  (\u00f6lk\u0259d\u0259 bu vergi d\u0259r\u0259c\u0259si 18% t\u0259\u015fkil edir)
+  azad etm\u0259k d\u0259 t\u0259klifl\u0259r s\u0131ras\u0131ndad\u0131r.\\n\u0130nvestisiya
+  fondlar\u0131 \u00fc\u00e7\u00fcn d\u0259 x\u00fcsusi vergi rejmi haz\u0131rlanacaq.
+  Bel\u0259 ki, R. Aslanl\u0131n\u0131n qeyd etdiyi kimi, Az\u0259rbaycanda investisiya
+  fondlar\u0131n\u0131n f\u0259aliyy\u0259tinin h\u00fcquqi \u0259sas\u0131 2010-cu
+  ild\u0259n m\u00f6vcuddur v\u0259 onlar\u0131n vergitutma sistemi m\u00fc\u0259yy\u0259n
+  x\u00fcsusiyy\u0259tl\u0259r\u0259 malikdirl\u0259r. Bel\u0259likl\u0259, qanunvericiliy\u0259
+  uy\u011fun olaraq investisiya fondu idar\u0259edici \u015firk\u0259t t\u0259r\u0259find\u0259n
+  n\u0259zar\u0259td\u0259 saxlan\u0131l\u0131r. Haz\u0131rda d\u00f6vl\u0259t komit\u0259si
+  \u00fc\u00e7 \u015firk\u0259t\u0259 (Invest az asset management, Az finance asset
+  management i Trust asset management) aktivl\u0259rin idar\u0259 edilm\u0259si \u00fczr\u0259
+  lisenziya verib. \u0130ndi onlar yarad\u0131lan fondlar\u0131n i\u015fl\u0259m\u0259si
+  \u00fc\u00e7\u00fcn qaydalar\u0131n haz\u0131rlanmas\u0131 il\u0259 m\u0259\u015f\u011fuldurlar.
+  Bundan sonra fondlar\u0131n \u00f6zl\u0259rinin liseziyala\u015fd\u0131r\u0131lmas\u0131
+  \u00fc\u00e7\u00fcn QKDK-ya m\u00fcraci\u0259t ed\u0259 bil\u0259rl\u0259r. Komit\u0259
+  r\u0259hb\u0259ri hesab edir ki, h\u0259min vaxta q\u0259d\u0259r qiym\u0259tli
+  ka\u011f\u0131zlar bazar\u0131nda \u0259m\u0259liyyatlardan vergi tutulmas\u0131n\u0131n
+  spesifik rejminin q\u0259bul edilm\u0259 prosesi intensivl\u0259\u015fdiril\u0259c\u0259k.\\nNeft
+  birjas\u0131 olacaqm\u0131?\\nG\u00fcnd\u0259likd\u0259 duran dig\u0259r maraql\u0131
+  m\u0259s\u0259l\u0259l\u0259rl\u0259 yana\u015f\u0131, Az\u0259rbaycanda neft v\u0259
+  neft m\u0259hsullar\u0131n\u0131n birja meydan\u00e7as\u0131 \u00fcz\u0259rind\u0259n
+  sat\u0131\u015f\u0131n\u0131n t\u0259\u015fkil olunmas\u0131 imkanlar\u0131d\u0131r.
+  \\\"D\u00f6vl\u0259t Komit\u0259sind\u0259 \u0259mt\u0259\u0259l\u0259rl\u0259 marjinal
+  ticar\u0259t\u0259 ke\u00e7id \u00fczr\u0259 m\u00fczakir\u0259l\u0259r \u00e7\u0259r\u00e7iv\u0259sind\u0259
+  n\u0259d\u0259n ba\u015flamaq haqda diskussiyalar apar\u0131ld\u0131: neftd\u0259n,
+  (bel\u0259 ki, Az\u0259rbaycan onun sat\u0131\u015f\u0131n\u0131 h\u0259yata ke\u00e7irir)
+  v\u0259 ya qiym\u0259tli metallardan. Bizim m\u00f6vqeyimiz d\u0259qiq idi: neftin
+  qiym\u0259ti olduqca d\u0259yi\u015fk\u0259ndir, ona g\u00f6r\u0259 d\u0259 biz
+  qiym\u0259tli metallardan ba\u015flama\u011f\u0131 \u00fcst\u00fcn tutduq\\\", -
+  dey\u0259 R. Aslanl\u0131 bildirib. Lakin bunun s\u0259b\u0259bi \u00f6t\u0259n
+  ilin yay\u0131ndan ba\u015flanan d\u00fcnya bazarlar\u0131nda neftin qiym\u0259tinin
+  d\u00fc\u015fm\u0259si olmad\u0131. D\u00f6vl\u0259t komit\u0259sinin r\u0259hb\u0259ri
+  hesab edir ki, bu al\u0259tin marjinal ticar\u0259t\u0259 \u00e7\u0131x\u0131\u015f\u0131nda
+  neftin qiym\u0259ti m\u00fc\u0259yy\u0259nedici amil deyil. Burada s\u00f6hb\u0259t
+  prosessl\u0259rin proqnozla\u015fd\u0131r\u0131la bilm\u0259sind\u0259n deyil, m\u0259ntiql\u0259
+  anla\u015f\u0131ld\u0131\u011f\u0131 v\u0259 iqtisadi qanunlarla izah edildiyi zaman
+  qlobal iqtisadiyyat v\u0259 ya bazar\u0131n konkret seqmentinin h\u0259min v\u0259ziyy\u0259tind\u0259n
+  gedir.\\n\u0130st\u0259r oyun\u00e7ular\u0131n, ist\u0259rs\u0259 d\u0259 m\u00fc\u0259yy\u0259n
+  sektorda qiym\u0259tin m\u00fc\u0259yy\u0259n olunmas\u0131nda sona q\u0259d\u0259r
+  \u00f6yr\u0259nilm\u0259mi\u015f m\u00fc\u0259yy\u0259n \u0259lam\u0259tl\u0259r
+  m\u00f6vcud olduqda, n\u0259inki g\u00f6zl\u0259m\u0259k, onlar\u0131 daha d\u0259rind\u0259n
+  t\u0259dqiq etm\u0259k v\u0259 ancaq bundan sonra q\u0259rar q\u0259bul etm\u0259k
+  laz\u0131md\u0131r. Bel\u0259likl\u0259, 2014-c\u00fc ilin yay\u0131nda ilk d\u0259f\u0259
+  olaraq marjinal ticar\u0259t fond birjas\u0131 vasit\u0259sil\u0259 konvertasiya
+  edil\u0259n valyutalardan ba\u015flad\u0131. \u00c7\u00fcnki valyuta c\u00fctl\u00fckl\u0259rinin
+  ticar\u0259ti m\u00fc\u0259yy\u0259n tarix\u0259 malikdir v\u0259 spekulyantlar
+  \u00fc\u00e7\u00fcn daha anla\u015f\u0131land\u0131r. Qeyd ed\u0259k ki, spekulyantlar
+  - m\u0259nfi m\u0259na k\u0259sb etmir, h\u0259r\u00e7\u0259nd b\u0259zi insanlar\u0131n
+  sosialist iqtisadiyyat d\u00f6vr\u00fcnd\u0259n yadda\u015flar\u0131nda qal\u0131b
+  ki, spekulyasiya n\u0259 is\u0259 yax\u015f\u0131 olmayan \u015feydir. Kapital bazar\u0131nda
+  h\u0259r zaman investorlar v\u0259 spekulyantlar i\u015ftirak edirl\u0259r. \u0130nvestorlar
+  - daha u\u00e7un m\u00fcdd\u0259t\u0259 v\u0259sait yat\u0131ran v\u0259 daha uzunm\u00fcdd\u0259tli
+  g\u0259lirl\u0259r g\u00f6zl\u0259y\u0259n i\u015ftirak\u00e7\u0131lard\u0131rlar.
+  Spekulyantlar is\u0259 q\u0131sa m\u00fcdd\u0259td\u0259 ticar\u0259t apar\u0131rlar.
+  Onlar bazara m\u00fc\u0259yy\u0259n t\u0259kan verirl\u0259r v\u0259 qiym\u0259t
+  m\u00fc\u0259yy\u0259nl\u0259\u015fdirilm\u0259sini, o c\u00fcml\u0259d\u0259n onun
+  likvidliyini d\u0259st\u0259kl\u0259yirl\u0259r. Lakin dig\u0259r t\u0259r\u0259fd\u0259n,
+  spekulyantlar\u0131n davran\u0131\u015f\u0131 b\u0259z\u0259n he\u00e7 d\u0259 yax\u015f\u0131
+  olmayan n\u0259tic\u0259l\u0259r\u0259 g\u0259tirib \u00e7\u0131xar\u0131r. Buna
+  g\u00f6r\u0259 d\u0259 nizamlay\u0131c\u0131lar m\u00f6vcuddur. \\\"Valyuta c\u00fctl\u00fckl\u0259ri
+  bazas\u0131nda marjinal ticar\u0259t\u0259 g\u0259linc\u0259 is\u0259 qeyd etm\u0259k
+  laz\u0131md\u0131r ki, tarix\u0259n valyuta m\u00fcst\u0259qilliyimizin ilk g\u00fcnl\u0259rind\u0259n
+  iqtisadiyyat\u0131m\u0131zda \u0259n \u00e7ox al\u0131n\u0131b-sat\u0131lan \u0259mt\u0259\u0259
+  olub. M\u0259hz buna g\u00f6r\u0259 d\u0259 start valyuta marjinal ticar\u0259td\u0259n
+  ba\u015flad\u0131. \u00c7\u00fcnki insanlar bunun nec\u0259 i\u015fl\u0259diyini
+  anlay\u0131rd\u0131lar\\\", - dey\u0259 R. Aslanl\u0131 qeyd edib.\\n\u00d6t\u0259n
+  ilin oktyabr-noyabr aylar\u0131nda birja platformas\u0131nda q\u0131z\u0131l v\u0259
+  g\u00fcm\u00fc\u015f\u00fcn alq\u0131-satq\u0131s\u0131 ba\u015flad\u0131. Ke\u00e7\u0259n
+  il Bak\u0131 Fond Birjas\u0131nda marjinal ticar\u0259tin \u00fcmumi h\u0259cmi
+  4,3 mlrd. manat t\u0259\u015fkil edirdis\u0259, onun 4 milyard\u0131 valyuta al\u0259tl\u0259rinin,
+  300 milyon manat\u0131 is\u0259 qiym\u0259tli metallar\u0131n ticar\u0259tinin pay\u0131na
+  d\u00fc\u015f\u00fcb.\\nBel\u0259c\u0259, iqtisadiyyat\u0131n diversifikas\u0131na
+  artan diqq\u0259tin, habel\u0259 Az\u0259rbaycanda qeyri-neft sektorunun inki\u015faf\u0131na
+  g\u00f6r\u0259 kapital\u0131n c\u0259lb edilm\u0259si il\u0259 alternativ m\u0259nb\u0259l\u0259rin
+  \u0259h\u0259miyy\u0259ti daha da artacaq. Ola bilsin, bu, qiym\u0259tli ka\u011f\u0131zlar
+  bazar\u0131 vasit\u0259sil\u0259 d\u0259 ba\u015f tutsun. Bu bazarda keyfiyy\u0259t
+  art\u0131m\u0131 is\u0259 onu yerli investorlar \u00fc\u00e7\u00fcn daha da c\u0259lbedici
+  ed\u0259c\u0259k.\"", "\"Bu g\u00fcn s\u00fcr\u0259tl\u0259 inki\u015faf ed\u0259n
+  Az\u0259rbaycan\u0131n beyn\u0259lxalq al\u0259md\u0259 \u00f6z n\u00fcfuzunu m\u00f6hk\u0259ml\u0259ndirm\u0259si
+  \u00fcmummilli lider Heyd\u0259r \u018fliyevin d\u00f6vl\u0259t idar\u0259etm\u0259
+  sistemind\u0259 h\u0259yata ke\u00e7irdiyi islahatlardan ba\u015flay\u0131b. Prezident
+  \u0130lham \u018fliyevin bu islahatlar\u0131 q\u0259tiyy\u0259tl\u0259 davam etdirm\u0259si
+  say\u0259sind\u0259 \u00f6lk\u0259mizin q\u00fcdr\u0259ti g\u00fcnd\u0259n-g\u00fcn\u0259
+  artmaqdad\u0131r. Bu g\u00fcn tam \u0259minlikl\u0259 dem\u0259k olar ki, respublikam\u0131zda
+  m\u00fcasir t\u0259l\u0259bl\u0259r\u0259 cavab ver\u0259n d\u00f6vl\u0259t idar\u0259etm\u0259
+  sistemi qurulub, hakimiyy\u0259tin b\u00fct\u00fcn qollar\u0131n\u0131n funksiyalar\u0131
+  d\u0259qiq m\u00fc\u0259yy\u0259nl\u0259\u015fdirilib, v\u0259t\u0259nda\u015flar\u0131n
+  h\u00fcquq v\u0259 azadl\u0131qlar\u0131n\u0131n qorunmas\u0131 v\u0259 h\u0259yata
+  ke\u00e7irilm\u0259si \u00fc\u00e7\u00fcn z\u0259ruri t\u0259sisatlar yarad\u0131l\u0131b.\\nM\u00fcst\u0259qillik
+  ill\u0259rind\u0259 Az\u0259rbaycanda h\u00fcquqi d\u00f6vl\u0259tin qurulmas\u0131,
+  idar\u0259etm\u0259 sisteminin t\u0259kmill\u0259\u015fdirilm\u0259si, \u00f6lk\u0259nin
+  daha yax\u015f\u0131 idar\u0259 olunmas\u0131 \u00fc\u00e7\u00fcn z\u0259ruri t\u0259dbirl\u0259r
+  g\u00f6r\u00fcl\u00fcb, bir \u00e7ox strukturlar l\u0259\u011fv edilib v\u0259 yeni
+  idar\u0259etm\u0259 orqanlar\u0131n\u0131n yarad\u0131lmas\u0131 prosesi davam etdirilir.
+  Bu orqanlar\u0131n d\u00f6vl\u0259t quruculu\u011funda v\u0259 \u00f6lk\u0259nin
+  idar\u0259 olunmas\u0131nda rolunu art\u0131rmaq v\u0259 i\u015fini s\u0259m\u0259r\u0259li
+  t\u0259\u015fkil etm\u0259k \u00fc\u00e7\u00fcn vaxta\u015f\u0131r\u0131 onlar\u0131n
+  \u0259sasnam\u0259 v\u0259 nizamnam\u0259l\u0259rind\u0259, el\u0259c\u0259 d\u0259
+  strukturlar\u0131nda m\u00fcvafiq d\u0259yi\u015fiklikl\u0259r edilir, v\u0259zif\u0259l\u0259ri
+  v\u0259 funksiyalar\u0131 d\u0259qiql\u0259\u015fdirilir.\\nAz\u0259rbaycanda d\u00f6vl\u0259t
+  qullu\u011fu sah\u0259sind\u0259 apar\u0131lan islahatlar\u0131n \u0259n m\u00fch\u00fcm
+  n\u0259tic\u0259l\u0259rind\u0259n biri 2000-ci il iyulun 21-d\u0259 \u201cD\u00f6vl\u0259t
+  qullu\u011fu haqq\u0131nda\u201d Qanunun q\u0259bul edilm\u0259sidir. H\u0259min
+  qanunla Az\u0259rbaycanda d\u00f6vl\u0259t qullu\u011fu sah\u0259sind\u0259 vahid
+  d\u00f6vl\u0259t siyas\u0259tinin formala\u015fd\u0131r\u0131lmas\u0131n\u0131n
+  \u0259sas\u0131 qoyulub, bu sah\u0259d\u0259 kadr siyas\u0259tinin \u0259sas prinsipl\u0259ri,
+  d\u00f6vl\u0259t qulluq\u00e7ular\u0131n\u0131n c\u0259miyy\u0259td\u0259ki yeri,
+  onlar\u0131n h\u00fcquq v\u0259 v\u0259zif\u0259l\u0259ri m\u00fc\u0259yy\u0259nl\u0259\u015fdirilib.\\n\u201cD\u00f6vl\u0259t
+  qullu\u011fu haqq\u0131nda\u201d Qanun q\u0259bul edildikd\u0259n sonra m\u00fct\u0259madi
+  olaraq t\u0259kmill\u0259\u015fdirilib, 180-d\u0259n art\u0131q d\u0259yi\u015fiklikl\u0259
+  \u00e7ox m\u00fck\u0259mm\u0259l bir h\u00fcquqi akt yarad\u0131l\u0131b. \u00d6lk\u0259d\u0259
+  idar\u0259\u00e7iliyin t\u0259\u015fkilind\u0259 m\u00fch\u00fcm rol oynayan bu
+  aktlarla d\u00f6vl\u0259t qulluq\u00e7ular\u0131n\u0131n etik davran\u0131\u015f
+  qaydalar\u0131, icbari s\u0131\u011fortas\u0131, pensiya t\u0259minat\u0131 v\u0259
+  dig\u0259r m\u0259s\u0259l\u0259l\u0259r t\u0259nziml\u0259nir. D\u00f6vl\u0259t
+  quruculu\u011fu m\u0259s\u0259l\u0259l\u0259rin\u0259 b\u00f6y\u00fck \u0259h\u0259miyy\u0259t
+  ver\u0259n d\u00f6vl\u0259timizin ba\u015f\u00e7\u0131s\u0131 n\u00f6vb\u0259ti
+  prezident se\u00e7kil\u0259rind\u0259n sonra 2 mind\u0259n \u00e7ox f\u0259rman
+  v\u0259 s\u0259r\u0259ncam imzalay\u0131b. \u0130dar\u0259etm\u0259 sah\u0259sind\u0259
+  apar\u0131lan islahatlar n\u0259tic\u0259sind\u0259 idar\u0259etm\u0259 strukturunun
+  t\u0259kmill\u0259\u015fdiril\u0259r\u0259k \u00e7evik mexanizmin yarad\u0131lmas\u0131
+  x\u00fcsusi diqq\u0259t yetiril\u0259n vacib m\u0259s\u0259l\u0259l\u0259rd\u0259n
+  biridir. Son d\u00f6vrd\u0259 bir \u00e7ox d\u00f6vl\u0259t qurumlar\u0131n\u0131n
+  statusu yenil\u0259n\u0259r\u0259k onlara publik h\u00fcquqi \u015f\u0259xs statusu
+  verilib, bununla da onlar\u0131n h\u0259m h\u00fcquqlar\u0131 geni\u015fl\u0259ndirilib,
+  h\u0259m m\u0259suliyy\u0259ti art\u0131r\u0131l\u0131b v\u0259 h\u0259m d\u0259
+  m\u00fcvafiq sah\u0259l\u0259rin idar\u0259 edilm\u0259sind\u0259 daha f\u0259al
+  i\u015ftirak\u0131 t\u0259min edilib.\\n\u00d6lk\u0259mizd\u0259 b\u00fct\u00fcn
+  sah\u0259l\u0259rd\u0259 oldu\u011fu kimi, d\u00f6vl\u0259t qullu\u011fu sah\u0259sind\u0259
+  d\u0259 islahatlar d\u00fc\u015f\u00fcn\u00fclm\u00fc\u015f sur\u0259td\u0259 v\u0259
+  m\u00fc\u0259yy\u0259nl\u0259\u015fdirilmi\u015f proqramlara uy\u011fun apar\u0131l\u0131r.
+  Bu bax\u0131mdan Az\u0259rbaycan Respublikas\u0131 Prezidentinin 2018-ci il 23 noyabr
+  tarixli S\u0259r\u0259ncam\u0131 il\u0259 t\u0259sdiq edilmi\u015f \u201cAz\u0259rbaycan
+  Respublikas\u0131nda d\u00f6vl\u0259t qullu\u011funun inki\u015faf\u0131na dair
+  2019-2025-ci ill\u0259r \u00fc\u00e7\u00fcn Strategiya\u201dya uy\u011fun olaraq
+  2019-cu ild\u0259 m\u00fc\u0259yy\u0259n edilmi\u015f bir s\u0131ra t\u0259dbirl\u0259ri,
+  o c\u00fcml\u0259d\u0259n bu Strategiyan\u0131n icras\u0131 \u00fczr\u0259 F\u0259aliyy\u0259t
+  Plan\u0131n\u0131 qeyd etm\u0259k laz\u0131md\u0131r. Bu plan \u0259sas\u0131nda
+  m\u00fcvafiq d\u00f6vl\u0259t qurumlar\u0131 t\u0259r\u0259find\u0259n d\u00f6vl\u0259t
+  orqanlar\u0131n\u0131n kateqoriya v\u0259 iyerarxiyas\u0131n\u0131n m\u00fc\u0259yy\u0259n
+  edilm\u0259si, bu orqanlar\u0131n struktur b\u00f6lm\u0259l\u0259rinin n\u00f6vl\u0259ri
+  v\u0259 yarad\u0131lmas\u0131 qaydas\u0131, d\u00f6vl\u0259t qullu\u011fu v\u0259zif\u0259l\u0259rinin
+  n\u00f6vl\u0259ri, t\u0259snifatlar\u0131 v\u0259 v\u0259zif\u0259 adlar\u0131,
+  r\u0259hb\u0259r v\u0259zif\u0259li \u015f\u0259xsl\u0259r \u00fc\u00e7\u00fcn insan
+  resurslar\u0131n\u0131n idar\u0259 edilm\u0259si \u00fczr\u0259 t\u0259lim modullar\u0131n\u0131n
+  v\u0259 proqramlar\u0131n\u0131n haz\u0131rlanmas\u0131, kadr qurumlar\u0131n\u0131n
+  i\u015f\u00e7il\u0259rin say\u0131na m\u00fct\u0259nasib olaraq t\u0259\u015fkili,
+  bu qurumlar\u0131n n\u00fcmun\u0259vi \u0259sasnam\u0259sinin haz\u0131rlanmas\u0131,
+  d\u00f6vl\u0259t qulluq\u00e7ular\u0131n\u0131n pe\u015f\u0259kar inki\u015faf\u0131
+  v\u0259 t\u0259hsili, onlar\u0131n m\u0259lumat bazalar\u0131n\u0131n v\u0259 reyestrinin
+  yarad\u0131lmas\u0131, d\u00f6vl\u0259t qulluq\u00e7ular\u0131na b\u0259rab\u0259r
+  tutulan publik h\u00fcquqi \u015f\u0259xsl\u0259rin \u0259m\u0259kda\u015flar\u0131n\u0131n,
+  statusunun m\u00fc\u0259yy\u0259n edilm\u0259si v\u0259 dig\u0259r m\u0259s\u0259l\u0259l\u0259r
+  \u00f6z h\u0259llini tap\u0131r v\u0259 tapacaq. M\u00fcvafiq s\u0259n\u0259dd\u0259
+  bu sah\u0259d\u0259 h\u0259r bir d\u00f6vl\u0259t qurumunun v\u0259zif\u0259l\u0259ri
+  konkret m\u00fc\u0259yy\u0259nl\u0259\u015fdiril\u0259r\u0259k laz\u0131mi tap\u015f\u0131r\u0131qlar
+  verilib.\\nD\u00f6vl\u0259t qullu\u011fu sah\u0259sind\u0259 apar\u0131lan islahatlar
+  d\u00f6vl\u0259t qulluq\u00e7ular\u0131n\u0131n m\u0259suliyy\u0259tini g\u00fcnd\u0259n-g\u00fcn\u0259
+  art\u0131rmaqla yana\u015f\u0131, onlar\u0131n h\u00fcquqlar\u0131n\u0131n v\u0259
+  v\u0259zif\u0259l\u0259rinin m\u00fc\u0259yy\u0259nl\u0259\u015fdirilm\u0259si,
+  bu sah\u0259d\u0259 olan bo\u015fluqlar\u0131n aradan qald\u0131r\u0131lmas\u0131
+  \u00fc\u00e7\u00fcn d\u0259 m\u00fcnt\u0259z\u0259m i\u015f apar\u0131l\u0131r.
+  Bu c\u0259h\u0259td\u0259n \u201cDaimi d\u00f6vl\u0259t qullu\u011funa q\u0259bul
+  edil\u0259n \u015f\u0259xsl\u0259 ba\u011flan\u0131lan \u0259m\u0259k m\u00fcqavil\u0259sinin
+  n\u00fcmun\u0259si\u201dnin t\u0259sdiq edilm\u0259si haqq\u0131nda\u201d Az\u0259rbaycan
+  Respublikas\u0131 Prezidentinin 2019-cu il 16 may tarixli F\u0259rman\u0131n\u0131
+  qeyd etm\u0259k laz\u0131md\u0131r. Bu s\u0259n\u0259d d\u00f6vl\u0259t qulluq\u00e7ular\u0131n\u0131n
+  h\u00fcquqlar\u0131n\u0131n qorunmas\u0131nda v\u0259 m\u0259suliyy\u0259tinin art\u0131r\u0131lmas\u0131nda
+  m\u00fch\u00fcm rol oynayacaq. Bu n\u00fcmun\u0259d\u0259 t\u0259r\u0259fl\u0259r
+  haqq\u0131nda m\u0259lumat, \u0259m\u0259k m\u00fcqavil\u0259sinin m\u00fcdd\u0259tl\u0259ri,
+  d\u00f6vl\u0259t qulluq\u00e7usunun \u0259m\u0259k funksiyalar\u0131, qulluq \u015f\u0259raitin\u0259,
+  d\u00f6vl\u0259t m\u0259vacibin\u0259, \u0259m\u0259yin m\u00fchafiz\u0259sin\u0259,
+  i\u015f v\u0259 istirah\u0259t vaxt\u0131na, m\u0259zuniyy\u0259t\u0259, b\u0259d\u0259n
+  t\u0259rbiy\u0259si v\u0259 idmana dair \u015f\u0259rtl\u0259r, birinin dig\u0259rin\u0259
+  vurdu\u011fu ziyana g\u00f6r\u0259 t\u0259r\u0259fl\u0259rin qar\u015f\u0131l\u0131ql\u0131
+  maddi m\u0259suliyy\u0259ti, sosial m\u00fcdafi\u0259 m\u0259s\u0259l\u0259l\u0259ri,
+  m\u00fclkiyy\u0259t m\u00fcnasib\u0259tl\u0259rinin t\u0259nziml\u0259nm\u0259si,
+  \u0259m\u0259k m\u00fcqavil\u0259sind\u0259 d\u0259yi\u015fiklik edilm\u0259si v\u0259
+  ona xitam verilm\u0259si bar\u0259d\u0259 m\u00fcdd\u0259alar var.\\nAz\u0259rbaycanda
+  d\u00f6vl\u0259t qulluq\u00e7ular\u0131n\u0131n daha s\u0259m\u0259r\u0259li f\u0259aliyy\u0259t
+  g\u00f6st\u0259rm\u0259sini v\u0259 onlara tap\u015f\u0131r\u0131lan m\u00fcr\u0259kk\u0259b
+  v\u0259zif\u0259l\u0259rin daha yax\u015f\u0131 yerin\u0259 yetirilm\u0259sini t\u0259min
+  etm\u0259k \u00fc\u00e7\u00fcn bu kateqoriyadan olan insanlar\u0131n sosial m\u00fcdafi\u0259sinin
+  yax\u015f\u0131la\u015fd\u0131r\u0131lmas\u0131 da \u00f6lk\u0259 Prezidentinin
+  daim diqq\u0259t g\u00f6st\u0259rdiyi m\u0259s\u0259l\u0259l\u0259rd\u0259n biridir.
+  Az\u0259rbaycan Respublikas\u0131 Prezidentinin 2019-cu il iyunun 18-d\u0259 imzalad\u0131\u011f\u0131
+  f\u0259rman v\u0259 s\u0259r\u0259ncamlarla minimum \u0259m\u0259khaqq\u0131n\u0131n
+  250 manata \u00e7atd\u0131r\u0131lmas\u0131, dem\u0259k olar ki, b\u00fct\u00fcn
+  m\u0259rk\u0259zi v\u0259 yerli d\u00f6vl\u0259t orqanlar\u0131n\u0131n v\u0259
+  onlara b\u0259rab\u0259r tutulan orqanlar\u0131n, habel\u0259 g\u00fcc strukturlar\u0131n\u0131n,
+  h\u0259rbi qulluq\u00e7ular\u0131n, el\u0259c\u0259 d\u0259 dig\u0259r b\u00fcdc\u0259
+  t\u0259\u015fkilatlar\u0131 i\u015f\u00e7il\u0259rinin \u0259m\u0259khaqlar\u0131n\u0131n
+  40 faiz art\u0131r\u0131lmas\u0131 ham\u0131n\u0131, o c\u00fcml\u0259d\u0259n d\u00f6vl\u0259t
+  qullu\u011funda \u00e7al\u0131\u015fan insanlar\u0131 son d\u0259r\u0259c\u0259
+  sevindirib v\u0259 t\u0259biidir ki, daha yax\u015f\u0131 \u00e7al\u0131\u015fma\u011fa
+  ruhland\u0131r\u0131b. Qeyd olunmal\u0131d\u0131r ki, bu art\u0131mlar respublikada
+  orta \u0259m\u0259khaqq\u0131n\u0131n v\u0259 pensiyalar\u0131n miqdar\u0131na da
+  m\u00fcsb\u0259t t\u0259sir g\u00f6st\u0259rib, b\u00fct\u00f6vl\u00fckd\u0259 2
+  milyona q\u0259d\u0259r v\u0259t\u0259nda\u015f\u0131 \u0259hat\u0259 edib v\u0259
+  bunun \u00fc\u00e7\u00fcn b\u00fcdc\u0259d\u0259n 1 milyard manata yax\u0131n v\u0259sait
+  ayr\u0131l\u0131b.\\n\u00d6lk\u0259nin idar\u0259 olunmas\u0131nda v\u0259 inki\u015faf\u0131n\u0131n
+  g\u00fccl\u0259ndirilm\u0259sind\u0259 ciddi rol oynayan d\u00f6vl\u0259t qulluq\u00e7ular\u0131n\u0131n
+  say\u0131 da h\u0259mi\u015f\u0259 diqq\u0259ti c\u0259lb ed\u0259n m\u0259s\u0259l\u0259l\u0259rd\u0259n
+  biridir. 2019-cu il yanvar\u0131n 1-n\u0259 olan m\u0259lumata g\u00f6r\u0259, haz\u0131rda
+  \u00f6lk\u0259d\u0259 d\u00f6vl\u0259t qulluq\u00e7ular\u0131n\u0131n say\u0131
+  29 min 127 n\u0259f\u0259rdir. Apar\u0131lan islahatlar n\u0259tic\u0259sind\u0259
+  d\u00f6vl\u0259t qulluq\u00e7ular\u0131n\u0131n say\u0131 0,7 faiz azal\u0131b.
+  \u00dcmumiyy\u0259tl\u0259, d\u00f6vl\u0259t qulluq\u00e7ular\u0131n\u0131n 28,5
+  faizini qad\u0131nlar t\u0259\u015fkil edir.\\nD\u00f6vl\u0259t qulluq\u00e7ular\u0131n\u0131n
+  ya\u015f qruplar\u0131 \u00fczr\u0259 b\u00f6lg\u00fcs\u00fc g\u00f6st\u0259rir
+  ki, bu sah\u0259d\u0259 \u00e7al\u0131\u015fanlar\u0131n orta ya\u015f h\u0259ddi
+  43 ildir. 35-44 ya\u015fda olan d\u00f6vl\u0259t qulluq\u00e7ular\u0131 26,3 faiz
+  t\u0259\u015fkil edirs\u0259, 63-64 ya\u015fda olanlar c\u0259mi 2,9 faizdir. Bu
+  r\u0259q\u0259ml\u0259r g\u0259ncl\u0259r \u00fc\u00e7\u00fcn z\u0259ngin t\u0259cr\u00fcb\u0259
+  m\u0259kt\u0259bind\u0259n b\u0259hr\u0259l\u0259nm\u0259k imkan\u0131 oldu\u011funu
+  s\u00fcbut edir.\\nB\u00fct\u00f6vl\u00fckd\u0259 Az\u0259rbaycanda d\u00f6vl\u0259t
+  qulluq\u00e7ular\u0131 \u00f6lk\u0259nin m\u0259\u015f\u011ful \u0259halisinin \u00e7ox
+  c\u00fczi bir hiss\u0259sini \u2013 0,6 faizini t\u0259\u015fkil edir. Bu r\u0259q\u0259m
+  dig\u0259r \u00f6lk\u0259l\u0259rl\u0259 m\u00fcqayis\u0259d\u0259 xeyli azd\u0131r.
+  Odur ki, bu sah\u0259d\u0259 \u00e7al\u0131\u015fanlar\u0131n haz\u0131rl\u0131q
+  s\u0259viyy\u0259sinin v\u0259 i\u015f keyfiyy\u0259tl\u0259rinin y\u00fcks\u0259k
+  olmas\u0131 \u00e7ox vacibdir. Yaln\u0131z y\u00fcks\u0259k pe\u015f\u0259karl\u0131qla,
+  d\u0259rin bilikl\u0259, kreativ d\u00fc\u015f\u00fcnc\u0259 t\u0259rzi il\u0259,
+  \u0259n ba\u015fl\u0131cas\u0131 V\u0259t\u0259n\u0259, xalqa, d\u00f6vl\u0259t\u0259
+  s\u0259daq\u0259t hissi il\u0259 bu \u00e7\u0259tin v\u0259 m\u0259suliyy\u0259tli
+  i\u015fin \u00f6hd\u0259sind\u0259n g\u0259lm\u0259k m\u00fcmk\u00fcnd\u00fcr.\\nAzvision.az\\nTeql\u0259r:
+  D\u00f6vl\u0259t-Qulluq\u00e7usu Pe\u015f\u0259-Bayram\u0131\"", "\"Avtomobil oyma
+  g\u00fczg\u00fcs\u00fc g\u00fczg\u00fc il\u0259 h\u0259kk olunub, g\u00fczg\u00fcn\u00fc
+  cilalay\u0131r, bel\u0259likl\u0259, g\u00fczg\u00fc s\u0259thi y\u0131\u011fcam
+  v\u0259 parlaq m\u00fcasir \u015f\u0259kil yaratmaq \u00fc\u00e7\u00fcn kristal
+  t\u0259miz stereo x\u0259tl\u0259r yarad\u0131r.B\u0259dii g\u00fczg\u00fcn\u00fcn
+  t\u0259snifat\u0131nda t\u0259snifat, yeni n\u00f6v b\u0259dii g\u00fczg\u00fc prosesini
+  m\u00fcqayis\u0259 edin.\\nK\u00fctl\u0259vi istehsal\u0131n\u0131n \u00fcst\u00fcnl\u00fckl\u0259rin\u0259
+  g\u00f6r\u0259, s\u00fcr\u00fc\u015fm\u0259 qap\u0131 \u015f\u00fc\u015f\u0259sinin
+  t\u0259tbiqind\u0259n tutmu\u015f arxa fon \u015f\u00fc\u015f\u0259sin\u0259 q\u0259d\u0259r
+  t\u0259tbiq diapazonunun geni\u015fl\u0259ndirilm\u0259si geni\u015fdir.Ta\u015flama
+  \u00e7arx\u0131n\u0131n formas\u0131 d\u0259yi\u015fdiril\u0259 bildiyind\u0259n,
+  avtomobilin oyma g\u00fczg\u00fcs\u00fc d\u0259 \u00e7oxlu m\u00fcxt\u0259lif formal\u0131
+  zolaqlar\u0131 inki\u015faf etdir\u0259 bil\u0259r.G\u0259lin daha \u0259trafl\u0131
+  bir populyar elm ed\u0259k.\\nOyma prosesi d\u0259 davaml\u0131 prosesd\u0259n ke\u00e7ir.Erk\u0259n
+  avtomobil oyma prosesl\u0259ri ki\u00e7ik mexaniki avtomobil oyma x\u0259tl\u0259ridir,
+  onlar\u0131n d\u0259qiqliyi v\u0259 y\u0131\u011f\u0131lma qabiliyy\u0259ti proses
+  v\u0259 avadanl\u0131qla m\u0259hdudla\u015f\u0131r, bel\u0259 ki, erk\u0259n avtomobil
+  oyma#g\u00fczg\u00fc t\u0259tbiql\u0259ri \u00e7ox geni\u015f deyil.\\nThe #g\u00fczg\u00fc
+  formas\u0131 \u0259sas\u0259n d\u00fczd\u00fcr v\u0259 b\u0259zi prosesl\u0259r\u0259
+  daha \u00e7ox rast g\u0259linir.Prosesin t\u0259kam\u00fcl\u00fc il\u0259 mexaniki
+  \u015fablon la kartu\u015f, bu avtomobilin i\u015f prinsipi olan yar\u0131 \u0259ll\u0259
+  manuel \u0259m\u0259liyyat\u0131n n\u0259zar\u0259ti \u015fablonda v\u0259 laz\u0131m
+  olan x\u0259tl\u0259r v\u0259 formalar h\u0259kk olunur.#g\u00fczg\u00fc s\u0259thi.\\nBu
+  add\u0131ma ged\u0259rk\u0259n, h\u0259kkingpartiya \u00f6l\u00e7\u00fcl\u0259rinin
+  istehsal\u0131 il\u0259.Bununla bel\u0259, b\u00f6y\u00fck bir \u00e7at\u0131\u015fmazl\u0131q
+  var, \u00f6l\u00e7\u00fcs\u00fc bir az d\u0259yi\u015fdirils\u0259, eyni nax\u0131\u015f
+  olsa bel\u0259, yenid\u0259n istehsal edilm\u0259lidir.#g\u00fczg\u00fc \u015fablonu
+  v\u0259 onun#g\u00fczg\u00fc istehlak materiallar\u0131 \u00e7oxlu tullant\u0131lara
+  malikdir v\u0259#g\u00fczg\u00fc emal d\u00f6vr\u00fc d\u0259 uzad\u0131l\u0131r.\\nOyulmu\u015f#g\u00fczg\u00fc,
+  k\u0259miyy\u0259t istehsal\u0131n\u0131n CNC d\u00f6vr\u00fcn\u0259 girdiyini h\u0259qiq\u0259t\u0259n
+  d\u0259rk edir.\\nCNC d\u0259zgahlar\u0131n\u0131n populyarla\u015fmas\u0131 v\u0259
+  qiym\u0259tin a\u015fa\u011f\u0131 sal\u0131nmas\u0131 il\u0259 n\u0259hay\u0259t
+  CNC sor\u011fulama # g\u00fczg\u00fc avadanl\u0131\u011f\u0131 ortaya \u00e7\u0131xd\u0131.Prinsip
+  m\u00fcr\u0259kk\u0259b deyil.G\u00fczg\u00fcis CNC torna tezgah\u0131n\u0131n t\u0259kmill\u0259\u015fdirilmi\u015f
+  versiyas\u0131.Nax\u0131\u015f v\u0259 \u00f6l\u00e7\u00fcl\u0259rin vaxt\u0131nda
+  redakt\u0259 v\u0259 istehsal\u0131n\u0131 h\u0259yata ke\u00e7ir\u0259 bil\u0259rsiniz.\u018flav\u0259
+  al\u0259t istehlak t\u0259l\u0259b etmir, siz \u0259sas\u0259n ani redakt\u0259,
+  vaxt\u0131nda istehsal h\u0259yata ke\u00e7ir\u0259 bil\u0259rsiniz.\\nBu, avtomobil
+  qrav\u00fcr\u00fcn\u00fcn populyarl\u0131\u011f\u0131n\u0131 xeyli s\u00fcr\u0259tl\u0259ndirir#g\u00fczg\u00fc,
+  h\u0259m\u00e7inin nax\u0131\u015flar\u0131n redakt\u0259 edilm\u0259si rahatl\u0131\u011f\u0131na
+  malikdir.\u00c7ox m\u00fcr\u0259kk\u0259b d\u00fcz x\u0259tt olmad\u0131\u011f\u0131
+  m\u00fcdd\u0259tc\u0259, h\u0259tta dair\u0259ni m\u00fck\u0259mm\u0259l \u015f\u0259kild\u0259
+  emal etm\u0259k olar ki, m\u0259hsulun \u00fcslubu geni\u015fl\u0259ndi.Bir \u00e7ox
+  m\u00fcr\u0259kk\u0259b avtomobil oyma#Qar\u015f\u0131m\u0131zda olan g\u00fczg\u00fc
+  n\u00fcmun\u0259l\u0259ri tez-tez bu CNC avtobusu t\u0259r\u0259find\u0259n i\u015fl\u0259nir.B\u0259zi
+  \u00e7ox prosesli avtomobil oyma#g\u00fczg\u00fcl\u0259r d\u0259 \u015f\u00fc\u015f\u0259
+  boyas\u0131 v\u0259 ya \u00e7ox y\u00fcks\u0259k g\u00f6r\u00fcn\u0259n dig\u0259r
+  prosesl\u0259rl\u0259 tamamlan\u0131r.\\nQrav\u00fcr\u00fcn inki\u015faf\u0131#CNC
+  avtomobil oyma ma\u015f\u0131n\u0131na g\u00fczg\u00fc.Bu add\u0131m \u0259sas\u0259n
+  tam istehsal v\u0259 avtomatla\u015fd\u0131rmad\u0131r.Ancaq bu olsa bel\u0259,
+  avtomobilin \u015f\u00fc\u015f\u0259si h\u0259l\u0259 d\u0259 bo\u015f yer\u0259
+  malikdir v\u0259 ya h\u0259l\u0259 d\u0259 h\u0259l\u0259 olmayan bir v\u0259zif\u0259
+  var.\\n\u018fn b\u00f6y\u00fck problem odur ki, eyni x\u0259tt vasit\u0259sinin
+  m\u00fcxt\u0259lif d\u0259rinlikl\u0259ri h\u0259kk olunur, qumda\u015f\u0131malar
+  kimi eyni x\u0259tt \u00fcz\u0259rind\u0259 d\u0259rin dayaz oyma ed\u0259 bilmir
+  v\u0259 \u0259n m\u00fck\u0259mm\u0259l oyma effektin\u0259 \u00e7ata bilmir.Bu
+  h\u0259m d\u0259 qrav\u00fcra #g\u00fczg\u00fcd\u00fcr ki, qumla \u0259v\u0259z
+  olunmay\u0131b.K\u00f6k s\u0259b\u0259b.Buna g\u00f6r\u0259 d\u0259, biz yeni prosesl\u0259rin
+  v\u0259 k\u00f6hn\u0259 s\u0259n\u0259tkarl\u0131\u011f\u0131n ziddiyy\u0259tin\u0259
+  obyektiv baxmal\u0131y\u0131q.\u00c7ox vaxt yaln\u0131z yeni prosesl\u0259r deyil,
+  yeni v\u0259 k\u00f6hn\u0259 s\u0259n\u0259tkarl\u0131qlarla tamamlan\u0131r.\\nShouguang
+  Yamazon Home Materials Co., Ltd 2012-ci ild\u0259 yarad\u0131l\u0131b v\u0259 ilk
+  g\u00fcnl\u0259rd\u0259 panel mebell\u0259rinin istehsal\u0131 v\u0259 emal\u0131na
+  diqq\u0259t yetirir.Brendimiz Yamazonhome-dur.\u015eirk\u0259t \u015eandunq \u0259yal\u0259tinin
+  Shouguang \u015f\u0259h\u0259ri, 300 Yuanfeng k\u00fc\u00e7\u0259sind\u0259 yerl\u0259\u015fir.\u015eirk\u0259t
+  12.000 kvadratmetr sah\u0259ni \u0259hat\u0259 edir v\u0259 d\u00f6rd tam avtomatik
+  panel mebel istehsal\u0131 x\u0259ttin\u0259 malikdir.H\u0259r il m\u00fcxt\u0259lif
+  panel mebell\u0259r, m\u0259s\u0259l\u0259n, qarderoblar, kitab \u015fkaflar\u0131,
+  komp\u00fcter masalar\u0131, sehpalar, paltar paltarlar\u0131, \u015fkaflar, televizor
+  \u015fkaflar\u0131, bufetl\u0259r v\u0259 dig\u0259r panel mebell\u0259ri istehsal
+  edir..Mebel m\u0259hsullar\u0131n\u0131n OEM istehsal\u0131na diqq\u0259t yetirin.Transs\u0259rh\u0259d
+  elektron ticar\u0259tin inki\u015faf\u0131 il\u0259 m\u00fc\u015ft\u0259ril\u0259rin
+  \u00c7ind\u0259 mebel almaq ehtiyaclar\u0131n\u0131 \u00f6d\u0259m\u0259k \u00fc\u00e7\u00fcn
+  \u015firk\u0259timiz daxili divanlar\u0131n, pauerlift oturacaql\u0131 divanlar\u0131n
+  emal\u0131 v\u0259 istehsal\u0131 kimi \u00f6z istehsal\u0131 olan m\u0259hsullar\u0131n
+  n\u00f6vl\u0259rini geni\u015fl\u0259ndirdi. , a\u00e7\u0131q mebel, mebel materiallar\u0131
+  faner, Taxta yar\u0131mfabrikatlar, v\u0259 ev heyvanlar\u0131 \u00fc\u00e7\u00fcn
+  mebel.Eyni zamanda, \u00c7ind\u0259 m\u00fcxt\u0259lif n\u00f6v mebell\u0259rin
+  sat\u0131nal\u0131nmas\u0131 v\u0259 yoxlan\u0131lmas\u0131 xidm\u0259tl\u0259ri
+  g\u00f6st\u0259rir.\u015eirk\u0259timiz mebel istehsal\u0131nda pe\u015f\u0259kar
+  istedadlara v\u0259 mebel s\u0259nayesind\u0259 \u0259laq\u0259l\u0259r\u0259 malikdir
+  v\u0259 m\u00fc\u015ft\u0259ril\u0259r\u0259 pe\u015f\u0259kar mebel istehsal\u0131,
+  sat\u0131nalma v\u0259 yoxlama xidm\u0259tl\u0259ri g\u00f6st\u0259r\u0259 bil\u0259r.Bizim
+  \u0259sas konsepsiyam\u0131z m\u00fc\u015ft\u0259ril\u0259r\u0259 pe\u015f\u0259kar
+  f\u0259rdi mebel xidm\u0259tl\u0259ri t\u0259qdim etm\u0259kdir.Mebel m\u0259hsullar\u0131
+  v\u0259 mebel materiallar\u0131 sah\u0259sind\u0259 \u0259m\u0259kda\u015fl\u0131\u011f\u0131
+  m\u00fczakir\u0259 etm\u0259k \u00fc\u00e7\u00fcn biziml\u0259 \u0259laq\u0259 saxlama\u011f\u0131n\u0131zdan
+  m\u0259mnunuq.\\n2021-ci ild\u0259 \u015firk\u0259timiz yamasenhome idman mallar\u0131
+  markas\u0131n\u0131 yeni qeydiyyatdan ke\u00e7irdi v\u0259 Amazonun transs\u0259rh\u0259d
+  e-ticar\u0259ti \u00fc\u00e7\u00fcn \u015fi\u015fm\u0259 s\u00f6rf taxtas\u0131
+  m\u0259hsullar\u0131n\u0131n istehsal\u0131 v\u0259 istehsal\u0131nda ixtisasla\u015fan
+  yeni pe\u015f\u0259kar \u015fi\u015fm\u0259 s\u00f6rf taxtas\u0131 m\u0259hsulu
+  istehsal x\u0259tti qurdu.\u018fm\u0259kda\u015fl\u0131\u011f\u0131 m\u00fczakir\u0259
+  etm\u0259k \u00fc\u00e7\u00fcn fabrik\u0259 g\u0259lm\u0259k \u00fc\u00e7\u00fcn
+  evd\u0259 v\u0259 xaricd\u0259 m\u00fc\u015ft\u0259ril\u0259r\u0259 xo\u015f g\u0259lmisiniz.\\n*Z\u0259man\u0259t*\\n1
+  \u0130l \u018fhat\u0259\\nSat\u0131\u015fdan sonrak\u0131 xidm\u0259tl\u0259r v\u0259
+  pulun geri qaytar\u0131lmas\u0131 z\u0259man\u0259ti\\nDiqq\u0259t edin: Z\u0259man\u0259t
+  q\u0259sd\u0259n t\u00f6r\u0259dilmi\u015f fiziki z\u0259d\u0259l\u0259ri, g\u00fccl\u00fc
+  n\u0259mliyi v\u0259 ya statik q\u0131saqapanma, z\u0259d\u0259l\u0259nmi\u015f
+  avadanl\u0131qlar\u0131n daxil edilm\u0259si v\u0259 s.\\n* Bundan \u0259lav\u0259,
+  ba\u015fqa c\u00fcr g\u00f6st\u0259rilm\u0259diyi t\u0259qdird\u0259, biz b\u00fct\u00fcn
+  m\u0259hsullar\u0131m\u0131z\u0131n siz onlar\u0131 q\u0259bul etdiyiniz zaman i\u015fl\u0259y\u0259c\u0259yin\u0259
+  z\u0259man\u0259t veririk.M\u0259mnuniyy\u0259tiniz bizim \u00fc\u00e7\u00fcn vacibdir,
+  ona g\u00f6r\u0259 d\u0259 m\u0259hsulunuz DOA (G\u0259li\u015fd\u0259 \u00d6l\u00fc)
+  olarsa, biz\u0259 bildirin v\u0259 sat\u0131n al\u0131nd\u0131\u011f\u0131 tarixd\u0259n
+  sonra 30 g\u00fcn \u0259rzind\u0259 onu biz\u0259 qaytar\u0131n.Qaytard\u0131\u011f\u0131n\u0131z
+  m\u0259hsulu alan kimi siz\u0259 \u0259v\u0259zini g\u00f6nd\u0259r\u0259c\u0259yik
+  (\u0259\u015fyalar\u0131n qaytar\u0131lmas\u0131 il\u0259 ba\u011fl\u0131 x\u0259rcl\u0259r
+  geri qaytar\u0131lm\u0131r. D\u0259yi\u015fdirm\u0259nin g\u00f6nd\u0259rilm\u0259si
+  il\u0259 ba\u011fl\u0131 \u00e7\u0259kil\u0259n x\u0259rcl\u0259ri \u00f6d\u0259y\u0259c\u0259yik).\\n*
+  M\u0259hsullar sui-istifad\u0259 edildikd\u0259, s\u0259hv idar\u0259 olunarsa v\u0259
+  ya h\u0259r hans\u0131 \u015f\u0259kild\u0259 d\u0259yi\u015fdiril\u0259rs\u0259,
+  z\u0259man\u0259t q\u00fcvv\u0259d\u0259n d\u00fc\u015f\u0259c\u0259k.\\n* D\u00fc\u015f\u00fcnc\u0259
+  d\u0259yi\u015fikliyin\u0259 g\u00f6r\u0259 geri qaytar\u0131lma hallar\u0131nda
+  ehtiyat y\u0131\u011f\u0131m\u0131 haqlar\u0131 ola bil\u0259r.Yaln\u0131z beyn\u0259lxalq
+  al\u0131c\u0131lar \u00fc\u00e7\u00fcn.\\n* \u0130dxal r\u00fcsumlar\u0131, vergil\u0259r
+  v\u0259 \u00f6d\u0259ni\u015fl\u0259r m\u0259hsulun qiym\u0259tin\u0259 v\u0259
+  ya g\u00f6nd\u0259rm\u0259 qiym\u0259tin\u0259 daxil edilmir.Bu \u00f6d\u0259ni\u015fl\u0259r
+  al\u0131c\u0131n\u0131n m\u0259suliyy\u0259tidir.* Tenderd\u0259n v\u0259 ya sat\u0131n
+  almadan \u0259vv\u0259l bu \u0259lav\u0259 x\u0259rcl\u0259rin n\u0259 olaca\u011f\u0131n\u0131
+  m\u00fc\u0259yy\u0259n etm\u0259k \u00fc\u00e7\u00fcn \u00f6lk\u0259nizin x\u00fcsusi
+  idar\u0259si il\u0259 \u0259laq\u0259 saxlay\u0131n.\\n* Qaytar\u0131lan \u0259\u015fyalar\u0131n
+  emal\u0131 v\u0259 idar\u0259 olunmas\u0131 x\u0259rcl\u0259ri al\u0131c\u0131n\u0131n
+  m\u0259suliyy\u0259tidir.Pulun qaytar\u0131lmas\u0131 m\u00fcmk\u00fcn q\u0259d\u0259r
+  tez veril\u0259c\u0259k v\u0259 m\u00fc\u015ft\u0259riy\u0259 e-po\u00e7t bildiri\u015fi
+  g\u00f6nd\u0259ril\u0259c\u0259k.Geri qaytarma yaln\u0131z madd\u0259nin d\u0259y\u0259rin\u0259
+  aiddir \u0130mtina\\n\u018fg\u0259r sat\u0131n ald\u0131\u011f\u0131n\u0131zdan
+  raz\u0131s\u0131n\u0131zsa, l\u00fctf\u0259n, t\u0259cr\u00fcb\u0259nizi dig\u0259r
+  al\u0131c\u0131larla b\u00f6l\u00fc\u015f\u00fcn v\u0259 biz\u0259 m\u00fcsb\u0259t
+  r\u0259y bildirin.\u018fg\u0259r al\u0131\u015f\u0131n\u0131zdan h\u0259r hans\u0131
+  bir \u015f\u0259kild\u0259 naraz\u0131s\u0131n\u0131zsa, \u0259vv\u0259lc\u0259
+  biziml\u0259 dan\u0131\u015f\u0131n!\\n\u0130st\u0259nil\u0259n problemi h\u0259ll
+  etm\u0259kd\u0259 siz\u0259 k\u00f6m\u0259k etm\u0259kd\u0259n m\u0259mnunuq v\u0259
+  v\u0259ziyy\u0259t bunu t\u0259l\u0259b ed\u0259rs\u0259, biz pulun geri qaytar\u0131lmas\u0131n\u0131
+  v\u0259 ya d\u0259yi\u015fdirilm\u0259sini t\u0259min ed\u0259c\u0259yik.\\nM\u00fc\u015ft\u0259ril\u0259rimiz\u0259
+  h\u0259r hans\u0131 problemi m\u0259qbul m\u0259hdudiyy\u0259tl\u0259r daxilind\u0259
+  d\u00fcz\u0259ltm\u0259y\u0259 k\u00f6m\u0259k etm\u0259y\u0259 \u00e7al\u0131\u015f\u0131r\u0131q.\\nV\u0259ziyy\u0259td\u0259n
+  as\u0131l\u0131 olaraq, biz h\u0259l\u0259 d\u0259 z\u0259man\u0259t sor\u011fusunu
+  q\u0259bul ed\u0259 bil\u0259rik.\"", "\"- 6 Oktyabr 12:39 6 512 H\u00fcseynin xan\u0131m\u0131
+  \\\"OD P\u00dcSK\u00dcRD\u00dc\\\": \\\"S\u0259h\u0259r tezd\u0259n sizin m\u0259n\u0259
+  atd\u0131\u011f\u0131n\u0131z bu FOTOlar\u0131 niy\u0259 g\u00f6rm\u0259liy\u0259m?\\\"
+  - V\u0130DEO\\n- 6 Oktyabr 16:08 3 737 V\u00fcsal\u0259 geyim t\u0259rzi il\u0259
+  diqq\u0259t \u00e7\u0259kdi - V\u0130DEO\\n- 6 Oktyabr 19:19 3 659 \u201cYal\u0131
+  \u00e7apk\u0131n\u0131\u201dna g\u00f6r\u0259 \u00dclviyy\u0259y\u0259 qada\u011fa
+  qoyuldu\\n- 00:01 3 160 G\u00fcn\u00fcn qoroskopu: Maliyy\u0259 f\u00fcrs\u0259tl\u0259ri
+  yaranacaq\\n- 6 Oktyabr 12:15 2 987 \u018fn romantik 4 b\u00fcrc - E\u015fqi onlarla
+  ya\u015fay\u0131n\\n- 6 Oktyabr 14:58 2 841 2-ci Ordu Korpusunun komandiri d\u0259yi\u015fdi
+  - Mayis B\u0259rxudarov komandan v\u0259zif\u0259sind\u0259n \u00e7\u0131xar\u0131ld\u0131
+  - FOTO\\n- 6 Oktyabr 12:25 2 593 S\u0259h\u0259r edil\u0259n bu s\u0259hv x\u0259r\u00e7\u0259ng
+  riskini art\u0131r\u0131r - Aliml\u0259r a\u00e7\u0131qlad\u0131\\n- 3 Oktyabr 17:10
+  25 968 Nazirl\u0259rin evind\u0259 i\u015fl\u0259mi\u015f\u0259m, g\u00f6r\u00fc\u015f\u00fcb,
+  \u0259lav\u0259 pul veribl\u0259r...\\n- 4 Oktyabr 19:07 14 668 Bu meyv\u0259 g\u00f6rm\u0259
+  qabiliyy\u0259tini yax\u015f\u0131la\u015fd\u0131r\u0131r\\n- 3 Oktyabr 08:14 14
+  293 Bak\u0131 \u201c9 bal\u0131\u201d g\u00f6rd\u00fc\\n- 3 Oktyabr 22:46 12 367
+  1 b\u00fcrc \u00fc\u00e7\u00fcn f\u00fcrs\u0259t ay\u0131 - Pul sel kimi g\u0259l\u0259c\u0259k\\n-
+  3 Oktyabr 13:13 11 837 Hac\u0131 \u015eahinin m\u0259zar\u0131 niy\u0259 s\u00f6k\u00fcl\u00fcb?
+  - V\u0130DEO\\n- 5 Oktyabr 10:01 10 647 \\\"Komedixana\\\"n\u0131n aktrisas\u0131n\u0131n
+  aktyorlarla r\u0259qsi diqq\u0259t \u00e7\u0259kdi - V\u0130DEO\\n- 3 Oktyabr 18:05
+  10 327 Bak\u0131 metrosunda qatar\u0131n alt\u0131na d\u00fc\u015f\u0259n \u015f\u0259xsin
+  kimliyi bilindi - YEN\u0130L\u018fN\u0130R\\n- 09:40 \u0130ctimai n\u0259qliyyat\u0131n
+  g\u00fcn\u00fcm\u00fcz\u0259 qatd\u0131\u011f\u0131 stress - Nec\u0259 m\u00fcbariz\u0259
+  aparmaq olar?\\n- 09:39 Furkanla Nian\u0131n toy tarixi a\u00e7\u0131qland\u0131
+  - bu \u00f6lk\u0259d\u0259 ed\u0259c\u0259kl\u0259r\\n- 09:37 Az\u0259rbaycanda
+  v\u0259zif\u0259li \u015f\u0259xs i\u015fd\u0259n \u00e7\u0131xar\u0131ld\u0131\\n-
+  09:34 T\u00fcrkiy\u0259d\u0259 Ronalduya heyk\u0259l qoydular - m\u0131hlama yeyir
+  - FOTO\\n- 09:32 \\\"G\u0259nc\u0259d\u0259 m\u0259n\u0259 deyirl\u0259r ki, s\u0259n
+  hesab\u0131 Parisd\u0259 \u00f6d\u0259mis\u0259n\\\" - V\u0130DEO - FOTO\\n- 09:30
+  Xalq artistinin kabinetd\u0259 mini \u0259t\u0259kli q\u0131zla V\u0130DEOSU YAYILDI
+  - Bel\u0259 \u0259yl\u0259ndil\u0259r...\\n- 09:28 Biri Bak\u0131dak\u0131, dig\u0259ri
+  C\u0259bray\u0131ldak\u0131 evin\u0259 qay\u0131td\u0131 - V\u0130DEO\\nTOP VIDEO\\n-
+  09:30 Xalq artistinin kabinetd\u0259 mini \u0259t\u0259kli q\u0131zla V\u0130DEOSU
+  YAYILDI - Bel\u0259 \u0259yl\u0259ndil\u0259r...\\n- 09:28 Biri Bak\u0131dak\u0131,
+  dig\u0259ri C\u0259bray\u0131ldak\u0131 evin\u0259 qay\u0131td\u0131 - V\u0130DEO\\n-
+  6 Oktyabr 18:12 \u018fm\u0259kdar artist d\u0259 g\u00f6zl\u0259rinin R\u018fNG\u0130N\u0130
+  D\u018fY\u0130\u015e\u018fC\u018fK - V\u0130DEO\"", "\"17:00 xeber \u2013 \u0130yunun
+  25-d\u0259 Bak\u0131n\u0131n Qarada\u011f rayonunun Puta q\u0259s\u0259b\u0259sind\u0259
+  H\u0259rbi D\u0259niz Q\u00fcvv\u0259l\u0259rinin yeni bazas\u0131n\u0131n v\u0259
+  \u201cN\u201d sayl\u0131 h\u0259rbi hiss\u0259nin a\u00e7\u0131l\u0131\u015f\u0131
+  olub.\\nANS PRESS-in m\u0259lumat\u0131na g\u00f6r\u0259, Az\u0259rbaycan Respublikas\u0131
+  Silahl\u0131 Q\u00fcvv\u0259l\u0259rinin Ali Ba\u015f Komandan\u0131, prezident
+  \u0130lham \u018fliyev a\u00e7\u0131l\u0131\u015fda i\u015ftirak edib. M\u00fcdafi\u0259
+  naziri, general-polkovnik Zakir H\u0259s\u0259nov Ali Ba\u015f Komandan \u0130lham
+  \u018fliyev\u0259 raport verib.\\nBildirilib ki, X\u0259z\u0259r d\u0259nizi h\u00f6vz\u0259sind\u0259
+  \u0259n b\u00f6y\u00fck v\u0259 m\u00fcasir h\u0259rbi obyekt olan H\u0259rbi D\u0259niz
+  Q\u00fcvv\u0259l\u0259rinin yeni bazas\u0131n\u0131n v\u0259 \u201cN\u201d sayl\u0131
+  h\u0259rbi hiss\u0259nin inzibati, xidm\u0259ti binalar\u0131n\u0131n v\u0259 qur\u011fular\u0131n
+  in\u015fas\u0131na 2010-cu ilin oktyabr\u0131ndan ba\u015flan\u0131l\u0131b. Burada
+  \u015f\u0259xsi hey\u0259tin xidm\u0259ti v\u0259zif\u0259l\u0259rini layiqinc\u0259
+  yerin\u0259 yetirm\u0259si v\u0259 onlar\u0131n ail\u0259 \u00fczvl\u0259rinin sosial-m\u0259i\u015f\u0259t
+  \u015f\u0259raitinin yax\u015f\u0131la\u015fd\u0131r\u0131lmas\u0131 \u00fc\u00e7\u00fcn
+  geni\u015f i\u015fl\u0259r g\u00f6r\u00fcl\u00fcb.\\nH\u0259rbi D\u0259niz Q\u00fcvv\u0259l\u0259rinin
+  q\u0259rargah\u0131n\u0131n binas\u0131nda ulu \u00f6nd\u0259r Heyd\u0259r \u018fliyevin
+  ordu quruculu\u011funa diqq\u0259tini \u0259ks etdir\u0259n fotolardan ibar\u0259t
+  stend yarad\u0131l\u0131b. Q\u0259rargah binas\u0131nda n\u00f6vb\u0259t\u00e7i,
+  t\u0259dris, v\u0259t\u0259nda\u015flar\u0131n q\u0259bulu, qonaq otaqlar\u0131,
+  konfrans zal\u0131, komplektl\u0259\u015fdirm\u0259, d\u0259niz m\u00fc\u015fahid\u0259
+  v\u0259 dig\u0259r \u015f\u00f6b\u0259l\u0259r, h\u0259m\u00e7inin feldyeger po\u00e7t-rabit\u0259
+  stansiyas\u0131, bufet yarad\u0131l\u0131b.\\nPrezident \u0130lham \u018fliyev\u0259
+  H\u0259rbi D\u0259niz Q\u00fcvv\u0259l\u0259rinin komanda m\u0259nt\u0259q\u0259si
+  bar\u0259d\u0259 d\u0259 m\u0259lumat verilib. Bu m\u0259nt\u0259q\u0259 H\u0259rbi
+  D\u0259niz Q\u00fcvv\u0259l\u0259rinin idar\u0259 olunmas\u0131n\u0131 h\u0259yata
+  ke\u00e7irir, X\u0259z\u0259r d\u0259nizinin Az\u0259rbaycan Respublikas\u0131na
+  m\u0259xsus sektorunda su\u00fcst\u00fc \u015f\u0259rait\u0259 n\u0259zar\u0259t
+  etm\u0259y\u0259 h\u0259rt\u0259r\u0259fli imkan verir. M\u0259nt\u0259q\u0259d\u0259
+  su\u00fcst\u00fc \u015f\u0259rait haqq\u0131nda operativ m\u0259lumatlar H\u0259rbi
+  D\u0259niz Q\u00fcvv\u0259l\u0259rin\u0259 m\u0259xsus sahil v\u0259 ada radio-texniki
+  postlarda yerl\u0259\u015f\u0259n radiolokasiya stansiyalar\u0131 vasit\u0259sil\u0259
+  al\u0131n\u0131r. A\u015fkar edil\u0259n b\u00fct\u00fcn h\u0259d\u0259fl\u0259r
+  real vaxt rejimind\u0259 monitorlarda \u0259ks olunur. X\u0259z\u0259r d\u0259nizinin
+  Az\u0259rbaycana m\u0259xsus sektorunda su\u00fcst\u00fc \u015f\u0259raitl\u0259
+  ba\u011fl\u0131 D\u00f6vl\u0259t S\u0259rh\u0259d Xidm\u0259tinin sahil m\u00fchafiz\u0259sind\u0259n
+  v\u0259 D\u00f6vl\u0259t D\u0259niz Administrasiyas\u0131ndan al\u0131nan m\u0259lumatlar
+  da H\u0259rbi D\u0259niz Q\u00fcvv\u0259l\u0259rinin komanda m\u0259nt\u0259q\u0259sind\u0259
+  toplan\u0131r, t\u0259hlil olunur v\u0259 m\u00fcvafiq q\u0259rar q\u0259bul edilir.
+  Burada \u0259n m\u00fcasir texnoloji yenilikl\u0259r\u0259 \u0259saslanan avadanl\u0131\u011f\u0131n
+  qura\u015fd\u0131r\u0131lmas\u0131 m\u0259nt\u0259q\u0259nin i\u015fini y\u00fcks\u0259k
+  s\u0259viyy\u0259d\u0259 qurma\u011fa imkan verir.\\nDaha sonra d\u00f6vl\u0259timizin
+  ba\u015f\u00e7\u0131s\u0131 \u201cN\u201d sayl\u0131 h\u0259rbi hiss\u0259nin \u0259sg\u0259r
+  yataqxanas\u0131nda olub. H\u0259rbi hiss\u0259nin \u015f\u0259xsi hey\u0259ti \u00fc\u00e7\u00fcn
+  yataqxanalar\u0131 in\u015fa olunub. \u00dc\u00e7m\u0259rt\u0259b\u0259li binalarda
+  \u0259sg\u0259r v\u0259 zabitl\u0259rin qalmas\u0131, onlar\u0131n istirah\u0259ti,
+  asud\u0259 vaxtlar\u0131n\u0131n s\u0259m\u0259r\u0259li t\u0259\u015fkil edilm\u0259si
+  \u00fc\u00e7\u00fcn b\u00fct\u00fcn z\u0259ruri \u015f\u0259rait yarad\u0131l\u0131b.
+  \u018fsg\u0259r yataqxanalar\u0131nda, h\u0259m\u00e7inin laz\u0131mi h\u0259rbi-texniki
+  v\u0259saitl\u0259rl\u0259 t\u0259chiz edilmi\u015f sinif otaqlar\u0131 var. Buradak\u0131
+  \u015f\u0259rait bir daha t\u0259sdiq edir ki, Az\u0259rbaycan d\u00f6vl\u0259tinin
+  iqtisadi q\u00fcdr\u0259ti artd\u0131qca h\u0259rbi sah\u0259nin daha da m\u00fcasirl\u0259\u015fdirilm\u0259si,
+  \u0259sg\u0259r v\u0259 zabitl\u0259rin xidm\u0259t \u015f\u0259raitl\u0259rinin
+  daha da yax\u015f\u0131la\u015fd\u0131r\u0131lmas\u0131, onlar\u0131n h\u0259rbin
+  sirl\u0259rin\u0259 daha d\u0259rind\u0259n yiy\u0259l\u0259nm\u0259si istiqam\u0259tind\u0259
+  m\u00fch\u00fcm layih\u0259l\u0259r yerin\u0259 yetirilir.\\nAli Ba\u015f Komandana
+  \u201cB\u0259bir-2\u201d zirehli n\u0259qliyyat vasit\u0259si bar\u0259d\u0259 d\u0259
+  m\u0259lumat verilib. Avtomatik s\u00fcr\u0259tl\u0259r qutusu, hidravlik s\u00fckan
+  mexanizmi il\u0259 t\u0259chiz edil\u0259n bu zirehli ma\u015f\u0131n Az\u0259rbaycan
+  istehsal\u0131d\u0131r. \u0130st\u0259nil\u0259n d\u00f6y\u00fc\u015f tap\u015f\u0131r\u0131\u011f\u0131n\u0131
+  yerin\u0259 yetir\u0259 bil\u0259n bu zirehli n\u0259qliyyat vasit\u0259si d\u00f6y\u00fc\u015f
+  zaman\u0131 t\u0259bii v\u0259 s\u00fcni mane\u0259l\u0259ri asanl\u0131qla d\u0259f
+  ed\u0259 bilir.\\nD\u00f6vl\u0259t ba\u015f\u00e7\u0131s\u0131 H\u0259rbi D\u0259niz
+  Q\u00fcvv\u0259l\u0259rinin poliklinikas\u0131ndak\u0131 \u015f\u0259rait\u0259
+  bax\u0131b. Poliklinika binas\u0131n\u0131n foyesind\u0259 ulu \u00f6nd\u0259r Heyd\u0259r
+  \u018fliyevin v\u0259 Ali Ba\u015f Komandan \u0130lham \u018fliyevin \u0259sg\u0259r
+  v\u0259 zabitl\u0259rl\u0259 g\u00f6r\u00fc\u015fl\u0259rini \u0259ks etdir\u0259n
+  fotolar s\u0259rgil\u0259nir. Burada \u0259sg\u0259r v\u0259 zabitl\u0259rin h\u0259m
+  m\u00fcalic\u0259si, h\u0259m d\u0259 m\u00fcayin\u0259sini h\u0259yata ke\u00e7irm\u0259k
+  m\u00fcmk\u00fcnd\u00fcr. Poliklinikada 11 funksional b\u00f6lm\u0259 v\u0259 4
+  funksional kabinet yarad\u0131l\u0131b. Buradak\u0131 oftalmoloq, fizioterapiya,
+  nevropatoloq, LOR, stomatoloq, c\u0259rrah, terapevt, ultras\u0259sl\u0259 m\u00fcayin\u0259,
+  dermatoloq v\u0259 rentgen otaqlar\u0131 tibbin m\u00fcasir texniki avadanl\u0131\u011f\u0131
+  il\u0259 t\u0259chiz edilib. Poliklinikada, h\u0259m\u00e7inin biokimy\u0259vi,
+  kimy\u0259vi v\u0259 seroloji m\u00fcayin\u0259l\u0259rin apar\u0131laca\u011f\u0131
+  laboratoriya, prosedur otaqlar\u0131, aptek, yem\u0259kxana yarad\u0131l\u0131b.
+  Bu tibb m\u00fc\u0259ssis\u0259sind\u0259 32 \u00e7arpay\u0131l\u0131q 7 palata
+  da var. Palatalardak\u0131 \u015f\u0259rait h\u0259rb\u00e7il\u0259rin m\u00fcalic\u0259
+  prosesl\u0259rini y\u00fcks\u0259k s\u0259viyy\u0259d\u0259 aparma\u011fa geni\u015f
+  imkan verir.\\nQarada\u011f rayonunun Puta q\u0259s\u0259b\u0259sind\u0259 ayr\u0131lan
+  254,5 hektar torpaq sah\u0259sind\u0259 H\u0259rbi D\u0259niz Q\u00fcvv\u0259l\u0259ri
+  v\u0259 \u201cN\u201d sayl\u0131 h\u0259rbi hiss\u0259 \u00fc\u00e7\u00fcn q\u0259rargah
+  binalar\u0131, 2 xidm\u0259ti ya\u015fay\u0131\u015f binas\u0131, 10 sahilyan\u0131
+  matros yataqxanas\u0131, \u0259sg\u0259r yem\u0259kxanalar\u0131, n\u0259zar\u0259t-burax\u0131l\u0131\u015f
+  m\u0259nt\u0259q\u0259l\u0259ri, qazanxana-cama\u015f\u0131rxana-hamam kompleksi,
+  g\u0259mil\u0259rin yan almas\u0131 \u00fc\u00e7\u00fcn k\u00f6rp\u00fcl\u0259r,
+  anqar tipli avtomobil dayanacaqlar\u0131 yarad\u0131l\u0131b.\\nG\u0259mil\u0259rin
+  yanalma k\u00f6rp\u00fcs\u00fcn\u0259 g\u0259l\u0259n Prezident \u0130lham \u018fliyev
+  H\u0259rbi D\u0259niz Q\u00fcvv\u0259l\u0259rinin idar\u0259etm\u0259 g\u0259misin\u0259
+  baxd\u0131. G\u0259mid\u0259 \u015f\u0259xsi hey\u0259tin ya\u015famas\u0131, istirah\u0259t
+  etm\u0259si v\u0259 xidm\u0259t aparmas\u0131 \u00fc\u00e7\u00fcn z\u0259ruri \u015f\u0259rait
+  yarad\u0131l\u0131b. G\u0259mid\u0259ki qur\u011fular \u015f\u0259xsi hey\u0259tin
+  qar\u015f\u0131s\u0131na qoyulmu\u015f d\u00f6y\u00fc\u015f v\u0259 \u0259m\u0259liyyat
+  tap\u015f\u0131r\u0131qlar\u0131n\u0131n yerin\u0259 yetirilm\u0259sind\u0259 y\u00fcks\u0259k
+  n\u0259tic\u0259l\u0259r\u0259 nail olmaq imkan\u0131 yarad\u0131r.\\nD\u00f6vl\u0259t
+  ba\u015f\u00e7\u0131s\u0131na g\u0259minin ba\u015f komanda m\u0259nt\u0259q\u0259si
+  haqq\u0131nda m\u0259lumat verilib.\\nBildirildi ki, ba\u015f komanda m\u0259nt\u0259q\u0259si
+  g\u0259minin idar\u0259 edilm\u0259sini, d\u0259nizd\u0259 \u00fczm\u0259 zaman\u0131
+  naviqasiya v\u0259 m\u0259hdud g\u00f6r\u00fcnm\u0259 \u015f\u0259raitind\u0259
+  t\u0259hl\u00fck\u0259sizliyini t\u0259min edir. B\u00fct\u00fcn silah v\u0259 texniki
+  vasit\u0259l\u0259rin idar\u0259 edilm\u0259si, d\u00f6y\u00fc\u015f v\u0259 at\u0259\u015f
+  tap\u015f\u0131r\u0131qlar\u0131n\u0131n yerin\u0259 yetirilm\u0259si d\u0259 buradan
+  h\u0259yata ke\u00e7irilir. G\u0259minin h\u0259r\u0259k\u0259t\u0259 g\u0259tirilm\u0259si
+  v\u0259 istiqam\u0259tinin t\u0259nziml\u0259nm\u0259si \u00fc\u00e7\u00fcn ba\u015f
+  m\u00fch\u0259rrikl\u0259rin v\u0259 s\u00fckan\u0131n idar\u0259 edilm\u0259si
+  m\u0259qs\u0259dil\u0259 burada \u0259n son texnoloji avadanl\u0131q qura\u015fd\u0131r\u0131l\u0131b.
+  B\u00fct\u00fcn cihazlar\u0131n t\u0259yin etdiyi g\u00f6st\u0259ricil\u0259r elektron
+  x\u0259rit\u0259d\u0259 \u0259ks olunur.\\nH\u0259rbi hiss\u0259d\u0259 tikintinin
+  ikinci m\u0259rh\u0259l\u0259sind\u0259 g\u0259mil\u0259r\u0259 v\u0259 avtomobill\u0259r\u0259
+  texniki qulluq v\u0259 t\u0259mir sah\u0259l\u0259ri, \u0259lav\u0259 yanalma k\u00f6rp\u00fcl\u0259ri,
+  anbarlar sah\u0259si, zabitl\u0259r evi, u\u015faq ba\u011f\u00e7as\u0131 v\u0259
+  m\u0259kt\u0259b binalar\u0131, klub v\u0259 idman \u015f\u0259h\u0259rciyinin in\u015fas\u0131
+  n\u0259z\u0259rd\u0259 tutulub.\\nSonra Ali Ba\u015f Komandan H\u0259rbi D\u0259niz
+  Q\u00fcvv\u0259l\u0259rinin \u201cN\u201d sayl\u0131 h\u0259rbi hiss\u0259sinin
+  q\u0259rargah\u0131 v\u0259 matros yataqxanas\u0131nda yarad\u0131lan \u015f\u0259raitl\u0259
+  tan\u0131\u015f oldu. Bu bina h\u0259rbi hiss\u0259 q\u0259rargah\u0131n\u0131n
+  f\u0259aliyy\u0259ti v\u0259 matroslar\u0131n ya\u015famas\u0131 \u00fc\u00e7\u00fcn
+  n\u0259z\u0259rd\u0259 tutulub. Burada h\u0259r biri 8 n\u0259f\u0259rlik olmaqla
+  4 otaq var. Otaqlarda h\u0259rb\u00e7il\u0259rin yatmas\u0131, istirah\u0259t etm\u0259si
+  v\u0259 asud\u0259 vaxtlar\u0131n\u0131 s\u0259m\u0259r\u0259li ke\u00e7irm\u0259si
+  \u00fc\u00e7\u00fcn b\u00fct\u00fcn imkanlar yarad\u0131l\u0131b. M\u0259i\u015f\u0259t
+  xidm\u0259ti v\u0259 sinif otaqlar\u0131, kompyuter zal\u0131 \u0259sg\u0259rl\u0259rin
+  ixtiyar\u0131na veril\u0259c\u0259k.\\nPrezident \u0130lham \u018fliyev\u0259 H\u0259rbi
+  D\u0259niz Q\u00fcvv\u0259l\u0259rinin \u015f\u0259xsi hey\u0259ti \u00fc\u00e7\u00fcn
+  in\u015fa edil\u0259n ya\u015fay\u0131\u015f binalar\u0131 bar\u0259d\u0259 d\u0259
+  m\u0259lumat verildi. \u018frazid\u0259 be\u015fm\u0259rt\u0259b\u0259li iki bina
+  in\u015fa olunub. Be\u015f blokdan ibar\u0259t binalar\u0131n h\u0259r birind\u0259
+  \u00fc\u00e7otaql\u0131 50 m\u0259nzil var. B\u00fct\u00fcn z\u0259ruri avadanl\u0131qla
+  t\u0259chiz olunan m\u0259nzill\u0259rin h\u0259r birinin \u00fcmumi sah\u0259si
+  110 kvadratmetrd\u0259n art\u0131qd\u0131r. Binalar\u0131n ikisi d\u0259 m\u0259rk\u0259zl\u0259\u015fdirilmi\u015f
+  havaland\u0131rma sistemi il\u0259 t\u0259min olunub. \u018ftrafda geni\u015f abadl\u0131q-quruculuq
+  i\u015fl\u0259ri apar\u0131l\u0131b, ya\u015f\u0131ll\u0131q zolaqlar\u0131 sal\u0131n\u0131b,
+  istirah\u0259t gu\u015f\u0259l\u0259ri yarad\u0131l\u0131b.\\nDaha sonra d\u00f6vl\u0259timizin
+  ba\u015f\u00e7\u0131s\u0131 \u201cN\u201d sayl\u0131 h\u0259rbi hiss\u0259nin qazanxana-cama\u015f\u0131rxana-hamam
+  kompleksind\u0259ki \u015f\u0259raitl\u0259 tan\u0131\u015f oldu. Bu kompleks d\u0259
+  m\u00fcasir s\u0259viyy\u0259d\u0259 yarad\u0131l\u0131b.\\n\u201cN\u201d sayl\u0131
+  h\u0259rbi hiss\u0259nin yem\u0259kxanas\u0131 il\u0259 tan\u0131\u015fl\u0131q
+  zaman\u0131 Ali Ba\u015f Komandana s\u0259hra \u015f\u0259raitind\u0259 yem\u0259k
+  haz\u0131rlamaq m\u0259qs\u0259dil\u0259 soba, \u015f\u0259xsi hey\u0259t \u00fc\u00e7\u00fcn
+  s\u0259hra \u015f\u0259raitind\u0259 suyun qaynad\u0131lmas\u0131, yem\u0259kl\u0259rin
+  v\u0259 \u00e7\u00f6r\u0259yin haz\u0131rlanmas\u0131, haz\u0131r yem\u0259kl\u0259rin
+  da\u015f\u0131nmas\u0131 \u00fc\u00e7\u00fcn x\u00fcsusi qablar v\u0259 soyuducular,
+  h\u0259m\u00e7inin son d\u00f6vrl\u0259rd\u0259 \u0259sg\u0259rl\u0259rin yem\u0259k
+  rasionuna edil\u0259n \u0259lav\u0259l\u0259r bar\u0259d\u0259 d\u0259 m\u0259lumat
+  verildi. Bildirildi ki, yem\u0259kxanada eyni vaxtda \u00fc\u00e7 min n\u0259f\u0259r
+  qidalana bil\u0259r.\\nPrezident \u0130lham \u018fliyev \u00e7\u00f6r\u0259k sexin\u0259
+  d\u0259 bax\u0131b. M\u0259lumat verilib ki, bu sex h\u0259rbi hiss\u0259nin \u015f\u0259xsi
+  hey\u0259tinin \u00e7\u00f6r\u0259y\u0259 olan t\u0259l\u0259bat\u0131n\u0131 tam
+  \u00f6d\u0259m\u0259y\u0259 imkan verir.\\nm\u0259nb\u0259 :\\nanspress\\n\u015e\u0259rh
+  yaz.\"", "\"Son zamanlar ictimai i\u015fl\u0259r c\u0259zas\u0131na m\u0259hkum
+  olunmu\u015f \u015f\u0259xsl\u0259r daha \u00e7ox m\u00fc\u0259yy\u0259n bir \u0259razini
+  s\u00fcp\u00fcrm\u0259kl\u0259 c\u0259zaland\u0131r\u0131l\u0131rlar.\\nAncaq bar\u0259sind\u0259
+  ictimai i\u015fl\u0259r t\u0259tbiq edil\u0259n \u015f\u0259xsl\u0259r h\u0259m
+  d\u0259 a\u015fa\u011f\u0131dak\u0131 i\u015fl\u0259r\u0259 c\u0259lb edil\u0259
+  bil\u0259rl\u0259r:\\n- \u015f\u0259h\u0259r, rayon \u0259razisinin, k\u00fc\u00e7\u0259,
+  park v\u0259 meydanlar\u0131n, yollar\u0131n, abadla\u015fd\u0131r\u0131lmas\u0131
+  v\u0259 t\u0259mizl\u0259nm\u0259si (o c\u00fcml\u0259d\u0259n, ya\u015f\u0131lla\u015fd\u0131r\u0131lmas\u0131,
+  qar v\u0259 ya\u011f\u0131\u015f sular\u0131n\u0131n f\u0259sadlar\u0131n\u0131n
+  aradan qald\u0131r\u0131lmas\u0131);\\n- m\u0259i\u015f\u0259t tullant\u0131lar\u0131n\u0131n
+  (\u0259halinin h\u0259yat f\u0259aliyy\u0259ti n\u0259tic\u0259sind\u0259 ya\u015fay\u0131\u015f
+  yerl\u0259rind\u0259 \u0259m\u0259l\u0259 g\u0259l\u0259n \u0259\u015fyalar\u0131n,
+  madd\u0259l\u0259rin v\u0259 materiallar\u0131n, tullant\u0131lar\u0131n) y\u0131\u011f\u0131lmas\u0131
+  (toplan\u0131lmas\u0131), \u00e7e\u015fidl\u0259nm\u0259si, da\u015f\u0131nmas\u0131,
+  yerl\u0259\u015fdirilm\u0259si, emal\u0131, istifad\u0259si, utilizasiyas\u0131,
+  z\u0259r\u0259rsizl\u0259\u015fdirilm\u0259si v\u0259 basd\u0131r\u0131lmas\u0131;\\n-
+  ya\u015fay\u0131\u015f \u0259razil\u0259rinin, x\u0259st\u0259xanalar\u0131n, m\u0259kt\u0259bl\u0259rin,
+  m\u0259kt\u0259b\u0259q\u0259d\u0259r t\u0259hsil m\u00fc\u0259ssis\u0259l\u0259rinin,
+  yataqxana v\u0259 pansionatlar\u0131n, sosial xidm\u0259t m\u00fc\u0259ssis\u0259l\u0259rinin,
+  habel\u0259 sosial sferan\u0131n dig\u0259r obyektl\u0259rinin tikintisi v\u0259
+  t\u0259miri;\\nM\u0259hk\u0259m\u0259 q\u0259rarlar\u0131nda is\u0259 yuxar\u0131da
+  sadalanan i\u015fl\u0259rd\u0259n daha \u00e7ox m\u00fc\u0259yy\u0259n bir \u0259razinin
+  s\u00fcp\u00fcr\u00fclm\u0259sin\u0259 \u00fcst\u00fcnl\u00fck verilir.\\nM\u00f6vzu
+  il\u0259 \u0259laq\u0259dar Yeniavaz.com-a fikirl\u0259rini bildir\u0259n Milli
+  M\u0259clisin deputat\u0131 Fazil Mustafa burada m\u0259hk\u0259m\u0259nin m\u0259s\u0259l\u0259y\u0259
+  nec\u0259 yana\u015fmas\u0131ndan as\u0131l\u0131 oldu\u011funu diqq\u0259t\u0259
+  \u00e7atd\u0131rd\u0131: \u201cC\u0259miyy\u0259td\u0259 abadl\u0131q i\u015fl\u0259ri
+  il\u0259 m\u0259\u015f\u011ful olmaq islah olma bax\u0131m\u0131ndan \u00e7ox da
+  q\u0131nay\u0131c\u0131 bir add\u0131m kimi say\u0131lm\u0131r. Amma c\u0259za olaraq
+  m\u00fc\u0259yy\u0259n bir \u0259razini s\u00fcp\u00fcr\u00fcb, t\u0259mizl\u0259m\u0259k
+  bir q\u0259d\u0259r f\u0259rqli asossasiya do\u011furur. C\u0259miyy\u0259td\u0259
+  c\u0259za olaraq k\u00fc\u00e7\u0259d\u0259 zibil y\u0131\u011fmaq bu m\u0259s\u0259l\u0259l\u0259ri
+  m\u0259n\u0259vi c\u0259h\u0259td\u0259n \u0259ks etdirir.\\nS\u00fcp\u00fcrg\u0259\u00e7il\u0259r
+  \u015f\u0259r\u0259fli insanlard\u0131r v\u0259 i\u015fl\u0259rind\u0259n \u00e7\u00f6r\u0259k
+  pulu qazan\u0131rlar. Ona g\u00f6r\u0259 d\u0259 onlar\u0131n pe\u015f\u0259sini
+  hans\u0131sa bir q\u0131nay\u0131c\u0131 pe\u015f\u0259 kimi g\u00f6st\u0259rm\u0259k
+  yanl\u0131\u015fd\u0131r. Sanki bu pe\u015f\u0259 islah \u00fc\u00e7\u00fcn daha
+  \u00e7ox yaray\u0131r, dig\u0259r pe\u015f\u0259l\u0259r o q\u0259d\u0259r d\u0259
+  yox. Bu c\u00fcr yana\u015fman\u0131 g\u00f6st\u0259rm\u0259k do\u011fru deyil.\\nM\u0259n
+  pe\u015f\u0259l\u0259r aras\u0131nda f\u0259rql\u0259r diqq\u0259ti \u00e7ox c\u0259lb
+  etm\u0259sin dey\u0259, abadl\u0131q v\u0259 ba\u015fqa m\u0259s\u0259l\u0259l\u0259rin
+  d\u0259 c\u0259za t\u0259tbiqin\u0259 sal\u0131nmas\u0131n\u0131n t\u0259r\u0259fdar\u0131yam.
+  M\u0259hk\u0259m\u0259 q\u0259rarda c\u0259zan\u0131 verm\u0259 s\u0259b\u0259bini
+  g\u00f6st\u0259rir\u201d - dedi.\\nK\u0259nan Q\u0259dirli\"", "\"04-06-2025 | 16:24\\n\u018fdliyy\u0259
+  Nazirliyi t\u0259r\u0259find\u0259n xarici d\u00f6vl\u0259tl\u0259rin aidiyy\u0259ti
+  qurumlar\u0131 il\u0259 beyn\u0259lxalq axtar\u0131\u015fa verilmi\u015f cinay\u0259t
+  t\u00f6r\u0259dilm\u0259sind\u0259 ittiham olunan \u015f\u0259xsl\u0259rin tutularaq
+  \u00f6lk\u0259miz\u0259 g\u0259tirilm\u0259si il\u0259 ba\u011fl\u0131 s\u0259m\u0259r\u0259li
+  \u0259m\u0259kda\u015fl\u0131q t\u0259dbirl\u0259ri davam etdirilir.\\n\u0130yunun
+  4-d\u0259 \u0130nterpolun Az\u0259rbaycan Respublikas\u0131ndak\u0131 Milli M\u0259rk\u0259zi
+  B\u00fcrosu t\u0259r\u0259find\u0259n beyn\u0259lxalq axtar\u0131\u015fa veril\u0259n
+  daha bir n\u0259f\u0259r \u015f\u0259xsin nazirlik t\u0259r\u0259find\u0259n Az\u0259rbaycana
+  ekstradisiyas\u0131 h\u0259yata ke\u00e7irilib.\\nBel\u0259 ki, bir s\u0131ra \u015f\u0259xsl\u0259rl\u0259
+  \u0259lbir olaraq xuliqanl\u0131q ed\u0259r\u0259k (Az\u0259rbaycan Respublikas\u0131n\u0131n
+  Cinay\u0259t M\u0259c\u0259ll\u0259sinin 221.2.1-ci madd\u0259si) a\u011f\u0131r
+  x\u0259sar\u0259tl\u0259r yetirm\u0259kd\u0259 ittiham edilmi\u015f Az\u0259rbaycan
+  Respublikas\u0131n\u0131n v\u0259t\u0259nda\u015f\u0131 \u0130sg\u0259nd\u0259rov
+  F\u0259rhad B\u0259hruz o\u011flunun yeri Birl\u0259\u015fmi\u015f \u018fr\u0259b
+  \u018fmirlikl\u0259rind\u0259 m\u00fc\u0259yy\u0259n olunaraq h\u0259bs edilib.\\nB\u018f\u018f
+  il\u0259 m\u00f6vcud olan Ekstradisiya haqq\u0131nda ikit\u0259r\u0259fli m\u00fcqavil\u0259y\u0259
+  \u0259sas\u0259n s\u0259lahiyy\u0259tli qurum kimi \u018fdliyy\u0259 Nazirliyi t\u0259r\u0259find\u0259n
+  m\u00fcvafiq sor\u011fu v\u0259 t\u0259l\u0259b olunan s\u0259n\u0259dl\u0259r qar\u015f\u0131
+  t\u0259r\u0259f\u0259 t\u0259qdim olunmu\u015f, habel\u0259 s\u0259m\u0259r\u0259li
+  dan\u0131\u015f\u0131qlar apar\u0131lm\u0131\u015fd\u0131r. N\u0259tic\u0259d\u0259
+  h\u0259min \u015f\u0259xsin \u00f6lk\u0259miz\u0259 ekstradisiyas\u0131 il\u0259
+  ba\u011fl\u0131 raz\u0131l\u0131q \u0259ld\u0259 olunmu\u015fdur.\\nF\u0259rhad
+  \u0130sg\u0259nd\u0259rov nazirliyin Beyn\u0259lxalq \u0259m\u0259kda\u015fl\u0131q
+  ba\u015f idar\u0259sinin v\u0259 Penitensiar xidm\u0259tin m\u0259sul \u0259m\u0259kda\u015flar\u0131
+  t\u0259r\u0259find\u0259n B\u018f\u018f-d\u0259n \u00f6lk\u0259miz\u0259 g\u0259tirilib
+  v\u0259 m\u0259hk\u0259m\u0259nin h\u0259bs q\u0259rar\u0131na \u0259sas\u0259n
+  Bak\u0131 \u0130stintaq T\u0259cridxanas\u0131na yerl\u0259\u015fdirilib.\\nNazirlik
+  t\u0259r\u0259find\u0259n bu sah\u0259d\u0259 laz\u0131mi t\u0259dbirl\u0259r davam
+  etdirilir.\"", "\"\u201cBarselona\u201dn\u0131n sabiq prezidenti Joan Qaspar koronavirus
+  s\u0259b\u0259biyl\u0259 dayand\u0131r\u0131lan La Liqayla ba\u011fl\u0131 a\u00e7\u0131qlama
+  verib.\\nKomanda.az \u0130spaniya m\u0259tbuat\u0131na istinad\u0259n x\u0259b\u0259r
+  verir ki, katalonlar\u0131n sabiq r\u0259hb\u0259ri, \u00e7empionat\u0131n m\u00fcmk\u00fcn
+  b\u0259rpas\u0131 v\u0259 PSJ-nin futbol\u00e7usu Neymarla ba\u011fl\u0131 dan\u0131\u015f\u0131b:\\n\u201cLa
+  Liqa t\u0259xir\u0259 sal\u0131nmam\u0131\u015fdan \u0259vv\u0259l \u201cReal\u201d
+  ilk pill\u0259d\u0259 olsayd\u0131, onda s\u00f6zs\u00fcz ki, \u00e7empionat vaxt\u0131ndan
+  \u0259vv\u0259l tamamlanard\u0131. \u201cBarselona\u201dya qar\u015f\u0131 m\u00fcnasib\u0259t
+  a\u00e7\u0131q-a\u015fkar g\u00f6r\u00fcn\u00fcr.\\nNeymar\u0131 yenid\u0259n \u201cBarselona\u201dda
+  g\u00f6rm\u0259k ist\u0259y\u0259r\u0259m. O, h\u0259l\u0259 d\u0259 komandaya b\u00f6y\u00fck
+  fayda ver\u0259 bil\u0259r\u201d.\\nLa Liqada 27 turdan sonra \u201cBarselona\u201d
+  58 xalla turnir c\u0259dv\u0259lind\u0259 ilk yerd\u0259 q\u0259rarla\u015f\u0131b
+  v\u0259 \u201cReal\u201d\u0131 2 xal qabaqlay\u0131r.\""]'
 src_ngrams: '{"1": [[["mostbet"], 23019712], [["m\u0259rc"], 22537792], [["bil\u0259rsiniz"],
   19138392], [["az\u0259rbaycan"], 18633443], [["pin"], 17328373]], "2": [[["pin up"],
   8973532], [["ed\u0259 bil\u0259rsiniz"], 5876445], [["up casino"], 5569205], [["x\u0259b\u0259r

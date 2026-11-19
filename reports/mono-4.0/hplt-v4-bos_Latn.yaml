@@ -1,4 +1,4 @@
-corpus: hplt-v4-bos
+corpus: hplt-v4-bos_Latn
 srclang: bos
 timestamp: 1789905313.437433
 warnings:
@@ -1370,7 +1370,820 @@ src_langs: '[["sr", 40005335], ["bs", 20910955], ["hr", 10405319], ["en", 352401
   6], ["bpy", 5], ["bh", 4], ["mai", 1]]'
 hardrules_tags: '{"not_too_long": 664967, "not_too_short": 10506530, "length_ratio":
   0, "no_urls": 2189802, "no_bad_encoding": 3417, "pii": 236100}'
-sample: hplt-v4-bos_Latn-sample
+sample: '["\"Pi\u0161e: Jeremy Corbyn, thebosniatimes.ba\\nBoris Johnson i konzervativci
+  prijete da \u0107e za 6 sedmica strovaliti na\u0161u zemlju u provaliju. On za to
+  nema mandat i ve\u0107i dio javnosti mu se protivi. Otkad je u julu postao premijer,
+  Johnson je pora\u017een na svakom glasanju u parlamentu. Njegovi nedemokratski manevri,
+  odluka da zatvori parlament i izbjegne odgovornost, sada su stigli do vrhovnog suda.
+  Njegova posjeta Luksemburgu pro\u0161log ponedjeljka bilo je samo jo\u0161 jedno
+  poni\u017eenje. Premijer je tamo oti\u0161ao bez plana i predloga, i izbjegao je
+  sva pitanja.\\nPrije tri godine Johnson je podr\u017eao brexit jer je mislio da
+  \u0107e to pogurati njegovu politi\u010dku karijeru \u2013 za svaki slu\u010daj
+  je napisao jedan \u010dlanak u prilog ostanku i jedan koji podr\u017eava izlazak.
+  Sad navija za izlazak bez dogovora, jer misli da \u0107e mu to donijeti politi\u010dku
+  korist \u2013 da \u0107e tako povratiti glasove koji su se odlili u partiju Brexit
+  i da \u0107e zadr\u017eati lojalnost ekstremnih brexitera me\u0111u torijevcima.
+  Za to vrijeme se pretvara da vrijedno radi na dogovoru sa Evropom.\\nJohnsonove
+  manipulacije nisu ni\u0161ta novo. Theresa May je pristala na kontradiktorne uslove
+  da bi sprije\u010dila raspad Konzervativne partije, dok je David Cameron raspisao
+  referendum prije svega da bi anulirao prijetnje desni\u010darskog Ukipa.\\nZa ovih
+  par godina, brexit saga je bila litanija torijevskih neuspjeha, iako je svaki njihov
+  premijer stavljao li\u010dne i partijske interese iznad interesa gra\u0111ana i
+  na\u0161e zemlje. Sada nam prijeti opasnost da sljede\u0107eg mjeseca izletimo iz
+  EU bez dogovora, samo da bi Johnson zadr\u017eao posao. Od Amber Rad, koja je dala
+  ostavku na mjesto u njegovom kabinetu, saznali smo da se u postizanje dogovora sa
+  EU ula\u017ee malo napora \u2013 zapravo, te\u0161ko je uo\u010diti bilo kakav znak
+  stvarnog truda. Bila je to potvrda nezvani\u010dnih pri\u010da o tome da su premijerovi
+  pregovori \u201eprivid\u201c i da je izlazak bez dogovora njegov pravi cilj.\\nUprkos
+  njegovom protivljenju, parlament je izdjestvovao objavu povjerljivih dokumenata
+  takozvane operacije \u010carobna \u0161eva,1 u kojima se postavljaju okviri pripreme
+  administracije za izlazak bez dogovora. U vladinoj analizi utvr\u0111eno je da \u0107e
+  Ujedinjeno Kraljevstvo biti izlo\u017eeno riziku nesta\u0161ica hrane i lijekova,
+  te haosa u glavnim lukama. Tako\u0111e je otkriveno da su ministri svjesno obmanjivali
+  javnost. Rekli su nam da ne\u0107e biti nesta\u0161ica hrane i lijekova, dok su
+  njihovi interni izvje\u0161taji pokazali da \u0107e ih biti.\\nOperacija \u010carobna
+  \u0161eva je podigla uloge. Johnsonov nerazuman brexit bez dogovora je prijetnja
+  za radna mjesta i \u017eivotni standard, a utjecao bi i na rast cijena hrane. Tako\u0111e
+  bi otvorio put jednostranom trgovinskom sporazumu sa Donaldom Trumpom, u \u010dije
+  bi se pregovore u\u0161lo sa slabije pregovara\u010dke pozicije.\\nTo ne bi bio
+  brexit bez dogovora, ve\u0107 brexit sa Trampovim dogovorom, dok hrlimo ka dnu s
+  pravima i za\u0161titama na\u0161ih gra\u0111ana prodatim ameri\u010dkim korporacijama.\\nOdsustvo
+  dogovora nije nikakav \u201e\u010disti rez\u201c, kako to neki zami\u0161ljaju,
+  poslije koga \u0107emo samo produ\u017eiti dalje. To bi u stvari bio po\u010detak
+  nove ere konfuzije i usporavanja, sa \u010ditavim nizom novih sporazuma sa EU koje
+  treba ispregovarati \u2013 ali ovoga puta u atmosferi rastu\u0107e nezaposlenosti,
+  osiroma\u0161enja i iseljenja \u010ditavih industrija iz zemlje.\\nLaburisti\u010dka
+  stranka \u0107e u\u010diniti sve \u0161to je potrebno da zaustavi kobni izlazak
+  bez dogovora i da sprije\u010di posljedi\u010dni haos, poreme\u0107aje i gubitke
+  radnih mjesta \u2013 a posebno ozbiljnu prijetnju koju bi takav epilog predstavljao
+  za mirovni proces u Sjevernoj Irskoj. Zato smo u saradnji sa drugim partijama u
+  parlamentu radili na dono\u0161enju zakona koji bi sprije\u010dio nesigurni izlazak
+  iz EU krajem oktobra.\\nKada jednom izlazak bez dogovora bude uklonjen sa dnevnog
+  reda, a premijer prinu\u0111en da se pridr\u017eava zakona, bit \u0107e nam potrebni
+  op\u0107i izbori kako bismo se otarasili Johnsonove torijevske vlade. Na tim izborima
+  \u0107e se odlu\u010divati o mnogo va\u017enijim pitanjima od brexita. Bit \u0107e
+  to izbor izme\u0111u laburisti\u010dke vlade s jedne strane, koja \u0107e bogatstvo
+  i vlast predati u ruke ve\u0107ine, a sa druge Johnsonovih konzervativaca ro\u0111enih
+  da vladaju koji \u0107e brinuti za privilegiranu nekolicinu. Bit \u0107e to izbor
+  za one koji \u0107e zaista okon\u010dati javnu \u0161tednju i donijeti promjene
+  koje su Britaniji potrebne, koji \u0107e investirati u svaki region i svaku naciju
+  na\u0161e zemlje, koji \u0107e obnoviti javne slu\u017ebe, zajednice i industriju.\\nBritanski
+  narod zaslu\u017euje priliku da se izjasni na op\u0107im izborima. Samo \u0107e
+  laburisti\u010dka vlada zaustaviti krizu izazvanu brexitom, vra\u0107aju\u0107i
+  odluku o tome gra\u0111anima. Mi \u0107emo im dati zavr\u0161nu rije\u010d u izboru
+  izme\u0111u vjerodostojne ponude za izlazak ili ostanak u EU.\\nLaburisti\u010dka
+  vlada bi obezbijedila razuman dogovor, zasnovan na uslovima za koje se ve\u0107
+  dugo zala\u017eemo, uklju\u010duju\u0107i novu carinsku uniju sa EU, blisku povezanost
+  na jedinstvenom tr\u017ei\u0161tu i garancije radni\u010dkih prava i ekolo\u0161ke
+  za\u0161tite. Zatim bismo takav dogovor stavili na javno glasanje naspram ostanka.
+  Obavezat \u0107u se da kao laburisti\u010dki premijer sprovedem ono \u0161to gra\u0111ani
+  odlu\u010de.\\nMi smo jedina stranka spremna va\u017ene odluke zaista prepustiti
+  gra\u0111anima Britanije. Johnson \u017eeli da iza\u0111emo iz EU bez dogovora.
+  Tome se protive biznis, industrija, sindikati i ve\u0107i dio javnosti \u2013 pa
+  \u010dak i suorganizator kampanje za izlazak, Michael Gove, koji je po\u010detkom
+  ove godine rekao: \u201eNismo glasali za izlazak bez dogovora.\u201c\\nSada liberalni
+  demokrati \u017eele da poslanici preokrenu rezultat referenduma opozivom \u010clana
+  50 kroz parlamentarnu manipulaciju. Naprosto je nedemokratski pogaziti odluku ve\u0107ine
+  glasa\u010da bez njihovog ponovnog izja\u0161njavanja.\\nLaburisti su jedina partija
+  odlu\u010dna okupiti gra\u0111ane i prepusti im kona\u010dnu rije\u010d. Samo glas
+  za laburiste \u0107e omogu\u0107iti glasanje o brexitu. Samo \u0107e laburisti\u010dka
+  vlada vratiti mo\u0107 gra\u0111anima. Zaustavimo brexit bez dogovora \u2013 a onda
+  neka gra\u0111ani odlu\u010de.\\n(TBT, The Guardian)\"", "\"Brazil \u0107e takmi\u010denje
+  po\u010deti utakmicom protiv Bolivije, 14. juna u Sao Paolu.\\nSelektor Brazila
+  Tite slo\u017eio se sa ocenom da je njegova ekipa imala sre\u0107e u \u017erebu.\\n-
+  Svesni smo toga, ali isto tako smo svesni i \u010dinjenice da moramo da igramo dobro
+  kako bismo dobili te utakmice - rekao je Tite.\\nArgentina je sme\u0161tena u Grupu
+  B zajedno sa Kolumbijom, Paragvajem i gostuju\u0107om reprezentacijom, selekcijom
+  Katara.\\nU Grupi C aktuelni \u0161ampion, reprezentacija \u010cilea, Urugvaj, Ekvador
+  i Japan, jo\u0161 jedna gostuju\u0107a reprezentacija na turniru.\\nPrva dva tima
+  iz svake grupe, kao i dva najbolja tre\u0107eplasirana plasira\u0107e se u \u010detvrtfinale.\\nKup
+  Amerike igra\u0107e se od 14. juna do 7. jula za kada je zakazano finale na Marakani.\\nCentar
+  Portland Trejlblejzersa Jusuf Nurki\u0107 uputio je na Tviteru negativan komentar
+  na ra\u010dun ministra zdravlja Republike Srpske Alena...\\nMladi \u0161toper, koji
+  je svojevremeno igrao i za na\u0161e mla\u0111e reprezentativne kategorije Dominik
+  Dinga, pro\u0161log leta je do\u0161ao u Partizan kao...\\nFudbala, ko\u0161arke,
+  tenisa, odbojke, hokeja nema u skoro svim zemljama sveta, pa je i sportistima nalo\u017eeno,
+  kao i ostatku naroda, da sede...\\nKOMENTARI\"", "\"Dr \u0110uro Musi\u0107, \u010duveni
+  ratni hirurg u nevesinjskoj bolnici i humanista\\nIz podgori\u010dkog Klini\u010dko-bolni\u010dkog
+  centra do\u0161ao je u Nevesinje 1.7.1993. da provede godi\u0161nji odmor operi\u0161u\u0107i
+  ranjenike u Domu zdravlja, a ostao sedam godina, uradiv\u0161i oko 1.700 malih i
+  velikih operacija, spasavaju\u0107i i vojnike i civile. Dr Musi\u0107 \u010duven
+  je po tome \u0161to mu nijedan ranjenik kog je operisao - nije umro! Hirurg bez
+  ijednog smrtnog slu\u010daja ipak ne \u017eeli da se hvali time. \u201eJa sam puno
+  pacijenata operisao, ali za njih desetak \u0161to su pre\u017eivjeli - mislim da
+  je to bila Bo\u017eja sila\u201c, jednostavno ka\u017ee\\nIzlet Slavka Podgoreleca
+  u staru Banjaluku\\nPodgorelec, izme\u0111u ostalog, \u201eotkriva\\\" da su prvu
+  elektri\u010dnu sijalicu u Banjaluci (1899. godine) upalili sve\u0107enici trapisti
+  osam godina prije Zagreba, da je Banjaluka 1617. otvorila prvu kafanu, a Pariz 54
+  godine kasnije, dok je Be\u010d za Banjalukom kasnio 66 godina, da smo prvi na Balkanu
+  sagradili hidrocentralu...\\nFinansijska kriza u Evropskoj uniji\\nTr\u017ei\u0161na
+  ekonomija odvija se samo jo\u0161 u ud\u017ebenicima. U praksi poku\u0161aji spasavanja
+  prenijeli su rizik na poreske obveznike, a finansijska tr\u017ei\u0161ta oslobo\u0111ena
+  su preduzetni\u010dke odgovornosti\\nDo bra\u010dnog druga preko agencije \u201eNikad
+  nije kasno\u201c\\nLjubanova \u201elista kvaliteta\u201c koju budu\u0107a djevojka
+  ili supruga treba da ispunjavaju, poprili\u010dno je duga. Izme\u0111u ostalog,
+  \u201eprava\u201c mora u vlasni\u0161tvu da ima stan ili ku\u0107u, ne smije \u201ebiti
+  ru\u017ena\u201c, ni starija od 35 godina, a po\u017eeljno je i da nema djecu\\nIntervju:
+  Rajko Grli\u0107 \u2013 Re\u017eiser\\nVolim pri\u010dati pri\u010de, igrati se
+  glumcima, u\u017eivam snimaju\u0107i filmove... Filmska re\u017eija je maksimum
+  manipulacije koju ljudsko bi\u0107e mo\u017ee sebi dozvoliti. Koristim to da stvorim
+  svoje svjetove u trajanju od dva sata\\nIntervju: Darko Ljubojevi\u0107, sportski
+  direktor FK \u201eBorac\u201c Banjaluka\\nU posljednje tri godine, klub se stabilizovao
+  i krenuo uzlaznom putanjom. Potvrda toga su i rezultati koje smo postizali u tom
+  vremenskom intervalu, gdje je osvojen Kup i prvenstvo BiH. \u201eBorac\u201c i u
+  narednim godinama ima isklju\u010divo \u0161ampionske ambicije, mada je na\u0161
+  prioritet redovan izlazak u Evropu\\nTeniski klub \u201eDr Mladen Stojanovi\u0107\u201c,
+  Prijedor\\n\u201eTeniska sekcija Prijedor\u201c, formirana je i registrovana kao
+  samostalna sportska organizacija 1932. godine. Na osnovu \u017eelja i prijedloga
+  svojih \u010dlanova i mnogobrojnih prijatelja tenisa, 1966. godine, odlu\u010deno
+  je da klub dobije novo ime \u2013 TK \u201eDr Mladen Stojanovi\u0107\u201c, u znak
+  sje\u0107anja i u \u010dast svog najpoznatijeg \u010dlana, osniva\u010da organizovanog
+  teniskog sporta u Prijedoru i narodnog heroja. Istovremeno je pokrenuta ideja o
+  organizovanju redovnog memorijalnog turnira u \u010dast dr Mladena Stojanovi\u0107a,
+  koji traje do danas\\n|\"", "\"Prava drama odvijala se ju\u010der na Ilid\u017ei,
+  gdje se sastao Izvr\u0161ni odbor Fudbalskog saveza BiH.\\nSve je bilo spremno za
+  promociju novog selektora fudbalske A reprezentacije, a to je trebao biti Ivaylo
+  Petev.\\nIako nema podr\u0161ku navija\u010da i ve\u0107eg dijela javnosti, Vico
+  Zeljkovi\u0107, predsjednik FSRS i budu\u0107i predsjednik FSBiH, poku\u0161ao je
+  \\\"autoritativno\\\", kao \u0161to je navikao, nametnuti svoje rje\u0161enje (priznao
+  da je Zvjezdan Misimovi\u0107 bio njegova marioneta tako \u0161to je nakon razgovora
+  sa kandidatima predlo\u017eio i \\\"aminovao\\\" bugarskog stru\u010dnjaka koji
+  je zapravo njegova \u017eelja).\\nZeljkovi\u0107ev plan, podr\u017ean delegatima
+  iz takozvanih \u017eupanijskih saveza (hrvatskog naroda u BiH), na kraju nije pro\u0161ao
+  jer su Bo\u0161njaci \\\"ulo\u017eili veto\\\".\\nStoga je bila razumljiva ljutnja
+  dvojice \u010dlanova IO iz FSRS, koji su pred novinarima rigali vatru na predsjednika
+  Elvedina Begi\u0107a, optu\u017eiv\u0161i ga da nije do\u0161ao na sjednicu IO,
+  ali je \\\"izvr\u0161io pritisak na bo\u0161nja\u010dke \u010dlanove IO da ne glasaju
+  za Peteva\\\".\\nIpak, da je obra\u0107anje medijima bio \\\"folklor\\\", kako bi
+  znao re\u0107i legendarni trener \u0106iro Bla\u017eevi\u0107, moglo se zaklju\u010diti
+  kada je nekoliko sati kasnije Irfan Duri\u0107, jedan od prozvanih Bo\u0161njaka,
+  potvrdio kako nije bilo nikakvog pritiska od predsjednika Begi\u0107a.\\nA \u0161ta
+  se zapravo dogodilo, za\u0161to su Bo\u0161njaci \\\"odbili\\\" Zeljkovi\u0107a
+  i njegovog Peteva?\\nKako saznaje Faktor, prije sjednice Izvr\u0161nog odbora, odr\u017ean
+  je sastanak na kojem su bili Duri\u0107, Muhidin Ra\u0161\u010di\u0107, Nurdin Pe\u0161tali\u0107,
+  Muhamed Begagi\u0107 i Midhet Saraj\u010di\u0107, koji su zauzeli zajedni\u010dki
+  stav po pitanju eventualnog glasanja.\\n- Nije bilo nikakvog telefonskog sastanka
+  kako tvrdi Zeljkovi\u0107, niti nas je zvao predsjednik Begi\u0107. I ostale dvije
+  komponente u Izvr\u0161nom odboru imaju takve sastanke. Za\u0161to je sada sporno
+  \u0161to smo se mi sastali? S obzirom na to da Emir Spahi\u0107 i Zvjezdan Misimovi\u0107
+  (\u010dlanovi stru\u010dne komisije, op. a.) nisu dostavili jedinstven prijedlog,
+  odnosno jedno ime, smatramo da Petev nije najbolje rje\u0161enje i da treba tra\u017eiti
+  dalje - potvrdili su za Faktor bo\u0161nja\u010dki \u010dlanovi u IO FSBiH.\\nIpak,
+  na sjednici Komisije za izbor selektora (Begi\u0107 nije prisustvovao, a \u010dlanovi
+  su jo\u0161 i Milorad Sofreni\u0107, Ivan Beus, Duri\u0107 i Zeljkovi\u0107), dogodilo
+  se ne\u0161to zbog \u010dega su Bo\u0161njaci zamjerili Duri\u0107u.\\nOn je, kako
+  je sino\u0107 tvrdio, Sofrani\u0107u, Beusu i Zeljkovi\u0107u rekao da podr\u017eava
+  Sergeja Barbareza (Spahi\u0107ev prijedlog), ali se na kraju priklonio kolegama
+  kako bi odluka na Komisiji bila 4:0 za Peteva (uz obja\u0161njenje da je preglasan
+  i da ne\u0107e podr\u017eati bugarskog trenera na sjednici IO, ukoliko ovaj prijedlog
+  bude na glasanju).\\nVjerovatno je Duri\u0107 bio uvjerljiv pa je ubijedio Zeljkovi\u0107a
+  i Sofreni\u0107a da ne\u0107e podr\u017eati Peteva, odnosno da bugarski stru\u010dnjak
+  ne\u0107e dobiti dovoljan broj glasova...\"", "\"U Novom Gradu danas je je obilje\u017eeno
+  29 godina od stradanja Srba u Pogromu \\\"Oluja\\\", hrvatskoj vojno-policijskoj
+  akciji u kojoj je iz Banije, Like, Korduna i sjeverne Dalmacije protjerano vi\u0161e
+  od 220.000 Srba, te ubijeno i nestalo 1.903.\\nU Hramu Svetih apostola Petra i Pavla
+  slu\u017een je parstos a nakon toga uz saobra\u0107ajnicu od Hrama prema Mostu spasa
+  na rijeci Uni prislu\u017eene su svije\u0107e, sa mosta na rijeci Uni spu\u0161tni
+  su vijenci.\\nU avgustu 1995. godine ovaj most pre\u0161lo je 100.000 izbjeglica
+  iz Republike Srpske Krajine, uglavnom sa podru\u010dja Banije, Korduna i Like.\\nU
+  Svodni , gdje je hrvatska avijacija ga\u0111ala izbjegli\u010dku kolonu polo\u017eeno
+  je cvije\u0107e kod spomen-krsta u ovom mjestu koji je 2012. godine podigao \\\"Veritas\\\"
+  za \u0161est civila stradalih u avgustu 1995. godine.\\nDirektor Dokumentaciono-
+  informacionog centra \\\"Veritas\\\" Savo \u0160trbac rekao je danas da se na ovim
+  prostorima \u017eivi pravosudna istina te da ima vremena za reviziju presude me\u0111unarodnog
+  suda pravde za operaciju \\\"Oluja\\\".\\n\u0160trbac je rekao da se idu\u0107e
+  godine navr\u0161ava 30 godina od operacije \\\"Oluja\\\".\\n\\\"Veritas je uputio
+  dopis Akademiji nauka i umetnosti Srbije /SANU/ da bude pokrovitel\u0458 me\u0111unarodnog
+  skupa . \u010cinjenica je da smo svi na ovim prostorima nezadovl\u0458ni radom i
+  presudama me\u0111unarodnih sudova, prije svih Srbi\\\", rekao je \u0160tbac .\\nPrema
+  njegovim rije\u010dima, s druge strane ovim presudama se ne suprostavl\u0458a nau\u010dna
+  istina.\\n\\\"Za\u0161to da to ne uradimo ako nismo zadovol\u0458ni pravosudnom,
+  sudskom istinom jer \u017eivimo istinu kako su je sudovi utvrdili\\\", rekao je
+  on.\\n\u0160trbac ka\u017ee da je odgovor SANU-a da 30 godina nije dovol\u0458na
+  vremenska distanca za takav skup te da nisu dostupne arhive.\\nOn je rekao da je
+  minuli rat, u odnosu na druge, bio mnogo transparentnijui te da su arhive miliom
+  ili silom u me\u0111unarodnim sudovima i uz dobru volju dostupne.\\n\\\"SANU je
+  odbila, javio se Institut za noviju istoriju, Muzej \u017ertava genocida i univerziteti
+  koji su vol\u0458ni da s nama organizuju me\u0111unarodni skup , da svi iznesu svoja
+  mi\u0161l\u0458enja i da onda potvrdimo ili opovrgnemo sudsku istinu\\\", rekao
+  je on.\\n\u0160trbac je rekao da je u Oluji poginulo i nestalo 1.903 l\u0458udi,
+  od kojih je 1.246 civila me\u0111u kojima 563 \u017eene.\\nPrema njegovim rije\u010dima,
+  jo\u0161 uvijek je na spisku nestali 623 l\u0458udi.\\nNa\u010delnik op\u0161tine
+  Novi Grad Miroslav Drl\u0458a\u010da rekao je da u avgustu 1995. godine vi\u0161e
+  od 100.000 Srba protjeranih iz Banije, Like, Korduna i sjeverne Dalmacije pre\u0161lo
+  u Novi Grad.\\n\\\"Ve\u0107ina njih je u tom trenutku znala da se vi\u0161e nikad
+  ne\u0107e vratiti. Hrvati slave Pirovu pobjedu jer prostor sa kojeg su protjerali
+  Srbe polako umire\\\", rekao je on.\\nDrl\u0458a\u010da ka\u017ee da je tu\u017eno
+  \u0161to za ovaj egzodus Srba niko nije odgovarao.\\nHrvatska vojno-policijska akcija
+  \\\"Oluja\\\" po\u010dela je 4. avgusta 1995. godine ofanzivom hrvatske vojske i
+  policije, te jedinica HVO-a na podru\u010dju Banije, Like, Korduna i sjeverne Dalmacije.\\nDan
+  kasnije, 5. avgusta, hrvatska vojska je u\u0161la u gotovo napu\u0161ten Knin i
+  istakla zastavu Hrvatske, dok su kolone izbjeglica preko srpskih teritorija u BiH
+  krenule ka Srbiji.\"", "\"Ju\u010de su na adrese \u010dlanova neformalne grupe gra\u0111ana
+  Pravda za Davida stigla dva sudska rje\u0161enja, koja nesumljivo ukazuju na bahatost
+  kako policijskih struktura, tako i gradskih vlasti grada Banja Luka. Da li je pravda
+  zaista dosti\u017ena i po\u010dinje li sa ovim etapa ka\u017enjavanja represije
+  i bahatosti, ostaje nam da vidimo.\\nZa doga\u0111aje koji su se odigrali 20. septembra
+  2018. godine ispred PU Banja Luka, a kojima je predhodio napad na Davora Dragi\u010devi\u0107a
+  od strane penzionisanog pripadnika MUP-a iz Br\u010dkog \u0110or\u0111a Markovi\u0107a,
+  MUP RS je teretio 27 lica za prekr\u0161aje iz Zakona o javnom redu i miru i Zakona
+  o javnom okupljanju. Ovaj slu\u010daj je pred sudom predstavljen 3. decembra pro\u0161le
+  godine i tom prilikom sudija Dijana Gluhakovi\u0107 je zahtijevala od Ministarstva
+  unutra\u0161njih poslova kao podnosioca tu\u017ebenog zahtjeva, dopunu dokumentacije
+  kojom je trebalo da se jasno uka\u017ee na pojedina\u010dne prekr\u0161aje svakog
+  od navedenih 27 lica . Rok za dostavu dopune dokumentacije je bio 30 dana. Kako
+  iz PU Banja Luka nisu u datom roku izvr\u0161ili tra\u017eenu dopunu, Osnovi sud
+  je ovaj zahtjev za pokretanje prekr\u0161ajnog postupka odbacio kao neosnovan, te
+  su se \u201corgani reda\u201d na ovakvu odluku Osnovnog suda \u017ealili Okru\u017enom
+  sudu u Banja Luci, koji je u sudskom odlu\u010divanju 06. jula ove godine tako\u0111e
+  ovu \u017ealbu odbacio kao neosnovanu.\\nVi\u0161e se zaista ne zna ni broj sudskih
+  postupaka koji su zavr\u0161eni i koji se tek trebaju okon\u010dati pred sudom,
+  a koje je MUP RS pokrenuo protiv ovih aktivista. Do sada niti jedan od postupaka
+  nije rezultirao ka\u017enjavanjem po gra\u0111ane, \u0161to jasno ukazuje na evidentno
+  kr\u0161enje ljudskih prava ovim gra\u0111anima i zloupotrebu slu\u017ebenog polo\u017eaja.
+  Pripadnici grupe Pravda za Davida su sa svojim advokatima najavili preduzimanje
+  pravnih postupaka prema svim pripadnicima MUP-a koji su u ovome u\u010destvovali,
+  a nesumljivo je da \u0107e ove sudske odluke biti jedan od klju\u010dnih dokaza
+  u procesima koje \u0107e oni voditi pred sudovima.\\nPo\u010detkom aprila pro\u0161le
+  godine aktivisti su napravili akciju \u010di\u0161\u0107enja sme\u0107a na obali
+  rijeke Crkvene , na mjestu na kojem je godinu dana prije toga prona\u0111eno be\u017eivotno
+  tijelo mladi\u0107a Davida Dragi\u010devi\u0107a. Nakon \u0161to su cijeli teren
+  o\u010distili , od prirodnih materijala su napravili simboli\u010dni spomenik ovom
+  mladi\u0107u, kao znak sje\u0107anja na njegovu pogibiju i podsje\u0107anja svih
+  gra\u0111ana na ubistvo koje nije rije\u0161eno. Tom prilikom su posadili i dvije
+  mlade sadnice dunje, koje su imale simboliku \u201cpravde\u201d i \u201cistine\u201d.
+  Samo dan nakon \u0161to je ovo obilje\u017eje postavljeno, komunalna policija grada
+  Banja Luka je pokidala sadnice i uklonila svaki djeli\u0107 ovog simboli\u010dnog
+  spomenika. Nakon uklanjanja ovog \\\"po \u017eivot opasnog materijala\\\" ostavili
+  su na mjestu stradanja mladi\u0107a \u201cporuku\u201d u vidu rje\u0161enja od strane
+  gradske uprave kojim je nalo\u017eeno uklanjanje objekata sa obale rijeke,a koji
+  su prema \u010dlanu zakona koji je naveden u obrazlo\u017eenju \u201cpredstavljali
+  opasnost po \u017eivot i zdravlje ljudi\u201d.\\n\u010clan grupe Pravda za Davida
+  i aktivista Ozren Perduv je tada podnio \u017ealbu gradskoj upravi na ovakvu odluku,
+  koju su oni odbili rje\u0161enjem izdatim 31. jula 2019. godine. Aktivisti nisu
+  bili zaustavljeni ovakvom odlukom i odlu\u010dili su da pokrenu upravni spor tu\u017ebom
+  pred Okru\u017enim sudom u Banja Luci, a u me\u0111uvremenu su konstantno iz dana
+  u dan obnavljali ovaj simboli\u010dni spomenik sa\u0111enjem cvije\u0107a i paljenjem
+  svije\u0107a, a koji bi odmah sutradan bio ponovo uklonjen od strane komunalne policije.
+  Prkos ovih ljudi je bio zadivljuju\u0107i , kao i njihova ogromna volja i snaga
+  da svaki put ponovo urede mjesto na kojem je David prona\u0111en. 13. jula ove godine
+  Okru\u017eni sud je donio presudu po pitanju ovog upravnog spora koji je pokrenut
+  od strane Ozrena Perduva zajedno sa advokatom Milanom Male\u0161evi\u0107em. U presudi
+  koja je napisana na 7 stranica vrlo jasno se ukazuje na nelogi\u010dne i bahate
+  postupke gradskih vlasti i poni\u0161tava se akt koji je donio grad Banja Luka.\\nOve
+  dve odluke Okru\u017enog suda u Banja Luci su donesene u razmaku od 7 dana, a na
+  adrese aktivista su stigle u istom danu. Da li to zna\u010di da je 16. juli dan
+  kojim je po\u010delo raskrinkavanje represije koja se vodi pod pla\u0161tom zakona
+  i da li \u0107e borba ovih aktivista zaista donijeti promjene i bu\u0111enje ostalih
+  uspavanih gra\u0111ana, ostaje nam da vidimo, ali je neosporna \u010dinjenica da
+  su sudovi svojim odlukama jasno ukazali da svo ovo vrijeme zakon kr\u0161en na \u0161tetu
+  ovih gra\u0111ana.\\nAutor : Slobodna rije\u010d\\nFoto : Facebook grupa Pravda
+  za Davida\"", "\"Nakon \u0161to su mediji objavili kako je Njema\u010dka na sastanku
+  politi\u010dkog i sigurnosnog komiteta Evropske unije zatra\u017eila uvo\u0111enje
+  sankcija protiv zvani\u010dnika u Republici Srpskoj, te da se Ma\u0111arska usprotivila
+  toj inicijativi, \u0161ef ma\u0111arske diplomatije Peter Sijarto u ekskluzivnom
+  intervjuu za BHT1 ka\u017ee da Ma\u0111arska smatra kako sankcije nisu alat broj
+  jedan, jer sve dosada\u0161nje sankcije koje je uvodila Evropska unija nisu postigle
+  rezultate.\\nU intervjuu je, izme\u0111u ostalog, odgovorio i na pitanje ho\u0107e
+  li Viktor Orban nakon Banje Luke posjetiti i Sarajevo.\\n\u201cMeni se ne svi\u0111a
+  pravac u kojem se razvija vanjska politika Evropske unije. Po onome \u0161to sada
+  vidim jedini alat evropske vanjske politike postaju sankcije. \u0160ta god se desi
+  bilo gdje u svijetu, odgovor iz brisela su sankcije, sankcije i sankcije. Ako pogledate
+  u pro\u0161lost, nijedne nisu doprinijele postizanju cilja koji se \u017eeli ostvariti
+  sankcijama\u201c, kazao je on.\\n\u201cNaprotiv, postignuti su druga\u010diji rezultati
+  od o\u010dekivanih. I zato mislim da su konsultacije i dijalog mnogo va\u017eniji
+  i bolji na\u010din da se upravlja razli\u010ditim stvarima. Generalno, nismo razgovarali
+  samo o pitanjima BiH, nego smo razgovarali cijelom Zapadnom Balkanu. Mislim da je
+  situacija ovdje dosta tu\u017ena, ne zbog vas, nego zbog nas, zbog EU. Jer EU je
+  jako spora, izuzetno spora i ne prihvata integracije. Pro\u0161irenje eu se treba
+  ubrzati, u suprotnom \u0107emo izgubiti zamah, jer u geopolitici ne postoji vakuum,
+  neko ce uci, neko ce zauzeti nasu poziciju. Kada razgovaramo o Z. Balkanu sa ministrima
+  vanjskih poslovca eu vecina kolega se zali na cinjenicu da postoje drugi akteri
+  drugi akteri.\u201d\\nDo sada mogu\u0107e sankcije protiv Dodika su tek spominjane
+  u nekim politi\u010dkim izazovima, naglasio je Sijarto za BHRT.\\n\u201cNije do\u0161lo
+  nekog konkretnog politi\u010dkog prijedloga, nije ponu\u0111en nikakv nacrt, tako
+  da ne postoji neki problem kome \u0107emo se protiviti. Mi smo samo jasno rekli
+  da ne mislimo da su sankcije alat broj jedan u takvim situacijama, jer opet podsje\u0107am
+  na do\u0161adasnja isksutva. Sankcije koje je nametala EU nisu bili nikakvi rezultati.
+  Ono sto ja mislim da treba uraditi, i to sam savjetovao kolegama, da do\u0111ete
+  u u BiH, razgovarate sa duznosnicima u Sarajevo i Banjaluku i poku\u0161ate razumjeti
+  kakva je situacija i ponudite pomo\u0107 i rje\u0161enje.\u201d\\nIntervju je objavljen
+  nakon Dnevnika, u 19 sati i 25 minuta.\"", "\"U Bosni i Hercegovini se danas o\u010dekuje
+  prete\u017eno obla\u010dno vrijeme sa padavinama \u0161to uklju\u010duje ki\u0161u,
+  ali i snijeg tokom ve\u010dernjih sati.\\nPrije podne je u Hercegovini mogu\u0107a
+  slaba ki\u0161a. Do kraja dana o\u010dekuje se lokalna pojava grmljavine. U vi\u0161im
+  podru\u010djima centralne i isto\u010dne Bosne i na planinama o\u010dekuje se susnje\u017eica
+  ili snijeg.\\nU kasnim ve\u010dernjim satima, snijeg ili susnje\u017eica se mogu
+  o\u010dekivati i u nizinama centralne i isto\u010dne Bosne.\\nVjetar slab do umjeren
+  ju\u017eni. Krajem dana i tokom no\u0107i vjetar u skretanju na sjeverni, pri \u010demu
+  se u Bosni o\u010dekuju jaki do olujni udari vjetra.\\nJutarnja temperatura od 4
+  do 10, a dnevna od 8 do 14, na jugu, sjeveru i sjeveroistoku Bosne do 18 \u00b0C.\\nKi\u0161ovito
+  i prete\u017eno obla\u010dno vrijeme bi se trebalo nastaviti i u narednim danima.\\nPro\u010ditajte
+  vi\u0161e: U BiH danas ki\u0161a i obla\u010dno vrijeme\"", "\"Mnogobrojni trgovci
+  oko grani\u010dnog prelaza Gradi\u0161ka, koji su nekada odli\u010dno zara\u0111ivali,
+  danas jedva odr\u017eavaju u \u017eivotu otkako se, kako tvrde, dobrano srozala
+  kupovna mo\u0107 Hrvata!\\nOni za SrpskaCafe pri\u010daju da se slabija kupovna
+  mo\u0107 posebno osje\u0107a nakon ulaska kom\u0161ija pod okrilje Evropske unije.\\n\u2013
+  U zadnjih pet godina mnogi ovda\u0161nji trgovinski, pa i ugostiteljski objekti
+  su morali da stave klju\u010d u bravu zbog opadanja zarade. Nisu mogli da izdr\u017ee
+  namete bez adekvatnog pazara \u2013 navode na\u0161i sagovornici.\\nI Milojka Dragi\u010devi\u0107,
+  vlasnica jedne od trgovinskih radnji blizu grani\u010dnog prelaza potvr\u0111uje
+  za SrpskaCafe pad kupovne mo\u0107ni kod dr\u017eavljana Hrvatske i ostalih stranaca.\\n\u2013
+  Izgleda da je velika kriza ne samo u Hrvatskoj ve\u0107 i u inostranstvu, zato \u0161to
+  smo nekada imali redovne mu\u0161terije koje su dolazile gotovo svake sedmice, a
+  sada ih vi\u0111amo jednom u dva, tri mjeseca \u2013 isti\u010de Dragi\u010devi\u0107eva
+  \u010dija je prodavnica zatrpana gajbama O\u017eujskog, Karlova\u010dkog i Pan piva.\\nOna
+  dodaje da je kod grani\u010dnog prelaza nekada bilo daleko vi\u0161e ljudi, prodavnica
+  i robe, a sada i poznata buvlja pijaca u Gradi\u0161ci krizira.\\n\u2013 Pola tezgi
+  na buvljaku je zatvoreno \u2013 navodi na\u0161a sagovornica.\\nTo potv\u0111uju
+  i trgovci sa buvljaka koji isti\u010du da i ono malo robe \u0161to prodaju, pazare
+  Slovenci, koji svakog drugog vikedna dolaze u organizovanim grupama.\\nKada je rije\u010d
+  o Hrvatima, oni obi\u010dno kupuju cigarete, alkoholna pi\u0107a, gorivo i drugu
+  robu, jer je u BiH ni\u017ei PDV nego u njihovoj zemlji.\\n\u2013 Ove ru\u010dne
+  radove od vune, \u010darape, kape i ovo \u0161to heklam mogu sada prodati samo ako
+  naletim na nekakve bogatije ljude. Pro\u0161la su vremena kada se od ovoga znalo
+  dobro zaraditi \u2013 ka\u017ee baka koja juri od automobila do automobila da bi
+  ponudila svoje rukotvorine.\\nSli\u010dno tvrdi i omanja grupa \u0161vercera cigareta
+  i narodnja\u010dkih cd-ova, dodaju\u0107i da svi koji \u017eive od granice mogu
+  o\u010dekivati bolje prihode samo u danima velikih gu\u017evi na prelazu.\\nI dok
+  odlazimo, sre\u0107emo par lokalaca koji uglas ka\u017eu da je grani\u010dni prelaz
+  dobar samo za one koji \u017eive od granice, dok je za mje\u0161tane lo\u0161.\\n\u2013
+  U Gradi\u0161ci je sve puno skuplje. Cijene su nam znatno vi\u0161e nego u Banjaluci
+  i ako su Hrvati ostali bez love, mo\u017eete misliti kakav bijedan standard mi imamo
+  \u2013 ka\u017eu ovi Gradi\u0161\u010dani.\\nM. \u010cabarkapa\\nBesplatnu Android
+  aplikaciju portala SrpskaCafe preuzmite ovdje.\"", "\"Prema podacima Svjetske zdravstvene
+  organizacije, alarmiraju\u0107a je \u010dinjenica da ve\u0107ina djece na svijetu,
+  \u010dak 93% njih, udi\u0161e \u0161tetan vazduh. Ali novi projekat kombinuje arhitekturu,
+  biotehnologiju i nauku kako bi pro\u010distili vazduh tamo gdje bi trebao biti bezbri\u017ean
+  prostor za djecu \u2013 na igrali\u0161tu.\\nUpoznajte Otrivin AirBubble, projekat
+  za koji tvrde da je prvo igrali\u0161te za pro\u010di\u0161\u0107avanje zraka na
+  svijetu. Izgra\u0111eno okru\u017eenje koje \u010dist zrak koji djeca udui\u0161u
+  dok se igraju. Projekat je dio kampanje ovog brenda spreja za nos, kako bi podigli
+  svijest o uticaju zaga\u0111enog zraka na zdravlje djece, i kako bi pozvali ljude
+  da poduzmu akcije u vezi sa tim.\\nAgencijaSaatchi & Saatchi London je kreirala
+  koncept AirBubble, nakon\u010dega su pozvali i ecoLogisStudio, agenciju za inovacije
+  u dizajnu koja je specijalizirana za \u201eprirodna\u201c rje\u0161enja, pretvara
+  ideje u stvarnost.\\nAirBubble je unikatno arhitektonsko ostvarenje, koje integrira
+  52 cilindra algi, kroz koje fotosinteza filtrira zaga\u0111iva\u010de u zraku i
+  osloba\u0111a kiseonik. Dje\u010dije aktivnosti unutar AirBubblea poma\u017eu cirkulaciju
+  vazduha kroz alge, tako da \u0161to vi\u0161e se djeca igraju, zrak je \u010di\u0161\u0107i.\\nIgrali\u0161te
+  \u0107e biti otvoreno za javnost naredna \u010detiri mjeseca u nau\u010dnom centru
+  Copernicus u Var\u0161avi u Poljskoj, koja je jedna od najzaga\u0111enijih zemalja
+  u Evropi.\\nDa bi predstavili AirBubble, agencija Saatchi&Saatchi je kreirala oglas
+  koji sadr\u017ei crno-bijele fotografije djece koje nose gas maske i razgovaraju
+  o gu\u0161enju, i njihovoj upla\u0161enosti zbog \u201estraha od disanja\u201c uslijed
+  zaga\u0111enja zraka. Narator u video je devetogodi\u0161nja Licypriya Kangujam,
+  aktivistica i influenserka iz Indije, koja se svijetu obratila na COP-25 konferenciji.
+  Video, koji je re\u017eirao vi\u0161estruko nagra\u0111ivani re\u017eiser Airton
+  Carmignani, poznatiji kao Tino, zavr\u0161ava re\u010denicom \u201ePomozimo im da
+  lak\u0161e di\u0161u.\u201c\\n\u201eZaga\u0111enje je jedno od goru\u0107ih svjetskih
+  pitanja. \u0160ta vi\u0161e, djeca su pod jo\u0161 ve\u0107im uticajem jer su bli\u017ee
+  zemlji, gdje se skupljanju najotrovnije \u010destice. Otrivin postoji kako bi pomogao
+  ljudima da lak\u0161e di\u0161u, a upravo to radimo sa ovim projektom,\u201c rekao
+  je Farhad Nadeem, globalni direktor marketinga u Otrivinu. \u201cJako smo uzbu\u0111eni
+  zbog ove inovativne promjene: \u0161ta ako mo\u017eemo sagraditi igrali\u0161ta
+  u centrima gradova, unutar kojih bi zrak bio \u010dist i siguran?\u201c\\nProjektni
+  tim:\\nKlijent: GSK\\nAgencija: Saatchi & Saatchi\\nKreativni direktor: Guillermo
+  Vega\\nKreativni direktor: Lauren Dyer\\nCopywriteri: Katy Stanage, Olivia Weston\\nArt
+  Direktor: Fabiano Gomes, Emily Downing\\nDizajner: Miri Menendez\\nPlaner: Mathieu
+  Abet\\n\u0160ef biznisa: Clare Shaw\\nAccount Tim: Isaac Hickinbottom, Zara Hutchins\\nTV
+  Producent: Fritha Dickie\\nKreativni producent: Emma Whiting\\nAgencija za medijski
+  zakup: Publicis\\nMedia Planer: Sarah Baumann\\nProdukcijska kompanija: Stink\\nRe\u017eiser:
+  Tino\\nUrednik: Danilo Abraham\\nProducent: Fran Thompson\\nPost-produkcijska kompanija:
+  Black Kite\\nKompozitor: Glen Brown\\nAudio Post-Produkcijska kompanija: Wake The
+  Town\"", "\"Have anything to say about this article?\\nYou can report: fake news,
+  misinformation, error, more information, additional data, etc.\\nCommentYour comment
+  has been sent successfuly! Thank you.\\nJo\u0161 jedno upozorenje OHR-a i Ambasade
+  SAD-a vlastima ZDK-a\\nUred visokog predstavnika i Ambasada SAD-a u na\u0161oj zemlji
+  drugi put su u nekoliko mjeseci upozorili vlasti u ZDK-u da, odla\u017eu\u0107i
+  primjenu, ali i namjerom da se mijenjaju odre\u0111ene odredbe Zakona o unutarnjim
+  poslovima, ne pokazuju spremnost po\u0161tivati principe policijske nezavisnosti.
+  - Ukoliko Skup\u0161t\u00bb\u00bb\u00bb\"", "\"Digital\\nIntegrations\\nInteractive\\nVisual\\nIntegrations\\nZa
+  transformaciju nacina rada u digitalnom dobu neophodna su efikasna re\u0161enja
+  koja integrisu najsavremeniju tehnologiju, nove i inovativne proizvode, i napredne
+  softverske platforme koje odgovaraju va\u0161im stvarnim potrebama.\\nModernizujte
+  biznis\\n- Kreirajte fleksibilno i dinami\u010dno radno okru\u017eenje\\n- Omogu\u0107ite
+  svim \u010dlanovima tima da u\u010destvuju u projektu sa bilo koje lokacije\\n-
+  Ubrzajte va\u0161 tim i pove\u0107ajte njegovu efikasnost\\nDizajniramo i projektujemo
+  AV & IT sisteme bazirane na vizuelnim tehnologijama i nudimo \u201ctaylor made\u201d
+  resenja prema zahtevima klijenta u razlicitim oblastima, od in house treninga u
+  kompanijama, preko rada zaposlenih \u201cna daljinu\u201d, do kontrole procesa rada
+  i proizvodnje u javnom i privatnom sektoru.\\nNova definicija u\u010dionice\\n-
+  Pove\u017eite u\u010denike i profesore\\n- Kreirajte digitalni sadr\u017eaj za u\u010denje\\n-
+  Upotrebite moderne tehnologije i interaktivne ure\u0111aje za br\u017ee i\\nkvalitetnije
+  rezultate\\nDVS \u2013 Division Visual Solutions je kompanija specijalizovana u
+  dizajniranju i projektovanju audio-vizuelnih integracija, sistema za digitalno ozna\u010davanje,
+  kontrolno-komandnih soba i centara i savremenih edukativnih re\u0161enja.\\nDIVI
+  - Digital Interactive Visual Integration \u2013 sektor kompanije DVS specijalizovan
+  je u domenu integracije novih Audio & Video tehnologija u dnevnom poslovanju kompanija,
+  kao i primenu interaktivnih resenja i edukativnih sadrzaja u osnovnom, srednjem
+  i akademskom obrazovanju.\\nPARTNERI:\\nOffice:\\nTatjana \u017divanovi\u0107 (Office
+  Manager) 064/6466647\\nKompanija Division Visual Solutions d.o.o. i njene slu\u017ebe
+  vam stoje na raspolaganju.\\nNesmetano nastavljamo rad na aktuelnim projektima i
+  odr\u017eavamo postoje\u0107e. Na\u0161i telefoni su otvoreni za sva va\u0161a pitanja
+  i upite:\\nStojan Proti\u0107 (Business Development Manager) 064/6466645\\nIgor
+  Filiposki (Sales Manager) 064/6466646\\nAleksandar Petrovi\u0107 (Sales Manager)
+  064/6466649 a\\nMihailo \u0106ori\u0107 (Educational Sales Consultant) 063/433236\"",
+  "\"Prodaja vozila na evropskom tr\u017ei\u0161tu ponovo je porasla u avgustu, pokazali
+  su podaci Evropskog udru\u017eenja proizvo\u0111a\u010da automobila (ACEA).\\n\\\"U
+  avgustu je u Evropskoj uniji (EU) registrovano 787,63 hiljade novih automobila,
+  21 odsto vi\u0161e nego u istom pro\u0161logodi\u0161njem mjesecu\\\", naveli su
+  iz ACEA, napominju\u0107i da je potra\u017enja u posljednjem ljetnjem mjesecu obi\u010dno
+  slabija.\\nU julu je njihov broj uve\u0107an 15,2 odsto, prenosi Hina.\\nPodaci
+  pokazuju da se period ja\u010danja potra\u017enje za novim automobilima u EU produ\u017eio
+  na ne\u0161to vi\u0161e od godinu, odra\u017eavaju\u0107i, izme\u0111u ostalog,
+  nisku usporednu osnovicu u pro\u0161loj godini, povezanu s nesta\u0161icom dijelova.\\nU
+  grupi vode\u0107ih tr\u017ei\u0161ta, najvi\u0161e je porasla prodaja u Njema\u010dkoj,
+  37,3 odsto. Slijede Francuska i Italija sa skokom potra\u017enje 24,3 odsto odnosno
+  11,9 odsto. Najskromniji rast zabilje\u017eila je \u0160panija, 7,8 odsto.\\nNajve\u0107i
+  pad prodaje zabilje\u017eila je Ma\u0111arska, 10,4 odsto. Slijedi Slovenija gdje
+  je smanjena tri odsto.\\nU prvih osam ovogodi\u0161njih mjeseci, tr\u017ei\u0161te
+  automobila u EU poraslo je 17,9 odsto u odnosu na isti pro\u0161logodi\u0161nji
+  period, uz registrovanih 7,1 miliona novih vozila.\\n\\\"Rezultat nagovje\u0161tava
+  oporavak evropske automobilske industrije od pandemijskih poreme\u0107aja\\\", smatraju
+  u ACEA-i, upozoriv\u0161i ipak da je obim prodaje i dalje 21 odsto manji nego u
+  pretpandemijskoj 2019. godini.\\nVe\u0107ina tr\u017ei\u0161ta zabilje\u017eila
+  je dvocifrene stope rasta, uklju\u010duju\u0107i \u010detiri najve\u0107a, pa je
+  tako prodaja u \u0160paniji i Italiji porasla ne\u0161to vi\u0161e od 20 odsto,
+  a u Francuskoj i Njema\u010dkoj oko 17 odsto.\"", "\"Danas je u online formatu odr\u017eana
+  sve\u010dana promocija 5.088 diplomanata i magistranata fakulteta i akademija Univerziteta
+  u Sarajevu, a dio sve\u010danosti odr\u017ean je u Domu mladih u Sarajevu kojoj
+  su prisustvovali rektor prof. dr. Rifat \u0160krijelj, prorektori Univerziteta u
+  Sarajevu i dekani fakulteta i akademija.\\n\u0160krijelj je tokom obra\u0107anja
+  kazao kako se sve\u010danost odr\u017eava u izmijenjenom obliku zbog pandemije.
+  Tom prilikom podsjetio je kako UNSA postoji 71 godinu za vrijeme kojeg je bio i
+  ostao generator razvoja i progresa cijele Bosne i Hercegovine.\\n\u201cUniverzitet
+  u Sarajevu po principu duhovne gravitacije okuplja sve glavne potencijale u sferi
+  nauke, duhovnosti i umjetnosti i predstavlja sna\u017enu potporu cjelokupnom obrazovnom
+  sistemu u na\u0161oj zemlji. U nadolaze\u0107em vremenu o\u010dekivanja i zahtjevi
+  od dru\u0161tva prema univerzitetima su sve ve\u0107i. Zato je na\u0161a osnovna
+  misija i vizija stavljanje mladog \u010dovjeka u fokus saznanja i istra\u017eivanja,
+  kako bi mogao odgovoriti na sve izazove sutra\u0161njice. Pored na\u0161e opredijeljenosti
+  za produkciju savremenih i dinami\u010dnih studijskih programa, na Univerzitetu
+  u Sarajevu, kao univerzitetu sa vlastitom tradicijom koji je sa\u010duvao svoju
+  multietni\u010dnost i multikulturalnost, decenijama se ba\u0161tini uva\u017eavanje
+  drugog i druga\u010dijeg, \u0161to je dovelo do toga da studenti i profesori osje\u0107aju
+  svoj univerzitet kao mjesto vlastitog izrastanja.\\nIzazovi na kraju druge dekade
+  21. stolje\u0107a bili su ogromni za \u010ditavo \u010dovje\u010danstvo. Jo\u0161
+  jednom se pokazalo da su nauka i znanje kao i nau\u010dnoistra\u017eiva\u010dki
+  rad presudni u kreiranju i opstanku \u017eivota i civilizacijskih vrijednosti koje
+  ba\u0161tinimo.\\nStoga nas svaki put raduje promocija nove generacije diplomanata
+  i magistranata Univerziteta u Sarajevu koja budi nadu i od koje se o\u010dekuje
+  da ostvari vrijedna dostignu\u0107a koja \u0107e svima nama biti od koristi i koja
+  \u0107e bosanskohercegova\u010dko dru\u0161tvo u\u010diniti boljim mjestom za \u017eivot
+  svih nas.\\nDragi diplomanti i magistranti, danas kada slavimo va\u0161 uspjeh i
+  rezultate va\u0161ih nastojanja i postignu\u0107a, u \u010dasu kada poslije vi\u0161egodi\u0161njeg
+  upornog rada i odricanja i zvani\u010dno postajete nosioci akademskih titula, \u017eelim
+  vam \u010destitati u ime akademske zajednice i u svoje ime i poru\u010diti sljede\u0107e:
+  Da biste odr\u017eali korak sa vremenom, ne\u0107e vam biti dovoljno da samo producirate
+  nove ideje i proizvode, morat \u0107ete, prije svega ostalog, da mijenjate sebe
+  stalno iznova, jer kako se ritam promjena ubrzava, tako \u0107e i va\u0161a odgovornost
+  biti sve ve\u0107a, a va\u0161e kompetencije sve tra\u017eenije. Budite slobodni
+  ljudi i ne dopustite nikom da vam oduzme pravo na izbor stava i pravo na izbor vlastitog
+  puta, jer \u2013 studiraju\u0107i na Univerzitetu u Sarajevu \u2013 vi ste stekli
+  znanja kojima \u0107ete ne samo mijenjati stvarnost svih nas nego i graditi bolju
+  i ljep\u0161u budu\u0107nost. Budu\u0107nost je uvijek te\u0161ko predvidjeti; ona
+  je plod nu\u017enosti, slu\u010dajnosti, sudbine i volje. Zato ona u odre\u0111enoj
+  mjeri zavisi i od vas samih, \u0161ta od nje \u017eelite i \u0161ta \u0107ete s
+  njom u\u010diniti. Zada\u0107a svake nove generacije, pa i va\u0161e, jeste da svojim
+  znanjem i djelovanjem u dru\u0161tvu unosi promjene koje \u0107e biti generatori
+  napretka i prosperiteta. Vi ste ti koji ste svojim znanjem i kompetencijama pozvani
+  da mijenjate svoje okru\u017eenje kao svjedoci i sudionici koji ho\u0107e ne samo
+  da \u017eive nego i da znaju za \u0161ta \u017eive. Nau\u010dite biti va\u017eni
+  i ponosni na sebe, jer zavr\u0161etkom studija vi ulazite u jedan potpuno novi svijet,
+  svijet u kome vam ni\u0161ta ne\u0107e biti dato, a opet \u0107e sve biti zadato.
+  To je svijet u kome ne smijete biti zadovoljni time \u0161to razumijete ideje, nego
+  se uvijek morate pitati \u0161ta one donose i kako se\\nostvaruju. Jo\u0161 jednom,
+  vama i va\u0161im porodicama iskreno \u010destitam na ovom velikom uspjehu i \u017eelim
+  svako dobro u privatnom i javnom \u017eivotu\u201d, kazao je rektor u obra\u0107anju.\\nDenis
+  Zvizdi\u0107, zamjenik predsjedavaju\u0107eg Predstavni\u010dkog doma Parlamentarne
+  skup\u0161tine BiH koji je bio u ulozi gosta kazao je kako je jedna od klju\u010dnih
+  uloga univerziteta je da podstakne kriti\u010dki duh razmi\u0161ljanja, izgradi
+  stvarala\u010dki odnos prema dru\u0161tvenim tokovima i procesima.\\n\u201dU vremenu,
+  dalekose\u017enijih globalnih promjena, \u010diju dinamiku bez obzira na sve politi\u010dke
+  ekonomske, dru\u0161tvene i aktuelne pandemijske probleme, s kojima se u na\u0161oj
+  domovini suo\u010davamo, moramo neizostavno pratiti i \u010dije ishode nije lako
+  predvidjeti, BiH kao dr\u017eava, mi kao dru\u0161tvo i akademska zajednica i univerziteti,
+  a posebno UNSA, kao najve\u0107i i najpresti\u017eniji univerzitet u BiH, moraju
+  nastaviti sa svojom dosada\u0161njom misijom izgradnje dru\u0161tva znanja, obrazovanja
+  generacija kojima \u0107e istra\u017eiva\u010dki potencijal i inovativnost postati
+  okosnice ubrzanog razvoja\u201d, rekao je Zvizdi\u0107.\\nPoru\u010dio je kako je
+  bh. dru\u0161tvu neophodan sistem ljudskih vrijednosti \u010diji fundament mora
+  biti jaka, moralna supstanca, efikasan obrazovni sistem sa aplikativnim znanjima
+  i vje\u0161tinama te jasnim vrijednosnim kriterijima na kojima se mo\u017ee izgraditi
+  prosperitetno dru\u0161tvo znanja i jednakih \u0161ansi.\\n\u201dVe\u017eite svoje
+  profesionalne i personalne perspektive za BiH i njenu evropsku vrijednost. Bez vas
+  to ne\u0107e biti mogu\u0107e uraditi. Sa vama mo\u017eemo govoriti o progresivnoj
+  i prosperitetnoj budu\u0107nosti BiH jer va\u0161e vrijeme neminovno dolazi\u201d,
+  rekao je Zvizdi\u0107.\\nMinistar obrazovanja, mladih i nauke KS Anis Krivi\u0107
+  kazao je kako je obrazovanje paso\u0161 za budu\u0107nost.\\n\u201dUniverzitet kako
+  visoko\u0161kolska institucija vas oblikuje i pravi od vas armiju ljudi, koji \u0107e
+  razvijati na\u0161u dr\u017eavu, na\u0161e dru\u0161tvo, ekonomiju, tehnologiju,
+  diplomatiju, pravosu\u0111e i opet ono zbog \u010dega smo svi ovdje, a bez \u010dega
+  ne bismo imali razvijena dru\u0161tva, obrazovanje. S druge strane, vidjeli smo
+  va\u0161u borbu, va\u0161e bu\u0111enje. Glasno ste govorili i tra\u017eili ispunjenje
+  svojih zahtjeva. To \u0107e vas uvijek \u010dekati. Ako \u017eelite da vidite promjene,
+  budite glasni, borbeni, inovativni i \u0161irite nau\u010deno ovdje u BiH. Obrazovanje
+  je jednostavno du\u0161a dru\u0161tva dok prelazi s jedne generacije u drugu. Prije
+  svega, ostanite ovdje i unaprijedite na\u0161u zemlju\u201d, istakao je Krivi\u0107.\\nU
+  okviru sve\u010danosti je predstavljeno 200 dobitnika posebnih priznanja Univerziteta
+  u Sarajevu: \u201dZlatna zna\u010dka Univerziteta u Sarajevu\u201d, \u201dSrebrena
+  zna\u010dka Univerziteta u Sarajevu\u201d i \u201dPovelja Univerziteta u Sarajevu\u201d.\\nNa
+  osnovu odluke Senata Univerziteta u Sarajevu, najuspje\u0161niji studenti prvog
+  i drugog ciklusa studija primili su posebna priznanja.\\nU prvom ciklusu studija
+  46 diplomanata je odlikovano \u201cZlatnom zna\u010dkom\u201d, najvi\u0161im priznanjem
+  Univerziteta u Sarajevu, \u201dSrebrenom zna\u010dkom\u201d je odlikovan 81 diplomant,
+  a \u201dPovelju Univerziteta\u201c u Sarajevu dobila su dva diplomanta.\\nMe\u0111u
+  studentima drugog ciklusa studija 16 magistranata odlikovano je \u201dZlatnom zna\u010dkom\u201d,
+  34 \u201dSrebrenom zna\u010dkom\u201c i tri studenta su dobila \u201dPovelju Univerziteta
+  u Sarajevu\u201d. U integriranom studijskom programu I i II ciklusa jedan student
+  je odlikovan \u201dZlatnom zna\u010dkom\u201d, a 17 studenata \u201cSrebrenom zna\u010dkom\u201d.\\nNajbolji
+  studenti prvog ciklusa studija u 2020. godini sa prosjekom 10,00 su Tarik \u010corbo
+  sa Ma\u0161inskog fakulteta i Adisa Boli\u0107 sa Prirodno-matemati\u010dkog fakulteta.
+  Najbolji student drugog ciklusa studija u 2020. godini sa prosjekom 9,95 je Demir
+  Papi\u0107 sa Prirodno-matemati\u010dkog fakulteta.\\n\u201dIzlazi sjajna generacija
+  mladih ljudi koja zavr\u0161ava jedan period \u017eivota i prelazi u drugi , gdje
+  \u0107e svoje svoje znanje koristiti za dobrobit dr\u017eave i dalje se usavr\u0161avati
+  i prenositi znanje budu\u0107im generacijama. Pri\u010da moje generacije je u nastajanju
+  i tek treba da bude ispri\u010dana, a okosnica pri\u010de se temelji na znanju,
+  hrabrosti, visoko postavljenim eti\u010dkim i profesionalnim standarima\u201c, rekao
+  je Papi\u0107.\\nPatria\"", "\"\u201cU Veliku Britaniju sam prvenstveno oti\u0161la
+  kao Chevening stipendista Ministarstva vanjskih poslova Velike Britanije. Ova stipendija
+  se dodjeljuje u vi\u0161e od 100 zemalja svijeta najboljim studentima i studentima
+  s iskustvom u odre\u0111enom sektoru, s ciljem da se mladi vrate u svoje domovine
+  kako bi razvijali sektore za koje su se educirali. Kao stipendista aplicirala sam
+  za telekomunikacijsko i IT pravo na Univerzitetu Strathclyde u Glasgowu. Ovaj studij
+  je najstariji magisterij IT prava u svijetu\u201d, po\u010dela je svoju pri\u010du
+  Harbinja.\\nNakon zavr\u0161enog magisterija i visokog prosjeka profesorica Lilian
+  Edwards predlo\u017eila joj je da se prijavi na oglas za stipendiju za doktorski
+  studij na istom univerzitetu. I tu stipendiju je Edina dobila te je nastavila \u017eivot
+  u Velikoj Britaniji, upisav\u0161i doktorat o temi \u201cPrijenos digitalnog vlasni\u0161tva
+  poslije smrti na razli\u010ditim nalozima na internetu\u201d.\\n\u201cKlju\u010dne
+  ta\u010dke studija bile su dru\u0161tvene mre\u017ee, email i videoigrice. Prije
+  nego \u0161to sam formalno zavr\u0161ila doktorat, dobila sam stalni posao predava\u010da
+  na Univerzitetu Hertfordshire, sjeverno od Londona, gdje sam radila \u010detiri
+  godine. Nakon toga sam preselila u Birmingham, gdje sam dobila posao na Univerzitetu
+  Aston u zvanju docenta\u201d, govori Harbinja.\\nOsim predavanja i rada sa studentima
+  na Astonu, na\u0161a sagovornica bavi se i istra\u017eivanjem u oblastima prava
+  na privatnost, za\u0161titu li\u010dnih podataka, slobodu izra\u017eavanja, regulaciju
+  interneta i novih tehnologija.\\n\u201cMoja u\u017ea oblast je jo\u0161 uvijek pravo
+  privatnosti nakon smrti i naslje\u0111ivanje digitalnog vlasni\u0161tva i podataka.
+  Moj doktorat \u0107e uskoro biti objavljen u formi knjige, a objavila sam i desetine
+  stru\u010dnih \u010dlanaka. Aktivno sara\u0111ujem i s velikim tehnolo\u0161kim
+  kompanijama, kao \u0161to su Google, Facebook i Twitter. Naprimjer, u junu ove godine
+  sam bila u posjeti Facebooku, u njihovom sjedi\u0161tu u Menlo Parku kod San Francisca.
+  Tamo smo razgovarali o mom istra\u017eivanju i njihovim rje\u0161enjima za profile
+  umrlih korisnika\u201d, poja\u0161njava Harbinja.\\nNo, ni tu nije kraj njenim uspjesima.
+  Edina je nedavno zavr\u0161ila postdiplomski studij u oblasti biznisa i menad\u017ementa
+  u visokom obrazovanju, a u slobodno vrijeme volontira kao \u010dlanica nadzornog
+  odbora u nevladinoj organizaciji Open Rights Group koja se bavi aktivizmom i za\u0161titom
+  digitalnih prava. Osim toga, \u010dlanica je upravnog odbora srednje \u0161kole
+  koju poha\u0111aju djevoj\u010dice od 11 do 18 godina s migrantskom pozadinom. U\u010de\u0161\u0107e
+  se, ka\u017ee nam, ne pla\u0107a, nego se smatra \u010da\u0161\u0107u.\\nMada danas
+  kupi plodove svog rada, njeni po\u010deci su, ka\u017ee nam, bili veoma te\u0161ki.\\n\u201cS
+  obzirom na to da je stipendija pokrivala samo osnovne tro\u0161kove, bilo je potrebno
+  privi\u0107i se na sasvim druga\u010diji obrazovni i pravni sistem. Malo lak\u0161e
+  mi je bilo prilagoditi se novoj kulturi i mentalitetu i brzo sam stekla \u0161irok
+  krug prijatelja, porijeklom iz raznih krajeva svijeta. No, bilo je te\u0161ko prilagoditi
+  se studentskom na\u010dinu \u017eiota. Prvi put sam \u017eivjela u studentskom domu
+  u svojoj 27. godini. Moj posao i istra\u017eivanje zahtijeva stalno u\u010denje,
+  usavr\u0161avanje, rad s medijima, vladinim i nevladinim institucijama te pra\u0107enje
+  razvoja tehnologije. To nije uvijek jednostavno, a posebno je nekad te\u0161ko uskladiti
+  sve to s privatnim \u017eivotom. Ipak, ne mogu se po\u017ealiti i moram priznati
+  da sam u\u017eivala u tom putu do sada\u201d, iskrena je Harbinja.\\nSvoj posao,
+  ka\u017ee nam, shvata veoma ozbiljno, jer on sa sobom nosi veliku odgovornost.\\n\u201cDio
+  obrazovanja i razvoja mladih osoba je i u mojim rukama i to je, naravno, velika
+  odgovornost. Osim toga, moja istra\u017eivanja utje\u010du na razvoj uslova kori\u0161tenja
+  velikih kompanija, politike i legislative Velike Britanije i drugih zemalja te i
+  u tome le\u017ei doza odgovornosti. Ne mislim da je ovaj posao te\u017ei zbog \u010dinjenice
+  da sam \u017eena. Podjednako je odgovoran kao i za moje kolege mu\u0161karce. S
+  druge strane, kao feministica, posebno sam posve\u0107ena podr\u0161ci svojim studenticama
+  i radu na razvoju njihovog samopuzdanja, ambicije i drugih vje\u0161tina koje im
+  mogu biti od koristi u karijeri i \u017eivotu. Trudim se da ih motiviram da ispolje
+  svoju individualnost, da se ostvare, budu beskompromisne i hrabre\u201d, isti\u010de
+  ova uspje\u0161na Bosanka.\\nU Bosnu i Hercegovinu i rodno Sarajevo Edina dolazi
+  najmanje dva puta godi\u0161nje. Ka\u017ee, u zavisnosti od poslovnih obaveza. No,
+  sretna je, dodaje, da je okru\u017eena ljudima koje voli i da ima podr\u0161ku porodice
+  i prijatelja.\\n\u201cU Velikoj Britaniji, a i u BiH, okru\u017eena sam ljudima
+  koji me prihvataju, shvataju, cijene, podr\u017eavaju i vole. Ako uzmemo u obzir
+  obje zemlje, to je prili\u010dno veliki krug ljudi razli\u010ditog dru\u0161tvenog
+  i ekonomskog porijekla. Dio mojih prijatelja ima akademsku pozadinu i radi na univerzitetima
+  u Velikoj Britaniji i BiH, dio njih su aktivisti, neki rade za vladine institucije,
+  privatni sektor, a mnogi od njih su i studenti, muzi\u010dari, umjetnici\u2026 Moja
+  cijela porodica \u017eivi u Sarajevu. Uz najbolje prijatelje iz Tre\u0107e gimnazije,
+  roditelji, sestra, zet i sestri\u0107 su mi najve\u0107a podr\u0161ka, ali \u010desto
+  i o\u0161tri kriti\u010dari te povod da preispitam svoje odluke i puteve\u201d,
+  priznaje Harbinja.\\nNa koncu, kad sumira sve dosada\u0161nje rezultate, najvi\u0161e
+  je, isti\u010de, ponosna na \u010dinjenicu da je uz sve izazove uspjela sa\u010duvati
+  fokus na razvoj raznih sfera svog \u017eivota.\\n\u201cPri tome mislim da, bar meni,
+  nije dovoljno biti ostvaren samo kroz intelektualni rad, posao ili intimne i porodi\u010dne
+  veze. Moj put je uvijek uklju\u010divao i razvoj kroz umjetnost, duhovnost i sport.
+  Kada bih morala izdvojiti ne\u0161to na \u0161to sam najvi\u0161e ponosna, onda
+  \u0107u pribje\u0107i kli\u0161eu i re\u0107i da su to moje veze s prijateljima,
+  porodicom i ljudima koji su ostavili trag u razli\u010ditim fazama mog \u017eivota.
+  Ah da, bit \u0107u veoma ponosna ako istr\u010dim svoj prvi polumaraton koji se
+  odr\u017eava u oktobru u Birminghamu\u201d, kroz osmijeh ka\u017ee Harbinja.\\nBiznis.ba
+  / Klix.ba\"", "\"Kako se situacija u Libiji zakomplikovala, odlu\u010dili su da
+  vide kakva je mogu\u0107nost saradnje i zajedni\u010dkog nastupa na nekim novim
+  tr\u017ei\u0161tima. Za bh. firme saradnja sa turskim kompanijama je izuzetno va\u017ena,
+  jer su najja\u010de firme imale 90 posto poslova u Libiji.\\nZa vode\u0107e bh.
+  kompanije iz gra\u0111evinskog, metalnog i elektroenergetskog sektora Libija je
+  bila najve\u0107e tr\u017ei\u0161te. Kako se situacija u Libiji pogor\u0161ala i
+  nema naznaka kada bi se situacija mogla smiriti, bh. privrednici odlu\u010dili su
+  sagledati i mogu\u0107nost otvaranja novih tr\u017ei\u0161ta.\\nAdnan Ibi\u0161evi\u0107,
+  generalni direktor firme Bosna es, koja se bavi in\u017einjeringom i izvo\u0111enjem
+  radova u oblasti nafte i petrohemije, ka\u017ee kako je u razgovoru sa turskim privrednicima
+  otvorio mogu\u0107nost saradnje u Venecueli.\\n\u201eOno \u0161to svi mi moramo
+  poku\u0161ati da uradimo je da se preorijenti\u0161emo na druga tr\u017ei\u0161ta,
+  a ovo je jedna od prilika da sa na\u0161im iskrenim prijateljima iz Turske probamo
+  nastupati na drugim tr\u017ei\u0161tima Bliskog istoka, a upravo sad \u010dujem
+  ovdje da je Turska ozbiljan kandidat za razvijanje poslova posebno u oblasti nafte
+  i petrohemije u Venecule, pa \u0107emo vidjeti. Pored toga na lokalnom tr\u017ei\u0161tu
+  svi moramo poku\u0161ati da uradimo \u0161to vi\u0161e. Na\u017ealost, na\u0161e
+  doma\u0107e tr\u017ei\u0161te je poprili\u010dno ograni\u010deno za kompanije iz
+  oblasti in\u017einjeringa, kao i manje-vi\u0161e i za ove ostale firme o kojima
+  je rije\u010d i koje su radile u Libiji\u201c, kazao je Ibi\u0161evi\u0107.\\nSaradnja
+  sa turskim kompanijama \u010dini se kao dobra prilika za zajedni\u010dki nastup
+  na tr\u017ei\u0161tima na kojima bh. kompanije do sada nisu bile prisutne, ka\u017ee
+  Veselin Polja\u0161evi\u0107, predsjednik Vanjskotrgovinske komore BiH.\\n\u201eAzijsko-pacifi\u010dka
+  zona jeste mjesto gdje se stvari de\u0161avaju, odnosno gdje su aktivnosti na vrlo
+  visokom nivou i mislimo da na\u0161e kompanije mogu na\u0107i zajedni\u010dki interes.
+  Kad je rije\u010d o Rusiji, o pripremama za olimpijadu, u Azerbejd\u017eanu, u Turskoj,
+  na cijelom tom podru\u010dju stvarno de\u0161avaju se krupni zahvati, a na\u0161a
+  operativa mislim da mo\u017ee tamo da radi dobre poslove i da zaposli i ma\u0161ine
+  i ljude. S druge strane imamo dobru volju komore Turske, pa i privrednika da, da
+  li u funkciji ili u obliku zajedni\u010dkog nastupa ili na duge na\u010dine, na\u0161i
+  kapaciteti imaju alternativu u odnosu na ovo \u0161to imamo danas\u201c, ocjenjuje
+  on.\\nOtvoreni za saradnju\\nFaruk \u010cengi\u0107, porijeklom Bosanac ali ro\u0111en
+  u Turskoj, ima gra\u0111evinsku firmu i raspolo\u017een je za saradnju sa bh. privrednicima
+  na tre\u0107im tr\u017ei\u0161tima.\\n\u201eZainteresovanost postoji. Naro\u010dito
+  ako se udru\u017ee kapaciteti, mo\u017eemo raditi zajedno i na ve\u0107im projektima.
+  Naravno, i projekti i ideje bh. firmi su itekako dobro do\u0161le\u201c, poru\u010duje
+  \u010cengi\u0107.\\nSinan Civril, iz kompanije koja se bavi savjetovanjem za razvoj,
+  ka\u017ee da je zainteresovan za saradnju sa firmama iz tog sektora. Ina\u010de,
+  njegova firma anga\u017eovana je u Kataru i nekim drugim arapskim zemljama.\\n\u201eVjerujem
+  da turski privrednici mogu investirati i u BiH znatna sredstva, ali naravno ukoliko
+  do\u0111e do politi\u010dke stabilizacije ovdje. Trenutno je to glavna prepreka.
+  Ako se situacija stabilizuje, mi smo itekako zainteresovani za investiranje u cijeli
+  ovaj region, jer je ovo interesantno podneblje, sa velikim potencijalima. Naravno,
+  mi smo imali priliku sara\u0111ivati sa bh. firmama u inostranstvu i imamo jako
+  dobra iskustva\u201c, navodi Civril.\\nEnver Ajanovi\u0107, izvr\u0161ni direktor
+  firme Euroasfalt, \u010dlanice grupacije BH. konzorcija, ka\u017ee kako su imali
+  priliku sara\u0111ivati sa turskim firmama svojevremeno i u Iraku, potom u Libiji,
+  te da ima jo\u0161 mnogo tr\u017ei\u0161ta na kojima mogu nastaviti sardanju.\\n\u201eVelike
+  firme s kojima smo zajedno radili na izgradnji ogromne brane u Iraku. Taj projekat
+  je bio vrijedan milijardu i 700 miliona dolara. Rat je po\u010deo, u\u010dinio je
+  svoje i imali smo velike gubitke i mi i oni itd. BH. konzorcij je velika firma.
+  Pojedina\u010dno svaka firma u konzorciju radi samostalno. Trenutno na\u0161a firma
+  radi sa joint venture firmom jednom u Abu Dabiju, gdje radimo uglavnom in\u017einjering,
+  zna\u010di menad\u017ement. Radna snaga je njihova. I sad smo isto u fazi u dogovaranja
+  sa joint venture firmom Al-sidijem iz Saudijske Arabije, koji je trenutno u Sarajevu.
+  S te strane mi kao Euroasfalt ve\u0107 imamo neke saradnje sa drugim stranim firmama.
+  Kao grupacija tako\u0111er idemo na vanjsko tr\u017ei\u0161te. Sad je bio Balkan
+  Biznis Forum, u Americi gdje su i\u0161li na\u0161i predstavnici iz Konzorcija i
+  preko ameri\u010dkih firmi nastojimo da u\u0111emo na ira\u010dko tr\u017ei\u0161te,
+  gdje bismo mogli sa turskim firmama zajedni\u010dki napravimo joint venture i zajedni\u010dki
+  organizujemo projekata. Mi smo otvoreni za saradnju sa svima njima, tu smo da na\u0111emo
+  zajedni\u010dki jezik i da izvr\u0161avmo projekte\u201c, kazao je Ajanovi\u0107.\\nVanjskotrgovinska
+  komora BiH uskoro priprema i poslovne susrete sa privrednicima iz Norve\u0161ke,
+  Pakistana, \u010ce\u0161ke, koji bi mogli rezultirati saradnjom i sa kompanijama
+  iz tih zemalja.\\nKriza u arapskom svijetu\\nAnalize, komentare, intervjue, fotografije
+  i videa o me\u0111unarodnoj akciji protiv Libije, kao i o situaciji u Egiptu i drugim
+  arapskim zemljama nakon protesta i promjena, mo\u017eete na\u0107i ovde.\"", "\"8.
+  3. 2022.\\n\u010cestitamo Me\u0111unarodni dan \u017eena svim gra\u0111ankama i
+  gra\u0111anima u Republici Srbiji!\\nIako su u dosada\u0161njem periodu postignuti
+  zna\u010dajni rezultati, pa je na \u010delu Vlade Republike Srbije premijerka, imamo
+  dve potpredsednice, samu Vladu \u010dini skoro 50% \u017eena, u parlamentu ima skoro
+  40% \u017eena, doneti su relevantni zakoni i strategije, polo\u017eaj \u017eena
+  treba dodatno unapre\u0111ivati.\\nSrbiji je do pune rodne ravnopravnosti potrebno
+  59 godina. U biznis sektoru je samo 4% \u017eena na rukovode\u0107im pozicijama,
+  dok 56% \u017eena ima ni\u017eu platu od svojih kolega, a nepla\u0107eni rad \u017eene
+  ve\u0107i od prose\u010dne plate u Srbiji, \u017eene iz vi\u0161estruko marginalizovanih
+  grupa su u jo\u0161 nepovoljnijem polo\u017eaju.\\nU posebno te\u0161kom polo\u017eaju
+  su \u017eene iz pojedinih kategorija: Romkinje, \u017eene sa invaliditetom, \u017eene
+  iz rurala, starije \u017eene, LBT \u017eene. One su u mnogo lo\u0161ijem polo\u017eaju
+  u Srbiji i imaju ote\u017ean pristup pravima i uslugama iz oblasti obrazovanja,
+  socijalne za\u0161tite, zdravstva, zapo\u0161ljavanja, za\u0161tite od nasilja i
+  diskriminacije. U riziku su od vi\u0161estruke diskriminacije, izlo\u017eene su
+  specifi\u010dnim oblicima nasilja i u lo\u0161ijem su polo\u017eaju i u pore\u0111enju
+  sa \u017eenama iz op\u0161te populacije i u pore\u0111enju sa mu\u0161karcima iz
+  svojih grupa.\\nPandemija koja je ve\u0107 dve godine prisutna pokazala je koliko
+  su rodne nejednakosti duboko ukorenjene. Najve\u0107i teret pandemije je pao na
+  \u017eene, koje \u010dine ve\u0107inu zaposlenih u sektoru zdravstva I socijalne
+  za\u0161tite, koje su bile izlo\u017eene najve\u0107im rizicima od zaraze, te\u0161kim
+  uslovima rada I dodatnim optere\u0107enjima I u porodici I doma\u0107instvu, brizi
+  o deci I starijima.\\nProgram \u201cInkluzija Roma I drugih marginalizovanih grupa\u201d
+  podr\u017eava \u017eene I devoj\u010dice da ostvare svoj pun potencijal, da se dodatne
+  osna\u017ee, edukuju, pitaju o svom polo\u017eaju I postanu ravnopravne gra\u0111anke
+  Republike Srbije. Slavimo \u017eene, slavimo razli\u010ditost, slavimo pravo na
+  jednake mogu\u0107nosti!\"", "\"Vuk Jeremi\u0107: Mogu\u0107 historijski dogovor
+  Srba i Albanaca\\nMinistar spoljnih poslova Srbije Vuk Jeremi\u0107 izjavio je da
+  \u0107e se mogu\u0107nost postizanja istorijskog kompromisa izme\u0111u Srba i Albanaca
+  pove\u0107ati kada Me\u0111unarodni sud pravde svoje mi\u0161ljenje o jednostrano
+  progla\u0161enoj nezavisnosti Kosova po\u0161alje Generalnoj skup\u0161tini UN.
+  On je rekao da je Srbija je spremna da bude konstruktivna i fleksibilna oko statusa
+  Kosova nakon \u0161to Me\u0111unarodni sud pravde da mi\u0161ljenje. U govoru na
+  40. redovnom zasjedanju Generalne skup\u0161tine Organizacije Ameri\u010dkih Dr\u017eava
+  (OAD) u Limi, Jeremi\u0107 je rekao da je Srbija spremna da se, sa dobrim namjerama,
+  uklju\u010di u dijalog koji bi rje\u0161enje kosovskog problema u\u010dinio prihvatljivim
+  za sve strane.\\n\\\"Srbija nikada ne\u0107e prihvatiti nametnuto rje\u0161enje
+  koje bi jednostrano ukinulo njena suverena prava na Kosovu, jer to nije ni legitimno,
+  ni odr\u017eivo\\\", rekao je Jeremi\u0107 i dodao da \u0107e Srbija u predstoje\u0107im
+  pregovorima biti konstruktivna, jer rje\u0161enje koje treba prona\u0107i zahtjeva
+  fleksibilnost svih strana. Jeremi\u0107 je dodao da se posljedice pozitivnog rje\u0161enja
+  pitanja Kosova ne bi osjetile samo u ovom dijelu Balkana, ve\u0107 bi predstavljale
+  zna\u010dajan podsticaj za sve one koji su posve\u0107eni o\u010duvanju me\u0111unarodnog
+  poretka 21. vijeka zasnovanog na zakonima. \\\"Jednostrano progla\u0161enje nezavisnosti
+  od albanskih vlasti na\u0161e ju\u017ene pokrajine Kosovo i Metohija, predstavlja
+  udar u samo srce tih osnovnih principa svetskog i regionalnog upravljanja\\\", rekao
+  je Jeremi\u0107 i dodao da separatisti na Kosovu nisu uspjeli da na silu izmjene
+  granice Srbije zahvaljuju\u0107i velikoj podr\u0161ci vi\u0161e od tri \u010detvrtine
+  zemalja OAD, koje nisu priznale jednostrano progla\u0161enu nezavisnost Kosova.
+  (Kliker.info-Srna)\\nKomentari\"", "\"Betsimisaraka\\nBetsimisaraka (\u0161to na
+  malaga\u0161kom zna\u010di puno nedjeljivih[2] odnosno - ujedinjeni) su drugi po
+  veli\u010dini narod na Madagaskaru sa oko 2 830 000 pripadnika (oko 14.9 % [3] svog
+  stanovni\u0161tva), rasprostranjen du\u017e uskog obalnog pojasa na isto\u010dnoj
+  obali.\\nI Betsimisarake kao i Merine govore malga\u0161kim jeziku [2]koji je nasli\u010dniji
+  jugoisto\u010dnim Barito jezicima. Oni govore dva dijalekta Sjeverni i Ju\u017eni
+  Betsimisaraka. Ve\u0107ina Betsimisarake su rasni mje\u0161anci izme\u0111u Bantu
+  crnaca i malga\u0161ko-indonezijskih predaka.\\nBetsimisarake se bave poljoprivredom,
+  trgovinom, pomorstvom i ribarstvom.[2]\\nBetsimisarake je kao narod ujedinio po\u010detkom
+  18. vijeka Ratsimilaho. [2]On je osnovao Kraljevstvo Betsimisaraka - u kojem je
+  ujedinio dotad neprijateljska plemena koja su \u017eivjela du\u017e 650 km isto\u010dne
+  obale. Njegovo kraljevstvo uru\u0161ilo se vrlo brzi nakon njegove smrti, ve\u0107
+  za njegova tre\u0107eg nasljednika 1791. Ve\u0107ina Betsimisaraka tada je podpala
+  pod vlast Kraljevstva Merina koje je opstalo sve do dolaska francuske kolonijalne
+  uprave 1890.\\nBetsimisarake su u historiji bili poznati kao vje\u0161ti pomorci
+  i gusari. Plovili su velikim kanuima koji su mogli primiti 50 i vi\u0161e \u010dlanova
+  posade, u flotama od nekoliko hiljada ljudi i plja\u010dkali i robili Komorske otoke
+  sjeverozapadno od Madagaskara. Mnogi od tih robova dovedenih sa Komora, danas su
+  \u010dlanovi Naroda Betsimisaraka. Betsimisarake su tako\u0111er bili vje\u0161ti
+  ribari i kitolovci, koji su slu\u017eili kao mornari na evropskim brodovima od davnina.\\nSve
+  do po\u010detka 18. vijeka Betsimisarake, su jo\u0161 bili podjeljeni na tri plemena;
+  Tsikoa (ili Betanimena) koji su \u017eivjeli na jugu, Varimo u sredini i Anteva,
+  koji su \u017eivjeli na sjeverozapadu. Svako od tih plemena bilo je kulturolo\u0161ki
+  i jezi\u010dno posebno, tako da su periodi\u010dki ratovala jedna protiv drugih.
+  Te sukobe poticali su i brojni evropski trgovci koji su se namno\u017eili tokom
+  17. i 18. vijeka, zainteresirani za prodaju oru\u017eja, u zamjenu za rob]]ove.
+  Betsimisarake je ujedinio njihov prvi kralj Ratsimilaho oko 1710., ina\u010de mulat,
+  sin engleskog pirata Tom Tewa (ili Thomas White) i domoroda\u010dke princeze Rahene
+  iz plemena Anteva.\\nRatsimilaho je svoj pohod na vlast zapo\u010deo pobjedom nad
+  tada mo\u0107nim kraljem Ramananom iz plemena Tsikoa, koji je navalio na sjevernu
+  obalu, da se do\u010depa unosne trgovine robljem sa evropljanima. Nakon pobjede
+  nad Tsikoima Ratsimilaho je uspio \u017eenidbom sa k\u0107erkom kralja Kaleheka
+  iz plemena Varimo ste\u0107i saveznika u borbi protiv Tsikoa koji su se nakon smrti
+  svog kralja opirali vlasti Ratsimilaha, tako da je nakon dugih borbi ujedinio isto\u010dnu
+  obalu. Me\u0111utim njegovo kraljevstvo po\u010delo se raspadati nakon njegove smrti
+  1750., kad je vlast preuzela njegova \u017eena Biti. Stvar se pogor\u0161ala kad
+  je vlast preuzeo njegov sin, tad su se obnovile stare plemenske netrpeljivosti -
+  tako da je to ola\u0161alo posao Merinama i njihovu kralju Radami koji je zauzeo
+  Kraljevstvo Betsimisaraka 1817. Od tad su Betsimisarake \u017eivjeli kao podanici
+  Kraljevstva Merina sve dok Francuzi nisu okupirali otok 1890.\\nTeritorij na kojem
+  obitavaju Betsimisarake je uski obalni pojas od nekih 640 km, na isto\u010dnoj obali
+  Madagaskara od rijeke Mananara na jugu, sve do u\u0161\u0107a rijeke Bemarivo na
+  sjeveru. Ve\u0107i gradovi u kojima \u017eive Betsimisarake su; Toamasina, Fenoarivo
+  Atsinanana i Maroansetra\"", "\"Predsjednik Republike Srpske Milorad Dodik u svom
+  skandaloznom nastupu iznio je brojne neistine.\\nDodik je kazao da je Sarajevsko-romanijska
+  regija kolijevka Republike Srpske, a slavni Sarajevsko-romanijski korpus Vojske
+  Republike Srpske simbol hrabrosti i patriotizma.\\nPovodom obilje\u017eavanja \u201cDana
+  odbrane Sarajevsko-romanijske regije\u201d, Dodik je izjavio Srni da su u srcima
+  srpskog naroda i danas veoma \u017eive slike izbjegli\u010dkih kolona sarajevskih
+  Srba koji sa zave\u017eljajima, po vejavici i hladno\u0107i napu\u0161taju svoje
+  domove, nose\u0107i sa sobom i svoje mrtve.\\n\u201cTe jezive scene nisu zabilje\u017eene
+  nigdje u svijetu. Ta stra\u0161na sudbina zadesila je na\u0161 srpski narod, sarajevske
+  Srbe koji su najve\u0107e \u017ertve proteklog gra\u0111anskog rata u BiH. \u0408edni
+  su napustili Sarajevo odmah na po\u010detku rata 1992. godine u strahu za svoje
+  \u017eivote, ostavljaju\u0107i sve \u0161to su sticali decenijama, ostavljaju\u0107i
+  svoje korijene, drugi su izlazili iz Sarajeva kako i kad su mogli, a posljednji
+  masovni egzodus Srba iz Sarajeva dogodio se nakon Dejtona\u201d podsjetio je Dodik.\\nDanas,
+  rekao je Dodik, Sarajevo je grad bez Srba, jer ih je ostalo tek toliko da se ka\u017ee
+  da su na nivou statisti\u010dke gre\u0161ke. Dodik je za najdu\u017eu opsadu jednog
+  grada u modernoj historiji kazao da je nije bilo.\\n\u201cGrad u kojem je \u017eivjelo
+  skoro 160.000 Srba, danas je potpuno etni\u010dki o\u010di\u0161\u0107en. Sve \u0161to
+  su znameniti sarajevski Srbi gradili i stvarali u tom gradu vi\u0161e ne postoji,
+  a njihove zasluge ne priznaju se ni pukim nazivom ulica. I to su promijenili. Sve
+  to dovoljno govori koliko je politi\u010dko Sarajevo ogrezlo u mr\u017enji i otporu
+  prema svemu \u0161to nije muslimansko. Za njih je istina samo ona iz njihovog ugla
+  posmatranja, koju \u017eele da svima serviraju. Dokle ide njihova politi\u010dka
+  provokacija prema srpskom narodu i Republici Srpskoj, govori i to da su na table
+  na ulazu u taj grad smrti za srpski narod napisali da je bio 1.425 dana pod opsadom,
+  \u0161to je notorna la\u017e. Tokom rata Sarajevo nije bilo ni pod opsadom, niti
+  je bilo opkoljeno, ve\u0107 je bilo etni\u010dki podijeljen grad\u201d istakao je
+  Dodik.\\nProtjerani Srbi iz Sarajeva, rekao je Dodik, na\u0161li su svoje uto\u010di\u0161te
+  u Republici Srpskoj, koja je njihova istinska domovina, dok su neki od njih svoj
+  novi dom sagradili u Srbiji ili su rasuti \u0161irom svijeta.\\n\u201cDanas sa ponosom
+  mo\u017eemo re\u0107i da je Republika Srpska stvorena u miru, a zahvaljuju\u0107i
+  na\u0161im hrabrim borcima, odbranjena u ratu. Posebno \u017eelim da naglasim da
+  je odbrana Sarajevsko-romanijske regije bila jedan od najte\u017eih i najzahtjevnijih
+  zadataka Vojske Republike Srpske. I zato nikada nijedna na\u0161a \u017ertva ne
+  smije biti zaboravljena, jer samo na ovom podru\u010dju i u odbrani ove regije \u017eivote
+  je polo\u017eilo vi\u0161e od 4.000 hrabrih srpskih boraca\u201d naglasio je Dodik.\\nPodsjetimo,
+  opsada Sarajeva po\u010dela je 5. aprila 1992. godine, a trajala je 1.425 dana;
+  tokom opsade ubijen je 11.541 gra\u0111anin Sarajeva, me\u0111u njima 1.601 dijete.\\nGeneral
+  Stanislav Gali\u0107 iz korpusa \u010diju je \u201cslavnu pro\u0161lost\u201d komentarisao
+  Dodik dobio je do\u017eivotni zatvor zbog artiljerijskih i snajperskih napada na
+  Sarajevo.\\nDodikova izjava ve\u0107 je izazvala mnoge reakcije politi\u010dkih
+  partija iz BiH kao i drugih zvani\u010dnika i aktivista.\""]'
 src_ngrams: '{"1": [[["godine"], 7304124], [["dana"], 2609066], [["godina"], 2558031],
   [["dok"], 2286589], [["rekao"], 2262930]], "2": [[["republike srpske"], 752102],
   [["crnoj gori"], 569161], [["pro\u0161le godine"], 443672], [["prvi put"], 399408],
